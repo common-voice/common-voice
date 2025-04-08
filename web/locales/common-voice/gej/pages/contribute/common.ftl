@@ -27,7 +27,7 @@ submit-form-action = sɔ nú ɖó ɖa.
 
 ## Reporting
 
-report = sà/ sãma.
+report = gblɔ̃̀ nyà ɖo ɖa.
 report-title = wɔ̀ xoma ɖo ɖa.
 report-ask = tagbã kɛwo mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o. / kuxe kɛwo mì lě ɖo  sɔ kùɖo nyàgbè kèya ŋúti o.
 report-offensive-language = gbɔɖìàmènyàwo/ kplamàsenyàwo/ àmèmàbùmàbǔgbèwo.
@@ -97,3 +97,4 @@ contribution-misreadings-example-3-explanation = nyàlélé sò kéŋugbɔ̀xu�
 contribution-misreadings-example-4-title = Trias bé jinozɔrijɔ̀asuwo. ɛ̃̀ɛ
 contribution-misreadings-example-4-explanation = lé wu nuŋɔ̀ŋlɔ̌ kè híã a.
 contribution-misreadings-example-5-title = sɔ̀ mè la nyɔ́ kpoe
+contribution-varying-pronunciations-title = nuyɔyɔ kèwo to vò.

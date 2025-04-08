@@ -37,7 +37,8 @@ submit-form-action = sɔ ɖo ɖa
 
 ## Reporting
 
-report = ddddd
+report = nu, na kaklan
+report-title = asɔ enyɔleɖi ɖo ɖa
 
 ## Speak & Listen Shortcuts
 
