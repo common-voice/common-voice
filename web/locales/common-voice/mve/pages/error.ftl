@@ -9,3 +9,5 @@ error-clip-upload-server = ايئيَ ڪلِپ رِي اپ لوڊ سرور ۾ ن
 error-title-404 = ميھيَ ٿون ھارو اي پئيج ڪونِي جوئيَ ݾگيا ھون
 error-content-404 = ٿيَ سگيَ مھورِي <homepageLink>ھوم پئيج</homepageLink>مدد ڪر ھيَ؟ سوال پوڇڻ ھارو مھربونِي ڪريَ<matrixLink>ميٽرڪس ڪميونٽي چيٽ</matrixLink>، ۾ شامل ھو،<githubLink>گِٽ ھب</githubLink>زريعي سائيٽ ريَ مسئلون رِي جانچ ڪرو يا<discourseLink>مھوري  ڊسڪورس فورمز</discourseLink>تيَ جائو۔
 error-title-503 = مھيَ غير متوقع بندش رو تجربو ڪرون پڙيا
+error-content-503 = سائيٽ ڇيڪي ۾ ڇيڪي واپس شروع ڪي جاھي۔ تازي معلومات ھارو مھربونِي ڪريَ <matrixLink>ميٽرڪس ڪميونٽي چيٽ</matrixLink>۾ شامل ھو يا<githubLink>گِٽ ھب</githubLink>يا<discourseLink>مھوري ڊسڪورس فورمز</discourseLink>تيَ جائو تو جون سائيٽ ريَ تجربيَ ري مسعلون نيَ جمع ڪرائو ھان اوئون رِي نگراني ڪريَ ݾگون۔
+error-code = نقص { $code }
