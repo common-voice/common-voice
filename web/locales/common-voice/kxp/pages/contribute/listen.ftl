@@ -19,6 +19,10 @@ validate-readings-coming-soon = جائز سهي ڀُڻوو آوي رون سي
 
 listen-contribute-menu-tooltip = سهي ڀڻوون نقل نو جائزو
 validate-readings-menu-item-tooltip = ڀڻيا واۯو پوتان نِي ٻولي مان وري رڪارڍ ڪري
+review-transcriptions-menu-item-tooltip = استعمال ڪريا واۯو جمع ڪرل نقل نو جائزو لي۔
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = پنسد ني فهرست هانڀۯو
+validate-readings-menu-item-aria-label = برادري مان منکان نا طراف ٿِي جمع ڪرل ڀڻتر نين زوئو۔
+review-transcriptions-menu-item-aria-label = پوتان نِي ٻولِي مان استعمال ڪريا واۯو  جمع ڪرل نقل نو جائزو لي۔
