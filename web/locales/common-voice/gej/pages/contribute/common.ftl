@@ -1,5 +1,5 @@
 action-click = tɔ àlɔvi nú ji
-action-tap = zī nu ji
+action-tap = né nɔ̀nɔ̀mèɖé do ŋùkumè ɖo ɖa ye wò kpɔ́ bé sédodo wãwo ma dɔ̃ ji wò a, zã̌ àɖàŋù. né wò  mu nya lékè wò lǎ wɔ̀ tutu o a, zĩ̌ bùtɔ̃  " vǎ yì" ji  né a jè nyàlélé kè gbɔ̃̀nà ji.
 contribute = dó àlɔ àmè / kpé ɖo amè ŋuti
 review = kù nu mè kpɔ / glò nu mè kpɔ
 skip = va yi
