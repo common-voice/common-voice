@@ -19,6 +19,7 @@ speak-loading-error = miɖetéŋ gbe kpɔ nyɔgbebuwo ayɔ o. Migbugbɔ atikpɔ
 record-button-label = mile mio gbe
 share-title-new = mikpe de mi ŋu ne miagbe kpɔ gbe yeyúbuwo
 keep-track-profile = do tɔwo ŋkɔyiyi kpɔ tó nɔnɔme ɖeɖefia ɖeká me
+login-to-get-started = minɔ kame alo miŋlɔ ŋkɔ ne miasɔ tɔ́jí
 
 ## Reporting
 
