@@ -49,6 +49,7 @@ report-different-language-detail = wo ŋlɔnyɔgbe ɖo gbe ce yí tovo nɔ kiŋ
 report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu
 report-difficult-pronounce-detail = enyɔkpe kuɖo enyɔgbe ɖekawo gbɔnu yɔyɔ
 report-offensive-speech = enyɔ dabiameŋu
+report-offensive-speech-detail = enyɔsesetɔxɛɔ
 
 ## Speak & Listen Shortcuts
 
