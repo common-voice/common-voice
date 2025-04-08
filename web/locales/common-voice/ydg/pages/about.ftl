@@ -92,6 +92,7 @@ about-playbook-how-record-content-5 = <accuracyLink>صحیح پے کڑا دیر 
 
 ## How to grow language
 
+about-playbook-how-grow-language = ماخ دے کامن وئس ڤے یو زبان دے څس طریقو ژے اپیرن ڤینم۔
 
 ## How to validate
 

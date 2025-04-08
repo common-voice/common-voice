@@ -85,6 +85,10 @@ citation =
 self-citation = پوتا نو حوالو
 self-citation-explanation = زو تمين پوتيَ مواڌ لڇو سي تو تمين پوتا نو حوالو آويَ نمونيَ ٿِي ۮشو۔
 adding-sentences-subheader-length = لنٻائِي
+adding-sentences-subheader-length-explanation = جُملو 15 لڦظان ٿِي گھٽ هوئيَ
+adding-sentences-subheader-spelling-punctuation = هجيَ انين زير زڀر نان نيشانَ
+adding-sentences-subheader-spelling-punctuation-explanation = جُملو لازمِي سئِي هِجيَ ٿل هوئيَ۔
+adding-sentences-subheader-speakable = ٻولِيا لائيق
 
 ## Question collection ids
 

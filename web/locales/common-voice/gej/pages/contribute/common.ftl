@@ -80,6 +80,7 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-page-description = sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
 contribution-for-example = kpɔwɔ́ɛ
 contribution-misreadings-title = nuhɛ̃̀hlɛ̃gbàdàdǎwo
 contribution-misreadings-description = né mì le sè nu a, mì kpɔ égbɔ nyɔɛɖé bé nu kè wó lé a yé wó ŋlɔ̀ tututu. mì gbé né nyí àgbàdàdǎ viɖéwo kpòo. <br />. àgbà kè wó dànà éji éji a woe nyi kèyàwo:

@@ -32,6 +32,8 @@ vote-no = oo
 datasets = ...........
 languages = egbewo
 about = sɔ kuɖe
+partner = kadodo
+submit-form-action = sɔ ɖo ɖa
 
 ## Reporting
 
