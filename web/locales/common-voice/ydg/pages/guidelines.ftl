@@ -34,6 +34,7 @@ misreadings-example-4 = استر مڅھی کورمو ژے تو پیرو نیغو
 background-noise-example-1 = ٹرائزیکن استر ڈائناسور۔
 background-noise-example-2 = [ګرفیا] ٹرائزیکن [خوفیا] استر ڈائناسور
 background-noise-example-3 = استر دنو ٹرائزیک[خیفتا/خوفیا]
+background-noise-example-4 = [شور] استر ڈائنوسار[شور]
 
 ## Sentence collection nav ids
 
