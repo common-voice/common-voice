@@ -34,6 +34,10 @@ about-is-it-valid-text = آواز نا ڪلپ سهي هوئي، زا ايڪ اس
 about-yes-votes = هووي پسند سي
 about-yes-votes-text = عام آواز نين ڊيٽا سيٽ مان لايا هارو،  ٻي ڌار استعمال مان  آواز نو ڪلپ سهي هوئي
 about-no-votes = پسند نٿي
+about-no-votes-text = زار ڪوئي منک آواز نا ڪلپ نين رد ڪري سي، تو او قطار مان پاسون آوي سي۔ وري رد ٿائي تو آواز نو ڪلپ سڌو مقام مان زائي سي۔
+about-dataset-new = عام آواز ڊيٽا سيٽ
+about-dataset-new-text = عام آواز نا ڊيٽا سيٽ هزارين نمونا سي ۔زي آواز ني ترقي نين اوۯڇا نا اوزار مان مدد ڪري سي۔
+about-clip-graveyard = مقام ڪلپ
 
 ## Community Playbook Content
 ## What is a language
