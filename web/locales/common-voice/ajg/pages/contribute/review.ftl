@@ -49,3 +49,7 @@ sc-criteria-item-6 = Ne numekukuɖe de gbe lɛ yí nawɔ so enyɔgbewo ŋú l�
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = kunume<icon></icon> kpɔ bé enyɔgbeɛ sɔ ɖe gbeŋucinunya  ɖóɖóɔ jia
 sc-review-rules-title = enyɔgbeɛ sɔ ɖo ɖoɖowo jia
+sc-review-empty-state = ɖɛ viɛ, numekukuɖe de lɛ yí woawɔ le egbe ceɖe me o
+report-sc-different-language = egbebu
+report-sc-different-language-detail = enyɔgbe ce yí n hlɛnkɔ  tó vo nɔ ce yí wo ŋlɔ.
+sentences-fetch-error = Le enyɔgbe lé xoxuwomeɔ, mido jeshi vodada ɖeká
