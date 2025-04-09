@@ -25,6 +25,10 @@ new-sentence-rule-7 = مناسب حوالو هوئي
 new-sentence-rule-8 = مثال قدرتي هانَ وات سينح ايوا جملا ڀڻوا سوَلا سي
 login-instruction-multiple-sentences = <loginLink> لوگ اِن </loginLink> or <loginLink> سائين اپ </loginLink>وڌاري جملا ٺاهو
 how-to-cite = چچم حوالو آليوش؟
+guidelines = هدايت
+contact-us = امان ٿي رابطو ڪرو
+add-sentence-success = جملا جمع ڪرو
+add-sentence-error = جملا مان ڪوئي مسئلو سي
 sentence-variant-select-multiple-variants = مختلف جنرل ٻولي
 
 ## BULK SUBMISSION
