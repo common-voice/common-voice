@@ -92,10 +92,19 @@ read-more-about = امو ريي باري ۾ صفحا تي وڌيڪ پڙهو
 answer-questions = سوال جواب
 answer-questions-coming-soon = جواب سوال<small> جلدي آوئي</small>
 review-transcriptions = ٽرانسپشنو رو جائزو ليو
+review-transcriptions-coming-soon = ٽرانسپشو رو جائزو ليو<small>جلدي آوي
 add-questions = سوال جما
+add-questions-coming-soon = سوال جما<small>جلدي آوئي</small>
+transcribe-audio-coming-soon = آڊيو نقل ڪرو<small>جلدي آوئي</small>
+transcribe-audio = آڊيو نقل ڪرو
+press-and-stories = پريس ھين ڪهاڻيون
+community-and-languages = ڪميونٽي ھين زبون
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ڀائيواريون، پريس ھين ڪهاڻيون، برادري ھين ٻوليون
+partnerships-menu-item-tooltip = امو ري ڀيرا ھون
+press-and-stories-menu-item-tooltip = امو ري بلاگ تي جاو يا امون بابت لکو
 
 ## MENU ITEM ARIA LABELS
 
