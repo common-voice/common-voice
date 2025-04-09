@@ -107,6 +107,7 @@ add-small-batch-success =
     }
 small-batch-sentences-rule-1 = څیمی جملو شامل کڑا کرکینیم؟” سے رہنمائی عمل کن
 small-batch-sentences-rule-2 = دے یو لائن یو جملو نوشا
+small-batch-sentences-rule-3 = یوو دفعہ ڤے "انٹر" یا "ریٹرن" سارو ڤزیب خو دے یو لائن ڤے جملعف الگ کن
 
 ## MENU ITEM TOOLTIPS
 
