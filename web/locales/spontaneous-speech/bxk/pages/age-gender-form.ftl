@@ -3,8 +3,10 @@ age-gender-form-title = Assantee khuyetakho ènganikha! ya Spontaneous.
 age-gender-form-subtile = Nga wee katchulekho, ulayeta ba-developer khukhwo-mbekha teckiinologyi èkiindi
 add-information-button = Rungah èmbaakha
 continue-speaking-button = Endelea khuckatchula
-age-select-label = Umuri yowo elisi?
+age-select-label = Ericka yowo elisi?
 select-your-age = Londa ericka yowo
+gender-select-label = sex obah gender yowo ndalasi?
+select-your-gender = Londa sex obah ègender yowo
 
 ## Gender dropdown
 
