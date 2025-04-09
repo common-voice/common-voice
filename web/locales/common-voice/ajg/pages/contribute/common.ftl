@@ -139,3 +139,4 @@ contribution-background-voices-example-1-explanation = a va a<strong> xlɛnxlɛn
 contribution-volume-title = gbeɖiɖi
 contribution-volume-description = gbeɖidi nɔ tɔxuwo hame hamewo zénɔ le nuxlɛtɔwo gbɔ. Ne nyí gbeɖiɖiɛ yi ji sugbɔ alo so lɔ, alo ne nyi bé é yi gɔme sugbɔ yi ́ wo da téŋ se enyɔwo nuieɖe lɔ, yi wo de téŋ de jeshi le nuŋɔŋlɔ me ɔ gahunume yí aɖashi ɖɛ ne
 contribution-reader-effects-title = gbeɖiɖiwo kudo nuwɔna ɖiɖiwo
+contribution-reader-effects-description = le nyɔlele geɖemelɔ, amewo xonɔ nuxu kuɖo wo ŋtɔwo jɔjɔmegbe. Gaɖomeɔ, ateŋ wɔdɔ kuɖo enyɔlele ce yí daxwa tɛn o, ce yí ɖɔkpa le alo ce me yí nuxuɔ zé shigbe lé wa wɔkɔ fefe nené. ɖashi cewo yí nyí hajijiwo alo cewo yí so kpɔtɔ le enyɔleleɛme.
