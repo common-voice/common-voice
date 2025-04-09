@@ -77,6 +77,16 @@ citing-sentences-subheader-websites-explanation = ٿيَ ويب سائيٽ شا�
 citing-sentences-subheader-academic-reference = ادبِي حوالو
 citing-sentences-subheader-academic-reference-explanation = ٿيَ ادبِي حواليَ آݪو انداز استعمال ڪريَ ݾگو ھو، مسال طور ھارورڊ ”موزيلا(2021)ڪامن وائس۔https://commonvoice.mozilla.org/تيَ پڙيو ھي(رسائي:15 سيپٽمبر2021)”
 citing-sentences-subheader-offline-sources = آف لائن زريعا
+citing-sentences-subheader-offline-sources-explanation = پبلِڪ ڊومين لکت ھارو جڪو آن لائن موجود ڪونِي، ٿيَ تئليمي حواليَ آݪو انداز استعمال ڪريَ ݾگو ھو مسال طور ھارورڊ انداز ”جيس(2021) مھاريَ عوامي لائسنس بيت”۔
+citation =
+    .label = حوالو
+self-citation = خود حوالو
+self-citation-explanation = جيَ ٿون آپ مواد لکيو ھيَ تو ٿيَ ايڙھيَ نمونيَ آپ رو حوالو ڏيو ھو۔
+adding-sentences-subheader-length = ڊيگھ
+adding-sentences-subheader-length-explanation = جُمليَ ۾ 15اکرون ھون گھٽ ھوڻ کپيَ۔
+adding-sentences-subheader-spelling-punctuation = اسپيلنگ ھان اوقاف
+adding-sentences-subheader-spelling-punctuation-explanation = جُملو صحيح صحيح لکڻ کپيَ۔
+adding-sentences-subheader-speakable = ٻولڻ ريَ لائق
 
 ## Question collection ids
 

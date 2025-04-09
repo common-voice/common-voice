@@ -32,6 +32,10 @@ sc-review-form-reviewed-message =
         [one] { $sentences }enyɔgbe cewo ŋú yí wolé ŋkuvi ɖó. Akpe !
        *[other] { "" }
     }
+sc-review-form-review-failure = ŋkuvilélé ɖé enuŋu dé le lelé ɖɛ o. Trɔ á tikpɔ gabují
+sc-review-link = glo nu me kpɔ, ku nu me kpɔ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = numekuku fɔɖeɖewo
+sc-criteria-title = numekuku fɔɖeɖewo
