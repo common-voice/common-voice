@@ -25,6 +25,10 @@ record-submit-tooltip = { $actionType }Ma júla jápi re ma kaenása ka
 clips-uploaded = Júla ma kayénasa ka
 record-abort-title = Achá mi  kainánali bachá moá raicháli?
 record-abort-text = Jápi remi jípi machinása, sinéami mi wikawáma jápimi nóchali jípi
+record-abort-submit = Juláa échi raicháli moarámi
+record-abort-continue = Suwéna maá moá raicháli
+record-abort-delete = Machína alí ku naóma raicháli jápi mi moáli
+review-aborted = Jápi mi jimíli raicháli. Achami ku naóminali échi raíchali moarámi?
 
 ## MENU ITEM TOOLTIPS
 

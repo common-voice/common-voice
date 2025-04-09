@@ -148,3 +148,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink> بڌِيڪ پ
 ## How is Common Voice funded
 
 about-playbook-how-funded = ڪامن وائِيسا نُون ڪِيُون فنڊ ملَي ڇَي؟
+about-playbook-how-funded-content-1 = ڪامن وائِيس، موزِيلا فائُونڊيشنِي چا هيڪ منصُوبا ڇَي ۔ جڪو آمرِيڪا چي ”501c3” هيڪ نفعا نہ ڪماوَڻي هاڙِي تنظِيم ڇَي۔ ها منصُوبا جي مهلِي مُڪمل طورا پر <philantropicGrantLink>فلاح ائُون ڀلائي چي ڪاڻ امدادِي</philantropicGrantLink> پرائُون سجِي دُنيائِي چي ماڻسان چي چندان پر چالَي ڇَي۔
