@@ -87,6 +87,18 @@ too-many-files = جاہند زیات فائلے
 small-batch-instruction = <icon></icon> دے عام آدمف دائرو زیات جملغے شامل کن
 multiple-sentences-error = تو دے یو وخت زیات جملغے شامل کڑا چے کرکینے
 exceeds-small-batch-limit-error = ژے 1000 زیات جملغے شامل کڑا چے ای
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ریٹ ژے حدن زیات ݰوئے1منٹ بعد کوشش کن
+       *[other] ریٹ ژے حدن زیات ݰوئے { $retryLimit } یو چر منٹ بعد کوشش کن
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ریٹ ژے حدن زیات ݰوئے 1 سیکنڈ بعد کوشش کن
+       *[other] ریٹ ژے حدن زیات ݰوئے یو چر سیکنڈ { $retryLimit } بعد کوشش کن
+    }
 
 ## MENU ITEM TOOLTIPS
 
