@@ -93,6 +93,8 @@ adding-sentences-subheader-speakable-explanation = بيۿترينَ جُملا �
 adding-sentences-subheader-numbers = نمڀر
 adding-sentences-subheader-numbers-explanation = مِثال طور زين متن سي اين مان ڪونئين پڻ انگھ اکر نا هووو زويئين ڪيمڪيَ اِي ٻروڪونان نون ڀڻيئيَ ٿِي مسلا پيۮا ڪرِي ۿڳيَ سي۔ نمڀر نين ڀڻيا نو طريقو سياق و سباق ماٿيَ سي انين ڍيٽاسيٽ مان مُنجھارو پيۮا ڪرِي ۿڳيَ سي۔ مِثال طور ”2409“ نين سئِي طريقيَ ٿِي ”چوويۿ زيرو نئو“ انين ”ٻيَ هزار چار ۿو نئو“ ٻيئيَ طريقين ٿِي ڀڻِي ۿڳائيَ سي۔
 adding-sentences-subheader-abbreviations = مُخفِفات انين مُخفِف
+adding-sentences-subheader-abbreviations-explanation = زين متنَ مان ٿِي  “USA” يا  “ICE” زيوان مُخفِفان انين مُخفِف ٿِي پاۿون ڪرزُو ڪيمڪيَ اِي ايويَ طريقيَ ٿِي ڀڻائِي ۿڳيَ سيَ زين اينيان نِي هِجيَ ٿِي ايڪ زيوون نا لاڳتون هوئيَ۔ اِضافِي طور ٿِي، ايڪ مُخفِف نين ڪيٽليئين سئِي طريقين ٿِي ڀڻِي ۿڳائيَ سي۔
+adding-sentences-subheader-punctuation = زير زڀران نان نِشانَ
 
 ## Question collection ids
 
