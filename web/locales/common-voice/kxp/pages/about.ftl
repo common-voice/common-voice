@@ -42,7 +42,21 @@ about-clip-graveyard-text =
     آواز نا ڪلپ مقام نا زم سي زي  اين نين عام آواز نا ڊيٽا سيٽ مان نين راڇان زائي۔ ٻش  زم ڊيٽا سيٽ، مقام ڪلپ رڄا ڊائون لوڊ ڪريا هارو هشي۔ 
     امين او منکان نين ڌنيواۮ ڪان سان هان او تنظيم نين زينڻي ادارا مان مدد ڪري۔
 about-get-involved = شامل ٿو
-about-get-involved-text-2 = عام آواز نين هڌري ٺاهيا مان مدد ڪروي؟
+about-get-involved-text-2 =
+    عام آواز نين هڌري ٺاهيا مان مدد ڪروي؟
+    اي هڌرون سي ڪي اي ميل يان ڊسڪورس <discourseLink> لنڪ مان فارم جمع ڪرو، </discourseLink>
+    ڪانڪ مسئلا سي اي <githubLink> يان برادري ٿي وات سينچ هارو ميٽرڪ  </matrixLink> لنڪ  ڪاهو
+about-stay-in-touch = مُون چچم رابطا مان رئيش؟
+about-stay-in-touch-button = سائين اَپ
+about-stay-in-touch-text-1 = <email Fragment>سائن اپ ڪرو</email Fragment> اماري اي ميل لسٽ هارو تمين عام آواز ، واقعا يان ڪوئي-ڊيزائن ني خاصيت هارو چچم حصو لئي ڪو سو۔
+about-stay-in-touch-text-2 =
+    تمين موزيلا ٻولو هارو ٻيزان برادري نان منکان ٿي مِلو اين هارو آ لنڪ سي،
+    <discordLink>ڊسڪورڊ</discordLink> or <discourseLink>ڊسڪورس </discourseLink> هارو خاص وات  يان  <matrixLink>ميٽرڪ</matrixLink>مشورا هارو .
+about-nav-why-common-voice = چم؟
+about-nav-how-it-works = چِچم؟
+about-nav-partners = ساٿِي
+about-nav-get-involved = شامل ٿو
+about-nav-how-it-works-2 = عام آواز نُون ڪام چچم ڪرشان؟
 
 ## Community Playbook Content
 ## What is a language
