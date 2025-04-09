@@ -124,3 +124,7 @@ spelling-and-pronunciation-explanation = صحيح اسپيلنگ ھين گرام
 length = لومٻائي
 length-explanation = سوال رو جواب صرف ٻي جملو ۾ ڏيوي کپي.
 dont-add-subheader = جما متي ڪر
+culturally-specific-questions = ثقافتي مخصوص سوال
+culturally-specific-questions-explanation = ايوا سوال جي ثقافتي طور تي خاص هي، يا جواب ڏيڌا وارو بابت گهڻيون مفروضا پيدا ڪنري ھي.
+length-avoid-explanation = ايوا سوال جي جطرا جواب ڏيڌا ۾ ڪوئي مينک 15 سيڪنڊو ۾ جدوجهد ڪري (ڪلپ ري وڌ ۾ وڌ ڊيگهه)
+process-steps = عمل / مرحلو
