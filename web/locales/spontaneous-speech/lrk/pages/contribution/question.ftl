@@ -9,3 +9,5 @@ add-question-success-toast-message =
         [one] { $uploadedQuestions }ري1سوال جما ھوئي گيو
        *[other] { $uploadedQuestions }ري{ $totalQuestions }سوالات جما ھوئي گيا
     }
+add-question-error-message = اپلوڊ ناڪام ھويو، مهربوني ڪرين وري ڪوشش ڪرجو.
+add-question-too-many-questions-error = 500 سوالو مون وڌي گيا. سوالو رو تعداد گھٽاوُو ھين وري ڪوشش ڪرو.
