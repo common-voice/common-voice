@@ -29,6 +29,37 @@ guidelines = هدايت
 contact-us = امان ٿي رابطو ڪرو
 add-sentence-success = جملا جمع ڪرو
 add-sentence-error = جملا مان ڪوئي مسئلو سي
+required-field = مهرباني ٿي ڪام مڪمل ڪرو
+single-sentence-submission = ايڪ جُملو جمع ڪرو
+small-batch-sentence-submission = ايڪ نانو جملو جمع ڪرو
+bulk-sentence-submission = موٽو جُملو جمع ڪرو
+single-sentence = ايڪلو
+small-batch-sentence = نانون ٽوۯون
+bulk-sentence = موٽون ٽوۯون
+sentence-domain-combobox-label = علاقائي جملو
+sentence-domain-select-placeholder = علاقائي مان ترينڻ نشان چونڊو
+# Sentence Domain dropdown option
+agriculture_food = زراعت هانَ خوراڪ
+# Sentence Domain dropdown option
+automotive_transport = حرڪت ڪريا واۯي سواريون
+# Sentence Domain dropdown option
+finance = آمدني
+# Sentence Domain dropdown option
+service_retail = ويسوون هانَ خدمتون
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = صحت کاتو
+# Sentence Domain dropdown option
+history_law_government = تاريخ، گورمنٽ هانَ قانون
+# Sentence Domain dropdown option
+language_fundamentals = ٻولِي نا بنيادي اصول (زم انڳ، اکر، پئيشا)
+# Sentence Domain dropdown option
+media_entertainment = ميڊيا، هانَ تفريح
+# Sentence Domain dropdown option
+nature_environment = قدرت هانَ ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبرون هانَ معملات
 sentence-variant-select-multiple-variants = مختلف جنرل ٻولي
 
 ## BULK SUBMISSION
