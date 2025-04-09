@@ -96,9 +96,18 @@ adding-sentences-subheader-punctuation = اوقاف
 adding-sentences-subheader-punctuation-explanation = خاص نشونيون ھين اوقاف صرف او وقت ڀيرا ڪريا جائي جڏي بلڪل ضروري هوئي. مثال طور، ايڪ apostrophe انگريزي اکرو ۾ ڀيرا ڪريا گيو هي جيم ڪي "don't" ھين "we're" ھين ماخذ متن ۾ ڀيرو ڪريو جائي، پر او ممڪن ڪوئي ني  تو تمو ني ڪڏي ڀي خاص علامت ري ضرورت پڙئي جيم ي "@" يا "#. ”
 adding-sentences-subheader-special-characters = خاص اکر ھين غير ملڪي اکر
 adding-sentences-subheader-special-characters-explanation-1 = اکر لازمي طور تي صحيح هووہ کپي ٻولي ۾ ٻولوہ. مثال طور، "ж" روسي الفابيٽ ۾ ايڪ اکر هي پر ڪڏي ڀي انگريزيء ۾ استعمال ڪوئي ڪريو گيو هي ھين ايڪري ڪوئي  ڀي انگريزي ماخذ ري متن ۾ ڪڏي ڀي ظاهر ڪوئي ھووُ کپي
+adding-sentences-subheader-special-characters-explanation-2 = ٻوليون اضافي ضرورتو مون ڀيرا آپرا آپرا تصديقي ضابطا رکي سگھو ھون جڏي اي مقامي ھوئي ھي. جيڪڏي ڪوئي ٻوليءَ ھارو ڪوئي خاص تصديق واري فائل ڪوئي هي، تو انگريزي قاعدا مددگارو ھارو جوراوئي.
+adding-sentences-subheader-offensive-content = ناگوار مواد
+adding-sentences-subheader-offensive-content-explanation = جيڪڏي جملو ناگوار يا پريشون ڪريا وارو هي - مثال طور واضح مواد ري ڪري، يا اسون ري <communityGuidelines>ڪميونٽي شرڪت ري رهنمائي</communityGuidelines> ري خلاف ورزي ري ڪري - تمو ني جملو ني رد ڪروہ کپي. تمي پڻ امو مون رابطو ڪري سگهو ھون<emailFragment>commonvoice@mozilla.com</emailFragment> تي مسئلو وڌايا ھارو
+reviewing-sentences-explanation-1 = جيڪڏي جملو ماٿي ڏيڌوڙا معيار تي پورو ڪري ھي تو، "ها" ھوڻيا وارا  ني دٻاو.
+reviewing-sentences-explanation-2 = جيڪڏي جملو ماٿي ڌيڌوڙا معيار ني پورو ڪوئي ڪري، "نت" ھوڻيا وارا  تي ڪلڪ ڪرو.
+reviewing-sentences-explanation-3 = جيڪڏي تمي جملو ري بارا ۾ پخته ڪوئي هو، تو تمي اوني سوڙي  بي سگهوھون ھين آگي وڌو.
+reviewing-sentences-explanation-4 = جيڪدي تموني ڪني جائزو ليدا ھارو جملا ختم ھوئي گيا ھي، مهربوني ڪرين وڌيڪ جملا ڀيرا ڪريا ۾ اموري  مدد ڪرو!
+domain-explanation = ڊومين جملو ري موضوع ري طرف اشارو ڪري ھي. في الحال، تمي هيٺ ڏيدوڙا مون چونڊ ڪري سگهو ھون
 
 ## Question collection ids
 
+adding-questions = سوالات جما ڪرو
 
 ## Question collection sidebar content
 
