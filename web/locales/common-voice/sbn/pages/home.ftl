@@ -1,5 +1,10 @@
 ## Home Page
 
+speak-goal-text = ڪليٚپ ريڪآڊ ڪيآ وهُرآ
+listen-goal-text = ڪليٚپ تسديٚڪ ڪيآ وهُڙآ
+hours-recorded = ڪلآڪ ريڪآڊ ڪيآ وهُڙآ
+hours-validated = ڪلآڪ تسديٚڪ ڪيآ
+voices-online = هآڻي آوآز آن لآئيٚن اهي
 todays-progress = اج ريٚ ترڪيٚ
 help-reach-goal = مدت ڪرو مڪسد هآسل ڪرڻ مييݩ { $goal }
 read-terms-q = ڪيٚ اڀآݩ پڙهيݩ اهيݩ اسآݩ ري سرتيݩ
@@ -11,9 +16,22 @@ x-weeks-short =
         [one] هڦتو
        *[other] { $count }هڦتآ
     }
+x-months-short =
+    { $count ->
+        [one] { $count } مو
+       *[other] { $count } موآ
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } ي
+       *[other] { $count } ي
+    }
+sign-up-account = اڪآئونٽ سآئين اپ ڪرو
+email-subscription-title = سآئين اپ ڪرو ايٚ ميل اپڊيٽ لآ
 
 ## Account Benefits
 
+benefits = ڦآئيدآ
 
 ## What's public
 
@@ -22,6 +40,10 @@ email-not-public = اسيٚݩ اڀآݩ رو ايٚ ميل آوآميٚ ڪونه�
 
 ## Landing
 
+welcome-staff = ڀليٚڪآر { $company } گڏ ڪم ڪرڻ وآرآ!
+login-company = لوگ ان جآݩ سآئين اپ { $company } ايٚ ميل سآݩ
+profile-not-required = هيسو ڏيڻ لآ پُروڦآئيٚل هوئڻ زرُوريٚ ڪونهي، جيٚݩ تا اوٚ مدت گآر اهي۔ ايٚ ڪݩهݩ لآ اهي ڏسو هيٺ
+read-more-about = وڌيٚڪ پڙهو اسآݩ ري سڦهي ري بآري ميݩ
 
 ## NAV ITEMS
 
@@ -65,6 +87,9 @@ get-started = شروٚ ڪرو<icon><icon>
 ## Action items section
 
 action-items-section-title = ڪآمن وآئيٚس ڪميونٽيٚ ري اڳوآڻيٚ ميݩ ڊيٽآ ٺاهڻ لآ هَڪ مڦهت، کُليل وسيٚلو پليٽ ڦآرم اهي.
+scripted-card-header = لکل تڪريٚر
+scripted-card-content = پنڊريٚ ٻوٚليٚ ميݩ زور سآݩ جملآ پڙهو ائيٚݩ دُنيآ ميݩ سڀ کآݩ وڌيٚڪ متنوآ آوآميٚ شرآڪت وآريٚ تڪريٚر ڊيٽآ سيٽ ميݩ هيسو وٺو.
+spontaneous-card-header = بي اکتيآر تڪريٚر
 language-text-card-header = ٻوٚليٚ ريٚ لکت
 add-text = لکت شآمل ڪرو
 
@@ -100,3 +125,4 @@ contribute-text-link = لکت ريٚ شرآڪت
 
 ## Partner section
 
+partner-section-title = هسيدآر اسآݩ ڀيڙآ

@@ -26,6 +26,8 @@ about-subscribe-text = امين چاهان سان ڪي عام آواز هارو 
 about-speak = ٻولو
 about-speak-text = مدد ڪريا واۯو زي آلل  جملا  بينڪ ٿي مدد ڪري سي اين نين ڀڻيا ٿي ڪلپ رڪارڊ ڪران سان،
 about-listen-queue = سلسلا ٿي هانمڀۯوون
+about-listen-queue-text = آواز نا ڪلپ زي هانمڀۯشي اي جمع ٿايا هارو داخل ٿئي جھا سي
+about-listen = هانمڀۯوون
 
 ## Community Playbook Content
 ## What is a language
