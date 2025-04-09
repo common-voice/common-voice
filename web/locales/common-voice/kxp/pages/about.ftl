@@ -57,10 +57,14 @@ about-nav-how-it-works = چِچم؟
 about-nav-partners = ساٿِي
 about-nav-get-involved = شامل ٿو
 about-nav-how-it-works-2 = عام آواز نُون ڪام چچم ڪرشان؟
+about-nav-playbook = شيکوون ڪي چچم حصو ليشان
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = عام آواز مان چئي ٻولِي سي؟
+about-playbook-what-is-language-content-1 = ايڪ تقريري آواز نين اوۯڇا هارو ٻولي نا ڀارا مان سوچيا نا الاهي طريقا سي۔ زين مان عام آواز،  ايڪ زيوي آوزا همزيا مان مدد آلي سي۔ يان ٻوليا واۯو ٻولي همزيا هارو ٻولي سي هان ٻيزون زي اي ڪوشش ڪري؟
+about-playbook-what-is-language-content-2 = امين چاهان سان ڪي تقريري ٻولي ماڊل نمونو هوئي زي ٻوليا واۯان سيٽي ٿي نين همزيا مان آوي۔ ايم ڪريا ٿي ايڪ ڊيٽا سيٽ الاهي منکان مان پيش ڪروون پڙشي۔
 
 ## How do I add a language
 
