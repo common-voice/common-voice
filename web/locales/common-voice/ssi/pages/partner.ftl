@@ -6,3 +6,5 @@ partnerships-become-a-partner = سادھارݨ آواج سیرواݪی ٻݨو
 partnerships-community-header = پڑاو، رچنا کرا اور سول سوسائٹی
 partnerships-community-description = پڑاو سادھاݨ آواجا کا دھڑکتوڑا دل ہے - ٻو پُورے سنساراس آتے ہے، اور ٻولیا کے کاریئے کرتا، وگیانیک اور پھنکار ہے. تھم مھارے باریم پنیپ اور مھارے <community>پڑاو پلے بکام</community> سیمل ہوݨے <about>کے باریم</about> ودھیک جان سِکتے ہے۔ اگر تھم گہری سںٚگٹھن یوگدانام رُچی راکھتے <emailFragment>ہے تو ، سمپرک کرو۔</emailFragment>
 partnerships-foundations-header = آدھار سیلائں
+partnerships-foundations-description = ہم پُورو اپھریکاپ وشیش دھیان کے ساتھ انٹرنیٹا کُو ایک سُوست جاگھا ٻݨاݨےنتر سںٚگٹھن، سول سوسائٹی اور پڑاو یوگداناڑے کے بھیݪے کام کرتے ہے. مھارے کارجی کامے باریم ودھیک <programmaticWork>جاݨو.</programmaticWork>
+partnerships-governments-header = حکومتاں
