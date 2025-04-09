@@ -20,3 +20,4 @@ submit-all-button = ساف جمع کن
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = ڤیم صفحہ استعمال کڑا ایخسا
