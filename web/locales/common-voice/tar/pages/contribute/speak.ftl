@@ -48,6 +48,9 @@ continue-speaking-button = Ke matétera ba, che raícha
 create-profile-text = Achámi katewánali raíchali?<createProfile> Newá bile perfil</createProfile>
 thanks-for-voice-toast = Matétera ba kíti kómi Tami raíchali akami ba
 thanks-for-voice-toast-error = Cha ikíli nóchali juláwa alí raíchali sí
+first-cta-gender-select-default-option = Chápi bilé aniwámi
+first-cta-gender-select-help-text =
+    .label = Chi mi riká anináli jápi mi riká jú mukí wela rejoí
 
 ## MENU ITEM TOOLTIPS
 
