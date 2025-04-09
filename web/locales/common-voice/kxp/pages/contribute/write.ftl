@@ -64,7 +64,7 @@ news_current_affairs = خبرون هانَ معملات
 technology_robotics = ٽيڪنالوجي هانَ روبوٽڪس
 sentence-variant-select-label = مختلف جُملا
 sentence-variant-select-placeholder = ڪوئي ايڪ مختلف نشان چونڊو
-sentence-variant-select-multiple-variants = مختلف جنرل ٻولي
+sentence-variant-select-multiple-variants = فرق فرق  جنرل ٻولِي
 
 ## BULK SUBMISSION
 
