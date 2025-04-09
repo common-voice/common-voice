@@ -7,15 +7,15 @@ shortcuts = Kapatu
 clips-with-count-pluralized =
     { $count ->
         [one] Tshibindji
-       *[other] Tshibindji
+       *[other] Sonewa
     }
-goal-help-recording = Chakupwa yenu keshika common voice aheta mukwadji ka hize apwanga kufupa hita tangwa!
-goal-help-validation = Chakupwa yenu common voice kaheta kuyuma ya hita tangwa nyi kuipwisa ya umwene mwene!
+goal-help-recording = Chakupwa yenu, keshika Common Voice aheta mukwadji ka hize apwanga kufupa hita tangwa !
+goal-help-validation = Chakupwa yenu, Common Voice kaheta kuyuma ya hita tangwa nyi kuipwisa ya umwene mwene !
 contribute-more = Unataiza kulinga nawa ?
 speak-empty-state = Kutuchi nyi yumaiko ya kusoneka mulimi ali
-no-sentences-for-variants = Kulisa cha limi lie china hihisa manyonga
+no-sentences-for-variants = Kulisa cha limi lie china hihisa manyonga ! Nyi chinachiwa munutela kuchendja mumu wa kwadjika manyonga mulimi lie.
 speak-empty-state-cta = Nehenu manyonga ako
-speak-loading-error = Kutuawanyine manyonga ako akuhandjika
+speak-loading-error = Kutuawanyine manyonga ako akuhandjika. Pimenu nawa chimbu liko.
 record-button-label = Kwata liji lie
 share-title-new = Tukwasenu kuwana maliji ako
 keep-track-profile = Pima kutshi unayi kulutue
