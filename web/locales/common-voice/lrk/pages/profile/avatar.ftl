@@ -7,3 +7,4 @@ gravatar_not_found = تمو ري اي ميل ھارو ڪوئي بي گريوٽر
 file_too_large = منتخب ھوئوڙي فائل تموم موٽي ھي
 avatar-uploaded = اوتار اپ لوڊ ڪريو گيو
 max-file-size = { $kb }kb وڌ ۾ وڌ
+remove-avatar = اوتار ني هٽاوُ
