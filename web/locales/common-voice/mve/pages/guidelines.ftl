@@ -71,6 +71,12 @@ public-domain-explanation-3 = آپ يا آپريَ دوستون يا ٻولِي 
 public-domain-explanation-4 = ليکڪون، ڊراما لکڻ آݪو يا اسڪرين رائٽرون ھون رابطو ڪرو ھان ڪِي اي آپريَ ڪوم رو ھيڪ ننڊو حصو عوامي ڊومين ھارو ڏيڻ ھارو تيار ھي۔
 public-domain-explanation-5 = اھڙيَ مواد نيَ جونچو جڪيَ تيَ ڪاپي رائو ھيڻو لاڳو نيَ ھوئيَ۔ مسال طور گھڻا ڪتاب جڪو 1920 ھون مور ڇپيا ھوئيَ۔
 public-domain-explanation-6 = سرڪارِي، غير منافع بخش تنظيمون يا ميڊيا تنظيمون ھون رابطو ڪرو ھان جونچو ڪہ ائون رو ڪو ڀِي ويب مواد، رپوٽون يا ٻيجو مواد عوامي ڊومين ھارو ڏينو جائيَ ݾگيَ ھيَ۔
+citing-sentences-explanation-1 = حوالا شامل ڪرڻ ضروري ھيَ تو مھيَ جوئيَ ݾگون ڪہ جُملا عوامي ڊومين ۾ ھيَ ھان ڪاپِي رائٽ رِي ڪو ڀِي پابندي لاگو ڪوني۔
+citing-sentences-subheader-websites = ويب سائيٽون
+citing-sentences-subheader-websites-explanation = ٿيَ ويب سائيٽ شامل ڪريَ ݾگو ھو، مسال طور ”ڪامن وائس۔https://commonvoice.mozilla.org/”
+citing-sentences-subheader-academic-reference = ادبِي حوالو
+citing-sentences-subheader-academic-reference-explanation = ٿيَ ادبِي حواليَ آݪو انداز استعمال ڪريَ ݾگو ھو، مسال طور ھارورڊ ”موزيلا(2021)ڪامن وائس۔https://commonvoice.mozilla.org/تيَ پڙيو ھي(رسائي:15 سيپٽمبر2021)”
+citing-sentences-subheader-offline-sources = آف لائن زريعا
 
 ## Question collection ids
 
