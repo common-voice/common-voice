@@ -75,6 +75,8 @@ citing-sentences-explanation-1 = هوآلآ ڪوُ شآمل ڪروو جرُري 
 citing-sentences-subheader-websites = ويب سآئٽينٚ
 citing-sentences-subheader-websites-explanation = تِمي ويب سآئيٚٽيٚنٚ شآمل ڪرسڪدآ هو، مسآل تور "اورمي آوآج۔ https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = پڙهآيو ڪو هوآلو
+citing-sentences-subheader-academic-reference-explanation = تِمي استمآل ڪر سڪدآ هو اڪيڊمي ريفرنسنگ تريڪو، مسآل تور  "Mozilla (2021) Common هآرورڊ اندآج Voice. https://commonvoice.mozilla.org/ پر موجود هي: 15 سيپٽمبر 2021)"
+citing-sentences-subheader-offline-sources = آپ لآئين جَرَيآ
 
 ## Question collection ids
 
