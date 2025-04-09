@@ -45,6 +45,9 @@ first-cta-subtitle-text = Achami kanísa iníli nejá bilé raíchali jápi rik�
 why-donate = Chi mi olá chiéri narí?
 add-information-button = Che járe raíchali uché
 continue-speaking-button = Ke matétera ba, che raícha
+create-profile-text = Achámi katewánali raíchali?<createProfile> Newá bile perfil</createProfile>
+thanks-for-voice-toast = Matétera ba kíti kómi Tami raíchali akami ba
+thanks-for-voice-toast-error = Cha ikíli nóchali juláwa alí raíchali sí
 
 ## MENU ITEM TOOLTIPS
 
