@@ -10,3 +10,5 @@ partnerships-foundations-description = ہم پُورو اپھریکاپ وشیش
 partnerships-governments-header = حکومتاں
 partnerships-governments-description = ہم ٹیکنالوجی، نئوی ٻات اور ٻولیں کے ادھیکارام عوامی شعبیم سیملا کی سمرتن کرنے نتر اُتساھیت ہے۔ اگر تھم کوئی ٻڈؔا یوجنا یا ابھیان چلاوݨے کا ارادہ راکھتے ہے تو، کِرپا کری <emailFragment>سمپرک کرو.</emailFragment>
 partnerships-academia-header = یونیورسٹیوں، ہوسیار تالیم اور جانچ کرنواڑے
+partnerships-academia-description = ہم جکو کائی کرتے ہے اس کے دلام میں کُھلی نئوی ٻات ہے۔ جانچ یوگدان، اعداد و شمار جما کرنے یا انٹرویو نتر، <emailFragment>پونٚچ پراپت کرو.</emailFragment>
+partnerships-small-business-header = لھوڑے کاروبار، سیمل ٹیک اور اے آئی اسٹارٹ اپ
