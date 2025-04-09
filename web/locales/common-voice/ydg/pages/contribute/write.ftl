@@ -99,6 +99,14 @@ rate-limit-toast-message-seconds =
         [one] ریٹ ژے حدن زیات ݰوئے 1 سیکنڈ بعد کوشش کن
        *[other] ریٹ ژے حدن زیات ݰوئے یو چر سیکنڈ { $retryLimit } بعد کوشش کن
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ژے ملنن 1 جملو غورا
+       *[other] { $uploadedSentences } ژے{ $totalSentences } زیات جملغے غورا
+    }
+small-batch-sentences-rule-1 = څیمی جملو شامل کڑا کرکینیم؟” سے رہنمائی عمل کن
+small-batch-sentences-rule-2 = دے یو لائن یو جملو نوشا
 
 ## MENU ITEM TOOLTIPS
 
