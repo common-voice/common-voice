@@ -1,0 +1,36 @@
+## ProfileForm
+
+profile-form-username =
+    .label = استعمال ڪريا رو نوم
+profile-form-native-language =
+    .label = مادري ٻولي
+profile-form-additional-language =
+    .label = اضافي ٻولي
+profile-form-language =
+    .label = ٻولي
+profile-form-variant =
+    .label = تمي ڪيوا قسم ري { $language } ٻولو ھون؟
+profile-form-variant-default-value = ڪوئي ڀي قسم ڪوئي چونڊو ھون
+profile-form-accent =
+    .label = تلفظ
+profile-form-custom-accent-help-text =
+    .label = تمي آپري تلفظ ني ڪيڪر بيون ڪريو؟
+profile-form-custom-accent-placeholder-2 = آپري تلفظ ني بيون ڪريا ھارو ٽائپنگ شروع ڪرو
+profile-form-age =
+    .label = عمر
+profile-form-gender-2 =
+    .label = جنس
+leaderboard-visibility =
+    .label = ليڊر بورڊ ري نمائش
+hidden = لڪيلڙا
+visible = ظاهر
+native-language =
+    .label = مادري ٻولي
+profile-form-add-accent = نئون حسب ضرورت تلفظ ڀيرا ڪريو "{ $inputValue }"
+profile-form-submit-save = محفوظ ڪرو
+profile-form-submit-saved = محفوظ ھويوڙي
+male_masculine = نر/مذڪر
+female_feminine = عورت/مونث
+intersex = انٽرسيڪس
+transgender = ٽرانس جينڌر
+non-binary = غير بائنري

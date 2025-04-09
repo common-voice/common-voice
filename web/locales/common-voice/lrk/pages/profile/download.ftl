@@ -27,3 +27,4 @@ download-request-modal-title = لنڪس ڊائونلوڊ ڪرو
 download-request-modal-description = ائيئ ھي لنڪ تمو ري زپ فائلو ني ڊائونلوڊ ڪريا ھارو.
 download-request-link-text = زپ #{ $offset } مون { $total }
 download-request-metadata-link = جملو رو متن
+download-request-link-single = تمي پڻ نقل ڪري سگھو ھون سڌو URLs ني آپري پسنديده ڊائون لوڊ مئنيجر ۾. هي 12 ڪلاڪو ۾ ختم ھوئي جائي، پر تمي  ڪي ڀي وقت نوان ٺاهڻيا ھارو اي صفحا تي واپس آوي سگهو ھون.
