@@ -13,6 +13,12 @@ about-language-req-subtitle = ڪڻين پوسيون ڪي اماري ايڪ ٻو�
 about-localization-title = ويب سائيٽ نو مرڪز
 about-localization-subtitle = ويب سائيٽ نو متن اي ٻولي مان ترجمو ٿل سي۔
 about-sentence-collection-title = جُملا جمع ڪرو
+about-sentence-collection-subtitle = منکان نين اوتاۯي هاۮئي ڀڻيا هارو جملا ڀيۯا ٿئي جھا سي۔
+about-new-lang-title = نوي ٻولي شُروع
+about-new-lang-subtitle = امين آنڻي ٻولي مان عام آواز سائيٽ شرو؛ع ڪرشان۔
+about-voice-contrib-title = آواز هارو مدد
+about-voice-contrib-subtitle = منک آوي هارو آواز هارو مدد ڄي
+about-voice-validation-title = آواز ني تصديق
 
 ## Community Playbook Content
 ## What is a language

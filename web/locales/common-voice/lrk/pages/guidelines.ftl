@@ -93,6 +93,9 @@ adding-sentences-subheader-numbers-explanation = ماخذ متن ۾ مثالي �
 adding-sentences-subheader-abbreviations = مخففات ھين مخففات
 adding-sentences-subheader-abbreviations-explanation = مخففات ھين مخففات جيوي "USA" يا "ICE" مون پاسو ڪريوجائي ماخذ ري متن ۾ ڪونڪي تو اي شايد ايٽي طريقا مون پڙهيا جائي جي اووہ ري اسپيلنگ مون ٺيڪيا وار ڪوئي هوئي. اضافي طور تي، ھوئي سگهي ھي ايڪ واحد مخفف ھارو ڪيتائي درست پڙهيا ھھي.
 adding-sentences-subheader-punctuation = اوقاف
+adding-sentences-subheader-punctuation-explanation = خاص نشونيون ھين اوقاف صرف او وقت ڀيرا ڪريا جائي جڏي بلڪل ضروري هوئي. مثال طور، ايڪ apostrophe انگريزي اکرو ۾ ڀيرا ڪريا گيو هي جيم ڪي "don't" ھين "we're" ھين ماخذ متن ۾ ڀيرو ڪريو جائي، پر او ممڪن ڪوئي ني  تو تمو ني ڪڏي ڀي خاص علامت ري ضرورت پڙئي جيم ي "@" يا "#. ”
+adding-sentences-subheader-special-characters = خاص اکر ھين غير ملڪي اکر
+adding-sentences-subheader-special-characters-explanation-1 = اکر لازمي طور تي صحيح هووہ کپي ٻولي ۾ ٻولوہ. مثال طور، "ж" روسي الفابيٽ ۾ ايڪ اکر هي پر ڪڏي ڀي انگريزيء ۾ استعمال ڪوئي ڪريو گيو هي ھين ايڪري ڪوئي  ڀي انگريزي ماخذ ري متن ۾ ڪڏي ڀي ظاهر ڪوئي ھووُ کپي
 
 ## Question collection ids
 
