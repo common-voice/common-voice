@@ -8,4 +8,5 @@ check = checka
 transcribe = khuLeckah
 loading = loadingah
 login-signup = Signah
-login = logingah
+login = logah In
+logout = Logah Oáut

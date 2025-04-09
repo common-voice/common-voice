@@ -36,6 +36,15 @@ review-rerecord = Che siné moá raíchali
 review-cancel = Ku naóma julárami.
 review-keep-recordings = Katewáa échi raíchali moárami
 review-delete-recordings = Ku naómama nije moála raíchali
+review-terms = Jápi alími yena a korúsa Common Voice ke ruméa raíchali anelíami ju olí nerako <termsLink>Términos de uso</termsLink> alí <privacyLink>política de privacidad</privacyLink>
+terms-agree = Aláni katúi
+terms-disagree = Keni katúi
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Matétera ba kíti kómi nijíli nóchali newárami
+first-cta-subtitle-text = Achami kanísa iníli nejá bilé raíchali jápi riká mi raichámi ju?
+why-donate = Chi mi olá chiéri narí?
+add-information-button = Che járe raíchali uché
+continue-speaking-button = Ke matétera ba, che raícha
 
 ## MENU ITEM TOOLTIPS
 
