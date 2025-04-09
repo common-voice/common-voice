@@ -38,6 +38,11 @@ about-no-votes-text = زار ڪوئي منک آواز نا ڪلپ نين رد ڪ
 about-dataset-new = عام آواز ڊيٽا سيٽ
 about-dataset-new-text = عام آواز نا ڊيٽا سيٽ هزارين نمونا سي ۔زي آواز ني ترقي نين اوۯڇا نا اوزار مان مدد ڪري سي۔
 about-clip-graveyard = مقام ڪلپ
+about-clip-graveyard-text =
+    آواز نا ڪلپ مقام نا زم سي زي  اين نين عام آواز نا ڊيٽا سيٽ مان نين راڇان زائي۔ ٻش  زم ڊيٽا سيٽ، مقام ڪلپ رڄا ڊائون لوڊ ڪريا هارو هشي۔ 
+    امين او منکان نين ڌنيواۮ ڪان سان هان او تنظيم نين زينڻي ادارا مان مدد ڪري۔
+about-get-involved = شامل ٿو
+about-get-involved-text-2 = عام آواز نين هڌري ٺاهيا مان مدد ڪروي؟
 
 ## Community Playbook Content
 ## What is a language
