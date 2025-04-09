@@ -95,6 +95,8 @@ adding-sentences-subheader-numbers-explanation = مِثال طور زين متن
 adding-sentences-subheader-abbreviations = مُخفِفات انين مُخفِف
 adding-sentences-subheader-abbreviations-explanation = زين متنَ مان ٿِي  “USA” يا  “ICE” زيوان مُخفِفان انين مُخفِف ٿِي پاۿون ڪرزُو ڪيمڪيَ اِي ايويَ طريقيَ ٿِي ڀڻائِي ۿڳيَ سيَ زين اينيان نِي هِجيَ ٿِي ايڪ زيوون نا لاڳتون هوئيَ۔ اِضافِي طور ٿِي، ايڪ مُخفِف نين ڪيٽليئين سئِي طريقين ٿِي ڀڻِي ۿڳائيَ سي۔
 adding-sentences-subheader-punctuation = زير زڀران نان نِشانَ
+adding-sentences-subheader-punctuation-explanation = کاس نِشانَ انين زير زڀران نا نِشانَ تيرين شامِل ڪروان زويئين زيرين اِي ماڳين ضرورِي هوئيَ۔ مِثال طور ايڪ انڳريزِي لڦظ ايپوسٽرافِي ”نا“ انين ”امين سيئين“ مان اِستمال ٿائيَ سي۔ انين اين نين زين متنَ مان ٿِي سي اين مان شامِل ڪريون زائيَ سي۔ پڻ اِي مُمڪِنَ نٿِي ڪي تمان نين  “@” or “#.” زيوان نِشانان نِي ضرورت پڙيَ۔
+adding-sentences-subheader-special-characters = خاص ڪِرڌار انين پرۮيسِي خط
 
 ## Question collection ids
 
