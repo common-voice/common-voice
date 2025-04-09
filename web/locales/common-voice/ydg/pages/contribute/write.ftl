@@ -70,6 +70,10 @@ select-file-mobile = اپلوڈ پے کڑان دیر فائل منتخب کن
 minimum-sentences = دے یو فائل کم از کم جملغے:1000
 maximum-file-size = فائلن ژے استرن استر سائز :25 ایم بی
 upload-progress-text = اپلوڈ جاری استت
+sc-bulk-submit-confirm = تصدیق کینیمتے کہ مو جملو <wikipediaLink> عام آدمف دائران </wikipediaLink> اڤن نمن ڤیم اپلوڈ کڑان اجازت استت۔
+bulk-upload-success-toast = جاہند زیات جملغّے اپلوڈ ݰوت
+bulk-upload-failed-toast = اپلوڈ چے ݰوئے، براہ مہربانی دیبارو کوشش کن
+bulk-submission-success-header = جاہند جملغّے پہ بڑیڅڤدا دیر تو شکریہ!
 
 ## SMALL BATCH SUBMISSION
 
