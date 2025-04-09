@@ -19,6 +19,11 @@ about-new-lang-subtitle = امين آنڻي ٻولي مان عام آواز سا
 about-voice-contrib-title = آواز هارو مدد
 about-voice-contrib-subtitle = منک آوي هارو آواز هارو مدد ڄي
 about-voice-validation-title = آواز ني تصديق
+about-voice-validation-subtitle = ٻيزان منک ڪِلپ نا آواز ني تصديق ڪري
+about-dataset-release-title = ڊيٽا سيٽ پيش سي
+about-dataset-release-subtitle = امين هر ترينڻمي مئيني ڊيٽا سيٽ پيش ڪرشان
+about-subscribe-text = امين چاهان سان ڪي عام آواز هارو رابطا مان ران
+about-speak = ٻولو
 
 ## Community Playbook Content
 ## What is a language

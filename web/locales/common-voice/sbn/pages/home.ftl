@@ -1,5 +1,9 @@
 ## Home Page
 
+todays-progress = اج ريٚ ترڪيٚ
+help-reach-goal = مدت ڪرو مڪسد هآسل ڪرڻ مييݩ { $goal }
+read-terms-q = ڪيٚ اڀآݩ پڙهيݩ اهيݩ اسآݩ ري سرتيݩ
+ready-to-record = تيآر اهوݩ پنڊريٚ آوآز ڏيڻ لآ
 all-locales = سڀ جآݩ سڄآ
 today = اج
 x-weeks-short =
@@ -21,24 +25,63 @@ email-not-public = اسيٚݩ اڀآݩ رو ايٚ ميل آوآميٚ ڪونه�
 
 ## NAV ITEMS
 
+answer-questions = سوآل جوآب
+answer-questions-coming-soon = جوآب ڏيو سوآلآݩ رآ <small>(جلديٚ آڻ وآرو)</small>
+review-transcriptions = جآئزو ليو لکت رو
+review-transcriptions-coming-soon = لکت رو جآئزو ليو<small>(جلديٚ آڻ وآرو)</small>
+add-questions = سوآل شآمل ڪرو
+add-questions-coming-soon = سوآل شآمل ڪرو <small>جلديٚ آڻ وآرآ</small>
+transcribe-audio-coming-soon = آڊيٚو کي لکو <small>جلديٚ آڻ وآرآ</small>
+transcribe-audio = آڊيٚو کي لکو
+press-and-stories = اکبآر ائيٚݩ آکهآڻيٚوݩ
+community-and-languages = برآدريٚ ائيٚݩ ٻوٚلي
+coming-soon = جلديٚ آڻ وآريٚ اهي
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = هسيدآريٚ، اکبآر ائيٚݩ آکهآڻيوݩ، برآدريٚ ائيٚݩ ٻوٚلي
+partnerships-menu-item-tooltip = هسيدآر اسآݩ ڀيڙآ
+press-and-stories-menu-item-tooltip = آئو اسآݩ ري ولوٚگ تي ائيٚݩ اسآݩ ري بآري ميݩ لکو۔
+community-and-languages-menu-item-tooltip = کُلي سمجھآئو ٻوٚليآݩ ائيٚݩ برآدريآݩ ائيٚݩ ڪآمن وآئيٚس ري بآري ميݩ
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = آپشن مينيوري بآري ميݩ
+partnerships-menu-item-aria-label = سکو هيسدآريٚ ڪآمن وآئيٚس سآݩ ري بآري ميݩ
+press-and-stories-menu-item-aria-label = اجآزت ڏيڻ لآ پريس بٽڻ دٻآئو ڇڏڻ لآ ائيٚݩ آکهآڻيوݩ ڪآمن وآئيٚس ري متآبڪ
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = ٽيڪنآلآجيٚ جيڪو اڀآݩ ريٚ ٻوٚليٚ ڳآلهآئي ديٚ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>ڪݩههݩ لآ اي آئيٚ رُڳو دُنيآ ريٚ ڪجه ٻوٚليآݩ تي ڪم ڪري ديٚ؟</bold>
+hero-subtitle-2 = اسآݩ ريٚ ٻوٚليٚ اسآݩ ريٚ آکهآڻيٚ ، اسآݩ ريٚ برآدريٚ، اسآݩ ريٚ سڪآڦت اهي۔ آئو اپيٚݩ هَڪ ڊيٽآ سيٽ ٺآهوݩ جيڪو اسيٚݩ گُهروݩ دآ تي اسيٚݩ دُنيآ ميݩ ڏسي سگھوݩ۔
+# icon is an arrow that points downwards
+get-started = شروٚ ڪرو<icon><icon>
 
 ## Action items section
 
+action-items-section-title = ڪآمن وآئيٚس ڪميونٽيٚ ري اڳوآڻيٚ ميݩ ڊيٽآ ٺاهڻ لآ هَڪ مڦهت، کُليل وسيٚلو پليٽ ڦآرم اهي.
+language-text-card-header = ٻوٚليٚ ريٚ لکت
+add-text = لکت شآمل ڪرو
 
 ## Community section
 
+find-us-on-matrix = اسآ ݩ کي  لݩڀو مٽريڪس تي
+# label for button
+find-us-on-matrix-action = اسآ ݩ کي  لݩڀو مٽريڪس تي
+ask-mozilla-share = موزيٚلآ کي ڪهيو تي اوٚ اڀآݩ رآ وآڪيآ  سُڻآئي (شئير) ڪري
+# label for button
+ask-mozilla-share-action = پنڊرآ وآڪيآ شئير ڪرو
+download-contribution-certificate = ڊآئون لوڊ ڪرو پنڊرو شرآڪت دآريٚ رو سرٽيٚڦيٚڪيٽ
+# label for button
+download-contribution-certificate-action = پنڊرو سرٽيٚڦيٚڪيٽ هآسل ڪرو
+contribute-github = شرآڪت ڪرو GitHub تي
+# label for button
+contribute-github-action = شرآڪت ڪرو GitHub تي
 
 ## Featured section
 
@@ -48,6 +91,12 @@ email-not-public = اسيٚݩ اڀآݩ رو ايٚ ميل آوآميٚ ڪونه�
 
 ## Get involved section
 
+read-sentences-link = پڙهونٚ جملآ
+validate-readings-link = تسديٚڪ سآݩ پڙهڻ
+answer-questions-link = سوآل جوآب
+transcribe-answers-link = جوآب کي لکو
+review-transcriptions-link = لکت رو جآئزو ليو
+contribute-text-link = لکت ريٚ شرآڪت
 
 ## Partner section
 
