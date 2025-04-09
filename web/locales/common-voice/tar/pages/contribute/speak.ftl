@@ -11,7 +11,9 @@ record-error-too-short = Echi raichali moaliami pe we sapú nilí
 record-error-too-long = Echi raichali moaliami wiliminami nili
 record-error-too-quiet = Echi raichali moaliami ke chiliwika nili
 record-cancel = Ma che ku naomasi echi ché moaliami raichali
-record-instruction = { $actionType }<recordIcon></recordIcon>Ali kinana Ani echi raichali we iweami
+record-instruction = { $actionType }<recordIcon></recordIcon>Ali kinána ani echi raíchali we iweámi
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>Japi alími kayéna
+record-three-more-instruction = Bikía ripíi
 
 ## MENU ITEM TOOLTIPS
 

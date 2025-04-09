@@ -8,6 +8,9 @@ select-your-age = ڤے خوئے عمر منتخب کن
 gender-select-label = تو مڑآ، ژینگو؟
 select-your-gender = ڤے خوئے جنس منتخب کن
 country-of-residence-label = ملک/ ڤریمدان علاقو
+country-of-residence-placeholder =
+    .placeholder = ملک/ڤریمدا علاقو نوشا
+why-are-you-asking = تو چی پرسیتے؟
 
 ## Gender dropdown
 

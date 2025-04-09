@@ -53,3 +53,7 @@ sc-review-empty-state = ɖɛ viɛ, numekukuɖe de lɛ yí woawɔ le egbe ceɖe 
 report-sc-different-language = egbebu
 report-sc-different-language-detail = enyɔgbe ce yí n hlɛnkɔ  tó vo nɔ ce yí wo ŋlɔ.
 sentences-fetch-error = Le enyɔgbe lé xoxuwomeɔ, mido jeshi vodada ɖeká
+review-error = Le ŋkuvilélé ɖé enyɔgbe ceɖe ŋu lɔ́, mido jeshi vodada ɖeká
+review-error-rate-limit-exceeded = e yi kɔ kabá ɖoɖu. Gbɔjiɖɛ átrɔhlɛn enyɔgbelɔ kpɔ nyuieɖe ne nanya bé éle tɔxu
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = mi trɔ́náshi le nu sugbɔ veviɖewó ŋú
