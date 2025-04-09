@@ -42,3 +42,5 @@ sc-criteria-title = numekuku fɔɖeɖewo
 sc-criteria-make-sure = tekpɔ né enyɔgbe lɔ ne sɔ ɖe afɔɖeɖe ceɖewo jí
 sc-criteria-item-1 = enyɔgbelɔ ne sɔ kuɖo gbeŋɔŋlɔseɛ
 sc-criteria-item-2 = enyɔgbelɔ ne sɔ kuɖo gbeŋutiseɛ
+sc-criteria-item-3 = O ne téŋ yɔ́ enyɔgbe lɔ
+sc-criteria-item-4 = Ne enyɔgbe lɔ sɔ ɖe afɔɖeɖewo jí lɔ́, naʒɛn«dashiɖoji» le ɖushi kpaxwe
