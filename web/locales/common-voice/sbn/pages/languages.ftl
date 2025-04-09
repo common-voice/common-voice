@@ -1,5 +1,7 @@
 ## Languages Overview
 
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = آکريٚ اپڊيٽ
 languages-show-more = وڌيٚڪ ڏسو
 languages-show-less = گهٽ ڏسو
 language-meter-in-progress = ترڪيٚ
