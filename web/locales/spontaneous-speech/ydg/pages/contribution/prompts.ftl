@@ -8,6 +8,8 @@ no-prompts-message = فی الحال پئیم زبان دیر چے اشارو چ
 error-skipping = ڤیم اشارو دے لیغدا وخت یو نقص (خرابی) پیدا ݰوئے
 error-recording = ترے ریکارڈ کڑا ملن یو نقص پیدا ݰوئے
 error-fetching-prompts = ڤے اشارو میر دے غوردا مسئلو پیدا ݰوئے۔ کیستہ دیبال دیبارو کوشش کن۔
+error-uploading-response = ڤے تے جواب ترے اپلوڈ کڑا ملن یو نقص پیدا ݰوئے
+prompt-submitted-success = جواب سے کامیاب جمع ݰوئے
 
 ## Explainer text (Respond to Prompt)
 
