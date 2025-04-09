@@ -77,6 +77,16 @@ citing-sentences-subheader-websites-explanation = تِمي ويب سآئيٚٽي
 citing-sentences-subheader-academic-reference = پڙهآيو ڪو هوآلو
 citing-sentences-subheader-academic-reference-explanation = تِمي استمآل ڪر سڪدآ هو اڪيڊمي ريفرنسنگ تريڪو، مسآل تور  "Mozilla (2021) Common هآرورڊ اندآج Voice. https://commonvoice.mozilla.org/ پر موجود هي: 15 سيپٽمبر 2021)"
 citing-sentences-subheader-offline-sources = آپ لآئين جَرَيآ
+citing-sentences-subheader-offline-sources-explanation = پبلڪ ڊومينو ڪيٚ لکآوٽيٚ تآڻيٚ جيڪو آنلآئين موجود ڪونآ هي، تِمي استمآل ڪر سڪدآ هو پڙهآيو هوآلي ڪروآݪو اندآج مِسآل توآ هآرڊ اندآج” جيس (2021) مآئي پبلڪ“ لآئيسنس نجمينٚ
+citation =
+    .label = پَرک
+self-citation = آپو آپ ديوآݪيٚ پرک
+self-citation-explanation = جد تمي موآد آپ آپ لِکرآ هو تو تِميٚ آپوڪوُ آپ ڪسي ڪيرآ هو۔
+adding-sentences-subheader-length = لمبآئيٚ
+adding-sentences-subheader-length-explanation = جُملآ مي 15 گُڦتآ دي گھٽ هوڻو کپينٚ
+adding-sentences-subheader-spelling-punctuation = هِجي اور نِشآنيونٚ
+adding-sentences-subheader-spelling-punctuation-explanation = جُملو سئيٚ تريٚڪآ دي لِکرو هوڻ کپي۔
+adding-sentences-subheader-speakable = ٻولوآ جوگو
 
 ## Question collection ids
 

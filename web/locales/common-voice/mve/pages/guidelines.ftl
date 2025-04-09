@@ -58,7 +58,7 @@ contact-common-voice = ڪامن وائس رِي ٽيم ھون رابطو ڪرو
 ## Sentence collection nav ids
 
 public-domain = عوامِي ڊومين
-citing-sentences = جُملا ڪٽ ڪرو
+citing-sentences = حوالا ڏيڻ آݪا جُملا
 adding-sentences = جُملا شامل ڪرو
 reviewing-sentences = جُملون رو جائزو ليو
 sentence-domain = جُملون رو ڊومين
