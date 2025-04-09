@@ -26,7 +26,7 @@ target-segment-first-banner = Kwasenu kuputuka ize muikwasa
 target-segment-add-voice = Hadjikenu nyi maliji jenu
 target-segment-learn-more = Kunyingika tshindji
 change-preferences = Chendjenu ize nuna nyonga
-login-signup = Kuliadjikisa
+login-signup = Kuliadjikisa  / Kuliadjikisa Kha
 vote-yes = Enga
 vote-no = Kha
 datasets = Hiheho ya hunyingikiso
@@ -39,13 +39,13 @@ submit-form-action = Kutuma
 
 report = Kutoweza
 report-title = Kutuma
-report-ask = Ukalu uka nwa wananga nyi ahu
+report-ask = Ukalu uka nwa wananga nyi ahu ?
 report-offensive-language = Maliji katelele
-report-offensive-language-detail = Manyonga amwe kakwetele vumbi chipwe matuka
-report-grammar-or-spelling = Kuhona kwadjika chize chinatela
-report-grammar-or-spelling-detail = Manyonga amwe kasonewene kulita chize chatamba kusoneka
+report-offensive-language-detail = Manyonga amwe kakwetele vumbi chipwe matuka.
+report-grammar-or-spelling = Kuhona kwadjika  / chize chinatela
+report-grammar-or-spelling-detail = Manyonga amwe kasonewene kulita chize chatamba kusoneka.
 report-different-language = Limi liko
-report-different-language-detail = Manyonga kasonekene mulimi linalisa  nyi lisena kuhandjika
+report-different-language-detail = Manyonga kasonekene mulimi linalisa  nyi lisena kuhandjika.
 report-difficult-pronounce = Yikalukuhandjika
 report-difficult-pronounce-detail = Yuma yiko inakaliwa kuitanga chipwe kuitongola
 report-offensive-speech = Maliji akulemeka
@@ -72,7 +72,7 @@ shortcut-discard-ongoing-recording = Kwehuka
 shortcut-discard-ongoing-recording-label = Kukatala kundjisa mutshipidji
 shortcut-submit = Ndjila tumenu ize nwa kwata tumenu ize nwa soneka
 shortcut-submit-label = Tumenu ize nwa kwata tumenu ize nwa soneka
-request-language-text = Liji lieye kanda lichipwa
+request-language-text = Liji lieye kanda lichipwa ?
 request-language-button = Kuchakula limi
 
 ## Listen Shortcuts
@@ -80,7 +80,7 @@ request-language-button = Kuchakula limi
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Kutanga/mana
+shortcut-play-toggle-label = Kutanga/Mana
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = o
@@ -93,9 +93,9 @@ shortcut-vote-no = n
 contribution-criteria-nav = Chize chatamba kupwa
 contribution-criteria-link = Kunyingika chize chatamba kukunga
 contribution-criteria-page-title = Ili tshize chatamba mba nukunge
-contribution-criteria-page-description = Evililenu kanawa chimbu nunakwata maliji numbate ize ili ya ulemu
+contribution-criteria-page-description = Evililenu kanawa chimbu nunakwata maliji numbate ize ili ya ulemu !
 contribution-for-example = Kwesekesa
 contribution-misreadings-title = Hupi wa kutanga
-contribution-misreadings-description = Chimbu unevilila talenu nyi kashishi nyi maliji nuakwatanga kanalite nyi hize nuadjikanga  kanda nusako tupalia hakehe. Talenu tupalia haola yeswe
+contribution-misreadings-description = Chimbu unevilila talenu nyi kashishi nyi maliji nuakwatanga kanalite nyi hize nuadjikanga  kanda nusako tupalia hakehe. Talenu tupalia haola yeswe :
 contribution-misreadings-description-extended-list-1 = Kahona(hauze) muhuputukilo wa kudjisa
 contribution-misreadings-description-extended-list-2 = Kunahona chimuwikha kusongo
