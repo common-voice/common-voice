@@ -23,3 +23,19 @@ request-language-success-heading = تمو ري مهربوني! تمي ايڪ ن�
 request-language-success-list-1 =
     تمو ني جلدي وضاحت ڪرياري ايڪ اي ميل حاصل ڪروي کپي
     تمو ري ٻولي ني عام آواز ۾ ٻيري ڪريا ھارو قدم
+request-language-success-list-2 =
+    امو رو ڪميونٽي مئنيجر تمو تڪ پوچئي پيش ڪريا ھارو
+    اضافي تعاون، ھين تمو ني ڄوڻ ڏيئي تو جيڪڏهي اووي 
+    پيري مون  ئي ايڪ ڪميونٽي تمو ري ٻولي تي ڪوم ڪري رھيو هي
+request-language-success-list-3 =
+    جيڪڏي تمي اسوني مون ڪوئي ڏن موئي نا ھڻو تو،
+    <emailLink>{ $email }</emailLink> تي رابطو ڪرو
+    ھين امي تموري طرف واپس آويو!
+request-language-error =
+    امو ني شايد آ درخواست ڪوئي ملي ھي. مهربوني ڪرين امو ني سڌو سنئون اي ميل ڪرو
+    <emailLink>{ $email }</emailLink> تي ھين امي تمو ري طرف واپس آويو!
+request-for-scripted-speech-toggle = اسڪرپٽ ھويوڙي تقرير ري درخواست
+request-for-spontaneous-speech-toggle = اسڪرپٽ ھويوڙي تقرير ري درخواست
+need-help-deciding-platform = ڪيووو چونڊيا رو فيصلو ڪريا  ۾ مدد جطري ضرورت هي؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>اسڪرپٽ ھويوڙي تقرير</strong> (روايتي طور تي جي تمي عام آواز ري نوم مون ڄوڻوھون) او هي جئي تمي آپري ٻولي ۾ جملا اونچي آواز آوازمون پڙهي سگهو ھون.
