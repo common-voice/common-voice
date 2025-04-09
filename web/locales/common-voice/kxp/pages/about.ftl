@@ -28,6 +28,12 @@ about-speak-text = مدد ڪريا واۯو زي آلل  جملا  بينڪ ٿي
 about-listen-queue = سلسلا ٿي هانمڀۯوون
 about-listen-queue-text = آواز نا ڪلپ زي هانمڀۯشي اي جمع ٿايا هارو داخل ٿئي جھا سي
 about-listen = هانمڀۯوون
+about-listen-text = استعمال ڪريا واۯو زينڻي ڪلپ مان مدد ڪري تي ، زووي ڪي ٻوليا واۯو جملا سهي ڀڻي سي۔
+about-is-it-valid = شون ڪلپ سهي سي؟
+about-is-it-valid-text = آواز نا ڪلپ سهي هوئي، زا ايڪ استعمال ڪريا واۯو هووي پسند سي۔
+about-yes-votes = هووي پسند سي
+about-yes-votes-text = عام آواز نين ڊيٽا سيٽ مان لايا هارو،  ٻي ڌار استعمال مان  آواز نو ڪلپ سهي هوئي
+about-no-votes = پسند نٿي
 
 ## Community Playbook Content
 ## What is a language
