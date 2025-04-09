@@ -24,6 +24,7 @@ varying-pronunciations-explanation-2 = ٻيجيَ پاݾي، جيَ ٿيَ سو�
 varying-pronunciations-example = رستو صاف ڪونِي ھتو۔
 varying-pronunciations-tip-1 = [ڪينيڊا رِي انگريزي شايد "روُٽ" ني "روٽ"  رِي گتِي ڊواز ڏيَ ݾگيَ ھي]
 varying-pronunciations-tip-2 = [برطانيا رِي انگريزي شايد "روٽ" ٺاهي ݾگهي ھي]
+offensive-content-explanation = جُملون نيَ ڪميونٽي ماڊريشن ريَ عل زريعي جونچيو جائيَ ھيَ، پڻ ائ عمل مڪمل ڪونِي۔ جيَ ٿيَ ڪو اھڙو جُملو جونچو يا ھڻو جڪو ٿونيَ ناراض ڪريَ يا پريشون ڪريَ۔ مسال طور ڪيونڪہ اي مھورِي<participationGuidelines> برادري رِي شرڪت رِي ھدايتون رِي خالف ورزي ڪري ھيَ</participationGuidelines>۔ مھربونِي ڪري يو آئِي ۾ فليگ بٽڻ استعمال ڪرو۔ ٿيَ مھون ڀيݪا <emailFragment> commonvoice@mozilla.comتيَ پڻ رابطو ڪري ݾگو ھو۔</emailFragment>
 misreadings-explanation-5 = اھڙيَ نِشانين پڙھڻ جڪو اصل ۾ موجود ڪونھي ھيَ، جون ”مھيَ ھون“ رِي جگھہ ”مھيَ ھون“ يا اُوئون جيھڙِي ھيَ۔
 misreadings-explanation-6 = ريڪاڍِنگ نَي جوم ڇيڪِي ڪٽڻ رَي ڪريَ پڇاڙِي را اکر گُمِيجيَ را
 misreadings-explanation-7 = ھيڪيَ اکر نَي پڙھڻ ھارو ڪِيتريَ ڪوشِشون ڪرڻ۔

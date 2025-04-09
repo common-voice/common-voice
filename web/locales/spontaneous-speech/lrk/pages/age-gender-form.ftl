@@ -8,6 +8,9 @@ select-your-age = آپري عمر چونڊو
 gender-select-label = تمو ري جنس يا جنس ڪاو هي؟
 select-your-gender = آپري جنس يا جنس چونڊو
 country-of-residence-label = ملڪ/رهائش رو علائقو
+country-of-residence-placeholder =
+    .placeholder = آپري ملڪ/رهائش رو علائقو داخل ڪرو
+why-are-you-asking = تمي ڪون پوسو
 
 ## Gender dropdown
 
