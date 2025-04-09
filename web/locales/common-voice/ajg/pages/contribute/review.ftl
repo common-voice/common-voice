@@ -46,3 +46,6 @@ sc-criteria-item-3 = O ne téŋ yɔ́ enyɔgbe lɔ
 sc-criteria-item-4 = Ne enyɔgbe lɔ sɔ ɖe afɔɖeɖewo jí lɔ́, naʒɛn«dashiɖoji» le ɖushi kpaxwe
 sc-criteria-item-5-2 = né enyɔgbe lɔ de sɔ kuɖo afɔɖeɖe cewo yí le eji lɔ́, naʒɛn «cucwui ɖaɖa» le miɔ kpaxwe. Ne de kan ɖé nɖé jí lɔ, na totóŋú ayi ɖetɔlɔ jí
 sc-criteria-item-6 = Ne numekukuɖe de gbe lɛ yí nawɔ so enyɔgbewo ŋú lɔ́, kpeɖemiŋú kuɖo ebuwo
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = kunume<icon></icon> kpɔ bé enyɔgbeɛ sɔ ɖe gbeŋucinunya  ɖóɖóɔ jia
+sc-review-rules-title = enyɔgbeɛ sɔ ɖo ɖoɖowo jia

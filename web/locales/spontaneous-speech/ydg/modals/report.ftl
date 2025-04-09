@@ -7,6 +7,7 @@ offensive_speech-detail = تریم ملن غیر مہذب یا شوم گپ اس�
 different_language = دیر زبان
 different_language-detail = من څیمی زبانن کو توقع ڤیو مولو موجود زبان ژے ون مختلف۔
 personally_identifiable_information = ذاتی شناختن معلوماتے
+personally_identifiable_information-detail = تریم موادف ملن ڤے کوئے دے ذاتی طور ڤزدا بݰ معلوماتے استت۔ چیمی کو وف نام، ای میل ایڈریس، ژاغہ، شناختی نمبار یا فون نمبار۔
 report-other-comment =
     .placeholder = تبصرو
 # Label for textarea in report modal
