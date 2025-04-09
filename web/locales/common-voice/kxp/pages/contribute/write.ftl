@@ -60,6 +60,10 @@ media_entertainment = ميڊيا، هانَ تفريح
 nature_environment = قدرت هانَ ماحول
 # Sentence Domain dropdown option
 news_current_affairs = خبرون هانَ معملات
+# Sentence Domain dropdown option
+technology_robotics = ٽيڪنالوجي هانَ روبوٽڪس
+sentence-variant-select-label = مختلف جُملا
+sentence-variant-select-placeholder = ڪوئي ايڪ مختلف نشان چونڊو
 sentence-variant-select-multiple-variants = مختلف جنرل ٻولي
 
 ## BULK SUBMISSION
