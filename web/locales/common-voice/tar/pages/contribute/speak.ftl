@@ -35,6 +35,7 @@ review-recording = Inée
 review-rerecord = Che siné moá raíchali
 review-cancel = Ku naóma julárami.
 review-keep-recordings = Katewáa échi raíchali moárami
+review-delete-recordings = Ku naómama nije moála raíchali
 
 ## MENU ITEM TOOLTIPS
 
