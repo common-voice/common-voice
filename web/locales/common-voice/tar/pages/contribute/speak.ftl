@@ -14,6 +14,12 @@ record-cancel = Ma che ku naomasi echi ché moaliami raichali
 record-instruction = { $actionType }<recordIcon></recordIcon>Ali kinána ani echi raíchali we iweámi
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>Japi alími kayéna
 record-three-more-instruction = Bikía ripíi
+record-again-instruction = We alá! <recordIcon></recordIcon>Che newá bilécho grabación
+record-again-instruction2 = Chi riká a ináro, ché siné moá raicháli<recordIcon></recordIcon>
+record-last-instruction = Ma upáwala
+review-tooltip = Iné alí che siné moáa raíchali
+share-clip = We nejá échi clip
+share-common-voice = We nejá échi Common Voice
 
 ## MENU ITEM TOOLTIPS
 

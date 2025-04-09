@@ -57,3 +57,4 @@ review-error = Le ŋkuvilélé ɖé enyɔgbe ceɖe ŋu lɔ́, mido jeshi voda
 review-error-rate-limit-exceeded = e yi kɔ kabá ɖoɖu. Gbɔjiɖɛ átrɔhlɛn enyɔgbelɔ kpɔ nyuieɖe ne nanya bé éle tɔxu
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = mi trɔ́náshi le nu sugbɔ veviɖewó ŋú
+sc-redirect-page-subtitle-1 = enyɔgbelé xoxuwonú va yi ci Common Voice ka ji
