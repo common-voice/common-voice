@@ -32,6 +32,9 @@ review-aborted = Jápi mi jimíli raicháli. Achami ku naóminali échi raíchal
 review-submit-title = Iné alí juláa
 review-submit-msg = Matétera ba kíti kómi ayena moáli raíchali! <lineBreak></lineBreak> Jípi ko iné alí che júla échi raíchali moarámi
 review-recording = Inée
+review-rerecord = Che siné moá raíchali
+review-cancel = Ku naóma julárami.
+review-keep-recordings = Katewáa échi raíchali moárami
 
 ## MENU ITEM TOOLTIPS
 
