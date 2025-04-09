@@ -12,3 +12,5 @@ partnerships-governments-description = ہم ٹیکنالوجی، نئوی ٻات
 partnerships-academia-header = یونیورسٹیوں، ہوسیار تالیم اور جانچ کرنواڑے
 partnerships-academia-description = ہم جکو کائی کرتے ہے اس کے دلام میں کُھلی نئوی ٻات ہے۔ جانچ یوگدان، اعداد و شمار جما کرنے یا انٹرویو نتر، <emailFragment>پونٚچ پراپت کرو.</emailFragment>
 partnerships-small-business-header = لھوڑے کاروبار، سیمل ٹیک اور اے آئی اسٹارٹ اپ
+partnerships-small-business-description = ہم سدائیں ڈیٹا گیراکاس ان کی جروریات اور لِکھائیا باریم سُݨنا چاوہتے ہے - ڈیٹا جما کرنے کے پلیٹ فارمام یوگادن کرنیس لی کر ڈیٹا سُوستا کی اِدؔائے نیگھا دؔیݨے تائی، ہم <emailFragment>تھمسے سُݨنا</emailFragment> چاوہتے ہے.
+partnerships-corporates-header = ٻڈؔے پیمانیپ کارپوریٹ اور پلیٹ فارم کمپنیاں

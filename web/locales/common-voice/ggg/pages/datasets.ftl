@@ -71,3 +71,6 @@ dataset-metadata-age = اُمر
 donate-modal-message = تمرو ڊيٽآ سيٽ ڊآئون لوڊ ڪريهرو هي !
 dataset-donate-modal-heading = ڪآ تئو کبر هونٚديٚ
 donate-modal-explanation-1 = ڊيٽآ سيٽو ڪيٚ مهربآنيٚ ڪروو + 100 سو ٻوليآنٚ ڪيٚ ڪوميٚ لآ  پليٽ ڦآرمونٚ ڪو اور سئي ڪروآ لآ ايڪ سآليٚ مي تڪريٚبن ايڪ ملين ڊالر کرچ هونٚدآ هينٚ  جيڪو همينٚ ڪردآ هونٚ ؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> جي تمينٚ  کلريٚ، ڌيريٚ ڊيٽآ  ڪيٚ ڪيمت آج دآن ڪرو!</bold>
+data-download-singleword-title = ڊآئون لوڊ ڪررو آيڪلو لڦج چگرو گوو هسو
