@@ -39,3 +39,5 @@ request-for-spontaneous-speech-toggle = اسڪرپٽ ھويوڙي تقرير ر�
 need-help-deciding-platform = ڪيووو چونڊيا رو فيصلو ڪريا  ۾ مدد جطري ضرورت هي؟
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>اسڪرپٽ ھويوڙي تقرير</strong> (روايتي طور تي جي تمي عام آواز ري نوم مون ڄوڻوھون) او هي جئي تمي آپري ٻولي ۾ جملا اونچي آواز آوازمون پڙهي سگهو ھون.
+need-help-deciding-platform-explanation-2 = <strong>Spontaneous Speech</strong> ڪامن وائس رو ايڪ نئون حصو هي جتي تمي سوالو را جواب وڌيڪ نامياتي، عام ٻولي ۾ ڏئي سگهو ھون.
+need-help-deciding-platform-explanation-3 = جيڪدي تمو ني پليٽ فارم ري ٻيجا حصو ۾ آپري ٻولي نظر ڪوئي آوي تو ٻئي چونڊو.
