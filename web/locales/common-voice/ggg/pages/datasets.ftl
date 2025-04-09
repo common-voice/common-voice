@@ -57,3 +57,15 @@ go-discourse = ٻولوآ چآلوآ ڪوديٚ جآئو
 missing-language = ڪآ تمريٚ ٻوليٚ ڊيٽآ سيٽو مي نجر ڪونآ آئي ؟ همريٚ ٻوليآݪآ پنآ ڪوُ ايڪ ٻوليو ڪيٚ نوينٚ سوينٚ درکوآست ڪروآ تآڻيٚ
 go-languages-page = ٻوليآنٚ ڪآ پنآ ڪوديٚ جآئو
 ready-to-validate = جُملآنٚ ڪوُ سهيٚ ڪروآ مي مدت ڪروآ لآ تيآر هو؟
+more = ٻتيٚ
+close = بند ڪرو
+download = ڊآونلوڊ ڪرو
+dataset-version = نکسو
+sha256-checksum-copied = ڪآپيٚ ڪررو گو SHA256 Checksum!
+sha256-checksum-copied-error = ڪآپيٚ  ڪروآ مي نآڪآم هرو SHA256 Checksum
+clipboard-not-supported = ڪلپ بورڊو ڪوُ سپوٽ ڪونآ هي
+no-information-available = يهآنٚ ڪوئيٚ بيٚ کبرچآرڪونآ
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = اُمر
+donate-modal-message = تمرو ڊيٽآ سيٽ ڊآئون لوڊ ڪريهرو هي !

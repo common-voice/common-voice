@@ -21,3 +21,5 @@ submit-all-button = ساف جمع کن
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ڤیم صفحہ استعمال کڑا ایخسا
+learn-how-to-use-prompts-explanation = چند کہ کرکڑیت دے قدرتی انداز ڤے اشارغّف صرف دے یو چر جملغف جواب دل۔ مو گپ ضروری کہ تے زبان ݰئیلے اڤن باعزت اوئے۔
+learn-how-to-use-prompts-guidance = ڤیم صحفہ استعمال پے ایختا دیر مولو <guidanceLink>کلک</guidanceLink>کن
