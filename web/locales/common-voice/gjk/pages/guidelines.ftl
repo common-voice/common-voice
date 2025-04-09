@@ -97,6 +97,9 @@ adding-sentences-subheader-abbreviations-explanation = زين متنَ مان ٿ
 adding-sentences-subheader-punctuation = زير زڀران نان نِشانَ
 adding-sentences-subheader-punctuation-explanation = کاس نِشانَ انين زير زڀران نا نِشانَ تيرين شامِل ڪروان زويئين زيرين اِي ماڳين ضرورِي هوئيَ۔ مِثال طور ايڪ انڳريزِي لڦظ ايپوسٽرافِي ”نا“ انين ”امين سيئين“ مان اِستمال ٿائيَ سي۔ انين اين نين زين متنَ مان ٿِي سي اين مان شامِل ڪريون زائيَ سي۔ پڻ اِي مُمڪِنَ نٿِي ڪي تمان نين  “@” or “#.” زيوان نِشانان نِي ضرورت پڙيَ۔
 adding-sentences-subheader-special-characters = خاص ڪِرڌار انين پرۮيسِي خط
+adding-sentences-subheader-special-characters-explanation-1 = اکر ٻولِيا وارِي ٻولِي مان سئِي هووا زويئين مِثال طور ”ж“ رُوسي الفابيٽ مان ايڪ اکر سي پڻ انڳريزِي مان ڪوئيۮِي اِسمال نٿِي ٿاتو تيمان ڪوئيۮِي ڪونئين پڻ انڳريزِي ليڌل متنَ مان ظاهر نٿِي ٿاتو۔
+adding-sentences-subheader-special-characters-explanation-2 = ٻولِيون مقامِي ڪريا ٽاڻيَ اِضافِي گھُرجھان ڀيڳين پوتا نا تصۮيق نا قائيۮا راکِي ۿڳيَ سي۔ زو ڪونئين ٻولِي ۿارُو ڪونئين مخصوص تصۮيق فائيل نٿِي، تو انڳريزِي قائيۮا حِصو ليڌا واران نين ۮيکاڙِيا زاشيَ۔
+adding-sentences-subheader-offensive-content = ڀيڪار مواڌ
 
 ## Question collection ids
 

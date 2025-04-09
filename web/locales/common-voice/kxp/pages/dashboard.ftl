@@ -18,10 +18,14 @@ validated-clips = ڪلپ ني تصديق
 total-approved = ٻڌائي قبول ٿئي جھا
 overall-accuracy = پُورا سهي سي
 set-visibility = ماري نمائيش تيار ڪرو
-visibility-explainer = آ سيٽنگ تمار ليڊرببورڍ نِي نمائيش نين ڪنٽرول ڪري سي
+visibility-explainer = آ سيٽنگ تمارا ليڊرببورڍ نِي نمائيش نين ڪنٽرول ڪري سي۔ زي تماري محنت هتال سي تمارون ٿئي زاشي۔ اين نو مطلب ليڍربورڊ ماٿي تمارو ڦوٽو، هاچا واۯا نُون نام، هانَ اين ني ترقي ظاهر نين ٿائي۔  ياد راکو ڪي ليڍربوڊ تازون ٿايا هارو ڪانڪ وکت مان تبديلي ڪري سي۔
+visibility-overlay-note = نوٽ: زار نمائيش هارو تيار هشي، اين ني سيٽنگ پروفائيل مان تبديل ٿئي زاشي۔ </profileLink>
+show-ranking = مارو درجو وتاڙو
 
 ## Custom Goals
 
+get-started-goals = مقصد ٿي شروع ڪرو
+create-custom-goal = ضرورت پرماڻي مقصد تيار ڪرو
 goal-interval-weekly = هفتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = تمارا ڪلپ شير ڪرو زي تمين هروز لکو سو
