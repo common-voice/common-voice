@@ -68,6 +68,25 @@ sentence-domain = ايڪجيوا جملا
 public-domain-explanation-1 = او تموم ضروري هي ڪي سڀ متن را جملا <publicDomain>عوامي ڊومين</publicDomain> (<cc0>cc0</cc0>) هوئي جيم عام آواز ڊيٽا سيٽ ني cc0 لائسنس تحت جاري ڪريو گيو هي. صرف ڪڏي بي ايڪ جملو اپلوڊ ڪرو جيڪڏي تمي پڪ ھون ھين هميشه ميلتا جھولتا حوالا ڀيرا ڪرو
 public-domain-explanation-2 = ايڪ مفيد تقرير ري اورکيا واري انجڻ ري تعميرھارو بهترين جملا ڀوليا وارا، جديد اکر ھي. ڪوئي خيال تمو ري مدد ڪريا ھارو ھي جملا پيدا ڪريا ۾؛
 public-domain-explanation-3 = رپري آپ يا آپري دوستو يا ٻوليءَ ري ڪميونٽي مون جديد، ٻوليا وارا جملا ٺاهو - مثال طور ايڪ ’لائي-اي-ھون‘ ذريعي
+public-domain-explanation-4 = ليکڪن، ڊراما نگارن يا اسڪرين رائٽرن مون رابطو ڪرو ھين ئوسو تو ڪاو ھي آپري ڪوم رو ايڪ نينو حصو عوامي ڊومين ھارو وقف ڪريا ھارو تيار ھوئي
+public-domain-explanation-5 = متن ھارو جو جتي ڪاپي رائيٽ همي لاڳو ڪوئي ھوئي - مثال طور اڪثر ڪتاب جي 1920 مون پيري ھوما آيا هتا
+public-domain-explanation-6 = حڪومتو، غير منافع بخش يا ميڊيا تنظيمن تڪ پوچي تو جو تو ڪاو اووہ ري ويب مواد، رپورٽون يا ٻيجو مواد عوامي ڊومين ھارو وقف ڪري سگهي ھي.
+citing-sentences-explanation-1 = حوالو ني ڀيرا  ڪروُہ ضروري هي تو جيم امي چيڪ ڪري سگهو تو جملا عوامي ڊومين ۾ ھي ھين ڪاپي رائيٽ ري پابندي لاڳو هي.
+citing-sentences-subheader-websites = ويب سائيٽون
+citing-sentences-subheader-websites-explanation = تمي ويب سائيٽ ٻيري ڪري سگھو ھو، مثال طور "عام آواز - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = تعليمي حوالو
+citing-sentences-subheader-academic-reference-explanation = تمي استعمال ڪري سگھو ھون اڪيڊمي ريفرنسنگ اسلوب، مثال طور هارورڊ انداز "Mozilla (2021) Common Voice. https://commonvoice.mozilla.org/ تي دستياب ھي: 15 سيپٽمبر 2021)"
+citing-sentences-subheader-offline-sources = آف لائن ذريعا
+citing-sentences-subheader-offline-sources-explanation = پبلڪ ڊومين ري متن ھارو جي آن لائن دستياب ڪوئي ني، تمي استعمال ڪري سگهو ھو تعليمي حوالي ڪريا  وارو انداز مثال طور هارورڊ انداز ”جي (2021) مائي پبلڪ لائسنس رون نظمون“
+citation =
+    .label = خلاسو
+self-citation = پاڻمرادو حوالو
+self-citation-explanation = جيڪڏي ٽمي مواد آپ لکيو هي تو تمي آپ ھي آپ ني ڪيڪر بيون گيو هي.
+adding-sentences-subheader-length = ڊگھائي
+adding-sentences-subheader-length-explanation = جملا ۾ 15 اکرو مون گھٽ ھوُہ کپي.
+adding-sentences-subheader-spelling-punctuation = هوئي ھين اوقاف
+adding-sentences-subheader-spelling-punctuation-explanation = جملي ني صحيح لاگوُ کپي.
+adding-sentences-subheader-speakable = ٻولوُہ جوڳو
 
 ## Question collection ids
 
