@@ -25,6 +25,10 @@ varying-pronunciations-example = رستو واضح ڪوئي ھي
 varying-pronunciations-tip-1 = [ڪينيڊا ري انگريزئ ۾ ھوئي سگھي ھي "رستو" آواز "روٽ" جيم]
 varying-pronunciations-tip-2 = [برطانوي انگريزئ ۾ ھوئي سگھي ھي "روٽ"]
 offensive-content-explanation = جملو ني ڪميونٽي ري ڀآراپڙون واري عمل ري ذريعي جوڻيو جائي هي، جدي  تو آ عمل پورو ڪوئي ني. جيڪڌي تمي ڪوئي ايووُ جملو جو يا ھڻو جي تمو ني ناراض ڪري يا تمو ني پريشان ڪري - مثال طور ڪونڪِ ته او امو ري <participationGuidelines>ڪميونٽي ميلايا ري هدايتنو</participationGuidelines> ري خلاف ورزي ڪري ھي - مهربوني ڪرين UI ۾ پرچم وارو ھوڻو استعمال ڪرو. تمي پڻ امون مون رابطو ڪري سگھوھون <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = صفحا تي سڀ اکرو ني صحيح طور تي پڙھڻوُ ضروري ھي. جڏي ھڻو، تموم احتياط مون چيڪ ڪرو تو جي رڪارڊ ڪريو گيو هي او ئي هي جي لکيوڙو هي؛ رد ڪرو جيڪڏي ايئي ڀيرا ڪريا گيا ھي، معاهدو يا ياد ڪريوڙا اکر.
+misreadings-explanation-2 = تمم عام غلطيون ڀيري ھي:
+misreadings-explanation-3 = رڪارڊنگ ري شروعات ۾ 'A' يا 'The' غائب.
+misreadings-explanation-4 = ڪي اکر ري آخر ۾ ’s‘ غائب هي.
 
 ## Sentence collection nav ids
 
