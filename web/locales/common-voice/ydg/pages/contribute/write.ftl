@@ -69,6 +69,7 @@ select-file = فائل منتخب کن
 select-file-mobile = اپلوڈ پے کڑان دیر فائل منتخب کن
 minimum-sentences = دے یو فائل کم از کم جملغے:1000
 maximum-file-size = فائلن ژے استرن استر سائز :25 ایم بی
+upload-progress-text = اپلوڈ جاری استت
 
 ## SMALL BATCH SUBMISSION
 

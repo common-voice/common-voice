@@ -24,6 +24,7 @@ download-language = ڈاؤن لوڈ { $language }
 validated-hours = کل تصدیق شدہ گھنٹائی
 recorded-hours = ریکارڈ ݰیغو گھنٹہ
 whats-inside = نے کامن وائس ڈیٹاسیٹ ملن څیمین استت’؟
+want-dataset-update = تو آگاہی کہ کوسیتے کہ ماخ ڤے کامن وائس ڈیٹاسیٹن نوؤ ورژن کلو نینم؟ ڤے ماخ نیوز لیٹر سبسکرائب کن۔
 subscribe = سبسکرائب
 other-datasets = دیر وائس ڈیٹاسیٹ
 feedback-q = تبصرو کینیتیآ؟
