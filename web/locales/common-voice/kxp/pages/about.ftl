@@ -24,6 +24,8 @@ about-dataset-release-title = ڊيٽا سيٽ پيش سي
 about-dataset-release-subtitle = امين هر ترينڻمي مئيني ڊيٽا سيٽ پيش ڪرشان
 about-subscribe-text = امين چاهان سان ڪي عام آواز هارو رابطا مان ران
 about-speak = ٻولو
+about-speak-text = مدد ڪريا واۯو زي آلل  جملا  بينڪ ٿي مدد ڪري سي اين نين ڀڻيا ٿي ڪلپ رڪارڊ ڪران سان،
+about-listen-queue = سلسلا ٿي هانمڀۯوون
 
 ## Community Playbook Content
 ## What is a language
