@@ -113,6 +113,9 @@ adding-questions = Aggiungere domande
 
 what-makes-a-good-question-subheader = Quali sono i requisiti per una buona domanda?
 what-makes-a-good-question-explanation = Una buona domanda per i dataset di partecipazione pubblica dovrebbe:
+what-makes-a-good-question-explanation-criteria-1 = Essere sia facile da capire che facile a cui rispondere
+what-makes-a-good-question-explanation-criteria-2 = Essere generalmente appropriata
+what-makes-a-good-question-explanation-criteria-3 = Non contenere o incoraggiare l’uso di linguaggio offensivo o oltraggioso
 what-makes-a-good-question-tip = Considera anche l’inclusione di contesti e domini diversi.
 easy-to-understand = Facile da capire
 easy-to-understand-explanation = Scegli domande semplici che siano facilmente comprensibili a chiunque, indipendentemente dalla cultura o dal contesto.
