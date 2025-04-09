@@ -5,6 +5,20 @@ toward-next-goal = آڳۯ ٻيزا مقصد هارو
 goal-reached = مقصد هوڌي پوتوون
 clips-you-recorded = تمين ڪلپ رڪاڍ ڪريا پرا سي
 clips-you-validated = ڪلپ نِي تصديق ڪري پري سي
+todays-recorded-progress = آز نو عام آواز نين آڳۯ وڌيا نو ڪلپ رڪارڊ ٿئي جھا سي
+todays-validated-progress = آز نو عام آواز نين آڳۯ وڌيا نا ڪلپ تصديق ٿئي جھا سي
+stats = اسٽيٽس
+awards = انعام ڍگري
+you = تُون
+everyone = هر ايڪ
+contribution-activity = مدد هارو سرگرمي
+top-contributors = وڌاري مدد ڪريا واۯان
+recorded-clips = ڪلپ رڪارڍ ٿئي جھان
+validated-clips = ڪلپ ني تصديق
+total-approved = ٻڌائي قبول ٿئي جھا
+overall-accuracy = پُورا سهي سي
+set-visibility = ماري نمائيش تيار ڪرو
+visibility-explainer = آ سيٽنگ تمار ليڊرببورڍ نِي نمائيش نين ڪنٽرول ڪري سي
 
 ## Custom Goals
 
