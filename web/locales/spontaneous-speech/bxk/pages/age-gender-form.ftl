@@ -7,7 +7,10 @@ age-select-label = Ericka yowo elisi?
 select-your-age = Londa ericka yowo
 gender-select-label = sex obah gender yowo ndalasi?
 select-your-gender = Londa sex obah ègender yowo
-country-of-residence-label = Sibala/kumutala ekhumenyela
+country-of-residence-label = Linambo/sekhemu esi umenyah
+country-of-residence-placeholder =
+    .placeholder = Ramo Linambo/sekhemu esi- umenyah
+why-are-you-asking = Lwasina ularebanga?
 
 ## Gender dropdown
 
