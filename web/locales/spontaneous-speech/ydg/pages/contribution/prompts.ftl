@@ -10,6 +10,13 @@ error-recording = ترے ریکارڈ کڑا ملن یو نقص پیدا ݰوئ�
 error-fetching-prompts = ڤے اشارو میر دے غوردا مسئلو پیدا ݰوئے۔ کیستہ دیبال دیبارو کوشش کن۔
 error-uploading-response = ڤے تے جواب ترے اپلوڈ کڑا ملن یو نقص پیدا ݰوئے
 prompt-submitted-success = جواب سے کامیاب جمع ݰوئے
+prompt-response-deleted-success = جواب سے کامیابی ڈیلیٹ ݰوئے
+# For the button to delete a response to a prompt
+delete = ڈیلیٹ کن
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = جمع ݰوئے
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = ساف جمع کن
 
 ## Explainer text (Respond to Prompt)
 
