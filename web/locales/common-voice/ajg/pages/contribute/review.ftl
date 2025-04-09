@@ -44,3 +44,5 @@ sc-criteria-item-1 = enyɔgbelɔ ne sɔ kuɖo gbeŋɔŋlɔseɛ
 sc-criteria-item-2 = enyɔgbelɔ ne sɔ kuɖo gbeŋutiseɛ
 sc-criteria-item-3 = O ne téŋ yɔ́ enyɔgbe lɔ
 sc-criteria-item-4 = Ne enyɔgbe lɔ sɔ ɖe afɔɖeɖewo jí lɔ́, naʒɛn«dashiɖoji» le ɖushi kpaxwe
+sc-criteria-item-5-2 = né enyɔgbe lɔ de sɔ kuɖo afɔɖeɖe cewo yí le eji lɔ́, naʒɛn «cucwui ɖaɖa» le miɔ kpaxwe. Ne de kan ɖé nɖé jí lɔ, na totóŋú ayi ɖetɔlɔ jí
+sc-criteria-item-6 = Ne numekukuɖe de gbe lɛ yí nawɔ so enyɔgbewo ŋú lɔ́, kpeɖemiŋú kuɖo ebuwo
