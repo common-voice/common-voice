@@ -12,6 +12,7 @@ country-of-residence-placeholder =
     .placeholder = Ramo Linambo/sekhemu esi- umenyah
 why-are-you-asking = Lwasina ularebanga?
 why-are-you-asking-explanation = Embakha yino silii yalazima taah, wakha urunge nga wiwulila sawa. Nga waweleshe bubakha, khu pseudonymisah bibickatchula khumundu tena khwa makingah shuwa bubakha anga lisina lyowo nende email sebifwana bilalah nende bubakha bwa demographicah nga umuri oba sex taah. Nenga technologyi khuramba sawa esi bulimundu, data uyetákho ba-developer khukhwombekha technologyi yenyikhana khuriflectah tafauti mubandu. Soma bilalah biikila metadata yenyikhana.
+thank-you-for-your-information = Wanyala lwe burume bowo.
 
 ## Gender dropdown
 
