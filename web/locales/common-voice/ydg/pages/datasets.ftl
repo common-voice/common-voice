@@ -3,6 +3,7 @@
 datasets-heading = ڈیٹا سیٹ
 language = زبان
 download-dataset-header = ڈیٹا سیٹ ڈاؤن لوڈ کن
+download-dataset-tag = ڤے خوئے حاجتن زبان نے ڈیٹاسیٹ منتخب کن اڤن ڤے ګیم ورژن کو، کوسیتے ڤؤ ڈاؤن لوڈ کن۔
 # File size in gigabytes
 size = سائز
 validated-hr-total = کل۔ تصدیق شدہ ایچ آر
