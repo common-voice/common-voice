@@ -9,8 +9,8 @@ clips-with-count-pluralized =
         [one] Tshibindji
        *[other] Tshibindji
     }
-goal-help-recording = Chakupwa yenu keshika common voice aheta mukwadji ka hize apwanga kufupa hita tangwa
-goal-help-validation = Chakupwa yenu common voice kaheta kuyuma ya hita tangwa nyi kuipwisa ya umwene mwene
+goal-help-recording = Chakupwa yenu keshika common voice aheta mukwadji ka hize apwanga kufupa hita tangwa!
+goal-help-validation = Chakupwa yenu common voice kaheta kuyuma ya hita tangwa nyi kuipwisa ya umwene mwene!
 contribute-more = Unataiza kulinga nawa ?
 speak-empty-state = Kutuchi nyi yumaiko ya kusoneka mulimi ali
 no-sentences-for-variants = Kulisa cha limi lie china hihisa manyonga

@@ -20,6 +20,11 @@ record-last-instruction = Ma upáwala
 review-tooltip = Iné alí che siné moáa raíchali
 share-clip = We nejá échi clip
 share-common-voice = We nejá échi Common Voice
+review-instruction = Che iné alí che moáa raicháli jápi re chi riká nisa ka
+record-submit-tooltip = { $actionType }Ma júla jápi re ma kaenása ka
+clips-uploaded = Júla ma kayénasa ka
+record-abort-title = Achá mi  kainánali bachá moá raicháli?
+record-abort-text = Jápi remi jípi machinása, sinéami mi wikawáma jápimi nóchali jípi
 
 ## MENU ITEM TOOLTIPS
 

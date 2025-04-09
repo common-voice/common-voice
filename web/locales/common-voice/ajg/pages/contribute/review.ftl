@@ -58,3 +58,6 @@ review-error-rate-limit-exceeded = e yi kɔ kabá ɖoɖu. Gbɔjiɖɛ átrɔhl�
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = mi trɔ́náshi le nu sugbɔ veviɖewó ŋú
 sc-redirect-page-subtitle-1 = enyɔgbelé xoxuwonú va yi ci Common Voice ka ji
+sc-redirect-page-subtitle-2 = biɔ nyɔwo sɔ kudo<matrixLink> Matrix</matrixLink>, <discourseLink> Nuxu</discourseLink> alo<emailLink> to e-mail ji</emailLink>.
+# menu item
+review-sentences = glo nyɔgbelɔwo kpɔ nyuieɖé
