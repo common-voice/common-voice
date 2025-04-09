@@ -141,3 +141,6 @@ contribution-volume-description = gbeɖidi nɔ tɔxuwo hame hamewo zénɔ le nu
 contribution-reader-effects-title = gbeɖiɖiwo kudo nuwɔna ɖiɖiwo
 contribution-reader-effects-description = le nyɔlele geɖemelɔ, amewo xonɔ nuxu kuɖo wo ŋtɔwo jɔjɔmegbe. Gaɖomeɔ, ateŋ wɔdɔ kuɖo enyɔlele ce yí daxwa tɛn o, ce yí ɖɔkpa le alo ce me yí nuxuɔ zé shigbe lé wa wɔkɔ fefe nené. ɖashi cewo yí nyí hajijiwo alo cewo yí so kpɔtɔ le enyɔleleɛme.
 contribution-just-unsure-title = e dan lé a wɛa
+contribution-just-unsure-description = ne e va do go kuxiɖéka ce yí de le tɔxu lɔ́, na tekkpɔ awɔ cancan enyuitɔ. Vɔ ne nyí bé de nya enu ce yí awɔ tututu lɔ, naʒɛn ashi ɖe« va yi ji» yí na wɔdɔ kuɖo nyɔlele bu.
+see-more = <chevron></chevron> na kpɔɖeŋú búwó
+see-less = <chevron></chevron> na kpɔɖeŋú hwɛɖeká

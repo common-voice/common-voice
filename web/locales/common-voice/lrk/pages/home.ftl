@@ -32,9 +32,38 @@ speak-goal-text = رڪارڊ ھويوڙا ڪلپس
 listen-paragraph = دون ڪريوڙا  ڪلپس ري تصديق ڪروي عام آواز ري مشن ھارو پڻ ضروري هي. ھڻو ھين امو ري مدد ڪرو معياري اوپن سورس وائس ڊيٽا ٺاھيا  ۾.
 listen-goal-text = ڪلپس ري تصديق ڪري گئي
 hours-recorded = رڪارڊ ھويوڙاڪلاڪ
+hours-validated = رڪارڊ ھويوڙا ڪلاڪ
+voices-online = آواز آن لائن ھامي
+todays-progress = آج ڪي پيش رفت
+help-reach-goal = امو ري  { $goal } حاصل ڪريا ۾ مدد ڪرو
+read-terms-q = ڪاو تمي امو رون شرطون پڙهيون ھي؟
+ready-to-record = آپرو آواز دآدا ھارو تيار ھون
+all-locales = سڀ
+today = آج
+x-weeks-short =
+    { $count ->
+        [one] هفتو
+       *[other] { $count } هفتو
+    }
+x-months-short =
+    { $count ->
+        [one] مهينو
+       *[other] { $count } مهينو
+    }
+x-years-short =
+    { $count ->
+        [one] سال
+       *[other] { $count }سال
+    }
+help-make-dataset = امو ري مدد ڪرو ايڪ اعليٰ معيار، عوامي طور تي کليوڙي ڊيٽا سيٽ ٺايا ۾
+sign-up-account = ايڪ اڪائونٽ ھارو سائن اپ ڪرو
+email-subscription-title = اي ميل تازه ڪاري ھارو سائن اپ ڪرو
+email-subscription-title-new = ڪامن وائس نيوز ليٽرز، مقصد ياد ڏيرايا وارا ھين ترقي ري تازه ڪاري ھارو سائن اپ ڪرو
 
 ## Account Benefits
 
+benefits = فائدا
+rich-data = ڪوئي گمنام ڊيموگرافڪ ڊيٽا مهيا ڪرتي آپري جمع ڪريوڙي ڊيٽا ني ممڪن طور تي امير ٺاوو. امو سڀ ڊيموگرافڪ ڊيٽا ني عام ڪريا مون پهري او ري اورکوڙ ڪرو ھون
 
 ## What's public
 

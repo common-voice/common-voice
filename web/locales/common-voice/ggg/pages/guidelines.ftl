@@ -73,6 +73,8 @@ public-domain-explanation-5 = لِکآوٽيٚ تآڻيٚ ديکو جھآنٚ ڪ
 public-domain-explanation-6 = هڪوُمت ڦآئيدو نآ ديوآݪيٚ جآنٚ ميڊيآ تنجيميٚنٚ تآئينٚ پوهچ تو ديکو تو ڪآ اُنآ ڪيٚ ويب موآد، رپوٽينٚ جآنٚ دوسرو موآد اوآمي ڊومينو تآڻيٚ دي سڪدي هي۔
 citing-sentences-explanation-1 = هوآلآ ڪوُ شآمل ڪروو جرُري هي تو جيسي همينٚ چيڪ ڪر سڪآنٚ تو جُملآ اوآمي ڊومينو مينٚ هينٚ اور ڪآپيٚ رآئيٽو ڪيٚ پآبنديٚ لگريٚ ڪونآ هي۔
 citing-sentences-subheader-websites = ويب سآئٽينٚ
+citing-sentences-subheader-websites-explanation = تِمي ويب سآئيٚٽيٚنٚ شآمل ڪرسڪدآ هو، مسآل تور "اورمي آوآج۔ https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = پڙهآيو ڪو هوآلو
 
 ## Question collection ids
 
