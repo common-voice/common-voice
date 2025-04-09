@@ -74,9 +74,19 @@ sc-bulk-submit-confirm = تصدیق کینیمتے کہ مو جملو <wikipedia
 bulk-upload-success-toast = جاہند زیات جملغّے اپلوڈ ݰوت
 bulk-upload-failed-toast = اپلوڈ چے ݰوئے، براہ مہربانی دیبارو کوشش کن
 bulk-submission-success-header = جاہند جملغّے پہ بڑیڅڤدا دیر تو شکریہ!
+bulk-submission-success-subheader = کامن وائسن ڤے یو میشنانے جملغے دے ہدف پہ ریسیدا دیر تو مدد کینیتے!
+upload-more-btn-text = دیر ام جملغّے اپلوڈ کن؟
+file-invalid-type = علط فائل
+file-too-large = فائل جاہند استر
+file-too-small = فائل جاہند ریزہ
+too-many-files = جاہند زیات فائلے
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> دے عام آدمف دائرو زیات جملغے شامل کن
+multiple-sentences-error = تو دے یو وخت زیات جملغے شامل کڑا چے کرکینے
+exceeds-small-batch-limit-error = ژے 1000 زیات جملغے شامل کڑا چے ای
 
 ## MENU ITEM TOOLTIPS
 
