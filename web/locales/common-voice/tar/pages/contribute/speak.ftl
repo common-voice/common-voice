@@ -29,6 +29,9 @@ record-abort-submit = Juláa échi raicháli moarámi
 record-abort-continue = Suwéna maá moá raicháli
 record-abort-delete = Machína alí ku naóma raicháli jápi mi moáli
 review-aborted = Jápi mi jimíli raicháli. Achami ku naóminali échi raíchali moarámi?
+review-submit-title = Iné alí juláa
+review-submit-msg = Matétera ba kíti kómi ayena moáli raíchali! <lineBreak></lineBreak> Jípi ko iné alí che júla échi raíchali moarámi
+review-recording = Inée
 
 ## MENU ITEM TOOLTIPS
 

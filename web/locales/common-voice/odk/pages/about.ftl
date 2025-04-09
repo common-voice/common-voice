@@ -150,3 +150,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink> بڌِيڪ پ
 about-playbook-how-funded = ڪامن وائِيسا نُون ڪِيُون فنڊ ملَي ڇَي؟
 about-playbook-how-funded-content-1 = ڪامن وائِيس، موزِيلا فائُونڊيشنِي چا هيڪ منصُوبا ڇَي ۔ جڪو آمرِيڪا چي ”501c3” هيڪ نفعا نہ ڪماوَڻي هاڙِي تنظِيم ڇَي۔ ها منصُوبا جي مهلِي مُڪمل طورا پر <philantropicGrantLink>فلاح ائُون ڀلائي چي ڪاڻ امدادِي</philantropicGrantLink> پرائُون سجِي دُنيائِي چي ماڻسان چي چندان پر چالَي ڇَي۔
 about-playbook-how-funded-content-2 = ڊيٽا سيٽا چِي لگاتار ميزبانِي ڪرڻ ائُون جاري ڪرڻ، پليٽ فارما نُون بهتر ٺاهوڻ ائُون <africaMradiLink> برادرِي چي پروگرام </africaMradiLink> هلاوَڻي ڪاڻ تمام گهڻا خرچ لاگَي ڇَي۔
+about-playbook-how-funded-content-3 = جي تمهِين يان تمچا اِدارا اي منصُوبي ۾ حِصا مِلاوَڻ چاهوَي ڇَي تہ تمهِين <donateLink>چندا<donateLink> ڏي سِگھا ڇَوا، يان امچِي ڀائِيوار ٽِيمِي <emailFragment>commonvoice@mozilla.com ز</emailFragment> سُون رابطا ڪر سِگھا ڇَوا۔
