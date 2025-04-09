@@ -424,9 +424,10 @@ export const findVariantSentences: FindVariantSentences = (
     queryDb(`
         SELECT *
         FROM (
-          SELECT s.id, text, variant_id
+          SELECT s.id, text, variant_id, variant_name
           FROM sentences s
           LEFT JOIN sentence_metadata sm ON s.id = sm.sentence_id
+          LEFT JOIN variants ON (variants.id=sm.variant_id)
           WHERE
             is_used
             AND locale_id = (SELECT id FROM locales WHERE name = ?)
@@ -444,7 +445,7 @@ export const findVariantSentences: FindVariantSentences = (
     `),
     TE.mapLeft((err: Error) =>
       createDatabaseError(
-        `Error retrieving variant sentences for variant "${variant.name}"`,
+        `Error retrieving variant sentences for variant "${variant.name} [${variant.tag}]"`,
         err
       )
     ),
