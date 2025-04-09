@@ -66,6 +66,7 @@ sentence-domain = جُلآ ڪو ڊومين
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = وو ڀور جروُرو هي تو سآريٚ لِکآوٽيٚ ڪآ جُملآ هووينٚ جيسي آم آوآج (</cc0>0 cc<cc0>) </publicDomain></publicDomain> آوامي ڊومين<publicDomain> لآئيسنس دي جآريٚ
+public-domain-explanation-2 = ايڪ ڀليٚ ٻآت چيٚتيٚ ڪآ اوݪکآڻيٚ ڪآ انجڻو ڪآ ٺيوآ تآڻي اور ڀلآ جُملآ ٻولوآݪآ، نوآنٚ گُڦتآ هينٚ۔ ڪُج کيآل تِمري مدد ڪروآ تآڻيٚ جُلآ پيدآ ڪروآ مي،
 
 ## Question collection ids
 

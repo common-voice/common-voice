@@ -9,3 +9,4 @@ partnerships-foundations-header = آدھار سیلائں
 partnerships-foundations-description = ہم پُورو اپھریکاپ وشیش دھیان کے ساتھ انٹرنیٹا کُو ایک سُوست جاگھا ٻݨاݨےنتر سںٚگٹھن، سول سوسائٹی اور پڑاو یوگداناڑے کے بھیݪے کام کرتے ہے. مھارے کارجی کامے باریم ودھیک <programmaticWork>جاݨو.</programmaticWork>
 partnerships-governments-header = حکومتاں
 partnerships-governments-description = ہم ٹیکنالوجی، نئوی ٻات اور ٻولیں کے ادھیکارام عوامی شعبیم سیملا کی سمرتن کرنے نتر اُتساھیت ہے۔ اگر تھم کوئی ٻڈؔا یوجنا یا ابھیان چلاوݨے کا ارادہ راکھتے ہے تو، کِرپا کری <emailFragment>سمپرک کرو.</emailFragment>
+partnerships-academia-header = یونیورسٹیوں، ہوسیار تالیم اور جانچ کرنواڑے
