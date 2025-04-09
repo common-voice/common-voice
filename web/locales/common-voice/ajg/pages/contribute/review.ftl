@@ -39,3 +39,5 @@ sc-review-link = glo nu me kpɔ, ku nu me kpɔ
 
 sc-criteria-modal = numekuku fɔɖeɖewo
 sc-criteria-title = numekuku fɔɖeɖewo
+sc-criteria-make-sure = tekpɔ né enyɔgbe lɔ ne sɔ ɖe afɔɖeɖe ceɖewo jí
+sc-criteria-item-1 = enyɔgbelɔ ne sɔ kuɖo gbeŋɔŋlɔseɛ

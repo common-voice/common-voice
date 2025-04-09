@@ -87,6 +87,8 @@ adding-sentences-subheader-length-explanation = جُمليَ ۾ 15اکرون ھ�
 adding-sentences-subheader-spelling-punctuation = اسپيلنگ ھان اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = جُملو صحيح صحيح لکڻ کپيَ۔
 adding-sentences-subheader-speakable = ٻولڻ ريَ لائق
+adding-sentences-subheader-speakable-explanation = سُٺا جُملا فطري ھان ٻولڻ آݪا ھيَ۔ اي ڪيَ ھارو ڀي پڙھڻ ۾ سولا ھوڻ کپيَ۔جون ڪہ آوازون ري نظرييَ ھان جُملون ۾ مختلف اکر اھم ھيَ۔ مھيَ ڀي ڪوشش ڪرون پڙيا ڪہ ريڪارڊنگ جُملون نيَ مھورِي رضاڪار برادري ھارو ممڪن حد تائين دلچسپ ھان مزيدار ٺايو جائيَ۔
+adding-sentences-subheader-numbers = انگ
 
 ## Question collection ids
 
