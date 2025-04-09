@@ -279,6 +279,7 @@ const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
     source: row.source,
     localeId: row.locale_id,
     variantTag: O.fromNullable(row.variant_token),
+    variantName: O.fromNullable(row.variant_name),
   }))
 
 export type FindSentencesForReview = (
@@ -316,6 +317,7 @@ const findSentencesForReview =
             sentences.source,
             sentences.locale_id,
             variants.variant_token,
+            variants.variant_name,
             SUM(sentence_votes.vote) as number_of_approving_votes,
             COUNT(sentence_votes.vote) as number_of_votes
           FROM sentences
