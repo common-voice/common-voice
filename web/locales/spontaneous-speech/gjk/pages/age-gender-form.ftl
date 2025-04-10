@@ -4,7 +4,9 @@ age-gender-form-subtile = امان نين پوتا نا ٻارا مان ڪيڌي
 add-information-button = معلومات شامل ڪرو
 continue-speaking-button = ٻولوون جارِي راکو
 age-select-label = تمارِي عمر ڪيٽلِي سي؟
-select-your-age = پوتا نِي عُمر نِي سليڪشن ڪرو
+select-your-age = پوتا نِي عُمر ني سليڪٽ ڪرو
+gender-select-label = تمارِي جنس شون سي؟
+select-your-gender = پوتا نِي جنس ڪان قِسم ني سليڪٽ ڪرو
 
 ## Gender dropdown
 

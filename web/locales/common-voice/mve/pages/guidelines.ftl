@@ -93,6 +93,8 @@ adding-sentences-subheader-numbers-explanation = مسال طور تيَ ماخز
 adding-sentences-subheader-abbreviations = مخففات ھان مخففات
 adding-sentences-subheader-abbreviations-explanation = ماخز مواد ۾ “USA”  يا “ICE” جھڙي مخففون ھان مخففون ھون پاسو ڪرڻ کپيَ ڪيونڪہ اي اھڙيَ طريقيَ ھون پڙھيا جائيَ ݾگيَ ھيَ جڪو ايون رِي اسپيلينگ ھون ھيڪجيڙا نِي ھوئيَ۔ اضافي طور تيَ، ھيڪ مخفف تيَ ڪِترائي صحيح پڙھڻ ھارو ھوئيَ ݾگيَ ھيَ۔
 adding-sentences-subheader-punctuation = اوقاف
+adding-sentences-subheader-punctuation-explanation = خاص علامتون ھان اوقاف صرف تڏي شامل ڪرڻ کپيَ جڏي بلڪل ضروري ھوئيَ۔ مسال طور، ھڪ اپوسٽروف انگريزي اکر جون  “don’t” ھان “we’re” ۾ شامل ڪيو جائيَ ھيَ ھان ايئيَ نيَ ماخز متن ۾ شامل ڪيو جائيَ، پر اي ممڪن ڪوني ڪہ ٿونيَ ڪڏي ڀي  “@”  يا  “#.” جھڙِي خاص علامت رِي ضرورت پڙي ھي۔
+adding-sentences-subheader-special-characters = خاص نشانيَ ھان پرڏيھي اکر
 adding-sentences-subheader-offensive-content = نا پسند مواد
 reviewing-sentences-explanation-4 = جيَ ٿون ڪنيَ جائزو ليڻ ھارون جُملا ختم ھوئيَ جائيَ تو، مھربونِي ڪرئَ وڌيڪ جُملا ڀيڙا ڪرڻ ۾ مھورِي مدد ڪرو۔
 
