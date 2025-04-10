@@ -1,6 +1,6 @@
 ## Question Page
 
-question-page-instruction = Ongelakhi sirebo <icon></icon> mu { $currentLocale } èsi babandu berémo
+question-page-instruction = Ongelakhi sirebo <icon></icon> mu { $currentLocale } èsi babandu belémo
 add-question-textarea-placeholder = e.g.,"nga sina shesi upara uri unyala warambisiila technologyi"
 add-questions-terms-checkbox = Èsengakasi èndi èquestion iya <publicDomainLink>bulimundu</publicDomainLink> até sesindi nebunyala khu uploadah
 question-dataset-language = Dataset: { $datasetLanguage }
@@ -18,3 +18,4 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Birebo sina byesi nongeraho?
+do-section-guideline-1 = Rumah spelling ne grammar éntufu
