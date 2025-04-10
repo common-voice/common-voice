@@ -29,6 +29,11 @@ request-new-language = Saaba Ènganikha èmbya
 
 ## Navbar
 
+respond-to-prompt = Ilahmo
+transcribe = khuLeckah
+check-transcriptions = Ilakamo
 
 ## Not Found Page
 
+not-found-page-header = Sibinyolekha tah
+not-found-page-content = Epage isii'oli khoenjanga sebinyolekha tah
