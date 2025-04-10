@@ -16,3 +16,6 @@ prompt-bubble-title = <mark>Promptah</mark>
 prompt-bubble-subtitle = Khuli khwokesha èprompta oba siirebo
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Khukhwilamo</mark>
+respond-bubble-subtitle = Ukuleemo nga noli tena nga nonyala
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>ukeleshe</mark>
