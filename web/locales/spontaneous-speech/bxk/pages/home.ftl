@@ -6,3 +6,5 @@ wall-of-text = Likono lyabushele khe launchingah èplatform yakhabili elolelah k
 why-spontaneous-speech = Maana ye khukhwombeka enganikha  ya spontaneous
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Èndayii mu <mark>nganikha ya organic </mark> lundi èrambisha tsicase (eg, nga wenya enganikha emanyikhana khuramba nende khukanikha unscripted and colloquially)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Nabulayi uyete lwekamakhulu ke lulomo nga khuyusamo lulomo nende <mark>khuchenja ècodi</mark>
