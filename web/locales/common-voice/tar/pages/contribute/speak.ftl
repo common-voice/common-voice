@@ -53,6 +53,8 @@ first-cta-gender-select-help-text =
     .label = Chi mi riká anináli jápi mi riká jú mukí wela rejoí
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Matétera ba kíti kómi nejámi mujé raíchala!
+second-cta-subtitle-text = Bilé cuenta níwika, ayena a'a oméri che newáya nóchali a'lí ché'a inára biléana peréami yua jápi ruméa aboní nirá'a
+already-have-an-account = Mám níwi bilé cuenta?<iniciar sesión> Chóta sesión</iniciar sesión>
 
 ## MENU ITEM TOOLTIPS
 

@@ -47,6 +47,8 @@ why-donate-explanation-1 = nyanyanana ceɖewo zanzan le faaa ,de.  Ne e ji lɔ,
 why-donate-explanation-2 = Né mɔɖaŋu né téŋ  wɔ dɔ nyuieɖe na ameshiame lɔ, dɔwɔnu cewo yí  mɔɖaŋú dɔwɔlawo zanɔ lɔ , ɖo lá ɖe ame sugbɔwo ɖe go. Le kpɔɖeŋu me ɔ ne woɖe sɔ nyɔnutɔde dé me kuɖe egbe tɔxɛ lɔ?????????????????????????????????????
 add-information-button = Sɔ nyanyananawo kpi
 continue-speaking-button = Oo akpe, yi nuxuxoxoɔ jí
+create-profile-text = e ji be alé tɔwo nyanyananawo ɖɛ ?<createProfile> Hun ŋtinyɔ ɖeka</createProfile>
+thanks-for-voice-toast = Akpe nɔ́ tɔ gbeɖiɖi nyanyananawo
 
 ## MENU ITEM TOOLTIPS
 
