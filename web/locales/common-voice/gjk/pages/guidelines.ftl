@@ -136,3 +136,5 @@ offensive-content-sensitive-information-explanation-explanation-1 = سوال ز�
 offensive-content-sensitive-information-explanation-explanation-2 = ايوا سوال زين نڦرت وارِي تقرير يا ٻيزِي طرفۮارِي ڪان وريَ کراٻ جزٻات پيۮا ڪرِي ۿڳيَ سي۔
 offensive-content-sensitive-information-explanation-explanation-3 = ايوا سوال زين ڪونئين نين حساس، اِمڪانِي طور ٿِي مُتحرِڪ ڪريا واران جواٻان نين شيئر ڪريا نون سبب ٻڻِي ۿڳيَ سي۔
 example-questions-subheader = مِثالِي سوال
+example-questions-explanation-1 = تمين آ شيٽ مان <examplePromptsLink>120 مِثال طور پرامپٽس </examplePromptsLink>ڳوتِي ۿڳو سو۔
+example-questions-explanation-2 = زو تمين اِنجيشنَ ۿارُو سوالان نو ايڪ حِصو جمع ڪراوا ماڳو سو تو تمين  <githubLink> امارِي </githubLink> نيَ زريئيَ ٿِي اِي ڪرِي ۿڳو سو يا پوتا نِي لِسٽ<emailFragment>commonvoice@mozilla.com</emailFragment> ماٿيَ اِي ميل ڪرِي ۿڳو سو۔

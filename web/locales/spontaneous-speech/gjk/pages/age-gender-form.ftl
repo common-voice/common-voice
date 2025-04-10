@@ -7,6 +7,10 @@ age-select-label = تمارِي عمر ڪيٽلِي سي؟
 select-your-age = پوتا نِي عُمر ني سليڪٽ ڪرو
 gender-select-label = تمارِي جنس شون سي؟
 select-your-gender = پوتا نِي جنس ڪان قِسم ني سليڪٽ ڪرو
+country-of-residence-label = ملڪ/ علائقو زان تمين ريو سو
+country-of-residence-placeholder =
+    .placeholder = زان تمين ريو سو اِي ملڪ / علائقو لکو
+why-are-you-asking = تمين شون ليوا پونسو سو ريا؟
 
 ## Gender dropdown
 
