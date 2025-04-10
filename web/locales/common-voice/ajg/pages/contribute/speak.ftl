@@ -12,6 +12,8 @@ record-error-too-long = enu léléɛ jiji ɖoɖú
 record-error-too-quiet = ggbeɖiɖiɛ yi gɔme ɖoɖú
 record-cancel = tashi enyɔlelɛwo
 record-instruction = { $actionType }<recordIcon></recordIcon> yí egbeɛ ne tó né e hlɛkɔ enyɔgbelɔ
+record-stop-instruction = { $actionType }<stopIcon>ɖégbɔni
+record-three-more-instruction = né wu ametɔn
 
 ## MENU ITEM TOOLTIPS
 

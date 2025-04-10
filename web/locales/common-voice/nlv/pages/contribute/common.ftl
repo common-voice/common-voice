@@ -125,3 +125,4 @@ contribution-varying-pronunciations-title = Tlatlamantli kitenkixtiaj
 contribution-varying-pronunciations-description = Mach san niman xikpojpolo se tlajtoli san panpa tikijtos mach kuali okitenkixtikej. Xikilnamiki oktlamantli tiktenkixtiaj nauatl ijkon ken toaltepe uan xamo seki mach tikinmixmati noso mach ken tejuatsin tikonchiua. Uelis tikkauilis se tlajtoli tlen oktlamantli uan ijkon okachi titlapaleuis.
 contribution-varying-pronunciations-description-extended = Maski ijkon, tla tikita akin okitlajtolti mach kimati tlen kijtoa uan san ken nesi okitenkixti, xikpojpolo. Tla mach tikmati tlen omochi, xikkaua uan okse xikpanaui.
 contribution-varying-pronunciations-example-1-title = ¿Kox yotlanki?
+contribution-varying-pronunciations-example-1-explanation = [´Yótlanki’ uan ´yotlánki´ yikuali. Tlatlamantli kitenkixtiaj itech seki altepemej]
