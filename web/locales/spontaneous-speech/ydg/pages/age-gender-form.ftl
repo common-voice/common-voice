@@ -19,3 +19,5 @@ male_masculine = مڑ
 female_feminine = ژینگو
 intersex = مڑ تا ژینگو
 transgender = مڑ تا ژینگو
+non-binary = مڑ تا ژینگو
+do_not_wish_to_say = گپ ژیا چے' کوسیتے
