@@ -4,7 +4,10 @@
 
 ## Languages
 
+aa = Afar
+aat = Arvanitika
 ab = Abkhasisk
+abb = Bankon
 ace = Achinesisk
 ady = Adyghe
 af = Afrikaans
@@ -217,6 +220,7 @@ privacy = Privatliv
 terms = Vilkår
 cookies = Cookies
 faq = FAQ
+documentation = Dokumentation
 content-license-text = Indhold tilgængeligt under en <licenseLink>Creative Commons-licens</licenseLink>
 share-title = Hjælp os med at finde andre, der kan bidrage med deres stemme!
 share-text = Hjælp med at lære maskiner, hvordan mennesker taler - bidrag med din stemme på { $link }

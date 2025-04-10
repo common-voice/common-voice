@@ -58,6 +58,8 @@ second-cta-header-text = Takk for at du bidrog med stemma di!
 second-cta-subtitle-text = Med ein profil kan du halde oversikt over aktiviteten din, og få kontakt med eit fellesskap av bidragsytarar til taledata.
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
+# IMAGE TAGS
+img-alt-success-checkmark = hake for godkjenning
 # menu item
 read-sentences = Les setningar
 # text wrapped in <small></small> will be shown in a smaller font size
@@ -66,7 +68,11 @@ read-sentences-coming-soon = Les setningar <small>(kjem snart)</small>
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Les setningar, svar på spørsmål
+read-sentences-menu-item-tooltip = Ta opp deg sjølv når du les setningar på språket ditt.
+answer-questions-menu-item-tooltip = Ta opp deg sjølv medan du svarar på spørsmål og førespurnadar på ditt språk.
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Alternativmeny for tale
 read-sentences-menu-item-aria-label = Les setningar sendt inn av fellesskapet på ulike språk
+answer-questions-menu-item-aria-label = Send inn eit nytt spørsmål som fellesskapet kan lese og svare på

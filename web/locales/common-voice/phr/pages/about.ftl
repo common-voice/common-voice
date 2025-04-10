@@ -57,30 +57,86 @@ about-nav-playbook = سکھا کہ تس کس طرح حصہ کنی سکنے آ
 
 about-playbook-what-is-language = کامن وائس اوپر ہک زبان کیہہ زی
 about-playbook-what-is-language-content-1 = زباناں نے بارے اچ سوچنے نے بہوں سارے طریقے زے۔ زبان نی پہچان نے ماڈل آسطے، کامن وائس نہ مشورہ زا کہ مشترکہ سمجھداری اوپرغور کرو یا ایہہ زبان بولن آلے اگر کوشش کرن تے ہک دوئے کیا سمجھی سکنے
+about-playbook-what-is-language-content-2 = اس چاہنے آں کے سپیچ ماڈل مختلف بولنے آلیاں کی سمجھنے آسطے بہتر ہوئے۔ اس آسطے وائس ڈیٹا سیٹ اوپر بہوں سارے مختلف لوک ہونے چاینے
+about-playbook-what-is-language-content-3 = کوئی زبانان نے گرامر، لفظ تے بول چال بہوں مختلف ہونی۔ اس آسطے اس 2022 اچ مختلف قسماں </ctaLink>پیش کرنے آں۔ اس نی وجہ سی لوکاں کی مختلف زباناں نے ڈیٹا سیٹ وچاں اپنی زبان نی پہچان کرنے اچ آسانی ہوسی
 
 ## How do I add a language
 
+about-playbook-how-add-language = میں ہک زبان کس طرح شامل کرنی سکنس؟
+about-playbook-how-add-language-content-1 = پہلے دیکھا کہ تساں نی زبان <languageLink> پہلے سی موجود زی</languageLink>؟ اگرنہیں، تس اپنی زبان شامل کرنے نی درخواست کری سکنے آ</languageRequestLink>۔ اس نے دو مرحلے زے۔ سائٹ نا ترجمہ کرنا تے زبان نے جملے جمع کرنا
+about-playbook-how-add-language-translating-heading = سائٹ نا ترجمہ
+about-playbook-how-add-language-translating-content-1 = اساں نی گائیڈ دیخا کہ پنٹون کس طرح استعمال ہونا<translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = اس ترجمے آسطے یک موزیلا ٹول استعمال کرنے آں جس کی پنٹون آخنے</pontoonLink>۔ پنٹون اچ بہوں ساری زباناں زیاں اگر تساں نی زبان اس اچ نہیں تے تس اپنی زبان شامل کرنے نی درخواست کری سکنے آ </pontoonRequestLink>۔ فیر اپنی زباناں کی کامن وائس پروجیکٹ اوپر ظاہر کرنے اسطے نویں زبان نی گٹ ہب</githubRepoLink> اوپر درخواست کرا۔ سائٹ نے ترجمے نے بارے اچ ہور دیخا </localizationFragment>۔
+about-playbook-how-add-language-collecting-sentences-heading = جملے جمع کرنا
+about-playbook-how-add-language-collecting-sentences-content-1 = جملے جمع کرنے نے طریقے نے بارے  اچ اساں نی گائیڈ دیخا</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = تس تھوڑے جئے جملے شامل کری سکنے آ </sentenceCollectorLinkAdd>، یا تس گٹ ہب </bulkImportDocsLink> نا استعمال کری بہوں سارے جملے شامل کری سکنے آ۔ ایہہ خیال رکھیا کہ جملے عوامی ہونے چاینے جناں نی اجازت ہونی چاینی یا تس اپنے جملے وی لخی سکنے آ۔
+about-playbook-how-add-language-collecting-sentences-content-3 = جملے جمع کرنے نے بارے اچ ہور دیخا</sentenceCollectorFragment>۔
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹ لوکلائزیشن کس طرح کم کرنی؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹ نا ترجمہ پنٹون اوپر ہونا</strong>۔
+about-playbook-how-localize-content-2 = اگرتساں ناں اکائونٹ نہیں تے اپنا اکائونٹ بنائو۔ فیر اپنی زبان چُنو<strong> تے فیر پروجیکٹ چُنو<pontoonCvLink> کامن وائس۔ اتھان ترجمے آسطے فائلاں ہولیاں۔ ہکو کسا اوپر کلک کرا تے انگریزی نے جملے تے نال ہک باکس اُناں نے ترجمے آسطے نظر الے
+about-playbook-how-localize-content-3 = انگریزی توں ترجمہ کرنا ہول لیکن تساں کی ہور زباناں وچ مشورے <strong> وی نظر الے۔ پروفائل آئکن اوپر کلک کرا </strong>، فیر سیٹنگ نے لنک اوپر</strong>۔ فیر جیہڑیاں زباناں تس بولنے آ او چُنو۔ بُنی سجے پاسے کونے اچ ترجمے نی فہرست ہوسی جس کی لوکیلز </strong>آخنے۔ ترجمے سائٹ اوپر ہک تہاڑے بعد نظر انے
+about-playbook-how-localize-content-4 = سائٹ جذوں پچہتر فیصد مکمل ہونی تے لانچ ہونے آسطے تیار ہوئی انی
+about-playbook-how-localize-content-5 = مدد آسطے اساں نیاں تفصیل نیاں ویڈیو دیخو
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = میں جملے کس طرح شامل کراں؟
+about-playbook-how-add-sentences-content-1 = تس جملے رائٹ پیج اوپر شامل کری سکنے آ<writePageLink> یا ریویو پیج اوپر جملیاں کی ریویو کری سکنے آ </reviewPageLink>۔
+about-playbook-how-add-sentences-content-2 = جملے دو لوک لازمی ریویو کری قبول کرلے تے فیر کامن وائس اوپر شامل ہولے۔ تس اتھان اپنی زبان نی رہنمائی بنائی سکنے آ <languageGuidelinesLink>۔ جملے عوامی ہونے چاینے تے پندرہ لفظاں سی کم ہونے چاینے۔ تس لخائی نے مالکا کی آخی جملے بنائی سکنے آ <waiverLink>تے اساں ویور پراسس </waiverLink> استعمال کری تے اساں  کی commonvoice@mozilla.com اوپر پہیجی سکنے آ
+about-playbook-how-add-sentences-content-3 = تس جملیاں نا ایکسٹریکٹر استعمال کری وکی پیڈیا سی مختصر جملے وی ادھار ہنی سکنے آ
 
 ## How to record quality
 
+about-playbook-how-record-quality = میں ہک اچھی قسم ناں آواز نا کلپ کس طرح ریکارڈ کراں؟
+about-playbook-how-record-content-1 = اپنی نارمل آواز اچ بولا۔ تس جس طرح وی بولنے آ اُس کی اس خوش آمدید آخنے آں۔  اس چاہنے آں کے تس اپنے لہجے اچ بولا تے اس چاہنے آں کے تساں نا نارمل سٹائل ہوئے تے آواز نارمل اُچی ہوئے۔
+about-playbook-how-record-content-2 = پچھے شور نی ہونا چاینا۔ تساں نی آواز اسانی کنے اچھے۔
+about-playbook-how-record-content-3 = جملے احتیاط کنے پڑھا۔ کوئی لفظ چھوڑا وی ناں، تبدیل وی ناں کرا تے اپنی طرفاں شامل وی ناں کرا۔
+about-playbook-how-record-content-4 = بولنے تی پہلاں تصدیق کرا کہ تساں نی ریکارڈنگ ہونی، تے اے ختم وی اُس ویلے ہونی جذوں تس مکمل کرنے آ۔
+about-playbook-how-record-content-5 = درستگی نے معیار نے بارے اچ مزید دیخا</accuracyLink>۔
 
 ## How to grow language
 
+about-playbook-how-grow-language = اس کامن وائس اوپر زبان اچ کس طرح بہتراضافہ کری سکنے آں؟
+about-playbook-how-grow-language-content-1 = کامن وائس اوپر مختلف لوکاں آسطے موقع بنانے نال اے تصدیق ہوئی انی کے ڈیٹاسیٹ بہوں زیادہ لوکاں نی خدمت کرنا۔ اساں ایسے وسائل تے ٹیمپلیٹس بنائے نیں جناں کی تس استعمال کری سکنے آ!
+about-playbook-how-grow-language-content-2 = ایونٹس
+about-playbook-how-grow-language-content-3 = تس لوکاں نی مدد کرنے آسطے ایونٹس چلائی سکنے آ۔ اے تساں نی سوچ کولاں زیادہ آسان زا۔ تس اس کیا ویڈیو کانفرنسنگ ٹول کنے آن لائن کری سکنے آ، یا اگر محفوظ زا تےذاتی طور اوپر کری سکنے آ۔ ایونٹ کیا چلانے آسطے اساں نی ٹیمپلٹس<eventTemplate> تے وسائل کیا چیک کرا۔
+about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-5 = تس پیغام پہچانے آسطے سوشل میڈیا پلیٹ فارم کی استعمال کری سکنے آ۔ ایسی پوسٹاں کی شئیر کرا جیہڑیاں دسنیاں کہ اس نی کیہ اہمیت زی، تے زبان نے حقوق، آواز  نی مصنوعی ذہانت، یا ٹیکنالوجی اچ تعصب جئے مسلیاں نے بارے اچ ہور لوکاں کنے رابطہ کرا۔ سماجی مہم چلانے نے بارے اچ مزید مشورے دیخا، اس مواد سمیت جیہڑا تس دوبارہ استعمال کری سکنے آ۔
+about-playbook-how-grow-language-content-6 = تعاون تے نیٹ ورک
+about-playbook-how-grow-language-content-7 = ہورجیہڑے خیال کرنے اُناں کی لبا۔ اوہ یونیورسٹیاں وی ہوئی سکنیاں، زبان نے سکول، وکالت نے گروپ یا ڈیٹا سائنس نی کمیونٹیاں وی ہوئی سکنیاں۔ اُناں تک پونچا تے اناں کی صاف دسا کہ اوہ کس طرح کیہاں مدد کری سکنے۔ اساں نی آؤٹ ریچ ای میلز ناں ٹیمپلٹ دیخا</outreachTemplates>۔
+about-playbook-how-grow-language-content-8 = تخلیقی بنا۔ تساں نی زبان نی کمیونیٹی الگ ہوسی، تے شروع کرنے نے کچھ طریقے زے۔
 
 ## How to validate
 
+about-playbook-how-validate = می کس طرح پتہ لگسی کہ میں آواز نے کلپ کی منظور کراں یا ناں؟
+about-playbook-how-validate-content-1 = تس اگر اُناں کی سُنی تے سمجھی سکنے آ تے اس کی منظور کرا۔
+about-playbook-how-validate-content-2 = اگر بولنے آلنے نا لہجہ تساں نے لہجے کولاں مختلف زا تے اس کی مسترد ناں کرا۔ آواز نی پہچان آسطے اے ضروری اےتاکہ ساریاں آسطے اے ٹھیک کم کرے۔
+about-playbook-how-validate-content-3 = اگر تساں کی لغے کے بولنے ناں اندازکسے طرح وی سمجھی نی اناں، یا پچھے بہت شور اے، یا ہور لوک وی بولنے، تے فیر تس اس کلپ کی مسترد کرا۔ مزید معلومات آسطے اساں نے درستگی نے معیار کی دیخا </accuracyLink>۔
+about-playbook-how-validate-content-4 = ہک کلپ کی اگر دولوک مسترد کرنے تے اوہ کلپ ڈیٹا سیٹ نے مختلف سب سیٹ وچ جاری ہونا۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = میں ڈیٹا سیٹ تک کس طرح پونچی اس کی استعمال کری سکنس؟
+about-playbook-how-access-dataset-content-1 = تس ڈیٹا سیٹس نے صفحے اوپر جلی سکنے آ، اپنی مرضی نان ورژن تے زباناں منتخب کری سکنے آ، تے اس کی ڈاؤن لوڈ کری سکنے آ! فائلاں کنے میٹا ڈیٹا جُڑیا ہونا، جیاں کے آبادیاتی معلومات تے تصدیق کا ڈیٹا۔ ڈیٹا سیٹ  کی ڈاؤن لوڈ کرنے کے آسطے تساں کی ہک  ای میل ایڈریس دینا ہوسی۔
+about-playbook-how-access-dataset-content-2 = تس اگر اے ایس آر نے ماڈل بنانے آسطے تولز لبنے آ، تے تس کمیونیٹی اچ ہور لوکاں کنےڈسکورس </discourseLink> اوپر رابطہ کری سکنے آ۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پروجیکٹ نے فیصلے کس طرح ہونے؟
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائس کی پوری دنیا نے ایکٹوسٹس، زباناں نے ماہر، ڈیٹا سائنسداناں، تعلیم نے ماہرین تے سافٹ ویئر انجینئرز نی  کمیونٹی ممکن بنایا۔ اس پروجیکٹ ناانتظام موزیلا فاؤنڈیشن کول زا۔
+about-playbook-how-project-governance-content-2 = اساں نی حکمرانی نی بنیاد نے تھم زے:
+about-playbook-how-project-governance-content-3 = رازداری، سیکورٹی تے شفافیت۔
+about-playbook-how-project-governance-content-4 = کمیونٹی نی شرکت تے فیصلہ سازی۔
+about-playbook-how-project-governance-content-5 = قدر تے پہچان۔
+about-playbook-how-project-governance-content-6 = آپس اچ پُچھ گچھ۔
+about-playbook-how-project-governance-content-7 = اساں نے انتظام تے حکمرانی نے بارے اچ مزید پڑھا</governanceLink>۔
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائش نی مالی مدد کس طرح ہونی؟
+about-playbook-how-funded-content-1 = کامن وائس امریکہ نے موزیلا فاؤنڈیشن نا ہک پروجیکٹ زا۔ وقتی طور اوپر اس پروجیکٹ کی اانسانی ہمدردی نی گرانٹس، تے پوری دنیا نے لوکاں نے عطیات نی طرفاں مکمل مدد ملنی۔
+about-playbook-how-funded-content-2 = ڈیٹا سیٹ نی لگاتار میزبانی تے جاری کرنے آسطے، پلیٹ فارم کی بہتر بنانے آسطے تے کمیونیٹی نے پروگرام چلانے آسطے بہوں پیسہ چاینا،
+about-playbook-how-funded-content-3 = اگر تُس یا تُساں نی تنظیم پروجیکٹ نی مدد کرنا چانے آ، تس عطیہ کری سکنے آ <donateLink> یا اساں نی اشتراکی ٹیم کنےcommonvoice@mozilla.com اوپر رابطہ کری سکنے آ۔

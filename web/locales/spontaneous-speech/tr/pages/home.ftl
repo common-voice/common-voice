@@ -12,7 +12,7 @@ why-card-2-text = Dil karıştırma ve <mark>dil değiştirme</mark> gibi gerçe
 why-card-3-text = <mark>Hiç yazı korpusu</mark> olmayan ya da az olan dillere daha iyi destek (ör. toplumsal değişkeler, değişkeler, tarihsel olarak hiç yazıya dökülmemiş diller vb.)
 how-spontaneous-speech-works = Doğaçlama Konuşma Nasıl Çalışır?
 # text wrapped in <mark></mark> will have a blue background
-prompt-bubble-title = <mark>İstem</mark>
+prompt-bubble-title = <mark>Soru</mark>
 prompt-bubble-subtitle = Size bir istem ya da soru göstereceğiz
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Yanıtla</mark>

@@ -59,6 +59,7 @@ about-nav-playbook = ڤے حصو غوردان طریقو ایخسا
 about-playbook-what-is-language = دے کامن وائس یو زبان ګیم؟
 about-playbook-what-is-language-content-1 = دے یو زبان باری دیشچان جاہند طریقو استت۔ ڤے گپ ڤزدان یو ماڈل پے سڤزڤدا دیر، کامن وائس تر خوئے ملن سے ڤزدان تجویز زور دیلتے یا سیم گپ زور دیلتے کہ یو زبان کڑغوزے کوشش کینت خو ڤئے ڤے یو گپف ڤزانتیآ؟'
 about-playbook-what-is-language-content-2 = ماخ المین ماڈل اسپیچ کوسیم تے کہ وو ڤے مختلف گپ ژیغوزف سلسلو دے ڤزدا بہتر فرما۔ ملمین پے ݰویا دیر دے وائس ڈیٹا سیٹ مختلف آدمف نمائندگی اوئے۔
+about-playbook-what-is-language-content-3 = انیم زبانف گرائمر، جمع شدہ الفاظے، الفاظف ادا کڑان طریقو جاہند دیر۔ دیم وجہ ماخ 2022</ctaLink> قسمن <ctaLink> اوستام۔ مو نے آدمف ڤے خوئے زبان دے استر ڈیٹا سیٹ ژے دیر زبانف فرقڤدان طریقو نݰان دیلتے۔
 
 ## How do I add a language
 
@@ -75,15 +76,24 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = ڤے سائٹ مقامی کڑا چیمین ہورغ کیتے؟
 about-playbook-how-localize-content-1 = کامن وائس سائٹن ترجملو<strong>دے پونتون</strong>ایتے۔
+about-playbook-how-localize-content-4 = سائٹ ٪75 فیصد مکمل کہ ݰوئے پے شروع کڑا دیر تیار ای
+about-playbook-how-localize-content-5 = مدد پے لیا دیر ڤے ماخ وضاحتی ویڈیو اوژر
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = زو چیمی کینیم جملغّے شمل کینیم؟
 
 ## How to record quality
 
+about-playbook-how-record-quality = زو غیݰے معیاری آواز چیمین کینیم ریکارڈ (پر) کینیم؟
+about-playbook-how-record-content-2 = پے چروم آواز چاغویا بݰ۔ ڤے تے گپف دے آسانی غولیتا اوئے۔
+about-playbook-how-record-content-3 = ڤے جملو دے اختیاط ݱا۔ څیمی لیغان نو، بادل چے کن، لفظ شامل چے کن۔
+about-playbook-how-record-content-4 = ژے گپ ژیان پیرو ریکارڈنگ شروع اوئے۔ گپ ناسے کہ نیغوڑ تیمے ریکارڈنگ بود اوئے۔
+about-playbook-how-record-content-5 = <accuracyLink>صحیح پے کڑا دیر ڤے دیر اصولف اوژر</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = ماخ دے کامن وئس ڤے یو زبان دے څس طریقو ژے اپیرن ڤینم۔
 
 ## How to validate
 

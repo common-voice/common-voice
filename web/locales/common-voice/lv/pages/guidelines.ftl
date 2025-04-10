@@ -3,6 +3,7 @@ guidelines-header = Vadlīnijas
 guidelines-header-subtitle = Izprotiet, kā pievienot un apstiprināt teikumus un ierakstus Common Voice datu kopā
 voice-collection = Ierakstu vākšana
 sentence-collection = Teikumu kolekcija
+question-collection = Jautājumu kolekcija
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,32 @@ domain-explanation = Joma attiecas uz teikuma saturu. Jūs varat izvēlēties vi
 
 ## Question collection ids
 
+adding-questions = Jautājumu pievienošana
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Kādi ir labi jautājumi?
+what-makes-a-good-question-explanation = Labam spontānās runas jautājumam vajadzētu:
+what-makes-a-good-question-explanation-criteria-1 = Būt viegli saprotamam un atbildamam
+what-makes-a-good-question-explanation-criteria-2 = Būt aktuālam jebkuram cilvēkam
+what-makes-a-good-question-explanation-criteria-3 = Nelietot un nemudināt uz aizskarošu valodu
+what-makes-a-good-question-tip = Apsveriet vai jautājums varētu attiekties uz vairākiem kontekstiem vai jomām.
+easy-to-understand = Viegli saprotams
+easy-to-understand-explanation = Izvēlieties vienkāršus jautājumus, ko viegli saprast ikvienam neatkarīgi no pieredzes vai konteksta.
+spelling-and-pronunciation = Pareizrakstība un pieturzīmes
+spelling-and-pronunciation-explanation = Izmantojiet pareizu pareizrakstību un gramatiku.
+length = Garums
+length-explanation = Uz jautājumu vajadzētu varēt atbildēt dažos teikumos.
+dont-add-subheader = Nepievienojiet
+culturally-specific-questions = Specifiskas pieredzes jautājumus
+culturally-specific-questions-explanation = Jautājumus, kas ir specifiski kādai jomai vai cilvēkiem ar noteiktu dzīves pieredzi
+length-avoid-explanation = Jautājumus, kurus būtu grūti atbildēt 15 sekundēs (minimālais ieraksta garums)
+process-steps = Process / soļi
+process-steps-explanation = Jautājumi, kuros jāuzskaita konkrēti soļi. Šādi jautājumi mudina lietotājus uzskaitīt konkrētas lietas, nevis veidot dabiskas sarunvalodas atbildes.
+offensive-content-sensitive-information = Aizvainojošs saturs vai sensitīva informācija
+offensive-content-sensitive-information-explanation-explanation-1 = Jautājumi, kas varētu izvilināt personu identificējošu informāciju
+offensive-content-sensitive-information-explanation-explanation-2 = Jautājumi, kas var mudināt uz naida runu vai citiem aizspriedumiem vai aizvainojošiem uzskatiem
+offensive-content-sensitive-information-explanation-explanation-3 = Jautājumi, kas kādam varētu likt izpaust sensitīvu informāciju vai aizkaitinošu atbildi
+example-questions-subheader = Jautājumu piemēri
+example-questions-explanation-1 = Šajā lapā varat atrast <examplePromptsLink>120 jautājumu piemērus.</examplePromptsLink>
+example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kopu, to var <githubLink>izdarīt mūsu GitHub</githubLink> vai sūtot epastu uz <emailFragment>commonvoice@mozilla.com.</emailFragment>

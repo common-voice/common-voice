@@ -3,6 +3,7 @@ guidelines-header = Nguyên tắc cộng tác viên
 guidelines-header-subtitle = Tìm hiểu cách đóng góp và xác thực các câu và đoạn âm thanh cho bộ dữ liệu Common Voice
 voice-collection = Bộ sưu tập giọng nói
 sentence-collection = Bộ sưu tập câu
+question-collection = Bộ sưu tập câu hỏi
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,30 @@ domain-explanation = Phạm vi đề cập đến chủ đề của câu. Hiện
 
 ## Question collection ids
 
+adding-questions = Đang thêm câu hỏi
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Thế nào là một câu hỏi tốt?
+what-makes-a-good-question-explanation-criteria-1 = Dễ hiểu và dễ phản hồi
+what-makes-a-good-question-explanation-criteria-3 = Không sử dụng hoặc yêu cầu ngôn ngữ gây hại hoặc xúc phạm
+what-makes-a-good-question-tip = Bạn cũng có thể muốn cân nhắc việc mở rộng nhiều bối cảnh và phạm vi khác nhau.
+easy-to-understand = Dễ hiểu
+easy-to-understand-explanation = Chọn những câu hỏi đơn giản mà bất kỳ ai cũng có thể hiểu được, bất kể văn hóa hay bối cảnh.
+spelling-and-pronunciation = Chính tả và dấu câu
+spelling-and-pronunciation-explanation = Sử dụng đúng chính tả và ngữ pháp.
+length = Độ dài
+length-explanation = Câu hỏi này nên trả lời chỉ trong vài câu.
+dont-add-subheader = Không thêm
+culturally-specific-questions = Câu hỏi cụ thể về văn hóa
+culturally-specific-questions-explanation = Những câu hỏi có tính chất văn hóa rất cụ thể hoặc đưa ra nhiều giả định về người trả lời
+length-avoid-explanation = Những câu hỏi khó trả lời trong vòng 15 giây (độ dài tối đa của clip)
+process-steps = Tiến trình / Bước
+process-steps-explanation = Những câu hỏi yêu cầu mô tả các bước để trả lời.  Việc mô tả các bước trong câu trả lời sẽ khiến người dùng phải đọc lại câu trả lời thay vì trả lời tự nhiên.
+offensive-content-sensitive-information = Nội dung xúc phạm hoặc thông tin nhạy cảm
+offensive-content-sensitive-information-explanation-explanation-1 = Những câu hỏi có thể yêu cầu thông tin nhận dạng cá nhân
+offensive-content-sensitive-information-explanation-explanation-2 = Những câu hỏi có thể gây ra lời nói thù địch hoặc những cảm xúc thiên vị hoặc xúc phạm khác
+offensive-content-sensitive-information-explanation-explanation-3 = Những câu hỏi có thể khiến ai đó chia sẻ những câu trả lời nhạy cảm, có khả năng gây kích động
+example-questions-subheader = Ví dụ câu hỏi
+example-questions-explanation-1 = Bạn có thể tìm <examplePromptsLink>120 ví dụ gợi ý trong trang tính này.</examplePromptsLink>
+example-questions-explanation-2 = Nếu bạn muốn gửi một loạt câu hỏi để tiếp nhận, bạn <githubLink>có thể làm như vậy thông qua GitHub của chúng tôi</githubLink> hoặc gửi danh sách của bạn qua email tới <emailFragment>commonvoice@mozilla.com.</emailFragment>

@@ -3,6 +3,7 @@ guidelines-header = Criterios de contribución
 guidelines-header-subtitle = Comprender como engadir e validar frases e fragmentos de audio para o conxunto de datos de Common Voice
 voice-collection = Recollida de voces
 sentence-collection = Recollida de frases
+question-collection = Recollida de preguntas
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,34 @@ domain-explanation = O dominio refírese ao asunto da oración. Actualmente, pod
 
 ## Question collection ids
 
+adding-questions = Engadir preguntas
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Como debería ser unha boa pregunta?
+what-makes-a-good-question-explanation = Se quere achegar unha boa pregunta a este proxecto colectivo, teña en conta que esta debería:
+what-makes-a-good-question-explanation-criteria-1 = Ser doada de entender e responder
+what-makes-a-good-question-explanation-criteria-2 = Ter relevancia xeral
+what-makes-a-good-question-explanation-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
+what-makes-a-good-question-tip = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+easy-to-understand = Fácil de entender
+easy-to-understand-explanation = Escolla preguntas sinxelas, que calquera poida entender, independentemente da súa cultura ou contexto.
+spelling-and-pronunciation = Ortografía e puntuación
+spelling-and-pronunciation-explanation = Asegúrese de usar a ortografía e gramática correctas.
+length = Lonxitude
+length-explanation = A pregunta debe poder responderse cun par de frases.
+dont-add-subheader = Non engadir
+culturally-specific-questions = Preguntas moi específicas culturalmente
+culturally-specific-questions-explanation = Preguntas que dependen moito dun contexto cultural concreto ou que fan demasiadas suposicións sobre quen responde
+length-avoid-explanation =
+    Preguntas que requiren máis de 15 segundos para responder
+    (a duración máxima dunha resposta gravada)
+process-steps = Procesos ou instrucións paso a paso
+process-steps-explanation = Evite preguntas que obriguen a enumerar varios pasos, xa que adoitan xerar respostas recitadas en vez de naturais.
+offensive-content-sensitive-information = Contido ofensivo ou información sensible
+offensive-content-sensitive-information-explanation-explanation-1 = Preguntas que poidan solicitar información que identifique a unha persoa
+offensive-content-sensitive-information-explanation-explanation-2 = Preguntas que poidan dar lugar a discurso de odio ou expresións ofensivas ou tendenciosas
+offensive-content-sensitive-information-explanation-explanation-3 = Preguntas que poidan levar alguén a compartir información sensible ou emocionalmente delicada
+example-questions-subheader = Exemplos de preguntas
+example-questions-explanation-1 = Pode atopar <examplePromptsLink>120 exemplos de preguntas nesta folla</examplePromptsLink>.
+example-questions-explanation-2 = Se desexa enviar un conxunto de preguntas para que as incorporemos, pode facelo a través do noso <githubLink>GitHub</githubLink> ou enviar a súa lista por correo a <emailFragment>commonvoice@mozilla.com.</emailFragment>

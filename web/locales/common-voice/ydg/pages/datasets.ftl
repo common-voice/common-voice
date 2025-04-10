@@ -3,6 +3,7 @@
 datasets-heading = ڈیٹا سیٹ
 language = زبان
 download-dataset-header = ڈیٹا سیٹ ڈاؤن لوڈ کن
+download-dataset-tag = ڤے خوئے حاجتن زبان نے ڈیٹاسیٹ منتخب کن اڤن ڤے ګیم ورژن کو، کوسیتے ڤؤ ڈاؤن لوڈ کن۔
 # File size in gigabytes
 size = سائز
 validated-hr-total = کل۔ تصدیق شدہ ایچ آر
@@ -22,3 +23,30 @@ confirm-join-mailing-list = تو دے کامن وائس دے رابطہ فہرس
 download-language = ڈاؤن لوڈ { $language }
 validated-hours = کل تصدیق شدہ گھنٹائی
 recorded-hours = ریکارڈ ݰیغو گھنٹہ
+whats-inside = نے کامن وائس ڈیٹاسیٹ ملن څیمین استت’؟
+want-dataset-update = تو آگاہی کہ کوسیتے کہ ماخ ڤے کامن وائس ڈیٹاسیٹن نوؤ ورژن کلو نینم؟ ڤے ماخ نیوز لیٹر سبسکرائب کن۔
+subscribe = سبسکرائب
+other-datasets = دیر وائس ڈیٹاسیٹ
+feedback-q = تبصرو کینیتیآ؟
+# This indicates that there is no data to display
+no-information = معلوماتے چش
+community-playbook = کمیونٹی پلے بک
+resource-playbook-info = <playbookLink>دے کامن وائس باری تمام رہنمائی دیم ژاغہ </playbookLink>استت۔ ترئے ملن ژے مقامی کڑان غوردے تآ دے ڈیٹاسیٹن استعمال اڤن دے ماخ کمیونٹی چیمین آغویا ای معلوماتے استت۔
+data-other-ted-name = ٹیڈ- لئیم آوازف مجموعو
+go-discourse = دے مشقولگی اوئے
+missing-language = تے زبان کہ دے ڈیٹا سیٹ چے ڤیو’۔ ڤے زبان پے شامل کڑا دیر دے زبانف صفحہ اوئے۔
+go-languages-page = دے زبانف صفحہ اوئے
+ready-to-validate = پے جملغف تصدیق دیر نے یوانی کڑآن تیارآ؟
+more = دیر
+close = بود
+download = ڈاؤن لوڈ
+dataset-version = ورژن
+sha256-checksum-copied = SHA256 چیکسم کاپی ݰوئے!
+sha256-checksum-copied-error = SHA256 چیکسم کاپی چے ݰوئے
+clipboard-not-supported = کلپ بورڈ سپوٹ چے کیتے
+no-information-available = معلوماتے دستیاب چش
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تے ڈیٹا سیٹ ڈاؤن لوڈ ایتے!
+dataset-donate-modal-heading = نَتو معلومآ...

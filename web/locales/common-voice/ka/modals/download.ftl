@@ -5,5 +5,5 @@ download-helpus = დაგვეხმარეთ ხმოვანი ტე
 download-form-email =
     .label = შეიყვანეთ თქვენი ელფოსტა
     .value = გმადლობთ, აუცილებლად შეგეხმიანებით.
-download-back = Common Voice-ის მონაცემთა კრებულებზე დაბრუნება
+download-back = დაუბრუნდით Common Voice – მონაცემთა კრებულები
 download-no = არა, გმადლობთ
