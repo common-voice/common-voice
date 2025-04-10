@@ -44,7 +44,7 @@ first-cta-header-text = Matétera ba kíti kómi nijíli nóchali newárami
 first-cta-subtitle-text = Achami kanísa iníli nejá bilé raíchali jápi riká mi raichámi ju?
 why-donate = Chi mi olá chiéri narí?
 why-donate-explanation-1 = Jéna raíchali ko binói ikía jú; mujé binói ché newá jápi remi chi rika iláka. Jápi alíti publicaron bileána grupo  échi kériwámi, ayena ya iséni rewála niráa ríka nejáru kíti ke ikípa jépi jú alí ayena ta anelía jápi járe raíchali ke chéa síiro rewála alí correo mapi ríka bamiála jápi binói ma jú
-why-donate-explanation-2 = Kíti ayena alá níma échi tecnología sinéami kítira, échi datos jápi kuíro jápi we alabé peré a nikúro alabé newáya namúti jápi Rika tecnología, kiti iséni chópi a newása re. Keta bayésa sinú ríka raíchami ke belá námina jápi iséni raíchami jú. <learnMore>Che asíi raíchali chi olá we natéami Ka échi metadatos anelíami</learnMore>
+why-donate-explanation-2 = Kíti ayena alá níma échi tecnología sinéami kítira, échi datos jápi kuíro jápi we alabé peré a nikúro alabé newáya namúti jápi Rika tecnología, kiti iséni chópi a newása re. Keta bayésa sinú ríka raíchami ke belá námina jápi iséni raíchami jú. <learnMore>Che a'lí sinú raíchali chi olá'a we natéami échi metadatos anelíami</learnMore>
 add-information-button = Che járe raíchali uché
 continue-speaking-button = Ke matétera ba, che raícha
 create-profile-text = Achámi katewánali raíchali?<createProfile> Newá bile perfil</createProfile>
@@ -62,6 +62,8 @@ create-profile-button = Newá bilé perfil
 img-alt-success-checkmark = Uché bilé bawéraliami jápi a'la a'a jú
 # menu item
 read-sentences = Wé leeri échi raíchali
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Aní raíchali échi osirúami inéka <small>(sapú)</small>
 
 ## MENU ITEM TOOLTIPS
 
