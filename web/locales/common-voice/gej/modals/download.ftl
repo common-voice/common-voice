@@ -5,3 +5,4 @@ download-helpus = do mi alɔ né mi a bɔ hasòso kè la do gbèɖìɖiɖàŋud�
 download-form-email =
     .label = ŋlɔ apo imɛli
     .value = àkpe mi la yɔ wò.
+download-no = àwo/ òo àkpé
