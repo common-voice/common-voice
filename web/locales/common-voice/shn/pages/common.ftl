@@ -132,6 +132,7 @@ nan-tw = ထၢႆႇဝၼ်ႇၼိတ်ႉသျ် (မိၼ်ႇၼၢ
 nb-NO = ၼေႃႇဝီးၵျႅၼ်ႇ ပွၵ်ႉၶ်မေႃႇ
 nd = IsiNdebele (ပွတ်းၼိူဝ်)
 ne-NP = ၼေပႃလီႇ
+zh-TW = ၶႄႇ (ထႆႇဝၼ်ႇ)
 
 # [/]
 
@@ -170,3 +171,10 @@ not-available-abbreviation = ဢ/မ
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>ႁဝ်းၶႃႈလူဝ်ႇ</mark><br/><mark>တၢင်းၸွႆႈထႅမ်တီႈသူ!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = မီးၵႃႈၸႂ်ႉၸၢႆႇၼပ်ႉႁူဝ်လၢၼ်ႉ ဢမႄႇရီႇၵၼ်ႇတေႃႇလႃႇ တေႃႇပီ တွၼ်ႈတႃႇတေၵဵပ်းသိမ်းၸုမ်ႇၶေႃႈမုၼ်းလႄႈမူၼ်ႉမႄးၽလႅတ်ႉၾွမ်ႇ တႃႇတူင်ႇဝူင်းၽႃႇသႃႇဢၼ်မီးယူႇ 100+ ဢၼ်လႆႈပိုင်ႈဢိင်လွင်ႈႁဵတ်းသၢင်ႈႁဝ်းၶႃႈ။ <strong>ပေႃးသူႁၼ်ထိုင်ၵႃႈၶၼ် ၶေႃႈမုၼ်းဢၼ်ႇပိုတ်ႇၵႂၢင်ႈလႄႈၵုမ်ႇထူၼ်ႈ - လူႇတၢၼ်းလႆႈမိူဝ်ႈၼႆႉ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>ၸႂ်ႈတိုဝ်း CV တွၼ်ႈတႃႇ</mark><br/><mark>လွင်ႈၶူၼ်ႉၶႂႃႉသူၸဝ်ႈ?</mark>
+languages-donate-banner-cta-explanation = Common Voice လႆႈႁပ်ႉတိုၼ်းလၢင်းတီႈ ၵၢၼ်လူႇတၢၼ်းလႄႈငိုၼ်းၵမ်ႉၸွႆႈ! ႁဝ်းၶႃႈၺိၼ်းလီတေႁူမ်ႈမိုဝ်းၸွမ်း ၽူႈလူင်ႉလႅၼ်ႇပၢႆးပၺ်ႇၺႃႇ တူင်ႇဝူင်းၵူၼ်း လႄႈၽူႈၶူၼ်ႉၶႂႃႉတႃႇပၢႆးမၢၵ်ႈမီးၶဝ်။ Common Voice ၼႆႉၸႂ်ႉတိုဝ်းလႆႈလၢႆလၢႆ ၵူၺ်းၵႃႈ သင်ႁူမ်ႈၸွႆႈထႅမ်ၽလႅတ်ႉၾွမ်း လႄႈၵႃႈၸႂ်ႉၸၢႆႇတႃႇၵၢၼ်ႁူတ်ႉသ် လူၺ်ႈ ၶေႃႈတၢင်ႇၼႄယွၼ်းငိုၼ်းၵမ်ႉၸွႆႈၼၼ်ႉ တေၸွႆႈလႆႈၼမ်တႄႉတႄႉ။
+localization-select =
+    .label = လိူၵ်ႈၽႃႇသႃႇ/ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇ

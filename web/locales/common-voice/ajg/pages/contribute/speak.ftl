@@ -39,6 +39,10 @@ review-delete-recordings = Cucu enyɔleɖɛlɔ́wo
 review-terms = Ne e zankɔ Common Voice lɔ, atéŋ lɔn ɖo <termsLink></termsLink>mio ɖoɖolɔwo jí kuɖo mio<privacyLink> fɔɖeɖe le enyɔ wawlawo gbɔ kpɔkpɔ ŋú
 terms-agree = ŋ lɔn
 terms-disagree = ŋ gbe
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Akpe ɖo mio gbewo kpɔdonu sɔsɔna ta
+first-cta-subtitle-text = e ji bé mia má nyanyanana kuɖe tɔwo nuxuxoxo ŋu a
+why-donate = nyitaɖo biabia hunu o
 
 ## MENU ITEM TOOLTIPS
 

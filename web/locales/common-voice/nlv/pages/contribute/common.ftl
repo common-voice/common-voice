@@ -145,3 +145,6 @@ contribution-volume-description = Mach tinochtin san se tlamantli titlapouaj, ma
 contribution-reader-effects-title = Kenijki kitlajtoltia
 contribution-reader-effects-description = Kanaj nochtin san kuali tlajtoskej. Noijki, uelis tikselis maski tsajsis, ichtakatlajtos noso kipajpatla ken tlajtoa. Xikpojpolo tla tlakuikas noso tla akin melauak tlajtoa yen se tepostli.
 contribution-just-unsure-title = ¿Mach tikmati tlenon tikchiuas?
+contribution-just-unsure-description = Tla tikajsi itlaj tlen mach nikan kajki, xikchiua tlen okachi kuali tikitas. Tla mach tikmati tlen tikchiuas, xikpacho kanin kijtoa "Xikpanaui" uan okse xikkaki. Nin okachi kuali tla mach tikmati tlen tikchiuas.
+see-more = <chevron></chevron>Okachi mamonexti
+see-less = <chevron></chevron>Mach okachi mamonexti
