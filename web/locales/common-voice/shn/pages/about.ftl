@@ -156,3 +156,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>လူဢၢ�
 about-playbook-how-funded = Common Voice ႁႃငိုၼ်းတိုၼ်းၸိူင်ႉႁိုဝ်?
 about-playbook-how-funded-content-1 = Common Voice ပဵၼ်ၶူင်းၵၢၼ်ၶွင် Mozilla Foundation ဢၼ်ပဵၼ်ၶူင်းၵၢၼ်ၸွမ်းပၵ်းပိူင် 501c3 ၶွင်မိူင်းႁူမ်ႈတုမ် ဢမႄႇရိၵၢၼ်ႇ။ ယၢမ်းလဵဝ်ၶူင်းၵၢၼ်လႆႈႁပ်ႉငိုၼ်းတိုၼ်းလၢင်းတင်းမူတ်းတီႈ <philantropicGrantLink>ငိုၼ်းၵမ်ႉၸွႆႈ ပရႁိတ၊</philantropicGrantLink> လႄႈငိုၼ်းလူႇတၢၼ်းတီႈၵူၼ်းတူဝ်ႈလုမ်ႈၾႃႉ။
 about-playbook-how-funded-content-2 = လႆႈၸႂ်ႉငိုၼ်းတိုၼ်းလၢင်းယႂ်ႇၼမ် တွၼ်ႈတႃႇတေသိုပ်ႇၵဵပ်းသိမ်းလႄႈပိုၼ်ၽႄၸုမ်ႇၶေႃႈမုၼ်း၊ မူၼ်ႉမႄးၽလႅတ်ႉၾွမ်ႇ လႄႈႁဵတ်း <africaMradiLink>ပၢင်ပွႆးတူင်ႇဝူင်း</africaMradiLink>။
+about-playbook-how-funded-content-3 = သင်ဝႃႈသူ ဢမ်ႇၼၼ်မူႇၸုမ်းသူၶႂ်ႈၸွႆႈထႅမ်ၶိုၼ်းတႃႇၶူင်းၵၢၼ်၊ သူၸၢင်ႈ <donateLink>လူႇတၢၼ်း</donateLink> ဢမ်ႇၼၼ်ၵပ်းသိုပ်ႇၸူး ၸုမ်းၽူႈႁူမ်ႈၽၢၵ်ႈၼႃႈၵၢၼ်ႁဝ်းၶႃႈ လႆႈတီႈ <emailFragment>commonvoice@mozilla.com</emailFragment>
