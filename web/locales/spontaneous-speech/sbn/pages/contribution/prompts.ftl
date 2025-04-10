@@ -15,5 +15,7 @@ submit-all-button = سڀ جمآ
 
 learn-how-to-use-prompts = سکو ڪئيݩ ايئي سڦهي کي استمآل ڪرڻو
 learn-how-to-use-prompts-guidance = ڪليٚڪ ڪرو <guidanceLink>هتي </guidanceLink> سکو ڪئيݩ ايئي سڦهي کي استمآل ڪرڻو اهي۔
+learn-how-to-use-transcribe = سکو آڊيٚو کي ڪئيݩ لکي سگهجي دو۔
 learn-how-to-use-transcribe-guidance = ڪليٚڪ ڪرو <guidanceLink>هتي </guidanceLink> سکو ڪئيݩ ايئي سڦهي کي استمآل ڪرڻو اهي۔
+learn-how-to-use-check-transcript = سکو لکت ڪيٚ ڪئيݩ چيڪ ڪري سگھجي دو
 learn-how-to-use-check-transcript-guidance = ڪليٚڪ ڪرو <guidanceLink>هتي </guidanceLink> سکو ڪئيݩ ايئي سڦهي کي استمآل ڪرڻو اهي۔

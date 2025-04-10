@@ -2,6 +2,7 @@
 partnerships-header = هيسيدآريٚ
 partnerships-get-in-touch = رآبتي ميݩ رهوݩ
 partnerships-become-a-partner = ڪآمن وآئيٚس رو هيسي دآر ٿيو
+partnerships-community-header = ڪميٚونٽيٚ تکليٚڪآر ائيٚݩ سول سوسآئيٚٽي
 partnerships-foundations-header = بُنيآد
 partnerships-governments-header = گورميٚنٽ
 partnerships-academia-header = يونيٚورسٽيٚوݩ، تآليٚميٚ مآهر ائيٚݩ لݩڀڻ وآرآ

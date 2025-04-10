@@ -70,10 +70,12 @@ public-domain-explanation-2 = هَڪ مڦيٚد تڪريٚر ريٚ سُڃآڻپ
 public-domain-explanation-3 = پنڊ جآݩ پنڊريݩ دوستآݩ جآݩ ٻوٚليٚ برآدريٚ سآݩ گڏ جديٚد، آم ڳآلهآئڻ وآرآ جملا ٺآهو - مسآل تور 'لکڻ-اي-ٿُون' وسيٚلي.
 public-domain-explanation-4 = ليکآݩ، ڊرآمآ نگآرآݩ جآݩ اسڪريٚن رآئٽرآݩ سآݩ رآبتو ڪرو ائيٚݩ پُڇو تا ڪيٚ اهي پنڊري ڪم رو هَڪ ننڍڙو هيسو آوآميٚ ڊوميٚن لآ وڪڦ ڪرڻ لآ تيآر هُݩدآ.
 public-domain-explanation-5 = ايهڙي موآد کي  لݩڀو جيٿ ڪآپڦ رآئيٚٽ اڃآݩ تآئيٚݩ لآڳو نآ ٿئي۔ - مسآل تور گهڻآ ڪتآب جيڪي 1920 کآݩ اڳ ڇپيآ وهُڙآ هُݩدآ
+citing-sentences-explanation-1 = هوآلآݩ کي شآمل ڪرڻ لآزميٚ اهي تا جيٚݩ اسآݩ هَڪ چيڪ ڪري سگهوݩ تا جملآ آوآميٚ ڊوميٚن ميݩ اهيݩ ائيٚݩ ڪآپيٚ رآئيٚٽ ريٚ پآبنديٚ لآڳو ڪونهي۔
 citing-sentences-subheader-websites = ويب سآئيٚٽس
 citing-sentences-subheader-websites-explanation = اڀيٚݩ ويب سآئيٚٽ با شآمل ڪري سگهو دآ، مسآل تور ”ڪآمن وآئيٚس۔https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = تآليٚميٚ  هوآلو
 citing-sentences-subheader-offline-sources = آڦ لآئيٚن وسيٚلآ
+citing-sentences-subheader-offline-sources-explanation = آوآميٚ ڊوميٚن ري موآد لآ جيڪو آن لآئيٚن دستيآب ڪونهي، اڀيٚݩ استمآل ڪري سگهو دآ تآليٚميٚ هوآلي ڪرڻ وآرو اندآز مسآل تور هآورڊ ”اندآز“ جيس (2021) مآݩجي لآئيٚسنس ريݩ نزميݩ۔
 citation =
     .label = هوآلو
 self-citation = پنڊرو رو هوآلو
@@ -88,6 +90,9 @@ adding-sentences-subheader-abbreviations = مکتليٚڦ ائيٚݩ الگ ال
 adding-sentences-subheader-punctuation = نشآنيٚوݩ
 adding-sentences-subheader-special-characters = کآس اکر ائيٚݩ گير مُلڪيٚ اکر
 adding-sentences-subheader-offensive-content = نآ پڙهڻ وآريٚ لکت
+reviewing-sentences-explanation-1 = جيڪڏهيݩ جملو مٿي ڏنل ميآر کي پورو ڪري دو تا ”هآئو“ وآري بٽڻ کي دٻآئو۔
+reviewing-sentences-explanation-2 = جيڪڏهيݩ جملو مٿي ڏنل ميآر کي پورو ڪوندو ڪري تا ”نآ“ وآري بٽڻ کي دٻآئو۔
+reviewing-sentences-explanation-3 = جيڪڏهيݩ اڀيٚݩ جملي کآݩ رآزيٚ ڪون اهوݩ تا اڀيٚݩ اُئي کي ڇڏي سگهو دآ ائيٚݩ اڳتي وهو۔
 reviewing-sentences-explanation-4 = جيڪڍهنٚ اڀآنٚ وٽ جآنچڻ لآ جملآ ڪونهي تي ٻيآ جملا شآمل ڪرو
 
 ## Question collection ids
@@ -97,6 +102,7 @@ adding-questions = سوآل شآمل ڪرتآ رهو
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ڪيٚ سوآل کي جآم سُٺو ٺآهي دو۔
+what-makes-a-good-question-explanation-criteria-1 = آرآم سآݩ سمجھو ائيٚݩ جوآب ڏيو
 easy-to-understand = آسآن اهي سمجھڻ
 spelling-and-pronunciation = سهيٚ لکڻ ائيٚݩ نشآني
 spelling-and-pronunciation-explanation = استمآل ڪرو سهيٚ اکر ائيٚنٚ گرآمر

@@ -36,6 +36,7 @@ x-years-short =
         [one] { $count } ي
        *[other] { $count } ي
     }
+help-make-dataset = اسآݩ ريٚ مدت ڪرو بهتر ميآر، آوآميٚ تور تي کُليل ڊيٽآ سيٽ ٺآهڻ ميݩ
 sign-up-account = اڪآئونٽ سآئين اپ ڪرو
 email-subscription-title = سآئين اپ ڪرو ايٚ ميل اپڊيٽ لآ
 
@@ -120,14 +121,23 @@ contribute-github-action = شرآڪت ڪرو GitHub تي
 
 ## Featured section
 
+featured-section-title = ۾يݩ نمآيآݩ ٿيل۔۔۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = اسآݩ رو پريس پيڪ ڊآئون لوڊ ڪرو
 
 ## Developers section
 
+developers-section-title = 130+ ٻوٚليآݩ ميݩ آوآميٚ تور تي رسآئيٚ ري لآئيٚڪ کُليل تڪريٚر ڊيٽآ سيٽس
+developers-section-subtitle = ASR، STT، TTS، ائيٚݩ ٻيݩ NLP هوآلي سآݩ ڊيٽآ سيٽ - ڪميٚونٽيٚ ري شرڪت وسيٚلي ٺآهيآ وهُڙآ۔
+# icon is an arrow that points to the right
+explore-datasets = ڊيٽآ سيٽ ري ڳولآ ڪرو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کُليل، ڪميٚونٽيٚ ريٚ اڳوآڻيٚ ميݩ ڊيٽآ سيٽس ريٚ همآئيٚت ڪرو
 read-sentences-link = پڙهونٚ جملآ
 validate-readings-link = تسديٚڪ سآݩ پڙهڻ
+contribute-link = لکت ريٚ ڪورپس ميݩ هيسو ڏيو
 answer-questions-link = سوآل جوآب
 transcribe-answers-link = جوآب کي لکو
 review-transcriptions-link = لکت رو جآئزو ليو
@@ -137,3 +147,13 @@ press-and-stories-link = اکبآر ائيٚݩ آکهآڻيٚوݩ
 ## Partner section
 
 partner-section-title = هسيدآر اسآݩ ڀيڙآ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> (ٽيڪ) ٽيڪنآلآجيٚ ڪمپنيٚوݩ</bold> هَڪ ترڪيٚ پزير گهڻ لسآنيٚ  اي۔ آئيٚ (AI) مآهوليآتيٚ نزآم لآ کُليل ڊيٽآ سيٽ ٺآهڻ ميݩ سيڙپڪآريٚ ڪريݩ ديݩ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سول سوسآئيٚتيٚ ائيٚݩ لݩڀڻ وآرآ </bold>۔ ٺآهيݩ، مهزبآنيٚ ڪريݩ ائيٚݩ مڦهت ميݩ هَڪ اسر اندآز ڊيٽآ سيٽ شئير ڪريݩ دآ۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسآنيٚ دوستيٚ </bold>- مڪآميٚ اجآديݩ ائيٚݩ ترڪيٚ کي تيز ڪرڻ لآ ڊيٽآ سيٽ ريٚ  تکليٚڪ کي اسپونسر ڪرو
+# icon is an arrow that points to the right
+get-in-touch-button = رآبتي ميݩ رهوݩ<icon></icon>
+# Partners section
+our-partners-include = اسآݩ ري سآٿيآݩ کي شآمل ڪرو

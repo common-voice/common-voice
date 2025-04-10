@@ -1,7 +1,9 @@
 ## Languages Overview
 
 language-section-in-progress = ترڪيٚ ميݩ
+language-section-in-progress-new-description = او ٻوٚليݩ ايئي وکت ڪميٚونٽيٚ ريٚ ترڪيٚ هيٺ ويب سآئيٚٽ <localizationGlossaryLink> ميݩ اهيݩ۔ ائيٚݩ </localizationGlossaryLink> لوڪلآئيٚزيشن جملآݩ رو ميڙ<sentenceCollectionGlossaryLink> شروٚ ڪرڻ ريٚ زرُورت اهي۔</sentenceCollectionGlossaryLink>
 language-section-launched = پڌريٚ ڪئيٚ وهُڙيٚ (لآنچ ڪئيٚ وهُڙيٚ)
+language-section-launched-description = نئيݩ ٻوليݩ لآ شروٚ ڪئيل ويب سآئيٚٽ ڪآميآبيٚ سآݩ <localizationGlossaryLink> مڪآميٚ ڪئيٚ وهُڙي اهي۔ ائيٚݩ ڪآڦيٚ</localizationGlossaryLink> جملآ ڀيڙآ ڪيآ وهُڙآ اهيݩ۔</sentenceCollectionGlossaryLink> جآريٚ</sentenceCollectionGlossaryLink><Listen<Listen /listenLink>ڳآلهآڻ ليٚݩڪ سُڻڻ<Listen<Listen /listenLink> شرآڪتوݩ ڪرو۔<Listen<Listen /listenLink>
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = آکريٚ اپڊيٽ
 languages-show-more = وڌيٚڪ ڏسو
