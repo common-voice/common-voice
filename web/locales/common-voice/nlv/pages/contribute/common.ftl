@@ -117,3 +117,5 @@ contribution-misreadings-example-4-explanation = [Okijto okachi, mach san tlen i
 contribution-misreadings-example-5-title = Tiaskej uan tikiluiskej.
 contribution-misreadings-example-6-title = Tiauij uan tikiluiskej.
 contribution-misreadings-example-6-explanation = [Moneki kijtos “Tiaskej”]
+contribution-misreadings-example-7-title = Tiaskej uan tikiluiskej ye.
+contribution-misreadings-example-7-explanation = [Machitlaj ‘ye’ ijkuilijtok]
