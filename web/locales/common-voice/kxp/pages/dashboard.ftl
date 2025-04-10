@@ -26,6 +26,16 @@ show-ranking = مارو درجو وتاڙو
 
 get-started-goals = مقصد ٿي شروع ڪرو
 create-custom-goal = ضرورت پرماڻي مقصد تيار ڪرو
+goal-type = تمين چيوا قسم نُون مقصد تيار ڪروا مانڳو سو؟
+both-speak-and-listen = ٻيئي
+both-speak-and-listen-long = ٻئي(ٻولوون هانَ هانمڀۯوون)
+daily-goal = هروز نُون مقصد
+weekly-goal = هفتيوار نُون مقصد
+easy-difficulty = هورُون
+average-difficulty = سراسري
+difficult-difficulty = ۮورُون
+pro-difficulty = مورٿِي
+confirm-goal = مقصد پڪ سي
 goal-interval-weekly = هفتيوار
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = تمارا ڪلپ شير ڪرو زي تمين هروز لکو سو
