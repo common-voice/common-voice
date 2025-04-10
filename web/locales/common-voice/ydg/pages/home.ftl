@@ -89,3 +89,8 @@ press-and-stories-link = اخبار اڤن مضمونے
 
 ## Partner section
 
+partner-section-title = لے ماخ یوان اوئے
+# icon is an arrow that points to the right
+get-in-touch-button = دے رابطہ ڤروما<icon></icon>
+# Partners section
+our-partners-include = ترے ماخ یوانف ملن استت

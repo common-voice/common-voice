@@ -91,6 +91,8 @@ adding-sentences-subheader-speakable-explanation = سُٺا جُملا فطري 
 adding-sentences-subheader-numbers = انگ
 adding-sentences-subheader-numbers-explanation = مسال طور تيَ ماخز مواد ۾ ڪوڀِي انگ نِي ھوڻ کپيَ ڪيونڪہ اي زور ھون پڙھڻ ھون مسئلا پيدا ڪري ݾگيَ ھي۔ انگون نيَ پڙھڻ رو طريقو تناظر تيَ منحصر ڪريَ ھيَ ھان مواد ريَ سيٽ ۾ مونجھارو پيدا ڪريَ ݾگيَ ھي۔مسال طور، نمبر ص”2409” نيَ صحيح طورتيَ ”چوويھ زيرو نئون” ھان ” ٻيَ ھزار چار سئو نئو” ٻيون طريقون ھون پڙھي سگجيَ ھي۔
 adding-sentences-subheader-abbreviations = مخففات ھان مخففات
+adding-sentences-subheader-abbreviations-explanation = ماخز مواد ۾ “USA”  يا “ICE” جھڙي مخففون ھان مخففون ھون پاسو ڪرڻ کپيَ ڪيونڪہ اي اھڙيَ طريقيَ ھون پڙھيا جائيَ ݾگيَ ھيَ جڪو ايون رِي اسپيلينگ ھون ھيڪجيڙا نِي ھوئيَ۔ اضافي طور تيَ، ھيڪ مخفف تيَ ڪِترائي صحيح پڙھڻ ھارو ھوئيَ ݾگيَ ھيَ۔
+adding-sentences-subheader-punctuation = اوقاف
 adding-sentences-subheader-offensive-content = نا پسند مواد
 reviewing-sentences-explanation-4 = جيَ ٿون ڪنيَ جائزو ليڻ ھارون جُملا ختم ھوئيَ جائيَ تو، مھربونِي ڪرئَ وڌيڪ جُملا ڀيڙا ڪرڻ ۾ مھورِي مدد ڪرو۔
 
