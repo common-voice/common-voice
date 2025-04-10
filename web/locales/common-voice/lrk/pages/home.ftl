@@ -155,12 +155,26 @@ ask-mozilla-share-content = ڪاو تمو ڪني ڪوئي اڳوڻي يا آوي
 # label for button
 ask-mozilla-share-action = آپرو واقعو حصيداري ڪرو
 download-contribution-certificate = ڊائون لوڊ ڪرو آپرو تعاون سرٽيفڪيٽ
+download-contribution-certificate-content = جيڪڏي تمي ڪامن وائس ۾ حصو ليدو هي تو آپري پروگرامو ھارو يا آپ ھارو يڪ سرٽيفڪيٽ ڊائون لوڊ ڪرو - او تمو مون سواءِ ممڪن نڪوئي ھوئي !
+# label for button
+download-contribution-certificate-action = آئرو سرٽيفڪيٽ حاصل ڪرو
+contribute-github = GitHub تي تعاون ڪرو
+contribute-github-content = اي منصوبا تمو جيوا مينکو ري ھارو سواءِ ممڪن ڪوئي ھوئي. 🎉 ڪامن وائس مون ڀيرا ھويا  را ڪيتائي طريقا ھي - تمو ني حصو ليدا ھارو ڪوڊنگ ڪريا ري ضرورت ڪوئي ني!
+# label for button
+contribute-github-action = GitHub تي تعاون ڪرو
 
 ## Featured section
 
+featured-section-title = ۾ نمايان ھويوري۔۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = <icon>امو رو پريس پيڪ ڊائون لوڊ ڪرو<icon></icon>
 
 ## Developers section
 
+developers-section-title = 130+ ٻوليو ۾ عوامي طور تي پوچيا ري لائق اوپن اسپيچ ڊيٽاسيٽس
+developers-section-subtitle = ASR، STT، TTS، ھين ٻيجا NLP حوالو مون ڊيٽا سيٽ - ڪميونٽي ري شموليت ذريعي ٺاهيا گيا.
+# icon is an arrow that points to the right
+explore-datasets = ڊيٽا سيٽ ري جويا ري ڪريو<icon></icon>
 
 ## Get involved section
 
