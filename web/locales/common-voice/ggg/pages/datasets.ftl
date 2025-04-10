@@ -51,3 +51,27 @@ data-other-librispeech-description = LibriSpeech تڪريٚبن 1000 ڪلآڪي�
 data-other-ted-name = ٽيٚڊ ليٚم ڪآرپس
 data-other-ted-description = TED-LIUM corpusآڊيو ٻآتيٚنٚ مي ٺآرو گو ائيٚنٚ TED ويب سآئيٚٽيٚ مي  هونٚديٚ آُنآ ڪيٚ ٽرآنٚسڪرپشن
 data-other-voxforge-description = VoxForge مڦت ائيٚنٚ اوپن سورس اسپيٚچ اوݪکوو اجڻيٚ دي استمآل ڪروآ لآ نڪل ڪرريٚ تڪريٚر ڀيݪي ڪروآ لآ ٺآرو گو
+data-other-tatoeba-description = جملآ،ترجمآ ،ائينٚ ٻولوآݪآ ڪآ آڊيآ ڪو ايڪ ٻڏو ڊيٽآ بيس  Tatoeba هي جيڪو ٻوليٚ سيڪوآ مي ائينٚ استمآل ڪروآ مي يو ڊآئون لوڊ اُنآ ڪي ڪوُميٚ ڪيٚ ترڦيٚ دي ريڪآڊ ڪرريٚ انگريجيٚ ٻولوآݪآ   پر ڌيريٚ گئيٚ هي.
+your-feedback = ڪآ تمري ڪني وچآر هينٚ تو همينٚ ڪيسي آم آوآجو ڪيٚ ڊيٽآ سيٽيٚ ڪوُ اور سئيٚ ڪرسگدآنٚ هونٚ ؟ آجآئو تو ٻولوآ ڪو جآڻآنٚ
+go-discourse = ٻولوآ چآلوآ ڪوديٚ جآئو
+missing-language = ڪآ تمريٚ ٻوليٚ ڊيٽآ سيٽو مي نجر ڪونآ آئي ؟ همريٚ ٻوليآݪآ پنآ ڪوُ ايڪ ٻوليو ڪيٚ نوينٚ سوينٚ درکوآست ڪروآ تآڻيٚ
+go-languages-page = ٻوليآنٚ ڪآ پنآ ڪوديٚ جآئو
+ready-to-validate = جُملآنٚ ڪوُ سهيٚ ڪروآ مي مدت ڪروآ لآ تيآر هو؟
+more = ٻتيٚ
+close = بند ڪرو
+download = ڊآونلوڊ ڪرو
+dataset-version = نکسو
+sha256-checksum-copied = ڪآپيٚ ڪررو گو SHA256 Checksum!
+sha256-checksum-copied-error = ڪآپيٚ  ڪروآ مي نآڪآم هرو SHA256 Checksum
+clipboard-not-supported = ڪلپ بورڊو ڪوُ سپوٽ ڪونآ هي
+no-information-available = يهآنٚ ڪوئيٚ بيٚ کبرچآرڪونآ
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = اُمر
+donate-modal-message = تمرو ڊيٽآ سيٽ ڊآئون لوڊ ڪريهرو هي !
+dataset-donate-modal-heading = ڪآ تئو کبر هونٚديٚ
+donate-modal-explanation-1 = ڊيٽآ سيٽو ڪيٚ مهربآنيٚ ڪروو + 100 سو ٻوليآنٚ ڪيٚ ڪوميٚ لآ  پليٽ ڦآرمونٚ ڪو اور سئي ڪروآ لآ ايڪ سآليٚ مي تڪريٚبن ايڪ ملين ڊالر کرچ هونٚدآ هينٚ  جيڪو همينٚ ڪردآ هونٚ ؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> جي تمينٚ  کلريٚ، ڌيريٚ ڊيٽآ  ڪيٚ ڪيمت آج دآن ڪرو!</bold>
+data-download-singleword-title = ڊآئون لوڊ ڪررو آيڪلو لڦج چگرو گوو هسو
+data-download-singleword-callout-v2 = يو ايڪ استمآل ڪيس چلآنٚدو هسو هي جرو مي ڊيٽآ ڌيريٚ هي تآڪت ٻولوآݪآنٚ انٚگآنٚ اکرآنٚ ڪيٚ اوݪکآنٚد ائينٚ  هآنٚ / نآ ڍونٚڊوو

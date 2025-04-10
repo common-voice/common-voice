@@ -9,6 +9,10 @@ clips-with-count-pluralized =
         [one] ہک <bold> { $count }</bold> کلپ
        *[other] ہور <bold>{ $count }</bold> کلپس
     }
+record-button-label = اپنی آواز ریکارڈ کرا
+login-to-get-started = شروع کرنے آسطے لاگ ان کرا یا سائن اپ کرا
+target-segment-first-card = تس اساں نے پہلے سیگمنٹ ٹارگٹ اچ شرکت کرنے لغے آ
+target-segment-generic-card = تس ٹارگٹ سیگمنٹ اچ شرکت کرنے لغے آ
 target-segment-add-voice = اپنی آواز شامل کرا
 target-segment-learn-more = ہور سکھا
 change-preferences = اپنی پسند تبدیل کرا
@@ -66,7 +70,7 @@ request-language-button = زبان نی درخواست کرا
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = پ
+shortcut-play-toggle = پی
 shortcut-play-toggle-label = چلائو/بند کرا
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -80,3 +84,13 @@ shortcut-vote-no = این
 contribution-criteria-nav = معیار
 contribution-criteria-link = شرکت کرنے نا معیار سمجھا
 contribution-criteria-page-title = شرکت نا معیار
+contribution-misreadings-example-5-title = اس بار کافی پینے کیا جلنے آں۔
+contribution-misreadings-example-6-title = اس بار کافی پینے کیا جلے آں۔
+contribution-misreadings-example-6-explanation = "وی آر" ہونا چاِینا
+contribution-misreadings-example-7-title = اس بار کافی پینے کیا جلنے آں۔
+contribution-misreadings-example-7-explanation = [اس تحریر وچ 'اے' نی]
+contribution-misreadings-example-8-explanation = [مواد آپس اچ نی ملنا]
+contribution-varying-pronunciations-title = مختتلف بولنے ناں انداز
+contribution-background-noise-title = پچھے شور
+contribution-background-voices-title = پچھے آوزاں
+contribution-reader-effects-title = پڑھنے آلے نے اثرات

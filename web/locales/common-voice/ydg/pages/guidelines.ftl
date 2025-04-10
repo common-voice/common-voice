@@ -1,5 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = پے حصو غوردا دیر رہنمائی
+guidelines-header-subtitle = ڤزانا دے کامن وائس ڈیٹا سیٹ ڤے جملغف اڤن ڤے کوګ آوازف چیمی کینت جمع کینتے اڤن تصدیق کینتے
 voice-collection = آواز بڑیڅڤدا
 sentence-collection = جملغّے بڑیڅڤدا
 question-collection = سوالف مجموعہ
@@ -18,6 +19,7 @@ example = مثال
 
 ## Voice collection sidebar content
 
+varying-pronunciations-explanation-2 = سے دیر کرن، اگر کہ دے تے خیال یو لفظ ژے ین پیرو نے اݰٹے غوزن دے اپیر چاغوئی اڤن دے اݰٹا غلط اندازو لگڤتے تو یقین کہ چش چیمی کینیم رے لیغان ژے اپیران اوئے
 varying-pronunciations-example = راہ پازگو (کلئیر) چے ڤیو
 varying-pronunciations-tip-1 = [دے کینیڈین انگریزی نے روٹن "راؤٹ" ام ݱوتے]
 varying-pronunciations-tip-2 = [دے برطانیہ انگریزی"روٹ"root"]
@@ -30,6 +32,12 @@ misreadings-example-1 = ماخ دے کوچو نے کافی شیمدان اویم
 misreadings-example-2 = دے کوچو نے کافی شیمدان اویمتے
 misreadings-example-3 = ماخ دے کوچو نے کافی شیمدان اویمتے۔
 misreadings-example-4 = استر مڅھی کورمو ژے تو پیرو نیغوڑ۔
+background-noise-example-1 = ٹرائزیکن استر ڈائناسور۔
+background-noise-example-2 = [ګرفیا] ٹرائزیکن [خوفیا] استر ڈائناسور
+background-noise-example-3 = استر دنو ٹرائزیک[خیفتا/خوفیا]
+background-noise-example-4 = [شور] استر ڈائنوسار[شور]
+background-noise-tip-1 = [پے چروم شور ترے ملن آغوئے]
+background-noise-tip-2 = [نوختیغو پرکند دے غو چے ژیو]
 
 ## Sentence collection nav ids
 

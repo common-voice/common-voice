@@ -66,6 +66,27 @@ sentence-domain = جُلآ ڪو ڊومين
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = وو ڀور جروُرو هي تو سآريٚ لِکآوٽيٚ ڪآ جُملآ هووينٚ جيسي آم آوآج (</cc0>0 cc<cc0>) </publicDomain></publicDomain> آوامي ڊومين<publicDomain> لآئيسنس دي جآريٚ
+public-domain-explanation-2 = ايڪ ڀليٚ ٻآت چيٚتيٚ ڪآ اوݪکآڻيٚ ڪآ انجڻو ڪآ ٺيوآ تآڻي اور ڀلآ جُملآ ٻولوآݪآ، نوآنٚ گُڦتآ هينٚ۔ ڪُج کيآل تِمري مدد ڪروآ تآڻيٚ جُلآ پيدآ ڪروآ مي،
+public-domain-explanation-3 = آپو آپ يآ آپو ڪآ دوستآنٚ دي جآنٚ ٻوليٚو ڪيٚ ڪميونٽيٚو دي نوآنٚ، ٻولوآݪآ جُملآ ٺآوو۔ مِسآل تور ايڪ ’لآئي-اي-ٿون‘ جريٚئي
+public-domain-explanation-4 = پر، ڊرآمآگآرآنٚ دي جآنٚ اسڪرين رآئيٽرآنٚ دي رآبتو ڪرو اورپوُڇو تو ڪآ وي آپو ڪآ ڪآمو ڪو ايڪ نيهنو هِسو اوآميٚ ڊرآمآ تآڻيٚ ديوآ لآ تيآر هوسيٚ
+public-domain-explanation-5 = لِکآوٽيٚ تآڻيٚ ديکو جھآنٚ ڪآپيٚ رآئيٽ اب نآ هوئي- مسآل تور اڪسر ڪتآب جيڪي1920 دي آگي ڇپرآ هوندآ تآ
+public-domain-explanation-6 = هڪوُمت ڦآئيدو نآ ديوآݪيٚ جآنٚ ميڊيآ تنجيميٚنٚ تآئينٚ پوهچ تو ديکو تو ڪآ اُنآ ڪيٚ ويب موآد، رپوٽينٚ جآنٚ دوسرو موآد اوآمي ڊومينو تآڻيٚ دي سڪدي هي۔
+citing-sentences-explanation-1 = هوآلآ ڪوُ شآمل ڪروو جرُري هي تو جيسي همينٚ چيڪ ڪر سڪآنٚ تو جُملآ اوآمي ڊومينو مينٚ هينٚ اور ڪآپيٚ رآئيٽو ڪيٚ پآبنديٚ لگريٚ ڪونآ هي۔
+citing-sentences-subheader-websites = ويب سآئٽينٚ
+citing-sentences-subheader-websites-explanation = تِمي ويب سآئيٚٽيٚنٚ شآمل ڪرسڪدآ هو، مسآل تور "اورمي آوآج۔ https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = پڙهآيو ڪو هوآلو
+citing-sentences-subheader-academic-reference-explanation = تِمي استمآل ڪر سڪدآ هو اڪيڊمي ريفرنسنگ تريڪو، مسآل تور  "Mozilla (2021) Common هآرورڊ اندآج Voice. https://commonvoice.mozilla.org/ پر موجود هي: 15 سيپٽمبر 2021)"
+citing-sentences-subheader-offline-sources = آپ لآئين جَرَيآ
+citing-sentences-subheader-offline-sources-explanation = پبلڪ ڊومينو ڪيٚ لکآوٽيٚ تآڻيٚ جيڪو آنلآئين موجود ڪونآ هي، تِمي استمآل ڪر سڪدآ هو پڙهآيو هوآلي ڪروآݪو اندآج مِسآل توآ هآرڊ اندآج” جيس (2021) مآئي پبلڪ“ لآئيسنس نجمينٚ
+citation =
+    .label = پَرک
+self-citation = آپو آپ ديوآݪيٚ پرک
+self-citation-explanation = جد تمي موآد آپ آپ لِکرآ هو تو تِميٚ آپوڪوُ آپ ڪسي ڪيرآ هو۔
+adding-sentences-subheader-length = لمبآئيٚ
+adding-sentences-subheader-length-explanation = جُملآ مي 15 گُڦتآ دي گھٽ هوڻو کپينٚ
+adding-sentences-subheader-spelling-punctuation = هِجي اور نِشآنيونٚ
+adding-sentences-subheader-spelling-punctuation-explanation = جُملو سئيٚ تريٚڪآ دي لِکرو هوڻ کپي۔
+adding-sentences-subheader-speakable = ٻولوآ جوگو
 
 ## Question collection ids
 
