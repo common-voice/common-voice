@@ -48,3 +48,5 @@ sc-criteria-item-6 = Tla mach ok onka tlajkuiloli tlen tikmotilis, techpaleui. �
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Xikmotili, <icon></icon>¿okijkuilojkej ken moneki?
 sc-review-rules-title = ¿Okijkuilokej ken yotikijtojkaj moneki?
+sc-review-empty-state = Axkantsin mach onka tlajkuiloli tlen tikmotilis ika nin tlajtolkopa.
+report-sc-different-language = Nin okse tlajtolkopa.

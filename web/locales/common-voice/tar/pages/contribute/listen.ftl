@@ -6,6 +6,9 @@ listen-3rd-time-instruction = Esaka okúabi ripí,<playIcon></playIcon> ¡échi 
 listen-last-time-instruction = <playIcon></playIcon> ¡Ma upáwala!
 listen-empty-state = Ke belati níwi clips kiti inebi jéna raíchali nira'a
 listen-empty-state-variants = Ayena bela kéta ma ke che niwípi re raíchali moárami jápi ríka Tami raíchami jú. Ayena oméro nakuliwia configuración kíti námipa raíchali sinú ríka aniami járe raíchali variante rika Ani olí ko
+listen-loading-error = Keta oméro inéa raíchali moárami. Ali che inéli achámi oméra
+listen-abort-title = ¿Ma suíni inéa acha alá Ka échi clips?
+listen-abort-cancel = We ché iné!
 
 ## MENU ITEM TOOLTIPS
 
