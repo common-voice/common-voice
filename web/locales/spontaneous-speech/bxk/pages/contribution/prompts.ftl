@@ -23,3 +23,7 @@ submit-all-button = Yilah byosi
 learn-how-to-use-prompts = Iyicka khurambisha èpage èyi
 learn-how-to-use-prompts-explanation = Ilamo èprompt nga neli nga nonyala mutsii sentenca tsindala. Making sure uri ènganikha yowo eri respectfully nende kimima kimilayi.
 learn-how-to-use-prompts-guidance = Kunya <guidanceLink>here</guidanceLink> khusoma èngeli ye khurambishamo èpage èyi
+learn-how-to-use-transcribe = Iyika èngeli yekhuyushamo
+learn-how-to-use-transcribe-explanation = andika asi exactly byesi omundu kalomele, ngorámo tsilomo tsa placeholder nga 'um',oba 'errr'.
+learn-how-to-use-transcribe-guidance = Kunya <guidanceLink>here</guidanceLink> khusoma èngeli ye khurambishamo èpage èyi
+learn-how-to-use-check-transcript = Iyicka èngeli yekhu cheka khuyushamo
