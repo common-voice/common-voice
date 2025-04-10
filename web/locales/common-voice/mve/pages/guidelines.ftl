@@ -89,6 +89,8 @@ adding-sentences-subheader-spelling-punctuation-explanation = جُملو صحي�
 adding-sentences-subheader-speakable = ٻولڻ ريَ لائق
 adding-sentences-subheader-speakable-explanation = سُٺا جُملا فطري ھان ٻولڻ آݪا ھيَ۔ اي ڪيَ ھارو ڀي پڙھڻ ۾ سولا ھوڻ کپيَ۔جون ڪہ آوازون ري نظرييَ ھان جُملون ۾ مختلف اکر اھم ھيَ۔ مھيَ ڀي ڪوشش ڪرون پڙيا ڪہ ريڪارڊنگ جُملون نيَ مھورِي رضاڪار برادري ھارو ممڪن حد تائين دلچسپ ھان مزيدار ٺايو جائيَ۔
 adding-sentences-subheader-numbers = انگ
+adding-sentences-subheader-numbers-explanation = مسال طور تيَ ماخز مواد ۾ ڪوڀِي انگ نِي ھوڻ کپيَ ڪيونڪہ اي زور ھون پڙھڻ ھون مسئلا پيدا ڪري ݾگيَ ھي۔ انگون نيَ پڙھڻ رو طريقو تناظر تيَ منحصر ڪريَ ھيَ ھان مواد ريَ سيٽ ۾ مونجھارو پيدا ڪريَ ݾگيَ ھي۔مسال طور، نمبر ص”2409” نيَ صحيح طورتيَ ”چوويھ زيرو نئون” ھان ” ٻيَ ھزار چار سئو نئو” ٻيون طريقون ھون پڙھي سگجيَ ھي۔
+adding-sentences-subheader-abbreviations = مخففات ھان مخففات
 adding-sentences-subheader-offensive-content = نا پسند مواد
 reviewing-sentences-explanation-4 = جيَ ٿون ڪنيَ جائزو ليڻ ھارون جُملا ختم ھوئيَ جائيَ تو، مھربونِي ڪرئَ وڌيڪ جُملا ڀيڙا ڪرڻ ۾ مھورِي مدد ڪرو۔
 

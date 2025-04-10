@@ -78,6 +78,14 @@ benefits = فائدو
 
 ## Get involved section
 
+read-sentences-link = ڤے جملغّف ݱا
+validate-readings-link = ڤے اݰٹا تصدیق کن
+contribute-link = ڤے نوختیغف دے بڑیڅڤدا حصو غورا
+answer-questions-link = ڤے سوالف جواب دل
+transcribe-answers-link = ڤے جوابف ترے نوختیغو غواؤ
+review-transcriptions-link = ڤے نوختیغف دیبارو اوژر
+contribute-text-link = دے نوختا حصو غورا
+press-and-stories-link = اخبار اڤن مضمونے
 
 ## Partner section
 

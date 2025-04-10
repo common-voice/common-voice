@@ -1,9 +1,9 @@
 # Age and Gender form
 age-gender-form-title = Assantee khuyetakho ènganikha! ya Spontaneous.
 age-gender-form-subtile = Nga wee katchulekho, ulayeta ba-developer khukhwo-mbekha teckiinologyi èkiindi
-add-information-button = Rungah èmbaakha
+add-information-button = Rungah burume
 continue-speaking-button = Endelea khuckatchula
-age-select-label = Ericka yowo elisi?
+age-select-label = Èricka yowo elisi?
 select-your-age = Londa ericka yowo
 gender-select-label = sex obah gender yowo ndalasi?
 select-your-gender = Londa sex obah ègender yowo
@@ -16,4 +16,9 @@ thank-you-for-your-information = Wanyala lwe burume bowo.
 
 ## Gender dropdown
 
-do_not_wish_to_say = Senenya khu lomaloma tah
+male_masculine = Wesani/Siisani
+female_feminine = Wekhasi/Sikhasi
+intersex = Intersex
+transgender = Transgender
+non-binary = Non-binary
+do_not_wish_to_say = Senya khu lomaloma tah
