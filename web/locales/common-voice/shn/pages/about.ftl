@@ -143,6 +143,7 @@ about-playbook-how-access-dataset-content-2 = ပေႃးဝႃႈသူတိ�
 ## How are decisions made
 
 about-playbook-how-project-governance = ႁဵတ်းႁိုဝ်တတ်းသဵၼ်ႈၸႂ်လွင်ႈၶူင်းၵၢၼ်?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice ပဵၼ်မႃးလႆႈလူၺ်ႈတူင်ႇဝူင်းၽူႈတူင်ႉၼိုင် ၽူႈလူင်ႉလႅၼ်ႇပၢႆးၽႃႇသႃႇ ၽူႈလူင်ႉလႅၼ်ႇပၢႆးသၢႆႊၶေႃႈမုၼ်း ၽူႈလူင်ႉလႅၼ်ႇပၢႆးပၺ်ၺႃႇ လႄႈ ၽူႈလူင်ႉလႅၼ်ႇပၢႆးၸၢင်ႊသွပ်ႉဝႄးၵူႈတီႈၵူႈတၢင်းတူဝ်ႈၵမ်ႇၽႃႇ။ ၶူင်းၵၢၼ်ၼႆႉ Mozilla Foundation လႆႈႁပ်ႉပုၼ်ႈၽွၼ်းတူၺ်းထိုင်ဝႆႉ။
 about-playbook-how-project-governance-content-2 = ၵၢၼ်ၽွင်းငမ်းႁဝ်းၶႃႈ လႆႈတင်ႈဝႆႉ ၼိူဝ်လၵ်းထမ်း ဢၼ်ဝႃႈ-
 about-playbook-how-project-governance-content-3 = လွင်ႈပဵၼ်သုၼ်ႇတူဝ်၊ လွင်ႈလွတ်ႈၽေး လႄႈ လွင်ႈႁူႉႁၼ်ၸႅင်ႈလႅင်း။
 about-playbook-how-project-governance-content-4 = ၵၢၼ်မီးသုၼ်ႇႁူမ်ႈတူင်ႇဝူင်း လႄႈ ၵၢၼ်တႅပ်းတတ်းသႅၼ်ႈၸႂ်။
