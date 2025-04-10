@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = Iyika èngeli yekhuyushamo
 learn-how-to-use-transcribe-explanation = andika asi exactly byesi omundu kalomele, ngorámo tsilomo tsa placeholder nga 'um',oba 'errr'.
 learn-how-to-use-transcribe-guidance = Kunya <guidanceLink>here</guidanceLink> khusoma èngeli ye khurambishamo èpage èyi
 learn-how-to-use-check-transcript = Iyicka èngeli yekhu cheka khuyushamo
+learn-how-to-use-check-transcript-explanation = Ènjushamo erinekhu ámba buli èlomo oba enganikha yasauti ya non-lexical iyayalomebwe nende omundu, ngelimo nende khukhwilakamo.
+learn-how-to-use-check-transcript-guidance = Kunya <guidanceLink>here</guidanceLink> khusoma èngeli ye khurambishamo èpage èyi
