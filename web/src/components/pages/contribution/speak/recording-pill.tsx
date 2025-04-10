@@ -23,7 +23,11 @@ interface Props extends ContributionPillProps, WithLocalizationProps {
   children?: React.ReactNode;
   clip: SentenceRecording;
   onRerecord: () => any;
+  isAnyOtherPlaying?: boolean;
+  isCurrentPlaying?: boolean;
+  onTogglePlay: () => any;
   status: PillStatus;
+  isRecording?: boolean;
 }
 
 function RecordingPill({
@@ -33,6 +37,10 @@ function RecordingPill({
   onRerecord,
   onShare,
   status,
+  isRecording,
+  isCurrentPlaying,
+  isAnyOtherPlaying,
+  onTogglePlay,
   ...props
 }: Props) {
   const [locale] = useLocale();
@@ -41,14 +49,15 @@ function RecordingPill({
   const audioContext = useRef(null);
   const source = useRef(null);
 
+  
   const toggleIsPlaying = () => {
     const nextIsPlaying = !isPlaying;
-
     if (nextIsPlaying) {
       trackRecording('listen', locale);
-
+      
       audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
       source.current = audioContext.current.createBufferSource();
+      onTogglePlay();
 
       clip.recording.blob.arrayBuffer().then(arrayBuffer => {
         audioContext.current.decodeAudioData(arrayBuffer).then((audioBuffer: any) =>{
@@ -57,9 +66,11 @@ function RecordingPill({
             source.current = audioContext.current.createBufferSource();
             setShowSentenceTooltip(false);
             setIsPlaying(false);
+            onTogglePlay();
           }
           source.current.connect(audioContext.current.destination);
           source.current.start(0);
+
         });
       });
     } else {
@@ -68,6 +79,8 @@ function RecordingPill({
     }
     setIsPlaying(nextIsPlaying);
   };
+  const isTouchDevice = typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches;
+
 
   return (
     <Pill {...props} className="recording" openable status={status} style={{ 
@@ -91,15 +104,16 @@ function RecordingPill({
         <>
           <Tooltip
             arrow
-            open={isPlaying || showSentenceTooltip}
+            open={!isTouchDevice && (isPlaying || showSentenceTooltip)}
             theme="dark"
-            title={clip.sentence.text}>
+            title='استمع'>
             <button
               className="play"
               type="button"
               onClick={toggleIsPlaying}
               onMouseEnter={() => setShowSentenceTooltip(true)}
-              onMouseLeave={() => setShowSentenceTooltip(false)}>
+              onMouseLeave={() => setShowSentenceTooltip(false)}
+              disabled={isAnyOtherPlaying || isRecording}>
               <span className="padder">
                 {isPlaying ? <PauseIcon /> : <img src="/voicewall/img/play-rounded.svg" alt="play-icon" />}
               </span>

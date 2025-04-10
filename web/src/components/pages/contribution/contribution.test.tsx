@@ -68,6 +68,7 @@ const defaultContributionPageProps = {
     <RecordingPill
       {...props}
       clip={clip}
+      onTogglePlay={jest.fn()}
       status="pending"
       onRerecord={jest.fn()}>
       {rerecordIndex === i && (

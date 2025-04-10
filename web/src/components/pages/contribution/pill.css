@@ -91,7 +91,7 @@
 
     &.open {
         justify-content: space-between;
-        width: 207px;
+        width: 100%;
 
         @media (--sm-down) {
             width: auto;

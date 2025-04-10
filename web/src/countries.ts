@@ -408,10 +408,6 @@ export const COUNTRIES = [
     value: 'IE',
   },
   {
-    name: 'اسرائيل',
-    value: 'IL',
-  },
-  {
     name: 'جزيرة مان',
     value: 'IM',
   },
