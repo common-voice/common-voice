@@ -19,3 +19,4 @@ partial-questions-upload-message =
 # Guidelines
 add-question-guidelines-title = Birebo sina byesi nongeraho?
 do-section-guideline-1 = Rumah spelling ne grammar éntufu
+do-section-guideline-2 = Londa birebo byangu bibili raisi yani umundu yesiyesi ategela regardless nendr culture oba burume
