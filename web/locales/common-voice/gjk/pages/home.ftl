@@ -28,6 +28,27 @@ hours-recorded = رِڪارڍ ٿل ڪلاڪ
 hours-validated = تصۮيق ٿل ڪلاڪ
 voices-online = آنَ لائينَ آواز هويَ
 todays-progress = آز نِي ترقِي
+help-reach-goal = { $goal }حاصل ڪريا ۿارُو امارِي مۮت ڪرو
+read-terms-q = شون تمين امارِيون شرطون ڀڻِيون سي؟
+ready-to-record = پوتا نو آواز ۮانَ ڪريا ۿارُو ڀڻو؟
+all-locales = ٻڌائين
+today = آز
+x-weeks-short =
+    { $count ->
+        [one] هڦتو
+       *[other] { $count } هڦتو
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } مو
+       *[other] { $count }مو
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }ي
+       *[other] { $count }ي
+    }
+help-make-dataset = امارِي ايڪ آلا معيار عوامِي طور ماٿيَ کُلل ڍيٽاسيٽ ٺاۿيا مان مۮت ڪرو
 
 ## Account Benefits
 
