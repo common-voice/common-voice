@@ -18,6 +18,23 @@ sc-review-form-button-approve = Yonpa
 sc-review-form-button-approve-shortcut = T
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = M
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = O
+sc-review-form-keyboard-usage-custom = Noijki uelis san tikpachos itech moteclado: { sc-review-form-button-approve-shortcut } tla Yikuali, { sc-review-form-button-reject-shortcut } tla Tikpojpolos, { sc-review-form-button-skip-shortcut } tla Tikpanauis
+sc-review-form-button-submit =
+    .submitText = Xitlami
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Machitlaj tlajkuiloli yotikmotili.
+        [one] { $sentences } tlajkuiloli yotikmotili. ¡Timitstlasojkamatiliaj!
+       *[other] { $sentences } tlajkuiloli yotikinmotili. ¡Timitstlasojkamatiliaj!
+    }
+sc-review-form-review-failure = Itlaj omochi. Mach omokak. Teotlatki oksepa xikyeko.
+sc-review-link = Xikmotili
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Tlen uan ken tikmotilis
+sc-criteria-title = Tlen uan ken tikmotilis
