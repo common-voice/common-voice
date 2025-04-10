@@ -3,7 +3,7 @@ guidelines-header = 贡献准则
 guidelines-header-subtitle = 了解如何向 Common Voice 数据集贡献及验证语句和录音片段
 voice-collection = 收集语音
 sentence-collection = 收集语句
-question-collection = 问题收集
+question-collection = 收集问题
 
 ## Voice Collection nav ids
 
@@ -27,7 +27,7 @@ varying-pronunciations-tip-2 = [有些人可能会把“楚”读作“cǔ”]
 offensive-content-explanation = 语句会通过社区进行审核，不过此过程无法确保万无一失。如果您看到或听到令您不快的的语句（例如觉得其违反了我们的<participationGuidelines>社区参与准则</participationGuidelines>），请务必使用界面中的“旗标”按钮来举报。您也可以通过 <emailFragment>commonvoice@mozilla.com</emailFragment> 来联系我们。
 misreadings-explanation-1 = 完整朗读文字内容十分重要。在聆听录音片段时，请注意录音内容是否与文字内容完全一致，如有添字、漏字，则将其驳回。
 misreadings-explanation-2 = 常见的错误有：
-misreadings-explanation-3 = 录音开头缺少“A”或“The”。（不适用）
+misreadings-explanation-3 = 录音开头有“嗯”“呃”等附加音。
 misreadings-explanation-4 = 省略了某些词缀，例如“桌子上”读成“桌上”。
 misreadings-explanation-5 = 省略了某些字，例如将“录音的注意事项”读成“录音注意事项”，反之亦然。
 misreadings-explanation-6 = 由于过快地结束录音而没有录入最后一个词。
@@ -125,9 +125,9 @@ length-explanation = 请提交只用几句话就能完成回答的问题。
 dont-add-subheader = 不要添加：
 culturally-specific-questions = 具有特定文化背景的问题
 culturally-specific-questions-explanation = 仅针对某一文化，或是对回答者的文化背景进行过度假设的问题
-length-avoid-explanation = 难以在 15 秒内（录音片段长度上限）完成回答的问题
+length-avoid-explanation = 难以在 15 秒（录音片段长度上限）内完成回答的问题
 process-steps = 流程/步骤
-process-steps-explanation = 需要通过描述步骤来作出回答的问题。在回答中描述步骤会将用户引向照本宣科，而难以获得自然的回答。
+process-steps-explanation = 需要通过描述步骤来作答的问题。在回答中描述步骤会将用户引向照本宣科，而难以获得自然的回答。
 offensive-content-sensitive-information = 冒犯性内容或敏感信息
 offensive-content-sensitive-information-explanation-explanation-1 = 可能索取个人身份信息的问题
 offensive-content-sensitive-information-explanation-explanation-2 = 可能引导发表仇恨言论等偏见或冒犯性观点的问题

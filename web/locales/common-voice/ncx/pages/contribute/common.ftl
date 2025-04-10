@@ -10,7 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> tlajtoltsitsin
     }
 goal-help-recording = ¡Yotikpaleui Common Voice makajxiti<goalPercentage></goalPercentage> itech { $goalValue } tlen mojmostla tiktsikosnekij!
-goal-help-validation = ¡Yotikpaleui Common Voice makajxiti<goalPercentage></goalPercentage> itech { $goalValue } tlen mojmostla tikyektlaliliskij!
+goal-help-validation = ¡Yotikpaleui Common Voice makajxiti<goalPercentage></goalPercentage> itech { $goalValue } tlen mojmostla tikyektlalilisnekij!
 contribute-more =
     { $count ->
         [one] ¿Tikneki tikinchiuas { $count } okachi?

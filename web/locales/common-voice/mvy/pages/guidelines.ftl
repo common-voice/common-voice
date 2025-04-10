@@ -3,6 +3,7 @@ guidelines-header = حصہ گلئیں پان٘د پشائ (ہدایات)
 guidelines-header-subtitle = کامن وائس ڈیٹا سیٹہ مہ جُملی تے اوازاں کٹرو جمع گِشے کرؤں تُھو آں منظُور کرے صحیح گِشے کرؤں تُھو، ݜسی لا اما پورژا۔
 voice-collection = اَوازَیں کھلٹُو
 sentence-collection = جُملی وَیں کَھلٹُو
+question-collection = سوال جمع کرؤں
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,24 @@ domain-explanation = جُملہ مہ‌گی بارہ مہ بحث ہُوئ تُھ
 
 ## Question collection ids
 
+adding-questions = سوال جمع کرُژاں تھو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = مڑنَیں سوال گِھن٘ل ہُوئ تُھو؟
+what-makes-a-good-question-explanation = عوامی ڈېٹاسیٹاں مڑنَیں سوال ݜے ہو چے:
+what-makes-a-good-question-explanation-criteria-1 = پورژَیں تے جواب دېں ہسان ہو
+what-makes-a-good-question-explanation-criteria-2 = عام خلکاں متعلق ہو
+what-makes-a-good-question-explanation-criteria-3 = تسی مہ اڅھک، فحش آں اوان مشخُلا نی ہو
+what-makes-a-good-question-tip = تُو اسی مہ مختلف موضوعات یی تے عنواناتؤں لا بال بان۔
+easy-to-understand = پورژَیں وڑیا ہو
+easy-to-understand-explanation = ݜے لک سوال خوش کرہ چے سَیں ہر ماݜے پورژَیں وڑیا ہوں چاہے اُو گِھن٘لَیں کلچر یا موضوع نہ گن نی ہو۔
+spelling-and-pronunciation = ہیزی تے کامی
+spelling-and-pronunciation-explanation = صحیح املا تے گرامر استعمال کرہ۔
+length = ڙِگیۡ یار/ہار
+length-explanation = سوال ݜے ہو چے تسیں جواب ایک دُو جملیُوں مہ دِیُوژ۔
+dont-add-subheader = جمع نېرہ
+culturally-specific-questions = صرف ثقافتی یاں متعلق سوالہ
+culturally-specific-questions-explanation = ݜے سوالہ چے سَیں صرف کلچراں متعلق ہوں آں جواب دېں والاں متعلق گمانہ ساند
+length-avoid-explanation = ݜے سوالہ چے سِواں جواب 15 سِن٘گڈؤں مہ دېوں گِران ہو
+process-steps = عمل/ کھڑپی

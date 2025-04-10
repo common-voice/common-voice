@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = تو چے زبان چے غوردیت۔ پے زبان غورد دیر، مہربانی کن خو دے خوئے <profileLink> پروفائل </profileLink>اوئے۔
 sc-review-title = ڤے جملغّف اوژر
 sc-review-loading = جملغّے لوڈ اویتے…
 sc-review-select-language = براہِ مہربانی ڤے جملغّف اڤن پے اوݱڑا دیر یو زبان غورا۔
@@ -30,12 +31,29 @@ sc-review-form-reviewed-message =
         [one] 1 ڤے جملو دیبارو اوژڑ! تو شکریہ
        *[other] { $sentences } ڤے جملغّف دیبارو اوݱڑت۔ تو شکریہ!
     }
+sc-review-form-review-failure = ڤے دیبارو اوݱڑغّو محفوظ کڑا چے ای۔ کیستہ دیبال اڤن کوشش کن
 sc-review-link = اشپہ اوݱڑا
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ دیبارو اوݱڑان معیار
 sc-criteria-title = دیبارو اوݱڑان معیار
+sc-criteria-item-1 = جملو صحیح نوختیغو اوئے۔
+sc-criteria-item-2 = جملو دے گرائمر لحاظ صحیح اوئے۔
+sc-criteria-item-3 = جملو اݰٹا قابل فرما۔
+sc-criteria-item-4 = اگر جملو دے معیار پرو کہ استت &quot; کلک کن۔ سے ہرزوغ کرن&quot; منظور کن۔
+sc-criteria-item-6 = لے تو جملغے اڤن پے اوݱڑا دیر ختم کہ ݰوت، لے ماخ دیر جملغے دے بڑیڅڤدا مدد کن!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = اوژر <icon></icon>مو یدغان سہی جملوآ؟
+sc-review-rules-title = مو جملو دے رہنمائی مطابق سہیآ؟
+sc-review-empty-state = وس دیم زبان پے صحیح کڑا دیر جملغے چش۔
 report-sc-different-language = دیر زبان
+report-sc-different-language-detail = زو ڤے ګیم دیبارو زبان کو اوژریمتے مو ژؤ زبانن دیر نوختیغو استت۔
+sentences-fetch-error = جملغے دے غوردا یو نقص پیدا ݰوئے
+review-error = ڤے جملو دیبارو دے اوݱڑا نقص پیدا ݰوئے
+review-error-rate-limit-exceeded = تو بیداوا استت۔ مہربانی کن خو ڤے جملو دیبارو پے اوݱڑا دیر کیستہ وخت غورا، تسلی کن کہ سہی استت۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = ماخ' کیستہ استر تبدیلی کینمتے
+sc-redirect-page-subtitle-2 = ژے ماخ خبر غورا<matrixLink>دے خانو</matrixLink><discourseLink> دے مشقولگی ژاغہ</discourseLink>یا<emailLink> دے ای میل</emailLink>اوئے۔
 # menu item
 review-sentences = ڤے جملغّف اوژر

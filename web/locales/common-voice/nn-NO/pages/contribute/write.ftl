@@ -2,10 +2,15 @@
 
 write = Skriv
 write-instruction = Legg til <icon></icon> ei offentleg domenesetning
+write-page-subtitle = Setningar bidrege her vil bli lagt til eit offentleg tilgjengeleg cc-0-lisensiert datasett.
 sentence =
     .label = Setning
+sentence-input-placeholder = Skriv inn setninga di (godkjent for offentlege domene) her
+small-batch-sentence-input-placeholder = Skriv inn setningane dine her (godkjende for offentlig bruk)
+citation-input-placeholder = Referer til kjelda til setninga di (obligatorisk)
 citation =
     .label = Tilvising
+sc-write-submit-confirm = Eg stadfestar at denne setninga er <wikipediaLink>offentleg domene</wikipediaLink> og eg har løyve til å laste ho opp.
 sc-review-write-title = Kva slags setningar kan eg leggja til?
 sc-review-small-batch-title = Korleis leggje til fleire setningar
 new-sentence-rule-1 = <noCopyright>Ingen opphavsretts</noCopyright>-avgrensingar (<cc0>cc-0</cc0>)
@@ -15,8 +20,10 @@ new-sentence-rule-4 = Bruk rett stavemåte og teiknsetting
 new-sentence-rule-5 = Ingen tal og spesialteikn
 new-sentence-rule-6 = Ingen utanlandske bokstavar
 new-sentence-rule-7 = Inkluder passande sitering
+new-sentence-rule-8 = Ideelt naturleg og samtalevennleg (det bør vere lett å lese setninga).
 login-instruction-multiple-sentences = <loginLink>Logg in</loginLink> eller <loginLink>registrer dig</loginLink> for å leggje til fleire setningar
 how-to-cite = Korleis siterer eg?
+how-to-cite-explanation-bold = Sitér med ei URL-kopling eller heile namnet på verket.
 guidelines = Retningslinjer
 contact-us = Kontakt oss
 add-sentence-success = 1 setning innsamla

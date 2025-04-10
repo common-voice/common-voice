@@ -116,7 +116,7 @@ get-started = Que nos va <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice es un platteforma gratuite, open-source  pro creation de datos ducite per communitate
-action-items-section-subtitle = Quicunque poter preservar, revitalisar e elevar su lingua per compartir, crear e curar collectiones de datos textual e vocal.
+action-items-section-subtitle = Quicunque pote preservar, revitalisar e elevar su lingua per compartir, crear e curar collectiones de datos textual e vocal.
 scripted-card-header = Parla con texto scribite
 scripted-card-content = Lege phrases in alte voce in tu lingua e contribue al plus diverse collection de datos vocal de participation public in le mundo.
 spontaneous-card-header = Discurso spontanee

@@ -3,6 +3,7 @@ guidelines-header = Linee guida di collaborazione
 guidelines-header-subtitle = Scopri come collaborare e convalidare frasi e registrazioni audio del dataset di Common Voice
 voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
+question-collection = Raccolta di domande
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,32 @@ domain-explanation = Il dominio si riferisce all’argomento della frase. Al mom
 
 ## Question collection ids
 
+adding-questions = Aggiungere domande
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Quali sono i requisiti per una buona domanda?
+what-makes-a-good-question-explanation = Una buona domanda per i dataset di partecipazione pubblica dovrebbe:
+what-makes-a-good-question-explanation-criteria-1 = Essere sia facile da capire che facile a cui rispondere
+what-makes-a-good-question-explanation-criteria-2 = Essere generalmente appropriata
+what-makes-a-good-question-explanation-criteria-3 = Non contenere o incoraggiare l’uso di linguaggio offensivo o oltraggioso
+what-makes-a-good-question-tip = Considera anche l’inclusione di contesti e domini diversi.
+easy-to-understand = Facile da capire
+easy-to-understand-explanation = Scegli domande semplici che siano facilmente comprensibili a chiunque, indipendentemente dalla cultura o dal contesto.
+spelling-and-pronunciation = Ortografia e punteggiatura
+spelling-and-pronunciation-explanation = Utilizza ortografia e grammatica corrette.
+length = Lunghezza
+length-explanation = Alla domanda dovrebbe essere possibile rispondere con un paio di frasi.
+dont-add-subheader = Non aggiungere
+culturally-specific-questions = Domande culturalmente specifiche
+culturally-specific-questions-explanation = Domande molto specifiche dal punto di vista culturale o che fanno molte supposizioni sulla persona che dovrebbe rispondere
+length-avoid-explanation = Domande a cui sarebbe difficile rispondere in 15 secondi (la durata massima della registrazione)
+process-steps = Procedimento / Passaggi
+process-steps-explanation = Domande che richiedono l’elenco di più passaggi. L’elenco dei passaggi porta l’utente a recitare una risposta invece di formulare una risposta più naturale.
+offensive-content-sensitive-information = Contenuti offensivi o informazioni sensibili
+offensive-content-sensitive-information-explanation-explanation-1 = Domande che potrebbero indurre alla divulgazione di informazioni di identificazione personale
+offensive-content-sensitive-information-explanation-explanation-2 = Domande che potrebbero provocare incitamento all’odio o ad altri sentimenti faziosi o offensivi
+offensive-content-sensitive-information-explanation-explanation-3 = Domande che potrebbero indurre l’interlocutore a condividere risposte di natura riservata o contenenti argomenti delicati
+example-questions-subheader = Esempi di domande
+example-questions-explanation-1 = Puoi trovare <examplePromptsLink>120 esempi di domande in questa pagina.</examplePromptsLink>
+example-questions-explanation-2 = Se desideri inviare una serie di domande per l’importazione, <githubLink>puoi farlo tramite GitHub</githubLink> oppure mandare la lista via email a <emailFragment>commonvoice@mozilla.com.</emailFragment>

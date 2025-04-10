@@ -76,48 +76,84 @@ read-more-about = Les meir på Om oss-sida vår
 ## NAV ITEMS
 
 answer-questions = Svar på spørsmål
+answer-questions-coming-soon = Svar på spørsmål <small>(kjem snart)</small>
 review-transcriptions = Vurder transkripsjonar
+review-transcriptions-coming-soon = Vurder transkripsjonar <small>(kjem snart)</small>
 add-questions = Legg til spørsmål
+add-questions-coming-soon = Legg til spørsmål <small>(kjem snart)</small>
+transcribe-audio-coming-soon = Transkriber lyd <small>(kjem snart)</small>
 transcribe-audio = Transkriber lyd
+press-and-stories = Presse og historier
+community-and-languages = Fellesskap og språk
 coming-soon = Kjem snart
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnarskap, presse og historier, fellesskap og språk.
 partnerships-menu-item-tooltip = Bli partnar med oss
+press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
+community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Lær om partnarskap med Common Voice
+press-and-stories-menu-item-aria-label = Få tilgang til pressemeldingar og historier relatert til Common Voice
+community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språka som blir støtta av Common Voice
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Teknologi som snakkar ditt språk
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kvifor skal kunstig intelligens berre fungere for nokre få av språka i verda?</bold>
+hero-subtitle-2 = Språket vårt er historia vår, fellesskapet vårt, kulturen vår. La oss lage datasetta vi ønskjer å sjå i verda.
 # icon is an arrow that points downwards
 get-started = Kom i gang <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd datainnsamling
+action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbetre tekst- og taledatasett.
+scripted-card-header = Opplesen tekst
+spontaneous-card-header = Spontan tale
 add-text = Legg til tekst
 
 ## Community section
 
+community-section-title = Driven av globale samfunn, for globale samfunn - 130 språk, og det vert stadig fleire!
+join-discord-community = Ver med i Discord-fellesskapet
+# label for button
+join-discord-community-action = Ver med oss på Discord
+find-us-on-matrix = Finn oss på Matrix
 # label for button
 find-us-on-matrix-action = Finn oss på Matrix
+# label for button
+ask-mozilla-share-action = Del arrangementet ditt
+download-contribution-certificate = Last ned bidragsbeviset ditt
 contribute-github = Bidra på Github
 # label for button
 contribute-github-action = Bidra på Github
 
 ## Featured section
 
+featured-section-title = Presentert i…
+# icon is an arrow that points downwards
+download-press-pack = Last ned pressepakken vår <icon></icon>
 
 ## Developers section
 
+developers-section-title = Offentleg tilgjengelege opne taledatasett på over 130 språk
 
 ## Get involved section
 
 read-sentences-link = Les setningar
+validate-readings-link = Valider innlesingar
+contribute-link = Bidra til tekstkorpus
 answer-questions-link = Svar på spørsmål
+transcribe-answers-link = Transkriber svar
+review-transcriptions-link = Vurder transkripsjonar
 contribute-text-link = Bidra med tekst
 press-and-stories-link = Presse
 

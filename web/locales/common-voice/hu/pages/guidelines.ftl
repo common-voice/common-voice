@@ -3,6 +3,7 @@ guidelines-header = Közreműködői irányelvek
 guidelines-header-subtitle = Értse meg, hogyan adhat hozzá mondatokat és hangklipeket a Common Voice adatkészlethez, illetve hogyan ellenőrizheti őket
 voice-collection = Hanggyűjtés
 sentence-collection = Mondatok gyűjtése
+question-collection = Kérdésgyűjtemény
 
 ## Voice Collection nav ids
 
@@ -49,7 +50,7 @@ volume-explanation = Természetes eltérések lesznek az olvasók hangereje köz
 reader-effects-explanation = A legtöbb felvételen az emberek a természetes hangjukon beszélnek. Elfogadhatja az alkalmi nem szokásos felvételeket, amelyen kiabálnak, suttognak vagy csak „drámai” hangok olvassák fel. Viszont a felénekelt vagy számítógéppel szintetizált felvételeket utasítsa el.
 just-unsure-explanation = Ha olyan dologgal találkozik, amelyre ezek az irányelvek nem vonatkoznak, akkor szavazzon a legjobb megítélése szerint. Ha valóban nem tud dönteni, akkor használja a kihagyás gombot, és folytassa a következő felvétellel.
 still-have-questions = További kérdése van?
-contact-common-voice = Lépjen kapcsolatba a Common Voice csapattal
+contact-common-voice = Kapcsolat a Common Voice csapattal
 
 ## Sentence collection nav ids
 
@@ -105,6 +106,32 @@ domain-explanation = A domén a mondat témakörére utal. Jelenleg ezek közül
 
 ## Question collection ids
 
+adding-questions = Kérdések hozzáadása
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Mitől jó egy kérdés?
+what-makes-a-good-question-explanation = Egy jó kérdés a nyilvános részvételű adatkészletben:
+what-makes-a-good-question-explanation-criteria-1 = Legyen könnyen érthető és megválaszolható
+what-makes-a-good-question-explanation-criteria-2 = Legyen általánosságban releváns
+what-makes-a-good-question-explanation-criteria-3 = Ne használjon vagy várjon el ártalmas vagy sértő kifejezéseket
+what-makes-a-good-question-tip = Azt is megfontolhatja, hogy különböző kontextusokon és doméneken íveljen át.
+easy-to-understand = Könnyen érthető
+easy-to-understand-explanation = Válasszon egyszerű kérdéseket, amelyek bárki számára könnyen érthetőek, kultúrától és kontextustól függetlenül.
+spelling-and-pronunciation = Helyesírás és központozás
+spelling-and-pronunciation-explanation = Írjon helyesen.
+length = Hossz
+length-explanation = A kérdésre néhány mondatban kell tudni válaszolni.
+dont-add-subheader = Ne adjon hozzá
+culturally-specific-questions = Kulturális sajátosságú kérdéseket
+culturally-specific-questions-explanation = Olyan kérdéseket, amelyek nagyon kultúrafüggőek, vagy sokat feltételeznek a válaszolóról
+length-avoid-explanation = Olyan kérdéseket, amelyekre nehéz 15 másodperc alatt válaszolni (ez a maximális kliphossz)
+process-steps = Folyamatokat / lépéseket
+process-steps-explanation = Olyan kérdéseket, melyek több lépés felsorolását igényelnek. A lépések felsorolása a természetes beszéd helyett arra késztetik a felhasználót, hogy felmondja a választ.
+offensive-content-sensitive-information = Sértő vagy érzékeny információkra vonatkozó kérdéseket
+offensive-content-sensitive-information-explanation-explanation-1 = Olyan kérdéseket, amelyek személyazonosításra alkalmas információkat kérhetnek
+offensive-content-sensitive-information-explanation-explanation-2 = Olyan kérdéseket, amelyek gyűlöletbeszédet keltő, vagy más elfogult vagy sértő szándékúak lehetnek
+offensive-content-sensitive-information-explanation-explanation-3 = Olyan kérdéseket, amelyekre bizalmas, potenciálisan felzaklató válaszokat adhatnak
+example-questions-subheader = Példakérdések
+example-questions-explanation-1 = <examplePromptsLink>120 példakérdést talál ezen a lapon.</examplePromptsLink>
+example-questions-explanation-2 = Ha egy kérdéscsoportot küldene be feldolgozásra, akkor a <githubLink>GitHubon keresztül teheti meg</githubLink>, vagy küldje el a listáját e-mailben a <emailFragment>commonvoice@mozilla.com</emailFragment> címre.

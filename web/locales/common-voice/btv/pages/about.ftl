@@ -126,6 +126,17 @@ about-playbook-how-access-dataset-content-2 = کہ تو اے ایس آر ماڈ�
 ## How are decisions made
 
 about-playbook-how-project-governance = پراجیکٹ فیصلے کش سندا
+about-playbook-how-project-governance-content-1 = موزیلا عام اواز ممکن سنداں بزائ مختلف کمیونٹی سو ایکٹیوسٹوں رے،زیب سو ماہروں رے،سائنسدانوں رے تعلیمی آ سافٹ وئیر انجنئیروں رے تمام دنیاں سو۔پراجیکٹ موزیلا فاونڈیشن چلا۔
+about-playbook-how-project-governance-content-2 = اسئیں حُکمت تھویئں رے سندیل تھی:
+about-playbook-how-project-governance-content-3 = پردہ داری،حفاظت آ شفافیت۔
+about-playbook-how-project-governance-content-4 = کمیونٹی حصہ گِھنو آ فیصلہ گرو۔
+about-playbook-how-project-governance-content-5 = قدروقیمت آ پھونیو۔
+about-playbook-how-project-governance-content-6 = باہمی حساب کتاب۔
+about-playbook-how-project-governance-content-7 = <governanceLink>  جل پڑ چہء بے کش حکمت گرہ تھہ </governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = عام اواز کش سنداں گے تھی ؟
+about-playbook-how-funded-content-1 = عام اواز موزیلا فاونڈیشن سو یک پرجیکٹ تھو  a US 501c3  او پراجیکٹ اِس وخت اندرونی طور رے <philantropicGrantLink> فلان تھروپک سو دے رے سندید تھو </philantropicGrantLink> آ چاپیرا دنیا سو لو سو امداد رے۔
+about-playbook-how-funded-content-2 = مسلسل میزبانی ،معلماتی سیٹ ریلیز گرو،پلیٹ فام یے ترقی دیو آ کمیونٹی سو پروگرام چلئ رے <africaMradiLink> ڙھؤ زیات خرچی رھینگا</africaMradiLink>
+about-playbook-how-funded-content-3 = اگر کہ تُو یا تسوں تنظیم پراجیکٹ مہ حصہ گھنو لو کھہ تھہ تہ تُس سَند ھونتھہ <donateLink> عطیہ </donateLink> یا اسئیں ٹیم یے اوڑی <emailFragment>commonvoice@mozilla.com</emailFragment>

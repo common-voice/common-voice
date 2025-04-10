@@ -7,7 +7,7 @@ prompt-page-instruction = <micIcon></micIcon> düğmesine { $actionType } ve ola
 no-prompts-message = Şu anda bu dil için soru yok. Lütfen sayfayı yenileyin ya da daha sonra yeniden deneyin.
 error-skipping = Bu soruyu atlarken bir hata oluştu
 error-recording = Kayıt yaparken bir hata oluştu
-error-fetching-prompts = İstemleri yüklerken bir şey ters gitti, lütfen daha sonra yeniden deneyin.
+error-fetching-prompts = Soruları yüklerken bir şey ters gitti. Lütfen daha sonra yeniden deneyin.
 error-uploading-response = Yanıtınız sunucuya gönderilirken bir hata oluştu
 prompt-submitted-success = Yanıtınız başarı ile gönderildi
 prompt-response-deleted-success = Yanıt başarı ile silindi
@@ -21,7 +21,7 @@ submit-all-button = Tümünü Gönder
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Bu sayfayı nasıl kullanacağınızı öğrenin
-learn-how-to-use-prompts-explanation = Bir iki cümlede olabildiğince doğal konuşmayla isteme yanıt verin. Saygılı, saldırgan olmayan üslup kullandığınıza emin olun.
+learn-how-to-use-prompts-explanation = Bir iki cümlede olabildiğince doğal konuşmayla soruya yanıt verin. Saygılı, saldırgan olmayan üslup kullandığınıza emin olun.
 learn-how-to-use-prompts-guidance = Bu sayfayı nasıl kullanacağınızı öğrenmek için <guidanceLink>burayı</guidanceLink> tıklayın
 learn-how-to-use-transcribe = Metne nasıl çevireceğinizi öğrenin
 learn-how-to-use-transcribe-explanation = Söyleneni söylendiği şekilde, "eee", "aaa" gibi sesler dahil olmak üzere, aynen yazıya dökün.

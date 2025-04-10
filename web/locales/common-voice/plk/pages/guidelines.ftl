@@ -3,6 +3,7 @@ guidelines-header = شرکتے رہنما اصول
 guidelines-header-subtitle = کامن وائس ڈیٹاسیٹ دہ جُملِائے گہ آڈیو کلپو تعاون گہ توثیق تھونے طریقہ پرجون
 voice-collection = آوازو مجموعہ
 sentence-collection = جُملو مجموعہ
+question-collection = سوالاتو مجموعہ
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,32 @@ domain-explanation = ڈومین اےْ مراد جُملائے موضوع نیْ
 
 ## Question collection ids
 
+adding-questions = سوالات ٹل تھون
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ایک مڑنے سوال گیْ جو بِینوْ؟
+what-makes-a-good-question-explanation = عوامی شرکتے ڈیٹاسیٹس اےْ کِرِیا ایک مِݜٹو سوال:
+what-makes-a-good-question-explanation-criteria-1 = لڇھون گہ جواب دون دہ ہسان سنِجہ
+what-makes-a-good-question-explanation-criteria-2 = عام شان گیْ متعلقہ بِیا
+what-makes-a-good-question-explanation-criteria-3 = نوخصانی یا جارحانہ جِب استعمال نہ تِھیا یا درخواست نہ تِھیا
+what-makes-a-good-question-tip = څھوْس مختلف سیاق گہ سباق گہ ڈومینز خور تھونِجیْ گہ غور تھون لُکھینَت۔
+easy-to-understand = پرجون مجی ہسان
+easy-to-understand-explanation = ادا ہسان سوالو انتخاب تِھیا کھاں ثقافت یا سیاق گہ سباق جیْ قطع نظر جیئے کِرِیا پرجون ہسان بی۔
+spelling-and-pronunciation = ہِجّائے گہ اوقاف
+spelling-and-pronunciation-explanation = صحیح تلفظ گہ گرامر استعمال تِھیا۔
+length = ڙِگِیار
+length-explanation = سُوالو جُواب صرف ایْک یا دُو جُملو مجی بون پکارُن۔
+dont-add-subheader = شامل یا ٹل نہ تِھیا
+culturally-specific-questions = ثقافتی شان گیْ خاص سُوالات
+culturally-specific-questions-explanation = ادا سُوالات کھاں ثقافتی شان گیْ لا مخصُوصَن، یا جواب دی کے بارَد بسکہ مفروضائے سنینَن۔
+length-avoid-explanation = اسہ سوالات کھائیݨے جواب 15 سیکنڈ دہ دونے کِرِیا کوئے منُوڙوْس کڑاؤ تھوٰ (کلپے لئی جی لئی ڙِگِیار)
+process-steps = عمل/اقدامات
+process-steps-explanation = ادا سوالات کھائیݨے کِرِیا جیئڑ بسکہ مراحلو فہرست سنونے ضورڑت بِینیْ۔ فہرستے مراحل صارفَڑ بسکہ فطری جوابے بد دہ جواب ݜُݨرِینے اشرت تھینَن۔
+offensive-content-sensitive-information = ناگوارمواد یا حساس معلومات
+offensive-content-sensitive-information-explanation-explanation-1 = سوالات کھاں ذاتی شان گیْ شناخے قابل معلومات طلب تھوبانَن۔
+offensive-content-sensitive-information-explanation-explanation-2 = ادا سوالات کھاں سہ نفرت انگیز تقریر یا مُتہ متعصبانہ یا جارحانہ جذبات پائدا تھوبانَن۔
+offensive-content-sensitive-information-explanation-explanation-3 = سوالات کھاں جیئر حساس، ممکنہ شان گیْ متحرک جواباتو اشتراک تھونے سوبب بوبانَن۔
+example-questions-subheader = مثالے شان گیْ
+example-questions-explanation-1 = څھوْس لہابانَت <examplePromptsLink>  مثالے شان گیْ آ شیٹے طرفڑ اشرت تِھینوْ </examplePromptsLink>
+example-questions-explanation-2 = اگر څھوْس ادخالے کِرِیا سوالاتو ایْک قسط جمع تھون لُکھینَت توْ څھوْ <githubLink> گٹ ہبے ذریعے گیْ آ تِھیا</githubLink> یا تومیْ لسٹ ای میل تِھیا commonvoice@mozilla.com

@@ -6,9 +6,11 @@ action-click = Kattintson
 action-tap = Koppintson
 # Label for language switcher
 platform-language = Platform nyelve:
+platform-language-tooltip-text = Csak a weboldal szövegét módosítja.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Közreműködés a(z) { $language } adatkészletben
+contribution-picker-tooltip-text = Módosítja azt a nyelvadatkészletet, amelyben közreműködik
 # Label for button on contribution switcher
 change = Módosítás
 coming-soon = Hamarosan további nyelvek is lesznek
@@ -28,6 +30,7 @@ request-new-language = Új nyelv kérése
 ## Navbar
 
 respond-to-prompt = Válasz a kérdésre
+transcribe = Leiratozás
 check-transcriptions = Leiratok ellenőrzése
 question = Kérdés
 

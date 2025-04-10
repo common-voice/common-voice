@@ -8,6 +8,7 @@ datasets-positioning =
     Common Voice’un çok dilli veri kümesi zaten türünün herkese açık olan en büyük ses veri kümesi, ancak tek veri kümesi değil.
     
     Bu sayfayı hem diğer açık kaynaklı ses veri kümeleri için bir referans kaynağı hem de Common Voice büyümeye devam ettikçe yayımlayacağımız sürüm güncellemelerinin yuvası olarak görebilirsiniz.
+datasets-speech-bubble-content = “Spontane konuşma” özelliği yolda! Duyurular için bizi takip etmeye devam edin ve güncel bilgiler için <discordLink>Discord</discordLink> sunucumuza göz atın.
 language = Dil
 download-dataset-header = Veri kümesini indirin
 download-delta-explainer = Bazı değişiklikler yaptık. Delta segmentleri, yalnızca son sürümden bu yana en yeni kayıtları içerir. <deltaLink>Bu çalışma hakkında daha fazla bilgi alın</deltaLink>.

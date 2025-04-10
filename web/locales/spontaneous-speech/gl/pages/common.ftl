@@ -6,9 +6,11 @@ action-click = Prema
 action-tap = Toque
 # Label for language switcher
 platform-language = Idioma da páxina:
+platform-language-tooltip-text = Só modifica o texto do sitio web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Está contribuíndo ao conxunto de datos do { $language }
+contribution-picker-tooltip-text = Cambia o conxunto de datos lingüísticos ao que está a contribuír.
 # Label for button on contribution switcher
 change = Cambiar
 coming-soon = Máis idiomas proximamente
@@ -28,6 +30,7 @@ request-new-language = Solicitar un novo idioma
 ## Navbar
 
 respond-to-prompt = Responda a pregunta
+transcribe = Transcriba
 check-transcriptions = Revise transcricións
 question = Pregunta
 

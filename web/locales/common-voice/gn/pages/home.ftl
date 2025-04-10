@@ -150,6 +150,7 @@ download-press-pack = Emboguejy ore dossier de prensa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Ñe’ẽkuaa ijurujáva opavavépe g̃uarã mba’ekuaarã aty hetave 130 ñe’ẽmegui
 # icon is an arrow that points to the right
 explore-datasets = Eheka mba’ekuaarã atýpe <icon></icon>
 
@@ -168,6 +169,8 @@ press-and-stories-link = Prensa ha ñemombe’u
 ## Partner section
 
 partner-section-title = Eike orendive
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = Mba’ekuaarã ojeykekóva aty ñemoheñói oñemoakãrapu’ã hag̃ua mba’epyahu ha jekakuaave
 # icon is an arrow that points to the right
 get-in-touch-button = Eñe’ẽ orendive <icon></icon>
 # Partners section

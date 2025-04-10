@@ -5,14 +5,32 @@ sc-review-title = Vurder setningar
 sc-review-loading = Lastar setningar…
 sc-review-select-language = Vel eit språk for å sjå gjennom setningar.
 sc-review-no-sentences = Ingen setningar å vurdere. <addLink>Legg til fleire setningar no!</addLink>
+sc-review-form-prompt =
+    .message = Vurderte setningar ikkje sendt inn, er du sikker?
+sc-review-form-usage = Sveip til høgre for å godkjenne setninga. Sveip til venstre for å avvise ho. Sveip opp for å hoppe over. <strong>Ikkje gløym å sende inn vurderinga di!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Kjelde: { $sentenceSource }
 sc-review-form-button-reject = Avvis
 sc-review-form-button-skip = Hopp over
 sc-review-form-button-approve = Godkjenn
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-keyboard-usage-custom = Du kan òg bruke tastatursnarvegar: { sc-review-form-button-approve-shortcut } for å godkjenne, { sc-review-form-button-reject-shortcut } for å avvise, { sc-review-form-button-skip-shortcut } for å hoppe over
 sc-review-form-button-submit =
     .submitText = Fullfør vurdering
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ingen setningar vurderte.
+        [one] 1 setning vurdert. Takk skal du ha!
+       *[other] { $sentences } setningar vurderte. Takk skal du ha!
+    }
 sc-review-form-review-failure = Klarte ikkje å lagre vurderinga. Prøv på nytt seinare.
 sc-review-link = Vurdering
 
@@ -32,6 +50,7 @@ sc-review-instruction = Kontroller <icon></icon> er dette ei språkleg korrekt s
 sc-review-rules-title = Oppfyller setninga retningslinjene?
 sc-review-empty-state = Det er, akkurat no, ingen setningar å vurdere på dette språket.
 report-sc-different-language = Anna språk
+report-sc-different-language-detail = Ho er skriven på eit anna språk enn det eg vurderer.
 sentences-fetch-error = Det oppsto en feil under henting av setningar
 review-error = Det oppstod en feil under vurderinga av denne setninga
 review-error-rate-limit-exceeded = Du er for rask. Ta deg tid til å sjå gjennom setninga for å sikre at ho er rett.
