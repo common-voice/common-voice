@@ -71,3 +71,4 @@ answer-questions-menu-item-tooltip = Newáya moáliami mápimi binói nejéa já
 
 speak-contribute-menu-aria-label = Menú aniáchi nóke kíti raíchama
 read-sentences-menu-item-aria-label = Aní échi raíchali iséni chópi nirá'a
+answer-questions-menu-item-aria-label = Nejá bilé naríwami kíti biléana peréami inéma a'lí nejeíma jápi ríka abói náki
