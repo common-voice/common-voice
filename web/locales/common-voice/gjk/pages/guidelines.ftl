@@ -103,6 +103,9 @@ adding-sentences-subheader-offensive-content = ڀيڪار مواڌ
 adding-sentences-subheader-offensive-content-explanation = زو جُملو ۿڦرو نٿِي انين پريشانَ ڪريا وارو سي مِثال طور صاف مواد نيَ ڪريئيَ ٿِي ڪان وريَ امارِي <communityGuidelines>ڀِراڌري نا شامِل ڇا نِيان ڪونئين ٻيزِيان کِلاڦورزيان نيَ ليڌيَ ٿِي</communityGuidelines> تمين جُملا نين خارِج ڪرِي ۿڳو سو۔ تمين مسلا نين وڌايا ۿارُو امان ٿِي <emailFragment>commonvoice@mozilla.com</emailFragment> راٻطو ڪرِي ۿڳو سو۔
 reviewing-sentences-explanation-1 = زو جُملو ماٿيَ ۮيڌل معيار پرماڻين سي، تو "هوويَ" نا ٻٽڻ ماٿيَ ۮٻاوو۔
 reviewing-sentences-explanation-2 = زو جُملو ماٿيَ ۮيڌل معيار پرماڻين نٿِي تو "نا" نا پٽڻ ماٿيَ ۮٻاوو۔
+reviewing-sentences-explanation-3 = زو تمان نين جُملا نا ڀارا مان پڪ نٿِي، تو تمين اين نين ميڪينَ ٻيزا جُملا ماٿيَ زئِي ۿڳو سو۔
+reviewing-sentences-explanation-4 = زو تمارون جُملان نو جائزو ليڌا نون کتم ٿئِي جھون سي، تو پسيَ ميرٻانِي ڪرينَ امارِي وڌارين جُملا ڀيڳا ڪريا مان مۮت ڪرو!
+domain-explanation = ڍومينَ جُملا نا مضمونَ ڪور اِشارو ڪرو سو، فِلحال تمين هيٺين ۮيڌل وس مان ٿِي سُونڍِي ۿڳو سو۔
 
 ## Question collection ids
 
