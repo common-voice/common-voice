@@ -22,3 +22,4 @@ do-section-guideline-1 = Rumah spelling ne grammar éntufu
 do-section-guideline-2 = Londa birebo byangu bibili raisi yani umundu yesiyesi ategela regardless nendr culture oba burume
 do-section-guideline-3 = Making sure uli tsinyala khwilibwamo saah mucouple ye tsisentenca
 do-not-section-title = le-kha
+do-not-section-guideline-1 = Bushabusha ènganikha èamba khumundu (ká kamasina oba ènganikha ye khubutajjiri)
