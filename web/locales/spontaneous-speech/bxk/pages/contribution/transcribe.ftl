@@ -5,3 +5,7 @@ audio-page-instruction = { $actionType } <playIcon></playIcon> ate owandike asii
 editbox-header = khuleckah
 editbox-placeholder = Andika asii byesi uwulila umundu khakatsulila aá
 no-audio-message = Arii sayi mbawo kamakono ke kekhukelesha mululomo luno. Refreshah saa èpage oba okhakekho tsinyinga echo.
+create-transcript-success = Khukelesha khwabukulibwe bulayi
+create-transcript-error = An èrror yakholebwe nga bangona khukelesha khuno
+error-playing-audio = Èrror nga benyaya èfilo yekamakono
+error-fetching-audio = Sindu sichile bubi nga bangona kamakono ke khukelesha. Tafadhali ilamo tsinyinga echo.
