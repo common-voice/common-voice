@@ -10,3 +10,11 @@ add-question-success-toast-message =
        *[other] Ulayusha  enganikha bulayi?
     }
 add-question-error-message = Uploadah yalobe, ilamo lundi.
+add-question-too-many-questions-error = Wabirishe birebo 500. Pungusha enumber yebirebo wilemo lundi.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] Muli bandu benga mungo?
+       *[other] Mwamilanga waah engangi eyo?
+    }
+# Guidelines
+add-question-guidelines-title = Birebo sina byesi nongeraho?
