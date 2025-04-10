@@ -23,3 +23,6 @@ transcribe-bubble-subtitle = Uwandike asii byesi uwulila mu clip ye kamakono
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Checka</mark>
 check-bubble-subtitle = Uchecka nga khulekasha khu matchingah nende kamakono
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>Data</mark>
+data-bubble-subtitle = khuweleshanga data kutsila khumbuka
