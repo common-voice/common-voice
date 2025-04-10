@@ -19,3 +19,7 @@ respond-bubble-title = <mark>Khukhwilamo</mark>
 respond-bubble-subtitle = Ukuleemo nga noli tena nga nonyala
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>ukeleshe</mark>
+transcribe-bubble-subtitle = Uwandike asii byesi uwulila mu clip ye kamakono
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Checka</mark>
+check-bubble-subtitle = Uchecka nga khulekasha khu matchingah nende kamakono
