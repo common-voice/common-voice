@@ -14,6 +14,13 @@ record-cancel = tashi enyɔlelɛwo
 record-instruction = { $actionType }<recordIcon></recordIcon> yí egbeɛ ne tó né e hlɛkɔ enyɔgbelɔ
 record-stop-instruction = { $actionType }<stopIcon>ɖégbɔni
 record-three-more-instruction = né wu ametɔn
+record-again-instruction = E nyo ŋtɔ !<recordIcon></recordIcon> le ce a va wɔ ɖɛ
+record-again-instruction2 = kpɔtɔ ayiji ne ná le bu kpi
+record-last-instruction = <recordIcon></recordIcon> Kpɛtɛlɔ ke
+review-tooltip = le ŋkuví ɖé ŋú ne na li ɖɛ ne vá hian
+share-clip = ma enu ce e lé lɔ́
+share-common-voice = Ma Common Voice
+review-instruction = le ŋkuví ɖé ŋú ne na li ɖɛ ne vá hian
 
 ## MENU ITEM TOOLTIPS
 

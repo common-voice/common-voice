@@ -126,3 +126,6 @@ contribution-varying-pronunciations-description = Mach san niman xikpojpolo se t
 contribution-varying-pronunciations-description-extended = Maski ijkon, tla tikita akin okitlajtolti mach kimati tlen kijtoa uan san ken nesi okitenkixti, xikpojpolo. Tla mach tikmati tlen omochi, xikkaua uan okse xikpanaui.
 contribution-varying-pronunciations-example-1-title = ¿Kox yotlanki?
 contribution-varying-pronunciations-example-1-explanation = [´Yótlanki’ uan ´yotlánki´ yikuali. Tlatlamantli kitenkixtiaj itech seki altepemej]
+contribution-varying-pronunciations-example-2-title = Nin noitskuin.
+contribution-varying-pronunciations-example-2-explanation = [‘Noitskuin’ tiktenkixtiaj san semi noso ken ´notskuin´]
+contribution-background-noise-title = Itlaj chalantok
