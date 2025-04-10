@@ -184,6 +184,20 @@ validate-readings-link = پڙهڻيا ري تصديق ڪرو
 contribute-link = ٽيڪسٽ ڪورپس ۾ حصو ليو
 answer-questions-link = سوال جواب
 transcribe-answers-link = جوابو ري نقل ڪرو
+review-transcriptions-link = ٽرانسپشن رو جائزو ليو
+contribute-text-link = متن رو حصو ڏيو
+press-and-stories-link = پريس ھين ڪهاڻيون
 
 ## Partner section
 
+partner-section-title = امو ري ڀيرا ھون
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٽيڪ ڪمپنيون</bold> - ايڪ ترقي پذير گهڻا لساني AI ماحولياتي نظام ھارو کليوڙا ڊيٽا سيٽ تخليق ۾ سيڙپڪاري ڪرو.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٽي ھين محقق</bold> - مفت ھارو اثرائتو ڊيٽاسيٽ ٺاهو، ميزبوني ڪرو ھين شيئر ڪرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسان دوستي</bold> - مقامي جدت ھين ترقي ني تيز ڪريا ھارو ڊيٽا سيٽ ري تخليق ني اسپانسر ڪرو
+# icon is an arrow that points to the right
+get-in-touch-button = رابطو ڪرو<icon></icon>
+# Partners section
+our-partners-include = امو را ساٿي ڀيرا ھي ...

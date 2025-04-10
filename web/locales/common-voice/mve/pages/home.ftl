@@ -24,6 +24,7 @@ answer-questions-coming-soon = سوالون را جواب ڏيو <small>(جلد�
 review-transcriptions-coming-soon = لکوڙي رو جائزو ليو <small>(جلدِي آڻ آݪو ھيَ)</small>
 add-questions = سوال جمع ڪرو
 add-questions-coming-soon = سوال شامل ڪرو<small>ڇيڪوآڻ آݪو ھيَ</small>
+transcribe-audio-coming-soon = آڊِيو نَي لکو <small>(جلدِي آڻ آݪو ھيَ)</small>
 
 ## MENU ITEMS TOOLTIPS
 
