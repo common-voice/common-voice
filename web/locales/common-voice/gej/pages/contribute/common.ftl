@@ -34,7 +34,7 @@ submit-form-action = sɔ nú ɖó ɖa.
 
 report = gblɔ̃̀ nyà ɖo ɖa.
 report-title = ŋlɔ̀ nu ɖo ɖa.
-report-ask = tagbã kɛwo mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o. / kuxe kɛwo mì lě ɖo  sɔ kùɖo nyàgbè kèya ŋúti o.
+report-ask = tagbã kɛwo ye  mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o. / kuxe kɛwo ye mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o.
 report-offensive-language = gbɔɖìàmènyàwo/ kplamàsenyàwo/ àmèmàbùmàbǔgbèwo.
 report-offensive-language-detail = gbɔɖìamènyǎwo lè nyàgbè a mè/ èzũ̀wo lè nyàgbè a mè.
 report-grammar-or-spelling = gbèŋutisègbàdàdǎ/ nuŋɔ̀ŋlɔ̌gbàdàdǎ.
