@@ -1,5 +1,7 @@
 ## Languages Overview
 
+language-section-in-progress = ترڪيٚ ميݩ
+language-section-launched = پڌريٚ ڪئيٚ وهُڙيٚ (لآنچ ڪئيٚ وهُڙيٚ)
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = آکريٚ اپڊيٽ
 languages-show-more = وڌيٚڪ ڏسو

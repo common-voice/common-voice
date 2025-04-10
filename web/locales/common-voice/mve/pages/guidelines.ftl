@@ -111,6 +111,12 @@ adding-questions = سوال جمع ڪرو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ڪِي ھيڪ سُٺو سوال ٺائيَ ھيَ؟
+what-makes-a-good-question-explanation = عوامي شرڪت ريَ مواد ري سيٽ ھارو ھيڪ سُٺو سوال ھوڻ کپيَ:
+what-makes-a-good-question-explanation-criteria-1 = ݾمجڻ ھان جواب ڏيڻ ۾ آسان ھو
+what-makes-a-good-question-explanation-criteria-2 = عام طور تيَ ميل کاتا ھوئيَ
+what-makes-a-good-question-explanation-criteria-3 = نقصان آݪي يا خراب ٻولِي استعمال نِي ڪرو، يا طلب نِي ڪرو
+what-makes-a-good-question-tip = ٿيَ شايد مختلف ماحول ۾ ڊومينز نيَ وڌاڻ تيَ غور ڪرڻ چاھو ھو۔
 easy-to-understand = آسان ھيَ سمجھڻ ھارو
 spelling-and-pronunciation = اسپيلنگ ھان اوقاف
 spelling-and-pronunciation-explanation = ھِجيَ ٺيڪ لکو ھان ٺيڪ نشانين  ڏيو

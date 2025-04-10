@@ -65,6 +65,11 @@ sentence-domain = جملي رو ڊوميٚن
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = ايٚ جآم زرُوريٚ اهي تا سڀ لکل جملآ <publicDomain> آوآميٚ ڊوميٚن </publicDomain>(<cc0>cc0</cc0>) جيٚݩ ڪآمن وآئيٚس ڊيٽآ سيٽ ڇڏي دو سيٚ سيٚ 0 ري لآئيٚسنس ري هيٺ۔  جيڪڏهيݩ اڀآݩ کي پڪ اهي تا سرڦ هَڪ جملو اپلوڊ ڪرو، ائيٚݩ هميشآ لآڳآپيل هوآلو شآمل ڪرو.
+public-domain-explanation-2 = هَڪ مڦيٚد تڪريٚر ريٚ سُڃآڻپ وآري انجڻ ٺآهڻ لآ بهتريݩ جمآ آم ٻوٚليٚ، جديٚد ٻوٚليݩ اهيݩ. جملآݩ کي ٺآهڻ ميݩ مدت لآ ڪجھ کيآل اهيݩ:
+public-domain-explanation-3 = پنڊ جآݩ پنڊريݩ دوستآݩ جآݩ ٻوٚليٚ برآدريٚ سآݩ گڏ جديٚد، آم ڳآلهآئڻ وآرآ جملا ٺآهو - مسآل تور 'لکڻ-اي-ٿُون' وسيٚلي.
+public-domain-explanation-4 = ليکآݩ، ڊرآمآ نگآرآݩ جآݩ اسڪريٚن رآئٽرآݩ سآݩ رآبتو ڪرو ائيٚݩ پُڇو تا ڪيٚ اهي پنڊري ڪم رو هَڪ ننڍڙو هيسو آوآميٚ ڊوميٚن لآ وڪڦ ڪرڻ لآ تيآر هُݩدآ.
+public-domain-explanation-5 = ايهڙي موآد کي  لݩڀو جيٿ ڪآپڦ رآئيٚٽ اڃآݩ تآئيٚݩ لآڳو نآ ٿئي۔ - مسآل تور گهڻآ ڪتآب جيڪي 1920 کآݩ اڳ ڇپيآ وهُڙآ هُݩدآ
 citing-sentences-subheader-websites = ويب سآئيٚٽس
 citing-sentences-subheader-websites-explanation = اڀيٚݩ ويب سآئيٚٽ با شآمل ڪري سگهو دآ، مسآل تور ”ڪآمن وآئيٚس۔https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = تآليٚميٚ  هوآلو
@@ -79,7 +84,9 @@ adding-sentences-subheader-spelling-punctuation = اکر ائيٚنٚ نشآني
 adding-sentences-subheader-spelling-punctuation-explanation = جملا سهيٚ لکيل هوڻ کپي
 adding-sentences-subheader-speakable = ڳآلهآڻ ري ڪآبل
 adding-sentences-subheader-numbers = انگ
+adding-sentences-subheader-abbreviations = مکتليٚڦ ائيٚݩ الگ الگ
 adding-sentences-subheader-punctuation = نشآنيٚوݩ
+adding-sentences-subheader-special-characters = کآس اکر ائيٚݩ گير مُلڪيٚ اکر
 adding-sentences-subheader-offensive-content = نآ پڙهڻ وآريٚ لکت
 reviewing-sentences-explanation-4 = جيڪڍهنٚ اڀآنٚ وٽ جآنچڻ لآ جملآ ڪونهي تي ٻيآ جملا شآمل ڪرو
 

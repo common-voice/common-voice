@@ -40,3 +40,17 @@ not-found-page-header = ڪوندو  لنٚڀي
 not-found-page-content = جيڪو سڦهو اڀيٚنٚ لنٚڀي رهيآ اهونٚ ڪوندو ملي
 # Privacy and Terms checkbox
 accept-privacy-and-terms = آئونٚ رآزيٚ اهآنٚ ڪآمن وآئيٚس ري<termsLink> اسولآنٚ </termsLink>ائيٚنٚ<privacyLink> زآتيٚ نوٽيٚس </privacyLink>
+# Locales
+bsy = سبآ بسيٚآ
+cdo = ڦآزوٚ
+cpx = هݩگ هوآ
+en = انگريزيٚ
+fr = ڦرآنسيٚ
+hch = ويٚڪسريٚڪآ
+kzi = ڪيلآبيٚت
+mbf = بآبآ مآلي
+mmc = ميٚچوآڪن مآزآهوئآ
+pez = اوڀرندي پنين
+pne = اُولهندي پنين
+tr = ترڪيٚ
+xkl = ڪينيآ
