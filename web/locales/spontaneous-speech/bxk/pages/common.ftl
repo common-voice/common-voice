@@ -32,8 +32,20 @@ request-new-language = Saaba Ènganikha èmbya
 respond-to-prompt = Ilahmo
 transcribe = khuLeckah
 check-transcriptions = Ilakamo
+question = Liswaali
 
 ## Not Found Page
 
-not-found-page-header = Sibinyolekha tah
+not-found-page-header = Sebinyolekha tah
 not-found-page-content = Epage isii'oli khoenjanga sebinyolekha tah
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Ifukilisa kamakono kabuli ngeli<termsLink>Terms</termsLink> nende <privacyLink>Privacy Notice</privacyLink>
+# Locales
+bsy = Sabah Bisaya
+cdo = Fuzhou
+cpx = Heng Hau
+en = Kingeresa
+fr = French
+hch = Wixarika
+kzi = Kelabit
+mbf = Baba Malay

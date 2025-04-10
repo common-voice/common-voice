@@ -96,6 +96,7 @@ adding-sentences-subheader-punctuation = اوقاف
 adding-sentences-subheader-punctuation-explanation = خاص علامتون ھان اوقاف صرف تڏي شامل ڪرڻ کپيَ جڏي بلڪل ضروري ھوئيَ۔ مسال طور، ھڪ اپوسٽروف انگريزي اکر جون  “don’t” ھان “we’re” ۾ شامل ڪيو جائيَ ھيَ ھان ايئيَ نيَ ماخز متن ۾ شامل ڪيو جائيَ، پر اي ممڪن ڪوني ڪہ ٿونيَ ڪڏي ڀي  “@”  يا  “#.” جھڙِي خاص علامت رِي ضرورت پڙي ھي۔
 adding-sentences-subheader-special-characters = خاص نشانيَ ھان پرڏيھي اکر
 adding-sentences-subheader-special-characters-explanation-1 = آکر ٻولڻ آݪِي ٻولِي ۾ صحيح ھوڻ کپيَ۔ مسال طور  “ж” روسي اکرون ۾ ھيڪ آکر ھيَ پر انگريزي ۾ ڪڏي ڀِي استعمل ڪوني ھوئيَ ھان تڏي ڪڏي ڀِي انگريزي ماخز متن ۾ ظاھر نِي ھوڻ کپيَ۔
+adding-sentences-subheader-special-characters-explanation-2 = ٻوليَ مقامي ڪرڻ ريَ ٽئيم اضافي گھرجون ھون ڀيݪا آپرا تصديق را قاعدا راکيَ ݾگيَ ھيَ۔ جڏي ڪيَ ٻولِي ھارو ڪو مخصوص تصديق فائل ڪونِي ھي، تو انگريزي قاعدا حصو ليڻ آݪون ھارو ڏيکاڙيا جائي۔
 adding-sentences-subheader-offensive-content = نا پسند مواد
 reviewing-sentences-explanation-4 = جيَ ٿون ڪنيَ جائزو ليڻ ھارون جُملا ختم ھوئيَ جائيَ تو، مھربونِي ڪرئَ وڌيڪ جُملا ڀيڙا ڪرڻ ۾ مھورِي مدد ڪرو۔
 
