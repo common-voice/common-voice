@@ -51,6 +51,8 @@ thanks-for-voice-toast-error = Cha ikíli nóchali juláwa alí raíchali sí
 first-cta-gender-select-default-option = Chápi bilé aniwámi
 first-cta-gender-select-help-text =
     .label = Chi mi riká anináli jápi mi riká jú mukí wela rejoí
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Matétera ba kíti kómi nejámi mujé raíchala!
 
 ## MENU ITEM TOOLTIPS
 

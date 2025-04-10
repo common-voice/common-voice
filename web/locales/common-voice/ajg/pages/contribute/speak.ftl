@@ -44,6 +44,9 @@ first-cta-header-text = Akpe ɖo mio gbewo kpɔdonu sɔsɔna ta
 first-cta-subtitle-text = e ji bé mia má nyanyanana kuɖe tɔwo nuxuxoxo ŋu a
 why-donate = nyitaɖo biabia hunu o
 why-donate-explanation-1 = nyanyanana ceɖewo zanzan le faaa ,de.  Ne e ji lɔ, eyí a zɛn. Ne mi má mio dɔwo lɔ́, mi wla nɔ́ ɖokuishi nyanyananawo yí mi kpɔ́nɔ́ bé nyanyananawo shigbe be ŋkɔ kuɖo nɔxujeshi e-mail dé canɔ ka kuɖo nyanyananawo le amewo gbɔsɔsɔ xexlẽme  shigbe be exwe alo jijime.
+why-donate-explanation-2 = Né mɔɖaŋu né téŋ  wɔ dɔ nyuieɖe na ameshiame lɔ, dɔwɔnu cewo yí  mɔɖaŋú dɔwɔlawo zanɔ lɔ , ɖo lá ɖe ame sugbɔwo ɖe go. Le kpɔɖeŋu me ɔ ne woɖe sɔ nyɔnutɔde dé me kuɖe egbe tɔxɛ lɔ?????????????????????????????????????
+add-information-button = Sɔ nyanyananawo kpi
+continue-speaking-button = Oo akpe, yi nuxuxoxoɔ jí
 
 ## MENU ITEM TOOLTIPS
 
