@@ -49,6 +49,8 @@ add-information-button = Sɔ nyanyananawo kpi
 continue-speaking-button = Oo akpe, yi nuxuxoxoɔ jí
 create-profile-text = e ji be alé tɔwo nyanyananawo ɖɛ ?<createProfile> Hun ŋtinyɔ ɖeka</createProfile>
 thanks-for-voice-toast = Akpe nɔ́ tɔ gbeɖiɖi nyanyananawo
+thanks-for-voice-toast-error = Le gbeɖiɖi nyanyanana sɔsɔɖál lɔ me lɔ, vodada deká vá dó ŋme ɖaɖa
+first-cta-gender-select-default-option = Wɔ cancan ɖeká
 
 ## MENU ITEM TOOLTIPS
 

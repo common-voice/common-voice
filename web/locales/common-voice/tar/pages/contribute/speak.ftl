@@ -53,11 +53,17 @@ first-cta-gender-select-help-text =
     .label = Chi mi riká anináli jápi mi riká jú mukí wela rejoí
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Matétera ba kíti kómi nejámi mujé raíchala!
-second-cta-subtitle-text = Bilé cuenta níwika, ayena a'a oméri che newáya nóchali a'lí ché'a inára biléana peréami yua jápi ruméa aboní nirá'a
+second-cta-subtitle-text = Bilé perfil níwika, ayena oméro inésika newáa nocháli a'lí yua chéa siráa biléana comunidad peréami jápi ruméa abói kítira
 already-have-an-account = Mám níwi bilé cuenta?<iniciar sesión> Chóta sesión</iniciar sesión>
+create-profile-button = Newá bilé perfil
+# IMAGE TAGS
+img-alt-success-checkmark = Uché bilé bawéraliami jápi a'la a'a jú
+# menu item
+read-sentences = Wé leeri échi raíchali
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = We leeri raíchali, nejéi échi jápi nári
 
 ## MENU ITEM ARIA LABELS
 
