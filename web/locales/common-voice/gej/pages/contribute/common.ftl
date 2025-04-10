@@ -49,6 +49,7 @@ report-other-comment =
     .placeholder = nupopòposonu àlo àmè ŋúti.
 success = dɔwɔ̀wɔ̌ a jè éji / dɔwɔ̀wɔ̌ a wu nu nyɔɛɖé.
 continue = yì èji.
+report-success = wo ɖo tagbã ɖo ɖa
 
 ## Speak & Listen Shortcuts
 
@@ -65,6 +66,7 @@ shortcut-rerecord-toggle = ɖèka sɔ yì àtɔ̃.
 shortcut-rerecord-toggle-label = trɔ́ lé nyà.
 shortcut-discard-ongoing-recording = àɖàŋùɖemɔnututulɔ̀vi/ àlɔ̀mèkàpòmɔnututulɔ̀vi.
 shortcut-discard-ongoing-recording-label = tutu nyàlélé kè lě yì éji a.
+shortcut-submit = numèɖoɖo
 shortcut-submit-label = ɖo nyàléléwo ɖo ɖa.
 request-language-text = ɖe gbè kè wò dona  mu kpɔ lè common Voice ji ò a.
 request-language-button = sɔ gbèɖé ɖo ŋùkumè na àmè.
