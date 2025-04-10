@@ -11,6 +11,11 @@ country-of-residence-label = ملک/ ڤریمدان علاقو
 country-of-residence-placeholder =
     .placeholder = ملک/ڤریمدا علاقو نوشا
 why-are-you-asking = تو چی پرسیتے؟
+thank-you-for-your-information = دے آواز معلوماتے پے لیا دیر تو شکریہ۔
 
 ## Gender dropdown
 
+male_masculine = مڑ
+female_feminine = ژینگو
+intersex = مڑ تا ژینگو
+transgender = مڑ تا ژینگو
