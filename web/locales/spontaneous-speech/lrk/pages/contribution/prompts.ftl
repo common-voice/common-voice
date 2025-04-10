@@ -21,3 +21,9 @@ submit-all-button = سڀ جما ڪر
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = اي صفحا ني استعمال ڪرووُ  ھيکو.
+learn-how-to-use-prompts-explanation = بس ڪوئي جملو ۾ قدرتي طور تي ممڪن طور تي جواب ڏيو. پڪ ڪرو ڪي  تمو ري ٻولي احترام واري ھين بي جارحاڻي هوئي.
+learn-how-to-use-prompts-guidance = ڪليڪ<guidanceLink>ايئي</guidanceLink>اي صفحا ني استعمال ڪرين ھيکيا ھارو
+learn-how-to-use-transcribe = ٽرانسڪرائيب ڪرووُ ھيکو
+learn-how-to-use-transcribe-explanation = او مينک جي ڪيدو او بلڪل لکو، جي ۾ 'um'، يا 'errr' جيوا اکر ڀيرا ھي
+learn-how-to-use-transcribe-guidance = ڪليڪ<guidanceLink>ايئي</guidanceLink>اي صفحا ني استعمال ڪرين ھيکيا ھارو
+learn-how-to-use-check-transcript = ٽرانسڪرپشن چيڪ ڪروي ھيکو
