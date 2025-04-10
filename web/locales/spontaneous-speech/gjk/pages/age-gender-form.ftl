@@ -20,3 +20,5 @@ male_masculine = مرڌ ڪان آۮمِي / مذڪر
 female_feminine = ٻائِي / مونث
 intersex = انٽرسيڪس (آۮمِي انين ٻائيڙِي ٻيئان نيون خاصيتون ھوئي)
 transgender = کۮڙو (جنس تبديل ھوون)
+non-binary = نون بِينري
+do_not_wish_to_say = ڪيوا نٿِي ماڳتو
