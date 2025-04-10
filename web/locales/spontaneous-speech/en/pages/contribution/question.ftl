@@ -10,7 +10,7 @@ add-question-success-toast-message =
         *[other] of {$totalQuestions} questions collected
     }
 add-question-error-message = Upload failed, please retry.
-add-question-too-many-questions-error = Exceeded 500 questions. Reduce number of questions and retry.
+add-question-too-many-questions-error = Exceeded 25 questions. Reduce number of questions and retry.
 partial-questions-upload-message = 
     {$uploadedQuestions} {$totalQuestions -> 
         [one] of 1 question collected
