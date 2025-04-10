@@ -3,8 +3,8 @@ speak-now = eteŋ xo nuxú
 speak-subtitle = kɔ gbe yi ji, da xwa
 record-cta = Tɔ enyɔwo lélé
 record-platform-not-supported = Kafla, tɔwo dɔwɔasɖa dé sɔgbe hɔɖo o
-record-platform-not-supported-desktop = zan tɔwo dɔwɔnu ɖaŋuɖemɔ
-record-platform-not-supported-ios-non-safari = kpɔ iOS gɔme; ne nayijí kuɖo Safari nɔ enulélé
+record-platform-not-supported-desktop = Sɔ kuɖo dɔme ɖaŋuɖemɔbuwoŋú lɔ́, zan nɛt nuxɔxɔ yoyutɔ lɔ́
+record-platform-not-supported-ios-non-safari = Le iOS gɔme, tekpɔ ayijí kuɖo Safari nɔ enyɔleɖɛwo
 record-must-allow-microphone = ɖemɔ né woatéŋ zan nuxumɔ
 record-no-mic-found = nuxumɔɖe ɖé lɛ o
 record-error-too-short = enu léléɛ hwedo ɖoɖú
@@ -34,8 +34,8 @@ review-submit-msg = Akpe ɖo eny,ɔleɖiwo ta<lineBreak></lineBreak>Viɛ a té�
 review-recording = glo nu me kpɔ, ku nu me kpɔ
 review-rerecord = Trɔalé nyɔleɖiwó
 review-cancel = Gli nu sɔsɔ dáɖá lɔ́
-review-keep-recordings = jra enu lélélɔwo ɖó daɖɛ
-review-delete-recordings = Cucu nyɔleɖiɛwo
+review-keep-recordings = jra enyɔleɖɛwo ɖó daɖɛ
+review-delete-recordings = Cucu enyɔleɖɛlɔ́wo
 
 ## MENU ITEM TOOLTIPS
 
