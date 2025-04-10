@@ -123,9 +123,15 @@ hero-title = ٽيڪنالاجي جي تمو ري ٻولي ٻولي ھي
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>ڇا AI صرف دنيا ري ڪوئي ٻوليو ھارو ڪوم ڪروو کپي؟</bold>
 hero-subtitle-2 = امو ريي ٻولي امو ري ڪهاڻي هي، امو ري برادري هي، امو ري ثقافت هي. آوہ  تو ڊيٽاسيٽ ٺاهو جي امي دنيا ۾ جوو چاهون ھون.
+# icon is an arrow that points downwards
+get-started = شروع ڪرو<icon><icon>
 
 ## Action items section
 
+action-items-section-title = ڪامن وائيس ڪميونٽي ري اڳواڻي ۾ ڊيٽا ٺاهيا ھارو ايڪ مفت، اوپن سورس پليٽ فارم هي.
+action-items-section-subtitle = ڪوئي ڀي مينک  ٽيڪسٽ ھين اسپيچ ڊيٽاسيٽس شيئر ڪري، ٺاهي ھين ڪيوريٽ ڪري آپري ٻولي ني محفوظ ڪري، بحال ڪري ھين اونچي ڪري سگهي ھي
+scripted-card-header = اسڪرپٽ ھويوڙي تقرير
+scripted-card-content = آپري ٻولي ۾ جملا اونچي آوازمون پڙهو ھين دنيا ۾ سڀ مون وڌيڪ متنوع عوامي شرڪت واري تقرير ڊيٽاسيٽ ۾ حصو ليو.
 
 ## Community section
 
