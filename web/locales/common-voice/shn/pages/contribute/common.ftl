@@ -30,6 +30,10 @@ submit-form-action = သူင်ႇ
 ## Reporting
 
 report-offensive-language = ၽႃႇသႃႇဢၼ်ဢမ်ႇၵိုင်ႇလႅပ်ႈ
+report-different-language = တၢင်ႇၽႃႇသႃႇ
+report-different-language-detail = တႅမ်ႇဝႆႉပဵၼ်တၢင်ႇၽႃႇသႃႇ ဢၼ်ဢမ်ႇၸႂ်ႈၽႃႇသႃႇဢၼ်ၵဝ်ၶႃႈလၢတ်ႈ။
+report-difficult-pronounce = လၢတ်ႈသဵင်ဢွၵ်ႇယၢပ်ႇ
+report-offensive-speech = ၵႂၢမ်းလၢတ်ႈဢမ်ႇၵိုင်ႇလႅပ်ႈ
 report-other-comment =
     .placeholder = ၶေႃႈႁၼ်ထိုင်
 continue = သိုပ်ႇထႅင်ႈ
@@ -73,6 +77,7 @@ contribution-for-example = ပိူင်တႅၵ်ႈ
 contribution-misreadings-title = လူဢၢၼ်ႇၽိတ်း
 contribution-misreadings-description-extended-list-2 = တူၵ်းႁၢႆ <strong>'s'</strong> တီႈၽၢႆႇလင်ၶေႃႈၵႂၢမ်း (တွၼ်ႈတႃႇၽႃႇသႃႇဢိင်းၵလဵတ်ႈ)
 contribution-misreadings-example-7-title = ႁဝ်းတိုၵ်ႉတေဢွၵ်ႇၵႃႇသိုဝ်ႉၵေႃႇၾီႇ
+contribution-background-noise-example-2-explanation = [ၶေႃႈၵႂၢမ်းမၢင်တွၼ်ႈဢမ်ႇလႆႈယိၼ်း]
 contribution-background-voices-example-1-explanation = ၸွင်ႇတေမႃးၸွမ်း? <strong>[သဵင်ထႅင်ႈၵေႃႉၼိုင်ႈ]</strong>
 contribution-volume-title = ၸၼ်ႉသဵင်
 contribution-just-unsure-title = ဢမ်ႇမၼ်ႈၸႂ်ၸွင်ႇၸႂ်ႈ?
