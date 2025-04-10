@@ -15,6 +15,17 @@ contribution-picker-tooltip-text = Bichenjja ènganikha ya dataset èsi'oli khor
 change = Chanjja
 coming-soon = Tsinganikha ndala chilecha isaa yosi
 media-recorder-api-not-supported = MediaRecorder yah API sela khuyetanga mu  browser yowotah
+# Toast message that is displayed when an item is skipped
+skipped = ruckah
+audioplayer-header = Wulilisa
+guidelines = Endakilila
+# For the button to report an item
+report-button = Reportah
+# For the button to skip an item
+skip-button = ruka
+submit-button = Èlesha
+contribute = Rungah
+request-new-language = Saaba Ènganikha èmbya
 
 ## Navbar
 
