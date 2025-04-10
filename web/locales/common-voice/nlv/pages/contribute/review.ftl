@@ -43,3 +43,8 @@ sc-criteria-item-1 = Tlajkuiloli moneki kuali okijkuilojkej.
 sc-criteria-item-2 = Tlajkuiloli moneki yetos kuali, mach san ken nesi.
 sc-criteria-item-3 = Tlajkuiloli monekis mach oui se kitenkixtis.
 sc-criteria-item-4 = Tla tlajkuiloli kajki ken moneki, xikpacho kanin kijtoa &quot;Yikuali&quot; moyekma.
+sc-criteria-item-5-2 = Tla tlajkuiloli mach kajki ken moneki, xikpacho &quot;Xikpojpolo&quot; mopochma. Tla mach tikmati kox kuali noso amo, uelis xikpanaui uan xikita okse.
+sc-criteria-item-6 = Tla mach ok onka tlajkuiloli tlen tikmotilis, techpaleui. ¡Xikinmijkuilo okseki!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Xikmotili, <icon></icon>¿okijkuilojkej ken moneki?
+sc-review-rules-title = ¿Okijkuilokej ken yotikijtojkaj moneki?
