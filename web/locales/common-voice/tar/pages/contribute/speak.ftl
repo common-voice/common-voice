@@ -43,6 +43,7 @@ terms-disagree = Keni katúi
 first-cta-header-text = Matétera ba kíti kómi nijíli nóchali newárami
 first-cta-subtitle-text = Achami kanísa iníli nejá bilé raíchali jápi riká mi raichámi ju?
 why-donate = Chi mi olá chiéri narí?
+why-donate-explanation-1 = Jéna raíchali ko binói ikía jú; mujé binói ché newá jápi remi chi rika iláka. Jápi alíti publicaron bileána grupo  échi kériwámi, ayena ya iséni rewála niráa ríka nejáru kíti ke ikípa jépi jú alí ayena ta anelía jápi járe raíchali ke chéa síiro rewála alí correo mapi ríka bamiála jápi binói ma jú
 add-information-button = Che járe raíchali uché
 continue-speaking-button = Ke matétera ba, che raícha
 create-profile-text = Achámi katewánali raíchali?<createProfile> Newá bile perfil</createProfile>
