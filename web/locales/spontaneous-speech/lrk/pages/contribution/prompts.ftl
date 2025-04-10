@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = ٽرانسڪرائيب ڪرووُ ھيکو
 learn-how-to-use-transcribe-explanation = او مينک جي ڪيدو او بلڪل لکو، جي ۾ 'um'، يا 'errr' جيوا اکر ڀيرا ھي
 learn-how-to-use-transcribe-guidance = ڪليڪ<guidanceLink>ايئي</guidanceLink>اي صفحا ني استعمال ڪرين ھيکيا ھارو
 learn-how-to-use-check-transcript = ٽرانسڪرپشن چيڪ ڪروي ھيکو
+learn-how-to-use-check-transcript-explanation = ايڪ ٽرانسڪرپشو ۾ هر اکر يا غير لغوي گفتگو ري آواز ني جھالوي گهرري جي مينک ري مون ڪيدو گيو ھي، جي ۾ ويرجا ڀي ڀيري ھي.
+learn-how-to-use-check-transcript-guidance = ڪليڪ<guidanceLink>ايئي</guidanceLink>اي صفحا ني استعمال ڪرين ھيکيا ھارو
