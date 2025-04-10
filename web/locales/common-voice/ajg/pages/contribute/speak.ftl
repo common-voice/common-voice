@@ -27,7 +27,9 @@ record-abort-title = a ɖegbɔ nɔ enu lélélɔwo kéŋ a
 record-abort-text = Ne esolɔ́, a lá le tɔwo ŋkɔyiyi lɔ me
 record-abort-submit = sɔ enyɔleléwo ɖaɖa
 record-abort-continue = ɖegbɔ nɔ enu lélélɔ́
-record-abort-delete = To le me keŋ á cucu kinyi nú léléwo
+record-abort-delete = Soso kuɖo kinyi nú léléwo pléŋ lɔ́wo cúcú
+review-aborted = enu ɖáɖá majeji
+review-submit-title = le ŋkuví ɖé ŋú ne na sɔ ɖáɖá
 
 ## MENU ITEM TOOLTIPS
 
