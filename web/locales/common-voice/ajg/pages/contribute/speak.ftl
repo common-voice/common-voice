@@ -21,6 +21,13 @@ review-tooltip = le ŋkuví ɖé ŋú ne na li ɖɛ ne vá hian
 share-clip = ma enu ce e lé lɔ́
 share-common-voice = Ma Common Voice
 review-instruction = le ŋkuví ɖé ŋú ne na li ɖɛ ne vá hian
+record-submit-tooltip = né esɔgbe na sɔ ɖáɖá
+clips-uploaded = Klipi yi ka lɔ jí
+record-abort-title = a ɖegbɔ nɔ enu lélélɔwo kéŋ a
+record-abort-text = Ne esolɔ́, a lá le tɔwo ŋkɔyiyi lɔ me
+record-abort-submit = sɔ enyɔleléwo ɖaɖa
+record-abort-continue = ɖegbɔ nɔ enu lélélɔ́
+record-abort-delete = To le me keŋ á cucu kinyi nú léléwo
 
 ## MENU ITEM TOOLTIPS
 
