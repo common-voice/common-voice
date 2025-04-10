@@ -16,3 +16,6 @@ thank-you-for-your-information = معلومات ۮيڌا ۿارُو تمارِي
 
 ## Gender dropdown
 
+male_masculine = مرڌ ڪان آۮمِي / مذڪر
+female_feminine = ٻائِي / مونث
+intersex = انٽرسيڪس (آۮمِي انين ٻائيڙِي ٻيئان نيون خاصيتون ھوئي)
