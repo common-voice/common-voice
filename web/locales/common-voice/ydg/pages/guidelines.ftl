@@ -35,6 +35,8 @@ background-noise-example-1 = ٹرائزیکن استر ڈائناسور۔
 background-noise-example-2 = [ګرفیا] ٹرائزیکن [خوفیا] استر ڈائناسور
 background-noise-example-3 = استر دنو ٹرائزیک[خیفتا/خوفیا]
 background-noise-example-4 = [شور] استر ڈائنوسار[شور]
+background-noise-tip-1 = [پے چروم شور ترے ملن آغوئے]
+background-noise-tip-2 = [نوختیغو پرکند دے غو چے ژیو]
 
 ## Sentence collection nav ids
 

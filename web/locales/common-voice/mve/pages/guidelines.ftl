@@ -89,10 +89,17 @@ adding-sentences-subheader-spelling-punctuation-explanation = جُملو صحي�
 adding-sentences-subheader-speakable = ٻولڻ ريَ لائق
 adding-sentences-subheader-speakable-explanation = سُٺا جُملا فطري ھان ٻولڻ آݪا ھيَ۔ اي ڪيَ ھارو ڀي پڙھڻ ۾ سولا ھوڻ کپيَ۔جون ڪہ آوازون ري نظرييَ ھان جُملون ۾ مختلف اکر اھم ھيَ۔ مھيَ ڀي ڪوشش ڪرون پڙيا ڪہ ريڪارڊنگ جُملون نيَ مھورِي رضاڪار برادري ھارو ممڪن حد تائين دلچسپ ھان مزيدار ٺايو جائيَ۔
 adding-sentences-subheader-numbers = انگ
+adding-sentences-subheader-offensive-content = نا پسند مواد
+reviewing-sentences-explanation-4 = جيَ ٿون ڪنيَ جائزو ليڻ ھارون جُملا ختم ھوئيَ جائيَ تو، مھربونِي ڪرئَ وڌيڪ جُملا ڀيڙا ڪرڻ ۾ مھورِي مدد ڪرو۔
 
 ## Question collection ids
 
+adding-questions = سوال جمع ڪرو
 
 ## Question collection sidebar content
 
+easy-to-understand = آسان ھيَ سمجھڻ ھارو
+spelling-and-pronunciation = اسپيلنگ ھان اوقاف
 spelling-and-pronunciation-explanation = ھِجيَ ٺيڪ لکو ھان ٺيڪ نشانين  ڏيو
+length = ڊيگھ
+dont-add-subheader = نِي شامل ڪرو

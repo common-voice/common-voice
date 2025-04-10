@@ -1,5 +1,6 @@
 ## Home Page
 
+show-wall-of-text = وڌِڪ پڙھون
 help-us-title = جُملون رِي تصديق ڪرڻ ۾ مھورِي مدد ڪرو۔
 speak-goal-text = ڪلِپ ريڪارڊ ھوئيَ گيا
 
