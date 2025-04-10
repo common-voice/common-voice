@@ -30,6 +30,12 @@ record-abort-continue = ɖegbɔ nɔ enu lélélɔ́
 record-abort-delete = Soso kuɖo kinyi nú léléwo pléŋ lɔ́wo cúcú
 review-aborted = enu ɖáɖá majeji
 review-submit-title = le ŋkuví ɖé ŋú ne na sɔ ɖáɖá
+review-submit-msg = Akpe ɖo enu léléwo ta<lineBreak></lineBreak>Viɛ a téŋ dashi ɖé jí kéŋ asɔ enu gɔmetɔ ceɖewo ɖáɖá
+review-recording = glo nu me kpɔ, ku nu me kpɔ
+review-rerecord = Trɔalí
+review-cancel = Gli nu sɔsɔ dáɖá lɔ́
+review-keep-recordings = jra enu lélélɔwo ɖó daɖɛ
+review-delete-recordings = Cucu nyɔleɖiɛwo
 
 ## MENU ITEM TOOLTIPS
 

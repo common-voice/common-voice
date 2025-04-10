@@ -132,3 +132,7 @@ contribution-background-noise-title = Itlaj chalantok
 contribution-background-noise-description = Tiknekij teposmej makimatikan kikakiskej se tlajtoli maski itlaj chalantos inauak akin tlajtoa. Tlasotsonali tlen mach okachi chalantok yikuali; tlatsotsonali non sapanoa chalantok uan mach kitekauilia matikkakikan tlen okijtokej mach kuali.
 contribution-background-noise-description-extended = Tla tlajtoli motsitsikojtok noso chajchalantok, xipojpolo. Maski ijkon, tla mayijki tikkaki nochi tlen moneki, xikkaua.
 contribution-background-noise-example-1-fixed-title = <strong>[Ekxoa]</strong> Timosepan-<strong>[tlatlasi]</strong> -paleuiaj.
+contribution-background-noise-example-2-fixed-title = Timosepan- <strong>[tlatlasi]</strong> -paleuiaj.
+contribution-background-noise-example-2-explanation = [Seki tlajtoli amo uelis tikkakis]
+contribution-background-noise-example-3-fixed-title = <strong>[Itlaj chalani]</strong> mosepan<strong>[itlaj chalani]</strong> -paleuiaj.
+contribution-background-voices-title = Oksekimej nootlajtoaj

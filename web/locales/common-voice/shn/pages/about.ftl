@@ -137,6 +137,8 @@ about-playbook-how-validate-content-4 = ပေႃးဝႃႈၶလိပ်ႉ�
 ## How to access dataset
 
 about-playbook-how-access-dataset = တေၸၢင်ႈၶဝ်ႈထိုင်လႄႈၸႂ်ႉတိုဝ်းၶေႃႈမုၼ်းလႆႈၸိူင်ႉႁိုဝ်?
+about-playbook-how-access-dataset-content-1 = သူၸၢင်ႈၵႂႃႇတီႈ <datasetsPage>ၼႃႈၸုမ်ႇၶေႃႈမုၼ်း</datasetsPage>၊ လိူၵ်ႈလုၼ်ႈလႄႈၽႃႇသႃႇဢၼ်ၶႂ်ႈလႆႈ၊ လႄႈလူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်းလႆႈ! ၾၢႆႇလ်ၸိူဝ်းၼၼ်ႉတေမီး <metadataLink>ၶေႃႈမုၼ်းၵပ်းၵိုၵ်းဢၼ်ၵဵဝ်ႇၶွင်ႈ၊</metadataLink> မိူၼ်ၼင်ႇ ၶေႃႈမုၼ်းသဵၼ်ႈႁူဝ်ၼပ်ႉၵူၼ်းလႄႈၶေႃႈမုၼ်းတႃႇၸႅတ်ႈထွင်။ သူတေလႆႈပၼ်မၢႆဢီးမေးလ်ဢွၼ်းတၢင်းတေလူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်း။
+about-playbook-how-access-dataset-content-2 = ပေႃးဝႃႈသူတိုၵ်ႉၸွမ်းႁႃၶိူင်ႈမိုဝ်းတႃႇတေၶူင်ႁဵတ်းဢွၵ်ႇမေႃႇတႄႇလ် ASR သူၸၢင်ႈၵပ်းသိုပ်ႇၸွမ်းၵူၼ်းတၢင်ႇၵေႃႉလႆႈၼႂ်းတူင်ႇဝူင်း <discourseLink>တၢင်း Discourse</discourseLink>။
 
 ## How are decisions made
 
