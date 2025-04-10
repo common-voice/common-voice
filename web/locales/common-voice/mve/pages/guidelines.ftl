@@ -98,7 +98,12 @@ adding-sentences-subheader-special-characters = خاص نشانيَ ھان پر�
 adding-sentences-subheader-special-characters-explanation-1 = آکر ٻولڻ آݪِي ٻولِي ۾ صحيح ھوڻ کپيَ۔ مسال طور  “ж” روسي اکرون ۾ ھيڪ آکر ھيَ پر انگريزي ۾ ڪڏي ڀِي استعمل ڪوني ھوئيَ ھان تڏي ڪڏي ڀِي انگريزي ماخز متن ۾ ظاھر نِي ھوڻ کپيَ۔
 adding-sentences-subheader-special-characters-explanation-2 = ٻوليَ مقامي ڪرڻ ريَ ٽئيم اضافي گھرجون ھون ڀيݪا آپرا تصديق را قاعدا راکيَ ݾگيَ ھيَ۔ جڏي ڪيَ ٻولِي ھارو ڪو مخصوص تصديق فائل ڪونِي ھي، تو انگريزي قاعدا حصو ليڻ آݪون ھارو ڏيکاڙيا جائي۔
 adding-sentences-subheader-offensive-content = نا پسند مواد
+adding-sentences-subheader-offensive-content-explanation = جيَ جُملو خراب يا پريشان ڪرڻ آݪو ھيَ۔ مسال طور واضخ مواد ريَ ڪريَ، يا مھورِي<communityGuidelines> برادري رِي شرڪت ريَ ھدايتون رِي ڪيَ ٻيجي خلاف ورزي ريَ ڪري</communityGuidelines>۔ ٿونيَ سزا رد ڪرڻ کپيَ۔ ٿيَ مسئليَ نيَ وڌاڻ ھارو<emailFragment>commonvoice@mozilla.com</emailFragment>  تيَ مھون ھون رابطو ڪريَ ݾگو ھو۔
+reviewing-sentences-explanation-1 = جيَ جُملو ماٿيَ ڏينوڙي معيار تيَ پورو اُتري ھي، تو ”ھويَ” بٽڻ تيَ ڪلِڪ ڪرو۔
+reviewing-sentences-explanation-2 = جيَ جملون ماٿيَ ڏينوڙيَ معيار تيَ پورو نِي اتري تو ”نا” بٽڻ ڪلِڪ ڪرو۔
+reviewing-sentences-explanation-3 = جيَ ٿونيَ جمليَ ريَ باريَ ۾ پڪ ڪونِي، تو ٿيَ ايئيَ نيَ ڇوڙيَ ٻيجيَ جُمليَ تيَ جائيَ ݾگو ھو۔
 reviewing-sentences-explanation-4 = جيَ ٿون ڪنيَ جائزو ليڻ ھارون جُملا ختم ھوئيَ جائيَ تو، مھربونِي ڪرئَ وڌيڪ جُملا ڀيڙا ڪرڻ ۾ مھورِي مدد ڪرو۔
+domain-explanation = ڊومين جُمليَ ريَ موضوع ڏيھا اشارو ڪريَ ھيَ۔ ھڻو، ٿيَ ھيٺي ڏينوڙي مون ھون چونڊ ڪريَ ݾگو ھو:
 
 ## Question collection ids
 
