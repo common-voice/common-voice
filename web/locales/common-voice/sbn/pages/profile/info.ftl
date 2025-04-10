@@ -1,5 +1,32 @@
 ## ProfileForm
 
+profile-form-age =
+    .label = اُمر
+profile-form-gender-2 =
+    .label = جنس
+hidden = لڪآئيل
+visible = ڏسڻ لآ
+native-language =
+    .label = پنڊريٚ ٻوٚليٚ
+profile-form-submit-save = مهڦوز ڪرو
+profile-form-submit-saved = مهڦوز ڪئيل
+male_masculine = مڙس جآنٚ مڙد
+female_feminine = مآئيٚ
+intersex = جنٚهنٚ مينٚ ٻئيونٚ (مآئيٚ۔مڙد) ري کآسيٚٽينٚ هوئينٚ۔
+transgender = کڌڙو
+non-binary = گير بآئنريٚ
+do_not_wish_to_say = ڪهآڻ ڪوندو گُهرآنٚ
+# Gender
+other = ٻيآ
+why-profile-title = پُروڦآئيٚل ڪنٚهنٚ لآ؟
+dashboard = ڊيش بورڊ
+build-profile = پُروڦآئيٚل ٺآهو
+avatar = پُروڦآئيٚل ريٚ تسويٚر
+goals = مڪسد
+settings = سيٽيٚنگ
+edit-profile = پُروڦآئيٚل کي وري سهيٚ ڪرو (پُروڦآئيٚل کي ايڊيٚٽ ڪرو)
+profile-create-success = ڪيآمآب، پُروڦآئيٚل ٿهي وهُڙيٚ
+profile-close = بند ڪرو
 login-identity = لوگ ان ريٚ سُڃآڻپ
 login = لوگ ان
 edit = وري سهيٚ ڪرو (ايڊيٚٽ)

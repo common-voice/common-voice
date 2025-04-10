@@ -16,3 +16,4 @@ thank-you-for-your-information = Wanyala lwe burume bowo.
 
 ## Gender dropdown
 
+do_not_wish_to_say = Senenya khu lomaloma tah

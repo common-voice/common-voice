@@ -11,3 +11,11 @@ personally_identifiable_information-detail = Ècontent èyi èliimo bubakha bwom
 personally_identifiable_information-answer-detail = Ècontent yinno èlikhereba burume bwa personally identifiable bubuli silala nende khumanyikha khwo mumdu, kabari lisina, email address, èsi wamila, ènamba èyesipande, oba ènumber yelusiimu.
 report-other-comment =
     .placeholder = Comment
+# Label for textarea in report modal
+other = siisindi
+report-error = Èrror èkholekhe nga khorayo èriportah
+# Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
+continue = Khuendeleae
+# Header for report modal after successful reporting
+success = Success
+report-success-message = Èriportah bakibirishemo succesfully

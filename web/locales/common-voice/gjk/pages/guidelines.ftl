@@ -109,6 +109,10 @@ domain-explanation = ڍومينَ جُملا نا مضمونَ ڪور اِشا�
 
 ## Question collection ids
 
+adding-questions = سوال شامِل ڪرو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ۿڦرو سوال چيم ٺۿائيَ سي؟
+what-makes-a-good-question-explanation = عوامِي شِرڪت نِي ڍيٽاسيٽس ۿارُو ايڪ ۿڦرو سوال هووو زويئين۔
+what-makes-a-good-question-explanation-criteria-1 = آرام ٿِي ۿمزو انين جواٻ ڄو تڪڙِ نا ڪرو۔
