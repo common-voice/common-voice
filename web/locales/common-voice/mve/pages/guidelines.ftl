@@ -134,3 +134,5 @@ offensive-content-sensitive-information-explanation-explanation-1 = سوال ج�
 offensive-content-sensitive-information-explanation-explanation-2 = اھڙا سوال جڪو نفرت آݪِي وات يا ٻيجا جانبدار يا ناگوار جزبات پيدا ڪريَ ݾگيَ ھيَ
 offensive-content-sensitive-information-explanation-explanation-3 = اھڙا سوال جڪو ڪينيَ حساس، امڪوني ٽور تيَ متحرڪ ڪرڻ جوابون نيَ شيئر ڪرڻ رو سبب ٺئيَ ݾگيَ ھيَ۔
 example-questions-subheader = مسالي سوال
+example-questions-explanation-1 = ٿيَ ايئيَ شيٽ ۾ <examplePromptsLink>120 مسال پرامپٽس جوئيَ ݾگو ھو۔</examplePromptsLink>
+example-questions-explanation-2 = جيَ ٿيَ گھاتڻ ھارو سوالون رو ھيڪ حصو جمع ڪراڻ چاھو ھو، تو ٿيَ <githubLink>مھورِي<githubLink>زريعي اي ڪري ݾگو ھو يا آپرِي لسٽ <emailFragment>commonvoice@mozilla.com</emailFragment> تيَ اي ميل ڪريَ ݾگو ھو۔
