@@ -145,6 +145,8 @@ privacy = လွင်ႈပဵၼ်သုၼ်ႇတူဝ်
 terms = ၶႅပ်ႇလႅၼ်
 cookies = ၶုၵ်ႇၵီႇသ်
 faq = ၶေႃႈထၢမ်ဢၼ်ၵႆႉထူပ်း
+documentation = ၵၢၼ်ႁဵတ်းၽိုၼ်လိၵ်ႈ
+content-license-text = လွၼ်ႉလိူင်ႈၸိူဝ်းၼႆႉယူႇပႃႈတႂ်ႈ <licenseLink>မၢႆၾၢင် Creative Commons</licenseLink>
 share-title = ၸွႆႈႁဝ်းၶႃႈႁႃၵူၼ်းတေလူႇတၢၼ်းပၼ်သဵင်ၶဝ်
 share-text = ၸွႆႈသွၼ်ၶိူင်ႈၸၢၵ်ႈဝႃႈၵူၼ်းလၢတ်ႈသဵင်ဢွၵ်ႇၸိူင်ႉႁိုဝ်၊ လူႇတၢၼ်းပၼ်သဵင်သူတီႈ { $link }
 link-copied = ထုတ်ႇဢဝ်ႁဵင်းၵွင်ႉယဝ်ႉ
@@ -166,3 +168,5 @@ not-available-abbreviation = ဢ/မ
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>ႁဝ်းၶႃႈလူဝ်ႇ</mark><br/><mark>တၢင်းၸွႆႈထႅမ်တီႈသူ!</mark>

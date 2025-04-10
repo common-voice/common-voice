@@ -141,3 +141,7 @@ contribution-background-voices-description-extended = Tla tlajtoli motsitsikojto
 contribution-background-voices-example-1-title = Tejuan timosepanpaleuiaj. <strong>[san se tlapoua]</strong>
 contribution-background-voices-example-1-explanation = ¿Kox tiuits? <strong>[okse kinotsa]</strong>
 contribution-volume-title = Kanachi chikauak tlajtoaj
+contribution-volume-description = Mach tinochtin san se tlamantli titlapouaj, mach nochtin chikauak tikinkakis. San xikpojpolo tla sapanoa chikauak otlajto uan mach tikajsikamati noso (nin okachi mochiua) san ichtaka otlajto uan san tikajsikamati tla tikita tlen ijkuilijtok.
+contribution-reader-effects-title = Kenijki kitlajtoltia
+contribution-reader-effects-description = Kanaj nochtin san kuali tlajtoskej. Noijki, uelis tikselis maski tsajsis, ichtakatlajtos noso kipajpatla ken tlajtoa. Xikpojpolo tla tlakuikas noso tla akin melauak tlajtoa yen se tepostli.
+contribution-just-unsure-title = ¿Mach tikmati tlenon tikchiuas?
