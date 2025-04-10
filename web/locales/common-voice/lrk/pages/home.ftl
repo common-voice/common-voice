@@ -178,6 +178,12 @@ explore-datasets = ڊيٽا سيٽ ري جويا ري ڪريو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کليوڙي، ڪميونٽي ري اڳواڻي ۾ ڊيٽاسيٽس ري حمايت ڪرو
+read-sentences-link = جملا پڙھو
+validate-readings-link = پڙهڻيا ري تصديق ڪرو
+contribute-link = ٽيڪسٽ ڪورپس ۾ حصو ليو
+answer-questions-link = سوال جواب
+transcribe-answers-link = جوابو ري نقل ڪرو
 
 ## Partner section
 
