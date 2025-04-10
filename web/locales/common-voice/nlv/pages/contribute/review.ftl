@@ -50,3 +50,6 @@ sc-review-instruction = Xikmotili, <icon></icon>¿okijkuilojkej ken moneki?
 sc-review-rules-title = ¿Okijkuilokej ken yotikijtojkaj moneki?
 sc-review-empty-state = Axkantsin mach onka tlajkuiloli tlen tikmotilis ika nin tlajtolkopa.
 report-sc-different-language = Nin okse tlajtolkopa.
+report-sc-different-language-detail = Tlen okijkuilokej mach poui itech tlajtolkopa tlen nikmotilijtok.
+sentences-fetch-error = Itlaj omochi. Mach uelis tiktlaliliskej tlajkuiloli.
+review-error = Itlaj omochi. Mach uelis tikyektlaliliskej tlajkuiloli.

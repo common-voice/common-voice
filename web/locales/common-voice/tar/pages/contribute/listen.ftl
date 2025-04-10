@@ -9,6 +9,11 @@ listen-empty-state-variants = Ayena bela kéta ma ke che niwípi re raíchali mo
 listen-loading-error = Keta oméro inéa raíchali moárami. Ali che inéli achámi oméra
 listen-abort-title = ¿Ma suíni inéa acha alá Ka échi clips?
 listen-abort-cancel = We ché iné!
+listen-abort-confirm = Kayéna inéa
+# Menu item
+validate-readings = Inéka achá alá ka échi raíchali moarámi
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Alá iné Acha alá Ka osirúami <small>(sapú)</small>
 
 ## MENU ITEM TOOLTIPS
 
