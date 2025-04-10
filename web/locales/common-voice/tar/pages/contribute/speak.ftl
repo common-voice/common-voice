@@ -63,7 +63,11 @@ read-sentences = Wé leeri échi raíchali
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = We leeri raíchali, nejéi échi jápi nári
+speak-contribute-menu-tooltip = We leeri raíchali, nejéi échi jápi nári'i
+read-sentences-menu-item-tooltip = Newáya moáliami raíchali mujé binói raicháala
+answer-questions-menu-item-tooltip = Newáya moáliami mápimi binói nejéa jápi náriwa mujé binói raicháala náti
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Menú aniáchi nóke kíti raíchama
+read-sentences-menu-item-aria-label = Aní échi raíchali iséni chópi nirá'a

@@ -19,6 +19,10 @@ validate-readings-coming-soon = Xikmotili tlapoualistli <small>(Yikin yetos)</sm
 
 listen-contribute-menu-tooltip = Xikmotili tlapoualistli uan tlen okijkuilojkej
 validate-readings-menu-item-tooltip = Xikmotili tlen yokipojkej ika motlajtolkopa
+review-transcriptions-menu-item-tooltip = Xikmotili tlen okitenkakijkej uan okijkuilojkej ika motlajtolkopa
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Tlen uelis tikkakis
+validate-readings-menu-item-aria-label = Xikmotili tlen okipojkej oksekimej
+review-transcriptions-menu-item-aria-label = Xikmotili tlen okitenkakijkej kox kuali okijkuilokej
