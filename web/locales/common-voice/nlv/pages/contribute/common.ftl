@@ -119,3 +119,6 @@ contribution-misreadings-example-6-title = Tiauij uan tikiluiskej.
 contribution-misreadings-example-6-explanation = [Moneki kijtos “Tiaskej”]
 contribution-misreadings-example-7-title = Tiaskej uan tikiluiskej ye.
 contribution-misreadings-example-7-explanation = [Machitlaj ‘ye’ ijkuilijtok]
+contribution-misreadings-example-8-title = Mach nias, tlasojkamati.
+contribution-misreadings-example-8-explanation = [Mach ijkon kijtoa]
+contribution-varying-pronunciations-title = Tlatlamantli kitenkixtiaj
