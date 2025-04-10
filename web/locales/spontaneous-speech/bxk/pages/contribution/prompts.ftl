@@ -20,3 +20,6 @@ submit-all-button = Yilah byosi
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = Iyicka khurambisha èpage èyi
+learn-how-to-use-prompts-explanation = Ilamo èprompt nga neli nga nonyala mutsii sentenca tsindala. Making sure uri ènganikha yowo eri respectfully nende kimima kimilayi.
+learn-how-to-use-prompts-guidance = Kunya <guidanceLink>here</guidanceLink> khusoma èngeli ye khurambishamo èpage èyi

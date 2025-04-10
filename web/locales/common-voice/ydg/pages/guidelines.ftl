@@ -19,6 +19,7 @@ example = مثال
 
 ## Voice collection sidebar content
 
+varying-pronunciations-explanation-2 = سے دیر کرن، اگر کہ دے تے خیال یو لفظ ژے ین پیرو نے اݰٹے غوزن دے اپیر چاغوئی اڤن دے اݰٹا غلط اندازو لگڤتے تو یقین کہ چش چیمی کینیم رے لیغان ژے اپیران اوئے
 varying-pronunciations-example = راہ پازگو (کلئیر) چے ڤیو
 varying-pronunciations-tip-1 = [دے کینیڈین انگریزی نے روٹن "راؤٹ" ام ݱوتے]
 varying-pronunciations-tip-2 = [دے برطانیہ انگریزی"روٹ"root"]
