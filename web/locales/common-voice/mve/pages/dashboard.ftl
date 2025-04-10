@@ -42,7 +42,7 @@ lose-changes-warning = ھيڻو روکڻ رو مطلب ٿيَ آپريَ تبد�
 build-custom-goal = ضروري حدف ٺائو
 help-reach-hours-pluralized =
     { $hours ->
-        [one] پُڳڻ ۾ مدد ڪرو{ $hours }ڪلاڪ ۾{ $language } زاتِي مقصد ھون
+        [one] ڪامن وائس رِي پُڳڻ ۾ { $hours }زاتي مقصد ھون ڪلاڪون ۾
        *[other] پُڳڻ ۾ مدد ڪرو{ $hours }ڪلاڪون ۾{ $language } زاتِي مقصد ھون
     }
 help-reach-hours-general-pluralized =
