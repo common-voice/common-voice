@@ -29,6 +29,9 @@ const SentenceCollectorRedirectPage = React.lazy(
   () =>
     import('../pages/sentence-collector-redirect/sentence-collector-redirect')
 )
+const VariantPage = React.lazy(
+  () => import('../pages/contribution/variant-recognition/variant-recognition')
+)
 
 const SentryRoute = Sentry.withSentryRouting(Route)
 
@@ -191,6 +194,11 @@ export default function Content({ location }: { location: any }) {
           exact
           path={toLocaleRoute(URLS.PARTNER)}
           component={PartnerPage}
+        />
+        <SentryRoute
+          exact
+          path={toLocaleRoute(URLS.VARIANT)}
+          component={VariantPage}
         />
         <SentryRoute
           exact
