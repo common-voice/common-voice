@@ -1,8 +1,8 @@
 ## Question Page
 
-question-page-instruction = Ongelakhi sirebo <icon></icon> mu { $currentLocale } èsi babandu belémo
-add-question-textarea-placeholder = e.g.,"nga sina shesi upara uri unyala warambisiila technologyi"
-add-questions-terms-checkbox = Èsengakasi èndi èquestion iya <publicDomainLink>bulimundu</publicDomainLink> até sesindi nebunyala khu uploadah
+question-page-instruction = Ongelakho sirebo <icon></icon> mu { $currentLocale } èsi babandu belémo
+add-question-textarea-placeholder = e.g.,"nga sina shesi wibasha uri unyala warambisiila technologyi"
+add-questions-terms-checkbox = Èse ngakasi èndi èquestion iya <publicDomainLink>bulimundu</publicDomainLink> até sesindi nebunyala khucki uploadingah.
 question-dataset-language = Dataset: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
@@ -23,3 +23,5 @@ do-section-guideline-2 = Londa birebo byangu bibili raisi yani umundu yesiyesi a
 do-section-guideline-3 = Making sure uli tsinyala khwilibwamo saah mucouple ye tsisentenca
 do-not-section-title = le-kha
 do-not-section-guideline-1 = Bushabusha ènganikha èamba khumundu (ká kamasina oba ènganikha ye khubutajjiri)
+do-not-section-guideline-2 = Okeshanisha oba obushashe prejudiced oba tsinganikha tsinbi
+do-not-section-guideline-3 = Rebah birebo bye kamakhulu
