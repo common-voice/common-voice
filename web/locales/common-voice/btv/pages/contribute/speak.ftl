@@ -55,9 +55,20 @@ first-cta-gender-select-help-text =
     .label = تو اپوں جنس کش  بیان گرونݜ
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = اپئیں اواز سو حصہ گھنے سو شکریہ
+second-cta-subtitle-text = یک پروفائل مِیل،تُو  اپئیں سرگرمی سو معلوماترڇھ ھواں آ اواز سو معلومات سو حصہداروں سو کمیونٹی میلرابطہ مہ ھوں ھواں۔
+already-have-an-account = اول نو یک اکاؤنٹ تھو ؟ <login> لاگ ان </login>
+create-profile-button = یک پروفائل سَن
+# IMAGE TAGS
+img-alt-success-checkmark = کامیاب چیک مارک
+# menu item
+read-sentences = جملے پَڑ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملے پَڑ <small> (ھَلہ مہ یا) </small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جملے پَڑ، سوال جواب
+read-sentences-menu-item-tooltip = امئ ریکاڈ گر اپیئں زیب مہ پڑے والہ جملے
 
 ## MENU ITEM ARIA LABELS
 
