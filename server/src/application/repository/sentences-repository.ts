@@ -16,6 +16,7 @@ import { UserClientVariant } from '../../core/variants/user-client-variant'
 import { queryDb } from '../../infrastructure/db/mysql'
 import { Variant } from '../../core/variants/variant'
 import { Sentence } from 'common'
+import { cleanText } from '../text-cleaner'
 
 const mysql2 = require('mysql2/promise')
 
@@ -44,6 +45,7 @@ const insertSentenceTransaction = async (
   db: Mysql,
   sentence: SentenceSubmission
 ) => {
+  sentence.sentence = cleanText(sentence.sentence)
   const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id)
   const conn = await mysql2.createConnection(db.getMysqlOptions())
   const variant_id = pipe(
@@ -62,7 +64,7 @@ const insertSentenceTransaction = async (
         INSERT INTO sentences (id, text, source, locale_id)
         VALUES (?, ?, ?, ?);
       `,
-      [sentenceId, sentence.sentence, sentence.source, sentence.locale_id]
+      [sentenceId, sentence.sentence, cleanText(sentence.source), sentence.locale_id]
     )
 
     await conn.query(
@@ -107,6 +109,7 @@ const insertBulkSentencesTransaction = async (
   const sentence_domain_values: [string, number][] = []
 
   sentences.forEach(submission => {
+    submission.sentence = cleanText(submission.sentence)
     const sentenceId = createSentenceId(
       submission.sentence,
       submission.locale_id
@@ -114,7 +117,7 @@ const insertBulkSentencesTransaction = async (
     sentence_values.push([
       sentenceId,
       submission.sentence,
-      submission.source,
+      cleanText(submission.source),
       submission.locale_id,
       options.isUsed ? 1 : 0, // is_used = 1
       options.isValidated ? 1 : 0, // is_validated = 1
