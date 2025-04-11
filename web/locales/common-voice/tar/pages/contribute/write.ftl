@@ -30,6 +30,11 @@ single-sentence = Moárami binéli
 small-batch-sentence = Pe táa grupo niráa
 bulk-sentence = Walú grupo niráa
 sentence-domain-combobox-label = Tema échi moárami niráa
+sentence-domain-select-placeholder = Bikía tema chápi (binoi ikía)
+# Sentence Domain dropdown option
+agriculture_food = Ichiwáami alí kowáami
+# Sentence Domain dropdown option
+automotive_transport = Tema wikanátami namúti jápi tamo jareána yúro
 
 ## BULK SUBMISSION
 
