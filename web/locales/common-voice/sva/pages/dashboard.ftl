@@ -28,6 +28,8 @@ get-started-goals = ა̈ხბინ მიზანხა̈ნქა
 create-custom-goal = ახა̈სყ ისგუ მიზან
 goal-type = მა̈ჲკა̈ლი მიზან ჯაკუ ისგოუ̂დ?
 both-speak-and-listen = ერქჷდა
+both-speak-and-listen-long = ერქჷდა (გა̈რგლა ი ლიჰუ̂ნა̈რი)
+daily-goal = ჩილა̈დღია̈ მიზან
 
 ## Goals
 
