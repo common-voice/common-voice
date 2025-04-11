@@ -4,6 +4,8 @@ age-gender-form-subtile = مھونَي آپرَي بارَي ۾ ھنمڀڙاڻ �
 add-information-button = معلومات شامل ڪرو
 continue-speaking-button = ٻولڻ جارِي راکو
 age-select-label = ٿونرِي عمر ڪِي ھيَ؟
+why-are-you-asking = ٿيَ ڪيون پوڇيَ رھيا ھون؟
+thank-you-for-your-information = ٿونرِي معلومات  رِي مھربوني
 
 ## Gender dropdown
 
