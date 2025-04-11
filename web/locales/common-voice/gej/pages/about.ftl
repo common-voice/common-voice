@@ -23,11 +23,12 @@ about-subscribe-text = ɖe wò le ji la nɔ kàmè ku Common Voice à.
 about-speak = pò nùpo
 about-listen = sè
 about-listen-text = né a kpɔ bé nyɔnu alo ŋusu gbèdotɔ a hlɛ nyàgbè awo àdodoemètɔ a.
+about-is-it-valid = ɖe wo dà àsi ɖo nyàlélékpɔwɔɛ kèyà ji a a
 
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language-content-3 = gbèɖe wo ɖo vòvòtoto gãɖewo
+about-playbook-what-is-language-content-3 = gbèɖe wo ɖo vòvòtoto gãɖewo lè gbèŋutisé, nyàɖoɖo alo yɔyɔ kpawo ji.  ekèya ŋuti a, mi la <ctaLink> do gbèlɔzɛwo</ctaLink> lè siti a ji lè pè 2022 mè. Ekèyà na bé dùkɔ̃wo wo la do jèsi woabe gbèwo lè gbèlepopugã mè.
 
 ## How do I add a language
 
