@@ -7,6 +7,7 @@ sc-review-select-language = Chápi bilé raíchali kíti alá ineba échi raích
 sc-review-no-sentences = Ma ke ité raíchali osirúami kíti che ala ineba. ¡<addLink> Che uchasi járe raíchali osirúami</addLink>!
 sc-review-form-prompt =
     .message = Ke alá omero nejá ala inérami,¿a ne wichíwali jú?
+sc-review-form-usage = Kaena batóna uché seméro osirúami. Kaéna batóna kíti ke nakíma. Kaéna repári niráa  kíti biléna chó simíroma. <strong>¡Kíti wekáwa kítimi alá júlama échi alá inérami!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = osélichi jápi onámi máchi paála raíchali{ $sentenceSource }

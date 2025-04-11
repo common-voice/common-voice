@@ -25,6 +25,7 @@ still-have-questions = Har du stadig spørgsmål?
 
 ## Sentence collection nav ids
 
+public-domain = Offentligt domæne
 
 ## Sentence collection sidebar content
 

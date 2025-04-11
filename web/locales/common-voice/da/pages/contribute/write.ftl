@@ -71,3 +71,4 @@ transcribe-audio-menu-item-tooltip = Transskriber lydoptagelser på dit sprog
 
 ## MENU ITEM ARIA LABELS
 
+review-sentences-menu-item-aria-label = Gennemgå eksisterende sætninger indsendt af fællesskabet
