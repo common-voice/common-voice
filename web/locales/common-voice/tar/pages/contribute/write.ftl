@@ -10,6 +10,10 @@ citation-input-placeholder = Uché jápi onámi chápili échi raíchali (né iw
 sc-review-small-batch-title = ¿Chí mi ríka ché uchéma wikábe raíchali?
 new-sentence-rule-1 = 1. Ayena nakíwa jápi raíchali chapibóa échi jápi newáli
 new-sentence-rule-2 = Ke me makói máli (15) raíchali osibóa
+new-sentence-rule-3 = Uchá échi gramática alabé náli
+new-sentence-rule-4 = Uchá osiwámi alí kapólami achelía alá osayá
+new-sentence-rule-5 = Ké taralíami uchéka ke bilé teclá sinú iyéri
+new-sentence-rule-6 = Ke bile letra extranjera
 
 ## BULK SUBMISSION
 
