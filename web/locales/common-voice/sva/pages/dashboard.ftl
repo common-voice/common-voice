@@ -45,6 +45,13 @@ help-reach-hours-pluralized =
         [one] ლოხმა̈რჯუ̂, ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზანშუ̂
        *[other] ლოხმა̈რჯუ̂, ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზანშუ̂
     }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] ლოხმა̈რჯუ̂  Common Voice-ს ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზნი ნინჟი
+       *[other] ლოხმა̈რჯუ̂  Common Voice-ს ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზნი ნინჟი
+    }
+set-a-goal = დაისახე მიზან
+cant-decide = დეშ გადაწყვიტეა?
 
 ## Goals
 
