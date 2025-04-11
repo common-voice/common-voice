@@ -136,6 +136,14 @@ find-us-on-matrix = ميٽرڪس تيَ مھونيَ جونچو
 find-us-on-matrix-content = ميٽرڪس ھيڪ اوپن، ھلڪيَ وزن آݪو پروٽوڪول ھي جڪو غير مرڪزي ھي، حقيقي وقت ريَ رابطيَ ھارو ھيَ، ھان موزيلا رو ترجيحي کليل بحس پليٽ فارم ھي۔
 # label for button
 find-us-on-matrix-action = ميٽرڪس تيَ مھونيَ جونچو
+ask-mozilla-share = موزيلا نيَ ڪھو ڪہ ٿونرا واقعا ڏيَ
+ask-mozilla-share-content = ڪِي ٿون ڪوڊِي ڪو پيلوڪو يا آڻ آݪو پروگرام ھيَ؟ اي مھونيَ ڏيو ھان مھيَ ايئيَ رو علون آپرِي برادري ۾ ڪرھون يا ايئيَ ريَ باريَ ۾ ھيڪ بلاگ لِکھون!
+# label for button
+ask-mozilla-share-action = آپرا واقعا ھڻائو
+download-contribution-certificate = آپرِي شراڪت را سرٽيفڪيٽ ڊائولوڊ ڪرو
+download-contribution-certificate-content = جيَ ٿيَ ڪام وائس ۾ حصو ليو ھي تو آپريَ پروگرامون ھارو يا آپ ھارو ھيڪ سرٽيفيٽ ڊائون لوڊ ڪرو—اي ٿونريَ سوا ممڪن ڪوني ھوئيَ!
+# label for button
+download-contribution-certificate-action = آپرو سرٽيفڪيٽ ليو
 
 ## Featured section
 
