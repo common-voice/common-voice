@@ -53,3 +53,10 @@ report-sc-different-language = Nin okse tlajtolkopa.
 report-sc-different-language-detail = Tlen okijkuilokej mach poui itech tlajtolkopa tlen nikmotilijtok.
 sentences-fetch-error = Itlaj omochi. Mach uelis tiktlaliliskej tlajkuiloli.
 review-error = Itlaj omochi. Mach uelis tikyektlaliliskej tlajkuiloli.
+review-error-rate-limit-exceeded = Nesi semi totoka otikchi. Ximochia uan kuali xikmotili kox kuali noso mach.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Tikinpatilijtokej miak tlamantli.
+sc-redirect-page-subtitle-1 = Tlajkuilolnechikoli axkan kajki itech Common Voice. Axkan uelis<writeURL>tikijkuilos</writeURL>se tlamantli noso<reviewURL>tikmotilis</reviewURL> sejse tlajkuiloli non yokintlalilikej itech Common Voice.
+sc-redirect-page-subtitle-2 = Techtlajtlani seki itech <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> noso <emailLink>email</emailLink>.
+# menu item
+review-sentences = Xikmotili tlajtoli

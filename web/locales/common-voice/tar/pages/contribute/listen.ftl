@@ -17,6 +17,10 @@ validate-readings-coming-soon = Alá iné Acha alá Ka osirúami <small>(sapú)<
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Né Acha alá ka échi raíchali moarámi ali échi osirúami.
+validate-readings-menu-item-tooltip = Inéa raíchali moárami alí raíchali binói ríka raíchala náti
+review-transcriptions-menu-item-tooltip = Alá revisari osirúami binói raicháala náti
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Rachini jápi oná aní námiki
