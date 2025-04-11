@@ -131,6 +131,11 @@ community-section-title = عالمي برادريون رِي طرف ھون طا�
 join-discord-community = ڊسڪورڊ برادري ۾ شامل ھو
 # label for button
 join-discord-community-action = مھون ڀيݪا ڊسڪورڊ ۾ شامل ھو
+join-discord-community-content = ٻولِي رِي برادري رِي بحس ۾ حصو ليو، سوال پوڇو ھان آڻ آݪيَ واقعون ھان واتون ريَ باريَ ۾ ݾکو۔
+find-us-on-matrix = ميٽرڪس تيَ مھونيَ جونچو
+find-us-on-matrix-content = ميٽرڪس ھيڪ اوپن، ھلڪيَ وزن آݪو پروٽوڪول ھي جڪو غير مرڪزي ھي، حقيقي وقت ريَ رابطيَ ھارو ھيَ، ھان موزيلا رو ترجيحي کليل بحس پليٽ فارم ھي۔
+# label for button
+find-us-on-matrix-action = ميٽرڪس تيَ مھونيَ جونچو
 
 ## Featured section
 
