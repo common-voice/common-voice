@@ -34,8 +34,11 @@ female_feminine = لوگائِي۔مئونس
 intersex = مڪس جنس
 transgender = کدڙو
 non-binary = دماغي طور تيَ بيمار
+do_not_wish_to_say = ڪھيڻ ڪونِي چاھو ھو
 # Gender
 other = ٻِيجو
+why-profile-title = پروفائل ڪيون؟
+why-profile-text = دوھري جنس
 dashboard = ڊيش بورڊ
 build-profile = پروفائل ٺاھو
 avatar = پروفائل
