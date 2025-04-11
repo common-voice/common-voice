@@ -6,6 +6,7 @@ how-does-it-work-title-v2 = leké ye Common Voice wɔnà dɔ ɖo o
 
 ## How does it work section
 
+about-language-req-subtitle = àmèɖe le biɔ be ne wo sɔ gbèɖe kpe
 
 ## Community Playbook Content
 ## What is a language
