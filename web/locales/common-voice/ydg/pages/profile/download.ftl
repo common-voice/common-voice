@@ -14,3 +14,5 @@ download-selected = منتخب کڑ
 download-start = ڤے پروفائل معلوماتف ڈاؤن لوڈ کن
 download-request = نے ریکارڈنگن عرضی کن
 download-requests = ڤے پیرانے ریکارڈنگف نے ڈاؤن لوڈ کڑان عرض کن
+download-request-button = ڈاؤن لوڈ
+download-request-title = { $created }

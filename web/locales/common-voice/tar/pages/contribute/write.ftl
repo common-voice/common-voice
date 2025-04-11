@@ -55,10 +55,13 @@ nature_environment = Kawíchi nirúami alí échi medio ambiente
 news_current_affairs = Noticia ruami jápi iki Alí jápi ikíi jípi
 # Sentence Domain dropdown option
 technology_robotics = Tecnología alí robótica
-sentence-variant-select-multiple-variants = Sineámi ríka raichawami/wikána nirá'a raichawami
+sentence-variant-select-multiple-variants = Raichawami/ echibi mapi ríka raichawa jareána cho pereami
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Osaa moárami raíchali échi dominio público
+select-file = Rachíni nochárami
 
 ## SMALL BATCH SUBMISSION
 

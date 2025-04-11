@@ -25,6 +25,12 @@ record-submit-tooltip = { $actionType } xiktitlani keman yiyetos
 clips-uploaded = ¡Yomokak!
 record-abort-title = ¡Tikneki achto tiktlamiltis?
 record-abort-text = Tla tikisas, tikpolos tlen yotikchi
+record-abort-submit = Xiktitlani tlen yotiktsiko
+record-abort-continue = Xitlami tiksikos
+record-abort-delete = Xikisa uan xikpojpolo
+review-aborted = Mach otiktlanili. ¿Tikneki tikpojpolos tlen otiksiko?
+review-submit-title = Xikmotili uan xiktitlani
+review-submit-msg = ¡Timitstlasojkamatiliaj!<lineBreak></lineBreak>Axkan, xikmotili kox kuali omokak uan xiktitlani.
 
 ## MENU ITEM TOOLTIPS
 
