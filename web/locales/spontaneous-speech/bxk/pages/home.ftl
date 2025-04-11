@@ -30,3 +30,4 @@ contact-us = khwi rebekho
 contact-us-title = Wenyele khurambagana nende project yino, namwe khukhwigata alala nenafwe?
 contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Ulitayari mwituli lya Beta lyekhutesta kamakono kabushele muproject ye nganikha yaspontaneous
+signup-terms = Mukhu kunya “Èlesha elink khu email yange”, ufukilishane nende <termsLink>kamakambila ke burambi bwefe</termsLink>nende<privacyLink>Privacy Policy</privacyLink>
