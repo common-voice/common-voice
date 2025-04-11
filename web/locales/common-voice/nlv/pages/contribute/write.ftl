@@ -1,0 +1,15 @@
+## WRITE PAGE
+
+write = Xitlajkuilo
+
+## BULK SUBMISSION
+
+
+## SMALL BATCH SUBMISSION
+
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+
