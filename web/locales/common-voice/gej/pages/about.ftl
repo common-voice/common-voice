@@ -1,6 +1,7 @@
 ## ABOUT US
 
 about-title = nukɛ ŋuti wo ɖo Common Voice ɖo o
+about-header-description-v2 = <p>Common Voice yé nyi hahonùpolépopu kè zãna àlɔdoamètɔ lɔ̃lɔ̃nufatɔ kewo sò hihe kplògòdo à mè. àmè kèwo ji la ɖo àɖàŋuɖemɔɖoɖo kèwo la wɔ nu ɖèka àlo gbogboɖe zèɖeka kú gbè jèsi a wo la téŋu zã nupolepopu né wo a téŋu ɖo nùkplamɔkpɔwɔɛwo. </p>
 
 ## How does it work section
 
