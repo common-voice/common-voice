@@ -1,6 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = جارِي ھيَ
+language-section-in-progress-new-description = اي ٻوليَ ھيڻو برادري رِي ترقي ريَ ھيٺِي ھي۔<localizationGlossaryLink>ويب سائيٽ</localizationGlossaryLink>ھان<sentenceCollectionGlossaryLink>جُملون رو مجموعو</sentenceCollectionGlossaryLink>لانچ ڪرڻ رِي ضرورت ھيَ۔
 language-section-launched = لونچ ڪِيو يا لانچ ڪِيو
 languages-show-more = وڌِيڪ جونچو
 languages-show-less = گھٽ جونچو
