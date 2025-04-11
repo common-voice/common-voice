@@ -15,6 +15,9 @@ about-new-lang-title = gbèyéyé bé ɖèɖefiɔ.
 about-new-lang-subtitle = mi le ɖè Common Voice bé siti a fiɔ lè gbè kèyà mè.
 about-voice-contrib-subtitle = àmè amèvèwo la do àlɔ àmè ku woabe gbèwo.
 about-voice-validation-title = gbèjisidàdàɖo
+about-voice-validation-subtitle = àmèɖéwo dà àsi ɖo nyàlélé kpaɖéwo ji.
+about-dataset-release-title = Nuwoɖèɖeto
+about-dataset-release-subtitle = mí ɖènà nuwó tó wètri tɔ sia wètri trɔ.
 
 ## Community Playbook Content
 ## What is a language

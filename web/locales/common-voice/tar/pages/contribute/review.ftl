@@ -44,4 +44,7 @@ sc-criteria-item-5-2 = Jápi re échi raíchali osirúami ke alá nejéisa échi
 sc-criteria-item-6 = Jápi re ma ke itéo ko raíchali jápi inéba, ¡támo kuíro ché napabúa wikabé raíchali!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = bawéra<icon></icon> ¿ Jéna ko jú bilé raíchali wé alábe a'a?
+sc-review-rules-title = ¿Échi raíchali achá nejéi echí reglás?
+sc-review-empty-state = Jípi ko ké ité raíchali jápi che alá inéba jéna raicháli nati
 report-sc-different-language = Sinúcho ríka nirá'a raicháliami
+report-sc-different-language-detail = Osirúami jú sinú ríka raicháwami jápina inéa atíi
