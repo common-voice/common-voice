@@ -1,4 +1,5 @@
 speak = Tal
+speak-now = Tal nu
 speak-subtitle = Donér din stemme
 record-cta = Start optagelse
 record-platform-not-supported = Vi beklager, men din platform er i øjeblikket ikke understøttet.

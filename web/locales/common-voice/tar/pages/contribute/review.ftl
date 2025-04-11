@@ -29,8 +29,13 @@ sc-review-form-reviewed-message =
        *[other] wiká raíchali alá inérami. !Matetéra ba!
     }
 sc-review-form-review-failure = Ke ompáru katewá alá newárami raíchali. Pe alí che katewáli.
+sc-review-link = Inéa acha alá ka'a
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Jápi riká katúiru bacháa chi ríka iné
+sc-criteria-title = Jápi riká katúiru bacháa chi ríka iné
+sc-criteria-make-sure = Sinéami raíchali osirúami ayena niwísa re raicháli katúita nokali sinéwi li chi ríka a nejéima échi
 sc-criteria-item-1 = Ta raíchali osirúami we alá  osirúami nisa re
+sc-criteria-item-2 = Raíchali osirúami alabé námitami nísare
 report-sc-different-language = Sinúcho ríka nirá'a raicháliami

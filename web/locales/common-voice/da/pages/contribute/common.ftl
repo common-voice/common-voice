@@ -26,9 +26,11 @@ target-segment-generic-card = Du bidrager til et målsegment
 target-segment-first-banner = Vær med til at lave det første målsegment til Common Voice på { $locale }
 target-segment-add-voice = Tilføj din stemme
 target-segment-learn-more = Læs mere
+change-preferences = Skift indstillinger
 vote-yes = Ja
 vote-no = Nej
 datasets = Datasæt
+languages = Sprog
 about = Om
 submit-form-action = Indsend
 

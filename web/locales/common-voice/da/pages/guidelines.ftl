@@ -10,6 +10,7 @@ offensive-content = Stødende indhold
 background-noise = Baggrundsstøj
 background-voices = Stemmer i baggrunden
 volume = Lydstyrke
+reader-effects = Oplæsereffekter
 just-unsure = Bare usikker?
 example = Eksempel
 

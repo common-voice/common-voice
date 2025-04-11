@@ -10,6 +10,10 @@ listen-loading-error =
 listen-abort-title = Er du færdig med at validere optagelser?
 listen-abort-cancel = Fortsæt med at validere
 listen-abort-confirm = Afslut valideringen
+# Menu item
+validate-readings = Valider oplæsninger
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Valider oplæsninger <small>(kommer snart)</small>
 
 ## MENU ITEM TOOLTIPS
 

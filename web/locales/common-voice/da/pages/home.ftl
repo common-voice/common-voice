@@ -102,6 +102,7 @@ read-more-about = Læs mere på vores Om-side
 
 ## Get involved section
 
+validate-readings-link = Valider oplæsninger
 
 ## Partner section
 
