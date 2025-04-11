@@ -38,4 +38,6 @@ sc-criteria-title = Jápi riká katúiru bacháa chi ríka iné
 sc-criteria-make-sure = Sinéami raíchali osirúami ayena niwísa re raicháli katúita nokali sinéwi li chi ríka a nejéima échi
 sc-criteria-item-1 = Ta raíchali osirúami we alá  osirúami nisa re
 sc-criteria-item-2 = Raíchali osirúami alabé námitami nísare
+sc-criteria-item-3 = Ta raíchali alabé aniwáami nísare
+sc-criteria-item-4 = Jápi re échi raíchali ayena alá nejéisa échi bacháwami raíchali jápi ríka katúili, rachíni ma &quot; seméro&quot;; échina batóna
 report-sc-different-language = Sinúcho ríka nirá'a raicháliami

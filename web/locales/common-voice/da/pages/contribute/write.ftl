@@ -44,6 +44,22 @@ too-many-files = For mange filer
 
 ## SMALL BATCH SUBMISSION
 
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } af 1 sætning indsamlet
+       *[other] { $uploadedSentences } af { $totalSentences } sætninger indsamlet
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } af 1 sætning indsamlet. Klik <downloadLink>her</downloadLink> for at downloade afviste sætninger.
+       *[other] { $uploadedSentences } af { $totalSentences } sætninger indsamlet. Klik <downloadLink>her</downloadLink> for at downloade afviste sætninger.
+    }
+small-batch-sentences-rule-2 = Tilføj en sætning pr. linje
+small-batch-sentences-rule-4 = Tilføj op til 1.000 sætninger
+# menu item
+add-sentences = Tilføj sætninger
 
 ## MENU ITEM TOOLTIPS
 
