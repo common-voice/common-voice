@@ -44,7 +44,9 @@ general = Sinéami
 # Sentence Domain dropdown option
 healthcare = Tema salud kítira
 # Sentence Domain dropdown option
-history_law_government = Chabéi kítira raichalíami, raichámi kíti ke rosóa rika olárami niba Alí nulámi waluála
+history_law_government = Chabéi niruúami kítira raichámi, raíchami jápi kw risóa olarámi niba ali gobierno sí
+# Sentence Domain dropdown option
+language_fundamentals = Fundamentos jápi ruami jú jápi ríka taráliami, osiwámi, wenómi ma
 
 ## BULK SUBMISSION
 
