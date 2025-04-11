@@ -23,4 +23,4 @@ review-transcriptions-menu-item-tooltip = Alá revisari osirúami binói raichá
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = Rachini jápi oná aní námiki
+listen-contribute-menu-aria-label = Menú jápi oná aní námiki

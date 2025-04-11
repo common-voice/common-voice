@@ -73,6 +73,6 @@ answer-questions-menu-item-tooltip = Newáya moáliami mápimi binói nejéa já
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = Menú aniáchi nóke kíti raíchama
+speak-contribute-menu-aria-label = Échi menú (alábe) jápi aní raícha
 read-sentences-menu-item-aria-label = Aní échi raíchali iséni chópi nirá'a
 answer-questions-menu-item-aria-label = Nejá bilé naríwami kíti biléana peréami inéma a'lí nejeíma jápi ríka abói náki
