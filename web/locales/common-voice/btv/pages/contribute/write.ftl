@@ -20,6 +20,7 @@ new-sentence-rule-4 = صحیحاسپیلنگ آتلفظ استعمال گر
 new-sentence-rule-5 = نمبر آ خاص نشان نہء
 new-sentence-rule-6 = نہ بھار سو حروف
 new-sentence-rule-7 = مناسب حوالہ شامل گر
+new-sentence-rule-8 = مثالی طور پر قدرتی اور گفتگو (جملہ کو پڑھنا آسان ہونا چاہئے)   مثالی طور رے قدرتی آ بیاد (اواسان گرا جملہ پڑو)
 
 ## BULK SUBMISSION
 
