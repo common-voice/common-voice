@@ -14,6 +14,14 @@ record-cancel = Mach ok xiktsiko.
 record-instruction = { $actionType }<recordIcon></recordIcon> satepan xikpoua tlen ijkuilijtok
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> keman titlamis
 record-three-more-instruction = ¡Ipan 3 peuas!
+record-again-instruction = ¡Yonpa!<recordIcon></recordIcon> Okse xiktsiko
+record-again-instruction2 = Yimokauas, oksepa xitlajto <recordIcon></recordIcon>
+record-last-instruction = ¡Saiktlami!
+review-tooltip = Xikita nikan tlen yotikchi uan okseki xikchiua
+share-clip = Xiktitlani motlajtol
+share-common-voice = Xiktitlani itech Common Voice
+review-instruction = Xikmotili uan oksepa xiktsiko tla monekis
+record-submit-tooltip = { $actionType } xiktitlani keman yiyetos
 
 ## MENU ITEM TOOLTIPS
 
