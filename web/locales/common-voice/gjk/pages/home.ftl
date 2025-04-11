@@ -78,12 +78,25 @@ welcome-staff = ڀليڪار{ $company }نا اِسٽاڦ نين!
 help-contribute = تمين ڪامنَ وائيس ماٿيَ ايڪ پروفائيل ٺاوينَ انين پوتا نا آواز مان حِصو لئينَ ڦرق ڦرق ڍيٽاسيٽ ٺاۿيا مان مۮت ڪرِي ۿڳو سو۔
 login-company = اِي ميل لاگ اِن { $company } سائينَ اپ ٿائو۔
 profile-not-required = حِصو ليڌا ۿارُو پروڦائيل نون هووون ضرُورِي نٿِي ڀلين اِي مۮتڳار هوئيَ، هيٺين زووو شون ليوا۔
+read-more-about = امارا ٻارا مان پيج ماٿيَ وڌارين ڀڻو۔
 
 ## NAV ITEMS
 
+answer-questions = سوالان نا جواٻ ڄو
+answer-questions-coming-soon = سوالان نا جواٻ ڄو<small>(زٽ آويَ سي ريون</small>)
+review-transcriptions = نقل ڪرل نو جائزو ليو
+review-transcriptions-coming-soon = نقل نو جائيزو ليو<small>(زٽ آويَ سي ريون)</small>
+add-questions = سوال ايڍ ڪرو
+add-questions-coming-soon = سوال شامِل ڪرو</small>(زٽ آويَ سي ريون)<small>
+transcribe-audio-coming-soon = آڍِيو نِي نقل ڪرو</small>(زوٽ آويَ سي ريون)<small>
+transcribe-audio = آڍِيو نِي نقل ڪرو
+press-and-stories = پريس انين وارتايُون
+community-and-languages = ڀِراڌرِي انين ٻولِيُون
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ڀائيوارِيون، پريس انين وارتايُون، ڀِراڌرِي انين ٻولِيُون
+partnerships-menu-item-tooltip = امان ڀيڳا حِصو ليو
 
 ## MENU ITEM ARIA LABELS
 

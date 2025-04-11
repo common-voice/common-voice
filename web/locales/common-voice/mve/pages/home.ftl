@@ -88,10 +88,15 @@ community-and-languages = برادري ھان ٻوليَ
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ڀائيواريَ،ڇپائِي ھان وارتائون، برادري ھان ٻوليَ
+partnerships-menu-item-tooltip = مھون ڀيݪا بائيوار ھو
+press-and-stories-menu-item-tooltip = مھوريَ بلاگ نيَ وزٽ ڪرو يا مھوري باريَ ۾ لکو
+community-and-languages-menu-item-tooltip = ٻوليَ ھان برادريَ ھان ڪامن وائس جونچو
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = آپشن مينيو ريَ باريَ ۾
+partnerships-menu-item-aria-label = ڪامن وائس ڀيڙي ڀائيوارِي ريَ باريَ ۾ ݾکو
 
 ## NEW HOME PAGE KEYS
 
