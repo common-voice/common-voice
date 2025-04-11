@@ -10,3 +10,4 @@ profile-form-age =
     .label = عمر
 native-language =
     .label = آپرِِي ٻوليَ
+profile-close = بند
