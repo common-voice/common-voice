@@ -25,6 +25,9 @@ show-ranking = ქახწუ̂ე̄ნ მიშგუ რეიტინგ
 ## Custom Goals
 
 get-started-goals = ა̈ხბინ მიზანხა̈ნქა
+create-custom-goal = ახა̈სყ ისგუ მიზან
+goal-type = მა̈ჲკა̈ლი მიზან ჯაკუ ისგოუ̂დ?
+both-speak-and-listen = ერქჷდა
 
 ## Goals
 
