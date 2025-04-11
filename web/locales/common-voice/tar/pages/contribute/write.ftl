@@ -47,6 +47,8 @@ healthcare = Tema salud kítira
 history_law_government = Chabéi niruúami kítira raichámi, raíchami jápi kw risóa olarámi niba ali gobierno sí
 # Sentence Domain dropdown option
 language_fundamentals = Fundamentos jápi ruami jú jápi ríka taráliami, osiwámi, wenómi ma
+# Sentence Domain dropdown option
+media_entertainment = Medios Alí kanílitiami
 
 ## BULK SUBMISSION
 

@@ -35,6 +35,10 @@ pro-difficulty = حامی
 lose-goal-progress-warning = ڤے خوئے ہدف کہ بدل کڑیت، تو ہورغ گیب ام ای۔
 want-to-continue = تو جاری اوستایا کوسیتیآ؟
 finish-editing = اول ڤے ایڈیٹنگ ناسے نینآ؟
+set-a-goal = یو ہدف واست
+cant-decide = فیصلو کڑا چے کرکینیتیآ؟
+how-many-per-day = جاہند غیݰے دے یو میش چر آوازے؟
+how-many-a-week = جاہند غیݰے دے یو ہفتو چر آوازے؟
 
 ## Goals
 
