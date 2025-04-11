@@ -61,7 +61,7 @@ sentence-variant-select-multiple-variants = Raichawami/ echibi mapi ríka raicha
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Osaa moárami raíchali échi dominio público
-select-file = Rachíni nochárami
+select-file = Chápi échi nocháli
 
 ## SMALL BATCH SUBMISSION
 

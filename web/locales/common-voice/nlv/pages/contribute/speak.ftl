@@ -31,9 +31,48 @@ record-abort-delete = Xikisa uan xikpojpolo
 review-aborted = Mach otiktlanili. ¿Tikneki tikpojpolos tlen otiksiko?
 review-submit-title = Xikmotili uan xiktitlani
 review-submit-msg = ¡Timitstlasojkamatiliaj!<lineBreak></lineBreak>Axkan, xikmotili kox kuali omokak uan xiktitlani.
+review-recording = Xikmotilitie
+review-rerecord = Oksepa xikchiua
+review-cancel = Mach xiktitlani
+review-keep-recordings = Ijkon mayeto
+review-delete-recordings = Xikinpojpolo
+review-terms = Ijkuak tiktekitiltia Common Voice, tikselia<termsLink>Tlanauatilmej</termsLink> uan <privacyLink>Ken tiktekitiltia tlen nikan tiktlalilia</privacyLink>
+terms-agree = Kuali
+terms-disagree = Mach nechpaktia
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ¡Timitstlasojkamatiliaj techtiokolilia motlajtol!
+first-cta-subtitle-text = Tla techiluis okachi motech, techpaleuis okachi titesepanpaleuikan
+why-donate = ¿Tleka techtlajtlania?
+why-donate-explanation-1 = Nin mach sapanoa moneki. San xiktlali tla tikneki. Ijkuak kanaj tiktlaliliaj, mach tiktlalia motoka uan tikitaj tlen tiktlaliskej mach makinexti kox titlakatl, tisuatl noso okseki tlamantli.
+why-donate-explanation-2 = Ken melauak tiknekij titesepanpaleuiskej, moneki achitsin tikinmixmatiskej akinmej techpaleuiaj. Ijkon kuali tikmatiskej katli intlajtolkopa uan tlen okachi moneki. Panpa, tla amikaj itech se tlajtolkopa, mach uelis tikinpaleuiskej akinmej ijkon tlajtoaj.<learnMore>Xikmati okachi itech tleka miak ipati tlen tiktlalilia.</learnMore>
+add-information-button = Xiktlali seki motech
+continue-speaking-button = Mach, san manitlajto
+create-profile-text = ¿Tikneki tiktlaatilis itlaj motech? <createProfile>Ximomachoti</createProfile>
+thanks-for-voice-toast = Timitstlasojkamatiliaj tlen otiktlali itech motlajtol
+thanks-for-voice-toast-error = Itlaj omochi. Mach otikselikej tlen otiktlali itech motlajtol
+first-cta-gender-select-default-option = Xikpejpena se
+first-cta-gender-select-help-text =
+    .label = ¿Tikijtoskia titlakatl, tisiuatl noso oktlamantli?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Timitstlasojkamatiliaj techpaleuia ika motlajtol!
+second-cta-subtitle-text = Tla timomachotis, uelis tikitas kanachi yotitechpaleui uan tiyetos inuan oksekimej non noijki tlapaleuiaj.
+already-have-an-account = ¿Yotimomachoti? <login>Xikalaki</login>
+create-profile-button = Ximomachoti
+# IMAGE TAGS
+img-alt-success-checkmark = ¡Yonpa!
+# menu item
+read-sentences = Xikinpo seki tlajtoli
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Xikinpo seki tlajtoli <small>(Coming soon)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Xikinpo seki tlajtoli, xikinnankili tlajtlanilmej
+read-sentences-menu-item-tooltip = Xiksiko motlajtol ijkuak tikinpos seki tlajtoli ika motlajtolkopa
+answer-questions-menu-item-tooltip = Xiksiko motlajtol ijkuak tikinnankilis seki tlajtlanilistli ika motlajtolkopa
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Tlen uelis tikpouas
+read-sentences-menu-item-aria-label = Xikinpo seki tlajtoli tlen oksekimej okijkuilojkej ika tlatlamantli tlajtolkopa
+answer-questions-menu-item-aria-label = Xiktitlani se tlajtlanilistli tlen oksekimej kitlajtoltiskej uan kinankiliskej
