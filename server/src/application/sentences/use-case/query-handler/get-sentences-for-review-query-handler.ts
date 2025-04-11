@@ -45,12 +45,17 @@ export const GetSentencesForReviewQueryHandler =
             sentence.variantTag,
             O.getOrElse(() => null)
           )
+          const variantName = pipe(
+            sentence.variantName,
+            O.getOrElse(() => null)
+          )
           return {
             sentence: sentence.sentence,
             sentenceId: sentence.sentenceId,
             source: sentence.source,
             localeId: sentence.localeId,
             variantTag: variantTag,
+            variantName: variantName,
           }
         })
       }),

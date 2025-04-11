@@ -279,6 +279,7 @@ const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
     source: row.source,
     localeId: row.locale_id,
     variantTag: O.fromNullable(row.variant_token),
+    variantName: O.fromNullable(row.variant_name),
   }))
 
 export type FindSentencesForReview = (
@@ -316,6 +317,7 @@ const findSentencesForReview =
             sentences.source,
             sentences.locale_id,
             variants.variant_token,
+            variants.variant_name,
             SUM(sentence_votes.vote) as number_of_approving_votes,
             COUNT(sentence_votes.vote) as number_of_votes
           FROM sentences
@@ -422,9 +424,10 @@ export const findVariantSentences: FindVariantSentences = (
     queryDb(`
         SELECT *
         FROM (
-          SELECT s.id, text, variant_id
+          SELECT s.id, text, variant_id, variant_name
           FROM sentences s
           LEFT JOIN sentence_metadata sm ON s.id = sm.sentence_id
+          LEFT JOIN variants ON (variants.id=sm.variant_id)
           WHERE
             is_used
             AND locale_id = (SELECT id FROM locales WHERE name = ?)
@@ -442,7 +445,7 @@ export const findVariantSentences: FindVariantSentences = (
     `),
     TE.mapLeft((err: Error) =>
       createDatabaseError(
-        `Error retrieving variant sentences for variant "${variant.name}"`,
+        `Error retrieving variant sentences for variant "${variant.name} [${variant.tag}]"`,
         err
       )
     ),

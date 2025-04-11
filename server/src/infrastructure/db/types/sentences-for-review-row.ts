@@ -4,6 +4,7 @@ export type SentencesForReviewRow = {
   source: string
   locale_id: number
   variant_token: string
+  variant_name: string
   number_of_approving_votes: number
   number_of_votes: number
 }

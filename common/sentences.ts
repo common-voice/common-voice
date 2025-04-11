@@ -27,6 +27,7 @@ export type PendingSentence = {
   localeId: number
   isValid: boolean
   variantTag: string
+  variantName: string
 }
 
 export type SentenceVote = {
