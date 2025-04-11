@@ -235,6 +235,7 @@ st = ڏکڻا هاڙِي سوٿِي
 sv-SE = سُوڊينِي
 sw = سَواهلِي
 syr = سيريائِي
+szy = ساڪِيزِيا
 ta = تامِل
 te = تيلگو
 teg = ٽيڪي
@@ -290,6 +291,17 @@ zza = زازا
 profile = پروفائِيل
 help = مدد
 contact = رابطا
+privacy = ذاتِي
+terms = شرطا
+cookies = ڪُوڪِيز
+documentation = دَستاوِيز
+content-license-text = <licenseLink>ڪرِيئيٽو ڪامن ليسنا<licenseLink> چي حسابا سُون مواد موجُود ڇَي
+share-title = امچِي برادرِي ۾ شامل هُوا
+share-text = مَشنِي نُون سِکاڻڻي ۾ مدد ڪرا تہ اصل ماڻسين ڪيُون بات ڪري هِيتن، آپڪا آواز عطِيا ڏِيا۔
+link-copied = لِنڪ ڪاپِي هُتِي گيلا
+back-top = پُوٺَي مٿي جاوا
+logout = لاگ آئُوٽ ڪرا
+donate = عطِيا ڏِيا
 
 ## Donate banner
 
