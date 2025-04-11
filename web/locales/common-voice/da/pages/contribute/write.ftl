@@ -63,6 +63,11 @@ add-sentences = Tilføj sætninger
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Tilføj og gennemgå sætninger, Tilføj spørgsmål, Transskriber lyd
+add-sentences-menu-item-tooltip = Tilføj sætninger på dit sprog
+review-sentences-menu-item-tooltip = Gennemgå sætninger på dit sprog
+add-questions-menu-item-tooltip = Tilføj spørgsmål på dit sprog
+transcribe-audio-menu-item-tooltip = Transskriber lydoptagelser på dit sprog
 
 ## MENU ITEM ARIA LABELS
 

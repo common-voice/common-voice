@@ -40,4 +40,8 @@ sc-criteria-item-1 = Ta raíchali osirúami we alá  osirúami nisa re
 sc-criteria-item-2 = Raíchali osirúami alabé námitami nísare
 sc-criteria-item-3 = Ta raíchali alabé aniwáami nísare
 sc-criteria-item-4 = Jápi re échi raíchali ayena alá nejéisa échi bacháwami raíchali jápi ríka katúili, rachíni ma &quot; seméro&quot;; échina batóna
+sc-criteria-item-5-2 = Jápi re échi raíchali osirúami ke alá nejéisa échi raíchali jápi katúika nokáli, rachíni échina; ;&quot ke nakí &quot;surto oná. Jápi rémi ke alá ikíaka, ayena pochípa alí ché biléana simíro
+sc-criteria-item-6 = Jápi re ma ke itéo ko raíchali jápi inéba, ¡támo kuíro ché napabúa wikabé raíchali!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = bawéra<icon></icon> ¿ Jéna ko jú bilé raíchali wé alábe a'a?
 report-sc-different-language = Sinúcho ríka nirá'a raicháliami

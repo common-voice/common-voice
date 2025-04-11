@@ -21,12 +21,16 @@ varying-pronunciations-explanation-2 = Hvis du på den anden side får indtrykke
 misreadings-explanation-2 = Meget almindelige fejl omfatter:
 misreadings-explanation-6 = Manglende slutningen af det sidste ord, fordi optagelsen blev afbrudt for hurtigt.
 misreadings-explanation-7 = Flere forsøg på at læse et ord.
+still-have-questions = Har du stadig spørgsmål?
 
 ## Sentence collection nav ids
 
 
 ## Sentence collection sidebar content
 
+citing-sentences-subheader-websites = Websteder
+citing-sentences-subheader-websites-explanation = Du kan inkludere webstedet, f.eks. "Common Voice - https://commonvoice.mozilla.org/"
+adding-sentences-subheader-punctuation = Tegnsætning
 adding-sentences-subheader-offensive-content = Stødende indhold
 reviewing-sentences-explanation-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Nej".
 reviewing-sentences-explanation-3 = Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
@@ -37,3 +41,5 @@ reviewing-sentences-explanation-4 = Hvis du løber tør for sætninger at gennem
 
 ## Question collection sidebar content
 
+dont-add-subheader = Tilføj ikke
+culturally-specific-questions = Kulturspecifikke spørgsmål
