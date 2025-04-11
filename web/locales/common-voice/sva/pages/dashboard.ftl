@@ -8,6 +8,10 @@ clips-you-validated = ისგუ ნამოწმან კლიპა̈რ
 todays-recorded-progress = ლა̈დი̄ პროგრეს Common Voice სგალჷირ კლიპარე მიხედვით
 todays-validated-progress = ლა̈დი̄  Common Voice პროგრეს კლიპა̈რჟი დადასტურებულ ლი
 stats = სტატისტიკა
+awards = ჯილდოა̈რ
+you = სი
+everyone = მა̈გ
+contribution-activity = აქტივობა წვლილისგა
 
 ## Custom Goals
 

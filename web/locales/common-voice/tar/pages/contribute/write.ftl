@@ -3,7 +3,9 @@
 write = Osayá
 write-instruction = Uchá<icon></icon> bilé osirúami échina dominio público
 sentence =
-    .label = Osirúami
+    .label = Wiká raíchali osirúami!
+sentence-input-placeholder = Naí uchá échi raíchali dominio público chi
+small-batch-sentence-input-placeholder = Naí uchá mujé raíchala jápi oná dominio público
 
 ## BULK SUBMISSION
 

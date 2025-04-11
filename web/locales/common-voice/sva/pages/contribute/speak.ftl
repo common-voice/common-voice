@@ -62,6 +62,8 @@ create-profile-button = ჟახა̈სყ პროფილ
 img-alt-success-checkmark = წარმატება̄̈ ნიშა̈ნ
 # menu item
 read-sentences = ქ'ა̄̈თჭოდა̄̈ნ წინადადება̄̈ლ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = ქა̄̈თჭოდა̈ნ წინადადება̄̈ლ<small>(შიშდ</small>)
 
 ## MENU ITEM TOOLTIPS
 
