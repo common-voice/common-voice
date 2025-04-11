@@ -12,6 +12,10 @@ awards = ჯილდოა̈რ
 you = სი
 everyone = მა̈გ
 contribution-activity = აქტივობა წვლილისგა
+top-contributors = მაჩე̄ნე მონაწილა̄̈ლ
+recorded-clips = სგალჷი̄რ ლკიპა̈რ
+validated-clips = ლჷდასტურა̄ვე კლიპა̈რ
+total-approved = ჰა̈დურდ ლჷდასტუ̄რე ლი
 
 ## Custom Goals
 

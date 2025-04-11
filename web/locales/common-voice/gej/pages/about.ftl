@@ -30,6 +30,9 @@ about-listen-text = né a kpɔ bé nyɔnu alo ŋusu gbèdotɔ a hlɛ nyàgbè aw
 
 ## How do I add a language
 
+about-playbook-how-add-language = le wo la sɔ gbèɖe sɔ kpé Common Voice o
+about-playbook-how-add-language-content-1 = Cucugbɔã kù émè kpɔ ɖa bé apo gbè<languageLink> à lè a<languageLink> né mu nyi nèné o a<strong> wò ɖo la ɖè sitia gɔmè ye wo la xɔ nyàgbèwo </strong>.
+about-playbook-how-add-language-translating-heading = ɖè siti gɔmè
 
 ## How does localization work
 
@@ -55,3 +58,4 @@ about-playbook-how-project-governance-content-7 = ɖe wo le ji la xɔ numèkɔk�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = leke wo do àlɔ common Voice le ci kpa ji ɖo.
