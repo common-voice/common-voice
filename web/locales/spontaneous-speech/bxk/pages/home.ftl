@@ -27,3 +27,5 @@ check-bubble-subtitle = Uchecka nga khulekasha khu matchingah nende kamakono
 data-bubble-title = <mark>Data</mark>
 data-bubble-subtitle = khuweleshanga data kutsila khumbuka
 contact-us = khwi rebekho
+contact-us-title = Wenyele khurambagana nende project yino, namwe khukhwigata alala nenafwe?
+contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>

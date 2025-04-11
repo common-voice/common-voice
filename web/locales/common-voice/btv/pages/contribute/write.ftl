@@ -14,6 +14,12 @@ sc-write-submit-confirm = میوں یقین تھو چہء او جملہ <wikiped
 sc-review-write-title = کشکجملے مہ جمہ گر ہاں
 sc-review-small-batch-title = مختلف جملے کش جمہ گرہ تھہ
 new-sentence-rule-1 = <noCopyright> نقل نہ گر </noCopyright>ممنوع (<cc0> </cc0>)
+new-sentence-rule-2 = فی جملہ 15 الفاظوں نو کم
+new-sentence-rule-3 = صحیحگرائمراستعمال گر
+new-sentence-rule-4 = صحیحاسپیلنگ آتلفظ استعمال گر
+new-sentence-rule-5 = نمبر آ خاص نشان نہء
+new-sentence-rule-6 = نہ بھار سو حروف
+new-sentence-rule-7 = مناسب حوالہ شامل گر
 
 ## BULK SUBMISSION
 
