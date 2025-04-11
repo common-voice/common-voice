@@ -158,9 +158,24 @@ download-press-pack = مھوريَ ڇپائيَ ريَ پيڪ نيَ ڊائون 
 ## Developers section
 
 developers-section-title = 130+ ٻوليون ۾ عوامي طور تيَ رسائي لائق اوپن اسپيچ ڊيٽاسيٽ
+developers-section-subtitle = ٽي ٽي ايس،ايس ٽي ٽي، اي ايس آر ھان ٻيجيَ اين ايل پي حوالي ھون مواد رو سيٽ۔ برادري رِي شراڪت زريعي ٺايا گيا۔
+# icon is an arrow that points to the right
+explore-datasets = مواد ريَ سيٽ نيَ جونچو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = اوپن، برادري رِي اڳواڻي ۾ مواد ريَ سيٽ رِي حمايت ڪرو
+read-sentences-link = جُملا پڙھو
+validate-readings-link = پڙھڻ رِي تصديق ڪرو
+contribute-link = لکت ريَ ڪورپس ۾ حصو ڏيو
+answer-questions-link = سوالون رو جواب ڏيو
+transcribe-answers-link = جوابون نيَ لکو
+review-transcriptions-link = لکت رو جائزو ليو
+contribute-text-link = لکت رو حصو ڏيو
+press-and-stories-link = ڇپائي ھان وارتائون
 
 ## Partner section
 
+partner-section-title = مھون ڀيݪا بائيوار ھو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٽيڪ ڪمپنيَ</bold>۔ھيڪ ترقي پزير گھڻي لسانيAI ريَ ماحولياتي نظام ھارو اوپن مواد ريَ سيٽ نيَ ٺاڻ ۾ انويسٽ ڪرو۔
