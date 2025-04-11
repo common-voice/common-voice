@@ -24,6 +24,7 @@ about-speak = pò nùpo
 about-listen = sè
 about-listen-text = né a kpɔ bé nyɔnu alo ŋusu gbèdotɔ a hlɛ nyàgbè awo àdodoemètɔ a.
 about-is-it-valid = ɖe wo dà àsi ɖo nyàlélékpɔwɔɛ kèyà ji a a
+about-is-it-valid-text = wo sɔna ɛ bé nyàlàlélé kpaɖe
 
 ## Community Playbook Content
 ## What is a language

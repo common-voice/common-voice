@@ -37,6 +37,8 @@ difficult-difficulty = ლეგა̄რჯ
 pro-difficulty = პროფ
 lose-goal-progress-warning = ისგუ მიზნი ჟი ლაცა̄დუნონოშ შეიძლება ჩუ̂ათუფა პროგრეს, ხედუ̂ა̄̈ჲ ათხე ჯუღუ̂ა.
 want-to-continue = ჯაკუმა ლიჯო̄დინე?
+finish-editing = მა̄̈ნკუ̂ი რედაქტირებას ხაზგჷრემა?
+lose-changes-warning = ათხე ამხა̈ნქა ქა̄̈ნჴდენი, ისგუ’ ნასყა̈უ̂ ცვლილება̄̈ლ ჩუჯითუ̂ფენი
 
 ## Goals
 
