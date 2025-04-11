@@ -115,6 +115,10 @@ get-started = شروع ڪرو <icon><icon>
 ## Action items section
 
 action-items-section-title = ڪامن وائس برادري رِي اڳواڻي ۾ مواد ٺاڻ ھارو ھيڪ مفت، اوپن سورس پليٽ فارم ھيَ۔
+action-items-section-subtitle = ڪو ڀِي منک لِکوڙي ھان ٻولوڙيَ مواد ريَ سيٽون نيَ وڙائيَ ݾگيَ ھيَ، ٺائيَ ھان بھتر ڪريَ آپرِي ٻولِي نيَ محفوظ ڪري، بحال ڪري ھان بلند ڪري ݾگيَ ھيَ۔
+scripted-card-header = لِکوڙي وات
+scripted-card-content = آپرِي ٻولِي ۾ جُملا زور ھو پڙھو ھان دنيا ۾ سڀ ھون وڌيڪ قابلِ اعتماد عوامي شرڪت آݪِي تقرير مواد ريَ سيٽ ۾ حصو ليو۔
+spontaneous-card-header = بيَ اختيار تقرير
 
 ## Community section
 
