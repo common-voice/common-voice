@@ -39,6 +39,12 @@ lose-goal-progress-warning = ისგუ მიზნი ჟი ლაცა̄�
 want-to-continue = ჯაკუმა ლიჯო̄დინე?
 finish-editing = მა̄̈ნკუ̂ი რედაქტირებას ხაზგჷრემა?
 lose-changes-warning = ათხე ამხა̈ნქა ქა̄̈ნჴდენი, ისგუ’ ნასყა̈უ̂ ცვლილება̄̈ლ ჩუჯითუ̂ფენი
+build-custom-goal = ჟ'ახა̈სყ სამომხმარებლო მიზან
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] ლოხმა̈რჯუ̂, ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზანშუ̂
+       *[other] ლოხმა̈რჯუ̂, ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზანშუ̂
+    }
 
 ## Goals
 
