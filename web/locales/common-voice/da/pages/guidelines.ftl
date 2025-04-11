@@ -31,6 +31,8 @@ public-domain = Offentligt domæne
 
 citing-sentences-subheader-websites = Websteder
 citing-sentences-subheader-websites-explanation = Du kan inkludere webstedet, f.eks. "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference-explanation = Du kan bruge akademisk referencestil, fx Harvard-stil: "Mozilla (2021) Common Voice. Tilgængelig på https://commonvoice.mozilla.org/ (Besøgt: 15. september 2021)"
+citing-sentences-subheader-offline-sources-explanation = For tekst i det offentlige domæne, der ikke er tilgængelig online, kan du bruge akademisk referencestil, fx Harvard-stilen: "Kirsten (2021) Mine digte i offentligt domæne"
 adding-sentences-subheader-length = Længde
 adding-sentences-subheader-length-explanation = Sætningen skal have færre end 15 ord.
 adding-sentences-subheader-spelling-punctuation = Stavning og tegnsætning

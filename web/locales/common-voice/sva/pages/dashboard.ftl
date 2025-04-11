@@ -14,8 +14,10 @@ everyone = მა̈გ
 contribution-activity = აქტივობა წვლილისგა
 top-contributors = მაჩე̄ნე მონაწილა̄̈ლ
 recorded-clips = სგალჷი̄რ ლკიპა̈რ
-validated-clips = ლჷდასტურა̄ვე კლიპა̈რ
+validated-clips = ლჷდასტუ̄რე კლიპა̈რ
 total-approved = ჰა̈დურდ ლჷდასტუ̄რე ლი
+overall-accuracy = სა̈ერთო სიზუსტე
+set-visibility = ჩუ̂ესგენ მიშგუ ლა̈სგიდ
 
 ## Custom Goals
 
