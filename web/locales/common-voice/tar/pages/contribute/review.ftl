@@ -18,3 +18,5 @@ sc-review-form-button-skip-shortcut = T
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-1 = Ta raíchali osirúami we alá  osirúami nisa re
+report-sc-different-language = Sinúcho ríka nirá'a raicháliami
