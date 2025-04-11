@@ -97,15 +97,22 @@ community-and-languages = ڀِراڌرِي انين ٻولِيُون
 
 about-menu-tooltip = ڀائيوارِيون، پريس انين وارتايُون، ڀِراڌرِي انين ٻولِيُون
 partnerships-menu-item-tooltip = امان ڀيڳا حِصو ليو
+press-and-stories-menu-item-tooltip = امارا ڀِلوگ ماٿيَ زائو يا امارا ٻارا مان لکو
+community-and-languages-menu-item-tooltip = ٻولِيُون انين ڀِراڌرِيُون انين عام آواز ڳوتو
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = آپشنَ مينيُو نا ٻارا مان
+partnerships-menu-item-aria-label = ڪامنَ وائيس ٿِي ڀائيوارِي نا ٻارا مان شِيکو
+press-and-stories-menu-item-aria-label = ڪامنَ وائيس ٿِي لاڳاپل پريس رِليز انين وارتايان ۿوُڌِي پوڄا نِي رسائِي حاصل ڪرو
+community-and-languages-menu-item-aria-label = ڪامنَ وائيس نِي مۮت ٿِي ڀِراڌرِي انين ٻولِيان نين ڳوتو
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = ٽيڪنولوجِي زين تمارِي ٻولِي ٻوليَ سي۔
 
 ## Action items section
 
