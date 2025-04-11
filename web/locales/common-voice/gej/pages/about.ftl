@@ -7,6 +7,10 @@ how-does-it-work-title-v2 = leké ye Common Voice wɔnà dɔ ɖo o
 ## How does it work section
 
 about-language-req-subtitle = àmèɖe le biɔ be ne wo sɔ gbèɖe kpe
+about-localization-title = sitiwɛbu a gɔ̃mèɖeɖe
+about-localization-subtitle = wo ɖè sitiwɛbu a lè gbè kèyà mè.
+about-sentence-collection-title = nyàgbèwo bé lélé
+about-sentence-collection-subtitle = wo xɔ nyàgbèwo bé né wo la téŋu hlɛ wo gbèkɔkɔyìji.
 
 ## Community Playbook Content
 ## What is a language
