@@ -21,6 +21,10 @@ how-to-cite = ¿Chí ni ríka citarima!
 how-to-cite-explanation-bold = Cita newá échina jápi chéa jú URL wéla sinéami rewála uchpeba échi obra.
 contact-us = Tamuje raíchiki
 add-sentence-success = 1 Bilé osirúami napabúrami
+add-sentence-error = Chá ríka jú jápi onámi niwáli moárami
+required-field = Pe´ríko osá jenái kaáchi
+single-sentence-submission = Nejáwami  bilépi moárami niráa
+small-batch-sentence-submission = Nejáwami moárami pe kuúchi grupo neráa
 
 ## BULK SUBMISSION
 
