@@ -74,3 +74,6 @@ help-sex-or-gender-changes-explanation = مھيَ منکون نيَ وڌيڪ ا�
 variant-contribution-options-header = مختلف تعاون را اختيار
 variant-contribution-help = ڪيَ ڀِي ٻولِي يا ٻولِي ريَ خاندون ۾ ڪجھ قسم ھان لھجا ھيڪ ٻيجيَ ھون تموم مختلف ھيَ۔ جيَ ٿونيَ ڪيَ خاص قسم ريَ وچ ۾ مشغول ھووڻ ۾ ڏُکائي ھوئيَ پڙِي، تو ٿيَ ايٿ آپريَ ترجيح بدليَ ݾگو ھو۔
 variant-contribution-option-1 = مھارِي ٻولِي ۾ مھنيَ سڀ قسمون را جملا ھان ڪلِپس مھنيَ ڏيکاݪو۔
+variant-contribution-option-2 = مھنيَ صرف مھاريَ قسم را جُملا ھان ڪلِپون ڏيکاݪو۔
+variant-contribution-warning-title = سڀ ڪلِپون ۾ اجون تائين ٻيجا ٽيگ ڪوني ھي!
+variant-contribution-warning-subtitle = جيَ ٿونيَ حصو ليڻ ۾ ڏکائي ھوئيَ پڙي، تو ٿيَ ڪيَ ڀِي وقت آپرِي ٻولِي ھارو سجو مواد جوئوڻ ھارُو واپس سوئچ ڪريَ ݾگو ھو۔
