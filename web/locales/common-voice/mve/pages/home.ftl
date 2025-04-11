@@ -68,16 +68,23 @@ username-email-not-demographic = ٿونرو يوزر نالو ھان اي ميل
 ## Landing
 
 welcome-staff = ڀلِي ڪار{ $company } عملو!
+help-contribute = ٿيَ ھيڪ ڪامن وائس پروفائل ٺائيَ ھان آپرِي آواز ۾ حصو ليَ ھيڪ قابلِ اعتماد اوپن سورس مواد رو سيٽ ٺاڻ ۾ مدد ڪريَ ݾگو ھو۔
+login-company = لاگ ان ۔ سائن اپ { $company }اي ميل ھون
 profile-not-required = حصو ڏيڻ ھارو کاتو ھوئوڻ ضروري ڪوني،جيستوئين اي مددگار ھي۔
+read-more-about = مھوريَ ابائوٽ پئيج تيَ وڌيڪ پڙھو
 
 ## NAV ITEMS
 
 answer-questions = سوالون را جواب ڏيو
 answer-questions-coming-soon = سوالون را جواب ڏيو <small>(جلدِي آڻ آݪو ھيَ)</small>
+review-transcriptions = لِکوڙيَ رو جائزو ليو
 review-transcriptions-coming-soon = لکوڙي رو جائزو ليو <small>(جلدِي آڻ آݪو ھيَ)</small>
 add-questions = سوال جمع ڪرو
 add-questions-coming-soon = سوال شامل ڪرو<small>ڇيڪوآڻ آݪو ھيَ</small>
 transcribe-audio-coming-soon = آڊِيو نَي لکو <small>(جلدِي آڻ آݪو ھيَ)</small>
+transcribe-audio = آڊيو نيَ لکو
+press-and-stories = ڇپائي ھان وارتائون
+community-and-languages = برادري ھان ٻوليَ
 
 ## MENU ITEMS TOOLTIPS
 
