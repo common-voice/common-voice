@@ -9,6 +9,8 @@ record-must-allow-microphone = Monekis tikkauilis micrófono makitsiko motlajtol
 record-no-mic-found = Machitlaj micrófono.
 record-error-too-short = Nesi machitlaj otikijto.
 record-error-too-long = Nesi sapanoa otiuejkauik.
+record-error-too-quiet = Mach otikkakej tlen otikijto.
+record-cancel = Mach ok xiktsiko.
 
 ## MENU ITEM TOOLTIPS
 

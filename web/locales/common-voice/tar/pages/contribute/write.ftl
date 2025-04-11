@@ -14,6 +14,9 @@ new-sentence-rule-3 = Uchá échi gramática alabé náli
 new-sentence-rule-4 = Uchá osiwámi alí kapólami achelía alá osayá
 new-sentence-rule-5 = Ké taralíami uchéka ke bilé teclá sinú iyéri
 new-sentence-rule-6 = Ke bile letra extranjera
+new-sentence-rule-7 = Osá ta cita alabé
+new-sentence-rule-8 = Échi osirúami jápi ríka bujáni nísare alí alá raicháliami (ke nóchali olalíami leeria)
+login-instruction-multiple-sentences = Chóta sesión ayena má registraripa kíti uchéba wikabé osirúami
 
 ## BULK SUBMISSION
 
