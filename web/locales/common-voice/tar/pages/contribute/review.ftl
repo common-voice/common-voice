@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Kémi cho rachíni bilé raicháliami. Pe ríko, sími échina <profileLink>perfil </profileLink>kíti rachínima bilé wiká ma ríka raicháwami
 sc-review-title = Inéa raíchali
 sc-review-loading = Echi programa nócha kíti ineba raíchali osirúami
 sc-review-select-language = Chápi bilé raíchali kíti alá ineba échi raíchali osirúami
@@ -53,3 +54,7 @@ review-error = Cha ikíli jápi alini inéa atíke osirúami
 review-error-rate-limit-exceeded = Wémi sapú ináro. Pe teíli iné échi osirúami alí we alá iné kíti alá ripíma
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We beláta i´seni walú niráa nakúliwi ba
+sc-redirect-page-subtitle-1 = Sentence Collector tobóa re échina plataforma bachá jápi oná Common Voice. Jípi ayena oméro osayá bilé raíchali alí <reviewURL>inéa </reviewURL>nijíwami <writeURL>échi osirúami </writeURL>bilépi niráa échina Common Voice
+sc-redirect-page-subtitle-2 = Ma newába naríwami échina <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> échina <emailLink>email</emailLink> ma.
+# menu item
+review-sentences = Inéa raíchali

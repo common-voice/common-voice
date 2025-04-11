@@ -18,6 +18,10 @@ about-voice-validation-title = gbèjisidàdàɖo
 about-voice-validation-subtitle = àmèɖéwo dà àsi ɖo nyàlélé kpaɖéwo ji.
 about-dataset-release-title = Nuwoɖèɖeto
 about-dataset-release-subtitle = mí ɖènà nuwó tó wètri tɔ sia wètri trɔ.
+about-subscribe-text = ɖe wò le ji la nɔ kàmè ku Common Voice à.
+about-speak = pò nùpo
+about-listen = sè
+about-listen-text = né a kpɔ bé nyɔnu alo ŋusu gbèdotɔ a hlɛ nyàgbè awo àdodoemètɔ a.
 
 ## Community Playbook Content
 ## What is a language
