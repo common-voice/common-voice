@@ -49,6 +49,13 @@ history_law_government = Chabéi niruúami kítira raichámi, raíchami jápi kw
 language_fundamentals = Fundamentos jápi ruami jú jápi ríka taráliami, osiwámi, wenómi ma
 # Sentence Domain dropdown option
 media_entertainment = Medios Alí kanílitiami
+# Sentence Domain dropdown option
+nature_environment = Kawíchi nirúami alí échi medio ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Noticia ruami jápi iki Alí jápi ikíi jípi
+# Sentence Domain dropdown option
+technology_robotics = Tecnología alí robótica
+sentence-variant-select-multiple-variants = Sineámi ríka raichawami/wikána nirá'a raichawami
 
 ## BULK SUBMISSION
 
