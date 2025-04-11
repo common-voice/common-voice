@@ -41,6 +41,10 @@ finance = Tema wenómi kítira
 service_retail = Servicios alí ralineáwami pe okua nira
 # Sentence Domain dropdown option
 general = Sinéami
+# Sentence Domain dropdown option
+healthcare = Tema salud kítira
+# Sentence Domain dropdown option
+history_law_government = Chabéi kítira raichalíami, raichámi kíti ke rosóa rika olárami niba Alí nulámi waluála
 
 ## BULK SUBMISSION
 
