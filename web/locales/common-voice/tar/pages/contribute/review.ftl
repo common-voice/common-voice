@@ -48,3 +48,8 @@ sc-review-rules-title = ¿Échi raíchali achá nejéi echí reglás?
 sc-review-empty-state = Jípi ko ké ité raíchali jápi che alá inéba jéna raicháli nati
 report-sc-different-language = Sinúcho ríka nirá'a raicháliami
 report-sc-different-language-detail = Osirúami jú sinú ríka raicháwami jápina inéa atíi
+sentences-fetch-error = Cha ikíli jápi alíni a'a chukúke osirúami
+review-error = Cha ikíli jápi alini inéa atíke osirúami
+review-error-rate-limit-exceeded = Wémi sapú ináro. Pe teíli iné échi osirúami alí we alá iné kíti alá ripíma
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = We beláta i´seni walú niráa nakúliwi ba
