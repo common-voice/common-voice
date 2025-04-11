@@ -1,5 +1,6 @@
 ## Contact Modal
 
+contact-title = kàdoxoma
 contact-form-name =
     .label = nyikɔ
 contact-form-message =
