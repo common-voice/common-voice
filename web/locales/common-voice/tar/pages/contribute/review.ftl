@@ -6,6 +6,9 @@ sc-review-select-language = Chápi bilé raíchali kíti alá ineba échi raích
 sc-review-no-sentences = Ma ke ité raíchali osirúami kíti che ala ineba. ¡<addLink> Che uchasi járe raíchali osirúami</addLink>!
 sc-review-form-prompt =
     .message = Ke alá omero nejá ala inérami,¿a ne wichíwali jú?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = osélichi jápi onámi máchi paála raíchali{ $sentenceSource }
 sc-review-form-button-reject = Ke nakía
 sc-review-form-button-skip = Pochía
 sc-review-form-button-approve = Seméra
@@ -15,6 +18,8 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
+sc-review-form-button-submit =
+    .submitText = pe kúlipi inelíki
 
 ## REVIEW CRITERIA
 
