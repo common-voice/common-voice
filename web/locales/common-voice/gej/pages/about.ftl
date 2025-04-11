@@ -27,6 +27,7 @@ about-listen-text = né a kpɔ bé nyɔnu alo ŋusu gbèdotɔ a hlɛ nyàgbè aw
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-3 = gbèɖe wo ɖo vòvòtoto gãɖewo
 
 ## How do I add a language
 
