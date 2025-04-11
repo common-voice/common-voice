@@ -12,6 +12,8 @@ record-error-too-long = Nesi sapanoa otiuejkauik.
 record-error-too-quiet = Mach otikkakej tlen otikijto.
 record-cancel = Mach ok xiktsiko.
 record-instruction = { $actionType }<recordIcon></recordIcon> satepan xikpoua tlen ijkuilijtok
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> keman titlamis
+record-three-more-instruction = ¡Ipan 3 peuas!
 
 ## MENU ITEM TOOLTIPS
 
