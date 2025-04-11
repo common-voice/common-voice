@@ -10,6 +10,10 @@ profile-form-age =
     .label = عمر
 native-language =
     .label = آپرِِي ٻوليَ
+profile-form-submit-save = جمع ڪرڻ
+profile-form-submit-saved = جمع هوئيڙِي
+# Gender
+other = ٻِيجو
 build-profile = پروفائل ٺاھو
 avatar = پروفائل
 profile-close = بند
