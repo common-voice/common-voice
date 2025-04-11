@@ -26,3 +26,4 @@ check-bubble-subtitle = Uchecka nga khulekasha khu matchingah nende kamakono
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Data</mark>
 data-bubble-subtitle = khuweleshanga data kutsila khumbuka
+contact-us = khwi rebekho
