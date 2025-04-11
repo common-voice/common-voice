@@ -20,6 +20,15 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = T
 sc-review-form-button-submit =
     .submitText = pe kúlipi inelíki
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ke bilé alá revisari ru échi raíchali osirúami.
+        [one] Bilé raíchali alá inérami. ¡Matetéra ba!
+       *[other] wiká raíchali alá inérami. !Matetéra ba!
+    }
+sc-review-form-review-failure = Ke ompáru katewá alá newárami raíchali. Pe alí che katewáli.
 
 ## REVIEW CRITERIA
 
