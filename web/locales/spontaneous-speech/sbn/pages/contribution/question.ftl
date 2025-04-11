@@ -1,5 +1,6 @@
 ## Question Page
 
+question-page-instruction = سوآل شآمل ڪرو <icon></icon>{ $currentLocale } مآڻهوٚآݩ کي جوآب ڏيڻ لآ
 question-dataset-language = ڊيٽآ سيٽ:{ $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->

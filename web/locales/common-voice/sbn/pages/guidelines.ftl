@@ -70,10 +70,12 @@ public-domain-explanation-2 = هَڪ مڦيٚد تڪريٚر ريٚ سُڃآڻپ
 public-domain-explanation-3 = پنڊ جآݩ پنڊريݩ دوستآݩ جآݩ ٻوٚليٚ برآدريٚ سآݩ گڏ جديٚد، آم ڳآلهآئڻ وآرآ جملا ٺآهو - مسآل تور 'لکڻ-اي-ٿُون' وسيٚلي.
 public-domain-explanation-4 = ليکآݩ، ڊرآمآ نگآرآݩ جآݩ اسڪريٚن رآئٽرآݩ سآݩ رآبتو ڪرو ائيٚݩ پُڇو تا ڪيٚ اهي پنڊري ڪم رو هَڪ ننڍڙو هيسو آوآميٚ ڊوميٚن لآ وڪڦ ڪرڻ لآ تيآر هُݩدآ.
 public-domain-explanation-5 = ايهڙي موآد کي  لݩڀو جيٿ ڪآپڦ رآئيٚٽ اڃآݩ تآئيٚݩ لآڳو نآ ٿئي۔ - مسآل تور گهڻآ ڪتآب جيڪي 1920 کآݩ اڳ ڇپيآ وهُڙآ هُݩدآ
+public-domain-explanation-6 = حڪومتآݩ، گير منآڦآ بکش تنزيٚمآݩ جآݩ ميٚڊيآ تنزيٚمآݩ سآݩ رآبتو ڪرو دآ ڏسو تا ڪيٚ اُئآݩ رو ڪو با ويب موآد، رپورٽوݩ جآݩ ٻيو موآد آوآميٚ ڊوميٚن لآ وڪڦ ڪري سگهجي دو.
 citing-sentences-explanation-1 = هوآلآݩ کي شآمل ڪرڻ لآزميٚ اهي تا جيٚݩ اسآݩ هَڪ چيڪ ڪري سگهوݩ تا جملآ آوآميٚ ڊوميٚن ميݩ اهيݩ ائيٚݩ ڪآپيٚ رآئيٚٽ ريٚ پآبنديٚ لآڳو ڪونهي۔
 citing-sentences-subheader-websites = ويب سآئيٚٽس
 citing-sentences-subheader-websites-explanation = اڀيٚݩ ويب سآئيٚٽ با شآمل ڪري سگهو دآ، مسآل تور ”ڪآمن وآئيٚس۔https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = تآليٚميٚ  هوآلو
+citing-sentences-subheader-academic-reference-explanation = اڀيٚݩ استمآل ڪري سگھو دآ تآليٚميٚ هوآلو، مسآل تور هآرورڊ هوآلو ”موزيٚلآ (2021) ڪآمن وآئيٚس۔ موجوده اهي https://commonvoice.mozilla.org/ (اجآزت اهي: 15 ستمبر 2021)“
 citing-sentences-subheader-offline-sources = آڦ لآئيٚن وسيٚلآ
 citing-sentences-subheader-offline-sources-explanation = آوآميٚ ڊوميٚن ري موآد لآ جيڪو آن لآئيٚن دستيآب ڪونهي، اڀيٚݩ استمآل ڪري سگهو دآ تآليٚميٚ هوآلي ڪرڻ وآرو اندآز مسآل تور هآورڊ ”اندآز“ جيس (2021) مآݩجي لآئيٚسنس ريݩ نزميݩ۔
 citation =
@@ -85,7 +87,9 @@ adding-sentences-subheader-length-explanation = جملي مينٚ پندرهآن
 adding-sentences-subheader-spelling-punctuation = اکر ائيٚنٚ نشآني
 adding-sentences-subheader-spelling-punctuation-explanation = جملا سهيٚ لکيل هوڻ کپي
 adding-sentences-subheader-speakable = ڳآلهآڻ ري ڪآبل
+adding-sentences-subheader-speakable-explanation = بهتر جملآ ڪُدرتيٚ ائيٚݩ گڦتگو وآرآ اهيݩ - او ڪݩهݩ لآ پڙهڻ ميݩ آسآن هوئڻ کپي۔ جڏهيݩ تا سوتيآتيٚ تنوآ ائيٚݩ جملآݩ ميݩ مکتليٚڦ لڦز اهم آهيݩ، اسآݩ پڻ ڪوشيٚش ڪري رهيآ اهوݩ تا ريڪآڊئيٚنگ جملآݩ کي اسآݩ ري رزآڪآر برآدريٚ لآ ممڪن هد تآئيٚݩ دلچسپ ائيٚݩ مزيدآر ٺآهيو وهي۔
 adding-sentences-subheader-numbers = انگ
+adding-sentences-subheader-numbers-explanation = مسآل تور تي مآکز موآد ميݩ ڪو با انگ نآ هوئڻ کپي ڇآڪآڻ تا اوٚ بلند آوآز سآݩ پڙهڻ سآݩ مسلآ پيدآ ڪري سگهيݩ دآ۔ نمبر کي پڙهڻ رو تريٚڪو تنآزر تي منهسر اهي ائيٚݩ ڊيٽآ سيٽ ميݩ مونجهآرو پيدآ ڪري سگهي دو۔ مسآل تور، نمبر "2409" کي سهيٚ تور تي "چوويهه سئو نوݩ" ائيٚݩ "ٻا هزآر چآر سئو نوݩ" ٻئيوݩ تريٚڪي سآݩ پڙهي سگهجي دو.
 adding-sentences-subheader-abbreviations = مکتليٚڦ ائيٚݩ الگ الگ
 adding-sentences-subheader-punctuation = نشآنيٚوݩ
 adding-sentences-subheader-special-characters = کآس اکر ائيٚݩ گير مُلڪيٚ اکر
@@ -94,6 +98,7 @@ reviewing-sentences-explanation-1 = جيڪڏهيݩ جملو مٿي ڏنل ميآ
 reviewing-sentences-explanation-2 = جيڪڏهيݩ جملو مٿي ڏنل ميآر کي پورو ڪوندو ڪري تا ”نآ“ وآري بٽڻ کي دٻآئو۔
 reviewing-sentences-explanation-3 = جيڪڏهيݩ اڀيٚݩ جملي کآݩ رآزيٚ ڪون اهوݩ تا اڀيٚݩ اُئي کي ڇڏي سگهو دآ ائيٚݩ اڳتي وهو۔
 reviewing-sentences-explanation-4 = جيڪڍهنٚ اڀآنٚ وٽ جآنچڻ لآ جملآ ڪونهي تي ٻيآ جملا شآمل ڪرو
+domain-explanation = ڊوميٚن جملي ريٚ موزو ڏآݩهݩ اشآرو ڪري دو۔ ڦيٚلهال، هيٺ ڏنل مآݩ چُنڊ ڪري سگهو دآ:
 
 ## Question collection ids
 
@@ -102,7 +107,11 @@ adding-questions = سوآل شآمل ڪرتآ رهو
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ڪيٚ سوآل کي جآم سُٺو ٺآهي دو۔
+what-makes-a-good-question-explanation = آوآميٚ شرآڪت ري ڊيٽآ سيٽس لآ هَڪ سُٺو سوآل هوئڻ کپي:
 what-makes-a-good-question-explanation-criteria-1 = آرآم سآݩ سمجھو ائيٚݩ جوآب ڏيو
+what-makes-a-good-question-explanation-criteria-2 = آم تور تي لآڳآپل هوئي۔
+what-makes-a-good-question-explanation-criteria-3 = نڪسآن ڪآر جآݩ نآگوآر ٻوٚليٚ استمآل نآ ڪرو، جآݩ نآ گُهرو۔
+what-makes-a-good-question-tip = اڀآݩ شآيد مکتليٚڦ تنآزر ائيٚݩ ڊوميٚن کي وسيٚ ڪرڻ تي گور ڪرڻ گُهرو دآ۔
 easy-to-understand = آسآن اهي سمجھڻ
 spelling-and-pronunciation = سهيٚ لکڻ ائيٚݩ نشآني
 spelling-and-pronunciation-explanation = استمآل ڪرو سهيٚ اکر ائيٚنٚ گرآمر
@@ -113,5 +122,6 @@ culturally-specific-questions = سڪآڦتيٚ رآ کآس سوآل
 culturally-specific-questions-explanation = ايهڙآ سوآل جيڪي سڪآڦتيٚ تور تي کآس اهيݩ، جآݩ جوآب ڏيڻ وآرآ ري  بآبت گهڻآݩ سوآل  پيدآ ڪريݩ دآ۔
 length-avoid-explanation = ڪو مآڻهوٚ سوآلآ رآ جوآب 15 سڪيٚنڊ ميݩ ڏيڻ ميݩ پريشآب ٿئي دو (وڌ مآݩ وڌ ڊگھآئيٚ)
 process-steps = امل جآݩ مرهلآ
+offensive-content-sensitive-information = نآگوآر موآد جآݩ هسآس مآلوٚمآت
 example-questions-subheader = مسآل لآ سوآل
 example-questions-explanation-1 = اڀيٚݩ لݩڀي سگهو دآ <examplePromptsLink>120   تڪڙآ مسآل ايئي شيٚٽ مآݩ۔</examplePromptsLink>
