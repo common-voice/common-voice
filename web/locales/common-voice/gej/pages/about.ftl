@@ -11,6 +11,8 @@ about-localization-title = sitiwɛbu a gɔ̃mèɖeɖe
 about-localization-subtitle = wo ɖè sitiwɛbu a lè gbè kèyà mè.
 about-sentence-collection-title = nyàgbèwo bé lélé
 about-sentence-collection-subtitle = wo xɔ nyàgbèwo bé né wo la téŋu hlɛ wo gbèkɔkɔyìji.
+about-voice-contrib-subtitle = àmè amèvèwo la do àlɔ àmè ku woabe gbèwo.
+about-voice-validation-title = gbèjisidàdàɖo
 
 ## Community Playbook Content
 ## What is a language
