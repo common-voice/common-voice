@@ -15,6 +15,7 @@ no-clips-to-validate = لاگيَ ھيَ ڪہ ايئيَ ٻولِي ۾ ھڻڻ ھ
 toggle-play-tooltip = پليَ موڊ نيَ ٽوگل ڪرڻ ھارو{ shortcut-play-toggle } نيَ دٻائو۔
 speak-paragraph = وائس ڪلِپ ريڪارڊ ڪرڻ مھوريَ اوپن مواد ريَ سيٽ نيَ ٺڻ رو ھيڪ لازمي حصو ھيَ، ڪجھ ڪھيَ ھيَ ڪہ اي مزيدار حصو پڻ ھيَ۔
 speak-goal-text = ڪلِپ ريڪارڊ ھوئيَ گيا
+listen-paragraph = دان ڪيوڙيَ ڪلِپون رِي تصديق ڪرڻ ڪامن وائس مشن ھارو برابر اھم ھيَ۔ ھڻو ھان معياري اوپن سورس وائس ڊيٽا ٺاڻ ۾ مھورِي مدد ڪرو۔
 listen-goal-text = ڪلِيپون رِي تصدِيق ڪِي گِي ھيَ
 hours-recorded = رِيڪاڊ ھوئيڙا ڪلاڪ
 hours-validated = تصدِق ھوئيڙا ڪلاڪ
@@ -22,6 +23,7 @@ voices-online = ھميَ آواز آن لائِين ھيَ
 todays-progress = آج رِي ترقِي
 help-reach-goal = مھورِي مدد ڪرو حاصل ڪرڻ ۾ { $goal }
 read-terms-q = ݾجا يا  سجا
+ready-to-record = آپرِي آواز رو دان ڏيڻ ھارو تيار ھو؟
 all-locales = ݾجا يا سجا
 today = آج
 x-weeks-short =
@@ -29,9 +31,24 @@ x-weeks-short =
         [one] ھڦتو
        *[other] { $count } ھڦتا
     }
+x-months-short =
+    { $count ->
+        [one] { $count }مھينو
+       *[other] { $count }مھينا
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }سال
+       *[other] { $count }سال
+    }
+help-make-dataset = مھونيَ ھيڪ اونچيَ معيار، عوامي طور تيَ اوپن مواد رو سيٽ ٺاڻ ۾ مدد ڪرو۔
+sign-up-account = اڪائونٽ ھارو سائن اپ ڪرو
+email-subscription-title = ايل اپ ڊيٽ ھارو سائن اپ ڪرو
+email-subscription-title-new = ڪامن وائس نيوز ليٽر،مقصد رِي ياد ڏيراڻ ھان پيش رفت رِي تازھ خبر ھارو سائن اپ ڪرو۔
 
 ## Account Benefits
 
+benefits = فائدا
 
 ## What's public
 
