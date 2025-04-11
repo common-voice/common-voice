@@ -36,12 +36,48 @@ misreadings-example-4 = انگوڙيا تيزي سون چلو گيو
 misreadings-tip-1 = هم ڇآن هوڻ کپي
 misreadings-tip-2 = اصلي مين اي لکيم ڪوني
 misreadings-tip-3 = ڪآمي ري ڪوني چيز
+background-noise-example-1 = ٿرائيسڪ دوري ري موٺي دائنورسور
+background-noise-example-2 = ٿرائيسڪ ري موٿي دائيناسور هيتي
+background-noise-example-3 = ٿرائيسڪ رو موٺو ڌائنوسور
+background-noise-example-4 = ٿرائيسڪ دوري ري موٺي دائنورسور
+background-noise-tip-1 = [آسي پآسي رو گوڙي ريٚ ويچ مينٚ ريٚڪآوٽ]
+background-noise-tip-2 = موآد رو ڪجه هيسو سڻ ڪوني سگھي ڇي
+background-voices-example-1 = ٿرائيسڪ ري موٿي دائيناسور هيتي ايڪ۔ آوآزي سون پڙو
+background-voices-tip-1 = ڪآئي تم آري ڇو ۔ ڌي يونٚ ٻولآئو
+volume-explanation = پڙيڙ وچ مين ڪودرتي آواز سونيم آوي تو او آوازين رد ڪر ڌو جڌي آواز وديڪ هووي تو ريڪودنگ ٺوٺ جآوي يا آم تو ري پر جڌي او اتر گھٽ هووي جيڪوتم موآد ليندو ڇي او مآلون آوي ڪي او ڪآئي ڪيرو ڇي
+reader-effects-explanation = گھڻي ٻوليوم مين ڪدرتي آواز هووي ڇي ريڪودنگي مين تم ڪڌي ڪڌي فآلتو ريڪودنگ ڪبول ڪرلو ڇو اون تم چيڪ ڪر لو يا او ني واضح ڪر لو مهرباني ڪرين ڪيڌوڙي ريڪودنگ يا ٻولي ڇلوڙي ڪمپيوٺر ري ريڪودنگ تو رد ڪر لو
+just-unsure-explanation = جڌي تم ني ڪوئي وآت يا نسييتي مين ڀيڙي نا هووي تو مهربآني ڪرين آپيري فسلي متآبڪ ووٺ ڌيدو جيڪدهن تم فيسلو ڪوني ڪر سڪو ڇو تو اسڪيپ ٻٽڻ استمال ڪرو آئي وآڙي ريڪودنگي مين نآڪو۔
+still-have-questions = آڃآنٚ سوآل ڇي
+contact-common-voice = آم آوآز ٽيٚمي سونٚ رآبتو ڪرو
 
 ## Sentence collection nav ids
 
+public-domain = آوآمي ڊوميٚن
+citing-sentences = هوآلو ڏي وآڙي جملآ
+adding-sentences = جملآ ميلآ ڌو
+reviewing-sentences = جملين ڌوبآرا ۮيکو
+sentence-domain = جملي رو ڍومين
 
 ## Sentence collection sidebar content
 
+citing-sentences-subheader-websites = ويب سآئيٽونٚ
+citing-sentences-subheader-websites-explanation = تم ويب سآئيٽي مينٚ بهڙي ڪر سڪونٚ ڇو ،ميسآل تور ،آم آوآزhttps://commonvoice.mozilla.org/
+citing-sentences-subheader-academic-reference = تهليٚمي هوآلو
+citing-sentences-subheader-academic-reference-explanation = تم استهمآل ڪر سڪونٚ ڇو اڪيڊمي ريڦرنسنگ اسلوب ،ميسآل تور پر  "Mozilla هآرورڊ اندآزي موجود ڇي 15سيپٽمبر2021  (2021)https://commonvoice.mozilla.org/Common Voice.
+citing-sentences-subheader-offline-sources = آڦ لآئن تريڪو
+citing-sentences-subheader-offline-sources-explanation = پبليٚڪ ڊومين ريٚ موآدي سآرو جيڪو آن لآئين موجود ڪوني ،تم استهمآل ڪر سڪو ڇو تهليٚمي هوآلي ڪري وآڙو اندآز ميسآل تور هآرورڊ اندآز ”جيس2021 مآئي پبليٚڪ لآئسنس “ رو نزمو
+citation =
+    .label = سمجهاڻو
+self-citation = آپير هوآلو
+self-citation-explanation = جيڪۮي تم موآد آپ ليکيي ڇو تو تم آپير آپ ڪي يونٚ بييآن ڪيۮي ڇو
+adding-sentences-subheader-length = لمبآئي
+adding-sentences-subheader-length-explanation = جملي مينٚ 15 لڦزي سونٚ گھٽ هوئڻ کپي
+adding-sentences-subheader-spelling-punctuation = هووي آئينٚ اوڪآڦ
+adding-sentences-subheader-spelling-punctuation-explanation = جملآ سئي لکڻ کپي
+adding-sentences-subheader-speakable = ٻوٚليٚ اسو
+adding-sentences-subheader-numbers = انگ
+adding-sentences-subheader-special-characters = کآس اکر آئينٚ گير ملڪي اکر
+adding-sentences-subheader-offensive-content = توهيٚن آميٚز موآد
 
 ## Question collection ids
 
