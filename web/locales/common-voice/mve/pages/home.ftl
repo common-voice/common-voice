@@ -179,3 +179,11 @@ press-and-stories-link = ڇپائي ھان وارتائون
 partner-section-title = مھون ڀيݪا بائيوار ھو
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٽيڪ ڪمپنيَ</bold>۔ھيڪ ترقي پزير گھڻي لسانيAI ريَ ماحولياتي نظام ھارو اوپن مواد ريَ سيٽ نيَ ٺاڻ ۾ انويسٽ ڪرو۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سماجي تنظيمون ھان محقق</bold>۔ مفت ۾ فائدا مند مواد رو سيٽ ٺائو، ميزباني ڪرو ھان ٻيجون نيَ ڏيو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>انسون دوستي</bold>۔مقمي جدت ھان ترقي نيَ تيز ڪرڻ ھارو ڊيٽا سيٽ رِي تخليق نيَ ھارو مالي تعاون ڪرو
+# icon is an arrow that points to the right
+get-in-touch-button = رابطي ۾ ريو<icon></icon>
+# Partners section
+our-partners-include = مھوري ڀائواري ۾ اي شامل ھي
