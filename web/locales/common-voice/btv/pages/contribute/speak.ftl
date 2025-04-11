@@ -37,8 +37,8 @@ review-cancel = جمہ گرو کینسل
 review-keep-recordings = رکاڈنگ سام
 review-delete-recordings = می ریکاڈنگ ڈیلیٹ گر
 review-terms = عام اواز استعمال گرے رے، تو اسئیں <termsLink>شرئط نو راضی تھو </termsLink> آ <privacyLink> پردا سو پالیسی نو</privacyLink>
-terms-agree = مہراضی تھو
-terms-disagree = مہراضی نہ تھو
+terms-agree = مہ راضی تھو
+terms-disagree = مہ راضی نہ تھو
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = اپئیں اواز دے سو شکریہ !
 first-cta-subtitle-text = اپئیں بارہ مہ منے گِھن ،تو ڈویلپر سو مدد گونݜ جل جمع ٹیکنالوجی سندے مہ
@@ -69,6 +69,10 @@ read-sentences-coming-soon = جملے پَڑ <small> (ھَلہ مہ یا) </smal
 
 speak-contribute-menu-tooltip = جملے پَڑ، سوال جواب
 read-sentences-menu-item-tooltip = امئ ریکاڈ گر اپیئں زیب مہ پڑے والہ جملے
+answer-questions-menu-item-tooltip = اپئیں طرف نو سوالوں سو جواب ریکاڈ گر آ فورًا اپیئں زیب مہ
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = منوو خوش گرے سو مینیو
+read-sentences-menu-item-aria-label = جملے پڑ  کاں چہء کمیونٹی مختلف زیبوں مہ جمہگے تھے
+answer-questions-menu-item-aria-label = نو سوال جمہ گر کمیونٹی سو دَن پڑےزو جواب دے سو دَن
