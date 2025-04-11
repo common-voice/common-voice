@@ -12,3 +12,9 @@ partnerships-governments-description = مھيَ ٽيڪنالاجي، جدت ھا
 partnerships-academia-header = يونيورسٽي، تعليمي ھان محقق
 partnerships-academia-description = کُلوڙي جدت مھوري ڪوم ريَ دل ۾ ھي۔تحقيقي تعاون، مواد ڀيݪو ڪرڻ يا انٽرويو ھارو،<emailFragment>رابطو ڪرو۔</emailFragment>
 partnerships-small-business-header = ننڊا ڪاروبار، جڪيَ ۾ ٽيڪ ھان اي آئي اسٽارٽ اپس
+partnerships-small-business-description = مھيَ سڌائين مواد استعمال ڪرڻ آݪو ھون ايون رِي ضرورتون ھان حواليَ ھون ھڻڻ رِي ڪوشش ڪرون ھون۔ ڊيٽا ڀيݪوڪرڻ آݪيَ پليٽ فارم تيَ تعاون ڪرڻ ھون وٺي مواد ري صحت رِي بصيرت فراھم ڪرڻ تائين، مھيَ ٿون ھون ھڻڻ چاھون ھون۔</emailFragment>
+partnerships-corporates-header = وڏي پيمانيَ تيَ ڪارپوريٽ ھان پليٽ فارم ڪمپنين
+partnerships-corporates-description = جيَ ٿيَ مواد ريَ سيٽ ريَ باريَ ۾ وڌيڪ ٻولڻ چاھو ھو، منصوبا ٺايوڙي پليٽ فارم رِي توسيع ۾ گڏيوڙِي انويسٽمينٽ ڪرڻ چاھو ھو يا تعاون را موقعا جونچڻ چاھو ھو،<emailFragment>مھونيَ ھيڪ لائن ڏيو</emailFragment>
+partnerships-our-partners = مھونرا ڀائيوار
+# menu item
+partners = ڀائيوار
