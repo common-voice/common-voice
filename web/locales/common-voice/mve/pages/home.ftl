@@ -144,12 +144,20 @@ download-contribution-certificate = آپرِي شراڪت را سرٽيفڪيٽ 
 download-contribution-certificate-content = جيَ ٿيَ ڪام وائس ۾ حصو ليو ھي تو آپريَ پروگرامون ھارو يا آپ ھارو ھيڪ سرٽيفيٽ ڊائون لوڊ ڪرو—اي ٿونريَ سوا ممڪن ڪوني ھوئيَ!
 # label for button
 download-contribution-certificate-action = آپرو سرٽيفڪيٽ ليو
+contribute-github = گِٽ ھب تيَ شراڪت ڪرو
+contribute-github-content = اي منصوبو ٿون جھڙو منکون ھون سوا ممڪن ڪوني ھوئيَ۔🎉 ڪامن وائس ھو ڀيݪا ھوڻ را ڪِترا ئي طريقا ھي۔ ٿونيَ حصو ليڻ ھارو ڪوڊنگ ڪرڻ رِي ضرورت ڪونِي!
+# label for button
+contribute-github-action = گِٽ ھب تيَ شراڪت ڪرو
 
 ## Featured section
 
+featured-section-title = ۾ نمايا ھوئوڙيَ
+# icon is an arrow that points downwards
+download-press-pack = مھوريَ ڇپائيَ ريَ پيڪ نيَ ڊائون لوڊ ڪرو<icon></icon>
 
 ## Developers section
 
+developers-section-title = 130+ ٻوليون ۾ عوامي طور تيَ رسائي لائق اوپن اسپيچ ڊيٽاسيٽ
 
 ## Get involved section
 
