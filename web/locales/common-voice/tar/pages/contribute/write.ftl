@@ -17,6 +17,10 @@ new-sentence-rule-6 = Ke bile letra extranjera
 new-sentence-rule-7 = Osá ta cita alabé
 new-sentence-rule-8 = Échi osirúami jápi ríka bujáni nísare alí alá raicháliami (ke nóchali olalíami leeria)
 login-instruction-multiple-sentences = Chóta sesión ayena má registraripa kíti uchéba wikabé osirúami
+how-to-cite = ¿Chí ni ríka citarima!
+how-to-cite-explanation-bold = Cita newá échina jápi chéa jú URL wéla sinéami rewála uchpeba échi obra.
+contact-us = Tamuje raíchiki
+add-sentence-success = 1 Bilé osirúami napabúrami
 
 ## BULK SUBMISSION
 

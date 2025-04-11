@@ -11,6 +11,7 @@ record-error-too-short = Nesi machitlaj otikijto.
 record-error-too-long = Nesi sapanoa otiuejkauik.
 record-error-too-quiet = Mach otikkakej tlen otikijto.
 record-cancel = Mach ok xiktsiko.
+record-instruction = { $actionType }<recordIcon></recordIcon> satepan xikpoua tlen ijkuilijtok
 
 ## MENU ITEM TOOLTIPS
 
