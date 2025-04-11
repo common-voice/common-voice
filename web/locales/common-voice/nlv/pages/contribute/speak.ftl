@@ -22,6 +22,9 @@ share-clip = Xiktitlani motlajtol
 share-common-voice = Xiktitlani itech Common Voice
 review-instruction = Xikmotili uan oksepa xiktsiko tla monekis
 record-submit-tooltip = { $actionType } xiktitlani keman yiyetos
+clips-uploaded = ¡Yomokak!
+record-abort-title = ¡Tikneki achto tiktlamiltis?
+record-abort-text = Tla tikisas, tikpolos tlen yotikchi
 
 ## MENU ITEM TOOLTIPS
 
