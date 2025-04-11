@@ -12,6 +12,8 @@ listen-abort-cancel = ნომ'ა̄ქუცა ლიმწუ̂მანე
 listen-abort-confirm = ქა̄თსურილ ლიმწუ̂მა̄ნე
 # Menu item
 validate-readings = გადაამოწმე ლიჭუ̂და̄̈ნი̄
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ლჭუ̂და̄̈ნი̄ ლიდასტუ̂რე <small>(შიშდ</small>)
 
 ## MENU ITEM TOOLTIPS
 

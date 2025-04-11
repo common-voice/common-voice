@@ -1,6 +1,9 @@
 ## WRITE PAGE
 
 write = Osayá
+write-instruction = Uchá<icon></icon> bilé osirúami échina dominio público
+sentence =
+    .label = Osirúami
 
 ## BULK SUBMISSION
 
