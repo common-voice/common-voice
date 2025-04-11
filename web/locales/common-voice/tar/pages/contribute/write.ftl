@@ -35,6 +35,12 @@ sentence-domain-select-placeholder = Bikía tema chápi (binoi ikía)
 agriculture_food = Ichiwáami alí kowáami
 # Sentence Domain dropdown option
 automotive_transport = Tema wikanátami namúti jápi tamo jareána yúro
+# Sentence Domain dropdown option
+finance = Tema wenómi kítira
+# Sentence Domain dropdown option
+service_retail = Servicios alí ralineáwami pe okua nira
+# Sentence Domain dropdown option
+general = Sinéami
 
 ## BULK SUBMISSION
 
