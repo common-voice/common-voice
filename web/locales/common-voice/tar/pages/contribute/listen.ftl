@@ -24,3 +24,5 @@ review-transcriptions-menu-item-tooltip = Alá revisari osirúami binói raichá
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Menú jápi oná aní námiki
+validate-readings-menu-item-aria-label = Néa achá alá ka raíchali moárami jápi juáli échi miembros Common Voice
+review-transcriptions-menu-item-aria-label = Iné osirúami echi raíchali moárami
