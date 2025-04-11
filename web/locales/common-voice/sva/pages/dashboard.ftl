@@ -35,6 +35,8 @@ easy-difficulty = ჰა̈დუ̂ილ ლი
 average-difficulty = საშუ̂ალო
 difficult-difficulty = ლეგა̄რჯ
 pro-difficulty = პროფ
+lose-goal-progress-warning = ისგუ მიზნი ჟი ლაცა̄დუნონოშ შეიძლება ჩუ̂ათუფა პროგრეს, ხედუ̂ა̄̈ჲ ათხე ჯუღუ̂ა.
+want-to-continue = ჯაკუმა ლიჯო̄დინე?
 
 ## Goals
 
