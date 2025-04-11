@@ -25,6 +25,11 @@ add-sentence-error = Chá ríka jú jápi onámi niwáli moárami
 required-field = Pe´ríko osá jenái kaáchi
 single-sentence-submission = Nejáwami  bilépi moárami niráa
 small-batch-sentence-submission = Nejáwami moárami pe kuúchi grupo neráa
+bulk-sentence-submission = Nejáwami wiká niráa moárami
+single-sentence = Moárami binéli
+small-batch-sentence = Pe táa grupo niráa
+bulk-sentence = Walú grupo niráa
+sentence-domain-combobox-label = Tema échi moárami niráa
 
 ## BULK SUBMISSION
 
