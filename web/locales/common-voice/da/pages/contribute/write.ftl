@@ -56,6 +56,7 @@ small-batch-response-message =
         [one] { $uploadedSentences } af 1 sætning indsamlet. Klik <downloadLink>her</downloadLink> for at downloade afviste sætninger.
        *[other] { $uploadedSentences } af { $totalSentences } sætninger indsamlet. Klik <downloadLink>her</downloadLink> for at downloade afviste sætninger.
     }
+small-batch-sentences-rule-1 = Følg retningslinjerne fra "Hvilke sætninger kan jeg tilføje?"
 small-batch-sentences-rule-2 = Tilføj en sætning pr. linje
 small-batch-sentences-rule-4 = Tilføj op til 1.000 sætninger
 # menu item

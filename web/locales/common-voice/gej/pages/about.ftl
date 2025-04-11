@@ -51,6 +51,7 @@ about-listen-text = né a kpɔ bé nyɔnu alo ŋusu gbèdotɔ a hlɛ nyàgbè aw
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-7 = ɖe wo le ji la xɔ numèkɔkɔ so miabe dukpɔkplɔ ŋuti a
 
 ## How is Common Voice funded
 

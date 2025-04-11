@@ -31,8 +31,14 @@ public-domain = Offentligt domæne
 
 citing-sentences-subheader-websites = Websteder
 citing-sentences-subheader-websites-explanation = Du kan inkludere webstedet, f.eks. "Common Voice - https://commonvoice.mozilla.org/"
+adding-sentences-subheader-length = Længde
+adding-sentences-subheader-length-explanation = Sætningen skal have færre end 15 ord.
+adding-sentences-subheader-spelling-punctuation = Stavning og tegnsætning
+adding-sentences-subheader-spelling-punctuation-explanation = Sætningen skal være stavet korrekt.
+adding-sentences-subheader-abbreviations = Forkortelser og akronymer
 adding-sentences-subheader-punctuation = Tegnsætning
 adding-sentences-subheader-offensive-content = Stødende indhold
+reviewing-sentences-explanation-1 = Hvis sætningen opfylder kriterierne ovenfor, skal du klikke på knappen "Ja".
 reviewing-sentences-explanation-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Nej".
 reviewing-sentences-explanation-3 = Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
 reviewing-sentences-explanation-4 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!

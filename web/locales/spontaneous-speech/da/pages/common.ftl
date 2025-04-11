@@ -12,6 +12,7 @@ coming-soon = Flere sprog kommer snart
 # Toast message that is displayed when an item is skipped
 skipped = Sprunget over
 audioplayer-header = Lyt
+guidelines = Retningslinjer
 # For the button to skip an item
 skip-button = Spring over
 submit-button = Indsend

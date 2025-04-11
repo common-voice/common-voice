@@ -20,6 +20,7 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
+sc-review-form-keyboard-usage-custom = Ayena cho oméri técla iséni cho ríka olá: kítimi a { sc-review-form-button-approve-shortcut } seméroma, alí { sc-review-form-button-reject-shortcut }kítimi ke nakíma, alí { sc-review-form-button-skip-shortcut }semeróa
 sc-review-form-button-submit =
     .submitText = pe kúlipi inelíki
 # Variables:
