@@ -32,8 +32,11 @@ sc-review-form-reviewed-message =
         [one] i
        *[other] { $sentences } mààtǝ̀ sàrà. ñán tǝ̀mǝ́r !
     }
+sc-review-link = gbèŋgǝ̀lʊ́ŋ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = gbèŋgǝ̀lʊ́ŋ pààtǝ̀
+sc-criteria-title = gbèŋgǝ̀lʊ́ŋ pààtǝ̀
 # menu item
 review-sentences = wììl mààtǝ̀
