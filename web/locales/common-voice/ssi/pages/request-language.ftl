@@ -18,3 +18,6 @@ request-language-form-info-explanation-list-2 = اگر ٹھا <isoCodeLink>ہے 
 request-language-form-info-explanation-list-3 = ویب سائٹیں کی لنکس جکو ٻولیا کُو سمجݨیم مھاری ساہیتا کری سِکتے ہے
 request-language-google-recaptcha-required = اگر تھم آگے ودھݨا چاوتے ہے تو ریکیپچا کی جرورت ہے
 request-language-google-recaptcha-error = ریکیپچا کے سات کائیں گلت ہویا۔ کِرپا کری پُٹھا جتن کرو۔
+# Success page
+request-language-success-heading = دھنواد! تھمُون ایک نئوی ٻولیا کی ٻُوجھ تاچھ گِھلائی ہے
+request-language-success-list-1 = تھم کُو مھارے پڑاو پَربھنداکا کی ترپھاس ایک ای میل پراپت ہوݨا چاہئے جس میں تھاےی ٻولیا کُو سادی آواجام سیمل کرنے کے کدمے کی وِکھیا کی جاݨی چاہئے۔
