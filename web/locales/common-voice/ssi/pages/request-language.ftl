@@ -25,3 +25,12 @@ request-language-success-list-2 =
     مھارے پڑاو پَربھندیک جما کرنے نتر تھم سے سمپرک کروں گے
     ودھیک ساہیتا، اور اگر ہے تو تھم کو بھتاݨے نتر
     پہلسے ہی تھاری ٻولیاپ کام کرنواڑا پڑاو
+request-language-success-list-3 =
+    اگر تھم کائیں دؔنیم ہم سے نائی سُݨتے ہے،
+    <emailLink>{ $email } پے پُگو</emailLink>
+    اور ہم تھارے کن پُٹھے جاوں گے!
+request-language-error =
+    ہوئی سِکتا ہے کہ ہمکُو یو اپیل پراپت نائی ہوئی ہو۔ کِرپا کری ہمکُو سُدا ای میل کرو
+    <emailLink>{ $email } پے اور</emailLink> ہم تھارے کن پُٹھے جاوں گے!
+request-for-scripted-speech-toggle = لِکھوڑے بھاشݨا کی اپیل
+request-for-spontaneous-speech-toggle = سوابھاویک بھاشݨا کی اپیل
