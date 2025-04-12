@@ -52,6 +52,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = დაისახე მიზან
 cant-decide = დეშ გადაწყვიტეა?
+activity-needed-calculation-plural =
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                               *[other] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                               *[other] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                               *[other] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                               *[other] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                               *[other] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                               *[other] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                               *[other] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                               *[other] { $totalHours } საღა̈თ ჩუისკეთი { $periodMonths } თუ̂ეილდისგა ლახე { $people } მა̄რე ისყუნი { $clipsPerDay } ნა̈ირუ̂ს ლადა̈ღისგა.
+                            }
+                    }
+            }
+    }
 how-many-per-day = გუნ ხოჩა! ოშა კლიპ ლადა̈ღისგა?
 how-many-a-week = გუნ ხოჩა! ოშა კლიპ ნაგზაისგა?
 which-goal-type = ლიგჷრგა̈ლი ჯაკუ, ლიჰუ̂ნა̈რი ჰა ერქჷდა?

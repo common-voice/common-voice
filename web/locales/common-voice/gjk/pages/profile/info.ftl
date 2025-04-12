@@ -61,3 +61,4 @@ email-subscriptions = اِي ميل سبسڪرپشن
 download-profile = مارو ڊيٽا ڊائونلوڊ ڪرو
 contribution-experience = حِصو ليڌا نو تجربو
 skip-submission-feedback = جمع ڪرايا نِي رائي نين ميلِي ڄو
+skip-submission-description = حِصو لِيڌا ٽاڻي جمع ڪرو تو ڪلڪ ڪريا وانۿين رائي ۮِيڌا وارو مرحلو ميلِي ۮشي۔ حِصو ليڌا نو عمل سڌو آول پانس رڪارڍينگان ڪان تصڌيقي مرحلان ٿِي جارِي رشي
