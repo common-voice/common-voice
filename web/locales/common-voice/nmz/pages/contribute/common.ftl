@@ -70,9 +70,9 @@ shortcut-record-toggle-label = rʊ́wʊ́ŋ/ rǝ̀sʊ̀ŋ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = rɔ̀ɔ̀n kpááwʊ́ŋ
 shortcut-discard-ongoing-recording = rǝ̀lìínɖǝ̀ wììr
-shortcut-discard-ongoing-recording-label = kɨ̀sǝ̀ wʊ̀tã̀ŋka ŋ̀ wɩ̀ nǝ̀ŋkpáná
-shortcut-submit = sʊ́wɩ́wʊ́ŋ
-shortcut-submit-label = jèkǝ̀ wʊ̀tàsǝ̀nsǝ̀ ŋ̀ kpàà nà
+shortcut-discard-ongoing-recording-label = ràà làn tóm wómpǝ̀ ŋ̀ kpáá ná kà tǝ̀mǝ̀r
+shortcut-submit = rǝ̀sʊ́wɩ̀ɩ̀r
+shortcut-submit-label = jèkǝ̀ tóm kʊ́kpáám
 request-language-text = mɩ́ wʊ́tã́ŋ rʊ́kʊ̀ tã̀ŋ cè
 request-language-button = há wʊ́tã́ŋ
 

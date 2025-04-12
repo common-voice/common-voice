@@ -66,6 +66,8 @@ read-sentences-coming-soon = Hlɛn enyɔgbewo<small>(gabume)</small>
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Hlɛn enyɔgbewo, ɖo enyɔwo ŋú
+read-sentences-menu-item-tooltip = Lekɔ enyɔgbe cewo yí e hlɛnkɔ le tɔwo gbe me ɖɛ́
+answer-questions-menu-item-tooltip = Lekɔ biabia cewo ŋú yí e ɖokɔ kuɖo aseŋu cewo yí e kankan kuɖo amewo ɖɛ́
 
 ## MENU ITEM ARIA LABELS
 
