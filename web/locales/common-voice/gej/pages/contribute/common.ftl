@@ -4,6 +4,11 @@ contribute = dó àlɔ àmè / kpé ɖo amè ŋuti
 review = kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
 skip = va yi
 shortcuts = mɔsɔ̀sɔ̀ɛwo
+clips-with-count-pluralized =
+    { $count ->
+        [one] nyàlélékpaɖe
+       *[other] nyàlélékpaɖewo
+    }
 goal-help-recording = wò ye na  ye Common Voice be gbè sia gbè be taɖojinu sɔ kuɖo nyàlélé ŋuti <goalPercentage></goalPercentage>le kàvè takpo ŋuti a va émè. a
 goal-help-validation = to  ji  wò a Common Voice bé gbè sía gbè bé asidadaɖonujíwo taɖojinu <goalPercentage> kpɔ émè vává.
 contribute-more = sɔ̀ gbè la wɔ̀ { $count } wú.
