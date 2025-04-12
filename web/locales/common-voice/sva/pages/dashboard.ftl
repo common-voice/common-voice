@@ -63,6 +63,7 @@ n-clips-pluralized =
        *[other] { $count } კლიპა̈რ
     }
 help-share-goal = ლა̈ნმა̈რჯუ̂ ხოფშირა ჰერლე ლა̈თხის, გააზიარე ისგუ მიზან
+confirm-goal = ჩვათდასტურა̈ვ მიზან
 
 ## Goals
 
