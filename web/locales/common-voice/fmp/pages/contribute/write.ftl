@@ -101,11 +101,35 @@ too-many-files = nzhǐnu yə̌
 small-batch-instruction = <icon></icon> cwǐ' njá'nu tαnjə́ nά siī nkwe pʉ
 multiple-sentences-error = pά ǒ lα cwí' njá'nu tαndjə̄ ntiē' cah ndα̌' cāmshʉ' bᾱ
 exceeds-small-batch-limit-error = pά ǒ lα hᾱ yāā tōh njá'nu 1000
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ndhʉ̌ lah ncáh ku'. Pat mfʉ́ά'sí 1 mbhʉ̄
+       *[other] ndhʉ̌ lah ncáh ku'. Pat mfʉ́ά'sí { $retryLimit } mbhʉ̄
+    }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
         [one] nά 1    pó kāmsī
        *[other] nά { $totalSentences } njá'ghə pó kāmsī lά
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] ǒ yá' kwēn nά ndhʉ̌ lah ncáh nά bé pαα le. Nᾱ' mbīᾱ 1 mbhʉ̄
+       *[other] ǒ yá' kwēn nά ndhʉ̌ lah ncáh nά bé pαα le. Nᾱ' mbīᾱ { $retryLimit } mbhʉ̄    tᾱ nhᾱ njá'nu fī. Pα̌ pén nά pīᾱ zǒ !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] ǒ yá' kwēn nά ndhʉ̌ lah ncáh nά bé pαα le. Nᾱ' mbīᾱ 1 ci'
+       *[other] ǒ yá' kwēn nά ndhʉ̌ lah ncáh nά bé pαα le. Nᾱ' mbīᾱ { $retryLimit } ci'  tᾱ nhᾱ njá'nu fī. Pα̌ pén nά pīᾱ zǒ !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] pó kām tα' njā'nǔ nά 1
+       *[other] { $totalSentences } njá'nu pó tīā lά nά. Nǒ'  <downloadLink>here</downloadLink> náh ntēh njá'nu pó wᾱ' lά
     }
 small-batch-sentences-rule-1 = yū' mbʉ́άnǎk kǎmnu lά «Yaā njá'nu tά pά n ncwǐ nά ā?»
 small-batch-sentences-rule-2 = cwǐ' tα' njā'nǔ nά mbαyāā nka' lᾱ
