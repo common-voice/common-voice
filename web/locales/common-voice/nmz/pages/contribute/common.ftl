@@ -131,6 +131,7 @@ contribution-background-noise-example-1-fixed-title = <strong>[ tìlúŋ]</str
 contribution-background-noise-example-2-fixed-title = táàr gbénɖǝ̀ sǝ̀sònɖǝ̀<strong> [gbésúŋ</strong>]
 contribution-background-noise-example-2-explanation = [àà nɩ̀ɩ̀ mààtǝ̀ nàntǝ́r]
 contribution-background-noise-example-3-fixed-title = <strong>[tílímtílím]</strong>táàr gbéná sǝ̀sòná<strong> [tílímtílím]</strong>
+contribution-background-voices-title = kɩ̀mã̀ŋ rʊ̀ kʊ̀kʊ̀wèèsǝ̀
 contribution-background-voices-example-1-explanation = ŋ̀ kʊ́ŋ já<strong> [jàà nǝ̀ŋ núwã́ŋ kàr]</strong>
 contribution-volume-title = fòlíím
 contribution-volume-description = fòlíím lɔ̀sʊ́ŋ líŋ kálrá cólààná. ɩ́ kɨ́sɨ́ nǝ́ŋ núwã́ŋ kpàwʊ̀ŋ pèl tǝ̀dǝ̀lí nǝ̀ ʊ́ lí wóm núwã̀ŋ sǝ̀ fòlíím kǝ̀l kpáwʊ́ŋ jàà tɨb nà. wóntǝ̀ jékǝ̀ nǝ̀ŋ jà nɩ̂ nǝ́ŋ ɩ́ tá kál mààtǝ̀.
