@@ -4,7 +4,17 @@
 
 ## Languages
 
-aa = afar
+aa = afargbe
+aat = arvanitikigbe
+ab = àbkazigbe
+abb = bãkonigbe
+ace = àcehigbe
+ady = adigenigbe
+af = afrikan
+aln = gɛgigbe
+am = amaritikigbe
+an = aragonigbè
+ar = arabiagbè
 
 # [/]
 
