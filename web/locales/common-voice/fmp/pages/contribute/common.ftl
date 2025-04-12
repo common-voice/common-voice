@@ -11,6 +11,10 @@ clips-with-count-pluralized =
     }
 goal-help-recording = pen mᾱngʉ tᾱ  Common Voice kwēn nά <goalPercentage></goalPercentage> yi túnǔ nkwelīē'  { $goalValue } lo'tαndα' !
 goal-help-validation = pen mᾱngʉ tᾱ  Common Voice kwēn nά ,  <goalPercentage></goalPercentage> yi túnǔ nkwelīē'  { $goalValue } pēntαndα' !
+contribute-more =
+    { $count ->
+       *[other] ǒ mʉnkwé' lah mbát ngʉ́  { $count } ncwí í  ?
+    }
 speak-empty-state = pαh kα' pátngʉ́ njá'nu lah ndó' tαndα̌' nά bé ghə le...
 no-sentences-for-variants = pαh kα' pátngʉ́ mó' njá'nu mα pó tie tαndα̌' nά bé ghə le ... Mó'ntie' mα njá'nǔ nά ghə̌ yi cámko sí' njǎt wū bᾱ ! O bά njū' nā ō pəpē', mα pά o cōp mbʉ́άnak náh ndά'sí mó' njá'nu mα ghə zǒ.
 speak-empty-state-cta = fʉα'sǐ njá'nu

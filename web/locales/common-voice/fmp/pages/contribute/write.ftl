@@ -101,12 +101,6 @@ too-many-files = nzhǐnu yə̌
 small-batch-instruction = <icon></icon> cwǐ' njá'nu tαnjə́ nά siī nkwe pʉ
 multiple-sentences-error = pά ǒ lα cwí' njá'nu tαndjə̄ ntiē' cah ndα̌' cāmshʉ' bᾱ
 exceeds-small-batch-limit-error = pά ǒ lα hᾱ yāā tōh njá'nu 1000
-# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
-rate-limit-toast-message-minutes =
-    { $retryLimit ->
-        [one] { $uploadedSentences }  njá'zū pó kámsī  nά... { $totalSentences }
-       *[other] { $uploadedSentences }njá'nu mα pó kāmsī nά  { $totalSentences }
-    }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
