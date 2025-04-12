@@ -8,7 +8,8 @@ listen-empty-state = rà tà tàsǝ́ wɩ́ɩ́nʊ́ŋ kà máátǝ̀ sǝ�
 listen-empty-state-variants = ʊ̀ wɩ̀ɩ̀ sǝ́ mɩ́ wʊ́tã́ŋ tóm témpá! wáà càrʊ́ mɩ́, ɩ́ pɩ́sʊ́ sɩ̀ ɩ̀ lɔ̀ɔ̀sǝ̀ rʊ́rǝ́tǝ̀ ʊ́ jél nɩ̀nà mɩ̀ wʊ́tãŋ tà mààtǝ̀.
 listen-loading-error = rà tà pɩ́ɩ́sǝ̀ sǝ̀ ràhíwú àkèmsǝ̀nʊ̀ŋ tóm sǝ̀ rà kàl. ʊ́ tàsàà ɩ̀ pǝ̀sǝ̀ nǝ̀ ɩ́ páásǝ̀.
 listen-abort-title = ŋ̀ cí sǝ̀ ŋ̀ tɩ́ɩ́sǝ̀ tóm pǝ́  tìsùŋ já?
-listen-abort-cancel = tìsù sǝ́mpǝ́
+listen-abort-cancel = tìsùù sǝ́mpǝ́
+listen-abort-confirm = tɩ̀ɩ̀sǝ̀ tìsùŋ
 # Menu item
 validate-readings = tɩ́ɩ́sǝ̀ kèmsʊ̀ŋ
 # text wrapped in <small></small> will be shown in a smaller font size
@@ -16,7 +17,7 @@ validate-readings-coming-soon = tìsì kèmsǝ̀nʊ̀ŋ<small> ( wómpǝ̀ k
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = tɩ́ɩ́sǝ̀ kèmsʊ̀ŋ, wììl máátǝ̀
+listen-contribute-menu-tooltip = tɩ́ɩ́sǝ̀ kèmsʊ̀ŋ, wììl ŋ́ ná há máátǝ̀ sàrà já
 validate-readings-menu-item-tooltip = ɩ́ jèl mɩ́ ríjáfàláá tísí sǝ̀ tóm pǝ̀ ɩ́ kpàà nà sàràà
 
 ## MENU ITEM ARIA LABELS
