@@ -53,6 +53,7 @@ thanks-for-voice-toast-error = Le gbeɖiɖi nyanyanana sɔsɔɖál lɔ me lɔ, 
 first-cta-gender-select-default-option = Wɔ cancan ɖeká
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Akpe nɔwo ɖe tɔwo gbeɛ nana ŋú
+second-cta-subtitle-text = le axa ɖéká jiɔ, á téŋ kpɔ́ tɔwo nuwɔna yí á nɔ kame kuɖo gbenáná kpekpeɖéŋú hasoso ɖeka
 
 ## MENU ITEM TOOLTIPS
 
