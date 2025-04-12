@@ -133,6 +133,7 @@ contribution-background-noise-example-2-explanation = [àà nɩ̀ɩ̀ mààt
 contribution-background-noise-example-3-fixed-title = <strong>[tílímtílím]</strong>táàr gbéná sǝ̀sòná<strong> [tílímtílím]</strong>
 contribution-background-voices-title = kɩ̀mã̀ŋ rʊ̀ kʊ̀kʊ̀wèèsǝ̀
 contribution-background-voices-description = kʊ̀kʊ̀wèèsǝ̀ címísǝ̀ pǝ̀ cààrʊ̀, àmà ʊ̀ tà wósǝ́ sǝ̀ nùwèèsǝ̀nsǝ̀r kàà tàsǝ̀ rʊ́ʊ̀ ʊ̀ jèl nǝ̀ ʊ̀ kpà tóm wómpǝ̀ tàŋ àmààwʊ̀ŋ tóm tà nà. ʊ̀ cí sǝ̀ ɩ́ nɩ́ɩ́  tóm wómpǝ̀ wɩ̀ɩ̀n pǝ̀ tɩ̀ nǝ̀ àmààwʊ̀ŋ tóm nà, ɩ́ lô àkpààwʊ̀ŋ tóm. pǝ̀mpǝ̀ ñɩ̀ pɩ̀ɩ̀sǝ̀ pǝ̀ lííná  jǝ́rá kòtǝ̀mǝ̀r cól.
+contribution-background-voices-description-extended = ʊ́ cí sǝ̀ àkpààwʊ̀ŋ tóm wɩ̀ɩ̀ tìlùtìlù ʊ̀ cààrʊ̀ tǝ̀ kèmǝ̀sʊ̀ŋ, ɩ́ jél tǝ́.
 contribution-background-voices-example-1-explanation = ŋ̀ kʊ́ŋ já<strong> [jàà nǝ̀ŋ núwã́ŋ kàr]</strong>
 contribution-volume-title = fòlíím
 contribution-volume-description = fòlíím lɔ̀sʊ́ŋ líŋ kálrá cólààná. ɩ́ kɨ́sɨ́ nǝ́ŋ núwã́ŋ kpàwʊ̀ŋ pèl tǝ̀dǝ̀lí nǝ̀ ʊ́ lí wóm núwã̀ŋ sǝ̀ fòlíím kǝ̀l kpáwʊ́ŋ jàà tɨb nà. wóntǝ̀ jékǝ̀ nǝ̀ŋ jà nɩ̂ nǝ́ŋ ɩ́ tá kál mààtǝ̀.
