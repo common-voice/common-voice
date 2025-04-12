@@ -51,9 +51,10 @@ report-difficult-pronounce-detail = máátǝ̀ nàndǝ̀r wɩ̀ɩ̀ káár 
 report-offensive-speech = tóm pǝ̀ wɩ́ɩ́ ná
 report-offensive-speech-detail = tàpúúrtǝ̀ nǝ̀ŋ tɩ̀wɩ̀làsǝ̀ wɩ̀ɩ̀ tóm pǝ̀ tà.
 report-other-comment =
-    .placeholder = tóm hóm
+    .placeholder = tóm tàà lǝ̀sʊ̀ŋ
 success = tǝ̀mǝ̀r làpá
-continue = wàlʊ̀
+continue = wɩ̀ɩ̀ rʊ́ʊ́
+report-success = à jèkǝ̀ tǝ̀mǝ̀r àtɩ̀ɩ̀sʊ̀ŋ tàkǝ̀rã́ŋ kà sàrtǝ̀
 
 ## Speak & Listen Shortcuts
 
@@ -65,7 +66,7 @@ shortcut-skip = a
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
-shortcut-record-toggle-label = tɨ́súŋ/ sǝ̀sʊ́ŋ
+shortcut-record-toggle-label = rʊ́wʊ́ŋ/ rǝ̀sʊ̀ŋ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = pààsǝ̀ kpàwʊ́ŋ
 shortcut-discard-ongoing-recording = èsàp
