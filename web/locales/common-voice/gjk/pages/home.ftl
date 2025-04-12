@@ -113,6 +113,9 @@ community-and-languages-menu-item-aria-label = ڪامنَ وائيس نِي مۮ
 ## Hero section
 
 hero-title = ٽيڪنولوجِي زين تمارِي ٻولِي ٻوليَ سي۔
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> ايَ آئِي (AI) نين صِرف ۮُنيا نِي ڪانڪز ٻولِيان ۿارُو ڪام ڪروون زويئين؟</bold>
+hero-subtitle-2 = امارِي ٻولِي امارِي وارتا سي، امارِي ڀِراڌرِي سي، امارِي ثقافت سي۔ آوو تو ڍيٽاسيٽ ٺاويئين زين نين امين ۮُنيا مان زووا ماڳيئين سيئين۔
 
 ## Action items section
 
