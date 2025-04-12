@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = رابتے رو فارم
+contact-title = رآبتي رو ڦآرم
 contact-form-name =
     .label = نام
 contact-form-message =
