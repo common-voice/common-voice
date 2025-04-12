@@ -52,6 +52,9 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = დაისახე მიზან
 cant-decide = დეშ გადაწყვიტეა?
+how-many-per-day = გუნ ხოჩა! ოშა კლიპ ლადა̈ღისგა?
+how-many-a-week = გუნ ხოჩა! ოშა კლიპ ნაგზაისგა?
+which-goal-type = ლიგჷრგა̈ლი ჯაკუ, ლიჰუ̂ნა̈რი ჰა ერქჷდა?
 
 ## Goals
 
