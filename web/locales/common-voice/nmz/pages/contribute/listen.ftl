@@ -1,4 +1,4 @@
-listen = kèmǝ̀sʊ́ŋ
+listen = kémǝ́sʊ́ŋ
 listen-subtitle = ɩ́ sǝ́n rà rà tìsì núwéésǝ̀ kpààwʊ̀ŋ pǝ̀
 listen-instruction = { $actionType }<playIcon>, à jáà máátǝ̀ kà sàrtǝ́ já?
 listen-again-instruction = ŋ̀ lɔ̀ɔ̀ tǝ́mǝ́r kà sàrtǝ̀ ! <playIcon></playIcon>tàsǝ̀ kémsʊ̀ŋ nǝ́ŋ ŋ̀ pɩ́sʊ́.

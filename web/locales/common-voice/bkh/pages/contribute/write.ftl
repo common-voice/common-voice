@@ -113,9 +113,51 @@ rate-limit-toast-message-seconds =
         [one] Nsɔŋgi á lióm wá yal. Cegéé sig pɛ á 1 ɔkaptɛ
        *[other] Nsɔŋgi á lióm wá yal. Cegéé sig pɛ á { $retryLimit } akaptɛ
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Nsɔŋgí á lióm wa yal anyuú jé lipɛ́ɛ́. laŋke 1 linut
+       *[other] Nsɔŋgí á lióm wa yal anyuú jé lipɛ́ɛ́. laŋke { $retryLimit } minut  yikaganɛ́ ɔg óm ɔkwɛla vitám. Biíg soma nlaŋ'kán wɔ́ɔ !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Nsɔŋgí á lióm wa yal anyuú jé lipɛ́ɛ́. Laŋke 1. ɔkaptɛ yikaganɛ ɔg óm ɔkwɛla  vítám. ɓaá sómá nlaŋ'kán wɔ́ɔ !
+       *[other] Nsɔŋgí á lióm wa yal anyuú jé lipɛ́ɛ́. Laŋke { $retryLimit } akaptɛ.  yikaganɛ ɔg óm ɔkwɛla  vítám. ɓaá sómá nlaŋ'kán wɔ́ɔ !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } akwɛla wá nyɔŋ'ɓɛɛ á { $totalSentences }
+       *[other] { $uploadedSentences } akwɛla wa nyɔŋ'ɓɛɛ á { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ɔkwɛla va nyɔŋɓɛɛ á 1. mɔt vá <downloadLink>here</downloadLink> anyuú liyɔŋ l' akwɛla wá lééɓɛ́ɛ
+       *[other] { $uploadedSentences } { $totalSentences } akwɛla wa nyɔŋɓɛɛ á. mɔt vá <downloadLink>here</downloadLink> anyuú liyɔŋ l' akwɛla wá lééɓɛ́ɛ
+    }
+small-batch-sentences-rule-1 = Ɔŋ'le bitɛɛyené bí ejo-nsɔ́n «wɔwɔ́ɔ akwɛla mi lɛ nɛ́ ma kondye ?»
+small-batch-sentences-rule-2 = Kondye ɔkwɛla nlɔŋ sig
+small-batch-sentences-rule-3 = ɓagáá akwɛla la limɔt li «niŋgíí» ngele ya
+small-batch-sentences-rule-4 = Kondye tɛɛla ɔkóó akwɛla
+small-batch-sentences-rule-5 = Akwɛla asɛ́ ag nyɛɛ lisɔ́lé á pah pɛ́ɛ́ yá
+small-batch-sentences-rule-6 = Akwɛla asɛ́ ag nyɛɛ liɓɛla l' ɔngaŋgan vá
+# menu item
+add-sentences = Likondye l' akwɛla
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = ngondye akwɛla la linyámɛ́ lí pɔ́ŋ, ngondye linyɔŋ lí mpɔ́t á cíŋ
+add-sentences-menu-item-tooltip = Kondye akwɛla á mpɔ́t wɔɔ
+review-sentences-menu-item-tooltip = Ɓakɛ akwɛla á mpɔ́t wɔɔ
+add-questions-menu-item-tooltip = Kondye mbihíí á mpɔ́t wɔɔ
+transcribe-audio-menu-item-tooltip = Cií mimpɔ́t mí cíŋ á mpɔ́t wɔɔ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Licii
+add-sentences-menu-item-aria-label = Kondye akwɛla péna a ngáa sɔ́ŋg'lɛ́ɛ la lilómɛ́
+review-sentences-menu-item-aria-label = Ɓakɛ nɛ́ akwɛla á lilómɛ́ á lɛ váŋ
+add-questions-menu-item-aria-label = Tí ɓɛhɛ mbihíí péná nɛ́ lilómɛ́ li sɔ́ŋgɔ́ɔ yɔ́, li pelee
+transcribe-audio-menu-item-aria-label = Cii mimpɔ́t mí cíŋ á lipapa
