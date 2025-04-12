@@ -15,6 +15,9 @@ aln = gɛgigbe
 am = amaritikigbe
 an = aragonigbè
 ar = arabiagbè
+arn = mapusigbe
+as = asamɛsigbe
+ast = asturigbe
 
 # [/]
 

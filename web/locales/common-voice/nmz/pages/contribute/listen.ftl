@@ -18,7 +18,7 @@ validate-readings-coming-soon = tìsì kèmsǝ̀nʊ̀ŋ<small> ( wómpǝ̀ k
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = tɩ́ɩ́sǝ̀ kèmsʊ̀ŋ, wììl ŋ́ ná há máátǝ̀ sàrà já
-validate-readings-menu-item-tooltip = ɩ́ jél lam gbèŋgǝ̀lráá tísí sǝ̀ tóm pǝ̀ ɩ́ kpàà nà sàràà
+validate-readings-menu-item-tooltip = ɩ́ jél lam gbèŋgǝ̀lɖáá tísí sǝ̀ tóm pǝ̀ ɩ́ kpàà nà sàràà
 review-transcriptions-menu-item-tooltip = mɩ́ wʊ̀tã̀ŋ tàà kàlràà mààtǝ̀ wììlùŋ
 
 ## MENU ITEM ARIA LABELS
