@@ -5,6 +5,8 @@ sc-review-title = wììl mààtǝ̀
 sc-review-loading = máátǝ̀ gbòlʊ́ŋ…
 sc-review-select-language = ɩ́ lǝ́sǝ́ wʊ̀tã̀ŋ nǝ̀ ɩ́ wííl mààtǝ̀.
 sc-review-no-sentences = páá máárʊ tã̀ŋ sǝ̀ àwììl. ɩ́ pɩ́ɩ́sʊ́ sǝ̀ ɩ́ tásǝ̀ máátǝ̀</addLink>
+sc-review-form-prompt =
+    .message = ŋ̀ tà jékǝ̀ mààtǝ̀ tǝ́ ŋ̀ wììlà ná, ŋ̀ cí sǝ̀ ŋ̀ rɩ̀ɩ̀ ?
 
 ## REVIEW CRITERIA
 
