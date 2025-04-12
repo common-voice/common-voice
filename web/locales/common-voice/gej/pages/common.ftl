@@ -16,7 +16,7 @@ am = amaritikigbe
 an = aragonigbè
 ar = arabiagbè
 arn = mapusigbe
-as = asamɛsigbe
+as = asamgbe
 ast = asturigbe
 
 # [/]
