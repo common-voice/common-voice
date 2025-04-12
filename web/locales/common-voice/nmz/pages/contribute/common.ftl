@@ -124,6 +124,7 @@ contribution-varying-pronunciations-example-1-title = pɩ́ɩ́pɔ̀ɔ̀ŋ ñu�
 contribution-varying-pronunciations-example-1-explanation = pàà ʊ̀ cí «vagon» (FR) jàà «Ouagon» (BE) kàlʊ́ŋ cí kʊ́rʊ́mǝ̀tǝ̀ «wagon».
 contribution-varying-pronunciations-example-2-title = kpɔ̀nɔ̀ àfà jíìr kʊ́sǝ̀r pɔ̀ɔ̀tà.
 contribution-varying-pronunciations-example-2-explanation = ànàsààrǝ́m tà «sandwich» cí tómʊ́ŋ kʊ́rʊ́mʊ́ŋ jà nàwʊ̀l.
+contribution-background-noise-title = tà kʊ̀kʊ̀wèèsǝ̀.
 contribution-background-voices-example-1-explanation = ŋ̀ kʊ́ŋ já<strong> [jàà nǝ̀ŋ núwã́ŋ kàr]</strong>
 contribution-volume-title = fòlíím
 contribution-volume-description = fòlíím lɔ̀sʊ́ŋ líŋ kálrá cólààná. ɩ́ kɨ́sɨ́ nǝ́ŋ núwã́ŋ kpàwʊ̀ŋ pèl tǝ̀dǝ̀lí nǝ̀ ʊ́ lí wóm núwã̀ŋ sǝ̀ fòlíím kǝ̀l kpáwʊ́ŋ jàà tɨb nà. wóntǝ̀ jékǝ̀ nǝ̀ŋ jà nɩ̂ nǝ́ŋ ɩ́ tá kál mààtǝ̀.
