@@ -101,9 +101,63 @@ too-many-files = Sapanoa miakej tlalkuilolmej
 small-batch-instruction = Xikintitlani <icon></icon> miakej tlajkuilolmej tlen nochtin kinmitaskej
 multiple-sentences-error = Mach uelis tikintitlanilis miakej san semi
 exceeds-small-batch-limit-error = Mach uelis tikinpanauis 1000 tlajkuilolmej
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan 1 minuto
+       *[other] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } minutos
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan 1 segundo
+       *[other] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } segundos
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia 1 minuto uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!
+       *[other] Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } minutos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia 1 segundo uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!
+       *[other] Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } segundos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 	{ $uploadedSentences } itech 1 tlajkuiloli yomokak
+       *[other] { $uploadedSentences } itech { $totalSentences } tlajkuilolmej yomokajkej
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 	{ $uploadedSentences } itech 1 tlajkuiloli yomokak. Xikpacho <downloadLink>nikan</downloadLink> tla tiktemouilisneki non amo omokak.
+       *[other] { $uploadedSentences } itech { $totalSentences } tlajkuilolmej yomokajkej. Xikpacho <downloadLink>nikan</downloadLink> tla tikintemouilisneki non amo omokajkej.
+    }
+small-batch-sentences-rule-1 = Xikchiua ijkon ken kijtoa “¿Tlenon uelis nikijkuilos?”
+small-batch-sentences-rule-2 = Xikijkuilotijtie se tlajkuiloli uan non okse itlanpa
+small-batch-sentences-rule-3 = Tla tikijkuilos itlanpa non okse, xikpacho "Enter" noso "Regresar"
+small-batch-sentences-rule-4 = Xikintlalili kanaj 1000 tlajkuilolmej
+small-batch-sentences-rule-5 = Nochtin moneki sansekan pouiskej
+small-batch-sentences-rule-6 = Nochtin moneki sansekan otikinkixti
+# menu item
+add-sentences = Xikinmijkuilo seki tlajtoli
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Xitlajkuilo, xikmotili, xikijkuilo se tlajtlanilistli noso xikkaki uan xitlajkuilo
+add-sentences-menu-item-tooltip = Xitlajkuilo ika motlajtolkopa
+review-sentences-menu-item-tooltip = Xikmotili tlen ijkuilijtok ika motlajtolkopa
+add-questions-menu-item-tooltip = Xikinmijkuilo tlajtlanilmej ika motlajtolkopa
+transcribe-audio-menu-item-tooltip = Xikkaki uan xikijkuilo ika motlajtolkopa
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Tlen uelis tikijkuilos
+add-sentences-menu-item-aria-label = Xikijkuilo tlen oksekimej kitlajtoltiskej
+review-sentences-menu-item-aria-label = Xikmotili tlen oksekimej yokijkuilokej
+add-questions-menu-item-aria-label = Xikintitlani tlajtlanilmej tlen oksekimej kintlajtoltiskej uan kinnankiliskej
+transcribe-audio-menu-item-aria-label = Xikkaki uan xikijkuilo

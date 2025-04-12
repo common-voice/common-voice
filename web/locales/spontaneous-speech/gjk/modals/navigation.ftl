@@ -7,3 +7,6 @@ check = جانچ پڙتال ڪروون
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = نقل ڪروون
 loading = … لوڍ ٿائي سي ريون
+login-signup = لاگھ اِن/سائينَ اپ
+login = لاگھ اِن
+logout = لاگ آئوٽ ڪرو (ٻنڌ ڪرو)
