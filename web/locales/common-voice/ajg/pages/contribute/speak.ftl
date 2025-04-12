@@ -53,7 +53,7 @@ thanks-for-voice-toast-error = Le gbeɖiɖi nyanyanana sɔsɔɖál lɔ me lɔ, 
 first-cta-gender-select-default-option = Wɔ cancan ɖeká
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Akpe nɔwo ɖe tɔwo gbeɛ nana ŋú
-second-cta-subtitle-text = le axa ɖéká jiɔ, á téŋ kpɔ́ tɔwo nuwɔna yí á nɔ kame kuɖo gbenáná kpekpeɖéŋú hasoso ɖeka
+second-cta-subtitle-text = Le akpa ɖékáɔ, á téŋ kpɔ́ tɔwo dɔ́wɔna yí á nɔ kame kuɖo ameɖewo cewo yí do kɔwo alɔ tó wo gbenánáwo me.
 already-have-an-account = dɔwɔnukpa ɖe le wo shi a ?<login> interneti kadodo</login>
 create-profile-button = Hun nɔnɔme ŋtinyɔ ɖeká
 # IMAGE TAGS
@@ -72,4 +72,5 @@ answer-questions-menu-item-tooltip = Lekɔ biabia cewo ŋú yí e ɖokɔ kuɖo
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = dɔwɔɖoɖokpájí « xo nuxu»
-read-sentences-menu-item-aria-label = Hlɛn enyɔgbe cewo yí amewo nú le gbe vovovowo me
+read-sentences-menu-item-aria-label = Hlɛn enyɔgbe cewo yí amewo nú le gbe vovovowo me.
+answer-questions-menu-item-aria-label = Sɔ biabia bú ɖaɖa ne amewo atéŋ áhlɛn yí áɖó ŋú.
