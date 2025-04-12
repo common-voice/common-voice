@@ -26,3 +26,15 @@ hidden = ۿتال
 visible = پڌرون
 native-language =
     .label = ماڌرِي ٻولِي
+profile-form-add-accent = نوا ڌستور پرماڻي ٻوليا ۿارُو لڦظان نين شامِل ڪرو۔
+profile-form-submit-save = محفوظ ڪرو
+profile-form-submit-saved = محفوظ ٿل
+male_masculine = مرڌ ڪان آۮمِي / مذڪر
+female_feminine = ٻائِي / مونث
+intersex = انٽرسيڪس (آۮمِي انين ٻائيڙِي ٻيئان نيون خاصيتون ھوئي)
+transgender = کۮڙو (جنس تبديل ھوون)
+non-binary = نون بِينري
+do_not_wish_to_say = ڪيوا نٿِي ماڳتو
+# Gender
+other = ٻيزا
+why-profile-title = پروفائيل شوليوا؟
