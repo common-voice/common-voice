@@ -131,6 +131,12 @@ add-small-batch-success =
         [one] pó kām tα' njā'nǔ nά 1
        *[other] { $totalSentences } njá'nu pó tīā lά nά. Nǒ'  <downloadLink>here</downloadLink> náh ntēh njá'nu pó wᾱ' lά
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } pó kām tα' njā'nǔ nά 1. Nǒ' <downloadLink>here</downloadLink> náh ntēh njá'nu pó wᾱ' lά.
+       *[other] { $uploadedSentences } { $totalSentences } njá'nu pó tīā lά nά. Nǒ' <downloadLink>here</downloadLink> náh ntēh njá'nu pó wᾱ' lά.
+    }
 small-batch-sentences-rule-1 = yū' mbʉ́άnǎk kǎmnu lά «Yaā njá'nu tά pά n ncwǐ nά ā?»
 small-batch-sentences-rule-2 = cwǐ' tα' njā'nǔ nά mbαyāā nka' lᾱ
 small-batch-sentences-rule-3 = no' cāmshʉ' náh sehsǐ njá'nu « Kwēn »
