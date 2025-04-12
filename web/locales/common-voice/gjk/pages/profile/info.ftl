@@ -44,3 +44,7 @@ build-profile = پروڦائيل ٺاوو
 avatar = اُوتار
 goals = مقصڌ
 settings = جوڙ جڪ
+edit-profile = پروفائيل مان بھترِي ۿارُو تٻۮيل ڪرو
+profile-create-success = ڪامياٻِي ٿِي، پروفائيل ٺۿائِي جھئِي
+profile-close = ٻنڌ ڪرو
+profile-explanation = ايڪ پروفائيل ٿِي پوتا نِي ترقِي نِي کٻرِ راکو انين امارِي آواز نِي ڍيٽا نين وڌِيڪ ٺِيڪ ڪريا مان مۮت ڪرو
