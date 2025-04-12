@@ -34,3 +34,4 @@ request-language-error =
     <emailLink>{ $email } پے اور</emailLink> ہم تھارے کن پُٹھے جاوں گے!
 request-for-scripted-speech-toggle = لِکھوڑے بھاشݨا کی اپیل
 request-for-spontaneous-speech-toggle = سوابھاویک بھاشݨا کی اپیل
+need-help-deciding-platform = کس کا چُوناو کرنا ہے اس کا چُوناو کرنیم ساہیتا کی جرورت ہے؟
