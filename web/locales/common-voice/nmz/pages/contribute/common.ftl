@@ -118,6 +118,7 @@ contribution-misreadings-example-7-explanation = ɩ́ ràà rʊ̀ «y» kà g
 contribution-misreadings-example-8-title = lǝ̀mɔ̀ɔ̀sǝ́m kpǝ̀ràà
 contribution-misreadings-example-8-explanation = àfàtǝ̀lʊ̀ŋ
 contribution-varying-pronunciations-title = ntèntè kàlʊ́ŋ
+contribution-varying-pronunciations-description = ɩ́ wììl sàrtǝ̀ fɩ́ɩ́ nǝ̀ ɩ́ kìsì máátǝ̀ wóntǝ̀ kàlɖǝ̀ hìtǝ́ tǝ̀  kàlʊ́ŋ ná. kàlʊ́ŋ wɩ̀ɩ̀ ntèntè kà kòrʊ̀ŋ tàà. ʊ́ tá lá, kàlʊ́ŋ námbǝ́rǝ́ wɩ̀ɩ̀ kà ɩ́ tàkǝ̀r nɩ̀ɩ̀ pǝ̀ mɩ́ àwóór tà. à hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ̀ ràà tǝ̀r nǝ̀ ɩ̀ kìsì kàlʊ́ŋ wómpǝ̀ wɩ̀ɩ̀ ntè nǝ̀ mɩ́ ñɩ́mpǝ̀ nà.
 contribution-varying-pronunciations-description-extended = ʊ̀ cí sǝ̀ kàlrǝ̀ tàkǝ̀r kàtǝ́n màrʊ́ŋ kʊ́ nɩ̀ɩ̀ná jààsǝ̀ ɩ̀wɩ̀ nɩ̀ɩ̀ùɔ̀ɔ̀sʊ̀ sǝ̀ ɩ̀ kpá jàwʊ́ŋ kʊ́pám, ɩ́ jél wʊ̀tã̀ŋ kpàwʊ́ŋ. ʊ́ tà cɔ́mɩ́, ɩ́ ñʊ́ "rɩ̀" rʊ̀ʊ̀.
 contribution-background-voices-example-1-explanation = ŋ̀ kʊ́ŋ já<strong> [jàà nǝ̀ŋ núwã́ŋ kàr]</strong>
 contribution-volume-title = fòlíím
