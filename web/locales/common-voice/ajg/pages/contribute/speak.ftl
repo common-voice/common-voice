@@ -47,7 +47,7 @@ why-donate-explanation-1 = nyanyanana ceɖewo zanzan le faaa ,de.  Ne e ji lɔ,
 why-donate-explanation-2 = Né mɔɖaŋulɔ né  wɔ dɔ nyuieɖe na ameshiame lɔ, dɔwɔnu cewo yí  mɔɖaŋú dɔwɔlawo zanɔ lɔ , ɖo lá ɖe ame sugbɔ ɖe go. Le kpɔɖeŋumeɔ ne woɖe sɔ nyɔnutɔdé dé me kuɖe egbe tɔxɛ lɔ, mɔɖaŋuɔ da séŋ wɔdɔ nɔ ameshiame kʊɖo egbe hunun o.<learnMore><learnMore> E ji á gbe nya sugbɔ só nyɔtakakawo shixɔxɔnuɔŋú a</learnMore>
 add-information-button = Sɔ nyanyananawo kpii
 continue-speaking-button = Oo akpe, yi nuxuxoxoɔ jií
-create-profile-text = e ji be alé tɔwo nyanyananawo ɖɛ ?<createProfile> Hun ŋtinyɔ ɖeka</createProfile>
+create-profile-text = e ji be alé tɔwo nyanyananawo ɖɛ ?<createProfile> Hun nɔnɔme ŋtinyɔ ɖeka</createProfile>
 thanks-for-voice-toast = Akpe nɔ́ tɔ gbeɖiɖi nyanyananawo
 thanks-for-voice-toast-error = Le gbeɖiɖi nyanyanana sɔsɔɖál lɔ me lɔ, vodada deká vá dó ŋme ɖaɖa
 first-cta-gender-select-default-option = Wɔ cancan ɖeká
@@ -55,9 +55,17 @@ first-cta-gender-select-default-option = Wɔ cancan ɖeká
 second-cta-header-text = Akpe nɔwo ɖe tɔwo gbeɛ nana ŋú
 second-cta-subtitle-text = le axa ɖéká jiɔ, á téŋ kpɔ́ tɔwo nuwɔna yí á nɔ kame kuɖo gbenáná kpekpeɖéŋú hasoso ɖeka
 already-have-an-account = dɔwɔnukpa ɖe le wo shi a ?<login> interneti kadodo</login>
+create-profile-button = Hun nɔnɔme ŋtinyɔ ɖeká
+# IMAGE TAGS
+img-alt-success-checkmark = Jiɖuɖu jeshi kpaxwé
+# menu item
+read-sentences = Hlɛn enyɔgbewo
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Hlɛn enyɔgbewo<small>(gabume)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Hlɛn enyɔgbewo, ɖo enyɔwo ŋú
 
 ## MENU ITEM ARIA LABELS
 
