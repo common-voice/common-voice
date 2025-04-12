@@ -1,3 +1,11 @@
 ## Request Language Pages
 
 request-language-heading = نوِي ٻوليان نا ٻارا مان پونسو
+request-language-explanation-1 = چيڪ ڪرو ڪي تمارِي ٻولِي لسٽ مان ۮِيڌل سي </languagesPageLink> عام آواز ٻولِي صفو<languagesPageLink> تمان نين ايڪ آسان اِي ميل ميلشون زو نا تو آ فارم ڀرو انين امين ۿمز مان آوي ايم تمارِي ٻولِي ڪيم قائم ڪريئين۔
+request-language-form-email =
+    .label = تمارون اِي ميل
+request-language-form-info =
+    .label = ٻولِي نا ٻارا مان معلومات
+request-language-form-info-explanation = زيٽلِي ٿئِي ۿڳي معلومات شامِل ڪرو پوتا نِي ٻولِي نا ٻارا مان۔ آ شامِل ٿئِي ۿڳي سي۔
+request-language-form-info-explanation-list-1 = تمارِي ٻولِي نان نام
+request-language-form-info-explanation-list-2 = زو زاڻو</isoCodeLink> ڪوڍ آئِي ايس او<isoCodeLink>
