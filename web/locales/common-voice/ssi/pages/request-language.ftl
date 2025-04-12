@@ -33,5 +33,9 @@ request-language-error =
     ہوئی سِکتا ہے کہ ہمکُو یو اپیل پراپت نائی ہوئی ہو۔ کِرپا کری ہمکُو سُدا ای میل کرو
     <emailLink>{ $email } پے اور</emailLink> ہم تھارے کن پُٹھے جاوں گے!
 request-for-scripted-speech-toggle = لِکھوڑے بھاشݨا کی اپیل
-request-for-spontaneous-speech-toggle = سوابھاویک بھاشݨا کی اپیل
+request-for-spontaneous-speech-toggle = سوبھاویک بھاشݨا کی اپیل
 need-help-deciding-platform = کس کا چُوناو کرنا ہے اس کا چُوناو کرنیم ساہیتا کی جرورت ہے؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>اسکرپٹڈ بھاشݨ</strong> (پرمپراروپاس جِدؔا تھم سادی آواجا کے توراپ جاݨتے ہے) وہ جاگھا ہے جیتوڑ تھم اپݨی ٻولیام ٻول اونچی آواجام پڑھی سِکتے ہے۔
+need-help-deciding-platform-explanation-2 = <strong>سوبھاویک بھاشݨ</strong> سادی آواجا کا ایک ہئوا بھاگ ہے جیتوڑ تھم سُوال کا جواب گھݨا جیویت ، ٻول چالا کے ڈھنٚگام  دؔی سِکتے ہے۔
+need-help-deciding-platform-explanation-3 = اگر تھمکُو پلیٹ پھارما کے کسی بھی بھاگام اپݨی ٻولی نیگھام نائی آتی ہے تو ، دُؔنیں کُو چُونو۔
