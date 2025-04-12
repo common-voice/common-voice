@@ -10,10 +10,10 @@ clips-with-count-pluralized =
        *[other] ɖeɖewo so me
     }
 goal-help-recording = Tó mi ji lɔ, Common Voice kpɔ yi<goalPercentage><goalPercentage> gbeshiagbe tadojinu  sɔ kuɖe { $goalValue } enyɔwo lelenuwo ŋú.
-goal-help-validation = To mi ji lɔ, Common voice, gbeshiagbe tadojinu tche yí le Common Voice shi<goalPercentage><goalPercentage> sɔ kuɖe ashidada de enyɔwo jí lɔ́ kpɔ yi me vava.
-contribute-more = misɔ gbe agbe wɔ wu hunua?
-speak-empty-state = Mi  ɖegbe ɖo ŋyɔgbe dewo ale ɖé egbe ceɖetɔ me o.
-no-sentences-for-variants = ɖewotɔ egbeɛlɔze ce yi mido kɔ de gbe ɖo nyɔgbewo. Ne da do nuxu nɔ mi lɔ̀, miateŋ gbe trɔashi le nuwo ŋu né nyɔgbebuwo atéŋ zé le gbelɔ me.
+goal-help-validation = Tó mi ji lɔ, Common Voice kpɔ yi<goalPercentage><goalPercentage> gbeshiagbe tadojinu  sɔ kuɖe { $goalValue } ashidada ɖe enɔwo ŋú.
+contribute-more = E le gbesɔsɔ awɔ { $count } wu hunua?
+speak-empty-state = Enyɔbuwo dé gbé lɛ yí mialé le egbe ceɖe me o…
+no-sentences-for-variants = ɖewotɔ egbeɛlɔze ce yi edo kɔ de gbe ɖo enyɔgbebuwo. Ne da do nuxu nɔ wo lɔ̀, atéŋ gbe trɔashi le nuwo ŋú né nyɔgbebuwo á zé le gbelɔ me.
 speak-empty-state-cta = ɖe nyɔgbewo ɖé go, micu nyɔgbewo
 speak-loading-error = miɖetéŋ gbe kpɔ nyɔgbebuwo ayɔ o. Migbugbɔ atikpɔ gabuji
 record-button-label = le mio gbe ɖe nú jí
