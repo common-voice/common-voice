@@ -51,6 +51,8 @@ create-profile-text = e ji be alé tɔwo nyanyananawo ɖɛ ?<createProfile> Hu
 thanks-for-voice-toast = Akpe nɔ́ tɔ gbeɖiɖi nyanyananawo
 thanks-for-voice-toast-error = Le gbeɖiɖi nyanyanana sɔsɔɖál lɔ me lɔ, vodada deká vá dó ŋme ɖaɖa
 first-cta-gender-select-default-option = Wɔ cancan ɖeká
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Akpe nɔwo ɖe tɔwo gbeɛ nana ŋú
 
 ## MENU ITEM TOOLTIPS
 
