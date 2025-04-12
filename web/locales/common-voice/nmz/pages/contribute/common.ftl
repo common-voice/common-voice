@@ -73,8 +73,8 @@ shortcut-discard-ongoing-recording = rǝ̀lìínɖǝ̀ wììr
 shortcut-discard-ongoing-recording-label = ràà làn tóm wómpǝ̀ ŋ̀ kpáá ná kà tǝ̀mǝ̀r
 shortcut-submit = rǝ̀sʊ́wɩ̀ɩ̀r
 shortcut-submit-label = jèkǝ̀ tóm kʊ́kpáám
-request-language-text = mɩ́ wʊ́tã́ŋ rʊ́kʊ̀ tã̀ŋ cè
-request-language-button = há wʊ́tã́ŋ
+request-language-text = ñá wʊ́tã́ŋ rʊ́kʊ̀ tã̀ŋ káà?
+request-language-button = cǝ́l wʊ́tã́ŋ
 
 ## Listen Shortcuts
 

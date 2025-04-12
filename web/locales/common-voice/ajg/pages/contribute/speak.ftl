@@ -71,3 +71,5 @@ answer-questions-menu-item-tooltip = Lekɔ biabia cewo ŋú yí e ɖokɔ kuɖo
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = dɔwɔɖoɖokpájí « xo nuxu»
+read-sentences-menu-item-aria-label = Hlɛn enyɔgbe cewo yí amewo nú le gbe vovovowo me
