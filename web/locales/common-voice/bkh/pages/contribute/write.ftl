@@ -30,12 +30,89 @@ contact-us = Yaŋáá ɓɛhɛ
 add-sentence-success = Wa kuh'la ɔkwɛla va
 add-sentence-error = Ɓaá la ɓe bɛhɛ likondye l' ɔkwɛla vɔɔ
 required-field = Soon yahɛ́ yé ekúg'lú
+single-sentence-submission = Lióm l' ɔkwɛla va
+small-batch-sentence-submission = Óm puh mbáŋg akwɛla
+bulk-sentence-submission = Lióm li ngandag  akwɛla
+single-sentence = ɔkwɛla vá
+small-batch-sentence = mɔɔ́n mbáŋg
+bulk-sentence = mbáŋg ɛ cɛ́nɛ́
+sentence-domain-combobox-label = Lipáŋ l' ɔkwɛla
+sentence-domain-select-placeholder = Nyɔŋ tɛɛla mipáŋ  miŋhaa
+# Sentence Domain dropdown option
+agriculture_food = Mindíí la Lidi
+# Sentence Domain dropdown option
+automotive_transport = Ndee la mitowa
+# Sentence Domain dropdown option
+finance = Mɔní
+# Sentence Domain dropdown option
+service_retail = Nyuŋgá
+# Sentence Domain dropdown option
+general = Byɔ bisɛ
+# Sentence Domain dropdown option
+healthcare = Mbólí
+# Sentence Domain dropdown option
+history_law_government = Mam mi gɔmna
+# Sentence Domain dropdown option
+language_fundamentals = Bitɛɛyené bí Mimpɔ́t (nɔmbá, miketee, mɔni)
+# Sentence Domain dropdown option
+media_entertainment = Bidiŋgɛ-diŋgɛ la micaa
+# Sentence Domain dropdown option
+nature_environment = Pɛ́ɛ́ la mituŋgá
+# Sentence Domain dropdown option
+news_current_affairs = Mam mí lɛn
+# Sentence Domain dropdown option
+technology_robotics = Esukúlú bicɛɛ
+sentence-variant-select-label = Mpɔ́t á ɔkwɛla
+sentence-variant-select-placeholder = Pɔhɔ́ɔ́ mpɔ́t (ɔ ngɔ diŋ)
+sentence-variant-select-multiple-variants = Bitɛɛyené bicɛ́ŋ anyuú mimpɔ́t, mimpɔ́t ngandag
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = óm <icon></icon> akwɛla nyú á liɓembá
+sc-bulk-upload-instruction = Ɓémbé kwɛ́m yɔɔ va tɔnɛ <uploadButton>mɔt vá anyuú lióm</uploadButton>
+sc-bulk-upload-instruction-drop = Ɓémbé kwɛ́m yɔɔ vá anyuú lióm
+bulk-upload-additional-information = Kiyaɓɛ́nɛ́ ɔ byɛɛ koo lilagaa lí mam á yéé ngáa leg'ɓe yé kwɛ́m, yáŋáá <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Kiyaɓɛ́nɛ́ ɔ ɓyɛɛ koo lilagaa lí mam mí ngáa leg'ɓe yé kɛ́m, mí mi seɓe até, yaŋáá <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Cegéé sig pɛ litíínɛ́ɛ l' ekwɛ́m yɔɔ
+try-upload-again-md = Cegéé sig pɛ lióm l'ekwɛ́m yɔɔ
+select-file = Pɔhɔ́ɔ́ ekwɛ́m yá
+select-file-mobile = Pɔhɔ́ɔ́ ekwɛ́m ɔ ngɔ óm
+accepted-files = Nyaa bikwɛ́m bí ngáa yéɓé: tsv ja
+minimum-sentences = Nsɔ́ŋgí ntɔ́gá nyú á akwɛla á kwɛ́m : 1 000
+maximum-file-size = Ntɛl wa súg'le á kwɛ́m : 25 Mo
+what-needs-to-be-in-file = Yéé ekwɛ́m ɛ ngáa nyɛɛ liɓɛla ?
+what-needs-to-be-in-file-explanation = Leg'ɓe nsɔ́n waha <templateFileLink>nget</templateFileLink>. Akwɛla wana a nga nyɛɛ ɓé liɓɛ nyú á Mut (kiyaɓɛnɛ á Mut ki, nyɔ́ŋ Mut ag nyɛɛ ɓɛnɛ litíí lí kundɛ). Ag nyɛɛ liɓɛ́ lí nciiɓɛ́gɛ mɓɛɛŋ á bitɛɛyene bi mpɔ́t. Ag nyɛɛ linyɔŋ li 10-15 lí mikaptɛɛ á lisɔ́ŋgɔ́ɔ. Á ngá nyɛɛ ɓé liɓɛla lí moó mi ɓot, nɔmbá la ndemb'ye.
+upload-progress-text = Ɔ lɛ lióm...
+sc-bulk-submit-confirm = Mag yig'yɛɛ nɛ́ nyú akwɛla á lɛ́ <wikipediaLink>nyú á liɓembá</wikipediaLink> la nɛ mi byɛɛ kundɛ lióm lí wɔ́.
+bulk-upload-success-toast = Akwɛla wá óm'ɓɛɛ
+bulk-upload-failed-toast = Ɓaá la ɓe ɓɛhɛ lióm, ceg'lɛɛ sig pɛ
+bulk-submission-success-header = Ɓaá sómá wa anyuú akwɛla
+bulk-submission-success-subheader = Ɔ lɛ́ lioŋganɛ lí common Voice nɛ́ a súgɛ́ eɓolo yɛɛ la akwɛla
+upload-more-btn-text = Lióm l' akwɛla ntám ?
+file-invalid-type = Ekwɛ́m ɛ ngá tíí ɓé
+file-too-large = Ekwɛ́m ɛ lɛ ecɛ́ŋ ngandag
+file-too-small = Ekwɛ́m ɛ lɛ etɔga ngandag
+too-many-files = Bikwɛ́m byá loohan
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>likondye l' akwɛla á mbámbáá
+multiple-sentences-error = Ɔ séɓé nɛ́ wa kondye akwɛla ngandag á lióm'lé já
+exceeds-small-batch-limit-error = Ɔ ngɔ́ la ɓé likondye lí liloo l' ɔkoo l' akwɛla
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Nsɔŋgi á lióm wa yal. cegéé sig pɛ́ á 1 linut
+       *[other] Nsɔŋgi á lióm wa yal. cegéé sig pɛ́ á { $retryLimit } minut
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Nsɔŋgi á lióm wá yal. Cegéé sig pɛ á 1 ɔkaptɛ
+       *[other] Nsɔŋgi á lióm wá yal. Cegéé sig pɛ á { $retryLimit } akaptɛ
+    }
 
 ## MENU ITEM TOOLTIPS
 
