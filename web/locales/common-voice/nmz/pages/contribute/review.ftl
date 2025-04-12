@@ -13,6 +13,16 @@ sc-review-form-usage = tììsǝ̀n ñá ñɩ́ntʊ́ʊ́r rʊ̀ʊ̀ nǝ̀ �
 sc-review-form-source = híɖǝ́ :{ $sentenceSource }
 sc-review-form-button-reject = gǝ̀sǝ̀̀
 sc-review-form-button-skip = rɩ́ɩ́wʊ́ŋ
+sc-review-form-button-approve = tɨ̀súŋ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = O
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
+sc-review-form-keyboard-usage-custom = ŋ̀ pɩ́ɩ́sʊ́ sǝ̀ ŋ̀ ñʊ́ʊ́ rǝ́tópǝ́ :{ sc-review-form-button-approve-shortcut } nǝ̀ ŋ̀ tísǝ̀,{ sc-review-form-button-reject-shortcut } nǝ̀ ŋ̀gǝ̀sǝ̀,{ sc-review-form-button-skip-shortcut } nǝ̀ ŋ̀ rɩ̀ɩ̀
+sc-review-form-button-submit =
+    .submitText = tɩ̀ɩ̀sǝ̀ wììlùŋ
 
 ## REVIEW CRITERIA
 
