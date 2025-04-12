@@ -21,3 +21,5 @@ request-language-error = امان نين شايۮ اِي ڌرخواست نٿِي
 request-for-scripted-speech-toggle = اسڪريپٽ ٿل تقرير ۿارُو ڌرخواست
 request-for-spontaneous-speech-toggle = غير معمولِي تقرير ۿارُو ڌرخواست
 need-help-deciding-platform = زين نين سونڍيا ۿارُو ڦيصلو ڪريا مان مۮت ۿارُو ضرورت سي؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>اسڪرپٽ ٿل تقرير </strong>(روايتِي طور زين تمين زاڻو سو عام آواز ) اِي سي زان تمين پوتا نِي ٻولِي مان جملان نين اُوسي ۿاۮين ڀڻِي ۿڳو سو۔
