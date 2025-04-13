@@ -67,13 +67,13 @@ shortcut-skip = a
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
 shortcut-record-toggle-label = á le nyɔ dɛ, á jra ɖo / á nɔ te
-shortcut-rerecord-toggle = so ɖeka yí atɔn
-shortcut-rerecord-toggle-label = á trɔ lé nyɔ
-shortcut-discard-ongoing-recording = aɖaŋuɖeɲɔnucucu, alɔmekaxomɔnucucu
+shortcut-rerecord-toggle = [so ɖeka yí atɔn]
+shortcut-rerecord-toggle-label = á trɔ lé nyɔ, á trɔ lé nyɔwo ɖɛ́
+shortcut-discard-ongoing-recording = aɖaŋuɖeɲɔnucúcú, alɔmekaxomɔnucúcú
 shortcut-discard-ongoing-recording-label = cucu nyɔlelé ce yí yikɔji
-shortcut-submit = ɖo me
-shortcut-submit-label = sɔ enyɔleléwo ɖaɖa
-request-language-text = tɔwo gbe ce edonɔ ɖe dé kpɔ le Common Voice ji o
+shortcut-submit = numeɖóɖó
+shortcut-submit-label = sɔ enyɔleléwo ɖáɖá
+request-language-text = tɔwo gbe ce edonɔ ɖe dé kpɔ le Common Voice ji o ?, egbe ce yí e donɔ́ le gbesɔsɔ a?
 request-language-button = yɔ gbebu
 
 ## Listen Shortcuts
