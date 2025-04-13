@@ -46,15 +46,15 @@ report-grammar-or-spelling = egbenyɔsevodawo / egbeŋɔŋlɔsevodada
 report-grammar-or-spelling-detail = egbenyɔsevodada alo egbeŋɔŋlɔsevodada ɖeka le nyɔgbelɔme
 report-different-language = egbebu
 report-different-language-detail = wo ŋlɔnyɔgbe ɖo gbe ce yí tovo nɔ kiŋyitɔ me
-report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu
+report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu, e shiŋ yɔyɔ, e gbɔ nu yɔyɔ
 report-difficult-pronounce-detail = enyɔkpe kuɖo enyɔgbe ɖekawo gbɔnu yɔyɔ
 report-offensive-speech = enyɔveame , enyɔdabiameŋuwo
-report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le enyɔleletɔxɛlɔme
+report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le egbeɖiɖi kpɔɖonulɔ me
 report-other-comment =
     .placeholder = numeɖeɖe
 success = ŋjejekpɔkpɔ le dɔwɔwɔme
 continue = yi ji
-report-success = wosɔ egbeɖoɖo  ɖaɖa nyuieɖe
+report-success = wo sɔ egbeɖoɖo  ɖaɖa nyuieɖe,  wo ɖó dɔŋɔŋlɔ nyɔtakakaɔ ɖaɖa nyuieɖe.
 
 ## Speak & Listen Shortcuts
 
@@ -66,7 +66,7 @@ shortcut-skip = a
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
-shortcut-record-toggle-label = á le nyɔ dɛ/ á nɔ te
+shortcut-record-toggle-label = á le nyɔ dɛ, á jra ɖo / á nɔ te
 shortcut-rerecord-toggle = so ɖeka yí atɔn
 shortcut-rerecord-toggle-label = á trɔ lé nyɔ
 shortcut-discard-ongoing-recording = aɖaŋuɖeɲɔnucucu, alɔmekaxomɔnucucu
