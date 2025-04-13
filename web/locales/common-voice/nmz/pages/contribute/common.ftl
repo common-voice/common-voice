@@ -6,8 +6,8 @@ skip = jǝ́sá tá wàlʊ́ŋ
 shortcuts = rǝ̀tópǝ̀
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold>
-       *[other] <bold>{ $count }</bold>
+        [one] <bold>{ $count }</bold> àlǝ̀sʊ̀ŋ tóm
+       *[other] <bold>{ $count }</bold> àlǝ̀sʊ̀ŋ tóm
     }
 goal-help-recording = ʊ́ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ nà kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl àfèmǝ̀r rʊ̀rǝ̀tǝ̀ kà kàkáá<goalPercentage></goalPercentage> kà wʊ̀tàsǝ̀ kpàwʊ̀ŋ kà{ $goalVale }
 goal-help-validation = ʊ̀ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ ná, kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl afèmǝ̀r rʊ̀rǝ̀tǝ̀ { $goalValue } tìsúŋ !
@@ -135,8 +135,8 @@ contribution-background-voices-title = kɩ̀mã̀ŋ rʊ̀ kʊ̀kʊ̀wèèsǝ�
 contribution-background-voices-description = kʊ̀kʊ̀wèèsǝ̀ címísǝ̀ pǝ̀ cààrʊ̀, àmà ʊ̀ tà wósǝ́ sǝ̀ nùwèèsǝ̀nsǝ̀r kàà tàsǝ̀ rʊ́ʊ̀ ʊ̀ jèl nǝ̀ ʊ̀ kpà tóm wómpǝ̀ tàŋ àmààwʊ̀ŋ tóm tà nà. ʊ̀ cí sǝ̀ ɩ́ nɩ́ɩ́  tóm wómpǝ̀ wɩ̀ɩ̀n pǝ̀ tɩ̀ nǝ̀ àmààwʊ̀ŋ tóm nà, ɩ́ lô àkpààwʊ̀ŋ tóm. pǝ̀mpǝ̀ ñɩ̀ pɩ̀ɩ̀sǝ̀ pǝ̀ lííná  jǝ́rá kòtǝ̀mǝ̀r cól.
 contribution-background-voices-description-extended = ʊ́ cí sǝ̀ àkpààwʊ̀ŋ tóm wɩ̀ɩ̀ tìlùtìlù ʊ̀ cààrʊ̀ tǝ̀ kèmǝ̀sʊ̀ŋ, ɩ́ jél tǝ́.
 contribution-background-voices-example-1-title = táàr gbéná sǝ̀sòná<strong>[àpààsǝ́nʊ̀ŋ kàlʊ́ŋ</strong>]
-contribution-background-voices-example-1-explanation = ŋ̀ kʊ́ŋ já<strong> [núwã́ŋ kàr jààwʊ̀ŋ]</strong>
-contribution-volume-title = fòlíím
+contribution-background-voices-example-1-explanation = ŋ̀ kʊ́ŋ já<strong> [núwã́ŋ nàŋkàr jààwʊ̀ŋ]</strong>
+contribution-volume-title = fòòlíím
 contribution-volume-description = fòlíím lɔ̀sʊ́ŋ líŋ kálɖá cólààná. ɩ́ kìsì nǝ́ŋ núwã́ŋ kpàwʊ̀ŋ pèl tìdìlìì ʊ́ lí wóm núwã̀ŋ fòlíím kǝ̀l kpáwʊ́ŋ jàà tìp nà. kál mààtǝ̀ jáá nɩ̀ɩ̀ tɩ́ɩ̀.
 contribution-reader-effects-title = núwáŋ lɔ̀ɔ̀sʊ̀ŋ nǝ̀ kʊ̀kʊ̀wèèsǝ̀ wɩ̀ɩ̀rtǝ̀
 contribution-reader-effects-description = wʊ̀tàsǝ̀ kpàtrǝ̀ kpàwʊ̀ŋ tà nà, jǝ̀rá mɔ̀mɔ̀ wʊ̀tʊ́ nà. ɩ́ pɩ́sʊ́ sǝ̀ ɩ́ tɨ́sǝ̀ tàmpǝ̀r kà kʊ̀kʊ̀wéésǝ̀, jòtǝ̀rʊ́ŋ jààsǝ̀ kpàcácá wʊ́tʊ́ŋ. ɩ̀ kɨ̀sǝ̀ wóntǝ̀ nǝ̀ŋ màsín wʊ̀tã̀ŋ kpàwʊ́ŋ.
