@@ -152,6 +152,12 @@ write-contribute-menu-tooltip = Nguchüiyénô na wukôchi râ wipengüê, nguch
 add-sentences-menu-item-tooltip = Uchüiya nu wipêngüê na andzara rinú
 review-sentences-menu-item-tooltip = Kôchi nu wipêngüê na andzara rinú
 add-questions-menu-item-tooltip = Uchüiya nu séssénô na andzara rinú
+transcribe-audio-menu-item-tooltip = Mbakia râ mbétēnô mbatôrénô a andzara rinú
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Yidjïta pandúridjita  "Utira"
+add-sentences-menu-item-aria-label = Uchüiya nu pwámáká râ wipêngüê râ wulangha na ungüima
+review-sentences-menu-item-aria-label = Tuma nu séssénô pwámáká indi ungüima a langha a wundja
+add-questions-menu-item-aria-label = Tuma nu séssénô pwámáká indi ungüima a langha a wundja
+transcribe-audio-menu-item-aria-label = Nga nu mbakia râ mbétēnô râ mbatôrénô na utênê râ matira
