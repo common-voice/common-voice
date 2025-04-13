@@ -125,6 +125,14 @@ n-clips-pluralized =
     }
 help-share-goal = ლა̈ნმა̈რჯუ̂ ხოფშირა ჰერლე ლა̈თხის, გააზიარე ისგუ მიზან
 confirm-goal = ჩვათდასტურა̈ვ მიზან
+goal-interval-weekly = ჩი ნაგზაისგა̈შ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = გააზიარე ისგუ{ $count }კლიპიშ ჩილადღია̈ მიზან { $type }-იშდ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = გააზიარე ისგუ{ $count }კლიპიშ ნაგზაისგა̈შ მიზან { $type }-იშდ
+share-goal-type-speak = გა̈რგლა
+share-goal-type-listen = ლიჰუ̂ნა̈რი
+share-goal-type-both = გა̈რგლა ი ლიჰუ̂ნა̈რი
 
 ## Goals
 
