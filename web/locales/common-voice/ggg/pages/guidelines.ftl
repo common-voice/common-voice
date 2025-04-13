@@ -87,6 +87,8 @@ adding-sentences-subheader-length-explanation = جُملآ مي 15 گُڦتآ د
 adding-sentences-subheader-spelling-punctuation = هِجي اور نِشآنيونٚ
 adding-sentences-subheader-spelling-punctuation-explanation = جُملو سئيٚ تريٚڪآ دي لِکرو هوڻ کپي۔
 adding-sentences-subheader-speakable = ٻولوآ جوگو
+adding-sentences-subheader-speakable-explanation = ڀلآ جُملآ ڪجرتي اور گُڦتگو وآلآ هيٚنٚ۔  اُنآ ڪوُ پڙهوآ تآڻيٚ سولآ هوو کپي۔ جد تو گيآن آوآج سلآيت اور جُملآنٚ مي الگ لڦج لآجمي هينٚ، هم بي ڪوشش ڪر رهيرآ هونٚ تو رڪآرڊنگ جملآ ڪوُ همريٚ رآجيٚ ڪميونٽيٚ يو تآڻيٚ ممڪن هد تآئينٚ دلچسپيٚ اور مجيدآر پڻآوآنٚ۔
+adding-sentences-subheader-numbers = لمبر
 
 ## Question collection ids
 
