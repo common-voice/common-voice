@@ -306,13 +306,13 @@ export default class Model {
         total: Math.round(stat.total * getAverageSecondsPerClip(locale)),
         valid: Math.round(stat.valid * getAverageSecondsPerClip(locale)),
       })),
-    DAY / 2
+    1
   )
 
   getVoicesStats = lazyCache(
     'voice-stats',
     (locale: string) => this.db.getVoicesStats(locale),
-    20 * MINUTE
+    1
   )
 
   getContributionStats = lazyCache(

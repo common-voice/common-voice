@@ -1285,15 +1285,15 @@ export default class DB {
   ): Promise<{ date: string; value: number }[]> {
     // Get current UTC time
     const now = new Date()
-    now.setMinutes(0, 0, 0) // Round to the nearest hour
-    // Generate the last 10 hours
+    now.setMinutes(0, 0, 0) // Round down to the nearest hour
+
+    // Generate the last 10 hours, including the current hour, in UTC
     const hours = Array.from({ length: 10 }, (_, i) => {
       const date = new Date(now)
-      date.setHours(now.getHours() - i)
+      date.setHours(now.getHours() - i) // Include the current hour
       return date.toISOString().slice(0, 19).replace('T', ' ') // Format: "YYYY-MM-DD HH:00:00"
     }).reverse() // Keep it in ascending order
-    // Ensure last hour is included:
-    // hours.push(new Date().toISOString().slice(0, 19).replace('T', ' '))
+
     // Define the expected structure of rows
     type Row = { date: string; value: number }
 
@@ -1312,14 +1312,16 @@ export default class DB {
 
     // Ensure TypeScript knows the type
     const typedRows = rows as Row[]
-
     // Convert database results into a map
     const dataMap = new Map(typedRows.map(row => [row.date, row.value]))
-
+    console.log('dataMap:', dataMap)
+    console.log('hours:', hours)
+    // Build the final result
     const result = hours.map(hour => ({
       date: new Date(hour + ' UTC').toISOString(), // Force UTC interpretation
       value: dataMap.get(hour) || 0,
     }))
+
     return result
   }
   async getVoicesStatsutcplus(
