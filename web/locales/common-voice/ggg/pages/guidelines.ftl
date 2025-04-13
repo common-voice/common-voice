@@ -95,6 +95,9 @@ adding-sentences-subheader-abbreviations-explanation = "USA" يا "ICE" دي پ�
 adding-sentences-subheader-punctuation = نِشآنيونٚ
 adding-sentences-subheader-punctuation-explanation = کآس نِشآنيونٚ اور اوڪآڦ سِرڦ اُرو ٽيم شآمل ڪري جآنديونٚ هينٚ پر مسآل تو ايڪ  "don't" اور انگريجي گُڦتآ مي شآمل ڪررو گو هي جيسي apostrophe جروُريٚ هوئي۔ اورليريٚ گئيٚ لِکوٽ مي ڪررو جآئي، پر وو ممڪن ڪونآ تو تِمآ ڪوُ ڪد بيٚ کآس "don't" اور "we're" نِشآنيو ڪيٚ جروُرت پڙسي جيسي ڪر” #  جآنٚ"@" ۔
 adding-sentences-subheader-special-characters = کآ اکر اور دوسرآ ملڪو ڪآ اکر
+adding-sentences-subheader-special-characters-explanation-1 = اکر لآجميٚ سئي جوڻ کپينٚ بوليو مي بولوآ۔ مسآل تور روسي الڦآبيٽي مي ايڪ اکر هي پر ڪدي بي انگريجيو مي استمآل ڪونآ ڪررو گو هي اور اِرو ڪري ڪو بي"ж" انگريجي لِکري گئي لِکآوٽيٚ مي ڪدي بي ديکوو نآ کپي
+adding-sentences-subheader-special-characters-explanation-2 = ٻوليونٚ ڦآلتوُ جرورتينٚ ڀيݪي آپو آپو سئي ريٚت رآک سڪدآ هينٚ جد وي مڪآمي هونديونٚ هينٚ۔ جيڪر ڪرآ ٻوليو تآڻيٚ ڪآ کآس سئيآݪيٚ ڦآئيل ڪونآ هي، تو انگريجي تريڪآ مدديآݪآ تآڻيٚ ديکآسيو۔
+adding-sentences-subheader-offensive-content = اِترآجو جوگو موآد
 
 ## Question collection ids
 

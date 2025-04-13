@@ -143,3 +143,19 @@ share-goal = გააზიარე მიშგუ მიზან
 
 ## Goals
 
+streaks = შარა̈რ
+days =
+    { $count ->
+        [one] ლადა̈ღ
+       *[other] ლადღა̈რ
+    }
+recordings =
+    { $count ->
+        [one] ნა̈ი̄რუ̂
+       *[other] ნა̈ი̄რუ̂ა̈ლ
+    }
+validations =
+    { $count ->
+        [one] ვალიდაცია
+       *[other] ვალიდაცია
+    }
