@@ -54,9 +54,23 @@ first-cta-gender-select-help-text =
     .label = Kuchi mwanzanga kwambulula chinyingi cha ulunga nyi cha uthu ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Kukalakilisa cha kubwa nyi chawana cha liji !
+already-have-an-account = Nuli nawa nyi chipawa ? <login>Kuwana</login>
+create-profile-button = Kulinga
+# IMAGE TAGS
+img-alt-success-checkmark = Sandhula cha kuhasa
+# menu item
+read-sentences = tanga isoneko
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = tanga isoneko <small>(tangwa mulizaho)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = tanga isoneko kumbulula kuyihulo
+read-sentences-menu-item-tooltip = Kwata yoze umatanga isoneko mu kachi ka limi lie
+answer-questions-menu-item-tooltip = Lisonekese shimbu unakumbulula ku yihulo kuli waze watambikanga mu limi lienu
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Option ya Hadjika
+read-sentences-menu-item-aria-label = Tanga isoneko inalita nyi chikungulwila mukuli hicheka cha ma limu
+answer-questions-menu-item-aria-label = Mehenu youma yaha ku chihulo mulonga wa chikungu luila yitange nawa yikumbulule.
