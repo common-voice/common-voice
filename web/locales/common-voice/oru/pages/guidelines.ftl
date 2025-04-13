@@ -130,3 +130,6 @@ culturally-specific-questions = کلتور ګیرډ خاص سولَّی
 culturally-specific-questions-explanation = ا فئ سولَّی که کلتور ګیرډ خاص بېن یا ته ځواب ته ڒیوڅن واله باره نره وه دی مفروضي وینر بېن
 length-avoid-explanation = ته سولَّی ا ځواب يې ݫات لاسته ݫات ته پنځېس سیکِنډ کلِپ تر پکر هۀ
 process-steps = طریقۀ/قـدمی
+process-steps-explanation = سولَّی که ا څېن دی څُون مرحلي زَیِن۔ ته مرحلي ا لسټ کؤ بُو ته استعمال واله پۀ کی مجبور کَوِی که فئ يي سولی زر ال ترېک سَۀ، په ځاکه ته پۀ که فدرتي ځواب ال يې ڒوی
+offensive-content-sensitive-information = غصۀ ڒُوکَوُونکئ مواد یا حساس معلومات
+offensive-content-sensitive-information-explanation-explanation-1 = ا فئ سولَّی که ترکوک بارۀ نر دی ذاتي معلومات دُشی

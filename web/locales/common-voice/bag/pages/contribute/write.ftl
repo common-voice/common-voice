@@ -101,6 +101,18 @@ too-many-files = Tuffú iffundu
 small-batch-instruction = <icon></icon> Uchüiya nu wipêngüê iffundu iwi fôri nà nguru râ akumba
 multiple-sentences-error = Nu tà fiti wuchüiya wipêngüê iffundu nà wutumu umôchï
 exceeds-small-batch-limit-error = Kā fiti utuma wipêngüê utumba tôkô
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Umbárrá râ wutuma fumari. Kundji nà 1 ngunga
+       *[other] Umbárrá râ wutuma fumari. Kundji nà { $retryLimit } ngunga
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Umbárrá râ wutuma fumari. Kundji nà  1 ikôkô
+       *[other] Umbárrá râ wutuma fumari. Kundji nà  { $retryLimit } mukôkô
+    }
 
 ## MENU ITEM TOOLTIPS
 
