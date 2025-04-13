@@ -521,6 +521,7 @@ export default class DB {
             AND locale_id = ? 
             AND clips_count <= 15
             AND (enddate IS NULL OR enddate > NOW()) 
+            AND (startdate IS NULL OR startdate <= NOW())
             AND NOT EXISTS (
               SELECT original_sentence_id
               FROM clips
@@ -566,6 +567,7 @@ export default class DB {
           WHERE term_id IN (?)
           AND is_used AND sentences.locale_id = ?
           AND (enddate IS NULL OR enddate > NOW())
+          AND (startdate IS NULL OR startdate <= NOW())
           AND NOT EXISTS (
             SELECT original_sentence_id
             FROM clips
