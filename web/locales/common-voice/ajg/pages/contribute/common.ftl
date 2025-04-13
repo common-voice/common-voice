@@ -74,7 +74,7 @@ shortcut-discard-ongoing-recording-label = cucu nyɔlelé ce yí yikɔji
 shortcut-submit = numeɖóɖó
 shortcut-submit-label = sɔ enyɔleléwo ɖáɖá
 request-language-text = tɔwo gbe ce edonɔ ɖe dé kpɔ le Common Voice ji o ?, egbe ce yí e donɔ́ le gbesɔsɔ a?
-request-language-button = yɔ gbebu
+request-language-button = Sɔ gbe ɖeká ɖádá, ɖe egbe ɖeká fiá, tɔashi egbe ɖeká
 
 ## Listen Shortcuts
 
@@ -91,15 +91,15 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = afɔɖeɖewo
+contribution-criteria-nav = afɔɖeɖewo, aɖaŋuɖoɖówó
 contribution-criteria-link = áse alɔdodofɔɖeɖewo gɔme
 contribution-criteria-page-title = alɔdodofɔɖedewo
-contribution-criteria-page-description = seme be eɖoa ɖoto enyɔlelɛwo nyuieɖe ne nateŋ asɔ tɔwowo sɔkpewo
-contribution-for-example = le kpɔɖeŋu me
+contribution-criteria-page-description = Seme be eɖoa ɖoto enyɔlelɛwo nyuieɖe ne nateŋ asɔ tɔwowo sɔkpewo
+contribution-for-example = Le kpɔɖeŋu me
 contribution-misreadings-title = nuhlinhlin vodadawo
-contribution-misreadings-description = le tɔwonyɔwo seseme lɔ, lé susu dé enyɔlelewo ŋú kpɔbe wosɔ kuɖo enuŋɔŋlɔlɔwo ŋú ma ; ne gbe nyi vodada swɛwo yí wo nyí can, tashi wo. <br />  Vodada cewo yi bɔ́nɔ́ ke :
-contribution-misreadings-description-extended-list-1 = e kpɔtɔ <strong><strong>deka</strong>alo<strong> ɛ, lɔ»</strong> le enyɔgbeɛ tɔtɔjí me
-contribution-misreadings-description-extended-list-2 = ekpɔtɔ <strong> s</strong> ɖeka le nyɔkpe vɔvɔnu
+contribution-misreadings-description = Le tɔwonyɔwo seseme lɔ, lé susu dé enyɔlelewo ŋú kpɔbe wosɔ kuɖo enuŋɔŋlɔlɔwo maaa ; ne gbe nyi vodada swɛwo yí wo nyí can, tashi wo. <br />  Vodada ceɖewo yi bɔ́nɔ́ ke :
+contribution-misreadings-description-extended-list-1 = e kpɔtɔ <strong><strong>deka</strong>alo<strong> -ɛ,/-lɔ»</strong> le enyɔgbeleléɛ tɔtɔjí me.
+contribution-misreadings-description-extended-list-2 = ekpɔtɔ <strong> s</strong> ɖeka le nyɔkpe vɔvɔnu, ekpɔtɔ <strong> s</strong> ɖeka le nyɔkpe vɔxu.
 contribution-misreadings-description-extended-list-3 = enyɔtoɖeme cewo yi de le egbɛme donɔ́ mo ɖada shigbebe «kaɖejitɔe» le«kakaɖejitɔe» tɔxu
 contribution-misreadings-description-extended-list-4 = enyɔlele kpɛtɛlɔ vá sonɔ le nuwuwulɔ né nyí bé wo nɔ te enyɔleleɛ kaba
 contribution-misreadings-description-extended-list-5 = atekpɔ sugbɔ gbɔxoe ahlin nyɔkpe ɖeka
