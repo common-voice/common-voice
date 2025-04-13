@@ -18,4 +18,5 @@ dataset-metadata-sex = სქეს
 # dataset metadata - age of contributor
 dataset-metadata-age = შდიქიშ
 donate-modal-message = ისგუ მონაცემრე ნაკრებ იტუ̂ირთა̈უ̂ი!
-dataset-donate-modal-heading = სი ჯიხა̄ლდა...
+dataset-donate-modal-heading = სი ჯიხა̄ლდამა...
+donate-modal-explanation-1 = ზაუ̂ისგა მილიონ დოლართეჟი ხაკუ მონაცემრე ნაკრები მასპინძლობს ი პლატფორმა̄̈ ლისკე̄თეს 100+ ენობრივ საზოგადოება̄̈შდ, ერუ̂ა̄̈ჲ ეყრდნობიან ეჯას, იმუ̂ა̄̈ჲ ნა̈ჲ ლასყე̄ნედ.
