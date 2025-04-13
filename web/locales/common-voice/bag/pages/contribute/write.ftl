@@ -113,6 +113,24 @@ rate-limit-toast-message-seconds =
         [one] Umbárrá râ wutuma fumari. Kundji nà  1 ikôkô
        *[other] Umbárrá râ wutuma fumari. Kundji nà  { $retryLimit } mukôkô
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Nu mú fuma nà umbarra râ wutuma nà nônê unu. Yêrê nu ugüira 1 ngunga indi nu tuma apêngüê pwámáká. Ngangu nà wuyêrê winú !
+       *[other] Nu mú fuma nà umbarra râ wutuma nà nônê unu. Yêrê nu ugüira  { $retryLimit } mukôkô indi nu tuma apêngüê pwámáká. Ngangu nà wuyêrê winú !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Nu mú fuma nà umbarra râ wutuma nà nônê unu. Yêrê nu ugüira  indi nu tuma apêngüê pwámáká. Ngangu nà wuyêrê winú !
+       *[other] Nu mú fuma nà umbarra râ wutuma nà nônê unu. Yêrê nu ugüira  { $retryLimit } indi nu tuma apêngüê pwámáká. Ngangu nà wuyêrê winú !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } wipêngüê wôndzenari
+       *[other] { $uploadedSentences } wipêngüê wôndzenari nà { $totalSentences }
+    }
 
 ## MENU ITEM TOOLTIPS
 
