@@ -68,9 +68,39 @@ sentence-variant-select-multiple-variants = Yïmá nà andjara / Ikú iffundu
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tuma nu <icon></icon> wipêngüê nà wuchiô ungüima
+sc-bulk-upload-instruction = Tsôrâ nu nuffú ninú ari itô <uploadButton>inittéta indi utuma</uploadButton>
+sc-bulk-upload-instruction-drop = Taréya nu nuffú ari na wuchiô râ wutuma
+bulk-upload-additional-information = Nà dinga nu uchüiya tsumu nà nuffú unu, tiréna nu <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Nà dinga nu uchüiya tsumu nà nuffú unu, iwi I tà mú nà iffeya, tiréna nu <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Kundji nu umā na wutsôra wa nuffú ninú ari
+try-upload-again-md = Kundji umā utuma
+select-file = Idjita nuffú
+select-file-mobile = Idjita nuffú ya wutuma
+accepted-files = Ikú râ tuffú utōri: .tsv being
+minimum-sentences = Má abîmî wá wipêngüê nà nuffú : 1 000
+maximum-file-size = Utênê kunú ya nuffú : 25 Mo
+what-needs-to-be-in-file = Nuffú namê nu yanamú ubia atê?
+what-needs-to-be-in-file-explanation = Kôchi nu <templateFileLink>iffeya</templateFileLink>. Wipêngüê yinú I yanamú udjï tsati nà utênê (CC0 itô manônōh mbămbá má akumba) udjï muáng, ubiônô têbêrêwandjara uzu féssema ulangha. Wipêngüê tumari I yanamú uwôrrô ngunga 10 pôt nà 15 nà wulangha uzu assamba mbanu, ibérénô watu nà angôngî.
+upload-progress-text = Wutuma nà péh...
+sc-bulk-submit-confirm = N'riamú wipêngüê iwi I mú <wikipediaLink>nà wuchiô ungüima</wikipediaLink> kú n'timbamú nguru râ utuma.
+bulk-upload-success-toast = Wipêngüê tumarï
+bulk-upload-failed-toast = Yuba ya wutuma, wanda ukachi.
+bulk-submission-success-header = Ngangu nà ngüéngüînô rinú nà wutuma wá wipêngüê mbunu!
+bulk-submission-success-subheader = Nu akamú Mí Ngüîmá Common Voice a fuma nà mamana mă má wipêngüê ya wuchí!
+upload-more-btn-text = Utuma wipêngüê indjê ?
+file-invalid-type = Nuffú kā tumba
+file-too-large = Nuffú wanga iffundu
+file-too-small = Nuffú ikîtitï iffundu
+too-many-files = Tuffú iffundu
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Uchüiya nu wipêngüê iffundu iwi fôri nà nguru râ akumba
+multiple-sentences-error = Nu tà fiti wuchüiya wipêngüê iffundu nà wutumu umôchï
+exceeds-small-batch-limit-error = Kā fiti utuma wipêngüê utumba tôkô
 
 ## MENU ITEM TOOLTIPS
 

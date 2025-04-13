@@ -127,3 +127,6 @@ length = دراغوالئ
 length-explanation = ا سوال يې صرف ݭيې یا دیو جملۀ نر پکر هۀ
 dont-add-subheader = خوئ ال يې مک ګډېون
 culturally-specific-questions = کلتور ګیرډ خاص سولَّی
+culturally-specific-questions-explanation = ا فئ سولَّی که کلتور ګیرډ خاص بېن یا ته ځواب ته ڒیوڅن واله باره نره وه دی مفروضي وینر بېن
+length-avoid-explanation = ته سولَّی ا ځواب يې ݫات لاسته ݫات ته پنځېس سیکِنډ کلِپ تر پکر هۀ
+process-steps = طریقۀ/قـدمی
