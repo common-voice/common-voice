@@ -29,6 +29,7 @@ about-is-it-valid-text = wo sɔna ɛ bé nyàlàlélé kpaɖe
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-1 = wo la téŋu pò nùpo so  gbè ŋuti lè go vòvòvòwo mè. lè nukpakpla to mɔɖaŋukpɔwɔɛwo ji a, Common Voice biɔ be àmè bé susu né nɔ nugɔ̃mèsèse lè gbèwo domè alo wo a ɖo nyàbiɔse kèyà ŋuti :" ɖe àmè kèwo le do gbè kèyà wo la teŋu sè woa nɔnɔɛ gɔ̃mè kloe ne wo lè jè àgbàgba bé yewo a sè yewo nɔnɔgɔ̃mè a "
 about-playbook-what-is-language-content-3 = gbèɖe wo ɖo vòvòtoto gãɖewo lè gbèŋutisé, nyàɖoɖo alo yɔyɔ kpawo ji.  ekèya ŋuti a, mi la <ctaLink> do gbèlɔzɛwo</ctaLink> lè siti a ji lè pè 2022 mè. Ekèyà na bé dùkɔ̃wo wo la do jèsi woabe gbèwo lè gbèlepopugã mè.
 
 ## How do I add a language

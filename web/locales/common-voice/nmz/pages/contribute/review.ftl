@@ -57,5 +57,6 @@ review-error = hìtúŋ nàmpǝ̀r lɔ̀ɔ̀ mààtǝ̀ rǝ̀wììlɖǝ̀
 review-error-rate-limit-exceeded = ɩ́ kǝ́lʊ́ kàlʊ́ŋ kà lénlén. rà hɩ́nɖʊ́ʊ́ mɩ̀ sǝ̀ ɩ́ wììl mààtǝ̀ kà sàrǝ̀tǝ̀.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = rà lɔ̀ɔ̀sǝ́ tóm kà kpàtǝ̀r
+sc-redirect-page-subtitle-1 = mààtǝ̀ kpààr rɩ́ɩ́ nà kɔ̀ɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tà. ʊ̀ sɩ̀ɩ̀ nà sìjà ɩ́ pɩ́ɩ́sʊ́ʊ́ sǝ̀ <writeURL> ɩ́ mà</writeURL> mààtǝ̀ jàà <reviewURL> ɩ́ wììl </reviewURL> mààtǝ̀ kà kɔ̀ɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tà.
 # menu item
 review-sentences = wììl mààtǝ̀

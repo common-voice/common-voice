@@ -42,6 +42,29 @@ sentence-domain-select-placeholder = Idjita nu mutsi mutát
 agriculture_food = Mawata na mawatunya
 # Sentence Domain dropdown option
 automotive_transport = Matuwa na ingüêndô
+# Sentence Domain dropdown option
+finance = Mbama
+# Sentence Domain dropdown option
+service_retail = Wunônō na kussana ktiï
+# Sentence Domain dropdown option
+general = Yîmá
+# Sentence Domain dropdown option
+healthcare = Wundú
+# Sentence Domain dropdown option
+history_law_government = Wudjúwapuna, mbêndô nà wungomna
+# Sentence Domain dropdown option
+language_fundamentals = Mutsi má andjara (mbanu, akangá, mbama)
+# Sentence Domain dropdown option
+media_entertainment = Itaki
+# Sentence Domain dropdown option
+nature_environment = Wakōkôngô
+# Sentence Domain dropdown option
+news_current_affairs = Tsumupwámáká
+# Sentence Domain dropdown option
+technology_robotics = Wukêkêrê nà wuffôtô
+sentence-variant-select-label = Ikú râ wipêngüê
+sentence-variant-select-placeholder = Idjita nu ukú (fôri)
+sentence-variant-select-multiple-variants = Yïmá nà andjara / Ikú iffundu
 
 ## BULK SUBMISSION
 

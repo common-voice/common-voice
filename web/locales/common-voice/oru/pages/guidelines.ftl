@@ -119,3 +119,11 @@ what-makes-a-good-question-explanation-criteria-1 = سوال زر ته پوهی�
 what-makes-a-good-question-explanation-criteria-2 = غمومأ ته موضوع په مطابق چیو
 what-makes-a-good-question-explanation-criteria-3 = ضررناک او غصه ناک زبان يې مه خوئ استعمالېون او نۀ ته بیکوک ته سال زبان ته استعمال حمایت کېوَن
 what-makes-a-good-question-tip = تُو سُو آ ګه زېئی که ته مختلف حوالي او کری احاطۀ يې کېوی
+easy-to-understand = ته پوهیه پاره اسن
+easy-to-understand-explanation = افۀ سوال خؤش کَۀ ته هرکوکه وه په اسانه پویٛ اؤسېن ته حواله او ته کلتور ته لحاظ بغېر
+spelling-and-pronunciation = املا او اوقاف
+spelling-and-pronunciation-explanation = صحیح املا او ګرامر يې استعمالېون
+length = دراغوالئ
+length-explanation = ا سوال يې صرف ݭيې یا دیو جملۀ نر پکر هۀ
+dont-add-subheader = خوئ ال يې مک ګډېون
+culturally-specific-questions = کلتور ګیرډ خاص سولَّی
