@@ -91,9 +91,12 @@ export const useSentenceWrite = (mode: WriteMode) => {
   }
 
   const handleSentenceVariantChange = (item: string) => {
+    // incoming item is in "Variant Name [variant_token]" format
+    // parse it to get variant_token
+    const token: string = item.substring(item.indexOf("[")+1, item.length-1)
     sentenceWriteDispatch({
       type: SentenceWriteActionType.SET_VARIANT,
-      payload: { sentenceVariant: item },
+      payload: { sentenceVariant: token },
     })
   }
 

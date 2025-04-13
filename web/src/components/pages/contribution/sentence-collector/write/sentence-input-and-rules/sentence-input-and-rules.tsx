@@ -31,6 +31,7 @@ type Props = {
   sentenceDomains: readonly string[]
   error?: StateError
   variantTokens: string[]
+  variantNames: string[]
   selectedVariant?: string
   mode: WriteMode
 }
@@ -46,6 +47,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   citation,
   error,
   variantTokens,
+  variantNames,
   selectedVariant,
   mode,
 }) => {
@@ -53,6 +55,12 @@ export const SentenceInputAndRules: React.FC<Props> = ({
     error && error?.type !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error?.type === SentenceSubmissionError.NO_CITATION
   const hasVariants = variantTokens && variantTokens.length > 0
+  const variantOptions: string[] = ['sentence-variant-select-multiple-variants']
+  if (hasVariants) {
+    for (let i=0; i < variantTokens.length; i++) {
+      variantOptions.push(`${variantNames[i]} [${variantTokens[i]}]`)
+    }
+  }
 
   const { l10n } = useLocalization()
 
@@ -101,13 +109,14 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           />
           {hasVariants && (
             <Select
-              items={variantTokens}
+              items={variantOptions}
               setSelectedItem={handleSentenceVariantChange}
               selectedItem={selectedVariant}
               label={l10n.getString('sentence-variant-select-label')}
               placeHolderText={l10n.getString(
                 'sentence-variant-select-placeholder'
               )}
+              doTranslation={false}
             />
           )}
           <Localized id="citation" attrs={{ label: true }}>

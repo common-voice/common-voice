@@ -70,9 +70,11 @@ const WriteContainer = () => {
   } = useSentenceWrite(activeWriteOption as WriteMode)
 
   const variantTokens = variants ? variants.map(variant => variant.tag) : []
-  const allVariants =
-    variants &&
-    ['sentence-variant-select-multiple-variants'].concat(variantTokens)
+  const variantNames = variants ? variants.map(variant => variant.name) : []
+  const allVariantTokens =
+    variants && [].concat(variantTokens)
+  const allVariantNames =
+    variants && [].concat(variantNames)
 
   const handleToggle = (option: WriteSubmissionToggleOptions) => {
     trackSingleSubmission('toggle-button-click', locale)
@@ -118,7 +120,8 @@ const WriteContainer = () => {
     activeWriteOption: WriteSubmissionToggleOptions
   ) => {
     const sharedProps = {
-      allVariants,
+      allVariantTokens,
+      allVariantNames,
       handleCitationChange,
       handlePublicDomainChange,
       handleSentenceDomainChange,
