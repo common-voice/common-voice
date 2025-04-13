@@ -342,11 +342,17 @@ const findSentencesForReview =
               number_of_votes < 2 OR # not enough votes yet
               number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
             LIMIT ?
-          )
+          ) as temp
           ORDER BY RAND()
           LIMIT ?
         `,
-          [params.localeId, params.clientId, params.clientId, LIMIT_FROM, LIMIT_TO]
+          [
+            params.localeId,
+            params.clientId,
+            params.clientId,
+            LIMIT_FROM,
+            LIMIT_TO,
+          ]
         )
       ),
       TO.map(toUnvalidatedSentence)
