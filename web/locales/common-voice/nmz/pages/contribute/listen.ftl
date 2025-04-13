@@ -1,6 +1,6 @@
-listen = kémǝ́sʊ́ŋ
+listen = kèmǝ́sʊ́ŋ
 listen-subtitle = ɩ́ sǝ́n rà rà tìsì núwéésǝ̀ kpààwʊ̀ŋ pǝ̀
-listen-instruction = { $actionType }<playIcon>, à jáà máátǝ̀ kà sàrtǝ́ já?
+listen-instruction = { $actionType }<playIcon>, à kàl máátǝ̀ kà sàrtǝ́ já?
 listen-again-instruction = ŋ̀ lɔ̀ɔ̀ tǝ́mǝ́r kà sàrtǝ̀ ! <playIcon></playIcon>tàsǝ̀ kémsʊ̀ŋ nǝ́ŋ ŋ̀ pɩ́sʊ́.
 listen-3rd-time-instruction = ʊ̀ tǝ̀ kààsǝ̀ nàwʊ̀l kànà <playIcon></playIcon>, wàl rʊ́ʊ́ !
 listen-last-time-instruction = <playIcon></playIcon> àtɩ̀ɩ̀sǝ̀nʊ̀ŋ kàlɩ́!
