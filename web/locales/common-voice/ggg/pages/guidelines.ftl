@@ -103,9 +103,15 @@ reviewing-sentences-explanation-1 = جيڪر جُملو مٿي دِوجرآ مي
 reviewing-sentences-explanation-2 = جيڪر جُملو مٿي دِوجرآ ميآرو ڪوُ پورو ڪونآ ڪري، "نآ" ڪآ بٽڻو ڪوُ ڪِلڪ ڪرو۔
 reviewing-sentences-explanation-3 = جيڪر تِمي جُملآ ڪآ بآرآ مي پڪآ ڪونآ هو، تو تِمآ ڪوُ اُرو ڪوُ ڇوڙ بي سڪدآ هو اور آگي وڌو۔
 reviewing-sentences-explanation-4 = جيڪر تمرآ جُملآ جآچوآ تآڻي کتم هوجآئينٚ مهربآني ڪرڪي همآڪوُ وڌيٚڪ جُملآ ڀيݪآ ڪروآ مينٚ مدد ڪرو
+domain-explanation = ڊومين جمللآ ڪآ موآدو ڪوُ جاهر ڪر دو هي۔ اِري  ٽيم ، تِمي  چونڊ ڪر سڪدآهو:
 
 ## Question collection ids
 
+adding-questions = سوال شآمل ڪرو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ڀلو سوآل ڪآ هي؟
+what-makes-a-good-question-explanation = ايڪ  اوآميٚ شآملآئيو ڪيٚ ڊيٽآ سيٽينٚ تآڻيٚ ايڪ اسل سوآل هوڻ کپي:
+what-makes-a-good-question-explanation-criteria-1 = سمجھوآ مي  سولو اور جنآب ديوآ تآڻيٚ
+what-makes-a-good-question-explanation-criteria-2 = آم توري پر جُڙرآ ريهوو
