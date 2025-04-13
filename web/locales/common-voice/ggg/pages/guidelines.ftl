@@ -98,6 +98,11 @@ adding-sentences-subheader-special-characters = کآ اکر اور دوسرآ م
 adding-sentences-subheader-special-characters-explanation-1 = اکر لآجميٚ سئي جوڻ کپينٚ بوليو مي بولوآ۔ مسآل تور روسي الڦآبيٽي مي ايڪ اکر هي پر ڪدي بي انگريجيو مي استمآل ڪونآ ڪررو گو هي اور اِرو ڪري ڪو بي"ж" انگريجي لِکري گئي لِکآوٽيٚ مي ڪدي بي ديکوو نآ کپي
 adding-sentences-subheader-special-characters-explanation-2 = ٻوليونٚ ڦآلتوُ جرورتينٚ ڀيݪي آپو آپو سئي ريٚت رآک سڪدآ هينٚ جد وي مڪآمي هونديونٚ هينٚ۔ جيڪر ڪرآ ٻوليو تآڻيٚ ڪآ کآس سئيآݪيٚ ڦآئيل ڪونآ هي، تو انگريجي تريڪآ مدديآݪآ تآڻيٚ ديکآسيو۔
 adding-sentences-subheader-offensive-content = اِترآجو جوگو موآد
+adding-sentences-subheader-offensive-content-explanation = جيڪر جُملو اِترآجو جوگو جآنٚ پريشآن ڪروآݪو هي۔ مسآل تور کُلرو موآد ڪميونٽيٚ شآملآئيٚ ڪيٚ <communityGuidelines> ڪي ڪري، جآنٚ همري برکلآڦآئي ڪري۔ تِمآ ڪوُ جُملآ ڪوُ هٽآوآ مي </communityGuidelines> مدد کپي۔ تِمي اور بي همآ دي رآبتو ڪر سڪدآ هو </emailFragment>commonvoice@mozilla.com<emailFragment> مسلو ٻتآوآ تآڻيٚ۔
+reviewing-sentences-explanation-1 = جيڪر جُملو مٿي دِوجرآ ميآرو ڪوُ پورو ڪردو هي تو، "هآنٚ" بٽڻ دٻآوو۔
+reviewing-sentences-explanation-2 = جيڪر جُملو مٿي دِوجرآ ميآرو ڪوُ پورو ڪونآ ڪري، "نآ" ڪآ بٽڻو ڪوُ ڪِلڪ ڪرو۔
+reviewing-sentences-explanation-3 = جيڪر تِمي جُملآ ڪآ بآرآ مي پڪآ ڪونآ هو، تو تِمآ ڪوُ اُرو ڪوُ ڇوڙ بي سڪدآ هو اور آگي وڌو۔
+reviewing-sentences-explanation-4 = جيڪر تمرآ جُملآ جآچوآ تآڻي کتم هوجآئينٚ مهربآني ڪرڪي همآڪوُ وڌيٚڪ جُملآ ڀيݪآ ڪروآ مينٚ مدد ڪرو
 
 ## Question collection ids
 
