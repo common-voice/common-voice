@@ -40,5 +40,9 @@ sc-review-link = gbèŋgǝ̀lʊ́ŋ
 sc-criteria-modal = gbèŋgǝ̀lʊ́ŋ pààtǝ̀
 sc-criteria-title = gbèŋgǝ̀lʊ́ŋ pààtǝ̀
 sc-criteria-make-sure = ɩ́ ñǝ̀l nǝ̀ ɩ́ nà sǝ̀ mààtǝ̀ tɩ̀ŋkʊ́ pààtǝ̀ jà
+sc-criteria-item-1 = ʊ̀ wòsù sǝ̀ à mà mààtǝ̀ kà sàrǝ̀tǝ̀.
+sc-criteria-item-2 = ʊ̀ wòsù sǝ̀ mààtǝ̀ kà wɩ̀ɩ̀ sàrǝ̀tǝ̀.
+sc-criteria-item-3 = ʊ̀ wòsù sǝ̀ à pɩ̀ɩ̀sǝ̀ nǝ̀ àkàl mààtǝ̀.
+sc-criteria-item-4 = ʊ̀ cí sǝ̀ mààtǝ̀ tɩ̀ŋkʊ̀ pààtǝ̀ rʊ̀ʊ̀, ɩ́ ñʊ̀ʊ̀ àtìsùŋ wììr rʊ̀ʊ̀ kà ñɩ́ntʊ̀ʊ̀r rʊ̀ʊ̀.
 # menu item
 review-sentences = wììl mààtǝ̀
