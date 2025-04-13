@@ -29,6 +29,7 @@ record-abort-continue = Kwisa ya kukwata
 record-abort-delete = Kathuka mawa Jima yeswe ya kukwata
 review-aborted = Kuhona cha kuthuma mu zanga kujima yeswe ya kuthuma ?
 review-submit-title = Hengula nawa thuma
+review-submit-msg = Kusakwilila wakalakala mu kukwata ! <lineBreak></lineBreak> Nwatamba haliapurla nawa kuthuma yipidji chi hashi.
 
 ## MENU ITEM TOOLTIPS
 

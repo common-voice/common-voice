@@ -52,9 +52,9 @@ report-offensive-speech = enyɔveame , enyɔdabiameŋuwo
 report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le egbeɖiɖi kpɔɖonulɔ me
 report-other-comment =
     .placeholder = numeɖeɖe
-success = ŋjejekpɔkpɔ le dɔwɔwɔme
-continue = yi ji
-report-success = wo sɔ egbeɖoɖo  ɖaɖa nyuieɖe,  wo ɖó dɔŋɔŋlɔ nyɔtakakaɔ ɖaɖa nyuieɖe.
+success = Dɔwɔwɔ ŋjejekpɔkpɔ, dɔwɔwɔ jijeji, dɔwɔwɔ viɖeɖe
+continue = yi ji, so yi ji
+report-success = wo sɔ egbeɖoɖo  ɖaɖa nyuieɖe,  wo ɖó dɔŋɔŋlɔ nyɔtakakaɔ ɖaɖa nyuieɖe, wo sɔ enyɔleɖiɛ ɖáɖá nyuieɖé.
 
 ## Speak & Listen Shortcuts
 
@@ -66,14 +66,14 @@ shortcut-skip = a
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
-shortcut-record-toggle-label = á le nyɔ dɛ, á jra ɖo / á nɔ te
+shortcut-record-toggle-label = Le nyɔ dɛ, jra nyɔ do ɖɛ́ /  nɔ te
 shortcut-rerecord-toggle = [so ɖeka yí atɔn]
 shortcut-rerecord-toggle-label = á trɔ lé nyɔ, á trɔ lé nyɔwo ɖɛ́
 shortcut-discard-ongoing-recording = aɖaŋuɖeɲɔnucúcú, alɔmekaxomɔnucúcú
-shortcut-discard-ongoing-recording-label = cucu nyɔlelé ce yí yikɔji
-shortcut-submit = numeɖóɖó
-shortcut-submit-label = sɔ enyɔleléwo ɖáɖá
-request-language-text = tɔwo gbe ce edonɔ ɖe dé kpɔ le Common Voice ji o ?, egbe ce yí e donɔ́ le gbesɔsɔ a?
+shortcut-discard-ongoing-recording-label = cucu nyɔlelé ce yí yikɔji, cucu enyɔ  ce yíe le kɔ.
+shortcut-submit = Enumeɖóɖó
+shortcut-submit-label = Sɔ enyɔleléwo ɖáɖá, á śɔ enyɔleléwo ɖáɖá
+request-language-text = tɔwo gbe ce edonɔlɔ́ dé sɔgbe hɔɖo o ? egbe ce yí e donɔ́ ɖé dé le gbesɔsɔ o?
 request-language-button = Sɔ gbe ɖeká ɖádá, ɖe egbe ɖeká fiá, tɔashi egbe ɖeká
 
 ## Listen Shortcuts
