@@ -13,6 +13,7 @@ type Props = {
   setSelectedItem: (item: string) => void
   label: string
   placeHolderText: string
+  doTranslation?: boolean
 }
 
 export const Select: React.FC<Props> = ({
@@ -21,6 +22,7 @@ export const Select: React.FC<Props> = ({
   setSelectedItem,
   label,
   placeHolderText,
+  doTranslation = true
 }) => {
   const { l10n } = useLocalization()
 
@@ -53,7 +55,7 @@ export const Select: React.FC<Props> = ({
         {...getToggleButtonProps()}
         data-testid="select-toggle-btn">
         <span>
-          {selectedItem ? l10n.getString(selectedItem) : placeHolderText}
+          {selectedItem ? (doTranslation ? l10n.getString(selectedItem) : selectedItem) : placeHolderText}
         </span>
         <ChevronDown />
       </button>
@@ -72,7 +74,7 @@ export const Select: React.FC<Props> = ({
               }
               key={`${item}`}
               {...getItemProps({ item, index, 'data-testid': item })}>
-              <span>{l10n.getString(item)}</span>
+              <span>{doTranslation ? l10n.getString(item) : item}</span>
             </li>
           ))}
       </ul>
