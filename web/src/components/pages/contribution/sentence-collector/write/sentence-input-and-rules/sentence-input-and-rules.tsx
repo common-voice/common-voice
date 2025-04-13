@@ -51,18 +51,17 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   selectedVariant,
   mode,
 }) => {
+  const { l10n } = useLocalization()
   const isSentenceError =
     error && error?.type !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error?.type === SentenceSubmissionError.NO_CITATION
   const hasVariants = variantTokens && variantTokens.length > 0
-  const variantOptions: string[] = ['sentence-variant-select-multiple-variants']
+  const variantOptions: string[] = [l10n.getString('sentence-variant-select-multiple-variants')]
   if (hasVariants) {
     for (let i=0; i < variantTokens.length; i++) {
       variantOptions.push(`${variantNames[i]} [${variantTokens[i]}]`)
     }
   }
-
-  const { l10n } = useLocalization()
 
   const { multipleComboBoxItems, inputValue, setInputValue } =
     useMultipleComboBox({
