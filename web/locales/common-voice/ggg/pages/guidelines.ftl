@@ -131,3 +131,7 @@ process-steps-explanation = سوآل جيڪي ڪِري دي ڪِترآ ئي مر
 offensive-content-sensitive-information = نآپسنديآݪو موآد جآنٚ اسردآر کبر چآر
 offensive-content-sensitive-information-explanation-explanation-1 = سوآل جيڪي جآتي اورݪيآڻيٚ کبر چآر لي سڪدآ هينٚ
 offensive-content-sensitive-information-explanation-explanation-2 = ايسآ سوآل جيڪي نڦرتي تڪرير جآنٚ دوسري ترڦيآݪآ جآنٚ نآ سئي کيالآنٚ ڪوُ دآوت دي سڪدآ هينٚ
+offensive-content-sensitive-information-explanation-explanation-3 = ايسآ سوآل جيڪي ڪِرو ڪوُ اسردآر، ممڪن تورو پر هرڪتيٚ جبآب ديوآ تآڻيٚ مجبور ڪر سڪدآ هينٚ۔
+example-questions-subheader = مِسآل سوآل
+example-questions-explanation-1 = تِمي <examplePromptsLink>اِرو ورڪو مي 120 مثالينٚ ڪآ اِشآرآنٚ  ڪوُ </examplePromptsLink> ڍونڊ سڪدآ هو۔
+example-questions-explanation-2 = جد تِمي سوآلآنٚ کیٚ ایک ٽنچ جمآ ڪرآوو چآهندآ هو، تو تِمي <githubLink>همريٚ GitHub جرئي ايسي ڪر سڪدآ هو</githubLink> جآنٚ آپو ڪيٚ اِرآ لِسٽيٚ ڪوُ <emailFragment>commonvoice@mozilla.com</emailFragment> پر ايٚ ميل ڪردي ڀيج سڪدآ هو۔
