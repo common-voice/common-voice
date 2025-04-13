@@ -133,6 +133,10 @@ share-n-weekly-contribution-goal = გააზიარე ისგუ{ $count
 share-goal-type-speak = გა̈რგლა
 share-goal-type-listen = ლიჰუ̂ნა̈რი
 share-goal-type-both = გა̈რგლა ი ლიჰუ̂ნა̈რი
+# LINK will be replaced with the current URL
+goal-share-text = მი ათხე̄ხი ოხუ̂ა̈სყ პერსონალურ მიზან ხმოვან წვლილიშდ #CommonVoice-შდ - სგა ლა̈მტყუ̄ბა̈ნ ი ლოხმა̈რჯუ̂ მანქანა̄̈ლს, ერე ჟ'ა̈ნთუ̂ერიხ იმჟი გუ̂რგლის ტკისდი მა̄რა̈ლ{ $link }
+weekly-goal-created = ისგუ ჩი ნაგზია̈შ მიზან ჟ'ა̄̈ნსყა̄̈ნ
+daily-goal-created = ისგუ ჩილადღია̈ მიზან ჟ'ა̄̈ნსყა̄̈ნ
 
 ## Goals
 
