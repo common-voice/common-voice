@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = Ukôchi mbakia tumari na watimbāna n�
 
 listen-contribute-menu-aria-label = Yidjïta pandúridjita " Watôrô "
 validate-readings-menu-item-aria-label = Wôtō wulangha tumari na urrôngawatu
+review-transcriptions-menu-item-aria-label = Ukôchi utênê râ mbakia râ wipêngüê bétēnari

@@ -18,11 +18,11 @@ validate-readings-coming-soon = tìsì kàlʊ́ŋ kʊ̀pàm<small> ( wómp�
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = tìsì kàlʊ́ŋ kʊ̀pàm, wììl ŋ́ ná sǝ̀ máátǝ̀ sàrà já
-validate-readings-menu-item-tooltip = ɩ́ tìsì mɩ́ wʊ̀tã̀ŋ tóm wómpǝ̀ wʊ́tǝ́rá kpàà nà.
-review-transcriptions-menu-item-tooltip = mɩ́ wʊ̀tã̀ŋ tàà kàlràà mààtǝ̀ wììlùŋ
+validate-readings-menu-item-tooltip = ɩ́ tìsì mɩ́ wʊ̀tã̀ŋ tóm wómpǝ̀ wʊ́tǝ́rá kpàà nà
+review-transcriptions-menu-item-tooltip = ɩ́  wììl nǝ̀ ɩ́ ná sǝ̀ mɩ́ wʊ̀tã̀ŋ wʊ̀tǝ̀rà mààtǝ̀ sàrà já
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = « kèmsʊ́ŋ » àwóór
-validate-readings-menu-item-aria-label = ɩ́ jèl mɩ́ ríjáfàláá tísí sǝ̀ tóm pǝ̀ ɩ́ jékà nà sàràà
-review-transcriptions-menu-item-aria-label = wììl ŋ́ ná há máátǝ̀ tǝ́ àkpàà ná máá sàrtǝ̀ já
+validate-readings-menu-item-aria-label = ɩ́ tìsì mɩ́ wʊ̀tã̀ŋ tóm wómpǝ̀ àkpàr ñɩmpà jèkà nà.
+review-transcriptions-menu-item-aria-label = ɩ́ wììl nǝ̀ ɩ́ ná sǝ̀ àkpààwʊ̀ŋ tóm wómpǝ̀ à màà nà sàrà jà
