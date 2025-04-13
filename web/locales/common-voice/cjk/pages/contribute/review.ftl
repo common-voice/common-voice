@@ -20,6 +20,11 @@ sc-review-form-button-approve-shortcut = O
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = P
+sc-review-form-keyboard-usage-custom = Nunatambe chimuwikha kulingila kabathu : { sc-review-form-button-approve-shortcut } mulonga wa shindakenyo, { sc-review-form-button-reject-shortcut }mulonga wa  kumbila, { sc-review-form-button-skip-shortcut } mulonga wa kuthuka
+sc-review-form-button-submit =
+    .submitText = Wisa kuhengula
+sc-review-form-review-failure = Kuhengula chatambile kubwa cha kukwata.
+sc-review-link = Hilukila
 
 ## REVIEW CRITERIA
 

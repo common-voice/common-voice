@@ -18,3 +18,4 @@ report-error = کھٻر بھیݪی کرتے سمے ایک گلتی سامے آئ
 continue = کرا کر
 # Header for report modal after successful reporting
 success = سَپھلتا
+report-success-message = کھٻر سپھلتاس سُئِیکار کری لی ہے

@@ -17,6 +17,7 @@ audio-format = აუდიო ფორმატ
 dataset-splits = განაყოფა̈რ (ასაკ ი სქეს)
 number-of-voices = ჰერლე შელდ
 splits = განაყოფა̈რ
+email-to-download = სგ'ა̄თი̄რ ელ. ფოსტა̄̈ მისამართ ჩულა̈ტვირთა̈უ̂დ
 your-feedback = ჯუღუ̂აჲა იდეა̄̈ლ იმჟი ალსიკთად Common Voice მონაცემრე ნაკრებ? ქა ნა̈ბჟი̄ნ Discour-ჟი
 go-discourse = ქა̄̈ტხ Discour-თე
 missing-language = დეშ ხოსგდიჲა ისგუ ნინს მონაცემრე ნაკრებისგა? ნინ ერ ხიჰრი, ქ'ა̄დე ნიშგუ̂ეჲ ნინრე გვერდთე.
