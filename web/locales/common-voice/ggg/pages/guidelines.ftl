@@ -127,3 +127,7 @@ dont-add-subheader = شآمل م’ن ڪرو
 culturally-specific-questions-explanation = ايسآ سوآل جيڪي سڪآڦتيٚ تور پر کآس هينٚ، جآنٚ جبآبديوآݪآ بآرآ مي گهڻو ڪيندآ هينٚ۔
 length-avoid-explanation = ايسآ سوآل جِنآ ڪآ جبآب ڪِرو ڪوُ 15 سيڪنڊ ينٚ مي ديوو مشڪل هوسيٚ۔
 process-steps = ڪآم / ڪدم
+process-steps-explanation = سوآل جيڪي ڪِري دي ڪِترآ ئي مرهلآنٚ ڪيٚ لِسٽ ڪروآ تآڻيٚ جروُريٚ هينٚ۔   مرهلآنٚ ڪيٚ لِسٽ سُڻوآݪآ ڪوُ  جبآب ورجاوآ  تاڻيٚ اِشآرو دينديونٚ هينٚ، بجآئي ايڪ ڪُدرتي  جبآب۔
+offensive-content-sensitive-information = نآپسنديآݪو موآد جآنٚ اسردآر کبر چآر
+offensive-content-sensitive-information-explanation-explanation-1 = سوآل جيڪي جآتي اورݪيآڻيٚ کبر چآر لي سڪدآ هينٚ
+offensive-content-sensitive-information-explanation-explanation-2 = ايسآ سوآل جيڪي نڦرتي تڪرير جآنٚ دوسري ترڦيآݪآ جآنٚ نآ سئي کيالآنٚ ڪوُ دآوت دي سڪدآ هينٚ

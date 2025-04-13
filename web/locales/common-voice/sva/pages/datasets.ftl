@@ -12,3 +12,10 @@ download = ჩამოტვირთვა
 dataset-version = ვერსია
 sha256-checksum-copied = SHA256 საკონტროლო ჯამ დაკოპირებულ ლი!
 sha256-checksum-copied-error = SHA256 ჯამი ასლი ლისყე̄ნე მა̄მ ა̈ნსახთა̈ნ
+clipboard-not-supported = ლაცა̄დუნა ბუფერ მა̄მ ლი მხარდაჭერილ
+no-information-available = ინფორმაცია მა̄მ ა̈რი
+dataset-metadata-sex = სქეს
+# dataset metadata - age of contributor
+dataset-metadata-age = შდიქიშ
+donate-modal-message = ისგუ მონაცემრე ნაკრებ იტუ̂ირთა̈უ̂ი!
+dataset-donate-modal-heading = სი ჯიხა̄ლდა...
