@@ -20,3 +20,6 @@ dataset-metadata-age = შდიქიშ
 donate-modal-message = ისგუ მონაცემრე ნაკრებ იტუ̂ირთა̈უ̂ი!
 dataset-donate-modal-heading = სი ჯიხა̄ლდამა...
 donate-modal-explanation-1 = ზაუ̂ისგა მილიონ დოლართეჟი ხაკუ მონაცემრე ნაკრები მასპინძლობს ი პლატფორმა̄̈ ლისკე̄თეს 100+ ენობრივ საზოგადოება̄̈შდ, ერუ̂ა̄̈ჲ ეყრდნობიან ეჯას, იმუ̂ა̄̈ჲ ნა̈ჲ ლასყე̄ნედ.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>ჰემა სი ხალგუ̂ენი ღია, ინკლუზიურ მონაცემა̈რს - ქა ლა̄ხო  შიშდ ლა̈დი!</bold>
+data-download-singleword-title = ჩუ̂ახტუ̂ირთა̈უ̂ ეშხუ სიტყუ̂ა̄̈ სამიზნე სეგმენტ
