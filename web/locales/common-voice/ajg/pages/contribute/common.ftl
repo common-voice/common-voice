@@ -38,8 +38,8 @@ submit-form-action = sɔ ɖo ɖa
 ## Reporting
 
 report = nu, na kaklan, da sa
-report-title = asɔ egbeɖoɖo  ɖaɖa
-report-ask = kuxi kene hanɖewo yí midogo le nyɔgbe ceɖe ŋu o
+report-title = á sɔ́ egbɛɖoɖo  ɖaɖa, á sɔ́ nuŋlɔŋlɔ ɖaɖa, á ɖó nyɔtakaka ɖaɖa, á ɖódɔŋɔŋlɔ nyɔtakaka ɖaɖa.
+report-ask = Kuxi kene hanɖéwo yí midogo le nyɔgbe ceɖe ŋu o ? kuxi kene hanɖéwo yí e kpɔ kuɖo enyɔgbe ceɖe o ?
 report-offensive-language = amemabumabugbe
 report-offensive-language-detail = amemabumabu alo ezu le nyɔgbe lɔwo me
 report-grammar-or-spelling = gbeŋutisévodawo/gbeŋɔŋlɔtisevodada

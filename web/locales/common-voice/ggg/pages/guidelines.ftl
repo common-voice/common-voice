@@ -93,6 +93,8 @@ adding-sentences-subheader-numbers-explanation = ليرو گئيٚ لِکآوٽ 
 adding-sentences-subheader-abbreviations = گھٽتآيونٚ اور گھٽتآيونٚ
 adding-sentences-subheader-abbreviations-explanation = "USA" يا "ICE" دي پآسو ڪررو جآئي گھٽتآيونٚ اور گھٽتآيآنٚ جيسڪر لِکري گئي ليرو گئي لِکآوٽيٚ مي ڪآلي تو وي شآيد ايسآ تريڪآ دي پڙهآرآ جآئينٚ جيڪيٚ اُنآ ڪيٚ هِجي دي ٺيرآ نآ هوئينٚ۔ گھڻو ڪري، هو سڪدو هي ايڪ وِرليٚ گھٽتآئيٚو تآڻيٚ ڪِترآئي سئي پڙهرآ هووينٚ۔
 adding-sentences-subheader-punctuation = نِشآنيونٚ
+adding-sentences-subheader-punctuation-explanation = کآس نِشآنيونٚ اور اوڪآڦ سِرڦ اُرو ٽيم شآمل ڪري جآنديونٚ هينٚ پر مسآل تو ايڪ  "don't" اور انگريجي گُڦتآ مي شآمل ڪررو گو هي جيسي apostrophe جروُريٚ هوئي۔ اورليريٚ گئيٚ لِکوٽ مي ڪررو جآئي، پر وو ممڪن ڪونآ تو تِمآ ڪوُ ڪد بيٚ کآس "don't" اور "we're" نِشآنيو ڪيٚ جروُرت پڙسي جيسي ڪر” #  جآنٚ"@" ۔
+adding-sentences-subheader-special-characters = کآ اکر اور دوسرآ ملڪو ڪآ اکر
 
 ## Question collection ids
 
