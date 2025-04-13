@@ -43,4 +43,5 @@ sc-review-rules-title = Chisoneko mutshibwa cha kulita ku inyingi ?
 sc-review-empty-state = Kushi haliabwila nyi chimwe chisoneko mulimi.
 report-sc-different-language = Limi likwo
 report-sc-different-language-detail = Chisoneko cha kwadjika mu limi lia kulisasa ku lize hingumatanga.
-sentences-fetch-error = Ulema wabwanga wasolokanga shimbu lia kutalia tshisoneko
+sentences-fetch-error = Ulema wezanga  shimbu lia kumbata isoneko
+review-error = Ulema wabwanga wasolokanga shimbu lia kutla tshisoneko
