@@ -84,6 +84,7 @@ interface Props
     RouteComponentProps<any, any, any> {}
 
 interface State {
+  currentlyPlayingIndex: number | null,
   clips: SentenceRecording[];
   isSubmitted: boolean;
   error?: RecordingError | AudioError;
@@ -97,6 +98,7 @@ interface State {
 }
 
 const initialState: State = {
+  currentlyPlayingIndex: null,
   clips: [],
   isSubmitted: false,
   error: null,
@@ -343,6 +345,8 @@ class SpeakPage extends React.Component<Props, State> {
     setTimeout(async () => {
       const info = await this.audio.stop();
       this.processRecording(info);
+      this.audio.release()
+
     }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
     this.setState({
@@ -580,6 +584,12 @@ class SpeakPage extends React.Component<Props, State> {
     this.setAbortContributionModalVisiblity(false);
   };
 
+  private handleTogglePlay = (index: number) => {
+    this.setState(prev => ({
+      currentlyPlayingIndex: prev.currentlyPlayingIndex === index ? null : index,
+    }));
+  };
+
   render() {
     const { getString, user, isLoading, hasLoadingError } = this.props;
     const {
@@ -746,12 +756,20 @@ class SpeakPage extends React.Component<Props, State> {
                 status={recordingStatus}
                 onClick={this.handleRecordClick}
                 data-testid="record-button"
+                disabled={this.state.currentlyPlayingIndex !== null}
               />
             }
             pills={clips.map((clip, i) => (props: ContributionPillProps) => (
               <RecordingPill
                 {...props}
                 clip={clip}
+                isRecording={recordingStatus === 'recording'}
+                isAnyOtherPlaying={
+                  this.state.currentlyPlayingIndex !== null &&
+                  this.state.currentlyPlayingIndex !== i
+                }
+                isCurrentPlaying={this.state.currentlyPlayingIndex === i}
+                onTogglePlay={() => this.handleTogglePlay(i)}
                 status={
                   recordingIndex === i
                     ? 'active'

@@ -18,9 +18,11 @@ export default function Breadcrumb() {
       <div className="breadcrumbs text-sm">
         <ul className="flex gap-1 text-gray-600 px-14 pt-6">
           <li className="hover:text-blue-500 text-md">
-            <Link to="/" className="flex items-center gap-1">
-              الرئيسة
-            </Link>
+            <a
+                href="https://falak.ksaa.gov.sa"
+                className="flex items-center gap-1">
+                <span>  الرئيسة</span>
+              </a>
           </li>
           <li className="hover:text-blue-500 text-[#219F8A] text-md">
             <Link to="/" className="flex items-center gap-1">

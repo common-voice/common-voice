@@ -44,6 +44,13 @@ export default function FalakHeader() {
             </li>
             <li>
               <a
+                href="https://falak.ksaa.gov.sa/voicewall"
+                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
+                <span>  الجدارية الصوتية</span>
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://falak.ksaa.gov.sa/frequency-lists"
                 className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
                 <span> قوائم الشيوع</span>

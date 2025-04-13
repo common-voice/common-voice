@@ -290,3 +290,106 @@ export const dumyAccents = {
     },
   },
 }
+
+export const dumyClips = [
+  {
+    id: '8025',
+    glob: '66c21a6b-7853-4b90-be1e-9bd98fc2660d%2Fb2e02d65-cfd9-4a9b-a244-0cef77b90572',
+    sentence: {
+      id: 'b2e02d65-cfd9-4a9b-a244-0cef77b90572',
+      text: 'يزور الأهالي أقاربهم ويهنؤونهم قبل دخول الشهر المبارك بيومين أو ثلاثة.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/66c21a6b-7853-4b90-be1e-9bd98fc2660d%2Fb2e02d65-cfd9-4a9b-a244-0cef77b90572.mp3',
+  },
+  {
+    id: '8061',
+    glob: '764cb5b9-858f-4b43-904d-c348c72bdb80%2F721dcfbf-ebdc-4aca-9866-63637fe87cf2',
+    sentence: {
+      id: '721dcfbf-ebdc-4aca-9866-63637fe87cf2',
+      text: 'كل القلوب تنتظر شهر رمضان بكل شغف وحب.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2F721dcfbf-ebdc-4aca-9866-63637fe87cf2.mp3',
+  },
+  {
+    id: '8068',
+    glob: '764cb5b9-858f-4b43-904d-c348c72bdb80%2F9546fb6b-b112-4c7b-838c-9f4e45802b00',
+    sentence: {
+      id: '9546fb6b-b112-4c7b-838c-9f4e45802b00',
+      text: 'شهر رمضان يعد فرصة لإعادة النظر في بعض العادات الغذائية الخاطئة.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2F9546fb6b-b112-4c7b-838c-9f4e45802b00.mp3',
+  },
+  {
+    id: '8099',
+    glob: '764cb5b9-858f-4b43-904d-c348c72bdb80%2F0d999368-d47c-400d-bdac-10ceedb184f4',
+    sentence: {
+      id: '0d999368-d47c-400d-bdac-10ceedb184f4',
+      text: 'لا يقتصر الاحتفاء بشهر رمضان على الأسرة وأفرادها، ولكن أثره يمتد إلى الاهتمام بالجار.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2F0d999368-d47c-400d-bdac-10ceedb184f4.mp3',
+  },
+  {
+    id: '8029',
+    glob: '15f80da8-0894-4b58-83d3-4c473fb4a004%2Fb2e02d65-cfd9-4a9b-a244-0cef77b90572',
+    sentence: {
+      id: 'b2e02d65-cfd9-4a9b-a244-0cef77b90572',
+      text: 'يزور الأهالي أقاربهم ويهنؤونهم قبل دخول الشهر المبارك بيومين أو ثلاثة.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/15f80da8-0894-4b58-83d3-4c473fb4a004%2Fb2e02d65-cfd9-4a9b-a244-0cef77b90572.mp3',
+  },
+  {
+    id: '8048',
+    glob: '764cb5b9-858f-4b43-904d-c348c72bdb80%2Ff7b9549d-9be0-4ad8-b25f-4363578254a2',
+    sentence: {
+      id: 'f7b9549d-9be0-4ad8-b25f-4363578254a2',
+      text: 'بمجرد دخول شهر رمضان يبدأ الأهالي بتهنئة بعضهم البعض بعباراتٍ مميزة مثل: (مبارك عليكم الشهر)، و(كل عام وأنتم بخير).',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2Ff7b9549d-9be0-4ad8-b25f-4363578254a2.mp3',
+  },
+  {
+    id: '8052',
+    glob: '764cb5b9-858f-4b43-904d-c348c72bdb80%2F38a5a93d-840d-4df1-b0df-4085fb76d273',
+    sentence: {
+      id: '38a5a93d-840d-4df1-b0df-4085fb76d273',
+      text: 'في رمضان يمتنع المسلمون في كل مكان عن الطعام والشراب من شروق الشمس إلى غروبها.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2F38a5a93d-840d-4df1-b0df-4085fb76d273.mp3',
+  },
+  {
+    id: '8090',
+    glob: '764cb5b9-858f-4b43-904d-c348c72bdb80%2Ff7ad0022-36a0-42c1-994d-d619598c4fe9',
+    sentence: {
+      id: 'f7ad0022-36a0-42c1-994d-d619598c4fe9',
+      text: 'صيام شهر رمضان سبيل لزهد العبد في الدنيا.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2Ff7ad0022-36a0-42c1-994d-d619598c4fe9.mp3',
+  },
+  {
+    id: '8064',
+    glob: '764cb5b9-858f-4b43-904d-c348c72bdb80%2Fe22cdcf1-ee25-4193-a1c5-e2c1135f944a',
+    sentence: {
+      id: 'e22cdcf1-ee25-4193-a1c5-e2c1135f944a',
+      text: 'كان أبرز ما يميز رمضان في الماضي «المسحراتي» الذي كان يضفي رونقًا خاصًا على الشهر.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2Fe22cdcf1-ee25-4193-a1c5-e2c1135f944a.mp3',
+  },
+  {
+    id: '8070',
+    glob: '764cb5b9-858f-4b43-904d-c348c72bdb80%2F186cb063-08c5-489f-a5fe-806e847173ed',
+    sentence: {
+      id: '186cb063-08c5-489f-a5fe-806e847173ed',
+      text: 'تختلف المائدة في شهر رمضان اختلافًا ملحوظًا عن المائدة اليومية في الأشهر الأخرى.',
+    },
+    audioSrc:
+      'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2F186cb063-08c5-489f-a5fe-806e847173ed.mp3',
+  },
+]

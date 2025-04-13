@@ -21,7 +21,7 @@ import { QuestionMarkIcon } from '../../../../ui/icons';
 import { Button } from '../../../../ui/ui';
 
 import './firstPostSubmissionCTA.css'
-import { COUNTRIES } from '../../../../../constants'
+import { COUNTRIES } from '../../../../../countries'
 
 export const USER_LANGUAGES = 'userLanguages';
 
@@ -197,7 +197,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         onChange={(e) => setCountry(e.target.value)}
       >
         <option value="">اختر دولتك</option>
-        {COUNTRIES.map((country) => (
+        {COUNTRIES.sort((a, b) => a.name.localeCompare(b.name)).map((country) => (
           <option key={country.value} value={country.value}>
             {country.name}
           </option>

@@ -15,9 +15,9 @@ export default function HomePageSection() {
   const [showInfoRatingModal, setShowInfoRatingModal] = useState(false);
 
   return (
-    <div className=" flex flex-col items-center mt-10 pt-10 ">
+    <div className=" flex flex-col items-center mt-10">
       {/* mic-banner */}
-      <div className='py-2 container hero-banner'>
+      <div className='p-2 container hero-banner'>
       <div
         className="rounded-[24px] bg-banner bg-no-repeat bg-center w-[100%] max-w-[1460px] bg-cover md:bg-contain min-h-[300px] h-full flex justify-start items-center ">
         <div className="flex flex-col justify-between gap-5 items-start p-8 m-10 text-white text-right">

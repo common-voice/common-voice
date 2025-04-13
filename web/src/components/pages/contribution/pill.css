@@ -3,7 +3,7 @@
 .pill {
     border-radius: 29px;
 
-    width: 46px;
+    width: 207px;
     height: 46px;
 
     flex-shrink: 0;
@@ -91,7 +91,7 @@
 
     &.open {
         justify-content: space-between;
-        width: 175px;
+        width: 100%;
 
         @media (--sm-down) {
             width: auto;

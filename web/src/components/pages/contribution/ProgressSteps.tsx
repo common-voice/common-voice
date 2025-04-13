@@ -6,7 +6,7 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
 
   return (
     <div
-      className=" my-5 w-full flex justify-center bg-white py-4 px-6 shadow-sm"
+      className="steps-wrap my-5 w-full flex justify-center bg-white py-4 px-6 shadow-sm"
       style={{ border: '1px solid #D4D4D4', borderRadius: '15px' }}>
       <ul className="steps flex-1 overflow-auto">
         {steps.map((step: any, index: number) => {

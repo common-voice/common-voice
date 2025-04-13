@@ -14,15 +14,15 @@
 }
 
 .contribution {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0 auto;
     padding: 10px 20px;
     max-width: var(--wide-desktop-width);
-    width: 100%;
+    /* width: 100%; */
     height: calc(100% - var(--header-height));
 
     @media (--tall) {
