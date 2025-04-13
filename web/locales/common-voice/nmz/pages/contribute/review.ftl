@@ -20,23 +20,25 @@ sc-review-form-button-approve-shortcut = O
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = P
-sc-review-form-keyboard-usage-custom = ŋ̀ pɩ́ɩ́sʊ́ sǝ̀ ŋ̀ ñʊ́ʊ́ rǝ́tópǝ́ :{ sc-review-form-button-approve-shortcut } nǝ̀ ŋ̀ tísǝ̀,{ sc-review-form-button-reject-shortcut } nǝ̀ ŋ̀gǝ̀sǝ̀,{ sc-review-form-button-skip-shortcut } nǝ̀ ŋ̀ rɩ̀ɩ̀
+sc-review-form-keyboard-usage-custom = ŋ̀ pɩ́ɩ́sʊ́ sǝ̀ ŋ̀ ñʊ́ʊ́ rǝ́tópǝ́ :{ sc-review-form-button-approve-shortcut } nǝ̀ ŋ̀ tísǝ̀,{ sc-review-form-button-reject-shortcut } nǝ̀ ŋ̀ kìsì,{ sc-review-form-button-skip-shortcut } nǝ̀ ŋ̀ rɩ̀ɩ̀
 sc-review-form-button-submit =
     .submitText = tɩ̀ɩ̀sǝ̀ wììlùŋ
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] páá máárʊ́ŋ tà sàr.
-        [1] mààrʊ́ŋ kǝ́rmʊ́ŋ sàrà. ñán tǝ̀mǝ́r !
-        [one] i
-       *[other] { $sentences } mààtǝ̀ sàrà. ñán tǝ̀mǝ́r !
+        [1] mààtǝ̀ kʊ̀wììltǝ̀. ñán tǝ̀mǝ́r !
+        [0] páá máátǝ̀ kʊ̀wììltǝ̀.
+        [one] páá máátǝ̀ kʊ̀wììltǝ̀.
+       *[other] { $sentences } mààtǝ̀  kʊ̀wììltǝ̀. ñán tǝ̀mǝ́r !
     }
+sc-review-form-review-failure = à tà pɩ̀ɩ̀sǝ̀ nǝ̀ àkpà tóm kùwììlìm. rà hɩ̀nɖʊ̀ mɩ̀ sǝ̀ ʊ̀ tàsàà ɩ́ pààsǝ̀.
 sc-review-link = gbèŋgǝ̀lʊ́ŋ
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = gbèŋgǝ̀lʊ́ŋ pààtǝ̀
 sc-criteria-title = gbèŋgǝ̀lʊ́ŋ pààtǝ̀
+sc-criteria-make-sure = ɩ́ ñǝ̀l nǝ̀ ɩ́ nà sǝ̀ mààtǝ̀ tɩ̀ŋkʊ́ pààtǝ̀ jà
 # menu item
 review-sentences = wììl mààtǝ̀
