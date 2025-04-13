@@ -36,3 +36,11 @@ sc-criteria-item-2 = Isoneko ili nyi kwadjika cha keshi uhenge nyi umwe.
 sc-criteria-item-3 = Tshisoneko tshili cha kuhadjika
 sc-criteria-item-4 = Nyi tshisoneko cha kukumbula kuchize tshili lamba helu lia « lutobe  » ku utata.
 sc-criteria-item-5-2 = Nyi tshisoneko cha kukumbula kuchize tshili lamba helu lia « lutobe » ku umama.
+sc-criteria-item-6 = Nyi nuabwa nyi kukhakhajana muatambile hamuwikha kuthumbuka kuhiana hachize muchinga !
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Hengula <icon></icon> isoneko inalita mu cheseko cha malimi
+sc-review-rules-title = Chisoneko mutshibwa cha kulita ku inyingi ?
+sc-review-empty-state = Kushi haliabwila nyi chimwe chisoneko mulimi.
+report-sc-different-language = Limi likwo
+report-sc-different-language-detail = Chisoneko cha kwadjika mu limi lia kulisasa ku lize hingumatanga.
+sentences-fetch-error = Ulema wabwanga wasolokanga shimbu lia kutalia tshisoneko
