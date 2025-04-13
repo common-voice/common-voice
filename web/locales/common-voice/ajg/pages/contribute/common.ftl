@@ -91,9 +91,9 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = afɔɖeɖewo, aɖaŋuɖoɖówó
-contribution-criteria-link = áse alɔdodofɔɖeɖewo gɔme
-contribution-criteria-page-title = alɔdodofɔɖedewo
+contribution-criteria-nav = afɔɖeɖewo, aɖaŋuɖoɖówó, ɖoɖowo.
+contribution-criteria-link = á se alɔdodofɔɖeɖewo gɔme, á se kpekpeɖoŋú ɖoɖowo gɔme, á se kpekpeɖoŋú séwo gɔme.
+contribution-criteria-page-title = alɔdodofɔɖedewo; kpekpeɖéŋúséwó
 contribution-criteria-page-description = Seme be eɖoa ɖoto enyɔlelɛwo nyuieɖe ne nateŋ asɔ tɔwowo sɔkpewo
 contribution-for-example = Le kpɔɖeŋu me
 contribution-misreadings-title = nuhlinhlin vodadawo
@@ -103,8 +103,8 @@ contribution-misreadings-description-extended-list-2 = ekpɔtɔ <strong> s</stro
 contribution-misreadings-description-extended-list-3 = enyɔtoɖeme cewo yi de le egbɛme donɔ́ mo ɖada shigbebe «kaɖejitɔe» le«kakaɖejitɔe» tɔxu
 contribution-misreadings-description-extended-list-4 = enyɔlele kpɛtɛlɔ vá sonɔ le nuwuwulɔ né nyí bé wo nɔ te enyɔleleɛ kaba
 contribution-misreadings-description-extended-list-5 = Woatekpɔ ŋtɔ́ gbɔxxe ahlin nyɔkpe ɖeka, Woatekpɔ ŋtɔ́ gbɔxxe ahlin nú ɖeka.
-contribution-misreadings-example-1-title = Trias hwenu xexiɖegãwo, Trias bleman lanxoxwi jɔasuwo
-contribution-misreadings-example-2-title = Trias hwenu xexiɖegã, Trias bleman lanxoxwi jɔasu
+contribution-misreadings-example-1-title = Trias hwenu xexiɖegãwo, Trias bleman lanxoxwi jɔasuwo, Trias dinozɔru jɔasuwo
+contribution-misreadings-example-2-title = Trias hwenu xexiɖegã, Trias bleman lanxoxwi jɔasu, Trias dinozɔru jɔasu.
 contribution-misreadings-example-2-explanation = [éɖoanyí «hwenu xexiɖegãwo»], [éɖoanyí «bleman lanxoxwiwo»]
 contribution-misreadings-example-3-title = Trias dinozɔru jɔasuwo
 contribution-misreadings-example-3-explanation = enyɔlele soso le nyɔ kpɛtɛ lɔ me

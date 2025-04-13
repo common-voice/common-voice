@@ -30,6 +30,30 @@ record-abort-delete = Kathuka mawa Jima yeswe ya kukwata
 review-aborted = Kuhona cha kuthuma mu zanga kujima yeswe ya kuthuma ?
 review-submit-title = Hengula nawa thuma
 review-submit-msg = Kusakwilila wakalakala mu kukwata ! <lineBreak></lineBreak> Nwatamba haliapurla nawa kuthuma yipidji chi hashi.
+review-recording = Kuhengulula
+review-rerecord = Kukwachiwa cha
+review-cancel = Kujima kuthuma
+review-keep-recordings = Kulama yize ya kukwata
+review-delete-recordings = Kujima ya kukwata
+review-terms = Kulingila jila ya Common Voice, kutaiza <termsLink>shimbi yakulingila mfefe jethu</termsLink> na yethu <privacyLink>akuswamana</privacyLink>
+terms-agree = Nataiza
+terms-disagree = Chisolo
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Wakalakala ize walinga inyingi ya isoneko !
+first-cta-subtitle-text = Wakuzangila nawa kukwaha yihadjeka ikwo helu lia mulali wa kuhadjika ?
+why-donate = Mulonga wakha chihulo chino ?
+why-donate-explanation-1 = Maliji ayihadjeka iwko ili ya mwenemwene ya dama mwatala kuyiwezela nyi munubwa kanawa. Ha shimbu muthusolola maheho ize ya kuneha cha kusa chauma ha chauma yeswe ihadjeka ya maliji ya muthu ukawenyi nawa thuma nunyingikisa cha mbwende cha ihadjeka ya maliji ngwe tshize jina nawa chihela cha kunuwana ngwe miaba chibwe chinyingi cha ulunga chibwe cha pwo.
+why-donate-explanation-2 = Ngwe unyikigiko wa welo lia kulu unathumika kanawa mulonga wa ko ifuchi ya muze inakwsa kutwa la kulutwe kuthunga cha helu cha unyingikiso muso lola usuku unene wa athu. Chishimo nyi twasele nyi chiwe mukwa kubandji ka nyi kukhakhamisa alioze unyingikiso wa helu ushiku thumika ku ubeme wa athu nyi kukhakhamisa. <learnMore>Ku nyingika cha helu cha ulemu</learnMore>
+add-information-button = wezela ihadjeka
+continue-speaking-button = kha kukalakalisa, yenu lume hadjika
+create-profile-text = unazanga kukwata ihandjeka ? <createProfile> Kulinga</createProfile>
+thanks-for-voice-toast = Kukalakalisa mulonga wa ihadjeka
+thanks-for-voice-toast-error = Tshilema cha kathukanga shimbu lia kuthuma ihandjeka
+first-cta-gender-select-default-option = Tondemu chimwe
+first-cta-gender-select-help-text =
+    .label = Kuchi mwanzanga kwambulula chinyingi cha ulunga nyi cha uthu ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Kukalakilisa cha kubwa nyi chawana cha liji !
 
 ## MENU ITEM TOOLTIPS
 
