@@ -39,11 +39,11 @@ submit-form-action = sɔ ɖo ɖa
 
 report = nu, na kaklan, da sa
 report-title = á sɔ́ egbɛɖoɖo  ɖaɖa, á sɔ́ nuŋlɔŋlɔ ɖaɖa, á ɖó nyɔtakaka ɖaɖa, á ɖódɔŋɔŋlɔ nyɔtakaka ɖaɖa.
-report-ask = Kuxi kene hanɖéwo yí midogo le nyɔgbe ceɖe ŋu o ? kuxi kene hanɖéwo yí e kpɔ kuɖo enyɔgbe ceɖe o ?
-report-offensive-language = amemabumabugbe
+report-ask = Kuxi kene hanɖéwo yí edogo le nyɔgbe ceɖe ŋu o ? kuxi kene hanɖéwo yí e kpɔ kuɖo enyɔgbe ceɖe o ? Kuxi kene hanɖewo yí e kpɔ le nyɔgbe ceɖe me o ?
+report-offensive-language = amemabumabugbe, busunyɔ, gbɔɖiamenyɔ, enyɔ fuflu; ŋkpɛn nyɔ, enyɔ vlo, enyɔ hɔnhɔn, enyɔ xoɖi, afɛn nyɔ
 report-offensive-language-detail = amemabumabu alo ezu le nyɔgbe lɔwo me
-report-grammar-or-spelling = gbeŋutisévodawo/gbeŋɔŋlɔtisevodada
-report-grammar-or-spelling-detail = gbeŋutisévodada alo gbeŋɔŋlɔtisevodada ɖeka le nyɔgbelɔme
+report-grammar-or-spelling = egbenyɔsevodawo / egbeŋɔŋlɔsevodada
+report-grammar-or-spelling-detail = egbenyɔsevodada alo egbeŋɔŋlɔsevodada ɖeka le nyɔgbelɔme
 report-different-language = egbebu
 report-different-language-detail = wo ŋlɔnyɔgbe ɖo gbe ce yí tovo nɔ kiŋyitɔ me
 report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu
