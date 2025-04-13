@@ -28,3 +28,11 @@ sc-review-link = Hilukila
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Chize tshili cha kuhilukila
+sc-criteria-title = Chize tshili cha kuhilukila
+sc-criteria-make-sure = Nyingikenu chisoneko muchikumbulula chize chimatamba kubwa :
+sc-criteria-item-1 = Isoneko ili nyi kwadjika cha keshi uhenge nyi umwe.
+sc-criteria-item-2 = Isoneko ili nyi kwadjika cha keshi uhenge nyi umwe.
+sc-criteria-item-3 = Tshisoneko tshili cha kuhadjika
+sc-criteria-item-4 = Nyi tshisoneko cha kukumbula kuchize tshili lamba helu lia « lutobe  » ku utata.
+sc-criteria-item-5-2 = Nyi tshisoneko cha kukumbula kuchize tshili lamba helu lia « lutobe » ku umama.
