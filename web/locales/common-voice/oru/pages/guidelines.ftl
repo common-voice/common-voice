@@ -114,3 +114,5 @@ adding-questions = ته سولَّی ګډؤ
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ا سِر سوال يې بُفو څا جوړېک سَۀ
+what-makes-a-good-question-explanation = ته عام خلق ته شمولیت واله ډېټاسېټ پاره يې ا سِر سوال سا پکر هۀ
+what-makes-a-good-question-explanation-criteria-1 = سوال زر ته پوهیؤ او ته ځواب ته ڒیوڅن پاره يې ا څاک سینۀ پکر هۀ

@@ -48,5 +48,9 @@ sc-criteria-item-5-2 = ʊ̀ cí sǝ̀ mààtǝ̀ pǝ̀ tɩ̀ŋkʊ̀ pààt�
 sc-criteria-item-6 = ʊ̀ cí sǝ̀ à wììlùŋ mààtǝ̀ kpǝ̀rà, ɩ́ sǝ́ndà rà hìwù mààtǝ̀ kʊ́fátǝ̀ !
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = ɩ́ wììl <icon></icon>nǝ̀ ɩ́ nq̀ sǝ̀ mààtǝ̀ sàrà jà
+sc-review-rules-title = mààtǝ̀ nǝ̀ àwòsà sǝ̀ à là wómpǝ̀ nà ʊ̀ tàmà jà?
+sc-review-empty-state = ŋ́káhɩ̀ŋ ʊ̀ tà kààsǝ̀ àwììlùŋ  mààtǝ̀  kà wʊ́tã́ŋ kà tà.
+report-sc-different-language = wʊ̀tã̀ŋ nã̀ŋkàr
+report-sc-different-language-detail = à màà mààtǝ̀ kà wʊ̀tàŋ wóŋkà tà nà, kà wɩ̀ɩ̀ nà kà tɩ̀ nǝ̀ wóŋkà mà kàlʊ̀ʊ̀ nà.
 # menu item
 review-sentences = wììl mààtǝ̀

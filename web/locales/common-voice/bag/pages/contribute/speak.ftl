@@ -74,3 +74,5 @@ answer-questions-menu-item-tooltip = Betēna nu mí rinú ari nu langhamu wipên
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Yidjïta pandúridjita « Udzara »
+read-sentences-menu-item-aria-label = Ulangha wipêngüê tumari nà urrôngawatu nà andzara ndêndêngüê
+answer-questions-menu-item-aria-label = Uffáwidjita séssénô pwámáká indi urrôngawatu i langha i wundja
