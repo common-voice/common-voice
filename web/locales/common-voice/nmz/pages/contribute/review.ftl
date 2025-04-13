@@ -51,6 +51,11 @@ sc-review-instruction = ɩ́ wììl <icon></icon>nǝ̀ ɩ́ nq̀ sǝ̀ màà
 sc-review-rules-title = mààtǝ̀ nǝ̀ àwòsà sǝ̀ à là wómpǝ̀ nà ʊ̀ tàmà jà?
 sc-review-empty-state = ŋ́káhɩ̀ŋ ʊ̀ tà kààsǝ̀ àwììlùŋ  mààtǝ̀  kà wʊ́tã́ŋ kà tà.
 report-sc-different-language = wʊ̀tã̀ŋ nã̀ŋkàr
-report-sc-different-language-detail = à màà mààtǝ̀ kà wʊ̀tàŋ wóŋkà tà nà, kà wɩ̀ɩ̀ nà kà tɩ̀ nǝ̀ wóŋkà mà kàlʊ̀ʊ̀ nà.
+report-sc-different-language-detail = à màà mààtǝ̀ kà wʊ̀tàŋ wóŋkà tà nà, kà wɩ̀ɩ̀ nà kà tɩ̀ nǝ̀ wóŋká mà kálʊ́ʊ́ nà.
+sentences-fetch-error = hìtúŋ nàmpǝ̀r lɔ̀ɔ̀ mààtǝ̀ lɩ̀wʊ̀ŋ tà.
+review-error = hìtúŋ nàmpǝ̀r lɔ̀ɔ̀ mààtǝ̀ rǝ̀wììlɖǝ̀ tà.
+review-error-rate-limit-exceeded = ɩ́ kǝ́lʊ́ kàlʊ́ŋ kà lénlén. rà hɩ́nɖʊ́ʊ́ mɩ̀ sǝ̀ ɩ́ wììl mààtǝ̀ kà sàrǝ̀tǝ̀.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = rà lɔ̀ɔ̀sǝ́ tóm kà kpàtǝ̀r
 # menu item
 review-sentences = wììl mààtǝ̀
