@@ -137,3 +137,4 @@ offensive-content-sensitive-information-explanation-explanation-2 = سا سول�
 offensive-content-sensitive-information-explanation-explanation-3 = سا سولَّی که ته حساس معلومات شامؤ زرت مجبُورَوی
 example-questions-subheader = نمونۀ ته سولَّی
 example-questions-explanation-1 = پۀ شیټ نر دی بُو میثلَّی ديېک اېنچی
+example-questions-explanation-2 = که تو زېئی که تو ل دی ګۀ ائ سا سولَّی ګډېوی، نو تُو بوګۀ سا اېنچی ترماخ ته GitHub په ذریعۀ یا بُو ماخ کی ا لیسټ ای مېل اېنچی

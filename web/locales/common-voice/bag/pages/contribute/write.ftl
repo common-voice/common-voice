@@ -131,9 +131,27 @@ add-small-batch-success =
         [one] { $uploadedSentences } wipêngüê wôndzenari
        *[other] { $uploadedSentences } wipêngüê wôndzenari nà { $totalSentences }
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } apêngüê wôndzénari ná môchï <downloadLink>here</downloadLink> nà wuchiô wa wussichia wipêngüê barangari
+       *[other] { $uploadedSentences } apêngüê wôndzénari ná môchï <downloadLink>here</downloadLink> nà wuchiô wa wussichia wipêngüê barangari
+    }
+small-batch-sentences-rule-1 = Biônô nu têbêrê râ undari "Apêngüê ayatê n'fitimú wuchüiya?"
+small-batch-sentences-rule-2 = Uchüiya nu na têndê
+small-batch-sentences-rule-3 = Saa nu wipêngüê na winita ungôndô môchï na "Ngüinganénô"
+small-batch-sentences-rule-4 = Uchüiya nu wipêngüê u fuma tôkô
+small-batch-sentences-rule-5 = Wipêngüê yïma i yānamu udzara wanda umôchï
+small-batch-sentences-rule-6 = Wipêngüê yïma i yānamu utimba ngudzénô umôchï
+# menu item
+add-sentences = Uchüiya nu wipêngüê
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Nguchüiyénô na wukôchi râ wipengüê, nguchüiyénô râ séssénô, mbakia mbatôrénô
+add-sentences-menu-item-tooltip = Uchüiya nu wipêngüê na andzara rinú
+review-sentences-menu-item-tooltip = Kôchi nu wipêngüê na andzara rinú
+add-questions-menu-item-tooltip = Uchüiya nu séssénô na andzara rinú
 
 ## MENU ITEM ARIA LABELS
 
