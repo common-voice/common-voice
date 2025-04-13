@@ -45,3 +45,10 @@ report-sc-different-language = Limi likwo
 report-sc-different-language-detail = Chisoneko cha kwadjika mu limi lia kulisasa ku lize hingumatanga.
 sentences-fetch-error = Ulema wezanga  shimbu lia kumbata isoneko
 review-error = Ulema wabwanga wasolokanga shimbu lia kutla tshisoneko
+review-error-rate-limit-exceeded = Nwaya fuji fuij. Mwatamba kubwa shimbu likwo mulonga kutanga chisoneko tshili cha kashishi.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Muthulinga inene ya kuswipa
+sc-redirect-page-subtitle-1 = A kwakuchinga isoneko kuyitwala kusala likwo Common voice.  Nunatela lia kulu <writeURL>kwadjika </writeURL>chibwe <reviewURL>kuhengula</reviewURL> isoneko ndo ku jila ya isonekeso ikwo Common voice.
+sc-redirect-page-subtitle-2 = lihulenu yahulo ya  <matrixLink>Matrix </matrixLink>, <discourseLink>Discourse</discourseLink>  ou <emailLink>email</emailLink>.
+# menu item
+review-sentences = Hengula isoneko ya majina
