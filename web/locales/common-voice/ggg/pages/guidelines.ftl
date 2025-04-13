@@ -124,3 +124,6 @@ spelling-and-pronunciation-explanation = سئي هِجي اور گرآمريٚ �
 length = لمبآئيٚ
 length-explanation = سوآل سِرڦ دو جملآنٚ مي جبآب ديوآ جيسو هوڻ کپي۔
 dont-add-subheader = شآمل م’ن ڪرو
+culturally-specific-questions-explanation = ايسآ سوآل جيڪي سڪآڦتيٚ تور پر کآس هينٚ، جآنٚ جبآبديوآݪآ بآرآ مي گهڻو ڪيندآ هينٚ۔
+length-avoid-explanation = ايسآ سوآل جِنآ ڪآ جبآب ڪِرو ڪوُ 15 سيڪنڊ ينٚ مي ديوو مشڪل هوسيٚ۔
+process-steps = ڪآم / ڪدم

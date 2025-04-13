@@ -10,3 +10,5 @@ more = ხოში̄ლ
 close = ლიხურა̈უ̂ი
 download = ჩამოტვირთვა
 dataset-version = ვერსია
+sha256-checksum-copied = SHA256 საკონტროლო ჯამ დაკოპირებულ ლი!
+sha256-checksum-copied-error = SHA256 ჯამი ასლი ლისყე̄ნე მა̄მ ა̈ნსახთა̈ნ
