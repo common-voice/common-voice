@@ -13,12 +13,12 @@ listen-abort-confirm = tɩ̀ɩ̀sǝ̀ tóm tìsùŋ
 # Menu item
 validate-readings = tìsì kàlʊ́ŋ kʊ̀pàm
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = tìsì kèmsǝ̀nʊ̀ŋ<small> ( wómpǝ̀ kʊ́ŋ nà táà</small>
+validate-readings-coming-soon = tìsì kàlʊ́ŋ kʊ̀pàm<small> ( wómpǝ̀ kʊ́ŋ nà táà</small>
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = tɩ́ɩ́sǝ̀ kèmsʊ̀ŋ, wììl ŋ́ ná há máátǝ̀ sàrà já
-validate-readings-menu-item-tooltip = ɩ́ jél lam gbèŋgǝ̀lɖáá tísí sǝ̀ tóm pǝ̀ ɩ́ kpàà nà sàràà
+listen-contribute-menu-tooltip = tìsì kàlʊ́ŋ kʊ̀pàm, wììl ŋ́ ná sǝ̀ máátǝ̀ sàrà já
+validate-readings-menu-item-tooltip = ɩ́ tìsì mɩ́ wʊ̀tã̀ŋ tóm wómpǝ̀ wʊ́tǝ́rá kpàà nà.
 review-transcriptions-menu-item-tooltip = mɩ́ wʊ̀tã̀ŋ tàà kàlràà mààtǝ̀ wììlùŋ
 
 ## MENU ITEM ARIA LABELS
