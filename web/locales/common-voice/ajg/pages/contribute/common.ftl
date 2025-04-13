@@ -29,15 +29,15 @@ change-preferences = trɔashi le nuŋɔŋlɔwo  ŋú
 login-signup = ɖó kame / ŋlɔ ŋkɔ
 vote-yes = ɛn
 vote-no = Oo
-datasets = Dɔwɔwɔ geɖewo nɔxu
+datasets = ŋɔŋlɔwo xuxoxu, ŋɔŋlɔwo takpikpli, ŋɔŋlɔwo nyínɔxu, ŋɔŋlɔwo hasoso, ŋɔŋlɔwo júnɔnɔ, ŋɔŋlɔwo godoxú
 languages = Egbewo
-about = Sɔ kuɖo
-partner = gbeɖoju/ alɔdoalɔme
+about = Sɔ kuɖo;, kuɖo
+partner = gbeɖoju/ alɔdoalɔme/ /xomekádódó
 submit-form-action = sɔ ɖo ɖa
 
 ## Reporting
 
-report = nu, na kaklan
+report = nu, na kaklan, da sa
 report-title = asɔ egbeɖoɖo  ɖaɖa
 report-ask = kuxi kene hanɖewo yí midogo le nyɔgbe ceɖe ŋu o
 report-offensive-language = amemabumabugbe

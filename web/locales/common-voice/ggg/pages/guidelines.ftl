@@ -91,6 +91,8 @@ adding-sentences-subheader-speakable-explanation = ڀلآ جُملآ ڪجرتي 
 adding-sentences-subheader-numbers = لمبر
 adding-sentences-subheader-numbers-explanation = ليرو گئيٚ لِکآوٽ مسآل تورو پر ڪوئي بي لمبر نآ هوو کپي ڪآلي تو وي مسلآ پيدآ ڪر سڪدآ هينٚ جد ٻڏيٚ آوآجيٚ دي پڙهو۔ ايڪ لمبر پڙهوآ ڪو تريڪو هولانٚ پر جُڙرو هي اور شآيد ڊيٽآ سيٽ مي مُجھآرو دِکآوو، مسآل تور، نمبر"2409" سهيو مينٚ پڙهرو جآ سڪدو هي دوئي "چويٚ سو نو" اور "دو هجآر چآر سو نو"۔
 adding-sentences-subheader-abbreviations = گھٽتآيونٚ اور گھٽتآيونٚ
+adding-sentences-subheader-abbreviations-explanation = "USA" يا "ICE" دي پآسو ڪررو جآئي گھٽتآيونٚ اور گھٽتآيآنٚ جيسڪر لِکري گئي ليرو گئي لِکآوٽيٚ مي ڪآلي تو وي شآيد ايسآ تريڪآ دي پڙهآرآ جآئينٚ جيڪيٚ اُنآ ڪيٚ هِجي دي ٺيرآ نآ هوئينٚ۔ گھڻو ڪري، هو سڪدو هي ايڪ وِرليٚ گھٽتآئيٚو تآڻيٚ ڪِترآئي سئي پڙهرآ هووينٚ۔
+adding-sentences-subheader-punctuation = نِشآنيونٚ
 
 ## Question collection ids
 
