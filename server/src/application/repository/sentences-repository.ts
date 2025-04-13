@@ -306,39 +306,47 @@ const findSentencesForReview =
       ? `AND variants.id = ${userVariant.variant.id}`
       : ''
 
+    const LIMIT_FROM = 1000 // among a larger set
+    const LIMIT_TO = 100 // select a random subset
+
     return pipe(
       TO.tryCatch(() =>
         db.query(
           `
-          SELECT
-            sentences.id,
-            sentences.text,
-            sentences.source,
-            sentences.locale_id,
-            variants.variant_token,
-            SUM(sentence_votes.vote) as number_of_approving_votes,
-            COUNT(sentence_votes.vote) as number_of_votes
-          FROM sentences
-          LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
-          LEFT JOIN sentence_metadata ON (sentence_metadata.sentence_id=sentences.id)
-          LEFT JOIN variants ON (variants.id=sentence_metadata.variant_id)
-          WHERE
-            sentences.is_validated = FALSE
-            AND sentences.locale_id = ?
-            ${variantCondition}
-            AND NOT EXISTS (
-              SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
-            )
-            AND NOT EXISTS (
-              SELECT 1 FROM sentence_votes sv WHERE sentences.id = sv.sentence_id AND sv.client_id = ?
-            )
-          GROUP BY sentences.id
-          HAVING
-            number_of_votes < 2 OR # not enough votes yet
-            number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
-          LIMIT 100
+          SELECT *
+          FROM (
+            SELECT
+              sentences.id,
+              sentences.text,
+              sentences.source,
+              sentences.locale_id,
+              variants.variant_token,
+              SUM(sentence_votes.vote) as number_of_approving_votes,
+              COUNT(sentence_votes.vote) as number_of_votes
+            FROM sentences
+            LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
+            LEFT JOIN sentence_metadata ON (sentence_metadata.sentence_id=sentences.id)
+            LEFT JOIN variants ON (variants.id=sentence_metadata.variant_id)
+            WHERE
+              sentences.is_validated = FALSE
+              AND sentences.locale_id = ?
+              ${variantCondition}
+              AND NOT EXISTS (
+                SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
+              )
+              AND NOT EXISTS (
+                SELECT 1 FROM sentence_votes sv WHERE sentences.id = sv.sentence_id AND sv.client_id = ?
+              )
+            GROUP BY sentences.id
+            HAVING
+              number_of_votes < 2 OR # not enough votes yet
+              number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
+            LIMIT ?
+          )
+          ORDER BY RAND()
+          LIMIT ?
         `,
-          [params.localeId, params.clientId, params.clientId]
+          [params.localeId, params.clientId, params.clientId, LIMIT_FROM, LIMIT_TO]
         )
       ),
       TO.map(toUnvalidatedSentence)
