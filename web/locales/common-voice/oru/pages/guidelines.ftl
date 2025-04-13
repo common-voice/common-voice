@@ -3,6 +3,7 @@ guidelines-header = ته پېش کؤ هدایات
 guidelines-header-subtitle = ته پېش کؤ آ زدکړه او که ته جمله توثیق يې سو څا کېوی او آډیو کلِپ سو څا مشترک آواز کی څا ڒیڅېوی
 voice-collection = آوزی جمع کؤ
 sentence-collection = ته جملي ا جمع کؤ
+question-collection = ته سولَّی ا جمع کؤ
 
 ## Voice Collection nav ids
 
@@ -108,6 +109,8 @@ domain-explanation = ا ډومېن ته جمله بُو ته جملۀ ا مضم�
 
 ## Question collection ids
 
+adding-questions = ته سولَّی ګډؤ
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ا سِر سوال يې بُفو څا جوړېک سَۀ
