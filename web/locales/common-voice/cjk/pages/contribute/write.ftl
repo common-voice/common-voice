@@ -21,6 +21,9 @@ new-sentence-rule-5 = Kushi chiffres chibwe yako yinatela
 new-sentence-rule-6 = Kushi chisoneko cha ungeji
 new-sentence-rule-7 = Kuhwacha kubwanacho chinatamba kubwa kusa
 new-sentence-rule-8 = Chisoneko chatamba kubwa cha kuntanga kuli zambi nyi kuhandjika (mwitamba kubwa yashi kutanga)
+login-instruction-multiple-sentences = <loginLink>Liwanenu </loginLink>chibwe <loginLink> lisonekesenu </loginLink> mumu wakuwezela isoneko indji
+how-to-cite = Kuchi kulinga kuhwa cha ?
+how-to-cite-explanation-bold = tongola mukusa kulinunga chibwe jina lieswe.
 
 ## BULK SUBMISSION
 
