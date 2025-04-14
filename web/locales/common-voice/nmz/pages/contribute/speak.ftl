@@ -41,7 +41,7 @@ terms-disagree = mà kìsàà
 first-cta-header-text = rà sɩ́ɩ́ mɩ̀ kà mɩ́ núwéésǝ̀ kpààwʊ̀ŋ pǝ̀ rʊ̀ʊ̀!
 first-cta-subtitle-text = ŋ̀ cí sǝ̀ ŋ́ tàsǝ̀ rà lón kà ñá wʊ́tʊ́ŋ rʊ̀ʊ̀ já?
 why-donate = áwʊ́r làpá ?
-why-donate-explanation-1 = lón tàsʊ́ŋ pǝ̀ tàŋ féféré
+why-donate-explanation-1 = lón tàsʊ́ŋ pǝ̀ tàŋ féféré ; tàsǝ̀ pǝ̀ ñá sólìm tà.  àsèntɩ̀ɩ̀ tóm wǝ̀lʊ́ŋ tà nà, rà mésʊ́ wóntǝ̀ jékǝ̀ sǝ̀ à sǝ́mǝ́n ná. ñá àjèkùŋ tóm nàmpììr nǝ̀ ñá jǝ́r pǝ̀ tàsʊ̀ʊ̀ ñá wʊ́sǝ̀ rʊ̀ʊ̀.
 
 ## MENU ITEM TOOLTIPS
 

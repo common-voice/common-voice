@@ -13,6 +13,7 @@ report-other-comment =
     .placeholder = رائيَ ڏيڻ
 # Label for textarea in report modal
 other = ٻِيجو
+report-error = رپورٽ جمع ڪرڻ  ريَ دوران هڪ غلطِي ھوئيَ گِي ھيَ
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = هليَ پَڙيو يا جارِي ھيَ
 # Header for report modal after successful reporting
