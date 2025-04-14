@@ -10,6 +10,13 @@ record-no-mic-found = mi mu kpɔ gbètoɖeɖemɔ ɖèkpé o
 record-error-too-short = nyàlele a mu didi kuiɖekaŋutɔ o
 record-error-too-long = nyàlele a didi wu nu
 record-error-too-quiet = nyàlélé a bé gbèɖiɖi a yì gɔmè ŋutɔ
+record-cancel = Tutu  nyàltɔtrɔlélé
+record-instruction = ye hlɛ nyàgbè a sɛsɛɖe
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ne wò wɔ vɔ a
+record-three-more-instruction = ne wu tɔ̃
+record-again-instruction = enyɔ ŋutɔ<recordIcon></recordIcon> le apo nyàkpaɖe kpɔtɛa
+record-again-instruction2 = yì eji nènéa eye le e eji eji.
+record-last-instruction = <recordIcon></recordIcon> kpɔtɛ a yé yà!
 
 ## MENU ITEM TOOLTIPS
 
