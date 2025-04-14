@@ -59,20 +59,20 @@ second-cta-subtitle-text = ŋ́ wɩ̀ɩ̀nà àlɩ̀ɩ̀mʊ̀ŋ, ŋ̀ pɩ̀ɩ�
 already-have-an-account = ŋ̀ wɩ́ɩ̀n kɔ́ntǝ̀ já ?<login> sʊ̀wɩ̀ɩ̀</login>
 create-profile-button = má ñá àlɩ̀ɩ̀mʊ̀ŋ
 # IMAGE TAGS
-img-alt-success-checkmark = lápǝ́ tɩ̀ɩ̀wʊ̀ŋ
+img-alt-success-checkmark = tɩ̀ɩ̀sʊ́ŋ mààrʊ̀ŋ
 # menu item
 read-sentences = kàl mààtǝ̀
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = kàl mààtǝ̀<small> (ʊ́ tàsà)</small>
+read-sentences-coming-soon = kàl mààtǝ̀<small> (àjʊ̀kʊ́n wón ñɩ̀ kʊ́ŋ nà)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = kàl mààtǝ̀, cìsì
-read-sentences-menu-item-tooltip = kpàà ñá tóm kà támpǝ̀ ŋ̀ wʊ́tʊ́ʊ̀ ñá wʊ́tã̀ŋ tàà ná
-answer-questions-menu-item-tooltip = kpá ñá tóm kà támpǝ̀ ŋ̀ cìsùù wòsǝ̀tǝ̀ kà ñá wʊ́tã̀ŋ tàà ná
+speak-contribute-menu-tooltip = kàl mààtǝ̀, cósǝ̀ tóm
+read-sentences-menu-item-tooltip = kpàà ñá tóm kà támpǝ̀ ŋ̀ kàlʊ̀ʊ̀ mààtǝ̀ kà ñá wʊ́tã̀ŋ tàà ná
+answer-questions-menu-item-tooltip = kpàà ñá tóm kà támpǝ̀ ŋ̀ cósùù tóm kà ñá wʊ́tã̀ŋ tàà ná
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = « wʊ̀tʊ́ŋ » àwóór
 read-sentences-menu-item-aria-label = kàl nɩ́ɩ́mpà mààtǝ̀ kà wʊ́tásǝ̀ ntèntè tàà
-answer-questions-menu-item-aria-label = wòsǝ̀ wòsǝ̀tǝ̀ cǝ́fátǝ̀ nǝ̀ ñá ákpàr rààná císí tǝ́
+answer-questions-menu-item-aria-label = wòsǝ̀ wòsǝ̀tǝ̀ cǝ́fátǝ̀ nǝ̀ ñá ákpàr rààná kál nǝ̀ wá císí tǝ́

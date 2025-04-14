@@ -36,7 +36,7 @@ bulk-sentence-submission = Thuma isoneko yindji
 single-sentence = Chisoneko chimuwikha
 small-batch-sentence = ukepe wa funda
 bulk-sentence = Unene wa wundji
-sentence-domain-combobox-label = Mbunda ya chisoneko
+sentence-domain-combobox-label = chihanda ya chisoneko
 sentence-domain-select-placeholder = Chinga chinga ndo ku yihanda itathu mbunda
 # Sentence Domain dropdown option
 agriculture_food = kulima nyi kupita chakulia
