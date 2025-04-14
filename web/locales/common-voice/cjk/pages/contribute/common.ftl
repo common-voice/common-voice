@@ -9,15 +9,15 @@ clips-with-count-pluralized =
         [one] Tshibindji
        *[other] Ipindji
     }
-goal-help-recording = Chihuthu Cha yenwe, Common voice ubalikilo <goalPercentage></goalPercentage>wa kuhandjeka heta kuchikuma cha shimbu lia{ $goalValue } kwandjikisa !
-goal-help-validation = Chakupwa yenu, Common Voice kaheta kuyuma ya hita tangwa nyi kuipwisa ya umwene mwene !
-contribute-more = Unataiza kulinga nawa ?
-speak-empty-state = Kutuchi nyi yumaiko ya kusoneka mulimi ali
-no-sentences-for-variants = Kulisa cha limi lie china hihisa manyonga ! Nyi chinachiwa munutela kuchendja mumu wa kwadjika manyonga mulimi lie.
-speak-empty-state-cta = Nehenu manyonga ako
-speak-loading-error = Kutuawanyine manyonga ako akuhandjika. Pimenu nawa chimbu liko.
+goal-help-recording = Chihuthu Cha yenwe, Common voice ubalikilo wa kuhandjeka heta <goalPercentage></goalPercentage> kuchikuma cha shimbu lia{ $goalValue } kwandjikisa !
+goal-help-validation = Chihuthu Cha yenwe, Common voice ubalikilo wa kuhandjeka heta <goalPercentage></goalPercentage>kuchikuma cha shimbu lia { $goalValue } unyingikiso !
+contribute-more = Unataiza kulinga { $count } nawa ?
+speak-empty-state = Tushi nyi uhandjeko uko wa kusoneka mu ma limi…
+no-sentences-for-variants = Limi lia kuswipa malimi muchibwa nyi iphindji ya isoneko ! Nyi munubwa kanawa munuswipa ubalikilo wa kusolola ihandjeka ikwo ya limi.
+speak-empty-state-cta = Nehenu ishinginyeka ikhwo ya isoneko
+speak-loading-error = Twahashile kubwa nyi handjeka ikwo. Eseka shimbu likwo.
 record-button-label = Kwata liji lie
-share-title-new = Tukwasenu kuwana maliji ako
+share-title-new = <bold>Tukwaseko </bold> kuwana liji lia ha
 keep-track-profile = Pima kutshi unayi kulutue
 login-to-get-started = Liadjikise mumu wa wakuputuka
 target-segment-first-card = Nwa tukwasa kuchama tshi tangu tshize tunafupa
