@@ -30,12 +30,13 @@ record-abort-continue = tɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ.
 record-abort-delete = ɩ́ líí nǝ̀  ʊ́ jél nǝ̀ ɩ́  hɩ́ɩ́sǝ̀ tóm kʊ̀kpààpǝ̀ kà pǝ́ tǝ́n.
 review-aborted = jèkǝ̀tǝ̀ tà rɩ̀ɩ̀. ŋ̀ cí sǝ̀ ŋ́ hɩ̀ɩ̀sǝ̀ ñá tóm kʊ́kpààmpǝ̀ já?
 review-submit-title = ɩ́ wììl nǝ̀ ɩ́ jékǝ̀
-review-submit-msg = ñá nǝ̀ tǝ̀mǝ́r !<lineBreak></lineBreak> ŋ̀ pɩ́ɩ́sʊ́ʊ́ sǝ̀ ŋ́ tìsì nǝ̀ ŋ́ jékǝ̀ àlǝ̀sʊ́ŋ tóm pǝ̀.
-review-recording = wììlúŋ
+review-submit-msg = ɩ́ kpáá tóm pǝ̀ nà rà sɩ́ɩ́ mɩ̀ sǝ̀ mɩ́ nǝ̀ tǝ̀mǝ́r !<lineBreak></lineBreak> hɩ́ŋkàhɩ́ŋ ɩ́ pɩ́ɩ́sʊ́ʊ́ sǝ̀ ɩ́ tìsì nǝ̀ ɩ́ jékǝ̀ àlǝ̀sʊ́ŋ tóm pǝ̀ ná.
+review-recording = wììlúŋ.
 review-rerecord = tàsǝ̀ kpààwʊ́ŋ
 review-cancel = jèl jèkʊ́ŋ
-review-keep-recordings = mésǝ́ tóm kpààwʊ̀ŋ
-review-delete-recordings = hɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ
+review-keep-recordings = mésǝ́ tóm àkpààwʊ̀ŋ tóm
+review-delete-recordings = hɩ̀ɩ̀sǝ̀ àkpààwʊ̀ŋ tóm
+review-terms = nǝ́ ɩ́ làkǝ̀ kɔ̀ɔ̀mɔ̀n fɔ̀wɩ̀ɩ̀sǝ̀ rʊ̀ʊ̀ kà tǝ̀mǝ́r, ʊ̀ wósʊ́ sǝ̀ ɩ́ tìsì rà tǝ́mǝ́r pààtǝ̀ rʊ̀ʊ̀<termsLink> nǝ̀ rà àmèsàŋ tóm rʊ̀ʊ̀<privacyLink></privacyLink>
 terms-agree = mà tìsàà
 terms-disagree = mà kìsàà
 # FIRST POST SUBMISSION CTA
