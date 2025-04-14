@@ -1,5 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = یوگدانا کے مارگ درشک
+guidelines-header-subtitle = سادھارݨ اواج ڈیٹا سیٹاپ چندا ٻہاݨیں اور پک کرنے کا تریکا سمجو
 
 ## Voice Collection nav ids
 

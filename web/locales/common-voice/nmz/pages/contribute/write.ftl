@@ -50,6 +50,8 @@ history_law_government = kɔ́nsɛ̀ɛ̀tǝ̀, wâr, kómǝ́nátǝ̀
 language_fundamentals = àpààsǝ̀nʊ̀ŋ tóm kà wʊ́tásǝ̀ tà (àkɔ́ntá mààtǝ̀, máátǝ̀, wàrásǝ̀)
 # Sentence Domain dropdown option
 media_entertainment = pɔ̀ɔ̀rǝ̀tàpǝ̀rnáà nǝ̀ àséntɩ́ɩ̀
+# Sentence Domain dropdown option
+news_current_affairs = wómpǝ́ wɩ̀ɩ̀ pǝ́ lákǝ́ ná
 
 ## BULK SUBMISSION
 

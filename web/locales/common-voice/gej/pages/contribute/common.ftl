@@ -132,6 +132,7 @@ contribution-background-noise-example-2-fixed-title = jinozɔri kɔkɔ triàgbà
 contribution-background-noise-example-2-explanation = wo ma téŋu sè nuŋɔ̀ŋlɔ a bé akpaɖé o.
 contribution-background-noise-example-3-fixed-title = <strong> [gbèɖiɖi sɛŋu ] </strong> jinozɔri didi trìagbà kè so<strong> [ gbèɖiɖi sɛŋu]</strong> -rias.
 contribution-background-voices-title = numèɖaagbe
+contribution-background-voices-description = Wo la teŋu ɖàsi gbèɖiɖi kè mu sɛŋu lè ŋugbedomè, vɔ a wo mu ɖo la ɖo gbèɖè kèwo la va kpe eye kèwo la teŋu va na be aligoritmimɔ a la va ŋɔ ɖè nyàti kèwo mu lè nuŋɔŋlɔ a mè o. ne wò la téŋu sè nyà kèwo tovo na kèwo lè nuhɛhlɛ a mè a, nyàlele a wo ɖo la tutui. Ekèyà vana émè éji éji né dìdìpénukpɔmɔ lè sũsũ alo né wo le pò nùpo lè àzogé a.
 contribution-background-voices-description-extended = né va va émè bé nyàtiwo lě sò lè nyàlélé a mè tutui, vɔ̀ a wò la téŋu ɖè asi né kùxe ɖékpé ma téŋu nɔ̀ nùŋɔ̀ŋlɔ awo kpata gɔ̃̀mèsèsě mè o.
 contribution-background-voices-example-1-title = Trias bé jinozɔri kɔkɔ trì àgbàwo <strong> [ gbèɖe bé nuhɛhlɛ]</strong>
 contribution-background-voices-example-1-explanation = gbè bu ɖì bé wò gbɔ̃̀nà a.
