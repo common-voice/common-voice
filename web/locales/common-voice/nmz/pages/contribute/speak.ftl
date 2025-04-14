@@ -36,6 +36,7 @@ review-keep-recordings = mésǝ́ tóm kpààwʊ̀ŋ
 review-delete-recordings = hɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ
 terms-agree = mà tìsàà
 terms-disagree = mà kìsàà
+why-donate = áwʊ́r làpá ?
 
 ## MENU ITEM TOOLTIPS
 
