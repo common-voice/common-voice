@@ -8,4 +8,5 @@ request-language-form-info =
 request-language-form-info-explanation = وڌ ۾ وڌ ڄاڻ شامل ڪرو ٿونرِي ٻولِي ري باري ۾، ايَ بِي شامل ھوئي ݾگھي ھيَ۔
 request-language-form-info-explanation-list-1 = ٿونرِي ٻولِي را نوم
 request-language-form-info-explanation-list-2 = <isoCodeLink>آئِي ايس او ڪوڊ </isoCodeLink> جيَ ٿُونيَ خبر ھيَ
+request-language-form-info-explanation-list-3 = ويب سائِٽون را لِنڪ جيڪو مھونيَ ٻولِي سمجهڻ ۾ مدد ڪري ݾگھيَ ھيَ۔
 request-language-google-recaptcha-required = جيَ ٿيَ اڳتي وڌڻ چاھون ھون تو reCAPTCHA  رِي ضرُورت ھيَ

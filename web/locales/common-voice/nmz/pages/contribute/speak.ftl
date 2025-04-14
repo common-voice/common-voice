@@ -28,6 +28,11 @@ record-abort-submit = jèkǝ̀ tóm kʊ́kpáámpǝ̀
 record-abort-continue = tɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ
 record-abort-delete = jèl nǝ̀ ŋ́ hɩ́ɩ́sǝ̀ tóm kpààwʊ̀ŋ kà pǝ́ tǝ́n
 review-aborted = ʊ̀ tà jékǝ̀. ŋ̀ cí sǝ̀ ŋ́ hɩ̀ɩ̀sǝ̀ ñá tóm kpààwʊ̀ŋ já?
+review-submit-title = wììl nǝ̀ ŋ̀ jékǝ̀
+review-recording = wììlúŋ
+review-rerecord = tàsǝ̀ kpààwʊ́ŋ
+review-cancel = jèl jèkʊ́ŋ
+review-keep-recordings = mésǝ́ tóm kpààwʊ̀ŋ
 
 ## MENU ITEM TOOLTIPS
 
