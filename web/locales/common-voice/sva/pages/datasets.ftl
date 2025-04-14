@@ -89,3 +89,5 @@ license = ლიცენზია:<licenseLink>{ $license }</licenseLink>
 license-mixed = ლჷნჩჷდე
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = ჩუ̂ახტუ̂ირთა̈უ̂ ნიშგუ̂ეჲ ხმოვან მონაცემრე ნაკრებ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ჩუ̂ახტუ̂ირთა̈უ̂ მონაცემა̈რ Common Voice-ეშ მონაცემრე სგა ლა̄ზდ
