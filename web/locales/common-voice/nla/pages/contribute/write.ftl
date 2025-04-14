@@ -148,6 +148,16 @@ add-sentences = Nkʉ́'ʉ́ məkəm-tsâr
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Nkʉ́'ʉ́ mbǒu mbyegh'ə́ náŋtə́ məkəm-tsâr, nkʉ́'ʉ́ mə́tuŋə-no, shə́rə́ nŋwa'á mənji pə́ ghǒu
+add-sentences-menu-item-tooltip = Pei kʉ́'ʉ́ məkəm-tsâr lə́ tsâr lâ' zéi
+review-sentences-menu-item-tooltip = Pei náŋtə́ məkəm-tsâr lə́ tsâr lâ' zéi
+add-questions-menu-item-tooltip = Pei kʉ́'ʉ́ mətuŋ -no lə́ tsâr lâ' zéi
+transcribe-audio-menu-item-tooltip = shə́rə́ nŋwa'á mənji pə́ ghǒu ŋə́ lə́ tsâr lâ' zéi
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = ndə̂ məzə̂u mi pə́ ghwǒ lə́ ńgʉ́ « ńŋwá'á »
+add-sentences-menu-item-aria-label = Pei kʉ́'ʉ́ məkəm-tsâr mi shwî mi mbo' lâ' fûŋ
+review-sentences-menu-item-aria-label = Pei náŋtə́ məkəm-tsâr mi pə́ wó mi lâ' pʉ̂ʉ
+add-questions-menu-item-aria-label = Pei pʉ̂ʉ mə́túŋə-no mi shwî mi mbo' lâ' fûŋ mbǒ mbwǒt
+transcribe-audio-menu-item-aria-label = pei shə́rə́ nji yi pə́ ghǒu nŋwá'á

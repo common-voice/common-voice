@@ -53,9 +53,12 @@ media_entertainment = pɔ̀ɔ̀rǝ̀tàpǝ̀rnáà nǝ̀ àséntɩ́ɩ̀
 # Sentence Domain dropdown option
 news_current_affairs = wómpǝ́ wɩ̀ɩ̀ pǝ́ lákǝ́ ná
 sentence-variant-select-placeholder = ñʊ́ʊ́ ñá rìtàfàláà wʊ̀tã́ŋ rʊ̀ʊ̀ (ʊ̀ tã̀ŋ féféré)
+sentence-variant-select-multiple-variants = wóntǝ̀ ʊ̀ mɔ̀ɔ́nà sǝ̀ àsǝ́m wʊ̀tã̀ŋ rʊ̀ʊ̀ nà
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = jèkǝ̀ <icon></icon>agbèntùŋ tà mààtǝ̀
 
 ## SMALL BATCH SUBMISSION
 
