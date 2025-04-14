@@ -24,6 +24,10 @@ contact-us = wʊ́tǝ́nǝ̀ rà
 add-sentence-success = 1 máátǝ̀ wóntǝ̀ à kpàà ná
 add-sentence-error = hìtúŋ nàmpǝ̀r lɔ̀ɔ̀ mààtǝ̀ tàsʊ́ŋ tà.
 required-field = rà hɩ́nɖǝ́n sǝ̀ ŋ́ súùr wʊ̂ŋ kʊ̀.
+single-sentence-submission = máátǝ̀ kǝ́rǝ́mátǝ̀ jèkúŋ
+small-batch-sentence-submission = cʊ́kɔ̀cʊ́kɔ̀ mààtǝ̀ jékúŋ
+bulk-sentence-submission = mààtǝ̀ kpàtǝ̀r jèkúŋ
+single-sentence = máátǝ̀ kǝ́rǝ́mátǝ̀
 
 ## BULK SUBMISSION
 
