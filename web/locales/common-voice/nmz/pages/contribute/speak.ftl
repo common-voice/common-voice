@@ -22,6 +22,12 @@ share-clip = jèkǝ̀ ñá tómpǝ́ ŋ̀ kpáà ná
 share-common-voice = há kɔ̀ɔ̀mɔ̀n fɔ̀wɩ́ɩ́sǝ̀ kà nɩ̀ɩ̀mpà
 review-instruction = ŋ́ hèènà, wììl nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ
 record-submit-tooltip = { $actionType } ŋ́ témpá ŋ̀ tìrìná
+record-abort-title = tɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ rǝ̀cà
+record-abort-text = ŋ́ jèl kǝ́ŋkààhɩ́ŋ ŋ̀ lésʊ̀ʊ̀ ñá tǝ́mǝ́r
+record-abort-submit = jèkǝ̀ tóm kʊ́kpáámpǝ̀
+record-abort-continue = tɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ
+record-abort-delete = jèl nǝ̀ ŋ́ hɩ́ɩ́sǝ̀ tóm kpààwʊ̀ŋ kà pǝ́ tǝ́n
+review-aborted = ʊ̀ tà jékǝ̀. ŋ̀ cí sǝ̀ ŋ́ hɩ̀ɩ̀sǝ̀ ñá tóm kpààwʊ̀ŋ já?
 
 ## MENU ITEM TOOLTIPS
 
