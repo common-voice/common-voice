@@ -135,6 +135,9 @@ add-text = ٽيڪسٽ ايڍ ڪرو
 ## Community section
 
 community-section-title = عالمِي ڀِراڌرِيان نِي طرڦ ٿِي طاقتور عالمِي ڀراڌرِي ڀِراڌريان ۿارُو 130 ٻولِيُون وڌتِيون زائيَ سي ريون۔
+join-discord-community = ڍِسڪورڍ ڀِراڌرِي مان شامِل ٿائو
+# label for button
+join-discord-community-action = ڍُسڪورڍ ماٿيَ امان ٿِي مِلو
 
 ## Featured section
 
