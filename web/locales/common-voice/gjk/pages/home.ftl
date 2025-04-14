@@ -192,3 +192,5 @@ partner-section-subtitle-civil-society = </bold>سِول سوسائيٽِي ان
 partner-section-subtitle-philantropy = </bold>خِڌمتيَ خلق</bold> جِڌت انين ترقِي نين تيز ڪريا ۿارُو ڍيٽاسيٽ نِي تخليق ۿارُو اِسپانسر ڪرو
 # icon is an arrow that points to the right
 get-in-touch-button = </icon><icon> راٻطو ڪرو
+# Partners section
+our-partners-include = امارا ساٿِي شامِل سي
