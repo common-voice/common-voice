@@ -24,6 +24,18 @@ new-sentence-rule-8 = Chisoneko chatamba kubwa cha kuntanga kuli zambi nyi kuhan
 login-instruction-multiple-sentences = <loginLink>Liwanenu </loginLink>chibwe <loginLink> lisonekesenu </loginLink> mumu wakuwezela isoneko indji
 how-to-cite = Kuchi kulinga kuhwa cha ?
 how-to-cite-explanation-bold = tongola mukusa kulinunga chibwe jina lieswe.
+how-to-cite-explanation = nyi ili isoneko ya majina jenu, isoneke lume <italicizedText> « auto-citation » </italicizedText>. Thuli nyi pweila ya kunyingikakuze anejila ize ili hamuwikha kuhwa nyi uhashi wa kuhengula nyi kali mu (domain) mbunga nyi kushi kwecha ulemu wa mukwa kusoneka. Mumu wamijimbu ha citation, kutala <guidelinesLink>inyingi yetu </guidelinesLink>.
+guidelines = Inyingi
+contact-us = Nutusanyika
+add-sentence-success = 1 Kumbata isoneko
+add-sentence-error = Uhenge ola ya kuwezela isoneko
+required-field = Nunatela kuzalisa munda.
+single-sentence-submission = Thuma isoneko imuwikha
+small-batch-sentence-submission = Thuma ipindji ya funda ya isoneko
+bulk-sentence-submission = Thuma isoneko yindji
+single-sentence = Chisoneko chimuwikha
+small-batch-sentence = ukepe wa funda
+bulk-sentence = Unene wa wundji
 
 ## BULK SUBMISSION
 
