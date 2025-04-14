@@ -40,6 +40,11 @@ export const Select: React.FC<Props> = ({
       setSelectedItem(newSelectedItem),
   })
 
+  const getSelectedFirstItem = (): string => {
+    if (!selectedItem) return placeHolderText
+    return doTranslation ? l10n.getString(selectedItem) : selectedItem
+  }
+
   return (
     <div className="select">
       <span {...getLabelProps()} className="select-label">
@@ -54,9 +59,7 @@ export const Select: React.FC<Props> = ({
         type="button"
         {...getToggleButtonProps()}
         data-testid="select-toggle-btn">
-        <span>
-          {selectedItem ? (doTranslation ? l10n.getString(selectedItem) : selectedItem) : placeHolderText}
-        </span>
+        <span>{getSelectedFirstItem()}</span>
         <ChevronDown />
       </button>
 
