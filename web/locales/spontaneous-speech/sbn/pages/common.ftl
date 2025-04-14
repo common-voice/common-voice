@@ -5,12 +5,12 @@ error = مسلو
 action-click = ڪليٚڪ ڪريو
 action-tap = ٺپڻ
 # Label for language switcher
-platform-language = ٻوٚليٚ رو پليٽ ڦآرم
+platform-language = ٻليٚ رو پليٽ ڦآرم
 platform-language-tooltip-text = رُڳو ويب سآئيٽ رآ اکر بدلآئو۔
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = شرآڪت ڪرڻ<bold>{ $language }</bold>ڊيٽآ سيٽ
-contribution-picker-tooltip-text = ٻوٚليٚ ڊيٽآ سيٽ کي تبديٚل ڪري دو جنٚهنٚ مينٚ اڀيٚنٚ هيسو وٺي رهيآ اهونٚ
+contribution-picker-tooltip-text = ٻوليٚ ڊيٽآ سيٽ کي تبديٚل ڪري دو جنٚهنٚ مينٚ اڀيٚنٚ هيسو وٺي رهيآ اهونٚ
 # Label for button on contribution switcher
 change = تبديٚل ڪرڻ
 coming-soon = جلديٚ آڻ وآرينٚ اهينٚ ٻئينٚ ٻوٚلينٚ
@@ -20,12 +20,12 @@ skipped = ڇڏيل
 audioplayer-header = سُڻو
 guidelines = رهنمآئيٚ
 # For the button to report an item
-report-button = رپوٚرٽ
+report-button = رپورٽ
 # For the button to skip an item
 skip-button = ڇڏڻ
 submit-button = جمآ ڪرو
 contribute = شرآڪت ڪرڻ
-request-new-language = رپوٽ نئيٚ ٻوٚليٚ ريٚ
+request-new-language = رپوٽ نئيٚ ٻوليٚ ريٚ
 
 ## Navbar
 
