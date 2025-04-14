@@ -23,3 +23,5 @@ request-for-spontaneous-speech-toggle = بيَ ساختا تقرِير رِي د
 need-help-deciding-platform = ڪيھڙو (ڪِي) چُونڊڻ رو فيصلو ڪرڻ ۾ مدد رِي ضرُورت ھيَ؟
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>لکوڙي وات</strong>(روايتي طو تي جيڪو ٿيَ ڪامن وائس ريَ باريَ ۾ جاڻو ھو)اي ھي جيٿ ٿيَ آپرِي ٻولِي ۾ جُملا بلند آواز ھون پڙھيَ ݾگو ھو۔
+need-help-deciding-platform-explanation-2 = <strong>فطري وات</strong>ڪامن وائس رو ھيڪ نئون حصو ھيَ جيٿ ٿيَ سوالون را جواب وڌيڪ قدرتي، عام ٻولڻ آݪيَ انداز ۾ ڏئيَ سگھو ھو۔
+need-help-deciding-platform-explanation-3 = جيَ ٿونيَ پليٽ فارم ريَ ٻيون حصون ۾ آپرِي ٻولِي نظر نِي آئيَ تو ٻيَ ھِي چونڊو۔

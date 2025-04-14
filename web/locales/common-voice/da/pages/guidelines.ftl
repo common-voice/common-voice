@@ -26,7 +26,7 @@ misreadings-explanation-7 = Flere forsøg på at læse et ord.
 background-noise-example-1 = De gigantiske dinosaurer i Trias.
 background-noise-example-2 = [Nys] De gigantiske dinosaurer i [hoste] Trias.
 background-noise-example-3 = Den gigantiske dino [hoster] Trias.
-background-noise-example-4 = [Knitre] gigantiske dinosaurer i [crackle] -rias.
+background-noise-example-4 = [Knitre] gigantiske dinosaurer i [knitre] -rias.
 background-voices-example-1 = De gigantiske dinosaurer i Trias. [læst af én stemme]
 still-have-questions = Har du stadig spørgsmål?
 
