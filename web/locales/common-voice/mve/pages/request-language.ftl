@@ -10,3 +10,9 @@ request-language-form-info-explanation-list-1 = ٿونرِي ٻولِي را ن�
 request-language-form-info-explanation-list-2 = <isoCodeLink>آئِي ايس او ڪوڊ </isoCodeLink> جيَ ٿُونيَ خبر ھيَ
 request-language-form-info-explanation-list-3 = ويب سائِٽون را لِنڪ جيڪو مھونيَ ٻولِي سمجهڻ ۾ مدد ڪري ݾگھيَ ھيَ۔
 request-language-google-recaptcha-required = جيَ ٿيَ اڳتي وڌڻ چاھون ھون تو reCAPTCHA  رِي ضرُورت ھيَ
+request-language-google-recaptcha-error = reCAPTCHA ھون ڪجهه غلط ھوئيو ھيَ۔  مهربانِي ڪري وڙيَ ڪوشِش ڪرو۔
+# Success page
+request-language-success-heading = مهربانِي! ٿُون هيڪ نئِي ٻولِي رِي پُوڇا ڳاڇا ميلِي ھيَ
+request-for-scripted-speech-toggle = اسڪرِيپٽ ھوئيوڙِي تقرِير رِي درخواست
+request-for-spontaneous-speech-toggle = بيَ ساختا تقرِير رِي درخواست
+need-help-deciding-platform = ڪيھڙو (ڪِي) چُونڊڻ رو فيصلو ڪرڻ ۾ مدد رِي ضرُورت ھيَ؟

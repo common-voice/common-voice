@@ -33,6 +33,9 @@ review-recording = wììlúŋ
 review-rerecord = tàsǝ̀ kpààwʊ́ŋ
 review-cancel = jèl jèkʊ́ŋ
 review-keep-recordings = mésǝ́ tóm kpààwʊ̀ŋ
+review-delete-recordings = hɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ
+terms-agree = mà tìsàà
+terms-disagree = mà kìsàà
 
 ## MENU ITEM TOOLTIPS
 
