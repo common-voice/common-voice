@@ -37,12 +37,12 @@ review-cancel = jèl jèkʊ́ŋ
 review-keep-recordings = mésǝ́ tóm àkpààwʊ̀ŋ tóm
 review-delete-recordings = hɩ̀ɩ̀sǝ̀ àkpààwʊ̀ŋ tóm
 review-terms = nǝ́ ɩ́ làkǝ̀ kɔ̀ɔ̀mɔ̀n fɔ̀wɩ̀ɩ̀sǝ̀ rʊ̀ʊ̀ kà tǝ̀mǝ́r, ʊ̀ wósʊ́ sǝ̀ ɩ́ tìsì rà tǝ́mǝ́r pààtǝ̀ rʊ̀ʊ̀<termsLink> nǝ̀ rà àmèsàŋ tóm rʊ̀ʊ̀<privacyLink></privacyLink>
-terms-agree = mà tìsàà
-terms-disagree = mà kìsàà
+terms-agree = mà túsúù
+terms-disagree = mà kìsúù
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = rà sɩ́ɩ́ mɩ̀ kà mɩ́ núwéésǝ̀ kpààwʊ̀ŋ pǝ̀ rʊ̀ʊ̀!
-first-cta-subtitle-text = ŋ̀ cí sǝ̀ ŋ́ tàsǝ̀ rà lón kà ñá wʊ́tʊ́ŋ rʊ̀ʊ̀ já?
-why-donate = áwʊ́r làpá ?
+first-cta-header-text = ɩ́ háá rá núwéésǝ̀ kpààwʊ̀ŋ, mɩ́ nǝ̀ tǝ̀mǝ́r !
+first-cta-subtitle-text = ɩ́ sólà sǝ̀ ɩ́ tàsǝ̀ rà tóm kà mɩ́ wʊ́tʊ́ŋ rʊ̀ʊ̀ já?
+why-donate = áwʊ́r làpá ɩ́ wósú sǝ́mpǝ́ ?
 why-donate-explanation-1 = lón tàsʊ́ŋ pǝ̀ tàŋ féféré ; tàsǝ̀ pǝ̀ ñá sólìm tà.  àsèntɩ̀ɩ̀ tóm wǝ̀lʊ́ŋ tà nà, rà mésʊ́ wóntǝ̀ jékǝ̀ sǝ̀ à sǝ́mǝ́n ná. ñá àjèkùŋ tóm nàmpììr nǝ̀ ñá jǝ́r pǝ̀ tàsʊ̀ʊ̀ ñá wʊ́sǝ̀ rʊ̀ʊ̀.
 add-information-button = tàsǝ̀ tóm
 continue-speaking-button = ààjɩ̀, wɩ̀ɩ̀ wʊ̀tʊ́ŋ rʊ̀ʊ̀

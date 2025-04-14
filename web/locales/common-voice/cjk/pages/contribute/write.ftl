@@ -16,6 +16,11 @@ sc-review-small-batch-title = Kuchi muwezela unji wa isoneko
 new-sentence-rule-1 = <noCopyright>Kushi uhashi wa shimbu ya mukwa kusoneka</noCopyright>(<cc0>cc</cc0>)
 new-sentence-rule-2 = Mwishi la 15 tukweji
 new-sentence-rule-3 = Kunatamba kubwe kwakeshi uhenge
+new-sentence-rule-4 = iyandjiko ya sona kuli hitchika mutchibwa cha kululama
+new-sentence-rule-5 = Kushi chiffres chibwe yako yinatela
+new-sentence-rule-6 = Kushi chisoneko cha ungeji
+new-sentence-rule-7 = Kuhwacha kubwanacho chinatamba kubwa kusa
+new-sentence-rule-8 = Chisoneko chatamba kubwa cha kuntanga kuli zambi nyi kuhandjika (mwitamba kubwa yashi kutanga)
 
 ## BULK SUBMISSION
 
