@@ -82,3 +82,15 @@ data-download-license = : <licenseLink>سيٚ سيٚ -0</licenseLink> ليسڻِ
 data-download-modal = تميِ <size>{ $size }GB</size>  ڊآئون لوڊ ڪروآݪآ هو، آگي چلو؟
 data-subtitle = همي آوآجآ ڪو ايڪ کلرو اور اوآمي  ڪي ترڦي دي ڌيري ڊيٽآ سيٽ ٺآ ريهرآ هون جرآ ڪوُ هر ڪوئي استمآل ڪرسگدو هي تڪرير ڦآئل هري ايپليڪيشن سنڪآر ديوآ لآ.
 data-explanatory-text = همي يڪينٚ ڌردآ هونٚ  ٻڏيٚ ائينٚ اوآميٚ ترڦيٚ ديٚ ڌيريٚ آوآج ڊيٽآ سيٽو ڪيٚ مشيٚنيئو سڪووآ پي ٻنٚدريٚ تڪرير ٽيڪنآلآجيٚ ٺيرآ ڪآروبآرو ڪوُ وڌآئو دينٚدآ هينٚ . يآ ايڪ سنسآرو ڪيٚ ڪوشيٚش هي ائينٚ همينٚ سبآنٚڪوُ ڀيݪآ هووآ ڪيٚ دآئوت دينٚدآ هونٚ . همرو مڪسد تڪريٚر ٽيڪنآلآجييو ڪوُ وڌيٚڪ شآمل ڪروآ مينٚ مدت دينٚدوهو،سنسآرو ڪيٚ آوآجآنٚ ڪو ڦرڪ جآهر ڪردو هي .
+data-get-started = تڪريٚريش ڪيٚ اوݪکآڻيٚ دي شُروآت <speechBlogLink></speechBlogLink> ڪرو
+data-other-title = … دوسرآ آوآج سيٽس
+data-other-goto = { $name } ڪودي جآوو
+data-other-download = ڊيٽآ ڊونلوڊ ڪرو
+data-bundle-button = ڊآئونلوڊ ڪرو ڊيٽآ سيٽ بنڊل
+data-bundle-description = آم آوآج ڊيٽآ اور اُپرلآ دوسرآ سڀ وآئس ڊيٽآ سيٽ۔
+release-version = نسکو
+dataset-date = تآريِک
+license = </licenseLink>{ $license }<licenseLink>: لآئيسنس
+license-mixed = مِلرو
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = همريٚ آوآجيٚ ڪآ ڊيتآ سيٽ ڊآئون لوڊ ڪرو
