@@ -56,12 +56,9 @@ export const SentenceInputAndRules: React.FC<Props> = ({
     error && error?.type !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error?.type === SentenceSubmissionError.NO_CITATION
   const hasVariants = variantTokens && variantTokens.length > 0
-  const variantOptions: string[] = [l10n.getString('sentence-variant-select-multiple-variants')]
-  if (hasVariants) {
-    for (let i=0; i < variantTokens.length; i++) {
-      variantOptions.push(`${variantNames[i]} [${variantTokens[i]}]`)
-    }
-  }
+
+  const zippedOptions = hasVariants && variantTokens.map((v, i) => `${variantNames[i]} [${v}]`)
+  const variantOptions: string[] = hasVariants ? [l10n.getString('sentence-variant-select-multiple-variants'), ...zippedOptions] : []
 
   const { multipleComboBoxItems, inputValue, setInputValue } =
     useMultipleComboBox({
