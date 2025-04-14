@@ -84,11 +84,35 @@ maximum-file-size = Tsə̌m-nŋwa'a káa ghwó lə́ njwə́t tə́ ndéi : 2
 what-needs-to-be-in-file = Tsə̌m-nŋwa'a záa wo ghwó yó ?
 what-needs-to-be-in-file-explanation = Pei náŋtə́ ya'a njwó <templateFileLink>fi'tə</templateFileLink>. Məkəm-tsâr méi ghwo lə́ mbə́ mi tə́ nôgh' mbǒu mbə́ mi mbo' ŋuu zû' tə́ séitə́ tû yé, pə́ nŋwa'a shʉ'ʉ, ə́ pou mbwórə́ lə́ fúŋ. Məkəm-tsâr mi pə́ tə́u ghwo lə́ tsát no mənza' 10-15 mbǒu ngwó yə́ mənyôgh' nŋwa'a la' nkwá' zə̂u, mənyôgh' pye gháp məcǒ məli'i mi cwǐ po.
 upload-progress-text = ə́ pə́ ndə̌t...
-sc-bulk-submit-confirm = Məŋ mbə̌i ńgó yo  kəm-tsâr yi <wikipediaLink>mbo' lâ' jwô</wikipediaLink> ə́ boŋə́ mbə́ yi mbo' ntə̌u zěi.
-bulk-upload-success-toast = Mbo' kʉ'ʉ zarə́ kəm-tsâr ?
+sc-bulk-submit-confirm = M mbə̌i ngó məkəm-târ mwo mi <wikipediaLink>lâ' jwô</wikipediaLink> ə́ pou mbə́ mi mbo' ntə̂u.
+bulk-upload-success-toast = Məkəm-tsâr mi lə́t mə́
+bulk-upload-failed-toast = Káa lə́t yé, pei kʉ́'ʉ́ mbyégh'ə́
+bulk-submission-success-header = Nkhwo ghí' pei tə̌u məkəm-tsâr ndwuŋ lə !
+bulk-submission-success-subheader = Pei pfútə́ tsəpə-nji lə́ ngóu məkəm-tsâr mi a ghwǒ lə́ ngóu maa le'é mbî ye tsəm
+upload-more-btn-text = Pei kə́ ntə́u məcǒ məkəm-tsâr
+file-invalid-type = Tsə̌m-nŋwa'a yo káa pə̂u
+file-too-large = Tsə̌m-nŋwa'a yo jwət tə́sə́ʉ
+file-too-small = Tsə̌m-nŋwa'a yo khwô' tə́sə́ʉ
+too-many-files = mətsə̌m-nŋwa'a záa tə nzé'
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> nkʉ'ʉ məkəm-tsâr mi mbo' pə́ tsát mbi lâ'
+multiple-sentences-error = Mbo pei kʉ'ʉ wéi məkəm-tsâr tə nzâa ntə́u tâ' mpfu po
+exceeds-small-batch-limit-error = mbo pei kʉ'ʉ wéi məkəm-tsâr tə ku' 1000 po
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Ə ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' mǝ́. Pei pyégh'ǝ́ ntǝ́u cǝr 1 nza'
+       *[other] Ə ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' mǝ́. Pei pyégh'ǝ́ ntǝ́u cǝr { $retryLimit } menza'
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Ə ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' mǝ́. Pei pyégh'ǝ́ ntǝ́u cǝr 1 nza'
+       *[other] Ə ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' mǝ́. Pei pyégh'ǝ́ ntǝ́u cǝr  { $retryLimit } menza'
+    }
 
 ## MENU ITEM TOOLTIPS
 
