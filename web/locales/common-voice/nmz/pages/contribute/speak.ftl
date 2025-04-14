@@ -22,6 +22,7 @@ share-clip = jèkǝ̀ ñá tómpǝ́ ŋ̀ kpáà ná
 share-common-voice = há kɔ̀ɔ̀mɔ̀n fɔ̀wɩ́ɩ́sǝ̀ kà nɩ̀ɩ̀mpà
 review-instruction = ŋ́ hèènà, wììl nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ
 record-submit-tooltip = { $actionType } ŋ́ témpá ŋ̀ tìrìná
+clips-uploaded = lʊ̀ʊ̀ fììtèjóó
 record-abort-title = tɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ rǝ̀cà
 record-abort-text = ŋ́ jèl kǝ́ŋkààhɩ́ŋ ŋ̀ lésʊ̀ʊ̀ ñá tǝ́mǝ́r
 record-abort-submit = jèkǝ̀ tóm kʊ́kpáámpǝ̀
@@ -71,3 +72,5 @@ answer-questions-menu-item-tooltip = kpá ñá tóm kà támpǝ̀ ŋ̀ ci�
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = « wʊ̀tʊ́ŋ » àwóór
+read-sentences-menu-item-aria-label = kàl nɩ́ɩ́mpà mààtǝ̀ kà wʊ́tásǝ̀ ntèntè tàà
+answer-questions-menu-item-aria-label = wòsǝ̀ wòsǝ̀tǝ̀ cǝ́fátǝ̀ nǝ̀ ñá ákpàr rààná císí tǝ́
