@@ -39,6 +39,7 @@ feedback-q = ჯუღვამა გამოხმაურება?
 no-information = საერთოდ მა̄მგუ̂ეშ ინფორმაცია
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>ლი<docsLink>ინსტრუმენტალე ნაკრებ ღია კოდშუ̂</docsLink>ეჯ მკვლევარრეშდ, ერუ̂ა̄̈ჲ ამშიჲეხ ლაგჷრგა̈ლი ხელოუ̂ნურ ინტელექტი მამხე მოდელა̈რს.
 resource-deepspeech-info = Mozilla-შ ღია კოდიშ ჰერი მჷთერ საშუალება შეიძლება ა̈ლჴჷმრად გა̈რგლა̄̈ მჷთერ აპლიკაცია̄̈ლე ლა̈სყიდ. ქა̄̈თჭოდა̄̈ნ ნიშგუ̂ეჲ<githubLink>-იშ მიმოხილუ̂ა<discourseLink> ჰედ სგა̄̈ხტყუბა̄̈ნ<discourseLink></discourseLink>, ერე ა̈ცხჷრა იმჟი ხეკუ̂ეს ა̈ხბინა.
+resource-coqui-info = <coquiLink>Coqui</coquiLink>ეძღვნება ღია გარგლა̄̈ ტექნოლოგიას. ალიარე პროექტა̈რისგა ა̈რი ბჷგიდ ნათორი საფუძველჟი STT ი TTS საშუალება̄̈ლს.
 your-feedback = ჯუღუ̂აჲა იდეა̄̈ლ იმჟი ალსიკთად Common Voice მონაცემრე ნაკრებ? ქა ნა̈ბჟი̄ნ Discour-ჟი
 go-discourse = ქა̄̈ტხ Discour-თე
 missing-language = დეშ ხოსგდიჲა ისგუ ნინს მონაცემრე ნაკრებისგა? ნინ ერ ხიჰრი, ქ'ა̄დე ნიშგუ̂ეჲ ნინრე გვერდთე.

@@ -16,11 +16,12 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> ʊ́ kpǝ́ràa�
 record-three-more-instruction = ʊ̀ tǝ̀ kààsǝ́ nótúsù kánà !
 record-again-instruction = ŋ̀ lɔ̀ɔ̀ tǝ́mǝ́r kà sàrtǝ̀ !<recordIcon></recordIcon>kpá àlǝ̀sʊ̀ŋ tóm nǝ̀ ŋ́ wál nà jǝ́sátà.
 record-again-instruction2 = wàl nǝ̀ jǝ́sá tà kà sǝ́mpǝ́ nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ.
-record-last-instruction = <recordIcon></recordIcon> àtɩ̀ɩ̀sǝ̀nʊ̀ŋ kàlɩ́ɩ̀
+record-last-instruction = <recordIcon></recordIcon> àtɩ̀ɩ̀sǝ̀nʊ̀ŋ kàlɩ́ɩ̀!
 review-tooltip = ŋ́ hèènà, wììl nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ
 share-clip = jèkǝ̀ ñá tómpǝ́ ŋ̀ kpáà ná
 share-common-voice = há kɔ̀ɔ̀mɔ̀n fɔ̀wɩ́ɩ́sǝ̀ kà nɩ̀ɩ̀mpà
 review-instruction = ŋ́ hèènà, wììl nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ
+record-submit-tooltip = { $actionType } ŋ́ témpá ŋ̀ tìrìná
 
 ## MENU ITEM TOOLTIPS
 

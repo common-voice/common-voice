@@ -14,3 +14,7 @@ partnerships-academia-description = کُلل ايجاڌون امارا ڪام ن
 partnerships-small-business-header = ننڪا ڪاروڀار، زين مان ٽيڪ (tech) انين ايَ آئِي (AI ) شامِل سي۔
 partnerships-small-business-description = امين هميشان ڍيٽا اِستمال ڪريا واران ڪنين ٿِي اينيان نِي ضرورتان نيَ حواليَ ٿِي ۿانڀرِيا نِي ڪوشيش ڪريئين سيئين۔ ڍيٽا ڀيڳِي ڪريا وارا پليٽفارم ماٿيَ تعاوونَ ڪريا ٿِي لئينَ ڍيٽا نِي صيحت، اين نِي بيۿترِي ڪريا ۿارُو ٿئينَ امين تمان ڪنين ٿِي</emailFragment> ۿانڀروا ماڳيئين سيئين۔<emailFragment>
 partnerships-corporates-header = موٽا پيمانا ماٿيَ ڪارپوريٽ انين ڪمپنيُون
+partnerships-corporates-description = زو تمين ڍيٽاسيٽ نا ٻارا مان وڌيڪ ڪانئين ڪيوا ماڳو سو، منصُُوٻاڀنڌِي ڪرل پليٽفارم نين ڦيلايا مان امان ڀيڳين سيڙپڪارِي ڪروا ماڳو سو يا تعاوونَ نا موقعا ڳوتوا ماڳو سو </emailFragment>امان نين ايڪ لائينَ ڄو<emailFragment>
+partnerships-our-partners = امارا شراڪتۮار
+# menu item
+partners = ڀائيوار
