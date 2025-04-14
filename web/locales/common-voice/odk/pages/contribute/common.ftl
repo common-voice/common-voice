@@ -26,6 +26,10 @@ report = رپورٽ
 report-title = رپورٽ جمع ڪرا
 report-offensive-language = بيعزتِي هاڙِي ٻولِي
 report-offensive-language-detail = اي جملي ۾ بي ادبي يان بڙي بيعزتِي هاڙِي ٻولِي شامل ڇَي
+report-other-comment =
+    .placeholder = راءِ
+success = ڪاميابِي
+continue = جارِي
 
 ## Speak & Listen Shortcuts
 

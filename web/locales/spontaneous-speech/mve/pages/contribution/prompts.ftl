@@ -6,6 +6,11 @@ mic-access-error = ٿونيَ ماڊيڪروفون نيَ لازمِي اجاز�
 prompt-page-instruction = { $actionType }<micIcon></micIcon> ھان جيترو ھوئيَ ݾگيَ فطري طور تيَ جواب ڏيو
 no-prompts-message = ايئيَ ٻولِي ھارو فلحال ڪو ڀِي اشارو ڪوني۔ مھربوني ڪريَ پنيَ نيَ ريفريش ڪرو يا پڇيَ وڙيَ ڪوشش ڪرو۔
 error-skipping = پرامپٽ نيَ ڇوڙڻ ريَ دوران هڪ غلطِي ھوئيَ گِي ھيَ
+error-recording = ريڪارڊنگ ريَ دوران ھيڪ غلطي ھوئيَ رِي
+error-fetching-prompts = اشارون ني لياڻ ريَ دوران ڪجهه غلط ھوئيو ھيَ۔  مهربانِي ڪريَ ٿوڙِي دير ھون پڇيَ وڙيَ ڪوشِش ڪرو۔
+error-uploading-response = ٿونرو جواب اپ لوڊ ڪرڻ  ريَ دوران هڪ غلطِي ھوئيَ گِي ھيَ
+prompt-submitted-success = جواب ڪاميابِي ھون پيش ڪِي گِي ھتِي
+prompt-response-deleted-success = جواب ڪاميابي ھون ختم ڪيو گيو ھيَ
 # For the button to delete a response to a prompt
 delete = ڊلِيٽ ڪرو يان ختم ڪرو
 # For the disabled button on a prompt that indicates a prompt is already submitted
