@@ -14,6 +14,10 @@ record-cancel = kìsì
 record-stop-instruction = ʊ́ kpǝ́rà
 record-three-more-instruction = ʊ̀ tǝ̀ kààsǝ́ nótúsù kánà
 record-again-instruction = ŋ̀ lɔ̀ɔ̀ tǝ́mǝ́r kà sàrtǝ̀ !<recordIcon></recordIcon>kpá ŋ́ wál nà jǝ́sátà
+record-again-instruction2 = wàl nǝ̀ jǝ́sá tà kà sǝ́mpǝ́ nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ
+record-last-instruction = <recordIcon></recordIcon> àtɩ̀ɩ̀sǝ̀nʊ̀ŋ kàlɩ́ɩ̀
+review-tooltip = ŋ́ hèènà, wììl nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ
+share-clip = jèkǝ̀ ñá tómpǝ́ ŋ̀ kpáà ná
 
 ## MENU ITEM TOOLTIPS
 
