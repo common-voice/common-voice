@@ -23,6 +23,7 @@ guidelines = rʊ́ʊ́tǝ̀
 contact-us = wʊ́tǝ́nǝ̀ rà
 add-sentence-success = 1 máátǝ̀ wóntǝ̀ à kpàà ná
 add-sentence-error = hìtúŋ nàmpǝ̀r lɔ̀ɔ̀ mààtǝ̀ tàsʊ́ŋ tà.
+required-field = rà hɩ́nɖǝ́n sǝ̀ ŋ́ súùr wʊ̂ŋ kʊ̀.
 
 ## BULK SUBMISSION
 

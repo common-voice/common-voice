@@ -44,6 +44,7 @@ community-playbook = სახელმძღვანელო საზოგ�
 resource-playbook-info = <playbookLink>ა̈ხითხ ლასჷრგებ მითითება̄̈ლ</playbookLink> მთლია̈ნდ Common Voice შუკუ̂ჟი ლოკალიზაცია̄შუ̂ ლჷბნე მონაცემრე ბაზა̄̈ ლიჴმა̈რიშუ̂ ქალჷზგჷრე, იმჟი ხეკუ̂ესე დაუკავშირდე ნიშგუ̂ეჲ საზოგადოებას.
 data-other-librispeech-description = LibriSpeech  ლი 1000-თეჟი საღა̈თია̈ნ კორპუს 16Khz ლუჭუ̂ედ ინგლისურ ნინშუ̂, ხედუ̂ა̈ჲ ა̈ხუ̂კიდდ ნაჭუ̂და̄ნ აუდიო ლა̈ჲრა̈რხა̈ნჟი LibriVox პროექტისგა.
 data-other-ted-name = TED-LIUM კორპუს
+data-other-ted-description = The TED-LIUM კორპუს მჷსყე ლი აუდიოჩანაწერა̈რხა̈ნქა ი მინე ტრანსკრიფცია̈ლხა̈ნქა, ხედუ̂ა̄̈ჲ ხელმისაწუ̂დომ ლიხ TED ვებსაიტჟი.
 your-feedback = ჯუღუ̂აჲა იდეა̄̈ლ იმჟი ალსიკთად Common Voice მონაცემრე ნაკრებ? ქა ნა̈ბჟი̄ნ Discour-ჟი
 go-discourse = ქა̄̈ტხ Discour-თე
 missing-language = დეშ ხოსგდიჲა ისგუ ნინს მონაცემრე ნაკრებისგა? ნინ ერ ხიჰრი, ქ'ა̄დე ნიშგუ̂ეჲ ნინრე გვერდთე.
