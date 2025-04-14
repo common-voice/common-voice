@@ -1,6 +1,8 @@
 ## Contact Modal
 
+contact-title = ოკონტაქტებელი ფორმა
 contact-form-name =
-    .label = წე
+    .label = სახელი
 contact-form-message =
-    .label = ჟაგნ
+    .label = შეტყვინაფა
+contact-required = აუცილებერი რე

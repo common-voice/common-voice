@@ -65,6 +65,9 @@ read-sentences-coming-soon = kàl mààtǝ̀<small> (ʊ́ tàsà)</small>
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = kàl mààtǝ̀, cìsì
+read-sentences-menu-item-tooltip = kpàà ñá tóm kà támpǝ̀ ŋ̀ wʊ́tʊ́ʊ̀ ñá wʊ́tã̀ŋ tàà ná
+answer-questions-menu-item-tooltip = kpá ñá tóm kà támpǝ̀ ŋ̀ cìsùù wòsǝ̀tǝ̀ kà ñá wʊ́tã̀ŋ tàà ná
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = « wʊ̀tʊ́ŋ » àwóór
