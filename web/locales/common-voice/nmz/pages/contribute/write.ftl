@@ -59,7 +59,8 @@ sentence-variant-select-multiple-variants = wóntǝ̀ ʊ̀ mɔ̀ɔ́nà sǝ̀ 
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = jèkǝ̀ <icon></icon>agbèntùŋ tà mààtǝ̀
-sc-bulk-upload-instruction = rʊ́ ñá tákǝ́rã́ŋ kà tà cé jàà <uploadButton> ñʊ́ </uploadButton> rʊ̀ʊ̀ nǝ̀ ŋ́ jékǝ̀ ká
+sc-bulk-upload-instruction = rʊ́ ñá tákǝ́rã́ŋ kà tàà cé jàà <uploadButton> ñʊ́ </uploadButton> rʊ̀ʊ̀ nǝ̀ ŋ́ jékǝ̀ ká
+sc-bulk-upload-instruction-drop = rʊ́ tákǝ́rã̀ŋ kà cè nǝ̀ ŋ́ jékǝ́ ká
 
 ## SMALL BATCH SUBMISSION
 
