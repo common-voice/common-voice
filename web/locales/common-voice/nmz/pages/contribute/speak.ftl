@@ -48,6 +48,8 @@ create-profile-text = ŋ̀ cí sǝ̀ ŋ́ tàsǝ̀ àsǝ̀m tóm já ?<crea
 thanks-for-voice-toast = ñá nǝ̀ tǝ̀mǝ́r kà ñá nùwàŋ tóm rʊ̀ʊ̀
 thanks-for-voice-toast-error = hìntúŋ nàmpǝ́r lɔ̀ɔ̀ ñá tóm jèkʊ́ŋ tàà
 first-cta-gender-select-default-option = ñʊ́ rííl
+first-cta-gender-select-help-text =
+    .label = sǝ́nã́ŋ káná ŋ̀ cí sǝ̀ à sǝ̀m sǝ̀ ŋ̀ cí àpàal jáá jál ?
 
 ## MENU ITEM TOOLTIPS
 
