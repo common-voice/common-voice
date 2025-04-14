@@ -7,9 +7,9 @@ shortcuts = Kapatu
 clips-with-count-pluralized =
     { $count ->
         [one] Tshibindji
-       *[other] Sonewa
+       *[other] Ipindji
     }
-goal-help-recording = Chakupwa yenu, keshika Common Voice aheta mukwadji ka hize apwanga kufupa hita tangwa !
+goal-help-recording = Chihuthu Cha yenwe, Common voice ubalikilo <goalPercentage></goalPercentage>wa kuhandjeka heta kuchikuma cha shimbu lia{ $goalValue } kwandjikisa !
 goal-help-validation = Chakupwa yenu, Common Voice kaheta kuyuma ya hita tangwa nyi kuipwisa ya umwene mwene !
 contribute-more = Unataiza kulinga nawa ?
 speak-empty-state = Kutuchi nyi yumaiko ya kusoneka mulimi ali
