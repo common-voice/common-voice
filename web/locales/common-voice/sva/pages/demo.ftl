@@ -6,6 +6,7 @@ demo-welcome-subheader = ჯაკუმა, ერე ხოში̄ლ ა̈�
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ლი მსოფლიოისგა მაშე̄ნე ჩია̈შდ ხელმისაწვდომ ფიშირ ნინიან მონაცემრე ნაკრებ.
 
 ## Demo Account
 
