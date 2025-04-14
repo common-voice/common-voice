@@ -32,9 +32,45 @@ add-sentence-error = Lǒ' kwat ghí pə́ pə́ kʉ'ʉ kəm-tsâr
 required-field = pei lə́gh'ə́ yʉ' yo
 single-sentence-submission = Ntə́u nda' kəm-tsâr mo'
 small-batch-sentence-submission = tə́u mə́mbú'ú məkəm-tsâr
+bulk-sentence-submission = Ntə́u mekəm-tsâr ndwuŋ
+single-sentence = kəm-tsâr mo'
+small-batch-sentence = môu ləpu'ú
+bulk-sentence = mi zǎa
+sentence-domain-combobox-label = Sʉ̂ kəm-tsâr
+sentence-domain-select-placeholder = Pei káŋ no məsʉ̂ mə́ntárə́
+# Sentence Domain dropdown option
+agriculture_food = Kwó' sô gháp tsúŋə́ məzə̂u zʉ̌
+# Sentence Domain dropdown option
+automotive_transport = Məzə̂u-tə́ʉ gháp khwót-məzə̂u
+# Sentence Domain dropdown option
+finance = nkâp
+# Sentence Domain dropdown option
+service_retail = fa' gháp ze'tə́ mezə̂u fə̌i
+# Sentence Domain dropdown option
+general = Zə̂u tsəm
+# Sentence Domain dropdown option
+healthcare = nə̂r
+# Sentence Domain dropdown option
+history_law_government = Pyétə́, ləpə̌ʉ ngʉ́ gə́m-na
+# Sentence Domain dropdown option
+language_fundamentals = Lǎa nuŋə mətsâr (mənyôgh' tsâr la' kwá' zə̂u,mənyôgh' tsâr la' nŋwá'á zə̂u, nkâp)
+# Sentence Domain dropdown option
+media_entertainment = Ləluŋə́ gháp məghaa
+# Sentence Domain dropdown option
+nature_environment = Nzʉ̂ gháp məsʉ̌ lâ'
+# Sentence Domain dropdown option
+news_current_affairs = pə́sa'á hó
+# Sentence Domain dropdown option
+technology_robotics = Məfa' pəməsʉ̂ŋ gháp pətə́tó
+sentence-variant-select-label = kəm-tsâr yi mbo' kə̂p cǒ
+sentence-variant-select-placeholder = Pei tsó' tâ' kəm-tsâr yi mbo' kə̂p cǒ
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Pei cí tsə̌m-nŋwa'a zéi ŋə́ ya'a, ndyí ' po <uploadButton>pei nó' ntə́u</uploadButton>
+sc-bulk-upload-instruction = Pei zápə́ tsə̌m-nŋwa'a zéi ya'a lə́ ntə́u
+sc-bulk-upload-instruction-drop = Pei lǒu mə ndóu kʉ́'ʉ́ məcǒ məno lə́ tsə̌m-tsâr yo, pei jwô <emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
