@@ -113,6 +113,38 @@ rate-limit-toast-message-seconds =
         [one] Ə ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' mǝ́. Pei pyégh'ǝ́ ntǝ́u cǝr 1 nza'
        *[other] Ə ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' mǝ́. Pei pyégh'ǝ́ ntǝ́u cǝr  { $retryLimit } menza'
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] pei tǝu mǝ́ tǝ ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' lǝ́ pa' nŋwa'a yo.  Pei jwó 1 nza'  mbǒu ŋǝ́ kǝm tsâr yi shwî. Nkhwo,  lǝ́ mbêu yi pei lǎ' nzʉ́'tǝ́ !
+       *[other] pei tǝu mǝ́ tǝ ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' lǝ́ pa' nŋwa'a yo.  Pei jwó  { $retryLimit } mǝnza'  mbǒu ŋǝ́ kǝm tsâr yi shwî. Nkhwo,  lǝ́ mbêu yi pei lǎ' nzʉ́'tǝ́ !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] pei tǝu mǝ́ tǝ ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' lǝ́ pa' nŋwa'a yo.  Pei jwó 1 nza' mbǒu ŋǝ́ kǝm tsâr yi shwî. Nkhwo,  lǝ́ mbêu yi pei lǎ' nzʉ́'tǝ́ !
+       *[other] pei tǝu mǝ́ tǝ ndwuŋ pǝ́ ghwǒ lǝ́ ntǝ́u ku' lǝ́ pa' nŋwa'a yo.  Pei jwó { $retryLimit } mǝnza'  mbǒu ŋǝ́ kǝm tsâr yi shwî. Nkhwo,  lǝ́ mbêu yi pei lǎ' nzʉ́'tǝ́ !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] kəm-tsâr yi pə́ ghou cər
+       *[other] məkəm-tsâr mi pə́ ghou cər
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] kǝm-tsâr yi pǝ́ gou mǝ́ lǝ1.  nǒ' <downloadLink>ya'a</downloadLink> ndágh' kwarǝ́ mǝkǝm-tsâr mi pǝ́ ghou mǝ́.
+       *[other] { $uploadedSentences } { $totalSentences } mǝkǝm-tsâr mi pǝ́ ghou mǝ́ lǝ. nǒ' <downloadLink>ya'a</downloadLink> ndágh' kwarǝ́ mǝkǝm-tsâr mi pǝ́ ghou mǝ́.
+    }
+small-batch-sentences-rule-1 = Pei ŋə́i ghí' pə́ lagh' wéi « Mbo' nkʉ'ʉ marə məkəm-tsâr ? »
+small-batch-sentences-rule-2 = Pei kʉ'u tâ' kəm-tsâr lə́ maa nkoŋə́ tsəm
+small-batch-sentences-rule-3 = pei nó' « có' » ndágh' ngaptə́ məkəm-tsâr
+small-batch-sentences-rule-4 = Pei kʉ́'ʉ́ məkəm-tsâr 1000
+small-batch-sentences-rule-5 = Məkəm-tsâr mətsəm ghwo lə́ ntsât lə́ tâ' zə̂u
+small-batch-sentences-rule-6 = Məkəm-tsâr mətsəm ghwo lə́ náa ngwó pə́ tâ' no yi ŋuu lǎ'
+# menu item
+add-sentences = Nkʉ́'ʉ́ məkəm-tsâr
 
 ## MENU ITEM TOOLTIPS
 

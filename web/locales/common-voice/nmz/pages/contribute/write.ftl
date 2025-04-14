@@ -52,6 +52,7 @@ language_fundamentals = àpààsǝ̀nʊ̀ŋ tóm kà wʊ́tásǝ̀ tà (a
 media_entertainment = pɔ̀ɔ̀rǝ̀tàpǝ̀rnáà nǝ̀ àséntɩ́ɩ̀
 # Sentence Domain dropdown option
 news_current_affairs = wómpǝ́ wɩ̀ɩ̀ pǝ́ lákǝ́ ná
+sentence-variant-select-placeholder = ñʊ́ʊ́ ñá rìtàfàláà wʊ̀tã́ŋ rʊ̀ʊ̀ (ʊ̀ tã̀ŋ féféré)
 
 ## BULK SUBMISSION
 

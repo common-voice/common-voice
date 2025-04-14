@@ -114,6 +114,7 @@ contribution-misreadings-example-6-title = Chohene, chili chibema.
 contribution-misreadings-example-6-explanation = [Yabwile ibema « Chochene »]
 contribution-misreadings-example-7-title = Chochene, myibwa ibema.
 contribution-misreadings-example-7-explanation = [Kushi lusona « y » mu isoneko y a ma jina ya mwenemwene]
+contribution-misreadings-example-8-title = Pwuka kaya
 contribution-misreadings-example-8-explanation = Udji wa
 contribution-varying-pronunciations-title = Kutanga cha kulisasa
 contribution-varying-pronunciations-description = Lihumikize unda kumbunge kulutwe lia kumbila kwecha Chinyingi cheswe welo wa kutanga isoneko mukubwa ulema ubi wa kuhadjika isoneko ya majina sona Jitwo ishi toba ya chihulo. Kwatwama unene wa muchili kutongola kuhadjika muno muze mu ihanda ikwo ize kanda nuiva mu ndanda. Acha chili alioze lia ngelenu kusa cheseko tshibema cha athu waze ma hadjika kulisasa.
