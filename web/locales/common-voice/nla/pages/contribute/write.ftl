@@ -64,13 +64,28 @@ news_current_affairs = pə́sa'á hó
 technology_robotics = Məfa' pəməsʉ̂ŋ gháp pətə́tó
 sentence-variant-select-label = kəm-tsâr yi mbo' kə̂p cǒ
 sentence-variant-select-placeholder = Pei tsó' tâ' kəm-tsâr yi mbo' kə̂p cǒ
+sentence-variant-select-multiple-variants = Lələʉ məno lə́ mətsâr /məkəm-tsâr mi mbo' kə́ptə məcǒ
 
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Pei cí tsə̌m-nŋwa'a zéi ŋə́ ya'a, ndyí ' po <uploadButton>pei nó' ntə́u</uploadButton>
-sc-bulk-upload-instruction = Pei zápə́ tsə̌m-nŋwa'a zéi ya'a lə́ ntə́u
-sc-bulk-upload-instruction-drop = Pei lǒu mə ndóu kʉ́'ʉ́ məcǒ məno lə́ tsə̌m-tsâr yo, pei jwô <emailFragment>commonvoice@mozilla.com</emailFragment>
+sc-bulk-upload-header = Pei tə́u <icon></icon> mətsâr mi mbo' lâ' jwô
+sc-bulk-upload-instruction = Pei cí tsə̌m-nŋwa'a zéi ŋə́ ya'a, ndyí ' po <uploadButton>pei nó' ntə́u</uploadButton>
+sc-bulk-upload-instruction-drop = Pei zápə́ tsə̌m-nŋwa'a zéi ya'a lə́ ntə́u
+bulk-upload-additional-information = Pei lǒu mə ndóu kʉ́'ʉ́ məcǒ məno lə́ tsə̌m-tsâr yo, pei jwô <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Pei lǒu mə ndóu kʉ́'ʉ́ məcǒ məno lə́ tsə̌m-tsâr yo mi káa pə́ yə́ cər yo ndə̂, pei jwô <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Pei cí tsə̌m-nŋwa'a zéi ŋə́ ya'a ndá' mbyégh'ə́ ngʉ́
+try-upload-again-md = Pei pyégh' ntə́u pə́ shwi-shwî
+select-file = Pei káŋ tâ' tsə̌m-nŋwa'a
+select-file-mobile = Pei káŋ tâ' tsə̌m-nŋwa'a yi pei wo ntə́u
+accepted-files = Mbəu tsə̌-nŋwa'a mbo' pə́ pə̂i: tsv nda'
+minimum-sentences = ndwuŋ məkəm-tsâr mi mbo' pə́ ghwo cər tsə̌m-nŋwa'a : 1 000
+maximum-file-size = Tsə̌m-nŋwa'a káa ghwó lə́ njwə́t tə́ ndéi : 25 Mo
+what-needs-to-be-in-file = Tsə̌m-nŋwa'a záa wo ghwó yó ?
+what-needs-to-be-in-file-explanation = Pei náŋtə́ ya'a njwó <templateFileLink>fi'tə</templateFileLink>. Məkəm-tsâr méi ghwo lə́ mbə́ mi tə́ nôgh' mbǒu mbə́ mi mbo' ŋuu zû' tə́ séitə́ tû yé, pə́ nŋwa'a shʉ'ʉ, ə́ pou mbwórə́ lə́ fúŋ. Məkəm-tsâr mi pə́ tə́u ghwo lə́ tsát no mənza' 10-15 mbǒu ngwó yə́ mənyôgh' nŋwa'a la' nkwá' zə̂u, mənyôgh' pye gháp məcǒ məli'i mi cwǐ po.
+upload-progress-text = ə́ pə́ ndə̌t...
+sc-bulk-submit-confirm = Məŋ mbə̌i ńgó yo  kəm-tsâr yi <wikipediaLink>mbo' lâ' jwô</wikipediaLink> ə́ boŋə́ mbə́ yi mbo' ntə̌u zěi.
+bulk-upload-success-toast = Mbo' kʉ'ʉ zarə́ kəm-tsâr ?
 
 ## SMALL BATCH SUBMISSION
 
