@@ -2,7 +2,7 @@
 
 contact-title = رآبتي رو ڦآرم
 contact-form-name =
-    .label = نام
+    .label = نآلو
 contact-form-message =
-    .label = نیاپو
+    .label = نیآپو
 contact-required = زرورت
