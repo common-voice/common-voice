@@ -55,9 +55,16 @@ second-cta-header-text = ñá nǝ̀ tǝ̀mǝ́r kà wóntǝ̀ ŋ̀ jèpá 
 second-cta-subtitle-text = ñá àlɩ̀ɩ̀mʊ̀ŋ jékǝ̀ sǝ̀ ŋ́ ná ñá tǝ́mǝ́r lápǝ̀ ʊ́ jél ñá nǝ̀ tóm kpààràà nɩ́mpà ɩ́ lá àkpàr
 already-have-an-account = ŋ̀ wɩ́ɩ̀n kɔ́ntǝ̀ já ?<login> sʊ̀wɩ̀ɩ̀</login>
 create-profile-button = má ñá àlɩ̀ɩ̀mʊ̀ŋ
+# IMAGE TAGS
+img-alt-success-checkmark = lápǝ́ tɩ̀ɩ̀wʊ̀ŋ
+# menu item
+read-sentences = kàl mààtǝ̀
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = kàl mààtǝ̀<small> (ʊ́ tàsà)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = kàl mààtǝ̀, cìsì
 
 ## MENU ITEM ARIA LABELS
 
