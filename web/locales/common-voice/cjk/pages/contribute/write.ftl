@@ -36,6 +36,34 @@ bulk-sentence-submission = Thuma isoneko yindji
 single-sentence = Chisoneko chimuwikha
 small-batch-sentence = ukepe wa funda
 bulk-sentence = Unene wa wundji
+sentence-domain-combobox-label = Mbunda ya chisoneko
+sentence-domain-select-placeholder = Chinga chinga ndo ku yihanda itathu mbunda
+# Sentence Domain dropdown option
+agriculture_food = kulima nyi kupita chakulia
+# Sentence Domain dropdown option
+automotive_transport = motoka ni kumbata
+# Sentence Domain dropdown option
+finance = mbongo
+# Sentence Domain dropdown option
+service_retail = Mulimu nyi lanjisa chacheseko
+# Sentence Domain dropdown option
+general = mu undji
+# Sentence Domain dropdown option
+healthcare = ungunu
+# Sentence Domain dropdown option
+history_law_government = ishima, shimbi nyi nguvulu
+# Sentence Domain dropdown option
+language_fundamentals = chize cha tela malimi (chiffres, sona, mbongo)
+# Sentence Domain dropdown option
+media_entertainment = uhandjikilo nyi kuliswelesa
+# Sentence Domain dropdown option
+nature_environment = Hashi nyi wautwamino
+# Sentence Domain dropdown option
+news_current_affairs = Yaha
+# Sentence Domain dropdown option
+technology_robotics = Yakukomokesa nyi shikishi kishi
+sentence-variant-select-label = kuchenja ya isoneko
+sentence-variant-select-placeholder = kuchinga ize yaku chenja (facultatif)
 
 ## BULK SUBMISSION
 
