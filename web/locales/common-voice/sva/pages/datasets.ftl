@@ -37,6 +37,7 @@ other-datasets = იშგენ ხმოვან მონაცემრე 
 feedback-q = ჯუღვამა გამოხმაურება?
 # This indicates that there is no data to display
 no-information = საერთოდ მა̄მგუ̂ეშ ინფორმაცია
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>ლი<docsLink>ინსტრუმენტალე ნაკრებ ღია კოდშუ̂</docsLink>ეჯ მკვლევარრეშდ, ერუ̂ა̄̈ჲ ამშიჲეხ ლაგჷრგა̈ლი ხელოუ̂ნურ ინტელექტი მამხე მოდელა̈რს.
 your-feedback = ჯუღუ̂აჲა იდეა̄̈ლ იმჟი ალსიკთად Common Voice მონაცემრე ნაკრებ? ქა ნა̈ბჟი̄ნ Discour-ჟი
 go-discourse = ქა̄̈ტხ Discour-თე
 missing-language = დეშ ხოსგდიჲა ისგუ ნინს მონაცემრე ნაკრებისგა? ნინ ერ ხიჰრი, ქ'ა̄დე ნიშგუ̂ეჲ ნინრე გვერდთე.
