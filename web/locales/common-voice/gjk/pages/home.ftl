@@ -138,6 +138,16 @@ community-section-title = عالمِي ڀِراڌرِيان نِي طرڦ ٿِي
 join-discord-community = ڍِسڪورڍ ڀِراڌرِي مان شامِل ٿائو
 # label for button
 join-discord-community-action = ڍُسڪورڍ ماٿيَ امان ٿِي مِلو
+join-discord-community-content = ٻولِي وارِي ڀِراڌرِي نِي بيحث مان حِصو ليو، سوال پونسو انين آيان واران واقيئان انين واتان نا ٻارا مان شِيکو۔
+find-us-on-matrix = امان نين ميٽرِڪس ماٿيَ ڳوتو
+find-us-on-matrix-content = ميٽرڪس ايڪ کُلل هلڪا وزنَ وارون پروٽوڪول سي زين غير مرڪزِي انين حقيقِي وقت نا راٻطا ۿارُو سي۔ انين موزيلا نو کُلل ترجيۿِي بيحث ڪريا وارون پليٽ فارم سي۔
+# label for button
+find-us-on-matrix-action = امان نين ميٽرِڪس ماٿيَ ڳوتو
+ask-mozilla-share = تمارا واقيئا شيئر ڪريا ۿارُو موزيلا نين ڪو
+ask-mozilla-share-content = شون تمان ڪنين مورِ نون ڪان آيا وارون پروڳرام سي، اين نين امان ٿِي شيئر ڪرو انين امين اين نون ايلانَ پوتا نِي ڀِراڌرِي مان ڪرشون يان اين نا ٻارا مان ايڪ ڀِلاڳ لکشون!
+# label for button
+ask-mozilla-share-action = تمارا واقيئا شيئر ڪرو
+download-contribution-certificate = تمارون حِصو ليڌا وارون سرٽيفڪيٽ ڍائونَ لوڍ ڪرو
 
 ## Featured section
 
