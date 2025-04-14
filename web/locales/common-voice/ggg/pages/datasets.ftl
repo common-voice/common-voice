@@ -75,3 +75,7 @@ donate-modal-explanation-1 = ڊيٽآ سيٽو ڪيٚ مهربآنيٚ ڪروو 
 donate-modal-explanation-2 = <bold> جي تمينٚ  کلريٚ، ڌيريٚ ڊيٽآ  ڪيٚ ڪيمت آج دآن ڪرو!</bold>
 data-download-singleword-title = ڊآئون لوڊ ڪررو آيڪلو لڦج چگرو گوو هسو
 data-download-singleword-callout-v2 = يو ايڪ استمآل ڪيس چلآنٚدو هسو هي جرو مي ڊيٽآ ڌيريٚ هي تآڪت ٻولوآݪآنٚ انٚگآنٚ اکرآنٚ ڪيٚ اوݪکآنٚد ائينٚ  هآنٚ / نآ ڍونٚڊوو
+data-download-button = آم آوآجو ڪيٚ ڊيٽآ ڊآئون لوڊ ڪرو
+data-download-yes = هآنٚ
+data-download-deny = نآ
+data-download-license = : <licenseLink>سيٚ سيٚ -0</licenseLink> ليسڻِ
