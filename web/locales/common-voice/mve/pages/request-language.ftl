@@ -14,6 +14,8 @@ request-language-google-recaptcha-required = جيَ ٿيَ اڳتي وڌڻ چا�
 request-language-google-recaptcha-error = reCAPTCHA ھون ڪجهه غلط ھوئيو ھيَ۔  مهربانِي ڪري وڙيَ ڪوشِش ڪرو۔
 # Success page
 request-language-success-heading = مهربانِي! ٿُون هيڪ نئِي ٻولِي رِي پُوڇا ڳاڇا ميلِي ھيَ
+request-language-success-list-1 = ٿونيَ مھوريَ ڪميونٽي مئنيجر ھون ھيڪ اي ميل ملڻ کپيَ جڪيَ ۾ ٿونرِي ٻولي نيَ ڪامن وائس ۾ شامل ڪرڻ را قدم ھنڀڙايا جاھيَ۔
+request-language-success-list-2 = مھورو ڪميونٽي مئنيجر ٿون ھون رابطو ڪر ھيَ ڪہ جون وڌيڪ مدد ڪري ݾگيَ، ھان ٿونيَ ھڻائيَ ڪہ ڪِي مور ھيَ ڪو ڪميونٽي ٿونرِي ٻولي تيَ ڪوم ڪريَ رئِي ھيَ۔
 request-for-scripted-speech-toggle = اسڪرِيپٽ ھوئيوڙِي تقرِير رِي درخواست
 request-for-spontaneous-speech-toggle = بيَ ساختا تقرِير رِي درخواست
 need-help-deciding-platform = ڪيھڙو (ڪِي) چُونڊڻ رو فيصلو ڪرڻ ۾ مدد رِي ضرُورت ھيَ؟
