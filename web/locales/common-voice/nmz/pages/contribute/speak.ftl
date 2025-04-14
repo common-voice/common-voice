@@ -13,6 +13,7 @@ record-error-too-quiet = tóm kpààwʊ̀ŋ fòòlíím kǝ̀l tíbì.
 record-cancel = kìsì
 record-stop-instruction = ʊ́ kpǝ́rà
 record-three-more-instruction = ʊ̀ tǝ̀ kààsǝ́ nótúsù kánà
+record-again-instruction = ŋ̀ lɔ̀ɔ̀ tǝ́mǝ́r kà sàrtǝ̀ !<recordIcon></recordIcon>kpá ŋ́ wál nà jǝ́sátà
 
 ## MENU ITEM TOOLTIPS
 
