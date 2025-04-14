@@ -8,6 +8,8 @@ sentence =
 sentence-input-placeholder = Soneka chisoneko cheye cha chihanda cha mbunga ahano
 small-batch-sentence-input-placeholder = Soneka chisoneko cheye cha chihanda cha mbunga ahano
 citation-input-placeholder = Ambulula kasulo wa isoneko yeye (Chatela)
+citation =
+    .label = Kuhwa cha
 
 ## BULK SUBMISSION
 
