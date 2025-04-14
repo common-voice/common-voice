@@ -113,6 +113,7 @@ contribution-misreadings-example-6-title = surment, il fera beau.
 contribution-misreadings-example-6-explanation = ɖo la nyi surement
 contribution-misreadings-example-7-explanation = y mù lè nuhɛhlɛ adodo a mè o
 contribution-misreadings-example-8-title = vüvü a zro
+contribution-misreadings-example-8-explanation = nyàmàɖokàdodo ku nu
 contribution-varying-pronunciations-title = nuyɔyɔvòvòwo
 contribution-varying-pronunciations-description = kéŋugbɔxue wo la tutu nyalelekpɔwɔɛɖe ku susu be nuhlɛtɔ ŋusu alo nyɔnu a yɔ nyatiɖe  alo gbèɖiɖinɔwoaɖokoesinu vèwo  bàɖà alo ewɔ sìgbè eŋlɔ bé nyàbiɔséjèsì wò ɖo la kpɔ nyɔɛɖe. wo yɔna nu vò vò lè xixè amè. ɖewo lè a ta mu nyɔ o a wò mu sè wo a be yɔyɔ kpɔ o le mi a gbɔ o. mi kafu àmè kèwo mu le do gbè a sigbè miawo nène o.
 contribution-varying-pronunciations-description-extended = vɔ̀ a né  wò kpɔ bé nuhlɛ̃̀tɔ a mu dó gò nyàti a kpɔ va yì sã o yé be lě jè àgbàgbà bé yè a na yɔ̌yɔnyɔɛtɔ a,  mu gbà  sɔ̀ nyàlélé a sɔ wɔ̀ dɔ o. Né  wò  mu kã ɖo éji  o a, zã̌ vǎ yì lɔ̀vi a.

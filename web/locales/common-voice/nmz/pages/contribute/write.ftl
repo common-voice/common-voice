@@ -28,6 +28,14 @@ single-sentence-submission = máátǝ̀ kǝ́rǝ́mátǝ̀ jèkúŋ
 small-batch-sentence-submission = cʊ́kɔ̀cʊ́kɔ̀ mààtǝ̀ jékúŋ
 bulk-sentence-submission = mààtǝ̀ kpàtǝ̀r jèkúŋ
 single-sentence = máátǝ̀ kǝ́rǝ́mátǝ̀
+small-batch-sentence = cʊ́kɔ̀cʊ́kɔ̀
+bulk-sentence = kpàtǝ̀r kpàtǝ̀r
+sentence-domain-combobox-label = máátǝ̀ àwóór
+sentence-domain-select-placeholder = ñʊ́ʊ́ àwóójá nóósútù rʊ̀ʊ̀
+# Sentence Domain dropdown option
+agriculture_food = hàrǝ́m nǝ̀ tʊ̀ʊ̀nã́ŋ rǝ̀rɔ̀ɔ̀nɖǝ́
+# Sentence Domain dropdown option
+automotive_transport = lòòr nǝ̀ sʊ̀ʊ̀lʊ́ŋ
 
 ## BULK SUBMISSION
 
