@@ -15,7 +15,10 @@ about-dataset-release-title = მუნაჩემეფიშ კრებუ�
 about-dataset-release-subtitle = მუნაჩემეფიშ კრებული 3 თუთაშე ართჷშა გუშმურს.
 about-subscribe-text = გოკონანო Common Voice-წკუმა კონტაქტი გიღუდანინი?
 about-speak = იჩიი
+about-listen-queue = მორჩქილაში რანწკი
 about-listen = რჩქილა
+about-nav-why-common-voice = მუშენი?
+about-nav-how-it-works = მუჭო?
 
 ## Community Playbook Content
 ## What is a language
@@ -23,27 +26,34 @@ about-listen = რჩქილა
 
 ## How do I add a language
 
+about-playbook-how-add-language = მუჭო გევუძინა ნინა?
+about-playbook-how-add-language-translating-heading = საიტიშ გინოთანგუა
+about-playbook-how-add-language-collecting-sentences-heading = ზიტყვასქვილეფიშ კორობუა
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = მუჭო გევუძინა ზიტყვასქვილეფი?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = სოციალური მედია
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = მუჭო გიმიბრინუა მუნაჩემეფიშ კრებული?
 
 ## How are decisions made
 
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = მუჭო იფინანსებუ Common Voice?
