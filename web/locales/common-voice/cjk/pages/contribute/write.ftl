@@ -64,6 +64,7 @@ news_current_affairs = Yaha
 technology_robotics = Yakukomokesa nyi shikishi kishi
 sentence-variant-select-label = kuchenja ya isoneko
 sentence-variant-select-placeholder = kuchinga ize yaku chenja (facultatif)
+sentence-variant-select-multiple-variants = undji helu ya limi / undji ya wakuchendja
 
 ## BULK SUBMISSION
 

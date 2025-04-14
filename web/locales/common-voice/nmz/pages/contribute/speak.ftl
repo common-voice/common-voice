@@ -48,14 +48,14 @@ why-donate-explanation-2 = fɩ́ɩ́nɩ̀ ñʊ́ʊ́tǝ́ lón lá sàrtǝ́
 add-information-button = tóm tàsʊ́ŋ
 continue-speaking-button = ààjɩ̀, ñá nǝ̀ tǝ̀mǝ́r. wɩ̀ɩ̀ wʊ̀tʊ́ŋ rʊ̀ʊ̀
 create-profile-text = ɩ́ sòòlà sǝ̀ ɩ́ kpá mɩ́ tóm já ?<createProfile> ɩ́ má mɩ́ álɩ̀ɩ̀mʊ̀ŋ</createProfile>
-thanks-for-voice-toast = ñá nǝ̀ tǝ̀mǝ́r kà ñá nùwàŋ tóm rʊ̀ʊ̀
+thanks-for-voice-toast = ɩ́ kpàà tóm nǝ̀ ɩ́ jékǝ̀ rá, mɩ́ nǝ̀ tǝ̀mǝ́r.
 thanks-for-voice-toast-error = hìntúŋ nàmpǝ́r lɔ̀ɔ̀ ñá tóm jèkʊ́ŋ tàà
 first-cta-gender-select-default-option = ñʊ́ rííl
 first-cta-gender-select-help-text =
     .label = sǝ́nã́ŋ káná ŋ̀ cí sǝ̀ à sǝ̀m sǝ̀ ŋ̀ cí àpàal jáá jál ?
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = ñá nǝ̀ tǝ̀mǝ́r kà wóntǝ̀ ŋ̀ jèpá nǝ̀ ákpá ñá núwã̀ŋ
-second-cta-subtitle-text = ñá àlɩ̀ɩ̀mʊ̀ŋ jékǝ̀ sǝ̀ ŋ́ ná ñá tǝ́mǝ́r lápǝ̀ ʊ́ jél ñá nǝ̀ tóm kpààràà nɩ́mpà ɩ́ lá àkpàr
+second-cta-header-text = ŋ̀ jèpá nǝ̀ ákpá ñá núwã̀ŋ, ñá nǝ̀ tǝ̀mǝ́r !
+second-cta-subtitle-text = ŋ́ wɩ̀ɩ̀nà àlɩ̀ɩ̀mʊ̀ŋ, ŋ̀ pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ŋ́ ná ñá tǝ́mǝ́r lápǝ̀ ʊ́ jél ñá nǝ̀ tóm kpààràà nɩ́mpà ɩ́ lá àkpàr
 already-have-an-account = ŋ̀ wɩ́ɩ̀n kɔ́ntǝ̀ já ?<login> sʊ̀wɩ̀ɩ̀</login>
 create-profile-button = má ñá àlɩ̀ɩ̀mʊ̀ŋ
 # IMAGE TAGS
