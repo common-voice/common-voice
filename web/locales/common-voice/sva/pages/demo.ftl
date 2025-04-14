@@ -12,9 +12,12 @@ card-button-next = ეჩუნღუ̂ე̄შ
 card-button-back = ღუ̂ეშგდ
 demo-language-select-label = ნინრე ლითე̄უ̂რა̄̈ლი
 demo-eofy-header = 2019 ზა̈ჲა̈ ბოლოს გამოშვება
+demo-eofy-sub_header = ხმოვან მონაცემრე ნაკრებ ლჷმა̄რე ლი ჩულა̈ტუ̂ირთა̈უ̂დ
+demo-account = ანგარიშ
 
 ## Demo Account
 
+demo-account-card-header = ანგარიში ლიღუ̂ე̄ნე აუცილებელ მამ ლი წვლილიშდ, აშ ჩუ სა̈რგებ ლი.
 
 ## Demo Contribute
 
