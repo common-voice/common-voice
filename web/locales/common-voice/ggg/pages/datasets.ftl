@@ -82,7 +82,7 @@ data-download-license = : <licenseLink>سيٚ سيٚ -0</licenseLink> ليسڻِ
 data-download-modal = تميِ <size>{ $size }GB</size>  ڊآئون لوڊ ڪروآݪآ هو، آگي چلو؟
 data-subtitle = همي آوآجآ ڪو ايڪ کلرو اور اوآمي  ڪي ترڦي دي ڌيري ڊيٽآ سيٽ ٺآ ريهرآ هون جرآ ڪوُ هر ڪوئي استمآل ڪرسگدو هي تڪرير ڦآئل هري ايپليڪيشن سنڪآر ديوآ لآ.
 data-explanatory-text = همي يڪينٚ ڌردآ هونٚ  ٻڏيٚ ائينٚ اوآميٚ ترڦيٚ ديٚ ڌيريٚ آوآج ڊيٽآ سيٽو ڪيٚ مشيٚنيئو سڪووآ پي ٻنٚدريٚ تڪرير ٽيڪنآلآجيٚ ٺيرآ ڪآروبآرو ڪوُ وڌآئو دينٚدآ هينٚ . يآ ايڪ سنسآرو ڪيٚ ڪوشيٚش هي ائينٚ همينٚ سبآنٚڪوُ ڀيݪآ هووآ ڪيٚ دآئوت دينٚدآ هونٚ . همرو مڪسد تڪريٚر ٽيڪنآلآجييو ڪوُ وڌيٚڪ شآمل ڪروآ مينٚ مدت دينٚدوهو،سنسآرو ڪيٚ آوآجآنٚ ڪو ڦرڪ جآهر ڪردو هي .
-data-get-started = تڪريٚريش ڪيٚ اوݪکآڻيٚ دي شُروآت <speechBlogLink></speechBlogLink> ڪرو
+data-get-started = تڪريٚريش ڪيٚ اوݪکآڻيٚ دي شُروآت <speechBlogLink></speechBlogLink> ڪرو۔
 data-other-title = … دوسرآ آوآج سيٽس
 data-other-goto = { $name } ڪودي جآوو
 data-other-download = ڊيٽآ ڊونلوڊ ڪرو
@@ -94,3 +94,5 @@ license = </licenseLink>{ $license }<licenseLink>: لآئيسنس
 license-mixed = مِلرو
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = همريٚ آوآجيٚ ڪآ ڊيتآ سيٽ ڊآئون لوڊ ڪرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ملدآ جُلدآ آوآجيٚنٚ ڪو ڊيٽآ تائينٚ رسآيو تآڻيٚ ڊآئون لوڊو ڪآ اديٚڪآر
