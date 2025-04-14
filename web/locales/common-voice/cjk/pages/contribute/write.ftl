@@ -68,6 +68,8 @@ sentence-variant-select-multiple-variants = undji helu ya limi / undji ya wakuch
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Thuma <icon></icon>isoneko ya chihanda cha mbunga
 
 ## SMALL BATCH SUBMISSION
 
