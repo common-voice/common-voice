@@ -91,6 +91,7 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-page-title = nu kè ye wo la kpɔ keŋugbɔxue la do àlɔ nu mè
 contribution-criteria-page-description = sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
 contribution-for-example = kpɔwɔ́ɛ
 contribution-misreadings-title = nuhɛ̃̀hlɛ̃gbàdàdǎwo

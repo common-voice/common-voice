@@ -16,6 +16,10 @@ request-language-google-recaptcha-error = reCAPTCHA ھون ڪجهه غلط ھو�
 request-language-success-heading = مهربانِي! ٿُون هيڪ نئِي ٻولِي رِي پُوڇا ڳاڇا ميلِي ھيَ
 request-language-success-list-1 = ٿونيَ مھوريَ ڪميونٽي مئنيجر ھون ھيڪ اي ميل ملڻ کپيَ جڪيَ ۾ ٿونرِي ٻولي نيَ ڪامن وائس ۾ شامل ڪرڻ را قدم ھنڀڙايا جاھيَ۔
 request-language-success-list-2 = مھورو ڪميونٽي مئنيجر ٿون ھون رابطو ڪر ھيَ ڪہ جون وڌيڪ مدد ڪري ݾگيَ، ھان ٿونيَ ھڻائيَ ڪہ ڪِي مور ھيَ ڪو ڪميونٽي ٿونرِي ٻولي تيَ ڪوم ڪريَ رئِي ھيَ۔
+request-language-success-list-3 = جيَ ٿونيَ ڪجھ ڏنون ۾ مونھ ھون ڪو جواب نِي مليَ،<emailLink>{ $email }</emailLink>تيَ رابطو ڪرو ھان مھيَ ٿون ھون وڙيَ رابطو ڪر ھون!
+request-language-error = شايد مھونيَ اي درخواست ڪوني ملي ھوئيَ۔ مھبوني ڪريَ مھونيَ ݾڌو اي ميل ڪرو<emailLink>{ $email }</emailLink> تيَ ھان مھيَ ٿون ھون رابطو ڪرھون!
 request-for-scripted-speech-toggle = اسڪرِيپٽ ھوئيوڙِي تقرِير رِي درخواست
 request-for-spontaneous-speech-toggle = بيَ ساختا تقرِير رِي درخواست
 need-help-deciding-platform = ڪيھڙو (ڪِي) چُونڊڻ رو فيصلو ڪرڻ ۾ مدد رِي ضرُورت ھيَ؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>لکوڙي وات</strong>(روايتي طو تي جيڪو ٿيَ ڪامن وائس ريَ باريَ ۾ جاڻو ھو)اي ھي جيٿ ٿيَ آپرِي ٻولِي ۾ جُملا بلند آواز ھون پڙھيَ ݾگو ھو۔
