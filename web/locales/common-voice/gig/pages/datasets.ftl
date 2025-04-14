@@ -84,3 +84,5 @@ release-version = نئيٚ چيٚز
 dataset-date = تآريڪ
 license = { $license }<licenseLink></licenseLink> لآئسنس
 license-mixed = ميلوڙآ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = آوآز رو ڊيٽآ سيٽ ڊآئونٚ لوڊ ڪرو
