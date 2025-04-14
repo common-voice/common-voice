@@ -17,6 +17,7 @@ new-sentence-rule-5 = àkɔ́ntá mààtǝ̀ nǝ̀ ntèntè mààtǝ̀ t
 new-sentence-rule-6 = wʊ̀tásǝ̀ nɩ́ɩ́n sǝ́ mààtǝ̀ ráá hʊ̀ʊ̀tǝ̀ táà
 new-sentence-rule-7 = ñʊ́ʊ́ nʊ́ʊ̀r tóm rʊ̀ʊ̀ kà sàrǝ̀tǝ̀
 how-to-cite = à ñʊ́kʊ́ʊ́ nʊ́ʊ̀r tóm rʊ̀ʊ̀ sǝ́nã́ŋ ?
+how-to-cite-explanation-bold = ñʊ́ʊ́ nʊ́ʊ̀r tóm rʊ̀ʊ̀ nǝ̀ ŋ́ wǝ́l pǝ̀ rìlíínɖǝ̀
 
 ## BULK SUBMISSION
 
