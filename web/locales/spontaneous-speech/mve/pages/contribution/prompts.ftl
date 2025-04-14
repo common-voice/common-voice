@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = ݾيکو ڪہ ڪونڪر ھُڻيَ لکڻو ھي�
 learn-how-to-use-transcribe-explanation = ايئيَ منک جُڪو ڪھيو او بلڪل لکو، جڪيَ 'اُم' يا 'اير' جھڙا اکر شامل ھيَ۔
 learn-how-to-use-transcribe-guidance = ڪلِڪ<guidanceLink>ايٿ</guidanceLink>ايئيَ پنيَ نيَ استعمال ڪرڻ ݾکڻ ھارو
 learn-how-to-use-check-transcript = ݾکو ڪيَ ڪونڪر ھڻيَ لکوڙيَ نيَ ڪونڪر جونچو
+learn-how-to-use-check-transcript-explanation = ھيڪ لکت ۾ ھر اکر يا بيَ معني وات رِي آواز نيَ جھالڻ کپيَجڪو منک عرفون ڪھيوڙو ھوئيَ، جڪيَ ۾ دُھرائي ڀي شامل ھوئيَ ھيَ۔
+learn-how-to-use-check-transcript-guidance = ڪلِڪ<guidanceLink>ايٿ</guidanceLink>ايئيَ پنيَ نيَ استعمال ڪرڻ ݾکڻ ھارو

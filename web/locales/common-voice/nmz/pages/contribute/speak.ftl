@@ -45,6 +45,9 @@ why-donate-explanation-1 = lón tàsʊ́ŋ pǝ̀ tàŋ féféré ; tàs�
 add-information-button = tàsǝ̀ tóm
 continue-speaking-button = ààjɩ̀, wɩ̀ɩ̀ wʊ̀tʊ́ŋ rʊ̀ʊ̀
 create-profile-text = ŋ̀ cí sǝ̀ ŋ́ tàsǝ̀ àsǝ̀m tóm já ?<createProfile> má ñá álɩ̀ɩ̀mʊ̀ŋ</createProfile>
+thanks-for-voice-toast = ñá nǝ̀ tǝ̀mǝ́r kà ñá nùwàŋ tóm rʊ̀ʊ̀
+thanks-for-voice-toast-error = hìntúŋ nàmpǝ́r lɔ̀ɔ̀ ñá tóm jèkʊ́ŋ tàà
+first-cta-gender-select-default-option = ñʊ́ rííl
 
 ## MENU ITEM TOOLTIPS
 

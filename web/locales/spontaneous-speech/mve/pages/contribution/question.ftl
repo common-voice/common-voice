@@ -11,6 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = اپ لوڊ ناڪام ھوئو وڙَي ڪوشش ڪرو
 add-question-too-many-questions-error = 25 سوالون ھون وڌيھا را سوالون رو  تعداد گھٽائو ھانَ  وڙيَ ڪوشِش ڪرو۔
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions }1 سوال جمع ڪرو۔ سوال شامل ڪرڻ ھارو وڌيڪ ݾکڻ ھارو مھورا<guidelinesLink>مددگار</guidelinesLink>پنا جوئو۔
+       *[other] جمع ڪيوڙيَ{ $uploadedQuestions }سوالون ۾{ $totalQuestions }سوالون نيَ ڪونڪر شامل ڪيو جائي ريَ باريَ ۾ وڌيڪ ݾيکڻ ھارو مھورا <guidelinesLink>مددگار</guidelinesLink>پناجوئو۔
+    }
 # Guidelines
 add-question-guidelines-title = ڪيھڙا سوال ھُون شامل ڪرَي ݾگون ھون؟
 do-section-title = ڪر يان ڪرو
