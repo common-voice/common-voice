@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = تآونو ڪي هِدآيتينٚ
+guidelines-header = تآونو ڪي هِدآيتينٚ۔
 guidelines-header-subtitle = سمجھو تو ڪآمن وآئيس ڊيٽآ سيٽو مي جُملآ اور آڊيو ڪِلپس ڪيسي تآون اور اُنآ ڪيٚ سئي ڪرري جآئي
 voice-collection = آوآجينٚ ڪو ميڙ
 sentence-collection = ٻتيسآ جُملآ
@@ -113,7 +113,7 @@ adding-questions = سوال شآمل ڪرو
 
 what-makes-a-good-question-subheader = ڀلو سوآل ڪآ هي؟
 what-makes-a-good-question-explanation = ايڪ  اوآميٚ شآملآئيو ڪيٚ ڊيٽآ سيٽينٚ تآڻيٚ ايڪ اسل سوآل هوڻ کپي:
-what-makes-a-good-question-explanation-criteria-1 = سمجھوآ مي  سولو اور جنآب ديوآ تآڻيٚ
+what-makes-a-good-question-explanation-criteria-1 = سمجھوآ مي سولو اور جنآب ديوآ تآڻيٚ
 what-makes-a-good-question-explanation-criteria-2 = آم توري پر جُڙرآ ريهوو
 what-makes-a-good-question-explanation-criteria-3 = نُڪآس دي وآݪيٚ جآنٚ بي تميٚج ٻوليو ڪو استمآل من ڪرو، جآنٚ اُرآ ڪيٚ درڪآس نآ ڪرو۔
 what-makes-a-good-question-tip = تِميٚ الگ سورت هآل اور اِلآ ڪآ ڪوُ شآمل ڪروآ پر بي گور ڪرو سڪدآ هو۔
@@ -124,6 +124,7 @@ spelling-and-pronunciation-explanation = سئي هِجي اور گرآمريٚ �
 length = لمبآئيٚ
 length-explanation = سوآل سِرڦ دو جملآنٚ مي جبآب ديوآ جيسو هوڻ کپي۔
 dont-add-subheader = شآمل م’ن ڪرو
+culturally-specific-questions = سڪآڦتي کآس سوآل
 culturally-specific-questions-explanation = ايسآ سوآل جيڪي سڪآڦتيٚ تور پر کآس هينٚ، جآنٚ جبآبديوآݪآ بآرآ مي گهڻو ڪيندآ هينٚ۔
 length-avoid-explanation = ايسآ سوآل جِنآ ڪآ جبآب ڪِرو ڪوُ 15 سيڪنڊ ينٚ مي ديوو مشڪل هوسيٚ۔
 process-steps = ڪآم / ڪدم
