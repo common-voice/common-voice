@@ -7,12 +7,25 @@ demo-welcome-subheader = اور سيٚڪوو اور منسوبآ مي هِسو �
 ## Demo Datasets
 
 demo-language-select-card-header = دنيآ ڪو سبآنٚ دي جبرو اوآمي تورو پر موجود هي،Common Voice ڀوت ٻوليآنٚݪو وآئيٚس ڊيٽآ سيٽ هي۔
+demo-language-select-card-body = 50 دي وڌيٚڪ منکآنٚ ڪآ تآونو ڪيٚ Kدي وڌيڪ ٻوليآنٚ مي 259 ميهربآنيٚ۔ يو ڊيٽآ سيٽ انسآنيٚ آوآجيٚ ڪوُ بهتر جبآب ديوآ تآڻيٚ ٻتلآوڻ۔ ڪآم ايپليڪيشنيٚ ڪوُ تربيت ديوآ تآڻيٚ استمآل ڪررو جآ ريهيرو هي۔
+card-button-next = اگي چلو
+card-button-back = وآپس جآوو
+demo-language-select-label = ٻوليونٚ برآيوس ڪرو
+demo-eofy-header = 2019 سآليٚ ڪو آکريٚ رليس
+demo-eofy-sub_header = وآئس ڊيٽآ سيٽ، ڊآئون لوڊيٚ تآڻيٚ تيآر
+demo-account = کآتو
 
 ## Demo Account
 
+demo-account-card-header = ايڪ اڪآونٽ هوآ ڪي ڪري جرُرويٚ ڪونآ تو هِسو ديوآ تآڻي، پر وو مددڪآر هي۔
+demo-account-card-body = سيدي پآسي هميٚ ڦآئيدآنٚ ڪوُ بيآن ڪردآ هونٚ اور کُل ڪي ڪيندآ هونٚ تو همي ڪوڻسيٚ کبر آم ڪردآ هونٚ۔ آپو ڪيٚ ڊيوآئس اڪآئونٽو دي شروُ ڪروآ تآڻيٚ نيٚچي ديوجريٚ لنڪ استمآل ڪرو۔
+demo-account-enter-email =
+    .label = سآئيٚن اپ لنڪ ڀيجوآ تآڻيٚ اي ميل دآکل ڪرو۔
+demo-account-sign-up = سآئيٚن اپ لنڪ ڀيجو
 
 ## Demo Contribute
 
+demo-contribute-card-header = آپو ڪيٚ آوآج شآمل ڪرو جآنٚ آپو ڪآ ڪِنآ ٻولوآݪآنٚ تآڻيٚ تيآر هو؟
 
 ## Demo Dashboard
 
