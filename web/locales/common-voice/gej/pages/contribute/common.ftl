@@ -91,6 +91,7 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = nu kè do na vòvòtoto nuwo domè.
 contribution-criteria-page-title = nu kè ye wo la kpɔ keŋugbɔxue la do àlɔ nu mè
 contribution-criteria-page-description = sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
 contribution-for-example = kpɔwɔ́ɛ
@@ -111,6 +112,7 @@ contribution-misreadings-example-4-explanation = lé wu nuŋɔ̀ŋlɔ̌ kè hí
 contribution-misreadings-example-5-title = sɔ̀ mè la nyɔ́ kpoe
 contribution-misreadings-example-6-title = surment, il fera beau.
 contribution-misreadings-example-6-explanation = ɖo la nyi surement
+contribution-misreadings-example-7-title = surement, il y fera beau.
 contribution-misreadings-example-7-explanation = y mù lè nuhɛhlɛ adodo a mè o
 contribution-misreadings-example-8-title = vüvü a zro
 contribution-misreadings-example-8-explanation = nyàmàɖokàdodo ku nu
@@ -124,6 +126,7 @@ contribution-varying-pronunciations-example-2-explanation =  wo yɔna « sandwi
 contribution-background-noise-title = nyàlelemèɖagbèɖìɖǐwo
 contribution-background-noise-description = ela  nyɔ wu  bé agoritmiazèɖèkanukpakplawo né sɔ̀gbè né woa ɖíɖí gbèɖìɖǐ vòvòvò kèwo lě ɖì lè émè ɖaa. ŋutɔ  cã wo téŋu ɖè asi  gbèɖìɖǐ kèwo sɛ̃ŋu vɔ̀ a wo mu lǎ  téŋu xe mɔ̀ ná wò bé  a sè nyàlélé awo kpata o à,  ɖè asi wo. wo mu gbé minikiɖé kè mè o, minikiɖé kè sɛ̃̀ŋu eye kè  la xe mɔ na nyàti sia nyàti sèsě wó gbè e.
 contribution-background-noise-description-extended = né va va émè bé nyàtiwo lě sò lè nyàlélé a mè tutui, vɔ̀ a wò la téŋu ɖè asi né kùxe ɖékpé ma téŋu nɔ̀ nùŋɔ̀ŋlɔ awo kpata gɔ̃̀mèsèsě mè o.
+contribution-background-noise-example-1-fixed-title = <strong> [misĩtète] </strong> jinozɔrikɔkɔ trì àgbàwo <strong> [ kpɛ]</strong> Trias
 contribution-background-noise-example-2-fixed-title = jinozɔri kɔkɔ triàgbà <strong> [ kpɛ] </strong> trias
 contribution-background-noise-example-2-explanation = wo ma téŋu sè nuŋɔ̀ŋlɔ a bé akpaɖé o.
 contribution-background-noise-example-3-fixed-title = <strong> [gbèɖiɖi sɛŋu ] </strong> jinozɔri didi trìagbà kè so<strong> [ gbèɖiɖi sɛŋu]</strong> -rias.

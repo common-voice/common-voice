@@ -36,6 +36,10 @@ sentence-domain-select-placeholder = ñʊ́ʊ́ àwóójá nóósútù 
 agriculture_food = hàrǝ́m nǝ̀ tʊ̀ʊ̀nã́ŋ rǝ̀rɔ̀ɔ̀nɖǝ́
 # Sentence Domain dropdown option
 automotive_transport = lòòr nǝ̀ sʊ̀ʊ̀lʊ́ŋ
+# Sentence Domain dropdown option
+finance = wàràsǝ̀ tǝ̀mǝ́r
+# Sentence Domain dropdown option
+service_retail = tǝ̀mǝ́r nǝ̀ cʊ́kɔ̀cʊ́kɔ̀ wɩ̀ɩ̀tǝ̀r
 
 ## BULK SUBMISSION
 
