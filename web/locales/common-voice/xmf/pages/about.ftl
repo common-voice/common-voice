@@ -1,5 +1,6 @@
 ## ABOUT US
 
+about-title = მუშენ Common Voice?
 
 ## How does it work section
 
