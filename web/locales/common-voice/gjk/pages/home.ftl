@@ -186,3 +186,9 @@ press-and-stories-link = پريس انين وارتايُون
 partner-section-title = امان ڀيرِي شراڪتۮارِي ڪرو
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٽيڪ ڪمپنيان</bold> ايڪ ترقِي پزير گھڻائين لِسانِي AI ماحولِياتِي نِظام ۿارُو کُلل ڍيٽاسيٽ ٺاۿيا مان سيڙپڪارِي ڪرو۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = </bold>سِول سوسائيٽِي انين رِيسرچ ڪريا واران<bold> مڦت مان اثر ڪريا وارو ڍيٽاسيٽ ٺاوو، ميزٻانِي ڪرو انين شيئر ڪرو۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = </bold>خِڌمتيَ خلق</bold> جِڌت انين ترقِي نين تيز ڪريا ۿارُو ڍيٽاسيٽ نِي تخليق ۿارُو اِسپانسر ڪرو
+# icon is an arrow that points to the right
+get-in-touch-button = </icon><icon> راٻطو ڪرو
