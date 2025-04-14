@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = تآونو ڪي هِدآيتينٚ
+guidelines-header = تآونو ڪي هِدآيتينٚ۔
 guidelines-header-subtitle = سمجھو تو ڪآمن وآئيس ڊيٽآ سيٽو مي جُملآ اور آڊيو ڪِلپس ڪيسي تآون اور اُنآ ڪيٚ سئي ڪرري جآئي
 voice-collection = آوآجينٚ ڪو ميڙ
 sentence-collection = ٻتيسآ جُملآ
@@ -66,9 +66,73 @@ sentence-domain = جُلآ ڪو ڊومين
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = وو ڀور جروُرو هي تو سآريٚ لِکآوٽيٚ ڪآ جُملآ هووينٚ جيسي آم آوآج (</cc0>0 cc<cc0>) </publicDomain></publicDomain> آوامي ڊومين<publicDomain> لآئيسنس دي جآريٚ
+public-domain-explanation-2 = ايڪ ڀليٚ ٻآت چيٚتيٚ ڪآ اوݪکآڻيٚ ڪآ انجڻو ڪآ ٺيوآ تآڻي اور ڀلآ جُملآ ٻولوآݪآ، نوآنٚ گُڦتآ هينٚ۔ ڪُج کيآل تِمري مدد ڪروآ تآڻيٚ جُلآ پيدآ ڪروآ مي،
+public-domain-explanation-3 = آپو آپ يآ آپو ڪآ دوستآنٚ دي جآنٚ ٻوليٚو ڪيٚ ڪميونٽيٚو دي نوآنٚ، ٻولوآݪآ جُملآ ٺآوو۔ مِسآل تور ايڪ ’لآئي-اي-ٿون‘ جريٚئي
+public-domain-explanation-4 = پر، ڊرآمآگآرآنٚ دي جآنٚ اسڪرين رآئيٽرآنٚ دي رآبتو ڪرو اورپوُڇو تو ڪآ وي آپو ڪآ ڪآمو ڪو ايڪ نيهنو هِسو اوآميٚ ڊرآمآ تآڻيٚ ديوآ لآ تيآر هوسيٚ
+public-domain-explanation-5 = لِکآوٽيٚ تآڻيٚ ديکو جھآنٚ ڪآپيٚ رآئيٽ اب نآ هوئي- مسآل تور اڪسر ڪتآب جيڪي1920 دي آگي ڇپرآ هوندآ تآ
+public-domain-explanation-6 = هڪوُمت ڦآئيدو نآ ديوآݪيٚ جآنٚ ميڊيآ تنجيميٚنٚ تآئينٚ پوهچ تو ديکو تو ڪآ اُنآ ڪيٚ ويب موآد، رپوٽينٚ جآنٚ دوسرو موآد اوآمي ڊومينو تآڻيٚ دي سڪدي هي۔
+citing-sentences-explanation-1 = هوآلآ ڪوُ شآمل ڪروو جرُري هي تو جيسي همينٚ چيڪ ڪر سڪآنٚ تو جُملآ اوآمي ڊومينو مينٚ هينٚ اور ڪآپيٚ رآئيٽو ڪيٚ پآبنديٚ لگريٚ ڪونآ هي۔
+citing-sentences-subheader-websites = ويب سآئٽينٚ
+citing-sentences-subheader-websites-explanation = تِمي ويب سآئيٚٽيٚنٚ شآمل ڪرسڪدآ هو، مسآل تور "اورمي آوآج۔ https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = پڙهآيو ڪو هوآلو
+citing-sentences-subheader-academic-reference-explanation = تِمي استمآل ڪر سڪدآ هو اڪيڊمي ريفرنسنگ تريڪو، مسآل تور  "Mozilla (2021) Common هآرورڊ اندآج Voice. https://commonvoice.mozilla.org/ پر موجود هي: 15 سيپٽمبر 2021)"
+citing-sentences-subheader-offline-sources = آپ لآئين جَرَيآ
+citing-sentences-subheader-offline-sources-explanation = پبلڪ ڊومينو ڪيٚ لکآوٽيٚ تآڻيٚ جيڪو آنلآئين موجود ڪونآ هي، تِمي استمآل ڪر سڪدآ هو پڙهآيو هوآلي ڪروآݪو اندآج مِسآل توآ هآرڊ اندآج” جيس (2021) مآئي پبلڪ“ لآئيسنس نجمينٚ
+citation =
+    .label = پَرک
+self-citation = آپو آپ ديوآݪيٚ پرک
+self-citation-explanation = جد تمي موآد آپ آپ لِکرآ هو تو تِميٚ آپوڪوُ آپ ڪسي ڪيرآ هو۔
+adding-sentences-subheader-length = لمبآئيٚ
+adding-sentences-subheader-length-explanation = جُملآ مي 15 گُڦتآ دي گھٽ هوڻو کپينٚ
+adding-sentences-subheader-spelling-punctuation = هِجي اور نِشآنيونٚ
+adding-sentences-subheader-spelling-punctuation-explanation = جُملو سئيٚ تريٚڪآ دي لِکرو هوڻ کپي۔
+adding-sentences-subheader-speakable = ٻولوآ جوگو
+adding-sentences-subheader-speakable-explanation = ڀلآ جُملآ ڪجرتي اور گُڦتگو وآلآ هيٚنٚ۔  اُنآ ڪوُ پڙهوآ تآڻيٚ سولآ هوو کپي۔ جد تو گيآن آوآج سلآيت اور جُملآنٚ مي الگ لڦج لآجمي هينٚ، هم بي ڪوشش ڪر رهيرآ هونٚ تو رڪآرڊنگ جملآ ڪوُ همريٚ رآجيٚ ڪميونٽيٚ يو تآڻيٚ ممڪن هد تآئينٚ دلچسپيٚ اور مجيدآر پڻآوآنٚ۔
+adding-sentences-subheader-numbers = لمبر
+adding-sentences-subheader-numbers-explanation = ليرو گئيٚ لِکآوٽ مسآل تورو پر ڪوئي بي لمبر نآ هوو کپي ڪآلي تو وي مسلآ پيدآ ڪر سڪدآ هينٚ جد ٻڏيٚ آوآجيٚ دي پڙهو۔ ايڪ لمبر پڙهوآ ڪو تريڪو هولانٚ پر جُڙرو هي اور شآيد ڊيٽآ سيٽ مي مُجھآرو دِکآوو، مسآل تور، نمبر"2409" سهيو مينٚ پڙهرو جآ سڪدو هي دوئي "چويٚ سو نو" اور "دو هجآر چآر سو نو"۔
+adding-sentences-subheader-abbreviations = گھٽتآيونٚ اور گھٽتآيونٚ
+adding-sentences-subheader-abbreviations-explanation = "USA" يا "ICE" دي پآسو ڪررو جآئي گھٽتآيونٚ اور گھٽتآيآنٚ جيسڪر لِکري گئي ليرو گئي لِکآوٽيٚ مي ڪآلي تو وي شآيد ايسآ تريڪآ دي پڙهآرآ جآئينٚ جيڪيٚ اُنآ ڪيٚ هِجي دي ٺيرآ نآ هوئينٚ۔ گھڻو ڪري، هو سڪدو هي ايڪ وِرليٚ گھٽتآئيٚو تآڻيٚ ڪِترآئي سئي پڙهرآ هووينٚ۔
+adding-sentences-subheader-punctuation = نِشآنيونٚ
+adding-sentences-subheader-punctuation-explanation = کآس نِشآنيونٚ اور اوڪآڦ سِرڦ اُرو ٽيم شآمل ڪري جآنديونٚ هينٚ پر مسآل تو ايڪ  "don't" اور انگريجي گُڦتآ مي شآمل ڪررو گو هي جيسي apostrophe جروُريٚ هوئي۔ اورليريٚ گئيٚ لِکوٽ مي ڪررو جآئي، پر وو ممڪن ڪونآ تو تِمآ ڪوُ ڪد بيٚ کآس "don't" اور "we're" نِشآنيو ڪيٚ جروُرت پڙسي جيسي ڪر” #  جآنٚ"@" ۔
+adding-sentences-subheader-special-characters = کآ اکر اور دوسرآ ملڪو ڪآ اکر
+adding-sentences-subheader-special-characters-explanation-1 = اکر لآجميٚ سئي جوڻ کپينٚ بوليو مي بولوآ۔ مسآل تور روسي الڦآبيٽي مي ايڪ اکر هي پر ڪدي بي انگريجيو مي استمآل ڪونآ ڪررو گو هي اور اِرو ڪري ڪو بي"ж" انگريجي لِکري گئي لِکآوٽيٚ مي ڪدي بي ديکوو نآ کپي
+adding-sentences-subheader-special-characters-explanation-2 = ٻوليونٚ ڦآلتوُ جرورتينٚ ڀيݪي آپو آپو سئي ريٚت رآک سڪدآ هينٚ جد وي مڪآمي هونديونٚ هينٚ۔ جيڪر ڪرآ ٻوليو تآڻيٚ ڪآ کآس سئيآݪيٚ ڦآئيل ڪونآ هي، تو انگريجي تريڪآ مدديآݪآ تآڻيٚ ديکآسيو۔
+adding-sentences-subheader-offensive-content = اِترآجو جوگو موآد
+adding-sentences-subheader-offensive-content-explanation = جيڪر جُملو اِترآجو جوگو جآنٚ پريشآن ڪروآݪو هي۔ مسآل تور کُلرو موآد ڪميونٽيٚ شآملآئيٚ ڪيٚ <communityGuidelines> ڪي ڪري، جآنٚ همري برکلآڦآئي ڪري۔ تِمآ ڪوُ جُملآ ڪوُ هٽآوآ مي </communityGuidelines> مدد کپي۔ تِمي اور بي همآ دي رآبتو ڪر سڪدآ هو </emailFragment>commonvoice@mozilla.com<emailFragment> مسلو ٻتآوآ تآڻيٚ۔
+reviewing-sentences-explanation-1 = جيڪر جُملو مٿي دِوجرآ ميآرو ڪوُ پورو ڪردو هي تو، "هآنٚ" بٽڻ دٻآوو۔
+reviewing-sentences-explanation-2 = جيڪر جُملو مٿي دِوجرآ ميآرو ڪوُ پورو ڪونآ ڪري، "نآ" ڪآ بٽڻو ڪوُ ڪِلڪ ڪرو۔
+reviewing-sentences-explanation-3 = جيڪر تِمي جُملآ ڪآ بآرآ مي پڪآ ڪونآ هو، تو تِمآ ڪوُ اُرو ڪوُ ڇوڙ بي سڪدآ هو اور آگي وڌو۔
+reviewing-sentences-explanation-4 = جيڪر تمرآ جُملآ جآچوآ تآڻي کتم هوجآئينٚ مهربآني ڪرڪي همآڪوُ وڌيٚڪ جُملآ ڀيݪآ ڪروآ مينٚ مدد ڪرو
+domain-explanation = ڊومين جمللآ ڪآ موآدو ڪوُ جاهر ڪر دو هي۔ اِري  ٽيم ، تِمي  چونڊ ڪر سڪدآهو:
 
 ## Question collection ids
 
+adding-questions = سوال شآمل ڪرو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ڀلو سوآل ڪآ هي؟
+what-makes-a-good-question-explanation = ايڪ  اوآميٚ شآملآئيو ڪيٚ ڊيٽآ سيٽينٚ تآڻيٚ ايڪ اسل سوآل هوڻ کپي:
+what-makes-a-good-question-explanation-criteria-1 = سمجھوآ مي سولو اور جنآب ديوآ تآڻيٚ
+what-makes-a-good-question-explanation-criteria-2 = آم توري پر جُڙرآ ريهوو
+what-makes-a-good-question-explanation-criteria-3 = نُڪآس دي وآݪيٚ جآنٚ بي تميٚج ٻوليو ڪو استمآل من ڪرو، جآنٚ اُرآ ڪيٚ درڪآس نآ ڪرو۔
+what-makes-a-good-question-tip = تِميٚ الگ سورت هآل اور اِلآ ڪآ ڪوُ شآمل ڪروآ پر بي گور ڪرو سڪدآ هو۔
+easy-to-understand = سمجھوآ مي سولو
+easy-to-understand-explanation = سآدآ سوآل چُگو جيڪي ڪِرآ بي سڪآڦتي جآ پسمنجرو ڪيٚ لِهآجو دي سمجهوآ مي  آسآن هيٚن۔
+spelling-and-pronunciation = هِجي اور نِشآنيونٚ
+spelling-and-pronunciation-explanation = سئي هِجي اور گرآمريٚ ڪو استمآل ڪرو۔
+length = لمبآئيٚ
+length-explanation = سوآل سِرڦ دو جملآنٚ مي جبآب ديوآ جيسو هوڻ کپي۔
+dont-add-subheader = شآمل م’ن ڪرو
+culturally-specific-questions = سڪآڦتي کآس سوآل
+culturally-specific-questions-explanation = ايسآ سوآل جيڪي سڪآڦتيٚ تور پر کآس هينٚ، جآنٚ جبآبديوآݪآ بآرآ مي گهڻو ڪيندآ هينٚ۔
+length-avoid-explanation = ايسآ سوآل جِنآ ڪآ جبآب ڪِرو ڪوُ 15 سيڪنڊ ينٚ مي ديوو مشڪل هوسيٚ۔
+process-steps = ڪآم / ڪدم
+process-steps-explanation = سوآل جيڪي ڪِري دي ڪِترآ ئي مرهلآنٚ ڪيٚ لِسٽ ڪروآ تآڻيٚ جروُريٚ هينٚ۔   مرهلآنٚ ڪيٚ لِسٽ سُڻوآݪآ ڪوُ  جبآب ورجاوآ  تاڻيٚ اِشآرو دينديونٚ هينٚ، بجآئي ايڪ ڪُدرتي  جبآب۔
+offensive-content-sensitive-information = نآپسنديآݪو موآد جآنٚ اسردآر کبر چآر
+offensive-content-sensitive-information-explanation-explanation-1 = سوآل جيڪي جآتي اورݪيآڻيٚ کبر چآر لي سڪدآ هينٚ
+offensive-content-sensitive-information-explanation-explanation-2 = ايسآ سوآل جيڪي نڦرتي تڪرير جآنٚ دوسري ترڦيآݪآ جآنٚ نآ سئي کيالآنٚ ڪوُ دآوت دي سڪدآ هينٚ
+offensive-content-sensitive-information-explanation-explanation-3 = ايسآ سوآل جيڪي ڪِرو ڪوُ اسردآر، ممڪن تورو پر هرڪتيٚ جبآب ديوآ تآڻيٚ مجبور ڪر سڪدآ هينٚ۔
+example-questions-subheader = مِسآل سوآل
+example-questions-explanation-1 = تِمي <examplePromptsLink>اِرو ورڪو مي 120 مثالينٚ ڪآ اِشآرآنٚ  ڪوُ </examplePromptsLink> ڍونڊ سڪدآ هو۔
+example-questions-explanation-2 = جد تِمي سوآلآنٚ کیٚ ایک ٽنچ جمآ ڪرآوو چآهندآ هو، تو تِمي <githubLink>همريٚ GitHub جرئي ايسي ڪر سڪدآ هو</githubLink> جآنٚ آپو ڪيٚ اِرآ لِسٽيٚ ڪوُ <emailFragment>commonvoice@mozilla.com</emailFragment> پر ايٚ ميل ڪردي ڀيج سڪدآ هو۔

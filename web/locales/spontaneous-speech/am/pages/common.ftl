@@ -21,11 +21,14 @@ report-button = አሳውቅ
 skip-button = ዝለል
 submit-button = አስገባ
 contribute = ያበርክቱ
+request-new-language = አዲስ ቋንቋ ይጠይቁ
 
 ## Navbar
 
 respond-to-prompt = ለፈጣን ምላሽ ይስጡ
+transcribe = ወደ ፅሁፍ ገልብጥ
 check-transcriptions = ፅሁፎችን ያረጋግጡ
+question = ጥያቄ
 
 ## Not Found Page
 

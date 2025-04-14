@@ -52,6 +52,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مڪسد ٺآهو
 cant-decide = ڦيسلو ڪون ڪري سگھيآ؟
+activity-needed-calculation-plural =
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
 how-many-per-day = جآم سُٺو! جآنٚ جآم ڀلو! هَڪ ڏينٚهنٚ مينٚ ڪيترينٚ ڪليٚپينٚ؟
 how-many-a-week = جآم سُٺو! جآنٚ جآم ڀلو! هَڪ هڦتي مينٚ ڪيترينٚ ڪليٚپينٚ؟
 which-goal-type = ڪيٚ اڀيٚنٚ ڳآلهآڻ گُهرو دآ، سُڻڻ گُهرو دآ جآنٚ وري ٻئيٚ؟

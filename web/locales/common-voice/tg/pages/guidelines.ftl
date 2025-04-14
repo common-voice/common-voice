@@ -102,3 +102,4 @@ offensive-content-sensitive-information-explanation-explanation-1 = Саволҳ
 offensive-content-sensitive-information-explanation-explanation-2 = Саволҳое, ки метавонанд суханони нафратангез, таҳқиромез ё эҳсосоти ғаразноки дигареро ба вуҷуд оранд
 example-questions-subheader = Саволҳои намунавӣ
 example-questions-explanation-1 = Шумо метавонед <examplePromptsLink>120 намунаи саволҳоро дар ин ҷадвал пайдо кунед.</examplePromptsLink>
+example-questions-explanation-2 = Агар шумо хоҳед, ки як қисми саволҳоро барои қабул пешниҳод кунед, шумо <githubLink>метавонед ин корро тавассути «GitHub»</githubLink>-и мо анҷом диҳед ё рӯйхати худро ба почтаи <emailFragment>«commonvoice@mozilla.com»</emailFragment> фиристед.

@@ -53,3 +53,5 @@ sentences-fetch-error = Der opstod en fejl under hentning af sætninger
 review-error = Der opstod en fejl under gennemgang af denne sætning
 review-error-rate-limit-exceeded = Det går for hurtigt. Brug et øjeblik på at gennemgå sætningen for at sikre, at den er korrekt.
 sc-redirect-page-subtitle-2 = Stil os spørgsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller via <emailLink>e-mail</emailLink>.
+# menu item
+review-sentences = Gennemgå sætninger
