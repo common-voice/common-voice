@@ -30,12 +30,27 @@ report-other-comment =
     .placeholder = راءِ
 success = ڪاميابِي
 continue = جارِي
+report-success = رپورٽ ڪاميابي سُون منظور ڪلِي گيلِي
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ايس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
+shortcut-record-toggle-label = رڪارڊ ڪرا/ روڪا
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ڪِلپ بڙتِي رڪارڊ ڪرا
+shortcut-discard-ongoing-recording = ESC اِسڪيپ
+shortcut-discard-ongoing-recording-label = چالوڙِي رڪارڊنگِي  نُون رد ڪرا
+shortcut-submit = پُوٺا (واپس)
+shortcut-submit-label = ڪِلپ جمع ڪراوا
+request-language-text = اڃا تاڻِين ڪامن وائِيسا ۾ تمچِي ٻولِي ڪونهِي ڏِيسَي ڇَي؟
+request-language-button = ٻولِي چِي درخواست ڏِيا
 
 ## Listen Shortcuts
 

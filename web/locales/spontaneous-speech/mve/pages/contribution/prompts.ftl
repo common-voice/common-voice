@@ -21,3 +21,9 @@ submit-all-button = ݾجا (سجا) جمع
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ݾيکو ڪونڪر پنيَ نيَ ھلائي ݾگو ھو
+learn-how-to-use-prompts-explanation = بس ڪجھ جُملون ۾ فطري طور تيَ جواب ڏيو۔ پڪ ڪرو ڪہ ٿونرِي ٻولي احترام آݪي ھان بيڪار ھوئيَ۔
+learn-how-to-use-prompts-guidance = ڪلِڪ<guidanceLink>ايٿ</guidanceLink>ايئيَ پنيَ نيَ استعمال ڪرڻ ݾکڻ ھارو
+learn-how-to-use-transcribe = ݾيکو ڪہ ڪونڪر ھُڻيَ لکڻو ھيَ۔
+learn-how-to-use-transcribe-explanation = ايئيَ منک جُڪو ڪھيو او بلڪل لکو، جڪيَ 'اُم' يا 'اير' جھڙا اکر شامل ھيَ۔
+learn-how-to-use-transcribe-guidance = ڪلِڪ<guidanceLink>ايٿ</guidanceLink>ايئيَ پنيَ نيَ استعمال ڪرڻ ݾکڻ ھارو
+learn-how-to-use-check-transcript = ݾکو ڪيَ ڪونڪر ھڻيَ لکوڙيَ نيَ ڪونڪر جونچو
