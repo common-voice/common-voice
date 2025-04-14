@@ -25,12 +25,17 @@ misreadings-explanation-6 = Manglende slutningen af det sidste ord, fordi optage
 misreadings-explanation-7 = Flere forsøg på at læse et ord.
 misreadings-example-1 = Vi går ud for at hente kaffe.
 misreadings-example-3 = Vi går ud for at hente noget kaffe.
+misreadings-example-4 = Humlebien susede forbi.
 misreadings-tip-2 = [Intet ‘noget' i den originale tekst]
+misreadings-tip-3 = [Ikke matchende indhold]
 background-noise-example-1 = De gigantiske dinosaurer i Trias.
 background-noise-example-2 = [Nys] De gigantiske dinosaurer i [hoste] Trias.
 background-noise-example-3 = Den gigantiske dino [hoster] Trias.
 background-noise-example-4 = [Knitre] gigantiske dinosaurer i [knitre] -rias.
 background-voices-example-1 = De gigantiske dinosaurer i Trias. [læst af én stemme]
+background-voices-tip-1 = Kommer du? [sagt af en anden]
+reader-effects-explanation = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
+just-unsure-explanation = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.
 still-have-questions = Har du stadig spørgsmål?
 
 ## Sentence collection nav ids

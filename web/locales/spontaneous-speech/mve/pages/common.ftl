@@ -14,6 +14,7 @@ contribution-picker-tooltip-text = ٻولي مواد ريَ سيٽ نيَ تبد
 # Label for button on contribution switcher
 change = تبدِيل ڪرو
 coming-soon = وڌِيڪ ٻولي آڻ آݪيَ ھيَ جلدِي
+media-recorder-api-not-supported = ميڊيا ريڪارڊر اي پِي آئِي ٿونريَ برائوزر ۾ سپورٽ ھوئوڙو ڪونِي۔
 # Toast message that is displayed when an item is skipped
 skipped = ڇوڙيو گيو
 audioplayer-header = هونڀڻڻ
@@ -36,6 +37,7 @@ question = سوال
 ## Not Found Page
 
 not-found-page-header = ڪونِي ميليو
+not-found-page-content = جڪو منو تيَ جوئيَ ريا ھو او ڪوني مليَ ݾگيو۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ڪامن وائس ھلاتا، ٿيَ مھورَي <termsLink>شرطون</termsLink>ھانَ <privacyLink> رازدارِي رِي اطلاع </privacyLink> ھون راضِي ھو
 # Locales
