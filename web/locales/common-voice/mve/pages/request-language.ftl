@@ -1,6 +1,7 @@
 ## Request Language Pages
 
 request-language-heading = ھيڪ نئِي ٻولِي ري باريَ ۾ پُوڇو
+request-language-explanation-1 = جونچو ڪہ ڪِي ٿونرِي ٻولي <languagesPageLink>ڪامن وائس لينگوئج پئيج تيَ درج ھوئوڙي ھيَ</languagesPageLink>۔ جيَ نِي تو اي فارم ڀرو ھان <strong> ٿونيَ ھيڪ آسان اي ميل ميلھون جڪو وضاخت ڪر ھيَ ڪہ ٿونرِي ٻولي ڪونڪر سيٽ اپ ڪرون </strong>۔
 request-language-form-email =
     .label = ٿونرو اِي ميل ايڊريس
 request-language-form-info =

@@ -29,6 +29,7 @@ record-abort-continue = tɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ
 record-abort-delete = jèl nǝ̀ ŋ́ hɩ́ɩ́sǝ̀ tóm kpààwʊ̀ŋ kà pǝ́ tǝ́n
 review-aborted = ʊ̀ tà jékǝ̀. ŋ̀ cí sǝ̀ ŋ́ hɩ̀ɩ̀sǝ̀ ñá tóm kpààwʊ̀ŋ já?
 review-submit-title = wììl nǝ̀ ŋ̀ jékǝ̀
+review-submit-msg = ñá nǝ̀ tǝ̀mǝ́r !<lineBreak></lineBreak> ŋ̀ pɩ́ɩ́sʊ́ʊ́ sǝ̀ ŋ́ tìsì nǝ̀ ŋ́ jékǝ̀ àlǝ̀sʊ́ŋ tóm pǝ̀.
 review-recording = wììlúŋ
 review-rerecord = tàsǝ̀ kpààwʊ́ŋ
 review-cancel = jèl jèkʊ́ŋ
@@ -36,6 +37,9 @@ review-keep-recordings = mésǝ́ tóm kpààwʊ̀ŋ
 review-delete-recordings = hɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ
 terms-agree = mà tìsàà
 terms-disagree = mà kìsàà
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = rà sɩ́ɩ́ mɩ̀ kà mɩ́ núwéésǝ̀ kpààwʊ̀ŋ pǝ̀ rʊ̀ʊ̀!
+first-cta-subtitle-text = ŋ̀ cí sǝ̀ ŋ́ tàsǝ̀ rà lón kà ñá wʊ́tʊ́ŋ rʊ̀ʊ̀ já?
 why-donate = áwʊ́r làpá ?
 why-donate-explanation-1 = lón tàsʊ́ŋ pǝ̀ tàŋ féféré
 

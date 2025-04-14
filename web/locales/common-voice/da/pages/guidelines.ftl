@@ -21,6 +21,8 @@ varying-pronunciations-explanation-2 = Hvis du på den anden side får indtrykke
 misreadings-explanation-2 = Meget almindelige fejl omfatter:
 misreadings-explanation-6 = Manglende slutningen af det sidste ord, fordi optagelsen blev afbrudt for hurtigt.
 misreadings-explanation-7 = Flere forsøg på at læse et ord.
+background-noise-example-1 = De gigantiske dinosaurer i trias.
+background-noise-example-2 = [Nys] De gigantiske dinosaurer i [hoste] trias.
 still-have-questions = Har du stadig spørgsmål?
 
 ## Sentence collection nav ids
