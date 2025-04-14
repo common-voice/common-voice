@@ -24,6 +24,8 @@ submit-form-action = جمع ڪراوَڻ
 
 report = رپورٽ
 report-title = رپورٽ جمع ڪرا
+report-offensive-language = بيعزتِي هاڙِي ٻولِي
+report-offensive-language-detail = اي جملي ۾ بي ادبي يان بڙي بيعزتِي هاڙِي ٻولِي شامل ڇَي
 
 ## Speak & Listen Shortcuts
 
@@ -36,3 +38,4 @@ report-title = رپورٽ جمع ڪرا
 
 ## Validation criteria
 
+contribution-just-unsure-title = رُگَي پڪ ڪونهِي
