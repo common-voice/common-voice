@@ -4,6 +4,12 @@ welcome-to-spontaneous-speech = اسپانٽينئس اسپيچ ۾ ڀليڪار
 # <br></br> represents a newline break
 wall-of-text = ڪامن وائس ھيڪ ٻيجو پليٽ فارم لانچ ڪري رھيو ھي جڪو قدرتي، خودمختار، بنا لکوڙي وات جمع ڪرڻ تيَ ڌيان ڏي ھيَ۔ اي ڪتري ھي برادريون نيَ وڌيڪ تيزي ھون واد جمع ڪرڻ ۾ مدد ڪرھيَ، ايئيَ ڀيݪو ڊيٽا سائنسدانون ھان ٺاڻ آݪو ھارو فائدي مند ھو ھيَ۔
 why-spontaneous-speech = مھون اي اسپانٽينئس اسپيچ پروٽو ٽائپ ڪيون ٺايو۔
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = <mark>قدرتي وات ريَ حوالي ھون</mark> ھان ڪيسون ريَ استعال ھارو فائدا مند ھيَ(مسال طور، جڏي ٿيَ چاھو ھو ڪہ وات رِي اݪکوڻ بغير لکت ريَ ھوئيَ ھان عام ٻولي ٻولڻ آݪيَ منکون ڀيݪو ڪوم ڪري)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = ٻولِي رِي حقيقت ھارو بھتر مدد جون ترجمو ڪرڻ ھان <mark> ڪوڊ تبديل ڪرڻ<mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = ايون ٻوليون ھارو بھتر مدد جڪيَ ۾ استعمال ڪرڻ ھارو ٿوڙو يا<mark> ڪو ڀِي ٽيڪسٽ ڪورپس ڪونھي</mark>(مسال طور،سماجي چونڊون، قسم،تاريخي طور تيَ بغير لکت ريَ ٻوليَ وغيرا)
 how-spontaneous-speech-works = ڪونڪر بيَ ساختا تقرِير ڪوم ڪريَ ھيَ
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark> تڪڙو ھانَ تيار ھيَ</mark>
