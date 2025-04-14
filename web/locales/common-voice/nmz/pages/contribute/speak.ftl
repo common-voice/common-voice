@@ -50,6 +50,8 @@ thanks-for-voice-toast-error = hìntúŋ nàmpǝ́r lɔ̀ɔ̀ ñá tóm je
 first-cta-gender-select-default-option = ñʊ́ rííl
 first-cta-gender-select-help-text =
     .label = sǝ́nã́ŋ káná ŋ̀ cí sǝ̀ à sǝ̀m sǝ̀ ŋ̀ cí àpàal jáá jál ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ñá nǝ̀ tǝ̀mǝ́r kà wóntǝ̀ ŋ̀ jèpá nǝ̀ ákpá ñá núwã̀ŋ
 
 ## MENU ITEM TOOLTIPS
 

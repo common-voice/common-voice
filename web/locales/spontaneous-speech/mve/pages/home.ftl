@@ -1,5 +1,9 @@
 ## Home page
 
+welcome-to-spontaneous-speech = اسپانٽينئس اسپيچ ۾ ڀليڪار
+# <br></br> represents a newline break
+wall-of-text = ڪامن وائس ھيڪ ٻيجو پليٽ فارم لانچ ڪري رھيو ھي جڪو قدرتي، خودمختار، بنا لکوڙي وات جمع ڪرڻ تيَ ڌيان ڏي ھيَ۔ اي ڪتري ھي برادريون نيَ وڌيڪ تيزي ھون واد جمع ڪرڻ ۾ مدد ڪرھيَ، ايئيَ ڀيݪو ڊيٽا سائنسدانون ھان ٺاڻ آݪو ھارو فائدي مند ھو ھيَ۔
+why-spontaneous-speech = مھون اي اسپانٽينئس اسپيچ پروٽو ٽائپ ڪيون ٺايو۔
 how-spontaneous-speech-works = ڪونڪر بيَ ساختا تقرِير ڪوم ڪريَ ھيَ
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark> تڪڙو ھانَ تيار ھيَ</mark>
