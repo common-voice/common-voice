@@ -18,6 +18,8 @@ record-again-instruction2 = wàl nǝ̀ jǝ́sá tà kà sǝ́mpǝ́ nǝ̀ ŋ
 record-last-instruction = <recordIcon></recordIcon> àtɩ̀ɩ̀sǝ̀nʊ̀ŋ kàlɩ́ɩ̀
 review-tooltip = ŋ́ hèènà, wììl nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ
 share-clip = jèkǝ̀ ñá tómpǝ́ ŋ̀ kpáà ná
+share-common-voice = há kɔ̀ɔ̀mɔ̀n fɔ̀wɩ́ɩ́sǝ̀ kà nɩ̀ɩ̀mpà
+review-instruction = ŋ́ hèènà, wììl nǝ̀ ŋ́ tásǝ̀ tóm kpààwʊ̀ŋ
 
 ## MENU ITEM TOOLTIPS
 
