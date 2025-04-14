@@ -1,0 +1,7 @@
+speak = pò nùpo
+
+## MENU ITEM TOOLTIPS
+
+
+## MENU ITEM ARIA LABELS
+

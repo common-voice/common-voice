@@ -9,6 +9,8 @@ how-does-it-work-title-v2 = მუჭო მუშენს Common Voice?
 about-language-req-subtitle = მიდგარენ ითხინს ნინაშ გეძინას.
 about-localization-subtitle = ვებსაიტის ტექსტი გინმითანგუ თე ნინაშა.
 about-sentence-collection-title = ზიტყვასქვილეფიშ კოლექცია
+about-sentence-collection-subtitle = ზიტყვასქვილეფი თიშენი იშაყარუ, კათაქ ხონარმაღალო წეკითხანჷნი.
+about-new-lang-title = ახალი ნინაშ გოტება.
 about-listen = რჩქილა
 
 ## Community Playbook Content

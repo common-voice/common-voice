@@ -14,6 +14,9 @@ new-sentence-rule-2 = mààtǝ̀ wóntǝ̀ kààsà ná tá tàl 15
 new-sentence-rule-3 = máátǝ̀ jààwʊ̀ŋ mɔ̀ɔ̀nà sǝ̀ pǝ́ cɔ́ɔ̀ sàrǝ́tǝ̀
 new-sentence-rule-4 = máátǝ̀ mààwʊ̀ŋ mɔ̀ɔ̀nà sǝ̀ pǝ́ cɔ́ɔ̀ sàrǝ́tǝ̀
 new-sentence-rule-5 = àkɔ́ntá mààtǝ̀ nǝ̀ ntèntè mààtǝ̀ táà
+new-sentence-rule-6 = wʊ̀tásǝ̀ nɩ́ɩ́n sǝ́ mààtǝ̀ ráá hʊ̀ʊ̀tǝ̀ táà
+new-sentence-rule-7 = ñʊ́ʊ́ nʊ́ʊ̀r tóm rʊ̀ʊ̀ kà sàrǝ̀tǝ̀
+how-to-cite = à ñʊ́kʊ́ʊ́ nʊ́ʊ̀r tóm rʊ̀ʊ̀ sǝ́nã́ŋ ?
 
 ## BULK SUBMISSION
 
