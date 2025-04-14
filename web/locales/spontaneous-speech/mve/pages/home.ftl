@@ -1,9 +1,12 @@
 ## Home page
 
+how-spontaneous-speech-works = ڪونڪر بيَ ساختا تقرِير ڪوم ڪريَ ھيَ
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark> تڪڙو ھانَ تيار ھيَ</mark>
+prompt-bubble-subtitle = مھيَ ٿُونيَ ھيڪ سوال يان ھدايت ڏيکاڙون ھون۔
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جواب ڍيڻ</mark>
+respond-bubble-subtitle = ٿيَ جواب ڏيو يان اُوئي رو جواب قُدرِتِي طور تيَ ڏيو جون بِي ٿيَ ڪريَ ݾگھو ھون۔
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>آڊِيو نيَ لکو</mark>
 # text wrapped in <mark></mark> will have a blue background

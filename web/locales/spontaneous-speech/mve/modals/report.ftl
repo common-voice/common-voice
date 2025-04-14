@@ -5,6 +5,8 @@ report-modal-subtitle = ٿيَ اِيئي جُمليَ ۾ ڪيھڙيَ ڪيھڙ�
 offensive_speech = نا پسند مواد
 offensive_speech-detail = اِيئي جُمليَ ۾ بيَ عزتِي ھانَ بداخلاقِي ٻولِي ھيَ۔
 different_language = مختلف ٻوليَ
+different_language-detail = مواد ۾ مھارِي اُمِيد ھون مخلتلِيف ٻوليَ ھيَ۔
+personally_identifiable_information = ذاتِي طور تيَ اوݪکوڻ آݪِي معلومات
 report-other-comment =
     .placeholder = رائيَ ڏيڻ
 # Label for textarea in report modal

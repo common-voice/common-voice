@@ -6,6 +6,10 @@ action-click = ڪلِڪ ڪرڻ
 action-tap = ٽيپ (چيڪ ڪرڻ آݪِي جگھہ)
 # Label for language switcher
 platform-language = ٻولِي رو پليٽ فارم
+platform-language-tooltip-text = رُگو ويب سائِيٽ را اکر تبدِيل ڪرو۔
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = مواد ريَ سيٽ<bold>{ $language } ۾ حصو ليڻ<bold>
 # Label for button on contribution switcher
 change = تبدِيل ڪرو
 coming-soon = وڌِيڪ ٻولي آڻ آݪيَ ھيَ جلدِي
