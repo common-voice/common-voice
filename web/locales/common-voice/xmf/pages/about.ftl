@@ -11,6 +11,10 @@ about-localization-subtitle = ვებსაიტის ტექსტი გ
 about-sentence-collection-title = ზიტყვასქვილეფიშ კოლექცია
 about-sentence-collection-subtitle = ზიტყვასქვილეფი თიშენი იშაყარუ, კათაქ ხონარმაღალო წეკითხანჷნი.
 about-new-lang-title = ახალი ნინაშ გოტება.
+about-dataset-release-title = მუნაჩემეფიშ კრებულიშ გიშაშქუმალა
+about-dataset-release-subtitle = მუნაჩემეფიშ კრებული 3 თუთაშე ართჷშა გუშმურს.
+about-subscribe-text = გოკონანო Common Voice-წკუმა კონტაქტი გიღუდანინი?
+about-speak = იჩიი
 about-listen = რჩქილა
 
 ## Community Playbook Content
