@@ -20,6 +20,9 @@ how-to-cite = à ñʊ́kʊ́ʊ́ nʊ́ʊ̀r tóm rʊ̀ʊ̀ sǝ́nã́ŋ ?
 how-to-cite-explanation-bold = ñʊ́ʊ́ nʊ́ʊ̀r tóm rʊ̀ʊ̀ nǝ̀ ŋ́ wǝ́l pǝ̀ rìlíínɖǝ̀
 how-to-cite-explanation = nǝ́ ñá mɔ̀ɔ̀mɔ̀ɔ̀ tóm káná, wǝ̀l sǝ̀<italicizedText>« mà ñʊ̀ʊ̀ mà tóm rʊ̀ʊ̀ »</italicizedText>.ʊ̀ wòsʊ̀ʊ̀ rà tóm pǝ́ rìlììnɖǝ̀ sǝ̀ rà ná sǝ̀ pààtǝ̀ wɩ̀ɩ̀ pǝ̀ rʊ̀ʊ̀ já jáá pǝ́ líín àgbèntùŋ tà nà. ŋ́ cí sǝ̀ ŋ́ nɩ̀ɩ̀ tɩ́ɩ̀ kà sàrǝ̀tǝ̀, ñʊ́ʊ̀<guidelinesLink> rá pààtǝ̀</guidelinesLink>
 guidelines = rʊ́ʊ́tǝ̀
+contact-us = wʊ́tǝ́nǝ̀ rà
+add-sentence-success = 1 máátǝ̀ wóntǝ̀ à kpàà ná
+add-sentence-error = hìtúŋ nàmpǝ̀r lɔ̀ɔ̀ mààtǝ̀ tàsʊ́ŋ tà.
 
 ## BULK SUBMISSION
 
