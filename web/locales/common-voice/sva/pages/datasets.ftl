@@ -75,3 +75,4 @@ data-download-yes = ა̄დუ
 data-download-deny = დე̄სა
 data-download-license = ლიცენზია:<licenseLink>CC-0</licenseLink>
 data-download-modal = სი ხეპი̄რა̄̈ლ<size>{ $size }GB</size> ლიტუ̂ირთა̈ვის, გაუ̂აგრძელოთმა?
+data-subtitle = ნა̈ჲ ხუ̂ა̈სყიდ ჰერლე ღია ი ჩია̈შდ ხელმისაწვდომ მონაცემრე ბაზას, იმშა ლიჴმა̈რი ჩი̄ს ჩუ ხა̈ჲმედა გა̈რგლა̄̈ აპლიკაცია̄̈ლე ლამა̄რად.

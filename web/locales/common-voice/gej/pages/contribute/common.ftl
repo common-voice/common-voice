@@ -92,6 +92,7 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = nu kè do na vòvòtoto nuwo domè.
+contribution-criteria-link = sè nyà kèwo la kpɔ kéŋugbɔxue la do àmè àlɔ a gɔmè
 contribution-criteria-page-title = nu kè ye wo la kpɔ keŋugbɔxue la do àlɔ nu mè
 contribution-criteria-page-description = sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
 contribution-for-example = kpɔwɔ́ɛ
@@ -135,6 +136,7 @@ contribution-background-voices-description-extended = né va va émè bé nyàti
 contribution-background-voices-example-1-title = Trias bé jinozɔri kɔkɔ trì àgbàwo <strong> [ gbèɖe bé nuhɛhlɛ]</strong>
 contribution-background-voices-example-1-explanation = gbè bu ɖì bé wò gbɔ̃̀nà a.
 contribution-volume-title = gbè
+contribution-volume-description = jɔjɔmèvòvòtoto lè nuhlɛtɔwo bé gbèkɔkɔyìji mè. wo la tutu nuwo né  nuhlɛtɔ a bé gbè yì  ji lélélé kaka na bé nyàwolélé a le sò alo gbè a ɖiɖi ŋutɔ kaka wò mu la gbà téŋu sè nu kè wo le gblɔ kè tovo na nuŋɔŋlɔ a o.
 contribution-reader-effects-description = eji eji lè nyàlélégbogboɖéwo mè a,  àmèwo pònà nupo ku woa  ŋutɔ woa bé jɔ̀jɔ̌mègběwo. vlàvo a wò lǎ téŋu tàsi nyàléléɖé kè mu lè ɖoɖo a nu o vɔ̀ do apá alo kè be gbè ɖíɖí ŋutɔ alo kè mu to o a, vɔ̀ a wó zã kâtatagbè sɔ wɔɛ. mí ɖè kuku tàsi nyàléléwo kè wó sɔ́ hàjìgbèwo alo  àɖàŋuɖèmɔ̌gbé wɔ̀.
 contribution-just-unsure-title = wò mu le  kã ɖo éji o a/ wò lě vɔ̃́ a.
 see-more = ɖe kpɔwɔɛwo to  sùgbɔ.

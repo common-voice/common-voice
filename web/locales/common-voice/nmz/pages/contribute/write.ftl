@@ -40,6 +40,16 @@ automotive_transport = lòòr nǝ̀ sʊ̀ʊ̀lʊ́ŋ
 finance = wàràsǝ̀ tǝ̀mǝ́r
 # Sentence Domain dropdown option
 service_retail = tǝ̀mǝ́r nǝ̀ cʊ́kɔ̀cʊ́kɔ̀ wɩ̀ɩ̀tǝ̀r
+# Sentence Domain dropdown option
+general = àgbèntùŋ tàà
+# Sentence Domain dropdown option
+healthcare = àlààfɩ́jà
+# Sentence Domain dropdown option
+history_law_government = kɔ́nsɛ̀ɛ̀tǝ̀, wâr, kómǝ́nátǝ̀
+# Sentence Domain dropdown option
+language_fundamentals = àpààsǝ̀nʊ̀ŋ tóm kà wʊ́tásǝ̀ tà (àkɔ́ntá mààtǝ̀, máátǝ̀, wàrásǝ̀)
+# Sentence Domain dropdown option
+media_entertainment = pɔ̀ɔ̀rǝ̀tàpǝ̀rnáà nǝ̀ àséntɩ́ɩ̀
 
 ## BULK SUBMISSION
 
