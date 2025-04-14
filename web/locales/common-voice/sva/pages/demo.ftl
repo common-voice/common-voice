@@ -31,3 +31,4 @@ demo-listen-subtitle = ხიმა მზათ წუ̂ლილი ლაჲ�
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = პერსონალურ დაფა̄̈ლ ჟი ჯა̈მჴერა̄̈უ̂ნეხ ინდიუ̂იდუალურ ი საზოგადოება̄̈ პროგრესს.
