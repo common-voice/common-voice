@@ -20,6 +20,7 @@ contact-us = مھون ھون رابطو ڪرو
 contact-us-title = اِيئي منصوبيَ ۾ شامل ھوڻ ۾ دلچسپِي راکو ھو، يان مھون ھون ڀائيوارِي ڪرڻ ۾؟
 contact-us-email = اِي ميل:<emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = ڪِي ٿيَ اڳ ۾ ھِي ڪامن وائِس رِي اسپونٽينيئس اسپيچ پروجيڪٽ ھارو مھوريَ  بيٽا ٽيسٽِنگ گروپ ۾ ھو؟
+signup-terms = ڪلِيڪ ڪرڻ ”ميلو لِنڪ مھاريَ اِي ميل تي”، جيَ ٿيَ راضِي ھون مھوريَ <termsLink>خدمت ري شرطون ھون</termsLink>ھانَ <privacyLink> رازدارِي آݪِي پالِيسِي ھون</privacyLink> ھانَ تو موزِيلا ٿُونيَ ڪامن وائِس رِي بيَ ساختا ري منصوبيَ ھارو بيٽا ٽيسٽِنگ ۾ حصو ليڻ رِي معلومات ھون اِي ميل ڪريَ ݾگھيَ ھيَ۔
 signup-input-placeholder = آپرو اِي ميل ايڊرس لگائو
 signup-button-value = مھارِي اِي ميل تي لنڪ ميليو
 footer-text-privacy = <privacyLink>رازدارِي</privacyLink>

@@ -37,6 +37,7 @@ review-delete-recordings = hɩ̀ɩ̀sǝ̀ tóm kpààwʊ̀ŋ
 terms-agree = mà tìsàà
 terms-disagree = mà kìsàà
 why-donate = áwʊ́r làpá ?
+why-donate-explanation-1 = lón tàsʊ́ŋ pǝ̀ tàŋ féféré
 
 ## MENU ITEM TOOLTIPS
 
