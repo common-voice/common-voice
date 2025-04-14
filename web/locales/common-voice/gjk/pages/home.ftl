@@ -176,6 +176,13 @@ read-sentences-link = جُملا ڀڻو
 validate-readings-link = ڀڻيا نِي تصڌيق ڪرو
 contribute-link = ٽيڪسٽ ڪارپس مان حِصو ڄو
 answer-questions-link = سوالان نا جواٻ ڄو
+transcribe-answers-link = جواٻان نِي نقل ڪرو
+review-transcriptions-link = نقل ڪرل نو جائزو ليو
+contribute-text-link = ٽيڪسٽ مان حِصو ليو
+press-and-stories-link = پريس انين وارتايُون
 
 ## Partner section
 
+partner-section-title = امان ڀيرِي شراڪتۮارِي ڪرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٽيڪ ڪمپنيان</bold> ايڪ ترقِي پزير گھڻائين لِسانِي AI ماحولِياتِي نِظام ۿارُو کُلل ڍيٽاسيٽ ٺاۿيا مان سيڙپڪارِي ڪرو۔

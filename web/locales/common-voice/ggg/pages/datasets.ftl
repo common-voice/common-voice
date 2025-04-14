@@ -79,3 +79,5 @@ data-download-button = آم آوآجو ڪيٚ ڊيٽآ ڊآئون لوڊ ڪرو
 data-download-yes = هآنٚ
 data-download-deny = نآ
 data-download-license = : <licenseLink>سيٚ سيٚ -0</licenseLink> ليسڻِ
+data-download-modal = تميِ <size>{ $size }GB</size>  ڊآئون لوڊ ڪروآݪآ هو، آگي چلو؟
+data-subtitle = همي آوآجآ ڪو ايڪ کلرو اور اوآمي  ڪي ترڦي دي ڌيري ڊيٽآ سيٽ ٺآ ريهرآ هون جرآ ڪوُ هر ڪوئي استمآل ڪرسگدو هي تڪرير ڦآئل هري ايپليڪيشن سنڪآر ديوآ لآ.
