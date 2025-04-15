@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Kusoneka
+write = Handjika
 write-instruction = Wezela<icon></icon> isoneko kusali ya mbunga
 write-page-subtitle = Insoneko anehanga ahano yili yakuwezela kumaheho yaku samu mbunga license cc-0.
 sentence =
@@ -148,6 +148,16 @@ add-sentences = Wezela isoneko
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Wezela isoneko hinabalika, wezela ihulo, transcription audio
+add-sentences-menu-item-tooltip = Wezela isoneko ya mulimi lienu
+review-sentences-menu-item-tooltip = Hengula isoneko ya mulimi lienu
+add-questions-menu-item-tooltip = Wezela ihulo ya mulimi lienu
+transcribe-audio-menu-item-tooltip = Transcription ya kukwata  maliji mulimi lienu
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Undjililo wa isonekeso « kusoneka »
+add-sentences-menu-item-aria-label = Wezela yaha ya isoneko ya kutanga ya muli mbunga
+review-sentences-menu-item-aria-label = Hengula isoneko ya thwama ize mbunga ana neha
+add-questions-menu-item-aria-label = Neha ihulo yaha mumu mbunga itange nyi ku yi kumbulula
+transcribe-audio-menu-item-aria-label = Linga kuthuma ya kukwata maliji format ya isoneko

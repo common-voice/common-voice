@@ -1,9 +1,10 @@
-speak = Hadjika
-speak-now = Munatela kuhadjika
-speak-subtitle = Pana Kahehe liji lie
+speak = Handjika
+speak-now = Nunatamba kuhandjika
+speak-subtitle = Hana hakehe liji lie
 record-cta = Buthula kukwata cha
 record-platform-not-supported = Thuli alioze unene ushiko mawa kukwata ulemu
 record-platform-not-supported-desktop = Kuyitangililo ya zuo lia mulimo mwatamba kukwata cha haa
+record-platform-not-supported-ios-non-safari = Mwishi iOS, nunatamba kuyalume nyi safari mumu wakulinga kukwata …
 record-must-allow-microphone = Munatela kubwa nyi uhashi wa chihondo
 record-no-mic-found = Kushi chihondo cha kunana
 record-error-too-short = Kukwata muchibwa chishi
@@ -54,6 +55,7 @@ first-cta-gender-select-help-text =
     .label = Kuchi mwanzanga kwambulula chinyingi cha ulunga nyi cha uthu ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Kukalakilisa cha kubwa nyi chawana cha liji !
+second-cta-subtitle-text = Nyi jila, munutamba kukaula mulimo wenu nyi kulinunga kubunga chize cha kuneha ipindji ya liji.
 already-have-an-account = Nuli nawa nyi chipawa ? <login>Kuwana</login>
 create-profile-button = Kulinga
 # IMAGE TAGS
