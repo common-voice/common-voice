@@ -26,10 +26,10 @@ how-to-cite = sǝ́nã́ŋ kànà nʊ́ʊ̀r máà nʊ́ʊ́r lǝ̀mɔ̀ɔ�
 how-to-cite-explanation-bold = ɩ́ rʊ́ nʊ́ʊ̀r lǝ̀mɔ̀ɔ̀sǝ́m kà mɩ́ mààtǝ̀ tà nǝ̀ ɩ wǝ́l pǝ̀ rìlíínɖǝ̀.
 how-to-cite-explanation = nǝ́ ʊ́ cí sǝ̀ mɩ́ mɔ̀ɔ̀mɔ̀ɔ̀ mɩ́ mààtǝ̀ káná, ɩ́ wǝ̀l sǝ̀<italicizedText>« mà lǝ̀mɔ̀ɔ̀sǝ́m » </italicizedText>. ʊ̀ wòsʊ̀ʊ̀ sǝ̀ rà sǝ̀m pǝ́ rìlììnɖǝ̀ nǝ̀ rà ná sǝ̀ nʊ́ʊ́r wɩ́ɩ̀n pǝ̀ rʊ̀ʊ̀ kà wár  já jáá pǝ́ líín jǝ́rá tǝ́n àwóór tà. ɩ́ cí sǝ̀ ɩ̀ nɩ̀ɩ̀ tɩ̀ɩ̀ kà sàrǝ̀tǝ̀, ɩ́ wííl <guidelinesLink> rá pààtǝ̀</guidelinesLink>.
 guidelines = ʊ̀ wósùù sǝ̀ à là wómpǝ́ nà
-contact-us = wʊ́tǝ́nǝ̀ rà
-add-sentence-success = 1 máátǝ̀ wóntǝ̀ à kpàà ná
+contact-us = ɩ́ jáà rá
+add-sentence-success = 1 máátǝ̀ kʊ́kpáátǝ̀
 add-sentence-error = hìtúŋ nàmpǝ̀r lɔ̀ɔ̀ mààtǝ̀ tàsʊ́ŋ tà.
-required-field = rà hɩ́nɖǝ́n sǝ̀ ŋ́ súùr wʊ̂ŋ kʊ̀.
+required-field = rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ súùr wʊ̂ŋ kʊ̀.
 single-sentence-submission = máátǝ̀ kǝ́rǝ́mátǝ̀ jèkúŋ
 small-batch-sentence-submission = cʊ́kɔ̀cʊ́kɔ̀ mààtǝ̀ jékúŋ
 bulk-sentence-submission = mààtǝ̀ kpàtǝ̀r jèkúŋ
@@ -37,7 +37,7 @@ single-sentence = máátǝ̀ kǝ́rǝ́mátǝ̀
 small-batch-sentence = cʊ́kɔ̀cʊ́kɔ̀
 bulk-sentence = kpàtǝ̀r kpàtǝ̀r
 sentence-domain-combobox-label = máátǝ̀ àwóór
-sentence-domain-select-placeholder = ñʊ́ʊ́ àwóójá nóósútù rʊ̀ʊ̀
+sentence-domain-select-placeholder = lǝ́sǝ́ àwóójá nóósútù
 # Sentence Domain dropdown option
 agriculture_food = hàrǝ́m nǝ̀ tʊ̀ʊ̀nã́ŋ rǝ̀rɔ̀ɔ̀nɖǝ́
 # Sentence Domain dropdown option
