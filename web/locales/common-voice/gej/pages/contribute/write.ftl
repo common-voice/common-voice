@@ -123,9 +123,16 @@ small-batch-sentences-rule-2 = sɔ nyàgbèɖé kpé flì sia flì.
 small-batch-sentences-rule-3 = né à téŋu má nyàgbèwo lè woanɔ̀nɔɛwo mè a, zĩ numèɖoɖo butɔ̃ zèɖèka.
 small-batch-sentences-rule-4 = wò  la téŋu kpé  nyàgbèwo kaka yì kà wui vɔ àtɔ̃.
 small-batch-sentences-rule-5 = nyàgbèwo kpata ɖo la so  nú ɖèkamè.
+small-batch-sentences-rule-6 = àmènumègbě ɖèka ŋùkumè  ɖo la nɔ̀ nyàgbèwo kpata mè.
+# menu item
+add-sentences = sɔ nyàgbèwo kpé è
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = sɔ nyàgbèwo kpéè lè àpo gbè mè.
+review-sentences-menu-item-tooltip = dà ŋùku ɖó nyàgbèwo mè lè àpo gbè mè.
+add-questions-menu-item-tooltip = sɔ́ nyàbiɔséwo kpé è lè àpo gbè mè.
+transcribe-audio-menu-item-tooltip = nyàléléwoŋɔ̀ŋlɔ lè àpo gbè mè.
 
 ## MENU ITEM ARIA LABELS
 
