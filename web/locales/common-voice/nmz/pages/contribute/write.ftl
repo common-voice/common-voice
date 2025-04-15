@@ -88,13 +88,17 @@ sc-bulk-submit-confirm = má ñʊ́kʊ̀ʊ̀ níír sǝ̀sǝ̀ mààtǝ̀ 
 bulk-upload-success-toast = mààtǝ̀ kʊ́jékǝ̀tǝ̀
 bulk-upload-failed-toast = mààtǝ̀ jékǝ̀tǝ̀ tà wál, rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ pààsǝ̀.
 bulk-submission-success-header = ɩ́ rʊ́ʊ̀ rá níír kà mààtǝ̀ kpàtǝ̀r jèkʊ́ŋ tà, mɩ́ nǝ̀ tǝ̀mǝ́r !
+bulk-submission-success-subheader = ɩ́ sǝ́ŋ kɔ̀ɔ̀mɔ̀n fɔ̀wɩ̀ɩ̀sǝ̀ sǝ̀ ɩ̀ là jà àjʊ̀kʊ̀tà mààtǝ̀ tǝ̀mǝ́r !
+upload-more-btn-text = ɩ́ jékǝ̀ mààtǝ̀ lɩ̀ɩ̀ntǝ̀
+file-invalid-type = tákǝ̀ràŋ tàsàr
+file-too-large = tákǝ̀ràŋ kǝ̀l kpɔ̀ɔ̀lʊ́ŋ
 file-too-small = tákǝ́ràŋ kǝ́l cúŋká
 too-many-files = tákǝ́rásǝ̀ kǝ̀l hàlì
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> tàsǝ̀ jǝ́rá tǝ́n àwóór mààtǝ̀ kà kpàtǝ̀r
+small-batch-instruction = <icon></icon> ɩ́ tàsǝ̀ jǝ́rá tǝ́n àwóór mààtǝ̀ kà kpàtǝ̀r
 multiple-sentences-error = ɩ́ kàà pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ɩ́ jékǝ̀ mààtǝ̀ kpàtǝ̀r kà tám kʊ́rǝ́mpǝ̀
 exceeds-small-batch-limit-error = ɩ́ kàà pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ɩ́ rʊ́ mààtǝ̀ nǝ̀ ʊ́ tésǝ́ 1 000
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload

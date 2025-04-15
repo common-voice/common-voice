@@ -64,12 +64,43 @@ news_current_affairs = Anaŋ ɗi ane a giyavo əndene
 technology_robotics = Məseriyo ane a təmeŋ nzəɗa
 sentence-variant-select-label = Mə mbaɗarakavo a ma
 sentence-variant-select-placeholder = Pəlerge anaŋ mə mbaɗaraka ghar ahe (aslane a gusakw ghar)
+sentence-variant-select-multiple-variants = Hamham anaŋ ane a gamegə  ghar a ma bəra ge / Mə mbaɗaraka ghar a anaŋ ɗi kemiya
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Təlemaro <icon></icon> ma ɗi kemiya ane a ma məgurakwiyo i ŋgumna age
+sc-bulk-upload-instruction = Həɗraka anaŋ məpakwiyo ahə atu akindene dəkəni<uploadButton>dəkəni tsakwege aka mə talaray</uploadButton>
+sc-bulk-upload-instruction-drop = Fəmawo anaŋ mə pekerge ahe atu akindene aka mə taliyo
+bulk-upload-additional-information = Ana maɗi anay akə fakuma mə ndawya aka deɓi i naŋ məpekerge ahe ane di tələmarma <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Ana maɗi anay akə fakuma mə ndawya aka dəɓi i anaŋ məpekerge ane tənay tənege am məgwaviyo aslenege daw di kamkam zəlum <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Gurum mə tsakwakwa ma ɗi məpekerge ahe atu gapa
+try-upload-again-md = ŋga gurum mə taliyo gapa
+select-file = Təbəmerge anaŋ mə pakwiyo ahe ɗi
+select-file-mobile = Təbəmerge anaŋ məpakwiyo ahe ane akə tal
+accepted-files = Tsəba anaŋ məpakwiyo ahe ɗi ane a zayaka: .tsv tsəheɗ
+minimum-sentences = Kwiduk i maɗi anaŋ məpekerge ahe atu di mənay 1000
+maximum-file-size = Zəbal mə ndəvaka aka ahe i anaŋ ane mə pekerge ahe atu di mənay: 25 Mo
+what-needs-to-be-in-file = Anaŋ məpakwiyo atu ɗu mənday keme ?
+what-needs-to-be-in-file-explanation = ŋgərumekenege aray aka <templateFileLink>dzəbá aslər gəli ane </templateFileLink>. Ma gukuli ane akə pako atu di mənay keɗaha, ghar mətugwiyo ahe kəni mənay i gukuli mənay aslər a ŋgwalaŋ ana mərez aslane a vilkuli mə təgu ghar ahe kəni, mənay tsəɗaŋga, mə dəmen vo a mə wudiya age. Maɗi ane akə tal atu di má zakay sarta 10 bi 15 aməwudiya age nde kəni aká pege dzik ɗi ənta sləmay mərɗi ənta anaŋ ɓak masalaka daw
+upload-progress-text = Mətaliyo aka meltivi mə wuriyo ...
+sc-bulk-submit-confirm = Nə sər iheɗedeŋ ane ma ɗi atu ata i <wikipediaLink>i məgurakwiyo i ŋgumna </wikipediaLink> ndi nəni ənta  meltivi mətalya
+bulk-upload-success-toast = Ma ɗi tə nzi ve
+bulk-upload-failed-toast = Anaŋ mətaliyo atu anzi daw kamkam gurum gapa
+bulk-submission-success-header = Wusako ənta mə fəliwen ahar aka mə tal maɗi kemiya
+bulk-submission-success-subheader = Ake ɗay akə zazaka Common Voice aka mə slenge ghar mətugwiyo i anaŋ yaŋ ane afakuma məgiya !
+upload-more-btn-text = Təlmaro maɗi inisi ?
+file-invalid-type = Ma ɗi məpekerge ahe ane tənay tə zayaka daw
+file-too-large = Anaŋ mə pekerge ahe ane a zəvu
+file-too-small = Anaŋ mə pekerge ahe ane a huts
+too-many-files = Anaŋ mə pekerge kemiya
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Fekenege ma ɗi zlabaŋ ane aɗereŋ a məgurako i gumna
+multiple-sentences-error = Akəslahoŋ məfekenege ma ɗi zlavaŋ daw sarta i məmas seleŋ age
+exceeds-small-batch-limit-error = Agiya vo məpawo ma ɗi atəmaka aka dəbbo
 
 ## MENU ITEM TOOLTIPS
 
