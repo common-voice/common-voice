@@ -85,9 +85,14 @@ bulk-submission-success-subheader = wò  le dó àlɔ̀ Common Voice bé ébé
 upload-more-btn-text = ɖo nyàgbè buwo  ɖo ɖa a
 file-invalid-type = wo mu xɔ̀ fisie a o/ fisie  màxɔ̀màxɔ
 file-too-large = fisie a kpɛ̃̀ ŋútɔ.
+file-too-small = fisie a hùe ŋútɔ.
+too-many-files = fìsiewo sùgbɔ
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = sɔ́ nyàgbè sùgbɔ  kèyé àmèwo nya nyɔɛɖé a kpé è.
+multiple-sentences-error = wò mu la téŋu kpé nyàgbèwo gbogboɖé huè kè nu wo le do nuwo ɖo ɖa o.
 
 ## MENU ITEM TOOLTIPS
 

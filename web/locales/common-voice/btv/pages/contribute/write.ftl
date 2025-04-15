@@ -83,6 +83,17 @@ minimum-sentences = کم نو کم جملے فائل مہ : 1000
 maximum-file-size = زیات نو زیات فائل سائز  25 MB
 what-needs-to-be-in-file = می فائل مہ چاں سو ضرورت تھی ؟
 what-needs-to-be-in-file-explanation = مہربانی گیریچیک گر اسوں <templateFileLink> ٹمپلیٹ فائل</templateFileLink> تیں جملے نقل گرے سو ایجازت نو ازاد ( 0çc یا ایجازت ھوئینل اصل کام جمہ گرے والہ سو زریعہ گِھن) آ صاف ھوں ، گرائمر سو لحاظ رے صحیح آ پڑے اسان۔ جمہ ھوئینل جملے  10-15 سیکنڈ سرسری پڑو  آ شامل گریل نمبر دُر گرو، خاص ناں آ سپیشل  ٹِکے۔
+upload-progress-text = کارکردگی مہ اپلوڈ گر
+sc-bulk-submit-confirm = می یقینی گیگی چہء اے جملے <wikipediaLink> لوں سو <wikipediaLink>احاطہ کار سو تھے  </wikipediaLink> آ می کَن اے اپلوڈ گرے سو ایجازت تھی۔
+bulk-upload-success-toast = گھئیں جملے اپلوڈ ھویں گے
+bulk-upload-failed-toast = اپلوڈ فیل ھویں گا،مہربانی گر دوبارہ کوشش گر
+bulk-submission-success-header = تِیں شکرہ  حصہ گھنے سو گھئیں جمہ گرے سو!
+bulk-submission-success-subheader = تو مدد گرا عام اواز اسئیں روزان سو جملہ سو مقصدے اوڑے سو !
+upload-more-btn-text = جل جملے اپلوڈگروں ؟
+file-invalid-type = غیر مصدقہ فائل
+file-too-large = فائل ڙھؤ گُھوؤں تھو
+file-too-small = فائل ڙھؤ پِھٹو تھو
+too-many-files = ڙھؤ زیات فائل
 
 ## SMALL BATCH SUBMISSION
 

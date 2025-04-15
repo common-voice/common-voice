@@ -56,7 +56,7 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tofakisha utulongela hindu ilegele ya maywi genu !
 second-cta-subtitle-text = Na butanda, mu mweza ulonda milimo yenu na wi lamia kwibungo imo ya utanga ya myanda ya maywi.
-already-have-an-account = Ndo kala na bugo ?<login> Ulamia </login>
+already-have-an-account = Ndo kala na bugo ?<login> Lamia </login>
 create-profile-button = Ubumba butanda
 # IMAGE TAGS
 img-alt-success-checkmark = Kosha lya uweza
