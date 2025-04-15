@@ -72,6 +72,16 @@ sentence-variant-select-multiple-variants = عام زیب / مختلف بدل
 sc-bulk-upload-header = اپلوڈ <icon> </icon> لوں سو احاطہ سو جملے
 sc-bulk-upload-instruction = اپو فائل ایزئ ڈریگ گر یا <uploadButton> اپلوڈ کلک گر</uploadButton>
 sc-bulk-upload-instruction-drop = اپلوڈگرے سو دَن فائل ایزا  وال
+bulk-upload-additional-information = اگر اضافی معلومات تو دیو لو کھا اِس فائل سو متعلق تہ  میربانی گیری رابطہ گر <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = اگر اضافی معلومات تو دیو لو کھا اِس فائل سو متعلقچہء سو ٹمپلیٹ مہ شامل نہ اسے،  تہ  میربانی گیری رابطہ گر <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = اپوں فائل ایزئ ڈریگ گرے سو نُوٹ کوشش گر
+try-upload-again-md = دوبارہ اپلوڈ سو کوشش گر
+select-file = فائل خوش گر
+select-file-mobile = اپلوڈ گرے سو دَن فائل خوش گر
+accepted-files = فائل سو قسم منظور ھوینگا :  ٹیایس وی صرف
+minimum-sentences = کم نو کم جملے فائل مہ : 1000
+maximum-file-size = زیات نو زیات فائل سائز  25 MB
+what-needs-to-be-in-file = می فائل مہ چاں سو ضرورت تھی ؟
 
 ## SMALL BATCH SUBMISSION
 
