@@ -34,3 +34,21 @@ sc-criteria-make-sure = Mulangije kowine nage mulongo golunga wa mitindo yino :
 sc-criteria-item-1 = Mulongo gupashishe uyuandibwa bilegele.
 sc-criteria-item-2 = Mulongo gupashishe usomwa bilegele.
 sc-criteria-item-3 = Mulongo gupashishe wisambibwa bilegele.
+sc-criteria-item-4 = Utu mulongo goyitibijya mu mitindi, yatinya a ifungo « Uyitibijya » uboo ulume
+sc-criteria-item-5-2 = Utu mulingo nda ulungile mu mitindi yili ulwegulu, yatinya a ifungo « SUMBULA » uboo wazi. Utu mu na biningoningo, gu muweza bebebyo usomboa na ukwila u bingi.
+sc-criteria-item-6 = Utu nda muki na milongo ya uzingulula, tukwashe ubunga milongo yingi !
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Mulole <icon></icon> mulongo utu guli bilegele owamo mu ndimi
+sc-review-rules-title = Mulingo guli owamo na mitindi ?
+sc-review-empty-state = Nda uli mulongo na gwi gumo wa ulongolola mu lulimi.
+report-sc-different-language = Lulimi lungi
+report-sc-different-language-detail = Mulongo gu gandie mu lulimi lungi wa lulu lwa nika musomanga
+sentences-fetch-error = Bubi bo fumina munonga gwa ubugula milongo
+review-error = Bubi bolongea munonga gwa ulongolola mulongo
+review-error-rate-limit-exceeded = Muka mwena lubilo kowi kuu. To milangijya mubugule munonga gutole gwa usomnona mulongo na mulangijye nage ngulegele.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Tuketumulonga ugajibula wa kowine
+sc-redirect-page-subtitle-1 = Gwa ubunga milongo na yi gisha kwibungo ya Common Voice. Mu muweza <writeURL>ugandia</writeURL> ao ulola milongo <reviewURL>ubambila</reviewURL> ibungo ya maywi.
+sc-redirect-page-subtitle-2 = Mutuyujye mayujyo genu juu <matrixLink>Matrix</matrixLink>, <discourseLink>ubanga </discourseLink> ama <emailLink>e-mail</emailLink>.
+# menu item
+review-sentences = Ulola yi mulongo

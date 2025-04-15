@@ -36,6 +36,10 @@ small-batch-sentence = vi
 bulk-sentence = sugbɔ
 # Sentence Domain dropdown option
 agriculture_food = àgblèdada ku àgblèmènukuwoŋutidɔwɔ̀wɔ / àgblèmènukuwositɔtrɔ
+# Sentence Domain dropdown option
+automotive_transport = hũ ku mɔzɔ̃zɔ̃
+# Sentence Domain dropdown option
+finance = gànyàwo
 
 ## BULK SUBMISSION
 
