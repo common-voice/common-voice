@@ -35,6 +35,7 @@ background-noise-example-3 = Den gigantiske dino [hoster] Trias.
 background-noise-example-4 = [Knitre] gigantiske dinosaurer i [knitre] -rias.
 background-voices-example-1 = De gigantiske dinosaurer i Trias. [læst af én stemme]
 background-voices-tip-1 = Kommer du? [sagt af en anden]
+volume-explanation = Der vil være naturlige variationer i lydstyrken mellem oplæsere. Afvis kun, hvis lydstyrken er så høj, at den ødelægger optagelsen, eller (mere almindeligt), hvis den er så lav, at du ikke kan høre, hvad der bliver sagt uden henvisning til den skrevne tekst.
 reader-effects-explanation = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
 just-unsure-explanation = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.
 still-have-questions = Har du stadig spørgsmål?
