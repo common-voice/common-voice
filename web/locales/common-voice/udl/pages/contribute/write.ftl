@@ -32,6 +32,38 @@ add-sentence-error = Sləkets agherelenge aməpakwiyo age
 required-field = Kamkam tsəkemenkege avuh aslene.
 single-sentence-submission = Tal ma seleŋ
 small-batch-sentence-submission = Mətal mbəli ma ɗi kindekw
+bulk-sentence-submission = Tal ma ɗi kemiya
+single-sentence = Ma seleŋ
+small-batch-sentence = War mbəlo
+bulk-sentence = Anaŋ mətegiwo azlehe
+sentence-domain-combobox-label = Aslam i mahəɗi
+sentence-domain-select-placeholder = Pəlerge ha aslam taŋtataŋ makar
+# Sentence Domain dropdown option
+agriculture_food = Məɓəs avuh ənta məgiya jardian ɗi
+# Sentence Domain dropdown option
+automotive_transport = Mə sləmeŋ mota ɗi ənta anaŋ mə takway anaŋ
+# Sentence Domain dropdown option
+finance = Məfaku sləmay aka siŋgo
+# Sentence Domain dropdown option
+service_retail = Məgiya aslər ənta mə dzara anaŋ ɗi
+# Sentence Domain dropdown option
+general = Hamham
+# Sentence Domain dropdown option
+healthcare = Werwer i sluvu
+# Sentence Domain dropdown option
+history_law_government = Maslalambaɗi slaya ənta aslər i ŋgumna
+# Sentence Domain dropdown option
+language_fundamentals = Ma i məparahoŋvo aka ma bəra ɗi(dzik, helefi i məpərako,siŋgo
+# Sentence Domain dropdown option
+media_entertainment = Gəlaw ɗi ənta anaŋ ɗi ane təgiyavo
+# Sentence Domain dropdown option
+nature_environment = Wulam ənta anaŋ ɗi ane təveleŋge
+# Sentence Domain dropdown option
+news_current_affairs = Anaŋ ɗi ane a giyavo əndene
+# Sentence Domain dropdown option
+technology_robotics = Məseriyo ane a təmeŋ nzəɗa
+sentence-variant-select-label = Mə mbaɗarakavo a ma
+sentence-variant-select-placeholder = Pəlerge anaŋ mə mbaɗaraka ghar ahe (aslane a gusakw ghar)
 
 ## BULK SUBMISSION
 
