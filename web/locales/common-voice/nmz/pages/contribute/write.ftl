@@ -108,6 +108,18 @@ rate-limit-toast-message-seconds =
         [one] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ cǝ̀lcǝ̀l 1 tàà.
        *[other] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ cǝ̀lcǝ̀l { $retryLimit } tàà.
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] ɩ́ tál mɩ́ mààtǝ̀ jèkùŋ kèrǝ̀mrà kà cè. hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ jél nǝ̀ ʊ̀ lá càcàràŋ 1 ʊ̀ fɩ́ɩ̀ nǝ́ ɩ́ jékǝ̀ mààtǝ̀ nɩ́ɩ̀ntǝ̀ kà àwòòr rǝ́ tàà. mɩ́ nǝ̀ tǝ̀mǝ́r nǝ̀ ʊ́ líín mɩ́ súrú rʊ̀ʊ̀ !
+       *[other] ɩ́ tál mɩ́ mààtǝ̀ jèkùŋ kèrǝ̀mrà kà cè.rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ jél nǝ̀ ʊ̀ lá càcàràŋ { $retryLimit } ʊ̀ fɩ́ɩ̀ nǝ́ ɩ́ jékǝ̀ mààtǝ̀ nɩ́ɩ̀ntǝ̀ kà àwòòr rǝ́ tàà. mɩ́ nǝ̀ tǝ̀mǝ́r nǝ̀ ʊ́ líín mɩ́ súrú rʊ̀ʊ̀ !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ jél nǝ̀ ʊ̀ lá cǝ̀lcǝ̀l 1 ʊ̀ fɩ́ɩ̀ nǝ́ ɩ́ jékǝ̀ mààtǝ̀ nɩ́ɩ̀ntǝ̀ kà àwòòr rǝ́ tàà. mɩ́ nǝ̀ tǝ̀mǝ́r nǝ̀ ʊ́ líín mɩ́ súrú rʊ̀ʊ̀ !
+       *[other] rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ jél nǝ̀ ʊ̀ lá cǝ̀lcǝ̀l { $retryLimit } ʊ̀ fɩ́ɩ̀ nǝ́ ɩ́ jékǝ̀ mààtǝ̀ nɩ́ɩ̀ntǝ̀ kà àwòòr rǝ́ tàà. mɩ́ nǝ̀ tǝ̀mǝ́r nǝ̀ ʊ́ líín mɩ́ súrú rʊ̀ʊ̀ !
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $uploadedSentences ->

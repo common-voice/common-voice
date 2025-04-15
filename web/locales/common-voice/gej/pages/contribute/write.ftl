@@ -35,6 +35,8 @@ bulk-sentence-submission = nyàgbèsugbɔɖoɖoɖa
 single-sentence = nyàgbèɖèkasɔsɔɖoɖa
 small-batch-sentence = vi
 bulk-sentence = sugbɔ
+sentence-domain-combobox-label = àkpa kè mè  nyàgbè só a
+sentence-domain-select-placeholder = cã àkpa tɔ̃̀
 # Sentence Domain dropdown option
 agriculture_food = àgblèdada ku àgblèmènukuwoŋutidɔwɔ̀wɔ / àgblèmènukuwositɔtrɔ
 # Sentence Domain dropdown option
