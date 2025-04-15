@@ -70,6 +70,8 @@ sentence-variant-select-multiple-variants = wóntǝ̀ ʊ̀ mɔ̀ɔ́nà sǝ̀ 
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ɩ́ jèkǝ̀ <icon></icon> jǝ́rá tǝ́n mààtǝ̀
+sc-bulk-upload-instruction = ɩ́ tíísì mɩ́ tákǝ́rã́ŋ kà tàà cé jàà <uploadButton> ɩ́ ñʊ́ </uploadButton> rʊ̀ʊ̀ nǝ̀ ɩ́ jékǝ̀ ká
+sc-bulk-upload-instruction-drop = ɩ́ rʊ́ tákǝ́rã̀ŋ kà cè nǝ̀ ɩ́ jékǝ́ ká
 bulk-upload-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ àkpá tóm nǝ̀ àtàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ ɩ́ t tómpǝ̀ tã̀ŋ rà kpààrǝ́tǝ tóm tà ná nǝ̀ ɩ́ tàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = ɩ́ lìmìsì mɩ́ tóm kà táà cé nǝ̀ ɩ́ lèl

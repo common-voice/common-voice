@@ -48,6 +48,7 @@ add-information-button = sɔ nyànanawo kpé è.
 continue-speaking-button = àwò àkpé, wó téŋu yì nùpo a ji.
 create-profile-text = ɖe wò jí la  le apo nyànanawo a<createProfile> dà àmètakoɖoefótò ɖo nu sitì a ji a a.  </createProfile>
 thanks-for-voice-toast = àkpé ɖo gbènyànana ŋúti.
+thanks-for-voice-toast-error = àgbàdàdaɖe va emè kè wò le ɖo nyànana kè kã̀ nyàlelewo ŋúti.
 
 ## MENU ITEM TOOLTIPS
 
