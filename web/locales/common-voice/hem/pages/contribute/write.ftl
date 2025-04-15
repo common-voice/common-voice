@@ -134,8 +134,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $uploadedSentences ->
-        [one] { $uploadedSentences } Mulongo gubungibwe{ $totalSentences }. Yatinya <downloadLink>  dju ya  utusha  milongo yisumbulibwe.
-       *[other] { $uploadedSentences } Milongo yibungibwe u { $totalSentences }. Yatinya <downloadLink>ici</downloadLink> dju ya utusha milongo yisumbulibwe.
+        [one] { $uploadedSentences } Mulongo gubungibwe{ $totalSentences }. Yatinya <downloadLink>aha</downloadLink>  dju ya  utusha  milongo yisumbulibwe.
+       *[other] { $uploadedSentences } Milongo yibungibwe u { $totalSentences }. Yatinya <downloadLink>aha</downloadLink> dju ya utusha milongo yisumbulibwe.
     }
 small-batch-sentences-rule-1 = Mulonde nduli ya iindi « mulong'ayi gwa ni mweza ulunda ? »
 small-batch-sentences-rule-2 = Mulunde mulongo wa kisiko

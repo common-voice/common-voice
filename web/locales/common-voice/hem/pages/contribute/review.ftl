@@ -23,6 +23,15 @@ sc-review-form-button-skip-shortcut = P
 sc-review-form-keyboard-usage-custom = Gumuwez' onga utumikisha ngwalijijo ya clavier : { sc-review-form-button-approve-shortcut } wa ulangija, { sc-review-form-button-reject-shortcut }usunbula, { sc-review-form-button-skip-shortcut }wa witabija
 sc-review-form-button-submit =
     .submitText = Uvuya ulola
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ndauli mulongo ata gumo
+        [1] Mulongo gumo guzingule. Wafako !
+        [one] Mulongo gumo guzingule. Wafako !
+       *[other] Mulongo guzingulule. Wafako !
+    }
 sc-review-form-review-failure = Ulola ndaugandie. Geleja munonga gungi.
 sc-review-link = Usomonona
 

@@ -82,6 +82,7 @@ accepted-files = فائل سو قسم منظور ھوینگا :  ٹیایس وی
 minimum-sentences = کم نو کم جملے فائل مہ : 1000
 maximum-file-size = زیات نو زیات فائل سائز  25 MB
 what-needs-to-be-in-file = می فائل مہ چاں سو ضرورت تھی ؟
+what-needs-to-be-in-file-explanation = مہربانی گیریچیک گر اسوں <templateFileLink> ٹمپلیٹ فائل</templateFileLink> تیں جملے نقل گرے سو ایجازت نو ازاد ( 0çc یا ایجازت ھوئینل اصل کام جمہ گرے والہ سو زریعہ گِھن) آ صاف ھوں ، گرائمر سو لحاظ رے صحیح آ پڑے اسان۔ جمہ ھوئینل جملے  10-15 سیکنڈ سرسری پڑو  آ شامل گریل نمبر دُر گرو، خاص ناں آ سپیشل  ٹِکے۔
 
 ## SMALL BATCH SUBMISSION
 

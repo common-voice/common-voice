@@ -80,6 +80,11 @@ upload-progress-text = e le yì
 sc-bulk-submit-confirm = mù ɖo kpé eji bé nyàgbè kèyàwo a<wikipediaLink> àmèwo zãna eye wo ɖè mɔ na mù bé ma sɔ wo ɖo ɖa.
 bulk-upload-success-toast = wo sɔ nyàgbèwo ɖo ɖa
 bulk-upload-failed-toast = nyàgbè a mu téŋu yì o, taflacɛ trɔ gbìgbɔ ɖoe ɖo ɖa.
+bulk-submission-success-header = àkpe  na wò bé  wò do nu émè eye ɖo nyàgbèwo sùgbɔ ɖo ɖa!
+bulk-submission-success-subheader = wò  le dó àlɔ̀ Common Voice bé ébé gbè sia gbè bé taɖojinuwo kùɖo nyàgbèwo ŋúti a wo la va émè!
+upload-more-btn-text = ɖo nyàgbè buwo  ɖo ɖa a
+file-invalid-type = wo mu xɔ̀ fisie a o/ fisie  màxɔ̀màxɔ
+file-too-large = fisie a kpɛ̃̀ ŋútɔ.
 
 ## SMALL BATCH SUBMISSION
 
