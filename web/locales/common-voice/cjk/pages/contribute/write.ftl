@@ -119,6 +119,32 @@ rate-limit-message-minutes =
         [one] hinuna heta mungiza ya kuthuma kusali liko. Nunatamba kushimbwila 1 ola imuwikha kulutwe la kuthuma chisoneko chikwo !
        *[other] Hinuna heta mungiza ya kuthuma kusali liko. Nunatamba kushimbwila { $retryLimit } ola kuluthwe lia kuthuma chisonekeso chikwo. Wakalakala
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Hinuna heta mungiza ya kuthuma kusali liko. Nunatamba kushimbwila 1 second ola kuluthwe lia kuthuma chisonekeso chikwo. Wakalakala !
+       *[other] Hinuna heta mungiza ya kuthuma kusali liko. Nunatamba kushimbwila { $retryLimit } seconds ola kuluthwe lia kuthuma chisonekeso chikwo. Wakalakala !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } chisoneko ya kukunga hamuwika { $totalSentences }
+       *[other] { $uploadedSentences } isoneko ya kukunga hamuwika { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } chisoneko ya kukunga hamuwika { $totalSentences } . Chata <downloadLink>welo </downloadLink>wa kuchiza isoneko ya kumbila.
+       *[other] { $uploadedSentences } isoneko ya kukunga hamuwika { $totalSentences } . Chata <downloadLink>welo </downloadLink>wa kuchiza isoneko ya kumbila.
+    }
+small-batch-sentences-rule-1 = Kaulenu jila ikwo « isoneko ika ize mungu wezela ? »
+small-batch-sentences-rule-2 = Wezela chisoneko hamufundo
+small-batch-sentences-rule-3 = Sako ngiza ya isoneko mukushindakenya kawikha helulia « Kundjila »
+small-batch-sentences-rule-4 = Wezela isoneko ndo ha 1000
+small-batch-sentences-rule-5 = Isoneko yeswe inatamba kubwa domain imuwika
+small-batch-sentences-rule-6 = Isoneko yeswe inatamba citation imuwika
+# menu item
+add-sentences = Wezela isoneko
 
 ## MENU ITEM TOOLTIPS
 
