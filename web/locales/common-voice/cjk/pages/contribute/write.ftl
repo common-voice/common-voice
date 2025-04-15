@@ -89,9 +89,36 @@ bulk-upload-success-toast = Isoneko chakuthuwa
 bulk-upload-failed-toast = Isoneko yahona kuthumiwa, eseka nawa.
 bulk-submission-success-header = Mukala kalisa kuthuma undji wa isoneko !
 bulk-submission-success-subheader = Tukwasenu Common Voice ikahete kulinga milimo ya mathangwa ya isoneko !
+upload-more-btn-text = Thuma isoneko ikwo ?
+file-invalid-type = Fichier kha Sako songo
+file-too-large = Fichier chili chinene lia kulu
+file-too-small = Fichier chili chikehe chindji
+too-many-files = Undji wa fichier
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Wezela undji wa isoneko ya ihanda ya mbunga ya athu
+multiple-sentences-error = Nwatelele kuwezela undji wa isoneko ha kuyithuma tchimuwika
+exceeds-small-batch-limit-error = Hitchashiko kulisunwisa kuhiana cha 1000 wa isoneko
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Ngiza ya kuhiana. nwatela kweseka mu 1 shimbu
+       *[other] Ngiza ya kuhiana. nwatela kweseka mu  { $retryLimit } shimbu
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Ngiza ya kuhiana. nwatela kweseka mu 1  second
+       *[other] Ngiza ya kuhiana. nwatela kweseka mu { $retryLimit } second
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] hinuna heta mungiza ya kuthuma kusali liko. Nunatamba kushimbwila 1 ola imuwikha kulutwe la kuthuma chisoneko chikwo !
+       *[other] Hinuna heta mungiza ya kuthuma kusali liko. Nunatamba kushimbwila { $retryLimit } ola kuluthwe lia kuthuma chisonekeso chikwo. Wakalakala
+    }
 
 ## MENU ITEM TOOLTIPS
 
