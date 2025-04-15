@@ -8,6 +8,14 @@ question-collection = سُالیں کا جماؤڑا
 ## Voice Collection nav ids
 
 varying-pronunciations = دؔوجے لہجے
+misreadings = گلت پاڑھائی
+offensive-content = اپمان کرناڑا سیمان
+background-noise = لارکا گاھریا
+background-voices = لارکیاں اواجاں
+volume = ویلا
+reader-effects = پڑھنواڑے کا پھرک
+just-unsure = رُگی اوسواسی
+example = مِسال
 
 ## Voice collection sidebar content
 
