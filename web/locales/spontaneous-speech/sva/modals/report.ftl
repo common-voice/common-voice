@@ -8,6 +8,7 @@ different_language = იშგენ ნინ
 different_language-detail = შინაარს ლჷი̄რ ლი, მი ერ მა̄მ ონღელდა̈ს, ეჯ ნინშვ.
 personally_identifiable_information = პერსონალურ ინფორმაცია
 personally_identifiable_information-detail = ალ კონტენტისგა ხა̈ჲრა პერსონალურ ინფორმაცია: ჟა̄ხე, ელფოსტა̄̈ მისამართ, მდებარეობა, საიდენტიფიკაციო ნომერ, ჰედ ტელეფონი ნომერ.
+personally_identifiable_information-answer-detail = ალ კონტენტ იჰრი პიროვნება̄̈ იდენტიფიკაცაცახა̈ნ დაკავშირებულ პერსონალურ ინფორმაციას: ჟახე, ელ. ფოსტა̄̈ მისამართ, ა̈დგილ, საიდენტიფიკაციო ნომერ ჰედ ტელეფონი ნომერ.
 report-other-comment =
     .placeholder = კომენტარ
 # Label for textarea in report modal
