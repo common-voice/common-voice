@@ -136,3 +136,7 @@ transcribe-audio-menu-item-tooltip = nyàléléwoŋɔ̀ŋlɔ lè àpo gbè mè.
 
 ## MENU ITEM ARIA LABELS
 
+add-sentences-menu-item-aria-label = sɔ̀ nyàgbè yéyé kèwo yé haho a la hlɛ̃̀.
+review-sentences-menu-item-aria-label = dà ŋùku ɖo nyàgbè kèwo lè eye  kè haha sɔ dà ɖo àpo ŋùkumè a.
+add-questions-menu-item-aria-label = sɔ nyàbiɔse yéyé sɔ ɖo ŋùkúmè na haho ne ba hlɛ̃ yé be la ɖo woa ŋútí.
+transcribe-audio-menu-item-aria-label = ŋlɔ̀ nyàlélé awo.
