@@ -32,6 +32,24 @@ add-sentence-error = جملہ جمہ گرے سو غلطی
 required-field = مہربانی گیری او زائے پور
 single-sentence-submission = یک جملہ جمہ گرو
 small-batch-sentence-submission = پِھٹئیں بیچ جملہ جمہ گرو
+bulk-sentence-submission = ڙھؤ گھئیں جملہ جمہ گرو
+single-sentence = یک
+small-batch-sentence = پِھٹو بیچ
+bulk-sentence = گھؤں بیچ
+sentence-domain-combobox-label = جملہ سو احاطہ
+sentence-domain-select-placeholder = ڇا احاطہ تکے خوش گر (اختیاری)
+# Sentence Domain dropdown option
+agriculture_food = زمیدارہ آ خوراک
+# Sentence Domain dropdown option
+automotive_transport = امئ حرکت آ سواری
+# Sentence Domain dropdown option
+finance = مال
+# Sentence Domain dropdown option
+service_retail = خدمت آ مول گھِنو
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = صحت سو خیال
 
 ## BULK SUBMISSION
 
