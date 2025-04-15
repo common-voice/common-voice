@@ -80,6 +80,8 @@ select-file = ɩ́ lǝ́sǝ́ tákǝ́ràŋ kàr
 select-file-mobile = ɩ́ lǝ́sǝ́ àjèkùŋ tàkǝ̀ràŋ kàr
 accepted-files = tákǝ́rásǝ́ kútísísásǝ́ : tsv rǝ̀cél
 minimum-sentences = tómpǝ̀ ʊ̀ tà mɔ̀ɔ̀nà sǝ̀ àpàsǝ̀ pǝ́ tá kà tàkǝ̀ràŋ tà ná :1 000
+maximum-file-size = tákǝ́rá kpɔ̀ɔ̀lʊ́ŋ kèrìm : 25 Mo
+what-needs-to-be-in-file = ʊ̀ mɔ̀ɔ̀nà sǝ̀ à rʊ́ wóntàŋ mà tàkǝ̀ràŋ tàà?
 
 ## SMALL BATCH SUBMISSION
 

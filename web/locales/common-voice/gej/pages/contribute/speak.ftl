@@ -57,6 +57,10 @@ second-cta-header-text = àkpe  na wò bé  wò woe apo gbè na mi/ àkpe  na 
 second-cta-subtitle-text = ku apo àmètakoɖoefotadadaɖo kà mè a wo la téŋu nɔ le  ŋùku ɖo àpo  dɔ eye wo la teŋu nɔ̀ kàmè ku  hasòsoe  kèwo woe  na woabe gbèwo na àmè.
 already-have-an-account = ɖe wò ɖo kɔ̃ti   <login>  kà
 create-profile-button = dà àmètakoɖoefoto ɖo kà mè.
+# IMAGE TAGS
+img-alt-success-checkmark = yìyi nyɔɛɖéjèsi
+# menu item
+read-sentences = hlɛ̃̀ nyàgbèwo
 
 ## MENU ITEM TOOLTIPS
 
