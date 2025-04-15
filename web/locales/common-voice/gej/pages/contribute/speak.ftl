@@ -61,9 +61,15 @@ create-profile-button = dà àmètakoɖoefoto ɖo kà mè.
 img-alt-success-checkmark = yìyi nyɔɛɖéjèsi
 # menu item
 read-sentences = hlɛ̃̀ nyàgbèwo
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = hlɛ̃̀ nyàgbèwo<small> ( né mi va do gò a)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = hlɛ̃ nyàgbèwo eye wo la ɖo nyàbiɔséwo ŋuti.
+read-sentences-menu-item-tooltip = le nu kè wo le  hlɛ̃̀ lè apo gbè a  mè.
+answer-questions-menu-item-tooltip = le nyà kèwo ŋuti wò le ɖo ku àɖàŋù kèwo wo le ɖè a.
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = gbèdodocãcãtèpé
