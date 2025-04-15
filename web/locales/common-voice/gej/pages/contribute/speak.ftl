@@ -73,3 +73,5 @@ answer-questions-menu-item-tooltip = le nyà kèwo ŋuti wò le ɖo ku àɖàŋ
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = gbèdodocãcãtèpé
+read-sentences-menu-item-aria-label = hlɛ̃ nyàgbèwo kèwo sɔ ɖo ŋùkumè na hasòsoe a  lè vòvòvòwo mè.
+answer-questions-menu-item-aria-label = sɔ nyàbiɔse yéyé sɔ ɖo ŋùkumè na  ha a,  hlɛ̂ eye ɖo e ŋuti.
