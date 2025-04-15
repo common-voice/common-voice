@@ -44,11 +44,13 @@ finance = gànyàwo
 # Sentence Domain dropdown option
 service_retail = dɔwo ku àlɔ̀jinusàsa
 # Sentence Domain dropdown option
+general = éjí éjí
+# Sentence Domain dropdown option
 healthcare = lã̀mèsɛ̃́
 # Sentence Domain dropdown option
 history_law_government = xotùnyǎ, sé ku dùkpɔ̀kplɔ̌
 # Sentence Domain dropdown option
-language_fundamentals = gbèwo gɔ̃̀̀mèɖokpéwo ( nɔbàwo, nuŋlɔ̀kuiwo alo nuŋlɔ̀jèsìwo, gà)
+language_fundamentals = gbèwogɔ̃̀̀mèɖokpéwo ( nɔbàwo, nuŋlɔ̀kuiwo alo nuŋlɔ̀jèsìwo, gà)
 # Sentence Domain dropdown option
 media_entertainment = nyàkàkàmɔwo ku ŋùkumèjakaɖèɖě
 # Sentence Domain dropdown option
