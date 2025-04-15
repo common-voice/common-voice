@@ -30,6 +30,12 @@ contact-us = ɖe  wò ji la yɔ mí a a
 add-sentence-success = nyàgbè kèwo  lé a
 add-sentence-error = àgbàdàda lè nyàgbè a sɔsɔkpe
 single-sentence-submission = nyàgbèɖèkasɔsɔɖoɖa
+bulk-sentence-submission = nyàgbèsugbɔɖoɖoɖa
+single-sentence = nyàgbèɖèkasɔsɔɖoɖa
+small-batch-sentence = vi
+bulk-sentence = sugbɔ
+# Sentence Domain dropdown option
+agriculture_food = àgblèdada ku àgblèmènukuwoŋutidɔwɔ̀wɔ / àgblèmènukuwositɔtrɔ
 
 ## BULK SUBMISSION
 
