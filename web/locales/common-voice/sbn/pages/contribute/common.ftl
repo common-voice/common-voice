@@ -16,8 +16,8 @@ contribute-more =
         [one] هَڪ
        *[other] ٻا
     }
-speak-empty-state = اسانٚ وٽ ايئي  ٻوٚليٚ مينٚ ريٚڪارڊ ڪرڻ للآ جملا کتم ٿئي هُڙا اهينٚ
-no-sentences-for-variants = اڀانٚ ريٚ  ٻوٚليٚ رو  ڪسم جملن کانٚ ٻاهر ٿيي سگهي دو! جيڪڏهنٚ اڀانٚ آرامدآ اهونٚ، تا اڀاينٚ پنڊريٚ  ٻوٚليٚ ري اندر ٻيا جملا ڏسڻ لاءِ پنڊريونٚ  سيٽنگونٚ تبديٚل ڪري سگهو دآ.
+speak-empty-state = اسانٚ وٽ ايئي  ٻوليٚ مينٚ ريٚڪارڊ ڪرڻ للآ جملا کتم ٿئي هُڙا اهينٚ
+no-sentences-for-variants = اڀانٚ ريٚ  ٻوليٚ رو  ڪسم جملن کانٚ ٻاهر ٿيي سگهي دو! جيڪڏهنٚ اڀانٚ آرامدآ اهونٚ، تا اڀاينٚ پنڊريٚ  ٻوليٚ ري اندر ٻيا جملا ڏسڻ لاءِ پنڊريونٚ  سيٽنگونٚ تبديٚل ڪري سگهو دآ.
 speak-empty-state-cta = شرڪت ڪرڻ وآرا جملا
 speak-loading-error = اسآنٚ وٽ اڀانٚ لا ڪو با جملو ڪونهي ڳالهاڻ لا۔ مهربانيٚ ڪري ٿوريٚ دير مينٚ ڪوشيٚش ڪريو۔
 record-button-label = پندڊريٚ آواز ريٚڪوڊ ڪريو۔
@@ -44,12 +44,12 @@ submit-form-action = جمآ ڪرو
 report = رپوٚرٽ
 report-title = رپوٚرٽ جما ڪرو
 report-ask = ايئي  جملي سانٚ اڀآنٚ کي ڪهڙآ مسئلا درپيش اهينٚ؟
-report-offensive-language = ڪپيٚ ٻوٚليٚ
-report-offensive-language-detail = جملي مينٚ بي ازتيٚ جانٚ ناگوار ٻوٚليٚ هي.
+report-offensive-language = ڪپيٚ ٻوليٚ
+report-offensive-language-detail = جملي مينٚ بي ازتيٚ جانٚ ناگوار ٻوليٚ هي.
 report-grammar-or-spelling = گرآمر جآنٚ اسپيلنگ ريٚ گلٽيٚ
 report-grammar-or-spelling-detail = جملي مينٚ گرآمر جآنٚ اسپيلنگ ريٚ گلٽيٚ اهي
-report-different-language = الڳ ٻوٚليٚ
-report-different-language-detail = اَي پنڊريٚ ٻوٚليٚ کآنٚ مکتليٚف لکل اَهي۔
+report-different-language = الڳ ٻوليٚ
+report-different-language-detail = اَي پنڊريٚ ٻوليٚ کآنٚ مکتليٚف لکل اَهي۔
 report-difficult-pronounce = ڳالهاڻ مينٚ مشڪل
 report-difficult-pronounce-detail = ايئي مينٚ تمآم گھڻآ ڏُکيآ جملا ائينٚ لڦز اهينٚ
 report-offensive-speech = گندو گالهاڻ
@@ -77,8 +77,8 @@ shortcut-discard-ongoing-recording = ڇڏيٚ ڏڻ
 shortcut-discard-ongoing-recording-label = رد ڪرو هلتيٚ ريٚڪوڊدئيٚنگ کي
 shortcut-submit = واپس آڻ
 shortcut-submit-label = جمآ ڪرو ڪليٚپ
-request-language-text = اڃآنٚ تآئينٚ پنڊريٚ ٻوٚليٚ کيٚ ڪومن وئيٚس تي نآ ڏيسو
-request-language-button = درکواست ٻوٚليٚ ريٚ
+request-language-text = اڃآنٚ تآئينٚ پنڊريٚ ٻوليٚ کيٚ ڪومن وئيٚس تي نآ ڏيسو
+request-language-button = درکواست ٻوليٚ ريٚ
 
 ## Listen Shortcuts
 

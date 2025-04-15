@@ -5,4 +5,3 @@ contact-form-name =
     .label = نآلو
 contact-form-message =
     .label = نیآپو
-contact-required = زروٚرت
