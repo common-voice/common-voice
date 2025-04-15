@@ -1,11 +1,12 @@
 ## WRITE PAGE
 
 write = mááwʊ́ŋ
-write-instruction = tàsǝ̀<icon></icon> àgbèntùŋ tàà mààtǝ̀
+write-instruction = tàsǝ̀<icon></icon> jǝ́rá tǝ́n àwóór mààtǝ̀
+write-page-subtitle = màatǝ̀ wóntǝ̀ àkpáá tǝ́ cé ná, à rʊ̀ʊ̀ tǝ̀ jǝ́rá tǝ́n àwóór ʊ́ tǝ́ŋkǝ́n cc-0 námʊ́ŋ àhààwʊ̀ŋ tákǝ́rá rʊ̀ʊ̀.
 sentence =
     .label = máátǝ̀
-sentence-input-placeholder = ñʊ́ʊ́ àgbèntùŋ tàà máátǝ̀ kà cè
-small-batch-sentence-input-placeholder = ñʊ́ʊ́ àgbèntùŋ tàà máátǝ̀ kà cè
+sentence-input-placeholder = má  jǝ́rá tǝ́n àwóór máátǝ̀ kà cè
+small-batch-sentence-input-placeholder = má jǝ́rá tǝ́n àwóór  máátǝ̀ kà cè
 citation-input-placeholder = wǝ̀l ñá mààtǝ̀ rìlíínɖǝ̀ (féféré)
 citation =
     .label = añʊ̀ʊ́ŋ tóm

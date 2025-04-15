@@ -28,12 +28,75 @@ how-to-cite-explanation = Nɔ́ é nyí eoŋtɔ 'nyɔkuiwo yɔ́ ɔ, nù kpo�
 
 ## BULK SUBMISSION
 
+upload-more-btn-text = Sɔ̀ enyɔgbe buwo ɖaɖa
+file-invalid-type = Enyɔgbewo dakavi masɔgbe
+file-too-large = Enyɔgbewo dakavi lɔ gangan sugbɔ
+file-too-small = Enyɔgbewo dakavi lɔ hwe sugbɔ
+too-many-files = Enyɔgbewo dakavi lɔ wú egan
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> A sɔ́ enyɔgbe ci yí amɛɖe de kpa o sugbɔ kpii
+multiple-sentences-error = D'à sɛ́n eŋ sɔ́ enyɔgbe sugbɔ ɖaɖa le enusɔsɔɖaɖa kuɖeka mɛ o
+exceeds-small-batch-limit-error = Wo d'a sɛ́n eŋ sɔ́ enyɔgbe ciwo yí wú egan 1000 ɖaɖa o
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] É fla sɛnxu. Gbè tiikpɔ le miniti 1 godu
+       *[other] É fla sɛnxu. Gbè tiikpɔ le miniti { $retryLimit } godu.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] É fla sɛnxu. Gbè tiikpɔ le ɖabaxoxo 1 godu.
+       *[other] É fla sɛnxu. Gbè tiikpɔ le ɖabaxoxo { $retryLimit } godu.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] È ɖo fini ci yí wo ɖó a sɛ́n nɔ́ enuwosɔsɔɖaɖa le wema hunhunmɛ cɛ ji. Kaflaa, nɔ̀ ete miniti ɖeka gbɔxwe yí a sɔ́ enyɔgbe bu ɖaɖa. Akpe nɔ eo nɔ ao jigbɔnɖɛxɔxɔ!
+       *[other] È ɖo fini ci yí wo ɖó a sɛ́n nɔ́ enuwosɔsɔɖaɖa le wema hunhunmɛ cɛ ji. Kaflaa, nɔ̀ ete { $retryLimit } miniti gbɔxwe yí a sɔ́ enyɔgbe bu ɖaɖa. Akpe nɔ́ eo nɔ ao jigbɔnɖɛxɔxɔ!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] È ɖo fini ci yí wo ɖó a sɛ́n nɔ́ enuwosɔsɔɖaɖa le wema hunhunmɛ cɛ ji. Kaflaa, nɔ́ ete ɖabaxoxo 1 gbɔxwe yí a sɔ́ enyɔgbe bu ɖaɖa. Akpe nɔ́ eo nɔ ao jigbɔɖɛxɔxɔ!
+       *[other] È ɖo fini ci yí wo ɖó a sɛ́n nɔ́ enuwosɔsɔɖaɖa le wema hunhunmɛ cɛ ji. Kaflaa, nɔ́ ete { $retryLimit } ɖabaxoxo gbɔxwe yí a sɔ́ enyɔgbe bu ɖaɖa. Akpe nɔ́ eo nɔ ao jigbɔɖɛxɔxɔ!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } Enyɔgbewo fɔfɔkpli dó{ $totalSentences }
+       *[other] { $uploadedSentences } Enyɔgbewo fɔfɔkpli dó{ $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } enyɔgbewo fɔfɔkpli dó{ $totalSentences }. Ʒìn alɔ yi ji <downloadLink> elɛ</downloadLink> yí a sɔ́ xɔ enyɔgbe ciwo yí wo sɔ́ kɔŋgbe soso jinjinxwe.
+       *[other] { $uploadedSentences } enyɔgbewo fɔfɔkpli dó{ $totalSentences }. Ʒìn alɔ yi ji<downloadLink> elɛ</downloadLink> yí a sɔ́ xɔ enyɔgbe ciwo yí sɔ́ kɔŋgbe soso jinjintɔxu.
+    }
+small-batch-sentences-rule-1 = Zɔ̀n do lé wo dré enuwo dó jí le kpashi lɔ mɛ "Enyɔgbe ciwo yí na sɛ́n eŋ sɔ́ kpii ɔ?"
+small-batch-sentences-rule-2 = Sɔ̀ enyɔgbe ɖeka kpii le teshi ji
+small-batch-sentences-rule-3 = Sɔ̀ alɔ ʒinkɔ "yimɛɖoɖo" jí zeɖeka yí a sɔɛ makɔ enyɔgbewo mɛ
+small-batch-sentences-rule-4 = Sɔ̀ enyɔgbewo kpiikɔ keke á sun 1000
+small-batch-sentences-rule-5 = Enyɔgbe lɔwo pleŋ ɖó a só jɔsoxu ŋmɛ ɖeka mɛ
+small-batch-sentences-rule-6 = Amɛcinyɔwosɔ nunu ɖó a nyí ŋmɛ ɖeka nɔ́ enyɔgbe lɔwo pleŋ
+# menu item
+add-sentences = Sɔ̀ enyɔgbewo kpii
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Enyɔgbesɔsɔkpii koɖo wowo dradrado, biɔsewosɔsɔ kpii; egbeɖidɩsese ŋwlɛŋwlɛ
+add-sentences-menu-item-tooltip = Enyɔgbewosɔsɔ kpii dó  ao 'gbe mɛ
+review-sentences-menu-item-tooltip = Glò enyɔgbe lɔwo kpɔ́ kpɔ́ mɔ́ wo nyɔ́ le ao 'gbe mɛ ma
+add-questions-menu-item-tooltip = Sɔ̀ biɔsewo kpii dó ao 'gbe mɛ
+transcribe-audio-menu-item-tooltip = Egbeɖiɖixɔxɔ do eka ji ŋwlɛŋwlɛ do ao 'gbe mɛ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Cancan ciwo yí le edɔwawawo 'gbán "enuŋwlɛŋwlɛ" mɛ
+add-sentences-menu-item-aria-label = Sɔ̀ enyɔgbe yoyuwo kpii nɔ́ agbetɔ ahwa a hlɛn
+review-sentences-menu-item-aria-label = Glò enyɔgbe ciwo yí li yí agbetɔ ahwa lɔ sɔ́ ɖo ŋmɛ nɔ amɛ kpɔ kpɔ́ mɔ́ wo nyɔ́ ma
+add-questions-menu-item-aria-label = Sɔ̀ biɔse yoyuwo ɖó ŋmɛ nɔ agbetɔ ahwa lɔ nɔ́ á hliin yí a ɖó wo ŋci
+transcribe-audio-menu-item-aria-label = Egbeɖiɖi ciwo yí wo xɔ do ekaji  ɔ, ŋwlɛ̀ wo dó enyɔgbewo fɔfɔkplitɔ ji

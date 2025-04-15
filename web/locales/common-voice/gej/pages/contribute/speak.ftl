@@ -34,6 +34,8 @@ review-submit-msg = akpé na apo nyàlelewo ŋuti! <lineBreak></lineBreak> fifì
 review-recording = kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
 review-rerecord = trɔ le nyà
 review-cancel = tɔtè nyàɖoɖoɖaa
+review-keep-recordings = lebe na nyàléléwo ɖo tèpé ɖe
+review-delete-recordings = tutu nyàléléwo
 
 ## MENU ITEM TOOLTIPS
 
