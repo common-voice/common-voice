@@ -13,6 +13,8 @@ goal-help-recording = Hukwilila banwe, Common Voice go fihisha <goalPercentage><
 goal-help-validation = Ukilila banwe, Common Voice go fihisha <goalPercentage></goalPercentage> ifiko yage ya kila tufu { $goalValue } witabijya
 contribute-more = Tayari wa ulonga { $count } bishali ?
 speak-empty-state = Nda tu ki na milongo ya uchwejya muluno lulimi…
+no-sentences-for-variants = Mu bungi bwa ndimi yenu yi limo mu bwiibwii bwa misambo ! Utu muli Guba, mu mueza ugajibula mazina wa umonesha milongo yingi mululimi lobe.
+speak-empty-state-cta = Ulinglija milongo
 
 ## Reporting
 
