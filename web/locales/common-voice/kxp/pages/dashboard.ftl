@@ -35,8 +35,75 @@ easy-difficulty = هورُون
 average-difficulty = سراسري
 difficult-difficulty = ۮورُون
 pro-difficulty = مورٿِي
-not-receiving-emails-info =
+activity-needed-calculation-plural =
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] سرگرمي ني ضرورت سي
+                               *[other] سرگرمي ني ضرورت سي
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] سرگرمي ني ضرورت سي
+                               *[other] سرگرمي ني ضرورت سي
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] سرگرمي ني ضرورت سي
+                               *[other] سرگرمي ني ضرورت سي
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] سرگرمي ني ضرورت سي
+                               *[other] سرگرمي ني ضرورت سي
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] سرگرمي ني ضرورت سي
+                               *[other] سرگرمي ني ضرورت سي
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] سرگرمي ني ضرورت سي
+                               *[other] سرگرمي ني ضرورت سي
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] سرگرمي ني ضرورت سي
+                               *[other] سرگرمي ني ضرورت سي
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] سرگرمي ني ضرورت سي
+                               *[other] سرگرمي ني ضرورت سي
+                            }
+                    }
+            }
+    }
+how-many-per-day = واه: ايڪ ۮاڙا مان چيٽلا ڪلپ سي؟
+how-many-a-week = واه: ايڪ هفتا مان چيٽلا ڪلپ سي؟
+which-goal-type = تمين ٻولوا چاهو سو، هانڀۯو يان ٻيئي
+receiving-emails-info =
     في الحال تمين بولڍ هارو تيار سو، بولڍ نا بولڍ تمارا مقصد هارو اي ميل هيئي سڙاوي سي۔ مارا 
+    ترقي هارو اپڍيٽ هانَ عام آواز هارو خيير
+not-receiving-emails-info =
+    في الحال  همڻين تمين بولڍ هارو تيار سو، بولڍ نا بولڍ تمارا مقصد هارو اي ميل هيئي سڙاوي سي۔ مارا 
     ترقي هارو اپڍيٽ هانَ عام آواز هارو خيير
 n-clips-pluralized =
     { $count ->

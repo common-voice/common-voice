@@ -49,6 +49,7 @@ create-profile-button = Opret en profil
 
 ## MENU ITEM TOOLTIPS
 
+read-sentences-menu-item-tooltip = Optag dig selv, mens du oplæser sætninger på dit sprog
 
 ## MENU ITEM ARIA LABELS
 
