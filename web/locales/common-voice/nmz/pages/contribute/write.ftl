@@ -139,23 +139,24 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = ɩ́ tǝ̀ŋkǝ̀ à rʊ̀wá sǝ̀ à là wóm nùwàŋ ná  « mààtǝ̀ wóntã̀ŋ kànà mà tàsǝ̀ ? »
 small-batch-sentences-rule-2 = ɩ́ tásǝ̀ mààtǝ̀ kà  tàà
-small-batch-sentences-rule-3 = ñʊ́ʊ̀ « sʊ̀wɩ̀ɩ̀ » rʊ̀ʊ̀ nǝ̀ ɩ́ tár mààtǝ̀
+small-batch-sentences-rule-3 = ñʊ́ʊ̀ « sʊ̀wɩ̀ɩ̀ » rʊ̀ʊ̀ nǝ̀ ɩ́ rʊ́ mààtǝ̀ kà ntèntè
 small-batch-sentences-rule-4 = ɩ́ tásǝ̀ mààtǝ̀ kà kàkáà 1 000
-small-batch-sentences-rule-5 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ mààtǝ̀ kà tǝ̀ tǝ́n kpéntǝ̀ rǝ̀líínɖǝ̀
-small-batch-sentences-rule-6 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ nʊ́ʊ̀r lǝ̀mɔ̀ɔ̀sǝ́m wɩ̀ɩ̀ mààtǝ̀ kà tǝ̀ tǝ́n tà
+small-batch-sentences-rule-5 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ mààtǝ̀ tǝ́n kpéntǝ̀ rǝ̀líínɖǝ̀
+small-batch-sentences-rule-6 = ʊ̀ mɔ̀ɔ̀ná à rʊ́ nʊ́ʊ̀r lǝ̀mɔ̀ɔ̀sǝ́m kà mààtǝ̀ tǝ́n tà
 # menu item
 add-sentences = ɩ́ tásǝ́ mààtǝ̀
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = máátǝ̀ tàsʊ́ŋ nǝ̀ tǝ̀ gbèŋkǝ̀lʊ̀ŋ, tóm wòsùŋ nǝ̀ tóm kʊ́kpààpǝ̀ mààwʊ̀ŋ
 add-sentences-menu-item-tooltip = ɩ́ tásǝ̀ mààtǝ̀ kà mɩ́ wʊ́tã́ŋ tàà
-review-sentences-menu-item-tooltip = ɩ́ wííl mɩ́ wʊ̀tã̀ŋ tà mààtǝ̀
+review-sentences-menu-item-tooltip = ɩ́ wííl mààtǝ̀ kà mɩ́ wʊ̀tã̀ŋ tà
 add-questions-menu-item-tooltip = ɩ́ tásǝ̀ àcìsùŋ tóm kà mɩ́ wʊ́tã̀ŋ tàà
-transcribe-audio-menu-item-tooltip = ɩ́ má àkpààwʊ̀ŋ mààtǝ̀ kà mɩ́ wʊ́tã̀ŋ tàà
+transcribe-audio-menu-item-tooltip = mɩ́ wʊ́tã̀ŋ tàà tóm kʊ́kpààpǝ̀ mààwʊ̀ŋ
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = « mààwʊ́ŋ » àwoór
+write-contribute-menu-aria-label = « mààwʊ́ŋ » àwóór
 add-sentences-menu-item-aria-label = ɩ́ tásǝ̀ mààtǝ̀ kʊ́fàtǝ̀ nǝ̀ mɩ̀ àkpàr tɩ̀ɩ̀nàà kál
 review-sentences-menu-item-aria-label = ɩ́ wííl mààtǝ̀ wóntǝ́ mɩ́ àkpàr tɩ̀ɩ̀nàà lǝ̀sǝ́tǝ́ wá wǝ́l nǝ̀ tǝ̀ wɩ̀ɩ̀ mɩ̀ wʊ́tã̀ŋ tàà ná
 add-questions-menu-item-aria-label = ɩ́ lǝ́sǝ́ àcìsùŋ tóm kʊ́fám nǝ̀ ɩ́ wǝ́l nǝ̀ ʊ́ jél mɩ́ àkpàr ràànáà kál nǝ̀ wá cìsì tǝ́
