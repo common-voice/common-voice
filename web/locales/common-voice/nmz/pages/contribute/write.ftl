@@ -61,6 +61,7 @@ sentence-variant-select-multiple-variants = wóntǝ̀ ʊ̀ mɔ̀ɔ́nà sǝ̀ 
 sc-bulk-upload-header = jèkǝ̀ <icon></icon>agbèntùŋ tà mààtǝ̀
 sc-bulk-upload-instruction = rʊ́ ñá tákǝ́rã́ŋ kà tàà cé jàà <uploadButton> ñʊ́ </uploadButton> rʊ̀ʊ̀ nǝ̀ ŋ́ jékǝ̀ ká
 sc-bulk-upload-instruction-drop = rʊ́ tákǝ́rã̀ŋ kà cè nǝ̀ ŋ́ jékǝ́ ká
+bulk-upload-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ àkpá tóm nǝ̀ àtàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
