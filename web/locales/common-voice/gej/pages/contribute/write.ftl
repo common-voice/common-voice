@@ -24,6 +24,11 @@ new-sentence-rule-8 = e ɖo la nɔ̀ bɔ̀bɔɛɖé bé  wo a hlɛ̃̀ àpo nyà
 login-instruction-multiple-sentences = <loginLink>ɖo kàmè</loginLink> alo <loginLink> ŋlɔ̀ àpo nyikɔ </loginLink> né wo la sɔ nyàgbè gbogboɖewo  kpéè.
 how-to-cite = leke wo la zã àmènumègbe o
 how-to-cite-explanation-bold = zã àmè a bé numègbe ku layiniɖé alo xòma a bé tanya.
+how-to-cite-explanation = Né wò ŋútɔ àpo nyàtiwo yé a,  ŋlɔ̀ kpò bé <italicizedText> " amè ŋutɔ bé numègbe</italicizedText>. mí ɖo la nya nuŋɔŋlɔ awo bé jɔ̀sopé né mi la téŋu ku nu  mè  kpɔ bé haho lè  zã ɛ eye sé ɖékpé  mu  kùɖo ebe zãzã ŋúti o. né  wo le  ji la xɔ̀  númèkɔ̀kɔ sùgbɔ kùɖo àmènumègbewo ŋuti a yì<guidelinesLink>ji, miabe mɔtata
+guidelines = mɔtatawo/ mɔfiɔfiɔwo/ sèwo
+contact-us = ɖe  wò ji la yɔ mí a a
+add-sentence-success = nyàgbè kèwo  lé a
+add-sentence-error = àgbàdàda lè nyàgbè a sɔsɔkpe
 
 ## BULK SUBMISSION
 
