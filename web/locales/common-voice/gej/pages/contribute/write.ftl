@@ -40,6 +40,24 @@ agriculture_food = àgblèdada ku àgblèmènukuwoŋutidɔwɔ̀wɔ / àgblèmèn
 automotive_transport = hũ ku mɔzɔ̃zɔ̃
 # Sentence Domain dropdown option
 finance = gànyàwo
+# Sentence Domain dropdown option
+service_retail = dɔwo ku àlɔ̀jinusàsa
+# Sentence Domain dropdown option
+healthcare = lã̀mèsɛ̃́
+# Sentence Domain dropdown option
+history_law_government = xotùnyǎ, sé ku dùkpɔ̀kplɔ̌
+# Sentence Domain dropdown option
+language_fundamentals = gbèwo gɔ̃̀̀mèɖokpéwo ( nɔbàwo, nuŋlɔ̀kuiwo alo nuŋlɔ̀jèsìwo, gà)
+# Sentence Domain dropdown option
+media_entertainment = nyàkàkàmɔwo ku ŋùkumèjakaɖèɖě
+# Sentence Domain dropdown option
+nature_environment = xixé ku nu kèwo trɔ do mí a.
+# Sentence Domain dropdown option
+news_current_affairs = nyàjɔ̀jɔ̌wo
+# Sentence Domain dropdown option
+technology_robotics = mɔ̀ɖàŋudɔ ku hlòboɖoɖo
+sentence-variant-select-label = nyàgbèhamèhamèwo
+sentence-variant-select-placeholder = cã ɖe ( ne jro wò a)
 
 ## BULK SUBMISSION
 
