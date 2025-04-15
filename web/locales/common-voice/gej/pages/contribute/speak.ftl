@@ -54,6 +54,9 @@ first-cta-gender-select-help-text =
     .label = ɖe wò ji la  ɖe apo ŋusunyinyi àlo nyɔnùnyinyi fíɔ a.
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = àkpe  na wò bé  wò woe apo gbè na mi/ àkpe  na wò bé  wò na mi apo gbè.
+second-cta-subtitle-text = ku apo àmètakoɖoefotadadaɖo kà mè a wo la téŋu nɔ le  ŋùku ɖo àpo  dɔ eye wo la teŋu nɔ̀ kàmè ku  hasòsoe  kèwo woe  na woabe gbèwo na àmè.
+already-have-an-account = ɖe wò ɖo kɔ̃ti   <login>  kà
+create-profile-button = dà àmètakoɖoefoto ɖo kà mè.
 
 ## MENU ITEM TOOLTIPS
 

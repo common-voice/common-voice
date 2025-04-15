@@ -5,7 +5,7 @@ welcome-to-spontaneous-speech = Mukalhambayiribawa oko myatsi muthina-muthina.
 wall-of-text = Common Voice haghuma yikathongolibawa omo mwatsi w’abandu ow’erisorokya ebindu eby’obuhangwa om’obuli kipindi, ebikabanika omo buli mibere, omo buli mubuughe. kino kikendiwathikya abandu banene erisorokya emyatsi lhuba, eyikendiwathikya abanya sayasi n’abakakulhaya ekipindi.
 why-spontaneous-speech = Ekikendileka ithwakolesya emibuughe ey’obuli muthina.
 # text wrapped with <mark></mark> will have a light red background
-why-card-1-text = Omuthambo owakino<mark>organic speech contexts</mark> n’emikoleserye yawo (wukasonda eriminyikalibwa omo mukania basana n’erikolha n’abandu omo mikania.)
+why-card-1-text = Omuthambo owakino<mark>organic speech contexts</mark> n’emikoleserye yawo (wukasonda eriminyikalibwa omo mukania basana n’erikolha n’abandu omo mikania)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Eriwathikya emibuughe omo kwenene kandi n’eribindulhayo omo yindi mibuughe <mark>code-switching</mark>
 # text wrapped with <mark></mark> will have a light red background

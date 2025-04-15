@@ -76,10 +76,10 @@ bulk-upload-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ àkpá tóm
 template-file-additional-information = nǝ́ ɩ́ sòòláà sǝ̀ ɩ́ há tóm pǝ̀ tã̀ŋ rà kpààrǝ́tǝ tóm tà ná nǝ̀ ɩ́ tàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = ɩ́ tàsǝ̀ mɔ̀ɔ̀sʊ̀ŋ kà mɩ́ tákǝ́rá rʊ́wʊ̀ŋ kà cé
 try-upload-again-md = ɩ́ tàsǝ̀ mɔ̀ɔ̀sʊ̀ŋ kà jékùŋ
-select-file = ɩ́ lǝ́sǝ́ tákǝ́ràŋ náŋkár
-select-file-mobile = ñʊ́ʊ́ àjèkùŋ tàkǝ̀ràŋ náŋkár rʊ̀ʊ̀
-accepted-files = àtìsùŋ tóm : tsv rǝ̀cél
-minimum-sentences = tómpǝ̀ ʊ̀ mɔ̀ɔ̀nà sǝ̀ ànà tàkǝ̀ràŋ tà ná :1 000
+select-file = ɩ́ lǝ́sǝ́ tákǝ́ràŋ kàr
+select-file-mobile = ɩ́ lǝ́sǝ́ àjèkùŋ tàkǝ̀ràŋ kàr
+accepted-files = tákǝ́rásǝ́ kútísísásǝ́ : tsv rǝ̀cél
+minimum-sentences = tómpǝ̀ ʊ̀ tà mɔ̀ɔ̀nà sǝ̀ àpàsǝ̀ pǝ́ tá kà tàkǝ̀ràŋ tà ná :1 000
 
 ## SMALL BATCH SUBMISSION
 
