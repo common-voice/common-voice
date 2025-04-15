@@ -94,6 +94,18 @@ too-many-files = fìsiewo sùgbɔ
 small-batch-instruction = sɔ́ nyàgbè sùgbɔ  kèyé àmèwo nya nyɔɛɖé a kpé è.
 multiple-sentences-error = wò mu la téŋu kpé nyàgbèwo gbogboɖé huè kè nu wo le do nuwo ɖo ɖa o.
 exceeds-small-batch-limit-error = wò mu la téŋu ɖo nyàgbè kèwo wu kà wui vɔ àtɔ̃ ɖo ɖa gbèɖé o
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é wɔ̀ mínítì ɖèka vɔ̀/ hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é sù mínítì ɖèka vɔ̀.
+       *[other] hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é wɔ̀ mínítì ɖèka vɔ̀/ hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é sù mínítì { $retryLimit }.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é wɔ̀ àɖàbàpòpo ɖèka vɔ̀/ hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é sù àɖàbàpòpo ɖèka vɔ̀.
+       *[other] hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é wɔ̀ { $retryLimit } vɔ̀/ hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é sù { $retryLimit }ɖèka vɔ̀.
+    }
 
 ## MENU ITEM TOOLTIPS
 

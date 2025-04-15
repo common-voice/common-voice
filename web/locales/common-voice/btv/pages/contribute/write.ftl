@@ -113,6 +113,12 @@ rate-limit-toast-message-seconds =
         [one] حد سو ریٹ زیاتیں گا تھو دوبارہ کوشش گر { $retryLimit } سکنڈوں مہ
        *[other] { "" }
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تُو اِس صفہ جمہ گرے سوحدےاوڑ گا تھو۔مہربانی گیری پرئیں جملہ جمہ گرے نو اول 1 ملٹ انتظار گر تیں صبر گرے سو شکریہتو اِس صفہ سو دَن جمہ گرے سو حدے اُڑ گا تھو  مہربانی گر انتظار گر{ $retryLimit } ملٹ پرئیں جملہ جمہ گرے نو اول تیں شکریہ صبر گرے سو !
+       *[other] { "" }
+    }
 
 ## MENU ITEM TOOLTIPS
 
