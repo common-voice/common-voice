@@ -114,6 +114,9 @@ add-small-batch-success =
         [one] { $uploadedSentences } àkpààwʊ̀ŋ mààtǝ̀ kà{ $totalSentences } tàà
        *[other] { $uploadedSentences } àkpààwʊ̀ŋ mààtǝ̀ kà{ $totalSentences } tàà
     }
+small-batch-sentences-rule-2 = ɩ́ tásǝ̀ mààtǝ̀ kà àhìlìm tàà
+small-batch-sentences-rule-3 = ñʊ́ʊ̀ « sʊ̀wɩ̀ɩ̀ » rʊ̀ʊ̀ nǝ̀ ɩ́ tár mààtǝ̀
+small-batch-sentences-rule-4 = ɩ́ tásǝ̀ mààtǝ̀ kà kàkáà 1 000
 small-batch-sentences-rule-5 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ mààtǝ̀ kà tǝ̀ tǝ́n kpéntǝ̀ rǝ̀líínɖǝ̀
 small-batch-sentences-rule-6 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ nʊ́ʊ̀r lǝ̀mɔ̀ɔ̀sǝ́m wɩ̀ɩ̀ mààtǝ̀ kà tǝ̀ tǝ́n tà
 # menu item
@@ -121,6 +124,7 @@ add-sentences = ɩ́ tásǝ́ mààtǝ̀
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = ɩ́ tásǝ̀ mààtǝ̀ kà mɩ́ wʊ́tã́ŋ tàà
 
 ## MENU ITEM ARIA LABELS
 

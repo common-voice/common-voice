@@ -1,5 +1,9 @@
 # GUIDELINES PAGE
 guidelines-header = წვლილი სახელმძღვანელო მითითება̄̈ლ
+guidelines-header-subtitle = ჟ'ა̄̈ხმეჴერ იმჟი ხეკუ̂ეს ათხიჲა ისგუ წვლილ ი იმჟი დაადასტურო Common Voice მონაცემრე ბაზაისგა
+voice-collection = ჰერლე კოლექცია
+sentence-collection = წინადადება̄ლე ხორეუ̂
+question-collection = შკითხუ̂ა̄̈ლე ხორეუ̂
 
 ## Voice Collection nav ids
 
