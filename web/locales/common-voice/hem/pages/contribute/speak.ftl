@@ -73,3 +73,6 @@ answer-questions-menu-item-tooltip = Mwichwejye muulunga u mayujyo na u bageni b
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Nsobozi ya myanda  « Gwi Sambe »
+read-sentences-menu-item-aria-label = Usoma milongo yi biibwe na ibungo mu ndimi halahala
+answer-questions-menu-item-aria-label = Lingilijya yujyo liya  dju ibungo cha some na cha lunge

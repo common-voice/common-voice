@@ -58,9 +58,12 @@ news_current_affairs = nyàjɔ̀jɔ̌wo
 technology_robotics = mɔ̀ɖàŋudɔ ku hlòboɖoɖo
 sentence-variant-select-label = nyàgbèhamèhamèwo
 sentence-variant-select-placeholder = cã ɖe ( ne jro wò a)
+sentence-variant-select-multiple-variants = nyàtakãkã so gbè  a ŋuti / gbèlɔ̀zɛ̃wo
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = sɔ́ nyàgbɔ̃gblɔ̃̌  kèyé àmèwo nya nyɔɛɖé a kpé è.
 
 ## SMALL BATCH SUBMISSION
 
