@@ -64,6 +64,9 @@ sentence-variant-select-multiple-variants = nyàtakãkã so gbè  a ŋuti / gb
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = sɔ́ nyàgbɔ̃gblɔ̃̌  kèyé àmèwo nya nyɔɛɖé a kpé è.
+sc-bulk-upload-instruction = sɔ àpo nu fisie ɖo fiyè alo <uploadButton> àlo sɔ àsi tɔɛ né wò la sɔɛ ɖo ɖa
+sc-bulk-upload-instruction-drop = dàɛ ɖo fiyè né àteŋu sɔɛ̀ ɖo ɖa
+bulk-upload-additional-information = né wò ji  la sɔ nyàɖéwo kpéè kùɖo fìsíe kèyà ŋutia, mì ɖó kàmè na <emailFragment></emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
