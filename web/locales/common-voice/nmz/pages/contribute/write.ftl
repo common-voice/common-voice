@@ -1,13 +1,13 @@
 ## WRITE PAGE
 
 write = mááwʊ́ŋ
-write-instruction = tàsǝ̀<icon></icon> mààtǝ̀
+write-instruction = tàsǝ̀<icon></icon> àgbèntùŋ tàà mààtǝ̀
 sentence =
     .label = máátǝ̀
 sentence-input-placeholder = ñʊ́ʊ́ àgbèntùŋ tàà máátǝ̀ kà cè
 small-batch-sentence-input-placeholder = ñʊ́ʊ́ àgbèntùŋ tàà máátǝ̀ kà cè
 citation-input-placeholder = wǝ̀l ñá mààtǝ̀ rìlíínɖǝ̀ (féféré)
-sc-review-write-title = má tàsǝ̀ máátǝ̀ wóntã̀ŋ ?
+sc-review-write-title = máátǝ̀ wóntã̀ŋ kánà má pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ má tàsǝ̀ ?
 sc-review-small-batch-title = sǝ́nãŋ káná má là nǝ̀ má rʊ́ mààtǝ̀ kà kpàtǝ̀r ?
 new-sentence-rule-1 = <noCopyright> máátǝ̀ cí wɩ̀ɩ́n wár kà rǝ́tǝ́n</noCopyright>(<cc0>cc-0</cc0>)
 new-sentence-rule-2 = mààtǝ̀ wóntǝ̀ kààsà ná tá tàl 15
@@ -62,7 +62,7 @@ sc-bulk-upload-header = jèkǝ̀ <icon></icon>agbèntùŋ tà mààtǝ̀
 sc-bulk-upload-instruction = rʊ́ ñá tákǝ́rã́ŋ kà tàà cé jàà <uploadButton> ñʊ́ </uploadButton> rʊ̀ʊ̀ nǝ̀ ŋ́ jékǝ̀ ká
 sc-bulk-upload-instruction-drop = rʊ́ tákǝ́rã̀ŋ kà cè nǝ̀ ŋ́ jékǝ́ ká
 bulk-upload-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ àkpá tóm nǝ̀ àtàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ ɩ́ kpá tómpǝ̀ tã̀ŋ rà kpààrǝ́tǝ tóm tà ná nǝ̀ ɩ́ tàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ ɩ́ t tómpǝ̀ tã̀ŋ rà kpààrǝ́tǝ tóm tà ná nǝ̀ ɩ́ tàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = ɩ́ lìmìsì mɩ́ tóm kà táà cé nǝ̀ ɩ́ lèl
 try-upload-again-md = ɩ́ tàsǝ̀ mɔ̀ɔ̀sʊ̀ŋ kà jékùŋ
 select-file = ñʊ́ʊ́ tákǝ́ràŋ náŋkár rʊ̀ʊ̀
