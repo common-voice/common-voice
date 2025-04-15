@@ -107,9 +107,49 @@ rate-limit-toast-message-minutes =
         [one] Mubongo go kwila. Anzulula mu 1 miniti.
        *[other] Mubongo go kwila. Anzulula mu { $retryLimit } miniti.
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Mubongo go kwila. Anzulula mu 1 sekunde.
+       *[other] Mubongo go kwila. Anzulula mu { $retryLimit } sekunde.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Mufiishe u mubongo gwa utuma lino kartasi. Muhembele 1 muniti gumo umbambo ya utuma. Tofakisha wa uhemba wenu !
+       *[other] Mufiishe u mubongo gwa utuma lino kartasi. Muhembe { $retryLimit } munonga nusu mbele ya utuma mulongo gwinage, wafuafo wa uhembela wenu !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Mufiishe u mubongo gwa utuma lino kartasi. Muhembele 1 sekunde gumo umbambo ya utuma. Tofakisha wa uhemba wenu !
+       *[other] Mufiishe u mubongo gwa utuma lino kartasi. Muhembe { $retryLimit } munonga nusu mbele ya utuma mulongo gwinage, wafuafo wa uhembela wenu !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } Mulongo gubungibwe u { $totalSentences }
+       *[other] { $uploadedSentences } Milongo yibungibwe u { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } Mulongo gubungibwe{ $totalSentences }. Yatinya <downloadLink>  dju ya  utusha  milongo yisumbulibwe.
+       *[other] { $uploadedSentences } Milongo yibungibwe u { $totalSentences }. Yatinya <downloadLink>ici</downloadLink> dju ya utusha milongo yisumbulibwe.
+    }
+small-batch-sentences-rule-1 = Mulonde nduli ya iindi « mulong'ayi gwa ni mweza ulunda ? »
+small-batch-sentences-rule-2 = Mulunde mulongo wa kisiko
+small-batch-sentences-rule-3 = Kwalula milongo mu uyatinya lugendo lumo dju ya « Uchwela »
+small-batch-sentences-rule-4 = Mulunde mupaka milongo 1000 limo
+small-batch-sentences-rule-5 = Milingo yose yipashile uchala na ibungo choimo
+small-batch-sentences-rule-6 = Milingo yose yipashile uchala na mutelelwa go gumo
+# menu item
+add-sentences = Lunda milongo
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Ulunda na ulongolola milongo, lunda mayujyo, na uchwejya maywi
+add-sentences-menu-item-tooltip = Lunda milongo mu lulimi lwenu
 
 ## MENU ITEM ARIA LABELS
 

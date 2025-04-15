@@ -73,6 +73,9 @@ try-upload-again-md = gbà gbìgbɔ̀ sɔ nu ɖo ɖa a
 select-file = cã fìsiéɖé.
 select-file-mobile = cã fìsieɖé kè wó la ɖo ɖa a
 accepted-files = fisie xòmèvi kèwo dà àsi ɖo ji a :  kè nyi tsv ɖèɖé kpò
+minimum-sentences = nyàgbènɔbà nénè kè la nɔ̀ fìsíe a mè a mu ɖo la nɔ̀ gɔ̃̀mè na kà wui vɔ àtɔ̃ o.
+maximum-file-size = fìsie a bé kpɛ̃̀kpɛ̃mè mú ɖo la wu mo wui vɔ  àtɔ̂ ò.
+what-needs-to-be-in-file = nukɛ ɖó la  nɔ̀  ape fisié a mè o
 
 ## SMALL BATCH SUBMISSION
 

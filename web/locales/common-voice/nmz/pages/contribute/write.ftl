@@ -94,6 +94,8 @@ too-many-files = tákǝ́rásǝ̀ kǝ̀l hàlì
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> tàsǝ̀ jǝ́rá tǝ́n àwóór mààtǝ̀ kà kpàtǝ̀r
+multiple-sentences-error = ɩ́ kàà pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ɩ́ jékǝ̀ mààtǝ̀ kpàtǝ̀r kà tám kʊ́rǝ́mpǝ̀
+exceeds-small-batch-limit-error = ɩ́ kàà pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ɩ́ rʊ́ mààtǝ̀ nǝ̀ ʊ́ tésǝ́ 1 000
 
 ## MENU ITEM TOOLTIPS
 
