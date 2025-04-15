@@ -76,6 +76,10 @@ accepted-files = fisie xòmèvi kèwo dà àsi ɖo ji a :  kè nyi tsv ɖèɖé
 minimum-sentences = nyàgbènɔbà nénè kè la nɔ̀ fìsíe a mè a mu ɖo la nɔ̀ gɔ̃̀mè na kà wui vɔ àtɔ̃ o.
 maximum-file-size = fìsie a bé kpɛ̃̀kpɛ̃mè mú ɖo la wu mo wui vɔ  àtɔ̂ ò.
 what-needs-to-be-in-file = nukɛ ɖó la  nɔ̀  ape fisié a mè o
+upload-progress-text = e le yì
+sc-bulk-submit-confirm = mù ɖo kpé eji bé nyàgbè kèyàwo a<wikipediaLink> àmèwo zãna eye wo ɖè mɔ na mù bé ma sɔ wo ɖo ɖa.
+bulk-upload-success-toast = wo sɔ nyàgbèwo ɖo ɖa
+bulk-upload-failed-toast = nyàgbè a mu téŋu yì o, taflacɛ trɔ gbìgbɔ ɖoe ɖo ɖa.
 
 ## SMALL BATCH SUBMISSION
 

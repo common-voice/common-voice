@@ -96,6 +96,24 @@ too-many-files = tákǝ́rásǝ̀ kǝ̀l hàlì
 small-batch-instruction = <icon></icon> tàsǝ̀ jǝ́rá tǝ́n àwóór mààtǝ̀ kà kpàtǝ̀r
 multiple-sentences-error = ɩ́ kàà pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ɩ́ jékǝ̀ mààtǝ̀ kpàtǝ̀r kà tám kʊ́rǝ́mpǝ̀
 exceeds-small-batch-limit-error = ɩ́ kàà pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ɩ́ rʊ́ mààtǝ̀ nǝ̀ ʊ́ tésǝ́ 1 000
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ càcàràŋ 1 tàà.
+       *[other] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ càcàsǝ̀ { $retryLimit } tàà.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ cǝ̀lcǝ̀l 1 tàà.
+       *[other] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ cǝ̀lcǝ̀l { $retryLimit } tàà.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } àkpààwʊ̀ŋ mààtǝ̀ kà{ $totalSentences } tàà
+       *[other] { $uploadedSentences } àkpààwʊ̀ŋ mààtǝ̀ kà{ $totalSentences } tàà
+    }
 
 ## MENU ITEM TOOLTIPS
 

@@ -150,6 +150,14 @@ add-sentences = Lunda milongo
 
 write-contribute-menu-tooltip = Ulunda na ulongolola milongo, lunda mayujyo, na uchwejya maywi
 add-sentences-menu-item-tooltip = Lunda milongo mu lulimi lwenu
+review-sentences-menu-item-tooltip = Muzingulule milongo mu lulimi lwenu
+add-questions-menu-item-tooltip = Mu lunde mayujyo mu lulimi lwenu
+transcribe-audio-menu-item-tooltip = Muchwejye maywi mu lulimi lwenu
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Sobozi ya myanda « Gandia »
+add-sentences-menu-item-aria-label = Mulunde milongo yiya ya usoma mu ibungo yobe
+review-sentences-menu-item-aria-label = Muzingulule milongo ya kala yi boye na ibungo
+add-questions-menu-item-aria-label = Mu vishe mayujyo gaya a mwanda gwa ibungo bya usoma na u bilunga
+transcribe-audio-menu-item-aria-label = Muyitibijye bigandie ya michwejyo ya maywi mu mutindi gwa busomi
