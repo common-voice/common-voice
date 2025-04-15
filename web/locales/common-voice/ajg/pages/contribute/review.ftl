@@ -33,7 +33,7 @@ sc-review-form-reviewed-message =
        *[other] { "" }
     }
 sc-review-form-review-failure = ŋkuvilélé ɖé enuŋu dé le lelé ɖɛ o. Trɔ á tikpɔ gabují
-sc-review-link = glo nu me kpɔ, ku nu me kpɔ
+sc-review-link = glo nu me kpɔ, ku nu me kpɔ, á trɔátó enuwo me.
 
 ## REVIEW CRITERIA
 

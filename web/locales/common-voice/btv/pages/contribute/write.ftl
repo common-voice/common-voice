@@ -50,9 +50,28 @@ service_retail = خدمت آ مول گھِنو
 general = عام
 # Sentence Domain dropdown option
 healthcare = صحت سو خیال
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون آ حکومت
+# Sentence Domain dropdown option
+language_fundamentals = زیب سو بنیاد (نمبر، حرف،روپے)
+# Sentence Domain dropdown option
+media_entertainment = میڈیا آ مزہ
+# Sentence Domain dropdown option
+nature_environment = قدرت آ ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبرے آ حاضر حالات
+# Sentence Domain dropdown option
+technology_robotics = ٹیکنالوجی آ روبوٹ
+sentence-variant-select-label = جملہ بدل
+sentence-variant-select-placeholder = بدل خوش گر ( اختیاری)
+sentence-variant-select-multiple-variants = عام زیب / مختلف بدل
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اپلوڈ <icon> </icon> لوں سو احاطہ سو جملے
+sc-bulk-upload-instruction = اپو فائل ایزئ ڈریگ گر یا <uploadButton> اپلوڈ کلک گر</uploadButton>
+sc-bulk-upload-instruction-drop = اپلوڈگرے سو دَن فائل ایزا  وال
 
 ## SMALL BATCH SUBMISSION
 

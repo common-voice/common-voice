@@ -24,9 +24,9 @@ new-sentence-rule-8 = Chisoneko chatamba kubwa cha kuntanga kuli zambi nyi kuhan
 login-instruction-multiple-sentences = <loginLink>Musenuko </loginLink>chibwe <loginLink> lisonekesenu </loginLink> mumu wakuwezela isoneko indji
 how-to-cite = Kuchi kulinga kuhwa cha ?
 how-to-cite-explanation-bold = Tongola mukusa kulinunga cha jina lieswe.
-how-to-cite-explanation = nyi ili isoneko ya majina jenu, isoneke lume <italicizedText> « auto-citation » </italicizedText>. Thuli nyi pweila ya kunyingikakuze anejila ize ili hamuwikha kuhwa nyi uhashi wa kuhengula nyi kali mu (domain) mbunga nyi kushi kwecha ulemu wa mukwa kusoneka. Mumu wamijimbu ha citation, kutala <guidelinesLink>inyingi yetu </guidelinesLink>.
+how-to-cite-explanation = Nyi ili isoneko ya maliji jenu, soneka lume <italicizedText> « auto-citation » </italicizedText>. Thuli nyi pweila ya kunyingikakuze anejila ize ili hamuwikha kuhwa nyi uhashi wa kuhengula nyi kali mu (domain) mbunga nyi kushi kwecha ulemu wa mukwa kusoneka. Mumu wamijimbu ya citation, talenu <guidelinesLink>inyingi yetu </guidelinesLink>.
 guidelines = Inyingi
-contact-us = Nutusanyika
+contact-us = Tusanyike
 add-sentence-success = 1 Kumbata isoneko
 add-sentence-error = Uhenge ola ya kuwezela isoneko
 required-field = Nunatela kuzalisa munda.
@@ -34,10 +34,10 @@ single-sentence-submission = Thuma isoneko imuwikha
 small-batch-sentence-submission = Thuma ipindji ya funda ya isoneko
 bulk-sentence-submission = Thuma isoneko yindji
 single-sentence = Chisoneko chimuwikha
-small-batch-sentence = ukepe wa funda
-bulk-sentence = Unene wa wundji
-sentence-domain-combobox-label = chihanda ya chisoneko
-sentence-domain-select-placeholder = Chinga chinga ndo ku yihanda itathu mbunda
+small-batch-sentence = Funda likehe
+bulk-sentence = Unene wundji
+sentence-domain-combobox-label = chihanda cha chisoneko
+sentence-domain-select-placeholder = Chingenu ndo ku yihanda itathu
 # Sentence Domain dropdown option
 agriculture_food = kulima nyi kupita chakulia
 # Sentence Domain dropdown option
