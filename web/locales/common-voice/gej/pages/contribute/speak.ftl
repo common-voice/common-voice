@@ -49,6 +49,11 @@ continue-speaking-button = àwò àkpé, wó téŋu yì nùpo a ji.
 create-profile-text = ɖe wò jí la  le apo nyànanawo a<createProfile> dà àmètakoɖoefótò ɖo nu sitì a ji a a.  </createProfile>
 thanks-for-voice-toast = àkpé ɖo gbènyànana ŋúti.
 thanks-for-voice-toast-error = àgbàdàdaɖe va emè kè wò le ɖo nyànana kè kã̀ nyàlelewo ŋúti.
+first-cta-gender-select-default-option = wɔ̀ cãcã
+first-cta-gender-select-help-text =
+    .label = ɖe wò ji la  ɖe apo ŋusunyinyi àlo nyɔnùnyinyi fíɔ a.
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = àkpe  na wò bé  wò woe apo gbè na mi/ àkpe  na wò bé  wò na mi apo gbè.
 
 ## MENU ITEM TOOLTIPS
 

@@ -7,6 +7,7 @@ check-editbox-header = Sondekanaya
 no-transcriptions-message = Lino sihali bisakango eby’erikolesibwa erisosothya omubuughe oyu. Banithu muthasasuba oko lhupapura olho, neryo mwanathasasosothy.
 vote-transcript-success = Ebisakango erikanganibwa kobinatholere
 vote-transcript-error = Mohakabanika ebihabire omo bisakango
+transcript-edited-success = Ekyipapura thwabiribugha erikyitakanizya ndeke
 transcript-edited-error = Erihaba lyabanikire omwisosothya ekisakango
 error-fetching-transcriptions = Hali ekithathakolhwa ndeke ekisakango kikasongolibwa. Muthasalengesaya eyindi ndambi.
 transcript-skipped-success = Ekisakango kyakirukirwe ndeke.
