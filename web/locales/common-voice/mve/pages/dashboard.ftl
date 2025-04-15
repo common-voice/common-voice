@@ -143,7 +143,7 @@ share-goal = مھارو حدف ونڍو
 
 ## Goals
 
-streaks = لڪيِرون
+streaks = لڪِيِرون
 days =
     { $count ->
         [one] ڏِن
@@ -156,6 +156,6 @@ recordings =
     }
 validations =
     { $count ->
-        [one] توسيق
-       *[other] توسيقون
+        [one] تصديق
+       *[other] تصديقون
     }

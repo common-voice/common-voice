@@ -4,7 +4,7 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon> سُڻو آڊيو ڪليٚپ، ائيٚݩ چيڪ ڪرو لکت۔ ڪيٚ اي پنڊ ميݩ مليݩ ديݩ؟ اگر نآ۔ وري سهيٚ (ايڊيٚٽ) ڪري لکو سُٺو نموٚني سآݩ۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = چيڪ ڪرو جآنٚ جآنچو
-no-transcriptions-message = هڃر ايئي ٻوٚليٚ ميݩ ڪو با لکت چيڪ ڪرڻ لآ ڪونهي۔ مهربآنيٚ ڪري سڦهي کي ريٚڦريش ڪرو جآݩ وري ڪوشيٚش ڪرو
+no-transcriptions-message = هڃر ايئي ٻوليٚ ميݩ ڪو با لکت چيڪ ڪرڻ لآ ڪونهي۔ مهربآنيٚ ڪري سڦهي کي ريٚڦريش ڪرو جآݩ وري ڪوشيٚش ڪرو
 vote-transcript-success = لکت ڪآميآبيٚ ووٽ ڪيو وهُڙو۔
 vote-transcript-error = هَڪ مسلو آئي پيو جڏهيݩ لکت کي ووٽ ڪيو وهي دو۔
 transcript-edited-success = لکت کي وري سهيٚ لکيآندي (ايڊيٚٽ) ڪآميآبيٚ سآݩ

@@ -1,6 +1,6 @@
 ## Dashboard
 
-your-languages = اڀآنٚ ري ٻوٚلي
+your-languages = اڀآنٚ ري ٻولي
 toward-next-goal = آڻ وآرآنٚ مڪسدآنٚ ڏآنٚهنٚ
 goal-reached = مڪسد هآسل ڪيآندي اهي۔
 clips-you-recorded = جيڪو ڪليٚپ اڀآنٚ ريڪآڊ ڪيآندي اهينٚ۔
@@ -47,8 +47,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] مدت ڪرو ڪآمن وآئيٚس ريٚ پُڄڻ مينٚ{ $hours }هَڪ ڪلآڪ مينٚ { $language } ٻوٚليٚ سآنٚ زآتيٚ مسڪد
-       *[other] مدت ڪرو ڪآمن وآئيٚس ريٚ پُڄڻ مينٚ{ $hours } ڪلآڪآنٚ مينٚ { $language } ٻوٚليٚ سآنٚ زآتيٚ مسڪد
+        [one] مدت ڪرو ڪآمن وآئيٚس ريٚ پُڄڻ مينٚ{ $hours }هَڪ ڪلآڪ مينٚ { $language } ٻوليٚ سآنٚ زآتيٚ مسڪد
+       *[other] مدت ڪرو ڪآمن وآئيٚس ريٚ پُڄڻ مينٚ{ $hours } ڪلآڪآنٚ مينٚ { $language } ٻوليٚ سآنٚ زآتيٚ مسڪد
     }
 set-a-goal = مڪسد ٺآهو
 cant-decide = ڦيسلو ڪون ڪري سگھيآ؟

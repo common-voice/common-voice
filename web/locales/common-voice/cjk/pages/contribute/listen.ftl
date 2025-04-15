@@ -1,4 +1,5 @@
 listen = Badjika
+listen-subtitle = Tukwaseko Kutaiza thsinyingi cha maliji
 listen-instruction = { $actionType }<playIcon></playIcon>badjika isoneko yatela kuchadjika ?
 listen-again-instruction = Mulimo ubema ! <playIcon></playIcon> Badjika mawa shimbu
 listen-3rd-time-instruction = Kuhiana <playIcon></playIcon>, yali !

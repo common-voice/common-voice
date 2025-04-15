@@ -53,7 +53,7 @@ healthcare = سهت ريٚ سنٚڀآل
 # Sentence Domain dropdown option
 history_law_government = تآريٚک، ڪآنوٚن ائيٚنٚ هُڪومت
 # Sentence Domain dropdown option
-language_fundamentals = بُنييآديٚ ٻوٚليٚ (انگ، اکر، پيسآ)
+language_fundamentals = بُنييآديٚ ٻوليٚ (انگ، اکر، پيسآ)
 # Sentence Domain dropdown option
 media_entertainment = ميٚڊيآ ائيٚنٚ مزآئيآ
 # Sentence Domain dropdown option
@@ -64,7 +64,7 @@ news_current_affairs = کبرونٚ ائيٚنٚ موجوده هآل
 technology_robotics = ٽيڪنولوجيٚ ائيٚنٚ روبوٽيٚڪ
 sentence-variant-select-label = ميآريٚ جملآ
 sentence-variant-select-placeholder = ڇُنڊو ميآريٚ آپشن
-sentence-variant-select-multiple-variants = آم ٻوٚليٚ ائيٚنٚ مکتليٚڦ ميآر
+sentence-variant-select-multiple-variants = آم ٻوليٚ ائيٚنٚ مکتليٚڦ ميآر
 
 ## BULK SUBMISSION
 
@@ -149,10 +149,10 @@ add-sentences = جملآ شآمل ڪرو
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = جملآ جآنچو ائيٚنٚ شآمل ڪرو۔ سوآل شآمل ڪرو، آڊيٚيو کي بيآن ڪرو۔
-add-sentences-menu-item-tooltip = پنڊريٚ ٻوٚليٚ رآ جملآ شآمل ڪرو
-review-sentences-menu-item-tooltip = پنڊريٚ ٻوٚليٚ مينٚ جملآ جآنچو
-add-questions-menu-item-tooltip = پنڊريٚ ٻوٚليٚ مينٚ سوآل شآمل ڪرو
-transcribe-audio-menu-item-tooltip = آڊيٚيو بيآن ڪرو پنڊريٚ ٻوٚليٚ مينٚ
+add-sentences-menu-item-tooltip = پنڊريٚ ٻوليٚ رآ جملآ شآمل ڪرو
+review-sentences-menu-item-tooltip = پنڊريٚ ٻوليٚ مينٚ جملآ جآنچو
+add-questions-menu-item-tooltip = پنڊريٚ ٻوليٚ مينٚ سوآل شآمل ڪرو
+transcribe-audio-menu-item-tooltip = آڊيٚيو بيآن ڪرو پنڊريٚ ٻوليٚ مينٚ
 
 ## MENU ITEM ARIA LABELS
 
