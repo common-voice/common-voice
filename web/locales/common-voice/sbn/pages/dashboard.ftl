@@ -1,6 +1,6 @@
 ## Dashboard
 
-your-languages = اڀآنٚ ري ٻولي
+your-languages = اڀآنٚ ري ٻوليٚ
 toward-next-goal = آڻ وآرآنٚ مڪسدآنٚ ڏآنٚهنٚ
 goal-reached = مڪسد هآسل ڪيآندي اهي۔
 clips-you-recorded = جيڪو ڪليٚپ اڀآنٚ ريڪآڊ ڪيآندي اهينٚ۔

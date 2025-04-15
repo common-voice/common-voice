@@ -86,7 +86,7 @@ add-questions-coming-soon = سوآل شآمل ڪرو <small>جلديٚ آڻ وآ
 transcribe-audio-coming-soon = آڊيٚو کي لکو <small>جلديٚ آڻ وآرآ</small>
 transcribe-audio = آڊيٚو کي لکو
 press-and-stories = اکبآر ائيٚݩ آکهآڻيٚوݩ
-community-and-languages = برآدريٚ ائيٚݩ ٻولي
+community-and-languages = برآدريٚ ائيٚݩ ٻوليٚ
 coming-soon = جلديٚ آڻ وآريٚ اهي
 
 ## MENU ITEMS TOOLTIPS
