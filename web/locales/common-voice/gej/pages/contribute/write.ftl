@@ -111,6 +111,18 @@ rate-limit-toast-message-seconds =
         [one] hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é wɔ̀ àɖàbàpòpo ɖèka vɔ̀/ hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é sù àɖàbàpòpo ɖèka vɔ̀.
        *[other] hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é wɔ̀ { $retryLimit } vɔ̀/ hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é sù { $retryLimit }ɖèka vɔ̀.
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] wò ɖo nusɔsɔɖoɖa bé lipò lè paji kèyà ji. mi ɖè kúkú tɔtè miniti ɖèka kéŋugbɔ̀xúe wò la ɖo nyàgbèwo ɖo ɖa. àkpé ɖo àpo  jìgbɔ̃̀ɖɛ ŋúti.
+       *[other] wò ɖo nusɔsɔɖoɖa bé lipò lè paji kèyà ji. mi ɖè kúkú tɔtè mínitì { $retryLimit } kéŋugbɔ̀xúe wò la ɖo nyàgbèwo ɖo ɖa. àkpé ɖo àpo  jìgbɔ̃̀ɖɛ ŋúti.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] wò ɖo nusɔsɔɖoɖa bé lipò lè paji kèyà ji. mi ɖè kúkú tɔtè àɖàbàpòpo ɖèka kéŋugbɔ̀xúe wò la ɖo nyàgbèwo ɖo ɖa. àkpé ɖo àpo  jìgbɔ̃̀ɖɛ ŋúti.
+       *[other] wò ɖo nusɔsɔɖoɖa bé lipò lè paji kèyà ji. mi ɖè kúkú tɔtè àɖàbàpòpo { $retryLimit } kéŋugbɔ̀xúe wò la ɖo nyàgbèwo ɖo ɖa. àkpé ɖo àpo  jìgbɔ̃̀ɖɛ ŋúti.
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $uploadedSentences ->

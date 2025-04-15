@@ -84,6 +84,7 @@ maximum-file-size = tákǝ́rá kpɔ̀ɔ̀lʊ́ŋ kèrìm : 25 Mo
 what-needs-to-be-in-file = ʊ̀ mɔ̀ɔ̀nà sǝ̀ à rʊ́ wóntàŋ mà tàkǝ̀ràŋ tàà?
 what-needs-to-be-in-file-explanation = rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ wál nǝ̀ ɩ́ wííl<templateFileLink> kpààrǝ̀tǝ̀ tóm</templateFileLink> ʊ̀ wósúú sǝ̀ mɩ́ mààtǝ̀ káà wɩ̀ɩ̀ nà tǝ́tɩ̀ nà (CC0 pààtǝ̀ jàà tǝ̀mǝ́r cǝ́fár wónɖǝ̀ rǝ̀ cí háà nàmʊ́ŋ sǝ̀ à lànɖǝ́ tǝ́mǝ́r ná ). mààtǝ̀ kʊ́sárǝ̀tǝ̀ tàŋ káàr kà kàlʊ̀ŋ. ʊ̀ wósúú sǝ̀  mààtǝ̀ kʊ́jékǝ́tǝ̀ káà là 10-15 cǝ́lcǝ́lnáà
 upload-progress-text = jèkúŋ wɩ̀ɩ̀ pǝ́ rɩ́ɩ̀…
+sc-bulk-submit-confirm = mà ñʊ́kʊ́ níír sǝ̀ mààtǝ̀ ntǝ̀ líín jǝ́rá tǝ́n kà <wikipediaLink> tàà </wikipediaLink> nǝ̀ ʊ̀ hám námʊ́ŋ sǝ̀ má jékǝ̀ tǝ́.
 bulk-upload-success-toast = mààtǝ̀ jèkà
 bulk-upload-failed-toast = mààtǝ̀ jèkʊ́ŋ tà lá, rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ pààsǝ̀.
 bulk-submission-success-header = ɩ́ rʊ́ʊ̀ rá níír kà mààtǝ̀ kpàtǝ̀r jèkʊ́ŋ tà, mɩ́ nǝ̀ tǝ̀mǝ́r !
