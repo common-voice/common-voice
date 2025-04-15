@@ -87,9 +87,13 @@ upload-progress-text = jèkúŋ wɩ̀ɩ̀ pǝ́ rɩ́ɩ̀…
 bulk-upload-success-toast = mààtǝ̀ jèkà
 bulk-upload-failed-toast = mààtǝ̀ jèkʊ́ŋ tà lá, rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ pààsǝ̀.
 bulk-submission-success-header = ɩ́ rʊ́ʊ̀ rá níír kà mààtǝ̀ kpàtǝ̀r jèkʊ́ŋ tà, mɩ́ nǝ̀ tǝ̀mǝ́r !
+file-too-small = tákǝ́ràŋ kǝ́l cúŋká
+too-many-files = tákǝ́rásǝ̀ kǝ̀l hàlì
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> tàsǝ̀ jǝ́rá tǝ́n àwóór mààtǝ̀ kà kpàtǝ̀r
 
 ## MENU ITEM TOOLTIPS
 

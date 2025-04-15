@@ -67,6 +67,12 @@ sc-bulk-upload-header = sɔ́ nyàgbɔ̃gblɔ̃̌  kèyé àmèwo nya nyɔɛɖé
 sc-bulk-upload-instruction = sɔ àpo nu fisie ɖo fiyè alo <uploadButton> àlo sɔ àsi tɔɛ né wò la sɔɛ ɖo ɖa
 sc-bulk-upload-instruction-drop = dàɛ ɖo fiyè né àteŋu sɔɛ̀ ɖo ɖa
 bulk-upload-additional-information = né wò ji  la sɔ nyàɖéwo kpéè kùɖo fìsíe kèyà ŋutia, mì ɖó kàmè na <emailFragment></emailFragment>
+template-file-additional-information = né wò ji  la sɔ nyàɖéwo kpéè kùɖo fìsíe kèyà ŋuti a, nyà kèwó mu lè kpɔwɔɛ kèya mè o a <emailFragment>commonvoice@mozilla.com</emailFragment>mì ɖó kàmè na
+try-upload-again = gbà  gbìgbɔ̀ dà àpo fisie a ɖo fíyè.
+try-upload-again-md = gbà gbìgbɔ̀ sɔ nu ɖo ɖa a
+select-file = cã fìsiéɖé.
+select-file-mobile = cã fìsieɖé kè wó la ɖo ɖa a
+accepted-files = fisie xòmèvi kèwo dà àsi ɖo ji a :  kè nyi tsv ɖèɖé kpò
 
 ## SMALL BATCH SUBMISSION
 
