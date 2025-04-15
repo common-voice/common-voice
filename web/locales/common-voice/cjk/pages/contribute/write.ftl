@@ -72,6 +72,23 @@ sentence-variant-select-multiple-variants = undji helu ya limi / undji ya wakuch
 sc-bulk-upload-header = Thuma <icon></icon>isoneko ya chihanda cha mbunga
 sc-bulk-upload-instruction = linga kusa chakulita fichier chibwe <uploadButton> chata mumu wa kuthuma</uploadButton>
 sc-bulk-upload-instruction-drop = Sako fichier hano mulonga wa kuthuma
+bulk-upload-additional-information = nyi mu zanga kuneha ihandjeka ya maliji welo wa chihela watela kusanyika fichier, nuna tamba kusanyika<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Nyi mu zanga kuneha ihandjeka ya maliji welo wa chihela watela kusanyika fichier, yishi yakusa mulali, nua tamba kusanyika <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Esekenu mukulinga chikehe fichier hano
+try-upload-again-md = Eseka nawa kuthuma
+select-file = Tongola fichier umuwikha
+select-file-mobile = Tongola fichier ya kuthuma
+accepted-files = Cheseko fichier chakutaiza : .tvs chene
+minimum-sentences = Undji wa isoneko muchi hela fichier : 1 000
+maximum-file-size = Chiphimo cha fircher : 25 Mo
+what-needs-to-be-in-file = Ika muibwa mu fichier chami ?
+what-needs-to-be-in-file-explanation = Nuna tela kulwezana <templateFileLink>muchili </templateFileLink> wetu. isoneko ya tela kubwa washi chibwe (CC0 mulimo wa ka shishi) uze mukwa kusoneka kahandjika hatoma kusoneka cha kashishi nawa chashi kutanga. Isoneko yakuthuma muyibwa ya shimbu 10-15 ya chipindji cha kutanga cha kusa.
+upload-progress-text = Thuma Chilimufuji
+sc-bulk-submit-confirm = Ngonanulweza nyi shindakenyo isoneko ili <wikipediaLink> yihanda ya mbunga </wikipediaLink> athu nawa nguli nyi ululi wa kuthuma isoneko.
+bulk-upload-success-toast = Isoneko chakuthuwa
+bulk-upload-failed-toast = Isoneko yahona kuthumiwa, eseka nawa.
+bulk-submission-success-header = Mukala kalisa kuthuma undji wa isoneko !
+bulk-submission-success-subheader = Tukwasenu Common Voice ikahete kulinga milimo ya mathangwa ya isoneko !
 
 ## SMALL BATCH SUBMISSION
 
