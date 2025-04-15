@@ -92,6 +92,7 @@ bulk-submission-success-subheader = სი ხომურჯუ̂ი Common Voi
 upload-more-btn-text = ალტუ̂ირთავადმა ხოფშირა წინადადება̄̈ლ?
 file-invalid-type = არასწორ ფაილ
 file-too-large = ფაილ სურუ სუ̂რილ ლი
+file-too-small = ფაილ სურუ ხოხვრა ლი
 too-many-files = სურუ ფიშირ ფაილა̈რ ლიხ
 
 ## SMALL BATCH SUBMISSION

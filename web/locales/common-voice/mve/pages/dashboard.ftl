@@ -42,7 +42,7 @@ lose-changes-warning = ھيڻو روکڻ رو مطلب ٿيَ آپريَ تبد�
 build-custom-goal = ضروري حدف ٺائو
 help-reach-hours-pluralized =
     { $hours ->
-        [one] پُڳڻ ۾ مدد ڪرو{ $hours }ڪلاڪ ۾{ $language } زاتِي مقصد ھون
+        [one] ڪامن وائس رِي پُڳڻ ۾ { $hours }زاتي مقصد ھون ڪلاڪون ۾
        *[other] پُڳڻ ۾ مدد ڪرو{ $hours }ڪلاڪون ۾{ $language } زاتِي مقصد ھون
     }
 help-reach-hours-general-pluralized =
@@ -52,6 +52,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = حدف سيٽ ڪرو
 cant-decide = فيصلو ڪونِي ڪريَ ݾگون ھون؟
+activity-needed-calculation-plural =
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
 how-many-per-day = واھ ! گھڻا ڪلِپ ھر ڏِن؟
 how-many-a-week = واھ ! ھيڪيَ ھفتيَ ۾ گھڻا ڪلِپ؟
 which-goal-type = ڪِي ٿيَ ٻولڻ، ھونڀڻ يا ٻيئي چاھو ھو؟
@@ -82,7 +143,7 @@ share-goal = مھارو حدف ونڍو
 
 ## Goals
 
-streaks = لڪيِرون
+streaks = لڪِيِرون
 days =
     { $count ->
         [one] ڏِن
@@ -95,6 +156,6 @@ recordings =
     }
 validations =
     { $count ->
-        [one] توسيق
-       *[other] توسيقون
+        [one] تصديق
+       *[other] تصديقون
     }

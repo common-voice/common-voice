@@ -25,7 +25,9 @@ contribute = ლიმურჯუ̂ი
 ## Navbar
 
 respond-to-prompt = ლოხპასუ̂იხუ̂ იმუ̂ა̄̈ჲ იჰრიხ
+transcribe = ჟოხოსყ ტრანსკიფცია
 check-transcriptions = ჩუ̂ათმოწმა̈ნ ტრანსკრიფცია̄̈ლ
+question = კითხვა
 
 ## Not Found Page
 
@@ -43,12 +45,12 @@ hch = ვიქსარიკა
 kzi = კელაბიტ
 mbf = ბაბა მალაიზია
 meh = სამხრეთ-დასავლეთ Tlaxiaco Mixtec
-mel = ცენტრალური Melanau
+mel = ცენტრალურ Melanau
 mmc = მიჩოაკან მაზახუა
 ms-MY = მალაიური ენა
 msi = მალაიური
-pez = აღმოსავლური პენანი
-pne = დასავლური პენანი
+pez = აღმოსავლურ პენან
+pne = დასავლურ პენან
 sdo = Bidayuh-ის ტომი
 snv = მა̈გ
 tr = თურქულ

@@ -89,3 +89,5 @@ release-version = Version
 dataset-date = Dato
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Download vores stemmedatasæt
