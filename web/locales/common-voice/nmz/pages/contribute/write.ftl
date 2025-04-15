@@ -114,9 +114,14 @@ add-small-batch-success =
         [one] { $uploadedSentences } àkpààwʊ̀ŋ mààtǝ̀ kà{ $totalSentences } tàà
        *[other] { $uploadedSentences } àkpààwʊ̀ŋ mààtǝ̀ kà{ $totalSentences } tàà
     }
+small-batch-sentences-rule-5 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ mààtǝ̀ kà tǝ̀ tǝ́n kpéntǝ̀ rǝ̀líínɖǝ̀
+small-batch-sentences-rule-6 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ nʊ́ʊ̀r lǝ̀mɔ̀ɔ̀sǝ́m wɩ̀ɩ̀ mààtǝ̀ kà tǝ̀ tǝ́n tà
+# menu item
+add-sentences = ɩ́ tásǝ́ mààtǝ̀
 
 ## MENU ITEM TOOLTIPS
 
 
 ## MENU ITEM ARIA LABELS
 
+transcribe-audio-menu-item-aria-label = ɩ́ lá mɩ́ àkpààwʊ̀ŋ tóm pǝ́ pǝ̀sǝ̀ mààtǝ̀

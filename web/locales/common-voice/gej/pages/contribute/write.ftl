@@ -106,6 +106,20 @@ rate-limit-toast-message-seconds =
         [one] hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é wɔ̀ àɖàbàpòpo ɖèka vɔ̀/ hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é sù àɖàbàpòpo ɖèka vɔ̀.
        *[other] hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é wɔ̀ { $retryLimit } vɔ̀/ hùenu a vá yì. trɔ gbìgbɔ̀ wɔ̀ɛ  né é sù { $retryLimit }ɖèka vɔ̀.
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences }nyàgbè kè wó xɔ̀ kùɖo{ $totalSentences }
+       *[other] { $uploadedSentences }nyàgbè kèwo  wó xɔ̀ kùɖo{ $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences }nyàgbè kè wó xɔ̀ kùɖo{ $totalSentences }. tɔ àsi <downloadLink> fiyè</downloadLink> né wo la telesaze nyàgbèwo kè wo gbé a.
+       *[other] { $uploadedSentences }nyàgbèwo kè wó xɔ̀ kùɖo{ $totalSentences }. tɔ àsi <downloadLink> fiyè</downloadLink> né wo la telesaze nyàgbèwo kè wo gbé a.
+    }
+small-batch-sentences-rule-1 = kplɔ̀ àkpa bé mɔtata do " nyàgbè kɛwo mù la téŋu sɔ kpé o"""
+small-batch-sentences-rule-2 = sɔ nyàgbèɖé kpé flì sia flì.
 
 ## MENU ITEM TOOLTIPS
 
