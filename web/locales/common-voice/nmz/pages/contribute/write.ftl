@@ -39,9 +39,9 @@ bulk-sentence = kpàtǝ̀r kpàtǝ̀r
 sentence-domain-combobox-label = máátǝ̀ àwóór
 sentence-domain-select-placeholder = lǝ́sǝ́ àwóójá nóósútù
 # Sentence Domain dropdown option
-agriculture_food = hàrǝ́m nǝ̀ tʊ̀ʊ̀nã́ŋ rǝ̀rɔ̀ɔ̀nɖǝ́
+agriculture_food = hàrǝ́m nǝ̀ tʊ̀kʊ̀tǝ̀ pǝ̀sʊ́ŋ
 # Sentence Domain dropdown option
-automotive_transport = lòòr nǝ̀ sʊ̀ʊ̀lʊ́ŋ
+automotive_transport = lòòjá nǝ̀ sʊ̀ʊ̀lʊ́ŋ
 # Sentence Domain dropdown option
 finance = wàràsǝ̀ tǝ̀mǝ́r
 # Sentence Domain dropdown option
@@ -51,11 +51,11 @@ general = àgbèntùŋ tàà
 # Sentence Domain dropdown option
 healthcare = àlààfɩ́jà
 # Sentence Domain dropdown option
-history_law_government = kɔ́nsɛ̀ɛ̀tǝ̀, wâr, kómǝ́nátǝ̀
+history_law_government = càànàwʊ́ʊ̀ tóm, wâr, kómǝ́nátǝ̀
 # Sentence Domain dropdown option
-language_fundamentals = àpààsǝ̀nʊ̀ŋ tóm kà wʊ́tásǝ̀ tà (àkɔ́ntá mààtǝ̀, máátǝ̀, wàrásǝ̀)
+language_fundamentals = àpààsǝ̀nʊ̀ŋ tóm kà wʊ́tásǝ̀ tà (àkɔ́ntá mààtǝ̀, mááràsǝ̀, wàrásǝ̀)
 # Sentence Domain dropdown option
-media_entertainment = pɔ̀ɔ̀rǝ̀tàpǝ̀rnáà nǝ̀ àséntɩ́ɩ̀
+media_entertainment = tóm rɩ̀ɩ̀sʊ́ŋ tǝ̀má nǝ̀ àséntɩ́ɩ̀
 # Sentence Domain dropdown option
 news_current_affairs = wómpǝ́ wɩ̀ɩ̀ pǝ́ lákǝ́ ná
 sentence-variant-select-placeholder = ñʊ́ʊ́ ñá rìtàfàláà wʊ̀tã́ŋ rʊ̀ʊ̀ (ʊ̀ tã̀ŋ féféré)
