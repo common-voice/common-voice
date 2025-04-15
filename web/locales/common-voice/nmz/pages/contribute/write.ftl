@@ -137,8 +137,8 @@ small-batch-response-message =
         [one] { $uploadedSentences } àkpàà mààtǝ̀ kà { $totalSentences }rʊ́ʊ̀. ɩ́ ñʊ́ʊ̀<downloadLink> cè</downloadLink> nǝ̀ ɩ́ rɩ̀ɩ̀sǝ̀ àkìsùŋ mààtǝ̀.
        *[other] { $uploadedSentences } àkpàà mààtǝ̀ kà { $totalSentences }rʊ́ʊ̀ nà. ñʊ́ʊ̀<downloadLink> cè</downloadLink> nǝ̀ ɩ́ rɩ̀ɩ̀sǝ̀  àkìsùŋ mààtǝ̀.
     }
-small-batch-sentences-rule-1 = tǝ̀ŋkǝ̀ lǝ̀sʊ́ŋ rʊ̀ʊ̀rǝ̀tǝ́ rʊ̀ʊ̀ « mààtǝ̀ wóntã̀ŋ kànà mà tàsǝ̀ ? »
-small-batch-sentences-rule-2 = ɩ́ tásǝ̀ mààtǝ̀ kà àhìlìm tàà
+small-batch-sentences-rule-1 = ɩ́ tǝ̀ŋkǝ̀ à rʊ̀wá sǝ̀ à là wóm nùwàŋ ná  « mààtǝ̀ wóntã̀ŋ kànà mà tàsǝ̀ ? »
+small-batch-sentences-rule-2 = ɩ́ tásǝ̀ mààtǝ̀ kà  tàà
 small-batch-sentences-rule-3 = ñʊ́ʊ̀ « sʊ̀wɩ̀ɩ̀ » rʊ̀ʊ̀ nǝ̀ ɩ́ tár mààtǝ̀
 small-batch-sentences-rule-4 = ɩ́ tásǝ̀ mààtǝ̀ kà kàkáà 1 000
 small-batch-sentences-rule-5 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ mààtǝ̀ kà tǝ̀ tǝ́n kpéntǝ̀ rǝ̀líínɖǝ̀

@@ -139,9 +139,25 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Kələmaloŋ aslam sek isindene « ma ɗi wele ne slahoŋ məfekenege ?»
 small-batch-sentences-rule-2 = Fekenege ma seleŋ aka məltivi
+small-batch-sentences-rule-3 = Deweŋerge ma ɗi aka mətsakwiya sek seleŋ aka «Məwege»
+small-batch-sentences-rule-4 = Femekenege ha ma ɗi dəbbo
+small-batch-sentences-rule-5 = Ma ɗi ham te məreŋ məguraka seleŋ kaɗa
+small-batch-sentences-rule-6 = Ma ɗi ham te məreŋ ghar mətegiyo i merez məpekerge ahe seleŋ
+# menu item
+add-sentences = Fəmekenege ma ɗi
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Mefekenege ndi məɗeleŋyo i ma ɗi, mefekenege ma məɗaviyo ɗi, məpakiyo i anaŋ mətsəŋ yo
+add-sentences-menu-item-tooltip = Femekenege ma ɗi a ma bəra gukuli ge
+review-sentences-menu-item-tooltip = ɗeləmeŋ ma ɗi a ma bəra gukuli ge
+add-questions-menu-item-tooltip = Femekenege ma mədaviyo a ma bəra gukuli ge
+transcribe-audio-menu-item-tooltip = Məpakiyo i anaŋ məgusiyo i anaŋ mətsəneŋyo a ma bəra gukuli ge
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Aslam məzakam anaŋ «Pako»
+add-sentences-menu-item-aria-label = Femekenege a ma ɗi awehe ane bəra mewuday
+review-sentences-menu-item-aria-label = ɗələmeŋ ma ɗi ane tenay ane bera agərige ve
+add-questions-menu-item-aria-label = Gərum ma məɗaviyo awehe ɗi akane bəra məwuday ndi məmbəɗaka
+transcribe-audio-menu-item-aria-label = Gəmiyo anaŋ mepakiyo i anaŋ məgusiyo i anaŋ mətsəneŋyo aɗelereŋ a pla i ma di
