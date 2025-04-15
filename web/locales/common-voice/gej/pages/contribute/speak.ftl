@@ -39,6 +39,10 @@ review-delete-recordings = tutu nyàléléwo
 review-terms = Né wò le zã Common Voice a,  wò dà àsi ɖo <termsLink> sé kè kùɖo  ébé zãzã ŋuti </termsLink> ku ékèwo kã̀ miabé<privacyLink> nyàwawlawo ŋuti</privacyLink>
 terms-agree = mù lɔ̃̀
 terms-disagree = mù gbé
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = àkpé na wò bé wò  na mi apo nyàléléwó.
+first-cta-subtitle-text = wò  ji la ma nyàɖéwo  sɔ kuɖo lékè wò dona gbè aa / wò  ji la ma nyàɖéwo  sɔ kuɖo lékè wò dona gbè aa.
+why-donate = nukɛ ŋuti wò le biɔ mù nyà kèyà a ɔ
 
 ## MENU ITEM TOOLTIPS
 

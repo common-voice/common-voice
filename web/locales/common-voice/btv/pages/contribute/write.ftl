@@ -23,6 +23,15 @@ new-sentence-rule-7 = مناسب حوالہ شامل گر
 new-sentence-rule-8 = مثالی طور پر قدرتی اور گفتگو (جملہ کو پڑھنا آسان ہونا چاہئے)   مثالی طور رے قدرتی آ بیاد (اواسان گرا جملہ پڑو)
 login-instruction-multiple-sentences = <loginLink>Login</loginLink><loginLink>sign up</loginLink>  مختلف جملے میلئ سو دَن
 how-to-cite = مہ کش بھالوں ؟
+how-to-cite-explanation-bold = بھال  URL link یا کَم سو پور ناں
+how-to-cite-explanation = اے تیاں  اپاں الفاظ تھا بلکل مَن <italicizedText> امیئں بھیالی</italicizedText> بے او معلوم گرو لوکھہ تھہ او کانٹنٹ تی کو ڇؤ تھو چہء بے چیک گری او لوں سو احاطہ کار مہ تھو آ نقل نہ گیو تھو جل معلومات سو دَن اس نظارہ سو دَن <guidelinesLink> اسیئں ھدایات سو صفہ بھال</guidelinesLink>
+guidelines = ھدایات
+contact-us = اسُو میل رابطہ گر
+add-sentence-success = جملے جمہ ھویں گے
+add-sentence-error = جملہ جمہ گرے سو غلطی
+required-field = مہربانی گیری او زائے پور
+single-sentence-submission = یک جملہ جمہ گرو
+small-batch-sentence-submission = پِھٹئیں بیچ جملہ جمہ گرو
 
 ## BULK SUBMISSION
 
