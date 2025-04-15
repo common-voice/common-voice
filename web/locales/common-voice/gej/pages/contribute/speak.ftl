@@ -23,6 +23,15 @@ share-common-voice = ma common Voice
 review-instruction = dà ŋuku ɖo emè nyɔɛɖe né a trɔ le nyà né hiã a.
 record-submit-tooltip = sɔɛ ɖɔ ɖa né wò sɔgbè a
 clips-uploaded = minikinɔnɔmètata kèwo dà ɖo kà mè aa
+record-abort-title = lè nyà keŋugbɔxue a
+record-abort-text = ne wò jo fifi a wo la bu apo ŋùkɔyiyi
+record-abort-submit = ɖo nyàléléwo ɖo ɖa.
+record-abort-continue = wu nyàlele nu
+record-abort-delete = jo tutu nyàlelewo kpata
+review-aborted = nu kè wò ɖo ɖo ɖaa mu téŋu yì o. ɖe wò ji la tútú apo nyàléléwo a
+review-submit-title = dà ŋùku ɖo nu mè né wò la sɔ ɖo ɖaa.
+review-submit-msg = akpé na apo nyàlelewo ŋuti! <lineBreak></lineBreak> fifì a  wò la téŋu dà àsi ɖo eji eye a sɔ nyàlelekpaɖe kèwo gbɔ̃nà a ɖo ɖaa.
+review-recording = kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
 
 ## MENU ITEM TOOLTIPS
 
