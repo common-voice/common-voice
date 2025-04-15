@@ -159,5 +159,5 @@ transcribe-audio-menu-item-tooltip = mɩ́ wʊ́tã̀ŋ tàà tóm kʊ́kpa�
 write-contribute-menu-aria-label = « mààwʊ́ŋ » àwóór
 add-sentences-menu-item-aria-label = ɩ́ tásǝ̀ mààtǝ̀ kʊ́fàtǝ̀ nǝ̀ mɩ̀ àkpàr tɩ̀ɩ̀nàà kál
 review-sentences-menu-item-aria-label = ɩ́ wííl mààtǝ̀ wóntǝ́ mɩ́ àkpàr tɩ̀ɩ̀nàà lǝ̀sǝ́tǝ́ wá wǝ́l nǝ̀ tǝ̀ wɩ̀ɩ̀ mɩ̀ wʊ́tã̀ŋ tàà ná
-add-questions-menu-item-aria-label = ɩ́ lǝ́sǝ́ àcìsùŋ tóm kʊ́fám nǝ̀ ɩ́ wǝ́l nǝ̀ ʊ́ jél mɩ́ àkpàr ràànáà kál nǝ̀ wá cìsì tǝ́
-transcribe-audio-menu-item-aria-label = ɩ́ lá mɩ́ àkpààwʊ̀ŋ tóm pǝ́ pǝ̀sǝ̀ mààtǝ̀
+add-questions-menu-item-aria-label = ɩ́ wósǝ̀ tóm kʊ́fám nǝ̀ mɩ́ àkpàr tɩ̀ɩ̀nà kàl nǝ̀ wá cìsì
+transcribe-audio-menu-item-aria-label = mɩ́ wʊ́tã̀ŋ tàà tóm kʊ́kpààpǝ̀ mààwʊ̀ŋ
