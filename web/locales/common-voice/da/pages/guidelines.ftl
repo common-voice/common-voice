@@ -19,6 +19,7 @@ example = Eksempel
 varying-pronunciations-explanation-1 = Vi hilser forskellige accenter velkommen! Vær meget forsigtig, når du overvejer at afvise et klip, fordi du synes at oplæseren har udtalt et ord forkert, lægger trykket forkert eller har overset tegnsætning. Der er mange måder at bruge sproget på - og det er ikke sikkert, at du har hørt dem alle. Husk at tænke på, at der findes mennesker, der taler anderledes end du gør.
 varying-pronunciations-explanation-2 = Hvis du på den anden side får indtrykket af, at oplæseren aldrig er stødt på ordet før og gætter på, hvordan det skal udtales - så afvis optagelsen. Hvis du er usikker, så klik på knappen "Spring over".
 misreadings-explanation-2 = Meget almindelige fejl omfatter:
+misreadings-explanation-3 = Manglende 'En'/'Et' eller 'Den'/Det' i begyndelsen af optagelsen.
 misreadings-explanation-4 = Manglende 's' i slutningen af et ord.
 misreadings-explanation-5 = Oplæsning af sammentrækninger, der faktisk ikke er der, såsom engelske "we're" i stedet for "we are", eller omvendt.
 misreadings-explanation-6 = Manglende slutningen af det sidste ord, fordi optagelsen blev afbrudt for hurtigt.

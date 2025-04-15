@@ -120,6 +120,7 @@ contribute-github-action = Bidrag på GitHub
 ## Get involved section
 
 validate-readings-link = Valider oplæsninger
+answer-questions-link = Besvar spørgsmål
 
 ## Partner section
 

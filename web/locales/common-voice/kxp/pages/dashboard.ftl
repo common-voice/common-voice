@@ -35,6 +35,15 @@ easy-difficulty = هورُون
 average-difficulty = سراسري
 difficult-difficulty = ۮورُون
 pro-difficulty = مورٿِي
+not-receiving-emails-info =
+    في الحال تمين بولڍ هارو تيار سو، بولڍ نا بولڍ تمارا مقصد هارو اي ميل هيئي سڙاوي سي۔ مارا 
+    ترقي هارو اپڍيٽ هانَ عام آواز هارو خيير
+n-clips-pluralized =
+    { $count ->
+        [one] ڪلپ
+       *[other] ڪلپس
+    }
+help-share-goal = وڌاري آواز هارُو اَماري مدد ڪرو، تمارو گول پيش ڪرو
 confirm-goal = مقصد پڪ سي
 goal-interval-weekly = هفتيوار
 # $type is one of share-goal-type-*

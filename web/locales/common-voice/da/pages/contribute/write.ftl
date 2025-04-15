@@ -12,6 +12,7 @@ new-sentence-rule-3 = Brug korrekt grammatik
 new-sentence-rule-4 = Brug korrekt stavning og tegnsætning
 new-sentence-rule-5 = Ingen tal og specialtegn
 new-sentence-rule-6 = Ingen udenlandske bogstaver
+login-instruction-multiple-sentences = <loginLink>Log ind</loginLink> eller <loginLink>tilmeld dig</loginLink> for at tilføje flere sætninger
 how-to-cite = Hvordan citerer jeg?
 guidelines = Retningslinjer
 contact-us = Kontakt os

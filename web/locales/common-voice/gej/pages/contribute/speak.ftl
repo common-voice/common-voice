@@ -44,6 +44,7 @@ first-cta-header-text = àkpé na wò bé wò  na mi apo nyàléléwó.
 first-cta-subtitle-text = wò  ji la ma nyàɖéwo  sɔ kuɖo lékè wò dona gbè aa / wò  ji la ma nyàɖéwo  sɔ kuɖo lékè wò dona gbè aa.
 why-donate = nukɛ ŋuti wò le biɔ mù nyà kèyà a ɔ
 why-donate-explanation-1 = mu nyí  jizĩzĩ na wò bé wò  la na nyànana kèyàwo o;  wò la teŋu sɔwó kpe ne wò vò  le  kla mè a alo né mu la do nùpo  na  wò o a. né mi ɖè nyàlelepòpu a to a, mi ɖona  nyikɔ bu na àmè eye mi kpɔna égbɔ bé nyànana kèyawo  sìgbè  apo nyikɔ ku apo imɛli wo mu gbà nɔ̀ kàdodo mè ku  àmèhɛ̃̀hlɛ̃nyànanawo sìgbè èpe alo apo ŋúsù alo nyɔnùnyinyi o.
+why-donate-explanation-2 = kéŋugbɔxué mɔ̀ɖàŋunuwo  la wɔ̀ dɔ nyɔɛɖe na àmè sia mè  a,  nu kèwo kpéna ɖo àɖàŋùɖemɔkɔ̃ŋutaɖoɖowɔ̀tɔwo né wo ɖo   àɖàŋunu kèwo  la bɔ̀ àmèsugbɔ.  kpɔwɔɛ,  né mi mu sɔ gbèdotɔ ɖékpe ku gbètɔxɛɖé o a, kéŋu a mɔ̀ɖàŋù a mu la wɔ̀ dɔ nyɔɛɖé  na àmè kèwo to gbè wã lè ta ŋuti o. <learnMore>. wò ji la nya nu sugbɔ so nyà kèwo pònà nùpo so nyà buwo ŋúti.
 add-information-button = sɔ nyànanawo kpé è.
 continue-speaking-button = àwò àkpé, wó téŋu yì nùpo a ji.
 create-profile-text = ɖe wò jí la  le apo nyànanawo a<createProfile> dà àmètakoɖoefótò ɖo nu sitì a ji a a.  </createProfile>
