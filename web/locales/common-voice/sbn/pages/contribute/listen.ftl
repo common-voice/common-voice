@@ -5,7 +5,7 @@ listen-again-instruction = ڀلو ڪم<playIcon></playIcon>سُڻو ٻيهر ج�
 listen-3rd-time-instruction = 2 هيٚٺ، چڱو ڪرتآ رهوݩ<playIcon>
 listen-last-time-instruction = <playIcon>آکريٚ اهي
 listen-empty-state = شآيد اسآݩ وٽ ڪليٚپس کتم ٿئي وهُڙيݩ اهيݩ- سڦهي کي ريٚڦريش ڪرو، جآݩ وري ڪوشيٚش ڪرو.
-listen-empty-state-variants = اڀآݩ ريٚ ٻوٚليٚ رو ڪسم ڪليٚپس کآݩ ٻآهر ٿيي سگهي دو! جيڪڏهݩ اڀيٚݩ آرآمدآ اهيو، تآ اڀيٚݩ پنڊريٚ ٻوٚليٚ اندر ٻيآ جملا ڏسڻ لا پنڊريوݩ سيٽنگوݩ تبديٚل ڪري سگهو دآ.
+listen-empty-state-variants = اڀآݩ ريٚ ٻوليٚ رو ڪسم ڪليٚپس کآݩ ٻآهر ٿيي سگهي دو! جيڪڏهݩ اڀيٚݩ آرآمدآ اهيو، تآ اڀيٚݩ پنڊريٚ ٻوليٚ اندر ٻيآ جملا ڏسڻ لا پنڊريوݩ سيٽنگوݩ تبديٚل ڪري سگهو دآ.
 listen-loading-error =
     اسآݩ اڀآݩ ري سُڻڻ لآ ڪو بآ آڊيو ڪليٚپ هاسل نآ ڪري سگهدآسيٚݩ.
     مهربآنيٚ ڪري وري ڪوشيٚش ڪرو.
@@ -20,8 +20,8 @@ validate-readings-coming-soon = ريٚڪآڊئيٚنگ تسديٚڪ کآݩ <smal
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ميآر سآݩ پڙهڻ، ڏسڻ لکيل کي
-validate-readings-menu-item-tooltip = ريٚڪآڊئيٚنگ وآرو ميآريٚ هوئي جيڪو پڙهي پنڊريٚ ٻوٚليٚ ميݩ
-review-transcriptions-menu-item-tooltip = ڏسو جمآ ڪرڻ وآرو لکيل متن پنڊريٚ ٻوٚليٚ ميݩ
+validate-readings-menu-item-tooltip = ريٚڪآڊئيٚنگ وآرو ميآريٚ هوئي جيڪو پڙهي پنڊريٚ ٻوليٚ ميݩ
+review-transcriptions-menu-item-tooltip = ڏسو جمآ ڪرڻ وآرو لکيل متن پنڊريٚ ٻوليٚ ميݩ
 
 ## MENU ITEM ARIA LABELS
 

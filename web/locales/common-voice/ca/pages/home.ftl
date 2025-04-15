@@ -99,6 +99,7 @@ about-menu-aria-label = Menú d'opcions de Quant a
 
 ## Hero section
 
+hero-subtitle-2 = La nostra llengua és la nostra història, la nostra comunitat, la nostra cultura. Creem els conjunts de dades que volem veure al món.
 
 ## Action items section
 

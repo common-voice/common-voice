@@ -1,17 +1,17 @@
 ## REVIEW
 
-sc-review-lang-not-selected = de can egbe ɖe kpokpui o.  Tekpɔ<profileLink>aɖó tɔnúme ne na can egbebúwo
-sc-review-title = glo nyɔgbelɔwo kpɔ nyuieɖé
-sc-review-loading = nyɔgbewo cucu
-sc-review-select-language = can egbe deká ne naglo enyɔgbelɔwo kpɔ́ nyuieɖé.
+sc-review-lang-not-selected = de can egbe ɖe kpokpwi o.  Tekpɔ<profileLink>aɖó tɔnúme ne na can egbebúwo
+sc-review-title = glo enyɔgbelɔwo kpɔ, kunumekpɔ só enyɔgbelɔwo ŋú.
+sc-review-loading = enyɔgbewo cucu, enyɔgbelɔwó gbesɔsɔ
+sc-review-select-language = can egbe deká ne na wɔ enumekuku so enyɔgbelɔwo ŋú.
 sc-review-no-sentences = enyɔgbeɖe ɖélɛ yí woa glokpɔ. Atéŋ<addLink>sɔ́ buwo kpí</addLink>.
 sc-review-form-prompt =
-    .message = desɔ enyɔgbe cewo yí e glokpɔ ɖaɖa o. A yi ji a
+    .message = Enyɔgbe cewo yí o wɔ enumekuku solɔ́, o de sɔ́ wo ɖáɖá o. A yi ji a ?
 sc-review-form-usage = dɔɛn  va yi ɖushi kpájí ne na dashi ɖe nyɔgbe lɔ ji. Dɔɛn va yi emiɔ kpaji né na cucwui ɖaɖa. Dɔɛn yi ji ne na tashi.<strong> Na ɖoŋui asɔ́ ashitɔtrɔlɔ́ le tɔwo ɖɔ́ŋú ɖáɖá.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Jɔsoxú : { $sentenceSource }
-sc-review-form-button-reject = cucwui ɖaɖá
+sc-review-form-button-reject = cucwui ɖaɖá.
 sc-review-form-button-skip = va yi
 sc-review-form-button-approve = dashiɖéjí
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
@@ -20,20 +20,20 @@ sc-review-form-button-approve-shortcut = O
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = P
-sc-review-form-keyboard-usage-custom = atéŋ xo deshi ɖekáwo ɖo ju le mɔlɔ ji  : { sc-review-form-button-approve-shortcut }asɔ dashi ɖé jí,{ sc-review-form-button-reject-shortcut }, asɔ cucwui ɖaɖa,{ sc-review-form-button-skip-shortcut } ne na va yI
+sc-review-form-keyboard-usage-custom = atéŋ xo jeshi ɖekáwo ɖo ju le mɔlɔ ji  : { sc-review-form-button-approve-shortcut }asɔ dashi ɖé jí,{ sc-review-form-button-reject-shortcut }, asɔ cucwui ɖaɖa,{ sc-review-form-button-skip-shortcut } ne na va yI
 sc-review-form-button-submit =
-    .submitText = ɖegbɔnɔ ŋkuvi lélé ɖé enuwo ŋu
+    .submitText = ɖegbɔnɔ ŋkuvilélé ɖé enuwo ŋú
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] enyɔgbeɖe ɖe lɛ o
-        [1] enyɔgbe ce ŋú yí wolé ŋkuvi ɖó
+        [0] wo dé wɔ numekuku so enyɔgbeɖeŋú o.
+        [1] enyɔgbe ce ŋú yí wolé ŋkuvi ɖó. Akpe !
         [one] { $sentences }enyɔgbe cewo ŋú yí wolé ŋkuvi ɖó. Akpe !
        *[other] { "" }
     }
 sc-review-form-review-failure = ŋkuvilélé ɖé enuŋu dé le lelé ɖɛ o. Trɔ á tikpɔ gabují
-sc-review-link = glo nu me kpɔ, ku nu me kpɔ
+sc-review-link = glo nu me kpɔ, ku nu me kpɔ, á trɔátó enuwo me.
 
 ## REVIEW CRITERIA
 

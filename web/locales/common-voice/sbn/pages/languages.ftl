@@ -1,7 +1,9 @@
 ## Languages Overview
 
 language-section-in-progress = ترڪيٚ ميݩ
+language-section-in-progress-new-description = او ٻوليݩ ايئي وکت ڪميٚونٽيٚ ريٚ ترڪيٚ هيٺ ويب سآئيٚٽ <localizationGlossaryLink> ميݩ اهيݩ۔ ائيٚݩ </localizationGlossaryLink> لوڪلآئيٚزيشن جملآݩ رو ميڙ<sentenceCollectionGlossaryLink> شروٚ ڪرڻ ريٚ زرُورت اهي۔</sentenceCollectionGlossaryLink>
 language-section-launched = پڌريٚ ڪئيٚ وهُڙيٚ (لآنچ ڪئيٚ وهُڙيٚ)
+language-section-launched-description = نئيݩ ٻوليݩ لآ شروٚ ڪئيل ويب سآئيٚٽ ڪآميآبيٚ سآݩ <localizationGlossaryLink> مڪآميٚ ڪئيٚ وهُڙي اهي۔ ائيٚݩ ڪآڦيٚ</localizationGlossaryLink> جملآ ڀيڙآ ڪيآ وهُڙآ اهيݩ۔</sentenceCollectionGlossaryLink> جآريٚ</sentenceCollectionGlossaryLink><Listen<Listen /listenLink>ڳآلهآڻ ليٚݩڪ سُڻڻ<Listen<Listen /listenLink> شرآڪتوݩ ڪرو۔<Listen<Listen /listenLink>
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = آکريٚ اپڊيٽ
 languages-show-more = وڌيٚڪ ڏسو
@@ -18,7 +20,7 @@ language-validation-progress = ترڪيٚ ريٚ تسديٚڪ
 contribute = شرڪت ڪرڻ
 get-involved-button = شآمل ٿيو
 get-involved-title = شرآڪت ڪرو { $lang }
-get-involved-text = شرآڪت ڪرڻ لآ اڀآݩ ريٚ دلچسپيٚ ريٚ مهربآنيٚ { $lang }۔ اسيٚݩ جآم مهنت ڪرسوݩ هر هَڪ ٻوٚليٚ کي پڌريٚ (لآنچ) ڪرڻ ائيٚݩ ٽيٚم کي ايٚ ميل وسيٚلي رآبتي ميݩ رکڻ لآ۔ اگر اڀيٚݩ شرآڪت ڪرڻ گُهرو دآ تا مهربآنيٚ ڪري پنڊرو ايٚ ميل هيٺ ڏيو۔
+get-involved-text = شرآڪت ڪرڻ لآ اڀآݩ ريٚ دلچسپيٚ ريٚ مهربآنيٚ { $lang }۔ اسيٚݩ جآم مهنت ڪرسوݩ هر هَڪ ٻوليٚ کي پڌريٚ (لآنچ) ڪرڻ ائيٚݩ ٽيٚم کي ايٚ ميل وسيٚلي رآبتي ميݩ رکڻ لآ۔ اگر اڀيٚݩ شرآڪت ڪرڻ گُهرو دآ تا مهربآنيٚ ڪري پنڊرو ايٚ ميل هيٺ ڏيو۔
 get-involved-form-title = سآئين اپ ڪرو { $lang } اپڊيٽ لآ:
 get-involved-email =
     .label = ايٚ ميل
@@ -28,4 +30,4 @@ get-involved-stayintouch = موزيٚلآ تي آوآز ٽيڪنآلآجيٚ ر�
 get-involved-privacy-info = اسيٚݩ اڀآݩ ريٚ ڄآڻ کي ڌيآن سآݩ سݩڀآلڻ رو وآئيدو ڪروݩ دآ۔ </privacyLink> رآزدآريٚ نوٽيٚس وڌيٚڪ پڙهو</privacyLink>۔
 get-involved-success-title = اڀآݩ ڪآميآبيٚ سآݩ سآئين اپ ڪيو اهي شرآڪت ڪرڻ لآ{ $language }۔ اڀآݩ ريٚ مهربآنيٚ
 get-involved-success-text = اسيٚݩ رآبتي ميݩ رهيسوݩ وڌيٚڪ ڄآڻ سآݩ گڏ جيڪو موجوه رهيٚسيݩ
-get-involved-return-to-languages = ٻوٚليآݩ تي وآپس آڻ
+get-involved-return-to-languages = ٻوليآݩ تي وآپس آڻ

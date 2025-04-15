@@ -1,8 +1,8 @@
 ## Contact Modal
 
-contact-title = رابتے رو فارم
+contact-title = رآبتي رو ڦآرم
 contact-form-name =
-    .label = نام
+    .label = نآلو
 contact-form-message =
-    .label = نیاپو
-contact-required = زرورت
+    .label = نیآپو
+contact-required = زروٚرت

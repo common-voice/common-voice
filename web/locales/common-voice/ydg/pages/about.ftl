@@ -103,6 +103,12 @@ about-playbook-how-grow-language = ماخ دے کامن وئس ڤے یو زبا�
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = راز داری، تحفظ اڤن شفافیت
+about-playbook-how-project-governance-content-4 = کمیونٹین حصہ غوردا اڤن فیصلو کڑا۔
+about-playbook-how-project-governance-content-5 = قدر اڤن قبول کڑا
+about-playbook-how-project-governance-content-6 = ترے خوئے ملن لئے لے یوغن حساب کتاب
+about-playbook-how-project-governance-content-7 = <governanceLink>دے ماخ حکمرانی باری پے دیر معلوماتف دیر ڤیم ݱوئی</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس چیمین ݰوئے ساؤز ݰوئے

@@ -5,6 +5,8 @@ sentence =
     .label = Sætning
 sc-write-submit-confirm = Jeg bekræfter, at denne sætning er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade den.
 sc-review-write-title = Hvilke sætninger kan jeg tilføje?
+sc-review-small-batch-title = Sådan tilføjer du flere sætninger
+new-sentence-rule-1 = <noCopyright>Ingen copyright</noCopyright>-begrænsninger (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Færre end 15 ord per sætning
 new-sentence-rule-3 = Brug korrekt grammatik
 new-sentence-rule-4 = Brug korrekt stavning og tegnsætning
@@ -42,9 +44,32 @@ too-many-files = For mange filer
 
 ## SMALL BATCH SUBMISSION
 
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } af 1 sætning indsamlet
+       *[other] { $uploadedSentences } af { $totalSentences } sætninger indsamlet
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } af 1 sætning indsamlet. Klik <downloadLink>her</downloadLink> for at downloade afviste sætninger.
+       *[other] { $uploadedSentences } af { $totalSentences } sætninger indsamlet. Klik <downloadLink>her</downloadLink> for at downloade afviste sætninger.
+    }
+small-batch-sentences-rule-1 = Følg retningslinjerne fra "Hvilke sætninger kan jeg tilføje?"
+small-batch-sentences-rule-2 = Tilføj en sætning pr. linje
+small-batch-sentences-rule-4 = Tilføj op til 1.000 sætninger
+# menu item
+add-sentences = Tilføj sætninger
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Tilføj og gennemgå sætninger, Tilføj spørgsmål, Transskriber lyd
+add-sentences-menu-item-tooltip = Tilføj sætninger på dit sprog
+review-sentences-menu-item-tooltip = Gennemgå sætninger på dit sprog
+add-questions-menu-item-tooltip = Tilføj spørgsmål på dit sprog
+transcribe-audio-menu-item-tooltip = Transskriber lydoptagelser på dit sprog
 
 ## MENU ITEM ARIA LABELS
 
+review-sentences-menu-item-aria-label = Gennemgå eksisterende sætninger indsendt af fællesskabet
