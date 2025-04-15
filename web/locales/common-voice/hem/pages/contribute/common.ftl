@@ -10,8 +10,9 @@ clips-with-count-pluralized =
        *[other] Biyunge
     }
 goal-help-recording = Hukwilila banwe, Common Voice go fihisha <goalPercentage></goalPercentage> ifiko yage ya kila tufu { $goalValue } michwejyo !
-goal-help-validation = Ukilila banwe, Common Voice ya filisha<goalPercentage></goalPercentage> hifilo yage ya { $goalValue } kilo tufu
-contribute-more = Tayari ya { $count } hulunda ?
+goal-help-validation = Ukilila banwe, Common Voice go fihisha <goalPercentage></goalPercentage> ifiko yage ya kila tufu { $goalValue } witabijya
+contribute-more = Tayari wa ulonga { $count } bishali ?
+speak-empty-state = Nda tu ki na milongo ya uchwejya muluno lulimi…
 
 ## Reporting
 
