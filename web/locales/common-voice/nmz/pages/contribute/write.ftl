@@ -125,7 +125,11 @@ add-sentences = ɩ́ tásǝ́ mààtǝ̀
 ## MENU ITEM TOOLTIPS
 
 add-sentences-menu-item-tooltip = ɩ́ tásǝ̀ mààtǝ̀ kà mɩ́ wʊ́tã́ŋ tàà
+review-sentences-menu-item-tooltip = ɩ́ wííl mɩ́ wʊ̀tã̀ŋ tà mààtǝ̀
+add-questions-menu-item-tooltip = ɩ́ tásǝ̀ àcìsùŋ tóm kà mɩ́ wʊ́tã̀ŋ tàà
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = « mààwʊ́ŋ » àwoór
+add-sentences-menu-item-aria-label = ɩ́ tásǝ̀ mààtǝ̀ kʊ́fàtǝ̀ nǝ̀ mɩ̀ àkpàr tɩ̀ɩ̀nàà kál
 transcribe-audio-menu-item-aria-label = ɩ́ lá mɩ́ àkpààwʊ̀ŋ tóm pǝ́ pǝ̀sǝ̀ mààtǝ̀

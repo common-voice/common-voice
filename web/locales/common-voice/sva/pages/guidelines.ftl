@@ -15,6 +15,7 @@ background-voices = გირკიდი ჰერა̄̈ლ
 volume = ნაკლა̈თხი
 reader-effects = ეფექტა̈რ მუჭუ̂და̄ნრეშდ
 just-unsure = უბრალოდ დარწმუნებულ მა̄მ ხიჲა?
+example = მაგალით
 
 ## Voice collection sidebar content
 

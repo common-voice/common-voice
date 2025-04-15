@@ -73,6 +73,8 @@ reviewing-sentences-explanation-4 = Hvis du løber tør for sætninger at gennem
 ## Question collection sidebar content
 
 easy-to-understand = Let at forstå
+spelling-and-pronunciation = Stavning og tegnsætning
+spelling-and-pronunciation-explanation = Brug korrekt stavning og grammatik.
 length = Længde
 dont-add-subheader = Tilføj ikke
 culturally-specific-questions = Kulturspecifikke spørgsmål
