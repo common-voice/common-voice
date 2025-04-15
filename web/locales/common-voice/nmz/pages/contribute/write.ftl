@@ -114,6 +114,12 @@ add-small-batch-success =
         [one] { $uploadedSentences } àkpààwʊ̀ŋ mààtǝ̀ kà{ $totalSentences } tàà
        *[other] { $uploadedSentences } àkpààwʊ̀ŋ mààtǝ̀ kà{ $totalSentences } tàà
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } àkpàà mààtǝ̀ kà { $totalSentences }rʊ́ʊ̀ nà. ñʊ́ʊ̀<downloadLink> cè</downloadLink> nǝ̀ ɩ́ kpá àkìsùŋ mààtǝ̀.
+       *[other] { $uploadedSentences } àkpàà mààtǝ̀ kà { $totalSentences }rʊ́ʊ̀ nà. ñʊ́ʊ̀<downloadLink> cè</downloadLink> nǝ̀ ɩ́ kpá àkìsùŋ mààtǝ̀.
+    }
 small-batch-sentences-rule-1 = tǝ̀ŋkǝ̀ lǝ̀sʊ́ŋ rʊ̀ʊ̀rǝ̀tǝ́ rʊ̀ʊ̀ « mààtǝ̀ wóntã̀ŋ kànà mà tàsǝ̀ ? »
 small-batch-sentences-rule-2 = ɩ́ tásǝ̀ mààtǝ̀ kà àhìlìm tàà
 small-batch-sentences-rule-3 = ñʊ́ʊ̀ « sʊ̀wɩ̀ɩ̀ » rʊ̀ʊ̀ nǝ̀ ɩ́ tár mààtǝ̀
