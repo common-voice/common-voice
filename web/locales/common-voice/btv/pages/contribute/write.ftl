@@ -97,6 +97,22 @@ too-many-files = ڙھؤ زیات فائل
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon> </icon> لوں سو احاطہ کار والہ جملے ملا
+multiple-sentences-error = تُو یک وار رے مختلف جملے جمہ نہ گر ھواں
+exceeds-small-batch-limit-error = 1000 جملیوں نو زیات جمہ نہ گر ھواں
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] حد سو ریٹ زیاتیں گا تھو 1 منٹ مہ دوبارہ کوشش گر  حد سو ریٹ زیاتیں گا تھو دوبارہ کوشش گر { $retryLimit } ملٹوں مہ
+       *[other] { "" }
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] حد سو ریٹ زیاتیں گا تھو دوبارہ کوشش گر { $retryLimit } سکنڈوں مہ
+       *[other] { "" }
+    }
 
 ## MENU ITEM TOOLTIPS
 

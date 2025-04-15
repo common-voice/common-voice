@@ -93,6 +93,7 @@ too-many-files = fìsiewo sùgbɔ
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = sɔ́ nyàgbè sùgbɔ  kèyé àmèwo nya nyɔɛɖé a kpé è.
 multiple-sentences-error = wò mu la téŋu kpé nyàgbèwo gbogboɖé huè kè nu wo le do nuwo ɖo ɖa o.
+exceeds-small-batch-limit-error = wò mu la téŋu ɖo nyàgbè kèwo wu kà wui vɔ àtɔ̃ ɖo ɖa gbèɖé o
 
 ## MENU ITEM TOOLTIPS
 
