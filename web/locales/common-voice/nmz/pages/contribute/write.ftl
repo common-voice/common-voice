@@ -57,16 +57,19 @@ language_fundamentals = àpààsǝ̀nʊ̀ŋ tóm kà wʊ́tásǝ̀ tà (a
 # Sentence Domain dropdown option
 media_entertainment = tóm rɩ̀ɩ̀sʊ́ŋ tǝ̀má nǝ̀ àséntɩ́ɩ̀
 # Sentence Domain dropdown option
-news_current_affairs = wómpǝ́ wɩ̀ɩ̀ pǝ́ lákǝ́ ná
-sentence-variant-select-placeholder = ñʊ́ʊ́ ñá rìtàfàláà wʊ̀tã́ŋ rʊ̀ʊ̀ (ʊ̀ tã̀ŋ féféré)
-sentence-variant-select-multiple-variants = wóntǝ̀ ʊ̀ mɔ̀ɔ́nà sǝ̀ àsǝ́m wʊ̀tã̀ŋ rʊ̀ʊ̀ nà
+nature_environment = kòrùŋ nǝ̀ wóntǝ̀ cóò rá ná
+# Sentence Domain dropdown option
+news_current_affairs = kòrùŋ rʊ̀ʊ̀ tóm
+# Sentence Domain dropdown option
+technology_robotics = ñʊ́ʊ́tǝ̀ lón
+sentence-variant-select-label = mààtǝ̀ ntǝ́ tǝ̀lɩ́ɩ̀ntǝ̀
+sentence-variant-select-placeholder = ɩ́ lǝ́sǝ́ wʊ́táŋ kà ká lɩ́ɩ̀ntǝ̀ (ʊ̀ tã̀ŋ féféré)
+sentence-variant-select-multiple-variants = wóntǝ̀ ʊ̀ mɔ̀ɔ́nà sǝ̀ àsǝ́m wʊ̀tã̀ŋ rʊ̀ʊ̀ nà / wʊ̀tásǝ́ lɩ́ɩ̀nsǝ̀ kpàtǝ̀r
 
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = jèkǝ̀ <icon></icon>agbèntùŋ tà mààtǝ̀
-sc-bulk-upload-instruction = rʊ́ ñá tákǝ́rã́ŋ kà tàà cé jàà <uploadButton> ñʊ́ </uploadButton> rʊ̀ʊ̀ nǝ̀ ŋ́ jékǝ̀ ká
-sc-bulk-upload-instruction-drop = rʊ́ tákǝ́rã̀ŋ kà cè nǝ̀ ŋ́ jékǝ́ ká
+sc-bulk-upload-header = ɩ́ jèkǝ̀ <icon></icon> jǝ́rá tǝ́n mààtǝ̀
 bulk-upload-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ àkpá tóm nǝ̀ àtàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ ɩ́ t tómpǝ̀ tã̀ŋ rà kpààrǝ́tǝ tóm tà ná nǝ̀ ɩ́ tàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = ɩ́ lìmìsì mɩ́ tóm kà táà cé nǝ̀ ɩ́ lèl

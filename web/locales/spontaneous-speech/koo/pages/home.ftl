@@ -10,8 +10,10 @@ why-card-1-text = Omuthambo owakino<mark>organic speech contexts</mark> n’emik
 why-card-2-text = Eriwathikya emibuughe omo kwenene kandi n’eribindulhayo omo yindi mibuughe <mark>code-switching</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Eriwathikya emibuughe eyibulirene <mark>no text corpus</mark> to use (eg, sociolects, variants, historically unscripted languages etc)
+how-spontaneous-speech-works = Emibuughe ey’obuli muthina koyikakolesibawa.
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = Eky'aho-naho
+prompt-bubble-subtitle = Thukendikukangya ekibulyo eky’aho-naho
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = Subamo
 respond-bubble-subtitle = Wanasubya kuwo kuwangathoka
@@ -31,4 +33,5 @@ signup-form-title = Are you already in our Beta testing group for Common Voice�
 signup-input-placeholder = Sakanga emayilhu yaghu
 signup-button-value = Mulebeke ebikahika oko mayilhu yaghe
 footer-text-privacy = <privacyLink>Privacy</privacyLink>
+footer-text-terms = <termsLink>Terms</termsLink>
 footer-text-cookies = <cookiesLink>Cookies<cookiesLink>

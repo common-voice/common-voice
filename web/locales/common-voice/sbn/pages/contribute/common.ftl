@@ -9,8 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>ڪليٚپ
        *[other] <bold>{ $count }</bold>ڪليٚپون
     }
-goal-help-recording = اڀانٚ مدت ڪئيٚ ڪومن وُئيٚس تي پڃڻ مينٚ <goalPercentage>ا</goalPercentage> اسانٚ ري روز رآ{ $goalValue }ريٚڪورڊ ڪرڻ مڪسد
-goal-help-validation = اڀانٚ مدت ڪئيٚ ڪومن وُئيٚس تي پڃڻ مينٚ <goalPercentage>ا</goalPercentage> اسانٚ ري روز رآ{ $goalValue }تسديٚڪ رآ مڪسد
+goal-help-recording = اڀانٚ مدت ڪئيٚ ڪآمن وآئيٚس تي پُڃڻ مينٚ <goalPercentage>ا</goalPercentage> اسانٚ ري روز ري { $goalValue } ريٚڪآڊئينگ ڪرڻ ري مڪسد مينٚ
+goal-help-validation = اڀانٚ مدت ڪئيٚ ڪآمن وآئيٚس تي پُڃڻ مينٚ <goalPercentage>ا</goalPercentage> اسانٚ ري روز ري{ $goalValue }تسديٚڪآنٚ ڪرڻ ري مڪسد مينٚ
 contribute-more =
     { $count ->
         [one] هَڪ
