@@ -101,6 +101,44 @@ too-many-files = Anaŋ mə pekerge kemiya
 small-batch-instruction = <icon></icon> Fekenege ma ɗi zlabaŋ ane aɗereŋ a məgurako i gumna
 multiple-sentences-error = Akəslahoŋ məfekenege ma ɗi zlavaŋ daw sarta i məmas seleŋ age
 exceeds-small-batch-limit-error = Agiya vo məpawo ma ɗi atəmaka aka dəbbo
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Aslam mətalyo ahe aslege.  ŋgurəmako a 1 sarta
+       *[other] Aslam mətalyo ahe aslege.  ŋgurəmako a { $retryLimit } sarta
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Aslam mətalyo ahe aslege. ŋgurəmako a  1 ftek
+       *[other] Aslam mətalyo ahe aslege. ŋgurəmako a  { $retryLimit } ftek
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Akə sleŋge ve aslam mətal yo i pla isindene. Kamkam femawo bərov!  sarta ndala akəwuraya bəra ma awehe . Wuseko ənta məfawo ɓərov gukuli !
+       *[other] Akə sleŋge ve aslam mətal yo i pla isindene. Kamkam femawo bərov!  sarta { $retryLimit } ndala akəwuraya bəra ma awehe . Wuseko ənta məfawo ɓərov gukuli !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Akə sleŋge ve aslam mətal yo i pla isindene. Kamkam fəmawo ɓərov  1  ftek  ndala akəwuraya bəra ma awehe. Wuseko ənta məfawo bərov gukul
+       *[other] Akə sleŋge ve aslam mətal yo i pla isindene. Kamkam fəmawo ɓərov  { $retryLimit }  ftek  ndala akəwuraya bəra ma awehe. Wuseko ənta məfawo bərov gukul
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ma ɗi məgwatsara ahe aka
+       *[other] { $uploadedSentences } ma ɗi məgwatserge ahe aka { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 ma məgwatsariya aka seleŋ. Tsə́kum <downloadLink>here</downloadLink>aka akə dasaragwa ma ɗi ane tepəro.
+       *[other] { $uploadedSentences } { $totalSentences } ma məgwatsariya aka seleŋ. Tsə́kum <downloadLink>here</downloadLink>aka akə dasaragwa ma ɗi ane tepəro.
+    }
+small-batch-sentences-rule-1 = Kələmaloŋ aslam sek isindene « ma ɗi wele ne slahoŋ məfekenege ?»
+small-batch-sentences-rule-2 = Fekenege ma seleŋ aka məltivi
 
 ## MENU ITEM TOOLTIPS
 
