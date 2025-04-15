@@ -17,6 +17,11 @@ record-three-more-instruction = ne wu tɔ̃
 record-again-instruction = enyɔ ŋutɔ<recordIcon></recordIcon> le apo nyàkpaɖe kpɔtɛa
 record-again-instruction2 = yì eji nènéa eye le e eji eji.
 record-last-instruction = <recordIcon></recordIcon> kpɔtɛ a yé yà!
+review-tooltip = trɔ kpɔ nu eye né be hiã a wo la trɔ le nyàwo..
+share-clip = ma apo nyàlélé a
+share-common-voice = ma common Voice
+review-instruction = dà ŋuku ɖo emè nyɔɛɖe né a trɔ le nyà né hiã a.
+record-submit-tooltip = sɔɛ ɖɔ ɖa né wò sɔgbè a
 
 ## MENU ITEM TOOLTIPS
 
