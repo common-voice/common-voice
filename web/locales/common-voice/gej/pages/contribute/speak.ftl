@@ -36,6 +36,9 @@ review-rerecord = trɔ le nyà
 review-cancel = tɔtè nyàɖoɖoɖaa
 review-keep-recordings = lebe na nyàléléwo ɖo tèpé ɖe
 review-delete-recordings = tutu nyàléléwo
+review-terms = Né wò le zã Common Voice a,  wò dà àsi ɖo <termsLink> sé kè kùɖo  ébé zãzã ŋuti </termsLink> ku ékèwo kã̀ miabé<privacyLink> nyàwawlawo ŋuti</privacyLink>
+terms-agree = mù lɔ̃̀
+terms-disagree = mù gbé
 
 ## MENU ITEM TOOLTIPS
 

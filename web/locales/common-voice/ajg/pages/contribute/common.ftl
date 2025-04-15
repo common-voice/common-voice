@@ -67,7 +67,7 @@ shortcut-skip = a
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
 shortcut-record-toggle-label = Le nyɔ dɛ, jra nyɔ do ɖɛ́ /  nɔ te
-shortcut-rerecord-toggle = [so ɖeka yí atɔn]
+shortcut-rerecord-toggle = [1-5 ]
 shortcut-rerecord-toggle-label = á trɔ lé nyɔ, á trɔ lé nyɔwo ɖɛ́
 shortcut-discard-ongoing-recording = aɖaŋuɖeɲɔnucúcú, alɔmekaxomɔnucúcú
 shortcut-discard-ongoing-recording-label = cucu nyɔlelé ce yí yikɔji, cucu enyɔ  ce yíe le kɔ.

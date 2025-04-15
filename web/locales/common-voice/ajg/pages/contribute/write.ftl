@@ -25,9 +25,70 @@ login-instruction-multiple-sentences = <loginLink>Ɖò eka mɛ</loginLink> alo<
 how-to-cite = Lé wo a nú amɛcinyɔwosɔ dó ɔ?
 how-to-cite-explanation-bold = Nɔ́ à nú amɛcinyɔ è sɔ ɔ, sɔ̀ ekacaca alo amɛ lɔ nyikɔ pleŋ dó mɛ
 how-to-cite-explanation = Nɔ́ é nyí eoŋtɔ 'nyɔkuiwo yɔ́ ɔ, nù kpoŋ mɔ<italicizedText>"enyɛŋtɔ 'nyɔkuiwo ŋ nu"</italicizedText>. É ʒian mɔ́ mì a nyá fini ci yí enu ci yí le wo mɛ soso yí a nyá mɔ́ gbe d'é nyí amɛɖe yí kpa wo o yí acɛɖoɖo doamɛnuji ɖé de ɖe yi zanzan kpɔtɔ o. A gbe sɔ nyá enu soso amɛcinyɔwosɔ nunu nú dó jí kpii ɔ, vàyi kpɔ<guidelinesLink>enyɔ ciwo yí mì nú soso nú
+guidelines = egbeɖeɖewo
+contact-us = A jí enu gɔnmɛkpɔ le mì gbɔ́
+add-sentence-success = Enyɔgbe ɖe ci yí wo bɔ
+add-sentence-error = Hwecinu wo jikɔ a sɔ́ enyɔgbe kpii ɔ, afɛn le mɛ
+required-field = Kablaa, ɖɔ̀ tɛnmɛ cɛ nu
+single-sentence-submission = enyɔgbe kuɖeka sɔsɔ ɖaɖa
+small-batch-sentence-submission = Enyɔgbewo 'ta hwɛhwɛ sɔsɔ ɖaɖa
+bulk-sentence-submission = Enyɔgbe sugbɔ sɔsɔ ɖaɖa
+single-sentence = Enyɔgbe kuɖeka
+small-batch-sentence = Eta hwɛhwɛ
+bulk-sentence = hlɛnhlɛnmɛ sugbɔ
+sentence-domain-combobox-label = Enyɔgbe lɔ jɔsoxu
+sentence-domain-select-placeholder = Càn soxu, keke á yi amɛtɔn
+# Sentence Domain dropdown option
+agriculture_food = Agbledede koɖo ashitrɔtrɔ le enuɖuɖuwo nú
+# Sentence Domain dropdown option
+automotive_transport = Ehun koɖo ehunsɔsɔ
+# Sentence Domain dropdown option
+finance = Ehozanzan 'nyɔwo
+# Sentence Domain dropdown option
+service_retail = Edɔwawanɔamɛ koɖo enuɖeɖesasa
+# Sentence Domain dropdown option
+general = Jɔsoxu kpaa
+# Sentence Domain dropdown option
+healthcare = Lanmɛsɛn 'nyɔwo
+# Sentence Domain dropdown option
+history_law_government = Eholɔlɔ, ese koɖo acɛkpakpa
+# Sentence Domain dropdown option
+language_fundamentals = Ɖoɖo ciwo jí yí egbewo nɔ anyi dó (enuhlɛnhlɛnkui, wemakui, eho)
+# Sentence Domain dropdown option
+media_entertainment = Enyɔnununɔamɛ 'nuwo
+# Sentence Domain dropdown option
+nature_environment = Xexemɛ koɖo enu ciwo yí trɔdo amɛ
+# Sentence Domain dropdown option
+news_current_affairs = Egbɛ 'nyɔjɔjɔwo
+# Sentence Domain dropdown option
+technology_robotics = Edɔwawawo 'lɔkpa koɖo hlobowo 'lɔkpa
+sentence-variant-select-label = Enyɔgbe hamɛhamɛ
+sentence-variant-select-placeholder = Càn enyɔgbe hamɛ ɖeka (nɔ́ é dró eo)
+sentence-variant-select-multiple-variants = Enyɔ kpaawo soso egbe lɔ nú / hamɛhamɛ sugbɔ
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Sɔ̀... ɖaɖa <icon></icon> enyɔgbe ci yí amɛɖe de kpa o
+sc-bulk-upload-instruction = Cùcu ao 'nyɔgbewo dakavi toto elɛ<uploadButton> ʒin alɔ i ji yí a sɔɛ ɖaɖa</uploadButton>
+sc-bulk-upload-instruction-drop = Sɔ̀ enyɔgbewo dakavi lɔ dado elɛ yí a sɔɛ ɖaɖa
+bulk-upload-additional-information = Nɔ́ è ji mɔ́ ye a ná enyɔwo sɔwu ahan soso enyɔgbewo dakavi cɛ nu ɔ, vàyi ji enu gɔnmɛ kpɔ le <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Nɔ́ è ji mɔ́ ye a ná enyɔwo sɔwu ahan soso enyɔgbewo dakavi cɛ nu, enyɔgbe ciwo yí de le kpɔwɛ lɔ mɛ ɔ, vàyi ji enugɔnmɛ kpɔ le<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Gbè tiikpɔ yí a cucu ao 'nyɔgbewo dakavi lɔ ɖaɖa toto elɛ
+try-upload-again-md = Gbè tekpɔ mɔ́ ye a sɔɛ ɖaɖa ké
+select-file = Càn enyɔgbewo dakavi ɖeka
+select-file-mobile = Càn enyɔgbewo dakavi ɖeka yí a sɔɛ ɖaɖa
+accepted-files = Enyɔgbewo dakavi ciwo jí yí wo xɔ egbe do 'lɔkpawo: .tsv ɖekɛ
+minimum-sentences = Enyɔgbe hlɛnhlɛnmɛ hwɛhwɛtɔ ci yí le enyɔgbe dakavi mɛ: 1000
+maximum-file-size = Enyɔgbewo dakavi kpɛnkpɛnmɛ: 25 Mo
+what-needs-to-be-in-file = Nyi yí a nɔ anyi 'nyɔgbewo dakavi mɛ ɔ?
+what-needs-to-be-in-file-explanation = Vàyi ji gɔnmɛ kpɔ le mìwo<templateFileLink> kpɔwɛ mɛ</templateFileLink>. Amɛɖe de ɖó a ɖó acɛ ɖe dó ao 'nyɔgbewo jí o (CC0 alo amɛnu ci nu yí amɛ lɔ ɖe alɔ le ), wo ɖó a ɖó gɔnmɛsese nyuiɖe, a zɔndo egbe 'nyɔse jí yí a gbe nya hlɛnhlɛn nyuiɖe. Enyɔgbe ciwo yí è sɔ ɖaɖa, nɔ́ wo a hlɛn wo ɔ, á xɔ 10-15 ɖabaxoxo. Enuhlɛnhlɛnkui, amɛ alo enu nyikɔwo  koɖo wemakui toevotoevowo ɖe d'a le mɛ o.
+upload-progress-text = Enusɔsɔ ɖaɖa lɔ yikɔ ji
+sc-bulk-submit-confirm = Ŋ tɛkɔ egbe do jí mɔ́ enyɔgbe cɛwo <wikipediaLink>gbe d'é nyí amɛɖe yí kpa wo o</wikipediaLink>emɔnuɖeɖe li mɔ na sɔ́ wo ɖaɖa.
+bulk-upload-success-toast = Enyɔgbe ciwo yí wo sɔ́ ɖaɖa
+bulk-upload-failed-toast = Enusɔsɔɖaɖa lɔ de yi o, gbè tiikpɔ ké
+bulk-submission-success-header = Akpe nɔ́ eo mɔ è sɔ enyɔgbe sugbɔ ɖaɖa
+bulk-submission-success-subheader = Dò alɔ Kɔmɔnu Vɔyisi nɔ́ á sɛn eŋ lé enu ciwo yí é nyakɔ le yi ŋkeŋke 'nyɔgbewo mɛ
 upload-more-btn-text = Sɔ̀ enyɔgbe buwo ɖaɖa
 file-invalid-type = Enyɔgbewo dakavi masɔgbe
 file-too-large = Enyɔgbewo dakavi lɔ gangan sugbɔ
