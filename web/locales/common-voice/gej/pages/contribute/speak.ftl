@@ -32,6 +32,8 @@ review-aborted = nu kè wò ɖo ɖo ɖaa mu téŋu yì o. ɖe wò ji la tútú a
 review-submit-title = dà ŋùku ɖo nu mè né wò la sɔ ɖo ɖaa.
 review-submit-msg = akpé na apo nyàlelewo ŋuti! <lineBreak></lineBreak> fifì a  wò la téŋu dà àsi ɖo eji eye a sɔ nyàlelekpaɖe kèwo gbɔ̃nà a ɖo ɖaa.
 review-recording = kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
+review-rerecord = trɔ le nyà
+review-cancel = tɔtè nyàɖoɖoɖaa
 
 ## MENU ITEM TOOLTIPS
 
