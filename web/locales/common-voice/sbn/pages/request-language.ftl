@@ -1,7 +1,7 @@
 ## Request Language Pages
 
 request-language-heading = پُڇو نئيٚ ٻوليٚ ري بآري مينٚ
-request-language-explanation-1 = چيڪ ڪرو اگر اڀآنٚ ريٚ ٻوليٚ ليسٽ مينٚ هوئي<languagesPageLink> ڪآمن وآئيٚس ٻوٚليآنٚ ري سڦهي تي </languagesPageLink>۔ اگر نآ هوئي تا اي ڦآرم ڀرو ائيٚنٚ اسيٚنٚ <strong> موڪلسونٚ ايٚ ميل وآزهي ڪرڻ لآ تا ڪئينٚ هآسل ڪرڻ کپي ٻوليٚ رو سيٽپ کي </strong>۔
+request-language-explanation-1 = چيڪ ڪرو اگر اڀآنٚ ريٚ ٻوليٚ ليسٽ مينٚ هوئي<languagesPageLink> ڪآمن وآئيٚس ٻوليآنٚ ري سڦهي تي </languagesPageLink>۔ اگر نآ هوئي تا اي ڦآرم ڀرو ائيٚنٚ اسيٚنٚ <strong> موڪلسونٚ ايٚ ميل وآزهي ڪرڻ لآ تا ڪئينٚ هآسل ڪرڻ کپي ٻوليٚ رو سيٽپ کي </strong>۔
 request-language-form-email =
     .label = اڀآنٚ رو ايٚ ميل ايڊرس
 request-language-form-info =

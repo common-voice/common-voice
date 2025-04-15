@@ -53,7 +53,7 @@ email-subscription-title-new = ڪآمن وآئيٚس نيٚوز ليٽر، مڪ�
 benefits = ڦآئيدآ
 rich-data = ڪجهه گمنآم ڊيموگرآڦڪ ڊيٽآ ڦرآهم ڪري پنڊريݩ جمآ ڪرآئيل ڊيٽآ کي ممڪن هد تآئيٚݩ سُٺو ٺآهو۔ اسآݩ سڀئي ڊيموگرآڦڪ ڊيٽآ کي آوآميٚ ڪرڻ کآݩ اڳ ايئآݩ ريٚ سُڃآڻپ کتم ڪروݩ دآ۔
 improve-audio = پُروڦآئيٚل ريٚ مآلوٚمآت تڪريٚر ريٚ سُڃآڻپ ريٚ دُرستگيٚ ريٚ تربيٚت ميݩ  استمآل ٿيڻ وآرو آڊيٚو ڊيٽآ کي بهتر ٺآهيٚ ديٚ۔
-keep-track = ڪيتريݩ ئيٚ ٻوٚليآݩ ميݩ پنڊريٚ ترڪيٚ ائيٚݩ ميٽرڪس رو ٽريڪ رکو۔
+keep-track = ڪيتريݩ ئيٚ ٻوليآݩ ميݩ پنڊريٚ ترڪيٚ ائيٚݩ ميٽرڪس رو ٽريڪ رکو۔
 compare-progress = ڏسو تا اڀآݩ ريٚ ترڪيٚ دُنيآ ري ٻيݩ هيسو وٺڻ وآرآݩ ري مڪآبلي  ميݩ ڪيئݩ اهي۔
 view-goals = زآتيٚ ائيٚݩ منسوبي ريٚ مڪسدآݩ ري مڪآبلي ميݩ پنڊريٚ ترڪيٚ ڏسو۔
 join-newsletter = منسوبي بآبت تآزه ڪآريݩ ائيٚݩ نئيٚ مآلوٚمآت لآ اکتيآريٚ تور تي اسآݩ ري ايٚ ميل لسٽ ميݩ شآمل ٿيو۔
@@ -86,22 +86,22 @@ add-questions-coming-soon = سوآل شآمل ڪرو <small>جلديٚ آڻ وآ
 transcribe-audio-coming-soon = آڊيٚو کي لکو <small>جلديٚ آڻ وآرآ</small>
 transcribe-audio = آڊيٚو کي لکو
 press-and-stories = اکبآر ائيٚݩ آکهآڻيٚوݩ
-community-and-languages = برآدريٚ ائيٚݩ ٻوٚلي
+community-and-languages = برآدريٚ ائيٚݩ ٻولي
 coming-soon = جلديٚ آڻ وآريٚ اهي
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = هسيدآريٚ، اکبآر ائيٚݩ آکهآڻيوݩ، برآدريٚ ائيٚݩ ٻوٚلي
+about-menu-tooltip = هسيدآريٚ، اکبآر ائيٚݩ آکهآڻيوݩ، برآدريٚ ائيٚݩ ٻوليٚ
 partnerships-menu-item-tooltip = هسيدآر اسآݩ ڀيڙآ
 press-and-stories-menu-item-tooltip = آئو اسآݩ ري ولوٚگ تي ائيٚݩ اسآݩ ري بآري ميݩ لکو۔
-community-and-languages-menu-item-tooltip = کُلي سمجھآئو ٻوٚليآݩ ائيٚݩ برآدريآݩ ائيٚݩ ڪآمن وآئيٚس ري بآري ميݩ
+community-and-languages-menu-item-tooltip = کُلي سمجھآئو ٻوليآݩ ائيٚݩ برآدريآݩ ائيٚݩ ڪآمن وآئيٚس ري بآري ميݩ
 
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = آپشن مينيوري بآري ميݩ
 partnerships-menu-item-aria-label = سکو هيسدآريٚ ڪآمن وآئيٚس سآݩ ري بآري ميݩ
 press-and-stories-menu-item-aria-label = اجآزت ڏيڻ لآ پريس بٽڻ دٻآئو ڇڏڻ لآ ائيٚݩ آکهآڻيوݩ ڪآمن وآئيٚس ري متآبڪ
-community-and-languages-menu-item-aria-label = ڪآمن وآئيٚس ريٚ مدت سآنٚ ڪميٚونٽيٚ ائيٚنٚ ٻوٚليآنٚ کي لنٚڀو
+community-and-languages-menu-item-aria-label = ڪآمن وآئيٚس ريٚ مدت سآنٚ ڪميٚونٽيٚ ائيٚنٚ ٻوليآنٚ کي لنٚڀو
 
 ## NEW HOME PAGE KEYS
 
@@ -110,7 +110,7 @@ community-and-languages-menu-item-aria-label = ڪآمن وآئيٚس ريٚ مد
 
 hero-title = ٽيڪنآلآجيٚ جيڪو اڀآݩ ريٚ ٻوليٚ ڳآلهآئي ديٚ
 # Text wrapped in <bold></bold> will be shown in bold font
-hero-subtitle-1 = <bold>ڪݩههݩ لآ اي آئيٚ رُڳو دُنيآ ريٚ ڪجه ٻوٚليآݩ تي ڪم ڪري ديٚ؟</bold>
+hero-subtitle-1 = <bold>ڪݩههݩ لآ اي آئيٚ رُڳو دُنيآ ريٚ ڪجه ٻوليآݩ تي ڪم ڪري ديٚ؟</bold>
 hero-subtitle-2 = اسآݩ ريٚ ٻوليٚ اسآݩ ريٚ آکهآڻيٚ ، اسآݩ ريٚ برآدريٚ، اسآݩ ريٚ سڪآڦت اهي۔ آئو اپيٚݩ هَڪ ڊيٽآ سيٽ ٺآهوݩ جيڪو اسيٚݩ گُهروݩ دآ تي اسيٚݩ دُنيآ ميݩ ڏسي سگھوݩ۔
 # icon is an arrow that points downwards
 get-started = شروٚ ڪرو<icon><icon>
@@ -129,7 +129,7 @@ add-text = لکت شآمل ڪرو
 
 ## Community section
 
-community-section-title = آلميٚ برآدريآنٚ پآرآنٚ تآنٚڪتور، آلميٚ برآدريآنٚ لآ۔ 130 ٻوٚلينٚ ائيٚنٚ وڌتينٚ
+community-section-title = آلميٚ برآدريآنٚ پآرآنٚ تآنٚڪتور، آلميٚ برآدريآنٚ لآ۔ 130 ٻولينٚ ائيٚنٚ وڌتينٚ
 join-discord-community = ڊيس ڪورڊ ڪميٚونٽيٚ ميݩ شآمل ٿيو
 # label for button
 join-discord-community-action = اسآݩ سآݩ شآمل ٿيو ڊيس ڪورڊ تي
@@ -159,7 +159,7 @@ download-press-pack = اسآݩ رو پريس پيڪ ڊآئون لوڊ ڪرو
 
 ## Developers section
 
-developers-section-title = 130+ ٻوٚليآݩ ميݩ آوآميٚ تور تي رسآئيٚ ري لآئيٚڪ کُليل تڪريٚر ڊيٽآ سيٽس
+developers-section-title = 130+ ٻوليآݩ ميݩ آوآميٚ تور تي رسآئيٚ ري لآئيٚڪ کُليل تڪريٚر ڊيٽآ سيٽس
 developers-section-subtitle = ASR، STT، TTS، ائيٚݩ ٻيݩ NLP هوآلي سآݩ ڊيٽآ سيٽ - ڪميٚونٽيٚ ري شرڪت وسيٚلي ٺآهيآ وهُڙآ۔
 # icon is an arrow that points to the right
 explore-datasets = ڊيٽآ سيٽ ري ڳولآ ڪرو<icon></icon>

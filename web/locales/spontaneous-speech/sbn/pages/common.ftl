@@ -13,7 +13,7 @@ contribution-picker-label = شرآڪت ڪرڻ<bold>{ $language }</bold>ڊيٽآ 
 contribution-picker-tooltip-text = ٻوليٚ ڊيٽآ سيٽ کي تبديٚل ڪري دو جنٚهنٚ مينٚ اڀيٚنٚ هيسو وٺي رهيآ اهونٚ
 # Label for button on contribution switcher
 change = تبديٚل ڪرڻ
-coming-soon = جلديٚ آڻ وآرينٚ اهينٚ ٻئينٚ ٻوٚلينٚ
+coming-soon = جلديٚ آڻ وآرينٚ اهينٚ ٻئينٚ ٻولينٚ
 media-recorder-api-not-supported = اڀآنٚ ري برآئوزر مينٚ ميٚڊيآ ريڪآڊر اي۔پيٚ۔آئيٚ (API) سپورٽ ٿيل ڪونهي۔
 # Toast message that is displayed when an item is skipped
 skipped = ڇڏيل
