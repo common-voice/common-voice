@@ -22,6 +22,7 @@ share-clip = ma apo nyàlélé a
 share-common-voice = ma common Voice
 review-instruction = dà ŋuku ɖo emè nyɔɛɖe né a trɔ le nyà né hiã a.
 record-submit-tooltip = sɔɛ ɖɔ ɖa né wò sɔgbè a
+clips-uploaded = minikinɔnɔmètata kèwo dà ɖo kà mè aa
 
 ## MENU ITEM TOOLTIPS
 
