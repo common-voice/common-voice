@@ -122,6 +122,7 @@ small-batch-sentences-rule-1 = kplɔ̀ àkpa bé mɔtata do " nyàgbè kɛwo mù
 small-batch-sentences-rule-2 = sɔ nyàgbèɖé kpé flì sia flì.
 small-batch-sentences-rule-3 = né à téŋu má nyàgbèwo lè woanɔ̀nɔɛwo mè a, zĩ numèɖoɖo butɔ̃ zèɖèka.
 small-batch-sentences-rule-4 = wò  la téŋu kpé  nyàgbèwo kaka yì kà wui vɔ àtɔ̃.
+small-batch-sentences-rule-5 = nyàgbèwo kpata ɖo la so  nú ɖèkamè.
 
 ## MENU ITEM TOOLTIPS
 
