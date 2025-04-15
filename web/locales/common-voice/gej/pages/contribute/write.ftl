@@ -23,6 +23,7 @@ new-sentence-rule-7 = wo ɖo la zã amènùmègbè kè híã a.
 new-sentence-rule-8 = e ɖo la nɔ̀ bɔ̀bɔɛɖé bé  wo a hlɛ̃̀ àpo nyàgbè
 login-instruction-multiple-sentences = <loginLink>ɖo kàmè</loginLink> alo <loginLink> ŋlɔ̀ àpo nyikɔ </loginLink> né wo la sɔ nyàgbè gbogboɖewo  kpéè.
 how-to-cite = leke wo la zã àmènumègbe o
+how-to-cite-explanation-bold = zã àmè a bé numègbe ku layiniɖé alo xòma a bé tanya.
 
 ## BULK SUBMISSION
 
