@@ -83,6 +83,12 @@ rate-limit-toast-message-seconds =
         [one] Ma bochíli osirúami. Che siné oláa bilé segundo  simírosa
        *[other] Ma bochíli osirúami. Che siné oláa { $retryLimit }segundos  simírosa
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ma ne simíroka bochíli  ma julamía ka nái página. Buyé pe bilé minuto alí che juláli osirúami.  Matétera ba kíti komí a kíli kamíma
+       *[other] Ma ne simíroka bochíli  ma julamía ka nái página. Buyé pe { $retryLimit } minutos alí che juláli osirúami.  Matétera ba kíti komí a kíli kamíma
+    }
 
 ## MENU ITEM TOOLTIPS
 
