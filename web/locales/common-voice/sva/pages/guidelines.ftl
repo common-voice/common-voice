@@ -32,6 +32,7 @@ misreadings-explanation-5 = მეკუ̂შდე ი ჯო̄დი ფორ
 misreadings-explanation-6 = ქახაცუ̂ირ უ̂ეშგმეპილჲა̈ სიტყუ̂ა̄̈ ლა̈შთხა ნა̈ი̄რი სურუ ჩქა̈რდ ლისრულემი ბა̈დშუ̂.
 misreadings-explanation-7 = სიტყვა̄̈ ლიჭუ̂და̄̈ნია̈ ფიშრა̄მინ ლიკჰუ̄რე.
 misreadings-example-1 = ნა̈ჲ ყაუ̂ა̄̈ ლათრათე ესხუ̂რიდ ქა.
+misreadings-example-2 = ნა̈ჲ ყაუ̂ა̄̈ ლათრათე ქ'ე̄სხუ̂რიდ.
 misreadings-example-3 = ყავა̄̈ ლათრათე ესღუ̂რიდ.
 misreadings-example-4 = ბუმბერაზ ჟა̄̈ნჷნჩქარა̄̈ნ.
 misreadings-tip-1 = [ხაკუ "ნა̈ჲ ხუ̂იშდ"]
