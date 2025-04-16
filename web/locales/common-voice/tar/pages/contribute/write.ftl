@@ -98,8 +98,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } de 1 osirúami katewárami echina programa
-       *[other] { $uploadedSentences }  de { $totalSentences }osirúami katewárami echina programa
+        [one] { $uploadedSentences } échi 1 osirúami katewárami echina programa
+       *[other] { $uploadedSentences } échi  { $totalSentences }osirúami katewárami echina programa
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } bilé raíchali katewárami. Rachíni <downloadLink>naí </downloadLink>kíti rikíbuma échi osirúami jápi ke nakíru
+       *[other] { $uploadedSentences } échi { $totalSentences } raíchali katewárami. Rachíni <downloadLink>naí </downloadLink>kíti rikíbuma échi osirúami jápi ke nakíru
     }
 
 ## MENU ITEM TOOLTIPS
