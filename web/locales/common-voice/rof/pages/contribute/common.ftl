@@ -19,9 +19,22 @@ speak-empty-state-cta = Iharana mateta
 record-button-label = nnde sautiyafoo
 share-title-new = Chasha ufiari iwoka
 login-to-get-started = Chasha ufiari iwoka
+target-segment-add-voice = Teta seng"ee
+target-segment-learn-more = Lasanya imanya
+change-preferences = Sengeta  maendeleo
+login-signup = Chasha /Ufiari
+vote-yes = Yee
+vote-no = Ehe
+languages = Kikwamotru
+about = Kfachacho
+partner = Wakwa
+submit-form-action = Saindia
 
 ## Reporting
 
+report = Ndumwa
+report-title = Saindia ndumwa
+report-offensive-language = Mateta mavishwa
 
 ## Speak & Listen Shortcuts
 
