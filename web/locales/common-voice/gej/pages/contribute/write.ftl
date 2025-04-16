@@ -29,6 +29,7 @@ guidelines = mɔtatawo/ mɔfiɔfiɔwo/ sèwo
 contact-us = ɖe  wò ji la yɔ mí a a
 add-sentence-success = nyàgbè kèwo  lé a
 add-sentence-error = àgbàdàda lè nyàgbè a sɔsɔkpe
+required-field = ŋlɔ̀ nu lè  fi yè.
 single-sentence-submission = nyàgbèɖèkasɔsɔɖoɖa
 small-batch-sentence-submission = nyàgbèviwoɖoɖa
 bulk-sentence-submission = nyàgbèsugbɔɖoɖoɖa
