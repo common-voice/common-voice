@@ -9,7 +9,7 @@ sentence-input-placeholder = Nlɔ̀ nyà gblɔ̀gblɔ̀ kè wó nyã́ sɔ̀ w
 small-batch-sentence-input-placeholder = Nlɔ̀ nyà gblɔ̀gblɔ̀wó kè wó nyã́ sɔ̀ wú lè dɔ̀ kè wó wɔ̀nà bè akpájí
 citation-input-placeholder = Nà mìà nyã̀ fíkè wó sɔ̀ nyà gblɔ̀gblɔ̀wóà sòà(èhíã̀)
 citation =
-    .label = Amè nùmènyà
+    .label = Amènùmènyǎ
 sc-write-submit-confirm = Mù ɖò èkpè èjí bè wó nyá <wikipediaLink>nyàgblɔ̀gblɔ̀yàà sùgbɔ̀</wikipediaLink> éyé wó ɖèmɔ̀ nàm bè nè ma ŋlɔ̀ɛ̀ ɖò àfíyè.
 sc-review-write-title = Nyà gblɔ̀gblɔ̀ kàyéé má tèŋ sɔ̀ kpé o ?
 sc-review-small-batch-title = ŋlɔ̀ nyàgblɔ̀gblɔ̀ sùgbɔ̀ lékè.
@@ -69,7 +69,7 @@ sentence-variant-select-multiple-variants = nyàtakãkã so gbè  a ŋuti / gb
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = sɔ́ nyàgbɔ̃gblɔ̃̌  kèyé àmèwo nya nyɔɛɖé a kpé è.
-sc-bulk-upload-instruction = sɔ àpo nu fisie ɖo fiyè alo <uploadButton> àlo sɔ àsi tɔɛ né wò la sɔɛ ɖo ɖa
+sc-bulk-upload-instruction = sɔ àpo  fisie a ɖo fiyè alo <uploadButton> àlo sɔ àsi tɔɛ né wò la sɔɛ ɖo ɖa
 sc-bulk-upload-instruction-drop = dàɛ ɖo fiyè né àteŋu sɔɛ̀ ɖo ɖa
 bulk-upload-additional-information = né wò ji  la sɔ nyàɖéwo kpéè kùɖo fìsíe kèyà ŋutia, mì ɖó kàmè na <emailFragment></emailFragment>
 template-file-additional-information = né wò ji  la sɔ nyàɖéwo kpéè kùɖo fìsíe kèyà ŋuti a, nyà kèwó mu lè kpɔwɔɛ kèya mè o a <emailFragment>commonvoice@mozilla.com</emailFragment>mì ɖó kàmè na
