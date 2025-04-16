@@ -147,6 +147,7 @@ add-sentences = sɔ nyàgbèwo kpé è
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = nyàgbèwosɔsɔkpe ku nyàgbèwototomè, nyàbíɔséwosɔsɔkpe, nyàléléwoŋɔ̀ŋlɔ̌.
 add-sentences-menu-item-tooltip = sɔ nyàgbèwo kpéè lè àpo gbè mè.
 review-sentences-menu-item-tooltip = dà ŋùku ɖó nyàgbèwo mè lè àpo gbè mè.
 add-questions-menu-item-tooltip = sɔ́ nyàbiɔséwo kpé è lè àpo gbè mè.
@@ -154,6 +155,7 @@ transcribe-audio-menu-item-tooltip = nyàléléwoŋɔ̀ŋlɔ lè àpo gbè mè.
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Fǐkèyé wó là cã́ núŋɔ̀ŋlɔ vóvóvówó lè.
 add-sentences-menu-item-aria-label = sɔ̀ nyàgbè yéyé kèwo yé haho a la hlɛ̃̀.
 review-sentences-menu-item-aria-label = dà ŋùku ɖo nyàgbè kèwo lè eye  kè haha sɔ dà ɖo àpo ŋùkumè a.
 add-questions-menu-item-aria-label = sɔ nyàbiɔse yéyé sɔ ɖo ŋùkúmè na haho ne ba hlɛ̃ yé be la ɖo woa ŋútí.
