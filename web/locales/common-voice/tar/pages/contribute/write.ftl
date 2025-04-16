@@ -107,6 +107,8 @@ small-batch-response-message =
         [one] { $uploadedSentences } bilé raíchali katewárami. Rachíni <downloadLink>naí </downloadLink>kíti rikíbuma échi osirúami jápi ke nakíru
        *[other] { $uploadedSentences } échi { $totalSentences } raíchali katewárami. Rachíni <downloadLink>naí </downloadLink>kíti rikíbuma échi osirúami jápi ke nakíru
     }
+small-batch-sentences-rule-1 = Alá nejeíki échi reglas "chini yéri osirúami oméro ucháya echina programa?
+small-batch-sentences-rule-2 = Che uché bilé osirúami je naí línea nirá'a
 
 ## MENU ITEM TOOLTIPS
 
