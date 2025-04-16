@@ -70,6 +70,13 @@ too-many-files = Wiká jú archivos
 
 ## SMALL BATCH SUBMISSION
 
+exceeds-small-batch-limit-error = Ke ompáru júla simíroka 1000 osirúami
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Ma bochíli osirúami. Che siné oláa bilé minuto simírosa
+       *[other] { "" }
+    }
 
 ## MENU ITEM TOOLTIPS
 
