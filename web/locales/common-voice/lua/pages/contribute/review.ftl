@@ -30,3 +30,25 @@ sc-review-link = Ditangulula
 
 sc-criteria-modal = Mikenji ya ditangulula
 sc-criteria-title = Mikenji ya ditangulula
+sc-criteria-make-sure = Tuishibua bua se miaku idi ne mikenji eyi :
+sc-criteria-item-1 = Tshiambilu tshidi ne tshikuila tshifunda bimpe.
+sc-criteria-item-2 = Tshiambilu tshidi ne tshikuila ne fundilu muimpe.
+sc-criteria-item-3 = Tshiambilu tshidi tshiakuikala tshifunda mushindu wa kutshibala.
+sc-criteria-item-4 = Pikala tshiambilu tshidi tshiandamuna ku mikenji, tuaku pa « jadika » ku diabalume
+sc-criteria-item-5-2 = Pikala tshiambilu tshidi tshiandamuna ku mikenji idi ilonda eyi tuaku pa « dibenga » ku diabakaji. Piwikala ne mpata udi mua kupita ne kuya ku tshitupa tshikuabu.
+sc-criteria-item-6 = Piwikala kuena ne biambilu bia ku tangulula, tuambuluisha mua kupeta biambilu !
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Tangulula<icon></icon> buase tshiambilu tshifunda bilondeshela muakulu
+sc-review-rules-title = Tshiambilu tshifanangane ne mikenji anyi ?
+sc-review-empty-state = Kakuena tshiabilu tshia kutangulula mu muakulu ewu.
+report-sc-different-language = Muakulu mukuabu
+report-sc-different-language-detail = Tshiambilu tshifunda mu muakulu mushilangane ne biindi imbala.
+sentences-fetch-error = Tshilema tshimueneka tshikondo tshia kuangata biambilu
+review-error = Tshilema tshimueneka tshikondo tshia kutangulula biambilu
+review-error-rate-limit-exceeded = Udi uya lukasa lukasa. Shala ne lutulu bua kubalula tshiambila ne utuishibue ne tshidi tshimpe.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Tudi tupita ku mashitulula mimpe
+sc-redirect-page-subtitle-1 = Muakatshi wa biambilu udi wenzela common voice.  Udi <writeURL>muakutuadija</writeURL> kufunda tshimbilu anyi ku <reviewURL>tangulula</reviewURL> kupitshila ku Common Voice.
+sc-redirect-page-subtitle-2 = Tuela nkonko kupitshila ku <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou <emailLink> e-mail </emailLink>.
+# menu item
+review-sentences = Tangulula biambilu
