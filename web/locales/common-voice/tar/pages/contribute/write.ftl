@@ -20,6 +20,7 @@ new-sentence-rule-8 = Échi osirúami jápi ríka bujáni nísare alí alá raic
 login-instruction-multiple-sentences = Chóta sesión ayena má registraripa kíti uchéba wikabé osirúami
 how-to-cite = ¿Chí ni ríka citarima!
 how-to-cite-explanation-bold = Cita newá échina jápi chéa jú URL wéla sinéami rewála uchpeba échi obra.
+guidelines = Jápi rika nali náki (reglas)
 contact-us = Tamuje raíchiki
 add-sentence-success = 1 Bilé osirúami napabúrami
 add-sentence-error = Chá ríka jú jápi onámi niwáli moárami

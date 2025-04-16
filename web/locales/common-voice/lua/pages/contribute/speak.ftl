@@ -51,9 +51,28 @@ create-profile-text = Udi witabuja dikuata dia meyi a ngumu yeba ? <createProfil
 thanks-for-voice-toast = Tuasakidila bua ngumu ya meyi eba
 thanks-for-voice-toast-error = Tshilema tshimue tshimueneka pa kutuma kua ngumu ya meyi eba
 first-cta-gender-select-default-option = Sungula mua kutumina
+first-cta-gender-select-help-text =
+    .label = Mushindi kayi uudi ujika kumanyisha muntu bueba bua muntu mulume anyi mukaji ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tuasakidila bua kufila kua diyi dieba tshianana !
+second-cta-subtitle-text = Kudiambuluisha kua bumuntu bueba, udi muakulonda ngenzelu weba wa mudimu ne kuikala popamue ne bantu bonso badi bambuluisha difila dia meyi.
+already-have-an-account = Udi ni compte anyi ? <login> Dipetangana</login>
+create-profile-button = Kangula bumuntu
+# IMAGE TAGS
+img-alt-success-checkmark = Jadika dimanya
+# menu item
+read-sentences = Bala tshiambilu
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Bala tshiambilu <small> (pashishe) </small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Bala tshiambilu, mandamuna ku konko
+read-sentences-menu-item-tooltip = difundisha popamue ne kubala biambilu bia muakulu weba
+answer-questions-menu-item-tooltip = Difundisha popamue ne kuandamuna ku konko ne kudi babikidibue mu muakulu weba
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Muaba wa « kuakula »
+read-sentences-menu-item-aria-label = Kubala biambilu bifila bua bantu mua miakulu mishilangane
+answer-questions-menu-item-aria-label = Ditshikindila dia lukonko lua bantu badi babala ne bandamuna
