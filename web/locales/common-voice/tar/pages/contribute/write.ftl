@@ -75,7 +75,13 @@ exceeds-small-batch-limit-error = Ke ompáru júla simíroka 1000 osirúami
 rate-limit-toast-message-minutes =
     { $retryLimit ->
         [one] Ma bochíli osirúami. Che siné oláa bilé minuto simírosa
-       *[other] { "" }
+       *[other] Ma bochíli osirúami. Che siné oláa { $retryLimit }  minutos simírosa
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Ma bochíli osirúami. Che siné oláa bilé segundo  simírosa
+       *[other] Ma bochíli osirúami. Che siné oláa { $retryLimit }segundos  simírosa
     }
 
 ## MENU ITEM TOOLTIPS
