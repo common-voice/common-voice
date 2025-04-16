@@ -109,6 +109,11 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Alá nejeíki échi reglas "chini yéri osirúami oméro ucháya echina programa?
 small-batch-sentences-rule-2 = Che uché bilé osirúami je naí línea nirá'a
+small-batch-sentences-rule-3 = Rojána échi osirúami biléana línea nirá'a, alí pochítika échi línea nirá'a bilépi nirá'a
+small-batch-sentences-rule-4 = Che uché 1.000 osirúami
+small-batch-sentences-rule-5 = Sinéami raíchali chiéri chópi kítira raíchasa re
+# menu item
+add-sentences = Che uchúche járe osirúami
 
 ## MENU ITEM TOOLTIPS
 
