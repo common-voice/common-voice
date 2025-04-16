@@ -25,7 +25,7 @@ show-ranking = ميرو درجو دکآئو
 ## Custom Goals
 
 get-started-goals = مڪسدآنٚ دي شروُ ڪرو
-create-custom-goal = ايڪ هسب جروُرت مڪسد بڻآئو
+create-custom-goal = جتريو هو سگي اِترو ڪآم ڪرو
 goal-type = تميٚ ڪوڻسآ ڪِسمو ڪو مڪسد ٺآوآ چآهنٚدآ هو؟
 both-speak-and-listen = دوئيٚ
 both-speak-and-listen-long = دوئيٚ (سُڻوو ائينٚ ٻولوو)
@@ -39,7 +39,7 @@ lose-goal-progress-warning = تمرآ مڪسدو ڪوُ بدليٚ ڪردي، ت
 want-to-continue = ڪآ تميٚ جآريٚ رآکوو چآهنٚدآئو؟
 finish-editing = پيلي ترميٚم کتم ڪرو؟
 lose-changes-warning = اب ڇوڙوآ ڪو متلب هي تميٚ آپوئو بدلآئو گمآ ديسِيو
-build-custom-goal = ايڪ هسب جروُرت مڪسد بڻآئو
+build-custom-goal = آپوڪيٚ جرورتيٚ ڪي متآبِڪ  مڪسدو پر ڪآم ڪرو
 help-reach-hours-pluralized =
     { $hours ->
         [one] تآئينٚ پهچوآ مي مدت { $language } ڪلآڪيٚ مي { $hours } جآتيٚ مڪسدآ دي ڪرو
