@@ -58,9 +58,42 @@ language_fundamentals = Mikeji ya tanku ya miakulu (nomba, maleta, mpetu)
 media_entertainment = Butatanda ne manaya
 # Sentence Domain dropdown option
 nature_environment = Bintu bdi mu tshibuashibuashi
+# Sentence Domain dropdown option
+news_current_affairs = Malun mapiamapia
+# Sentence Domain dropdown option
+technology_robotics = Biama bia ku nbutatande anyi robotique
+sentence-variant-select-label = Dishituluka dia tshiambilu
+sentence-variant-select-placeholder = Sungula dishituluka dia tshimbilu (paudi musue)
+sentence-variant-select-multiple-variants = Malu abungi adi atangila muakulu/ dishiitulka diabungi
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tuma<icon></icon> biambilu mu bantu bonso
+sc-bulk-upload-instruction = Puekesha kakanda keba apa anyi <uploadButton>tuaku pa kutuma</uploadButton>
+sc-bulk-upload-instruction-drop = Teka kakanda keba bua kukatuma
+bulk-upload-additional-information = Piwikala usua kutuma ngumu mikuabu pa bidi bitangila kakanda aka, buela netu mu dipetangana <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Biwikala musue kufila ngumu mukuabu pabidi bitangila kakanda aka, idi kayii muela udi muakubuela netu mu dipetangana <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Bangulula mu kupuesha kakanda keba apa
+try-upload-again-md = Bangulula kabidi dituma
+select-file = Sungula kakanda
+select-file-mobile = Sungula kakanda kakutuma
+accepted-files = Luidi lua tukanda tua kutuma : tsv kayende
+minimum-sentences = Bunyi bua buambilu bia kutuma mu kakanda : 1 000
+maximum-file-size = Bunena bua ndekedi bua kakanda: 25 Mo
+what-needs-to-be-in-file = Bidi muakusangidibua munda mua kakanda binganyi ?
+what-needs-to-be-in-file-explanation = tangilabi <templateFileLink>mushindu</templateFileLink> ewu.  Biambilu bieba kabiena ne ntshiakuila ne mikandu to ne bidi ne tshiakuikala bimueneka mushindu wakubibala anyi wakubifunda. Biambilu bituma bidi ne tshiakangata tususa tutue ku 10 - 15 kuku bala ne upuka kueka kua nomba, mena a bumuntu anyi caracteres speciaux.
+upload-progress-text = Bidi bienda biya…
+sc-bulk-submit-confirm = Ndi mutushibue se biambilu bidi bu
+bulk-upload-success-toast = Tshiambilu tshiakuya
+bulk-upload-failed-toast = Dituma dinyanguka, udi muakutuma tshiakabidi.
+bulk-submission-success-header = Tuasakidila bua dikuatshisha mu kutuma biambilu biabunyi !
+bulk-submission-success-subheader = Udi wambuluisha Common Voice mu dikubaja bipiminu biende bia kudituku bia biambilu !
+upload-more-btn-text = Tuma biambilu bikuabu ?
+file-invalid-type = Kakanda kayi kanyishibue
+file-too-large = Kakanda kadi kanene bikole
+file-too-small = Kakanda kakese bikole
+too-many-files = Tukanda tuabunyi
 
 ## SMALL BATCH SUBMISSION
 

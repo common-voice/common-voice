@@ -7,6 +7,7 @@ sentence =
 sentence-input-placeholder = Naí uchá échi raíchali dominio público chi
 small-batch-sentence-input-placeholder = Naí uchá mujé raíchala jápi oná dominio público
 citation-input-placeholder = Uché jápi onámi chápili échi raíchali (né iwéra)
+sc-write-submit-confirm = Nijé Ani jápi jéna raíchali <wikipediaLink>dominio público</wikipediaLink> ju alíni a níwi riséncia kítina juláma
 sc-review-write-title = Chí yéri osirúami che oméro ucháya?
 sc-review-small-batch-title = ¿Chí mi ríka ché uchéma wikábe raíchali?
 new-sentence-rule-1 = 1. Ayena nakíwa jápi raíchali chapibóa échi jápi newáli
