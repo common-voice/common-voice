@@ -84,7 +84,8 @@ export const up = async function (db: any): Promise<any> {
         "ალ ღჷნს ჩინ მაშე̄ნე მუკვირდ ხო̄გა̄ნხ მეთხვიარა ი დე̄მ აქდი̄ნახ ყე̄რიაში ლე̄თს.",
         "უშხვა̄რ შიხს ი გვინაჲს ხოცვემდახ.",
         "მაგ მა̄ მაშყიდ ი ეჯ სოფლი ხალხს ხოჩამდ ხეშყდიხ, მაჲ ლე̄ქვი̄ს ლი."
-        `)
+        ) 
+    `)
   /**
    * sva-lentekh
    */
@@ -215,7 +216,8 @@ export const up = async function (db: any): Promise<any> {
         "აფხნიკა̈რს ხასაკვრელჷნხ, მა ლოქ ხერი ა ლჷლაბან მარე.",
         "შიშველს ჩვახოქაბეხ ი სკოდიარხოჲსა ლასვხ მეჴედე.",
         "ეჩქა მეგრელა̈ლს ესრენიშ თხვიმ ხოჩომნახ ი ლითვეფ ლახობინეხ ეჩეხნ-ამეხნისა."
-      `)
+        ) 
+    `)
   /**
    * sva-lowerbal
    */
@@ -223,10 +225,10 @@ export const up = async function (db: any): Promise<any> {
       UPDATE sentence_metadata sm
         JOIN sentences s ON sm.sentence_id = s.id
         SET sm.variant_id = 
-	        (SELECT variant_id 
-	        FROM variants v
-	        WHERE v.variant_token = 'sva-lowerbal'
-	        )
+          (SELECT variant_id 
+          FROM variants v 
+          WHERE v.variant_token = 'sva-lowerbal'
+        )
         WHERE s.text IN
         ("წეკვა, ბეჩჷრშერ, მეთხვა̈რ მა̈რე ლასვ.", 
         "ეჯგვა̈რ მა̈რე და̈რ მეჴდე ლი დეი ჯვინალდ ი დეი ათხე.", 
@@ -241,7 +243,8 @@ export const up = async function (db: any): Promise<any> {
         "მერმა ლა̈დეღ ბექჷრბი ჟჲოლგენ ი იბრა̈ლ როქვ, ეჯჟი ჲორი ღვაშა̈შ თხვიმ ლოხგენა ყორლისგა.", 
         "ალი გუნ ათბაჟა ბექჷრბის ი სურუ პა̈ტივ ხოყრა წეკვა̈შდ.", 
         "ნებოზს ტკისდი აშ ოხთიშვნა ჲორი ფირვ ი დაბა̈რ ლექვა ლექვა როქვიდ ანბჷრდაგე.'
-        `)
+        ) 
+    `)
   /**
    * sva-upperbal
    */
@@ -304,7 +307,8 @@ export const up = async function (db: any): Promise<any> {
         "ამჟი̄ნ ესნა̈რ ჲეშდჲო̄რი მა̄რე ჩუ̂ადგა̈რ.",
         "ეჩქანღო ქ’ო̄სკინა ქ’ა̈̄̈მთე, მარე ჯა̄ჲ ჩუ̂ოთქაჩახ ფოყისგა. ლჷქა̈ჩ სორთმანდ ეში̄ ლი̄ტუ̂ ლაჲბინ’ე̄სნა̈რ, ღუ̂ეშგიმ ფა̄და̈ს ახღუ̂იჭ.",
         "ამჟი̄ნ სორთმან სგ’ა̄ხჩედა ჯეგა̈მთე."
-        `)
+        ) 
+    `)
 }
 
 export const down = async function (): Promise<any> {
