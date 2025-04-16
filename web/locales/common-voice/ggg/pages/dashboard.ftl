@@ -39,7 +39,7 @@ lose-goal-progress-warning = تمرآ مڪسدو ڪوُ بدليٚ ڪردي، ت
 want-to-continue = ڪآ تميٚ جآريٚ رآکوو چآهنٚدآئو؟
 finish-editing = پيلي ترميٚم کتم ڪرو؟
 lose-changes-warning = اب ڇوڙوآ ڪو متلب هي تميٚ آپوئو بدلآئو گمآ ديسِيو
-build-custom-goal = آپوڪيٚ جرورتيٚ ڪي متآبِڪ  مڪسدو پر ڪآم ڪرو
+build-custom-goal = ايڪ جُملو 15 لڦجآنٚدي گھٽ هوئي
 help-reach-hours-pluralized =
     { $hours ->
         [one] تآئينٚ پهچوآ مي مدت { $language } ڪلآڪيٚ مي { $hours } جآتيٚ مڪسدآ دي ڪرو
