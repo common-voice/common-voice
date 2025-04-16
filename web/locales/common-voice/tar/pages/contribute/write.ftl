@@ -127,3 +127,5 @@ transcribe-audio-menu-item-tooltip = Osayá raíchali moárami mujé binói raic
 write-contribute-menu-aria-label = Menú jápi oná aní opción alí escribir
 add-sentences-menu-item-aria-label = Che uchéa bilé osirúami kulíwami kiti biléana comunidad peréami ayéna a leerima
 review-sentences-menu-item-aria-label = Che inéa échi osirúami jápi comunidad ríka aní
+add-questions-menu-item-aria-label = Che júla kulíwami naríwami kíti comunidad peréami leerima alí ala a nejewáka
+transcribe-audio-menu-item-aria-label = Osayá raíchali moárami
