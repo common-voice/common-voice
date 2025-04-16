@@ -89,6 +89,12 @@ rate-limit-message-minutes =
         [one] Ma ne simíroka bochíli  ma julamía ka nái página. Buyé pe bilé minuto alí che juláli osirúami.  Matétera ba kíti komí a kíli kamíma
        *[other] Ma ne simíroka bochíli  ma julamía ka nái página. Buyé pe { $retryLimit } minutos alí che juláli osirúami.  Matétera ba kíti komí a kíli kamíma
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ma ne simíroka bochíli  ma julamía ka nái página. Buyé pe bilé segundo alí che juláli osirúami.  Matétera ba kíti komí a kíli kamíma
+       *[other] Ma ne simíroka bochíli  ma julamía ka nái página. Buyé pe { $retryLimit } segundos  alí che juláli osirúami.  Matétera ba kíti komí a kíli kamíma
+    }
 
 ## MENU ITEM TOOLTIPS
 
