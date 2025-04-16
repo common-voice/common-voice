@@ -23,6 +23,15 @@ sc-review-form-button-skip-shortcut = P
 sc-review-form-keyboard-usage-custom = Udi muakuenzela kabidi jila ya tshikoso ne clavier : { sc-review-form-button-approve-shortcut }bua kujadika, { sc-review-form-button-reject-shortcut }kubenga,{ sc-review-form-button-skip-shortcut } anyi kupita
 sc-review-form-button-submit =
     .submitText = Jikija ditangulula
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Tshiambilu nansha tshimue katshiena tshitangulula.
+        [1] Tshiambilu tshimue tshitangulula. Tuasakidila !
+        [one] Tshiambilu tshimue tshitangulula. Tuasakidila !
+       *[other] Biambilu bitangulula. Tuasakidila !
+    }
 sc-review-form-review-failure = Ditangulula kadiena diya kujadikibua to. Udi mua kuteta tshiakabidi.
 sc-review-link = Ditangulula
 
