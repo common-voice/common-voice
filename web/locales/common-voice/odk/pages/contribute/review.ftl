@@ -17,6 +17,20 @@ sc-review-form-button-reject-shortcut = اين
 sc-review-form-button-skip-shortcut = ايس
 sc-review-form-button-submit =
     .submitText = نظرثانِي مڪمل ڪرا
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ڪو بِي جُملِي چِي نظرثانِي ڪونهِي ڪلِي گيلِي۔
+        [one] هيڪي جُملِي چِي نظرثانِي ڪلِي گيلِي، تمچِي مهربانِي
+       *[other] جُملان چِي نظرثانِي ڪلِي گيلي، تمچِي مهربانِي ۔
+    }
+sc-review-form-review-failure = نظرثانِي محفُوظ نہ هُو سِگھلِي، مهربانِي ڪتِي ٿوڪڙِي ديرِي کن پڇي بڙتِي ڪوشش ڪرا۔
+sc-review-link = نظرثانِي
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ نظرثانِي چا معيار
+sc-criteria-title = نظرثانِي چا معيار
+sc-criteria-make-sure = پڪ ڪرا تہ جُملا جھِڪلان معياران پر پُورا اُترَي ڇَي۔
+sc-criteria-item-1 = جُملا اِملا چي حِسابا سُون صحِيح لِکوڙا هُوَي۔
