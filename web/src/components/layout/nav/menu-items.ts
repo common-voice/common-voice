@@ -5,6 +5,7 @@ import {
   FilePlus,
   FilledStarIcon,
   Globe,
+  MarsSolo,
   MicIcon,
   Play,
   ReviewIcon,
@@ -24,12 +25,14 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         localizedId: 'read-sentences',
         menuItemTooltip: 'read-sentences-menu-item-tooltip',
         menuItemAriaLabel: 'read-sentences-menu-item-aria-label',
+        type: 'scripted',
       },
       {
         icon: ChatBubbleIcon,
         localizedId: 'answer-questions-coming-soon',
         menuItemTooltip: 'answer-questions-menu-item-tooltip',
         menuItemAriaLabel: 'answer-questions-menu-item-aria-label',
+        type: 'spontaneous',
       },
     ],
     menuTooltip: 'speak-contribute-menu-tooltip',
@@ -43,6 +46,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         localizedId: 'validate-readings',
         menuItemTooltip: 'validate-readings-menu-item-tooltip',
         menuItemAriaLabel: 'validate-readings-menu-item-aria-label',
+        type: 'scripted',
       },
       {
         icon: CheckCircle,
@@ -50,6 +54,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         requiresAuth: true,
         menuItemTooltip: 'review-transcriptions-menu-item-tooltip',
         menuItemAriaLabel: 'review-transcriptions-menu-item-aria-label',
+        type: 'spontaneous',
       },
     ],
     menuTooltip: 'listen-contribute-menu-tooltip',
@@ -63,6 +68,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         localizedId: 'add-sentences',
         menuItemTooltip: 'add-sentences-menu-item-tooltip',
         menuItemAriaLabel: 'add-sentences-menu-item-aria-label',
+        type: 'scripted',
       },
       {
         icon: ReviewIcon,
@@ -71,6 +77,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         requiresAuth: true,
         menuItemTooltip: 'review-sentences-menu-item-tooltip',
         menuItemAriaLabel: 'review-sentences-menu-item-aria-label',
+        type: 'scripted',
       },
       {
         icon: FilePlus,
@@ -78,12 +85,14 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         requiresAuth: true,
         menuItemTooltip: 'add-questions-menu-item-tooltip',
         menuItemAriaLabel: 'add-questions-menu-item-aria-label',
+        type: 'spontaneous',
       },
       {
         icon: TranscribeIcon,
         localizedId: 'transcribe-audio-coming-soon',
         menuItemTooltip: 'transcribe-audio-menu-item-tooltip',
         menuItemAriaLabel: 'transcribe-audio-menu-item-aria-label',
+        type: 'spontaneous',
       },
     ],
     menuTooltip: 'write-contribute-menu-tooltip',
@@ -96,11 +105,20 @@ export const menuItems: Record<NavItem, MenuConfig> = {
   about: {
     items: [
       {
+        icon: MarsSolo,
+        localizedId: 'about-us',
+        internalHref: URLS.ABOUT,
+        menuItemTooltip: 'about-us-menu-item-tooltip',
+        menuItemAriaLabel: 'about-us-menu-item-aria-label',
+        type: 'general',
+      },
+      {
         icon: FilledStarIcon,
         localizedId: 'partners',
         internalHref: URLS.PARTNER,
         menuItemTooltip: 'partnerships-menu-item-tooltip',
         menuItemAriaLabel: 'partnerships-menu-item-aria-label',
+        type: 'general',
       },
       {
         icon: ShareLinkIcon,
@@ -108,6 +126,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         externalHref: 'https://foundation.mozilla.org/blog/topic/common-voice/',
         menuItemTooltip: 'press-and-stories-menu-item-tooltip',
         menuItemAriaLabel: 'press-and-stories-menu-item-aria-label',
+        type: 'general',
       },
       {
         icon: Globe,
@@ -115,6 +134,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         localizedId: 'community-and-languages',
         menuItemTooltip: 'community-and-languages-menu-item-tooltip',
         menuItemAriaLabel: 'community-and-languages-menu-item-aria-label',
+        type: 'general',
       },
     ],
     menuTooltip: 'about-menu-tooltip',

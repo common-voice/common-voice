@@ -98,6 +98,9 @@ transcribe-audio = Transcribe Audio
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages
 coming-soon = Coming soon
+about-us = About us
+scripted-speech = SCRIPTED SPEECH
+spontaneous-speech = SPONTANEOUS SPEECH
 
 ## MENU ITEMS TOOLTIPS
 about-menu-tooltip = Partnerships, Press and Stories, Community and Languages
