@@ -45,6 +45,7 @@ background-noise-example-3 = ტრიასულ ხოშე̄მიშთა
 background-noise-example-4 = [შჷრშჷნ] ხოშე̄მიშთა̄ნ დინოზაუ̂რა̈ლ [შჷრშჷნ] -რიასულ.
 background-noise-tip-1 = [ჩუ მექუ̂ცე ლი ფონურ სა̈ხმა̈ხშუ̂]
 background-noise-tip-2 = [ტექსტი ნა̈წილ მა̄მ ისმი]
+background-voices-explanation = კოტო̄ლ სა̈ხმა̈ხ ნორმალურ ლი, მარე სი ჰემა ჯესმი იშგნა̈ გა̈რგლა, უარყოფა ხეკუ̂ეს ლაჰო̄და. იმუ̂ა̄̈ჲჟი წეს, ალა ხეხო̄ლი, შომუ̂ა̄̈ჲ ტელეუ̂იზორ ლი ჩართულ ჰედ ფე̄დის გა̈რგლიხ.
 background-voices-example-1 = ტრიასი გიგანტურ დინოზავრა̄̈ლ. [ლუჭუ̂და̄ნე ლი აშხუ̂ ჰერშუ̂]
 background-voices-tip-1 = სი ანღრიმა? [ლახტუ̂ილ იშგენდ]
 volume-explanation = ი̄რახ ბუნებრიუ̂ განსხუ̂აუ̂ება̄̈ლ ჰერი ნაკლათხაჲსგა მუჭუ̂და̄ნრეშ. უ̂არ ეჩქა გარ რე̄ქა, ე  ჰერ ეჯზუმ კჷლთხი ჰე̄მა ლი, ერე ნა̈ირ ქუ̂ეცნი, მო̄დეჲ (ხოფშირა̄მინ) ჰერ ეჯზუმ დამბლი ლი, ერე ლჷირ ტექსტურ დეშ ხა̈ცხრი, იმდო ტუ̄ლი.
@@ -55,6 +56,11 @@ contact-common-voice = დაუკავშირდი Common Voice-ეშ გ
 
 ## Sentence collection nav ids
 
+public-domain = საჯარო დომენ
+citing-sentences = წინადადება̄ლე ციტირება
+adding-sentences = წინადადება̄̈ლე ლიქმე
+reviewing-sentences = წინადადება̄̈ლე განხილვა
+sentence-domain = წინადადება̄̈ ინტერნეტ-მისამართ
 
 ## Sentence collection sidebar content
 
