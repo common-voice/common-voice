@@ -64,9 +64,12 @@ sentence-variant-select-multiple-variants = Raichawami/ echibi mapi ríka raicha
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Osaa moárami raíchali échi dominio público
+try-upload-again = Che siné oláa naí banisúka nóchali
 select-file = Chápi échi nocháli
+maximum-file-size = Pe tabé archivo o nocháli 25 MB
 bulk-submission-success-subheader = Wémi kuíri échi Common Voice ali ayéna sebába raíchali newá jápi ríka ya náki
 upload-more-btn-text = Che osá raíchali échina programa nirúami
+file-invalid-type = Echi nóchali ke oméro nea naí programa náti
 file-too-large = Échi archivo we beteámi jú
 file-too-small = Échi archivo tá kíto jú
 too-many-files = Wiká jú archivos

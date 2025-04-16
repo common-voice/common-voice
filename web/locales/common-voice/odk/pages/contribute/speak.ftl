@@ -14,6 +14,13 @@ share-clip = آپڪا ڪِلپ شيئر ڪرا
 share-common-voice = ڪامن وائِسا ۾ شيئر ڪرا
 review-instruction = جي اگر ضرُورت پڙَي تہ ڪِلپسا چا جائِزا گيهوا ائُون بڙتِي رڪارڊ ڪراوا۔
 record-submit-tooltip = جي تيار ڇَوا تہ جمع ڪراوا
+clips-uploaded = اَپ لوڊ ڪروڙا ڪِلپس
+record-abort-title = پيهڻِيُون رڪارڊنگِي نُون ختم ڪرا؟
+record-abort-text = اِمهان ڇوڙڻي چا مطلب ڇَي تہ تمهِين ترقِي گُونهوا۔
+record-abort-submit = ڪِلپ جمع ڪرا
+record-abort-continue = رڪارڊنگ پُورِي ڪرا
+record-abort-delete = ٻاهرنِڪار جاوا ائُون ڪِلپس ختم ڪرا
+review-aborted = اَپ لوڊ روڪلَي گيلَي۔ ڪا تمهِين آپڪِي رڪارڊنگ ختم ڪرڻ چاهوا ڇَوا؟
 
 ## MENU ITEM TOOLTIPS
 

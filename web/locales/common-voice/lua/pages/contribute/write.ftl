@@ -97,9 +97,65 @@ too-many-files = Tukanda tuabunyi
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Kumbaja biambilu biabunyi bua bantu bonso
+multiple-sentences-error = Kuena muakukumbaja biambilu biabunyi pakutuma nansha to
+exceeds-small-batch-limit-error = Bidi bualu bukole bua kutuma biambilu pamutu pa 1000
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Mumane kupitshisha pa tshikondo tshilombibue udi muakubangulula mu 1 kasusa
+       *[other] Mumane kupitshisha pa tshikondo tshilombibue udi muakubangulula mu { $retryLimit } kasusa
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Mumane kupitshisha pa tshikondo tshilombibue udi muakubangulula mu 1 kasusa
+       *[other] Mumane kupitshisha pa tshikondo tshilombibue udi muakubangulula mu { $retryLimit } kasusa
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Wakufika kundekelu kua dibeji. Sanka ukumbaje kasusa 1 bua kutuma tshiambilu tshikuabu. Tuasakidila bua kuindila kueba !
+       *[other] Wakufika kundekelu kua dibeji. Undila mu tususa { $retryLimit }  kumpala kua kutuma tshiambilu tshikuabu, tuasakidila bua dindila diebe !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Wakufika kundekelu kua dibeji. Sanka ukumbaje kasusa 1 bua kutuma tshiambilu tshikuabu. Tuasakidila bua kuindila kueba !
+       *[other] Wakufika kundekelu kua dibeji. Sanka ukumbaje kasusa { $retryLimit } bua kutuma tshiambilu tshikuabu. Tuasakidila bua kuindila kueba !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } Tshiambilu tshiangata mu { $totalSentences }
+       *[other] { $uploadedSentences } Biambilu biangata mu { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } Tshiambilu tshiangata mu { $totalSentences }. Tuaku bua <downloadLink>apa</downloadLink> kuangata biambilu bibenga.
+       *[other] { $uploadedSentences } Biambilu biangata mu { $totalSentences }. Tuaku bua <downloadLink>apa</downloadLink> kuangata biambilu bibenga.
+    }
+small-batch-sentences-rule-1 = Londa njila wa disungula « tshiambilu kayi tshindi mua kukumbaja ? »
+small-batch-sentences-rule-2 = Kumbaja tshiambilu tshimue ku mulongo
+small-batch-sentences-rule-3 = Tulakaja biambilu mukutua pa lubote lua « ENTER »
+small-batch-sentences-rule-4 = Kumbaja to ne ku biambilu 1000
+small-batch-sentences-rule-5 = Biambilu bionso bidi ne tshiakuikala mu luidi lumue
+small-batch-sentences-rule-6 = Biambilu bionso bidi ne tshiakuila ne miaku imue
+# menu item
+add-sentences = Kumbaja biambilu
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Kumbaja ne tangulula biambilu, kumbaja konko, ne ela diyi
+add-sentences-menu-item-tooltip = Kumbaja biambilu mu muakulu weba
+review-sentences-menu-item-tooltip = Tangulula biambilu mu muakulu weba
+add-questions-menu-item-tooltip = Kumbaja konko mu muakulu weba
+transcribe-audio-menu-item-tooltip = Kuata meyi mu muakulu weba
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Muaba wa « kufundila »
+add-sentences-menu-item-aria-label = Kumbaja biambilu bipiabipia bia kubala kudi bantu
+review-sentences-menu-item-aria-label = Tangulula biambilu bidi mu bantu
