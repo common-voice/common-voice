@@ -82,6 +82,41 @@ request-language-button = Fila muakulu
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 shortcut-play-toggle-label = Kubala/Kuimanyika
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = o
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Malu malombibue
+contribution-criteria-link = Kunva malu malombibue bua dikuatshisha
+contribution-criteria-page-title = Malu malombibue bua dikuatshisha
+contribution-criteria-page-description = tuma tema ku bilejelu bia meyi ne vudija dimanya pa meyi audi mua kujadike !
+contribution-for-example = Tshilejelu
+contribution-misreadings-title = Bulema bua dibala
+contribution-misreadings-description = Pa udi uteleja, tangulula ne tema yonso ku biudi mujadike bidi dia tshimue ne bidi bifunda; umbusha nansha pikalabi ne tu bilema tukese. <br />Tangila bilema bia tshibidilu :
+contribution-misreadings-description-extended-list-1 = Kushala <strong>« umue »</strong> kutuadijilu kua dijadika
+contribution-misreadings-description-extended-list-2 = Kushala <strong>« s »</strong> ku ndekedi kua muaku.
+contribution-misreadings-description-extended-list-3 = Bilema bia miaku idi ne mushinga bidi bibadibua bu mudi « surment » pa muaba wa « surement ».
+contribution-misreadings-description-extended-list-4 = Ndekedi wa diyi dia ndekedi udu mukoseke, bualu bua difunda edi diakadi ditamba kuimana lukasa.
+contribution-misreadings-description-extended-list-5 = Kuteta misangu ya bungi bua kubala muaku umue.
+contribution-misreadings-example-1-title = Dinosaure minene ya Trias.
+contribution-misreadings-example-2-title = Dinosaure mule wa Trias.
+contribution-misreadings-example-2-explanation = [Bidi ni buakuikala dinosaure]
+contribution-misreadings-example-3-title = Dinosaure minene ya Tria-.
+contribution-misreadings-example-3-explanation = [Difunda dikoseka kumpala kwa kufikila ku muaku wa ndekelu]
+contribution-misreadings-example-4-title = Eyowa dinosaure minene ya trias. Eyowa.
+contribution-misreadings-example-5-title = Kakuyi mpata ne bitamba buimpa.
+contribution-misreadings-example-6-title = Kakuyi mpata ne bitamba buimpa
+contribution-misreadings-example-6-explanation = [Bidi ne bua kuikala bulelela]
+contribution-misreadings-example-7-title = Kakuyi mpata ne biya kutamba buimpa
+contribution-misreadings-example-7-explanation = [Dileta dia « y » kumpala kua tshimbilu to]
+contribution-misreadings-example-8-title = Tshibangu tshia kumbuka.
+contribution-misreadings-example-8-explanation = [Kakuena bualu basongo mu mifundu]
+contribution-varying-pronunciations-title = Diakula dishilangana
+contribution-varying-pronunciations-description = Tuma tema kumpala kua kubenga tshintu kapanda bua bualu bua mubadi nsongalume anyi songakaji bimueneka ne, uvua muamba diyi kampanda bibi anyi bimue biambilu bia miaku, anyi bimueneka ne kavua muteleja bualu bumue bua lukonko. Kudi mishindu ya bunyi ya kutela idibu benzeja mu buloba bujima kudi imue iudi kuyi muanji kumvua mu tshitupa tshinena. Ndi kusengelela bua umone kumpala kua diba budi kabidi bua kudisunguila bua bantu badi mua kuakula mu mishindu mikuabu nebe.
+contribution-varying-pronunciations-description-extended = Kadi biwikala wela meji ne mubandi nsongalume anyi nsongakaji kakadi muanji kutuilanngana ne muaku  eu kumpala to ne udi ukeba anu kumanya mudibu babikila bimpe ndi nkusengelela ne benga. Mu mpata enzela lubote lua kupitshisha.
+contribution-varying-pronunciations-example-1-title = Dikalu diakadi dikoka makalu makuabu.
