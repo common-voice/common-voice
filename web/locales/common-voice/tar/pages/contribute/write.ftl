@@ -120,6 +120,10 @@ add-sentences = Che uchúche járe osirúami
 add-sentences-menu-item-tooltip = Che uchéa raíchali nijé raíchala náti
 review-sentences-menu-item-tooltip = Che iné échi osirúami mujé binoí raichála náti
 add-questions-menu-item-tooltip = Che iné échi osirúami mujé binoí raichála náti
+transcribe-audio-menu-item-tooltip = Osayá raíchali moárami mujé binói raicháala kítira
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Menú jápi oná aní opción alí escribir
+add-sentences-menu-item-aria-label = Che uchéa bilé osirúami kulíwami kiti biléana comunidad peréami ayéna a leerima
+review-sentences-menu-item-aria-label = Che inéa échi osirúami jápi comunidad ríka aní
