@@ -95,6 +95,12 @@ rate-limit-message-seconds =
         [one] Mami che bochíwili che naí página ma che julámia ríka. Buyé bilé segundo mapi alími che júlama osirúami.  Matétera ba kíti kómi alá buyéami ju
        *[other] Mami che bochíwili che naí página ma che julámia ríka. Buyé { $retryLimit }segundos mapi alími che júlama osirúami.  Matétera ba kíti kómi alá buyéami ju
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 osirúami katewárami echina programa
+       *[other] { $uploadedSentences }  de { $totalSentences }osirúami katewárami echina programa
+    }
 
 ## MENU ITEM TOOLTIPS
 
