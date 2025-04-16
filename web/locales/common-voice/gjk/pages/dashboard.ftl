@@ -143,7 +143,7 @@ share-goal = مارا مقصۮ (گول) نين شيئر ڪرو
 
 ## Goals
 
-streaks = لڪيرون
+streaks = اِسٽريڪس
 days =
     { $count ->
         [one] ۮِي
