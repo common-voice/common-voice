@@ -159,3 +159,5 @@ transcribe-audio-menu-item-tooltip = Kuata meyi mu muakulu weba
 write-contribute-menu-aria-label = Muaba wa « kufundila »
 add-sentences-menu-item-aria-label = Kumbaja biambilu bipiabipia bia kubala kudi bantu
 review-sentences-menu-item-aria-label = Tangulula biambilu bidi mu bantu
+add-questions-menu-item-aria-label = Fila konko mipiamipia bua bantu babale ne bandamune
+transcribe-audio-menu-item-aria-label = Kuata meyi mumushindu wa mifundu

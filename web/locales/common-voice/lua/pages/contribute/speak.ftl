@@ -57,7 +57,7 @@ first-cta-gender-select-help-text =
 second-cta-header-text = Tuasakidila bua kufila kua diyi dieba tshianana !
 second-cta-subtitle-text = Kudiambuluisha kua bumuntu bueba, udi muakulonda ngenzelu weba wa mudimu ne kuikala popamue ne bantu bonso badi bambuluisha difila dia meyi.
 already-have-an-account = Udi ni compte anyi ? <login> Dipetangana</login>
-create-profile-button = Kangula bumuntu
+create-profile-button = Kangula profil
 # IMAGE TAGS
 img-alt-success-checkmark = Jadika dimanya
 # menu item
