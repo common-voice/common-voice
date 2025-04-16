@@ -58,14 +58,6 @@
         top: 0;
         cursor: default;
 
-        [dir='ltr'] & {
-            left: -30px;
-        }
-
-        [dir='rtl'] & {
-            right: -30px;
-        }
-
         .menu-list {
             display: flex;
             background: var(--white);
