@@ -1,0 +1,71 @@
+---
+name: Build and Push to GAR
+
+on:
+  push:
+    tags:
+      - 'sandbox-v*.*.*'
+      # - 'stage-v*.*.*'
+      # - 'release-v*.*.*'
+
+env:
+  BUILD_TAG: common-voice:build
+
+jobs:
+  build_and_push:
+    name: Build and Push Image to GAR
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      deployments: write
+
+    steps:
+      - name: Checkout Application Repo
+        uses: actions/checkout@v4
+
+      - name: Retrieve Git Commit SHA
+        id: vars
+        run: |
+          echo "commit_sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "git_tag=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker Image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ./docker/Dockerfile
+          load: true
+          push: false
+          tags: ${{env.BUILD_TAG}}
+          build-args: |
+            COMMIT=${{ steps.vars.outputs.commit_sha }}
+            TAG=${{ steps.vars.outputs.git_tag }}
+
+      - name: Determine Deployment Environment from Tag
+        id: deploy_env
+        run: |
+          TAG="${{ steps.vars.outputs.git_tag }}"
+          DEPLOY_ENV=""
+          if [[ "$TAG" == release-v* ]]; then
+            DEPLOY_ENV="production"
+          elif [[ "$TAG" == stage-v* ]]; then
+            DEPLOY_ENV="staging"
+          elif [[ "$TAG" == sandbox-v* ]]; then
+            DEPLOY_ENV="sandbox"
+          fi
+          echo "environment=${DEPLOY_ENV}" >> $GITHUB_OUTPUT
+
+      - name: Push the Docker image to GAR
+        if: steps.deploy_env.outputs.environment != ''
+        uses: mozilla-it/deploy-actions/docker-push@v3.11.1
+        with:
+          local_image: ${{ env.BUILD_TAG }}
+          image_repo_path: ${{ secrets.GAR_DOCKER_IMAGE_PATH }}
+          image_tag: ${{ steps.vars.outputs.git_tag }}
+          workload_identity_pool_project_number: ${{ secrets.WORKLOAD_IDENTITY_POOL_PROJECT_NUMBER }}
+          project_id: ${{ secrets.GAR_PROJECT_ID }}
+          deployment_env: ${{ steps.deploy_env.outputs.environment }}
