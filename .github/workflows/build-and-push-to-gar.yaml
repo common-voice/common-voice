@@ -59,13 +59,30 @@ jobs:
           fi
           echo "environment=${DEPLOY_ENV}" >> $GITHUB_OUTPUT
 
-      - name: Push the Docker image to GAR
-        if: steps.deploy_env.outputs.environment != ''
-        uses: mozilla-it/deploy-actions/docker-push@v3.11.1
+      - name: Authenticate with GCP
+        id: gcp-auth
+        uses: google-github-actions/auth@v2
         with:
-          local_image: ${{ env.BUILD_TAG }}
-          image_repo_path: ${{ secrets.GAR_DOCKER_IMAGE_PATH }}
-          image_tag: ${{ steps.vars.outputs.git_tag }}
-          workload_identity_pool_project_number: ${{ secrets.WORKLOAD_IDENTITY_POOL_PROJECT_NUMBER }}
-          project_id: ${{ secrets.GAR_PROJECT_ID }}
-          deployment_env: ${{ steps.deploy_env.outputs.environment }}
+          token_format: access_token
+          service_account: artifact-writer@${{ secrets.GAR_PROJECT_ID }}.iam.gserviceaccount.com
+          workload_identity_provider: projects/${{ secrets.WORKLOAD_IDENTITY_POOL_PROJECT_NUMBER }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions
+
+      - name: Authenticate with Docker Registry
+        id: docker-login
+        uses: docker/login-action@v3
+        with:
+          registry: us-docker.pkg.dev
+          username: oauth2accesstoken
+          password: ${{ steps.gcp-auth.outputs.access_token }}
+
+      - name: Build and Push Docker Image
+        id: build-and-push
+        uses: docker/build-push-action@v6
+        with:
+          context: src
+          file: ${{ matrix.dockerfile }}
+          tags: |
+            us-docker.pkg.dev/${{secrets.GAR_DOCKER_IMAGE_PATH}}:${{steps.vars.outputs.git_tag}}
+          push: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
