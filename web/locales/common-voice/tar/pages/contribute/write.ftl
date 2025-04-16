@@ -117,6 +117,9 @@ add-sentences = Che uchúche járe osirúami
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = Che uchéa raíchali nijé raíchala náti
+review-sentences-menu-item-tooltip = Che iné échi osirúami mujé binoí raichála náti
+add-questions-menu-item-tooltip = Che iné échi osirúami mujé binoí raichála náti
 
 ## MENU ITEM ARIA LABELS
 
