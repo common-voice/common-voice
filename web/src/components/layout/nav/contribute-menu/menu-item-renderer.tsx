@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { Localized, WithLocalizationProps } from '@fluent/react'
 import classNames from 'classnames'
 import { Tooltip } from 'react-tooltip'
