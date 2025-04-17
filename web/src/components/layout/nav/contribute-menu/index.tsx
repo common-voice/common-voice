@@ -23,6 +23,7 @@ export type ContributeMenuItem = {
   requiresAuth?: boolean
   menuItemTooltip: string
   menuItemAriaLabel: string
+  type: 'scripted' | 'spontaneous' | 'general'
 }
 
 export type MenuConfig = {
@@ -139,7 +140,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           <div
             className="menu-wrapper-mobile"
             data-testid="contribute-mobile-menu"
-            style={{ height: `${40 * visibleMenuItems.length}px` }}>
+            style={{ height: `${48 * visibleMenuItems.length}px` }}>
             <ContributeMenuContent
               pathname={location.pathname}
               className="mobile-menu-list"
