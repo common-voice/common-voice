@@ -94,6 +94,7 @@ adding-sentences-subheader-abbreviations-explanation = აბრეუ̂ია�
 adding-sentences-subheader-punctuation = პუნქტუაცია
 adding-sentences-subheader-punctuation-explanation = სპეციალურ სიმბოლუ̂ა̄̈ლ ი სასუ̂ენ ნიშნა̈რ ჩართულ ხეკუ̂ეს ლე̄სუ̂ხ ეჩქა გარ, შომუ̂ა̄̈ჲ უკიდურესდ აუცილებელ ლიხ. მაგალითად, აპოსტროფ ხაკუ ლუშნუ ზმნისწინია̈ნ სიტყუ̂ა̄̈ლისგა “ჟ'ა̄ჩა̈დ” ი “ქ'ა̄ჩა̈დ” ი ხეკუ̂ეს ჩუ̂არდე̄დს ლა̈ბნა ტექსტისგა, მარე მა̄მ ლი ლანღელს, ერე ეჯწჷხდე̄ს, მაგალითად, “@” ჰედ “#” სიმბოლუ̂ა̄̈ლ.
 adding-sentences-subheader-special-characters = სპეციალურ სიმბოლოა̈რ ი უცხოურ ასუ̂ა̄̈ლ
+adding-sentences-subheader-special-characters-explanation-1 = ასუ̂ა̄̈ლ ხეკუ̂ესე მიღებულ ლე̄სუ̂ხ ლაგჷრგა̈ლ ნინჟი. მაგალითად, ქართუ̂ილისგა ა̈რი “წ” ასო, მარე მა̄მ ა̈რი ინგლისურ ანბანისგა ი ეჯღა ნო̄მა ხეკუ̂ეს ანწუ̂ა̄̈ნდე̄დს ინგლისურ ტექსტისგა.
 adding-sentences-subheader-offensive-content = შეურაცხმყოფელ შინაარს
 
 ## Question collection ids
