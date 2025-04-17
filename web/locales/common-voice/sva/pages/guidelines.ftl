@@ -114,3 +114,5 @@ what-makes-a-good-question-subheader = მა̈ჲ ა̈სკე̄თე კი
 what-makes-a-good-question-explanation = ხოჩა კითხვა მონაცემრე ნაკრებიშდ საზოგადოებაისგა მონაწილეობა̈ ბედჟი ხეკუ̂ეს ლესსუ̂:
 what-makes-a-good-question-explanation-criteria-1 = ლესსუ̂ ა̈დუ̂ილდ ლეცხრი ი ლეპასუხი
 what-makes-a-good-question-explanation-criteria-2 = ლესსუ̂ შეაბამის
+what-makes-a-good-question-explanation-criteria-3 = ნო̄მა ლა̈ხჴჷმრა ი ნოი ა̈ხშჷმნა მაუ̂ინ ი შეურაცხმყოფელ გამოთქმა̄̈ლ
+what-makes-a-good-question-tip = აჯაღ ჯა̈მჲედა განიხილო განსხუ̂აუ̂ებულ კონტექსტა̈რ ი დომენა̈რ.
