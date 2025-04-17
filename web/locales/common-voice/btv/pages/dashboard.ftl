@@ -15,6 +15,9 @@ contribution-activity = حصہ گھنے سو سرگرمی
 top-contributors = اوچت حصہ گِھنےوالہ
 recorded-clips = ریکاڈ ھونئیل کلپ
 validated-clips = تصدیق ھونئیل کلپ
+total-approved = بُوٹ منظور ھویں گے
+overall-accuracy = تمام درستگی
+set-visibility = می موجدگی سیٹ گر
 
 ## Custom Goals
 

@@ -1,5 +1,5 @@
-action-click = tɔ àlɔvi nú ji
-action-tap = zī nu ji
+action-click = Tɔ àlɔvi nú ji
+action-tap = Zī nú ji
 contribute = dó àlɔ àmè / kpé ɖo amè ŋuti
 review = kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
 skip = va yi
@@ -142,5 +142,5 @@ contribution-reader-effects-title = gbèwo ku gbè dɔɖiɖiwo
 contribution-reader-effects-description = Eji eji lè nyàlélégbogboɖéwo mè a,  àmèwo pònà nupo ku woa  ŋutɔ woa bé jɔ̀jɔ̌mègběwo. Vlàvo a wò lǎ téŋu tà si nyàléléɖé kè mu lè ɖoɖo a nu o vɔ̀ do apá alo kè be gbè ɖíɖí ŋutɔ alo kè mu to o a, vɔ̀ a wó zã kâtatagbè sɔ wɔɛ. Mí ɖè kuku tàsi nyàléléwo kè wó sɔ́ hàjìgbèwo alo  àɖàŋuɖèmɔ̌gbé wɔ̀.
 contribution-just-unsure-title = Wò mu le  kã ɖo éji o a/ wò lě vɔ̃́ a.
 contribution-just-unsure-description = Né wò do gò tagbãɖe/ kuxeɖe kè sédodo wãwo mu teŋu na ɖoŋuti o a zã apo àɖàŋu. Né wò mu nya lékè wò la wɔ o a, zã « va yi bé butɔ̃ a» eye yi nyàlele kè gbɔnà ji.
-see-more = ɖe kpɔwɔɛwo to  sùgbɔ.
-see-less = ɖè kpɔwɔɛwo to víɖé.
+see-more = <chevron></chevron>Ɖe kpɔwɔɛwo tó  sùgbɔ.
+see-less = <chevron></chevron>Ɖè kpɔwɔɛwo tó víɖé.
