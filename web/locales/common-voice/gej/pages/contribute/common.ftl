@@ -54,7 +54,7 @@ report-other-comment =
     .placeholder = nupopòposonu àlo àmè ŋúti.
 success = dɔwɔ̀wɔ̌ a jè éji / dɔwɔ̀wɔ̌ a wu nu nyɔɛɖé.
 continue = yì èji.
-report-success = wo ɖo tagbã ɖo ɖa
+report-success = wo ɖo tagbã ɖo ɖa nyɔɛɖe/ wo ɖo nyà a ɖo ɖa nyɔɛɖe.
 
 ## Speak & Listen Shortcuts
 
