@@ -119,6 +119,18 @@ rate-limit-message-minutes =
         [one] تُو اِس صفہ جمہ گرے سوحدےاوڑ گا تھو۔مہربانی گیری پرئیں جملہ جمہ گرے نو اول 1 ملٹ انتظار گر تیں صبر گرے سو شکریہتو اِس صفہ سو دَن جمہ گرے سو حدے اُڑ گا تھو  مہربانی گر انتظار گر{ $retryLimit } ملٹ پرئیں جملہ جمہ گرے نو اول تیں شکریہ صبر گرے سو !
        *[other] { "" }
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تُو اِس صفحہ سو دَن جمہ گرے سو حدے اُوڑ گا تھومہربانی گیری 1 سیکنڈ  اِنتظار گر پَرئیں جملہ جمہ گرے نو اول! تتیں شکریہ صبر سو۔
+       *[other] تُو اِس صفحہ سو دَن جمہ گرے سو حدے اُوڑ گا تھومہربانی گیری { $retryLimit } سیکنڈ  اِنتظار گر پَرئیں جملہ جمہ گرے نو اول! تتیں شکریہ صبر سو۔
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } سو 1 جملہ گِھن گی
+       *[other] { $uploadedSentences } سو { $totalSentences } جملے گِھن گے
+    }
 
 ## MENU ITEM TOOLTIPS
 
