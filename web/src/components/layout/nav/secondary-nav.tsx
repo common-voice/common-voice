@@ -58,6 +58,18 @@ export const SecondaryNav: React.FC<SecondaryNavProps> = ({
           <Localized id="write" />
         </div>
       </LocaleLink>
+
+      <LocaleLink
+        to={URLS.VARIANT}
+        className={classNames('secondary-nav-option', {
+          'selected-option': location.pathname.includes(URLS.VARIANT),
+        })}>
+        <div>
+          <EditIcon />
+          <Localized id="variant" />
+        </div>
+      </LocaleLink>
+
       {isLoggedIn && (
         <LocaleLink
           to={URLS.REVIEW}
