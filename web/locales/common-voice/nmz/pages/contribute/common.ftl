@@ -10,7 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> àlǝ̀sʊ̀ŋ tóm
     }
 goal-help-recording = ʊ́ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ nà kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl àfèmǝ̀r rʊ̀rǝ̀tǝ̀ kà kàkáá<goalPercentage></goalPercentage> kà wʊ̀tàsǝ̀ kpàwʊ̀ŋ kà{ $goalVale }
-goal-help-validation = ʊ̀ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ ná, kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl afèmǝ̀r rʊ̀rǝ̀tǝ̀ { $goalValue } tìsúŋ !
+goal-help-validation = ʊ̀ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ ná, kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl <goalPercentage>afèmǝ̀r rʊ̀rǝ̀tǝ̀ { $goalValue } tìsúŋ !
 contribute-more = ŋ̀ pɩ́sʊ́ sɩ̀ ŋ̀ tàsǝ̀ lápǝ́ { $count } já ?
 speak-empty-state = rà tà tàsǝ́ wɩ́ɩ́nʊ́ŋ kà máátǝ̀ sɩ̀ rà kpá wʊ̀tã̀ŋ ká táà...
 no-sentences-for-variants = ʊ̀ wɩ̀ɩ̀ sǝ́ mɩ́ wʊ́tã́ŋ máátǝ́ témpá! wáà càrʊ́ mɩ́, ɩ́ pɩ́sʊ́ sɩ̀ ɩ̀ lɔ̀ɔ̀sǝ̀ rʊ́rǝ́tǝ̀ ʊ́ jél nɩ̀nà mɩ̀ wʊ́tãŋ tà mààtǝ̀.
