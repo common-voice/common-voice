@@ -141,9 +141,21 @@ small-batch-sentences-rule-1 = اے څھئے سو ھدایات نو “ کاں �
 small-batch-sentences-rule-2 = یک لینڈ مہ یک جملہ میلا
 small-batch-sentences-rule-3 = یک لینڈ مہ اَنَن جملے “ اِنٹر” یا “ واپس” دباؤ گر یک وارے
 small-batch-sentences-rule-4 = زر جملیوں تکے میلا
+small-batch-sentences-rule-5 = بُوٹ جملے یک شان احاطہ کار سو ھُں پکار تھو
+small-batch-sentences-rule-6 = بُوٹ جملے  یک شان نظارہ سو ھُوں پکار تھو
+# menu item
+add-sentences = جملے میلا
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملے میلا آ نظر ثانی گر، سوال میلا، اواز نقل گر
+add-sentences-menu-item-tooltip = اپئیں زیب مہ جملے میلا
+review-sentences-menu-item-tooltip = اپئیں زیب مہ جملے نظر ثانی گر
+add-questions-menu-item-tooltip = اپئیں زیب مہ سوال میلا
+transcribe-audio-menu-item-tooltip = اپئیں زیب مہ اوز سو رکاڈنگ نقل گر
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختیاروں سو مینیو لِک
+add-sentences-menu-item-aria-label = کمیونٹی سو پڑے سو دن نئ جملے میلا
+review-sentences-menu-item-aria-label = کمیونٹی سو طرف نو جمہ ھونئیل جملیوں سو نظر ثانی
