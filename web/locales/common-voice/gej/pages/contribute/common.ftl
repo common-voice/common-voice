@@ -44,17 +44,17 @@ report-offensive-language = Gbɔɖìàmènyǎ/ Kplamàsenyǎ/ Amèmàbùmàb
 report-offensive-language-detail = Gbɔɖìamènyǎwo lè nyàgbè a mè/ Ezũ̀wo lè nyàgbè a mè.
 report-grammar-or-spelling = Gbèŋutisèvòdàdǎ/ Nuŋɔ̀ŋlɔ̌vòdàdǎ.
 report-grammar-or-spelling-detail = Gbèŋutisèvòdàdǎ lè  nyàgbè a mè / núŋɔ̀ŋlɔvòdàdǎ lè nyàgbè a mè.
-report-different-language = gbè bu.
-report-different-language-detail = wó ŋlɔ̀ nyàgbè a lè gbèɖé kè tó vò ná  ékè mù dona a mè.
-report-difficult-pronounce = kè sɛ̃ŋu bé wo a yɔ a.
-report-difficult-pronounce-detail = nyàɖéwo alo nyàgbèɖewo bé yɔyɔ alo hɛ̃̀hlɛ̃̌ sɛ̃ŋú.
-report-offensive-speech = nyàvéamèwo/ àbìdoàmènyǎwo
-report-offensive-speech-detail = gbɔɖìamènyawo alo èzũ̀wo lè nyàlélé a mè.
+report-different-language = Gbè bu.
+report-different-language-detail = Wó ŋlɔ̀ nyàgbè a lè gbèɖé kè tó vò ná  ékè mù dona a mè.
+report-difficult-pronounce = Kè sɛ̃ŋu bé wo a yɔ a.
+report-difficult-pronounce-detail = Nyàɖéwo alo Nyàgbèɖewo bé yɔyɔ alo hɛ̃̀hlɛ̃̌ sɛ̃ŋú.
+report-offensive-speech = Nyàvéamèwo/ Abìdoàmènyǎwo
+report-offensive-speech-detail = Amèmabunyàwo / Ezũ̀wo lè nyàlélé a kpaɖé  mè.
 report-other-comment =
-    .placeholder = nupopòposonu àlo àmè ŋúti.
-success = dɔwɔ̀wɔ̌ a jè éji / dɔwɔ̀wɔ̌ a wu nu nyɔɛɖé.
-continue = yì èji.
-report-success = wo ɖo tagbã ɖo ɖa nyɔɛɖe/ wo ɖo nyà a ɖo ɖa nyɔɛɖe.
+    .placeholder = Nupopòpo so nu àlo àmè ŋúti.
+success = Dɔwɔ̀wɔ̌ a jè éji / Dɔwɔ̀wɔ̌ a wu nu nyɔɛɖé.
+continue = Yì èji.
+report-success = Wo ɖo tagbã ɖo ɖa nyɔɛɖe/ Wo ɖo nyà a ɖo ɖa nyɔɛɖe.
 
 ## Speak & Listen Shortcuts
 
@@ -66,7 +66,7 @@ shortcut-skip = a
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
-shortcut-record-toggle-label = le nu / tɔ tè nu.
+shortcut-record-toggle-label = Le nu / Tɔ tè nu.
 shortcut-rerecord-toggle = ɖèka sɔ yì àtɔ̃.
 shortcut-rerecord-toggle-label = trɔ́ lé nyà.
 shortcut-discard-ongoing-recording = totolènumèbutɔ̃
