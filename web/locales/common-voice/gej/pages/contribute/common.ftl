@@ -91,15 +91,15 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = nu kè Ji wo la zɔ̃̀ ɖo a wɔ̀ nuɖé.
-contribution-criteria-link = sè nyà kèwo la kpɔ kéŋugbɔxue la do àmè àlɔ a gɔmè/sè nyà kèwo la kpɔ kéŋugbɔxue la do  àlɔ nu mè.
-contribution-criteria-page-title = nu kè ye wo la kpɔ keŋugbɔxue la do àlɔ nu mè
-contribution-criteria-page-description = sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
-contribution-for-example = kpɔwɔ́ɛ
-contribution-misreadings-title = nuhɛ̃̀hlɛ̃vòdàdawo
-contribution-misreadings-description = né wò le sè nu a,  kpɔ égbɔ nyɔɛɖé bé nu kè wó lé a yé wó ŋlɔ̀ tututu. mì gbé né nyí àgbàdàdǎ viɖéwo kpòo. <br />. àgbà kè wó dànà éji éji a woe nyi kèyàwo:
-contribution-misreadings-description-extended-list-1 = <strong>ɖé huè tè<strong> àlo <strong> a</strong> lè nyàlélé a bé gɔ̃̀mèjèjě.
-contribution-misreadings-description-extended-list-2 = wo<strong> ɖé </strong>  huè tè lè nyàgbèɖé bé nùwuwu.
+contribution-criteria-nav = Nu kè Ji wo la zɔ̃̀ ɖo a wɔ̀ nuɖé.
+contribution-criteria-link = Sè nyà kèwo la kpɔ kéŋugbɔxue la do àmè àlɔ a gɔmè/ Sè nyà kèwo la kpɔ kéŋugbɔxue la do  àlɔ nu mè.
+contribution-criteria-page-title = Nu kè ye wo la kpɔ keŋugbɔxue la do àlɔ nu mè/Nu kè yé wó la kpɔ kéŋugbɔxue la do  àlɔ nu mè.
+contribution-criteria-page-description = Sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
+contribution-for-example = Kpɔwɔ́ɛ
+contribution-misreadings-title = Nuhɛ̃̀hlɛ̃vòdàdawo
+contribution-misreadings-description = Né wò le sè nu a,  kpɔ égbɔ nyɔɛɖé bé nu kè wó lé a yé wó ŋlɔ̀ tututu. Wò la gbé né nyí vòdàdǎ viɖéwo kpòo cã. <br />. Vòdàdǎ kèwó wɔnà éji éji a woe nyi kèyàwo:
+contribution-misreadings-description-extended-list-1 = <strong>Ɖé huè tè<strong> àlo <strong> a</strong> lè nyàlélé a bé gɔ̃̀mèjèjě.
+contribution-misreadings-description-extended-list-2 = Wo<strong> ɖé </strong>  huè tè lè nyàgbèɖé bé nùwuwu.
 contribution-misreadings-description-extended-list-3 = nyàtoɖoémèwo kèwo mu lè o sìgbè  « surment » kè le ɖɔlì  « surement ».
 contribution-misreadings-description-extended-list-4 = nyà kpɔ̀tɛ́ a bé nùwuwu sò ɖo a wó nɔ̀tè nyàlélé a kpàtà.
 contribution-misreadings-description-extended-list-5 = ajè tre mè ájè àgbã mè / ahlɔ̃ ŋútɔ kéŋugbɔxué ahlɛ̃̀ nyà ɖèka.
