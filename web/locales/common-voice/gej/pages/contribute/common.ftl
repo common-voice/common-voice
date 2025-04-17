@@ -30,20 +30,20 @@ login-signup = Ɖo kà mè/ ŋlɔ̀ nyikɔ.
 vote-yes = Ɛ̃ɛ
 vote-no = Awòo / Òo
 datasets = Nyàwoleleɖodu/ Nùpopowolepopu.
-languages = gbèwo
-about = kè jɔ̀ ɖo nu ji
-partner = kàdodo.
-submit-form-action = sɔ nú ɖó ɖa.
+languages = Gbèwo
+about = Kè jɔ̀ ɖo nu ji
+partner = Kàdodowo
+submit-form-action = Sɔ nú ɖó ɖa.
 
 ## Reporting
 
-report = gblɔ̃̀ nyà ɖo ɖa.
-report-title = ŋlɔ̀ nu ɖo ɖa.
-report-ask = tagbã kɛwo ye  mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o. / kuxe kɛwo ye mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o.
-report-offensive-language = gbɔɖìàmènyàwo/ kplamàsenyàwo/ àmèmàbùmàbǔgbèwo.
-report-offensive-language-detail = gbɔɖìamènyǎwo lè nyàgbè a mè/ èzũ̀wo lè nyàgbè a mè.
-report-grammar-or-spelling = gbèŋutisèvòdàdǎ/ nuŋɔ̀ŋlɔ̌vòdàdǎ.
-report-grammar-or-spelling-detail = gbèŋutisègbàdàdǎ lè  nyàgbè a mè / núŋɔ̀ŋlɔgbàdàdǎ lè nyàgbè a mè.
+report = Gblɔ̃̀ nyà ɖo ɖa.
+report-title = Ŋlɔ̀ nu ɖo ɖa.
+report-ask = Tagbã kɛwo ye  mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o? / Kuxe kɛwo ye mì lě ɖo sɔ kùɖo nyàgbè kèya ŋúti o?
+report-offensive-language = Gbɔɖìàmènyǎ/ Kplamàsenyǎ/ Amèmàbùmàbǔgbèwo.
+report-offensive-language-detail = Gbɔɖìamènyǎwo lè nyàgbè a mè/ Ezũ̀wo lè nyàgbè a mè.
+report-grammar-or-spelling = Gbèŋutisèvòdàdǎ/ Nuŋɔ̀ŋlɔ̌vòdàdǎ.
+report-grammar-or-spelling-detail = Gbèŋutisèvòdàdǎ lè  nyàgbè a mè / núŋɔ̀ŋlɔvòdàdǎ lè nyàgbè a mè.
 report-different-language = gbè bu.
 report-different-language-detail = wó ŋlɔ̀ nyàgbè a lè gbèɖé kè tó vò ná  ékè mù dona a mè.
 report-difficult-pronounce = kè sɛ̃ŋu bé wo a yɔ a.
