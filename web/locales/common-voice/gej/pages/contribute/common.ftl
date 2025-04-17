@@ -6,8 +6,8 @@ skip = va yi
 shortcuts = mɔsɔ̀sɔ̀ɛwo
 clips-with-count-pluralized =
     { $count ->
-        [one] nyàlélékpaɖe
-       *[other] nyàlélékpaɖewo
+        [one] <bold>{ $count }</bold>nyàlélékpaɖe
+       *[other] <bold>{ $count }</bold>nyàlélékpaɖewo
     }
 goal-help-recording = wò ye na  ye Common Voice be gbè sia gbè be taɖojinu sɔ kuɖo nyàlélé { $goalValue } ŋuti <goalPercentage></goalPercentage>le kàvè takpo ŋuti a va émè.
 goal-help-validation = to  ji  wò a Common Voice bé gbè sía gbè bé asidadaɖonujíwo taɖojinu <goalPercentage></goalPercentage> kpɔ émè vává{ $goalValue }
