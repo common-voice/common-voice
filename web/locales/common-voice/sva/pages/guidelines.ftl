@@ -74,6 +74,9 @@ citing-sentences-explanation-1 = მნიშვნელოვან ლი ც
 citing-sentences-subheader-websites = ვებგუ̂ერდ
 citing-sentences-subheader-websites-explanation = სი ჩუ ჯა̈მჲედა  სგ'ა̄თხია ვებგვერდ, მაგალითად, "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = აკადემიურ ცნობარ
+citing-sentences-subheader-academic-reference-explanation = ჩუ ჯა̈მჲედა ა̈ხჴჷმრა აკადემიურ მითითება̄̈ სტილ, მაგალითად ჰარუ̂არდი სტილ "Mozilla (2021) Common Voice. ხელმისაწუ̂დომ ლი მისამართჟი https://commonvoice.mozilla.org/ (წვდომა: 2021 ზა̈ჲა̈ 15 სექტემბერ)"
+citing-sentences-subheader-offline-sources = ოფლაინ წყარუ̂ა̈ლ
+citing-sentences-subheader-offline-sources-explanation = საჯარო დომენი ტექსტიშდ, ხედუ̂ა̄̈ჲ მა̄მ ლი ხელმისაწუ̂დომ ონლაინ
 adding-sentences-subheader-offensive-content = შეურაცხმყოფელ შინაარს
 
 ## Question collection ids
