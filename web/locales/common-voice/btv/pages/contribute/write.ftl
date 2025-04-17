@@ -159,3 +159,5 @@ transcribe-audio-menu-item-tooltip = اپئیں زیب مہ اوز سو رکاڈ
 write-contribute-menu-aria-label = اختیاروں سو مینیو لِک
 add-sentences-menu-item-aria-label = کمیونٹی سو پڑے سو دن نئ جملے میلا
 review-sentences-menu-item-aria-label = کمیونٹی سو طرف نو جمہ ھونئیل جملیوں سو نظر ثانی
+add-questions-menu-item-aria-label = ناں سوال جمہ گر کمیونٹی سو پڑے آ جواب دے سو دن
+transcribe-audio-menu-item-aria-label = اواز سو ریکاڈنگ لیک مہ نقل گر
