@@ -88,6 +88,8 @@ adding-sentences-subheader-spelling-punctuation-explanation = წინადა
 adding-sentences-subheader-speakable = გა̈რგლა
 adding-sentences-subheader-speakable-explanation = მაჩე̄ნე წინადადბა̄̈ლ ლიხ ბუნებრიუ̂ ი ლაგჷრგა̈ლ — მიუხედაუ̂ად ეჩი̄შ, ერე ფონეტიკურ მნიშვნელობა ი წინადადებაისგა განსხვავებულ სიტყუ̂ა̄̈ლ მნიშუ̂ნელოუ̂ან ლიხ, ნა̈ჲ ეჯასი ხუ̂აკუ̂იჰდ, ერე წინადადება̄̈ლე ლიჲრი, მა̈ჲ ლა̈თია̄ლს ლი, სა̈ინტერესო ი სახალისო ლესსუ̂ ნიშგუ̂ეჲ მოხალისე საზოგადოება̈შდ.
 adding-sentences-subheader-numbers = ნომრა̈ლ
+adding-sentences-subheader-numbers-explanation = იდეალურ წყარუ̂ე ტექსტისგა ნომა ხეკუ̂ეს არდე̄დხ ციფრა̈ლ ეჯღ'ე̄რე შეიძლება პრობლემა̄̈ლ გამოიწუ̂იოს ჰერშუ̂ ლაჭუ̂და̄̈ნჟი. რიცხუ̂ი ლიჭუ̂და̄̈ნი̄ მეთოდ დამოკიდებულ ლი კონტექსტჟი შეძლება დაბნეულობ გამოიწუ̂იოს მონაცემრე ნაკრებისგა. მაგალითად, რიცხუ̂ “2409” შეიძლება ზუსტდ ა̈დჭუ̂ედის იმჟი “ჲერუ̂ეშდ ი უ̂ო̄შთხუ̂ ი ნულ ი ჩხარა" ი “ჲო̄რი ათა̈ს უ̂ო̄შთხუ̂აშირ ჩხარა”.
+adding-sentences-subheader-abbreviations = აბრეუ̂იატურა̄̈ლ ი აკრონიმა̈ლ
 adding-sentences-subheader-offensive-content = შეურაცხმყოფელ შინაარს
 
 ## Question collection ids
