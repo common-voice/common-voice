@@ -92,11 +92,11 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = nu kè do na vòvòtoto nuwo domè.
-contribution-criteria-link = sè nyà kèwo la kpɔ kéŋugbɔxue la do àmè àlɔ a gɔmè
+contribution-criteria-link = sè nyà kèwo la kpɔ kéŋugbɔxue la do àmè àlɔ a gɔmè/sè nyà kèwo la kpɔ kéŋugbɔxue la do  àlɔ nu mè.
 contribution-criteria-page-title = nu kè ye wo la kpɔ keŋugbɔxue la do àlɔ nu mè
 contribution-criteria-page-description = sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
 contribution-for-example = kpɔwɔ́ɛ
-contribution-misreadings-title = àgbàdàdanuhɛhlɛwo
+contribution-misreadings-title = nuhɛ̃̀hlɛ̃vòdàdawo
 contribution-misreadings-description = né wò le sè nu a,  kpɔ égbɔ nyɔɛɖé bé nu kè wó lé a yé wó ŋlɔ̀ tututu. mì gbé né nyí àgbàdàdǎ viɖéwo kpòo. <br />. àgbà kè wó dànà éji éji a woe nyi kèyàwo:
 contribution-misreadings-description-extended-list-1 = ɖé huè tè<strong> àlo <strong> a</strong> lè nyàlélé a bé gɔ̃̀mèjèjě.
 contribution-misreadings-description-extended-list-2 = wo ɖé <strong> huè tè lè nyàgbèɖé bé nùwuwu.
