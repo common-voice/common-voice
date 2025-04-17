@@ -1,17 +1,17 @@
 action-click = Tɔ àlɔvi nú ji
 action-tap = Zī nú ji
-contribute = dó àlɔ àmè / kpé ɖo amè ŋuti
-review = kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
-skip = va yi
-shortcuts = mɔsɔ̀sɔ̀ɛwo
+contribute = Dó àlɔ àmè / kpé ɖo amè ŋuti/ Do àlɔ̀ nu mè.
+review = Kù nu mè kpɔ́ / Glò nu mè kpɔ́ / Ji nu mè kpɔ́.
+skip = Va yi
+shortcuts = Mɔsɔ̀sɔ̀ɛwo
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold>nyàlélékpaɖe
-       *[other] <bold>{ $count }</bold>nyàlélékpaɖewo
+        [one] <bold>{ $count }</bold>Nyàlélékpaɖe
+       *[other] <bold>{ $count }</bold>Nyàlélékpaɖewo
     }
-goal-help-recording = wò ye na  ye Common Voice be gbè sia gbè be taɖojinu sɔ kuɖo nyàlélé { $goalValue } ŋuti <goalPercentage></goalPercentage>le kàvè takpo ŋuti a va émè.
-goal-help-validation = to  ji  wò a Common Voice bé gbè sía gbè bé asidadaɖonujíwo taɖojinu <goalPercentage></goalPercentage> kpɔ émè vává{ $goalValue }
-contribute-more = sɔ̀ gbè la wɔ̀ { $count } wú.
+goal-help-recording = Wò ye na  ye Common Voice be gbè sia gbè be taɖojinu sɔ kuɖo nyàlélé { $goalValue } ŋuti <goalPercentage></goalPercentage>le kàvè takpo ŋuti a va émè.
+goal-help-validation = To  ji  wò a Common Voice bé gbè sía gbè bé asidadaɖonujíwo taɖojinu <goalPercentage></goalPercentage> kpɔ émè vává{ $goalValue }
+contribute-more = Wò sɔ̀ gbè la wɔ̀ { $count } wú a ?
 speak-empty-state = mí mú gbà ɖó nyàgbèwo la lé lè gbè kèyà mè o.
 no-sentences-for-variants = àpo gbè a bé alɔ̀zɛ̃̌ a ta mu nyɔ o a mú gbà ɖo nyàgbèwo o. Né ma dó nùpo ná wò  o a, wò la téŋu trɔ àsí lè nuwó ŋúti né nyàgbè buwo né zé lè apo gbè a mè.
 speak-empty-state-cta = jí nyàgbèɖewo ɖo ŋùkumè na àmè.

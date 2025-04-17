@@ -123,4 +123,5 @@ culturally-specific-questions = Porandu mba’ekuaarã rehegua
 culturally-specific-questions-explanation = Ñeporandu jekuaapy rehe g̃uarã térã ojapóva heta je’erei ñembohovái rehegua.
 process-steps = Mba’eapo / Jeku’e
 offensive-content-sensitive-information = Tetepy oporoko’õva térã marandu oñeñandúva
+offensive-content-sensitive-information-explanation-explanation-1 = Ñeporandu ikatukuaáva ojerure ndéve marandu nde ndeheguaitéva
 example-questions-subheader = Porandu techapyrãva
