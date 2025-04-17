@@ -1,4 +1,4 @@
-import { Localized, useLocalization } from '@fluent/react'
+import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 import * as React from 'react'
 
@@ -11,6 +11,7 @@ type Props = {
   isActive: boolean
   activeSentenceIndex: number
   variantTag: string
+  variantName: string
 }
 
 const ReviewCard: React.FC<Props> = ({
@@ -20,8 +21,8 @@ const ReviewCard: React.FC<Props> = ({
   index,
   activeSentenceIndex,
   variantTag,
+  variantName,
 }) => {
-  const { l10n } = useLocalization()
 
   return (
     <div
@@ -39,7 +40,7 @@ const ReviewCard: React.FC<Props> = ({
       }}
       data-testid={`${isActive ? 'active-review-card' : 'review-card'}`}>
       <p className="sentence">{sentence}</p>
-      {variantTag && <Tag text={l10n.getString(variantTag)} />}
+      {variantTag && variantName && <Tag text={`${variantName} [${variantTag}]`} />}
       <Localized id="sc-review-form-source" vars={{ sentenceSource: source }}>
         <p className="source" />
       </Localized>
