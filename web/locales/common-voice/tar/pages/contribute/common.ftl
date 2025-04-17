@@ -1,4 +1,8 @@
 speak-empty-state-cta = Ché ani jare namúti
+speak-loading-error = ké tási oméro chápía oraciones. pé alí ché inéba
+record-button-label = Moába mujé raíchála
+share-title-new = Tamúje kuíro réwa'a ché ja
+keep-track-profile = Newá bilé perfil aníami chúmi iyéna meká nawálá
 
 ## Reporting
 
