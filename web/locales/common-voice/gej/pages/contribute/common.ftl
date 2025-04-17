@@ -10,7 +10,7 @@ clips-with-count-pluralized =
        *[other] nyàlélékpaɖewo
     }
 goal-help-recording = wò ye na  ye Common Voice be gbè sia gbè be taɖojinu sɔ kuɖo nyàlélé { $goalValue } ŋuti <goalPercentage></goalPercentage>le kàvè takpo ŋuti a va émè.
-goal-help-validation = to  ji  wò a Common Voice bé gbè sía gbè bé asidadaɖonujíwo taɖojinu <goalPercentage> kpɔ émè vává.
+goal-help-validation = to  ji  wò a Common Voice bé gbè sía gbè bé asidadaɖonujíwo taɖojinu <goalPercentage></goalPercentage> kpɔ émè vává{ $goalValue }
 contribute-more = sɔ̀ gbè la wɔ̀ { $count } wú.
 speak-empty-state = mí mú gbà ɖó nyàgbèwo la lé lè gbè kèyà mè o.
 no-sentences-for-variants = àpo gbè a bé alɔ̀zɛ̃̌ a ta mu nyɔ o a mú gbà ɖo nyàgbèwo o. Né ma dó nùpo ná wò  o a, wò la téŋu trɔ àsí lè nuwó ŋúti né nyàgbè buwo né zé lè apo gbè a mè.
