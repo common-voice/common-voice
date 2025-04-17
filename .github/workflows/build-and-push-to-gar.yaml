@@ -8,9 +8,6 @@ on:
       # - 'stage-v*.*.*'
       # - 'release-v*.*.*'
 
-env:
-  BUILD_TAG: common-voice:build
-
 jobs:
   build_and_push:
     name: Build and Push Image to GAR
@@ -19,7 +16,6 @@ jobs:
     permissions:
       contents: read
       id-token: write
-      deployments: write
 
     steps:
       - name: Checkout Application Repo
@@ -33,18 +29,6 @@ jobs:
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
-
-      - name: Build Docker Image
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          file: ./docker/Dockerfile
-          load: true
-          push: false
-          tags: ${{env.BUILD_TAG}}
-          build-args: |
-            COMMIT=${{ steps.vars.outputs.commit_sha }}
-            TAG=${{ steps.vars.outputs.git_tag }}
 
       - name: Determine Deployment Environment from Tag
         id: deploy_env
@@ -66,7 +50,7 @@ jobs:
         with:
           token_format: access_token
           service_account: artifact-writer@${{ secrets.GAR_PROJECT_ID }}.iam.gserviceaccount.com
-          workload_identity_provider: projects/${{ secrets.WORKLOAD_IDENTITY_POOL_PROJECT_NUMBER }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions
+          workload_identity_provider: ${{ secrets.GCPV2_GITHUB_WORKLOAD_IDENTITY_PROVIDER }}
 
       - name: Authenticate with Docker Registry
         id: docker-login
@@ -80,10 +64,13 @@ jobs:
         id: build-and-push
         uses: docker/build-push-action@v6
         with:
-          context: src
-          file: ${{ matrix.dockerfile }}
+          context: .
+          file: ./docker/Dockerfile
           tags: |
             us-docker.pkg.dev/${{secrets.GAR_DOCKER_IMAGE_PATH}}:${{steps.vars.outputs.git_tag}}
           push: true
+          build-args: |
+            COMMIT=${{ steps.vars.outputs.commit_sha }}
+            TAG=${{ steps.vars.outputs.git_tag }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
