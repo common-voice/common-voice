@@ -127,4 +127,5 @@ transcribe-audio-menu-item-tooltip = دے خوئے زبان ڤے آواز رکا
 write-contribute-menu-aria-label = ڤے اختیاراتف فہرست نوشا
 add-sentences-menu-item-aria-label = پے آدمف اݰٹا دیر نوؤ جملغّے شامل کن
 review-sentences-menu-item-aria-label = دے کمیونٹی ذریعو ڤے جمع کڑغو موجودہ جملغف دیبارو اوژر
+add-questions-menu-item-aria-label = ژے کمیونٹین ممبرانف پے اݰٹا دیر اڤن پے جواب لیا دیر نوؤ سوال شامل کن
 transcribe-audio-menu-item-aria-label = ڤے ریکارڈ ݰوئی آواز دے نوختا آڤاز
