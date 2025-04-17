@@ -7,7 +7,7 @@ sc-review-select-language = ɩ́ lǝ́sǝ́ wʊ̀tã̀ŋ kàrǝ̀ nǝ̀ ɩ́ w
 sc-review-no-sentences = páá máátǝ̀ tã̀ŋ sǝ̀ á wììl. ɩ́ pɩ́ɩ́sʊ́ʊ́ nǝ̀ ɩ́ tásǝ̀ máátǝ̀</addLink>
 sc-review-form-prompt =
     .message = à tà jékǝ̀ mààtǝ̀ wóntǝ́ à wììlà ná, ɩ́ wɩ́ɩ́ rʊ́ʊ́ já ?
-sc-review-form-usage = ʊ̀ cí sǝ̀ mààtǝ̀ sàrà, tùù nǝ̀ ʊ̀ wàl ñá ñɩ́ntʊ́ʊ́r rʊ̀ʊ̀ . ʊ̀ tà sàrǝ̀,  tùù nǝ̀ ʊ̀ wàl nà ñá ñɩ́ŋwɩ́ɩ́r rʊ̀ʊ̀. tùù nǝ̀ ʊ̀ kpà nà àsó nǝ́ ŋ̀ só tǝ̀ rʊ̀ʊ̀. <strong> ŋ̀ lɔ̀ɔ̀sǝ̀ ntǝ̀r kà ñà tǝ̀mǝ̀r tà, ràà sòwà, jèkǝ̀ tǝ́ !
+sc-review-form-usage = ʊ̀ cí sǝ̀ mààtǝ̀ sàrà, tùù nǝ̀ ʊ̀ wàl ñá ñɩ́ntʊ́ʊ́r rʊ̀ʊ̀ . ʊ̀ tà sàrǝ̀,  tùù nǝ̀ ʊ̀ wàl nà ñá ñɩ́ŋwɩ́ɩ́r rʊ̀ʊ̀. tùù nǝ̀ ʊ̀ kpà nà àsó nǝ́ ŋ̀ só tǝ̀ rʊ̀ʊ̀. <strong> ŋ̀ lɔ̀ɔ̀sǝ̀ ntǝ̀r kà ñà tǝ̀mǝ̀r tà, ràà sòwà, jèkǝ̀ tǝ́ !</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = àrǝ̀liìnɖǝ̀ :{ $sentenceSource }

@@ -111,3 +111,6 @@ adding-questions = შეკითხვა̄ლე ლიქმე
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = მა̈ჲ ა̈სკე̄თე კითხვას?
+what-makes-a-good-question-explanation = ხოჩა კითხვა მონაცემრე ნაკრებიშდ საზოგადოებაისგა მონაწილეობა̈ ბედჟი ხეკუ̂ეს ლესსუ̂:
+what-makes-a-good-question-explanation-criteria-1 = ლესსუ̂ ა̈დუ̂ილდ ლეცხრი ი ლეპასუხი
+what-makes-a-good-question-explanation-criteria-2 = ლესსუ̂ შეაბამის
