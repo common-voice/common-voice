@@ -67,31 +67,31 @@ shortcut-skip = a
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
 shortcut-record-toggle-label = Le nu / Tɔ tè nu.
-shortcut-rerecord-toggle = ɖèka sɔ yì àtɔ̃.
-shortcut-rerecord-toggle-label = trɔ́ lé nyà.
-shortcut-discard-ongoing-recording = totolènumèbutɔ̃
-shortcut-discard-ongoing-recording-label = tutu nyàlélé kè lě yì éji a.
-shortcut-submit = numèɖoɖo
-shortcut-submit-label = ɖo nyàléléwo ɖo ɖa.
-request-language-text = ɖe gbè kè wò dona  mu kpɔ lè common Voice ji ò a.
-request-language-button = sɔ gbèɖé ɖo ŋùkumè na àmè.
+shortcut-rerecord-toggle = Ɖèka sɔ yì àtɔ̃.
+shortcut-rerecord-toggle-label = Trɔ́ lé nyà.
+shortcut-discard-ongoing-recording = Totolènumèbutɔ̃
+shortcut-discard-ongoing-recording-label = Tutu nyàlélé kè lě yì éji a.
+shortcut-submit = Numèɖoɖo
+shortcut-submit-label = Ɖo nyàléléwo ɖo ɖa.
+request-language-text = Ɖe gbè kè wò dona  mu kpɔ lè common Voice ji ò a?
+request-language-button = Sɔ gbèɖé ɖo ŋùkumè na àmè.
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = hlɛ̃̀/ tɔ́ tè/ nɔ̀ tè.
+shortcut-play-toggle-label = Hlɛ̃̀/ Tɔ́ tè/ Nɔ̀ tè.
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = o
+shortcut-vote-yes = O
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = nu kè do na vòvòtoto nuwo domè.
+contribution-criteria-nav = nu kè Ji wo la zɔ̃̀ ɖo a wɔ̀ nuɖé.
 contribution-criteria-link = sè nyà kèwo la kpɔ kéŋugbɔxue la do àmè àlɔ a gɔmè/sè nyà kèwo la kpɔ kéŋugbɔxue la do  àlɔ nu mè.
 contribution-criteria-page-title = nu kè ye wo la kpɔ keŋugbɔxue la do àlɔ nu mè
 contribution-criteria-page-description = sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
