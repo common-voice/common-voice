@@ -133,3 +133,4 @@ offensive-content-sensitive-information-explanation-explanation-1 = კითხ
 offensive-content-sensitive-information-explanation-explanation-2 = კითხუ̂ა̄̈ლ, ხედუ̂ა̄̈ჲდ შეიძლება გამოიწუ̂იოს მა̈სისგი ნინ ჰედ იშგენ მიკერძოებულ, შეურაცხმყოფელ გრძნობა̄̈ლ.
 offensive-content-sensitive-information-explanation-explanation-3 = კითხუ̂ა̄̈ლ, ხედუ̂ა̄̈ჲდ შეიძლება ბიძგ ლახო̄მას ჲერუ̂ა̄ლეს, ერე გააზიაროს დელიკატურ, გამომწუ̂ეუ̂ პასხუ̂ა̈რ.
 example-questions-subheader = კითხუ̂ა̄̈ლე მაგალით
+example-questions-explanation-1 = ალ გუ̂ერდჟი სი ჟი ჯეხო̄ლი<examplePromptsLink>120 მინიშნება̄̈ მაგალით.</examplePromptsLink>
