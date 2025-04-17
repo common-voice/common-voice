@@ -9,23 +9,16 @@ import URLS from '../../../../urls'
 
 type Props = {
   item: ContributeMenuItem
-  isUserLoggedIn: boolean
   toggleMenu?: () => void
   isLocaleContributable: boolean
 } & WithLocalizationProps
 
 export const MenuItemRenderer = ({
   item,
-  isUserLoggedIn,
   isLocaleContributable,
   getString,
   toggleMenu,
 }: Props) => {
-  const shouldShowItem =
-    (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
-
-  if (!shouldShowItem) return null
-
   const {
     internalHref,
     externalHref,

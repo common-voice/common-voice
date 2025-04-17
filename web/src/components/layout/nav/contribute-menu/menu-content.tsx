@@ -18,15 +18,19 @@ export const MenuContent = ({
   getString,
   toggleMenu,
 }: Props) => {
-  const scriptedSpeechItems = contributeMenuItems.filter(
+  const isItemVisible = (item: ContributeMenuItem) =>
+    (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
+
+  const visibleMenuItems = contributeMenuItems.filter(isItemVisible)
+
+  const scriptedSpeechItems = visibleMenuItems.filter(
     item => item.type === 'scripted'
   )
-  const spontaneousSpeechItems = contributeMenuItems.filter(
+  const spontaneousSpeechItems = visibleMenuItems.filter(
     item => item.type === 'spontaneous'
   )
-  const generalItems = contributeMenuItems.filter(
-    item => item.type === 'general'
-  )
+  const generalItems = visibleMenuItems.filter(item => item.type === 'general')
+
   const hasGeneralItems = generalItems.length > 0
 
   return (
@@ -42,7 +46,6 @@ export const MenuContent = ({
                 <MenuItemRenderer
                   key={item.localizedId}
                   item={item}
-                  isUserLoggedIn={isUserLoggedIn}
                   toggleMenu={toggleMenu}
                   getString={getString}
                   isLocaleContributable={isLocaleContributable}
@@ -62,7 +65,6 @@ export const MenuContent = ({
                 <MenuItemRenderer
                   key={item.localizedId}
                   item={item}
-                  isUserLoggedIn={isUserLoggedIn}
                   toggleMenu={toggleMenu}
                   getString={getString}
                   isLocaleContributable={isLocaleContributable}
@@ -79,7 +81,6 @@ export const MenuContent = ({
             <MenuItemRenderer
               key={item.localizedId}
               item={item}
-              isUserLoggedIn={isUserLoggedIn}
               toggleMenu={toggleMenu}
               getString={getString}
               isLocaleContributable={isLocaleContributable}
