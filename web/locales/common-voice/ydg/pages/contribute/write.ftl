@@ -111,9 +111,14 @@ small-batch-sentences-rule-3 = یوو دفعہ ڤے "انٹر" یا "ریٹرن"
 small-batch-sentences-rule-4 = تا دے 1,000 جملغّے شامل کن
 small-batch-sentences-rule-5 = تمام جملغّف دائرو (موضوع) یو فرما
 small-batch-sentences-rule-6 = تمام جملغف یو حوالو اوئے
+# menu item
+add-sentences = جملغّے شامل کن
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = ڤے جملغف شامل کن دیبارو اوژر، سوالے شامل کن، ڤے آواز دے نوختا آڤاز
+add-sentences-menu-item-tooltip = دے خوئے زبان جملغّے شامل کن
+review-sentences-menu-item-tooltip = دے خوئے زبان ڤے جملغّف دیبارو اوژر
 add-questions-menu-item-tooltip = دے خوئے زبان سوالے شامل کن
 transcribe-audio-menu-item-tooltip = دے خوئے زبان ڤے آواز رکارڈنگف دے نوختا آڤاز
 
@@ -121,4 +126,5 @@ transcribe-audio-menu-item-tooltip = دے خوئے زبان ڤے آواز رکا
 
 write-contribute-menu-aria-label = ڤے اختیاراتف فہرست نوشا
 add-sentences-menu-item-aria-label = پے آدمف اݰٹا دیر نوؤ جملغّے شامل کن
+review-sentences-menu-item-aria-label = دے کمیونٹی ذریعو ڤے جمع کڑغو موجودہ جملغف دیبارو اوژر
 transcribe-audio-menu-item-aria-label = ڤے ریکارڈ ݰوئی آواز دے نوختا آڤاز
