@@ -10,6 +10,9 @@ target-segment-learn-more = Ché wíkabé informacion.
 vote-yes = Ayéna
 vote-no = Ké
 datasets = Napabúa járe
+languages = Raíchalíami
+partner = Tamúje yúa nócha'a
+submit-form-action = Júla'a
 
 ## Reporting
 
