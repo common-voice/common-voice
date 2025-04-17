@@ -123,3 +123,4 @@ spelling-and-pronunciation-explanation = ა̈ხჴჷმა̈რ სწორ 
 length = ნაჯუ̂დი
 length-explanation = ალ კითხუ̂აჟი პასუ̂ხი ლიჰუ̂დი შეიძლება ჲო̄რი წინადადებაშუ̂.
 dont-add-subheader = ნომ'ე̄სქჷმა
+culturally-specific-questions = კულტურაცახა̈ნ დაკაუ̂შირებულ სპეციფიკურ კითხუ̂ა̄̈ლ
