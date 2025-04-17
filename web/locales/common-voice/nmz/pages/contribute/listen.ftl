@@ -4,10 +4,10 @@ listen-instruction = { $actionType }<playIcon></playIcon>, à kàl máátǝ�
 listen-again-instruction = ŋ̀ lɔ̀ɔ̀ tǝ́mǝ́r kà sàrtǝ̀ ! <playIcon></playIcon> ʊ̀ cì sǝ̀ ŋ́ rɔ̀ɔ̀n ñà  tɩ̀, ŋ̀ tásǝ̀ kémsʊ̀ŋ.
 listen-3rd-time-instruction = ʊ̀ tǝ̀ kààsǝ́ nàwʊ̀l kánà <playIcon></playIcon>, wàl rʊ́ʊ́ !
 listen-last-time-instruction = <playIcon></playIcon> àtɩ̀ɩ̀sʊ̀ŋ ñɩ̀n kàlɩ́!
-listen-empty-state = ʊ̀ tà kààsǝ̀ àtísiùŋ máátǝ̀ ka  wʊ̀tã̀ŋ ká tà...
+listen-empty-state = ʊ̀ tà kààsǝ̀ àtísiùŋ máátǝ̀ ka  wʊ̀tã̀ŋ ká tà…
 listen-empty-state-variants = ʊ̀ wɩ̀ɩ̀ sǝ́ mɩ́ wʊ́tã́ŋ tóm témpá! wáà càrʊ́ mɩ́, ɩ́ pɩ́sʊ́ sɩ̀ ɩ̀ lɔ̀ɔ̀sǝ̀ rʊ́rǝ́tǝ̀ ʊ́ jél nɩ̀nà mɩ̀ wʊ́tãŋ tà mààtǝ̀
 listen-loading-error = rà tà pɩ́ɩ́sǝ̀ sǝ̀ ràhíwú àkèmsǝ̀nʊ̀ŋ tóm nǝ̀ rà kàl. ʊ́ tàsàà ɩ̀ pǝ̀sǝ̀ nǝ̀ ɩ́ páásǝ̀.
-listen-abort-title = à tɩ́ɩ́sǝ̀ tóm pǝ́  tìsùŋ já?
+listen-abort-title = à tɩ́ɩ́sǝ̀ tóm pǝ́  tìsùŋ já ?
 listen-abort-cancel = wɩ̀ɩ̀ tóm tìsúŋ rʊ̀ʊ̀
 listen-abort-confirm = tɩ̀ɩ̀sǝ̀ tóm tìsùŋ
 # Menu item
