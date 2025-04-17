@@ -106,6 +106,8 @@ domain-explanation = დომენ ეხება წინადადებ
 
 ## Question collection ids
 
+adding-questions = შეკითხვა̄ლე ლიქმე
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = მა̈ჲ ა̈სკე̄თე კითხვას?
