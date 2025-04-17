@@ -130,3 +130,4 @@ process-steps = პროცეს/ ბაჴა̈რ
 process-steps-explanation = კითხუ̂ა̄̈ლ, ხედუ̂ა̄̈ჲ იჰრი რესპოდენტხა̈ნქა მა̄დხუ̂ა̄̈ჲ ბაჴრე ჩუ ლიშჷლდა̈ნის.   საფეხურლე ჩუ ლიშჷლდა̈ნი ხოჯუ̂ი̄რი მომხმარებელს, ერე ანსყას ციტირებულ პასუ̂იხუ̂ ი მა̄დე ხოშა ბუნებრივ.
 offensive-content-sensitive-information = შეურაცხმყოფელ შინაარს ჰედ კონფიდენციალურ ინფორმაცია
 offensive-content-sensitive-information-explanation-explanation-1 = კითხუ̂ა̄̈ლ, ხედუ̂ა̄̈ჲ შეიძლება იჰრიხ პერსონალურ ინფორმაცია
+offensive-content-sensitive-information-explanation-explanation-2 = კითხუ̂ა̄̈ლ, ხედუ̂ა̄̈ჲდ შეიძლება გამოიწუ̂იოს მა̈სისგი ნინ ჰედ იშგენ მიკერძოებულ, შეურაცხმყოფელ გრძნობა̄̈ლ.
