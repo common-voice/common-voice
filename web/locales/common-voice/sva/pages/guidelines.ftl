@@ -70,6 +70,10 @@ public-domain-explanation-3 = ახა̈სყ თანამედროვ�
 public-domain-explanation-4 = დაუკაუ̂შირდი აუ̂ტორა̈ლს, დრამატურგა̈ლს, სცენარისტა̈ლს, ხაკუხ ე̄სა მინე ნამუშევრალე კოტო̄ლ ნა̄̈თი დაუთმონ საზოგადოებრივ დომენს
 public-domain-explanation-5 = ა̈ხითხ ტექსტ, ხედას საავტორო უფლება̄̈ლ სერ მა̄მ ეხება, მაგალითად ლა̈ირა̄̈ლე ხოშა ნა̄̈თი, ხედუ̂ა̄̈ჲ გამოცემულ ლიხ 1920 ზაუ̂ჩიქდ
 public-domain-explanation-6 = დაუკაუ̂შირდი მთაუ̂რობა̄̈ლს, არაკომერციულ ჰედ მედია ორგანიზაცია̄̈ლს, ერე ჩუ̂ათცხირა, იმა̈რგმა საჯარო დომენი ლისყი მინე ვებ-შიგთავსხა̈ნქა, მოხსენება̄̈ლხა̈ნქა ჰედ იშგენ კონტენტხა̈ნქა
+citing-sentences-explanation-1 = მნიშვნელოვან ლი ციტატა̄̈ლე ლინჩჷდე ეჯნა̄̈რდ, ერე ჩუ̂ათუ̂მოწმა̄ნად, წინადადება საჯარო დომენისგა ერ ა̈რი ი მა̄მ ეხება სააუ̂ტორო უფლება̄ლე შეზღუდუ̂ა.
+citing-sentences-subheader-websites = ვებგუ̂ერდ
+citing-sentences-subheader-websites-explanation = სი ჩუ ჯა̈მჲედა  სგ'ა̄თხია ვებგვერდ, მაგალითად, "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = აკადემიურ ცნობარ
 adding-sentences-subheader-offensive-content = შეურაცხმყოფელ შინაარს
 
 ## Question collection ids
