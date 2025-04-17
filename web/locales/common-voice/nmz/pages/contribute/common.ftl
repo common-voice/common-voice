@@ -15,7 +15,9 @@ contribute-more = ŋ̀ pɩ́sʊ́ sɩ̀ ŋ̀ tàsǝ̀ lápǝ́ { $count } já
 speak-empty-state = rà tà tàsǝ́ wɩ́ɩ́nʊ́ŋ kà máátǝ̀ sɩ̀ rà kpá wʊ̀tã̀ŋ ká táà...
 no-sentences-for-variants = ʊ̀ wɩ̀ɩ̀ sǝ́ mɩ́ wʊ́tã́ŋ máátǝ́ témpá! wáà càrʊ́ mɩ́, ɩ́ pɩ́sʊ́ sɩ̀ ɩ̀ lɔ̀ɔ̀sǝ̀ rʊ́rǝ́tǝ̀ ʊ́ jél nɩ̀nà mɩ̀ wʊ́tãŋ tà mààtǝ̀.
 speak-empty-state-cta = mààtǝ̀ cǝ̀lʊ́ŋ
-speak-loading-error = rà tà pɩ́ɩ́sǝ̀ sǝ̀ ràhíwú mààtǝ̀ nǝ̀ rà kàl. ʊ́ tàsàà ɩ̀ pǝ̀sǝ̀ nǝ̀ ɩ́ páásǝ̀.
+speak-loading-error =
+    rà tà pɩ́ɩ́sǝ̀ sǝ̀ ràhíwú mààtǝ̀ nǝ̀ rà kàl.
+     ʊ́ tàsàà ɩ̀ pǝ̀sǝ̀ nǝ̀ ɩ́ páásǝ̀.
 record-button-label = ɩ́ kpá mɩ́ nùwéésǝ́
 share-title-new = <bold>ɩ́ sǝ́nɖà</bold>rà kpá núwéésǝ̀ nɩ́nsǝ̀.
 keep-track-profile = rʊ́ ñáálɩ̀mʊ̀ŋ ʊ̀ jél nǝ̀ ŋ̀ mɔ́ɔ́sǝ̀ ñá jǝ́sá tá wálʊ́ŋ.
@@ -98,7 +100,7 @@ contribution-criteria-page-description = ɩ́ nɩ̂ wóntǝ̀ rʊ̀ʊ̀ ʊ̀ m�
 contribution-for-example = à sʊ̀ʊ̀ sǝ́
 contribution-misreadings-title = àhìndùŋ kàlʊ̀ŋ
 contribution-misreadings-description = mɩ́ kémsʊ́ŋ, ɩ́ ñǝ́l sàrtǝ̀ nǝ̀ ɩ̀ ná sǝ́ wóntǝ̀ à kpáà nà nǝ̀ wóntǝ̀ à máà nà tàmpà já ; ɩ́ kísǝ̀, pàà àhíndúŋ tóm cúmpǝ̀. <br /> àhíndúŋ tóm pààhǝ́ŋ :
-contribution-misreadings-description-extended-list-1 = ʊ̀ kààsǝ́ <strong> kà </strong> jáá <strong> kà </strong> tóm kpàwʊ̀ŋ àpààsʊ̀nʊ̀ŋ tà.
+contribution-misreadings-description-extended-list-1 = ʊ̀ kààsǝ́ <strong> « wǝ́r » kà </strong> jáá <strong> « wǝ̀r » kà </strong> tóm kpàwʊ̀ŋ àpààsʊ̀nʊ̀ŋ tà.
 contribution-misreadings-description-extended-list-2 = ʊ̀ kààsǝ́<strong> </strong> kà mààrʊ̀ŋ rǝ̀tèmǝ̀r
 contribution-misreadings-description-extended-list-3 = tóm sètʊ́ŋ tá.
 contribution-misreadings-description-extended-list-4 = àtɩ̀ɩ̀sʊ̀ŋ mààrʊ̀ŋ rǝ̀tèmǝ̀r sétáá wómpǝ̀ rʊ̀ʊ̀ nà à sǝ̀sǝ tóm kpàwʊ̀ŋ kà kpàtǝ̀kpàtǝ̀.
