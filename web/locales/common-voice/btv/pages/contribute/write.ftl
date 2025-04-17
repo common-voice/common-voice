@@ -131,6 +131,16 @@ add-small-batch-success =
         [one] { $uploadedSentences } سو 1 جملہ گِھن گی
        *[other] { $uploadedSentences } سو { $totalSentences } جملے گِھن گے
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } سو 1 جملہ گِھن گی۔کلک<downloadLink> ایزا </downloadLink> رَد گریل جملے ڈونلوڈ گرے سو دَن
+       *[other] { $uploadedSentences } سو { $totalSentences } جملے گھن گے۔کلک <downloadLink> ایزا </downloadLink> رد گریل جملے ڈونلوڈ گرے سو دن۔
+    }
+small-batch-sentences-rule-1 = اے څھئے سو ھدایات نو “ کاں جملے مہ میلا ھواں ”
+small-batch-sentences-rule-2 = یک لینڈ مہ یک جملہ میلا
+small-batch-sentences-rule-3 = یک لینڈ مہ اَنَن جملے “ اِنٹر” یا “ واپس” دباؤ گر یک وارے
+small-batch-sentences-rule-4 = زر جملیوں تکے میلا
 
 ## MENU ITEM TOOLTIPS
 
