@@ -36,7 +36,7 @@ review-rerecord = tàsǝ̀ kpààwʊ́ŋ
 review-cancel = jèl jèkʊ́ŋ
 review-keep-recordings = mésǝ́ tóm àkpààwʊ̀ŋ tóm
 review-delete-recordings = hɩ̀ɩ̀sǝ̀ àkpààwʊ̀ŋ tóm
-review-terms = nǝ́ ɩ́ làkǝ̀ kɔ̀ɔ̀mɔ̀n fɔ̀wɩ̀ɩ̀sǝ̀ rʊ̀ʊ̀ kà tǝ̀mǝ́r, ʊ̀ wósʊ́ sǝ̀ ɩ́ tìsì rà tǝ́mǝ́r pààtǝ̀ rʊ̀ʊ̀<termsLink> nǝ̀ rà àmèsàŋ tóm rʊ̀ʊ̀<privacyLink></privacyLink>
+review-terms = nǝ́ ɩ́ làkǝ̀ kɔ̀ɔ̀mɔ̀n fɔ̀wɩ̀ɩ̀sǝ̀ rʊ̀ʊ̀ kà tǝ̀mǝ́r, ʊ̀ wósʊ́ sǝ̀ ɩ́ tìsì rà tǝ́mǝ́r <termsLink>pààtǝ̀ rʊ̀ʊ̀<termsLink> nǝ̀ rà<privacyLink> àmèsàŋ tóm rʊ̀ʊ̀<privacyLink>
 terms-agree = mà túsúù
 terms-disagree = mà kìsúù
 # FIRST POST SUBMISSION CTA
