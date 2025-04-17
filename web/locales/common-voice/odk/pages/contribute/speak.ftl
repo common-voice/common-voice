@@ -1,3 +1,8 @@
+speak = ٻولا
+speak-now = اِمهين ٻولا
+speak-subtitle = آپڪا آواز عطِيا ڪرا
+record-cta = رڪارڊنگ شرُوع ڪرا
+record-platform-not-supported = اَمهان نُون معاف ڪرا، تمچَي پليٽ فارم اِمهين سپورٽ ڪونهِي ڪرَي ڇَي
 record-no-mic-found = ڪو بِي مائِڪرو فون ڪونهِي مِللِي
 record-error-too-short = رڪارڊنگ بِلڪُل ٿوڪڙِي هِلِي
 record-error-too-long = رڪارڊنگ تمام گھڻِي هِلِي
@@ -21,9 +26,26 @@ record-abort-submit = ڪِلپ جمع ڪرا
 record-abort-continue = رڪارڊنگ پُورِي ڪرا
 record-abort-delete = ٻاهرنِڪار جاوا ائُون ڪِلپس ختم ڪرا
 review-aborted = اَپ لوڊ روڪلَي گيلَي۔ ڪا تمهِين آپڪِي رڪارڊنگ ختم ڪرڻ چاهوا ڇَوا؟
+review-recording = نظرثانِي
+review-rerecord = بڙتِي رڪارڊ ڪرا
+review-cancel = جمع ڪراوَڻي کن روڪا
+review-keep-recordings = رڪارڊنگِي نُون ميلها
+review-delete-recordings = مانڇِي رڪارڊنگ ختم ڪرا
+add-information-button = معلُومات شامل ڪرا
+continue-speaking-button = نہ مهربانِي، ٻولڻ جارِي راکا
+first-cta-gender-select-default-option = اِينهان مُون هيڪ چُونڊا
+create-profile-button = پروفائِيل ٺاهوا
+# IMAGE TAGS
+img-alt-success-checkmark = ڪاميابِي چي نِشانِي
+# menu item
+read-sentences = جُملي پڙهڻ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جُملي پڙهڻ <small> (جلدِي آوَڻي هاڙِي ڇَي) </small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جُملي پڙهڻ، سوالان چي جواب ڏِيئڻ
+read-sentences-menu-item-tooltip = آپڪا آواز رڪارڊ ڪرا ائُون آپڪِي ٻولِي ۾ جُملي پڙها
 
 ## MENU ITEM ARIA LABELS
 

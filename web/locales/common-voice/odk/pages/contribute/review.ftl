@@ -34,3 +34,6 @@ sc-criteria-modal = ⓘ نظرثانِي چا معيار
 sc-criteria-title = نظرثانِي چا معيار
 sc-criteria-make-sure = پڪ ڪرا تہ جُملا جھِڪلان معياران پر پُورا اُترَي ڇَي۔
 sc-criteria-item-1 = جُملا اِملا چي حِسابا سُون صحِيح لِکوڙا هُوَي۔
+report-sc-different-language = مُختلف ٻولِي
+# menu item
+review-sentences = جُملان چا بڙتِي جائِزا گيهوا
