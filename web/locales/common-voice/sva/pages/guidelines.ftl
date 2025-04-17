@@ -80,6 +80,12 @@ citing-sentences-subheader-offline-sources-explanation = საჯარო დ�
 citation =
     .label = ციტატა
 self-citation = თუ̂ითციტირება
+self-citation-explanation = იმჟი ხარშუ̂ნი ისგუ თხუ̂იმს, ჰემა შინაარს ისგუ ნა̈ირუ̂ ლი.
+adding-sentences-subheader-length = ნაჯუ̂დი
+adding-sentences-subheader-length-explanation = წინადადებაისგა ხეკუ̂ეს არდე̄დს15 სიტყუ̂ად ხოხუ̂რა.
+adding-sentences-subheader-spelling-punctuation = მართლწერა ი პუნქტუაცია
+adding-sentences-subheader-spelling-punctuation-explanation = წინადადება სწორდ ხეკუ̂ეს ხეირე̄ნს.
+adding-sentences-subheader-speakable = გა̈რგლა
 adding-sentences-subheader-offensive-content = შეურაცხმყოფელ შინაარს
 
 ## Question collection ids
