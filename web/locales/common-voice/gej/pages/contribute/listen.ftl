@@ -1,7 +1,7 @@
 listen = Sè
-listen-subtitle = nà mìà dàsí  ɖó gbèwó jí
+listen-subtitle = Na mìà dàsí  ɖó gbèwó jí.
 listen-instruction = Ɖé  wó gblɔ nyà cúcúcú a?
-listen-again-instruction = àyí kóó!<playIcon></playIcon>sèé ké gàkémé wó vò a
+listen-again-instruction = àyíkóó!<playIcon></playIcon>.Sè e ké gàkémé wò vò a.
 listen-3rd-time-instruction = gɔmè, léé ɖò àsí!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>ɖèkà kpɔtéà!
 listen-empty-state = Tà mù nyɔ wò  wuà, nù kè wò  lè kpɔàwó vɔ- trɔ tɔ èjí, àló trɔ và wɔɛ gàbúmè.
