@@ -37,11 +37,11 @@ sc-review-link = Kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
 ## REVIEW CRITERIA
 
 sc-criteria-modal = Nu kèwo ji wo la ɖo àfɔ̀ kéŋugbɔxué la to nu mè.
-sc-criteria-title = Nyàmè tótóŋtínyàwó
-sc-criteria-make-sure = Kpɔὲ gbɔ bè nyàgblɔgblɔà nèsɔ ɖó ŋtínyà yàwó jí:
-sc-criteria-item-1 = Wò ɖó là ŋlɔ̀ nyàgblɔgblɔà pèpèpè.
-sc-criteria-item-2 = Wò ɖó là ŋlɔ̀ nyàgblɔgblɔà zɔ̃ ɖó gbèŋtísèàjí pèpèpè.
-sc-criteria-item-3 = nyàgblɔgblɔà ɖó là nyɑ́ sèsè
+sc-criteria-title = Nu kèwo ji wo la ɖo àfɔ̀ kéŋugbɔxué la to nu mè.
+sc-criteria-make-sure = Kpɔὲ gbɔ bé  nyàgbè a  nè sɔ ɖó nu kèyàwó jí:
+sc-criteria-item-1 = Wò ɖó là ŋlɔ̀ nyàgbè à pépépé.
+sc-criteria-item-2 = Wò ɖó là ŋlɔ̀ nyàgbè a zɔ̃ ɖó gbèŋutíséséwo ji tútutu.
+sc-criteria-item-3 = Wò ɖo la téŋu yɔ nyàgbè a.
 sc-criteria-item-4 = Nè nyàgblɔ̀gblɔ̀à sɔ̀ɖó ŋtínyàwó jíɑ́, zĩ &quot;lɔ̃&quot;miɔ̀mè bè abitɔ̀ŋùɑ̃
 sc-criteria-item-5-2 = Nè nyàgblɔ̀gblɔ̀à mù sɔ̀ɖó ŋtínyà kèwó lè jíɑ́ jíówùà, zĩ &quot;gbè&quot;miɔ̀mè bè abitɔ̀ŋùɑ̃. Nè wò mù kãɖó jíówùà, wòà tèŋjólèjí èyé wòà yí bú jí
 sc-criteria-item-6 = Nè nyà gblɔ̀gblɔ̀ vɔ̀ ɖó wóà, kpèɖó míàŋtí kúɖó búbúwó.
