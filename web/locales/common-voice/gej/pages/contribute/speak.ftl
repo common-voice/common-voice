@@ -68,8 +68,8 @@ read-sentences-coming-soon = Hlɛ̃̀ nyàgbèwo<small> ( né mi va do gò a)</
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Hlɛ̃ nyàgbèwo eye a ɖó nyàbiɔséwo ŋuti.
-read-sentences-menu-item-tooltip = le nu kè wo le  hlɛ̃̀ lè apo gbè a  mè.
-answer-questions-menu-item-tooltip = le nyà kèwo ŋuti wò le ɖo ku àɖàŋù kèwo wo le ɖè a.
+read-sentences-menu-item-tooltip = Le nu kè wò le  hlɛ̃̀ lè miabé gbè a  mè.
+answer-questions-menu-item-tooltip = Le nyà kèwo ŋuti wò le ɖo ku àɖàŋù kèwo wo le ɖè a.
 
 ## MENU ITEM ARIA LABELS
 
