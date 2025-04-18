@@ -92,7 +92,7 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Nu kè Ji wo la zɔ̃̀ ɖo a wɔ̀ nuɖé.
-contribution-criteria-link = Sè nyà kèwo la kpɔ kéŋugbɔxue la do àmè àlɔ a gɔmè/ Sè nyà kèwo la kpɔ kéŋugbɔxue la do  àlɔ nu mè.
+contribution-criteria-link = Sè nyà kèwo la kpɔ kéŋugbɔxue la do àmè àlɔ àmè/ Sè nyà kèwo la kpɔ kéŋugbɔxue la do  àlɔ nu mè.
 contribution-criteria-page-title = Nu kè ye wo la kpɔ keŋugbɔxue la do àlɔ nu mè/Nu kè yé wó la kpɔ kéŋugbɔxue la do  àlɔ nu mè.
 contribution-criteria-page-description = Sè nu  kè gɔ̃̀mè wò ɖó la le to ɖo lè huè kè  nu  ye wò le sè nyàlélé awo né a téŋu sɔ kpe wò ŋutɔ apo nyàlelewo.
 contribution-for-example = Kpɔwɔ́ɛ
@@ -109,7 +109,7 @@ contribution-misreadings-example-2-explanation = Ɖo la nyi jìnozɔrìwo
 contribution-misreadings-example-3-title = Tria- bé jìnòzɔrijɔ̀asuwo.
 contribution-misreadings-example-3-explanation = [Nyàlélé sò kéŋugbɔ̀xué nyàkpɔ̀tɛ a wú énu]
 contribution-misreadings-example-4-title = Trias bé jinozɔrijɔ̀asuwo. ɛ̃̀ɛ
-contribution-misreadings-example-4-explanation = [lé wu nuŋɔ̀ŋlɔ̌ kè híã a]
+contribution-misreadings-example-4-explanation = [Lé wu nuŋɔ̀ŋlɔ̌ kè híã a]
 contribution-misreadings-example-5-title = Sɔ̀ mè la nyɔ́ kpoe
 contribution-misreadings-example-6-title = Surment, il fera beau.
 contribution-misreadings-example-6-explanation = [Ɖo la nyi «surement»]
