@@ -1,10 +1,10 @@
 listen = Sè
 listen-subtitle = Na mìà dàsí  ɖó gbèwó jí.
 listen-instruction = Ɖé  wó gblɔ nyà cúcúcú a?
-listen-again-instruction = àyíkóó!<playIcon></playIcon>.Sè e ké gàkémé wò vò a.
-listen-3rd-time-instruction = gɔmè, léé ɖò àsí!<playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon>ɖèkà kpɔtéà!
-listen-empty-state = Tà mù nyɔ wò  wuà, nù kè wò  lè kpɔàwó vɔ- trɔ tɔ èjí, àló trɔ và wɔɛ gàbúmè.
+listen-again-instruction = Ayíkóó!<playIcon></playIcon>.Gbìgbɔ̀ sè e ké gà kémé wò vò a.
+listen-3rd-time-instruction = Ewú vè!<playIcon></playIcon>, yì éjí
+listen-last-time-instruction = <playIcon></playIcon>Ɖèkà kpɔ̀tɛ a / Kpɔ̀tɛ kpɔ̀tɔɛ a.
+listen-empty-state = Mí gbà ɖo kpɔwɔɛɖewo kèwo ji mi la dà àsi ɖó lè gbè kèyà mà o...
 listen-empty-state-variants = Tà mú nyɔ wò wuà, gbè kè wò dónà bé nyà gbɔgblɔwó vɔ! Né éjró wòà, trɔ yì gbèà ŋtɔmè né  wòà kpɔ nyà gbɔgblɔ bú wó.
 listen-loading-error = Nyà sèsè ɖékpé mù lè fiyè nà wò o. Mí ɖékúkú trɔ và wɔὲ gàbúmè.
 listen-abort-title = Wò dàsí ɖò núkpɔkpɔàwó jí a ?
