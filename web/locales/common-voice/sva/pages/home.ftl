@@ -17,6 +17,11 @@ speak-paragraph = ხმოუ̂ან კლიპრე ლიჲრი ლი
 speak-goal-text = კლიპა̈რ სგა ლჷი̄რ ლიხ
 listen-paragraph = შემოწირულ კლიპრე ლიმოწმა̄ნე მა̄მა ნა̈კლებ მნიშუ̂ნელოუ̂ან ლი Common Voice მისიაისგა. ლოჰუნა̈რ ი ლა̈ნმა̈რჯუ̂ ხარისხია̈ნ ღია კოდიშ ხმოუ̂ან მონაცემრე ლასყე̄ნას.
 listen-goal-text = კლიპა̈რ დადასტურებულ ლიხ.
+hours-recorded = ლჷი̄რ საღათა̈რ
+hours-validated = დამოწმებულ საღათა̈რ
+voices-online = მახე Voices Online
+todays-progress = ლა̈დი̄ პროგრეს
+help-reach-goal = ლა̈ნმა̈რჯუ̂, ერე მივაღწიოთ { $goal }
 
 ## Account Benefits
 

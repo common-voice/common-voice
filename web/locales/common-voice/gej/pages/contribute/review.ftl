@@ -7,19 +7,19 @@ sc-review-select-language = Mí ɖè kúkú, cã gbè  ɖèkà sɔ tó nyàgblɔ
 sc-review-no-sentences = Mi mu kpɔ́ nyàgbè ɖékpé kè mi la dà ŋùku ɖo mè. Wò la téŋu <addLink> sɔ nyàgbè buwo kpé è o </addLink>
 sc-review-form-prompt =
     .message = Wó mu ɖo nyàgbè kèwo dà ŋùku ɖo woa mè o ɖa,  wò ji la gbà yì eji a?
-sc-review-form-usage = Kplɔὲ yí núɖùsímè nè wòá  lɔ̃̀ ɖé nyàgbè a jí. Kplɔὲ yí mìɔmè  nè a  gbé. Kplɔὲ yí jí né á jó lè èjí.<strong> ɖó ŋùkú né a ɖo  wòá gblè nyàgblɔgblɔmè tótóà ɖé fíyè!</strong>
+sc-review-form-usage = Kplɔὲ yí núɖùsímè nè wòá  lɔ̃̀ ɖé nyàgbè a jí. Kplɔὲ yí mìɔmè  nè a  gbé. Kplɔὲ yí jí né á jó lè èjí.<strong> ɖó ŋùkú né a ɖo àpo numètoto bé émè so nu a  ɖa! </strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = Sóƒè:{ $sentenceSource }
-sc-review-form-button-reject = ágbé
-sc-review-form-button-skip = j
-sc-review-form-button-approve = jó lè jí
+sc-review-form-source = jɔ̀sopé:{ $sentenceSource }
+sc-review-form-button-reject = Gbé
+sc-review-form-button-skip = Vá yì
+sc-review-form-button-approve = Ɖà àsi ɖo nu ji.
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = y
+sc-review-form-button-approve-shortcut = O
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = n
+sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = s
+sc-review-form-button-skip-shortcut = P
 sc-review-form-keyboard-usage-custom = Wòà tèŋ zã aɖàŋùɖèmɔ bè núŋlɔkpé vícúkũĩàwó:{ sc-review-form-button-approve-shortcut } àsɔ lõ,{ sc-review-form-button-reject-shortcut } àsɔ gbè,{ sc-review-form-button-skip-shortcut } à và yì.
 sc-review-form-button-submit =
     .submitText = àkpá émètótó
