@@ -68,6 +68,8 @@ username-email-not-demographic = ისგუ მომხმარებლი 
 ## Landing
 
 welcome-staff = ხოჩა ლადა̈ღ { $company } თანამშრომლა̈რს!
+help-contribute = Common Voice პროფილი ლა̈სყიშუ̂ ი ისგუ̂ა ჰერი წუ̂ლილი ლა̈ჲა̄̈სგუ̂შუ̂ სი ჩუ ჯა̈მჲედა ლოხმარჯუ̂ა მრაუ̂ალფეროუ̂ან, ღია წყარუ̂ე̄ მონაცემრე ნაკრები ლასყე̄ნას.
+login-company = სგა̄დე/ჩუ̂ა̈თრეგისტრირაუ̂ა̈ნ { $company } ელფოსტოშუ̂
 
 ## NAV ITEMS
 
