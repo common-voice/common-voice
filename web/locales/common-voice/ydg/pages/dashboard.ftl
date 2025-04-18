@@ -47,6 +47,9 @@ n-clips-pluralized =
         [one] { $count } کوګ آواز
        *[other] { $count } کوګ آوازے
     }
+help-share-goal = لے ماخ دیر آوازے دے کیستا مدد کن۔ ڤے خوئے ہدف ݰیکور
+confirm-goal = ڤے ہدف تصدیق کن
+goal-interval-weekly = ہفتو وار
 
 ## Goals
 
