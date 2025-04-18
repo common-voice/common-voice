@@ -133,6 +133,7 @@ about-playbook-how-validate-content-4 = جي هيڪ ڪِلپ 2 ماڻسان چي
 
 about-playbook-how-access-dataset = مين ڊيٽاسيٽا تاڻِين ڪِيُون پُج ائُون اونهُون اِستعمال ڪر سِگھَين ڇَين؟
 about-playbook-how-access-dataset-content-1 = تمهِين<datasetsPage>ڊيٽا سيٽ صفحي </datasetsPage> پر جا سِگھا ڇَوا۔ جڪو تمهِين چاهوا ڇَوا اوهچ ورجن ائُون ٻولِي چُونڊا،  فائيلان ۾ <metadataLink>بِڇڙوڙا ميٽا ڊيٽا</metadataLink> ڇَي مثال، ڊيموگرافڪ ڄاڻ ائُون پڪا  ڪرڻي هاڙا ڊيٽا۔ تمهان نُون ڊيٽا سيٽ ڊائُون لوڊ ڪرڻي چي ڪاڻ هيڪ اِي ميل  ڊيٽا اِڊريس ڏِيئڻي چِي ضرُورت پڙهِي۔  ۔
+about-playbook-how-access-dataset-content-2 = جي تمهِين ASR ماڊلز ٺاهوَڻي چي ڪاڻ ٽُولز سوڌا ڇوا پلي، تہ تمهِين برادرِي چي ڏُوجان ماڻسان سُون <discourseLink>ڊِسڪورسا پر  </discourseLink>  رابطا ڪر سِگھا ڇَوا.
 
 ## How are decisions made
 
