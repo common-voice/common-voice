@@ -41,6 +41,9 @@ x-years-short =
         [one] { $count }ი
        *[other] { $count }ი
     }
+help-make-dataset = ლა̈ნმა̈რჯუ̂ ხარისხია̈ნ ჩია̈შდ ხელმისაწუ̂დომ ხმოუ̂ან მონაცემრე ლასყე̄ნას.
+sign-up-account = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ ანგარიშჟი
+email-subscription-title = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ ელ. ფოსტა̄̈ განახლება̈შდ
 
 ## Account Benefits
 
