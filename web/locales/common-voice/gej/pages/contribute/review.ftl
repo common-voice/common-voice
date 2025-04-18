@@ -7,7 +7,7 @@ sc-review-select-language = Mí ɖè kúkú, cã gbè  ɖèkà sɔ tó nyàgblɔ
 sc-review-no-sentences = Mi mu kpɔ́ nyàgbè ɖékpé kè mi la dà ŋùku ɖo mè. Wò la téŋu <addLink> sɔ nyàgbè buwo kpé è o </addLink>
 sc-review-form-prompt =
     .message = Wó mu ɖo nyàgbè kèwo dà ŋùku ɖo woa mè o ɖa,  wò ji la gbà yì eji a?
-sc-review-form-usage = Kplɔὲ yí núɖùsímè nè wòá  lõ ɖé nyàgblɔgblɔà jí. Kplɔὲ yí mìɔmè  nè wòá  gbé. Kplɔὲ yí jí nè wòá jó lè èjí.<strong> ɖó ŋkú nè wòá gblè nyàgblɔgblɔmè tótóà ɖé fíyè!</strong>
+sc-review-form-usage = Kplɔὲ yí núɖùsímè nè wòá  lɔ̃̀ ɖé nyàgbè a jí. Kplɔὲ yí mìɔmè  nè a  gbé. Kplɔὲ yí jí né á jó lè èjí.<strong> ɖó ŋùkú né a ɖo  wòá gblè nyàgblɔgblɔmè tótóà ɖé fíyè!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Sóƒè:{ $sentenceSource }
