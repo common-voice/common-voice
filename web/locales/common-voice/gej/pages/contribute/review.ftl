@@ -2,7 +2,7 @@
 
 sc-review-lang-not-selected = Mì mu cã gbè ɖékpé o. Mí  ɖè kúkú yì <profileLink> àpo ŋutínyà mè</profileLink> nè a cã gbèwó.
 sc-review-title = Tó nyàgbɔ̃gblɔ̃wó mè/ dà ŋùku ɖo nyàgbèwo mè.
-sc-review-loading = Nyà gblɔgblɔàwó là zè zãɖèyà...
+sc-review-loading = Nyàgbè awo  lá zɛ̃̃ zãɖè yà...
 sc-review-select-language = Mí ɖè kúkú, cã gbè  ɖèkà sɔ tó nyàgblɔgblɔàwó mè.
 sc-review-no-sentences = Nyàgblɔgblɔ ɖè mù lè wóàtóémè o.<addLink>ŋlɔ nyàbúwó kpéé fífì!</addLink>
 sc-review-form-prompt =
