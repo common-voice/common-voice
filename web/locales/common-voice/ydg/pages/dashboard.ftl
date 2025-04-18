@@ -50,6 +50,9 @@ n-clips-pluralized =
 help-share-goal = لے ماخ دیر آوازے دے کیستا مدد کن۔ ڤے خوئے ہدف ݰیکور
 confirm-goal = ڤے ہدف تصدیق کن
 goal-interval-weekly = ہفتو وار
+share-goal-type-speak = گپ ژیا
+share-goal-type-listen = غولیتا
+share-goal-type-both = گپ ژیا اڤن غولیتا
 
 ## Goals
 
