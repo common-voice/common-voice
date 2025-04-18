@@ -17,12 +17,12 @@ validate-readings-coming-soon = Dàsí ɖó nùhɛ̃̀hlɛ̃̌ àwó jí<small>(
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = Dàsí ɖó núhlẽhlẽàwó jí, trɔ tó ŋɔŋlɔ tátáwó mè
-validate-readings-menu-item-tooltip = Dàsí ɖó èzãtɔ bè núhlẽhlẽ ƒòƒúàwó jí lè gbèwò mè.
-review-transcriptions-menu-item-tooltip = Trɔ tó èzãtɔ bè ŋlɔŋlɔ tátáwó ké wó ná lè gbè wò mè
+listen-contribute-menu-tooltip = Dà àsí ɖó núhɛ̃̀hlɛ̃àwó jí, trɔ tó núŋɔŋlɔ awó mè.
+validate-readings-menu-item-tooltip = Dà àsi  ɖo àpo gbè a dotɔwo bé nuhɛ̃̀hlɛ̃̌lelewo ji
+review-transcriptions-menu-item-tooltip = Trɔ́ tó àpo gbè dótɔ awo bé nuŋɔŋlɔwo mè.
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = Nyà sèsèmè cãcã tèƒè.
+listen-contribute-menu-aria-label = Nyàsesecãcãtèpé.
 validate-readings-menu-item-aria-label = Dàsí ɖó núhlẽhlẽ kéwó kɔàmètɔwó nà jí,
 review-transcriptions-menu-item-aria-label = Nè nùàmè kɔà, trɔ tó  nyàŋlɔŋlɔ tátáwó mè.
