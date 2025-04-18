@@ -90,9 +90,13 @@ community-and-languages = საზოგადოება ი ნინა̈�
 
 about-menu-tooltip = პარტნიორობ, პრესა ი იტორია̄̈ლ, საზოგადოება ი ნინა̈რ
 partnerships-menu-item-tooltip = ითანამშრომლე ნიშგუ̂ეჲცახა̈ნ
+press-and-stories-menu-item-tooltip = ლა̈ხმუშგუ̂რა̄̈ნ ნიშგუ̂ეჲ ბლოგს ჰედ ათჷი̄რ ნიშგუ̂ეჲ ბედჟი
+community-and-languages-menu-item-tooltip = აღმოჩინე ნინა̈რ ი თემა̈რ ი სა̈ერთო ჰერ
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = პარამეტრალე მენიუშ ბედჟი
+partnerships-menu-item-aria-label = ა̈ხმეჴერ  Common Voice-ცახა̈ნ პატნიორობა̄̈ ბედჟი
 
 ## NEW HOME PAGE KEYS
 
