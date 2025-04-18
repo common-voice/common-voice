@@ -56,7 +56,7 @@ review-error = Vòdàdàɖè va émè  gà kèmè yé  wò trɔ àsi lè nyàg
 review-error-rate-limit-exceeded = Wò le kè ɖì ŋútɔ́. Gbɔ̃ jì ɖɛ viɖé né a trɔ hlɛ̃ nyàgbè a eye né ǎ  kã ɖó jí bé ésɔ̀ gbè.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mí lè trɔ́ àsí sùgbɔ lè núwó ŋútí.
-sc-redirect-page-subtitle-1 = Nyà gblɔ̀gblɔ̀ bɔ̀tɔà tùtá Common Voice bè bɔ̀bɔ̀gã́mè. Fífìà wóà téŋ<writeURL>ŋlɔ̀</writeURL>Nyà gblɔ̀gblɔ̀ ɖèká àló<reviewURL> tóémè</reviewURL>Nyà gblɔ̀gblɔ̀ ɖèká tíŋgó bè dàdà ɖó Common Voice jí.
+sc-redirect-page-subtitle-1 = Nyàgbèxɔ̀tɔ a tù tá Common Voice ji . So égbè ji à wó lǎ téŋu <writeURL>ŋlɔ̀</writeURL>nyàgbèɖè àló<reviewURL> a dà ŋùku ɖo wóa mè</reviewURL>lè Common Voice jí.
 sc-redirect-page-subtitle-2 = Bíɔ̀ mí nyà lè<matrixLink>Matrix</matrixLink>,<discourseLink>Nyàgblɔ̀gblɔ̀ lɔ̀bɔ̀</discourseLink>àló <emailLink>kájí núŋlɔ̀ŋlɔ̀</emailLink>
 # menu item
 review-sentences = Tó nyàgblɔgblɔwó mè
