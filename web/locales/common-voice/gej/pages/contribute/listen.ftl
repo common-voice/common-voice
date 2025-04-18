@@ -1,6 +1,6 @@
 listen = Sè
-listen-subtitle = Na mìà dàsí  ɖó gbèwó jí.
-listen-instruction = Ɖé  wó gblɔ nyà cúcúcú a?
+listen-subtitle = Na mìà dà àsí  ɖó gbèwó jí. Do mí àlɔ̀ né mí a téŋu dà àsi ɖo nyàlelekpɔwɔɛwo.
+listen-instruction = { $actionType }<playIcon></playIcon>Ɖé  wó yɔ nyàgbè a nyɔɛɖé a?
 listen-again-instruction = Ayíkóó!<playIcon></playIcon>.Gbìgbɔ̀ sè e ké gà kémé wò vò a.
 listen-3rd-time-instruction = Ewú vè!<playIcon></playIcon>, yì éjí
 listen-last-time-instruction = <playIcon></playIcon>Ɖèkà kpɔ̀tɛ a / Kpɔ̀tɛ kpɔ̀tɔɛ a.
@@ -24,5 +24,5 @@ review-transcriptions-menu-item-tooltip = Trɔ́ tó àpo gbè dótɔ awo bé 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Nyàsesecãcãtèpé.
-validate-readings-menu-item-aria-label = Dàsí ɖó núhlẽhlẽ kéwó kɔàmètɔwó nà jí,
-review-transcriptions-menu-item-aria-label = Nè nùàmè kɔà, trɔ tó  nyàŋlɔŋlɔ tátáwó mè.
+validate-readings-menu-item-aria-label = Dà àsí ɖó hàsosonúhɛ̃̀hlɛ̃̀ kéwó ɖó ɖa jí,
+review-transcriptions-menu-item-aria-label = Dà ŋùku ɖó nyàgbèlelewo bé ŋɔ̀ŋlɔ mè kpɔ́ ɖa bé wó sɔ̀ gbè a.
