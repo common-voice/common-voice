@@ -1,10 +1,10 @@
 speak = Pò nùpo
-speak-now = wò la teŋu pò nupo
-speak-subtitle = kɔ gbè yì ji viɖé/ɖè gbè to viɖe/ dó àpa viɖe.
-record-cta = tɔ nyàlele a ji
-record-platform-not-supported = taflacɛ/ mí ɖè kuku miabe platefɔmu a wo mu kpɔ le sɔɛ oo
-record-platform-not-supported-desktop = sɔ kùɖo bilo bé àɖaŋuɖemɔwo ŋuti a, wò la teŋu tèlèsaze kè to zãɖe a.
-record-platform-not-supported-ios-non-safari = ku ios, taflacɛ tɔ eji ku safari né a na nyàlele a né jè égɔmè.
+speak-now = Wò la teŋu pò nupo.
+speak-subtitle = Kɔ gbè yì ji viɖé/ɖè gbè to viɖe/ dó àpa viɖe.
+record-cta = Tɔ nyàlele a ji
+record-platform-not-supported = Taflacɛ/ Mí ɖè kuku miabe platefɔmì a wo mu kpɔ le sɔɛ oo.
+record-platform-not-supported-desktop = Sɔ kùɖo bilo bé àɖaŋuɖemɔwo ŋuti a, wò la teŋu tèlèsaze kè to zãɖe a.
+record-platform-not-supported-ios-non-safari = Ku ios, taflacɛ tɔ eji ku safari né a na nyàlele a né jè égɔmè.
 record-must-allow-microphone = wò ɖo la ɖè mɔ na gbètoɖeɖemɔ a.
 record-no-mic-found = mi mu kpɔ gbètoɖeɖemɔ ɖèkpé o
 record-error-too-short = nyàlele a mu didi kuiɖekaŋutɔ o
