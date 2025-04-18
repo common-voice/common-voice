@@ -67,6 +67,7 @@ username-email-not-demographic = ისგუ მომხმარებლი 
 
 ## Landing
 
+welcome-staff = ხოჩა ლადა̈ღ { $company } თანამშრომლა̈რს!
 
 ## NAV ITEMS
 
