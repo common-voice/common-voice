@@ -43,11 +43,11 @@ sc-criteria-item-1 = Wò ɖó là ŋlɔ̀ nyàgbè à pépépé.
 sc-criteria-item-2 = Wò ɖó là ŋlɔ̀ nyàgbè a zɔ̃ ɖó gbèŋutíséséwo ji tútutu.
 sc-criteria-item-3 = Wò ɖo la téŋu yɔ nyàgbè a.
 sc-criteria-item-4 = Né nyàgbè a  sɔ̀ ɖó dokpɔnyàwo ji a , zĩ  àbitɔŋu a « dà àsi ɖo ji» lè ɖùsimè.
-sc-criteria-item-5-2 = Nè nyàgblɔ̀gblɔ̀à mù sɔ̀ɖó ŋtínyà kèwó lè jíɑ́ jíówùà, zĩ &quot;gbè&quot;miɔ̀mè bè abitɔ̀ŋùɑ̃. Nè wò mù kãɖó jíówùà, wòà tèŋjólèjí èyé wòà yí bú jí
-sc-criteria-item-6 = Nè nyà gblɔ̀gblɔ̀ vɔ̀ ɖó wóà, kpèɖó míàŋtí kúɖó búbúwó.
+sc-criteria-item-5-2 = Nè nyàgbè à mù sɔ̀ ɖó dokpɔ nyà kèyàwó  jí o à zĩ  « sɔ dà ŋùgbě»  kè nyi abitɔ̀ŋù kè lè miɔ̀mè a. Nè wò mù kã ɖó jí ò à, wò lǎ tèŋu jó lè éjí èyé ǎ yì bú jí
+sc-criteria-item-6 = Nè nyàgbè vɔ̀ dó wò à, dó mi àlɔ̀ né  mí la xɔ̀ nyàgbè búbúwó kpé è.
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = kpɔɛ̀ɖá<icon></icon> nyàgblɔ̀gbɔ̀ yà mɛ̀sì cúcúcú,?
-sc-review-rules-title = Nyà gblɔ̀gblɔ̀à sɔ̀ɖò mɔ̀fíɔ̀nyàwó j́íà?
+sc-review-instruction = Kpɔɛ̀ ɖá<icon></icon> nyàgbè kèyà mɛ̀sì tútútú a ?/ Kpɔɛ̀ ɖá<icon></icon> nyàgbè kèyà sɔ̀gbè tútútú a ?
+sc-review-rules-title = Nyàgbè a  sɔ̀ ɖò mɔ̀fíɔ̀nyàwó j́í à?
 sc-review-empty-state = Nyà gblɔ̀gblɔ̀mè tótó ɖékpé mú lè gbèyàmè fífìò
 report-sc-different-language = gbè bú.
 report-sc-different-language-detail = wó ŋlɔ̀ nyàgbè a lè gbèɖé kè tó vò ná  ékè mù dónàà mè.
