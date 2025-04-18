@@ -69,10 +69,10 @@ read-sentences-coming-soon = Hlɛ̃̀ nyàgbèwo<small> ( né mi va do gò a)</
 
 speak-contribute-menu-tooltip = Hlɛ̃ nyàgbèwo eye a ɖó nyàbiɔséwo ŋuti.
 read-sentences-menu-item-tooltip = Le nu kè wò le  hlɛ̃̀ lè miabé gbè a  mè.
-answer-questions-menu-item-tooltip = Le nyà kèwo ŋuti wò le ɖo ku àɖàŋù kèwo wo le ɖè a.
+answer-questions-menu-item-tooltip = Le àpo gbè huè kè nu yé wò  lě ɖo nyàbiɔséwo ŋuti éyé wò le dó ŋusɛ̃ àmèwo lè miabé gbè me.
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = gbèdodocãcãtèpé
-read-sentences-menu-item-aria-label = hlɛ̃ nyàgbèwo kèwo sɔ ɖo ŋùkumè na hasòsoe a  lè vòvòvòwo mè.
-answer-questions-menu-item-aria-label = sɔ nyàbiɔse yéyé sɔ ɖo ŋùkumè na  ha a,  hlɛ̂ eye ɖo e ŋuti.
+read-sentences-menu-item-aria-label = Hlɛ̃ nyàgbèwo kèwo sɔ ɖo ŋùkumè na hasòsoe a  lè gbè vòvòvòwo mè.
+answer-questions-menu-item-aria-label = Sɔ nyàbiɔse yéyé sɔ ɖo ŋùkumè na  ha a,  hlɛ̂ eye ɖoe ŋuti.
