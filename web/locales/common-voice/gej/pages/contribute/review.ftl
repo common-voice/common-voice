@@ -48,14 +48,14 @@ sc-criteria-item-6 = Nè nyàgbè vɔ̀ dó wò à, dó mi àlɔ̀ né  mí 
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Kpɔɛ̀ ɖá<icon></icon> nyàgbè kèyà mɛ̀sì tútútú a ?/ Kpɔɛ̀ ɖá<icon></icon> nyàgbè kèyà sɔ̀gbè tútútú a ?
 sc-review-rules-title = Nyàgbè a  sɔ̀ ɖò mɔ̀fíɔ̀nyàwó j́í à?
-sc-review-empty-state = Nyà gblɔ̀gblɔ̀mè tótó ɖékpé mú lè gbèyàmè fífìò
-report-sc-different-language = gbè bú.
-report-sc-different-language-detail = wó ŋlɔ̀ nyàgbè a lè gbèɖé kè tó vò ná  ékè mù dónàà mè.
-sentences-fetch-error = Vòdàdàɖè jɔ̀ gàkèmè wò lèjí nyà gblɔ̀gblɔ̀àwó
-review-error = Vòdàdàɖè jɔ̀ gàkèmè wò lèjí nyà gblɔ̀gblɔ̀ yàà.
-review-error-rate-limit-exceeded = Wò lèkèɖì ŋtɔ́. Gbɔ̃jìɖé, tó nyà gblɔ̀gblɔ̀àmè né wóà kãɖèjí bè  ésɔ̀ gbè.
+sc-review-empty-state = Nyàgbè ɖékpé mú lè kèyé mè wo la dà ŋùku ɖo  lè gbè kèyà mè fífì o.
+report-sc-different-language = Gbè bú.
+report-sc-different-language-detail = Wó ŋlɔ̀ nyàgbè a lè gbèɖé kè tó vò ná  ékè mù trɔ le hlɛ̃ nu lè a  mè.
+sentences-fetch-error = Vòdàdàɖè  va émè huè kè nu wò lě jí nyàgbè awo.
+review-error = Vòdàdàɖè va émè  gà kèmè yé  wò trɔ àsi lè nyàgbè kèyà ŋuti.
+review-error-rate-limit-exceeded = Wò le kè ɖì ŋútɔ́. Gbɔ̃ jì ɖɛ viɖé né a trɔ hlɛ̃ nyàgbè a eye né ǎ  kã ɖó jí bé ésɔ̀ gbè.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Mí lètrɔ́ àsí sùgbɔ̀ lè núwó ŋtí.
+sc-redirect-page-title = Mí lè trɔ́ àsí sùgbɔ lè núwó ŋútí.
 sc-redirect-page-subtitle-1 = Nyà gblɔ̀gblɔ̀ bɔ̀tɔà tùtá Common Voice bè bɔ̀bɔ̀gã́mè. Fífìà wóà téŋ<writeURL>ŋlɔ̀</writeURL>Nyà gblɔ̀gblɔ̀ ɖèká àló<reviewURL> tóémè</reviewURL>Nyà gblɔ̀gblɔ̀ ɖèká tíŋgó bè dàdà ɖó Common Voice jí.
 sc-redirect-page-subtitle-2 = Bíɔ̀ mí nyà lè<matrixLink>Matrix</matrixLink>,<discourseLink>Nyàgblɔ̀gblɔ̀ lɔ̀bɔ̀</discourseLink>àló <emailLink>kájí núŋlɔ̀ŋlɔ̀</emailLink>
 # menu item
