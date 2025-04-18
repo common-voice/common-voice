@@ -5,9 +5,9 @@ listen-again-instruction = Ayíkóó!<playIcon></playIcon>.Gbìgbɔ̀ sè e ké
 listen-3rd-time-instruction = Ewú vè!<playIcon></playIcon>, yì éjí
 listen-last-time-instruction = <playIcon></playIcon>Ɖèkà kpɔ̀tɛ a / Kpɔ̀tɛ kpɔ̀tɔɛ a.
 listen-empty-state = Mí gbà ɖo kpɔwɔɛɖewo kèwo ji mi la dà àsi ɖó lè gbè kèyà mà o...
-listen-empty-state-variants = Tà mú nyɔ wò wuà, gbè kè wò dónà bé nyà gbɔgblɔwó vɔ! Né éjró wòà, trɔ yì gbèà ŋtɔmè né  wòà kpɔ nyà gbɔgblɔ bú wó.
-listen-loading-error = Nyà sèsè ɖékpé mù lè fiyè nà wò o. Mí ɖékúkú trɔ và wɔὲ gàbúmè.
-listen-abort-title = Wò dàsí ɖò núkpɔkpɔàwó jí a ?
+listen-empty-state-variants = Tà mú nyɔ o à, gbèlɔ̀zɛ̃ kè wò dónà bé nyà gbɔ̃gblɔ̃wókpɔwɔɛ vɔ̀! Né  mu la dó nùpo na  wò à, trɔ yì gbè à ŋútɔ mè né  wòà kpɔ nyàgbè búwó.
+listen-loading-error = Mi mu téŋu xɔ̀  nyàsèsekpɔwɔɛwo né mi la sè o. Mí ɖè kuku trɔ gbìgbɔ wɔɛ kpɔ́ gà bu mè.
+listen-abort-title = Wò dàsí ɖò kpɔwɔɛ awo ji  a?
 listen-abort-cancel = Yì èjí
 listen-abort-confirm = Wú ènú
 # Menu item
