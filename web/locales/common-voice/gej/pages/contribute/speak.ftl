@@ -55,19 +55,19 @@ first-cta-gender-select-help-text =
     .label = Ɖe wò ji la  ɖe apo ŋusunyinyi àlo nyɔnùnyinyi fíɔ a?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Akpe  na wò bé  wò woe apo gbè na mi/ àkpe  na wò bé  wò na mi apo gbè.
-second-cta-subtitle-text = ku apo àmètakoɖoefotadadaɖo kà mè a wo la téŋu nɔ le  ŋùku ɖo àpo  dɔ eye wo la teŋu nɔ̀ kàmè ku  hasòsoe  kèwo woe  na woabe gbèwo na àmè.
-already-have-an-account = ɖe wò ɖo kɔ̃ti   <login>  kà
-create-profile-button = dà àmètakoɖoefoto ɖo kà mè.
+second-cta-subtitle-text = Ku apo àmètakoɖoefotadadaɖo kà mè a wo la téŋu nɔ le  ŋùku ɖo àpo  dɔ eye wo la teŋu nɔ̀ kàmè ku  hasòsoe  kèwo woe  na woabe gbèwo na àmè.
+already-have-an-account = Ɖe wò ɖo kɔ̃ti   <login>  kà? <login> Kàmèɖoɖo</login>
+create-profile-button = Dà àmètakoɖoefoto ɖo kà mè.
 # IMAGE TAGS
-img-alt-success-checkmark = yìyi nyɔɛɖéjèsi
+img-alt-success-checkmark = Yìyinyɔɛɖéjèsi / Jǐɖùɖǔjèsì
 # menu item
-read-sentences = hlɛ̃̀ nyàgbèwo
+read-sentences = Hlɛ̃̀ nyàgbèwo.
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = hlɛ̃̀ nyàgbèwo<small> ( né mi va do gò a)</small>
+read-sentences-coming-soon = Hlɛ̃̀ nyàgbèwo<small> ( né mi va do gò a)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = hlɛ̃ nyàgbèwo eye wo la ɖo nyàbiɔséwo ŋuti.
+speak-contribute-menu-tooltip = Hlɛ̃ nyàgbèwo eye a ɖó nyàbiɔséwo ŋuti.
 read-sentences-menu-item-tooltip = le nu kè wo le  hlɛ̃̀ lè apo gbè a  mè.
 answer-questions-menu-item-tooltip = le nyà kèwo ŋuti wò le ɖo ku àɖàŋù kèwo wo le ɖè a.
 
