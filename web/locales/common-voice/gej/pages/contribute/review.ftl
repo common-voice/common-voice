@@ -42,7 +42,7 @@ sc-criteria-make-sure = Kpɔὲ gbɔ bé  nyàgbè a  nè sɔ ɖó nu kèyàwo�
 sc-criteria-item-1 = Wò ɖó là ŋlɔ̀ nyàgbè à pépépé.
 sc-criteria-item-2 = Wò ɖó là ŋlɔ̀ nyàgbè a zɔ̃ ɖó gbèŋutíséséwo ji tútutu.
 sc-criteria-item-3 = Wò ɖo la téŋu yɔ nyàgbè a.
-sc-criteria-item-4 = Nè nyàgblɔ̀gblɔ̀à sɔ̀ɖó ŋtínyàwó jíɑ́, zĩ &quot;lɔ̃&quot;miɔ̀mè bè abitɔ̀ŋùɑ̃
+sc-criteria-item-4 = Né nyàgbè a  sɔ̀ ɖó dokpɔnyàwo ji a , zĩ  àbitɔŋu a « dà àsi ɖo ji» lè ɖùsimè.
 sc-criteria-item-5-2 = Nè nyàgblɔ̀gblɔ̀à mù sɔ̀ɖó ŋtínyà kèwó lè jíɑ́ jíówùà, zĩ &quot;gbè&quot;miɔ̀mè bè abitɔ̀ŋùɑ̃. Nè wò mù kãɖó jíówùà, wòà tèŋjólèjí èyé wòà yí bú jí
 sc-criteria-item-6 = Nè nyà gblɔ̀gblɔ̀ vɔ̀ ɖó wóà, kpèɖó míàŋtí kúɖó búbúwó.
 # <icon></icon> will be replace with an icon that represents review
