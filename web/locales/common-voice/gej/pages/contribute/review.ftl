@@ -31,12 +31,12 @@ sc-review-form-reviewed-message =
         [one] Wó dà ŋùku ɖo nyàgbèɖé mè o. Akpè!
        *[other] { $sentences }Wó tó nyàgbèwo mè. Akpè!
     }
-sc-review-form-review-failure = Nyàmè tótówòà mú cí èmè o. Trɔ và èji gabúmè,kàflã
-sc-review-link = kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
+sc-review-form-review-failure = Wo mu téŋu lé  nyàmètótó à . Trɔ và èji ga búmè,kàflã.
+sc-review-link = Kù nu mè kpɔ́ / glò nu mè kpɔ́ / ji nu mè kpɔ́.
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = Nyàmè tótóŋtínyàwó
+sc-criteria-modal = Nu kèwo ji wo la ɖo àfɔ̀ kéŋugbɔxué la to nu mè.
 sc-criteria-title = Nyàmè tótóŋtínyàwó
 sc-criteria-make-sure = Kpɔὲ gbɔ bè nyàgblɔgblɔà nèsɔ ɖó ŋtínyà yàwó jí:
 sc-criteria-item-1 = Wò ɖó là ŋlɔ̀ nyàgblɔgblɔà pèpèpè.
