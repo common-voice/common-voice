@@ -22,6 +22,25 @@ hours-validated = დამოწმებულ საღათა̈რ
 voices-online = მახე Voices Online
 todays-progress = ლა̈დი̄ პროგრეს
 help-reach-goal = ლა̈ნმა̈რჯუ̂, ერე მივაღწიოთ { $goal }
+read-terms-q = ა̈თჭოდა̄̈ნმა ნიშგუ̂ეჲ პირობა̈ლ?
+ready-to-record = ხიმა ბზათ, ერე ქა ლანჰოდა ისგუ ჰერ?
+all-locales = მა̈გ
+today = ლა̈დი
+x-weeks-short =
+    { $count ->
+        [one] ნაგზი
+       *[other] ნაგზი
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } თუ̂ე
+       *[other] { $count } თუ̂ე
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }ი
+       *[other] { $count }ი
+    }
 
 ## Account Benefits
 
