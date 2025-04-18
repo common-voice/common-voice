@@ -70,9 +70,15 @@ username-email-not-demographic = ისგუ მომხმარებლი 
 welcome-staff = ხოჩა ლადა̈ღ { $company } თანამშრომლა̈რს!
 help-contribute = Common Voice პროფილი ლა̈სყიშუ̂ ი ისგუ̂ა ჰერი წუ̂ლილი ლა̈ჲა̄̈სგუ̂შუ̂ სი ჩუ ჯა̈მჲედა ლოხმარჯუ̂ა მრაუ̂ალფეროუ̂ან, ღია წყარუ̂ე̄ მონაცემრე ნაკრები ლასყე̄ნას.
 login-company = სგა̄დე/ჩუ̂ა̈თრეგისტრირაუ̂ა̈ნ { $company } ელფოსტოშუ̂
+profile-not-required = პროფილ მა̄მ ლი სა̈ჭირო წუ̂ლილი ლა̈ჲიდ, მარე ლასჷრგებ ჩუ ლი. იმღა დო - ა̈თჭოდა̄̈ნ ჩუხი̄დ.
+read-more-about = ლჷნცინად ა̈თჭოდა̈ნ საიტჟი "ნიშგუ̂ეჲ ბედჟი"
 
 ## NAV ITEMS
 
+answer-questions = ლოხპასუხ შეკითხუ̂ა̄̈ლს
+answer-questions-coming-soon = ლოხპასუხ შეკითხუ̂ა̄̈ლს<small> (შიშდ)</small>
+review-transcriptions = ქ'ა̄თსინჯა̈უ̂ ტრანსკრიფცია
+add-questions = ჟესაქმ შეკითხუ̂ა̄̈ლ
 
 ## MENU ITEMS TOOLTIPS
 
