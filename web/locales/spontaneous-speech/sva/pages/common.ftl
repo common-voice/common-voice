@@ -6,6 +6,7 @@ action-click = ჟილითლე
 action-tap = ლიგდური
 # Label for language switcher
 platform-language = პლატფორმა̄̈ ნინ
+platform-language-tooltip-text = აცა̄̈დი საიტი ტექსტს გარ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = მონაცემრეშ ხორეუ̂თეჲსგა წვლილი ლიდი { $language }-ეშდ
