@@ -131,6 +131,8 @@ community-section-title = ნასყა̈უ̂ ლი გლობალურ
 join-discord-community = სგ'ა̄̈ხტყუბა̄̈ნ Discord საზოგადოებას
 # label for button
 join-discord-community-action = სგ'ა̄̈ნტყუბა̄̈ნ ნა̈ჲ Discord-ჟი
+join-discord-community-content = მონაწილეობა ა̈ხი̄კ ნინი თემრე დისკუსიაისგა, ლა̈ხჭუ̂ედ ი ა̈ხმეჴერ მოვლენა̄ლე ი მოლაპარაკება̄ლე ბედჟი.
+find-us-on-matrix = ჟა̄̈ნითხ Matrix-ჟი
 
 ## Featured section
 
