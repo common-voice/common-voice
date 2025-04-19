@@ -114,6 +114,8 @@ activity-needed-calculation-plural =
             }
     }
 how-many-per-day = ڙھؤ مڑنئ ! یک دِس مہ کیئت کلپ ؟
+how-many-a-week = ڙھؤ مڑنئ ! ہفتہ مہ کیت  کلپ تھا ؟
+which-goal-type = تو منو لوکھا، ݜوؤں لوکھا یا بھیزدو ؟
 share-goal = می مقصد شئیرگر
 
 ## Goals
