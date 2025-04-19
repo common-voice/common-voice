@@ -166,6 +166,12 @@ explore-datasets = ჟ'ა̄̈ხითუ̂რ მონაცემრე ნ�
 
 get-involved-section-title = ში ლო̄ხოსყ ღია, საზოგადოება̄̈ლე ნასყა̈უ̂ მონაცემრე ნაკრებს
 read-sentences-link = ქ'ა̄̈თჭოდა̄̈ნ წინადადება̄̈ლ
+validate-readings-link = ქანჭუ̂და̄ნი ლიდასტურე
+contribute-link = სგ'ა̄თხა̈ჲ წუ̂ლილ ტექსტი კორპუსთე
+answer-questions-link = ლოხპასუხ კითხუ̂ა̄̈ლს
+transcribe-answers-link = პასუ̂ხარე ტრასკრიფცია
+review-transcriptions-link = ქ'ა̄თსინჯუ̂ ტრანსკრიფცია
+contribute-text-link = ტექსტი სგა ლიი
 
 ## Partner section
 
