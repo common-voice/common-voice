@@ -116,6 +116,13 @@ activity-needed-calculation-plural =
 how-many-per-day = ڙھؤ مڑنئ ! یک دِس مہ کیئت کلپ ؟
 how-many-a-week = ڙھؤ مڑنئ ! ہفتہ مہ کیت  کلپ تھا ؟
 which-goal-type = تو منو لوکھا، ݜوؤں لوکھا یا بھیزدو ؟
+receiving-emails-info = تی ھویں ھویں ای میل حاصلگرو سیٹ گیو تھو لکہ مقصد سو یاداش، میوں کارکردگی سو اپڈیٹ آ خبریوں سو خط عام اواز سو متعلق
+not-receiving-emails-info = تی ھویں ھویں سیٹ گی<bold> نہ </bold> حاصل گرو ای میل لکہ مقصد سو یاداش،میوں کاردگیسو اپڈیٹ آ خبریوں سو خط عام اواز سو متعلق
+n-clips-pluralized =
+    { $count ->
+        [one] { $count } کلپ
+       *[other] { $count } کلپ
+    }
 share-goal = می مقصد شئیرگر
 
 ## Goals
