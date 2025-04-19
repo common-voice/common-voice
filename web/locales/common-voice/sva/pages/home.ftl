@@ -151,6 +151,9 @@ contribute-github-action = სგ'ა̄თხა̈ჲ ისგუ წუ̂ლ�
 
 ## Featured section
 
+featured-section-title = წარმოდგენილ ლი...
+# icon is an arrow that points downwards
+download-press-pack = ჩამოტუ̂ირთე ნიშგუ̂ეჲ პრეს-პაკეტ <icon></icon>
 
 ## Developers section
 
