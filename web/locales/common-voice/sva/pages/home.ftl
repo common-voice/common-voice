@@ -85,6 +85,7 @@ transcribe-audio-coming-soon = აუდიოშ ტრანსკრიფც
 transcribe-audio = ახა̈სყ აუდიოშ ტრასკრიფცია
 press-and-stories = პრესა ი ისტორია̄̈ლ
 community-and-languages = საზოგადოება ი ნინა̈რ
+coming-soon = დო̄სგ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -121,9 +122,12 @@ scripted-card-content = ქ'ა̄̈თჭოდა̈ნ წინადადე
 spontaneous-card-header = სპონტანურ გა̈რგლა
 spontaneous-card-content = ქალოხპასუ̂იხუ̂ მოთხოუ̂ნა̄̈ლს, ერე ახსყა ორგანულ ლაგჷრგა̈ლ მონაცემრე ნაკრებ. იდეალურ ლი ზეპირ ლაგჷრგა̈ლდ უცხო ნინჟი.
 language-text-card-header = ტექსტი ნინ
+language-text-card-content = ახა̈სყ ჰედ გააზიარე საჯაროდ ხელმისაწვდომ მინიშნება̄̈ლ, წინადადება̄̈ლ ი ტექსტა̈რ თარგმანიშდ, ხოხუ̂რა-ხოხუ̂რა ნინრე მოდელა̈რ ი იშგენ.
+add-text = ტექსტი ლიქმე
 
 ## Community section
 
+community-section-title = ნასყა̈უ̂ ლი გლობალურ საზოგადოებარე̄შ გლობალურ თემრეშდ —130 ნინ ი შელდ აჯაღ იცხემ!
 
 ## Featured section
 
