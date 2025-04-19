@@ -45,6 +45,74 @@ help-reach-hours-pluralized =
         [one] مدد اوڑہ{ $hours } گھنٹہ مہ { $language } ذاتی مقصد میل۔
        *[other] مدد اوڑہ { $hours }گھنٹیوں مہ { $language } ذاتی مقصد میل
     }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] عام اواز سو مدد اوڑہ{ $hours } گھنٹہ یک زیب می زاتی مقصد میل
+       *[other] عام اواز مدد اوڑہ  { $hours } گھنٹیوں مہ یک زیب مہ ذاتی مقصد میل
+    }
+set-a-goal = یک مصد سیٹ گر
+cant-decide = فیصلی نہ گرھواں ؟
+activity-needed-calculation-plural =
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
 share-goal = می مقصد شئیرگر
 
 ## Goals
