@@ -138,6 +138,9 @@ find-us-on-matrix-content = Matrix ლი ღია, ჰა̈ში პრო�
 find-us-on-matrix-action = ჟა̄̈ნითხ Matrix-ჟი
 ask-mozilla-share = ხა̈ჰრ  Mozilla-ს ისგუ მოვლენა̄ლე გაზიარება
 ask-mozilla-share-content = ჯუღუ̂აჲა ღონისძიება? გაგუ̂იზიარე ი ნა̈ჲ ქა ხო̄მბუ̂იდ ნიშგუ̂ეჲ საზოგადოებას ჰედ ჩუ ხუ̂ა̈ჲრიდ ამი̄ ბედჟი ბლოგჟი!
+# label for button
+ask-mozilla-share-action = გააზიარე ისგუ ღონისძიება
+download-contribution-certificate = ატუ̂ირთე ისგუ̂ა წუ̂ლილი მოწმობა
 
 ## Featured section
 
