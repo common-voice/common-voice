@@ -67,8 +67,7 @@ jobs:
           context: .
           file: ./docker/Dockerfile
           tags: |
-            us-docker.pkg.dev/${{secrets.GAR_DOCKER_IMAGE_PATH}}:${{steps.vars.outputs.commit_sha}}
-            us-docker.pkg.dev/${{secrets.GAR_DOCKER_IMAGE_PATH}}:latest-${{steps.deploy_env.outputs.environment}}
+            us-docker.pkg.dev/${{secrets.GAR_DOCKER_IMAGE_PATH}}:${{steps.vars.outputs.git_tag}}
           push: true
           build-args: |
             COMMIT=${{ steps.vars.outputs.commit_sha }}
