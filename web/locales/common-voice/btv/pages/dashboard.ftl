@@ -137,10 +137,13 @@ share-goal-type-both = منو آ ݜوؤں
 goal-share-text = می ذاتی مقصد سین گی اواز دے سو دن عام اوازے می میل شامل ھوں آ مدد گر ٹیچ مشین کش حقیقی لو منہ تھہ{ $link }
 weekly-goal-created = تیں ہفتہ وارمقصد سندا گے دے تھی
 daily-goal-created = تیں روزان سومقصد سنداں گے دے تھی
+track-progress = ایزا مہ کار کردگی ٹریک گر آ اپئں سٹیٹس صفہ رے
+return-to-edit-goal = ایزئ واپس ھوں ہر کیں وخت مہ زواپئیں مقصدایڈٹ گر
 share-goal = می مقصد شئیرگر
 
 ## Goals
 
+streaks = کرخئ
 days =
     { $count ->
         [one] دِیس
