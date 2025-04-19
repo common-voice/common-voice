@@ -119,6 +119,8 @@ action-items-section-subtitle = ჩი̄ს ჩუ ხა̈მჲედა ჟ'�
 scripted-card-header = ლიგჷრგა̈ლი სცენარ
 scripted-card-content = ქ'ა̄̈თჭოდა̈ნ წინადადება ჰერშუ̂ ისგუ̂ა ნინჟი ი სგ'ა̄თხა̈ჲ ისგუ წუ̂ლილ მსოფლიოისგა მაშე̄ნე ფიშირ შუ̂იმი მოანცემრეშ ნაკრებრე ბაზათე̄სგა.
 spontaneous-card-header = სპონტანურ გა̈რგლა
+spontaneous-card-content = ქალოხპასუ̂იხუ̂ მოთხოუ̂ნა̄̈ლს, ერე ახსყა ორგანულ ლაგჷრგა̈ლ მონაცემრე ნაკრებ. იდეალურ ლი ზეპირ ლაგჷრგა̈ლდ უცხო ნინჟი.
+language-text-card-header = ტექსტი ნინ
 
 ## Community section
 
