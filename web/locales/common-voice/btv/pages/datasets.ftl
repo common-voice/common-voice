@@ -17,3 +17,4 @@ audio-format = آڈیو فارمیٹ
 dataset-splits = تقسیم (عمر آ جنس)
 number-of-voices = اوازوں سو تعداد
 splits = تقسیم
+email-to-download = ڈونلوڈ سو دن ای میل داخل گر
