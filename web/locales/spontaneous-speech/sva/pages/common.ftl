@@ -4,6 +4,8 @@
 error = შეცდომა
 action-click = ჟილითლე
 action-tap = ლიგდური
+# Label for language switcher
+platform-language = პლატფორმა̄̈ ნინ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = მონაცემრეშ ხორეუ̂თეჲსგა წვლილი ლიდი { $language }-ეშდ

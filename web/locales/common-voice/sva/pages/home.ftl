@@ -181,3 +181,9 @@ partner-section-title = ითანამშრომლე ნიშგუ̂�
 partner-section-subtitle-tech-companies = <bold>ტექნიკურ კომპანია̄̈ლ</bold>- სგ'ე̄სჷდ ინუ̂ესტიცია ღია მონაცემრე ნაკრებთე აყვავებულ მრავაენოვან AI ეკოსისტემა̈შდ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>სამოქალაქო საზოგადოება ი მკვლევარა̈ლ</bold> - ჟ'ახა̈სყ, უმასპინძლე ი გააზიარე ეფექტურ მონაცემრე ნაკრებ უფასოდ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ქველმოქმედება</bold> - აფინა̈ნსი მონაცემრე ნაკრები ლისყე̄ნეს ადგილობრივ ინოვაცა̄̈ლე ლალჴმა̈შიდ
+# icon is an arrow that points to the right
+get-in-touch-button = დაგუ̂იკაუ̂შირდი <icon></icon>
+# Partners section
+our-partners-include = ნიშგუ̂ეჲ პარნიორა̈ლ ლიხ...
