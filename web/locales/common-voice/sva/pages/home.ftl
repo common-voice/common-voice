@@ -114,6 +114,7 @@ get-started = ჟა̈ხბინ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ლი უფასო, ღია კოდი პლატფორმა მონაცემრე ლასყე̄ნად საზოგადოება̄̈ ლათხუ̂მოშ
 
 ## Community section
 
