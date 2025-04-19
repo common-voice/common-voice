@@ -172,6 +172,8 @@ answer-questions-link = ლოხპასუხ კითხუ̂ა̄̈ლს
 transcribe-answers-link = პასუ̂ხარე ტრასკრიფცია
 review-transcriptions-link = ქ'ა̄თსინჯუ̂ ტრანსკრიფცია
 contribute-text-link = ტექსტი სგა ლიი
+press-and-stories-link = პრესა ი ისტორია
 
 ## Partner section
 
+partner-section-title = ითანამშრომლე ნიშგუ̂ეჲცახა̈ნ
