@@ -116,6 +116,7 @@ get-started = ჟა̈ხბინ <icon><icon>
 
 action-items-section-title = Common Voice ლი უფასო, ღია კოდი პლატფორმა მონაცემრე ლასყე̄ნად საზოგადოება̄̈ ლათხუ̂მოშ
 action-items-section-subtitle = ჩი̄ს ჩუ ხა̈მჲედა ჟ'ა̈ნჷნთხილას მიჩა ნინ, ქ'ა̄ნცოცხლაუ̂ას ი ანკჷლთხას ტექსტი გაზიარებოშუ̂, ლასყე̄ნიშ, კურირებოშ.
+scripted-card-header = ლიგჷრგა̈ლი სცენარ
 
 ## Community section
 
