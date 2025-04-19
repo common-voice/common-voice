@@ -34,6 +34,17 @@ weekly-goal = ہفتہ وار مقصد
 easy-difficulty = ہسان
 average-difficulty = اوسط
 difficult-difficulty = گِران
+pro-difficulty = پرو
+lose-goal-progress-warning = اپئیں مقصد ایڈٹ گرے رے،تیں  اول سو کارکردگی  ضائع ھوں ھواں۔
+want-to-continue = تو جاری رڇھو لوکھا ؟
+finish-editing = اول ایڈیٹنگ ختم گر ؟
+lose-changes-warning = اوتر څھورے سو معانہ تھی چہء تواپیئں تبدیلی ضائع گرونݜ
+build-custom-goal = کسٹم سو مقصد سَن
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] مدد اوڑہ{ $hours } گھنٹہ مہ { $language } ذاتی مقصد میل۔
+       *[other] مدد اوڑہ { $hours }گھنٹیوں مہ { $language } ذاتی مقصد میل
+    }
 
 ## Goals
 
