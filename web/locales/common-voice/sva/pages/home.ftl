@@ -159,9 +159,13 @@ download-press-pack = ჩამოტუ̂ირთე ნიშგუ̂ეჲ �
 
 developers-section-title = საჯაროდ ხელმისაწვდომ გა̈რგლა̄̈ მონაცემა̈რ 130+ ნინჟი
 developers-section-subtitle = მონაცემრე ნაკრება̈რ ASR, STT, TTS ი NLP იშგენ კონტექსტრეშდ, ხედუ̂ა̄̈ჲ ა̈ნსყა̄̈ნხ თემრე მონაწილეობაშუ̂.
+# icon is an arrow that points to the right
+explore-datasets = ჟ'ა̄̈ხითუ̂რ მონაცემრე ნაკრებ<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = ში ლო̄ხოსყ ღია, საზოგადოება̄̈ლე ნასყა̈უ̂ მონაცემრე ნაკრებს
+read-sentences-link = ქ'ა̄̈თჭოდა̄̈ნ წინადადება̄̈ლ
 
 ## Partner section
 

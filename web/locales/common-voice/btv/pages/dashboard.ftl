@@ -113,6 +113,7 @@ activity-needed-calculation-plural =
                     }
             }
     }
+how-many-per-day = ڙھؤ مڑنئ ! یک دِس مہ کیئت کلپ ؟
 share-goal = می مقصد شئیرگر
 
 ## Goals
