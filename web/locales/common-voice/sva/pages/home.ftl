@@ -97,12 +97,15 @@ community-and-languages-menu-item-tooltip = აღმოჩინე ნინ�
 
 about-menu-aria-label = პარამეტრალე მენიუშ ბედჟი
 partnerships-menu-item-aria-label = ა̈ხმეჴერ  Common Voice-ცახა̈ნ პატნიორობა̄̈ ბედჟი
+press-and-stories-menu-item-aria-label = Common Voice-ცახა̈ნ დაკაუ̂შირებულ პრესრელიზა̈რთე ი ისტორია̄̈ლთე წუ̂დომა
+community-and-languages-menu-item-aria-label = ჟა̈ხითუ̂რ Common Voice მხარდამჭერ საზოგადოება̄̈ლ ი ნინა̈რ
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = ტექნოლოგია̄̈ლ, ხედუ̂ა̄̈ჲ გა̈რგლიხ ისგუ̂ა ნინჟი
 
 ## Action items section
 
