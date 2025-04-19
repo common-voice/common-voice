@@ -177,3 +177,7 @@ press-and-stories-link = პრესა ი ისტორია
 ## Partner section
 
 partner-section-title = ითანამშრომლე ნიშგუ̂ეჲცახა̈ნ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ტექნიკურ კომპანია̄̈ლ</bold>- სგ'ე̄სჷდ ინუ̂ესტიცია ღია მონაცემრე ნაკრებთე აყვავებულ მრავაენოვან AI ეკოსისტემა̈შდ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>სამოქალაქო საზოგადოება ი მკვლევარა̈ლ</bold> - ჟ'ახა̈სყ, უმასპინძლე ი გააზიარე ეფექტურ მონაცემრე ნაკრებ უფასოდ
