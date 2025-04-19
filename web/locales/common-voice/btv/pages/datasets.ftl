@@ -6,3 +6,14 @@ datasets-positioning = گھئیں، عوامی طور رے موجود معلوم
 datasets-speech-bubble-content = دلچسب خبر !  ڙھؤ گھؤں تقریر پن مہ تھو !  اپڈیٹ سو دن تیار بھے آ یقینی گراسیئں چیک گر <discordLink> ڈسکاڈ </discordLink> تازا معلومات سو دن۔
 language = زِیب
 download-dataset-header = ڈیٹاسیٹ ڈونلوڈ گر
+download-delta-explainer = اسو کیں تبدیلی گے تھےڈیلٹا طبقیوں مہ آخری ریلیز نو پتن مجودہ کلپ مجود تھا<deltaLink> اس کم سو بارہ مہ جل پڑ </deltaLink>
+download-dataset-tag = مطلوبہ زیب سو ڈیٹا سیٹ منتخب گر آ سو ورژن منتخب گر کیں سو چہء تو ڈونلوڈ گرو لوکھا
+# File size in gigabytes
+size = سائز
+validated-hr-total = تصدیق ھویئنل Hr  بوٹ
+overall-hr-total = بوٹ Hr مجموعی
+cv-license = لائسنس
+audio-format = آڈیو فارمیٹ
+dataset-splits = تقسیم (عمر آ جنس)
+number-of-voices = اوازوں سو تعداد
+splits = تقسیم
