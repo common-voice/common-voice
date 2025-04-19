@@ -123,6 +123,20 @@ n-clips-pluralized =
         [one] { $count } کلپ
        *[other] { $count } کلپ
     }
+help-share-goal = جل اواز ٹنڈے مہ اسئیں مدد گر،اپئیں مقصد شئیرگر
+confirm-goal = مقصد کنفرم گر
+goal-interval-weekly = ہفتہ وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = شیئر گر اپوں { $count } کلپ روزانہ سو مقصد { $type } سو دَن
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = شیئر گر اپوں { $count } کلپ ہفتہ وار مقصد { $type } سو دَن
+share-goal-type-speak = منو
+share-goal-type-listen = شوؤں
+share-goal-type-both = منو آ ݜوؤں
+# LINK will be replaced with the current URL
+goal-share-text = می ذاتی مقصد سین گی اواز دے سو دن عام اوازے می میل شامل ھوں آ مدد گر ٹیچ مشین کش حقیقی لو منہ تھہ{ $link }
+weekly-goal-created = تیں ہفتہ وارمقصد سندا گے دے تھی
+daily-goal-created = تیں روزان سومقصد سنداں گے دے تھی
 share-goal = می مقصد شئیرگر
 
 ## Goals
