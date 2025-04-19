@@ -108,6 +108,9 @@ community-and-languages-menu-item-aria-label = ჟა̈ხითუ̂რ Common 
 hero-title = ტექნოლოგია̄̈ლ, ხედუ̂ა̄̈ჲ გა̈რგლიხ ისგუ̂ა ნინჟი
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>იმღა ხეკუ̂ეს ამშიე̄დს მსოფლიოშ  ჲერხი ნინა̈რჟი გარ?</bold>
+hero-subtitle-2 = გუ̂იშგუ̂ეჲ ნინ ლი გუ̂იშგუ̂ეჲ ისტორია, გუ̂იშგუ̂ეჲ საზოგადოება, გუ̂იშგუ̂ეჲ კულტურა. ალსყად მონაცემრე ნაკრებ, იმშა ლიწედდ გუ̂ი გუ̂ა̄რ მსოფლიოისგა.
+# icon is an arrow that points downwards
+get-started = ჟა̈ხბინ <icon><icon>
 
 ## Action items section
 
