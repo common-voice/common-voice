@@ -45,6 +45,22 @@ help-reach-hours-pluralized =
         [one] مدد اوڑہ{ $hours } گھنٹہ مہ { $language } ذاتی مقصد میل۔
        *[other] مدد اوڑہ { $hours }گھنٹیوں مہ { $language } ذاتی مقصد میل
     }
+share-goal = می مقصد شئیرگر
 
 ## Goals
 
+days =
+    { $count ->
+        [one] دِیس
+       *[other] دِس
+    }
+recordings =
+    { $count ->
+        [one] ریکاڈنگ
+       *[other] ریکاڈنگ
+    }
+validations =
+    { $count ->
+        [one] تصدیق گرو
+       *[other] تصدِق گرو
+    }
