@@ -106,6 +106,8 @@ community-and-languages-menu-item-aria-label = ჟა̈ხითუ̂რ Common 
 ## Hero section
 
 hero-title = ტექნოლოგია̄̈ლ, ხედუ̂ა̄̈ჲ გა̈რგლიხ ისგუ̂ა ნინჟი
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>იმღა ხეკუ̂ეს ამშიე̄დს მსოფლიოშ  ჲერხი ნინა̈რჟი გარ?</bold>
 
 ## Action items section
 
