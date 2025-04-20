@@ -1,4 +1,10 @@
 action-click = Rachína bilé botóni echina computadora jónsa biléana celular ma
+action-tap = Chapía
+contribute = Nikúra
+review = Inéa acha alá ka'a
+skip = Pochía
+contribute-more = Ma alámi jú kíti newáma { $count } wikábe?
+speak-empty-state = Ma kéta níwi raíchali kíti  moába raíchali jéna raichaliámi kítira
 speak-empty-state-cta = Ché ani jare namúti
 speak-loading-error = ké tási oméro chápía oraciones. pé alí ché inéba
 record-button-label = Moába mujé raíchála
@@ -46,3 +52,6 @@ shortcut-vote-no = n
 
 contribution-misreadings-example-8-title = Échi ta kochí we sapú simíroli
 contribution-misreadings-example-8-explanation = Échi osirúami ke chiéri cho jú
+contribution-varying-pronunciations-title = Aniwáami jápi jarécho nísare
+contribution-varying-pronunciations-example-1-title = Sineámi keléala kajé bajíarai
+contribution-varying-pronunciations-example-2-title = Alá jú mi anísaa
