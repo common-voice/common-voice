@@ -68,6 +68,7 @@ shortcut-discard-ongoing-recording-label = Ku naóma échi moárami
 shortcut-submit = Ku roia
 shortcut-submit-label = Juláa échi raicháli moarámi
 request-language-text = Kémi cho ritíwa mujé raíchala aminá Common Voice?
+request-language-button = Taa bilé ríka raichawami
 
 ## Listen Shortcuts
 
@@ -84,8 +85,12 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Alá jápi katuítami jú
+contribution-criteria-link = Che minábi benéa échi raíchali katuítami kitira
+contribution-criteria-page-title = Raíchali katuítami jápi nejámi ju échi raíchali
 contribution-for-example = Jápi ríka
 contribution-misreadings-title = Cháti ríka natáwami
+contribution-misreadings-description-extended-list-5 = Newáya wikása nokíya jápi ríka leería bile aniwami
 contribution-misreadings-example-8-title = Échi ta kochí we sapú simíroli
 contribution-misreadings-example-8-explanation = Échi osirúami ke chiéri cho jú
 contribution-varying-pronunciations-title = Aniwáami jápi jarécho nísare
