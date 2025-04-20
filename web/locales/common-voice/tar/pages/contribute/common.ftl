@@ -33,6 +33,15 @@ report-offensive-language = Raíchali jápi omónari
 report-offensive-language-detail = Ta raíchali osirúami ko raíchali cha aniwámi ke riwíwami
 report-grammar-or-spelling = Ke alá osirúami
 report-grammar-or-spelling-detail = Ta osirúami ke alá newárami jú o ke alá osirúami jú
+report-different-language = Bilécho raicháliami
+report-different-language-detail = Biléana osirúami jú sinú raicháli náti jápi ríka ne ke raícha
+report-difficult-pronounce = We nocháli jú aniwáa
+report-difficult-pronounce-detail = Uchúcha aniwáami o raichaliámi nocháli ríka leeriwami alí aniáma
+report-offensive-speech = Raíchali cháti
+report-offensive-speech-detail = Échi raíchali moárami cháti raíchali ko jú ke riwiwámi
+report-other-comment =
+    .placeholder = Aniwámi
+success = Alabé
 
 ## Speak & Listen Shortcuts
 
