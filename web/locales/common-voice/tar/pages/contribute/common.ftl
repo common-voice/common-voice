@@ -44,3 +44,5 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-misreadings-example-8-title = Échi ta kochí we sapú simíroli
+contribution-misreadings-example-8-explanation = Échi osirúami ke chiéri cho jú
