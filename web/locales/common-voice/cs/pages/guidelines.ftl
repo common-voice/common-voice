@@ -115,6 +115,7 @@ what-makes-a-good-question-subheader = Co je dobrá otázka?
 what-makes-a-good-question-explanation = Dobrá otázka pro datasety o zapojení veřejnosti by měla:
 what-makes-a-good-question-explanation-criteria-1 = Být lehko pochopitelná a mělo by být jednoduché na ni reagovat
 what-makes-a-good-question-explanation-criteria-2 = Být všeobecně relevantní
+what-makes-a-good-question-explanation-criteria-3 = Nepoužívat nebo nevyžadovat škodlivé nebo urážlivé výrazy
 easy-to-understand = Snadno pochopitelná
 spelling-and-pronunciation = Pravopis a interpunkce
 spelling-and-pronunciation-explanation = Používejte správný pravopis a gramatiku.

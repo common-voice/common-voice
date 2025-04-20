@@ -29,6 +29,10 @@ submit-form-action = Júla'a
 report = Anía
 report-title = Nejáa bile informe
 report-ask = ¿Chí yéri jú cháti ríka niráa jéna osirúami kítira?
+report-offensive-language = Raíchali jápi omónari
+report-offensive-language-detail = Ta raíchali osirúami ko raíchali cha aniwámi ke riwíwami
+report-grammar-or-spelling = Ke alá osirúami
+report-grammar-or-spelling-detail = Ta osirúami ke alá newárami jú o ke alá osirúami jú
 
 ## Speak & Listen Shortcuts
 
