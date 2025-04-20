@@ -66,7 +66,10 @@ sentence-variant-select-multiple-variants = Raichawami/ echibi mapi ríka raicha
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Osaa moárami raíchali échi dominio público
+sc-bulk-upload-instruction = Banisúku binói nóchali naí  <uploadButton>rachína kíti moínama  </uploadButton>
 sc-bulk-upload-instruction-drop = Naí botána ta nóchali kítimi che uchéma echina programa
+bulk-upload-additional-information = Jápi re che sinú raicháli  nejása jéna nóchali nirúami kítira, binói raichíki<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Jápi re a che nirúlisa raíchali jápimi che nejása iníli jéna nóchali kítira jápi ke ucháiru echina pantalla, binói lámi raichíma <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Che siné oláa naí banisúka nóchali
 try-upload-again-md = Che siné moína kulíwami
 select-file = Chápi échi nocháli
@@ -74,6 +77,7 @@ select-file-mobile = Chápi bilé nóchali kítimi júlama echina programa
 accepted-files = Jápi ayena nakíwa nóchali: pe tsv
 minimum-sentences = Osisare 1000 raíchali osirúami (oraciones) échina archivo
 maximum-file-size = Pe tabé archivo o nocháli 25 MB
+what-needs-to-be-in-file = ¿Jápi chukúsa re nijé niwála osélichi?
 bulk-submission-success-subheader = Wémi kuíri échi Common Voice ali ayéna sebába raíchali newá jápi ríka ya náki
 upload-more-btn-text = Che osá raíchali échina programa nirúami
 file-invalid-type = Echi nóchali ke oméro nea naí programa náti
