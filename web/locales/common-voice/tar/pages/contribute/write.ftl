@@ -68,7 +68,9 @@ sentence-variant-select-multiple-variants = Raichawami/ echibi mapi ríka raicha
 sc-bulk-upload-header = Osaa moárami raíchali échi dominio público
 sc-bulk-upload-instruction-drop = Naí botána ta nóchali kítimi che uchéma echina programa
 try-upload-again = Che siné oláa naí banisúka nóchali
+try-upload-again-md = Che siné moína kulíwami
 select-file = Chápi échi nocháli
+select-file-mobile = Chápi bilé nóchali kítimi júlama echina programa
 accepted-files = Jápi ayena nakíwa nóchali: pe tsv
 minimum-sentences = Osisare 1000 raíchali osirúami (oraciones) échina archivo
 maximum-file-size = Pe tabé archivo o nocháli 25 MB
@@ -81,6 +83,9 @@ too-many-files = Wiká jú archivos
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Che uché<icon></icon> wikása osirúami echina dominio público
+multiple-sentences-error = Ke ompáru uchéa wiká raíchali osirúami jápi oná júlaba
 exceeds-small-batch-limit-error = Ke ompáru júla simíroka 1000 osirúami
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
