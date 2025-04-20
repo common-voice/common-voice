@@ -58,13 +58,15 @@ nature_environment = Kawíchi nirúami alí échi medio ambiente
 news_current_affairs = Noticia ruami jápi iki Alí jápi ikíi jípi
 # Sentence Domain dropdown option
 technology_robotics = Tecnología alí robótica
-sentence-variant-select-label = Raíchali chi ríka raichawami náli bileana comunidad sinucho ríka aniwami
+sentence-variant-select-label = Raíchali chi ríka raichawami náli biléana comunidad sinúcho ríka aniwámi
+sentence-variant-select-placeholder = Rachíni échibi raíchali raichaliámi biléana cho comunidad ríka aniwámi (alí ke iwérali)
 sentence-variant-select-multiple-variants = Raichawami/ echibi mapi ríka raichawa jareána cho pereami
 
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Osaa moárami raíchali échi dominio público
+sc-bulk-upload-instruction-drop = Naí botána ta nóchali kítimi che uchéma echina programa
 try-upload-again = Che siné oláa naí banisúka nóchali
 select-file = Chápi échi nocháli
 accepted-files = Jápi ayena nakíwa nóchali: pe tsv
