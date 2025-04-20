@@ -3,6 +3,11 @@ action-tap = Chapía
 contribute = Nikúra
 review = Inéa acha alá ka'a
 skip = Pochía
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold>Pe taa
+       *[other] <bold>{ $count }</bold>Pe kuuchi nirá'a
+    }
 contribute-more = Ma alámi jú kíti newáma { $count } wikábe?
 speak-empty-state = Ma kéta níwi raíchali kíti  moába raíchali jéna raichaliámi kítira
 speak-empty-state-cta = Ché ani jare namúti
@@ -13,6 +18,7 @@ keep-track-profile = Newá bilé perfil aníami chúmi iyéna meká nawálá
 login-to-get-started = Registrarpá alí chotába
 target-segment-first-card = Abelámi nikúro néwayá échí bacháwalá objetivo
 target-segment-generic-card = Ayena mi aa nikúro biléana sí jápi riká a nakíwa
+target-segment-first-banner = Nikúra alá niwayá bacháriko alá nía échi Common Voice
 target-segment-add-voice = Uché mujé raíchala
 target-segment-learn-more = Ché wíkabé informacion.
 login-signup = Chóta sesión/ riwála ucháya
@@ -61,6 +67,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Ku naóma échi moárami
 shortcut-submit = Ku roia
 shortcut-submit-label = Juláa échi raicháli moarámi
+request-language-text = Kémi cho ritíwa mujé raíchala aminá Common Voice?
 
 ## Listen Shortcuts
 
@@ -85,3 +92,5 @@ contribution-varying-pronunciations-title = Aniwáami jápi jarécho nísare
 contribution-varying-pronunciations-example-1-title = Sineámi keléala kajé bajíarai
 contribution-varying-pronunciations-example-2-title = Alá jú mi anísaa
 contribution-background-noise-title = Aneríwami jápi upáka raíchali moárami anecháni
+see-more = Che nebá
+see-less = Ke me inéa
