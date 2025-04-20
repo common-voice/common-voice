@@ -60,12 +60,14 @@ shortcut-rerecord-toggle-label = Che moáya kulíwami clip
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Ku naóma échi moárami
 shortcut-submit = Ku roia
+shortcut-submit-label = Juláa échi raicháli moarámi
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+shortcut-play-toggle-label = Anería/ riwéa
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
@@ -75,8 +77,11 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-for-example = Jápi ríka
+contribution-misreadings-title = Cháti ríka natáwami
 contribution-misreadings-example-8-title = Échi ta kochí we sapú simíroli
 contribution-misreadings-example-8-explanation = Échi osirúami ke chiéri cho jú
 contribution-varying-pronunciations-title = Aniwáami jápi jarécho nísare
 contribution-varying-pronunciations-example-1-title = Sineámi keléala kajé bajíarai
 contribution-varying-pronunciations-example-2-title = Alá jú mi anísaa
+contribution-background-noise-title = Aneríwami jápi upáka raíchali moárami anecháni
