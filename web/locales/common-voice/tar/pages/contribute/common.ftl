@@ -1,3 +1,4 @@
+action-click = Rachína bilé botóni echina computadora jónsa biléana celular ma
 speak-empty-state-cta = Ché ani jare namúti
 speak-loading-error = ké tási oméro chápía oraciones. pé alí ché inéba
 record-button-label = Moába mujé raíchála

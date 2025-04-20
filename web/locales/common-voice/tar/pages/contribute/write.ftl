@@ -2,11 +2,14 @@
 
 write = Osayá
 write-instruction = Uchá<icon></icon> bilé osirúami échina dominio público
+write-page-subtitle = Échi raíchali katewárami naí osirúami níma pe ríko riséncia táka cc-0 kíti sinéami ka ompáma inéa
 sentence =
     .label = Wiká raíchali osirúami!
 sentence-input-placeholder = Naí uchá échi raíchali dominio público chi
 small-batch-sentence-input-placeholder = Naí uchá mujé raíchala jápi oná dominio público
 citation-input-placeholder = Uché jápi onámi chápili échi raíchali (né iwéra)
+citation =
+    .label = Aní jépi ka jápi china osáli
 sc-write-submit-confirm = Nijé Ani jápi jéna raíchali <wikipediaLink>dominio público</wikipediaLink> ju alíni a níwi riséncia kítina juláma
 sc-review-write-title = Chí yéri osirúami che oméro ucháya?
 sc-review-small-batch-title = ¿Chí mi ríka ché uchéma wikábe raíchali?
