@@ -113,6 +113,7 @@ adding-questions = Přidávání otázek
 
 what-makes-a-good-question-subheader = Co je dobrá otázka?
 what-makes-a-good-question-explanation = Dobrá otázka pro datasety o zapojení veřejnosti by měla:
+what-makes-a-good-question-explanation-criteria-1 = Být lehko pochopitelná a mělo by být jednoduché na ni reagovat
 what-makes-a-good-question-explanation-criteria-2 = Být všeobecně relevantní
 easy-to-understand = Snadno pochopitelná
 spelling-and-pronunciation = Pravopis a interpunkce

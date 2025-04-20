@@ -12,17 +12,23 @@ share-title-new = Tamúje kuíro réwa'a ché ja
 keep-track-profile = Newá bilé perfil aníami chúmi iyéna meká nawálá
 login-to-get-started = Registrarpá alí chotába
 target-segment-first-card = Abelámi nikúro néwayá échí bacháwalá objetivo
+target-segment-generic-card = Ayena mi aa nikúro biléana sí jápi riká a nakíwa
 target-segment-add-voice = Uché mujé raíchala
 target-segment-learn-more = Ché wíkabé informacion.
+login-signup = Chóta sesión/ riwála ucháya
 vote-yes = Ayéna
 vote-no = Ké
 datasets = Napabúa járe
 languages = Raíchalíami
+about = Mulípi kítira
 partner = Tamúje yúa nócha'a
 submit-form-action = Júla'a
 
 ## Reporting
 
+report = Anía
+report-title = Nejáa bile informe
+report-ask = ¿Chí yéri jú cháti ríka niráa jéna osirúami kítira?
 
 ## Speak & Listen Shortcuts
 
