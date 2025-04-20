@@ -81,6 +81,8 @@ what-needs-to-be-in-file = ¿Jápi chukúsa re nijé niwála osélichi?
 upload-progress-text = Nocháli Japi programa uchéma
 sc-bulk-submit-confirm = Aníni Japi échi raíchali ko jú<wikipediaLink> Japi sineámi inéma </wikipediaLink> ali yena a riséncka níwi kíti moyénima
 bulk-upload-success-toast = Wiká osirúami kíti jimíma echina programa
+bulk-upload-failed-toast = Ke náki jápi moyénia, che siné oláa
+bulk-submission-success-header = ¡Matétera va kíti kómi a nikúro nejáa échi walú nocháli!
 bulk-submission-success-subheader = Wémi kuíri échi Common Voice ali ayéna sebába raíchali newá jápi ríka ya náki
 upload-more-btn-text = Che osá raíchali échina programa nirúami
 file-invalid-type = Echi nóchali ke oméro nea naí programa náti
@@ -140,6 +142,7 @@ add-sentences = Che uchúche járe osirúami
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Che uchéa alí inéa osirúami, che uché naríwami, osá jápi aní raíchali moárami
 add-sentences-menu-item-tooltip = Che uchéa raíchali nijé raíchala náti
 review-sentences-menu-item-tooltip = Che iné échi osirúami mujé binoí raichála náti
 add-questions-menu-item-tooltip = Che iné échi osirúami mujé binoí raichála náti
