@@ -2,7 +2,7 @@
 
 write = Osayá
 write-instruction = Uchá<icon></icon> bilé osirúami échina dominio público
-write-page-subtitle = Échi raíchali katewárami naí osirúami níma pe ríko riséncia táka cc-0 kíti sinéami ka ompáma inéa
+write-page-subtitle = Échi raíchali katewárami naí osirúami níma grupo pe ríko riséncia táka cc-0 kíti sinéami ka ompáma inéa
 sentence =
     .label = Wiká raíchali osirúami!
 sentence-input-placeholder = Naí uchá échi raíchali dominio público chi
