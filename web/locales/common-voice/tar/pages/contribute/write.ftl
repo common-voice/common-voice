@@ -58,6 +58,7 @@ nature_environment = Kawíchi nirúami alí échi medio ambiente
 news_current_affairs = Noticia ruami jápi iki Alí jápi ikíi jípi
 # Sentence Domain dropdown option
 technology_robotics = Tecnología alí robótica
+sentence-variant-select-label = Raíchali chi ríka raichawami náli bileana comunidad sinucho ríka aniwami
 sentence-variant-select-multiple-variants = Raichawami/ echibi mapi ríka raichawa jareána cho pereami
 
 ## BULK SUBMISSION
