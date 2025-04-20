@@ -42,6 +42,7 @@ report-offensive-speech-detail = Échi raíchali moárami cháti raíchali ko j�
 report-other-comment =
     .placeholder = Aniwámi
 success = Alabé
+continue = Ché najáta
 
 ## Speak & Listen Shortcuts
 
@@ -53,7 +54,12 @@ shortcut-skip = h
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = g
+shortcut-record-toggle-label = Moá/ riwéa ke námo nokáya
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Che moáya kulíwami clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Ku naóma échi moárami
+shortcut-submit = Ku roia
 
 ## Listen Shortcuts
 
