@@ -16,3 +16,7 @@ partnerships-academia-description = ღია ინოუ̂აცია ლი 
 partnerships-small-business-header = კოტო̄ლ ბიზნეს, ტექნიკურ ი ხელოუ̂ნურ ინტელექტი ჩათუ̂ლით.
 partnerships-small-business-description = ნა̈ჲ ჩიგარ ეჯას ხუ̂ითჲა̄̈ლდ, ერე ჟა̈ხუ̂მეჴრად მონაცემრე მომხმარებელხა̈ნქა მინე მაწჷხიშ ი კონტექსტი ბედჟი - მონაცემრე ლაყუ̂ბა პლატფორმაჟი თანამშრომლობაშუ̂ ლჷბნე მონაცემრე სიჯანსაღე̄ ბედჟი ინფორმაცია̄̈ ლიჰუ̂დალ, ნაკუჩ, ერე <emailFragment> ოჰუნრად ისგუ̂ეჲხა̈ნქა.</emailFragment>
 partnerships-corporates-header = მეგრე-მეგრე კორპორაცია̄̈ლ ი პლატფორმა̄̈ კომპანია̄̈ლ
+partnerships-corporates-description = სი ჰემა ჯაკუ, ერე ხოშა ლჷნცინად ლა̈ხგჷრგლა მონაცემრე ნაკრები ბედჟი, გუ̂ი ჯა̄რ თანაინუ̂ესტიციად პლატფორმა̄̈ ჩულჷგეგმაუ̂ე ლიმშა̈რიჲსგა ჰედ ა̈ხთხა თანამშრომლობა̄̈ შესაძლებლობა̄̈ლ, ეჩქა<emailFragment>ა̈ნიჲრ ნა̈ჲ. </emailFragment>
+partnerships-our-partners = ნიშგუ̂ეჲ პარტნიორა̈ლ
+# menu item
+partners = პარტნიორა̈ლ
