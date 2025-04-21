@@ -12,3 +12,5 @@ partnerships-foundations-description =
 partnerships-governments-header = თაუ̂რობა̄̈ლ
 partnerships-governments-description = ნა̈ჲ მა̈ხიადა̄̈რ ხუ̂იშდ, ერე მხარს უ̂უჭერთ საჯარო სექტორი ჩართულობას ტექნოლოგია̄̈ლთე, ინოვაცია̄̈ლთე ი ენობრივ უფლება̄̈ლთე. სი ჰემა ხა̈გეგმა̈უ̂ი მეგრე პროექტიშ ჰედ კამპანია̄̈ ქა ლიფშუ̂დეს, ჯერიდ, ერე <emailFragment>-ს დაუკავშირდის.</emailFragment>
 partnerships-academia-header = უნიუ̂ერსიტეტა̈ლ, აკადემიკოსა̈რ ი მკუ̂ლეუ̂არა̈რ
+partnerships-academia-description = ღია ინოუ̂აცია ლი ეჩი̄ საფუძუ̂ელ, იმუ̂ა̄̈ჲ ნა̈ჲ ხუ̂აშდბად. კვლევით თანამშრომლობა̄̈შდ, მონაცემრე ლაყუ̂ბად ჰედ ინტერვიუალეშდ <emailFragment> დაუკაუ̂შირდით. </emailFragment>
+partnerships-small-business-header = კოტო̄ლ ბიზნეს, ტექნიკურ ი ხელოუ̂ნურ ინტელექტი ჩათუ̂ლით.
