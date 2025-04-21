@@ -38,3 +38,4 @@ feedback-q = رائے تھی ؟
 # This indicates that there is no data to display
 no-information = کیں معلومات نہ تھی
 resource-nemo-info = <githubLink> NVIDIA  NeMo</githubLink> تھو یک <docsLink> کھلاو سورس ٹولکٹ</docsLink> تحقیق گرے والہ ترقی یافتہ ریاست تمام ماڈلوں سوفنیمکالمے
+resource-deepspeech-info = مزیلا سو کھولاو زریعہاواز سو پھنیانک انجن ڈونگ تقریرے  تقریر سو پھنیانک سو اپلیکیشن سندے سو دن ھوں ھواں۔<githubLink> گٹ ھب جائزہ</githubLink> یا شامل ھوں <discourseLink> ڈونگ تقریر ڈسکورس</discourseLink> شرو گرے سو طریقہ ڇھیڇئ۔
