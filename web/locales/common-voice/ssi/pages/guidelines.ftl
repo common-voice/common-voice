@@ -57,6 +57,7 @@ contact-common-voice = سادھارݨ اواج سنگٹھناس سمپرک کر�
 
 ## Sentence collection nav ids
 
+public-domain = جنتا ڈومین
 
 ## Sentence collection sidebar content
 
