@@ -14,3 +14,5 @@ partnerships-governments-description = ნა̈ჲ მა̈ხიადა̄̈�
 partnerships-academia-header = უნიუ̂ერსიტეტა̈ლ, აკადემიკოსა̈რ ი მკუ̂ლეუ̂არა̈რ
 partnerships-academia-description = ღია ინოუ̂აცია ლი ეჩი̄ საფუძუ̂ელ, იმუ̂ა̄̈ჲ ნა̈ჲ ხუ̂აშდბად. კვლევით თანამშრომლობა̄̈შდ, მონაცემრე ლაყუ̂ბად ჰედ ინტერვიუალეშდ <emailFragment> დაუკაუ̂შირდით. </emailFragment>
 partnerships-small-business-header = კოტო̄ლ ბიზნეს, ტექნიკურ ი ხელოუ̂ნურ ინტელექტი ჩათუ̂ლით.
+partnerships-small-business-description = ნა̈ჲ ჩიგარ ეჯას ხუ̂ითჲა̄̈ლდ, ერე ჟა̈ხუ̂მეჴრად მონაცემრე მომხმარებელხა̈ნქა მინე მაწჷხიშ ი კონტექსტი ბედჟი - მონაცემრე ლაყუ̂ბა პლატფორმაჟი თანამშრომლობაშუ̂ ლჷბნე მონაცემრე სიჯანსაღე̄ ბედჟი ინფორმაცია̄̈ ლიჰუ̂დალ, ნაკუჩ, ერე <emailFragment> ოჰუნრად ისგუ̂ეჲხა̈ნქა.</emailFragment>
+partnerships-corporates-header = მეგრე-მეგრე კორპორაცია̄̈ლ ი პლატფორმა̄̈ კომპანია̄̈ლ
