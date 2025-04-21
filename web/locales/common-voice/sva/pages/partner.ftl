@@ -4,3 +4,5 @@ partnerships-header-text = Common Voice ლისყე̄ნეს ხუ̂ა̄
 partnerships-get-in-touch = დაგუ̂იკაუ̂შირდი
 partnerships-become-a-partner = ხა̈სუ̂ Common Voice პარტნიორ
 partnerships-community-header = შემოქმედებით ი სამოქალაქო საზოგადოება
+partnerships-community-description = საზოგადოება ლი თელ მსოფლოშ გუ̂ი - ალია̈რ თელ მსოფლიოხა̈ნ ლიხ, ლიხ აქტიუ̂ისტა̈რ, მეცნიერა̈ლ ი ხელოუ̂ანა̈რ. სი ჩუ ჯამჲედა ხოშა ა̈ცხჷრა ეჩი̄ ბედჟი, იმჟი ა̈ხკჷდა მონაწილეობა ნიშგუ̂ეჲ საიტჟი<about> შესახებ</about> ი <community></community>-ჟი. ჰემა ჯა̈ინტერეს ხოშა ლჷჴმაშდ ორგანიზაციულ პარტნიორობ<emailFragment>დაგუ̂იკაუ̂შირდი.</emailFragment>
+partnerships-foundations-header = ფონდა̈რ
