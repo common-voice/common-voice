@@ -30,3 +30,11 @@ validated-hours = تصدیق ھویئنل گھنٹے
 recorded-hours = رکاڈ ھویئنل گھنٹے
 whats-inside = عام اواز سو ڈیٹا سیٹ سو اندر چوں تھو
 dataset-description-hours = ڈیٹا سیٹ مہ ہر څیز یک اَن انداز سو MP3 آ اسیئں متعلق ٹیکسٹ فائل رے مشتمل ھواں ڈیٹا سیٹ مہ ڙھؤ <b> { $total } ریکاڈھوئینل گھنٹوں مہ عمر،جنس آ لہجہ شان ابادی والہ میٹا ڈیٹا ھم  شامل تھا کاں چہ تقریر سو پھنیانک  انجنو سو درستگی یے تربیت دے مہ مدد گر ھواں   ڈیٹا سیٹ فی الحال مشتمل تھو <b> { $valid } </b> تصدیق ھویئنل گھنٹیوں  <b> { $languages } </b> سو زیبوں رے  کیں زیب رے عملدرامد گرے یا شرکت شرو گرے سو دَن اسئیں <languagesLink>  زیبوں سوصفہ  </languagesLink>
+want-dataset-update = کدی چہء بے عام اواز سوڈیٹا سیٹ  نوں ورژن جاری گرہ تھہ تہ اپڈیٹ لوکھا؟ اسوں خبریوں سو لٹر سبسکرائب گریا
+subscribe = سبسکرائب
+get-started-speech = تقریر سو پھنیانک میل شرو گر
+other-datasets = پروں اواز سو ڈیٹا سیٹ
+feedback-q = رائے تھی ؟
+# This indicates that there is no data to display
+no-information = کیں معلومات نہ تھی
+resource-nemo-info = <githubLink> NVIDIA  NeMo</githubLink> تھو یک <docsLink> کھلاو سورس ٹولکٹ</docsLink> تحقیق گرے والہ ترقی یافتہ ریاست تمام ماڈلوں سوفنیمکالمے
