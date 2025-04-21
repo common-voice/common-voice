@@ -42,3 +42,6 @@ resource-deepspeech-info = مزیلا سو کھولاو زریعہاواز سو 
 resource-coqui-info = <coquiLink> Coqui </coquiLink>  کھلاو تقریر سو ٹیکنالجی سو دن تیوؤں پراجیکٹ ڈونگ ڇھیڇئی سو بنیاد رے  STT and TTS engines.
 community-playbook = کمیونٹی پلے بک
 resource-playbook-info = <playbookLink>  مدد گار رہنمائ ٹنڈ </playbookLink>  عام اواز سو اندر سفر مہ، لوکلائزیشن نو ڈیٹا سیٹ سو استعمال تکے اِس میل میل اسیئں کمیونٹی میل کش میلونݜ۔
+data-other-librispeech-description = لائبر تقریر 16Khz سو تقریباً  1000 گھنٹیوں سو یک کارپس تھو تس مہ انگریزی تقریر پڑاں گا تھو کاں چہء  لبریٹوکس پروجیکٹ نو پڑے والہ آڈیو کتابوں نو اخذ گی تھی
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM corpus  آڈیو ٹاک سوسندیل اسو آ تسوں ٹرانکرپشن  TED سو ویب سائیڈ رے موجود تھو
