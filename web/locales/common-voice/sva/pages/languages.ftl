@@ -19,3 +19,4 @@ language-validation-hours = საღათა̈რ
 language-validation-progress = ვალიდაცია̄̈ პროგრეს
 contribute = ლიმურჯუ̂ი
 get-involved-button = ა̈ხიკ მონაწილეობა
+get-involved-title = სგ'ა̄თხა̈ჲ წუ̂ლილ { $lang }-თე
