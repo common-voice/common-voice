@@ -1,9 +1,9 @@
-action-click = ɛ̀ñʊ́ʊ́ pʊ̀ɖʊ̀sɩ̀
+action-click = ɛ̀kɔ̀tɩ̀ pʊ̀ɖʊ̀sɩ̀
 action-tap = ɛ̀n̂ʊ́ʊ́ pʊ̀ɖʊ̀sɩ̀
-contribute = sɩ̀nàʊ́
-review = pɛ̀ʊ́
-skip = tɛ́ɖɩ̀
-shortcuts = kɩ̀jɛ̀bʊ́ʊ́
+contribute = sɩ̀náá
+review = pɛ̃́ŋ
+skip = ʈɛ́ɖɩ́
+shortcuts = kɩ̀jɛ̃ŋkʊ̀
 goal-help-recording = mʊ̀ɖɔ̀sɩ̀ kɛ̀, Common Voice wàtàlɩ̀ ɛ̀tɛ̀
 goal-help-validation = mʊ̀ɖɔ̀sɩ̀ kɛ̀, Common Voice wàtàlɩ̀ ɛ̀tɛ̀
 contribute-more = màmpɩ̀sɩ̀ màlà pɩ̀cɛ̀sɩ̀

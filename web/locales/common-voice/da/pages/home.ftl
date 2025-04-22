@@ -84,6 +84,7 @@ add-questions-coming-soon = Tilføj spørgsmål <small>(kommer snart)</small>
 transcribe-audio-coming-soon = Transskriber lyd <small>(kommer snart)</small>
 transcribe-audio = Transskriber lyd
 coming-soon = Kommer snart
+about-us = Om os
 
 ## MENU ITEMS TOOLTIPS
 
