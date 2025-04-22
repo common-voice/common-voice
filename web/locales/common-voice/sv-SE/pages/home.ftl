@@ -90,7 +90,7 @@ press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk
 coming-soon = Kommer snart
 about-us = Om oss
-scripted-speech = SKRIVAT TAL
+scripted-speech = SKRIVET TAL
 spontaneous-speech = SPONTANT TAL
 
 ## MENU ITEMS TOOLTIPS
