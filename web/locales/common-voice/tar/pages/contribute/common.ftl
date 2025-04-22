@@ -3,6 +3,7 @@ action-tap = Chapía
 contribute = Nikúra
 review = Inéa acha alá ka'a
 skip = Pochía
+shortcuts = Bakiwámi
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold>Pe taa
@@ -12,6 +13,7 @@ goal-help-recording = ¡Matétera ba kíti mo nikúriki Common Voice ma sébaki 
 goal-help-validation = ¡Matétera ba kíti mo nikúriki Common Voice ma sébaki <goalPercentage></goalPercentage> ma-pu si mo’ábo r’eké jípi rawé si jónsa { $goalValue }!
 contribute-more = Ma alámi jú kíti newáma { $count } wikábe?
 speak-empty-state = Ma kéta níwi raíchali kíti  moába raíchali jéna raichaliámi kítira
+no-sentences-for-variants = Siné káachi ke ta ní’wipo che ‘a jaré raíchaliti mujé raicháala.   ‘A kaa nakulíwilia kíti mo kipúma jaré cho ‘iséni ka raicháala
 speak-empty-state-cta = Ché ani jare namúti
 speak-loading-error = ké tási oméro chápía oraciones. pé alí ché inéba
 record-button-label = Moába mujé raíchála
@@ -52,6 +54,7 @@ report-other-comment =
     .placeholder = Aniwámi
 success = Alabé
 continue = Ché najáta
+report-success = Sébali a’láa e’na niwáaruami
 
 ## Speak & Listen Shortcuts
 
