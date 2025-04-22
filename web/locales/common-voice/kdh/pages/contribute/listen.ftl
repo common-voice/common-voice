@@ -1,4 +1,4 @@
-listen = nɩ̀ʊ́
+listen = wèlèsí
 listen-last-time-instruction = kànáŋɖɩ̀yʊʊ́ tʊ́
 
 ## MENU ITEM TOOLTIPS
