@@ -57,9 +57,11 @@ contact-common-voice = سادھارݨ اواج سنگٹھناس سمپرک کر�
 
 ## Sentence collection nav ids
 
-public-domain = جنتا ڈومین
+public-domain = جنتا کے ٻول
 citing-sentences = ٻولیں کا سرا دؔیتوڑے
 adding-sentences = ٻول سیمل کرنا
+reviewing-sentences = ٻولیں کی جانچ کرنا
+sentence-domain = جنتا کے ٻول
 
 ## Sentence collection sidebar content
 
