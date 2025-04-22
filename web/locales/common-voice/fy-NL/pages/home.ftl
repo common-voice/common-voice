@@ -96,16 +96,22 @@ transcribe-audio = Audio transkribearje <small>(ynkoarten)</small>
 press-and-stories = Parse en ferhalen
 community-and-languages = Mienskip en talen
 coming-soon = Ynkoarten beskikber
+about-us = Oer ús
+scripted-speech = SCRIPTE SPRAAK
+spontaneous-speech = SPONTANE SPRAAK
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerskippen, Parse en ferhalen, Mienskip en talen
+about-us-menu-item-tooltip = Lês mear oer de misje en it team efter Common Voice
+about-us-menu-item-aria-label = Opsjesmenu Oer ús
 partnerships-menu-item-tooltip = Partner wurde
 press-and-stories-menu-item-tooltip = Besykje ús blog of skriuw oer ús
 community-and-languages-menu-item-tooltip = Talen en mienskippen en Common Voice ûntdekke
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Opsjesmenu Oer
 partnerships-menu-item-aria-label = Mear oer partnerskippen mei Common Voice
 press-and-stories-menu-item-aria-label = Parseberjochten en ferhalen mei betrekking ta Common Voice benaderje
 community-and-languages-menu-item-aria-label = De troch Common Voice stipe mienskip en talen ferkenne
