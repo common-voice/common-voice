@@ -27,3 +27,4 @@ download-request-modal-title = ლა̈ტუ̂ირთა̈უ̂ ბმულ
 download-request-modal-description = ამჩუ ა̈რიხ ბმულა̈რ ისგუ̂ა ZIP ფაილრე ჩულა̈ტუ̂ირთა̈უ̂დ.
 download-request-link-text = Zip #{ $offset } { $total }-ხა̈ნქა
 download-request-metadata-link = წინადადება̄̈ლე ტექსტ
+download-request-link-single = აჯაღ ჯა̈მჲედა დააკოპირო ი სგ'ა̄თხია პირდაპირ URL-ა̈რ ისგუ ფაუ̂ორიტ ჩულა̈ტუ̂ირთა̈უ̂ მენეჯერთე̄სგა. ვადა 12 საღა̈თისგა ქა ხო̄ზიხ, მარე სი ჩიგარ ჩუ ჯა̈მჲედა ქ'ა̄ტეხ ალ გუ̂ერდთე მახე̄მი ლა̈სყიდ.
