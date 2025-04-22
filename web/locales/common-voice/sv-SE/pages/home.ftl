@@ -89,16 +89,22 @@ transcribe-audio = Transkribera ljud <small>(Kommer snart)</small>
 press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk
 coming-soon = Kommer snart
+about-us = Om oss
+scripted-speech = SKRIVAT TAL
+spontaneous-speech = SPONTANT TAL
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerskap, press och berättelser, gemenskap och språk
+about-us-menu-item-tooltip = Lär dig om uppdraget och teamet bakom Common Voice
+about-us-menu-item-aria-label = Om oss alternativmeny
 partnerships-menu-item-tooltip = Samarbeta med oss
 press-and-stories-menu-item-tooltip = Besök vår blogg eller skriv om oss
 community-and-languages-menu-item-tooltip = Upptäck språk och gemenskaper och Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Om alternativmenyn
 partnerships-menu-item-aria-label = Läs om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tillgång till pressmeddelanden och berättelser relaterade till Common Voice
 community-and-languages-menu-item-aria-label = Utforska communityn och språk som stöds av Common Voice
