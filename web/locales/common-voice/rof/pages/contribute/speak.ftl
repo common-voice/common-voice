@@ -43,9 +43,28 @@ create-profile-text = Ukundi ikaama mateta afo? (ika matata mesha(ika matata mes
 thanks-for-voice-toast = Kaakasha wannde taarifa mfuuhi
 thanks-for-voice-toast-error = Matata amekaa undusha fo
 first-cta-gender-select-default-option = Shakwa
+first-cta-gender-select-help-text =
+    .label = Wesheelezia ata ife waklifu au ksero?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Twakunda waharana na to
+second-cta-subtitle-text = Mteta mesha yande mkundano haati
+already-have-an-account = Wete akaunt (chasha)
+create-profile-button = Mateta mesha
+# IMAGE TAGS
+img-alt-success-checkmark = mafanikio mesha
+# menu item
+read-sentences = saakwa matetao
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Saakwa matetao (mang'ata (alisha buru)
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Soma mateta,uwiiye na ndoo akvesa
+read-sentences-menu-item-tooltip = Rekodi che manyika kilitetia kikwamwanu
+answer-questions-menu-item-tooltip = Rekodi chemanyika kive kilitetwa kikwamwanu
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Matete mesha
+read-sentences-menu-item-aria-label = Somakikiandike  na vandu veengi vamanye
+answer-questions-menu-item-aria-label = Ushenalo kwa vanduvoose vasaakwe he
