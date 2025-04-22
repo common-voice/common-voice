@@ -120,6 +120,7 @@ contribution-varying-pronunciations-title = Aniwáami jápi jarécho nísare
 contribution-varying-pronunciations-description = ⁠Sayeká kíri ma-pu r’e ko ke nakiméya bilé mo’árami ke ne’ chi yéna cho aniwáami.  Che jaréami ‘a nirú suwé r’iká raicháliami, jaré ke mo sinéti akéli a’le mujé bitélachi.  ‘A be r’egá a námitu bilé mo’árami ta ko joréami niráaka raíchika mo’árami ke pa, ‘a r’egá katúi kíri.
 contribution-varying-pronunciations-description-extended = Ma-pu r’e ko, ‘a mo machiyá ‘échi oselí e’néniami ke sinéti námuki  chi yéri raíchali wé cha ko pe chuwé aniyá, kíti katúi.  Ke mo sébali machisáa, rachiné che biléami simiwámi.
 contribution-varying-pronunciations-example-1-title = Sineámi keléala kajé bajíarai
+contribution-varying-pronunciations-example-1-explanation = [A’la  kámi - los - aniwáa ma jubámi (ma-pu r’eká España Méxiko ma) ke (ma-pu r’egá Cuba)]
 contribution-varying-pronunciations-example-2-title = Alá jú mi anísaa
 contribution-varying-pronunciations-example-2-explanation = [`Simí`pe je r’egá nokiwámi níisa ka be la chi yéna aniwáa pe bachabéala osirúachi]
 contribution-background-noise-title = Aneríwami jápi upáka raíchali moárami anecháni

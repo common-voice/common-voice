@@ -18,15 +18,15 @@ target-segment-learn-more = pàtɩ́lɩ́ pɩ́ɖɔ́
 vote-yes = hɛ́ɛ̀ŋ
 vote-no = áyɩ̀
 languages = kʊ̀nʊ̀mɩ́nɩ́
-submit-form-action = tɩ̀ɖɩ̀ɩ̀
+submit-form-action = yèkì
 
 ## Reporting
 
-report-title = rapɔr tɩ̀ɖɩ̀náʊ̀
-report-offensive-language = kàlɩ́mbànɩ́ tɔ́m
-report-offensive-language-detail = tɔ́m píyá mémbà kàlɩ́mbànɩ́ yáá tʊ́tɩ̀ tɔ́m wɛ̀ pɩ́tá ná
-report-different-language = kʊ́nʊ́ʊ̀ lɩ́ŋkɩ́
-report-different-language-detail = kɩ̀cɛ̀bʊ́ʊ́
+report-title = íyèkì cáɖɩ̀tɩ̀
+report-offensive-language = kàlɩ́mbànɩ́ tɔ́m/tɔ́m tɩ̀tɛ̀
+report-offensive-language-detail = tɔ́m tɩ̀ʈɛ̀ yà kʊ́tʊ̀nɩ̀ wɛ̀ tɔ́m tɩ̀nà tɩ̀tɑ́ɑ́
+report-different-language = kʊ́nʊ́ʊ̀ nàkɩ̀ɖɩ̀
+report-different-language-detail = pámàá tɔ́m kʊ̀nʊ́m kɩ̀ná kɩ́nɖɩ́ nà wéŋkì màmǝmadɩ̀ nɛ̀ kɩ̀dá
 report-difficult-pronounce = ʈɩ̀tɩ̀tàsɩ́ ʈɩ̀wɛ̀nɩ̀ fraz náá sɩ̀ ʈɩ̀là ârejistre kʊ́nʊ́ʊ́ kɩ́nɛ̀ kɩ̀táá
 continue = pàtásɩ̀ pɛ̀ʈɛ́ɛ́
 
