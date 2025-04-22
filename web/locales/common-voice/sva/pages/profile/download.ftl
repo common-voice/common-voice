@@ -14,4 +14,6 @@ download-size = ზომა
 download-selected = ჟი ლჷთიშ
 download-start = პროფილიშ ლიტუ̂ირთა̈უ̂ი̄ თარიღ
 download-request = ნა̈ირუ̂ლე ლიჰრი
-download-requests = ნჯუ̂ინელ მოთხოუ̂ნა̄̈ლ
+download-requests = ნა̈ჲრუ̂ლე ლიტუ̂ირთა̈უ̂ი̄ ჯუ̂ინელ მოთხოუ̂ნა̄̈ლ
+download-requests-info = შომა სი ხიჰრი ისგუ ჩანაწერა̈ლს, ნა̈ჲ კომპილაციას ხუ̂ა̈ჩოდ ეშხუ ჰედ ხოფში̄რა ZIP ფაილა̈რდ. ამჩუ ა̈რიხ ისგუ ჯუ̂იელ მოთხოუ̂ნა̄̈ლ:
+download-request-button = ჩამოტვირთვა
