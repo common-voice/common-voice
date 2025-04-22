@@ -34,12 +34,12 @@ x-weeks-short =
 x-months-short =
     { $count ->
         [one] { $count } თუ̂ე
-       *[other] { $count } თუ̂ე
+       *[other] { $count } თუ̂ეა̈რ
     }
 x-years-short =
     { $count ->
-        [one] { $count }ი
-       *[other] { $count }ი
+        [one] { $count } ეშხუ
+       *[other] { $count } იორი
     }
 help-make-dataset = ლა̈ნმა̈რჯუ̂ ხარისხია̈ნ ჩია̈შდ ხელმისაწუ̂დომ ხმოუ̂ან მონაცემრე ლასყე̄ნას.
 sign-up-account = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ ანგარიშჟი
@@ -86,6 +86,7 @@ transcribe-audio = ახა̈სყ აუდიოშ ტრასკრიფ
 press-and-stories = პრესა ი ისტორია̄̈ლ
 community-and-languages = საზოგადოება ი ნინა̈რ
 coming-soon = დო̄სგ
+about-us = ნიშგუ̂ეჲ ბედჟი
 
 ## MENU ITEMS TOOLTIPS
 
