@@ -17,3 +17,6 @@ download-request = ნა̈ირუ̂ლე ლიჰრი
 download-requests = ნა̈ჲრუ̂ლე ლიტუ̂ირთა̈უ̂ი̄ ჯუ̂ინელ მოთხოუ̂ნა̄̈ლ
 download-requests-info = შომა სი ხიჰრი ისგუ ჩანაწერა̈ლს, ნა̈ჲ კომპილაციას ხუ̂ა̈ჩოდ ეშხუ ჰედ ხოფში̄რა ZIP ფაილა̈რდ. ამჩუ ა̈რიხ ისგუ ჯუ̂იელ მოთხოუ̂ნა̄̈ლ:
 download-request-button = ჩამოტვირთვა
+download-request-title = { $created } მჷსყე ლი
+download-request-description = { $clipCount } ხმოუ̂ან კლიპრეშ, თელ არქიუ̂ი ზომა{ $size }. უ̂ადა ხეშდხენი{ $expires }
+download-request-archive-single = ეშხუ ZIP ფაილ შეიცავს
