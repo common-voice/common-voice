@@ -118,6 +118,7 @@ contribution-varying-pronunciations-description-extended = Ma-pu r’e ko, ‘a 
 contribution-varying-pronunciations-example-1-title = Sineámi keléala kajé bajíarai
 contribution-varying-pronunciations-example-2-title = Alá jú mi anísaa
 contribution-background-noise-title = Aneríwami jápi upáka raíchali moárami anecháni
+contribution-background-noise-description-extended = Ma-pu r’e ko ripúsa we la ko jaré cho anisáa ‘échi mo’árami, kíti katúi we cha ko námitami níisa suwába ikíi osirúu.
 contribution-background-noise-example-1-fixed-title = <strong>[Atísia] </strong>Dinosaurio wéli<strong>[ rosowali]</strong>Triásico.
 contribution-background-noise-example-2-fixed-title = Dinosaurio wé <strong>rosowáli</strong>  Triásico
 contribution-background-noise-example-2-explanation = [Biléana texto ke ompáru namía]

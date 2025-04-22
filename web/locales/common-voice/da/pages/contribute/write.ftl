@@ -21,6 +21,12 @@ add-sentence-error = Fejl ved tilføjelse af sætning
 required-field = Udfyld venligst dette felt.
 single-sentence = Enkelt sætning
 sentence-domain-select-placeholder = Vælg op til tre domæner (valgfrit)
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+general = Generelt
+# Sentence Domain dropdown option
+healthcare = Sundhed
 sentence-variant-select-placeholder = Vælg en variant (valgfrit)
 
 ## BULK SUBMISSION
