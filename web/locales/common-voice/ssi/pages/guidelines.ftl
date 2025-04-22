@@ -58,6 +58,8 @@ contact-common-voice = سادھارݨ اواج سنگٹھناس سمپرک کر�
 ## Sentence collection nav ids
 
 public-domain = جنتا ڈومین
+citing-sentences = ٻولیں کا سرا دؔیتوڑے
+adding-sentences = ٻول سیمل کرنا
 
 ## Sentence collection sidebar content
 
