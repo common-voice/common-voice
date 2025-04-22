@@ -19,6 +19,7 @@ validate-readings-coming-soon = ၵူတ်ႇထတ်းသဵင်ဢၢၼ
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ၵူတ်ႇထတ်းၵၢၼ်ဢၢၼ်ႇ၊ လႄႈၵၢၼ်ထွတ်ႇသဵင်
 
 ## MENU ITEM ARIA LABELS
 
