@@ -99,6 +99,7 @@ contribution-for-example = Jápi ríka
 contribution-misreadings-title = Cháti ríka natáwami
 contribution-misreadings-description = Akelíwa, kilípi niráa machí pe cha ne´chi yéna ko osirúachi jónsa; kíti nakí chi yéri mo’árami ma-pu r’e ko ke a’nárita nísa ma-pu osirú mo’árami ma. <br/> Jaré ke a’láanami , ‘échi ko ju:
 contribution-misreadings-description-extended-list-1 = Bilé -k r’áchi (vocal yúa) ma jubámi raicháliachi mo’alíachi.
+contribution-misreadings-description-extended-list-2 = 20. Bilé ro <strong>'s'</strong> jubámi bilé ne’okíchi.
 contribution-misreadings-description-extended-list-3 = E’neká jaré raíchalitiri a’ r’eká ke káachi, ‘échi ko “pal” je aniyña r’ya “para el, we la ko kuwána mi.
 contribution-misreadings-description-extended-list-4 = Wikáwa jubámila raichálitiri ripúnaka olaká mo’árami jiyáwiti newáka.
 contribution-misreadings-description-extended-list-5 = Wikása oséli inéa bilépi raíchali
