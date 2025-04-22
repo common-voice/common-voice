@@ -1,5 +1,6 @@
 listen = سُڻڻ
 listen-subtitle = آوازان چِي تصدِيقِي ۾ اَمچِي مدد ڪرا
+listen-abort-title = ڪِلپان چِي تصدِيڪ پُورِي ڪرا؟
 listen-abort-cancel = تصدِيق جارِي راکا
 listen-abort-confirm = تصدِيق پُورِي ڪرا۔
 # Menu item

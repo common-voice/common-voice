@@ -4,9 +4,13 @@
 error = შეცდომა
 action-click = ჟილითლე
 action-tap = ლიგდური
+# Label for language switcher
+platform-language = პლატფორმა̄̈ ნინ
+platform-language-tooltip-text = აცა̄̈დი საიტი ტექსტს გარ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = მონაცემრეშ ხორეუ̂თეჲსგა წვლილი ლიდი { $language }-ეშდ
+contribution-picker-tooltip-text = აცა̄დუნე ნინი მონაცემრე ბაზას, ხედუ̂ა̄̈ჲთე̄ჲსგა სი ეჯღუ̂ა წუ̂ლილ
 # Label for button on contribution switcher
 change = ჟი ლისპე
 coming-soon = დო̄სგ ქა იწუ̂ე̄ნიხ იშგენ ნჷნა̈რი
@@ -21,6 +25,7 @@ report-button = ანგარიშ
 skip-button = ქა ლიცვრე
 submit-button = ქა ლიზზი
 contribute = ლიმურჯუ̂ი
+request-new-language = ხიჰრ მახე ნინ
 
 ## Navbar
 

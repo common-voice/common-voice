@@ -4,10 +4,10 @@ sc-review-lang-not-selected = ɩ́ tà lǝ̀sǝ̀ pàà wʊ̀tã̀ŋ. ɩ́ s
 sc-review-title = ɩ́ wììl mààtǝ̀
 sc-review-loading = máátǝ̀ gbòòlʊ́ŋ…
 sc-review-select-language = ɩ́ lǝ́sǝ́ wʊ̀tã̀ŋ kàrǝ̀ nǝ̀ ɩ́ wííl mààtǝ̀.
-sc-review-no-sentences = páá máátǝ̀ tã̀ŋ sǝ̀ á wììl. ɩ́ pɩ́ɩ́sʊ́ʊ́ nǝ̀ ɩ́ tásǝ̀ máátǝ̀</addLink>
+sc-review-no-sentences = páá máátǝ̀ tã̀ŋ sǝ̀ á wììl. ɩ́ pɩ́ɩ́sʊ́ʊ́ nǝ̀<addLink> ɩ́ tásǝ̀ máátǝ̀</addLink>
 sc-review-form-prompt =
     .message = à tà jékǝ̀ mààtǝ̀ wóntǝ́ à wììlà ná, ɩ́ wɩ́ɩ́ rʊ́ʊ́ já ?
-sc-review-form-usage = ʊ̀ cí sǝ̀ mààtǝ̀ sàrà, tùù nǝ̀ ʊ̀ wàl ñá ñɩ́ntʊ́ʊ́r rʊ̀ʊ̀ . ʊ̀ tà sàrǝ̀,  tùù nǝ̀ ʊ̀ wàl nà ñá ñɩ́ŋwɩ́ɩ́r rʊ̀ʊ̀. tùù nǝ̀ ʊ̀ kpà nà àsó nǝ́ ŋ̀ só tǝ̀ rʊ̀ʊ̀. <strong> ŋ̀ lɔ̀ɔ̀sǝ̀ ntǝ̀r kà ñà tǝ̀mǝ̀r tà, ràà sòwà, jèkǝ̀ tǝ́ !
+sc-review-form-usage = ʊ̀ cí sǝ̀ mààtǝ̀ sàrà, tùù nǝ̀ ʊ̀ wàl ñá ñɩ́ntʊ́ʊ́r rʊ̀ʊ̀ . ʊ̀ tà sàrǝ̀,  tùù nǝ̀ ʊ̀ wàl nà ñá ñɩ́ŋwɩ́ɩ́r rʊ̀ʊ̀. tùù nǝ̀ ʊ̀ kpà nà àsó nǝ́ ŋ̀ só tǝ̀ rʊ̀ʊ̀. <strong> ŋ̀ lɔ̀ɔ̀sǝ̀ ntǝ̀r kà ñà tǝ̀mǝ̀r tà, ràà sòwà, jèkǝ̀ tǝ́ !</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = àrǝ̀liìnɖǝ̀ :{ $sentenceSource }
@@ -43,8 +43,8 @@ sc-criteria-make-sure = ɩ́ ñǝ̀l nǝ̀ ɩ́ nà sǝ̀ mààtǝ̀ tɩ̀ŋ
 sc-criteria-item-1 = ʊ̀ wòsù sǝ̀ à mà mààtǝ̀ kà sàrǝ̀tǝ̀.
 sc-criteria-item-2 = ʊ̀ wòsù sǝ̀ mààtǝ̀ kà wɩ̀ɩ̀ sàrǝ̀tǝ̀.
 sc-criteria-item-3 = ʊ̀ wòsù sǝ̀ à pɩ̀ɩ̀sǝ̀ nǝ̀ àkàl mààtǝ̀.
-sc-criteria-item-4 = ʊ̀ cí sǝ̀ mààtǝ̀ tɩ̀ŋkʊ̀ pààtǝ̀ rʊ̀ʊ̀, ɩ́ ñʊ̀ʊ̀ àtìsùŋ wììr rʊ̀ʊ̀ kà ñɩ́ntʊ̀ʊ̀r rʊ̀ʊ̀.
-sc-criteria-item-5-2 = ʊ̀ cí sǝ̀ mààtǝ̀ pǝ̀ tɩ̀ŋkʊ̀ pààtǝ̀ rʊ̀ʊ̀, ɩ́ ñʊ̀ʊ̀ àkìsùŋ wììr rʊ̀ʊ̀ kà ñɩ́ŋwɩ̀ɩ̀r rʊ̀ʊ̀. ʊ̀ cí sǝ̀ lǝ̀sʊ́ŋ wɩ̀ɩ̀ mɩ̀ kààr, ɩ́ jél nǝ̀ ɩ́ wál nà jǝ̀sà tà.
+sc-criteria-item-4 = ʊ̀ cí sǝ̀ mààtǝ̀ tɩ̀ŋkʊ̀ pààtǝ̀ rʊ̀ʊ̀, ɩ́ ñʊ̀ʊ̀ « àtìsùŋ » wììr rʊ̀ʊ̀ kà ñɩ́ntʊ̀ʊ̀r rʊ̀ʊ̀.
+sc-criteria-item-5-2 = ʊ̀ cí sǝ̀ mààtǝ̀ pǝ̀ tɩ̀ŋkʊ̀ pààtǝ̀ rʊ̀ʊ̀, ɩ́ ñʊ̀ʊ̀ « àkìsùŋ » wììr rʊ̀ʊ̀ kà ñɩ́ŋwɩ̀ɩ̀r rʊ̀ʊ̀. ʊ̀ cí sǝ̀ lǝ̀sʊ́ŋ wɩ̀ɩ̀ mɩ̀ kààr, ɩ́ jél nǝ̀ ɩ́ wál nà jǝ̀sà tà.
 sc-criteria-item-6 = ʊ̀ cí sǝ̀ à wììlùŋ mààtǝ̀ kpǝ̀rà, ɩ́ sǝ́ndà rà hìwù mààtǝ̀ kʊ́fátǝ̀ !
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = ɩ́ wììl <icon></icon>nǝ̀ ɩ́ nq̀ sǝ̀ mààtǝ̀ sàrà jà

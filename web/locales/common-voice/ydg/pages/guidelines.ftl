@@ -49,9 +49,11 @@ public-domain = دے عام آدمف دائرو
 citing-sentences = ڤے جملغف حوالو لیا
 adding-sentences = جملغے شامل کڑا
 reviewing-sentences = ڤے جملغف دیبارو اوݱڑا
+sentence-domain = جملو دائرو
 
 ## Sentence collection sidebar content
 
+citing-sentences-subheader-websites = ویب سائٹس
 
 ## Question collection ids
 

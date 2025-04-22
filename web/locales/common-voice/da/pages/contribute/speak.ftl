@@ -43,12 +43,14 @@ terms-disagree = Jeg accepterer ikke
 first-cta-header-text = Tak fordi du donerede dine stemmoptagelser!
 why-donate = Hvorfor spørger du?
 add-information-button = Tilføj information
+create-profile-text = Vil du gemme dine oplysninger? <createProfile>Opret en profil</createProfile>
 first-cta-gender-select-default-option = Vælg en mulighed
 already-have-an-account = Har du allerede en konto? <login>Log ind</login>
 create-profile-button = Opret en profil
 
 ## MENU ITEM TOOLTIPS
 
+read-sentences-menu-item-tooltip = Optag dig selv, mens du oplæser sætninger på dit sprog
 
 ## MENU ITEM ARIA LABELS
 

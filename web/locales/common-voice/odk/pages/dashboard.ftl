@@ -1,5 +1,10 @@
 ## Dashboard
 
+your-languages = تمچِيا ٻولِيا
+stats = انگ اکرين
+awards = انعام
+you = تمهِين
+everyone = هرڪو (هر هيڪ)
 show-ranking = مانڇا درجا ڏِکاڻا
 
 ## Custom Goals

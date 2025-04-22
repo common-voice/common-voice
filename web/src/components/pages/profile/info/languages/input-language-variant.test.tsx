@@ -50,7 +50,7 @@ describe('InputLanguageVariant', () => {
     // pick an option in the select box
     userEvent.selectOptions(
       screen.getByLabelText('Which variant of Cymraeg do you speak?'),
-      screen.getByRole('option', { name: 'North-Western Welsh' })
+      screen.getByRole('option', { name: 'North-Western Welsh [cy-north]'})
     );
 
     const expectedLanguage = {

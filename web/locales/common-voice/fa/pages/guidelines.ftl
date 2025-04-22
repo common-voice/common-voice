@@ -109,3 +109,4 @@ domain-explanation = زمینه به موضوع جمله اشاره دارد. د
 
 ## Question collection sidebar content
 
+spelling-and-pronunciation = دیکته و علامت‌گذاری
