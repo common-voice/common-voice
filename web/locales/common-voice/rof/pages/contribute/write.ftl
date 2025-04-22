@@ -132,9 +132,22 @@ small-batch-sentences-rule-1 = Ngeengera matata omaki?
 small-batch-sentences-rule-2 = Engera mateta kila handu ete mstari' Ngeengera
 small-batch-sentences-rule-4 = Emgera matata 1,000
 small-batch-sentences-rule-5 = Matetao piu lasima avae handu hamu
+small-batch-sentences-rule-6 = Mtetao lasma aveahandu hamu
+# menu item
+add-sentences = Ongera mateta
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Engera na usaakwe matetao. ongera maswli ,mwandiko wa sauti
+add-sentences-menu-item-tooltip = Engera mateta kikwamwanu
+review-sentences-menu-item-tooltip = Shungusa mateta kikwamwanu
+add-questions-menu-item-tooltip = Engera mateta kikwamwanu
+transcribe-audio-menu-item-tooltip = Rekodi Fidio kwa kikwamwanu
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Engera matete uike ifailini udue na maoniyafo
+add-sentences-menu-item-aria-label = Engera mateta kwa vandu voose vamanye
+review-sentences-menu-item-aria-label = Saakwa mateta vandu vannde.
+add-questions-menu-item-aria-label = Nnde mateta mahia kwa vandu voose vasome
+transcribe-audio-menu-item-aria-label = Shungulya rekodiyo ya sauti ishe mwandikoni
