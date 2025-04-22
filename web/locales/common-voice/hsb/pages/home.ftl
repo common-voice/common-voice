@@ -93,6 +93,7 @@ press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
 coming-soon = Bórze k dispoziciji
 about-us = Wo nas
+scripted-speech = RĚČENJE ZE SKRIPTOM
 spontaneous-speech = SPONTANE RĚČENJE
 
 ## MENU ITEMS TOOLTIPS
@@ -127,7 +128,7 @@ get-started = Prěnje kroki <icon><icon>
 
 action-items-section-title = Common Voice je darmotna platforma wotewrjeneho žórła za wot zhromadźenstwa nawjedowane wutworjenje datow
 action-items-section-subtitle = Kóždy móže swoju rěč wobchować, zaso wožiwić a polěpšić, hdyž tekst a rěčenske datowe sadźby dźěli, wutworja a rjaduje.
-scripted-card-header = Napisane rěčenje
+scripted-card-header = Rěčenje ze skriptom
 scripted-card-content = Čitajće sady wótře w swojej rěči a přinošujće k najwšelakorišej zjawnej rěčnej datowej sadźbje w swěće.
 spontaneous-card-header = Spontane rěčenje
 spontaneous-card-content = Wotmołwće na namołwy, zo byšće datowe sadźby za organiske, wobchadnorěčne konteksty wutworił. To je perfektne za předewšěm ertne rěče.
