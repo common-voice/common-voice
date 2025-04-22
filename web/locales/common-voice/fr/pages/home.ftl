@@ -88,6 +88,7 @@ transcribe-audio = Transcriptions audio <small>(prochainement)</small>
 press-and-stories = Presse et articles
 community-and-languages = Communautés et langues
 coming-soon = Prochainement
+about-us = À propos
 
 ## MENU ITEMS TOOLTIPS
 

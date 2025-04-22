@@ -84,10 +84,14 @@ transcribe-audio = Trascrivi audio <small>(disponibile a breve)</small>
 press-and-stories = Stampa e storie
 community-and-languages = Comunità e lingue
 coming-soon = Disponibile a breve
+about-us = Informazioni
+scripted-speech = DISCORSO CON TRASCRIZIONE
+spontaneous-speech = DISCORSO SPONTANEO
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Collaborazioni, stampa e storie, comunità e lingue
+about-us-menu-item-tooltip = Scopri la missione e il team di Common Voice
 partnerships-menu-item-tooltip = Diventa nostro partner
 press-and-stories-menu-item-tooltip = Visita il nostro blog o scrivi di noi
 community-and-languages-menu-item-tooltip = Scopri lingue, comunità e Common voice

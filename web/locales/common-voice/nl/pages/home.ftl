@@ -86,6 +86,7 @@ transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
 press-and-stories = Pers en verhalen
 community-and-languages = Gemeenschap en talen
 coming-soon = Binnenkort beschikbaar
+about-us = Over ons
 
 ## MENU ITEMS TOOLTIPS
 
