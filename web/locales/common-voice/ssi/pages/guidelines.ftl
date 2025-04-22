@@ -61,6 +61,7 @@ public-domain = جنتا کے ٻول
 citing-sentences = ٻولیں کا سرا دؔیتوڑے
 adding-sentences = ٻول سیمل کرنا
 reviewing-sentences = ٻولیں کی جانچ کرنا
+sentence-domain = ٻول ڈومین
 
 ## Sentence collection sidebar content
 
