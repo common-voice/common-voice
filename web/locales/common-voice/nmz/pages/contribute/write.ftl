@@ -57,30 +57,107 @@ language_fundamentals = àpààsǝ̀nʊ̀ŋ tóm kà wʊ́tásǝ̀ tà (a
 # Sentence Domain dropdown option
 media_entertainment = tóm rɩ̀ɩ̀sʊ́ŋ tǝ̀má nǝ̀ àséntɩ́ɩ̀
 # Sentence Domain dropdown option
-news_current_affairs = wómpǝ́ wɩ̀ɩ̀ pǝ́ lákǝ́ ná
-sentence-variant-select-placeholder = ñʊ́ʊ́ ñá rìtàfàláà wʊ̀tã́ŋ rʊ̀ʊ̀ (ʊ̀ tã̀ŋ féféré)
-sentence-variant-select-multiple-variants = wóntǝ̀ ʊ̀ mɔ̀ɔ́nà sǝ̀ àsǝ́m wʊ̀tã̀ŋ rʊ̀ʊ̀ nà
+nature_environment = kòrùŋ nǝ̀ wóntǝ̀ cóò rá ná
+# Sentence Domain dropdown option
+news_current_affairs = kòrùŋ rʊ̀ʊ̀ tóm
+# Sentence Domain dropdown option
+technology_robotics = ñʊ́ʊ́tǝ̀ lón
+sentence-variant-select-label = mààtǝ̀ ntǝ́ tǝ̀lɩ́ɩ̀ntǝ̀
+sentence-variant-select-placeholder = ɩ́ lǝ́sǝ́ wʊ́táŋ kà ká lɩ́ɩ̀ntǝ̀ (ʊ̀ tã̀ŋ féféré)
+sentence-variant-select-multiple-variants = wóntǝ̀ ʊ̀ mɔ̀ɔ́nà sǝ̀ àsǝ́m wʊ̀tã̀ŋ rʊ̀ʊ̀ nà / wʊ̀tásǝ́ lɩ́ɩ̀nsǝ̀ kpàtǝ̀r
 
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = jèkǝ̀ <icon></icon>agbèntùŋ tà mààtǝ̀
-sc-bulk-upload-instruction = rʊ́ ñá tákǝ́rã́ŋ kà tàà cé jàà <uploadButton> ñʊ́ </uploadButton> rʊ̀ʊ̀ nǝ̀ ŋ́ jékǝ̀ ká
-sc-bulk-upload-instruction-drop = rʊ́ tákǝ́rã̀ŋ kà cè nǝ̀ ŋ́ jékǝ́ ká
+sc-bulk-upload-header = ɩ́ jèkǝ̀ <icon></icon> jǝ́rá tǝ́n mààtǝ̀
+sc-bulk-upload-instruction = ɩ́ tíísì mɩ́ tákǝ́rã́ŋ kà tàà cé jàà <uploadButton> ɩ́ ñʊ́ </uploadButton> rʊ̀ʊ̀ nǝ̀ ɩ́ jékǝ̀ ká
+sc-bulk-upload-instruction-drop = ɩ́ rʊ́ tákǝ́rã̀ŋ kà cè nǝ̀ ɩ́ jékǝ́ ká
 bulk-upload-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ àkpá tóm nǝ̀ àtàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = nǝ́ ɩ́ sòòlà sǝ̀ ɩ́ t tómpǝ̀ tã̀ŋ rà kpààrǝ́tǝ tóm tà ná nǝ̀ ɩ́ tàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = ɩ́ lìmìsì mɩ́ tóm kà táà cé nǝ̀ ɩ́ lèl
+template-file-additional-information = nǝ́ ɩ́ sòòláà sǝ̀ ɩ́ há tóm pǝ̀ tã̀ŋ rà kpààrǝ́tǝ tóm tà ná nǝ̀ ɩ́ tàsǝ̀ mpǝ̀ ñɩ̀ rʊ̀ʊ̀, rà hɩ̀nɖʊ́ mɩ̀ sǝ̀ ɩ́ jáà<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = ɩ́ tàsǝ̀ mɔ̀ɔ̀sʊ̀ŋ kà mɩ́ tákǝ́ráŋ rʊ́wʊ̀ŋ kà cé
 try-upload-again-md = ɩ́ tàsǝ̀ mɔ̀ɔ̀sʊ̀ŋ kà jékùŋ
-select-file = ñʊ́ʊ́ tákǝ́ràŋ náŋkár rʊ̀ʊ̀
-select-file-mobile = ñʊ́ʊ́ àjèkùŋ tàkǝ̀ràŋ náŋkár rʊ̀ʊ̀
-accepted-files = àtìsùŋ tóm : tsv rǝ̀cél
-minimum-sentences = tómpǝ̀ ʊ̀ mɔ̀ɔ̀nà sǝ̀ ànà tàkǝ̀ràŋ tà ná :1 000
+select-file = ɩ́ lǝ́sǝ́ tákǝ́ràŋ kàr
+select-file-mobile = ɩ́ lǝ́sǝ́ àjèkùŋ tàkǝ̀ràŋ kàr
+accepted-files = tákǝ́rásǝ́ kútísísásǝ́ : tsv rǝ̀cél
+minimum-sentences = tómpǝ̀ ʊ̀ tà mɔ̀ɔ̀nà sǝ̀ àpàsǝ̀ pǝ́ tá kà tàkǝ̀ràŋ tà ná :1 000
+maximum-file-size = tákǝ́rá kpɔ̀ɔ̀lʊ́ŋ kèrìm : 25 Mo
+what-needs-to-be-in-file = ʊ̀ mɔ̀ɔ̀nà sǝ̀ à rʊ́ wóntàŋ mà tàkǝ̀ràŋ tàà?
+what-needs-to-be-in-file-explanation = rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ wál nǝ̀ ɩ́ wííl<templateFileLink> kpààrǝ̀tǝ̀ tóm</templateFileLink> ʊ̀ wósúú sǝ̀ mɩ́ mààtǝ̀ káà wɩ̀ɩ̀ nà tǝ́tɩ̀ nà (CC0 pààtǝ̀ jàà tǝ̀mǝ́r cǝ́fár wónɖǝ̀ rǝ̀ cí háà nàmʊ́ŋ sǝ̀ à lànɖǝ́ tǝ́mǝ́r ná ). mààtǝ̀ kʊ́sárǝ̀tǝ̀ tàŋ káàr kà kàlʊ̀ŋ. ʊ̀ wósúú sǝ̀  mààtǝ̀ kʊ́jékǝ́tǝ̀ káà là 10-15 cǝ́lcǝ́lnáà. ʊ̀ tà mɔ̀ɔ̀nà sǝ̀ àkɔ̀ntà mààtǝ̀, jǝ́rá jǝ̀lá nǝ̀ mààtǝ̀ jém jǝ̀ntǝ̀.
+upload-progress-text = ʊ̀ wɩ̀ɩ̀ jèkúŋ rʊ̀ʊ̀ …
+sc-bulk-submit-confirm = má ñʊ́kʊ̀ʊ̀ níír sǝ̀sǝ̀ mààtǝ̀ ntǝ̀ cíí<wikipediaLink> jǝ́rá tǝ́n àwóór tóm</wikipediaLink> nǝ̀ mà tàsʊ́ʊ́ sǝ̀ à hààm nàmʊ́ŋ sǝ̀ mà jékǝ̀ tǝ́.
+bulk-upload-success-toast = mààtǝ̀ kʊ́jékǝ̀tǝ̀
+bulk-upload-failed-toast = mààtǝ̀ jékǝ̀tǝ̀ tà wál, rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ pààsǝ̀.
+bulk-submission-success-header = ɩ́ rʊ́ʊ̀ rá níír kà mààtǝ̀ kpàtǝ̀r jèkʊ́ŋ tà, mɩ́ nǝ̀ tǝ̀mǝ́r !
+bulk-submission-success-subheader = ɩ́ sǝ́ŋ kɔ̀ɔ̀mɔ̀n fɔ̀wɩ̀ɩ̀sǝ̀ sǝ̀ ɩ̀ là jà àjʊ̀kʊ̀tà mààtǝ̀ tǝ̀mǝ́r !
+upload-more-btn-text = ɩ́ jékǝ̀ mààtǝ̀ lɩ̀ɩ̀ntǝ̀
+file-invalid-type = tákǝ̀ràŋ tàsàr
+file-too-large = tákǝ̀ràŋ kǝ̀l kpɔ̀ɔ̀lʊ́ŋ
+file-too-small = tákǝ́ràŋ kǝ́l cúŋká
+too-many-files = tákǝ́rásǝ̀ kǝ̀l hàlì
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> ɩ́ tàsǝ̀ jǝ́rá tǝ́n àwóór mààtǝ̀ kà kpàtǝ̀r
+multiple-sentences-error = ɩ́ kàà pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ɩ́ jékǝ̀ mààtǝ̀ kpàtǝ̀r kà tám kʊ́rǝ́mpǝ̀
+exceeds-small-batch-limit-error = ɩ́ kàà pɩ̀ɩ̀sʊ̀ʊ̀ sǝ̀ ɩ́ rʊ́ mààtǝ̀ nǝ̀ ʊ́ tésǝ́ 1 000
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ càcàràŋ 1 tàà.
+       *[other] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ càcàsǝ̀ { $retryLimit } tàà.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ cǝ̀lcǝ̀l 1 tàà.
+       *[other] ɩ́ tàl mààtǝ̀ kèrǝ̀m. rà hɩ́nɖʊ̀ mɩ̀ sǝ̀ ɩ́ pààsǝ̀ cǝ̀lcǝ̀l { $retryLimit } tàà.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] ɩ́ tál mɩ́ mààtǝ̀ jèkùŋ kèrǝ̀m kà cè. rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ jél nǝ̀ ʊ̀ lá càcàràŋ 1 ʊ̀ fɩ́ɩ̀ nǝ́ ɩ́ jékǝ̀ mààtǝ̀ nɩ́ɩ̀ntǝ̀ kà àwòòr rǝ́ tàà. ɩ́ lá súrú, mɩ́ nǝ̀ tǝ̀mǝ́r !
+       *[other] ɩ́ tál mɩ́ mààtǝ̀ jèkùŋ kèrǝ̀mrà kà cè.rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ jél nǝ̀ ʊ̀ lá càcàràŋ { $retryLimit } ʊ̀ fɩ́ɩ̀ nǝ́ ɩ́ jékǝ̀ mààtǝ̀ nɩ́ɩ̀ntǝ̀ kà àwòòr rǝ́ tàà. ɩ́ lá súrú, mɩ́ nǝ̀ tǝ̀mǝ́r !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ jél nǝ̀ ʊ̀ lá cǝ̀lcǝ̀l 1 ʊ̀ fɩ́ɩ̀ nǝ́ ɩ́ jékǝ̀ mààtǝ̀ nɩ́ɩ̀ntǝ̀ kà àwòòr rǝ́ tàà.  ɩ́ lá súrú, mɩ́ nǝ̀ tǝ̀mǝ́r !
+       *[other] rà hɩ́nɖʊ́ mɩ̀ sǝ̀ ɩ́ jél nǝ̀ ʊ̀ lá cǝ̀lcǝ̀l { $retryLimit } ʊ̀ fɩ́ɩ̀ nǝ́ ɩ́ jékǝ̀ mààtǝ̀ nɩ́ɩ̀ntǝ̀ kà àwòòr rǝ́ tàà.  ɩ́ lá súrú, mɩ́ nǝ̀ tǝ̀mǝ́r !
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } àkpáá mààtǝ̀ kà{ $totalSentences } tàà
+       *[other] { $uploadedSentences } àkpáá mààtǝ̀ kà{ $totalSentences } tàà
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } àkpàà mààtǝ̀ kà { $totalSentences }rʊ́ʊ̀. ɩ́ ñʊ́ʊ̀<downloadLink> cè</downloadLink> nǝ̀ ɩ́ rɩ̀ɩ̀sǝ̀ àkìsùŋ mààtǝ̀.
+       *[other] { $uploadedSentences } àkpàà mààtǝ̀ kà { $totalSentences }rʊ́ʊ̀ nà. ñʊ́ʊ̀<downloadLink> cè</downloadLink> nǝ̀ ɩ́ rɩ̀ɩ̀sǝ̀  àkìsùŋ mààtǝ̀.
+    }
+small-batch-sentences-rule-1 = ɩ́ tǝ̀ŋkǝ̀ à rʊ̀wá sǝ̀ à là wóm nùwàŋ ná  « mààtǝ̀ wóntã̀ŋ kànà mà tàsǝ̀ ? »
+small-batch-sentences-rule-2 = ɩ́ tásǝ̀ mààtǝ̀ kà  tàà
+small-batch-sentences-rule-3 = ñʊ́ʊ̀ « sʊ̀wɩ̀ɩ̀ » rʊ̀ʊ̀ nǝ̀ ɩ́ rʊ́ mààtǝ̀ kà ntèntè
+small-batch-sentences-rule-4 = ɩ́ tásǝ̀ mààtǝ̀ kà kàkáà 1 000
+small-batch-sentences-rule-5 = ʊ̀ mɔ̀ɔ̀ná sǝ̀ mààtǝ̀ tǝ́n kpéntǝ̀ rǝ̀líínɖǝ̀
+small-batch-sentences-rule-6 = ʊ̀ mɔ̀ɔ̀ná à rʊ́ nʊ́ʊ̀r lǝ̀mɔ̀ɔ̀sǝ́m kà mààtǝ̀ tǝ́n tà
+# menu item
+add-sentences = ɩ́ tásǝ́ mààtǝ̀
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = máátǝ̀ tàsʊ́ŋ nǝ̀ tǝ̀ gbèŋkǝ̀lʊ̀ŋ, tóm wòsùŋ nǝ̀ tóm kʊ́kpààpǝ̀ mààwʊ̀ŋ
+add-sentences-menu-item-tooltip = ɩ́ tásǝ̀ mààtǝ̀ kà mɩ́ wʊ́tã́ŋ tàà
+review-sentences-menu-item-tooltip = ɩ́ wííl mààtǝ̀ kà mɩ́ wʊ̀tã̀ŋ tà
+add-questions-menu-item-tooltip = ɩ́ tásǝ̀ àcìsùŋ tóm kà mɩ́ wʊ́tã̀ŋ tàà
+transcribe-audio-menu-item-tooltip = mɩ́ wʊ́tã̀ŋ tàà tóm kʊ́kpààpǝ̀ mààwʊ̀ŋ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = « mààwʊ́ŋ » àwóór
+add-sentences-menu-item-aria-label = ɩ́ tásǝ̀ mààtǝ̀ kʊ́fàtǝ̀ nǝ̀ mɩ̀ àkpàr tɩ̀ɩ̀nàà kál
+review-sentences-menu-item-aria-label = ɩ́ wííl mààtǝ̀ wóntǝ́ mɩ́ àkpàr tɩ̀ɩ̀nàà lǝ̀sǝ́tǝ́ wá wǝ́l nǝ̀ tǝ̀ wɩ̀ɩ̀ mɩ̀ wʊ́tã̀ŋ tàà ná
+add-questions-menu-item-aria-label = ɩ́ wósǝ̀ tóm kʊ́fám nǝ̀ mɩ́ àkpàr tɩ̀ɩ̀nà kàl nǝ̀ wá cìsì
+transcribe-audio-menu-item-aria-label = mɩ́ wʊ́tã̀ŋ tàà tóm kʊ́kpààpǝ̀ mààwʊ̀ŋ

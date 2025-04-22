@@ -10,3 +10,4 @@ add-question-error-message = Upload mislykkedes. Prøv igen.
 # Guidelines
 add-question-guidelines-title = Hvilke spørgsmål kan jeg tilføje?
 do-section-title = gør
+do-section-guideline-1 = Brug korrekt stavning og grammatik

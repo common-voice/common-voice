@@ -10,12 +10,14 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> àlǝ̀sʊ̀ŋ tóm
     }
 goal-help-recording = ʊ́ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ nà kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl àfèmǝ̀r rʊ̀rǝ̀tǝ̀ kà kàkáá<goalPercentage></goalPercentage> kà wʊ̀tàsǝ̀ kpàwʊ̀ŋ kà{ $goalVale }
-goal-help-validation = ʊ̀ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ ná, kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl afèmǝ̀r rʊ̀rǝ̀tǝ̀ { $goalValue } tìsúŋ !
+goal-help-validation = ʊ̀ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ ná, kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl <goalPercentage>afèmǝ̀r rʊ̀rǝ̀tǝ̀ { $goalValue } tìsúŋ !
 contribute-more = ŋ̀ pɩ́sʊ́ sɩ̀ ŋ̀ tàsǝ̀ lápǝ́ { $count } já ?
-speak-empty-state = rà tà tàsǝ́ wɩ́ɩ́nʊ́ŋ kà máátǝ̀ sɩ̀ rà kpá wʊ̀tã̀ŋ ká táà...
+speak-empty-state = rà tà tàsǝ́ wɩ́ɩ́nʊ́ŋ kà máátǝ̀ sɩ̀ rà kpá wʊ̀tã̀ŋ ká táà…
 no-sentences-for-variants = ʊ̀ wɩ̀ɩ̀ sǝ́ mɩ́ wʊ́tã́ŋ máátǝ́ témpá! wáà càrʊ́ mɩ́, ɩ́ pɩ́sʊ́ sɩ̀ ɩ̀ lɔ̀ɔ̀sǝ̀ rʊ́rǝ́tǝ̀ ʊ́ jél nɩ̀nà mɩ̀ wʊ́tãŋ tà mààtǝ̀.
 speak-empty-state-cta = mààtǝ̀ cǝ̀lʊ́ŋ
-speak-loading-error = rà tà pɩ́ɩ́sǝ̀ sǝ̀ ràhíwú mààtǝ̀ nǝ̀ rà kàl. ʊ́ tàsàà ɩ̀ pǝ̀sǝ̀ nǝ̀ ɩ́ páásǝ̀.
+speak-loading-error =
+    rà tà pɩ́ɩ́sǝ̀ sǝ̀ ràhíwú mààtǝ̀ nǝ̀ rà kàl.
+     ʊ́ tàsàà ɩ̀ pǝ̀sǝ̀ nǝ̀ ɩ́ páásǝ̀.
 record-button-label = ɩ́ kpá mɩ́ nùwéésǝ́
 share-title-new = <bold>ɩ́ sǝ́nɖà</bold>rà kpá núwéésǝ̀ nɩ́nsǝ̀.
 keep-track-profile = rʊ́ ñáálɩ̀mʊ̀ŋ ʊ̀ jél nǝ̀ ŋ̀ mɔ́ɔ́sǝ̀ ñá jǝ́sá tá wálʊ́ŋ.
@@ -98,9 +100,9 @@ contribution-criteria-page-description = ɩ́ nɩ̂ wóntǝ̀ rʊ̀ʊ̀ ʊ̀ m�
 contribution-for-example = à sʊ̀ʊ̀ sǝ́
 contribution-misreadings-title = àhìndùŋ kàlʊ̀ŋ
 contribution-misreadings-description = mɩ́ kémsʊ́ŋ, ɩ́ ñǝ́l sàrtǝ̀ nǝ̀ ɩ̀ ná sǝ́ wóntǝ̀ à kpáà nà nǝ̀ wóntǝ̀ à máà nà tàmpà já ; ɩ́ kísǝ̀, pàà àhíndúŋ tóm cúmpǝ̀. <br /> àhíndúŋ tóm pààhǝ́ŋ :
-contribution-misreadings-description-extended-list-1 = ʊ̀ kààsǝ́ wʊ̀r kà  tóm kpàwʊ̀ŋ àpààsʊ̀nʊ̀ŋ tà.
-contribution-misreadings-description-extended-list-2 = ʊ̀ kààsǝ́<strong> </strong> kà mààrʊ̀ŋ rǝ̀tèmǝ̀r
-contribution-misreadings-description-extended-list-3 = tóm sètʊ́ŋ tá.
+contribution-misreadings-description-extended-list-1 = ʊ̀ kààsǝ́ <strong> « wǝ́r » kà </strong> jáá <strong> « wǝ̀r » kà </strong> tóm kpàwʊ̀ŋ àpààsʊ̀nʊ̀ŋ tà.
+contribution-misreadings-description-extended-list-2 = ʊ̀ kààsǝ́<strong> « ŋ » </strong> kà mààrʊ̀ŋ rǝ̀tèmǝ̀r
+contribution-misreadings-description-extended-list-3 = tóm sètʊ́ŋ tá sǝ́ « kʊ̀ʊ̀kʊ̀ » nǝ̀ á kál sǝ̀ «  kʊ̀kʊ̀kʊ̀».
 contribution-misreadings-description-extended-list-4 = àtɩ̀ɩ̀sʊ̀ŋ mààrʊ̀ŋ rǝ̀tèmǝ̀r sétáá wómpǝ̀ rʊ̀ʊ̀ nà à sǝ̀sǝ tóm kpàwʊ̀ŋ kà kpàtǝ̀kpàtǝ̀.
 contribution-misreadings-description-extended-list-5 = mɔ̀ɔ̀sǝ̀ mààrʊ̀ŋ kàlʊ̀ʊ̀ kà tám hálɩ̀.
 contribution-misreadings-example-1-title = táàr gbéná sǝ̀sònà.
@@ -139,8 +141,8 @@ contribution-background-voices-example-1-explanation = ŋ̀ kʊ́ŋ já<strong>
 contribution-volume-title = fòòlíím
 contribution-volume-description = fòòlíím lɔ̀sʊ́ŋ líŋ kálɖá cólààná. ʊ̀ cí sǝ̀ fòòlíím  kǝ̀l kpàwʊ̀ŋ nǝ̀ àkpààwʊ̀ŋ tóm wɩ̀ɩ̀ tìlùtìlù jàà fòòlíím kǝ̀l típì ɩ́ kìsì.
 contribution-reader-effects-title = núwáŋ lɔ̀ɔ̀sʊ̀ŋ nǝ̀ kʊ̀kʊ̀wèèsǝ̀ lììwùŋ
-contribution-reader-effects-description = wʊ̀tásǝ̀ kpàtǝ̀rǝ̀ kpàwʊ̀ŋ tà nà, jǝ̀rá mɔ̀ɔ̀mɔ̀ɔ̀ wʊ̀tʊ́ʊ́ nà. ɩ́ tìsǝ̀ tàmpǝ̀r kà kʊ̀kʊ̀wéésǝ̀, jòtǝ̀rʊ́ŋ jàà kɔ̀nsɛ̀tǝ̀ làpǝ̀ nùwèèsǝ̀. rà hɩ̀nrʊ̀ mɩ̀ sǝ̀ ɩ́ kìsǝ̀ wóntǝ̀ nǝ̀ŋ màsíìn wʊ̀tã̀ŋ kpàwʊ́ŋ.
-contribution-just-unsure-title = ɩ́ làkǝ̀ mààmàà já ?
-contribution-just-unsure-description = ʊ́ cí sǝ̀ ɩ̀ kàtǝ̀n cààrtǝ́,ɩ̀ là lǝ̀mɔ̀ɔ̀sǝ́m nà. ʊ́́́́́́́́́  pǝ̀ làkǝ́, ɩ̀ ñʊ́ nǝ̀ ɩ́ rɩ́ɩ́ná jǝ̀sàtà.
-see-more = wǝ̀l ànʊ̀ʊ̀sǝ̀nʊ̀ŋ kpàtǝ̀rǝ̀
+contribution-reader-effects-description = wʊ̀tásǝ̀ kpàtǝ̀rǝ̀ kpàwʊ̀ŋ tà nà, jǝ̀rá mɔ̀ɔ̀mɔ̀ɔ̀ wʊ̀tʊ́ʊ́ nà. ɩ́ tìsǝ̀ tàmpǝ̀r kà kʊ̀kʊ̀wéésǝ̀, jòtǝ̀rʊ́ŋ jàà « kɔ̀nsɛ̀tǝ̀ » làpǝ̀ nùwèèsǝ̀. rà hɩ̀nrʊ̀ mɩ̀ sǝ̀ ɩ́ kìsǝ̀ wóntǝ̀ nǝ̀ŋ màsíìn wʊ̀tã̀ŋ kpàwʊ́ŋ.
+contribution-just-unsure-title = ɩ́ làkǝ̀ mààmàà já ?
+contribution-just-unsure-description = ʊ́ cí sǝ̀ ɩ̀ kàtǝ̀n cààrtǝ́,ɩ̀ là lǝ̀mɔ̀ɔ̀sǝ́m. ʊ́́́́́́́́́  pǝ̀ làkǝ́, ɩ̀ ñʊ́ nǝ̀ ɩ́ « rɩ́ɩ́ná » jǝ̀sàtà.
+see-more = <chevron></chevron>wǝ̀l ànʊ̀ʊ̀sǝ̀nʊ̀ŋ kpàtǝ̀rǝ̀
 see-less = <chevron></chevron>wǝ̀l ànʊ̀ʊ̀sǝ̀nʊ̀ŋ cʊ́kɔ̀

@@ -27,6 +27,7 @@ target-segment-first-banner = Vær med til at lave det første målsegment til C
 target-segment-add-voice = Tilføj din stemme
 target-segment-learn-more = Læs mere
 change-preferences = Skift indstillinger
+login-signup = Log ind / Tilmeld dig
 vote-yes = Ja
 vote-no = Nej
 datasets = Datasæt

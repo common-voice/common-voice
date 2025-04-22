@@ -95,6 +95,7 @@ coming-soon = به زودی
 
 ## Action items section
 
+add-text = افزودن متن
 
 ## Community section
 

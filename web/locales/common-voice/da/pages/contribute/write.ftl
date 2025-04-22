@@ -12,6 +12,7 @@ new-sentence-rule-3 = Brug korrekt grammatik
 new-sentence-rule-4 = Brug korrekt stavning og tegnsætning
 new-sentence-rule-5 = Ingen tal og specialtegn
 new-sentence-rule-6 = Ingen udenlandske bogstaver
+login-instruction-multiple-sentences = <loginLink>Log ind</loginLink> eller <loginLink>tilmeld dig</loginLink> for at tilføje flere sætninger
 how-to-cite = Hvordan citerer jeg?
 guidelines = Retningslinjer
 contact-us = Kontakt os
@@ -20,6 +21,7 @@ add-sentence-error = Fejl ved tilføjelse af sætning
 required-field = Udfyld venligst dette felt.
 single-sentence = Enkelt sætning
 sentence-domain-select-placeholder = Vælg op til tre domæner (valgfrit)
+sentence-variant-select-placeholder = Vælg en variant (valgfrit)
 
 ## BULK SUBMISSION
 
@@ -73,3 +75,4 @@ transcribe-audio-menu-item-tooltip = Transskriber lydoptagelser på dit sprog
 ## MENU ITEM ARIA LABELS
 
 review-sentences-menu-item-aria-label = Gennemgå eksisterende sætninger indsendt af fællesskabet
+transcribe-audio-menu-item-aria-label = Transskriber lydoptagelser til tekst
