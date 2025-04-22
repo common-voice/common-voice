@@ -75,7 +75,12 @@ citing-sentences-explanation-1 = سرے سیمل کرنا جروری ہے تاک
 citing-sentences-subheader-websites = ویب سائٹس
 citing-sentences-subheader-websites-explanation = تھم ویب سائٹا کُو سیمل کری سِکتے ہے ، مِسالا کے توراپ "سادھارݨ اواج - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = پڑھائِیا کا سرا
+citing-sentences-subheader-academic-reference-explanation = آپ پڑھائِیا کا سرا دؔیݨیں کا تریکا اُپیوگ کری سِکتے ہے ، مِسالا کے توراپ ہارورڈ اسٹائل "موزیلا (2021) سادھارݨ اواجاپ۔ https://commonvoice.mozilla.org/ ماجُود (اخذ شدہ بتاریخ 15 ستمبر 2021)"
+citing-sentences-subheader-offline-sources = آف لائن سروت
 citing-sentences-subheader-offline-sources-explanation = کھلک ڈومین ٹیکسٹا نتر جکو آن لائن ماجُود نائِیں تی ، تھم سِکسا کا سرا دؔیݨیں اٹکݪ کری سِکتے ہے جِدؔا ہارورڈ اٹکل "جیس (2021) میری اوامی لیسݨاں کیاں کویتاں"
+citation =
+    .label = سرا
+self-citation = کھُدی مِسال ہے
 domain-explanation = ڈومین یانی ٻولیں کے باریم ہے۔ ہلی اِٻکے، تھم اِن مینٚس کِسی ایکی کا چُناؤ کری سِکتے ہے:
 
 ## Question collection ids
