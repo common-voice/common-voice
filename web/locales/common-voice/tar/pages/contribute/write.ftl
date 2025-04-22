@@ -24,6 +24,7 @@ new-sentence-rule-8 = Échi osirúami jápi ríka bujáni nísare alí alá raic
 login-instruction-multiple-sentences = Chóta sesión ayena má registraripa kíti uchéba wikabé osirúami
 how-to-cite = ¿Chí ni ríka citarima!
 how-to-cite-explanation-bold = Cita newá échina jápi chéa jú URL wéla sinéami rewála uchpeba échi obra.
+how-to-cite-explanation = Ma-pu r’e mujé binói ne’okíla, pe je r’eká aní <italicizedText>“Autocita”</italicizedText>. Ta machináali kúmi ka jónsa rewáki chi yéri machiwáami kíti ko ikíipo r’ua pe cha sinéami ka neláa ka, ‘a cha  ma jaré wewalíla ní’waka ka si.  Kíti ko chapibóa kúmi ka jónsa e’na chi yéri, e’neká kí-mu <guidelinesLink>página de pautas</guidelinesLink>.
 guidelines = Jápi rika nali náki (reglas)
 contact-us = Tamuje raíchiki
 add-sentence-success = 1 Bilé osirúami napabúrami
