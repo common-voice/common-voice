@@ -33,7 +33,7 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] { $count } თუ̂ე
+        [one] { $count } მო
        *[other] { $count } თუ̂ეა̈რ
     }
 x-years-short =
