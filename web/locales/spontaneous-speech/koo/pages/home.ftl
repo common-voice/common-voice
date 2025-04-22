@@ -30,6 +30,7 @@ contact-us = Muthuhikeko
 contact-us-title = Eribya ibanayitheghekire eribya omo mitheghekere eno, kutse eribya nethu?
 contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Are you already in our Beta testing group for Common Voice’s Spontaneous Speech Project?
+signup-terms = By clicking “Send a link to my email”, you agree to our <termsLink>Terms of Service</termsLink> and <privacyLink>Privacy Policy</privacyLink> and that Mozilla may email you with information on how to participate in the Beta Testing for Common Voice’s Spontaneous Speech Project.
 signup-input-placeholder = Sakanga emayilhu yaghu
 signup-button-value = Mulebeke ebikahika oko mayilhu yaghe
 footer-text-privacy = <privacyLink>Privacy</privacyLink>

@@ -102,9 +102,9 @@ const InputLanguageVariant = ({
         <option value={DEFAULT_OPTION_VALUE}>
           {getLocalizedString('profile-form-variant-default-value')}
         </option>
-        {variants.map(({ id, name }) => (
+        {variants.map(({ id, name, tag }) => (
           <option key={id} value={id}>
-            {name}
+            {`${name} [${tag}]`}
           </option>
         ))}
       </LabeledSelect>

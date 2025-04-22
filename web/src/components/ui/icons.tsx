@@ -1585,6 +1585,8 @@ export const CautionIcon = Icon(
   'exclamation'
 )
 
+export const MarsSolo = Icon(require('./icons/mars-solo.svg'), 'mars-solo')
+
 export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'))
 
 export const DropdownArrowIcon = Icon(require('./icons/dropdown-arrow.svg'))

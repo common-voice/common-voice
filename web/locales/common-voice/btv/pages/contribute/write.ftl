@@ -82,12 +82,82 @@ accepted-files = فائل سو قسم منظور ھوینگا :  ٹیایس وی
 minimum-sentences = کم نو کم جملے فائل مہ : 1000
 maximum-file-size = زیات نو زیات فائل سائز  25 MB
 what-needs-to-be-in-file = می فائل مہ چاں سو ضرورت تھی ؟
+what-needs-to-be-in-file-explanation = مہربانی گیریچیک گر اسوں <templateFileLink> ٹمپلیٹ فائل</templateFileLink> تیں جملے نقل گرے سو ایجازت نو ازاد ( 0çc یا ایجازت ھوئینل اصل کام جمہ گرے والہ سو زریعہ گِھن) آ صاف ھوں ، گرائمر سو لحاظ رے صحیح آ پڑے اسان۔ جمہ ھوئینل جملے  10-15 سیکنڈ سرسری پڑو  آ شامل گریل نمبر دُر گرو، خاص ناں آ سپیشل  ٹِکے۔
+upload-progress-text = کارکردگی مہ اپلوڈ گر
+sc-bulk-submit-confirm = می یقینی گیگی چہء اے جملے <wikipediaLink> لوں سو <wikipediaLink>احاطہ کار سو تھے  </wikipediaLink> آ می کَن اے اپلوڈ گرے سو ایجازت تھی۔
+bulk-upload-success-toast = گھئیں جملے اپلوڈ ھویں گے
+bulk-upload-failed-toast = اپلوڈ فیل ھویں گا،مہربانی گر دوبارہ کوشش گر
+bulk-submission-success-header = تِیں شکرہ  حصہ گھنے سو گھئیں جمہ گرے سو!
+bulk-submission-success-subheader = تو مدد گرا عام اواز اسئیں روزان سو جملہ سو مقصدے اوڑے سو !
+upload-more-btn-text = جل جملے اپلوڈگروں ؟
+file-invalid-type = غیر مصدقہ فائل
+file-too-large = فائل ڙھؤ گُھوؤں تھو
+file-too-small = فائل ڙھؤ پِھٹو تھو
+too-many-files = ڙھؤ زیات فائل
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon> </icon> لوں سو احاطہ کار والہ جملے ملا
+multiple-sentences-error = تُو یک وار رے مختلف جملے جمہ نہ گر ھواں
+exceeds-small-batch-limit-error = 1000 جملیوں نو زیات جمہ نہ گر ھواں
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] حد سو ریٹ زیاتیں گا تھو 1 منٹ مہ دوبارہ کوشش گر  حد سو ریٹ زیاتیں گا تھو دوبارہ کوشش گر { $retryLimit } ملٹوں مہ
+       *[other] { "" }
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] حد سو ریٹ زیاتیں گا تھو دوبارہ کوشش گر { $retryLimit } سکنڈوں مہ
+       *[other] { "" }
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تُو اِس صفہ جمہ گرے سوحدےاوڑ گا تھو۔مہربانی گیری پرئیں جملہ جمہ گرے نو اول 1 ملٹ انتظار گر تیں صبر گرے سو شکریہتو اِس صفہ سو دَن جمہ گرے سو حدے اُڑ گا تھو  مہربانی گر انتظار گر{ $retryLimit } ملٹ پرئیں جملہ جمہ گرے نو اول تیں شکریہ صبر گرے سو !
+       *[other] { "" }
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تُو اِس صفحہ سو دَن جمہ گرے سو حدے اُوڑ گا تھومہربانی گیری 1 سیکنڈ  اِنتظار گر پَرئیں جملہ جمہ گرے نو اول! تتیں شکریہ صبر سو۔
+       *[other] تُو اِس صفحہ سو دَن جمہ گرے سو حدے اُوڑ گا تھومہربانی گیری { $retryLimit } سیکنڈ  اِنتظار گر پَرئیں جملہ جمہ گرے نو اول! تتیں شکریہ صبر سو۔
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } سو 1 جملہ گِھن گی
+       *[other] { $uploadedSentences } سو { $totalSentences } جملے گِھن گے
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } سو 1 جملہ گِھن گی۔کلک<downloadLink> ایزا </downloadLink> رَد گریل جملے ڈونلوڈ گرے سو دَن
+       *[other] { $uploadedSentences } سو { $totalSentences } جملے گھن گے۔کلک <downloadLink> ایزا </downloadLink> رد گریل جملے ڈونلوڈ گرے سو دن۔
+    }
+small-batch-sentences-rule-1 = اے څھئے سو ھدایات نو “ کاں جملے مہ میلا ھواں ”
+small-batch-sentences-rule-2 = یک لینڈ مہ یک جملہ میلا
+small-batch-sentences-rule-3 = یک لینڈ مہ اَنَن جملے “ اِنٹر” یا “ واپس” دباؤ گر یک وارے
+small-batch-sentences-rule-4 = زر جملیوں تکے میلا
+small-batch-sentences-rule-5 = بُوٹ جملے یک شان احاطہ کار سو ھُں پکار تھو
+small-batch-sentences-rule-6 = بُوٹ جملے  یک شان نظارہ سو ھُوں پکار تھو
+# menu item
+add-sentences = جملے میلا
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملے میلا آ نظر ثانی گر، سوال میلا، اواز نقل گر
+add-sentences-menu-item-tooltip = اپئیں زیب مہ جملے میلا
+review-sentences-menu-item-tooltip = اپئیں زیب مہ جملے نظر ثانی گر
+add-questions-menu-item-tooltip = اپئیں زیب مہ سوال میلا
+transcribe-audio-menu-item-tooltip = اپئیں زیب مہ اوز سو رکاڈنگ نقل گر
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختیاروں سو مینیو لِک
+add-sentences-menu-item-aria-label = کمیونٹی سو پڑے سو دن نئ جملے میلا
+review-sentences-menu-item-aria-label = کمیونٹی سو طرف نو جمہ ھونئیل جملیوں سو نظر ثانی
+add-questions-menu-item-aria-label = ناں سوال جمہ گر کمیونٹی سو پڑے آ جواب دے سو دن
+transcribe-audio-menu-item-aria-label = اواز سو ریکاڈنگ لیک مہ نقل گر
