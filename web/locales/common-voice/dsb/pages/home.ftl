@@ -92,16 +92,22 @@ transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 press-and-stories = Casnikaŕstwo a tšojenja
 community-and-languages = Zgromaźeństwo a rěcy
 coming-soon = Skóro k dispoziciji
+about-us = Wó nas
+scripted-speech = POWĚDANJE ZE SKRIPTOM
+spontaneous-speech = SPONTANE POWĚDANJE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnaŕstwa, casnikaŕstwo a tšojenja, zgromaźeństwo a rěcy
+about-us-menu-item-tooltip = Zgóńśo wěcej wó misiji a teamje za Common Voice
+about-us-menu-item-aria-label = Nastajenja menija „Wó nas“
 partnerships-menu-item-tooltip = Buźćo naš partnaŕ
 press-and-stories-menu-item-tooltip = Woglědajśo se k našomu blogoju abo pišćo wó nas
 community-and-languages-menu-item-tooltip = Namakajśo rěcy, zgromaźeństwa a Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Wó meniju Nastajenja
 partnerships-menu-item-aria-label = Zgóńśo wěcej wó partnaŕstwach z Common Voice
 press-and-stories-menu-item-aria-label = Mějśo pśistup k wózjawjenjam casnikaŕstwa a tšojenjam wó Common Voice
 community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rěcy, kótarež se pśez Common Voice pódpěraju
@@ -122,7 +128,7 @@ get-started = Prědne kšace <icon><icon>
 
 action-items-section-title = Common Voice jo dermotna platforma wótwórjonego žrědła za wót zgromaźeństwa nawjedowane napóranje datow
 action-items-section-subtitle = Kuždy móžo swóju rěc wobchowaś, zasej wóžywiś a pólěpšyś, gaž tekst a powědańske datowe sajźby źěli, napórajo a zastoj.
-scripted-card-header = Napisane powědanje
+scripted-card-header = Powědanje ze skriptom
 scripted-card-content = Cytajśo sady głosnje w swójej rěcy a pśinosujśo k nejwjelerakšej zjawnej rěcnej datowej sajźbje w swěśe.
 spontaneous-card-header = Spontane powědanje
 spontaneous-card-content = Wótegrońśo na naspominanja, aby datowe sajźby za organiske, wobchadnorěcne konteksty napórał. To jo perfektne za pśewažnje wustne rěcy.
