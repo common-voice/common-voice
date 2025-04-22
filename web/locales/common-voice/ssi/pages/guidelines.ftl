@@ -65,6 +65,7 @@ sentence-domain = ٻول ڈومین
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = یو سپا کھاس ہے کہ سارے لِکھوڑے ٻول <publicDomain>جنتا ڈومین</publicDomain> (<cc0>سی سی 0</cc0>) ہے کیونکہ سادھاڑݨ اواج ڈیٹا سیٹ سی سی 0 لیشݨا کرے جاری کرا جاتا ہے۔ اگر تھم کُو وِاس ہوے تو رگی ایکی ٻولا کُو اپ لوڈ کرو ، اور سدائیں اُسی دؔیسا سرا سیمل کرو۔
 
 ## Question collection ids
 
