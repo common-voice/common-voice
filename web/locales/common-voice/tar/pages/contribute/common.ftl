@@ -97,6 +97,7 @@ contribution-criteria-page-title = Raíchali katuítami jápi nejámi ju échi 
 contribution-criteria-page-description = ¡Che ‘a minábi benée píri mu ‘aama mo kipúachi joré mo’árami a’li machiká chu r’egá che pe a’lárima kí-mu mo’álila!
 contribution-for-example = Jápi ríka
 contribution-misreadings-title = Cháti ríka natáwami
+contribution-misreadings-description = Akelíwa, kilípi niráa machí pe cha ne´chi yéna ko osirúachi jónsa; kíti nakí chi yéri mo’árami ma-pu r’e ko ke a’nárita nísa ma-pu osirú mo’árami ma. <br/> Jaré ke a’láanami , ‘échi ko ju:
 contribution-misreadings-description-extended-list-5 = Wikása oséli inéa bilépi raíchali
 contribution-misreadings-example-1-title = Chabéi jápi alí wíka wéli enáli dinosaurios tríasico
 contribution-misreadings-example-2-title = Échi dinosaurio walú triásico

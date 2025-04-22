@@ -36,5 +36,7 @@ sc-review-link = kpɛ̀lɛ́kɩ̀tɩ́
 
 sc-criteria-item-3 = Tɔ́m pìɖé wɩ́nɖɛ̀ pàmpɩ̀zɩ́ pàmàtɩ́ ná
 report-sc-different-language = kʊ́nʊ́ʊ̀ lɩ́ŋkɩ́
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Táŋlám wéntɩ̀ fèfèɖé ntɩ̀
 # menu item
-review-sentences = Táŋlàm wéntɩ̀ fèfèɖé ntɩ̀
+review-sentences = ɩ̀bɛ̀m tɔ́m píyà tá
