@@ -1,4 +1,4 @@
-action-click = Rachína bilé botóni echina computadora jónsa biléana celular ma
+action-click = { "" }
 action-tap = Chapía
 contribute = Nikúra
 review = Inéa acha alá ka'a
