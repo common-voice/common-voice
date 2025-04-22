@@ -96,7 +96,6 @@ community-and-languages-menu-item-tooltip = ٻوليآنٚ اور ڪميونٽي
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اديڪآرو ڪيٚ مينيُو ڪآ بآرآ مي
 partnerships-menu-item-aria-label = ڪآمن ووئسودي شرآڪتدآريآنٚ بآرآ مي کبر ليوو
 press-and-stories-menu-item-aria-label = آم آوآجي دي جُڙري پريس ريليج ڪهآڻيو ليوو
 community-and-languages-menu-item-aria-label = ڊم آوآجيٚ ڪيٚ حمآيت ڪروآݪيٚ ڪميونٽيٚ اور ڀوليآنٚ ڪو ڍونڊو

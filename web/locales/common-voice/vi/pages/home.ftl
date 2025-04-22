@@ -89,7 +89,6 @@ community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menu Giới thiệu
 press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice
 
 ## NEW HOME PAGE KEYS

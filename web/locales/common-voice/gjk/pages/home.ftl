@@ -103,7 +103,6 @@ community-and-languages-menu-item-tooltip = ٻولِيُون انين ڀِراڌ
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشنَ مينيُو نا ٻارا مان
 partnerships-menu-item-aria-label = ڪامنَ وائيس ٿِي ڀائيوارِي نا ٻارا مان شِيکو
 press-and-stories-menu-item-aria-label = ڪامنَ وائيس ٿِي لاڳاپل پريس رِليز انين وارتايان ۿوُڌِي پوڄا نِي رسائِي حاصل ڪرو
 community-and-languages-menu-item-aria-label = ڪامنَ وائيس نِي مۮت ٿِي ڀِراڌرِي انين ٻولِيان نين ڳوتو

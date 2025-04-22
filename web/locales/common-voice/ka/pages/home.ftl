@@ -98,7 +98,6 @@ community-and-languages-menu-item-tooltip = უკეთ გაიცანი�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = ჩვენ შესახებ გვერდი
 partnerships-menu-item-aria-label = გაეცანით Common Voice-თან თანამშრომლობის გზებს
 press-and-stories-menu-item-aria-label = Common Voice-თან დაკავშირებული განცხადებები და სიახლეები პრესაში
 community-and-languages-menu-item-aria-label = გამოიკვლიეთ ენები და საზოგადოებები, რომელთაც მხარს უჭერს Common Voice

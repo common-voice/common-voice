@@ -86,7 +86,6 @@ community-and-languages-menu-item-tooltip = Scopri lingui, cumunità e Common Vo
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Minù dî scartati di nfurmazzioni
 
 ## NEW HOME PAGE KEYS
 

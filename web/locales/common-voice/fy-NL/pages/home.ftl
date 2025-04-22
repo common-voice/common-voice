@@ -106,7 +106,6 @@ community-and-languages-menu-item-tooltip = Talen en mienskippen en Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Opsjesmenu Oer
 partnerships-menu-item-aria-label = Mear oer partnerskippen mei Common Voice
 press-and-stories-menu-item-aria-label = Parseberjochten en ferhalen mei betrekking ta Common Voice benaderje
 community-and-languages-menu-item-aria-label = De troch Common Voice stipe mienskip en talen ferkenne

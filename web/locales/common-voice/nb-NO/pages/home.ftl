@@ -99,7 +99,6 @@ community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Om alternativmeny
 partnerships-menu-item-aria-label = Lær om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tilgang til pressemeldinger og historier relatert til Common Voice
 community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språkene som støttes av Common Voice

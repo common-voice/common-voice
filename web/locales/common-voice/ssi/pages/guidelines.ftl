@@ -57,7 +57,7 @@ contact-common-voice = سادھارݨ اواج سنگٹھناس سمپرک کر�
 
 ## Sentence collection nav ids
 
-public-domain = جنتا کے ٻول
+public-domain = کھلک ڈومین
 citing-sentences = ٻولیں کا سرا دؔیتوڑے
 adding-sentences = ٻول سیمل کرنا
 reviewing-sentences = ٻولیں کی جانچ کرنا
@@ -77,3 +77,4 @@ domain-explanation = ڈومین یانی ٻولیں کے باریم ہے۔ ہل�
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-tip = تھم نِیارے سرے اور ڈومینز کو پھیلاݨینٚپ بھی وِچار کرنا چاہُوں گے۔

@@ -102,7 +102,6 @@ community-and-languages-menu-item-tooltip = کامن وائس، برادری ت�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اپنی مرضٰ کی فہرست کا بارہ ما
 partnerships-menu-item-aria-label = کامن وائس نال شراکت داری کا بارہ ما مزید معلومات لیو
 press-and-stories-menu-item-aria-label = کامن وائس کا بارہ  کے متعلق کہانی، تے خبراں تک پہچو
 community-and-languages-menu-item-aria-label = زبان تے برادری جن کو تعلق کام وائس نال ہے اس نا ڈھونڈو

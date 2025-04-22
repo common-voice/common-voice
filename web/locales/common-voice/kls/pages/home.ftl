@@ -93,7 +93,6 @@ community-and-languages-menu-item-tooltip = Warek zuban khojik ze comety ani com
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Bariuna Chit Menu
 partnerships-menu-item-aria-label = Joni malgerian/ partnerships as som common voice/ sawin awaz
 press-and-stories-menu-item-aria-label = Common voice/ sawin awazas bariu una jonikas bati
 community-and-languages-menu-item-aria-label = Jagai comety an ze zuban an bariu una common voice/ sawin awazas thara sawuz hula

@@ -96,7 +96,6 @@ community-and-languages-menu-item-tooltip = ٻوليَ ھان برادريَ ھ�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشن مينيو ريَ باريَ ۾
 partnerships-menu-item-aria-label = ڪامن وائس ڀيڙي ڀائيوارِي ريَ باريَ ۾ ݾکو
 press-and-stories-menu-item-aria-label = ڪامن وائس ھون جڙوڙيَ پريس رليز ھان وارتائون تائين پوھنچ حاصل ڪرو
 community-and-languages-menu-item-aria-label = ڪامن وائس رِي مدد ھو برادريون ھان ٻوليون نيَ جونچو

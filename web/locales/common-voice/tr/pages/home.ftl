@@ -99,7 +99,6 @@ community-and-languages-menu-item-tooltip = Dilleri, toplulukları ve Common Voi
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Seçenekler menüsü hakkında
 partnerships-menu-item-aria-label = Common Voice ile ortaklık hakkında bilgi alın
 press-and-stories-menu-item-aria-label = Common Voice ile ilgili basın bültenlerine ve haberlere ulaşın
 community-and-languages-menu-item-aria-label = Common Voice topluluğunu ve desteklenen dilleri keşfedin

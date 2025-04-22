@@ -96,7 +96,6 @@ community-and-languages-menu-item-tooltip = جیِب او کمیونیٹی آں 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اپشنز مینُو سی بارا می
 partnerships-menu-item-aria-label = کامن وائس سیت شراکت سی بارا می آمن جنا
 press-and-stories-menu-item-aria-label = کامن وائس سی بارا می میڈیا سی خبر آں سٹوری مھید پشا
 community-and-languages-menu-item-aria-label = کامن وائس کامے جیِبا سی مدد کودُودا تھأ مھید پشا

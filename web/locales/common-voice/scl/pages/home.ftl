@@ -95,7 +95,6 @@ community-and-languages-menu-item-tooltip = کامن وائیس گہ، کمیو�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشنو ژھِیرو بارینی
 partnerships-menu-item-aria-label = کامن وائیش ساتی سجئیی تھینو سیچ
 press-and-stories-menu-item-aria-label = کامن وائیسو پریس ریلیزگا شیلوکو کچی ایپھو
 community-and-languages-menu-item-aria-label = کامن وائیسے سے سانتی دیک کمیونیٹی گہ باشے آنے واشے
