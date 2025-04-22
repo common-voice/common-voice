@@ -59,12 +59,79 @@ news_current_affairs = Habari  sa kaindika
 technology_robotics = Tekinolojila na roboti
 sentence-variant-select-label = Mateta omaki
 sentence-variant-select-placeholder = Weshakwa  moni
+sentence-variant-select-multiple-variants = Mteta amotu
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Kora  (kinndoo) matata a vandu voose
+sc-bulk-upload-instruction = Koota ifaillo haati (eradooka )kora )
+sc-bulk-upload-instruction-drop = Sosa fileso haatio
+bulk-upload-additional-information = Ksa kwete wadua ifuma ifaili  loholi <hoina hoi vasengeta>commonvoice@mozilla.com</hoina hoi vasengeta>
+template-file-additional-information = Ksa kwete wadua ifuma ifaili  loholi <hoina hoi vasengeta>commonvoice@mozilla.com </hoina hoi vaengeta>
+try-upload-again = Ansa see ikoota ifaili lafo haati
+try-upload-again-md = Tejaribu ibakya see
+select-file = Sahakwa ifalilo
+select-file-mobile = Shakwa fili lo ulibakie
+minimum-sentences = Mateta 1000 uike ifailini
+maximum-file-size = Ifaili la utwe wa 25MB
+what-needs-to-be-in-file = Tukundi kiki kive kwa ifile lakwa?
+upload-progress-text = Vliendila ibakia...
+bulk-upload-success-toast = Ngimekolya mateta manyengi
+bulk-submission-success-header = Kaasha kwa mshango wafo wa mateta
+bulk-submission-success-subheader = Ukundi ngikuviye kwa mateta akilamviri!
+upload-more-btn-text = Ngabakia mateta saidi?
+file-invalid-type = Ifaili lite ihaati
+file-too-large = Ifileloholi li itwe
+file-too-small = Ifile liholi liitaa
+too-many-files = Mafaili menyengi
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Engera mateta menyengi ya findo fya voosee
+multiple-sentences-error = Weshiilma iandika mateta menyengi  kwa wakati umuu
+exceeds-small-batch-limit-error = Weshiilima iandika mateta 1000
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Waruunda dooka nai.jaribu se ata  dakika 1
+       *[other] Washika kiwango cha dooka. ansa se ata
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Washika kiwango cha dooka. ansa see dakika 1
+       *[other] Washika kiwango cha dooka. ansa see sekunde
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Washika mwisho wa matumisi haati Jaribu see ata,kaa kasha
+       *[other] Washika mwiisho matumisi afo
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Washika mwisho wa matumisi haati Jaribu see ata,kaa kasha
+       *[other] Washika mwisho wa matumisi haati Jaribu see ata,kaa kasha
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Shakwa mateta
+       *[other] Sindia mateta
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] (Saakwa mateta ) saindia matata 1 saindia )saindia mateta lyaa
+       *[other] (Saakwa mateta ) saindia matata 1 saindia )saindia mateta lyaa
+    }
+small-batch-sentences-rule-1 = Ngeengera matata omaki?
+small-batch-sentences-rule-2 = Engera mateta kila handu ete mstari' Ngeengera
+small-batch-sentences-rule-4 = Emgera matata 1,000
+small-batch-sentences-rule-5 = Matetao piu lasima avae handu hamu
 
 ## MENU ITEM TOOLTIPS
 
