@@ -58,3 +58,6 @@ login-identity = სგა ლა̄ზ იდენტიფიკაცია
 login = სგა ლი̄ზი
 edit = რედაქტირება
 email-subscriptions = ელ. ფოსტა̄̈ გამოწერა̄̈ლ
+download-profile = ჩუ̂ახტუ̂ირთაუ̂ედ მიშგუ მონაცემა̈რ
+contribution-experience = წუ̂ლილი გამოცდილება
+skip-submission-feedback = ქა ლახაცუ̂რ ლიზზი̄ გამოხმაურება
