@@ -128,6 +128,7 @@ contribution-background-voices-example-1-title = Wéli dinosaurio Triásico. ( B
 contribution-background-voices-example-1-explanation = Mami ináro? <strong>( bilécho rewáchani) </strong>
 contribution-volume-title = Volumen
 contribution-volume-description = ‘A nirúlima che pe iwéami anéami oselí e’néami chópi ka.   Kíti katúi mo’árami w’e repabé anéachi a’li nikumébuna we la ko re’lebé ma anésa a’li ke tási námutisa chu aniyá pe ke e’negá osirúami.
+contribution-reader-effects-description = No’kí sinéami ikíi mo’áro retéwi a’bói raíchala ná’ti nwewáki r’u.  ‘A mo katúisa r’e mo’árami sinakékami, nichilókami we la ko sébali ‘a anirúami níisa.  Kíti nakí ‘échi mo’alí nawajírikami we la ko ma móba ucheléami níisa ma.
 contribution-just-unsure-title = Kémi alá ikísa rú?
 contribution-just-unsure-description = A’ mo riwisáa jaré  namúti ke sébali oliwáami, katúi ma mujé e’laa.  Ma-pu r’e ko a’ regá mo ke ikíiya chu yéri nakí, rachiné che biléana ma simiwáami a’li che biléana mo’árachi  e’ne r’u.
 see-more = Che nebá
