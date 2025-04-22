@@ -89,10 +89,13 @@ transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
 coming-soon = Çok yakında
+about-us = Hakkımızda
+spontaneous-speech = DOĞAÇLAMA KONUŞMA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Ortaklıklar, Basın ve Haberler, Topluluk ve Diller
+about-us-menu-item-tooltip = Common Voice’un misyonu ve ekibi hakkında bilgi alın
 partnerships-menu-item-tooltip = İş ortağımız olun
 press-and-stories-menu-item-tooltip = Blogumuzu ziyaret edin veya hakkımızda yazı yazın
 community-and-languages-menu-item-tooltip = Dilleri, toplulukları ve Common Voice’u keşfedin
