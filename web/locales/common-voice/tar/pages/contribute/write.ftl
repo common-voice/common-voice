@@ -82,6 +82,7 @@ accepted-files = Jápi ayena nakíwa nóchali: pe tsv
 minimum-sentences = Osisare 1000 raíchali osirúami (oraciones) échina archivo
 maximum-file-size = Pe tabé archivo o nocháli 25 MB
 what-needs-to-be-in-file = ¿Jápi chukúsa re nijé niwála osélichi?
+what-needs-to-be-in-file-explanation = E’neká <templateFileLink>archivo de plantilla</templateFileLink>.  Kí-mu osíalo ko ke ní’wisa r’e nasulítiri nawelóla r’uká (CC-0 o trabajo original autorizado por el remitente) a’li sébali a’la newárami machisáti ma.  Aniwáami ko nijulárami ko ke semérisa r’e 10 a’li 15 segundos ma anisiliachi a’li ke ke uchúchipo  taráliwami, relawáltiri a’lí jaré namúti ma.
 upload-progress-text = Nocháli Japi programa uchéma
 sc-bulk-submit-confirm = Aníni Japi échi raíchali ko jú<wikipediaLink> Japi sineámi inéma </wikipediaLink> ali yena a riséncka níwi kíti moyénima
 bulk-upload-success-toast = Wiká osirúami kíti jimíma echina programa
@@ -141,6 +142,7 @@ small-batch-sentences-rule-2 = Che uché bilé osirúami je naí línea nirá'a
 small-batch-sentences-rule-3 = Rojána échi osirúami biléana línea nirá'a, alí pochítika échi línea nirá'a bilépi nirá'a
 small-batch-sentences-rule-4 = Che uché 1.000 osirúami
 small-batch-sentences-rule-5 = Sinéami raíchali chiéri chópi kítira raíchasa re
+small-batch-sentences-rule-6 = Suwába aniwáami ko pe biléanachi chópi é’nam níima.
 # menu item
 add-sentences = Che uchúche járe osirúami
 
