@@ -87,6 +87,7 @@ adding-sentences-subheader-length-explanation = ٻولینٚم 15 سے گھٹ ل
 adding-sentences-subheader-spelling-punctuation = ہِجے اور نشانِیاں
 adding-sentences-subheader-spelling-punctuation-explanation = ٻولا کُو سئی نامُونیس  لِکھݨا چائیے۔
 adding-sentences-subheader-speakable = ٻولݨیں جوگا
+adding-sentences-subheader-speakable-explanation = بڑِیا ٻول کُدرتی اور ٻات چیتاپ ٻݨوڑی ہوتی ہے - ٻو کِسی کے نتر پڑھنیم سُکی ہونا چاہئے. بلکے اواج پھرک اور ٻولیم نِیارے لوج کھاس ہے ، پݨیں ہم اپݨی سیوک کُوماں نتر ریکارڈنگ ٻولیں کُو ودھ میں ودھ وݨنواڑا اور آنند مئی ٻݨاݨیں نتر بھی جتن کری رے ہے۔
 domain-explanation = ڈومین یانی ٻولیں کے باریم ہے۔ ہلی اِٻکے، تھم اِن مینٚس کِسی ایکی کا چُناؤ کری سِکتے ہے:
 
 ## Question collection ids
