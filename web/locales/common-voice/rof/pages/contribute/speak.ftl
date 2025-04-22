@@ -21,6 +21,28 @@ share-clip = isaakwe na vanduveengi
 share-common-voice = saakwa fideo undusha
 review-instruction = Hitya see fidio ksa ukundi
 record-submit-tooltip = saindia kwamaa
+record-abort-title = Mrya irekodi kwansa?
+record-abort-submit = Saindia fideo
+record-abort-continue = Marya irekodi
+record-abort-delete = Fuma& uhangwe fideo mfuuhi
+review-submit-title = Huura & usaindie
+review-recording = iuulya
+review-rerecord = Uuulya
+review-cancel = Ngalyaa
+review-keep-recordings = Kaama rekodi so
+review-delete-recordings = futa fidioso piu
+review-terms = Wakubaliana itumia sauti (ndii iffwatilie
+terms-agree = Ngakubali
+terms-disagree = mmekubalifo
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Naksa washangia fidio mfuuhi
+why-donate = Niikili ulivesa?
+add-information-button = Engera mateta
+continue-speaking-button = Ehe endela itete
+create-profile-text = Ukundi ikaama mateta afo? (ika matata mesha(ika matata mesha
+thanks-for-voice-toast = Kaakasha wannde taarifa mfuuhi
+thanks-for-voice-toast-error = Matata amekaa undusha fo
+first-cta-gender-select-default-option = Shakwa
 
 ## MENU ITEM TOOLTIPS
 
