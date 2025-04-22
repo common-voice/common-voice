@@ -119,6 +119,7 @@ contribution-varying-pronunciations-example-1-title = Sineámi keléala kajé ba
 contribution-varying-pronunciations-example-2-title = Alá jú mi anísaa
 contribution-varying-pronunciations-example-2-explanation = [`Simí`pe je r’egá nokiwámi níisa ka be la chi yéna aniwáa pe bachabéala osirúachi]
 contribution-background-noise-title = Aneríwami jápi upáka raíchali moárami anecháni
+contribution-background-noise-description = Nakí ma-pu ‘échi algorítmo a’bói banélíati ‘a omérima nócha nokáa ta ko  wekanáti anée r’u, ‘a re’gá katúima che pe iwéami anésa jaré r’u nalí be ke nikuméa nokisá chu aniyá osirúachi.  Semelí pe kílipi niráa a’la kámi; w’e iwéami anésa bilé semelí rasíroka nikumésa ma-pu aniwá ‘échi ko tási a’la kámi.
 contribution-background-noise-description-extended = Ma-pu r’e ko ripúsa we la ko jaré cho anisáa ‘échi mo’árami, kíti katúi we cha ko námitami níisa suwába ikíi osirúu.
 contribution-background-noise-example-1-fixed-title = <strong>[Atísia] </strong>Dinosaurio wéli<strong>[ rosowali]</strong>Triásico.
 contribution-background-noise-example-2-fixed-title = Dinosaurio wé <strong>rosowáli</strong>  Triásico
