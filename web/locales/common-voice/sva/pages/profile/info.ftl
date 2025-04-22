@@ -43,3 +43,7 @@ dashboard = დაფა
 build-profile = პროფილი ლისყი
 avatar = ავატარ
 goals = მიზნა̈რ
+settings = მოწყობილობ
+edit-profile = პროფილი რედაქტირება
+profile-create-success = წარმატება̄̈ლ, პროფილ ჟ'ა̄̈ნსყა̈ნ!
+profile-close = ლიხურა̈უ̂ი
