@@ -86,6 +86,7 @@ transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
 coming-soon = Προσεχώς
+about-us = Σχετικά με εμάς
 
 ## MENU ITEMS TOOLTIPS
 
