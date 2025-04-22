@@ -21,6 +21,7 @@ target-segment-generic-card = Ayena mi aa nikúro biléana sí jápi riká a n
 target-segment-first-banner = Nikúra alá niwayá bacháriko alá nía échi Common Voice
 target-segment-add-voice = Uché mujé raíchala
 target-segment-learn-more = Ché wíkabé informacion.
+change-preferences = Nakulíwia bilécho niráa raíchala
 login-signup = Chóta sesión/ riwála ucháya
 vote-yes = Ayéna
 vote-no = Ké
