@@ -84,6 +84,9 @@ self-citation = کھُدی مِسال ہے
 self-citation-explanation = اگر تھمُون آپ سیمان لِکھا ہے تو تھم اپݨیں آپ کُو اِدؔا سرا دیتے ہے۔
 adding-sentences-subheader-length = لمبائی
 adding-sentences-subheader-length-explanation = ٻولینٚم 15 سے گھٹ لوج ہوݨیں چاہئیں۔
+adding-sentences-subheader-spelling-punctuation = ہِجے اور نشانِیاں
+adding-sentences-subheader-spelling-punctuation-explanation = ٻولا کُو سئی نامُونیس  لِکھݨا چائیے۔
+adding-sentences-subheader-speakable = ٻولݨیں جوگا
 domain-explanation = ڈومین یانی ٻولیں کے باریم ہے۔ ہلی اِٻکے، تھم اِن مینٚس کِسی ایکی کا چُناؤ کری سِکتے ہے:
 
 ## Question collection ids
