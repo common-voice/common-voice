@@ -92,10 +92,13 @@ transcribe-audio = Awdijo transkribować <small>(přińdźe bórze)</small>
 press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
 coming-soon = Bórze k dispoziciji
+about-us = Wo nas
+spontaneous-speech = SPONTANE RĚČENJE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerstwa, nowiny a stawiznički, zhromadźenstwo a rěče
+about-us-menu-item-tooltip = Zhońće wjace wo misiji a teamje za Common Voice
 partnerships-menu-item-tooltip = Stańće so z našim partnerom
 press-and-stories-menu-item-tooltip = Wopytajće naš blog abo pisajće wo nas
 community-and-languages-menu-item-tooltip = Wotkryjće rěče, zhromadźenstwa a Common Voice
