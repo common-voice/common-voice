@@ -25,3 +25,5 @@ download-request-assembling-description = ისგუ ფაილა̈რ ი�
 download-request-refresh-button = ჩუ̂ათმა̈ხ
 download-request-modal-title = ლა̈ტუ̂ირთა̈უ̂ ბმულ
 download-request-modal-description = ამჩუ ა̈რიხ ბმულა̈რ ისგუ̂ა ZIP ფაილრე ჩულა̈ტუ̂ირთა̈უ̂დ.
+download-request-link-text = Zip #{ $offset } { $total }-ხა̈ნქა
+download-request-metadata-link = წინადადება̄̈ლე ტექსტ

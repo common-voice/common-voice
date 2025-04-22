@@ -110,5 +110,6 @@ contribution-varying-pronunciations-example-2-title = Alá jú mi anísaa
 contribution-background-noise-title = Aneríwami jápi upáka raíchali moárami anecháni
 contribution-background-noise-example-1-fixed-title = <strong>[Atísia] </strong>Dinosaurio wéli<strong>[ rosowali]</strong>Triásico.
 contribution-background-noise-example-2-fixed-title = Dinosaurio wé <strong>rosowáli</strong>  Triásico
+contribution-background-noise-example-2-explanation = [Biléana texto ke ompáru namía]
 see-more = Che nebá
 see-less = Ke me inéa
