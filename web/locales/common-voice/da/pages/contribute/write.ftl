@@ -52,6 +52,7 @@ too-many-files = For mange filer
 
 ## SMALL BATCH SUBMISSION
 
+exceeds-small-batch-limit-error = Kan ikke indsende mere end 1000 sætninger
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->

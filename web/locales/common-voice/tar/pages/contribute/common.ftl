@@ -123,6 +123,7 @@ contribution-background-noise-example-1-fixed-title = <strong>[Atísia] </strong
 contribution-background-noise-example-2-fixed-title = Dinosaurio wé <strong>rosowáli</strong>  Triásico
 contribution-background-noise-example-2-explanation = [Biléana texto ke ompáru namía]
 contribution-background-noise-example-3-fixed-title = <strong>ukú </strong>Walú dinosaurio <strong>ukú</strong> -rásico
+contribution-background-voices-description = A’la ke nichílokamichi nísa, nalí be ke ta nakí jorécho raíchalá ma-pu si kayénitima si’nútakami ma ‘échi yéri mo’ása nochálatiri machiyó r’úa  raíchali je je r’egá osirúachi káachi.  ‘A r’egá kayé tu jarécho raíchali námitima ta ko ke chi yéri osirúachi, ke katúisa r’e chi yériti.  Siné káachi ko, je r’egá ikíi pe rajeká rewélía e’néalatiri we la ko pe mulípi ka raicháliachi ma-pu go’ná mo’aliwachi raíchali.
 contribution-background-voices-example-1-title = Wéli dinosaurio Triásico. ( Bilécho kítira leeritámi)
 contribution-background-voices-example-1-explanation = Mami ináro? <strong>( bilécho rewáchani) </strong>
 contribution-volume-title = Volumen
