@@ -10,3 +10,8 @@ why-card-1-text =
     <mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Yamba ndia ali ka loki bhi loki gbananai <mark>code-switching</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Yamba Dhaka ndiali na mikia kima kuti ndia bhandiki kedha bhulua ndia ndie<mark>ndie bhakikolisa ndia</mark> (bhia loki magbagbata, ndiali kaswekai neinjo ndiabhakibi …)
+how-spontaneous-speech-works = Nesi loki sa tulumesa akikolaga
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>Hambiliza/Olulya</mark>

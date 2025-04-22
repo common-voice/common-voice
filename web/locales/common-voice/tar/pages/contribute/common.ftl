@@ -9,6 +9,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>Pe kuuchi nirá'a
     }
 goal-help-recording = ¡Matétera ba kíti mo nikúriki Common Voice ma sébaki <goalPercentage></goalPercentage>ma-pu si mo’ábo r’eké jípi rawé si jónsa { $goalValue }
+goal-help-validation = ¡Matétera ba kíti mo nikúriki Common Voice ma sébaki <goalPercentage></goalPercentage> ma-pu si mo’ábo r’eké jípi rawé si jónsa { $goalValue }!
 contribute-more = Ma alámi jú kíti newáma { $count } wikábe?
 speak-empty-state = Ma kéta níwi raíchali kíti  moába raíchali jéna raichaliámi kítira
 speak-empty-state-cta = Ché ani jare namúti
