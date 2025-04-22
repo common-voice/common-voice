@@ -94,6 +94,7 @@ shortcut-vote-no = n
 contribution-criteria-nav = Alá jápi katuítami jú
 contribution-criteria-link = Che minábi benéa échi raíchali katuítami kitira
 contribution-criteria-page-title = Raíchali katuítami jápi nejámi ju échi raíchali
+contribution-criteria-page-description = ¡Che ‘a minábi benée píri mu ‘aama mo kipúachi joré mo’árami a’li machiká chu r’egá che pe a’lárima kí-mu mo’álila!
 contribution-for-example = Jápi ríka
 contribution-misreadings-title = Cháti ríka natáwami
 contribution-misreadings-description-extended-list-5 = Wikása oséli inéa bilépi raíchali
