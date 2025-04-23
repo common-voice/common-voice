@@ -119,6 +119,8 @@ community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽngu
 ## Hero section
 
 hero-title = Tembiporupyahu oikumbýva ne ñe’ẽ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = ¿Mba’ére IA oku’éta ndahetái ñe’ẽme añónte arapy tuichakuépe?
 # icon is an arrow that points downwards
 get-started = Emoñepyrũ <icon><icon>
 
