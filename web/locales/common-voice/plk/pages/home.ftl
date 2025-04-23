@@ -100,16 +100,22 @@ transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَ
 press-and-stories = پریس گہ قصائے
 community-and-languages = کمیونٹی گہ جِبہ
 coming-soon = جِنیْ اِینوْ
+about-us = اسے بارَد
+scripted-speech = لِکِیلیْ تقریر
+spontaneous-speech = بے ساختہ تقریر
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = شراکت داری، پریس، قصائے، کمیونٹی گہ جِبہ
+about-us-menu-item-tooltip = کامن وائس اےْ مشن گہ ٹیم اےْ بارد معلومات حاصل تِھیا
+about-us-menu-item-aria-label = اسیے بارَد واکے اختیارے مینو
 partnerships-menu-item-tooltip = اسو سے شراکت تِھیا
 press-and-stories-menu-item-tooltip = اسے بلاگڑ بوجہ یا اسے بارَد لِکِیا
 community-and-languages-menu-item-tooltip = جِبہ، کمیونیٹیز گہ مشترکہ آواز اورڑِیا
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = اختِیاراتو مینو بارَد ڇکِیا
 partnerships-menu-item-aria-label = کامن وائس سے ساتیْ شراکتے بارَد معلوم تِھیا
 press-and-stories-menu-item-aria-label = کامن وائس اےْ بارَد پریس ریلیز گہ قصَو بُجَیش اُڇِھیار حاصل تِھیا
 community-and-languages-menu-item-aria-label = کامن وائس اےْ ذریعہ گیْ تعاون یافتہ کمیونٹی گہ جِبو بارَد معلوم تِھیا
