@@ -131,3 +131,4 @@ process-steps = جتن / چرݨ
 process-steps-explanation = ایسے سُئال جن میں کسی کو کئی چرݨ داکھل کرنے کی جرورت ہوتی ہے۔ چرݨ سُوچی اُپیوگ کرنواڑے کُو زیادہ قدرتی پرتی کِرِیا کے آگے جباب پڑھنے کی سِیک دیتی ہے۔
 offensive-content-sensitive-information = آپتی جنک سیمان یا ناجُک جانکاری
 offensive-content-sensitive-information-explanation-explanation-1 = سُئال جکو جاتی توراپ اوݪکھݨیں جوگی جانکاری وِنتی کری سِکتے ہے
+offensive-content-sensitive-information-explanation-explanation-2 = ایسے سُئال جکو نپھرتا کی بھاشا یا دُؔوجے پکشپاتی یا اپمان جنک بھاوناں کُو جلم دؔی سِکتے ہے
