@@ -5,7 +5,7 @@ on:
   push:
     tags:
       - 'sandbox-v*.*.*'
-      # - 'stage-v*.*.*'
+      - 'stage-v*.*.*'
       # - 'release-v*.*.*'
 
 jobs:
