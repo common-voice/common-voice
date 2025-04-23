@@ -9,3 +9,5 @@ add-question-success-toast-message =
         [one] { $uploadedQuestions } 1 კითხუ̂ახა̈ნქა ა̈ნნაზო̄რა̄̈ნ
        *[other] { $uploadedQuestions } { $totalQuestions } ლჷნზო̄რე შეკითხუ̂ა̄̈ლ
     }
+add-question-error-message = ლიტუ̂ირთა̈უ̂ი მა̄მ ა̈ნჴჷრჴა̄̈ნ, ახეკუ̂ჰ აჯაღ.
+add-question-too-many-questions-error = ქ'ო̄თქა̄ბე 25 შეკითხუ̂ას. ჟ'ახმჷრხელდ შეკითხუ̂ა̄̈ლ ი განმეორებით ლიკუ̂ჰუ̄რე.
