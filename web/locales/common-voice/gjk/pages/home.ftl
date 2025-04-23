@@ -93,6 +93,7 @@ transcribe-audio = آڍِيو نِي نقل ڪرو
 press-and-stories = پريس انين وارتايُون
 community-and-languages = ڀِراڌرِي انين ٻولِيُون
 coming-soon = زٽ آويَ سي ريون
+about-us = امارا ٻارا مان
 
 ## MENU ITEMS TOOLTIPS
 
