@@ -100,6 +100,7 @@ transcribe-audio = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 press-and-stories = Y Wasg a Straeon
 community-and-languages = Cymuned ac Ieithoedd
 coming-soon = Yn Dod yn Cyn Hir
+about-us = Amdanom ni
 
 ## MENU ITEMS TOOLTIPS
 

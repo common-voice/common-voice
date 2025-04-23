@@ -93,6 +93,7 @@ adding-sentences-subheader-numbers-explanation = مِسالا کے توراپ س
 adding-sentences-subheader-abbreviations = وِکھیا اور وِکھیا
 adding-sentences-subheader-abbreviations-explanation = سروت لِکھتام "یو ایس اے" یا "آئی سی ای" جیسے وِیاکھِیا اور وِیاکھِیاس پاسا کرنا چاہئے کیونکہ اِن کُو اِس نامُونٚس پڑھی سِکتے ہے جکو ان کے ہِجیس میل نائی کھاوے۔ گھݨیں کرے ، ایک وِیاکھِیا نتر پڑھنا کھاسا سئی ہوئی سِکتا ہے۔
 adding-sentences-subheader-punctuation = نکتہ چینی
+adding-sentences-subheader-punctuation-explanation = کھاس پرتِیک اور نِشانِئیں کُو سِرپ اس سمے سیمل کرا جاݨا چاہئے جِدؔ سپا جروری ہوے۔ مِسالا کے توراپ ، انگریجی لوج جِدؔا "متی کرو" اور "ہم ہے" ہُوں ایک اپوسٹروپھی سیمل ہے اور اسے سروت لِکھتام سیمل کرنا چاہئے ، پݨیں یو بات اسمبھوَ ہے کہ تھم کُو کِدھی بھی "@" یا "#" جِدؔا کھاس پرتِیکا کی جرورت ہوونٚگی۔
 domain-explanation = ڈومین یانی ٻولیں کے باریم ہے۔ ہلی اِٻکے، تھم اِن مینٚس کِسی ایکی کا چُناؤ کری سِکتے ہے:
 
 ## Question collection ids
