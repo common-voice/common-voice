@@ -107,7 +107,9 @@ domain-explanation = ڈومین یانی ٻولیں کے باریم ہے۔ ہل�
 
 ## Question collection ids
 
+adding-questions = سُئال سیمل کرنا
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ایک اجرا سُئال کیا ہے؟
 what-makes-a-good-question-tip = تھم نِیارے سرے اور ڈومینز کو پھیلاݨینٚپ بھی وِچار کرنا چاہُوں گے۔

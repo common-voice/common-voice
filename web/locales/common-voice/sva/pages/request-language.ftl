@@ -23,3 +23,5 @@ request-for-spontaneous-speech-toggle = მოთხოუ̂ნა სპონ�
 need-help-deciding-platform = ჯაწჷხ ჰე̄სა ლიმურჯუ̂ი არჩეუ̂ანისგა"
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>სკრიპტირებულ გა̈რგლა</strong> (ტრადიციულდ - Common Voice) - ალა ლი საშუალება, იმუ̂ა̄̈ჲ ჯამჲედა წინადადება̄ლე ჰერშუ̂ ლიჭუ̂და̄̈ნი ისგუ̂ა ნინჟი.
+need-help-deciding-platform-explanation-2 = <strong>სპონტანურ გა̈რგლა</strong>ლი Common Voice-ეშ მახე ნა̈წილ, იმე სი ჯა̈მჲედა ლოხპასხუ̂ა კითხუ̂ა̄̈ლს ხოშა ორგანულ ლაგჷრგალოშ.
+need-help-deciding-platform-explanation-3 = ლახ სი დეშ ხოსგდი ისგუ ნინს აშხუ̂ პლატფორმაჟი, ჟ'ა̄̈ხითშ პატრნიორა̈ლ.
