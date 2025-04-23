@@ -1,11 +1,12 @@
 ## Dashboard
 
-your-languages = hhhh
-you = hh
+your-languages = mʊ́kʊ̀nʊ́mʊ̀n
+you = mɩ́
+everyone = ɩ́ɖáà ʈɩ̀ŋgà
 
 ## Custom Goals
 
-both-speak-and-listen = hh
+both-speak-and-listen = ɩ́lá pɩ̀náwɩ̀lɛ̀
 both-speak-and-listen-long = inu
 easy-difficulty = ggfd
 difficult-difficulty = ddr

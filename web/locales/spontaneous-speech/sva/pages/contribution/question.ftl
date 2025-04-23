@@ -11,3 +11,10 @@ add-question-success-toast-message =
     }
 add-question-error-message = ლიტუ̂ირთა̈უ̂ი მა̄მ ა̈ნჴჷრჴა̄̈ნ, ახეკუ̂ჰ აჯაღ.
 add-question-too-many-questions-error = ქ'ო̄თქა̄ბე 25 შეკითხუ̂ას. ჟ'ახმჷრხელდ შეკითხუ̂ა̄̈ლ ი განმეორებით ლიკუ̂ჰუ̄რე.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } 1 შეკითხუ̂ახა̈ნქა ა̈ნნა̈ზუ̂რა̄̈ნ.  ა̈ხწუ̂ე̄ნ ნიშგუ̂ეჲ <guidelinesLink>სახელმძღვანელო</guidelinesLink>გუ̂ერდა̈ლ, ერე ხოშილ ა̈ცხჷრა შეკითხუ̂ა̄̈ლე ლიქმემი ბედჟი
+       *[other] ა̈ნნა̈ზუ̂რა̄̈ნ { $uploadedQuestions }{ $totalQuestions } შეკითხუ̂ა̄̈ლხა̈ნქა. ა̈ხწუ̂ე̄ნ ნიშგუ̂ეჲ <guidelinesLink> სახელმძღვანელო</guidelinesLink> გუ̂ერდა̈ლ, ერე ხოშილ ა̈ცხჷრა შეკითხუ̂ა̄̈ლე ლიქმემი ბედჟი
+    }
+# Guidelines
+add-question-guidelines-title = იმჟი̄შ კითხუ̂ა̄̈ლე ლიქმე მა̈მჲედა?
