@@ -11,6 +11,8 @@ platform-language-tooltip-text = Kirahindura ebihandiiko by'omutimbagano byonka.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Orahayo<bold>{ $language }</bold> bwino
 contribution-picker-tooltip-text = Erahindura bwino y'orurimi oru oriyo noohweraho
+# Label for button on contribution switcher
+change = Hindura
 coming-soon = Endimi ezindi zirikwija juba
 media-recorder-api-not-supported = Rikooda API t'erimu omu puroguraamu yaawe
 # Toast message that is displayed when an item is skipped
