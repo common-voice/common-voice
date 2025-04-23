@@ -101,16 +101,21 @@ press-and-stories = Y Wasg a Straeon
 community-and-languages = Cymuned ac Ieithoedd
 coming-soon = Yn Dod yn Cyn Hir
 about-us = Amdanom ni
+scripted-speech = LLEFERYDD TESTUN
+spontaneous-speech = LLEFARU RHYDD
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partneriaethau, y Wasg a Straeon, y Gymuned ac Ieithoedd
+about-us-menu-item-tooltip = Dysgwch am y genhadaeth a'r tîm y tu ôl i Common Voice
+about-us-menu-item-aria-label = Dewislen dewisiadau Amdanom ni
 partnerships-menu-item-tooltip = Partneru gyda ni
 press-and-stories-menu-item-tooltip = Ymweld â'n blog neu ysgrifennu amdanom
 community-and-languages-menu-item-tooltip = Darganfod ieithoedd a chymunedau a Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Dewislen dewisiadau ynghylch
 partnerships-menu-item-aria-label = Dysgwch am bartneriaethau gyda Common Voice
 press-and-stories-menu-item-aria-label = Cael mynediad at datganiadau i'r wasg a straeon yn ymwneud â Common Voice
 community-and-languages-menu-item-aria-label = Archwilio'r gymuned a'r ieithoedd sy'n cael eu cefnogi gan Common Voice
@@ -120,16 +125,16 @@ community-and-languages-menu-item-aria-label = Archwilio'r gymuned a'r ieithoedd
 
 ## Hero section
 
-hero-title = Technoleg sy'n siarad eich iaith
+hero-title = Technoleg sy'n siarad eich iaith chi
 # Text wrapped in <bold></bold> will be shown in bold font
-hero-subtitle-1 = <bold>Pam ddylai AI weithio i rai o ieithoedd y byd yn unig?</bold>
+hero-subtitle-1 = <bold>Pam ddylai AI weithio dim ond i rai o ieithoedd y byd?</bold>
 hero-subtitle-2 = Ein hiaith yw ein stori, ein cymuned, ein diwylliant. Gadewch i ni greu'r setiau data rydym am eu gweld ar gael.
 # icon is an arrow that points downwards
 get-started = Cychwyn arni <icon><icon>
 
 ## Action items section
 
-action-items-section-title = Mae Common Voice yn blatfform cod agored am ddim ar gyfer creu data sy'n cael ei arwain gan y gymuned
+action-items-section-title = Mae Common Voice yn blatfform cod agored, rhydd ar gyfer creu data sy'n cael ei arwain gan y gymuned
 action-items-section-subtitle = Gall unrhyw un gadw, adfywio a dyrchafu eu hiaith trwy rannu, creu a churadu setiau data testun a lleferydd.
 scripted-card-header = Lleferydd Testun
 scripted-card-content = Darllenwch frawddegau yn uchel yn eich iaith a chyfrannwch at y set ddata lleferydd cyfranogiad cyhoeddus fwyaf amrywiol yn y byd.
