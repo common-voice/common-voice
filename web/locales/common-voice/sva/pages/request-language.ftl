@@ -9,3 +9,5 @@ request-language-form-info =
 request-language-form-info-explanation = ჟ'ე̄საქმ მა̈ჲ მო̄შ ხოშა ინფორმაცია ნინი ბედჟი. ამხაუ̂თე̄ჲსგა ესხრი:
 request-language-form-info-explanation-list-1 = ისგუ ნინი ჟა̄ხე
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO კოდა̈რ</isoCodeLink>ცნობილ ჰემა ლი
+request-language-form-info-explanation-list-3 = ბმულა̈რ ვებგვერდჟი, ხედუ̂ა̄̈ჲ გუ̂იმურჯუ̂იხ ნინი ლა̈ცხირს
+request-language-google-recaptcha-required = reCAPTCHA აუცილებელ ლი, გაგრძელება ჰემა ჯაკუ
