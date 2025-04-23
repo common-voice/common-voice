@@ -11,7 +11,6 @@ both-speak-and-listen-long = pɩ̀náwɩ̀lɛ̀ (màtɩɖɛ́ nɛ̀ wèléz�
 easy-difficulty = pɩ̀fɛ́yɩ́ kálɛ̀
 difficult-difficulty = kálɛ̀
 want-to-continue = mɩ́ŋjádɩ́ sɩ̀ ɛ́tàzɩ̀ ɛ́lá yáwè
-lose-changes-warning = jojoj
 which-goal-type = nihih
 not-receiving-emails-info = { "" }
 n-clips-pluralized =

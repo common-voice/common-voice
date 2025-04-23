@@ -20,3 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = იმჟი̄შ კითხუ̂ა̄̈ლე ლიქმე მა̈მჲედა?
 do-section-title = ჟახა̈სყ
 do-section-guideline-1 = ა̈ხჴჷმა̈რ სწორ მართლწერა ი გრამატიკა
+do-section-guideline-2 = ა̈ხითშ მარტიუ̂ კითხუ̂ა̄̈ლ, ხედუ̂ა̄̈ჲს მა̈გ ჩუ̂ა̈ცხრუნი, კულტურა̄̈შ ი კონტექსტი მიუხედაუ̂ად
+do-section-guideline-3 = დარწმუნდი, ერე ალ კითხუ̂ა̄̈ლჟი პასხუ̂ი ლიტხე ჯი იმა̈რგ აშხუ̂-ჲარუ̂ წინადადებოშ
+do-not-section-title = დე̄სა
+do-not-section-guideline-1 = ხიჰრ პერსონალურ საიდენტიფიკაციო ინფორმაცია (მაგალითად, ჟა̄ხა̈ლ, ფინანსურ ინფორმაცია)
