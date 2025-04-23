@@ -21,6 +21,8 @@ n-clips-pluralized =
        *[other] { "" }
     }
 help-share-goal = { "" }
+share-goal-type-speak = wámàtɩ̀ / pàmàtɩ̀
+share-goal-type-listen = wànɩ́ / pànɩ́
 
 ## Goals
 
