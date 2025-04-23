@@ -129,3 +129,4 @@ culturally-specific-questions-explanation = ایسے سُئال جکو گݨیں 
 length-avoid-explanation = ایسے سُئال جن کا جواب کسی کو 15 سیکنڈیم دؔیݨیم مُسکلیں کا سامنا کرنا پڑوں گا (ودھ میں ودھ ٹُکڑے کی لمبائی)
 process-steps = جتن / چرݨ
 process-steps-explanation = ایسے سُئال جن میں کسی کو کئی چرݨ داکھل کرنے کی جرورت ہوتی ہے۔ چرݨ سُوچی اُپیوگ کرنواڑے کُو زیادہ قدرتی پرتی کِرِیا کے آگے جباب پڑھنے کی سِیک دیتی ہے۔
+offensive-content-sensitive-information = آپتی جنک سیمان یا ناجُک جانکاری

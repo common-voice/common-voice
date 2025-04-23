@@ -26,3 +26,8 @@ share-goal-type-listen = wànɩ́ / pànɩ́
 
 ## Goals
 
+days =
+    { $count ->
+        [one] wɩ́ɖɛ́
+       *[other] { "" }
+    }
