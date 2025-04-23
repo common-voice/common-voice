@@ -18,3 +18,5 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = იმჟი̄შ კითხუ̂ა̄̈ლე ლიქმე მა̈მჲედა?
+do-section-title = ჟახა̈სყ
+do-section-guideline-1 = ა̈ხჴჷმა̈რ სწორ მართლწერა ი გრამატიკა

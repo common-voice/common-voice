@@ -124,3 +124,5 @@ spelling-and-pronunciation-explanation = سئی ہِجے اور ٻولیں کا 
 length = لمبائی
 length-explanation = اس سُئالا کا جباب رُگی چند ٻولینٚم دؔیݨاں چاہئے۔
 dont-add-subheader = سیمل متی کرو
+culturally-specific-questions = سنسکرتی توراپ کھاس سُئال
+culturally-specific-questions-explanation = ایسے سُئال جکو گݨیں سنسکرتی توراپ کھاس ہے ، یا جباب دؔیݨواڑے کے باریم گھݨیں سارے دھرناں ٻناتے ہے۔
