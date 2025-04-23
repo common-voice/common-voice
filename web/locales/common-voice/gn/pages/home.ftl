@@ -100,6 +100,8 @@ spontaneous-speech = ÑE’ẼKUAA SYRYRY
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Juaju, Maranduasãiha ha Tembiasakue, Tekoha ha Ñe’ẽita
+about-us-menu-item-tooltip = Eikuaa Common Voice rembipota ha omba’apovakuéra
+about-us-menu-item-aria-label = Poravoha renda ore rehegua
 partnerships-menu-item-tooltip = Eike orendive
 press-and-stories-menu-item-tooltip = Eike ore blog-pe térã ehai ore rehegua
 community-and-languages-menu-item-tooltip = Ehechakuaa ñe’ẽita ha tekoha ha ayvu opavaveguáva
