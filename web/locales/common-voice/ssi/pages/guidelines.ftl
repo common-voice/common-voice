@@ -95,6 +95,7 @@ adding-sentences-subheader-abbreviations-explanation = سروت لِکھتام "
 adding-sentences-subheader-punctuation = نکتہ چینی
 adding-sentences-subheader-punctuation-explanation = کھاس پرتِیک اور نِشانِئیں کُو سِرپ اس سمے سیمل کرا جاݨا چاہئے جِدؔ سپا جروری ہوے۔ مِسالا کے توراپ ، انگریجی لوج جِدؔا "متی کرو" اور "ہم ہے" ہُوں ایک اپوسٹروپھی سیمل ہے اور اسے سروت لِکھتام سیمل کرنا چاہئے ، پݨیں یو بات اسمبھوَ ہے کہ تھم کُو کِدھی بھی "@" یا "#" جِدؔا کھاس پرتِیکا کی جرورت ہوونٚگی۔
 adding-sentences-subheader-special-characters = کھاس کردار اور دُؔوجے دؔیسا کے پتر
+adding-sentences-subheader-special-characters-explanation-1 = اکشریں کُو ٻولݨواڑی بھاشام سئی ہوݨا جروری ہے۔ مِسالا کے توراپ ، "اے" روسی اکشر ماݪام ایک اکشر ہے پݨیں انگریجِیام کِدھی بھی اُپیوگ نائیں ہووے اور نکو کسی بھی انگریجِی سروت لِکھتام کِدھی چاوا نائیں ہوݨا چاہئے۔
 domain-explanation = ڈومین یانی ٻولیں کے باریم ہے۔ ہلی اِٻکے، تھم اِن مینٚس کِسی ایکی کا چُناؤ کری سِکتے ہے:
 
 ## Question collection ids
