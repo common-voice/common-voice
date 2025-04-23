@@ -135,3 +135,4 @@ offensive-content-sensitive-information-explanation-explanation-2 = ایسے س�
 offensive-content-sensitive-information-explanation-explanation-3 = ایسے سُئال جکو کسی کُو ناجُک، ہوئی سِیکتا ہے متحرک جوابات کا اُکساݨیں کا سبب ٻݨیں سِکتا ہے
 example-questions-subheader = مِسالا کے سُئال
 example-questions-explanation-1 = تھم <examplePromptsLink>اس شیٹام 120 مِسالیں کے اشارے لوڑی سِکتے ہے۔</examplePromptsLink>
+example-questions-explanation-2 = اگر تھم اِرجݨاں کے نتر سُئالیں کی ایک ہِسا جما کرنا چاہتے ہے تو ، تھم <githubLink>مھارے گیٹ ہب کے دُئارے ایسا کری سِکتے ہے</githubLink> یا اپݨیں سُوچی commonvoice@mozilla.com ای میل کری سِکتے <emailFragment>ہے۔</emailFragment>
