@@ -96,7 +96,6 @@ community-and-languages-menu-item-tooltip = جیب،خلق تے کامن ویس 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اپشن مینو بارا مے
 partnerships-menu-item-aria-label = کامن ویاس دا دراوال  جان
 press-and-stories-menu-item-aria-label = کامن وایس سہ قیصہ
 community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  خلق تے جیب   ام اے مدد تھال تنا پویان

@@ -98,7 +98,6 @@ community-and-languages-menu-item-tooltip = کُلي سمجھآئو ٻوليآݩ
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشن مينيوري بآري ميݩ
 partnerships-menu-item-aria-label = سکو هيسدآريٚ ڪآمن وآئيٚس سآݩ ري بآري ميݩ
 press-and-stories-menu-item-aria-label = اجآزت ڏيڻ لآ پريس بٽڻ دٻآئو ڇڏڻ لآ ائيٚݩ آکهآڻيوݩ ڪآمن وآئيٚس ري متآبڪ
 community-and-languages-menu-item-aria-label = ڪآمن وآئيٚس ريٚ مدت سآنٚ ڪميٚونٽيٚ ائيٚنٚ ٻوليآنٚ کي لنٚڀو

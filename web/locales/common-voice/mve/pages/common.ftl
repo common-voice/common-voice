@@ -363,7 +363,7 @@ not-available-abbreviation = ڪونِي موجود ھيَ
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>مھونيَ ضرورت ھيَ</mark> <br/><mark>ٿونرِي مدد!
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = مواد ريَ سيٽ ريَ ميزبونِي ڪرڻ ھان 100 کان وڌيڪ ٻوليون ريَ برادريون ھارو پليٽ فارم نيَ سُٺو ٺاڻ تيَ ھر سال لڳ ڀڳ ڏيھ لک ڊالر خرچ آتا ھيَ جڪو مھوريَ ڪوم تيَ ڀروسو ڪريَ ھيَ۔<strong>جيَ ٿيَ آسان رسائيَ ھان ٺيڪ ڊيٽا رِي قدر ڪرو ھو۔ آج ھيچندو ڏيو!</strong>
+donate-banner-cta-explanation = مواد ريَ سيٽ ريَ ميزبونِي ڪرڻ ھان 100 ھون وڌيڪ ٻوليون ريَ برادريون ھارو پليٽ فارم نيَ سُٺو ٺاڻ تيَ ھر سال لڳ ڀڳ ڏيھ لک ڊالر خرچ آتا ھيَ جڪو مھوريَ ڪوم تيَ ڀروسو ڪريَ ھيَ۔<strong>جيَ ٿيَ آسان رسائيَ ھان ٺيڪ ڊيٽا رِي قدر ڪرو ھو۔ آج ھيچندو ڏيو!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>ھارو سي وِي نيَ استعمال</mark><br/><mark>ٿونرِي تخقيق؟</mark>
 languages-donate-banner-cta-explanation = ڪامن وائس نيَ چنديَ ھان گرانٽس ھون مدد ھوئيَ ھيَ! مھونيَ تعليمي ماھرون، سماجِي تنظيمون ھان ڪاروبارِي تحقيق ڪرڻ آݪو ھون تعاون ڪرڻ پسند ھيَ۔ ڪامن وائس ھارو مفت ھيَ، پڻ گرانٽ تجويزون وسيليَ پليٽ فارم ھان ميزباني ريَ خرچون ۾ حصو ليڻ واقعي مددگار ھيَ۔

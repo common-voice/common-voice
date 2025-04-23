@@ -12,9 +12,14 @@ listen-loading-error =
 listen-abort-title = ယဝ်ႉတူဝ်ႈၵၢၼ်ၵူတ်ႇထတ်းၶလိပ်ႉ?
 listen-abort-cancel = သိုပ်ႇၵူတ်ႇထတ်း
 listen-abort-confirm = ယဝ်ႉတူဝ်ႈၵၢၼ်ၵူတ်ႇထတ်း
+# Menu item
+validate-readings = ၵူတ်ႇထတ်းသဵင်ဢၢၼ်ႇ
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = ၵူတ်ႇထတ်းသဵင်ဢၢၼ်ႇ <small>(ဝႆးဝႆးၼႆႉ)</small>
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = ၵူတ်ႇထတ်းၵၢၼ်ဢၢၼ်ႇ၊ လႄႈၵၢၼ်ထွတ်ႇသဵင်
 
 ## MENU ITEM ARIA LABELS
 

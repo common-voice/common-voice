@@ -101,7 +101,6 @@ community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے وا
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اختیاراتو لیسٹو بارا
 partnerships-menu-item-aria-label = کامن وائسو سوم شراکت دار بیکو بارا ݯھیݯھے
 press-and-stories-menu-item-aria-label = کامن وائسو بارا خبران وا مضمونان ژاغا بوغے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران  سوم کی مدد کویان تیتان پتہ کو

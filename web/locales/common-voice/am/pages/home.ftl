@@ -107,7 +107,6 @@ community-and-languages-menu-item-tooltip = ቋንቋዎችን እና ማህበ�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = ስለ አማራጮች ምናሌ
 partnerships-menu-item-aria-label = ከጋራ ድምጽ ጋር ስላላቸው ሽርክና ይወቁ
 press-and-stories-menu-item-aria-label = ከጋራ ድምጽ ጋር የሚዛመዱ የጋዜጣዊ መግለጫዎችን እና ታሪኮችን ያግኙ
 community-and-languages-menu-item-aria-label = በጋራ ድምጽ የሚደገፉ ማህበረሰቡን እና ቋንቋዎችን ያስሱ

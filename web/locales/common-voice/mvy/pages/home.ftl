@@ -96,7 +96,6 @@ community-and-languages-menu-item-tooltip = ژِبہۡ، مُختلف خلکَہ
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اختیاراتَیں لیشیاں بارہ مہ
 partnerships-menu-item-aria-label = کامن وائسہ مِلیۡ مرگَلتیاں بارہ مہ سِڇھہ/ڇِڇہ
 press-and-stories-menu-item-aria-label = کامن وائساں متعلق اخبارَیں خبریوں ہا گلہ۔
 community-and-languages-menu-item-aria-label = کامن وائس چےۡ گھِن٘ل خلکہ آں ژِبؤں مِلیۡ اُولی ہوئ تُھو سیوں لا گَر پَھر ہو

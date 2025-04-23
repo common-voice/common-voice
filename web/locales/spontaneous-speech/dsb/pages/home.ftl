@@ -2,7 +2,7 @@
 
 welcome-to-spontaneous-speech = Witajśo k spontanemu powědanjeju
 # <br></br> represents a newline break
-wall-of-text = Common Voice drugu platformu startujo, z fokusom na gromaźenju organiskego, spontanego, njepisanego powědanja. To wjele zgromaźeństwam pomaga, daty malsnjej gromaźiś a buźo za datowe wědomnostniki a wuwijarje wužytne.
+wall-of-text = Common Voice drugu platformu startujo, z fokusom na gromaźenju organiskego, spontanego, powědanja bźez skripta. To wjele zgromaźeństwam pomaga, daty malsnjej gromaźiś a buźo za datowe wědomnostniki a wuwijarje wužytne.
 why-spontaneous-speech = Cogodla smy wuwili toś ten prototyp za spontane powědanje
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Wužytne za <mark>organiske powědańske konteksty</mark> a wužywańske pady (na pś. gaž cośo, až powědańske spóznaśe z luźimi, kótarež njepisane a wobchadnorěcnje powědaju)

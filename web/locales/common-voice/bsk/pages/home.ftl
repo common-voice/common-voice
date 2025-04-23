@@ -95,7 +95,6 @@ community-and-languages-menu-item-tooltip = baaṣiṅ, kuyooć daa common voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = option menu e baaraulo
 partnerships-menu-item-aria-label = common voice e kaa kaa numa duro etas henin
 press-and-stories-menu-item-aria-label = common voice ate minaśin daa ixbaare taqhpan ġatanin
 community-and-languages-menu-item-aria-label = common voice e uriin ce duunum baaṣiṅ daa kiyooć udoor otin

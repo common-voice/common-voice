@@ -110,7 +110,6 @@ community-and-languages-menu-item-tooltip = ٻوليون ھين برادريون
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اختيارن مينيو بابت
 partnerships-menu-item-aria-label = ڪامن وائس مون ڀائيواري بابت ھيکو
 press-and-stories-menu-item-aria-label = ڪامن وائس مون ڀآريوڙي پريس رليز ھين ڪهاڻيون تڪ رسائي حاصل ڪرو
 community-and-languages-menu-item-aria-label = ڪامن وائس ري مدد مون ڪميونٽي ھين ٻوليو يي جو

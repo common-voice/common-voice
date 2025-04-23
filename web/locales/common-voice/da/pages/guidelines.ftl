@@ -33,6 +33,8 @@ background-noise-example-1 = De gigantiske dinosaurer i Trias.
 background-noise-example-2 = [Nys] De gigantiske dinosaurer i [hoste] Trias.
 background-noise-example-3 = Den gigantiske dino [hoster] Trias.
 background-noise-example-4 = [Knitre] gigantiske dinosaurer i [knitre] -rias.
+background-noise-tip-1 = [afbrudt af baggrundsstøj]
+background-noise-tip-2 = [En del af teksten kan ikke høres]
 background-voices-example-1 = De gigantiske dinosaurer i Trias. [læst af én stemme]
 background-voices-tip-1 = Kommer du? [sagt af en anden]
 volume-explanation = Der vil være naturlige variationer i lydstyrken mellem oplæsere. Afvis kun, hvis lydstyrken er så høj, at den ødelægger optagelsen, eller (mere almindeligt), hvis den er så lav, at du ikke kan høre, hvad der bliver sagt uden henvisning til den skrevne tekst.
@@ -72,10 +74,13 @@ reviewing-sentences-explanation-4 = Hvis du løber tør for sætninger at gennem
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-explanation-criteria-3 = Ikke anvende, eller opfordre til, skadeligt eller stødende sprog
 easy-to-understand = Let at forstå
 spelling-and-pronunciation = Stavning og tegnsætning
 spelling-and-pronunciation-explanation = Brug korrekt stavning og grammatik.
 length = Længde
+length-explanation = Spørgsmålet skal kunne besvares i blot et par sætninger.
 dont-add-subheader = Tilføj ikke
 culturally-specific-questions = Kulturspecifikke spørgsmål
+offensive-content-sensitive-information = Stødende indhold eller følsomme oplysninger
 example-questions-subheader = Eksempler på spørgsmål

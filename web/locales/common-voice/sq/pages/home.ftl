@@ -98,7 +98,6 @@ community-and-languages-menu-item-tooltip = Zbuloni gjuhë dhe bashkësi dhe Com
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menu mundësish “Mbi”
 partnerships-menu-item-aria-label = Mësoni rreth partneritete me Common Voice
 press-and-stories-menu-item-aria-label = Shihni njoftime shtypi dhe shembuj të lidhur me Common Voice
 community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuhët e mbuluara nga Common Voice

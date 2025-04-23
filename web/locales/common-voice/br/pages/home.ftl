@@ -105,7 +105,6 @@ community-and-languages-menu-item-tooltip = Dizoloit ar yezhoù, ar c'humuniezhi
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Dibarzhioù al lañser A-zivout
 partnerships-menu-item-aria-label = Gouzout hiroc'h diwar-benn ar c'heveliñ war Common voice
 press-and-stories-menu-item-aria-label = Gwelet an embannoù kelaouiñ liammet ouzh Common voice
 community-and-languages-menu-item-aria-label = Dizoloit an holl yezhoù ha kumuniezhioù skoret gant Common voice

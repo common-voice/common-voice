@@ -92,7 +92,6 @@ about-menu-tooltip = Col·laboracions, premsa i articles, comunitat i llengües
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menú d'opcions de Quant a
 
 ## NEW HOME PAGE KEYS
 

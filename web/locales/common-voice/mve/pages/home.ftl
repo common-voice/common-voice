@@ -86,17 +86,22 @@ transcribe-audio = آڊيو نيَ لکو
 press-and-stories = ڇپائي ھان وارتائون
 community-and-languages = برادري ھان ٻوليَ
 coming-soon = جلدِي آڻ آݪِي ھيَ
+about-us = مھوريَ باريَ ۾
+scripted-speech = لکوڙِي وات
+spontaneous-speech = بي ساخته وات (بي ترتِيب آݪِي وات)
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ڀائيواريَ،ڇپائِي ھان وارتائون، برادري ھان ٻوليَ
+about-us-menu-item-tooltip = ڪامن وائس ري لاريَ  ڪوم ڪرڻ آݪون ھانَ ايئي ريَ مقصد ريَ باريَ ۾ ݾکو
+about-us-menu-item-aria-label = مھوريَ  باريَ ۾ آپشن مينيو
 partnerships-menu-item-tooltip = مھون ڀيݪا بائيوار ھو
 press-and-stories-menu-item-tooltip = مھوريَ بلاگ نيَ وزٽ ڪرو يا مھوري باريَ ۾ لکو
 community-and-languages-menu-item-tooltip = ٻوليَ ھان برادريَ ھان ڪامن وائس جونچو
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشن مينيو ريَ باريَ ۾
+about-us-menu-aria-label = آپشن مينيو ريَ باريَ ۾
 partnerships-menu-item-aria-label = ڪامن وائس ڀيڙي ڀائيوارِي ريَ باريَ ۾ ݾکو
 press-and-stories-menu-item-aria-label = ڪامن وائس ھون جڙوڙيَ پريس رليز ھان وارتائون تائين پوھنچ حاصل ڪرو
 community-and-languages-menu-item-aria-label = ڪامن وائس رِي مدد ھو برادريون ھان ٻوليون نيَ جونچو

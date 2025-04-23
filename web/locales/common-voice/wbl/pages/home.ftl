@@ -95,7 +95,6 @@ community-and-languages-menu-item-tooltip = Zikvẽ, jẽmoatvẽ woz Kommon voy
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Ikhtiyori menuẽ barar.
 partnerships-menu-item-aria-label = Dẽ Kommon Voysẽn qẽti wocnẽ k̃hẽ shẽrikat dori barar/bobatẽn dish
 press-and-stories-menu-item-aria-label = Kommon Voysẽ barar press reliz woz zhindagvẽ barar resoyi hosil car
 community-and-languages-menu-item-aria-label = Jẽmoatvẽ woz zẽbonvẽ s̃hẽkur kumdvẽri ki Kommon voysẽ mẽdad k̃hetk

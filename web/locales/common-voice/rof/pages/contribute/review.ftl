@@ -37,6 +37,7 @@ sc-criteria-modal = uulya ndii
 sc-criteria-title = uulya ndii
 sc-criteria-make-sure = Saakwa mateta undusha ndii
 sc-criteria-item-1 = Mteta lasma utarwe kwaumakini
+sc-criteria-item-2 = Mateta lasma ave aloli
 sc-criteria-item-3 = Mteta lasma atetwe
 sc-criteria-item-4 = Mateta auwa ndii sinda usaakwe ura wa klio
 sc-criteria-item-5-2 = Ksa matete yameshikia ndii lyaa sha ura wa kmoso ksa utete uhakika na matetao welekana nao

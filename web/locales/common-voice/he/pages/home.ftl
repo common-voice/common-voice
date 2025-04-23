@@ -93,7 +93,6 @@ community-and-languages-menu-item-tooltip = גלו שפות וקהילות
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = תפריט אפשרויות של דף על אודות
 partnerships-menu-item-aria-label = גלו עוד על שותפיות עם Common View
 press-and-stories-menu-item-aria-label = גישה להודעות לעיתונות ולידיעות הקשורות ל-Common Voice
 community-and-languages-menu-item-aria-label = גלו עוד על הקהילה והשפות של Common Voice

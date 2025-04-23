@@ -112,7 +112,6 @@ community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajedni�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Izbornik opcija za informacije
 partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
 press-and-stories-menu-item-aria-label = Pristupi objavama i pričama o Common Voiceu
 community-and-languages-menu-item-aria-label = Istraži zajednicu i jezike koje podržava Common Voice
