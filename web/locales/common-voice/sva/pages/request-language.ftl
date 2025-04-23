@@ -18,3 +18,6 @@ request-language-success-list-1 = სი ხეკუ̂ეს ა̈ხკჷდ�
 request-language-success-list-2 = ნიშგუ̂ეჲ საზოგადოება̄̈ მენეჯერ დაგიკაუ̂შირდება, ერე ლაჯჭარჟას დამატებით მხარდაჭერა ი ქა ჯა̄̈ქუ̂ას, ჰე̄სა ა̈რი ჩუ საზოგადოება, ხედუ̂ა̄̈ჲ ამშჲე ისგუ̂ა ნინჟი
 request-language-success-list-3 = ჰემა სი მო̄მ ა̈ხკედ ნიშგუ̂ეჲხა̈ნ პასუ̂იხუ̂ს ჲარუ̂ ლადა̈ღისგა, დაგუ̂იკაუ̂შირდი<emailLink>{ $email }</emailLink> ი ნა̈ჲ ქაჯიპასუხედ!
 request-language-error = შეიძლება ნა̈ჲ მა̄მ ა̈ხუ̂კიდდ ალ მოთხოუ̂ნა. ქ'ა̄̈ნი̄ჲრ პირდაპირ<emailLink>{ $email }</emailLink> ი ნა̈ჲ დაგიკაუ̂შირდებით!
+request-for-scripted-speech-toggle = რეგისტრაცია წერილობით მეტყველებაჟი
+request-for-spontaneous-speech-toggle = მოთხოუ̂ნა სპონტანურ გა̈რგლა̄̈შდ
+need-help-deciding-platform = ჯაწჷხ ჰე̄სა ლიმურჯუ̂ი არჩეუ̂ანისგა"
