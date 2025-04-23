@@ -5,13 +5,13 @@ toward-next-goal = ٻيجيَ حدف رِي طرف
 goal-reached = حدف تائين رسڻ
 clips-you-recorded = ڪلِپ ٿون ريڪارڊ ڪئيَ
 clips-you-validated = ڪلِپ جڪو ٿون تصديق ڪئيَ ھيَ
-todays-recorded-progress = ريڪارڊ ھوئوڙيَ ڪلپ تيَ آج ريَ ڪامن وائس ريَ ڪم رِي پيش رفت
+todays-recorded-progress = ريڪارڊ ھوئوڙيَ ڪلپ تيَ آج ريَ ڪامن وائس ريَ ڪوم رِي پيش رفت
 todays-validated-progress = آج ڪامن وائس ريَ ڪلِپ تيَ پيش رفت رِي تصديق ڪيوڙِي ھيَ
 stats = انگ آکر
 awards = انعام
 you = ٿيَ
 everyone = ھر ڪو
-contribution-activity = شراڪتِي ڪم
+contribution-activity = شراڪتِي ڪوم
 top-contributors = موٽا شراڪت ڪرڻ آݪا
 recorded-clips = ريڪارڊ ڪيوڙا ڪلِپ
 validated-clips = تصديق ڪيوڙا ڪلِپ
@@ -117,7 +117,7 @@ how-many-per-day = واھ ! گھڻا ڪلِپ ھر ڏِن؟
 how-many-a-week = واھ ! ھيڪيَ ھفتيَ ۾ گھڻا ڪلِپ؟
 which-goal-type = ڪِي ٿيَ ٻولڻ، ھونڀڻ يا ٻيئي چاھو ھو؟
 receiving-emails-info = ڪِي ٿيَ ايئيَ ٽوڻيَ اي ميلون خاصل ڪرڻ ھارو تيار ھو جون مقصد ياد ڏيراڻ آݪيَ، مياݪيَ ڪوم رِِي ترقِي ريَ باريَ ۾ ھان ڪامن وائس ريَ باريَ ۾ نيز ليٽر
-not-receiving-emails-info = ٿيَ ھيڻو سيٽ ڪرو<bold> نا</bold> ڪامن وائس ريَ باريَ ۾ اي ميلون حاصل ڪرڻ ھارو جون مقصد نيَ ياد ڏيراڻ، مھارِيَ ڪم رِي ترقِي ريَ باريَ ۾ موجودا حالت ھان نيز ليٽر
+not-receiving-emails-info = ٿيَ ھيڻو سيٽ ڪرو<bold> نا</bold> ڪامن وائس ريَ باريَ ۾ اي ميلون حاصل ڪرڻ ھارو جون مقصد نيَ ياد ڏيراڻ، مھارِيَ ڪوم رِي ترقِي ريَ باريَ ۾ موجودا حالت ھان نيز ليٽر
 n-clips-pluralized =
     { $count ->
         [one] ڪلِپ

@@ -2,6 +2,7 @@ action-click = Clic
 action-tap = Aperotzi
 contribute = Pipawakita
 review = Aminaperotzi
+skip = Komenkantsi
 languages = Añanipoeni
 submit-form-action = Pochante
 

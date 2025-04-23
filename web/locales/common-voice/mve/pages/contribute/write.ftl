@@ -45,7 +45,7 @@ automotive_transport = گاڏَي ھان سواريَ
 # Sentence Domain dropdown option
 finance = حساب ڪتاب
 # Sentence Domain dropdown option
-service_retail = ڪم ڪار ھان ويڪرو
+service_retail = ڪوم ڪار ھان ويڪرو
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
