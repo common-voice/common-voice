@@ -12,3 +12,6 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>ISO კოდა̈�
 request-language-form-info-explanation-list-3 = ბმულა̈რ ვებგვერდჟი, ხედუ̂ა̄̈ჲ გუ̂იმურჯუ̂იხ ნინი ლა̈ცხირს
 request-language-google-recaptcha-required = reCAPTCHA აუცილებელ ლი, გაგრძელება ჰემა ჯაკუ
 request-language-google-recaptcha-error = არასწორდ მირ ლა̈სუ̂ reCAPTCHA-ცახა̈ნ. ახეკუ̂ჰ აჯაღ.
+# Success page
+request-language-success-heading = მაჴუ̂მა̄̈რ! სი’ ქ'ა̄̈თზიზ მახე ნინი კუ̂ლეუ̂ა
+request-language-success-list-1 = სი ხეკუ̂ეს ა̈ხკჷდა ნიშგუ̂ეჲ საზოგადოება̄̈ მენეჯერი ელ. წერილ, ხედუ̂ა̄̈ისგა განმარტებულ ი̄რა, მა̈ჲ ჯა̄რ ლეჩუ̂მე ისგუ ნინი Common Voice-ჟი ლა̈ქმად
