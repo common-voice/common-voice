@@ -11,3 +11,4 @@ request-language-form-info-explanation-list-1 = ისგუ ნინი ჟა
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO კოდა̈რ</isoCodeLink>ცნობილ ჰემა ლი
 request-language-form-info-explanation-list-3 = ბმულა̈რ ვებგვერდჟი, ხედუ̂ა̄̈ჲ გუ̂იმურჯუ̂იხ ნინი ლა̈ცხირს
 request-language-google-recaptcha-required = reCAPTCHA აუცილებელ ლი, გაგრძელება ჰემა ჯაკუ
+request-language-google-recaptcha-error = არასწორდ მირ ლა̈სუ̂ reCAPTCHA-ცახა̈ნ. ახეკუ̂ჰ აჯაღ.

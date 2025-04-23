@@ -12,6 +12,13 @@ difficult-difficulty = ddr
 want-to-continue = gghj
 lose-changes-warning = jojoj
 which-goal-type = nihih
+not-receiving-emails-info = { "" }
+n-clips-pluralized =
+    { $count ->
+        [one] { "" }
+       *[other] { "" }
+    }
+help-share-goal = { "" }
 
 ## Goals
 
