@@ -10,6 +10,7 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions }  of { $totalQuestions } ebibuuzo ebyarundaanwa
     }
 add-question-error-message = Okukitaho kwayanga, nyaburawe, garuka ogyezeho
+add-question-too-many-questions-error = Kyarenzya ebibuuzo 25. Kyendeeza omuhendo gw'ebibuuza ogaruke ogyezeho.
 partial-questions-upload-message =
     { $totalQuestions ->
         [one] 	{ $uploadedQuestions }  [one] aha kibuuza 1 ekyarundaanwa. Reeba ebyaitu <guidelinesLink>Guidelines</guidelinesLink> empapura z'okwegyeraho ebindi ebirikukwata aha kutamu ebibuuzo

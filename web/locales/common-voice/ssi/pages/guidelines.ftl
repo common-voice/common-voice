@@ -114,4 +114,5 @@ adding-questions = سُئال سیمل کرنا
 what-makes-a-good-question-subheader = ایک اجرا سُئال کیا ہے؟
 what-makes-a-good-question-explanation = جنتا بھاگیداری ڈیٹا سیٹا نتر ایک اجرا سُئال ہوݨا چاہئے:
 what-makes-a-good-question-explanation-criteria-1 = سمجݨیں اور جُواب دیݨینٚم سولا رہوے
+what-makes-a-good-question-explanation-criteria-2 = سادھارݨ توراپ سئی ہوݨا
 what-makes-a-good-question-tip = تھم نِیارے سرے اور ڈومینز کو پھیلاݨینٚپ بھی وِچار کرنا چاہُوں گے۔
