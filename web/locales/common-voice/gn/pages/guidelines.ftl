@@ -126,4 +126,6 @@ process-steps = Mba’eapo / Jeku’e
 offensive-content-sensitive-information = Tetepy oporoko’õva térã marandu oñeñandúva
 offensive-content-sensitive-information-explanation-explanation-1 = Ñeporandu ikatukuaáva ojerure ndéve marandu nde ndeheguaitéva
 offensive-content-sensitive-information-explanation-explanation-2 = Porandu ikatúva omongu’e je’epy ja’e’ỹ térã hetave mba’e omongu’ekuaáva jeikovairã
+offensive-content-sensitive-information-explanation-explanation-3 = Porandu ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
 example-questions-subheader = Porandu techapyrãva
+example-questions-explanation-1 = Ejuhukuaa <examplePromptsLink>120 techapyrã oĩva ko kuatiaroguépe.</examplePromptsLink>

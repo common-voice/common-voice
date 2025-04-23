@@ -93,6 +93,9 @@ transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 press-and-stories = Maranduasãiha ha Tembiasakue
 community-and-languages = Tekoha ha ñe’ẽnguéra
 coming-soon = Ag̃aitéma
+about-us = Ore rehegua
+scripted-speech = JE’EPY MBOHAPÉVA
+spontaneous-speech = ÑE’ẼKUAA SYRYRY
 
 ## MENU ITEMS TOOLTIPS
 
