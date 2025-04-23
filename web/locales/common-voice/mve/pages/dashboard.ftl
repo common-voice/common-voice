@@ -47,8 +47,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] ڪامن وائس رِي پُڳڻ ۾ { $hours }زاتي مقصد ھون ڪلاڪ ۾
-       *[other] ڪامن وائس رِي پُڳڻ ۾ { $hours }زاتي مقصد ھون ڪلاڪون ۾
+        [one] ڪامن وائس رِي پُڳڻ ۾ { $hours } زاتِي مقصد ھون ھيڪ ڪلاڪ ۾
+       *[other] ڪامن وائس رِي پُڳڻ ۾ { $hours } زاتِي مقصد ھون ڪلاڪون ۾
     }
 set-a-goal = حدف سيٽ ڪرو
 cant-decide = فيصلو ڪونِي ڪريَ ݾگون ھون؟
@@ -121,7 +121,7 @@ not-receiving-emails-info = ٿيَ ھيڻو سيٽ ڪرو<bold> نا</bold> ڪا
 n-clips-pluralized =
     { $count ->
         [one] ڪلِپ
-       *[other] ڪلِپ
+       *[other] ڪلِپون
     }
 help-share-goal = ٻيجيَ آوازون نيَ جونچڻ ۾ مھورِي مدد ڪرو، آپرو حدف ٻيجون نيَ ھنڀڙائو
 confirm-goal = حدف رِي پڪ ڪرو
