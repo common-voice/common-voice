@@ -43,6 +43,8 @@ sc-criteria-item-1 = Tɔ́m tɩ̀ná tɩ̀tɛ́ɛ́ tɔ́m píyà mɔ́nà p
 sc-criteria-item-2 = Tɔ́m pɔ̀ʊ́ɖɛ̀ mɔ́nà pʊ́fó ŋ̀ŋɛ́nɩ̀ kʊ̀nʊ́m wánnʊ̀m nɛ̀
 sc-criteria-item-3 = Pɩ̀pɔ́zɩ̀ pàmbɩ̀zɩ́ pàkàlá tɔ́m pàmátɩ̀ nɛ̀
 sc-criteria-item-4 = á tɔ́m pɔ́ɖɛ̀ tɛ́ mádɩ̀ fó màɖà ɩ̀bɛ́m nùnì kìɖìyù nɖɔ́, tóŋkà nàkàɖá wɛ̀ pàmá sìsé <<ɛ̀ñʊ́ʊ́>> ɛ̀gɔ́dɩ́ kɔ̀ɖɔ̀zɩ̀
+sc-criteria-item-5-2 = á tɔ́m pɔ́ɖɛ̀ tɛ̀ máɖɩ́ tùfúmmàɖà á pɩ̀lɛ̀ tóŋgà nàkàɖà wɛ̀ pàmá sìsé ɛ́-<<kɩ̀zɩ̀>> ɛ̀gɔ́dɩ́ kɛ̀lɛ̀ kɔ̀ɖɔ́zɩ̀ kɛ̀wɛ̀nà núnì nɩ̀bɩ̀yʊ́ . á ŋgʊ́ mílám sɩ́gà, ɩ̀fɛ̀lɛ̀ pɩ̀káá íbò tɔ́m pɔ́ɖɛ̀ pɩ́zàndá tɛ̀ pɩ̀ɖɔ́zɩ̀
+sc-criteria-item-6 = á mʊ́gʊ̀ɖɩ̀ mɩ́fɛ̀yɩ̀nà tɔ́m pɔ̀wà sɩ̀ ɩ̀bɛ́m á pɩ́lɛ̀ ɛ̀zɩ̀náɖáá ʈɩ́jáá tɔ́m pɔ̀wà kɩ̀fàlà.
 report-sc-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Táŋlám wéntɩ̀ fèfèɖé ntɩ̀
