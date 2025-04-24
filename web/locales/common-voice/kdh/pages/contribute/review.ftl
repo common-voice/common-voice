@@ -53,6 +53,7 @@ report-sc-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 report-sc-different-language-detail = pámáá tɔ́m pɔ́ɖɛ̀ kʊ̀nʊ́m wénŋgì kɩ́nà kɩ́ndɩ́ nà wéŋgì kɩ̀dáá mɛ̀wɛ̀ máŋgàlɩ́ nɛ̀
 sentences-fetch-error = yɩ̀sɩ̀tɩ̀ yɔ́ɔ́ wázʊ́ tɔ́m bʊ́ɖɛ̀ wénɖé mábázɩ̀ pɛ̃́ŋ́ nɛ́ ɖɩ̀dáá
 review-error = yɩ̀zɩ̀tɩ̀ yɔ́ɔ́ wálà sádɩ̀ wéŋgì sìsé pádázɩ̀ pɛ́bɛ̀m tɔ́m pɔ́ɖɛ̀ yɔ̀
+review-error-rate-limit-exceeded = mɩ́ŋgɩ̀lɩ́ dóózɩ̀, ɩ́gbɑ́ɣ àlɩ̀wàtɩ̀ cʊ̀kɔ̀ ɩ̀bázɩ̀ tɔ́m pɔ́ɖɛ̀ kàlɩ́ pɩ̀káá ɩ́bɛ̀m sìsé pámágɩ̀ kɔ̀zɔ́ɔ́.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Táŋlám wéndì fèvèɖé ndɩ̀
 # menu item

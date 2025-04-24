@@ -25,6 +25,11 @@ speak-paragraph = اواجا کے ٹُکڑیں کی ریکارڈنگ مھارے 
 speak-goal-text = ریکارڈ کروڑے ٹُکڑے
 listen-paragraph = دؔان کروڑے ٹُکڑیں کی پک سادھارݨ اواج کھاس کاماں نتر بھی اِتری ئہی کھاس ہے۔ ایک سُݨوں اور گُݨوان کھُلا سروت اواج ڈیٹا ٻݨاݨینٚم مھاری ساہِیتا کرو۔
 listen-goal-text = ٹُکڑیں کی پک کری دؔی ہے
+hours-recorded = ریکارڈ کروڑے گھنٹے
+hours-validated = کلاکیں کی پک تھم کو دؔی رے ہے
+voices-online = اواجاں اٻکے آن لائن
+todays-progress = آج کی ترکی
+help-reach-goal = { $goal } تائیں پُگݨینٚم مھاری ساہیتا کرو
 
 ## Account Benefits
 
