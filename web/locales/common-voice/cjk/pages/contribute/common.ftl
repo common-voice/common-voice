@@ -40,16 +40,16 @@ submit-form-action = Kuthuma
 report = Kutoweza
 report-title = Kutuma lusango
 report-ask = Ukalu uka nwa wananga nao mu isoneko ?
-report-offensive-language = Maliji katelele
-report-offensive-language-detail = Manyonga amwe kakwetele vumbi chipwe matuka.
-report-grammar-or-spelling = Kuhona kwadjika  / chize chinatela
-report-grammar-or-spelling-detail = Manyonga amwe kasonewene kulita chize chatamba kusoneka.
-report-different-language = Limi liko
-report-different-language-detail = Manyonga kasonekene mulimi linalisa  nyi lisena kuhandjika.
-report-difficult-pronounce = Yikalukuhandjika
-report-difficult-pronounce-detail = Yuma yiko inakaliwa kuitanga chipwe kuitongola
+report-offensive-language = Maliji anene
+report-offensive-language-detail = Ihadjeka mu ibwa milonga ya keshi vumbi chibwe mathuka.
+report-grammar-or-spelling = Ulema wa kutanga / ulema wa kusoneka
+report-grammar-or-spelling-detail = Isoneko ili  nyi ulema ya kusoneka nyi kutanga.
+report-different-language = Limi likwo
+report-different-language-detail = Isoneko yakusoneka mulimi linalisa  nyi lisena kuhandjika.
+report-difficult-pronounce = Yikalu kutongola
+report-difficult-pronounce-detail = Majina akwo chibwe ihandjika ili ikalu kutanga chibwe kuhadjika.
 report-offensive-speech = Maliji akulemeka
-report-offensive-speech-detail = Yuma ize tuakwija ili yakuhona vumbi hadji ya matuka
+report-offensive-speech-detail = Chilweza chize tuakwija ili yakuhona vumbi hadji ya matuka.
 report-other-comment =
     .placeholder = Kuwezela
 success = Ize watambula
@@ -66,14 +66,14 @@ shortcut-skip = a
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
-shortcut-record-toggle-label = Kusoneka/kimika
+shortcut-record-toggle-label = Kukwata/kumika
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Lisonekesu nawa
+shortcut-rerecord-toggle-label = Kuhilukila kukwata
 shortcut-discard-ongoing-recording = Kwehuka
 shortcut-discard-ongoing-recording-label = Kukatala kundjisa mutshipidji
-shortcut-submit = Ndjila tumenu ize nwa kwata tumenu ize nwa soneka
-shortcut-submit-label = Tumenu ize nwa kwata tumenu ize nwa soneka
-request-language-text = Liji lieye kanda lichipwa ?
+shortcut-submit = Kundjila
+shortcut-submit-label = Tumenu ize nwa kwata
+request-language-text = Limi lieye kanda lichipwako ?
 request-language-button = Kuchakula limi
 
 ## Listen Shortcuts
@@ -81,7 +81,7 @@ request-language-button = Kuchakula limi
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Kutanga/Mana
+shortcut-play-toggle-label = Kutanga / kumana
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = o
@@ -92,15 +92,15 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Chize chatamba kupwa
-contribution-criteria-link = Kunyingika chize chatamba kukunga
-contribution-criteria-page-title = Ili tshize chatamba mba nukunge
-contribution-criteria-page-description = Evililenu kanawa chimbu nunakwata maliji numbate ize ili ya ulemu !
+contribution-criteria-link = Kunyingika chize chatamba kupwa kuhana
+contribution-criteria-page-title = Ili tshize chakuhana
+contribution-criteria-page-description = Evenu kuyika ize nunatela haola ya kwiva chilweza cha maliji nyi kulipitshisa nyi yuma yeye ya kukwata !
 contribution-for-example = Kwesekesa
 contribution-misreadings-title = Hupi wa kutanga
-contribution-misreadings-description = Chimbu unevilila talenu nyi kashishi nyi maliji nuakwatanga kanalite nyi hize nuadjikanga  kanda nusako tupalia hakehe. Talenu tupalia haola yeswe :
-contribution-misreadings-description-extended-list-1 = Kahona ubunthuki <strong> «Un/Une» </strong> lo <strong>« Le/La »</strong> wa kukwata cha
-contribution-misreadings-description-extended-list-2 = Kunahona chimuwikha kusongo<strong>«s»</strong> kusongo lia jina
-contribution-misreadings-description-extended-list-3 = Kwecha cha kuliwana cha keshi kubwako kanatshitanga « chochene ».
+contribution-misreadings-description = Chimbu unevilila, hengulula hake hakehe hanji aize yapwanga ya kundjisa inatela kanawa haize ya kwandjika; mbilenu chipwe nyi hali upi ukehe. <br />Talenu upi waola yeswe :
+contribution-misreadings-description-extended-list-1 = Kahona <strong>« hauze » </strong> muhuputukilo wa kukwata.
+contribution-misreadings-description-extended-list-2 = Kahona <strong>« s »</strong> chimuwikha kusongo.
+contribution-misreadings-description-extended-list-3 = Kwecha cha kuliwana cha keshi kubwako, kanatshitanga « chochene » achihela cha « chochene ».
 contribution-misreadings-description-extended-list-4 = Kusongo lis isoneko ikwo ya kuteta, kuyikwata cha fuji fuji.
 contribution-misreadings-description-extended-list-5 = Kwabwanga uehnge ulema paa kutanga isoneko ya majina
 contribution-misreadings-example-1-title = Kushithu Dinosaures ayikomokeso anene atwama mu Trias
