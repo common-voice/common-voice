@@ -3,7 +3,7 @@
 profile-form-username =
     .label = استعمال ڪرڻ آݪيَ رو نوم
 profile-form-native-language =
-    .label = آپرِِي  ٻوليَ
+    .label = آپرِي  ٻوليَ
 profile-form-additional-language =
     .label = اضافي ٻولِي
 profile-form-language =
@@ -25,7 +25,7 @@ leaderboard-visibility =
 hidden = لڪوڙا
 visible = ظاھر
 native-language =
-    .label = آپرِِي ٻوليَ
+    .label = آپرِي ٻوليَ
 profile-form-add-accent = نئون ڪسٽم لھجو شامل ڪرو”{ $inputValue }”
 profile-form-submit-save = جمع ڪرڻ
 profile-form-submit-saved = جمع هوئيڙِي
