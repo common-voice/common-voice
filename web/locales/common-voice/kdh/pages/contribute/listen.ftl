@@ -23,3 +23,4 @@ review-transcriptions-menu-item-tooltip = pɛ̀bɛ̀ḿ mátʊ̀ wá mɩ̀dɛ�
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = wèlèsí tɛ̀ fùɖúŋ
