@@ -1,5 +1,5 @@
 action-click = Shindakenya ha
-action-tap = kupola ha
+action-tap = Kupwola ha
 contribute = Kuchingilako
 review = Kuhengulula
 skip = Kupalika
@@ -10,7 +10,7 @@ clips-with-count-pluralized =
        *[other] Ipindji
     }
 goal-help-recording = Chihuthu Cha yenwe, Common voice ubalikilo wa kuhandjeka heta <goalPercentage></goalPercentage> kuchikuma cha shimbu lia{ $goalValue } kwandjikisa !
-goal-help-validation = Chihuthu Cha yenwe, Common voice ubalikilo wa kuhandjeka heta <goalPercentage></goalPercentage>kuchikuma cha shimbu lia { $goalValue } unyingikiso !
+goal-help-validation = Mumu wa yenu, Common voice kaheta <goalPercentage></goalPercentage>kuchikuma cha shimbu lia { $goalValue } Kukwata !
 contribute-more = Unataiza kulinga { $count } nawa ?
 speak-empty-state = Tushi nyi uhandjeko uko wa kusoneka mu ma limi…
 no-sentences-for-variants = Limi lia kuswipa malimi muchibwa nyi iphindji ya isoneko ! Nyi munubwa kanawa munuswipa ubalikilo wa kusolola ihandjeka ikwo ya limi.
