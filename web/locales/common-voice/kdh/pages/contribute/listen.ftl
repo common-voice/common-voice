@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = pɛ̀bɛ̀ḿ mátʊ̀ wá mɩ̀dɛ�
 
 listen-contribute-menu-aria-label = wèlèsí tɛ̀ fùɖúŋ
 validate-readings-menu-item-aria-label = ɩ̀bɛ̀ḿ kòmìnòté tɛ́ ɩ́ɖà tɛ̀ kàlɩ́tɩ́ wàà pékèyégì nɛ̀
+review-transcriptions-menu-item-aria-label = ɩ̀bɛ̀ḿ tɔ́m wáá pɔ́gbɔ́dɩ̀ nɛ̀ tɛ́ máádɩ̀ pɩ̀láá
