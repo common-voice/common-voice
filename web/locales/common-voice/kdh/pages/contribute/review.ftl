@@ -42,6 +42,7 @@ sc-criteria-make-sure = ɩ́ɖézɩ̀ sìsè tɔ́m tɩ̀nà kìfóó we�
 sc-criteria-item-1 = Tɔ́m tɩ̀ná tɩ̀tɛ́ɛ́ tɔ́m píyà mɔ́nà pàmá xɛ̀ kàzá
 sc-criteria-item-2 = Tɔ́m pɔ̀ʊ́ɖɛ̀ mɔ́nà pʊ́fó ŋ̀ŋɛ́nɩ̀ kʊ̀nʊ́m wánnʊ̀m nɛ̀
 sc-criteria-item-3 = Pɩ̀pɔ́zɩ̀ pàmbɩ̀zɩ́ pàkàlá tɔ́m pàmátɩ̀ nɛ̀
+sc-criteria-item-4 = á tɔ́m pɔ́ɖɛ̀ tɛ́ mádɩ̀ fó màɖà ɩ̀bɛ́m nùnì kìɖìyù nɖɔ́
 report-sc-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Táŋlám wéntɩ̀ fèfèɖé ntɩ̀
