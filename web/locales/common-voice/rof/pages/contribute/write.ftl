@@ -139,6 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Ngeengera matata omaki?
 small-batch-sentences-rule-2 = Engera mateta kila handu ete mstari' Ngeengera
+small-batch-sentences-rule-3 = Matetao kila limu handu hakwe  “Engira” ana “uura  ” limtiki
 small-batch-sentences-rule-4 = Emgera matata 1,000
 small-batch-sentences-rule-5 = Matetao piu lasima avae handu hamu
 small-batch-sentences-rule-6 = Mtetao lasma aveahandu hamu

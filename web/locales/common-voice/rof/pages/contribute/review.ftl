@@ -20,6 +20,8 @@ sc-review-form-button-approve-shortcut = y
 sc-review-form-button-reject-shortcut = n
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = s
+sc-review-form-button-submit =
+    .submitText = uulya Marya
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
