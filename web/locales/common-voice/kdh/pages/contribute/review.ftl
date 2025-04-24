@@ -56,5 +56,6 @@ review-error = yɩ̀zɩ̀tɩ̀ yɔ́ɔ́ wálà sádɩ̀ wéŋgì sìsé 
 review-error-rate-limit-exceeded = mɩ́ŋgɩ̀lɩ́ dóózɩ̀, ɩ́gbɑ́ɣ àlɩ̀wàtɩ̀ cʊ̀kɔ̀ ɩ̀bázɩ̀ tɔ́m pɔ́ɖɛ̀ kàlɩ́ pɩ̀káá ɩ́bɛ̀m sìsé pámágɩ̀ kɔ̀zɔ́ɔ́.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Táŋlám wéndì fèvèɖé ndɩ̀
+sc-redirect-page-subtitle-1 = wèénì wéndézì tɔ́m pɔ́wɛ̀ nɛ̀ wɛ̀gɛ̀ɛ́ tɩ̀dáɖɛ̀ ɩ̀bɩ̀sɩ̀ kɔ̀mɔ̃̀n vɔ̀yɩ̀sɩ̀ tɛ̀ kpàlɩ̀fɔ̀ɔ́ ɖɔ́zɩ̀. pɩ̀lɛ̀ nɩ̀ mɩ̀mbɩ̀zɩ́ lɛ̀lɛ̀ɖɔ̀ ɩ̀màá tɔ́m pɔ́ɖɛ̀ yàá tɔ́m pɔ̀wá kɩ̀fàlá  kɔ̀mɔ̃̀n vɔ̀yɩ̀sɩ̀ tɛ̀ kpàlɩ̀fɔ̀ɔ́ ɖɔ́zɩ̀ ŋ́nà.
 # menu item
 review-sentences = ɩ̀bɛ̀m tɔ́m píyà tá
