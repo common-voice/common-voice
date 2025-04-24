@@ -7,6 +7,7 @@ sc-review-select-language = ɩ̀lɩ́zɩ̀ kʊ̀nʊ̀ʊ́́ nɩ́ ɩ̀bɛ̀m tɔ
 sc-review-no-sentences = Tɔ́m pìɖé nádɩ̀yɛ̀ fɛ̀yɩ́ se pɛ̀bɛ̀m. Mɩ̀mbɩ̀z<addLink> ɩ̀tàsɩ̀ tɔ́m píyà pɩ̀ɖɔɔ́</addLink>
 sc-review-form-prompt =
     .message = tɔ́m píyà wèntɩ̀ pɛ̃́mpɛ̀m ná sɩ̀tɩ̀ɖɛ́tà, mɩ́ŋjàtɩ́ sé ɩ̀tàsɩ̀ ɛ̀lá yáwè
+sc-review-form-usage = ìdúzìnà núúnì kìdìyùú ɖɔ̀ pìwìlí sìsè pɩ́là. ìdúzìnà núúnì nɩ̀bɩ̀yʊ́ ɖɔ̀ pìwìlí sìsè pɩ̀dàlà.  ìdúzìnà ɩ́zɔ́dá ɩ̀zɔ́nà. <strong> ɩ́gɩ̀zɔ́nà mɩ́dɛ́ yègìí mɩ́bázɩ̀ pɛ́m nà wàlɩ́ ŋ́ŋ̀ɛ̀nɛ̀ !</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = líɖɩ̀ :{ $sentenceSource }
@@ -25,10 +26,10 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] Tɔ́m wéntɩ̀ pɩ̀mbɛ̃́ŋ ná. kòŋkarɩ́
-        [1] Pàtàtámbɛ̃́ŋ tɔ́m nàkɩ́ɖɛ́ tàá.
+        [1] Tɔ́m wéntɩ̀ pɩ̀mbɛ̃́ŋ ná. kòŋkarɩ́ !
+        [0] Pàtàtámbɛ̃́ŋ tɔ́m nàkɩ́ɖɛ́ tàá.
         [one] { $sentences }tɔ́m píyà wéntɩ̀ pɩ̀mbɩ́ŋ ná. kòŋkarɩ́
-       *[other] { "" }
+       *[other] Pàtàdámbɛ̃́ŋ tɔ́m píyà nàzɩ́ɖɛ́ tàá.
     }
 sc-review-link = kpɛ̀lɛ́kɩ̀tɩ́
 
