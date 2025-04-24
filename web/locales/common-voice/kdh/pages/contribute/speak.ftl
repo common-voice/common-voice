@@ -1,5 +1,7 @@
 speak = màtɩ̀ɖɛ́
 speak-now = mɩ́mbɩ́zɩ̀ ɩ́màtɩ̀
+speak-subtitle = ɩ́fɑ̀ mɩ̀dɛ́ lòú cʊ̀kɔ̀
+record-cta = ɩ́pázɩ́ kàlɩ̀tɩ̀ kpɔ̀wʊ́
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>á pɩ́tɛ̀
 record-three-more-instruction = pɩ́ŋjɛ̀zɩ̀ nòdòzò
 record-last-instruction = <recordIcon></recordIcon>kɛ̀dɛ́zíyá pɩ̀lɛ́
