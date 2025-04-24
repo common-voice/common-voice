@@ -9,37 +9,37 @@ clips-with-count-pluralized =
         [one] Tshibindji
        *[other] Ipindji
     }
-goal-help-recording = Chihuthu Cha yenwe, Common voice ubalikilo wa kuhandjeka heta <goalPercentage></goalPercentage> kuchikuma cha shimbu lia{ $goalValue } kwandjikisa !
-goal-help-validation = Mumu wa yenu, Common voice kaheta <goalPercentage></goalPercentage>kuchikuma cha shimbu lia { $goalValue } Kukwata !
-contribute-more = Unataiza kulinga { $count } nawa ?
-speak-empty-state = Tushi nyi uhandjeko uko wa kusoneka mu ma limi…
-no-sentences-for-variants = Limi lia kuswipa malimi muchibwa nyi iphindji ya isoneko ! Nyi munubwa kanawa munuswipa ubalikilo wa kusolola ihandjeka ikwo ya limi.
-speak-empty-state-cta = Nehenu ishinginyeka ikhwo ya isoneko
-speak-loading-error = Twahashile kubwa nyi handjeka ikwo. Eseka shimbu likwo.
+goal-help-recording = Chihuthu Cha yenwe, Common voice kaheta <goalPercentage></goalPercentage> kuchikuma cha shimbu lia{ $goalValue } Kukwata !
+goal-help-validation = Mumu wa yenu, Common voice kaheta <goalPercentage></goalPercentage>kuchikuma cha shimbu lia { $goalValue } Kufachika !
+contribute-more = Kawashi kulinga yinji { $count }nawa?
+speak-empty-state = Kutuchi nyi yumaiko ya kusoneka mulimi ali…
+no-sentences-for-variants = Kulisa cha limi lie china hihisa manyonga ! Nyi uli kanawa munutela kuchendja mumu wa kwadjika manyonga mulimi lie.
+speak-empty-state-cta = Nehenu isoneko ikwo
+speak-loading-error = Twahashile kuwana isoneko ikwo ya ku handjika. Eseka shimbu likwo.
 record-button-label = Kwata liji lie
-share-title-new = <bold>Tukwaseko </bold> kuwana liji lia ha
-keep-track-profile = Alula kya kulutwe kulinga unyingiko wa jila
-login-to-get-started = Liadjikise mumu wa wakuputuka
-target-segment-first-card = Nwa tukwasa kuchama tshi tangu tshize tunafupa
-target-segment-generic-card = Nwa kwasana ku segment cible
-target-segment-first-banner = Kwasenu kuputuka ize muikwasa
-target-segment-add-voice = Hadjikenu nyi maliji jenu
-target-segment-learn-more = Kunyingika tshindji
-change-preferences = Chendjenu ize nuna nyonga
-login-signup = Kuliadjikisa  / Kuliadjikisa Kha
+share-title-new = <bold>Tukwasenuko </bold> kuwana maliji ha
+keep-track-profile = Pima kwendeleya che hakuputuka jila
+login-to-get-started = Liwanenu chipwe Liadjikisenu mumu wa wakuputhuka
+target-segment-first-card = Nwa kwasa kuchuma tshi tangu tshize tunafupa
+target-segment-generic-card = Nwa kwasa kuchuma cha kutondewa
+target-segment-first-banner = Kwasenu hakuputhuka chitangu kutondekeza cha Common Voice ha { $locale }
+target-segment-add-voice = Nehenu mumu wa majili
+target-segment-learn-more = Hakunyingika chinji
+change-preferences = Chenja kuzanga chami
+login-signup = Kuliwezela / Kuliadjikisa
 vote-yes = Enga
 vote-no = Kha
-datasets = Hiheho ya hunyingikiso
-languages = Limi
-about = Hakutuala
+datasets = Hiheho ya yuma
+languages = Ma limi
+about = Hakuthwala
 partner = Kulikunda
-submit-form-action = Kutuma
+submit-form-action = Kuthuma
 
 ## Reporting
 
 report = Kutoweza
-report-title = Kutuma
-report-ask = Ukalu uka nwa wananga nyi ahu ?
+report-title = Kutuma lusango
+report-ask = Ukalu uka nwa wananga nao mu isoneko ?
 report-offensive-language = Maliji katelele
 report-offensive-language-detail = Manyonga amwe kakwetele vumbi chipwe matuka.
 report-grammar-or-spelling = Kuhona kwadjika  / chize chinatela
