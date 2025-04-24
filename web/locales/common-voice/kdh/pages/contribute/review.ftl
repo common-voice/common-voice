@@ -31,10 +31,14 @@ sc-review-form-reviewed-message =
         [one] { $sentences }tɔ́m píyà wéntɩ̀ pɩ̀mbɩ́ŋ ná. kòŋkarɩ́
        *[other] Pàtàdámbɛ̃́ŋ tɔ́m píyà nàzɩ́ɖɛ́ tàá.
     }
+sc-review-form-review-failure = pɛ̀ḿ tàbɩ́zɩ̀ pʊ́gbɔ́ɔ́. á pɩ́dázɩ̀ ɩ̀bázɩ̀
 sc-review-link = kpɛ̀lɛ́kɩ̀tɩ́
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = wémbì páɖʊ̀ sɩ̀sè pálà kpɛ̀lɛ̀m tá nɩ̀
+sc-criteria-title = wémbì páɖʊ̀ sɩ̀sè pálà kpɛ̀lɛ̀m tá nɩ̀
+sc-criteria-make-sure = ɩ́ɖézɩ̀ sìsè tɔ́m tɩ̀nà kìfóó wèmbí pàzɩ́ sɩ̀nɛ̀
 sc-criteria-item-3 = Tɔ́m pìɖé wɩ́nɖɛ̀ pàmpɩ̀zɩ́ pàmàtɩ́ ná
 report-sc-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 # SENTENCE-COLLECTOR-REDIRECT PAGE
