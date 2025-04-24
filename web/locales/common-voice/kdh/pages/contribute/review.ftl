@@ -52,7 +52,8 @@ sc-review-empty-state = Tɔ́m bɔ́ɖɛ̀ néɖéɖè fɛ́yɩ̀ ɖɩ̀ɖɔ�
 report-sc-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 report-sc-different-language-detail = pámáá tɔ́m pɔ́ɖɛ̀ kʊ̀nʊ́m wénŋgì kɩ́nà kɩ́ndɩ́ nà wéŋgì kɩ̀dáá mɛ̀wɛ̀ máŋgàlɩ́ nɛ̀
 sentences-fetch-error = yɩ̀sɩ̀tɩ̀ yɔ́ɔ́ wázʊ́ tɔ́m bʊ́ɖɛ̀ wénɖé mábázɩ̀ pɛ̃́ŋ́ nɛ́ ɖɩ̀dáá
+review-error = yɩ̀zɩ̀tɩ̀ yɔ́ɔ́ wálà sádɩ̀ wéŋgì sìsé pádázɩ̀ pɛ́bɛ̀m tɔ́m pɔ́ɖɛ̀ yɔ̀
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Táŋlám wéntɩ̀ fèfèɖé ntɩ̀
+sc-redirect-page-title = Táŋlám wéndì fèvèɖé ndɩ̀
 # menu item
 review-sentences = ɩ̀bɛ̀m tɔ́m píyà tá
