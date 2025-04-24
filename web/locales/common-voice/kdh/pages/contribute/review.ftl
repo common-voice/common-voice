@@ -47,6 +47,7 @@ sc-criteria-item-5-2 = á tɔ́m pɔ́ɖɛ̀ tɛ̀ máɖɩ́ tùfúmmàɖa�
 sc-criteria-item-6 = á mʊ́gʊ̀ɖɩ̀ mɩ́vɛ̀yɩ̀nà tɔ́m pɔ̀wà sɩ̀ ɩ̀bɛ́m á pɩ́lɛ̀ ɛ̀zɩ̀náɖáá ʈɩ́jáá tɔ́m pɔ̀wà kɩ̀vàlà.
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = ɩ̀bɛ́m kàzɔ̀ sìsé tɔ́m pàwʊ̀ɖɛ̀ pámánɩ̀ kìfúú wémbì kʊ̀nʊ́m tɛ́ màɖà mɔ́mbɔ̀zɩ̀ nɛ̀
+sc-review-rules-title = Tɔ́m bɔ́ɖɛ̀ pámánɩ̀ pùvóó wèmbí kʊ̀nʊ́m tɛ́ máɖá wázɩ́zɩ̀nɛ́ ?
 report-sc-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Táŋlám wéntɩ̀ fèfèɖé ntɩ̀
