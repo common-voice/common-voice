@@ -100,16 +100,22 @@ transcribe-audio = آڊيو نقل ڪرو
 press-and-stories = پريس ھين ڪهاڻيون
 community-and-languages = ڪميونٽي ھين زبون
 coming-soon = جلدي آوئي
+about-us = بارا ۾
+scripted-speech = ليکيوڙي تقرير
+spontaneous-speech = بي ساخته تقرير
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ڀائيواريون، پريس ھين ڪهاڻيون، برادري ھين ٻوليون
+about-us-menu-item-tooltip = ڪامن وائس ري لاري مشن ھين ٽيم ھارو ھيکو
+about-us-menu-item-aria-label = امو ري بارا ۾ اختيارن مينيو
 partnerships-menu-item-tooltip = امو ري ڀيرا ھون
 press-and-stories-menu-item-tooltip = امو ري بلاگ تي جاو يا امون بابت لکو
 community-and-languages-menu-item-tooltip = ٻوليون ھين برادريون ھين عام آواز جو
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = اختيارن مينيو بابت
 partnerships-menu-item-aria-label = ڪامن وائس مون ڀائيواري بابت ھيکو
 press-and-stories-menu-item-aria-label = ڪامن وائس مون ڀآريوڙي پريس رليز ھين ڪهاڻيون تڪ رسائي حاصل ڪرو
 community-and-languages-menu-item-aria-label = ڪامن وائس ري مدد مون ڪميونٽي ھين ٻوليو يي جو
