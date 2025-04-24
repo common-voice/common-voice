@@ -1,9 +1,9 @@
 ## REVIEW
 
-sc-review-lang-not-selected = mɩ̀tɩ̀lɩ̀sɩ́ kʊ̀nʊ́m nákɩ̀ɖɩ̀.
-sc-review-title = ɩ̀bɛ́m tɔ́m píyà
-sc-review-loading = Tɔ́m pɩ́yà
-sc-review-select-language = ɩ̀lɩ́zɩ̀ kʊ̀nʊ̀ʊ́́ nɩ́ ɩ̀bɛ̀m tɔ́m píyà
+sc-review-lang-not-selected = mɩ̀tɩ̀lɩ̀sɩ́ kʊ̀nʊ́m nákɩ̀ɖɩ̀.          A REVOIR
+sc-review-title = ɩ̀bɛ́m tɔ́m pɔ́wà
+sc-review-loading = Tɔ́m pɩ́yà       A REVOIR
+sc-review-select-language = ɩ̀lɩ́zɩ̀ kʊ̀nʊ́́m nɩ́ ɩ̀bɛ̀m tɔ́m pɔ́wà
 sc-review-no-sentences = Tɔ́m pìɖé nádɩ̀yɛ̀ fɛ̀yɩ́ se pɛ̀bɛ̀m. Mɩ̀mbɩ̀z<addLink> ɩ̀tàsɩ̀ tɔ́m píyà pɩ̀ɖɔɔ́</addLink>
 sc-review-form-prompt =
     .message = tɔ́m píyà wèntɩ̀ pɛ̃́mpɛ̀m ná sɩ̀tɩ̀ɖɛ́tà, mɩ́ŋjàtɩ́ sé ɩ̀tàsɩ̀ ɛ̀lá yáwè
@@ -59,4 +59,4 @@ sc-redirect-page-title = Táŋlám wéndì fèvèɖé ndɩ̀
 sc-redirect-page-subtitle-1 = wèénì wéndézì tɔ́m pɔ́wɛ̀ nɛ̀ wɛ̀gɛ̀ɛ́ tɩ̀dáɖɛ̀ ɩ̀bɩ̀sɩ̀ kɔ̀mɔ̃̀n vɔ̀yɩ̀sɩ̀ tɛ̀ kpàlɩ̀fɔ̀ɔ́ ɖɔ́zɩ̀. pɩ̀lɛ̀ nɩ̀ mɩ̀mbɩ̀zɩ́ lɛ̀lɛ̀ɖɔ̀ <writeURL>ɩ̀màá </writeURL>tɔ́m pɔ́ɖɛ̀ yàá<reviewURL> ɩ́bɛ̀m</reviewURL> tɔ́m pɔ̀wá kɩ̀fàlá  kɔ̀mɔ̃̀n vɔ̀yɩ̀sɩ̀ tɛ̀ kpàlɩ̀fɔ̀ɔ́ ɖɔ́zɩ̀ ŋ́nà.
 sc-redirect-page-subtitle-2 = ɩ̀zʊ̀ʊ́ léŋlé pàŋyá sìsèé <matrixLink>Matrix</matrixLink>, yàá <discourseLink> Dìskɔ̀rs</discourseLink> yàá <emailLink>ɛ̃tɛ̀rnɛ̀tɩ̀</emailLink> pɩ̀kàá ɩ̀pɔ́zɩ̀ɖà tɔ́m.
 # menu item
-review-sentences = ɩ̀bɛ̀m tɔ́m pɔ́wɛ̀ tá
+review-sentences = ɩ̀bɛ̀m tɔ́m pɔ́wɛ̀

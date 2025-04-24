@@ -1,4 +1,4 @@
-speak = màtʊ̀ʊ́
+speak = màtɩ̀ɖɛ́
 speak-now = mɩ́mbɩ́zɩ̀ ɩ́màtɩ̀
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>á pɩ́tɛ̀
 record-three-more-instruction = pɩ́ŋjɛ̀zɩ̀ nòdòzò

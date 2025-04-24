@@ -88,10 +88,14 @@ transcribe-audio = ხმის ნაწერად გადმოცემ�
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
 coming-soon = მალე
+about-us = ჩვენ შესახებ
+scripted-speech = ᲬᲔᲠᲘᲗᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
+spontaneous-speech = ᲖᲔᲞᲘᲠᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = თანამშრომლობა, პრესა და სიახლეები, საზოგადოებები და ენები
+about-us-menu-item-aria-label = ჩვენ შესახებ ასარჩევი მენიუ
 partnerships-menu-item-tooltip = გვეთანამშრომლეთ
 press-and-stories-menu-item-tooltip = იხილეთ სვეტი ან დაწერეთ ჩვენ შესახებ
 community-and-languages-menu-item-tooltip = უკეთ გაიცანით ენები, საზოგადოებები და Common Voice

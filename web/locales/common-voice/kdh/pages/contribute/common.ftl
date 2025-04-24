@@ -41,6 +41,7 @@ shortcut-skip = a
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
 shortcut-record-toggle-label = ɛ́gbɑ́ɣ/ɛ́zɩ́ŋ
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ɛ̀dázɩ̀ kpáʊ́
 shortcut-discard-ongoing-recording-label = ɛ̀zɔ̀nà kpàʊ́ kɩ̀ná kɩ̀nɩ̀máá làm nɩ̀
 request-language-text = mɩ̀dɛ́ kʊ̀nʊ́m fɛ́yɩ̀ nànɩ́
