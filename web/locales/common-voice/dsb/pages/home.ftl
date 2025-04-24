@@ -141,7 +141,7 @@ add-text = Tekst pśidaś
 community-section-title = Pódprěte wót globalnych zgromaźeństwow za globalne zgromaźeństwa – 130 rěcow a pśiběrajuce!
 join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
 # label for button
-join-discord-community-action = Pśizamkniśo se nam na Discord
+join-discord-community-action = &nbsp;Pśizamkniśo se nam na Discord
 join-discord-community-content = Wobźělśo se na diskusijach rěcnego zgromaźeństwa, stajśo pšašanja a zgóńśo wó pśichodnych zarědowanjach a rozgronach.
 find-us-on-matrix = Namakajśo nas na Matrix
 find-us-on-matrix-content = Matrix jo wótwórjony, lažki protokol za decentralizěrowanu komunikaciju w napšawdnem casu a wót Mozilla preferěrowana wótwórjona diskusijna platforma.
