@@ -35,9 +35,11 @@ review-rerecord = pàtàzɩ̀ kpɔ̀ɔ́
 review-cancel = ɩ́ɖɩ́ ’yèkɩ̀tɩ̀
 review-keep-recordings = ɩ̀zɩ́ɩ́ tɔ́m wà pɔ́gbɔ́nɛ̀
 review-delete-recordings = ɩ̀fɩ́zɩ̀ tɔ́m wà pɔ́gbɔ́nɛ̀
-review-terms = á mɩ́ŋlànáá kɔ̀mɔ̃̀n vɔ̀yɩ̀sɩ̀ tɩ̀mɩ̀ɖɛ̀, pɩ́ŋwɩ̀lɩ́ sìsé mɩ́tɩ̀sɩ̀ ɖɛ́ɖɛ́ɛ́ tɩ́mɩ̀ɖɛ̀ lám tɛ̀ máɖà
+review-terms = á mɩ́ŋlànáá kɔ̀mɔ̃̀n vɔ̀yɩ̀sɩ̀ tɩ̀mɩ̀ɖɛ̀, pɩ́ŋwɩ̀lɩ́ sìsé mɩ́tɩ̀sɩ̀ ɖɛ́ɖɛ́ɛ́ <termsLink> tɩ́mɩ̀ɖɛ̀ ’lám tɛ̀ máɖà </termsLink>nà wémbɩ̀ pɩ̀kɛ́ɛ́ ɖɛ́ɖɛ́ɛ́<privacyLink> ásɩ́ɖɩ́ɩ́ tɔ́m nɛ̀</privacyLink>.
 terms-agree = mètìzì
 terms-disagree = mèkìzì
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Mɩ̀nɛ̀ kóŋkàɖɩ́ tɔ́m wàà mɩ́gbɔ̀tɩ̀ ŋgɛ́ mɩ̀fàɖá nɩ̀ tɩ̀ɖɔ́zɩ̀
 why-donate = wèŋɖɔ̀zɩ̀ pɔ̀mpɔ̀zɩ́ tɔ́m tɩ̀nɛ̀
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
