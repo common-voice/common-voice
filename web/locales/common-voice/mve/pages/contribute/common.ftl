@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>ڪلِپ
        *[other] <bold>{ $count }</bold>ڪلِپون
     }
-goal-help-recording = ٿُون ڪامن وائس تيَ رسڻ ۾ مدد ڪِي ھيَ<goalPercentage>مھورَي زوز رَي { $goalValue } ريڪاڍِنگ رَي مقصد
+goal-help-recording = ٿُون ڪامن وائس تيَ رسڻ ۾ مدد ڪِي ھيَ<goalPercentage>مھورَي زوز رَي { $goalValue } ريڪاڊِنگ رَي مقصد
 goal-help-validation = ٿُون ڪامن وائس تيَ رسڻ ۾ مدد ڪِي ھيَ<goalPercentage>مھورَي روز رَي { $goalValue } تصديقي مقصد
 contribute-more =
     { $count ->
@@ -74,7 +74,7 @@ shortcut-record-toggle-label = رِيڪاڍ ڪرو هانَ روڪو
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ڪلِپ نَي وڙيَ رِيڪاڍ ڪرو
 shortcut-discard-ongoing-recording = ايَ ايس سِي (رد ڪرڻ رو بٽڻ)
-shortcut-discard-ongoing-recording-label = هلتِي ريڪاڍِنگ نَي رد ڪرو
+shortcut-discard-ongoing-recording-label = هلتِي ريڪاڊِنگ نَي رد ڪرو
 shortcut-submit = واپسِي
 shortcut-submit-label = ڪلِپون جمع ڪرو
 request-language-text = اڃون تائين آپڻِي ٻولِي ڪامن وائس تيَ ڪونِي ڏيکِجيَ ھيَ؟
@@ -98,11 +98,11 @@ shortcut-vote-no = ن
 contribution-criteria-nav = معيار
 contribution-criteria-link = شراڪت رَي معيار نَي سمجھو
 contribution-criteria-page-title = شراڪت رو معيار
-contribution-criteria-page-description = سمجھو ڪہ آواز رو ڪلِپ ھونڀڻڻ رَي ٽيم ڪِي جونچڻ کپيَ ھان آپرِي آواز نيَ ريڪارڍنگ نيَ وڌيڪ سُٺِي ٺاھڻ ۾ مدد ڪرو!
+contribution-criteria-page-description = سمجھو ڪہ آواز رو ڪلِپ ھونڀڻڻ رَي ٽيم ڪِي جونچڻ کپيَ ھان آپرِي آواز نيَ ريڪارڊِنگ نيَ وڌيڪ سُٺِي ٺاھڻ ۾ مدد ڪرو!
 contribution-for-example = مسال طور
 contribution-misreadings-title = غلط پڙهڻ
 contribution-misreadings-description = ھونڀڻڻ رَي ٽيم، ڌيان ھون جونچو ڪہ جڪو ريڪاڍ ڪِيو ھيَ او بلڪُل اِيئيونج لِکيو ھيَ۔ جيَ ننڍيَ غلطيَ ڀِي ھوئيَ تو رد ڪرو۔<br />  عام غلطيَ شامل ھيَ:
-contribution-misreadings-description-extended-list-1 = غائب <strong>’اَي‘</strong>يا<strong>’دا‘</strong> ريڪاڍِنگ رَي شروع ۾۔
+contribution-misreadings-description-extended-list-1 = غائب <strong> ’اَي‘ </strong> يا <strong> ’دا‘ </strong> ريڪاڊِنگ رَي شروع ۾۔
 contribution-misreadings-description-extended-list-2 = غائب <strong>’س‘</strong> اکر رَي پڇاڙِي ۾۔
 contribution-misreadings-description-extended-list-3 = اھڙيَ نِشانين پڙھڻ جڪو اصل ۾ موجود ڪونھي ھيَ، جون ”مھيَ ھون“ رِي جگھہ ”مھيَ ھون“ يا اُوئون جيھڙِي ھيَ۔
 contribution-misreadings-description-extended-list-4 = ريڪاڍِنگ نَي جوم ڇيڪِي ڪٽڻ رَي ڪريَ پڇاڙِي را اکر گُمِيجيَ را
