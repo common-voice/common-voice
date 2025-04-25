@@ -99,16 +99,20 @@ transcribe-audio = ຖອດຂໍ້ຄວາມສຽງ
 press-and-stories = ກົດ ແລະ ເລື່ອງ
 community-and-languages = ຊຸມຊົນ ແລະ ພາສາ
 coming-soon = ໄວໆນີ້
+about-us = ກ່ຽວກັບເຮົາ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ພັນທະມິດ, ຂ່າວ ແລະ ເລື່ອງລາວ, ຊຸມຊົນ ແລະ ພາສາ
+about-us-menu-item-tooltip = ຮຽນຮູ້ກ່ຽວກັບພາລະກິດ ແລະ ທີມງານທີ່ຢູ່ເບື້ອງຫຼັງການສ້າງ Common Voice
+about-us-menu-item-aria-label = ກ່ຽວກັບເມນູທາງເລືອກຂອງພວກເຮົາ
 partnerships-menu-item-tooltip = ເປັນຄູ່ຮ່ວມງານກັບພວກເຮົາ
 press-and-stories-menu-item-tooltip = ຢ້ຽມຢາມບົດຄວາມຂອງພວກເຮົາ ຫຼື ຂຽນກ່ຽວກັບພວກເຮົາ
 community-and-languages-menu-item-tooltip = ຄົ້ນພົບພາສາ ແລະ ຊຸມຊົນ ແລະ ສຽງທົ່ວໄປ
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = ກ່ຽວກັບເມນູທາງເລືອກ
 partnerships-menu-item-aria-label = ສຶກສາກ່ຽວກັບການຮ່ວມມືກັບ Common Voice
 press-and-stories-menu-item-aria-label = ເຂົ້າ​ເຖິງ​ຂ່າວ​ສານ​ ແລະ​ ເລື່ອງ​ທີ່​ກ່ຽວ​ຂ້ອງ​ກັບ Common Voice​
 community-and-languages-menu-item-aria-label = ສຳຫຼວດຊຸມຊົນ ແລະ ພາສາທີ່ຮອງຮັບໂດຍ Common Voice
