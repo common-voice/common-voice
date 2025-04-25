@@ -1,6 +1,5 @@
 ## REVIEW
 
-sc-review-lang-not-selected = mɩ̀tɩ̀lɩ̀sɩ́ kʊ̀nʊ́m nákɩ̀ɖɩ̀.          A REVOIR
 sc-review-title = ɩ̀bɛ́m tɔ́m pɔ́wà
 sc-review-loading = Tɔ́m pɩ́yà       A REVOIR
 sc-review-select-language = ɩ̀lɩ́zɩ̀ kʊ̀nʊ́́m nɩ́ ɩ̀bɛ̀m tɔ́m pɔ́wà

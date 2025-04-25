@@ -35,6 +35,7 @@ review-rerecord = pàtàzɩ̀ kpɔ̀ɔ́
 review-cancel = ɩ́ɖɩ́ ’yèkɩ̀tɩ̀
 review-keep-recordings = ɩ̀zɩ́ɩ́ tɔ́m wà pɔ́gbɔ́nɛ̀
 review-delete-recordings = ɩ̀fɩ́zɩ̀ tɔ́m wà pɔ́gbɔ́nɛ̀
+review-terms = á mɩ́ŋlànáá
 terms-agree = mètìzì
 terms-disagree = mèkìzì
 why-donate = wèŋɖɔ̀zɩ̀ pɔ̀mpɔ̀zɩ́ tɔ́m tɩ̀nɛ̀

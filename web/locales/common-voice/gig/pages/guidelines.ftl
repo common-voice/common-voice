@@ -88,6 +88,8 @@ adding-sentences-subheader-spelling-punctuation-explanation = جملآ سئي ل
 adding-sentences-subheader-speakable = ٻوٚليٚ اسو
 adding-sentences-subheader-speakable-explanation = آڇي جملآ کدرتي آئينٚ وآت چيت وآڙي ڇي ۔ ونوني پڙي سآرو آسان هوئڻ کپي ۔ جڏي تو سوتيآتي تنوه آئينٚ جملي مينٚ مکتليڦ لڦز اهم ڇي ۔هم بي ڪوشش ڪر رهي ڇآن تو ريڪآڊنگ جملي ني همآري ري مرزي برآدري سآرو ممڪن هد تآئينٚ دلچسپ آئينٚ مزيدآر ٺآئو۔
 adding-sentences-subheader-numbers = انگ
+adding-sentences-subheader-numbers-explanation = مآکزموآد مينٚ ميٚسآل توري پر ڪو بي انگ نآ هوئڻ کپي ڪآ  تو او مسلآ پيدآ ڪر سڪي ڇي جۮي اونٚچي وآزي سون پڙو ايڪ انگ پڙي رو تريٚڪو هوآلي پر منهسر ڇي ۔ آئينٚ شآيد ديٽآسيٽ مينٚ مونجھآرو متهآرڦ ڪرآئو ۔ ميسآل تور ،نمبر 2409 سئي توري پر پڙسڪي ڇي ۔ ۮئي چوويس زيرو نو آئينٚ ڌي هزآر چآر سئو نو۔
+adding-sentences-subheader-abbreviations = جير آئين جٻر
 adding-sentences-subheader-special-characters = کآس اکر آئينٚ گير ملڪي اکر
 adding-sentences-subheader-offensive-content = توهيٚن آميٚز موآد
 
