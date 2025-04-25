@@ -45,6 +45,7 @@ background-noise-example-3 = ٿرائيسڪ رو موٺو ڌائنوسور
 background-noise-example-4 = ٿرائيسڪ دوري ري موٺي دائنورسور
 background-noise-tip-1 = [آسي پآسي رو گوڙي ريٚ ويچ مينٚ ريٚڪآوٽ]
 background-noise-tip-2 = موآد رو ڪجه هيسو سڻ ڪوني سگھي ڇي
+background-voices-explanation = ٿوڙآ پس منزر گوڙ ٺيڪ ڇي ،پر جيڪڏهن تم سوڻ سڪو ڇو، ڪي ۮوجھي منکي ني الڳ لڦز ٻوٚلئي ، ڪلپي ني رد ڪرڪآڙي ۔ آم تورپر او جٺي ٽي وي ڇوڙگئيو ڇي ، يآ جٺي ويجھي وآت چيت هو ري ڇي۔
 background-voices-example-1 = ٿرائيسڪ ري موٿي دائيناسور هيتي ايڪ۔ آوآزي سون پڙو
 background-voices-tip-1 = ڪآئي تم آري ڇو ۔ ڌي يونٚ ٻولآئو
 volume-explanation = پڙيڙ وچ مين ڪودرتي آواز سونيم آوي تو او آوازين رد ڪر ڌو جڌي آواز وديڪ هووي تو ريڪودنگ ٺوٺ جآوي يا آم تو ري پر جڌي او اتر گھٽ هووي جيڪوتم موآد ليندو ڇي او مآلون آوي ڪي او ڪآئي ڪيرو ڇي
@@ -63,6 +64,7 @@ sentence-domain = جملي رو ڍومين
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = او تمآم زروري ڇي تو سب موآدي ري جملآ هو وي جييو آم آوآ</publicDomain> (<cc0>cc0</cc0>) آوآمي ڊومين <publicDomain> لآئسنس جآري ڪيۮوڙآ ڇي ۔ سرڦ ڪۮي بي ايڪ جملو اپلوڊ ڪرو جيڪڏهن تم cc0 ڊيٽآسيٽ ني پڪ ڇي ، آئين هميسآ لآڳآپيل هوآلا بهڙي ڪرو
 citing-sentences-subheader-websites = ويب سآئيٽونٚ
 citing-sentences-subheader-websites-explanation = تم ويب سآئيٽي مينٚ بهڙي ڪر سڪونٚ ڇو ،ميسآل تور ،آم آوآزhttps://commonvoice.mozilla.org/
 citing-sentences-subheader-academic-reference = تهليٚمي هوآلو
