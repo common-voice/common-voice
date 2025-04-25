@@ -24,3 +24,4 @@ do-section-guideline-2 = ایسے سادے سوالاتا کا چُوناو کر
 do-section-guideline-3 = اس بات کُو بھروسیاڑی ٻیݨاؤ کہ ان کا جواب رُگی چند ٻولیم دؔی سِکتے ہے
 do-not-section-title = نائیں کرنا
 do-not-section-guideline-1 = جاتی توراپ اوݪکھݨی جانکاری ماںٚگ کرو (جِدؔا ناو یا آرتھیک جانکاری )
+do-not-section-guideline-3 = حساس سوالات ٻُوجھو
