@@ -20,3 +20,5 @@ submit-all-button = سارے جما کراؤ
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = اس پنیں کا اُپیوگ کرنے کا نامونا سیکھو
+learn-how-to-use-prompts-explanation = بس اسارے کا جباب سنسکرتیا کے توراپ دؔیو جِترا تھم کائہِیں ٻولیںٚم کری سِکتے ہے۔ اس ٻات کُو بھروسے  ٻݨاو کہ تھاری ٻولی قابل احترام اور قابل اعتراض ہے۔
