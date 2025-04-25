@@ -69,3 +69,9 @@ donate-modal-explanation-1 = ڈیٹا سیٹ سو میزبانی گرے سو د�
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>  کہ تے قدر تھو کھولاو،گر انکلوسیو ڈیٹا۔ خیراتی دے آز </bold>
 data-download-singleword-title = یک لفظ ھدفطبقہ سو ڈونلوڈ گر
+data-download-singleword-callout-v2 = او یک استعمال شدہ کیسسو طبقہ تھی او مشتمل تھی تس ڈیٹا رے چہ سو طاقت دیا ہندسے منے یےسو پھنیانک آ آں /  ناں سو پتہ رھینگئ سو
+data-download-button = عام اواز سو ڈیٹا ڈونلوڈ گر
+data-download-yes = آں
+data-download-deny = نہء
+data-download-license = لائسنس:  <licenseLink>CC-0</licenseLink>
+data-download-modal = تو ڈونلوڈ شرو گرے والہ تھو  <size>{ $size }   GB </size>  اگنے بہ ؟
