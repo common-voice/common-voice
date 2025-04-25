@@ -94,7 +94,7 @@ press-and-stories = پريس انين وارتايُون
 community-and-languages = ڀِراڌرِي انين ٻولِيُون
 coming-soon = زٽ آويَ سي ريون
 about-us = امارا ٻارا مان
-scripted-speech = لکل تقرير
+scripted-speech = اِسڪرِپٽيڍ تقرير
 spontaneous-speech = منصُوٻا وڳرِ ڪرل تقرير
 
 ## MENU ITEMS TOOLTIPS

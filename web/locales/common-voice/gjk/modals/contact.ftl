@@ -5,4 +5,4 @@ contact-form-name =
     .label = نام
 contact-form-message =
     .label = ميسج (نياپو)
-contact-required = ضرورت
+contact-required = ضرورت سي
