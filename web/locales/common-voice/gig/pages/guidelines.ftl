@@ -86,6 +86,7 @@ adding-sentences-subheader-length-explanation = جملي مينٚ 15 لڦزي س
 adding-sentences-subheader-spelling-punctuation = هووي آئينٚ اوڪآڦ
 adding-sentences-subheader-spelling-punctuation-explanation = جملآ سئي لکڻ کپي
 adding-sentences-subheader-speakable = ٻوٚليٚ اسو
+adding-sentences-subheader-speakable-explanation = آڇي جملآ کدرتي آئينٚ وآت چيت وآڙي ڇي ۔ ونوني پڙي سآرو آسان هوئڻ کپي ۔ جڏي تو سوتيآتي تنوه آئينٚ جملي مينٚ مکتليڦ لڦز اهم ڇي ۔هم بي ڪوشش ڪر رهي ڇآن تو ريڪآڊنگ جملي ني همآري ري مرزي برآدري سآرو ممڪن هد تآئينٚ دلچسپ آئينٚ مزيدآر ٺآئو۔
 adding-sentences-subheader-numbers = انگ
 adding-sentences-subheader-special-characters = کآس اکر آئينٚ گير ملڪي اکر
 adding-sentences-subheader-offensive-content = توهيٚن آميٚز موآد
