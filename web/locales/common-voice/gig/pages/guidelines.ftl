@@ -100,9 +100,12 @@ adding-sentences-subheader-offensive-content = توهيٚن آميٚز موآد
 adding-sentences-subheader-offensive-content-explanation = جيڪۮي جملو نآگوآر يآ پريشآن ڪري وآڙو ڇي ۔ميسآل تور سئي موآدي ري ڪري ،يآ همآري کيلآڦ هووي ڇي ۔ تو </communityGuidelines> برآدري ميلآئير ري مدد <communityGuidelines> ني جملي ني رد ڪرڻو کپي ۔ تم بي هم سونٚ رآبتو ڪر سڪو ڇو <emailFragment> commonvoice@mozilla.com </emailFragment> ڪي مسلو ودآئي سآرو۔
 reviewing-sentences-explanation-1 = جيڪۮي جملو مآٿي ۮيۮوڙآ مهيآري ني پورو ڪري ڇي تو هآن ، ٻٽڻي ني ۮٻآئو
 reviewing-sentences-explanation-2 = جيڪۮي جملو مآٿي ۮيۮوڙآ ميهآري پر پورو ڪوني ڇي ،،نآ،، ٻٽڻي پر ڪلڪ ڪرو
+reviewing-sentences-explanation-3 = جيڪۮي تم جملي ري بآري مينٚ متميٚن  نآ ڇو، تو تم اوني ڇوڙ بي سڪو ڇو آئينٚ آڳي وڌو۔
+reviewing-sentences-explanation-4 = جيڪڏهن تمآ ڪني جملآ ڌيکي سآرو کتم هو جآوي ۔مهرباني ڪرين وڌيڪ جملآ لي سارو همآري مدد ڪرو
 
 ## Question collection ids
 
 
 ## Question collection sidebar content
 
+easy-to-understand = آسآني سونٚ سمجھڻو
