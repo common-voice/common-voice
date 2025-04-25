@@ -23,6 +23,7 @@ varying-pronunciations-explanation-2 = ڌيٚ ترڦ ،جيڪۮي تم سوچو 
 varying-pronunciations-example = رستو سئي نآ هيتو
 varying-pronunciations-tip-1 = ڪينيٚڊآ ريٚ انگريٚزي مينٚ هو سڪي ڇي [رستو ،آوآز، روٽ، وآنگر]
 varying-pronunciations-tip-2 = [ برتآنيآن انگريٚزي مينٚ هو سڪي ڇي ،روٽ]
+offensive-content-explanation = جملآ ني برآدري ري زيني وآڙي آملي ري زريي ۮيکيو جآوي ڇي، جڏي تم اوٚ آمل مڪمل ڪونيٚ ۔ جيڪڏي تم ڪو اسوجملو ۮيکو يآ سوڻو جيڪو تم ني نآراز ڪري يآ تم ني پريشآن ڪري ۔ميسآل تور ڪآ  تواو هم ني </participationGuidelines> برآدري ميلآئيٚري ري هدآيت <participationGuidelines> مينٚ پرچم وآڙو ٻٽڻ استهمآل ڪرو۔ تم بي همآنٚ سون رآبتو ڪرو ul کيلآڦ هو سڪوڇو ۔مهرنآني  ڪر<emailFragment>commonvoice@mozilla.com</emailFragment> سڪو ڇو
 misreadings-explanation-2 = تمآم آم گلتيٚيي شآمل ڇي
 misreadings-explanation-3 = گآئب 'The' يآ 'A' ريٚڪآرڊنگي ريٚ سوروآتي مينٚ۔
 misreadings-explanation-4 = گآئب ڇي ’s‘ ڪي لڦزي ريٚ آکري مينٚ
