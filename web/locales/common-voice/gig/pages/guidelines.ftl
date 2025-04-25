@@ -70,6 +70,7 @@ public-domain-explanation-3 = آپو آپ يآ آپيري دوست يآ ٻوٚل
 public-domain-explanation-4 = ليکک ،ڊرمآنگآري يآ اسڪرين رآئٽري سونٚ رآبتو ڪرو آئينٚ ٻوجھو ڪي ڪآئينٚ او آپيري ڪآمي رو ايڪ اي نينو هيسو آوآمي ڊومين سآرو وڪڦ ڪري سآرو تيٚيآر ڇي۔
 public-domain-explanation-5 = موآدي سآرو ۮيکو جٺي ڪآپي رائيٽ آٻي لآگو نآ هووي ۔ ميسآل تور اڪسر ڪيتآب جيڪو 1920 سون آڳي شآيه هوئي هيتي
 public-domain-explanation-6 = حڪومت ،گير منآڦه بکش ميڊيآ تنزيٚمي  تآئينٚ پوچ تو ۮيکونٚ تونٚ ڪآئينٚ انوري ويب موآد ،رپورٽونٚ يآ ۮوجھو موآد آوآمي ڊومينٚ سآرو وڪڦ ڪري سڪي ڇي۔
+citing-sentences-explanation-1 = هوآلي ني بهڙي ڪري ر زرورت ڇي تو جي يو هم چيڪ ڪري سگھآنٚ ڇآنٚ ۔جملآ آوآمي ڊومين مينٚ ڇي آئينٚ ڪآپي رآئيٽ ري پآبندي لآڳو ڪونيٚ۔
 citing-sentences-subheader-websites = ويب سآئيٽونٚ
 citing-sentences-subheader-websites-explanation = تم ويب سآئيٽي مينٚ بهڙي ڪر سڪونٚ ڇو ،ميسآل تور ،آم آوآزhttps://commonvoice.mozilla.org/
 citing-sentences-subheader-academic-reference = تهليٚمي هوآلو
