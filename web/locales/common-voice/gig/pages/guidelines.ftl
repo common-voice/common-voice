@@ -65,6 +65,7 @@ sentence-domain = جملي رو ڍومين
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = او تمآم زروري ڇي تو سب موآدي ري جملآ هو وي جييو آم آوآ</publicDomain> (<cc0>cc0</cc0>) آوآمي ڊومين <publicDomain> لآئسنس جآري ڪيۮوڙآ ڇي ۔ سرڦ ڪۮي بي ايڪ جملو اپلوڊ ڪرو جيڪڏهن تم cc0 ڊيٽآسيٽ ني پڪ ڇي ، آئين هميسآ لآڳآپيل هوآلا بهڙي ڪرو
+public-domain-explanation-2 = ايڪ مڦيد تڪريٚر ري اوکآڻي وآڙي انجڻي ري تهميري سآرو آڇي جملآ ٻوٚليٚ وآڙي ، جآم لڦز ڇي ۔ ڪجھ کيٚيآل تمآري مدد ڪري سآرو ڇي، جملآ پيدآ ڪري مينٚ ،
 citing-sentences-subheader-websites = ويب سآئيٽونٚ
 citing-sentences-subheader-websites-explanation = تم ويب سآئيٽي مينٚ بهڙي ڪر سڪونٚ ڇو ،ميسآل تور ،آم آوآزhttps://commonvoice.mozilla.org/
 citing-sentences-subheader-academic-reference = تهليٚمي هوآلو
