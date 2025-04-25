@@ -100,10 +100,14 @@ transcribe-audio = Prepisujte zvuk <small>(už čoskoro)</small>
 press-and-stories = Tlač a príbehy
 community-and-languages = Komunita a jazyky
 coming-soon = Už čoskoro
+about-us = O nás
+scripted-speech = SKRIPOVANÁ REČ
+spontaneous-speech = SPONTÁNNA REČ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerstvá, tlač a príbehy, komunita a jazyky
+about-us-menu-item-tooltip = Získajte informácie o poslaní a tíme, ktorý stojí za Common Voice
 partnerships-menu-item-tooltip = Staňte sa našimi partnermi
 press-and-stories-menu-item-tooltip = Navštívte náš blog alebo o nás napíšte
 community-and-languages-menu-item-tooltip = Objavte jazyky, komunity a spoločný hlas
