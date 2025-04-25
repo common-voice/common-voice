@@ -20,6 +20,7 @@ new-sentence-rule-4 = vbehna-u ke ɓaŋ ɔknari ɓá
 new-sentence-rule-5 = suy fe ki̧na ɓáta-a ke fe a-a̧y ké na ɓod pí
 new-sentence-rule-6 = vbeh mbete a ɓoru karapi
 new-sentence-rule-7 = el ke ɓay nzuk a ɓoru ƴori
+new-sentence-rule-8 = ya̧h ka̧w ɓay ɓa te-teh hi̧ lah hani ɓa su (ké na se ya ɓay ki-u)
 login-instruction-multiple-sentences = <loginLink> mgba tuh keni </loginLink> mini <loginLink> vbeh wuri riŋ woiri </loginLink> ɓay dɔmri ka̧w bay a ɓoruri
 how-to-cite = ani miɓa el ke ɓay nzuk a ɓoru?
 how-to-cite-explanation-bold = el keni ke sɔ riŋ nzuku gbam
@@ -155,8 +156,8 @@ transcribe-audio-menu-item-tooltip = fe vbehna ke mgba kusol
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = gel fe fakla "vbeh"
-add-sentences-menu-item-aria-label = dom ka̧w ɓay a foyu ɓay ki̧-u
-review-sentences-menu-item-aria-label = fakla wuri ka̧w ɓayri ke ƴori
-add-questions-menu-item-aria-label = hi̧ wuri vbi ɓay a foyu ri ɓay ɓo
+write-contribute-menu-aria-label = Kerɓay gel ziŋ fe ri "vbeh"
+add-sentences-menu-item-aria-label = dɔm tul ka̧w ɓayri a foyu ɓay ki̧ ké sakra daɓari
+review-sentences-menu-item-aria-label = fakla wuri ka̧w ɓayri ke ƴori ké daɓari hi̧
+add-questions-menu-item-aria-label = hi̧ wuri vbi ɓay a foyu ri ɓay hi̧ daɓari ɓá ki̧ ke ku yih vbi ɓayu.
 transcribe-audio-menu-item-aria-label = vbeh fe ke mgba-u

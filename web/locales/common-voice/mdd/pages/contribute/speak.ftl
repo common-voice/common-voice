@@ -74,5 +74,5 @@ answer-questions-menu-item-tooltip = i mgba wuri ƴo gel yih vbi ɓay ke fe ɗin
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = gel fe fakla "ɓah"
-read-sentences-menu-item-aria-label = ki̧ ka̧h ɓayri ke sakra daɓary
-answer-questions-menu-item-aria-label = sɔk wuri vbi ɓay a foyu
+read-sentences-menu-item-aria-label = ki̧ ka̧h ɓayri ke sakra daɓari
+answer-questions-menu-item-aria-label = hi̧ vbi ɓay a foyu ɓay ɓo daɓari ɓa ki̧ ke el ke yih vbi ɓayu.
