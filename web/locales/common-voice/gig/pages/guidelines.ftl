@@ -97,6 +97,9 @@ adding-sentences-subheader-special-characters = کآس اکر آئينٚ گير 
 adding-sentences-subheader-special-characters-explanation-1 = اکر لآزمي توري پر سئي هوئڻ کپي ، ٻوٚليٚ مينٚ ٻولڻو ۔ميسآل تور روسي الڦآبيٽ مينٚ ايڪ اکر ڇي ۔ پر ڪيۮي بي انگريزي مينٚ استهمآل نآ ڪيۮو گئيو ڇي ،آئينٚ اووجونٚ ڪيٚن بي "ж" انگريزي مآکزي ري موآدي مينٚ ڪۮي بي زآهيئرنآ هوئڻ کپي،
 adding-sentences-subheader-special-characters-explanation-2 = وڌيڪ ٻوٚليٚ زرورتي سونٚ بهڙي آپير آپير سئي زآبتآ رک سڪي ڇي جۮي او سب مکآمي هووي ڇي ،جيڪڏهن ڪي  ٻولي سآرو ڪو کآس پڪي سئي ڦآئيٚل نآ ڇي تو انگريزي ڪآئيٚدآ مدد گآري ني ۮيکآوي
 adding-sentences-subheader-offensive-content = توهيٚن آميٚز موآد
+adding-sentences-subheader-offensive-content-explanation = جيڪۮي جملو نآگوآر يآ پريشآن ڪري وآڙو ڇي ۔ميسآل تور سئي موآدي ري ڪري ،يآ همآري کيلآڦ هووي ڇي ۔ تو </communityGuidelines> برآدري ميلآئير ري مدد <communityGuidelines> ني جملي ني رد ڪرڻو کپي ۔ تم بي هم سونٚ رآبتو ڪر سڪو ڇو <emailFragment> commonvoice@mozilla.com </emailFragment> ڪي مسلو ودآئي سآرو۔
+reviewing-sentences-explanation-1 = جيڪۮي جملو مآٿي ۮيۮوڙآ مهيآري ني پورو ڪري ڇي تو هآن ، ٻٽڻي ني ۮٻآئو
+reviewing-sentences-explanation-2 = جيڪۮي جملو مآٿي ۮيۮوڙآ ميهآري پر پورو ڪوني ڇي ،،نآ،، ٻٽڻي پر ڪلڪ ڪرو
 
 ## Question collection ids
 
