@@ -20,3 +20,4 @@ partial-questions-upload-message =
 add-question-guidelines-title = ہوں کُوݨ سے سوالات سیمل کری سِکتا ہے؟
 do-section-title = کرنا
 do-section-guideline-1 = سہئی املا اور گرامر کا اُپیوگ کرو
+do-section-guideline-2 = ایسے سادے سوالاتا کا چُوناو کرو جکو سنسکرتی یا سئیوگاس ٻینا دؔیکھے کسی کُو بھی سمجݨیم آسان ہوے۔
