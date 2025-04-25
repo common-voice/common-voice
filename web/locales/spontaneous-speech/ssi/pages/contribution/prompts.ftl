@@ -21,4 +21,9 @@ submit-all-button = سارے جما کراؤ
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = اس پنیں کا اُپیوگ کرنے کا نامونا سیکھو
-learn-how-to-use-prompts-explanation = بس اسارے کا جباب سنسکرتیا کے توراپ دؔیو جِترا تھم کائہِیں ٻولیںٚم کری سِکتے ہے۔ اس ٻات کُو بھروسے  ٻݨاو کہ تھاری ٻولی قابل احترام اور قابل اعتراض ہے۔
+learn-how-to-use-prompts-explanation = بس اسارے کا جباب سنسکرتیا کے توراپ دؔیو جِترا تھم کائہِیں ٻولیںٚم کری سِکتے ہے۔ اس ٻات کُو بھروسے  ٻݨاو کہ تھاری ٻولی یوگ سمان اور اپمان جنک ہے۔
+learn-how-to-use-prompts-guidance = اس پنیں کا اُپیوگ کرنے کا نامونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاو
+learn-how-to-use-transcribe = نکل کرنے کا نامونا سیکھو
+learn-how-to-use-transcribe-explanation = بالکل ٻوہی لِکھو جکو اس منکھان کیہیا تیا ، جس میں 'ام' یا 'ایررا' دؔیسے سٻدؔ بی سیمل ہے۔
+learn-how-to-use-transcribe-guidance = اس پنیں کا اُپیوگ کرنے کا نامونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاو
+learn-how-to-use-check-transcript = نکلا کی جانچ پڑتال کرنے کا نامونا سیکھو
