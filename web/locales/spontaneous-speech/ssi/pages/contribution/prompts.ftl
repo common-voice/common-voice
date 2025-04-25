@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = نکل کرنے کا نامونا سیکھو
 learn-how-to-use-transcribe-explanation = بالکل ٻوہی لِکھو جکو اس منکھان کیہیا تیا ، جس میں 'ام' یا 'ایررا' دؔیسے سٻدؔ بی سیمل ہے۔
 learn-how-to-use-transcribe-guidance = اس پنیں کا اُپیوگ کرنے کا نامونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاو
 learn-how-to-use-check-transcript = نکلا کی جانچ پڑتال کرنے کا نامونا سیکھو
+learn-how-to-use-check-transcript-explanation = ایک نکلا کُو ہر اس سٻدؔاس یا گیر لغوی ٻات چیتا کی آواجا کُو پاکڑنا چاوے جکو منکھا کے جریعہ کیہیا تیا ، بسمول تکرار۔
+learn-how-to-use-check-transcript-guidance = اس پنیں کا اُپیوگ کرنے کا نامونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاو
