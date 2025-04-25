@@ -1,9 +1,9 @@
 speak = màtɩ̀ɖɛ́
 speak-now = mɩ́mbɩ́zɩ̀ ɩ́màtɩ̀
 speak-subtitle = ɩ́fɑ̀ mɩ̀dɛ́ lòú cʊ̀kɔ̀
-record-cta = ɩ́pázɩ́ kàlɩ̀tɩ̀ kpɔ̀wʊ́
+record-cta = ɩ́pázɩ́ kàlɩ̀tɩ̀ kpɔ̀ʊ́
 record-platform-not-supported = ɩ́láɖàá kàfáɖà, kàmá léŋlé mɩ́ŋlàm tʊ̀mɩ̀ɖɛ̀ nɩ̀ tàbázɩ̀tàá tʊ̀mɩ̀ɖɛ̀ làm ɖɔ́jɔ̀
-record-platform-not-supported-desktop = wémbà páŋlàm tɩ̀mɩ̀ɖɛ́ ɔ̀rtɩ̀nátɛ̀rɩ̀ ɖàm tà ŋgɩ̀ ɖɔ̀ɔ́ nɩ̀
+record-platform-not-supported-desktop = wémbà páŋlàm tɩ̀mɩ̀ɖɛ́ ɔ̀rtɩ̀nátɛ̀rɩ̀ ɖàm tà ŋgɩ̀ ɖɔ̀ɔ́ nɩ̀         wémb                     A REVOIR
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>á pɩ́tɛ̀
 record-three-more-instruction = pɩ́ŋjɛ̀zɩ̀ nòdòzò
 record-last-instruction = <recordIcon></recordIcon>kɛ̀dɛ́zíyá pɩ̀lɛ́
