@@ -90,6 +90,8 @@ adding-sentences-subheader-speakable-explanation = آڇي جملآ کدرتي آ
 adding-sentences-subheader-numbers = انگ
 adding-sentences-subheader-numbers-explanation = مآکزموآد مينٚ ميٚسآل توري پر ڪو بي انگ نآ هوئڻ کپي ڪآ  تو او مسلآ پيدآ ڪر سڪي ڇي جۮي اونٚچي وآزي سون پڙو ايڪ انگ پڙي رو تريٚڪو هوآلي پر منهسر ڇي ۔ آئينٚ شآيد ديٽآسيٽ مينٚ مونجھآرو متهآرڦ ڪرآئو ۔ ميسآل تور ،نمبر 2409 سئي توري پر پڙسڪي ڇي ۔ ۮئي چوويس زيرو نو آئينٚ ڌي هزآر چآر سئو نو۔
 adding-sentences-subheader-abbreviations = جير آئين جٻر
+adding-sentences-subheader-abbreviations-explanation = "USA" يآ "ICE" جيٚر آئينٚ جٻر جسوڪي سونٚ پآسو ڪرو مآکز ري موآدي مينٚ ڪآڪي تو اي شآهد آسي تريڪي سونٚ پڙآئي جآوي ۔جيڪو ونوري اسپيلنگي سونٚ ميلي وآڙي نآ هووي ،وڌيڪ توري پر هو سڪي ڇي ايڪ ايڪلو جٻري سآرو ڪترآئي درست پڙي۔
+adding-sentences-subheader-punctuation = جيٚر جٻر
 adding-sentences-subheader-special-characters = کآس اکر آئينٚ گير ملڪي اکر
 adding-sentences-subheader-offensive-content = توهيٚن آميٚز موآد
 
