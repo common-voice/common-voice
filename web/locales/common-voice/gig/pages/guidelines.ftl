@@ -95,6 +95,7 @@ adding-sentences-subheader-punctuation = جيٚر جٻر
 adding-sentences-subheader-punctuation-explanation = کآس نشآنئينٚ آئينٚ جيٚرجٻر سرڦ اوٚ وکت بهڙي ميلآ لي ۔ جڏهن بلڪل آئينٚ  "don't" انگريزي لڦزي مينٚ بهڙي ميلآ ليوي ڇي۔ جسوڪي  apostrophe زرورت هووي ۔ ميسآل تور ،ايڪ آئينٚ مآکز موآدي مينٚ بهڙي ميلآ ليوي ، پر اوٚ ممڪن ڪوني تو تم ني ڪيۮي بي کآس آلآمت ني "we're"زرورت پڙي جسوڪي  "@" يآ "#. ”
 adding-sentences-subheader-special-characters = کآس اکر آئينٚ گير ملڪي اکر
 adding-sentences-subheader-special-characters-explanation-1 = اکر لآزمي توري پر سئي هوئڻ کپي ، ٻوٚليٚ مينٚ ٻولڻو ۔ميسآل تور روسي الڦآبيٽ مينٚ ايڪ اکر ڇي ۔ پر ڪيۮي بي انگريزي مينٚ استهمآل نآ ڪيۮو گئيو ڇي ،آئينٚ اووجونٚ ڪيٚن بي "ж" انگريزي مآکزي ري موآدي مينٚ ڪۮي بي زآهيئرنآ هوئڻ کپي،
+adding-sentences-subheader-special-characters-explanation-2 = وڌيڪ ٻوٚليٚ زرورتي سونٚ بهڙي آپير آپير سئي زآبتآ رک سڪي ڇي جۮي او سب مکآمي هووي ڇي ،جيڪڏهن ڪي  ٻولي سآرو ڪو کآس پڪي سئي ڦآئيٚل نآ ڇي تو انگريزي ڪآئيٚدآ مدد گآري ني ۮيکآوي
 adding-sentences-subheader-offensive-content = توهيٚن آميٚز موآد
 
 ## Question collection ids
