@@ -3,6 +3,7 @@ speak-now = ya̧h ɓo i ɓah
 speak-subtitle = hi̧   kusol woiri ndi̧
 record-cta = ti wuri mgba feri
 record-platform-not-supported = nah ziŋ law sa̧hna, mí gel ziŋ hani woiri
+record-platform-not-supported-desktop = ɓay fe ɗar ful kerɓay gel pihna, i ma ɓay
 record-platform-not-supported-ios-non-safari = hu OIS, kɔkrɔ si wuri ke safari ɓay
 record-must-allow-microphone = i ma hi̧ mahful hi̧ fe ɓa ɓay
 record-no-mic-found = fe ɓa ɓay kara ziŋ ya

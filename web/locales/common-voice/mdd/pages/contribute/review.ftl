@@ -53,7 +53,7 @@ report-sc-different-language = nzak mbuŋna a ɓoru
 report-sc-different-language-detail = ka̧w ɓay nzak mbuŋna a ɓoru ké vbeh si mah hani ke
 sentences-fetch-error = gun fe zɔklɔ ten mun
 review-error = gun fe zɔklɔ ten mun ke sa̧w se ki̧ te
-review-error-rate-limit-exceeded = i sí sina gah ndi̧h mbamba. Kɔkrɔ ya el fal
+review-error-rate-limit-exceeded = sina woiri gah mbamba. Kɔkrɔ ya mbih wuri sa̧w seh ndi̧h ɓay lek gel ki̧ ka̧w ɓay tu bahri ke ƴo ɓa suki.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = nah sɔɓ feri mba ngi̧-u
 sc-redirect-page-subtitle-1 = feh mbuh ka̧w ɓayri loh ma fal gel ziŋ hani Common voice. I mah tu mgbaŋ <writeURL>vbeh</writeURL> ka̧w ɓay mbew mini <reviewURL>fakla</reviewURL> ka̧w ɓayri lew sa Common Voice.
