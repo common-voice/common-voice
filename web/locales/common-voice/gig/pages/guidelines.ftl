@@ -92,6 +92,7 @@ adding-sentences-subheader-numbers-explanation = مآکزموآد مينٚ مي�
 adding-sentences-subheader-abbreviations = جير آئين جٻر
 adding-sentences-subheader-abbreviations-explanation = "USA" يآ "ICE" جيٚر آئينٚ جٻر جسوڪي سونٚ پآسو ڪرو مآکز ري موآدي مينٚ ڪآڪي تو اي شآهد آسي تريڪي سونٚ پڙآئي جآوي ۔جيڪو ونوري اسپيلنگي سونٚ ميلي وآڙي نآ هووي ،وڌيڪ توري پر هو سڪي ڇي ايڪ ايڪلو جٻري سآرو ڪترآئي درست پڙي۔
 adding-sentences-subheader-punctuation = جيٚر جٻر
+adding-sentences-subheader-punctuation-explanation = کآس نشآنئينٚ آئينٚ جيٚرجٻر سرڦ اوٚ وکت بهڙي ميلآ لي ۔ جڏهن بلڪل آئينٚ  "don't" انگريزي لڦزي مينٚ بهڙي ميلآ ليوي ڇي۔ جسوڪي  apostrophe زرورت هووي ۔ ميسآل تور ،ايڪ آئينٚ مآکز موآدي مينٚ بهڙي ميلآ ليوي ، پر اوٚ ممڪن ڪوني تو تم ني ڪيۮي بي کآس آلآمت ني "we're"زرورت پڙي جسوڪي  "@" يآ "#. ”
 adding-sentences-subheader-special-characters = کآس اکر آئينٚ گير ملڪي اکر
 adding-sentences-subheader-offensive-content = توهيٚن آميٚز موآد
 
