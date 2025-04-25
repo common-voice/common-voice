@@ -45,3 +45,4 @@ resource-playbook-info = <playbookLink>  مدد گار رہنمائ ٹنڈ </pla
 data-other-librispeech-description = لائبر تقریر 16Khz سو تقریباً  1000 گھنٹیوں سو یک کارپس تھو تس مہ انگریزی تقریر پڑاں گا تھو کاں چہء  لبریٹوکس پروجیکٹ نو پڑے والہ آڈیو کتابوں نو اخذ گی تھی
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM corpus  آڈیو ٹاک سوسندیل اسو آ تسوں ٹرانکرپشن  TED سو ویب سائیڈ رے موجود تھو
+data-other-voxforge-description = مفت اور اوپن سورس تقریر کی شناخت کے انجنوں کے ساتھ استعمال کے ل trans نقل کی تقریر جمع کرنے کے لئے ووکسفورج قائم کیا گیا تھا  مفت آ کھولاو زریعہ سو تقریر سو پُھنیانک سو انجنوں میل استعمال سو دن واکسفورج سیٹ گیو اسو
