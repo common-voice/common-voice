@@ -39,8 +39,9 @@ review-terms = á mɩ́ŋlànáá kɔ̀mɔ̃̀n vɔ̀yɩ̀sɩ̀ tɩ̀mɩ̀ɖ
 terms-agree = mètìzì
 terms-disagree = mèkìzì
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Mɩ̀nɛ̀ kóŋkàɖɩ́ tɔ́m wàà mɩ́gbɔ̀tɩ̀ ŋgɛ́ mɩ̀fàɖá nɩ̀ tɩ̀ɖɔ́zɩ̀
-why-donate = wèŋɖɔ̀zɩ̀ pɔ̀mpɔ̀zɩ́ tɔ́m tɩ̀nɛ̀
+first-cta-header-text = Mɩ̀nɛ̀ kóŋkàɖɩ́ tɔ́m wàà mɩ́gbɔ̀ɔ́tɩ̀ ’ŋgɛ́ mɩ̀fàɖá nɩ̀ tɩ̀ɖɔ́zɩ̀ !
+first-cta-subtitle-text = mɩ̀zɔ́lɛ́ɛ́ ɩ̀kɛ̀zɩ̀ɖáá nàtɩ̀ɖɩ́ ŋ̀ŋɩ́nɩ́ mɩ́tɛ́ɛ́ màtɩ̀ɖɛ̀ wómbóɖénɛ̀ pʊ̀ɖʊ̀ʊ́ ?
+why-donate = wèŋɖɔ̀zɩ̀ pɔ̀mpɔ̀zɩ́ tɔ́m tɩ̀nɛ̀ ?
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
 
