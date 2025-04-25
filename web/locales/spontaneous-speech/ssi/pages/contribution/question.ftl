@@ -10,3 +10,4 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions } { $totalQuestions } سوالات جما کراوڑے
     }
 add-question-error-message = اپ لوڈ ناکام، کِرپا کری پُوٹھوانٚس یتن کرو.
+add-question-too-many-questions-error = 25 سوالاتیںٚس ودھیک. سوالاتا کی تاداد گھٹ کرو اور پُٹھا یتن کرو.
