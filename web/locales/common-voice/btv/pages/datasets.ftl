@@ -75,3 +75,4 @@ data-download-yes = آں
 data-download-deny = نہء
 data-download-license = لائسنس:  <licenseLink>CC-0</licenseLink>
 data-download-modal = تو ڈونلوڈ شرو گرے والہ تھو  <size>{ $size }   GB </size>  اگنے بہ ؟
+data-subtitle = بے یک کھولاو آ عوامی اوازوں سو ڈیٹا سیٹ سندہ تھہ چہ سو ہر کاں تقریر سو تربیت آ درخاستوں سو دَن استعمال گر ھویں۔
