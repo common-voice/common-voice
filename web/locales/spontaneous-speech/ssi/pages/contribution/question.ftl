@@ -11,3 +11,12 @@ add-question-success-toast-message =
     }
 add-question-error-message = اپ لوڈ ناکام، کِرپا کری پُوٹھوانٚس یتن کرو.
 add-question-too-many-questions-error = 25 سوالاتیںٚس ودھیک. سوالاتا کی تاداد گھٹ کرو اور پُٹھا یتن کرو.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] جما کراوڑے 1 سوالاتامس { $uploadedQuestions } سوالات سیمل کرنے کے نامونے کے باریم ودھیک جاݨنے نتر مھارے <guidelinesLink>مارگ دؔیکھانواڑے</guidelinesLink> کے پنیں دیکھو
+       *[other] { $totalQuestions } سوالاتا کا { $uploadedQuestions } جما کروڑا ہے۔ سوالاتا سیمل کرنے کے نامونے کے باریم ودھیک جاݨنے نتر مھارے <guidelinesLink>مارگ دؔیکھانواڑے</guidelinesLink> کے  پنیں دیکھو
+    }
+# Guidelines
+add-question-guidelines-title = ہوں کُوݨ سے سوالات سیمل کری سِکتا ہے؟
+do-section-title = کرنا
+do-section-guideline-1 = سہئی املا اور گرامر کا اُپیوگ کرو
