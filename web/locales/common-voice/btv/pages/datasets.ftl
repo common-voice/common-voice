@@ -56,3 +56,12 @@ more = جَل
 close = بند گر
 download = ڈونلوڈ گر
 dataset-version = ورژن
+sha256-checksum-copied = SHA256 مجموعہ نقل ھویں گے
+sha256-checksum-copied-error = مجموعہ SHA256 نقل ناکام ھویں گا
+clipboard-not-supported = کلپ بورڈ مدد نہ گرا
+no-information-available = کیں معلومات مجود نہ تھی
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تیوں ڈیٹا سیٹ ڈونلوڈ ھواں
+dataset-donate-modal-heading = تو شید اسو
