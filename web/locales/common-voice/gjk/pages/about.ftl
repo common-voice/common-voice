@@ -9,7 +9,7 @@ how-does-it-work-text = امين آوازان نِي ايڪ اوپنَ سورس 
 
 ## How does it work section
 
-about-language-req-subtitle = ڪونئين ماڻۿان ٻولِي شامِل ڪريا ۿارُو ڪيَ سي۔
+about-language-req-subtitle = ڪونئين ٻولِي شامِل ڪريا ۿارُو پونسيَ سي۔
 about-localization-title = ويب سائيٽ نين مقامِي ٻناوو يا لوڪلائيزيشنَ ڪرو
 about-localization-subtitle = ويب سائيٽ نون متنَ اِي ٻولِي مان ترجمون ڪريون جھون سي۔
 about-sentence-collection-title = جُملا نو مجمُوئو
