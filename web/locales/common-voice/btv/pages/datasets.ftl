@@ -68,3 +68,4 @@ dataset-donate-modal-heading = تو شید اسو
 donate-modal-explanation-1 = ڈیٹا سیٹ سو میزبانی گرے سو دَن  100+ زیب سو کمیونٹی سو پلیٹ فارم بہتر گرے رے کال مہ تقریباً یک ملین ڈالر خرچہ یا کاں چہ اسئیں کَم رے انحصار  گرہ تھہ
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>  کہ تے قدر تھو کھولاو،گر انکلوسیو ڈیٹا۔ خیراتی دے آز </bold>
+data-download-singleword-title = یک لفظ ھدفطبقہ سو ڈونلوڈ گر
