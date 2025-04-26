@@ -96,6 +96,8 @@ adding-sentences-subheader-punctuation = სასვეჼ ლიშნი
 adding-sentences-subheader-punctuation-explanation = სასვეჼ ლიშნი, ჴე́ნი ლიშჼი, აუცილებელ და́ჰ̦ ბე́დეჼ ცო დე́წე̆ დაწე́რადალაჼ. აჲლ'ჩე ვაჲ: ლე „@“, ლე „#“ ბაყეკი საჭირო̆ ხილ'ულო̆.
 adding-sentences-subheader-special-characters = ჴე́ნი ლიშნია́ჲ უცხ მატტიჼ ა́სუჲაჲ
 adding-sentences-subheader-special-characters-explanation-1 = დაჩო ეჴ მატტიჼ ა́სუჲ ხილ'ო̆ გამოდგო́მალაჲნი̆, ჴეჩო̆ მატტა́ჼ ა́სუჲ ცო ჲე́წე̆ ჴმა́რბადჲაჼ
+adding-sentences-subheader-special-characters-explanation-2 = შაძლე́ბალა, მე́ მიჩო̆ მატტგო შარიჼ ჴელ-წე́სი ხილ'ულო̆, უ̂მ მოთხო́ვნიცი ცჰ̦ა́ღ. იშტუჼ ფაილ ცო ა́რსბალა́ჰ̦, ეჰ̦ა́თ ინგლისურ მატტიჼ წე́სი მუშებალა.
+adding-sentences-subheader-offensive-content = ხალა́ჼხე́თლაჲნი̆ შინაარს
 
 ## Question collection ids
 
