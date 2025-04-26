@@ -43,6 +43,8 @@ first-cta-header-text = Mɩ̀nɛ̀ kóŋkàɖɩ́ tɔ́m wàà mɩ́gbɔ̀ɔ
 first-cta-subtitle-text = mɩ̀zɔ́lɛ́ɛ́ ɩ̀kɛ̀zɩ̀ɖáá nàtɩ̀ɖɩ́ ŋ̀ŋɩ́nɩ́ mɩ́tɛ́ɛ́ màtɩ̀ɖɛ̀ wómbóɖénɛ̀ pʊ̀ɖʊ̀ʊ́ ?
 why-donate = wèŋɖɔ̀zɩ̀ pɔ̀mpɔ̀zɩ́ tɔ́m tɩ̀nɛ̀ ?
 why-donate-explanation-1 = lààbáárʊ̀wá bànà pɛ̀fɛ̀yɩ̀ ɖárɩ̀zà ; mɩ̀mbɩ́zɩ̀ ìsùùrì wɛ̀ á ’mɩ̀zɔ̀lɛ́ nà. sáɖɩ̀ wéndì ɖàndàrɩ́ tɔ̀m wàà, ɖánfáá hìlà màrá-dɩ̀náà tɔ́m wàà, nɛ̀ dàdànlàm sìsé pɛ̀bɛ̀m mɩ̀ náá mɩ̀yɩ̀là nà wéŋkɩ̀ mɩ́ŋyèkìnà tɔ̀m ɛ̃tɛ̀rnɛtɩ̀ ɖɔ́ɔ́zɩ̀ nɛ̀ pɩ̀jɛ̀lɩ̀nɩ̀ dèmòkráfìkì  lààbáárʊ̀wà ɖɔ́zɩ̀ sɩ̀sé ’mɩ̀bɩ́nzɩ̀ yáá àbàálɩ̀tɩ̀ yáá hàlɩ̀tɩ̀
+why-donate-explanation-2 = sɩ̀ tɛ̀kɩ̀nòlòƒì ɩ̀là tɔ̀mɩ̀ɖɛ̀ kɔ̀zɔ̀ɔ́ páá nɩ̀ pàwènì nà, tɔ̀m wéndì tɩ̀nsɩ̀nà wèmbà pánzɩ̀náá sìsè tɛ̀kɩ̀nòlòƒì ìbònà pɩ̀zɩ̀ndá nà pìmbɔ̀zɩ̀ sìsè pàá kòtòkòlì ɩ̀rɔ̀ wènì. sɩ̀ ɖɩ̀gbɔ́, á ’ɖárɔ̀ wémbà pàŋmàtɩ̀nà nɩ̀ kòtòkòlì tɛ̀ fàrãŋdɩ̀ nàkɩ̀rɩ̀, ŋnámʊ̀ nà tɛ̀kɩ̀nòlòƒì tánlàm tɔ̀m kɔ̀zɔ̀ɔ́ nɛ̀ wémbà pàŋmàtɩ̀nà nɩ̀ kòtòkòlì tɛ̀ fàrãŋdɩ̀ kɩ̀lɛ́ kɩ̀táá.<learnMore> ɩ́tàzɩ̀ ɩ̀tɩ̀lɩ̀ ɖárɩ̀zà tɔ́m wéndì tɩ́nlàm sìsè pànɩ́ kpàyɩ̀kpàyɩ́ nà.</learnMore>
+add-information-button = ɩ́tàzɩ̀ lààbáárʊ̀wá
 continue-speaking-button = áyɩ̀ɩ̀ kóŋkàɖɩ̀, ŋkàzɩ̀m màtɩ̀ɖɛ̀
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
