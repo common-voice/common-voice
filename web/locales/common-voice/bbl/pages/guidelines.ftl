@@ -83,6 +83,10 @@ citation =
 self-citation = შაჲრვაჼ დიენო̆
 self-citation-explanation = ო́ჴუიჼ ნიმუშ, მო́ჰ̦ დეწი́შ მითითბადაჼ წყა́როღ აჲში̆ შაჲრვაჼ დიენო̆ უ̂მ.
 adding-sentences-subheader-length = დახხოლ
+adding-sentences-subheader-length-explanation = წინადა́დბე ცო დე́წ ხილ'აჼ 15-ეხ სოუო̆ბო̆ დაშნი
+adding-sentences-subheader-spelling-punctuation = ორთოგრაფია - ნიფსწე́რადარე́ სასვე́ჼ ლიშნი
+adding-sentences-subheader-spelling-punctuation-explanation = ორთოგრა́ფია ნიფს ჲეწ ხილ'აჼ
+adding-sentences-subheader-speakable = ატტაჲში̆  ხა́ტტუჲნი̆
 
 ## Question collection ids
 
