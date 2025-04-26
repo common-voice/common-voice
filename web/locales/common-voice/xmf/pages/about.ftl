@@ -27,8 +27,13 @@ about-is-it-valid-text = ხონარუან ინნაჭარას "�
 about-yes-votes = ≥ 2 ქო რე
 about-yes-votes-text = Common Voice-ქ მუნაჩემეფიშ კრებულს ქიგუძინასჷნი, ხონარუანი ინნაჭარა ჟირ შხვადოშხვა მომხმარებელქ ოკო დადასურას.
 about-no-votes = ≥ 2 ვარ რე
+about-dataset-new = Common Voice-იშ მუნაჩემეფიშ კრებული
+about-clip-graveyard = ხონარუან ინნაჭარეფიშ საფლე
+about-get-involved = ქუმაკათით
 about-nav-why-common-voice = მუშენი?
 about-nav-how-it-works = მუჭო?
+about-nav-get-involved = ქუმაკათით
+about-nav-how-it-works-2 = მუჭო მუშენს Common Voice?
 
 ## Community Playbook Content
 ## What is a language
