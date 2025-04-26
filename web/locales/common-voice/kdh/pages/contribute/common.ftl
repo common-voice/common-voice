@@ -39,8 +39,11 @@ submit-form-action = yèkì
 
 report = ɩ́féɖɩ̀
 report-title = íyèkì cáɖɩ̀tɩ̀
+report-ask = tɔ́m wèŋkì mɩ̀ŋkàdɩ̀ná mɩ̀dɛ́ tɔ́m pɔ̀wà tàà ?
 report-offensive-language = kàlɩ́mbànɩ́ tɔ́m/tɔ́m tɩ̀tɛ̀
 report-offensive-language-detail = tɔ́m tɩ̀ʈɛ̀ yà kʊ́tʊ̀nɩ̀ wɛ̀ tɔ́m tɩ̀nà tɩ̀tɑ́ɑ́
+report-grammar-or-spelling = màɖá yɩ̀sɩ̀tɩ́ / màɖá sɩ́ntɩ̀ sɔ́nà
+report-grammar-or-spelling-detail = tɔ́m pɔ̀ɖɛ̀ wɛ̀nà màɖá yɩ̀sɩ̀tɩ́ yàà màɖá sɩ́ntɩ̀ sɔ́nà
 report-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 report-different-language-detail = pámàá tɔ́m kʊ̀nʊ́m kɩ̀ná kɩ́nɖɩ́ nà wéŋkì màmǝmadɩ̀ nɛ̀ kɩ̀dá
 report-difficult-pronounce = pʊ̀ɖɔ̀ɔ́ kálɛ̀ màtɩ̀ɖɛ̀
