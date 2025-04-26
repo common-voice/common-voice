@@ -2,9 +2,15 @@
 guidelines-header = ჩუჰ̦დაჩოჼ (მონაწილაჼ) ნიყბახუჲნი̆
 guidelines-header-subtitle = გიბათ, მო́ჰ̦ დეწი́შ მაქ ლა́რ'ლანე́ დაყყდაჼ ჩანაწე́რი, მენხუჲა́ Common Voice-ს ვაშარ ჴე́ჰ̦ო̆ კრე́ბულე
 voice-collection = ა́შირ ვაშა́რჲარ
+sentence-collection = წინადა́დბი ვაშა́რჲარ
+question-collection = ხატტრი ვაშა́რდარ
 
 ## Voice Collection nav ids
 
+varying-pronunciations = ჴეჩბერ  ა́ლ'არ
+misreadings = ხარც ხა́ტტარ
+offensive-content = ხალა́ჼხე́თლაჲნი̆ შინაარს
+background-noise = გო́გეხჲაჲნი̆ თათნი
 
 ## Voice collection sidebar content
 
