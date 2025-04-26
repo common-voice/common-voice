@@ -80,6 +80,8 @@ about-playbook-how-access-dataset = მუჭო გიმიბრინუა 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-4 = კათაშ ხოლაფა გინოჭყვადუეფიშ მეღებაშ დროს.
+about-playbook-how-project-governance-content-5 = დაფასება დო აღიარება.
 about-playbook-how-project-governance-content-6 = ართმაჟიაშ ანგარიშვალდებულება.
 about-playbook-how-project-governance-content-7 = <governanceLink>წეკითხით უმოსი, მუჭო უნჯღვერთ </governanceLink>
 
