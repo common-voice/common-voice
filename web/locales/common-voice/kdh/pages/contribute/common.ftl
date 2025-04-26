@@ -106,4 +106,7 @@ contribution-misreadings-example-1-title = wèŋkɩ̀ ɖɔ́zɩ̀ pànñɔ́ 
 contribution-misreadings-example-2-title = ɖóó lɔ̀n tà tɛ̀tɩ́ kpɩ́ŋɖɛ̀ ɖàlàm-ɖàlàm
 contribution-misreadings-example-2-explanation = [pɩ̀yákènɩ̀ « -náá » tɛ̀tɩ́ kpɩ́ŋ-]
 contribution-misreadings-example-3-title = ɖóó lɔ̀n- tà tɛ̀tɩ́ kpɩ́ŋɖɛ̀ ɖàlàm-ɖàlàm
+contribution-misreadings-example-3-explanation = [nánɩ̀ pàtàlɩ̀ kɛ̀tɛ́zɩ̀yá tɔ̀m nà lòú kpàʊ́]
+contribution-misreadings-example-4-title = ɖóó lɔ̀n tà tɛ̀tɩ́ kpɩ́ŋɖɛ̀ ɖàlàm-ɖàlàm. yɛ́ɛ̀
+contribution-background-voices-example-1-explanation = ñɔ́kɔ̀nɩ́ɩ́ ? <strong>[nɔ̀ɔ̀ nàkɛ̀rɛ́ wámàtɩ̀]</strong>
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀

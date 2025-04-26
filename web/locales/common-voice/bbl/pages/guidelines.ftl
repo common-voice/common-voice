@@ -71,6 +71,10 @@ public-domain-explanation-3 = ე́შუჲში̆ დაკჲო́ჸჲე�
 public-domain-explanation-4 = თათაჼ ჲებათ მწე́რლინ, სცე́ნარისტინ, ჲე ხა́ტტათ, ფლოქოღ ხუმ ცომ ლო ვაჲნი̆ ჰამა́ნეჸ საკუთრებენაჲნო̆
 public-domain-explanation-5 = ლახათ თიშიჼ, ავტორობეჼ  ვად ჲალ'ენო̆, საბლეხიჼ 1920 შარახ ჰ̦ათხეჸ დალ'ენო̆ ჟაგნუჲ
 public-domain-explanation-6 = ლავათ მთა́ვრობეგო̆, ჴეჩ-ჴე́ჩო̆ დაწე́სებულებიგო̆, ხაჸათ, შაძლე́ბალეჲ ო́ჴრიჼ ჴენჴ́ენი მა́სალი, ლე მოხსე́ნბი, ლე ჴე́ნი რესურსი გამოყე́ნბადარ, მოჰ̦ე́ ჰ̦ამა́ნეჸ საკუთრებ.
+citing-sentences-explanation-1 = აუცილებელ ხილ'ო̆ წყ́არუჲ მითითბადჲარ, მე́ მაკელ თხოჼ დაყყდოლო́თხ, ბაყეჸ ჰამა́ნეჸ საკუთრებ მე ჲაე́, მე ცო  გაე̆გე̆ საავტორო̆ უფლებევ.
+citing-sentences-subheader-websites = ვებგვე́რდი
+citing-sentences-subheader-websites-explanation = მაკ შუჼ ვებსაიტ მითითბადჲარ: „Common Voice https://commonvoice.mozilla.org/“
+citing-sentences-subheader-academic-reference = აკადე́მიურ წყარო̆
 
 ## Question collection ids
 
