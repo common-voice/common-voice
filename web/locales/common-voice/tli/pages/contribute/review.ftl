@@ -1,62 +1,62 @@
 ## REVIEW
 
-sc-review-lang-not-selected = You have not selected any languages. Please go to your <profileLink>Profile</profileLink> to select languages.
+sc-review-lang-not-selected = { "" }
 sc-review-title = tsu natóow weí yóo x̱'atánk
-sc-review-loading = Loading sentences…
-sc-review-select-language = Please select a language to review sentences.
+sc-review-loading = { "" }
+sc-review-select-language = { "" }
 sc-review-no-sentences = Yeedát, tlél ḵustí yées yóo x̱'atánk yáa ḵaa yóo x̱'atángi yís. <addLink>Add more sentences now!</addLink>
 sc-review-form-prompt =
-    .message = Reviewed sentences not submitted, are sure?
-sc-review-form-usage = Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. <strong>Do not forget to submit your review!</strong>
+    .message = { "" }
+sc-review-form-usage = { "" }
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = yéi yadudziḵaayi át: { $sentenceSource }
-sc-review-form-button-reject = Reject
+sc-review-form-button-reject = { "" }
 sc-review-form-button-skip = ḵut nasg̱éex'
-sc-review-form-button-approve = Approve
+sc-review-form-button-approve = { "" }
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = Y
+sc-review-form-button-approve-shortcut = { "" }
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = N
+sc-review-form-button-reject-shortcut = { "" }
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = S
+sc-review-form-button-skip-shortcut = { "" }
 sc-review-form-keyboard-usage-custom = You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip
 sc-review-form-button-submit =
-    .submitText = Finish Review
+    .submitText = { "" }
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] No sentences reviewed.
-        [one] 1 sentence reviewed. Thank you!
-       *[other] { $sentences } sentences reviewed. Thank you!
+        [0] { "" }
+        [one] { "" }
+       *[other] { "" }
     }
-sc-review-form-review-failure = Review could not be saved. Please try again later.
-sc-review-link = Review
+sc-review-form-review-failure = { "" }
+sc-review-link = { "" }
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ Review Criteria
-sc-criteria-title = Review Criteria
-sc-criteria-make-sure = Make sure the sentence meets the following criteria:
-sc-criteria-item-1 = The sentence must be spelled correctly.
-sc-criteria-item-2 = The sentence must be grammatically correct.
-sc-criteria-item-3 = The sentence must be speakable.
-sc-criteria-item-4 = If the sentence meets the criteria, click the &quot;Approve&quot; button on the right.
-sc-criteria-item-5-2 = If the sentence does not meet the above criteria, click the &quot;Reject&quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.
-sc-criteria-item-6 = If you run out of sentences to review, please help us collect more sentences!
+sc-criteria-modal = { "" }
+sc-criteria-title = { "" }
+sc-criteria-make-sure = { "" }
+sc-criteria-item-1 = { "" }
+sc-criteria-item-2 = { "" }
+sc-criteria-item-3 = { "" }
+sc-criteria-item-4 = { "" }
+sc-criteria-item-5-2 = { "" }
+sc-criteria-item-6 = { "" }
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Check <icon></icon> is this a linguistically correct sentence?
-sc-review-rules-title = Does the sentence meet the guidelines?
+sc-review-instruction = { "" }
+sc-review-rules-title = { "" }
 sc-review-empty-state = Yeedát, tlél ḵustí yées yóo x̱'atánk yáa ḵaa yóo x̱'atángi yís
-report-sc-different-language = Different language
-report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
-sentences-fetch-error = An error occurred fetching sentences
-review-error = An error occurred reviewing this sentence
-review-error-rate-limit-exceeded = You're going too fast. Please take a moment to review the sentence to make sure it's correct.
+report-sc-different-language = { "" }
+report-sc-different-language-detail = { "" }
+sentences-fetch-error = { "" }
+review-error = { "" }
+review-error-rate-limit-exceeded = { "" }
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = We're making some big changes
-sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
-sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+sc-redirect-page-title = { "" }
+sc-redirect-page-subtitle-1 = { "" }
+sc-redirect-page-subtitle-2 = { "" }
 # menu item
 review-sentences = tsu natóow weí yóo x̱'atánk

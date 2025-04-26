@@ -95,4 +95,6 @@ contribution-criteria-link = lɩ̀sɩ̀tɩ̀ tɔ̀m wèndì pántàsɩ́ tɛ
 contribution-criteria-page-title = lɩ̀sɩ̀tɩ̀ tɔ̀m wèndì pántàsɩ́ nɛ̀
 contribution-for-example = pɔ̀wɛ̀ sìsé
 contribution-misreadings-title = kàlɩ̀tɩ̀ tɛ̀ yɩ̀zɩ́tɩ̀
+contribution-misreadings-description = ’wèlèsɩ́ tɛ̀ sàɖɩ̀, ɩ̀bá ɩ̀bɛ̀m sìsè mɩ̀dɛ́ lòú wàbà pɩ̀lɩ́ wèmbɩ̀ bámà nà ; pà yɩ̀sɩ̀tɩ̀ cʊ́kʊ̀ wɛ̀nà ɩ̀kɩ̀sɩ̀. <br /> ɩ̀bɛ̀m yɩ̀sɩ̀tɩ̀ wèmbɩ̀ pàŋkàtɩ̀ yèmyèm nà
+contribution-misreadings-description-extended-list-1 = <strong> « kʊ̀rʊ̀m » </strong>fɛ̀yɩ̀ yàà<strong>« - »</strong>lòú kpɔ̀ʊ́ tɛ̀ kɩ̀pázɩ̀yá
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀
