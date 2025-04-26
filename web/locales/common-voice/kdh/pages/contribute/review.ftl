@@ -1,8 +1,8 @@
 ## REVIEW
 
-sc-review-lang-not-selected = mɩ̀tɩ̀lɩ̀sɩ́ kʊ̀nʊ́m nákɩ̀ɖɩ̀.          A REVOIR
+sc-review-lang-not-selected = mɩ̀tɩ̀lɩ̀sɩ́ kʊ̀nʊ́m nákɩ̀ɖɩ̀. ɩ̀zʊ́ʊ́ <profileLink>wèŋkì dɔ́zɩ̀ pàmbɩ̀zɩ̀ sè pàtɩ̀lɩ̀ mɩ̀ nà</profileLink> nɛ̀ ɩ̀lɩ̀zɩ̀ kʊ̀nʊ̀mɩ́nɩ̀
 sc-review-title = ɩ̀bɛ́m tɔ́m pɔ́wà
-sc-review-loading = Tɔ́m pɩ́yà       A REVOIR
+sc-review-loading = Tɔ́m pɔ̀wà yèkìtì
 sc-review-select-language = ɩ̀lɩ́zɩ̀ kʊ̀nʊ́́m nɩ́ ɩ̀bɛ̀m tɔ́m pɔ́wà
 sc-review-no-sentences = Tɔ́m pìɖé nádɩ̀yɛ̀ fɛ̀yɩ́ se pɛ̀bɛ̀m. Mɩ̀mbɩ̀z<addLink> ɩ̀tàsɩ̀ tɔ́m píyà pɩ̀ɖɔɔ́</addLink>
 sc-review-form-prompt =
@@ -13,6 +13,7 @@ sc-review-form-usage = ìdúzìnà núúnì kìdìyùú ɖɔ̀ pìwi
 sc-review-form-source = líɖɩ̀ :{ $sentenceSource }
 sc-review-form-button-reject = kɩ̀sɩ̀tɩ́
 sc-review-form-button-skip = tɛ́ɖɩ̀
+sc-review-form-button-approve = sèrìyá lɩ̀zú
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = O
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
