@@ -47,6 +47,8 @@ report-grammar-or-spelling-detail = tɔ́m pɔ̀ɖɛ̀ wɛ̀nà màɖá yɩ̀
 report-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 report-different-language-detail = pámàá tɔ́m kʊ̀nʊ́m kɩ̀ná kɩ́nɖɩ́ nà wéŋkì màmǝmadɩ̀ nɛ̀ kɩ̀dá
 report-difficult-pronounce = pʊ̀ɖɔ̀ɔ́ kálɛ̀ màtɩ̀ɖɛ̀
+report-difficult-pronounce-detail = tɔ́m nàɖɩ̀rɩ́ yàà tɔ́m pɔ̀wà nàɖɩ̀rɩ́ tɛ̀ kàlɩ̀tɩ̀ jɔ̀̀ɔ́ kálɛ̀ yàà tɛ̀ màtɩ̀rɛ̀ jɔ̀̀ɔ́ kálɛ̀
+report-offensive-speech = tɔ́m járɩ̀tɩ̀
 continue = pàtásɩ̀ pɛ̀ʈɛ́ɛ́
 
 ## Speak & Listen Shortcuts
