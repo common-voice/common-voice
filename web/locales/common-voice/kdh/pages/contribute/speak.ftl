@@ -50,6 +50,10 @@ create-profile-text = mɩ́njàɖɩ́ sìsè mìlòú lààbáárʊ̀w
 thanks-for-voice-toast = mɩ̀nà kóŋkàrì  náá mɩ̀dɛ́ɛ́ lààbáárʊ̀wá nɔ́ɔ́
 thanks-for-voice-toast-error = yɩ̀sɩ́ nàkɩ̀rɩ́ wàzʊ́ sádɩ̀ sɩ̀ pìdìrínà mɩ̀dɛ́ɛ́ lààbáárʊ̀wá nɔ́ɔ́
 first-cta-gender-select-default-option = ɩ̀lɩ̀zɩ̀ wéndì nàkɩ̀rɩ̀
+first-cta-gender-select-help-text =
+    .label = ŋ̀gɩ̀nɩ̀ kɛ̀ mɩ̀njàdɩ́ sìsè ɩ̀wɩ̀lɩ̀ mɩ̀dɛ́ àbàálɩ̀tɩ̀ yàá hàlɩ̀tɩ̀ ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = mɩ̀nà kóŋkàrì nɩ̀ mɩ̀dɛ́ lòú fàádɩ̀ !
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
 
