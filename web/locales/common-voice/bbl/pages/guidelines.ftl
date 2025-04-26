@@ -91,6 +91,8 @@ adding-sentences-subheader-speakable-explanation = ჰ̦ამა́ხეჸ თ
 adding-sentences-subheader-numbers = რიცხვი
 adding-sentences-subheader-numbers-explanation = დაქიჼ ხილ'ო̆, რიცხვი მე ცო ხილ'ულო̆, ჰ̦ალო̆ ხა́ტტარ მე ჭირვეჼ ცო დალო̆. არგარე́ვალა ჰ̦ალო̆ ხა́ტტნუჲში, მაწყ ნიფს ხატტო̆, მაწყ ბუჲნღეშ, მაწყ ცო ხატტმაკალათ.
 adding-sentences-subheader-abbreviations = დაშნი და́ცუშ ა́ლ'არ დუჲჰ̦რელუჩო̆ ა́სუივ ლე მა́რცვლივ
+adding-sentences-subheader-abbreviations-explanation = აბრევიატური: "აშშ" "კმ"...  თელ'ე მე́ ცო ჴმა́რბადო́ლო̆ ვაჲ, შაძლე́ბალა ნიფს ცო ხა́ტტულო̆ ნა́ხვ, ო́ჴუხ გა́რდ, მე მიჩო̆ აბრევიატურეგო მელ'მი ხა́ტტარ დაე́ ო́ბი ვო́მაჸ ნიფსიჼ და.
+adding-sentences-subheader-punctuation = სასვეჼ ლიშნი
 
 ## Question collection ids
 

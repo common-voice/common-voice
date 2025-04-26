@@ -126,3 +126,5 @@ contribution-background-voices-example-1-title = ɖóó lɔ̀n tà fɔ́ndá
 contribution-background-voices-example-1-explanation = ñɔ́kɔ̀nɩ́ɩ́ ? <strong>[nɔ̀ɔ̀ nàkɛ̀rɛ́ wámàtɩ̀]</strong>
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀
 contribution-just-unsure-title = mɩ̀lám sɩ́kà ?
+see-more = <chevron></chevron>ɩ̀wɩ̀lɩ̀ tɔ̀m wàà bààgànáà ɖàbàtà
+see-less = <chevron></chevron>ɩ̀wɩ̀lɩ̀ tɔ̀m wàà bààgànáà cɩ́kɔ́
