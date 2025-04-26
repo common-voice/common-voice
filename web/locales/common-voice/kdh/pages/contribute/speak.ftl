@@ -55,6 +55,8 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = mɩ̀nà kóŋkàrì nɩ̀ mɩ̀dɛ́ lòú fàádɩ̀ !
 second-cta-subtitle-text = nɩ̀ wémbɩ̀ pɩ́ŋwɩ̀lɩ́ sìsè mì nà, mɩ̀mbɩ̀zɩ́ ɩ̀bɛ̀m mɩ̀tɛ̀ɛ́ tɩ̀mɩɖɛ̀ nɩ̀ ɩ̀máá mɩ̀yɩ̀lɛ̀ wèmbá páŋzɩ̀ná lààbáárʊ̀wá lòú làm nà.
+already-have-an-account = mɩ̀wɛ̀nà wèŋkì ɖɔ́zɩ̀ pàmpɩ̀sɩ̀ pàsɩ̀ ñá nàà ?<login>mɩ̀ɩ̀dɩ́rɛ̀</login>
+create-profile-button = wémbɩ̀ pɩ́ŋwɩ̀lɩ́ sìsè mì nà làm
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
 
