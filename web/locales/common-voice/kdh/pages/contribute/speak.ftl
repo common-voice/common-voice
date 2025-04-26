@@ -42,6 +42,7 @@ terms-disagree = mèkìzì
 first-cta-header-text = Mɩ̀nɛ̀ kóŋkàɖɩ́ tɔ́m wàà mɩ́gbɔ̀ɔ́tɩ̀ ’ŋgɛ́ mɩ̀fàɖá nɩ̀ tɩ̀ɖɔ́zɩ̀ !
 first-cta-subtitle-text = mɩ̀zɔ́lɛ́ɛ́ ɩ̀kɛ̀zɩ̀ɖáá nàtɩ̀ɖɩ́ ŋ̀ŋɩ́nɩ́ mɩ́tɛ́ɛ́ màtɩ̀ɖɛ̀ wómbóɖénɛ̀ pʊ̀ɖʊ̀ʊ́ ?
 why-donate = wèŋɖɔ̀zɩ̀ pɔ̀mpɔ̀zɩ́ tɔ́m tɩ̀nɛ̀ ?
+why-donate-explanation-1 = lààbáárʊ̀wá bànà pɛ̀fɛ̀yɩ̀ ɖárɩ̀zà ; mɩ̀mbɩ́zɩ̀ ìsùùrì wɛ̀ á ’mɩ̀zɔ̀lɛ́ nà. sáɖɩ̀ wéndì ɖàndàrɩ́ tɔ̀m wàà, ɖánfáá hìlà màrá-dɩ̀náà tɔ́m wàà, nɛ̀ dàdànlàm sìsé pɛ̀bɛ̀m mɩ̀ náá mɩ̀yɩ̀là nà wéŋkɩ̀ mɩ́ŋyèkìnà tɔ̀m ɛ̃tɛ̀rnɛtɩ̀ ɖɔ́ɔ́zɩ̀ nɛ̀ pɩ̀jɛ̀lɩ̀nɩ̀ dèmòkráfìkì  lààbáárʊ̀wà ɖɔ́zɩ̀ sɩ̀sé ’mɩ̀bɩ́nzɩ̀ yáá àbàálɩ̀tɩ̀ yáá hàlɩ̀tɩ̀
 continue-speaking-button = áyɩ̀ɩ̀ kóŋkàɖɩ̀, ŋkàzɩ̀m màtɩ̀ɖɛ̀
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
