@@ -34,6 +34,7 @@ about-no-votes = ≥ 2 ვარ რე
 about-no-votes-text = მუჟამს მუმახვარებელი "ვარ"-ს ქიმეჩანს ხონარუან ინნაჭარასჷნი, თინა დართუ უკახალე. მაჟიაშა ხოლო ქიმეჩუდა, ინნაჭარა მიდურს ხონარუან ინნაჭარეფიშ საფლეშა.
 about-dataset-new = Common Voice-იშ მუნაჩემეფიშ კრებული
 about-clip-graveyard = ხონარუან ინნაჭარეფიშ საფლე
+about-clip-graveyard-text = ხონარუან ინნაჭარეფიშ საფლეს რე Common Voice-იშ მუნაჩემეფიშ ბაზას ვეგეძინუნ ფერი ინნაჭარეფი. თე საფლეშე კლიპეფიშ გინოჭარუა შეილებუნა.
 about-get-involved = ქუმაკათით
 about-nav-why-common-voice = მუშენი?
 about-nav-how-it-works = მუჭო?
