@@ -11,3 +11,22 @@ why-card-2-text = Obusagiki oburukukiraho oburukukwata ha by'endimi nk'okukozesa
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Obusagiki oburukukiraho obw'endimi ezitaine rundi eziine kopasi enceke or <mark>no text corpus</mark>
 how-spontaneous-speech-works = Orubazo orutateekaniziibwe nkooku ruba
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>Kaguza<mark>
+prompt-bubble-subtitle = Nitwija kukwoleka ekikaguzo rundi ekintu ekiraakuleetereza kugarukamu
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>Garukamu</mark>
+respond-bubble-subtitle = Garukamu omu mulingo ogwa buli kiro otabandize kwecumiitiriza
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Teeka iraka omu buhandiiki</mark>
+transcribe-bubble-subtitle = Handiika ebi orukuhurra omu butambi obw'amaraka
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Kebera</mark>
+check-bubble-subtitle = Kebera orole ebi handiikirwe obu biraaba nibisisana n'ebyo ebiri mu katambi ak'amaraka
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>Data</mark>
+data-bubble-subtitle = Ebitusoroize tubiturukya buli hanyuma y'akasumi
+contact-us = Tuhikirre
+contact-us-title = Nooyetaaga kwetaba mu mulimo gunu rundi kukuragana naitwe?
+contact-us-email = Imeiri: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Oli mu katebe kaitu aka Beta Testing Group akarukukwata amaraka ag'embazo ezitateekaniziibwe?
