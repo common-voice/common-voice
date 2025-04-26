@@ -49,6 +49,10 @@ report-different-language-detail = pámàá tɔ́m kʊ̀nʊ́m kɩ̀ná kɩ�
 report-difficult-pronounce = pʊ̀ɖɔ̀ɔ́ kálɛ̀ màtɩ̀ɖɛ̀
 report-difficult-pronounce-detail = tɔ́m nàɖɩ̀rɩ́ yàà tɔ́m pɔ̀wà nàɖɩ̀rɩ́ tɛ̀ kàlɩ̀tɩ̀ jɔ̀̀ɔ́ kálɛ̀ yàà tɛ̀ màtɩ̀rɛ̀ jɔ̀̀ɔ́ kálɛ̀
 report-offensive-speech = tɔ́m járɩ̀tɩ̀
+report-offensive-speech-detail = kàlímbànɩ̀ yàà tʊ́ɖɩ́ tɔ́m nàbɛ̀rɛ̀ wɛ̀ɛ̀ lónì kúwèlèsìkʊ́ tàá
+report-other-comment =
+    .placeholder = wèndì mɔ̀ŋmɔ́zɩ̀ nà
+success = tɔ́mɩ̀ɖɩ̀ làm wálà
 continue = pàtásɩ̀ pɛ̀ʈɛ́ɛ́
 
 ## Speak & Listen Shortcuts

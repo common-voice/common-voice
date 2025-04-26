@@ -7,6 +7,7 @@ how-does-it-work-title-v2 = მუჭო მუშენს Common Voice?
 ## How does it work section
 
 about-language-req-subtitle = მიდგარენ ითხინს ნინაშ გეძინას.
+about-localization-title = ვებსაიტიშა არდგილიშ მეჩამა
 about-localization-subtitle = ვებსაიტის ტექსტი გინმითანგუ თე ნინაშა.
 about-sentence-collection-title = ზიტყვასქვილეფიშ კოლექცია
 about-sentence-collection-subtitle = ზიტყვასქვილეფი თიშენი იშაყარუ, კათაქ ხონარმაღალო წეკითხანსჷნი.
