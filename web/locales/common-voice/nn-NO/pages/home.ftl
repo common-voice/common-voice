@@ -133,6 +133,7 @@ ask-mozilla-share = Be Mozilla om å dele hendingane dine
 # label for button
 ask-mozilla-share-action = Del arrangementet ditt
 download-contribution-certificate = Last ned bidragsbeviset ditt
+download-contribution-certificate-content = Last ned eit sertifikat for arrangementa dine eller ditt eige dersom du har bidratt til Common Voice — dette ville ikkje ha vore mogleg utan deg!
 # label for button
 download-contribution-certificate-action = Få sertifikatet ditt
 contribute-github = Bidra på Github
