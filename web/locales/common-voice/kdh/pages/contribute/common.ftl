@@ -103,5 +103,7 @@ contribution-misreadings-description-extended-list-3 = tɔ̀m wàà wèmbà 
 contribution-misreadings-description-extended-list-4 = pɛ̃njɛ́m tɔ̀m tɛ̀ kɛ̀tɛ́zɩ̀yá, wèmbì ɖɔ́zɩ̀ nà pɛ́jɛ̀ ɖɑ́zám lòú kpàʊ́
 contribution-misreadings-description-extended-list-5 = ɩ̀kálɩ́ tɔ̀m pɩ̀ɖé tɔ̀m àbòyì
 contribution-misreadings-example-1-title = wèŋkɩ̀ ɖɔ́zɩ̀ pànñɔ́ nɩ̀ pàlɩ́ ɔ̀tɩ̀nátɛ̀rɩ̀ ɖɔ́zɩ̀ nà
+contribution-misreadings-example-2-title = ɖóó lɔ̀n tà tɛ̀tɩ́ kpɩ́ŋɖɛ̀ ɖàlàm-ɖàlàm
 contribution-misreadings-example-2-explanation = [pɩ̀yákènɩ̀ « -náá » tɛ̀tɩ́ kpɩ́ŋ-]
+contribution-misreadings-example-3-title = ɖóó lɔ̀n- tà tɛ̀tɩ́ kpɩ́ŋɖɛ̀ ɖàlàm-ɖàlàm
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀

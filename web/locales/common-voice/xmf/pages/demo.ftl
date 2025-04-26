@@ -6,6 +6,9 @@ demo-welcome-subheader = გიღუნანო ზალამი ქიდ�
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice რე მსოფლიოს უდიდაში, არგამათ ხემიოჭირინაფალი, მიარენინამი ხონარუან მუნაჩემეფიშ კრებული.
+card-button-next = უკულიანი
+card-button-back = უკახალე
 
 ## Demo Account
 
