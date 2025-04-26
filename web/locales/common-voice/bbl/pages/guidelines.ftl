@@ -89,6 +89,8 @@ adding-sentences-subheader-spelling-punctuation-explanation = ორთოგრ
 adding-sentences-subheader-speakable = ატტაჲში̆  ხა́ტტუჲნი̆
 adding-sentences-subheader-speakable-explanation = ჰ̦ამა́ხეჸ თე́ლ'ე̆, მე́ წინადა́დბი ინც ა́მბუჲ ჲო́ჩო̆ მატტავ დგე́ნალა́ლო̆, – და́ხაჸ მე́ ატტაჲში̆ ჰ̦ალო̆ ხა́ტტულო̆ ნა́ხვ. ბაყეჸ და  დუჴნაჲრეჩოე́ ჴეჩჴეჩო̆ დაშნივ ალ'ინო̆ წინადა́დბი თე́ლ'ე̆ შედეგ მიღე́ბადჲაჼ, მა́ დე́წე̆ ვაჲ ცადდალაჼ, მე́ მოხა́ლისინაჲნო̆ ́ ჰა́მბალაჲნ̆ი, ხაჲლზვეჼ  ხილ'ულ̆ო.
 adding-sentences-subheader-numbers = რიცხვი
+adding-sentences-subheader-numbers-explanation = დაქიჼ ხილ'ო̆, რიცხვი მე ცო ხილ'ულო̆, ჰ̦ალო̆ ხა́ტტარ მე ჭირვეჼ ცო დალო̆. არგარე́ვალა ჰ̦ალო̆ ხა́ტტნუჲში, მაწყ ნიფს ხატტო̆, მაწყ ბუჲნღეშ, მაწყ ცო ხატტმაკალათ.
+adding-sentences-subheader-abbreviations = დაშნი და́ცუშ ა́ლ'არ დუჲჰ̦რელუჩო̆ ა́სუივ ლე მა́რცვლივ
 
 ## Question collection ids
 
