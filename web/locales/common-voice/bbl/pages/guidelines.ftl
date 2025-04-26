@@ -93,6 +93,9 @@ adding-sentences-subheader-numbers-explanation = დაქიჼ ხილ'ო̆
 adding-sentences-subheader-abbreviations = დაშნი და́ცუშ ა́ლ'არ დუჲჰ̦რელუჩო̆ ა́სუივ ლე მა́რცვლივ
 adding-sentences-subheader-abbreviations-explanation = აბრევიატური: "აშშ" "კმ"...  თელ'ე მე́ ცო ჴმა́რბადო́ლო̆ ვაჲ, შაძლე́ბალა ნიფს ცო ხა́ტტულო̆ ნა́ხვ, ო́ჴუხ გა́რდ, მე მიჩო̆ აბრევიატურეგო მელ'მი ხა́ტტარ დაე́ ო́ბი ვო́მაჸ ნიფსიჼ და.
 adding-sentences-subheader-punctuation = სასვეჼ ლიშნი
+adding-sentences-subheader-punctuation-explanation = სასვეჼ ლიშნი, ჴე́ნი ლიშჼი, აუცილებელ და́ჰ̦ ბე́დეჼ ცო დე́წე̆ დაწე́რადალაჼ. აჲლ'ჩე ვაჲ: ლე „@“, ლე „#“ ბაყეკი საჭირო̆ ხილ'ულო̆.
+adding-sentences-subheader-special-characters = ჴე́ნი ლიშნია́ჲ უცხ მატტიჼ ა́სუჲაჲ
+adding-sentences-subheader-special-characters-explanation-1 = დაჩო ეჴ მატტიჼ ა́სუჲ ხილ'ო̆ გამოდგო́მალაჲნი̆, ჴეჩო̆ მატტა́ჼ ა́სუჲ ცო ჲე́წე̆ ჴმა́რბადჲაჼ
 
 ## Question collection ids
 
