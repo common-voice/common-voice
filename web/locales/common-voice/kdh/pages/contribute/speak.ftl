@@ -1,4 +1,4 @@
-speak = màtɩ̀ɖɛ́
+speak = màdɩ̀rɛ́
 speak-now = mɩ́mbɩ́zɩ̀ ɩ́màtɩ̀
 speak-subtitle = ɩ́fɑ̀ mɩ̀dɛ́ lòú cʊ̀kɔ̀
 record-cta = ɩ́pázɩ́ kàlɩ̀tɩ̀ kpɔ̀ʊ́
