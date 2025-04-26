@@ -54,6 +54,7 @@ first-cta-gender-select-help-text =
     .label = ŋ̀gɩ̀nɩ̀ kɛ̀ mɩ̀njàdɩ́ sìsè ɩ̀wɩ̀lɩ̀ mɩ̀dɛ́ àbàálɩ̀tɩ̀ yàá hàlɩ̀tɩ̀ ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = mɩ̀nà kóŋkàrì nɩ̀ mɩ̀dɛ́ lòú fàádɩ̀ !
+second-cta-subtitle-text = nɩ̀ wémbɩ̀ pɩ́ŋwɩ̀lɩ́ sìsè mì nà, mɩ̀mbɩ̀zɩ́ ɩ̀bɛ̀m mɩ̀tɛ̀ɛ́ tɩ̀mɩɖɛ̀ nɩ̀ ɩ̀máá mɩ̀yɩ̀lɛ̀ wèmbá páŋzɩ̀ná lààbáárʊ̀wá lòú làm nà.
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
 
