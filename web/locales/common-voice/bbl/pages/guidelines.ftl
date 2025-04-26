@@ -65,6 +65,7 @@ sentence-domain = წინადა́დბეჼ დარგ
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = ჲაჴჴოჼ მნიშვნელობ ჲა ოჴგო, მე́ ვო́მაჸ წინადა́დბი ხილ'ულო̆  ჰ̦ამა́ნეჸ საკუთრებელეჼ </publicDomain>(<cc0></cc0>), და́ხაჸ მე́ Common Voice-ჼ კრე́ბულენ ჲალ'ლალო̆ cc0-ლიცენზია. დაჩოკ ეჰ̦ა́თ ატვირთოდჲებათ წინადა́დებ, მაცმე́ დოსტო́ღრივ ხე́ჸ შუჼ, მე ჲა შუგო გამოყე́ნბეჼ უფლებ.
 
 ## Question collection ids
 
