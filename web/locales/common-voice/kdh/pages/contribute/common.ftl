@@ -54,6 +54,7 @@ report-other-comment =
     .placeholder = wèndì mɔ̀ŋmɔ́zɩ̀ nà
 success = tɔ́mɩ̀ɖɩ̀ làm wálà
 continue = pàtásɩ̀ pɛ̀ʈɛ́ɛ́
+report-success = tɔ̀m gèvèèrìyà wɛ̀ɖɛ̀ màmàm
 
 ## Speak & Listen Shortcuts
 
@@ -69,6 +70,8 @@ shortcut-record-toggle-label = ɛ́gbɑ́ɣ/ɛ́zɩ́ŋ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ɛ̀dázɩ̀ kpáʊ́
 shortcut-discard-ongoing-recording-label = ɛ̀zɔ̀nà kpàʊ́ kɩ̀ná kɩ̀nɩ̀máá làm nɩ̀
+shortcut-submit = yààzʊ̀ʊ̀zɩ̀ɖɛ́ / wèŋkì ɖɔ́zɩ̀ pàñɩ̀kɩ̀ sìsè pɛ̀ɖɛ́ nà
+shortcut-submit-label = ɩ̀dɩ̀ɖɩ́nà/ɩ́yèkìnà tɔ́m wà mɩ́gbɔ́nɛ̀
 request-language-text = mɩ̀dɛ́ kʊ̀nʊ́m fɛ́yɩ̀ nànɩ́
 request-language-button = ɛ̀gɔ̀nɩ̀ kʊ̀nʊ̀m nàkɩ̀ɖɩ̀
 
@@ -87,4 +90,6 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = lɩ̀sɩ̀tɩ̀ tɔ̀m
+contribution-criteria-link = lɩ̀sɩ̀tɩ̀ tɔ̀m wèndì pántàsɩ́ tɛ́ nɩ́dɩ́
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀
