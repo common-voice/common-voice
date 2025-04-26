@@ -75,6 +75,8 @@ citing-sentences-explanation-1 = აუცილებელ ხილ'ო̆ წ
 citing-sentences-subheader-websites = ვებგვე́რდი
 citing-sentences-subheader-websites-explanation = მაკ შუჼ ვებსაიტ მითითბადჲარ: „Common Voice https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = აკადე́მიურ წყარო̆
+citing-sentences-subheader-academic-reference-explanation = მაკ შუჼ მაქ ლა́ტჲოლუ́ჲში̆ მოჰ̦ე́ აკადე́მიურ წყა́რო̆ იშტ: „ Mozilla (2021) Common Voice. მისამართ https://commonvoice.mozilla.org/ (ჰ̦ალო̆ ე́ცრეჼ თა́რიღ 15 სექტემბერ, 2021)“
+citing-sentences-subheader-offline-sources = ვებსივრცეხ დი́ვჰ̦
 
 ## Question collection ids
 
