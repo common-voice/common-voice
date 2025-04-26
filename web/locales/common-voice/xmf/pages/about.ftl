@@ -34,10 +34,12 @@ about-nav-why-common-voice = მუშენი?
 about-nav-how-it-works = მუჭო?
 about-nav-get-involved = ქუმაკათით
 about-nav-how-it-works-2 = მუჭო მუშენს Common Voice?
+about-nav-playbook = ქიგეგით მუჭო ოკო მიღათ მონაწილეობა
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = მუ რე ნინა Common Voice-ის?
 
 ## How do I add a language
 
