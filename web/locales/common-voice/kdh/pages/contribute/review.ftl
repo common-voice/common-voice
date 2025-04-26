@@ -49,7 +49,7 @@ sc-criteria-item-6 = á mʊ́gʊ̀ɖɩ̀ mɩ́vɛ̀yɩ̀nà tɔ́m pɔ̀wà s
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = ɩ̀bɛ́m kàzɔ̀ <icon></icon> sìsé tɔ́m pàwʊ̀ɖɛ̀ pámánɩ̀ kìfúú wémbì kʊ̀nʊ́m tɛ́ màɖà mɔ́mbɔ̀zɩ̀ nɛ̀
 sc-review-rules-title = Tɔ́m bɔ́ɖɛ̀ pámánɩ̀ pùvóó wèmbí kʊ̀nʊ́m tɛ́ máɖá wázɩ́zɩ̀nɛ́ ?
-sc-review-empty-state = Tɔ́m bɔ́ɖɛ̀ néɖéɖè fɛ́yɩ̀ ɖɩ̀ɖɔ̀ sɩ̀ pɛ̀bɛ̃́ŋ ɖɛ́ kʊ̀nʊ́m kɩ̀ná kɩ́dáá
+sc-review-empty-state = Tɔ́m bɔ́ɖɛ̀ néɖéɖè ’fɛ́yɩ̀ ɖɩ̀ɖɔ̀ sɩ̀ pɛ̀bɛ̃́ŋ ɖɛ́ kʊ̀nʊ́m kɩ̀ná kɩ́dáá
 report-sc-different-language = kʊ̀nʊ́m nàkɩ̀ɖɩ̀
 report-sc-different-language-detail = pámáá tɔ́m pɔ́ɖɛ̀ kʊ̀nʊ́m wénŋgì kɩ́nà kɩ́ndɩ́ nà wéŋgì kɩ̀dáá mɛ̀wɛ̀ máŋgàlɩ́ nɛ̀
 sentences-fetch-error = yɩ̀sɩ̀tɩ̀ yɔ́ɔ́ wázʊ́ tɔ́m bʊ́ɖɛ̀ wénɖé mábázɩ̀ pɛ̃́ŋ́ nɛ́ ɖɩ̀dáá

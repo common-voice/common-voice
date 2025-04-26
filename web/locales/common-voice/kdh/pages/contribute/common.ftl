@@ -29,11 +29,15 @@ change-preferences = ɩ̀ñɔ́zɩ̀ wèmbì mʊ̀zɔ̀lɛ́ nà
 login-signup = mɩ̀ɩ̀dɩ́rɩ̀rɛ̀/ ’yɩ̀lɛ̀ màʊ́
 vote-yes = hɛ́ɛ̀ŋ
 vote-no = áyɩ̀
+datasets = bɔ̀wɛ̀ná yɩ́ɖɛ̀ ɖɩ́ŋà
 languages = kʊ̀nʊ̀mɩ́nɩ́
+about = fèfèɖé nàbʊ̀rɔ́
+partner = ɖìvìɖá
 submit-form-action = yèkì
 
 ## Reporting
 
+report = ɩ́féɖɩ̀
 report-title = íyèkì cáɖɩ̀tɩ̀
 report-offensive-language = kàlɩ́mbànɩ́ tɔ́m/tɔ́m tɩ̀tɛ̀
 report-offensive-language-detail = tɔ́m tɩ̀ʈɛ̀ yà kʊ́tʊ̀nɩ̀ wɛ̀ tɔ́m tɩ̀nà tɩ̀tɑ́ɑ́
