@@ -21,6 +21,7 @@ about-dataset-release-title = მუნაჩემეფიშ კრებუ�
 about-dataset-release-subtitle = მუნაჩემეფიშ კრებული 3 თუთაშე ართჷშა გუშმურს.
 about-subscribe-text = გოკონანო Common Voice-წკუმა კონტაქტი გიღუდანინი?
 about-speak = ჩიება
+about-speak-text = მაქიმინალეფი ხონარუან ინნაჭარეფს აკოქიმინუნა შენწიებული ზიტყვასქვილეფიშ კითხირით.
 about-listen-queue = მორჩქილაში რანწკი
 about-listen-queue-text = ხონარუან ინნაჭარეფი, ნამუთ მოჩამილ რე მარჩქილაფარო დო გინაჯინალო.
 about-listen = რჩქილა
