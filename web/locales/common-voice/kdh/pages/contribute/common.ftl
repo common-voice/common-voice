@@ -93,6 +93,7 @@ shortcut-vote-no = n
 contribution-criteria-nav = lɩ̀sɩ̀tɩ̀ tɔ̀m
 contribution-criteria-link = lɩ̀sɩ̀tɩ̀ tɔ̀m wèndì pántàsɩ́ tɛ́ nɩ́dɩ́
 contribution-criteria-page-title = lɩ̀sɩ̀tɩ̀ tɔ̀m wèndì pántàsɩ́ nɛ̀
+contribution-criteria-page-description = ɩ̀nɩ̀ɩ́ wèmbì ɖɔ́zɩ̀ pɔ̀mbɔ́zɩ̀ sìsè ɛ́ɖʊ̀ tàmɔ́ɔ̀ sàdɩ̀ wèŋkì mɩ́nɩ́ɩ́ nɔ́zɩ́ wènzɩ̀ pálɩ̀zɩ̀ nà nɛ̀ ɩ̀lá mɩ̀tɛ́ɛ́  lònɩ́ wàɖáátà !
 contribution-for-example = pɔ̀wɛ̀ sìsé
 contribution-misreadings-title = kàlɩ̀tɩ̀ tɛ̀ yɩ̀zɩ́tɩ̀
 contribution-misreadings-description = ’wèlèsɩ́ tɛ̀ sàɖɩ̀, ɩ̀bá ɩ̀bɛ̀m sìsè mɩ̀dɛ́ lòú wàbà pɩ̀lɩ́ wèmbɩ̀ bámà nà ; pà yɩ̀sɩ̀tɩ̀ cʊ́kʊ̀ wɛ̀nà ɩ̀kɩ̀sɩ̀. <br /> ɩ̀bɛ̀m yɩ̀sɩ̀tɩ̀ wèmbɩ̀ pàŋkàtɩ̀ yèmyèm nà

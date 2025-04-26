@@ -69,10 +69,12 @@ about-playbook-how-add-sentences = მუჭო გევუძინა ზი�
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ღონისძიებეფი
 about-playbook-how-grow-language-content-4 = სოციალური მედია
 
 ## How to validate
 
+about-playbook-how-validate = მუჭო გებგა, მისაღებ რე თუ ვარ ხონარუან ინნაჭარა?
 
 ## How to access dataset
 
@@ -80,6 +82,7 @@ about-playbook-how-access-dataset = მუჭო გიმიბრინუა 
 
 ## How are decisions made
 
+about-playbook-how-project-governance = მი იღენს გინოჭყვიდუეფს თე პროექტის?
 about-playbook-how-project-governance-content-4 = კათაშ ხოლაფა გინოჭყვადუეფიშ მეღებაშ დროს.
 about-playbook-how-project-governance-content-5 = დაფასება დო აღიარება.
 about-playbook-how-project-governance-content-6 = ართმაჟიაშ ანგარიშვალდებულება.
