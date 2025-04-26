@@ -19,6 +19,7 @@ speak-loading-error = ʈàdàbɩ̀zɩ ʈɩ̀hɩ̀ʊ́ tɔ́m wétì sè ʈ�
 record-button-label = íyèlè ʈɩ́gbɑ́ɣ mùlòní
 share-title-new = <bold>ɛ̀sɩ̀nàɖáá</bold> ʈɩhɩ́ʊ lonɩ̀ kɩ̀fàtɩ̀
 keep-track-profile = mɩ̀dɛ́ɛ́ wémbɩ̀ pɩ́ŋwɩ̀lɩ́ sìsè mì nà tɛ́ làm tà nà ɩ̀wɩ̀lɩ̀ mɩ̀dɛ́ɛ́ pɩ̀zɩ̀nda bòdé
+target-segment-first-card = mɩ̀nsɩ̀ná ɖà ɖɛ̀dɛ́ɛ́ kʊ̀nʊ́m kàɖááŋ ŋgɩ̀ ɖɔ́zɩ̀
 target-segment-first-banner = ɛ̀sɩ̀ná ɖá ʈɩ̀jàá Common Voice tɛ́ kʊ̀nʊ́m kàɖɑ́ŋ ŋgɩ̀{ $locale }
 target-segment-add-voice = ɛ̀fà mɩ̀dɛ́ lóú
 target-segment-learn-more = pàtɩ́lɩ́ pɩ́ɖɔ́
