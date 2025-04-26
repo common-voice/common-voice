@@ -49,6 +49,7 @@ continue-speaking-button = áyɩ̀ɩ̀ kóŋkàɖɩ̀, ŋkàzɩ̀m màtɩ̀
 create-profile-text = mɩ́njàɖɩ́ sìsè mìlòú lààbáárʊ̀wá ?<createProfile> ɩ̀lá wémbɩ̀ pɩ́ŋwɩ̀lɩ́ sìsè mì nà</createProfile>
 thanks-for-voice-toast = mɩ̀nà kóŋkàrì  náá mɩ̀dɛ́ɛ́ lààbáárʊ̀wá nɔ́ɔ́
 thanks-for-voice-toast-error = yɩ̀sɩ́ nàkɩ̀rɩ́ wàzʊ́ sádɩ̀ sɩ̀ pìdìrínà mɩ̀dɛ́ɛ́ lààbáárʊ̀wá nɔ́ɔ́
+first-cta-gender-select-default-option = ɩ̀lɩ̀zɩ̀ wéndì nàkɩ̀rɩ̀
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
 
