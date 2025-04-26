@@ -25,6 +25,8 @@ varying-pronunciations-example = ვაჲღეშ დუჲფხი̆ წე 
 varying-pronunciations-tip-1 = მიჩო̆ ნა́ხვ ლე́ოდო̆ დუჲფხონ და́ყე̆ დუ́ფხო̆.
 varying-pronunciations-tip-2 = ქო́კდუფხ ჰ̦ა́მივაჸ იშტ ლე́ოდო̆,  ქაჲრცხი̆ მა́ ლე დუ́ფხო̆ ლე́ვლა, ლე დუჲფხი̆.
 offensive-content-explanation = წინადა́დბი დე́ყყდარეხ ათხ ბჵარკ ლე́ლბო́თხ, მა́ გეჸ უ̂მ ხარც ხილ'ჩე,  ცოჰა́მბალაჲნი̆ წინადა́დებ ბჵარჲეხჩე შუჼ, – ლე ცოა́ღაზ დაჰ̦ თხეჼ <participationGuidelines> ერთობელო ხილ'რეჩო ჴელა́ხ </participationGuidelines> – წკაპ ბა́ჴითათ მოხსე́ნებ პე́პლეხ. იშტაჸ,  მაკ შუჼ თხო́ციჼ დაკე́ჲვშრებადალაჼ მისამა́რთმაქ:<emailFragment>commonvoice@mozilla.com</emailFragment>
+misreadings-explanation-1 = ჲაჴჴო́ჼ მნიშვნელობ ჲა დოშ ნიფს ხა́ტტრეგო. ლარკ ჺე́ფოშ დაკრეშ გიბათ: მოჰ̦ე წე́რალა, უჲშტაჭი́ ლე́ვლა ლე ცო. უარ ა́ლ'ათ, უ̂მ ჩუ ხო́ტტინო̆ და́ჰ̦, ლე ეშუ́ჰ̦, ლე ხარც ლ́ევლა́ჰ̦.
+misreadings-explanation-2 = დუჴ და იშტუჼ ხარცხილ'რი:
 
 ## Sentence collection nav ids
 
