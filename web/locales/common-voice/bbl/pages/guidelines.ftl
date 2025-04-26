@@ -107,6 +107,11 @@ domain-explanation = დარგ ლივ, მენხუჩო̆ სტე�
 
 ## Question collection ids
 
+adding-questions = კითხვი ლატჲარ
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = მოლუჼ ჲეწ ხილ'აჼ ღაზეჼ შეკითხვ?
+what-makes-a-good-question-explanation = ღაზეჼ შეკითხვ საჯარო̆ კრებულენაჲნო̆ ჲეწ ხილ'აჼ:
+what-makes-a-good-question-explanation-criteria-1 = შა́რეშ ხაჸლაჲნი̆ე́ ატტაჲში̆ პა́სუხ ლუჲნი̆
+what-makes-a-good-question-explanation-criteria-2 = ზორაჲში̆ ჰამა́ნაჲნო̆
