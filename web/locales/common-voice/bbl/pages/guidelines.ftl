@@ -102,6 +102,8 @@ adding-sentences-subheader-offensive-content-explanation = ხალაჼხე
 reviewing-sentences-explanation-1 = ესე ლა́რ'ლინო̆ პირბი და́ცოლაშ წკაპ ბა́ჴითათ პე́პლეხ "ჰაჸ".
 reviewing-sentences-explanation-2 = ესე ლა́რ'ლინო̆ პირბი ცო  და́ცოლაშ წკაპ ბა́ჴითათ პე́პლეხ "ცო".
 reviewing-sentences-explanation-3 = ნიფსხოლეხ ეჭვ ჲა́ჰ̦ შუგო, მაკ შუჼ ოჴუხ მაყ ბალ'ანე́ ჴე́ჩო̆ წინადა́დებენმაქ დაჰ̦ დო́ტაჼ
+reviewing-sentences-explanation-4 = დაყყდუჲნი (შემო́წმადუჲნი) წინადა́დბი ჰ̦ალო̆ ჴა́ჩდაჲლჩე დეხო́თხ:  ლა́ტლეთ თხოჼ წი́ნ წინადადბი მე ლახოლ ვაჲ.
+domain-explanation = დარგ ლივ, მენხუჩო̆ სტემახ ჲოლა ამბუჲ წინადადბე. ინც მაკ შუჼ ჩავარდარ:
 
 ## Question collection ids
 
