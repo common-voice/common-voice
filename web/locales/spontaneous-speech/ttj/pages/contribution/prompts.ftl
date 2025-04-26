@@ -1,0 +1,22 @@
+## Prompts page
+
+record-player-header = Kwata iraka ery'okugarukamu kwawe
+mic-access-error = Oine kwikiriza omuzindaro
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+prompt-page-instruction = { $actionType } <micIcon></micIcon>kandi ogarukemu otabandize kuteekereza muno
+no-prompts-message = Orulimi runu tirwine ebirukuleetereza (prompts) omu kasumi kanu.
+error-skipping = Habaireho ensobi obu obaire nooguruka ekireeterezo (prompt) kinu
+error-recording = Habaireho ensobi mu kukwata akatambi
+error-fetching-prompts = Haroho ekisobere omu kuleeta ebirukuleetereza. Yongera olengeho hanyuma.
+error-uploading-response = Habaireho ensobi omu kuhayo ekigarukwamu kyawe
+prompt-submitted-success = Ekigarukwamu kihairweyo kurungi
+prompt-response-deleted-success = Ekigarukwamu kisimwirwe kurungi
+# For the button to delete a response to a prompt
+delete = Simuura
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = Kiheirweyo
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = Hayo byona
+
+## Explainer text (Respond to Prompt)
+

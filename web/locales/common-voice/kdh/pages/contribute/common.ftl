@@ -4,6 +4,11 @@ contribute = sɩ̀náá
 review = pɛ̃́ŋ
 skip = ʈɛ́ɖɩ́
 shortcuts = kɩ̀jɛ̃ŋkʊ̀
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ɖùzɩ́
+       *[other] <bold>{ $count }</bold> ɖùzɩ́
+    }
 goal-help-recording = mʊ̀ɖɔ̀sɩ̀ kɛ̀, Common Voice wátàlá<goalPercentage></goalPercentage> lélé kɩ̀ŋjàdɩ̀ wɩ̀ɖɛ̀dànɩ̀ ná nɩ̀{ $goalValue } màtɩ̀ɖɛ́ sɩ̀ kɩ̀gbɑ̀ɣ nɛ̀
 goal-help-validation = mʊ̀ɖɔ̀sɩ̀ kɛ̀, Common Voice wátàlá<goalPercentage></goalPercentage> lélé kɩ̀ŋjàdɩ̀ wɩ̀ɖɛ̀dànɩ̀ ná nɩ̀{ $goalValue } ŋkɛ́ kɩ́fá mbʊ̀
 contribute-more = màmpɩ̀sɩ̀ màtàzɩ̀ màlà{ $count } pɩ̀cɛ̀sɩ̀
