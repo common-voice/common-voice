@@ -92,4 +92,7 @@ shortcut-vote-no = n
 
 contribution-criteria-nav = lɩ̀sɩ̀tɩ̀ tɔ̀m
 contribution-criteria-link = lɩ̀sɩ̀tɩ̀ tɔ̀m wèndì pántàsɩ́ tɛ́ nɩ́dɩ́
+contribution-criteria-page-title = lɩ̀sɩ̀tɩ̀ tɔ̀m wèndì pántàsɩ́ nɛ̀
+contribution-for-example = pɔ̀wɛ̀ sìsé
+contribution-misreadings-title = kàlɩ̀tɩ̀ tɛ̀ yɩ̀zɩ́tɩ̀
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀
