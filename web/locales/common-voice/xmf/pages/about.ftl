@@ -80,6 +80,8 @@ about-playbook-how-access-dataset = მუჭო გიმიბრინუა 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-6 = ართმაჟიაშ ანგარიშვალდებულება.
+about-playbook-how-project-governance-content-7 = <governanceLink>წეკითხით უმოსი, მუჭო უნჯღვერთ </governanceLink>
 
 ## How is Common Voice funded
 

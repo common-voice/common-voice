@@ -99,4 +99,7 @@ contribution-misreadings-description = ’wèlèsɩ́ tɛ̀ sàɖɩ̀, ɩ̀ba
 contribution-misreadings-description-extended-list-1 = <strong> « kʊ̀rʊ̀m » </strong>fɛ̀yɩ̀ yàà<strong>« - »</strong>lòú kpɔ̀ʊ́ tɛ̀ kɩ̀pázɩ̀yá
 contribution-misreadings-description-extended-list-2 = <strong>« s »</strong> fɛ̀yɩ̀ tɔ̀m tɛ̀ kɛ̀tɛ́zɩ̀yá
 contribution-misreadings-description-extended-list-3 = tɔ̀m wàà wèmbà pɛ̀fɛ̀yɩ́ ɖɔ̀ɔ́zɩ̀ wèmbázɩ̀ tìm, sé « tóóvnúm » ɛ̀lɛ̀ sè pàmà sìsè « tóóvònúm ».
+contribution-misreadings-description-extended-list-4 = pɛ̃njɛ́m tɔ̀m tɛ̀ kɛ̀tɛ́zɩ̀yá, wèmbì ɖɔ́zɩ̀ nà pɛ́jɛ̀ ɖɑ́zám lòú kpàʊ́
+contribution-misreadings-description-extended-list-5 = ɩ̀kálɩ́ tɔ̀m pɩ̀ɖé tɔ̀m àbòyì
+contribution-misreadings-example-1-title = wèŋkɩ̀ ɖɔ́zɩ̀ pànñɔ́ nɩ̀ pàlɩ́ ɔ̀tɩ̀nátɛ̀rɩ̀ ɖɔ́zɩ̀ nà
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀
