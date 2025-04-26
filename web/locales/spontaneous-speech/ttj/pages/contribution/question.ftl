@@ -23,3 +23,6 @@ do-section-guideline-1 = Kozesa empandiika hamu n'amateeka ag'empandiika y'oruli
 do-section-guideline-2 = Komamu ebikaguzo ebirukworoba ebya buli muntu weena asobora kwetegereza.
 do-section-guideline-3 = Rora ngu nibisobora kugarukwamu omu sentensi enke muno.
 do-not-section-title = Otakikora
+do-not-section-guideline-1 = Saba ebintu ebirukurangirra omuntu, nk'amabara rundi ebirukukwata ha bya sente
+do-not-section-guideline-2 = Heereza rundi osabe ebiteekerezo ebitarukuha abantu abandi ekitinisa.
+do-not-section-guideline-3 = Kaguza ebikaguzo ebitanguhire
