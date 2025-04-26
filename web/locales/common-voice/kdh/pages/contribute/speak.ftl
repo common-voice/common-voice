@@ -57,11 +57,17 @@ second-cta-header-text = mɩ̀nà kóŋkàrì nɩ̀ mɩ̀dɛ́ lòú fàa
 second-cta-subtitle-text = nɩ̀ wémbɩ̀ pɩ́ŋwɩ̀lɩ́ sìsè mì nà, mɩ̀mbɩ̀zɩ́ ɩ̀bɛ̀m mɩ̀tɛ̀ɛ́ tɩ̀mɩɖɛ̀ nɩ̀ ɩ̀máá mɩ̀yɩ̀lɛ̀ wèmbá páŋzɩ̀ná lààbáárʊ̀wá lòú làm nà.
 already-have-an-account = mɩ̀wɛ̀nà wèŋkì ɖɔ́zɩ̀ pàmpɩ̀sɩ̀ pàsɩ̀ ñá nàà ?<login>mɩ̀ɩ̀dɩ́rɛ̀</login>
 create-profile-button = wémbɩ̀ pɩ́ŋwɩ̀lɩ́ sìsè mì nà làm
+# IMAGE TAGS
+img-alt-success-checkmark = dɩ̀ɩ̀ɖɩ́ tɛ̀ ñɩ̀kɩ́
 # menu item
-read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
+read-sentences = Tɔ́m pɔ̀wà tɛ̀ kálɩ̀tɩ̀
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = ɩ̀kàlɩ̀ tɔ́m pɔ̀wà <small>(á pɩ́ɩ́là)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = ɩ̀kàlɩ̀ tɔ́m pɔ̀wà, ɩ̀jɔ̀ tɔ́m pɔ̀bɔ́zɩ̀ tɩ̀nà
+read-sentences-menu-item-tooltip = ɩ̀gbɔ́ɔ́ mìlòú sàdɩ́ wèndì mʊ̀wɛ́ɛ́ mɩ́ŋgàlɩ̀ tɔ́m pɔ̀wá mɩ̀dɛ́ɛ́ kʊ̀nʊ́m táá nà
 
 ## MENU ITEM ARIA LABELS
 
