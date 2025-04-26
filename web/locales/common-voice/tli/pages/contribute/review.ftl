@@ -40,3 +40,23 @@ sc-criteria-modal = ⓘ Review Criteria
 sc-criteria-title = Review Criteria
 sc-criteria-make-sure = Make sure the sentence meets the following criteria:
 sc-criteria-item-1 = The sentence must be spelled correctly.
+sc-criteria-item-2 = The sentence must be grammatically correct.
+sc-criteria-item-3 = The sentence must be speakable.
+sc-criteria-item-4 = If the sentence meets the criteria, click the &quot;Approve&quot; button on the right.
+sc-criteria-item-5-2 = If the sentence does not meet the above criteria, click the &quot;Reject&quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.
+sc-criteria-item-6 = If you run out of sentences to review, please help us collect more sentences!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Check <icon></icon> is this a linguistically correct sentence?
+sc-review-rules-title = Does the sentence meet the guidelines?
+sc-review-empty-state = Yeedát, tlél ḵustí yées yóo x̱'atánk yáa ḵaa yóo x̱'atángi yís
+report-sc-different-language = Different language
+report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
+sentences-fetch-error = An error occurred fetching sentences
+review-error = An error occurred reviewing this sentence
+review-error-rate-limit-exceeded = You're going too fast. Please take a moment to review the sentence to make sure it's correct.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = We're making some big changes
+sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
+sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+# menu item
+review-sentences = tsu natóow weí yóo x̱'atánk
