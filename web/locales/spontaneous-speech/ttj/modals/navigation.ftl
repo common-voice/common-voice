@@ -6,3 +6,7 @@ respond = Garukamu
 check = Kebera
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = Teeka iraka omu buhandiiki
+loading = Birimu kwija…
+login-signup = Taahamu/Wehandiikise
+login = Taahamu
+logout = Tuurukama
