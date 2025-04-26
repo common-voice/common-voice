@@ -68,6 +68,7 @@ read-sentences-coming-soon = ɩ̀kàlɩ̀ tɔ́m pɔ̀wà <small>(á pɩ́ɩ�
 
 speak-contribute-menu-tooltip = ɩ̀kàlɩ̀ tɔ́m pɔ̀wà, ɩ̀jɔ̀ tɔ́m pɔ̀bɔ́zɩ̀ tɩ̀nà
 read-sentences-menu-item-tooltip = ɩ̀gbɔ́ɔ́ mìlòú sàdɩ́ wèndì mʊ̀wɛ́ɛ́ mɩ́ŋgàlɩ̀ tɔ́m pɔ̀wá mɩ̀dɛ́ɛ́ kʊ̀nʊ́m táá nà
+answer-questions-menu-item-tooltip = ɩ̀gbɔ́ɔ́ mìlòú sàdɩ́ wèndì mʊ̀wɛ́ɛ́ mùmbùsí tɔ́m pɔ̀pɔ́zɩ̀ nà nɩ̀ ŋ̀gɩ̀nɩ́ pɩ̀nlàm mɩ̀màtɩ̀ mɩ̀kʊ̀nʊ́m nà
 
 ## MENU ITEM ARIA LABELS
 
