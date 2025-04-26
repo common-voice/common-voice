@@ -9,10 +9,11 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ɖùzɩ́
        *[other] <bold>{ $count }</bold> ɖùzɩ́
     }
-goal-help-recording = mʊ̀ɖɔ̀sɩ̀ kɛ̀, Common Voice wátàlá<goalPercentage></goalPercentage> lélé kɩ̀ŋjàdɩ̀ wɩ̀ɖɛ̀dànɩ̀ ná nɩ̀{ $goalValue } màtɩ̀ɖɛ́ sɩ̀ kɩ̀gbɑ̀ɣ nɛ̀
-goal-help-validation = mʊ̀ɖɔ̀sɩ̀ kɛ̀, Common Voice wátàlá<goalPercentage></goalPercentage> lélé kɩ̀ŋjàdɩ̀ wɩ̀ɖɛ̀dànɩ̀ ná nɩ̀{ $goalValue } ŋkɛ́ kɩ́fá mbʊ̀
-contribute-more = màmpɩ̀sɩ̀ màtàzɩ̀ màlà{ $count } pɩ̀cɛ̀sɩ̀
-speak-empty-state = kókùtì ʈɩ̀fɛ́yɩ̀nà tɔ́m wèntí sɩ̀ ʈɩ́kpɑŋtɩ̀ kʊ̀nʊ̀m kɩ̀tànɩ̀ ʈɩ̀ɖɔ́
+goal-help-recording = mʊ̀ɖɔ̀sɩ̀ kɛ̀, Common Voice wátàlá<goalPercentage></goalPercentage> lélé kɩ̀ŋjàdɩ̀ wɩ̀ɖɛ̀dànɩ̀ ná nɩ̀{ $goalValue } màtɩ̀ɖɛ́ sɩ̀ kɩ̀gbɑ̀ɣ nɛ̀ !
+goal-help-validation = mʊ̀ɖɔ̀sɩ̀ kɛ̀, Common Voice wátàlá<goalPercentage></goalPercentage> lélé kɩ̀ŋjàdɩ̀ wɩ̀ɖɛ̀dànɩ̀ ná nɩ̀{ $goalValue } ŋkɛ́ kɩ́fá mbʊ̀ !
+contribute-more = màmpɩ̀sɩ̀ màtàzɩ̀ màlà{ $count } pɩ̀cɛ̀sɩ̀ ?
+speak-empty-state = ɖɩ̀’tɩ̀kùtì ʈɩ̀fɛ́yɩ̀nà tɔ́m wèntí sɩ̀ ʈɩ́mɑ̀tɩ̀ kʊ̀nʊ̀m… kɩ̀tànɩ̀ ʈɩ̀ɖɔ́
+no-sentences-for-variants = pmìmbmìzmì pɩ̀là sìsè mɩ̀dɛ̀ɛ́ fàràndì kʊ̀nʊ́m tɩ̀tàsɩ̀ pɔ̀wɛ̀nà tɔ́m pɔ̀wà ! á múwɛ̀ ’mɩ̀rɔ́zɩ̀, mɩ̀mbɩ̀zɩ́ ɩ̀tàsɩ̀ ɩ̀ñɔ́zɩ̀ mɩ̀dɛ̀ɛ́ wèmbɩ̀ dɔ̀zɩ̀ pàmbɩ̀zɩ́ pànà mɩ̀dɛ̀ kʊ̀nʊ́m tɛ́ tɔ́m pɔ̀wɑ̀
 speak-empty-state-cta = ɛ̀fáá tɔ́m wáá
 speak-loading-error = ʈàdàbɩ̀zɩ ʈɩ̀hɩ̀ʊ́ tɔ́m wétì sè ʈɩ̀màtɩ́ nɛ̀. àpɩ̀tàsɩ̀, ɩ́tàsɩ̀ ɩ̀là
 record-button-label = íyèlè ʈɩ́gbɑ́ɣ mùlòní

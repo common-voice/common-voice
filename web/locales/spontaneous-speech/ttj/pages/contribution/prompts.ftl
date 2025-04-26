@@ -20,3 +20,12 @@ submit-all-button = Hayo byona
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = Yega kukozesa peeji eni
+learn-how-to-use-prompts-explanation = Garukamu ekikusabirwe otabandize kuteekereza muno. Oroole ngu ebigambo byawe tibiri kujuma kandi nibitamu abantu ekitiinisa.
+learn-how-to-use-prompts-guidance = Nyiga <guidanceLink>here</guidanceLink> kwega kukozesa peeji enu
+learn-how-to-use-transcribe = Yega kuta amaraka mu buhandiiki
+learn-how-to-use-transcribe-explanation = Handiika eki kyonyini omuntu eki abalize, n'ebihuuno nka 'um' rundi errr' nuho otaire.
+learn-how-to-use-transcribe-guidance = Nyiga <guidanceLink>here</guidanceLink> kwega kukozesa peeji enu
+learn-how-to-use-check-transcript = Yega kukebera amaraka aga handiikirwe
+learn-how-to-use-check-transcript-explanation = Oine kurora ngu wahandiika buli kigambo hamu n'amaraka amahuuni agali mu katambi k'amaraka.
+learn-how-to-use-check-transcript-guidance = Nyiga <guidanceLink>here</guidanceLink> kwega kukozesa peeji enu
