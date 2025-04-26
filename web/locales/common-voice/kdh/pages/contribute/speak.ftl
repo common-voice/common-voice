@@ -46,6 +46,8 @@ why-donate-explanation-1 = lààbáárʊ̀wá bànà pɛ̀fɛ̀yɩ̀ ɖa�
 why-donate-explanation-2 = sɩ̀ tɛ̀kɩ̀nòlòƒì ɩ̀là tɔ̀mɩ̀ɖɛ̀ kɔ̀zɔ̀ɔ́ páá nɩ̀ pàwènì nà, tɔ̀m wéndì tɩ̀nsɩ̀nà wèmbà pánzɩ̀náá sìsè tɛ̀kɩ̀nòlòƒì ìbònà pɩ̀zɩ̀ndá nà pìmbɔ̀zɩ̀ sìsè pàá kòtòkòlì ɩ̀rɔ̀ wènì. sɩ̀ ɖɩ̀gbɔ́, á ’ɖárɔ̀ wémbà pàŋmàtɩ̀nà nɩ̀ kòtòkòlì tɛ̀ fàrãŋdɩ̀ nàkɩ̀rɩ̀, ŋnámʊ̀ nà tɛ̀kɩ̀nòlòƒì tánlàm tɔ̀m kɔ̀zɔ̀ɔ́ nɛ̀ wémbà pàŋmàtɩ̀nà nɩ̀ kòtòkòlì tɛ̀ fàrãŋdɩ̀ kɩ̀lɛ́ kɩ̀táá.<learnMore> ɩ́tàzɩ̀ ɩ̀tɩ̀lɩ̀ ɖárɩ̀zà tɔ́m wéndì tɩ́nlàm sìsè pànɩ́ kpàyɩ̀kpàyɩ́ nà.</learnMore>
 add-information-button = ɩ́tàzɩ̀ lààbáárʊ̀wá
 continue-speaking-button = áyɩ̀ɩ̀ kóŋkàɖɩ̀, ŋkàzɩ̀m màtɩ̀ɖɛ̀
+create-profile-text = mɩ́njàɖɩ́ sìsè mìlòú lààbáárʊ̀wá ?<createProfile> ɩ̀lá wémbɩ̀ pɩ́ŋwɩ̀lɩ́ sìsè mì nà</createProfile>
+thanks-for-voice-toast = mɩ̀nà kóŋkàrì  náá mɩ̀dɛ́ɛ́ lààbáárʊ̀wá nɔ́ɔ́
 # menu item
 read-sentences = Tɔ́m píyà tɛ̀ kálɩ̀tɩ̀
 
