@@ -10,6 +10,10 @@ sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = ɩ̀tɩ̀rɩ̀nà <icon></icon>sàmáɣ tàà tɔ̀m pɔ̀wà
+sc-bulk-upload-instruction = ɩ́túú mɩ̀tɛ̀ɛ́ tɔ̀m tàkàrá cé yàà <uploadButton>ɩ̀ñʊ̀ʊ́ nɩ̀ ɩ̀tɩ̀rɩ̀nà</uploadButton>
+sc-bulk-upload-instruction-drop = ɩ̀sɩ̀ɩ́ tɔ̀m tàkàrá cé yàa nɩ̀ ɩ̀tɩ̀rɩ̀nà
 try-upload-again-md = ɩ̀tàsɩ̀ ɩ́yèkɩ̀ná
 select-file = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ
 select-file-mobile = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ nɩ̀ ɩ́yèkɩ̀ná
