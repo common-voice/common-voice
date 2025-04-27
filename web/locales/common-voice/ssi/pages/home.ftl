@@ -30,6 +30,8 @@ hours-validated = کلاکیں کی پک تھم کو دؔی رے ہے
 voices-online = اواجاں اٻکے آن لائن
 todays-progress = آج کی ترکی
 help-reach-goal = { $goal } تائیں پُگݨینٚم مھاری ساہیتا کرو
+read-terms-q = کیا تھمُون مھارِِیاں ٻندھِیاں پڑھِیاں ہے؟
+ready-to-record = اپنی اواج دؔان کرنے نتر تِیار ہے؟
 
 ## Account Benefits
 

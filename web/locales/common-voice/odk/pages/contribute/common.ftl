@@ -36,6 +36,7 @@ submit-form-action = جمع ڪراوَڻ
 
 report = رپورٽ
 report-title = رپورٽ جمع ڪرا
+report-ask = تمهِين اي جُملي سُون ڪِسِيا ڏُکيائِيا محسُوس ڪرا ڇوا پلي؟
 report-offensive-language = بيعزتِي هاڙِي ٻولِي
 report-offensive-language-detail = اي جملي ۾ بي ادبي يان بڙي بيعزتِي هاڙِي ٻولِي شامل ڇَي
 report-grammar-or-spelling = گِرامر/ اِملا چِي غلطِي
