@@ -1,5 +1,6 @@
 ## WRITE PAGE
 
+write = لِکا
 sentence =
     .label = جُملا
 new-sentence-rule-3 = صحِيح گرامر اِستعمال ڪرا
