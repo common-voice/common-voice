@@ -35,7 +35,7 @@ small-batch-sentence-submission = جُملون را نِنيان جٿا شامل
 bulk-sentence-submission = وڏا جُملون را جٿا شامل ڪرڻ
 single-sentence = ھيڪلو ۔ ھيڪلِي ۔ ھيڪ
 small-batch-sentence = نِنيو جٿو
-bulk-sentence = وڏو جٿو
+bulk-sentence = موتو جٿو
 sentence-domain-combobox-label = جُملون رو ڊومين
 sentence-domain-select-placeholder = تين ڊومين تائين چونڍ ڪرو (مرضي)
 # Sentence Domain dropdown option
