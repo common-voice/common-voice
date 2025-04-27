@@ -7,6 +7,13 @@ sentence =
 sc-review-write-title = tɔ̀m pɔ̀wà wèmbà sɩ̀ màtàzɩ̀
 sc-review-small-batch-title = ŋ́gɩ̀nɩ̀ pándàzɩ̀ tɔ̀m pɔ̀wà
 contact-us = ɩ̀yáá ɖàà
+add-sentence-success = tɔ̀m pɔ̀ɖɛ̀ tùùzí
+required-field = ɩ̀tɛ̀zɩ̀ fɔ́lʊ́ʊ̀ kɩ̀nà
+single-sentence-submission = tɔ̀m pɔ̀ɖɛ̀ kʊ́ɖʊ̀ḿ yèkìtì
+bulk-sentence-submission = tɔ̀m pɔ̀wà yèkìtì
+single-sentence = tɔ̀m pɔ̀ɖɛ̀ kʊ́ɖʊ̀ḿ
+# Sentence Domain dropdown option
+general = wɛ̀ɛ̀lɩ́
 # Sentence Domain dropdown option
 healthcare = àlàfìà
 sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
