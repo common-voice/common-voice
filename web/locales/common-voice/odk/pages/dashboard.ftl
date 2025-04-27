@@ -38,6 +38,9 @@ finish-editing = پيهڻِي ايڊيٽنگ ختم ڪرا؟
 build-custom-goal = رواجِي مقصد ٺاهوا
 set-a-goal = مقصد سيٽ ڪرا
 cant-decide = فيصلا ڪونهِي هُو سِگھَي؟
+how-many-per-day = بهترين! هر روز گھڻي ڪلپ هُوَي هِتي؟
+how-many-a-week = بهترين! هر هفتي گھڻي ڪلپ هُوَي هِتي؟
+which-goal-type = بهترِين! ڪا تمهِين ٻولڻ، سُڻڻ يان بڙي ڏونهِين ڪرڻ چاهوا ڇَوا؟
 n-clips-pluralized =
     { $count ->
         [one] { $count } ڪِلپ
