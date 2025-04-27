@@ -85,7 +85,9 @@ so = სომალური
 sq = ალბანური
 sr = სერბული
 sv-SE = შვედური
+sva = შონური
 syr = სირიული
+tay = ატაიალური
 tg = ტაჯიკური
 th = ტაილანდური
 tk = თურქმენული
@@ -93,12 +95,36 @@ tr = თურქული
 tt = თათრული
 uby = უბიხური
 uk = უკრაინული
+uz = უზბეკური
+vi = ვიეტნამური
+zh-CN = ჩინური
+zh-HK = ჩინური (ჰონგ-კონგი)
+zh-TW = ჩინური (ტაივანი)
+zu = ზულური
 
 # [/]
 
 
 ## Layout
 
+profile = პროფილი
+help = მეხვარა
+contact = კონტაქტი
+terms = პირობეფი
+cookies = ქუქი-ფაილეფი
+documentation = დოკუმენტაცია
+logout = გუშულა
+donate = შემენწით
+return-to-cv = დართით Common Voice-ის
+email-input =
+    .label = ელფოსტა
+loading = გინმიჭარუ…
+email-opt-in-info-title = ქაკათით Common Voice-იშ ელფოსტაში ბუნას
+indicates-required = (*) შანულენს აუცილებელ ველს
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark> ჩქი მოსაჭირუნა</mark><br/><mark> თქვანი მოხვარა!</mark>
+localization-select =
+    .label = გეიშაგორით ნინა/არდგილი
