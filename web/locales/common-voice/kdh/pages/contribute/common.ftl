@@ -128,6 +128,7 @@ contribution-background-noise-example-1-fixed-title = <strong>[sɔ̀ɔ̀rɩ́tɩ
 contribution-background-noise-example-2-fixed-title = ɖóó lɔ̀n tà fɔ́ndá kpɩ́ŋɖɛ̀ ɖàlàm-ɖàlàm <strong>[kpèzìá]</strong>
 contribution-background-noise-example-2-explanation = [pàtàmbázɩ̀ sɩ̀ pànɩ́ tɔ̀m fɔ̀lʊ́  rɩ́ŋà]
 contribution-background-voices-title = pɩ̀wʊ́rʊ́ lòú
+contribution-background-voices-description-extended = á lòú wɛ̀nɩ̀ màdɩ̀ yàà  kàrɩ́dɩ́, ɩ̀kɩ̀zɩ̀ kɩ̀ á pɩ̀là sìsè tɔ̀m kɩ̀bààrɩ̀rà ɖɩ́ŋɛ̀ fɛ̀yɩ̀ nɩ́dɩ̀
 contribution-background-voices-example-1-title = ɖóó lɔ̀n tà fɔ́ndá kpɩ́ŋnɛ́ ɖàlàm-ɖàlàm. <strong>[kàɖàà nɔ̀ɔ́ wàkàlɩ̀ná]
 contribution-background-voices-example-1-explanation = ñɔ́kɔ̀nɩ́ɩ́ ? <strong>[nɔ̀ɔ̀ nàkɛ̀rɛ́ wámàtɩ̀]</strong>
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀
