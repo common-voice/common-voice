@@ -4,6 +4,9 @@ write = mátɩ̀
 write-instruction = ɩ́tàzɩ̀ <icon></icon>
 sentence =
     .label = tɔ̀m pɔ̀ɖɛ̀
+sc-review-write-title = tɔ̀m pɔ̀wà wèmbà sɩ̀ màtàzɩ̀
+sc-review-small-batch-title = ŋ́gɩ̀nɩ̀ pándàzɩ̀ tɔ̀m pɔ̀wà
+contact-us = ɩ̀yáá ɖàà
 # Sentence Domain dropdown option
 healthcare = àlàfìà
 sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
@@ -17,6 +20,7 @@ sc-bulk-upload-header = ɩ̀tɩ̀rɩ̀nà <icon></icon>sàmáɣ tàà tɔ̀
 sc-bulk-upload-instruction = ɩ́túú mɩ̀tɛ̀ɛ́ tɔ̀m tàkàrá cé yàà <uploadButton>ɩ̀ñʊ̀ʊ́ nɩ̀ ɩ̀tɩ̀rɩ̀nà</uploadButton>
 sc-bulk-upload-instruction-drop = ɩ̀sɩ̀ɩ́ tɔ̀m tàkàrá cé yàa nɩ̀ ɩ̀tɩ̀rɩ̀nà
 bulk-upload-additional-information = á mɩ̀njádɩ̀ ɩ́fà lààb́b́rʊ̀wá pɩ́jɛ̀zɩ̀ tɔ̀m tàkàrá ɖɔ̀ɔ́zɩ̀, ɩ̀yáá ɖàà<emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = á mɩ̀njádɩ̀ ɩ́fà lààb́b́rʊ̀wá pɩ́jɛ̀zɩ̀ tɔ̀m tàkàrá ɖɔ̀ɔ́zɩ̀, tɔm̀ wèntɩ̀ tɩ̀fɛ̀yɩ̀ lénlé lɛ́tɩ̀ wɛ̀ɛ̀ nà, ɩ̀yàà<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again-md = ɩ̀tàsɩ̀ ɩ́yèkɩ̀ná
 select-file = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ
 select-file-mobile = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ nɩ̀ ɩ́yèkɩ̀ná
