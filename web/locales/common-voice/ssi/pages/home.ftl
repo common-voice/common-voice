@@ -39,6 +39,16 @@ x-weeks-short =
         [one] ہپتا
        *[other] ہپتے
     }
+x-months-short =
+    { $count ->
+        [one] { $count }مہینا
+       *[other] { $count }مہینیں
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } ٻرس
+       *[other] { $count } ٻرسیں
+    }
 
 ## Account Benefits
 
