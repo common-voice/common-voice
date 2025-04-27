@@ -7,6 +7,7 @@ sentence =
 # Sentence Domain dropdown option
 healthcare = àlàfìà
 sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
+sentence-variant-select-multiple-variants = kʊ̀nʊ́m tɛ̀ tɔ̀m kɩ̀bázɩ̀á / kʊ̀nʊ́mɩ̀n  ŋdɩ́ndɩ̀
 
 ## BULK SUBMISSION
 
