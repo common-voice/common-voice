@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = رابطي چا فارم
+contact-title = رابطي چَي فارم
 contact-form-name =
     .label = نان
 contact-form-message =
