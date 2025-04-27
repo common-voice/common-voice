@@ -35,10 +35,13 @@ upload-progress-text = pʊ̀wɛ̀ pɩ́ŋɖɛ́ɛ́
 bulk-upload-success-toast = tɔ̀m pɔ̀wà péyèkɩ̀nɛ̀
 upload-more-btn-text = yékɩ̀nà tɔ̀m pɔ̀wà nàbɛ̀rɛ́
 file-too-large = tɔ̀m tàkàrɩ̀sɩ̀ wákɩ̀lɩ́ ɖɔ́mɩ̀nɩ̀̀
+file-too-small = tɔ̀m tàkàrá wàkɩ̀lɩ̀ cʊ̀kɔ̀
 too-many-files = tɔ̀m tàkàrɩ̀sɩ̀ wákɩ̀lɩ́
 
 ## SMALL BATCH SUBMISSION
 
+multiple-sentences-error = mɩ̀tàmbɩ̀zɩ̀ ɩ̀tàsɩ̀ tɔ̀m pɔ̀wà pɔ̀ɖɔ̀ɔ́ sàdɩ̀ wèŋkɩ̀ pèyèkìnà kʊ́ɖʊ̀ḿ nà
+small-batch-sentences-rule-2 = ɩ̀tàzɩ̀ tɔ̀m pɔ̀ɖɛ̀ pà cɛ̀ɛ̀rɔ̀ɔ́ wénkì ɖɔ̀ɔ́zɩ̀
 # menu item
 add-sentences = ɩ́tàzɩ̀ tɔ̀m pɔ̀wà
 
