@@ -51,6 +51,12 @@ create-profile-text = تمهِين معلُومات محفُوظ ڪرڻ چاهو
 thanks-for-voice-toast = تمچي آوازا چِي معلُوماتِي چي ڪاڻ تمچِي مهربانِي
 thanks-for-voice-toast-error = تمچي آوازا چِي معلُومات جمع ڪراوَڻي ۾ هيڪ تقص آتِي گيلا ڇَي۔
 first-cta-gender-select-default-option = اِينهان مُون هيڪ چُونڊا
+first-cta-gender-select-help-text =
+    .label = تمهِين ڪِيون آپڪِي وضاحت ڪرا تہ تمهِين چاڙي ڇَوا يان بڙي مرد؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = آوازا ۾ حِصا گيهڻي چي ڪاڻ تمچِي مهربانِي
+second-cta-subtitle-text = پروفائِيلا سُون تمهِين آپڪا جڪو بِي ڪام ڪرا ڇَوا اوهچ ڏيک سِگھا ڇَوا ائُون آوازا هاڙي ڊيٽائي ۾ مدد ڪرڻي هاڙِا چِي هيڪِي برادرِي سُون ڳنڍ سِگھا ڇَوا۔
+already-have-an-account = اگ ۾ هيڪ اڪائُونٽ ڇَي؟ </login> لاگ اِن </login>
 create-profile-button = پروفائِيل ٺاهوا
 # IMAGE TAGS
 img-alt-success-checkmark = ڪاميابِي چي نِشانِي
@@ -63,6 +69,8 @@ read-sentences-coming-soon = جُملي پڙهڻ <small> (جلدِي آوَڻي 
 
 speak-contribute-menu-tooltip = جُملي پڙهڻ، سوالان چي جواب ڏِيئڻ
 read-sentences-menu-item-tooltip = آپڪا آواز رڪارڊ ڪرا ائُون آپڪِي ٻولِي ۾ جُملي پڙها
+answer-questions-menu-item-tooltip = آپڪِي ٻولِي ۾ سوال ائُون اِشاري چا جواب ڏِتان آپڪي آپا نُون رڪارڊ ڪرا۔
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = ٻولڻي چي اختياران چا مينيُو

@@ -72,9 +72,15 @@ upload-more-btn-text = بڌِيڪ جُملي اَپ لوڊ ڪرا؟
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-2 = هيڪِي لائِينِي ۾ هيڪ جُملا شامل ڪرا
+small-batch-sentences-rule-3 = هيڪ چڪر ”Enter“ يان بڙي ”Return“  دباوَڻي سُون جُملا نُون هيڪِي لائِينِي کن جُدا ڪرا۔
+small-batch-sentences-rule-4 = 1000 جُملي شامل ڪرا
 
 ## MENU ITEM TOOLTIPS
 
 
 ## MENU ITEM ARIA LABELS
 
+review-sentences-menu-item-aria-label = برادرِي چي طرفُون موڪلوڙان جُملان چا جائزا گيهوا
+add-questions-menu-item-aria-label = برادري چي پڙهڻي ائُون جواب ڏِيڻي چي ڪاڻ نوين سوال جمع ڪراوا
+transcribe-audio-menu-item-aria-label = آڊيو رڪارڊنگِي نُون متنا ۾ نقل ڪرا

@@ -1,10 +1,23 @@
 ## Dashboard
 
 your-languages = تمچِيا ٻولِيا
+toward-next-goal = آوَڻي هاڙي مقصدا ڏِسِين
+goal-reached = منزلِي ماڻلِي (منزلِي پر پُجتِي گيلا)
+clips-you-recorded = جڪو ڪِلپ تمهِين رڪارڊ ڪلي هِتي
+clips-you-validated = جڪان ڪِلپان چِي تمهِين تصدِيق ڪلِي ڇَي
+todays-recorded-progress = ڪامن وائِيسا ۾ آج رڪارڊ ڪروڙي ڪِلپس
 stats = انگ اکرين
 awards = انعام
 you = تمهِين
 everyone = هرڪو (هر هيڪ)
+contribution-activity = تعاوَنا چِي سرگرمِي
+top-contributors = بڌِيڪ حِصا گيهڻي هاڙي
+recorded-clips = رڪارڊ ڪروڙي ڪِلپس
+validated-clips = تصدِيق هئوڙي ڪِلپس
+total-approved = پُوري نمُوني سُون منظُور هئوڙا
+overall-accuracy = صحِيح بِچڙوڙَي (مجمُوعِي دُرستگِي)
+set-visibility = مانڇِي visibility مُقرر ڪرا
+visibility-explainer = ها سيٽنگ تمچي ليڊر بورڊا چِي نُمائِشِي نُون ڪنٽرول ڪرَي ڇَي۔ جِڏ لُڪولَي جاهِي، تمچِي ترقِي نِجِي هُوِي۔ اوڇا مطلب ڇَي تمچِي تصوِير، مالڪا چَي نان ائُون ترقِي ليڊر بورڊا پر ظاهر ڪونهِي هُوَي۔ نوٽ ڪرا تہ ليڊر بورڊ ريفريش ۾ مٽاتِي ڀرڻي ۾ منٽ ڪري هِتي۔
 show-ranking = مانڇا درجا ڏِکاڻا
 
 ## Custom Goals
@@ -20,8 +33,11 @@ easy-difficulty = سولَي
 average-difficulty = بِچا ۾
 difficult-difficulty = ڏُکئَي
 pro-difficulty = پيشه ور
+want-to-continue = ڪا تمهِين جارِي راکڻ چاهوا ڇَوا؟
+finish-editing = پيهڻِي ايڊيٽنگ ختم ڪرا؟
 build-custom-goal = رواجِي مقصد ٺاهوا
 set-a-goal = مقصد سيٽ ڪرا
+cant-decide = فيصلا ڪونهِي هُو سِگھَي؟
 n-clips-pluralized =
     { $count ->
         [one] { $count } ڪِلپ
