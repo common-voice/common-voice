@@ -41,6 +41,18 @@ too-many-files = tɔ̀m tàkàrɩ̀sɩ̀ wákɩ̀lɩ́
 ## SMALL BATCH SUBMISSION
 
 multiple-sentences-error = mɩ̀tàmbɩ̀zɩ̀ ɩ̀tàsɩ̀ tɔ̀m pɔ̀wà pɔ̀ɖɔ̀ɔ́ sàdɩ̀ wèŋkɩ̀ pèyèkìnà kʊ́ɖʊ̀ḿ nà
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } pɩ̀ɖɔ́zɩ̀ tɔ̀m pɔ̀ɖɛ̀ tùùzí { $totalSentences }
+       *[other] { $uploadedSentences } pɩ̀ɖɔ́zɩ̀ tɔ̀m pɔ̀wà tùùzí { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $uploadedSentences ->
+        [one] { $uploadedSentences } pɩ̀ɖɔ́zɩ̀ tɔ̀m pɔ̀ɖɛ̀ tùùzí{ $totalSentences }. ɩ̀nɔ́ɔ́ <downloadLink>cé</downloadLink> nɩ̀ ɩ̀tɩ̀rɩ̀nà tɔ̀m pɔ̀wà pìkìzìnà.
+       *[other] { $uploadedSentences } pɩ̀ɖɔ́zɩ̀ tɔ̀m pɔ̀wà tùùzí{ $totalSentences }. ɩ̀nɔ́ɔ́ <downloadLink>cé</downloadLink> nɩ̀ ɩ̀tɩ̀rɩ̀nà tɔ̀m pɔ̀wà pìkìzìnà.
+    }
 small-batch-sentences-rule-2 = ɩ̀tàzɩ̀ tɔ̀m pɔ̀ɖɛ̀ pà cɛ̀ɛ̀rɔ̀ɔ́ wénkì ɖɔ̀ɔ́zɩ̀
 # menu item
 add-sentences = ɩ́tàzɩ̀ tɔ̀m pɔ̀wà
