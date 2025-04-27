@@ -50,7 +50,7 @@ x-years-short =
        *[other] { $count } ٻرسیں
     }
 help-make-dataset = ایک بڑِیا اُونٚچوڑی، جنتا کے توراپ کھُلا ڈیٹا سیٹ ٻݨانٚوݨینٚم مھاری ساہِیتا کرو
-sign-up-account = کھاتا ٻݨانٚوݨیں نتر سین اپ کرو
+sign-up-account = کھاتا ٻݨانٚوݨیں نتر سائن اپ کرو
 email-subscription-title = ای میل اپ ڈیٹا نتر سائن اپ کرو
 
 ## Account Benefits
