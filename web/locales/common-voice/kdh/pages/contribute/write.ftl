@@ -7,6 +7,7 @@ sentence =
 # Sentence Domain dropdown option
 healthcare = àlàfìà
 sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
+sentence-variant-select-placeholder = ɩ̀lɩ̀zɩ́ kʊ̀nʊ́m nàkɩ̀rɩ̀ (pà wéŋkì)
 sentence-variant-select-multiple-variants = kʊ̀nʊ́m tɛ̀ tɔ̀m kɩ̀bázɩ̀á / kʊ̀nʊ́mɩ̀n  ŋdɩ́ndɩ̀
 
 ## BULK SUBMISSION
@@ -15,6 +16,7 @@ sentence-variant-select-multiple-variants = kʊ̀nʊ́m tɛ̀ tɔ̀m kɩ̀báz�
 sc-bulk-upload-header = ɩ̀tɩ̀rɩ̀nà <icon></icon>sàmáɣ tàà tɔ̀m pɔ̀wà
 sc-bulk-upload-instruction = ɩ́túú mɩ̀tɛ̀ɛ́ tɔ̀m tàkàrá cé yàà <uploadButton>ɩ̀ñʊ̀ʊ́ nɩ̀ ɩ̀tɩ̀rɩ̀nà</uploadButton>
 sc-bulk-upload-instruction-drop = ɩ̀sɩ̀ɩ́ tɔ̀m tàkàrá cé yàa nɩ̀ ɩ̀tɩ̀rɩ̀nà
+bulk-upload-additional-information = á mɩ̀njádɩ̀ ɩ́fà lààb́b́rʊ̀wá pɩ́jɛ̀zɩ̀ tɔ̀m tàkàrá ɖɔ̀ɔ́zɩ̀, ɩ̀yáá ɖàà<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again-md = ɩ̀tàsɩ̀ ɩ́yèkɩ̀ná
 select-file = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ
 select-file-mobile = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ nɩ̀ ɩ́yèkɩ̀ná
