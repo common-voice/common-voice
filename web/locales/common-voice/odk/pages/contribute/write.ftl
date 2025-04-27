@@ -57,6 +57,18 @@ try-upload-again = آپڪِي فائِيلِي نُون اِٺي ڇڪتِي بڙ
 try-upload-again-md = بڙتِي اپلوڊ ڪرڻي چي ڪوشش ڪرا
 select-file = فائِيل چُونڊا
 select-file-mobile = اَپلوڊ ڪرڻِ ڪاڻ فائِيل چُونڊا
+accepted-files = قبُول هُئوڙِي فائِيلِي چي قِسم: رُگَي tsv.
+minimum-sentences = گھٽا ۾ گھٽ فائِيلِي ۾  1000 جُملي هُوِي
+maximum-file-size = گھٽا گھٽ ۾ فائِيلِي چا سائِز MB 25 هُوَي
+what-needs-to-be-in-file = مانڇِي فائِيلِي ۾ ڪا هُوَڻ کپَي؟
+what-needs-to-be-in-file-explanation = مهربانِي ڪتِي امچا ٽيمپليٽ چيڪ ڪرا <templateFileLink>  ائُون (جمع ڪراوَڻي هاڙي چي طرفُون اصل ڪاما چِي موڪل CCO) تمچي جُملي ڪاپِي نہ هُئوڙي هُوِي۔ </templateFileLink> گرامرِي چي حسابا سُون صاف، صحِيح ائُون پڙهڻي ۾ سولي هُوَس۔ جمع هُئوڙان جُملان نُون پڙهڻي ۾ لڳ ڀڳ 10-15 سيڪنڊ لاگڻ کَپس ائُون انگ، جائِز اِسم ائُون خاص اکرين شامل ڪرڻي کن پاسا ڪرڻ کپَي۔
+upload-progress-text = اَپ لوڊ جارِي ڇَي۔۔۔۔۔۔
+sc-bulk-submit-confirm = مين تصدِيق ڪرَين ڇَين تہ ويهچ جُملي عوامِي ڊومينا ۾  هِتي <wikipediaLink>۔ ائُون مُنُون ويهچ اَپ لوڊ ڪرڻي چِي موڪل ڇَي </wikipediaLink>۔
+bulk-upload-success-toast = گھڻِي تعدادِي ۾ جُملي اَپلوڊ ڪلي گيلي
+bulk-upload-failed-toast = اَپلوڊ ناڪام هُلَي، مهربانِي ڪتِي بڙتِي ڪوشش ڪرا۔
+bulk-submission-success-header = مدد ڪرڻي چي ڪاڻ تمچِي مهربانِي جو تمهِين گھڻِي تعدادِي ۾ جمع ڪرالي۔
+bulk-submission-success-subheader = تمهِين ڪامن وائِيسا ۾ جُملان چي مقصدان ۾ پُجڻي تاڻِين امچِي هر روز مدد ڪرا ڇَوا۔
+upload-more-btn-text = بڌِيڪ جُملي اَپ لوڊ ڪرا؟
 
 ## SMALL BATCH SUBMISSION
 
