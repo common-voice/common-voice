@@ -125,6 +125,7 @@ action-items-section-subtitle = ڪوئي بي منک تيڪسٽ آئين اسپ�
 scripted-card-header = اسڪرپٽ هووڙآ تڪرير
 scripted-card-content = آپيري ٻولي مين جملآ بلند آوآزي سون پڙهو آئين دنيآ مين سب سون وڌيڪ متنوه آوآمي شرڪتي وآڙي تڪرير ڊيٽآ سيٽ مين هيسو لو
 spontaneous-card-header = بي اکتيآري تڪرير
+spontaneous-card-content = نآميآتي ،ٻولي وآڙي هوآلي سآرو ڊيٽآ سيٽ ٺآئي سآرو ايشآري رو جوآب ڏئو ۔ پهلي  زبآني ٻولي سآرو آڇي۔
 language-text-card-header = ٻولي رو موآد
 add-text = لڦز جمآ ڪرو
 
