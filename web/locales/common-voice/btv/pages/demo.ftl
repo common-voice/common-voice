@@ -18,9 +18,14 @@ demo-account = اکاونٹ
 ## Demo Account
 
 demo-account-card-header = حصہ گھنے سو دن اکاونٹ ھوں ضروری نتھو،اگرچہ مدد گار ھواں
+demo-account-card-body = سیئز طرفے بے فائدیوں سو خاکیی پیش گرہ تھہ آ واضحہ گرہ تھہ چہ بے کشک معلومات عام گرہ تھہ اپئیں ڈیوائس رے څھے دیتیئل لنک سو استعمال گر
+demo-account-enter-email =
+    .label = ای میل داخل گر سائن اپ لنک ڇئی سو دَن
+demo-account-sign-up = سائن اپ لنک ڇئی
 
 ## Demo Contribute
 
+demo-contribute-card-header = اپئیں اواز شامل گرے سو شؤویں سو دن تیار ھوں
 
 ## Demo Dashboard
 
