@@ -67,9 +67,15 @@ username-email-not-demographic = تمآرو سآرڦ نآم آئين اي ميل
 
 ## Landing
 
+welcome-staff = اسٽآڦ { $company } بلي ڪرين آئي
+help-contribute = تم مدد ڪر سڪو ڇو ايڪ متنوه ،کولوڙآ سورس ڊيٽآ سيٽ ٺآئي سآرو ايڪ آم وآئيس پروڦآئيل ٺآن آئينٚ آپيرو آوآز بهڙو ڪرو
+login-company = اي ميلي سون { $company } لآگ ان ڪرو ،سآئن اپ ڪرو
+profile-not-required = هيٚسو ۮي سآرو کآتو هوڻو زروريٚ ڪونيٚ جيٚستآئيٚنٚ او مدد ڪري ڇي
+read-more-about = همآري بآري مين پنآ پر وڌيڪ پڙهو
 
 ## NAV ITEMS
 
+answer-questions = سوآلي رو جوآب ڏئو
 
 ## MENU ITEMS TOOLTIPS
 
