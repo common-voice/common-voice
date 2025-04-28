@@ -56,6 +56,7 @@ email-subscription-title-new = سادھارݨ اواج سماچار پتر، ل�
 
 ## Account Benefits
 
+benefits = لابھ
 
 ## What's public
 
