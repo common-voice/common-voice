@@ -85,13 +85,20 @@ transcribe-audio-coming-soon = جلدي آرو ڇي <small>نڪلي رو جآئ�
 transcribe-audio = آڊيو نڪل ڪرو
 press-and-stories = پريس آئين ڪهآڻي
 community-and-languages = برآدري آئين ٻولي
+about-us = همآري ري بآري مين
+scripted-speech = ليکوڙي تڪرير
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ڀآئيوآري ،پريس آئين ڪهآڻي ،برآدري ، ٻولي
+partnerships-menu-item-tooltip = دنيآ بهر مين ڪآمن وآئيس ري همآيت ڪري وآڙي تنزيمي ني ڊونڊو
+press-and-stories-menu-item-tooltip = ڪآمن وآئس ري ڪهآڻي ، اپڊيشن آئين ميڊيآ ڪوريج پڙهو
+community-and-languages-menu-item-tooltip = همآري برآدري سون ميلوڙآ آئين سپورٽ هووڙي ٻولي ۮيکو
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = ڪآمن وآئس سون ڀآئيوآڙي بآبت سيکو
+press-and-stories-menu-item-aria-label = ڪآمن وآئسي سون ميلوڙآ پريس رليز آئين ڪهآڻيون تآئين رسڻو هآسيل ڪرو
 
 ## NEW HOME PAGE KEYS
 
