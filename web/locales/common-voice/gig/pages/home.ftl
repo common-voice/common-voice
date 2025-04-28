@@ -146,9 +146,19 @@ ask-mozilla-share-content = ڪآئي تمآ ڪني ڪو اڳي وآڙو يآ آ�
 # label for button
 ask-mozilla-share-action = آپير ڪلپ ويرائو
 download-contribution-certificate = ڊآئون لوڊ ڪرو آپيرو تهآون سرتيڦيڪٽ
+download-contribution-certificate-content = جيڪۮي تم ڪآمن وآئسي مين هيسو ليندي ڇو تو آپيري پروگرآمي سآرو يآ آپي سآرو ايڪ سرٽيڦڪيٽ ڊآئونلوڊ ڪرو ، او تمآري سوآئي ممڪين ڪوني هووي ۔
+# label for button
+download-contribution-certificate-action = آپيرو سرٽيڦڪيٽ هآسول ڪرو
+contribute-github = GitHub پر تهآون ڪرو
+contribute-github-content = اي منسوبو تمآ جسي منکي سون ايلآوآ ممڪين ڪوني 🎉ڪآمن وآئس سون بهڙي هوئي ري ڪترآئي تريڪآ ڇي ۔تم ني هيسو لي سآرو ڪوڊنگ ڪري ري زرورت ڪوني۔
+# label for button
+contribute-github-action = GitHub پر تهآون ڪرو
 
 ## Featured section
 
+featured-section-title = مين بهڙي هوڻو
+# icon is an arrow that points downwards
+download-press-pack = همآ سون پريس پيڪ ڊآئون لوڊ ڪرو <icon></icon>
 
 ## Developers section
 
