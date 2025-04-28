@@ -182,3 +182,5 @@ press-and-stories-link = پريس آئين ڪهآڻي
 ## Partner section
 
 partner-section-title = همآ سون ميلو
+# icon is an arrow that points to the right
+get-in-touch-button = رآبتي مين رهو

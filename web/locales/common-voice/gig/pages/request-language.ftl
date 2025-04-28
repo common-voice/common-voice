@@ -23,3 +23,4 @@ request-for-spontaneous-speech-toggle = بي سآکته تڪريري ري درڪ
 need-help-deciding-platform = ڪسي چونڊي مين ڦيسلو ڪري مين مددي ري زرورت ڇي۔
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong> اسڪرپٽ هوڙآ تڪرير</strong> روآيتي توري پر جيڪو تم آم آوآزي ري نآمي سون جآڻو ڇو او ڇي ۔جٺي تم آپيري ٻولي مين جملآ بلند آوآزي سون پڙ سڪو ڇي۔
+need-help-deciding-platform-explanation-3 = جڏي تم ني پليٽ ڦآرمي پر  ڌيون هسي مين آپري ٻولي  نزر نآ  آوي تو ڌيون چونڊو۔
