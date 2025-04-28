@@ -172,6 +172,7 @@ contribution-background-noise-description =
 contribution-background-noise-description-extended =
     gbo ke tetel yah mu jon nǝ kǝlayah ɓe ,wǝ 
     ɓuu kǝlahle wala  ko ɓu faa ah tuu dan nǝ fan ma sãã ahra
+contribution-background-noise-example-1-fixed-title = <strong>[ɓan fuŋ fane]</strong> <strong>[tǝhele]</strong>
 contribution-background-noise-example-2-fixed-title =
     fa ɓal ma tã mai mu djǝr dajǝwǝ ma giŋri 
     <strong>[tǝhele]</strong>zahnen cee ɓora

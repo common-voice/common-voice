@@ -9,8 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ჩანაწერი
        *[other] <bold>{ $count }</bold> ჩანაწერი
     }
-goal-help-recording = თქვენი დახმარებით Common Voice-ის დღიური მიზნის, { $goalValue } ჩანაწერის <goalPercentage></goalPercentage> შესრულდა!
-goal-help-validation = თქვენი დახმარებით Common Voice-ის დღიური მიზნის, { $goalValue } შემოწმების <goalPercentage></goalPercentage> შესრულდა!
+goal-help-recording = თქვენი დახმარებით Common Voice აღწევს დღიური მიზნის, ანუ { $goalValue } ჩანაწერის <goalPercentage></goalPercentage>-ს!
+goal-help-validation = თქვენი დახმარებით Common Voice აღწევს დღიური მიზნის, ანუ { $goalValue } შემოწმების <goalPercentage></goalPercentage>-ს!
 contribute-more = მზად ხართ შეასრულოთ კიდევ { $count }?
 speak-empty-state = ჩასაწერი წინადადებები ამოიწურა ამ ენისთვის...
 no-sentences-for-variants = ენის შერჩეული ნაირსახეობისთვის შესაძლოა, ამოწურული იყოს წინადადებები! თუ თქვენთვის მოუხერხებელი არ იქნება, შეგიძლიათ შეცვალოთ პარამეტრები, რომ სხვა ნაირსახეობის წინადადებებიც იხილოთ ამავე ენიდან.

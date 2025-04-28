@@ -20,6 +20,9 @@ sc-review-form-button-approve-shortcut = y
 sc-review-form-button-reject-shortcut = n
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = s
+sc-review-form-keyboard-usage-custom = Weshiilima itumia funguo sa keybod: { sc-review-form-button-approve-shortcut } kwa loli,{ sc-review-form-button-reject-shortcut } i lyaa,{ sc-review-form-button-reject-shortcut } toola see { sc-review-form-button-skip-shortcut } itoola
+sc-review-form-button-submit =
+    .submitText = uulya Marya
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =

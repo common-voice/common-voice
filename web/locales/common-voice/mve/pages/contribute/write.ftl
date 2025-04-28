@@ -7,10 +7,10 @@ sentence =
     .label = جُملو
 sentence-input-placeholder = آپرو عوامي ڊومين رو جُملو ايٿ شامل ڪرو
 small-batch-sentence-input-placeholder = ٿونرا عوامِي ڊومين را جملا ايٿ شامل ڪرو
-citation-input-placeholder = ٿونرََي ڏيِنوڙَي جُمليَ رو حوالو ڏيو (ضرُوري ھوئيَ تو)
+citation-input-placeholder = ٿونرَي ڏيِنوڙَي جُمليَ رو حوالو ڏيو (ضرُوري ھوئيَ تو)
 citation =
     .label = حوالو
-sc-write-submit-confirm = ھون ايئيَ وات رِِي تصديق ڪرون ھون ڪہ اَي جُملو  <wikipediaLink> عوامي ڊومين ھيَ </wikipediaLink> ھان ميھ ڪوڊِي اجازت ھيَ ڪہ ھون ايئيَ نيَ اپ لوڊ ڪرون
+sc-write-submit-confirm = ھون ايئيَ وات رِي تصديق ڪرون ھون ڪہ اَي جُملو  <wikipediaLink> عوامي ڊومين ھيَ </wikipediaLink> ھان ميھ ڪوڊِي اجازت ھيَ ڪہ ھون ايئيَ نيَ اپ لوڊ ڪرون
 sc-review-write-title = ڪيھڙا جُملا ھُون شامل ڪرَي ݾگون ھون؟
 sc-review-small-batch-title = وڌيڪ جُملا ڪونڪر شامل ھوئيَ ݾگيَ ھيَ
 new-sentence-rule-1 = <noCopyright> ڪو ڪاپِي رائٽ يا مِلڪيت را حق ڪونِي </noCopyright> ڪو پابندِي ڪونِي (<cc0>cc-0</cc0>)
@@ -23,7 +23,7 @@ new-sentence-rule-7 = ٺيڪ حوالو شامل ڪرو
 new-sentence-rule-8 = فطرِي ھانَ ٻول چال (جُملو پڙھڻ ۾ سولو ھوڻ کپيَ)
 login-instruction-multiple-sentences = <loginLink> لاگ ان <loginLink> يا <loginLink> سائن اپ <loginLink> وڌيڪ جُملا شامل ڪرو
 how-to-cite = ھوُن ڪونڪر حوالو ڏيون
-how-to-cite-explanation-bold = يو آر ايل لِنڪ يا ڪام رَي پورَي نوم ڀيڙو حوالو ڏيو
+how-to-cite-explanation-bold = يو آر ايل لِنڪ يا ڪوم رَي پورَي نوم ڀيڙو حوالو ڏيو
 how-to-cite-explanation = جيَ اَي ٿونرا آپ را آکر ھيَ تو رُگو ڪھو  <italicizedText> آپرو حوالو </italicizedText> ۔ مھونيَ اَي خبر ھوڻ ضرُوري ھيَ ڪہ ٿونيَ اَي جوڻ ڪيٿون مِلي ھيَ تاڪہ مھيَ جوئيَ ݾگون ڪہ اَي عوامي ڊومين ھيَ ھانَ ڪاپِي رائٺ رِي ڪو پابندي ڪونھي لاگو ھوئيَ ھيَ حوالون رَي بارَي ۾ وڌيڪ جوڻڻ ھارو مھورو <guidelinesLink> ھيِکاڻ آݪيَ پنَي نيَ </guidelinesLink> جوئو</guidelinesLink>۔
 guidelines = ھيکڻ را اصول
 contact-us = مھون ھون رابطو ڪرو
@@ -35,7 +35,7 @@ small-batch-sentence-submission = جُملون را نِنيان جٿا شامل
 bulk-sentence-submission = وڏا جُملون را جٿا شامل ڪرڻ
 single-sentence = ھيڪلو ۔ ھيڪلِي ۔ ھيڪ
 small-batch-sentence = نِنيو جٿو
-bulk-sentence = وڏو جٿو
+bulk-sentence = موتو جٿو
 sentence-domain-combobox-label = جُملون رو ڊومين
 sentence-domain-select-placeholder = تين ڊومين تائين چونڍ ڪرو (مرضي)
 # Sentence Domain dropdown option
@@ -49,7 +49,7 @@ service_retail = ڪوم ڪار ھان ويڪرو
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
-healthcare = صحت رِِي ساݪ سنڀاݪ
+healthcare = صحت رِي ساݪ سنڀاݪ
 # Sentence Domain dropdown option
 history_law_government = تاريخ، قانون ھان سرڪار
 # Sentence Domain dropdown option
@@ -148,9 +148,9 @@ add-sentences = جُملا شامل ڪرو
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جُملا شامل ڪرو ھان جائزو ليو، سوال شامل ڪرو، آڊيو رِِي نقل ڪرو
-add-sentences-menu-item-tooltip = آپرِِي ٻولِي ۾ جُملا شامل ڪرو
-review-sentences-menu-item-tooltip = آپرِِي ٻولِي ۾ جُملون رو جائزو ليو
+write-contribute-menu-tooltip = جُملا شامل ڪرو ھان جائزو ليو، سوال شامل ڪرو، آڊيو رِي نقل ڪرو
+add-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جُملا شامل ڪرو
+review-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جُملون رو جائزو ليو
 add-questions-menu-item-tooltip = آپرِي ٻولِي ۾ سوال شامل ڪرو
 transcribe-audio-menu-item-tooltip = آپرِي ٻولِي ۾ آڊيو رِي نقل ڪرو
 

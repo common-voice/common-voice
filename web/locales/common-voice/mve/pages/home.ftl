@@ -146,7 +146,7 @@ ask-mozilla-share-content = ڪِي ٿون ڪوڊِي ڪو پيلوڪو يا آڻ
 # label for button
 ask-mozilla-share-action = آپرا واقعا ھڻائو
 download-contribution-certificate = آپرِي شراڪت را سرٽيفڪيٽ ڊائولوڊ ڪرو
-download-contribution-certificate-content = جيَ ٿيَ ڪام وائس ۾ حصو ليو ھي تو آپريَ پروگرامون ھارو يا آپ ھارو ھيڪ سرٽيفيٽ ڊائون لوڊ ڪرو—اي ٿونريَ سوا ممڪن ڪوني ھوئيَ!
+download-contribution-certificate-content = جيَ ٿيَ ڪامن وائس ۾ حصو ليو ھي تو آپريَ پروگرامون ھارو يا آپ ھارو ھيڪ سرٽيفيٽ ڊائون لوڊ ڪرو—اي ٿونريَ سوا ممڪن ڪوني ھوئيَ!
 # label for button
 download-contribution-certificate-action = آپرو سرٽيفڪيٽ ليو
 contribute-github = گِٽ ھب تيَ شراڪت ڪرو

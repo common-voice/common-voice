@@ -21,6 +21,7 @@ data-bubble-subtitle = Romoherakuã meme mba’ekuaarã aty
 contact-us = Eñe’ẽ orendive
 contact-us-title = ¿Eikesépa orendive ko apopyrépe térã eñemoirũta orendive?
 contact-us-email = Ñanduti veve: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = ¿Reiméma ore aty Beta pe Common Voice Apopyrã Ñe’ẽ Jeheguíva ryepýpe?
 signup-input-placeholder = Emoinge ne ñanduti veve
 signup-button-value = Embou juajuha che ñanduti vevépe
 footer-text-privacy = <privacyLink>Ñemigua</privacyLink>

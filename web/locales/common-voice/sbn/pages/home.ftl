@@ -88,16 +88,22 @@ transcribe-audio = آڊيٚو کي لکو
 press-and-stories = اکبآر ائيٚݩ آکهآڻيٚوݩ
 community-and-languages = برآدريٚ ائيٚݩ ٻوليٚ
 coming-soon = جلديٚ آڻ وآريٚ اهي
+about-us = اسآݩ ري باري ميݩ
+scripted-speech = لکل تڪريٚر
+spontaneous-speech = بي سآکتآ تڪريٚر
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = هسيدآريٚ، اکبآر ائيٚݩ آکهآڻيوݩ، برآدريٚ ائيٚݩ ٻوليٚ
+about-us-menu-item-tooltip = ڪآمن وآئيٚس ري پويآݩ ڪم ڪرڻ وآرآݩ ائيٚݩ اُئي ري مڪسد ري بآري ميݩ سکو
+about-us-menu-item-aria-label = اسآݩ ري باري ميݩ آپشن مينيو
 partnerships-menu-item-tooltip = هسيدآر اسآݩ ڀيڙآ
 press-and-stories-menu-item-tooltip = آئو اسآݩ ري ولوٚگ تي ائيٚݩ اسآݩ ري بآري ميݩ لکو۔
 community-and-languages-menu-item-tooltip = کُلي سمجھآئو ٻوليآݩ ائيٚݩ برآدريآݩ ائيٚݩ ڪآمن وآئيٚس ري بآري ميݩ
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = آپشن مينيو ري بآري ميݩ
 partnerships-menu-item-aria-label = سکو هيسدآريٚ ڪآمن وآئيٚس سآݩ ري بآري ميݩ
 press-and-stories-menu-item-aria-label = اجآزت ڏيڻ لآ پريس بٽڻ دٻآئو ڇڏڻ لآ ائيٚݩ آکهآڻيوݩ ڪآمن وآئيٚس ري متآبڪ
 community-and-languages-menu-item-aria-label = ڪآمن وآئيٚس ريٚ مدت سآنٚ ڪميٚونٽيٚ ائيٚنٚ ٻوليآنٚ کي لنٚڀو
