@@ -13,6 +13,7 @@ required-field = ɩ̀tɛ̀zɩ̀ fɔ́lʊ́ʊ̀ kɩ̀nà
 single-sentence-submission = tɔ̀m pɔ̀ɖɛ̀ kʊ́ɖʊ̀ḿ yèkìtì
 bulk-sentence-submission = tɔ̀m pɔ̀wà yèkìtì
 single-sentence = tɔ̀m pɔ̀ɖɛ̀ kʊ́ɖʊ̀ḿ
+sentence-domain-select-placeholder = ɩ̀lɩ̀zɩ̀ pɩ̀tàlɩ́ fàrándɩ̀ wàà nòòdòzò
 # Sentence Domain dropdown option
 general = wɛ̀ɛ̀lɩ́
 # Sentence Domain dropdown option
@@ -40,6 +41,7 @@ select-file-mobile = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ nɩ̀ ɩ́yèkɩ�
 upload-progress-text = pʊ̀wɛ̀ pɩ́ŋɖɛ́ɛ́
 bulk-upload-success-toast = tɔ̀m pɔ̀wà péyèkɩ̀nɛ̀
 upload-more-btn-text = yékɩ̀nà tɔ̀m pɔ̀wà nàbɛ̀rɛ́
+file-invalid-type = Tɔ̀m tàkàrà wèŋkà pàtànlànà ná
 file-too-large = tɔ̀m tàkàrɩ̀sɩ̀ wákɩ̀lɩ́ ɖɔ́mɩ̀nɩ̀̀
 file-too-small = tɔ̀m tàkàrá wàkɩ̀lɩ̀ cʊ̀kɔ̀
 too-many-files = tɔ̀m tàkàrɩ̀sɩ̀ wákɩ̀lɩ́
