@@ -60,6 +60,8 @@ contact-common-voice = عام اواز سو ٹیم مِل رابطہ گر
 public-domain = عوامی احاطہ کار
 citing-sentences = جملیوں سو حوالہ دے رے
 adding-sentences = جملے شامل گرو
+reviewing-sentences = جملیوں سو نظر ثانی گرو
+sentence-domain = جملہ سو احاطہ
 
 ## Sentence collection sidebar content
 
