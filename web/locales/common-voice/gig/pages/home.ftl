@@ -127,10 +127,12 @@ scripted-card-content = آپيري ٻولي مين جملآ بلند آوآزي 
 spontaneous-card-header = بي اکتيآري تڪرير
 spontaneous-card-content = نآميآتي ،ٻولي وآڙي هوآلي سآرو ڊيٽآ سيٽ ٺآئي سآرو ايشآري رو جوآب ڏئو ۔ پهلي  زبآني ٻولي سآرو آڇي۔
 language-text-card-header = ٻولي رو موآد
+language-text-card-content = ترجمي ،نيني ۔ٻولي ري مآڊلز ، آئين وڌيڪي سآرو آوآمي ڊومين پر امپٽس ،جملآ آئين ٽيڪسٽ ٺآئو يآ شيئر ڪرو
 add-text = لڦز جمآ ڪرو
 
 ## Community section
 
+community-section-title = آلمي برآدري وجون تآڪتور ،آلمي برآدري سآرو —130 ٻولي آئين وڌيوآڙي
 join-discord-community = هم نيٚ ۮوجي نيٚ ڊونٚڊيم مدد ڪرو جڪو آپيريٚ آوآزي ڏي سڪي ڇي۔
 # label for button
 ask-mozilla-share-action = آپير ڪلپ ويرائو
