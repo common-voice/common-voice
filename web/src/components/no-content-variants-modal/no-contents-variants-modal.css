@@ -1,0 +1,13 @@
+.ReactModal__Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ReactModal__Content {
+        margin-top: 0;
+
+        .inner {
+            min-height: 410px;
+        }
+    }
+}

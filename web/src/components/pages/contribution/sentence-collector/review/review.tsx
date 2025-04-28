@@ -23,6 +23,7 @@ import ReviewEmptyState from './review-empty-state'
 import { Spinner } from '../../../../ui/ui'
 import { ReportModal } from '../../report/report'
 import ReviewShortcutsModal from './review-shortcuts-modal'
+import { NoContentsVariantsModal } from '../../../../no-content-variants-modal'
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import useReview from './use-review'
@@ -156,6 +157,8 @@ const Review: React.FC<Props> = ({ getString }) => {
           {...reportModalProps}
         />
       )}
+
+      {true && <NoContentsVariantsModal />}
 
       <div className="cards-and-instruction">
         <Instruction
