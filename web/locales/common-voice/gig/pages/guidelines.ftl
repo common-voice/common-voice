@@ -3,6 +3,7 @@ guidelines-header = تآوني ريٚ هيٚدآيٚتي
 guidelines-header-subtitle = سمجھو تو ڪآمن وآئس ڊيٽآ سيٽ مينٚ جملو آئينٚ آڊيو ڪلپس ني ڪي يونٚ تآون آئينٚ پڪ ڪرآن
 voice-collection = آوآزي رو بهڙو هوڻو
 sentence-collection = جملو ڀهڙو ڪرڻو
+question-collection = سوآلي رو مجموهو
 
 ## Voice Collection nav ids
 
@@ -102,9 +103,11 @@ reviewing-sentences-explanation-1 = جيڪۮي جملو مآٿي ۮيۮوڙآ م
 reviewing-sentences-explanation-2 = جيڪۮي جملو مآٿي ۮيۮوڙآ ميهآري پر پورو ڪوني ڇي ،،نآ،، ٻٽڻي پر ڪلڪ ڪرو
 reviewing-sentences-explanation-3 = جيڪۮي تم جملي ري بآري مينٚ متميٚن  نآ ڇو، تو تم اوني ڇوڙ بي سڪو ڇو آئينٚ آڳي وڌو۔
 reviewing-sentences-explanation-4 = جيڪڏهن تمآ ڪني جملآ ڌيکي سآرو کتم هو جآوي ۔مهرباني ڪرين وڌيڪ جملآ لي سارو همآري مدد ڪرو
+domain-explanation = ڊومين جملي ري موزو سآمون ايشآرو ڪري ڇي ڦي لهال ،تم هيٽي ڏيدوڙآ مآلون چونڊ ڪر سڪو ڇو۔
 
 ## Question collection ids
 
+adding-questions = سوآل بهڙي ڪرڻو
 
 ## Question collection sidebar content
 
