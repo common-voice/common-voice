@@ -1,7 +1,17 @@
 ## ProfileForm
 
+profile-form-native-language =
+    .label = ڌوجي زبآن
 profile-form-language =
     .label = زبآن
+profile-form-age =
+    .label = اومر
+profile-form-gender-2 =
+    .label = جنس
+leaderboard-visibility =
+    .label = ليڊر بورڊ ري نمائش
+native-language =
+    .label = ڌوجي زبآن
 download-profile = مآري ڊيٽآ ني ڊآئون لوڊ ڪرو
 contribution-experience = تعآون ري اهميت
 skip-submission-feedback = جمآ ڪرآئي ري سوچي ني ڇوڙ ڏئو

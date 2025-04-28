@@ -139,6 +139,8 @@ join-discord-community-action = ڊسڪآرڊي پر همآر بهڙي هو
 join-discord-community-content = ٻولي برآدري ري بهسن مين هيسو لو ،سوآل ٻوجھو ،آئين آئيوآڙو وآڪيآ آئين ٻولي ري بآري مين سيکو
 find-us-on-matrix = هم ني Matrix پر ڊونڊو
 # label for button
+find-us-on-matrix-action = هم ني Matrix پر ڊونڊو
+# label for button
 ask-mozilla-share-action = آپير ڪلپ ويرائو
 
 ## Featured section
