@@ -66,3 +66,4 @@ add-questions-menu-item-tooltip = ɩ́tàzɩ̀ tɔ̀m pɔ́zɩ̀ mɩ̀dɛ̀ɛ́
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = « màdɩ́ » tɛ̀ fùɖúŋ
+review-sentences-menu-item-aria-label = ɩ̀bɛ̀m tɔ̀m pɔ̀wà wéntì kòt̀kòlì pìyá wávà ná

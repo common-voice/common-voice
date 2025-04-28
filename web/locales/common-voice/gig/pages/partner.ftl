@@ -2,3 +2,7 @@ partnerships-foundations-description = هم نبيآدي ،سول سوسآئيٽ
 partnerships-governments-header = هڪمتي
 partnerships-governments-description = هم ٽيڪنولآجي ،جدت آئين ٻولي ري هڪي مين آوآمي شهبي ري مسروڦيت ري همآيت ڪري سآرو پر جوش هووي ،جيڪو تم ايڪ موٽي پروجيڪٽ يآ مهم چلآئي ري رٿآ بندي ڪر ري ڇو ، مهربآني ڪرين ڪرو </emailFragment> رآپتي مين آئو۔<emailFragment>
 partnerships-academia-header = يونيورسٽي ،تهليمي آئين مهڪڪ
+partnerships-academia-description = کولوڙآ جدت همآري دلي مين ڇي ۔تهڪيڪي تهآون ،ڊيٽآ بهڙي ڪرڻو يآ انٽرويوز سآرو</emailFragment> ٻوجھو<emailFragment>
+partnerships-small-business-header = سورو هوئيوآڙو AI نيني ڪآروبآر ،بشمول ٽيڪ آئين
+partnerships-small-business-description = هم هميشآ ڊيٽآ منکون سون انوري زرورت آئين هوآلي سون سوڻي ري ڪوشش ڪرآن ڇآن ۔ڊيٽآ بهڙي هوئيوآڙي پليٽ ڦآرمي پر تهآون ڪري سون لين ڊيٽآ ري سهت ري بسرت ميهآ ڪري تآئين ، هم چآوآن ڇآن تو </emailFragment> تمآ سون سوڻڻو <emailFragment>
+partnerships-corporates-header = موٽي پيمآني پر ڪآرپوريٽ آئين پليٽ ڦآرم ڪمپني
