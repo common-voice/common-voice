@@ -111,4 +111,9 @@ adding-questions = سوآل بهڙي ڪرڻو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ڪآئين ايڪ سٺو سوآل ٺيوي ڇي
+what-makes-a-good-question-explanation = آوآمي سرڪت ري ڊيٽآ سيٽس سآرو ايڪ سٺو سوآل هوئڻ کپي
+what-makes-a-good-question-explanation-criteria-1 = سمجھڻو آئين جوآب ڏي مين آسآن ڇي۔
+what-makes-a-good-question-explanation-criteria-2 = آم توري پر لگوڙآ هووي
+what-makes-a-good-question-explanation-criteria-3 = نوڪسآني وآڙو يآ نآ پسند ٻولي استهمآل نآ ڪرو ،يآ تلب نآ ڪرو
 easy-to-understand = آسآني سونٚ سمجھڻو
