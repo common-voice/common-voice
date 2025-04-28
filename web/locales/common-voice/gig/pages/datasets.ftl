@@ -67,6 +67,7 @@ dataset-metadata-sex = نسل
 dataset-metadata-age = اومر
 donate-modal-message = تمآريٚ ڊيٽآ سيٚٽ ڊآئونٚ لوڊ هو ريٚ ڇي
 dataset-donate-modal-heading = ڪآئيٚ تمآنيٚ کبر ڇي
+donate-modal-explanation-1 = همآري ڪآمي پر بروسو ڪريوآڙي 100پلس ٻوٚلي برآدري سآرو ڊيٽآ سيٽي ني هوسٽ ڪرو آئينٚ پليٽ ڦآرم ني بهتر بڻآئي پر هر سآل لڳ ڀڳ ايڪ ملين ڊآلر کرچ هووي ڇي۔
 data-download-singleword-title = ڊآئون لوڊ ڪرو ايڪلولڦز هدڦ وآڙو هيسو
 data-download-singleword-callout-v2 = اي ايڪ استهمآل ڪيس چلآئي وآڙو هيسو ڇي جي مينٚ ڊيٽآ سيٽ بهڙو ڇي  تآڪت ٻوٚليٚ وآڙي انگ اکري ريٚ اوڙکآڻ آئين هآ ،نآ ڊونٚڊڻو
 data-download-button = ڊآئون لوڊ ڪرو آم وآئس ڊيٽآ
