@@ -76,9 +76,19 @@ read-more-about = همآري بآري مين پنآ پر وڌيڪ پڙهو
 ## NAV ITEMS
 
 answer-questions = سوآلي رو جوآب ڏئو
+answer-questions-coming-soon = سوآلي رو جوآب ڏئو <small> جلدي آرو ڇي</small>
+review-transcriptions = ٽرآنسپشن رو جآئزو لو
+review-transcriptions-coming-soon = جلدي آرو ڇي <small>نڪلي رو جآئزو
+add-questions = سوآل بهڙي ڪرو
+add-questions-coming-soon = سوآلي رو جوآب ڏئو <small> جلدي آرو ڇي</small>
+transcribe-audio-coming-soon = جلدي آرو ڇي <small>نڪلي رو جآئزو
+transcribe-audio = آڊيو نڪل ڪرو
+press-and-stories = پريس آئين ڪهآڻي
+community-and-languages = برآدري آئين ٻولي
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ڀآئيوآري ،پريس آئين ڪهآڻي ،برآدري ، ٻولي
 
 ## MENU ITEM ARIA LABELS
 
