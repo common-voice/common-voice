@@ -6,6 +6,10 @@ action-click = ڪيليڪ ڪرڻو
 action-tap = ٿهپيڙڻو
 # Label for language switcher
 platform-language = ٻولي رو پليٽ ڦارم
+platform-language-tooltip-text = رگو ويب سآئيٽي رآ اکر  بدلآئو۔
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = شرڪت <bold>{ $language }</bold> ڪرڻو ڊيٽآ سيٽ مين۔
 # Label for button on contribution switcher
 change = بدلاڻو
 # Toast message that is displayed when an item is skipped
@@ -23,11 +27,13 @@ request-new-language = ڀولي ري درخواس ڪرو
 ## Navbar
 
 respond-to-prompt = جواب
+transcribe = لکوڙآ
 check-transcriptions = ڌوبآرا ڌيکڻو
 question = سوال
 
 ## Not Found Page
 
+not-found-page-header = ڪوني ملي
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ڪآمن وآئس استمال ڪرو تم همآري <termsLink>سرتي </termsLink>ائين  <privacyLink> زرداري نوٽيس</privacyLink>ٻدل ڇآن
 # Locales

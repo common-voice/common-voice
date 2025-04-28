@@ -8,6 +8,7 @@ select-your-age = تآر اومر چونڊو
 gender-select-label = تآر جنس ڪسي ڇيَ
 select-your-gender = تآر جنس چونڊو
 why-are-you-asking = تو ڪآ ٻوجھ رو ڇي
+thank-you-for-your-information = تمآري مآلومآتي ري موٽي مهرباني
 
 ## Gender dropdown
 

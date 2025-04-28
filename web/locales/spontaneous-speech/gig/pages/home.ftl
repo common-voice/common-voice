@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = بي سآکته تڪريري مين ڀلي ڪرين آئين
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark> نشآن </mark>
 # text wrapped in <mark></mark> will have a blue background
