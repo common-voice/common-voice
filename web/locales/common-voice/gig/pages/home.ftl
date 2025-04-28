@@ -135,6 +135,10 @@ add-text = لڦز جمآ ڪرو
 community-section-title = آلمي برآدري وجون تآڪتور ،آلمي برآدري سآرو —130 ٻولي آئين وڌيوآڙي
 join-discord-community = هم نيٚ ۮوجي نيٚ ڊونٚڊيم مدد ڪرو جڪو آپيريٚ آوآزي ڏي سڪي ڇي۔
 # label for button
+join-discord-community-action = ڊسڪآرڊي پر همآر بهڙي هو
+join-discord-community-content = ٻولي برآدري ري بهسن مين هيسو لو ،سوآل ٻوجھو ،آئين آئيوآڙو وآڪيآ آئين ٻولي ري بآري مين سيکو
+find-us-on-matrix = هم ني Matrix پر ڊونڊو
+# label for button
 ask-mozilla-share-action = آپير ڪلپ ويرائو
 
 ## Featured section
