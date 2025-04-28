@@ -17,3 +17,6 @@ localized = مڪآمي
 sentences = جملآ
 language-validation-hours = ڪلآڪ
 language-validation-progress = سئي ري جير جٻر
+contribute = تهآون ڪرو
+get-involved-button = بهڙيٚ هو۔
+get-involved-title = { $lang } مين هيسو ڏئو
