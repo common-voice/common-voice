@@ -17,6 +17,8 @@ single-sentence = tɔ̀m pɔ̀ɖɛ̀ kʊ́ɖʊ̀ḿ
 general = wɛ̀ɛ̀lɩ́
 # Sentence Domain dropdown option
 healthcare = àlàfìà
+# Sentence Domain dropdown option
+history_law_government = dɔ̀m, kíɖììwú nɩ̀ gómìnàntɩ̀
 sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
 sentence-variant-select-placeholder = ɩ̀lɩ̀zɩ́ kʊ̀nʊ́m nàkɩ̀rɩ̀ (pà wéŋkì)
 sentence-variant-select-multiple-variants = kʊ̀nʊ́m tɛ̀ tɔ̀m kɩ̀bázɩ̀á / kʊ̀nʊ́mɩ̀n  ŋdɩ́ndɩ̀
