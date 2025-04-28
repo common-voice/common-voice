@@ -131,6 +131,8 @@ add-text = لڦز جمآ ڪرو
 ## Community section
 
 join-discord-community = هم نيٚ ۮوجي نيٚ ڊونٚڊيم مدد ڪرو جڪو آپيريٚ آوآزي ڏي سڪي ڇي۔
+# label for button
+ask-mozilla-share-action = آپير ڪلپ ويرائو
 
 ## Featured section
 

@@ -7,6 +7,7 @@ sentence =
     .label = جُملا
 sentence-input-placeholder = آپڪا عوامِي ڊومين جُملا اِٺي شامل ڪرا۔
 small-batch-sentence-input-placeholder = آپڪا عوامِي ڊومين جُملا اِٺي شامل ڪرا۔
+citation-input-placeholder = آپڪا جُملا جِٺي رڪارڊ ڪلا ڇَي اُٺلاچ حوالا ڏِيا (لازمِي)
 citation =
     .label = حوالا
 sc-write-submit-confirm = عوامِي ڊُومين <wikipediaLink> مين تصدِيق ڪرين ڇَين تہ ها جُملا ڇَي، ائُون او اَپ لوڊ ڪرڻي چِي مُنُون </wikipediaLink> موڪل ڇَي۔
@@ -103,8 +104,8 @@ exceeds-small-batch-limit-error = 1000 کن بڌِيڪ جُملي جمع ڪون�
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] لڪِير حدِي کن بڌِيڪ گيلِي چلِي 1 مِنٽا ۾ بڙتِي ڪوشش ڪرا
-       *[other] لڪِير حدِي بڌِيڪ گيلِي چلِي بڙتِي  { $retryLimit } ڪوشش ڪرا
+        [one] ريٽ مقرر حدِي کن بڌِيڪ گيلِي ڇَي 1 مِنٽا ۾ بڙتِي ڪوشش ڪرا
+       *[other] ريٽ مقرر حدِي کن بڌِيڪ گيلِي ڇَي { $retryLimit } مِنٽا ۾ بڙتِي ڪوشش ڪرا
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
