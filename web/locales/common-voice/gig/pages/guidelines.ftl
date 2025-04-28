@@ -134,3 +134,5 @@ offensive-content-sensitive-information-explanation-explanation-1 = سوآل ج�
 offensive-content-sensitive-information-explanation-explanation-2 = اسي سوآل جيڪو نڦرت انگيز تڪرير يآ ۮوجھي جآنبدآر يآ نآ پسند جزبآت پيدآ ڪر سڪي ڇي۔
 offensive-content-sensitive-information-explanation-explanation-3 = اسي سوآل جيڪي ڪي ني هسآس ، امڪآني توري پر متهرڪ ڪيۮوڙآ جوآبي ني شيئر ڪري رو سبب بڻ سڪي ڇي۔
 example-questions-subheader = سوآلي رو ميسآل
+example-questions-explanation-1 = تم اي سيٽي مين <examplePromptsLink> 120 ميسآلي پر امپٽس ڊونڊ سڪو ڇو</examplePromptsLink>
+example-questions-explanation-2 = جيڪۮي تم انجيڪشن سآرو سوآلي رو ايڪ هيسو جمه ڪرآڻو چآئو ڇو ،تو تم <githubLink> همآري GitHub </githubLink> زريي او ڪر سڪآن ڇآن ،يآ آپيري ليسٽ <emailFragment> commonvoice@mozilla.com پر اي ميل ڪر سڪو ڇو </emailFragment>
