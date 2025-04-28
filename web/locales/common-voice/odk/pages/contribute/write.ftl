@@ -7,7 +7,6 @@ sentence =
     .label = جُملا
 sentence-input-placeholder = آپڪا عوامِي ڊومين جُملا اِٺي شامل ڪرا۔
 small-batch-sentence-input-placeholder = آپڪا عوامِي ڊومين جُملا اِٺي شامل ڪرا۔
-citation-input-placeholder = آپڪا جُملا جِٺي رڪارڊ ڪلا ڇَي اُٺلاچ حوالا ڏِيا (لازمِي)
 citation =
     .label = حوالا
 sc-write-submit-confirm = عوامِي ڊُومين <wikipediaLink> مين تصدِيق ڪرين ڇَين تہ ها جُملا ڇَي، ائُون او اَپ لوڊ ڪرڻي چِي مُنُون </wikipediaLink> موڪل ڇَي۔

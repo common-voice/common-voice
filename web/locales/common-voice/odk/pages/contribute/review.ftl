@@ -57,6 +57,6 @@ review-error-rate-limit-exceeded = تمهِين صفا تيز جاوا ڇَوا 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = امهِين ڪهِين موٽِي مٽا سٽا ڪرُون ڇَئُون پلي۔
 sc-redirect-page-subtitle-1 = ڪامن وائِيسا هاڙي پليٽ فارما ۾ جُملا ڪليڪٽر بُنيادا چي حسابا سُون جا ڇَي چلا۔ تمهِين اِمهين ڪر سِگھا ڇَوا۔ </reviewURL>  لِکا <writeURL> جاوا ڪامن وائِيسا ۾ هيڪ جُملا جمع ڪراوا۔ </writeURL> </reviewURL>
-sc-redirect-page-subtitle-2 = اَمهان کن سوال پُوڇا <matrixLink> ميٽرِڪس</matrixLink> <discourseLink>ڊِسڪورس </discourseLink> يان <emailLink>اِي ميل </emailLink>
+sc-redirect-page-subtitle-2 = امهان کن سوال پُوڇا <matrixLink>ميٽرڪس</matrixLink>،<discourseLink>ڊيسڪورس</discourseLink>يان<emailLink>اِي ميل</emailLink>۔
 # menu item
 review-sentences = جُملان چا بڙتِي جائِزا گيهوا

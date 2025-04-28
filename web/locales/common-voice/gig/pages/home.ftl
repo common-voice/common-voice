@@ -85,6 +85,7 @@ transcribe-audio-coming-soon = جلدي آرو ڇي <small>نڪلي رو جآئ�
 transcribe-audio = آڊيو نڪل ڪرو
 press-and-stories = پريس آئين ڪهآڻي
 community-and-languages = برآدري آئين ٻولي
+coming-soon = جلدي آئيوآڙو ڇي
 about-us = همآري ري بآري مين
 scripted-speech = ليکوڙي تڪرير
 spontaneous-speech = بي سآڪته تڪرير
@@ -124,9 +125,12 @@ action-items-section-subtitle = ڪوئي بي منک تيڪسٽ آئين اسپ�
 scripted-card-header = اسڪرپٽ هووڙآ تڪرير
 scripted-card-content = آپيري ٻولي مين جملآ بلند آوآزي سون پڙهو آئين دنيآ مين سب سون وڌيڪ متنوه آوآمي شرڪتي وآڙي تڪرير ڊيٽآ سيٽ مين هيسو لو
 spontaneous-card-header = بي اکتيآري تڪرير
+language-text-card-header = ٻولي رو موآد
+add-text = لڦز جمآ ڪرو
 
 ## Community section
 
+join-discord-community = هم نيٚ ۮوجي نيٚ ڊونٚڊيم مدد ڪرو جڪو آپيريٚ آوآزي ڏي سڪي ڇي۔
 
 ## Featured section
 
@@ -136,6 +140,10 @@ spontaneous-card-header = بي اکتيآري تڪرير
 
 ## Get involved section
 
+read-sentences-link = جملآ پڙ
+validate-readings-link = پڙي ري ڪوشش ڪرو
+answer-questions-link = سوآلي رو جوآب ڏئو
+press-and-stories-link = پريس آئين ڪهآڻي
 
 ## Partner section
 
