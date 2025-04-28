@@ -24,3 +24,5 @@ download-request-archive-multiple = زپ ڦآئيلي ني مشتمل { $archive
 download-request-assembling-description = تمآري ڦآئيل بهڙي هو رهي ڇي ،مهربآني ڪرين پڇي وڙي چيڪ ڪرو
 download-request-refresh-button = تآزو ڪرو
 download-request-modal-title = لنڪس ڊآئون لوڊ ڪرو
+download-request-link-text = { $total } سون{ $offset } زپ #
+download-request-metadata-link = جملي رو موآد

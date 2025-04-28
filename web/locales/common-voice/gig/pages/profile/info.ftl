@@ -1,17 +1,29 @@
 ## ProfileForm
 
+profile-form-username =
+    .label = استمآل ڪري وآڙي رو نآم
 profile-form-native-language =
     .label = ڌوجي زبآن
+profile-form-additional-language =
+    .label = وڌيڪ ٻولي
 profile-form-language =
     .label = زبآن
+profile-form-accent =
+    .label = اوچآر
+profile-form-custom-accent-help-text =
+    .label = تم تمآري جنس يا جنس ڪي يون سوڻا يو
 profile-form-age =
     .label = اومر
 profile-form-gender-2 =
     .label = جنس
 leaderboard-visibility =
     .label = ليڊر بورڊ ري نمائش
+hidden = لڪوڙآ
+visible = زآهر
 native-language =
     .label = ڌوجي زبآن
+profile-form-submit-save = مهڦوز ڪرڻو
+profile-form-submit-saved = مهڦوز هوڙآ
 dashboard = ڊيش بورڊ
 build-profile = پروفائل ٺاھو
 avatar = اوتار

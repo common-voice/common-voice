@@ -174,7 +174,11 @@ read-sentences-link = جملآ پڙ
 validate-readings-link = پڙي ري ڪوشش ڪرو
 contribute-link = ٽيڪسٽ ڪورپسي مين هيسو ڏئو
 answer-questions-link = سوآلي رو جوآب ڏئو
+transcribe-answers-link = جوآبي ني نڪل ڪرو
+review-transcriptions-link = ٽرانسپشن رو جائزو لو
+contribute-text-link = موآد مين هيسو ڏئو
 press-and-stories-link = پريس آئين ڪهآڻي
 
 ## Partner section
 
+partner-section-title = همآ سون ميلو
