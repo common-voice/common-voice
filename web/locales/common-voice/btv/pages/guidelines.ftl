@@ -25,6 +25,20 @@ varying-pronunciations-example = پان صاف نہ تھی
 varying-pronunciations-tip-1 = [کینیڈا والہ انگریزی "روٹ "سو اواز" رُٹ " شان گرہ تھہ]
 varying-pronunciations-tip-2 = [برطانیہ والہ انگریزی " رووٹ" من ھوں تھہ]
 offensive-content-explanation = کمیونٹی مہ ترمیم سو عمل سو زریعہ جملیوں سو جائزہ گِھنا بزہ  ولے او عمل کامل نہ تھی۔ کہ تو اش یک جملہ ریٹھا یا ݜؤاں چہ سو تی پریشان گرا مثال سو طور رے اِسئیں وجہ رے او بیماری <participationGuidelines> کمیونٹی  مہ شرکت سو رہنمائی</participationGuidelines>  سو خلاف ورزی گرہ مہربانی گر UI. مہ جھنڈہ سو بٹن استعمال گر تو اسو تکے ھُم اوڑ ھواں ۔
+misreadings-explanation-1 = صفحہ رے تمام الفاظ صحیح پڑاؤ گرو اھم تھو ݜؤویں سو وخت احتیاط رے چیک گر چہ چوں صحیح طریقہ رے ریکارڈ ھوں چوں لیکید، رد گر کہ سے جمع ھوی گے تھا  کنٹریکٹڈ یا الفاظ دھریل ھ وندا
+misreadings-explanation-2 = ڙھؤ عام غلطی شامل گر
+misreadings-explanation-3 = ریکارڈنگ سو شرو مہ  مہ 'اے' یا 'دی،،'   دھر گا
+misreadings-explanation-4 = لفظ سو آخری مہ 'ایس' دھیر گا
+misreadings-explanation-5 = کھٹآں لفظ پڑُو چہء سےء حقیقت مہ تِیزہ نہ ھوویں لکہ چہء "بے تھا" سو زائرے "بے تھا" یا اش جَل۔
+misreadings-explanation-6 = ریکاڈنگ ڙھو ھَلہ کٹ گرو اخری لفظ غلط گرو۔
+misreadings-explanation-7 = یک لفظ پڑے سو دَن ڙھو وارے کوشش گرو
+misreadings-example-1 = مہ کافی پئ سو دَن با ئے بزا
+misreadings-example-2 = بے کافی پیئ با بزہ تھہ
+misreadings-example-3 = مہ کافی پئ سو دَن با ئے بزہ تھہ
+misreadings-example-4 = بمبل بی سو زریعہ گھِن۔
+misreadings-tip-1 = [“بے تھا" ھُوں پکار تھو]
+misreadings-tip-2 = [اصل لکیل مہ "اے" نہ تھو ]
+misreadings-tip-3 = [میلائ نہ ھویں والہ مشتملات]
 
 ## Sentence collection nav ids
 
