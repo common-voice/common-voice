@@ -15,3 +15,5 @@ male_masculine = ڇورآ
 female_feminine = ٻير
 intersex = نآر مآدي
 transgender = کڌڙآ
+non-binary = گير بائنري
+do_not_wish_to_say = ڪهڻ ڪونهي چآهون
