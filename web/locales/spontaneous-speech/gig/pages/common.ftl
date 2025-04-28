@@ -1,5 +1,8 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = مسلو
+action-click = ڪيليڪ ڪرڻو
 audioplayer-header = سوڻو
 guidelines = سمجهاڻو
 # For the button to report an item
@@ -27,5 +30,6 @@ kzi = ڪلابيت
 mmc = ميٚچوآڪآن مآزآهوآ
 pez = ايٚسترن پنن
 pne = ايٚسترن پنن
+snv = سابآن
 tr = ترڪيٚ
 xkl = ڪيٚنئيٚا

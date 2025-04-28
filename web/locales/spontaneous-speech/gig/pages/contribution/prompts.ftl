@@ -5,3 +5,4 @@ mic-access-error = تم ني مآئيڪرو فون ني پر آسائي ري م�
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = سيکآنٚ  توٚ ڪيٚ يونٚ هيسو لوآنٚ۔
