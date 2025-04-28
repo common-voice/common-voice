@@ -65,6 +65,8 @@ sentence-domain = جملہ سو احاطہ
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = او ڙھؤ اہم تھو چہ تمام لکیل جملے <publicDomain>  عوامی احاطہ کار سو ھویاں </publicDomain> <cc0> <cc0>  cc0</cc0>)  لکہ عام اواز سو ڈیٹا سیٹ  ریلیز ھواں  cc0  سو لائیسنس سو څھئے  ہمیشہ صرف سو جمل اپلوڈ گر چہ تو مطمئین ھویں آ ہمیشہ شمار گر متعلقہ حوالہ۔
+public-domain-explanation-2 = یک فائدہ ناک تقریر سو پھنیانک سو انجن سو سندے سو دن مڑنئ جملے  جدید پارلینس ، تھا جملے پیدا گرے مہ تیں مدد سو کیں خیالات تھا
 
 ## Question collection ids
 
