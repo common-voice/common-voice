@@ -6,3 +6,7 @@ partnerships-academia-description = کولوڙآ جدت همآري دلي مين
 partnerships-small-business-header = سورو هوئيوآڙو AI نيني ڪآروبآر ،بشمول ٽيڪ آئين
 partnerships-small-business-description = هم هميشآ ڊيٽآ منکون سون انوري زرورت آئين هوآلي سون سوڻي ري ڪوشش ڪرآن ڇآن ۔ڊيٽآ بهڙي هوئيوآڙي پليٽ ڦآرمي پر تهآون ڪري سون لين ڊيٽآ ري سهت ري بسرت ميهآ ڪري تآئين ، هم چآوآن ڇآن تو </emailFragment> تمآ سون سوڻڻو <emailFragment>
 partnerships-corporates-header = موٽي پيمآني پر ڪآرپوريٽ آئين پليٽ ڦآرم ڪمپني
+partnerships-corporates-description = جيڪۮي تم ڊيٽآ سيٽ بآبت وڌيڪ ٻولڻو چآئو ڇو ، رٽيل پليٽ ڦآرمي ري توسيه مين همني ايڪ لڪير ڏئو ،<emailFragment>ميلوڙي سيڙيڪآري ڪرڻو چآئو ڇو ،يآ تهآون رو موڪهو ڊنڊڻو چآئو ڇو</emailFragment>
+partnerships-our-partners = همآري ڀآئيوآر
+# menu item
+partners = ڀآئيٚوآر

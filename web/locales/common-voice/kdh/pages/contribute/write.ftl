@@ -8,6 +8,7 @@ sc-review-write-title = tɔ̀m pɔ̀wà wèmbà sɩ̀ màtàzɩ̀
 sc-review-small-batch-title = ŋ́gɩ̀nɩ̀ pándàzɩ̀ tɔ̀m pɔ̀wà
 contact-us = ɩ̀yáá ɖàà
 add-sentence-success = tɔ̀m pɔ̀ɖɛ̀ tùùzí
+add-sentence-error = yɩ̀sɩ̀tɩ́ sádɩ̀ wéntì sìsè pèyèkì tɔ̀m pɔ̀dɛ̀ ná
 required-field = ɩ̀tɛ̀zɩ̀ fɔ́lʊ́ʊ̀ kɩ̀nà
 single-sentence-submission = tɔ̀m pɔ̀ɖɛ̀ kʊ́ɖʊ̀ḿ yèkìtì
 bulk-sentence-submission = tɔ̀m pɔ̀wà yèkìtì
@@ -66,4 +67,5 @@ add-questions-menu-item-tooltip = ɩ́tàzɩ̀ tɔ̀m pɔ́zɩ̀ mɩ̀dɛ̀ɛ́
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = « màdɩ́ » tɛ̀ fùɖúŋ
+add-sentences-menu-item-aria-label = ɩ̀tàsɩ̀ tɔ̀m pɔ̀wà kɩ́fàlɛ̀ wéntì  kòtòkòlì pìyá sɩ̀ pàkaàlɩ̀ ná
 review-sentences-menu-item-aria-label = ɩ̀bɛ̀m tɔ̀m pɔ̀wà wéntì kòt̀kòlì pìyá wávà ná
