@@ -4,6 +4,9 @@ partnerships-header-text = او تمآم گھڻو ليوي ڇي ، آم آواز
 partnerships-get-in-touch = رآتبي  مين رهو
 partnerships-become-a-partner = ايڪ ميلوڙي آوآز ڀآئيوآر هووي
 partnerships-community-header = برآدري ، تڪليڪآر آئين سول سوسآئٽي
+partnerships-community-description =
+    برآدري آم آوآزي ري ڌڙڪي وآڙي دل ڇي ۔ او سڃي دنيآ مين آوي ڇي ائين ٻولي ري سرگرم پنآ پر آئين همآري <about> 
+    About </about> ڪآرڪن آئين سآئينسدآن آئين ڦنڪآر ڇي ۔ تم همآري ري مين بهڙي هوئيم وڌيڪ سيک سڪو ڇو ۔جيڪۮي تم </community> <community> Community playbook </emailFragment> رآپتي مين رهڻو <emailFragment> چآئو ڇو بهتري تنزمي ميلي مين ۔
 partnerships-foundations-header = بنيآد
 partnerships-foundations-description = هم نبيآدي ،سول سوسآئيٽي آئين ڀآئيوآري سون ميلين ڪآم ڪرو ڇو  انٽرنيٽ ني پروگرآمآتي ڪآم <programmaticWork> ايڪ سهت مند جڳه ،کآس ڌيآني سون اوگھمڻو آڦريڪآ پر ۔همآري بآري وڌيڪ جآڻو</programmaticWork>
 partnerships-governments-header = هڪمتي
