@@ -12,3 +12,7 @@ request-language-form-info-explanation-list-2 = جيڪۮي </isoCodeLink> ڪوڊ
 request-language-form-info-explanation-list-3 = ويب سآئيٽي ري لنڪ جيڪو همآري ٻولي ني سمجھي مين مدد ڪري سڪي چي ۔
 request-language-google-recaptcha-required = تم آگي جآڻو چآئو ڇو توreCAPTCHAلآزمي ڇي۔
 request-language-google-recaptcha-error = مهربآني ڪرين وڙي ڪوششي reCAPTCHA  سون ڪجھ گلت هويو
+# Success page
+request-language-success-heading = تمآري مهربآني تم ايڪ نئين ٻولي ري انڪوآئري ميلي ڇي۔
+request-language-success-list-1 = تمآري ري جلدي وزآهت ڪيۮوڙي ايڪ اي ميل هآسل ڪرڻو کپي ،تمآري ٻولي ني آم آوآزي مين بهڙي ڪري سآرو ڪدم
+request-language-success-list-2 = همآري برآدري منئيجرتم تآئين پوچي پيس ڪري سآرو وڌيڪ تهآون آئين ،تم ني جآڻ ڏيندوتو جيڪۮي وٺي اڳي مين اي ايڪ برآدري تمآري ٻولي پر ڪآم ڪر رهي ڇي۔
