@@ -162,11 +162,17 @@ download-press-pack = همآ سون پريس پيڪ ڊآئون لوڊ ڪرو <ic
 
 ## Developers section
 
+developers-section-title = 130 ٻولي مين آوآمي توري پر رسآئي لآئڪ کولوڙآ اسپيچ ڊيٽآ سيٽ
+developers-section-subtitle = هوآلي سون ڊيٽآ سيٽ NLP  آئين ۮوجھي  ASR, STT, TTS  برآدري ري شموليت زريي ٺآئي ڇآن
+# icon is an arrow that points to the right
+explore-datasets = ڊيٽآ سيٽي ري گولآ ڪرو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کولوڙآ ، برآدري ري آگوآڻي  مين  ڊيٽآ سيٽ ري همآيت ڪرو
 read-sentences-link = جملآ پڙ
 validate-readings-link = پڙي ري ڪوشش ڪرو
+contribute-link = ٽيڪسٽ ڪورپسي مين هيسو ڏئو
 answer-questions-link = سوآلي رو جوآب ڏئو
 press-and-stories-link = پريس آئين ڪهآڻي
 
