@@ -38,6 +38,7 @@ try-upload-again = ɩ̀tàsɩ̀ ɩ̀là
 try-upload-again-md = ɩ̀tàsɩ̀ ɩ́yèkɩ̀ná
 select-file = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ
 select-file-mobile = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ nɩ̀ ɩ́yèkɩ̀ná
+accepted-files = tɔ̀m tàkàràsɩ̀ wèntì pɩ̀ndɩ̀zɩ̀ ná : .tsv ɖéké
 upload-progress-text = pʊ̀wɛ̀ pɩ́ŋɖɛ́ɛ́
 bulk-upload-success-toast = tɔ̀m pɔ̀wà péyèkɩ̀nɛ̀
 upload-more-btn-text = yékɩ̀nà tɔ̀m pɔ̀wà nàbɛ̀rɛ́
