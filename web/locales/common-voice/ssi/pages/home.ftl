@@ -66,6 +66,9 @@ join-newsletter = یوجنا کے باریم تاجا اور نویں جاکار
 
 ## What's public
 
+whats-public = جنتا کی کِیا ہے
+email-not-public = ہم تھارے ای میلا کُو سادھارݨ نائیں کرُوں گے.
+recordings-and-locale-public = ریکاڈنگا کی گینتی اور تھم کُوݨ سی ٻولِیئینٚم دؔان دؔیتے ہے یو جنتا ہووں گا۔
 
 ## Landing
 
