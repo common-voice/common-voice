@@ -24,6 +24,7 @@ varying-pronunciations-explanation-2 = پَریئں طرف کی تو پَزا چ
 varying-pronunciations-example = پان صاف نہ تھی
 varying-pronunciations-tip-1 = [کینیڈا والہ انگریزی "روٹ "سو اواز" رُٹ " شان گرہ تھہ]
 varying-pronunciations-tip-2 = [برطانیہ والہ انگریزی " رووٹ" من ھوں تھہ]
+offensive-content-explanation = کمیونٹی مہ ترمیم سو عمل سو زریعہ جملیوں سو جائزہ گِھنا بزہ  ولے او عمل کامل نہ تھی۔ کہ تو اش یک جملہ ریٹھا یا ݜؤاں چہ سو تی پریشان گرا مثال سو طور رے اِسئیں وجہ رے او بیماری <participationGuidelines> کمیونٹی  مہ شرکت سو رہنمائی</participationGuidelines>  سو خلاف ورزی گرہ مہربانی گر UI. مہ جھنڈہ سو بٹن استعمال گر تو اسو تکے ھُم اوڑ ھواں ۔
 
 ## Sentence collection nav ids
 
