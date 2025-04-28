@@ -141,7 +141,7 @@ add-text = Tekst přidać
 community-section-title = Podpěrane wot globalnych zhromadźenstwow za globalne zhromadźenstwa – 130 rěčow a přiběrace!
 join-discord-community = Přidružće so zhromadźenstwu Discord
 # label for button
-join-discord-community-action = Přidružće so nam na Discord
+join-discord-community-action = &nbsp;Přidružće so nam na Discord
 join-discord-community-content = Wobdźělće so na diskusijach rěčneho zhromadźenstwa, stajće prašenja a zhońće wo přichodnych zarjadowanjach a rozmołwach.
 find-us-on-matrix = Namakajće nas na Matrix
 find-us-on-matrix-content = Matrix je wotewrjeny, lochki protokol za decentralizowanu komunikaciju we woprawdźitym času a wot Mozilla preferowana wotewrjena diskusijna platforma.

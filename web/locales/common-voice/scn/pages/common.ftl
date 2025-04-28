@@ -278,6 +278,7 @@ tig = Tigre
 tk = Turkmenu
 tl = Tagalog
 tn = Setswana
+tob = Toba Qom
 tok = Toki Pona
 top = Papantla Totonac
 tr = Turcu

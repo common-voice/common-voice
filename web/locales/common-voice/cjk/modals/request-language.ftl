@@ -1,10 +1,10 @@
 ## Request Language Modal
 
-request-language-title = Kuchakula liji
+request-language-title = Kutonda Limi
 request-language-form-language =
-    .label = Liji
-request-language-success-title = La langue a été proposée, merci.
-request-language-success-content = Mutukanukumbulula muchipidja chi nyi udji wa amples unyingikiso sup mutapu wa kuwezela liji lia Common voice.
-select-language = Kusakula liji
-other-language = Liji liko
-yes-receive-emails = Enga ngutuminenu mukanda wa fuji ngu. Neta kusala kunyingikisa ha mulonga wa mulimo ya Common Voice.
+    .label = Limi
+request-language-success-title = Limi lia bwanga kutonda, wakalakala
+request-language-success-content = Muthunusanyika kutambika hashimbu likwo nyi shindakenyo ku mulali wa kuwezela limi lienu Common Voice
+select-language = Kuchinga Limi…
+other-language = Limi likwo
+yes-receive-emails = Chochene, Nguthuminenuko unyingikiso. Na zanga kusala ungulweze kuiza muyilingiwa Common Voice .

@@ -6,7 +6,7 @@ on:
     tags:
       - 'sandbox-v*.*.*'
       - 'stage-v*.*.*'
-      # - 'release-v*.*.*'
+      - 'release-v*.*.*'
 
 jobs:
   build_and_push:

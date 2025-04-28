@@ -1,6 +1,6 @@
 speak = ٻولڻ
 speak-now = ھميَ ٻول
-speak-subtitle = آپرِِي آواز ڏيو
+speak-subtitle = آپرِي آواز ڏيو
 record-cta = ريڪارڍِنگ شروع ڪرو
 record-platform-not-supported = معاف ڪريا، ٿونرو پليٽ فارم ھيڻو ڪونھي ھليَ
 record-platform-not-supported-desktop = ڊيسڪ ٽوپ ڍيوائسس تيَ ٿيَ ڍائون لوڊ ڪريَ حصو ليَ ݾگو ھو
