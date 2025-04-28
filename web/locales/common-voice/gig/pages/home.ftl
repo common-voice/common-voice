@@ -100,6 +100,7 @@ community-and-languages-menu-item-tooltip = همآري برآدري سون مي�
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = اکتيآري مهينآ بآبت
 partnerships-menu-item-aria-label = ڪآمن وآئس سون ڀآئيوآڙي بآبت سيکو
 press-and-stories-menu-item-aria-label = ڪآمن وآئسي سون ميلوڙآ پريس رليز آئين ڪهآڻيون تآئين رسڻو هآسيل ڪرو
 community-and-languages-menu-item-aria-label = ڪآمن وآئسي ري مددي سون برآدري آئين ٻولي  ني ڊونڊو
@@ -109,9 +110,16 @@ community-and-languages-menu-item-aria-label = ڪآمن وآئسي ري مددي
 
 ## Hero section
 
+hero-title = ٽيڪنولآجي جيڪو تمآري ٻولي ٻولي ڇي
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>ڪآئي سرڦ دنيآ ري ڪجھ ٻولي سآرو ڪآم ڪرڻو کپي </bold>
+hero-subtitle-2 = همآري ٻولي همآري ڪهآڻي ڇي ،همآري برآدري ڇي ،همآري سڪآڦت ڇي ،آئو تو ڊيٽآ سيٽ ٺآوآن جيڪو هم دنيآن مين ۮيکڻو چآوآن ڇآن ۔
+# icon is an arrow that points downwards
+get-started = سورو ڪرو <icon><icon>
 
 ## Action items section
 
+action-items-section-title = ڪآمن وآئيس برآدري ري اڳوآڻي مين ڊيٽآ ٺآئي سآرو ايڪ مڦت ، کولوڙآ سورس پليٽ ڦآرم ڇي۔
 
 ## Community section
 
