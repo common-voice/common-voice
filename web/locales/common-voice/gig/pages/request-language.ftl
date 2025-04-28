@@ -10,3 +10,5 @@ request-language-form-info-explanation = وڌ مين وڌ جآڻ بهڙي ڪرو
 request-language-form-info-explanation-list-1 = تمآري ٻولي رو نآم
 request-language-form-info-explanation-list-2 = جيڪۮي </isoCodeLink> ڪوڊس ISO <isoCodeLink> جآڻ
 request-language-form-info-explanation-list-3 = ويب سآئيٽي ري لنڪ جيڪو همآري ٻولي ني سمجھي مين مدد ڪري سڪي چي ۔
+request-language-google-recaptcha-required = تم آگي جآڻو چآئو ڇو توreCAPTCHAلآزمي ڇي۔
+request-language-google-recaptcha-error = مهربآني ڪرين وڙي ڪوششي reCAPTCHA  سون ڪجھ گلت هويو
