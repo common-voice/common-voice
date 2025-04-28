@@ -130,3 +130,7 @@ length-avoid-explanation = اسي سوآل جي ري جوآب ڏي مين منک
 process-steps = آمل مرهلآ
 process-steps-explanation = اسي سوآل جي سآرو ڪي ني ڪترآئي مرهلآ ري ڦهرست ڏي ري زرورت ڇي ۔ مرهلآ ري ڦهرست استهمآل ڪيۮوڙآ ني وڌيڪ ڪدرتي جوآب ڏي ري بدلي جوآب پڙي سآرو ترتيب ڏي وي ڇي۔
 offensive-content-sensitive-information = نآ پسند موآد يآ هسآس مهلومآت
+offensive-content-sensitive-information-explanation-explanation-1 = سوآل جيڪو زآتي توري پر اوڙکي وآڙي مهلومآت سآسل ڪرسڪي ڇي۔
+offensive-content-sensitive-information-explanation-explanation-2 = اسي سوآل جيڪو نڦرت انگيز تڪرير يآ ۮوجھي جآنبدآر يآ نآ پسند جزبآت پيدآ ڪر سڪي ڇي۔
+offensive-content-sensitive-information-explanation-explanation-3 = اسي سوآل جيڪي ڪي ني هسآس ، امڪآني توري پر متهرڪ ڪيۮوڙآ جوآبي ني شيئر ڪري رو سبب بڻ سڪي ڇي۔
+example-questions-subheader = سوآلي رو ميسآل
