@@ -4,6 +4,7 @@ write = mátɩ̀
 write-instruction = ɩ́tàzɩ̀ <icon></icon>
 sentence =
     .label = tɔ̀m pɔ̀ɖɛ̀
+sc-write-submit-confirm = mánɖʊ́ʊ́ àzééɖè sìsè tɔ̀m pɔ̀ɖɛ̀ tɩ̀nà tɩ̀kènɩ̀ <wikipediaLink>zàmɔ́ɔ̀-dàá fàrándɩ̀</wikipediaLink> nɩ̀ pàfàmà nɔ́ɔ́ sɩ̀ mɩ̀’tɩ̀rɩ̀nà
 sc-review-write-title = tɔ̀m pɔ̀wà wèmbà sɩ̀ màtàzɩ̀
 sc-review-small-batch-title = ŋ́gɩ̀nɩ̀ pándàzɩ̀ tɔ̀m pɔ̀wà
 contact-us = ɩ̀yáá ɖàà
@@ -40,6 +41,7 @@ select-file = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ
 select-file-mobile = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ nɩ̀ ɩ́yèkɩ̀ná
 accepted-files = tɔ̀m tàkàràsɩ̀ wèntì pɩ̀ndɩ̀zɩ̀ ná : .tsv ɖéké
 upload-progress-text = pʊ̀wɛ̀ pɩ́ŋɖɛ́ɛ́
+sc-bulk-submit-confirm = mánɖʊ́ʊ́ àzééɖè sìsè tɔ̀m pɔ̀wà tɩ̀nà tɩ̀kèná <wikipediaLink>zàmɔ́ɔ̀-dàá fàrándɩ̀</wikipediaLink> nɩ̀ pàfàmà nɔ́ɔ́ sɩ̀ mɩ̀tɩ̀rɩ̀nà
 bulk-upload-success-toast = tɔ̀m pɔ̀wà péyèkɩ̀nɛ̀
 upload-more-btn-text = yékɩ̀nà tɔ̀m pɔ̀wà nàbɛ̀rɛ́
 file-invalid-type = Tɔ̀m tàkàrà wèŋkà pàtànlànà ná
@@ -63,6 +65,7 @@ small-batch-response-message =
        *[other] { $uploadedSentences } pɩ̀ɖɔ́zɩ̀ tɔ̀m pɔ̀wà tùùzí{ $totalSentences }. ɩ̀nɔ́ɔ́ <downloadLink>cé</downloadLink> nɩ̀ ɩ̀tɩ̀rɩ̀nà tɔ̀m pɔ̀wà pìkìzìnà.
     }
 small-batch-sentences-rule-2 = ɩ̀tàzɩ̀ tɔ̀m pɔ̀ɖɛ̀ pà cɛ̀ɛ̀rɔ̀ɔ́ wénkì ɖɔ̀ɔ́zɩ̀
+small-batch-sentences-rule-4 = ɩ̀tàsɩ̀ pɩ̀tàlɩ̀’ tɔ̀m pɔ̀wà kútòkú/mɩ̀lɩ̀
 # menu item
 add-sentences = ɩ́tàzɩ̀ tɔ̀m pɔ̀wà
 
