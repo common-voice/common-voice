@@ -80,3 +80,14 @@ data-explanatory-text = بے پرزہ تھہ چہ مشین لرننگ  والہ 
 data-get-started = <speechBlogLink>  تقریر سو پہچان میل شرو گر </speechBlogLink>
 data-other-title = پروں اواز سو ڈیٹا سیٹ…
 data-other-goto = { $name } یے بہ
+data-other-download = ڈیٹا ڈونلوڈ گر
+data-bundle-button = ڈیٹاسیٹ سو بنڈل ڈونلوڈ گر
+data-bundle-description = عام اواز سو ڈیٹا میل جل بوٹ اواز سو ڈیٹا سیٹ اَز رے
+release-version = ورژن
+dataset-date = تاریخ
+license = لائیسنس<licenseLink> { $license } </licenseLink>
+license-mixed = گڈ وَڈ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اسوں اواز سو ڈیٹا سیٹ ڈونلوڈ گر
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = عام اواز سو ڈیٹا یے اوڑے سو دن اپشن ڈونلوڈ گر

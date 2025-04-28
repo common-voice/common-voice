@@ -30,3 +30,4 @@ get-involved-stayintouch = پر آوآز ٽيڪنولآجي ري چوڌآريٚ 
 get-involved-privacy-info = هم تمآريٚ مهلومآتي نيٚ ڌيآنيٚ  سونٚ سمبآلي رو وآئيدو ڪرآنٚ ڇآنٚ <privacyLink>وڌيڪ پڙو همآريٚ </privacyLink>رآزي وآڙو نوٽيس
 get-involved-success-title = تمآري { $language } تم ڪآميآبي سون سآئن اپ ڪري ڇي مدد ڪري ري مهربآني
 get-involved-success-text = هم وڌيڪ مهلومآتي سون رآپتي مين ري يآن جي يو اي دستيآب هووي
+get-involved-return-to-languages = ٻولي سآمون وآپسي جآئو

@@ -1,6 +1,9 @@
 # PARTNERSHIPS PAGE
 partnerships-header = ڀائيواري
+partnerships-header-text = او تمآم گھڻو ليوي ڇي ، آم آواز هو سآرو او اڪيلو نآ ڪرو ، همآ سون ڀآئيوآري ڪرڻو چآئو ڇو ، هم تمآ سون سوڻ ڻو پسند ڪريآن
 partnerships-get-in-touch = رآتبي  مين رهو
+partnerships-become-a-partner = ايڪ ميلوڙي آوآز ڀآئيوآر هووي
+partnerships-community-header = برآدري ، تڪليڪآر آئين سول سوسآئٽي
 partnerships-foundations-header = بنيآد
 partnerships-foundations-description = هم نبيآدي ،سول سوسآئيٽي آئين ڀآئيوآري سون ميلين ڪآم ڪرو ڇو  انٽرنيٽ ني پروگرآمآتي ڪآم <programmaticWork> ايڪ سهت مند جڳه ،کآس ڌيآني سون اوگھمڻو آڦريڪآ پر ۔همآري بآري وڌيڪ جآڻو</programmaticWork>
 partnerships-governments-header = هڪمتي
