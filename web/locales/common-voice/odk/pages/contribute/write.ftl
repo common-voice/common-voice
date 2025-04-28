@@ -1,9 +1,30 @@
 ## WRITE PAGE
 
 write = لِکا
+write-instruction = ماڻسان چي ڊومينا چا جُملا <icon> شامل ڪرا<icon>
+write-page-subtitle = ليسنا هاڙي ڊيٽا سيٽا ۾ شامل ڪرا cc-o اِٺي شامل ڪروڙي جُملي ماڻسان چي ڪاڻ سدائِين پلي ريهي۔
 sentence =
     .label = جُملا
+sentence-input-placeholder = آپڪا عوامِي ڊومين جُملا اِٺي شامل ڪرا۔
+small-batch-sentence-input-placeholder = آپڪا عوامِي ڊومين جُملا اِٺي شامل ڪرا۔
+citation-input-placeholder = آپڪا جُملا جِٺي رڪارڊ ڪلا ڇَي اُٺلاچ حوالا ڏِيا (لازمِي)
+citation =
+    .label = حوالا
+sc-write-submit-confirm = عوامِي ڊُومين <wikipediaLink> مين تصدِيق ڪرين ڇَين تہ ها جُملا ڇَي، ائُون او اَپ لوڊ ڪرڻي چِي مُنُون </wikipediaLink> موڪل ڇَي۔
+sc-review-write-title = مين ڪِسي جُملي شامل ڪر سِگھَين ڇَين؟
+sc-review-small-batch-title = گِڻوڙي جُملي ڪِيُون شامل ڪجِي
+new-sentence-rule-1 = پابندِيا </noCopyright> ڪو بِي ڪاپِي ڪونهِي ڪروڙا ڇَي۔ <noCopyright> <cc0>
+new-sentence-rule-2 = هر جُملا 15 لفظا کن گھٽ
 new-sentence-rule-3 = صحِيح گرامر اِستعمال ڪرا
+new-sentence-rule-4 = صحِيح اسپيلنگ ائُون مخصُوص جاءِ اِستعمال ڪرا
+new-sentence-rule-5 = نہ ئِي ڪو بِي  انگ ائُون نہ ئِي خاص اکر
+new-sentence-rule-6 = ڏُوجي مُلڪا چَي خط نہ
+new-sentence-rule-7 = جائِز حوالي شامل ڪرا
+new-sentence-rule-8 = مثالِي نمُوني سُون قُدرتِي ائُون ٻولڻي هاڙي (اوهچ جُملا پڙهڻي ۾ سولا هُوَڻ کپَي)
+login-instruction-multiple-sentences = چُونڊوڙي جُملي شامل ڪرڻي چي ڪاڻ لاگ اِن </loginLink> سائِين اَپ <loginLink> ڪرا
+how-to-cite = مين ڪيُون بيان ڪرين؟
+how-to-cite-explanation-bold = لِنڪ يان بڙي ڪاما چي پُوري نانوان سُون حوالا ڏِيا URL.
+how-to-cite-explanation = جي ويهچ تمچي آپڪي لفظ هِتي، <italicizedText> بس ڪيهوا تہ اَمهان نُون جاڻڻي چا کپ ڇَي تہ تمهان نُون ها مواد ڪِٺي مِللا ڇَي تہ جُون اَمهِين چيڪ ڪر سگھُون تہ اوهچ </italicizedText> عوامِي ڊومينا ۾ ڇَي ائُون ڪاپِي ڪرڻِي چِي موڪل ڪونهِي۔ حوالان بابت بڌِيڪ معلُوماتِي چي ڪاڻ ڏيکا امچا ”آپڪا حولا“
 guidelines = هدايتا
 contact-us = اَمهان سُون رابطا ڪرا
 add-sentence-success = 1 جُملا ڀيڙا ڪلا گيلا
@@ -69,18 +90,74 @@ bulk-upload-failed-toast = اَپلوڊ ناڪام هُلَي، مهربانِي
 bulk-submission-success-header = مدد ڪرڻي چي ڪاڻ تمچِي مهربانِي جو تمهِين گھڻِي تعدادِي ۾ جمع ڪرالي۔
 bulk-submission-success-subheader = تمهِين ڪامن وائِيسا ۾ جُملان چي مقصدان ۾ پُجڻي تاڻِين امچِي هر روز مدد ڪرا ڇَوا۔
 upload-more-btn-text = بڌِيڪ جُملي اَپ لوڊ ڪرا؟
+file-invalid-type = ناقص فائِيل (ردِي فائِيل)
+file-too-large = تمام موٽِي فائِيل ڇَي
+file-too-small = صفا ڌاڪڙِي فائِيل ڇَي
+too-many-files = تمام گھڻِيا فائِيلا
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = </icon> چُونڊوڙي جُملي عوامِي ڊومينا ۾ شامل ڪرا <icon>
+multiple-sentences-error = تمهِين آپ جمع ڪراوَڻي چي ڪاڻ هيڪ چُونڊوڙا جُملا شامل ڪونهِي ڪر سِگھا ڇَوا
+exceeds-small-batch-limit-error = 1000 کن بڌِيڪ جُملي جمع ڪونهِي ڪر سِگھا ڇوا
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] لڪِير حدِي کن بڌِيڪ گيلِي چلِي 1 مِنٽا ۾ بڙتِي ڪوشش ڪرا
+       *[other] لڪِير حدِي بڌِيڪ گيلِي چلِي بڙتِي  { $retryLimit } ڪوشش ڪرا
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] لڪِير حدِي کن بڌِيڪ گيلِي چلِي۔ 1 سيڪنڊا ۾ بڙتِي ڪوشش ڪرا
+       *[other] لڪِيرحدِي کن بڌِيڪ  { $retryLimit }  گيلِي چلِي، بڙتِي ڪوشش ڪرا
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تمهِين اي صفحي ۾ جمع ڪراوَڻي چي ڪاڻ حدِي تاڻِين پُجتِي گيلي ڇَوا۔ مهربانِي ڪتِي ڏُوجا جُملا   حاضر ڪرڻي ڪاڻ 1 مِنٽ اِنتظار ڪرا۔ اِنتظار ڪرڻي چي ڪاڻ تمچِي مهربانِي۔
+       *[other] تمهِين جمع ڪراوَڻي چي ڪاڻ اي صفعي چِي حدِي تاڻِين پُجتِي گيلي ڇَوا۔ مهربانِي ڪتِي ڏُوجا جُملا جمع ڪرڻي کن پيهڻُون { $retryLimit } منٽ اِنتظار ڪرا۔ اِنتظار ڪرڻي چي ڪاڻ تمچِي مهربانِي۔
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تمهِين جمع ڪراوَڻي چي ڪاڻ اي صفعي چِي حڌِي تاڻِين پُجتِي گيلي ڇَوا۔ ڏُوجا جُملا پيش ڪرڻي کن پيهڻُون مهربانِي ڪتِي 1 سيڪنڊ اِنتظار ڪرا۔ اِنتظار ڪرڻي چي ڪاڻ تمچِي مهربانِي۔
+       *[other] تمهِين اي صفعي ۾ جمع ڪراوَڻي چِي حدِي تاڻِين پُجتِي گيلي ڇَوا۔ ڏُوجا جُملا جمع ڪرڻي کن پيهڻُون مهربانِي ڪتِي { $retryLimit } سيڪنڊ اِنتظار ڪرا۔ اِنتظار ڪرڻي چي ڪاڻ تمچِي مهربانِي۔
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 جُملي مُون ڀيڙي هُلي
+       *[other] { $uploadedSentences } مُون جُملان نُون جمع ڪلَي گيلَي { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 جُملي مُون جمع هُلي، هِڪ سِرکان جُملان نُون ڊائُون لوڊ <downloadLink>ڪرڻي چي ڪاڻ اِٺي </downloadLink> ڪِلڪ ڪرا۔
+       *[other] { $uploadedSentences } مُون جُملان نُون ڀيڙَي ڪلَي گيلَي۔ { $totalSentences } هِڪ سِرکان جُملان نُون ڊائُون لوڊ <downloadLink> اِٺي </downloadLink> ڪِلڪ ڪرا۔
+    }
+small-batch-sentences-rule-1 = ”مين ڪِسي جُملي شامل ڪر سِگھين ڇَين۔“ اڳواڻ خطان پر چالس۔
 small-batch-sentences-rule-2 = هيڪِي لائِينِي ۾ هيڪ جُملا شامل ڪرا
 small-batch-sentences-rule-3 = هيڪ چڪر ”Enter“ يان بڙي ”Return“  دباوَڻي سُون جُملا نُون هيڪِي لائِينِي کن جُدا ڪرا۔
 small-batch-sentences-rule-4 = 1000 جُملي شامل ڪرا
+small-batch-sentences-rule-5 = سِگڙي جُملي هيڪي ئِي ڊومينا چي هُوَڻ کپِي
+small-batch-sentences-rule-6 = ڪُلان جُملان چا هيڪَچ ئِي حوالا هُوَڻ کپَي
+# menu item
+add-sentences = جُملي شامل ڪرا
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جُملي شامل ڪرا ائُون اُونهان چا جائِزا گيهوا، سوال شامل ڪرا، آڊيوئِي چِي نقل ڪرا۔
+add-sentences-menu-item-tooltip = آپڪِي ٻولِي ۾ جُملي شامل ڪرا
+review-sentences-menu-item-tooltip = آپڪِي ٻولِي ۾ جُملان چا جائزا گيهوا
+add-questions-menu-item-tooltip = آپڪِي ٻولِي ۾ سوال شامل ڪرا
+transcribe-audio-menu-item-tooltip = آڊيو رڪارڊنگِي نُون آپڪِي ٻولِي ۾ نقل ڪرا
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = اختيار ائُون مينيُون لِکا
+add-sentences-menu-item-aria-label = برادري چي پڙهڻي چي ڪاڻ نوين جُملي لِکا
 review-sentences-menu-item-aria-label = برادرِي چي طرفُون موڪلوڙان جُملان چا جائزا گيهوا
 add-questions-menu-item-aria-label = برادري چي پڙهڻي ائُون جواب ڏِيڻي چي ڪاڻ نوين سوال جمع ڪراوا
 transcribe-audio-menu-item-aria-label = آڊيو رڪارڊنگِي نُون متنا ۾ نقل ڪرا

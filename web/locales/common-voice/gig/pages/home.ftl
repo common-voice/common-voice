@@ -120,6 +120,10 @@ get-started = سورو ڪرو <icon><icon>
 ## Action items section
 
 action-items-section-title = ڪآمن وآئيس برآدري ري اڳوآڻي مين ڊيٽآ ٺآئي سآرو ايڪ مڦت ، کولوڙآ سورس پليٽ ڦآرم ڇي۔
+action-items-section-subtitle = ڪوئي بي منک تيڪسٽ آئين اسپيچ ڊيٽآ سيٽس شيئر ڪري ۔ ٺآئي آئين ڪيوريٽ ڪري آپيري ٻولي ني مهڦوز ڪري ، بهآل ڪري آئين بلند ڪري سڪي ڇي ۔
+scripted-card-header = اسڪرپٽ هووڙآ تڪرير
+scripted-card-content = آپيري ٻولي مين جملآ بلند آوآزي سون پڙهو آئين دنيآ مين سب سون وڌيڪ متنوه آوآمي شرڪتي وآڙي تڪرير ڊيٽآ سيٽ مين هيسو لو
+spontaneous-card-header = بي اکتيآري تڪرير
 
 ## Community section
 
