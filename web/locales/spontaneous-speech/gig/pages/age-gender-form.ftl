@@ -11,3 +11,7 @@ why-are-you-asking = تو ڪآ ٻوجھ رو ڇي
 
 ## Gender dropdown
 
+male_masculine = ڇورآ
+female_feminine = ٻير
+intersex = نآر مآدي
+transgender = کڌڙآ
