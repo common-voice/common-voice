@@ -45,6 +45,7 @@ resource-coqui-info = تڪريٚر ٽيڪنآلآجي ني کولي سآرو و�
 community-playbook = برآدري رمي رو ڪيٚتآب
 resource-playbook-info = سجي آم آوآزي ري سڦري پر </playbookLink> مدد گآر هدآئيت ڊونٚڊو <playbookLink> لوڪلآئيٚزيشني سونٚ لين ڊيٽآسيٽ ريٚ استهمآل تآئين آئينٚ بهڙآبهڙ همآريٚ برآدريٚ سونٚ ڪي يونٚ ميلي۔
 data-other-librispeech-description = پڙي وآڙيٚ انگريزي تڪرير ڇي Khz تڪريٚبن1000 ڪلآڪي رو  16 LibriSpeech پروجيڪٽ مينٚ آڊيو بوڪ پڙي مينٚ ڪڏوڙآ ڇيLibriVox ۔
+data-other-ted-name = ٽيڊ ليم ڪآرپس
 data-other-ted-description = ويب سآئيٽي پر موجودTED آڊيو ٻوٚليٚ مينٚ ٺآيو گيٚيو آئينٚ TED-LIUM corpusٽرآنسڪرشن
 data-other-voxforge-description = اوني ڦري آئينٚ کولوڙآ سورس تڪرير اوڙکآڻ انجڻ سونٚ استهمآل ڪري سآرو نڪل ڪيٚڌوڙآ تڪريٚر بهڙو VoxForge ڪري سآرو ٺآيو گيٚيو ڇي۔
 data-other-tatoeba-description = جملو ،ترجمو، آئينٚ ٻوٚليٚ وآڙي آڊيي رو ايڪ موٽو ڊيٽآ سيٽ ڇي جيڪو ٻوٚليٚ سيکي مينٚ استهمآل Tatoebaڪري سآرو ايٚ ڊآئون لوڊ آنو ريٚ برآدري ترڦو ريٚڪآرڊ هووڙي انگريزي ٻوٚليٚ وآڙي پر پآبند ڇي۔
