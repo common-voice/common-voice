@@ -1,3 +1,11 @@
+---
+name: Add a language to Spontaneous Speech
+about: Add your language to the Spontaneous Speech platform and dataset
+title: 'Spontaneous Speech New Language: '
+labels: 'Type: SpontSpeech New'
+assignees: 
+---
+
 Thank you for your interest in adding a new language to the Common Voice Spontaneous Speech platform and dataset.
 
 - Language to add to Spontaneous Speech:

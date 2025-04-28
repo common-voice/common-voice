@@ -110,7 +110,6 @@ community-and-languages-menu-item-tooltip = ٻولیاں ٻِیا برادریا
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = باریک ترتیبیاں مینیو
 partnerships-menu-item-aria-label = کامن وائس ساں شریکتالے تے باریک سِکھ
 press-and-stories-menu-item-aria-label = کامن وائس ساں قِصّے ٻِیا پریس ریلیزیک پہن٘چ
 community-and-languages-menu-item-aria-label = کامن وائس تی مدد ساں ٻولیاں ٻِیا برادریاں وَڑا

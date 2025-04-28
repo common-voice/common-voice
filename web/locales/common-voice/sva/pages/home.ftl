@@ -33,13 +33,13 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] { $count } თუ̂ე
-       *[other] { $count } თუ̂ე
+        [one] { $count } მო
+       *[other] { $count } თუ̂ეა̈რ
     }
 x-years-short =
     { $count ->
-        [one] { $count }ი
-       *[other] { $count }ი
+        [one] { $count } ეშხუ
+       *[other] { $count } იორი
     }
 help-make-dataset = ლა̈ნმა̈რჯუ̂ ხარისხია̈ნ ჩია̈შდ ხელმისაწუ̂დომ ხმოუ̂ან მონაცემრე ლასყე̄ნას.
 sign-up-account = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ ანგარიშჟი
@@ -86,17 +86,22 @@ transcribe-audio = ახა̈სყ აუდიოშ ტრასკრიფ
 press-and-stories = პრესა ი ისტორია̄̈ლ
 community-and-languages = საზოგადოება ი ნინა̈რ
 coming-soon = დო̄სგ
+about-us = ნიშგუ̂ეჲ ბედჟი
+scripted-speech = სგალჷჲრ ლიგჷრგა̈ლი
+spontaneous-speech = სპონტანურ გა̈რგლა
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = პარტნიორობ, პრესა ი იტორია̄̈ლ, საზოგადოება ი ნინა̈რ
+about-us-menu-item-tooltip = ჟ'ა̄̈ხმეჴერ Common Voice-ეშ მისია̄̈შ ი გუნდი ბედჟი
+about-us-menu-item-aria-label = ნიშგუ̂ეჲ პარამეტრალე მენიუ
 partnerships-menu-item-tooltip = ითანამშრომლე ნიშგუ̂ეჲცახა̈ნ
 press-and-stories-menu-item-tooltip = ლა̈ხმუშგუ̂რა̄̈ნ ნიშგუ̂ეჲ ბლოგს ჰედ ათჷი̄რ ნიშგუ̂ეჲ ბედჟი
 community-and-languages-menu-item-tooltip = აღმოჩინე ნინა̈რ ი თემა̈რ ი სა̈ერთო ჰერ
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = პარამეტრალე მენიუშ ბედჟი
+about-us-menu-aria-label = პარამეტრალე მენიუშ ბედჟი
 partnerships-menu-item-aria-label = ა̈ხმეჴერ  Common Voice-ცახა̈ნ პატნიორობა̄̈ ბედჟი
 press-and-stories-menu-item-aria-label = Common Voice-ცახა̈ნ დაკაუ̂შირებულ პრესრელიზა̈რთე ი ისტორია̄̈ლთე წუ̂დომა
 community-and-languages-menu-item-aria-label = ჟა̈ხითუ̂რ Common Voice მხარდამჭერ საზოგადოება̄̈ლ ი ნინა̈რ

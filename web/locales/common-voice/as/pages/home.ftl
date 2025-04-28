@@ -99,7 +99,6 @@ community-and-languages-menu-item-tooltip = ভাষা আৰু সমাজ 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = সন্দৰ্ভৰ বিকল্পৰ মেন্যু
 partnerships-menu-item-aria-label = কমন ভইচৰ সৈতে অংশীদাৰিত্ব সন্দৰ্ভে জানি লওক
 press-and-stories-menu-item-aria-label = কমন ভইচৰ সৈতে জড়িত প্ৰেছ বিজ্ঞপ্তি আৰু গল্পবোৰ চাওক
 community-and-languages-menu-item-aria-label = কমন ভইচৰ দ্বাৰা সমৰ্থিত সমাজ আৰু ভাষাবোৰ অন্বেষণ কৰক

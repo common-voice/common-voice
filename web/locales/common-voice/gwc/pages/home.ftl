@@ -96,7 +96,6 @@ community-and-languages-menu-item-tooltip = جِبونہ تے کمیونٹی ت�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اختیاراتیں لیس باٞراٞ مئ
 partnerships-menu-item-aria-label = کامن وائیس سٞہ شراکِتاٞں باٞراٞ مئ اِزدہ کٞر
 press-and-stories-menu-item-aria-label = کان وائیساٞں باٞراٞ مئ قصاٞ تے چاپ داٞگاٞل کٞہ پھٞݭ
 community-and-languages-menu-item-aria-label = کامن وائس تعاون کٞریل جِبونہ تے کمیونٹی پاٞلٹ

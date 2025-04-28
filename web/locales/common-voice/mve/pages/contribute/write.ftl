@@ -45,7 +45,7 @@ automotive_transport = گاڏَي ھان سواريَ
 # Sentence Domain dropdown option
 finance = حساب ڪتاب
 # Sentence Domain dropdown option
-service_retail = ڪم ڪار ھان ويڪرو
+service_retail = ڪوم ڪار ھان ويڪرو
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
@@ -82,7 +82,7 @@ accepted-files = قبول ھوڻ آڙِي فائلون رو قسم: صرف  .tsv
 minimum-sentences = فائل ۾ گھٽ ۾ گھٽ جملہ: 1000
 maximum-file-size = فائل رو وڌ ۾ وڌ سائز:25 ايم بِي
 what-needs-to-be-in-file = مھارِي فائل ۾ ڪِي ھوڻ کپيَ؟
-what-needs-to-be-in-file-explanation = مھربونِي ڪرَي مھورِي <templateFileLink> کاڪو فائل </templateFileLink> ٿونرا جملا ڪاپِي رائٽ ھون آزاد ھوڻ کپيَ(CC0 يا جمع ڪِيوڙَي رِي طرف ھون اجازت ڏِينوڙو اصلي ڪم ) صاف ھوئيَ ، گرامر رَي اعتبار ھون ٺيڪ ھان پڙھڻ ۾ سولو۔ شامل ڪيوڙَي جملو نيَ پڙھڻ ۾ -10-15 سيڪنڊ لاگڻ کپيَ ھان انگون، ٺيڪ اسمون ھان خاص اکرون نيَ شامل ڪرڻ ھون پاسو ڪرڻ کپيَ
+what-needs-to-be-in-file-explanation = مھربونِي ڪرَي مھورِي <templateFileLink> کاڪو فائل </templateFileLink> ٿونرا جملا ڪاپِي رائٽ ھون آزاد ھوڻ کپيَ(CC0 يا جمع ڪِيوڙَي رِي طرف ھون اجازت ڏِينوڙو اصلي ڪوم ) صاف ھوئيَ ، گرامر رَي اعتبار ھون ٺيڪ ھان پڙھڻ ۾ سولو۔ شامل ڪيوڙَي جملو نيَ پڙھڻ ۾ -10-15 سيڪنڊ لاگڻ کپيَ ھان انگون، ٺيڪ اسمون ھان خاص اکرون نيَ شامل ڪرڻ ھون پاسو ڪرڻ کپيَ
 upload-progress-text = اپ لوڊ ھليَ وئو
 sc-bulk-submit-confirm = ھوُن تصديق ڪرون ھون اَي جملہ عوامي ڊومين <wikipediaLink>ھيَ</wikipediaLink>ھان مھيَ ڪوڊِي ايئيَ نيَ اپ لوڊ ڪرڻ رِي اجازت ھيَ
 bulk-upload-success-toast = وڏِي تعداد ۾ جُملا اپ لوڊ ڪِيا گيا

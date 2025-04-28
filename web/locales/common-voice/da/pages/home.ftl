@@ -84,6 +84,7 @@ add-questions-coming-soon = Tilføj spørgsmål <small>(kommer snart)</small>
 transcribe-audio-coming-soon = Transskriber lyd <small>(kommer snart)</small>
 transcribe-audio = Transskriber lyd
 coming-soon = Kommer snart
+about-us = Om os
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,6 +108,9 @@ add-text = Tilføj tekst
 find-us-on-matrix = Find os på Matrix
 # label for button
 find-us-on-matrix-action = Find os på Matrix
+ask-mozilla-share = Bed Mozilla om at dele dine begivenheder
+# label for button
+ask-mozilla-share-action = Del din begivenhed
 contribute-github = Bidrag på GitHub
 # label for button
 contribute-github-action = Bidrag på GitHub

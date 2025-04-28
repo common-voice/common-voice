@@ -94,7 +94,6 @@ community-and-languages-menu-item-tooltip = Забонҳо, ҷомеаҳо ва 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Common Voice» маълумот гиред
 press-and-stories-menu-item-aria-label = Ба матбуоти расмӣ ва мақолаҳои марбут ба лоиҳаи «Common Voice» дастрасӣ пайдо намоед
 community-and-languages-menu-item-aria-label = Дар бораи ҷамъияти мо ва забонҳое, ки аз ҷониби «Common Voice» дастгирӣ мешаванд, маълумоти пурра пайдо кунед

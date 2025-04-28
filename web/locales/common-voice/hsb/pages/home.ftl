@@ -92,17 +92,22 @@ transcribe-audio = Awdijo transkribować <small>(přińdźe bórze)</small>
 press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
 coming-soon = Bórze k dispoziciji
+about-us = Wo nas
+scripted-speech = RĚČENJE ZE SKRIPTOM
+spontaneous-speech = SPONTANE RĚČENJE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerstwa, nowiny a stawiznički, zhromadźenstwo a rěče
+about-us-menu-item-tooltip = Zhońće wjace wo misiji a teamje za Common Voice
+about-us-menu-item-aria-label = Nastajenja menija „Wo nas“
 partnerships-menu-item-tooltip = Stańće so z našim partnerom
 press-and-stories-menu-item-tooltip = Wopytajće naš blog abo pisajće wo nas
 community-and-languages-menu-item-tooltip = Wotkryjće rěče, zhromadźenstwa a Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Wo meniju Nastajenja
+about-us-menu-aria-label = Wo meniju Nastajenja
 partnerships-menu-item-aria-label = Zhońće wjace wo partnerstwach z Common Voice
 press-and-stories-menu-item-aria-label = Mějće přistup k wozjewjenjam nowinarstwa a stawizničkam wo Common Voice
 community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a rěče, kotrež so přez Common Voice podpěruja
@@ -123,7 +128,7 @@ get-started = Prěnje kroki <icon><icon>
 
 action-items-section-title = Common Voice je darmotna platforma wotewrjeneho žórła za wot zhromadźenstwa nawjedowane wutworjenje datow
 action-items-section-subtitle = Kóždy móže swoju rěč wobchować, zaso wožiwić a polěpšić, hdyž tekst a rěčenske datowe sadźby dźěli, wutworja a rjaduje.
-scripted-card-header = Napisane rěčenje
+scripted-card-header = Rěčenje ze skriptom
 scripted-card-content = Čitajće sady wótře w swojej rěči a přinošujće k najwšelakorišej zjawnej rěčnej datowej sadźbje w swěće.
 spontaneous-card-header = Spontane rěčenje
 spontaneous-card-content = Wotmołwće na namołwy, zo byšće datowe sadźby za organiske, wobchadnorěčne konteksty wutworił. To je perfektne za předewšěm ertne rěče.

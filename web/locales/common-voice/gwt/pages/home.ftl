@@ -96,7 +96,6 @@ community-and-languages-menu-item-tooltip = باتی نام اؤ برادری ن
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اختیاراتَنہ مینُوَنہ بارا
 partnerships-menu-item-aria-label = کامن وائسہ مِنزی شراکَتَنہ بارا پروزِؤ
 press-and-stories-menu-item-aria-label = کامن وائسَنہ متعلق پرېس ریلیز اؤ ہیڄان ناماں فُک فېدَؤ
 community-and-languages-menu-item-aria-label = کامن وئسَنہ ذریعہ ئے تعاون لېئسنت برادری اؤ باتی نامہ معلوم کېرِؤ

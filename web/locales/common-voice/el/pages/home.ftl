@@ -86,6 +86,7 @@ transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
 coming-soon = Προσεχώς
+about-us = Σχετικά με εμάς
 
 ## MENU ITEMS TOOLTIPS
 
@@ -96,7 +97,6 @@ community-and-languages-menu-item-tooltip = Ανακαλύψτε γλώσσες,
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Μενού επιλογών πληροφοριών
 partnerships-menu-item-aria-label = Μάθετε για τις συνεργασίες με το Common Voice
 press-and-stories-menu-item-aria-label = Αποκτήστε πρόσβαση σε δελτία τύπου και άρθρα σχετικά με το Common Voice
 community-and-languages-menu-item-aria-label = Εξερευνήστε την κοινότητα και τις γλώσσες που υποστηρίζει το Common Voice

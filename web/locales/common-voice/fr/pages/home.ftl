@@ -88,17 +88,20 @@ transcribe-audio = Transcriptions audio <small>(prochainement)</small>
 press-and-stories = Presse et articles
 community-and-languages = Communautés et langues
 coming-soon = Prochainement
+about-us = À propos
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partenariats, presse et témoignages, communautés et langues
+about-us-menu-item-tooltip = Découvrez la mission et l’équipe à l’origine de Common Voice
+about-us-menu-item-aria-label = Options du menu « À propos »
 partnerships-menu-item-tooltip = Partenariats
 press-and-stories-menu-item-tooltip = Consultez notre blog ou écrivez à notre sujet
 community-and-languages-menu-item-tooltip = Découvrez les langues, les communautés et Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Options du menu « À propos »
+about-us-menu-aria-label = Options du menu « À propos »
 partnerships-menu-item-aria-label = En savoir plus sur les partenariats avec Common Voice
 press-and-stories-menu-item-aria-label = Accédez aux communiqués de presse et aux articles liés à Common Voice
 community-and-languages-menu-item-aria-label = Découvrez les communautés et les langues prises en charge par Common Voice

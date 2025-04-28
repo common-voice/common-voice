@@ -97,7 +97,6 @@ partnerships-menu-item-tooltip = Obair i gcomhar linn
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Roghanna an roghchláir maidir leis
 community-and-languages-menu-item-aria-label = Déan iniúchadh ar an bpobal agus ar na teangacha a fhaigheann tacaíocht ó Common Voice
 
 ## NEW HOME PAGE KEYS

@@ -94,7 +94,6 @@ community-and-languages-menu-item-tooltip = 探索語言、社群佮 Common Voic
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = 關於選項選單
 partnerships-menu-item-aria-label = 了解如何佮 Common Voic變成夥伴
 press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿佮故事
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言

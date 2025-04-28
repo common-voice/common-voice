@@ -86,17 +86,22 @@ transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos
 community-and-languages = Communitate e linguas
 coming-soon = Veniente tosto
+about-us = A proposito de nos
+scripted-speech = DISCURSO CON TRANSCRIPTION
+spontaneous-speech = DISCURSO SPONTANEE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Collaborationes, Pressa e articulos, Communitate e linguas
+about-us-menu-item-tooltip = Saper plus re le mission e le equipa detra Common Voice
+about-us-menu-item-aria-label = Optiones del menu: A proposito de nos.
 partnerships-menu-item-tooltip = Collaborar con nos
 press-and-stories-menu-item-tooltip = Visita nostre blog o scribe re nos
 community-and-languages-menu-item-tooltip = Discoperi linguas e communitates e Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Re le menu del optiones
+about-us-menu-aria-label = Optiones del menu: A proposito.
 partnerships-menu-item-aria-label = Saper plus re le collaborationes con Common Voice
 press-and-stories-menu-item-aria-label = Accede al communicatos de pressa e al articulos relative a Common Voice
 community-and-languages-menu-item-aria-label = Explora le communitate e le linguas supportate per Common Voice
