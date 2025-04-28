@@ -23,12 +23,12 @@ share-common-voice = Má common Voice
 review-instruction = Dà ŋùku ɖo emè nyɔɛɖe né a trɔ le nyà né hiã a.
 record-submit-tooltip = { $actionType } Sɔ ɖɔ ɖa né wò sɔgbè a.
 clips-uploaded = Minikinɔnɔmètata kèwo dà ɖo kà mè aa
-record-abort-title = Lè nyà keŋugbɔxue a?
+record-abort-title = Lè nyà keŋugbɔxue a ?
 record-abort-text = Ne wò jo fifi a wo la bu apo ŋùkɔ̀yìyǐ.
 record-abort-submit = Ɖo nyàléléwo ɖo ɖa.
 record-abort-continue = Wu nyàlele nu
 record-abort-delete = Jo eye  tutu àpo nyàlelewo kpata.
-review-aborted = Nu kè wò ɖo ɖo ɖa a mu téŋu yì o. Ɖe wò ji la tútú apo nyàléléwo a?
+review-aborted = Nu kè wò ɖo ɖo ɖa a mu téŋu yì o. Ɖe wò ji la tútú apo nyàléléwo a ?
 review-submit-title = Dà ŋùku ɖo nu mè né wòa sɔ ɖo ɖaa.
 review-submit-msg = Akpé na wò ɖo  apo nyàlelewo ŋuti ! <lineBreak></lineBreak> Fifì a  wò la téŋu dà àsi ɖo eji eye a sɔ nyàlelekpaɖe kèwo gbɔ̃nà a ɖo ɖaa.
 review-recording = Numèkùkǔkpɔ / numègòglǒkpɔ / numèjijikpɔ́.
@@ -52,7 +52,7 @@ thanks-for-voice-toast = Akpé ɖo gbènyànanawo ŋúti.
 thanks-for-voice-toast-error = Vòdàdǎɖé va emè kè wò le ɖo nyànana kè kã̀ nyàlelewo ŋúti ɖa.
 first-cta-gender-select-default-option = Wɔ̀ cãcã
 first-cta-gender-select-help-text =
-    .label = Ɖe wò ji la  ɖe apo ŋusunyinyi àlo nyɔnùnyinyi fíɔ a?
+    .label = Ɖe wò ji la ɖe apo ŋusunyinyi àlo nyɔnùnyinyi fíɔ a?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Akpe na wò bé wò woe apo gbè na mi/ àkpe na wò bé wò na mi apo gbè !
 second-cta-subtitle-text = Ku apo àmètakoɖoefotadadaɖo kà mè a wo la téŋu nɔ le ŋùku ɖo àpo dɔ eye wo la teŋu nɔ̀ kàmè ku hasòsoe kèwo woe na woabe gbèwo na àmè.
@@ -68,7 +68,7 @@ read-sentences-coming-soon = Hlɛ̃̀ nyàgbèwo <small> ( né mi va do gò a)<
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Hlɛ̃ nyàgbèwo eye a ɖó nyàbiɔséwo ŋuti.
-read-sentences-menu-item-tooltip = Le nu kè wò le  hlɛ̃̀ lè miabé gbè a  mè.
+read-sentences-menu-item-tooltip = Le nu kè wò le hlɛ̃̀ lè miabé gbè a mè.
 answer-questions-menu-item-tooltip = Le àpo gbè huè kè nu yé wò  lě ɖo nyàbiɔséwo ŋuti éyé wò le dó ŋusɛ̃ àmèwo lè miabé gbè me.
 
 ## MENU ITEM ARIA LABELS
