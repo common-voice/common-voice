@@ -19,6 +19,8 @@ general = wɛ̀ɛ̀lɩ́
 healthcare = àlàfìà
 # Sentence Domain dropdown option
 history_law_government = dɔ̀m, kíɖììwú nɩ̀ gómìnàntɩ̀
+# Sentence Domain dropdown option
+nature_environment = kètéŋà
 sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
 sentence-variant-select-placeholder = ɩ̀lɩ̀zɩ́ kʊ̀nʊ́m nàkɩ̀rɩ̀ (pà wéŋkì)
 sentence-variant-select-multiple-variants = kʊ̀nʊ́m tɛ̀ tɔ̀m kɩ̀bázɩ̀á / kʊ̀nʊ́mɩ̀n  ŋdɩ́ndɩ̀
@@ -31,6 +33,7 @@ sc-bulk-upload-instruction = ɩ́túú mɩ̀tɛ̀ɛ́ tɔ̀m tàkàrá cé
 sc-bulk-upload-instruction-drop = ɩ̀sɩ̀ɩ́ tɔ̀m tàkàrá cé yàa nɩ̀ ɩ̀tɩ̀rɩ̀nà
 bulk-upload-additional-information = á mɩ̀njádɩ̀ ɩ́fà lààb́b́rʊ̀wá pɩ́jɛ̀zɩ̀ tɔ̀m tàkàrá ɖɔ̀ɔ́zɩ̀, ɩ̀yáá ɖàà<emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = á mɩ̀njádɩ̀ ɩ́fà lààb́b́rʊ̀wá pɩ́jɛ̀zɩ̀ tɔ̀m tàkàrá ɖɔ̀ɔ́zɩ̀, tɔm̀ wèntɩ̀ tɩ̀fɛ̀yɩ̀ lénlé lɛ́tɩ̀ wɛ̀ɛ̀ nà, ɩ̀yàà<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = ɩ̀tàsɩ̀ ɩ̀là
 try-upload-again-md = ɩ̀tàsɩ̀ ɩ́yèkɩ̀ná
 select-file = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ
 select-file-mobile = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ nɩ̀ ɩ́yèkɩ̀ná

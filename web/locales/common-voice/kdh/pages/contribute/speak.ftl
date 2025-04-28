@@ -74,5 +74,5 @@ answer-questions-menu-item-tooltip = ɩ̀gbɔ́ɔ́ mìlòú sàdɩ́ wènd
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = « màdɩ̀rɛ́ » tɛ̀ fùɖúŋ
-read-sentences-menu-item-aria-label = tóm pòwà wèmbɩ́ kòtòkòlì tɛ́ kʊ̀nʊ̀mɩ́n tɩ̀ndɩ̀ wèyèkìnà nà
+read-sentences-menu-item-aria-label = tɔ̀m pɔ̀wà wentì kòtòkòlì kʊ̀nʊ̀mɩ́n tɩ̀ndɩ̀ wèyèkìnà nà
 answer-questions-menu-item-aria-label = ɩ̀fà tɔ́m pɔ̀zɩ̀rɛ̀ kɩ́fàrɛ̀ nɛ́ sàmáɣ ɩ̀kàlɩ̀ nɛ̀ kɔ́ɖɔ̀
