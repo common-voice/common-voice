@@ -36,13 +36,16 @@ transgender = کڌڙآ
 # Gender
 other = ڏوجهي
 why-profile-title = پروڦآئيل ڪآ؟
+why-profile-text = آپيري بآري مين ڪجھ مهلومآت ڏي سون ، تم جيڪو آڊيو ڊيٽآ ڪآمن وآئسي پر جمآ ڪرآئو، او تڪريري سآرو وڌيڪ مڦيد سآبت هووي ۔ اوڙکڻو انجڻ جيڪو اين ڊيٽآ ني استهمآل ڪري ڇي ۔ونوري درستگي ني بهتر ڪري سآرو۔
 dashboard = ڊيش بورڊ
 build-profile = پروفائل ٺاھو
 avatar = اوتار
 goals = مڪسد
 settings = جوڙ جڪ
 edit-profile = پروڦآئيل مين ترميم ڪرو
+profile-create-success = ڪآميآبي ،پروڦآئيل ٺآيو گيو ڇي
 profile-close = بند ڪرو
+profile-explanation = ايڪ پروڦآئيلي سون آپيري ترڪي ري کبر رکو آئين همآري آوآزي ري ڊيٽآ ني وڌيڪ سئي ڪري مين مدد ڪرو
 accept-privacy-title = رازدآري پآليسي
 accept-privacy-and-terms = ڪآمن وآئس استمال ڪرو تم همآري <termsLink>سرتي </termsLink>ائين  <privacyLink> زرداري نوٽيس</privacyLink>ٻدل ڇآن
 login-identity = لاگ ان ري اوڙکڻ
