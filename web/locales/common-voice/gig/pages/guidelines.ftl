@@ -126,3 +126,7 @@ length-explanation = سوآل ليرو جوآب سرڦ ڌي جملي مين ڏي
 dont-add-subheader = بهڙو نآ ڪرو
 culturally-specific-questions = سڪآڦتي مکسوس سوآل
 culturally-specific-questions-explanation = اسي سوآل جيڪو سڪآڦتي توري پر کآس ڇي ، يآ جوآب ڏي بآبت گھڻو مڦروزآ پيدآ ڪري ڇي،
+length-avoid-explanation = اسي سوآل جي ري جوآب ڏي مين منک 15 سيڪنڊي مين ڪوشش ڪري ( ڪلپي ري وڌيڪي سون وڌيڪ ڊيگھ)
+process-steps = آمل مرهلآ
+process-steps-explanation = اسي سوآل جي سآرو ڪي ني ڪترآئي مرهلآ ري ڦهرست ڏي ري زرورت ڇي ۔ مرهلآ ري ڦهرست استهمآل ڪيۮوڙآ ني وڌيڪ ڪدرتي جوآب ڏي ري بدلي جوآب پڙي سآرو ترتيب ڏي وي ڇي۔
+offensive-content-sensitive-information = نآ پسند موآد يآ هسآس مهلومآت
