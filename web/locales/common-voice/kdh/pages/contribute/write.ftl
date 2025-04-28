@@ -51,6 +51,8 @@ too-many-files = tɔ̀m tàkàrɩ̀sɩ̀ wákɩ̀lɩ́
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>ɩ̀tàzɩ̀  zàmɔ́ɔ̀-dáà fàrándɩ̀ tɛ̀ tɔ̀m pɔ̀wà sàkɩ̀yɛ̀
 multiple-sentences-error = mɩ̀tàmbɩ̀zɩ̀ ɩ̀tàsɩ̀ tɔ̀m pɔ̀wà pɔ̀ɖɔ̀ɔ́ sàdɩ̀ wèŋkɩ̀ pèyèkìnà kʊ́ɖʊ̀ḿ nà
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
