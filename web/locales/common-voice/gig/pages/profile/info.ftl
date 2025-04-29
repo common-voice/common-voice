@@ -76,3 +76,4 @@ variant-contribution-help = ڪوئي بي ٻولي يآ ٻولي ري کآندآ
 variant-contribution-option-1 = مآري ٻولي مين سب ڪسمي ري جملآ آئين ڪلپس مني ڏيکآئو
 variant-contribution-option-2 = رڳو مآري ڪسمي مين جملآ آئين ڪلپس ڏيکآئو
 variant-contribution-warning-title = سب جملآ آئين ڪلپي مين آڃآن تآئين ويريئنٽ ٽيگ نآ ڇي۔
+variant-contribution-warning-subtitle = جيڪۮي تم ني هيسو لي مين ڏوکآئي هو ري ڇي تو تم ڪي بي ٽيم آپيري ٻولي سآرو سب موآد ڏيکي سآرو وآپسي سوئچ ڪر سڪو ڇو۔
