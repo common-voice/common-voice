@@ -110,6 +110,18 @@ rate-limit-toast-message-seconds =
         [one] tɩ̀là wɛ̀jɛ̀zɩ̀. á pɩ̀là ɩ̀tàzɩ̀ ɩ̀là sèkɔ̃dɩ̀ kʊ̀ɖʊ̀mʊ́ʊ̀ dàá
        *[other] tɩ̀là wɛ̀jɛ̀zɩ̀. á pɩ̀là ɩ̀tàzɩ̀ ɩ̀là sèkɔ̃dɩ̀ wàà wèntì tɩ́ŋgɔ̀nì { $retryLimit } tɩ̀dàá
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] mɩ̀dálá yèkìtí tɛ́ tɩ̀nà fɔ̀lʊ́ʊ̀ kɩ̀nà kɩ̀dáà. ɩ̀ɖʊ̀ zúùrù ɩ̀ɖàm lɩ̀ntɩ̀ mìnùtì kʊ̀ɖʊ̀mʊ́ nà ìyèkì tɔ̀m pɔ̀ɖɛ̀ lèdérè. Mɩ̀nà zúùrù !
+       *[other] mɩ̀dálá yèkìtí tɛ́ tɩ̀nà fɔ̀lʊ́ʊ̀ kɩ̀nà kɩ̀dáà. ɩ̀ɖʊ̀ zúùrù ɩ̀ɖàm lɩ̀ntɩ̀ wàà { $retryLimit } mìnùtì nà ìyèkì tɔ̀m pɔ̀ɖɛ̀ lèdérè. Mɩ̀nà zúùrù !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] mɩ̀dálá yèkìtí tɛ́ tɩ̀nà fɔ̀lʊ́ʊ̀ kɩ̀nà kɩ̀dáà. ɩ̀ɖʊ̀ zúùrù ɩ̀ɖàm lɩ̀ntɩ̀ wàà  sèkɔ̃dì kʊ̀ɖʊ̀mʊ́nà ìyèkì tɔ̀m pɔ̀ɖɛ̀ lèdérè. Mɩ̀nà zúùrù !
+       *[other] mɩ̀dálá yèkìtí tɛ́ tɩ̀nà fɔ̀lʊ́ʊ̀ kɩ̀nà kɩ̀dáà. ɩ̀ɖʊ̀ zúùrù ɩ̀ɖàm lɩ̀ntɩ̀ wàà { $retryLimit } sèkõdì nà ìyèkì tɔ̀m pɔ̀ɖɛ̀ lèdérè. Mɩ̀nà zúùrù !
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $uploadedSentences ->
@@ -122,6 +134,7 @@ small-batch-response-message =
         [one] { $uploadedSentences } pɩ̀ɖɔ́zɩ̀ tɔ̀m pɔ̀ɖɛ̀ tùùzí{ $totalSentences }. ɩ̀nɔ́ɔ́ <downloadLink>cé</downloadLink> nɩ̀ ɩ̀tɩ̀rɩ̀nà tɔ̀m pɔ̀wà pìkìzìnà.
        *[other] { $uploadedSentences } pɩ̀ɖɔ́zɩ̀ tɔ̀m pɔ̀wà tùùzí{ $totalSentences }. ɩ̀nɔ́ɔ́ <downloadLink>cé</downloadLink> nɩ̀ ɩ̀tɩ̀rɩ̀nà tɔ̀m pɔ̀wà pìkìzìnà.
     }
+small-batch-sentences-rule-1 = ìfúù wèmbì pɩ̀mbɔ̀zɩ̀ sìsè pàlà « tɔ̀m pɔ̀wà wèŋnà kɛ̀ màmbɩ̀zɩ̀ màntàzɩ̀  » tɛ́ɛ̀ tàdàrɩ̀ tá nɛ̀ ?
 small-batch-sentences-rule-2 = ɩ̀tàzɩ̀ tɔ̀m pɔ̀ɖɛ̀ pà cɛ̀ɛ̀rɔ̀ɔ́ wénkì ɖɔ̀ɔ́zɩ̀
 small-batch-sentences-rule-4 = ɩ̀tàsɩ̀ pɩ̀tàlɩ̀’ tɔ̀m pɔ̀wà kútòkú/mɩ̀lɩ̀
 small-batch-sentences-rule-5 = pɩ̀bɔ́zɩ̀ sìsè tɔ̀m pɔ̀wà ɖɩ́ŋà ɩ̀wɛ̀nà fɔ̀lʊ́ʊ́ kʊ́ɖʊ̀mʊ́
