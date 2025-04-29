@@ -27,6 +27,7 @@ how-to-cite-explanation-bold = Sitér med ei URL-kopling eller heile namnet på 
 guidelines = Retningslinjer
 contact-us = Kontakt oss
 add-sentence-success = 1 setning innsamla
+required-field = Fyll ut dette feltet.
 single-sentence = Enkelt setning
 small-batch-sentence = Lite parti
 bulk-sentence = Masseinnsending
