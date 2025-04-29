@@ -2,6 +2,11 @@
 
 record-player-header = آپير آواز ريڪوڌنگ ڪرو
 mic-access-error = تم ني مآئيڪرو فون ني پر آسائي ري موڪل ڏيڻ کپي
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+prompt-page-instruction = </micIcon>{ $actionType }<micIcon>  جترآ هو سڪي تو ڪدرتي توري پر جوآب ڏئو۔
+no-prompts-message = اي ٻولي سآرو ڦي لآل ڪوئي بي ايشآرو ڪوني ڇي مهربآني ڪرين پنآ ني تآزو ڪرو يآ پڇي وڙي ڪوشش ڪرو۔
+error-skipping = ٽرآنسڪرپٽ ڇوڙي دورآن ايڪ گلتي هوگي۔
+error-recording = ريڪوڊنگ دورآن ايڪ گلتي هو گئي۔
 # For the button to delete a response to a prompt
 delete = کتم ڪرڻو
 # For the disabled button on a prompt that indicates a prompt is already submitted

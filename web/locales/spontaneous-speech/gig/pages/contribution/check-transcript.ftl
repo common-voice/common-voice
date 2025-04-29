@@ -9,6 +9,9 @@ vote-transcript-success = ٽرنسڪرپٽ ڪآميآبي سون ووٽ ڪرو �
 vote-transcript-error = ٽرآنسڪرپٽ ووٽ ڪري دورآن ايڪ گلتي هو گي ۔
 transcript-edited-success = ٽرآسڪرپٽ ڪآميآبي سون ايڊٽ ڪيويو گيو۔
 transcript-edited-error = ٽرآنسڪرپٽ ايڊٽ ڪري دورآن ايڪ گلتي هو ري ڇي ۔
+error-fetching-transcriptions = ٽرآنسڪرپشن هآسل ڪري ري دورآن ڪجھ گلتي هو گي ۔ مهربآني ڪرو پڇي وڙي ڪوشش ڪرو
+transcript-skipped-success = ٽرآنسڪرپٽ ڪآميآبي سون ڇوڙ ڪآڙيو
+transcript-skipped-error = ٽرآنسڪرپٽ ڇوڙي دورآن ايڪ گلتي هوگي۔
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = سهي
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
