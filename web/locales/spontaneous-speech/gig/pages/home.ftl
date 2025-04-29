@@ -25,8 +25,11 @@ check-bubble-title = <mark>چيڪ ڪرڻو</mark>
 check-bubble-subtitle = تم چيڪ ڪرو تو ٽرآنڪرپشن آڊيو سون ميلي ڇي يآ نآ ۔
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark> موآد </mark>
+data-bubble-subtitle = هم وکت بي وکت ڊيٽآ سيٽ ڏيتي رهوآن ڇآن ۔
 contact-us = هم سون رآپتو ڪرو
+contact-us-title = اي منسوبي مين بهڙي هو مين دلچسبي رکو ڇو ، يآ همآ سون ڀآئيوآري مين ۔
 contact-us-email = اي ميل:<emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = ڪآئي تم آگي مين ئي ڪآمن وآئيس ري اسپونٽينيئس اسپيچ پرو جيڪٽ سآرو همآري ري ڊيٽآ ٽيسٽنگ گروپي مين ڇي۔
 signup-input-placeholder = آپيرو اي ميل درج ڪر
 signup-button-value = اي ميل لنڪ ملڻو
 footer-text-privacy = <privacyLink> رآزدآري</privacyLink>
