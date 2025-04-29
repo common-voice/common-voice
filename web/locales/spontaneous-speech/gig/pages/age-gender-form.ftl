@@ -7,6 +7,9 @@ age-select-label = تآر اومر ڪآئي ڇيَ
 select-your-age = تآر اومر چونڊو
 gender-select-label = تآر جنس ڪسي ڇيَ
 select-your-gender = تآر جنس چونڊو
+country-of-residence-label = ملڪ ، ريآئشي رو ايلآڪو
+country-of-residence-placeholder =
+    .placeholder = آپيرو ملڪ ريآئشي رو ايلآڪو بهڙي ڪرو
 why-are-you-asking = تو ڪآ ٻوجھ رو ڇي
 thank-you-for-your-information = تمآري مآلومآتي ري موٽي مهرباني
 
