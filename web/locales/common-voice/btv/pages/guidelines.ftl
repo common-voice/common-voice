@@ -89,6 +89,8 @@ adding-sentences-subheader-spelling-punctuation-explanation = جملہ ضرور 
 adding-sentences-subheader-speakable = منے سو قابل
 adding-sentences-subheader-speakable-explanation = بُوٹوں  نو مڑنیئ جملے قدرتی آ یک پَرئیں مِل بیاد گرو تھے — اے پڑھو ہسان ھونتے پَرئیں کِسئ۔ اواز سو تنوع آ مختلف  الفاظ جملہ مہ اہم تھہ، بے ھُم جملے ریکارڈ گرے سو کوشش گرہ تھہمصروفیت سو دَن آ اپاں رضا کار کمیونٹی والہ خوش گرے سو دَن کیئت چہ ممکن ھون۔
 adding-sentences-subheader-numbers = نمبر
+adding-sentences-subheader-numbers-explanation = مثالی طور رے اخز گریل متن مہ ہندسہ نہ ھ وں پکار تھو۔ چیں چہ کدی سے اوچت اواز رے منہ تھہ تہ تِس مہ مسئلے یاتے  کش چہ یک نمبر پڑاں بزا اِسوں دارومدار سیاق و سباق رے ھواں آ سو ڈیٹا سیٹ مہ پریشانی گر ھواں مثال سو طور رے "2409" سو تعداد صحیح طریقہ گِھن "څورُو بیش صفر نو" آ "دُو زر زو څور شل آ نو" بھیزدو طریقیوں رے منا بزہ
+adding-sentences-subheader-abbreviations = مخفف آ خلاصے
 
 ## Question collection ids
 
