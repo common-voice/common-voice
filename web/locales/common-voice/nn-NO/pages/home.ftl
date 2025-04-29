@@ -129,9 +129,13 @@ join-discord-community-action = Ver med oss på Discord
 find-us-on-matrix = Finn oss på Matrix
 # label for button
 find-us-on-matrix-action = Finn oss på Matrix
+ask-mozilla-share = Be Mozilla om å dele hendingane dine
 # label for button
 ask-mozilla-share-action = Del arrangementet ditt
 download-contribution-certificate = Last ned bidragsbeviset ditt
+download-contribution-certificate-content = Last ned eit sertifikat for arrangementa dine eller ditt eige dersom du har bidratt til Common Voice — dette ville ikkje ha vore mogleg utan deg!
+# label for button
+download-contribution-certificate-action = Få sertifikatet ditt
 contribute-github = Bidra på Github
 # label for button
 contribute-github-action = Bidra på Github

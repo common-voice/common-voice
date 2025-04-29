@@ -84,20 +84,26 @@ review-transcriptions-coming-soon = ნაწერად ქცეულის 
 add-questions = კითხვების დამატება <small>(მალე)</small>
 add-questions-coming-soon = კითხვების დამატება <small>(მალე)</small>
 transcribe-audio-coming-soon = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
-transcribe-audio = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
+transcribe-audio = ხმის ნაწერად ქცევა <small>(მალე)</small>
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
 coming-soon = მალე
+about-us = ჩვენ შესახებ
+scripted-speech = ᲬᲔᲠᲘᲗᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
+spontaneous-speech = ᲖᲔᲞᲘᲠᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = თანამშრომლობა, პრესა და სიახლეები, საზოგადოებები და ენები
+about-us-menu-item-tooltip = იხილეთ ვრცლად, თუ რა მიზანი აქვს და ვისი ქმნილებაა Common Voice
+about-us-menu-item-aria-label = ჩვენ შესახებ ასარჩევი მენიუ
 partnerships-menu-item-tooltip = გვეთანამშრომლეთ
 press-and-stories-menu-item-tooltip = იხილეთ სვეტი ან დაწერეთ ჩვენ შესახებ
 community-and-languages-menu-item-tooltip = უკეთ გაიცანით ენები, საზოგადოებები და Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = ჩვენ შესახებ მენიუ
 partnerships-menu-item-aria-label = გაეცანით Common Voice-თან თანამშრომლობის გზებს
 press-and-stories-menu-item-aria-label = Common Voice-თან დაკავშირებული განცხადებები და სიახლეები პრესაში
 community-and-languages-menu-item-aria-label = გამოიკვლიეთ ენები და საზოგადოებები, რომელთაც მხარს უჭერს Common Voice

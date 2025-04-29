@@ -1,5 +1,12 @@
 listen = سُڻڻ
 listen-subtitle = آوازان چِي تصدِيقِي ۾ اَمچِي مدد ڪرا
+listen-instruction = <playIcon>ڪا اِينهان جُملان نُون </playIcon>صحِيح نمُوني سُون ٻولها{ $actionType }
+listen-again-instruction = زبردست ڪام </playIcon> جِڏ تمهِين تيار هُوا تہ بڙتِي سُڻا<playIcon>
+listen-3rd-time-instruction = 2 جارِي راکا </playIcon> پُورا هُلا </playIcon>
+listen-last-time-instruction = <playIcon> هيڪ آخرِي </playIcon>
+listen-empty-state = اَمهان کن شايد ڪِلپس ختم هُتِي گيلي هِتي، صفعا رِيفريش ڪرا، يان بڙي بڙتِي کولا۔
+listen-empty-state-variants = تمچِي ٻولِي چا ڍنگ شايد ڪِلپس خالِي ڇَي، جي اگر تمهان نُون سُٺَي لاگَي تہ سينٽگ مٽاتِي ٻولِي چي ڏُوجي جُملي ڏيک سِگھا ڇَوا۔
+listen-loading-error = اَمهِين تمچي ڪاڻ سُڻڻي لاءِ ڪو بِي آڊيو ڪِلپ حاصل ڪونهِي ڪر سِگھلي۔ مهربانِي ڪتِي بڙي بڙتِي ڪوشش ڪرا۔
 listen-abort-title = ڪِلپان چِي تصدِيڪ پُورِي ڪرا؟
 listen-abort-cancel = تصدِيق جارِي راکا
 listen-abort-confirm = تصدِيق پُورِي ڪرا۔
@@ -17,3 +24,5 @@ review-transcriptions-menu-item-tooltip = تمچِي ٻولِي ۾ يُوزرا 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = سُڻڻي چي ڪاڻ اِختياران چا مينيُو
+validate-readings-menu-item-aria-label = برادري چي ميمبران طرفُون موڪلوڙان مطالعان چِي تصدِيق ڪرا۔
+review-transcriptions-menu-item-aria-label = ريڪارڊ ڪروڙي جملِي نُون صحِيح ڪرڻي چي ڪاڻ لِکتان چا جائِز گيهوا

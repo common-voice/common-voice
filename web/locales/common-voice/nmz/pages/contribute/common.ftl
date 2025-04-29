@@ -10,10 +10,10 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> àlǝ̀sʊ̀ŋ tóm
     }
 goal-help-recording = ʊ́ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ nà kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl àfèmǝ̀r rʊ̀rǝ̀tǝ̀ kà kàkáá<goalPercentage></goalPercentage> kà wʊ̀tàsǝ̀ kpàwʊ̀ŋ kà{ $goalVale }
-goal-help-validation = ʊ̀ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ ná, kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl <goalPercentage>afèmǝ̀r rʊ̀rǝ̀tǝ̀ { $goalValue } tìsúŋ !
+goal-help-validation = ʊ̀ tǝ́ŋkǝ́n mɩ́ rʊ̀ʊ̀ ná, kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tàl <goalPercentage>afèmǝ̀r rʊ̀rǝ̀tǝ̀ { $goalValue } tìsúŋ !
 contribute-more = ŋ̀ pɩ́sʊ́ sɩ̀ ŋ̀ tàsǝ̀ lápǝ́ { $count } já ?
 speak-empty-state = rà tà tàsǝ́ wɩ́ɩ́nʊ́ŋ kà máátǝ̀ sɩ̀ rà kpá wʊ̀tã̀ŋ ká táà…
-no-sentences-for-variants = ʊ̀ wɩ̀ɩ̀ sǝ́ mɩ́ wʊ́tã́ŋ máátǝ́ témpá! wáà càrʊ́ mɩ́, ɩ́ pɩ́sʊ́ sɩ̀ ɩ̀ lɔ̀ɔ̀sǝ̀ rʊ́rǝ́tǝ̀ ʊ́ jél nɩ̀nà mɩ̀ wʊ́tãŋ tà mààtǝ̀.
+no-sentences-for-variants = ʊ̀ wɩ̀ɩ̀ sǝ́ mɩ́ wʊ́tã́ŋ máátǝ́ témpá ! wáà càrʊ́ mɩ́, ɩ́ pɩ́sʊ́ sɩ̀ ɩ̀ lɔ̀ɔ̀sǝ̀ rʊ́rǝ́tǝ̀ ʊ́ jél nɩ̀nà mɩ̀ wʊ́tãŋ tà mààtǝ̀.
 speak-empty-state-cta = mààtǝ̀ cǝ̀lʊ́ŋ
 speak-loading-error =
     rà tà pɩ́ɩ́sǝ̀ sǝ̀ ràhíwú mààtǝ̀ nǝ̀ rà kàl.
@@ -28,7 +28,7 @@ target-segment-first-banner = ɩ́ sǝ́ná nààmà kɔ̀mɔ̀n fɔ̀wɩ̀s
 target-segment-add-voice = ɩ́ jèl náákpá mɩ́ núwéésǝ̀
 target-segment-learn-more = tàsǝ̀ sǝ́m
 change-preferences = lɔ̀ɔ̀sǝ̀ ñá sòòlǝ́m tà.
-login-signup = sʊ̀wɩ̀ kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tà / má ñá jǝ́r
+login-signup = sʊ̀wɩ̀ kɔ̀mɔ̀n fɔ̀wɩ̀sǝ̀ tà /  má ñá jǝ́r
 vote-yes = ŋ̀ŋ̀ŋ̀
 vote-no = ààjɩ̀
 datasets = tóm àsèntɩ̀ɩ̀
@@ -41,7 +41,7 @@ submit-form-action = jèkʊ́ŋ
 
 report = jǝ́sǝ́r kùlùŋ
 report-title = jèkǝ̀ tǝ̀mǝ̀r àtɩ̀ɩ̀sʊ̀ŋ tàkǝ̀rã́ŋ
-report-ask = káár wónràŋ kànà ɩ́ kàtǝ́n máátǝ̀ tǝ̀ tà ?
+report-ask = káár wónràŋ kànà ɩ́ kàtǝ́n máátǝ̀ tǝ̀ tà ?
 report-offensive-language = àsíjáŋ tóm
 report-offensive-language-detail = tápúúrtǝ̀ jààsǝ́ tʊ̀wɩ̀lã̀ŋ wɩ̀ɩ̀ máátǝ̀ tà.
 report-grammar-or-spelling = tàsàrǝ́m mààtǝ̀
@@ -75,7 +75,7 @@ shortcut-discard-ongoing-recording = rǝ̀lìínɖǝ̀ wììr
 shortcut-discard-ongoing-recording-label = ràà làn tóm wómpǝ̀ ŋ̀ kpáá ná kà tǝ̀mǝ̀r
 shortcut-submit = rǝ̀sʊ́wɩ̀ɩ̀r
 shortcut-submit-label = jèkǝ̀ tóm kʊ́kpáám
-request-language-text = ñá wʊ́tã́ŋ rʊ́kʊ̀ tã̀ŋ káà?
+request-language-text = ñá wʊ́tã́ŋ rʊ́kʊ̀ tã̀ŋ káà ?
 request-language-button = cǝ́l wʊ́tã́ŋ
 
 ## Listen Shortcuts
@@ -96,7 +96,7 @@ shortcut-vote-no = n
 contribution-criteria-nav = pààtǝ̀
 contribution-criteria-link = sǝ̀nʊ̀ŋ pààtǝ̀ tóm nɩ̀wʊ̀ŋ
 contribution-criteria-page-title = sǝ̀nʊ̀ŋ pààtǝ̀
-contribution-criteria-page-description = ɩ́ nɩ̂ wóntǝ̀ rʊ̀ʊ̀ ʊ̀ mɔ̀ɔ̀nà sǝ̀ ɩ́ kúl jǝ́sǝ́r kà wóm nòwàŋ sǝ́ ɩ́ kémsʊ́ wʊ́tã̀ŋ nà ʊ̀ jél nɩ̀ɩ̀ rɔ̀ɔ̀n mɩ́ tʊ̀tʊ̀ʊ̀r mɩ́ wʊ́tã̀ŋ kpààwʊ̀ŋ!
+contribution-criteria-page-description = ɩ́ nɩ̂ wóntǝ̀ rʊ̀ʊ̀ ʊ̀ mɔ̀ɔ̀nà sǝ̀ ɩ́ kúl jǝ́sǝ́r kà wóm nòwàŋ sǝ́ ɩ́ kémsʊ́ wʊ́tã̀ŋ nà ʊ̀ jél nɩ̀ɩ̀ rɔ̀ɔ̀n mɩ́ tʊ̀tʊ̀ʊ̀r mɩ́ wʊ́tã̀ŋ kpààwʊ̀ŋ !
 contribution-for-example = à sʊ̀ʊ̀ sǝ́
 contribution-misreadings-title = àhìndùŋ kàlʊ̀ŋ
 contribution-misreadings-description = mɩ́ kémsʊ́ŋ, ɩ́ ñǝ́l sàrtǝ̀ nǝ̀ ɩ̀ ná sǝ́ wóntǝ̀ à kpáà nà nǝ̀ wóntǝ̀ à máà nà tàmpà já ; ɩ́ kísǝ̀, pàà àhíndúŋ tóm cúmpǝ̀. <br /> àhíndúŋ tóm pààhǝ́ŋ :

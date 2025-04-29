@@ -1,8 +1,8 @@
 # GUIDELINES PAGE
 guidelines-header = მონაწილეთა გზამკვლევი
-guidelines-header-subtitle = გაეცანით, როგორ უნდა დაამატოთ და შეამოწმოთ წინადადებები ან ხმოვანი ჩანაწერები Common Voice-ის მონაცემთა კრებულში.
+guidelines-header-subtitle = გაეცანით, როგორ უნდა დაამატოთ და შეამოწმოთ ჩანაწერები, რომელთაც Common Voice აგროვებს კრებულში.
 voice-collection = ხმების შეგროვება
-sentence-collection = წინადადებების შეგროვება
+sentence-collection = წინადადების შეგროვება
 question-collection = კითხვების შეგროვება
 
 ## Voice Collection nav ids

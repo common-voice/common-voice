@@ -93,16 +93,22 @@ transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 press-and-stories = Maranduasãiha ha Tembiasakue
 community-and-languages = Tekoha ha ñe’ẽnguéra
 coming-soon = Ag̃aitéma
+about-us = Ore rehegua
+scripted-speech = JE’EPY MBOHAPÉVA
+spontaneous-speech = ÑE’ẼKUAA SYRYRY
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Juaju, Maranduasãiha ha Tembiasakue, Tekoha ha Ñe’ẽita
+about-us-menu-item-tooltip = Eikuaa Common Voice rembipota ha omba’apovakuéra
+about-us-menu-item-aria-label = Poravoha renda ore rehegua
 partnerships-menu-item-tooltip = Eike orendive
 press-and-stories-menu-item-tooltip = Eike ore blog-pe térã ehai ore rehegua
 community-and-languages-menu-item-tooltip = Ehechakuaa ñe’ẽita ha tekoha ha ayvu opavaveguáva
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Poravoha renda rehegua
 partnerships-menu-item-aria-label = Eikuaave opaite juaju Common Voice ndivegua rehe
 press-and-stories-menu-item-aria-label = Eike maranduasãi ha tembiasakue ojuehegua Common Voice ndive
 community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽnguéra omoneĩva Common Voice
@@ -113,6 +119,8 @@ community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽngu
 ## Hero section
 
 hero-title = Tembiporupyahu oikumbýva ne ñe’ẽ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = ¿Mba’ére IA oku’éta ndahetái ñe’ẽme añónte arapy tuichakuépe?
 # icon is an arrow that points downwards
 get-started = Emoñepyrũ <icon><icon>
 

@@ -2,7 +2,7 @@
 
 question-page-instruction = ھيڪ سوال جمع ڪرو </icon> ۾ { $currentLocale } منِکون نيَ جواب ڏيڻ ھارو
 add-question-textarea-placeholder = مثال طور، "ٿيَ ڪِي چاهو ھون ڪہ ٿيَ  ٽيڪنالاجِي نيَ ڪيَ ھارو استعمال ڪري ݾگهو؟"
-add-questions-terms-checkbox = ھون ايئيَ وات رِِي تصديق ڪرون ھون ڪہ اَي سوال  <wikipediaLink> عوامي ڊومين ھيَ </wikipediaLink> ھان ميھ ڪوڊِي اجازت ھيَ ڪہ ھون ايئيَ نيَ اپ لوڊ ڪرون
+add-questions-terms-checkbox = ھون ايئيَ وات رِي تصديق ڪرون ھون ڪہ اَي سوال  <wikipediaLink> عوامي ڊومين ھيَ </wikipediaLink> ھان ميھ ڪوڊِي اجازت ھيَ ڪہ ھون ايئيَ نيَ اپ لوڊ ڪرون
 question-dataset-language = مواد رو سيٽ:{ $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->

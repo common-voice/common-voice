@@ -96,13 +96,43 @@ adding-sentences-subheader-punctuation = نکتہ چینی
 adding-sentences-subheader-punctuation-explanation = کھاس پرتِیک اور نِشانِئیں کُو سِرپ اس سمے سیمل کرا جاݨا چاہئے جِدؔ سپا جروری ہوے۔ مِسالا کے توراپ ، انگریجی لوج جِدؔا "متی کرو" اور "ہم ہے" ہُوں ایک اپوسٹروپھی سیمل ہے اور اسے سروت لِکھتام سیمل کرنا چاہئے ، پݨیں یو بات اسمبھوَ ہے کہ تھم کُو کِدھی بھی "@" یا "#" جِدؔا کھاس پرتِیکا کی جرورت ہوونٚگی۔
 adding-sentences-subheader-special-characters = کھاس کردار اور دُؔوجے دؔیسا کے پتر
 adding-sentences-subheader-special-characters-explanation-1 = اکشریں کُو ٻولݨواڑی بھاشام سئی ہوݨا جروری ہے۔ مِسالا کے توراپ ، "اے" روسی اکشر ماݪام ایک اکشر ہے پݨیں انگریجِیام کِدھی بھی اُپیوگ نائیں ہووے اور نکو کسی بھی انگریجِی سروت لِکھتام کِدھی چاوا نائیں ہوݨا چاہئے۔
-adding-sentences-subheader-special-characters-explanation-2 = جِدؔ ٻولِیاں مقامی ہوتی ہیں تو اضافی ضروریات کے ساتھ ان کے اپنے توثیقی قواعد ہوسکتے ہیں۔ اگر کسی زبان کے لئے کوئی مخصوص توثیقی فائل نہیں ہے تو ، انگریزی قواعد شراکت داروں کے لئے دکھائیں گے۔
+adding-sentences-subheader-special-characters-explanation-2 = جِدؔ ٻولِیاں اِستھانی ہوتی ہے تو ودھِیک جرُورتیں کے سات ان کے اپݨیں پکے نِیم ہوئی سِکتے ہے۔ اگر کسی بھاشا نتر کوئی کھاس پکی پھائل ناتی تو ، انگریجی نِیم یوگدان کرنواڑے نتر دِؔکھاؤں گے۔
 adding-sentences-subheader-offensive-content = اپمانِت سیمان سیمان
+adding-sentences-subheader-offensive-content-explanation = اگر ٻول اپمان جنک یا پریشان کرنواڑا ہے - جِدؔا چاوا سیمامان کرے، یا مھارے <communityGuidelines>پڑاوا کے پاتی بھائی پتر</communityGuidelines> کسی اوری کے اُلنٚگن کرنے کرے - تو تھم کُو ٻول چھوڈؔی دؔیݨا چاہئے۔ تھم اس مسلے کُو بڑھاݨیں نتر <emailFragment>commonvoice@mozilla.com</emailFragment> پ ہم سے بھی سمپرک کری سِکتے ہے۔
+reviewing-sentences-explanation-1 = اگر ٻول مانگاپ پُورا اترتا ہے تو ، "ہاوے" ٻٹݨانٚپ دؔٻاؤ۔
+reviewing-sentences-explanation-2 = اگر ٻول مانگاپ پُورا نائیں اُترے تو ، "نائیں" ٻٹݨانٚپ دؔٻاؤ۔
+reviewing-sentences-explanation-3 = اگر تھم کُو ٻولیں کے باریم پک نائیں تی تو ، تھم اسکُو بھی چھوڈؔی سِکتے ہے اور اگلیپ آگے ودھی سِکتے ہے۔
+reviewing-sentences-explanation-4 = اگر تھارے کن نِگھا کرنے  نتر دُؔوجے ٻول کھتم ہوئی جاوتے ہے تو، کِرپا کری ودھِیک ٻول بھیݪے کرنیم مھاری ساہیتا کرو!
 domain-explanation = ڈومین یانی ٻولیں کے باریم ہے۔ ہلی اِٻکے، تھم اِن مینٚس کِسی ایکی کا چُناؤ کری سِکتے ہے:
 
 ## Question collection ids
 
+adding-questions = سُئال سیمل کرنا
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ایک اجرا سُئال کیا ہے؟
+what-makes-a-good-question-explanation = جنتا بھاگیداری ڈیٹا سیٹا نتر ایک اجرا سُئال ہوݨا چاہئے:
+what-makes-a-good-question-explanation-criteria-1 = سمجݨیں اور جُواب دیݨینٚم سولا رہوے
+what-makes-a-good-question-explanation-criteria-2 = سادھارݨ توراپ سئی ہوݨا
+what-makes-a-good-question-explanation-criteria-3 = نُکسانی یا اپمان جنک ٻولیں کا اُپیوگ متی کرو، یا وِنتی متی کرو
 what-makes-a-good-question-tip = تھم نِیارے سرے اور ڈومینز کو پھیلاݨینٚپ بھی وِچار کرنا چاہُوں گے۔
+easy-to-understand = سمجݨینٚم سُکی
+easy-to-understand-explanation = ایسے سادا سُئال چُنوں جکو سنسکرتی یا اس باریم سپا کسی کُو بھی سمجݨینٚم سولا ہووے۔
+spelling-and-pronunciation = ہِجے اور نشانِیاں
+spelling-and-pronunciation-explanation = سئی ہِجے اور ٻولیں کا اُپیوگ کرو۔
+length = لمبائی
+length-explanation = اس سُئالا کا جباب رُگی چند ٻولینٚم دؔیݨاں چاہئے۔
+dont-add-subheader = سیمل متی کرو
+culturally-specific-questions = سنسکرتی توراپ کھاس سُئال
+culturally-specific-questions-explanation = ایسے سُئال جکو گݨیں سنسکرتی توراپ کھاس ہے ، یا جباب دؔیݨواڑے کے باریم گھݨیں سارے دھرناں ٻناتے ہے۔
+length-avoid-explanation = ایسے سُئال جن کا جواب کسی کو 15 سیکنڈیم دؔیݨیم مُسکلیں کا سامنا کرنا پڑوں گا (ودھ میں ودھ ٹُکڑے کی لمبائی)
+process-steps = جتن / چرݨ
+process-steps-explanation = ایسے سُئال جن میں کسی کو کئی چرݨ داکھل کرنے کی جرورت ہوتی ہے۔ چرݨ سُوچی اُپیوگ کرنواڑے کُو زیادہ قدرتی پرتی کِرِیا کے آگے جباب پڑھنے کی سِیک دیتی ہے۔
+offensive-content-sensitive-information = آپتی جنک سیمان یا ناجُک جانکاری
+offensive-content-sensitive-information-explanation-explanation-1 = سُئال جکو جاتی توراپ اوݪکھݨیں جوگی جانکاری وِنتی کری سِکتے ہے
+offensive-content-sensitive-information-explanation-explanation-2 = ایسے سُئال جکو نپھرتا کی بھاشا یا دُؔوجے پکشپاتی یا اپمان جنک بھاوناں کُو جلم دؔی سِکتے ہے
+offensive-content-sensitive-information-explanation-explanation-3 = ایسے سُئال جکو کسی کُو ناجُک، ہوئی سِیکتا ہے متحرک جوابات کا اُکساݨیں کا سبب ٻݨیں سِکتا ہے
+example-questions-subheader = مِسالا کے سُئال
+example-questions-explanation-1 = تھم <examplePromptsLink>اس شیٹام 120 مِسالیں کے اشارے لوڑی سِکتے ہے۔</examplePromptsLink>
+example-questions-explanation-2 = اگر تھم اِرجݨاں کے نتر سُئالیں کی ایک ہِسا جما کرنا چاہتے ہے تو ، تھم <githubLink>مھارے گیٹ ہب کے دُئارے ایسا کری سِکتے ہے</githubLink> یا اپݨیں سُوچی commonvoice@mozilla.com ای میل کری سِکتے <emailFragment>ہے۔</emailFragment>

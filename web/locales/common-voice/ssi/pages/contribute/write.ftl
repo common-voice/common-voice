@@ -136,8 +136,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } ایک ٻول جما کرے گئے ہے۔ چھوڈؔوڑے  ٻول ڈاؤن لوڈ کرنے  نتر <downloadLink>ایٹھے</downloadLink> کلک کرو۔
-       *[other] { $totalSentences } ٻولیں کا { $uploadedSentences } جما کرا گیا ہے۔ چھوڈؔوڑے  ٻول ڈاؤن لوڈ کرنے  نتر <downloadLink>ایٹھے</downloadLink> کلک کرو۔
+        [one] { $uploadedSentences } ایک ٻول جما کرے گئے ہے۔ چھوڈؔوڑے  ٻول ڈاؤن لوڈ کرنے  نتر <downloadLink>ایٹھے</downloadLink> دؔٻاؤ۔
+       *[other] { $totalSentences } ٻولیں کا { $uploadedSentences } جما کرا گیا ہے۔ چھوڈؔوڑے  ٻول ڈاؤن لوڈ کرنے  نتر <downloadLink>ایٹھے</downloadLink> دؔٻاؤ۔
     }
 small-batch-sentences-rule-1 = "ہُوں کوٹؔ سے ٻول سیمل کری سِکتا ہے؟" سے ہِدائیتینٚپ  امل کرو۔
 small-batch-sentences-rule-2 = ہر لین ایک ٻول سیمل کرو

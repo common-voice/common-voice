@@ -7,10 +7,10 @@ sentence =
     .label = جُملو
 sentence-input-placeholder = آپرو عوامي ڊومين رو جُملو ايٿ شامل ڪرو
 small-batch-sentence-input-placeholder = ٿونرا عوامِي ڊومين را جملا ايٿ شامل ڪرو
-citation-input-placeholder = ٿونرََي ڏيِنوڙَي جُمليَ رو حوالو ڏيو (ضرُوري ھوئيَ تو)
+citation-input-placeholder = ٿونرَي ڏيِنوڙَي جُمليَ رو حوالو ڏيو (ضرُوري ھوئيَ تو)
 citation =
     .label = حوالو
-sc-write-submit-confirm = ھون ايئيَ وات رِِي تصديق ڪرون ھون ڪہ اَي جُملو  <wikipediaLink> عوامي ڊومين ھيَ </wikipediaLink> ھان ميھ ڪوڊِي اجازت ھيَ ڪہ ھون ايئيَ نيَ اپ لوڊ ڪرون
+sc-write-submit-confirm = ھون ايئيَ وات رِي تصديق ڪرون ھون ڪہ اَي جُملو  <wikipediaLink> عوامي ڊومين ھيَ </wikipediaLink> ھان ميھ ڪوڊِي اجازت ھيَ ڪہ ھون ايئيَ نيَ اپ لوڊ ڪرون
 sc-review-write-title = ڪيھڙا جُملا ھُون شامل ڪرَي ݾگون ھون؟
 sc-review-small-batch-title = وڌيڪ جُملا ڪونڪر شامل ھوئيَ ݾگيَ ھيَ
 new-sentence-rule-1 = <noCopyright> ڪو ڪاپِي رائٽ يا مِلڪيت را حق ڪونِي </noCopyright> ڪو پابندِي ڪونِي (<cc0>cc-0</cc0>)
@@ -23,7 +23,7 @@ new-sentence-rule-7 = ٺيڪ حوالو شامل ڪرو
 new-sentence-rule-8 = فطرِي ھانَ ٻول چال (جُملو پڙھڻ ۾ سولو ھوڻ کپيَ)
 login-instruction-multiple-sentences = <loginLink> لاگ ان <loginLink> يا <loginLink> سائن اپ <loginLink> وڌيڪ جُملا شامل ڪرو
 how-to-cite = ھوُن ڪونڪر حوالو ڏيون
-how-to-cite-explanation-bold = يو آر ايل لِنڪ يا ڪام رَي پورَي نوم ڀيڙو حوالو ڏيو
+how-to-cite-explanation-bold = يو آر ايل لِنڪ يا ڪوم رَي پورَي نوم ڀيڙو حوالو ڏيو
 how-to-cite-explanation = جيَ اَي ٿونرا آپ را آکر ھيَ تو رُگو ڪھو  <italicizedText> آپرو حوالو </italicizedText> ۔ مھونيَ اَي خبر ھوڻ ضرُوري ھيَ ڪہ ٿونيَ اَي جوڻ ڪيٿون مِلي ھيَ تاڪہ مھيَ جوئيَ ݾگون ڪہ اَي عوامي ڊومين ھيَ ھانَ ڪاپِي رائٺ رِي ڪو پابندي ڪونھي لاگو ھوئيَ ھيَ حوالون رَي بارَي ۾ وڌيڪ جوڻڻ ھارو مھورو <guidelinesLink> ھيِکاڻ آݪيَ پنَي نيَ </guidelinesLink> جوئو</guidelinesLink>۔
 guidelines = ھيکڻ را اصول
 contact-us = مھون ھون رابطو ڪرو
@@ -35,7 +35,7 @@ small-batch-sentence-submission = جُملون را نِنيان جٿا شامل
 bulk-sentence-submission = وڏا جُملون را جٿا شامل ڪرڻ
 single-sentence = ھيڪلو ۔ ھيڪلِي ۔ ھيڪ
 small-batch-sentence = نِنيو جٿو
-bulk-sentence = وڏو جٿو
+bulk-sentence = موتو جٿو
 sentence-domain-combobox-label = جُملون رو ڊومين
 sentence-domain-select-placeholder = تين ڊومين تائين چونڍ ڪرو (مرضي)
 # Sentence Domain dropdown option
@@ -45,11 +45,11 @@ automotive_transport = گاڏَي ھان سواريَ
 # Sentence Domain dropdown option
 finance = حساب ڪتاب
 # Sentence Domain dropdown option
-service_retail = ڪم ڪار ھان ويڪرو
+service_retail = ڪوم ڪار ھان ويڪرو
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
-healthcare = صحت رِِي ساݪ سنڀاݪ
+healthcare = صحت رِي ساݪ سنڀاݪ
 # Sentence Domain dropdown option
 history_law_government = تاريخ، قانون ھان سرڪار
 # Sentence Domain dropdown option
@@ -82,7 +82,7 @@ accepted-files = قبول ھوڻ آڙِي فائلون رو قسم: صرف  .tsv
 minimum-sentences = فائل ۾ گھٽ ۾ گھٽ جملہ: 1000
 maximum-file-size = فائل رو وڌ ۾ وڌ سائز:25 ايم بِي
 what-needs-to-be-in-file = مھارِي فائل ۾ ڪِي ھوڻ کپيَ؟
-what-needs-to-be-in-file-explanation = مھربونِي ڪرَي مھورِي <templateFileLink> کاڪو فائل </templateFileLink> ٿونرا جملا ڪاپِي رائٽ ھون آزاد ھوڻ کپيَ(CC0 يا جمع ڪِيوڙَي رِي طرف ھون اجازت ڏِينوڙو اصلي ڪم ) صاف ھوئيَ ، گرامر رَي اعتبار ھون ٺيڪ ھان پڙھڻ ۾ سولو۔ شامل ڪيوڙَي جملو نيَ پڙھڻ ۾ -10-15 سيڪنڊ لاگڻ کپيَ ھان انگون، ٺيڪ اسمون ھان خاص اکرون نيَ شامل ڪرڻ ھون پاسو ڪرڻ کپيَ
+what-needs-to-be-in-file-explanation = مھربونِي ڪرَي مھورِي <templateFileLink> کاڪو فائل </templateFileLink> ٿونرا جملا ڪاپِي رائٽ ھون آزاد ھوڻ کپيَ(CC0 يا جمع ڪِيوڙَي رِي طرف ھون اجازت ڏِينوڙو اصلي ڪوم ) صاف ھوئيَ ، گرامر رَي اعتبار ھون ٺيڪ ھان پڙھڻ ۾ سولو۔ شامل ڪيوڙَي جملو نيَ پڙھڻ ۾ -10-15 سيڪنڊ لاگڻ کپيَ ھان انگون، ٺيڪ اسمون ھان خاص اکرون نيَ شامل ڪرڻ ھون پاسو ڪرڻ کپيَ
 upload-progress-text = اپ لوڊ ھليَ وئو
 sc-bulk-submit-confirm = ھوُن تصديق ڪرون ھون اَي جملہ عوامي ڊومين <wikipediaLink>ھيَ</wikipediaLink>ھان مھيَ ڪوڊِي ايئيَ نيَ اپ لوڊ ڪرڻ رِي اجازت ھيَ
 bulk-upload-success-toast = وڏِي تعداد ۾ جُملا اپ لوڊ ڪِيا گيا
@@ -148,9 +148,9 @@ add-sentences = جُملا شامل ڪرو
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = جُملا شامل ڪرو ھان جائزو ليو، سوال شامل ڪرو، آڊيو رِِي نقل ڪرو
-add-sentences-menu-item-tooltip = آپرِِي ٻولِي ۾ جُملا شامل ڪرو
-review-sentences-menu-item-tooltip = آپرِِي ٻولِي ۾ جُملون رو جائزو ليو
+write-contribute-menu-tooltip = جُملا شامل ڪرو ھان جائزو ليو، سوال شامل ڪرو، آڊيو رِي نقل ڪرو
+add-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جُملا شامل ڪرو
+review-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جُملون رو جائزو ليو
 add-questions-menu-item-tooltip = آپرِي ٻولِي ۾ سوال شامل ڪرو
 transcribe-audio-menu-item-tooltip = آپرِي ٻولِي ۾ آڊيو رِي نقل ڪرو
 

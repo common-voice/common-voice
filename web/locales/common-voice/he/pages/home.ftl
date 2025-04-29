@@ -78,15 +78,23 @@ read-more-about = מידע נוסף בעמוד על אודותינו
 ## NAV ITEMS
 
 answer-questions = ענו על שאלות <small>(בקרוב)</small>
+answer-questions-coming-soon = לענות על שאלות <small>(בקרוב)</small>
 review-transcriptions = בדיקת תמלולים <small>(בקרוב)</small>
+review-transcriptions-coming-soon = בדיקת תמלולים <small>(בקרוב)</small>
 add-questions = הוספת שאלות <small>(בקרוב)</small>
+add-questions-coming-soon = הוספת שאלות <small>(בקרוב)</small>
+transcribe-audio-coming-soon = תמלול שמע <small>(בקרוב)</small>
 transcribe-audio = תמלול שמע <small>(בקרוב)</small>
 press-and-stories = עיתונות וידיעות
 community-and-languages = קהילה ושפות
+about-us = מי אנחנו
+scripted-speech = דיבוב מתוסרט
+spontaneous-speech = דיבוב ספונטני
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = שותפויות, עיתונות וידיעות, קהילה ושפה
+about-us-menu-item-tooltip = עוד על המשימה והצוות שמאחורי Common Voice
 partnerships-menu-item-tooltip = הפכו לשותפים שלנו
 press-and-stories-menu-item-tooltip = בקרו בבלוג שלנו או כתבו אודותינו
 community-and-languages-menu-item-tooltip = גלו שפות וקהילות
@@ -102,9 +110,14 @@ community-and-languages-menu-item-aria-label = גלו עוד על הקהילה �
 
 ## Hero section
 
+hero-title = טכנולוגיה שמדברת בשפה שלך
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>למה שבינה מלאכותית תעבוד רק בחלק מהשפות בעולם?</bold>
+hero-subtitle-2 = השפה שלנו היא הסיפור שלנו, הקהילה שלנו, התרבות שלנו. בואו ניצור את מערכי הנתונים שאנחנו רוצים לראות בעולם.
 
 ## Action items section
 
+action-items-section-title = ‏Common Voice היא פלטפורמת קוד פתוח חינמית ליצירת נתונים בהובלת הקהילה
 
 ## Community section
 

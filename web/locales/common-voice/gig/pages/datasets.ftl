@@ -19,6 +19,7 @@ number-of-voices = آوآزي رو تهدآد
 splits = مآنڻو
 email-to-download = ڊآئونٚ لوڊ ڪري سآرو ايٚ ميل دآکل ڪرو
 why-email = هم نيٚ شآهد تم سونٚ آئيوآڙو ٽيٚمي مينٚ ڊيٽآسيٽ مينٚ </b> اي ميل ڪآ؟ <b> تبديٚلي سآرو رآبتو ڪرڻو پڙيٚي ،ايڪ اي ميل هم ني رآبتي رو ايڪ نڪتآ ۮيوي ڇي
+why-donate-datasets-page = موزيلآ ڪآمن وآئس دنيآ رو سبونٚ سونٚ وڌيڪ کآس ڪرآئوڊ سورس هووڙآ ،کولوڙآ اسپيچ ڊيٽآسيٽ ڇي ، آئينٚ هم مڪمل توري پر ۮيۮوڙي سونٚ تآڪتور ڇآنٚ ،ڊيٽآسيٽس ني هوسٽ ڪرو آئينٚ 100 پلس ٻوٚلي برآدري سآرو پليٽ ڦآرم ني بهتري سآرو هر سآل تڪريبن ايڪ ملين ڊآلرکرچ هووي ڇي ۔ جيڪو همآري ڪآمي پربروسو ڪري ڇي جيڪۮي تم کولوڙي ،جمه ڊيٽآ ني اهميت ڏئو ڇو <b> اج ئي ڌآن ڪرو </b>۔
 confirm-size = تم تيٚيآرڇو ڊآئونٚ لوڊ سورو ڪري سآرو</b>{ $size }<b>
 size-gigabyte = جي ڀي
 size-megabyte = ايم ڀي
@@ -44,6 +45,7 @@ resource-coqui-info = تڪريٚر ٽيڪنآلآجي ني کولي سآرو و�
 community-playbook = برآدري رمي رو ڪيٚتآب
 resource-playbook-info = سجي آم آوآزي ري سڦري پر </playbookLink> مدد گآر هدآئيت ڊونٚڊو <playbookLink> لوڪلآئيٚزيشني سونٚ لين ڊيٽآسيٽ ريٚ استهمآل تآئين آئينٚ بهڙآبهڙ همآريٚ برآدريٚ سونٚ ڪي يونٚ ميلي۔
 data-other-librispeech-description = پڙي وآڙيٚ انگريزي تڪرير ڇي Khz تڪريٚبن1000 ڪلآڪي رو  16 LibriSpeech پروجيڪٽ مينٚ آڊيو بوڪ پڙي مينٚ ڪڏوڙآ ڇيLibriVox ۔
+data-other-ted-name = ٽيڊ ليم ڪآرپس
 data-other-ted-description = ويب سآئيٽي پر موجودTED آڊيو ٻوٚليٚ مينٚ ٺآيو گيٚيو آئينٚ TED-LIUM corpusٽرآنسڪرشن
 data-other-voxforge-description = اوني ڦري آئينٚ کولوڙآ سورس تڪرير اوڙکآڻ انجڻ سونٚ استهمآل ڪري سآرو نڪل ڪيٚڌوڙآ تڪريٚر بهڙو VoxForge ڪري سآرو ٺآيو گيٚيو ڇي۔
 data-other-tatoeba-description = جملو ،ترجمو، آئينٚ ٻوٚليٚ وآڙي آڊيي رو ايڪ موٽو ڊيٽآ سيٽ ڇي جيڪو ٻوٚليٚ سيکي مينٚ استهمآل Tatoebaڪري سآرو ايٚ ڊآئون لوڊ آنو ريٚ برآدري ترڦو ريٚڪآرڊ هووڙي انگريزي ٻوٚليٚ وآڙي پر پآبند ڇي۔
@@ -65,6 +67,9 @@ dataset-metadata-sex = نسل
 dataset-metadata-age = اومر
 donate-modal-message = تمآريٚ ڊيٽآ سيٚٽ ڊآئونٚ لوڊ هو ريٚ ڇي
 dataset-donate-modal-heading = ڪآئيٚ تمآنيٚ کبر ڇي
+donate-modal-explanation-1 = همآري ڪآمي پر بروسو ڪريوآڙي 100پلس ٻوٚلي برآدري سآرو ڊيٽآ سيٽي ني هوسٽ ڪرو آئينٚ پليٽ ڦآرم ني بهتر بڻآئي پر هر سآل لڳ ڀڳ ايڪ ملين ڊآلر کرچ هووي ڇي۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> جڪيۮي تم کولوڙآ ،جمه ڊيٽآ ري ڪدر ڪرو ڇو ،آج ئي ڌآن ڪرو </bold>
 data-download-singleword-title = ڊآئون لوڊ ڪرو ايڪلولڦز هدڦ وآڙو هيسو
 data-download-singleword-callout-v2 = اي ايڪ استهمآل ڪيس چلآئي وآڙو هيسو ڇي جي مينٚ ڊيٽآ سيٽ بهڙو ڇي  تآڪت ٻوٚليٚ وآڙي انگ اکري ريٚ اوڙکآڻ آئين هآ ،نآ ڊونٚڊڻو
 data-download-button = ڊآئون لوڊ ڪرو آم وآئس ڊيٽآ
@@ -86,3 +91,5 @@ license = { $license }<licenseLink></licenseLink> لآئسنس
 license-mixed = ميلوڙآ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = آوآز رو ڊيٽآ سيٽ ڊآئونٚ لوڊ ڪرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ڪآمن وآئس ڊيٽآ تآئين رسي سآرو ڊآئون لوڊ آپشنز
