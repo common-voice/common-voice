@@ -61,3 +61,5 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Vyhledat jazyk...
+language-search-aria-label = Vyhledat jazyk
