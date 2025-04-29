@@ -61,3 +61,7 @@ xkl = Κενιάχ
 
 ## Language search component
 
+language-search-placeholder = Αναζήτηση για γλώσσα...
+language-search-aria-label = Αναζήτηση για γλώσσα
+language-search-label = Αλλάζει μόνο τη γλώσσα συνεισφοράς του συνόλου δεδομένων
+language-search-no-results = Δεν βρέθηκαν γλώσσες
