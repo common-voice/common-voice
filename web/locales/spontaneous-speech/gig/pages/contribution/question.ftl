@@ -25,3 +25,4 @@ do-section-guideline-3 = سوآل ليرو جوآب سرڦ ڌي جملي مين 
 do-not-section-title = نا ڪرڻو
 do-not-section-guideline-1 = زآتي توري پر اوڙکآڻ  ڪيۮو مهلومآتجسو ڪي نآم يآ مآلي مهلومآت ليلو
 do-not-section-guideline-2 = تيسب وآڙي يآ نآ پسند جزبآتي رو ازهآر يآ درڪآش ڪرو۔
+do-not-section-guideline-3 = هسآس سوآل ٻوجھو۔

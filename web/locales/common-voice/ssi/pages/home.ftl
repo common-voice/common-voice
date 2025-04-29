@@ -84,6 +84,7 @@ read-more-about = مھارے باریم پنیپ ودھیک پڑھو
 ## NAV ITEMS
 
 answer-questions = سُئالیں کے جباب
+answer-questions-coming-soon = سُالیں کے جباب <small>(ٻیگے آئی رے ہے)</small>
 
 ## MENU ITEMS TOOLTIPS
 
