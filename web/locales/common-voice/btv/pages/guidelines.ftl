@@ -134,3 +134,5 @@ offensive-content-sensitive-information-explanation-explanation-1 = سے سوا�
 offensive-content-sensitive-information-explanation-explanation-2 = سے سوال چہ کاں نفرت والہ تقریر یا جَل تعصب یا جارحانہ جزبات سو درخواست گرہ تھہ
 offensive-content-sensitive-information-explanation-explanation-3 = اش سوال چہ تویئں وجہ دے کسئ حساس، ممکنہ طور رے متحرک ردعمل سو شرکت گر ھونتہ
 example-questions-subheader = مثال سوال
+example-questions-explanation-1 = تو ڇا ھواں <examplePromptsLink>120 مثال سو اشارے ۔</examplePromptsLink>شیٹ مہ
+example-questions-explanation-2 = کہ تو سوالوں سو ٹرنچ جمع گرو لوکھا داخل گرے سو دَن، تو <githubLink> او گر ھواں اسئیں GitHub  </githubLink>   یا ای میل گر اپوں لسٹ <emailFragment>commonvoice@mozilla.com.</emailFragment>
