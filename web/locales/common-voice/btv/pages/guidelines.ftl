@@ -95,6 +95,9 @@ adding-sentences-subheader-abbreviations-explanation = مخفف آ خلاصے ل
 adding-sentences-subheader-punctuation = وقف
 adding-sentences-subheader-punctuation-explanation = خاص علامت آ وقف صرف تِس وخت مہ شامل گر چہ کدی بلکل ضروری ھویں۔ مثال سو طور رے انگریزی لفظوں مہ  “don’t”  آ “we’re” تھا  چہ سو اپوسٹروف شامل گیو تھو آ اش متن مہ شامل گرو پکار تھو  ولے اِس بیاد سو امکان نہ تھی چہ تے کدی ھُم  "@" یا   "#" شان خاص علامتسو ضرورت ھوینݜ
 adding-sentences-subheader-special-characters = خاص نشان آبیرونی خط
+adding-sentences-subheader-special-characters-explanation-1 = خط ضرور منے والہ زیب سو تصدیق ھوینئل ھویاں۔ مثال سو طور رے  “ж” یک حرف تھو روس سو ولے انگریزی مہ کدی زو استعمال نہ ھواں آ او انگریزی سو زریعہ والہ متن مہ ظاہر نہ ھوں پکار تھو۔
+adding-sentences-subheader-special-characters-explanation-2 = کدی چہ لوکلائز ھونتے تہ زیبوں مہ اضافی ضروریات مِل اسئیں تصدیق سو اصول ھونتہ ۔ کہ کیں زہب سو دَن خاص تصدیقی فائل نہ تھو تہ انگریزی اصول شرکت گرے والوں پشے ݜہ
+adding-sentences-subheader-offensive-content = جارحانہ مواد
 
 ## Question collection ids
 
