@@ -20,6 +20,7 @@ new-sentence-rule-4 = pɩ̀bɔ́zɩ̀ tɔ̀m pɩ̀yà tɛ̀ mádɩ̀ nà ɖa�
 new-sentence-rule-5 = pàkàɖʊ̀ àkɔ́ntàn pìyà  yàà màdɩ́ŋ pìyà bànà pándɩ̀ nɛ́
 new-sentence-rule-6 = màdɩ́n pìyà ɩ̀gɔ̀mà fɛ̀yɩ̀
 new-sentence-rule-7 = kèjéèrì tɔ̀m pàvàtɩ̀ mbʊ̀ nɛ̀ mɔ́nà tɩ̀wɛ̀bɩ̀tá
+login-instruction-multiple-sentences = <loginLink>èzʊ́ʊ́ nɩ̀mbɩ̀kà ɖɔ́zɩ̀</loginLink> yàà<loginLink>ɩ̀má mɩ̀yɩ̀ɖɛ̀ </loginLink>ɩ̀zúrɩ̀ tɔ̀m pɔ̀wà ɖábàtà
 contact-us = ɩ̀yáá ɖàà
 add-sentence-success = tɔ̀m pɔ̀ɖɛ̀ tùùzí
 add-sentence-error = yɩ̀sɩ̀tɩ́ sádɩ̀ wéntì sìsè pèyèkì tɔ̀m pɔ̀dɛ̀ ná
