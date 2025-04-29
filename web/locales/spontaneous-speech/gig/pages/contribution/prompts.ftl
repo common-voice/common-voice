@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = ٽرآنسڪرئيب ڪرڻو سيکو۔
 learn-how-to-use-transcribe-explanation = اين منک جيڪو ڪيوي او بلڪل ليکو ، جنهن مين 'um' يآ  'errr'. اسي لڦز بهڙي ڇي۔
 learn-how-to-use-transcribe-guidance = ڪليڪ ڪرو<guidanceLink> اي پنآ پر استهمآل ڪرين سيکي سآرو اٺي </guidanceLink>
 learn-how-to-use-check-transcript = ٽرآنسڪرپشن چيڪ ڪرڻو سيکو ۔
+learn-how-to-use-check-transcript-explanation = ايڪ ٽرآنسڪرپشن مين هر لڦز يآ گير لگوي گڦتگو ري آوآزي ني پڪڙڻو کپي جيڪو منکي ترڦون ڪي يي گئي هووي ، جنهن مين ورجآ بي بهڙي هووي ۔
+learn-how-to-use-check-transcript-guidance = ڪليڪ ڪرو<guidanceLink> اي پنآ پر استهمآل ڪرين سيکي سآرو اٺي </guidanceLink>
