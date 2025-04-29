@@ -93,6 +93,7 @@ transcribe-audio-coming-soon = نکݪ آڈیو <small>(ٻیگا ئی آئی را
 transcribe-audio = نکݪ آڈیو
 press-and-stories = پریس اور کُہاݨِیاں
 community-and-languages = پڑاو اور ٻولِیان
+about-us = مھارے باریم
 
 ## MENU ITEMS TOOLTIPS
 
@@ -103,6 +104,7 @@ community-and-languages-menu-item-tooltip = مھارے پڑاواس سمپرک �
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = ایکی دؔیسی اواجا کے بھیݪا پاتی بھائیں کے باریم جاݨوں
 
 ## NEW HOME PAGE KEYS
 

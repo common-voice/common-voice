@@ -61,3 +61,7 @@ xkl = ڪينيا
 
 ## Language search component
 
+language-search-placeholder = ٻولِي جونچو۔۔۔۔۔۔۔
+language-search-aria-label = ٻولِي جونچو
+language-search-label = صرف مواد ري سيٽ ري شرڪت ڪرڻ آݪِي ٻولِي تبدِيل ڪريَ ھيَ
+language-search-no-results = ڪو بِي ٻولِي ڪونِي ملِي
