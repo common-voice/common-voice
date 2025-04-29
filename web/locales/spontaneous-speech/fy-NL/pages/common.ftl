@@ -61,3 +61,6 @@ xkl = Keniaansk
 
 ## Language search component
 
+language-search-placeholder = Sykje nei in taal…
+language-search-aria-label = Sykje nei in taal
+language-search-no-results = Gjin talgen fûn

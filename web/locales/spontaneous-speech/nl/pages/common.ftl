@@ -61,3 +61,6 @@ xkl = Keniaans
 
 ## Language search component
 
+language-search-placeholder = Zoeken naar een taal…
+language-search-aria-label = Zoeken naar een taal
+language-search-no-results = Geen talen gevonden
