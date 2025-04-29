@@ -2,10 +2,12 @@
 
 write = mátɩ̀
 write-instruction = ɩ́tàzɩ̀ <icon></icon>
-write-page-subtitle = tɔ̀m pɔ̀wà pàɖʊ̀yɛ̀ céŋjè nɛ̀ páŋtàsɩ̀ nà jɛ́ sámʊ́ʊ̀ ɖɩ́ŋɛ̀ tɛ́ɛ́ dɔ̃né wàá tɩ̀dárɛ̀ á pɩ̀kɛ́ báfá nɩ́mbáʊ̀ cc-o
+write-page-subtitle = tɔ̀m pɔ̀wà pàɖʊ̀yɛ̀ céŋjè nɛ̀ páŋtàsɩ̀ nà jɛ́ zámɔ́ɔ̀ ɖɩ́ŋɛ̀ tɛ́ɛ́ dɔ̃né wàá tɩ̀dárɛ̀ á pɩ̀kɛ́ báfá nɩ́mbáʊ̀ cc-o
 sentence =
     .label = tɔ̀m pɔ̀ɖɛ̀
-sentence-input-placeholder = ɩ̀màà mɩ̀dɛ́ɛ tɔ̀m pɔ̀ɖɛ̀ ɖɩ̀kɛ́ sámʊ́ʊ̀ ɖɩ́ŋà ɖɛ̃ndɛ̀ nà cɩ́ŋjè
+sentence-input-placeholder = ɩ̀màà mɩ̀dɛ́ɛ tɔ̀m pɔ̀ɖɛ̀ ɖɩ̀kɛ́ zámɔ́ɔ̀ ɖɩ́ŋà ɖɛ̃ndɛ̀ nà céŋjè
+small-batch-sentence-input-placeholder = ɩ̀màà mɩ̀dɛ́ɛ̀ tɔ̀m pɔ̀wà àgɛ́ɛ́ zàmɔ́ɔ̀ ɖɩ́ŋɛ̀ tɛ̀ nànɛ̀ cɩ́nŋè
+citation-input-placeholder = ɩ̀yèlé pàtɩ̀lɩ̀ mɩ̀dɛ́ tɔ̀m pɔ̀ɖɛ̀ ɖágàlɩ̀nàɖɛ̀ (pɩ̀gɛ́ɛ́́ ɖólì gɛ̀)
 sc-write-submit-confirm = mánɖʊ́ʊ́ àzééɖè sìsè tɔ̀m pɔ̀ɖɛ̀ tɩ̀nà tɩ̀kènɩ̀ <wikipediaLink>zàmɔ́ɔ̀-dàá fàrándɩ̀</wikipediaLink> nɩ̀ pàfàmà nɔ́ɔ́ sɩ̀ mɩ̀’tɩ̀rɩ̀nà
 sc-review-write-title = tɔ̀m pɔ̀wà wèmbà sɩ̀ màtàzɩ̀
 sc-review-small-batch-title = ŋ́gɩ̀nɩ̀ pándàzɩ̀ tɔ̀m pɔ̀wà
