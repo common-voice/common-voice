@@ -104,8 +104,8 @@ exceeds-small-batch-limit-error = 1000 کن بڌِيڪ جُملي جمع ڪون�
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] ريٽ مقرر حدِي کن بڌِيڪ گيلِي ڇَي 1 مِنٽا ۾ بڙتِي ڪوشش ڪرا
-       *[other] ريٽ مقرر حدِي کن بڌِيڪ گيلِي ڇَي { $retryLimit } مِنٽا ۾ بڙتِي ڪوشش ڪرا
+        [one] ريٽ مقرر حدِي کن بڌتِي گيلِي ڇَي 1 مِنٽا ۾ بڙتِي ڪوشش ڪرا
+       *[other] ريٽ مقرر حدِي کن بڌتِي گيلِي ڇَي { $retryLimit } مِنٽا ۾ بڙتِي ڪوشش ڪرا
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
