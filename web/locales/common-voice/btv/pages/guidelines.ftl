@@ -91,6 +91,8 @@ adding-sentences-subheader-speakable-explanation = بُوٹوں  نو مڑنیئ
 adding-sentences-subheader-numbers = نمبر
 adding-sentences-subheader-numbers-explanation = مثالی طور رے اخز گریل متن مہ ہندسہ نہ ھ وں پکار تھو۔ چیں چہ کدی سے اوچت اواز رے منہ تھہ تہ تِس مہ مسئلے یاتے  کش چہ یک نمبر پڑاں بزا اِسوں دارومدار سیاق و سباق رے ھواں آ سو ڈیٹا سیٹ مہ پریشانی گر ھواں مثال سو طور رے "2409" سو تعداد صحیح طریقہ گِھن "څورُو بیش صفر نو" آ "دُو زر زو څور شل آ نو" بھیزدو طریقیوں رے منا بزہ
 adding-sentences-subheader-abbreviations = مخفف آ خلاصے
+adding-sentences-subheader-abbreviations-explanation = مخفف آ خلاصے لکہ "USA" یا " ICE" اخذ گرے سو متن مہ ورٹو پکار تھو چئیں چہ اے اش پڑاں بزہ تھہ چہ سو اویں ھیزئ سو مطابق نہ ھواں آ جَل کیں یک مخفف سو دَن  ڙھؤ قسم سو صحیح ریڈنگ ھونتے
+adding-sentences-subheader-punctuation = وقف
 
 ## Question collection ids
 
