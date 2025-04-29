@@ -88,8 +88,11 @@ answer-questions-coming-soon = سُالیں کے جباب <small>(ٻیگے آئ�
 review-transcriptions = نکݪا کی جانچ کر
 review-transcriptions-coming-soon = نکݪا کی جانچ کر <small>(ٻیگے ئی آئی رے ہے)</small>
 add-questions = سُئال سیمل کرو
+add-questions-coming-soon = سُئالیں کُو سیمݪ کرو <small>(ٻیگے ئی آئی رے ہے)</small>
+transcribe-audio-coming-soon = نکݪ آڈیو <small>(ٻیگا ئی آئی را ہے)</small>
 transcribe-audio = نکݪ آڈیو
 press-and-stories = پریس اور کُہاݨِیاں
+community-and-languages = پڑاو اور ٻولِیان
 
 ## MENU ITEMS TOOLTIPS
 
