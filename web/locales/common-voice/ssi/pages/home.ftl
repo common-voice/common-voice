@@ -85,6 +85,9 @@ read-more-about = مھارے باریم پنیپ ودھیک پڑھو
 
 answer-questions = سُئالیں کے جباب
 answer-questions-coming-soon = سُالیں کے جباب <small>(ٻیگے آئی رے ہے)</small>
+review-transcriptions = نکݪا کی جانچ لیو
+add-questions = سُئال سیمل کرو
+transcribe-audio = نکݪ آڈیو
 
 ## MENU ITEMS TOOLTIPS
 
