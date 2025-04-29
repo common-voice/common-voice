@@ -8,14 +8,21 @@ why-spontaneous-speech = هم اي Spontaneous Speech پروٽوٽآئپ ڪآ ٺ
 why-card-1-text = <mark> نميآتي تڪريري ري هوآلي سون </mark> آئين ڪيسن ري استهمآل سآرو مڦيد ميسآل تور ،جۮي تم چآئو ڇو تو تڪرير ري اوڙکآڻ گير اسڪرپٽ هووڙي آئين آم ٻولي ٻوليوآڙي منکون سون ڪآم ڪري۔
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = ٻولي ري هڪيڪتي سآرو سٺو سپورٽ جسي ترجمو ڪري آئين <mark> ڪوڊ سوئچنگ</mark>۔
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = اي ٻولي سآرو سٺو سپورٽ جنهن مين استهمآل ڪري سآرو ٿوڙآ يآ <mark> ڪو بي ٽيڪسٽ ڪورپس ڪوني </mark> ميسآل تور سمآڃي چونڊو ، ڪسم تآريڪي توري پر گير اسڪرپٽ هووڙآ ٻولي وگيره۔
+how-spontaneous-speech-works = ڪي بي سآڪته تڪرير مين ڪآم ڪري ڇي۔
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark> نشآن </mark>
+prompt-bubble-subtitle = هم تمآني ايڪ سوآل يآ هآيت ڏيکآيآن۔
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جوآب ڏيڻو </mark>
+respond-bubble-subtitle = تم جوآب ڏئو يآ او رو جوآب ڪدرتي توري پر ڏئو ،جي يو تم ڪر سڪو ڇو۔
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark> لکوڙي</mark>
+transcribe-bubble-subtitle = تم جيڪو سوڻو ڇو او آڊيو ڪلپي مين ليکو ڇو۔
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>چيڪ ڪرڻو</mark>
+check-bubble-subtitle = تم چيڪ ڪرو تو ٽرآنڪرپشن آڊيو سون ميلي ڇي يآ نآ ۔
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark> موآد </mark>
 contact-us = هم سون رآپتو ڪرو
