@@ -97,6 +97,9 @@ community-and-languages = پڑاو اور ٻولِیان
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = پاتی بھائی، پریس اور کُہاݨِیاں، پڑاو اور ٻولِیاں
+partnerships-menu-item-tooltip = دنیا بھرام ایکی دؔیسی اواجا کی بھیر لیݨ واڑے سنگ گٹھنیں کی کھوج کرو
+press-and-stories-menu-item-tooltip = سادھارݨ اواجام کُہاݨِیاں، اپ ڈیٹس اور میڈیا کوریج پڑھو
+community-and-languages-menu-item-tooltip = مھارے پڑاواس سمپرک کرو اور بھیر واݪی ٻولِیاں دیکھو
 
 ## MENU ITEM ARIA LABELS
 
