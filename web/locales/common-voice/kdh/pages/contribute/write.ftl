@@ -145,12 +145,15 @@ add-sentences = ɩ́tàzɩ̀ tɔ̀m pɔ̀wà
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = tɔ̀m pɔ̀wà tɛ̀ tàsɩ̀ nɩ̀ àdɛ́ pɛ̀m, tɔ̀m pɔ̀zɩ̀ tɛ̀ tàsɩ̀, òdìò tɔ̀m pìyà mádɩ̀
 add-sentences-menu-item-tooltip = ɩ́tàzɩ̀ tɔ̀m pɔ̀wà mɩ̀dɛ̀ɛ́ kʊ̀nʊ̀m tàà
 review-sentences-menu-item-tooltip = ɩ̀bɛ̀m tɔ̀m pɔ̀wà mɩ̀dɛ̀ɛ́ kʊ̀nʊ̀m tàà
 add-questions-menu-item-tooltip = ɩ́tàzɩ̀ tɔ̀m pɔ́zɩ̀ mɩ̀dɛ̀ɛ́ kʊ̀nʊ̀m tàà
+transcribe-audio-menu-item-tooltip = òdìo wàà pɔ́gbɔ̀tɩ̀ mɩ̀dɛ́ kʊ̀nʊ̀m tà nɛ̀ tɛ́ɛ̀ tèm pìyà mádɩ̀
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = « màdɩ́ » tɛ̀ fùɖúŋ
-add-sentences-menu-item-aria-label = ɩ̀tàsɩ̀ tɔ̀m pɔ̀wà kɩ́fàlɛ̀ wéntì  kòtòkòlì pìyá sɩ̀ pàkaàlɩ̀ ná
-review-sentences-menu-item-aria-label = ɩ̀bɛ̀m tɔ̀m pɔ̀wà wéntì kòt̀kòlì pìyá wávà ná
+add-sentences-menu-item-aria-label = ɩ̀tàsɩ̀ tɔ̀m pɔ̀wà kɩ́fàlɛ̀ wéntì kɔ̀mɩ̀nòtè sɩ̀ pàkaàlɩ̀ ná
+review-sentences-menu-item-aria-label = ɩ̀bɛ̀m tɔ̀m pɔ̀wà kɩ̀fɩ̀mwɛ̀ kɔ̀mɩ̀nòtè wávà ná
+add-questions-menu-item-aria-label = ɩ̀gɔ̀nà tɔ̀m pɔ̀zɩ̀tɩ̀ wà kɩ̀fàtɩ̀ nà kɔ̀mɩ̀nòtè ɩ̀kàlà pɩ̀kàá kɩ̀tɩ̀zɩ̀
