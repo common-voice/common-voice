@@ -49,9 +49,17 @@ general = wɛ̀ɛ̀lɩ́
 # Sentence Domain dropdown option
 healthcare = àlàfìà
 # Sentence Domain dropdown option
-history_law_government = dɔ̀m, kíɖììwú nɩ̀ gómìnàntɩ̀
+history_law_government = cànɩ̀ tɔ̀m, wèndì pìzìzɩ̀lɛ̀ nɩ̀ gómìnàntɩ̀
 # Sentence Domain dropdown option
-nature_environment = kètéŋà
+language_fundamentals = wèndì wàà kʊ̀nʊ̀mɩ̀n wámbázìnà nà (àkɔ̀ntáà, màdɩ̀ pìyà, lìdé)
+# Sentence Domain dropdown option
+media_entertainment = wèmbì pànsàná pàrɔ́nɛ́ nà ézàjàlàzʊ́ʊ́
+# Sentence Domain dropdown option
+nature_environment = sàɖàmà nà wèmbì pɩ̀làɖá pɩ̀mɩ̀lɩ̀nà ɖánì
+# Sentence Domain dropdown option
+news_current_affairs = wàbàrʊ̀wà kɩ̀zàtɩ̀
+# Sentence Domain dropdown option
+technology_robotics = ɩ̀zá mɔ̀zɩ̀ tɔ̀mʊ̀ɖɛ́ nà robot wàà tɛ̀ l̀m a
 sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
 sentence-variant-select-placeholder = ɩ̀lɩ̀zɩ́ kʊ̀nʊ́m nàkɩ̀rɩ̀ (pà wéŋkì)
 sentence-variant-select-multiple-variants = kʊ̀nʊ́m tɛ̀ tɔ̀m kɩ̀bázɩ̀á / kʊ̀nʊ́mɩ̀n  ŋdɩ́ndɩ̀
