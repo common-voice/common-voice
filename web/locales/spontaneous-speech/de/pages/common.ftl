@@ -61,3 +61,7 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Nach einer Sprache suchen…
+language-search-aria-label = Nach einer Sprache suchen
+language-search-label = Ändert nur die Mitwirkungssprache des Datensatzes
+language-search-no-results = Keine Sprachen gefunden
