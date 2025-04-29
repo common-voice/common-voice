@@ -81,6 +81,12 @@ citing-sentences-subheader-offline-sources-explanation = عوامی احاطہ �
 citation =
     .label = حوالہ
 self-citation = ذاتی حوالہ
+self-citation-explanation = تو اپئیں حوالہ کش دیا کہ تی امیئ لکید
+adding-sentences-subheader-length = ڙیگیار
+adding-sentences-subheader-length-explanation = جملہ 15 لفظوں نو کھٹئیں  ھوں پکار تھی
+adding-sentences-subheader-spelling-punctuation = اسپیلنگ آ وقفے
+adding-sentences-subheader-spelling-punctuation-explanation = جملہ ضرور صحیح اسپلڈ ھویں۔
+adding-sentences-subheader-speakable = منے سو قابل
 
 ## Question collection ids
 
