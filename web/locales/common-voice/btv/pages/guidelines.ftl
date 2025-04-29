@@ -87,6 +87,8 @@ adding-sentences-subheader-length-explanation = جملہ 15 لفظوں نو کھ
 adding-sentences-subheader-spelling-punctuation = اسپیلنگ آ وقفے
 adding-sentences-subheader-spelling-punctuation-explanation = جملہ ضرور صحیح اسپلڈ ھویں۔
 adding-sentences-subheader-speakable = منے سو قابل
+adding-sentences-subheader-speakable-explanation = بُوٹوں  نو مڑنیئ جملے قدرتی آ یک پَرئیں مِل بیاد گرو تھے — اے پڑھو ہسان ھونتے پَرئیں کِسئ۔ اواز سو تنوع آ مختلف  الفاظ جملہ مہ اہم تھہ، بے ھُم جملے ریکارڈ گرے سو کوشش گرہ تھہمصروفیت سو دَن آ اپاں رضا کار کمیونٹی والہ خوش گرے سو دَن کیئت چہ ممکن ھون۔
+adding-sentences-subheader-numbers = نمبر
 
 ## Question collection ids
 
