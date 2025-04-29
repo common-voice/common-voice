@@ -81,13 +81,16 @@ minimum-sentences = tɔ̀m pɔ̀wà tɛ́ ɖɔ̀mɩ̀nɩ̀ kɛ̀dɛ́zɩ̀yà 
 maximum-file-size = fàtàkà tɛ́ ɖɔ̀mɩ̀nɩ̀ ɖɩ́ŋà : 25 Mo
 what-needs-to-be-in-file = wé wàmbɩ̀zɩ̀ kʊ̀ pɩ̀zɩ́ŋ fàtàkáŋ tàà ?
 upload-progress-text = pʊ̀wɛ̀ pɩ́ŋɖɛ́ɛ́
-sc-bulk-submit-confirm = mánɖʊ́ʊ́ àzééɖè sìsè tɔ̀m pɔ̀wà tɩ̀nà tɩ̀kèná <wikipediaLink>zàmɔ́ɔ̀-dàá fàrándɩ̀</wikipediaLink> nɩ̀ pàfàmà nɔ́ɔ́ sɩ̀ mɩ̀tɩ̀rɩ̀nà
+sc-bulk-submit-confirm = mánɖʊ́ʊ́ àzééɖè sìsè tɔ̀m pɔ̀wà tɩ̀nà tɩ̀kèná <wikipediaLink>zàmɔ́ɔ̀-dàá fàrándɩ̀</wikipediaLink> nɩ̀ pàfàmà nɔ́ɔ́ sìsè mèyèkìyɛ̀
 bulk-upload-success-toast = tɔ̀m pɔ̀wà péyèkɩ̀nɛ̀
+bulk-upload-failed-toast = yèkì tɛ̀rɛ́, ɩ̀tàzɩ̀ ɩ̀bázɩ̀
+bulk-submission-success-header = mɩ̀nɩ̀ kóŋkàrɩ̀ ŋgɩ̀ná mɩ̀zɩ̀ŋ pɩ̀ká ɩ̀yèkì tɔ̀m pɔ̀wà ɖàbátà nɛ̀ !
+bulk-submission-success-subheader = mɩ̀nzɩ̀náà kɔ̀mɔ̀n vɔ̀yɩ̀sɩ̀ sìsè kɩ̀yɩ̀ɣ tɔ̀m pɔ̀wà àrɔ́ɔ̀ ŋgɩ̀nɩ̀ kɩ̀zɔ́lɛ́ɛ̀ wɩ̀ɖɛ̀ pà wèndì nè !
 upload-more-btn-text = yékɩ̀nà tɔ̀m pɔ̀wà nàbɛ̀rɛ́
-file-invalid-type = Tɔ̀m tàkàrà wèŋkà pàtànlànà ná
-file-too-large = tɔ̀m tàkàrɩ̀sɩ̀ wákɩ̀lɩ́ ɖɔ́mɩ̀nɩ̀̀
-file-too-small = tɔ̀m tàkàrá wàkɩ̀lɩ̀ cʊ̀kɔ̀
-too-many-files = tɔ̀m tàkàrɩ̀sɩ̀ wákɩ̀lɩ́
+file-invalid-type = fàtàkà fɛ̀yɩ̀ ɖèyɩ́ɖèyɩ́
+file-too-large = fàtàkà wákɩ̀lɩ́ ɖɔ́mɩ̀nɩ̀̀
+file-too-small = fàtàkà wàkɩ̀lɩ̀ cʊ̀kɔ̀
+too-many-files = fàtàkàsɩ̀ wákɩ̀lɩ́
 
 ## SMALL BATCH SUBMISSION
 
