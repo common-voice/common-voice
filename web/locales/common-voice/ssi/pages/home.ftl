@@ -83,6 +83,7 @@ read-more-about = مھارے باریم پنیپ ودھیک پڑھو
 
 ## NAV ITEMS
 
+answer-questions = سُئالیں کے جباب
 
 ## MENU ITEMS TOOLTIPS
 

@@ -11,6 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = اپلوڍ نا ڪآم هوگيو ڌوبارا ڪوشش ڪر
 add-question-too-many-questions-error = 25 سوآلي سون وڌيڪ يآ سوآلي رو تهدآد گھٽآئو آئين وڙي ڪوشش ڪرو ۔
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] ايڪ سولي مين ايڪ{ $uploadedQuestions }بهڙي ڪيۮو گيو۔سوآل بهڙي ڪري بآبت وڌيڪ سيکي سآرو همآري <guidelinesLink></guidelinesLink>1
+       *[other] پنآ ڏيکو ڏوجھو۔{ $uploadedQuestions }{ $totalQuestions } سوآلي مين بهڙي ڪيۮو گيو ۔ سوآل بهڙي ڪري بآبت وڌيڪ سيکي سآرو همآري <guidelinesLink></guidelinesLink>
+    }
 # Guidelines
 add-question-guidelines-title = مين ڪسي جملآ ميلآ سکو ن ڇون
 do-section-title = ڪرڻو
@@ -18,3 +23,5 @@ do-section-guideline-1 = سئي اسپيلنگ آئين گرآمر استهمآ�
 do-section-guideline-2 = سآدي سوآل چونڊو جيڪو هر ڪي سآرو سمجھي مين آسآن هووي ، سڪآڦت يآ تنآزر سون ايلآوآ،
 do-section-guideline-3 = سوآل ليرو جوآب سرڦ ڌي جملي مين ڏيڻو کپي،
 do-not-section-title = نا ڪرڻو
+do-not-section-guideline-1 = زآتي توري پر اوڙکآڻ  ڪيۮو مهلومآتجسو ڪي نآم يآ مآلي مهلومآت ليلو
+do-not-section-guideline-2 = تيسب وآڙي يآ نآ پسند جزبآتي رو ازهآر يآ درڪآش ڪرو۔
