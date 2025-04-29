@@ -30,6 +30,7 @@ contact-us = هم سون رآپتو ڪرو
 contact-us-title = اي منسوبي مين بهڙي هو مين دلچسبي رکو ڇو ، يآ همآ سون ڀآئيوآري مين ۔
 contact-us-email = اي ميل:<emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = ڪآئي تم آگي مين ئي ڪآمن وآئيس ري اسپونٽينيئس اسپيچ پرو جيڪٽ سآرو همآري ري ڊيٽآ ٽيسٽنگ گروپي مين ڇي۔
+signup-terms = مآري اي ميلي پر لنڪ ميلو ،پر ڪلڪ هووي تم همآري <termsLink> سروسي ري شرت</termsLink> آئين <privacyLink> رآزي وآڙي پآليسي </privacyLink> سون متمين ڇو ، آئين او تو Mozilla تمآني ڪآمن وآئسي ري اسپونٽينيئس اسپيچ پروجيڪٽي سآرو ڊيٽآ ٽيسٽنگي مين هيسو لي ري مهلومآتي سون ائ ميل ڪر سڪو ڇو۔
 signup-input-placeholder = آپيرو اي ميل درج ڪر
 signup-button-value = اي ميل لنڪ ملڻو
 footer-text-privacy = <privacyLink> رآزدآري</privacyLink>
