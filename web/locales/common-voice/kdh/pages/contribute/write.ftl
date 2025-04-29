@@ -157,3 +157,4 @@ write-contribute-menu-aria-label = « màdɩ́ » tɛ̀ fùɖúŋ
 add-sentences-menu-item-aria-label = ɩ̀tàsɩ̀ tɔ̀m pɔ̀wà kɩ́fàlɛ̀ wéntì kɔ̀mɩ̀nòtè sɩ̀ pàkaàlɩ̀ ná
 review-sentences-menu-item-aria-label = ɩ̀bɛ̀m tɔ̀m pɔ̀wà kɩ̀fɩ̀mwɛ̀ kɔ̀mɩ̀nòtè wávà ná
 add-questions-menu-item-aria-label = ɩ̀gɔ̀nà tɔ̀m pɔ̀zɩ̀tɩ̀ wà kɩ̀fàtɩ̀ nà kɔ̀mɩ̀nòtè ɩ̀kàlà pɩ̀kàá kɩ̀tɩ̀zɩ̀
+transcribe-audio-menu-item-aria-label = ɩ̀lɩ̀zɩ̀ òdìò wà tɛ̀ tɔ̀m pɩ̀yà mɩ́mànɛ̀ tɩ̀là tàkàràbà
