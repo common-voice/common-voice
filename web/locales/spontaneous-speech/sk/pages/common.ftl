@@ -61,3 +61,7 @@ xkl = Keňa
 
 ## Language search component
 
+language-search-placeholder = Hľadať jazyk...
+language-search-aria-label = Vyhľadať jazyk
+language-search-label = Zmení iba jazyk príspevkov v kolekcii údajov
+language-search-no-results = Nenašli sa žiadne jazyky

@@ -103,9 +103,16 @@ reviewing-sentences-explanation-1 = کہ او جملہ اِس طریقہ کار 
 reviewing-sentences-explanation-2 = کہ او جملہ رے دیتیل طریقہ کار مِل نہ مِلہ تہ "نہء" سو بٹن کلک گر
 reviewing-sentences-explanation-3 = کہ تو اِس جملہ سو متعلق مطمئین نہ تھو تہ تو اِس سکپ ھُم گر ھواں آ پرئیں سو طرفے بز ھواں۔
 reviewing-sentences-explanation-4 = اگر کہ تو نظر ثانی سو دن جملے چلا، مہربانی گیری اسئیں مدد گر جل جملے جمہ گرے مہ۔
+domain-explanation = جملہ سو موضوع۔ موجودہ وخت، تو مڑآ مہ خوش گر ھواں
 
 ## Question collection ids
 
+adding-questions = سوال شامل گر
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = مڑنیئ سوال چوں څیز سَندا ؟
+what-makes-a-good-question-explanation = یک مڑنیئ سوال لوں سو شرکت سو دَنڈیٹا سیٹ ھونݜ۔
+what-makes-a-good-question-explanation-criteria-1 = پرزے آ جواب دے سو دَن ہسان ھویں
+what-makes-a-good-question-explanation-criteria-2 = عام طور رے متعلقہ ھویں
+what-makes-a-good-question-explanation-criteria-3 = استعمال نہ گر، یا درخواست، نقصان دہ یا جارحانہ زیب
