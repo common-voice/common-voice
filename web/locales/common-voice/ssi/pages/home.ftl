@@ -75,6 +75,7 @@ username-email-not-demographic = تھارا لیݨواڑا نانٚو اور ا�
 
 ## Landing
 
+welcome-staff = تھارا سُئاگت ہے { $company } سیوادؔار!
 
 ## NAV ITEMS
 
