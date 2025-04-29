@@ -98,6 +98,11 @@ adding-sentences-subheader-special-characters = خاص نشان آبیرونی �
 adding-sentences-subheader-special-characters-explanation-1 = خط ضرور منے والہ زیب سو تصدیق ھوینئل ھویاں۔ مثال سو طور رے  “ж” یک حرف تھو روس سو ولے انگریزی مہ کدی زو استعمال نہ ھواں آ او انگریزی سو زریعہ والہ متن مہ ظاہر نہ ھوں پکار تھو۔
 adding-sentences-subheader-special-characters-explanation-2 = کدی چہ لوکلائز ھونتے تہ زیبوں مہ اضافی ضروریات مِل اسئیں تصدیق سو اصول ھونتہ ۔ کہ کیں زہب سو دَن خاص تصدیقی فائل نہ تھو تہ انگریزی اصول شرکت گرے والوں پشے ݜہ
 adding-sentences-subheader-offensive-content = جارحانہ مواد
+adding-sentences-subheader-offensive-content-explanation = کہ یک جملہ جارحانہ یا پریشانہ گرے والہ تھی۔ مثال سو طور رے واضحہ مواد سو وجہ دے، یا اسئیں شریک کمیونٹی سو رہنما خط  <communityGuidelines> سو کیں جَل خلاف ورزی دے ۔</communityGuidelines>  تے جملہ رَد گرو پکار تھو  تو اسئ اوڑ ھُم ھواں <emailFragment> commonvoice@mozilla.com </emailFragment> مسئلہ ختم گرے سو دَن۔
+reviewing-sentences-explanation-1 = کہ او جملہ اِس طریقہ کار مِل مِلہ کاں چہ از رے دیتھ تھی، "آں" سو بٹن  کلک گر۔
+reviewing-sentences-explanation-2 = کہ او جملہ رے دیتیل طریقہ کار مِل نہ مِلہ تہ "نہء" سو بٹن کلک گر
+reviewing-sentences-explanation-3 = کہ تو اِس جملہ سو متعلق مطمئین نہ تھو تہ تو اِس سکپ ھُم گر ھواں آ پرئیں سو طرفے بز ھواں۔
+reviewing-sentences-explanation-4 = اگر کہ تو نظر ثانی سو دن جملے چلا، مہربانی گیری اسئیں مدد گر جل جملے جمہ گرے مہ۔
 
 ## Question collection ids
 
