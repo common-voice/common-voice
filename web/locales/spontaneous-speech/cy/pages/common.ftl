@@ -61,3 +61,6 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Chwilio am iaith...
+language-search-aria-label = Chwilio am iaith
+language-search-label = Yn newid iaith cyfraniad y set ddata yn unig
