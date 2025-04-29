@@ -73,6 +73,14 @@ public-domain-explanation-5 = متن ٹنڈ کوزا چہ نقل گیری لیک
 public-domain-explanation-6 = حکومت،غیر منافع بخش یا میڈیا تنظیمو تکے اوڑ۔ چئیں چہ اوبھال چہ اویں ویب مواد،رپورٹ یا جَل مواد عوامی احاطہ کار سو دَن  وقف ھوں ھواں کہ نیئ
 citing-sentences-explanation-1 = او اہم تھو چہ حولہ شمار گر  چہ اسئ پتہ رھینگیئ  چہ جملے عوامی احاطہ کار سو تھے کہ نیئ آ نقل گیری لیکو منع نہ تھو
 citing-sentences-subheader-websites = ویب سائٹ
+citing-sentences-subheader-websites-explanation = تُو شامل گر ھواں ویب سائٹ لکہ "عام اوازhttps://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = تعلیمی حوالہ
+citing-sentences-subheader-academic-reference-explanation = تیئ تعلیمی حوالہ سو سٹائل استعمال گرو پکار تھو لکہ  ہارڈ ورڈ سٹائل "موزیلا 2021 عام اواز۔ موجود تھو https://commonvoice.mozilla.org/ اوڑید 15 ستمبر 2021)"
+citing-sentences-subheader-offline-sources = آف لائن زرائع
+citing-sentences-subheader-offline-sources-explanation = عوامی احاطہ گرے سو متن چہ سو آن لائن موجود نہ تھو، تو تعلیمی حوالہ سو سٹائل استعمال گر لکہ  ہارڈ ورڈ سٹائل "جِس2021 میوں عوامیلائیسنس نظم"
+citation =
+    .label = حوالہ
+self-citation = ذاتی حوالہ
 
 ## Question collection ids
 
