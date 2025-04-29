@@ -11,8 +11,6 @@ platform-language-tooltip-text = خالی ویب سائیٹ ستہ ستوری ت
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹ سیٹ { $language } شریک بوستہ
 contribution-picker-tooltip-text = گیجی وری تہ تیو شریک اسیش با ستہ وری ستہ ڈیٹا سیٹ بدل کشی
-# Label for button on contribution switcher
-change = بدل
 coming-soon = ورں وری دی نݜٹو ازیا
 media-recorder-api-not-supported = توستہ براؤزر تہ میڈیا ریکارڈر اےپی ای حمایت نہ کوتہ
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = سیریان بیڈایو
 snv = سابان
 tr = ترکی
 xkl = کینیا
+
+## Language search component
+

@@ -11,8 +11,6 @@ platform-language-tooltip-text = Erihindulha esyonzakano esy’omukuutho ow’em
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Erisokera emyatsi <bold>{ $language }</bold> eyithondekenie
 contribution-picker-tooltip-text = Hindulikanaya omubuughe omo myatsi eyithondekenie eyawukasokera
-# Label for button on contribution switcher
-change = Hindulha
 coming-soon = Emibuughe eyindi yikendibya iyinemulethwa lhuba
 media-recorder-api-not-supported = API sibihamibirwe omo
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkish
 xkl = Kenyah
+
+## Language search component
+

@@ -11,8 +11,6 @@ platform-language-tooltip-text = رگو ويب سآئيٽي رآ اکر  بدل�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = شرڪت <bold>{ $language }</bold> ڪرڻو ڊيٽآ سيٽ مين۔
 contribution-picker-tooltip-text = ٻولي ڊيٽآ سيٽ ني بدلي ڪري ڇي ۔جنهن مين تم هيسو لي ري ڇو۔
-# Label for button on contribution switcher
-change = بدلاڻو
 coming-soon = وڌيڪ ٻولي جلدي آري ڇي ۔
 media-recorder-api-not-supported = تمآري برآئوزرمين MediaRecorder API سپورٽ ڪيۮوڙآ ڪوني ۔
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = سرين بيدهآ
 snv = سابآن
 tr = ترڪيٚ
 xkl = ڪيٚنئيٚا
+
+## Language search component
+

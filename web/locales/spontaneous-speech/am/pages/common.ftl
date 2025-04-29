@@ -7,8 +7,6 @@ action-tap = ይንኩ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ለ{ $language } የውሂብ ስብስብ አስተዋጽዖ ማድረግ
-# Label for button on contribution switcher
-change = ለውጥ
 coming-soon = ተጨማሪ ቋንቋዎች በቅርቡ ይመጣሉ
 media-recorder-api-not-supported = የመቅረጸ ሚዲያው API በአሳሽዎ ውስጥ አይደገፍም።
 # Toast message that is displayed when an item is skipped
@@ -56,3 +54,6 @@ sdo = ሴሪያን ቢዳዩህ
 snv = ሳባን
 tr = ቱርክኛ
 xkl = ኬንያ
+
+## Language search component
+

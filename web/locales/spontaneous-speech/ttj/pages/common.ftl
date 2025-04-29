@@ -11,8 +11,6 @@ platform-language-tooltip-text = Nikihindura ekihandiiko ky'omukutu (weebusaiti)
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Nikyongerereza<bold>{ $language }</bold>ha birukusorozebwa
 contribution-picker-tooltip-text = Endimi ezindi niziija omu bwire obutali bwa hara
-# Label for button on contribution switcher
-change = Hindura
 coming-soon = Endimi ezindi niziija omu bwire obutali bwa hara
 media-recorder-api-not-supported = Puroguraamu yaawe enseruzi terukusagika enkwatamara n'ebisani (Media Recorder) eya API.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkish
 xkl = Kenyah
+
+## Language search component
+

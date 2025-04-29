@@ -11,8 +11,6 @@ platform-language-tooltip-text = Maina tikai vietnes tekstu.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Ieguldījums { $language } datu kopā
 contribution-picker-tooltip-text = Maina valodu datu kopai, kurā veicat ieguldījumu
-# Label for button on contribution switcher
-change = Mainīt
 coming-soon = Drīzumā būs pieejamas papildu valodas
 media-recorder-api-not-supported = MediaRecorder API jūsu pārlūkprogrammā netiek atbalstīta.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turku
 xkl = Kenyah
+
+## Language search component
+

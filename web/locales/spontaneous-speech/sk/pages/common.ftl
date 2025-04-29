@@ -11,8 +11,6 @@ platform-language-tooltip-text = Zmení iba text webovej stránky.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Prispievanie do kolekcie údajov pre jazyk { $language }
 contribution-picker-tooltip-text = Zmení kolekciu jazykových údajov, do ktorých prispievate
-# Label for button on contribution switcher
-change = Zmeniť
 coming-soon = Ďalšie jazyky už čoskoro
 media-recorder-api-not-supported = Váš prehliadač nepodporuje MediaRecorder API.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turečtina
 xkl = Keňa
+
+## Language search component
+

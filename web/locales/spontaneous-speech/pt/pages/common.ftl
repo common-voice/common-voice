@@ -7,8 +7,6 @@ action-tap = Toque em
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contribuir para o conjunto de dados para { $language }
-# Label for button on contribution switcher
-change = Mudar
 coming-soon = Mais idiomas em breve
 media-recorder-api-not-supported = A API do MediaRecorder não é suportada no seu navegador.
 # Toast message that is displayed when an item is skipped
@@ -53,3 +51,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turco
 xkl = Quénia
+
+## Language search component
+

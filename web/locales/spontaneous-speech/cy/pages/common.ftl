@@ -11,8 +11,6 @@ platform-language-tooltip-text = Dim ond yn newid testun gwefan.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Yn cyfrannu at set ddata ar gyfer { $language }
 contribution-picker-tooltip-text = Newidiadau i'r set ddata iaith rydych yn cyfrannu ato
-# Label for button on contribution switcher
-change = Newid
 coming-soon = Mae rhagor o ieithoedd ar eu ffordd!
 media-recorder-api-not-supported = Nid yw'r API MediaRecorder yn cael ei gefnogi yn eich porwr.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Twrceg
 xkl = Kenyah
+
+## Language search component
+

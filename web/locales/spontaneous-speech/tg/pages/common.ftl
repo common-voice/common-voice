@@ -11,8 +11,6 @@ platform-language-tooltip-text = Танҳо матни сомонаро тағй
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Саҳмгузорӣ дар маҷмуи маълумот барои { $language }
 contribution-picker-tooltip-text = Тағйир додани маҷмуи маълумоти забонӣ, ки шумо ба он саҳм мегузоред
-# Label for button on contribution switcher
-change = Тағйир додан
 coming-soon = Ба қарибӣ забонҳои нав пайдо мешаванд
 media-recorder-api-not-supported = «MediaRecorder API» дар браузери шумо дастгирӣ намешавад.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Бидауи Серианӣ
 snv = Саъбан
 tr = Туркӣ
 xkl = Кениягӣ
+
+## Language search component
+

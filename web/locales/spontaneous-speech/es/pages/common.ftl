@@ -11,8 +11,6 @@ platform-language-tooltip-text = Cambia únicamente el texto del sitio web.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contribuyendo al conjunto de datos para { $language }
 contribution-picker-tooltip-text = Cambia el conjunto de datos de idioma al que estás contribuyendo
-# Label for button on contribution switcher
-change = Cambia
 coming-soon = Próximamente más idiomas
 media-recorder-api-not-supported = La API de MediaRecorder no es compatible con su navegador.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turco
 xkl = Kenia
+
+## Language search component
+

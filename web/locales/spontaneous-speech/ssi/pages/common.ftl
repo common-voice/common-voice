@@ -7,3 +7,6 @@ action-click = دؔٻاٹؔا
 
 ## Not Found Page
 
+
+## Language search component
+

@@ -11,8 +11,6 @@ platform-language-tooltip-text = เปลี่ยนเฉพาะข้อ�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = กำลังมีส่วนร่วมกับชุดข้อมูลสำหรับภาษา { $language }
 contribution-picker-tooltip-text = เปลี่ยนชุดข้อมูลภาษาเป็นชุดที่คุณกำลังมีส่วนร่วมด้วย
-# Label for button on contribution switcher
-change = เปลี่ยน
 coming-soon = ภาษาอื่นๆ กำลังจะมาเร็วๆ นี้
 media-recorder-api-not-supported = ไม่มีการรองรับ MediaRecorder API ในเบราว์เซอร์ของคุณ
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = บิดายุฮ์เซอเรียน
 snv = ซาบัน
 tr = ตุรกี
 xkl = เคนยาฮ์
+
+## Language search component
+

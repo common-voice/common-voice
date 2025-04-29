@@ -11,8 +11,6 @@ platform-language-tooltip-text = Ändrar endast text på webbplatsen.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bidrar till datamängd för { $language }
 contribution-picker-tooltip-text = Ändrar språkdatamängden du bidrar till
-# Label for button on contribution switcher
-change = Ändra
 coming-soon = Fler språk kommer snart
 media-recorder-api-not-supported = MediaRecorder API stöds inte i din webbläsare.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkiska
 xkl = Kenyah
+
+## Language search component
+

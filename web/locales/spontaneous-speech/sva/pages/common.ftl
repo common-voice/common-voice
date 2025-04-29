@@ -11,8 +11,6 @@ platform-language-tooltip-text = აცა̄̈დი საიტი ტექ�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = მონაცემრეშ ხორეუ̂თეჲსგა წვლილი ლიდი { $language }-ეშდ
 contribution-picker-tooltip-text = აცა̄დუნე ნინი მონაცემრე ბაზას, ხედუ̂ა̄̈ჲთე̄ჲსგა სი ეჯღუ̂ა წუ̂ლილ
-# Label for button on contribution switcher
-change = ჟი ლისპე
 coming-soon = დო̄სგ ქა იწუ̂ე̄ნიხ იშგენ ნჷნა̈რი
 media-recorder-api-not-supported = The MediaRecorder API მა̄მ ლი მხარდაჭერილ ისგუ̂ა ბრაუზერისგა.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Bidayuh-ის ტომი
 snv = მა̈გ
 tr = თურქულ
 xkl = კენიურ
+
+## Language search component
+

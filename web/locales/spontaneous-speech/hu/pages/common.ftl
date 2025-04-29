@@ -11,8 +11,6 @@ platform-language-tooltip-text = Csak a weboldal szövegét módosítja.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Közreműködés a(z) { $language } adatkészletben
 contribution-picker-tooltip-text = Módosítja azt a nyelvadatkészletet, amelyben közreműködik
-# Label for button on contribution switcher
-change = Módosítás
 coming-soon = Hamarosan további nyelvek is lesznek
 media-recorder-api-not-supported = A MediaRecorder API nem támogatott az Ön böngészőjében.
 # Toast message that is displayed when an item is skipped
@@ -44,3 +42,6 @@ en = Angol
 fr = Francia
 meh = Délnyugat-tlaxiacói mizték
 tr = Török
+
+## Language search component
+
