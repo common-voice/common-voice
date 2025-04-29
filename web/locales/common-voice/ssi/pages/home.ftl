@@ -85,10 +85,11 @@ read-more-about = مھارے باریم پنیپ ودھیک پڑھو
 
 answer-questions = سُئالیں کے جباب
 answer-questions-coming-soon = سُالیں کے جباب <small>(ٻیگے آئی رے ہے)</small>
-review-transcriptions = نکݪا کی جانچ لیو
+review-transcriptions = نکݪا کی جانچ کر
 review-transcriptions-coming-soon = نکݪا کی جانچ کر <small>(ٻیگے ئی آئی رے ہے)</small>
 add-questions = سُئال سیمل کرو
 transcribe-audio = نکݪ آڈیو
+press-and-stories = پریس اور کُہاݨِیاں
 
 ## MENU ITEMS TOOLTIPS
 

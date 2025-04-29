@@ -12,3 +12,5 @@ request-language-google-recaptcha-required = reCAPTCHA er påkravd om du vil hal
 request-language-google-recaptcha-error = Noko gjekk gale med reCAPTCHA. Prøv på nytt.
 # Success page
 request-language-success-heading = Takk skal du ha! Du har sendt ein førespurnad om eit nytt språk
+request-for-spontaneous-speech-toggle = Førespurnad om spontan tale
+need-help-deciding-platform = Treng du hjelp til å bestemme kva du skal velje?
