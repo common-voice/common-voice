@@ -63,4 +63,5 @@ xkl = Keniaans
 
 language-search-placeholder = Zoeken naar een taal…
 language-search-aria-label = Zoeken naar een taal
+language-search-label = Wijzigt alleen de bijdragetaal van de gegevensset
 language-search-no-results = Geen talen gevonden
