@@ -136,8 +136,10 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = ìfúù wèmbì pɩ̀mbɔ̀zɩ̀ sìsè pàlà « tɔ̀m pɔ̀wà wèŋnà kɛ̀ màmbɩ̀zɩ̀ màntàzɩ̀  » tɛ́ɛ̀ tàdàrɩ̀ tá nɛ̀ ?
 small-batch-sentences-rule-2 = ɩ̀tàzɩ̀ tɔ̀m pɔ̀ɖɛ̀ pà cɛ̀ɛ̀rɔ̀ɔ́ wénkì ɖɔ̀ɔ́zɩ̀
-small-batch-sentences-rule-4 = ɩ̀tàsɩ̀ pɩ̀tàlɩ̀’ tɔ̀m pɔ̀wà kútòkú/mɩ̀lɩ̀
-small-batch-sentences-rule-5 = pɩ̀bɔ́zɩ̀ sìsè tɔ̀m pɔ̀wà ɖɩ́ŋà ɩ̀wɛ̀nà fɔ̀lʊ́ʊ́ kʊ́ɖʊ̀mʊ́
+small-batch-sentences-rule-3 = ɩ̀ñɔ́ɔ̀ kʊ̀ɖʊ̀mbɩ̀ yélé « zʊ́ʊ́ » ɖɔ́zɩ̀ ɩ̀tàrà tɔ̀m pɔ̀wà
+small-batch-sentences-rule-4 = ɩ̀tàsɩ̀ hàlɩ̀’ tɔ̀m pɔ̀wà kútòkú/mɩ̀lɩ̀
+small-batch-sentences-rule-5 = tɔ̀m pɔ̀wà ɖɩ̀ŋà mʊ̀nà àkɛ́ fàrándɩ̀ kʊ̀ɖʊ̀mʊ́ dáà
+small-batch-sentences-rule-6 = tɔ̀m pɔ̀wà ɖɩ̀ŋà mʊ̀nà àwɛ̀nà kèjéèrì tɔ̀m kʊ̀ɖʊ̀mtɩ̀ tɩ̀ŋ
 # menu item
 add-sentences = ɩ́tàzɩ̀ tɔ̀m pɔ̀wà
 
