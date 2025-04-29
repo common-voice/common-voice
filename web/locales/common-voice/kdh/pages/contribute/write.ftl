@@ -34,7 +34,16 @@ bulk-sentence-submission = tɔ̀m pɔ̀wà yèkìtì
 single-sentence = tɔ̀m pɔ̀ɖɛ̀ kʊ́ɖʊ̀ḿ
 small-batch-sentence = kpɩ̀nà cɔ̀kɔ̀
 bulk-sentence = kpɩ̀nà ɖàbàtà
-sentence-domain-select-placeholder = ɩ̀lɩ̀zɩ̀ pɩ̀tàlɩ́ fàrándɩ̀ wàà nòòdòzò
+sentence-domain-combobox-label = tɔ̀m pɔ̀ɖɛ̀ tɛ̀ fàránɖɩ̀
+sentence-domain-select-placeholder = ɩ̀lɩ̀zɩ̀ pɩ̀tàlɩ́ fàrándɩ̀ wàà nàtɩ̀dóòzò
+# Sentence Domain dropdown option
+agriculture_food = fàrɩ́m nɛ́ɛ̀ kɩ̀rɩ̀m tɩ̀ fàrɩ́m
+# Sentence Domain dropdown option
+automotive_transport = wɛ̀ɖɛ́ nɩ̀ nɩ̀mbáʊ̀ ɖɩ̀bòré
+# Sentence Domain dropdown option
+finance = lìdé tɛ̀ tɔ̀m
+# Sentence Domain dropdown option
+service_retail = tɔ̀mɩ̀ɖɛ̀ làm nɛ̀ kpɩ̀nɛ̀ tɛ̀ yàm ɖɩ̀yáŋdá
 # Sentence Domain dropdown option
 general = wɛ̀ɛ̀lɩ́
 # Sentence Domain dropdown option
