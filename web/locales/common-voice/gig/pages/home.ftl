@@ -182,3 +182,13 @@ press-and-stories-link = پريس آئين ڪهآڻي
 ## Partner section
 
 partner-section-title = همآ سون ميلو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = ڪمپني <bold> ايڪ ترڪي پزير گھڻ لسآني AI مآهوليآتي نزآمي سآرو کولوڙي ڊيٽآ سيٽ ٺآئي مين سيڙپ ڪرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سول سوسآئٽي آئين مهڪڪ </bold> ۔ ڦري مين اسرآئتو ڊيٽآ سيٽ ٺآئو ميزبآني ڪرو آئين شئير ڪرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> انسآن دوتسي </bold> ۔ مڪآمي جدت آئين ترڪي ني تيز ڪري سآرو ڊيٽآ سيٽ ري تڪليڪي ني اسپآنسر ڪرو
+# icon is an arrow that points to the right
+get-in-touch-button = رآبتي مين رهو
+# Partners section
+our-partners-include = همآري سآٿي ڀيڙي ڪرو

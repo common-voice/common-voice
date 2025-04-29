@@ -1,0 +1,2 @@
+# Ignore generated credentials from google-github-actions/auth
+gha-creds-*.json

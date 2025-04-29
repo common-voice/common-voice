@@ -24,5 +24,7 @@ download-request-archive-multiple = زپ ڦآئيلي ني مشتمل { $archive
 download-request-assembling-description = تمآري ڦآئيل بهڙي هو رهي ڇي ،مهربآني ڪرين پڇي وڙي چيڪ ڪرو
 download-request-refresh-button = تآزو ڪرو
 download-request-modal-title = لنڪس ڊآئون لوڊ ڪرو
+download-request-modal-description = لنڪ تمآري زپ ڦآئيلي ني ڊآئون لوڊ ڪري سآرو اٺي ڇي۔
 download-request-link-text = { $total } سون{ $offset } زپ #
 download-request-metadata-link = جملي رو موآد
+download-request-link-single = تم بي نڪل ڪر سڪو ڇو سڌو ني آپيرو پسندي سون ڊآئون لوڊ مئنيجر مين URLs 12 ڪلآڪي مين کتم هو جآئي ،پر تم ڪي بي وکت نئي ٺآئي سآرو اي پنآ پر وآپي آ سڪو ڇو۔
