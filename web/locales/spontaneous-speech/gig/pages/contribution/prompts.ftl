@@ -21,3 +21,9 @@ submit-all-button = سجآ جمآ
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = سيکآنٚ  توٚ ڪيٚ يونٚ هيسو لوآنٚ۔
+learn-how-to-use-prompts-explanation = بس ڪجھ جملآ مين ڪدرتي توري پر جوآب ڏئو ۔ پڪ ڪرو ڪي تمآري ٻولي اهترم وآڙي آئين بي جآر هآڻي هووي۔
+learn-how-to-use-prompts-guidance = ڪليڪ ڪرو<guidanceLink> اي پنآ پر استهمآل ڪرين سيکي سآرو اٺي </guidanceLink>
+learn-how-to-use-transcribe = ٽرآنسڪرئيب ڪرڻو سيکو۔
+learn-how-to-use-transcribe-explanation = اين منک جيڪو ڪيوي او بلڪل ليکو ، جنهن مين 'um' يآ  'errr'. اسي لڦز بهڙي ڇي۔
+learn-how-to-use-transcribe-guidance = ڪليڪ ڪرو<guidanceLink> اي پنآ پر استهمآل ڪرين سيکي سآرو اٺي </guidanceLink>
+learn-how-to-use-check-transcript = ٽرآنسڪرپشن چيڪ ڪرڻو سيکو ۔
