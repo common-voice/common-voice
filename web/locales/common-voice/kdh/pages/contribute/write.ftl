@@ -97,6 +97,19 @@ too-many-files = fàtàkàsɩ̀ wákɩ̀lɩ́
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon>ɩ̀tàzɩ̀  zàmɔ́ɔ̀-dáà fàrándɩ̀ tɛ̀ tɔ̀m pɔ̀wà sàkɩ̀yɛ̀
 multiple-sentences-error = mɩ̀tàmbɩ̀zɩ̀ ɩ̀tàsɩ̀ tɔ̀m pɔ̀wà pɔ̀ɖɔ̀ɔ́ sàdɩ̀ wèŋkɩ̀ pèyèkìnà kʊ́ɖʊ̀ḿ nà
+exceeds-small-batch-limit-error = mɩ̀tánjɔ́ɔ̀ pàɖʊ̀ tɔ̀m pɔ̀wà ájɛ̀zɩ̀ mɩ̀lɩ̀
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] tɩ̀là wɛ̀jɛ̀zɩ̀. á pɩ̀là ɩ̀tàzɩ̀ ɩ̀là mìnùtɩ̀ kʊ̀ɖʊ̀mʊ́ʊ̀ dàá
+       *[other] tɩ̀là wɛ̀jɛ̀zɩ̀. á pɩ̀là ɩ̀tàzɩ̀ ɩ̀là { $retryLimit } mìnùtɩ̀ wàà wèntì tɩ́ŋgɔ̀nì tɩ̀dàá
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] tɩ̀là wɛ̀jɛ̀zɩ̀. á pɩ̀là ɩ̀tàzɩ̀ ɩ̀là sèkɔ̃dɩ̀ kʊ̀ɖʊ̀mʊ́ʊ̀ dàá
+       *[other] tɩ̀là wɛ̀jɛ̀zɩ̀. á pɩ̀là ɩ̀tàzɩ̀ ɩ̀là sèkɔ̃dɩ̀ wàà wèntì tɩ́ŋgɔ̀nì { $retryLimit } tɩ̀dàá
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $uploadedSentences ->
