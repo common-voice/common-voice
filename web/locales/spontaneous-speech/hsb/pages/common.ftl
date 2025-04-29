@@ -61,3 +61,7 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Rěč pytać…
+language-search-aria-label = Rěč pytać
+language-search-label = Změni jenož rěč přinošowanja datoweje sadźby
+language-search-no-results = Žane rěče namakane
