@@ -61,3 +61,7 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Sök efter ett språk...
+language-search-aria-label = Sök efter ett språk
+language-search-label = Ändrar endast bidragsspråk för datamängd
+language-search-no-results = Inga språk hittades
