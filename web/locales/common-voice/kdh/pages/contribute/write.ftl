@@ -2,6 +2,7 @@
 
 write = mátɩ̀
 write-instruction = ɩ́tàzɩ̀ <icon></icon>
+write-page-subtitle = tɔ̀m pɔ̀wà pàɖʊ̀yɛ̀ céŋjè nɛ̀ páŋtàsɩ̀ nà jɛ́ sámʊ́ʊ̀ ɖɩ́ŋɛ̀ tɛ́ɛ́ dɔ̃né wàá tɩ̀dárɛ̀ á pɩ̀kɛ́ báfá nɩ́mbáʊ̀ cc-o
 sentence =
     .label = tɔ̀m pɔ̀ɖɛ̀
 sc-write-submit-confirm = mánɖʊ́ʊ́ àzééɖè sìsè tɔ̀m pɔ̀ɖɛ̀ tɩ̀nà tɩ̀kènɩ̀ <wikipediaLink>zàmɔ́ɔ̀-dàá fàrándɩ̀</wikipediaLink> nɩ̀ pàfàmà nɔ́ɔ́ sɩ̀ mɩ̀’tɩ̀rɩ̀nà
