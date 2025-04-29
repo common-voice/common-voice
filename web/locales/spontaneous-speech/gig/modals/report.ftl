@@ -5,6 +5,8 @@ report-modal-subtitle = اي جملي مين ڪوئي مسلو سامو آوي �
 offensive_speech = توهيٚن آميٚز موآد
 offensive_speech-detail = جملي مين بي ازتي يا بيڪآر جملآ ڇي
 different_language = مختليف ڀولي
+different_language-detail = موآدي مين مآري اندآزي سون مڪتليڦ ٻولي ڇي ،
+personally_identifiable_information = زآتي توري پر اوڙکي وآڙي مهلومآت
 report-other-comment =
     .placeholder = وآت ڪرڻو
 # Label for textarea in report modal
