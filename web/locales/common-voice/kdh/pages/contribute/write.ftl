@@ -59,7 +59,7 @@ nature_environment = sàɖàmà nà wèmbì pɩ̀làɖá pɩ̀mɩ̀lɩ̀
 # Sentence Domain dropdown option
 news_current_affairs = wàbàrʊ̀wà kɩ̀zàtɩ̀
 # Sentence Domain dropdown option
-technology_robotics = ɩ̀zá mɔ̀zɩ̀ tɔ̀mʊ̀ɖɛ́ nà robot wàà tɛ̀ l̀m a
+technology_robotics = ɩ̀zá mɔ̀zɩ̀ tɔ̀mʊ̀ɖɛ́ nà robot wàà tɛ̀ làm
 sentence-variant-select-label = tɔ̀m pɔ̀wà ŋ́dìndɩ̀
 sentence-variant-select-placeholder = ɩ̀lɩ̀zɩ́ kʊ̀nʊ́m nàkɩ̀rɩ̀ (pà wéŋkì)
 sentence-variant-select-multiple-variants = kʊ̀nʊ́m tɛ̀ tɔ̀m kɩ̀bázɩ̀á / kʊ̀nʊ́mɩ̀n  ŋdɩ́ndɩ̀
@@ -72,11 +72,14 @@ sc-bulk-upload-instruction = ɩ́túú mɩ̀tɛ̀ɛ́ tɔ̀m tàkàrá cé
 sc-bulk-upload-instruction-drop = ɩ̀sɩ̀ɩ́ tɔ̀m tàkàrá cé yàa nɩ̀ ɩ̀tɩ̀rɩ̀nà
 bulk-upload-additional-information = á mɩ̀njádɩ̀ ɩ́fà lààb́b́rʊ̀wá pɩ́jɛ̀zɩ̀ tɔ̀m tàkàrá ɖɔ̀ɔ́zɩ̀, ɩ̀yáá ɖàà<emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = á mɩ̀njádɩ̀ ɩ́fà lààb́b́rʊ̀wá pɩ́jɛ̀zɩ̀ tɔ̀m tàkàrá ɖɔ̀ɔ́zɩ̀, tɔm̀ wèntɩ̀ tɩ̀fɛ̀yɩ̀ lénlé lɛ́tɩ̀ wɛ̀ɛ̀ nà, ɩ̀yàà<emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = ɩ̀tàsɩ̀ ɩ̀là
+try-upload-again = ɩ̀bázɩ̀ kɩ̀kà mɩ́ndózɩ̀ mɩ̀dɛ́ fàtàkà céŋjè
 try-upload-again-md = ɩ̀tàsɩ̀ ɩ́yèkɩ̀ná
 select-file = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ
 select-file-mobile = ɩ̀lɩ̀zɩ́ tɔ̀m tàkàŋɖɑ́ɣ nɩ̀ ɩ́yèkɩ̀ná
-accepted-files = tɔ̀m tàkàràsɩ̀ wèntì pɩ̀ndɩ̀zɩ̀ ná : .tsv ɖéké
+accepted-files = fàtàkàsɩ̀ wènzì pɩ̀ndɩ̀zɩ̀ ná : .tsv ɖéké
+minimum-sentences = tɔ̀m pɔ̀wà tɛ́ ɖɔ̀mɩ̀nɩ̀ kɛ̀dɛ́zɩ̀yà fàtàkà tàa : mɩ̀lɩ̀
+maximum-file-size = fàtàkà tɛ́ ɖɔ̀mɩ̀nɩ̀ ɖɩ́ŋà : 25 Mo
+what-needs-to-be-in-file = wé wàmbɩ̀zɩ̀ kʊ̀ pɩ̀zɩ́ŋ fàtàkáŋ tàà ?
 upload-progress-text = pʊ̀wɛ̀ pɩ́ŋɖɛ́ɛ́
 sc-bulk-submit-confirm = mánɖʊ́ʊ́ àzééɖè sìsè tɔ̀m pɔ̀wà tɩ̀nà tɩ̀kèná <wikipediaLink>zàmɔ́ɔ̀-dàá fàrándɩ̀</wikipediaLink> nɩ̀ pàfàmà nɔ́ɔ́ sɩ̀ mɩ̀tɩ̀rɩ̀nà
 bulk-upload-success-toast = tɔ̀m pɔ̀wà péyèkɩ̀nɛ̀
