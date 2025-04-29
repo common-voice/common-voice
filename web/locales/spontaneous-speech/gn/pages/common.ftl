@@ -61,3 +61,5 @@ xkl = Kenia
 
 ## Language search component
 
+language-search-placeholder = Eheka peteĩ ñe’ẽ...
+language-search-aria-label = Eheka peteĩ ñe’ẽ

@@ -96,6 +96,7 @@ community-and-languages = پڑاو اور ٻولِیان
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = پاتی بھائی، پریس اور کُہاݨِیاں، پڑاو اور ٻولِیاں
 
 ## MENU ITEM ARIA LABELS
 
