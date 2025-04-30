@@ -107,6 +107,7 @@ community-and-languages-menu-item-tooltip = مھارے پڑاواس سمپرک �
 
 partnerships-menu-item-aria-label = ایکی دؔیسی اواجا کے بھیݪا پاتی بھائیں کے باریم جاݨوں
 press-and-stories-menu-item-aria-label = پریس ریلیزز اور سادھارݨ اواجاس جُڑوڑی کُہاݨِیئیں تائیں پُگو
+community-and-languages-menu-item-aria-label = سادھارݨ اواجا کے بھیر والی پڑاو اور ٻولِیئیں کُو کھوجو
 
 ## NEW HOME PAGE KEYS
 
