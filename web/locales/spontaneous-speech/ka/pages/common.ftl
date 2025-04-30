@@ -61,3 +61,6 @@ xkl = კენიური
 
 ## Language search component
 
+language-search-placeholder = ენის მოძებნა...
+language-search-aria-label = ენის მოძებნა
+language-search-no-results = ენა არ მოიძებნა

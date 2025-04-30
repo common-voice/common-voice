@@ -61,3 +61,7 @@ xkl = ڪينيا
 
 ## Language search component
 
+language-search-placeholder = ڀولي جو
+language-search-aria-label = ڀولي جو
+language-search-label = صرف ڊيٽاسيٽ ري ڪنٽريبيوشن ٻولي ني بدلئ  ڪري ھي
+language-search-no-results = ڪوئي ٻي ٻولي ڪوئي ملي
