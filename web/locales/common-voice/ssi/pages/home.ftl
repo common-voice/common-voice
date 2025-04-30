@@ -127,6 +127,7 @@ get-started = سرُو <icon><icon>کرو
 
 ## Action items section
 
+action-items-section-title = سادھارݨ اواج پڑاوا کے دُئارا ڈیٹا رچنا کرنے نتر ایک مُکتام ، کھُلا سروت پلیٹ فارم ہے۔
 
 ## Community section
 
