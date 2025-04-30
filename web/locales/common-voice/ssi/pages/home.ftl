@@ -101,6 +101,7 @@ spontaneous-speech = ٻولݨیں کی آدت
 
 about-menu-tooltip = پاتی بھائی، پریس اور کُہاݨِیاں، پڑاو اور ٻولِیاں
 about-us-menu-item-tooltip = سادھارݨ اواجا کے لارے لکش اور سمے کے باریم جاݨوں
+about-us-menu-item-aria-label = مھاری مُکاسی سُوچِیا کے باریم
 partnerships-menu-item-tooltip = دنیا بھرام ایکی دؔیسی اواجا کی بھیر لیݨ واڑے سنگ گٹھنیں کی کھوج کرو
 press-and-stories-menu-item-tooltip = سادھارݨ اواجام کُہاݨِیاں، اپ ڈیٹس اور میڈیا کوریج پڑھو
 community-and-languages-menu-item-tooltip = مھارے پڑاواس سمپرک کرو اور بھیر واݪی ٻولِیاں دیکھو
@@ -116,6 +117,7 @@ community-and-languages-menu-item-aria-label = سادھارݨ اواجا کے ب
 
 ## Hero section
 
+hero-title = تکنِیک جکو تھاری کی بھاشا ٻولتی ہے
 
 ## Action items section
 
