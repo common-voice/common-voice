@@ -133,6 +133,7 @@ scripted-card-header = لِکھوڑا بھاشاݨ
 scripted-card-content = اپݨی ٻولِیام ٻول اونچیا اواجام پڑھ اور سنسارام سارینٚس گھݨا نِیارے نِیارے کھلکا بھیݪا بھاشݨا کے ڈیٹا سیٹام دؔان دؔیؤ۔
 spontaneous-card-header = بُلیݨیں کا سُبھاو
 spontaneous-card-content = جلما کی ، ٻول چالا کے سرے کے نتر ڈیٹا سیٹ ٹھانٚوݨیں کے جھالے کی ورنٚدی دے۔ مُونؔئانٚس پہلکی ٻولِیئیں کے نتر سئی.
+language-text-card-header = بھاشا کا لِکھݨا
 
 ## Community section
 
