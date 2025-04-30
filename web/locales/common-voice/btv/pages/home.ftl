@@ -17,6 +17,33 @@ speak-paragraph = ریکارڈنگ اواز سو کلپ اسوں کھولاو ڈ
 speak-goal-text = کلپ رکاڈ ھویں گے
 listen-paragraph = تصدیقی دیتیئل کلپ یک شان اہم تھا عام اواز سو مشن سو دَن۔ ݜؤں آ معیاری کھولاو اواز سو ڈیٹا سو زریعہ سندے مہ اسئیں مدد گر۔
 listen-goal-text = کلپوں سو تصدیق ھویں گے
+hours-recorded = گھنٹے ریکارڈ  ھویں  گے
+hours-validated = گھنٹیوں سو تصدیق ھویں گے
+voices-online = اواز آن لائن تھی اوتر
+todays-progress = آزوک کارکردگی
+help-reach-goal = { $goal } حاصل گرے مہ اسئیں مدد گر
+read-terms-q = تیی اسئیں شرط پڑی دے تھے ؟
+ready-to-record = اپئیں اواز دے سو دَن تیار تھو ؟
+all-locales = بُوٹ
+today = آز
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] { $count } wk
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }
+       *[other] mo
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }
+       *[other] y
+    }
+help-make-dataset = عوامی کھلاو ڈیٹا سیٹ  اوچت معیار سو سندے مہ اسئیں مدد گر
+sign-up-account = اکاونٹ سو دَن سائن اپ گر
+email-subscription-title = ای میل اپ ڈیٹ گرے سو دَن سائن اپ گر
 
 ## Account Benefits
 
