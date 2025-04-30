@@ -145,7 +145,7 @@ ask-mozilla-share = Ζητήστε από τη Mozilla να μοιραστεί �
 ask-mozilla-share-content = Έχετε κάποια προηγούμενη ή επερχόμενη εκδήλωση; Μοιραστείτε το μαζί μας και θα το ανακοινώσουμε στην κοινότητά μας ή θα γράψουμε μια ανάρτηση blog για αυτην!
 # label for button
 ask-mozilla-share-action = Μοιραστείτε την εκδήλωσή σας
-download-contribution-certificate = Κάντε λήψη του πιστοποιητικού συνεισφοράς σας
+download-contribution-certificate = Απόκτηση πιστοποιητικού συνεισφοράς
 download-contribution-certificate-content = Κάντε λήψη ενός πιστοποιητικού για τις εκδηλώσεις σας ή τον εαυτό σας αν έχετε συνεισφέρει στο Common Voice. Τίποτα θα ήταν δυνατό χωρίς εσάς!
 # label for button
 download-contribution-certificate-action = Λάβετε το πιστοποιητικό σας
