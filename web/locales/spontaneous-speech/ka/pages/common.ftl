@@ -63,4 +63,5 @@ xkl = კენიური
 
 language-search-placeholder = ენის მოძებნა...
 language-search-aria-label = ენის მოძებნა
+language-search-label = მხოლოდ მონაცემთა კრებულის ენას ცვლის
 language-search-no-results = ენა არ მოიძებნა
