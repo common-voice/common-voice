@@ -108,6 +108,7 @@ community-and-languages-menu-item-tooltip = مھارے پڑاواس سمپرک �
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = مُکاسی سُوچِیا کے باریم
 partnerships-menu-item-aria-label = ایکی دؔیسی اواجا کے بھیݪا پاتی بھائیں کے باریم جاݨوں
 press-and-stories-menu-item-aria-label = پریس ریلیزز اور سادھارݨ اواجاس جُڑوڑی کُہاݨِیئیں تائیں پُگو
 community-and-languages-menu-item-aria-label = سادھارݨ اواجا کے بھیر والی پڑاو اور ٻولِیئیں کُو کھوجو
@@ -121,6 +122,8 @@ hero-title = تکنِیک جکو تھاری کی بھاشا ٻولتی ہے
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>aiیا کُو سنسارا کی کائیں بھاشاں نتر ئی کاکام کام کرنا چائے؟</bold>
 hero-subtitle-2 = مھاری بھاشا مھاری کُہاݨی ہے، مھارا پڑاو ہے، مھاری سنسکرت ہے. آؤ ٻو ڈیٹا سیٹ ٹھانٚواں جکو ہم سنسارام دؔیکھݨا چاہوتے ہے۔
+# icon is an arrow that points downwards
+get-started = سرُو <icon><icon>کرو
 
 ## Action items section
 
