@@ -93,6 +93,7 @@ transcribe-audio-coming-soon = نکݪ آڈیو <small>(ٻیگا ئی آئی را
 transcribe-audio = نکݪ آڈیو
 press-and-stories = پریس اور کُہاݨِیاں
 community-and-languages = پڑاو اور ٻولِیان
+coming-soon = ٻیگا آݨواڑا
 about-us = مھارے باریم
 scripted-speech = لِکھوڑے بھاشݨ
 spontaneous-speech = ٻولݨیں کی آدت
@@ -135,6 +136,7 @@ spontaneous-card-header = بُلیݨیں کا سُبھاو
 spontaneous-card-content = جلما کی ، ٻول چالا کے سرے کے نتر ڈیٹا سیٹ ٹھانٚوݨیں کے جھالے کی ورنٚدی دے۔ مُونؔئانٚس پہلکی ٻولِیئیں کے نتر سئی.
 language-text-card-header = بھاشا کا لِکھݨا
 language-text-card-content = انُواد، لھڑی ٻولِئِں کے نامُونے، اور گھݨیں کائِیں کے نتر کھلک ڈومین جھالے، ٻول، اور لِکھت ٹھاؤ یا ٻاٹو.
+add-text = لِکھت سیمل کرو
 
 ## Community section
 
