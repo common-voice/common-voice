@@ -95,6 +95,7 @@ press-and-stories = پریس اور کُہاݨِیاں
 community-and-languages = پڑاو اور ٻولِیان
 about-us = مھارے باریم
 scripted-speech = لِکھوڑے بھاشݨ
+spontaneous-speech = ٻولݨیں کی آدت
 
 ## MENU ITEMS TOOLTIPS
 
