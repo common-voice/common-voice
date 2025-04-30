@@ -52,6 +52,12 @@ uz = უზბეკურ
 
 ## Layout
 
+profile = პროფილ
+help = ლიმურჯუ̂ი
+contact = კონტაქტ
+privacy = კონფიდენციალურობ
+terms = პირობა̈ლ
+cookies = ქუქი-ფაილა̈რ
 faq = FAQ
 documentation = დოკუმენტაცია
 content-license-text = კონტენტ ხელმისაწვდომ ლი <licenseLink>Creative Commons ლიცენზიოშ</licenseLink>
