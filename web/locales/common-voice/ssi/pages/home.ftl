@@ -118,6 +118,9 @@ community-and-languages-menu-item-aria-label = سادھارݨ اواجا کے ب
 ## Hero section
 
 hero-title = تکنِیک جکو تھاری کی بھاشا ٻولتی ہے
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>aiیا کُو سنسارا کی کائیں بھاشاں نتر ئی کاکام کام کرنا چائے؟</bold>
+hero-subtitle-2 = مھاری بھاشا مھاری کُہاݨی ہے، مھارا پڑاو ہے، مھاری سنسکرت ہے. آؤ ٻو ڈیٹا سیٹ ٹھانٚواں جکو ہم سنسارام دؔیکھݨا چاہوتے ہے۔
 
 ## Action items section
 
