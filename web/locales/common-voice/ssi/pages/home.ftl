@@ -94,6 +94,7 @@ transcribe-audio = نکݪ آڈیو
 press-and-stories = پریس اور کُہاݨِیاں
 community-and-languages = پڑاو اور ٻولِیان
 about-us = مھارے باریم
+scripted-speech = لِکھوڑے بھاشݨ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -105,6 +106,7 @@ community-and-languages-menu-item-tooltip = مھارے پڑاواس سمپرک �
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = ایکی دؔیسی اواجا کے بھیݪا پاتی بھائیں کے باریم جاݨوں
+press-and-stories-menu-item-aria-label = پریس ریلیزز اور سادھارݨ اواجاس جُڑوڑی کُہاݨِیئیں تائیں پُگو
 
 ## NEW HOME PAGE KEYS
 
