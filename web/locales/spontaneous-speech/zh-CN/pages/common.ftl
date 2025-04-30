@@ -61,3 +61,6 @@ xkl = 肯雅语
 
 ## Language search component
 
+language-search-placeholder = 搜索语言…
+language-search-aria-label = 搜索语言
+language-search-no-results = 找不到语言
