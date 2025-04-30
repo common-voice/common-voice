@@ -141,6 +141,9 @@ add-text = لِکھت سیمل کرو
 ## Community section
 
 community-section-title = وِشوَ سمُودائے کے جرئے، وِشوَسمُودائے کے نتر - 130 ٻولِیاں اور ودھتوڑِیاں!
+join-discord-community = راڑ کرنواڑے پڑاوام سیمل ہوو
+# label for button
+join-discord-community-action = ڈسکارڈپ مھارے بھیݪے جُڑو
 
 ## Featured section
 
