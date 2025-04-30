@@ -144,6 +144,7 @@ community-section-title = وِشوَ سمُودائے کے جرئے، وِشوَ
 join-discord-community = ڈسکارڈ پڑاواس جُڑو
 # label for button
 join-discord-community-action = ڈسکارڈاپ مھارے بھیݪے جُڑو
+join-discord-community-content = ٻولِئیں کی چرچا کے پڑاوینٚم جُڑو، سُئال ٻُوجھو، اور آݨ واڑے واقعات اور گفتگو کے بارے میں سیکھیں.
 
 ## Featured section
 
