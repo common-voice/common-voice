@@ -51,9 +51,9 @@ healthcare = àlàfìà
 # Sentence Domain dropdown option
 history_law_government = cànɩ̀ tɔ̀m, wèndì pìzìzɩ̀lɛ̀ nɩ̀ gómìnàntɩ̀
 # Sentence Domain dropdown option
-language_fundamentals = wèndì wàà kʊ̀nʊ̀mɩ̀n wámbázìnà nà (àkɔ̀ntáà, màdɩ̀ pìyà, lìdé)
+language_fundamentals = wèndì wàà kʊ̀nʊ̀mɩ̀n wámbázìnà nà (àkɔ̀ntáà, màdɩ̀ pìyà, lìdé).
 # Sentence Domain dropdown option
-media_entertainment = wèmbì pànsàná pàrɔ́nɛ́ nà ézàjàlàzʊ́ʊ́
+media_entertainment = wèmbì pànsàná pàrɔ́nɛ́ nà ézàjàlàzʊ́ʊ́.
 # Sentence Domain dropdown option
 nature_environment = sàɖàmà nà wèmbì pɩ̀làɖá pɩ̀mɩ̀lɩ̀nà ɖánì
 # Sentence Domain dropdown option
