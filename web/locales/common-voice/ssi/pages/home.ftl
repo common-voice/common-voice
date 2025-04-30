@@ -134,6 +134,7 @@ scripted-card-content = اپݨی ٻولِیام ٻول اونچیا اواجام
 spontaneous-card-header = بُلیݨیں کا سُبھاو
 spontaneous-card-content = جلما کی ، ٻول چالا کے سرے کے نتر ڈیٹا سیٹ ٹھانٚوݨیں کے جھالے کی ورنٚدی دے۔ مُونؔئانٚس پہلکی ٻولِیئیں کے نتر سئی.
 language-text-card-header = بھاشا کا لِکھݨا
+language-text-card-content = انُواد، لھڑی ٻولِئِں کے نامُونے، اور گھݨیں کائِیں کے نتر کھلک ڈومین جھالے، ٻول، اور لِکھت ٹھاؤ یا ٻاٹو.
 
 ## Community section
 
