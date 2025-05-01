@@ -88,6 +88,7 @@ transcribe-audio = Transkriptoni Audio <small>(Së shpejti)</small>
 press-and-stories = Për Shtypin dhe Shembuj
 community-and-languages = Bashkësi dhe Gjuhë
 coming-soon = Së Shpejti
+about-us = Rreth nesh
 
 ## MENU ITEMS TOOLTIPS
 
