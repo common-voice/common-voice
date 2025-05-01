@@ -104,32 +104,32 @@ about-playbook-how-grow-language-content-3 = სი ჩუ ჯა̈მჲედ�
 about-playbook-how-grow-language-content-4 = სოციალურ მედია
 about-playbook-how-grow-language-content-5 = სი ჩუ ჯა̈მჲედა სოციალურ მედია̄̈ ლიმჷრგე შეტყობინა̄̈ლე ლაზზიდ. გააზიარე პოსტა̈რ, იმუ̂ა̈ჲ ახსნილ ლი, იმღა ლი ალა მნიშუ̂ნელოუ̂ან. დაუკაუ̂შირდი მერმა̄̈ლს, ერუ̂ა̈ჲ იმბუ̂ა̄̈ლხ ნინი უფლება̄̈ლჟი, ხელოვნურ ინტელექტი ბედჟი. რჩეუ̂ა̄̈ლ ა̈ხწუ̂ენ<campaignLink>, იმჟი ხეკუ̂ეს აფუშდა სოციალურ კამპანია, კონტენტი ლჷჩჷდდ, იმშა ლიჴმა̈რი განმეორებითი ჩუ ჯა̈მჲედა</campaignLink>.
 about-playbook-how-grow-language-content-6 = პარტნიორობ ი ქსელა̈რ
-about-playbook-how-grow-language-content-7 = ა̈ხითხ მერმა̄̈ლ, ესუ̂ა̄̈ჲ სერდე ხა̄̈რ. ამკა̈ლი შეიძლება ლესუ̂ხ: უნივერსიტეტა̈ლ, ნინი კლასა̈რ, მხარდამჭერ ჯგუფა̈რ ჰედ მონაცემარე მეცნიერება̄̈ საზოგადოება̄̈ლ. დაუკავშირდი ი ხოჩა̄მდ ათცხირუ̂ინ, იმჟი ხა̈მჲედახ ლიმურჯუ̂ი ი იმღა. <outreachTemplates>ჩუ̂ათთერა̈უ̂  ინფორმაცია̄̈ გასავრცელებელ ნიშგუ̂ეჲ  შაბლონა̈რ</outreachTemplates>
+about-playbook-how-grow-language-content-7 = ა̈ხითხ მე̄რმა̄̈ლ, ესუ̂ა̄̈ჲ სერდე ხა̄რხ. ამკა̈ლი შეიძლება ლე̄სუ̂ხ: უნიუ̂ერსიტეტა̈ლ, ნინი კლასა̈რ, მხარდამჭერ ჯგუფა̈რ ჰედ მონაცემარე მეცნიერება̄̈ საზოგადოება̄̈ლ. დაუკაუ̂შირდი ი ხოჩა̄მდ ათცხირუ̂ინ, იმჟი ხა̈მჲედახ ლიმურჯუ̂ი ი იმღა. <outreachTemplates>ჩუ̂ათთერა̈უ̂  ინფორმაცია̄̈ გასავრცელებელ ნიშგუ̂ეჲ  შაბლონა̈რ</outreachTemplates>
 about-playbook-how-grow-language-content-8 = <strong>ლოხეგნ შემოქმედებითდ!</strong>ისგუ ენობრივ საზოგადოება უნიკალურ ი̄რა ი ალა ჩიქე ლა̈ბნა გარ ლი.
 
 ## How to validate
 
 about-playbook-how-validate = იმჟი ონჴუ̂ე გუდ, დავადასტურო ჰა მა̄მა ხმოვან კლიპ?
-about-playbook-how-validate-content-1 = სი ლახ<strong>ჟიი ჯი ხიჰუ̂ნა̈რი</strong> ი <strong>ჟიი ჟი ხიმჴერი</strong>, ეჩქას, იმჟი წეს ლი,<strong> ჩუ ხეკუ̂ეს ათმიტკცავა</strong>.
-about-playbook-how-validate-content-2 = <strong>ნომ'ა̄თწჷნუ̂ა კლიპ ეჯ მიზეზშუ̂, ერე ისგუკა̈ლი აქცენტშუ̂ მა̄მ ლი</strong> - ალა მნიშვნელოვან ლი ეჩეშდ-ე ჰერი ჟილითერ ჩია̈შდ ამშიე̄დს.
+about-playbook-how-validate-content-1 = სი ლახ<strong>ჟიი ჟი ხიჰუ̂ნა̈რი</strong> ი <strong>ჟიი ჟი ხიმჴერი</strong>, ეჩქას, იმჟი წეს ლი,<strong> ჩუ ხეკუ̂ეს ათმიტკცაუ̂ა</strong>.
+about-playbook-how-validate-content-2 = <strong>ნომ'ა̄თწჷნუ̂ა კლიპ ეჯ მიზეზშუ̂, ერე ისგუკა̈ლი აქცენტშუ̂ მა̄მ ლი</strong> - ალა მნიშუ̂ნელოუ̂ან ლი ეჩეშდ-ე ჰერი ჟილითერ ჩია̈შდ ამშიე̄დს.
 about-playbook-how-validate-content-3 = ჰემა ჯაბჟა, ერე<strong> ბა̈დშუ̂ მა̄მ ხარ ლა̈ცხრი ნა̄̈ქუ̂ს</strong>, ჰედ ისმი<strong>სურუ ფონურ ჰერა̈ლ</strong>, ჰედ ისმი<strong>იშგენ ხა̈ლხი გა̈რგლა</strong>, ეჩქა ხეკუ̂ეს უარყოფით ლახო̄მა კლიპს.<accuracyLink>ა̈ხწუ̂ე̄ნ დამატებით ინფორმაცია კრიტერიუმალე ბედჟი</accuracyLink>.
 about-playbook-how-validate-content-4 = კლიპი ლახ უარყოფილ ლი 2 მა̄რახა̈ნქა, ეჯ კლიპ ესღრი ხორე̄უ̂ი იშგენ ქვეჯგუფთე.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = იმჟი ალჩედდ მონაცემრე ხორე̄უ̂თე̄ჲსგა ი იმჟი ა̈ლსჷრგებად?
-about-playbook-how-access-dataset-content-1 = ჩუ ჯა̈მჲედა ქ'ა̄ჩე<datasetsPage>მონაცემრე ხორეუ̂ი გვერდთე</datasetsPage>, ა̈ხთიშა ისგოუ̂ ლეკედ ვერსია ი ნინ ი ქ'ა̄ხიჲრა! ფაილა̈რს ხუღუ̂ახ<metadataLink>დაკავშირებულ მეტამონაცემა̈რ</metadataLink>: დემოგრაფიულ ინფორმაცია ი ვალიდაცია̈ მონაცემა̈რ. მონაცემარე ჩულა̈ტვირთა̈ვდ სგათი̄ჲრ ისგუ ელფოსტა.
-about-playbook-how-access-dataset-content-2 = ჰემა ხეთხე̄ლი ინსტრუმენტა̈ლს ASR მოდელრე ლასყე̄ნად, სი ჩუ ჯა̈მჲედა, დაკავშირება საზოგადოებაისგა მერმა̄̈ლცახა̈ნ<discourseLink> ჰედ დისკოვერჟი</discourseLink>.
+about-playbook-how-access-dataset-content-1 = ჩუ ჯა̈მჲედა ქ'ა̄ჩე<datasetsPage>მონაცემრე ხორეუ̂ი გვერდთე</datasetsPage>, ა̈ხთიშა ისგოუ̂ ლეკედ უ̂ერსია ი ნინ ი ქ'ა̄ხიჲრა! ფაილა̈რს ხუღუ̂ახ<metadataLink>დაკაუ̂შირებულ მეტამონაცემა̈რ</metadataLink>: დემოგრაფიულ ინფორმაცია ი უ̂ალიდაცია̈ მონაცემა̈რ. მონაცემარე ჩულა̈ტვირთა̈უ̂დ სგათი̄ჲრ ისგუ ელფოსტა.
+about-playbook-how-access-dataset-content-2 = ჰემა ხეთხე̄ლი ინსტრუმენტა̈ლს ASR მოდელრე ლასყე̄ნად, სი ჩუ ჯა̈მჲედა, დაკაუ̂შირება საზოგადოებაისგა მერმა̄̈ლცახა̈ნ<discourseLink> ჰედ დისკოვერჟი</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = იმჟი იკი̄დიხ პროექტი გადაწყვეტილება̄̈ლ?
-about-playbook-how-project-governance-content-1 = Mozilla Common Voice ხელმისაწვდომ ლი აქტივისტრეშდ, ლინგვისტრეშდ, მონაცემარე მეცნიერლეშდ, მონაცემარე სპეციალისტრეშდ ი ინჟინერ-პროგრამისტრეშდ თელ მსოფლიოისგა. პროექტი ხელმძღვანელ ლი  Mozilla Foundation.
-about-playbook-how-project-governance-content-2 = ნიშგუ̂ეჲ მმართველობა̈ საფუძველ ლი პრინციპა̈ლ:
-about-playbook-how-project-governance-content-3 = კონფიდენციალურობა, უსაფრთხოება, გამჭვირვალობა.
-about-playbook-how-project-governance-content-4 = საზოგადოება̄̈ მონაწილეობა ი გადაწყვეტილება̄̈ ლიკედ.
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice ხელმისაწუ̂დომ ლი აქტიუ̂ისტრეშდ, ლინგუ̂ისტრეშდ, მონაცემარე მეცნიერლეშდ, მონაცემარე სპეციალისტრეშდ ი ინჟინერ-პროგრამისტრეშდ თელ მსოფლიოისგა. პროექტი ხელმძღვანელ ლი  Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = ნიშგუ̂ეჲ მმართუ̂ელობა̈ საფუძუ̂ელ ლი პრინციპა̈ლ:
+about-playbook-how-project-governance-content-3 = კონფიდენციალურობა, უსაფრთხოება, გამჭუ̂ირუ̂ალობა.
+about-playbook-how-project-governance-content-4 = საზოგადოება̄̈ მონაწილეობა ი გადაწყუ̂ეტილება̄̈ ლიკედ.
 about-playbook-how-project-governance-content-5 = ღირებულება ი აღიარება.
-about-playbook-how-project-governance-content-6 = ორმხრივ ანგარიშვალდებულება.
+about-playbook-how-project-governance-content-6 = ორმხრიუ̂ ანგარიშუ̂ალდებულება.
 about-playbook-how-project-governance-content-7 = <governanceLink>ა̈ცხირ ხოშა ლუნწუდად, იმჟი ვმართავთ ნა̈ჲ</governanceLink>
 
 ## How is Common Voice funded

@@ -53,6 +53,7 @@ about-nav-playbook = حِصو لِيڌا رو طرِيقو زوڻوو
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ڪومنَ وائيس مانه هيڪ ٻولئي ڪِي هوئہ؟
 
 ## How do I add a language
 

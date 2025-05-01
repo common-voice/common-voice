@@ -189,3 +189,4 @@ press-and-stories-link = پریس اور کُہاݨِیاں
 
 ## Partner section
 
+partner-section-title = مھارے سات بھائی واری کر
