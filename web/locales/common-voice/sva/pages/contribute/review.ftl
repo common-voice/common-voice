@@ -56,7 +56,7 @@ review-error = ალ წინადება̄̈ განხილუ̂აჟ
 review-error-rate-limit-exceeded = სურუ ჩქა̈რდ ესღრი. ეშხუ წუთს ჩულა̈ხჩარუ̂ა̈ნ ი ჩუ̂ათმოწმა̈ნ წინადება ლიმა სწორ.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ბჷგი ცვლილება̄̈ლს ლიჩოდ
-sc-redirect-page-subtitle-1 = წინადადება̄ლე მუნზორე ქ'ესტიხ  Common Voice პლატფორმათე. ათხე ჩუ ჯა̈მჲე̄და <writeURL> ჩუ̂ათიჲრა</writeURL> წინადადება ჲედ <reviewURL> ჩუ̂ათსჷნჯუ̂ა </reviewURL> თუ̂ით-თუ̂ითჟი Common Voice-თე ნაზჷზ წინადება̄̈ლ.
+sc-redirect-page-subtitle-1 = წინადადება̄ლე მუნზორე ქ'ე̄სტიხ  Common Voice პლატფორმათე. ათხე ჩუ ჯა̈მჲე̄და <writeURL> ჩუ̂ათი̄ჲრა</writeURL> წინადადება ჲედ <reviewURL> ჩუ̂ათსჷნჯუ̂ა </reviewURL> თუ̂ით-თუ̂ითჟი Common Voice-თე ნაზჷზ წინადება̄̈ლ.
 sc-redirect-page-subtitle-2 = ლანო შეკითხვა̄̈ლ <matrixLink> მატრიცა</matrixLink>-ჟი, <discourseLink> Discourse </discourseLink> ჲედ<emailLink> მეილჟი</emailLink>.
 # menu item
-review-sentences = ქა̄თთერუ̂ა̄̈ლ წინადადება̄̈ლ
+review-sentences = ქა̄თე̄თრუ̂ა̄̈ლ წინადადება̄̈ლ
