@@ -14,3 +14,4 @@ download-size = نیپ
 download-selected = چُنوڑا
 download-start = پروپھائل ڈیٹا ڈاؤن لوڈ کر
 download-request = ٻِنتِیا کی ریکارڈنگ
+download-requests = لارکی ریکارڈنگ ڈاؤن لوڈا کی ٻنتی
