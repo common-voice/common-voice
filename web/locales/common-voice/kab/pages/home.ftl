@@ -75,6 +75,9 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## NAV ITEMS
 
+add-questions-coming-soon = Ru isteqsiyen <small>(ticki)</small>
+community-and-languages = Timɣiwnin akked tutlayin
+about-us = Fell-aɣ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -102,6 +105,9 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## Get involved section
 
+answer-questions-link = Err-d ɣef isteqsiyen
+contribute-text-link = Azen aḍris
+press-and-stories-link = Taɣamsa akked yimagraden
 
 ## Partner section
 
