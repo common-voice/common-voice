@@ -82,24 +82,24 @@ accepted-files = ფაილრე ლეკედ ტიპა̈რ: .tsv გ�
 minimum-sentences = წინადადება̄ლე მინიმალურ შელდ ფაილისგა: 1000
 maximum-file-size = მაქსიმალურ ზომა ფაილიშ: 25 მბ
 what-needs-to-be-in-file = მა̈ჲ ხეკუ̂ესე არდე̄დს მიშგუ̂ა ფაილისგა?
-what-needs-to-be-in-file-explanation = ჩუ̂ათმოწმა̄̈ნ ნიშგუ̂ეჲ <templateFileLink>შაბლონი ფაილ</templateFileLink>. ისგუ წინადადება̄̈ლ ხეკუ̂ესე ლესუ̂ხ საავტორო უფლება̄̈ლხა̈ნქა თავისუფა̈ლ (CC0 ჰედ მჷზზიხა̈ნქა ნა̈ბლჷჰუ̂ედ ორიგინალ ნამშაუ̂) ი ლესუ̂ს ხოჩა ლემჴე̄რი, გრამატიკულდ სწორ ი ჰა̈დუ̂ილ ლეჭუ̂და̄̈ნი. წინადადება̄̈ლს ქა ლაჭუ̂და̄̈ნდ ხეკუ̂ეს ესწჷხჷნდე̄დს 10-15 წა̈მ ი ნომა ხეჩჷ̄დდედხ ციფრა̈ლ, ციფრალე ჟახა̄̈ლ ი სპეციალურ სიმბოლოა̈რ.
+what-needs-to-be-in-file-explanation = ჩუ̂ათმოწმა̄̈ნ ნიშგუ̂ეჲ <templateFileLink>შაბლონი ფაილ</templateFileLink>. ისგუ წინადადება̄̈ლ ხეკუ̂ესე ლესუ̂ხ სააუ̂ტორო უფლება̄̈ლხა̈ნქა თაუ̂ისუფა̈ლ (CC0 ჰედ მჷზზიხა̈ნქა ნა̈ბლჷჰუ̂ედ ორიგინალ ნამშაუ̂) ი ლესუ̂ს ხოჩა ლემჴე̄რი, გრამატიკულდ სწორ ი ჰა̈დუ̂ილ ლეჭუ̂და̄̈ნი. წინადადება̄̈ლს ქა ლაჭუ̂და̄̈ნდ ხეკუ̂ეს ესწჷხჷნდე̄დს 10-15 წა̈მ ი ნომა ხეჩჷ̄დდედხ ციფრა̈ლ, ციფრალე ჟა̄ხა̄̈ლ ი სპეციალურ სიმბოლოა̈რ.
 upload-progress-text = ესღრი ლიტუ̂ირთა̈უ̂ი...
 sc-bulk-submit-confirm = მი ხუ̂ადასტურა̈უ̂ი, ერე ალ წინადადება̄̈ლ ლიხ <wikipediaLink> საყოველთაო საკუთრება </wikipediaLink> ი მი ალიარე ლიტუ̂ირთა̈უ̂ი̄ ნა̈ბ მუღუ̂ა.
 bulk-upload-success-toast = ჟი ლჷნზო̄რე წინადადება̄̈ლ ჟ'ა̄̈ნტუ̂ირთაუ̂ა̄̈ნხ
 bulk-upload-failed-toast = ლიტუ̂ირთა̈უ̂ი მა̄მ ა̈ნჴჷრჴა̄̈ნ.
 bulk-submission-success-header = მაჴუ̂ამა̄̈რ ლუყუ̂ბად ნაზზუ̂იე̄რ!
-bulk-submission-success-subheader = სი ხომურჯუ̂ი Common Voice-ს ნიშგუ̂ეჲ ჩილადღია̈ მიზნარე მიღწევაისგა წინადადება̄ლე შელდშუ̂!
-upload-more-btn-text = ალტუ̂ირთავადმა ხოფშირა წინადადება̄̈ლ?
+bulk-submission-success-subheader = სი ხომურჯუ̂ი Common Voice-ს ნიშგუ̂ეჲ ჩილადღია̈ მიზნარე მიღწეუ̂აისგა წინადადება̄ლე შელდშუ̂!
+upload-more-btn-text = ალტუ̂ირთაუ̂ადმა ხოფშირა წინადადება̄̈ლ?
 file-invalid-type = არასწორ ფაილ
 file-too-large = ფაილ სურუ სუ̂რილ ლი
-file-too-small = ფაილ სურუ ხოხვრა ლი
+file-too-small = ფაილ სურუ ხოხუ̂რა ლი
 too-many-files = სურუ ფიშირ ფაილა̈რ ლიხ
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> ჟესაქმ საყოველთაო საკუთრება̄̈ წინადადება̈ლ
-multiple-sentences-error = სი დეშ ხა̈ქმე აშხუ̂დ ხოშა წინადადებას აშხუ წარდგენა̈შდ
+multiple-sentences-error = სი დეშ ხა̈ქმე აშხუ̂დ ხოშა წინადადებას აშხუ̂ წარდგენა̈შდ
 exceeds-small-batch-limit-error = დეშ ხაზზი1000-დ ხოფში̄რა წინადადებას
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
@@ -134,8 +134,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] ა̈ნყუ̂აბა̈ნ { $uploadedSentences } 1 წინადადებახა̈ნქა. ჟესოთლ<downloadLink> ამჩუ</downloadLink> უარყოფილ წინადადება̄ლე ლა̈ტუ̂რთა̈უ̂დ.
-       *[other] ა̈ნყუ̂აბა̈ნ { $uploadedSentences }{ $totalSentences }წინადადება̄̈ლხა̈ნქა. ჟესოთლ<downloadLink> ამჩუ</downloadLink> უარყოფილ წინადადება̄ლე ლა̈ტუ̂რთა̈უ̂დ.
+        [one] ა̈ნყუ̂აბა̄̈ნ { $uploadedSentences } 1 წინადადებახა̈ნქა. ჟე̄სოთლ<downloadLink> ამჩუ</downloadLink> უარყოფილ წინადადება̄ლე ლა̈ტუ̂ირთა̈უ̂დ.
+       *[other] ა̈ნყუ̂აბა̄̈ნ { $uploadedSentences }{ $totalSentences }წინადადება̄̈ლხა̈ნქა. ჟე̄სოთლ<downloadLink> ამჩუ</downloadLink> უარყოფილ წინადადება̄ლე ლა̈ტუ̂ირთა̈უ̂დ.
     }
 small-batch-sentences-rule-1 = ა̈თეჭმ მითითება̄̈ლს "მა̈ჲ წინადადება̄ლე ლიქმე მა̈მჲედა?"
 small-batch-sentences-rule-2 = ლახაქმ თუ̂ით წინადადება თუ̂ით ხა̈ზჟი
