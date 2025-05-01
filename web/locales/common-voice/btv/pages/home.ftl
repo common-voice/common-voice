@@ -119,6 +119,10 @@ get-started = شرو گر <icon><icon>
 
 ## Action items section
 
+action-items-section-title = عام اواز یک ازاد، کھولاو پلیٹ فارم سو زریعہ تھی کمینٹی سو دَن چہء سو ڈیٹا سندے سو رہنمائ گرہ
+action-items-section-subtitle = کشک زو متن آ تقریر سو ڈیٹا سیٹ سو شرکت،سندو آ کیوریٹنگ گیری اپئیں زہب محفوظ،زیند آ اوچت گر ھواں۔
+scripted-card-header = نقل ھوینئل تقریر
+scripted-card-content = اپئیں زیب مہ اوچت اواز دے جملے پڑھ آ دنیا مہ ڙھؤ متبادل عوامی شرکتی تقریری ڈیٹا سیٹ شامل گر
 
 ## Community section
 
