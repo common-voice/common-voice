@@ -11,3 +11,6 @@ download-recordings-size = گھݨیں کرے میگا بائٹس
 download-recordings-unavailable = تھم اپݨیں ریکارڈنگا کی ٻِنتی نائیں کری سِکو پݨ دُؔوجی ٻِنتی آگُوچ ہوئی ری ہے۔
 download-recently-requested = تھم جات { $days } دؔنیم اپݨی ریکارڈنگا نتر ٹیک آؤٹا کی بِنتی کری سِکتے ہے۔
 download-size = نیپ
+download-selected = چُنوڑا
+download-start = پروپھائل ڈیٹا ڈاؤن لوڈ کر
+download-request = ٻِنتِیا کی ریکارڈنگ
