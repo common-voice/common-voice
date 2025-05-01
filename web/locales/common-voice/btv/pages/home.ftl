@@ -182,3 +182,7 @@ press-and-stories-link = خبرے زو قصے
 ## Partner section
 
 partner-section-title = اسو مِل حصہ دار ھوں
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ٹیک کمپنیئ </bold> کھلاو ڈیٹا سیٹ سو سندے مہ پیس رھینگا  فروغ پزیر کثیر لسانی AI ماحولیاتی نظام سو دَن
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> سول معاشرہ آ تحقیق گرے والہ </bold> ۔  مفت میزبان اثر گرے والہ ڈیٹاسیٹس سند ،آ شیئر کریں
