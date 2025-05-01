@@ -41,6 +41,14 @@ about-get-involved = ڀيۯا ٿي زائو
 about-get-involved-text-2 = ڪِي تمي ڪومنَ وائيس نئہ وڌآرئہ ٺائُوڪو ٺايا ۾ مڌت ڪروا ڪروه؟ ٺائُوڪو! اِي ميل ري ذريعي رابطو ڪرو ڪا<discourseLink> ڊِس ڪورس </discourseLink> فارم سائيٽ را مسئلا<githubLink> گ﻿ِٽ حب </githubLink>، رئہ ذريعي جمع ڪراوو<matrixLink> ميٽرڪس</matrixLink> رئہ ذريعي شامِل ٿي زائو۔
 about-stay-in-touch = هُون رابطا ۾ ڪم ڪرينَ ريون؟
 about-stay-in-touch-button = سائن اپ ڪرو
+about-stay-in-touch-text-1 = <emailFragment> سائن اپ ڪرو </emailFragment> امارِي اِي ميل لسٽ ۿارُو جي تمي زوڻي هيڪو ڪومنَ وائيس ۾ ڪئمپئن، پروگروم ان ڊيزائن فِيچرز ۾ ڪيوا نمُونا رو حصو لي هيڪونه۔
+about-stay-in-touch-text-2 = تمي موزِيلا رِي ٻولِي ري ذريعي قوم رون ٻِي﻿زون منکون ٿِي ملي هيڪوه۔ <discordLink> ڊِس ڪورڊ</discordLink> ڪا <discourseLink> ڊِس ڪورس</discourseLink> شامل ٿينَ ڌار ڌار مضمُونون مانه وات چِيت ۿارُو<matrixLink> ميٽرِڪس</matrixLink> جلڌِي مشورا ۿارُو۔
+about-nav-why-common-voice = ڪم؟
+about-nav-how-it-works = ڪم ڪرينَ؟
+about-nav-partners = ڀاڳ ليڌا واۯا
+about-nav-get-involved = ڀاڳ ليوو
+about-nav-how-it-works-2 = ڪومن وائيس ڪم ڪرينَ ڪوم ڪرئه؟
+about-nav-playbook = حِصو لِيڌا رو طرِيقو زوڻوو
 
 ## Community Playbook Content
 ## What is a language

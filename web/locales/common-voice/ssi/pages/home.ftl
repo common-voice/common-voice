@@ -182,6 +182,10 @@ read-sentences-link = ٻول پڑھ
 validate-readings-link = پڑھائِیا کی جانچ کر
 contribute-link = ٹیکسٹ کورپسام یوگدؔان کر
 answer-questions-link = سُئالیں کے جباب
+transcribe-answers-link = جباب لکھو
+review-transcriptions-link = نکݪا کی جانچ کر
+contribute-text-link = لِکھتام یوگدؔان کر
+press-and-stories-link = پریس اور کُہاݨِیاں
 
 ## Partner section
 
