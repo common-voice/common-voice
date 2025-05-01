@@ -178,6 +178,10 @@ explore-datasets = ڈیٹا سیٹا کی کھوج کر <icon></icon>
 ## Get involved section
 
 get-involved-section-title = کھُلی ساہِیتا کر، پڑاوا کُو چلاݨواڑے ڈیٹا سیٹ
+read-sentences-link = ٻول پڑھ
+validate-readings-link = پڑھائِیا کی جانچ کر
+contribute-link = ٹیکسٹ کورپسام یوگدؔان کر
+answer-questions-link = سُئالیں کے جباب
 
 ## Partner section
 

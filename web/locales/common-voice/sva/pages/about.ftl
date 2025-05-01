@@ -61,28 +61,28 @@ about-playbook-what-is-language-content-3 = ჲერხი ნინა̈რს
 ## How do I add a language
 
 about-playbook-how-add-language = იმჟი ოსქჷმა ნინ?
-about-playbook-how-add-language-content-1 = მა̄̈ნკუ̂ი ჩუ̂ათმოწმა̈ნ ისგუ ნინ<languageLink>ჩუ̂ა̈რი ჰა მა̄მა</languageLink>. ლახ მა̄მა, ჩუ ჯა̈მჲედა<languageRequestLink>ლა̈ხჭუ̂ედდე ისგუ ნინი ლიქმე̄მი ბედჟი</languageRequestLink>. ლი ჲო̄რი ეტაპ. საიტი თარგმნა ი წინადადება̄ლე ლინზო̄რე
-about-playbook-how-add-language-translating-heading = საიტი თარგმნა
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს, იმჟი ა̈ხჴჷმრა Pontoon.</translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = თარგმანიშდ ნა̈ჲ ხუ̂იჴმა̈რიდ ხელსაწყოს, ხედუ̂ა̄̈ჲს ხაჟხა <pontoonLink> პონტონ</pontoonLink>. პონტონს ხუ̂ა̄̈ჲ ნჷნა̈რ ხუღუ̂ა, მარე ისგუ ნინ ჰე მა̄მ ხეჩდა, სი ჩუ ჯამჲედა</pontoonRequestLink>ხა̈ჰრი ისგუ ნინი ლიქმე</pontoonRequestLink>. ეჩუნღო, ნინ ერ ხელმისაწვდომ ლესსუ̂ Common Voice პროექტისგა,<githubRepoLink>ხიჰრ მახე ნინ</githubRepoLink>-ჟი.<localizationFragment>ხოშილ ა̈ხმეჴერ საიტი თარგმანი ბედჟი</localizationFragment>.
+about-playbook-how-add-language-content-1 = მა̄̈ნკუ̂ი ჩუ̂ათმოწმა̈ნ ისგუ ნინ<languageLink>ჩუ̂ა̈რი ჰა მა̄მა</languageLink>. ლახ მა̄მა, ჩუ ჯა̈მჲედა<languageRequestLink>ლა̈ხჭუ̂ედდე ისგუ ნინი ლიქმე̄მი ბედჟი</languageRequestLink>. ლი ჲო̄რი ეტაპ. საიტი ლიჷთრგმა̈ნი ი წინადადება̄ლე ლინზო̄რე
+about-playbook-how-add-language-translating-heading = საიტი ლიჷთრგმა̈ნი
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>ლოხსგი ნიშგუ̂ეჲ სახელმძღუ̂ანელოს, იმჟი ხეკუ̂ეს ა̈ხჴჷმრა Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = თარგმანიშდ ნა̈ჲ ხუ̂იჴმა̈რიდ ხელსაწყოს, ხედუ̂ა̄̈ჲს ხაჟხა <pontoonLink> პონტონ</pontoonLink>. პონტონს ხუ̂ა̄̈ჲ ნჷნა̈რ ხუღუ̂ა, მარე ისგუ ნინ ჰე მა̄მ ხეჩდა, სი ჩუ ჯამჲედა</pontoonRequestLink>ხა̈ჰრი ისგუ ნინი ლიქმე</pontoonRequestLink>. ეჩუნღო, ნინ ერ ხელმისაწუ̂დომ ლესსუ̂ Common Voice პროექტისგა,<githubRepoLink>ხიჰრ მახე ნინ</githubRepoLink>-ჟი.<localizationFragment>ხოშილ ა̈ხმეჴერ საიტი თარგმანი ბედჟი</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = წინადადება̄ლე ლინზო̄რე
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ლოხსგი ნიშგუ̂ეჲ სახელმძღვანელოს წინადადება̄ლე მუნზო̄რემი ლიჴმა̈რი̄ ბედჟი</sentenceCollectorVideo>.
-about-playbook-how-add-language-collecting-sentences-content-2 = სი ჩუჯა̈მჲედა<sentenceCollectorLinkAdd>მა̄დხუ̂ა̄̈ჲ წინადადებაა̄̈ლ</sentenceCollectorLinkAdd>, მო̄დეჲ წინადადება̄ლე სუ̂რილ პაკეტ Github-შუ̂</bulkImportDocsLink>. ჩუ̂ა̈თმა̈შყუ̂დინ: წინადადება̄̈ლ ხეკუ̂ესე ლესუ̂ხ<licenseLink>CC0 (ჰედ საჯაროდ ხელმისაწვდომ)</licenseLink>,  მო̄დეჲ სგ'ა̄თიჲრ ისგუ.
+about-playbook-how-add-language-collecting-sentences-content-2 = სი ჩუჯა̈მჲედა<sentenceCollectorLinkAdd>მა̄დხუ̂ა̄̈ჲ წინადადება̄̈ლ</sentenceCollectorLinkAdd>, მო̄დეჲ წინადადება̄ლე სუ̂რილ პაკეტ Github-შუ̂</bulkImportDocsLink>. ჩუ̂ა̈თმა̈შყუ̂დინ: წინადადება̄̈ლ ხეკუ̂ესე ლესუ̂ხ<licenseLink>CC0 (ჰედ საჯაროდ ხელმისაწვდომ)</licenseLink>,  მო̄დეჲ სგ'ა̄თიჲრ ისგუ.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ხოში̄ლ ა̈ხმეჴერ წინადადება̄ლე ლინზო̄რემი ბედჟი</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = იმჟი ხაშდბა საიტი ლოკალიზაცია?
 about-playbook-how-localize-content-1 = Common Voice საიტი ლითჷრგმა̈ნი იჩუ̂მინი<strong>Pontoon</strong>-ჟი.
-about-playbook-how-localize-content-2 = <pontoonAccountLink> ჟ'ა̈ხისყ ანგარიშ</pontoonAccountLink>ჰემა მა̄მა ჟუღუ̂ა. ეჩუნღო  ჟ'ა̈ხითშ ისგუ ნინ<strong> ("გუნდ") ი ჟ'ა̈ხითშ პროექტ,<pontoonCvLink> Common Voice</pontoonCvLink>. ჩუირდიხ ლეთჷრგმა̈ნი ფაილა̈რ. ჟ'ო̄სოთლ აშხუ̂, ეჩუნღო ეჯა აწუ̂ე̄ნე სიტყვა̄̈ლს ინგლისურდ ი ყუთს ეჯჲარე ლათჷრგმა̈ნიდ.
-about-playbook-how-localize-content-3 = თარგმან ინგლისურხა̈ნქა ლი, მარე სი ჩუ ჯამჲედა<strong>შემოთავაზება̄̈ლს</strong>იშგენ ნჷნა̈რჟი. ჟესოთლ<strong>პროფილი</strong>ნიშნჷლჟი, ეჩუნღო <strong>პარამეტრალე</strong>ბმულჟი ი ჟესაქმ ნინ, ხედუ̂ა̄̈ჲჟი სი გა̈რგლი. ჩუ̂იბე ლერსგუ̂ენ კუთხუ̂ისგა ი̄რი თარმანლე სია ჟახოშ<strong>Locales</strong>. თარგმან ქა იწუ̂ე̄ნი საიტჟი აშხუ̂ ლადა̈ღუნღო.
+about-playbook-how-localize-content-2 = <pontoonAccountLink> ჟ'ა̈ხისყ ანგარიშ</pontoonAccountLink>ჰე მა̄მ ჟუღუ̂ა. ეჩუნღო  ჟ'ა̈ხითშ ისგუ ნინ<strong> ("გუნდ") ი ჟ'ა̈ხითშ პროექტ,<pontoonCvLink> Common Voice</pontoonCvLink>. ჩუირდიხ ლეთჷრგმა̈ნი ფაილა̈რ. ჟ'ე̄სოთლ აშხუ̂, ეჩუნღო ეჯა აწუ̂ე̄ნე სიტყუ̂ა̄̈ლს ინგლისურდ ი ყუთს ეჯჲარე ლათჷრგმა̈ნიდ.
+about-playbook-how-localize-content-3 = თარგმან ინგლისურხა̈ნქა ლი, მარე სი ჩუ ჯამჲედა<strong>შემოთავაზება̄̈ლს</strong>იშგენ ნჷნა̈რჟი. ჟე̄სოთლ<strong>პროფილი</strong>ნიშნჷლჟი, ეჩუნღო <strong>პარამეტრალე</strong>ბმულჟი ი ჟესაქმ ნინ, ხედუ̂ა̄̈ჲჟი სი გა̈რგლი. ჩუ̂იბე ლერსგუ̂ენ კუთხუ̂ისგა ი̄რი თარმანლე სია ჟახოშ<strong>Locales</strong>. თარგმან ქა იწუ̂ე̄ნი საიტჟი აშხუ̂ ლადა̈ღუნღო.
 about-playbook-how-localize-content-4 = საიტ ქალეფშუ̂დად ჟი ლჷმა̄რე ლი, შომუ̂ა̄̈ჲ 75%-თეჟი ათჰიესგი.
 about-playbook-how-localize-content-5 = ლოხსგი ნიშგუ̂ეჲ ვიდეო-ახსნას, ერე ლა̈ჯმარჯუ̂ას
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = იმჟი ლა̈ქმე̄დდ წინადადება̈ლს?
-about-playbook-how-add-sentences-content-1 = სი ჯა̈მჲედა ესქჷმა წინადადება̈ლ<writePageLink>სგალა̈ჲრ გვერდჟი</writePageLink>ჰედ ქა̄დთერუ̂ა̄ლა წინადადება̈ლ<reviewPageLink>განხილვა̈ გვერდჟი</reviewPageLink>.
+about-playbook-how-add-sentences-content-1 = სი ჯა̈მჲედა ესქჷმა წინადადება̈ლ<writePageLink>სგალა̈ჲრ გუ̂ერდჟი</writePageLink>ჰედ ქა̄დთერუ̂ა̄ლა წინადადება̈ლ<reviewPageLink>განხილუ̂ა̈ გუ̂ერდჟი</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = წინადადება̄̈ლ ერ Common Voice-ს ჟ'ესქემხ, ხეკუ̂ეს ერე იარუ̂ მა̄რემ ჩუ̂ადთე̄რუ̂ას ი დასტურ ლახო̄მას. სი ხა̈სყი წესა̈რს ისგუ̂ა ნინიშდ<languageGuidelinesLink>ამჩუ</languageGuidelinesLink>. წინადადება̄̈ლ ხეკუ̂ესე ლესხუ̂ საჯარო საკუთრება ი 15 სიტყვად ხოხუ̂რა. სი ჩუ ჯამჲე̄და ხა̈ჰრი ტექსტი ფუსდს, ერე ანსყას ტექსტ<waiverLink>CC0 ნიშგუ̂ეჲ უარი ლა̈ქუ̂ი̄სგ პროცედურაშუ̂</waiverLink>, ი ქა̄̈ნზიზ ნა̈ჲ.
 about-playbook-how-add-sentences-content-3 = სი ჩუ ჯა̈მჲედა ა̈ხსჷრგება<scraperLink>მეკუ̂შდე წინადადება̄ლე ჟი მჷჴდად</scraperLink> ვიკიპედიახა̈ნჟი
 
