@@ -172,6 +172,13 @@ explore-datasets = ڈیٹا سیٹ خور گر <icon></icon>
 get-involved-section-title = کھولاو  کمیونٹی سو رہنمائ والہ ڈیٹا سیٹ  سو مدد گر
 read-sentences-link = جملے پڑھ
 validate-readings-link = پڑھے سو تصدیق گر
+contribute-link = ٹیکسٹ کارپس مہ حصہ گِھن
+answer-questions-link = سوال جواب
+transcribe-answers-link = جواب نقل گر
+review-transcriptions-link = نقل سو نظر ثانی گر
+contribute-text-link = لیکیل مہ حصہ گِھن
+press-and-stories-link = خبرے زو قصے
 
 ## Partner section
 
+partner-section-title = اسو مِل حصہ دار ھوں
