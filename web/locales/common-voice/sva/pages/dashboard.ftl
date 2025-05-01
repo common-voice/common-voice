@@ -156,6 +156,6 @@ recordings =
     }
 validations =
     { $count ->
-        [one] ვალიდაცია
-       *[other] ვალიდაცია
+        [one] უ̂ალიდაცია
+       *[other] უ̂ალიდაცია
     }
