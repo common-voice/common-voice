@@ -230,10 +230,12 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 For Docker, in `.env-local-docker`:
 
 ```Dotenv
-CV_AUTH0_DOMAIN="<domain_here>"
-CV_AUTH0_CLIENT_ID="<client_id_here>"
-CV_AUTH0_CLIENT_SECRET="<client_secret_here>"
+CV_FXA_DOMAIN="<domain_here>"
+CV_FXA_CLIENT_ID="<client_id_here>"
+CV_FXA_CLIENT_SECRET="<client_secret_here>"
 ```
+> [!TIP]
+> Use the FXA prefix even though you're using Auth0 to generate the credentials.
 
 For local development, in `config.json`:
 
