@@ -145,6 +145,7 @@ join-discord-community = ڈسکارڈ پڑاواس جُڑو
 # label for button
 join-discord-community-action = ڈسکارڈاپ مھارے بھیݪے جُڑو
 join-discord-community-content = ٻولِئیں کی چرچا کے پڑاوینٚم جُڑو، سُئال ٻُوجھو، اور آݨ واڑے واقعات اور گفتگو کے بارے میں سیکھیں.
+find-us-on-matrix = ہمکُو میٹرکساپ کھوجو
 ask-mozilla-share = موزیلا کُو اپݨیں کارھِئیے کا ساجھا کرنے نتر کیہو
 download-contribution-certificate-content = جے اگر تھمُون سادھاڑݨ اواجام پاتی ٻہائی ہے تو اپݨیں کرھئے یا اپݨیں نتر ایک سرٹیفکیٹ ڈاؤن لوڈ کرو - یو تھارے ٻنا سمبھو نائیں ہووں گا!
 
