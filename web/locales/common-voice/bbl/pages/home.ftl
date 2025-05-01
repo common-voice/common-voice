@@ -41,6 +41,9 @@ x-years-short =
         [one] შო
        *[other] { $count } შო
     }
+help-make-dataset = ლა́ტათ თხოჼ ჰ̦ა́მინაჲნოჸ ქოჴა́ბტლაჲნი̆ კრე́ბულ შე́ქმნადარელო
+sign-up-account = ა́ნგრიშ შე́ქმნოდჲარ
+email-subscription-title = სო გამოწე́რადჲებათ წინიწინი́ ა́მბუჲ ელფო́სტენმაქ
 
 ## Account Benefits
 

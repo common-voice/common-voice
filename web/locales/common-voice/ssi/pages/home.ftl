@@ -170,6 +170,7 @@ download-press-pack = مھارا پریس پیک ڈاؤن لوڈ کر<icon></ico
 
 ## Developers section
 
+developers-section-title = 130+ ٻولِیم کھلکا نتر سولا پُگاوݨاں کھُلا ٻولݨاں ڈیٹا سیٹ
 
 ## Get involved section
 
