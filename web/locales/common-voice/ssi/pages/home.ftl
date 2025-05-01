@@ -190,3 +190,5 @@ press-and-stories-link = پریس اور کُہاݨِیاں
 ## Partner section
 
 partner-section-title = مھارے سات بھائی واری کر
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٹیک کمپنیاں</bold> - پھݪتے پھُولتے گھݨِیاں ٻولِیاں ٻوݪݨواڑا ٻݨاؤڑی ٻُدھی ماحولا کے نجاما نتر کھُلے ڈیٹا سیٹ کی رچنا میں رِپئے لگاوتی ہے

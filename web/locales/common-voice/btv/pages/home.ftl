@@ -61,6 +61,7 @@ join-newsletter = پراجیکٹ سو اپڈیٹ  زو  نئی معلومات س
 whats-public = عوام چوں تھی
 email-not-public = بے تیں  ای میل عوامی نہ سندیݜہ ۔
 recordings-and-locale-public = ریکارڈنگ سو تعداد  زو  تیں  حصہ گِھنیئ والہ زِب عوامی ھویانݜ۔
+username-optin-public = تُو اپوں یوزر سو ناں عوامی یا گمنام گر ھواں
 
 ## Landing
 
