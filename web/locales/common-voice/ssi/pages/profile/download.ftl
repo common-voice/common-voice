@@ -15,3 +15,6 @@ download-selected = چُنوڑا
 download-start = پروپھائل ڈیٹا ڈاؤن لوڈ کر
 download-request = ٻِنتِیا کی ریکارڈنگ
 download-requests = لارکی ریکارڈنگ ڈاؤن لوڈا کی ٻنتی
+download-requests-info = جِدؔ تھم اپݨی ریکارڈنگا کی ٻنتی کرتے ہے تو ، ہم اِنکُو ایک یا گھݨی ساری جِپ پھائلینٚم بھیݪا کرتے ہے۔ ایٹھے تھارے کی اگل کِیاں ٻِنتِیاں ہے:
+download-request-button = ڈاؤن لوڈ
+download-request-title = { $created }
