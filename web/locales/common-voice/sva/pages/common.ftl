@@ -57,6 +57,7 @@ udm = უდმურტულ
 uk = უკრაინულ
 uz = უზბეკურ
 vi = ვიეტნამურ
+xmf = ლჷმგრა̈ლუ
 
 # [/]
 
@@ -69,7 +70,7 @@ contact = კონტაქტ
 privacy = კონფიდენციალურობ
 terms = პირობა̈ლ
 cookies = ქუქი-ფაილა̈რ
-faq = FAQ
+faq = ხუ̂ა̄̈ჲნ ერ იჭუ̂დიე̄ლხ
 documentation = დოკუმენტაცია
 content-license-text = კონტენტ ხელმისაწვდომ ლი <licenseLink>Creative Commons ლიცენზიოშ</licenseLink>
 share-title = სგ'ა̄̈ხტყუბა̄̈ნ ნიშგუ̂ეჲ საზოგადოებას
@@ -89,7 +90,7 @@ email-opt-in-info-title = სგა ლა̈ხტყუ̄ბა̄̈ნ Common V
 email-opt-in-info-sub-with-challenge = ხიკადდა̈ს ელ. წერილშუ̂ ამოცანალე ი მიზნარე შეხსენებას, პროგრესი განახლებას ი საინფორმაციო ბიულეტენს Common Voice ბედჟი.
 email-opt-in-privacy-v2 = ელექტრონულ წერილარე ლიკედი ბედჟი თანხმობაუ̂შუ̂ სი ხადასტურე, ერე თანახმა ხი, დაამუშაოს Mozilla-დ ალ ინფორმაცია, იმჟი ხა̈ჲრა Mozilla-იშ <privacyLink>კონფიდენციალურობა̄̈ პოლიტიკაისაგა</privacyLink>.
 indicates-required = უ̂არსკვლაუ̂შ (*) ლჷნშანე ველრე შევსება აუცილებელ ლი.
-not-available-abbreviation = N/A
+not-available-abbreviation = მა̄მ ლი ხელმისაწუ̂დომ
 
 ## Donate banner
 

@@ -14,6 +14,14 @@ about-sentence-collection-title = جملون رو ٽوۯو
 about-sentence-collection-subtitle = منکون رئہ ٻوليا ۿارُو جُملا ڀيۯا ڪريا زائه۔
 about-new-lang-title = نوِي ٻولِي رئي شُروئات
 about-new-lang-subtitle = امي ڪومنَ وائيس ويب سائيٽ نئہ اِيئا ٻولِي ۾ شُروعات ڪرونه۔
+about-voice-contrib-title = آواز رو ڀاڳ
+about-voice-contrib-subtitle = منک آوئه انَ آپرئي آوازون ۮئه۔
+about-voice-validation-title = آواز رئي تصديق
+about-voice-validation-subtitle = ٻِي﻿زا منک هائيون آوازون رئي تصديق ڪرئہ۔
+about-dataset-release-title = ڊيٽا سيٽ نئہ رليز ڪروو
+about-dataset-release-subtitle = هر ترڻ مئينون ڪيڙ ڊيٽا سيٽ نئہ رلِيز ڪروو۔
+about-subscribe-text = ڪِي تمي ڪومنَ وائيس ڀيۯا رابطا ۾ ريوا ڪروه؟
+about-speak = ٻولو
 
 ## Community Playbook Content
 ## What is a language
