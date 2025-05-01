@@ -87,10 +87,13 @@ press-and-stories = دباؤ گر آ قصے
 community-and-languages = کمیونٹی  آ زِب
 about-us = اسئیں متعلق
 scripted-speech = نقل ھویئنل تقریر
+spontaneous-speech = ناڅاپہ تقریر
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ملگرتیا، دباؤ گرو آ قصے، کمیونٹی آ زِب
+about-us-menu-item-tooltip = عام اواز سو ڈا پتن ٹیم آ مقد سو متعلا ڇھج
+about-us-menu-item-aria-label = اسئیں متعلق اختیار سو مینیو
 partnerships-menu-item-tooltip = چاپیرا دنیا مہ وام اواز سو مدد سو دَن تنظیم ٹنڈ
 press-and-stories-menu-item-tooltip = قصے پڑھ، اپڈیٹ آ وام اواز سو میڈیا کورج
 community-and-languages-menu-item-tooltip = اسئیں کمیونٹی مِل یکزہ ھوں، آ مدد گار زِب بھال
@@ -106,6 +109,9 @@ community-and-languages-menu-item-aria-label = عام سو مدد گریل زِ�
 
 ## Hero section
 
+hero-title = تیں زیب منے والہ ٹیکنالوجی
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>  AI  چیں دنیا سو صرف پِھک زیبوں  سو دَن کام گرا؟</bold>
 
 ## Action items section
 
