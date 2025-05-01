@@ -25,3 +25,5 @@ download-request-assembling-description = تھارِیاں پہائلاں بھی
 download-request-refresh-button = تاجا
 download-request-modal-title = لِنکاں ڈاؤن لوڈ کر
 download-request-modal-description = ایٹھے تھاری جِپ پھائلیں کُو ڈاؤن لوڈ کرنے کِیاں لِنکاں ہے۔
+download-request-link-text = { $total } کا جِپ #{ $offset }
+download-request-metadata-link = ٻولیں کا پاٹ
