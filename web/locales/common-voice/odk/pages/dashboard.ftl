@@ -152,7 +152,7 @@ days =
 recordings =
     { $count ->
         [one] رڪارڊنگ one
-       *[other] رڪارڊنگس other
+       *[other] رڪارڊنگا other
     }
 validations =
     { $count ->

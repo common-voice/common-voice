@@ -85,6 +85,7 @@ transcribe-audio-coming-soon = آڈیو سو نقل گر <small> (ھلہ یا) <
 transcribe-audio = آڈیو سو نقل
 press-and-stories = دباؤ گر آ قصے
 community-and-languages = کمیونٹی  آ زِب
+coming-soon = ھلہ یا
 about-us = اسئیں متعلق
 scripted-speech = نقل ھویئنل تقریر
 spontaneous-speech = ناڅاپہ تقریر
@@ -123,6 +124,11 @@ action-items-section-title = عام اواز یک ازاد، کھولاو پلی
 action-items-section-subtitle = کشک زو متن آ تقریر سو ڈیٹا سیٹ سو شرکت،سندو آ کیوریٹنگ گیری اپئیں زہب محفوظ،زیند آ اوچت گر ھواں۔
 scripted-card-header = نقل ھوینئل تقریر
 scripted-card-content = اپئیں زیب مہ اوچت اواز دے جملے پڑھ آ دنیا مہ ڙھؤ متبادل عوامی شرکتی تقریری ڈیٹا سیٹ شامل گر
+spontaneous-card-header = بے ارادے تقریر
+spontaneous-card-content = نامیاتی، بول چال سو سیاق وسباق سو دَن ڈیٹا سیٹ سندے سو دَن اشرہ سو جواب دیا زبانی اول سو زیبوں دَن مڑنیئ تھو
+language-text-card-header = زیب سو لیک
+language-text-card-content = ترجم،پِھٹئیں زیب سو ماڈل،آ جَل ڙھؤ کیں سو دَن عوامی احاطہ کار سو اشارے ، جملے آ متن سندیا یا اِس شریک گریا۔
+add-text = لیک ِگڈ گر
 
 ## Community section
 
