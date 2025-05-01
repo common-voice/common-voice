@@ -4,7 +4,13 @@ contribute = БутӀакьяндешдарес
 review = Ахтардибарес
 skip = Уббатес
 shortcuts = Клавишабала бархбяхъ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Клип
+       *[other] <bold>{ $count }</bold> Клип
+    }
 goal-help-recording = ХӀушани Common Voice-лис кумекбарира, { $goalValue }-лизир белкӀани дирнила шайчибси гьар бархӀиласи нушала кьас <goalPercentage></goalPercentage>-личи абикахъес.
+goal-help-validation = ХӀушани Common Voice-лис кумекбарира, { $goalValue }-лизир ахтардидирнила шайчибси гьар бархӀиласи нушала кьас <goalPercentage></goalPercentage>-личи абикахъес!
 contribute-more =
     { $count ->
         [one] { $count } гьатӀи барес хӀядурлираяв?
@@ -48,22 +54,45 @@ report-different-language-detail = Ну гъайикӀути мезлизира�
 report-difficult-pronounce = Бурес къиянни саби
 report-difficult-pronounce-detail = ДелчӀес яра дурес къиянти дугьби яра гъай лер.
 report-offensive-speech = ДецӀигахъути каргьурти гъай
+report-offensive-speech-detail = Клиплизир хӀурматагарти яра децӀигахъути гъай лер.
+report-other-comment =
+    .placeholder = Комментарий
 success = ХӀядурли саби
 continue = Даимбарес
 report-success = ГӀярза ункъли бархьили саби
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = БелчӀес/тӀашаэс
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Клип сагали белкӀес
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Бетурхуси белкӀ уббяхъес
+shortcut-submit = Return
 shortcut-submit-label = Клипуни дархьес
 request-language-text = Common Voice-лизир гьачамлис хӀушала мез чехӀедиулрав?
 request-language-button = Мез тӀалабдарес
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Play/Stop
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
@@ -71,12 +100,16 @@ contribution-criteria-nav = Умцлаби
 contribution-criteria-link = Кьяйдурти дагьес
 contribution-criteria-page-title = БутӀакьяндешла умцлаби
 contribution-criteria-page-description = БелкӀаначи лехӀихъухӀели селичи пикри бяхӀчииусил багьирая, ва хӀушала белкӀани давлачердиахъая!
+contribution-for-example = масалалис
 contribution-misreadings-title = БучӀнилизир хатӀаби
 contribution-misreadings-description = ЛехӀихъухӀели, делкӀунти дурусли делкӀи сарил, хӀекьли чедетаахъили ахтардидиреная; хӀятта кам-гьамти хатӀабира далли кьабулмадиридая. <br />ИмцӀаливан дирути хатӀабала мисалти:
 contribution-misreadings-description-extended-list-1 = БелкӀла бехӀбихьудлизиб девла бутӀа уббатни. Масала, «алам» бурули биалли, «салам»-ла мерличиб.
 contribution-misreadings-description-extended-list-2 = Девла ахирлизиб <strong>'s'</strong> уббатни (ингилис мезлизиб).
 contribution-misreadings-description-extended-list-3 = БелкӀунсиличи мешуси, амма илизибад декӀарбулхъуси дев бурули саби. Масала, «чӀярухъун» «чӀяррухъун»-на мерличиб яра ургӀебли.
+contribution-misreadings-description-extended-list-4 = Заманалис гьалаб белкӀ тӀашаъни багьандан, бегӀла гӀергъиси девла ахир бетахъни.
 contribution-misreadings-description-extended-list-5 = Дев белчӀес чуйнал алавухъни.
+contribution-varying-pronunciations-description = УчӀанни дев балкӀли буриб или, яра, суалла ишараличи пикри бяхӀчихӀеили, балкӀли дев буриб или, клип кьабулхӀебарес гьалар мяхӀкамли диирая. Лебилра дунъяличир дахъал журалати ирниби пайдаладирули сари, илдазирад цацадехӀти хӀушала мерла цахӀнабиклизир хӀушани хӀедакьили диэсра асубирар.
+contribution-background-noise-description = Нушаб дигулра, машинали бучӀахънила алгоритмаби декӀар-декӀарти алавлати тӀама-гьамаличил бажардидиркули, хӀятта гӀяхӀцадла ахъти тӀамрира кьабулдарес вирар, эгер лебилра текст багьахъес хӀушаб диргалахӀедулхъули диалли. ГӀяшти ва хӀергъути гъайла тӀамри асудирути сари, амма, текстлизиб агарси, цалра дев хӀушани аргъес дирули диадалли, белкӀ кьабулхӀебарес гӀягӀнибиркур.
 contribution-reader-effects-title = БучӀнила асар-кьяйда
 contribution-reader-effects-description = ИмцӀати белкӀани – илди чула лебси тӀамаличил гъайбикӀути адамти саби. ЦацахӀели хӀушани чӀярдикӀути, шивкӀивдикӀути яра балу-балули «декӀси» тӀамаличил ирути,  цуглиахӀенти белкӀанира кьабулдирес дирудая. Далуйтала белкӀани яра акӀахъубси тӀамаличилти белкӀани кьабулмадиридая.
 contribution-just-unsure-title = ХӀедирхулраяв?

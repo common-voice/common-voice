@@ -1,6 +1,8 @@
 ## REVIEW
 
+sc-review-lang-not-selected = ХӀушани цадехӀалра мез декӀардарили ахӀенра. Илди декӀардарес багьандан хӀушала <profileLink>бяхӀчибизлизи (профиллизи)</profileLink> кадухъеная.
 sc-review-title = Предложениеби ахтардидарес
+sc-review-loading = Предложениеби загрузитдарес...
 sc-review-select-language = Башуста, хӀушани ахтардидирути предложениебала мез декӀардарая.
 sc-review-no-sentences = Гьанна ахтардидарес гӀягӀнити предложениеби агара, амма <addLink>хӀушани сагати имцӀадарес дирудая!</addlink>
 sc-review-form-prompt =
@@ -12,6 +14,15 @@ sc-review-form-source = Хьулчи: { $sentenceSource }
 sc-review-form-button-reject = КьабулхӀебарес
 sc-review-form-button-skip = Уббатес
 sc-review-form-button-approve = Кьабулбарес
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = ХӀушани илкьяйдали хъапӀнира (клавишабира) пайдаладарес дирудая: { sc-review-form-button-approve-shortcut } кьабулбарес багьандан, { sc-review-form-button-reject-shortcut } кьабулхӀебарес багьандан, { sc-review-form-button-skip-shortcut } уббатес багьандан.
+sc-review-form-button-submit =
+    .submitText = Ахтардибирни таманбарес
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =

@@ -4,6 +4,7 @@ listen-instruction = { $actionType }<playIcon></playIcon> предложение
 listen-again-instruction = Пергер хӀянчи! <playIcon></playIcon> ХӀядурдиубхӀели, гӀурра лехӀдизирая
 listen-3rd-time-instruction = 2 хӀядурли сари <playIcon></playIcon>, даимбарая!
 listen-last-time-instruction = <playIcon></playIcon>БегӀла гӀергъиси!
+listen-empty-state = Илди мезличилти ахтардидирути белкӀани кадерхурли сари.
 listen-empty-state-variants = ХӀушала мезла вариантлис клипуни хӀедиэсра асубирар! ХӀушаб лайикьбиркули биалли, хӀушала мезличилти цархӀилти гьалабихьуни чедаэс багьандан, хӀушала далдушниби хӀушани дарскадарес дирудая.
 listen-loading-error =
     ЛехӀдизес нушани цалра аудиоклип касес хӀедиубра.
