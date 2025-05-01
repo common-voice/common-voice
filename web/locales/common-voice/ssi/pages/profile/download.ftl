@@ -27,3 +27,4 @@ download-request-modal-title = لِنکاں ڈاؤن لوڈ کر
 download-request-modal-description = ایٹھے تھاری جِپ پھائلیں کُو ڈاؤن لوڈ کرنے کِیاں لِنکاں ہے۔
 download-request-link-text = { $total } کا جِپ #{ $offset }
 download-request-metadata-link = ٻولیں کا پاٹ
+download-request-link-single = تھم سُودے یو آر ایلا کُو اپݨیں پِسنداڑے ڈاؤن لوڈ مینیجرام نکݪ اور پیسٹ بھی کری سِکتے ہے۔ ٻو 12 کلاکینٚم کھُٹی جاؤنٚگڑے ، پݨ تھم کسی بھی ٻکت نویں جِݨنیں نتر اس پنینٚپ پُوٹے آئی سِکتے ہے۔
