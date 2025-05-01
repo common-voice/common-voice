@@ -130,7 +130,7 @@ about-playbook-how-project-governance-content-3 = კონფიდენცი
 about-playbook-how-project-governance-content-4 = საზოგადოება̄̈ მონაწილეობა ი გადაწყუ̂ეტილება̄̈ ლიკედ.
 about-playbook-how-project-governance-content-5 = ღირებულება ი აღიარება.
 about-playbook-how-project-governance-content-6 = ორმხრიუ̂ ანგარიშუ̂ალდებულება.
-about-playbook-how-project-governance-content-7 = <governanceLink>ა̈ცხირ ხოშა ლუნწუდად, იმჟი ვმართავთ ნა̈ჲ</governanceLink>
+about-playbook-how-project-governance-content-7 = <governanceLink>ა̈ცხირ ხოშა ლუნწუდად, იმჟი ხუ̂ამჷრთჷუ̂იდ ნა̈ჲ</governanceLink>
 
 ## How is Common Voice funded
 
