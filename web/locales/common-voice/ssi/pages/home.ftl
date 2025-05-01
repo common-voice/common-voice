@@ -177,6 +177,7 @@ explore-datasets = ڈیٹا سیٹا کی کھوج کر <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کھُلی ساہِیتا کر، پڑاوا کُو چلاݨواڑے ڈیٹا سیٹ
 
 ## Partner section
 
