@@ -158,9 +158,13 @@ download-contribution-certificate-content = جے اگر تھمُون سادھا�
 # label for button
 download-contribution-certificate-action = اپݨا سرٹیفکیٹ لیؤ
 contribute-github = گٹ ہب پر یوگدؔان دؔیؤ
+contribute-github-content = یو یوجنا تھارے دؔیسے مِنکھیں کے ٻنا نائیں ہوؤں گا۔ 🎉 سادھارݨ اواجا کے سات سیمݪ ہووݨیں کے گھݨے ئی ترِیکے ہے - تھم کُو یو اوݪِکھݨیں کی جرورت نائیں تی کہ یوگدؔان کرنے نتر کوڈ کِدؔا کرنا ہے!
+# label for button
+contribute-github-action = گٹ ہب پر یوگدؔان دؔیؤ
 
 ## Featured section
 
+featured-section-title = اس میں دِؔکھایا ہے ...
 
 ## Developers section
 
