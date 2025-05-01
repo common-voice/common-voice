@@ -85,15 +85,21 @@ transcribe-audio-coming-soon = آڈیو سو نقل گر <small> (ھلہ یا) <
 transcribe-audio = آڈیو سو نقل
 press-and-stories = دباؤ گر آ قصے
 community-and-languages = کمیونٹی  آ زِب
+about-us = اسئیں متعلق
+scripted-speech = نقل ھویئنل تقریر
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ملگرتیا، دباؤ گرو آ قصے، کمیونٹی آ زِب
 partnerships-menu-item-tooltip = چاپیرا دنیا مہ وام اواز سو مدد سو دَن تنظیم ٹنڈ
 press-and-stories-menu-item-tooltip = قصے پڑھ، اپڈیٹ آ وام اواز سو میڈیا کورج
+community-and-languages-menu-item-tooltip = اسئیں کمیونٹی مِل یکزہ ھوں، آ مدد گار زِب بھال
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = عام اواز مِل شراکت سو متعلق ڇھج
+press-and-stories-menu-item-aria-label = خبرے دے والوں آ عام اواز مِل جڑیل قصیوں یے اوڑ
+community-and-languages-menu-item-aria-label = عام سو مدد گریل زِب آ کمیونٹی ٹنڈ
 
 ## NEW HOME PAGE KEYS
 
