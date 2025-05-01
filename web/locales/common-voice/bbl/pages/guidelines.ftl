@@ -123,3 +123,6 @@ spelling-and-pronunciation = ორთოგრაფია - ნიფსწე
 spelling-and-pronunciation-explanation = შარეჩო̆ მართლწე́რევაჲ გრამა́ტიკევა́ჲ
 length = ჲახხოლ
 length-explanation = შეკითხვ ო́შტუჼ ჲე́წე̆ ხილ'აჼ, მე́ პა́სუხ ბალ'რენ თოყა́ლ ხილ'ულო̆ ცჰ̦ა-ში წინადა́დებ
+dont-add-subheader = მა ლა́ტდოთ
+culturally-specific-questions = შეკითხვი ლე ე, ლე ო ნა́ხახა́, გა́რემოხა́.
+culturally-specific-questions-explanation = ო́შტუჼ შეკითხვი, მე́ნხუჲჩუჲშვა́ ჭირვეშ გუდა́ხო ეჰი́ ლე ო́ ნა́ხიჼ მახა́სიათებლი, ჲე პასუხ თე́ლჩოგორეჼ წყეგეჸ დუჴ ვა́რუდი  ე́ბწარ კლე́ვადო.
