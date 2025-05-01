@@ -155,6 +155,9 @@ ask-mozilla-share-content = کوئی لاکا یا ئݨ صاڑا کارج ہے؟
 ask-mozilla-share-action = اپݨیں کاما کُو ٻاٹو
 download-contribution-certificate = اپݨے یوگدؔانا کا سرٹیفکیٹ ڈاؤن لوڈ کر
 download-contribution-certificate-content = جے اگر تھمُون سادھاڑݨ اواجام پاتی ٻہائی ہے تو اپݨیں کرھئے یا اپݨیں نتر ایک سرٹیفکیٹ ڈاؤن لوڈ کرو - یو تھارے ٻنا سمبھو نائیں ہووں گا!
+# label for button
+download-contribution-certificate-action = اپݨا سرٹیفکیٹ لیؤ
+contribute-github = گٹ ہب پر یوگدؔان دؔیؤ
 
 ## Featured section
 
