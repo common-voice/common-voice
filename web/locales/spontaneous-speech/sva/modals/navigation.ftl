@@ -6,7 +6,7 @@ respond = ლოხპასუ̂იხუ̂
 check = ჩუ̂ათმოწმა̈ნ
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = ჟო̄ხოსყ ტრანსკრიფცია
-loading = იტუ̂ირთა̈უ̂ი
+loading = იტუ̂ირთა̈უ̂ი…
 login-signup = სგალი̄ზი/რეგისტრაცია
 login = სგა ლი̄ზი
 logout = ქა ლიჴედ
