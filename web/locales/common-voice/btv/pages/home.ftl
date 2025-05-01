@@ -146,9 +146,19 @@ ask-mozilla-share-content = لھنگیل یا یی والہ تقرب تھو ؟ �
 # label for button
 ask-mozilla-share-action = اپوں تقریب شیئر گر
 download-contribution-certificate = اپوں شرکت سو سرٹیفیکیٹ ڈونلوڈ گر
+download-contribution-certificate-content = کہ تی عام اواز مہ حصہ نین تھی تہ اپئیں تقریب یا اپئیں دَن یک سٹیفیکٹ ڈونلوڈ گر۔ او تے نو بغیر ممکن نہ ھونݜ۔
+# label for button
+download-contribution-certificate-action = اپوں سرٹیفیکیٹ حاصل گر
+contribute-github = حص گِھن  GitHub  رے
+contribute-github-content = تیں شان لوں نو بغیر او پرجیکٹ ممکن نہ اسو ۔عام اواز مہ حصہ گِھنے سو ایزہ ڙھؤ طریقے تھے تو نہ پُھنیاں ھواں چہء کش حصہ کش گِھنہ تہ
+# label for button
+contribute-github-action = حص گِھن  GitHub  رے
 
 ## Featured section
 
+featured-section-title = ظاہر مہ...
+# icon is an arrow that points downwards
+download-press-pack = اسوں خبر سو پیک ڈونلوڈ گر <icon> </icon>
 
 ## Developers section
 
