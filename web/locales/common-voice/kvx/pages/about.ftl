@@ -22,6 +22,13 @@ about-dataset-release-title = ڊيٽا سيٽ نئہ رليز ڪروو
 about-dataset-release-subtitle = هر ترڻ مئينون ڪيڙ ڊيٽا سيٽ نئہ رلِيز ڪروو۔
 about-subscribe-text = ڪِي تمي ڪومنَ وائيس ڀيۯا رابطا ۾ ريوا ڪروه؟
 about-speak = ٻولو
+about-speak-text = مدد ڪرنار آپرِي آواز را ڪِلپ رِيڪارڊ ڪرئه، جيا ۮون ڪرل جُملون را بينڪ ٿِي ڀڻينَ ڪريا زائہ۔
+about-listen-queue = ۿومڀۯيا رو ماڳ/جڳا
+about-listen-queue-text = آوازون را ڪِلپ ڪيُو ۾ نوکيا زائه۔ اُوئا نئہ ۿومڀۯيا ۿارُو تيار ڪرئہ۔
+about-listen = ۿونمڀڙو
+about-listen-text = واپرايا واۯا ڪِلپون رِي ڌُرستگِي رئي تصديق ڪرئہ، هائي اِِيئا وات رئي تصديق ڪرئي جي ڀڻيا واۯئہ جُملو ٺِيڪ ڀڻيو ڪا نا۔
+about-is-it-valid = ڪِي اي ڪِلپ ۿومڀۯيا جيوو سئہ؟
+about-is-it-valid-text = آواز رو ڪِلپ تئيون مونيو زائه زئيون ۿومڀۯيا واۯو اُوئا رئي تصديق ڪرئہ۔
 
 ## Community Playbook Content
 ## What is a language
