@@ -1,7 +1,7 @@
 action-click = ჟ'ე̄სოთლ
 action-tap = ლიგდური
 contribute = ლიმურჯუ̂ი
-review = მიმოხილვა
+review = მიმოხილუ̂ა
 skip = ქალახაცუ̂რ
 shortcuts = ჩქა̈რდლა̈ტუ̄̈ლნა
 clips-with-count-pluralized =
@@ -10,14 +10,14 @@ clips-with-count-pluralized =
        *[other] კლიპა̈რ
     }
 goal-help-recording = სი ქალოხმურჯუ̂ გუშგუ̂ეჲ ჩილა̈დღია̈ </goalPercentage></goalPercentage> ლეჲრი̄ { $goalValue } ლასრულას!
-goal-help-validation = სი ქალოხმურჯუ̂ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღი{ $goalValue }  ლეჲრი̄ ლასრულას.
+goal-help-validation = სი ქალოხმურჯუ̂ Common Voice-ს <goalPercentage></goalPercentage>გუშგუ̂ეჲ ჩილა̈დღია̈{ $goalValue }  ლეჲრი̄ ლასრულას.
 contribute-more =
     { $count ->
         [one] ხიმა ლჷმა̄რე{ $count } ხოშილი ლასყე̄ნად?
        *[other] ხიშდმა ლჷმა̄რე{ $count } ხოშილი ლასყე̄ნად?
     }
 speak-empty-state = ალ ნჷნჟი ლეჲრი წინადადება̄̈ლ ჩუ̂ა̈გუ̂შდა̈ხ...
-no-sentences-for-variants = ისგუ ნინი უ̂არიანტ შეიძლება წინადადება̄̈ლურდ ლესსუ̂! ხომურჯა ჰე̄მა ჯა̄რ, ჰე, ჟა̈ხცა̄დუ̂ინ პარამეტრა̄̈ლ, ერე ქახეწე იშგენ წინადადება̄̈ლს ისგუ̂ა ნინჟი.
+no-sentences-for-variants = ისგუ ნინი უ̂არიანტ შეიძლება წინადადება̄̈ლურდ ლესსუ̂! ჰე̄მა ჯიცხა, ჟა̈ხცა̄დუ̂ინ პარამეტრა̄̈ლ, ერე ქახეწე იშგენ წინადადება̄̈ლს ისგუ̂ა ნინჟი.
 speak-empty-state-cta = სგა̄თი̄რ წინადადება̄̈ლ
 speak-loading-error =
     დეშ ხუ̂ითხედ წინადადება ისგო̄უ̂დ. 

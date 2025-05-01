@@ -136,5 +136,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>ა̈ცხი
 
 about-playbook-how-funded = იმჟი ფინანსდება Common Voice?
 about-playbook-how-funded-content-1 = 109.Common Voice ლი Mozilla Foundation-ი პროექტ, აშშ 501c3. ათხე̄ დუ̂რეუ̂ჟი პროექტ მთლია̈ნდ ფინანსდება <philantropicGrantLink>ფილანტროპულ გრანტა̈რშუ̂ </philantropicGrantLink>ი შემოწირულობა̈ლშუ̂ მთელ სოფლიოისგა.
-about-playbook-how-funded-content-2 = ხუ̂ა̄̈ჲ თეთრ ხაჯეშ მონაცემრეშ ხორეუ̂ი მუდმივ მასპინძლობ ი ლიფშუ̂დე, პლატფორმა̄̈ ლისკეთე <africaMradiLink>საზოგადოებრივ პროგრამალე <africaMradiLink> ქალიფშუ̂დე.
-about-playbook-how-funded-content-3 = სი ჰედ ისგუ ორგანიზაციას ჰემა ჯაკუხ წვლილი ლიჲ პროექტთეჲსგა, ჩუ ჯა̈მჲედა <donateLink>დონაცია</donateLink> ჰედ დაუკავშირდი ნიშგუ̂ეჲ ი ნიშგუ̂ეჲ პარტნიორალე გუნდს მისამართჟი <emailFragment>commonvoice@mozilla.com</emailFragment>.
+about-playbook-how-funded-content-2 = ხუ̂ა̄̈ჲ თეთრ ხაჯეშ მონაცემრე ხორეუ̂ი მუდმივ მა̈სპინძლობ ი ლიფშუ̂დე, პლატფორმა̄̈ ლისკეთე <africaMradiLink>საზოგადოებრიუ̂ პროგრამალე <africaMradiLink> ქალიფშუ̂დე.
+about-playbook-how-funded-content-3 = სი ჰედ ისგუ ორგანიზაციას ჰემა ჯაკუხ წუ̂ლილი ლიჲ პროექტთეჲსგა, ჩუ ჯა̈მჲედა <donateLink>დონაცია</donateLink> ჰედ დაუკაუ̂შირდი ნიშგუ̂ეჲ ი ნიშგუ̂ეჲ პარტნიორალე გუნდს მისამართჟი <emailFragment>commonvoice@mozilla.com</emailFragment>.
