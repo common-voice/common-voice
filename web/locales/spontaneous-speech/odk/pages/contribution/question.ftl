@@ -17,7 +17,7 @@ partial-questions-upload-message =
        *[other] { $uploadedQuestions } سوالان مُون { $totalQuestions } جمع ڪلي گيلي۔  سوال شامل ڪرڻي چي طريقي چي باري ۾ بڌِيڪ جاڻڻي چي ڪاڻ امچي <guidelinesLink> اڳواڻِي ڪرڻي هاڙين خطين</guidelinesLink> صفحي ڏيکا۔
     }
 # Guidelines
-add-question-guidelines-title = ڪا مين سوال شامل ڪر سِگھَين ڇَين؟
+add-question-guidelines-title = مين ڪِسي سوال شامل ڪر سِگھَين ڇَين؟
 do-section-title = ڪرڻ
 do-section-guideline-1 = گرامر ائُون صحِيح اکرين اِستعمال ڪرا
 do-section-guideline-2 = اِسڙي سولي سوال چُونڊا جڪو ثقافت يان بڙي سياق و سباقا چي حسابا سُون ڪاڇي ڪاڻ سمجھڻي ۾ سولي هُوِي۔

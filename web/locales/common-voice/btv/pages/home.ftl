@@ -136,6 +136,11 @@ community-section-title = عالمی برادریوں کے ذریعہ تقویت
 join-discord-community = ڈسکارڈ کمیونٹی مہ شامل ھوں
 # label for button
 join-discord-community-action = اسو مِل ڈسکارڈ رے شامل ھوں
+join-discord-community-content = زیب سو کمیونٹی سو باث مہ حصہ گِھن،سوال سو تپوس گر،آ ڇھِڇ یے والہ تقریب آ بیاد یوں سو متعلق
+find-us-on-matrix = اسو میٹرکس رے ٹنڈ
+find-us-on-matrix-content = مٹرکس غیر مرکزی،حقیقی وخت سو رابطہ سو زریعہ،آ مزیلا سو ترجیحی کھلاو باث سو پلیٹ فارم سو دَن یک کھلاو،کم وزن والہ پروٹوکول تھو۔
+# label for button
+find-us-on-matrix-action = اسو میٹرکس رے ٹنڈ
 
 ## Featured section
 
