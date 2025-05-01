@@ -172,6 +172,8 @@ download-press-pack = مھارا پریس پیک ڈاؤن لوڈ کر<icon></ico
 
 developers-section-title = 130+ ٻولِیم کھلکا نتر سولا پُگاوݨاں کھُلا ٻولݨاں ڈیٹا سیٹ
 developers-section-subtitle = اے ایس آر ، ایس ٹی ٹی ، ٹی ٹی ایس ، اور دُؔوجے این ایل پی سرے نتر ڈیٹا سیٹ - کمیونٹی کی شرکت کے ذریعہ بنائے گئے ہیں۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹا کی کھوج کر <icon></icon>
 
 ## Get involved section
 
