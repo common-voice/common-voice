@@ -70,9 +70,21 @@ username-email-not-demographic = تیوں یوزر سو ناں آ ای میل ش
 welcome-staff = خوش آمدید{ $company }  عملہ !
 help-contribute = تُو عام اواز سو پرفائل سیندی  آ اپئیں اواز مہ شرکت گیری متنوع  کھلاؤ زریعہ سو ڈیٹا سیٹ سندے مہ مدد گر ھونتہ
 login-company = Log In / Sign Up { $company } ای میل گِھن
+profile-not-required = شرکت گرے سو دَن پروفائل ھوں ضروری نہ تھو ولے او مدد گار ھواں، څھیئ بھال چیں۔
+read-more-about = اسئیں صفحہ سو متعلق جَل پڑھ
 
 ## NAV ITEMS
 
+answer-questions = سوال جواب
+answer-questions-coming-soon = سوال جواب <small> (ھلہ یا) </small>
+review-transcriptions = ٹرانسکرپشن سو نظر ثانی گر
+review-transcriptions-coming-soon = ٹرانسکرپشن سو نظر ثانی <small>(ھلہ یا) </small>
+add-questions = سوال شامل گر
+add-questions-coming-soon = سوال شامل گر <small>(ھلہ یا ) </small>
+transcribe-audio-coming-soon = آڈیو سو نقل گر <small> (ھلہ یا) </small>
+transcribe-audio = آڈیو سو نقل
+press-and-stories = دباؤ گر آ قصے
+community-and-languages = کمیونٹی  آ زِب
 
 ## MENU ITEMS TOOLTIPS
 
