@@ -100,6 +100,7 @@ community-and-languages-menu-item-tooltip = اسئیں کمیونٹی مِل ی�
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = اختیاری مینیو سو متعلق
 partnerships-menu-item-aria-label = عام اواز مِل شراکت سو متعلق ڇھج
 press-and-stories-menu-item-aria-label = خبرے دے والوں آ عام اواز مِل جڑیل قصیوں یے اوڑ
 community-and-languages-menu-item-aria-label = عام سو مدد گریل زِب آ کمیونٹی ٹنڈ
@@ -112,6 +113,9 @@ community-and-languages-menu-item-aria-label = عام سو مدد گریل زِ�
 hero-title = تیں زیب منے والہ ٹیکنالوجی
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>  AI  چیں دنیا سو صرف پِھک زیبوں  سو دَن کام گرا؟</bold>
+hero-subtitle-2 = اسئیں زیب اسئیں قصہ، اسئیں ، اسئیں ثقافت تھی،۔یا چہء ڈیٹا سیٹ سَندی چہء سو بے دنیاں مہ لوکھہ تھہ۔
+# icon is an arrow that points downwards
+get-started = شرو گر <icon><icon>
 
 ## Action items section
 
