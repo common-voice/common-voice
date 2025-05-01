@@ -21,3 +21,7 @@ download-request-title = { $created }
 download-request-description = { $clipCount } اواجا کے ٹُکڑے ، کل آرکائیو سائز { $size }۔ انت ہوئی جاتا ہے { $expires }.
 download-request-archive-single = ایکلی جِپ پھائلاپ ٻݨونٚڑی
 download-request-archive-multiple = { $archiveCount } جِپ پھائلینٚم ٻاٹو جس میں
+download-request-assembling-description = تھارِیاں پہائلاں بھیݪِیاں کی رے ہے۔ دؔیا کری پِچھیں پُوٹھی جانچ کر.
+download-request-refresh-button = تاجا
+download-request-modal-title = لِنکاں ڈاؤن لوڈ کر
+download-request-modal-description = ایٹھے تھاری جِپ پھائلیں کُو ڈاؤن لوڈ کرنے کِیاں لِنکاں ہے۔
