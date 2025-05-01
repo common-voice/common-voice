@@ -18,3 +18,5 @@ download-requests = لارکی ریکارڈنگ ڈاؤن لوڈا کی ٻنتی
 download-requests-info = جِدؔ تھم اپݨی ریکارڈنگا کی ٻنتی کرتے ہے تو ، ہم اِنکُو ایک یا گھݨی ساری جِپ پھائلینٚم بھیݪا کرتے ہے۔ ایٹھے تھارے کی اگل کِیاں ٻِنتِیاں ہے:
 download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
+download-request-description = { $clipCount } اواجا کے ٹُکڑے ، کل آرکائیو سائز { $size }۔ انت ہوئی جاتا ہے { $expires }.
+download-request-archive-single = ایکلی جِپ پھائلاپ ٻݨونٚڑی
