@@ -186,3 +186,9 @@ partner-section-title = اسو مِل حصہ دار ھوں
 partner-section-subtitle-tech-companies = <bold> ٹیک کمپنیئ </bold> کھلاو ڈیٹا سیٹ سو سندے مہ پیس رھینگا  فروغ پزیر کثیر لسانی AI ماحولیاتی نظام سو دَن
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold> سول معاشرہ آ تحقیق گرے والہ </bold> ۔  مفت میزبان اثر گرے والہ ڈیٹاسیٹس سند ،آ شیئر کریں
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> انسان دوست </bold> مقامی جدت آ ترقی  دے سو دَن  ڈیٹا سیٹ سندے سو کفالت گر
+# icon is an arrow that points to the right
+get-in-touch-button = مِل ھوں <icon> </icon>
+# Partners section
+our-partners-include = اساں ملگرے شامل تھہ۔۔۔
