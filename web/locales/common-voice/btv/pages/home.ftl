@@ -68,6 +68,8 @@ username-email-not-demographic = تیوں یوزر سو ناں آ ای میل ش
 ## Landing
 
 welcome-staff = خوش آمدید{ $company }  عملہ !
+help-contribute = تُو عام اواز سو پرفائل سیندی  آ اپئیں اواز مہ شرکت گیری متنوع  کھلاؤ زریعہ سو ڈیٹا سیٹ سندے مہ مدد گر ھونتہ
+login-company = Log In / Sign Up { $company } ای میل گِھن
 
 ## NAV ITEMS
 
