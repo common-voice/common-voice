@@ -165,6 +165,8 @@ contribute-github-action = گٹ ہب پر یوگدؔان دؔیؤ
 ## Featured section
 
 featured-section-title = اس میں دِؔکھایا ہے ...
+# icon is an arrow that points downwards
+download-press-pack = مھارا پریس پیک ڈاؤن لوڈ کر<icon></icon>
 
 ## Developers section
 

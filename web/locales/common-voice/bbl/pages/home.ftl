@@ -18,6 +18,10 @@ speak-goal-text = ჩანაწერ ჲა თაგჲიენო̆
 listen-paragraph = ჩანაწე́რი დაყყჲარეგოჰ̦ა́ ჲაჴჴოჼ მნიშვნელობ ჲა  Common Voice-ეჼ მთავარ მიზნენაჲნო̆. ლარკ ჺოფა́ეთ, ლა́ტათ თხოჼ ღავლჲიენო̆ (ხარისხ ჲაჲნი̆) მონაცე́მი შე́ქმნადჲარელო.
 listen-goal-text = ჩანაწერ ჲა დაყყჲიენო̆
 hours-recorded = ჩუ ჩაწე́რადჲიენო საათ
+hours-validated = დარალ'ინო̆ (დამოო́წმადიენო̆) საათ
+voices-online = ინც ჲუჲტო̆ ჩაწე́რ
+todays-progress = თხალუჼ ჰ̦ათხიხარ
+help-reach-goal = ლა́ტათ თხოჼ ღო́ლ ვაჲ { $goal }-მციჼ
 
 ## Account Benefits
 
