@@ -88,6 +88,9 @@ community-and-languages = کمیونٹی  آ زِب
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ملگرتیا، دباؤ گرو آ قصے، کمیونٹی آ زِب
+partnerships-menu-item-tooltip = چاپیرا دنیا مہ وام اواز سو مدد سو دَن تنظیم ٹنڈ
+press-and-stories-menu-item-tooltip = قصے پڑھ، اپڈیٹ آ وام اواز سو میڈیا کورج
 
 ## MENU ITEM ARIA LABELS
 
