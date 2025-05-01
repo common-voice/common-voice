@@ -20,3 +20,4 @@ download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
 download-request-description = { $clipCount } اواجا کے ٹُکڑے ، کل آرکائیو سائز { $size }۔ انت ہوئی جاتا ہے { $expires }.
 download-request-archive-single = ایکلی جِپ پھائلاپ ٻݨونٚڑی
+download-request-archive-multiple = { $archiveCount } جِپ پھائلینٚم ٻاٹو جس میں
