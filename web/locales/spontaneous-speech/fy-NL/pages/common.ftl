@@ -63,4 +63,5 @@ xkl = Keniaansk
 
 language-search-placeholder = Sykje nei in taal…
 language-search-aria-label = Sykje nei in taal
+language-search-label = Wiziget allinnich de bydragetaal fan de gegevensset
 language-search-no-results = Gjin talgen fûn
