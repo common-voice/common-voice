@@ -194,3 +194,5 @@ partner-section-title = مھارے سات بھائی واری کر
 partner-section-subtitle-tech-companies = <bold>ٹیک کمپنیاں</bold> - پھݪتے پھُولتے گھݨِیاں ٻولِیاں ٻوݪݨواڑا ٻݨاؤڑی ٻُدھی ماحولا کے نجاما نتر کھُلے ڈیٹا سیٹ کی رچنا میں رِپئے لگاوتی ہے
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>سول سوسائٹی اور شودھ کرتا</bold> - مُکتام ہِک ٹِک ڈیٹا سیٹ ٻݨاوَ، سیوا کر اور ٻاٹ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>تھورا</bold> - دؔیسی نویں کھوج اور ترکِیا کُو بڑاہوا دؔیݨیں نتر ڈیٹا سیٹا کی رچنا کی پرایوجک کر
