@@ -80,11 +80,17 @@ answer-questions-coming-soon = პაჲსხი შეკითხვინმ
 review-transcriptions = დაწე́რადოჩოღ დე́რწინო დაყყდარ <small> (ქა́სტეჼ) </small>
 review-transcriptions-coming-soon = ჩანაწე́რეღ დე́რწინო̆ დაყყდარ <small> (ქა́სტეჼ) </small>
 add-questions = შეკითხვი ლა́ტჲარ <small> (ქა́სტეჼ) </small>
+add-questions-coming-soon = შეკითხვი ლა́ტჲარ
+transcribe-audio-coming-soon = იშა́რეჩო̆ ჩანაწე́რეღ დალ'არ <small> (ქა́სტეჼ) </small>
 transcribe-audio = იშა́რეჩო̆  ჩანაწე́რეღ დე́რწარ <small> (ქასტეჼ) </small>
 press-and-stories = პრესააჲ წინი̆ ა́მბუჲაჲ
+community-and-languages = საზოგადოებია́ მატტიშა́
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = თანამშრო́მლობ, პრესაა́ჲ, წინ ამბუჲა́ჲ, საზო́გადოებიე́, მატტიშ
+partnerships-menu-item-tooltip = თხო́ციჼ თანამშრო́მლობ ო́წათ
+press-and-stories-menu-item-tooltip = გიბათ სვეტ, ლე მა́ დაწე́რადებათ თხოხ
 
 ## MENU ITEM ARIA LABELS
 
