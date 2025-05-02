@@ -13,3 +13,4 @@ partnerships-academia-header = یونیورسٹی،تعلیمی آ تحقیق و
 partnerships-academia-description = کھولاو جدت بے چہء کاں گرہ تھہ اسیئں ھِیئ مہ تھی تحقیقی امداد، معلومات جمع گرو یا انٹرویو سو دَن<emailFragment>  اوڑ </emailFragment>
 partnerships-small-business-header = پِھٹو کروبار، بشمولِ ٹیک آ  AI  شروع گرو
 partnerships-small-business-description = بے ہمیشہ  بھلہ تہ صارف سو ضروریات زو متن سو متعلق ݜؤں ،ڈیٹا جمع گرے مہ تعاون سو پلیٹ فارم ڈیٹا سو صحت دے <emailFragment> بے تیں طرف نو ݜؤوں لوکھہ تہ</emailFragment>
+partnerships-corporates-header = گھئیں پیمانہ رے کارپوریٹ   آ  پلیٹ فارم کمپنیئ
