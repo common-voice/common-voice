@@ -75,6 +75,9 @@ read-more-about = საუ̆ბო̆ თხოხ გიბათ თხე გ
 
 ## NAV ITEMS
 
+answer-questions = პაჲსხი შეკითხვინმაქ
+answer-questions-coming-soon = პაჲსხი შეკითხვინმაქ <small> ქა́სტეჼ </small>
+review-transcriptions = დაწე́რადოჩოღ დე́რწინო დაყყდარ <small> (ქასტეჼ) </small>
 
 ## MENU ITEMS TOOLTIPS
 
