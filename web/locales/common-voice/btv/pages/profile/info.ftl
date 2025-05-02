@@ -75,3 +75,5 @@ variant-contribution-options-header = متبادل حصہ داری سو اختی
 variant-contribution-help = کیں متبادلات آ لہجے یک زیب مہ یا یک زیب س خاندان مہ ڙھؤ مختلف ھونتہ یک دوجوں نو ۔ کہ تے مشکلات سنداں بزا تہ خاص اختلافات مہ تو اپئیں ترجیحات بدل گر ھواں۔
 variant-contribution-option-1 = می زیب مہ  اختلافات سو تمام  جملے آ کلپ  مے پشا
 variant-contribution-option-2 = می اختلاف سو صرف جملے زو کلپ میئ پشا
+variant-contribution-warning-title = تمام جملیوں زو کلپوں اوتر تکے مختلف ٹیگ نہ تھہ۔
+variant-contribution-warning-subtitle = کہ تے حصہ گھنیئ مہ مشکلات تھی تو واپس بیزی اپیئں زیب سو دَن تمام مشتملات بھال ھواں
