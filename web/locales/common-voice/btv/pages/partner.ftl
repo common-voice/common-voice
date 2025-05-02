@@ -8,3 +8,5 @@ partnerships-community-description = کمیونٹی عام اواز سو ھِی�
 partnerships-foundations-header = بنیاد
 partnerships-foundations-description = بے کام گرہ تھہ بنیادوں، سول معاشرہ آ کمیونٹی سو ملگروں  مِل یک خاص توجو مشرقی افریقہ رے جَل ڇھڇ <programmaticWork> اسئیں پروگرامی کم سو متعلق</programmaticWork>
 partnerships-governments-header = حکومت
+partnerships-governments-description = بے ٹیکنالوجیجدت آ زیب سو حق مہ عوامی شعبہ سو شرکت سو حمایت گرے سو دَن ڙھؤ جزباتی تھہ کہ تُس کیں گھئیں پراجیکٹ  یا مہم چلئی سو سوچ مہ تھہ تہ مہربانی گیری <emailFragment> رابطہ گریا </emailFragment>
+partnerships-academia-header = یونیورسٹی،تعلیمی آ تحقیق والہ
