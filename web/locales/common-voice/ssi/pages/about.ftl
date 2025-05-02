@@ -74,10 +74,10 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = سائٹا کا انُواد
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹونا کُو چلاوٹؔیں کے باریم مھاری مارگ درشک دیکھو۔</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
-    ہم ترجمہ نتر <pontoonLink>پونٹون</pontoonLink> ناوا کا موزیلا ٹول چلاوتے ہے۔ پونٹونام  کھاسیاں ٻولیاں ہے،
-    پٹؔ اگر اس میں تھاری ٻولی نائی تی تو تھم <pontoonRequestLink>اپٹؔی ٻولی شیمل کرنے کی اپیل کری سِکتے ہے</pontoonRequestLink>۔
-    اس کے بعد ، ٻولیا کُو سادھارٹؔ آواج پروجیکٹاپ دستیاب ٻٹؔاوٹؔے نتر ،
-    <githubRepoLink>گیٹ ہباپ  نئوی ٻولیا کی اپیل کرو</githubRepoLink>۔ <localizationFragment>سائٹ ترجمیپ ودھیک دؔیکھو</localizationFragment>.
+    ہم انواد کرنے نتر <pontoonLink>پونٹون</pontoonLink> ناوا کا موزیلا ٹول چلاوتے ہے۔ پونٹونام  کھاسیاں ٻولیاں ہے،
+    پٹؔ جے اگر اس میں تھاری ٻولی نائی تی تو تھم <pontoonRequestLink>اپٹؔی ٻولی شیمل کرنے کی ٻِنتی کری سِکتے ہے</pontoonRequestLink>۔
+    اس کے پِچھیں ، ٻولیا کُو سادھارٹؔ آواج پروجیکٹاپ ماجُود کرنے نتر ،
+    <githubRepoLink>گیٹ ہباپ  نویں ٻولیا کی بِنتی کرو</githubRepoLink>۔ <localizationFragment>سائٹ ترجمیپ ودھیک دؔیکھو</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = ٻول بھیݪے کرنا
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ٻول بھیݪے کرنواڑے کُو چلاوٹؔیں کے باریم مھاری مارگ دیکھو</sentenceCollectorVideo>۔
 about-playbook-how-add-language-collecting-sentences-content-2 =
