@@ -129,3 +129,4 @@ culturally-specific-questions-explanation = ო́შტუჼ შეკითხ
 length-avoid-explanation = შეკითხვი, მე́ნხუჲჩუჲშნა́ პა́სუხ ბალ'რენ 15 წამეხ საუ̆ბო̆ დრო ჭირბალა.
 process-steps = ჰ̦ათხიხარ/ ნაჲბჯი
 process-steps-explanation = შეკითხვი, მენხუჲჩუჲშნა́ ჭირბალა მელ'მი ნაბიჯ ლა́რლ'არ. ნაჲბჯი ლე́რლ'ოშ მომხმა́რებლეგო საუ̆ბო̆ ნიყ ცო ბა, ზეპირ პა́სუხ ბე́წე̆ თე́ლ'ა-ნე, ფა́ლჩივ პაჲსხი იხო̆.
+offensive-content-sensitive-information = ჴა́რტაჼ ევჲუჲნი̆ ლე მა́ თხილლაჲნი̆ ინფორმა́ცია́
