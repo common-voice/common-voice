@@ -45,3 +45,5 @@ tr = Török
 
 ## Language search component
 
+language-search-placeholder = Nyelv keresése…
+language-search-aria-label = Nyelv keresése
