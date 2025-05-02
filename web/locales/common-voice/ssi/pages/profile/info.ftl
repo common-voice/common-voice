@@ -22,3 +22,4 @@ profile-form-gender-2 =
     .label = نسݪ یاں نسݪ
 leaderboard-visibility =
     .label = لیڈر بورڈ دِؔیسݨاں
+hidden = چھپوڑا
