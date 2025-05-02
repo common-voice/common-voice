@@ -33,7 +33,7 @@ daily-goal = ჩილა̈დღია̈ მიზან
 weekly-goal = ნაგზი̄ მიზან
 easy-difficulty = ჰა̈დუ̂ილ ლი
 average-difficulty = საშუ̂ალო
-difficult-difficulty = ლეგა̄რჯ
+difficult-difficulty = ლეგა̈რჯ
 pro-difficulty = პროფ
 lose-goal-progress-warning = ისგუ მიზნი ჟი ლაცა̄დუნონოშ შეიძლება ჩუ̂ათუფა პროგრეს, ხედუ̂ა̄̈ჲ ათხე ჯუღუ̂ა.
 want-to-continue = ჯაკუმა ლიჯო̄დინე?
@@ -47,7 +47,7 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] ლოხმა̈რჯუ̂  Common Voice-ს ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზნი ნინჟი
+        [one] ლოხმა̈რჯუ̂ Common Voice-ს ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზნი ნინჟი
        *[other] ლოხმა̈რჯუ̂  Common Voice-ს ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზნი ნინჟი
     }
 set-a-goal = დაისახე მიზან
@@ -143,7 +143,7 @@ share-goal = გააზიარე მიშგუ მიზან
 
 ## Goals
 
-streaks = შარა̈რ
+streaks = შარა̈ლ
 days =
     { $count ->
         [one] ლადა̈ღ
