@@ -47,3 +47,5 @@ tr = Török
 
 language-search-placeholder = Nyelv keresése…
 language-search-aria-label = Nyelv keresése
+language-search-label = Csak az adatkészlet közreműködési nyelvét módosítja
+language-search-no-results = Nem találhatók nyelvek
