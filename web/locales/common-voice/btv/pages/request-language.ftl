@@ -17,3 +17,6 @@ request-language-google-recaptcha-error = اسمِل پِھک غلطی تھی  r
 # Success page
 request-language-success-heading = مہربانی تیں  !  تی نیئ زہب سو انکواری ڇیگی
 request-language-success-list-1 = تو حاصل گرونݜ یک ای میل اسئیں کمیونٹی منیجر سو طرف نو چہ سو مرحلے بیان گرونݜ  تیں زیب عام اواز مہ شامل گرے سو دَن
+request-language-success-list-2 = اسوں کمیونٹی منیجر تے اوڑونݜ تے اضافی امداد سو دَن ، آ او معلم گرونݜ چہ ایزا اول نو تسئیں زیب رے کمیونٹی کام گرا کہ نیئ
+request-language-success-list-3 = کہ تو یک دو دِس مہ اسو نو نہ ݜؤاں  اِس رے اوڑ <emailLink> </emailLink>  آ بے تی واپس حاصل گری ݜہ !
+request-language-error = بے سو درخواست وصول نہ گر ھونتہ مہربانی گیری اسئ ای میل گر ڈائرکٹ اِس رے <emailLink> { $email } </emailLink>  آ بے واپس تی مِل میلاؤ ھونݜہ !
