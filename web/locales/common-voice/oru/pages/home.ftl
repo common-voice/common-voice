@@ -86,16 +86,22 @@ transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </sma
 press-and-stories = پرېس او کهانيے
 community-and-languages = کمیونېټی او زبنی
 coming-soon = سېره ر بُو څوا
+about-us = ترماخ بارۀ نر
+scripted-speech = لیکيېک تقریر
+spontaneous-speech = بې ديېڅن تقریر
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = بائی والي، پرېس او کهانئے، کمیونېټی او زبنی
+about-us-menu-item-tooltip = معلومات دی وُر ته مِشن او ته ټیم بارۀ نر کوک که ته مشترک آواز په څُټ هنشتا
+about-us-menu-item-aria-label = ترماخ بارۀ نر ته آپشن ا مېنیو
 partnerships-menu-item-tooltip = ماخ ګډ بائی والي
 press-and-stories-menu-item-tooltip = ترماخ بلاګ کی ر زئ یا لیک کَۀ ترماخ بارۀ نر
 community-and-languages-menu-item-tooltip = زبنی، کمیونېټی او مشترک آواز
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = ته وُرغېوي ا مېنیو
 partnerships-menu-item-aria-label = ته بائی والي مشترک آواز باره يې زدکړه کَۀ
 press-and-stories-menu-item-aria-label = پرېس ریلیز کی چیو او کهانئے مشترک آواز بارۀ نر
 community-and-languages-menu-item-aria-label = جوت کَۀ افئ کمیونېټیز او ا زبنی که ا مشترک آوازه وبو سپورټ کوی
