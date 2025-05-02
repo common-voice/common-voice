@@ -75,9 +75,13 @@ read-more-about = საუ̆ბო̆ თხოხ გიბათ თხე გ
 
 ## NAV ITEMS
 
-answer-questions = პაჲსხი შეკითხვინმაქ
-answer-questions-coming-soon = პაჲსხი შეკითხვინმაქ <small> ქა́სტეჼ </small>
-review-transcriptions = დაწე́რადოჩოღ დე́რწინო დაყყდარ <small> (ქასტეჼ) </small>
+answer-questions = პაჲსხი შეკითხვინმაქ <small> (ქა́სტეჼ) </small>
+answer-questions-coming-soon = პაჲსხი შეკითხვინმაქ <small> (ქა́სტეჼ) </small>
+review-transcriptions = დაწე́რადოჩოღ დე́რწინო დაყყდარ <small> (ქა́სტეჼ) </small>
+review-transcriptions-coming-soon = ჩანაწე́რეღ დე́რწინო̆ დაყყდარ <small> (ქა́სტეჼ) </small>
+add-questions = შეკითხვი ლა́ტჲარ <small> (ქა́სტეჼ) </small>
+transcribe-audio = იშა́რეჩო̆  ჩანაწე́რეღ დე́რწარ <small> (ქასტეჼ) </small>
+press-and-stories = პრესააჲ წინი̆ ა́მბუჲაჲ
 
 ## MENU ITEMS TOOLTIPS
 
