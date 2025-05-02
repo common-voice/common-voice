@@ -31,4 +31,10 @@ profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ ھوئیل
 male_masculine = موݜ
 female_feminine = دِھبیوں
-intersex = کھدڑا
+intersex = نامیݜ
+transgender = کھدڑا
+non-binary = غیر بائینری
+do_not_wish_to_say = منے سو خواہش نہ گر
+# Gender
+other = پَروں
+why-profile-title = چیں یک پروفائل
