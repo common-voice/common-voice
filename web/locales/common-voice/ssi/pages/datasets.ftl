@@ -32,6 +32,10 @@ download-language = ڈاؤن لوڈ { $language }
 validated-hours = پکا کلاک
 recorded-hours = ریکارڈ کروڑا کلاک
 whats-inside = سادھارݨ آواج ڈیٹا سیٹا کے مھم کیا ہے؟
+dataset-description-hours =
+    Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $total }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
+    
+    The dataset currently consists of <b>{ $valid }</b> validated hours in <b>{ $languages }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start
 want-dataset-update = جِدؔ ہم عام آواج ڈیٹا سیٹا کا نئوا ورژن جاری کرتے ہے تو اپ ڈیٹس چاوہتے ہے؟ مھارے نئوے پترے نتر سبسکرائب کرو.
 subscribe = سبسکرائب
 get-started-speech = بھاشݨا کی اوݪکھا کے ساتھ سََرو کرو
