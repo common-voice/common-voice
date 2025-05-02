@@ -25,6 +25,7 @@ speak-loading-error =
 record-button-label = ХӀушала тӀама белкӀеная
 share-title-new = ИмцӀали тӀамри даргахъес <bold>нушаб кумекбарая</bold>
 keep-track-profile = ХӀуша гьаладяхӀ ардукьни бяхӀчибизла (профилла) кумекличил белгибиреная
+login-to-get-started = ДехӀдихьес багьандан, адацӀирая (логин) яра хӀисаблизи делкӀеная (регистрация)
 target-segment-first-card = Нушала цаибил мурадла бутӀализи хӀушани хӀушала пай кабирхьулра
 target-segment-generic-card = ХӀушани хӀушала пай кабирхьулра белгиси мурадла бутӀализи
 target-segment-first-banner = { $locale }-лизиб Common Voice мурадласи бутӀа акӀахъес кумекбарая
