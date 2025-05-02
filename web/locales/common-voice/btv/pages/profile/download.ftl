@@ -27,3 +27,4 @@ download-request-modal-title = لنک ڈونلوڈ گر
 download-request-modal-description = ایزہ لنک تھا تیاں زِپ فائل ڈونلوڈ گرے
 download-request-link-text = زِپ # { $offset } سو { $total }
 download-request-metadata-link = جملہ سو متن
+download-request-link-single = تو کاپی آ پیسٹ ھُم گر ھواں ڈائرکٹ  URLs  اپیئں خوش سو ڈونلوڈ منیجر مہ اے نھش بزیانݜ 12  گھنٹیوں مہ ولے تو اِس صفحہ رے واپس یا ھواں  پروں سیندی  کیں وخت مہ زو
