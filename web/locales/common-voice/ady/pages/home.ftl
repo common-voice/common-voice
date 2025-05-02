@@ -32,6 +32,7 @@ x-years-short =
 ## NAV ITEMS
 
 answer-questions = Упчӏэхэм джэуап ятын
+community-and-languages = Куп ыкӏи бзэхэр
 
 ## MENU ITEMS TOOLTIPS
 
