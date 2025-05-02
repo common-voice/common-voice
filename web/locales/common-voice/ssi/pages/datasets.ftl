@@ -14,7 +14,7 @@ download-dataset-tag = پِسندا کی ٻولیا کا ڈیٹا سیٹ چُو�
 # File size in gigabytes
 size = نیپ
 validated-hr-total = پکا کلاک کُل
-overall-hr-total = کُل اکلاک میلائی کر
+overall-hr-total = سارے مِلائی کن ایچ آر سارے
 cv-license = لیسٹؔ
 audio-format = آڈیو فارمیٹ
 dataset-splits = ٻاٹ (عمر اور جنس)
@@ -88,7 +88,7 @@ data-other-title = دؔوجی آواج ڈیٹا سیٹ ...
 data-other-goto = { $name } پے جاو
 data-other-download = ڈیٹا ڈاؤن لوڈ کرو
 data-bundle-button = ڈیٹا سیٹ بنڈل ڈاؤن لوڈ کرو
-data-bundle-description = سادی آواج ڈیٹا کے بھیݪو بھیݪ اُپر دؔوجی آواج ڈیٹا سیٹ۔
+data-bundle-description = سادھارݨ آواج ڈیٹا کے بھیݪو بھیݪ اُوپر دؔوجی آواج ڈیٹا سیٹ۔
 release-version = ورژن
 dataset-date = تاریک
 license = لیسݨ: <licenseLink>{ $license }</licenseLink>
