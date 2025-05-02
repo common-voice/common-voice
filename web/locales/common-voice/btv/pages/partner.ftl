@@ -14,3 +14,4 @@ partnerships-academia-description = کھولاو جدت بے چہء کاں گر�
 partnerships-small-business-header = پِھٹو کروبار، بشمولِ ٹیک آ  AI  شروع گرو
 partnerships-small-business-description = بے ہمیشہ  بھلہ تہ صارف سو ضروریات زو متن سو متعلق ݜؤں ،ڈیٹا جمع گرے مہ تعاون سو پلیٹ فارم ڈیٹا سو صحت دے <emailFragment> بے تیں طرف نو ݜؤوں لوکھہ تہ</emailFragment>
 partnerships-corporates-header = گھئیں پیمانہ رے کارپوریٹ   آ  پلیٹ فارم کمپنیئ
+partnerships-corporates-description = کہ تو ڈیٹاسیٹ سو متعلق جَل منو بھالا ،
