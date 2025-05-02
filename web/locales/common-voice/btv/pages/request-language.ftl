@@ -25,3 +25,5 @@ request-for-spontaneous-speech-toggle = ناڅاپہ تقریرسو درخواس
 need-help-deciding-platform = مدد سو ضرورت تھی چہ کشک خش گری ؟
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>  نقل شدہ تقریر </strong> (رویتی طور رے تے عام اواز  شان چوں  معلوم تھو)  کزا تو اپئیں زیب مہ اوچت اواز رے جملے پڑ ھواں۔
+need-help-deciding-platform-explanation-2 = <strong> ناڅاپی تقریر  </strong>   عام اواز سو نیئ حصہ تھی چہ تیزہ تو سوالوں سو جواب نامیاتی ،بیادیوں سو طریقہ دے ھواں
+need-help-deciding-platform-explanation-3 = کہ تو اپئیں زیب پلیٹ فارم سو حصہ مہ ریٹھ ، بھزدو خوش گر
