@@ -1484,6 +1484,19 @@ export const FilePlus = () => (
   </svg>
 )
 
+export const ReviewQuestionsIcon = () => (
+  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clipPath="url(#a)" fillRule="evenodd" clipRule="evenodd" fill="#959595" transform="scale(0.6)">
+      <path d="M21.367 8.2c-.506-.6-1.215-1.1-2.025-1.2h-5.165V4c0-2.2-1.823-4-4.05-4-.405 0-.81.2-.912.6L5.468 9h-2.43C1.316 9 0 10.3 0 12v7c0 1.7 1.316 3 3.038 3h14.481c1.519 0 2.734-1.1 3.038-2.5l1.418-9c.1-.8-.102-1.6-.608-2.3zM5.063 20H3.038c-.608 0-1.013-.4-1.013-1v-7c0-.6.405-1 1.013-1h2.025v9zm13.469-.8c-.102.5-.507.8-1.013.8H7.089v-9.8l3.645-8.1c.81.3 1.418 1 1.418 1.9v4c0 .6.405 1 1.013 1h5.974c.304 0 .507.2.71.4.202.2.202.5.202.7l-1.52 9.1z"/>
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h16v16H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+)
+
 export const TrendingUp = () => (
   <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clipPath="url(#a)" fillRule="evenodd" clipRule="evenodd" fill="#000">

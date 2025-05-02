@@ -10,6 +10,7 @@ import {
   Play,
   ReviewIcon,
   ShareLinkIcon,
+  ReviewQuestionsIcon,
   TranscribeIcon,
 } from '../../ui/icons'
 import URLS from '../../../urls'
@@ -85,6 +86,14 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         requiresAuth: true,
         menuItemTooltip: 'add-questions-menu-item-tooltip',
         menuItemAriaLabel: 'add-questions-menu-item-aria-label',
+        type: 'spontaneous',
+      },
+      {
+        icon: ReviewQuestionsIcon,
+        localizedId: 'review-questions-coming-soon',
+        requiresAuth: true,
+        menuItemTooltip: 'review-questions-menu-item-tooltip',
+        menuItemAriaLabel: 'review-questions-menu-item-aria-label',
         type: 'spontaneous',
       },
       {
