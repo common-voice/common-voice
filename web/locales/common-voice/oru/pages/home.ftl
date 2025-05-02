@@ -38,8 +38,8 @@ x-months-short =
     }
 x-years-short =
     { $count ->
-        [one] { $count } څان
-       *[other] څنی
+        [one] { $count } سۀ
+       *[other] دیو
     }
 help-make-dataset = ترماخ مدد کوئ که معیاري او ته پبلک پاره میوک ډېټا سېټ يې جوړ کيېن
 sign-up-account = ته اکاؤنټ ته جوړؤ پاره يې دستڅط کېون
