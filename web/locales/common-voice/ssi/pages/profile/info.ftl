@@ -23,3 +23,6 @@ profile-form-gender-2 =
 leaderboard-visibility =
     .label = لیڈر بورڈ دِؔیسݨاں
 hidden = چھپوڑا
+visible = چاوا
+native-language =
+    .label = اپݨی بھاشا
