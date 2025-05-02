@@ -14,6 +14,7 @@ listen-goal-text = Къэгъэшъыпкъагъэ тетхагъэхэр
 
 ## NAV ITEMS
 
+answer-questions = Упчӏэхэм джэуап ятын
 
 ## MENU ITEMS TOOLTIPS
 

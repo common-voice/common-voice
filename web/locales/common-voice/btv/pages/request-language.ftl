@@ -20,3 +20,8 @@ request-language-success-list-1 = تو حاصل گرونݜ یک ای میل اس
 request-language-success-list-2 = اسوں کمیونٹی منیجر تے اوڑونݜ تے اضافی امداد سو دَن ، آ او معلم گرونݜ چہ ایزا اول نو تسئیں زیب رے کمیونٹی کام گرا کہ نیئ
 request-language-success-list-3 = کہ تو یک دو دِس مہ اسو نو نہ ݜؤاں  اِس رے اوڑ <emailLink> </emailLink>  آ بے تی واپس حاصل گری ݜہ !
 request-language-error = بے سو درخواست وصول نہ گر ھونتہ مہربانی گیری اسئ ای میل گر ڈائرکٹ اِس رے <emailLink> { $email } </emailLink>  آ بے واپس تی مِل میلاؤ ھونݜہ !
+request-for-scripted-speech-toggle = نقل گریل تقریر سو دَن درخواست
+request-for-spontaneous-speech-toggle = ناڅاپہ تقریرسو درخواست
+need-help-deciding-platform = مدد سو ضرورت تھی چہ کشک خش گری ؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>  نقل شدہ تقریر </strong> (رویتی طور رے تے عام اواز  شان چوں  معلوم تھو)  کزا تو اپئیں زیب مہ اوچت اواز رے جملے پڑ ھواں۔
