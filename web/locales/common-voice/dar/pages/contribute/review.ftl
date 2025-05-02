@@ -61,4 +61,4 @@ sc-redirect-page-title = Нушала халати дарсдешуни лер
 sc-redirect-page-subtitle-1 = Предложениеби цаладирхъян Common Voice-ла хьулчилибиубси платформаличи аркьули саби. Гьанна хӀушани дирудая <writeURL>белкӀес</writeURL> предложение яра <reviewURL>хӀербарес</reviewURL> Common Voice-личиб ца предложение.
 sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>-лизир, <discourseLink>Discourse</discourseLink> яра <emailLink>электронна почта хӀясибли </emailLink> нушази суалти хьардаая.
 # menu item
-review-sentences = Предложенияби ахтардидарес
+review-sentences = Предложениеби ахтардидарес
