@@ -38,3 +38,15 @@ do_not_wish_to_say = منے سو خواہش نہ گر
 # Gender
 other = پَروں
 why-profile-title = چیں یک پروفائل
+why-profile-text = اپئیں متعلق کیں  معلومات دے سو وجہ رے تیوں عام اواز مہ جمع گریل آڈیو ڈیٹا تقریر سو دَن جَل ھُم فائدی من ھونݜ  پُھنیانک سو انجن چہ سو او ڈیٹا استعمال گرا اپئیں صفائ مڑنئ گرا۔
+dashboard = ڈیش بورڈ
+build-profile = پروفائل سَن
+avatar = اواتر
+goals = مقصد
+settings = سیٹنگ
+edit-profile = پروفائل ایڈٹ گر
+profile-create-success = کامیابی، پروفائل سنداں گادے
+profile-close = بند گر
+profile-explanation = اپئیں کارکردگی جاری رڇھ یک پروفائل مِل آ اسوں اواز سو ڈیٹا جَل زو صاف گرے سو دَن مدد گر۔
+thanks-for-account = اپوں اکاونٹ کنفرم گرے سو شکریہ ھویں  ئیے اپوں پروفائل سن۔
+why-demographic = او مسئلہ چیں تھی ؟
