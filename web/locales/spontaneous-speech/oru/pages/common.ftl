@@ -61,3 +61,5 @@ xkl = کېنیاح
 
 ## Language search component
 
+language-search-placeholder = ته زبان ا تلاش
+language-search-aria-label = تلاش ته زبان پاره
