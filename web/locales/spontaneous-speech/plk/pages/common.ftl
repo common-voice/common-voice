@@ -61,3 +61,5 @@ xkl = کینیا
 
 ## Language search component
 
+language-search-placeholder = جِبے کِرِیا اوروڑ تِھیا
+language-search-aria-label = جِبے کِرِیا اوروڑ تِھیا
