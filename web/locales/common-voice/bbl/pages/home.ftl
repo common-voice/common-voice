@@ -119,6 +119,7 @@ get-started = ჰ̦ალო̆ დო́ლლიბათ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice  ჲა უფა́სო, ნჵაჲნი̆ წყარო ჲაჲნი̆ პლატფო́რმ, მე́ საზოგადოებას მონაცე́მი შე́ქმნადჲოლო̆
 
 ## Community section
 
