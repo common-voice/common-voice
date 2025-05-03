@@ -63,3 +63,5 @@ xkl = کینیا
 
 language-search-placeholder = جِبے کِرِیا اوروڑ تِھیا
 language-search-aria-label = جِبے کِرِیا اوروڑ تِھیا
+language-search-label = صرف ڈیٹاسیٹ اےْ شراکتے جِب بدل تِھینوْ
+language-search-no-results = کھاں گہ جِب نہ ہشِلِن
