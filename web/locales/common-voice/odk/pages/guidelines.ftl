@@ -114,7 +114,7 @@ adding-questions = سوال شامل ڪرڻ
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ڪا هيڪ سُٺا سوال ڪرَِي ڇَي؟
-what-makes-a-good-question-explanation = عوامِي چَي بِچڙڻي چي ڪاڻ ڊيٽاسيٽسا چي ڪاڻ هيڪ سُٺا سوال:
+what-makes-a-good-question-explanation = عوامِي شرڪتِي هاڙي ڊيٽا سيٽان چي ڪاڻ هيڪ سُٺا سوال جُون هُوڻ کپي:
 what-makes-a-good-question-explanation-criteria-1 = سمجھڻي ائُون جواب ڏِيڻي ۾ سولي هُوا
 what-makes-a-good-question-explanation-criteria-2 = خاص ڪتِي باتي چِيتي ۾ ڀيڙي هُوا
 what-makes-a-good-question-explanation-criteria-3 = نُقصانا ۾ يان بڙي جاهيلاڻِي ٻولِي اِستعمال نہ ڪرا، يان بڙي درخواست نہ ڪرا۔
@@ -127,7 +127,9 @@ length = لانٻتاڻَي
 length-explanation = سوالا چا جواب رُگَي هيڪي ڏُونه جُملي ۾ هُوَڻ کپَي۔
 dont-add-subheader = شامل نہ ڪرا
 culturally-specific-questions = ثقافتِي چي حسابا سُون مخصُوص سوال
-culturally-specific-questions-explanation = اِسڙي سوال جڪو ثفاقتِي چي حسابا سُون گھڻي مخصُوس هِتي، يان بڙي جواب ڏيڻي هاڙي چي باري ۾ تمام گھڻِيا مثالا ٺاهوا ڇَوا۔
+culturally-specific-questions-explanation =
+    ایسے سوالات جو ثقافتی لحاظ سے بہت مخصوص ہیں، یا جواب دہندہ کے بارے میں بہت سارے مفروضے بناتے ہیں۔
+    اِسڙي سوال جڪو
 length-avoid-explanation = وي سوال جڪا چا جواب 15 سيڪنڊا ڏيڻي چي ڪاڻ ڪو بِي ماڻس جدوجھد ڪرهِي (گھڻي کن گھڻا ڪِلپ لانٻا)
 process-steps = عمل/ قدم
 process-steps-explanation = اِسڙي سوال جڪا چي ڪاڻ ڪانهُون گھڻا ئِي مرحلان چِي فهرست ٺاهوَڻي چِي ضرُورت هُوَي ڇَي۔ فهرستِي چي مرحلي ماڻسا بڌِيڪ فطرِي جواب ڏيڻي چي بِدرُون سُڻاوَڻي چا اِشارا ڪري هِتي۔

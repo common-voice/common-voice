@@ -146,8 +146,8 @@ share-goal = مانڇا مقصد بانٽا
 streaks = تارُون
 days =
     { $count ->
-        [one] ڏِيئو one
-       *[other] ڏِيئو other
+        [one] ڏِيئو
+       *[other] ڏِينهين
     }
 recordings =
     { $count ->
