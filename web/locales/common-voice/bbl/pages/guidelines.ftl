@@ -131,3 +131,7 @@ process-steps = ჰ̦ათხიხარ/ ნაჲბჯი
 process-steps-explanation = შეკითხვი, მენხუჲჩუჲშნა́ ჭირბალა მელ'მი ნაბიჯ ლა́რლ'არ. ნაჲბჯი ლე́რლ'ოშ მომხმა́რებლეგო საუ̆ბო̆ ნიყ ცო ბა, ზეპირ პა́სუხ ბე́წე̆ თე́ლ'ა-ნე, ფა́ლჩივ პაჲსხი იხო̆.
 offensive-content-sensitive-information = ჴა́რტაჼ ევჲუჲნი̆ ლე მა́ თხილლაჲნი̆ ინფორმა́ცია́
 offensive-content-sensitive-information-explanation-explanation-1 = შეკითხვი, მე́ნხუჲვა́ ჰ̦ალო̆ გუდა́ჴო̆ ა́დმეჼ დაბწლაჲნი̆ მონაცე́მი
+offensive-content-sensitive-information-explanation-explanation-2 = შეკითხვი, მე́ნხუჲჩუჲშვა́ კლე́ვადო ჰ̦აღე́ცრეჼ, ლე ჴე́ნი მო́სსინა́ჲ ჴარტაჼ ე́ვდუჲნა́ჲ დაშნი
+offensive-content-sensitive-information-explanation-explanation-3 = შეკითხვი, მენხუჲა́ პა́სუხ თე́ლ'ჩონაჲნო̆ გეჸ დოკლაწდუნი̆, ლე დოკხიტდუჲნი̆, ლე მა́ უ̂მ ე́ჴჴდითუნი̆ ხილ'ულო̆
+example-questions-subheader = შეკითხვაჼ ნიმუში
+example-questions-explanation-1 = მა́გალითენაჲნო̆ გიბათ <examplePromptsLink> შეკითხვა́ჼ 120 ნიმუშ დაჩო̆ ცნო́ბარე </examplePromptsLink>
