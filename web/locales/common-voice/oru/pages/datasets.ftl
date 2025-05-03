@@ -68,9 +68,9 @@ donate-modal-explanation-1 = ته ډېټآ سېت ا ساتؤ دی بُو ته �
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold> که تُو يې بو ته پۀ شئ قدر کېوی پشومول ته ډېټآ، سن ال ا خوئ حصه نیکِز</bold>
 data-download-singleword-title = ډاؤن لوډ کېون ته سنګل ورډ ټارګېټ ا سېګمنټ
-data-download-singleword-callout-v2 = جی
+data-download-singleword-callout-v2 = ها
 data-download-button = نا
-data-download-yes = جی
+data-download-yes = ها
 data-download-deny = نا
 data-download-license = لائسنس: <licenseLink></licenseLink>CC-0
 data-download-modal = تُو بو پېری ا ډاؤن لوډ ته <size>شوری کېوی GBچیو مخکی { $size }
