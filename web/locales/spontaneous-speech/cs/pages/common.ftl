@@ -63,3 +63,4 @@ xkl = Kenyah
 
 language-search-placeholder = Vyhledat jazyk...
 language-search-aria-label = Vyhledat jazyk
+language-search-no-results = Nebyly nalezeny žádné jazyky
