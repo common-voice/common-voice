@@ -1,13 +1,13 @@
 # GUIDELINES PAGE
-guidelines-header = ჩუჰ̦დაჩოჼ (მონაწილაჼ) ნიყბახუჲნი̆
-guidelines-header-subtitle = გიბათ, მო́ჰ̦ დეწი́შ მაქ ლა́რ'ლანე́ დაყყდაჼ ჩანაწე́რი, მენხუჲა́ Common Voice-ს ვაშარ ჴე́ჰ̦ო̆ კრე́ბულე
-voice-collection = ა́შირ ვაშა́რჲარ
-sentence-collection = წინადა́დბი ვაშა́რჲარ
-question-collection = ხატტრი ვაშა́რდარ
+guidelines-header = ჩუჰ̦და́ჩოჼ (მონაწილა́ჼ) ნიყბა́ხუჲნი̆
+guidelines-header-subtitle = გიბათ, მო́ჰ̦ დეწი́შ მაქ ლა́ტდანე́ დაყყდაჼ ჩანაწე́რი, მენხუჲა́ Common Voice-ს ვაშარ ჴე́ჰ̦ო̆ კრე́ბულე
+voice-collection = ა́შირ ვაშა́რჲარ (შეგრო́ვბადჲარ)
+sentence-collection = წინადა́დბი ვაშა́რჲარ (შეგრო́ვბადარ)
+question-collection = შეკითხვი ვაშა́რჲარ (შეგრო́ვბადჲარ)
 
 ## Voice Collection nav ids
 
-varying-pronunciations = ჴეჩბერ  ა́ლ'არ
+varying-pronunciations = ჴეჩნაჲრათ  ა́ლ'არ
 misreadings = ხარც ხა́ტტარ
 offensive-content = ხალა́ჼხე́თლაჲნი̆ შინაარს
 background-noise = გო́გეხჲაჲნი̆ თათნი
@@ -135,3 +135,4 @@ offensive-content-sensitive-information-explanation-explanation-2 = შეკი
 offensive-content-sensitive-information-explanation-explanation-3 = შეკითხვი, მენხუჲა́ პა́სუხ თე́ლ'ჩონაჲნო̆ გეჸ დოკლაწდუნი̆, ლე დოკხიტდუჲნი̆, ლე მა́ უ̂მ ე́ჴჴდითუნი̆ ხილ'ულო̆
 example-questions-subheader = შეკითხვაჼ ნიმუში
 example-questions-explanation-1 = მა́გალითენაჲნო̆ გიბათ <examplePromptsLink> შეკითხვა́ჼ 120 ნიმუშ დაჩო̆ ცნო́ბარე </examplePromptsLink>
+example-questions-explanation-2 = ჩუ დაჰ̦ანაჲნო̆ შეკითხვი ცჰ̦ა́ღ დაჸითაჼ ლეჸე́ჰ̦ შუჼ, <githubLink> მაკ შუჼ  ჴმა́რბადჲა თხეჼ GitHub </githubLink> ლე მა́ ელფო́სტევ დაჸითათ თხო́ჼ ცჰ̦ა́ღ აჰ̦ ლა́რლ'ინო̆ მელ'ე́ უ̂ხ დაჲცი̆: <emailFragment>commonvoice@mozilla.com.</emailFragment>
