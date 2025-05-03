@@ -91,6 +91,7 @@ community-and-languages = საზოგადოებია́ მატტი
 about-menu-tooltip = თანამშრო́მლობ, პრესაა́ჲ, წინ ამბუჲა́ჲ, საზო́გადოებიე́, მატტიშ
 partnerships-menu-item-tooltip = თხო́ციჼ თანამშრო́მლობ ო́წათ
 press-and-stories-menu-item-tooltip = გიბათ სვეტ, ლე მა́ დაწე́რადებათ თხოხ
+community-and-languages-menu-item-tooltip = ბე́დუხ ღაზიშ და́ბწათ მატტიშ, საზო́გადოებიე́ Common Voice-ა́ჲ
 
 ## MENU ITEM ARIA LABELS
 
