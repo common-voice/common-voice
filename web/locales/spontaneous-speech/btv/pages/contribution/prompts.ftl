@@ -21,3 +21,6 @@ submit-all-button = بۡوٹ جمع گر
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ڇھڇ چہ کش اوصفحہ استعمال گرونݜ
+learn-how-to-use-prompts-explanation = صرف یک ، دو ، جملیوں مہ اِشارہ یئے جواب دے کش چہ تُو قدرتی طور رے دے ھواں  ۔او بیاد یقینی گر چہ تیں زیب عزت دار آ بے ضرر تھی
+learn-how-to-use-prompts-guidance = کلک  <guidanceLink>  ایزہ  </guidanceLink>  ڇھڇ  چہ او صفحہ کش استعمال گرونݜ
+learn-how-to-use-transcribe = ڇھڇ  چہ کش نقل گرونݜ
