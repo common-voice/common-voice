@@ -55,10 +55,10 @@ report-difficult-pronounce-detail = اي ۾ ايوا اکر يا جملا ھي �
 report-offensive-speech = جارحوڻي تقرير
 report-offensive-speech-detail = ڪلپ ۾ بي عزتي يا ناگوار ٻولي ھي
 report-other-comment =
-    .placeholder = تبفصرو
+    .placeholder = خلاصو
 success = ڪوميوبي
 continue = جاري رکو
-report-success = رپورٽ ڪوميوب ھوئي گئي
+report-success = رپورٽ ڪوميوب مون منظورڪري گئي
 
 ## Speak & Listen Shortcuts
 
