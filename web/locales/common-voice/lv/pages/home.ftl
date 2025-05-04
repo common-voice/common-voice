@@ -80,8 +80,8 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## NAV ITEMS
 
-answer-questions = Atbildēt uz jautājumiem
-answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</small>
+answer-questions = Atbildēt uz uzvednēm
+answer-questions-coming-soon = Atbildēt uz uzvednēm <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
 review-transcriptions-coming-soon = Pārskatīt transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
