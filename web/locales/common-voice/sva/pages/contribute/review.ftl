@@ -12,7 +12,7 @@ sc-review-form-usage = წინადადება̄̈ ჩულა̈მტ�
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = წყარო: { $sentenceSource }
 sc-review-form-button-reject = უარყოფა
-sc-review-form-button-skip = ქ
+sc-review-form-button-skip = ქალიცუ̂რე
 sc-review-form-button-approve = ლ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = ა̄
