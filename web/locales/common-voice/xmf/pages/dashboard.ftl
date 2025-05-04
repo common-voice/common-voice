@@ -2,6 +2,9 @@
 
 your-languages = თქვან ნინეფი
 toward-next-goal = ბონას უკულიანი ღანკიშახ
+goal-reached = ღანკი მეჭირინაფილი რე
+clips-you-recorded = თქვანი ინნაჭარა კლიპეფი
+clips-you-validated = თქვანი დანანდულებური კლიპეფი
 stats = სტატისტიკა
 awards = ჯილდოეფი
 you = თქვა

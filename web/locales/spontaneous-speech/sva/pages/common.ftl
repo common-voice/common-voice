@@ -63,3 +63,5 @@ xkl = კენიურ
 
 language-search-placeholder = ნინი ლითხე̄ლი...
 language-search-aria-label = ნინი ლითხე̄ლი
+language-search-label = აცა̄̈დი მონაცემრე წუ̂ლილი ნინსგარ
+language-search-no-results = ნინა̈რ მა̄მ ა̈ნთხა̄̈ნხ
