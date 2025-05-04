@@ -17,3 +17,15 @@ prompt-bubble-subtitle = بےتیئ یک اشارہ یا سوال پشے ݜہ
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark> جواب </mark>
 respond-bubble-subtitle = تِیوں جواب قدرتی ھویں کش چہ ھوں ھواں
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>  نقل </mark>
+transcribe-bubble-subtitle = تو لیک کیں چہ تو آڈیو کلپ مہ ݜؤواں
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>  چیک </mark>
+check-bubble-subtitle = تو چیک گر چہ لکیل آڈیو مِل مِلہ کہ نہ مِلہ
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark> ڈیٹا </mark>
+data-bubble-subtitle = بے پیریاڈیکلی ڈیٹا سیٹ ریلیز گرہ تھہ
+contact-us = اَسو مِل رابطہ گر
+contact-us-title = اِس پراجیکٹ مہ شمولیت یا اسو مِیل  شراکت  مہ دلچسپی رڇھہ تہ ؟
+contact-us-email = ای میل:<emailFragment>commonvoice@mozilla.com</emailFragment>
