@@ -23,6 +23,7 @@ show-ranking = ქუმოძირი ჩქიმი არდგილი
 get-started-goals = ღანკიშ აკოქიმინუა
 both-speak-and-listen = ჟირხოლო
 both-speak-and-listen-long = ჟირხოლო (ჩიება დო რჩქილა)
+easy-difficulty = ეფი
 difficult-difficulty = ძნელი
 pro-difficulty = პროფესიონალი
 want-to-continue = გოკონანო გაგძელათჷნი?

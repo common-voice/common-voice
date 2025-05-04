@@ -163,10 +163,20 @@ download-press-pack = აჰ̦ დჵო́ფათ (ჩამოტვირთ
 ## Developers section
 
 developers-section-title = ჰ̦ა́მინაჲნოჸ ქოჴა́ბტლაჲნი̆ ა́მბუჲ ჲარეჼ მონაცე́მივ თაგჲიენო̆ ნჵაჲნი̆ კრე́ბულ 130-ეხ სოუ̂ბო̆ მატტა́ხიჼ
-developers-section-subtitle = მონაცემაჼ კრებულ ASR, STT, TTS ჲე ჴეჩო NLP საშუალბინაჲნო
+developers-section-subtitle = მონაცემაჼ კრე́ბულ ASR, STT, TTS ჲე ჴეჩო̆ NLP საშუა́ლბინაჲნო̆ - მენხუ́ შე́ქმნადჲალიჼ დინჩ ნა́ხვ (სახა́ლხო̆ ე́რთობას)  ცჰ̦აღ შუიჼ წილ ჩუ ჴე́ჰ̦ოშ
+# icon is an arrow that points to the right
+explore-datasets = გიბათ კრე́ბული
 
 ## Get involved section
 
+get-involved-section-title = ფე ლაცათ ნჵაჲნი̆,  დინჩ ნა́ხიჼ ერთობას წინამძღო́ლობ ჲოშ შე́ქმნადიენჩო̆ კრე́ბულინ
+read-sentences-link = ჰ̦ალო̆ ხა́ტტათ წინა́დადბი
+validate-readings-link = დაყყდებათ ჰ̦ალო̆ ხა́ტტინო̆
+contribute-link = თოყა́ლ ლა́ტჲებათ მა́სალი
+answer-questions-link = შეკითხვინ პა́სუხ ლიბათ
+transcribe-answers-link = პაჲსხი ჩანაწე́რეღ დე́რწდებათ
+review-transcriptions-link = დაყყდებათ ჩანაწე́რეღ დე́რწინო̆
+contribute-text-link = ჩუ  ჰ̦ობათ ტექსტ
 
 ## Partner section
 
