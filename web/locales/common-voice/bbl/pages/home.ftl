@@ -156,6 +156,8 @@ contribute-github-action = ჩუ  ჰ̦ობათ წვლილ GitHub-მ�
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = აჰ̦ დჵო́ფათ (ჩამოტვირთადჲებათ) თხეჼ კრე́ბულ
 
 ## Developers section
 

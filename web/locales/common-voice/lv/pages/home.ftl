@@ -91,10 +91,15 @@ transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
 community-and-languages = Kopiena un valodas
 coming-soon = Drīzumā
+about-us = Par mums
+scripted-speech = SAGATAVOTĀ RUNA
+spontaneous-speech = SPONTĀNĀ RUNA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
+about-us-menu-item-tooltip = Uzziniet par Common Voice misiju un komandu
+about-us-menu-item-aria-label = Par mums izvēlne
 partnerships-menu-item-tooltip = Sadarbojieties ar mums
 press-and-stories-menu-item-tooltip = Apmeklējiet mūsu emuāru vai rakstiet par mums
 community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
