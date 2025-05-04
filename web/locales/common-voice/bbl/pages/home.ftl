@@ -190,3 +190,5 @@ partner-section-subtitle-civil-society = <bold> სამოქა́ლაქო
 partner-section-subtitle-philantropy = <bold> ქველმოქმე́დივ </bold> - მონაცემაჼ კრე́ბული დაფინა́ნსებადოშ წი́ნ მიღწე́ვი აჲდგლე დანე́რგვ-განვითა́რბენაჲნო̆
 # icon is an arrow that points to the right
 get-in-touch-button = თათაჼ ჲებათ თხო́ჼ <icon></icon>
+# Partners section
+our-partners-include = თხო́ციჼ კა́ვშირ ჲეჲნი და...
