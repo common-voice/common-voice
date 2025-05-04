@@ -182,3 +182,5 @@ press-and-stories-link = პრესაა́ჲ, ა́მბუჲა́ჲ
 ## Partner section
 
 partner-section-title = თანამშრო́მლობ ო́წათ თხოჼ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ტექკომპანიი́შ </bold> - მონაცემა́ჼ ნჵაჲნი̆ კრე́ბული შე́ქმნადჲარელო დაბა́ნდბივ დუჴნაჲრეჩო̆ მატტა́ხიჼ AI - გა́რემო̆ მე გაყვა́ვბალა́ლო̆

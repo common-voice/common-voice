@@ -30,13 +30,28 @@ pro-difficulty = პროფესიონალი
 lose-goal-progress-warning = ღანკიშ თირუათ შილებე მიოდინუათ ასეიანი წიმი ულა.
 want-to-continue = გოკონანო გაგძელათჷნი?
 build-custom-goal = საკუთარ ღანკიშ აკოქიმინუა
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] ქიდმეხვარით ქიმუონჭირინუათ { $hours } საათის { $language } ნინაშო პირადი ღანკიშ დასახებათ
+       *[other] ქიდმეხვარით ქიმუონჭირინუათ { $hours } საათის { $language } ნინაშო პირადი ღანკიშ დასახებათ
+    }
+set-a-goal = ღანკიშ მეწურაფა
 cant-decide = ვენგაჭყვიდესო?
 how-many-per-day = გვალო ჯგირი! მუზმა ინნაჭარა ირდღას?
 how-many-a-week = გვალო ჯგირი! მუზმა ინნაჭარა ირი მარას?
 which-goal-type = ნამუ გოკონა ჩიება, რჩილა თუ ჟირხოლო?
+n-clips-pluralized =
+    { $count ->
+        [one] { $count } კლიპი
+       *[other] { $count } კლიპეფი
+    }
+confirm-goal = ღანკიშ დანანდულება
 share-goal-type-speak = ჩიება
 share-goal-type-listen = რჩქილა
 share-goal-type-both = ჩიება დო რჩქილა
+weekly-goal-created = თქვანი ირი მარაში ღანკი აკოქიმინელი რე
+daily-goal-created = თქვანი ირი დღაში ღანკი აკოქიმინელი რე
+track-progress = თოლი ქუჸუნეთ თქვანი წიმე ულას თაქ დო თქვანი სტატისტიკაში ხასჷლას.
 
 ## Goals
 
