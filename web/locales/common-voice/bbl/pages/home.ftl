@@ -161,6 +161,7 @@ download-press-pack = აჰ̦ დჵო́ფათ (ჩამოტვირთ
 
 ## Developers section
 
+developers-section-title = ჰ̦ა́მინაჲნოჸ ქოჴა́ბტლაჲნი̆ ა́მბუჲ ჲარეჼ მონაცე́მივ თაგჲიენო̆ ნჵაჲნი̆ კრე́ბულ 130-ეხ სოუ̂ბო̆ მატტა́ხიჼ
 
 ## Get involved section
 
