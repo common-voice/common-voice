@@ -58,6 +58,8 @@ too-many-files = Aṭas n yifuyla
 
 ## SMALL BATCH SUBMISSION
 
+# menu item
+add-sentences = Rnu tifyar
 
 ## MENU ITEM TOOLTIPS
 

@@ -75,6 +75,7 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## NAV ITEMS
 
+add-questions = Rnu isteqsiyen
 add-questions-coming-soon = Ru isteqsiyen <small>(ticki)</small>
 community-and-languages = Timɣiwnin akked tutlayin
 about-us = Fell-aɣ
@@ -93,6 +94,7 @@ about-us = Fell-aɣ
 
 ## Action items section
 
+add-text = Rnu aḍris
 
 ## Community section
 
