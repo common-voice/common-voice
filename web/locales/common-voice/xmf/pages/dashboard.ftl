@@ -1,6 +1,7 @@
 ## Dashboard
 
 your-languages = თქვან ნინეფი
+toward-next-goal = ბონას უკულიანი ღანკიშახ
 stats = სტატისტიკა
 awards = ჯილდოეფი
 you = თქვა

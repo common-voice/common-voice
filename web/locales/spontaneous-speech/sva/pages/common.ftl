@@ -20,7 +20,7 @@ guidelines = რეკომენდაცია̄̈ლ
 # For the button to report an item
 report-button = ანგარიშ
 # For the button to skip an item
-skip-button = ქა ლიცვრე
+skip-button = ქა ლიცუ̂რე
 submit-button = ქა ლიზზი
 contribute = ლიმურჯუ̂ი
 request-new-language = ხიჰრ მახე ნინ
@@ -61,3 +61,5 @@ xkl = კენიურ
 
 ## Language search component
 
+language-search-placeholder = ნინი ლითხე̄ლი...
+language-search-aria-label = ნინი ლითხე̄ლი
