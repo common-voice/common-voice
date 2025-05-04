@@ -184,3 +184,9 @@ press-and-stories-link = პრესაა́ჲ, ა́მბუჲა́ჲ
 partner-section-title = თანამშრო́მლობ ო́წათ თხოჼ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold> ტექკომპანიი́შ </bold> - მონაცემა́ჼ ნჵაჲნი̆ კრე́ბული შე́ქმნადჲარელო დაბა́ნდბივ დუჴნაჲრეჩო̆ მატტა́ხიჼ AI - გა́რემო̆ მე გაყვა́ვბალა́ლო̆
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> სამოქა́ლაქო̆ საზო́გადოებია́, მკვლე́ვრია́ </bold> -  ღაზენჭ კრე́ბული შე́ქმნადჲარევ, განთა́ვსბევე́ საზია́რო̆ თაგჲარევ - ტათბუწიჼ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> ქველმოქმე́დივ </bold> - მონაცემაჼ კრე́ბული დაფინა́ნსებადოშ წი́ნ მიღწე́ვი აჲდგლე დანე́რგვ-განვითა́რბენაჲნო̆
+# icon is an arrow that points to the right
+get-in-touch-button = თათაჼ ჲებათ თხო́ჼ <icon></icon>
