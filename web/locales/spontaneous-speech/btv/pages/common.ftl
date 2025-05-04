@@ -64,3 +64,4 @@ xkl = کینیا
 language-search-placeholder = یک زیب ٹنڈ
 language-search-aria-label = یک زیب ٹنڈ
 language-search-label = زیب سو حصہ داری بدلا  ڈیٹا سیٹ سو
+language-search-no-results = زِب نہ ڇَئے
