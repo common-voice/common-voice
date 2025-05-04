@@ -52,20 +52,7 @@ help-reach-hours-general-pluralized =
     } in a language with a personal goal
 set-a-goal = Set a goal
 cant-decide = Can't decide?
-activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } hour
-       *[other] { $totalHours } hours
-    } is achievable in just over { NUMBER($periodMonths) ->
-        [one] { $periodMonths } month
-       *[other] { $periodMonths } months
-    } if { NUMBER($people) ->
-        [one] { $people } person
-       *[other] { $people } people
-    } record { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } clip
-       *[other] { $clipsPerDay } clips
-    } a day.
+activity-needed-calculation-fixed = 100 people recording 100 sentences a day can generate 13 hours of audio. Keeping up this performance, 1000 hours can be reached under 3 months.
 how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
 which-goal-type = Do you want to Speak, Listen or both?
