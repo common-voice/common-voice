@@ -80,8 +80,8 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## NAV ITEMS
 
-answer-questions = Atbildēt uz uzvednēm
-answer-questions-coming-soon = Atbildēt uz uzvednēm <small>(drīzumā)</small>
+answer-questions = Atbildēt uz jautājumiem
+answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
 review-transcriptions-coming-soon = Pārskatīt transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
@@ -106,6 +106,7 @@ community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kop�
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Par iespēju izvēlni
 partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common Voice
 press-and-stories-menu-item-aria-label = Piekļūstiet preses relīzēm un stāstiem, kas saistīti ar Common Voice
 community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīto kopienu un valodas
@@ -129,9 +130,9 @@ action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot s
 scripted-card-header = Sagatavota runa
 scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot plašāko kopienas radīto runas datu kopu pasaulē.
 spontaneous-card-header = Spontāna runa
-spontaneous-card-content = Atbildiet uz uzvednēm, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
+spontaneous-card-content = Atbildiet uz jautājumiem, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
 language-text-card-header = Valodas teksti
-language-text-card-content = Veidojiet pārizmantojamas uzvednes, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+language-text-card-content = Veidojiet datu vākšanas jautājumus, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
 add-text = Pievienot tekstu
 
 ## Community section

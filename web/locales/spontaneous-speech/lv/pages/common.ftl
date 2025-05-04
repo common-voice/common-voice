@@ -27,7 +27,7 @@ request-new-language = Lūgt jaunu valodu
 
 ## Navbar
 
-respond-to-prompt = Atbildēt uz uzvedni
+respond-to-prompt = Atbildēt uz jautājumu
 transcribe = Pārrakstīt
 check-transcriptions = Pārskatīt transkripcijas
 question = Jautājums
@@ -61,3 +61,7 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Meklēt valodu...
+language-search-aria-label = Meklēt valodu
+language-search-label = Maina tikai datu kopas valodu
+language-search-no-results = Valoda nav atrasta
