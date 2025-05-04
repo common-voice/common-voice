@@ -5,15 +5,22 @@ toward-next-goal = ბონას უკულიანი ღანკიშ�
 goal-reached = ღანკი მეჭირინაფილი რე
 clips-you-recorded = თქვანი ინნაჭარა კლიპეფი
 clips-you-validated = თქვანი დანანდულებური კლიპეფი
+todays-recorded-progress = ამდღარი წიმე ულა Common Voice-იშ ინნაჭარა კლიპეფიშენი
+todays-validated-progress = ამდღარი წიმე ულა Common Voice-იშ კლიპეფიშ დანანდულებაშენი
 stats = სტატისტიკა
 awards = ჯილდოეფი
 you = თქვა
 everyone = არძა
+contribution-activity = მიშაღალირი წილი
+top-contributors = საუჯგუშო მოხალისეეფი
 recorded-clips = ინნაჭარა კლიპეფი
+validated-clips = დანანდულებური კლიპეფი
+total-approved = გვალო დანანდულებური
 show-ranking = ქუმოძირი ჩქიმი არდგილი
 
 ## Custom Goals
 
+get-started-goals = ღანკიშ აკოქიმინუა
 both-speak-and-listen = ჟირხოლო
 both-speak-and-listen-long = ჟირხოლო (ჩიება დო რჩქილა)
 difficult-difficulty = ძნელი
