@@ -11,3 +11,10 @@ transcript-edited-success = لکیل کامیابی گِھن ایڈٹ ھوینگ
 transcript-edited-error = لکیل ایڈٹ گرے سو وخت مہ غلطی ھوینگے تھی
 error-fetching-transcriptions = لکیل یئں سو وخت مہ غلطی ھینگے اسی۔پتن نُٹ کوشش گر۔
 transcript-skipped-success = لکیل کامیابی گِھن سکپ ھوینگے
+transcript-skipped-error = لکیل سکپ گرے سو وخت مہ غلطی ھوینگ تھی
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = صحیح
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = ھوینگا
+# For the button on the Check Transcriptions page to edit a transcription
+edit = ایڈٹ
