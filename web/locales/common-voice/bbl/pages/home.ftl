@@ -147,6 +147,9 @@ ask-mozilla-share-content = ჲარი́ შუგო, ლე ხუმ ცო
 ask-mozilla-share-action = შუჼ შეკრე́ბ საზია́როღ ჲე́რწჲებათ
 download-contribution-certificate = ჰ̦ალო̆ ე́ცათ შემომწირველეჼ მო́წმობ
 download-contribution-certificate-content = აჰ̦ დჵო́ფათ (ჩამოტვირთოდჲებათ) მო́წმობ შუჼ ღო́ნისძიებინაჲნო̆, ლე მა́ შუნაჲნო̆, Common Voice-ე ჩუ წვლილ ჴეჰ̦ოჰ̦ი́შ — შუწი́ჼ ე ვო́მაჸ ჰ̦ალო̆ ცო თაგლა́რ!
+# label for button
+download-contribution-certificate-action = ჰ̦ალო̆ ე́ცათ მო́წმობ
+contribute-github = ჩუ  ჰ̦ობათ წვლილ GitHub-მაქ
 
 ## Featured section
 
