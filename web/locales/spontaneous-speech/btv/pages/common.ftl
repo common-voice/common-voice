@@ -54,6 +54,13 @@ ms-MY = بَحاسہ مالے
 msi = سباح مالے
 pez = مشرقی پینان
 pne = مغربی پینان
+sdo = شامی بِدایو
+snv = سا'بَن
+tr = ترکی
+xkl = کینیا
 
 ## Language search component
 
+language-search-placeholder = یک زیب ٹنڈ
+language-search-aria-label = یک زیب ٹنڈ
+language-search-label = زیب سو حصہ داری بدلا  ڈیٹا سیٹ سو
