@@ -59,3 +59,5 @@ accept-privacy-and-terms = ہُوں سادھارݨ اواجا کی <termsLink>س
 login-identity = لاگ ان اوݪکھ
 login = لاگ ان
 edit = توڑ جوڑ
+email-subscriptions = ای میل سبسکرپشنز
+download-profile = میرا ڈیٹا ڈاؤن لوڈ کر

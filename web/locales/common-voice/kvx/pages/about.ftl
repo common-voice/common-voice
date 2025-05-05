@@ -100,6 +100,8 @@ about-playbook-how-record-content-5 = <accuracyLink> سهي را معيار نئ
 about-playbook-how-grow-language = امي ڪومنَ وائيس نئہ هيڪ ٻولِي نئہ ڪيوئہ نمُونئہ اثر دار طرِيقا ٿِي وڌاوي هيڪون؟
 about-playbook-how-grow-language-content-1 = ڪومنَ وائيس ۾ ڌار ڌار منکون نئہ شامِل ڪريا ۿارُو موقعا ۮيڌا رو ڀروسو ۮيوَراوئه جي ڊيٽا سيٽ گھڻام گھڻو منکون رِي ضرورت نئہ پُورئي ڪرئہ۔ امي ايوي ريسورس ان ٽيمپليٽ تيار ڪرياه جيا رو تمي واپراوَ ڪري هيڪو!
 about-playbook-how-grow-language-content-2 = پروگروم
+about-playbook-how-grow-language-content-3 = تمون منکون نئہ ڀاڳ ليڌا ۾ مڌت ۮِيڌا ۿارُو پروگرام راکي هيڪو۔ ڪا تمي اَم سوچو ريا هايا ٿِي پڻ ڪوئي ۿورو رستو سئہ۔ تمي هايا نئہ آنلائن وڊيو ڪانفرنسنگ ٽُول رئہ ذريعي ڪري هيڪو، ڪا جيڪيۮِي محفوظ هووئہ تون منکون رِي صُورت ۾ پڻ۔<eventTemplate> امارو ٽيمپليٽ چيڪ ڪرو انَ ريسورس نئہ زوئو جيا پروگروم وُوڍا ۿارُو مڌت گار سئہ</eventTemplate>۔
+about-playbook-how-grow-language-content-4 = سماجِي ﻿جانڪارئي
 
 ## How to validate
 
