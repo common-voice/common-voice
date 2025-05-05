@@ -74,6 +74,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = </sentenceColle
 
 about-playbook-how-localize = سائيٽ لوڪيشن ڪم ڪرينَ ڪوم ڪرئہ؟
 about-playbook-how-localize-content-1 = ڪومن وائيس رو ترجمو <strong> پونَٽُونَ مانه ٿئہ</strong>۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink> جي ڪيِۮي تمارو اڪائونٽ پونَٽُونَ مانه نٿِي تون</pontoonAccountLink> هيڪ اڪائونٽ ٺاوو۔ پسئہ آپري ٻولِي رئي سُونڊ ڪرو <strong> (گروپ)</strong> ان  ڪومن وائيس پروجڪٽ <pontoonCvLink>نئہ سُونڊو،<pontoonCvLink>۔ اُوٿئہ ترجمو ڪريا ۿارُو ڪينئڪ فائلون هوشي۔ ڪياڪ هيڪي فائل مانه ڪلڪ ڪرو، تون انگريزي ۾ ويڻ ان اوئون رو ترجمو ڪريا ۿارُو هيڪ ڏٻو ۮيکيام آوشي۔
 
 ## How to add sentences
 
