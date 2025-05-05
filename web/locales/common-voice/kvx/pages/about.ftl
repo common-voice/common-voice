@@ -68,6 +68,7 @@ about-playbook-how-add-language-translating-content-2 = امي ترجمو ڪري
 about-playbook-how-add-language-collecting-sentences-heading = جُملا ڀيۯا ڪروو
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> جُملا ڀيۯا ڪريا را استعمال ۿارُو امارا پاها ٿِي ٺاوَل مددگار وڊيوز زوئو</sentenceCollectorVideo>۔
 about-playbook-how-add-language-collecting-sentences-content-2 = تمي <sentenceCollectorLinkAdd> ننڪون جُملون رئي تعداد شامِل ڪري هيڪو۔</sentenceCollectorLinkAdd>، ڪا پسئہ تمي<bulkImportDocsLink> گِٽ حِب رو اِستعمال ڪرينَ گھڻا جُملا ڀيۯا ڪري هيڪو</bulkImportDocsLink>۔ ياڌ راکو جي جُملا<licenseLink> سي سي او (ڪا پبلڪ ڊومئين)</licenseLink>، ڪا پسئہ تمي آپرا جُملا آپ لکي هيڪو۔
+about-playbook-how-add-language-collecting-sentences-content-3 = </sentenceCollectorFragment>  وڌيڪ جُملون را ڀارام زوو</sentenceCollectorFragment>۔
 
 ## How does localization work
 
