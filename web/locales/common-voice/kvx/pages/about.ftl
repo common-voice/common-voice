@@ -127,6 +127,12 @@ about-playbook-how-project-governance = پروجيڪٽ را ڦينصلا ڪم ڪ
 about-playbook-how-project-governance-content-1 = موزِيلا ڪومنَ وائيس هيڪ ڌار ڌار قوم ري ذريعي ممڪن ٿي هيڪيو، جيو ڌُنيا رِي قوم منکون را ڪوم، ٻوليون، ڊيٽا سائينس، تعليمي انَ سافٽ ويئر اِنجنِيئر مانه ٺاوَل سئہ۔ اي پروجيڪٽ موزِيلا فائُوڊيشن ري ذريعي سنڀاليو زائه۔
 about-playbook-how-project-governance-content-2 = امارئي حڪُومت اِيئون پِيل پايون مانه اُوڀل سئہ:
 about-playbook-how-project-governance-content-3 = پڙڌو، ﻿ڀچاوو انَ صاڦ/ شفافيت۔
+about-playbook-how-project-governance-content-4 = قوم رئي شرڪتدارئي انَ ڦينصلا سازئي۔
+about-playbook-how-project-governance-content-5 = قِيمت انَ اوۯکوڻ۔
+about-playbook-how-project-governance-content-6 = ڀيۯئي جواڀڌارئي
+about-playbook-how-project-governance-content-7 = <governanceLink> امارئي حڪُومت را ﻿ڀارام ۾ وڌِيڪ ڀڻو</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ڪومنَ وائيس نئہ ڪم ڪرينَ فنڊ ڪريو زائہ؟
+about-playbook-how-funded-content-1 = ڪومنَ وائيس، موزِيلا فائونڊيشن رو هيڪ پروجيڪٽ سئہ، جيو يو ايس 501(c)(3) اِڌارو سئہ۔ ﻿هائي پروجيڪٽ همڻئہ پُورئہ نمُونئہ<philantropicGrantLink> فِلنَ ٿروپِڪ گرانٽ</philantropicGrantLink>، انَ ٻڌِي ڌُنيا رون منکون را پاها ٿِي ۮونَ (فنڊ) ۮِيڌو ﻿زائه۔
