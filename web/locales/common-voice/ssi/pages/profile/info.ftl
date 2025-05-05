@@ -27,3 +27,6 @@ visible = چاوا
 native-language =
     .label = اپݨی بھاشا
 profile-form-add-accent = نواں اپݨِیں مرجِیا کا لیہکا سیمݪ کر "{ $inputValue }"
+profile-form-submit-save = بھیݪا
+profile-form-submit-saved = بھݪا ہووڑا
+male_masculine = مِنکھ / مِنکھاڑا
