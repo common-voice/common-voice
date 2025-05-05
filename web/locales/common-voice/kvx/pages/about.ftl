@@ -136,3 +136,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink> امارئي 
 
 about-playbook-how-funded = ڪومنَ وائيس نئہ ڪم ڪرينَ فنڊ ڪريو زائہ؟
 about-playbook-how-funded-content-1 = ڪومنَ وائيس، موزِيلا فائونڊيشن رو هيڪ پروجيڪٽ سئہ، جيو يو ايس 501(c)(3) اِڌارو سئہ۔ ﻿هائي پروجيڪٽ همڻئہ پُورئہ نمُونئہ<philantropicGrantLink> فِلنَ ٿروپِڪ گرانٽ</philantropicGrantLink>، انَ ٻڌِي ڌُنيا رون منکون را پاها ٿِي ۮونَ (فنڊ) ۮِيڌو ﻿زائه۔
+about-playbook-how-funded-content-2 = ڊيٽا سيٽ نئہ لڳاتار هاڪلوو، پليٽ فارم نئہ ٺائُوڪو ٺاوو، انَ<africaMradiLink> قوم را پروگروم هاڪليا ۿارُو گھڻون پئهيون رئي ضرُورت پڙئہ</africaMradiLink>۔
+about-playbook-how-funded-content-3 = جيڪيۮِي تمي ڪا تمارو اِڌارو اِيئا پروجيڪٽ ڪا اِڌارا ۾ ڀاڳ ليوا ڪرو،<donateLink> ۮونَ</donateLink> ۮون ۮي هيڪو ڪا اماري ٽِيم ٿِي راڀطو ڪري هيڪو۔<emailFragment>commonvoice@mozilla.com</emailFragment>۔
