@@ -72,6 +72,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = </sentenceColle
 
 ## How does localization work
 
+about-playbook-how-localize = سائيٽ لوڪيشن ڪم ڪرينَ ڪوم ڪرئہ؟
+about-playbook-how-localize-content-1 = ڪومن وائيس رو ترجمو <strong> پونَٽُونَ مانه ٿئہ</strong>۔
 
 ## How to add sentences
 
