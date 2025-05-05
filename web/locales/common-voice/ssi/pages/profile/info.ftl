@@ -61,3 +61,4 @@ login = لاگ ان
 edit = توڑ جوڑ
 email-subscriptions = ای میل سبسکرپشنز
 download-profile = میرا ڈیٹا ڈاؤن لوڈ کر
+contribution-experience = یوگدؔانا کا انبھو
