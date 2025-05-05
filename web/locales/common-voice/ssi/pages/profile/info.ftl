@@ -34,3 +34,7 @@ female_feminine = ٻائِیر / بھتاݨی
 intersex = نسݪ سیمݪ
 transgender = ٻِسر نسݪ
 non-binary = کھدؔڑا
+do_not_wish_to_say = ٻولݨیں کی اِنچھا نائیں تی
+# Gender
+other = دُؔوجے
+why-profile-title = پروپھائل کاکام
