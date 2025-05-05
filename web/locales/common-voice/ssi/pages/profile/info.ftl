@@ -30,3 +30,4 @@ profile-form-add-accent = نواں اپݨِیں مرجِیا کا لیہکا س�
 profile-form-submit-save = بھیݪا
 profile-form-submit-saved = بھݪا ہووڑا
 male_masculine = مِنکھ / مِنکھاڑا
+female_feminine = ٻائِیر / بھتاݨی
