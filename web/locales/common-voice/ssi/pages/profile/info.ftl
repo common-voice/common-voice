@@ -33,3 +33,4 @@ male_masculine = مِنکھ / مِنکھاڑا
 female_feminine = ٻائِیر / بھتاݨی
 intersex = نسݪ سیمݪ
 transgender = ٻِسر نسݪ
+non-binary = کھدؔڑا
