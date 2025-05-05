@@ -75,9 +75,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = </sentenceColle
 about-playbook-how-localize = سائيٽ لوڪيشن ڪم ڪرينَ ڪوم ڪرئہ؟
 about-playbook-how-localize-content-1 = ڪومن وائيس رو ترجمو <strong> پونَٽُونَ مانه ٿئہ</strong>۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink> جي ڪيِۮي تمارو اڪائونٽ پونَٽُونَ مانه نٿِي تون</pontoonAccountLink> هيڪ اڪائونٽ ٺاوو۔ پسئہ آپري ٻولِي رئي سُونڊ ڪرو <strong> (گروپ)</strong> ان  ڪومن وائيس پروجڪٽ <pontoonCvLink>نئہ سُونڊو،<pontoonCvLink>۔ اُوٿئہ ترجمو ڪريا ۿارُو ڪينئڪ فائلون هوشي۔ ڪياڪ هيڪي فائل مانه ڪلڪ ڪرو، تون انگريزي ۾ ويڻ ان اوئون رو ترجمو ڪريا ۿارُو هيڪ ڏٻو ۮيکيام آوشي۔
+about-playbook-how-localize-content-3 = ترجمو انگريزي ٿِي ٿئہ، پڻ تمي ٻِيزيون ٻوليون ۾ <strong> صلاحون </strong> پڻ زوئي هيڪو۔<strong> پروفائل </strong> آئي ڪون مانه ڪلڪ ڪرو، پسئہ <strong> سيٽنڳ </strong> لِنڪ مانه زائين اُو ٻولِي شامل ڪرو جئي تمي ٻولوہ۔ نيسئي هاوَي ڪُنڊ ۾ هيڪ لسٽ هوشي</strong> جيا نئہ <strong>  ڪيِڌو زائه۔ ترجمو هيڪا ۮي ڪيڙ ويڀ سائيٽ مانه ۮيکيام آوئه۔
+about-playbook-how-localize-content-4 = زئيون سائيٽ رو ڪوم 75% پ﻿ُورو ٿي زائه، تون اُوئا نئہ شُروع ڪريا ۿارُو تيار ۿزميو زائه۔
+about-playbook-how-localize-content-5 = مڌت ۿارُو اماري وضاحتي وڊيوز زوئو
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = هُون ڪم ڪرينَ جُملون نئہ شامِل ڪري هيڪون؟
 
 ## How to record quality
 
