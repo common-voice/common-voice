@@ -44,3 +44,4 @@ why-profile-text =
 dashboard = نِئنترݨ پٹی
 build-profile = پروپھائل ٹھاؤ
 avatar = اوَتار
+goals = لکش
