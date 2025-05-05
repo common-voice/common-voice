@@ -112,6 +112,8 @@ about-playbook-how-grow-language-content-8 = <strong> ٿوڙڪاڪ ٺايا وا
 about-playbook-how-validate = مُون نئہ ڪم ڪرينَ خٻر پڙئہ جي ڪياڪ وائيس ڪِلپ نئہ منظُور ڪرئي ڪا نا؟
 about-playbook-how-validate-content-1 = جيڪيۮِي تمي<strong> ۿومڀۯي هيڪو</strong> انَ <strong> ۿزمي هيڪو</strong>، تون گھڻو ڪرينَ <strong> منظُور ڪروو ٺائُوڪو هووئہ</strong>۔
 about-playbook-how-validate-content-2 = <strong> ايوا ڪِپل نئہ رد نہ ڪروو جيٿئہ ٻوليا واۯا رو لهجو تمون ٿِي ڌار هووئہ</strong>- هائي اِيئا ۿارُو ضرُورِي سئہ ڪم تون آواز نئہ اوۯکيام هر هيڪ ۿارُو ٺائُوڪو ڪم ڪرئه۔
+about-playbook-how-validate-content-3 = جيڪيۮِي تمي ۿزمي جي ويڻ ايوا ڳلت سئہ جي <strong> ۿزموو نا مُمڪن ٿي ڳياه هوئہ<strong>، ڪا <strong> جوم گھڻئي لارلي آوازون</strong> ٻِيزا منک پڻ ٻولتا هوئہ</strong>، تون تمي هيوا ڪِلپ نئہ رد ڪرو پرو۔<accuracyLink> وڌِيڪ جانڪارِي ۿارُو امارِي ويب سائيٽ رو وزٽ ڪرو</accuracyLink>۔
+about-playbook-how-validate-content-4 = جيڪيۮِي ڪياڪ ڪِلپ نئہ ٻي منکي رد ڪريو پرو، تون اُوئا نئہ ڊيٽا بيس را ڪياڪ ٻِيزا حصا ۾ نوکيو زائه۔
 
 ## How to access dataset
 
