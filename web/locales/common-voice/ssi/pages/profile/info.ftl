@@ -46,3 +46,4 @@ build-profile = پروپھائل ٹھاؤ
 avatar = اوَتار
 goals = لکش
 settings = نِویڑا
+edit-profile = پروپھائلام توڑ جوڑ کر
