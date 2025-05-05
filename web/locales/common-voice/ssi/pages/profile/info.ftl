@@ -32,3 +32,4 @@ profile-form-submit-saved = بھݪا ہووڑا
 male_masculine = مِنکھ / مِنکھاڑا
 female_feminine = ٻائِیر / بھتاݨی
 intersex = نسݪ سیمݪ
+transgender = ٻِسر نسݪ
