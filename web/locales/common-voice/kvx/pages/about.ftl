@@ -82,6 +82,7 @@ about-playbook-how-localize-content-5 = مڌت ۿارُو اماري وضاحت�
 ## How to add sentences
 
 about-playbook-how-add-sentences = هُون ڪم ڪرينَ جُملون نئہ شامِل ڪري هيڪون؟
+about-playbook-how-add-sentences-content-1 = تمي جُملا شامِل ڪري هيڪو<writePageLink> ڪا </writePageLink> تمي </writePageLink>جُملون رو جائزو لي هيڪو<reviewPageLink>۔
 
 ## How to record quality
 
