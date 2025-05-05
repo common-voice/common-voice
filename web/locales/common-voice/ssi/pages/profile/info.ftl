@@ -47,3 +47,5 @@ avatar = اوَتار
 goals = لکش
 settings = نِویڑا
 edit-profile = پروپھائلام توڑ جوڑ کر
+profile-create-success = سپھلتا، پروپھائل ٹھاوݨاں!
+profile-close = بند
