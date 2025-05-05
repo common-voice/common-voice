@@ -49,3 +49,4 @@ settings = نِویڑا
 edit-profile = پروپھائلام توڑ جوڑ کر
 profile-create-success = سپھلتا، پروپھائل ٹھاوݨاں!
 profile-close = بند
+profile-explanation = پروپھائلا بھیݪا اپݨیں ترکِیاپ نِگھا راکھ اور مھارے اواج ڈیٹا کُو ودھِیک سئی ہووݨینٚم ساہِتا کر۔
