@@ -26,3 +26,4 @@ hidden = چھپوڑا
 visible = چاوا
 native-language =
     .label = اپݨی بھاشا
+profile-form-add-accent = نواں اپݨِیں مرجِیا کا لیہکا سیمݪ کر "{ $inputValue }"
