@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = mátɩ̀
+write = màtí
 write-instruction = ɩ́tàzɩ̀ <icon></icon>
 write-page-subtitle = tɔ̀m pɔ̀wà pàɖʊ̀yɛ̀ céŋjè nɛ̀ páŋtàsɩ̀ nà jɛ́ zámɔ́ɔ̀ ɖɩ́ŋɛ̀ tɛ́ɛ́ dɔ̃né wàá tɩ̀dárɛ̀ á pɩ̀kɛ́ báfá nɩ́mbáʊ̀ cc-o
 sentence =
