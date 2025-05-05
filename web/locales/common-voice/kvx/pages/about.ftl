@@ -117,6 +117,8 @@ about-playbook-how-validate-content-4 = جيڪيۮِي ڪياڪ ڪِلپ نئہ 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = هُون ڊيٽا سيٽ نئہ ڪم ڪرينَ هاڪلي هيڪون انَ هايا رو اِستعمال ڪرون؟
+about-playbook-how-access-dataset-content-1 = تمي <datasetsPage> ڊيٽا سيٽ پونيو</datasetsPage>، مانه زائينَ آپرئي سونڍل ٻولِي رو اِنتخاب ڪري هيڪو، ان پسئہ اُوئا نئہ ڊائونلوڊ ڪري هيڪو! فائل ڀيۯو<metadataLink> متعلق ميٽاڊيٽا</metadataLink> هوئہ، زم ڊيمو گرافِي رئي معلُومات ان ۿومڀۯيا رو مواد۔ ڊيٽا سيٽ ڊائون لوڊ ڪريا ۿارُو تمون نئہ آپرئي اِيميل ايڊريس ۮيوو پڙشي۔
 
 ## How are decisions made
 
