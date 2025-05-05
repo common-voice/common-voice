@@ -63,6 +63,7 @@ about-playbook-what-is-language-content-3 = ڪيئنڪ ٻوليون رِي گر�
 about-playbook-how-add-language = هُون هيڪ ٻولئي ڪم ڪرينَ شامِل ڪري هيڪون؟
 about-playbook-how-add-language-content-1 = ٻڌون ٿِي پهرِين اي زوئو جي تمارئي ٻولئي <languageLink> پيرهِين ٿِي موجود سئہ</languageLink>۔ جيڪيۮِي هائي موجود نٿِي، تو تمي<languageRequestLink> آپرئي ٻولئي شامِل ڪريا رئي ڌرخواست ۮي هيڪو</languageRequestLink>۔ اِيئا را ٻي مرحلا سئہ: ويب سائيٽ رو ترجمو ڪروو، ان جُملا ڀيۯا ڪروو
 about-playbook-how-add-language-translating-heading = ويب سائيٽ رو ترجمو ڪروو
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> پونٽُون رو اِستعمال ڪريا رو طريقو زوڻيا ۿارُو اماري جارِي ڪرل وڊيو﻿ز نئہ زوئو۔</translateVideoLink>
 
 ## How does localization work
 
