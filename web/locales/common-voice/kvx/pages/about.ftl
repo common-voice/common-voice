@@ -56,9 +56,13 @@ about-nav-playbook = حِصو لِيڌا رو طرِيقو زوڻوو
 about-playbook-what-is-language = ڪومنَ وائيس مانه هيڪ ٻولئي ڪِي هوئہ؟
 about-playbook-what-is-language-content-1 = ٻولِي نئہ ۿزميا را جوم طرِيقا سئہ۔ زم ٻولئي زوڻ را نمُونا ۿارُو، ڪومنَ وائيس اي صلاح ۮئه جي مطابدلا ۿزميا رئي صلاحيت مانه ڌيونَ ۮِيڌو ﻿زائہ۔ — مطلٻ ڪِي هائي ٻولئي ٻوليا واۯا گھڻو ڪرينَ هيڪا ٻِيزا نئہ ۿزمي هيڪئہ جي اُو ڪوشش ڪرئہ؟
 about-playbook-what-is-language-content-2 = امي چاهون جي ٻوليا واۯا ٺاوَل نمُُونا ڌار ڌار منکون رِي وات نئہ ٺائُوڪئہ  نمُونئہ ۿزمي هيڪئہ۔ هايا ۿارُو ضرُورِي سئہ جي وائيس ڊيٽا سيٽ ۾ هر نمُونا رون منکون رئہ ڀاڳ ليووه۔
+about-playbook-what-is-language-content-3 = ڪيئنڪ ٻوليون رِي گرامر ۾، لفظون رو مطلٻ انَ ٻوليا را ڍاۯو هيڪ جيوو نٿِي هوتو۔ هايا ري ڪري،<ctaLink> امي </ctaLink>2022 ۾ ۔ رو تعارف ڪرونه ريا۔ اِيئا ٿِي نات رون آپرِي ٻولِي نئہ موٽا ڊيٽا بيس ۾ ۮيکاڙيا رو هيڪ نمُونو زڙئه۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = هُون هيڪ ٻولئي ڪم ڪرينَ شامِل ڪري هيڪون؟
+about-playbook-how-add-language-content-1 = ٻڌون ٿِي پهرِين اي زوئو جي تمارئي ٻولئي <languageLink> پيرهِين ٿِي موجود سئہ</languageLink>۔ جيڪيۮِي هائي موجود نٿِي، تو تمي<languageRequestLink> آپرئي ٻولئي شامِل ڪريا رئي ڌرخواست ۮي هيڪو</languageRequestLink>۔ اِيئا را ٻي مرحلا سئہ: ويب سائيٽ رو ترجمو ڪروو، ان جُملا ڀيۯا ڪروو
+about-playbook-how-add-language-translating-heading = ويب سائيٽ رو ترجمو ڪروو
 
 ## How does localization work
 
