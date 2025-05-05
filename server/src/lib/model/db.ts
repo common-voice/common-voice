@@ -693,6 +693,7 @@ export default class DB {
       (row: DBClip) =>
         row.client_id !== client_id &&
         row.is_approved === 1 &&
+        row.corpus_id === '' &&
         (row.expire_at === null || new Date(row.expire_at) > new Date())
     )
 
@@ -788,7 +789,8 @@ export default class DB {
   async findClipsWithoutTaxonomy(
     client_id: string,
     locale_id: number,
-    count: number
+    count: number,
+    corpus_id: string = '',
   ): Promise<DBClip[]> {
     const [clips] = await this.mysql.query(
       `
@@ -797,6 +799,7 @@ export default class DB {
       SELECT * 
       FROM clips
       WHERE locale_id = ?
+        AND clips.corpus_id = ?
         AND is_valid IS NULL
         AND clips.client_id <> ?
         AND clips.is_approved = 1
@@ -821,6 +824,7 @@ export default class DB {
     LIMIT ?`,
       [
         locale_id,
+        corpus_id,
         client_id,
         client_id,
         client_id,
@@ -934,7 +938,8 @@ export default class DB {
     client_id: string,
     locale_id: number,
     count: number,
-    segments: string[]
+    segments: string[],
+    corpus_id: string='',
   ): Promise<DBClip[]> {
     const [clips] = await this.mysql.query(
       `
@@ -964,6 +969,7 @@ export default class DB {
         ) term_sentences
           ON clips.original_sentence_id = term_sentences.sentence_id
         AND is_valid IS NULL
+        AND clips.corpus_id = ?
         AND clips.client_id <> ?
         AND NOT EXISTS(
           SELECT clip_id
@@ -989,6 +995,7 @@ export default class DB {
         client_id,
         await getTermIds(segments),
         await getTermIds(segments),
+        corpus_id,
         client_id,
         client_id,
         client_id,
@@ -1120,6 +1127,7 @@ export default class DB {
     path,
     sentence,
     duration,
+    corpus_id = '',
   }: {
     client_id: string
     localeId: number
@@ -1127,15 +1135,16 @@ export default class DB {
     path: string
     sentence: string
     duration: number
+    corpus_id: string
   }): Promise<void> {
     try {
       const [{ insertId }] = await this.mysql.query(
         `
-          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, duration)
-          VALUES (?, ?, ?, ?, ?, ?)
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, duration, corpus_id)
+          VALUES (?, ?, ?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
-        [client_id, original_sentence_id, path, sentence, localeId, duration]
+        [client_id, original_sentence_id, path, sentence, localeId, duration, corpus_id]
       )
       await this.mysql.query(
         `
@@ -1188,31 +1197,33 @@ export default class DB {
     }
   }
   async getAllClipCount(
-    localeIds: number[]
+    localeIds: number[],
+    corpus_id: string = ''
   ): Promise<{ locale_id: number; count: number }[]> {
     const [rows] = await this.mysql.query(
       `
         SELECT locale_id, COUNT(*) AS count
         FROM clips
-        WHERE locale_id IN (?)
+        WHERE locale_id IN (?) AND corpus_id = ?
         GROUP BY locale_id
       `,
-      [localeIds]
+      [localeIds, corpus_id]
     )
     return rows
   }
 
   async getValidClipCount(
-    localeIds: number[]
+    localeIds: number[],
+    corpus_id: string = ''
   ): Promise<{ locale_id: number; count: number }[]> {
     const [rows] = await this.mysql.query(
       `
         SELECT locale_id, COUNT(*) AS count
         FROM clips
-        WHERE locale_id IN (?) AND is_valid
+        WHERE locale_id IN (?) AND is_valid AND corpus_id = ?
         GROUP BY locale_id
       `,
-      [localeIds]
+      [localeIds, corpus_id]
     )
     return rows
   }

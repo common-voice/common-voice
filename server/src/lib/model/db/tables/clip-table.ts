@@ -4,6 +4,7 @@ import { TaxonomyType } from 'common'
 
 export type DBClip = {
   is_approved: number
+  corpus_id: string
   id: number
   client_id: string
   path: string
