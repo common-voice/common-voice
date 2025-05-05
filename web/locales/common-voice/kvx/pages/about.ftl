@@ -97,6 +97,9 @@ about-playbook-how-record-content-5 = <accuracyLink> سهي را معيار نئ
 
 ## How to grow language
 
+about-playbook-how-grow-language = امي ڪومنَ وائيس نئہ هيڪ ٻولِي نئہ ڪيوئہ نمُونئہ اثر دار طرِيقا ٿِي وڌاوي هيڪون؟
+about-playbook-how-grow-language-content-1 = ڪومنَ وائيس ۾ ڌار ڌار منکون نئہ شامِل ڪريا ۿارُو موقعا ۮيڌا رو ڀروسو ۮيوَراوئه جي ڊيٽا سيٽ گھڻام گھڻو منکون رِي ضرورت نئہ پُورئي ڪرئہ۔ امي ايوي ريسورس ان ٽيمپليٽ تيار ڪرياه جيا رو تمي واپراوَ ڪري هيڪو!
+about-playbook-how-grow-language-content-2 = پروگروم
 
 ## How to validate
 

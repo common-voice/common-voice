@@ -56,3 +56,6 @@ why-demographic-explanation-2 = اُومر ، نسݪ ، اور لیہکے جِد
 accept-privacy = جِدؔا کہ تھم موزیلا کی <privacyLink>گُپت کی نِیتِیام</privacyLink> وِیاکھِیا کرتے ہے ہُوں اس جانکارِیا کُو سامبھݨیں کے سات ٹھیک ہووے
 accept-privacy-title = گُپت نیتی
 accept-privacy-and-terms = ہُوں سادھارݨ اواجا کی <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت سُچناس</privacyLink> سہمت ہے
+login-identity = لاگ ان اوݪکھ
+login = لاگ ان
+edit = توڑ جوڑ
