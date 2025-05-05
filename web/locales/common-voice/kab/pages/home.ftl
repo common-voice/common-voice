@@ -75,6 +75,7 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## NAV ITEMS
 
+answer-questions = Err-d ɣef isteqsiyen
 add-questions = Rnu isteqsiyen
 add-questions-coming-soon = Ru isteqsiyen <small>(ticki)</small>
 community-and-languages = Timɣiwnin akked tutlayin
@@ -94,10 +95,15 @@ about-us = Fell-aɣ
 
 ## Action items section
 
+language-text-card-header = Aḍris
 add-text = Rnu aḍris
 
 ## Community section
 
+find-us-on-matrix = Af-aɣ-d deg Matrix
+contribute-github = Ttekki di Github
+# label for button
+contribute-github-action = Ttekki di Github
 
 ## Featured section
 

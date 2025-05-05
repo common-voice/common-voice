@@ -83,9 +83,13 @@ about-playbook-how-localize-content-5 = مڌت ۿارُو اماري وضاحت�
 
 about-playbook-how-add-sentences = هُون ڪم ڪرينَ جُملون نئہ شامِل ڪري هيڪون؟
 about-playbook-how-add-sentences-content-1 = تمي جُملا شامِل ڪري هيڪو<writePageLink> ڪا </writePageLink> تمي </writePageLink>جُملون رو جائزو لي هيڪو<reviewPageLink>۔
+about-playbook-how-add-sentences-content-2 = ڪومنَ وائيس ۾ شامِل ڪريا ۿارُو جُملون رو ٻئيون منکون ري ذريعي جائزو ليوو انَ اُوئون را پاها ٿِي قٻول هووو کپئہ۔ تمي آپرِي ٻولِي ۿارُو مددگار فائيڌا<languageGuidelinesLink> ايٿئہ </languageGuidelinesLink>۔ طئہ ڪري هيڪو۔ جُملا <licenseLink> پبلڪ ڊومئن</licenseLink> هُون سون انَ پنرئہ ويڻون ٿِي ننڪا سئہ۔ جيڪيۮِي متن ڪياڪ منک رو سئ، تون تمي اُوئا نئہ وِينتئي ڪري هيڪو جي اُو اُوئا نئہ<waiverLink> امارا وِيور طريقا رئہ ذريعي سي سي او<waiverLink> ٺاوَ پرو، ان پسئہ امون نئہ commonvoice@mozilla.com مانه ميلو۔
+about-playbook-how-add-sentences-content-3 = تمي <scraperLink> رو اِستعمال ڪرينَ ويڪِي پيڊيا ٿِي ننڪا </scraperLink>جُملا حاصل ڪري هيڪو۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = هُوم ڪم ڪرينَ هيم ٺائُوڪوم ٺائُوڪو آواز ڀري ڪري هيڪون؟
+about-playbook-how-record-content-1 = آپر﻿ِي ڌِيمِي آواز ۾ وات ڪرو! جيوئہ نمُونئہ تمي ٻولوه، ڪا اُو رو اُو نمُونو قٻول سئہ تمارو ڍاۯو، تمارِي آواز رو لهجو، نمُونو اُتار سڙائو جيوو ئي سئہ۔ هيوو ئي کپئہ۔﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
 
 ## How to grow language
 
