@@ -62,3 +62,4 @@ edit = توڑ جوڑ
 email-subscriptions = ای میل سبسکرپشنز
 download-profile = میرا ڈیٹا ڈاؤن لوڈ کر
 contribution-experience = یوگدؔانا کا انبھو
+skip-submission-feedback = جما کراݨیں کی سُجھاو چھوڈؔی دؔے

@@ -119,9 +119,14 @@ about-playbook-how-validate-content-4 = جيڪيۮِي ڪياڪ ڪِلپ نئہ 
 
 about-playbook-how-access-dataset = هُون ڊيٽا سيٽ نئہ ڪم ڪرينَ هاڪلي هيڪون انَ هايا رو اِستعمال ڪرون؟
 about-playbook-how-access-dataset-content-1 = تمي <datasetsPage> ڊيٽا سيٽ پونيو</datasetsPage>، مانه زائينَ آپرئي سونڍل ٻولِي رو اِنتخاب ڪري هيڪو، ان پسئہ اُوئا نئہ ڊائونلوڊ ڪري هيڪو! فائل ڀيۯو<metadataLink> متعلق ميٽاڊيٽا</metadataLink> هوئہ، زم ڊيمو گرافِي رئي معلُومات ان ۿومڀۯيا رو مواد۔ ڊيٽا سيٽ ڊائون لوڊ ڪريا ۿارُو تمون نئہ آپرئي اِيميل ايڊريس ۮيوو پڙشي۔
+about-playbook-how-access-dataset-content-2 = جيڪيۮِي تمي اي ايس آر نمُونو ٺايا ۿارُو ٽُول ڳوتو ريا۔ تون تمي نات رون ٻِيزون منکون ٿِي <discourseLink> ڊِسڪورس</discourseLink> مانه رابطو ڪري هيڪوه۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پروجيڪٽ را ڦينصلا ڪم ڪرينَ ڪريا زائه؟
+about-playbook-how-project-governance-content-1 = موزِيلا ڪومنَ وائيس هيڪ ڌار ڌار قوم ري ذريعي ممڪن ٿي هيڪيو، جيو ڌُنيا رِي قوم منکون را ڪوم، ٻوليون، ڊيٽا سائينس، تعليمي انَ سافٽ ويئر اِنجنِيئر مانه ٺاوَل سئہ۔ اي پروجيڪٽ موزِيلا فائُوڊيشن ري ذريعي سنڀاليو زائه۔
+about-playbook-how-project-governance-content-2 = امارئي حڪُومت اِيئون پِيل پايون مانه اُوڀل سئہ:
+about-playbook-how-project-governance-content-3 = پڙڌو، ﻿ڀچاوو انَ صاڦ/ شفافيت۔
 
 ## How is Common Voice funded
 
