@@ -90,6 +90,10 @@ about-playbook-how-add-sentences-content-3 = تمي <scraperLink> رو اِست�
 
 about-playbook-how-record-quality = هُوم ڪم ڪرينَ هيم ٺائُوڪوم ٺائُوڪو آواز ڀري ڪري هيڪون؟
 about-playbook-how-record-content-1 = آپر﻿ِي ڌِيمِي آواز ۾ وات ڪرو! جيوئہ نمُونئہ تمي ٻولوه، ڪا اُو رو اُو نمُونو قٻول سئہ تمارو ڍاۯو، تمارِي آواز رو لهجو، نمُونو اُتار سڙائو جيوو ئي سئہ۔ هيوو ئي کپئہ۔﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
+about-playbook-how-record-content-2 = گھڻِي لارلي آواز ٿِي پاهو ڪرو- تمارئي آواز ۿورئہ نمُونئہ ۿومڀۯيام آوو کپئہ۔
+about-playbook-how-record-content-3 = جُملون نئہ ڌيونَ ٿِي ڀڻو- ڪوئي ويڻ، ڀڌلو ڪا وڌِيڪ اِضاڦو نہ ڪرو۔
+about-playbook-how-record-content-4 = وات ڪريا ٿِي پيرهين ڀروسو ڪري ليو جي پليٽ فارم ريڪارڊنگ ڪرئه ريو، ان هائي رُوڳو تئيون اُوڀئہ زئيون تمي ٻڌوئي ٻولي ريا هووو۔
+about-playbook-how-record-content-5 = <accuracyLink> سهي را معيار نئہ زوئو۔</accuracyLink>
 
 ## How to grow language
 

@@ -78,6 +78,7 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 answer-questions = Err-d ɣef isteqsiyen
 add-questions = Rnu isteqsiyen
 add-questions-coming-soon = Ru isteqsiyen <small>(ticki)</small>
+transcribe-audio = Aru aḍris n umeslaw
 community-and-languages = Timɣiwnin akked tutlayin
 about-us = Fell-aɣ
 
@@ -92,6 +93,7 @@ about-us = Fell-aɣ
 
 ## Hero section
 
+hero-title = Takinuljit yettmeslayen tutlayt-nwen·nkent
 
 ## Action items section
 
