@@ -52,6 +52,14 @@ mel = سنٹرل میلاناؤ
 mmc = مچوآکان مزاہوا
 ms-MY = بہاسا ملائی
 msi = صباح ملائی
+pez = اُوبھرندے پینان
+pne = اُولاندے پینان
+sdo = سیریان بیدایو
+snv = سابان
+tr = تُرکی
+xkl = کِینیا
 
 ## Language search component
 
+language-search-placeholder = ایک ٻولی لوڑ ...
+language-search-aria-label = ایک ٻولی لوڑ

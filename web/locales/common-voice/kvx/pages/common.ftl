@@ -336,6 +336,14 @@ return-to-cv = ڪومنَ وائيس مانه واپس زائو
 email-input =
     .label = اِيميل
 loading = لوڊِنگ…
+email-opt-in-info = هُون اِيميل نئہ ليوا ڪرونه زم اُوئا را مقصد ۿارُو۔ آپرئي ڪارڪردگئي انَ ڪومنَ وائيس را اخبارون
+email-opt-in-info-title = ڪومنَ وائيس ميلنگ رو حصو ٿيو
+email-opt-in-info-sub-with-challenge = مُشڪلاتون انَ اُوئا رو مقصد، ڪارڪردگِي رئي جانڪارئي، ان ڪومنَ وائيس را ڀارام اخبارون۔
+email-opt-in-privacy-v2 = اِيميليز لِيڌا رو اِنتخاب ڪرينَ، تمي اي ڪيوا ڪوه جي تمي موزِيلا نئہ هائي جانڪارئي ۮِيڌا رئي اِجازت ۮيوه ريا زم موزِيلا ڪنئہ<privacyLink> ۾ کُلينَ ۿمڀۯايو ڳيو</privacyLink>۔
+indicates-required = جي﻿ا ڪوم ڪريا را  (*) نِيشونَ لڳايا ڳيا هائي جوم ضرُورِي سئہ۔
+not-available-abbreviation = نا
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark> امون نئہ ضرُورت سئہ</mark> <br/> <mark> تمارئي مڌت!</mark>
