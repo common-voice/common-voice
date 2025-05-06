@@ -1,5 +1,5 @@
 ## Validate Page
-validate-page-instruction = Validate <validateIcon></validateIcon> Does this questions meet the guidelines?
+validate-page-instruction = Validate <validateIcon></validateIcon> does this questions meet the guidelines?
 dataset-label = Dataset
 add-vote-success-toast-message = Prompt voted successfully
 add-vote-error-message = An error occurred while voting the prompt
