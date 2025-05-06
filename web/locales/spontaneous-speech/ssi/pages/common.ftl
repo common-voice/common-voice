@@ -22,9 +22,12 @@ report-button = سُوچنا
 # For the button to skip an item
 skip-button = سِرکاٹؔا
 submit-button = بھیݪا کرنا
+contribute = یوگدان دؔے
+request-new-language = نویں بھاشا کی ٻِنتی کر
 
 ## Navbar
 
+respond-to-prompt = جباب
 
 ## Not Found Page
 
