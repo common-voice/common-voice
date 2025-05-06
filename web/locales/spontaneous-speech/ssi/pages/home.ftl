@@ -10,3 +10,7 @@ why-card-1-text = <mark>نج بھاشݨا کے سرے</mark> اور کرنواڑ
 why-card-2-text = بھاشا کی سچائیں نتر بہتر بھِیر جِدؔا ٹرانسلینگوئجنگ اور <mark>کوڈ سوئچنگ</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = ان ٻولِیئیں نتر بہتر بھِیر واݪِیئیں کن استِما کرنے نتر سپا گھٹ یا <mark>کوئی لِکھوڑا سارا سیمان نائیں</mark> تِیا (مثال کے طور پر ، سماجیات ، ورژن ، تاریخی طور پر غیر تحریر شدہ زبانیں وغیرہ)
+how-spontaneous-speech-works = سُبھاوِک بھاشاݨ کِدؔا کام کرتا ہے
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>جھالا</mark>
+prompt-bubble-subtitle = ہم آپ کُو ایک جھالا یا سُئال دِؔکھاؤ گے
