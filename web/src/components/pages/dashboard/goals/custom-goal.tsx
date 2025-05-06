@@ -1,4 +1,4 @@
-import { Localized } from '@fluent/react';
+import { Localized, useLocalization } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { CustomGoalParams } from 'common';
@@ -194,6 +194,7 @@ export default function CustomGoal({
   dashboardLocale: string;
 }) {
   const { history, location } = useRouter();
+  const { l10n } = useLocalization();
   const api = useAPI();
   const account = useAccount();
   const { custom_goals, email } = account || {};
@@ -284,8 +285,8 @@ export default function CustomGoal({
       {showOverwriteModal && (
         <Modal
           buttons={{
-            Cancel: () => setShowOverwriteModal(false),
-            Yes: () => {
+            [l10n.getString('custom-goal-cancel')]: () => setShowOverwriteModal(false),
+            [l10n.getString('custom-goal-yes')]: () => {
               setShowOverwriteModal(false);
               handleNext(true);
             },
@@ -303,8 +304,8 @@ export default function CustomGoal({
       {showAbortEditModal && (
         <Modal
           buttons={{
-            Exit: () => setShowAbortEditModal(false),
-            Yes: () => {
+            [l10n.getString('custom-goal-exit')]: () => setShowAbortEditModal(false),
+            [l10n.getString('custom-goal-yes')]: () => {
               setShowAbortEditModal(false);
               setState(initialState);
               setTouchedStepIndex(STEPS.INTRO);

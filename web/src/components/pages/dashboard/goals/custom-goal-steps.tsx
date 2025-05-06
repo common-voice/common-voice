@@ -54,7 +54,9 @@ export const ViewGoal = ({
 }) => (
   <div className="padded view-goal">
     <div className="top">
-      <h2>Custom Goals</h2>
+      <Localized id="title-goals">
+        <h2 />
+      </Localized>
       <button className="edit-button" type="button" onClick={onNext}>
         <PenIcon />
       </button>
@@ -67,9 +69,9 @@ export const ViewGoal = ({
 
           <div className="relative">
             <CircleProgress value={value / amount} />
-            <div className="interval">
-              {days_interval == 7 ? 'Of weekly goal' : 'Of daily goal'}
-            </div>
+            <Localized id={days_interval == 7 ? 'weekly-goal' : 'daily-goal'}>
+              <div className="interval" />
+            </Localized>
           </div>
 
           <LinkButton
