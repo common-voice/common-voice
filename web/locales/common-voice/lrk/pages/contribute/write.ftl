@@ -1,10 +1,10 @@
 ## WRITE PAGE
 
-write = ليک
-write-instruction = جمہ<icon></icon>عوامي ڊومين ري سزا
-write-page-subtitle = آ ڀيآرا ڪريوڙا جملا عوامي طور تي دستياب cc-0 لائسنس يافته ڊيٽاسيٽ ۾ ڀيرا ميلايا جائي
+write = ليکو
+write-instruction = عوامي ڊومين رو جملو <icon><icon> ݾامل ڪروط
+write-page-subtitle = آ ڀيرا ڪريوڙا جملا عوامي طور تي دستياب cc-0 لائسنس يافته ڊيٽاسيٽ ۾ ڀيرا ميلايا جائي
 sentence =
-    .label = جملا
+    .label = جملو
 sentence-input-placeholder = ايئي آپرو عوامي ڊومين جملو ڀيرو ڪرو.
 small-batch-sentence-input-placeholder = ايئي آپرو عوامي ڊومين جملو ڀيرو ڪرو.
 citation-input-placeholder = آپري جملل ري وجہ رو حوالو ڌيو (لازمي)
