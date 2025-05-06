@@ -17,6 +17,11 @@ media-recorder-api-not-supported = تھارے بھائینٚم MediaRecorder API
 skipped = جھوڈؔی دِؔیا
 audioplayer-header = سُٹؔنا
 guidelines = سِکھِیا
+# For the button to report an item
+report-button = سُوچنا
+# For the button to skip an item
+skip-button = سِرکاٹؔا
+submit-button = بھیݪا کرنا
 
 ## Navbar
 
