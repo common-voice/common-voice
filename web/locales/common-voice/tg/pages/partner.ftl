@@ -1,5 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = Шарикӣ
+partnerships-header-text = Барои амалӣ шудани «Common Voice» бисёр вақт лозим аст! Мо ин корро танҳо намекунем. Мехоҳед бо мо шарик шавед? Мо мехоҳем фикри шуморо бишнавем.
 partnerships-get-in-touch = Дар тамос шавед
 partnerships-become-a-partner = Шарики лоиҳаи «Common Voice» шавед
 partnerships-community-header = Ҷомеа, эҷодкорон ва ҷомеаи шаҳрвандӣ
