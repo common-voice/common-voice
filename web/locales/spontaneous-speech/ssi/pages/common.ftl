@@ -34,6 +34,7 @@ check-transcriptions = جانٚچ
 ## Not Found Page
 
 not-found-page-header = نائِیں مِلا
+not-found-page-content = جِس پنے کُو آپ لوڑی رے ہے ٻو نائِیں مِلی سِکا
 
 ## Language search component
 
