@@ -79,13 +79,17 @@ about-playbook-how-grow-language-content-6 = Partnerstva in mreže
 about-playbook-how-validate = Kako vem, ali naj glasovni posnetek odobrim?
 about-playbook-how-validate-content-1 = Če ga lahko <strong>slišite</strong> in <strong>razumete</strong>, je običajno <strong>najbolje, da ga odobrite</strong>.
 about-playbook-how-validate-content-2 = <strong>Ne zavračajte posnetkov, na katerih "ima govornik naglas", drugačen od vašega</strong> – takšni posnetki so pomembni, da bi prepoznavanje govora delovalo bolje za vse.
+about-playbook-how-validate-content-3 = Če menite, da je posnetek zaradi izgovorjave <strong>nemogoče razumeti</strong>, če je <strong>v ozadju veliko šuma</strong> ali pa <strong>govorijo tudi drugi</strong>, ga zavrnite. <accuracyLink>Več informacij si oglejte v naših merilih za natančnost</accuracyLink>.
 
 ## How to access dataset
 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Naše upravljanje temelji na:
 about-playbook-how-project-governance-content-3 = Zasebnost, varnost in preglednost.
+about-playbook-how-project-governance-content-5 = vrednotah in prepoznavnosti.
+about-playbook-how-project-governance-content-6 = vzajemni odgovornosti.
 
 ## How is Common Voice funded
 
