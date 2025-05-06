@@ -120,6 +120,7 @@ contribution-misreadings-example-8-explanation = tɔ̀m wéndì tɩ̀fɛ̀ɩ́
 contribution-varying-pronunciations-title = màtɩ̀rɛ̀ ŋ́tɩ̀ŋtɩ̀
 contribution-varying-pronunciations-description = ɩ̀lá sìkà nánɩ̀ ɩ̀kízì tɔ̀m yàà  wéndì mɩ̀mɔ́zɩ̀ sìsè àbàlʊ yàà hàlʊ̀ kàlɩ̀rʊ̀ tɩ̀màtɩ        A REVOIR
 contribution-varying-pronunciations-description-extended = á bɩ̀kɩ̀lɩ́, á mɩ̀mɔ́zɩ̀ sìsè páá wɩ̀ɖɛ̀ àbàlʊ yàà hàlʊ̀ kàlɩ̀rʊ̀ tɩ̀kàtɩ̀tà tɔ̀m pɔ̀ɖɛ̀ nɛ̀ wénjádɩ̀ sìsè ɩ̀tɩ̀rɩ̀kɩ́ ŋ̀gɩ̀nɩ́ bɔ́tɔ́ŋgɛ̀ nà, ɩ́gbɛ̀dɩ̀ ɩ̀kɩ́zɩ̀ lòú kɩ̀lɛ̀. á mìnlám sɩ̀kà, ɩ̀ñɔ́ɔ́ wénkɩ̀ kɩ́ŋdɛ̀ná ɖɔ́zɩ̀
+contribution-varying-pronunciations-example-1-title = zìrígí wánàrɩ́ɩ́ sàfʊ́wá ɖàbàtà
 contribution-varying-pronunciations-example-1-explanation = [ŋ̀gɩ̀nɩ̀ pɔ́dɔ̀m « Wagon » nà pɩ̀jɔ́ɔ́ kɔ̀zɔ́ɔ̀ kàkà mɩ̀nnɩ́ɩ́ « Vagon » (FR) yàà « Ouagon » (BE)]
 contribution-varying-pronunciations-example-2-explanation = [frãsɩ̀ tàá pɔ̀dɔ̀m « sãdùsɩ̀ » nɛ̀ tɔ̀m kʊ̀rʊ̀mʊ́, pɩtɩ̀kènà nàtɩ̀lɛ̀]
 contribution-background-noise-title = nʊ̀ʊ́-daá cɛɛ́dɩ̀
