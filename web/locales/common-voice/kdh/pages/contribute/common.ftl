@@ -137,6 +137,7 @@ contribution-background-voices-description-extended = á lòú wɛ̀nɩ̀ ma�
 contribution-background-voices-example-1-title = ɖóó lɔ̀n tà fɔ́ndá kpɩ́ŋná ɖàlàm-ɖàlàm. <strong>[kàɖàà nɔ̀ɔ́ wàkàlɩ̀ná]
 contribution-background-voices-example-1-explanation = ñɔ́kɔ̀nɩ́ɩ́ ? <strong>[nɔ̀ɔ̀ nàkɛ̀rɛ́ wámàtɩ̀]</strong>
 contribution-volume-title = lòú kɩ̀gbázɩ̀kɩ̀
+contribution-volume-description = wèmbà báŋkàlɩ́ɩ̀ bɔ́ŋgbɔ̀wʊ́ nɩ̀ bɛ̀dɛ́ɛ̀ lòní wágbà pɩ̀kɩ̀lɩ̀ ɖámà. Nànɩ́ ìkìzí nɛ̀ àsé mɩ̀nà sìsè lòú wàkɩ̀lɩ̀ kpá yàà kɩ̀kɩ̀lɩ̀ tìm nɛ̀ wéyèlè tɔ̀m kpɔ̀wʊ̀ tàlàkàzɔ́.
 contribution-reader-effects-title = nɔ̀ɔ̀ kɩ̀gbázɩ̀á nɩ̀ wéŋkɩ̀ kɩ́ŋgbázɩ́  màtɩ̀rɛ̀ nà
 contribution-reader-effects-description = ɩ́rà wàmàtɩ̀ ná pòlòwú lòní ɖábàtà tà. mìmbɩ́zɩ̀ sé ìtiìsí ɖélí wàà lòú wéŋkɩ̀ pòókó ŋtɩ́ndɩ̀, pàsààzɩ́ yàà pàmàtɩ̀ kɔ̀zɔ́ nɩ̀ « kɔ̀dɔ́ŋá kʊ́ʊ̀ » kùúzì. ɩ̀kpɛ̀tɩ̀ ɩ̀kìzì lòní wénɩ̀ pédé nà nɩ̀ wèmbà pànlàná ɔ̀rtìnàtɛ̀rɩ̀ tɛ̀ kùúzì.
 contribution-just-unsure-title = mɩ̀lám sɩ́kà ?

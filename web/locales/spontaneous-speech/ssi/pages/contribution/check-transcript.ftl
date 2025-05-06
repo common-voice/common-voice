@@ -7,3 +7,6 @@ check-editbox-header = جانٚچ
 no-transcriptions-message = اٻکے اس ٻولِیا کی جانچ کرنے نتر کوئی نکݪ ماجود نائِیں تی۔ کِرپا کری پنے کُو تاجا کر یا پِچھِیں پُوٹھا جتن کر۔
 vote-transcript-success = ٹرانسکرپٹان سپلتاس ووٹ دِؔیا
 vote-transcript-error = ٹرانسکرپٹا کُو ووٹ دؔیتے سمے ایک کھرابی ہوئی
+transcript-edited-success = ٹرانسکرپٹ سپھلتاس توڑ جوڑ کری گئی
+transcript-edited-error = ٹرانسکرپٹام توڑ جوڑ کرتے سمے ایک کھرابی سامے آئی
+error-fetching-transcriptions = نکݪ لیتے کرتے سمے تھوڑا گلت ہوئی گا۔ کِرپا کری پِچھیں میں پُوٹھا جتن کر۔
