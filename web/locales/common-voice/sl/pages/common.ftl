@@ -39,6 +39,7 @@ da = danščina
 de = nemščina
 dsb = dolnja lužiška srbščina
 dv = diveščina
+ee = eveščina
 el = grščina
 en = angleščina
 eo = esperanto
