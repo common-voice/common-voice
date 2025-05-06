@@ -8,15 +8,15 @@ how-does-it-work-text = امي ٻوليو ري ايڪ اوپن سورس ڊيٽا
 ## How does it work section
 
 about-language-req-subtitle = ڪوئي مينک ٻولي ني ڀيري ڪريا ھارو ڪي ھي
-about-localization-title = Website Localization
+about-localization-title = ويب سائيٽ Localization
 about-localization-subtitle = ويب سائيٽ رو متن ي ٻولي ۾ ترجمو ڪريوڙو ھي.
 about-sentence-collection-title = جملو رو ڀندار
-about-sentence-collection-subtitle = مينکئ ني اونچي آواز مون پڙھيا ھارو جملا ڀآرا مآلايا جائي.
+about-sentence-collection-subtitle = مينکو ني اونچي آواز مون پڙھيا ھارو جملا ڀيرا مآلايا جائي.
 about-new-lang-title = نوي ٻولي آوي
 about-new-lang-subtitle = امي آ  ٻولي ۾ ڪامن وائس سائيٽ لانچ ڪرون ھون
-about-voice-contrib-title = آواز و تعoون
-about-voice-contrib-subtitle = مينک آوتا ھتا ھين آپرو آواز اونچو ڪرتا ھتا .
-about-voice-validation-title = آواز رو جوڻ
+about-voice-contrib-title = آواز رو تعاون
+about-voice-contrib-subtitle = مينک آوتا ھتا ھين آپرو آواز دون ڪري .
+about-voice-validation-title = آواز ري تصديق
 about-voice-validation-subtitle = ٻيجو مينک او وائس ڪلپس نو چيڪ ڪري ھي .
 about-dataset-release-title = ڊيٽا سيٽ واپسي آوي
 about-dataset-release-subtitle = مي ھر دن ديٽا سيت جاري ڪرو ھون
