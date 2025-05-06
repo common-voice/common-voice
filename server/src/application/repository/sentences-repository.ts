@@ -444,7 +444,7 @@ export const findVariantSentences: FindVariantSentences = (
           LEFT JOIN variants ON (variants.id=sm.variant_id)
           WHERE
             is_used
-            AND locale_id = (SELECT id FROM locales WHERE name = ?)
+            AND s.locale_id = (SELECT id FROM locales WHERE name = ?)
             AND clips_count <= 15
             AND ${
               sentencesWithVariant
