@@ -1,7 +1,7 @@
 speak = ٻولو
 speak-now = ھمڙي ڀولو
-speak-subtitle = آواز نآ دون ڪرو
-record-cta = رآڪاڌيگ ݾروع
+speak-subtitle = آپري آواز دون ڪرو
+record-cta = رآڪاڌيگ ݾروع ڪرو
 record-platform-not-supported = معاف ڪرجو، تمو رو پليٽ فارم اي وقت سپورٽ ھويوڙوو هي.
 record-platform-not-supported-desktop = ڊيسڪ ٽاپ ڊوائيسز تي تمي ڊائون لوڊ ڪرتي حصو لئي سگهو ...
 record-platform-not-supported-ios-non-safari = iOS تي رڪارڊنگ ني فعال ڪريا ھارو مهربوني ڪرين سفاري مون جاري رکو...
