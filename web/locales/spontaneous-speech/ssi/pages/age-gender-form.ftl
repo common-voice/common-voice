@@ -18,3 +18,7 @@ thank-you-for-your-information = آپ کی جانکارِیا نتر دھنِی�
 
 male_masculine = مِنکھ / مِنکھاڑا
 female_feminine = ٻائِیر / بھتاݨی
+intersex = نسݪ سیمݪ
+transgender = ٻِسر نسݪ
+non-binary = کھدؔڑا
+do_not_wish_to_say = ٻولݨیں کی اِنچھا نائیں تی

@@ -1,6 +1,8 @@
 ## General
 
-action-click = دؔٻاٹؔا
+# Toast message that is displayed when an error occurs
+error = کھرابی
+action-click = دؔٻاٹؔاں
 
 ## Navbar
 
