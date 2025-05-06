@@ -30,11 +30,16 @@ request-new-language = نویں بھاشا کی ٻِنتی کر
 respond-to-prompt = جباب
 transcribe = نکل کر
 check-transcriptions = جانٚچ
+question = سُئال
 
 ## Not Found Page
 
 not-found-page-header = نائِیں مِلا
 not-found-page-content = جِس پنے کُو آپ لوڑی رے ہے ٻو نائِیں مِلی سِکا
+# Privacy and Terms checkbox
+accept-privacy-and-terms = ہُوں سادھارݨ اواجا کِیاں <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت سُوچناس</privacyLink> سہمت ہے
+# Locales
+bsy = صباح بسایا
 
 ## Language search component
 
