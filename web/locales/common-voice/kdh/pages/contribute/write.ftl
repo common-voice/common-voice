@@ -20,6 +20,7 @@ new-sentence-rule-4 = pɩ̀bɔ́zɩ̀ tɔ̀m pɩ̀yà tɛ̀ mádɩ̀ nà ɖa�
 new-sentence-rule-5 = pàkàɖʊ̀ àkɔ́ntàn pìyà  yàà màdɩ́ŋ pìyà bànà pándɩ̀ nɛ́
 new-sentence-rule-6 = màdɩ́n pìyà ɩ̀gɔ̀mà fɛ̀yɩ̀
 new-sentence-rule-7 = kèjéèrì tɔ̀m pàvàtɩ̀ mbʊ̀ nɛ̀ mɔ́nà tɩ̀wɛ̀bɩ̀tá
+new-sentence-rule-8 = pɩ̀boɔ̀zɩ́ tɔ̀m pɔ̀ɖɛ̀ fʊ̀ʊ́ wèmbì kʊ̀nʊ́m wómbòɖé nɛ̀ pɩ̀ká pɩ̀fɛ̀yɩ̀ kàlɛ̀ kàlɩ́ɩ́
 login-instruction-multiple-sentences = <loginLink>èzʊ́ʊ́ nɩ̀mbɩ̀kà ɖɔ́zɩ̀</loginLink> yàà<loginLink>ɩ̀má mɩ̀yɩ̀ɖɛ̀ </loginLink>ɩ̀zúrɩ̀ tɔ̀m pɔ̀wà ɖábàtà
 how-to-cite = ŋgɩ̀nɩ̀ kɛ̀ paŋlám kèjéèrí tɔ̀m ?
 how-to-cite-explanation-bold = ɩ̀ɖɩ̀ kèjéèrí tɔ̀m pɩ̀ká ɩ̀ɖɩ̀ nɩ̀mbɩ̀kà yàà tàkàràdàn wènkì táá pàmàtɩ̀nɛ̀ tɛ́ hɩ̀ɖɛ̀ ɖɩ̀nà

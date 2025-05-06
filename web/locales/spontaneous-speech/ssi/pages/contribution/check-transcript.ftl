@@ -10,3 +10,11 @@ vote-transcript-error = ٹرانسکرپٹا کُو ووٹ دؔیتے سمے ا�
 transcript-edited-success = ٹرانسکرپٹ سپھلتاس توڑ جوڑ کری گئی
 transcript-edited-error = ٹرانسکرپٹام توڑ جوڑ کرتے سمے ایک کھرابی سامے آئی
 error-fetching-transcriptions = نکݪ لیتے کرتے سمے تھوڑا گلت ہوئی گا۔ کِرپا کری پِچھیں میں پُوٹھا جتن کر۔
+transcript-skipped-success = ٹرانسکرپٹ سپھلتا کے سات چھوڈؔی دِؔیا
+transcript-skipped-error = ٹرانسکرپٹا کُو چھوڈؔ تییِاݨیں ایک کھرابی گھٹی
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = سئی
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = ہوئی گا
+# For the button on the Check Transcriptions page to edit a transcription
+edit = توڑ جوڑ
