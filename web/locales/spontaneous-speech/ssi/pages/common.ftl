@@ -28,9 +28,12 @@ request-new-language = نویں بھاشا کی ٻِنتی کر
 ## Navbar
 
 respond-to-prompt = جباب
+transcribe = نکل کر
+check-transcriptions = جانٚچ
 
 ## Not Found Page
 
+not-found-page-header = نائِیں مِلا
 
 ## Language search component
 
