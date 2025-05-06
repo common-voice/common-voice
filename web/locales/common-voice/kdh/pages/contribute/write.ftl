@@ -24,6 +24,7 @@ new-sentence-rule-8 = pɩ̀boɔ̀zɩ́ tɔ̀m pɔ̀ɖɛ̀ fʊ̀ʊ́ wèmbì k�
 login-instruction-multiple-sentences = <loginLink>èzʊ́ʊ́ nɩ̀mbɩ̀kà ɖɔ́zɩ̀</loginLink> yàà<loginLink>ɩ̀má mɩ̀yɩ̀ɖɛ̀ </loginLink>ɩ̀zúrɩ̀ tɔ̀m pɔ̀wà ɖábàtà
 how-to-cite = ŋgɩ̀nɩ̀ kɛ̀ paŋlám kèjéèrí tɔ̀m ?
 how-to-cite-explanation-bold = ɩ̀ɖɩ̀ kèjéèrí tɔ̀m pɩ̀ká ɩ̀ɖɩ̀ nɩ̀mbɩ̀kà yàà tàkàràdàn wènkì táá pàmàtɩ̀nɛ̀ tɛ́ hɩ̀ɖɛ̀ ɖɩ̀nà
+how-to-cite-explanation = à mɩ̀tɩ̀tɩ́ŋà mɩ̀tɛ̀ɛ́ tɔ̀m pìyà kɛ̀ pɩ̀kɛ́ɛ̀, ɩ̀gbɛ̀dɩ̀ kɛ̀ ɩ̀ɖʊ́ sìsè mɛ̀dɛ́ <italicizedText> « kìjèérì tɔ̀m ». ɖɔ́zɔ̀lɛ̀ɛ́ ʈɩ̀tɩ̀lɩ̀ tɔ̀m tɩ́ŋ ɖɩ̀yákàlɩ̀nàɖɛ̀ nà ɖɩ̀bɩ́zɩ̀ ɖɩ̀bɛ̀ŋ́ sìsè áyɩ̀ ɖɩ̀kɛ̀ɛ́ sàmɔ́ ɖɩ́ŋɛ̀ tɛ̀ ndɩ́ ŋgɛ̀ɛ́ pɩ̀tɩ̀kɩ̀zɩ̀nàtɩ̀ pà náɖʊ̀. Nɛ̀ ɩ̀tàsɩ̀ ɩ̀hɩ̀wʊ̀ páɖʊ́ wà kìjèérì tɔ̀m wàrʊ́ nɛ̀ ɩ̀bɛ̀m <guidelinesLink>ɖɛ̀dɛ́ɛ̀ wèntʊ̀ wà bázɩ́zɩ̀ nɛ̀</guidelinesLink>
 guidelines = wèmbì wàà pàzɩ́tɩ̀nɛ̀
 contact-us = ɩ̀yáá ɖàà
 add-sentence-success = tɔ̀m pɔ̀ɖɛ̀ tùùzí
