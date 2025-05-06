@@ -40,6 +40,12 @@ not-found-page-content = جِس پنے کُو آپ لوڑی رے ہے ٻو نا�
 accept-privacy-and-terms = ہُوں سادھارݨ اواجا کِیاں <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت سُوچناس</privacyLink> سہمت ہے
 # Locales
 bsy = صباح بسایا
+cdo = فوژو
+cpx = ہینگ ہوا
+en = انگریجی
+fr = فرانسی
+hch = وِکساریکا
+kzi = کیلا بیٹ
 
 ## Language search component
 

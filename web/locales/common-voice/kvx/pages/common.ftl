@@ -316,6 +316,12 @@ profile = پروفائل
 help = مڌت
 contact = رابطو
 privacy = پڙڌو
+terms = شرطون
+cookies = ڪوڪِيز (بِسڪيٽ)
+faq = ايف اي ڪيُو
+documentation = ڌستاويز (ڪاڳۯ)
+content-license-text = اِيئا هيٺ مواد موجود سئہ<licenseLink>  ٺاوَل لائيسينس</licenseLink>
+share-title = امارِي قوم رو حِصو ٿيو
 
 ## Donate banner
 
