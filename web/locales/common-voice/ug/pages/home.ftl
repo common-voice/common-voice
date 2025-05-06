@@ -85,6 +85,8 @@ transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات ي
 press-and-stories = خەۋەر ۋە ماقالە
 community-and-languages = جامائەت ۋە تىل
 coming-soon = پات يېقىندا قوشۇلىدۇ
+about-us = بىز ھەققىدە
+spontaneous-speech = تەبىئىي نۇتۇق
 
 ## MENU ITEMS TOOLTIPS
 
