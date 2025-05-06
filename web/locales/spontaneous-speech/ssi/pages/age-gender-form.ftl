@@ -3,6 +3,10 @@ age-gender-form-title = بے دھڑک بھاشݨام بھاگ لیݨیں نتر 
 age-gender-form-subtile = ہمکُو اپٹؔے باریم بھتائی کن، تھم ڈویلپرزا کُو گھٹؔی سیمݪ ٹیکنالوجی بٹؔاٹؔیم ساہیتا کرونٚگڑے
 add-information-button = جانکاری بھیݪی کراو
 continue-speaking-button = لاگِیتار ٻولݨا
+age-select-label = آپ کی اُومر کِتری ہے?
+select-your-age = اپݨیں اُمرا کا چُناوَ کر
+gender-select-label = آپ کی نسݪ یا لِنگ کیا ہے؟
+select-your-gender = اپݨیں نسݪ یا لِنگا کا چُناوَ کر
 
 ## Gender dropdown
 
