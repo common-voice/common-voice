@@ -78,3 +78,4 @@ variant-contribution-help = کسی ٻولی یا ٻولِیا کے نسݪا کے
 variant-contribution-option-1 = مِسکُو میری ٻولِیا کے میئھِیم سارے نامُونے کے ٻول اور تُکڑے دِؔکھاوَ
 variant-contribution-option-2 = مِسکُو رُگی میرے وِلپا کے ٻول اور ٹُکڑے دِؔکھاوَ
 variant-contribution-warning-title = (i) سارے ٻولیں اور ٹکڑیم اِٻکے تائِیں وِکلپ جھاگا نائِیں تی!
+variant-contribution-warning-subtitle = جے اگر تھم کُو یوگدؔان کرنیم کٹھنائی ہوئی ری ہے تو ، تھم کِسی بھی سمیپ اپݨیں ٻولِیا نتر سارا سیمان دؔیکھݨینٚپ پُوٹھے جائی سِکتے ہے۔
