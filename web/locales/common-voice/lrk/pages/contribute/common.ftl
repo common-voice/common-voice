@@ -70,7 +70,7 @@ shortcut-skip = ايس
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = آر
-shortcut-record-toggle-label = ريڪورڊ / بند
+shortcut-record-toggle-label = ريڪورڊ / روڪو
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ٻيجو رڪارڊ ڪلپ
 shortcut-discard-ongoing-recording = اي ايس سي
@@ -84,23 +84,23 @@ request-language-button = ٻولي ري منت ڪرو
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = p
+shortcut-play-toggle = پي
 shortcut-play-toggle-label = رمو / بند
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = y
+shortcut-vote-yes = وائي
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = n
+shortcut-vote-no = اين
 
 ## Validation criteria
 
 contribution-criteria-nav = معيور
 contribution-criteria-link = مليا ري معيور ني ھمجو
 contribution-criteria-page-title = تعاون رو معيار
-contribution-criteria-page-description = ھمجھو تو وائس ڪلپس ھڻيا ري وقت ڪاو جوو ڪپي ھين آپري وائس رڪارڊنگ ني وڌيڪ امير بڻايا مدد ڪريو.
+contribution-criteria-page-description = ھمجھو تو وائس ڪلپس ھڻيا ري وقت ڪاو جوو ڪپي ھين آپري وائس رڪارڊنگ ني وڌيڪ امير بڻايا مدد ڪرو.
 contribution-for-example = مثال طور
-contribution-misreadings-title = غلط فهميون
+contribution-misreadings-title = غلط پڙھوُو
 contribution-misreadings-description = ھڻيا ري وقت، گھڻي پرک مو چيڪ ڪرو ڪي جي رڪارڊ ڪري هي آ بلڪل آ ئي لکيوڙون هي؛ جيڪدي  ٿوڙي غلطيون بي هوئي توغلط ڪرو.
 contribution-misreadings-description-extended-list-1 = رڪارڊنگ جي شروعات ۾ غائب هي.
 contribution-misreadings-description-extended-list-2 = لفظ ري آخر ۾غائب هي
