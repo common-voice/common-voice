@@ -276,6 +276,7 @@ tig = ٽائيگر
 tk = تُرڪمينَ
 tl = ٽيگالوگ
 tn = سيٽسونا
+tob = توبا قوم
 tok = توڪِي پونا
 tr = تُرڪِش
 ts = ايگزسونگا
@@ -347,3 +348,7 @@ not-available-abbreviation = نا
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark> امون نئہ ضرُورت سئہ</mark> <br/> <mark> تمارئي مڌت!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = هر سال ڊيٽا سيٽ نئہ هوسٽ ڪريا ۿارُو انَ پليٽ فارم نئہ ٺائُوڪو ٺايا ۾ لگ ڀڳ هيڪ ملينَ ڊالر رو کرچو آوئه،+ 100 ٻوليون رئي قوم جيو امارئي مڌت پر انحصار ڪرئه، اُوئون رو ڦائيڌو ٿي هيڪئہ۔<strong> جيڪيۮِي تمي کُلل، ڊيٽا رئي قڌر ڪرو- آز ئي ۮونَ ڪرو! </strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> سِي وِي رو اِستعمال</mark> <br/> <mark> ڳوتيا ۿارُو ڪروه ريا؟<mark>
