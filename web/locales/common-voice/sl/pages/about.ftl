@@ -88,8 +88,11 @@ about-playbook-how-validate-content-3 = Če menite, da je posnetek zaradi izgovo
 
 about-playbook-how-project-governance-content-2 = Naše upravljanje temelji na:
 about-playbook-how-project-governance-content-3 = Zasebnost, varnost in preglednost.
+about-playbook-how-project-governance-content-4 = skupnostnem sodelovanju in odločanju.
 about-playbook-how-project-governance-content-5 = vrednotah in prepoznavnosti.
 about-playbook-how-project-governance-content-6 = vzajemni odgovornosti.
+about-playbook-how-project-governance-content-7 = <governanceLink>Preberite več o tem, kako smo upravljani</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Kako se Common Voice financira?

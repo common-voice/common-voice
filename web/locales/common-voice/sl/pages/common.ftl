@@ -31,6 +31,7 @@ cak = kaqchikel
 ckb = osrednja kurdščina
 cnh = hakha chin
 co = korziščina
+crh = krimska tatarščina
 cs = češčina
 cv = čuvaščina
 cy = valižanščina
