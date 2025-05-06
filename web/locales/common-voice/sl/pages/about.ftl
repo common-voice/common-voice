@@ -6,6 +6,20 @@ how-does-it-work-text = Ustvarjamo odprtokodni glasovni nabor podatkov. Prispeva
 
 ## How does it work section
 
+about-language-req-subtitle = Nekdo zahteva dodajanje jezika.
+about-localization-title = Lokalizacija spletnih strani
+about-localization-subtitle = Besedilo spletnega mesta je prevedeno v ta jezik.
+about-sentence-collection-title = Zbiranje stavkov
+about-sentence-collection-subtitle = Stavki so zbrani, da jih ljudje lahko berejo naglas.
+about-new-lang-title = Objava novega jezika
+about-new-lang-subtitle = Objavili smo spletno stran Common Voice v tem jeziku.
+about-voice-contrib-title = Glasovni prispevek
+about-voice-contrib-subtitle = Ljudje prihajajo in prispevajo svoj glas.
+about-voice-validation-title = Preverjanje glasu
+about-voice-validation-subtitle = Drugi ljudje potrdijo te glasovne posnetke.
+about-dataset-release-title = Izdaja nabora podatkov
+about-dataset-release-subtitle = Nabor podatkov objavimo vsake 3 mesece.
+about-subscribe-text = Želite ostati v stiku s skupino Common Voice?
 about-speak = Govori
 about-speak-text = Sodelujoči posnamejo glasovne posnetke iz nabora zbranih stavkov.
 about-listen-queue = Poslušaj – Čakalna vrsta
@@ -28,6 +42,8 @@ about-get-involved-text-2 =
     Odlično! Oglasite se nam po e-pošti ali na <discourseLink>forumu Discourse</discourseLink>,
     pošljite povratne informacije na <githubLink>GitHubu</githubLink>
     ali se nam pridružite na <matrixLink>kanalu Matrix</matrixLink>.
+about-stay-in-touch = Kako lahko ostanem v stiku?
+about-stay-in-touch-button = Registracija
 about-nav-why-common-voice = Zakaj?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
