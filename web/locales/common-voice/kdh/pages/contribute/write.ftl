@@ -82,6 +82,7 @@ accepted-files = fàtàkàsɩ̀ wènzì pɩ̀ndɩ̀zɩ̀ ná : .tsv ɖék
 minimum-sentences = tɔ̀m pɔ̀wà tɛ́ ɖɔ̀mɩ̀nɩ̀ kɛ̀dɛ́zɩ̀yà fàtàkà tàa : mɩ̀lɩ̀
 maximum-file-size = fàtàkà tɛ́ ɖɔ̀mɩ̀nɩ̀ ɖɩ́ŋà : 25 Mo
 what-needs-to-be-in-file = wé wàmbɩ̀zɩ̀ kʊ̀ pɩ̀zɩ́ŋ fàtàkáŋ tàà ?
+what-needs-to-be-in-file-explanation = ɩ̀ɖʊ̀ zùrúu ɩ̀bɛ̀m dɛ̀dɛ̀ɛ́ <templateFileLink> lɛ̀zʊ́</templateFileLink>. mɩ̀dɛ̀ɛ́ tɔ̀m pɔ̀wà tɔ̀mɔ́nà kpɩ́ŋɖá tù tɛ̀ kɩ̀zɩ̀ná wɔ̀bʊ́ɖʊ́ (CC0 yàá tɩ̀mɩ̀ɖɛ́ kàɖáà ndɛ̀ kàlɩ̀tɩ̀tʊ́ wávà nɩ̀mbáwʊ́ nɛ̀) pɩ̀ká pʊ̀mʊ̀ná à sɩ̀sɛ́ áfɛ̀yɩ̀ kàlɛ̀ kàlɩ́. tɔ̀m pɔ̀wà sɩ̀ ìkèyèkìnɛ́ mɔ̀nɛ̀ àtɛ́ɛ̀ kàlɩ̀ɩ́ ɩ́gbɔ́ɔ́ sékɔ̃́dɩ̀ wàà fùú yà àkɩ̀zálʊ́ bɩ̀lɛ́, ɩ̀kàɖʊ́ àkɔ̃ntà pìyà pɩ̀dàá yàà yɩ̀ɖà tɩ̀tɩ̀ŋà yàà màtɩ́ŋ pìyà pànà bándɩ̀ nà
 upload-progress-text = pʊ̀wɛ̀ pɩ́ŋɖɛ́ɛ́
 sc-bulk-submit-confirm = mánɖʊ́ʊ́ àzééɖè sìsè tɔ̀m pɔ̀wà tɩ̀nà tɩ̀kèná <wikipediaLink>zàmɔ́ɔ̀-dàá fàrándɩ̀</wikipediaLink> nɩ̀ pàfàmà nɔ́ɔ́ sìsè mèyèkìyɛ̀
 bulk-upload-success-toast = tɔ̀m pɔ̀wà péyèkɩ̀nɛ̀
