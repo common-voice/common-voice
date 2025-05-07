@@ -55,9 +55,18 @@ about-nav-playbook = ہیل کر کہ امر بشخ الیرہ
 
 about-playbook-what-is-language = کامن وائس ٹی زبان انت ئس اے؟
 about-playbook-what-is-language-content-1 = زبان نا باروٹ سوچنگ نا باز ڈول ارے۔ اسپیچ ریکگنیشن ماڈلز نا مسخت کن، کامن وائس سوج ایتک کہ 'اواری سوچنگ' آ خیال کننگ اے، یا 'انت اندا زبان نا پاروکاک زیات اسے ایلو ئے پو مننگ نا کوشست ئے کیرہ؟
+about-playbook-what-is-language-content-2 = نن خوانہ کہ ہیت کروکا ماڈلز تقریر کروکانا متنوع رینج ئے پو مننگ کن جوان اوٹ۔ دا وڑ مننگ کن، صوتی ڈیٹا سیٹ ئے باز جتا بندغاتا راہشونی کروئی اے۔
+about-playbook-what-is-language-content-3 = گڑاس زبان آتیٹی گرامر، لوز و ادائیگی ٹی باز زیات فرق ارے۔ اندا سوب آن، نن 2022 ٹی <ctaLink>'متغیرات'</ctaLink> درشان کننگ اون۔ یہ خاہوت آتے بھلو ڈیٹاسیٹ ٹی تینا زبان آتا فرق ئے پو مننگ نا ڈول ئس ایتک۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = ای زبان ئس امر ساڑی کیو؟
+about-playbook-how-add-language-content-1 =
+    اولیکو، چیک کر کہ انت نما زبان <languageLink>وختی آن ساڑی اے</languageLink>۔
+    اگہ دن اف گڑا، نم <languageRequestLink>تینا زبان ئے ساڑی کننگ نا باروٹ ارفنگ کیرے</languageRequestLink>۔
+    ارا مراحلہ او۔ سائٹ نا مٹ کننگ، او جملہ جمع کننگ
+about-playbook-how-add-language-translating-heading = سیٹ نا مٹ کننگ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon استعمال کننگ نا طریقہ نا باروٹ ننا گائیڈ ئے ہوربو۔</translateVideoLink>
 
 ## How does localization work
 
