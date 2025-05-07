@@ -122,9 +122,13 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی مبو!</stron
 about-playbook-how-validate = ای امر چاوہ کہ توار کلپ ئے منوئی ئے کہ اخہ؟
 about-playbook-how-validate-content-1 = اگہ نم <strong>اوفتے بنیرے</strong> و <strong>پُو</strong> مننگ کیرے، گڑا عام وڑ اٹ <strong>امنائی تننگ جوان ئے</strong>۔
 about-playbook-how-validate-content-2 = <strong>اندنگا کلپس آتے رد کپابو ہراکے پاروک نا اسے لہجہ سے ہرا کے نم کن جتا اے</strong> - دا توار نا چاہنداری کن المی اے کہ ہر اسٹ کن جوان وڑ اٹ کاریم کے
+about-playbook-how-validate-content-3 = اگہ نمے لگک کہ تلفظ اودے <strong>پو مننگ ناممکن</strong> جوڑ مننگ ئے یا اوڑے <strong>بھاز پد ٹی شور</strong> ارے، یا <strong>پین بندغاک ہم ہیت کننگ او</strong>، گڑا نمے کلپ ئے رد کروئی مریک۔ <accuracyLink> ننا سہی کننگ کن بستار ٹی پین چاہنداری ہوربو۔</accuracyLink>۔
+about-playbook-how-validate-content-4 = اگہ اسے کلپ ارا بندغ آن رد مسونےگڑا دا اسے پین جتاؤ ڈیٹا سیٹ نا سب سیٹ اٹی جاری مسونے۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ای امر ڈیٹا سیٹ اے کارمرز و اوڑا سر مننگ کیوہ؟
+about-playbook-how-access-dataset-content-1 = نم <datasetsPage>datasets صفحہ</datasetsPage> آ اننگ کیرے، تینا منشا نا ورژن و زبان تے گیچن کننگ کیرے، و دادے ڈاؤن لوڈ کننگ کیرے! فائل آتیٹی <metadataLink>باروٹ میٹا ڈیٹا</metadataLink> ارے۔، دنکہ آبادیاتی معلومداری و منظوری نا ڈیٹا ۔ ڈیٹا سیٹ ئے ڈاؤن لوڈ  کننگ کے نمے اسے ای میل ئس تننگک۔
 
 ## How are decisions made
 
