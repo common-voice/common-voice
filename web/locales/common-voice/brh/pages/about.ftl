@@ -67,6 +67,18 @@ about-playbook-how-add-language-content-1 =
     ارا مراحلہ او۔ سائٹ نا مٹ کننگ، او جملہ جمع کننگ
 about-playbook-how-add-language-translating-heading = سیٹ نا مٹ کننگ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon استعمال کننگ نا طریقہ نا باروٹ ننا گائیڈ ئے ہوربو۔</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    نن مٹ کننگ کن اسہ Mozilla ٹول ئس استعمال کینہ ہرادے <pontoonLink>Pontoon</pontoonLink> پارہ تے۔ پونٹون نا بھاز زبانک او،
+    ولے اگہ دا نما اف گڑا نم <pontoonRequestLink>تینا زبان ئے ساڑی کننگ کن خواست</pontoonRequestLink> کننگ کیرے۔۔
+    ولدا، کامن وائس پروجیکٹ آ زبان نا مننگ کن،
+    <githubRepoLink>GitHub آ پوسکنا زبان کن خواست کبو </githubRepoLink>۔ <localizationFragment>سائٹ آ مٹ پین ہوربو</localizationFragment>۔
+about-playbook-how-add-language-collecting-sentences-heading = جملہ غاتے مچ کننگ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sentence Collector نا استعمال نا باروٹ ننا گائیڈ ئے ہوربو</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    نم <sentenceCollectorLinkAdd>جملہ نا کمو کچ ئس شاغن کیرے</sentenceCollectorLinkAdd>،
+    یا نم <bulkImportDocsLink>Github نا استعمال کریسہ بلک درآمدات</bulkImportDocsLink> کننگ کیرے۔
+    یات کیرے کہ جملہ <licenseLink>CC0 (یا السی ڈومین)</licenseLink> مریر، یا نم تینٹ لکھنگ کیرے۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جملہ مچ کننگ کن پین ہوربو</sentenceCollectorFragment>۔
 
 ## How does localization work
 
