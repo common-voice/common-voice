@@ -12,6 +12,18 @@ about-localization-title = ویب سائٹ علاقائی
 about-localization-subtitle = دا ویب سائٹ نا لوز ہمو زبان ٹی مٹ مسونے۔
 about-sentence-collection-title = جملہ غاتا خوشہ
 about-sentence-collection-subtitle = جملہ غاتے مخلوق نا تیز آن توار اٹ خواننگ کن مچ کننگانے
+about-new-lang-title = پوسکنا زبان نا بنا
+about-new-lang-subtitle = نن کامن وائس نا سیٹ ئے دا زبان اٹ بنا کینہ۔
+about-voice-contrib-title = توار نا کمک
+about-voice-contrib-subtitle = بندغاک بریرہ و تینا توار نا کمک ئے کیرہ۔
+about-voice-validation-title = توار نا سوگوئی
+about-voice-validation-subtitle = ایلو بندغاک ہمو توار نا کلپس آتے سوگو کیرہ۔
+about-dataset-release-title = ڈیٹا سیٹ برجا مس
+about-dataset-release-subtitle = نن ہر مسہ تُو ٹی ڈیٹا سیٹ ئے برجا کینہ۔
+about-subscribe-text = کامن وائس تون اوار مننگ خوائیوہ۔
+about-speak = ہیت کر
+about-speak-text = کمکاراک توار آتا کلپس آتے مچ کروکا جملہ غاتیان خوانیرہ۔
+about-listen-queue = بن-لڑ
 
 ## Community Playbook Content
 ## What is a language
