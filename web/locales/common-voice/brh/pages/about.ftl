@@ -41,10 +41,20 @@ about-get-involved = ساڑی مر
 about-get-involved-text-2 = کامن وائس ئے جوان کننگ کن کمک کیک؟ گیچن! ای میل نا وسیلہ اٹ اوار مس یا نظریہ نا ہاٹی ٹی، سیٹ نا ویل آتے GitHub نا کمک اٹ ساڑی کبو۔ یا Martix مچی نا چاٹ ٹی اوار مبو
 about-stay-in-touch = ای رابطہ ٹی امر مریو؟
 about-stay-in-touch-button = مل تے
+about-stay-in-touch-text-1 = ننا میلنگ لسٹ اٹ <emailFragment>سائن اپ کبو</emailFragment>  دا چاہنگ کن کہ نی کامن وائس آ مہمات، ایونٹس و کو--ڈیزائن نا خصوصیات آتیٹی امر بشخ الیسہ۔
+about-stay-in-touch-text-2 = نم موزیلا زبان نا کمیونٹیز ٹی ایلوفتیتون ملننگ کیرے <discordLink>Discord</discordLink> یا <discourseLink>Discourse</discourseLink> سرہالی ہیت و گپ کن، یا سال و سوج کن <matrixLink>Matrix</matrixLink> ٹی ساڑی مریسہ۔
+about-nav-why-common-voice = انتئے؟
+about-nav-how-it-works = امر؟
+about-nav-partners = شراکت دار
+about-nav-get-involved = ساڑی مر
+about-nav-how-it-works-2 = کامن وائس امر کاریم کیک۔
+about-nav-playbook = ہیل کر کہ امر بشخ الیرہ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس ٹی زبان انت ئس اے؟
+about-playbook-what-is-language-content-1 = زبان نا باروٹ سوچنگ نا باز ڈول ارے۔ اسپیچ ریکگنیشن ماڈلز نا مسخت کن، کامن وائس سوج ایتک کہ 'اواری سوچنگ' آ خیال کننگ اے، یا 'انت اندا زبان نا پاروکاک زیات اسے ایلو ئے پو مننگ نا کوشست ئے کیرہ؟
 
 ## How do I add a language
 
