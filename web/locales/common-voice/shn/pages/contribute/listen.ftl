@@ -20,6 +20,9 @@ validate-readings-coming-soon = ၵူတ်ႇထတ်းသဵင်ဢၢၼ
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ၵူတ်ႇထတ်းၵၢၼ်ဢၢၼ်ႇ၊ လႄႈၵၢၼ်ထွတ်ႇသဵင်
+validate-readings-menu-item-tooltip = ၵူတ်ႇထတ်းသဵင်ဢၢၼ်ႇဢၼ်ၽူႈၸႂ်ႉတိုဝ်းဢတ်းဝႆႉၼႂ်းၽႃႇသႃႇသူၸဝ်ႈ
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = မႅၼ်ႇၼူဝ်ႇတၢင်းလိူၵ်ႈၵၢၼ်ထွမ်ႇ
+review-transcriptions-menu-item-aria-label = ႁုပ်ႈတူၺ်းၶိုၼ်းၵၢၼ်ထွတ်ႇသဵင်တူၼ်ႈထႅဝ်ဢၼ်ဢတ်းဝႆႉႁႂ်ႈတႅတ်ႈတေႃး
