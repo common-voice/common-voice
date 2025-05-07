@@ -4,6 +4,7 @@ partnerships-header-text = Common Voice-ს დუჴ ჯა́ფ კლე́ვ
 partnerships-get-in-touch = თხო́გო̆ თათაჼ ჲებათ (დაკეჲვშრებალიბათ)
 partnerships-become-a-partner = თაგლიბ Common Voice-ეჼ წევრ (ცჰ̦ა́ღქესალაჲნი̆)
 partnerships-community-header = ე́რთობ, შემოქმე́დებით საზო́გადოებ, სამოქა́ლაქო̆ საზო́გადოებ
+partnerships-community-description = თხეჼ ერთობ Common Voice-ელო მთავარ ჲა –
 partnerships-foundations-header = ფონდი
 partnerships-governments-header = სამთა́ვრობ ორგანიზაციი
 partnerships-governments-description = ათხ ლაჲტა́თხ ნა́ხნ, მე́ წი́ნ ტექნოლოგიი დანე́რგადჲოლო̆, მატტიჼ უფლები და́ცოდჲოლო̆. დაკლე́ვდოჰ̦ი́შ ჲაჴჴოჼ პროექტ ლე კამპანია ჲო́ლჲაჼ, დეხო́თხ შუხ <emailFragment> თათაჼ ჲოლუ́ჲში̆ თხო́გო̆. </emailFragment>
