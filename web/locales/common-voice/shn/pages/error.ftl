@@ -6,3 +6,6 @@ banner-error-slow-link = ၼႃႈ ၼႃႈၵၢၼ်
 error-something-went-wrong = ယွမ်းၼွမ်း၊ မီးလွင်ႈၶွင်ႈၶမ်
 error-clip-upload = လူတ်ႇၶိုၼ်ႈၶလိပ်ႉဢမ်ႇယဝ်ႉတူဝ်ႈ၊ ၸၢမ်းတူၺ်းထႅင်ႈ?
 error-clip-upload-server = လူတ်ႇၶိုၼ်ႈၶလိပ်ႉၼႆႉၽိတ်းပိူင်ႈတီႈသိူပ်ႇဝိူဝ်ႇ၊ လူတ်ႇၼႃႈၶိုၼ်းဢမ်ႇၼၼ်ၸၢမ်းတူၺ်းထႅင်ႈၵမ်းလင်။
+error-title-404 = ႁဝ်းၶႃႈဢမ်ႇႁၼ်ၼႃႈၼၼ်ႉတႃႇသူၸဝ်ႈ
+error-content-404 = ယူဝ်ၶေး <homepageLink>ၼႃႈႁိူၼ်း</homepageLink> ၸၢင်ႈတေၸွႆႈလႆႈ? တွၼ်ႈတႃႇထၢမ်ၶေႃႈထၢမ်၊ ၶႅၼ်းတေႃႈၶဝ်ႈႁူမ်ႈ <matrixLink>တူင်ႇဝူင်းဢုပ်ႇဢူဝ်း Matrix</matrixLink>၊ တူၺ်းလွင်ႈပၼ်ႁႃၼိူဝ်ဝႅပ်ႉသၢႆႉသ်တီႈၼႂ်း <githubLink>Github</githubLink> ဢမ်ႇၼၼ် လႄႈတူၺ်း <discourseLink>ၾေႃႇရမ်ႇ Discourse ႁဝ်းၶႃႈ</discourseLink>။
+error-title-503 = ႁဝ်းၶႃႈတိုၵ်ႉထူပ်းၺႃးပၼ်ႁႃလွင်ႈၵိုတ်းၵၢၼ်ႁဵတ်းၵၢၼ်ဢၼ်ဢမ်ႇလၢမ်းၶၢတ်ႈလႆႈ
