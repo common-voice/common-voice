@@ -51,6 +51,7 @@ help-reach-hours-general-pluralized =
        *[other] ڪومنَ وائيس نئہ هيڪ ٻولِي ۾ { $hours } ڪلاڪون ۿُوڌِي پُوڳيا ۾ آپرا ذاتي ڪوم ۿُوڌِي پُوڳيا ۾ مڌت ڪرو
     }
 set-a-goal = هيڪ مقصڌ سيٽ ڪرو
+cant-decide = ڦينصلا نٿِي ڪري هيڪتا؟
 
 ## Goals
 
