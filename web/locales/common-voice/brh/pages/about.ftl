@@ -110,6 +110,9 @@ about-playbook-how-record-content-5 = <accuracyLink>سہی و جوانی نا م
 about-playbook-how-grow-language = نن کامن وائس آ سہی ڈول اٹ زبان ئے امر خواننگ کینہ؟
 about-playbook-how-grow-language-content-1 = کامن وائس ٹی مخلوق نا جتا جتا مننگ کن موقع ودی کننگ ئے یقینی جوڑ کیک کہ ڈیٹاسیٹ زیات آن زیات بندغ آتا خذمت ئے کیک۔ نن ہندونو وسائل و ٹیمپلیٹس جوڑ کرینن ہرافتے نم استعمال کننگ کیرے۔!
 about-playbook-how-grow-language-content-2 = کچاریک
+about-playbook-how-grow-language-content-3 = نما کمک کننگ کن کچاری ہڈ تننگ کیرے۔ دا نما خیال آن بھاز آسان اے۔ نم دادے ویڈیو کانفرنسنگ ٹول تون اوار آن لائن کننگ کیرے، یا تینا ذاتی وڑ اٹ اگہ دا خوندی اے۔ <eventTemplate>کچاری ہڈ تننگ کن ننا ٹیمپلیٹس و وسائل تے اوننگ کیرے</eventTemplate>۔
+about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-5 = نما کلہو ئے سر کننگ کن سوشل میڈیا نا پلیٹ فارم ئے استعمال کننگ کیرے۔ دونگا پوسٹس نا اشتراک کبو ہراکے پائک کہ دا انتئے اہمیت تخک، و زبان نا حق، توار AI، یا ٹیک ٹی تعصب کونا ویل آتا باروٹ ہیت کروکا ایلو بندغا تیتو رابطہ کیک۔ <campaignLink>چاگڑدی مہم چلیفنگ نا باروٹ ای پین سال و سوج ہوربو، ہمو مواد آتے ہم ہرافتے نم ولدا استعمال کننگ کیرے</campaignLink>۔
 
 ## How to validate
 
