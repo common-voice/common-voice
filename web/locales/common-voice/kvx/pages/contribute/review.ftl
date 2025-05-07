@@ -57,6 +57,6 @@ review-error-rate-limit-exceeded = تمي جوم تِکا زائوه ريا۔ م
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = امي ڪنيڪ موٽي تبديلي ڪرونه ريا
 sc-redirect-page-subtitle-1 = Sentence Collector هوَئہ مرڪزِي Common Voice platform مانه منتقِل ٿئه ريو۔ هوَئہ تمي <writeURL> لکو</writeURL> جُملو ڪا <reviewURL> دوهرائِي</reviewURL> Common Voice مانه هيڪ هيڪ جمع ڪري هيڪو۔
-sc-redirect-page-subtitle-2 = <discourseLink>وات چِيت </discourseLink> ڪا <emailLink> email </emailLink>
+sc-redirect-page-subtitle-2 = <discourseLink>وات چِيت </discourseLink> ڪا <emailLink> اِيميل </emailLink>
 # menu item
 review-sentences = جُملون رو جائزو ليو

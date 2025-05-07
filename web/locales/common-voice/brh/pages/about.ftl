@@ -129,9 +129,15 @@ about-playbook-how-validate-content-4 = اگہ اسے کلپ ارا بندغ آ�
 
 about-playbook-how-access-dataset = ای امر ڈیٹا سیٹ اے کارمرز و اوڑا سر مننگ کیوہ؟
 about-playbook-how-access-dataset-content-1 = نم <datasetsPage>datasets صفحہ</datasetsPage> آ اننگ کیرے، تینا منشا نا ورژن و زبان تے گیچن کننگ کیرے، و دادے ڈاؤن لوڈ کننگ کیرے! فائل آتیٹی <metadataLink>باروٹ میٹا ڈیٹا</metadataLink> ارے۔، دنکہ آبادیاتی معلومداری و منظوری نا ڈیٹا ۔ ڈیٹا سیٹ ئے ڈاؤن لوڈ  کننگ کے نمے اسے ای میل ئس تننگک۔
+about-playbook-how-access-dataset-content-2 = اگہ نم ASR ماڈل جوڑ کننگ کے اوزار پٹنگورے، گڑا نم کمیونٹی نا ایلو مخلوق تون رابطہ کننگ کیرے <discourseLink>Discourse پر</discourseLink>۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصوبہ نا فیصلہ غاک امر جوڑ مریرہ؟
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice ئے مچا دنیا ٹی جہدکار، زبان پو مروک، ڈیٹا سائنسدان، خواننگ نا ماہراک سافٹ ویئر انجینئرز نا جتا جتا خاہوتاک ممکن جوڑ کرینو۔۔ دا منصوبہ السی آگاہی نا کمک اٹ مریک۔
+about-playbook-how-project-governance-content-2 = ننا انتظام کاری اندا بنداؤ نا ذی آ سلوکے:
+about-playbook-how-project-governance-content-3 = رازداری، سیکورٹی و پہک و پلگاری
+about-playbook-how-project-governance-content-4 = خاہوت نا اوار مننگ و فیصلہ کننگ
 
 ## How is Common Voice funded
 
