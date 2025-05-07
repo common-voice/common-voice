@@ -46,7 +46,7 @@ export default function FalakHeader() {
               <a
                 href="https://falak.ksaa.gov.sa/voicewall"
                 className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
-                <span>  الجدارية الصوتية</span>
+                <span> الجدارية الصوتية</span>
               </a>
             </li>
             <li>
@@ -66,7 +66,9 @@ export default function FalakHeader() {
             </li>
           </ul>
           {/* {!isLoggedIn ? ( */}
-          <div className="flex justify-between lg:block border-t lg:border-t-0 py-3 lg:py-0 mt-3 lg:mt-0" style={{ display: 'none' }}>
+          <div
+            className="flex justify-between lg:block border-t lg:border-t-0 py-3 lg:py-0 mt-3 lg:mt-0"
+            style={{ display: 'none' }}>
             <a
               href="https://falak.ksaa.gov.sa/auth/login"
               className={`flex items-center space-x-2 ${classes['login-button']}`}>
@@ -101,7 +103,6 @@ export default function FalakHeader() {
           {/* )} */}
         </div>
       </div>
-      <Breadcrumb />
     </>
   )
 }

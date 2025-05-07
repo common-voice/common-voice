@@ -4,6 +4,9 @@ const DEMO = '/demo'
 
 export default Object.freeze({
   ROOT: '',
+  SOURCE: '/s/:datasource',
+  SOURCE_SPEAK: '/s/:datasource/speak',
+  SOURCE_LISTEN: '/s/:datasource/listen',
 
   RECORD: '/record', // old, here for redirect purposes
   SPEAK: '/speak',
