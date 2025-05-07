@@ -22,3 +22,6 @@ transcribe-bubble-title = <mark>لِکھو</mark>
 transcribe-bubble-subtitle = آڈیو ٹُکڑیم آپ جکو کائِیں سُݨتے ہے اِکُو لِکھو
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>جانچ</mark>
+check-bubble-subtitle = تھم جانٚچ کرتے ہے کہ کِیا نکݪ آڈیوس میل کھاتی ہے یا نائِیں
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>ڈیٹا</mark>
