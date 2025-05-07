@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 // import micBanner from './images/mic-banner.png'
 import classes from './home.module.css'
 import URLS from '../../../urls'
@@ -6,13 +6,22 @@ import { LocaleLink } from '../../locale-helpers'
 import { InfoDarkIcon, InfoIcon, MicIcon } from '../../ui/icons'
 import Modal from '../../modal/modal'
 import { useHistory } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux'
+import { Datasource } from '../../../stores/datasource'
 
 
-export default function HomePageSection() {
+export default function HomePageSection(props: any) {
   const history = useHistory();
 
   const [showInfoContributeModal, setShowInfoContributeModal] = useState(false);
   const [showInfoRatingModal, setShowInfoRatingModal] = useState(false);
+  const [currentDataSource, setCurrentDataSource] = useState('');
+
+  const datasourceId = useSelector((state: any) => state.datasource);
+
+  useEffect(() => {
+    setCurrentDataSource(datasourceId);
+  }, [datasourceId]);
 
   return (
     <div className=" flex flex-col items-center mt-10">
@@ -109,7 +118,7 @@ export default function HomePageSection() {
             </div>
 
             <div className="flex flex-col justify-center items-center	w-[210px]">
-              <LocaleLink to={URLS.SPEAK}>
+              <LocaleLink to={currentDataSource !== '' ? '/s/'+ currentDataSource + URLS.SPEAK : URLS.SPEAK}>
                 <div>
                   <img
                     src="/voicewall/img/mic-icon.svg"
@@ -204,7 +213,7 @@ export default function HomePageSection() {
             </div>
 
             <div className="flex flex-col justify-center items-center w-[210px]">
-              <LocaleLink to={URLS.LISTEN}>
+              <LocaleLink to={currentDataSource !== '' ? '/s/'+ currentDataSource + URLS.LISTEN : URLS.LISTEN}>
                 <div>
                   <img
                     src="/voicewall/img/play-icon.svg"
