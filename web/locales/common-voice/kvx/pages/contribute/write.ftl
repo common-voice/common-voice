@@ -21,7 +21,7 @@ new-sentence-rule-5 = ڪوئي نمبر ڪا کاس characters نئِين
 new-sentence-rule-6 = ٻارليا مُلڪون را ويڻ نئِين
 new-sentence-rule-7 = مُناسِب حوالا ٿِي شامِل ڪرو
 new-sentence-rule-8 = ذاتِي طور مانه ٺائُوڪو اي هوشي جي سهِي حوالو شامل ڪريو زائہ۔
-login-instruction-multiple-sentences = <loginLink>Login</loginLink> ڪا <loginLink>sign up</loginLink> to add ڌار ڌار جُملا
+login-instruction-multiple-sentences = <loginLink>لوگ اِن</loginLink> ڪا <loginLink> سائن اپ</loginLink>  جمع ڪرو ڌار ڌار جُملا
 how-to-cite = هُون ڪم ڪرينَ حوالو ۮيون؟
 how-to-cite-explanation-bold = ميرڀونئي ڪرينَ هيڪ URL link ڪا پُورا نوم رو حوالو ۮيو۔
 how-to-cite-explanation = جيڪيۮِي اي تمارا آپرا آکر سئہ تون هائيون نئہ لکو<italicizedText>“آپرا پاها ٿِي سِيٽيشن</italicizedText>۔ امارئہ اي زوڻوو ضرُورِي سئہ جي اي مضمُون ڪيٿُون زڙيو جي امي زوڻي هيڪون جي اي پبلِڪ ڊومئن  ۾ سئہ انَ اِيئا مانه ڪوئي  ڪاپِي رائيٽ رِيسٽرِڪشنَ لاڳُو نٿِي ٿيتو۔ وڌِيڪ جانڪارِي ۿارُو <guidelinesLink>  جانڪارِي رو پونيو زوئو۔
@@ -34,18 +34,18 @@ single-sentence-submission = صِرف هيڪ جُملو جمع ڪرو
 small-batch-sentence-submission = گھٽ تعداد ۾ جُملا جمع ڪرو
 bulk-sentence-submission = گھڻِي تعداد ۾ جُملا جمع ڪرو
 single-sentence = هيڪ
-small-batch-sentence = ننڪو batch
+small-batch-sentence = ننڪو بيچ
 bulk-sentence = گھڻِي تعداد ۾
-sentence-domain-combobox-label = جُملون رو Domain
-sentence-domain-select-placeholder = ترڻ ۿُوڌِي domains رو واپراوَ ڪرو (اختِيارئِي()
+sentence-domain-combobox-label = جُملون رو ڊومئن
+sentence-domain-select-placeholder = ترڻ ۿُوڌِي ڊومئنز رو واپراوَ ڪرو (اختِيارئِي()
 # Sentence Domain dropdown option
 agriculture_food = ٻنئِي ٻارو انَ کاڌو
 # Sentence Domain dropdown option
-automotive_transport = Automotive انَ سواري
+automotive_transport = آٽو موٽِو انَ سواري
 # Sentence Domain dropdown option
 finance = پئهيا/ رُوپيا
 # Sentence Domain dropdown option
-service_retail = خدمت انَ Retail
+service_retail = خدمت انَ رِيٽيل
 # Sentence Domain dropdown option
 general = عام
 # Sentence Domain dropdown option
@@ -55,13 +55,13 @@ history_law_government = تاريخ، قانُون ان حڪُومت
 # Sentence Domain dropdown option
 language_fundamentals = ٻولِي رئِي ڀُنياڌ ( مثال: نمڀر، ويڻ، پئهيا)
 # Sentence Domain dropdown option
-media_entertainment = Media انَ تفرِيح
+media_entertainment = ميڊيا انَ تفرِيح
 # Sentence Domain dropdown option
 nature_environment = قُڌرت انَ ماحُوليات
 # Sentence Domain dropdown option
 news_current_affairs = خٻرون انَ همڻُوڪا حالات
 # Sentence Domain dropdown option
-technology_robotics = Technology انَ Robotics
+technology_robotics = ٽيڪنالاجِي انَ روبوٽِيڪس
 sentence-variant-select-label = جُملون رو ڌار ڍاۯ
 sentence-variant-select-placeholder = هيڪ ڌار ڍاۯ سُونڍو (اِختيارئِي)
 sentence-variant-select-multiple-variants = عام ٻولئِي / ڌار ڍاۯو
@@ -69,9 +69,9 @@ sentence-variant-select-multiple-variants = عام ٻولئِي / ڌار ڍاۯ�
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Upload </icon><icon> عام domain را جُملا
-sc-bulk-upload-instruction = آپرئِي فائل ايٿئہ توڻي لي آوينَ ساڏو ڪا<uploadButton> upload ڪريا ۿارُو click ڪرو</uploadButton>
-sc-bulk-upload-instruction-drop = فائل ايٿئہ نوکو زم اُو upload ٿي زائہ
+sc-bulk-upload-header = اپلوڊ </icon><icon> عام ڊومئن را جُملا
+sc-bulk-upload-instruction = آپرئِي فائل ايٿئہ توڻي لي آوينَ ساڏو ڪا<uploadButton> اپلوڊ ڪريا ۿارُو ڪِلڪ ڪرو</uploadButton>
+sc-bulk-upload-instruction-drop = فائل ايٿئہ نوکو زم اُو اپلوڊ ٿي زائہ
 bulk-upload-additional-information = اِيئا فائل را ڀارام ڪوئي وڌرارئہ جانڪارِئي ڪروو هوئہ، تو ميرڀونئي ڪرينَ رابطو ڪرو<emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = جيڪيۮِي اِيئا فائل را ڀارام ڪوئي وڌِيڪ جانڪارئي ليوو هوئہ جئي اِيئا template ۾ شامِل نٿِي، ميرڀونئِي ڪرينَ رابطو ڪرو<emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = ٻِي﻿زِي وار ڪوشِيش ڪرو انَ آپرئِي فائل توڻي لي آوينَ ايٿئہ راکو
@@ -82,11 +82,11 @@ accepted-files = مونل فائل را نمُونا: .tsv صِرف
 minimum-sentences = فائل ۾ گھٽ ۾ گھٽ هزار جُملا هوئہ:
 maximum-file-size = گھٽ ۾ گھٽ فائل رو سائز پنجوِيه MB هوئہ:
 what-needs-to-be-in-file = مارِي فائل ۾ ڪِي هووو کپئہ؟
-what-needs-to-be-in-file-explanation = ميرڀونئي ﻿امارئِي <templateFileLink> template رئي فائل</templateFileLink> چيڪ ڪرو۔ تمارا جُملا copyright free (CC0 اِجازت لِيڌل انَ اصلِي ڪوم هووو ﻿کپئہ سهِي انَ ۿورئہ نمُونئہ ڀڻيا رئہ لائق هووئہ۔ جمع ڪرَل جُملا ۮه ٿِي پنرئہ سيڪنڊ ۾ ڀڻيا رئہ لائق هوئہ انَ اِيئا ۾ نمڀر کاس اِسم انَ characters نہ هووئہ۔
-upload-progress-text = Upload جارِي سئہ۔۔۔
-sc-bulk-submit-confirm = هُون مونوه جي اي جُملا<wikipediaLink>public domain </wikipediaLink> انَ مُون نئہ اِيئون نئہ upload ڪريا رئي اِجازت سئہ۔
-bulk-upload-success-toast = جوم گھڻا جُملا Upload ٿي ڳياه
-bulk-upload-failed-toast = Upload ناڪام ٿي ڳئي ميرڀونئي ڪرينَ ٻِي﻿زي وار ڪوشِيش ڪرو۔
+what-needs-to-be-in-file-explanation = ميرڀونئي ﻿امارئِي <templateFileLink> ٽيمپليٽ رئي فائل</templateFileLink> چيڪ ڪرو۔ تمارا جُملا ڪاپِي رائِيٽ فرِي  (CC0 اِجازت لِيڌل انَ اصلِي ڪوم هووو ﻿کپئہ سهِي انَ ۿورئہ نمُونئہ ڀڻيا رئہ لائق هووئہ۔ جمع ڪرَل جُملا ۮه ٿِي پنرئہ سيڪنڊ ۾ ڀڻيا رئہ لائق هوئہ انَ اِيئا ۾ نمڀر کاس اِسم انَ ڪئريڪٽرس نہ هووئہ۔
+upload-progress-text = اپلوٽ جارِي سئہ۔۔۔
+sc-bulk-submit-confirm = هُون مونوه جي اي جُملا<wikipediaLink>پبلڪ ڊومئن  </wikipediaLink> انَ مُون نئہ اِيئون نئہ اپلوڊ ڪريا رئي اِجازت سئہ۔
+bulk-upload-success-toast = جوم گھڻا جُملا اپلوڊ ٿي ڳياه
+bulk-upload-failed-toast = اپلوڊ ناڪام ٿي ڳئي ميرڀونئي ڪرينَ ٻِي﻿زي وار ڪوشِيش ڪرو۔
 bulk-submission-success-header = تمارئي جمع ڪرَل جانڪارئِي ۮِيڌا ۿارُو ميرڀونئي!
 bulk-submission-success-subheader = تمي Common Voice رون هر روز رون جُملون را مقصد نئہ حاصل ڪريا ۿارُو امارئي مڌت ڪروه ريا!
 upload-more-btn-text = وڌارئہ جُملا Upload ڪرو؟
@@ -110,8 +110,8 @@ rate-limit-toast-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Rate limit exceed ٿي ڳئي۔ ميرڀوئي ڪرينَ هيڪ سيڪنڊ ڪيڙ وۯي ڪوشِيش ڪرو
-       *[other] Rate limit exceed ٿي ڳئي۔ ميرڀوئي ڪرينَ { $retryLimit }ڪينڪ سيڪنڊون ڪيڙ وۯي ڪوشِيش ڪرو
+        [one] ريٽ لِميٽ ايڪسِيڊ  ٿي ڳئي۔ ميرڀوئي ڪرينَ هيڪ سيڪنڊ ڪيڙ وۯي ڪوشِيش ڪرو
+       *[other] ريٽ لِميٽ ايڪسِيڊ   ٿي ڳئي۔ ميرڀوئي ڪرينَ { $retryLimit }ڪينڪ سيڪنڊون ڪيڙ وۯي ڪوشِيش ڪرو
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =

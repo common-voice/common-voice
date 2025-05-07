@@ -138,6 +138,13 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice ئے مچ
 about-playbook-how-project-governance-content-2 = ننا انتظام کاری اندا بنداؤ نا ذی آ سلوکے:
 about-playbook-how-project-governance-content-3 = رازداری، سیکورٹی و پہک و پلگاری
 about-playbook-how-project-governance-content-4 = خاہوت نا اوار مننگ و فیصلہ کننگ
+about-playbook-how-project-governance-content-5 = قدر و پجار
+about-playbook-how-project-governance-content-6 = تین پتینی احستاب
+about-playbook-how-project-governance-content-7 = <governanceLink>دا باروٹ پین خوانبو کہ نن امر حکومت کینہ</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس امر جوڑ مس؟
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فاؤنڈیشن نا اسے منصوبہ ئس اے، ہراکے US 501c3 اے۔ دا منصوبہ ئے فلحال پورو <philantropicGrantLink>انسان دوستی گرانٹس</philantropicGrantLink>، و مچا دنیا نا بندغاتا عطیہ غاتا کمک اٹ مالی کمک کننگک۔
+about-playbook-how-funded-content-2 = ڈیٹا سیٹس نا وار وار میزبانی و جاری کننگ، پلیٹ فارم ئے جوان کننگ و <africaMradiLink>کمیونٹی پروگرام آتے</africaMradiLink> چلیفنگ ٹی بھاز پیسہ  خڑچ مریک۔
+about-playbook-how-funded-content-3 = اگہ نم یا نما تنظیم دا پروجیکٹ ٹی ولدا بشخ الننگ خوارے تو نم اسے <donateLink>عطیہ</donateLink> تننگ کیرے یا <emailFragment>commonvoice@mozilla.com</emailFragment>  ننا شریک دار ٹولی تون رابطہ کننگ کیرے۔
