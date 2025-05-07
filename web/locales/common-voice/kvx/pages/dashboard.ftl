@@ -63,8 +63,19 @@ n-clips-pluralized =
        *[other] { $count }ڪِلپون
     }
 help-share-goal = آوازون ۮِيڌا ۾ امارئي وڌِيڪ مڌت ڪرو، تمارو مقصڌ ۿمڀۯاوو
-confirm-goal = پڪو حدف
+confirm-goal = پڪو مقصڌ
 goal-interval-weekly = هڦتاوار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = مقصڌ ۿارُو { $count } هر روز ڪِلپ شيئر ڪرو{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = آپرو { $count } مقصڌ ۿارُو هڦتاوار ڪِلپ شيئر ڪرو{ $type }
+share-goal-type-speak = ٻولوو
+share-goal-type-listen = ۿومڀۯوو
+share-goal-type-both = ٻولوو انَ ۿومڀۯوو
+# LINK will be replaced with the current URL
+goal-share-text = مئين همڻئہ همڻئہ ڪومنَ وائيس ۿارُو هيڪ آواز رو ۮونَ هيڪ ذاتِي مقصڌ ۿارُو ٺايو# مُون ڀيۯا شامِل ٿي زائو انَ مشِينون نئہ اي ۿزمايا ۾ مڌت ڪرو جي ۿاس ۾ منک ڪم ڪرينَ ٻولئہ{ $link }
+weekly-goal-created = تمارو هڦتا وار را مقصڌ رو گول ٺايو ڳيو
+daily-goal-created = تمارا هر روز را مقصڌ رو گول ٺايو ڳيو
 
 ## Goals
 
