@@ -88,6 +88,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     </sentenceCollectorLinkAdd>،
     يان تمين  <bulkImportDocsLink>GitHub يان هيئي راڇا هارو جُملا  يان عوامي ملڪيت لازمي سي</bulkImportDocsLink> يان تمين پوتي جُملا لڇي ڪو سيو۔
     شُون تمان نين ترجما مان ڪوئي لحجا ني ضروروت سي؟
+about-playbook-how-add-language-collecting-sentences-content-3 = جمع ڪرل جُملان وڌاري زوئو
 
 ## How does localization work
 
