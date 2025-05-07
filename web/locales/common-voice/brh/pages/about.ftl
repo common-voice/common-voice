@@ -82,6 +82,10 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
+about-playbook-how-localize = علاقائی سیٹ امر کاریم کیک؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹ نا مٹ <strong>پونٹون</strong> آ مریک۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink>اسہ اکاؤنٹ ئس جوڑ کبو</pontoonAccountLink> اگہ نم تون اف۔ گڑا، تینا زبان ئے نشان کبو <strong>('ٹیم')</strong> و ولدا پروجیکٹ، <pontoonCvLink>Common Voice</pontoonCvLink> نا انتخاب کبو۔ مٹ کننگ کن فائل مریک۔ اسٹ آ کلک کبو، ولدا دا انگریزی ٹی لوزاک و اوفتا مٹ کننگ کن اسے ڈبہ ئس نشان تننگک۔
+about-playbook-how-localize-content-3 = مٹ انگریزی آن اے، ولے نم ایلو زبان آتیٹی <strong>سلا و سوج</strong> ہوننگ کیسہ۔ <strong>پروفائل</strong> آئیکن آ کلک کبو، ولدا <strong>ترتیباک</strong> تا لنک آ کلک کبو و نم ہرا زبان ئے پارے ہمودے ساڑی کبو۔ شیف راستی کونہ ٹی مٹ نا اسے لڑ ئس اے ہرادے <strong>Locales</strong> پارہ۔ مٹ اسے دے سیان گڈ سائٹ آ نشان ایترہ۔
 
 ## How to add sentences
 
