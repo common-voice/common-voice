@@ -7,3 +7,14 @@ language-section-launched-description = ეჴ მატტი́შნ ვებ
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = ტყუჲჰ̦სილლუჼ განა́ხლებ
 languages-show-more = შა́რეშ
+languages-show-less = დაცდოშ
+language-meter-in-progress = პროცეს ჲოტარ
+language-total-progress = დი́ნ
+language-search-input =
+    .placeholder = ლე́ხარ
+language-speakers = ა́მბუჲ ჲუჲნი̆
+localized = თა́რგმნოდიენო̆
+sentences = წინადადებ
+language-validation-hours = საათ
+language-validation-progress = ჰ̦ა́თხიხარ დაყყდარელო
+contribute = და́ყ ჩუ დაჰ̦არ

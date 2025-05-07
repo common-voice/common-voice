@@ -93,9 +93,14 @@ about-playbook-how-localize-content-5 = کمک کن ننا ویڈیو وضاحت
 
 about-playbook-how-add-sentences = ای جملہ غاتے امر ساڑی کیوہ؟
 about-playbook-how-add-sentences-content-1 = نم <writePageLink>صفحہ نوشتہ کبو</writePageLink> آ جملہ ساڑی کننگک یا <reviewPageLink>جائزہ نا صفحہ</reviewPageLink> آ  جملہ غاتا جائزہ ئے الننگ کیرہ۔
+about-playbook-how-add-sentences-content-2 = کامن وائس ٹی ساڑی مننگ کن جملہ غاتا جائزہ الننگ و ارا بندغ ئے منوئی مریک۔ نم تینا زبان کن رہنما خطوط <languageGuidelinesLink>داڑے</languageGuidelinesLink> جوڑ کیرہ۔ جملہ غاک <licenseLink>السی ڈومین</licenseLink> ٹی و 15 لوز آتیان چنک مروئے۔ نم ٹیکسٹ نا خواجہ غان <waiverLink>ننا الوکا کڑد ءے استعمال کریسہ CC0</waiverLink> جوڑ کننگ کن پاننگ کیک، و ننے commonvoice@mozilla.com آ رائی کننگ کیک۔
+about-playbook-how-add-sentences-content-3 = نم وکی پیڈیا غان گونڈ جملہ غاتا فائدہ ارفن کن <scraperLink>Sentence Extractor</scraperLink> استعمال کننگ کیرے۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = بھاز گیچن او توار کلپ ئس امر ریکارڈ کننگ کیوہ؟
+about-playbook-how-record-content-1 = تینا عام توار ٹی پابو! نما پاننگ نا ڈول داڑے گچین کننگک۔ نن نما لہجہ ئے ہمن خوانہ، و نن نما معمول، انداز و لہجہ خوانہ۔
+about-playbook-how-record-content-2 = بھاز زیات چپ چاگڑد نا شور آن بچیرے۔ دا نمے بننگ ٹی آسان مرے۔
 
 ## How to grow language
 
