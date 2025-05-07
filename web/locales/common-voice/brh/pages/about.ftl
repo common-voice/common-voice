@@ -119,6 +119,9 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی مبو!</stron
 
 ## How to validate
 
+about-playbook-how-validate = ای امر چاوہ کہ توار کلپ ئے منوئی ئے کہ اخہ؟
+about-playbook-how-validate-content-1 = اگہ نم <strong>اوفتے بنیرے</strong> و <strong>پُو</strong> مننگ کیرے، گڑا عام وڑ اٹ <strong>امنائی تننگ جوان ئے</strong>۔
+about-playbook-how-validate-content-2 = <strong>اندنگا کلپس آتے رد کپابو ہراکے پاروک نا اسے لہجہ سے ہرا کے نم کن جتا اے</strong> - دا توار نا چاہنداری کن المی اے کہ ہر اسٹ کن جوان وڑ اٹ کاریم کے
 
 ## How to access dataset
 
