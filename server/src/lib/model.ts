@@ -305,8 +305,8 @@ export default class Model {
 
   getClipsStats = lazyCache(
     'overall-clips-stats',
-    async (locale: string) =>
-      (await this.db.getClipsStats(locale)).map(stat => ({
+    async (locale: string, corpus_id: string) =>
+      (await this.db.getClipsStats(corpus_id, locale)).map(stat => ({
         ...stat,
         total: Math.round(stat.total * getAverageSecondsPerClip(locale)),
         valid: Math.round(stat.valid * getAverageSecondsPerClip(locale)),
@@ -316,7 +316,7 @@ export default class Model {
 
   getVoicesStats = lazyCache(
     'voice-stats',
-    (locale: string) => this.db.getVoicesStats(locale),
+    (locale: string, corpus_id: string) => this.db.getVoicesStats(corpus_id, locale),
     1
   )
 

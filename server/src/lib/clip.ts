@@ -67,12 +67,13 @@ export default class Clip {
     router.post('*', this.saveClip)
 
     router.get('/daily_count', this.serveDailyCount)
-    router.get('/stats', this.serveClipsStats)
+    router.get('/stats/:corpus_id', this.serveClipsStats)
     router.get('/leaderboard', this.serveClipLeaderboard)
     router.get('/votes/leaderboard', this.serveVoteLeaderboard)
-    router.get('/voices', this.serveVoicesStats)
+    router.get('/voices/:corpus_id', this.serveVoicesStats)
     router.get('/votes/daily_count', this.serveDailyVotesCount)
     router.get('/:clip_id', this.serveClip)
+    router.get('/c/:corpus_id', validate({ query: clipsSchema }), this.serveRandomClips)
     router.get('*', validate({ query: clipsSchema }), this.serveRandomClips)
 
     return router
@@ -280,7 +281,11 @@ export default class Clip {
           duration: durationInSec * 1000,
           corpus_id: sentence.corpus_id,
         })
-        await Awards.checkProgress(client_id, { id: sentence.locale_id }, sentence.corpus_id)
+        await Awards.checkProgress(
+          client_id,
+          { id: sentence.locale_id },
+          sentence.corpus_id
+        )
 
         await checkGoalsAfterContribution(client_id, {
           id: sentence.locale_id,
@@ -358,11 +363,13 @@ export default class Clip {
   }
 
   serveClipsStats = async ({ params }: Request, response: Response) => {
-    response.json(await this.model.getClipsStats(params.locale))
+    response.json(
+      await this.model.getClipsStats(params.locale, params.corpus_id)
+    )
   }
 
   serveVoicesStats = async ({ params }: Request, response: Response) => {
-    response.json(await this.model.getVoicesStats(params.locale))
+    response.json(await this.model.getVoicesStats(params.locale, params.corpus_id))
   }
 
   serveClipLeaderboard = async (request: Request, response: Response) => {
