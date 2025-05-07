@@ -101,9 +101,15 @@ about-playbook-how-add-sentences-content-3 = نم وکی پیڈیا غان گو�
 about-playbook-how-record-quality = بھاز گیچن او توار کلپ ئس امر ریکارڈ کننگ کیوہ؟
 about-playbook-how-record-content-1 = تینا عام توار ٹی پابو! نما پاننگ نا ڈول داڑے گچین کننگک۔ نن نما لہجہ ئے ہمن خوانہ، و نن نما معمول، انداز و لہجہ خوانہ۔
 about-playbook-how-record-content-2 = بھاز زیات چپ چاگڑد نا شور آن بچیرے۔ دا نمے بننگ ٹی آسان مرے۔
+about-playbook-how-record-content-3 = جملہ غاتے غور اٹ خوانبو۔ الیپیرے تا، بدل کننگ یا لوز ساڑی کپرے۔
+about-playbook-how-record-content-4 = دا ہیت ئے یقینی کبو کہ نم پاننگ آن مست  پلیٹ فارم ریکارڈنگ کننگ اورے۔، و دا کہ دا نما ختم مننگ آ سلیک۔
+about-playbook-how-record-content-5 = <accuracyLink>سہی و جوانی نا معیار کن پین ہوربو۔</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = نن کامن وائس آ سہی ڈول اٹ زبان ئے امر خواننگ کینہ؟
+about-playbook-how-grow-language-content-1 = کامن وائس ٹی مخلوق نا جتا جتا مننگ کن موقع ودی کننگ ئے یقینی جوڑ کیک کہ ڈیٹاسیٹ زیات آن زیات بندغ آتا خذمت ئے کیک۔ نن ہندونو وسائل و ٹیمپلیٹس جوڑ کرینن ہرافتے نم استعمال کننگ کیرے۔!
+about-playbook-how-grow-language-content-2 = کچاریک
 
 ## How to validate
 
