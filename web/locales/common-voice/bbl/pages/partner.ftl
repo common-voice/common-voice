@@ -5,3 +5,4 @@ partnerships-get-in-touch = თხო́გო̆ თათაჼ ჲებათ 
 partnerships-become-a-partner = თაგლიბ Common Voice-ეჼ წევრ (ცჰ̦ა́ღქესალაჲნი̆)
 partnerships-foundations-header = ფონდი
 partnerships-academia-header = ჺამდუჲნი, აკადემიურე კვლევადუჲნი დაწესებულები
+partnerships-academia-description = წინ მიღწე́ვი დანე́რგოდჲარ მე ჰ̦ა́მინაჲნოჸ მაკი́ნი̆ (ნჵაჲნი̆) ხილ'ულო̆, ე ათხ ჲოჩო̆ სა́ქმლო მთავარ და. კვლევა́ხ თანამშრო́მლობ ო́წანაჲნო̆, მონაცე́მი ვა́შარ ჲანა́ჲნო̆ ლე უ̂მ ხაჸანა́ჲნო̆ <emailFragment> წე́რილ დაჸითათ თხო́გო̆. </emailFragment>
