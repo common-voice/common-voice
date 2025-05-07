@@ -17,3 +17,8 @@ prompt-bubble-subtitle = ہم آپ کُو ایک جھالا یا سُئال دؔ
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>جباب دؔیݨا</mark>
 respond-bubble-subtitle = آپ اس کا جباب دؔیؤ یا جباب دؔیؤ جِترا آپ کری سِکتے ہے
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>لِکھو</mark>
+transcribe-bubble-subtitle = آڈیو ٹُکڑیم آپ جکو کائِیں سُݨتے ہے اِکُو لِکھو
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>جانچ</mark>
