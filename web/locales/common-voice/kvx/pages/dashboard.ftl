@@ -52,6 +52,9 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = هيڪ مقصڌ سيٽ ڪرو
 cant-decide = ڦينصلا نٿِي ڪري هيڪتا؟
+how-many-per-day = جوم ٺائُوڪو هيڪا ۮِي ۾ ڪتا ڪِلپ؟
+how-many-a-week = جوم ٺائُوڪو! هيڪا هڦتا ۾ ڪتا ڪِلپ؟
+which-goal-type = ڪِي تمي ٻولوا ڪروه، ۿومڀۯا ڪروه، ڪا ٻئِي؟
 
 ## Goals
 
