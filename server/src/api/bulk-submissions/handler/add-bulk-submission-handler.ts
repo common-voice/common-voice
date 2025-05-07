@@ -36,7 +36,7 @@ export const handler =
       const {
         client_id,
         headers,
-        params: { locale },
+        params: { locale, corpus_id },
       } = req
 
       const size = Number(headers['content-length'])
@@ -64,6 +64,7 @@ export const handler =
         locale: locale,
         file: file.toString('hex'),
         size: size,
+        corpus_id: corpus_id,
       }
 
       return pipe(

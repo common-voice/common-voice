@@ -3,4 +3,5 @@ export type SentenceSubmission = {
   source: string;
   locale_id: number;
   client_id: string;
+  corpus_id: string;
 };

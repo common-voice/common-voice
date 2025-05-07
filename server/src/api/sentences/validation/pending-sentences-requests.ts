@@ -2,7 +2,7 @@ import { AllowedSchema } from 'express-json-validator-middleware'
 
 export const AddSentenceRequest: AllowedSchema = {
   type: 'object',
-  required: ['sentence', 'source', 'localeId', 'localeName'],
+  required: ['sentence', 'source', 'localeId', 'localeName', 'corpus_id'],
   properties: {
     sentence: {
       type: 'string',
@@ -15,6 +15,9 @@ export const AddSentenceRequest: AllowedSchema = {
       minimum: 1,
     },
     localeName: {
+      type: 'string',
+    },
+    corpus_id: {
       type: 'string',
     },
   },
@@ -35,11 +38,14 @@ export const AddSentenceVoteRequest: AllowedSchema = {
 
 export const GetSentencesForReviewRequest: AllowedSchema = {
   type: 'object',
-  required: ['localeId'],
+  required: ['localeId', 'corpus_id'],
   properties: {
     localeId: {
       type: 'integer',
       minimum: 1,
+    },
+    corpus_id: {
+      type: 'string',
     },
   },
 }

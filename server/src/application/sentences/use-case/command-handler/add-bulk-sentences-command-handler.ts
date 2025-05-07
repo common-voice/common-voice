@@ -15,6 +15,7 @@ export const AddBulkSentencesCommandHandler = (
         source: submission.Source,
         locale_id: cmd.localeId,
         client_id: cmd.clientId,
+        corpus_id: cmd.corpus_id,
       }))
     ),
     TE.chain(insertBulkSentencesIntoDb)

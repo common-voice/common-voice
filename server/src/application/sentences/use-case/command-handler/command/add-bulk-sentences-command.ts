@@ -4,4 +4,5 @@ export type AddBulkSentencesCommand = {
   clientId: string
   tsvFile: Readable
   localeId: number
+  corpus_id: string
 }

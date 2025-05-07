@@ -142,24 +142,28 @@ export default class Model {
   async findEligibleClips(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    corpus_id: string
   ): Promise<DBClip[]> {
     return this.db.findClipsNeedingValidation(
       client_id,
       locale,
-      Math.min(count, 50)
+      Math.min(count, 50),
+      corpus_id
     )
   }
 
   async findEligibleSentences(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    corpus_id: string
   ): Promise<Sentence[]> {
     return this.db.findSentencesNeedingClips(
       client_id,
       locale,
-      Math.min(count, 50)
+      Math.min(count, 50),
+      corpus_id
     )
   }
 
@@ -191,6 +195,7 @@ export default class Model {
     path: string
     sentence: string
     duration: number
+    corpus_id: string
   }) {
     await this.db.saveClip(clipData)
   }
@@ -263,13 +268,13 @@ export default class Model {
       ] = await Promise.all([
         this.getLocalizedPercentages(), //translation %, no en
         this.db
-          .getValidClipCount(allLanguageIds)
+          .getValidClipCount(allLanguageIds, '')
           .then(data => statsReducer(data)),
         this.db
-          .getTotalUniqueSpeakerCount(allLanguageIds)
+          .getTotalUniqueSpeakerCount(allLanguageIds, '')
           .then(data => statsReducer(data)),
         this.db
-          .getAllClipCount(allLanguageIds)
+          .getAllClipCount(allLanguageIds, '')
           .then(data => statsReducer(data)),
       ])
 

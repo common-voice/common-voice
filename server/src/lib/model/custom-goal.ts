@@ -1,28 +1,33 @@
-import { CustomGoalParams } from 'common';
-import { getLocaleId } from './db';
-import { getMySQLInstance } from './db/mysql';
+import { CustomGoalParams } from 'common'
+import { getLocaleId } from './db'
+import { getMySQLInstance } from './db/mysql'
 
-const db = getMySQLInstance();
+const db = getMySQLInstance()
 
 const SPEAK_GOAL_QUERY = `
   SELECT COALESCE(COUNT(clips.id), 0) AS count
   FROM clips
   WHERE client_id = ? AND locale_id = ? AND created_at >= ?
-`;
+`
 
 const LISTEN_GOAL_QUERY = `
   SELECT COALESCE(COUNT(votes.id), 0) AS count
   FROM votes
   LEFT JOIN clips ON votes.clip_id = clips.id
   WHERE votes.client_id = ? AND clips.locale_id = ? AND votes.created_at >= ?
-`;
+`
 
 export default {
-  async create(client_id: string, locale: string, data: CustomGoalParams) {
+  async create(
+    client_id: string,
+    locale: string,
+    data: CustomGoalParams,
+    corpus_id: string
+  ) {
     await db.query(
       `
-      INSERT INTO custom_goals (client_id, locale_id, type, days_interval, amount)
-      VALUES (?, ?, ?, ?, ?)
+      INSERT INTO custom_goals (client_id, locale_id, type, days_interval, amount, corpus_id)
+      VALUES (?, ?, ?, ?, ?, ?)
     `,
       [
         client_id,
@@ -30,11 +35,16 @@ export default {
         data.type,
         data.daysInterval,
         data.amount,
+        corpus_id,
       ]
-    );
+    )
   },
 
-  async find(client_id: string, locale_id?: number): Promise<any[]> {
+  async find(
+    client_id: string,
+    locale_id?: number,
+    corpus_id?: string
+  ): Promise<any[]> {
     const [rows] = await db.query(
       `
         SELECT *
@@ -45,14 +55,16 @@ export default {
                  locales.name AS locale
           FROM custom_goals
           LEFT JOIN locales ON custom_goals.locale_id = locales.id
-          WHERE client_id = ? ${locale_id ? 'AND locale_id = ?' : ''}
+          WHERE client_id = ? ${locale_id ? 'AND locale_id = ?' : ''} ${
+        corpus_id ? 'AND corpus_id = ?' : ''
+      }
           GROUP BY custom_goals.id
           ORDER BY created_at DESC
         ) t
         GROUP BY locale_id
       `,
-      [client_id, locale_id || null]
-    );
+      [client_id, locale_id || null, corpus_id || null]
+    )
 
     return Promise.all(
       rows.map(async ({ type, locale, locale_id, ...data }: any) => {
@@ -67,27 +79,29 @@ export default {
             ) AS current_interval_start
           `,
           data
-        );
+        )
 
         const counts = await Promise.all(
           (type == 'both' ? ['speak', 'listen'] : [type]).map(async type => {
-            const query = ({
-              speak: SPEAK_GOAL_QUERY,
-              listen: LISTEN_GOAL_QUERY,
-            } as any)[type];
+            const query = (
+              {
+                speak: SPEAK_GOAL_QUERY,
+                listen: LISTEN_GOAL_QUERY,
+              } as any
+            )[type]
 
             if (!query) {
-              throw new Error('Unknown type: ' + type);
+              throw new Error('Unknown type: ' + type)
             }
 
             const [rows] = await db.query(query, [
               client_id,
               locale_id,
               current_interval_start,
-            ]);
-            return [type, rows[0].count];
+            ])
+            return [type, rows[0].count]
           })
-        );
+        )
 
         return {
           ...data,
@@ -96,11 +110,11 @@ export default {
             current_interval_start
           ).toISOString(),
           current: counts.reduce((obj: any, [key, value]) => {
-            obj[key] = value;
-            return obj;
+            obj[key] = value
+            return obj
           }, {}),
-        };
+        }
       })
-    );
+    )
   },
-};
+}

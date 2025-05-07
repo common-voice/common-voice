@@ -23,6 +23,7 @@ describe('Bulk submission command handler', () => {
       locale: 'en',
       file: 'abcdefg',
       size: 56,
+      corpus_id: 'string'
     }
 
     const sut = addBulkSubmission
@@ -60,6 +61,7 @@ describe('Bulk submission command handler', () => {
       locale: 'en',
       file: 'abcdefg',
       size: 56,
+      corpus_id: 'string'
     }
 
     const sut = addBulkSubmission
@@ -95,6 +97,7 @@ describe('Bulk submission command handler', () => {
       locale: 'en',
       file: 'abcdefg',
       size: 56,
+      corpus_id: 'string'
     }
 
     const sut = addBulkSubmission

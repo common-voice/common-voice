@@ -7,6 +7,7 @@ export default async (req: Request, res: Response) => {
   const query: GetSentencesForReviewQuery = {
     localeId: +req.query.localeId,
     clientId: req.client_id || '',
+    corpus_id: req.query.corpus_id as string,
   }
 
   const result = await GetPendingSentenceQueryHandler(query)()

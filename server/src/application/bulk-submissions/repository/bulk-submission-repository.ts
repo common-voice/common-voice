@@ -10,7 +10,8 @@ export type BulkSubmission = {
   path: string
   name: string
   submitter: clientId
-  importStatus: BulkSubmissionImportStatus
+  importStatus: BulkSubmissionImportStatus,
+  corpus_id: string
 }
 
 export const BulkSubmissionImportStatusCreated = 'created'
@@ -36,8 +37,8 @@ type BulkSubmissionStatusId = {
 
 const createInsertQuery = () =>
   `
-    INSERT INTO bulk_submissions (status, locale_id, size, path, name, submitter, import_status) 
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+    INSERT INTO bulk_submissions (status, locale_id, size, path, name, submitter, import_status, corpus_id) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     ON DUPLICATE KEY UPDATE updated_at = NOW()
   `
 const insertBulkSubmission =
@@ -53,6 +54,7 @@ const insertBulkSubmission =
           bulkSubmission.name,
           bulkSubmission.submitter,
           bulkSubmission.importStatus,
+          bulkSubmission.corpus_id,
         ])
 
         return true

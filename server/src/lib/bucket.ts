@@ -110,13 +110,15 @@ export default class Bucket {
   async getRandomClips(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    corpus_id: string
   ): Promise<Clip[]> {
     // Get more clip IDs than needed to account for potential broken clips
     const clips = await this.model.findEligibleClips(
       client_id,
       locale,
-      Math.ceil(count * 1.5)
+      Math.ceil(count * 1.5),
+      corpus_id
     )
 
     const clipPromises: Clip[] = []

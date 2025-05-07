@@ -3,4 +3,5 @@ export type Sentence = {
   sentenceId: string
   source: string
   localeId: number
+  corpus_id: string
 }

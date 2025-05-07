@@ -51,11 +51,11 @@ export default class Clip {
         response: Response,
         next: NextFunction
       ) => {
-        const { locale } = params
+        const { locale, corpus_id } = params
 
         if (client_id && locale) {
           this.model.db
-            .saveActivity(client_id, locale)
+            .saveActivity(client_id, locale, corpus_id)
             .catch((error: any) => console.error('activity save error', error))
         }
 
@@ -144,7 +144,11 @@ export default class Clip {
     const glob = clip.path.replace('.mp3', '')
 
     await this.model.db.saveVote(id, client_id, isValid)
-    await Awards.checkProgress(client_id, { id: clip.locale_id })
+    await Awards.checkProgress(
+      client_id,
+      { id: clip.locale_id },
+      clip.corpus_id
+    )
     await checkGoalsAfterContribution(client_id, { id: clip.locale_id })
     // move it to the last line and leave a trace here in case of serious performance issues
     // response.json(ret);
@@ -274,8 +278,9 @@ export default class Clip {
           path: encodeURIComponent(clipFileName),
           sentence: sentence.text,
           duration: durationInSec * 1000,
+          corpus_id: sentence.corpus_id,
         })
-        await Awards.checkProgress(client_id, { id: sentence.locale_id })
+        await Awards.checkProgress(client_id, { id: sentence.locale_id }, sentence.corpus_id)
 
         await checkGoalsAfterContribution(client_id, {
           id: sentence.locale_id,
@@ -336,7 +341,8 @@ export default class Clip {
     const clips = await this.bucket.getRandomClips(
       client_id,
       params.locale,
-      count
+      count,
+      params.corpus_id
     )
     // console.log('responce flag', response.json(clips))
     // console.log('clips flag', clips)

@@ -20,7 +20,7 @@ const insertSentenceTransaction = async (
   db: Mysql,
   sentence: SentenceSubmission
 ) => {
-  const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id)
+  const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id,sentence.corpus_id)
   console.log(sentenceId)
   const conn = await mysql2.createConnection(db.getMysqlOptions())
 
@@ -59,7 +59,8 @@ const insertBulkSentencesTransaction = async (
   sentences.forEach(submission => {
     const sentenceId = createSentenceId(
       submission.sentence,
-      submission.locale_id
+      submission.locale_id,
+      submission.corpus_id
     )
     sentence_values.push([
       sentenceId,
@@ -180,6 +181,7 @@ const mapRowToSentence = ([pendingSentenceRows]: [
     sentenceId: row.id,
     source: row.source,
     localeId: row.locale_id,
+    corpus_id: row.corpus_id,
   }))
 
 const findSentencesForReview =
@@ -187,6 +189,7 @@ const findSentencesForReview =
   (queryParams: {
     localeId: number
     clientId: string
+    corpus_id: string
   }): TO.TaskOption<Sentence[]> => {
     return pipe(
       TO.tryCatch(() =>
@@ -201,8 +204,9 @@ const findSentencesForReview =
           FROM sentences
           LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
           WHERE 
-            sentences.is_validated = FALSE         
+            sentences.is_validated = FALSE
             AND sentences.locale_id = ?
+            AND sentences.corpus_id = ?
             AND NOT EXISTS (
               SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
             )
@@ -215,7 +219,7 @@ const findSentencesForReview =
             number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
           LIMIT 50
         `,
-          [queryParams.localeId, queryParams.clientId, queryParams.clientId]
+          [queryParams.localeId, queryParams.corpus_id, queryParams.clientId, queryParams.clientId]
         )
       ),
       TO.map(mapRowToSentence)

@@ -4,4 +4,5 @@ export type AddSentenceCommand = {
   localeId: number
   localeName: string
   source: string
+  corpus_id: string;
 }
