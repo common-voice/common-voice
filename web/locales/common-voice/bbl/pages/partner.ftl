@@ -6,3 +6,5 @@ partnerships-become-a-partner = თაგლიბ Common Voice-ეჼ წევ
 partnerships-foundations-header = ფონდი
 partnerships-academia-header = ჺამდუჲნი, აკადემიურე კვლევადუჲნი დაწესებულები
 partnerships-academia-description = წინ მიღწე́ვი დანე́რგოდჲარ მე ჰ̦ა́მინაჲნოჸ მაკი́ნი̆ (ნჵაჲნი̆) ხილ'ულო̆, ე ათხ ჲოჩო̆ სა́ქმლო მთავარ და. კვლევა́ხ თანამშრო́მლობ ო́წანაჲნო̆, მონაცე́მი ვა́შარ ჲანა́ჲნო̆ ლე უ̂მ ხაჸანა́ჲნო̆ <emailFragment> წე́რილ დაჸითათ თხო́გო̆. </emailFragment>
+partnerships-small-business-header = კაწკაწკა́ჼ წი́ნი უნა́ხში დო́ლდალრი (წამოწყ́ბი) ტექნოლოგიაა́ ხელო́ვნურ ინტელექტა́ დარგელო
+partnerships-small-business-description = ბჵარჩეჸ სტეხოთხ მომხმარებლიგორეჼ თათაჼ ჲარ ჴენჴენი უნახში ლე ჭირბალაშ, ლე ვითარბას კლევადოშ –
