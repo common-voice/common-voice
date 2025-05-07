@@ -24,6 +24,12 @@ about-subscribe-text = کامن وائس تون اوار مننگ خوائیوہ
 about-speak = ہیت کر
 about-speak-text = کمکاراک توار آتا کلپس آتے مچ کروکا جملہ غاتیان خوانیرہ۔
 about-listen-queue = بن-لڑ
+about-listen-queue-text = توار آتا کلپس آتے جمع کننگ کے لڑ ٹی اوار کننگرہ ہراکے اوفتے بننگ کن تیار کیک۔
+about-listen = بن
+about-listen-text = کامرزکروکاک عطیہ کروکا کلپس آتے سہی کیرہ، دا اوننگ مریک کہ پاروکا جملہ غاتے جوان خوانانے۔
+about-is-it-valid = انت دا کلپ جوان اے؟
+about-is-it-valid-text = اسے توار ٹک مریک ''valid''  ہرا وخت کارمرز کروک دادے جوان پائک
+about-yes-votes = سہی مروکا ووٹاک
 
 ## Community Playbook Content
 ## What is a language
