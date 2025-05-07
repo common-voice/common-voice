@@ -160,4 +160,4 @@ write-contribute-menu-aria-label = options menu لکو
 add-sentences-menu-item-aria-label = نات ۿارُو نوا جُملا شامِل ڪرو زم اُو ڀڻي هيڪئہ
 review-sentences-menu-item-aria-label = نات رون منکون نئہ پيرهِين ٿِي ۮِيڌل جُملون رئي دوهرائِي ڪرو
 add-questions-menu-item-aria-label = نات ۿارُو نوا سوئال جمع ڪرو زم اُو ڀڻي هيڪئہ انَ جواب ۮي هيڪئہ
-transcribe-audio-menu-item-aria-label = audio recordings را متنَ ۾ Transcribe ڪرو
+transcribe-audio-menu-item-aria-label = آڊيو رِيڪارڊنگ  را متنَ ۾ ٽرانسرائب ڪرو
