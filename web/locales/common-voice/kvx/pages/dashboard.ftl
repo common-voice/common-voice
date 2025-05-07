@@ -19,9 +19,27 @@ total-approved = ٻڌائي منظُور
 overall-accuracy = ٻڌئي ڌُرستگئي
 set-visibility = مارو ڪوم ﻿﻿﻿ۮِيکيام آوئہ
 visibility-explainer = اي سيٽنگ تمارا ليڊر بورڊ را ڪوم نئہ ۮيکاڙ، ڪنٽرول ڪرئہ۔ زئيون اِيئا رئي ڇپائِي ٿئہ، تمارئي ترقئي ۿتاڙل ريشي۔ اِيئا مظلٻ اي سئہ جي تمارئي ڦوٽُو، استمعال ڪريا رو نوم اور ترقِي رئي رپورٽ لِيڊر بورڊ نئين ۮيکاڙئہ۔ ياڌ راکو جي لِيڊر بورڊ ڪا نوو   { $minutes } مشهُور ٿيا ۾  ڀڌلاوَ لاڳئہ
+visibility-overlay-note = زئيون وزِيبل مانه سيٽ ڪريو زائه، تون اي سيٽنگ<profileLink> ٿي ڀڌلي هيڪئہ</profileLink>۔
+show-ranking = مارئي رينڪِنگ ۮيکاڙو
 
 ## Custom Goals
 
+get-started-goals = حدف ڀيۯئي شُروئات ڪرو
+create-custom-goal = هيڪ ڪسٽم حدف ٺاوو
+goal-type = تمي ڪيوا نمُونا رو حدف ٺاوا ڪروه؟
+both-speak-and-listen = ٻي
+both-speak-and-listen-long = ٻي(ٻولو انَ ۿومڀۯو)
+daily-goal = هر روز رو مقصڌ
+weekly-goal = هڦتا رو مقصڌ
+easy-difficulty = ۿورو
+average-difficulty = ايوَريج
+difficult-difficulty = ۮورو
+pro-difficulty = پرو
+lose-goal-progress-warning = آپرا حدف نئہ ايڊٽ ڪريا ٿِي، تمي آپرئي موجوده ڪارڪردگي نئہ ڳمي هيڪو۔
+want-to-continue = ڪِي تمي هايا نئہ جارِي راکوا ڪرو؟
+finish-editing = ٻڌون ٿِي پيرهِين ايڊنٽنگ نئہ کتم ڪرو؟
+lose-changes-warning = همڻئہ ساڏي ۮِيڌا رو مطلٻ اي سئہ جي تمي آپرئي ڀڌلاوَ نئہ ڳمشو پرو۔
+build-custom-goal = هيڪ ڪسٽم حدف ٺاوو
 
 ## Goals
 

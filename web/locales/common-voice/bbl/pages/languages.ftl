@@ -18,3 +18,5 @@ sentences = წინადადებ
 language-validation-hours = საათ
 language-validation-progress = ჰ̦ა́თხიხარ დაყყდარელო
 contribute = და́ყ ჩუ დაჰ̦არ
+get-involved-button = სო ლა́ტათ თხო́ჼ
+get-involved-title = შარიჼ და́ყ (წვლილ) ჩუ დაჰ̦არ { $lang } მატტანაჲნო̆
