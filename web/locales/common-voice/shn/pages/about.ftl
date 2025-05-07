@@ -10,10 +10,10 @@ how-does-it-work-text = ႁဝ်းၶႃႈတိုၵ်ႉၸူႉႁွ�
 ## How does it work section
 
 about-language-req-subtitle = မီးၵူၼ်းတုၵ်းယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇ။
-about-localization-title = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉ
+about-localization-title = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်
 about-localization-subtitle = လိၵ်ႈၼႂ်းဝႅပ်ႉသၢႆႉလႆႈပိၼ်ႇပဵၼ်ၽႃႇသႃႇၼၼ်ႉယဝ်ႉ။
 about-sentence-collection-title = ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်းထႅဝ်လိၵ်ႈ
-about-sentence-collection-subtitle = တူၼ်းထႅဝ်လိၵ်ႈ လႆႈၵဵပ်းႁွမ်တႃႇႁႂ်ႈၵူၼ်းဢၢၼ်ႇဢွၵ်ႇသဵင်။
+about-sentence-collection-subtitle = တူၼ်ႈထႅဝ်လိၵ်ႈ လႆႈၵဵပ်းႁွမ်တႃႇႁႂ်ႈၵူၼ်းဢၢၼ်ႇဢွၵ်ႇသဵင်။
 about-new-lang-title = ပိုတ်ႇၽုၺ်ႇၽႃႇသႃႇမႂ်ႇ
 about-new-lang-subtitle = ႁဝ်းၶေႃႈပိုတ်ႇၽုၺ်ႇဝႅပ်ႉသၢႆႉ Common Voice ၼႂ်းၽႃႇသႃႇၼႆႉ။
 about-voice-contrib-title = ၸွႆႈထႅမ်ပၼ်သဵင်
@@ -24,11 +24,11 @@ about-dataset-release-title = ပွႆႇပၼ်ၸုမ်ႇၶေႃႈ�
 about-dataset-release-subtitle = ႁဝ်းၶႃႈပွႆႇပၼ်ၸုမ်ႇၶေႃႈမုၼ်းၼႂ်းၵူႈ 3 လိူၼ်။
 about-subscribe-text = ၶႂ်ႈၵပ်းသိုပ်ႇၸွမ်း Common Voice ယူႇႁႃႉ?
 about-speak = လၢတ်ႈ
-about-speak-text = ၽူႈၸွႆႈထႅမ်ဢတ်းၶလိပ်ႈသဵင် လူၺ်ႈၵၢၼ်ဢၢၼ်ႇဢဝ်တီႈၸုမ်ႇတူၼ်းထႅဝ်လိၵ်ႈ ဢၼ်လႆႈလူႇၶၢမ်ႇမႃး။
+about-speak-text = ၽူႈၸွႆႈထႅမ်ဢတ်းၶလိပ်ႈသဵင် လူၺ်ႈၵၢၼ်ဢၢၼ်ႇဢဝ်တီႈၸုမ်ႇတူၼ်ႈထႅဝ်လိၵ်ႈ ဢၼ်လႆႈလူႇၶၢမ်ႇမႃး။
 about-listen-queue = ၶိဝ်းၵၢၼ်ထွမ်ႇ
 about-listen-queue-text = ၶလိပ်ႉသဵင် တေထုၵ်ႇသႂ်ႇၶဝ်ႈၼႂ်းၶိဝ်းဢၼ်ႁဵတ်းႁႂ်ႈၽွမ်ႈတႃႇတေထွမ်ႇလႆႈ။
 about-listen = ထွမ်ႇ
-about-listen-text = ၽူႈၸႂ်ႉတိုဝ်းၶဝ် တေၵူတ်ႇထတ်းတူၺ်း လွင်ႈမၢၼ်ႇမႅၼ်ႈ ၶလိပ်ႉဢၼ်လူႇတၢၼ်းဝႆႉၼၼ်ႉ၊ ထတ်းတူၺ်းဝႃႈ ၽူႈလၢတ်ႈၼၼ်ႉ ဢၢၼ်ႇတူၼ်းထႅဝ် မၢၼ်ႇမႅၼ်ႈမႅၼ်ႈယူႇ။
+about-listen-text = ၽူႈၸႂ်ႉတိုဝ်းၶဝ်တေၵူတ်ႇထတ်းတူၺ်း လွင်ႈမၢၼ်ႇမႅၼ်ႈၶလိပ်ႉဢၼ်လူႇတၢၼ်းဝႆႉၼၼ်ႉ၊ ထတ်းတူၺ်းဝႃႈ ၽူႈလၢတ်ႈၼၼ်ႉ ဢၢၼ်ႇတူၼ်ႈထႅဝ်မၢၼ်ႇမႅၼ်ႈယူႇ။
 about-is-it-valid = ၶလိပ်ႉသဵင်ၼႆႉၸွင်ႇၸႂ်ႉလႆႈ?
 about-is-it-valid-text = ၶလိပ်ႉသဵင်တေလႆႈႁပ်ႉၶိူင်ႈမၢႆ "မၢၼ်ႇမႅၼ်ႈ" မိူဝ်ႈမီးၽူႈၸႂ်ႉတိုဝ်းၼႄၵၢင်ၸႂ်ဝႃႈ ၸႂ်ႈ ပၼ်တႃႇၶလိပ်ႉဢၼ်ၼၼ်ႉ။
 about-yes-votes = ≥ 2 ၼႄၵၢင်ၸႂ် ၸႂ်ႈ
