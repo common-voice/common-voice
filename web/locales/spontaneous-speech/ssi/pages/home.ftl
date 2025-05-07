@@ -14,3 +14,6 @@ how-spontaneous-speech-works = سُبھاوِک بھاشاݨ کِدؔا کام �
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>جھالا</mark>
 prompt-bubble-subtitle = ہم آپ کُو ایک جھالا یا سُئال دِؔکھاؤ گے
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>جباب دؔیݨا</mark>
+respond-bubble-subtitle = آپ اس کا جباب دؔیؤ یا جباب دؔیؤ جِترا آپ کری سِکتے ہے
