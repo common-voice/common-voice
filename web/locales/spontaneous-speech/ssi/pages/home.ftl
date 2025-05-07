@@ -25,3 +25,5 @@ check-bubble-title = <mark>جانچ</mark>
 check-bubble-subtitle = تھم جانٚچ کرتے ہے کہ کِیا نکݪ آڈیوس میل کھاتی ہے یا نائِیں
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>ڈیٹا</mark>
+data-bubble-subtitle = ہم کِدھی بھی ڈیٹا سیٹ چچھوڈؔتے ہے
+contact-us = ہم سے سپرک کرو
