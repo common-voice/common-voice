@@ -26,3 +26,6 @@ size-megabyte = ايم ڀِي
 confirm-no-identify = <b>تمي اِيئا وات نئہ مونوه جي </b> تمي ڪومنَ وائيس ڊيٽا سيٽ ۾ ٻوليا واۯا رئي اوۯکوڻ زوڻيا ڪوشش نئِين ڪرو
 confirm-join-mailing-list = تمي ڪومنَ وائيس را ميلنگ لسٽ ۾ شامِل ٿيوا ڪرو
 download-language = ڊائونلوڊ{ $language }
+validated-hours = تصڌيق ٿيل ڪلاڪ
+recorded-hours = رِيڪارڊ ڪرَل ڪلاڪ
+whats-inside = ڪومنَ وائيس ڊيٽا سيٽ ۾ ڪِي شامِل هوئہ؟
