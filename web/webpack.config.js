@@ -16,7 +16,7 @@ module.exports = (_env, argv) => {
   const IS_DEVELOPMENT = argv.mode === 'development'
 
   if (IS_DEVELOPMENT) {
-    const result = dotenv.config({ path: '../.env-local-docker' })
+    const result = dotenv.config({ path: '../.env' })
     if (result.error) {
       console.log(result.error)
       console.log('Failed loading dotenv file, using defaults')
