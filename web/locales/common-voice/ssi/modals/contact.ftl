@@ -1,8 +1,8 @@
 ## Contact Modal
 
-contact-title = سمپرکا کا کاگدٚ
+contact-title = سمپرک کرنے کا کاگدؔ
 contact-form-name =
-    .label = ناو
+    .label = نانٚو
 contact-form-message =
     .label = ناپا
 contact-required = لاجمی
