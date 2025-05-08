@@ -86,6 +86,9 @@ transcribe-audio = Transkriber lyd
 press-and-stories = Presse og historier
 community-and-languages = Fellesskap og språk
 coming-soon = Kjem snart
+about-us = Om oss
+scripted-speech = FØREBUDD TALE
+spontaneous-speech = SPONTAN TALE
 
 ## MENU ITEMS TOOLTIPS
 

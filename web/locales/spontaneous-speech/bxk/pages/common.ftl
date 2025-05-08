@@ -11,8 +11,6 @@ platform-language-tooltip-text = Bichenja biwandiko bya website búsa.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Khurungila <bold>{ $enganikha }</bold> ne-dataset
 contribution-picker-tooltip-text = Bichenjja ènganikha ya dataset èsi'oli khorunga
-# Label for button on contribution switcher
-change = Chanjja
 coming-soon = Tsinganikha ndala chilecha isaa yosi
 media-recorder-api-not-supported = MediaRecorder yah API sela khuyetanga mu  browser yowotah
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkish
 xkl = Kenyah
+
+## Language search component
+

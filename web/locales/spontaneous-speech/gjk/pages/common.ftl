@@ -11,8 +11,6 @@ platform-language-tooltip-text = رُوڳو ويب سائيٽ نا متن نين
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڍيٽا سيٽ مان حِصو ليوون
 contribution-picker-tooltip-text = اِي ٻولِي نو ڍيٽا سيٽ تبديل ڪري سي، زين مان تمين حِصو ليو سو ريا۔
-# Label for button on contribution switcher
-change = تبديل ڪرو
 coming-soon = وڌِيڪ ٻوليون زٽ آوي سي ريون
 media-recorder-api-not-supported = ميڍيا رڪورڍر اي  پِي آئِي تمارا برائوزر مان سپورٽ نٿِي ڪرتِي۔
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,10 @@ sdo = سيرين بدايو
 snv = سعبان
 tr = ترڪي
 xkl = ڪينيا
+
+## Language search component
+
+language-search-placeholder = ٻولِي ڳوتو
+language-search-aria-label = ٻولِي ڳوتو
+language-search-label = صِرف ڍيٽاسيٽ نِي ڪنٽريبِيُوشِن ٻولِي نين تٻۮيل ڪريَِ سي۔
+language-search-no-results = ڪونئين پڻ ٻولِي نٿِي زڙِي

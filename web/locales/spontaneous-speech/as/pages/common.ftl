@@ -11,8 +11,6 @@ platform-language-tooltip-text = কেৱল ৱেবছাইটৰ পাঠ
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } ভাষাৰ ডেটাছেটলৈ অৱদান আগবঢ়াই আছে
 contribution-picker-tooltip-text = আপুনি অৱদান দি থকা ভাষাৰ ডেটাছেট সলনি কৰে
-# Label for button on contribution switcher
-change = সলনি কৰক
 coming-soon = অতি সোনকালে অধিক ভাষা আহি আছে
 media-recorder-api-not-supported = আপোনাৰ ব্ৰাউজাৰত MediaRecorder API সমৰ্থিত নহয়।
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = ছেৰিয়ান বিডায়ুঃ
 snv = ছাবান
 tr = তুৰ্কী
 xkl = কেন্যাঃ
+
+## Language search component
+

@@ -10,7 +10,7 @@ request-language-form-info-explanation = اِين شامل هُو سِگھَي �
 request-language-form-info-explanation-list-1 = تمچِيان ٻولِيان چين نالين
 request-language-form-info-explanation-list-2 = </isoCodeLink> جي اگر جاڻڻ ISO ڪوڊس <isoCodeLink>
 request-language-form-info-explanation-list-3 = ويب سائِيٽان چي لِنڪ جڪو امچِي ٻولِي نُون سمجھڻي ۾ مدد ڪر سِگھي هِتي
-request-language-google-recaptcha-required = reCAPTCHA چِي ضرُورت ڇَي جي اگر تمهِين اُگتَي بڌڻ چاهوا ڇَوا تہ
+request-language-google-recaptcha-required = جي  تمهِين اُگتَي بڌڻ چاهوا ڇَوا تہ reCAPTCHA چِي ضرُورت ڇَي
 request-language-google-recaptcha-error = reCAPTCHA سُون ڪهِين غلط هُتِي گيلَي۔ مهربانِي ڪتِي بڙتِي ڪوشش ڪرا۔ 
 # Success page
 request-language-success-heading = تمهِين هيِڪِي نوِين ٻولِي چِي اِنڪوائرِي موڪللِي ڇَي، تمچِي مهربانِي۔

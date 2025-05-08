@@ -13,7 +13,7 @@ report-other-comment =
     .placeholder = Σχόλιο
 # Label for textarea in report modal
 other = Άλλο
-report-error = Παρουσιάστηκε σφάλμα κατά την υποβολή της αναφοράς
+report-error = Προέκυψε σφάλμα κατά την υποβολή της αναφοράς
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = Συνέχεια
 # Header for report modal after successful reporting

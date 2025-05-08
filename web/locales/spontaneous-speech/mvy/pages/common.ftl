@@ -11,8 +11,6 @@ platform-language-tooltip-text = وېب سائٹَیں لِکیلیۡ قدر ب�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language }دَن ڈیٹاسیٹے ٹل کرؤں
 contribution-picker-tooltip-text = کؤں ژِبہۡ مہ تُو حصہ گیلیۡ تُھو تسیں ڈېٹا سیٹ بدلائ تُھو
-# Label for button on contribution switcher
-change = بدلا
 coming-soon = مُتیۡ ژیبہۡ ژُن٘ڑُو اے تھی
 media-recorder-api-not-supported = میڈیا ٹیپ کران٘لو اے پی آئی تیں کھوݜٹوۡ (براؤزر) مہ کام نیری تُھو
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = سیریَیں بِدایُوہ
 snv = سَعبان
 tr = ترکی
 xkl = کینیا
+
+## Language search component
+

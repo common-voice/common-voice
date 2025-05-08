@@ -1,10 +1,10 @@
 ## WRITE PAGE
 
-write = ليک
-write-instruction = جمہ<icon></icon>عوامي ڊومين ري سزا
-write-page-subtitle = آ ڀيآرا ڪريوڙا جملا عوامي طور تي دستياب cc-0 لائسنس يافته ڊيٽاسيٽ ۾ ڀيرا ميلايا جائي
+write = ليکو
+write-instruction = عوامي ڊومين رو جملو <icon><icon> ݾامل ڪروط
+write-page-subtitle = آ ڀيرا ڪريوڙا جملا عوامي طور تي دستياب cc-0 لائسنس يافته ڊيٽاسيٽ ۾ ڀيرا ميلايا جائي
 sentence =
-    .label = جملا
+    .label = جملو
 sentence-input-placeholder = ايئي آپرو عوامي ڊومين جملو ڀيرو ڪرو.
 small-batch-sentence-input-placeholder = ايئي آپرو عوامي ڊومين جملو ڀيرو ڪرو.
 citation-input-placeholder = آپري جملل ري وجہ رو حوالو ڌيو (لازمي)
@@ -26,9 +26,9 @@ how-to-cite = ھون ڪيڪر حوالو ديون؟
 how-to-cite-explanation-bold = URL لنڪ يا ڪم مون مڪمل نوم مون  حوالو ڏيو.
 how-to-cite-explanation = جيڪدي اي تمو را آپرا لفظ ھي  تو بس چئو <italicizedText>“Self Citation”</italicizedText>. اموني ڄوڻ ري ضرورت هي ڪه تموني آ مواد ڪيويو مليو ڪي جيم امي چيڪ ڪري ھگهون ڪي آ عوامي ڊومين ۾ هي ھين ڪوئي بي ڪاپي رائيٽ پابندي لاڳو ڪوئي. حوالل بابت وڌيڪ جوڻ ھارو امو رو <guidelinesLink>Healthcares صفحو</guidelinesLink> جو.
 guidelines = راِہ ديکاڙوي
-contact-us = رابطو ڪرو
-add-sentence-success = جملا ڀيرا ڪرو
-add-sentence-error = جملا ڀيرا ڪريا مي غلطي
+contact-us = امو مون رابطو ڪرو
+add-sentence-success = جملا ڀيرا ڪريا گيا 1
+add-sentence-error = جملا ڀيرا ڪريا ۾ غلطي
 required-field = مھربوني ڪرين آ خونو ڀريو.
 single-sentence-submission = ايڪ جملو ڀيرو ڪرو
 small-batch-sentence-submission = نينا بيچ را جملا جما ڪرو

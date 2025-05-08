@@ -11,8 +11,6 @@ platform-language-tooltip-text = Chỉ thay đổi văn bản trang web.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Đóng góp vào tập dữ liệu cho { $language }
 contribution-picker-tooltip-text = Thay đổi tập dữ liệu ngôn ngữ mà bạn đang đóng góp
-# Label for button on contribution switcher
-change = Thay đổi
 coming-soon = Sắp có thêm nhiều ngôn ngữ
 media-recorder-api-not-supported = MediaRecorder API không được hỗ trợ trên trình duyệt của bạn.
 # Toast message that is displayed when an item is skipped
@@ -42,3 +40,6 @@ accept-privacy-and-terms = Tôi đồng ý với <termsLink>điều khoản</ter
 en = Tiếng Anh
 fr = Tiếng Pháp
 tr = Tiếng Thổ Nhĩ Kỳ
+
+## Language search component
+

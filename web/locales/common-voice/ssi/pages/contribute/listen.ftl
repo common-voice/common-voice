@@ -13,7 +13,7 @@ listen-abort-confirm = اوݪکھ پُوری کرو
 # Menu item
 validate-readings = پڑھنے کی اوݪکھ کرو
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = ریڈنگا کی اوݪکھ کرو <small>(ٻیگئے آ رہے ہیں)</small>
+validate-readings-coming-soon = ریڈنگا کی اوݪکھ کرو <small>(ٻیگے آئی رے ہے)</small>
 
 ## MENU ITEM TOOLTIPS
 

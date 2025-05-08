@@ -11,8 +11,6 @@ platform-language-tooltip-text = Só modifica o texto do sitio web.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Está contribuíndo ao conxunto de datos do { $language }
 contribution-picker-tooltip-text = Cambia o conxunto de datos lingüísticos ao que está a contribuír.
-# Label for button on contribution switcher
-change = Cambiar
 coming-soon = Máis idiomas proximamente
 media-recorder-api-not-supported = A API MediaRecorder non é compatible co seu navegador.
 # Toast message that is displayed when an item is skipped
@@ -43,3 +41,6 @@ accept-privacy-and-terms = Acepto as <termsLink>Condicións</termsLink> e o <pri
 en = Inglés
 fr = Francés
 tr = Turco
+
+## Language search component
+

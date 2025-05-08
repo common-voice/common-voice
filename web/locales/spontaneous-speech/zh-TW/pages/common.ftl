@@ -11,8 +11,6 @@ platform-language-tooltip-text = 只修改網站文字。
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 貢獻到 { $language } 的資料集
 contribution-picker-tooltip-text = 修改語言資料集為你目前貢獻的
-# Label for button on contribution switcher
-change = 修改
 coming-soon = 更多語言即將到來！
 media-recorder-api-not-supported = 你的瀏覽器不支援 MediaRecorder API。
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh 西連比達友語
 snv = Sa'ban 語
 tr = Turkish 土耳其語
 xkl = Kenyah 語
+
+## Language search component
+

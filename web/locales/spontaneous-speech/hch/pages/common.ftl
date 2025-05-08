@@ -7,8 +7,6 @@ action-tap = Ke neyeyeʼí
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Mɨtikaʼɨniriketsie teteuʼutɨwatɨ { $language }
-# Label for button on contribution switcher
-change = Ke neupata
 coming-soon = Kwítɨ hípatɨ niuki kanahuni
 media-recorder-api-not-supported = API MediaRecorder mɨtitewá ʼanavegadortsie pɨkaʼayemié.
 # Toast message that is displayed when an item is skipped
@@ -48,3 +46,6 @@ pne = Penan oeste mieme
 sdo = Serian Bidayuh
 snv = Saʼban
 xkl = Kenyah
+
+## Language search component
+

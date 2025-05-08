@@ -83,6 +83,12 @@ about-playbook-how-add-language-translating-content-2 =
     وڌاري زويا هارو آ سائيٽ مان زوئو۔ </localizationFragment>.<localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملا ڀيۯا ڪرو
 about-playbook-how-add-language-collecting-sentences-content-1 = رهنمائي هارُو آ لنڪ نين زوئو ڪي جُملا جمع ٿئي ڪي۔ <sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تمين آ جُملا نين ڪانڪ وقت هارو  <sentenceCollectorLinkAdd>تمين هاڇي تبديل ڪري ڪو سو۔
+    </sentenceCollectorLinkAdd>،
+    يان تمين  <bulkImportDocsLink>GitHub يان هيئي راڇا هارو جُملا  يان عوامي ملڪيت لازمي سي</bulkImportDocsLink> يان تمين پوتي جُملا لڇي ڪو سيو۔
+    شُون تمان نين ترجما مان ڪوئي لحجا ني ضروروت سي؟
+about-playbook-how-add-language-collecting-sentences-content-3 = جمع ڪرل جُملان وڌاري زوئو
 
 ## How does localization work
 

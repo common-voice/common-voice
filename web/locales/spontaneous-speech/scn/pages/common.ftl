@@ -1,7 +1,5 @@
 ## General
 
-# Label for button on contribution switcher
-change = Cancia
 coming-soon = Autri lingui agghìcanu viatu
 # Toast message that is displayed when an item is skipped
 skipped = Sautatu
@@ -40,3 +38,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turcu
 xkl = Kenyah
+
+## Language search component
+

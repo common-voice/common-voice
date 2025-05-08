@@ -7,8 +7,6 @@ action-tap = 輕觸
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 變更 { $language }
-# Label for button on contribution switcher
-change = 更多語言即將推出
 coming-soon = 您的瀏覽器不支援
 media-recorder-api-not-supported = MediaRecorder API。對內容有疑慮嗎？請透過電子郵件 <emailFragment>commonvoice@mozilla.com</emailFragment>回報問題
 # Toast message that is displayed when an item is skipped
@@ -33,3 +31,6 @@ not-found-page-header = 找不到
 not-found-page-content = 找不到您要尋找的頁面
 # Privacy and Terms checkbox
 accept-privacy-and-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
+
+## Language search component
+

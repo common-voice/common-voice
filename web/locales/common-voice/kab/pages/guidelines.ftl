@@ -51,3 +51,5 @@ reviewing-sentences-explanation-4 = Ma yella ur tesɛiḍ ara tifyar ara tesneqd
 
 ## Question collection sidebar content
 
+dont-add-subheader = Ur rennu ara
+example-questions-subheader = Isteqsiyen imedyaten

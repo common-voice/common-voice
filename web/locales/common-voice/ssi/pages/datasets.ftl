@@ -14,7 +14,7 @@ download-dataset-tag = پِسندا کی ٻولیا کا ڈیٹا سیٹ چُو�
 # File size in gigabytes
 size = نیپ
 validated-hr-total = پکا کلاک کُل
-overall-hr-total = کُل اکلاک میلائی کر
+overall-hr-total = سارے مِلائی کن ایچ آر سارے
 cv-license = لیسٹؔ
 audio-format = آڈیو فارمیٹ
 dataset-splits = ٻاٹ (عمر اور جنس)
@@ -32,6 +32,10 @@ download-language = ڈاؤن لوڈ { $language }
 validated-hours = پکا کلاک
 recorded-hours = ریکارڈ کروڑا کلاک
 whats-inside = سادھارݨ آواج ڈیٹا سیٹا کے مھم کیا ہے؟
+dataset-description-hours =
+    Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $total }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
+    
+    The dataset currently consists of <b>{ $valid }</b> validated hours in <b>{ $languages }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start
 want-dataset-update = جِدؔ ہم عام آواج ڈیٹا سیٹا کا نئوا ورژن جاری کرتے ہے تو اپ ڈیٹس چاوہتے ہے؟ مھارے نئوے پترے نتر سبسکرائب کرو.
 subscribe = سبسکرائب
 get-started-speech = بھاشݨا کی اوݪکھا کے ساتھ سََرو کرو
@@ -51,7 +55,7 @@ data-other-voxforge-description = ووکس فورجا کُو مُکتام اور
 data-other-tatoeba-description = تاتوبیبا ٻولی سیکھݨیم اُپیوگا نتر ٻول ، انُواد اور ٻولنواڑی آڈیو کا ایک ٻڈؔا ڈیٹا بیس ہے۔ اس ڈاؤن لوڈام ان کا پڑاوا کے جریعہ ریکارڈ کروڑی ٻولنواڑی انگریجی سیمل ہے۔
 your-feedback = کیا تھارے کن اس باریم ٻیچار ہے کہ ہم سادھارݨ آواج ڈیٹا سیٹا کُو کِدؔا اجرا ٻݨائی سِکتے ہے؟ آو ڈسکورسا باریم جاݨاں
 go-discourse = ڈسکورساپ جاؤ
-missing-language = ڈیٹا سیٹام آپ کی ٻولیا کا اُرھاٹؔاں نائی ٻݨے؟ کسی ٻولیا کی اپیل کرنے نتر مھارے ٻولیں کے پنیںٚپ جاؤ۔
+missing-language = ڈیٹا سیٹام آپ کی ٻولیا کا اُرھاٹؔاں نائی ٻݨے؟ کسی ٻولیا کی ٻِنتی کرنے نتر مھارے ٻولیں کے پنیںٚپ جاؤ۔
 go-languages-page = ٻولیں کے پنیںٚپ جاؤ
 ready-to-validate = ٻولا کُو پکا کرنیم ساہیتا  نتر تیار ہے؟
 more = ودھیک
@@ -84,7 +88,7 @@ data-other-title = دؔوجی آواج ڈیٹا سیٹ ...
 data-other-goto = { $name } پے جاو
 data-other-download = ڈیٹا ڈاؤن لوڈ کرو
 data-bundle-button = ڈیٹا سیٹ بنڈل ڈاؤن لوڈ کرو
-data-bundle-description = سادی آواج ڈیٹا کے بھیݪو بھیݪ اُپر دؔوجی آواج ڈیٹا سیٹ۔
+data-bundle-description = سادھارݨ آواج ڈیٹا کے بھیݪو بھیݪ اُوپر دؔوجی آواج ڈیٹا سیٹ۔
 release-version = ورژن
 dataset-date = تاریک
 license = لیسݨ: <licenseLink>{ $license }</licenseLink>

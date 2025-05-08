@@ -11,8 +11,6 @@ platform-language-tooltip-text = ცვლის მხოლოდ ვებს
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = წვლილის შესატანი ენა { $language }
 contribution-picker-tooltip-text = ცვლის მონაცემთა კრებულის ენას, რომელშიც წვლილი შეგაქვთ
-# Label for button on contribution switcher
-change = შეცვლა
 coming-soon = სხვა ენები მალე დაემატება!
 media-recorder-api-not-supported = MediaRecorder API არაა მხარდაჭერილი თქვენს ბრაუზერში.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,10 @@ sdo = სერიანული ბიდაუ
 snv = საბანი
 tr = თურქული
 xkl = კენიური
+
+## Language search component
+
+language-search-placeholder = ენის მოძებნა...
+language-search-aria-label = ენის მოძებნა
+language-search-label = მხოლოდ მონაცემთა კრებულის ენას ცვლის
+language-search-no-results = ენა არ მოიძებნა

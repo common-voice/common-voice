@@ -88,16 +88,20 @@ transcribe-audio = Transkriptoni Audio <small>(Së shpejti)</small>
 press-and-stories = Për Shtypin dhe Shembuj
 community-and-languages = Bashkësi dhe Gjuhë
 coming-soon = Së Shpejti
+about-us = Rreth nesh
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partneritete, Shtypi dhe Shembuj, Bashkësi dhe Gjuhë
+about-us-menu-item-tooltip = Mësoni mbi misionin dhe ekipin pas Common Voice-it
+about-us-menu-item-aria-label = Menu mundësish “Mbi ne”
 partnerships-menu-item-tooltip = Partneritet me ne
 press-and-stories-menu-item-tooltip = Vizitoni blogun tonë, ose shkruani rreth nesh
 community-and-languages-menu-item-tooltip = Zbuloni gjuhë dhe bashkësi dhe Common Voice-in
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Menu mundësish “Mbi”
 partnerships-menu-item-aria-label = Mësoni rreth partneritete me Common Voice
 press-and-stories-menu-item-aria-label = Shihni njoftime shtypi dhe shembuj të lidhur me Common Voice
 community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuhët e mbuluara nga Common Voice
