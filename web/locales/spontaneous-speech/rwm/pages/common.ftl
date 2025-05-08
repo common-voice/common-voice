@@ -11,8 +11,6 @@ platform-language-tooltip-text = Mpindula sa kigambo ngbeibe website ukaka
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contributing to <bold>{ $language }</bold> dataset
 contribution-picker-tooltip-text = Mpindula sa mbizia makulu ndie oli kabisaibe
-# Label for button on contribution switcher
-change = Mpinduka
 coming-soon = Dhaka ndiekina ali kabikai yau
 media-recorder-api-not-supported = Nguwa sa gba laso API kali na mani yambako kola ndie okabhio.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkish
 xkl = Kenyah
+
+## Language search component
+

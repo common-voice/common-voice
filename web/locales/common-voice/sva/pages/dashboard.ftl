@@ -6,7 +6,7 @@ goal-reached = მიზან მიღწეულ ლი
 clips-you-recorded = ისგუ ნა̈ირუ̂ კლიპა̈რ
 clips-you-validated = ისგუ ნამოწმან კლიპა̈რ
 todays-recorded-progress = ლა̈დი̄ პროგრეს Common Voice სგალჷირ კლიპარე მიხედვით
-todays-validated-progress = ლა̈დი̄  Common Voice პროგრეს კლიპა̈რჟი დადასტურებულ ლი
+todays-validated-progress = ლა̈დი̄ Common Voice პროგრეს კლიპა̈რჟი დადასტურებულ ლი
 stats = სტატისტიკა
 awards = ჯილდოა̈რ
 you = სი
@@ -18,7 +18,7 @@ validated-clips = ლჷდასტუ̄რე კლიპა̈რ
 total-approved = ჰა̈დურდ ლჷდასტუ̄რე ლი
 overall-accuracy = სა̈ერთო სიზუსტე
 set-visibility = ჩუ̂ესგენ მიშგუ ლა̈სგიდ
-visibility-explainer = ალ პარამეტრ აკონტროლე ისგუ ლიდერბორდი ლაწა̈დს. ლახ ჩულუპჟუნე ლი, ეჩქა ისგუ პროგრესი ჩულუპჟუნე ლი. ალა ა̈ნშა̈ნი, ერე ისგუ გამოსახულება, მომხმარებლი ჟახე ი პროგრეს მა̄მ იწუ̂ე̄ნი ლიდერბორდჟი. ჩუ ჯეშყეს, ერე ლიდერბორდი ლიმხეს{ $minutes } წთ ხაწჷხ ცვლილება̄ლე სგა ლაჲე̄სგიდ.
+visibility-explainer = ალ პარამეტრ აკონტროლე ისგუ ლიდერბორდი ლაწა̈დს. ლახ ჩულუპჟუნე ლი, ეჩქა ისგუ პროგრესი ჩულუპჟუნე ლი. ალა ა̈ნშა̈ნი, ერე ისგუ გამოსახულება, მომხმარებლი ჟახე ი პროგრეს მა̄მ იწუ̂ე̄ნი ლიდერბორდჟი. ჩუ ჯეშყეს, ერე ლიდერბორდი ლიმხეს { $minutes } წთ ხაწჷხ ცვლილება̄ლე სგა ლაჲე̄სგიდ.
 visibility-overlay-note = შომუ̂ა̄̈ჲ ჩუ ლჷგნე ლი "ლეწედ", ალ პარამეტრი ჟი ლისპე იმა̈რგ<profileLink>პროფილი გვერდხა̈ნქა</profileLink>
 show-ranking = ქახწუ̂ე̄ნ მიშგუ რეიტინგ
 
@@ -33,12 +33,12 @@ daily-goal = ჩილა̈დღია̈ მიზან
 weekly-goal = ნაგზი̄ მიზან
 easy-difficulty = ჰა̈დუ̂ილ ლი
 average-difficulty = საშუ̂ალო
-difficult-difficulty = ლეგა̄რჯ
+difficult-difficulty = ლეგა̈რჯ
 pro-difficulty = პროფ
 lose-goal-progress-warning = ისგუ მიზნი ჟი ლაცა̄დუნონოშ შეიძლება ჩუ̂ათუფა პროგრეს, ხედუ̂ა̄̈ჲ ათხე ჯუღუ̂ა.
 want-to-continue = ჯაკუმა ლიჯო̄დინე?
 finish-editing = მა̄̈ნკუ̂ი რედაქტირებას ხაზგჷრემა?
-lose-changes-warning = ათხე ამხა̈ნქა ქა̄̈ნჴდენი, ისგუ’ ნასყა̈უ̂ ცვლილება̄̈ლ ჩუჯითუ̂ფენი
+lose-changes-warning = ათხე ამხა̈ნქა ქა̄̈ნჴდენი, ისგუ ნასყა̈უ̂ ცვლილება̄̈ლ ჩუჯითუ̂ფენი
 build-custom-goal = ჟ'ახა̈სყ სამომხმარებლო მიზან
 help-reach-hours-pluralized =
     { $hours ->
@@ -47,7 +47,7 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] ლოხმა̈რჯუ̂  Common Voice-ს ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზნი ნინჟი
+        [one] ლოხმა̈რჯუ̂ Common Voice-ს ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზნი ნინჟი
        *[other] ლოხმა̈რჯუ̂  Common Voice-ს ერე ქა̄დსურლას{ $hours } საღა̈თ{ $language } პირად მიზნი ნინჟი
     }
 set-a-goal = დაისახე მიზან
@@ -115,7 +115,7 @@ activity-needed-calculation-plural =
     }
 how-many-per-day = გუნ ხოჩა! ოშა კლიპ ლადა̈ღისგა?
 how-many-a-week = გუნ ხოჩა! ოშა კლიპ ნაგზაისგა?
-which-goal-type = ლიგჷრგა̈ლი ჯაკუ, ლიჰუ̂ნა̈რი ჰა ერქჷდა?
+which-goal-type = ლიგჷრგა̈ლი ჯაკუ, ლიჰუ̂ნა̈რი ჰა ჲერქჷდა?
 receiving-emails-info = ალ დუ̂რეუ̂იშდ სი ბზათ ხ'ე̄რე ელფოსტოშ ხიკა̈დედ წერილა̈რს მიზნარე ლა̈შყდუნად, მიშგუ პროგრესი ლიმხე̄ ბედჟი ი საინფორმაციო Common Voice-ეშ ბიულეტენს
 not-receiving-emails-info = ალ დუ̂რეუ̂იშდ სი <bold></bold> ბზათ ხ'ე̄რე ელფოსტოშ ხიკა̈დედ წერილა̈რს, იმუ̂ა̄̈იჟი ლი მიზნარე ლიშყდუნე, მიშგუ პროგრესი ლიმხე ი საინფორმაციო Common Voice-ეშ ბიულეტენს
 n-clips-pluralized =
@@ -143,7 +143,7 @@ share-goal = გააზიარე მიშგუ მიზან
 
 ## Goals
 
-streaks = შარა̈რ
+streaks = შარა̈ლ
 days =
     { $count ->
         [one] ლადა̈ღ
@@ -156,6 +156,6 @@ recordings =
     }
 validations =
     { $count ->
-        [one] ვალიდაცია
-       *[other] ვალიდაცია
+        [one] უ̂ალიდაცია
+       *[other] უ̂ალიდაცია
     }

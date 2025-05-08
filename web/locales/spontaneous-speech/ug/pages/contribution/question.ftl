@@ -2,6 +2,8 @@
 
 question-page-instruction = كىشىلەرنىڭ جاۋاب بېرىشى ئۈچۈن { $currentLocale } غا <icon></icon> سوئال قوشىدۇ
 add-question-textarea-placeholder = مەسىلەن، «تېخنىكىنى نېمىگە ئىشلىتىشنى خالايسىز؟»
+add-question-error-message = يۈكلىيەلمىدى، قايتا سىناڭ.
+add-question-too-many-questions-error = سوئال 25 تىن ئېشىپ كەتتى. سوئالنى ئازايتىپ ئاندىن قايتا سىناڭ.
 # Guidelines
 add-question-guidelines-title = قانداق سوئاللارنى قوشالايمەن؟
 do-section-title = قىلاي

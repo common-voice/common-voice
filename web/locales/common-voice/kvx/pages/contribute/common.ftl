@@ -1,4 +1,4 @@
-action-click = Click
+action-click = ڪِلِڪ
 action-tap = ٽيپ
 contribute = ڀاڳ ليوو
 review = دوهرائِي
@@ -33,7 +33,7 @@ change-preferences = preferences تبڌِيل ڪرو
 login-signup = Log In / Sign Up
 vote-yes = هووَئہ
 vote-no = نا
-datasets = Datasets
+datasets = ڊيٽاسيٽس
 languages = ٻولي
 about = ڀارام
 partner = ڀائيواۯ
@@ -41,8 +41,8 @@ submit-form-action = جمع
 
 ## Reporting
 
-report = Report
-report-title = هيڪ report جمع ڪرو
+report = رپورٽ
+report-title = هيڪ رپورٽ جمع ڪرو
 report-ask = تمون نئہ اِيئا جُملا ٿِي ڪيوي ۮورووڻون ۿومي آوئه ري؟
 report-offensive-language = نا مناسب ٻولئي
 report-offensive-language-detail = جُملا ۾ بي ادب ڪا نا مُناسِب ويڻ سئہ۔
@@ -73,7 +73,7 @@ shortcut-record-toggle = ر
 shortcut-record-toggle-label = اُوڀو / رِيڪارڊ
 shortcut-rerecord-toggle = هيڪ ٿِي لينَ پونس
 shortcut-rerecord-toggle-label = ٻِيزِي وار ڪِلپ رِيڪارڊ  ڪرو
-shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording = اِي ايس سِي
 shortcut-discard-ongoing-recording-label = جارِي ڪرَل ريڪارڊِنگ نئہ کتم ڪرو
 shortcut-submit = واپس زائو
 shortcut-submit-label = ڪِلپ جمع ڪراوو

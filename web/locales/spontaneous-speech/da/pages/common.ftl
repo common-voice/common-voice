@@ -6,8 +6,6 @@ action-click = Klik
 action-tap = Tryk på
 # Label for language switcher
 platform-language = Platformsprog
-# Label for button on contribution switcher
-change = Skift
 coming-soon = Flere sprog kommer snart
 # Toast message that is displayed when an item is skipped
 skipped = Sprunget over
@@ -29,3 +27,6 @@ not-found-page-content = Den side, du leder efter, blev ikke fundet
 accept-privacy-and-terms = Jeg accepterer Common Voices' <termsLink>vilkår</termsLink> og <privacyLink>privatlivserklæring</privacyLink>
 en = Engelsk
 fr = Fransk
+
+## Language search component
+

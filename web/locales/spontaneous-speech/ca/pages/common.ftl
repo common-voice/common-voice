@@ -4,8 +4,6 @@
 error = Error
 action-click = Feu clic a
 action-tap = Toqueu
-# Label for button on contribution switcher
-change = Canvia
 coming-soon = Aviat hi haurà més llengües disponibles
 media-recorder-api-not-supported = L'API MediaRecorder no és compatible amb el vostre navegador.
 audioplayer-header = Escolta
@@ -28,3 +26,6 @@ accept-privacy-and-terms = Accepto les <termsLink>condicions d'ús</termsLink> i
 en = anglès
 fr = francès
 tr = turc
+
+## Language search component
+

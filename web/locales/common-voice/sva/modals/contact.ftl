@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = კონტა̈ქტიშ ფორმა
+contact-title = კონტა̈ქტი ფორმა
 contact-form-name =
     .label = ჟა̄ხე
 contact-form-message =

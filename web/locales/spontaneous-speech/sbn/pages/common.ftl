@@ -11,8 +11,6 @@ platform-language-tooltip-text = رُڳو ويب سآئيٽ رآ اکر بدلآ
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = شرآڪت ڪرڻ<bold>{ $language }</bold>ڊيٽآ سيٽ
 contribution-picker-tooltip-text = ٻوليٚ ڊيٽآ سيٽ کي تبديٚل ڪري دو جنٚهنٚ مينٚ اڀيٚنٚ هيسو وٺي رهيآ اهونٚ
-# Label for button on contribution switcher
-change = تبديٚل ڪرڻ
 coming-soon = جلديٚ آڻ وآرينٚ اهينٚ ٻئينٚ ٻولينٚ
 media-recorder-api-not-supported = اڀآنٚ ري برآئوزر مينٚ ميٚڊيآ ريڪآڊر اي۔پيٚ۔آئيٚ (API) سپورٽ ٿيل ڪونهي۔
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = سئيرن بيٚديآه
 snv = سآبآن
 tr = ترڪيٚ
 xkl = ڪينيآ
+
+## Language search component
+

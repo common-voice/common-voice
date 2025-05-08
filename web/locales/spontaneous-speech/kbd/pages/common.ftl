@@ -26,3 +26,6 @@ sdo = Сериан Бидау
 snv = Сабан
 tr = Тыркубзэ
 xkl = Кенийбзэ
+
+## Language search component
+

@@ -6,6 +6,20 @@ how-does-it-work-text = Ustvarjamo odprtokodni glasovni nabor podatkov. Prispeva
 
 ## How does it work section
 
+about-language-req-subtitle = Nekdo zahteva dodajanje jezika.
+about-localization-title = Lokalizacija spletnih strani
+about-localization-subtitle = Besedilo spletnega mesta je prevedeno v ta jezik.
+about-sentence-collection-title = Zbiranje stavkov
+about-sentence-collection-subtitle = Stavki so zbrani, da jih ljudje lahko berejo naglas.
+about-new-lang-title = Objava novega jezika
+about-new-lang-subtitle = Objavili smo spletno stran Common Voice v tem jeziku.
+about-voice-contrib-title = Glasovni prispevek
+about-voice-contrib-subtitle = Ljudje prihajajo in prispevajo svoj glas.
+about-voice-validation-title = Preverjanje glasu
+about-voice-validation-subtitle = Drugi ljudje potrdijo te glasovne posnetke.
+about-dataset-release-title = Izdaja nabora podatkov
+about-dataset-release-subtitle = Nabor podatkov objavimo vsake 3 mesece.
+about-subscribe-text = Želite ostati v stiku s skupino Common Voice?
 about-speak = Govori
 about-speak-text = Sodelujoči posnamejo glasovne posnetke iz nabora zbranih stavkov.
 about-listen-queue = Poslušaj – Čakalna vrsta
@@ -28,6 +42,8 @@ about-get-involved-text-2 =
     Odlično! Oglasite se nam po e-pošti ali na <discourseLink>forumu Discourse</discourseLink>,
     pošljite povratne informacije na <githubLink>GitHubu</githubLink>
     ali se nam pridružite na <matrixLink>kanalu Matrix</matrixLink>.
+about-stay-in-touch = Kako lahko ostanem v stiku?
+about-stay-in-touch-button = Registracija
 about-nav-why-common-voice = Zakaj?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
@@ -60,13 +76,23 @@ about-playbook-how-grow-language-content-6 = Partnerstva in mreže
 
 ## How to validate
 
+about-playbook-how-validate = Kako vem, ali naj glasovni posnetek odobrim?
+about-playbook-how-validate-content-1 = Če ga lahko <strong>slišite</strong> in <strong>razumete</strong>, je običajno <strong>najbolje, da ga odobrite</strong>.
+about-playbook-how-validate-content-2 = <strong>Ne zavračajte posnetkov, na katerih "ima govornik naglas", drugačen od vašega</strong> – takšni posnetki so pomembni, da bi prepoznavanje govora delovalo bolje za vse.
+about-playbook-how-validate-content-3 = Če menite, da je posnetek zaradi izgovorjave <strong>nemogoče razumeti</strong>, če je <strong>v ozadju veliko šuma</strong> ali pa <strong>govorijo tudi drugi</strong>, ga zavrnite. <accuracyLink>Več informacij si oglejte v naših merilih za natančnost</accuracyLink>.
 
 ## How to access dataset
 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Naše upravljanje temelji na:
 about-playbook-how-project-governance-content-3 = Zasebnost, varnost in preglednost.
+about-playbook-how-project-governance-content-4 = skupnostnem sodelovanju in odločanju.
+about-playbook-how-project-governance-content-5 = vrednotah in prepoznavnosti.
+about-playbook-how-project-governance-content-6 = vzajemni odgovornosti.
+about-playbook-how-project-governance-content-7 = <governanceLink>Preberite več o tem, kako smo upravljani</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Kako se Common Voice financira?

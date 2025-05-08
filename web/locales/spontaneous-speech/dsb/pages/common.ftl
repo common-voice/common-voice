@@ -11,8 +11,6 @@ platform-language-tooltip-text = Změnijo jano tekst websedła.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = K datowej sajźbje za rěc { $language } pśinosowaś
 contribution-picker-tooltip-text = Změnijo rěcnu datowu sajźbu, ku kótarejž pśinosujośo
-# Label for button on contribution switcher
-change = Změniś
 coming-soon = Dalšne rěcy skóro pśidu
 media-recorder-api-not-supported = MediaRecorder API se we wašom wobglědowaku njepódpěra.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkojšćina
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Rěc pytaś…
+language-search-aria-label = Rěc pytaś
+language-search-label = Změnijo jano rěc pśinosowanja datoweje sajźby
+language-search-no-results = Žedne rěcy namakane

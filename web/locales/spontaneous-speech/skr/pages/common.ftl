@@ -4,8 +4,6 @@
 error = نقص
 action-click = کلک
 action-tap = انگل لاؤ
-# Label for button on contribution switcher
-change = وٹاؤ
 audioplayer-header = سݨو
 guidelines = ہدایات
 # For the button to report an item
@@ -40,3 +38,6 @@ pez = مشرقی پینان
 pne = مغربی پینن
 tr = ترکی
 xkl = کینیاہ
+
+## Language search component
+

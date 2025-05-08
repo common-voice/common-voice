@@ -19,7 +19,7 @@ total-approved = پُوري نمُوني سُون منظُور هئوڙا
 overall-accuracy = صحِيح بِچڙوڙَي (مجمُوعِي دُرستگِي)
 set-visibility = مانڇِي visibility مُقرر ڪرا
 visibility-explainer = ها سيٽنگ تمچي ليڊر بورڊا چِي نُمائِشِي نُون ڪنٽرول ڪرَي ڇَي۔ جِڏ لُڪولَي جاهِي، تمچِي ترقِي نِجِي هُوِي۔ اوڇا مطلب ڇَي تمچِي تصوِير، مالڪا چَي نان ائُون ترقِي ليڊر بورڊا پر ظاهر ڪونهِي هُوَي۔ نوٽ ڪرا تہ ليڊر بورڊ ريفريش ۾ مٽاتِي ڀرڻي ۾ منٽ ڪري هِتي۔
-visibility-overlay-note = صفعا پروفائِيلا <profileLink> پر سيٽ ڪلا جا ڇَي، نوٽ جي سيٽنگِي نُون ”visible“ مُون مٽا سِگھجَي ڇَي </profileLink>
+visibility-overlay-note = نوٽ جي سيٽنگِي نُون ”visible“ مُون مٽا سِگھجَي ڇَي، ها سيٽنگ <profileLink>پروفائِيلا هاڙي صُفحي<profileLink> مُون مٽا سِگھجَي ڇَي۔
 show-ranking = مانڇا درجا ڏِکاڻا
 
 ## Custom Goals
@@ -146,13 +146,13 @@ share-goal = مانڇا مقصد بانٽا
 streaks = تارُون
 days =
     { $count ->
-        [one] ڏِيئو one
-       *[other] ڏِيئو other
+        [one] ڏِيئو
+       *[other] ڏِينهين
     }
 recordings =
     { $count ->
         [one] رڪارڊنگ one
-       *[other] رڪارڊنگس other
+       *[other] رڪارڊنگا other
     }
 validations =
     { $count ->

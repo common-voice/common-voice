@@ -11,8 +11,6 @@ platform-language-tooltip-text = ປ່ຽນແປງຂໍ້ຄວາມເ�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ປະກອບສ່ວນເຂົ້າໃນຊຸດຂໍ້ມູນສຳລັບ { $language }
 contribution-picker-tooltip-text = ປ່ຽນຊຸດຂໍ້ມູນພາສາທີ່ທ່ານກຳລັງປະກອບສ່ວນ
-# Label for button on contribution switcher
-change = ການປ່ຽນແປງ
 coming-soon = ພາສາອື່ນໆຈະມາໃນໄວໆນີ້
 media-recorder-api-not-supported = MediaRecorder API ບໍ່ຮອງຮັບໃນໂປຣແກຣມທ່ອງເວັບຂອງທ່ານ.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = ຕວກກີ
 xkl = { "" }
+
+## Language search component
+
+language-search-placeholder = ຄົ້ນຫາພາສາ...
+language-search-aria-label = ຄົ້ນຫາພາສາ
+language-search-label = ປ່ຽນພາສາການປະກອບສ່ວນຂອງຊຸດຂໍ້ມູນເທົ່ານັ້ນ
+language-search-no-results = ບໍ່ພົບພາສາ

@@ -87,16 +87,21 @@ press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
 coming-soon = Προσεχώς
 about-us = Σχετικά με εμάς
+scripted-speech = ΟΜΙΛΙΑ ΜΕ ΣΕΝΑΡΙΟ
+spontaneous-speech = ΑΥΘΟΡΜΗΤΗ ΟΜΙΛΙΑ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Συνεργασίες, τύπος και άρθρα, κοινότητα και γλώσσες
+about-us-menu-item-tooltip = Μάθετε για την αποστολή και την ομάδα πίσω από το Common Voice
+about-us-menu-item-aria-label = Μενού επιλογών πληροφοριών σχετικά με εμάς
 partnerships-menu-item-tooltip = Συνεργαστείτε μαζί μας
 press-and-stories-menu-item-tooltip = Επισκεφθείτε το blog μας ή γράψτε για εμάς
 community-and-languages-menu-item-tooltip = Ανακαλύψτε γλώσσες, κοινότητες και το Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Μενού επιλογών πληροφοριών
 partnerships-menu-item-aria-label = Μάθετε για τις συνεργασίες με το Common Voice
 press-and-stories-menu-item-aria-label = Αποκτήστε πρόσβαση σε δελτία τύπου και άρθρα σχετικά με το Common Voice
 community-and-languages-menu-item-aria-label = Εξερευνήστε την κοινότητα και τις γλώσσες που υποστηρίζει το Common Voice
@@ -140,7 +145,7 @@ ask-mozilla-share = Ζητήστε από τη Mozilla να μοιραστεί �
 ask-mozilla-share-content = Έχετε κάποια προηγούμενη ή επερχόμενη εκδήλωση; Μοιραστείτε το μαζί μας και θα το ανακοινώσουμε στην κοινότητά μας ή θα γράψουμε μια ανάρτηση blog για αυτην!
 # label for button
 ask-mozilla-share-action = Μοιραστείτε την εκδήλωσή σας
-download-contribution-certificate = Κάντε λήψη του πιστοποιητικού συνεισφοράς σας
+download-contribution-certificate = Απόκτηση πιστοποιητικού συνεισφοράς
 download-contribution-certificate-content = Κάντε λήψη ενός πιστοποιητικού για τις εκδηλώσεις σας ή τον εαυτό σας αν έχετε συνεισφέρει στο Common Voice. Τίποτα θα ήταν δυνατό χωρίς εσάς!
 # label for button
 download-contribution-certificate-action = Λάβετε το πιστοποιητικό σας

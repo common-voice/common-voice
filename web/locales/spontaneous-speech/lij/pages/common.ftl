@@ -7,8 +7,6 @@ action-tap = Sciacca
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Conlaboraçion a-o dataset pe { $language }
-# Label for button on contribution switcher
-change = Cangia
 coming-soon = Neuve lengue in arrivo
 media-recorder-api-not-supported = L’API MediaRecorder a no l’é supportâ da-o teu browser.
 # Toast message that is displayed when an item is skipped
@@ -54,3 +52,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turco
 xkl = Kenyah
+
+## Language search component
+

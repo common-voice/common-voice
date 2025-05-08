@@ -4,8 +4,6 @@
 error = Faddina
 action-click = Incarca
 action-tap = Toca
-# Label for button on contribution switcher
-change = Modifica
 coming-soon = Àteras limbas luego
 audioplayer-header = Ascurta
 guidelines = Ghias
@@ -26,3 +24,6 @@ en = Inglesu
 fr = Frantzesu
 meh = Mixtecu de su sud-est de Tlaxiaco
 tr = Turcu
+
+## Language search component
+

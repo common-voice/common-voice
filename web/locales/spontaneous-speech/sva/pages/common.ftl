@@ -11,8 +11,6 @@ platform-language-tooltip-text = აცა̄̈დი საიტი ტექ�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = მონაცემრეშ ხორეუ̂თეჲსგა წვლილი ლიდი { $language }-ეშდ
 contribution-picker-tooltip-text = აცა̄დუნე ნინი მონაცემრე ბაზას, ხედუ̂ა̄̈ჲთე̄ჲსგა სი ეჯღუ̂ა წუ̂ლილ
-# Label for button on contribution switcher
-change = ჟი ლისპე
 coming-soon = დო̄სგ ქა იწუ̂ე̄ნიხ იშგენ ნჷნა̈რი
 media-recorder-api-not-supported = The MediaRecorder API მა̄მ ლი მხარდაჭერილ ისგუ̂ა ბრაუზერისგა.
 # Toast message that is displayed when an item is skipped
@@ -22,7 +20,7 @@ guidelines = რეკომენდაცია̄̈ლ
 # For the button to report an item
 report-button = ანგარიშ
 # For the button to skip an item
-skip-button = ქა ლიცვრე
+skip-button = ქა ლიცუ̂რე
 submit-button = ქა ლიზზი
 contribute = ლიმურჯუ̂ი
 request-new-language = ხიჰრ მახე ნინ
@@ -60,3 +58,10 @@ sdo = Bidayuh-ის ტომი
 snv = მა̈გ
 tr = თურქულ
 xkl = კენიურ
+
+## Language search component
+
+language-search-placeholder = ნინი ლითხე̄ლი...
+language-search-aria-label = ნინი ლითხე̄ლი
+language-search-label = აცა̄̈დი მონაცემრე წუ̂ლილი ნინსგარ
+language-search-no-results = ნინა̈რ მა̄მ ა̈ნთხა̄̈ნხ

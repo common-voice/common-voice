@@ -37,6 +37,8 @@ misreadings-tip-3 = [Heilt feil innhald]
 background-noise-example-1 = Dei store dinosaurane i Trias.
 background-noise-tip-2 = [Del av teksten kan ikkje høyrast]
 volume-explanation = Det vil vere naturlege variasjonar i volum på dei ulike lesarane. Avvis berre viss volumet er så høgt at opptaket blir brote opp, eller (vanlegare) viss det er så lågt at du ikkje kan høyre kva som blir sagt utan å referere til den skrivne teksten.
+reader-effects-explanation = Dei fleste opptak er av folk som snakkar med den naturlege stemma si. Du kan godta ein og anna ikkje-standard innspeling som blir ropt, kviskra eller openbert leverte med ei «dramatisk» stemme. Ver vennleg og avvis songopptak og dei som bruker ei datamaskinsyntetisert stemme.
+just-unsure-explanation = Viss du kjem over noko som desse retningslinjene ikkje dekkjer, ver vennleg og stem etter beste skjønn. Viss du verkeleg ikkje kan bestemme deg, bruk hopp over-knappen og gå vidare til neste innspeling.
 still-have-questions = Har du framleis spørsmål?
 contact-common-voice = Kontakt Common Voice-teamet
 
@@ -68,9 +70,11 @@ adding-sentences-subheader-offensive-content = Krenkande innhald
 
 ## Question collection ids
 
+adding-questions = Legg til spørsmål
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Korleis ser eit godt spørsmål ut?
 easy-to-understand = Lett å forstå
 spelling-and-pronunciation = Stavemåte og teiknsetting
 spelling-and-pronunciation-explanation = Bruk korrekt staving og grammatikk.

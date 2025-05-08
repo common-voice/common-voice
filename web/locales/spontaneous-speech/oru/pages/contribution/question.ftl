@@ -3,6 +3,7 @@
 question-page-instruction = سوال ال يې ګډ کَۀ خلق کی ته ځواب پاره
 add-question-textarea-placeholder = ترتُو يې څه خیال هۀ که ا ټېکنالوجی څا استعمال سون؟
 add-questions-terms-checkbox = از يې بُو او تصدی۔ کېم که او سوال يې ته پبلک ډومېن نر هۀ او کُومُن ګیرډ دې ته پۀ ته اپ لوډکؤ پاره اجازت هۀ
+question-dataset-language = ډېټاسېټ
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] سۀ سوال يې جمع ݭیوک

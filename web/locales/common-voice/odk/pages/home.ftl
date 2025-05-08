@@ -97,7 +97,7 @@ about-us-menu-item-tooltip = ڪامن وائِيسا چي لارُون  مِشن
 about-us-menu-item-aria-label = اَمچي باري ۾ آپشن مينيُو
 partnerships-menu-item-tooltip = اَمهان سُون شِرڪت ڪرا
 press-and-stories-menu-item-tooltip = اَمچي بلاگا پر جاوا يان بڙي امچي باري ۾ لِکا
-community-and-languages-menu-item-tooltip = ڪامن وائِيسا ۾ برادرِيا ائُون ٻولِيا ائُون هِڪ سِرکي آواز سوڌا۔
+community-and-languages-menu-item-tooltip = برادرِيا ائُون ٻولِيا ائُون هِڪ سِرکي آواز سوڌا۔
 
 ## MENU ITEM ARIA LABELS
 
@@ -137,7 +137,7 @@ join-discord-community = ڊسڪارڊ برادرِي ۾ شامل هُوا۔
 # label for button
 join-discord-community-action = ڊسڪارڊا پر اَمهان ڀيڙي هُوا
 join-discord-community-content = برادرِي چِي ٻولِي ۾ باتان چِيتان ۾ حِصا گيهوا، سوال پُوڇا، ائُون آوَڻي هاڙي واقعيان ائُون باتان چِيتان چي باري ۾ جاڻا۔
-find-us-on-matrix = اَمهان نُون بيڊا هاڙي گدي پر سوڌا
+find-us-on-matrix = اَمهان نُون ميٽرڪسا پر سوڌا
 find-us-on-matrix-content = ميٽرڪس وڪندريقرت، ٻولڻي چالڻي چا اصل وقت، ائُون موزِيلا چي ترجِيحي باتا ڪرڻي هاڙي پليٽ فارما چي ڪاڻ هيڪ کُلوڙَي، هِلڪا ڦُلڪا تحفظ ڇَي۔
 # label for button
 find-us-on-matrix-action = اَمهان نُون ميٽرڪسا پر سوڌا

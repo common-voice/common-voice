@@ -25,6 +25,6 @@ download-request-assembling-description = تمچِيا فائِيلا ڀيڙِي
 download-request-refresh-button = تازَي ڪرا
 download-request-modal-title = لِنڪس ڊائُون لوڊ ڪرا
 download-request-modal-description = تمچِيان زِپ فائِيلان نُون ڊائُون لوڊ ڪرڻي ڪاڻ اِٺي لِنڪ هِتي۔
-download-request-link-text = زِپا #{ $offset } مُون { $total }
+download-request-link-text = زِِپ #{ $offset } آف { $total }
 download-request-metadata-link = جُملي چا متن
 download-request-link-single = آپڪِي آپا نُون بڻڻي هاڙِي ڊائُون لوڊ مينجرا ۾ ويهچ 12 URLs تمهِين آپ نقتل ڪر سِگھا ڇَوا جڪو سِڌِي ڪلاڪا ۾ ختم هُتِي جاهِي، پَر تمهِين ڪسِي بِي مهلِي نَوين ٺاهوڻي چي ڪاڻ اي صِفحي پر پُوٺي جا سِگھا ڇَوا۔

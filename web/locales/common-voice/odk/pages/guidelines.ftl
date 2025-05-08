@@ -1,7 +1,7 @@
 # GUIDELINES PAGE
 guidelines-header = تعاون ڪرڻي چِيا هدايتا
 guidelines-header-subtitle = سمجھا تہ ڪامن وائِيس ڊيٽا سيٽا ۾ جُملان ائُون آڊيو ڪِلپسا نُون ڪِيُون تعاون ائُون تصدِيق ڪجَي ڇَي۔
-voice-collection = آوزان چا ذخِيرا  (آوازا چا مجمُوعا)
+voice-collection = آوازا چا مجمُوعا
 sentence-collection = جُملان چا ذخِيرا
 question-collection = سوالان چا ذخِيرا
 
@@ -31,13 +31,13 @@ misreadings-explanation-3 = رڪارڊنگِي چِي شرُوعاتِي ۾ غا
 misreadings-explanation-4 = ڪو بِي لفظا پڇاڙِي ۾ ’S‘ غائِب ڇَي۔
 misreadings-explanation-5 = پڙهڻي چا ٽڪراءُ جڪو اصلا ۾ موجُود ڪونهِي ڇَي، مثال ”اَمهِين ڇئُون“ چي پارُون﻿ ”اَمهِين ڇئُون“، يان بڙي اِيهان چي اُبتڙ هُوَي۔
 misreadings-explanation-6 = آخرِي لفظا چِي پُڄاڻِي نُون گُونوَڻي سُون  رڪارڊنگِي نُون تمام تڪڙَي بند ڪتِي ڇوڙا۔
-misreadings-explanation-7 = هيڪ لفظ پڙهڻي چي ڪاڻ گھڻِيا ئِي ڪوشش ڪرڻ۔
+misreadings-explanation-7 = هيڪ لفظ پڙهڻي چي ڪاڻ گھڻِيا ئِي ڪوشش ڪارڻ۔
 misreadings-example-1 = اَمهِين ڪوفِي گيهڻي چي ڪاڻ ٻاهر جائُون ڇَئُون چلي۔
 misreadings-example-2 = اَمهِين ٻاهر جائُون ڇَئُون چلي ڪوفِي گيهڻي چي ڪاڻ۔
-misreadings-example-3 = اَمهِين ٻاهر جائُون ڇَئُون چلي ڪوفِي گيهڻي چي ڪاڻ۔
+misreadings-example-3 = اَمهِين ڪافِي گيهڻي چي ڪاڻ ٻاهر جائُون ڇَئُون چلي
 misreadings-example-4 = بڻ تيز رفتارِي سُون گيلَي چلَي۔
 misreadings-tip-1 = [هُوَڻ کپَي "اَمهِين ڇَئُون"]
-misreadings-tip-2 = [اصلِي متنا ۾ ’a‘ ڪونهِي ڇَي]
+misreadings-tip-2 = [اصل متن ا۾ ’a‘ ڪونهِي ڇَي]
 misreadings-tip-3 = [غير برابرِي هاڙا مواد]
 background-noise-explanation = تمهِين ڪارڊنگِي چا هر لفظ سُڻڻي چي قابل هُوَڻ کپا۔ اَمهِين چاهُون ڇَئُون تہ لرننگ الگورتهم مختلف پس منظرا چي لُڙا نُون سنڀالڻي چي  قابل هُتِي جا، ائُون تيز آواز يان بڙي خاموش پس منظرا چِي موسييقِي نُون قبُول ڪر سِگھَي ڇَي، پر شرط ها ڇَي جو ويهچ تمهان نُون متن سُڻڻي کن پورَي نہ جھلس۔ ڇِڪڻ يان بڙي ’بريڪنگ اپ‘ جڪو تمهان نُون متن سُڻڻي جھلي هِتي، مطلب تہ تمهِين ڪِلپا نُون رد ڪر سِگھا ڇَوا۔
 background-noise-example-1 = ٽرياسڪا چي موٽي ڊائناسور۔
@@ -114,7 +114,7 @@ adding-questions = سوال شامل ڪرڻ
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ڪا هيڪ سُٺا سوال ڪرَِي ڇَي؟
-what-makes-a-good-question-explanation = عوامِي چَي بِچڙڻي چي ڪاڻ ڊيٽاسيٽسا چي ڪاڻ هيڪ سُٺا سوال:
+what-makes-a-good-question-explanation = عوامِي شرڪتِي هاڙي ڊيٽا سيٽان چي ڪاڻ هيڪ سُٺا سوال جُون هُوڻ کپي:
 what-makes-a-good-question-explanation-criteria-1 = سمجھڻي ائُون جواب ڏِيڻي ۾ سولي هُوا
 what-makes-a-good-question-explanation-criteria-2 = خاص ڪتِي باتي چِيتي ۾ ڀيڙي هُوا
 what-makes-a-good-question-explanation-criteria-3 = نُقصانا ۾ يان بڙي جاهيلاڻِي ٻولِي اِستعمال نہ ڪرا، يان بڙي درخواست نہ ڪرا۔
@@ -127,9 +127,8 @@ length = لانٻتاڻَي
 length-explanation = سوالا چا جواب رُگَي هيڪي ڏُونه جُملي ۾ هُوَڻ کپَي۔
 dont-add-subheader = شامل نہ ڪرا
 culturally-specific-questions = ثقافتِي چي حسابا سُون مخصُوص سوال
-culturally-specific-questions-explanation = اِسڙي سوال جڪو ثفاقتِي چي حسابا سُون گھڻي مخصُوس هِتي، يان بڙي جواب ڏيڻي هاڙي چي باري ۾ تمام گھڻِيا مثالا ٺاهوا ڇَوا۔
 length-avoid-explanation = وي سوال جڪا چا جواب 15 سيڪنڊا ڏيڻي چي ڪاڻ ڪو بِي ماڻس جدوجھد ڪرهِي (گھڻي کن گھڻا ڪِلپ لانٻا)
-process-steps = عمل/ ڪوششا
+process-steps = عمل/ قدم
 process-steps-explanation = اِسڙي سوال جڪا چي ڪاڻ ڪانهُون گھڻا ئِي مرحلان چِي فهرست ٺاهوَڻي چِي ضرُورت هُوَي ڇَي۔ فهرستِي چي مرحلي ماڻسا بڌِيڪ فطرِي جواب ڏيڻي چي بِدرُون سُڻاوَڻي چا اِشارا ڪري هِتي۔
 offensive-content-sensitive-information = ناڪارا مواد يان بڙي حساس ڄاڻ
 offensive-content-sensitive-information-explanation-explanation-1 = سوال جڪو ذاتِي نمُوني سُون اوڙکاندِي هاڙِي ڄاڻ طلب ڪر سِگھي هِتي۔

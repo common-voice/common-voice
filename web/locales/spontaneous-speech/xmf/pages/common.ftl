@@ -7,8 +7,6 @@ action-tap = ქიგუნჭირით
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = წილიშ მიშაღალა მუნაჩემეფიშ ბაზაშა { $language } - შოთ
-# Label for button on contribution switcher
-change = დოთირუა
 coming-soon = შხვა ნინეფი მალას ქიგიაძინუ!
 media-recorder-api-not-supported = The MediaRecorder API ვარე ხუჯმეჩამილი თქვან ბრაუზერს.
 # Toast message that is displayed when an item is skipped
@@ -53,3 +51,6 @@ sdo = სერიანული ბიდაუ
 snv = საბანი
 tr = თურქული
 xkl = კენიური
+
+## Language search component
+

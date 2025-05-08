@@ -11,8 +11,6 @@ platform-language-tooltip-text = Emoambue moñe’ẽrã ñanduti rendapegua.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Oipytyvõva { $language } mba’ekuaarã atýpe
 contribution-picker-tooltip-text = Emoambue ñe’ẽ mba’ekuaarã aty eipytyvõvahínape
-# Label for button on contribution switcher
-change = Moambue
 coming-soon = Nda’areiete oĩvéta ñe’ẽnguéra
 media-recorder-api-not-supported = API MediaRecorder rehegua ndojokupytýi ne kundahára ndive.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turco
 xkl = Kenia
+
+## Language search component
+
+language-search-placeholder = Eheka peteĩ ñe’ẽ...
+language-search-aria-label = Eheka peteĩ ñe’ẽ
+language-search-label = Emoambue ñe’ẽ pytyvõha año mba’ekuaarã atygua
+language-search-no-results = Ndojejuhúi ñe’ẽnguéra

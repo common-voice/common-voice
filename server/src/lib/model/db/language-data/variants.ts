@@ -417,6 +417,16 @@ export const VARIANTS: Variant[] = [
     variant_token: 'sva-lentekh',
   },
   {
+    locale_name: 'ug',
+    variant_name: 'ئۇيغۇر تىلى',
+    variant_token: 'ug-Arab',
+  },
+  {
+    locale_name: 'ug',
+    variant_name: 'Уйғур тили',
+    variant_token: 'ug-Cyrl',
+  },
+  {
     locale_name: 'vi',
     variant_name: 'Hà Nội',
     variant_token: 'vi-hanoi',

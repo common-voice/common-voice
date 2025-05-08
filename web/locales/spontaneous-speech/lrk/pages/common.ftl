@@ -11,8 +11,6 @@ platform-language-tooltip-text = صرف ويب سائيٽ رو متن تبديل
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ۾ حصو ليئتي<bold>{ $language }</bold> ڌآٽا سيت
 contribution-picker-tooltip-text = ٻولي ڊيٽاسيٽ ي بدلي ڪري ھي جي ۾ تمي حصو ليئي رهيا هو
-# Label for button on contribution switcher
-change = بدلوو
 coming-soon = وڌيڪ ٻوليون جلد آوي رھيو ھي
 media-recorder-api-not-supported = تمو ري برائوزر ۾ MediaRecorder API سپورٽ ھوئيڙي  ڪوئي ھي.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,10 @@ sdo = سيرين بديو
 snv = سبان
 tr = ترڪي
 xkl = ڪينيا
+
+## Language search component
+
+language-search-placeholder = ڀولي جو
+language-search-aria-label = ڀولي جو
+language-search-label = صرف ڊيٽاسيٽ ري ڪنٽريبيوشن ٻولي ني بدلئ  ڪري ھي
+language-search-no-results = ڪوئي ٻي ٻولي ڪوئي ملي
