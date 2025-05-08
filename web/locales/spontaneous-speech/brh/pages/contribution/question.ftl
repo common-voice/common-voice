@@ -10,3 +10,13 @@ add-question-success-toast-message =
        *[other] { $totalQuestions } سوج آتیان { $uploadedQuestions } جمع کنننگانو۔
     }
 add-question-error-message = اپلوڈ بےسرسہب مس، بشخنداری ولدا کوشست کبو۔
+add-question-too-many-questions-error = 25 آن گیش سوجاک۔ سوج آتا کچ ئے کم کبو و ولدا کوشست کبو۔
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] اسے سوج ئس { $uploadedQuestions } جمع مسونے۔ سوج آتے ساڑی کننگ نا ڈول نا باروٹ گیشتر پُو مننگ کن ننا <guidelinesLink>رہنمائی خطوط</guidelinesLink> نا پنہ غاتے ہوربو۔
+       *[other] { $totalQuestions } سوج آتیان { $uploadedQuestions } جمع کننگانے۔ سوج آتے ساڑی کننگ نا ڈول نا باروٹ گیشتر پو مننگ کن ننا <guidelinesLink>رہنمائی خطوط</guidelinesLink> پنہ غاتے ہوربو
+    }
+# Guidelines
+add-question-guidelines-title = امرو سوج ای اوار کننگ کیوہ؟
+do-section-title = کر
+do-section-guideline-1 = سہی حرف و گرائمر ئے کارمرز کبو
