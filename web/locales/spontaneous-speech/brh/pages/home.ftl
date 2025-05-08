@@ -11,3 +11,8 @@ why-card-2-text = زبان نا گواچن آتیکن جوانو کمک ئس د�
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = زبان نا گواچن کن جوانو کمک ئس دنکہ  <mark>کوڈ ترجمہ سوئچنگ</mark>
 how-spontaneous-speech-works = گچین تران امر کاریم کیک
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>پرامپٹ</mark>
+prompt-bubble-subtitle = ننے نمے پرومپٹ یا سوج نشان ایتینہ
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = </mark>ورندی<mark>

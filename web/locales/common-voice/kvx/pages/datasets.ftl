@@ -6,3 +6,15 @@ datasets-positioning = موٽا پئمانہ مانه موجود وائيس ڊي
 datasets-speech-bubble-content = دلچسپ کٻر! اِسپونٽينيئس تقرِير جوم جلڌِي آوئه رئي! نوِي اپ ڊيٽ ۿارُو هميش تيار ريو! انَ تازِي جانڪارِي/ معلُومات ۿارُو<discordLink> ڊِسڪورڊ</discordLink> ڪا ضرُُور چيڪ ڪرو۔
 language = ٻولئي
 download-dataset-header = ڊيٽا سيٽ نئہ ڊائونلوڊ ڪرو
+download-delta-explainer = امي ڪئينڪ تڀڌِيلي ڪري۔ ڊيلٽا سيگمينٽس هوَئہ رُوڳو اُو نوا ڪِلپز شامِل ڪرونه جيا آخر﻿ي رليز ڪيڙ رِيڪارڊ ڪريا ڳيا۔<deltaLink> اِيئا ڪوم را ڀارام وڌِيڪ ڀڻو</deltaLink>۔
+download-dataset-tag = آپرِي پسنڌ رِي ٻولِي رو ڊيٽا سيٽ سُونڍو انَ جيا ورجن نئہ ڊائونلوڊ ڪروا ڪرو اُوئا نئہ سُونڍو۔
+# File size in gigabytes
+size = ماپ
+validated-hr-total = تصڌيق ٿيل ڪلاڪون رو ٻڌوئي
+overall-hr-total = ڪلاڪون رو ٻڌوئي
+cv-license = ليسن
+audio-format = آڊيو رو فارميٽ
+dataset-splits = تقسيمت(زمار انَ جِنس پرموڻئہ)
+number-of-voices = ٻوليون رو نمڀر
+splits = تقسيمت
+email-to-download = ڊائونلوڊ ڪريا ۿارُو اِيميل ڌاخل ڪرو
