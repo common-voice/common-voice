@@ -12,6 +12,8 @@ The project is organized into the following directories:
 - _web_: The Common Voice website files, written in [TypeScript](http://www.typescriptlang.org/). We use [React](https://reactjs.org/) to build the website.
 - _bundler_: Service that is creating the dataset release bundles for Common Voice, written in [TypeScript](http://www.typescriptlang.org/).
 
+NOTE: If you are working on a branch from your local fork of `common-voice` and subsequently raise a PR on the `common-voice` project, and this PR resolves an Issue in the `common-voice` repo, please ensure that the [Issue is mentioned in the PR or otherwise linked](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) for traceability. Linking Issues and PRs helps us to review them more efficiently.
+
 ## Docker
 
 We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchestrate the local development environment configuration using [Docker](https://www.docker.com/). This is our recommended way of setting up your local development environment, as it will bypass the need to install each component separately.
