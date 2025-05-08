@@ -35,3 +35,6 @@ subscribe = سبسڪرائب
 get-started-speech = وات چِيت ڪا اوۯکوڻ رئي شُروعات ڪرو
 other-datasets = ٻيزا وائيس ڊيٽا سيٽ
 feedback-q = تمارا پاها ٿِي ڪوئي صلاح/مشورو؟
+# This indicates that there is no data to display
+no-information = ڪوئي جانڪارئي نٿِي
+resource-nemo-info = <githubLink>اين وِي آئي ڊِي آئي اي نيمو</githubLink> هيڪ<docsLink> اوپن سورس ٽُول ڪِٽ</docsLink> سئہ جيو ڳوتيا واۯا ۿارُو سئہ جيو اسٽيٽ آف آرٽ ڪنورزيشنل اي آئِي ماڊلز ڊيولپ ڪرئه ريا۔
