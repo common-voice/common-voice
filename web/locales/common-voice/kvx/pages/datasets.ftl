@@ -74,3 +74,5 @@ data-download-button = ڪومنَ وائيس ڊيٽا ڊائونلوڊ ڪرو
 data-download-yes = هووَئہ
 data-download-deny = نا
 data-download-license = ليسنَ:<licenseLink>سِي سِي-0</licenseLink>
+data-download-modal = تمي شُروع ڪريا واۯا سو<size>{ $size }{ $size } جِي ڀِي</size>، آڳۯ وڌاوو؟
+data-subtitle = امي هيڪ کُلو انَ عوامي ڊيٽاسيٽ ٺاوون ريا جيا نئہ هر هيڪ منک اِستعمال ڪري هيڪئہ- مُمڪن ڌرخواستون نئہ شِينکاڙيا ۿارُو۔
