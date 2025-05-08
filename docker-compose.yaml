@@ -22,8 +22,8 @@ services:
     restart: always
     ports:
       - 8010:8080
-    networks:
-      - falak-network
+    # networks:
+    #   - falak-network
   redis:
     image: redis:alpine
     container_name: voicewall-redis1
