@@ -16,3 +16,16 @@ prompt-bubble-title = <mark>پرامپٹ</mark>
 prompt-bubble-subtitle = ننے نمے پرومپٹ یا سوج نشان ایتینہ
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = </mark>ورندی<mark>
+respond-bubble-subtitle = نما ورندی انداخس فطرتی مرے ہراخس نم کننگ کیرے تے
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>ٹرانسکرائب</mark>
+transcribe-bubble-subtitle = انت ئس کہ آڈیو کلپ اٹ بنگس نوشتہ کر
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>چیک</mark>
+check-bubble-subtitle = دا ہوربو کہ ٹرانسکرائپشن آڈیو تون برابر اے
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>ڈیٹا</mark>
+data-bubble-subtitle = نن وخت وخت آ ڈیٹا سیٹ یلہ کینہ
+contact-us = نن تون رابطہ کبو
+contact-us-title = دا منصوبہ تون ساڑی مننگ کن است خوائی تخیرے، یا نن تون شریک مریرے؟
+contact-us-email = <email Fragment>commonvoice@mozilla.com</email Fragment>

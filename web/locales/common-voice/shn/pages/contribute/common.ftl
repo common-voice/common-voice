@@ -16,7 +16,7 @@ contribute-more =
         [one] ၽွမ်ႉတႃႇတေႁဵတ်းထႅင်ႈ { $count } ယဝ်ႉႁႃႉ?
        *[other] ၽွမ်ႉတႃႇတေႁဵတ်းထႅင်ႈ { $count } ယဝ်ႉႁႃႉ?
     }
-speak-empty-state = ႁဝ်းၶႃႈဢမ်ႇမီးတူၼ်းထႅဝ်လိၵ်ႈတႃႇတေဢတ်းသဵင်ၼႂ်းၽႃႇသႃႇၼႆႉယဝ်ႉ...
+speak-empty-state = ႁဝ်းၶႃႈဢမ်ႇမီးတူၼ်ႈထႅဝ်လိၵ်ႈတႃႇတေဢတ်းသဵင်ၼႂ်းၽႃႇသႃႇၼႆႉယဝ်ႉ...
 target-segment-add-voice = ထႅမ်သႂ်ႇသဵင်သူ
 target-segment-learn-more = လဵပ်ႈႁဵတ်းထႅင်ႈ
 vote-yes = ၸႂ်ႈ
