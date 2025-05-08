@@ -109,7 +109,22 @@ export default class API {
       throw new Error(await response.text())
     }
 
-    return isJSON ? response.json() : response.text()
+    // Ensure we have content to parse if it's expected to be JSON
+    if (isJSON) {
+      const text = await response.text()
+      if (text) {
+        try {
+          return JSON.parse(text) // Attempt to parse JSON
+        } catch (e) {
+          throw new Error('Failed to parse response as JSON: ' + e.message)
+        }
+      } else {
+        throw new Error('Empty response body')
+      }
+    }
+
+    // Return text if it's not JSON
+    return response.text()
   }
 
   forLocale(locale: string) {
