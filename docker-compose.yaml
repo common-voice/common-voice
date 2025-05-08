@@ -2,54 +2,98 @@ version: '3'
 services:
   db:
     image: mariadb:10.4
-    command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
-    networks:
-      - voice-web
-    volumes:
-      - voice-db:/var/lib/mysql
-    container_name: vocice-db
+    # networks:
+    #   - falak-network
+    container_name: voicewall-db1
     restart: unless-stopped
     environment:
       - MYSQL_DATABASE=voiceweb
       - MYSQL_USER=voicecommons
-      - MYSQL_PASSWORD=v$42FDsT6ic
-      - MYSQL_ROOT_PASSWORD=vRgf^4eo2Oot
+      - MYSQL_PASSWORD=voicecommons
+      - MYSQL_ROOT_PASSWORD=voicewebroot
     ports:
-      - 3306:3306
+      - 127.0.0.1:3306:3306
+    volumes:
+      - ../falak-host/voicewall-db:/var/lib/mysql:Z
+      - ../falak-host:/host
+  adminer:
+    image: adminer
+    container_name: voicewall-adminer
+    restart: always
+    ports:
+      - 8010:8080
+    networks:
+      - falak-network
   redis:
     image: redis:alpine
-    container_name: voice-redis
+    container_name: voicewall-redis1
     restart: unless-stopped
-    networks:
-      - voice-web
-  s3proxy:
-    image: andrewgaul/s3proxy
-    container_name: voice-s3proxy
     ports:
-      - 9001:80
+      - 127.0.0.1:6379:6379
+    # networks:
+    #   - falak-network
+  storage:
+    image: fsouza/fake-gcs-server
+    container_name: voicewall-storage
+    ports:
+      - 8080:8080
+      - 4443:4443
+    volumes:
+      - ../falak-host/voicewall-storage:/data
     networks:
-      - voice-web
-    environment:
-      - S3PROXY_AUTHORIZATION=none
+      - falak-network
+    command: [ '-scheme', 'http', '-port', '8080', '-external-url', 'http://storage:8080', '-backend', 'filesystem' ]
+  bundler:
+    build:
+      context: ./bundler
+      dockerfile: Dockerfile
+    container_name: bundler
+    links:
+      - db
+      - redis
+      - storage
+    volumes:
+      - ./bundler:/home/node/code
+    networks:
+      - falak-network
+    ports:
+      - 9001:9001
+    command: bash -c "npm ci && npm run build && npm start"
   web:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    container_name: voice-web
+    container_name: voicewall-web
     links:
       - db
       - redis
+      - storage
     volumes:
-      - .:/code
+      - .:/code:Z
     environment:
       - DOTENV_CONFIG_PATH=/code/.env-local-docker
     networks:
-      - voice-web
+      - falak-network
     ports:
-      - 9900:9000
-    command: bash -c "/code/docker/wait-for-it.sh s3proxy:80 -- /code/docker/prepare_s3.sh && yarn && yarn start"
-
+      - 9090:9090
+    command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && npm install && npm start"
+  web-dev:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile-dev
+    container_name: voicewall-web-dev
+    volumes:
+      - ../falak-host:/host
+      - .:/app:Z
+      - /app/node_modules # Prevent overwriting node_modules in the container
+    env_file:
+      - ../falak.env
+    environment:
+      - DOTENV_CONFIG_PATH=/code/.env-local-docker
+      - CHOKIDAR_USEPOLLING=true # Ensure changes are detected in mounted volumes
+    ports:
+      - 9091:9090
+  
 networks:
-  voice-web:
-volumes:
-  voice-db:
+  falak-network:
+    external: true
