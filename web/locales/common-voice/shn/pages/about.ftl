@@ -46,7 +46,7 @@ about-get-involved = ၶဝ်ႈႁူမ်ႈပႃး
 about-get-involved-text-2 =
     ၸွင်ႇၶႂ်ႈၸွႆႈထႅမ် Common Voice ႁႂ်ႈလီၶိုၼ်ႈထႅင်ႈ?
     လီယဝ်ႉ! ၵပ်းသိုပ်ႇလူၺ်ႈ ဢီးမေးလ် ဢမ်ႇၼၼ် <discourseLink> Discourse </discourseLink> ၾေႃႇရမ်ႇ၊
-    သူင်ႇႁၢႆးငၢၼ်းလွင်ႈပၼ်ႁႃဝႅပ်ႉသၢႆႉတီႈ <githubLink> GitHub </githubLink>၊ ဢမ်ႇၼၼ်ၵေႃႈ ၶဝ်ႈႁူမ်ႈ
+    သူင်ႇလၢႆးငၢၼ်းလွင်ႈပၼ်ႁႃဝႅပ်ႉသၢႆႉတီႈ <githubLink> GitHub </githubLink>၊ ဢမ်ႇၼၼ်ၵေႃႈ ၶဝ်ႈႁူမ်ႈ
     တူင်ႇဝူင်းသျႅတ်ႉ <matrixLink> Matrix </matrixLink>
 about-stay-in-touch = တေႁဵတ်းႁိုဝ်ၵပ်းသိုပ်ႇၵၼ်?
 about-stay-in-touch-button = လူင်းသဵၼ်ႈမၢႆ
