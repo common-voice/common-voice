@@ -61,3 +61,7 @@ xkl = { "" }
 
 ## Language search component
 
+language-search-placeholder = ຄົ້ນຫາພາສາ...
+language-search-aria-label = ຄົ້ນຫາພາສາ
+language-search-label = ປ່ຽນພາສາການປະກອບສ່ວນຂອງຊຸດຂໍ້ມູນເທົ່ານັ້ນ
+language-search-no-results = ບໍ່ພົບພາສາ
