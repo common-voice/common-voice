@@ -1,25 +1,25 @@
-const path = require('path');
-const chalk = require('chalk');
-const webpack = require('webpack');
-const dotenv = require('dotenv');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
+const path = require('path')
+const chalk = require('chalk')
+const webpack = require('webpack')
+const dotenv = require('dotenv')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin')
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
-const HASH_LENGTH = 16; // length specified for our compressed-size action
-const OUTPUT_PATH = path.resolve(__dirname, 'dist');
+const HASH_LENGTH = 16 // length specified for our compressed-size action
+const OUTPUT_PATH = path.resolve(__dirname, 'dist')
 
 module.exports = (_env, argv) => {
-  const IS_DEVELOPMENT = argv.mode === 'development';
+  const IS_DEVELOPMENT = argv.mode === 'development'
 
   if (IS_DEVELOPMENT) {
-    const result = dotenv.config({ path: '../.env-local-docker' });
+    const result = dotenv.config({ path: '../.env-local-docker' })
     if (result.error) {
-      console.log(result.error);
-      console.log('Failed loading dotenv file, using defaults');
+      console.log(result.error)
+      console.log('Failed loading dotenv file, using defaults')
     }
   }
 
@@ -29,7 +29,7 @@ module.exports = (_env, argv) => {
       cacheDirectory: true,
       presets: ['@babel/preset-env'],
     },
-  };
+  }
 
   /**
    * By default, Webpack (rather, style-loader) includes stylesheets
@@ -45,23 +45,23 @@ module.exports = (_env, argv) => {
         loader: 'css-loader',
         options: {
           esModule: false, // TODO: Switch to ES modules syntax.
-          sourceMap: false,// IS_DEVELOPMENT,
+          sourceMap: false, // IS_DEVELOPMENT,
           importLoaders: 1,
           ...options,
         },
       },
       'postcss-loader',
-    ];
-  };
+    ]
+  }
 
   const plugins = [
     function () {
       this.hooks.watchRun.tap('Building', () => {
-        console.log(chalk.yellow('Webpack: Rebuilding…'));
-      });
+        console.log(chalk.yellow('Webpack: Rebuilding…'))
+      })
       this.hooks.done.tap('Built', () => {
-        console.log(chalk.green('Webpack: Built!'));
-      });
+        console.log(chalk.green('Webpack: Built!'))
+      })
     },
 
     new CleanWebpackPlugin(),
@@ -88,19 +88,22 @@ module.exports = (_env, argv) => {
       rel: 'preload',
       include: 'initial',
       as(entry) {
-        if (/\.css$/.test(entry)) return 'style';
-        if (/\.(png|svg|jpg|gif)$/.test(entry)) return 'image';
-        return 'script';
+        if (/\.css$/.test(entry)) return 'style'
+        if (/\.(png|svg|jpg|gif)$/.test(entry)) return 'image'
+        return 'script'
       },
     }),
 
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
     }),
-  ];
+    new webpack.DefinePlugin({
+      'process.env': JSON.stringify(process.env), // Inject all environment variables into the build
+    }),
+  ]
 
   if (process.env.AUDIT) {
-    plugins.push(new BundleAnalyzerPlugin());
+    plugins.push(new BundleAnalyzerPlugin())
   }
 
   return {
@@ -173,10 +176,10 @@ module.exports = (_env, argv) => {
             esModule: false, // TODO: Switch to ES modules syntax.
             name() {
               if (IS_DEVELOPMENT) {
-                return '[path][name].[ext]';
+                return '[path][name].[ext]'
               }
 
-              return `[name].[contenthash:${HASH_LENGTH}].[ext]`;
+              return `[name].[contenthash:${HASH_LENGTH}].[ext]`
             },
           },
         },
@@ -196,5 +199,5 @@ module.exports = (_env, argv) => {
         },
       },
     },
-  };
-};
+  }
+}
