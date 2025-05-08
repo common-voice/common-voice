@@ -5,4 +5,4 @@ contact-form-name =
     .label = نانٚو
 contact-form-message =
     .label = ناپا
-contact-required = لاجمی
+contact-required = *لاجمی
