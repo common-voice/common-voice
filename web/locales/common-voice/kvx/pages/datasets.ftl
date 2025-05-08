@@ -65,3 +65,12 @@ dataset-metadata-sex = جِنس
 dataset-metadata-age = زمار
 donate-modal-message = تمارو ڊيٽاسيٽ ڊائونلوڊ ٿئه ريو!
 dataset-donate-modal-heading = تمون نئہ کٻر سئہ…
+donate-modal-explanation-1 = هر سال ڊيٽاسيٽ نئہ هوسٽ ڪريا ۾ ان پليٽ فارم نئہ ٺائُوڪو ٺايا ۾ لڳ ڀڳ هيڪ ملينَ رو کرچ ٿئہ، جيو قوم رِيئون ۿو ٻوليون مانه مُشتمِل سئہ جيو امارا ڪوم ٿِي لاڳاپيل سئہ؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>جيڪيۮِي تمي، کُلل انَ اِنڪليُوسِوَ ڊيٽا رئي قڌر ڪرو- تون آز ئي ۮونَ ۮيو!</bold>
+data-download-singleword-title = سِنگل آکر را ٽارگيٽ سيگمينٽ ڊائونلوڊ ڪرو
+data-download-singleword-callout-v2 = اي هيڪ اِستعمال ڪرل ڊرائيونَ سيگمينٽ سئہ جيو ٻوليا واۯا ۿارُو ان نہ اوۯکوڻ ۮِيڌا واۯا نئہ طاقت ۮِيڌا ۿارُو ڊيٽا مانه مُشتمِل سئہ۔
+data-download-button = ڪومنَ وائيس ڊيٽا ڊائونلوڊ ڪرو
+data-download-yes = هووَئہ
+data-download-deny = نا
+data-download-license = ليسنَ:<licenseLink>سِي سِي-0</licenseLink>
