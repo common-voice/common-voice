@@ -82,3 +82,12 @@ data-other-title = ٻِيزا وائيس ڊيٽاسيٽ…
 data-other-goto = زائو{ $name }
 data-other-download = ڊائونلوڊ ڊيٽا
 data-bundle-button = ڊائونلوڊ ڊيٽاسيٽ ڀنڍل
+data-bundle-description = ڪومنَ وائيس ڊيٽا ڀيۯو ماٿئہ ۮِيڌل ٻِيزئي آواز ڊيٽاسيٽ پڻ شامِل سئہ۔
+release-version = ورجن
+dataset-date = تارِيڪ
+license = ليسن:<licenseLink>{ $license }</licenseLink>
+license-mixed = ڀيۯوَوو
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = امارا ڊيٽاسيٽ نئہ ڊائونلوڊ ڪرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ڪومنَ وائيس ڊيٽا سيٽ ۿُوڌِي پُوڳيا ۿارُو ڊائونلوڊ را طرِيقا
