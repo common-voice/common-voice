@@ -18,6 +18,8 @@ question = Kysymys
 ## Not Found Page
 
 not-found-page-header = Ei löytynyt
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Hyväksyn Common Voicen <termsLink>ehdot</termsLink> ja <privacyLink>tietosuojakäytännön</privacyLink>
 
 ## Language search component
 

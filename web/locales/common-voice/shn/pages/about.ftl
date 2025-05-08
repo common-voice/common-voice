@@ -137,8 +137,8 @@ about-playbook-how-validate-content-4 = ပေႃးဝႃႈၶလိပ်ႉ�
 ## How to access dataset
 
 about-playbook-how-access-dataset = တေၸၢင်ႈၶဝ်ႈထိုင်လႄႈၸႂ်ႉတိုဝ်းၶေႃႈမုၼ်းလႆႈၸိူင်ႉႁိုဝ်?
-about-playbook-how-access-dataset-content-1 = သူၸၢင်ႈၵႂႃႇတီႈ <datasetsPage>ၼႃႈၸုမ်ႇၶေႃႈမုၼ်း</datasetsPage>၊ လိူၵ်ႈလုၼ်ႈလႄႈၽႃႇသႃႇဢၼ်ၶႂ်ႈလႆႈ၊ လႄႈလူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်းလႆႈ! ၾၢႆႇလ်ၸိူဝ်းၼၼ်ႉတေမီး <metadataLink>ၶေႃႈမုၼ်းၵပ်းၵိုၵ်းဢၼ်ၵဵဝ်ႇၶွင်ႈ၊</metadataLink> မိူၼ်ၼင်ႇ ၶေႃႈမုၼ်းသဵၼ်ႈႁူဝ်ၼပ်ႉၵူၼ်းလႄႈၶေႃႈမုၼ်းတႃႇၸႅတ်ႈထွင်။ သူတေလႆႈပၼ်မၢႆဢီးမေးလ်ဢွၼ်းတၢင်းတေလူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်း။
-about-playbook-how-access-dataset-content-2 = ပေႃးဝႃႈသူတိုၵ်ႉၸွမ်းႁႃၶိူင်ႈမိုဝ်းတႃႇတေၶူင်ႁဵတ်းဢွၵ်ႇမေႃႇတႄႇလ် ASR သူၸၢင်ႈၵပ်းသိုပ်ႇၸွမ်းၵူၼ်းတၢင်ႇၵေႃႉလႆႈၼႂ်းတူင်ႇဝူင်း <discourseLink>တၢင်း Discourse</discourseLink>။
+about-playbook-how-access-dataset-content-1 = သူၸဝ်ႈၸၢင်ႈၵႂႃႇတီႈ <datasetsPage>ၼႃႈၸုမ်ႇၶေႃႈမုၼ်း</datasetsPage>၊ လိူၵ်ႈလုၼ်ႈလႄႈၽႃႇသႃႇဢၼ်ၶႂ်ႈလႆႈ၊ လႄႈလူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်းလႆႈ! ၾၢႆႇလ်ၸိူဝ်းၼၼ်ႉတေမီး <metadataLink>ၶေႃႈမုၼ်းၵပ်းၵိုၵ်းဢၼ်ၵဵဝ်ႇၶွင်ႈ၊</metadataLink> မိူၼ်ၼင်ႇ ၶေႃႈမုၼ်းသဵၼ်ႈႁူဝ်ၼပ်ႉၵူၼ်းလႄႈၶေႃႈမုၼ်းတႃႇၸႅတ်ႈထွင်။ သူၸဝ်ႈတေလႆႈပၼ်မၢႆဢီးမေးလ်ဢွၼ်းတၢင်းတေလူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်း။
+about-playbook-how-access-dataset-content-2 = ပေႃးဝႃႈသူၸဝ်ႈတိုၵ်ႉၸွမ်းႁႃၶိူင်ႈမိုဝ်းတႃႇတေၶူင်ႁဵတ်းဢွၵ်ႇမေႃႇတႄႇလ် ASR သူၸဝ်ႈၸၢင်ႈၵပ်းသိုပ်ႇၸွမ်းၵူၼ်းတၢင်ႇၵေႃႉလႆႈၼႂ်းတူင်ႇဝူင်း <discourseLink>တၢင်း Discourse</discourseLink>။
 
 ## How are decisions made
 
@@ -156,4 +156,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>လူဢၢ�
 about-playbook-how-funded = Common Voice ႁႃငိုၼ်းတိုၼ်းၸိူင်ႉႁိုဝ်?
 about-playbook-how-funded-content-1 = Common Voice ပဵၼ်ၶူင်းၵၢၼ်ၶွင် Mozilla Foundation ဢၼ်ပဵၼ်ၶူင်းၵၢၼ်ၸွမ်းပၵ်းပိူင် 501c3 ၶွင်မိူင်းႁူမ်ႈတုမ် ဢမႄႇရိၵၢၼ်ႇ။ ယၢမ်းလဵဝ်ၶူင်းၵၢၼ်လႆႈႁပ်ႉငိုၼ်းတိုၼ်းလၢင်းတင်းမူတ်းတီႈ <philantropicGrantLink>ငိုၼ်းၵမ်ႉၸွႆႈ ပရႁိတ၊</philantropicGrantLink> လႄႈငိုၼ်းလူႇတၢၼ်းတီႈၵူၼ်းတူဝ်ႈလုမ်ႈၾႃႉ။
 about-playbook-how-funded-content-2 = လႆႈၸႂ်ႉငိုၼ်းတိုၼ်းလၢင်းယႂ်ႇၼမ် တွၼ်ႈတႃႇတေသိုပ်ႇၵဵပ်းသိမ်းလႄႈပိုၼ်ၽႄၸုမ်ႇၶေႃႈမုၼ်း၊ မူၼ်ႉမႄးၽလႅတ်ႉၾွမ်ႇ လႄႈႁဵတ်း <africaMradiLink>ပၢင်ပွႆးတူင်ႇဝူင်း</africaMradiLink>။
-about-playbook-how-funded-content-3 = သင်ဝႃႈသူ ဢမ်ႇၼၼ်မူႇၸုမ်းသူၶႂ်ႈၸွႆႈထႅမ်ၶိုၼ်းတႃႇၶူင်းၵၢၼ်၊ သူၸၢင်ႈ <donateLink>လူႇတၢၼ်း</donateLink> ဢမ်ႇၼၼ်ၵပ်းသိုပ်ႇၸူး ၸုမ်းၽူႈႁူမ်ႈၽၢၵ်ႈၼႃႈၵၢၼ်ႁဝ်းၶႃႈ လႆႈတီႈ <emailFragment>commonvoice@mozilla.com</emailFragment>
+about-playbook-how-funded-content-3 = သင်ဝႃႈသူၸဝ်ႈ ဢမ်ႇၼၼ်မူႇၸုမ်းသူၸဝ်ႈၶႂ်ႈၸွႆႈထႅမ်ၶိုၼ်းတႃႇၶူင်းၵၢၼ်၊ သူၸဝ်ႈၸၢင်ႈ <donateLink>လူႇတၢၼ်း</donateLink> ဢမ်ႇၼၼ်ၵပ်းသိုပ်ႇၸူး ၸုမ်းၽူႈႁူမ်ႈၽၢၵ်ႈၼႃႈၵၢၼ်ႁဝ်းၶႃႈ လႆႈတီႈ <emailFragment>commonvoice@mozilla.com</emailFragment>
