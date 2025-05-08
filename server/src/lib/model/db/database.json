@@ -2,7 +2,7 @@
   "defaultEnv": "local",
   "local": {
     "driver": "mysql",
-    "host": "db",
+    "host": "localhost",
     "user": "root",
     "password": "voicewebroot",
     "database": "voiceweb",
