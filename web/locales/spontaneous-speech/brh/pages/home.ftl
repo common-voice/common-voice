@@ -8,3 +8,6 @@ why-spontaneous-speech = نن انتئے دا گیچن تران ئے پروٹو 
 why-card-1-text = <mark>نامیاتی اسپیچ سیاق و سباق</mark> کن فائدہ والو و کسیز استعال کبو (دنکہ، ہرا وخت نم خوارے کہ اسپیچ ریکگنیشن ہمو بندغ آتیتون کاریم کے ہرا کہ بیدس اسکریٹ و ہیت و گپ کیرہ)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = زبان نا گواچن آتیکن جوانو کمک ئس دنکہ مٹ بدل و <mark>کوڈ سوئچنگ</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = زبان نا گواچن کن جوانو کمک ئس دنکہ  <mark>کوڈ ترجمہ سوئچنگ</mark>
+how-spontaneous-speech-works = گچین تران امر کاریم کیک
