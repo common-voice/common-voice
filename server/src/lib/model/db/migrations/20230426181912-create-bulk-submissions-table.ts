@@ -21,9 +21,9 @@ export const up = async function (db: any): Promise<any> {
       PRIMARY KEY (id),
       UNIQUE (path),
       FOREIGN KEY (status) REFERENCES bulk_submission_status(id),
-      FOREIGN KEY (locale_id) REFERENCES locales(id) ON DELETE CASCADE,
-      FOREIGN KEY (submitter) REFERENCES user_clients(client_id) ON DELETE SET NULL,
-      FOREIGN KEY (reviewer) REFERENCES user_clients(client_id) ON DELETE SET NULL
+      FOREIGN KEY (locale_id) REFERENCES locales(id) ON DELETE CASCADE
+      -- FOREIGN KEY (submitter) REFERENCES user_clients(client_id) ON DELETE SET NULL,
+      -- FOREIGN KEY (reviewer) REFERENCES user_clients(client_id) ON DELETE SET NULL
     )`
   );
 };
