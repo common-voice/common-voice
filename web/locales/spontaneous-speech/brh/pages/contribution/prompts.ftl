@@ -27,3 +27,5 @@ learn-how-to-use-transcribe = نقل کننگ نا ڈول ئے ہیل کبو
 learn-how-to-use-transcribe-explanation = بالکل ہندن لکھبو ہرا وڑ کہ ہمو بندغ پارے، بشمول پلیس ہولڈر لوز دنکہ 'um'، یا 'errr'۔
 learn-how-to-use-transcribe-guidance = دا پنہ نا استعمال کننگ نا وڑ و ڈول ئے پُو مننگ کن <guidanceLink>داڑے</guidanceLink>  کلک کبو۔
 learn-how-to-use-check-transcript = نقل ئے امر چیک کیرہ دادے ہیل کبو
+learn-how-to-use-check-transcript-explanation = ٹرانسکرپشن ئے ہر لوز یا بے معنہ نا ہیت و گپ نا توار آے الوئی مریک ہرا بندغ پارینے، اونا ہیت و گپ۔
+learn-how-to-use-check-transcript-guidance = دا پنہ نا استعمال کننگ نا وڑ و ڈول ئے پُو مننگ کن <guidanceLink>داڑے</guidanceLink>  کلک کبو۔
