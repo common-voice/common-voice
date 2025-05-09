@@ -64,10 +64,14 @@ about-playbook-how-add-language-collecting-sentences-heading = ზიტყვ�
 about-playbook-how-localize = საიტიშ ლოკალობა მუჭო მუშენს?
 about-playbook-how-localize-content-1 = Common Voice-ქ გეგნითანგასჷნი, თეშენ გიმირინუაფუ <strong> Pontoon </strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink> აკოქიმინით ანგარიში </pontoonAccountLink>, დიო ვაიღუნა-და. უკული გაგშაგორით თქვანი ნინა <strong>(‘Team’)</strong> დო პროექტი <pontoonCvLink>. თექ დორხვადუნა გინათანგალ ფაილეფი. ქიგუკაკეთ ართ-ართის დო ქოძირუნთჷ ინგლისურ ტექსტის, თუდო იჸუაფუ ველი, სოდეთ ქინაჭარანთ ნათანგას.
+about-playbook-how-localize-content-3 = თანგუა ინგლისურშე რე შიოლებერი, თუმცა თექ ხემიოჭირინაფალ ხოლო რე <strong> მერზიება </strong> შხვადოშხვა ნინეფშე. ქიგუკაკეთ <strong> Profile </strong> ნიშანს, უკული <strong> Settings </strong> ბმულს დო ქიგუძინით კორინებულ ნინეფი. თუდო მარძგვან კუნთხუს ძირუნთ ნინეფშენ მერზიებას, ნამუსუთ გეჭარჷ <strong> Locales </strong>. გინოთანგუა საიტის ართ დღაშა ქორჩქინდუ.
+about-playbook-how-localize-content-4 = საიტი ხაზირ იჸუაფუ გატებელო, მუჟამს თანგილ იჸი 75%.
+about-playbook-how-localize-content-5 = მოხვარაშენი ქუჯინით ჩქინ ვიდეოს.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = მუჭო გევუძინა ზიტყვასქვილეფი?
+about-playbook-how-add-sentences-content-1 = სი შეილებუ ქიგუძინე ზიტყვასქვილეფი <writePageLink> ჭარუაშ ხასლას </writePageLink> ვარდა ზიტყვასქვილეფიშ გინოჯინა <reviewPageLink> გინოჯინაშ ხასლას </reviewPageLink>.
 
 ## How to record quality
 
