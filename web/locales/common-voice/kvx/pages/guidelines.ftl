@@ -23,6 +23,7 @@ varying-pronunciations-explanation-1 = امي ڌار ڌار ٻوليون رون 
 varying-pronunciations-explanation-2 = ٻِيزا هاٿ مانه،جي تمون نئہ لاڳئہ جي ڀڻيا واۯئہ ڪيۮِي اِيئا ويڻ نئہ ڪيۮِي نٿِي ڀڻيو انَ اُو زير زبر ڪا پيش رو ڳلت انڌازو لڳاوئہ ريو، تون ميرڀونئي ڪرينَ اُوئا نئہ رد ڪرو پرو۔جيڪيۮِي تمون نئہ شڪ هوئہ، تون اِسڪِپ ٻٽڻ رو اِستعمال ڪرو۔
 varying-pronunciations-example = رستو صاڦ نٿِي۔
 varying-pronunciations-tip-1 = [ڪينيڊا رِي انگريزِي ۾ "رُوٽ" نئہ "رووَٽ" رِي آواز را زم ۿومڀۯيو زائہ]
+varying-pronunciations-tip-2 = [برطانيا رِي انگريزِي ۾ رُوٽ را تلفُلظ رو نمُونو ڪينڪ ڌار ٿي هيڪئہ]
 
 ## Sentence collection nav ids
 
