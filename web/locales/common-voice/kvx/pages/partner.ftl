@@ -6,3 +6,7 @@ partnerships-become-a-partner = ڪومنَ وائيس رو حصيڌار ٺاوو
 partnerships-community-header = قوم،تخليقِي منک انَ ميڌونِي معاشرو
 partnerships-community-description = قوم ڪومنَ وائيس رو دل سئہ-هائي پُورِي ڌُنيا ٿِي آوئہ، انَ هائي ٻولِي مانه ڪوم ڪريا واۯا،سائينسڌان ان آرٽسٽس سئہ۔تمي امارِي<about>ڀارام</about>پونيا مانه انَ امارِي<community>قوم پلي بُڪ</community>۔۾ شامِل ٿيا را طرِيقا را ڀارام گھڻا زوڻي هيڪو جيڪيۮِي تمي جوم گهرا اِراڌا ٿِي حِصو لِيڌا ۾ ڌلچسپئي راکو تون،</emailFragment> راڀطو ڪرو۔
 partnerships-foundations-header = ڀڻياڌون
+partnerships-foundations-description = امي ڀڻياڌون،ميڌونِي مشورون نات رون منکون ٿِي ڀيۯا ملينَ اِنٽرنيٽ نئہ هيڪِي ٺائُوڪِي جڳا مانه ٺايا ۿارُو ڪوم ڪرونه،کاس طور مانه اِيسٽ آفرِيڪا۔ امارا پروگرام را ڪوم را ڀارام<programmaticWork> وڌارئہ زوڻو۔
+partnerships-governments-header = حُڪومتون
+partnerships-governments-description = امي ٽيڪنالاجِي،جڌت ان ٻوليون را حقون را ڀارام۔پبلِڪ سيڪٽر را تعاونَ رئي مڌت ڪريا ۿارُو پُرجوش سئہ۔جيڪيۮِي تمي ڪياڪ موٽا پروجيڪٽ ڪا ڪئمپئن هاڪليا رو اِراڌو راکو تون<emailFragment>تون ميرڀونئي ڪرينَ۔</emailFragment>
+partnerships-academia-header = يُونيورسٽي،تعلِيمِي ماهر ان محققِينَ
