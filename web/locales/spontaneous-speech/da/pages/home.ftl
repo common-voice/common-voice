@@ -8,9 +8,12 @@ respond-bubble-subtitle = Du svarer så naturligt, som du kan
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Transkribér</mark>
 transcribe-bubble-subtitle = Du skriver ned, hvad du hører i lydklippene
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>Data</mark>
 data-bubble-subtitle = Vi frigiver datasættet med jævne mellemrum
 contact-us = Kontakt os
 contact-us-title = Er du interesseret i at blive involveret i dette projekt, eller at samarbejde med os?
 signup-input-placeholder = Indtast din mailadresse
 footer-text-privacy = <privacyLink>Privatliv</privacyLink>
+footer-text-terms = <termsLink>Vilkår</termsLink>
 footer-text-cookies = <cookiesLink>Cookies<cookiesLink>
