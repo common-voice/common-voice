@@ -135,3 +135,4 @@ offensive-content-sensitive-information-explanation-explanation-2 = ايوا س�
 offensive-content-sensitive-information-explanation-explanation-3 = ايوا سوئالات جيا ڪيا نئہ ٺائُوڪا، نُقصونَ ۮئہ ڪا ۮورا جواڀ شيئر ڪريا مانه مجڀُور ڪري هيڪئہ
 example-questions-subheader = مثالِي سوئالات
 example-questions-explanation-1 = تمي اِيئا شِيٽ ۾<examplePromptsLink>120 مِثالِي پرامٽز</examplePromptsLink> زوئي هيڪو۔
+example-questions-explanation-2 = جيڪيۮِي تمي سوئالون را جواڀ رو هيڪ گرُوپ جمع ڪراوا ڪرو، تون تمي<githubLink>گِٽ حِب ري ذريعي </githubLink><emailFragment>commonvoice@mozilla.com</emailFragment> مانه ميلي هيڪو۔
