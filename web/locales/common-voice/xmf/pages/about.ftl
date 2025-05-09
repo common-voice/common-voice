@@ -34,6 +34,7 @@ about-yes-votes-text = Common Voice-ქ მუნაჩემეფიშ კრ
 about-no-votes = ≥ 2 ვარ რე
 about-no-votes-text = მუჟამს მუმახვარებელი "ვარ"-ს ქიმეჩანს ხონარუან ინნაჭარასჷნი, თინა დართუ უკახალე. მაჟიაშა ხოლო ქიმეჩუდა, ინნაჭარა მიდურს ხონარუან ინნაჭარეფიშ საფლეშა.
 about-dataset-new = Common Voice-იშ მუნაჩემეფიშ კრებული
+about-dataset-new-text = Common Voice-ი მუნაჩემეფიშ კრებულს შაყარანს ოში ანთასობით ხონარიშ ნიმუშის, ნამუთ გჷმადირთუნა მამუშებელეფს ხონარიშ ეშაჩინებელ საშუალებეფიშ აკოქიმინუას.
 about-clip-graveyard = ხონარუან ინნაჭარეფიშ საფლე
 about-clip-graveyard-text = ხონარუან ინნაჭარეფიშ საფლეს რე Common Voice-იშ მუნაჩემეფიშ ბაზას ვეგეძინუნ ფერი ინნაჭარეფი. თე საფლეშე კლიპეფიშ გინოჭარუა შეილებუნა.
 about-get-involved = ქუმაკათით
@@ -60,6 +61,8 @@ about-playbook-how-add-language-collecting-sentences-heading = ზიტყვ�
 
 ## How does localization work
 
+about-playbook-how-localize = საიტიშ ლოკალობა მუჭო მუშენს?
+about-playbook-how-localize-content-1 = Common Voice-ქ გეგნითანგასჷნი, თეშენ გიმირინუაფუ <strong> Pontoon </strong>.
 
 ## How to add sentences
 
