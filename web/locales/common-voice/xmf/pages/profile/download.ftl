@@ -21,3 +21,6 @@ download-request-archive-multiple = გორთილი { $archiveCount } ა�
 download-request-assembling-description = თქვან ფაილეფი იშაყარუ. ქორთხინთ, ქიგნაჯინათ ჭიჭე ხანიშა.
 download-request-refresh-button = გაახალება
 download-request-modal-title = გიმაჭარალი ლინკეფი
+download-request-modal-description = თაქ რე ლინკი თქვან ZIP ფაილეფიშ გიმაჭარალო.
+download-request-link-text = Zip # { $offset }, გვალო { $total }
+download-request-metadata-link = ზიტყვასქვილიშ ტექსტი
