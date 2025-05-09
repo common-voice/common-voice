@@ -99,6 +99,8 @@ adding-sentences-subheader-special-characters-explanation-1 = حرُوف اُو�
 adding-sentences-subheader-special-characters-explanation-2 = ٻوليون رئي آپرئي اوۯکوڻ انَ اصُول هووئہ جيوا اُوئون را مقبُول هويا ري ڪري وڌارئہ ضرُورتون ڀيۯا آوئہ۔ جيڪيۮِي ڪياڪ ٻولِي ۿارُو ڪوئي کاس اوکوڻ نٿِي، تون حصيڌارون ۿارُو انگريزِي رو اَصُول ۮيکاڙشون۔
 adding-sentences-subheader-offensive-content = نا پسنڌ مضمُونَ
 adding-sentences-subheader-offensive-content-explanation = جيڪيۮِي جُملا نڦرت انگيز ڪا پريشونِي واۯا ڪم نہ هووئہ، مثال را طور مانه صاڦ مضمُون ڪا امارا<communityGuidelines>نات رِي شمُوليت ۿارُو رهنمائي</communityGuidelines>-رئي ڪياڪ رئي تص﻿ڌِيق ڪريا رِي وجہ ٿِي،تون تمون نئہ جُملا رد ڪروو پرو۔تمي امون ٿِي اِيميل<emailFragment>commonvoice@mozilla.com</emailFragment> مانه راڀطو پڻ ڪري هيڪو زم اِيئا مسئلا نئہ وڌاروو ڪا گھٽاوو اُوئا رو حل ڪري هيڪون۔
+reviewing-sentences-explanation-1 = جيڪيۮِي جُملو ماٿئہ ڪِيڌل معيار پرموڻئہ پُورو اُترئہ تون هووئہ ٻٽڻ مانه ڪِلڪ ڪرو۔
+reviewing-sentences-explanation-2 = جيڪيۮِي جُملو ماٿئہ ڪِيڌل معيار پرموڻئہ پُورو نہ اُترئہ تون نا ٻٽڻ مانه ڪِلڪ ڪرو۔
 
 ## Question collection ids
 
