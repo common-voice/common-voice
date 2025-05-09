@@ -71,6 +71,12 @@ public-domain-explanation-3 = تمي آپ ڪا، آپرون ڌوستون زون 
 public-domain-explanation-4 = آٿرز،پلي رائيٽز،ڪا اِسڪرينَرائيٽرس انَ پُونسو جي آپرا ڪومون رو هيڪ ننڪو حصو پبلِڪ ڊومئن ۿارُو ٺايا ۿارُو تيار سو؟
 public-domain-explanation-5 = ايوو متنَ ڳوتو جيٿئہ ڪاپئي رائيٽ رئہ متعلِق هوَئہ نٿِي ريتو۔ مثال را طور مانه اُوئون گھڻيون ڪتاٻون ۾ جي 1920 ٿِي پيرهِين پبلِش ٿي تي
 public-domain-explanation-6 = حڪومت،اِڌارا ڪا ميڊيا ٿِي راڀطو ڪرو ان زوئو جي ڪوئي اُوئون رو ويب ڪونٽينٽ،رپورٽس ڪا ٻِيزو ڪونٽينٽس، پبلڪ ڊومئن ۿارُو پيش ڪريو زائہ۔
+citing-sentences-explanation-1 = ﻿اي ضرُورِي سئہ جي حوالا شامِل ڪريا زائہ زم امي اي چيڪ ڪري هيڪون جي جُملا پبلِڪ ڊومئن ۾ سئہ انَ اُوئون مانو ڪوئي ڪاپِي رائيٽ رئي پاٻنڌئي تون نٿِي۔
+citing-sentences-subheader-websites = ويب سائيٽ
+citing-sentences-subheader-websites-explanation = تمي ويب پڻ شامِل ڪري هيڪو مثال را طور مانه ڪومنَ وائيس https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = تعليمي حوالو
+citing-sentences-subheader-academic-reference-explanation = تمي تعليمي حوالا ۮِيڌا را نمُونا اِستعمال ڪري هيڪو،مثال زم هارڊورڊ نمُونو "موزِيلا (2021) ڪومنَ وائيس۔ايٿئہ موجودhttps://commonvoice.mozilla.org/ ڌاخل ڪريو ڪا اوۯکيو:15 سيپٽمبر2021)"
+citing-sentences-subheader-offline-sources = نيٽ وڳر ذريعا
 
 ## Question collection ids
 
