@@ -24,6 +24,7 @@ varying-pronunciations-explanation-2 = ٻِيزا هاٿ مانه،جي تمون
 varying-pronunciations-example = رستو صاڦ نٿِي۔
 varying-pronunciations-tip-1 = [ڪينيڊا رِي انگريزِي ۾ "رُوٽ" نئہ "رووَٽ" رِي آواز را زم ۿومڀۯيو زائہ]
 varying-pronunciations-tip-2 = [برطانيا رِي انگريزِي ۾ رُوٽ را تلفُلظ رو نمُونو ڪينڪ ڌار ٿي هيڪئہ]
+offensive-content-explanation = جُملا نات را پاها ٿِي جونچ پڙتال ڪرينَ زويا زائه، پڻ هائي نمُونو هميش سهِي نٿِي هوتو۔جيڪيۮِي تمي ڪوئي ايوو جُملو زوئو ڪا ۿومڀۯو زوئو ڪا تمون نئہ پريشونَ ڪرئہ- مثال ﻿زم اُو امارِي<participationGuidelines> نات ۾ حصو ليڌا ۿارُو خلاف ورزئي ڪرتو هوئہ</participationGuidelines> تون ميرڀونئي ڪرينَ يُو آئي ۾ موجود جهنڍا واۯا ٻٽڻ رو اِستعمال ڪرو۔تمي امون ٿِي اِيئا ايڊريس مانه پڻ راڀطو ڪري هيڪو<emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## Sentence collection nav ids
 
