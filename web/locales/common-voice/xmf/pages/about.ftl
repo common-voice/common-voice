@@ -72,6 +72,7 @@ about-playbook-how-localize-content-5 = მოხვარაშენი ქუ
 
 about-playbook-how-add-sentences = მუჭო გევუძინა ზიტყვასქვილეფი?
 about-playbook-how-add-sentences-content-1 = სი შეილებუ ქიგუძინე ზიტყვასქვილეფი <writePageLink> ჭარუაშ ხასლას </writePageLink> ვარდა ზიტყვასქვილეფიშ გინოჯინა <reviewPageLink> გინოჯინაშ ხასლას </reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = ზიტყვასქვილეფს ოკო გინაჯინას დო მიღას ჟირ კოჩქ, ხვალე ათე შემთხვევას ქიგიაძინუ თინა Common Voice-ის. ოხემანჯღვერე წესეფი თქვან ნინაშოთ შეილებუნა აკოქიმინათჷნი <languageGuidelinesLink> ათაქ </languageGuidelinesLink>. ზიტყვასქვილეფი ოკო რდას <licenseLink> ოირქიანე საკუთრებაშე </licenseLink> დო მიშეშკვანდას ოკო 15 ზიტყვას. შეილებუნა შხვადოშხვა ავტორს ქოთხუათ მუნეფიშ საკუთარ ტექსტეფი <waiverLink>CC0-ლიცენზიათ საკუთარი ნებაშ დათმებათ </waiverLink>, დო ქუმობჭარით commonvoice@mozilla.com
 
 ## How to record quality
 
