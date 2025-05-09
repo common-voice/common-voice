@@ -33,6 +33,8 @@ difficult-difficulty = ძნელი
 pro-difficulty = პროფესიონალი
 lose-goal-progress-warning = ღანკიშ თირუათ შილებე მიოდინუათ ასეიანი წიმი ულა.
 want-to-continue = გოკონანო გაგძელათჷნი?
+finish-editing = დიო გუათუაო რედაქტირება?
+lose-changes-warning = ასე გიშელითჷდა, მუთ თირეთჷნი, ირფელ მეიდინუნა.
 build-custom-goal = საკუთარ ღანკიშ აკოქიმინუა
 help-reach-hours-pluralized =
     { $hours ->
