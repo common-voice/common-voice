@@ -10,3 +10,5 @@ submit-all-button = Indsend alle
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Lær, hvordan du bruger denne side
+learn-how-to-use-prompts-guidance = Klik <guidanceLink>her</guidanceLink> for at lære, hvordan du bruger denne side
+learn-how-to-use-transcribe = Lær, hvordan du transskriberer
