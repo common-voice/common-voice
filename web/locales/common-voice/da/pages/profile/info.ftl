@@ -31,7 +31,6 @@ profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
 male_masculine = Mand / maskulin
 female_feminine = Kvinde / feminin
-intersex = Intersex
 transgender = Transkønnet
 non-binary = Ikke-binær
 do_not_wish_to_say = Ønsker ikke at oplyse
