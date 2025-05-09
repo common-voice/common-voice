@@ -28,3 +28,6 @@ get-involved-opt-in = هووئہ، مُون نئہ اِيميل ميلو۔هُو
 get-involved-submit = جمع
 get-involved-stayintouch = امي موزِيلا ۾ وائيس ٽيڪنالاجِي رئہ پاهئہ هيڪ قوم ٺاوون ريا۔ امي چاهون جي امي تمون ٿِي رابطا ۾ ريون، اي زوڻيا ۿارُو جي تمي اِيئا ڊيٽا رو ڪوم ڪرينَ واپراوَ ڪروه ريا۔
 get-involved-privacy-info = امي تمارِي جانڪارِي رئي ۿمڀاۯ ڪريا رو وائيڌو ڪرونه۔ <privacyLink> وڌِيڪ جانڪارِي ۿارُو </privacyLink> ڀڻو۔
+get-involved-success-title = تمي{ $language }۾ حصو لِيڌا ۿارُو ڪامياڀِي ٿِي سائن اپ ڪريو پرو۔ميرڀونئي۔
+get-involved-success-text = امي گھڻي جانڪارِي ۿارُو تمون ٿِي راڀطو ڪرشون زئيون اي موجود هوئہ۔
+get-involved-return-to-languages = ٻوليون مانه واپس زائو
