@@ -11,7 +11,7 @@ report-other-comment =
     .placeholder = ၶေႃႈႁၼ်ထိုင်
 # Label for textarea in report modal
 other = တၢင်ႇမဵဝ်း
-report-error = မီးၶေႃႈၽိတ်းပိူင်ႈၽွင်းမိူဝ်ႈတိုၵ်ႉသူင်ႇလၢႆးငၢၼ်း
+report-error = မီးၶေႃႈၽိတ်းပိူင်ႈမိူဝ်ႈတိုၵ်ႉသူင်ႇလၢႆးငၢၼ်း
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = သိုပ်ႇၵႂႃႇ
 report-success-message = ၽိုၼ်လၢႆးငၢၼ်သူင်ႇယဝ်ႉတူဝ်ႈလီငၢမ်း
