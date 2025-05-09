@@ -80,6 +80,9 @@ about-playbook-how-add-sentences-content-3 = თეშ გარდა, შე�
 about-playbook-how-record-quality = მუჭო ინიბჭარა მაღალ ხარისხიშ ხონარუან კლიპი?
 about-playbook-how-record-content-1 = იჩიით ორთაშურო! თქვანი განსხვავებული ჩიებაშ მანერა თაქ მიოღებელ რე. მოკონა, თქვანი აქცენტი თიცალი, მუჭომით რენი დო თქვან ჩიებაშ ნტირულობა, სტილი დო ინტონაცია.
 about-playbook-how-record-content-2 = დუდ არიდით ზედმეტ ხონარობას - თქვანი ხონარი კარაკანო ოკო ირჩქილედას.
+about-playbook-how-record-content-3 = წეკითხით ზიტყვასქვილი თოლჸუჯიერო - ვაგშეტუათ, ვათირუათ დო ვეგუძინათ ზიტყვეფი ვარდა ასოეფი.
+about-playbook-how-record-content-4 = დერწმუნით, ნამდა თქვან მოწყობილობა ინმიჭარანს ხონარს ჩიებაშ დოჭყაფაშა დო მითმეჭყორდუ ჩიებაშ გათებაშ უკული.
+about-playbook-how-record-content-5 = <accuracyLink> ქოძირით უმოს მეტი წილიშ წორას მიშაღალაშ გურშენი. </accuracyLink>
 
 ## How to grow language
 
