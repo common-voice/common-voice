@@ -63,6 +63,7 @@ about-playbook-how-add-language-collecting-sentences-heading = ზიტყვ�
 
 about-playbook-how-localize = საიტიშ ლოკალობა მუჭო მუშენს?
 about-playbook-how-localize-content-1 = Common Voice-ქ გეგნითანგასჷნი, თეშენ გიმირინუაფუ <strong> Pontoon </strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink> აკოქიმინით ანგარიში </pontoonAccountLink>, დიო ვაიღუნა-და. უკული გაგშაგორით თქვანი ნინა <strong>(‘Team’)</strong> დო პროექტი <pontoonCvLink>. თექ დორხვადუნა გინათანგალ ფაილეფი. ქიგუკაკეთ ართ-ართის დო ქოძირუნთჷ ინგლისურ ტექსტის, თუდო იჸუაფუ ველი, სოდეთ ქინაჭარანთ ნათანგას.
 
 ## How to add sentences
 
