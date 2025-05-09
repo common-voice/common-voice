@@ -43,8 +43,11 @@ terms-disagree = Jeg accepterer ikke
 first-cta-header-text = Tak fordi du donerede dine stemmoptagelser!
 why-donate = Hvorfor spørger du?
 add-information-button = Tilføj information
+continue-speaking-button = Nej tak, fortsæt med at tale
 create-profile-text = Vil du gemme dine oplysninger? <createProfile>Opret en profil</createProfile>
 first-cta-gender-select-default-option = Vælg en mulighed
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tak fordi du bidrager med din stemme!
 already-have-an-account = Har du allerede en konto? <login>Log ind</login>
 create-profile-button = Opret en profil
 
