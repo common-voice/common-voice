@@ -12,3 +12,9 @@ partnerships-governments-description = امي ٽيڪنالاجِي،جڌت ان 
 partnerships-academia-header = يُونيورسٽي،تعلِيمِي ماهر ان محققِينَ
 partnerships-academia-description = کُلل جِڌت امارا ڪوم رو هيڪ مرڪزِي حصو سئہ۔راڀطا ڪريا ۿارُو واسطا راکو،ڊيٽا ڪا اِنٽروِيو لِيڌا ۿارُو،<emailFragment>راڀطو ڪرو۔</emailFragment>
 partnerships-small-business-header = ننڪا ڪاروڀار، جيا ۾ٽيڪنالاجِي انَ اي آئِي شُروئات يُو پِي ايس
+partnerships-small-business-description = امي هميش ڊيٽا ڪنزِيومرس ٿِي اُوئون ري ضرُورتون انَ صُورتحال را ڀارام ۿومڀۯيا ۿارُو تيار سون-ڊيٽاڪليشن را پليٽ فارم مانه راڀطا ٿِي لينَ ڊيٽا صحت اِنسائيٽس ۮِيڌا ۿُوڌِي،امي چاهون جي <emailFragment>تمون ٿِي ۿومڀۯون۔</emailFragment>
+partnerships-corporates-header = موٽا پئمانہ مانه ڪارپوريٽس انَ پليٽ فارم ڪمپني
+partnerships-corporates-description = جيڪيۮِي تمي ڊيٽا سيٽ را ڀارام وات ڪروا ڪروه،پليٽ فارم ايڪسپينشنز ۾ کرچ ڪروا ڪروه ڪا واسطا ڪريا را موقعا ڳوتوه ريا، تون <emailFragment>تون امون ٿِي راڀطو ڪرو۔</emailFragment>
+partnerships-our-partners = امارا حصيڌار
+# menu item
+partners = ڀاڳ ليڌا واۯا
