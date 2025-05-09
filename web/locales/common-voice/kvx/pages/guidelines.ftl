@@ -112,3 +112,9 @@ adding-questions = سوئالون نئہ شامِل ڪرو
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ٺائُوڪو سوئال ڪيوو هووئہ؟
+what-makes-a-good-question-explanation = منکون رئي شمُوليت ڊيٽاسيٽ ۿارُو هيڪ ٺائُوڪو سوئال ڪينئڪ ايوَا نمُونا رو هووو کپئہ:
+what-makes-a-good-question-explanation-criteria-1 = ۿورئہ نمُونئہ ۿزم ۾ آيا واۯا انَ جواڀ ۮِيڌام ۿورا هووئہ
+what-makes-a-good-question-explanation-criteria-2 = گھڻو ڪرينَ هايا جيوا ئي هووئہ
+what-makes-a-good-question-explanation-criteria-3 = نُقصونَ ۮِيڌا واۯئي ان نڦرت پيڌا ڪريا واۯئي ٻولِي رو واپراوَ نہ ڪرو، ان نہ ئي اِيئا نئہ واپراوَ ڪريا رو ڪِيڌو زائہ
+what-makes-a-good-question-tip = تمي اي پڻ سوچي هيڪو جي ڌار ڌار سياق و سڀاق انَ ڊومئن رو گھيرو ڪريو زائہ۔
+easy-to-understand = ۿزميا ۾ ۿورو
