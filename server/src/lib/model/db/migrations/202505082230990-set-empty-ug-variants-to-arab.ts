@@ -1,10 +1,18 @@
 export const up = async function (db: any): Promise<any> {
   await db.runSql(`
-      UPDATE sentence_metadata sm
-      JOIN sentences s on s.id = sm.sentence_id
-      SET sm.variant_id= (SELECT id FROM variants WHERE variant_token = 'ug-Arab')
-      WHERE locale_id = (SELECT id FROM locales WHERE name='ug')
-        AND variant_id IS NULL
+      INSERT INTO sentence_metadata (sentence_id, variant_id, created_at)
+        SELECT 
+          s.id,
+          v.id,
+          NOW()
+        FROM 
+          sentences s,
+          variants v,
+          locales l
+        WHERE 
+          l.name = 'ug'
+          AND s.locale_id = l.id
+          AND v.variant_token = 'ug-Arab'
     `)
 }
 
