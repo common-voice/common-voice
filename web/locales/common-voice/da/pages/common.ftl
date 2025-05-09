@@ -147,6 +147,7 @@ or = Oriya
 os = Ossetisk
 pa-IN = Punjabisk
 pap-AW = Papiamento (Aruba)
+pcm = Nigeriansk pidgin
 pl = Polsk
 ps = Pashto
 pt = Portugisisk
