@@ -57,3 +57,5 @@ read-sentences-menu-item-tooltip = Optag dig selv, mens du oplæser sætninger p
 
 ## MENU ITEM ARIA LABELS
 
+read-sentences-menu-item-aria-label = Læs sætninger indsendt af fællesskabet på forskellige sprog
+answer-questions-menu-item-aria-label = Indsend et nyt spørgsmål, som fællesskabet kan læse og svare på
