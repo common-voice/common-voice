@@ -4,9 +4,9 @@ your-languages = თქვან ნინეფი
 toward-next-goal = ბონას უკულიანი ღანკიშახ
 goal-reached = ღანკი მეჭირინაფილი რე
 clips-you-recorded = თქვანი ინნაჭარა კლიპეფი
-clips-you-validated = თქვანი დანანდულებური კლიპეფი
+clips-you-validated = თქვანი დადასურებულ კლიპეფი
 todays-recorded-progress = ამდღარი წიმე ულა Common Voice-იშ ინნაჭარა კლიპეფიშენი
-todays-validated-progress = ამდღარი წიმე ულა Common Voice-იშ კლიპეფიშ დანანდულებაშენი
+todays-validated-progress = ამდღარი წიმე ულა Common Voice-იშ კლიპეფიშ დადასურებაშენი
 stats = სტატისტიკა
 awards = ჯილდოეფი
 you = თქვა
@@ -14,15 +14,19 @@ everyone = არძა
 contribution-activity = მიშაღალირი წილი
 top-contributors = საუჯგუშო მოხალისეეფი
 recorded-clips = ინნაჭარა კლიპეფი
-validated-clips = დანანდულებური კლიპეფი
+validated-clips = დადასურებულ კლიპეფი
 total-approved = გვალო დანანდულებური
 show-ranking = ქუმოძირი ჩქიმი არდგილი
 
 ## Custom Goals
 
 get-started-goals = ღანკიშ აკოქიმინუა
+create-custom-goal = საკუთარ ღანკიშ აკოქიმინუა
+goal-type = მუჭომი ღანკიშ აკოქიმინუა გოკონა?
 both-speak-and-listen = ჟირხოლო
 both-speak-and-listen-long = ჟირხოლო (ჩიება დო რჩქილა)
+daily-goal = ირდღარი ღანკი
+weekly-goal = ირმარაშ ღანკი
 easy-difficulty = ეფი
 average-difficulty = საშვალო
 difficult-difficulty = ძნელი

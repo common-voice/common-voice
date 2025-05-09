@@ -86,6 +86,7 @@ about-playbook-how-record-content-5 = <accuracyLink> ქოძირით უ�
 
 ## How to grow language
 
+about-playbook-how-grow-language = მუჭო შეუნწყუათ ხე ნინაშ რდუალას Common Voice-ის?
 about-playbook-how-grow-language-content-2 = ღონისძიებეფი
 about-playbook-how-grow-language-content-4 = სოციალური მედია
 
