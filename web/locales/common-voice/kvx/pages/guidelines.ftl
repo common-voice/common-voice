@@ -101,9 +101,14 @@ adding-sentences-subheader-offensive-content = نا پسنڌ مضمُونَ
 adding-sentences-subheader-offensive-content-explanation = جيڪيۮِي جُملا نڦرت انگيز ڪا پريشونِي واۯا ڪم نہ هووئہ، مثال را طور مانه صاڦ مضمُون ڪا امارا<communityGuidelines>نات رِي شمُوليت ۿارُو رهنمائي</communityGuidelines>-رئي ڪياڪ رئي تص﻿ڌِيق ڪريا رِي وجہ ٿِي،تون تمون نئہ جُملا رد ڪروو پرو۔تمي امون ٿِي اِيميل<emailFragment>commonvoice@mozilla.com</emailFragment> مانه راڀطو پڻ ڪري هيڪو زم اِيئا مسئلا نئہ وڌاروو ڪا گھٽاوو اُوئا رو حل ڪري هيڪون۔
 reviewing-sentences-explanation-1 = جيڪيۮِي جُملو ماٿئہ ڪِيڌل معيار پرموڻئہ پُورو اُترئہ تون هووئہ ٻٽڻ مانه ڪِلڪ ڪرو۔
 reviewing-sentences-explanation-2 = جيڪيۮِي جُملو ماٿئہ ڪِيڌل معيار پرموڻئہ پُورو نہ اُترئہ تون نا ٻٽڻ مانه ڪِلڪ ڪرو۔
+reviewing-sentences-explanation-3 = جيڪيۮِي تمي جُملا را ڀارام مطمئنَ نٿِي تون، تمي اِيئا نئہ ساڏينَ آڳۯليا جُملا مانه زائي هيڪو۔
+reviewing-sentences-explanation-4 = جيڪيۮِي جونچ پڙتال ۿارُو جُملا کتم ٿي ﻿زائه۔ ميرڀونئي ڪرينَ وڌِيڪ جُملا ڀيۯا ڪريا ۾ مڌت ڪرئي زائہ!
+domain-explanation = ڊُومئن ٿِي مُراڌ جُملا را مضمُونَ ڪا موزُون ٿِي سئہ۔ فِي الحال، تمي اِيئون موئين ٿِي ڪياڪ هيڪ نئہ سُونڍي هيڪو:
 
 ## Question collection ids
 
+adding-questions = سوئالون نئہ شامِل ڪرو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ٺائُوڪو سوئال ڪيوو هووئہ؟
