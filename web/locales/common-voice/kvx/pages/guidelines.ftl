@@ -87,6 +87,8 @@ adding-sentences-subheader-length-explanation = جُملا ۾ 15 ٿِي گھٽ �
 adding-sentences-subheader-spelling-punctuation = حِڪايت انَ اِملو
 adding-sentences-subheader-spelling-punctuation-explanation = جُملو سهِي ﻿اِمل﻿﻿ا ٿِي لِکل هوئہ۔
 adding-sentences-subheader-speakable = ٻوليا جيوو
+adding-sentences-subheader-speakable-explanation = ٺائُوڪا جُملا اُو هوئہ جيو فِطرِي انَ وات چِيت ڪريا رئہ لائيق هوئہ—هائي ايوا هووو کپئہ جي ڪياڪ ۿارُو اُوئا نئہ ڀڻوو ۿورا هوئہ۔ آواز رئہ متعلِق اِختلاف انَ جمُلون ۾ ڌار ڌار آکر ضرُورِي سئہ، امي اي پڻ چاهون جي ريڪارڊِنگ را جُملا امارِي رضاڪار نات ۿارُو ڌيونَ طلب انَ مزيڌار هوئہ۔
+adding-sentences-subheader-numbers = نمڀرز
 
 ## Question collection ids
 
