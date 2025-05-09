@@ -9,3 +9,5 @@ error-clip-upload-server = اي ڪِلپ سروَر مانه اپلوڊ نٿِي
 error-title-404 = امي تمون ۿارُو اُو پونيو نٿِي ڳوتي هيڪيا
 error-content-404 = شايڌ امارو<homepageLink>هوم پيج</homepageLink>مڌتگار ثابت ٿئہ؟ سوئال پُونسيا ۿارُو ميرڀونئي ڪرينَ<matrixLink>ميٽرِڪس ڪميُونٽِي چيٽ</matrixLink>، ۾ شامِل ٿيو، سائيٽ را مسئلون رو جائزو لِيڌا ۿارُو<githubLink>گِٽ هِب</githubLink> ڪا جائزو<discourseLink>امارا ڊِسڪورس فارم رو </discourseLink> ۿوما زائو۔
 error-title-503 = امي هيڪ نا اُميڌ ٽيم نئہ مون ۮيونه ريا
+error-content-503 = سائيٽ جلڌ ٿِي جلڌ وۯي ڪوم ڪروا شُروع ڪرشي پرو۔ نوِي جانڪارِي ﻿ۿارُو، ميرڀونئي ڪرينَ<matrixLink>ميٽرِڪس ڪميونٽِي چيٽ</matrixLink>ڪا جائزو<githubLink>گِٽ هِب</githubLink>ڪا<discourseLink>امارا ڊِسڪورس فارم</discourseLink>مانه زائين تجرڀا را مسئلا ۿمڀۯاوو انَ زوئو۔
+error-code = ڳلتئي{ $code }
