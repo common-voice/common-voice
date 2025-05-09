@@ -26,6 +26,13 @@
         }
     }
 
+    & .user-variant {
+        display: inline-block;
+        position: relative;
+        text-align: end;
+        color: var(--valid-green);
+      }
+      
     & .goal-percentage {
         display: inline-block;
         position: relative;

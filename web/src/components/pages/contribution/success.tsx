@@ -2,94 +2,101 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { useEffect, useRef, useState } from 'react';
-import { DAILY_GOALS } from '../../../constants';
-import { useAccount, useAPI } from '../../../hooks/store-hooks';
-import URLS from '../../../urls';
-import { LocaleLink, useLocale } from '../../locale-helpers';
-import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
-import { Button, LinkButton, TextButton } from '../../ui/ui';
-import { SET_COUNT } from './contribution';
-import { getTrackClass } from '../../../services/tracker';
+} from '@fluent/react'
+import * as React from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { DAILY_GOALS } from '../../../constants'
+import { useAccount, useAPI } from '../../../hooks/store-hooks'
+import URLS from '../../../urls'
+import { LocaleLink, useLocale } from '../../locale-helpers'
+import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons'
+import { Button, LinkButton, TextButton } from '../../ui/ui'
+import { SET_COUNT } from './contribution'
+import { getTrackClass } from '../../../services/tracker'
 
-import './success.css';
+import './success.css'
 
-const COUNT_UP_MS = 500; // should be kept in sync with .contribution-success .done transition duration
+const COUNT_UP_MS = 500 // should be kept in sync with .contribution-success .done transition duration
+
+const UserVariant = ({ variant }: { variant: string }) => (
+  <span className="user-variant">{variant}</span>
+)
 
 const GoalPercentage = ({
   current,
   final,
 }: {
-  current: number;
-  final: number;
+  current: number
+  final: number
 }) => (
   <span className="goal-percentage">
     <span className="final">{final}%</span>
     <span className="current">{current}%</span>
   </span>
-);
+)
 
 function Success({
   getString,
   onReset,
   type,
+  userVariant,
 }: {
-  type: 'speak' | 'listen';
-  onReset: () => any;
+  type: 'speak' | 'listen' | 'variant'
+  userVariant?: string
+
+  onReset: () => any
 } & WithLocalizationProps) {
-  const api = useAPI();
-  const account = useAccount();
+  const api = useAPI()
+  const account = useAccount()
 
-  const [locale, toLocaleRoute] = useLocale();
+  const [locale, toLocaleRoute] = useLocale()
 
-  const hasAccount = Boolean(account);
+  const hasAccount = Boolean(account)
   const customGoal =
-    hasAccount && account.custom_goals?.find(g => g.locale == locale);
-  const goalValue = DAILY_GOALS[type][0];
+    hasAccount && account.custom_goals?.find(g => g.locale == locale)
+  const goalValue = DAILY_GOALS[type][0]
 
-  const killAnimation = useRef(false);
-  const startedAt = useRef(null);
+  const killAnimation = useRef(false)
+  const startedAt = useRef(null)
 
-  const [contributionCount, setContributionCount] = useState(null);
-  const [currentCount, setCurrentCount] = useState(null);
+  const [contributionCount, setContributionCount] = useState(null)
+  const [currentCount, setCurrentCount] = useState(null)
 
   function countUp(time: number) {
-    if (killAnimation.current) return;
-    if (!startedAt.current) startedAt.current = time;
+    if (killAnimation.current) return
+    if (!startedAt.current) startedAt.current = time
     const newCount = Math.min(
       Math.ceil((contributionCount * (time - startedAt.current)) / COUNT_UP_MS),
       contributionCount
-    );
-    setCurrentCount(newCount);
+    )
+    setCurrentCount(newCount)
 
     if (newCount < contributionCount) {
-      requestAnimationFrame(countUp);
+      requestAnimationFrame(countUp)
     }
   }
 
   useEffect(() => {
-    (type === 'speak'
+    ;(type === 'speak'
       ? api.fetchDailyClipsCount()
       : api.fetchDailyVotesCount()
     ).then(value => {
-      setContributionCount(value + SET_COUNT);
-    });
+      setContributionCount(value + SET_COUNT)
+    })
     return () => {
-      killAnimation.current = true;
-    };
-  }, []);
+      killAnimation.current = true
+    }
+  }, [])
 
   useEffect(() => {
     if (contributionCount != null) {
-      countUp(performance.now());
+      countUp(performance.now())
     }
-  }, [contributionCount]);
+  }, [contributionCount])
 
   const finalPercentage = Math.ceil(
     (100 * (contributionCount || 0)) / goalValue
-  );
+  )
 
   const ContributeMoreButton = (props: { children: React.ReactNode }) =>
     hasAccount ? (
@@ -105,7 +112,7 @@ function Success({
         onClick={onReset}
         {...props}
       />
-    );
+    )
 
   const goalPercentage = (
     <GoalPercentage
@@ -114,7 +121,7 @@ function Success({
       )}
       final={finalPercentage}
     />
-  );
+  )
 
   return (
     <div className="contribution-success" data-testid="contribution-success">
@@ -129,20 +136,34 @@ function Success({
       </div>
 
       <Localized
-        id={type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'}
-        elems={{ goalPercentage }}
-        vars={{ goalValue }}>
+        id={type === 'variant' ? 'user-variant-message' : undefined}
+        elems={{
+          userVariant: <UserVariant variant={userVariant} />,
+        }}>
         <h1 />
       </Localized>
 
-      <div className="progress">
-        <div
-          className="done"
-          style={{
-            width: Math.min(finalPercentage, 100) + '%',
-          }}
-        />
-      </div>
+      {(type === 'speak' || type === 'listen') && (
+        <>
+          <Localized
+            id={
+              type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'
+            }
+            elems={{ goalPercentage }}
+            vars={{ goalValue }}>
+            <h1 />
+          </Localized>
+
+          <div className="progress">
+            <div
+              className="done"
+              style={{
+                width: Math.min(finalPercentage, 100) + '%',
+              }}
+            />
+          </div>
+        </>
+      )}
 
       {hasAccount ? (
         !customGoal && (
@@ -178,7 +199,9 @@ function Success({
 
       <ContributeMoreButton data-testid="contribute-more-button">
         {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
-        <Localized id="contribute-more" vars={{ count: SET_COUNT }}>
+        <Localized
+          id={type === 'variant' ? 'retry-test' : 'contribute-more'}
+          vars={{ count: SET_COUNT }}>
           <span />
         </Localized>
       </ContributeMoreButton>
@@ -189,7 +212,7 @@ function Success({
         </Localized>
       )}
     </div>
-  );
+  )
 }
 
-export default withLocalization(Success);
+export default withLocalization(Success)
