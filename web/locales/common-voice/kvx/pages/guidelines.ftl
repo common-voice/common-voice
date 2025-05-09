@@ -98,6 +98,7 @@ adding-sentences-subheader-special-characters = کاس نِيشونَ انَ غ�
 adding-sentences-subheader-special-characters-explanation-1 = حرُوف اُوئا ٻولِي ۾ قابل هوو کپئہ جيو ٻولئي زائہ رئي۔مثال را طور مانه،“ж” رشِيئنَ آکرون رو هيڪ حرُوف سئہ پڻ انگريزِي ۾ ڪيۮِي پڻ اِستعمال نٿِي ٿيتو،اِيئا ۿارُو اي ڪيۮِي پڻ ڪياڪ انگريزِي ذريعو متنَ ۾ نہ هووو کپئہ۔
 adding-sentences-subheader-special-characters-explanation-2 = ٻوليون رئي آپرئي اوۯکوڻ انَ اصُول هووئہ جيوا اُوئون را مقبُول هويا ري ڪري وڌارئہ ضرُورتون ڀيۯا آوئہ۔ جيڪيۮِي ڪياڪ ٻولِي ۿارُو ڪوئي کاس اوکوڻ نٿِي، تون حصيڌارون ۿارُو انگريزِي رو اَصُول ۮيکاڙشون۔
 adding-sentences-subheader-offensive-content = نا پسنڌ مضمُونَ
+adding-sentences-subheader-offensive-content-explanation = جيڪيۮِي جُملا نڦرت انگيز ڪا پريشونِي واۯا ڪم نہ هووئہ، مثال را طور مانه صاڦ مضمُون ڪا امارا<communityGuidelines>نات رِي شمُوليت ۿارُو رهنمائي</communityGuidelines>-رئي ڪياڪ رئي تص﻿ڌِيق ڪريا رِي وجہ ٿِي،تون تمون نئہ جُملا رد ڪروو پرو۔تمي امون ٿِي اِيميل<emailFragment>commonvoice@mozilla.com</emailFragment> مانه راڀطو پڻ ڪري هيڪو زم اِيئا مسئلا نئہ وڌاروو ڪا گھٽاوو اُوئا رو حل ڪري هيڪون۔
 
 ## Question collection ids
 
