@@ -26,3 +26,23 @@ no-information = ვარე ინფორმაცია
 go-discourse = გინილი ოჩიებეშა
 go-languages-page = გინილი ნინეფიშ ხასლაშა
 close = კილუა
+download = გიმოჭარუა
+dataset-version = ვერსია
+dataset-metadata-sex = სქესი
+# dataset metadata - age of contributor
+dataset-metadata-age = წანა
+donate-modal-message = თქვანი კრებულ გინმიჭარუ!
+dataset-donate-modal-heading = ქოიჩქუდესო...
+data-download-yes = ქო
+data-download-deny = ვარ
+data-download-license = ლიცენზია: <licenseLink>CC-0</licenseLink>
+data-download-modal = თქვა აპირენთ <size>{ $size } GB </size> ნტირულობაშ მუნაჩემეფიშ გიმოჭარუას, გოკონანო გაგძელათჷნი?
+data-other-title = შხვა ხონარუან მუნაჩემეფიშ კრებულეფი…
+data-other-goto = გინილი { $name }
+data-other-download = მუნაჩემეფიშ გიმოჭარუა
+release-version = ვერსია
+dataset-date = თარიღი
+license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
+license-mixed = აკოკათელი
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = თქვანი ხონარუან მუნაჩემეფიშ კრებულეფიშ გიმოჭარუა
