@@ -63,4 +63,5 @@ xkl = 肯雅语
 
 language-search-placeholder = 搜索语言…
 language-search-aria-label = 搜索语言
+language-search-label = 只更改数据集的贡献语言
 language-search-no-results = 找不到语言

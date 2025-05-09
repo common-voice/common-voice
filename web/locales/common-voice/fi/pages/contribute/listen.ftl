@@ -1,4 +1,5 @@
 listen = Kuuntele
+listen-subtitle = Auta meitä tarkastamaan ääninäytteitä
 listen-instruction = { $actionType }<playIcon></playIcon> oliko virke puhuttu täsmällisesti?
 listen-again-instruction = Hienoa työtä! <playIcon></playIcon> Kuuntele uudestaan, kun olet valmis
 listen-3rd-time-instruction = 2 tehty, jatka samaan malliin! <playIcon></playIcon>

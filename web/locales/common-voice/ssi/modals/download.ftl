@@ -6,4 +6,4 @@ download-form-email =
     .label = اپٹؔا ای میل جما کرو
     .value = تیرا دھنواد، ہم سمپرکام رہیوں گے
 download-back = سادھارن اواج  ڈیٹا سیٹینٚپ پُوٹھے جاؤ
-download-no = نائِیں دھنواد
+download-no = دھنواد نائِیں

@@ -1,6 +1,6 @@
 listen = ထွမ်ႇ
 listen-subtitle = ၸွႆႈႁဝ်းၶႃႈၵူတ်ႇထတ်းသဵင်
-listen-instruction = { $actionType }<playIcon></playIcon> ၸွင်ႇၶဝ်လၢတ်ႈမႅၼ်ႈၸွမ်းတူၼ်းထႅဝ်လိၵ်ႈၼႆႉယူႇႁိုဝ်?
+listen-instruction = { $actionType }<playIcon></playIcon> ၸွင်ႇၶဝ်လၢတ်ႈမႅၼ်ႈၸွမ်းတူၼ်ႈထႅဝ်လိၵ်ႈၼႆႉယူႇႁိုဝ်?
 listen-again-instruction = လီယဝ်ႉၶႃႈ! <playIcon></playIcon> ထွမ်ႇထႅင်ႈၵမ်းၼိုင်ႈပေႃးသူၸဝ်ႈၽွမ်ႉယဝ်ႉ
 listen-3rd-time-instruction = ၵိုတ်းထႅင်ႈ 2၊ သိုပ်ႇၵႂႃႇထႅင်ႈ! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> ဢၼ်လိုၼ်းသုတ်းယဝ်ႉ!
