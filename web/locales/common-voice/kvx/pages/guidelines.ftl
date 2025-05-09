@@ -127,3 +127,6 @@ dont-add-subheader = شامل نہ ڪرو
 culturally-specific-questions = ثقافتِي طور مانه کاس سوئال
 culturally-specific-questions-explanation = ايوا سوئال جيا ثقافتِي طور مانه جوم کاس هوئہ، ڪا جواڀ ۮِيڌا را ڀارام ۾ الهائِي انڌازا لڳاوو
 length-avoid-explanation = ﻿ايوا سوئال جيو پنرئہ سيڪنڊ ٿِي(لڳ ڀڳ ڪِلپ رئي ويڪر) ۾ جواڀ ۮِيڌا ۾ ۮورا هووئہ
+process-steps = عمل انَ طرِيقو
+process-steps-explanation = ايوا سوئال جيو ڪيا ٿِي پڻ لِسٽ ڪريا ٿِي طلب ڪرئہ۔ قڌم لسٽ ڪروو جواڀ ۮِيڌا واۯا نئہ هيڪ جواڀ ۮِيڌا واۯا را پاهئہ موڳئہ نا ڪي فطرِي جواڀ۔
+offensive-content-sensitive-information = نڦرت انگيز مضمُون ڪا جانڪارئي

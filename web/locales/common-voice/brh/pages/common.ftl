@@ -57,10 +57,31 @@ cnh = ہاکا چن
 co = کورسیکن
 crh = کریمیائی تاتار
 cs = چیک
+cut = ٹیوٹیلا کیکٹی Teutila Cuicatec
+cux = Tepeuxila Cuicatec
 cv = چواش
 cy = ویلش
 da = ڈینش
 dag = دگبانی۔
+dar = درگوا
+dav = کداوا
+de = جرمن
+dmk = داؤدی
+dml = دمیلی
+dsb = سوربین، زیریں
+dua = دوالا
+dv = ڈیویہی
+dyu = دیولا
+ebr = ایبری
+ee = ایو
+el = یونانی
+en = انگریزی
+eo = ایسپرانٹو
+es = ہسپانوی
+et = اسٹونین
+eto = ایٹن
+eu = باسکی
+ewo = ایونڈو
 
 # [/]
 
