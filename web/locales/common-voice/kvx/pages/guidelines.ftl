@@ -57,6 +57,11 @@ contact-common-voice = ڪومنَ وائيس ٿِي راڀطو ڪرو
 
 ## Sentence collection nav ids
 
+public-domain = عام اِستعمال ۿارُو ڌستياب
+citing-sentences = جُملون رو حوالو ۮيوو
+adding-sentences = جُملون نئہ شامِل ڪرو
+reviewing-sentences = جُملون رئي ڌوهرائِي ڪرو
+sentence-domain = جُملون را حقون رو ڌائرو
 
 ## Sentence collection sidebar content
 
