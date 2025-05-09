@@ -20,6 +20,7 @@ import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
 } from '../application/repository/variant-repository'
+import { StatusCodes } from 'http-status-codes'
 
 const { promisify } = require('util')
 const Transcoder = require('stream-transcoder')
@@ -346,24 +347,20 @@ export default class Clip {
       } catch (err) {
         console.error('Failed transcoding step with error:', err)
       }
-
     }
   }
 
-  serveRandomClips = async (
-    request: Request,
-    response: Response
-  ): Promise<void> => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params,
-    } = request
+  serveRandomClips = async (request: Request, response: Response) => {
+    const { client_id } = request?.session?.user || {}
+    const { locale } = request.params
+
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
 
     const count = Number(request.query.count) || 1
     const clips = await this.bucket
-      .getRandomClips(client_id, params.locale, count)
+      .getRandomClips(client_id, locale, count)
       .then(this.appendMetadata)
 
     response.json(clips)
@@ -429,19 +426,21 @@ export default class Clip {
   }
 
   serveVoteLeaderboard = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params,
-    } = request
+    const { client_id } = request?.session?.user || {}
+
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
+    const { locale } = request.params
+
     const cursor = this.getCursorFromQuery(request)
     const leaderboard = await getLeaderboard({
       dashboard: 'stats',
       type: 'vote',
       client_id,
       cursor,
-      locale: params.locale,
+      locale: locale,
     })
     response.json(leaderboard)
   }

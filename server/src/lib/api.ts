@@ -181,11 +181,12 @@ export default class API {
   }
 
   getRandomSentences = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-    } = request
+    const { client_id } = request?.session?.user || {}
+
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
     const { locale } = request.params
     const localeId = await getLocaleId(locale)
 
@@ -605,18 +606,13 @@ export default class API {
     response.json(links)
   }
 
-  getContributionActivity = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params: { locale },
-      query,
-    }: Request,
-    response: Response
-  ) => {
+  getContributionActivity = async (req: Request, response: Response) => {
+    const { locale } = req.params
+    const { client_id } = req?.session?.user
+    const { from } = req.query
+
     response.json(
-      await (query.from == 'you'
+      await (from == 'you'
         ? this.model.db.getContributionStats(locale, client_id)
         : this.model.getContributionStats(locale))
     )
@@ -721,18 +717,13 @@ export default class API {
     response.json(new Date())
   }
 
-  getAccents = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params,
-    }: Request,
-    response: Response
-  ) => {
-    response.json(
-      await this.model.db.getAccents(client_id, params?.locale || null)
-    )
+  getAccents = async (req: Request, response: Response) => {
+    const { client_id } = req?.session?.user || {}
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    const { locale } = req.params
+    response.json(await this.model.db.getAccents(client_id, locale || null))
   }
 
   getVariants = async ({ params }: Request, response: Response) => {
