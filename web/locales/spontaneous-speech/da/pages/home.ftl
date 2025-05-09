@@ -8,6 +8,7 @@ transcribe-bubble-title = <mark>Transkribér</mark>
 transcribe-bubble-subtitle = Du skriver ned, hvad du hører i lydklippene
 data-bubble-subtitle = Vi frigiver datasættet med jævne mellemrum
 contact-us = Kontakt os
+contact-us-title = Er du interesseret i at blive involveret i dette projekt, eller at samarbejde med os?
 signup-input-placeholder = Indtast din mailadresse
 footer-text-privacy = <privacyLink>Privatliv</privacyLink>
 footer-text-cookies = <cookiesLink>Cookies<cookiesLink>
