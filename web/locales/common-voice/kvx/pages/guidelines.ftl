@@ -77,6 +77,16 @@ citing-sentences-subheader-websites-explanation = تمي ويب پڻ شامِل 
 citing-sentences-subheader-academic-reference = تعليمي حوالو
 citing-sentences-subheader-academic-reference-explanation = تمي تعليمي حوالا ۮِيڌا را نمُونا اِستعمال ڪري هيڪو،مثال زم هارڊورڊ نمُونو "موزِيلا (2021) ڪومنَ وائيس۔ايٿئہ موجودhttps://commonvoice.mozilla.org/ ڌاخل ڪريو ڪا اوۯکيو:15 سيپٽمبر2021)"
 citing-sentences-subheader-offline-sources = نيٽ وڳر ذريعا
+citing-sentences-subheader-offline-sources-explanation = امي پبلِڪ ڊومئن متن ۿارُو جيو آنلائنَ ڌستياڀ نٿِي،تمي تعليمي نمُونو اِستعمال ڪري هيڪو،مثال زم هارورڊ نمُونو "جيس (2021) مارا پبلِڪ ليسن بيت"
+citation =
+    .label = حوالو
+self-citation = آپرا پاها ٿِي حوالو
+self-citation-explanation = اي طرِيقو سئہ جي تمي آپ مضمُونَ لکيو هوئہ تون آپرا آپ رو حوالو ۮيو۔
+adding-sentences-subheader-length = ويڪر
+adding-sentences-subheader-length-explanation = جُملا ۾ 15 ٿِي گھٽ آکر هووو کپئہ۔
+adding-sentences-subheader-spelling-punctuation = حِڪايت انَ اِملو
+adding-sentences-subheader-spelling-punctuation-explanation = جُملو سهِي ﻿اِمل﻿﻿ا ٿِي لِکل هوئہ۔
+adding-sentences-subheader-speakable = ٻوليا جيوو
 
 ## Question collection ids
 
