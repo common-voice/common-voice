@@ -263,8 +263,10 @@ sr = سربیائی
 ss = سسواتی
 st = جنوبی سوتھو
 sv-SE = سویڈش
+sva = سوان
 sw = سواحلی
 syr = سریانی
+szy = سکیزیا
 ta = تامل
 te = تیلگو
 teg = ٹیکے
@@ -316,6 +318,21 @@ zza = ززا
 
 profile = پروفائل
 help = کمک
+contact = رابطہ کبو
+privacy = رازداری
+terms = اصطلاح
+cookies = کوکیز
+faq = اکثر اریفوکا سوجاک
+documentation = دستاویزی
+content-license-text = مواد <licenseLink>Creative Commons لائسنس</licenseLink> نا کمک اٹ اریر۔
+share-title = ننا خاہوت ٹی اوار مبو
+share-text = مشین تے دا ہیل ایتنگ اٹ کمک کبو کہ حقی آ بندغاک امر ہیت کیرہ، { $link } داڑے تینا توار ئے ایتبو
+link-copied = لنک کاپی مس
+back-top = واپس بڑزا ان
+logout = لاگ آؤٹ
+donate = ندر کبو
+stayintouch = نن Mozilla ٹی وائس ٹیکنالوجی نا چپ چاگڑد ٹی اسے خاہوت ئس جوڑ کننگ اون۔ نن اپ ڈیٹس، ڈیٹا نا پوسکنو وسیلہ تون اوار رابطہ مرے و دا باروٹ گیشتر بننگ خوارے گڑا نم دا ڈیٹا ئے امر کارمرز کننگ اورے۔
+privacy-info = نن نما چاہنداری تےاحتیاط ٹی سمنالنگ نا سوغند ارفینہ۔ ننا <privacyLink>پرائیویسی نوٹس</privacyLink> ٹی پین خوانبو۔
 
 ## Donate banner
 
