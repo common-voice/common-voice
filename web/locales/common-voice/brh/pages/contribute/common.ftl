@@ -123,3 +123,6 @@ contribution-misreadings-example-6-title = نن پیشن کافی کوننگ ک�
 contribution-misreadings-example-6-explanation = [ “We are” مروئی اے]
 contribution-misreadings-example-7-title = نن کافی دوئی کننگ کن پیشن اننگ اون۔
 contribution-misreadings-example-7-explanation = [اصل متن ٹی ہچو 'a' ئس اف]
+contribution-misreadings-example-8-title = بھوبرا زوت مونی ہنا
+contribution-misreadings-example-8-explanation = [مواد آتا بےبرابری]
+contribution-varying-pronunciations-title = لوزتا ادائیگی نا جتا مننگ
