@@ -1,5 +1,8 @@
 ## Home Page
 
+home-title = Common Voice Mozilla-შ ინიციატივა რე, ნამუთ მანქანეფს ოხვარ ნანდულ ადამიერეფიშ ჩიებაშ დოგურაფას.
+default-tagline = Mozilla Common Voice რე წუმოჭყაფა, ნამუთ მანქანეფს ნანდულ ადამიერეფიშ ჩიებაშ დოგურაფას ოხვარ.
+home-cta = იჩიით, გემშიღით თქვან წილი!
 help-us-title = ქიდმეხვარით ზიტყვასქვილეფიშ გინოჯინას!
 all-locales = არძა
 today = ამდღა
