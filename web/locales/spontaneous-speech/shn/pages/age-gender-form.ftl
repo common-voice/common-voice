@@ -1,3 +1,6 @@
+# Age and Gender form
+age-gender-form-title = ယိၼ်းၸူမ်းတီႈဢၼ်ႁူမ်ႈၸွႆႈထႅမ်ပၼ်တႃႇသဵင်လၢတ်ႈဢၼ်ပဵၼ်သၽႃႇဝ!
+age-gender-form-subtile = လူၺ်ႈၵၢၼ်လၢတ်ႈၼႄႁဝ်းၶႃႈလွင်ႈတူဝ်ၸဝ်ႈၵဝ်ႇ၊ သူၸဝ်ႈၸၢင်ႈၸွႆႈထႅမ်ၽူႈၶူင်သၢင်ႈႁဵတ်းဢွၵ်ႇမႃးထႅၵ်ႉၶၼေႃႇလေႃႇၸီႇဢၼ်ႁူမ်ႇငမ်းၼမ်မႃးထႅင်ႈ။
 add-information-button = ၽိူမ်ႉထႅမ်ၶေႃႈမုၼ်း
 continue-speaking-button = သိုပ်ႇလၢတ်ႈၵႂႃႇ
 age-select-label = သူၸဝ်ႈဢသၢၵ်ႈၵႃႈႁိုဝ်?
@@ -17,3 +20,5 @@ male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း
 intersex = လိင်ႇဢမ်ႇၸႅင်ႈလႅင်း
 transgender = ၵူၼ်းၶၢမ်ႈလိင်ႇ
+non-binary = ၼၼ်းၿႆၼႃႊရီႊ
+do_not_wish_to_say = ဢမ်ႇၶႂ်ႈမွၵ်ႇလၢတ်ႈ
