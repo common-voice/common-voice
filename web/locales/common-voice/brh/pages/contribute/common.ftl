@@ -126,3 +126,5 @@ contribution-misreadings-example-7-explanation = [اصل متن ٹی ہچو 'a' 
 contribution-misreadings-example-8-title = بھوبرا زوت مونی ہنا
 contribution-misreadings-example-8-explanation = [مواد آتا بےبرابری]
 contribution-varying-pronunciations-title = لوزتا ادائیگی نا جتا مننگ
+contribution-varying-pronunciations-description = دا بنیاد آ کلپ آتے رد کننگ آ احتیاط کیرے کہ خونوک لوز سینا ادائیگی ئے غلط کرینے، پاننگ تے بے ڈول ٹی اے، یا سوج نا نشان ئے ہورتانے۔ دنیا ٹی لوزتا ادائیگی نا وڑ و ڈولاک بھاز او،  ہرافتے گڑاس نی تینا علاقہ ٹی بنتانس۔ ہمو بندغاتیکن تعریف نا اسے جاگہ ئس جوڑ کر ہراکے نمے آن جتا ہیت کننگ کیرہ۔
+contribution-varying-pronunciations-description-extended = ایلو کنڈان، اگہ نمے لگے کہ خوانکائے شاید داڑان مُست دا لوز نا ادائیگی کن ملیتانے، و او صرف ادائیگی نا زی آ غلط اندازہ ئس خلنگ اے، تو رد کبوتے۔ اگہ نمے یقین اف تو اسکیپ بٹن ئے خلبو۔
