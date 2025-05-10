@@ -36,6 +36,7 @@ x-years-short =
         [one] { $count }წანა
        *[other] წანა
     }
+help-make-dataset = ქიდმეხვარით მაღალ ხარისხიშ, საჯაროთ ხეშმიოჭირინაფალი კრებულიშ აკოქიმინუას
 sign-up-account = ანგარიშიშ აკოქიმინუა
 
 ## Account Benefits
@@ -43,6 +44,7 @@ sign-up-account = ანგარიშიშ აკოქიმინუა
 
 ## What's public
 
+whats-public = მუ რე საჯარო?
 
 ## Landing
 
