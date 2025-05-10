@@ -3,7 +3,7 @@
 your-languages = تمو ري  ٻوليون
 toward-next-goal = آيا ري مقصد ري طرف
 goal-reached = جگہ تي پوچي گيو
-clips-you-recorded = ڪلپ جي تمي ريڪارد لريا ھي
+clips-you-recorded = ڪلپ جي تمي ريڪارد ڪريا ھي
 clips-you-validated = ڪلپ جي تمي تصديق ڪريا ھي
 todays-recorded-progress = ريڪارڌ ھويوڙا ڪلپس تي آج اي عام آواز ري پآݾ رفت
 todays-validated-progress = ڪلپس تي آج ھي عام آواز ري پيس رفت ري تصديق ڪري ھي
@@ -35,8 +35,8 @@ easy-difficulty = آسون
 average-difficulty = ايم اي
 difficult-difficulty = ڌوکي
 pro-difficulty = پورو
-lose-goal-progress-warning = تمو ري مقصد ني تبديل ڪرن، تمي آپري موجوده پيشرفت ني گوماڻي سگھو ھو
-want-to-continue = ڪاوُ تمي جاري رکوُ چاھو ھونط
+lose-goal-progress-warning = تمو ري مقصد ني تبديل ڪرين، تمي آپري موجوده پيشرفت ني گوماڻي سگھو ھو
+want-to-continue = ڪاوُ تمي جاري رکوُ چاھو ھون
 finish-editing = پهري ترميم ختم ڪرو
 lose-changes-warning = ھمي سوڙيا رو مطلب ھي تمي آپري تبديليون گوماڻي ڪاڌيو
 build-custom-goal = اآڪ حسب ضرورت مقصد ٺاهو
@@ -51,7 +51,7 @@ help-reach-hours-general-pluralized =
        *[other] مدد ڪرو عام آواز تڪ رسايا { $hours } ڪلاڪو ۾ ايڪ ذاتي مقصد مون
     }
 set-a-goal = ايڪ ھي مقصد مقرر ڪرو
-cant-decide = فيصلو نٿو ڪري ھگو
+cant-decide = فيصلو ڪوئي ڪري ھگو
 activity-needed-calculation-plural =
     { $totalHours ->
         [one]
