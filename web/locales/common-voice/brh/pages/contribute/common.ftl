@@ -106,4 +106,6 @@ contribution-criteria-page-description = پُو مبو کہ توارتا کلپ�
 contribution-for-example = دنکہ
 contribution-misreadings-title = غلط فہمیک
 contribution-misreadings-description = بِننگ نا وخت آ،بھاز احتیاط اٹ چیک کیرے کہ ہرا ریکارڈ کرینورے او ہمن مرے ہراوڑ کہ لکھوکے۔ اگہ چنکو ردینک ئس مس ہم تو رد کبوتے۔ <br />بھاز عام غلطی تیٹی ساڑی او:
-contribution-misreadings-description-extended-list-1 = ریکارڈنگ نا شروع ٹی <strong>'A'</strong> یا <strong>'The'</strong> غائب اے۔
+contribution-misreadings-description-extended-list-1 = ریکارڈنگ نا شروع ٹی <strong>'A'</strong> یا <strong>'The'</strong> غیب اے۔
+contribution-misreadings-description-extended-list-2 = ہرا لوز نا آخر اٹ <strong>'s'</strong> غیب اے۔
+contribution-misreadings-description-extended-list-3 = خواننگ نا کمک ہراکے اسل اٹ اوڑے اف، دنکہ  "We're" نا جاگہ غا "We are" یا , vice versa
