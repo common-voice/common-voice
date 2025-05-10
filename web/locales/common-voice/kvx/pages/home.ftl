@@ -137,6 +137,7 @@ join-discord-community = آنلائنَ قوم رو حِصو ٿيو
 # label for button
 join-discord-community-action = آنلائن امون نئہ شامِل ڪرو
 join-discord-community-content = قوم ۾ ٻولِي رِي وات چِيت ڪريا ۾ حِصو ليو،سوئال پُونسو،ان آيا واۯون پروگرومون را ڀارام انَ وات چِيت را ڀارام جانڪارئِي حاصِل ڪرو۔
+find-us-on-matrix = امون نئہ ميٽرِڪس مانه ڳوتو
 
 ## Featured section
 
