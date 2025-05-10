@@ -1,8 +1,8 @@
 ## WRITE PAGE
 
 write = ليکو
-write-instruction = عوامي ڊومين رو جملو <icon><icon> ݾامل ڪروط
-write-page-subtitle = آ ڀيرا ڪريوڙا جملا عوامي طور تي دستياب cc-0 لائسنس يافته ڊيٽاسيٽ ۾ ڀيرا ميلايا جائي
+write-instruction = عوامي ڊومين رو جملو <icon><icon> ݾامل ڪرو
+write-page-subtitle = آ ڀيرا ڪريوڙا جملا عوامي طور تي دستياب cc-0 لائسنس يافته ڊيٽاسيٽ ۾ ڀيرا ميلايا جائiي
 sentence =
     .label = جملو
 sentence-input-placeholder = ايئي آپرو عوامي ڊومين جملو ڀيرو ڪرو.
