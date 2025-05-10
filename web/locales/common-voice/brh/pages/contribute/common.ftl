@@ -29,6 +29,18 @@ share-title-new = <bold>ننا کمک ئے کبو</bold> پین توار پٹن�
 keep-track-profile = پروفائل تون اوار تینا کاریم آ نظر شاغسہ کر
 login-to-get-started = برجا کننگ کن لاگ ان کبو یا سائن اپ کبو۔
 target-segment-first-card = نم ننا اولیکو مزل نا بشخ کن کمک کننگ اورے۔
+target-segment-generic-card = نم اسے مزل نا بشخ سیٹی کمک کننگ اورے۔
+target-segment-first-banner = { $locale } ٹی Common Voice نا اولیکو ٹارگٹ سیگمنٹ جوڑ کننگ اٹ کمک کیر
+target-segment-add-voice = تینا توار ئے ساڑی کبو
+target-segment-learn-more = پین ہیل کبو
+change-preferences = گرجاتے بدلیفبو
+login-signup = لاگ ان / سائن اپ کبو۔
+vote-yes = جی آؤ
+vote-no = اخہ
+datasets = ڈیٹا سیٹ
+languages = زبانک
+about = باروٹ
+partner = ہمراہ
 
 ## Reporting
 
