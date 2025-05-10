@@ -48,8 +48,8 @@ submit-form-action = جمع کبو
 report = رپورٹ
 report-title = رپورٹ ئس جمع کبو
 report-ask = جملہ غاتیٹی نمے انت ویلاتے مون تروئی مننگ اے؟
-report-offensive-language = تشدد نا زبان
-report-offensive-language-detail = جملہ غاک بےا دب و تشدد نا زبان ٹی او۔
+report-offensive-language = زوراکی نا زبان
+report-offensive-language-detail = جملہ غاک بےا دب و زوراکی نا زبان ٹی او۔
 report-grammar-or-spelling = گرائمر/حروف نا ردینک
 report-grammar-or-spelling-detail = جملہ غاتیٹی گرائمر یا حروف نا ردینک ارے
 report-different-language = جتا جتا زبان
@@ -109,3 +109,7 @@ contribution-misreadings-description = بِننگ نا وخت آ،بھاز اح�
 contribution-misreadings-description-extended-list-1 = ریکارڈنگ نا شروع ٹی <strong>'A'</strong> یا <strong>'The'</strong> غیب اے۔
 contribution-misreadings-description-extended-list-2 = ہرا لوز نا آخر اٹ <strong>'s'</strong> غیب اے۔
 contribution-misreadings-description-extended-list-3 = خواننگ نا کمک ہراکے اسل اٹ اوڑے اف، دنکہ  "We're" نا جاگہ غا "We are" یا , vice versa
+contribution-misreadings-description-extended-list-4 = ریکارڈنگ ئے اشتافی ٹی بند کننگ نا سوب آن گڈیکو لوز نا گم مننگ
+contribution-misreadings-description-extended-list-5 = اسے لوز سینا خواننگ کن بھاز کوشست کننگ
+contribution-misreadings-example-1-title = ٹریاسک نا دیوہیکل ڈایناسور۔
+contribution-misreadings-example-2-title = ٹریاسک نا دیوہیکل ڈایناسور۔
