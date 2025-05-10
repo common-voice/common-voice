@@ -146,9 +146,17 @@ ask-mozilla-share-content = ڪِي تمارو ڪوئي لارليو ڪا آيا 
 # label for button
 ask-mozilla-share-action = تمارو پروگروم شيئر ڪرو
 download-contribution-certificate = تمارو حِصو لِيڌا واۯو سرٽِيفِڪيٽ ڊائونلوڊ ڪرو
+download-contribution-certificate-content = جيڪيۮِي تمي ڪومنَ وائيس ۾ آپرو حِصو ۮِيڌو تون آپرا پروگرام ڪا آپ ۿارُو سرٽِيفڪيٽ ڊائونلوڊ ڪرو—ڪم تون اي تمون وڳر مُمڪِن نتو!
+# label for button
+download-contribution-certificate-action = تمارو سرٽِيفيڪيٽ ليو
+contribute-github = گِٽ هب مانه حصيڌار ٿيو
+contribute-github-content = اي پروجيڪٽ تمون جيوون منکون شوا مُمڪِن نٿِي ٿيتو۔ڪومنَ وائيس ۾ شامِل ٿيا را الهائِي طرِيقا سئہ-تمارئہ اِيئا ۾ شامِل ٿيا ۿارُو سافٽ ويئر را ڀارام زوڻوو ضرُورِي نٿِي!
+# label for button
+contribute-github-action = گِٽ هب مانه حصيڌار ٿيو
 
 ## Featured section
 
+featured-section-title = موئين شامِل سئہ۔۔۔
 
 ## Developers section
 
