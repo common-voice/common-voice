@@ -171,6 +171,16 @@ explore-datasets = ڊيٽاسيٽ رئي تحقِيقات ڪرو<icon></icon>
 
 get-involved-section-title = کُلئي،قوم-ڊيٽا رئي حمايت ڪرو
 read-sentences-link = جُملون نئہ ڀڻو
+validate-readings-link = ڀڻيا رئي تصڌِيق ڪرو
+contribute-link = متنَ را مجمُوعہ ۾ حصو ليو
+answer-questions-link = سوئال جواڀ
+transcribe-answers-link = جواڀون نئہ لکي ليو
+review-transcriptions-link = لکت رئي ڌوهرائِي ڪرو
+contribute-text-link = متنَ ۾ حصيڌارئي ڪرو
+press-and-stories-link = اخبار انَ وارتائون
 
 ## Partner section
 
+partner-section-title = امون ٿِي حِصو ڪرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٽيڪ ڪمپني</bold>-هيڪ ترقئي ڪرتو گھڻيون ٻوليون اي آئِي ايڪو سسٽم ۿارُو کُلو ڊيٽاسيٽ ٺايا ۾ سرمايا ڪارئي ڪرو
