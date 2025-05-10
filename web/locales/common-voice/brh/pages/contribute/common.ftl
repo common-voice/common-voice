@@ -26,6 +26,9 @@ speak-empty-state-cta = جملہ غاتے ٹی کمک کبو
 speak-loading-error = نن نما پاننگ کن ہچو جملہ ئس دوئی کننگ کتون۔ بشخنداری اسے وار ولدا کوشست کبو۔
 record-button-label = تینا توار ئے ریکارڈ کبو
 share-title-new = <bold>ننا کمک ئے کبو</bold> پین توار پٹن۔
+keep-track-profile = پروفائل تون اوار تینا کاریم آ نظر شاغسہ کر
+login-to-get-started = برجا کننگ کن لاگ ان کبو یا سائن اپ کبو۔
+target-segment-first-card = نم ننا اولیکو مزل نا بشخ کن کمک کننگ اورے۔
 
 ## Reporting
 
