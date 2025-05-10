@@ -93,12 +93,14 @@ spontaneous-speech = تيارئي ڪريا وڳر ڪرل تقرِير
 
 about-menu-tooltip = حصيڌار،اخبارِي اطلاعون انَ وارتائون،قوم انَ ٻولي
 about-us-menu-item-tooltip = ڪومنَ وائيس را مقصڌ انَ اُوئا رِي ٽِيم را ڀارام زوڻو
+about-us-menu-item-aria-label = امارا ڀارام آپشن مينيُو
 partnerships-menu-item-tooltip = ٻڌِي ڌُنيا ۾ ڪومنَ وائيس رو ساٿ ۮِيڌا واۯِيون تنظِيمون نئہ زوئو
 press-and-stories-menu-item-tooltip = ڪومنَ وائيس را ڀارام وارتائون،نوَئي نوَئي جانڪارئي،انَ ميڍيا رئي ڪوريج ڀڻو
 community-and-languages-menu-item-tooltip = امارِي قوم ٿِي مِلو انَ مڌت ڪرنار ٻوليون نئہ زوئو
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = آپشنز مينيُو را ڀارام
 partnerships-menu-item-aria-label = ڪومنَ وائيس ڀيۯئي شامِل ٿيا واۯا حِصا را ڀارام شِينکو
 press-and-stories-menu-item-aria-label = ڪومنَ وائيس را ڀارام پريس رلِيزون انَ وارتائون زوئو
 community-and-languages-menu-item-aria-label = ڪومنَ وائيس رئي قوم انَ مڌت ڪرنار ٻوليون رو جائزو ليو
@@ -108,9 +110,16 @@ community-and-languages-menu-item-aria-label = ڪومنَ وائيس رئي قو
 
 ## Hero section
 
+hero-title = ايوَئي ٽيڪنالاجِي جيو تمارِي ٻولِي نئہ ۿزمئہ انَ اُوئا ۾ وات پڻ ڪرئہ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>اي آئِي رُوڳو ڪيئنڪ ٻوليون ۿارُو ئي ڪم ڪوم ڪروو؟</bold>
+hero-subtitle-2 = امارئي ٻولئي امارئي وارتا سئہ،امارئي قوم سئہ،امارئي ثقافت سئہ۔هالو اُو ڊيٽاسيٽ ٺاوون جي امي ڌُنيا ۾ زووا ڪرون۔
+# icon is an arrow that points downwards
+get-started = شُروع ڪرو<icon><icon>
 
 ## Action items section
 
+action-items-section-title = ڪومنَ وائيس هيڪ مُفت انَ آزاڌ پليٽ فارم سئہ جيٿئہ قوم رِي مڌت ٿِي ڊيٽا ٺايو زائہ
 
 ## Community section
 
