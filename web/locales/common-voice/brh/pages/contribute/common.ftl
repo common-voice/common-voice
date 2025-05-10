@@ -133,4 +133,6 @@ contribution-varying-pronunciations-example-1-explanation = ['Beret' جوان ا
 contribution-varying-pronunciations-example-2-title = اونا دُو بڑزا مس
 contribution-varying-pronunciations-example-2-explanation = انگریزی ٹی 'Raised' نا ادائیگی ہمیشہ اسے حرف کن مریک ،ارٹ کن اخہ]
 contribution-background-noise-title = پس منظر نا شور
+contribution-background-noise-description = نن خوانہ کہ مشین لرننگ الگورتھم جتا وڑ نا پس منظر نا شور آتے ختم کننگ نا لائخ مرے، و داڑسکان کہ تیزنگا تواراتے ہم قبول کننگ کیک بشرطیکہ او پورا متن ئے بننگ آن تورپ۔ پرسکون پس منظر نا موسیقی جوان اے؛ موسیقی نمے ہر لوز نا بننگ آن توننگ کن بھاز تیز اے۔
+contribution-background-noise-description-extended = اگہ ریکارڈنگ پنک، یا او ٹونگ مریک، گڑا اودے رد کبو ہرا وخت اسکان پورو متن بننگ متانے۔
 contribution-background-voices-title = پس منظر نا توارک

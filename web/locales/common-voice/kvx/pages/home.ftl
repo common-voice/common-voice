@@ -157,12 +157,20 @@ contribute-github-action = گِٽ هب مانه حصيڌار ٿيو
 ## Featured section
 
 featured-section-title = موئين شامِل سئہ۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = امارئي پريس پيڪ شامِل ڪرو<icon></icon>
 
 ## Developers section
 
+developers-section-title = 130 ٿِي وڌارئہ ٻوليون ۾ ڊيٽاسيٽ منکون ۿُوڌِي پُوڳيا ۿارُو تيار سئہ
+developers-section-subtitle = "ASR, STT, TTS ان ٻِيزا NLP مضمُونون ۿارُو ڊيٽا سيٽ-جيو قوم رِي شمُوليت ۿارُو ٺايا ڳيا۔
+# icon is an arrow that points to the right
+explore-datasets = ڊيٽاسيٽ رئي تحقِيقات ڪرو<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = کُلئي،قوم-ڊيٽا رئي حمايت ڪرو
+read-sentences-link = جُملون نئہ ڀڻو
 
 ## Partner section
 
