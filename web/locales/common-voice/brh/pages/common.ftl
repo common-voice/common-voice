@@ -278,6 +278,7 @@ tig = ٹائیگر
 tk = ترکمان
 tl = ٹیگالوگ
 tn = سیٹسوانا
+tob = توبہ قم
 tok = ٹوکی پونا
 tr = ترکی
 ts = Xitsonga
@@ -349,3 +350,7 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>ننے</mark><br/><mark>نما کمک نا گرج ارے!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڈیٹا سیٹس نا میزبانی کننگ و 100+ زبان نا خاہوت آتیکن پلیٹ فارم ئے جوان جوڑ کننگ کن  تقریباً اسے ملین ڈالر سالانہ خرچ مریک ہراکے ننا پارہ غان ہوروک مریک۔ <strong>اگہ نم پاش،جامع ڈیٹا نا قدر ئے کیرے تو۔ - اینو ندر کبو!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>نما پٹ پول کن CV نا استعمال</mark><br/><mark>؟</mark>

@@ -85,6 +85,7 @@ transcribe-audio-coming-soon = آڊيو نئہ لکو<small>(جلڌِي آوئه
 transcribe-audio = آڊيو نئہ لکيا رِي صُورت ۾ ڀڌلو
 press-and-stories = اخبارِي اطلاعون انَ وارتائون
 community-and-languages = قوم ان ٻولي
+coming-soon = جلڌِي آوئه ريو
 about-us = امارا ڀارام
 scripted-speech = لکل تقرِير
 spontaneous-speech = تيارئي ڪريا وڳر ڪرل تقرِير
@@ -124,6 +125,10 @@ action-items-section-subtitle = هر منک آپرِي ٻولِي نئہ ڀچا�
 scripted-card-header = لکل تقرِير
 scripted-card-content = آپرِي ٻولِي ۾ جُملا ڀڻِنَ ڌُنيا رِي ٻڌون ٿِي ڌار منکون رِي شِرڪت ۾ حِصو نوکو۔
 spontaneous-card-header = تيارِي وڳر لکل وات چِيت
+spontaneous-card-content = پرامٽز رو جواڀ ۮينَ قُڌرتِي انَ هر روز رِي زنڌگِي ۾ اِستعمال ٿيا واۯو ڊيٽاسيٽ ٺاوو۔اي زبونِي پيرهين واۯِيون ٻوليون ۿارُو جوم ٺائُوڪو نمُونو سئہ۔
+language-text-card-header = ٻولِي رو متنَ
+language-text-card-content = منکون رو علمِي ڌائرو،جُملا انَ ترجمو ڪريا ۿارُو متنَ،ننڪئي ٻولئي،نمُونا، وڌارئہ اِستعمال ٿي هيڪئہ۔
+add-text = متنَ نئہ شامِل ڪرو
 
 ## Community section
 
