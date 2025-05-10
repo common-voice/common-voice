@@ -99,3 +99,11 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = معیار
+contribution-criteria-link = معیار نا کمک ئے پُو مبو
+contribution-criteria-page-title = معیار نا کمک
+contribution-criteria-page-description = پُو مبو کہ توارتا کلپاتے بننگ نا وخت آ ہرا گڑاتے پٹوئی مریک و تینا توار نا ریکارڈنگ ئے پین جوان کننگ کن کمک کبو!
+contribution-for-example = دنکہ
+contribution-misreadings-title = غلط فہمیک
+contribution-misreadings-description = بِننگ نا وخت آ،بھاز احتیاط اٹ چیک کیرے کہ ہرا ریکارڈ کرینورے او ہمن مرے ہراوڑ کہ لکھوکے۔ اگہ چنکو ردینک ئس مس ہم تو رد کبوتے۔ <br />بھاز عام غلطی تیٹی ساڑی او:
+contribution-misreadings-description-extended-list-1 = ریکارڈنگ نا شروع ٹی <strong>'A'</strong> یا <strong>'The'</strong> غائب اے۔
