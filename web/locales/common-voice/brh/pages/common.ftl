@@ -224,21 +224,32 @@ quc = K'iche'
 qup = جنوبی پاستازا کیچوا
 qux = کیچوا یایووس
 quy = Quechua Chanka
+qva = کیچوا امبو پاسکو
 qvi = کیچوا ۔
+qvl = کیچوا کاجاٹامبو
+qwa = کیچوا کورنگو انکاش
+qws = Quechua Sihuas Ancash
+qxa = Quechua Chiquián
 qxp = پونو کیچوا
+qxt = Quechua Pasco Santa Ana de Tusi
+qxu = Quechua Arequipa-La Union
+qxw = کیچوا جوجا وانکا
 rif = ٹیرفیٹ
 rm-sursilv = رومانش سرسلوان
 rm-vallader = رومانش ویلاڈر
 ro = رومانیہ
 ru = روسی
+ruc = رولی
 rw = کنیاروانڈا
 sah = سخا
 sat = سنتالی (اول چکی)
 sc = سارڈینین
+scl = شنا
 scn = سسلین
 sco = سکاٹس
 sd = سندھی
 sdh = جنوبی کرد
+sei = سیری
 shi = شلہا
 shn = شان
 si = سنہالا
@@ -270,12 +281,41 @@ ts = Xitsonga
 tt = تاتار
 tui = ٹوپوری
 tvu = ٹونین
+tw = ٹوئی
+ty = تاہیتی
+tyv = ٹوان
+uby = ابیخ
+udm = Udmurt
+ug = ایغور
+uk = یوکرینی
+ur = اردو
+uz = ازبک
+ve = شیوینڈا
+vec = وینیشین
+vi = ویتنامی
+vmw = ایماخوا ۔
+vot = ووٹک
+wep = ویسٹ فیلین
+wes = کیمرون پڈگین
+wo = وولف
+xh = ژوسا
+yi = یدش
+yo = یوروبا
+yue = کینٹونیز
+zgh = تمازائٹ
+zh-CN = چینی (چین)
+zh-HK = چینی (ہانگ کانگ)
+zh-TW = چینی (تائیوان)
+zu = زولو
+zza = ززا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفائل
+help = کمک
 
 ## Donate banner
 
