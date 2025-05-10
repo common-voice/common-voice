@@ -184,3 +184,11 @@ press-and-stories-link = اخبار انَ وارتائون
 partner-section-title = امون ٿِي حِصو ڪرو
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ٽيڪ ڪمپني</bold>-هيڪ ترقئي ڪرتو گھڻيون ٻوليون اي آئِي ايڪو سسٽم ۿارُو کُلو ڊيٽاسيٽ ٺايا ۾ سرمايا ڪارئي ڪرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سِول سوسائيٽئي انَ ڳوتيا واۯا ماهر</bold>-اثر دار ڊيٽاسيٽ ٺاوو،هوسٽ ڪرو مُفت ۾ شيئر ڪرو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ڦلاحِي ڪوم</bold>-نوِي سوچ رِي ترقِي نئہ وڌايا ۿارُو مڌت ڪرو
+# icon is an arrow that points to the right
+get-in-touch-button = راڀطو ڪرو<icon></icon>
+# Partners section
+our-partners-include = امارا حِصيڌار اِيئا ۾ شامِل سئہ۔۔۔
