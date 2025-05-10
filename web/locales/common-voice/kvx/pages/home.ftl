@@ -80,16 +80,23 @@ answer-questions-coming-soon = سوئال جواڀ<small>(جلڌِي آوئه ر
 review-transcriptions = لکل متنَ رئي ڌوهرائِي ڪرو
 review-transcriptions-coming-soon = لکل متن رئي ڌوهرائِي ڪرو<small>(جلڌِي آوئه ريو</small>)
 add-questions = سوئالون نئہ شامِل ڪرو
+add-questions-coming-soon = سوئالون نئہ شامِل ڪرو<small>(جلڌِي آوئه ريا)</small>
 transcribe-audio-coming-soon = آڊيو نئہ لکو<small>(جلڌِي آوئه ريو)</small>
 transcribe-audio = آڊيو نئہ لکيا رِي صُورت ۾ ڀڌلو
-press-and-stories = اخبارِي اطلاحون انَ وارتائون
+press-and-stories = اخبارِي اطلاعون انَ وارتائون
 community-and-languages = قوم ان ٻولي
+about-us = امارا ڀارام
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = حصيڌار،اخبارِي اطلاعون انَ وارتائون،قوم انَ ٻولي
+partnerships-menu-item-tooltip = ٻڌِي ڌُنيا ۾ ڪومنَ وائيس رو ساٿ ۮِيڌا واۯِيون تنظِيمون نئہ زوئو
+press-and-stories-menu-item-tooltip = ڪومنَ وائيس را ڀارام وارتائون،نوَئي نوَئي جانڪارئي،انَ ميڍيا رئي ڪوريج ڀڻو
+community-and-languages-menu-item-tooltip = امارِي قوم ٿِي مِلو انَ مڌت ڪرنار ٻوليون نئہ زوئو
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = ڪومنَ وائيس ڀيۯئي شامِل ٿيا واۯا حِصا را ڀارام شِينکو
 
 ## NEW HOME PAGE KEYS
 
