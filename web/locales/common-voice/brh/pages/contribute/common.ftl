@@ -58,15 +58,44 @@ report-difficult-pronounce = پاننگ اٹ مشکل مننگ اے
 report-difficult-pronounce-detail = دا ٹی ہندونو لوز و جملہ اریر ہرافتے خواننگ یا پاننگ اٹ مشکل مریک۔
 report-offensive-speech = جلہوئی تران
 report-offensive-speech-detail = دا کلپ بے ادب یا جلہوئی زبان نا اے
+report-other-comment =
+    .placeholder = کمنٹ
+success = سرسہبی
+continue = برجا
+report-success = رپورٹ سرسہی اٹ پاس مس
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ریکارڈ/تورنگ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = کلپ ئے ولدا ریکارڈ کبو
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = برجا انگا ریکارڈنگ ئے ختم کبو
+shortcut-submit = واپس کبو
+shortcut-submit-label = کلپاتے جمع کبو
+request-language-text = تینا زبان ئے کامن وائس اٹ داسکان خننگ افیرے؟
+request-language-button = زبان سیکن خواست کبو
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = برجا/تُوربو
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
