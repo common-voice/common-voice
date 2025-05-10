@@ -132,6 +132,11 @@ add-text = متنَ نئہ شامِل ڪرو
 
 ## Community section
 
+community-section-title = ٻڌِي ڌُنيا رِي قوم را  پاها ٿِي ويوَراوَئي ڳئي،انَ اُوئا ئي ۿارُو—130ٻولي انَ وڌارئہ شامِل ڪري زائه ري!
+join-discord-community = آنلائنَ قوم رو حِصو ٿيو
+# label for button
+join-discord-community-action = آنلائن امون نئہ شامِل ڪرو
+join-discord-community-content = قوم ۾ ٻولِي رِي وات چِيت ڪريا ۾ حِصو ليو،سوئال پُونسو،ان آيا واۯون پروگرومون را ڀارام انَ وات چِيت را ڀارام جانڪارئِي حاصِل ڪرو۔
 
 ## Featured section
 
