@@ -41,9 +41,23 @@ datasets = ڈیٹا سیٹ
 languages = زبانک
 about = باروٹ
 partner = ہمراہ
+submit-form-action = جمع کبو
 
 ## Reporting
 
+report = رپورٹ
+report-title = رپورٹ ئس جمع کبو
+report-ask = جملہ غاتیٹی نمے انت ویلاتے مون تروئی مننگ اے؟
+report-offensive-language = تشدد نا زبان
+report-offensive-language-detail = جملہ غاک بےا دب و تشدد نا زبان ٹی او۔
+report-grammar-or-spelling = گرائمر/حروف نا ردینک
+report-grammar-or-spelling-detail = جملہ غاتیٹی گرائمر یا حروف نا ردینک ارے
+report-different-language = جتا جتا زبان
+report-different-language-detail = دا ہمو زبان ٹی نوشتہ اے ہراٹی ای ہیت کننگ اوٹ۔
+report-difficult-pronounce = پاننگ اٹ مشکل مننگ اے
+report-difficult-pronounce-detail = دا ٹی ہندونو لوز و جملہ اریر ہرافتے خواننگ یا پاننگ اٹ مشکل مریک۔
+report-offensive-speech = جلہوئی تران
+report-offensive-speech-detail = دا کلپ بے ادب یا جلہوئی زبان نا اے
 
 ## Speak & Listen Shortcuts
 
