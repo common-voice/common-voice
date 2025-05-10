@@ -120,6 +120,10 @@ get-started = شُروع ڪرو<icon><icon>
 ## Action items section
 
 action-items-section-title = ڪومنَ وائيس هيڪ مُفت انَ آزاڌ پليٽ فارم سئہ جيٿئہ قوم رِي مڌت ٿِي ڊيٽا ٺايو زائہ
+action-items-section-subtitle = هر منک آپرِي ٻولِي نئہ ڀچايا ۿارُو،ٻِيزي وار جيوَتو ڪريا ۿارُو انَ ٺائُوڪو ٺايا ۿارُو مڌت ڪري هيڪئہ،متن انَ تقرِير نئہ ٺاوينَ شيئر ڪرينَ۔
+scripted-card-header = لکل تقرِير
+scripted-card-content = آپرِي ٻولِي ۾ جُملا ڀڻِنَ ڌُنيا رِي ٻڌون ٿِي ڌار منکون رِي شِرڪت ۾ حِصو نوکو۔
+spontaneous-card-header = تيارِي وڳر لکل وات چِيت
 
 ## Community section
 
