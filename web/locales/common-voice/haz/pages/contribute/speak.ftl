@@ -13,6 +13,14 @@ record-error-too-quiet = ای پور کیدۉنی آواز غئدئر استې �
 record-cancel = از نۆ پور کیدۉنی آواز رۂ بئن کو
 record-instruction = { $actionType }<recordIcon></recordIcon> باز جوملۂ رۂ بیلئن بېخان
 record-stop-instruction = { $actionType } <stopIcon> </stopIcon> غݷدی کی شود
+record-three-more-instruction = سې دئنۂ مئندۂ
+record-again-instruction = خوبۂ<recordIcon> </recordIcon> دیگۂ آواز خو میتنی پور کئنی
+record-again-instruction2 = پېش بۉرو٬ از نۆ پور کو <recordIcon></recordIcon>
+record-last-instruction = آخیرنې شی<recordIcon></recordIcon>
+review-tooltip = تۉغ کیدۂ از نۆ آواز خو پور کو
+share-clip = کلیپ خو شئریگ کو
+share-common-voice = آواز بېخی/ کامئن واݷس رۂ شئریگ کو
+review-instruction = تۉغ کو و از نۆ آواز خو پور کو اگئر لازیمۂ
 
 ## MENU ITEM TOOLTIPS
 
