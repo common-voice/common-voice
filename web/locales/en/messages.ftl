@@ -303,6 +303,7 @@ qux = Quechua Yauyos
 quy = Quechua Chanka
 qva = Quechua Ambo-Pasco
 qvi = Kichwa
+qvj = Loja Highland Kichwa
 qvl = Quechua Cajatambo
 qwa = Quechua Corongo Ancash
 qws = Quechua Sihuas Ancash

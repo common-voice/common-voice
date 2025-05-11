@@ -8,7 +8,9 @@ export default function FalakHeader() {
       <div className="inner-pages py-4 px-4 mx-0 gap-8 md:mx-6 lg:mx-8 xl:mx-8 lg:px-8 flex items-center justify-between">
         <a className="flex items-center" href="https://falak.ksaa.gov.sa/">
           <img
-            src="/voicewall/img/falak-logo-light.svg"
+            src={require('../falak-logo-light.svg')}
+            loading="lazy"
+            role="presentation"
             alt="مِنَصّةُ فلك"
             height="38"
             className="mr-0 lg:mr-2 mb-1 h-[38px] "
