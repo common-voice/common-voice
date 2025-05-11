@@ -92,6 +92,9 @@ about-playbook-how-add-language-collecting-sentences-content-3 = جمع ڪرل �
 
 ## How does localization work
 
+about-playbook-how-localize = تصديق ٿل سائيٽ چيچم ڪام ڪري سي؟
+about-playbook-how-localize-content-1 = ڪامن وائيس نو ترجما ٿي شُون ٿائي سي
+about-playbook-how-localize-content-2 = زي تمارو اڪائونت نٿي تو ٺاهو۔ پسي ايڪ ٻولي چونڊو هان پسي ايڪ پروجيڪ چونڊو۔ زي ڪامن وائيس سي۔ اڃي ايڪ فائيل هشي زي ترجما هارو هشي۔ ڪوئي ايڪ ماٿي ڪلڪ ڪرو اين مان ايڪ کانا مان انڳريزي مان اکر هشي اين نٽ ترجمو ڪرو۔ </pontoonCvLink> </pontoonAccountLink> <pontoonCvLink>
 
 ## How to add sentences
 
