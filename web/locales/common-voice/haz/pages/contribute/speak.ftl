@@ -9,6 +9,10 @@ record-must-allow-microphone = شومۉ بایئد سئخت کیدۉنی ماې�
 record-no-mic-found = ماݷکرۉفۉن پݷدا نئشود
 record-error-too-short = ای پور کیدۉ غئدئر چوقنݷ بود
 record-error-too-long = ای پور کیدۉ غئدئر دوور دیراز بود
+record-error-too-quiet = ای پور کیدۉنی آواز غئدئر استې بود
+record-cancel = از نۆ پور کیدۉنی آواز رۂ بئن کو
+record-instruction = { $actionType }<recordIcon></recordIcon> باز جوملۂ رۂ بیلئن بېخان
+record-stop-instruction = { $actionType } <stopIcon> </stopIcon> غݷدی کی شود
 
 ## MENU ITEM TOOLTIPS
 
