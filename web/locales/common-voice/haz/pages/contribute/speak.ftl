@@ -47,6 +47,23 @@ why-donate-explanation-1 = ای مالومات ایختیاری یۂ۔ اگئر 
 why-donate-explanation-2 = بئلدې ازی کی ݖېکنالۉجی خوب کار کئنۂ٬ ۮېݖا کی جۉر گئرا رۂ کومئگ مونۂ لازیم دیرۂ کی کیݖݖۂ ݖۉلی مئردوم رۂ اککاسی کئنۂ۔ مئسلئن اگئر مۉ مئخسوس نئفئرا رۂ ایزافۂ نئکنی باز کېکنالۉجی بئلدې ازو کئسا خوب روست کار نئمیتنۂ۔
 add-information-button = مالومات ایزافۂ کید
 continue-speaking-button = نۂ تئشئکور٬ تۉرۂ گوفتۂ بۉر
+create-profile-text = مېخایی مالومات خو قئییم کئنی؟ یئگ پرۉفایل جۉر کو
+thanks-for-voice-toast = تئشئکور از مالوماتی آواز شوم
+thanks-for-voice-toast-error = دۂ غݷدی جئم کیدۉنی مالومات آواز یئگ موشکیل پېش اماد
+first-cta-gender-select-default-option = سونغو کو
+first-cta-gender-select-help-text =
+    .label = جینسیئت خو چوتور وازې نی؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تئشئکور از کۉمئگ شوم!
+second-cta-subtitle-text = قئد یئگ پرۉفایل ٬ شومۉ میتنید کارای خو دومبال کئنید و قئد ݖۉلې وایس ۮېݖا شئریگ بومنید
+already-have-an-account = پېش از پېش ایساب/ اکاونݖ دیرې؟ واز کو
+create-profile-button = یئگ پرۉفایل جۉ کو
+# IMAGE TAGS
+img-alt-success-checkmark = نیشانی پېرۉزی
+# menu item
+read-sentences = جوملۂ رۂ بېخان
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جوملۂ رۂ بېخان (دۂ چابوکی)
 
 ## MENU ITEM TOOLTIPS
 
