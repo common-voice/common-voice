@@ -41,6 +41,8 @@ terms-agree = ما قئبول دیرۉم
 terms-disagree = ما قئبول نئدیرۉم
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تئشئکور از وقف کیدۉنی کلیپای آواز شوم
+first-cta-subtitle-text = قئد مالومات دیدۉ از بارې خو شومۉ کۉمئگ مونید تا قئوی تئر ݖیکنالۉجی جۉر شونۂ
+why-donate = شومۉ چیکۂ پورسۉ مونید؟
 
 ## MENU ITEM TOOLTIPS
 
