@@ -18,4 +18,4 @@ report-error = رپورٹ جمع گرے مہ یک غلطی یئ گےتھی
 continue = جاری
 # Header for report modal after successful reporting
 success = کامیابی
-report-success-message = رپرٹ کامیابی رے پاس ھوینگا
+report-success-message = رپورٹ کامیابی رے پاس ھوینگا
