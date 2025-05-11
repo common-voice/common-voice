@@ -31,6 +31,16 @@ record-abort-delete = بور شو و کلیپا رۂ پاک کو
 review-aborted = اپلۉۮ قئبول نئشود۔ مېخایی از نۆ آواز خو پور کئنی؟
 review-submit-title = تۉغ کو و جئم کو
 review-submit-msg = از آواز پور کیدې شوم تئشئکور! <lineBreak></lineBreak> یالی تۉغ کیدۂ کلیپ خو دۂ تݷلۉ جئم کو
+review-recording = از نۆ تۉغ کیدۉ
+review-rerecord = از نۆ آواز پور کیدۉ
+review-cancel = خئلاس کیدۉ
+review-keep-recordings = آواز پور کیدۉ رۂ پېش بوبئر
+review-delete-recordings = آوازای پور کیدې مۂ رۂ پاک کو
+review-terms = قئد ایستیمال کیدۉنی آوازی بېخی/ کامئن واݷس٬ شومۉ قئد شئرتا و خئدی رازداری از مۉ قینائد کیدېد
+terms-agree = ما قئبول دیرۉم
+terms-disagree = ما قئبول نئدیرۉم
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تئشئکور از وقف کیدۉنی کلیپای آواز شوم
 
 ## MENU ITEM TOOLTIPS
 
