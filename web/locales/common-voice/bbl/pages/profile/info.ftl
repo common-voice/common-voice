@@ -13,3 +13,5 @@ profile-form-variant =
 profile-form-variant-default-value = დიალექტ ცო ჲა ჲაგჲიენო̆
 profile-form-accent =
     .label = ა́ქცენტ
+profile-form-custom-accent-help-text =
+    .label = უ̂ხ ა́ლ'აჼ მაკ შუჼ აჲში̆ ა́მბუჲ ჲოჩო̆ კილოხ?
