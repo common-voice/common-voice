@@ -8,6 +8,7 @@ download-profile-size = მელ'მი ბაიტ
 download-recordings-title = ჩანაწე́რი
 download-recordings-info = ჩუჰ̦ და: mp3-ფაილი მაქ და́წუჩო̆ წინადა́დბივ
 download-recordings-size = მუჲლნეჴელბაჲცი̆, მეგაბა́იტი
+download-recordings-unavailable = ცო მაკ შუჼ ჩანაწე́რი დაკლე́ვადჲაჼ, მაცმე́ ჴე́ნი ჰ̦ა́თხეჸ დაკლე́ვადჲიენო̆ მოთხო́ვნი მუშებალა
 download-selected = ჰ̦ალო̆ ჩა́ვარდიენო̆
 download-start = აჰ̦ დჵო́ფარ ჰ̦ალო̆ დო́ლდალარ
 download-request = აჰ̦ დჵო́ფრეჼ (ჩამოტვირთვეჼ) მოთხო́ვნ
