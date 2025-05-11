@@ -60,3 +60,4 @@ edit = ჰ̦ალო̆ ნიფსდარ
 email-subscriptions = ელფო́სტევ გამოწე́რი
 download-profile = პრო́ფილეჼ მონაცე́მი აჰ̦  დჵო́ფარ (ჩამოტვირთოდარ)
 contribution-experience = შარიჼ და́ყ ატტაჲში̆ ჩუ დაჰ̦ანაჲნო̆
+skip-submission-feedback = თაგდიენჩო́ჼ შეფა́სებ დაჰ̦ ჲითარ
