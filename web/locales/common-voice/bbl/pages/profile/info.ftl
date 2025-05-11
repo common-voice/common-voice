@@ -34,3 +34,7 @@ female_feminine = ფსტუ (ფსტუჲნოჼ)
 intersex = შინსქე́სლიჼ
 transgender = სქესხა́რცჲიენო̆
 non-binary = სტაკოხ/ფსტუჲნჩოხ გა́რდ
+do_not_wish_to_say = სქეს ცო გუჲა́ჴოშ
+# Gender
+other = ჴე́ნი
+why-profile-title = უ̂ხ საჭირო̆ ჲა პრო́ფილ?
