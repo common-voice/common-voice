@@ -67,6 +67,12 @@ read-sentences-coming-soon = جوملۂ رۂ بېخان (دۂ چابوکی)
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جوملۂ رۂ بېخان٬ سوالا رۂ جواب بیدی
+read-sentences-menu-item-tooltip = جوملای رۂ کی مېخانی دۂ زیبۉنی خۉ خو پور کو
+answer-questions-menu-item-tooltip = سوالا رۂ جواب میدی رۂ سئفت کو
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = آپشئن مینیو رۂ بوگی
+read-sentences-menu-item-aria-label = جوملای دیگۂ زیبۉنا کی دۂ بݷنی آغیل اندئختۂ شودۂ رۂ بېخان
+answer-questions-menu-item-aria-label = یئگ سوال نۆ بېلو بئلدې آغیل کی بېخانۂ
