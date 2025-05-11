@@ -21,6 +21,16 @@ review-tooltip = تۉغ کیدۂ از نۆ آواز خو پور کو
 share-clip = کلیپ خو شئریگ کو
 share-common-voice = آواز بېخی/ کامئن واݷس رۂ شئریگ کو
 review-instruction = تۉغ کو و از نۆ آواز خو پور کو اگئر لازیمۂ
+record-submit-tooltip = { $actionType }غݷدی کی آمادۂ شود جئم کو
+clips-uploaded = کلیپا اندئختۂ شود
+record-abort-title = اوئل پور کئدۉ رۂ خئلاس نی؟
+record-abort-text = اگئر یالی رافتی ایدامۂ دیدۂ نئمیتنی
+record-abort-submit = کلیپا رۂ جئم کو
+record-abort-continue = آواز پور کیدۉ رۂ خئلاس کو
+record-abort-delete = بور شو و کلیپا رۂ پاک کو
+review-aborted = اپلۉۮ قئبول نئشود۔ مېخایی از نۆ آواز خو پور کئنی؟
+review-submit-title = تۉغ کو و جئم کو
+review-submit-msg = از آواز پور کیدې شوم تئشئکور! <lineBreak></lineBreak> یالی تۉغ کیدۂ کلیپ خو دۂ تݷلۉ جئم کو
 
 ## MENU ITEM TOOLTIPS
 
