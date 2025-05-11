@@ -102,6 +102,7 @@ about-playbook-how-localize-content-5 = امارا ويڊيا نين بيان ڪ
 ## How to add sentences
 
 about-playbook-how-add-sentences = مُون چچم جملا جمع ڪريوش
+about-playbook-how-add-sentences-content-1 = آ لنڪ مان تماري جُملا جمغ ڪروا سي۔ <writePageLink> لڇا هارو </writePageLink>  يان جملا ني دوهرائي هارو <reviewPageLink> صفعو دهرائي ڪرو۔
 
 ## How to record quality
 
