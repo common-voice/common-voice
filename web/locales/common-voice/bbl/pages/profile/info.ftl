@@ -44,3 +44,6 @@ build-profile = პრო́ფილ შე́ქმნოდჲარ
 avatar = გამოსა́ხულებ
 goals = მიზაჼ
 settings = პარამე́ტრი
+edit-profile = პრო́ფილ ჰ̦ალო̆ ნიფსჲარ
+profile-create-success = პრო́ფილ დაქი́შ თაგჲალიჼ!
+profile-close = დაჰ̦ ცე́რჲა́ჴარ (დახურვადჲარ)
