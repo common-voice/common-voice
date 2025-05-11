@@ -1,15 +1,15 @@
 ## ProfileForm
 
 profile-form-username =
-    .label = მომხმარებლეჼ წე
+    .label = მომხმა́რებლეჼ წე
 profile-form-native-language =
-    .label = დადიჼ მოტტ
+    .label = და́დიჼ მოტტ
 profile-form-additional-language =
     .label = შილღეჼ მოტტ
 profile-form-language =
     .label = მოტტ
 profile-form-variant =
-    .label = მატტა́ხიჼ მე́ნუხ ბა აჲში̆ ა́მბუჲ ჲოშ ჴელუღ?
+    .label = მე́ნხუჲჩო̆ ნაირსახეობეჼ მოტტ ბა აჲში̆ ა́მბუჲ ჲოშ ჴელუღ?
 profile-form-variant-default-value = დიალექტ ცო ჲა ჲაგჲიენო̆
 profile-form-accent =
     .label = ა́ქცენტ
