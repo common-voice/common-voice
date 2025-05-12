@@ -26,3 +26,15 @@ hidden = ناهڙلَ
 visible = ۮيکيام آوئہ
 native-language =
     .label = علائقائي ٻولئي
+profile-form-add-accent = ضرُورت پرموڻئہ لجها نئہ ڌاخل ڪرو"{ $inputValue }"
+profile-form-submit-save = محفُوظ ڪرو
+profile-form-submit-saved = محفُوظ ڪريو ڳيو
+male_masculine = آۮمِي/آۮميون واۯي
+female_feminine = ڏوشي/ڏوشِئيون واۯي
+intersex = ڌار ڌار جِنسون
+transgender = ڀڌلل جِنسون
+non-binary = ايوئي جِنس جيو نہ ڏوشِي نہ آۮمِي هووئہ
+do_not_wish_to_say = ڪيوا نٿِي ڪرتو
+# Gender
+other = ٻِيزا
+why-profile-title = ڪم هيڪ پروفائل؟

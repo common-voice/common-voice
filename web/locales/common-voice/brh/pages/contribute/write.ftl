@@ -24,6 +24,15 @@ new-sentence-rule-8 = مثالی وڑ اٹ و ہیت و گپ (دا جملہ خو
 login-instruction-multiple-sentences = بھاز جملہ ساڑی کننگ کن <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ کبو</loginLink>
 how-to-cite = ای امر حوالہ ایتو؟
 how-to-cite-explanation-bold = تینا URL نا لنگ یا پوروا کاریم نا پن نا حوالہ ئے ایتبو۔
+how-to-cite-explanation = اگہ دا نما جند نا لوزاک او <italicizedText>"Self Citation"</italicizedText> پابو۔ ننے دا معلوم کننگ نا گرج اے کہ نمے دا مواد ہراکان ملا تانکہ نن چیک کننگ کین کہ دا السی ڈومین ٹی او و کاپی رائٹ نا ہچو پابندی ئس لاگو مفک۔ حوالہ غاتا باروٹ گیشتر چاہنداری کن ننا <guidelinesLink>راہشونی نا پنہ</guidelinesLink> ہوربو۔
+guidelines = پُو کننگ نا اصول
+contact-us = نن تون رابطہ کبو
+add-sentence-success = 1جملہ جمع مس
+add-sentence-error = جملہ ئے جمع کننگ اٹ ردینک مس
+required-field = بشخنداری اٹ دا جاگہ ئے پُر کبو
+single-sentence-submission = اسہ جملہ ئس جمع
+small-batch-sentence-submission = چنکا بیچ نا جملہ تا جمع
+bulk-sentence-submission = بھلا جملہ تا مُچی تے جمع کننگ
 
 ## BULK SUBMISSION
 
