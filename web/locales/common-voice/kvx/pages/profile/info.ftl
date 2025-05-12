@@ -38,3 +38,13 @@ do_not_wish_to_say = ڪيوا نٿِي ڪرتو
 # Gender
 other = ٻِيزا
 why-profile-title = ڪم هيڪ پروفائل؟
+why-profile-text = آپرا ڀارام ڪيئنڪ جانڪارئي ۮِيڌا ٿِي،جيو آڍيو ڊيٽا ڪومنَ وائيس نئہ ميلو جيو ٻولِي نئہ اوۯکيا واۯا اِنجڻ گھڻو ڦائيڌا واۯو ٿيشي جيو اِيئا ڊيٽا نئہ آپرئي ڌُرستگئي ٺائُوڪئي ٺايا ۿارُو استعمال ڪري هيڪون۔
+dashboard = ڊيش بورڊ
+build-profile = پروفائيل ٺايو
+avatar = اوَتار
+goals = مقصڌ
+settings = ترتِيڀون
+edit-profile = پروفائل نئہ ايڊِٽ ڪرو
+profile-create-success = ڪامياڀ،پروفائل ٺهي ڳئي!
+profile-close = بند
+profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
