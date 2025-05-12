@@ -7,6 +7,9 @@ sentence =
     .label = جملہ
 sentence-input-placeholder = تینا الس ڈومین جملہ ئے داڑے لکھبو
 small-batch-sentence-input-placeholder = تینا الس ڈومین جملہ ئے داڑے لکھبو
+citation-input-placeholder = تینا جملہ نا وسیلہ نا حوالہ ئے ایتبو (ضرورت ارے)
+citation =
+    .label = حوالہ
 
 ## BULK SUBMISSION
 
