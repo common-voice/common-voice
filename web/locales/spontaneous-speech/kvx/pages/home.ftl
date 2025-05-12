@@ -8,3 +8,14 @@ why-spontaneous-speech = امي اي ڀي اِکيتيار ٻولِي رو پي�
 why-card-1-text = کاس ٻولِي را موقعا<mark>انَ اِستعمال ۿارُو ڦائيڌا واۯو سئہ</mark> زم تمي چاهو جي ٻولِي رئي اوۯکوڻ ايوون منکون ڀيۯئي ڪوم ڪرئہ جيو اِسڪِرپٽ وڳر ان عام ٻولِي ۾ وات ڪرئه۔
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = ايوِيون ٻولِيون رِيئون حقِيقتون نئہ ٺائُوڪئہ نمُونئہ ۿزميا ۿارُو انَ <mark>وات ڪرتون ٻولِي نئہ ڀڌلوو رو اِستعمال ڪروو</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = ايويون ٻوليون ۿارُو ٺائُوڪئي مڌت ڪا ڪوم جيو ڪئين پڻ آکرون رو <mark>ٽوۯو نٿِي راکتي</mark>(زم مثال سماجِي ٻولئي،لهجا،وڳر لکل تاريخِي ٻولي وغيره)
+how-spontaneous-speech-works = ڀي اِکيتار ٻولي ڪم ڪرينَ ڪوم ڪرئه؟
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>اِشارو</mark>
+prompt-bubble-subtitle = امي تمون نئہ هيڪ اِشارو ڪا سوئال ۮيکاڙشون
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>جواڀ ۮيوو</mark>
+respond-bubble-subtitle = تمي اِيئا رو جواڀ قُڌرتِي طرِيقا ٿِي ۮي هيڪو
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>لکي ليوو</mark>
