@@ -31,8 +31,19 @@ add-sentence-success = 1جملہ جمع مس
 add-sentence-error = جملہ ئے جمع کننگ اٹ ردینک مس
 required-field = بشخنداری اٹ دا جاگہ ئے پُر کبو
 single-sentence-submission = اسہ جملہ ئس جمع
-small-batch-sentence-submission = چنکا بیچ نا جملہ تا جمع
+small-batch-sentence-submission = چنکا جملہ تا مچی نا جمع
 bulk-sentence-submission = بھلا جملہ تا مُچی تے جمع کننگ
+single-sentence = تنیا
+small-batch-sentence = چنکا مچی
+bulk-sentence = زیات مچی
+sentence-domain-combobox-label = جملہ تا ڈومین
+sentence-domain-select-placeholder = مسہ ڈومین اسکان منتخب کبو (اختیاری)
+# Sentence Domain dropdown option
+agriculture_food = کشت و کشار و خوراک
+# Sentence Domain dropdown option
+automotive_transport = آٹوموٹو و اولاخ
+# Sentence Domain dropdown option
+finance = زری
 
 ## BULK SUBMISSION
 
