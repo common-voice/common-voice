@@ -19,3 +19,11 @@ respond-bubble-title = <mark>جواڀ ۮيوو</mark>
 respond-bubble-subtitle = تمي اِيئا رو جواڀ قُڌرتِي طرِيقا ٿِي ۮي هيڪو
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>لکي ليوو</mark>
+transcribe-bubble-subtitle = تمي جي ڪئين پڻ آڍيو ڪِلپ رِي صُورت ۾ ۿومڀۯو، اُوئا نئہ لکي ليوه
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>جونچ</mark>
+check-bubble-subtitle = تمي زوئو جي لکائي آڍيو ٿِي مِلئه رئي ڪا نا؟
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>ڊيٽا</mark>
+data-bubble-subtitle = امي ڊيٽا سيٽ نئہ ڪيئنڪ ٽيم ڪيڙ جارِي ڪرون
+contact-us = امون ٿِي راڀطو ڪرو
