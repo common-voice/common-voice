@@ -1,4 +1,4 @@
-action-click = ڪِلڪ
+action-click = ڪِلڪ ڪرا
 action-tap = ٽيپ
 contribute = حِصا ڏِيئڻ
 review = نظرثانِي
