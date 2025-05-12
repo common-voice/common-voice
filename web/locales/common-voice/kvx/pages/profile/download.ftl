@@ -27,3 +27,4 @@ download-request-modal-title = ڊائونلوڊ را لِنڪ
 download-request-modal-description = ايٿئہ تمون ۿارُو زِپ فائلون ڊائونلوڊ ڪريا ۿارُو لِنڪ ۮِيڌل سئہ۔
 download-request-link-text = زِپ #{ $offset }رو{ $total }
 download-request-metadata-link = جُملا رو متنَ
+download-request-link-single = تمي آپرا پسنڌِيڌا ڊائولوڊ مئنِيجر ۾ سِڌو URLs پڻ ڪاپئي ڪري هيڪو۔اي ٻارئہ ڪلاڪون ڪيڙ کتم ٿي زاشي، پڻ تمي اِيئا پونيا مانه آوينَ ڪيئہ پڻ ٽوڻئہ آوينَ نوا ٺاوي هيڪو۔
