@@ -88,12 +88,8 @@ read-more-about = Read more on our About page
 
 ## NAV ITEMS
 answer-questions = Answer Questions
-answer-questions-coming-soon = Answer Questions <small>(Coming soon)</small>
 review-transcriptions = Review Transcriptions
-review-transcriptions-coming-soon = Review Transcriptions <small>(Coming soon)</small>
 add-questions = Add Questions
-add-questions-coming-soon = Add Questions <small>(Coming soon)</small>
-transcribe-audio-coming-soon = Transcribe Audio <small>(Coming soon)</small>
 transcribe-audio = Transcribe Audio
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages

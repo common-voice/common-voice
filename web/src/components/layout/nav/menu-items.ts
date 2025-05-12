@@ -16,6 +16,9 @@ import URLS from '../../../urls'
 import { NavItem } from './nav'
 import { MenuConfig } from './contribute-menu'
 
+const SCRIPTED_SPEECH_ROOT_URL =
+  'https://commonvoice.mozilla.org/spontaneous-speech/beta'
+
 export const menuItems: Record<NavItem, MenuConfig> = {
   speak: {
     items: [
@@ -29,10 +32,11 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: ChatBubbleIcon,
-        localizedId: 'answer-questions-coming-soon',
+        localizedId: 'answer-questions',
         menuItemTooltip: 'answer-questions-menu-item-tooltip',
         menuItemAriaLabel: 'answer-questions-menu-item-aria-label',
         type: 'spontaneous',
+        externalHref: SCRIPTED_SPEECH_ROOT_URL + '/prompts',
       },
     ],
     menuTooltip: 'speak-contribute-menu-tooltip',
@@ -50,11 +54,12 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: CheckCircle,
-        localizedId: 'review-transcriptions-coming-soon',
+        localizedId: 'review-transcriptions',
         requiresAuth: true,
         menuItemTooltip: 'review-transcriptions-menu-item-tooltip',
         menuItemAriaLabel: 'review-transcriptions-menu-item-aria-label',
         type: 'spontaneous',
+        externalHref: SCRIPTED_SPEECH_ROOT_URL + '/check-transcript',
       },
     ],
     menuTooltip: 'listen-contribute-menu-tooltip',
@@ -81,18 +86,20 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: FilePlus,
-        localizedId: 'add-questions-coming-soon',
+        localizedId: 'add-questions',
         requiresAuth: true,
         menuItemTooltip: 'add-questions-menu-item-tooltip',
         menuItemAriaLabel: 'add-questions-menu-item-aria-label',
         type: 'spontaneous',
+        externalHref: SCRIPTED_SPEECH_ROOT_URL + '/question',
       },
       {
         icon: TranscribeIcon,
-        localizedId: 'transcribe-audio-coming-soon',
+        localizedId: 'transcribe-audio',
         menuItemTooltip: 'transcribe-audio-menu-item-tooltip',
         menuItemAriaLabel: 'transcribe-audio-menu-item-aria-label',
         type: 'spontaneous',
+        externalHref: SCRIPTED_SPEECH_ROOT_URL + '/transcribe',
       },
     ],
     menuTooltip: 'write-contribute-menu-tooltip',

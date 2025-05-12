@@ -58,7 +58,7 @@ export const MenuContent = ({
         {spontaneousSpeechItems.length > 0 && (
           <>
             <Localized id="spontaneous-speech">
-              <p className="content-title" />
+              <p className="content-title spontaneous" />
             </Localized>
             <ul className="spontaneous-speech-list">
               {spontaneousSpeechItems.map(item => (

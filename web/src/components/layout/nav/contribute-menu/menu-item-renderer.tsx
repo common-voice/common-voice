@@ -45,19 +45,7 @@ export const MenuItemRenderer = ({
       )
     }
 
-    if (isLocaleContributable && isSpeakOrListenUrl) {
-      return (
-        <LocaleLink
-          to={internalHref}
-          className="contribute-link"
-          onClick={toggleMenu}>
-          <Icon />
-          <Localized id={localizedId} />
-        </LocaleLink>
-      )
-    }
-
-    if (internalHref && !isSpeakOrListenUrl) {
+    if (internalHref) {
       return (
         <LocaleLink
           to={internalHref}
@@ -82,15 +70,6 @@ export const MenuItemRenderer = ({
         </a>
       )
     }
-
-    return (
-      <>
-        <Icon />
-        <Localized id={localizedId} elems={{ small: <span /> }}>
-          <p className="coming-soon-text" />
-        </Localized>
-      </>
-    )
   }
 
   return (
