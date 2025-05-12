@@ -44,9 +44,35 @@ agriculture_food = کشت و کشار و خوراک
 automotive_transport = آٹوموٹو و اولاخ
 # Sentence Domain dropdown option
 finance = زری
+# Sentence Domain dropdown option
+service_retail = خذمت و ریٹیل
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = جانجوڑی
+# Sentence Domain dropdown option
+history_law_government = دیہاڑ، قانود و حکمرانی
+# Sentence Domain dropdown option
+language_fundamentals = زبان نا بنیاتاک (دنکہ ڈیجیٹس، حرفاک، پیسہ)
+# Sentence Domain dropdown option
+media_entertainment = میڈیا و لطف اندوزی
+# Sentence Domain dropdown option
+nature_environment = فطرت و ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبر و داسنا معاملہ غاک
+# Sentence Domain dropdown option
+technology_robotics = ٹیکنالوجی و روبوٹکس
+sentence-variant-select-label = جملہ غاتا جتا مننگ
+sentence-variant-select-placeholder = جتا انگا سلیکٹ کبو (اختیاری)
+sentence-variant-select-multiple-variants = عام انگا زبان/ بھاز انگا جتائیک
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = السی ڈومین نا جملہ غاتے <icon></icon> اپ لوڈ کبو۔
+sc-bulk-upload-instruction = تینا فائل ئے داڑے چکابو یا <uploadButton>اپ لوڈ کننگ کن کلک کبو</uploadButton>
+sc-bulk-upload-instruction-drop = فائل ئے اپلوڈ کن داڑے شاغبو
+bulk-upload-additional-information = اگہ نم دا فائل نا باروٹ پین گیشتر معلومداری تننگ خوارے تو گڑا <emailFragment>commonvoice@mozilla.com</emailFragment> آن رابطہ کبو
 
 ## SMALL BATCH SUBMISSION
 
