@@ -14,6 +14,16 @@ sc-write-submit-confirm = ای امنائی کیوہ کہ دا سوج <publicDom
 sc-review-write-title = امرو جملہ ئس ای داڑے جمع کننگ کیوہ؟
 sc-review-small-batch-title = جتا جتا انگا جملہ غاتے امر جمع مریرہ
 new-sentence-rule-1 = <noCopyright>ہچو کاپی رائٹ اف</noCopyright>پابندی اف<cc0>cc-0-0</cc0>
+new-sentence-rule-2 = فی جملہ 15 لوز آن کم
+new-sentence-rule-3 = سہی گرامر کارمرز کبو
+new-sentence-rule-4 = سہی حرف و ادائیگی کبو
+new-sentence-rule-5 = ہچو نمبر و حاص انگا نشان اف
+new-sentence-rule-6 = ہچو پیشن نا حروف اف
+new-sentence-rule-7 = شاباشی نا حوالہ ئے اوار کبو
+new-sentence-rule-8 = مثالی وڑ اٹ و ہیت و گپ (دا جملہ خواننگ اٹ آسان مرے)
+login-instruction-multiple-sentences = بھاز جملہ ساڑی کننگ کن <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ کبو</loginLink>
+how-to-cite = ای امر حوالہ ایتو؟
+how-to-cite-explanation-bold = تینا URL نا لنگ یا پوروا کاریم نا پن نا حوالہ ئے ایتبو۔
 
 ## BULK SUBMISSION
 
