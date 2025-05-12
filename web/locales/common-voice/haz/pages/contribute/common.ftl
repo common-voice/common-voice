@@ -56,15 +56,48 @@ report-offensive-speech = تۉرای بئد بېتور
 report-offensive-speech-detail = دئزی کلیپ بېکېبلۂ یا بئد بېتور زیبۉ ایستیمال شودۂ
 report-other-comment =
     .placeholder = نئزئر
+success = پېرۉزی
+continue = پېش بوبئر
+report-success = اوال دۂ پېرۉزی پېش رافت
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = س
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ر
+shortcut-record-toggle-label = پور کو/ بئن کو
+shortcut-rerecord-toggle = 1-5
+shortcut-rerecord-toggle-label = کلیپ رۂ از نۆ پور کو
+shortcut-discard-ongoing-recording = ای اېس سی
+shortcut-discard-ongoing-recording-label = آواز پور کیدۉ رۂ بئن کو
+shortcut-submit = پئس بییۂ
+shortcut-submit-label = کلیپا رۂ جئم کو
+request-language-text = زیبۉن خو تئبالی بئلې کامئن وایس اوش نئنی؟
+request-language-button = خاییش بئلدې یئگ زیبۉ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پ
+shortcut-play-toggle-label = بیزئن/ بئن کو
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ی
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
+contribution-criteria-nav = شئرت
+contribution-criteria-link = شئرتی کۉمئگ کیدۉ رۂ بوفامید
+contribution-criteria-page-title = شئرتی کۉمئگ
+contribution-criteria-page-description = غېدی کی دۂ آوازای پور کیدۂ گۉش مونی بایئد بوفامی و آواز پور کیدۉن خو زیاد کئنی
+contribution-for-example = بئلدې میسال
+contribution-misreadings-title = غئلئد خاندۉ
