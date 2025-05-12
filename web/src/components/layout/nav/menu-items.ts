@@ -16,9 +16,6 @@ import URLS from '../../../urls'
 import { NavItem } from './nav'
 import { MenuConfig } from './contribute-menu'
 
-const SCRIPTED_SPEECH_ROOT_URL =
-  'https://commonvoice.mozilla.org/spontaneous-speech/beta'
-
 export const menuItems: Record<NavItem, MenuConfig> = {
   speak: {
     items: [
@@ -36,7 +33,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         menuItemTooltip: 'answer-questions-menu-item-tooltip',
         menuItemAriaLabel: 'answer-questions-menu-item-aria-label',
         type: 'spontaneous',
-        externalHref: SCRIPTED_SPEECH_ROOT_URL + '/prompts',
+        externalHref: URLS.PROMPTS,
       },
     ],
     menuTooltip: 'speak-contribute-menu-tooltip',
@@ -59,7 +56,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         menuItemTooltip: 'review-transcriptions-menu-item-tooltip',
         menuItemAriaLabel: 'review-transcriptions-menu-item-aria-label',
         type: 'spontaneous',
-        externalHref: SCRIPTED_SPEECH_ROOT_URL + '/check-transcript',
+        externalHref: URLS.CHECK_TRANSCRIPT,
       },
     ],
     menuTooltip: 'listen-contribute-menu-tooltip',
@@ -91,7 +88,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         menuItemTooltip: 'add-questions-menu-item-tooltip',
         menuItemAriaLabel: 'add-questions-menu-item-aria-label',
         type: 'spontaneous',
-        externalHref: SCRIPTED_SPEECH_ROOT_URL + '/question',
+        externalHref: URLS.QUESTION,
       },
       {
         icon: TranscribeIcon,
@@ -99,7 +96,7 @@ export const menuItems: Record<NavItem, MenuConfig> = {
         menuItemTooltip: 'transcribe-audio-menu-item-tooltip',
         menuItemAriaLabel: 'transcribe-audio-menu-item-aria-label',
         type: 'spontaneous',
-        externalHref: SCRIPTED_SPEECH_ROOT_URL + '/transcribe',
+        externalHref: URLS.TRANSCRIBE,
       },
     ],
     menuTooltip: 'write-contribute-menu-tooltip',
