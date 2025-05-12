@@ -107,6 +107,24 @@ rate-limit-toast-message-minutes =
         [one] شرح نا حدو ویل آن زیات مس۔ 1 منٹ اٹ ولدا کوشست کبو۔
        *[other] شرح نا حدو ویل آن زیات مس۔ { $retryLimit } منٹ اٹ ولدا کوشست کبو۔
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] شرح نا حدو ویل آن زیات مس۔ 1منٹ اٹ ولدا کوشست کبو۔
+       *[other] شرح نا حدو ویل آن زیات مس۔ { $retryLimit } منٹ اٹ ولدا کوشست کبو۔
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] نم دا پنہ کن جمع کننگ نا کچ ئے ایسر کرینورے۔ بشخنداری ارٹمیکو جملہ تے ساڑی کننگ آن مست 1 منٹس انتظار کبو۔ نما صبر کننگ نا منت وار!
+       *[other] نم دا پنہ کن جمع کننگ نا کچ ئے ایسر کرینورے۔ بشخنداری ارٹمیکو جملہ تے ساڑی کننگ آن مست { $retryLimit } منٹ انتظار کبو۔ نما صبر کننگ نا منت وار!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] نم دا پنہ کن جمع کننگ نا کچ ئے ایسر کرینورے۔ بشخنداری ارٹمیکو جملہ تے ساڑی کننگ آن مست 1 منٹس انتظار کبو۔ نما صبر کننگ نا منت وار!
+       *[other] نم دا پنہ کن جمع کننگ نا کچ ئے ایسر کرینورے۔ بشخنداری ارٹمیکو جملہ تے ساڑی کننگ آن مست { $retryLimit } منٹ انتظار کبو۔ نما صبر کننگ نا منت وار!
+    }
 
 ## MENU ITEM TOOLTIPS
 
