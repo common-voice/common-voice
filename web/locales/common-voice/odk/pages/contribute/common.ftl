@@ -2,7 +2,7 @@ action-click = ڪِلڪ
 action-tap = ٽيپ
 contribute = حِصا ڏِيئڻ
 review = نظرثانِي
-skip = ڇوڙڻ
+skip = ڇوڙا
 shortcuts = شارٽ ڪٽ
 clips-with-count-pluralized =
     { $count ->
@@ -39,12 +39,12 @@ datasets = ڊيٽاسيٽس
 languages = ٻولِيا
 about = اٽڪل
 partner = ڀائِيوار
-submit-form-action = جمع ڪراوَڻ
+submit-form-action = جمع ڪراوا
 
 ## Reporting
 
 report = رپورٽ
-report-title = رپورٽ جمع ڪرا
+report-title = رپورٽ جمع ڪراوا
 report-ask = تمهِين اي جُملي سُون ڪِسِيا ڏُکيائِيا محسُوس ڪرا ڇوا پلي؟
 report-offensive-language = بيعزتِي هاڙِي ٻولِي
 report-offensive-language-detail = اي جملي ۾ بي ادبي يان بڙي بيعزتِي هاڙِي ٻولِي شامل ڇَي
@@ -78,7 +78,7 @@ shortcut-rerecord-toggle-label = ڪِلپ بڙتِي رڪارڊ ڪرا
 shortcut-discard-ongoing-recording = ESC اِسڪيپ
 shortcut-discard-ongoing-recording-label = چالوڙِي رڪارڊنگِي  نُون رد ڪرا
 shortcut-submit = پُوٺا (واپس)
-shortcut-submit-label = ڪِلپ جمع ڪرا
+shortcut-submit-label = ڪِلپ جمع ڪراوا
 request-language-text = اڃا تاڻِين ڪامن وائِيسا ۾ تمچِي ٻولِي ڪونهِي ڏِيسَي ڇَي؟
 request-language-button = ٻولِي چِي درخواست ڏِيا
 

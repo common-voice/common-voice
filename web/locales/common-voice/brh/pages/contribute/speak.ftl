@@ -68,6 +68,11 @@ read-sentences-coming-soon = جملہ غاتے خوانبو <small>(بریک ز�
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = جملہ غاتے خوانبو، ورندی ایتبو
+read-sentences-menu-item-tooltip = تینا زبان ٹی تینٹ جملہ غاتے خوانیسہ تینا ریکارڈ ئے کبو
+answer-questions-menu-item-tooltip = تینا زبان اٹ سوج و پرومٹ آتا ورندی تے تریسہ تینے ریکارڈ کبو
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = سوج آتا مینو ئے خوانبو
+read-sentences-menu-item-aria-label = خاہوت نا پارہ غان جتا جتا زبان آتیٹی جمع کروکا جملہ غاتے خوانبو
+answer-questions-menu-item-aria-label = خاہوت کن پوسکنا سوج آتے جمع کبو تاکہ خوانر و ورندی ایتیر

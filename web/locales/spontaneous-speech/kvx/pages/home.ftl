@@ -29,4 +29,4 @@ data-bubble-subtitle = امي ڊيٽا سيٽ نئہ ڪيئنڪ ٽيم ڪيڙ ج
 contact-us = امون ٿِي راڀطو ڪرو
 contact-us-title = ڪِي تمي اِيئا پروجيڪٽ ۾ حِصو ليوا ڪروه،ڪا تمي امون ڀيۯو حِصو ليوا ڪروه؟
 contact-us-email = اِيميل:<emailFragment>commonvoice@mozilla.com</emailFragment>
-signup-form-title = Are you already in our Beta testing group for Common Voice’s Spontaneous Speech Project?
+signup-form-title = ڪِي تمي ڪومنَ وائيس ڀي اِکيتيار ٻولِي را آزمتا واۯا گرُوپ ۾ شامِل سو؟

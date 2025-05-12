@@ -1,4 +1,4 @@
-listen = سُڻڻ
+listen = سُڻا
 listen-subtitle = آوازان چِي تصدِيقِي ۾ اَمچِي مدد ڪرا
 listen-instruction = <playIcon>ڪا اِينهان جُملان نُون </playIcon>صحِيح نمُوني سُون ٻولها{ $actionType }
 listen-again-instruction = زبردست ڪام </playIcon> جِڏ تمهِين تيار هُوا تہ بڙتِي سُڻا<playIcon>
