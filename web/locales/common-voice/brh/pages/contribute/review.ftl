@@ -54,3 +54,9 @@ report-sc-different-language-detail = دا ہمو زبان آن جتا اے ہر
 sentences-fetch-error = جملہ غاتے دوئی کننگ اٹ ردینک ئس مسونے
 review-error = جملہ غاتے ولدا اوننگ اٹ ردینک ئس مسونے
 review-error-rate-limit-exceeded = نی بھاز تیزی ٹی اننگ اوس۔  جملہ غاتا جاچ النگ کن زرس وخت کشہ تانکہ دا یقین مرے کہ جملہ غاک سہی او۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = نن منہ بھلو بدلی اتننگ اون۔
+sc-redirect-page-subtitle-1 = جملہ جمع کروکا کامن وائس پلیٹ فارم نا پارہ غا اننگ اے۔ داسہ نم کامن وائس آ اسہ جملہ ئس <writeURL>لکھنگ کیرے</writeURL> یا <reviewURL>جاچ البو</reviewURL> اسہ جملہ ئس جمع کننگ کیرے۔
+sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> یا <emailLink>email</emailLink> آ ننے آن سوج ارفبو۔
+# menu item
+review-sentences = جملہ غاتے ولدا ہوربو
