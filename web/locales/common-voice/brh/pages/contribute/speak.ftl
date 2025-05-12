@@ -41,6 +41,8 @@ terms-agree = ای امنا اوٹ
 terms-disagree = ای امنا افٹ
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = تینا توار نا کلپ ئے عطیہ کننگ آ منت وار!
+first-cta-subtitle-text = ننے تینا باروٹ پاریسہ نم ڈویلپرز ئے پین گیشتر ٹیکنالوجی جوڑ کننگ اٹ کمک کیرے۔
+why-donate = نم انت ارفنگورے؟
 
 ## MENU ITEM TOOLTIPS
 
