@@ -42,3 +42,9 @@ sc-criteria-make-sure = دا ہیت ئے پک کبو کہ جملہ غاک معی
 sc-criteria-item-1 = جملہ غاتا حروفاک المی سہی مریر۔
 sc-criteria-item-2 = جملہ نا گرائمر المی سہی مرے۔
 sc-criteria-item-3 = جملہ المی خواننگ نا قابل مرے۔
+sc-criteria-item-4 = اگہ جملہ معیار آ برابر بننگ اے، گڑا &quot;قبول کبو&quot; آ  کلک کبو۔ چپیکو بٹن آ.
+sc-criteria-item-5-2 = اگہ جملہ بڑزنا معیار آ برابر بفک، گڑا &quot;رد کبو&quot; آ کلک کبو۔ چپی کنڈنا بٹن آ۔ اگہ نمے جملہ غاتا باروٹ یقین اف، گڑا نم اودے الیبو ایلوڑا اننگ کیرے۔
+sc-criteria-item-6 = اگہ جاچ النگ کن نما جملہ غاک ختم مسونو، گڑا پین جملہ جمع کننگ کن نن تون کمک کبو!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> ئے ہوربو کہ انت دا زبانی وڑ اٹ سہی جملہ ئس اے؟
+sc-review-rules-title = انت جملہ ہدایت آتیا پورو بننگ اے؟
