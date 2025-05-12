@@ -31,6 +31,14 @@ sc-review-form-reviewed-message =
         [one] 1 جملہ ریویو مس۔ منت وار!{ $sentences }
        *[other] { $sentences }جملہ ریویو مس۔ منت وار!
     }
+sc-review-form-review-failure = ریویو خوندی متو۔ بشخنداری اسے وار ولدا کوشست کبو۔
+sc-review-link = ولدا ہوربوتے
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ولدا ہوننگ نا معیار
+sc-criteria-title = ولدا ہوننگ نا معیار
+sc-criteria-make-sure = دا ہیت ئے پک کبو کہ جملہ غاک معیار تون برابر بننگ او:
+sc-criteria-item-1 = جملہ غاتا حروفاک المی سہی مریر۔
+sc-criteria-item-2 = جملہ نا گرائمر المی سہی مرے۔
+sc-criteria-item-3 = جملہ المی خواننگ نا قابل مرے۔
