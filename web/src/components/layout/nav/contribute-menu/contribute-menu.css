@@ -125,22 +125,9 @@
                         margin-inline-end: 0;
                     }
 
-                    /* &.coming-soon {
-                        color: var(--warm-grey);
-                        cursor: default;
-
-                        span {
-                            font-size: var(--font-size-xs);
-                        }
-                    } */
-
                     .chat-bubble-icon {
                         align-self: flex-end;
                     }
-
-                    /* path {
-                        fill: var(--warm-grey);
-                    } */
                 }
 
                 .list-items-wrapper div {
