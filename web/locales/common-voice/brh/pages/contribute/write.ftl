@@ -125,6 +125,12 @@ rate-limit-message-seconds =
         [one] نم دا پنہ کن جمع کننگ نا کچ ئے ایسر کرینورے۔ بشخنداری ارٹمیکو جملہ تے ساڑی کننگ آن مست 1 منٹس انتظار کبو۔ نما صبر کننگ نا منت وار!
        *[other] نم دا پنہ کن جمع کننگ نا کچ ئے ایسر کرینورے۔ بشخنداری ارٹمیکو جملہ تے ساڑی کننگ آن مست { $retryLimit } منٹ انتظار کبو۔ نما صبر کننگ نا منت وار!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } آتیان اسہ جملہ ئس جمع مس
+       *[other] { $uploadedSentences } نا{ $totalSentences } جملہ جمع مس
+    }
 
 ## MENU ITEM TOOLTIPS
 
