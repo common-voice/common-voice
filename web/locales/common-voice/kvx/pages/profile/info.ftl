@@ -47,4 +47,6 @@ settings = ترتِيڀون
 edit-profile = پروفائل نئہ ايڊِٽ ڪرو
 profile-create-success = ڪامياڀ،پروفائل ٺهي ڳئي!
 profile-close = بند
-profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
+profile-explanation = آپرِي ترقِي رو حساٻ راکو هيڪ پروفائل ڀيۯو انَ امارِي وائيس ڊيٽا نئہ گھڻئي ۿاسئي ٺايا ۾ مڌت ڪرو۔
+thanks-for-account = تمارا اڪائونٽ نئہ پڪو ڪريا ۿارُو تمارئي ميرڀونئي،هوَئہ هالو هالينَ آپرئي پروفائل ٺاوون۔
+why-demographic = اي ڪم ضرُورِي سئہ؟
