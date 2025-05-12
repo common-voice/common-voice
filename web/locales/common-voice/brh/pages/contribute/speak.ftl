@@ -24,6 +24,23 @@ review-instruction = ولدا ہوربو و کلپاتے واپس ریکارڈ �
 record-submit-tooltip = { $actionType } ہرا وخت تیار مس جمع کبوتے
 clips-uploaded = کلپاک جمع مسور
 record-abort-title = اولیکو ریکارڈنگ ئے ایسر کبو؟
+record-abort-text = یلہ کننگ نا مسخت دادے کہ نم تینا شونداری ئے گوہیرے
+record-abort-submit = کلپاتے جمع کبو
+record-abort-continue = ریکارڈنگ ئے ایسر کبو
+record-abort-delete = پیشن مبو و کلپ ئے مٹائفبو
+review-aborted = اپلوڈ ئے توننگا۔ انت نم خوارے کہ نما ریکارڈنگ مٹائفنگے؟
+review-submit-title = ولدا ہوربو و جمع کبو
+review-submit-msg = نما ریکارڈنگ نا منت وار!<lineBreak></lineBreak> داسہ ولدا ہوربو و تینا کلپ ئے شیف جمع کبو۔
+review-recording = ولدا ہوربوتے
+review-rerecord = ولدا ریکارڈ کبو
+review-cancel = جمع کننگ ئے کینسل کبو
+review-keep-recordings = ریکارڈنگ ئے برجا تخبو
+review-delete-recordings = کنا ریکارڈنگ ئے مٹائفبو
+review-terms = کامن وائس نا استعمال کریسہ، نم ننا <termsLink>شڑتاک</termsLink> و <privacyLink>رازداری نوٹس</privacyLink> آتیتون امنائی کیرے
+terms-agree = ای امنا اوٹ
+terms-disagree = ای امنا افٹ
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تینا توار نا کلپ ئے عطیہ کننگ آ منت وار!
 
 ## MENU ITEM TOOLTIPS
 
