@@ -73,6 +73,19 @@ sc-bulk-upload-header = السی ڈومین نا جملہ غاتے <icon></icon>
 sc-bulk-upload-instruction = تینا فائل ئے داڑے چکابو یا <uploadButton>اپ لوڈ کننگ کن کلک کبو</uploadButton>
 sc-bulk-upload-instruction-drop = فائل ئے اپلوڈ کن داڑے شاغبو
 bulk-upload-additional-information = اگہ نم دا فائل نا باروٹ پین گیشتر معلومداری تننگ خوارے تو گڑا <emailFragment>commonvoice@mozilla.com</emailFragment> آن رابطہ کبو
+template-file-additional-information = اگہ نم دا فائل نا باروٹ پین گیشتر معلومداری تننگ خوارے ہراکے ٹیمپلیٹ ٹی شامل اف، گڑا <emailFragment>commonvoice@mozilla.com</emailFragment> آن رابطہ کبو۔
+try-upload-again = تینا فائل ئے دانگ چکنگ کن ولدا کوشست کبو
+try-upload-again-md = ولدا اپلوڈ کننگ کن کوشست کبو
+select-file = فائل ئے خوش کبو
+select-file-mobile = اپلوڈ کننگ کن فائل ئے سلیکٹ کبو
+accepted-files = منوکا فائل نا بشخاک: ۔tvs صرف
+minimum-sentences = فائل ٹی کم سے کم جملہ غاک: 1000
+maximum-file-size = فائل نا سائز زیات سے زیات: 25 MB
+what-needs-to-be-in-file = انت گرج ئے کہ کنا فائل اٹ مرے؟
+what-needs-to-be-in-file-explanation = بشخنداری ننا <templateFileLink>ٹیمپلیٹ فائل</templateFileLink> چیک کبو۔ نما جملہ غاک کاپی رائٹ آن بچوک مریر (CC0 یا جمع کروکانا پارہ غان اجازت تروکا کاریم) و واضح، گرامر نا بابت اٹ سہی و خواننگ اٹ ہم آسان مریر۔ جمع کروکا جملہ غاتے ٰخواننگ اٹ تقریباً 10-15 سیکنڈ وخت لگے و اندافتیان حساب، مناسب اسم و خاصنگا حرفاتے شامل کننگ آن بچیرے۔
+upload-progress-text = اپلوڈنگ برجا اے
+sc-bulk-submit-confirm = ای دادے منیوہ کہ دا جملہ غاک <wikipediaLink>السی ڈومین</wikipediaLink> او و کنے دافتے اپلوڈ کننگ نا اجازت ارے۔
+bulk-upload-success-toast = جملہ تا مچی اپلوڈ مس
 
 ## SMALL BATCH SUBMISSION
 
