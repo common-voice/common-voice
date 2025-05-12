@@ -5,3 +5,6 @@ audio-page-instruction = { $actionType } <playIcon> </playIcon> ان جيو من
 editbox-header = متن ۾ ڀڌلاوو
 editbox-placeholder = اِيٿئہ جو منک ٻولئہ ريو، اُوئا نئہ لِک ليو
 no-audio-message = ايئا ٽوڻا ۾ ايئا ٻولِي ۿارُو ڪوئي اڊيو موجوڌ نٿِي۔ ميرڀونئي ڪرينَ پونيو نوو ڪرو ڪا ٻِيزي وار ڪوشش ڪرو۔
+create-transcript-success = متن نئہ ڪامياٻئي ٿِي جمع ڪريو پرو۔
+create-transcript-error = اي متن تيار ڪريا رئي ٽوڻئہ هيڪ گلتي پيش آوئي۔
+error-playing-audio = اّڊيو فائل ووڊا رئہ ٽوڻئہ هيڪ گلتي آوي رئي۔
