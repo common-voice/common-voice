@@ -32,9 +32,30 @@ target-segment-learn-more = مئزید یاد بیگرید
 change-preferences = تئغیر ݷئبدیلی اوئلی
 login-signup = لۉگ این/ ساین اپ
 vote-yes = ارې
+vote-no = نۂ
+datasets = مالومات
+languages = زیبۉنا
+about = دۂ بارې شی
+partner = شئریگ
+submit-form-action = جئم کدۉ
 
 ## Reporting
 
+report = اوال دیدۉ
+report-title = اوال بیدی
+report-ask = قئد ازی جوملۂ چیز موشکیلات رۂ کولݷدۂ مونید؟
+report-offensive-language = زیبۉنی بئد بېتور
+report-offensive-language-detail = ای یئگ بئد بېتور جوملۂ یۂ۔
+report-grammar-or-spelling = گیرامئری ېا ایملایی موشکیل دیرۂ
+report-grammar-or-spelling-detail = ای جوملۂ گیرامئری یا ایملایی موشکیل دیرۂ
+report-different-language = دیگۂ زیبۉ
+report-different-language-detail = ای دۂ دیگۂ زیبۉ نیمیشتۂ شودۂ
+report-difficult-pronounce = خاندۉن شی سئختۂ
+report-difficult-pronounce-detail = ای جوملۂ اوتۂ لۆزا دیرۂ کی خاندۉن شی سئختۂ
+report-offensive-speech = تۉرای بئد بېتور
+report-offensive-speech-detail = دئزی کلیپ بېکېبلۂ یا بئد بېتور زیبۉ ایستیمال شودۂ
+report-other-comment =
+    .placeholder = نئزئر
 
 ## Speak & Listen Shortcuts
 
