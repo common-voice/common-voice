@@ -78,7 +78,7 @@ shortcut-rerecord-toggle-label = ڪِلپ بڙتِي رڪارڊ ڪرا
 shortcut-discard-ongoing-recording = ESC اِسڪيپ
 shortcut-discard-ongoing-recording-label = چالوڙِي رڪارڊنگِي  نُون رد ڪرا
 shortcut-submit = پُوٺا (واپس)
-shortcut-submit-label = ڪِلپ جمع ڪراوا
+shortcut-submit-label = ڪِلپ جمع ڪرا
 request-language-text = اڃا تاڻِين ڪامن وائِيسا ۾ تمچِي ٻولِي ڪونهِي ڏِيسَي ڇَي؟
 request-language-button = ٻولِي چِي درخواست ڏِيا
 

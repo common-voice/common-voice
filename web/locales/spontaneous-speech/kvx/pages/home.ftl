@@ -27,3 +27,6 @@ check-bubble-subtitle = تمي زوئو جي لکائي آڍيو ٿِي مِلئ
 data-bubble-title = <mark>ڊيٽا</mark>
 data-bubble-subtitle = امي ڊيٽا سيٽ نئہ ڪيئنڪ ٽيم ڪيڙ جارِي ڪرون
 contact-us = امون ٿِي راڀطو ڪرو
+contact-us-title = ڪِي تمي اِيئا پروجيڪٽ ۾ حِصو ليوا ڪروه،ڪا تمي امون ڀيۯو حِصو ليوا ڪروه؟
+contact-us-email = اِيميل:<emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Are you already in our Beta testing group for Common Voice’s Spontaneous Speech Project?
