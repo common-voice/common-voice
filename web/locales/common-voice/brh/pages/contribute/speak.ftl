@@ -55,9 +55,19 @@ first-cta-gender-select-help-text =
     .label = نما تینا جند یا جنس ئے امر درشان کیرے؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تینا توار ئے ندر کننگ نا منت وار!
+second-cta-subtitle-text = پروفائل تون اوار، نم تینا کارکڑد آ نظر شاغنگ کیرے و توار نا ڈیٹا تون کمک کروکا مخلوق تون اوار مننگ کیرے۔
+already-have-an-account = وختی آن اکاؤنٹ ئس ارے؟ <login> لاگ ان کبو</login>
+create-profile-button = پروفائل ئس جوڑ کبو
+# IMAGE TAGS
+img-alt-success-checkmark = سرسہبی نا نشان
+# menu item
+read-sentences = جملہ غاتے خوانبو
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملہ غاتے خوانبو <small>(بریک زو)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جملہ غاتے خوانبو، ورندی ایتبو
 
 ## MENU ITEM ARIA LABELS
 
