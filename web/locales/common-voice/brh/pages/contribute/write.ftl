@@ -86,9 +86,27 @@ what-needs-to-be-in-file-explanation = بشخنداری ننا <templateFileLink
 upload-progress-text = اپلوڈنگ برجا اے
 sc-bulk-submit-confirm = ای دادے منیوہ کہ دا جملہ غاک <wikipediaLink>السی ڈومین</wikipediaLink> او و کنے دافتے اپلوڈ کننگ نا اجازت ارے۔
 bulk-upload-success-toast = جملہ تا مچی اپلوڈ مس
+bulk-upload-failed-toast = اپلوڈ بےسرسہب مس، بشخنداری ولدا کوشست کبو۔
+bulk-submission-success-header = مچی تے جمع کننگ اٹ کمک کننگ نا نما منت وار
+bulk-submission-success-subheader = نم کامن وائس ئے ننا ہڑدے نا جملہ تا گڈیکو اسکان سرمننگ کن کمک کننگ اورے!
+upload-more-btn-text = پین جملہ جمع کبو؟
+file-invalid-type = غلط فائل
+file-too-large = فائل بھاز مرغن اے
+file-too-small = فائل بھاز گونڈ اے
+too-many-files = اسل بھاز فائلاک
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> بھاز السی ڈومین جملہ غاتے شامل کبو۔
+multiple-sentences-error = نم جتا جتا جملہ غاتے اسے جمع سیٹی شاغن کپیرے
+exceeds-small-batch-limit-error = 1000 جملہ غان زیات جمع کننگ کپیرے
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] شرح نا حدو ویل آن زیات مس۔ 1 منٹ اٹ ولدا کوشست کبو۔
+       *[other] شرح نا حدو ویل آن زیات مس۔ { $retryLimit } منٹ اٹ ولدا کوشست کبو۔
+    }
 
 ## MENU ITEM TOOLTIPS
 
