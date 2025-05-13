@@ -8,6 +8,7 @@ datasets-positioning =
     O dataset molti-lengua de Common Voice o l’é za o ciù grande dataset de voxe pubrico de sta smersa, ma o no l’é o solo.
     
     Sta pagina a veu ëse un ponto de referensa pe-i dataset de voxe open source e, da maniman che Common Voice o vëgne ciù grande, a l’avià ascì e nòstre neuve verscioin.
+datasets-speech-bubble-content = Boñe neuve! E registraçioin spontanee en squæxi chì! No perde e urtime neuve e tëgni d’euggio o nòstro <discordLink>Discord</discordLink> pe e informaçioin ciù reçente.
 language = Lengua
 download-dataset-header = Descarregamento do dataset
 download-delta-explainer = Emmo fæto di cangiamenti. I segmenti delta an solo che e registraçioin azzonte da l’urtima verscion. <deltaLink>Saccine de ciù in sce sti cangiamenti</deltaLink>.

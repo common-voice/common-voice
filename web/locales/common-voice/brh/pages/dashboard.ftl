@@ -40,6 +40,18 @@ want-to-continue = نم برجا تخنگ خوارے؟
 finish-editing = اولیکو بدلیفنگ ئے ایسر کبو؟
 lose-changes-warning = داسہ یلہ کننگ نا مطلب ئے نم تینا بدلیفنگ ئے الننگ کپرورے
 build-custom-goal = تینا منشا نا مسخت ئس جوڑ کبو
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] ذاتی مسخت تون اوار { $hours } گھنٹہ غا تسکان { $language } سر مننگ ٹی کمک کبو۔{ $language }
+       *[other] ذاتی مسخت تون اوار { $hours } گھنٹہ غا تسکان { $language } سر مننگ ٹی کمک کبو۔{ $language }
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] کامن وائس ئے ذاتی مسخت تون اوار زبان ٹی { $hours } گھنٹہ غاتسکان سر مننگ کن نن تون کمک کبو۔
+       *[other] کامن وائس ئے ذاتی مسخت تون اوار زبان ٹی { $hours } گھنٹہ غاتسکان سر مننگ کن نن تون کمک کبو۔
+    }
+set-a-goal = مسخت ئس جوڑ کبو
+cant-decide = فیصلہ مننگ کپک؟
 
 ## Goals
 

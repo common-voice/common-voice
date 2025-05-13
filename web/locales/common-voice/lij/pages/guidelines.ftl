@@ -120,4 +120,5 @@ what-makes-a-good-question-tip = Danni a mente ascì à includde di contesti e d
 easy-to-understand = Boña da intende
 easy-to-understand-explanation = Çerni de domande sence e comprenscibile da tutti, independentemente da-a coltua ò o contesto.
 spelling-and-pronunciation = Ortografia e pontezzatua
-spelling-and-pronunciation-explanation = Addeuvia unna boña grafia e pontezzatua.
+spelling-and-pronunciation-explanation = Addeuvia unna boña grafia e grammatica.
+length = Longhixe
