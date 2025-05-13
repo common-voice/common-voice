@@ -9,3 +9,4 @@ request-language-form-info =
 request-language-form-info-explanation = ٻولِي را ڀارام زتي گھڻي جانڪارِي ۮيه هيڪو، ۮيو۔ ايئا ۾ هائي شهيون شامل ٿئہ هيڪئہ۔
 request-language-form-info-explanation-list-1 = تماري ٻولِي را نوم
 request-language-form-info-explanation-list-2 = جئي کٻر سئہ تون<isoCodeLink>ائي ايس او ڪوڊ</isoCodeLink>
+request-language-form-info-explanation-list-3 = وئيب سائڊ را لِنڪ جيو هيڪ جيوا ٻوليام ۾ مڌت ۮيہ هيڪتا هوئہ
