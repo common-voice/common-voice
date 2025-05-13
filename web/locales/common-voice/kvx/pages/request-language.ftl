@@ -15,7 +15,8 @@ request-language-google-recaptcha-error = reCAPTCHA ٿِي ڪيئنڪ ڳلت ٿ�
 # Success page
 request-language-success-heading = ميرڀونئي! تمي هيڪ نوِي ٻولِي را ڀارام جونچ ميلئي پرئي
 request-language-success-list-1 = تمون نئہ آپرا قوم را مئنيجر ٿِي هيڪ اِيميل زڙوو کپئہ جيو تمونَ نئہ کُلينَ ۿمڀۯاوَشي جي آپرِي ٻولِي نئہ ڪومنَ وائيس ڪم ڪرينَ شامِل ڪري هيڪون
-request-language-success-list-2 =
-    Our community manager will reach out to you to offer
-    extra support, and to let you know if there is
-    already a community working on your language
+request-language-success-list-2 = امارِي قوم رو مئنيجر تمون ٿِي راڀطو ڪرشي زم تمارئي وڌارئہ مڌت ڪري هيڪئہ،ان تمون نئہ اي ڪِيڌو زائي هيڪئہ جي تمارِي ٻولِي ۾ پيرهِين ٿِي ڪوئي قوم ڪوم ڪرئه رئي ڪا نا؟
+request-language-success-list-3 = جيڪيۮِي ڪينئڪ ۮِيئون ۿُوڌِي امون ٿِي ڪوئي راڀطو نہ ٿئہ،تون امون ٿِي <emailLink>{ $email }</emailLink> مانه راڀطو ڪرو ان امي تمون ٿِي وۯي ٻِيزِي وار راڀطو ڪرشون!
+request-language-error = ٿي هيڪئہ جي اَمون نئہ اُو ڌرخواست نٿِي ﻿زڙئي۔ميرڀونئي ڪرينَ امون نئہ سِڌو<emailLink>{ $email }</emailLink> مانه اِيميل ڪرو امي تمون ٿِي ٻِيزِي وار راڀطو ڪرشون!
+request-for-scripted-speech-toggle = لکل ٻولِي ۿارُو ڌرخواست
+request-for-spontaneous-speech-toggle = فطرِي ٻولِي ۿارُو ڌرخواست
