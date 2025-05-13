@@ -116,6 +116,7 @@ activity-needed-calculation-plural =
 how-many-per-day = بھاز گیچن! اسہ دے ٹی اخس کلپ؟
 how-many-a-week = بھاز گچین! اسہ ہفتہ ٹی اخس کلپ؟
 which-goal-type = انت نم ہیت کننگ، بننگ یا ہڑتوماتے خوارے؟
+receiving-emails-info = نم فی الحال ای میلز دوئی کننگ کن تیار اورے دنکہ گول ریمائنڈر، کنا کامن وائس نا باروٹ پروگریس اپ ڈیٹس و نیوز لیٹرز
 
 ## Goals
 
