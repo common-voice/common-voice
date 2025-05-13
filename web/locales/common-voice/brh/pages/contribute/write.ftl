@@ -141,9 +141,23 @@ small-batch-sentences-rule-1 = "ای امرو جملہ ئس شامل کننگ ک
 small-batch-sentences-rule-2 = ہر لائن اٹ اسے جملہ ئس جمع کبو
 small-batch-sentences-rule-3 = اسہ وار "Enter" یا "Return" خلنگ آن جملہ غاتے اسہ لائن اٹ جتا کبو۔
 small-batch-sentences-rule-4 = 1،000 اسکان جملہ جمع کبو
+small-batch-sentences-rule-5 = مچا جملہ غاتا اسہ ڈومین ئس مرے
+small-batch-sentences-rule-6 = مچا جملہ غاتا اسہ حوالہ ئس مرے
+# menu item
+add-sentences = جملہ غاتے جمع کبو
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملہ جمع کبو و ولدا ہوربو، سوج آتے جمع کبو، آڈیو ئے درشان کبو
+add-sentences-menu-item-tooltip = تینا زبان ٹی جملہ غاتے جمع کبو
+review-sentences-menu-item-tooltip = تینا زبان ٹی جملہ غاتا ریویو کبو
+add-questions-menu-item-tooltip = تینا زبان ٹی سوجاتے جمع کبو
+transcribe-audio-menu-item-tooltip = تینا زبان ٹی ریکارڈ کروکا آڈیو ئے درشان کبو
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = آپشن مینیو ئے لکھبو
+add-sentences-menu-item-aria-label = مخلوق نا خواننگ کن پوسکنو جملہ جمع کبو
+review-sentences-menu-item-aria-label = مخلوق نا پارہ غان جمع کروکا جملہ غاتا ریویو البو
+add-questions-menu-item-aria-label = مخلوق نا خواننگ و ورندی تننگ کن پوسکنو سوج جمع کبو
+transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگ ئے لوز آتیٹی درشان کبو
