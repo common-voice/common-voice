@@ -101,3 +101,7 @@ contribution-criteria-page-title = شئرتی کۉمئگ
 contribution-criteria-page-description = غېدی کی دۂ آوازای پور کیدۂ گۉش مونی بایئد بوفامی و آواز پور کیدۉن خو زیاد کئنی
 contribution-for-example = بئلدې میسال
 contribution-misreadings-title = غئلئد خاندۉ
+contribution-misreadings-description = دئقیق گۉش کو٬ تۉخ چیزی کی نیمیشتۂ شودۂ دئقیق امو چیز پور شودۂ باشۂ; اگۉ رېزۂ غئلئتی ام اگئر بود قئبول نئکید۔
+contribution-misreadings-description-extended-list-1 = اې یا دۂ دۂ اوئلی پور کیدۉ غݷبۂ
+contribution-misreadings-description-extended-list-2 = دۂ آخیر لۆز اېس غݷبۂ
+contribution-misreadings-description-extended-list-3 = موخئفئف کی وجود نئدرۂ میسلی مۉ استې دۂ جای مۉ استې
