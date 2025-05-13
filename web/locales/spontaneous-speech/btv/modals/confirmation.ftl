@@ -1,4 +1,4 @@
-confirmation-modal-title = توجو
+confirmation-modal-title = توجوہ
 # Label for button to cancel navigation
 cancel-button = کینسل
 # Label for button to continue navigation

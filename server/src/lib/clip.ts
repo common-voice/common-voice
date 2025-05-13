@@ -408,19 +408,18 @@ export default class Clip {
   }
 
   serveClipLeaderboard = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params,
-    } = request
+    const { client_id } = request?.session?.user || {}
+    if (!client_id) {
+      response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    const { locale } = request.params
     const cursor = this.getCursorFromQuery(request)
     const leaderboard = await getLeaderboard({
       dashboard: 'stats',
       type: 'clip',
       client_id,
       cursor,
-      locale: params.locale,
+      locale: locale,
     })
     response.json(leaderboard)
   }

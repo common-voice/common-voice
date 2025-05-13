@@ -112,7 +112,9 @@ adding-questions = Đang thêm câu hỏi
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Thế nào là một câu hỏi tốt?
+what-makes-a-good-question-explanation = Một câu hỏi hay cho các tập dữ liệu tham gia của công chúng nên:
 what-makes-a-good-question-explanation-criteria-1 = Dễ hiểu và dễ phản hồi
+what-makes-a-good-question-explanation-criteria-2 = Có liên quan chung đến chủ đề
 what-makes-a-good-question-explanation-criteria-3 = Không sử dụng hoặc yêu cầu ngôn ngữ gây hại hoặc xúc phạm
 what-makes-a-good-question-tip = Bạn cũng có thể muốn cân nhắc việc mở rộng nhiều bối cảnh và phạm vi khác nhau.
 easy-to-understand = Dễ hiểu

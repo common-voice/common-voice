@@ -27,10 +27,14 @@ finance = Finans
 general = Generelt
 # Sentence Domain dropdown option
 healthcare = Sundhed
+sentence-variant-select-label = Sætningsvariant
 sentence-variant-select-placeholder = Vælg en variant (valgfrit)
+sentence-variant-select-multiple-variants = Generelt sprog / flere varianter
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload <icon></icon> sætninger i det offentlige domæne
 sc-bulk-upload-instruction = Træk din fil hertil eller <uploadButton>klik for at uploade</uploadButton>
 sc-bulk-upload-instruction-drop = Slip filen her for at uploade
 bulk-upload-additional-information = Hvis der er yderligere oplysninger, du vil give om denne fil, så kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
@@ -81,5 +85,7 @@ transcribe-audio-menu-item-tooltip = Transskriber lydoptagelser på dit sprog
 
 ## MENU ITEM ARIA LABELS
 
+add-sentences-menu-item-aria-label = Tilføj nye sætninger, som fællesskabet kan læse
 review-sentences-menu-item-aria-label = Gennemgå eksisterende sætninger indsendt af fællesskabet
+add-questions-menu-item-aria-label = Indsend nye spørgsmål, som fællesskabet kan læse og svare på
 transcribe-audio-menu-item-aria-label = Transskriber lydoptagelser til tekst

@@ -2,9 +2,9 @@
 
 language-section-in-progress = პროგრესი
 language-section-launched = გოტებულიე
-language-section-launched-description = მოჩამილ ნინეფშა ვებსაიტიქ წუმოძინელო<localizationGlossaryLink>გეგნითანგუ</localizationGlossaryLink> დო დასაბაღი უღუ<sentenceCollectionGlossaryLink>ნაშაყარა ზიტყვასქვილეფი</sentenceCollectionGlossaryLink> შიორებერქ იჸუას ნაშაყარა ხონარეფიშ <speakLink>ჩიება</speakLink>დო<listenLink>მორჩქილაში</listenLink> გაგძელებაქ.
+language-section-launched-description = მოჩამილ ნინეფშა ვებსაიტიქ წუმოძინელო <localizationGlossaryLink> გეგნითანგუ </localizationGlossaryLink>, დო დასაბაღ რე <sentenceCollectionGlossaryLink> ზიტყვასქვილეფი ხოლო </sentenceCollectionGlossaryLink> გეგძელინას <speakLink> ინოჭარუაქ </speakLink> დო <listenLink> მორჩქილაფაქ </listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
-language-section-last-updated = ბოლო გაახალება{ $lastUpdatedTimeStamp }
+language-section-last-updated = ბოლო გაახალება: { $lastUpdatedTimeStamp }
 languages-show-more = ქოძირი უმოსი
 languages-show-less = ქოძირი ნაკლები
 language-meter-in-progress = პროგრესი

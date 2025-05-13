@@ -66,7 +66,7 @@ about-playbook-what-is-language-content-3 = کاہِیں ٻولِیم ٻول، �
 
 ## How do I add a language
 
-about-playbook-how-add-language = ہُوں ایک ٻلی کِدؔا سیمل کرے؟
+about-playbook-how-add-language = ہُوں ایک ٻولی کِدؔا سیمل کرے؟
 about-playbook-how-add-language-content-1 =
     سارینٚس آگے، جانٚچ کرو کہ کِیا آپ کی بھاشا <languageLink>آگُوچ ماجود ہے</languageLink>.
     اگر اِدؔا نائی ہے تو ، آپ <languageRequestLink>اپٹؔی بھاشا سیمل کرنے کے باریم ٻُوجھی سِکتے ہے</languageRequestLink>۔
