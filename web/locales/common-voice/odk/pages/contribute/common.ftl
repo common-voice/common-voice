@@ -1,8 +1,8 @@
-action-click = ڪِلڪ
+action-click = ڪِلڪ ڪرا
 action-tap = ٽيپ
 contribute = حِصا ڏِيئڻ
 review = نظرثانِي
-skip = ڇوڙڻ
+skip = ڇوڙا
 shortcuts = شارٽ ڪٽ
 clips-with-count-pluralized =
     { $count ->
@@ -39,12 +39,12 @@ datasets = ڊيٽاسيٽس
 languages = ٻولِيا
 about = اٽڪل
 partner = ڀائِيوار
-submit-form-action = جمع ڪراوَڻ
+submit-form-action = جمع ڪراوا
 
 ## Reporting
 
 report = رپورٽ
-report-title = رپورٽ جمع ڪرا
+report-title = رپورٽ جمع ڪراوا
 report-ask = تمهِين اي جُملي سُون ڪِسِيا ڏُکيائِيا محسُوس ڪرا ڇوا پلي؟
 report-offensive-language = بيعزتِي هاڙِي ٻولِي
 report-offensive-language-detail = اي جملي ۾ بي ادبي يان بڙي بيعزتِي هاڙِي ٻولِي شامل ڇَي

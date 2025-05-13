@@ -19,6 +19,8 @@ validate-readings-coming-soon = Valider oplæsninger <small>(kommer snart)</smal
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Valider oplæsninger, Gennemgå transskriptioner
+review-transcriptions-menu-item-tooltip = Gennemgå brugerindsendte transskriptioner på dit sprog
 
 ## MENU ITEM ARIA LABELS
 
+review-transcriptions-menu-item-aria-label = Gennemgå transskriptioner af optagne sætninger for nøjagtighed

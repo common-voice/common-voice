@@ -78,18 +78,25 @@ review-transcriptions = Đánh giá bản ghi
 review-transcriptions-coming-soon = Đánh giá bản ghi <small>(sắp ra mắt)</small>
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
 add-questions-coming-soon = Thêm câu hỏi <small>(sắp ra mắt)</small>
+press-and-stories = Báo chí và tin tức
 community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt
+about-us = Về chúng tôi
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Đối tác, báo chí và tin tức, cộng đồng và ngôn ngữ
+about-us-menu-item-tooltip = Tìm hiểu về sứ mệnh và đội ngũ đằng sau Common Voice
+about-us-menu-item-aria-label = Menu tùy chọn Giới thiệu về chúng tôi
 partnerships-menu-item-tooltip = Hợp tác với chúng tôi
 press-and-stories-menu-item-tooltip = Ghé thăm blog hoặc viết về chúng tôi
 community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng đồng và dự án Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Menu tùy chọn Giới thiệu
 press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice
+community-and-languages-menu-item-aria-label = Khám phá cộng đồng và ngôn ngữ được hỗ trợ bởi Common Voice
 
 ## NEW HOME PAGE KEYS
 
@@ -106,7 +113,10 @@ get-started = Bắt đầu <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
+scripted-card-content = Đọc to các câu bằng ngôn ngữ của bạn và đóng góp vào bộ dữ liệu bài phát biểu của công chúng đa dạng nhất trên thế giới.
+spontaneous-card-content = Trả lời lời nhắc để tạo tập dữ liệu cho ngữ cảnh giao tiếp, tự nhiên. Hoàn hảo cho ngôn ngữ nói đầu tiên (oral-first languages).
 language-text-card-header = Ngôn ngữ văn bản
+language-text-card-content = Tạo hoặc chia sẻ lời nhắc, câu và văn bản thuộc phạm vi công cộng để dịch, mô hình ngôn ngữ nhỏ, và nhiều thứ khác.
 add-text = Thêm văn bản
 
 ## Community section
@@ -153,6 +163,7 @@ contribute-link = Đóng góp vào ngữ liệu văn bản
 answer-questions-link = Trả lời câu hỏi
 review-transcriptions-link = Đánh giá bản ghi
 contribute-text-link = Đóng góp văn bản
+press-and-stories-link = Báo chí và tin tức
 
 ## Partner section
 

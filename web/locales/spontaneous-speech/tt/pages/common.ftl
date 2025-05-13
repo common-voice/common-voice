@@ -19,6 +19,7 @@ contribute = Үз өлешеңне кертү
 
 ## Navbar
 
+question = Сорау
 
 ## Not Found Page
 

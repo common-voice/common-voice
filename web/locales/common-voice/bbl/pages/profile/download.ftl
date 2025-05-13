@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = ჭირბალაჲ შუჼ შუჼ მონაცე́მი აჰ̦ დჵო́ფარ (ჩამოტვირთოდარ)?
+download-info = უ̂ხ ლე́ჸ შუჼ აჰ დჵო́ფაჼ (ჩამოტვირთოდაჼ)?
+download-profile-title = პრო́ფილ
+download-profile-info = ები და: ელფო́ტ, მაქ თილლენო̆ წე, დემოგრა́ფიულ მონაცე́მი
+download-profile-size = მელ'მი ბაიტ
+download-recordings-title = ჩანაწე́რი
+download-recordings-info = ჩუჰ̦ და: mp3-ფაილი მაქ და́წუჩო̆ წინადა́დბივ
+download-recordings-size = მუჲლნეჴელბაჲცი̆, მეგაბა́იტი
+download-recordings-unavailable = ცო მაკ შუჼ ჩანაწე́რი დაკლე́ვადჲაჼ, მაცმე́ ჴე́ნი ჰ̦ა́თხეჸ დაკლე́ვადჲიენო̆ მოთხო́ვნი მუშებალა
+download-recently-requested = მაკ შუჼ შუიჼ ჩანაწე́რი ჰ̦ალო̆ ჲა́ჴაჼ ყო́ველდე́ნი დაკლე́ვადჲოლუჲში̆
+download-size = ჲაჴოლ (მოცულობ)
+download-selected = ჰ̦ალო̆ ჩა́ვარდიენო̆
+download-start = აჰ̦ დჵო́ფარ ჰ̦ალო̆ დო́ლდალარ
+download-request = აჰ̦ დჵო́ფრეჼ (ჩამოტვირთვეჼ) მოთხო́ვნ
+download-requests = აჰ̦ დღო́ფრეჼ ჰათხელუჼ მოთხოვნი
+download-requests-info = მაცმე́ დაკლე́ვადჲუჲში̆  შუიჼ ჩანაწერი, ათხ ო́ბი დეხკო́თხ ლე ცჰ̦აჲნი̆, ლე მელ'მი ZIP-ფა́ილე. ები და აჲში̆ ჰ̦ა́თხეჸ დაკლე́ვადინუჲ:
+download-request-button = აჰ̦ დღო́ფარ (ჩამოტვირთვ)
+download-request-title = { $created }
+download-request-description = { $clipCount } იშა́რეჼ ჩანაწე́რი, ა́რქივეჼ ჲაჴოლ (მოცულობ) დი́ნ { $size }. ჲალ'ინო̆ დრო (ვა́დ) { $expires }{ $expires }
+download-request-archive-single = ცჰ̦აჲნი̆ ZIP-ფა́ილეღ
+download-request-archive-multiple = დე́ყინო̆ { $archiveCount } ცალ ZIP-ფა́ილეღ
+download-request-assembling-description = შუჼ ფა́ილი ვაშა́რ ჴე́ჰ̦ლა. დეხო́თხ, დაყყდებათ კაძიკ ხა́ნედო́ლიჼ.
+download-request-refresh-button = ჰ̦ალო̆ წინარდარ
+download-request-modal-title = აჰ̦ დღო́ფუჲნი ბმული
+download-request-modal-description = ესე და ბმული შუჼ ZIP-ფაილი აჰ̦ო̆ დჵო́ფანაჲნო̆
+download-request-link-text = Zip #{ $offset }, დი́ნ { $total }
+download-request-metadata-link = წინადადბა́ჼ ტექსტი
+download-request-link-single = აჰ̦ დღო́ფარ

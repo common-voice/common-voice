@@ -33,7 +33,7 @@ todays-progress = آج کی ترکی
 help-reach-goal = { $goal } تائیں پُگݨینٚم مھاری ساہیتا کرو
 read-terms-q = کیا تھمُون مھارِِیاں ٻندھِیاں پڑھِیاں ہے؟
 ready-to-record = اپنی اواج دؔان کرنے نتر تِیار ہے؟
-all-locales = سارِے
+all-locales = کُل
 today = آج
 x-weeks-short =
     { $count ->

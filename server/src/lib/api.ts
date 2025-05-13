@@ -262,10 +262,11 @@ export default class API {
   }
 
   createLanguageRequest = async (request: Request, response: Response) => {
-    await this.model.db.createLanguageRequest(
-      request.body.language,
-      request.session.user.client_id
-    )
+    const { client_id } = request?.session?.user || {}
+    if (!client_id) {
+      response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    await this.model.db.createLanguageRequest(request.body.language, client_id)
     response.json({})
   }
 
@@ -628,15 +629,12 @@ export default class API {
     Basket.sync(request.session.user.client_id).catch(e => console.error(e))
   }
 
-  getGoals = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params: { locale },
-    }: Request,
-    response: Response
-  ) => {
+  getGoals = async (req: Request, response: Response) => {
+    const { client_id } = req?.session?.user || {}
+    if (!client_id) {
+      response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    const { locale } = req.params
     response.json({ globalGoals: await getGoals(client_id, locale) })
   }
 
@@ -660,18 +658,14 @@ export default class API {
     response.json({})
   }
 
-  seenAwards = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      query,
-    }: Request,
-    response: Response
-  ) => {
+  seenAwards = async (req: Request, response: Response) => {
+    const { client_id } = req?.session?.user || {}
+    if (!client_id) {
+      response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     await Awards.seen(
       client_id,
-      Object.prototype.hasOwnProperty.call(query, 'notification')
+      Object.prototype.hasOwnProperty.call(req.query, 'notification')
         ? 'notification'
         : 'award'
     )

@@ -1,6 +1,6 @@
 ## Profile - Settings
 
-manage-subscriptions = سبسکرپشب ترتیب دے
+manage-subscriptions = سبسکرپشن ترتیب دے
 manage-email-subscriptions = ای میل سبسکرپشن ترتیب دے
 email-already-used = ای میل اول نو مختلف اکاونٹ سو دَناستعمالھواں
 add-language = زیب شامل گر
