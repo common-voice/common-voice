@@ -125,3 +125,7 @@ contribution-varying-pronunciations-title = تئلئفوزای موختئلیف
 contribution-varying-pronunciations-description = پېش از رئد کیدۉنی کلیپ اوش شیم باشۂ شایئد خانیندۂ لۆز رۂ غئلئد تئلئفوز کیدۂ باشۂ٬ تایی بیلئندی آواز اوش شی نئشودۂ باشۂ٬ یا بېخی سئوالی نیشان رۂ دۂ نئزئر نئگیریفتۂ باشۂ۔ دۂ دونیا کیݖݖۂ اقسامی تئلئفوزی لۆزا وجود دیرۂ کی بازی یای شی شایئد شومۉ نئشینیدۂ باشید۔ بئلدې ازوا یئگ چارچۆکاتی تئشویق دۂ نئزئر بېلید کی رئقئم از شومۉ تئلئفوز نئمیتنۂ۔
 contribution-varying-pronunciations-description-extended = از دیگۂ دئوور ٬ اگئر موفامید کی خانیندۂ او لۆز رۂ اد نئشینیدۂ٬ و از پېش خو تئلئفوز مونۂ ٬ از خݷر خو رئد کید۔ اگئر پیسین تو پورۂ بوچی تېر امدۉ رۂ بیزئن۔
 contribution-varying-pronunciations-example-1-title = دۂ بئل سئت خو یئگ کۉلۂ پۉشیدۂ
+contribution-varying-pronunciations-example-1-explanation = بېرېݖ ام قئد زۉر اووردۉ بئلې اوئلنۂ ایججۂ سئیې یۂ(اینگلیس) ام قئد زۉر اووردۉ بئلې دوومنۂ ایججۂ(امریکا)
+contribution-varying-pronunciations-example-2-title = دیستای شی بال بود۔
+contribution-varying-pronunciations-example-2-explanation = رېزۮ دۂ اینگلېسی شیجیر قئد یئگ ایججۂ تئلئفوز موشۂ نۂ دو۔
+contribution-background-noise-title = شئر شۉری پاس پوشت
