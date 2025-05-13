@@ -80,16 +80,21 @@ add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
 add-questions-coming-soon = Thêm câu hỏi <small>(sắp ra mắt)</small>
 community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt
+about-us = Về chúng tôi
 
 ## MENU ITEMS TOOLTIPS
 
+about-us-menu-item-tooltip = Tìm hiểu về sứ mệnh và đội ngũ đằng sau Common Voice
+about-us-menu-item-aria-label = Menu tùy chọn Giới thiệu về chúng tôi
 partnerships-menu-item-tooltip = Hợp tác với chúng tôi
 press-and-stories-menu-item-tooltip = Ghé thăm blog hoặc viết về chúng tôi
 community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng đồng và dự án Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Menu tùy chọn Giới thiệu
 press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice
+community-and-languages-menu-item-aria-label = Khám phá cộng đồng và ngôn ngữ được hỗ trợ bởi Common Voice
 
 ## NEW HOME PAGE KEYS
 
@@ -107,6 +112,7 @@ get-started = Bắt đầu <icon><icon>
 
 action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
 language-text-card-header = Ngôn ngữ văn bản
+language-text-card-content = Tạo hoặc chia sẻ lời nhắc, câu và văn bản thuộc phạm vi công cộng để dịch, mô hình ngôn ngữ nhỏ, và nhiều thứ khác.
 add-text = Thêm văn bản
 
 ## Community section
