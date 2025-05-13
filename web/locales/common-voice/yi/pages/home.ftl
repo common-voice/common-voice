@@ -71,6 +71,9 @@ username-email-not-demographic = אייער באנוצער נאמען און א�
 
 ## NAV ITEMS
 
+answer-questions = ענטפערט פראגן
+add-questions = לייגט צו פראגן
+about-us = איבער אונז
 
 ## MENU ITEMS TOOLTIPS
 
@@ -83,9 +86,11 @@ username-email-not-demographic = אייער באנוצער נאמען און א�
 
 ## Hero section
 
+hero-title = טעכנאלאגיע וואס רעדט אייער שפראך
 
 ## Action items section
 
+add-text = לייגט צו ווערטער
 
 ## Community section
 
