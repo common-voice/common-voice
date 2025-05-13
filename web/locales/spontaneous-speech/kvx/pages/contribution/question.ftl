@@ -10,3 +10,14 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions }را سوئال ڀيۯا ڪريا ڳيا
     }
 add-question-error-message = اپلوڊ ناڪام ٿي ڳئي ميرڀونئي ڪرينَ ٻِي﻿زي وار ڪوشِيش ڪرو۔
+add-question-too-many-questions-error = 25 سوئالون رئي حڌ ڪراس ڪرئي پرئي۔سوئالون رئي تعڌاڌ گھٽ ڪر ان ٻِيزِي وار ڪوشش ڪرو۔
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions }موئين 1سوئال جمع ٿي ڳيو۔سوئال جمع ڪريا رو طرِيقو<guidelinesLink>زويا ۿارُو امارا ۮِيڌل لِنڪ مانه زائو انَ شِينکو ڪم ڪرينَ پونيا نئہ شامِل ڪروو
+       *[other] { $uploadedQuestions }موئين 1سوئال جمع ٿي ڳيو۔سوئال جمع ڪريا رو طرِيقو<guidelinesLink>زويا ۿارُو امارا ۮِيڌل لِنڪ مانه زائو انَ شِينکو ڪم ڪرينَ پونيون نئہ شامِل ڪروو
+    }
+# Guidelines
+add-question-guidelines-title = هُون ڪيوا سوئال شامِل ڪري هيڪون؟
+do-section-title = ڪروو
+do-section-guideline-1 = اِسپيلِنگ انَ گرامر رو سهِي اِستعمال ڪرو
+do-section-guideline-2 = ايوا سِڌا سوئال سُونڍو جيا نئہ هر هيڪ منک ۿورئہ نمُونئہ ۿزمي هيڪئہ،پسئہ ڀلئہ اُوئون رو مضمونَ ڪا ثقافت ڪوئي پڻ هوئہ
