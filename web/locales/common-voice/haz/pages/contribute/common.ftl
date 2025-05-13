@@ -136,3 +136,8 @@ contribution-background-noise-example-2-fixed-title = ۮایناسورای کی�
 contribution-background-noise-example-2-explanation = یئگ بئخشی نیمیشتۂ فامیدۂ نئموشۂ
 contribution-background-noise-example-3-fixed-title = [جئر] ۮایناسورای کیݖݖیمناشی [جئر] ریاسیک۔
 contribution-background-voices-title = آوازای پئس پوشت
+contribution-background-voices-description = شئرشۉری استې از پئس پوشت موشکیل نئدرۂ٬ مگئر اکیرۂ اوقئس بیلئن نئباشۂ کی مئشینی الگۉریتم او لۆزا رۂ بوفامۂ کی دۂ نیمیشتۂ نییۂ۔ اوتئر آوازا اگئر بود پور کدۉ رۂ رئد کید٬ ای دۂ غݷتای موشۂ کی تا ݖی وی دئغ باشۂ و یا کئم دۂ فاسیلۂ اگۉ کئلماکئل باشۂ۔
+contribution-background-voices-description-extended = تا غݷدی کی نیمیشتۂ کوللئن فامیدۂ نئموشۂ آواز پور کیدۉ رۂ رئد کو۔
+contribution-background-voices-example-1-title = ۮایناسورای کیݖݖیمناشی ݖریاسیک۔ [دۂ یئگ آواز بېخان]
+contribution-background-voices-example-1-explanation = تو مئیی؟ [یئگ دیگۂ کوی کئد]
+contribution-volume-title = دئرجې آواز
