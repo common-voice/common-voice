@@ -69,7 +69,7 @@ shortcut-skip = س
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ر
+shortcut-record-toggle = رر
 shortcut-record-toggle-label = پور کو/ بئن کو
 shortcut-rerecord-toggle = 1-5
 shortcut-rerecord-toggle-label = کلیپ رۂ از نۆ پور کو
@@ -102,7 +102,7 @@ contribution-criteria-page-description = غېدی کی دۂ آوازای پور 
 contribution-for-example = بئلدې میسال
 contribution-misreadings-title = غئلئد خاندۉ
 contribution-misreadings-description = دئقیق گۉش کو٬ تۉخ چیزی کی نیمیشتۂ شودۂ دئقیق امو چیز پور شودۂ باشۂ; اگۉ رېزۂ غئلئتی ام اگئر بود قئبول نئکید۔
-contribution-misreadings-description-extended-list-1 = اې یا دۂ دۂ اوئلی پور کیدۉ غݷبۂ
+contribution-misreadings-description-extended-list-1 = "اې "یا" دۂ" دۂ اوئلی پور کیدۉ غݷبۂ
 contribution-misreadings-description-extended-list-2 = دۂ آخیر لۆز اېس غݷبۂ
 contribution-misreadings-description-extended-list-3 = موخئفئف کی وجود نئدرۂ میسلی مۉ استې دۂ جای مۉ استې
 contribution-misreadings-description-extended-list-4 = آخیری کئلیمۂ غݷبۂ بئخاتیری کی آواز پور کیدۉ رۂ چئبوک بئن کیدې۔
@@ -123,3 +123,5 @@ contribution-misreadings-example-8-title = زئمبوری اسئل از پالو
 contribution-misreadings-example-8-explanation = کانݖېنݖ سئیې نیمیشتۂ نئشودۂ۔
 contribution-varying-pronunciations-title = تئلئفوزای موختئلیف
 contribution-varying-pronunciations-description = پېش از رئد کیدۉنی کلیپ اوش شیم باشۂ شایئد خانیندۂ لۆز رۂ غئلئد تئلئفوز کیدۂ باشۂ٬ تایی بیلئندی آواز اوش شی نئشودۂ باشۂ٬ یا بېخی سئوالی نیشان رۂ دۂ نئزئر نئگیریفتۂ باشۂ۔ دۂ دونیا کیݖݖۂ اقسامی تئلئفوزی لۆزا وجود دیرۂ کی بازی یای شی شایئد شومۉ نئشینیدۂ باشید۔ بئلدې ازوا یئگ چارچۆکاتی تئشویق دۂ نئزئر بېلید کی رئقئم از شومۉ تئلئفوز نئمیتنۂ۔
+contribution-varying-pronunciations-description-extended = از دیگۂ دئوور ٬ اگئر موفامید کی خانیندۂ او لۆز رۂ اد نئشینیدۂ٬ و از پېش خو تئلئفوز مونۂ ٬ از خݷر خو رئد کید۔ اگئر پیسین تو پورۂ بوچی تېر امدۉ رۂ بیزئن۔
+contribution-varying-pronunciations-example-1-title = دۂ بئل سئت خو یئگ کۉلۂ پۉشیدۂ
