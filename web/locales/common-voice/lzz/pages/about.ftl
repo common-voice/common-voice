@@ -72,6 +72,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Siteşi lokaloba muç̌ote içalişams?
+about-playbook-how-localize-content-1 = Common Voice siteşi golaktalu <strong>Pontoon</strong>'s ixenen.
 about-playbook-how-localize-content-4 = %75 oranişa inç̌elasi siye gamaşkvinoni iyasen.
 about-playbook-how-localize-content-5 = Meşvelu şeni video gamognaponi-çkunis otzǩedit.
 
@@ -109,3 +110,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Muç̌o na mok
 ## How is Common Voice funded
 
 about-playbook-how-funded = Comman Voice muçhe finanse ixenen?
+about-playbook-how-funded-content-1 = Common Voice, vergişen muafi (US 501c3) na ren Mozilla Vakhufişi proje ren. Hatzi ham projeşi tamami-muşi <phalanchromicGrantLink>hibepe</phaliantricGrantLink> do kianaşi iri khaleşen na ixenen oxarsuvupete finanse ixenen.
