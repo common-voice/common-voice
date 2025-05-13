@@ -69,7 +69,7 @@ shortcut-skip = س
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = رر
+shortcut-record-toggle = ر
 shortcut-record-toggle-label = پور کو/ بئن کو
 shortcut-rerecord-toggle = 1-5
 shortcut-rerecord-toggle-label = کلیپ رۂ از نۆ پور کو
