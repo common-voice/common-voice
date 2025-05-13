@@ -35,6 +35,11 @@ easy-difficulty = آسان
 average-difficulty = درمیانہ
 difficult-difficulty = مشکل
 pro-difficulty = پرو
+lose-goal-progress-warning = تینا مسخت ٹی بدلی اتنگان، نم تینا داسنا مستی اننگ ئے دُو آن پشن مننگ کیک۔
+want-to-continue = نم برجا تخنگ خوارے؟
+finish-editing = اولیکو بدلیفنگ ئے ایسر کبو؟
+lose-changes-warning = داسہ یلہ کننگ نا مطلب ئے نم تینا بدلیفنگ ئے الننگ کپرورے
+build-custom-goal = تینا منشا نا مسخت ئس جوڑ کبو
 
 ## Goals
 
