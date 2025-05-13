@@ -89,8 +89,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلائزیشن کِدؔا کام کرتی ہے؟
-about-playbook-how-localize-content-1 = سادھارٹؔ اواج سائٹا کا انُواد <strong>پونٹوناپ</strong> ہووتا ہے۔
-about-playbook-how-localize-content-2 = اگر تھارے کن اکاؤنٹ نائی ہے تو ایک <pontoonAccountLink>اکاؤنٹ بناؤ</pontoonAccountLink>۔ اس کے باد ، اپٹؔی بھاشا <strong>('ٹیم') چُناؤ کرو</strong> اور پِچھیں پروجیکٹ ، <pontoonCvLink>سادھارٹؔ اواجا کُو چُناؤ کرو</pontoonCvLink>۔ انُواد کرنے نتر پھائلاں ہوؤں گِیاں۔ ایکی کُو دؔٻاو ، پِچھیں یو انگریزِیام لوج دِؔکھاوتا ہے اور ان کا انُواد کرنے نتر ایک باکس دِؔکھاوتا ہے۔
+about-playbook-how-localize-content-1 = سادھارٹؔ اواج سائٹا کا انواد <strong>پونٹوناپ</strong> ہووتا ہے۔
+about-playbook-how-localize-content-2 = اگر تھارے کن اکاؤنٹ نائیں ہے تو ایک <pontoonAccountLink>اکاؤنٹ بݨاؤ</pontoonAccountLink>۔ اس کے پِچھیں ، اپٹؔی بھاشا <strong>('ٹیم') چُناؤ کرو</strong> اور پِچھیں پروجیکٹ ، <pontoonCvLink>سادھارٹؔ اواجا کُو چُناؤ کرو</pontoonCvLink>۔ انواد کرنے نتر پھائلاں ہوؤں گِیاں۔ ایکی کُو دؔٻاو ، پِچھیں یو انگریزِیام لوج دِؔکھاوتا ہے اور ان کا انواد کرنے نتر ایک باکس دِؔکھاوتا ہے۔
 about-playbook-how-localize-content-3 = انُواد انگریجِیاس ہے، پٹؔ تھم دُؔوجی <strong>ٻولِیئیم سُجھاو</strong> دیکھی سِکتے ہے. پروپھائلام آئی کن <strong>پر</strong> دؔٻاو ، پِچھیں لیٹِؔیں کُو لنک <strong>کرو</strong> اور کسی بھی بھاشا کُو سیمل کرو جکو آپ ٻولتے ہے۔ نِیچے سوݪے کُھوٹؔیم انوادیں کی ایک سُوچی ہوؤنٚگی جِسے <strong>لوکلز</strong> کیہا جاوتا ہے۔ ایکی دِؔنا کے پِچیں ویب سائٹاپ انواد دِؔکھائے جاوتے ہے۔
 about-playbook-how-localize-content-4 = جِدؔ یو 75٪ نِویڑا ہوئی جاوتا ہے تو سائٹ سِرُو کرنے نتر تیار ہے.
 about-playbook-how-localize-content-5 = ساہئیتا کرنے نتر مھاری ویڈیو وِئیاکھِیا دؔیکھو
