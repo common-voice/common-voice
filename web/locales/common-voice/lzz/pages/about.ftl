@@ -54,6 +54,9 @@ about-nav-playbook = Muç̌o na eǩvant̆alaten digurit
 ## What is a language
 
 about-playbook-what-is-language = Common Voices nena mu oren?
+about-playbook-what-is-language-content-1 = Nena omsifonu şeni çkva do çkva gzalepe renan.
+about-playbook-what-is-language-content-2 = Nenape şeni vorsi dulyape oxenu minonan.
+about-playbook-what-is-language-content-3 = Bazi nenapes çkva do çkva variantepe uğunan. Hamuşeni çku <ctaLink>goçinapamt ‘Variants’</ctaLink> in 2022.
 
 ## How do I add a language
 

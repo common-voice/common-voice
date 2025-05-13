@@ -9,4 +9,6 @@ request-language-form-info =
 request-language-form-info-explanation = ٻولِي را ڀارام زتئي پڻ گھڻئي جانڪارئي ۮي هيڪتا هوئو، ۮيو۔ اِيئا ۾ اي شينهون شامِل ٿي هيڪئہ:
 request-language-form-info-explanation-list-1 = تماري ٻولِي را نوم
 request-language-form-info-explanation-list-2 = جئي کٻر سئہ تون<isoCodeLink>آئِي ايس او ڪوڊ</isoCodeLink>
-request-language-form-info-explanation-list-3 = وئيب سائڊ را لِنڪ جيو هيڪ جيوا ٻوليام ۾ مڌت ۮيہ هيڪتا هوئہ
+request-language-form-info-explanation-list-3 = ويب سائيڊ را ايوا لِنڪ جيو اَمون نئہ ٻولئي ۿزميام ۾ مڌت ۮي هيڪئہ
+request-language-google-recaptcha-required = جيڪيۮِي تمي آڳۯ زاوا ڪرو تون reCAPTCHA ضرُورِي سئہ
+request-language-google-recaptcha-error = reCAPTCHA ٿِي ڪيئنڪ ڳلت ٿي ڳيو۔ميرڀونئي ڪرينَ ٻِيزِي وار ڪوشش ڪرو۔
