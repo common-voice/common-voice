@@ -69,15 +69,15 @@ about-playbook-what-is-language-content-3 = کاہِیں ٻولِیم ٻول، �
 about-playbook-how-add-language = ہُوں ایک ٻولی کِدؔا سیمل کرے؟
 about-playbook-how-add-language-content-1 =
     سارینٚس آگے، جانٚچ کرو کہ کِیا آپ کی بھاشا <languageLink>آگُوچ ماجود ہے</languageLink>.
-    اگر اِدؔا نائی ہے تو ، آپ <languageRequestLink>اپٹؔی بھاشا سیمل کرنے کے باریم ٻُوجھی سِکتے ہے</languageRequestLink>۔
-    اِس کے دؔو چرٹؔ ہے۔ سائٹا کا انُواد کرنا، اور ٻول بھیݪے کرنا
-about-playbook-how-add-language-translating-heading = سائٹا کا انُواد
+    اگر اِدؔا نائیں ہے تو ، آپ <languageRequestLink>اپٹؔی بھاشا سیمل کرنے کے باریم ٻُوجھی سِکتے ہے</languageRequestLink>۔
+    اِس کے دؔو چرٹؔ ہے۔ سائٹا کا انواد کرنا، اور ٻول بھیݪے کرنا
+about-playbook-how-add-language-translating-heading = سائٹا کا انواد
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹونا کُو چلاوٹؔیں کے باریم مھاری مارگ درشک دیکھو۔</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     ہم انواد کرنے نتر <pontoonLink>پونٹون</pontoonLink> ناوا کا موزیلا ٹول چلاوتے ہے۔ پونٹونام  کھاسیاں ٻولیاں ہے،
-    پٹؔ جے اگر اس میں تھاری ٻولی نائی تی تو تھم <pontoonRequestLink>اپٹؔی ٻولی شیمل کرنے کی ٻِنتی کری سِکتے ہے</pontoonRequestLink>۔
+    پٹؔ جے اگر اس میں تھاری ٻولی نائیں تی تو تھم <pontoonRequestLink>اپٹؔی ٻولی شیمل کرنے کی ٻِنتی کری سِکتے ہے</pontoonRequestLink>۔
     اس کے پِچھیں ، ٻولیا کُو سادھارٹؔ آواج پروجیکٹاپ ماجُود کرنے نتر ،
-    <githubRepoLink>گیٹ ہباپ  نویں ٻولیا کی بِنتی کرو</githubRepoLink>۔ <localizationFragment>سائٹ ترجمیپ ودھیک دؔیکھو</localizationFragment>.
+    <githubRepoLink>گیٹ ہباپ  نویں ٻولیا کی بِنتی کرو</githubRepoLink>۔ <localizationFragment>سائٹ انوادام ودھیک دؔیکھو</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = ٻول بھیݪے کرنا
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ٻول بھیݪے کرنواڑے کُو چلاوٹؔیں کے باریم مھاری مارگ دیکھو</sentenceCollectorVideo>۔
 about-playbook-how-add-language-collecting-sentences-content-2 =
