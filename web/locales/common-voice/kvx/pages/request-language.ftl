@@ -24,3 +24,4 @@ need-help-deciding-platform = ڪِي تمون نئہ اي ڦينصلو ڪريا 
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>لکل ٻولئي</strong>(جئي تمون نئہ ڪومنَ وائيس را نوم ٿِي کٻر سئہ) اُو جڳا سئہ جيٿئہ تمي جُملا آپرِي ٻولِي ۾ زور ٿِي ڀڻي هيڪو۔
 need-help-deciding-platform-explanation-2 = <strong>فِطرتِي ٻولئي</strong>ڪومنَ وائيس هيڪ نوو حصو سئہ جيٿئہ تمي سوئالون را جواڀ گھڻا فِطرِي انَ حقيقت پرموڻئہ ۮي هيڪو۔
+need-help-deciding-platform-explanation-3 = جيڪيۮِي تمي آپرئي ٻولئي ٻئيون حِصون موئين ٿِي ڪيا نئہ نٿِي زوتا،تون ٻئيون رئي ئي سُونڍ ڪرو۔
