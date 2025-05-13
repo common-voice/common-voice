@@ -14,6 +14,10 @@ everyone = ہر اسٹ
 contribution-activity = کاریم تون کمک
 top-contributors = بھلا کمکاراک
 recorded-clips = ریکارڈ کروکا کلپاک
+validated-clips = منوکا کلپاک
+total-approved = مُچ منوکاک
+overall-accuracy = مچی وڑ اٹ درستگی
+set-visibility = کنا پاش مننگ ئے سیٹ کبو
 
 ## Custom Goals
 
