@@ -131,6 +131,16 @@ add-small-batch-success =
         [one] { $uploadedSentences } آتیان اسہ جملہ ئس جمع مس
        *[other] { $uploadedSentences } نا{ $totalSentences } جملہ جمع مس
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } آتیان اسے جملہ ئس جمع مس۔ رد مروکا جملہ غاتے ڈاؤن لوڈ کننگ کے<downloadLink>داڑے</downloadLink>  کلک کبو۔
+       *[other] { $uploadedSentences } او تیان{ $totalSentences } جملہ غاتے جمع کننگا۔ رد مروکا جملہ غاتے ڈاؤن لوڈ کننگ کے <downloadLink>داڑے</download Link>  کلک کبو۔
+    }
+small-batch-sentences-rule-1 = "ای امرو جملہ ئس شامل کننگ کیوہ؟" آن رہنما خطوط آ عمل کبو۔
+small-batch-sentences-rule-2 = ہر لائن اٹ اسے جملہ ئس جمع کبو
+small-batch-sentences-rule-3 = اسہ وار "Enter" یا "Return" خلنگ آن جملہ غاتے اسہ لائن اٹ جتا کبو۔
+small-batch-sentences-rule-4 = 1،000 اسکان جملہ جمع کبو
 
 ## MENU ITEM TOOLTIPS
 
