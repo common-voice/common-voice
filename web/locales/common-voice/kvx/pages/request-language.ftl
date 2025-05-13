@@ -20,3 +20,7 @@ request-language-success-list-3 = جيڪيۮِي ڪينئڪ ۮِيئون ۿُو�
 request-language-error = ٿي هيڪئہ جي اَمون نئہ اُو ڌرخواست نٿِي ﻿زڙئي۔ميرڀونئي ڪرينَ امون نئہ سِڌو<emailLink>{ $email }</emailLink> مانه اِيميل ڪرو امي تمون ٿِي ٻِيزِي وار راڀطو ڪرشون!
 request-for-scripted-speech-toggle = لکل ٻولِي ۿارُو ڌرخواست
 request-for-spontaneous-speech-toggle = فطرِي ٻولِي ۿارُو ڌرخواست
+need-help-deciding-platform = ڪِي تمون نئہ اي ڦينصلو ڪريا ۿارُو مڌت کپئہ جي ڪيا نئہ سُُونڍوو؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>لکل ٻولئي</strong>(جئي تمون نئہ ڪومنَ وائيس را نوم ٿِي کٻر سئہ) اُو جڳا سئہ جيٿئہ تمي جُملا آپرِي ٻولِي ۾ زور ٿِي ڀڻي هيڪو۔
+need-help-deciding-platform-explanation-2 = <strong>فِطرتِي ٻولئي</strong>ڪومنَ وائيس هيڪ نوو حصو سئہ جيٿئہ تمي سوئالون را جواڀ گھڻا فِطرِي انَ حقيقت پرموڻئہ ۮي هيڪو۔

@@ -47,14 +47,14 @@ about-get-involved-text-2 =
     <matrixLink>میٹرکس</matrixLink> کمیونٹی چیٹ.
 about-stay-in-touch = ہُوں سمپرکام کِدؔا رہی سِکتا ہے؟
 about-stay-in-touch-button = سائن اپ کرو
-about-stay-in-touch-text-1 = یو جاٹؔنیں نتر کہ آپ سادھارٹؔ اواجاپ ابھیان ، کارِھئے اور بھیݪا ڈِجانا کا نوے پنام کِدؔا بھاگ لی سِکتے ہے ، مھاری میلنگ لسٹام <emailFragment>سائن اپ</emailFragment> کرو۔
+about-stay-in-touch-text-1 = یو جاٹؔنیں نتر کہ آپ سادھارٹؔ اواجاپ ابھیان ، کارِھئے اور بھیݪا ڈِجانا کا نوے پنیم کِدؔا بھاگ لی سِکتے ہے ، مھاری میلنگ لسٹام <emailFragment>سائن اپ</emailFragment> کرو۔
 about-stay-in-touch-text-2 = آپ موزیلا بھاشا کی کُومیم دُؔوجینٚس مِلی سِکتے ہے اور کاماڑی کچیرِیا نتر <discordLink>ڈسکورڈ</discordLink> یا <discourseLink>ڈسکورس</discourseLink> ، یا اسِیاٹؔیں سلاہ نتر <matrixLink>میٹرکسام</matrixLink> سیمل ہوئی سِکتے ہے۔
 about-nav-why-common-voice = کاکام؟
 about-nav-how-it-works = کِدؔا؟
 about-nav-partners = بھاگی دؔار
 about-nav-get-involved = سیمل ہوئی جاؤ
 about-nav-how-it-works-2 = سادھارٹؔ اواج کِدؔا کام کرتی ہے؟
-about-nav-playbook = بھاگ لیوٹؔیں کا نامُونا سِکو
+about-nav-playbook = بھاگ لیوٹؔیں کا نامُونا سِیکو
 
 ## Community Playbook Content
 ## What is a language
