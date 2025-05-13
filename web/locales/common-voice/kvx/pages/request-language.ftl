@@ -12,3 +12,10 @@ request-language-form-info-explanation-list-2 = جئي کٻر سئہ تون<isoC
 request-language-form-info-explanation-list-3 = ويب سائيڊ را ايوا لِنڪ جيو اَمون نئہ ٻولئي ۿزميام ۾ مڌت ۮي هيڪئہ
 request-language-google-recaptcha-required = جيڪيۮِي تمي آڳۯ زاوا ڪرو تون reCAPTCHA ضرُورِي سئہ
 request-language-google-recaptcha-error = reCAPTCHA ٿِي ڪيئنڪ ڳلت ٿي ڳيو۔ميرڀونئي ڪرينَ ٻِيزِي وار ڪوشش ڪرو۔
+# Success page
+request-language-success-heading = ميرڀونئي! تمي هيڪ نوِي ٻولِي را ڀارام جونچ ميلئي پرئي
+request-language-success-list-1 = تمون نئہ آپرا قوم را مئنيجر ٿِي هيڪ اِيميل زڙوو کپئہ جيو تمونَ نئہ کُلينَ ۿمڀۯاوَشي جي آپرِي ٻولِي نئہ ڪومنَ وائيس ڪم ڪرينَ شامِل ڪري هيڪون
+request-language-success-list-2 =
+    Our community manager will reach out to you to offer
+    extra support, and to let you know if there is
+    already a community working on your language

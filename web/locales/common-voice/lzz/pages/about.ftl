@@ -62,6 +62,7 @@ about-playbook-what-is-language-content-3 = Bazi nenapes çkva do çkva variante
 
 about-playbook-how-add-language = Nena muşho eǩevunt̆alare?
 about-playbook-how-add-language-translating-heading = Siteşi tercume
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontooni oxmaru şeni rehberi çkunis otzkedit.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Cumlepe oǩorobu
 
 ## How does localization work
