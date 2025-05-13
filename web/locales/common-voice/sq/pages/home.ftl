@@ -78,12 +78,8 @@ read-more-about = Lexoni më tepër te faqja jonë Mbi
 ## NAV ITEMS
 
 answer-questions = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
-answer-questions-coming-soon = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
 review-transcriptions = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
-review-transcriptions-coming-soon = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
 add-questions = Shtoni Pyetje <small>(Së shpejti)</small>
-add-questions-coming-soon = Shtoni Pyetje <small>(Së afërmi)</small>
-transcribe-audio-coming-soon = Transkriptoni Audio <small>(Së shpejti)</small>
 transcribe-audio = Transkriptoni Audio <small>(Së shpejti)</small>
 press-and-stories = Për Shtypin dhe Shembuj
 community-and-languages = Bashkësi dhe Gjuhë

@@ -78,12 +78,8 @@ read-more-about = وڌيٚڪ پڙهو اسآݩ ري سڦهي ري بآري مي�
 ## NAV ITEMS
 
 answer-questions = سوآل جوآب
-answer-questions-coming-soon = جوآب ڏيو سوآلآݩ رآ <small>(جلديٚ آڻ وآرو)</small>
 review-transcriptions = جآئزو ليو لکت رو
-review-transcriptions-coming-soon = لکت رو جآئزو ليو<small>(جلديٚ آڻ وآرو)</small>
 add-questions = سوآل شآمل ڪرو
-add-questions-coming-soon = سوآل شآمل ڪرو <small>جلديٚ آڻ وآرآ</small>
-transcribe-audio-coming-soon = آڊيٚو کي لکو <small>جلديٚ آڻ وآرآ</small>
 transcribe-audio = آڊيٚو کي لکو
 press-and-stories = اکبآر ائيٚݩ آکهآڻيٚوݩ
 community-and-languages = برآدريٚ ائيٚݩ ٻوليٚ

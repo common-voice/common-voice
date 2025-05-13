@@ -76,12 +76,8 @@ read-more-about = Les meir på Om oss-sida vår
 ## NAV ITEMS
 
 answer-questions = Svar på spørsmål
-answer-questions-coming-soon = Svar på spørsmål <small>(kjem snart)</small>
 review-transcriptions = Vurder transkripsjonar
-review-transcriptions-coming-soon = Vurder transkripsjonar <small>(kjem snart)</small>
 add-questions = Legg til spørsmål
-add-questions-coming-soon = Legg til spørsmål <small>(kjem snart)</small>
-transcribe-audio-coming-soon = Transkriber lyd <small>(kjem snart)</small>
 transcribe-audio = Transkriber lyd
 press-and-stories = Presse og historier
 community-and-languages = Fellesskap og språk

@@ -83,12 +83,8 @@ read-more-about = امارا ٻارا مان پيج ماٿيَ وڌارين ڀ�
 ## NAV ITEMS
 
 answer-questions = سوالان نا جواٻ ڄو
-answer-questions-coming-soon = سوالان نا جواٻ ڄو<small>(زٽ آويَ سي ريون</small>)
 review-transcriptions = نقل ڪرل نو جائزو ليو
-review-transcriptions-coming-soon = نقل نو جائيزو ليو<small>(زٽ آويَ سي ريون)</small>
 add-questions = سوال ايڍ ڪرو
-add-questions-coming-soon = سوال شامِل ڪرو</small>(زٽ آويَ سي ريون)<small>
-transcribe-audio-coming-soon = آڍِيو نِي نقل ڪرو</small>(زوٽ آويَ سي ريون)<small>
 transcribe-audio = آڍِيو نِي نقل ڪرو
 press-and-stories = پريس انين وارتايُون
 community-and-languages = ڀِراڌرِي انين ٻولِيُون

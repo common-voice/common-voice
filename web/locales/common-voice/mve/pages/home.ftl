@@ -76,12 +76,8 @@ read-more-about = مھوريَ ابائوٽ پئيج تيَ وڌيڪ پڙھو
 ## NAV ITEMS
 
 answer-questions = سوالون را جواب ڏيو
-answer-questions-coming-soon = سوالون را جواب ڏيو <small>(جلدِي آڻ آݪو ھيَ)</small>
 review-transcriptions = لِکوڙيَ رو جائزو ليو
-review-transcriptions-coming-soon = لکوڙي رو جائزو ليو <small>(جلدِي آڻ آݪو ھيَ)</small>
 add-questions = سوال جمع ڪرو
-add-questions-coming-soon = سوال شامل ڪرو<small>ڇيڪوآڻ آݪو ھيَ</small>
-transcribe-audio-coming-soon = آڊِيو نَي لکو <small>(جلدِي آڻ آݪو ھيَ)</small>
 transcribe-audio = آڊيو نيَ لکو
 press-and-stories = ڇپائي ھان وارتائون
 community-and-languages = برادري ھان ٻوليَ

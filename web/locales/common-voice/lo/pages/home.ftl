@@ -89,12 +89,8 @@ read-more-about = ອ່ານເພີ່ມເຕີມກ່ຽວກັບ�
 ## NAV ITEMS
 
 answer-questions = ຕອບຄໍາຖາມ
-answer-questions-coming-soon = ຕອບຄຳຖາມ <small>(ໄວໆນີ້)</small>
 review-transcriptions = ກວດເບິ່ງການຖອດຂໍ້ຄວາມ
-review-transcriptions-coming-soon = ກວດເບິ່ງການຖອດຂໍ້ຄວາມ <small>(ໄວໆນີ້)</small>
 add-questions = ເພີ່ມຄຳຖາມ
-add-questions-coming-soon = ເພີ່ມຄຳຖາມ <small>(ໄວໆນີ້)</small>
-transcribe-audio-coming-soon = ຖອດຂໍ້ຄວາມສຽງ <small>(ໄວໆນີ້)</small>
 transcribe-audio = ຖອດຂໍ້ຄວາມສຽງ
 press-and-stories = ກົດ ແລະ ເລື່ອງ
 community-and-languages = ຊຸມຊົນ ແລະ ພາສາ

@@ -76,12 +76,8 @@ read-more-about = همري بآرآ مي سڦآ پر اور پڙهو
 ## NAV ITEMS
 
 answer-questions = سوآلآ ڪآ جوآب ديوو
-answer-questions-coming-soon = سوآل جبآب آهيرآ هينٚ<small> ( جلدي آهيرآ هينٚ)</small>
 review-transcriptions = نڪلينٚ ديکو
-review-transcriptions-coming-soon = نڪلينٚ ڪو ديکو<small>( جلدي آهيرو هي)</small>
 add-questions = سوآل لگآوو
-add-questions-coming-soon = سوآل لگآوو<small>( جلدي آهيرو هي)</small>
-transcribe-audio-coming-soon = نڪليٚ ڪي آڊيو<small>( ڪلدي آهيري هي)</small>
 transcribe-audio = نڪلينٚ ڪيٚ آڊيو
 press-and-stories = پريس اور ڪهآڻيونٚ
 community-and-languages = ڪميونٽيٚ اور ٻوليٚ

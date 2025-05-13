@@ -77,7 +77,6 @@ read-more-about = Află mai multe pe pagina Despre
 ## NAV ITEMS
 
 review-transcriptions = Examinează transcrierile
-review-transcriptions-coming-soon = Examinează transcrierile <small>(în curând)</small>
 
 ## MENU ITEMS TOOLTIPS
 

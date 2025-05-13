@@ -78,12 +78,8 @@ read-more-about = اسدے تعارفی صفحے دے بارے مزید پڑھو
 ## NAV ITEMS
 
 answer-questions = سوالاں دے جواب دیو<small>(جلدی آرہے ہن)</small>
-answer-questions-coming-soon = سوالاں دے جواب دیو<small>(جلدی آرہے ہن)</small>
 review-transcriptions = ٹرانسکرپشنز دا جائزہ گِھنو<small>(جلدی آرہے ہن)</small>
-review-transcriptions-coming-soon = ٹرانسکرپشنز دا جائزہ گِھنو<small>(جلدی آ ری اے)</small>
 add-questions = سوال شامل کرو<small>(جلدی آرہے ہن)</small>
-add-questions-coming-soon = سوال شامل کرو<small>(جلدی آرہے ہن)</small>
-transcribe-audio-coming-soon = آڈیو ٹرانسکرائب کرو<small>(جلدی آ ری اے)</small>
 transcribe-audio = آڈیو ٹرانسکرائب کرو<small>(جلدی آ ری اے)</small>
 press-and-stories = پریس ہور کہانڑیاں
 community-and-languages = کمیونٹی ہور زباناں

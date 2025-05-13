@@ -86,12 +86,8 @@ read-more-about = További információk a Névjegy oldalon
 ## NAV ITEMS
 
 answer-questions = Kérdések megválaszolása
-answer-questions-coming-soon = Kérdések megválaszolása <small>(hamarosan)</small>
 review-transcriptions = Leiratok ellenőrzése
-review-transcriptions-coming-soon = Leiratok ellenőrzése <small>(hamarosan)</small>
 add-questions = Kérdések hozzáadása <small>(hamarosan)</small>
-add-questions-coming-soon = Kérdések hozzáadása <small>(hamarosan)</small>
-transcribe-audio-coming-soon = Hangok leiratozása <small>(hamarosan)</small>
 transcribe-audio = Hangok leiratozása
 press-and-stories = Sajtó és történetek
 community-and-languages = Közösség és nyelvek
