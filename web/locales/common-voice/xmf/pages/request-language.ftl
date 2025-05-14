@@ -10,3 +10,9 @@ request-language-form-info-explanation-list-1 = თქვან ნინაშ 
 request-language-form-info-explanation-list-2 = <isoCodeLink> ISO კოდეფს </isoCodeLink> ქოიჩქუნანო
 request-language-form-info-explanation-list-3 = თქვან ნინაშ უჯგუშო გაჩინებაფალო საიტიშ რსხილეფი
 request-language-google-recaptcha-required = reCAPTCHA  მიკილათ ოკო, გაგძელათჷნი
+# Success page
+request-language-success-heading = მარდი! ნინაშ მოთხუალა უკვე ჯღონელ რე
+request-for-scripted-speech-toggle = ნაჭარაშ გახონარებაშ მოთხუალა
+request-for-spontaneous-speech-toggle = სპონტანურ ჩიებაშ მოთხუალა
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong> ნაჭარაშ გახონარება </strong> (ჩვეულებრივ, ნამუთ ჩინებულ რე Common Voice) გულისხმენს ზიტყვასქვილეფიშ ხონარმაღალო კითხირს თქვან ნინაშა.
