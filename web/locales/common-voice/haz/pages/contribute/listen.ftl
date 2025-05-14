@@ -23,3 +23,6 @@ review-transcriptions-menu-item-tooltip = نیمیشتای جئم شودې  کا
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = مینوی گوزینې گۉش کیدۉ
+validate-readings-menu-item-aria-label = خاندۉ رۂ قئبول کو کی از دئووری شئریگدارای آغیل/ کئمیونیݖی جئم شودۂ
+review-transcriptions-menu-item-aria-label = بئلدې دئقئق بودۉ نیمیشتای پور شودۂ رۂ از نۆ تۆغ کو
