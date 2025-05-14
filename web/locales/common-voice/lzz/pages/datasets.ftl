@@ -29,6 +29,8 @@ subscribe = Abone iyi
 get-started-speech = Osinapu Oçinus Kogyoç̌ǩit
 other-datasets = Majura Xomaşi Datamarç̌ape
 feedback-q = Uǩaçxeni gnapa giğunan-i?
+# This indicates that there is no data to display
+no-information = Çkinapa va ren
 resource-nemo-info = { "" }
 resource-deepspeech-info = { "" }
 resource-coqui-info = Galiçuri
