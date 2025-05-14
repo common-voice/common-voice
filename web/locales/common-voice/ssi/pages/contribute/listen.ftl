@@ -24,5 +24,5 @@ review-transcriptions-menu-item-tooltip = اپٹؔی ٻولیام اُپبھوگ
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = سُٹؔنواڑے کے ادھِیکاریں کی سُوچی
-validate-readings-menu-item-aria-label = پیڑے کے میبرے کی ترپھاس بھیݪی کروڑی پرکھوڑی ریڈنگ
+validate-readings-menu-item-aria-label = پیڑے کے میبریں کی ترپھاس بھیݪی کروڑی پرکھوڑی لِکھت
 review-transcriptions-menu-item-aria-label = سچائی نتر  ریکارڈ کروڑے ٻولیں کی نکل کُو ایدؔائے دیکھو
