@@ -43,6 +43,7 @@ about-get-involved-text-2 =
      Ntsaşa Yextat! E-posta var na <discourseLink>Discourse</discourseLink>iten koniǩirit, forumepes amaxtit, sites na ren problemepe <git̆ubLink>Git̆ub</git̆ubLink> iten kommemotsadapit var na   <matrixLink>Matrix</matrixLink>işen ǩatas oğarğaluşa amaxtit."
 about-stay-in-touch = Muç̌o oǩovimçinaten?
 about-stay-in-touch-button = Uye iyi (Uye ivi/ iqvi)
+about-stay-in-touch-text-2 = Majurape içinit.
 about-nav-why-common-voice = Muşeni?
 about-nav-how-it-works = Muç̌o?
 about-nav-partners = Maǩatape
