@@ -10,3 +10,4 @@ error-title-404 = نن نم کن ہمو  پنہ ئے پٹنگ کتون
 error-content-404 = مننگ کیک کہ ننا <homepageLink>ہوم پیج</homepageLink> کمک کے؟ سوج ارفنگ کن، براہ کرم <matrixLink>Matrix کمیونٹی چیٹ</matrixLink> ٹی اوار مبو، <githubLink>GitHub</githubLink> نا وسیلہ اٹ سائٹ نا ویلاتا نگرانی ئے کبو یا <discourseLink>ننا ڈسکورس فورمز</discourseLink> آ انبو۔
 error-title-503 = نن غیر متوقع آ شیف وخت ئے مون تننگ اون
 error-content-503 = سائٹ نا زوت آن زوت بیک اپ الننگک۔ پوسکنا چاہنداری تیکن، براہ کرم <matrixLink>Matrix کمیونٹی چیٹ</matrixLink> تی ساڑی مبو یا <githubLink>GitHub</githubLink> یا <discourseLink>ننا ڈسکورس فورمز</discourseLink> ئے سائٹ نا آزموندہ نا ویلاتے جمع کریفنگ و مانیٹر کننگ کن ہوربو۔
+error-code = ردینک { $code }

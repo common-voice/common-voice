@@ -9,3 +9,4 @@ request-language-form-info =
 request-language-form-info-explanation = მაქ ლა́ტჲებათ საო̆ბო̆ დოსტო́ღრივ აღწე́რადარ ლე́ჸეჩო̆ მატტანაჲნო̆. შაძლე́ბალა ე ხილ'ულო̆:
 request-language-form-info-explanation-list-1 = შუ მატტიჼ წარი́შ
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO- კოდი</isoCodeLink>, ხეჸეჰ̦ შუჼ
+request-language-form-info-explanation-list-3 = საიტაჼ ბმული, მე́ნხუჲჩუჲშვა́ჲ ღაზი́ვხ ბაბწო́თხ შუჼ მოტტ
