@@ -52,3 +52,6 @@ data-other-librispeech-description = LibriSpeech تقریباً 1000 گھنٹہ 
 data-other-ted-name = TED-LIUM کارپس
 data-other-ted-description = دا TED-LIUM کارپس تواری ہیت آن جوڑ مسونے و دافتا درشان نا TED ویب سائٹ آ تخوکے۔
 data-other-voxforge-description = VoxForge ئے مفت و اوپن سورس اسپیچ ریکگنیشن انجناتے تون اوار استعمال کننگ کہ تران کروکا ہیت آتا جمع کننگ جوڑ مسوسس۔
+data-other-tatoeba-description = Tatoeba زبان ہیل کننگ اٹ کارمرز کن جملہ غاک، مٹ و بدلک و پاروکا آڈیو نا اسہ بھلو ڈیٹا بیس ئس اے۔ دا ڈاؤن لوڈ اوفتا مخلوق نا ریکارڈ کروکا انگریزی توار تیا بشخوکے۔
+your-feedback = انت نم تون آئیڈیاک اریر کہ نن امر کامن وائس ئے جوان کننگ کینہ؟ ننے ڈسکورس آ پابو
+go-discourse = ڈسکورس آ انبو
