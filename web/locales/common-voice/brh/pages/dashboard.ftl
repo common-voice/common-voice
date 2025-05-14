@@ -140,6 +140,24 @@ goal-share-text = ای داسہ  #CommonVoice ئے توار عطیہ کننگ ک
 weekly-goal-created = نما ہفتئی نا مزل جوڑ مسونے
 daily-goal-created = نما ہڑدیئی نا مزل جوڑ مسونے
 track-progress = تینا شونداری ئے داڑے و تینا حساب نا پنہ غا درشان کبو۔
+return-to-edit-goal = ہرا وخت ہم تینا مسخت ٹی بدلی اتنگ کن داڑے ولدا بابو۔
+share-goal = تینا مزل ئے درشان کبو
 
 ## Goals
 
+streaks = لکیراک
+days =
+    { $count ->
+        [one] دے
+       *[other] دیک
+    }
+recordings =
+    { $count ->
+        [one] ریکارڈنگ
+       *[other] ریکارڈنگاک
+    }
+validations =
+    { $count ->
+        [one] تصدیق
+       *[other] تصدیقاک
+    }
