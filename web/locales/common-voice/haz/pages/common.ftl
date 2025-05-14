@@ -340,6 +340,12 @@ email-input =
 loading = دئرۆ موشۂ
 email-opt-in-info = ما مېخایوم کی  مئخسئد دۂ گۉش زیدۉ "گۉل ریمایۮئر" والا ای مېل دۂ دیست بݷروم٬ آوالای نۆ و خئبئرا دۂ بارې کامئن وایس
 email-opt-in-info-title = دۂ مېلینگ لیسݖی کامئن وایس شیرکئد کید
+email-opt-in-info-sub-with-challenge = دۂ بارې موشکیلات یا گۉل ریمایۮئر ای مېل دۂ دیست بݷرید٬ آوالای نۆبیا خئبئرا دۂ بارې کامئن وایس
+email-opt-in-privacy-v2 = قئد دۂ دیست اووردۉنی ای مېل قئبول مونی کی قئد مۉزیلا یئگۉ موشکیل نئدیرې اموتئر کی دۂ شئرایت نامې مۉزیلا تۆزې دیدۂ شودۂ
+indicates-required = خانای کی قئد (*) نیشانی شودۂ زئروری یۂ کی پور شونۂ
+not-available-abbreviation = این/اې
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = مۉ کۉمئگ شوم لازیم دیرې
