@@ -125,6 +125,21 @@ n-clips-pluralized =
         [one] { $count }کلپ
        *[other] { $count } کلپاک
     }
+help-share-goal = پین توار کن نن تون کمک کبو، تینا مزل ئے درشان کبو
+confirm-goal = تینا مزل ئے پک کبو
+goal-interval-weekly = ہفتئی
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = تینا { $count } کلپ نا ہڑدے مزل { $type } کن درشان کبو
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = تینا { $count } کلپ نا ہفتئی مزل { $type } کن درشان کبو
+share-goal-type-speak = ہیت کننگ
+share-goal-type-listen = بِننگ
+share-goal-type-both = ہیت کننگ و بِننگ
+# LINK will be replaced with the current URL
+goal-share-text = ای داسہ  #CommonVoice ئے توار عطیہ کننگ کن اسہ ذاتی او مسخت ئس جوڑ کرینٹ-- کنتون اوار مبو و مشیناتے ہیل تننگ کن کمک کبو کہ حقی آ بندغاک امر ہیت کیرہ { $link }
+weekly-goal-created = نما ہفتئی نا مزل جوڑ مسونے
+daily-goal-created = نما ہڑدیئی نا مزل جوڑ مسونے
+track-progress = تینا شونداری ئے داڑے و تینا حساب نا پنہ غا درشان کبو۔
 
 ## Goals
 
