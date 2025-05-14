@@ -18,11 +18,11 @@ validate-readings-coming-soon = ریڈنگا کی اوݪکھ کرو <small>(ٻی
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = ریڈنگا کی اوݪکھ کرو، نکݪِیا کُو ایدؔائے دؔیکھو
-validate-readings-menu-item-tooltip = اپٹؔی ٻولیام گیراکا کی لِکھتا کُو پڑھنے کی اوݪکھ کرو
-review-transcriptions-menu-item-tooltip = اپٹؔی ٻولیام گیراکا کی ترپھاس بھیݪا کراوڑا نکلا کُو ایدؔائے دیکھو
+validate-readings-menu-item-tooltip = اپٹؔی ٻولیام اُپبھوگتا کی لِکھتا کُو پڑھنے کی اوݪکھ کرو
+review-transcriptions-menu-item-tooltip = اپٹؔی ٻولیام اُپبھوگتا کی ترپھاس بھیݪا کراوڑا نکݪا کُو ایدؔائے دیکھو
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = سُٹؔنواڑے کے ادیکارا کا مینو
+listen-contribute-menu-aria-label = سُٹؔنواڑے کے ادھِیکاریں کی سُوچی
 validate-readings-menu-item-aria-label = پیڑے کے میبرے کی ترپھاس بھیݪی کروڑی پرکھوڑی ریڈنگ
 review-transcriptions-menu-item-aria-label = سچائی نتر  ریکارڈ کروڑے ٻولیں کی نکل کُو ایدؔائے دیکھو
