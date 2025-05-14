@@ -51,3 +51,4 @@ resource-playbook-info = کامن وائس نا سرجم انگا سفر آ، ل
 data-other-librispeech-description = LibriSpeech تقریباً 1000 گھنٹہ نا 16Khz خوانوکا انگریزی تقریر نا اسہ مجموعہ ئس اے ہراکے LibriVox منصوبہ آن خوانوکا آڈیو کتاب آن النگانے۔
 data-other-ted-name = TED-LIUM کارپس
 data-other-ted-description = دا TED-LIUM کارپس تواری ہیت آن جوڑ مسونے و دافتا درشان نا TED ویب سائٹ آ تخوکے۔
+data-other-voxforge-description = VoxForge ئے مفت و اوپن سورس اسپیچ ریکگنیشن انجناتے تون اوار استعمال کننگ کہ تران کروکا ہیت آتا جمع کننگ جوڑ مسوسس۔

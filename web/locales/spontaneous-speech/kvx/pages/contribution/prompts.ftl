@@ -24,3 +24,7 @@ learn-how-to-use-prompts = حِصو لِيڌا رو طرِيقو زوڻوو
 learn-how-to-use-prompts-explanation = ڀس لکائِي رو جتو ٿئہ هيڪئہ قُڌرتي طريقا ٿِي جواڀ ۮيو پرو ڪا ترڻ جملو ۾۔ آپري ٻولِي بيڌلزاري ٺاوين راکو۔
 learn-how-to-use-prompts-guidance = چيڪ<guidanceLink> ايئٿہ</guidanceLink> زم تمي زوڻي هيڪو جئي پونيا نئہ ڪم ڪرينَ استعمال ڪروو۔
 learn-how-to-use-transcribe = ٻولِي رو طريقي ڪار شِيکو
+learn-how-to-use-transcribe-explanation = جئي منک ڪيِڌو، اوئا نئہ همروم هم لکو،جيام هون سوچو ريو، ڪا مونئہ هممڀرتو نٿِي۔
+learn-how-to-use-transcribe-guidance = چيڪ<guidanceLink> ايئٿہ</guidanceLink> زم تمي زوڻي هيڪو جئي پونيا نئہ ڪم ڪرينَ استعمال ڪروو۔
+learn-how-to-use-check-transcript = شِيکو جئي ٻولِي رو طريقي ڪار نئہ ڪم ڪرينَ چيڪ ڪريو زئه
+learn-how-to-use-check-transcript-guidance = چيڪ<guidanceLink> ايئٿہ</guidanceLink> زم تمي زوڻي هيڪو جئي پونيا نئہ ڪم ڪرينَ استعمال ڪروو۔
