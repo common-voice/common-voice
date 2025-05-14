@@ -30,10 +30,31 @@ request-new-language = ٻولِي رئي ڌرخواست ۮيو
 respond-to-prompt = جواڀ
 transcribe = متن ۾ ڀڌلاوو
 check-transcriptions = دوهرائِي
+question = سوئال
 
 ## Not Found Page
 
 not-found-page-header = نٿي زۯيو
+not-found-page-content = جيو پونيو تمي ڳوتو ريا، اُو نٿِي زۯيو هيڪيو
+# Privacy and Terms checkbox
+accept-privacy-and-terms = هُون ڪومنَ وائيس را <termsLink>قائيڌا</termsLink>انَ<privacyLink>پرائيويسي نوٽِس</privacyLink>
+# Locales
+bsy = صڀاح ڀسايا
+cdo = فوزو
+cpx = هينگ هوا
+en = انگريزِي
+fr = فرينچ
+hch = وِيڪاسرِيڪا
+kzi = ڪيلاڀٽ
+mbf = بابا مالائي
+mmc = مِڪُوئاڪيئنَ مزهُوئا
+msi = بابا مالائي
+pez = اِيسٽرنَ مائِينَ
+pne = اِيسٽرنَ مائِينَ
+tr = تُرڪِش
+xkl = ڪينِي
 
 ## Language search component
 
+language-search-placeholder = هيڪِي ٻولِي رو اِنتخاب ڪرو۔۔۔
+language-search-aria-label = هيڪِي ٻولِي رو اِنتخاب ڪرو

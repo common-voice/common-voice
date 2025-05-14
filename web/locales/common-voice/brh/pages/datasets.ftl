@@ -71,3 +71,12 @@ dataset-metadata-sex = جنس
 dataset-metadata-age = عمر
 donate-modal-message = نما ڈیٹا سیٹ ڈاؤن لوڈ مننگ اے!
 dataset-donate-modal-heading = انت نم چارے…
+donate-modal-explanation-1 = ڈیٹا سیٹس نا میزبانی کننگ و 100+ زبان نا مخلوق آتیکن پلیٹ فارم ئے جوان جوڑ کننگ کے تقریباََ اسہ ملین ڈالر سالانہ خڑچ مریک ہرادے نن کینہ؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>اگہ نم بھلا، جامع ڈیٹا نا قدر ئے کیرے۔ اینو ندر کبو!</bold>
+data-download-singleword-title = اسہ لوز نا سیگمنٹ ئے ڈاؤن لوڈ کبو
+data-download-singleword-callout-v2 = دا اسہ استعمال مروکاتیا چلینگوکو پتہ ئس اے ہراٹی پاروکا ہندسہ غاتا پجار آؤ/اخہ ئے معلوم کننگ کن ڈیٹا مریک
+data-download-button = کامن وائس نا ڈیٹا ئے ڈاؤن لوڈ کبو
+data-download-yes = جی آؤ
+data-download-deny = اخہ
+data-download-license = لائسنسد: <licenseLink>CC-0</licenseLink>
