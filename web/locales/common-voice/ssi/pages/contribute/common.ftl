@@ -95,9 +95,9 @@ shortcut-vote-no = ائن
 
 ## Validation criteria
 
-contribution-criteria-nav = معیار
-contribution-criteria-link = یوگدان کے معیار  کُو سمجو
-contribution-criteria-page-title = یوگدانا کا معیار
+contribution-criteria-nav = ماݨک
+contribution-criteria-link = یوگدانا کا ماݨک  جاݨو
+contribution-criteria-page-title = یوگدانا کا ماݨک
 contribution-criteria-page-description = سمجو کہ آواجا کا ٹُکڑا سُٹؔتیاٹؔے کیا لہوڑنا ہے اور اپٹؔی آواجا کُو ودھیک اجری ٻٹؔاٹؔیم ساہیتا کرو!
 contribution-for-example = ایک ٻات ہے
 contribution-misreadings-title = گلت سمجٹؔا
