@@ -1,7 +1,7 @@
 action-click = not̆aǩulit
 action-tap = nantzit
-contribute = Eǩoşvelu
-review = Meotzǩedi
+contribute = Nuşvelit
+review = Notsadi
 skip = Moyoǩap̌i
 shortcuts = Gzamǩulepe
 clips-with-count-pluralized =
