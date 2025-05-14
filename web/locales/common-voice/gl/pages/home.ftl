@@ -75,10 +75,10 @@ read-more-about = Máis información na pestana "Sobre nós"
 
 ## NAV ITEMS
 
-answer-questions = Responder preguntas <small>(Proximamente)</small>
-review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
-add-questions = Engadir preguntas <small>(Proximamente)</small>
-transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
+answer-questions = Responder preguntas
+review-transcriptions = Revisar transcricións
+add-questions = Engadir preguntas
+transcribe-audio = Transcribir gravacións
 press-and-stories = Comunicación, novas
 community-and-languages = Comunidade, idiomas
 coming-soon = Proximamente

@@ -1,9 +1,14 @@
-action-click = Met̆aǩulu
-action-tap = Ombolina
+action-click = not̆aǩulit
+action-tap = nantzit
 contribute = Eǩoşvelu
 review = Meotzǩedi
 skip = Moyoǩap̌i
 shortcuts = Gzamǩulepe
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> xoma doloçhara
+       *[other] <bold>{ $count }</bold> xoma doloçharape
+    }
 contribute-more =
     { $count ->
         [one] { $count } daha dido-muşi oxenus xadziri ore-i?
