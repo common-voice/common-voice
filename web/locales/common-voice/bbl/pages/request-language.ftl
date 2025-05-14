@@ -11,3 +11,4 @@ request-language-form-info-explanation-list-1 = შუ მატტიჼ წა
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO- კოდი</isoCodeLink>, ხეჸეჰ̦ შუჼ
 request-language-form-info-explanation-list-3 = საიტაჼ ბმული, მე́ნხუჲჩუჲშვა́ჲ ღაზი́ვხ ბაბწო́თხ შუჼ მოტტ
 request-language-google-recaptcha-required = reCAPTCHA ჲეწი́შ ჲე́ჴაჼ (გა́ვლადჲაჼ), მე ნიყ ბა́ჴლუჲში̆ (გაგრძე́ლბადოლუჲში̆)
+request-language-google-recaptcha-error = უ̂ნახ ხარცხილ'არ (ხარვეზ) გუდა́ლ'ეჼ reCAPTCHA-ლო. დეხო́თხ, ტყო́ჸ ცადდო́ლუჲში̆
