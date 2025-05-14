@@ -56,7 +56,7 @@ review-error = اس ٻولا کی جانچ کرتییاݨیں  ایک کھراب
 review-error-rate-limit-exceeded = آپ سپا تکڑے  جائی رے  ہے. کِرپا کری اس ٻولا کی جانچ کرنے نتر ایک پلا کا سمے لئیو تاکہ یو نِسچت ٻٹؔایا جائی سِکے کہ یو سئی ہے۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ہم کائیں ٻڈؔے پریورتن کریرے ہے
-sc-redirect-page-subtitle-1 = ٻول جما کرنواڑی گودا کامن وائس پلیٹ فارماپ  رواں ہوئی رہا ہے۔ اِٻکے آپ کامن وائس پر ایک ٻول <writeURL>لکھی</writeURL> سِکتے ہیں یا ایکلا ٻول جما کراوٹؔے کا <reviewURL>جائجہ لی</reviewURL> سِکتے ہیں۔
-sc-redirect-page-subtitle-2 = دؔسوی <matrixLink>،</matrixLink> <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> پر ہم سے سُوالات ٻوجھو۔
+sc-redirect-page-subtitle-1 = ٻول بھیلے کرنواڑی بُڑاند سادھارݨ اواج پلیٹ پھارماپ  جائیرا را ہے۔ اِٻکے آپ سادھارݨ اواجاپ ایک ٻول <writeURL>لکھی</writeURL> سِکتے ہے یا ایکلا ٻول جما کراوٹؔیں کا <reviewURL>جائجا لی</reviewURL> سِکتے ہے۔
+sc-redirect-page-subtitle-2 = ہم سے <matrixLink>،</matrixLink> <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> پر ہم سے سُوالات ٻوجھو۔
 # menu item
 review-sentences = ٻولیں کُو اَدؔائے دؔیکھو
