@@ -1,13 +1,13 @@
-listen = سُٹؔنا
-listen-subtitle = آواجیں کُو اوݪکھٹؔیم مھاری ساہیتا کرو
-listen-instruction = { $actionType }<playIcon></playIcon> کیا اُنون سئہی ٻول ٻولے؟
-listen-again-instruction = سپا اجرا کام ہے! <playIcon></playIcon> جِدؔ تھم تیار ہؤے تو پُٹھا سُٹؔو
+listen = سُٹؔناں
+listen-subtitle = اواجیں کُو اوݪکھٹؔینٚم مھاری ساہیتا کرو
+listen-instruction = { $actionType }<playIcon></playIcon> کیا اُنُون سئی ٻول ٻولے؟
+listen-again-instruction = سپا اجرا کام ہے! <playIcon></playIcon> جِدؔ تھم تیار ہؤے تو پُوٹھا سُٹؔو
 listen-3rd-time-instruction = 2 نیچے، کرا کر!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> پچھاڑی!
-listen-empty-state = ہوإی سِکتا ہے کہ مھارے کن ٹُکڑے کُھوٹی گئے ہؤے پنے کُو چیٹا کرو، یا پیچھیں پُٹھا جتن کرو۔
-listen-empty-state-variants = ہوئی سِکتا ہے کہ تھاری ٻولیا کا ورژن  ٹُکڑیس  ٻار ہووے! اگر تھم آراماس ہے تو تھم اپٹؔی ٻولیا کے مہم دؔوجے ٻول  اپٹؔی کتارا کُو بدلی کری سِکتے ہے۔
-listen-loading-error = ہم تھارے نتر سُٹؔنے کُو کوئی آڈیو کا ٹُکڑا لی نائی سِکے۔ کِرپا کری کن پُٹھیا جتن کرو۔
-listen-abort-title = ٹُکڑے کُو اوݪکھ کُھٹاؤ؟
+listen-empty-state = ہوئی سِکتا ہے کہ مھارے کن ٹُکڑے کُھٹی گے ہووے پنے کُو چِٹا کرو، یا پِیچھیں پُوٹھا جتن کرو۔
+listen-empty-state-variants = ہوئی سِکتا ہے کہ تھاری ٻولیا کا ورژن  ٹُکڑینٚس  ٻاہر ہووے! اگر تھم اراماس ہے تو تھم اپٹؔی ٻولیا کے مئھیم دؔوجے ٻول  اپٹؔی کتارا کُو ٻدݪی سِکتے ہے۔
+listen-loading-error = ہم تھارے نتر سُٹؔنیں کُو کوئی آڈیو کا ٹُکڑا لی نائیں سِکے۔ کِرپا کری کن پُوٹھوانٚس جتن کرو۔
+listen-abort-title = ٹُکڑے کی اوݪکھ کُھٹاؤ؟
 listen-abort-cancel = اوݪکھ کرا کر
 listen-abort-confirm = اوݪکھ پُوری کرو
 # Menu item
