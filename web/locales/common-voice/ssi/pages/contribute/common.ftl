@@ -72,20 +72,20 @@ shortcut-skip = ایس
 shortcut-record-toggle = ار
 shortcut-record-toggle-label = بھرنا / روکٹؔا
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = ٹُکڑا پُٹھا بھرنا
+shortcut-rerecord-toggle-label = ٹُکڑا پُوٹھا بھرنا
 shortcut-discard-ongoing-recording = ای ایس سی
 shortcut-discard-ongoing-recording-label = بھرتوڑے کُو چھوڈؔی دؔیو
-shortcut-submit = پُٹھا
+shortcut-submit = پُوٹھا
 shortcut-submit-label = ٹُکڑا بھیݪا کرنا
-request-language-text = انجے تائی سادھارن آواجاپ تھاری ٻولی نائی دؔیسی؟
-request-language-button = ایک ٻولیا کی اپیل کرو
+request-language-text = آنجے تائیں سادھارن اواجاپ تھاری ٻولی نائیں دؔیسی؟
+request-language-button = ایک ٻولیا کی ٻِنتی کرو
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پی
-shortcut-play-toggle-label = چلاٹؔا / روکٹؔا
+shortcut-play-toggle-label = چلاوٹؔا / روکٹؔا
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = وائے

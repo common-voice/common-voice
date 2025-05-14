@@ -43,3 +43,4 @@ other-datasets = ایلو توار نا ڈیٹا سیٹاک
 feedback-q = انت خیالاکو؟
 # This indicates that there is no data to display
 no-information = ہچو چاہنداری ئس اف
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ اسہ <docsLink>اوپن سورس ٹول کٹ</docsLink> ان پولکارتے کن اے ہرا جدید انگا ہیت و گپ کن AI ماڈلاک تیار کننگ او۔
