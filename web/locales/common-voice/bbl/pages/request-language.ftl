@@ -24,3 +24,4 @@ need-help-deciding-platform = ლე́ჸი შუჼ ხაჸაჼ, მე́
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>დაწე́რადიენო̆ გახმო́ვანებადარ </strong>(ეჴუვ ჲა ჲა́ლ'ენო̆  Common Voice) ო ა́ლ'ანდა, მე́ წინადა́დბი ჰ̦ალო̆ ჲეწი́შ ხა́ტტაჼ შუჲ მატტანმაქ
 need-help-deciding-platform-explanation-2 = <strong>ჰ̦ალო̆ცოხე́ტტოშ ა́მბუჲ ჲარ</strong> წინ საშუა́ლებ ჲა, მე́ნუხა́ჲ Common Voice-ენ მაკე́, შუჼ მაკალათ პაჲსხი თე́ლ'აჼ მუჲლნე́ჴელბა (ბუნებრივ) ა́მბუჲ ჲო́ჩო̆ მატტავ
+need-help-deciding-platform-explanation-3 = შუჼ მოტტ ცო ხი́თჩე შუჼ ლე ცჰ̦აჲნი̆, ლე შილღეჩო̆ ნაჲწლე, მითითბადჲებათ შიკეჸ.

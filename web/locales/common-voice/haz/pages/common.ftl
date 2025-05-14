@@ -278,8 +278,12 @@ tig = ݖیگری
 tk = تورکمئنی
 tl = ݖئگالوگ
 tn = سېݖیسوانا
+tob = تۉبا قوم
 tok = ݖۉکی پۉنا
+top = پئپئنݖلا ݖۉݖۉنېک
 tr = تورکی
+trv = سیدیق
+trw = تۉروالی
 ts = ایݖسونگا
 tt = تاتار
 tui = ݖوپوری
@@ -291,17 +295,25 @@ uby = اوبېخ
 udm = اۮمئرݖ
 ug = اویغور
 uk = اوکرانیئن
+ukv = کوکو
 ur = اوردو
+ush = اوشوجو
 uz = اۉزبئکی
+var = یواریجیو
 ve = ݖیشیوېندا
 vec = وېنېݖیئن
 vi = ویتنامی
 vmw = ایماخووا
 vot = وۉݖیک
+wbl = واخی
 wep = وېسݖ فېلیئن
 wes = کېمیرون پیۮگین
 wo = وولوف
 xh = ژۉسا
+xhe = کېترانی
+xka = کئلکۉݖی
+xmf = مینگریلیئن
+yaq = یاقیویی
 yi = ییدیش
 yo = یوروبا
 yue = کېنݖۉنیس
@@ -309,6 +321,7 @@ zgh = ݖئمازیخت
 zh-CN = چینایی
 zh-HK = چینایی (اۉن کۉنگ)
 zh-TW = چینایی (تایوانی)
+zoc = کۉپېنالا زۉکوی
 zu = زولو
 zza = زازا
 
@@ -349,3 +362,10 @@ not-available-abbreviation = این/اې
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = مۉ کۉمئگ شوم لازیم دیرې
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ساالانۂ تئقریبئن یئگ میلیون ۮالئر مئسرئف دیرۂ امی کی ۮېݖاسېݖ رۂ میگری و زئمینۂ رۂ بېتئر مونی بئلدې از 100 زیاد زیبۉنای کی مۉ بئلدې شی کار مونی۔ اگئر قئدر شی مونی واز کو٬ ایمرۉز وئقف کو
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = بئلدې سوراغ سورچی یا ریسئرچ خو سی وی لازیم دیرې؟
+languages-donate-banner-cta-explanation = کامئن وایس کۉمئگ موشۂ قئد کۉمئگی مالی! مۉ خۉش دیرې کی قئد اکادیمیا٬ جامیې مئدئنی و مئراکیزی تئقیقی شئریگ کار کئنی۔ کامئن وایس موفتۂ مئگئر نکۉمئگ مالی کدۉ رۂ نیاز دیرۂ
+localization-select =
+    .label = زیبۉ یا لۉکئلایزېشئن رۂ سونغو کو
