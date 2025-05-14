@@ -8,6 +8,9 @@ select-your-age = تماري زمار سُنڊو
 gender-select-label = تماري جنس ڪا جنسيت ڪِي سئہ؟
 select-your-gender = تماري جنس نئہ سُنڊو
 country-of-residence-label = تمارو ريا واۯو ملڪ/ ڪا علاقو
+country-of-residence-placeholder =
+    .placeholder = تمارو ريا واۯو ملڪ/ ڪا علاقو ڌرج ڪرو
+why-are-you-asking = تمي ڪم پُونسو رياه؟
 
 ## Gender dropdown
 

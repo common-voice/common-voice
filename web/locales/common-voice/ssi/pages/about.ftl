@@ -45,9 +45,9 @@ about-get-involved-text-2 =
     بڑِیا! ای میل یا <discourseLink>ڈسکوریں</discourseLink> کے جرِیے سمپرک کرو
     فورمز، سائٹا کے مسلے <githubLink>گٹ ہبا</githubLink> کے جرِیے جما کراؤ، یا اس میں سیمل ہووَ
     <matrixLink>میٹرکس</matrixLink> کمیونٹی چیٹ.
-about-stay-in-touch = ہُوں سمپرکام کِدؔا رہی سِکتا ہے؟
+about-stay-in-touch = ہُوں سمپرکام کِدؔا رiہی سِکتا ہے؟
 about-stay-in-touch-button = سائن اپ کرو
-about-stay-in-touch-text-1 = یو جاٹؔنیں نتر کہ آپ سادھارٹؔ اواجاپ ابھیان ، کارِھئے اور بھیݪا ڈِجانا کا نوے پنیم کِدؔا بھاگ لی سِکتے ہے ، مھاری میلنگ لسٹام <emailFragment>سائن اپ</emailFragment> کرو۔
+about-stay-in-touch-text-1 = یو جاٹؔنیں نتر کہ آپ سادھارٹؔ اواجاپ ابھیان ، کاہرِئے اور ڈِجانا کے بھیݪا نوے پنیم کِدؔا بھاگ لی سِکتے ہے ، مھاری میلنگ لسٹام <emailFragment>سائن اپ</emailFragment> کرو۔
 about-stay-in-touch-text-2 = آپ موزیلا بھاشا کی کُومیم دُؔوجینٚس مِلی سِکتے ہے اور کاماڑی کچیرِیا نتر <discordLink>ڈسکورڈ</discordLink> یا <discourseLink>ڈسکورس</discourseLink> ، یا اسِیاٹؔیں سلاہ نتر <matrixLink>میٹرکسام</matrixLink> سیمل ہوئی سِکتے ہے۔
 about-nav-why-common-voice = کاکام؟
 about-nav-how-it-works = کِدؔا؟
