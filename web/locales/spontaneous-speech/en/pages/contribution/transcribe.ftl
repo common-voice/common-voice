@@ -10,4 +10,4 @@ error-playing-audio = Error while playing audio file.
 error-fetching-audio = Something went wrong while fetching audio for transcriptions. Please try again later.
 
 # Message which appears when there are no more resources on this page
-no-audio-message = There is currently no audio to transcribe for this language. Continue to see your skipped content or go to transcribe audio and try again later.
+no-audio-message = There is currently no audio to transcribe for this language. Continue to see your skipped content or go to review transcriptions and try again later.
