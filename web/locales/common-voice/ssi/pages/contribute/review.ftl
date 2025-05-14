@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = وائے
 sc-review-form-button-reject-shortcut = این
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایَس
-sc-review-form-keyboard-usage-custom = تھم کی بورڈ شارٹ کٹا کا  اُپیوگ کری سِکتے ہیں: { sc-review-form-button-approve-shortcut } سیوکار کرنے نتر، { sc-review-form-button-reject-shortcut } سے چھوڈؔٹؔےنتر، { sc-review-form-button-skip-shortcut } کُو اسکیپ کرنے
+sc-review-form-keyboard-usage-custom = تھارے بورڈ شارٹ کٹا کا  اُپیوگ کری سِکتے ہیں: { sc-review-form-button-approve-shortcut } سُئِیکر کرنے نتر، { sc-review-form-button-reject-shortcut } سے چھوڈؔٹؔےنتر، { sc-review-form-button-skip-shortcut } کُو چھوڈؔݨیں
 sc-review-form-button-submit =
     .submitText = آکھرِیاڑا دؔیکھٹؔاں
 # Variables:
@@ -31,7 +31,7 @@ sc-review-form-reviewed-message =
         [one] ایکی ٻولا کُو دؔیکھی لیا ۔ دھنیواد!
        *[other] { $sentences } ٻولیں کُو دؔیکھی لیا ۔ دھنیواد!
     }
-sc-review-form-review-failure = دؔیکھٹؔاں اَدؔائے نائِیں  کرا جائی سِکا۔ کِرپا کری پِچھیں  پُٹھوانٚس کوسِس کرو۔
+sc-review-form-review-failure = اَدؔائے نائِیں دؔیکھا گیا۔ کِرپا کری پِچھیں  پُوٹھوانٚس جتن کرو۔
 sc-review-link = دؔیکھٹؔاں
 
 ## REVIEW CRITERIA
