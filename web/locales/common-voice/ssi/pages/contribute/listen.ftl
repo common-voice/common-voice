@@ -25,4 +25,4 @@ review-transcriptions-menu-item-tooltip = اپٹؔی ٻولیام اُپبھوگ
 
 listen-contribute-menu-aria-label = سُٹؔنواڑے کے ادھِیکاریں کی سُوچی
 validate-readings-menu-item-aria-label = پیڑے کے میبریں کی ترپھاس بھیݪی کروڑی پرکھوڑی لِکھت
-review-transcriptions-menu-item-aria-label = سچائی نتر  ریکارڈ کروڑے ٻولیں کی نکل کُو ایدؔائے دیکھو
+review-transcriptions-menu-item-aria-label = سچائِیا نتر  ریکارڈ کروڑے ٻولیں کی نکݪا کُو ایدؔائے دیکھو

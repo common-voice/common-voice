@@ -1,4 +1,4 @@
-action-click = دؔٻاٹؔا
+action-click = دؔٻاوٹؔاں
 action-tap = تھپکی
 contribute = یوگدان دؔیٹؔا
 review = جائجا لئیو
