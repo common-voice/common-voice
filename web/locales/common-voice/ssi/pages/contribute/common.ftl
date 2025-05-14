@@ -125,14 +125,14 @@ contribution-varying-pronunciations-title = دؔوجے لیہکے
 contribution-varying-pronunciations-description = اس بُڑانداپ کسی ٹُکڑے کو چھوڈؔٹؔینٚس آگے ادٚائے ریہو کہ پڑھنواڑین کسی سٻدؔا کا گلت لیہکا کرا ہے،دِکتا کُو گلت جھاگاپ دھرا ہے، یا دؔیکھݨینٚم تو سُئالاڑا نِساٹؔ اندؔیکھا کری دؔیا ہے۔ سنسارام الگ نامُونے کے لیہکے کا اُپیوگام ہے، جِنمیں سے کئی تھمُون اپٹؔی سادھارݨ سمُودائے میں نائیں سُٹؔیں ہوونٚگے۔ کِرپا کری کن اِن منکھیں نتر پرسنسا کا ایک سیما اُپلبدؔ کراؤ جکو تھم سے نیاری ٻات کری سِکتے ہے۔
 contribution-varying-pronunciations-description-extended = دؔوجے پاسے، اگر تھمکو لکھاوتا ہے کہ ہوئی سِکتا ہے پڑھنواڑے کُو آگے کِدؔھی یو سٻدؔ نائیں مِلا، اور ٻو رُگی لیہکیپ گلت انداجا لگائی را ہے، تو کِرپا کری کن رد کری دؔیو۔ جے اگر تھمکو وِسواس نائیں تیا تو، سِرکاݨواڑا ٻٹٹؔا کا اُپیوگ کرو۔
 contribution-varying-pronunciations-example-1-title = اُس کے مُڈؔاپ اُس کی ٹوپی ٻاوڑی تی۔
-contribution-varying-pronunciations-example-1-explanation = [‘Beret' سہی ہے جاہے پہلے سٻد (UK) یا دؔوجے  (US) پر جورا کے سات]
-contribution-varying-pronunciations-example-2-title = اُس کا ہات اُٹھوڑا تیا۔
-contribution-varying-pronunciations-example-2-explanation = [انگریجیام ‘Raised’ کا لہجا سدائیں ایکی سٻدا کے توراپ ہوتا ہے، دؔو نائی]
-contribution-background-noise-title = لارکا گاریا
+contribution-varying-pronunciations-example-1-explanation = [‘Beret' سئی ہے چاہے آگے سٻدؔ (UK) یا دؔوجے  (US) پر جورا کے سات]
+contribution-varying-pronunciations-example-2-title = اُس کا ہات اُوٹھوڑا تیا۔
+contribution-varying-pronunciations-example-2-explanation = [انگریجیام ‘Raised’ کا لیہکا سدائیں ایکی سٻدؔا کے توراپ ہووتا ہے، دؔو نائیں]
+contribution-background-noise-title = لارکا گاہرِیا
 contribution-background-noise-description =
-    ہم چاہوتے ہے کہ مسین سِیکٹؔیں کا نِکسا نِیارے نِیارے نمونے کے لارکے گاھرِئے کُو ساںمبھٹٚیں کاما کا ہے،
-    اور ایٹھے تائیں تو اُسجو ہے آواجیں کُو بھی مانا جائی سِکتا ہے اُس کے بھیݪا ٻو تھمکُو پورا کتھن سُٹؔنیس نائی روکے ۔ لارکی سانتِیا کا سنگیت سئی ہے؛ سنگیت تھمکُو ہر ایک سٻدا کُو سُٹؔنیس روکٹؔیں نتر گھٹؔا تیج ہے۔
-contribution-background-noise-description-extended = جئے اگر بھروڑی آواج ٹُوٹی جاوتی ہے، یا اِس میں تئیڑاں پڑتیاں ہیں، اُس تائیں چھوڈؔی دؔیو جس تائیں کہ پُورا کتھن سُٹؔا نائی جائی سِکے۔
+    ہم چاہوتے ہے کہ مسین سِیکٹؔیں کا نِکسا نِیارے نِیارے نامُونے کے لارکے گاھرِئے کُو ساںمبھٹٚیں کا کام ہے،
+    اور ایٹھے تائیں تو اُسی جو ہے اواجیں کُو بھی مانا جائی سِکتا ہے اُس کے بھیݪا ٻو تھمکُو پورا کتھن سُٹؔنیس نائیں روکے ۔ لارکی سانتِیا کا سنگیت سئی ہے؛ سنگیت تھمکُو ہر ایک سٻدؔا کُو سُٹؔنیس روکٹؔیں نتر گھٹؔا تیج ہے۔
+contribution-background-noise-description-extended = جے اگر بھروڑی آواج ٹُوٹی جاوتی ہے، یا اِس میں تیڑاں پڑتیاں ہیں، اُس تائیں چھوڈؔی دؔیو جس تائیں کہ پُورا کتھن سُٹؔا نائیں جائی سِکے۔
 contribution-background-noise-example-1-fixed-title = <strong>[چھیک]</strong> پُراتن کال<strong> [کھانٚگا]</strong> کے سپا ٻڈؔے ڈائنوسار۔
 contribution-background-noise-example-2-fixed-title = دیو ڈائنو <strong>[کھانٚگ]</strong> پُرتن کال۔
 contribution-background-noise-example-2-explanation = [کتھنا کا کئی بھاگ سٹؔا نائی جائی سِکے]

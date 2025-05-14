@@ -27,4 +27,5 @@ learn-how-to-use-transcribe = ٻولِي رو طريقي ڪار شِيکو
 learn-how-to-use-transcribe-explanation = جئي منک ڪيِڌو، اوئا نئہ همروم هم لکو،جيام هون سوچو ريو، ڪا مونئہ هممڀرتو نٿِي۔
 learn-how-to-use-transcribe-guidance = چيڪ<guidanceLink> ايئٿہ</guidanceLink> زم تمي زوڻي هيڪو جئي پونيا نئہ ڪم ڪرينَ استعمال ڪروو۔
 learn-how-to-use-check-transcript = شِيکو جئي ٻولِي رو طريقي ڪار نئہ ڪم ڪرينَ چيڪ ڪريو زئه
+learn-how-to-use-check-transcript-explanation = لکائِي ۾ هر اُو وات لکو کپہ جئو منک ڪيِڌي هوئہ، ڀلئہ اُو جملو هوئہ ڪا سوچو، ياد۔، جئيوي آوزو ان ڌئرائي ڪرل جملا پڻ شامل هوئہ۔
 learn-how-to-use-check-transcript-guidance = چيڪ<guidanceLink> ايئٿہ</guidanceLink> زم تمي زوڻي هيڪو جئي پونيا نئہ ڪم ڪرينَ استعمال ڪروو۔
