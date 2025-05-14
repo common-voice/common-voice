@@ -75,13 +75,13 @@ about-playbook-how-add-language-translating-heading = سائٹا کا انواد
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹونا کُو چلاوٹؔیں کے باریم مھاری مارگ درشک دیکھو۔</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     ہم انواد کرنے نتر <pontoonLink>پونٹون</pontoonLink> ناوا کا موزیلا ٹول چلاوتے ہے۔ پونٹونام  کھاسیاں ٻولیاں ہے،
-    پٹؔ جے اگر اس میں تھاری ٻولی نائیں تی تو تھم <pontoonRequestLink>اپٹؔی ٻولی شیمل کرنے کی ٻِنتی کری سِکتے ہے</pontoonRequestLink>۔
+    پٹؔ جے اگر اس میں تھاری ٻولی نائیں تی تو تھم <pontoonRequestLink>اپٹؔی ٻولی سیمل کرنے کی ٻِنتی کری سِکتے ہے</pontoonRequestLink>۔
     اس کے پِچھیں ، ٻولیا کُو سادھارٹؔ آواج پروجیکٹاپ ماجُود کرنے نتر ،
-    <githubRepoLink>گیٹ ہباپ  نویں ٻولیا کی بِنتی کرو</githubRepoLink>۔ <localizationFragment>سائٹ انوادام ودھیک دؔیکھو</localizationFragment>.
+    <githubRepoLink>گیٹ ہباپ  نویں ٻولیا کی بِنتی کرو</githubRepoLink>۔ <localizationFragment>سائٹ انوادام ودھیک دؔیکھو</localizationFragment>.</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = ٻول بھیݪے کرنا
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>مھارا مارگ درسک دؔیکھو کہ ٻول بھیݪے کرنواڑیں کُو کِدؔا اُپیوگ کراں</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
-    آپ <sentenceCollectorLinkAdd>لھوڑی گِنتِیام ٻول سیمل کری سِکتے ہے</sentenceCollectorLinkAdd>،
+    آپ <sentenceCollectorLinkAdd>تھوڑے سِک ٻول سیمل کری سِکتے ہے</sentenceCollectorLinkAdd>،
     یا آپ <bulkImportDocsLink>گیتھبا کا اُپیوگ کرتوڑے ودھ میں ودھ لوڑی سِکتے ہے</bulkImportDocsLink>۔
     یاد راکھو کہ ٻول <licenseLink>سی سی 0 (یا جنتا ڈومین)</licenseLink> ہووٹؔاں جروری ہے، یا آپ اپٹؔا لِکھی سِکتے ہے.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ٻول بھیݪے کرنے کے باریم ودھیک دیکھو</sentenceCollectorFragment>.
@@ -91,15 +91,15 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائٹ لوکلائزیشن کِدؔا کام کرتی ہے؟
 about-playbook-how-localize-content-1 = سادھارٹؔ اواج سائٹا کا انواد <strong>پونٹوناپ</strong> ہووتا ہے۔
 about-playbook-how-localize-content-2 = اگر تھارے کن اکاؤنٹ نائیں ہے تو ایک <pontoonAccountLink>اکاؤنٹ بݨاؤ</pontoonAccountLink>۔ اس کے پِچھیں ، اپٹؔی بھاشا <strong>('ٹیم') چُناؤ کرو</strong> اور پِچھیں پروجیکٹ ، <pontoonCvLink>سادھارٹؔ اواجا کُو چُناؤ کرو</pontoonCvLink>۔ انواد کرنے نتر پھائلاں ہوؤں گِیاں۔ ایکی کُو دؔٻاو ، پِچھیں یو انگریزِیام لوج دِؔکھاوتا ہے اور ان کا انواد کرنے نتر ایک باکس دِؔکھاوتا ہے۔
-about-playbook-how-localize-content-3 = انواد انگریجِیاس ہے، پٹؔ تھم دُؔوجی <strong>ٻولِیئینٚم سُجھاو</strong> دیکھی سِکتے ہے. پروپھائلام آئی کن <strong>پ</strong> دؔٻاوَ ، پِچھیں لیٹِؔیں کُو لنک <strong>کرو</strong> اور کسی بھی بھاشا کُو سیمل کرو جکو آپ ٻولتے ہے۔ نِیچے سونٚݪے کُھوٹؔیم انوادیں کی ایک سُوچی ہوؤنٚگی جِسے <strong>لوکلز</strong> کیہا جاوتا ہے۔ ایکی دِؔنا کے پِچھیں ویب سائٹاپ انواد دِؔکھائے جاوتے ہے۔
+about-playbook-how-localize-content-3 = انواد انگریجِیاس ہے، پٹؔ تھم دُؔوجی <strong>ٻولِیئینٚم سُجھاو</strong> دیکھی سِکتے ہے. پروپھائلام آئی کن <strong>پ</strong> دؔٻاوَ ، پِچھیں لیٹِؔیں کُو لنک <strong>کرو</strong> اور کسی بھی بھاشا کُو سیمل کرو جکو آپ ٻولتے ہے۔ نِیچے سونٚݪے کُھونٚٹؔیم انوادیں کی ایک سُوچی ہوؤنٚگی جِسے <strong>لوکلز</strong> کیہوتے ہے۔ ایکی دِؔنا کے پِچھیں ویب سائٹاپ انواد دِؔکھائے جاوتے ہے۔
 about-playbook-how-localize-content-4 = جِدؔ یو 75٪ نِویڑا ہوئی جاوتا ہے تو سائٹ سِرُو کرنے نتر تیار ہے.
 about-playbook-how-localize-content-5 = ساہئیتا کرنے نتر مھاری ویڈیو وِئیاکھِیا دؔیکھو
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ہُوں ٻول کِدؔا سیمل کرے؟
-about-playbook-how-add-sentences-content-1 = آپ <writePageLink>لِکھٹؔیں کے پنیپ</writePageLink> ٻول سیمل کری سِکتے ہے یا دؔیکھٹؔا پنیپ ٻولیں کُو دیکھی سِلکتے <reviewPageLink>ہے</reviewPageLink>۔
-about-playbook-how-add-sentences-content-2 = ٻولیں کُو دؔیکھٹؔا اور سادھارٹؔ اواجام سیمل کرنے نتر دؔو مِنکھیں کے جرِیئے سُئِیکار کرنا جروری ہے۔ آپ <languageGuidelinesLink>ایٹھے</languageGuidelinesLink> اپٹؔی بھاشا نتر مارگ درشک سیدھانت بناوتے ہے. ٻول <licenseLink>جنتا ڈومینام</licenseLink>  ہووٹؔا چاہجے اور 15 لوَجینٚس کم ہووٹؔا چاہجے. آپ کِسی متنا کے دھٹِؔیاس کیہئِی سِکتے ہے کہ ٻو <waiverLink>مھارے سما کا یتن اُپیوگ کرتوڑے اسکُو سی سی 0</waiverLink> ٻٹؔاوے ، اور ہمکُو commonvoice@mozilla.com بھری کن گھلاؤ۔
+about-playbook-how-add-sentences-content-1 = آپ <writePageLink>لِکھٹؔیں کے پنیپ</writePageLink> ٻول سیمل کری سِکتے ہے یا دؔیکھٹؔا پنیپ ٻولیں کُو دیکھی سِکتے <reviewPageLink>ہے</reviewPageLink>۔
+about-playbook-how-add-sentences-content-2 = ٻولیں کُو دؔیکھٹؔا اور سادھارٹؔ اواجام سیمل کرنے نتر دؔو مِنکھیں کے جرِیئے سُئِیکار کرنا جروری ہے۔ آپ <languageGuidelinesLink>ایٹھے</languageGuidelinesLink> اپٹؔی بھاشا نتر مارگ درشک سیدھانت بناوتے ہے. ٻول <licenseLink>جنتا ڈومینام</licenseLink>  ہووٹؔا چاہِجے اور 15 لوَجینٚس کم ہووٹؔا چاہِجے. آپ کِسی متنا کے دھٹِؔیاس کیہئِی سِکتے ہے کہ ٻو <waiverLink>مھارے سما کا یتن اُپیوگ کرتوڑے اسکُو سی سی 0</waiverLink> ٻٹؔاوے ، اور ہمکُو commonvoice@mozilla.com بھری کن گھلاؤ۔
 about-playbook-how-add-sentences-content-3 = آپ ویکیپیڈیاس تھوڑے ٻول پاٹؔیں نتر <scraperLink>ٻول کاڈؔٹؔ واڑے</scraperLink> کا اُپوگ کری سِکتے ہے۔
 
 ## How to record quality
