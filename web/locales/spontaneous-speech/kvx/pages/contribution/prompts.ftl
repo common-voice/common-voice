@@ -11,6 +11,13 @@ error-fetching-prompts = لکائِي حاصل ڪريا رئہ ٽوڻئہ ڪيئ
 error-uploading-response = رپورٽ ميليا رئہ ٽوڻئہ هيڪ ڳلتئي پيش آوئي
 prompt-submitted-success = متن نئہ ڪامياٻئي ٿِي جمع ڪريو پرو۔
 prompt-response-deleted-success = متن نئہ ڪامياٻئي ٿِي جمع ڪريو پرو۔
+# For the button to delete a response to a prompt
+delete = کتم ڪروُو
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = جمع ٿي ڳيو
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = ٻڌوئي جمع ڪريو پرو
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = حِصو لِيڌا رو طرِيقو زوڻوو
