@@ -48,9 +48,12 @@ hch = وِيڪاسرِيڪا
 kzi = ڪيلاڀٽ
 mbf = بابا مالائي
 mmc = مِڪُوئاڪيئنَ مزهُوئا
-msi = بابا مالائي
+ms-MY = ڀهاسہ مالائي
+msi = ڀَاڀا مالائي
 pez = اِيسٽرنَ مائِينَ
 pne = اِيسٽرنَ مائِينَ
+sdo = سرڀيائي ڀڌايوه
+snv = سڀان
 tr = تُرڪِش
 xkl = ڪينِي
 
@@ -58,3 +61,5 @@ xkl = ڪينِي
 
 language-search-placeholder = هيڪِي ٻولِي رو اِنتخاب ڪرو۔۔۔
 language-search-aria-label = هيڪِي ٻولِي رو اِنتخاب ڪرو
+language-search-label = رڳو ڊيٽا سيٽ رو حصو شيٽي رو ٻولِي ڀڌلي هيڪئہ۔
+language-search-no-results = ڪوئي ٻولِي نٿي زۯي

@@ -79,4 +79,6 @@ data-download-singleword-callout-v2 = دا اسہ استعمال مروکاتی�
 data-download-button = کامن وائس نا ڈیٹا ئے ڈاؤن لوڈ کبو
 data-download-yes = جی آؤ
 data-download-deny = اخہ
-data-download-license = لائسنسد: <licenseLink>CC-0</licenseLink>
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-download-modal = نم <size>{ $size }GB</size> نا ڈاؤن لوڈ کننگ والا اورے، مستی انبو؟
+data-subtitle = ہم تواراتا اسہ ملوکو و السی وڑ اٹ دیٹا سیٹ ئس جوڑ کننگ اے ہرادے ہر اسٹ تران نا قابل ایپلی کیشناتے ترتیب تننگ اٹ کارمرز مننگ کیک۔
