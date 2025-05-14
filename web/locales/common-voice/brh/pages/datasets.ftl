@@ -47,3 +47,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ اسہ <docsLink>ا
 resource-deepspeech-info = موزیلا نا توار نا چاہنگنگ نا  یلہ وسیلہ کن انجن ڈیپ اسپیچ توار چاہنگنگ نا ایپلی گیسنک کے استعال مننگ کیرہ۔ ننا <githubLink>Github جاچ</githubLink> خوانبو یا برجا کننگ نا ہیل کبو کہ امر <discourseLink>DeepSpeech Discourse</discourseLink> شروع کروئی اے۔
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ہیت نا ٹیکنالوجی ئے ملنگ کن وقف اے۔ دافتا منصوبہ نا کڑمبی ٹی ہیل کننگ آ STT و TTS انجن اوار او۔
 community-playbook = مخلوق نا پلے بک
+resource-playbook-info = کامن وائس نا سرجم انگا سفر آ، لوکلائزیشن آن الیس تے ڈیٹاسیٹ نا کارمرزی و ننا مخلوق تون امر ہمگرنچ مروئی اے اوڑکے <playbookLink> راہشونی دوئی کبو</playbookLink>۔
+data-other-librispeech-description = LibriSpeech تقریباً 1000 گھنٹہ نا 16Khz خوانوکا انگریزی تقریر نا اسہ مجموعہ ئس اے ہراکے LibriVox منصوبہ آن خوانوکا آڈیو کتاب آن النگانے۔
+data-other-ted-name = TED-LIUM کارپس
+data-other-ted-description = دا TED-LIUM کارپس تواری ہیت آن جوڑ مسونے و دافتا درشان نا TED ویب سائٹ آ تخوکے۔
