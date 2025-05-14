@@ -44,3 +44,6 @@ feedback-q = انت خیالاکو؟
 # This indicates that there is no data to display
 no-information = ہچو چاہنداری ئس اف
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ اسہ <docsLink>اوپن سورس ٹول کٹ</docsLink> ان پولکارتے کن اے ہرا جدید انگا ہیت و گپ کن AI ماڈلاک تیار کننگ او۔
+resource-deepspeech-info = موزیلا نا توار نا چاہنگنگ نا  یلہ وسیلہ کن انجن ڈیپ اسپیچ توار چاہنگنگ نا ایپلی گیسنک کے استعال مننگ کیرہ۔ ننا <githubLink>Github جاچ</githubLink> خوانبو یا برجا کننگ نا ہیل کبو کہ امر <discourseLink>DeepSpeech Discourse</discourseLink> شروع کروئی اے۔
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ہیت نا ٹیکنالوجی ئے ملنگ کن وقف اے۔ دافتا منصوبہ نا کڑمبی ٹی ہیل کننگ آ STT و TTS انجن اوار او۔
+community-playbook = مخلوق نا پلے بک

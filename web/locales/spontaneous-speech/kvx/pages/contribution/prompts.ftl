@@ -21,3 +21,5 @@ submit-all-button = ٻڌوئي جمع ڪريو پرو
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = حِصو لِيڌا رو طرِيقو زوڻوو
+learn-how-to-use-prompts-explanation = ڀس لکائِي رو جتو ٿئہ هيڪئہ قُڌرتي طريقا ٿِي جواڀ ۮيو پرو ڪا ترڻ جملو ۾۔ آپري ٻولِي بيڌلزاري ٺاوين راکو۔
+learn-how-to-use-prompts-guidance = چيڪ<guidanceLink> ايئٿہ</guidanceLink> زم تمي زوڻي هيڪو جئي پونيا نئہ ڪم ڪرينَ استعمال ڪروو۔
