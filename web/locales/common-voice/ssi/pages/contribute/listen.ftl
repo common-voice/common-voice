@@ -9,7 +9,7 @@ listen-empty-state-variants = ہوئی سِکتا ہے کہ تھاری ٻولی�
 listen-loading-error = ہم تھارے نتر سُٹؔنیں کُو کوئی آڈیو کا ٹُکڑا لی نائیں سِکے۔ کِرپا کری کن پُوٹھوانٚس جتن کرو۔
 listen-abort-title = ٹُکڑے کی اوݪکھ کُھٹاؤ؟
 listen-abort-cancel = اوݪکھ کرا کر
-listen-abort-confirm = اوݪکھ پُوری کرو
+listen-abort-confirm = اوݪکھ کھتم کرو
 # Menu item
 validate-readings = پڑھنے کی اوݪکھ کرو
 # text wrapped in <small></small> will be shown in a smaller font size
@@ -17,7 +17,7 @@ validate-readings-coming-soon = ریڈنگا کی اوݪکھ کرو <small>(ٻی
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = ریڈنگا کی اوݪکھ کرو، نکلی کُو ایدؔائے دؔیکھو
+listen-contribute-menu-tooltip = ریڈنگا کی اوݪکھ کرو، نکݪِیا کُو ایدؔائے دؔیکھو
 validate-readings-menu-item-tooltip = اپٹؔی ٻولیام گیراکا کی لِکھتا کُو پڑھنے کی اوݪکھ کرو
 review-transcriptions-menu-item-tooltip = اپٹؔی ٻولیام گیراکا کی ترپھاس بھیݪا کراوڑا نکلا کُو ایدؔائے دیکھو
 
