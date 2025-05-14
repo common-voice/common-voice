@@ -82,3 +82,18 @@ data-download-deny = اخہ
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-download-modal = نم <size>{ $size }GB</size> نا ڈاؤن لوڈ کننگ والا اورے، مستی انبو؟
 data-subtitle = ہم تواراتا اسہ ملوکو و السی وڑ اٹ دیٹا سیٹ ئس جوڑ کننگ اے ہرادے ہر اسٹ تران نا قابل ایپلی کیشناتے ترتیب تننگ اٹ کارمرز مننگ کیک۔
+data-explanatory-text = نن پُو مرینہ کہ بھلو و السی وڑ اٹ توار ڈیٹا سیٹاتا مشین ہیل کننگ آ مروکا تران ٹیکنالوجی ٹی ترندی و جوانگا واپاری نا مقابلہ غاتے مونی اتیک۔ یہ اسے جہانی کوشست ئس اے کہ ننے کل ئے ساڑی مننگ نا دعوت ئے ایتک۔ ننا مسخت مچا دنیا نا توار آتا بدلی تے اتیسہ تران ٹیکنالوجی ئے پین جوان جوڑ کننگ اٹ کمک کین۔
+data-get-started = <speechBlogLink>تران پجار تون اوار برجا کبو</speechBlogLink>
+data-other-title = ایلو توار نا ڈیٹا سیٹاک…
+data-other-goto = انبو { $name }
+data-other-download = ڈیٹا ئے ڈاؤن لوڈ کبو
+data-bundle-button = ڈیٹا سیٹ نا بنڈل تے ڈاؤن لوڈ کبو
+data-bundle-description = کامن وائس ڈیٹا آن بیدس ایلو کُل توار تا ڈیٹا سیٹاک بڑزا۔
+release-version = ورژن
+dataset-date = دیہاڑ
+license = لائسنس <licenseLink>{ $license }</licenseLink>
+license-mixed = اوار سوار
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ننا توار ڈیٹا سیٹاتے ڈاؤن لوڈ کبو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = کامن وائس ڈیٹا اسکان سر مننگ کن آپشن آتے ڈاؤن لوڈ کبو
