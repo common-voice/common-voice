@@ -43,3 +43,11 @@ sc-criteria-item-1 = جوملا بایئد سئیې نیمیشݷۂ شودۂ شۂ
 sc-criteria-item-2 = جوملا بایئد از روی گرامئر سئیې باشۂ
 sc-criteria-item-3 = جوملا بایئد خاندۂ شونۂ
 sc-criteria-item-4 = اگۂ جوملا قئد ازی شئرتا بئرابئر مئیۂ٬ &quot;رۂ پوچوق کو۔ بئلدې قئبول کیدۉ &quot; بوچچی شی دۂ بوللۉ یۂ
+sc-criteria-item-5-2 = اگۂ جوملا  قئد بئلنۂ شئرتا سئر بئر بئر نئمئیۂ٬ &quot;پوچوق کو و بئلدې رئد کیدۉن شی&quot; اېنی بوچچی دیست چئب رۂ پوچوق کو۔ اگۂ دۂ بارې جوملۂ دیل تو پور نییۂ; میتنی کی تېر بئیی و پېش بۉری
+sc-criteria-item-6 = اگۂ دۂ نئزئر شوم جوملا کئمۂ ٬ از خݷر خو مۉ رۂ بئلدې ݖۉل کیدۉنی جوملۂ کۉمئگ شید
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = تۉغ <icon></icon>آیا امی از روی ایلمی زیبۉ شیناسی سئیې یۂ؟
+sc-review-rules-title = جوملا قئد رانومایی بئر بئر مئیۂ؟
+sc-review-empty-state = دئزی زیبۉ یالی اېد جوملۂ نییۂ کی نیشۉ بیدی۔
+report-sc-different-language = دیگۂ زیبۉ
+report-sc-different-language-detail = ای دئزو زیبۉ کی ما از نۆ تۉغ مونوم نیمیشتۂ نئشودۂ
