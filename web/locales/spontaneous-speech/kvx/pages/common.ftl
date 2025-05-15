@@ -1,22 +1,22 @@
 ## General
 
 # Toast message that is displayed when an error occurs
-error = خراٻي
+error = ﻿کراٻئي
 action-click = ڪِلِڪ
 action-tap = ٽيپ
 # Label for language switcher
-platform-language = منظر رئي ٻولِي
-platform-language-tooltip-text = رڳو وئيب سائڊ رو متن ڀڌلي ڪرو۔
+platform-language = ماڳ / جڳا رئي ٻولئي
+platform-language-tooltip-text = رُوڳو ويب سائيڊ رو متن ڀڌلي ڪرو۔
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = ڊيٽا سيٽ ۾ <bold> { $language } </bold> حصو نکوو۔
-contribution-picker-tooltip-text = اُوئا ٻولِي رو ڊيٽا سيٽ ڀڌلو جيا۾ تمي حصو نکو ريا۔
-coming-soon = وڌيڪ ٻولِي جلڌي آوئہ رئي۔
-media-recorder-api-not-supported = تمارا ڀروز ۾ مڊيا ريِڪارنگ اي پي اِي سپورٽ نٿي۔
+contribution-picker-label = ڊيٽا سيٽ ۾ <bold> { $language } </bold> حصو ناکوو۔
+contribution-picker-tooltip-text = اُوئا ٻولِي رو ڊيٽا سيٽ ڀڌلو جيا۾ تمي حصو نوکوه ريا۔
+coming-soon = وڌيڪ ٻولي جلڌي آوئہ ري۔
+media-recorder-api-not-supported = تمارا ڀرائُوزر ۾ ميڊيا ريِڪارنگ اي پي آئِي مڌت نٿِي ڪرتو۔
 # Toast message that is displayed when an item is skipped
-skipped = ساڊل
-audioplayer-header = ۿونمڀڙو
-guidelines = جانڪارئي
+skipped = ساڏَل
+audioplayer-header = ۿومڀڙو
+guidelines = جانڪاري
 # For the button to report an item
 report-button = رپورٽ
 # For the button to skip an item
@@ -29,13 +29,13 @@ request-new-language = ٻولِي رئي ڌرخواست ۮيو
 
 respond-to-prompt = جواڀ
 transcribe = متن ۾ ڀڌلاوو
-check-transcriptions = دوهرائِي
+check-transcriptions = ڌوهرائِي
 question = سوئال
 
 ## Not Found Page
 
 not-found-page-header = نٿي زۯيو
-not-found-page-content = جيو پونيو تمي ڳوتو ريا، اُو نٿِي زۯيو هيڪيو
+not-found-page-content = جيو پونيو تمي ڳوتو ريا، اُو نٿِي زۯي هيڪيو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = هُون ڪومنَ وائيس را <termsLink>قائيڌا</termsLink>انَ<privacyLink>پرائيويسي نوٽِس</privacyLink>
 # Locales
@@ -49,7 +49,7 @@ kzi = ڪيلاڀٽ
 mbf = بابا مالائي
 meh = جنوڀيمغرڀ ٽيلڪسيڪو مڪسٽيڪ
 mel = وسطي ميلانو
-mmc = مِڪُوئاڪيئنَ مزهُوئا
+mmc = مِڪُوئا ڪيئنَ مزهُوئا
 ms-MY = ڀهاسہ مالائي
 msi = ڀَاڀا مالائي
 pez = اِيسٽرنَ مائِينَ

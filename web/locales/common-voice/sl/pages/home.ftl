@@ -88,6 +88,7 @@ read-more-about = Preberite več na naši strani O nas
 answer-questions = Odgovarjajte na vprašanja
 press-and-stories = Novice in zgodbe
 community-and-languages = Skupnost in jeziki
+scripted-speech = PISANI GOVOR
 spontaneous-speech = SPONTANI GOVOR
 
 ## MENU ITEMS TOOLTIPS
@@ -109,6 +110,7 @@ get-started = Začnite <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Pisani govor
 spontaneous-card-header = Spontani govor
 
 ## Community section
