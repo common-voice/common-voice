@@ -131,6 +131,7 @@ spontaneous-card-content = Wótegrońśo na naspominanja, aby datowe sajźby za 
 language-text-card-header = Rěcny tekst
 language-text-card-content = Napórajśo abo źělśo zjawne naspominanja, sady a tekst za pśełoženje, małe rěcne modele a wěcej.
 add-text = Tekst pśidaś
+answer = Wótegrono
 
 ## Community section
 

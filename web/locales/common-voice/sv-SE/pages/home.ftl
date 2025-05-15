@@ -128,6 +128,7 @@ spontaneous-card-content = Svara på frågor för att skapa datamängder för or
 language-text-card-header = Språktext
 language-text-card-content = Skapa eller dela offentliga domänuppdrag, meningar och text för översättning, små språkmodeller och mer.
 add-text = Lägg till text
+answer = Answer
 
 ## Community section
 

@@ -131,6 +131,7 @@ spontaneous-card-content = Wotmołwće na namołwy, zo byšće datowe sadźby za
 language-text-card-header = Rěčny tekst
 language-text-card-content = Wutworće abo dźělće zjawne namołwy, sady a tekst za přełoženje, małe rěčne modele a wjace.
 add-text = Tekst přidać
+answer = Wotmołwa
 
 ## Community section
 
