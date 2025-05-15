@@ -6,7 +6,15 @@ if (process.env.DOTENV_CONFIG_PATH) {
   const result = config({ path: process.env.DOTENV_CONFIG_PATH })
   if (result.error) {
     console.log(result.error)
-    console.log('Failed loading dotenv file, using defaults')
+    console.log(
+      'ERROR loading config: Failed loading dotenv file. Expected file: ',
+      process.env.DOTENV_CONFIG_PATH
+    )
+  } else {
+    console.log(
+      'Loading config: successfully loaded dotenv file: ',
+      process.env.DOTENV_CONFIG_PATH
+    )
   }
 }
 
@@ -122,32 +130,25 @@ const BASE_CONFIG: CommonVoiceConfig = {
 }
 
 let injectedConfig: CommonVoiceConfig
-let loadedConfig: CommonVoiceConfig
 
 export function injectConfig(config: Partial<CommonVoiceConfig>) {
   injectedConfig = { ...BASE_CONFIG, ...config }
 }
 
 export function getConfig(): CommonVoiceConfig {
-  if (injectedConfig) {
-    return injectedConfig
-  }
-
-  if (loadedConfig) {
-    return loadedConfig
-  }
-
-  let fileConfig = null
-
   try {
-    const config_path = process.env.SERVER_CONFIG_PATH || './config.json'
-    fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'))
+    if (injectedConfig) {
+      console.log('Loading config: reading injectedConfig ...')
+      return injectedConfig
+    }
+
+    if (BASE_CONFIG) {
+      console.log('Loading config: reading BASE_CONFIG ...')
+      return BASE_CONFIG
+    }
   } catch (err) {
     console.error(
-      `Could not load config.json, using defaults (error message: ${err.message})`
+      `ERROR: Could not load any available configuration (error message: ${err.message})`
     )
   }
-  loadedConfig = { ...BASE_CONFIG, ...fileConfig }
-
-  return loadedConfig
 }
