@@ -25,6 +25,8 @@ varying-pronunciations-example = کسر واضح اَلو۔
 varying-pronunciations-tip-1 = [کینیڈین انگریزی "route" ئے "rowt" نا وڑ توار کننگ کیک]
 varying-pronunciations-tip-2 = [برطانوی انگریزی "root" جوڑ کننگ کیک]
 offensive-content-explanation = جملہ غاتا جاچ مخلوق نا برابری نا کڑد آن مریک، وا ہم دا کڑد پورو اف۔ اگہ نم ہندونو جملہ ئس خنیرے یا بنیرے ہراکے نمے غصہ یا فریشان کیک۔ دنکہ انتئے کہ دا ننا <participationGuidelines>کمیونٹی شریکدار نا راہشونی نا کسر</participationGuidelines> نا برخلاف مریک۔ گڑا UI ٹی فلیگ بٹن نا استعمال کبو۔ نم <emailFragment>commonvoice@mozilla.com</emailFragment> آ ہم نن تون رابطہ کننگ کیرے۔
+misreadings-explanation-1 = پنہ غا لوز آتے جوان وڑ اٹ خواننگ آن فرق مریک۔ بننگ نا وخت آ احتیاط کیرے کہ ہرا ریکارڈ کننگانو او اندن لکھوکو۔ اگہ لوز شاغنگانے، یا بچانو یا گونڈ کننگاتو گڑا رد کبوتا۔
+misreadings-explanation-2 = عام انگا ردینکاک اوار او:
 
 ## Sentence collection nav ids
 
