@@ -99,6 +99,11 @@ community-and-languages = Skupnost in jeziki
 
 ## Hero section
 
+hero-title = Tehnologija, ki govori vaš jezik
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Zakaj bi umetna inteligenca delovala samo v peščici svetovnih jezikov?</bold>
+# icon is an arrow that points downwards
+get-started = Začnite <icon><icon>
 
 ## Action items section
 

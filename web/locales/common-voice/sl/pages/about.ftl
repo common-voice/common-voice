@@ -58,6 +58,7 @@ about-playbook-what-is-language = Kaj je jezik za Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Kako dodam jezik?
+about-playbook-how-add-language-collecting-sentences-heading = Zbiranje stavkov
 
 ## How does localization work
 
