@@ -31,6 +31,10 @@ sc-review-form-reviewed-message =
         [one] 1جوملۂ از نۆ تۉغ شودۂ
        *[other] { $sentences }جوملا از نۆ تۉغ شودۂ۔ تئشئکور
     }
+sc-review-form-review-failure = از نۆ تۉغ کیدۉ قئییم نئموشۂ۔ از خݷر خو یئگ کئرئدی دیگۂ کۉشیش کو
+sc-review-link = از نۆ تۉغ کیدۉ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = شئرتای از نۆ تۉغ کیدۉ
+sc-criteria-title = شئرتای از نۆ تۉغ کیدۉ
