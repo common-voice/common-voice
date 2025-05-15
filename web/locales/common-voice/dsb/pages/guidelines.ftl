@@ -130,3 +130,4 @@ offensive-content-sensitive-information-explanation-explanation-2 = Pšašanja, 
 offensive-content-sensitive-information-explanation-explanation-3 = Pšašanja, kótarež mógli k tomu wjasć, sensibelne, potencielnje wuwołujuce wótegrona źěliś
 example-questions-subheader = Pśikładowe pšašanja
 example-questions-explanation-1 = Móžośo <examplePromptsLink>120 pśikładowych pšašanjow w toś tej tabeli namakaś.</examplePromptsLink>
+example-questions-explanation-2 = Jolic cośo rěd pšašanjow za zapśimjeśe zapódaś, <githubLink>móžośo to pśez GitHub cyniś</githubLink> abo swóju lisćinu z e-mailu na <emailFragment>commonvoice@mozilla.com</emailFragment> słaś.
