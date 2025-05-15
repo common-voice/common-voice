@@ -79,3 +79,20 @@
         }
     }
 }
+
+.show-all-datasets {
+    display: block;
+    border: 1px solid var(--light-blue);
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    background: var(--grey);
+
+    &:hover {
+        background: var(--light-blue);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
