@@ -100,9 +100,17 @@ adding-sentences-subheader-special-characters-explanation-2 = زبانک خلق�
 adding-sentences-subheader-offensive-content = زوراکی متن
 adding-sentences-subheader-offensive-content-explanation = اگہ جملہ زوراکی یا فریشان کروک مرے - دنکہ پاشنگا مواد نا سوب آن، یا ننا <communityGuidelines>مخلوق نا شریکداری نا رہشونی کسر</communityGuidelines> نا برخلاف مریک - نمے جملہ ئے رد کروئی مریک۔ نم ویل ئے ودیفنگ کن <emailFragment>commonvoice@mozilla.com</emailFragment> آ نم تون رابطہ کننگ کیرے۔
 reviewing-sentences-explanation-1 = اگہ جملہ بڑزنا معیار آ برابر بننگ اے گڑا "Yes" نا بٹن آ کلک کبو۔
+reviewing-sentences-explanation-2 = اگہ جملہ بڑزنا معیار آ برابر بننگ اف گڑا "No" نا بٹن آ کلک کبو۔
+reviewing-sentences-explanation-3 = اگہ نمے جملہ غاتا باروٹ یقین اف، گڑا نم اودے یلہ کریسہ ایلو والاڑا اننگ کیرے۔
+reviewing-sentences-explanation-4 = اگہ جاچ النگ کن نما جملہ غاک ختم مسونو، گڑا پین جملہ جمع کننگ کن نن تون کمک کبو!
+domain-explanation = ڈومین جملہ غاتا سرہال آن اے۔ فلحال، نم اندافتیان ارفنگ کیرے۔:
 
 ## Question collection ids
 
+adding-questions = سوجاتے شاغن
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = اسے جوانو سوج ئس امر مریک؟
+what-makes-a-good-question-explanation = الس نا ساڑی مننگ نا ڈیٹاسیٹس کن اسہ جوانو سوج ئس:
+what-makes-a-good-question-explanation-criteria-1 = سمجھنگ اٹ آسودہ مبو و ورندی ایتبو
