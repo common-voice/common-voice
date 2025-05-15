@@ -24,6 +24,7 @@ native-language =
     .label = Materni jezik
 profile-form-submit-save = Shrani
 profile-form-submit-saved = Shranjeno
+transgender = Transspolni
 # Gender
 other = Drugo
 why-profile-title = Zakaj ustvariti profil?

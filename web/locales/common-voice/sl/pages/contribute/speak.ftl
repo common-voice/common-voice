@@ -36,6 +36,8 @@ review-delete-recordings = Izbriši moje posnetke
 review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</termsLink> in z <privacyLink>obvestilom o zasebnosti</privacyLink>
 terms-agree = Strinjam se
 terms-disagree = Ne strinjam se
+first-cta-gender-select-help-text =
+    .label = Kako bi opisali svoj spol?
 
 ## MENU ITEM TOOLTIPS
 
