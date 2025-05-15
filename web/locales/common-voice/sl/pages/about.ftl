@@ -58,6 +58,8 @@ about-playbook-what-is-language = Kaj je jezik za Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Kako dodam jezik?
+about-playbook-how-add-language-translating-heading = Prevajanje spletnega mesta
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Oglejte si naš vodnik o uporabi Pontoona.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Zbiranje stavkov
 
 ## How does localization work
