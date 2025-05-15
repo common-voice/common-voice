@@ -127,5 +127,6 @@ process-steps-explanation = Pšašanja, za kótarež něchten musy někotare kš
 offensive-content-sensitive-information = Njepśistojne wopśimjeśe abo sensibelne informacije
 offensive-content-sensitive-information-explanation-explanation-1 = Pšašanja, kótarež se informacije wó wósobinskej identiśe wupšosuju
 offensive-content-sensitive-information-explanation-explanation-2 = Pšašanja, kótarež se mógli powědanje gramoty abo druge zacuśa połne pśedsudkow abo njepśistojne zacuśa wupšosowaś
+offensive-content-sensitive-information-explanation-explanation-3 = Pšašanja, kótarež mógli k tomu wjasć, sensibelne, potencielnje wuwołujuce wótegrona źěliś
 example-questions-subheader = Pśikładowe pšašanja
 example-questions-explanation-1 = Móžośo <examplePromptsLink>120 pśikładowych pšašanjow w toś tej tabeli namakaś.</examplePromptsLink>
