@@ -91,6 +91,8 @@ adding-sentences-subheader-speakable-explanation = جوانگا جملہ غاک 
 adding-sentences-subheader-numbers = نمبراک
 adding-sentences-subheader-numbers-explanation = ماخذ متن ٹی مثالی وڑ اٹ ہچو نمبر ئس مروئی اف انتئے کہ او تیز توار اٹ خواننگ آن ویل جوڑ مننگ کیک۔ ہرا وڑ کہ اسہ نمبر ئس خواننگک او سیاق و سباق نا زی آ مریک و ڈیٹاسیٹ ٹی الجھن ودی کننگ کیک۔ دنکہ، نمبر "2409" ئے "چوبیس صفر نو" و "دو ہزار چار سو نو" ہڑتوماتے سہی وڑ اٹ خواننگ کیرہ۔
 adding-sentences-subheader-abbreviations = مخففاک و مخففاک
+adding-sentences-subheader-abbreviations-explanation = ماخذ نا متن ٹی مخففاک و مخففاک دنکہ "USA" یا "ICE" آن بچنگ المی اے انتئے کہ اوفتے ہندن خواننگ مریر ہراوڑ کہ اوفتا ہجے نا وڑ اٹ مفس۔ گیشتر، اسہ مخفف کن کہی سہی خواننگ مننگ کیک۔
+adding-sentences-subheader-punctuation = ادائیگی
 
 ## Question collection ids
 
