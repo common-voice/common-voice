@@ -133,7 +133,7 @@ answer = Svara
 ## Community section
 
 community-section-title = Drivs av globala gemenskaper, för globala gemenskaper — 130 språk och växer!
-join-discord-community = Gå med i Discord-communityt
+join-discord-community = Gå med i Discord-gemenskapen
 # label for button
 join-discord-community-action = Gå med oss på Discord
 join-discord-community-content = Delta i diskussioner i språkgemenskapen, ställ frågor och lär dig om kommande evenemang och föredrag.

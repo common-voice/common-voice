@@ -2,7 +2,7 @@
 
 write = Skriv
 write-instruction = Lägg till <icon></icon> en mening som är allmän egendom
-write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
+write-page-subtitle = Meningar som läggs till här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
 sentence =
     .label = Mening
 sentence-input-placeholder = Ange din mening som är allmän egendom här
