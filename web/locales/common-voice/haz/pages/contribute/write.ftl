@@ -12,6 +12,15 @@ citation =
     .label = اوالۂ
 sc-write-submit-confirm = ما یئقین میدیم کی ای جوملۂ<wikipediaLink> ۮۉمېنی اولوسی استۂ </wikipediaLink>و ما ایجازې اندئخۉن شی دیرۉم۔
 sc-review-write-title = چیز رئقئم جوملا ما ایزافۂ میتنوم؟
+sc-review-small-batch-title = زیاد جوملا چیز رئقئم ایزافۂ موشۂ
+new-sentence-rule-1 = <noCopyright>قݷدی اق و اوقوقی نئدیرۂ</noCopyright><cc0>-0</cc0>
+new-sentence-rule-2 = کئمتئر از 15 لۆز دۂ آر جوملۂ
+new-sentence-rule-3 = سئیې گیرامئر ایستیمال کید
+new-sentence-rule-4 = سئیې نیمیشتۂ کید و بېخانید
+new-sentence-rule-5 = اېد رئقئم نئمبئر یا الامئتای خاس لازیم نییۂ
+new-sentence-rule-6 = اېد رئقئم الامئتای خاریجی لازیم نییۂ
+new-sentence-rule-7 = دئقیق اوالۂ بیدید
+new-sentence-rule-8 = خوب تئبی یی و قابیلی تۉرۂ گۉیی باشۂ(جوملۂ خاندۉن شی خوب آسۉ بئشۂ)
 
 ## BULK SUBMISSION
 
