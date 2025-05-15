@@ -93,6 +93,12 @@ adding-sentences-subheader-numbers-explanation = ماخذ متن ٹی مثالی
 adding-sentences-subheader-abbreviations = مخففاک و مخففاک
 adding-sentences-subheader-abbreviations-explanation = ماخذ نا متن ٹی مخففاک و مخففاک دنکہ "USA" یا "ICE" آن بچنگ المی اے انتئے کہ اوفتے ہندن خواننگ مریر ہراوڑ کہ اوفتا ہجے نا وڑ اٹ مفس۔ گیشتر، اسہ مخفف کن کہی سہی خواننگ مننگ کیک۔
 adding-sentences-subheader-punctuation = ادائیگی
+adding-sentences-subheader-punctuation-explanation = خصوصی علامتاک و اوقاف ہمو وخت ساڑی کبو ہرا وخت بھاز المی مرے۔ دنکہ انگریزی لوز "dont" و "we are" ٹی اسہ apostrophe شاغوکے و دادے ماخذ متن ٹی ساڑی کننگ مرے، ولے دا ہیت نا امکان اف کہ نمے وخت ئس ہم "@" یا "#" کونا خاصنگا علامت نا گرج مننگ کیک۔
+adding-sentences-subheader-special-characters = خاصنگا نشانک و پیشن نا حرفاک
+adding-sentences-subheader-special-characters-explanation-1 = ہرا زبان تی ہیت مننگ اے ہمو ٹی حرفاک سہی مریر۔ دنکہ، "ж" روسی حروف تہجی ٹی اسہ حرف ئس اے ولے انگریزی ٹی ہچبر استعمال مفک و اندا سوب آن انگریزی نا ماخذ متن ٹی اسل پاش مننگ کپک۔
+adding-sentences-subheader-special-characters-explanation-2 = زبانک خلقی مننگ آن زیات گرج مننگ تون اوار تصدیق نا قانود تخننگ کیرہ۔ اگہ زبان اسہ سیکن خاصو تصدیق کن فائل ئس اف، گڑا انگریزی نا قانوداک شریکدار تیتون پاش مریرہ۔
+adding-sentences-subheader-offensive-content = زوراکی متن
+adding-sentences-subheader-offensive-content-explanation = اگہ جملہ زوراکی یا فریشان کروک مرے - دنکہ پاشنگا مواد نا سوب آن، یا ننا <communityGuidelines>مخلوق نا شریکداری نا رہشونی کسر</communityGuidelines> نا برخلاف مریک - نمے جملہ ئے رد کروئی مریک۔ نم ویل ئے ودیفنگ کن <emailFragment>commonvoice@mozilla.com</emailFragment> آ نم تون رابطہ کننگ کیرے۔
 
 ## Question collection ids
 
