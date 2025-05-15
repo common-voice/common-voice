@@ -27,6 +27,18 @@ varying-pronunciations-tip-2 = [برطانوی انگریزی "root" جوڑ کن
 offensive-content-explanation = جملہ غاتا جاچ مخلوق نا برابری نا کڑد آن مریک، وا ہم دا کڑد پورو اف۔ اگہ نم ہندونو جملہ ئس خنیرے یا بنیرے ہراکے نمے غصہ یا فریشان کیک۔ دنکہ انتئے کہ دا ننا <participationGuidelines>کمیونٹی شریکدار نا راہشونی نا کسر</participationGuidelines> نا برخلاف مریک۔ گڑا UI ٹی فلیگ بٹن نا استعمال کبو۔ نم <emailFragment>commonvoice@mozilla.com</emailFragment> آ ہم نن تون رابطہ کننگ کیرے۔
 misreadings-explanation-1 = پنہ غا لوز آتے جوان وڑ اٹ خواننگ آن فرق مریک۔ بننگ نا وخت آ احتیاط کیرے کہ ہرا ریکارڈ کننگانو او اندن لکھوکو۔ اگہ لوز شاغنگانے، یا بچانو یا گونڈ کننگاتو گڑا رد کبوتا۔
 misreadings-explanation-2 = عام انگا ردینکاک اوار او:
+misreadings-explanation-3 = ریکارڈنگ نا شروع ٹی 'A' یا 'The' خننگپاسہ۔
+misreadings-explanation-4 = لوز نا گڈیکو سر ٹی اسہ 's' ئس خننگپک۔
+misreadings-explanation-5 = خواننگ نا کمک ہراکے اسل اٹ اوڑے اف، دنکہ  "We're" نا جاگہ غا "We are" یا , vice versa
+misreadings-explanation-6 = ریکارڈنگ ئے اشتافی ٹی بند کننگ نا سوب آن گڈیکو لوز نا گم مننگ
+misreadings-explanation-7 = اسے لوز سینا خواننگ کن بھاز کوشست کننگ
+misreadings-example-1 = نن پیشن کافی کوننگ کن اننگ اون۔
+misreadings-example-2 = نن کافی کوننگ کن پیشن اننگ اون۔
+misreadings-example-3 = نن کافی دوئی کننگ کن پیشن اننگ اون۔
+misreadings-example-4 = بھوبرا زوت مونی ہنا
+misreadings-tip-1 = [ “We are” مروئی اے]
+misreadings-tip-2 = [اصل متن ٹی ہچو 'a' ئس اف]
+misreadings-tip-3 = [مواد آتا بےبرابری]
 
 ## Sentence collection nav ids
 
