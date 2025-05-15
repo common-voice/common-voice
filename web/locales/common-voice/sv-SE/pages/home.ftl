@@ -78,10 +78,10 @@ read-more-about = Läs mer på vår om sida
 
 ## NAV ITEMS
 
-answer-questions = Svara på frågor <small>(Kommer snart)</small>
-review-transcriptions = Granska transkriptioner <small>(Kommer snart)</small>
-add-questions = Lägg till frågor <small>(Kommer snart)</small>
-transcribe-audio = Transkribera ljud <small>(Kommer snart)</small>
+answer-questions = Svara på frågor
+review-transcriptions = Granska transkriptioner
+add-questions = Lägg till frågor
+transcribe-audio = Transkribera ljud
 press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk
 coming-soon = Kommer snart
