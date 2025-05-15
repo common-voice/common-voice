@@ -81,7 +81,12 @@ citing-sentences-subheader-offline-sources-explanation = پبلک ڈومین ٹ�
 citation =
     .label = حوالہ
 self-citation = جند نا حوالہ
-self-citation-explanation = نم امر تینا حوالہ ئے ایترے اگہ نم تینا جند نا متن ئس لکھیرے۔
+self-citation-explanation = اگہ نم تینا جند نا متن ئس لکھانورے تو نم دا وڑ حوالہ اتیرے۔
+adding-sentences-subheader-length = مُرغنی
+adding-sentences-subheader-length-explanation = جملہ 15 لوزاتیان کم مرے۔
+adding-sentences-subheader-spelling-punctuation = حرف و ادائیگی
+adding-sentences-subheader-spelling-punctuation-explanation = جملہ غاتا حروفاک المی سہی مریر۔
+adding-sentences-subheader-speakable = پاننگ نا لائخ
 
 ## Question collection ids
 
