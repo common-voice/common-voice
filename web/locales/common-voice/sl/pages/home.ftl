@@ -110,6 +110,7 @@ partnerships-menu-item-aria-label = Več o partnerstvih s Common Voice
 hero-title = Tehnologija, ki govori vaš jezik
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Zakaj bi umetna inteligenca delovala samo v peščici svetovnih jezikov?</bold>
+hero-subtitle-2 = Naš jezik je naša zgodba, naša skupnost, naša kultura. Ustvarimo nabore podatkov, ki jih želimo videti v svetu.
 # icon is an arrow that points downwards
 get-started = Začnite <icon><icon>
 
