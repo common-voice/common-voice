@@ -111,6 +111,7 @@ what-makes-a-good-question-explanation = Dobre pšašanje za datowe sajźby zjaw
 what-makes-a-good-question-explanation-criteria-1 = lažko rozměś byś a na se wótegroniś daś
 what-makes-a-good-question-explanation-criteria-2 = powšyknje relewantne byś
 what-makes-a-good-question-explanation-criteria-3 = kśiwjecu abo njepśistojnu rěc njewužywaś
+what-makes-a-good-question-tip = Móžośo teke rozwažowaś, rozdźělne konteksty a domeny zapśimjeś.
 easy-to-understand = Lažko rozuměś
 easy-to-understand-explanation = Wubjeŕśo jadnore pšašanja, kótarež móžo kuždy lažko rozměś, njeźiwajucy na kulturu abo kontekst.
 spelling-and-pronunciation = Pšawopis a interpunkcija
