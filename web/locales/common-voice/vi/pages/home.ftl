@@ -73,11 +73,8 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 ## NAV ITEMS
 
 answer-questions = Trả lời câu hỏi <small>(sắp ra mắt)</small>
-answer-questions-coming-soon = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 review-transcriptions = Đánh giá bản ghi
-review-transcriptions-coming-soon = Đánh giá bản ghi <small>(sắp ra mắt)</small>
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
-add-questions-coming-soon = Thêm câu hỏi <small>(sắp ra mắt)</small>
 press-and-stories = Báo chí và tin tức
 community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt

@@ -80,11 +80,8 @@ read-more-about = اسی متعلقہ صفحہ بے دوئی مزید منوئی
 ## NAV ITEMS
 
 answer-questions = سوال جویبی <small>( لپ یھین)</small>
-answer-questions-coming-soon = سوال جویبی <small>( لپ یھین)</small>
 review-transcriptions = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
-review-transcriptions-coming-soon = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
 add-questions = سویلی جمع تھئنی  <small>(لپ یھین )</small>
-transcribe-audio-coming-soon = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 transcribe-audio = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 press-and-stories = پریس او شلوکہ
 community-and-languages = کمیونٹی او زبینی

@@ -84,10 +84,7 @@ read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de
 ## NAV ITEMS
 
 answer-questions = Risponde preguntas
-answer-questions-coming-soon = Risponde preguntas <small>(luego)</small>
-review-transcriptions-coming-soon = Revisiona trascritziones <small>(luego)</small>
 add-questions = Agiunghe preguntas <small>(luego)</small>
-transcribe-audio-coming-soon = Trascrie àudio <small>(luego)</small>
 press-and-stories = Istampa e istòrias
 community-and-languages = Comunidade e limbas
 coming-soon = Luego

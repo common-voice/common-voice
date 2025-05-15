@@ -133,6 +133,7 @@ language-text-card-header = Language Text
 language-text-card-content = Create or share public domain prompts, sentences, and text for translation, small language models, and more.
 coming-soon = Coming Soon
 add-text = Add Text
+answer = Answer
 
 ## Community section
 community-section-title = Powered by global communities, for global communities — 130 languages and growing!

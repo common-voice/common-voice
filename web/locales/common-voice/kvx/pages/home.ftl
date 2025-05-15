@@ -76,12 +76,8 @@ read-more-about = وڌارئہ جانڪارِي ۿارُو امارو ۮِيڌل
 ## NAV ITEMS
 
 answer-questions = سوئال جواڀ
-answer-questions-coming-soon = سوئال جواڀ<small>(جلڌِي آوئه ريا)</small>
 review-transcriptions = لکل متنَ رئي ڌوهرائِي ڪرو
-review-transcriptions-coming-soon = لکل متن رئي ڌوهرائِي ڪرو<small>(جلڌِي آوئه ريو</small>)
 add-questions = سوئالون نئہ شامِل ڪرو
-add-questions-coming-soon = سوئالون نئہ شامِل ڪرو<small>(جلڌِي آوئه ريا)</small>
-transcribe-audio-coming-soon = آڊيو نئہ لکو<small>(جلڌِي آوئه ريو)</small>
 transcribe-audio = آڊيو نئہ لکيا رِي صُورت ۾ ڀڌلو
 press-and-stories = اخبارِي اطلاعون انَ وارتائون
 community-and-languages = قوم ان ٻولي

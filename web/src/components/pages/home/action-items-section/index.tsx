@@ -58,8 +58,8 @@ export const ActionItemsSection: React.FC<Props> = ({
               <Localized id="spontaneous-card-content">
                 <p />
               </Localized>
-              <LinkButton rounded href={URLs.QUESTION} blank>
-                <Localized id="answer-questions">
+              <LinkButton rounded href={URLs.PROMPTS} blank>
+                <Localized id="answer">
                   <span />
                 </Localized>
                 <ChevronRight />

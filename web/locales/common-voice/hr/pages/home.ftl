@@ -92,12 +92,8 @@ read-more-about = Pročitaj više na našoj stranici „Informacije”
 ## NAV ITEMS
 
 answer-questions = Odgovori na pitanja
-answer-questions-coming-soon = Odgovori na pitanja <small>(uskoro stiže)</small>
 review-transcriptions = Pregledaj transkripcije
-review-transcriptions-coming-soon = Pregledaj transkripcije <small>(uskoro stiže)</small>
 add-questions = Dodaj pitanja
-add-questions-coming-soon = Dodaj pitanja <small>(uskoro stiže)</small>
-transcribe-audio-coming-soon = Transkribiraj audio snimke <small>(uskoro stiže)</small>
 transcribe-audio = Transkribiraj audio snimke
 press-and-stories = Objave i priče
 community-and-languages = Zajednica i jezici

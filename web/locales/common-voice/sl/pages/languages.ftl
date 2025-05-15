@@ -16,6 +16,7 @@ language-speakers = Govorcev
 localized = Lokalizirano
 sentences = Stavki
 language-validation-hours = Ur
+language-validation-progress = Napredek pregledovanja
 contribute = Prispevaj
 get-involved-button = Pridružite se
 get-involved-title = Pomagajte izboljšati jezik { $lang }

@@ -79,12 +79,8 @@ read-more-about = Узнайте больше на нашей странице �
 ## NAV ITEMS
 
 answer-questions = Отвечайте на вопросы <small>(Скоро)</small>
-answer-questions-coming-soon = Ответить на вопросы <small>(Скоро)</small>
 review-transcriptions = Проверяйте транскрипции <small>(Скоро)</small>
-review-transcriptions-coming-soon = Проверить транскрипции <small>(Скоро)</small>
 add-questions = Добавьте вопросы <small>(Скоро)</small>
-add-questions-coming-soon = Добавьте вопросы <small>(Скоро)</small>
-transcribe-audio-coming-soon = Транскрибировать аудио <small>(Скоро)</small>
 transcribe-audio = Транскрибируйте аудио <small>(Скоро)</small>
 press-and-stories = Пресса и истории
 community-and-languages = Сообщество и языки

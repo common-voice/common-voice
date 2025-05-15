@@ -76,11 +76,8 @@ read-more-about = Spo pejẽ barar z̃aq woz ziyoda joy
 ## NAV ITEMS
 
 answer-questions = Jowob sowolisht <small>(jald wezin)</small>
-answer-questions-coming-soon = Jẽwob Sowol<small>(jaldẽb wezin)</small>
 review-transcriptions = Naqlẽvẽ didig̃h <small>(jaldẽs̃h wezin)</small>
-review-transcriptions-coming-soon = Tẽrjũmavẽ didig̃h<small>(jaldẽb wezin)</small>
 add-questions = sowolvẽ shomil<small>jaldẽs̃h wezin</small>.
-transcribe-audio-coming-soon = od̃ioẽ naqẽl<small>jaldẽb wezin</small>
 transcribe-audio = od̃iyoẽ naql<small>jaldẽb wezit</small>
 press-and-stories = pakhch woz zhindagisht.
 community-and-languages = Jẽmoat woz zikisht.

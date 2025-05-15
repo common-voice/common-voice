@@ -7,3 +7,4 @@ gravatar_not_found = Za vaš e-poštni naslov ne obstaja Gravatar
 file_too_large = Izbrana datoteka je prevelika
 avatar-uploaded = Slika naložena
 max-file-size = Največ { $kb } kb
+remove-avatar = Odstrani uporabniško sliko

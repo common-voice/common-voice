@@ -78,12 +78,8 @@ read-more-about = ვრცლად იხილეთ გვერდი ჩ�
 ## NAV ITEMS
 
 answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
-answer-questions-coming-soon = კითხვებზე პასუხი <small>(მალე)</small>
 review-transcriptions = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
-review-transcriptions-coming-soon = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
 add-questions = კითხვების დამატება <small>(მალე)</small>
-add-questions-coming-soon = კითხვების დამატება <small>(მალე)</small>
-transcribe-audio-coming-soon = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
 transcribe-audio = ხმის ნაწერად ქცევა <small>(მალე)</small>
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები

@@ -76,12 +76,8 @@ read-more-about = Meer info op onze pagina Over
 ## NAV ITEMS
 
 answer-questions = Vragen beantwoorden <small>(binnenkort)</small>
-answer-questions-coming-soon = Vragen beantwoorden <small>(binnenkort)</small>
 review-transcriptions = Transcripties beoordelen <small>(binnenkort)</small>
-review-transcriptions-coming-soon = Transcripties beoordelen <small>(binnenkort)</small>
 add-questions = Vragen toevoegen <small>(binnenkort)</small>
-add-questions-coming-soon = Vragen toevoegen <small>(binnenkort)</small>
-transcribe-audio-coming-soon = Audio transcriberen <small>(binnenkort)</small>
 transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
 press-and-stories = Pers en verhalen
 community-and-languages = Gemeenschap en talen
