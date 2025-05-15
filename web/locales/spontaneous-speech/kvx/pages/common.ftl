@@ -63,5 +63,5 @@ xkl = ڪينِي
 
 language-search-placeholder = هيڪِي ٻولِي رو اِنتخاب ڪرو۔۔۔
 language-search-aria-label = هيڪِي ٻولِي رو اِنتخاب ڪرو
-language-search-label = رڳو ڊيٽا سيٽ رو حصو شيٽي رو ٻولِي ڀڌلي هيڪئہ۔
+language-search-label = رُوڳو ڊيٽا سيٽ رو حصو شيٽي ري ٻولي ڀڌلي هيڪئہ۔
 language-search-no-results = ڪوئي ٻولِي نٿي زۯي
