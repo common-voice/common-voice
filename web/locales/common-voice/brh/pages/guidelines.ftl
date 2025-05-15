@@ -127,3 +127,4 @@ dont-add-subheader = شاغپابو (اوار کپابو)
 culturally-specific-questions = داسنا خاصنگا سوجاک
 culturally-specific-questions-explanation = ہندنگا سوجاک ہراکے دود آتا لحاظ ات بھاز خاص مریرہ، یا ورندی تروکانا بابت اٹ بھازا مفروضہ غاک جوڑ کننگرہ۔
 length-avoid-explanation = ہمو سوجاک ہرافتا ورندی 15 سیکنڈ ٹی تننگ کن بندغ ئس جہد کیک (زیات آن زیات کلپ نا مُرغنی)
+process-steps = عمل / اقداماک
