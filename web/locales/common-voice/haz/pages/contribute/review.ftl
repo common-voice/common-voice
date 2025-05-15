@@ -56,3 +56,7 @@ review-error = دۂ از سئر نۆ تۉغ کیدۉنی جوملا غئلتی �
 review-error-rate-limit-exceeded = غئدئر تېز مۉری۔ یئکئم مئتئل کو بئلدې از نۆ تۉغ کیدې جوملا و باوئر پݷدا کو کی اونا سئیې باشۂ
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = مۉ زیاد ادئل بئدئل مونی
+sc-redirect-page-subtitle-1 = جوملۂ ݖۉل گئر دۂ بئخشی غۉلی کامئن وایس پېش مۉرۂ۔ شومۉ یالی دۂ کامئن وایس <writeURL>یئگۉ جوملۂ نیمیشتۂ</writeURL> میتنید<reviewURL> از نۆ تۉغ میتنید</reviewURL> یئگ یئگ جوملۂ تاوول میتنید
+sc-redirect-page-subtitle-2 = از مۉ دۂ بئلې<matrixLink> مېݖریکس</matrixLink><discourseLink>ۮیسکۉرس </discourseLink>  یا<emailLink> ای مېل</emailLink> سئوال پورسان میتنید٬
+# menu item
+review-sentences = جوملا رۂ از نۆ تۉغ کو
