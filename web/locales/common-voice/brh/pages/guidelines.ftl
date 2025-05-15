@@ -99,6 +99,7 @@ adding-sentences-subheader-special-characters-explanation-1 = ہرا زبان ت
 adding-sentences-subheader-special-characters-explanation-2 = زبانک خلقی مننگ آن زیات گرج مننگ تون اوار تصدیق نا قانود تخننگ کیرہ۔ اگہ زبان اسہ سیکن خاصو تصدیق کن فائل ئس اف، گڑا انگریزی نا قانوداک شریکدار تیتون پاش مریرہ۔
 adding-sentences-subheader-offensive-content = زوراکی متن
 adding-sentences-subheader-offensive-content-explanation = اگہ جملہ زوراکی یا فریشان کروک مرے - دنکہ پاشنگا مواد نا سوب آن، یا ننا <communityGuidelines>مخلوق نا شریکداری نا رہشونی کسر</communityGuidelines> نا برخلاف مریک - نمے جملہ ئے رد کروئی مریک۔ نم ویل ئے ودیفنگ کن <emailFragment>commonvoice@mozilla.com</emailFragment> آ نم تون رابطہ کننگ کیرے۔
+reviewing-sentences-explanation-1 = اگہ جملہ بڑزنا معیار آ برابر بننگ اے گڑا "Yes" نا بٹن آ کلک کبو۔
 
 ## Question collection ids
 
