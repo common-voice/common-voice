@@ -15,7 +15,22 @@ sc-review-form-button-reject = رئد
 sc-review-form-button-skip = تېر امدۉ
 sc-review-form-button-approve = قئبول کیدۉ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = وای
+sc-review-form-button-approve-shortcut = ی
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ن
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = س
+sc-review-form-keyboard-usage-custom = شومۉ از کیبۉرۮ شورکئݖ ام کار گیریفتۂ میتنید: { sc-review-form-button-approve-shortcut }بئلدی قئبول کیدۉ{ sc-review-form-button-reject-shortcut }بئلدې رئد کیدۉ{ sc-review-form-button-skip-shortcut }بئلدې تېر امدۉ
+sc-review-form-button-submit =
+    .submitText = از نۆ تۉغ کیدۉ رۂ خئلاس کو
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] اېد جوملا از نۆ تۉغ نئشودۂ
+        [one] 1جوملۂ از نۆ تۉغ شودۂ
+       *[other] { $sentences }جوملا از نۆ تۉغ شودۂ۔ تئشئکور
+    }
 
 ## REVIEW CRITERIA
 
