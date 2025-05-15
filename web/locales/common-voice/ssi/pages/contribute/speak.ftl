@@ -1,8 +1,8 @@
 speak = ٻولٹؔا
 speak-now = اِٻکے ٻولو
-speak-subtitle = اپٹؔی آواج دؔان کرو
+speak-subtitle = اپٹؔی اواج دؔان کرو
 record-cta = ریکارڈنگ سِرو کرو
-record-platform-not-supported = ہم سمما چاہوتے ہیں، تھارے پلیٹ فارما کی انجے حمایت نائی تی.
+record-platform-not-supported = ہم سمما چاہوتے ہے، تھارے پلیٹ پھارما کی آنٚجے بھِیر نائیں لی.
 record-platform-not-supported-desktop = ڈیسک ٹاپ ڈیوائسزاپ  تھم ڈاؤن لوڈ کری کن یوگدان دؔی سِکتے ہیں ...
 record-platform-not-supported-ios-non-safari = ریکارڈنگا کُو فعال کرنے نتر آئی او ایساپ  کِرپا کری کن سفاریا کے ساتھ کرا کر ...
 record-must-allow-microphone = تھمکُو مائکروفونا تائیں پُگاوݨیں کی اِگیا دؔیوٹی لاجمی ہے۔
