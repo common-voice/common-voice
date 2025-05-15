@@ -5,6 +5,8 @@ listen-again-instruction = Dido ǩai dulya gamiğit !<playIcon></playIcon> Xadzi
 listen-3rd-time-instruction = 2 melu, nayoni! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Ham soni ren!
 listen-empty-state = ǩlibepe-çkuni diçonu doren, butka meoğanit vana uǩaçxeşe xolo geitsadit.
+listen-empty-state-variants = Tkvaneburi xoma doloç̆ara var doskidu doren. Ginonan-na majura xoma doloç̆arape odziru şeni getzopxape gokturit.
+listen-loading-error = Osibinuşi/ oucuşi çkar doloç̆areri nena var madzires. Ok̆ule xolo gotzk̆edit.
 listen-abort-title = Doloç̆aru otzuranu içodas-i?
 listen-abort-cancel = Otzuranus nayoni/ naqoni
 listen-abort-confirm = Otsadu doçodini
@@ -15,6 +17,9 @@ validate-readings-coming-soon = Ok̆itxupe dotzurani <small>(mulun orapes)</smal
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = Ok̆itxuşepe dotsadi, xolo otzk̆edi
+validate-readings-menu-item-tooltip = Nenatkvanişi maxmarepeşi doloç̆areri nenape dotsadit
+review-transcriptions-menu-item-tooltip = Maxmarepeşen moxtimeri transkripsiyonepes xolo otzk̆edit
 
 ## MENU ITEM ARIA LABELS
 
