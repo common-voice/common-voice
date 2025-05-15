@@ -58,15 +58,29 @@ about-playbook-what-is-language = Kaj je jezik za Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Kako dodam jezik?
+about-playbook-how-add-language-translating-heading = Prevajanje spletnega mesta
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Oglejte si naš vodnik o uporabi Pontoona.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Za prevajanje uporabljamo Mozillino orodje <pontoonLink>Pontoon</pontoonLink>. V Pontoonu je veliko jezikov,
+    če vašega ni med njimi, pa lahko <pontoonRequestLink>zahtevate, da se doda</pontoonRequestLink>.
+    Da naredite jezik na voljo za projekt Common Voice, nato
+    <githubRepoLink>zahtevajte nov jezik na GitHubu</githubRepoLink>. <localizationFragment>Več o prevajanju spletnega mesta</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Zbiranje stavkov
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = Stran je pripravljena za izid, ko doseže 75-odstotno dokončanost.
+about-playbook-how-localize-content-5 = Za pomoč si oglejte naš video z razlago
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kako dodam stavke?
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = Pozorno preberite stavek – ne izpuščajte, spreminjajte ali dodajajte besed.
+about-playbook-how-record-content-4 = Prepričajte se, da se snemanje začne, preden začnete govoriti, in da se ustavi šele, ko končate.
+about-playbook-how-record-content-5 = <accuracyLink>Več o merilih natančnosti.</accuracyLink>
 
 ## How to grow language
 

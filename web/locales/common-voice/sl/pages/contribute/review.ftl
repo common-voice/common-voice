@@ -1,6 +1,8 @@
 ## REVIEW
 
 sc-review-loading = Nalaganje stavkov …
+sc-review-select-language = Izberite jezik za pregledovanje stavkov.
+sc-review-no-sentences = Ni stavkov, ki bi jih bilo treba pregledati. <addLink>Dodajte nove stavke!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Vir: { $sentenceSource }
@@ -17,3 +19,4 @@ sc-review-form-keyboard-usage-custom = Uporabite lahko tudi bližnjice na tipkov
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-6 = Če vam zmanjka stavkov za pregled, nam pomagajte zbrati nove!

@@ -79,12 +79,8 @@ read-more-about = Läs mer på vår om sida
 ## NAV ITEMS
 
 answer-questions = Svara på frågor <small>(Kommer snart)</small>
-answer-questions-coming-soon = Svara på frågor <small>(Kommer snart)</small>
 review-transcriptions = Granska transkriptioner <small>(Kommer snart)</small>
-review-transcriptions-coming-soon = Granska transkriptioner <small>(Kommer snart)</small>
 add-questions = Lägg till frågor <small>(Kommer snart)</small>
-add-questions-coming-soon = Lägg till frågor <small>(Kommer snart)</small>
-transcribe-audio-coming-soon = Transkribera ljud <small>(Kommer snart)</small>
 transcribe-audio = Transkribera ljud <small>(Kommer snart)</small>
 press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk

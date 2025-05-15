@@ -76,11 +76,8 @@ read-more-about = mii About page ate maziit ġatanin
 ## NAV ITEMS
 
 answer-questions = sawaaline juwaap mićʰiin (chor diya)
-answer-questions-coming-soon = sawaaline juwaap mićʰiin
 review-transcriptions = transcriptions ar hik ke barenin (choor diya)
-review-transcriptions-coming-soon = transcriptions ar hik ke barenin
 add-questions = sawaaline juwaap mićʰiin
-transcribe-audio-coming-soon = audio transcribe etin
 transcribe-audio = audio transcribe etin (choor diya)
 press-and-stories = minaśiṅ ke press
 community-and-languages = kuyooć daa baaṣiṅ

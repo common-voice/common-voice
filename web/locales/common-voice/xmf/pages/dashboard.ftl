@@ -71,3 +71,8 @@ recordings =
         [one] ინნაჭარა
        *[other] ინნაჭარეფი
     }
+validations =
+    { $count ->
+        [one] დადასურება
+       *[other] დადასურება
+    }

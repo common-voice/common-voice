@@ -91,11 +91,8 @@ read-more-about = مزید لالݨ واسطے تعارفی صفحہ لال
 ## NAV ITEMS
 
 answer-questions = سوالیں تے جواب <small>(جلدی چِیسن)</small>
-answer-questions-coming-soon = سوالیں تے جواب <small>(جلدی چِیسن)</small>
 review-transcriptions = نقلیاں وَتا لال <small>(جلدی چِیسن)</small>
-review-transcriptions-coming-soon = نقلیاں وَتا لال <small>(جلدی چِیسن)</small>
 add-questions = سوال وِڄ <small>(جلدی چِیسن)</small>
-transcribe-audio-coming-soon = آڈیو تی نقل کر <small>(جلدی چِیسن)</small>
 transcribe-audio = آڈیو تی نقل کر <small>(جلدی چِیسن)</small>
 press-and-stories = پریس ٻِیا کہاݨییں
 community-and-languages = برادری ٻِیا ٻولیاں

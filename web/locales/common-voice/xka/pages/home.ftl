@@ -76,12 +76,8 @@ read-more-about = اسے پیج دی پا باڑ
 ## NAV ITEMS
 
 answer-questions = سوالونی ام جواب دہ
-answer-questions-coming-soon = سوال جواب<small>تیپہ پشہ۔
 review-transcriptions = ترجمہ دیراں نال
-review-transcriptions-coming-soon = ترجمہ دیراں نال<small>تیپہ پݭہ</small>
 add-questions = دی پہ سوالونی <small> تیپہ پݭہ</small>
-add-questions-coming-soon = دی پہ سوالونی <small> تیپہ پݭہ</small>
-transcribe-audio-coming-soon = جولال سمال۔<small>تیپہ پݭون۔</small>
 transcribe-audio = بوجل نقل تیپہ پݭہ۔
 press-and-stories = سیپ دے
 community-and-languages = تانی خلق تے  تنے جیب

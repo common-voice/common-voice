@@ -5,6 +5,7 @@ write-instruction = Monduli ar cumle kekumtsxvit <icon></icon>
 sentence =
     .label = Cumle
 sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
+small-batch-sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
 citation =
     .label = Eşaç̌opu
 sc-review-write-title = Nam cumlepe ekhomamtsxven?

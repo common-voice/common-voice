@@ -83,12 +83,8 @@ read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
 ## NAV ITEMS
 
 answer-questions = Embohovái porandu <small>(Tenondeve)</small>
-answer-questions-coming-soon = Embohovái porandu <small>(Tenondeve)</small>
 review-transcriptions = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
-review-transcriptions-coming-soon = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
 add-questions = Embojuaju porandu <small>(Tenondeve)</small>
-add-questions-coming-soon = Embojuaju porandu <small>(Tenondeve)</small>
-transcribe-audio-coming-soon = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 press-and-stories = Maranduasãiha ha Tembiasakue
 community-and-languages = Tekoha ha ñe’ẽnguéra

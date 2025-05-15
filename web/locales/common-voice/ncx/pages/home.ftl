@@ -83,11 +83,8 @@ read-more-about = Xikmati okachi kanin Tiktematiltiaj
 ## NAV ITEMS
 
 answer-questions = Xikkaki uan Xiknankili <small>(Yikin yetos)</small>
-answer-questions-coming-soon = Xikkaki uan Xiknankili <small>(Yikin yetos)</small>
 review-transcriptions = Xikmotili kox kuali kitenkakij <small>(Yikin yetos)</small>
-review-transcriptions-coming-soon = Xikmotili kox kuali kitenkakij <small>(Yikin yetos)</small>
 add-questions = Xikinmijkuilo seki Tlajtlanilmej <small>(Yikin yetos)</small>
-transcribe-audio-coming-soon = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
 transcribe-audio = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
 press-and-stories = Tlen yikin omochi
 community-and-languages = Akinmej Tlajtoaj

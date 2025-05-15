@@ -76,12 +76,8 @@ read-more-about = اَمچي باري ۾ صفحي پر بڌِيڪ پڙها۔
 ## NAV ITEMS
 
 answer-questions = سوال ائُون جواب
-answer-questions-coming-soon = سوالان چي جواب ڏِيا <small> (جلدِي آوي هِتي چلي) </small>
 review-transcriptions = نقلان چا جائِزا گيهوا
-review-transcriptions-coming-soon = ٽرانسڪرپشنزِي چا جائزا گيهوا <small>  (جلدِي آوَي ڇَي چلا) </small>
 add-questions = سوال شامل ڪرا
-add-questions-coming-soon = سوال شامل ڪرا <small> (جلدِي آوي ڇَي چلا) </small>
-transcribe-audio-coming-soon = آڊيوئِي چِي نقل ڪرا <small> (جلدِي آوَي ڇَي چلا) </small>
 transcribe-audio = آڊيوئِي چِي نقل ڪرا
 press-and-stories = پريس ائُون ڪهاڻِيان
 community-and-languages = برادرِي ائُو ٻولِيا

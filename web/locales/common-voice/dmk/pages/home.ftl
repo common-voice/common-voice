@@ -91,11 +91,8 @@ read-more-about = امݳ وَرَقَس / پݵجَس مزݵد مُنݳ
 ## NAV ITEMS
 
 answer-questions = جݸݳب سݸݳلݳ <small>(ڞَگݳ آݣݺ)</small>
-answer-questions-coming-soon = جݸݳب سݸݳلݳ <small>(ڞَگݳ آݣݺ)</small>
 review-transcriptions = ٹرݳنسکرِپشنز دݸبݳرہ دݵکھِنݳ / جݳئزہ لݵنݳ <small>(ڞَگݳ آݣݺ)</small>
-review-transcriptions-coming-soon = ٹرݳنسکرِپشنز دݸبݳرہ دݵکھِنݳ / جݳئزہ لݵنݳ <small>(ڞَگݳ آݣݺ)</small>
 add-questions = سݸݳلݸݣ خَرِشݳرݳ <small>(ڞَگݳ آݣݺ)</small>
-transcribe-audio-coming-soon = پݸرجِنݳ چھݸت گِرمِنݳنݳشݸ <small>(ڞَگݳ آݣݺ)</small>
 transcribe-audio = پݸرجِنݳ چھݸت گِرمِنݳنݳشݸ <small>(ڞَگݳ آݣݺ)</small>
 press-and-stories = مݵڈِݵݳ نݸ کہݳنݵݣ
 community-and-languages = کمݵݸنٹݵ نݸ بݳݽݸݣ

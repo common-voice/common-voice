@@ -76,12 +76,8 @@ read-more-about = Weitere Informationen über Common Voice
 ## NAV ITEMS
 
 answer-questions = Fragen beantworten <small>(kommt in Kürze)</small>
-answer-questions-coming-soon = Fragen beantworten <small>(kommt in Kürze)</small>
 review-transcriptions = Transkripte überprüfen <small>(kommt in Kürze)</small>
-review-transcriptions-coming-soon = Transkripte überprüfen <small>(kommt in Kürze)</small>
 add-questions = Fragen hinzufügen <small>(kommt in Kürze)</small>
-add-questions-coming-soon = Fragen hinzufügen <small>(kommt in Kürze)</small>
-transcribe-audio-coming-soon = Audio transkribieren <small>(kommt in Kürze)</small>
 transcribe-audio = Audio transkribieren <small>(kommt in Kürze)</small>
 press-and-stories = Presse und Geschichten
 community-and-languages = Gemeinschaft und Sprachen

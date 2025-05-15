@@ -78,12 +78,8 @@ read-more-about = מידע נוסף בעמוד על אודותינו
 ## NAV ITEMS
 
 answer-questions = ענו על שאלות <small>(בקרוב)</small>
-answer-questions-coming-soon = לענות על שאלות <small>(בקרוב)</small>
 review-transcriptions = בדיקת תמלולים <small>(בקרוב)</small>
-review-transcriptions-coming-soon = בדיקת תמלולים <small>(בקרוב)</small>
 add-questions = הוספת שאלות <small>(בקרוב)</small>
-add-questions-coming-soon = הוספת שאלות <small>(בקרוב)</small>
-transcribe-audio-coming-soon = תמלול שמע <small>(בקרוב)</small>
 transcribe-audio = תמלול שמע <small>(בקרוב)</small>
 press-and-stories = עיתונות וידיעות
 community-and-languages = קהילה ושפות
