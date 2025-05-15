@@ -85,8 +85,10 @@ read-more-about = Preberite več na naši strani O nas
 
 ## NAV ITEMS
 
+answer-questions = Odgovarjajte na vprašanja
 press-and-stories = Novice in zgodbe
 community-and-languages = Skupnost in jeziki
+spontaneous-speech = SPONTANI GOVOR
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,6 +109,7 @@ get-started = Začnite <icon><icon>
 
 ## Action items section
 
+spontaneous-card-header = Spontani govor
 
 ## Community section
 
@@ -119,6 +122,7 @@ get-started = Začnite <icon><icon>
 
 ## Get involved section
 
+answer-questions-link = Odgovarjajte na vprašanja
 press-and-stories-link = Novice in zgodbe
 
 ## Partner section

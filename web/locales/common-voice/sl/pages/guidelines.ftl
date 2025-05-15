@@ -19,3 +19,4 @@ reviewing-sentences-explanation-4 = Če vam zmanjka stavkov za pregled, nam poma
 
 ## Question collection sidebar content
 
+length-explanation = Na vprašanje mora biti mogoče odgovoriti v le nekaj povedih.
