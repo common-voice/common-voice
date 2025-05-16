@@ -158,6 +158,6 @@ transcribe-audio-menu-item-tooltip = آڈیو ریکارڈنگا کُو اپٹؔ
 
 write-contribute-menu-aria-label = لَکھٹؔے کے ادھیکار کی سُوچی
 add-sentences-menu-item-aria-label = پڑاوا کُو پڑھنے  نتر نویں ٻول سیمل کرو
-review-sentences-menu-item-aria-label = پڑاوا کی ترپھاس  جما کراؤڑی  اَٻکلے ٻولیں کُو اَدؔائے دؔیکھو
-add-questions-menu-item-aria-label = پڑاوا کُو پڑھنے اور جباب دؔوٹؔیں  نتر نوے سُئالیں کُو پیس کرو
+review-sentences-menu-item-aria-label = پڑاوا کی ترپھاس  جما کراؤڑی  اِٻکلے ٻولیں کُو اَدؔائے دؔیکھو
+add-questions-menu-item-aria-label = پڑاوا نتر نئے سُئال جما کرواؤ تاکہ ٻو پڑھی سِکے اور جباب دؔی سِکے.
 transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگا کُو متنام  نکل کرو
