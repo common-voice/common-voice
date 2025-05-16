@@ -113,6 +113,24 @@ rate-limit-toast-message-seconds =
         [one] از اندازې قیمئد تېر کیدۂ٬ از خݷر خو 1 سانییۂ باد کۉشیش کید
        *[other] از اندازې قیمئد خو تېر کیدۂ٬ از خݷر کو دۂ { $retryLimit } سانییۂ کۉشیش کید
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] دۂ ازی سئفۂ دیگۂ جای نئمئندۂ۔ از خݷر خو بئلدې رئیی کیدۉنی دیگۂ جوملۂ 1 دئقۂ مئتئل کو
+       *[other] دۂ ازی سئفۂ دیگۂ جای نئمئندۂ۔ از خݷر خو { $retryLimit } دئقۂ مئتئل کو بئلدې رئیی کیدۉنی دیگۂ جوملۂ۔ از اۆسیلۂ کیدۉن شوم تئشئکور
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] دۂ ازی سئفۂ دیگۂ جای نئمئندۂ۔ از خݷر خو بیلدې رئیی کیدۉنی دیگۂ جوملۂ1 سانییۂ مئتئل کو
+       *[other] دۂ ازی سئفۂ دیگۂ جای نئمئندۂ از خݷر خو بئلدې رئیی کیدۉنی دیگۂ جوملۂ { $retryLimit }سانییۂ مئتئل کو۔ از اۆسیلۂ کیدۉن شوم تئشئکور
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } از 1 جوملۂ ݖۉل شود
+       *[other] { $uploadedSentences }از { $totalSentences }جوملا ݖۉل شود
+    }
 
 ## MENU ITEM TOOLTIPS
 
