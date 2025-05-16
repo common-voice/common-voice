@@ -19,19 +19,19 @@ total-approved = کُل سُئِیکار کروڑے
 overall-accuracy = کُل سئی
 set-visibility = میرا نجریا سئی کرو
 visibility-explainer = یو کتار آپ کے مُکھی بوڈا کے نجرِئے کُو کابُو کرتی ہے۔ جِدؔ چھپی جاوے تو، آپ کی پرگتی اپٹؔی ہوؤںٚگی. اس کا متلب ہے کہ آپ کا پھوٹُو ، چلاݨواڑے کا نانٚو اور پرگتی مُکھی بوڈاپ  چاوی نائیں ہووے۔ دھیانام راکھو کہ مُکھی بوڈ ریفریش بدلاوا کُو ٻسیواݨ کرنے نتر ~{ $minutes }منٹ لگاوتا ہے۔
-visibility-overlay-note = ھینام: جِدؔ 'پرگھٹ' سیٹ کرتے ہے تو  ، اس کتارا کُو <profileLink>پروپھائل پنیں</profileLink> سے بدلی کری سِکتے ہے۔
-show-ranking = میری رینکنگ دؔیکھاو
+visibility-overlay-note = دھِیان کر: جِدؔ 'دِؔسݨواڑا' جِماتے ہے تو، یو نِویڑا <profileLink>پروپھائل پنیں</profileLink> سے بدلی کری سِکتے ہے۔
+show-ranking = میری اُتمتا دِؔکھاؤ
 
 ## Custom Goals
 
-get-started-goals = لکشے کے ساتھ سَرو کرو
-create-custom-goal = اپٹؔی مرجیا کے لکَشے ٻٹؔاو
-goal-type = آپ کس جُو لکشے ٻٹؔاوٹؔا چاوہتے ہیں؟
+get-started-goals = لکشے کے سات سرو کرو
+create-custom-goal = اپٹؔی مرجیا کے لکَشے ٻٹؔاؤ
+goal-type = آپ کس جُو لکشے ٻٹؔاوٹؔا چاہوتے ہے؟
 both-speak-and-listen = دُؔونھیں
 both-speak-and-listen-long = دُؔونھیں (ٻولو اور سُٹؔو)
 daily-goal = روجینا کا لکشے
 weekly-goal = ٻیسپت وار لکشے
-easy-difficulty = سولا
+easy-difficulty = سوَلا
 average-difficulty = لگھ بھگ
 difficult-difficulty = کٹھن
 pro-difficulty = پرو
