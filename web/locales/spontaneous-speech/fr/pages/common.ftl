@@ -61,3 +61,4 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-no-results = Aucune langue trouvée

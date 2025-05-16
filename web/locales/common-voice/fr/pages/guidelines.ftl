@@ -3,6 +3,7 @@ guidelines-header = Consignes pour participer
 guidelines-header-subtitle = Comprendre comment ajouter et valider des phrases et des échantillons audio dans le jeu de données Common Voice
 voice-collection = Collecte de voix
 sentence-collection = Collecte de phrases 
+question-collection = Collecte de questions
 
 ## Voice Collection nav ids
 
@@ -106,9 +107,17 @@ domain-explanation = Le domaine fait référence au sujet de la phrase. Actuelle
 
 ## Question collection ids
 
+adding-questions = Ajouter des questions
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Quels sont les critères d’une bonne question ?
+what-makes-a-good-question-explanation = Une question pertinente pour les jeux de données à participation publique doit :
+what-makes-a-good-question-explanation-criteria-1 = Être facile à comprendre et à répondre
+what-makes-a-good-question-explanation-criteria-2 = Être globalement pertinente
+what-makes-a-good-question-explanation-criteria-3 = Ne pas faire usage, ni encourager des propos injurieux ou offensants
+what-makes-a-good-question-tip = Vous pouvez également envisager de couvrir différents contextes et domaines.
+easy-to-understand = Simple à comprendre
 easy-to-understand-explanation = Choisir des questions simples et compréhensibles par tout le monde, quels que soient la culture ou le contexte.
 spelling-and-pronunciation = Orthographe et ponctuation
 spelling-and-pronunciation-explanation = L’orthographe et la grammaire doivent être correctes.
