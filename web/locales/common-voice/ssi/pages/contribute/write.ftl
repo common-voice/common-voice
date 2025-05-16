@@ -82,23 +82,23 @@ accepted-files = سُئِیکار کروڑی فائلا کے نامُونے: .ts
 minimum-sentences = پھائلام  گھٹ میں گھٹ ٻول: 1000
 maximum-file-size = ودھ میں ودھ پھائلا کا سائج: 25 MB
 what-needs-to-be-in-file = میریا پھائلام  کِیا ہووَٹؔا لاجمی ہے؟
-what-needs-to-be-in-file-explanation = کِرپا کری کن مھاری <templateFileLink>ٹیمپلیٹ پھائل</templateFileLink> جانچ کرو۔ تھارے ٻول کاپی رائٹاس  مُکت ہووَٹؔین چائی جے (سی سی 0 یا بھیݪے کروڑیں کی طرپھاس  اِگِیا مِلوڑی اسل کام) اور چِٹا، پوگرامی توراپ  سئی اور پڑھنیم  سوہرا ہووَنا چائی جے. بھیݪے کروڑے ٻولیں کُو پڑھنیم  لگ بھگ 10-15 سیکنڈ لاگٹؔے چاہئے اور لمبر ، پُورا سُورا نانٚو اور کھاس لوَج سیمل کرنیس  بچٹؔا چاہئے۔
+what-needs-to-be-in-file-explanation = کِرپا کری کن مھاری <templateFileLink>ٹیمپلیٹ پھائل</templateFileLink> جانچ کرو۔ تھارے ٻول کاپی رائٹاس  مُکت ہووَٹؔین چائیجے (سی سی 0 یا بھیݪے کروڑیں کی طرپھاس  اِگِیا مِلوڑی اسل کام) اور چِٹا، کاہرِئے کا رُوپ  سئی اور پڑھنیم  سوہرا ہووَنا چائیجے. بھیݪے کروڑے ٻولیں کُو پڑھنیم  لگ بھگ 10-15 سیکنڈ لاگٹؔے چاہئے اور لمبر ، پُورا سُورا نانٚو اور کھاس لوَج سیمل کرنیس  بچٹؔا چاہئے۔
 upload-progress-text = اپ لوڈ ہوئیرا ہے...
-sc-bulk-submit-confirm = ہُوں پَک کرتا ہے کہ یہ ٻول <wikipediaLink>اوامی ڈومین</wikipediaLink> ہے اور مِسکُو اِنکُو اپ لوڈ کرنے کی اجازت ہے۔
-bulk-upload-success-toast = گھٹؔے سارے  ٻول اپ لوڈ کرے گئے
+sc-bulk-submit-confirm = ہُوں پَک کرتا ہے کہ یہ ٻول <wikipediaLink>جنتا ڈومین</wikipediaLink> ہے اور مِسکُو اِن کُو اپ لوڈ کرنے کی اِگِیا ہے۔
+bulk-upload-success-toast = گھٹؔے سارے  ٻول اپ لوڈ کرے ہے
 bulk-upload-failed-toast = اپ لوڈ ناکام، کِرپا کری پُوٹھوانٚس یتن کرو.
-bulk-submission-success-header = تھارا  سپا گھٹا  جما کراٹؔیم  حِسا ٻہاٹؔے کرے  تھارا  دھنیواد!
-bulk-submission-success-subheader = آپ سادھارٹؔ آواجا کُو مھارے روجِینا کے ٻولیں کے لکشئے تک پُگٹؔینٚم  ساہیتا کری رے ہے!
-upload-more-btn-text = ودھِک ٻول اپ لوڈ کرو؟
+bulk-submission-success-header = تھارا  سپا گھٹا  جما کراٹؔیم  پاتی ٻہاٹؔے کرے  تھارا  دھنیواد!
+bulk-submission-success-subheader = آپ سادھارٹؔ اواجا کُو مھارے روجِینا کے ٻولیں کے لکشئے تائیں پُگاوٹؔینٚم  ساہیتا کری رے ہے!
+upload-more-btn-text = ودھِیک ٻول اپ لوڈ کرو؟
 file-invalid-type = گیر کانونی پھائل
 file-too-large = پھائل سپا بڈؔی ہے
-file-too-small = پھاائل سپا لھوڑی ہے
+file-too-small = پھائل سپا لھوڑی ہے
 too-many-files = گھٹِؔیاں سارِیاں پھائلاں
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> نِیارے نِیارے اوامی ڈومین ٻات سیمل کرو
+small-batch-instruction = <icon></icon> نِیارے نِیارے جنتا ڈومین ٻات سیمل کرو
 multiple-sentences-error = آپ ایکئی  جما کراٹؔے  نتر ایکیس  ودھِیک ٻاتاں سیمل نائیں کرس سِکے
 exceeds-small-batch-limit-error = 1000 س ودھِیک جما نائیں کرائی سکو
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
