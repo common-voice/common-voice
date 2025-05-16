@@ -35,8 +35,8 @@ review-recording = جائجا
 review-rerecord = پُوٹھا ریکارڈ کر
 review-cancel = جما کرواݨا رد کر
 review-keep-recordings = ریکارڈنگیں کُو راکھو
-review-delete-recordings = میری ریکارڈنگ گُم کر
-review-terms = سادھارن آواجا کا اُپیوگ کرتوڑے، تھم مھاری <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت کے نوٹس کُو مانتے  ہیں</privacyLink>
+review-delete-recordings = میرِیاں ریکارڈنگاں ہٹاؤ
+review-terms = سادھارن آواجا کا اُپیوگ کرتوڑے، تھم مھارِیاں <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت سُوچنا کُو مانتے ہے</privacyLink>
 terms-agree = ہوں مانتی ہے
 terms-disagree = ہوں راجی نائی تی
 # FIRST POST SUBMISSION CTA
