@@ -126,6 +126,7 @@ scripted-card-header = Ñe’ẽsyry hapéva
 spontaneous-card-header = Ñe’ẽsyry hape’ỹva
 language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
 add-text = Embojuapy moñe’ẽrã
+answer = Ñembohovái
 
 ## Community section
 

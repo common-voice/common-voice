@@ -10,6 +10,7 @@ select-your-gender = ჩუ დაწე́რადჲებათ ლე სქ
 country-of-residence-label = ჲახინი̆ ქვეყანა́
 country-of-residence-placeholder =
     .placeholder = ჩუ დაწე́რადჲებათ შუჼ ქვეყანა́/ყურა́
+why-are-you-asking = უ̂ჼ/სტე́ნდალლა ხეტტუჲში̆ სო́გო̆?
 
 ## Gender dropdown
 
