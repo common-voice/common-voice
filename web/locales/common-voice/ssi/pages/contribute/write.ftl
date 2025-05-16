@@ -53,7 +53,7 @@ healthcare = سیتا کی دؔیکھ بھاݪ
 # Sentence Domain dropdown option
 history_law_government = اِتِہاس کانون اور سرکار
 # Sentence Domain dropdown option
-language_fundamentals = بھاسا کے مُوݪ تت (سرا دؔیرا ہے انٚک، اکسر، دھن)
+language_fundamentals = بھاشا کے مُوݪ تت (سرا دؔیرا ہے گِنتی، اکشر، دھن)
 # Sentence Domain dropdown option
 media_entertainment = میڈیا اور منورنجن
 # Sentence Domain dropdown option
