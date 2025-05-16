@@ -57,19 +57,19 @@ language_fundamentals = بھاشا کے مُوݪ تت (سرا دؔیرا ہے گ
 # Sentence Domain dropdown option
 media_entertainment = میڈیا اور منورنجن
 # Sentence Domain dropdown option
-nature_environment = پھِترت اور ماحول
+nature_environment = پرکرتی اور پرِیاورݨ
 # Sentence Domain dropdown option
-news_current_affairs = سماچار اور موجُودا ہالات
+news_current_affairs = سماچار اور ماجُود ماملے
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی اور روبوٹکس
-sentence-variant-select-label = ٻولیں کی قِسم
+sentence-variant-select-label = ٻولیں کا نامُونا
 sentence-variant-select-placeholder = ایک نِیارا چُنو  (مرجِیاڑا)
 sentence-variant-select-multiple-variants = کوئی بھی ٻولی / کیئی نامُونے
 
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = عوامی ڈومین ٻول اپ لوڈ کریں <icon></icon>
+sc-bulk-upload-header = عوامی ڈومین ٻول اپ لوڈ کر <icon></icon>
 sc-bulk-upload-instruction = اپٹؔع فائلا کُو ایٹھے <uploadButton>گھِیسو یا اپ لوڈ کرنے  نتر دؔٻاؤ </uploadButton>
 sc-bulk-upload-instruction-drop = اپ لوڈ کرنے  نتر پھائل ایٹھے چھوڈِؔی دؔے
 bulk-upload-additional-information = جے اگر آپ اس پھائلا کے باریم  ودیک جاٹؔکاری لیوَٹؔاں  چاہوتے ہے تو، کِرپا کری <emailFragment>commonvoice@mozilla.com</emailFragment> سے رابطہ کرو
