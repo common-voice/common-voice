@@ -51,7 +51,7 @@ general = سامنِے
 # Sentence Domain dropdown option
 healthcare = سیتا کی دؔیکھ بھاݪ
 # Sentence Domain dropdown option
-history_law_government = اِتہِیاس کانون اور سرکار
+history_law_government = اِتِہاس کانون اور سرکار
 # Sentence Domain dropdown option
 language_fundamentals = بھاسا کے مُوݪ تت (سرا دؔیرا ہے انٚک، اکسر، دھن)
 # Sentence Domain dropdown option
