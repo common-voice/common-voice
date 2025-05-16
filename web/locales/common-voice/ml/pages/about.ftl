@@ -40,6 +40,7 @@ about-nav-get-involved = പങ്കെടുക്കുക
 
 ## How do I add a language
 
+about-playbook-how-add-language = ഒരു ഭാഷ എങ്ങനെ ചേൎക്കാൻ പറ്റും?
 about-playbook-how-add-language-translating-heading = താൾ വിവൎത്തനം
 about-playbook-how-add-language-collecting-sentences-heading = വാക്ക്യങ്ങളെ പിരിക്കുന്നതു്
 
@@ -57,6 +58,7 @@ about-playbook-how-add-sentences = വാക്യങ്ങൾ എങ്ങന�
 
 about-playbook-how-grow-language-content-2 = പരിപാടികൾ
 about-playbook-how-grow-language-content-4 = സാമൂഹികമാധ്യമം
+about-playbook-how-grow-language-content-6 = പങ്കാളിത്തവും
 
 ## How to validate
 
