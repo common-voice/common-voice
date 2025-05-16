@@ -79,6 +79,15 @@ try-upload-again-md = بیسئم کۉشیش کو تا پلۉۮ شونۂ
 select-file = فایل رۂ سونغو کئنو
 select-file-mobile = بئلدې اپلۉۮ کیدۉ فایل سونغو کئنو
 accepted-files = اقسامی فایل قئبول شود: فئقئد  ݖی ایس وی
+minimum-sentences = کئم از کئم جوملا دۂ فایل 1000
+maximum-file-size = کیݖݖۂ تئرین اندازې فایل 25 اېم بی
+what-needs-to-be-in-file = دۂ بݷنی فایل مۂ بایئد چیز چیز خېل باشۂ؟
+what-needs-to-be-in-file-explanation = از خݷر خو<templateFileLink> ݖېمپیلېݖ فایل </templateFileLink>مۉ رۂ تۉغ کید۔ جوملای شوم از دیگۂ کئس نئباشۂ یا ایجازې شی گیریفتۂ باشی و وازې باشۂ٬ گیرامئری روست کی آسۉ خاندۂ شونۂ۔جوملا بایئد 10-15 سانییۂ بئلدې خاندۉ وئخت بیگرۂ و شومارۂ٬ نامای خاس و الامئتای خاس نئدیشتۂ شۂ
+upload-progress-text = دئرۆ اپلۉۮ موشۂ
+sc-bulk-submit-confirm = ما یئقین خو پوختۂ کئدوم کی جوملا<wikipediaLink> اولوسی ۮۉمېن</wikipediaLink> استۂ و ما ایجازې اپلۉۮ شی دیرۉم
+bulk-upload-success-toast = زیاد جوملا اپلۉۮ شودۂ
+bulk-upload-failed-toast = اپلۉۮ نئشود٬ از خݷر خو از نۆ کۉشیش کو
+bulk-submission-success-header = تئشئکور بئلدې کۉمئگی جوملای زیاد شوم
 
 ## SMALL BATCH SUBMISSION
 
