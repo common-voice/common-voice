@@ -16,7 +16,7 @@ prompt-bubble-title = <mark>প্ৰম্‌প্ট</mark>
 prompt-bubble-subtitle = আমি আপোনাক এটা প্ৰম্‌প্ট বা প্ৰশ্ন দেখুৱাম
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>সঁহাৰি দিয়া</mark>
-respond-bubble-subtitle = আপুনি ইয়াৰ প্ৰতি যিমান পাৰে স্বাভাৱিকভাৱে সঁহাৰি বা উত্তৰ দিয়ে
+respond-bubble-subtitle = আপুনি ইয়াৰ প্ৰতি যিমান পাৰে স্বাভাৱিকভাৱে সঁহাৰি বা উত্তৰ দিয়ে
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>লিপিবদ্ধ কৰা</mark>
 transcribe-bubble-subtitle = আপুনি অডিঅ’ ক্লিপবোৰত যি শুনে তাকেই লিখে

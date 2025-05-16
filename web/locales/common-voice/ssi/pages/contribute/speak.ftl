@@ -67,12 +67,12 @@ read-sentences-coming-soon = ٻول پڑھو<small>(ٻیگے آئیرے ہے)</s
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = ٻول پڑھو، سُوالات کے جواب دؔیو
-read-sentences-menu-item-tooltip = اپٹؔی ٻولیام  ٻول پڑھتیاٹؔے  ریکارڈ کرو
-answer-questions-menu-item-tooltip = اپٹؔے آپا کو اپٹؔی ٻولیام  سُوالات اور اشارے کا جواب دیٹؔے کُو ریکارڈ کرو
+speak-contribute-menu-tooltip = ٻول پڑھو، سُئالیں کے جباب دؔیؤ
+read-sentences-menu-item-tooltip = اپٹؔی ٻولیام  ٻول پڑھتیاٹؔیں  ریکارڈ کرو
+answer-questions-menu-item-tooltip = اپٹؔے آپا کو اپٹؔی ٻولیام  سُئالیں اور جھالیں کی ورندی دیٹؔیں کُو ریکارڈ کرو
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = ٻولٹؔے کے ویکلپ مینو
-read-sentences-menu-item-aria-label = کُما  کی ترپھاس  دؔوجی ٻولیم  بھیݪے کروڑے ٻول پڑھو
+speak-contribute-menu-aria-label = ٻولٹؔیں کے وِکلپ سُوچی
+read-sentences-menu-item-aria-label = کُوما  کی ترپھاس  دؔوجی ٻولِئیم  بھیݪے کروڑے ٻول پڑھو
 answer-questions-menu-item-aria-label = کُما کو پڑھنے اور جواب دؔیؔے نتر ایک نئوا سُوال بھیݪا کرو
