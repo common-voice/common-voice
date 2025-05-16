@@ -131,9 +131,28 @@ add-small-batch-success =
         [one] { $uploadedSentences } از 1 جوملۂ ݖۉل شود
        *[other] { $uploadedSentences }از { $totalSentences }جوملا ݖۉل شود
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences }از 1 جوملۂ ݖۉل شود۔<downloadLink>اینجی </downloadLink>پوچوق کو کی جوملای رئد شودۂ ۮاونۉۮ شونۂ
+       *[other] { $uploadedSentences }از { $totalSentences }جوملای ݖۉل شودۂ <downloadLink>اینجی پوچیق کو</downloadLink> کی جوملای رئد شودۂ ۮاونلۉۮ شونۂ
+    }
+small-batch-sentences-rule-1 = از اینجی رانومایی رۂ دومبال کو  "چیز رئقئم جوملا رۂ میتنوم ایزافۂ کئنوم؟"
+small-batch-sentences-rule-2 = دۂ آر خئد یئگ جوملۂ ایزافۂ کو
+small-batch-sentences-rule-3 = جوملا رۂ دۂ یئگ خئد جودا کو قئد پوچوق کیدۉنی "اینݖئر" یا "ریݖئرن"
+small-batch-sentences-rule-4 = تا 1000 جوملۂ ایزافۂ میتنید
+small-batch-sentences-rule-5 = پئگ جوملا یئگ اللی ۮۉمېن دیشتۂ شۂ
+small-batch-sentences-rule-6 = پئگ جوملا یئگ اللی اوالۂ دیشتۂ شۂ
+# menu item
+add-sentences = جوملا رۂ ایزافۂ کید
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جوملا رۂ ایزافۂ و از نۆ تۉغ کید٬ سئوال ایزافۂ کید٬ نیمئشتې آواز ایزافۂ کید
+add-sentences-menu-item-tooltip = دۂ زیبۉنی خۉد خو جوملا رۂ ایزافۂ کید
+review-sentences-menu-item-tooltip = دۂ زیبۉنی خۉد خو جوملا رۂ از نۆ تۉغ کید
+add-questions-menu-item-tooltip = دۂ زیبۉنی خۉد خو سئوال ایزافۂ کید
+transcribe-audio-menu-item-tooltip = آوازای پور شودۂ رۂ دۂ زیبۉنی خۉد خو پور کید
 
 ## MENU ITEM ARIA LABELS
 
