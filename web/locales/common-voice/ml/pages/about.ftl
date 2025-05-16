@@ -7,6 +7,7 @@ how-does-it-work-text = നമ്മള്‍ തുറന്ന സ്രോത
 
 about-localization-title = വെബിട പ്രാദേശികവൽക്കരണം
 about-localization-subtitle = ആ ഭാഷയിലോട്ടാണു് വെബിടത്തിലുള്ള എഴുത്തെല്ലാം വിവൎത്തനം ചെയ്യപ്പെടുന്നതു്.
+about-new-lang-title = പുതിയ ഭാഷ തുടക്കം
 about-speak = സംസാരിക്കുക
 about-speak-text = സംഭാവനയായി ലഭിച്ച വാചകങ്ങൾ വായിച്ച് ശബ്ദം റെക്കോഡ് ചെയ്യുന്നതിൽ പങ്കു ചേരാം
 about-listen-queue = കേൾക്കാനുള്ള-ക്യൂ
