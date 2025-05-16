@@ -47,7 +47,7 @@ finance = پُونٚجی
 # Sentence Domain dropdown option
 service_retail = سیوا اور ریٹیل
 # Sentence Domain dropdown option
-general = جنرل
+general = سامنِے
 # Sentence Domain dropdown option
 healthcare = سیتا کی دؔیکھ بھاݪ
 # Sentence Domain dropdown option
