@@ -15,9 +15,19 @@ coming-soon = ჴე́ნი მატტი́შ ქა́სტნეჸ ლა
 media-recorder-api-not-supported = MediaRecorder API ცო და ფელაცინო̆ შუ ბრაუზერე.
 # Toast message that is displayed when an item is skipped
 skipped = დაჰ̦ და დითენო̆ (გამოტო́ვებადიენო̆)
+audioplayer-header = ლარკ ჺო́ფარ
+guidelines = ნიყბა́ხუჲნი̆ (გზამკვლევ)
+# For the button to report an item
+report-button = მოხსე́ნებ
+# For the button to skip an item
+skip-button = დაჰ̦ დითარ
+submit-button = დაჰ̦ითარ
+contribute = და́ყ ჩუ დაჰ̦არ
+request-new-language = დაკლე́ვადბებათ წი́ნ მოტტ
 
 ## Navbar
 
+respond-to-prompt = დაკლე́ვადბარეჼ (მოთხო́ვნეჼ) პა́სუხ
 
 ## Not Found Page
 
