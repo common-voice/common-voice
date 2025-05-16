@@ -3,6 +3,7 @@ guidelines-header = অৱদানৰ মাপকাঠী
 guidelines-header-subtitle = কমন ভইচ ডেটাছেটলৈ বাক্য আৰু অডিঅ’ ক্লিপ কেনেকৈ অৱদান দিয়া হয় আৰু বৈধতা নিশ্চিত কৰা হয়— বুজি লওক
 voice-collection = মাত-সংগ্ৰহ
 sentence-collection = বাক্য-সংগ্ৰহ
+question-collection = প্ৰশ্ন-সংগ্ৰহ
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,8 @@ domain-explanation = ড’মেইন বুলিলে বাক্যটো
 
 ## Question collection ids
 
+adding-questions = প্ৰশ্ন যোগ কৰা
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ভাল প্ৰশ্ন কাক বোলে?
