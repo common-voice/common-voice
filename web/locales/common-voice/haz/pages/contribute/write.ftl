@@ -37,6 +37,32 @@ single-sentence = یئگ دئنۂ
 small-batch-sentence = رېزۂ
 bulk-sentence = کیݖݖۂ
 sentence-domain-combobox-label = ۮۉمېنی جوملۂ
+sentence-domain-select-placeholder = تا 3 دئنۂ ۮۉمېن رر سونغو کید۔ (اینتیخابی)
+# Sentence Domain dropdown option
+agriculture_food = کیشت کاری و خۉراکۂ
+# Sentence Domain dropdown option
+automotive_transport = خۉد رۆ و امدو رئفت
+# Sentence Domain dropdown option
+finance = فاینېنس
+# Sentence Domain dropdown option
+service_retail = خیدمئد و سۆدا فورۉخت
+# Sentence Domain dropdown option
+general = اومومی
+# Sentence Domain dropdown option
+healthcare = جان جۉری
+# Sentence Domain dropdown option
+history_law_government = تاریخ٬ قانون و اکومئد
+# Sentence Domain dropdown option
+language_fundamentals = پݷسئنگی زیبۉ ( ممئسلئن شومارۂ٬ اوروف٬ روپی)
+# Sentence Domain dropdown option
+media_entertainment = میۮیا و اۉماغ
+# Sentence Domain dropdown option
+nature_environment = تئبیئت وگیرد گۉشۂ
+# Sentence Domain dropdown option
+news_current_affairs = خئبئر و اوالی رۉز
+# Sentence Domain dropdown option
+technology_robotics = ݖېکنالۉجی و آدئمی مئشینی
+sentence-variant-select-label = اقسامی جوملۂ
 
 ## BULK SUBMISSION
 

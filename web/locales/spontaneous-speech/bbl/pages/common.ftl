@@ -41,6 +41,15 @@ accept-privacy-and-terms = დარ ლე́ვდოს Common Voice-ეჼ <t
 # Locales
 bsy = საბაჰ-ბისაია
 cdo = ფუჯოუ
+cpx = ჰენგ-ჰუა
+en = ინგლისურ
+fr = ფრანგულ
+hch = ვიქსარიკა
+kzi = კელაბიტ
+mbf = ბაბა-მალაურ
+meh = სამხრეთდასავლურ ტლახიაკეჼ მისტეკურ
 
 ## Language search component
 
+language-search-placeholder = მოტტ ლახარ...
+language-search-aria-label = მოტტ ლახარ
