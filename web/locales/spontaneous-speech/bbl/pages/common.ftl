@@ -6,6 +6,10 @@ action-click = წკაპ ბა́ჴითათ
 action-tap = ლა́ჰ̦ლიბათ
 # Label for language switcher
 platform-language = პლატფო́რმეჼ მოტტ
+platform-language-tooltip-text = ხე́რცოჲო̆ დაჩოკ ვებსა́იტეჼ ტექსტ
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = და́ყ ჰ̦უჲნო̆ მოტტ
 
 ## Navbar
 
