@@ -131,3 +131,7 @@ process-steps = Processus / Étapes
 process-steps-explanation = Des questions qui demandent à dresser une liste de plusieurs étapes. Lister des étapes invite l’utilisateur·trice à réciter une réponse plutôt qu’à donner une réponse plus naturelle.
 offensive-content-sensitive-information = Contenu choquant ou informations sensibles
 offensive-content-sensitive-information-explanation-explanation-1 = Des questions susceptibles de demander des données personnelles
+offensive-content-sensitive-information-explanation-explanation-2 = Des questions qui pourraient susciter des propos haineux, des préjugés ou des commentaires offensants
+example-questions-subheader = Exemples de questions
+example-questions-explanation-1 = Vous trouverez <examplePromptsLink>120 exemples de questions dans cette feuille.</examplePromptsLink>
+example-questions-explanation-2 = Si vous souhaitez soumettre une série de questions à intégrer, vous pouvez <githubLink>le faire via notre GitHub</githubLink> ou envoyer votre liste à l’adresse <emailFragment>commonvoice@mozilla.com.</emailFragment>
