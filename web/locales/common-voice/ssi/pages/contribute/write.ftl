@@ -128,18 +128,18 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] کرچ ج
-       *[other] سنچ
+        [one] ایک ٻول جما کرا ہے۔
+       *[other] دُؔوجے { $uploadedSentences } میں سے { $totalSentences } ٻول بھیݪے کرے ہے
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } ایک ٻول جما کرے گئے ہے۔ چھوڈؔوڑے  ٻول ڈاؤن لوڈ کرنے  نتر <downloadLink>ایٹھے</downloadLink> دؔٻاؤ۔
-       *[other] { $totalSentences } ٻولیں کا { $uploadedSentences } جما کرا گیا ہے۔ چھوڈؔوڑے  ٻول ڈاؤن لوڈ کرنے  نتر <downloadLink>ایٹھے</downloadLink> دؔٻاؤ۔
+        [one] { $uploadedSentences } ایک ٻول جما کرا ہے۔ چھوڈؔوڑے  ٻول ڈاؤن لوڈ کرنے  نتر <downloadLink>ایٹھے</downloadLink> دؔٻاؤ۔
+       *[other] { $totalSentences } ٻولیں کُو { $uploadedSentences } جما کرا ہے۔ چھوڈؔوڑے  ٻول ڈاؤن لوڈ کرنے  نتر <downloadLink>ایٹھے</downloadLink> دؔٻاؤ۔
     }
-small-batch-sentences-rule-1 = "ہُوں کوٹؔ سے ٻول سیمل کری سِکتا ہے؟" سے ہِدائیتینٚپ  امل کرو۔
-small-batch-sentences-rule-2 = ہر لین ایک ٻول سیمل کرو
-small-batch-sentences-rule-3 = ایک دپھا "داکھل کرو" یا "پُٹھا" دؔٻائی کن ٻولیں کُو ایک لیٹؔام  الگ کرو۔
+small-batch-sentences-rule-1 = "ہُوں کوٹؔ سے ٻول سیمل کری سِکتا ہے؟" سے ہِدائیتیں کا پالݨ کر۔
+small-batch-sentences-rule-2 = ہر لیݨ ایک ٻول سیمل کرو
+small-batch-sentences-rule-3 = ایک چکر "داکھل کر" یا "پُوٹھا" دؔٻائی کن ٻولیں کُو ایک لیٹؔام  نِیارا کر۔
 small-batch-sentences-rule-4 = 1,000 تائِیں ٻاتاں سیمل کرو
 small-batch-sentences-rule-5 = سارے ٻولیں کا ایکی  ڈومین ہووَٹؔا جروری ہے
 small-batch-sentences-rule-6 = سارے ٻولیں کا ایکیئی  سرا ہووَٹؔا جروری ہے
@@ -148,16 +148,16 @@ add-sentences = ٻول سیمل کرو
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = ٻول سیمل کرو اور ان کُو اَدؔئے دؔیکھو، سُئالیں کُو شامل سیمل، آڈیو نقل کرو
+write-contribute-menu-tooltip = ٻول سیمل کرو اور ان کُو اَدؔائے دؔیکھو، سُئالیں کُو سیمل، آڈیو نقل کرو
 add-sentences-menu-item-tooltip = اپٹؔیا بھاشام  ٻولیں کُو سیمل کرو
 review-sentences-menu-item-tooltip = اپٹؔیا بھاشام  ٻولیں کُو  اَدؔائے دؔیکھو
-add-questions-menu-item-tooltip = اپٹؔیا بھاشام  سوالیں کُو سیمل کرو
+add-questions-menu-item-tooltip = اپٹؔیا بھاشام  سُئالیں کُو سیمل کرو
 transcribe-audio-menu-item-tooltip = آڈیو ریکارڈنگا کُو اپٹؔیا بھاشام  نکل کرو
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = لَکھٹؔے کے ادھیکار مینو
-add-sentences-menu-item-aria-label = پڑاوا کُو پڑھنے  نتر نوے ٻول سیمل کرو
+write-contribute-menu-aria-label = لَکھٹؔے کے ادھیکار کی سُوچی
+add-sentences-menu-item-aria-label = پڑاوا کُو پڑھنے  نتر نویں ٻول سیمل کرو
 review-sentences-menu-item-aria-label = پڑاوا کی ترپھاس  جما کراؤڑی  اَٻکلے ٻولیں کُو اَدؔائے دؔیکھو
 add-questions-menu-item-aria-label = پڑاوا کُو پڑھنے اور جباب دؔوٹؔیں  نتر نوے سُئالیں کُو پیس کرو
 transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگا کُو متنام  نکل کرو
