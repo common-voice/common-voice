@@ -10,6 +10,7 @@ platform-language-tooltip-text = ხე́რცოჲო̆ დაჩოკ ვ�
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = და́ყ ჰ̦უჲნო̆ მოტტ
+contribution-picker-tooltip-text = ხე́რცობო̆ მონაცემა́ კრე́ბულეჼ მოტტ, მე́ნხუჲჩოჰ̦ა́ და́ყ ჴეჰ̦უჲში̆
 
 ## Navbar
 
