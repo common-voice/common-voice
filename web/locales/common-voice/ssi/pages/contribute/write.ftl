@@ -70,17 +70,17 @@ sentence-variant-select-multiple-variants = کوئی بھی ٻولی / کیئی 
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = عوامی ڈومین ٻول اپ لوڈ کر <icon></icon>
-sc-bulk-upload-instruction = اپٹؔع فائلا کُو ایٹھے <uploadButton>گھِیسو یا اپ لوڈ کرنے  نتر دؔٻاؤ </uploadButton>
+sc-bulk-upload-instruction = اپݨی پھائلا کُو ایٹھے <uploadButton>گھِیسو یا اپ لوڈ کرنے  نتر دؔٻاؤ </uploadButton>
 sc-bulk-upload-instruction-drop = اپ لوڈ کرنے  نتر پھائل ایٹھے چھوڈِؔی دؔے
-bulk-upload-additional-information = جے اگر آپ اس پھائلا کے باریم  ودیک جاٹؔکاری لیوَٹؔاں  چاہوتے ہے تو، کِرپا کری <emailFragment>commonvoice@mozilla.com</emailFragment> سے رابطہ کرو
-template-file-additional-information = جے اگر تھم اِس پھائلا  باریم میں کھٻر   کرنا چاہوتے ہے جکو ٹیمپلیٹام  سیمل نائی تی تو، کِپا کری <emailFragment>commonvoice@mozilla.com</emailFragment> سے سمپرک کرو
-try-upload-again = اپنی پھائلا کُو ایٹھے گھِیسی کن پُٹھا جتن کرو
+bulk-upload-additional-information = جے اگر آپ اس پھائلا کے باریم  ودھِیک جاٹؔکاری لیوَٹؔاں  چاہوتے ہے تو، کِرپا کری <emailFragment>commonvoice@mozilla.com</emailFragment> سے سمپرک کرو
+template-file-additional-information = جے اگر تھم اِس پھائلا باریم کھٻر   کرنا چاہوتے ہے جکو ٹیمپلیٹام  سیمل نائیں تی تو، کِرپا کری <emailFragment>commonvoice@mozilla.com</emailFragment> سے سمپرک کرو
+try-upload-again = اپنی پھائلا کُو ایٹھے گھِیسی کن پُوٹھا جتن کرو
 try-upload-again-md = پُوٹھا اپ لوڈ کرنے کا جتن کرو
 select-file = پھائل چُنو
 select-file-mobile = اپ لوڈ کرنے  نتر پھائل چُنو
-accepted-files = منجُور کروڑی فائلا کے نامُونے: .tsv سِرپ
+accepted-files = سُئِیکار کروڑی فائلا کے نامُونے: .tsv رُگی
 minimum-sentences = پھائلام  گھٹ میں گھٹ ٻول: 1000
-maximum-file-size = ودھ میں ودھ پھائلا سائج: 25 MB
+maximum-file-size = ودھ میں ودھ پھائلا کا سائج: 25 MB
 what-needs-to-be-in-file = میریا پھائلام  کِیا ہووَٹؔا لاجمی ہے؟
 what-needs-to-be-in-file-explanation = کِرپا کری کن مھاری <templateFileLink>ٹیمپلیٹ پھائل</templateFileLink> جانچ کرو۔ تھارے ٻول کاپی رائٹاس  مُکت ہووَٹؔین چائی جے (سی سی 0 یا بھیݪے کروڑیں کی طرپھاس  اِگِیا مِلوڑی اسل کام) اور چِٹا، پوگرامی توراپ  سئی اور پڑھنیم  سوہرا ہووَنا چائی جے. بھیݪے کروڑے ٻولیں کُو پڑھنیم  لگ بھگ 10-15 سیکنڈ لاگٹؔے چاہئے اور لمبر ، پُورا سُورا نانٚو اور کھاس لوَج سیمل کرنیس  بچٹؔا چاہئے۔
 upload-progress-text = اپ لوڈ ہوئیرا ہے...
