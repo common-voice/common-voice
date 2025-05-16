@@ -28,9 +28,19 @@ request-new-language = დაკლე́ვადბებათ წი́ნ მ
 ## Navbar
 
 respond-to-prompt = დაკლე́ვადბარეჼ (მოთხო́ვნეჼ) პა́სუხ
+transcribe = ნაწე́რეღ დე́რწდარ (გადმოცე́მადარ)
+check-transcriptions = ნაწე́რეღ დე́რწინო̆  დაყყდარ
+question = შეკითხვ
 
 ## Not Found Page
 
+not-found-page-header = ცო ლახდალიჼ
+not-found-page-content = დაკლე́ვადიენო̆ სა́იტ ცო ლახდალიჼ
+# Privacy and Terms checkbox
+accept-privacy-and-terms = დარ ლე́ვდოს Common Voice-ეჼ <termsLink> პირბახა́</termsLink> ჲე <privacyLink> პირად მონაცე́მი და́ცოდჲარეჼ განაცხა́დეხა́
+# Locales
+bsy = საბაჰ-ბისაია
+cdo = ფუჯოუ
 
 ## Language search component
 

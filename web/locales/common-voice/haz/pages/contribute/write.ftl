@@ -23,6 +23,20 @@ new-sentence-rule-7 = دئقیق اوالۂ بیدید
 new-sentence-rule-8 = خوب تئبی یی و قابیلی تۉرۂ گۉیی باشۂ(جوملۂ خاندۉن شی خوب آسۉ بئشۂ)
 login-instruction-multiple-sentences = <loginLink>لۉگ این</loginLink> یا <loginLink>ساین اپ</loginLink> کین بئلدې زیادتئر جوملا
 how-to-cite = چوتور اوالۂ بیدیم؟
+how-to-cite-explanation-bold = قئد یو آر اېل لینک یا موکئمئل نامی کار شی اوالۂ بیدی
+how-to-cite-explanation = اگئر ای جوملای از خۉد تو استۂ٬ فئقئد بوگی<italicizedText> از خۉدیم استۂ۔ مۉ بایئد بوفامی کی ای کانݖېنݖ رۂ از کوجا کیدې تا کی مۉ او رۂ دۂ بݷنی اولوسی ۮۉمېن تۉغ کئنی و پابئندی کاپی رایݖ بئلې شی نئیۂ۔ بئلدې مئزید <guidelinesLink>مالومات سئفې رانومای مۉ رۂ تۉغ کید۔</guidelinesLink>
+guidelines = رانومایی
+contact-us = قئد مۉ رابیتۂ کید
+add-sentence-success = جوملا ݖۉل شودۂ
+add-sentence-error = جوملې ایزافۂ کیدې شوم غئلئدۂ
+required-field = از خݷر خو خانۂ رۂ پور کید۔
+single-sentence-submission = رئیی کیدۉنی یئگ جوملۂ
+small-batch-sentence-submission = رئیی کیدۉنی جوملای رېزۂ
+bulk-sentence-submission = رئیی کیدۉنی جوملای کیݖݖۂ
+single-sentence = یئگ دئنۂ
+small-batch-sentence = رېزۂ
+bulk-sentence = کیݖݖۂ
+sentence-domain-combobox-label = ۮۉمېنی جوملۂ
 
 ## BULK SUBMISSION
 
