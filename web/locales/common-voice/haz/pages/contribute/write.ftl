@@ -63,9 +63,22 @@ news_current_affairs = خئبئر و اوالی رۉز
 # Sentence Domain dropdown option
 technology_robotics = ݖېکنالۉجی و آدئمی مئشینی
 sentence-variant-select-label = اقسامی جوملۂ
+sentence-variant-select-placeholder = یئگ قیسم رۂ سونغو کو(اینتیخانی/پېش خۉش)
+sentence-variant-select-multiple-variants = اومومی زیبۉنا/ موختئلیف اقسام
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اپلۉۮ <icon></icon>جوملای اولوسی ۮۉمېن رۂ
+sc-bulk-upload-instruction = فایل خو اینجی لئش کو یا <uploadButton>بئلدې اپلۉۮ شی پوچیق کو</uploadButton>
+sc-bulk-upload-instruction-drop = بئلدې اپلۉۮ فایل رۂ اینجی بېلو
+bulk-upload-additional-information = بئلدې ازی فایل اگۂ مئزید مالومات مېخایی بیدی از خݷر خو اینجی رابیتۂ کئنو </emailFragment></emailFragment>commonvoice@mozilla.com
+template-file-additional-information = اگئر بئلدې فاݷلی کی مېخایی مئزید مالومات بیدی دۂ بݷن ازی ݖېمپیلېݖ نئبود از خݷر خو اینجی رابیتۂ کئنو <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = بیسئم کۉشیش کئنو کی فایل خو اینجی کئش کئنی
+try-upload-again-md = بیسئم کۉشیش کو تا پلۉۮ شونۂ
+select-file = فایل رۂ سونغو کئنو
+select-file-mobile = بئلدې اپلۉۮ کیدۉ فایل سونغو کئنو
+accepted-files = اقسامی فایل قئبول شود: فئقئد  ݖی ایس وی
 
 ## SMALL BATCH SUBMISSION
 
