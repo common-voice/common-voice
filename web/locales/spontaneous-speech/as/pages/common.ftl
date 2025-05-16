@@ -61,3 +61,7 @@ xkl = কেন্যাঃ
 
 ## Language search component
 
+language-search-placeholder = ভাষাৰ সন্ধান কৰক...
+language-search-aria-label = ভাষাৰ সন্ধান কৰক
+language-search-label = কেৱল ডেটাছেট অৱদানৰ ভাষা সলনি কৰে
+language-search-no-results = কোনো ভাষা পোৱা নগ’ল

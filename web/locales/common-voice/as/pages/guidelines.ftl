@@ -127,3 +127,4 @@ dont-add-subheader = যোগ নকৰিব
 culturally-specific-questions = সাংস্কৃতিকভাৱে নিৰ্দিষ্ট প্ৰশ্ন
 culturally-specific-questions-explanation = এনেবোৰ প্ৰশ্ন যি সাংস্কৃতিকভাৱে অতি নিৰ্দিষ্ট বা উত্তৰ দিওঁতাৰ বিষয়ে বহুকথা অনুমান কৰে
 length-avoid-explanation = এনেবোৰ প্ৰশ্ন যাৰ 15 ছেকেণ্ড (ক্লিপৰ সৰ্বাধিক দৈৰ্ঘ্য)ৰ ভিতৰত উত্তৰ দিয়াত মানুহৰ অসুবিধা হয়
+process-steps = প্ৰক্ৰিয়া / পদক্ষেপ
