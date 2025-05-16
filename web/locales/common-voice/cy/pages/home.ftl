@@ -139,6 +139,7 @@ spontaneous-card-content = Ymateb i bromptiau i greu setiau data ar gyfer cyd-de
 language-text-card-header = Testun Iaith
 language-text-card-content = Creu neu rannu promptiau parth cyhoeddus, brawddegau, a thestunau i'w cyfieithu, modelau iaith bychan, a mwy.
 add-text = Ychwanegu Testun
+answer = Ateb
 
 ## Community section
 
