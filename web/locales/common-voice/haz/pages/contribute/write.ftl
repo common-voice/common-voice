@@ -88,9 +88,31 @@ sc-bulk-submit-confirm = ما یئقین خو پوختۂ کئدوم کی جوم�
 bulk-upload-success-toast = زیاد جوملا اپلۉۮ شودۂ
 bulk-upload-failed-toast = اپلۉۮ نئشود٬ از خݷر خو از نۆ کۉشیش کو
 bulk-submission-success-header = تئشئکور بئلدې کۉمئگی جوملای زیاد شوم
+bulk-submission-success-subheader = شومۉ کامئن وایس رۂ کۉمئگ مونیید تا دۂ مئخسئدی رۉزالوس خو بیرسۂ
+upload-more-btn-text = دیگۂ جوملا ام اپلۉۮ مونی؟
+file-invalid-type = فایلی غئلئد
+file-too-large = فایل غئدئر کیݖݖۂ یۂ
+file-too-small = فایل غئدئر رېزۂ یۂ
+too-many-files = یئگ بولوگ فاݷلا
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>موختئلیف جوملای اولوسی ۮۉمېن ایزافۂ کید۔
+multiple-sentences-error = بئلدې یئکۂ رئیی کیدۉ موختئلیف جوملا ایزافۂ نئمیتنی
+exceeds-small-batch-limit-error = از 1000 جوملۂ غئدئرتئر رئیی نئمیتنی
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] از اندازې قیمئد تېر کیدۂ٬ از خݷر خو 1 دئقۂ باد کۉشیش کو
+       *[other] از اندازې قیمئد خو تېر کیدۂ٬ از خݷر خو دۂ{ $retryLimit } دئقۂ کۉشیش کو
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] از اندازې قیمئد تېر کیدۂ٬ از خݷر خو 1 سانییۂ باد کۉشیش کید
+       *[other] از اندازې قیمئد خو تېر کیدۂ٬ از خݷر کو دۂ { $retryLimit } سانییۂ کۉشیش کید
+    }
 
 ## MENU ITEM TOOLTIPS
 
