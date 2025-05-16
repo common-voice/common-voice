@@ -134,3 +134,5 @@ offensive-content-sensitive-information-explanation-explanation-1 = سوجاک �
 offensive-content-sensitive-information-explanation-explanation-2 = ہمو سوجاک ہرافتیٹی کست و ساڑ یا پین تعصب یا زوراکی نا جوزہ غاک ودی مریرہ۔
 offensive-content-sensitive-information-explanation-explanation-3 = سوجاک ہراکے کسے حساس، یا وڑ سینا وڑ سیٹی ورندی تے اوار کننگ نا وسیلہ جوڑ مننگ کیک۔
 example-questions-subheader = سوجاتا مثال
+example-questions-explanation-1 = نم دا شیٹ ٹی <examplePromptsLink>120 مثالاتا اشارہ غاتے پٹنگ کیرے۔</examplePromptsLink>
+example-questions-explanation-2 = اگہ نم سوجاتا مُچی ئس جاچ الننگ کن جمع کیرے، گڑا نم <githubLink>ہمارے GitHub نا کمک اٹ ہندن کننگ کیرے</githubLink> یا تینا لڑ ئے <emailFragment>commonvoice@mozilla.com آ ای میل کبو۔</emailFragment>
