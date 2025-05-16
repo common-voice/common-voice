@@ -82,16 +82,22 @@ transcribe-audio = Transcribir gravacións
 press-and-stories = Comunicación, novas
 community-and-languages = Comunidade, idiomas
 coming-soon = Proximamente
+about-us = Sobre nós
+scripted-speech = FALA GUIADA
+spontaneous-speech = FALA ESPONTÁNEA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Colaboracións, comunicación e novas, comunidade e idiomas
+about-us-menu-item-tooltip = Obteña información sobre a misión e o equipo detrás de Common Voice
+about-us-menu-item-aria-label = Menú de opcións "Sobre nós"
 partnerships-menu-item-tooltip = Colabore connosco
 press-and-stories-menu-item-tooltip = Visite o noso blog ou escriba sobre nós
 community-and-languages-menu-item-tooltip = Descubra os idiomas e as comunidades presentes en Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Menú de opcións "Sobre nós"
 partnerships-menu-item-aria-label = Aprenda sobre as colaboracións con Common Voice
 press-and-stories-menu-item-aria-label = Acceda a notas de prensa e novas relacionadas con Common Voice
 community-and-languages-menu-item-aria-label = Explore a comunidade e os idiomas presentes en Common Voice
@@ -119,6 +125,7 @@ spontaneous-card-content = Responde a estímulos para crear conxuntos de datos e
 language-text-card-header = Texto na súa lingua
 language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
 add-text = Achegar texto
+answer = Resposta
 
 ## Community section
 
