@@ -13,6 +13,8 @@ contribution-picker-label = და́ყ ჰ̦უჲნო̆ მოტტ
 contribution-picker-tooltip-text = ხე́რცობო̆ მონაცემა́ კრე́ბულეჼ მოტტ, მე́ნხუჲჩოჰ̦ა́ და́ყ ჴეჰ̦უჲში̆
 coming-soon = ჴე́ნი მატტი́შ ქა́სტნეჸ ლაჲტო̆ მაქ!
 media-recorder-api-not-supported = MediaRecorder API ცო და ფელაცინო̆ შუ ბრაუზერე.
+# Toast message that is displayed when an item is skipped
+skipped = დაჰ̦ და დითენო̆ (გამოტო́ვებადიენო̆)
 
 ## Navbar
 
