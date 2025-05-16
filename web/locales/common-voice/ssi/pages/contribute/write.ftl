@@ -99,19 +99,19 @@ too-many-files = گھٹِؔیاں سارِیاں پھائلاں
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> نِیارے نِیارے جنتا ڈومین ٻات سیمل کرو
-multiple-sentences-error = آپ ایکئی  جما کراٹؔے  نتر ایکیس  ودھِیک ٻاتاں سیمل نائیں کرس سِکے
-exceeds-small-batch-limit-error = 1000 س ودھِیک جما نائیں کرائی سکو
+multiple-sentences-error = آپ ایکئی  جما کراوٹؔیں  نتر ایکیس  ودھِیک ٻاتاں سیمل نائیں کری سِکو
+exceeds-small-batch-limit-error = 1000 س ودھِیک جما نائیں کرائی سِکو
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] تَہ سِیماس  ٻہار چلی گا۔ 1 منٹام  پُوٹھا یتن کرو
-       *[other] تَہ سِیماس   ٻہار چلی گا۔ { $retryLimit } منٹام  پُوٹھا یتن کرو
+        [one] تَیہ سِیماس  ٻہار چلی گا۔ 1 منٹام  پُوٹھا یتن کرو
+       *[other] تَیہ سِیماس   ٻہار چلی گا۔ { $retryLimit } منٹام  پُوٹھا یتن کرو
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] تَہ سِیماس  ٻہار چلی گی۔ 1 سیکنڈام  پُوٹھا یتن کرو
-       *[other] تَہ سِیماس   ٻہار چلی گی۔ { $retryLimit } سیکنڈام  پُوٹھا یتن کرو
+        [one] تَیہ سِیماس  ٻہار چلی گی۔ 1 سیکنڈام  پُوٹھا یتن کرو
+       *[other] تَیہ سِیماس   ٻہار چلی گی۔ { $retryLimit } سیکنڈام  پُوٹھا یتن کرو
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
