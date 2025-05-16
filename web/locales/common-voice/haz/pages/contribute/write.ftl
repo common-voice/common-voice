@@ -156,3 +156,8 @@ transcribe-audio-menu-item-tooltip = آوازای پور شودۂ رۂ دۂ زی
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = آپشئن مېنیو رۂ نیمیشتۂ کید
+add-sentences-menu-item-aria-label = بئلدې آغیل / کئمیونیݖی نۆ جوملا ایزافۂ کید
+review-sentences-menu-item-aria-label = جوملای کی دۂ بݷنی کئمیونیݖی تاوول شودۂ رۂاز نۆ تۉغ کید
+add-questions-menu-item-aria-label = بئلدې آغیل/ کئمیونیݖی سئوالای نۆ تاوول کید کی بېخانۂ و جواب بیدیۂ
+transcribe-audio-menu-item-aria-label = آوازای پور شودۂ رۂ دۂ نیمیشتۂ بݷرید
