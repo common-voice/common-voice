@@ -2,16 +2,14 @@
 
 write = لِکھٹؔا
 write-instruction = جنتا کی پُونجیا کے ٻول بھیݪے کرو <icon></icon>
-write-page-subtitle = ایٹھے دیوڑے ٻول جنتا نتر موجود سی سی ۔0 لیسٹؔ ہے سمانام بھیݪا ہؤن گا۔
+write-page-subtitle = ایٹھے دیؤڑے ٻول جنتا نتر ماجُود سی سی ۔0 لیسٹؔاں ڑے ڈیٹا سیٹام بھیݪے کرُونٚگڑے۔
 sentence =
     .label = ٻول
 sentence-input-placeholder = ایٹھے اپٹؔے جنتا ڈومین ٻول پکے کرو
 small-batch-sentence-input-placeholder = ایٹھے اپٹؔے جنتا ڈومین ٻول پکے کرو
-citation-input-placeholder =
-    اپنے جملے کے ماخذ کا حوالہ دیں (ضروری)
-    اپٹؔے ٻولیں کے سروتا سرا دؔیوو (لاجمی)
+citation-input-placeholder = اپٹؔے ٻولیں کے سروتا کا سرا دؔیؤ (لاجمی)
 citation =
-    .label = مِسال
+    .label = سرا
 sc-write-submit-confirm = ہُوں پک کرتا ہے کہ یہ ٻول <wikipediaLink>جنتا ڈومین </wikipediaLink>ہے اور مِسکُو یو اپ لوڈ کرنے کی اِگِیا ہے
 sc-review-write-title = ہُون کُوٹؔسے ٻولیں کُو بھیلے کری سِکتا ہے؟
 sc-review-small-batch-title = ایکِیس ودھِیک ٻولیں کُو کِدؔا بھیݪا کراں
