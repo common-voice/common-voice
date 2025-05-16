@@ -125,6 +125,7 @@ spontaneous-card-content = Beantwoord vragen om gegevenssets te maken voor organ
 language-text-card-header = Taaltekst
 language-text-card-content = Maak of deel vragen, zinnen en tekst in het publieke domein voor vertaling, kleine taalmodellen en meer.
 add-text = Tekst toevoegen
+answer = Antwoorden
 
 ## Community section
 
