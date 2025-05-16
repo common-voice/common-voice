@@ -50,16 +50,16 @@ continue-speaking-button = دھنواد نائیں، ٻولا کر
 create-profile-text = اپٹؔی جاݨکاری اِدؔائے دھرنا چاہوتے ہے؟ <createProfile>ایک پروپھائل ٻیٹؔاو</createProfile>
 thanks-for-voice-toast = تھاری اواجا کی جاݨکاریا کرے تھارا دھنواد
 thanks-for-voice-toast-error = تھاری اواجا کی جاݨکاری بھیݪی کرنیم ایک نُکس آیا ہے
-first-cta-gender-select-default-option = ایک آپشن چُنی لیو
+first-cta-gender-select-default-option = ایک وِکلپ چُنی لیؤ
 first-cta-gender-select-help-text =
-    .label = تھم اپٹؔی یونی یا یونیا کُو کِدؔا بھتاوں گے؟
+    .label = تھم اپٹؔی نسݪ یا نسݪا کُو کِدؔا بھتاوں گے؟
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = تھاری آواجام پاتی ٻاٹؔے نتر تھارا دھنواد!
-second-cta-subtitle-text = پروفائلا بھیݪے ، تھم اپٹؔی گٹیویدیاپ نیگھا راکھی سِکتے ہیں اور آواج ڈیٹا دؔنواڑے  کی کُوماس  سمپرت پکا کرسِکتے ہیں۔
-already-have-an-account = آگے ہی ایک اکاؤنٹ ہے؟ <login>لاگ ان</login>
-create-profile-button = ایک پروفائل ٻٹؔاو
+second-cta-header-text = تھاری اواجام پاتی ٻاہݨیں نتر تھارا دھنواد!
+second-cta-subtitle-text = پروپھائلا بھیݪے ، تھم اپٹؔی گٹیویدیاپ نِگھا راکھی سِکتے ہے اور اواج ڈیٹا دؔیݨواڑے  کی کُوماس  سمپرک پکا کری سِکتے ہے۔
+already-have-an-account = آگے ئی ایک اکاؤنٹ ہے؟ <login>لاگ ان</login>
+create-profile-button = ایک پروپھائل ٻٹؔاو
 # IMAGE TAGS
-img-alt-success-checkmark = سپھلتا کا چیک مارک
+img-alt-success-checkmark = سپھلتا کا جانٚچ چِن
 # menu item
 read-sentences = ٻول پڑھو
 # text wrapped in <small></small> will be shown in a smaller font size
