@@ -111,4 +111,11 @@ adding-questions = প্ৰশ্ন যোগ কৰা
 
 ## Question collection sidebar content
 
-what-makes-a-good-question-subheader = ভাল প্ৰশ্ন কাক বোলে?
+what-makes-a-good-question-subheader = কেনেধৰণৰ প্ৰশ্নক ভাল বোলা হয়?
+what-makes-a-good-question-explanation = ৰাইজে অংশগ্ৰহণ কৰা ডেটাছেটৰ বাবে ভাল প্ৰশ্ন এনেধৰণৰ হ’ব লাগে:
+what-makes-a-good-question-explanation-criteria-1 = সহজে বুজি সঁহাৰি জনাবপৰা
+what-makes-a-good-question-explanation-criteria-2 = সাধাৰণতে প্ৰাসংগিক হোৱা
+what-makes-a-good-question-explanation-criteria-3 = ক্ষতিকাৰক বা আপত্তিজনক ভাষা ব্যৱহাৰ নকৰা বা কৰিবলৈ নোকোৱা
+what-makes-a-good-question-tip = আপুনি বিভিন্ন প্ৰসংগ আৰু ড’মেইন বিস্তৃত কৰাৰ কথাও বিবেচনা কৰিব পাৰে।
+easy-to-understand = সহজে বুজিবপৰা
+easy-to-understand-explanation = সংস্কৃতি বা প্ৰসংগ নিৰ্বিশেষে যিকোনো ব্যক্তিয়ে সহজে বুজিবপৰা সহজ প্ৰশ্ন বাছি ল’ব।
