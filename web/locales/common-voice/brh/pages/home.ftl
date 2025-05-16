@@ -24,6 +24,7 @@ wall-of-text-second =
 show-wall-of-text = پین خوانبو
 help-us-title = جملہ غاتے تصدیق کننگ اٹ ننا کمک کبو
 help-us-explain = برجا کبو، بنبو و ننے پابو: انت دا جوان وڑ اٹ شیف جملہ غاتے پارے؟
+no-clips-to-validate = اندن لگک کہ دا زبان ٹی بننگ کن ہچو کلپس اف۔ داسہ گڑاس ریکارڈ کرسہ ننا کمک ئے کبو۔
 
 ## Account Benefits
 
