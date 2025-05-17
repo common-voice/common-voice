@@ -1,6 +1,6 @@
 ## Datasets Page
 
-datasets-heading = ڈیٹاسیٹس
+datasets-heading = ڈیٹاسیٹاں
 datasets-headline = ہم بھاشٹؔا کے جوگے ٻِنتِیا کی سِکھِیا نتر ایک گھٹیاں ٻولیاں ، کُھلا سروت اواج ڈیٹا سیٹ ٻٹؔائی رے ہے۔
 datasets-positioning =
     ٻڈؔے ، جنتا نتر ماجُود اواج ڈیٹا سیٹ مشین سِکٹٚا بھاشٹؔ ٹکنالوجیام نویں ٻات اور سُوَست ٻیرو ٻیریا کُو پورسا دؔیوں گے۔ سادھارٹؔ اواجا کا ڈیٹا سیٹ اپٹؔے نامُونے کا ساریںٚیس ٻڈؔا ہے ، پٹؔ ایکی نائیں تیا۔
@@ -30,8 +30,8 @@ confirm-no-identify = آپ سادھارٹؔ آواج ڈیٹا سیٹام ٻول�
 confirm-join-mailing-list = آپ سادھارݨ اواج میلنگ سُوچیام  سیمل ہووٹؔا چاہوتے ہے
 download-language = ڈاؤن لوڈ { $language }
 validated-hours = پک کروڑے کلاک
-recorded-hours = ریکارڈ کروڑا کلاک
-whats-inside = سادھارݨ آواج ڈیٹا سیٹا کے مھم کیا ہے؟
+recorded-hours = ریکارڈ کروڑے کلاک
+whats-inside = سادھارݨ اواج ڈیٹا سیٹا کے مئھیم کیا ہے؟
 dataset-description-hours =
     Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $total }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
     
@@ -96,4 +96,4 @@ license-mixed = مِلاوڑا
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = مھاری آواج اعداد و شمار ڈاؤن لوڈ کرو
 # MENU ITEM ARIA LABELS
-download-contribute-menu-aria-label = سادی آواج ڈیٹا تائی پُگݨے کُو ادھیکار پراپت کرنے نتر ڈاؤن لوڈ کرو
+download-contribute-menu-aria-label = سادھارݨ اواج ڈیٹا تائیں پُگݨیں کُو ادھیکار پراپت کرنے نتر ڈاؤن لوڈ کرو
