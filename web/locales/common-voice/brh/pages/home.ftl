@@ -160,15 +160,37 @@ download-contribution-certificate-content = اگہ نم کامن وائس ٹی �
 # label for button
 download-contribution-certificate-action = تینا سرٹیفکیٹ ئے دوئی کبو
 contribute-github = GitHub آ کمک کبو
+contribute-github-content = دا منصوبہ نم کونا بندغاتیان بیدس ممکن اف۔ 🎉 کامن وائس تون اوار مننگ کن بھاز رابطہ نا وڑ ارے - نمے دا چائنگ نا گرج اف کہ کمک کننگ کن کوڈ امر جوڑ کیرہ!
+# label for button
+contribute-github-action = GitHub آ کمک کبو
 
 ## Featured section
 
+featured-section-title = ٹی گچین۔۔۔
+# icon is an arrow that points downwards
+download-press-pack = ننا پریس بیک ئے ڈاؤن لوڈ کبو <icon></icon>
 
 ## Developers section
 
+developers-section-title = 130+ زبان تیٹی الس آ سر مننگ کن اوپن اسپیچ ڈیٹا سیٹس
+developers-section-subtitle = ASR، STT، TTS، و ایلو  NLP سیاق و سباق کن ڈیٹا سیٹس - مخلوق نا اواری نا وسیلہ جوڑ کننگانے۔
+# icon is an arrow that points to the right
+explore-datasets = ڈیٹا سیٹاکے پٹبو <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = ملوکا، مخلوق نا ڈیٹا سیٹ ئے کمک کبو
+read-sentences-link = جملہ غاتے خوانبو
+validate-readings-link = گچین آ خواننگ
+contribute-link = ٹیکسٹ کارپس ٹی کمک کبو۔
+answer-questions-link = سوجاتا ورندی تے ایتبو
+transcribe-answers-link = ورندی تے نوشتہ کبو
+review-transcriptions-link = درشان کروکا نا جاچ
+contribute-text-link = نوشت ٹی کمک
+press-and-stories-link = پریس و کسہ غاک
 
 ## Partner section
 
+partner-section-title = نن تون ہمراہ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tech companies</bold> فروغ پزیر بھاز لسانی AI ماحولیاتی نظام کن اوپن ڈیٹاسیٹ نا تخلیق ٹی سرمایہ کاری کبو۔
