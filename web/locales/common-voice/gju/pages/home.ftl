@@ -88,6 +88,9 @@ transcribe-audio = آڈیو کو تجزیو کرو<small>(بہلاں آوے گو
 press-and-stories = دباو تے کہانی
 community-and-languages = برادری تے زبان
 coming-soon = جھب آوے گی
+about-us = مہارا بارہ ما
+scripted-speech = سکرپٹڈ گل
+spontaneous-speech = بے ساختہ گل
 
 ## MENU ITEMS TOOLTIPS
 
