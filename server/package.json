@@ -13,7 +13,7 @@
     "commander": "9.5.0",
     "common": "1.0.0",
     "commonmark": "0.31.2",
-    "compression": "1.7.4",
+    "compression": "1.8.0",
     "cookie-parser": "1.4.6",
     "crypto-js": "^4.2.0",
     "csv-parse": "^5.5.0",
