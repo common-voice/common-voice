@@ -9,7 +9,7 @@ datasets-positioning =
 datasets-speech-bubble-content = رومانٚچیک کٻر! آپو آپ ٻولݨیں کی سولت آئی ری ہے! اپ ڈیٹیں نتر بھیݪے ریہو اور نویں جاݨکاریا نتر مھارے <discordLink>ڈسکارڈا</discordLink> کی جانچ کرو پکا کرو۔
 language = ٻولی
 download-dataset-header = ڈیٹا سیٹ ڈاؤن لوڈ کرو
-download-delta-explainer = ہمُون کائیں بدلاو کرے ہے. ڈیلٹا سیگمنٹسام پچھاڑی ریلیجا پیچھیںٚس نئوے کلپس شیمل ہے۔ <deltaLink>اس کاما  باریم ودھیک پڑھو</deltaLink>.
+download-delta-explainer = ہمُون کائیں بدلاو کرے ہے. ڈیلٹا سیگمنٹسام پچھاڑی ریلیجا پیچھیںٚس نویں کلپس سیمݪ ہے۔ <deltaLink>اس کاما  باریم ودھِیک پڑھو</deltaLink>.
 download-dataset-tag = پِسندا کی ٻولیا کا ڈیٹا سیٹ چُوناو کرو اور وہ ورژنا چُوناو کرو جِدؔ آپ ڈاؤن لوڈ کرنا چاوہتے ہے۔
 # File size in gigabytes
 size = نیپ

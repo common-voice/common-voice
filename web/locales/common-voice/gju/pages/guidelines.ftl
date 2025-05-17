@@ -3,6 +3,7 @@ guidelines-header = حصو لین کی رہنمائی
 guidelines-header-subtitle = اس گل نا سمجھوں جے کامن وائس ڈیٹا سیٹ اپر وازاں کا حصہ تے جملاں کی توثیق وسطے کس طرحیا کردار ادا کیو جا سکے
 voice-collection = وازاں کو مجموعو
 sentence-collection = فقراں نا جمع کرنو
+question-collection = سوالاں کو اکٹھ
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,9 @@ domain-explanation = ڈومین جملے کا  موضوع تے مراد ہے۔ �
 
 ## Question collection ids
 
+adding-questions = سوالاں کو اضافو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = کیہڑی چیز ہچھا سوال بناوے
+what-makes-a-good-question-explanation = عوامی شرکت کا ڈیٹا سیٹس وسطے ایک ہچھو سوال یوہ ہونو چاہئے:
