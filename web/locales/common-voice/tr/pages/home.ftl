@@ -128,6 +128,7 @@ spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri k
 language-text-card-header = Dilinizde Metinler
 language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
 add-text = Metin ekleyin
+answer = Yanıt ver
 
 ## Community section
 
