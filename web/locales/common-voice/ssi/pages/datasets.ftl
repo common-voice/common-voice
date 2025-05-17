@@ -64,12 +64,12 @@ download = ڈاؤن لوڈ
 dataset-version = سنسکرݨ
 sha256-checksum-copied = ایس ایچ اے 256 چیک سم نکل کروڑا ہے!
 sha256-checksum-copied-error = ایس ایچ اے256 چیک سما کی نکل کرنیم اسپھل
-clipboard-not-supported = کلیپ بورڈا کا بھیرواݪی نائی تیا
-no-information-available = کوئی جانکاری ماجود نائی تی
-dataset-metadata-sex = جنس
+clipboard-not-supported = کلیپ بوڈا کا بھیرواݪی نائیں تیا
+no-information-available = کوئی جاݨکاری ماجُود نائیں تی
+dataset-metadata-sex = نسݪ
 # dataset metadata - age of contributor
-dataset-metadata-age = عمر
-donate-modal-message = تھارا ڈیٹا سیٹ ڈاؤن لوڈ ہوئیرا ہے!
+dataset-metadata-age = اُومر
+donate-modal-message = تھارا ڈیٹا سیٹ ڈاؤن لوڈ ہوئی را ہے!
 dataset-donate-modal-heading = کیا تھمکُو ٹھا ہے ...
 donate-modal-explanation-1 = ڈیٹا سیٹسا کی میزبانی کرنے اور 100+ زبانوں کی برادریوں کے لئے پلیٹ فارم کو بہتر بنانے کے لئے ایک سال میں تقریبا ایک ملین ڈالر خرچ ہوتے ہیں جو ہمارے کام پر انحصار کرتے ہیں؟
 # Text in <bold></bold> will shown in bold
