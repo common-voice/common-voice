@@ -1,8 +1,8 @@
 ## DemoLayout
 
-demo-get-started = چالو سَرو کراں
-demo-welcome = سادھارن آواجام تھارا سُواگت ہے
-demo-welcome-subheader = ودھیک سیکھٹؔیم اور یوجنام  یوگدان لئیٹؔیم  رُچی راکھتا ہیں؟
+demo-get-started = چالو سرو کراں
+demo-welcome = سادھارن اواجام تھارا سُواگت ہے
+demo-welcome-subheader = ودھیک سیکھٹؔینؔم اور یوجنام  یوگدان لیٹؔینٚم  رُچی راکھتا ہے؟
 
 ## Demo Datasets
 
