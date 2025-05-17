@@ -73,8 +73,8 @@ donate-modal-message = تھارا ڈیٹا سیٹ ڈاؤن لوڈ ہوئی را 
 dataset-donate-modal-heading = کیا تھمکُو ٹھا ہے ...
 donate-modal-explanation-1 = ڈیٹا سیٹیں کی سیوادؔاری کرنے اور 100+ ٻولِیئیں کے پڑاویں نتر پلیٹ پھارما کُو اجرا ٻݨانٚوݨیں نتر ایکی ٻرسام لگ بھاگ ایک ملین ڈالر کھرچ ہووتے ہے جکو مھارے کاماپ بانٚور کرتے ہے؟
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>اگر تھم کُھلے ، جامع ڈیٹا کا مان کرتے ہے تو - آج دؔان کرو!</bold>
-data-download-singleword-title = ایکلا سٻدؔ لکشے کا ٹُکڑا ڈاؤن لوڈ کرو
+donate-modal-explanation-2 = <bold>اگر تھم کُھلے ، بھیݪی ڈیٹا کا مان کرتے ہے تو - آج دؔان کرو!</bold>
+data-download-singleword-title = ایکلا سٻدؔ لکشئہ کا ٹُکڑا ڈاؤن لوڈ کرو
 data-download-singleword-callout-v2 = یو ایک اُپیوگ کیسے چالنواڑا ٹُکڑا ہے جِن میں ٻولنواڑے گینتیا کی اوݪکھ اور ہا / نا کی جانچ کرنے نتر اعداد و شمار سیمل ہے۔
 data-download-button = عام آواج ڈیٹا ڈاؤن لوڈ کرو
 data-download-yes = ہاوے
