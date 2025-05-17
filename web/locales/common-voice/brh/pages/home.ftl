@@ -152,6 +152,14 @@ find-us-on-matrix-content = میٹرکس وکندریقرت، ریئل ٹائم 
 # label for button
 find-us-on-matrix-action = میٹرکس آ ننے پٹبو
 ask-mozilla-share = موزیلا ئے پابو نما پروگراماتے شیئر کے
+ask-mozilla-share-content = انت گڈیکو یا بروکو پروگرام ئس ارے؟ اودے ننے آ رادہ کبو و نن اونا پڑو ئے تینا مخلوق تون کینہ یا اونا باروٹ بلاگ نوشتہ کینہ!
+# label for button
+ask-mozilla-share-action = تینا کچاری تے رادہ کبو
+download-contribution-certificate = تینا کمک نا سرٹیفکیٹ ئے ڈاؤن لوڈ کبو
+download-contribution-certificate-content = اگہ نم کامن وائس ٹی کمک کرینورے گڑا تینا کچاری تیکن اسہ سرٹیفکیٹ ئس ڈاؤن لوڈ کبو — دا نمے آن بیدس مننگ کپک!
+# label for button
+download-contribution-certificate-action = تینا سرٹیفکیٹ ئے دوئی کبو
+contribute-github = GitHub آ کمک کبو
 
 ## Featured section
 
