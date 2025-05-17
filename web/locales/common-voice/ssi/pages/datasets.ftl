@@ -92,8 +92,8 @@ data-bundle-description = سادھارݨ اواج ڈیٹا کے بھیݪو بھ�
 release-version = سنسکرݨ
 dataset-date = تاریک
 license = لیسݨ: <licenseLink>{ $license }</licenseLink>
-license-mixed = مِلاوڑا
+license-mixed = مِلاؤڑا
 # MENU ITEM TOOLTIPS
-download-contribute-menu-tooltip = مھاری آواج اعداد و شمار ڈاؤن لوڈ کرو
+download-contribute-menu-tooltip = مھاری اواج گِنتِیام ڈاؤن لوڈ کرو
 # MENU ITEM ARIA LABELS
-download-contribute-menu-aria-label = سادھارݨ اواج ڈیٹا تائیں پُگݨیں کُو ادھیکار پراپت کرنے نتر ڈاؤن لوڈ کرو
+download-contribute-menu-aria-label = سادھارݨ اواج ڈیٹا تائیں پُگاوݨیں کُو ادھیکار پراپت کرنے نتر ڈاؤن لوڈ کرو
