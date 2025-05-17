@@ -1,12 +1,12 @@
 ## Dashboard
 
 your-languages = تھاریاں ٻولیاں
-toward-next-goal = اگلے لکشے دھک
-goal-reached = لکشے تائی پُگی گا
+toward-next-goal = اگلے لکشئہ دھک
+goal-reached = لکشئہ تائیں پُگی گا
 clips-you-recorded = ٹُکڑے جکو تھمُون ریکارڈ کرے ہے
 clips-you-validated = ٹُکڑا تھمُون پک کرا ہے
-todays-recorded-progress = ریکارڈ کروڑے ٹُکڑیپ  آج کی سادھارٹؔ اواجا کی پرگتی
-todays-validated-progress = ٹُکڑیپ آج کی سادھارݨ اواجا کی پرگتی پکی ہے
+todays-recorded-progress = ریکارڈ کروڑے ٹُکڑینٚپ  آج کی سادھارٹؔ اواجا کی پرگتی
+todays-validated-progress = ٹُکڑینٚپ آج کی سادھارݨ اواجا کی پرگتی پکی ہے
 stats = آکڑے
 awards = پُرسکار
 you = توں
@@ -139,9 +139,9 @@ share-goal-type-both = ٻولݨواڑا اور سُٹؔنواڑا
 goal-share-text = ہُوں  #CommonVoice کُو اواجا کا دؔان دیٹؔے کا ایک جاتی لکشئہ ٻݨایا ہے - میرے سات سیمݪ ہوؤ اور مشینیں کُو یو سُکاوٹؔینٚم ساہیتا کرو کہ اسلی منکھ کِدؔا ٻولتے ہے { $link }
 weekly-goal-created = تھارا کا آٹھیک آٹھیں دؔنییاڑا لکشئہ ٻٹؔایا ہے
 daily-goal-created = آپ کا روجینا لکشئہ ٻٹؔایا ہے
-track-progress = ایٹھے اور اپٹؔے اعداد و شمار کے پنیںٚپ پرگتیا کُو ٹریک کرو۔
-return-to-edit-goal = کسی بی سمے اپٹؔے لکشیم  ترمیم کرنے نتر ایٹھے پُٹھے آو۔
-share-goal = میرے لکشے کُو ٻاٹو
+track-progress = اپݨی ترکی ایٹھے اور اپݨا اسٹیٹس پنیپ جانٚچ کر۔
+return-to-edit-goal = کسی بی سمے اپٹؔے لکشیم  مٹاوݨیں نتر ایٹھے پُوٹھے آؤ۔
+share-goal = میرے لکشئہ کُو ٻاٹو
 
 ## Goals
 
@@ -149,7 +149,7 @@ streaks = لکیراں
 days =
     { $count ->
         [one] دؔن
-       *[other] دؔن
+       *[other] دؔنیں
     }
 recordings =
     { $count ->
@@ -158,6 +158,6 @@ recordings =
     }
 validations =
     { $count ->
-        [one] مانیتا
-       *[other] مانیتائیں
+        [one] پک
+       *[other] پکِیاں
     }
