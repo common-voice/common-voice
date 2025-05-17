@@ -127,11 +127,11 @@ n-clips-pluralized =
     }
 help-share-goal = ودھِیک اواجاں لھوڑنیم  ہماری ساہیتا کرو، اپٹؔے لکشئہ کُو ٻاٹو
 confirm-goal = لکشئہ کی پک کرو
-goal-interval-weekly = سپتا وار
+goal-interval-weekly = ٻِسپتوار
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ روجینا کا لکشے کُو ٻاٹو
+share-n-daily-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ روجینا کا لکشئہ کُو ٻاٹو
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ سپتا وارا کے لکشے کُو ٻاٹو
+share-n-weekly-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ سپتا وارا کے لکشئہ کُو ٻاٹو
 share-goal-type-speak = ٻولنواڑا
 share-goal-type-listen = سُٹؔنواڑا
 share-goal-type-both = ٻولنواڑا اور سُٹؔنواڑا
