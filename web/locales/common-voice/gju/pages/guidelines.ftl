@@ -122,3 +122,6 @@ easy-to-understand-explanation = ایسا سادہ سوال چنو  جیہڑا �
 spelling-and-pronunciation = ہجا  تے رموز اوقاف
 spelling-and-pronunciation-explanation = صحیح ہجا تے قواعد کو استعمال کرو۔
 length = لمبائی
+length-explanation = سوال کو جواب صرف چند جملاں ما دینو چاہئے۔
+dont-add-subheader = نہ اضافو کرو
+culturally-specific-questions = ایسا سوال جیہڑا ثقافت نال متعلقہ ہوویں
