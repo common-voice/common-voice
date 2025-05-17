@@ -25,6 +25,9 @@ submit-button = Submit
 contribute = Contribute
 request-new-language = Request New Language
 
+# Button text which appears when there are no more resources
+continue-with-skipped = Continue with Skipped
+
 ## Navbar
 
 respond-to-prompt = Answer
