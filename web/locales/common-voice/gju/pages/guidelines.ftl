@@ -113,3 +113,12 @@ adding-questions = سوالاں کو اضافو
 
 what-makes-a-good-question-subheader = کیہڑی چیز ہچھا سوال بناوے
 what-makes-a-good-question-explanation = عوامی شرکت کا ڈیٹا سیٹس وسطے ایک ہچھو سوال یوہ ہونو چاہئے:
+what-makes-a-good-question-explanation-criteria-1 = سمجھن تے جواب دین وسطے پر سکون رہیو۔
+what-makes-a-good-question-explanation-criteria-2 = عام طور اپر متعلقہ ہووے
+what-makes-a-good-question-explanation-criteria-3 = نقصان دہ یا توہین آمیز زبان کو استعمال نہ کریو، نہ ہی اس کی گزارش کریو۔
+what-makes-a-good-question-tip = تم مختلف سیاق و سباق تے شعباں کو احاطو کرن اپر بھی غور کرنو پسند کرو گا.
+easy-to-understand = سمجھن ما آسان
+easy-to-understand-explanation = ایسا سادہ سوال چنو  جیہڑا کسی بھی ثقافت یا سیاق و سباق تے ہٹ کے آسانی نال سمجھ  آئیں۔
+spelling-and-pronunciation = ہجا  تے رموز اوقاف
+spelling-and-pronunciation-explanation = صحیح ہجا تے قواعد کو استعمال کرو۔
+length = لمبائی
