@@ -127,18 +127,18 @@ n-clips-pluralized =
     }
 help-share-goal = ودھِیک اواجاں لھوڑنیم  ہماری ساہیتا کرو، اپٹؔے لکشئہ کُو ٻاٹو
 confirm-goal = لکشئہ کی پک کرو
-goal-interval-weekly = ٻِسپتوار
+goal-interval-weekly = آٹھیک آٹھیں دِؔنیں
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ روجینا کا لکشئہ کُو ٻاٹو
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ سپتا وارا کے لکشئہ کُو ٻاٹو
+share-n-weekly-contribution-goal = { $type } نتر اپٹؔا { $count } کلپ آٹھیک آٹھیں دِؔنیں کا لکشئہ کُو ٻاٹو
 share-goal-type-speak = ٻولݨواڑا
 share-goal-type-listen = سُٹؔنواڑا
 share-goal-type-both = ٻولݨواڑا اور سُٹؔنواڑا
 # LINK will be replaced with the current URL
 goal-share-text = ہُوں  #CommonVoice کُو اواجا کا دؔان دیٹؔے کا ایک جاتی لکشئہ ٻݨایا ہے - میرے سات سیمݪ ہوؤ اور مشینیں کُو یو سُکاوٹؔینٚم ساہیتا کرو کہ اسلی منکھ کِدؔا ٻولتے ہے { $link }
-weekly-goal-created = آپ کا سپتا وار لکشے ٻٹؔایا ہے
-daily-goal-created = آپ کا روجینا لکشے ٻٹؔایا ہے
+weekly-goal-created = تھارا کا آٹھیک آٹھیں دؔنییاڑا لکشئہ ٻٹؔایا ہے
+daily-goal-created = آپ کا روجینا لکشئہ ٻٹؔایا ہے
 track-progress = ایٹھے اور اپٹؔے اعداد و شمار کے پنیںٚپ پرگتیا کُو ٹریک کرو۔
 return-to-edit-goal = کسی بی سمے اپٹؔے لکشیم  ترمیم کرنے نتر ایٹھے پُٹھے آو۔
 share-goal = میرے لکشے کُو ٻاٹو
