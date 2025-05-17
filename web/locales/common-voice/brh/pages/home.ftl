@@ -94,12 +94,22 @@ add-questions = سوجاتے اوار کبو
 transcribe-audio = آڈیو نا درشانی کبو
 press-and-stories = پریس و کسہ غاک
 community-and-languages = مخلوق و زبانک
+about-us = ننا باروٹ
+scripted-speech = نوشتہ کروکا تران
+spontaneous-speech = سٹی انگا تران
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ہمراہی، پریس و کسہ غاک، مخلوق و زبانک
+partnerships-menu-item-tooltip = مچا دنیا ٹی کامن وائس ئے کمک کروکا تنظیماتے پٹبو
+press-and-stories-menu-item-tooltip = کامن وائس نا کسہ غانے خوانبو، پوسکنا گڑا تا باروٹ پابو و میڈیا نا کورج
+community-and-languages-menu-item-tooltip = ننا ٹولی تون ہمگرنچ مبو و شون تروکا زبانتے ہوربو
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = کامن وائس تون ہمراہ مننگ نا بابت ہیل کبو
+press-and-stories-menu-item-aria-label = کامن وائس نا بابت اٹ شینک مروکا کسہ و پریس ریلیز آ سر مبو
+community-and-languages-menu-item-aria-label = کامن وائس نا کمک کروکا مخلوق و زبانتے پٹبو۔
 
 ## NEW HOME PAGE KEYS
 
