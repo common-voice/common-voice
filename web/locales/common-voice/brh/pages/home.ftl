@@ -89,6 +89,11 @@ read-more-about = ننا پنہ نا باروٹ پین خوانبو
 ## NAV ITEMS
 
 answer-questions = سوجاتا ورندی تے ایتبو
+review-transcriptions = درشان کروکا نا جاچ
+add-questions = سوجاتے اوار کبو
+transcribe-audio = آڈیو نا درشانی کبو
+press-and-stories = پریس و کسہ غاک
+community-and-languages = مخلوق و زبانک
 
 ## MENU ITEMS TOOLTIPS
 
