@@ -194,3 +194,11 @@ press-and-stories-link = پریس و کسہ غاک
 partner-section-title = نن تون ہمراہ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Tech companies</bold> فروغ پزیر بھاز لسانی AI ماحولیاتی نظام کن اوپن ڈیٹاسیٹ نا تخلیق ٹی سرمایہ کاری کبو۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائٹی و پولکارک</bold> - مفت ٹی جوانو ڈیٹا سیٹ جوڑکبو، میزبانی کبو و دافتا شریکدار مبو
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Philanthropy</bold> - علاقائی ترندی و شوندری ئے مُستی دننگ کن ڈیٹا سیٹ نا تخلیق ئے مونی دبو۔
+# icon is an arrow that points to the right
+get-in-touch-button = ٹچ مبو <icon></icon>
+# Partners section
+our-partners-include = نن ہمراک اوار او
