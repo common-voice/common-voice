@@ -43,7 +43,7 @@ other-datasets = دُؔوجی اواج ڈیٹا سیٹاں
 feedback-q = کوئی رائے ہے؟
 # This indicates that there is no data to display
 no-information = کوئی جاݨکاری نائیں تی
-resource-nemo-info = <githubLink>این وی ڈی آئی اے نیمو</githubLink>™ نئوی بات چیت کرنواڑے مصنوعی ذہانت کے ماڈل تیارکرنواڑے جانچ کرنواڑے نتر ایک <docsLink>اوپن سورس ٹول کٹ</docsLink> ہے۔
+resource-nemo-info = <githubLink>این وی ڈی آئی اے نیمو</githubLink>™ نویں ٻات ٻِگت کرنواڑے اے آئی یا کے نامُونے تیارکرنواڑے جانچ کرنواڑے نتر ایک <docsLink>کھُلا سروت ٹول کٹ</docsLink> ہے۔
 resource-deepspeech-info = موزیلا کے اوپن سورس آواج اوݪکھ انجن گہرا بھاشݨا کُو بھاشݨا کی اوݪکھݨیں کی ایپلی کیشنز ٻݨاوݨے نتر اُپیوگ کری سِکتے ہے۔ سَرو کرنے کا نامونا سِکݨے نتر مھارے <githubLink>گیتھبا کا پڑھی کن جائچو </githubLink> یا <discourseLink>کہرا بھاشݨ ڈسکورسام</discourseLink>  سیمل ہؤ۔
 resource-coqui-info = <coquiLink>کوکی</coquiLink> کُھلا بھاشݨ ٹیکنالوجیا نتر سمرپِت ہے۔ ان کے پروجنام  گہری تالیماپ آدھار ایس ٹی ٹی اور ٹی ٹی ایس انجن سیمل ہے۔
 community-playbook = پڑاو پلے بک
