@@ -3,7 +3,7 @@
 question-page-instruction = დაამატეთ კითხვა <icon></icon> { $currentLocale } ენისთვის, რომ ხალხმა უპასუხოს.
 add-question-textarea-placeholder = მაგ., „რისთვის ისურვებდით ტექნოლოგიების გამოყენებას?“
 add-questions-terms-checkbox = ვადასტურებ, რომ ეს შეკითხვა <publicDomainLink>საყოველთაო საკუთრებაშია</publicDomainLink> და მაქვს მისი ატვირთვის ნებართვა.
-question-dataset-language = მონაცემთა კრებული: { $databaseLanguage }
+question-dataset-language = ენის კრებული: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions }შეკითხვა მიღებულია 1-იდან
@@ -20,7 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = რა კითხვები შეიძლება დავამატო?
 do-section-title = უნდა იყოს
 do-section-guideline-1 = გამართული მართლწერითა და გრამატიკით
-do-section-guideline-2 = იოლი კითხვები, ყველასთვის ადვილად გასაგები გარემო პირობების განურჩევლად
+do-section-guideline-2 = იოლი კითხვები, საყოველთაოდ გასაგები წარმომავლობისა თუ გარემოს განურჩევლად
 do-section-guideline-3 = იმგვარი, რომ პასუხი ერთი-ორი წინადადებით ხერხდებოდეს
 do-not-section-title = არ უნდა
 do-not-section-guideline-1 = ითხოვდეს პირის ამოსაცნობ მონაცემებს (თუნდაც სახელს ან შემოსავლებს)
