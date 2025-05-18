@@ -1,6 +1,6 @@
 # GUIDELINES PAGE
-guidelines-header = یوگدانا کے مارگ درشک
-guidelines-header-subtitle = سادھارݨ اواج ڈیٹا سیٹاپ چندا ٻہاݨیں اور پک کرنے کا تریکا سمجو
+guidelines-header = یوگدؔانا کے مارگ درشک
+guidelines-header-subtitle = سادھارݨ اواج ڈیٹا سیٹاپ یوگدؔان دؔیݨیں اور پک کرنے کا نامُونا سمجو
 voice-collection = اواجیں جماؤڑا
 sentence-collection = ٻلیں کا جماؤڑا
 question-collection = سُالیں کا جماؤڑا
