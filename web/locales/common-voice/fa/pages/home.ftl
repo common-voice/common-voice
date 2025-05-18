@@ -78,12 +78,15 @@ read-more-about = در صفحه درباره ما بیشتر بخوانید
 
 ## NAV ITEMS
 
+answer-questions = به پرسش‌ها پاسخ دهید
+transcribe-audio = صداها را رونویسی کنید
 community-and-languages = اجتماع و زبان‌ها
 coming-soon = به زودی
 about-us = دربارهٔ ما
 
 ## MENU ITEMS TOOLTIPS
 
+partnerships-menu-item-tooltip = سازمان‌های حامی آوای مشترک در سراسر جهان را بشناسید
 
 ## MENU ITEM ARIA LABELS
 
@@ -97,6 +100,7 @@ hero-title = فناوری‌ای که به زبان شما صحبت می‌کن�
 
 ## Action items section
 
+language-text-card-header = متن زبان
 add-text = افزودن متن
 
 ## Community section
@@ -110,6 +114,7 @@ add-text = افزودن متن
 
 ## Get involved section
 
+answer-questions-link = به پرسش‌ها پاسخ دهید
 
 ## Partner section
 

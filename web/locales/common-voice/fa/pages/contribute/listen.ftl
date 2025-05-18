@@ -19,7 +19,12 @@ validate-readings-coming-soon = اعتبارسنجی خوانش‌ها <small>(�
 
 ## MENU ITEM TOOLTIPS
 
+listen-contribute-menu-tooltip = خوانش‌ها را اعتبارسنجی و رونویسی‌ها را بازبینی کنید
 validate-readings-menu-item-tooltip = خوانش‌های کاربران در زبان خود را اعتبارسنجی کنید
+review-transcriptions-menu-item-tooltip = رونویسی‌های ارسالی کاربران در زبان خودتان را بازبینی کنید
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = فهرست گزینه‌های شنیدن
+validate-readings-menu-item-aria-label = خوانش‌های ارسالی از سوی اعضای جامعه را اعتبارسنجی کنید
+review-transcriptions-menu-item-aria-label = رونویسی جملات ضبط‌شده را از نظر دقت بررسی کنید

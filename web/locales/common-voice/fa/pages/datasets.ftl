@@ -94,3 +94,5 @@ release-version = نگارش
 dataset-date = تاریخ
 license = مجوز: <licenseLink>{ $license }</licenseLink>
 license-mixed = ترکیبی
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = مجموعهٔ داده‌های صوتی ما را بارگیری کنید
