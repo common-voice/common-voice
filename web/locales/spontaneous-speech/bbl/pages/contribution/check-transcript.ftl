@@ -11,3 +11,10 @@ transcript-edited-success = ნაწე́რეღ დე́რწინო̆ �
 transcript-edited-error = შეცდო́მ ხილ'ეჼ ნაწე́რეღ დე́რწინო̆ ნიფსდოშ
 error-fetching-transcriptions = უ̂ნახ ხარცხილ'არ (ხარვეზ) ხილ'ეჼ ნაწე́რეღ დე́რწინო̆ ლე́ხოშ. დეხოთხ, ჴე́ნკაჸ ცადდო́ლუჲში̆
 transcript-skipped-success = ნაწე́რეღ დე́რწინო̆ დაქიშ და დაჰ̦ დითენო̆
+transcript-skipped-error = ხარცხილ'არ (ხარვეზ) ხილ'ეჼ ნაწე́რეღ დე́რწინო̆ დაჰ̦ დითოშ
+# For the button on the Check Transcriptions page to assert that a transcription is correct
+correct = გამა́რთოდალინო̆ (ნიფსდალინო̆) და
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = ქჵე́ქიჼ და
+# For the button on the Check Transcriptions page to edit a transcription
+edit = ჰ̦ალო̆ ნიფსდარ
