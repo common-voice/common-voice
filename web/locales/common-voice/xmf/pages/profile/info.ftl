@@ -47,3 +47,5 @@ edit = გაწორება
 email-subscriptions = ელფოსტაშ გჷშაჭარუა
 download-profile = პროფილიშ მუნაჩემეფიშ გიმოჭარუა
 contribution-experience = გინოჯინაშ გამოცდილება
+off = გამორთული
+on = ჩართული

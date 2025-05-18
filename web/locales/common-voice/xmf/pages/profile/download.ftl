@@ -1,7 +1,7 @@
 ## Profile Download
 
-download-q = გოსაჭირუნანო თქვან მუნაჩემეფიშ გუმოჭარუა?
-download-info = ქომიწით მუში გუმოჭარუა გოკონანი:
+download-q = გოსაჭირუნანო თქვან მუნაჩემეფიშ გუმოხარგუა?
+download-info = ქომიწით მუში გუმოხარგუა გოკონანი:
 download-profile-title = პროფილი
 download-profile-size = ართ-ჟირ ბაიტი
 download-recordings-title = ინნაჭარეფი
