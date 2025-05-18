@@ -132,6 +132,7 @@ contribution-varying-pronunciations-description = Budźće kedźbliwy, prjedy ha
 contribution-varying-pronunciations-description-extended = Jeli wšak měniće, zo čitar najskerje je słowo přez připad namakał a prosće wurjekowanje wopak wuhódał, wotpokazajće prošu. Jeli sej wěsty njejsće, wužiwajće tłóčatko Přeskočić.
 contribution-varying-pronunciations-example-1-title = Na swojej hłowje baret nošeše.
 contribution-varying-pronunciations-example-1-explanation = [„Beret“ je w porjadku z přizwukom na prěnjej złóžce (UK) kaž tež na druhej złóžce (US])]
+contribution-varying-pronunciations-example-2-title = Jeho ruka je zběh-njena była.
 contribution-background-noise-title = Pozadkowe šumy
 contribution-background-noise-description = Chcemy, zo algoritmy mašinelneho wuknjenja móža z wjele wšelakorymi pozadkowymi šumami wobchadźeć a samo relatiwnje hłósne šumy so akceptuja, pod wuměnjenjom, zo tomu njezadźěwaja, zo so cyły tekst słyši. Ćicha pozadkowa hudźba je w porjadku; hudźba, kotraž je tak hłósna, zo hižo kóžde słowo słyšiće, to njeje.
 contribution-background-noise-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
