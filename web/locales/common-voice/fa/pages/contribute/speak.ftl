@@ -60,9 +60,12 @@ already-have-an-account = قبلا حساب کاربری دارید؟ <login>و�
 create-profile-button = ایجاد نمایه
 # IMAGE TAGS
 img-alt-success-checkmark = علامت موفقیت
+# menu item
+read-sentences = جمله‌ها را بخوانید
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جمله‌ها را بخوانید، به پرسش‌ها پاسخ دهید
 
 ## MENU ITEM ARIA LABELS
 
