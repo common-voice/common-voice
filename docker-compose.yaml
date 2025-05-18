@@ -2,9 +2,9 @@ version: '3'
 services:
   db:
     image: mariadb:10.4
-    # networks:
-    #   - falak-network
-    container_name: voicewall-db1
+    networks:
+      - falak-network
+    container_name: voicewall-db
     restart: unless-stopped
     environment:
       - MYSQL_DATABASE=voiceweb
@@ -12,7 +12,7 @@ services:
       - MYSQL_PASSWORD=voicecommons
       - MYSQL_ROOT_PASSWORD=voicewebroot
     ports:
-      - 127.0.0.1:3306:3306
+      - 127.0.0.1:3307:3306
     volumes:
       - ../falak-host/voicewall-db:/var/lib/mysql:Z
       - ../falak-host:/host
@@ -26,12 +26,12 @@ services:
       - falak-network
   redis:
     image: redis:alpine
-    container_name: voicewall-redis1
+    container_name: voicewall-redis
     restart: unless-stopped
     ports:
       - 127.0.0.1:6379:6379
-    # networks:
-    #   - falak-network
+    networks:
+      - falak-network
   storage:
     image: fsouza/fake-gcs-server
     container_name: voicewall-storage
@@ -76,7 +76,7 @@ services:
       - falak-network
     ports:
       - 9090:9090
-    command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && npm install && npm start"
+    command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn && yarn start"
   web-dev:
     build:
       context: .

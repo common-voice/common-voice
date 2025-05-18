@@ -37,8 +37,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Run application tests
         run: |
-          npm install --frozen-lockfile
-          npm run test
+          yarn install --frozen-lockfile
+          yarn test
   docker:
     runs-on: ubuntu-latest
     needs: test-server

@@ -42,31 +42,29 @@
     "docker:run:web": "docker compose up -d web",
     "docker:update-env:web": "docker compose up -d --force-recreate web",
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
-    "build": "npm run build:maint && npm run build:common && concurrently \"npm run build:server\" \"npm run build:web\"",
-    "build-dev": "npm run build:maint && npm run build-dev:common && concurrently \"npm run build:server\" \"npm run build-dev:web\"",
-    "build:compressed-size": "npm run build:common && npm run build:web",
-        "build-dev:web": "cd web && npm run dev && cd ..",
-    "build-dev:common": "cd common && npm run dev && cd ..",
-    "build:web": "cd web && npm run build && cd ..",
-    "build:server": "cd server && npm run build && cd ..",
-    "build:common": "cd common && npm run build && cd ..",
-    "build:maint": "cd maintenance && npm run build && cd ..",
+    "build": "yarn build:maint && yarn build:common && concurrently \"yarn build:server\" \"yarn build:web\"",
+    "build-dev": "yarn build:maint && yarn build-dev:common && concurrently \"yarn build:server\" \"yarn build-dev:web\"",
+    "build:compressed-size": "yarn build:common && yarn build:web",
+        "build-dev:web": "cd web && yarn dev && cd ..",
+    "build-dev:common": "cd common && yarn dev && cd ..",
+    "build:web": "cd web && yarn build && cd ..",
+    "build:server": "cd server && yarn build && cd ..",
+    "build:common": "cd common && yarn build && cd ..",
+    "build:maint": "cd maintenance && yarn build && cd ..",
     "lint": "eslint .",
     "lint:common": "eslint ./common",
     "lint:server": "eslint ./server",
-    "lint:web": "cd web && npm run lint",
+    "lint:web": "cd web && yarn lint",
     "prettier": "prettier \"**/*.{ts,tsx}\" --write",
-    "start": "npm run build:common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && npm run dev\" \"cd server && npm run start\" \"cd web && npm run dev\"",
-    "start-common": "npm run build:common && cd common && npm run dev",
-    "start-backend": "npm run build:server && cd server && npm run start",
-    "start-frontend": "npm run build:web && cd web && npm run dev",
-    "start:prod": "npm run build:common && node --trace-warnings server/js/main.js",
-    "start:maint": "cd maintenance && npm run dev",
-    "test": "npm run build:common && concurrently --kill-others-on-fail \"cd web && npm run test\" \"cd server && SERVER_CONFIG_PATH='../config.json' npm run test\""
+    "start": "yarn build:common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
+    "start:prod": "yarn build:common && node --trace-warnings server/js/main.js",
+    "start:maint": "cd maintenance && yarn dev",
+    "test": "yarn build:common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && SERVER_CONFIG_PATH='../config.json' yarn test\""
   },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "packageManager": "yarn@1.22.21"
 }

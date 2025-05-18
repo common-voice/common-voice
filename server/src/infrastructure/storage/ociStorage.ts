@@ -44,6 +44,8 @@ const loadPrivateKey = (filePath: string): string => {
 
 // Ensure required configuration values are set
 const config = getociConfig()
+console.log('Configuration:', config)
+
 const region = oci.common.Region.fromRegionId(config.OCI_REGION) // Use dynamic region handling
 
 const {
@@ -54,6 +56,8 @@ const {
   OCI_NAMESPACE,
   OCI_BUCKET_NAME,
 } = config
+
+console.log('Configuration:', config)
 
 const missingConfigs = []
 
