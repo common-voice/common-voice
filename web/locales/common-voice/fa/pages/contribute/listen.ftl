@@ -12,9 +12,14 @@ listen-loading-error =
 listen-abort-title = به اعتبارسنجی صداها پایان می‌دهید؟
 listen-abort-cancel = ادامهٔ اعبارسنجی
 listen-abort-confirm = پایان اعتبارسنجی
+# Menu item
+validate-readings = اعتبارسنجی خوانش‌ها
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = اعتبارسنجی خوانش‌ها <small>(به زودی)</small>
 
 ## MENU ITEM TOOLTIPS
 
+validate-readings-menu-item-tooltip = خوانش‌های کاربران در زبان خود را اعتبارسنجی کنید
 
 ## MENU ITEM ARIA LABELS
 

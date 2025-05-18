@@ -80,6 +80,7 @@ read-more-about = در صفحه درباره ما بیشتر بخوانید
 
 community-and-languages = اجتماع و زبان‌ها
 coming-soon = به زودی
+about-us = دربارهٔ ما
 
 ## MENU ITEMS TOOLTIPS
 
@@ -92,6 +93,7 @@ coming-soon = به زودی
 
 ## Hero section
 
+hero-title = فناوری‌ای که به زبان شما صحبت می‌کند
 
 ## Action items section
 
