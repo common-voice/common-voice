@@ -1,5 +1,5 @@
 # PARTNERSHIPS PAGE
-partnerships-header = ہمراک
+partnerships-header = ہمراداری
 partnerships-header-text = کامن وائس ئے مننگ آ بھلو وخت ئس لگک! نن داتے تنیا کپانہ۔ نن تون اوار مننگ خوارے؟ نن نمے آن بِننگ دوست کینہ۔
 partnerships-get-in-touch = ساڑی مبو
 partnerships-become-a-partner = کامن وائس نا شریکدار جوڑ مننگ
@@ -14,3 +14,7 @@ partnerships-academia-description = نن انت ئس ہم کینہ اونا اُ
 partnerships-small-business-header = چنکا واپاریک، ٹیک و AI نا برجائی اوار او
 partnerships-small-business-description = نن ہمیش ڈیٹا خالخواہ تینا اوفتا گُرج و سیاق و سباق نا باروٹ بننگ خوانہ۔ ڈیٹا جمع کننگ کن پلیٹ فارم آ کمک آن الیس تے ڈیٹا نا گچین کننگ اٹ بصیرت تننگ اسکان، نن <emailFragment>نمے بننگ خوانہ۔</emailFragment>
 partnerships-corporates-header = بھلو پِڑ سیا کارپوریٹس و پلیٹ فارم کمپنیک
+partnerships-corporates-description = اگہ نم ڈیٹا سیٹ نا باروٹ پین ہیت کننگ خوارے، منصوبہ بند پلیٹ فارم نا بھلنی ٹی اواری اٹ واپاری کننگ خوارے یا کمک نا موقع پٹنگ اورے، تو <emailFragment>نن کن اسہ لائن ئس ایلیبو۔</emailFragment>
+partnerships-our-partners = ننا ہمراک
+# menu item
+partners = ہمراک
