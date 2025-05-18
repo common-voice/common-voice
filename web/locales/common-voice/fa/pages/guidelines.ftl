@@ -3,6 +3,7 @@ guidelines-header = راهنمای مشارکت
 guidelines-header-subtitle = نحوه مشارکت و اعتبارسنجی جملات و صداهای ضبط شده را در مجموعه دادهٔ آوای مشترک درک کنید
 voice-collection = گردآوری صدا
 sentence-collection = گردآوری جمله
+question-collection = مجموعه سوالات
 
 ## Voice Collection nav ids
 
@@ -106,7 +107,22 @@ domain-explanation = زمینه به موضوع جمله اشاره دارد. د
 
 ## Question collection ids
 
+adding-questions = افزودن سوالات
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = چه چیزی یک سوال را خوب می‌سازد؟
+what-makes-a-good-question-explanation = یک سوال خوب برای مجموعه داده‌های مشارکت عمومی بایستی:
+what-makes-a-good-question-explanation-criteria-1 = به راحتی قابل فهم و پاسخ‌دادن باشد
+what-makes-a-good-question-explanation-criteria-2 = به طور عمومی مرتبط باشد
+what-makes-a-good-question-explanation-criteria-3 = از زبان آسیب‌رسان یا توهین‌آمیز استفاده نکرده و چنین چیزی را هم درخواست نکند
+what-makes-a-good-question-tip = همچنین ممکن است بخواهید زمینه‌ها و دامنه‌های گسترده‌تری را در نظر بگیرید.
+easy-to-understand = آسان برای فهم
+easy-to-understand-explanation = سوالات ساده‌ای را انتخاب کنید که برای همه، صرف نظر از فرهنگ یا زمینه، قابل فهم باشد.
 spelling-and-pronunciation = دیکته و علامت‌گذاری
+spelling-and-pronunciation-explanation = از قواعد صرفی و نحوی درستی استفاده کنید.
+length = طول
+length-explanation = باید بتوان فقط در چند جمله به پرسش پاسخ داد.
+dont-add-subheader = این موارد را اضافه نکنید
+culturally-specific-questions = پرسش‌های خاص فرهنگی
+culturally-specific-questions-explanation = سوالاتی که از نظر فرهنگی بسیار خاص هستند، یا فرضیات زیادی در مورد پاسخ دهنده ایجاد می‌کنند
