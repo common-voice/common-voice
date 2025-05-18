@@ -49,3 +49,6 @@ settings = سیٹنگز
 edit-profile = پروفائل ئے بدلفبو
 profile-create-success = پروفائل جوڑ کننگ اٹ سرسہبی!
 profile-close = بند
+profile-explanation = پروفائل تون اوار تینا مُستی اننگ آ نظر شاغبو و ننا توار نا ڈیٹا ئے زیات سہی کننگ اٹ کمک کبو۔
+thanks-for-account = تینا اکاؤنٹ نا تصدیق کننگ نا منت وار، داسہ ببو نما پروفائل ئے جوڑ کین۔
+why-demographic = دا ویل انتئے؟
