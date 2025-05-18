@@ -77,10 +77,10 @@ read-more-about = ვრცლად იხილეთ გვერდი ჩ�
 
 ## NAV ITEMS
 
-answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
-review-transcriptions = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
-add-questions = კითხვების დამატება <small>(მალე)</small>
-transcribe-audio = ხმის ნაწერად ქცევა <small>(მალე)</small>
+answer-questions = კითხვებზე პასუხი
+review-transcriptions = ტრანსკრიფციის შემოწმება
+add-questions = კითხვების დამატება
+transcribe-audio = ხმის ნაწერად ქცევა
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
 coming-soon = მალე
