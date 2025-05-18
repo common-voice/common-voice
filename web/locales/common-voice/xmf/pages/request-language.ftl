@@ -22,3 +22,4 @@ request-for-spontaneous-speech-toggle = სპონტანურ ჩიებ
 need-help-deciding-platform = გოსაჭირუნანო მეხვარა ნამ ეირჩიათჷნი?
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong> ნაჭარაშ გახონარება </strong> (ჩვეულებრივ, ნამუთ ჩინებულ რე Common Voice) გულისხმენს ზიტყვასქვილეფიშ ხონარმაღალო კითხირს თქვან ნინაშა.
+need-help-deciding-platform-explanation-2 = <strong> სპონტანურ ჩიება </strong> რე Common Voice-იშ ახალ ნაწილი, სოდეთ შეილებუნა ოკითხირეფს ქუგამათ ორთაშური, ოჩიებე ნინათ.
