@@ -4,3 +4,7 @@ partnerships-header-text = کامن وائس ئے مننگ آ بھلو وخت ئ
 partnerships-get-in-touch = ساڑی مبو
 partnerships-become-a-partner = کامن وائس نا شریکدار جوڑ مننگ
 partnerships-community-header = مخلوق، تخلیق و عام الس
+partnerships-community-description = کمیونٹی کامن وائس نا دڑکوکا اُست اے۔ وہ مچا دنیا غان بریرہ، و اونا باسکاک و سائنسدانک و فنکار او۔ نم ننا <about>About</about> پنہ و ننا <community>کمیونٹی پلے بک</community> ٹی ساڑی مننگ نا باروٹ پین چارے۔ اگہ نمے پین کڑمبی ٹی شریکدار مننگ ٹی اُست خوائی تخیرے، گڑا <emailFragment>رابطہ کبو۔</emailFragment>
+partnerships-foundations-header = بنیاداک
+partnerships-foundations-description = ننا مشرقی افریقہ غا خاص خیال تون اوار انٹرنیٹ ئے گچین او جاگہ ئس جوڑ کننگ کن فاؤنڈیشنز، سول سوسائٹی و کمیونٹی پارٹنرا تیتون کاریم کیرہ۔ ننا <programmaticWork>پروگرامی کاریم تا باروٹ پین چابو۔</programmaticWork>
+partnerships-governments-header = سرکارک
