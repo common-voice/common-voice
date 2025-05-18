@@ -48,8 +48,20 @@ hch = ვიქსარიკა
 kzi = კელაბიტ
 mbf = ბაბა-მალაურ
 meh = სამხრეთდასავლურ ტლახიაკეჼ მისტეკურ
+mel = ცენტრალურ მელანაუ
+mmc = მიჩოაკან მაზაჰუა
+ms-MY = ბაჰასა მალაურ
+msi = საბაჰ-მალაურ
+pez = აღმოსავლურ პენან
+pne = დასავლურ პენან
+sdo = სერიანულ ბიდაუ
+snv = საბანი-მოტტ
+tr = თურქულ
+xkl = კენიურ
 
 ## Language search component
 
 language-search-placeholder = მოტტ ლახარ...
 language-search-aria-label = მოტტ ლახარ
+language-search-label = ხე́რცობ დაჩოკ კრე́ბულე ჰ̦უჲნო̆ მოტტ
+language-search-no-results = მოტტ ცო ლახბალიჼ
