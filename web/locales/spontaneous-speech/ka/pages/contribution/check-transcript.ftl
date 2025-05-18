@@ -1,7 +1,7 @@
 ## Check Transcriptions page
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-transcription-page-instruction = { $actionType } <playIcon></playIcon> მოუსმინეთ ხმოვან ჩანაწერს და შეამოწმეთ ნაწერის სახით გადმოცემული. თუ შეუსაბამოა, ჩაასწორეთ, რომ სრულად ემთხვეოდეს.
+transcription-page-instruction = { $actionType } <playIcon></playIcon> მოუსმინეთ ხმოვან ჩანაწერს და შეამოწმეთ ნაწერთან თანხვედრა. თუ შეუსაბამოა, ჩაასწორეთ, სრულად რომ დაემთხვეს.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = შემოწმება
 no-transcriptions-message = ამ ენისთვის ნაწერად ქცეული ჩანაწერები არ მოიძებნა. გთხოვთ, განაახლოთ გვერდი ან მოგვიანებით სცადოთ.
