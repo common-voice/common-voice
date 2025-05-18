@@ -20,6 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = მუ ოკითხირეფი შემლებუ გევუძინენი?
 do-section-title = ოკო რდას
 do-section-guideline-1 = თინჭარუათ დო გრამატიკულო
+do-section-guideline-2 = გეგშაგორით ანდვილი ოკითხირეფი, ნამუთ არძაშო გაგებელი იჸუაფუ კულტურაშ თუ კონტექსტიშ მიუხედაო.
 do-section-guideline-3 = დერწმუნით ნამდა, გამა ართ-ჟირ ზიტყვასქვილით იჸუაფუ შესაძლებელი
 do-not-section-title = ვაკო
 do-not-section-guideline-1 = ითხინდას პიჯიშ ეშაჩინებელ მუნაჩემეფს (სახელს ან საშემოსავლო ინფორმაციას)
