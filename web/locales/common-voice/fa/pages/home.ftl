@@ -86,15 +86,20 @@ press-and-stories = مطبوعات و داستان‌ها
 community-and-languages = اجتماع و زبان‌ها
 coming-soon = به زودی
 about-us = دربارهٔ ما
+scripted-speech = گفتار نوشته‌شده
+spontaneous-speech = گفتار فی‌البداهه
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = شراکت‌ها، مطبوعات و داستان‌ها، جامعه و زبان‌ها
 partnerships-menu-item-tooltip = سازمان‌های حامی آوای مشترک در سراسر جهان را بشناسید
 press-and-stories-menu-item-tooltip = داستان‌ها، به‌روزرسانی‌ها، و پوشش رسانه‌ای آوای مشترک را بخوانید
+community-and-languages-menu-item-tooltip = با جامعهٔ ما ارتباط گرفته و زبان‌های پشتیبانی‌شده را ببینید
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = دربارهٔ همکاری با آوای مشترک بیشتر بدانید
+press-and-stories-menu-item-aria-label = به اطلاعیه‌های مطبوعاتی و داستان‌های مرتبط با آوای مشترک دسترسی پیدا کنید
 
 ## NEW HOME PAGE KEYS
 
