@@ -62,10 +62,17 @@ create-profile-button = ایجاد نمایه
 img-alt-success-checkmark = علامت موفقیت
 # menu item
 read-sentences = جمله‌ها را بخوانید
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملات را بخوانید <small>(به زودی)</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = جمله‌ها را بخوانید، به پرسش‌ها پاسخ دهید
+read-sentences-menu-item-tooltip = صدای خود را هنگام خواندن جملات به زبان خودتان ضبط کنید
+answer-questions-menu-item-tooltip = صدای خود را در پاسخ به سوالات و درخواست‌ها به زبان خودتان ضبط کنید
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = فهرست گزینه‌های گفتن
+read-sentences-menu-item-aria-label = جملات ارسالی توسط جامعه را به زبان‌های مختلف بخوانید
+answer-questions-menu-item-aria-label = پرسش جدیدی را بفرستید تا جامعه آن‌ها را خوانده و به آن‌ها پاسخ دهند
