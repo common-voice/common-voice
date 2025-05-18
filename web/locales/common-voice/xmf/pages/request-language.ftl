@@ -6,12 +6,15 @@ request-language-form-email =
     .label = თქვან ელფოსტაშ ოწურაფუ
 request-language-form-info =
     .label = ინფორმაცია ნინაშ გურშენი
+request-language-form-info-explanation = ქიგუძინით მუთ შილებენ მეტი ინფორმაცია ნინაშ გურშენი. თენა შილებე რდასჷნი:
 request-language-form-info-explanation-list-1 = თქვან ნინაშ სახელეფი
 request-language-form-info-explanation-list-2 = <isoCodeLink> ISO კოდეფს </isoCodeLink> ქოიჩქუნანო
 request-language-form-info-explanation-list-3 = თქვან ნინაშ უჯგუშო გაჩინებაფალო საიტიშ რსხილეფი
 request-language-google-recaptcha-required = reCAPTCHA  მიკილათ ოკო, გაგძელათჷნი
+request-language-google-recaptcha-error = reCAPTCHA-ს მუდგარენ არასწორ რე. ქორთხინთ, ხელახაშო ქოცადათჷნი.
 # Success page
 request-language-success-heading = მარდი! ნინაშ მოთხუალა უკვე ჯღონელ რე
+request-language-success-list-1 = ჩქინ საზოგადოებაშ მენეჯერშე მალას მიღენთ ჭარილს, სოდეთ ენწყუმილ იჸუაფუ უკულიან ბიჯგეფი Common Voice-ის თქვან ნინაშ გიოძინალო
 request-for-scripted-speech-toggle = ნაჭარაშ გახონარებაშ მოთხუალა
 request-for-spontaneous-speech-toggle = სპონტანურ ჩიებაშ მოთხუალა
 # text wrapped in <strong></strong> will be shown as bold
