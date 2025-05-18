@@ -1,7 +1,7 @@
 ## Request Language Pages
 
 request-language-heading = ახალ ნინაშ გეძინაშ მოთხუალა
-request-language-explanation-1 = ქიგნაჯინით, ქორე თუ ვარ თქვან ნინა <languagesPageLink> Common Voice-იშ ნინეფიშ ნასილას </languagesPageLink>. ვარედა, შეავსით თე ფორმა დო <strong> ქუმოიჯღონანთ ჭარილს, სოდეთ ენწყუმილი იჸუაფუ მუჭო ოკო გიორინუათ თქვან ნინა </strong>.
+request-language-explanation-1 = ქიგნაჯინით, ქორე თუ ვარ თქვან ნინა <languagesPageLink> Common Voice-იშ ნინეფიშ ხასილას </languagesPageLink>. ვარედა, გაკაფშით თე ფორმა დო <strong> ქუმოიჯღონანთ ჭარილს, სოდეთ ენწყუმილი იჸუაფუ მუჭო ოკო გიორინუათ თქვან ნინა </strong>.
 request-language-form-email =
     .label = თქვან ელფოსტაშ ოწურაფუ
 request-language-form-info =
