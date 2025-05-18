@@ -2,20 +2,20 @@
 guidelines-header = یوگدؔانا کے مارگ درشک
 guidelines-header-subtitle = سادھارݨ اواج ڈیٹا سیٹاپ یوگدؔان دؔیݨیں اور پک کرنے کا نامُونا سمجو
 voice-collection = اواجیں جماؤڑا
-sentence-collection = ٻلیں کا جماؤڑا
+sentence-collection = ٻولیں کا جماؤڑا
 question-collection = سُالیں کا جماؤڑا
 
 ## Voice Collection nav ids
 
-varying-pronunciations = دؔوجے لہجے
-misreadings = گلت پاڑھائی
-offensive-content = اپمان کرناڑا سیمان
+varying-pronunciations = دُؔوجے لیہکے
+misreadings = گلت پڑھائی
+offensive-content = اپمان کرنواڑا سیمان
 background-noise = لارکا گاھریا
 background-voices = لارکیاں اواجاں
 volume = ویلا
 reader-effects = پڑھنواڑے کا پھرک
 just-unsure = رُگی اوسواسی
-example = مِسال
+example = سرا
 
 ## Voice collection sidebar content
 
