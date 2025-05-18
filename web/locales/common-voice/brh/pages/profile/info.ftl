@@ -38,3 +38,14 @@ do_not_wish_to_say = پاننگ نا اُست خوائی کپابو
 # Gender
 other = ایلو
 why-profile-title = پروفائل انتئے؟
+why-profile-text =
+    تینا  باروٹ گڑاس چاہنداری تننگان، نم ہرا آڈیو ڈیٹا کامن وائس آ جمع کریفینورے او اسپیچ کن زیات کاریم اٹ بریرہ۔
+    پجار نا انجن ہراکے دا ڈیٹا ئے تینا سہی کننگ ئے جوان جوڑ کننگ اٹ کارمرز مریک۔
+dashboard = ڈیش بورڈ
+build-profile = پروفائل جوڑ کبو
+avatar = اویٹر
+goals = مزلاک
+settings = سیٹنگز
+edit-profile = پروفائل ئے بدلفبو
+profile-create-success = پروفائل جوڑ کننگ اٹ سرسہبی!
+profile-close = بند

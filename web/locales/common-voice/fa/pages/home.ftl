@@ -79,14 +79,19 @@ read-more-about = در صفحه درباره ما بیشتر بخوانید
 ## NAV ITEMS
 
 answer-questions = به پرسش‌ها پاسخ دهید
+review-transcriptions = بازبینی رونویسی‌ها
+add-questions = افزودن پرسش‌ها
 transcribe-audio = صداها را رونویسی کنید
+press-and-stories = مطبوعات و داستان‌ها
 community-and-languages = اجتماع و زبان‌ها
 coming-soon = به زودی
 about-us = دربارهٔ ما
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت‌ها، مطبوعات و داستان‌ها، جامعه و زبان‌ها
 partnerships-menu-item-tooltip = سازمان‌های حامی آوای مشترک در سراسر جهان را بشناسید
+press-and-stories-menu-item-tooltip = داستان‌ها، به‌روزرسانی‌ها، و پوشش رسانه‌ای آوای مشترک را بخوانید
 
 ## MENU ITEM ARIA LABELS
 
