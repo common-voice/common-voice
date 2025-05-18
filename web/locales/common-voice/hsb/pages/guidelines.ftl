@@ -39,6 +39,7 @@ misreadings-tip-2 = [‘a’ w originalnym teksće njeje]
 misreadings-tip-3 = [Wobsah njewotpowěduje]
 background-noise-explanation = Dyrbiće kóžde słowo natočenja słyšeć móc. Chcemy, zo algoritmy mašinelneho wuknjenja móža z wjele wšelakorymi pozadkowymi šumami wobchadźeć a samo relatiwnje hłósne šumy abo ćicha pozadkowa hudźba dadźa so akceptować, pod wuměnjenjom, zo tomu njezadźěwaja, zo so cyły tekst słyši. Knyskotanje abo přetorhnjenja, kotrež tomu zadźěwaja, zo tekst słyšiće, rěka, zo wy měł klip wotpokazać.
 background-noise-example-1 = Hoberske dinosawriery triasa.
+background-noise-example-2 = [Třichanje] Hoberske dinosawriery [kašel] triasa.
 background-noise-example-3 = Hoberski dinosawrier [kašel] triasa.
 background-noise-example-4 = [Knakać] hoberske dinosawriery [knakać] -riasa.
 background-noise-tip-1 = [přez pozadkowy šum přetorhnjeny]
