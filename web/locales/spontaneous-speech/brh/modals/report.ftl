@@ -7,3 +7,4 @@ offensive_speech-detail = متن ٹی  بےا دب و زوراکی نا زبان
 different_language = جتا جتا زبان
 different_language-detail = متن اسہ جتا او زبان سیٹی ئے ہرانا ای توقع ئے کتاوسوٹ۔
 personally_identifiable_information = ذاتی وڑ اٹ چاہننگوکا چاہنداری
+personally_identifiable_information-detail = دا مواد اسہ بندغ سینا پجار آن ذاتی وڑ اٹ چاہنگوکا چاہنداری تیا مشتمل او، دنکہ اونا پن، ای میل ڈس، جاگہ, پجار نمبر، یا فون نمبر۔
