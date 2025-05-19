@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = تمچِي ڊيٽائِي نُون ڊائُون لوڊ ڪرڻي چِي ضرُورت ڇَي؟
+download-info = اَمهان نُون سُڻاوا تہ تمهِين ڪا ڊائُون لوڊ ڪرڻ چاهوا ڇَوا:
+download-profile-title = پروفائِيل
+download-profile-info = شامل ڇَي اِي ميل، مالڪا چَي نان ائُون ڊيموگرافڪ ڄاڻ، صفا جلدِي مهيا
+download-profile-size = چند بائِيٽس (ٿوڪڙي زرڙي)
+download-recordings-title = رڪارڊنگان
+download-recordings-info = ائُون لاڳا پڙوڙي جُملي، تيار هُوَڻي ۾ ڪهِين وقت گيه سِگھَي ڇَي mp3s شامل هِتي
+download-recordings-size = عام ميگا بائِيٽس
+download-recordings-unavailable = تمهِين آپڪِي رڪارڊنگِي چِي درخواست ڪونهِي ڪر سِگھا ڇَوا جِڏ تہ ڏُوجِي درخواست اڳ ۾ ئِي پلِي ڇَي۔
+download-recently-requested = تمهِين هر ڏِيها پر آپڪِي رڪارڊنگِي چِي نَوِين ٽيڪ آئُوٽِي چِي درخواست { $days } ڏي سِگھا ڇَوا۔
+download-size = ماپ
+download-selected = چُونڊوڙا
+download-start = پروفائِيل ڊيٽا ڊائُون لوڊ ڪرا
+download-request = رڪارڊنگِي چِي درخواست ڏِيا
+download-requests = گذروڙِي رڪارڊنگ ڊائُون لوڊي چِيا درخواستا
+download-requests-info = جِڏ تمهِين آپڪِي رڪارڊنگِي چِي درخواست ڏِيا ڇَوا، اَمهِين اُونهان نُون گھڻِيا زِپ فائِيلان ۾ ڀيڙَي ڪرُون ڇَئُون۔ اِٺي تمچِيا پُراڻِيا درخواستا پلِيا هِتِيا۔
+download-request-button = ڊائُون لوڊ ڪرا
+download-request-title = { $created }
+download-request-description = { $size } وائِيس ڪلپس، ڪل آرڪيو سائِيز { $clipCount } چا مُندا پُورا هُتِي جا ڇَي۔{ $expires }
+download-request-archive-single = هيڪ زِپ فائِيل شامل ڇَي
+download-request-archive-multiple = { $archiveCount } بِچڙوڙِيان زپ فائِيلان ۾ پانٽا
+download-request-assembling-description = تمچِيا فائِيلا ڀيڙِيا ڪلِيا پلِيا جائي هِتِيا۔ مهربانِي ڪتِي پڇي بڙي بڙتِي چيڪ ڪرا۔
+download-request-refresh-button = تازَي ڪرا
+download-request-modal-title = لِنڪس ڊائُون لوڊ ڪرا
+download-request-modal-description = تمچِيان زِپ فائِيلان نُون ڊائُون لوڊ ڪرڻي ڪاڻ اِٺي لِنڪ هِتي۔
+download-request-link-text = زِِپ #{ $offset } آف { $total }
+download-request-metadata-link = جُملي چا متن
+download-request-link-single = آپڪِي آپا نُون بڻڻي هاڙِي ڊائُون لوڊ مينجرا ۾ ويهچ 12 URLs تمهِين آپ نقتل ڪر سِگھا ڇَوا جڪو سِڌِي ڪلاڪا ۾ ختم هُتِي جاهِي، پَر تمهِين ڪسِي بِي مهلِي نَوين ٺاهوڻي چي ڪاڻ اي صِفحي پر پُوٺي جا سِگھا ڇَوا۔

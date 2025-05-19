@@ -80,11 +80,8 @@ read-more-about = Les mer på vår "Om" side
 ## NAV ITEMS
 
 answer-questions = Besvar spørsmålene
-answer-questions-coming-soon = Besvar spørsmål <small>(kommer snart)</small>
 review-transcriptions = Gjennomgå transkripsjoner
-review-transcriptions-coming-soon = Gjennomgå transkripsjoner <small>(kommer snart)</small>
 add-questions = Legg til spørsmål <small>(kommer snart)</small>
-transcribe-audio-coming-soon = Transkriber lyd <small>(kommer snart)</small>
 transcribe-audio = Transkribere lyd
 press-and-stories = Presse
 community-and-languages = Fellesskap og språk
@@ -99,7 +96,6 @@ community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Om alternativmeny
 partnerships-menu-item-aria-label = Lær om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tilgang til pressemeldinger og historier relatert til Common Voice
 community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språkene som støttes av Common Voice

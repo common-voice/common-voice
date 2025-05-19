@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = ჯაკუმა ისგუ მონაცემრე ლიტუ̂ირთა̈უ̂ი?
+download-info = ქა ნე̄ქა, იმშა ლიტუ̂ირთა̈უ̂ი ჯაკუ:
+download-profile-title = პროფილ
+download-profile-info = ამე̄სგა ა̈რი ელფოსტა, მომხმარებლი ჟა̄ხე ი დემოგრაფიულ ინფორმაცია, ხელმისაწვდომ შიშდ
+download-profile-size = მა̄დხუ̂ა̄̈ჲ ბაიტა̈რ
+download-recordings-title = ნა̈ი̄რუ̂ა̈ლ
+download-recordings-info = ამხაუ̂თე̄ჲსგა ესღრი mp3 ი დაკავშირებულ წინადადება̄̈ლ, ლამა̄რას შეიძლება მა̄დხუ̂ა̄̈ჲ დუ̂რეუ̂ ა̈ხკუ̂ეს
+download-recordings-size = ჩუ̂ეულებრიუ̂დ, მეგაბაიტა̈რ
+download-recordings-unavailable = სი ჩიგარ ჩუ ჯა̈მჲედა ათრეგისტრირაუ̂ა ისგუ ნა̈ირუ̂ა̈რ შეფერხებაურდ
+download-recently-requested = სი ჩი ლადა̈ღ { $days } ჩუ ჯა̈მჲედა ხიჰრი ისგუ ნა̈ჲრუ̂ლე ქალიტუ̂ირთა̈უ̂ი
+download-size = ზომა
+download-selected = ჟი ლჷთიშ
+download-start = პროფილიშ ლიტუ̂ირთა̈უ̂ი̄ თარიღ
+download-request = ნა̈ირუ̂ლე ლიჰრი
+download-requests = ნა̈ჲრუ̂ლე ლიტუ̂ირთა̈უ̂ი̄ ჯუ̂ინელ მოთხოუ̂ნა̄̈ლ
+download-requests-info = შომა სი ხიჰრი ისგუ ჩანაწერა̈ლს, ნა̈ჲ კომპილაციას ხუ̂ა̈ჩოდ ეშხუ ჰედ ხოფში̄რა ZIP ფაილა̈რდ. ამჩუ ა̈რიხ ისგუ ჯუ̂იელ მოთხოუ̂ნა̄̈ლ:
+download-request-button = ჩამოტვირთვა
+download-request-title = { $created } მჷსყე ლი
+download-request-description = { $clipCount } ხმოუ̂ან კლიპრეშ, თელ არქიუ̂ი ზომა{ $size }. უ̂ადა ხეშდხენი{ $expires }
+download-request-archive-single = ეშხუ ZIP ფაილ შეიცავს
+download-request-archive-multiple = ჩუ ლიყლუ̄რე{ $archiveCount } ZIP ფაილისგა
+download-request-assembling-description = ისგუ ფაილა̈რ ინზო̄რიხ. ქა̄თსინჯუ̂ ხოშა გუ̂იანდ.
+download-request-refresh-button = ჩუ̂ათმა̈ხ
+download-request-modal-title = ლა̈ტუ̂ირთა̈უ̂ ბმულ
+download-request-modal-description = ამჩუ ა̈რიხ ბმულა̈რ ისგუ̂ა ZIP ფაილრე ჩულა̈ტუ̂ირთა̈უ̂დ.
+download-request-link-text = Zip #{ $offset } { $total }-ხა̈ნქა
+download-request-metadata-link = წინადადება̄̈ლე ტექსტ
+download-request-link-single = აჯაღ ჯა̈მჲედა დააკოპირო ი სგ'ა̄თხია პირდაპირ URL-ა̈რ ისგუ ფაუ̂ორიტ ჩულა̈ტუ̂ირთა̈უ̂ მენეჯერთე̄სგა. ვადა 12 საღა̈თისგა ქა ხო̄ზიხ, მარე სი ჩიგარ ჩუ ჯა̈მჲედა ქ'ა̄ტეხ ალ გუ̂ერდთე მახე̄მი ლა̈სყიდ.

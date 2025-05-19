@@ -73,27 +73,28 @@ read-more-about = 阅读我们的“关于”页面了解更多
 ## NAV ITEMS
 
 answer-questions = 回答问题<small>（即将推出）</small>
-answer-questions-coming-soon = 回答问题<small>（即将推出）</small>
 review-transcriptions = 审核转录文本<small>（即将推出）</small>
-review-transcriptions-coming-soon = 审核转录文本<small>（即将推出）</small>
 add-questions = 添加问题<small>（即将推出）</small>
-add-questions-coming-soon = 添加问题<small>（即将推出）</small>
-transcribe-audio-coming-soon = 转录音频<small>（即将推出）</small>
 transcribe-audio = 转录音频<small>（即将推出）</small>
 press-and-stories = 新闻和文章
 community-and-languages = 社区和语言
 coming-soon = 即将推出
+about-us = 关于我们
+scripted-speech = 朗读文本
+spontaneous-speech = 即兴发言
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = 合作伙伴、新闻和文章、社区和语言
+about-us-menu-item-tooltip = 详细了解 Common Voice 背后的团队及肩负的使命
+about-us-menu-item-aria-label = “关于我们”选项菜单
 partnerships-menu-item-tooltip = 与我们合作
 press-and-stories-menu-item-tooltip = 访问我们的博客，或讲述我们的故事
 community-and-languages-menu-item-tooltip = 探索语言、社区与 Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = “关于”选项菜单
+about-us-menu-aria-label = “关于”选项菜单
 partnerships-menu-item-aria-label = 了解与 Common Voice 的合作
 press-and-stories-menu-item-aria-label = 获取关于 Common Voice 的新闻稿和文章
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社区和语言
@@ -121,6 +122,7 @@ spontaneous-card-content = 回答引导语，打造自然的口语语境数据�
 language-text-card-header = 语言文本
 language-text-card-content = 为翻译、小型语言模型等项目，创建或分享处于公有领域的引导语、语句、文本。
 add-text = 添加文本
+answer = 回答
 
 ## Community section
 

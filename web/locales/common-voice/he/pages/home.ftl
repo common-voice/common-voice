@@ -83,17 +83,20 @@ add-questions = הוספת שאלות <small>(בקרוב)</small>
 transcribe-audio = תמלול שמע <small>(בקרוב)</small>
 press-and-stories = עיתונות וידיעות
 community-and-languages = קהילה ושפות
+about-us = מי אנחנו
+scripted-speech = דיבוב מתוסרט
+spontaneous-speech = דיבוב ספונטני
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = שותפויות, עיתונות וידיעות, קהילה ושפה
+about-us-menu-item-tooltip = עוד על המשימה והצוות שמאחורי Common Voice
 partnerships-menu-item-tooltip = הפכו לשותפים שלנו
 press-and-stories-menu-item-tooltip = בקרו בבלוג שלנו או כתבו אודותינו
 community-and-languages-menu-item-tooltip = גלו שפות וקהילות
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = תפריט אפשרויות של דף על אודות
 partnerships-menu-item-aria-label = גלו עוד על שותפיות עם Common View
 press-and-stories-menu-item-aria-label = גישה להודעות לעיתונות ולידיעות הקשורות ל-Common Voice
 community-and-languages-menu-item-aria-label = גלו עוד על הקהילה והשפות של Common Voice
@@ -103,9 +106,14 @@ community-and-languages-menu-item-aria-label = גלו עוד על הקהילה �
 
 ## Hero section
 
+hero-title = טכנולוגיה שמדברת בשפה שלך
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>למה שבינה מלאכותית תעבוד רק בחלק מהשפות בעולם?</bold>
+hero-subtitle-2 = השפה שלנו היא הסיפור שלנו, הקהילה שלנו, התרבות שלנו. בואו ניצור את מערכי הנתונים שאנחנו רוצים לראות בעולם.
 
 ## Action items section
 
+action-items-section-title = ‏Common Voice היא פלטפורמת קוד פתוח חינמית ליצירת נתונים בהובלת הקהילה
 
 ## Community section
 

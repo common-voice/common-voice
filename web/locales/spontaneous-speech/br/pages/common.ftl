@@ -11,8 +11,6 @@ platform-language-tooltip-text = Kemmañ a ra hepken testenn al lec'hienn web.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = O kemer perzh er strobad roadennoù evit { $language }
 contribution-picker-tooltip-text = Cheñch yezh ar strobad roadennoù a felldeoc'h kemeer perzh ennañ
-# Label for button on contribution switcher
-change = Kemmañ
 coming-soon = Muioc'h a yezhoù a-raok pell
 media-recorder-api-not-supported = N'eo ket skoret API MediaRecorder gant ho merdeer.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkeg
 xkl = Kenyah
+
+## Language search component
+

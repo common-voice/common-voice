@@ -22,6 +22,7 @@ be = bielorús
 bg = búlgar
 bm = bambara
 bn = bengalí
+bnn = bunun
 bo = tibetà
 br = bretó
 bs = bosnià

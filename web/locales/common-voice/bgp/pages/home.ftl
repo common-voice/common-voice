@@ -91,11 +91,8 @@ read-more-about = مئے بابت ءَ پیج ءَ گیشتر وانگ بہ بی
 ## NAV ITEMS
 
 answer-questions = سوالات جوابات<small>(زوت پیداکیں) </small>
-answer-questions-coming-soon = سوالات جوابات<small>(زوت پیداکیں) </small>
 review-transcriptions = نقل ءِ چار ءُ تپاس<small> (زوت آھگ ءَ اِنت)</small>
-review-transcriptions-coming-soon = نقل ءِ چار ءُ تپاس<small> (زوت آھگ ءَ اِنت)</small>
 add-questions = جستاں ھوار کن اِت <small>(زوت آھگ ءَ اِنت)</small>
-transcribe-audio-coming-soon = آڈیو ءِ نبشتہ کنگ <small>(زوت آھگ ءَ اِنت)</small>
 transcribe-audio = آڈیو ءِ نبشتہ کنگ <small>(زوت آھگ ءَ اِنت)</small>
 press-and-stories = پریس ءُ کسہ
 community-and-languages = چاگرد ءُ زبان .
@@ -110,7 +107,6 @@ community-and-languages-menu-item-tooltip = زبان ءُ چاگرد ءُ مشت
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشنز مینو باروا
 partnerships-menu-item-aria-label = مشترکہ آواز ئے گوما شریکداری باروا سرپد بہ بئے
 press-and-stories-menu-item-aria-label = کامن وائس ءِ گوں سیادی داروکیں پریس ریلیز ءُ کسہاں سر بہ بئے
 community-and-languages-menu-item-aria-label = کمیونٹی ءُ زبانانی پٹ ءُ پول ءَ بکن اِت کہ کامن وائس ءِ کمک ءَ کنگ بنت

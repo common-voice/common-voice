@@ -38,12 +38,22 @@ background-noise-example-3 = استر دنو ٹرائزیک[خیفتا/خوفی�
 background-noise-example-4 = [شور] استر ڈائنوسار[شور]
 background-noise-tip-1 = [پے چروم شور ترے ملن آغوئے]
 background-noise-tip-2 = [نوختیغو پرکند دے غو چے ژیو]
+background-voices-example-1 = ٹرانزیکن استر ڈائناسور۔ [دے یو آواز ݱا]
+background-voices-tip-1 = تو آسیتیآ؟ [دیر کو اوݰڤدو]
+still-have-questions = دیر ام سوالے استتآ؟
+contact-common-voice = لے کامن وائس ٹیمین رابطہ کن
 
 ## Sentence collection nav ids
 
+public-domain = دے عام آدمف دائرو
+citing-sentences = ڤے جملغف حوالو لیا
+adding-sentences = جملغے شامل کڑا
+reviewing-sentences = ڤے جملغف دیبارو اوݱڑا
+sentence-domain = جملو دائرو
 
 ## Sentence collection sidebar content
 
+citing-sentences-subheader-websites = ویب سائٹس
 
 ## Question collection ids
 

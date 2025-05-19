@@ -11,8 +11,6 @@ platform-language-tooltip-text = صرف ویب سائٹ دی عبارت بدلا
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹ بچ { $language } آسطے حصہ با رے آں
 contribution-picker-tooltip-text = زبان دے ڈیٹا سیٹ جس اچ تسیں حصہ بھا رے او کو بدلاؤ
-# Label for button on contribution switcher
-change = بدلاؤ
 coming-soon = ہور زباناں جلدی آ ریاں
 media-recorder-api-not-supported = تسدا براؤزر API میڈیا ریکاڈر کو سپورٹ نیں کردا۔
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,6 @@ sdo = سرین بدایو
 snv = سابان
 tr = ترکی
 xkl = کینیا
+
+## Language search component
+

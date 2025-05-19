@@ -3,6 +3,7 @@ guidelines-header = Guidda de collaboraçion
 guidelines-header-subtitle = Descreuvi comme collaborâ e verificâ frase e registraçioin audio do dataset de Common Voice
 voice-collection = Arrecuggeita de voxe
 sentence-collection = Colleçion de frase
+question-collection = Accuggeita de domande
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,18 @@ domain-explanation = O dominio o fa referensa à l’argomento da frase. Pe-o mo
 
 ## Question collection ids
 
+adding-questions = Azzonze de dmande
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Comme scrive unna boña domanda?
+what-makes-a-good-question-explanation = Unna boña domanda pe un corpus de parteçipaçion pubrica a dovieiva:
+what-makes-a-good-question-explanation-criteria-1 = Ëse de bon intende e façile da respondighe
+what-makes-a-good-question-explanation-criteria-2 = Ëse generalmente appropiâ
+what-makes-a-good-question-explanation-criteria-3 = No contegnî ò incoraggî l’uso de lenguaggio grammo ò offenscivo
+what-makes-a-good-question-tip = Danni a mente ascì à includde di contesti e di dominni despægi.
+easy-to-understand = Boña da intende
+easy-to-understand-explanation = Çerni de domande sence e comprenscibile da tutti, independentemente da-a coltua ò o contesto.
+spelling-and-pronunciation = Ortografia e pontezzatua
+spelling-and-pronunciation-explanation = Addeuvia unna boña grafia e grammatica.
+length = Longhixe

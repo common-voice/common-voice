@@ -36,9 +36,17 @@ review-delete-recordings = Izbriši moje posnetke
 review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</termsLink> in z <privacyLink>obvestilom o zasebnosti</privacyLink>
 terms-agree = Strinjam se
 terms-disagree = Ne strinjam se
+first-cta-gender-select-help-text =
+    .label = Kako bi opisali svoj spol?
+# menu item
+read-sentences = Berite stavke
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Berite stavke <small>(kmalu)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Berite stavke, odgovarjajte na vprašanja
+read-sentences-menu-item-tooltip = Posnemite se pri branju stavkov v svojem jeziku
 
 ## MENU ITEM ARIA LABELS
 

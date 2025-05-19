@@ -1,60 +1,60 @@
 action-click = tɔ ashi ji
 action-tap = xo ji
-contribute = do ŋusɛn, kpeɖeŋu
+contribute = do alɔ, do ŋusɛn, kpeɖeŋu
 review = glo nu me kpɔ, ku nu me kpɔ
 skip = va yi
-shortcuts = emɔ kpokpuiwo
+shortcuts = emɔ swɛwo
 clips-with-count-pluralized =
     { $count ->
-        [one] ɖe le me
-       *[other] ɖe wo le me
+        [one] ɖe so me
+       *[other] ɖeɖewo so me
     }
-goal-help-recording = Tó mi ji lɔ, gbeshiagbe tadojinu tche yí le Common Voice shi<goalPercentage><goalPercentage> sɔ kuɖe enyɔwo lelenuwo ŋu lɔ kpɔ yime vava.
-goal-help-validation = To mi ji lɔ, Common voice, gbeshiagbe tadojinu tche yí le Common Voice shi<goalPercentage><goalPercentage> sɔ kuɖe ashidada de enyɔwo jí lɔ́ kpɔ yi me vava.
-contribute-more = misɔ gbe agbe wɔ wu hunua?
-speak-empty-state = Mi  ɖegbe ɖo ŋyɔgbe dewo ale ɖé egbe ceɖetɔ me o.
-no-sentences-for-variants = ɖewotɔ egbeɛlɔze ce yi mido kɔ de gbe ɖo nyɔgbewo. Ne da do nuxu nɔ mi lɔ̀, miateŋ gbe trɔashi le nuwo ŋu né nyɔgbebuwo atéŋ zé le gbelɔ me.
-speak-empty-state-cta = miɖe nyɔgbebuwo ɖé go
-speak-loading-error = miɖetéŋ gbe kpɔ nyɔgbebuwo ayɔ o. Migbugbɔ atikpɔ gabuji
-record-button-label = mile mio gbe
-share-title-new = mikpe de mi ŋu ne miagbe kpɔ gbe yeyúbuwo
-keep-track-profile = do tɔwo ŋkɔyiyi kpɔ tó nɔnɔme ɖeɖefia ɖeká me
-login-to-get-started = minɔ kame alo miŋlɔ ŋkɔ ne miasɔ tɔ́jí
-target-segment-first-card = minyɔ fu do egbe ŋkɔtɔ ci yi me can me
-target-segment-generic-card = minyɔ fu do egbe ɖeka ci wo can ŋkɔyiyi me
+goal-help-recording = Tó mi ji lɔ, Common Voice kpɔ yi<goalPercentage><goalPercentage> gbeshiagbe tadojinu  sɔ kuɖe { $goalValue } enyɔwo lelenuwo ŋú.
+goal-help-validation = Tó mi ji lɔ, Common Voice kpɔ yi<goalPercentage><goalPercentage> gbeshiagbe tadojinu  sɔ kuɖe { $goalValue } ashidada ɖe enɔwo ŋú.
+contribute-more = E le gbesɔsɔ awɔ { $count } wu hunua?
+speak-empty-state = Enyɔbuwo dé gbé lɛ yí mialé le egbe ceɖe me o…
+no-sentences-for-variants = ɖotɔ egbeɛlɔze ce yi edo kɔ de gbe ɖo enyɔgbebuwo. Ne da do nuxu nɔ wo lɔ̀, atéŋ gbe trɔashi le tɔwo blemanyinudrenu ŋú né nyɔgbebuwo né zé le tɔwo gbelɔ me.
+speak-empty-state-cta = Sɔ nyɔgbewo ɖáɖá
+speak-loading-error = misetéŋ kpɔ́ enyɔgbewo á nu o. Tikpɔ gabují
+record-button-label = le tɔwo gbe ɖe nú jí ɖɛ
+share-title-new = <bold>Kpe dé mi ŋú</bold> ne miagbe kpɔ egbe yeyúbuwo
+keep-track-profile = Do tɔwo ŋkɔyiyi kpɔ tó  nu yóyú ɖoanyi ɖeká me
+login-to-get-started = Nɔ kame alo ŋlɔ ŋkɔ́  ásɔ́  tɔ́jí
+target-segment-first-card = E nyɔ fu do egbe ŋkɔtɔ ce yi nyí mio cancan gbantɔ ŋú
+target-segment-generic-card = E nyɔ fu do egbe ŋkɔtɔ ce yi nyí cancan gbantɔ ɖéká ŋú
 target-segment-first-banner = doalɔmi ne miasoaxoe nɔ Common Voice gbe ŋkɔtɔ { $locale }
 target-segment-add-voice = kɔ gbe yi ji, doaxwa.
-target-segment-learn-more = miji a se nu gɔme sugbɔ
-change-preferences = trɔ ashi le nu jɔjinamewo ŋú
-login-signup = miɖo kame alo miŋlɔ ŋkɔ
-vote-yes = ɛɛ
-vote-no = oo
-datasets = Nuxuwo nɔxu
-languages = egbewo
-about = sɔ kuɖe
-partner = gbeɖoju/ alɔdoalɔme
+target-segment-learn-more = E ji  a se nu gɔme sugbɔ a
+change-preferences = trɔashi le nuŋɔŋlɔwo  ŋú
+login-signup = ɖó kame / ŋlɔ ŋkɔ
+vote-yes = ɛn
+vote-no = Oo
+datasets = ŋɔŋlɔwo xuxoxu, ŋɔŋlɔwo takpikpli, ŋɔŋlɔwo nyínɔxu, ŋɔŋlɔwo hasoso, ŋɔŋlɔwo júnɔnɔ, ŋɔŋlɔwo godoxú
+languages = Egbewo
+about = Sɔ kuɖo;, kuɖo
+partner = gbeɖoju/ alɔdoalɔme/ /xomekádódó
 submit-form-action = sɔ ɖo ɖa
 
 ## Reporting
 
-report = nu, na kaklan
-report-title = asɔ egbeɖoɖo  ɖaɖa
-report-ask = kuxi kene hanɖewo yí midogo le nyɔgbe ceɖe ŋu o
-report-offensive-language = amemabumabugbe
+report = nu, na kaklan, da sa
+report-title = á sɔ́ egbɛɖoɖo ,ɖéká ɖaɖa, á sɔ́ nuŋlɔŋlɔ ɖéká ɖaɖa, á ɖó nyɔtakaka ɖéká ɖaɖa, á ɖódɔŋɔŋlɔ nyɔtakaka ,déká ɖaɖa, asɔ enyɔleɖi ɖéká ɖáɖá.
+report-ask = Kuxi kene hanɖéwo yí edogo le nyɔgbe ceɖe ŋu o ? kuxi kene hanɖéwo yí e kpɔ kuɖo enyɔgbe ceɖe o ? Kuxi kene hanɖewo yí e kpɔ le nyɔgbe ceɖe me o ?
+report-offensive-language = amemabumabugbe, busunyɔ, gbɔɖiamenyɔ, enyɔ fuflu; ŋkpɛn nyɔ, enyɔ vlo, enyɔ hɔnhɔn, enyɔ xoɖi, afɛn nyɔ
 report-offensive-language-detail = amemabumabu alo ezu le nyɔgbe lɔwo me
-report-grammar-or-spelling = gbeŋutisévodawo/gbeŋɔŋlɔtisevodada
-report-grammar-or-spelling-detail = gbeŋutisévodada alo gbeŋɔŋlɔtisevodada ɖeka le nyɔgbelɔme
+report-grammar-or-spelling = egbenyɔsevodawo / egbeŋɔŋlɔsevodada
+report-grammar-or-spelling-detail = egbenyɔsevodada alo egbeŋɔŋlɔsevodada ɖeka le nyɔgbelɔme
 report-different-language = egbebu
 report-different-language-detail = wo ŋlɔnyɔgbe ɖo gbe ce yí tovo nɔ kiŋyitɔ me
-report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu
+report-difficult-pronounce = yɔyɔ lɔ́ gbɔnu, e shíŋu yɔyɔ, e gbɔ nu yɔyɔ
 report-difficult-pronounce-detail = enyɔkpe kuɖo enyɔgbe ɖekawo gbɔnu yɔyɔ
 report-offensive-speech = enyɔveame , enyɔdabiameŋuwo
-report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le enyɔleletɔxɛlɔme
+report-offensive-speech-detail = amemabunyɔwo alo ezunyɔwo le egbeɖiɖi kpɔɖonulɔ me
 report-other-comment =
     .placeholder = numeɖeɖe
-success = ŋjejekpɔkpɔ le dɔwɔwɔme
-continue = yi ji
-report-success = wosɔ egbeɖoɖo  ɖaɖa nyuieɖe
+success = Dɔwɔwɔ ŋjejekpɔkpɔ, dɔwɔwɔ jijeji, dɔwɔwɔ viɖeɖe
+continue = yi ji, so yi ji
+report-success = wo sɔ egbeɖoɖo  ɖaɖa nyuieɖe,  wo ɖó dɔŋɔŋlɔ nyɔtakakaɔ ɖaɖa nyuieɖe, wo sɔ enyɔleɖiɛ ɖáɖá nyuieɖé.
 
 ## Speak & Listen Shortcuts
 
@@ -66,15 +66,15 @@ shortcut-skip = a
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = e
-shortcut-record-toggle-label = á le nyɔ dɛ/ á nɔ te
-shortcut-rerecord-toggle = so ɖeka yí atɔn
-shortcut-rerecord-toggle-label = á trɔ lé nyɔ
-shortcut-discard-ongoing-recording = aɖaŋuɖeɲɔnucucu, alɔmekaxomɔnucucu
-shortcut-discard-ongoing-recording-label = cucu nyɔlelé ce yí yikɔji
-shortcut-submit = ɖo me
-shortcut-submit-label = sɔ enyɔleléwo ɖaɖa
-request-language-text = tɔwo gbe ce edonɔ ɖe dé kpɔ le Common Voice ji o
-request-language-button = yɔ gbebu
+shortcut-record-toggle-label = Le nyɔ dɛ, jra nyɔ do ɖɛ́ /  nɔ te
+shortcut-rerecord-toggle = [1-5 ]
+shortcut-rerecord-toggle-label = á trɔ lé nyɔ, á trɔ lé nyɔwo ɖɛ́
+shortcut-discard-ongoing-recording = aɖaŋuɖeɲɔnucúcú, alɔmekaxomɔnucúcú
+shortcut-discard-ongoing-recording-label = cucu nyɔlelé ce yí yikɔji, cucu enyɔ  ce yíe le kɔ.
+shortcut-submit = Enumeɖóɖó
+shortcut-submit-label = Sɔ enyɔleléwo ɖáɖá, á śɔ enyɔleléwo ɖáɖá
+request-language-text = tɔwo gbe ce edonɔlɔ́ dé sɔgbe hɔɖo o ? egbe ce yí e donɔ́ ɖé dé le gbesɔsɔ o?
+request-language-button = Sɔ gbe ɖeká ɖádá, ɖe egbe ɖeká fiá, tɔashi egbe ɖeká
 
 ## Listen Shortcuts
 
@@ -91,34 +91,34 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = afɔɖeɖewo
-contribution-criteria-link = áse alɔdodofɔɖeɖewo gɔme
-contribution-criteria-page-title = alɔdodofɔɖedewo
-contribution-criteria-page-description = seme be eɖoa ɖoto enyɔlelɛwo nyuieɖe ne nateŋ asɔ tɔwowo sɔkpewo
-contribution-for-example = le kpɔɖeŋu me
+contribution-criteria-nav = afɔɖeɖewo, aɖaŋuɖoɖówó, ɖoɖowo.
+contribution-criteria-link = á se alɔdodofɔɖeɖewo gɔme, á se kpekpeɖoŋú ɖoɖowo gɔme, á se kpekpeɖoŋú séwo gɔme.
+contribution-criteria-page-title = alɔdodofɔɖedewo; kpekpeɖéŋúséwó
+contribution-criteria-page-description = Seme be eɖoa ɖoto enyɔlelɛwo nyuieɖe ne nateŋ asɔ tɔwowo sɔkpewo
+contribution-for-example = Le kpɔɖeŋu me
 contribution-misreadings-title = nuhlinhlin vodadawo
-contribution-misreadings-description = le tɔwonyɔwo seseme lɔ, lé susu dé enyɔlelewo ŋú kpɔbe wosɔ kuɖo enuŋɔŋlɔlɔwo ŋú ma ; ne gbe nyi vodada swɛwo yí wo nyí can, tashi wo. <br />  Vodada cewo yi bɔ́nɔ́ ke :
-contribution-misreadings-description-extended-list-1 = e kpɔtɔ <strong><strong>deka</strong>alo<strong> ɛ, lɔ»</strong> le enyɔgbeɛ tɔtɔjí me
-contribution-misreadings-description-extended-list-2 = ekpɔtɔ <strong> s</strong> ɖeka le nyɔkpe vɔvɔnu
+contribution-misreadings-description = Le tɔwonyɔwo seseme lɔ, lé susu dé enyɔlelewo ŋú kpɔbe wosɔ kuɖo enuŋɔŋlɔlɔwo maaa ; ne gbe nyi vodada swɛwo yí wo nyí can, tashi wo. <br />  Vodada ceɖewo yi bɔ́nɔ́ ke :
+contribution-misreadings-description-extended-list-1 = e kpɔtɔ <strong><strong>deka</strong>alo<strong> -ɛ,/-lɔ»</strong> le enyɔgbeleléɛ tɔtɔjí me.
+contribution-misreadings-description-extended-list-2 = ekpɔtɔ <strong> s</strong> ɖeka le nyɔkpe vɔvɔnu, ekpɔtɔ <strong> s</strong> ɖeka le nyɔkpe vɔxu.
 contribution-misreadings-description-extended-list-3 = enyɔtoɖeme cewo yi de le egbɛme donɔ́ mo ɖada shigbebe «kaɖejitɔe» le«kakaɖejitɔe» tɔxu
 contribution-misreadings-description-extended-list-4 = enyɔlele kpɛtɛlɔ vá sonɔ le nuwuwulɔ né nyí bé wo nɔ te enyɔleleɛ kaba
-contribution-misreadings-description-extended-list-5 = atekpɔ sugbɔ gbɔxoe ahlin nyɔkpe ɖeka
-contribution-misreadings-example-1-title = Trias dinozɔru jɔasuwo
-contribution-misreadings-example-2-title = Trias dinozɔru jɔasu
-contribution-misreadings-example-2-explanation = eɖoanyí dinosɔruwo
-contribution-misreadings-example-3-title = Trias dinozɔru jɔasuwo
+contribution-misreadings-description-extended-list-5 = Woatekpɔ ŋtɔ́ gbɔxxe ahlin nyɔkpe ɖeka, Woatekpɔ ŋtɔ́ gbɔxxe ahlin nú ɖeka.
+contribution-misreadings-example-1-title = Trias hwenu xexiɖegãwo, Trias bleman lanxoxwi jɔasuwo, Trias dinozɔru jɔasuwo
+contribution-misreadings-example-2-title = Trias hwenu xexiɖegã, Trias bleman lanxoxwi jɔasu, Trias dinozɔru jɔasu.
+contribution-misreadings-example-2-explanation = [éɖoanyí «hwenu xexiɖegãwo»], [éɖoanyí «bleman lanxoxwiwo»], [éɖoanyí «dinozɔrʊ jɔasuwo»]
+contribution-misreadings-example-3-title = Trias hwenu xexiɖegã, Trias bleman lanxoxwi jɔasu, Trias dinozɔru jɔasu.
 contribution-misreadings-example-3-explanation = enyɔlele soso le nyɔ kpɛtɛ lɔ me
-contribution-misreadings-example-4-title = Trias dinozɔru jɔasuwo.ɛɛ
-contribution-misreadings-example-4-explanation = sɔwu nyɔɖoanyi ce yí le lélé
-contribution-misreadings-example-5-title = kakanɖejitɔ lɔ, á nyá kpɔ́kpɔ́
-contribution-misreadings-example-6-title = kakɖejitɔ lɔ, á nyá kpɔ́kpɔ́
-contribution-misreadings-example-6-explanation = eɖoanyí kakandejitɔe
-contribution-misreadings-example-7-title = kakɖejitɔ lɔ, á nyá kpɔ́kpɔ́ le hunu
-contribution-misreadings-example-7-explanation = «y» de le nyɔɖoanyilɔtɔ me o
-contribution-misreadings-example-8-title = enuzozroɔ só
-contribution-misreadings-example-8-explanation = egbeɖoɖo manɔme
-contribution-varying-pronunciations-title = yɔyɔ vovowo
-contribution-varying-pronunciations-description = yi ewoɖokime nyuieɖe gbɔxoe agbe enyɔ ce yí nu hlɛntɔ ɖewotɔ de yɔ nyuieɖe sɔ kuɖo lablɔɖegbeɖiɖi xokpliwo  ŋú alo biɔbiɔjeshi. ŋɔŋlɔbe ŋú. Le xexeɛme lɔ, yɔyɔ sugbɔwo lɛ ce yí ɖewotɔ desekpɔ le tɔwo jume kpɔ o. ɖo tɔxu ɖéká né na de jeshi amecewo gbe to vo nɔ tɔwo
+contribution-misreadings-example-4-title = Trias hwenu xexiɖegãwo, ɛɛ, Trias bleman lanxoxwi jɔasuwo. ɛɛ, Trias dinozɔru jɔasuwo. ɛɛ
+contribution-misreadings-example-4-explanation = sɔ́wú enyɔɖoanyi ce yí le lélé, sɔ́wú enyɔɖoanyi ce yí wo lé ɖɛ, wú enyɔɖoanyi léléɖɛ́.
+contribution-misreadings-example-5-title = Á nyá kpɔkpɔ godo, kakanɖejitɔ lɔ, á nyá kpɔ́kpɔ́ ŋtɔ́.
+contribution-misreadings-example-6-title = kakɖejitɔ lɔ, á nyá kpɔ́kpɔ́ ŋtɔ́
+contribution-misreadings-example-6-explanation = [eɖoanyí« kakandejitɔe »]
+contribution-misreadings-example-7-title = Kakɖejitɔ lɔ, á nyá kpɔ́kpɔ́ le hunu.
+contribution-misreadings-example-7-explanation = [« y » de le axwegbeɛ me o], [ « y » de le enyɔɖoanyiɛ me le axwegbelɔ me o]
+contribution-misreadings-example-8-title = Hunhun lɔ zo, hunhun lɔ só, hunhun lɔ shí, hunhun lɔ xéŋ.
+contribution-misreadings-example-8-explanation = [egbeɖoɖo manɔme], [ egbeɖoɖo xúxlu], [ enyɔleɖí xúxlu]
+contribution-varying-pronunciations-title = yɔyɔ vovowo, enu yɔyɔ vovowo, vovotótó le enyɔwo yɔ́yɔ́ me.
+contribution-varying-pronunciations-description = Yi ewoɖokime kpɔ nyuieɖe gbɔxwe ágb́é kpɔɖoŋu ce yí nu hlɛntɔ ɖotɔ de yɔ́ nyuieɖe sɔ kuɖo ablɔɖegbeɖiɖi xokpliwo  ŋú alo biɔbiɔjeshi ŋɔŋlɔbe ŋú. Le xexeɛme lɔ, enyɔnunu sugbɔwo lɛ ce yí ɖotɔ  dese le tɔwo jume kpɔ o. .ɖo tɔxu ɖéká ɖɛ né na sɔ kunume kpɔ sɔkuɖo amewo gbe cewo yí gbe  to vo nɔ tɔwo.
 contribution-varying-pronunciations-description-extended = vɔ ne nyi ekpɔ bé nuhlɛntɔlɔ dé nya nyɔkpe lɔ alo ekpaɛ yɔ lɔ, eɖoa tashi nyɔlélélɔ́. Vɔ né de kan dé jí lɔ́, nazan jeshi ce yi nyí vayi
 contribution-varying-pronunciations-example-1-title = keteke lɔ dɔnkɔ eʋungu sugbɔ
 contribution-varying-pronunciations-example-1-explanation = «Wagon» yɔyɔ lé yí tɔ xu keke na va se kɔ « Vagon» (FR) alo « Ouagon» (BE)

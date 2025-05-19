@@ -11,8 +11,6 @@ platform-language-tooltip-text = صرف ویب سائٹ کی زبان کا بد�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } کا ڈیٹا سیٹ ما حصو لینو
 contribution-picker-tooltip-text = زبان کا ڈیٹا سیٹ نا اس زبان ما بدلاو جس ما تم حصو لیو
-# Label for button on contribution switcher
-change = بدلاو
 coming-soon = ہور زبان بھی مچ جھب آن آلی ہیں
 media-recorder-api-not-supported = تھہارا براوزر نال میڈیا ریکارڈر اے پی آئی نیہہ چلتو
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,10 @@ sdo = شامی بیدایوہا
 snv = سبان
 tr = ترکی
 xkl = کینیا
+
+## Language search component
+
+language-search-placeholder = زبان نا تلاش کرو
+language-search-aria-label = زبان کی تلاش
+language-search-label = صرف ڈیٹا سیٹ کی شراکت کی زبان ما تبدیلی کرو
+language-search-no-results = کائے زبان نیہہ ملی

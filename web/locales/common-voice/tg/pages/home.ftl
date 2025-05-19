@@ -74,12 +74,8 @@ read-more-about = Дар саҳифаи «Дар бораи мо» бештар 
 ## NAV ITEMS
 
 answer-questions = Ба саволҳо ҷавоб диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
-answer-questions-coming-soon = Ба саволҳо ҷавоб диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 review-transcriptions = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
-review-transcriptions-coming-soon = Овонависиро баррасӣ кунед <small>(Ба наздикӣ дастрас мешавад)</small>
 add-questions = Саволҳоро илова кунед <small>(Ба наздикӣ дастрас мешавад)</small>
-add-questions-coming-soon = Саволҳоро илова кунед <small>(Ба наздикӣ дастрас мешавад)</small>
-transcribe-audio-coming-soon = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 transcribe-audio = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 press-and-stories = Матбуот ва ҳикояҳо
 community-and-languages = Ҷомеа ва забонҳо
@@ -94,7 +90,6 @@ community-and-languages-menu-item-tooltip = Забонҳо, ҷомеаҳо ва 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Common Voice» маълумот гиред
 press-and-stories-menu-item-aria-label = Ба матбуоти расмӣ ва мақолаҳои марбут ба лоиҳаи «Common Voice» дастрасӣ пайдо намоед
 community-and-languages-menu-item-aria-label = Дар бораи ҷамъияти мо ва забонҳое, ки аз ҷониби «Common Voice» дастгирӣ мешаванд, маълумоти пурра пайдо кунед

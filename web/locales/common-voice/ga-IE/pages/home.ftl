@@ -80,12 +80,8 @@ read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis
 ## NAV ITEMS
 
 answer-questions = Freagair Ceisteanna
-answer-questions-coming-soon = Freagair Ceisteanna <small>(Ag teacht go luath)</small>
 review-transcriptions = Athbhreithnigh Tras-scríbhinní
-review-transcriptions-coming-soon = Athbhreithnigh Tras-scríbhinní <small>(Ag teacht go luath)</small>
 add-questions = Cuir Ceisteanna Leis
-add-questions-coming-soon = Cuir Ceisteanna Leis <small>(Ag teacht go luath)</small>
-transcribe-audio-coming-soon = Tras-scríobh Fuaimeanna <small>(Ag teacht go luath)</small>
 transcribe-audio = Tras-scríobh Fuaimeanna
 press-and-stories = An Preas agus Scéalta
 community-and-languages = Pobal agus Teangacha
@@ -97,7 +93,6 @@ partnerships-menu-item-tooltip = Obair i gcomhar linn
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Roghanna an roghchláir maidir leis
 community-and-languages-menu-item-aria-label = Déan iniúchadh ar an bpobal agus ar na teangacha a fhaigheann tacaíocht ó Common Voice
 
 ## NEW HOME PAGE KEYS

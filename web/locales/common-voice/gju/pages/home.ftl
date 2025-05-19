@@ -82,27 +82,28 @@ read-more-about = مہارے متعلقہ صفحہ اپر ہور پڑھو
 ## NAV ITEMS
 
 answer-questions = سوالاں کا جواب دیو<small>( بہلاں آوے گو) </small>
-answer-questions-coming-soon = سوالاں کا جواب دیو<small>( بہلاں آوے گو) </small>
 review-transcriptions = تجزیہ کو بھی جائزو لیو<small> (بہلاں آوے گو</small>)
-review-transcriptions-coming-soon = تجزیہ کو بھی جائزو لیو<small> (بہلاں آوے گو)</small>
 add-questions = سوالاں کو اضافو کرو<small>(بہلاں آوے گو</small>)
-add-questions-coming-soon = سوالاں کو اضافو کرو<small>(بہلاں آوے گو</small>)
-transcribe-audio-coming-soon = آڈیو کو تجزیو کرو<small>(بہلاں آوے گو)</small>
 transcribe-audio = آڈیو کو تجزیو کرو<small>(بہلاں آوے گو</small>)
 press-and-stories = دباو تے کہانی
 community-and-languages = برادری تے زبان
 coming-soon = جھب آوے گی
+about-us = مہارا بارہ ما
+scripted-speech = سکرپٹڈ گل
+spontaneous-speech = بے ساختہ گل
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = شراکت داری، پریس تے کہانی، برادری تے زبان
+about-us-menu-item-tooltip = کامن وائس کے پچھے مقصد تے ٹیم کا بارہ ما معلومات حاصل کرو۔
+about-us-menu-item-aria-label = مہارا بارہ ما انتخاب کا بارہ فہرست
 partnerships-menu-item-tooltip = مہارا حصہ دار بنو
 press-and-stories-menu-item-tooltip = مہارا خبراں کا حصہ نا دیکھو یا مہارے بارہ ما رائے دیو
 community-and-languages-menu-item-tooltip = کامن وائس، برادری تے زباناں کا بارہ ما معلومات لیو
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اپنی مرضٰ کی فہرست کا بارہ ما
+about-us-menu-aria-label = انتخاب کی  فہرست کا بارہ ما
 partnerships-menu-item-aria-label = کامن وائس نال شراکت داری کا بارہ ما مزید معلومات لیو
 press-and-stories-menu-item-aria-label = کامن وائس کا بارہ  کے متعلق کہانی، تے خبراں تک پہچو
 community-and-languages-menu-item-aria-label = زبان تے برادری جن کو تعلق کام وائس نال ہے اس نا ڈھونڈو
@@ -130,6 +131,7 @@ spontaneous-card-content = قدرتی ، بول چال کا سیاق و سباق
 language-text-card-header = زبان کی عبارت
 language-text-card-content = ترجمہ، نکی زبان کو نمونو،  تے ہور مچ کجھ  چیزاں وسطے عوامی ڈومین اشارہ، جملا، تے عبارت بناو یا اگے چلاو.
 add-text = عبارت کو اضافو کرو
+answer = جواب
 
 ## Community section
 

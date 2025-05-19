@@ -77,28 +77,29 @@ read-more-about = ვრცლად იხილეთ გვერდი ჩ�
 
 ## NAV ITEMS
 
-answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
-answer-questions-coming-soon = კითხვებზე პასუხი <small>(მალე)</small>
-review-transcriptions = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
-review-transcriptions-coming-soon = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
-add-questions = კითხვების დამატება <small>(მალე)</small>
-add-questions-coming-soon = კითხვების დამატება <small>(მალე)</small>
-transcribe-audio-coming-soon = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
-transcribe-audio = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
+answer-questions = კითხვებზე პასუხი
+review-transcriptions = ტრანსკრიფციის შემოწმება
+add-questions = კითხვების დამატება
+transcribe-audio = ხმის ნაწერად ქცევა
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
 coming-soon = მალე
+about-us = ჩვენ შესახებ
+scripted-speech = ᲬᲔᲠᲘᲗᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
+spontaneous-speech = ᲖᲔᲞᲘᲠᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = თანამშრომლობა, პრესა და სიახლეები, საზოგადოებები და ენები
+about-us-menu-item-tooltip = იხილეთ ვრცლად, თუ რა მიზანი აქვს და ვისი ქმნილებაა Common Voice
+about-us-menu-item-aria-label = ჩვენ შესახებ ასარჩევი მენიუ
 partnerships-menu-item-tooltip = გვეთანამშრომლეთ
 press-and-stories-menu-item-tooltip = იხილეთ სვეტი ან დაწერეთ ჩვენ შესახებ
 community-and-languages-menu-item-tooltip = უკეთ გაიცანით ენები, საზოგადოებები და Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = ჩვენ შესახებ გვერდი
+about-us-menu-aria-label = ჩვენ შესახებ მენიუ
 partnerships-menu-item-aria-label = გაეცანით Common Voice-თან თანამშრომლობის გზებს
 press-and-stories-menu-item-aria-label = Common Voice-თან დაკავშირებული განცხადებები და სიახლეები პრესაში
 community-and-languages-menu-item-aria-label = გამოიკვლიეთ ენები და საზოგადოებები, რომელთაც მხარს უჭერს Common Voice
@@ -126,6 +127,7 @@ spontaneous-card-content = გაეცით პასუხი მოთხო
 language-text-card-header = ტექსტი ენისთვის
 language-text-card-content = თავადვე შეადგინეთ ან გააზიარეთ საყოველთაო საკუთრებაში არსებული წინადადებები, შეკითხვები, სათარგმნი ტექსტები, მცირე ენებისთვის განკუთვნილი ნიმუშები და სხვ.
 add-text = ტექსტის დამატება
+answer = პასუხი
 
 ## Community section
 

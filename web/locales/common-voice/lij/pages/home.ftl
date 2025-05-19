@@ -78,11 +78,8 @@ read-more-about = Lezi de ciù in sciâ nòstra pagina Informaçioin
 ## NAV ITEMS
 
 answer-questions = Replica a-e domande <small>(disponibile fito)</small>
-answer-questions-coming-soon = Replica a-e domande <small>(disponibile fito)</small>
 review-transcriptions = Verifica e trascriçioin <small>(disponibile fito)</small>
-review-transcriptions-coming-soon = Verifica e trascriçioin <small>(disponibile fito)</small>
 add-questions = Azzonzi de domande <small>(disponibile fito)</small>
-transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile fito)</small>
 transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
 press-and-stories = Stampa e stöie
 community-and-languages = Communitæ e lengue
@@ -97,7 +94,6 @@ community-and-languages-menu-item-tooltip = Screuvi lengue, communitæ e Common 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menù de opçioin d’informaçioin
 partnerships-menu-item-aria-label = Saccine de ciù in scê collaboraçioin con Common Voice
 press-and-stories-menu-item-aria-label = Ammia i communicati stampa e articoli in sce Common Voice
 community-and-languages-menu-item-aria-label = Esplöra a communitæ e e lengue supportæ da Common Voice

@@ -68,11 +68,11 @@ read-sentences-coming-soon = پڙهونٚ جملآ <small>جلديٚ آڻ وآر
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = جملآ پڙهونٚ ائيٚنٚ  سوآلآنٚ رآ جوآب ڏيو
-read-sentences-menu-item-tooltip = پنڊرو پنڊ کي ريٚڪآڊ ڪرو پنڊريٚ ٻوٚليٚ مينٚ جملآ پڙهندي
-answer-questions-menu-item-tooltip = پنڊرو پنڊ کي جوآب ڏيو پنڊريٚ ٻوٚليٚ کي وڏآڻ لآ
+read-sentences-menu-item-tooltip = پنڊرو پنڊ کي ريٚڪآڊ ڪرو پنڊريٚ ٻوليٚ مينٚ جملآ پڙهندي
+answer-questions-menu-item-tooltip = پنڊرو پنڊ کي جوآب ڏيو پنڊريٚ ٻوليٚ کي وڏآڻ لآ
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = ڳآلهآئو آپشن مينيو
-read-sentences-menu-item-aria-label = جملآ پڙهونٚ جمآ ڪئيل ڪميونٽيٚ رآ الگ الگ ٻوٚلينٚ مينٚ
+read-sentences-menu-item-aria-label = جملآ پڙهونٚ جمآ ڪئيل ڪميونٽيٚ رآ الگ الگ ٻولينٚ مينٚ
 answer-questions-menu-item-aria-label = جمآ ڪرو هَڪ نئيونٚ سوآل ڪميونٽيٚ لآ پڙهي ائيٚنٚ جوآب ڏيڻ

@@ -92,12 +92,8 @@ read-more-about = Pročitaj više na našoj stranici „Informacije”
 ## NAV ITEMS
 
 answer-questions = Odgovori na pitanja
-answer-questions-coming-soon = Odgovori na pitanja <small>(uskoro stiže)</small>
 review-transcriptions = Pregledaj transkripcije
-review-transcriptions-coming-soon = Pregledaj transkripcije <small>(uskoro stiže)</small>
 add-questions = Dodaj pitanja
-add-questions-coming-soon = Dodaj pitanja <small>(uskoro stiže)</small>
-transcribe-audio-coming-soon = Transkribiraj audio snimke <small>(uskoro stiže)</small>
 transcribe-audio = Transkribiraj audio snimke
 press-and-stories = Objave i priče
 community-and-languages = Zajednica i jezici
@@ -112,7 +108,6 @@ community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajedni�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Izbornik opcija za informacije
 partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
 press-and-stories-menu-item-aria-label = Pristupi objavama i pričama o Common Voiceu
 community-and-languages-menu-item-aria-label = Istraži zajednicu i jezike koje podržava Common Voice

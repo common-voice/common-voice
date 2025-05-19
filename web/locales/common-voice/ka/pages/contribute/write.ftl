@@ -2,7 +2,7 @@
 
 write = შედგენა
 write-instruction = დაამატეთ <icon></icon> წინადადებები საყოველთაო საკუთრებიდან
-write-page-subtitle = აქ შემოწირული წინადადებები დაემატება საჯაროდ ხელმისაწვდომ კრებულს cc-0 ლიცენზიით.
+write-page-subtitle = აქ შემოწირული წინადადებები ემატება საჯარო კრებულს cc-0 ლიცენზიით.
 sentence =
     .label = წინადადება
 sentence-input-placeholder = შეიყვანეთ წინადადება საყოველთაო საკუთრებიდან
@@ -22,7 +22,7 @@ new-sentence-rule-4 = გამართული მართლწერით
 new-sentence-rule-5 = ციფრებისა და უცხო ნიშნების გარეშე
 new-sentence-rule-6 = სხვა დამწერლობის ასოების გარეშე
 new-sentence-rule-7 = ღია წყაროს სათანადო დამოწმებით
-new-sentence-rule-8 = უმჯობესია სასაუბრო, თანამედროვე ენით (ადვილად რომ ამოიკითხონ)
+new-sentence-rule-8 = ჯობია ჩვეული და სასაუბრო ენით (ადვილად რომ ამოიკითხონ)
 login-instruction-multiple-sentences = <loginLink>შედით</loginLink> ან <loginLink>შექმენით</loginLink> ანგარიში რამდენიმე წინადადების დასამატებლად
 how-to-cite = წყარო როგორ უნდა მიეთითოს?
 how-to-cite-explanation-bold = წყაროდ გამოდგება საკუთრების უფლებისგან თავისუფალი მასალის ბმული ან ნაწარმოების სრული სახელწოდება.
@@ -92,7 +92,7 @@ sc-bulk-submit-confirm =
 bulk-upload-success-toast = წინადადებები წარმატებით აიტვირთა ერთიანად
 bulk-upload-failed-toast = ატვირთვა ვერ მოხერხდა, გთხოვთ კვლავ სცადოთ.
 bulk-submission-success-header = გმადლობთ, წინადადებების ერთიანად გადმოგზავნისთვის!
-bulk-submission-success-subheader = თქვენ ეხმარებით Common Voice-ს  წინადადებების შესაგროვებლად დღიური მიზნის მიღწევაში!
+bulk-submission-success-subheader = თქვენ დახმარებით Common Voice აღწევს წინადადებების დღიურ მიზანს!
 upload-more-btn-text = გსურთ, მეტი წინადადების ატვირთვა?
 file-invalid-type = უმართებულო ფაილი
 file-too-large = ფაილი ზედმეტად დიდია

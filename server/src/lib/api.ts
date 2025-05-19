@@ -181,11 +181,12 @@ export default class API {
   }
 
   getRandomSentences = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-    } = request
+    const { client_id } = request?.session?.user || {}
+
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
     const { locale } = request.params
     const localeId = await getLocaleId(locale)
 
@@ -261,10 +262,11 @@ export default class API {
   }
 
   createLanguageRequest = async (request: Request, response: Response) => {
-    await this.model.db.createLanguageRequest(
-      request.body.language,
-      request.session.user.client_id
-    )
+    const { client_id } = request?.session?.user || {}
+    if (!client_id) {
+      response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    await this.model.db.createLanguageRequest(request.body.language, client_id)
     response.json({})
   }
 
@@ -605,18 +607,13 @@ export default class API {
     response.json(links)
   }
 
-  getContributionActivity = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params: { locale },
-      query,
-    }: Request,
-    response: Response
-  ) => {
+  getContributionActivity = async (req: Request, response: Response) => {
+    const { locale } = req.params
+    const { client_id } = req?.session?.user
+    const { from } = req.query
+
     response.json(
-      await (query.from == 'you'
+      await (from == 'you'
         ? this.model.db.getContributionStats(locale, client_id)
         : this.model.getContributionStats(locale))
     )
@@ -632,15 +629,12 @@ export default class API {
     Basket.sync(request.session.user.client_id).catch(e => console.error(e))
   }
 
-  getGoals = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params: { locale },
-    }: Request,
-    response: Response
-  ) => {
+  getGoals = async (req: Request, response: Response) => {
+    const { client_id } = req?.session?.user || {}
+    if (!client_id) {
+      response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    const { locale } = req.params
     response.json({ globalGoals: await getGoals(client_id, locale) })
   }
 
@@ -664,18 +658,14 @@ export default class API {
     response.json({})
   }
 
-  seenAwards = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      query,
-    }: Request,
-    response: Response
-  ) => {
+  seenAwards = async (req: Request, response: Response) => {
+    const { client_id } = req?.session?.user || {}
+    if (!client_id) {
+      response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     await Awards.seen(
       client_id,
-      Object.prototype.hasOwnProperty.call(query, 'notification')
+      Object.prototype.hasOwnProperty.call(req.query, 'notification')
         ? 'notification'
         : 'award'
     )
@@ -721,18 +711,13 @@ export default class API {
     response.json(new Date())
   }
 
-  getAccents = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params,
-    }: Request,
-    response: Response
-  ) => {
-    response.json(
-      await this.model.db.getAccents(client_id, params?.locale || null)
-    )
+  getAccents = async (req: Request, response: Response) => {
+    const { client_id } = req?.session?.user || {}
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    const { locale } = req.params
+    response.json(await this.model.db.getAccents(client_id, locale || null))
   }
 
   getVariants = async ({ params }: Request, response: Response) => {

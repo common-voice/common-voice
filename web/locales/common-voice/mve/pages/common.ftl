@@ -115,7 +115,7 @@ hi = ھندِي
 hil = ھِلِگاينون
 hno = شمالِي ھندڪو
 hr = ڪروشين
-hsb = سوربيان، اوپرِِي
+hsb = سوربيان، اوپرِي
 ht = ھيٽين
 hu = ھنگريائي
 hy-AM = آرمنيائي
@@ -338,7 +338,7 @@ terms = شرطون
 cookies = ڪوڪيز
 faq = ايف اَي قيو
 documentation = دستاويزي (ڪاغزِي)
-content-license-text = مواد ھيٺِي پڙيو ھيَ<licenseLink>ڪريٽو ڪامن لائسنس</licenseLink>
+content-license-text = مواد ھيٺِي پڙيو ھيَ <licenseLink>  ڪامن لائسنس ٺاڻ </licenseLink>
 share-title = مونرِي برادري ۾ شامل ھو
 share-text = مشينون نيَ ݾکَاڻ ۾ مدد ڪرو ڪہ انسون ڪيون ٻوليَ ھيَ، آپرِي آواز ڏيو تي{ $link }
 link-copied = لِنڪ ڪوپِي ھوئو رو
@@ -361,9 +361,9 @@ not-available-abbreviation = ڪونِي موجود ھيَ
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
-donate-banner-cta = <mark>مھونيَ ضرورت ھيَ</mark> <br/><mark>ٿونرِي مدد!
+donate-banner-cta = <mark> مھونيَ ٿونرِي مدد رِي <mark> ضرورت ھيَ </mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = مواد ريَ سيٽ ريَ ميزبونِي ڪرڻ ھان 100 کان وڌيڪ ٻوليون ريَ برادريون ھارو پليٽ فارم نيَ سُٺو ٺاڻ تيَ ھر سال لڳ ڀڳ ڏيھ لک ڊالر خرچ آتا ھيَ جڪو مھوريَ ڪوم تيَ ڀروسو ڪريَ ھيَ۔<strong>جيَ ٿيَ آسان رسائيَ ھان ٺيڪ ڊيٽا رِي قدر ڪرو ھو۔ آج ھيچندو ڏيو!</strong>
+donate-banner-cta-explanation = مواد ريَ سيٽ رِي ميزبونِي ڪرڻ ھان 100 ھون وڌيڪ ٻوليون ريَ برادريون ھارو پليٽ فارم نيَ سُٺو ٺاڻ تيَ ھر سال لڳ ڀڳ ڏيھ لک ڊالر خرچ آئيَ ھيَ جڪو مھوريَ ڪوم تيَ ڀروسو ڪريَ ھيَ۔ <strong> جيَ ٿيَ سولِي رسائيَ ھان ٺيڪ ڊيٽا رِي قدر ڪرو ھو تو آج ھِي ڏيو! </strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>ھارو سي وِي نيَ استعمال</mark><br/><mark>ٿونرِي تخقيق؟</mark>
 languages-donate-banner-cta-explanation = ڪامن وائس نيَ چنديَ ھان گرانٽس ھون مدد ھوئيَ ھيَ! مھونيَ تعليمي ماھرون، سماجِي تنظيمون ھان ڪاروبارِي تحقيق ڪرڻ آݪو ھون تعاون ڪرڻ پسند ھيَ۔ ڪامن وائس ھارو مفت ھيَ، پڻ گرانٽ تجويزون وسيليَ پليٽ فارم ھان ميزباني ريَ خرچون ۾ حصو ليڻ واقعي مددگار ھيَ۔

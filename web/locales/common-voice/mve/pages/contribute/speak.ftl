@@ -1,12 +1,12 @@
 speak = ٻولڻ
 speak-now = ھميَ ٻول
-speak-subtitle = آپرِِي آواز ڏيو
+speak-subtitle = آپرِي آواز ڏيو
 record-cta = ريڪارڍِنگ شروع ڪرو
 record-platform-not-supported = معاف ڪريا، ٿونرو پليٽ فارم ھيڻو ڪونھي ھليَ
 record-platform-not-supported-desktop = ڊيسڪ ٽوپ ڍيوائسس تيَ ٿيَ ڍائون لوڊ ڪريَ حصو ليَ ݾگو ھو
 record-platform-not-supported-ios-non-safari = iOS تيَ ريڪارڍِنگ نيَ جارِي راکڻ ھارو مھربوني ڪري سڦارِي ھون جارِي راکو
-record-must-allow-microphone = ٿونيَ ماڊيڪروفون تائين رسائِي رِي اجازت ڏيڻ کپيَ
-record-no-mic-found = ڪو مائيڪرو فون موجود ڪونھي۔
+record-must-allow-microphone = ٿونيَ مائيڪروفون تائين رسائِي رِي اجازت ڏيڻ کپيَ
+record-no-mic-found = ڪو مائيڪروفون موجود ڪونھي۔
 record-error-too-short = رايڪارڍِنگ جام ننڍي ھتِي
 record-error-too-long = ريڪارڊنگ جام موٽِي ھتِي
 record-error-too-quiet = ريڪارڍِنگ جام آھستيَ ھتِي

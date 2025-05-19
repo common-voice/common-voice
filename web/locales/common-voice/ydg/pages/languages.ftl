@@ -5,6 +5,7 @@ language-section-launched = شروع کڑغو ݰوئے
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = آخری اپڈیٹ { $lastUpdatedTimeStamp }
 languages-show-more = دیبارو اوژر
+languages-show-less = کیستہ اوژر
 language-meter-in-progress = پیش رفت
 language-total-progress = تمام
 language-search-input =

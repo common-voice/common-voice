@@ -98,7 +98,6 @@ community-and-languages-menu-item-tooltip = Відкрийте для себе �
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Про меню параметрів
 partnerships-menu-item-aria-label = Дізнайтеся про партнерство з Common Voice
 press-and-stories-menu-item-aria-label = Доступ до пресрелізів та історій, пов’язаних з Common Voice
 community-and-languages-menu-item-aria-label = Дізнайтеся про спільноту та мови, які підтримує Common Voice

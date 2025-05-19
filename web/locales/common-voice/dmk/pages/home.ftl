@@ -91,11 +91,8 @@ read-more-about = امݳ وَرَقَس / پݵجَس مزݵد مُنݳ
 ## NAV ITEMS
 
 answer-questions = جݸݳب سݸݳلݳ <small>(ڞَگݳ آݣݺ)</small>
-answer-questions-coming-soon = جݸݳب سݸݳلݳ <small>(ڞَگݳ آݣݺ)</small>
 review-transcriptions = ٹرݳنسکرِپشنز دݸبݳرہ دݵکھِنݳ / جݳئزہ لݵنݳ <small>(ڞَگݳ آݣݺ)</small>
-review-transcriptions-coming-soon = ٹرݳنسکرِپشنز دݸبݳرہ دݵکھِنݳ / جݳئزہ لݵنݳ <small>(ڞَگݳ آݣݺ)</small>
 add-questions = سݸݳلݸݣ خَرِشݳرݳ <small>(ڞَگݳ آݣݺ)</small>
-transcribe-audio-coming-soon = پݸرجِنݳ چھݸت گِرمِنݳنݳشݸ <small>(ڞَگݳ آݣݺ)</small>
 transcribe-audio = پݸرجِنݳ چھݸت گِرمِنݳنݳشݸ <small>(ڞَگݳ آݣݺ)</small>
 press-and-stories = مݵڈِݵݳ نݸ کہݳنݵݣ
 community-and-languages = کمݵݸنٹݵ نݸ بݳݽݸݣ
@@ -110,7 +107,6 @@ community-and-languages-menu-item-tooltip = بݳݽݸݣ درݵݳفت اِرݳ ن�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشنز مݵنݸئ بݳرہ نݳ
 partnerships-menu-item-aria-label = شرݳکت دݳرݵݣݺ بݳرہ نݳ چھِچݳ ݳمَن وݳئسَس کݸٹ
 press-and-stories-menu-item-aria-label = کݳمَن وݳئسݵئ متعلِق پرݵس رݵلݵز نݸ کہݳنݵڎ دِݽقلتُݸݳ.
 community-and-languages-menu-item-aria-label = کݳمَن وݳئسن معݳونت اِرِن بݳݽݸݣ نݸ کمݵݸٹݵ درݵݳفت اِرݳ

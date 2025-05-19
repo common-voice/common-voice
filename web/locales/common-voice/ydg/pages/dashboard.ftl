@@ -35,6 +35,28 @@ pro-difficulty = حامی
 lose-goal-progress-warning = ڤے خوئے ہدف کہ بدل کڑیت، تو ہورغ گیب ام ای۔
 want-to-continue = تو جاری اوستایا کوسیتیآ؟
 finish-editing = اول ڤے ایڈیٹنگ ناسے نینآ؟
+lose-changes-warning = لیغدا ݰویان مطلب مو کہ تو’ ڤے بادل ژیغف اوستیا چے کوسیتے
+build-custom-goal = نے خائن یو ہدف واست
+set-a-goal = یو ہدف واست
+cant-decide = فیصلو کڑا چے کرکینیتیآ؟
+how-many-per-day = جاہند غیݰے دے یو میش چر آوازے؟
+how-many-a-week = جاہند غیݰے دے یو ہفتو چر آوازے؟
+which-goal-type = تو گپ ژیا کوسیتیآ، غولیتا کوسیتیآ یا ڤے ابیلیف؟
+n-clips-pluralized =
+    { $count ->
+        [one] { $count } کوګ آواز
+       *[other] { $count } کوګ آوازے
+    }
+help-share-goal = لے ماخ دیر آوازے دے کیستا مدد کن۔ ڤے خوئے ہدف ݰیکور
+confirm-goal = ڤے ہدف تصدیق کن
+goal-interval-weekly = ہفتو وار
+share-goal-type-speak = گپ ژیا
+share-goal-type-listen = غولیتا
+share-goal-type-both = گپ ژیا اڤن غولیتا
+# LINK will be replaced with the current URL
+goal-share-text = من نے کامن وائسن آواز پے مہربانی کڑا دیر ہدف اوستائیم۔ اصل آدمے چیمی گپ دہات رے ڤے مشین پے انخسڤدا دیر لے من جفت اوئے اڤن مدف کن { $link }
+weekly-goal-created = تو ہفتو وار ہدف ساؤز ݰوئے
+daily-goal-created = تو ہر میشن ہدف ساؤز ݰوئے
 
 ## Goals
 

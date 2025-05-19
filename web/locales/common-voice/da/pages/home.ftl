@@ -75,9 +75,16 @@ read-more-about = Læs mere på vores Om-side
 
 ## NAV ITEMS
 
+answer-questions = Besvar spørgsmål
+review-transcriptions = Gennemgå transskriptioner
+add-questions = Tilføj Spørgsmål
+transcribe-audio = Transskriber lyd
+coming-soon = Kommer snart
+about-us = Om os
 
 ## MENU ITEMS TOOLTIPS
 
+press-and-stories-menu-item-tooltip = Besøg vores blog eller skriv om os
 
 ## MENU ITEM ARIA LABELS
 
@@ -90,9 +97,19 @@ read-more-about = Læs mere på vores Om-side
 
 ## Action items section
 
+add-text = Tilføj tekst
 
 ## Community section
 
+find-us-on-matrix = Find os på Matrix
+# label for button
+find-us-on-matrix-action = Find os på Matrix
+ask-mozilla-share = Bed Mozilla om at dele dine begivenheder
+# label for button
+ask-mozilla-share-action = Del din begivenhed
+contribute-github = Bidrag på GitHub
+# label for button
+contribute-github-action = Bidrag på GitHub
 
 ## Featured section
 
@@ -102,6 +119,8 @@ read-more-about = Læs mere på vores Om-side
 
 ## Get involved section
 
+validate-readings-link = Valider oplæsninger
+answer-questions-link = Besvar spørgsmål
 
 ## Partner section
 

@@ -53,7 +53,7 @@ healthcare = سهت ريٚ سنٚڀآل
 # Sentence Domain dropdown option
 history_law_government = تآريٚک، ڪآنوٚن ائيٚنٚ هُڪومت
 # Sentence Domain dropdown option
-language_fundamentals = بُنييآديٚ ٻوٚليٚ (انگ، اکر، پيسآ)
+language_fundamentals = بُنييآديٚ ٻوليٚ (انگ، اکر، پيسآ)
 # Sentence Domain dropdown option
 media_entertainment = ميٚڊيآ ائيٚنٚ مزآئيآ
 # Sentence Domain dropdown option
@@ -64,7 +64,7 @@ news_current_affairs = کبرونٚ ائيٚنٚ موجوده هآل
 technology_robotics = ٽيڪنولوجيٚ ائيٚنٚ روبوٽيٚڪ
 sentence-variant-select-label = ميآريٚ جملآ
 sentence-variant-select-placeholder = ڇُنڊو ميآريٚ آپشن
-sentence-variant-select-multiple-variants = آم ٻوٚليٚ ائيٚنٚ مکتليٚڦ ميآر
+sentence-variant-select-multiple-variants = آم ٻوليٚ ائيٚنٚ مکتليٚڦ ميآر
 
 ## BULK SUBMISSION
 
@@ -88,7 +88,7 @@ sc-bulk-submit-confirm = آئونٚ ڪبوٚل ڪرآنٚ دو تا ايٚ جم�
 bulk-upload-success-toast = ڪجه جملا ڊپلوڊ ڪيآ وهُڙآ اهي
 bulk-upload-failed-toast = ڊئلوڊ ڪون ٿيآ، وري ڪوشيٚش ڪرو۔
 bulk-submission-success-header = مهربآنيٚ ڪري شرڪت ڪرڻ وآري ريٚ ڪجه جملا جمآ ڪيآندي
-bulk-submission-success-subheader = اڀيٚنٚ ڪومن وآئيٚس کي اسآنٚ ريٚ روزآني جملي ري مڪسدن تآئيٚنٚ پُجڻ مينٚ مدت ڪري رهيآ اهونٚ!
+bulk-submission-success-subheader = اڀيٚنٚ ڪومن وآئيٚس کي اسآنٚ ريٚ روزآني جملي ري مڪسدآنٚ تآئيٚنٚ پُجڻ مينٚ مدت ڪري رهيآ اهونٚ!
 upload-more-btn-text = آپلوڊ ڪرو وڌيٚڪ جملا
 file-invalid-type = گلت ڦآئيٚل
 file-too-large = ڦآئيٚل جآم وڏيٚ اهي
@@ -149,10 +149,10 @@ add-sentences = جملآ شآمل ڪرو
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = جملآ جآنچو ائيٚنٚ شآمل ڪرو۔ سوآل شآمل ڪرو، آڊيٚيو کي بيآن ڪرو۔
-add-sentences-menu-item-tooltip = پنڊريٚ ٻوٚليٚ رآ جملآ شآمل ڪرو
-review-sentences-menu-item-tooltip = پنڊريٚ ٻوٚليٚ مينٚ جملآ جآنچو
-add-questions-menu-item-tooltip = پنڊريٚ ٻوٚليٚ مينٚ سوآل شآمل ڪرو
-transcribe-audio-menu-item-tooltip = آڊيٚيو بيآن ڪرو پنڊريٚ ٻوٚليٚ مينٚ
+add-sentences-menu-item-tooltip = پنڊريٚ ٻوليٚ رآ جملآ شآمل ڪرو
+review-sentences-menu-item-tooltip = پنڊريٚ ٻوليٚ مينٚ جملآ جآنچو
+add-questions-menu-item-tooltip = پنڊريٚ ٻوليٚ مينٚ سوآل شآمل ڪرو
+transcribe-audio-menu-item-tooltip = آڊيٚيو بيآن ڪرو پنڊريٚ ٻوليٚ مينٚ
 
 ## MENU ITEM ARIA LABELS
 

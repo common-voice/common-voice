@@ -75,11 +75,8 @@ read-more-about = 到咱的「關於」頁面了解閣較濟資訊
 ## NAV ITEMS
 
 answer-questions = 回答問題 <small>(咧欲推出)</small>
-answer-questions-coming-soon = 回答問題 <small>(咧欲推出)</small>
 review-transcriptions = 審核轉錄 <small>咧欲推出</small>
-review-transcriptions-coming-soon = 審核轉錄 <small>這欲推出</small>
 add-questions = 新增問題 <small>(咧欲推出)</small>
-transcribe-audio-coming-soon = 轉錄語音 <small>(咧欲推出)</small>
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體佮故事
 community-and-languages = 社群佮語言
@@ -94,7 +91,6 @@ community-and-languages-menu-item-tooltip = 探索語言、社群佮 Common Voic
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = 關於選項選單
 partnerships-menu-item-aria-label = 了解如何佮 Common Voic變成夥伴
 press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿佮故事
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言

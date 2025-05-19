@@ -76,12 +76,8 @@ read-more-about = موں باٞراٞں پاٞݪ دی پا پراٞ۔
 ## NAV ITEMS
 
 answer-questions = سواٞلاٞں جواٞب دہ<small> (سواٞلونہ شردہ اخکارہ ہوئ) </small>
-answer-questions-coming-soon = سواٞلاٞں جواٞب دہ<small> (سواٞلونہ شردہ اخکارہ ہوئ) </small>
 review-transcriptions = چُنڑیلاں جائیزہ گِھن <small> (چُنڑیل شردہ اخکارہ ہوئ) </small>
-review-transcriptions-coming-soon = چُنڑیلاں جائیزہ گِھن <small> (چُنڑیل شردہ اخکارہ ہوئ) </small>
 add-questions = سواٞل مِلاٞ <small> (سواٞل شردہ اخکارہ ہوئ) </small>
-add-questions-coming-soon = سواٞل مِلاٞ <small> (سواٞل شردہ اخکارہ ہوئ) </small>
-transcribe-audio-coming-soon = آڈیو چُنڑیل کٞہ گِراٞ <small> (آڈیو شردہ اخکارہ ہوئ) </small>
 transcribe-audio = آڈیو چُنڑیل کٞہ گِراٞ
 press-and-stories = چاپ تے قصاٞ
 community-and-languages = کمیونٹی تے جِب
@@ -96,7 +92,6 @@ community-and-languages-menu-item-tooltip = جِبونہ تے کمیونٹی ت�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اختیاراتیں لیس باٞراٞ مئ
 partnerships-menu-item-aria-label = کامن وائیس سٞہ شراکِتاٞں باٞراٞ مئ اِزدہ کٞر
 press-and-stories-menu-item-aria-label = کان وائیساٞں باٞراٞ مئ قصاٞ تے چاپ داٞگاٞل کٞہ پھٞݭ
 community-and-languages-menu-item-aria-label = کامن وائس تعاون کٞریل جِبونہ تے کمیونٹی پاٞلٹ

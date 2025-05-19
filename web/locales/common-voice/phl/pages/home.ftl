@@ -80,11 +80,8 @@ read-more-about = اسی متعلقہ صفحہ بے دوئی مزید منوئی
 ## NAV ITEMS
 
 answer-questions = سوال جویبی <small>( لپ یھین)</small>
-answer-questions-coming-soon = سوال جویبی <small>( لپ یھین)</small>
 review-transcriptions = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
-review-transcriptions-coming-soon = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
 add-questions = سویلی جمع تھئنی  <small>(لپ یھین )</small>
-transcribe-audio-coming-soon = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 transcribe-audio = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 press-and-stories = پریس او شلوکہ
 community-and-languages = کمیونٹی او زبینی
@@ -99,7 +96,6 @@ community-and-languages-menu-item-tooltip = زبینی او کمیونٹیز ا�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = مینوئی بارئی رائے
 partnerships-menu-item-aria-label = کامن وائس سنگی شراکتی بارئی جھونوئی۔
 press-and-stories-menu-item-aria-label = کامن وائسی بارئی پریس ریلیز اور قصیم  تھے رسائی حاصل تھوئی۔
 community-and-languages-menu-item-aria-label = کامن وائسی ذریعہ کی تعاون یافتہ کمیونٹی اور زبینی دریافت تھوئی۔

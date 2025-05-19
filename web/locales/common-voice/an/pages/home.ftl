@@ -76,12 +76,8 @@ read-more-about = Descubre mas en a nuestra pachina Sobre Common Voice
 ## NAV ITEMS
 
 answer-questions = Reponder preguntas
-answer-questions-coming-soon = Reponder preguntas <small>(disponible luego)</small>
 review-transcriptions = Revisar las transcripcions
-review-transcriptions-coming-soon = Revisar las transcripcions  <small>(disponible luego)</small>
 add-questions = Anyadir preguntas <small>(disponible luego)</small>
-add-questions-coming-soon = Anyadir preguntas <small>(disponible luego)</small>
-transcribe-audio-coming-soon = Transcribir audio <small>(disponible luego)</small>
 transcribe-audio = Transcribir audio
 press-and-stories = Prensa y articlos
 community-and-languages = Comunidat y idiomas
@@ -96,7 +92,6 @@ community-and-languages-menu-item-tooltip = Descubre idiomas y comunidaz y Commo
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menú d'opcion "Alredol de"
 partnerships-menu-item-aria-label = Saber mas sobre colaboracions con Common Voice
 press-and-stories-menu-item-aria-label = Accede a las notas de prensa y articlos relacionaus con Common Voice
 community-and-languages-menu-item-aria-label = Descubre la comunidat y los idiomas soportaus per Common Voice

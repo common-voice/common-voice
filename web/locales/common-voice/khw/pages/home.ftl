@@ -81,12 +81,8 @@ read-more-about = اسپہ متعلقہ صفحہ بی خور دی راوے
 ## NAV ITEMS
 
 answer-questions = سوالان جواب دیت<small> (شاو گویان)</small>
-answer-questions-coming-soon = سوالان جواب دیت<small> (شاؤ گویان)</small>
 review-transcriptions = نیویشیروان سہی کو <small> (شاو گویان)</small>
-review-transcriptions-coming-soon = نویشیروان وا لوڑے <small> (شاؤ گویان)</small>
 add-questions = سوال شامل کو <small> (شاو گویان)</small>
-add-questions-coming-soon = سوال شامل کو <small> (شاو گویان)</small>
-transcribe-audio-coming-soon = آوازو نویشیکا غیراوے<small> (شاو گویان)</small>
 transcribe-audio = ہوازو نیویشیکا غیراوے<small> (شاو گویان)</small>
 press-and-stories = اخبار وا مضمون
 community-and-languages = کمیونیٹی وا وار
@@ -101,7 +97,6 @@ community-and-languages-menu-item-tooltip = کمیونیٹییان اوچے وا
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اختیاراتو لیسٹو بارا
 partnerships-menu-item-aria-label = کامن وائسو سوم شراکت دار بیکو بارا ݯھیݯھے
 press-and-stories-menu-item-aria-label = کامن وائسو بارا خبران وا مضمونان ژاغا بوغے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران  سوم کی مدد کویان تیتان پتہ کو

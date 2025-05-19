@@ -7,3 +7,4 @@ gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
 file_too_large = Valittu tiedosto on liian suuri
 avatar-uploaded = Profiilikuva lähetetty
 max-file-size = enintään { $kb } kt
+remove-avatar = Poista profiilikuva

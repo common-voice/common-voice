@@ -3,6 +3,7 @@ guidelines-header = حصو لین کی رہنمائی
 guidelines-header-subtitle = اس گل نا سمجھوں جے کامن وائس ڈیٹا سیٹ اپر وازاں کا حصہ تے جملاں کی توثیق وسطے کس طرحیا کردار ادا کیو جا سکے
 voice-collection = وازاں کو مجموعو
 sentence-collection = فقراں نا جمع کرنو
+question-collection = سوالاں کو اکٹھ
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,32 @@ domain-explanation = ڈومین جملے کا  موضوع تے مراد ہے۔ �
 
 ## Question collection ids
 
+adding-questions = سوالاں کو اضافو
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = کیہڑی چیز ہچھا سوال بناوے
+what-makes-a-good-question-explanation = عوامی شرکت کا ڈیٹا سیٹس وسطے ایک ہچھو سوال یوہ ہونو چاہئے:
+what-makes-a-good-question-explanation-criteria-1 = سمجھن تے جواب دین وسطے پر سکون رہیو۔
+what-makes-a-good-question-explanation-criteria-2 = عام طور اپر متعلقہ ہووے
+what-makes-a-good-question-explanation-criteria-3 = نقصان دہ یا توہین آمیز زبان کو استعمال نہ کریو، نہ ہی اس کی گزارش کریو۔
+what-makes-a-good-question-tip = تم مختلف سیاق و سباق تے شعباں کو احاطو کرن اپر بھی غور کرنو پسند کرو گا.
+easy-to-understand = سمجھن ما آسان
+easy-to-understand-explanation = ایسا سادہ سوال چنو  جیہڑا کسی بھی ثقافت یا سیاق و سباق تے ہٹ کے آسانی نال سمجھ  آئیں۔
+spelling-and-pronunciation = ہجا  تے رموز اوقاف
+spelling-and-pronunciation-explanation = صحیح ہجا تے قواعد کو استعمال کرو۔
+length = لمبائی
+length-explanation = سوال کو جواب صرف چند جملاں ما دینو چاہئے۔
+dont-add-subheader = نہ اضافو کرو
+culturally-specific-questions = ایسا سوال جیہڑا ثقافت نال متعلقہ ہوویں
+culturally-specific-questions-explanation = ویہ سوالات جیہڑا ثقافتی طور اپر مچ خاص ہوویں، یا جیہڑا جواب دین آلا کا بارہ ما مچ  مفروضا بناویں۔
+length-avoid-explanation = ویہ سوالات جیہڑا کا جواب دین ما کسے نا  15 سیکنڈ (زیادہ تے زیادہ کلپ کی لمبائی) ما مشکل پیش آوے گی۔
+process-steps = طریقہ کار/ مرحلہ
+process-steps-explanation = ویہ سوال جن وسطے کئی مرحلہ یا طریقہ بنان کی ضرورت ہووے ان  اقدامات کی فہرست بنان صارف نا ایک جواب دہرانے کی ترغیب دیئے بجائے اس کے کہ وہ ایک زیادہ قدرتی  طور اپر جواب دیے۔
+offensive-content-sensitive-information = توہین آمیز مواد یا حساس معلومات
+offensive-content-sensitive-information-explanation-explanation-1 = ویہ سوال جیہڑا  ذاتی طور اپر شناختی معلومات کی درخواست کر سکیں
+offensive-content-sensitive-information-explanation-explanation-2 = ویہ سوال جیہڑا نفرت انگیز گفتگو یا دیگر متعصبانہ یا توہین آمیز جذبات نا ظاہر کریں۔
+offensive-content-sensitive-information-explanation-explanation-3 = ویہ سوال جیہڑا کسی نا حساس، ممکنہ طور اپر متحرک ردعمل شیئر کرنے پر مجبور کر سکیں
+example-questions-subheader = سوالاں کی مثال
+example-questions-explanation-1 = تم<examplePromptsLink> 120 اس شیٹ ما نمونہ کا طور اپر تلاش کر سکو</examplePromptsLink>
+example-questions-explanation-2 = تم کدے سوال کو ایک حصو جمع کرنو چاہو تے <githubLink> یا گٹ ھب</githubLink> اپر جمع کر سکو یا فر اپنی فہرست نا اس پتہ اپر ای میل کر سکو،<emailFragment>commonvoice@mozilla.com</emailFragment>

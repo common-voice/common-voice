@@ -18,3 +18,6 @@ contribute = ⴰⵔⴳ
 
 en = ⵜⴰⵏⴳⵍⵉⵣⵜ
 fr = ⵜⴰⴼⵕⴰⵏⵚⵉⵚⵜ
+
+## Language search component
+

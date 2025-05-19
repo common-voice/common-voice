@@ -85,12 +85,8 @@ read-more-about = Lenn hiroc’h war ar bajenn A-zivout
 ## NAV ITEMS
 
 answer-questions = Respont da c'houlennoù <small>(a-raok pell)</small>
-answer-questions-coming-soon = Respont da c'houlennoù <small>(a-raok pell)</small>
 review-transcriptions = Adwelet treuzskrivadurioù <small>(a-raok pell)</small>
-review-transcriptions-coming-soon = Adwelet treuzskrivadurioù <small>(a-raok pell)</small>
 add-questions = Ouzhpennañ goulennoù <small>(a-raok pell)</small>
-add-questions-coming-soon = Ouzhpennañ goulennoù <small>(a-raok pell)</small>
-transcribe-audio-coming-soon = Treuzskrivañ enrolladennoù <small>(a-raok pell)</small>
 transcribe-audio = Treuzskrivañ enrolladennoù <small>(a-raok pell)</small>
 press-and-stories = Kazetennoù ha pennadoù
 community-and-languages = Kumuniezhioù ha yezhoù
@@ -105,7 +101,6 @@ community-and-languages-menu-item-tooltip = Dizoloit ar yezhoù, ar c'humuniezhi
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Dibarzhioù al lañser A-zivout
 partnerships-menu-item-aria-label = Gouzout hiroc'h diwar-benn ar c'heveliñ war Common voice
 press-and-stories-menu-item-aria-label = Gwelet an embannoù kelaouiñ liammet ouzh Common voice
 community-and-languages-menu-item-aria-label = Dizoloit an holl yezhoù ha kumuniezhioù skoret gant Common voice

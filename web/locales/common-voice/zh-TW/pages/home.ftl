@@ -73,12 +73,8 @@ read-more-about = 到我們的「關於」頁面了解更多資訊
 ## NAV ITEMS
 
 answer-questions = 回答問題 <small>(近期推出)</small>
-answer-questions-coming-soon = 回答問題 <small>即將推出</small>
 review-transcriptions = 審核轉錄 <small>即將推出</small>
-review-transcriptions-coming-soon = 審核轉錄 <small>即將推出</small>
 add-questions = 新增問題 <small>(近期推出)</small>
-add-questions-coming-soon = 新增問題 <small>(近期推出)</small>
-transcribe-audio-coming-soon = 轉錄錄音 <small>即將推出</small>
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體與故事
 community-and-languages = 社群與語言
@@ -93,7 +89,6 @@ community-and-languages-menu-item-tooltip = 探索語言、社群以及 Common V
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = 關於選項選單
 partnerships-menu-item-aria-label = 了解如何與 Common Voice 成為合作夥伴
 press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿與故事
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言

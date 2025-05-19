@@ -11,8 +11,6 @@ platform-language-tooltip-text = Modifie uniquement le texte du site web.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Vous contribuez au jeu de données en <bold>{ $language }</bold>
 contribution-picker-tooltip-text = Modifie le jeu de données vocales auquel vous contribuez
-# Label for button on contribution switcher
-change = Modifier
 coming-soon = Bientôt de nouvelles langues
 media-recorder-api-not-supported = L’API MediaRecorder n’est pas prise en charge par votre navigateur.
 # Toast message that is displayed when an item is skipped
@@ -60,3 +58,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turc
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Rechercher une langue…
+language-search-aria-label = Rechercher une langue
+language-search-label = Changer la langue de contribution au jeu de données uniquement
+language-search-no-results = Aucune langue trouvée

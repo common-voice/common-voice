@@ -76,27 +76,28 @@ read-more-about = Weitere Informationen über Common Voice
 ## NAV ITEMS
 
 answer-questions = Fragen beantworten <small>(kommt in Kürze)</small>
-answer-questions-coming-soon = Fragen beantworten <small>(kommt in Kürze)</small>
 review-transcriptions = Transkripte überprüfen <small>(kommt in Kürze)</small>
-review-transcriptions-coming-soon = Transkripte überprüfen <small>(kommt in Kürze)</small>
 add-questions = Fragen hinzufügen <small>(kommt in Kürze)</small>
-add-questions-coming-soon = Fragen hinzufügen <small>(kommt in Kürze)</small>
-transcribe-audio-coming-soon = Audio transkribieren <small>(kommt in Kürze)</small>
 transcribe-audio = Audio transkribieren <small>(kommt in Kürze)</small>
 press-and-stories = Presse und Geschichten
 community-and-languages = Gemeinschaft und Sprachen
 coming-soon = Erscheint in Kürze
+about-us = Über uns
+scripted-speech = VORBEREITETE REDE
+spontaneous-speech = SPONTANE REDE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerschaften, Presse und Geschichten, Gemeinschaft und Sprachen
+about-us-menu-item-tooltip = Erfahren Sie mehr über die Mission und das Team hinter Common Voice.
+about-us-menu-item-aria-label = Optionsmenü „Über uns“
 partnerships-menu-item-tooltip = Werden Sie Partner
 press-and-stories-menu-item-tooltip = Besuchen Sie unser Blog oder schreiben Sie über uns
 community-and-languages-menu-item-tooltip = Entdecken Sie Sprachen, Gemeinschaften und Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Optionsmenü „Über“
+about-us-menu-aria-label = Optionsmenü „Über“
 partnerships-menu-item-aria-label = Erfahren Sie mehr über Partnerschaften mit Common Voice
 press-and-stories-menu-item-aria-label = Greifen Sie auf Veröffentlichungen und Geschichten zu Common Voice zu
 community-and-languages-menu-item-aria-label = Entdecken Sie die Gemeinschaft und die von Common Voice unterstützten Sprachen
@@ -124,6 +125,7 @@ spontaneous-card-content = Beantworten Sie Aufforderungen, um Datensätze für o
 language-text-card-header = Sprachlicher Text
 language-text-card-content = Erstellen oder teilen Sie gemeinfreie Aufforderungen, Sätze und Text für die Übersetzung, kleine Sprachmodelle und mehr.
 add-text = Text hinzufügen
+answer = Antworten
 
 ## Community section
 

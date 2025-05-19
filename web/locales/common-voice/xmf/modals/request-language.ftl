@@ -1,4 +1,10 @@
 ## Request Language Modal
 
+request-language-title = ნინაშ მოთხუალა
 request-language-form-language =
-    .label = მოტტ
+    .label = ნინა
+request-language-success-title = ნინაშ მოთხუალაქ ქიჯღონინ ხეუნჩალუო, მარდი.
+request-language-success-content = ჩქი მალას მეგონჭირინუანთ ინფორმაციას, მუჭო ოკო გეუძინათ დო ამუშუათ Common Voice თქვან ნინაშა.
+select-language = გეგშაგორით ნინა...
+other-language = შხვა ნინა
+yes-receive-emails = ქო, ქუმომჯღონით ჭარილეფი ელფოსტაშა. მოკო ირიათო მიჩქუდას ახალ ამბეეფი პროექტი Common Voice-იშ გურშენი.

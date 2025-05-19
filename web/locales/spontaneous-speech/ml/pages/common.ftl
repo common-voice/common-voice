@@ -7,3 +7,6 @@ platform-language-tooltip-text = വെബിടത്തിലുള്ള എ�
 
 ## Not Found Page
 
+
+## Language search component
+

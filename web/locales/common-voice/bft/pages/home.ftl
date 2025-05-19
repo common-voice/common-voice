@@ -76,11 +76,8 @@ read-more-about = نٸی صفحیکھہ ینگسہ زیرین شوقس
 ## NAV ITEMS
 
 answer-questions = سوال کنی جواب لزوق
-answer-questions-coming-soon = سوال کن لا تم لزوق بیوس
 review-transcriptions = ٹرانسکرپشن کن لا ہلتوس،
-review-transcriptions-coming-soon = ٹرانسکرپشن کن لا ہلتوس، (شوخمو اونگین یود)
 add-questions = سوال کن ہرژوق، سوال کن شیزدے بیوس
-transcribe-audio-coming-soon = سکت کن ربیس (شوخمو اونگین یود)
 transcribe-audio = سکت کن ربیس (شوخمو اونگین یود)
 press-and-stories = تم خلونگ کن نا زدرونگ کن
 community-and-languages = کمیونٹی نا سکت کن
@@ -95,7 +92,6 @@ community-and-languages-menu-item-tooltip = سکت کن، کمیونٹیونگ �
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = فسل غدمی لوکھسینگ
 partnerships-menu-item-aria-label = کامن واٸس نا یمبو ڈراقسے لس بے لوکھسینگ ینگسہ شوٹ چوک
 press-and-stories-menu-item-aria-label = کامن واٸسی لوکھسینگ خبر اتار کن نا کہانیونگ تھوپ چوک
 community-and-languages-menu-item-aria-label = کامن واٸسی کنگ ہرتین بین یودپی کمیونٹی نا سکت کن ژول

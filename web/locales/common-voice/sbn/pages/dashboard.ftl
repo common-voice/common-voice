@@ -1,6 +1,6 @@
 ## Dashboard
 
-your-languages = اڀآنٚ ري ٻوٚلي
+your-languages = اڀآنٚ ري ٻوليٚ
 toward-next-goal = آڻ وآرآنٚ مڪسدآنٚ ڏآنٚهنٚ
 goal-reached = مڪسد هآسل ڪيآندي اهي۔
 clips-you-recorded = جيڪو ڪليٚپ اڀآنٚ ريڪآڊ ڪيآندي اهينٚ۔
@@ -42,20 +42,81 @@ lose-changes-warning = هڃر جڏڻ رو متلب اهي تا اڀيٚنٚ پن
 build-custom-goal = هَڪ اهم مڪسد ٺآهو
 help-reach-hours-pluralized =
     { $hours ->
-        [one] مدت ڪرو پُڄڻ مينٚ{ $hours }هَڪ ڪلآڪ مينٚ { $language } زآتيٚ مسڪد سآنٚ
-       *[other] مدت ڪرو پُڄڻ مينٚ{ $hours } ڪلآڪآنٚ مينٚ { $language } زآتيٚ مسڪد سآنٚ
+        [one] مدت ڪرو پُڄڻ مينٚ{ $hours }هَڪ ڪلآڪ مينٚ { $language } زآتيٚ مڪسد سآنٚ
+       *[other] مدت ڪرو پُڄڻ مينٚ{ $hours } ڪلآڪآنٚ مينٚ { $language } زآتيٚ مڪسد سآنٚ
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] مدت ڪرو ڪآمن وآئيٚس ريٚ پُڄڻ مينٚ{ $hours }هَڪ ڪلآڪ مينٚ { $language } ٻوٚليٚ سآنٚ زآتيٚ مسڪد
-       *[other] مدت ڪرو ڪآمن وآئيٚس ريٚ پُڄڻ مينٚ{ $hours } ڪلآڪآنٚ مينٚ { $language } ٻوٚليٚ سآنٚ زآتيٚ مسڪد
+        [one] مدت ڪرو ڪآمن وآئيٚس ريٚ پُڄڻ مينٚ{ $hours }هَڪ ڪلآڪ مينٚ { $language } ٻوليٚ سآنٚ زآتيٚ مسڪد
+       *[other] مدت ڪرو ڪآمن وآئيٚس ريٚ پُڄڻ مينٚ{ $hours } ڪلآڪآنٚ مينٚ { $language } ٻوليٚ سآنٚ زآتيٚ مسڪد
     }
 set-a-goal = مڪسد ٺآهو
 cant-decide = ڦيسلو ڪون ڪري سگھيآ؟
+activity-needed-calculation-plural =
+    { $totalHours ->
+        [one]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { $periodMonths ->
+                [one]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $people ->
+                        [one]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $clipsPerDay ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
 how-many-per-day = جآم سُٺو! جآنٚ جآم ڀلو! هَڪ ڏينٚهنٚ مينٚ ڪيترينٚ ڪليٚپينٚ؟
 how-many-a-week = جآم سُٺو! جآنٚ جآم ڀلو! هَڪ هڦتي مينٚ ڪيترينٚ ڪليٚپينٚ؟
 which-goal-type = ڪيٚ اڀيٚنٚ ڳآلهآڻ گُهرو دآ، سُڻڻ گُهرو دآ جآنٚ وري ٻئيٚ؟
-receiving-emails-info = اڀيٚنٚ ايئي وکت ايٚ ميلونٚ هآسل ڪرڻ لآ تيآر اهونٚ  جيٚنٚ مڪسد يآد ڏيآرڻ وآرآ، مآنٚجيٚ ترڪيٚ ريٚ ڄآڻ ائيٚنٚ ڪآمن وآئيٚس بآبت کبر (نيٚوز ليٽر)
+receiving-emails-info = اڀيٚنٚ ايئي وکت ايٚ ميلونٚ هآسل ڪرڻ لآ تيآر اهونٚ  جيٚنٚ مڪسد يآد ڏيآرڻ وآرآ، مآنٚجيٚ مڪسد ريٚ ڄآڻ ائيٚنٚ ڪآمن وآئيٚس بآبت کبر (نيٚوز ليٽر)
 not-receiving-emails-info = اڀيٚنٚ ايئي وکت سيٽ <bold>نآ </bold> ايٚ ميلونٚ هآسل ڪرڻ لآ تيآر اهونٚ، جيٚنٚ مآنٚجيٚ ترڪيٚ ريٚ ڄآڻ ائيٚنٚ ڪآمن وآئيٚس ري بآبت کبر (نيٚوز ليٽر)
 n-clips-pluralized =
     { $count ->

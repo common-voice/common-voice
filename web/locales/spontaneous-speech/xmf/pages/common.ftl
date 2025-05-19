@@ -4,11 +4,13 @@
 error = ჩილათა
 action-click = ქიგუკაკეთ
 action-tap = ქიგუნჭირით
+# Label for language switcher
+platform-language = პლატფორმაშ ნინა
+platform-language-tooltip-text = თირანს ხვალე ვებსაიტიშ ტექსტის
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = წილიშ მიშაღალა მუნაჩემეფიშ ბაზაშა { $language } - შოთ
-# Label for button on contribution switcher
-change = დოთირუა
+contribution-picker-label = წილიშ მიშაღალარი ნინა { $language }
+contribution-picker-tooltip-text = თირანს მუნაჩემეფიშ ნაკათაშ ნინას, ნამუშათ წილი მიშაიღუნანი.
 coming-soon = შხვა ნინეფი მალას ქიგიაძინუ!
 media-recorder-api-not-supported = The MediaRecorder API ვარე ხუჯმეჩამილი თქვან ბრაუზერს.
 # Toast message that is displayed when an item is skipped
@@ -21,11 +23,14 @@ report-button = მოხსენება
 skip-button = გიშატება
 submit-button = ჯღონა
 contribute = წილიშ მიშაღალა
+request-new-language = მითხით ახალი ნინა
 
 ## Navbar
 
 respond-to-prompt = ქუგამით მოთხუალას
+transcribe = ნაჭარათ მოჩამა
 check-transcriptions = ნაჭარაშ გინოჯინა
+question = ოკითხირე
 
 ## Not Found Page
 
@@ -53,3 +58,10 @@ sdo = სერიანული ბიდაუ
 snv = საბანი
 tr = თურქული
 xkl = კენიური
+
+## Language search component
+
+language-search-placeholder = ნინაშ გორუა...
+language-search-aria-label = ნინაშ გორუა
+language-search-label = თირანს ხვალე მუნაჩემეფიშ ნაკათაშ ნინას
+language-search-no-results = ნინაქ ვეგორ

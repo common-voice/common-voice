@@ -1431,7 +1431,12 @@ export const ChatBubbleIcon = () => (
 )
 
 export const CheckCircle = () => (
-  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    width="16"
+    height="16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="check-circle-icon">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1448,7 +1453,12 @@ export const CheckCircle = () => (
 )
 
 export const TranscribeIcon = () => (
-  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    width="16"
+    height="16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="transcribe-icon">
     <g clipPath="url(#a)" fillRule="evenodd" clipRule="evenodd" fill="#959595">
       <path d="M2.666 3.333A.667.667 0 0 0 1.999 4v9.333a.667.667 0 0 0 .667.667h9.333a.667.667 0 0 0 .667-.667v-3.56a.667.667 0 0 1 1.333 0v3.56a2 2 0 0 1-2 2H2.666a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.56a.667.667 0 0 1 0 1.333h-3.56Z" />
       <path d="M11.528.862c.26-.26.682-.26.943 0l2.666 2.667c.26.26.26.682 0 .942l-6.666 6.667a.667.667 0 0 1-.472.195H5.333a.667.667 0 0 1-.667-.666V8c0-.177.07-.346.195-.471L11.528.862ZM5.999 8.276V10h1.724l6-6L12 2.276l-6 6Z" />
@@ -1462,7 +1472,12 @@ export const TranscribeIcon = () => (
 )
 
 export const FilePlus = () => (
-  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    width="16"
+    height="16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="question-icon">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1584,6 +1599,8 @@ export const CautionIcon = Icon(
   require('./icons/exclamation.svg'),
   'exclamation'
 )
+
+export const MarsSolo = Icon(require('./icons/mars-solo.svg'), 'mars-solo')
 
 export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'))
 

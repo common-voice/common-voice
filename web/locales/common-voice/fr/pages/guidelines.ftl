@@ -3,6 +3,7 @@ guidelines-header = Consignes pour participer
 guidelines-header-subtitle = Comprendre comment ajouter et valider des phrases et des échantillons audio dans le jeu de données Common Voice
 voice-collection = Collecte de voix
 sentence-collection = Collecte de phrases 
+question-collection = Collecte de questions
 
 ## Voice Collection nav ids
 
@@ -106,10 +107,31 @@ domain-explanation = Le domaine fait référence au sujet de la phrase. Actuelle
 
 ## Question collection ids
 
+adding-questions = Ajouter des questions
 
 ## Question collection sidebar content
 
-easy-to-understand-explanation = Choisir des questions simples et compréhensibles par tout le monde, quels que soient la culture ou le contexte.
+what-makes-a-good-question-subheader = Quels sont les critères d’une bonne question ?
+what-makes-a-good-question-explanation = Une question pertinente pour les jeux de données à participation publique doit :
+what-makes-a-good-question-explanation-criteria-1 = Être facile à comprendre et à répondre
+what-makes-a-good-question-explanation-criteria-2 = Être globalement pertinente
+what-makes-a-good-question-explanation-criteria-3 = Ne pas faire usage, ni encourager des propos injurieux ou offensants
+what-makes-a-good-question-tip = Vous pouvez également envisager de couvrir différents contextes et domaines.
+easy-to-understand = Simple à comprendre
+easy-to-understand-explanation = Choisissez des questions simples et compréhensibles par tout le monde, quels que soient la culture ou le contexte.
 spelling-and-pronunciation = Orthographe et ponctuation
 spelling-and-pronunciation-explanation = L’orthographe et la grammaire doivent être correctes.
 length = Longueur
+length-explanation = La question devrait pouvoir être répondue en seulement quelques phrases.
+dont-add-subheader = Ce qu’il ne faut pas ajouter
+culturally-specific-questions = Questions spécifiques à la culture
+culturally-specific-questions-explanation = Des questions très spécifiques à une culture ou qui présupposent beaucoup de choses sur la personne qui y répond.
+length-avoid-explanation = Des questions auxquelles quelqu’un aurait du mal à répondre en 15 secondes (la durée maximale d’un échantillon)
+process-steps = Processus / Étapes
+process-steps-explanation = Des questions qui demandent à dresser une liste de plusieurs étapes. Lister des étapes invite l’utilisateur·trice à réciter une réponse plutôt qu’à donner une réponse plus naturelle.
+offensive-content-sensitive-information = Contenu choquant ou informations sensibles
+offensive-content-sensitive-information-explanation-explanation-1 = Des questions susceptibles de demander des données personnelles
+offensive-content-sensitive-information-explanation-explanation-2 = Des questions qui pourraient susciter des propos haineux, des préjugés ou des commentaires offensants
+example-questions-subheader = Exemples de questions
+example-questions-explanation-1 = Vous trouverez <examplePromptsLink>120 exemples de questions dans cette feuille.</examplePromptsLink>
+example-questions-explanation-2 = Si vous souhaitez soumettre une série de questions à intégrer, vous pouvez <githubLink>le faire via notre GitHub</githubLink> ou envoyer votre liste à l’adresse <emailFragment>commonvoice@mozilla.com.</emailFragment>

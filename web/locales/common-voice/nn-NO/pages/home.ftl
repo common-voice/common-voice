@@ -76,16 +76,15 @@ read-more-about = Les meir på Om oss-sida vår
 ## NAV ITEMS
 
 answer-questions = Svar på spørsmål
-answer-questions-coming-soon = Svar på spørsmål <small>(kjem snart)</small>
 review-transcriptions = Vurder transkripsjonar
-review-transcriptions-coming-soon = Vurder transkripsjonar <small>(kjem snart)</small>
 add-questions = Legg til spørsmål
-add-questions-coming-soon = Legg til spørsmål <small>(kjem snart)</small>
-transcribe-audio-coming-soon = Transkriber lyd <small>(kjem snart)</small>
 transcribe-audio = Transkriber lyd
 press-and-stories = Presse og historier
 community-and-languages = Fellesskap og språk
 coming-soon = Kjem snart
+about-us = Om oss
+scripted-speech = FØREBUDD TALE
+spontaneous-speech = SPONTAN TALE
 
 ## MENU ITEMS TOOLTIPS
 
@@ -129,9 +128,13 @@ join-discord-community-action = Ver med oss på Discord
 find-us-on-matrix = Finn oss på Matrix
 # label for button
 find-us-on-matrix-action = Finn oss på Matrix
+ask-mozilla-share = Be Mozilla om å dele hendingane dine
 # label for button
 ask-mozilla-share-action = Del arrangementet ditt
 download-contribution-certificate = Last ned bidragsbeviset ditt
+download-contribution-certificate-content = Last ned eit sertifikat for arrangementa dine eller ditt eige dersom du har bidratt til Common Voice — dette ville ikkje ha vore mogleg utan deg!
+# label for button
+download-contribution-certificate-action = Få sertifikatet ditt
 contribute-github = Bidra på Github
 # label for button
 contribute-github-action = Bidra på Github

@@ -1,6 +1,7 @@
 action-click = Kliknite
 action-tap = Tapnite
 contribute = Prispevaj
+review = Preglej
 skip = Preskoči
 shortcuts = Bližnjice
 clips-with-count-pluralized =
@@ -37,6 +38,7 @@ vote-no = Ne
 datasets = Nabori podatkov
 languages = Jeziki
 about = O nas
+submit-form-action = Pošlji
 
 ## Reporting
 

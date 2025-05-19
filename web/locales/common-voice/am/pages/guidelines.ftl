@@ -3,6 +3,7 @@ guidelines-header = የአስተዋጽኦ መመሪያዎች
 guidelines-header-subtitle = ዓረፍተ-ነገሮችን እና የድምጽ ቅንጥቦችን ወደ የጋራ ድምጽ መረጃ ስብስብ እንዴት ማበርከት እና ማረጋገጥ እንደሚቻል ይረዱ
 voice-collection = የድምጽ ስብስብ
 sentence-collection = የአረፍተ ነገር ስብሰባ
+question-collection = የጥያቄ ስብስብ
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,17 @@ domain-explanation = ጎራ የዓረፍተ-ነገሩን ርዕሰ ጉዳይ ያ
 
 ## Question collection ids
 
+adding-questions = ጥያቄዎችን ማከል
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = ጥሩ ጥያቄ የሚያደርገው ምንድን ነው?
+what-makes-a-good-question-explanation = ለህዝብ ተሳትፎ የመረጃ ስብስቦች ጥሩ ጥያቄ የሚከተሉትን ማድረግ ይኖርበታል፡-
+what-makes-a-good-question-explanation-criteria-1 = ለመረዳት እና ምላሽ ለመስጠት ቀላል መሆን
+what-makes-a-good-question-explanation-criteria-2 = በአጠቃላይ ተዛማጅ ይሁኑ
+easy-to-understand = ለመረዳት ቀላል
+spelling-and-pronunciation = ፊደል እና ሥርዓተ-ነጥብ
+spelling-and-pronunciation-explanation = ትክክለኛ የፊደል አጻጻፍ እና ሰዋሰው ይጠቀሙ።
+length = ርዝመት
+dont-add-subheader = አትጨምር
+process-steps = ሂደት / ደረጃዎች

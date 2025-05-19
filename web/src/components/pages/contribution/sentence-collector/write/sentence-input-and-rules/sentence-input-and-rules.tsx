@@ -31,6 +31,7 @@ type Props = {
   sentenceDomains: readonly string[]
   error?: StateError
   variantTokens: string[]
+  variantNames: string[]
   selectedVariant?: string
   mode: WriteMode
 }
@@ -46,15 +47,18 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   citation,
   error,
   variantTokens,
+  variantNames,
   selectedVariant,
   mode,
 }) => {
+  const { l10n } = useLocalization()
   const isSentenceError =
     error && error?.type !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error?.type === SentenceSubmissionError.NO_CITATION
   const hasVariants = variantTokens && variantTokens.length > 0
 
-  const { l10n } = useLocalization()
+  const zippedOptions = hasVariants && variantTokens.map((v, i) => `${variantNames[i]} [${v}]`)
+  const variantOptions: string[] = hasVariants ? [l10n.getString('sentence-variant-select-multiple-variants'), ...zippedOptions] : []
 
   const { multipleComboBoxItems, inputValue, setInputValue } =
     useMultipleComboBox({
@@ -101,13 +105,14 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           />
           {hasVariants && (
             <Select
-              items={variantTokens}
+              items={variantOptions}
               setSelectedItem={handleSentenceVariantChange}
               selectedItem={selectedVariant}
               label={l10n.getString('sentence-variant-select-label')}
               placeHolderText={l10n.getString(
                 'sentence-variant-select-placeholder'
               )}
+              doTranslation={false}
             />
           )}
           <Localized id="citation" attrs={{ label: true }}>

@@ -65,15 +65,44 @@ about-nav-playbook = شيکوون ڪي چچم حصو ليشان
 about-playbook-what-is-language = عام آواز مان چئي ٻولِي سي؟
 about-playbook-what-is-language-content-1 = ايڪ تقريري آواز نين اوۯڇا هارو ٻولي نا ڀارا مان سوچيا نا الاهي طريقا سي۔ زين مان عام آواز،  ايڪ زيوي آوزا همزيا مان مدد آلي سي۔ يان ٻوليا واۯو ٻولي همزيا هارو ٻولي سي هان ٻيزون زي اي ڪوشش ڪري؟
 about-playbook-what-is-language-content-2 = امين چاهان سان ڪي تقريري ٻولي ماڊل نمونو هوئي زي ٻوليا واۯان سيٽي ٿي نين همزيا مان آوي۔ ايم ڪريا ٿي ايڪ ڊيٽا سيٽ الاهي منکان مان پيش ڪروون پڙشي۔
+about-playbook-what-is-language-content-3 = ڪانڪ ٻوليئان مان گرامر ، لفظ هانَ هجي نو الاهي گھڻو فرق هوئي سي۔ اين هارو امين <ctaLink>2022 مان اين پيش ڪران را سان۔ </ctaLink> <ctaLink>
 
 ## How do I add a language
 
+about-playbook-how-add-language = مُون مارِي ٻولِي چچم جمع ڪريوش؟
+about-playbook-how-add-language-content-1 =
+    مورٿِي آ لنڪ مان چيڪ ڪرو ڪي تمارِي ٻولِي ختم نٿي ڇي۔ <languageLink>
+    زي نا تو ٻولي جمع ٿايا هارو آ لنڪ نين زوو  <languageRequestLink></languageRequestLink>.
+    ٻي حصا سي اي جڳا ٿي ترجمو ڪرين جملا جمع ڪرو۔
+about-playbook-how-add-language-translating-heading = سائيٽ نو ترجمو ڪرو
+about-playbook-how-add-language-translating-content-1 = اماري رهنمائي نين زوئي ڪي چچم پونَ ٽونَ استعمال ٿائي سي۔<translateVideoLink> Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    امين موزيلا ڪان سان پونَ ٽونَ لنڪ مان ترجما هارو الاهي ٻوليون سي۔ </pontoonLink>
+    زي تماري بولي هارو نٿي تو آ لنڪ مان درخواست ڪرو تو جمع ٿئي زاشي۔ <pontoonRequestLink>
+    اين چيڙ عام آواز هارو ٻولِي نو پروجيڪٽ تيار هشي۔ </githubRepoLink>.
+    وڌاري زويا هارو آ سائيٽ مان زوئو۔ </localizationFragment>.<localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = جملا ڀيۯا ڪرو
+about-playbook-how-add-language-collecting-sentences-content-1 = رهنمائي هارُو آ لنڪ نين زوئو ڪي جُملا جمع ٿئي ڪي۔ <sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تمين آ جُملا نين ڪانڪ وقت هارو  <sentenceCollectorLinkAdd>تمين هاڇي تبديل ڪري ڪو سو۔
+    </sentenceCollectorLinkAdd>،
+    يان تمين  <bulkImportDocsLink>GitHub يان هيئي راڇا هارو جُملا  يان عوامي ملڪيت لازمي سي</bulkImportDocsLink> يان تمين پوتي جُملا لڇي ڪو سيو۔
+    شُون تمان نين ترجما مان ڪوئي لحجا ني ضروروت سي؟
+about-playbook-how-add-language-collecting-sentences-content-3 = جمع ڪرل جُملان وڌاري زوئو
 
 ## How does localization work
 
+about-playbook-how-localize = تصديق ٿل سائيٽ چيچم ڪام ڪري سي؟
+about-playbook-how-localize-content-1 = ڪامن وائيس نو ترجما ٿي شُون ٿائي سي
+about-playbook-how-localize-content-2 = زي تمارو اڪائونت نٿي تو ٺاهو۔ پسي ايڪ ٻولي چونڊو هان پسي ايڪ پروجيڪ چونڊو۔ زي ڪامن وائيس سي۔ اڃي ايڪ فائيل هشي زي ترجما هارو هشي۔ ڪوئي ايڪ ماٿي ڪلڪ ڪرو اين مان ايڪ کانا مان انڳريزي مان اکر هشي اين نٽ ترجمو ڪرو۔ </pontoonCvLink> </pontoonAccountLink> <pontoonCvLink>
+about-playbook-how-localize-content-3 = انڳريزي ٿي ترجمو ڪرو۔ پڻ تمين ٻيزي ٻولي نا مشورا نين زوئو۔ پروفائيل ماٿي ڪلڪ ڪرو۔ پسي سيٽنگ مان زائينَ ٻوليا هارو ٻولي نين چونڊو۔ زمڻي پاسي ماٿي ايڪ ڪنڊ مان ايڪ لسٽ ترجما هارو آلل هشي۔ ايڪ ۮاڙا چير ترجمو ڪرو۔
+about-playbook-how-localize-content-4 = 75 فيصد ٿئي زائي تار پيش ڪريا هارو تيار سي۔
+about-playbook-how-localize-content-5 = امارا ويڊيا نين بيان ڪريا هارو مدد ڪرو
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = مُون چچم جملا جمع ڪريوش
+about-playbook-how-add-sentences-content-1 = آ لنڪ مان تماري جُملا جمغ ڪروا سي۔ <writePageLink> لڇا هارو </writePageLink>  يان جملا ني دوهرائي هارو <reviewPageLink> صفعو دهرائي ڪرو۔
 
 ## How to record quality
 

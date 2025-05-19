@@ -76,26 +76,27 @@ read-more-about = تەپسىلاتنى بىزنىڭ توغرىسىدا بېتى�
 ## NAV ITEMS
 
 answer-questions = سوئالغا جاۋاب <small>(پات يېقىندا قوشۇلىدۇ)</small>
-answer-questions-coming-soon = سوئالغا جاۋاب <small>(پات يېقىندا قوشۇلىدۇ)</small>
 review-transcriptions = تېكىست خاتىرىسىنى تەكشۈر<small>(پات يېقىندا قوشۇلىدۇ)</small>
-review-transcriptions-coming-soon = تېكىست خاتىرىسىنى تەكشۈر<small>(پات يېقىندا قوشۇلىدۇ)</small>
 add-questions = سوئال قوش<small>(پات يېقىندا قوشۇلىدۇ)</small>
-transcribe-audio-coming-soon = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 press-and-stories = خەۋەر ۋە ماقالە
 community-and-languages = جامائەت ۋە تىل
 coming-soon = پات يېقىندا قوشۇلىدۇ
+about-us = بىز ھەققىدە
+scripted-speech = قوليازما نۇتقى
+spontaneous-speech = تەبىئىي نۇتۇق
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ھەمكارلاشقۇچى، خەۋەر ۋە ماقالە، جامائەت ۋە تىل
+about-us-menu-item-aria-label = بىز ھەققىدە تاللانما تىزىملىكى
 partnerships-menu-item-tooltip = بىز بىلەن ھەمكارلىشىش
 press-and-stories-menu-item-tooltip = بىلوگىمىزنى زىيارەت ياكى بىز ھەققىدىكى يازما
 community-and-languages-menu-item-tooltip = تىل بايقاش ۋە جامائەت ھەمدە common voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = تاللانما تىزىملىك ھەققىدە
+about-us-menu-aria-label = ھەققىدە تاللانما تىزىملىكى
 partnerships-menu-item-aria-label = Common Voice بىلەن ھەمكارلىشىش ھەققىدىكى بىلىملەر
 press-and-stories-menu-item-aria-label = Common Voice ھەققىدىكى خەۋەر ۋە ماقالىگە ئېرىشىش
 community-and-languages-menu-item-aria-label = Common Voice قوللىغان تىل ۋە جامائىتى ھەققىدە ئىزدىنىش

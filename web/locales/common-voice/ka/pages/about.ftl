@@ -12,7 +12,7 @@ how-does-it-work-text = ჩვენ ვქმნით ხმის ჩან�
 about-language-req-subtitle = ვიღაც ითხოვს ენის დამატებას.
 about-localization-title = საიტის თარგმნა
 about-localization-subtitle = ვებსაიტზე ტექსტი ითარგმნება ამ ენაზე.
-about-sentence-collection-title = წინადადებების შეგროვება
+about-sentence-collection-title = წინადადების შეგროვება
 about-sentence-collection-subtitle = წინადადებები გროვდება ამოსაკითხად.
 about-new-lang-title = ახალი ენის გაშვება
 about-new-lang-subtitle = Common Voice საიტი გაეშვება ამ ენაზე.
@@ -59,7 +59,7 @@ about-nav-playbook = როგორ უნდა მიიღოთ მონ�
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = რას განსაზღვრავს „ენას“ Common Voice?
+about-playbook-what-is-language = როგორ განსაზღვრავს „ენას“ Common Voice?
 about-playbook-what-is-language-content-1 = მრავალი კუთხით შეიძლება განვიხილოთ ენა. ხმის ამომცნობი სისტემებისთვის კი Common Voice გთავაზობთ „ურთიერთგაგების“ გათვალისწინებას, ანუ „ამ ენაზე მოლაპარაკენი უნდა ახერხებდნენ აზრის გამოტანას ერთმანეთის საუბრიდან“.
 about-playbook-what-is-language-content-2 = გვსურს, რომ ხმის მოდელებს უკეთ შეეძლოს სხვადასხვა ადამიანის გაგება. ამისთვის კრებული უნდა შედგებოდეს მრავალი განსხვავებული ხმის ჩანაწერისგან.
 about-playbook-what-is-language-content-3 = ზოგ ენას შეიძლება გააჩნდეს უამრავი სახესხვაობა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ გადავწყვიტეთ, <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
@@ -74,7 +74,7 @@ about-playbook-how-add-language-translating-content-2 =
     თარგმნისთვის ჩვენ ვიყენებთ Mozilla-ს ხელსაწყოს სახელწოდებით <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ ვერ იპოვით თქვენსას, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ მისი დამატება</pontoonRequestLink>.
     შემდეგ, Common Voice თქვენი ენისთვისაც რომ ამუშავდეს,
     <githubRepoLink>მოგვმართეთ GitHub-ზე</githubRepoLink>. <localizationFragment>ვრცლად საიტის თარგმნის შესახებ</localizationFragment>.
-about-playbook-how-add-language-collecting-sentences-heading = წინადადებების შეგროვება
+about-playbook-how-add-language-collecting-sentences-heading = წინადადების შეგროვება
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ წინადადებების შემგროვებელი</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     აქედან შეგიძლიათ <sentenceCollectorLinkAdd>მცირე ოდენობის წინადადებების დამატება</sentenceCollectorLinkAdd>,

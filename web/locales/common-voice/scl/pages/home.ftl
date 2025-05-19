@@ -76,11 +76,8 @@ read-more-about = اسو اسنو پٹو موتی پڑے
 ## NAV ITEMS
 
 answer-questions = کھُوجیکو جواب دے <small> لوکو اونو ہُوں )</small>
-answer-questions-coming-soon = کھُوجیکو جواب دے <small> لوکو اونو ہُوں )</small>
 review-transcriptions = ٹرانسکرپشنے/ لکھیئیک دُگُنی چکے <small> لوکو اونو ہوُں </small>
-review-transcriptions-coming-soon = ٹرانسکرپشنے/ لکھیئیک دُگُنی چکے <small> لوکو اونو ہوُں </small>
 add-questions = کھوجینیک آنے یو/مشک تھے <small> لوکو انو ہُوں </small>
-transcribe-audio-coming-soon = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
 transcribe-audio = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
 press-and-stories = پریس گہ چگائیے/شِلوکے
 community-and-languages = کویوچ گہ باشے
@@ -95,7 +92,6 @@ community-and-languages-menu-item-tooltip = کامن وائیس گہ، کمیو�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشنو ژھِیرو بارینی
 partnerships-menu-item-aria-label = کامن وائیش ساتی سجئیی تھینو سیچ
 press-and-stories-menu-item-aria-label = کامن وائیسو پریس ریلیزگا شیلوکو کچی ایپھو
 community-and-languages-menu-item-aria-label = کامن وائیسے سے سانتی دیک کمیونیٹی گہ باشے آنے واشے

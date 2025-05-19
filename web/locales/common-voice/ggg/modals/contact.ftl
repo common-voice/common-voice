@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = رآبتآ ڪو ڦآرم
+contact-title = آپوڪآ بآرآ مي جآنڪآرِيو ڪوڦآرم
 contact-form-name =
     .label = نآئونٚ
 contact-form-message =

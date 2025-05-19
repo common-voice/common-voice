@@ -76,11 +76,8 @@ read-more-about = Spo pejẽ barar z̃aq woz ziyoda joy
 ## NAV ITEMS
 
 answer-questions = Jowob sowolisht <small>(jald wezin)</small>
-answer-questions-coming-soon = Jẽwob Sowol<small>(jaldẽb wezin)</small>
 review-transcriptions = Naqlẽvẽ didig̃h <small>(jaldẽs̃h wezin)</small>
-review-transcriptions-coming-soon = Tẽrjũmavẽ didig̃h<small>(jaldẽb wezin)</small>
 add-questions = sowolvẽ shomil<small>jaldẽs̃h wezin</small>.
-transcribe-audio-coming-soon = od̃ioẽ naqẽl<small>jaldẽb wezin</small>
 transcribe-audio = od̃iyoẽ naql<small>jaldẽb wezit</small>
 press-and-stories = pakhch woz zhindagisht.
 community-and-languages = Jẽmoat woz zikisht.
@@ -95,7 +92,6 @@ community-and-languages-menu-item-tooltip = Zikvẽ, jẽmoatvẽ woz Kommon voy
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Ikhtiyori menuẽ barar.
 partnerships-menu-item-aria-label = Dẽ Kommon Voysẽn qẽti wocnẽ k̃hẽ shẽrikat dori barar/bobatẽn dish
 press-and-stories-menu-item-aria-label = Kommon Voysẽ barar press reliz woz zhindagvẽ barar resoyi hosil car
 community-and-languages-menu-item-aria-label = Jẽmoatvẽ woz zẽbonvẽ s̃hẽkur kumdvẽri ki Kommon voysẽ mẽdad k̃hetk

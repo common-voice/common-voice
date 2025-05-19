@@ -75,6 +75,11 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## NAV ITEMS
 
+answer-questions = Err-d ɣef isteqsiyen
+add-questions = Rnu isteqsiyen
+transcribe-audio = Aru aḍris n umeslaw
+community-and-languages = Timɣiwnin akked tutlayin
+about-us = Fell-aɣ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -87,12 +92,19 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## Hero section
 
+hero-title = Takinuljit yettmeslayen tutlayt-nwen·nkent
 
 ## Action items section
 
+language-text-card-header = Aḍris
+add-text = Rnu aḍris
 
 ## Community section
 
+find-us-on-matrix = Af-aɣ-d deg Matrix
+contribute-github = Ttekki di Github
+# label for button
+contribute-github-action = Ttekki di Github
 
 ## Featured section
 
@@ -102,6 +114,9 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## Get involved section
 
+answer-questions-link = Err-d ɣef isteqsiyen
+contribute-text-link = Azen aḍris
+press-and-stories-link = Taɣamsa akked yimagraden
 
 ## Partner section
 
