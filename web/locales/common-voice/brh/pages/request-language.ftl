@@ -26,3 +26,7 @@ request-language-success-list-3 =
     اگہ نمے اسہ اِرا دے ٹی ننا کنڈان ورندی ملننگ اف،
     <emailLink>{ $email }</emailLink> آ رابطہ کبو۔
     و نن نما ماسہ ولدا برینہ!
+request-language-error =
+    مننگ کیک کہ ننے ہمو خواستاک رسینگتانو۔ نمے آن خواست ئے ننے براہ راست ای میل کبو۔
+    <emailLink>{ $email }</emailLink> آ و نن نم تون رابطہ کینہ!
+request-for-scripted-speech-toggle = نوشت تران کن خواست کبو
