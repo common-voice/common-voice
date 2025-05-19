@@ -51,6 +51,17 @@ meh = جنوب مغربی Tlaxiaco Mixtec
 mel = وسطی میلانو
 mmc = Michoacán Mazahua
 ms-MY = بہاسا مالائی
+msi = صباح مالے
+pez = مشرقی پینان
+pne = مغربی پینان
+sdo = سیرین بدایوہ
+snv = شعبان
+tr = ترکی
+xkl = کینیا
 
 ## Language search component
 
+language-search-placeholder = اسہ زبان سیکن پٹبو۔۔۔
+language-search-aria-label = اسہ زبان سیکن پٹبو
+language-search-label = صرف ڈیٹا سیٹ نا کمکی زبان ئے بدلیفبو
+language-search-no-results = ہچو زبان ئس ملیتو
