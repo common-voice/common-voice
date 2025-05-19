@@ -1,9 +1,9 @@
 # PARTNERSHIPS PAGE
 partnerships-header = سیرواݪی
-partnerships-header-text = سادی آواجا کُو سمبھو ٻݨاݨے نتر بہت کچھ لاجمی ہے! ہم یو اکیلے نائی کراں. مھارے ساتھ سیر لیوݨا چاوہتے ہے؟ ہم تھمسے سُݨنا وݨتا ہے.
+partnerships-header-text = سادی اواجا کُو سمبھوَ ٻݨانٚوݨیں نتر گھݨاں کائھیں لاجمی ہے! ہم یو ایکلے نائیں کراں. مھارے سات سِیر لیوَݨاں چاہوتے ہے؟ ہمکُو تھمسے سُݨنا وݨتا ہے.
 partnerships-get-in-touch = سمپرک کرو
-partnerships-become-a-partner = سادھارݨ آواج سیرواݪی ٻݨو
-partnerships-community-header = پڑاو، رچنا کرا اور سول سوسائٹی
+partnerships-become-a-partner = سادھارݨ اواج سیرواݪی ٻݨو
+partnerships-community-header = پڑاوَ، رچنا کرا اور سول سوسائٹی
 partnerships-community-description = پڑاو سادھارݨ آواجا کا دھڑکتوڑا دل ہے - ٻو پُورے سنساراس آتے ہے، اور ٻولیا کے کارِیئے کرنواڑے، وِگیانِک اور کلاکار ہے. تھم مھارے باریم پنیپ اور مھارے <community>پڑاو پلے بُکام</community> سیمل ہووݨیں <about>کے باریم</about> ودھِیک جاݨی سِکتے ہے۔ جے اگر تھم ٻڈؔے سںٚگٹھن یوگدانام رُچی راکھتے <emailFragment>ہے تو ، سمپرک کرو۔</emailFragment>
 partnerships-foundations-header = آدھار سیلائں
 partnerships-foundations-description = ہم پُورو اپھریکاپ وشیش دھیان کے ساتھ انٹرنیٹا کُو ایک سُوست جاگھا ٻݨاݨےنتر سںٚگٹھن، سول سوسائٹی اور پڑاو یوگداناڑے کے بھیݪے کام کرتے ہے. مھارے کارجی کامے باریم ودھیک <programmaticWork>جاݨو.</programmaticWork>
