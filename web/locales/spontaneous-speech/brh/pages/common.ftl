@@ -30,10 +30,20 @@ request-new-language = پوسکنو زبان سیکن خواست کبو
 respond-to-prompt = ورندی
 transcribe = مٹ کننگ
 check-transcriptions = ولدا ہوربوتے
+question = سوج
 
 ## Not Found Page
 
 not-found-page-header = ملننگ کتو
+not-found-page-content = نم ہرا پنہ ئے پٹنگورے او ملیتو
+# Privacy and Terms checkbox
+accept-privacy-and-terms = ای Common Voice نا <termsLink>شڑتاتا </termsLink> و <privacyLink>پرائیویسی نوٹس</privacyLink> تون امنائی کیوہ
+# Locales
+bsy = صباح بسایا
+cdo = Fuzhou
+cpx = Heng Hua
+en = انگریزی
+fr = فرانسیسی
 
 ## Language search component
 
