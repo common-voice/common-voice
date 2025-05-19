@@ -1,5 +1,5 @@
 # PARTNERSHIPS PAGE
-partnerships-header = سیرواݪی
+partnerships-header = سِیرواݪی
 partnerships-header-text = سادی اواجا کُو سمبھوَ ٻݨانٚوݨیں نتر گھݨاں کائھیں لاجمی ہے! ہم یو ایکلے نائیں کراں. مھارے سات سِیر لیوَݨاں چاہوتے ہے؟ ہمکُو تھمسے سُݨنا وݨتا ہے.
 partnerships-get-in-touch = سمپرک کرو
 partnerships-become-a-partner = سادھارݨ اواج سیرواݪی ٻݨو
