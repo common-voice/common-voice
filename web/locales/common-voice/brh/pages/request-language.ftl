@@ -30,3 +30,7 @@ request-language-error =
     مننگ کیک کہ ننے ہمو خواستاک رسینگتانو۔ نمے آن خواست ئے ننے براہ راست ای میل کبو۔
     <emailLink>{ $email }</emailLink> آ و نن نم تون رابطہ کینہ!
 request-for-scripted-speech-toggle = نوشت تران کن خواست کبو
+request-for-spontaneous-speech-toggle = اچانک انگا تران کن خواست کبو
+need-help-deciding-platform = ہرادے ارفن نا فیصلہ کن نما کمک درکار اے؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>اسکرپٹڈ اسپیچ</strong> (روایتی وڑ اٹ دنکہ نم کامن وائس نا پِن ئے چارے) ہمو جاگہ اے ہراڑے نما تینا زبان تی جملہ غاتے تیز توار اٹ خواننگ کیرے۔
