@@ -31,5 +31,5 @@ get-involved-submit = بھیݪا کرنا
 get-involved-stayintouch = موزیلام ہم اواج ٹکنالوجیا کے اوݪے دؔوݪے ایک پڑاو ٻݨائی رے ہے۔ ہم اپ ڈیٹس ، نویں سادھنا سات سمپرکام رہݨا چاہوتے ہے اور اس باریم ودھِیک سُݨتا چاہوتے ہے کہ تھم اس ڈیٹا کا کِدؔا اُپیوگ کری رے ہے۔
 get-involved-privacy-info = ہم تھاری جاݨکاریا کُو ساودھانیا کے سات سمبھݨے کا وچن کرتے ہے. مھارے <privacyLink>بھیدؔا کے نوٹِسام ودھیک پڑھو</privacyLink>.
 get-involved-success-title = تھمُون { $language } میں پاتی ٻاہݨیں نتر سپھلتاس سائن اپ کرا ہے۔ دھنواد.
-get-involved-success-text = جِدؔا یو ماجود ہوںٚگا ہم ودھیک جانکاریا سات سمپرکام رہیوں گے۔
-get-involved-return-to-languages = ٻولیں دھک پُٹھے جاؤ
+get-involved-success-text = جِدؔا یو ماجُود ہوںٚگا ہم ودھیک جاݨکاریا سات سمپرکام ریہوں گے۔
+get-involved-return-to-languages = ٻولیں دھک پُوٹھے جاؤ
