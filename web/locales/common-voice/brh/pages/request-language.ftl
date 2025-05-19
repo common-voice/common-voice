@@ -34,3 +34,5 @@ request-for-spontaneous-speech-toggle = اچانک انگا تران کن خوا
 need-help-deciding-platform = ہرادے ارفن نا فیصلہ کن نما کمک درکار اے؟
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>اسکرپٹڈ اسپیچ</strong> (روایتی وڑ اٹ دنکہ نم کامن وائس نا پِن ئے چارے) ہمو جاگہ اے ہراڑے نما تینا زبان تی جملہ غاتے تیز توار اٹ خواننگ کیرے۔
+need-help-deciding-platform-explanation-2 = <strong>بے ساختہ تران</strong> کامن وائس نا اسہ پوسکنو بشخ ئس اے ہراڑے نم سوجاتا ورندی تے زیات نامیاتی، ہیت و گپ نا ڈول اٹ تننگک۔
+need-help-deciding-platform-explanation-3 = اگہ نمے پلیٹ فارم نا اسہ ہم حصہ سیٹی تینا زبان نظر بننگ اف تو ہڑتوماتے منتخب کبو۔
