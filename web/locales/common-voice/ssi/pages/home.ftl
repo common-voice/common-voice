@@ -189,11 +189,11 @@ press-and-stories-link = پریس اور کُہاݨِیاں
 
 partner-section-title = مھارے سات بھائی واری کر
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>ٹیک کمپنیاں</bold> - پھݪتے پھُولتے گھݨِیاں ٻولِیاں ٻوݪݨواڑا ٻݨاؤڑی ٻُدھی ماحولا کے نجاما نتر کھُلے ڈیٹا سیٹ کی رچنا میں رِپئے لگاوتی ہے
+partner-section-subtitle-tech-companies = <bold>ٹیکنالوجی کمپنیاں</bold> - ایک اجرا انیک بھاشائی AIیا کی پرِیاورݨاں نتر کھُلی ڈیٹا سیٹ کی رچنام دھن لگاؤ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>سول سوسائٹی اور شودھ کرتا</bold> - مُکتام ہِک ٹِک ڈیٹا سیٹ ٻݨاوَ، سیوا کر اور ٻاٹ
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-philantropy = <bold>تھورا</bold> - دؔیسی نویں کھوج اور ترکِیا کُو بڑاہوا دؔیݨیں نتر ڈیٹا سیٹا کی رچنا کی پرایوجک کر
+partner-section-subtitle-philantropy = <bold>تھورا</bold> - دؔیسی نویں کھوج اور ترکِیا کُو پورسا دؔیݨیں نتر ڈیٹا سیٹا کی رچنا کی پرایوجک کر
 # icon is an arrow that points to the right
 get-in-touch-button = سمپرک <icon></icon> کرو
 # Partners section
