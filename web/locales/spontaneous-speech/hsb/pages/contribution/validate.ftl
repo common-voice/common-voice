@@ -1,8 +1,10 @@
 ## Validate Page
 
+validate-page-instruction = Přepruwujće <validateIcon></validateIcon> wotpowěduja tute prašenja směrnicam?
 dataset-label = Datowa sadźba
 accept-vote-toast-message = Wuspěšnje akceptowane prašenje
 reject-vote-toast-message = Wuspěšnje wotpokazane prašenje
+no-questions-message = Njeje tuchwilu žane namołwy, kotrež dadźa so za tutu rěč přepruwować. Prošu aktualizujće stronu abo spytajće pozdźišo hišće raz.
 validate-page-yes-button-shortcut = H
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = P
