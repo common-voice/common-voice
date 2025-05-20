@@ -18,3 +18,5 @@ submit-all-button = ვო́მაჸ დაჰ̦ითარ
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = გიბათ მოჰ̦ მაკ შუჼ საიტ ჴმა́რბადჲაჼ
+learn-how-to-use-prompts-explanation = უ̂ნმაკ ბუნებრივ პა́სუხ ლიბათ შეკითხვეხი́ ლე მოთხო́ვნეხ, ცჰ̦აჲნი̆-შინ წინადა́დბევ. ცადლიბათ ზრდილბა́რენე ხალა́ნცოხე́თდუჲნი̆ ა́ლ'არ ხილ'ულო̆ შუგო
+learn-how-to-use-prompts-guidance = <guidanceLink>წკაპბა́ჴითათ ესე</guidanceLink>, მე ხო́ჸლუჲში̆, მო́ჰ ჴმა́რბადანდეწი́ში̆ ე საიტ
