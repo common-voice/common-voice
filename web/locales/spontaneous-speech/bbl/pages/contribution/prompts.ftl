@@ -10,6 +10,9 @@ error-recording = შეცდო́მ (ხარცხილ'არ) ხილ'
 error-fetching-prompts = უ̂ნახ ხარვეზ (ხარცხილ'არ) ხილ'ეჼ მოთხო́ვნი ლე́ხოშ. დეხო́თხ, ჴე́ჼკაჸ ცადდო́ლუჲში̆.
 error-uploading-response = შეცდო́მ (ხარცხილ'არ) ხილ'ეჼ პა́სუხ ჰ̦ალო̆ ბჵე́ფოშ (ატვირთოდოშ)
 prompt-submitted-success = პა́სუხ დაქიშ დაჰ̦ითენო̆ ხილ'ეჼ.
+prompt-response-deleted-success = პასუხ დაქიშ წა́შლადალიჼ
+# For the button to delete a response to a prompt
+delete = წა́შლადარ
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = დაჰ̦ითენო̆ ხილ'ეჼ
 # For the button on the Respond to prompts page which can be used to submit all responses at once
@@ -24,3 +27,5 @@ learn-how-to-use-transcribe = გიბათ, მო́ჰ̦  ჲეწი́შ 
 learn-how-to-use-transcribe-explanation = ცადლიბათ ნიფს ო დაწე́რადოლუჲში̆, უ̂ნე́ იშა́რეჩო̆ ჩანაწე́რე ხაწ შუჼ, ო ცო́მლე́ვდუჲნი̆ ჲა́ხხეჼ ბგე́რიაჲ, მუჲლნე́ ჲაიცი̆: "ჰმ", "ეეჰ".
 learn-how-to-use-transcribe-guidance = <guidanceLink>წკაპბა́ჴითათ ესე</guidanceLink>, მე ხო́ჸლუჲში̆, მო́ჰ ჴმა́რბადანდეწი́ში̆ ე საიტ
 learn-how-to-use-check-transcript = გიბათ, მო́ჰ̦ დეწი́შ დაყყდაჼ ნაწე́რეღ დე́რწინო̆
+learn-how-to-use-check-transcript-explanation = ნაწე́რეჼ სახ ჲალინჩოვ ღაზიშაჭ დე́წ გუდა́ჴაჼ ცჰ̦აცა-ცჰ̦აცა́ დოშაე́ ა́მბუჲ ჲოშ ჴმა́რბადიენო̆ მატტიჼ ცო ჲაჲნი̆  ბგე́რია́ჲ, მენხუჲა́ ა́ლ'ინც ა́მბუჲ ჲოჩოვ, შაწლოღეშ ა́ლ'ინო̆ ხილ'ჩეჰ̦ა́.
+learn-how-to-use-check-transcript-guidance = <guidanceLink>წკაპბა́ჴითათ ესე</guidanceLink>, მე ხო́ჸლუჲში̆, მო́ჰ ჴმა́რბადანდეწი́ში̆ ე საიტ.
