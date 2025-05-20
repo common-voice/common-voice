@@ -164,6 +164,7 @@ write-contribute-menu-tooltip = Sady pśidaś a pśeglědowaś, pšašanja pśid
 add-sentences-menu-item-tooltip = Sady we wašej rěcy pśidaś
 review-sentences-menu-item-tooltip = Sady we wašej rěcy pśeglědowaś
 add-questions-menu-item-tooltip = Pšašanja we wašej rěcy pśidaś
+review-questions-menu-item-tooltip = Pšašanja pśeglědowaś
 transcribe-audio-menu-item-tooltip = Transkriběrujśo awdiowe nagraśa w swójej rěcy
 
 ## MENU ITEM ARIA LABELS

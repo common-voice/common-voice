@@ -84,6 +84,7 @@ read-more-about = Cytajśo wěcej wó boku Wó Common Voice
 answer-questions = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
 review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
 add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
+review-questions = Pšašanja pśeglědowaś
 transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 press-and-stories = Casnikaŕstwo a tšojenja
 community-and-languages = Zgromaźeństwo a rěcy
