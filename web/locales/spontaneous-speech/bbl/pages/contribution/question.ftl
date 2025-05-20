@@ -10,3 +10,13 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions }შეკითხვ მიღე́ბადჲიენო̆ ჲა { $totalSentences }-რეჼ
     }
 add-question-error-message = ჰ̦ალო̆ ცო ჲჵოფჲალიჼ/ატვირთოდჲალიჼ. დეხო́თხ ო́შტიჸ ცადჲოლუ́ჲში̆
+add-question-too-many-questions-error = საუ̆ბო̆ ჲა 500 შეკითხვეხ. კაწკარჲებათ შეკითხვაჼ რაოდენობე́ ო́შტიჸ ცადდებათ
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions }შეკითხვ ვაშარ აჰინო ჲა 1-რეჼ. გიბათ თხეჼ<guidelinesLink> სახელმძღვანელო</guidelinesLink>, მოჰ ჲეწი́შ ლა́ტჲაჼ შეკითხვი.
+       *[other] { $uploadedQuestions }შეკითხვ ვაშარ აჰინო ჲა { $totalQuestions }-რეჼ. გიბათ თხეჼ<guidelinesLink> სახელმძღვანელო</guidelinesLink>, მოჰ ჲეწი́შ ლა́ტჲაჼ შეკითხვი
+    }
+# Guidelines
+add-question-guidelines-title = უ̂ხ შეკითხვი მაკ სო́ჼ ლა́ტჲაჼ?
+do-section-title = დე́წე̆ ხილაჼ
+do-section-guideline-1 = ნიფსიჩო̆ მართლწე́რევაჲ, გრამა́ტიკევაჲ
