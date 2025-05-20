@@ -78,6 +78,7 @@ read-more-about = Meer info op onze pagina Over
 answer-questions = Vragen beantwoorden <small>(binnenkort)</small>
 review-transcriptions = Transcripties beoordelen <small>(binnenkort)</small>
 add-questions = Vragen toevoegen <small>(binnenkort)</small>
+review-questions = Vragen beoordelen
 transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
 press-and-stories = Pers en verhalen
 community-and-languages = Gemeenschap en talen

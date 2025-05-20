@@ -81,10 +81,11 @@ read-more-about = Čitajće wjace wo stronje Wo Common Voice
 
 ## NAV ITEMS
 
-answer-questions = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
+answer-questions = Na prašenja wotmołwić
 review-transcriptions = Transkripcije přepruwować <small>(příndźe bórze</small>)
-add-questions = Prašenja přidać <small>(přińdźe bórze)</small>
-transcribe-audio = Awdijo transkribować <small>(přińdźe bórze)</small>
+add-questions = Prašenja přidać
+review-questions = Prašenja přepruwować
+transcribe-audio = Awdijo transkribować
 press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
 coming-soon = Bórze k dispoziciji

@@ -1,6 +1,6 @@
 ## Profile Download
 
-download-q = آپ کا ڈیٹا ڈاؤن لوڈ کرنے کی جرورت ہے؟
+download-q = تھارا ڈیٹا ڈاؤن لوڈ کرنے کی جرورت ہے؟
 download-info = ہمکُو بھتاؤ کہ آپ کیا ڈاؤن لوڈ کرنا چاہوتے ہو:
 download-profile-title = پروپھائل
 download-profile-info = ای میل ، لیݨواڑا نانٚو اور ڈیموگرافک جاݨکاری بھیݪی ہے ، جکو تکڑام ماجُود ہے۔
@@ -15,12 +15,12 @@ download-selected = چُنوڑا
 download-start = پروپھائل ڈیٹا ڈاؤن لوڈ کر
 download-request = ٻِنتِیا کی ریکارڈنگ
 download-requests = لارکی ریکارڈنگ ڈاؤن لوڈا کی ٻِنتی
-download-requests-info = جِدؔ تھم اپݨیں ریکارڈنگا کی ٻِنتی کرتے ہے تو ، ہم اِنکُو ایک یا گھݨی ساری جِپ پھائلینٚم بھیݪا کرتے ہے۔ ایٹھے تھارے کی اگل کِیاں ٻِنتِیاں ہے:
+download-requests-info = جِدؔ تھم اپݨیں ریکارڈنگا کی ٻِنتی کرتے ہے تو ، ہم اِنکُو ایک یا گھݨی ساری جِپ پھائلینٚم بھیݪا کرتے ہے۔ ایٹھے تھاری اگل کِیاں ٻِنتِیاں ہے:
 download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
 download-request-description = { $clipCount } اواجا کے ٹُکڑے ، کُل سُرکشت نیپ { $size }۔ انت ہوئی جاوتا ہے { $expires }.
-download-request-archive-single = ایکلی جِپ پھائلاپ ٻݨونٚڑی
-download-request-archive-multiple = { $archiveCount } جِپ پھائلینٚم ٻاٹو جس میں
+download-request-archive-single = ایکلی جِپ پھائلام سیمݪ
+download-request-archive-multiple = { $archiveCount } جِپ پھائلینٚم ٻاٹو جس میں سیمݪ ہے
 download-request-assembling-description = تھارِیاں پھائلاں بھیݪِیاں کری رے ہے۔ دؔیا کری پِچھیں پُوٹھی جانچ کر.
 download-request-refresh-button = تاجا
 download-request-modal-title = لِنکاں ڈاؤن لوڈ کر

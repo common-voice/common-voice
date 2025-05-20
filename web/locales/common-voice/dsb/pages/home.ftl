@@ -81,10 +81,11 @@ read-more-about = Cytajśo wěcej wó boku Wó Common Voice
 
 ## NAV ITEMS
 
-answer-questions = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
-review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
-add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
-transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
+answer-questions = Na pšašanja wótegroniś
+review-transcriptions = Transkripcije pśeglědowaś
+add-questions = Pšašanja pśidaś
+review-questions = Pšašanja pśeglědowaś
+transcribe-audio = Awdio transkriběrowaś
 press-and-stories = Casnikaŕstwo a tšojenja
 community-and-languages = Zgromaźeństwo a rěcy
 coming-soon = Skóro k dispoziciji
