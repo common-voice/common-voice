@@ -3,7 +3,7 @@
 profile-form-username =
     .label = لیݨواڑا نانٚوَ
 profile-form-native-language =
-    .label = اپݨی بھاشا
+    .label = اپݨِیں بھاشا
 profile-form-additional-language =
     .label = ودھِیک بھاشا
 profile-form-language =
@@ -21,14 +21,14 @@ profile-form-age =
 profile-form-gender-2 =
     .label = نسݪ یاں نسݪ
 leaderboard-visibility =
-    .label = لیڈر بورڈ دِؔیسݨاں
+    .label = مُکھی بوڈ دِؔیسݨاں
 hidden = چھپوڑا
 visible = چاوا
 native-language =
-    .label = اپݨی بھاشا
+    .label = اپݨِیں بھاشا
 profile-form-add-accent = نواں اپݨِیں مرجِیا کا لیہکا سیمݪ کر "{ $inputValue }"
 profile-form-submit-save = بھیݪا
-profile-form-submit-saved = بھݪا ہووڑا
+profile-form-submit-saved = بھݪا ہووَڑا
 male_masculine = مِنکھ / مِنکھاڑا
 female_feminine = ٻائِیر / بھتاݨی
 intersex = نسݪ سیمݪ
@@ -39,7 +39,7 @@ do_not_wish_to_say = ٻولݨیں کی اِنچھا نائیں تی
 other = دُؔوجے
 why-profile-title = پروپھائل کاکام
 why-profile-text =
-    اپݨیں باریم کائھِیں جانکاری لی کن ، آڈیو ڈیٹا جکو تھم سادھارݨ اواجا کُو بھیݪا کرتے ہے ٻو ٻولݨیں نتر ودِیک اجرا ہوونگڑا۔
+    اپݨیں باریم کائھِیں جاݨکاری لی کن ، آڈیو ڈیٹا جکو تھم سادھارݨ اواجا کُو دؔیتے ہے ٻو ٻولݨیں نتر ودِھیک اجرا ہوونگڑا۔
     اوݪکھݨیں کی مسِین اس ڈیٹا کُو اجرا ٹھاوݨیں نتر اُپیوگ کرتے ہے.
 dashboard = نِئنترݨ پٹی
 build-profile = پروپھائل ٹھاؤ
@@ -47,8 +47,8 @@ avatar = اوَتار
 goals = لکش
 settings = نِویڑا
 edit-profile = پروپھائلام توڑ جوڑ کر
-profile-create-success = سپھلتا، پروپھائل ٹھاوݨاں!
-profile-close = بند
+profile-create-success = سپھلتا، پروپھائل ٹھاوَݨاں!
+profile-close = ٻندؔ
 profile-explanation = پروپھائلا بھیݪا اپݨیں ترکِیاپ نِگھا راکھ اور مھارے اواج ڈیٹا کُو ودھِیک سئی ہووݨینٚم ساہِتا کر۔
 thanks-for-account = اپݨیں اکاؤنٹا کی پک کرنے کا دھنیواد، اِٻکے آؤ تھارا کا پروپھائل ٹھاواں.
 why-demographic = یو کھاس کاکام ہے؟

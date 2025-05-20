@@ -156,6 +156,7 @@ write-contribute-menu-tooltip = Sätze hinzufügen und überprüfen, Fragen hinz
 add-sentences-menu-item-tooltip = Fügen Sie Sätze in Ihrer Sprache hinzu
 review-sentences-menu-item-tooltip = Überprüfen Sie Sätze in Ihrer Sprache
 add-questions-menu-item-tooltip = Fügen Sie Fragen in Ihrer Sprache hinzu
+review-questions-menu-item-tooltip = Fragen überprüfen
 transcribe-audio-menu-item-tooltip = Transkribieren Sie Audioaufnahmen in Ihrer Sprache
 
 ## MENU ITEM ARIA LABELS
@@ -164,4 +165,5 @@ write-contribute-menu-aria-label = Optionsmenü „Schreiben“
 add-sentences-menu-item-aria-label = Fügen Sie neue Sätze hinzu, damit die Gemeinschaft lesen kann
 review-sentences-menu-item-aria-label = Überprüfen Sie bestehende Sätze, die von der Gemeinschaft eingereicht wurden
 add-questions-menu-item-aria-label = Senden Sie neue Fragen ein, damit die Gemeinschaft sie lesen und beantworten kann
+review-questions-menu-item-aria-label = Überprüfen Sie bestehende Sätze, die von der Gemeinschaft eingereicht wurden, und stimmen Sie darüber ab.
 transcribe-audio-menu-item-aria-label = Transkribieren Sie Audioaufnahmen zu Text

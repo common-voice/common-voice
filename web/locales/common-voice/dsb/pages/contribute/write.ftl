@@ -164,6 +164,7 @@ write-contribute-menu-tooltip = Sady pśidaś a pśeglědowaś, pšašanja pśid
 add-sentences-menu-item-tooltip = Sady we wašej rěcy pśidaś
 review-sentences-menu-item-tooltip = Sady we wašej rěcy pśeglědowaś
 add-questions-menu-item-tooltip = Pšašanja we wašej rěcy pśidaś
+review-questions-menu-item-tooltip = Pšašanja pśeglědowaś
 transcribe-audio-menu-item-tooltip = Transkriběrujśo awdiowe nagraśa w swójej rěcy
 
 ## MENU ITEM ARIA LABELS
@@ -172,4 +173,5 @@ write-contribute-menu-aria-label = Meni nastajenjow Pisaś
 add-sentences-menu-item-aria-label = Pśidajśo nowe sady, kótarež zgromaźeństwo móžo cytaś
 review-sentences-menu-item-aria-label = Pśeglědujśo eksistěrujuce sady, kótarež su se zapódali wót zgromaźeństwa
 add-questions-menu-item-aria-label = Zapódajśo nowe pšašanja, kótarež móžo zgromaźeństwo cytaś a na nje móžo wótegroniś
+review-questions-menu-item-aria-label = Pśeglědujśo a głosujśo za nowe pšašanja, kótarež su se zapódali wót zgromaźeństwa
 transcribe-audio-menu-item-aria-label = Transkriběrujśo awdiowe nagraśa do teksta
