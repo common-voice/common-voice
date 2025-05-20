@@ -10,6 +10,8 @@ error-recording = შეცდო́მ (ხარცხილ'არ) ხილ'
 error-fetching-prompts = უ̂ნახ ხარვეზ (ხარცხილ'არ) ხილ'ეჼ მოთხო́ვნი ლე́ხოშ. დეხო́თხ, ჴე́ჼკაჸ ცადდო́ლუჲში̆.
 error-uploading-response = შეცდო́მ (ხარცხილ'არ) ხილ'ეჼ პა́სუხ ჰ̦ალო̆ ბჵე́ფოშ (ატვირთოდოშ)
 prompt-submitted-success = პა́სუხ დაქიშ დაჰ̦ითენო̆ ხილ'ეჼ.
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = დაჰ̦ითენო̆ ხილ'ეჼ
 
 ## Explainer text (Respond to Prompt)
 
