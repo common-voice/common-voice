@@ -12,6 +12,9 @@ error-uploading-response = შეცდო́მ (ხარცხილ'არ) �
 prompt-submitted-success = პა́სუხ დაქიშ დაჰ̦ითენო̆ ხილ'ეჼ.
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = დაჰ̦ითენო̆ ხილ'ეჼ
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = ვო́მაჸ დაჰ̦ითარ
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = გიბათ მოჰ̦ მაკ შუჼ საიტ ჴმა́რბადჲაჼ
