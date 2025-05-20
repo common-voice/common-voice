@@ -11,3 +11,4 @@ validate-page-skip-button-shortcut = P
 
 validation-guidelines-title = Směrnicy
 validation-guideline-3 = Jednore a lochke za kóždeho rozumić
+validation-guideline-4 = Hodźi so na to w mało sadach wotmołwić
