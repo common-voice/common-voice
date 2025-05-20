@@ -20,3 +20,6 @@ partial-questions-upload-message =
 add-question-guidelines-title = უ̂ხ შეკითხვი მაკ სო́ჼ ლა́ტჲაჼ?
 do-section-title = დე́წე̆ ხილაჼ
 do-section-guideline-1 = ნიფსიჩო̆ მართლწე́რევაჲ, გრამა́ტიკევაჲ
+do-section-guideline-2 = ატტაჼ შეკითხვი, ჰ̦ა́მინაჲნოჸ ჴე́თინი̆, მიჩრეჼ დაჲციჲე́ მიჩჰ̦ე́ დაჲცი̆
+do-section-guideline-3 = ო́შტუჼ, მე პა́სუხ ბალ'არ ცჰ̦აჲნი̆-ში́ნი̆ წინადა́დბევ ჴე́რჴბალა́ლო̆
+do-not-section-title = ცო დე́წე̆
