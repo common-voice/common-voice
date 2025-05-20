@@ -135,6 +135,7 @@ spontaneous-card-content = Reagearje op fragen om gegevenssets te meitsjen foar 
 language-text-card-header = Taaltekst
 language-text-card-content = Meitsje of diel fragen, sinnen en tekst yn it iepenbiere domein foar oersetting, lytse taalmodellen, en mear.
 add-text = Tekst tafoegje
+answer = Beäntwurdzje
 
 ## Community section
 

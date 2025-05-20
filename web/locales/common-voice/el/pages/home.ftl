@@ -125,6 +125,7 @@ spontaneous-card-content = Απαντήστε σε μηνύματα προτρο
 language-text-card-header = Κείμενο γλώσσας
 language-text-card-content = Δημιουργήστε ή μοιραστείτε μηνύματα δημόσιου τομέα, προτάσεις και κείμενο για μετάφραση, μικρά γλωσσικά μοντέλα και πολλά άλλα.
 add-text = Προσθήκη κειμένου
+answer = Απάντηση
 
 ## Community section
 

@@ -78,10 +78,10 @@ read-more-about = Läs mer på vår om sida
 
 ## NAV ITEMS
 
-answer-questions = Svara på frågor <small>(Kommer snart)</small>
-review-transcriptions = Granska transkriptioner <small>(Kommer snart)</small>
-add-questions = Lägg till frågor <small>(Kommer snart)</small>
-transcribe-audio = Transkribera ljud <small>(Kommer snart)</small>
+answer-questions = Svara på frågor
+review-transcriptions = Granska transkriptioner
+add-questions = Lägg till frågor
+transcribe-audio = Transkribera ljud
 press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk
 coming-soon = Kommer snart
@@ -128,11 +128,12 @@ spontaneous-card-content = Svara på frågor för att skapa datamängder för or
 language-text-card-header = Språktext
 language-text-card-content = Skapa eller dela offentliga domänuppdrag, meningar och text för översättning, små språkmodeller och mer.
 add-text = Lägg till text
+answer = Svara
 
 ## Community section
 
 community-section-title = Drivs av globala gemenskaper, för globala gemenskaper — 130 språk och växer!
-join-discord-community = Gå med i Discord-communityt
+join-discord-community = Gå med i Discord-gemenskapen
 # label for button
 join-discord-community-action = Gå med oss på Discord
 join-discord-community-content = Delta i diskussioner i språkgemenskapen, ställ frågor och lär dig om kommande evenemang och föredrag.

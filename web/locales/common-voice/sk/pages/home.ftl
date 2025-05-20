@@ -139,6 +139,7 @@ spontaneous-card-content = Reagujte na výzvy na vytvorenie kolekcií údajov pr
 language-text-card-header = Text jazyka
 language-text-card-content = Vytvárajte alebo zdieľajte verejné výzvy, vety a text na preklad, malé jazykové modely a ďalšie.
 add-text = Pridajte text
+answer = Odpovedajte
 
 ## Community section
 

@@ -10,6 +10,7 @@ datasets-positioning =
     På denne side finder du en oversigt over andre open source-samlinger af stemme-datasæt, og - i takt med at Common Voice vokser - en oversigt over vores udgivelser og opdateringer.
 language = Sprog
 download-dataset-header = Hent datasættet
+download-delta-explainer = Vi har lavet nogle ændringer. Delta-segmenter indeholder blot de seneste klip siden sidste udgivelse. <deltaLink>Læs mere om dette arbejde</deltaLink>.
 # File size in gigabytes
 size = Størrelse
 validated-hr-total = Validerede timer i alt

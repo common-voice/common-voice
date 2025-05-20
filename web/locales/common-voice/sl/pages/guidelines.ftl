@@ -5,6 +5,7 @@ sentence-collection = Zbiranje stavkov
 
 ## Voice collection sidebar content
 
+background-voices-explanation = Malo hrupa v ozadju je sprejemljivega, če pa se sliši drugo osebo izgovarjati razločne besede, posnetek zavrnite. To se lahko zgodi, če se je na primer v bližini odvijal pogovor ali je bil prižgan TV.
 
 ## Sentence collection nav ids
 

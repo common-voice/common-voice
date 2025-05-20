@@ -27,6 +27,8 @@ finance = Finans
 general = Generelt
 # Sentence Domain dropdown option
 healthcare = Sundhed
+# Sentence Domain dropdown option
+nature_environment = Natur og miljø
 sentence-variant-select-label = Sætningsvariant
 sentence-variant-select-placeholder = Vælg en variant (valgfrit)
 sentence-variant-select-multiple-variants = Generelt sprog / flere varianter

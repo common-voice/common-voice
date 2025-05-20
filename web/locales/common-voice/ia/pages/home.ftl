@@ -125,6 +125,7 @@ spontaneous-card-content = Responde al suggestiones pro crear collectiones de da
 language-text-card-header = Texto linguistic
 language-text-card-content = Crea o comparti suggestiones, phrases, e texto de dominio public pro traduction, parve modellos de lingua, e altero.
 add-text = Adder texto
+answer = Responder
 
 ## Community section
 

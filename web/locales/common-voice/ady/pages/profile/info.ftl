@@ -1,5 +1,7 @@
 ## ProfileForm
 
+profile-form-username =
+    .label = Цӏэ гъэфедакӏо
 profile-form-language =
     .label = Бзэ
 profile-form-age =

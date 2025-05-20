@@ -84,13 +84,14 @@ read-more-about = Lenn hiroc’h war ar bajenn A-zivout
 
 ## NAV ITEMS
 
-answer-questions = Respont da c'houlennoù <small>(a-raok pell)</small>
+answer-questions = Respont da c'houlennoù
 review-transcriptions = Adwelet treuzskrivadurioù <small>(a-raok pell)</small>
 add-questions = Ouzhpennañ goulennoù <small>(a-raok pell)</small>
 transcribe-audio = Treuzskrivañ enrolladennoù <small>(a-raok pell)</small>
 press-and-stories = Kazetennoù ha pennadoù
 community-and-languages = Kumuniezhioù ha yezhoù
 coming-soon = Dizale
+spontaneous-speech = KOMZ NATUREL
 
 ## MENU ITEMS TOOLTIPS
 
