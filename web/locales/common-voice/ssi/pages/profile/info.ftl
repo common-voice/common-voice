@@ -3,7 +3,7 @@
 profile-form-username =
     .label = لیݨواڑا نانٚوَ
 profile-form-native-language =
-    .label = اپݨی بھاشا
+    .label = اپݨِیں بھاشا
 profile-form-additional-language =
     .label = ودھِیک بھاشا
 profile-form-language =
