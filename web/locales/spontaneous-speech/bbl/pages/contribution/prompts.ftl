@@ -20,3 +20,6 @@ submit-all-button = ვო́მაჸ დაჰ̦ითარ
 learn-how-to-use-prompts = გიბათ მოჰ̦ მაკ შუჼ საიტ ჴმა́რბადჲაჼ
 learn-how-to-use-prompts-explanation = უ̂ნმაკ ბუნებრივ პა́სუხ ლიბათ შეკითხვეხი́ ლე მოთხო́ვნეხ, ცჰ̦აჲნი̆-შინ წინადა́დბევ. ცადლიბათ ზრდილბა́რენე ხალა́ნცოხე́თდუჲნი̆ ა́ლ'არ ხილ'ულო̆ შუგო
 learn-how-to-use-prompts-guidance = <guidanceLink>წკაპბა́ჴითათ ესე</guidanceLink>, მე ხო́ჸლუჲში̆, მო́ჰ ჴმა́რბადანდეწი́ში̆ ე საიტ
+learn-how-to-use-transcribe = გიბათ, მო́ჰ̦  ჲეწი́შ ჲალ'აჼ ნაწე́რენ ჲუჰ̦  (სა́ხე̆)
+learn-how-to-use-transcribe-explanation = ცადლიბათ ნიფს ო დაწე́რადოლუჲში̆, უ̂ნე́ იშა́რეჩო̆ ჩანაწე́რე ხაწ შუჼ, ო ცო́მლე́ვდუჲნი̆ ჲა́ხხეჼ ბგე́რიაჲ, მუჲლნე́ ჲაიცი̆: "ჰმ", "ეეჰ".
+learn-how-to-use-transcribe-guidance = <guidanceLink>წკაპბა́ჴითათ ესე</guidanceLink>, მე ხო́ჸლუჲში̆, მო́ჰ ჴმა́რბადანდეწი́ში̆ ე საიტ
