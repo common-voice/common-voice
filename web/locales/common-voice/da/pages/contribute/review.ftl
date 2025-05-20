@@ -17,7 +17,7 @@ sc-review-form-button-approve = Godkend
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = J
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = A
+sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = P
 sc-review-form-keyboard-usage-custom = Du kan også bruge tastaturgenveje: { sc-review-form-button-approve-shortcut } for at Godkende, { sc-review-form-button-reject-shortcut } for at Afvise, { sc-review-form-button-skip-shortcut } for at Springe over
