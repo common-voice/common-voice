@@ -1,8 +1,11 @@
 ## Validate Page
 
+validate-page-instruction = Pśeglědajśo <validateIcon></validateIcon> wótpowědujo toś to pšašanje směrnicam?
 dataset-label = Datowa sajźba
 accept-vote-toast-message = Wuspěšnje akceptěrowane pšašanje
 reject-vote-toast-message = Wuspěšnje wótpokazane pšašanje
+add-vote-error-message = Pśi wótgłosowanju wó naspominanju jo zmólka nastała
+no-questions-message = Njedajo tuchylu žedne naspominanja, kótarež daju se za toś tu rěc pśeglědowaś. Pšosym aktualizěrujśo bok abo wopytajśo pózdźej hyšći raz.
 validate-page-yes-button-shortcut = J
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = P

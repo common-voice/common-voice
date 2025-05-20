@@ -1,6 +1,6 @@
 ## Validate Page
 
-validate-page-instruction = Přepruwujće <validateIcon></validateIcon> wotpowěduja tute prašenja směrnicam?
+validate-page-instruction = Přepruwujće <validateIcon></validateIcon> wotpowěduje tute prašenje směrnicam?
 dataset-label = Datowa sadźba
 accept-vote-toast-message = Wuspěšnje akceptowane prašenje
 reject-vote-toast-message = Wuspěšnje wotpokazane prašenje
