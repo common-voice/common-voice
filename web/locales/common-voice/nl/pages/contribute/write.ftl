@@ -156,6 +156,7 @@ write-contribute-menu-tooltip = Zinnen toevoegen en beoordelen, Vragen toevoegen
 add-sentences-menu-item-tooltip = Zinnen in uw taal toevoegen
 review-sentences-menu-item-tooltip = Zinnen in uw taal beoordelen
 add-questions-menu-item-tooltip = Vragen in uw taal toevoegen
+review-questions-menu-item-tooltip = Vragen beoordelen
 transcribe-audio-menu-item-tooltip = Audio-opnamen in uw taal transcriberen
 
 ## MENU ITEM ARIA LABELS
