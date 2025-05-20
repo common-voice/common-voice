@@ -2,6 +2,10 @@
 
 validate-page-instruction = შეამოწმეთ <validateIcon></validateIcon> ეს კითხვა აკმაყოფილებს წესებს?
 dataset-label = კრებული
+accept-vote-toast-message = კითხვა წარმატებით არის მიღებული
+reject-vote-toast-message = კითხვა წარმატებით არის უარყოფილი
+add-vote-error-message = კითხვაზე ხმის მიცემისას შეცდომა მოხდა
+no-questions-message = ამ ენისთვის, ამჟამად, შესამოწმებელი კითხვები არ არის. გთხოვთ, განაახლოთ გვერდი ან სცადოთ მოგვიანებით.
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S
