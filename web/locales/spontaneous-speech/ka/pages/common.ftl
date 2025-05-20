@@ -5,11 +5,11 @@ error = შეცდომა
 action-click = დაწკაპეთ
 action-tap = შეეხეთ
 # Label for language switcher
-platform-language = პლატფორმის ენა:
-platform-language-tooltip-text = ცვლის მხოლოდ ვებსაიტის ტექსტს.
+platform-language = საიტის ენა:
+platform-language-tooltip-text = ცვლის მხოლოდ წარწერებს საიტზე
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = წვლილის შესატანი ენა { $language }
+contribution-picker-label = წვლილის შესატანი ენაა <bold>{ $language }</bold>
 contribution-picker-tooltip-text = ცვლის მონაცემთა კრებულის ენას, რომელშიც წვლილი შეგაქვთ
 coming-soon = სხვა ენები მალე დაემატება!
 media-recorder-api-not-supported = MediaRecorder API არაა მხარდაჭერილი თქვენს ბრაუზერში.
@@ -61,3 +61,7 @@ xkl = კენიური
 
 ## Language search component
 
+language-search-placeholder = ენის მოძებნა...
+language-search-aria-label = ენის მოძებნა
+language-search-label = ცვლის მხოლოდ კრებულში წვლილის შესატან ენას
+language-search-no-results = ენა არ მოიძებნა

@@ -77,6 +77,7 @@ read-more-about = Күбрәк мәгълүмат «Хакында» сәхиф�
 
 ## NAV ITEMS
 
+coming-soon = Тиздән
 
 ## MENU ITEMS TOOLTIPS
 
@@ -92,6 +93,9 @@ read-more-about = Күбрәк мәгълүмат «Хакында» сәхиф�
 
 ## Action items section
 
+spontaneous-card-header = Кинәт туган сөйләм
+language-text-card-header = Телегездәге текст
+add-text = Текст өстәү
 
 ## Community section
 
@@ -104,6 +108,7 @@ read-more-about = Күбрәк мәгълүмат «Хакында» сәхиф�
 
 ## Get involved section
 
+read-sentences-link = Җөмләләрне уку
 
 ## Partner section
 

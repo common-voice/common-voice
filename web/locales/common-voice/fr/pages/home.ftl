@@ -78,17 +78,15 @@ read-more-about = Pour en savoir plus lisez notre page À propos
 ## NAV ITEMS
 
 answer-questions = Répondez aux questions <small>(prochainement)</small>
-answer-questions-coming-soon = Répondre à des questions <small>(prochainement)</small>
 review-transcriptions = Vérifiez les transcriptions <small>(prochainement)</small>
-review-transcriptions-coming-soon = Vérifier les transcriptions <small>(prochainement)</small>
 add-questions = Ajoutez des questions <small>(prochainement)</small>
-add-questions-coming-soon = Ajoutez des questions <small>(prochainement)</small>
-transcribe-audio-coming-soon = Transcriptions audio <small>(prochainement)</small>
 transcribe-audio = Transcriptions audio <small>(prochainement)</small>
 press-and-stories = Presse et articles
 community-and-languages = Communautés et langues
 coming-soon = Prochainement
 about-us = À propos
+scripted-speech = PAROLE LUE
+spontaneous-speech = PAROLE SPONTANÉE
 
 ## MENU ITEMS TOOLTIPS
 

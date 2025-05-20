@@ -88,14 +88,9 @@ read-more-about = Read more on our About page
 
 ## NAV ITEMS
 answer-questions = Answer Questions
-answer-questions-coming-soon = Answer Questions <small>(Coming soon)</small>
 review-transcriptions = Review Transcriptions
-review-transcriptions-coming-soon = Review Transcriptions <small>(Coming soon)</small>
 add-questions = Add Questions
-add-questions-coming-soon = Add Questions <small>(Coming soon)</small>
 review-questions = Review Questions
-review-questions-coming-soon = Review Questions <small>(Coming soon)</small>
-transcribe-audio-coming-soon = Transcribe Audio <small>(Coming soon)</small>
 transcribe-audio = Transcribe Audio
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages
@@ -139,6 +134,7 @@ language-text-card-header = Language Text
 language-text-card-content = Create or share public domain prompts, sentences, and text for translation, small language models, and more.
 coming-soon = Coming Soon
 add-text = Add Text
+answer = Answer
 
 ## Community section
 community-section-title = Powered by global communities, for global communities — 130 languages and growing!

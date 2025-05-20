@@ -76,12 +76,8 @@ read-more-about = Læs mere på vores Om-side
 ## NAV ITEMS
 
 answer-questions = Besvar spørgsmål
-answer-questions-coming-soon = Besvar spørgsmål <small>(kommer snart)</small>
 review-transcriptions = Gennemgå transskriptioner
-review-transcriptions-coming-soon = Gennemgå transskriptioner <small>(kommer snart)</small>
 add-questions = Tilføj Spørgsmål
-add-questions-coming-soon = Tilføj spørgsmål <small>(kommer snart)</small>
-transcribe-audio-coming-soon = Transskriber lyd <small>(kommer snart)</small>
 transcribe-audio = Transskriber lyd
 coming-soon = Kommer snart
 about-us = Om os

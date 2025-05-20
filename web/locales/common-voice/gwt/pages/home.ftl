@@ -76,12 +76,8 @@ read-more-about = امنہ بارا موخہ رتئ واری بی ژَؤ
 ## NAV ITEMS
 
 answer-questions = کھُد نامَنی جواب ݪِؤ<small>(ددُوپی ژِمان)</small>
-answer-questions-coming-soon = سوال نامَنی جواب ݪِؤ<small>(ددُوپی ژِمان</small>)
 review-transcriptions = ٹرانسکِپشَنَنہ جائزہ گوؤ<small>(ݭُورہ ژِمان)</small>
-review-transcriptions-coming-soon = نقل کېرِکَنہ جائزہ گؤ<small>(ددُوپی ژِمان)</small>
 add-questions = کھُد نامہ لُبُسَؤ<small>( ݭُورہ ژِمان)</small>
-add-questions-coming-soon = کھُد نامہ لُبُسَؤ<small>( ݭُورہ ژِمان)</small>
-transcribe-audio-coming-soon = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
 transcribe-audio = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
 press-and-stories = پرېس اؤ ہیڄان نام
 community-and-languages = برادری اؤ باتی نام

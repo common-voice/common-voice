@@ -85,26 +85,51 @@ read-more-about = Preberite več na naši strani O nas
 
 ## NAV ITEMS
 
+answer-questions = Odgovarjajte na vprašanja
+add-questions = Dodajte vprašanja
 press-and-stories = Novice in zgodbe
 community-and-languages = Skupnost in jeziki
+coming-soon = Kmalu na voljo
+about-us = O nas
+scripted-speech = PISANI GOVOR
+spontaneous-speech = SPONTANI GOVOR
 
 ## MENU ITEMS TOOLTIPS
 
+about-us-menu-item-tooltip = Spoznajte poslanstvo in ekipo, ki stoji za projektom Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Več o partnerstvih s Common Voice
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = Tehnologija, ki govori vaš jezik
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Zakaj bi umetna inteligenca delovala samo v peščici svetovnih jezikov?</bold>
+hero-subtitle-2 = Naš jezik je naša zgodba, naša skupnost, naša kultura. Ustvarimo nabore podatkov, ki jih želimo videti v svetu.
+# icon is an arrow that points downwards
+get-started = Začnite <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Pisani govor
+spontaneous-card-header = Spontani govor
+add-text = Dodaj besedilo
 
 ## Community section
 
+# label for button
+join-discord-community-action = Pridružite se nam na Discordu
+find-us-on-matrix = Poiščite nas na Matrixu
+# label for button
+find-us-on-matrix-action = Poiščite nas na Matrixu
+contribute-github = Prispevajte na GitHubu
+# label for button
+contribute-github-action = Prispevajte na GitHubu
 
 ## Featured section
 
@@ -114,9 +139,14 @@ community-and-languages = Skupnost in jeziki
 
 ## Get involved section
 
+answer-questions-link = Odgovarjajte na vprašanja
+contribute-text-link = Prispevajte besedilo
 press-and-stories-link = Novice in zgodbe
 
 ## Partner section
 
+partner-section-title = Postanite naš partner
+# icon is an arrow that points to the right
+get-in-touch-button = Obrnite se na nas <icon></icon>
 # Partners section
 our-partners-include = Med našimi partnerji so ...

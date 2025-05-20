@@ -61,3 +61,7 @@ xkl = Кенийский
 
 ## Language search component
 
+language-search-placeholder = Поиск языка...
+language-search-aria-label = Поиск языка
+language-search-label = Изменяет язык интерфейса для поиска набора данных
+language-search-no-results = Языки не найдены

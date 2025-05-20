@@ -11,12 +11,18 @@ coming-soon = Flere sprog kommer snart
 skipped = Sprunget over
 audioplayer-header = Lyt
 guidelines = Retningslinjer
+# For the button to report an item
+report-button = Rapportér
 # For the button to skip an item
 skip-button = Spring over
 submit-button = Indsend
+contribute = Bidrag
+request-new-language = Anmod om nyt sprog
 
 ## Navbar
 
+respond-to-prompt = Svar
+transcribe = Transskriber
 question = Spørgsmål
 
 ## Not Found Page
@@ -27,6 +33,7 @@ not-found-page-content = Den side, du leder efter, blev ikke fundet
 accept-privacy-and-terms = Jeg accepterer Common Voices' <termsLink>vilkår</termsLink> og <privacyLink>privatlivserklæring</privacyLink>
 en = Engelsk
 fr = Fransk
+tr = Tyrkisk
 
 ## Language search component
 

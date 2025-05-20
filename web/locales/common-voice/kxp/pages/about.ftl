@@ -83,12 +83,26 @@ about-playbook-how-add-language-translating-content-2 =
     وڌاري زويا هارو آ سائيٽ مان زوئو۔ </localizationFragment>.<localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملا ڀيۯا ڪرو
 about-playbook-how-add-language-collecting-sentences-content-1 = رهنمائي هارُو آ لنڪ نين زوئو ڪي جُملا جمع ٿئي ڪي۔ <sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تمين آ جُملا نين ڪانڪ وقت هارو  <sentenceCollectorLinkAdd>تمين هاڇي تبديل ڪري ڪو سو۔
+    </sentenceCollectorLinkAdd>،
+    يان تمين  <bulkImportDocsLink>GitHub يان هيئي راڇا هارو جُملا  يان عوامي ملڪيت لازمي سي</bulkImportDocsLink> يان تمين پوتي جُملا لڇي ڪو سيو۔
+    شُون تمان نين ترجما مان ڪوئي لحجا ني ضروروت سي؟
+about-playbook-how-add-language-collecting-sentences-content-3 = جمع ڪرل جُملان وڌاري زوئو
 
 ## How does localization work
 
+about-playbook-how-localize = تصديق ٿل سائيٽ چيچم ڪام ڪري سي؟
+about-playbook-how-localize-content-1 = ڪامن وائيس نو ترجما ٿي شُون ٿائي سي
+about-playbook-how-localize-content-2 = زي تمارو اڪائونت نٿي تو ٺاهو۔ پسي ايڪ ٻولي چونڊو هان پسي ايڪ پروجيڪ چونڊو۔ زي ڪامن وائيس سي۔ اڃي ايڪ فائيل هشي زي ترجما هارو هشي۔ ڪوئي ايڪ ماٿي ڪلڪ ڪرو اين مان ايڪ کانا مان انڳريزي مان اکر هشي اين نٽ ترجمو ڪرو۔ </pontoonCvLink> </pontoonAccountLink> <pontoonCvLink>
+about-playbook-how-localize-content-3 = انڳريزي ٿي ترجمو ڪرو۔ پڻ تمين ٻيزي ٻولي نا مشورا نين زوئو۔ پروفائيل ماٿي ڪلڪ ڪرو۔ پسي سيٽنگ مان زائينَ ٻوليا هارو ٻولي نين چونڊو۔ زمڻي پاسي ماٿي ايڪ ڪنڊ مان ايڪ لسٽ ترجما هارو آلل هشي۔ ايڪ ۮاڙا چير ترجمو ڪرو۔
+about-playbook-how-localize-content-4 = 75 فيصد ٿئي زائي تار پيش ڪريا هارو تيار سي۔
+about-playbook-how-localize-content-5 = امارا ويڊيا نين بيان ڪريا هارو مدد ڪرو
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = مُون چچم جملا جمع ڪريوش
+about-playbook-how-add-sentences-content-1 = آ لنڪ مان تماري جُملا جمغ ڪروا سي۔ <writePageLink> لڇا هارو </writePageLink>  يان جملا ني دوهرائي هارو <reviewPageLink> صفعو دهرائي ڪرو۔
 
 ## How to record quality
 

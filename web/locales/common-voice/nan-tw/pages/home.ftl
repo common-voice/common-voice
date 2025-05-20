@@ -75,11 +75,8 @@ read-more-about = 到咱的「關於」頁面了解閣較濟資訊
 ## NAV ITEMS
 
 answer-questions = 回答問題 <small>(咧欲推出)</small>
-answer-questions-coming-soon = 回答問題 <small>(咧欲推出)</small>
 review-transcriptions = 審核轉錄 <small>咧欲推出</small>
-review-transcriptions-coming-soon = 審核轉錄 <small>這欲推出</small>
 add-questions = 新增問題 <small>(咧欲推出)</small>
-transcribe-audio-coming-soon = 轉錄語音 <small>(咧欲推出)</small>
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體佮故事
 community-and-languages = 社群佮語言

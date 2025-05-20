@@ -88,11 +88,8 @@ read-more-about = ስለ ገፃችን የበለጠ ያንብቡ
 ## NAV ITEMS
 
 answer-questions = ጥያቄዎችን ይመልሱ <small>(በቅርብ ጊዜ)</small>
-answer-questions-coming-soon = ጥያቄዎችን ይመልሱ <small>(በቅርብ ቀን)</small>
 review-transcriptions = ፅሁፎችን ይገምግሙ
-review-transcriptions-coming-soon = ፅሁፎችን ይገምግሙ <small>(በቅርቡ ቀን)</small>
 add-questions = ጥያቄዎችን ያክሉ <small>(በቅርብ ጊዜ)</small>
-transcribe-audio-coming-soon = ድምፅ ወደ ፅሁፍ ይገልብጡ < small>(በቅርቡ የሚመጣ)</small>
 transcribe-audio = ድምጹን ወደ ፅሁፍ ይገልብጡ
 press-and-stories = ህትመት እና ታሪኮች
 community-and-languages = ማህበረሰብ እና ቋንቋዎች

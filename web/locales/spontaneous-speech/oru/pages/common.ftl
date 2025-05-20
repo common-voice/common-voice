@@ -61,3 +61,7 @@ xkl = کېنیاح
 
 ## Language search component
 
+language-search-placeholder = ته زبان ا تلاش
+language-search-aria-label = تلاش ته زبان پاره
+language-search-label = صرف فۀ زبان نر ا تبدیلئے ا څېن که ډېټاسېټ نر موجود بَۀ
+language-search-no-results = هېڅ زبان يې نک ووک ݭیوک

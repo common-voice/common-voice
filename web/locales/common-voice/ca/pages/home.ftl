@@ -76,11 +76,8 @@ read-more-about = Vegeu més informació a la pàgina «Qui som»
 ## NAV ITEMS
 
 answer-questions = Responeu preguntes
-answer-questions-coming-soon = Responeu preguntes <small>(pròximament)</small>
 review-transcriptions = Reviseu transcripcions
-review-transcriptions-coming-soon = Reviseu transcripcions <small>(pròximament)</small>
 add-questions = Afegiu preguntes <small>(pròximament)</small>
-transcribe-audio-coming-soon = Transcriviu àudio <small>(pròximament)</small>
 transcribe-audio = Transcriviu àudio
 press-and-stories = Premsa i articles
 community-and-languages = Comunitat i llengües

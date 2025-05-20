@@ -43,3 +43,7 @@ tr = Tiếng Thổ Nhĩ Kỳ
 
 ## Language search component
 
+language-search-placeholder = Tìm kiếm ngôn ngữ...
+language-search-aria-label = Tìm kiếm ngôn ngữ
+language-search-label = Chỉ thay đổi ngôn ngữ đóng góp của tập dữ liệu
+language-search-no-results = Không tìm thấy ngôn ngữ nào

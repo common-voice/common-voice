@@ -82,12 +82,8 @@ read-more-about = Cytajśo wěcej wó boku Wó Common Voice
 ## NAV ITEMS
 
 answer-questions = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
-answer-questions-coming-soon = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
 review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
-review-transcriptions-coming-soon = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
 add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
-add-questions-coming-soon = Pšašanja pśidaś <small>(pśiźo skóro)</small>
-transcribe-audio-coming-soon = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
 press-and-stories = Casnikaŕstwo a tšojenja
 community-and-languages = Zgromaźeństwo a rěcy
@@ -135,6 +131,7 @@ spontaneous-card-content = Wótegrońśo na naspominanja, aby datowe sajźby za 
 language-text-card-header = Rěcny tekst
 language-text-card-content = Napórajśo abo źělśo zjawne naspominanja, sady a tekst za pśełoženje, małe rěcne modele a wěcej.
 add-text = Tekst pśidaś
+answer = Wótegroniś
 
 ## Community section
 

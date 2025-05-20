@@ -76,12 +76,8 @@ read-more-about = Διαβάστε περισσότερα στη σελίδα «
 ## NAV ITEMS
 
 answer-questions = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
-answer-questions-coming-soon = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
 review-transcriptions = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
-review-transcriptions-coming-soon = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
-add-questions-coming-soon = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
-transcribe-audio-coming-soon = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
@@ -129,6 +125,7 @@ spontaneous-card-content = Απαντήστε σε μηνύματα προτρο
 language-text-card-header = Κείμενο γλώσσας
 language-text-card-content = Δημιουργήστε ή μοιραστείτε μηνύματα δημόσιου τομέα, προτάσεις και κείμενο για μετάφραση, μικρά γλωσσικά μοντέλα και πολλά άλλα.
 add-text = Προσθήκη κειμένου
+answer = Απάντηση
 
 ## Community section
 
@@ -145,7 +142,7 @@ ask-mozilla-share = Ζητήστε από τη Mozilla να μοιραστεί �
 ask-mozilla-share-content = Έχετε κάποια προηγούμενη ή επερχόμενη εκδήλωση; Μοιραστείτε το μαζί μας και θα το ανακοινώσουμε στην κοινότητά μας ή θα γράψουμε μια ανάρτηση blog για αυτην!
 # label for button
 ask-mozilla-share-action = Μοιραστείτε την εκδήλωσή σας
-download-contribution-certificate = Κάντε λήψη του πιστοποιητικού συνεισφοράς σας
+download-contribution-certificate = Απόκτηση πιστοποιητικού συνεισφοράς
 download-contribution-certificate-content = Κάντε λήψη ενός πιστοποιητικού για τις εκδηλώσεις σας ή τον εαυτό σας αν έχετε συνεισφέρει στο Common Voice. Τίποτα θα ήταν δυνατό χωρίς εσάς!
 # label for button
 download-contribution-certificate-action = Λάβετε το πιστοποιητικό σας

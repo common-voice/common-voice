@@ -16,10 +16,11 @@ media-recorder-api-not-supported = MediaRecorder API تمچي برائُوزرا
 # Toast message that is displayed when an item is skipped
 skipped = ڇوڙتِي ڏِلَي
 audioplayer-header = سُڻا
+guidelines = هدايتا
 # For the button to report an item
 report-button = رپورٽ
 # For the button to skip an item
-skip-button = ڇوڙڻ
+skip-button = ڇوڙا
 submit-button = جمع ڪراوَڻ
 contribute = حِصا ڏِيئڻ
 request-new-language = نَوِين ٻولِي چِي درخواست ڏِيا۔
@@ -60,3 +61,7 @@ xkl = ڪينياه
 
 ## Language search component
 
+language-search-placeholder = ٻولِي چي ڪاڻ سوڌا
+language-search-aria-label = هيڪ ٻولِي سوڌا
+language-search-label = رُگَي ڊيٽاسيٽا چِي ڪنٽريبيُوشنا هاڙِي ٻولِي نُون مٽاوا۔
+language-search-no-results = ڪو بِي ٻولِي ڪونهِي لڀلِي

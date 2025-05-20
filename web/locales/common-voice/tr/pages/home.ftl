@@ -79,12 +79,8 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 ## NAV ITEMS
 
 answer-questions = Soru yanıtla <small>(Çok yakında)</small>
-answer-questions-coming-soon = Soru yanıtla <small>(Çok yakında)</small>
 review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
-review-transcriptions-coming-soon = Çeviri metinleri incele <small>(Çok yakında)</small>
 add-questions = Soru ekle <small>(Çok yakında)</small>
-add-questions-coming-soon = Soru ekle <small>(Çok yakında)</small>
-transcribe-audio-coming-soon = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
@@ -132,6 +128,7 @@ spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri k
 language-text-card-header = Dilinizde Metinler
 language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
 add-text = Metin ekleyin
+answer = Yanıt ver
 
 ## Community section
 

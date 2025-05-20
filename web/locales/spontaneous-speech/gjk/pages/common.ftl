@@ -61,3 +61,7 @@ xkl = ڪينيا
 
 ## Language search component
 
+language-search-placeholder = ٻولِي ڳوتو
+language-search-aria-label = ٻولِي ڳوتو
+language-search-label = صِرف ڍيٽاسيٽ نِي ڪنٽريبِيُوشِن ٻولِي نين تٻۮيل ڪريَِ سي۔
+language-search-no-results = ڪونئين پڻ ٻولِي نٿِي زڙِي

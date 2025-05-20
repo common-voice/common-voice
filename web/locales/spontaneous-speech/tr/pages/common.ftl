@@ -61,3 +61,7 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Dil ara...
+language-search-aria-label = Dil ara
+language-search-label = Yalnızca destek verilen veri kümesinin dilini değiştirir
+language-search-no-results = Dil bulunamadı

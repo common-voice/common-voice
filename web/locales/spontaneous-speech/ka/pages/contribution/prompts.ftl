@@ -20,8 +20,8 @@ submit-all-button = ყველას გადაგზავნა
 
 ## Explainer text (Respond to Prompt)
 
-learn-how-to-use-prompts = იხილეთ, როგორ უნდა გამოიყენოთ ეს გვერდი
-learn-how-to-use-prompts-explanation = უპასუხეთ მოთხოვნას რაც შეიძლება ბუნებრივად, ორიოდე წინადადებით. ეცადეთ, თქვენ მიერ ნათქვამი იყოს მეტად თავაზიანი და უწყინარი.
+learn-how-to-use-prompts = იხილეთ, როგორ გამოიყენოთ გვერდი
+learn-how-to-use-prompts-explanation = უპასუხეთ კითხვას ან მოთხოვნას რაც შეიძლება ბუნებრივად, ორიოდე წინადადებით. ეცადეთ, თქვენი ნათქვამი იყოს მეტად თავაზიანი და უწყინარი.
 learn-how-to-use-prompts-guidance = <guidanceLink>დაწკაპეთ აქ</guidanceLink>, რომ შეიტყოთ, თუ როგორ გამოიყენოთ ეს გვერდი
 learn-how-to-use-transcribe = იხილეთ, როგორ წარმოადგინოთ ნაწერის სახით
 learn-how-to-use-transcribe-explanation = ეცადეთ ზუსტად დაწეროთ, რასაც ხმოვან ჩანაწერში გაიგონებთ, მათ შორის ადგილის შემავსებელი გაწელილი ბგერებიც, მაგალითად „ჰმ“, „ეეჰ“.

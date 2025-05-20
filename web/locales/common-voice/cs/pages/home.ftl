@@ -79,12 +79,8 @@ read-more-about = Přečtěte si více na stránce O nás
 ## NAV ITEMS
 
 answer-questions = Odpovídání na otázky <small>(Již brzy)</small>
-answer-questions-coming-soon = Odpovídejte na otázky <small>(Již brzy)</small>
 review-transcriptions = Kontrola přepisů <small>(již brzy)</small>
-review-transcriptions-coming-soon = Kontrolujte přepisy <small>(již brzy)</small>
 add-questions = Přidat otázky <small>(Již brzy)</small>
-add-questions-coming-soon = Přidat otázky <small>(Již brzy)</small>
-transcribe-audio-coming-soon = Přepisujte zvuk <small>(již brzy)</small>
 transcribe-audio = Přepis zvuku <small>(již brzy)</small>
 press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
@@ -132,6 +128,7 @@ spontaneous-card-content = Reagujte na výzvy k vytvoření datových sad pro or
 language-text-card-header = Text jazyka
 language-text-card-content = Vytvářejte nebo sdílejte veřejné výzvy, věty a texty pro překlad, malé jazykové modely a další.
 add-text = Přidat text
+answer = Odpovídejte
 
 ## Community section
 

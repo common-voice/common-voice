@@ -74,11 +74,8 @@ read-more-about = warek asta mas, Homa bari una page una
 ## NAV ITEMS
 
 answer-questions = Sawal ze Jawab ( ghans' en dai)
-answer-questions-coming-soon = Sawal ze Jawab ( ghans' en dai)
 review-transcriptions = Sawal jama kari ( ghans' en dai)
-review-transcriptions-coming-soon = Sawal jama kari ( ghans' en dai)
 add-questions = Sawal jama kari ( ghans' en dai)
-transcribe-audio-coming-soon = Sawal ze Jawab ( ghans' en dai)
 transcribe-audio = Sawal ze Jawab ( ghans' en dai)
 press-and-stories = Press (khabar) ze Oc'oh'ink
 community-and-languages = Comety ze Zuban

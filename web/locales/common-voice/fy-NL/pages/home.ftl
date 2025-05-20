@@ -86,12 +86,8 @@ read-more-about = Mear ynfo op ús side Oer
 ## NAV ITEMS
 
 answer-questions = Fragen beäntwurdzje <small>(ynkoarten)</small>
-answer-questions-coming-soon = Fragen beäntwurdzje <small>(ynkoarten)</small>
 review-transcriptions = Transkripsjes beoardiele <small>(ynkoarten)</small>
-review-transcriptions-coming-soon = Transkripsjes beoardiele <small>(ynkoarten)</small>
 add-questions = Fragen tafoegje <small>(ynkoarten)</small>
-add-questions-coming-soon = Fragen tafoegje <small>(ynkoarten)</small>
-transcribe-audio-coming-soon = Audio transkribearje <small>(ynkoarten)</small>
 transcribe-audio = Audio transkribearje <small>(ynkoarten)</small>
 press-and-stories = Parse en ferhalen
 community-and-languages = Mienskip en talen
@@ -139,6 +135,7 @@ spontaneous-card-content = Reagearje op fragen om gegevenssets te meitsjen foar 
 language-text-card-header = Taaltekst
 language-text-card-content = Meitsje of diel fragen, sinnen en tekst yn it iepenbiere domein foar oersetting, lytse taalmodellen, en mear.
 add-text = Tekst tafoegje
+answer = Beäntwurdzje
 
 ## Community section
 

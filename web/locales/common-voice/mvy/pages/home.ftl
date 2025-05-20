@@ -76,12 +76,8 @@ read-more-about = پن٘ڑَیں بابتی مہ مُت پڑہ
 ## NAV ITEMS
 
 answer-questions = سوالہ واں جواب دےۡ<small>(ہن٘گس ایں یاں تھو)</small>
-answer-questions-coming-soon = سوالہ واں جواب دےۡ <small>(ہن٘گس اېن٘یۡیاں تُھو)</small>
 review-transcriptions = اوازہ نہ لِکژیل دُوہیڑی نھالہ<small>(ہن٘گس ایں یاں تھو)</small>
-review-transcriptions-coming-soon = اوازہ نہ لِکژېل دُوہیڑی نھالہ <small>(ہن٘گس اېن٘یۡیاں تُھو)</small>
 add-questions = سوالہ ٹل کرہ<small>(ہن٘گس ایں یاں تھو)</small>
-add-questions-coming-soon = سوالہ ٹل کرہ <small>(ہن٘گس اېن٘یۡیاں تُھو)</small>
-transcribe-audio-coming-soon = بنژیل اواز لِکہ <small>(ہن٘گس اېن٘یۡیاں تُھو)</small>
 transcribe-audio = بنژیل اواز لِکہ<small>(ہن٘گس ایں یاں تھو)</small>
 press-and-stories = اخبار تے خبری
 community-and-languages = خلکہ تے ژِبہۡ

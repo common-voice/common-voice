@@ -1,6 +1,6 @@
 ## Question Page
 
-question-page-instruction = ჟ'ე̄საქმ შეკითუ̂ა</icon>{ $currentLocale }-თე, ერე ხა̈ლხდ ლოხპასხუ̂ას
+question-page-instruction = ჟ'ე̄საქმ შეკითხუ̂ა</icon>{ $currentLocale }-თე, ერე ხა̈ლხდ ლოხპასხუ̂ას
 add-question-textarea-placeholder = მაგალითად, “იმშა̈შდ ჯიცხა სი ტექოლოგია̄̈ ლიჴმა̈რი?”
 add-questions-terms-checkbox = მი ხუ̂ადასტურე, ერე ალ შეკითხვა ლი <publicDomainLink>საჯარო საკუთრება </publicDomainLink> ი მი ნა̈ბ მუღუ̂ა ჟილიტუ̂ირთა̈უ̂ი̄შ.
 question-dataset-language = ლუყუ̂ბე მონაცემა̈რ: { $datasetLanguage }
@@ -23,6 +23,6 @@ do-section-guideline-1 = ა̈ხჴჷმა̈რ სწორ მართლ�
 do-section-guideline-2 = ა̈ხითშ მარტიუ̂ კითხუ̂ა̄̈ლ, ხედუ̂ა̄̈ჲს მა̈გ ჩუ̂ა̈ცხრუნი, კულტურა̄̈შ ი კონტექსტი მიუხედაუ̂ად
 do-section-guideline-3 = დარწმუნდი, ერე ალ კითხუ̂ა̄̈ლჟი პასხუ̂ი ლიტხე ჯი იმა̈რგ აშხუ̂-ჲარუ̂ წინადადებოშ
 do-not-section-title = დე̄სა
-do-not-section-guideline-1 = ხიჰრ პერსონალურ საიდენტიფიკაციო ინფორმაცია (მაგალითად, ჟა̄ხა̈ლ, ფინანსურ ინფორმაცია)
+do-not-section-guideline-1 = ხიჰრ პერსონალურ საიდენტიფიკაციო ინფორმაცია (მაგალითად, ჟა̄ხა̄̈ლ, ფინანსურ ინფორმაცია)
 do-not-section-guideline-2 = გამოხატე, ჰედ ხიჰრ მიკერძოებულ მო̄დეჲ შეურაცხმყოფელ გრძნობა̄̈ლ
 do-not-section-guideline-3 = დასუ̂ი დელიკატურ შეკითხუ̂ა̄̈ლ

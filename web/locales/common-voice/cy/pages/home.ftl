@@ -90,12 +90,8 @@ read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
 ## NAV ITEMS
 
 answer-questions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
-answer-questions-coming-soon = Ateb Cwestiynau <small>(Yn dod cyn hir)</small>
 review-transcriptions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
-review-transcriptions-coming-soon = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
 add-questions = Ychwanegu Cwestiynau <small>(Yn dod cyn hir)</small>
-add-questions-coming-soon = Ychwanegu Cwestiynau <small>(Yn dod cyn hir)</small>
-transcribe-audio-coming-soon = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 transcribe-audio = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 press-and-stories = Y Wasg a Straeon
 community-and-languages = Cymuned ac Ieithoedd
@@ -143,6 +139,7 @@ spontaneous-card-content = Ymateb i bromptiau i greu setiau data ar gyfer cyd-de
 language-text-card-header = Testun Iaith
 language-text-card-content = Creu neu rannu promptiau parth cyhoeddus, brawddegau, a thestunau i'w cyfieithu, modelau iaith bychan, a mwy.
 add-text = Ychwanegu Testun
+answer = Ateb
 
 ## Community section
 

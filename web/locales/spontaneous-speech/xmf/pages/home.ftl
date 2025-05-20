@@ -8,21 +8,21 @@ prompt-bubble-title = <mark>მოთხუალა</mark>
 prompt-bubble-subtitle = ჩქი გოძირანთ მოთხუალას ვარდა ოკითხუეფს
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>გამა</mark>
-respond-bubble-subtitle = ქეცადით, ქუგამათ მუთ შილებენ ორთაშურო
+respond-bubble-subtitle = ქეცადით, მუთ შილებენ ორთაშურო ქუგამათ
 # text wrapped in <mark></mark> will have a blue background
-transcribe-bubble-title = <mark>ნაჭარათ გინორთინაფა</mark>
+transcribe-bubble-title = <mark> ნაჭარათ გინორთინაფა </mark>
 transcribe-bubble-subtitle = დოჭარით, მუსუთ ხონარუან ინნაჭარას გეგონენთჷნი
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>გინოჯინა</mark>
-check-bubble-subtitle = ქიგნაჯინით, ნაჭარათ გინორთელი ხონარუან ინნაჭარაში მანგური ქორე თუ ვარჷნი
+check-bubble-subtitle = ქიგნაჯინით, ნაჭარათ გინორთელი ხონარუან ინნაჭარაში მანგი ქორე თუ ვარჷნი
 # text wrapped in <mark></mark> will have a blue background
-data-bubble-title = <mark>მუნაჩემეფი</mark>
+data-bubble-title = <mark> მუნაჩემეფი </mark>
 data-bubble-subtitle = ჩქი პერიოდულო გუმუაქიანენთ მუნაჩემეფიშ ბაზას
 contact-us = ქიდმეკავშირით
 contact-us-email = ელფოსტა:<emailFragment> commonvoice@mozilla.com </emailFragment>
-signup-form-title = თქვა ანწი რეთო Beta-გინოჯინაში ჩქინ ბუნას Common Voice’s-იშ სპონტანურ ჩიებაში პროექტიშოთ?
+signup-form-title = თქვა ანწი რეთო Beta-გინოჯინაში ჩქინ ბუნას Common Voice’s-იშ სპონტანურ ჩიებაში პროექტის?
 signup-input-placeholder = გემშიჸონით თქვან ელფოსტა
-signup-button-value = ქუმომიჯღონი ლინკი ჩქიმ მეილიშა
-footer-text-privacy = <privacyLink>პირადულობა</privacyLink>
-footer-text-terms = <termsLink>პირობეფი</termsLink>
-footer-text-cookies = <cookiesLink>ფაილეფი<cookiesLink>
+signup-button-value = ქუმომიჯღონი რსხილი ჩქიმი ელფოსტაშა
+footer-text-privacy = <privacyLink> პირადულობა </privacyLink>
+footer-text-terms = <termsLink> პირობეფი </termsLink>
+footer-text-cookies = <cookiesLink> ფაილეფი <cookiesLink>

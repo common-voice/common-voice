@@ -61,3 +61,7 @@ xkl = ڪيٚنئيٚا
 
 ## Language search component
 
+language-search-placeholder = ايڪ زبآن ڏيکڻو
+language-search-aria-label = ايڪ زبآن ڏيکڻو
+language-search-label = رگو شرآڪتت ڪرڻ آڙي ٻولي بدلآئوو
+language-search-no-results = ڪوني ملي زبآن

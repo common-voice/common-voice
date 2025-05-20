@@ -61,3 +61,7 @@ xkl = کینیا
 
 ## Language search component
 
+language-search-placeholder = زبان نا تلاش کرو
+language-search-aria-label = زبان کی تلاش
+language-search-label = صرف ڈیٹا سیٹ کی شراکت کی زبان ما تبدیلی کرو
+language-search-no-results = کائے زبان نیہہ ملی

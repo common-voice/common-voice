@@ -61,3 +61,6 @@ xkl = كېنىيەچە
 
 ## Language search component
 
+language-search-placeholder = تىل ئىزدە…
+language-search-aria-label = تىل ئىزدە
+language-search-no-results = تىل تېپىلمىدى

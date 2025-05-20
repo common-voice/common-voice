@@ -74,12 +74,8 @@ read-more-about = Scopri di più sulla pagina Informazioni
 ## NAV ITEMS
 
 answer-questions = Rispondi alle domande <small>(disponibile a breve)</small>
-answer-questions-coming-soon = Rispondi alle domande <small>(disponibile a breve)</small>
 review-transcriptions = Convalida trascrizioni <small>(disponibile a breve)</small>
-review-transcriptions-coming-soon = Convalida trascrizioni <small>(disponibile a breve)</small>
 add-questions = Aggiungi domande <small>(disponibile a breve)</small>
-add-questions-coming-soon = Aggiungi domande <small>(disponibile a breve)</small>
-transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile a breve)</small>
 transcribe-audio = Trascrivi audio <small>(disponibile a breve)</small>
 press-and-stories = Stampa e storie
 community-and-languages = Comunità e lingue
@@ -127,6 +123,7 @@ spontaneous-card-content = Rispondi alle domande per creare dataset relativi a c
 language-text-card-header = Testo in lingua
 language-text-card-content = Crea o condividi domande, frasi e testi di pubblico dominio per traduzioni, modelli linguistici di piccole dimensioni e altro ancora.
 add-text = Aggiungi testo
+answer = Rispondi
 
 ## Community section
 

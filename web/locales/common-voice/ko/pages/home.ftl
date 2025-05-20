@@ -75,9 +75,7 @@ read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
 ## NAV ITEMS
 
 answer-questions = 질문 답변하기
-answer-questions-coming-soon = 질문에 답변하기 <small>(지원 예정)</small>
 review-transcriptions = 번역 검토
-review-transcriptions-coming-soon = 번역 검토 <small>(지원 예정)</small>
 
 ## MENU ITEMS TOOLTIPS
 

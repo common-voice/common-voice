@@ -76,12 +76,8 @@ read-more-about = اَمچي باري ۾ صفحي پر بڌِيڪ پڙها۔
 ## NAV ITEMS
 
 answer-questions = سوال ائُون جواب
-answer-questions-coming-soon = سوالان چي جواب ڏِيا <small> (جلدِي آوي هِتي چلي) </small>
 review-transcriptions = نقلان چا جائِزا گيهوا
-review-transcriptions-coming-soon = ٽرانسڪرپشنزِي چا جائزا گيهوا <small>  (جلدِي آوَي ڇَي چلا) </small>
 add-questions = سوال شامل ڪرا
-add-questions-coming-soon = سوال شامل ڪرا <small> (جلدِي آوي ڇَي چلا) </small>
-transcribe-audio-coming-soon = آڊيوئِي چِي نقل ڪرا <small> (جلدِي آوَي ڇَي چلا) </small>
 transcribe-audio = آڊيوئِي چِي نقل ڪرا
 press-and-stories = پريس ائُون ڪهاڻِيان
 community-and-languages = برادرِي ائُو ٻولِيا
@@ -97,7 +93,7 @@ about-us-menu-item-tooltip = ڪامن وائِيسا چي لارُون  مِشن
 about-us-menu-item-aria-label = اَمچي باري ۾ آپشن مينيُو
 partnerships-menu-item-tooltip = اَمهان سُون شِرڪت ڪرا
 press-and-stories-menu-item-tooltip = اَمچي بلاگا پر جاوا يان بڙي امچي باري ۾ لِکا
-community-and-languages-menu-item-tooltip = ڪامن وائِيسا ۾ برادرِيا ائُون ٻولِيا ائُون هِڪ سِرکي آواز سوڌا۔
+community-and-languages-menu-item-tooltip = برادرِيا ائُون ٻولِيا ائُون هِڪ سِرکي آواز سوڌا۔
 
 ## MENU ITEM ARIA LABELS
 
@@ -137,7 +133,7 @@ join-discord-community = ڊسڪارڊ برادرِي ۾ شامل هُوا۔
 # label for button
 join-discord-community-action = ڊسڪارڊا پر اَمهان ڀيڙي هُوا
 join-discord-community-content = برادرِي چِي ٻولِي ۾ باتان چِيتان ۾ حِصا گيهوا، سوال پُوڇا، ائُون آوَڻي هاڙي واقعيان ائُون باتان چِيتان چي باري ۾ جاڻا۔
-find-us-on-matrix = اَمهان نُون بيڊا هاڙي گدي پر سوڌا
+find-us-on-matrix = اَمهان نُون ميٽرڪسا پر سوڌا
 find-us-on-matrix-content = ميٽرڪس وڪندريقرت، ٻولڻي چالڻي چا اصل وقت، ائُون موزِيلا چي ترجِيحي باتا ڪرڻي هاڙي پليٽ فارما چي ڪاڻ هيڪ کُلوڙَي، هِلڪا ڦُلڪا تحفظ ڇَي۔
 # label for button
 find-us-on-matrix-action = اَمهان نُون ميٽرڪسا پر سوڌا

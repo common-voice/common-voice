@@ -44,3 +44,6 @@ tr = Turqisht
 
 ## Language search component
 
+language-search-placeholder = Kërkoni për një gjuhë…
+language-search-aria-label = Kërkoni për një gjuhë
+language-search-no-results = S’u gjetën gjuhë
