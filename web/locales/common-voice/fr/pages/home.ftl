@@ -85,6 +85,8 @@ press-and-stories = Presse et articles
 community-and-languages = Communautés et langues
 coming-soon = Prochainement
 about-us = À propos
+scripted-speech = PAROLE LUE
+spontaneous-speech = PAROLE SPONTANÉE
 
 ## MENU ITEMS TOOLTIPS
 

@@ -22,3 +22,4 @@ need-help-deciding-platform = Besoin d’aide pour faire votre choix ?
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>Parole lue</strong> (que vous connaissez traditionnellement sous le nom de Common Voice), où vous avez la possibilité de lire des phrases à voix haute dans votre langue.
 need-help-deciding-platform-explanation-2 = <strong>Parole spontanée</strong> est une nouveauté de Common Voice, qui vous permet de répondre aux questions d’une manière plus naturelle et informelle.
+need-help-deciding-platform-explanation-3 = Si votre langue ne figure dans aucune partie de la plateforme, sélectionnez les deux.

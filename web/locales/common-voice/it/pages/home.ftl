@@ -123,6 +123,7 @@ spontaneous-card-content = Rispondi alle domande per creare dataset relativi a c
 language-text-card-header = Testo in lingua
 language-text-card-content = Crea o condividi domande, frasi e testi di pubblico dominio per traduzioni, modelli linguistici di piccole dimensioni e altro ancora.
 add-text = Aggiungi testo
+answer = Rispondi
 
 ## Community section
 

@@ -90,6 +90,7 @@ read-more-about = Read more on our About page
 answer-questions = Answer Questions
 review-transcriptions = Review Transcriptions
 add-questions = Add Questions
+review-questions = Review Questions
 transcribe-audio = Transcribe Audio
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages

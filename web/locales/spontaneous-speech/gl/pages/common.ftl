@@ -44,3 +44,7 @@ tr = Turco
 
 ## Language search component
 
+language-search-placeholder = Busque un idioma…
+language-search-aria-label = Busque un idioma
+language-search-label = Cambia só o idioma de contribución ao conxunto de datos
+language-search-no-results = Non se atopou ningún idioma

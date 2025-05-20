@@ -1,7 +1,7 @@
 ## ProfileForm
 
 profile-form-username =
-    .label = لیݨواڑا نانٚو
+    .label = لیݨواڑا نانٚوَ
 profile-form-native-language =
     .label = اپݨی بھاشا
 profile-form-additional-language =

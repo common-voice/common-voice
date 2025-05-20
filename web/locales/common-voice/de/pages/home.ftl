@@ -125,6 +125,7 @@ spontaneous-card-content = Beantworten Sie Aufforderungen, um Datensätze für o
 language-text-card-header = Sprachlicher Text
 language-text-card-content = Erstellen oder teilen Sie gemeinfreie Aufforderungen, Sätze und Text für die Übersetzung, kleine Sprachmodelle und mehr.
 add-text = Text hinzufügen
+answer = Antworten
 
 ## Community section
 
