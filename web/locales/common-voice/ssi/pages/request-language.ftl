@@ -2,14 +2,14 @@
 
 request-language-heading = ایک نویں ٻولیا کے باریم ٻُوجھو
 request-language-explanation-1 =
-    دؔیکھو کہ آیا تھاری ٻولی اسپے سیمل ہے یا نائی
-    <languagesPageLink>سادی آواج ٻولیں کا پنا</languagesPageLink>۔
-    اگر نائی، تو اس پھارما کُو بھرو اور ہم <strong>تھمکُو ایک سُکی ای میل گِھلاوں گے.
-    وِکھِیا کرو کہ تھاری ٻولیا کُو کِس جُو اِدؔائے جیمائی جائے</strong>۔
+    دؔیکھو کہ کِیا تھاری ٻولی اِسپے سیمل ہے یا نائیں
+    <languagesPageLink>سادی اواج ٻولیں کا پنا</languagesPageLink>۔
+    اگر نائیں، تو اس پھارما کُو بھرو اور ہم <strong>تھمکُو ایک سُکی ای میل گِھلاؤں گڑے.
+    جِس میں تھاری ٻولیا کُو اِدؔائے جِماوَݨیں کی وِیاکھِیا کرونٚگڑے</strong>۔
 request-language-form-email =
-    .label = تھارے ای میلا پتہ
+    .label = تھارے ای میلا کا پتا
 request-language-form-info =
-    .label = ٻولیا کے باریم جانکاری
+    .label = ٻولیا کے باریم جاݨکاری
 request-language-form-info-explanation =
     ٻولیا کے باریم گھݨے سے گھݨی جانکاری سیمل کرو. اس
     سیمل ہوئی سِکتا ہے:
