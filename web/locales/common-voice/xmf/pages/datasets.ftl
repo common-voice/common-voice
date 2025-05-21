@@ -1,6 +1,6 @@
 ## Datasets Page
 
-datasets-heading = მუნაჩემეფიშ ნაკათა
+datasets-heading = მუნაჩემეფიშ კათელი
 language = ნინა
 # File size in gigabytes
 size = ზომა
@@ -30,21 +30,30 @@ no-information = ვარე ინფორმაცია
 data-other-ted-name = TED-LIUM კორპუსი
 go-discourse = გინილი ოჩიებეშა
 go-languages-page = გინილი ნინეფიშ ხასლაშა
+ready-to-validate = ქორეთო ხაზირი, ქიდმეხვარათ ზიტყვასქვილეფიშ გინოჯინასჷნი?
+more = უმოსი
 close = კილუა
-download = გიმოჭარუა
+download = გიმოხარგუა
 dataset-version = ვერსია
+sha256-checksum-copied = SHA256 Checksum ამნახანტი ეჭოფილი რე!
+sha256-checksum-copied-error = SHA256 Checksum ამნახანტიქ ვეიაჭოფუ
+clipboard-not-supported = ამნახანტიშ ეჭოფუა ვარე ხუჯმეჩამილი
+no-information-available = ინფორმაცია ვარე ხემიოჭირინაფალი
 dataset-metadata-sex = სქესი
 # dataset metadata - age of contributor
 dataset-metadata-age = წანა
 donate-modal-message = თქვანი კრებულ გინმიჭარუ!
 dataset-donate-modal-heading = ქოიჩქუდესო...
+data-download-button = Common Voice-იშ მუნაჩემეფიშ გუმოხარგუა
 data-download-yes = ქო
 data-download-deny = ვარ
 data-download-license = ლიცენზია: <licenseLink>CC-0</licenseLink>
 data-download-modal = თქვა აპირენთ <size>{ $size } GB </size> ნტირულობაშ მუნაჩემეფიშ გიმოჭარუას, გოკონანო გაგძელათჷნი?
+data-get-started = <speechBlogLink> ქიდიჭყით ჩიებაში გიშაჩინება </speechBlogLink>
 data-other-title = შხვა ხონარუან მუნაჩემეფიშ კრებულეფი…
 data-other-goto = გინილი { $name }
 data-other-download = მუნაჩემეფიშ გიმოჭარუა
+data-bundle-button = მუნაჩემეფიშ კათელიშ პაკეტიშ გუმოხარგუა
 release-version = ვერსია
 dataset-date = თარიღი
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
