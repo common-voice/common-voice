@@ -81,6 +81,7 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 answer-questions = Soru yanıtla
 review-transcriptions = Çeviri metinleri incele
 add-questions = Soru ekle <small>(Çok yakında)</small>
+review-questions = Soruları incele
 transcribe-audio = Ses kayıtlarını metne çevir
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
