@@ -26,15 +26,15 @@ request-language-success-list-2 =
     ودھِیک ساہیتا کرنے نتر، اور اگر ہے تو تھم کُو بھتاوَݨیں نتر
     پہلسے ئی تھاری ٻولیاپ کام کرنواڑا پڑاوَ ہے
 request-language-success-list-3 =
-    اگر تھم کائیں دؔنیم ہم سے نائی سُݨتے ہے،
-    <emailLink>{ $email } پے پُگو</emailLink>
-    اور ہم تھارے کن پُٹھے جاوں گے!
+    جے تھم کُو کائیں دؔنیم ہم سے جباب نائیں مِلے،تو کِرپا کری
+    <emailLink>{ $email } </emailLink>سمپرک کرو
+    اور ہم تھارے کن ٻیگے پُوٹھے سمپرک کروُں گڑے!
 request-language-error =
-    ہوئی سِکتا ہے کہ ہمکُو یو اپیل پراپت نائی ہوئی ہو۔ کِرپا کری ہمکُو سُدا ای میل کرو
-    <emailLink>{ $email } پے اور</emailLink> ہم تھارے کن پُٹھے جاوں گے!
-request-for-scripted-speech-toggle = لِکھوڑے بھاشݨا کی اپیل
-request-for-spontaneous-speech-toggle = سوبھاویک بھاشݨا کی اپیل
-need-help-deciding-platform = کس کا چُوناو کرنا ہے اس کا چُوناو کرنیم ساہیتا کی جرورت ہے؟
+    ہوئی سِکتا ہے کہ ہمکُو یو ٻِنتی پراپت نائیں ہوئی۔ کِرپا کری ہمکُو سُودا ای میل کرو
+    <emailLink>{ $email } پے اور</emailLink> ہم تھم کُو جباب دؔیؤں گڑے!
+request-for-scripted-speech-toggle = لِکھوڑے بھاشݨا کی ٻِنتی
+request-for-spontaneous-speech-toggle = سُبھاوِک بھاشݨا کی ٻِنتی
+need-help-deciding-platform = کس کا چُناوَ کرنا ہے اس کا چُناوَ کرنیم ساہیتا کی جرورت ہے؟
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>اسکرپٹڈ بھاشݨ</strong> (پرمپراروپاس جِدؔا تھم سادی آواجا کے توراپ جاݨتے ہے) وہ جاگھا ہے جیتوڑ تھم اپݨی ٻولیام ٻول اونچی آواجام پڑھی سِکتے ہے۔
 need-help-deciding-platform-explanation-2 = <strong>سوبھاویک بھاشݨ</strong> سادی آواجا کا ایک ہئوا بھاگ ہے جیتوڑ تھم سُوال کا جواب گھݨا جیویت ، ٻول چالا کے ڈھنٚگام  دؔی سِکتے ہے۔
