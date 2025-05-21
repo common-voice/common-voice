@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = Wekezele ni orutele osoma farazi, wekezela zawuz
 add-sentences-menu-item-tooltip = Mweekezele farazi na luuka yeenu
 review-sentences-menu-item-tooltip = Nrutele osoma farazi za luuka yeenu
 add-questions-menu-item-tooltip = Mweekezele zawuuzela na luuka yeenu
+review-questions-menu-item-tooltip = Nruttele osoma zawuuzeliya
 transcribe-audio-menu-item-tooltip = Watikha karavasayu za ayutiyu na luuka yawo
 
 ## MENU ITEM ARIA LABELS

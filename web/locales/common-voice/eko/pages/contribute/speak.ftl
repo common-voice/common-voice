@@ -56,7 +56,7 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Naxhukhurela mwaasa wiikhelela huula yenu!
 second-cta-subtitle-text = Na perfili moote, mweeyo pooti yoona mananna zinettettaye khazizenu ni mwiniwoona apale anuukholisaweni khaazi amperekhaye tatu za huula.
-already-have-an-account = Mwiinawe kotha?<login>Nvire</login>
+already-have-an-account = Mwiinawe kootha?<login>Nvire</login>
 create-profile-button = Nkiriyari perfili
 # IMAGE TAGS
 img-alt-success-checkmark = nlama enonisawe owula
@@ -67,7 +67,7 @@ read-sentences-coming-soon = Osoma farazi <small>(Nasaapi)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Osma farazi, ocipu zawuzeliwa
+speak-contribute-menu-tooltip = Osoma farazi, ocipu zawuzeliwa
 read-sentences-menu-item-tooltip = Ocikaravari nsomaka farazi na luuka yenu
 answer-questions-menu-item-tooltip = Ocikaravari ncipwaka zahuzeliwa ni zoohicuwehi saana mweepile ziri luuka yenu
 
