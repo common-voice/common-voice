@@ -1,6 +1,6 @@
 ## Request Language Pages
 
-request-language-heading = ایک نویں ٻولیا کے باریم ٻُوجھو
+request-language-heading = ایک نوِیں ٻولیا کے باریم ٻُوجھو
 request-language-explanation-1 =
     دؔیکھو کہ کِیا تھاری ٻولی اِسپے سیمل ہے یا نائیں
     <languagesPageLink>سادی اواج ٻولیں کا پنا</languagesPageLink>۔
