@@ -3,6 +3,7 @@ guidelines-header = Directrius de col·laboració
 guidelines-header-subtitle = Enteneu com col·laborar i validar frases i talls de veu al conjunt de dades del Common Voice
 voice-collection = Recollida de veus
 sentence-collection = Recollida de frases
+question-collection = Col·lecció de preguntes
 
 ## Voice Collection nav ids
 
@@ -106,6 +107,32 @@ domain-explanation = El domini fa referència a la temàtica de la frase. Actual
 
 ## Question collection ids
 
+adding-questions = Afegir preguntes
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Què fa que una pregunta sigui bona?
+what-makes-a-good-question-explanation = Una bona pregunta per a conjunts de dades de participació pública hauria de:
+what-makes-a-good-question-explanation-criteria-1 = Ser fàcil d'entendre i de respondre
+what-makes-a-good-question-explanation-criteria-2 = Ser rellevant en general
+what-makes-a-good-question-explanation-criteria-3 = No usar ni sol·licitar llenguatge perjudicial o ofensiu
+what-makes-a-good-question-tip = També podríeu considerar abastar diferents contextos i dominis.
+easy-to-understand = Fàcil d'entendre
+easy-to-understand-explanation = Trieu preguntes senzilles que siguin fàcils d'entendre per tothom, independentment de la cultura o el context.
+spelling-and-pronunciation = Ortografia i puntuació
+spelling-and-pronunciation-explanation = L'ortografia i la gramàtica són correctes
+length = Longitud
+length-explanation = La pregunta s'hauria de poder respondre en només un parell de frases.
+dont-add-subheader = No afegiu
+culturally-specific-questions = Preguntes culturalment específiques
+culturally-specific-questions-explanation = Preguntes que són molt específiques de cada cultura o que fan moltes suposicions sobre la persona que respon
+length-avoid-explanation = Preguntes que algú tindria dificultats per respondre en 15 segons (la durada màxima del clip)
+process-steps = Procés / Passos
+process-steps-explanation = Preguntes que requereixen que algú enumeri diversos passos. L'enumeració dels passos demana a l'usuari que reciti una resposta en lloc d'una resposta més natural.
+offensive-content-sensitive-information = Contingut ofensiu o informació sensible
+offensive-content-sensitive-information-explanation-explanation-1 = Preguntes que podrien sol·licitar informació personal identificable
+offensive-content-sensitive-information-explanation-explanation-2 = Preguntes que puguin incitar a l'odi o altres sentiments esbiaixats o ofensius
+offensive-content-sensitive-information-explanation-explanation-3 = Preguntes que poden fer que algú comparteixi respostes sensibles i potencialment desencadenants
+example-questions-subheader = Preguntes d'exemple
+example-questions-explanation-1 = Podeu trobar <examplePromptsLink>120 preguntes d'exemple en aquest full.</examplePromptsLink>
+example-questions-explanation-2 = Si voleu enviar una sèrie de preguntes per a afegir-les, <githubLink>podeu fer-ho a través del nostre GitHub</githubLink> o enviar la llista per correu electrònic a <emailFragment>commonvoice@mozilla.com.</emailFragment>

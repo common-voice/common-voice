@@ -16,6 +16,9 @@ contribute = Col·laboreu‑hi
 
 ## Navbar
 
+respond-to-prompt = Resposta
+transcribe = Transcriu
+check-transcriptions = Revisa
 
 ## Not Found Page
 
