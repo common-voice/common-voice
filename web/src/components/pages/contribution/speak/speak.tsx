@@ -177,12 +177,13 @@ class SpeakPage extends React.Component<Props, State> {
     ) {
       // Dispatch the action to set the datasourceId
       this.props.setDatasourceId(this.props.match.params.datasource || '')
+      this.props.loadSentences(this.props.match.params.datasource || '')
     }
   }
 
   componentDidMount() {
     const { loadSentences } = this.props
-    loadSentences()
+    loadSentences(this.props.match.params.datasource || '')
 
     if (localStorage.getItem(USER_LANGUAGES)) {
       localStorage.removeItem(USER_LANGUAGES)

@@ -109,7 +109,7 @@ export namespace Sentences {
 
   export const actions = {
     refill:
-      () =>
+      (datasource?: string) =>
       async (
         dispatch: Dispatch<RefillAction | RefillLoadAction | RefillErrorAction>,
         getState: () => StateTree
@@ -132,9 +132,11 @@ export namespace Sentences {
             return
           }
 
+          console.log('refill', state, datasource)
           dispatch({ type: ActionType.REFILL_LOAD })
           const newSentences = await state.api.fetchRandomSentences(
-            CACHE_SET_COUNT
+            CACHE_SET_COUNT,
+            datasource
           )
           dispatch({
             type: ActionType.REFILL,

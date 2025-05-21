@@ -146,8 +146,15 @@ export default class API {
     return this.getLocalePath() + '/clips'
   }
 
-  async fetchRandomSentences(count = 1): Promise<Sentence[]> {
-    return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`)
+  async fetchRandomSentences(
+    count = 1,
+    datasource?: string
+  ): Promise<Sentence[]> {
+    return this.fetch(
+      `${this.getLocalePath()}/sentences${
+        datasource ? `/${datasource}` : ''
+      }?count=${count}`
+    )
   }
 
   async fetchRandomClips(count = 1): Promise<Clip[]> {
