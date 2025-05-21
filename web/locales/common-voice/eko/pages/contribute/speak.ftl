@@ -36,7 +36,7 @@ review-rerecord = Orutela okaravari
 review-cancel = Okhattaza winviyari
 review-keep-recordings = Osuka karavasayu
 review-delete-recordings = Ofhuca karavasayu zaka
-review-terms = Na huula za atthu <termsLink>Termus</termsLink> ni <privacyLink>Politika za privasitaatti</privacyLink>
+review-terms = Na huula za atthu <termsLink>Mananna wokhola</termsLink> ni <privacyLink>Politika za privasitaatti</privacyLink>
 terms-agree = Kakhupali
 terms-disagree = Akinkhupali
 # FIRST POST SUBMISSION CTA
@@ -44,18 +44,18 @@ first-cta-header-text = Naxukhuru wiiya mwanimeela kilipi zeenu za huula
 first-cta-subtitle-text = Mwiitakha onuuza hapari wa mananna mwinttakhulazo?
 why-donate = Mwinuuzela mwaasa?
 why-donate-explanation-1 = Khinkhanyereriwa otana hapari epi. Mwekezele paasi mmana mwiicoona saana. Mmana nilaleya nikhuru za hapari, hapari nkhama nzina, email nittela ovitha  zooxi, ni khaninlawa woonisela nyaakha wala soola (nkhama nlume wala muukha).
-why-donate-explanation-2 = Para yoori tekonologiya ziwarumeele atthu oxhi, taatu ziniwajutaraaye apale apakawe tekonologiya zinaaye woonisela vitthu soovirikana za atthu. Moniheryo, mmana  muhiitthiimo ntthu antakhulaye luuka yoocuweya(sotaakhi), tekonologiya khinlawa okhola khaazi para ntthu otule onttakhulawe luuka eto (sotaakhi).<learnMore>Ncuwelele importansiya ya metadados</learnMore>
+why-donate-explanation-2 = Para yoori tekonologiya ziwarumeele atthu oxhi, taatu ziniwajutaraaye apale apakaye tekonologiya zinaaye woonisela vitthu soovirikana za atthu. Moniheryo, mmana  muhiitthiimo ntthu antakhulaye luuka yoocuweya(sotaakhi), tekonologiya khinlawa okhola khaazi para ntthu otule onttakhulawe luuka eto (sotaakhi).<learnMore>Ncuwelele importansiya ya metadados</learnMore>
 add-information-button = Wekezela hapari
 continue-speaking-button = Wala, khaxukhuru, orutela nttakhulo
 create-profile-text = Mwiitakha opeha hapari zenu? <createProfile>Nkiriyari perfili moote</createProfile>
 thanks-for-voice-toast = Naxukhurela hapari zenu za huula
 thanks-for-voice-toast-error = Yavonyeya nitakhaka winviyari hapari za huula
-first-cta-gender-select-default-option = Nthawule opusaayu mmoote
+first-cta-gender-select-default-option = Nthawule opusaayu mmote
 first-cta-gender-select-help-text =
     .label = Mwaatikha toovi sexu wala generu?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Naxhukhurela mwaasa wiikhelela huula yenu!
-second-cta-subtitle-text = Na perfili, mweeyo pooti yoona mananna zinettettaye khazizenu ni mwiniwoona apale anuukholisaweni khaazi amperekhaye tatu za huula.
+second-cta-subtitle-text = Na perfili moote, mweeyo pooti yoona mananna zinettettaye khazizenu ni mwiniwoona apale anuukholisaweni khaazi amperekhaye tatu za huula.
 already-have-an-account = Mwiinawe kotha?<login>Nvire</login>
 create-profile-button = Nkiriyari perfili
 # IMAGE TAGS
