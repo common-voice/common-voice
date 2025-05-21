@@ -10,7 +10,7 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions } { $totalQuestions } سُئالیں کُو جما کراوَڑے
     }
 add-question-error-message = اپ لوڈ ناکام، کِرپا کری پُوٹھوانٚس یتن کرو.
-add-question-too-many-questions-error = 25 سوالاتیںٚس ودھیک. سوالاتا کی تاداد گھٹ کرو اور پُٹھا یتن کرو.
+add-question-too-many-questions-error = 25 سُئالیںٚس ودھِیک. سُئالیں کی گِݨتی گھٹ کرو اور پُوٹھا یتن کرو.
 partial-questions-upload-message =
     { $totalQuestions ->
         [one] جما کراوڑے 1 سوالاتامس { $uploadedQuestions } سوالات سیمل کرنے کے نامونے کے باریم ودھیک جاݨنے نتر مھارے <guidelinesLink>مارگ دؔیکھانواڑے</guidelinesLink> کے پنیں دیکھو
