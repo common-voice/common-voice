@@ -71,7 +71,7 @@ shortcut-rerecord-toggle = [Moote-Sitha]
 shortcut-rerecord-toggle-label = Orutela okaravari vitiyu
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Okathala karavasayu yawettetta
-shortcut-submit = Return
+shortcut-submit = Orutela
 shortcut-submit-label = Wiiviyari kilipi
 request-language-text = Luuka yeenu nalelo kinatthiwemo huula yaatthu awaatta
 request-language-button = Nveke luuka
@@ -91,10 +91,10 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = Kiriteriyu
-contribution-criteria-link = Mwisileze kiriteriyu sa nsokho
-contribution-criteria-page-title = Kiriteriyu sa nsokho
-contribution-criteria-page-description = Mucuwe yoori wekesa osila cilipi wa huula enajutari yoori karavasayu zeeno ziiye zoothajiri
+contribution-criteria-nav = Tarikhi soovira
+contribution-criteria-link = Mwisileze tarikhi soovira za nsokho
+contribution-criteria-page-title = Tarikhi zoovira za nsokho
+contribution-criteria-page-description = Mucuwe yoori wekesa osila kilipi wa huula enaajutari yoori karavasayu zeeno ziiye zoothajiri
 contribution-for-example = Nthonyeryo
 contribution-misreadings-title = Ohijuwelela saana osoma
 contribution-misreadings-description = Mwisileze saana, moonesese nkhama epile ekaravariwe eri etthipilewe saawatikhiwa. mukathale mmana mona yoori yavonyeya <br />: Muthevo epile ssoovonyeya vatithiru.
