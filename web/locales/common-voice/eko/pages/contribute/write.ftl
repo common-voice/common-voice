@@ -161,4 +161,5 @@ write-contribute-menu-aria-label = Menu za vitthu soowatikhiwa
 add-sentences-menu-item-aria-label = Mweekezele farazi pheeya yoori esomiwe okomunitaati
 review-sentences-menu-item-aria-label = Nrutele osoma farazi eriivo ziiviyariwe okomunitaati
 add-questions-menu-item-aria-label = Mwinviyari zaawuzela kiina yoori akumunitaati esome ni watikhe
+review-questions-menu-item-aria-label = Nruttele osoma ni moone thennya zahuzela zitisiwe okomutitaati
 transcribe-audio-menu-item-aria-label = Waatikha epili zookaravariwa na ayutiyu
