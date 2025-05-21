@@ -49,20 +49,20 @@ export const actions = {
       getState: () => StateTree
     ) => {
       const { api } = getState()
-      const allLanguages = await api.fetchAllLanguages()
+      // const allLanguages = await api.fetchAllLanguages()
 
       // For Development
-      // const allLanguages = [
-      //   {
-      //     id: 8,
-      //     name: 'ar',
-      //     target_sentence_count: 5000,
-      //     native_name: 'العربية',
-      //     is_contributable: 1,
-      //     is_translated: 1,
-      //     text_direction: 'RTL',
-      //   },
-      // ];
+      const allLanguages = [
+        {
+          id: 8,
+          name: 'ar',
+          target_sentence_count: 5000,
+          native_name: 'العربية',
+          is_contributable: 1,
+          is_translated: 1,
+          text_direction: 'RTL',
+        },
+      ]
 
       //get obj of native names, default to language code
       const nativeNames = allLanguages.reduce((names: any, language) => {
