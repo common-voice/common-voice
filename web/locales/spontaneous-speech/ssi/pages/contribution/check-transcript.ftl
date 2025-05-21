@@ -9,7 +9,7 @@ vote-transcript-success = ٹرانسکرپٹان سپلتاس ووٹ دِؔیا
 vote-transcript-error = ٹرانسکرپٹا کُو ووٹ دؔیتے سمے ایک کھرابی ہوئی
 transcript-edited-success = ٹرانسکرپٹ سپھلتاس توڑ جوڑ کری دؔی
 transcript-edited-error = ٹرانسکرپٹام توڑ جوڑ کرتے سمے ایک کھرابی سامے آئی
-error-fetching-transcriptions = نکݪ لیتے کرتے سمے تھوڑا گلت ہوئی گا۔ کِرپا کری پِچھیں میں پُوٹھا جتن کر۔
+error-fetching-transcriptions = انواد لیتے سمے تھوڑا گلت ہوئی گا۔ کِرپا کری پِچھیں پُوٹھا جتن کر۔
 transcript-skipped-success = ٹرانسکرپٹ سپھلتا کے سات چھوڈؔی دِؔیا
 transcript-skipped-error = ٹرانسکرپٹا کُو چھوڈؔ تییِاݨیں ایک کھرابی گھٹی
 # For the button on the Check Transcriptions page to assert that a transcription is correct
