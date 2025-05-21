@@ -21,11 +21,11 @@ submit-all-button = سارا کائھِیں جما کراؤ
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = اِس پنیں کا اُپیوگ کرنے کا نامُونا سِیکو
-learn-how-to-use-prompts-explanation = بس اسارے کا جباب سنسکرتیا کے توراپ دؔیو جِترا تھم کائہِیں ٻولیںٚم کری سِکتے ہے۔ اس ٻات کُو بھروسے  ٻݨاو کہ تھاری ٻولی یوگ سمان اور اپمان جنک ہے۔
-learn-how-to-use-prompts-guidance = اس پنیں کا اُپیوگ کرنے کا نامونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاو
-learn-how-to-use-transcribe = نکل کرنے کا نامونا سیکھو
-learn-how-to-use-transcribe-explanation = بالکل ٻوہی لِکھو جکو اس منکھان کیہیا تیا ، جس میں 'ام' یا 'ایررا' دؔیسے سٻدؔ بی سیمل ہے۔
-learn-how-to-use-transcribe-guidance = اس پنیں کا اُپیوگ کرنے کا نامونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاو
-learn-how-to-use-check-transcript = نکلا کی جانچ پڑتال کرنے کا نامونا سیکھو
+learn-how-to-use-prompts-explanation = بس جھالے کا جباب سنسکِرتِیا کے رُوپام دؔوٻولینٚم دؔیووَ۔ اس ٻاتا کُو بھروسے یاڑی ٻݨانٚوَ کہ تھاری ٻولی یوگ سمان اور اپمان جنک نائیں تی۔
+learn-how-to-use-prompts-guidance = اس پنیں کا اُپیوگ کرنے کا نامُونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاوَ
+learn-how-to-use-transcribe = نکݪ کرنے کا نامُونا سِکھو
+learn-how-to-use-transcribe-explanation = سپا ٻوہئی لِکھو جکو اس مِنکھان کیہیا تِیا ، جس میں 'ام' یا 'ایررا' دؔیسے سٻدؔ بی سیمل ہے۔
+learn-how-to-use-transcribe-guidance = اس پنیں کا اُپیوگ کرنے کا نامُونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاوَ
+learn-how-to-use-check-transcript = نکݪا کی جانچ پڑتال کرنے کا نامُونا سِکھو
 learn-how-to-use-check-transcript-explanation = ایک نکلا کُو ہر اس سٻدؔاس یا گیر لغوی ٻات چیتا کی آواجا کُو پاکڑنا چاوے جکو منکھا کے جریعہ کیہیا تیا ، بسمول تکرار۔
 learn-how-to-use-check-transcript-guidance = اس پنیں کا اُپیوگ کرنے کا نامونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاو
