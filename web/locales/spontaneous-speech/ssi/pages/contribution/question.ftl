@@ -25,4 +25,4 @@ do-section-guideline-3 = اِس باتا کُو بھروسے یاڑی ٻیݨان
 do-not-section-title = نائیں کرنا
 do-not-section-guideline-1 = اپݨیں آپ اوݪکھݨی جاݨکارِیا کی ماںٚگ کرو (جِدؔا نانٚو یا آرتھِک جاݨکاری )
 do-not-section-guideline-2 = ماںٚگ یا اپمان جنک بھاوَ چاوا یا وِنتی
-do-not-section-guideline-3 = حساس سوالات ٻُوجھو
+do-not-section-guideline-3 = بھاوُک سُئال ٻُوجھو
