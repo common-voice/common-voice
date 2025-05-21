@@ -27,5 +27,5 @@ learn-how-to-use-transcribe = نکݪ کرنے کا نامُونا سِکھو
 learn-how-to-use-transcribe-explanation = سپا ٻوہئی لِکھو جکو اس مِنکھان کیہیا تِیا ، جس میں 'ام' یا 'ایررا' دؔیسے سٻدؔ بی سیمل ہے۔
 learn-how-to-use-transcribe-guidance = اس پنیں کا اُپیوگ کرنے کا نامُونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاوَ
 learn-how-to-use-check-transcript = نکݪا کی جانچ پڑتال کرنے کا نامُونا سِکھو
-learn-how-to-use-check-transcript-explanation = ایک نکلا کُو ہر اس سٻدؔاس یا گیر لغوی ٻات چیتا کی آواجا کُو پاکڑنا چاوے جکو منکھا کے جریعہ کیہیا تیا ، بسمول تکرار۔
-learn-how-to-use-check-transcript-guidance = اس پنیں کا اُپیوگ کرنے کا نامونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاو
+learn-how-to-use-check-transcript-explanation = ایک نکݪا کُو ہر اُس سٻدؔاس یا گیر بھاشا ٻات ٻِگتا کی اواجا کُو پاکڑنا چاہوے جکو مِنکھا کے جرِئے کیہیا تیا ، دؔانٚتا بھیݪا۔
+learn-how-to-use-check-transcript-guidance = اس پنیں کا اُپیوگ کرنے کا نامُونا جاݨنے نتر <guidanceLink>ایٹھے</guidanceLink> دؔٻاوَ
