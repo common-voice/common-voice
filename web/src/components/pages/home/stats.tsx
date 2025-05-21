@@ -225,12 +225,21 @@ export namespace ClipsStats {
 
     pathRef: any = React.createRef()
 
-    async componentDidMount() {
-      await this.updateData()
+    componentDidUpdate(prevProps: PropsFromState) {
+      if (prevProps.api.datasource !== this.props.api.datasource) {
+        this.updateData(this.props.api.locale, this.props.api.datasource)
+      }
+      // If the datasource has changed, fetch new data from the API.
     }
 
-    updateData = async (locale?: string) => {
-      this.setState({ data: await this.props.api.fetchClipsStats(locale) })
+    async componentDidMount() {
+      // await this.updateData()
+    }
+
+    updateData = async (locale?: string, datasource?: string) => {
+      this.setState({
+        data: await this.props.api.fetchClipsStats(locale, datasource),
+      })
     }
 
     handleMouseMove = (event: any) => {
@@ -362,11 +371,19 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
     state: { data: any[] } = { data: [] }
 
     async componentDidMount() {
-      await this.updateData()
+      // await this.updateData()
     }
 
-    updateData = async (locale?: string) => {
-      this.setState({ data: await this.props.api.fetchClipVoices(locale) })
+    componentDidUpdate(prevProps: PropsFromState) {
+      if (prevProps.api.datasource !== this.props.api.datasource) {
+        this.updateData(this.props.api.locale, this.props.api.datasource)
+      }
+    }
+
+    updateData = async (locale?: string, datasource?: string) => {
+      this.setState({
+        data: await this.props.api.fetchClipVoices(locale, datasource),
+      })
 
       // if window is mobile, data should be 5 items
       // if (window.innerWidth < 768) {

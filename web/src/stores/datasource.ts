@@ -20,6 +20,8 @@ export namespace Datasource {
     set:
       (datasourceId: string) =>
       (dispatch: Dispatch<SetAction>, getState: () => StateTree) => {
+        if (getState().datasource === datasourceId) return
+
         dispatch({
           type: ActionType.SET,
           datasourceId,

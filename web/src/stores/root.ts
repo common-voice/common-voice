@@ -93,7 +93,10 @@ export function reducers(
     datasource: Datasource.reducer(datasource, action as Datasource.Action),
   }
 
-  return { api: new API(newState.locale, newState.user), ...newState }
+  return {
+    api: new API(newState.locale, newState.user, newState.datasource),
+    ...newState,
+  }
 }
 const composeEnhancers =
   (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose

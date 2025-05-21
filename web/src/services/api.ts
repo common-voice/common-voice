@@ -17,6 +17,7 @@ import {
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
 import { USER_KEY } from '../stores/root'
+import { Datasource } from '../stores/datasource'
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'
@@ -47,11 +48,17 @@ const getChallenge = (user: User.State): string => {
 }
 
 export default class API {
-  private readonly locale: Locale.State
+  public readonly locale: Locale.State
   private readonly user: User.State
   private readonly abortController: AbortController
+  public readonly datasource: Datasource.State
 
-  constructor(locale: Locale.State, user: User.State) {
+  constructor(
+    locale: Locale.State,
+    user: User.State,
+    datasource: Datasource.State
+  ) {
+    this.datasource = datasource
     this.locale = locale
     this.user = user
     this.abortController = new AbortController()
@@ -128,7 +135,7 @@ export default class API {
   }
 
   forLocale(locale: string) {
-    return new API(locale, this.user)
+    return new API(locale, this.user, this.datasource)
   }
 
   getLocalePath() {
@@ -240,23 +247,39 @@ export default class API {
     })
   }
 
-  fetchClipsStats(locale?: string): Promise<
+  fetchClipsStats(
+    locale?: string,
+    datasource?: string
+  ): Promise<
     {
       date: string
       total: number
       valid: number
     }[]
   > {
-    return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats')
+    return this.fetch(
+      API_PATH +
+        (locale ? '/' + locale : '') +
+        '/clips/stats' +
+        (datasource ? '/' + datasource : '')
+    )
   }
 
-  fetchClipVoices(locale?: string): Promise<
+  fetchClipVoices(
+    locale?: string,
+    datasource?: string
+  ): Promise<
     {
       date: string
       value: number
     }[]
   > {
-    return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/voices')
+    return this.fetch(
+      API_PATH +
+        (locale ? '/' + locale : '') +
+        '/clips/voices' +
+        (datasource ? '/' + datasource : '')
+    )
   }
 
   fetchContributionActivity(
