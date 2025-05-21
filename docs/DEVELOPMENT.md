@@ -1,6 +1,47 @@
 # Setting up a local development environment
 
-[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer. You can either run the project using a [Docker](#docker) container or by setting it up [Manually](#manual-installation).
+## Contents 
+
+TODO
+
+## Who this guide is for
+
+This guide is intended for: 
+
+* Developers who would like to work on patching bugs or adding new features to the `common-voice` code base via pull requests
+* Developers who would like to self-host `common-voice` on their own infrastructure, or re-purpose it to their own needs. _NOTE:_ unfortunately due to resourcing constraints, we are unable to assist you in self-hosting outside of a commercial support arrangement, beyond what is given in this document. Please [make contact](mailto:commonvoice@mozilla.com?Subject=Inquiry about commercial hosting arrangements for Common Voice) if you would like further information regarding a commercial arrangement.  
+
+## Prerequistes 
+
+* `git` is installed on your local computer. [More information on installing `git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* You are familiar with common `git` commands like `git commit` and `git push`. 
+* `docker` is installed on your local computer. [More information on installing `docker`](https://docs.docker.com/engine/install/).
+* [`docker compose`](https://docs.docker.com/compose/) is installed on your system.
+* You are comfortable running Docker processes, either through the command line or through Docker desktop.
+
+## Summary to get up and running 
+
+* Fork and clone the repo 
+* Copy the `.env-local-docker.example` file to `.env-local-docker`, and edit as required for your context
+* Run `docker` containers with `docker compose up`
+* Flush `redis` cache when sentences from your language are imported 
+* Restart `docker` containers
+* Visit [http://localhost:9000](http://localhost:9000).
+
+## Forking and cloning the `common-voice` repository
+
+1. [Fork](https://github.com/common-voice/common-voice/fork) the `common-voice` repository into your own GitHub account. For help with forking, [refer to the GitHub documentation](https://help.github.com/articles/fork-a-repo/).
+
+2. Clone the `common-voice` repository onto your local computer. You will need to have `git` installed first. 
+
+```sh
+git clone https://github.com/common-voice/common-voice
+```
+For help with cloning, [refer to the GitHub documentation](https://help.github.com/articles/cloning-a-repository/). 
+
+_NOTE_: The `spontaneous-speech` components of Common Voice are not open source and are not available in this repository.
+
+## Project organization
 
 The project is organized into the following directories:
 
@@ -12,39 +53,69 @@ The project is organized into the following directories:
 - _web_: The Common Voice website files, written in [TypeScript](http://www.typescriptlang.org/). We use [React](https://reactjs.org/) to build the website.
 - _bundler_: Service that is creating the dataset release bundles for Common Voice, written in [TypeScript](http://www.typescriptlang.org/).
 
-## Docker
+## Orchestrating the environment with `docker` and `docker-compose`
 
-We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchestrate the local development environment configuration using [Docker](https://www.docker.com/). This is our recommended way of setting up your local development environment, as it will bypass the need to install each component separately.
+Common Voice uses Docker and Docker Compose for orchestrating the development environment. While it is possible to install each component separately, we neither encourage nor support this.
 
-### Requirements
+### `.env-local-docker` file
 
-- [Docker](https://www.docker.com/)
-- [docker-compose](https://docs.docker.com/compose/)
+`docker-compose` uses a configuration file - [`docker-compose.yaml`](../docker-compose.yaml) in order to build and launch `docker` containers. This file passes information such as the name of the containers,  the users they should be run as, and networking configuration information, to `docker`. 
 
-### Configuration
+It works hand in hand with a set of environment variables that are held in the `.env-local-docker` file. The `common-voice` repo contains an [example `.env-local-docker` file](../.env-local-docker.example). Each variable is prefixed with `CV_` so that it doesn't clash with any other `docker`-based applications running on your system.
 
-You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. If you want to modify any of these values, you will need to create a configuration file.
-
-If you're using Docker, you should save this file as `.env-local-docker` (see `.env-local-docker.example`) in the root directory of the project, and it will be formatted like unix env values, with each key having a `CV_` prefix. For example:
-
-```Dotenv
-CV_DB_ROOT_PASS="root"
-CV_MYSQLHOST="db"
-CV_IMPORT_SENTENCES="true"
-```
-
-Copy the example with:
+3. Copy the example file `.env-local-docker.example` to `.env-local-docker`
 
 ```sh
 > cd common-voice
 > cp .env-local-docker.example .env-local-docker
 ```
 
-This will instruct your application to import the sentences located in `server/data/*` on start up. This step is _IMPORTANT_ to be able to contribute to specific languages. Sentences are imported alphabetically by language code, so Arabic (`ar`) is imported before English (`en`), which is imported before Kiswahili (`sw`). Note that importing sentences for _all_ languages will take over 36 hours. 
+The environment variables held in this file are explained below:
 
-### Setup steps
+```Dotenv
+CV_DB_ROOT_PASS="voicewebroot"
+CV_MYSQLHOST="db"
+```
 
-Run the following commands:
+These variables specify the MySQL root password and the name of the Docker container which provides the database service. In general, these should not need to be modified. 
+
+```Dotenv
+CV_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT="http://storage:8080"
+CV_BULK_SUBMISSION_BUCKET_NAME="common-voice-bulk-submissions"
+CV_ENVIRONMENT="local"
+CV_PROD="false"
+```
+
+```Dotenv
+CV_IMPORT_SENTENCES="true"
+CV_IMPORT_LANGUAGES="en,de,tr"
+```
+
+These vars specify which sentences to import when the Docker containers are run. You should set `CV_IMPORT_SENTENCES` to "true" if you are testing a particular language, and then specify its language code in `CV_IMPORT_LANGUAGES`. This will instruct the application to import the sentences located in `server/data/*` on start up. This step is _IMPORTANT_ to be able to contribute to specific languages. Sentences are imported alphabetically by language code, so Arabic (`ar`) is imported before English (`en`), which is imported before Kiswahili (`sw`). Note that importing sentences for _all_ languages will take several hours, so be sure to specify only the language(s) you need. 
+
+```Dotenv
+CV_EMAIL_USERNAME_FROM="commonvoice@mozilla.com"
+CV_EMAIL_USERNAME_TO="commonvoice@mozilla.com"
+```
+
+If you are self-hosting Common Voice, you should change this to your email address. 
+
+```Dotenv
+CV_REDIS_URL="redis"
+```
+
+This specifies the caching docker container to use. You should only need to change this if you replace Redis with another caching layer
+
+```Dotenv
+CV_JWT_KEY=super-secure-key
+```
+
+This is used for JWT authentication. You don't need to change it
+
+
+### Running the application through `docker`
+
+4. Once you have cloned and forked the repo, copied the `.env-local-docker.example` file, then run the following commands:
 
 ```sh
 > cd common-voice
@@ -53,14 +124,16 @@ Run the following commands:
 
 This is going to:
 
-- Launch a mysql instance configured for `common-voice`
+- Launch a `mysql` instance configured for `common-voice`
 - Launch a fake GCP Cloud Storage instance to store files locally and avoid going through setting up GCP Cloud Storage
 - Mount the project using a Docker volume to allow reflecting changes to the codebase directly to the container
-- Import sentences from `server/data/*`
+- Import sentences from `server/data/*` if the key `CV_IMPORT_SENTENCES` is true
 - Launch `common-voice` server
 - Launch `bundler` service
 
-Once you've have imported the sentences for all locales (or just the ones that are of interest to you) open a new terminal and flush the redis cache:
+#### Flushing the `redis` cache
+
+Once you've imported the sentences for all locales specified in `CV_IMPORT_LANGUAGES`, open a new terminal and flush the `redis` cache:
 
 ```sh
 > docker exec -it redis redis-cli FLUSHALL
@@ -68,9 +141,11 @@ Once you've have imported the sentences for all locales (or just the ones that a
 
 This will ensure that on the next restart the languages, that we just imported sentences for, will be available for contribution.
 
-Restart the server and you should be able to visit the website at [http://localhost:9000](http://localhost:9000).
+Then, restart the server by stopping the containers (Ctrl+C on the command line) and then using `docker compose up` again. 
 
-**Notes**:
+You should be able to visit the Common Voice web server at [http://localhost:9000](http://localhost:9000).
+
+### Minimal setup
 
 The _bundler_ service is not strictly needed to run the common voice website. Run the following commands to just run the minimal setup:
 
@@ -79,9 +154,11 @@ The _bundler_ service is not strictly needed to run the common voice website. Ru
 > docker-compose up web
 ```
 
-Docker can be a very memory-intensive process. If you notice intermittent failures, or if features like auto-rebuilding crash, try increasing Docker's available memory from within Docker's _Preferences > Resources_ settings.\*\*
+Docker can be a very memory-intensive process. If you notice intermittent failures, or if features like auto-rebuilding crash, try increasing Docker's available memory from within Docker's _Preferences > Resources_ settings.
 
-#### Apple M1 Silicon
+## Troubleshooting
+
+### Apple M1 Silicon
 
 There is an outstanding issue where [MySQL doesn't work in Docker on Apple Silicon (as of 17th January 2022)](https://docs.docker.com/desktop/mac/apple-silicon/#known-issues). You can instead replace it with MariaDB in a [`docker-compose.override.yml` file](https://docs.docker.com/compose/extends/).
 
@@ -92,17 +169,15 @@ services:
     command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
 ```
 
-### Troubleshooting
-
-#### Couldn't connect to Docker daemon 
+### Couldn't connect to Docker daemon 
 
 If you get an error like the following when running native Docker (not Docker for Desktop),
 
-```
+```sh
 ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
 ```
 
-You may need to build a new image. You can do that by issuing the following commands:
+You may need to build a new Docker image. You can do that by issuing the following commands:
 
 ```sh
 > cd docker/
@@ -118,7 +193,7 @@ Then after this you can:
 
 You may have to run these commands as root/superuser.
 
-#### Running `docker-compose up` results in incorrect file system permissions on `/code/node_modules` directory 
+### Running `docker-compose up` results in incorrect file system permissions on `/code/node_modules` directory 
 
 After running `docker-compose up`, on Ubuntu, Fedora or other Linux-based systems, you may observe that the directory `/code/node_modules` is owned by `root:root` instead of `app:app`. 
 
@@ -153,59 +228,7 @@ The workaround is to first identify the `UID` and `GID` of the current user, the
 
 You should then be able to run `docker-compose up` successfully. 
 
-## Manual installation
-
-You may want to set up each component manually. In which case you will need:
-
-### Requirements
-
-- [NodeJS](https://nodejs.org) (v12+)
-- [yarn](https://yarnpkg.com) (v1 or higher)
-- [MySQL](https://www.mysql.com/downloads/) (v5.7 or higher)
-
-### Configuration
-
-You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. If you want to modify any of these values, you will need to create a configuration file.
-
-If you installed the app manually, create a `/config.json` with the config you want to override in JSON format. The keys will not have a `CV_` prefix. For example:
-
-```json
-{
-  "IMPORT_SENTENCES": false,
-  "MYSQLDBNAME": "voice",
-  "MYSQLHOST": "127.0.0.1",
-}
-```
-
-### Database preparation
-
-Once the required components are installed, you need to prepare your database.
-
-You can either create a MySQL superuser that that uses the default `DB_ROOT_USER` and `DB_ROOT_PASS` values from `/server/src/config-helper.ts` or create your own config as described above.
-
-### Cloud Storage configuration
-
-The Common Voice project uses Google Cloud Storage for voice clip storage. This will be provided for you if you use the Docker installation, but if you are doing local development you will need to set up your own Cloud Storage instance. For detailed although outdated instructions on how to do that, see [HOWTO_S3.md](./HOWTO_S3.md). The steps to setup Buckets on GCP should be similar.
-
-### Setup steps
-
-Make sure your MySQL server is running. Then run the following commands:
-
-```sh
-> yarn
-> yarn start
-```
-
-This will:
-
-1. Install all JavaScript dependencies.
-2. Build and serve files located in the `web` folder on localhost.
-3. Save uploaded voice clips onto Google's Cloud Storage.
-4. Lint and rebuild all js files on every change.
-
-You can then access the website at [http://localhost:9000](http://localhost:9000).
-
-## Linting
+## Linting Typescript code contributions
 
 We're using ESLint (with Typescript) and Prettier to lint the project.
 
@@ -233,16 +256,6 @@ For Docker, in `.env-local-docker`:
 CV_AUTH0_DOMAIN="<domain_here>"
 CV_AUTH0_CLIENT_ID="<client_id_here>"
 CV_AUTH0_CLIENT_SECRET="<client_secret_here>"
-```
-
-For local development, in `config.json`:
-
-```json
-"AUTH0": {
- "DOMAIN": "<domain_here>",
- "CLIENT_ID": "<client_id_here>",
- "CLIENT_SECRET": "<client_secret_here>"
-}
 ```
 
 6. You can add more login options to your app from the "Connections" tab
