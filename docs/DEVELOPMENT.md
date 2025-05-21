@@ -188,7 +188,7 @@ Then after this you can:
 
 ```sh
 > cd ..
-> docker-compose up
+> docker compose up
 ```
 
 You may have to run these commands as root/superuser.
@@ -206,25 +206,25 @@ when the `web` container is building.
 
 The root cause of this error is [this line](https://github.com/common-voice/common-voice/blob/bc8d0c501a51c735b907ad6e99368b2a47b3f15e/docker-compose.yaml#L62) in the `docker-compose.yaml`, which is intended to set the `GID` and `UID` to a non-root user. 
 
-`user: '${UID:-10001}:${GID:-10001}'`
+`user: '${UID:-1000}:${GID:-1000}'`
 
 (These settings also appear under the `bundler` config. The `bundler` is only used for dataset releases, so we're only concerned about the `web` config here.)
 
-However, this causes the `docker` user's `UID:GID` and the localhost user's `UID:GID` to be different. 
+However, in some cases, the `UID` and `GID` of your system may not be `1000:1000`, which causes the error. 
 
 The workaround is to first identify the `UID` and `GID` of the current user, then edit the line in `docker-compose.yaml` to have that `UID` and `GID`:
 
 ```sh
 > id -u
-1000
+2000
 
 > id -g
-1000
+2000
 ```
 
 (in `docker-compose.yaml`)
 
-`user: '${UID:-1000}:${GID:-1000}'`
+`user: '${UID:-2000}:${GID:-2000}'`
 
 You should then be able to run `docker-compose up` successfully. 
 
@@ -300,17 +300,18 @@ To update the list of locales run:
 > yarn import-locales
 ```
 
-## Running End to End Tests
+## Testing using Jest 
 
-Some end to end tests require you to create a test user for login purposes. To do so you will need to create a `cypress.env.json` file with the login details for that user and your auth0 domain. This file should be located in the root of the `web` directory. Your JSON file should look like this:
+We write unit tests using [Jest](https://jestjs.io/). Test files should be named `function_or_service.test.ts` where `function_or_service.ts` is the name of the Typescript file. 
 
-```json
-{
-  "auth0_domain": "auth0_domain",
-  "test_user_email": "test user email",
-  "test_user_password": "test user password"
-}
+To run a unit test, or _all_ unit tests in the application, first enter the Docker container and open a bash shell, then run `yarn test`:
+
+```sh
+docker exec -it common-voice bash
+$ yarn test
 ```
+
+To run a single unit test, run `yarn [path to test file]`.
 
 ## Submitting an Issue
 
