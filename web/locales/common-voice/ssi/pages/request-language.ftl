@@ -11,16 +11,16 @@ request-language-form-email =
 request-language-form-info =
     .label = ٻولیا کے باریم جاݨکاری
 request-language-form-info-explanation =
-    ٻولیا کے باریم گھݨے سے گھݨی جانکاری سیمل کرو. اس
-    سیمل ہوئی سِکتا ہے:
-request-language-form-info-explanation-list-1 = تھارے ٻولیا کا ناو
+    ٻولیا کے باریم گھݨے س گھݨی جاݨکاری سیمل کرو.اِس میں
+    سیمݪ ہوئی سِکتا ہے:
+request-language-form-info-explanation-list-1 = تھارے ٻولیا کا نانٚو
 request-language-form-info-explanation-list-2 = اگر ٹھا <isoCodeLink>ہے تو آئی ایس او کوڈ</isoCodeLink>
-request-language-form-info-explanation-list-3 = ویب سائٹیں کی لنکس جکو ٻولیا کُو سمجݨیم مھاری ساہیتا کری سِکتے ہے
-request-language-google-recaptcha-required = اگر تھم آگے ودھݨا چاوتے ہے تو ریکیپچا کی جرورت ہے
-request-language-google-recaptcha-error = ریکیپچا کے سات کائیں گلت ہویا۔ کِرپا کری پُٹھا جتن کرو۔
+request-language-form-info-explanation-list-3 = ویب سائٹیں کی لنکاں جکو ٻولیا کُو سمجݨیم مھاری ساہیتا کری سِکتے ہے
+request-language-google-recaptcha-required = اگر تھم آگے ودھݨا چاہوتے ہے تو ریکیپچا کی جرورت ہے
+request-language-google-recaptcha-error = ریکیپچا کے سات کائیں گلت ہویا۔ کِرپا کری پُوٹھا جتن کرو۔
 # Success page
-request-language-success-heading = دھنواد! تھمُون ایک نئوی ٻولیا کی ٻُوجھ تاچھ گِھلائی ہے
-request-language-success-list-1 = تھم کُو مھارے پڑاو پَربھنداکا کی ترپھاس ایک ای میل پراپت ہوݨا چاہئے جس میں تھاےی ٻولیا کُو سادی آواجام سیمل کرنے کے کدمے کی وِکھیا کرنی چاہئے۔
+request-language-success-heading = دھنواد! تھمُون ایک نویں ٻولیا کی ٻُوجھ تاچھ گِھلائی ہے
+request-language-success-list-1 = تھم کُو مھارے پڑاوَا کے پَربندھکا کی ترپھاس ایک ای میل پراپت ہووَݨاں چاہِجے جس میں تھاری ٻولیا کُو سادی اواجام سیمݪ کرنے کے چرݨ وِیاکھِیا کرنی چاہِجے۔
 request-language-success-list-2 =
     مھارے پڑاو پَربھندیک جما کرنے نتر تھم سے سمپرک کروں گے
     ودھیک ساہیتا، اور اگر ہے تو تھم کو بھتاݨے نتر
