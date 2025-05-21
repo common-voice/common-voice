@@ -64,4 +64,4 @@ xkl = کِینیا
 language-search-placeholder = ایک ٻولی لوڑ ...
 language-search-aria-label = ایک ٻولی لوڑ
 language-search-label = رُگی ڈیٹا سیٹا کے یوگدؔان کی بھاشا کُو مٹاوَ
-language-search-no-results = کوئی ٻولی نائِیں ملی
+language-search-no-results = کوئی ٻولی نائِیں مِلی

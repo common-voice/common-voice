@@ -90,10 +90,14 @@ spontaneous-speech = PARLA ESPONTÀNIA
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Col·laboracions, premsa i articles, comunitat i llengües
+about-us-menu-item-tooltip = Apreu sobre la missió i l'equip que hi ha darrere de Common Voice
 partnerships-menu-item-tooltip = Exploreu les organitzacions que donen suport a Common Voice arreu del món
+press-and-stories-menu-item-tooltip = Llegiu històries, actualitzacions i cobertura mediàtica de Common Voice
+community-and-languages-menu-item-tooltip = Connecteu amb la nostra comunitat i consulteu les llengües suportades
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = Apreneu sobre les col·laboracions amb Common Voice
 press-and-stories-menu-item-aria-label = Accediu a notes de premsa i històries relacionades amb Common Voice
 
 ## NEW HOME PAGE KEYS
@@ -101,6 +105,9 @@ press-and-stories-menu-item-aria-label = Accediu a notes de premsa i històries 
 
 ## Hero section
 
+hero-title = Tecnologia que parla la vostra llengua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Per què la IA només hauria de funcionar per a unes poques llengües del món?</bold>
 hero-subtitle-2 = La nostra llengua és la nostra història, la nostra comunitat, la nostra cultura. Creem els conjunts de dades que volem veure al món.
 # icon is an arrow that points downwards
 get-started = Comencem <icon><icon>
@@ -126,9 +133,12 @@ join-discord-community = Uniu-vos a la comunitat Discord
 join-discord-community-action = Uniu-vos a nosaltres a Discord
 join-discord-community-content = Participeu en debats de la comunitat lingüística, feu preguntes i informeu-vos sobre els propers esdeveniments i xerrades.
 find-us-on-matrix = Trobeu-nos a Matrix
+find-us-on-matrix-content = Matrix és un protocol obert i lleuger per a la comunicació descentralitzada en temps real i la plataforma de discussió oberta preferida de Mozilla.
 # label for button
 find-us-on-matrix-action = Trobeu-nos a Matrix
 ask-mozilla-share = Demaneu a Mozilla que comparteixi els vostres esdeveniments
+# label for button
+ask-mozilla-share-action = Compartiu el vostre esdeveniment
 
 ## Featured section
 
