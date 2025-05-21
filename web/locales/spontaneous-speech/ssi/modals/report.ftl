@@ -1,6 +1,6 @@
 ## Report Modal
 
-report-modal-title = ایک رپورٹ جم کراؤ
+report-modal-title = ایک رپورٹ جما کراؤ
 report-modal-subtitle = تھم کُو اِس سیمانا کے سات کیا سمسیاں کا انبھوَ ہے؟
 offensive_speech = اپمانِت جنک سیمان
 offensive_speech-detail = سیمانام اپمان جنک یا آپتی جنک بھاشا ہے۔

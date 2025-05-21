@@ -82,6 +82,9 @@ transcribe-audio = Transcriviu àudio
 press-and-stories = Premsa i articles
 community-and-languages = Comunitat i llengües
 coming-soon = Pròximament
+about-us = Quant a Mozilla
+scripted-speech = PARLA GUIONADA
+spontaneous-speech = PARLA ESPONTÀNIA
 
 ## MENU ITEMS TOOLTIPS
 
@@ -89,6 +92,7 @@ about-menu-tooltip = Col·laboracions, premsa i articles, comunitat i llengües
 
 ## MENU ITEM ARIA LABELS
 
+press-and-stories-menu-item-aria-label = Accediu a notes de premsa i històries relacionades amb Common Voice
 
 ## NEW HOME PAGE KEYS
 
@@ -96,9 +100,15 @@ about-menu-tooltip = Col·laboracions, premsa i articles, comunitat i llengües
 ## Hero section
 
 hero-subtitle-2 = La nostra llengua és la nostra història, la nostra comunitat, la nostra cultura. Creem els conjunts de dades que volem veure al món.
+# icon is an arrow that points downwards
+get-started = Comencem <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice és una plataforma gratuïta i de codi obert per a la creació de dades liderada per la comunitat.
+action-items-section-subtitle = Qualsevol persona pot preservar, revitalitzar i elevar la seva llengua compartint, creant i seleccionant conjunts de dades de text i parla.
+scripted-card-header = Parla guionada
+scripted-card-content = Llegiu frases en veu alta en la vostra llengua i contribuïu al conjunt de dades de diàlegs participatius públics més divers del món.
 
 ## Community section
 
