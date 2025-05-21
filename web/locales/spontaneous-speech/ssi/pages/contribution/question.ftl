@@ -1,6 +1,6 @@
 ## Question Page
 
-question-page-instruction = منِکھیں کے جوابیں نتر { $currentLocale } میں ایک سُئال <icon></icon> سیمݪ کرو
+question-page-instruction = مِنکھیں کے جوابیں نتر { $currentLocale } میں ایک سُئال <icon></icon> سیمݪ کرو
 add-question-textarea-placeholder = سرا ہے ، "تھم چاہوتے ہے کہ تھم ٹیکنالوجیا کا اُپیوگ کِس نتر کری سِکتے ہے؟"
 add-questions-terms-checkbox = * ہوں پک کرتا ہے کہ یو سُئال <publicDomainLink>جنتا ڈومین</publicDomainLink> ہے اور مِسکُو یو اپ لوڈ کرنے کی اِگیا ہے.
 question-dataset-language = ڈیٹا سیٹ: { $datasetLanguage }
