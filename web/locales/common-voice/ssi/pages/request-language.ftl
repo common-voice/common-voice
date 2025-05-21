@@ -36,6 +36,6 @@ request-for-scripted-speech-toggle = لِکھوڑے بھاشݨا کی ٻِنتی
 request-for-spontaneous-speech-toggle = سُبھاوِک بھاشݨا کی ٻِنتی
 need-help-deciding-platform = کس کا چُناوَ کرنا ہے اس کا چُناوَ کرنیم ساہیتا کی جرورت ہے؟
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-platform-explanation-1 = <strong>اسکرپٹڈ بھاشݨ</strong> (پرمپراروپاس جِدؔا تھم سادی آواجا کے توراپ جاݨتے ہے) وہ جاگھا ہے جیتوڑ تھم اپݨی ٻولیام ٻول اونچی آواجام پڑھی سِکتے ہے۔
-need-help-deciding-platform-explanation-2 = <strong>سوبھاویک بھاشݨ</strong> سادی آواجا کا ایک ہئوا بھاگ ہے جیتوڑ تھم سُوال کا جواب گھݨا جیویت ، ٻول چالا کے ڈھنٚگام  دؔی سِکتے ہے۔
+need-help-deciding-platform-explanation-1 = <strong>لِکھوڑا بھاشݨ</strong> (پرمپراروپاس جِدؔا تھم سادی اواجا کے رُوپام جاݨتے ہے) ٻو جاگھا ہے جیتوڑ تھم اپݨیں ٻولیام ٻول اُونچی اواجام پڑھی سِکتے ہے۔
+need-help-deciding-platform-explanation-2 = <strong>سُبھاوِک بھاشݨ</strong> سادی اواجا کا ایک نواں بھاگ ہے جیتوڑ تھم سُئال کا جباب گھݨا سُبھاوِک ، ٻول چالا کے ڈھنٚگام  دؔی سِکتے ہے۔
 need-help-deciding-platform-explanation-3 = اگر تھمکُو پلیٹ پھارما کے کسی بھی بھاگام اپݨی ٻولی نیگھام نائی آتی ہے تو ، دُؔنیں کُو چُونو۔
