@@ -4,6 +4,8 @@ datasets-heading = მუნაჩემეფიშ ნაკათა
 language = ნინა
 # File size in gigabytes
 size = ზომა
+validated-hr-total = დადასურებულ საათეფი ართო
+overall-hr-total = საათეფიშ საერთო ჯამი
 cv-license = ლიცენზია
 audio-format = ხონარიშ ფორმატი
 dataset-splits = გორთუალა (ასაკი დო სქესი)
