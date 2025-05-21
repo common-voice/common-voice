@@ -78,6 +78,7 @@ read-more-about = Vegeu més informació a la pàgina «Qui som»
 answer-questions = Responeu preguntes
 review-transcriptions = Reviseu transcripcions
 add-questions = Afegiu preguntes <small>(pròximament)</small>
+review-questions = Reviseu les preguntes
 transcribe-audio = Transcriviu àudio
 press-and-stories = Premsa i articles
 community-and-languages = Comunitat i llengües
@@ -89,6 +90,7 @@ spontaneous-speech = PARLA ESPONTÀNIA
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Col·laboracions, premsa i articles, comunitat i llengües
+partnerships-menu-item-tooltip = Exploreu les organitzacions que donen suport a Common Voice arreu del món
 
 ## MENU ITEM ARIA LABELS
 
@@ -109,20 +111,43 @@ action-items-section-title = Common Voice és una plataforma gratuïta i de codi
 action-items-section-subtitle = Qualsevol persona pot preservar, revitalitzar i elevar la seva llengua compartint, creant i seleccionant conjunts de dades de text i parla.
 scripted-card-header = Parla guionada
 scripted-card-content = Llegiu frases en veu alta en la vostra llengua i contribuïu al conjunt de dades de diàlegs participatius públics més divers del món.
+spontaneous-card-header = Parla espontània
+spontaneous-card-content = Responeu les indicacions per a crear conjunts de dades en contextos orgànics i col·loquials. Perfecte per a llengües orals.
+language-text-card-header = Text en la llengua
+language-text-card-content = Creeu o compartiu indicacions, frases i text de domini públic per a la traducció, models lingüístics petits i molt més.
+add-text = Afegiu text
+answer = Resposta
 
 ## Community section
 
+community-section-title = Amb el suport de comunitats globals, per a comunitats globals: 130 idiomes i en creixement!
+join-discord-community = Uniu-vos a la comunitat Discord
+# label for button
+join-discord-community-action = Uniu-vos a nosaltres a Discord
+join-discord-community-content = Participeu en debats de la comunitat lingüística, feu preguntes i informeu-vos sobre els propers esdeveniments i xerrades.
+find-us-on-matrix = Trobeu-nos a Matrix
+# label for button
+find-us-on-matrix-action = Trobeu-nos a Matrix
+ask-mozilla-share = Demaneu a Mozilla que comparteixi els vostres esdeveniments
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = Baixeu el dossier de premsa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Conjunts de dades de parla oberts i d'accés públic en més de 130 idiomes
+# icon is an arrow that points to the right
+explore-datasets = Exploreu els conjunts de dades <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Doneu suport a conjunts de dades oberts i dirigits per la comunitat
 read-sentences-link = Llegiu frases
 validate-readings-link = Valideu enregistraments
+contribute-link = Contribuïu al corpus textual
+answer-questions-link = Responeu preguntes
 
 ## Partner section
 
