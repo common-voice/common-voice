@@ -176,6 +176,7 @@ write-contribute-menu-tooltip = Ychwanegu ac Adolygu Brawddegau, Ychwanegu Cwest
 add-sentences-menu-item-tooltip = Ychwanegu brawddegau yn eich iaith
 review-sentences-menu-item-tooltip = Adolygu brawddegau yn eich iaith
 add-questions-menu-item-tooltip = Ychwanegu cwestiynau yn eich iaith
+review-questions-menu-item-tooltip = Adolygu cwestiynau
 transcribe-audio-menu-item-tooltip = Trawsgrifio recordiadau sain yn eich iaith
 
 ## MENU ITEM ARIA LABELS
@@ -184,4 +185,5 @@ write-contribute-menu-aria-label = Dewislen dewisiadau ysgrifennu
 add-sentences-menu-item-aria-label = Ychwanegu brawddegau newydd i'r gymuned eu darllen
 review-sentences-menu-item-aria-label = Adolygu brawddegau presennol a gyflwynwyd gan y gymuned
 add-questions-menu-item-aria-label = Cyflwyno cwestiynau newydd i'r gymuned eu darllen ac ymateb iddyn nhw
+review-questions-menu-item-aria-label = Adolygu a phleidleisio dros gwestiynau newydd sy'n cael eu cyflwyno gan y gymuned
 transcribe-audio-menu-item-aria-label = Trawsgrifio recordiadau sain i destun

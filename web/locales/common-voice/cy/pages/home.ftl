@@ -92,6 +92,7 @@ read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
 answer-questions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
 review-transcriptions = Adolygu Trawsgrifiadau <small>(Yn dod cyn hir</small>
 add-questions = Ychwanegu Cwestiynau <small>(Yn dod cyn hir)</small>
+review-questions = Adolygu Cwestiynau
 transcribe-audio = Trawsgrifio Sain <small>(Yn dod cyn hir)</small>
 press-and-stories = Y Wasg a Straeon
 community-and-languages = Cymuned ac Ieithoedd
