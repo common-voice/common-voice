@@ -481,4 +481,9 @@ export const VARIANTS: Variant[] = [
     variant_name: 'Xopuri',
     variant_token: 'lzz-xopuri',
   },
+  {
+    locale_name: 'en',
+    variant_name: 'Australian English',
+    variant_token: 'en-au',
+  },
 ]
