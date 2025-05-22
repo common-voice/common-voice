@@ -39,40 +39,40 @@ about-dataset-new = سادھارٹؔ اوَاج ڈیٹا سیٹ
 about-dataset-new-text = سادھارٹؔ اوَاجا کے ڈیٹا سیٹام سوَِیں ہجاریں اوَاجا کے نامُونے سیمݪ ہے جکو ترکی دؔیݨوَاڑے کُو اوَاجا کُو اوݪکھٹؔیں کے اوجار ٻٹؔاوَٹؔینٚم ساہیتا کرتے ہے۔
 about-clip-graveyard = کلپ مُساݨ
 about-clip-graveyard-text = کلپ مُساݨ اوَاجیں کے کلپینٚپ ٻٹؔوڑا ہے جکو اِسکُو سادھارٹؔ اوَاج ڈیٹا سیٹام نائیں ٻٹؔاوَے۔ رُگی ڈیٹا سیٹا جُو ، کلپ مُساݨ ڈاؤن لوڈا نتر ماجُود ہے۔
-about-get-involved = سیمل ہوئی جاؤ
+about-get-involved = سیمݪ ہوئی جاؤ
 about-get-involved-text-2 =
-    سادھارٹؔ اواجا کُو اور بھی اجرا ٻٹؔاوٹؔینٚم ساہیتا کرنا چاوہتے ہے؟
+    سادھارٹؔ اوَاجا کُو اور بھی اجرا ٻٹؔاوَٹؔینٚم ساہیتا کرنا چاہوَتے ہے؟
     بڑِیا! ای میل یا <discourseLink>ڈسکوریں</discourseLink> کے جرِیے سمپرک کرو
-    فورمز، سائٹا کے مسلے <githubLink>گٹ ہبا</githubLink> کے جرِیے جما کراؤ، یا اس میں سیمل ہووَ
+    فورمز، سائٹا کے مسلے <githubLink>گٹ ہبا</githubLink> کے جرِیے جما کراؤ، یا اس میں سیمݪ ہووَ
     <matrixLink>میٹرکس</matrixLink> کمیونٹی چیٹ.
-about-stay-in-touch = ہُوں سمپرکام کِدؔا رiہی سِکتا ہے؟
+about-stay-in-touch = ہُوں سمپرکام کِدؔا ریہی سِکتا ہے؟
 about-stay-in-touch-button = سائن اپ کرو
-about-stay-in-touch-text-1 = یو جاٹؔنیں نتر کہ آپ سادھارٹؔ اواجاپ ابھیان ، کاہرِئے اور ڈِجانا کے بھیݪا نوے پنیم کِدؔا بھاگ لی سِکتے ہے ، مھاری میلنگ لسٹام <emailFragment>سائن اپ</emailFragment> کرو۔
-about-stay-in-touch-text-2 = آپ موزیلا بھاشا کی کُومیم دُؔوجینٚس مِلی سِکتے ہے اور کاماڑی کچیرِیا نتر <discordLink>ڈسکورڈ</discordLink> یا <discourseLink>ڈسکورس</discourseLink> ، یا اسِیاٹؔیں سلاہ نتر <matrixLink>میٹرکسام</matrixLink> سیمل ہوئی سِکتے ہے۔
+about-stay-in-touch-text-1 = یو جاٹؔنیں نتر کہ آپ سادھارٹؔ اوَاجاپ ابھیان ، کاہرِئے اور ڈِجانا کے بھیݪا نوَے پنیم کِدؔا بھاگ لی سِکتے ہے ، مھاری میلنگ لسٹام <emailFragment>سائن اپ</emailFragment> کرو۔
+about-stay-in-touch-text-2 = آپ موزیلا بھاشا کی کُومیم دُؔوجینٚس مِلی سِکتے ہے اور کاماڑی کچیرِیا نتر <discordLink>ڈسکورڈ</discordLink> یا <discourseLink>ڈسکورس</discourseLink> ، یا اسِیاٹؔیں سلاہ نتر <matrixLink>میٹرکسام</matrixLink> سیمݪ ہوئی سِکتے ہے۔
 about-nav-why-common-voice = کاکام؟
 about-nav-how-it-works = کِدؔا؟
 about-nav-partners = بھاگی دؔار
-about-nav-get-involved = سیمل ہوئی جاؤ
-about-nav-how-it-works-2 = سادھارٹؔ اواج کِدؔا کام کرتی ہے؟
+about-nav-get-involved = سیمݪ ہوئی جاؤ
+about-nav-how-it-works-2 = سادھارٹؔ اوَاج کِدؔا کام کرتی ہے؟
 about-nav-playbook = بھاگ لیوٹؔیں کا نامُونا سِیکو
 
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = سادھارٹؔ اواجاپ ایک ٻولی کِیا ہے؟
-about-playbook-what-is-language-content-1 = بھاشا کے باریم سوچٹؔیں کے گھٹؔے سارے نامُونے ہے. ٻولٹؔیں کی اوݪکھا کے نامُونے کے اُدؔیسیں نتر ، سادھارٹؔ اواج چُنتا ہے کہ 'آپسام ' دھِیان دِؔیوے ، یا 'جےاگر ٻو جتن کرے تو کِیا اِس بھاشا کے ٻوݪٹؔ واڑے گھٹؔیں کرے ایکی دُؔوجے کُو سمجی سِکتے ہے؟
-about-playbook-what-is-language-content-2 = ہم چاہوتے ہے کہ بھاشݨا کے نامُونے دُؔوجے نامُونینٚس ٻولݨواڑیں کُو اِدؔائے سمجو۔ اِس نتر، ایک اواجا کا ڈیٹا سیٹ گھݨیں نِیارے نِیارے مِنکھیں کی سمدھی کرنی چاہیے۔
-about-playbook-what-is-language-content-3 = کاہِیں ٻولِیم ٻول، سٻدؔ اور لیہکیم گھٹؔا پھرک ہے. اِسی کرے ہم 2022 م <ctaLink>'ویرینٹس' پرِیچے کرائی</ctaLink> رے ہے۔ اس سے کُومیں کُو ٻڈؔے ڈیٹا سیٹا کے میھئِیم اپٹؔی ٻولِیام پھرک کرنے کا ایک نامُونا مِلتا ہے۔
+about-playbook-what-is-language = سادھارٹؔ اوَاجاپ ایک ٻولی کِیا ہے؟
+about-playbook-what-is-language-content-1 = بھاشا کے باریم سوچٹؔیں کے گھٹؔے سارے نامُونے ہے. ٻولٹؔیں کی اوݪکھا کے نامُونے کے اُدؔیسیں نتر ، سادھارٹؔ اوَاج چُنتا ہے کہ 'آپسام ' دھِیان دِؔیوَے ، یا 'جےاگر ٻو جتن کرے تو کِیا اِس بھاشا کے ٻوݪٹؔ وَاڑے گھٹؔیں کرے ایکی دُؔوجے کُو سمجی سِکتے ہے؟
+about-playbook-what-is-language-content-2 = ہم چاہوَتے ہے کہ بھاشݨا کے نامُونے دُؔوجے نامُونینٚس ٻولݨوَاڑیں کُو اِدؔائے سمجو۔ اِس نتر، ایک اوَاجا کا ڈیٹا سیٹ گھݨیں نِیارے نِیارے مِنکھیں کی سمدھی کرنی چاہیے۔
+about-playbook-what-is-language-content-3 = کاہِیں ٻولِیم ٻول، سٻدؔ اور لیہکیم گھٹؔا پھرک ہے. اِسی کرے ہم 2022 م <ctaLink>'وَیرینٹس' پرِیچے کرائی</ctaLink> رے ہے۔ اِس سے کُومیں کُو ٻڈؔے ڈیٹا سیٹا کے میھئِیم اپٹؔی ٻولِیام پھرک کرنے کا ایک نامُونا مِلتا ہے۔
 
 ## How do I add a language
 
-about-playbook-how-add-language = ہُوں ایک ٻولی کِدؔا سیمل کرے؟
+about-playbook-how-add-language = ہُوں ایک ٻولی کِدؔا سیمݪ کرے؟
 about-playbook-how-add-language-content-1 =
     سارینٚس آگے، جانٚچ کرو کہ کِیا آپ کی بھاشا <languageLink>آگُوچ ماجُود ہے</languageLink>.
-    اگر اِدؔا نائیں ہے تو ، آپ <languageRequestLink>اپٹؔی بھاشا سیمل کرنے کے باریم ٻُوجھی سِکتے ہے</languageRequestLink>۔
-    اِس کے دؔو چرٹؔ ہے۔ سائٹا کا انواد کرنا، اور ٻول بھیݪے کرنا
-about-playbook-how-add-language-translating-heading = سائٹا کا انواد
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹونا کُو چلاوٹؔیں کے باریم مھاری مارگ درشک دیکھو۔</translateVideoLink>
+    جے اِدؔا نائیں ہے تو ، آپ <languageRequestLink>اپٹؔی بھاشا سیمݪ کرنے کے باریم ٻُوجھی سِکتے ہے</languageRequestLink>۔
+    اِس کے دؔو چرٹؔ ہے۔ سائٹا کا انوَاد کرنا، اور ٻول بھیݪے کرنا
+about-playbook-how-add-language-translating-heading = سائٹا کا انوَاد
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹونا کُو چلاوَٹؔیں کے باریم مھاری مارگ درشک دیکھو۔</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     ہم انواد کرنے نتر <pontoonLink>پونٹون</pontoonLink> ناوا کا موزیلا ٹول چلاوتے ہے۔ پونٹونام  کھاسیاں ٻولیاں ہے،
     پٹؔ جے اگر اس میں تھاری ٻولی نائیں تی تو تھم <pontoonRequestLink>اپٹؔی ٻولی سیمل کرنے کی ٻِنتی کری سِکتے ہے</pontoonRequestLink>۔
