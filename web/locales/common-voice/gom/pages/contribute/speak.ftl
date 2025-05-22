@@ -68,6 +68,11 @@ read-sentences-coming-soon = Vakhai vachat <small>(begin yetlem)</small>
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Vakhai vach, parsnak zabab di
+read-sentences-menu-item-tooltip = Tumchea bhaxentolim vakhai vachon svota record korat
+answer-questions-menu-item-tooltip = Tumchea bhaxentlean prosnank ani suchounneank zap ditna svota record korat
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Poryai menu uloi
+read-sentences-menu-item-aria-label = Somazan sador kel'lim vachai vegvegllea bhaxamni vachat
+answer-questions-menu-item-aria-label = Somazak vachpak ani zap divpak ek novo prosn sador korcho
