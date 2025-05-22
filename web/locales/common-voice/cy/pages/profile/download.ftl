@@ -1,19 +1,19 @@
 ## Profile Download
 
 download-q = Eisiau llwytho eich data i lawr?
-download-info = Dywedwch wrthym beth yr hoffech ei lwytho i lawr:
+download-info = Dywedwch wrthym beth hoffech chi ei lwytho i lawr:
 download-profile-title = Proffil
 download-profile-info = Yn cynnwys e-bost, enw defnyddiwr a manylion demograffig
 download-profile-size = Ychydig o feitiau
 download-recordings-title = Recordiadau
 download-recordings-info = Yn cynnwys mp3au a brawddegau cysylltiedig
 download-recordings-size = Megabeitiau fel arfer
-download-recordings-unavailable = Nid oes modd i chi ofyn am eich recordiadau tra bo cais arall eisoes ar y gweill.
+download-recordings-unavailable = Does dim modd i chi ofyn am eich recordiadau tra bo cais arall eisoes ar y gweill.
 download-recently-requested = Gallwch ofyn i gymryd copi newydd o'ch recordiadau bob { $days } diwrnod.
 download-size = Maint
-download-selected = Dewiswyd
-download-start = Cychwyn Llwytho i Lawr
-download-request = Gofyn i Lwytho i Lawr
+download-selected = Wedi'i ddewis
+download-start = Llwytho data proffil i lawr
+download-request = Gofyn am recordiadau
 download-requests = Ceisiadau llwytho i lawr yn y gorffennol
 download-requests-info = Pan fyddwch yn gofyn am eich recordiadau, rydyn ni'n eu llunio i un neu fwy o ffeiliau ZIP. Dyma'ch ceisiadau blaenorol:
 download-request-button = Llwytho i Lawr

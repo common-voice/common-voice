@@ -83,8 +83,8 @@ username-email-not-demographic = Bydd eich enw defnyddiwr na'ch e-bost yn cael e
 
 welcome-staff = Croeso staff { $company }!
 help-contribute = Gallwch helpu i adeiladu set ddata cod agored amrywiol trwy greu proffil Common Voice a chyfrannu'ch llais.
-login-company = Mewngofnodi/Ymuno gydag e-bost { $company }
-profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
+login-company = Mewngofnodi / Ymuno gydag e-bost { $company }
+profile-not-required = Does dim angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
 
 ## NAV ITEMS
@@ -158,7 +158,7 @@ ask-mozilla-share-content = Oes gennych chi ddigwyddiad blaenorol neu yn y dyfod
 # label for button
 ask-mozilla-share-action = Rhannwch eich digwyddiad
 download-contribution-certificate = Llwythwch i lawr eich tystysgrif cyfraniadau
-download-contribution-certificate-content = Llwythwch i lawr dystysgrif ar gyfer eich digwyddiadau neu eich hun os ydych wedi cyfrannu at Common Voice — fyddai hyn ddim yn bosibl hebddoch chi!
+download-contribution-certificate-content = Llwythwch i lawr dystysgrif ar gyfer eich digwyddiadau neu eich hun os ydych wedi cyfrannu at Common Voice — fyddai hyn ddim yn bosibl hebddo'ch chi!
 # label for button
 download-contribution-certificate-action = Cael eich tystysgrif
 contribute-github = Cyfrannu ar GitHub
@@ -184,10 +184,10 @@ explore-datasets = Archwiliwch setiau data <icon></icon>
 get-involved-section-title = Cefnogwch setiau data agored, dan arweiniad y gymuned
 read-sentences-link = Darllen brawddegau
 validate-readings-link = Dilysu darlleniadau
-contribute-link = Cyfranwch at gorpws testun
+contribute-link = Cyfrannwch at gorpws testun
 answer-questions-link = Atebwch gwestiynau
-transcribe-answers-link = Trawsgrifio atebion
-review-transcriptions-link = Adolygu trawsgrifiadau
+transcribe-answers-link = Trawsgrifiwch atebion
+review-transcriptions-link = Adolygwch drawsgrifiadau
 contribute-text-link = Cyfrannwch destun
 press-and-stories-link = Y wasg a straeon
 
