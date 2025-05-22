@@ -98,6 +98,7 @@ community-and-languages-menu-item-tooltip = Connecteu amb la nostra comunitat i 
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Menú d'opcions de Quant a
 partnerships-menu-item-aria-label = Apreneu sobre les col·laboracions amb Common Voice
 press-and-stories-menu-item-aria-label = Accediu a notes de premsa i històries relacionades amb Common Voice
 community-and-languages-menu-item-aria-label = Exploreu la comunitat i les llengües que admet Common Voice
@@ -139,8 +140,15 @@ find-us-on-matrix-content = Matrix és un protocol obert i lleuger per a la comu
 # label for button
 find-us-on-matrix-action = Trobeu-nos a Matrix
 ask-mozilla-share = Demaneu a Mozilla que comparteixi els vostres esdeveniments
+ask-mozilla-share-content = Teniu algun esdeveniment passat o proper? Compartiu-lo amb nosaltres i l'anunciarem a la nostra comunitat o en farem una entrada al blog!
 # label for button
 ask-mozilla-share-action = Compartiu el vostre esdeveniment
+download-contribution-certificate = Baixeu el vostre certificat de col·laboració
+download-contribution-certificate-content = Baixeu-vos un certificat per als vostres esdeveniments o per a vosaltres mateixos si heu contribuït a Common Voice; això no seria possible sense vosaltres!
+# label for button
+download-contribution-certificate-action = Aconseguiu el certificat
+contribute-github = Col·laboració a GitHub
+contribute-github-content = Aquest projecte no seria possible sense gent com vós. 🎉 Hi ha moltes maneres de participar amb Common Voice: no cal saber programar per a contribuir-hi!
 
 ## Featured section
 
@@ -160,6 +168,19 @@ read-sentences-link = Llegiu frases
 validate-readings-link = Valideu enregistraments
 contribute-link = Contribuïu al corpus textual
 answer-questions-link = Responeu preguntes
+transcribe-answers-link = Transcriu respostes
+review-transcriptions-link = Revisa transcripcions
+contribute-text-link = Contribueix amb text
+press-and-stories-link = Premsa i articles
 
 ## Partner section
 
+partner-section-title = Associa't amb nosaltres
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Empreses tecnològiques</bold>: invertiu en la creació de conjunts de dades oberts per a un ecosistema d'IA multilingüe pròsper
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Societat civil i investigadors</bold>: creeu, allotgeu i compartiu conjunts de dades impactants de manera gratuïta
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold>: patrocineu la creació de conjunts de dades per a impulsar la innovació i el desenvolupament locals
+# Partners section
+our-partners-include = Els nostres socis inclouen...
