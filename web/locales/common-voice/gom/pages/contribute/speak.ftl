@@ -11,7 +11,7 @@ record-error-too-short = Recording samke lhan asa.
 record-error-too-long = Recording chod vhoddlem zale.
 record-error-too-quiet = Recording samki ogi asa.
 record-cancel = Porot kor naka
-record-instruction = <recordIcon></recordIcon> { $actionType } ani magir sentence mottean vach
+record-instruction = <recordIcon></recordIcon> { $actionType } ani magir vakhai mottean vach
 record-stop-instruction = zale zaliar <stopIcon></stopIcon> { $actionType }
 record-three-more-instruction = Anik teen asa!
 record-again-instruction = Shabbas! Dusre clip <recordIcon></recordIcon> record kor
@@ -62,10 +62,12 @@ create-profile-button = Ek profile kor
 img-alt-success-checkmark = success checkmark
 # menu item
 read-sentences = Vakya vach (read)
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Vakhai vachat <small>(begin yetlem)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Vakya vach, parsnak zabab di
+speak-contribute-menu-tooltip = Vakhai vach, parsnak zabab di
 
 ## MENU ITEM ARIA LABELS
 
