@@ -14,3 +14,6 @@ validate-page-skip-button-shortcut = ايس (ڇوڙڻ رِي شارٽ ڪِي)
 
 validation-guidelines-title = ھيکڻ را اصول
 validation-guideline-1 = ڪو بي زاتي معلومات ني مونگي جائيَ (مثال نوم، مالي معلومات)
+validation-guideline-2 = ڪو بي سخت  تعصب آݪو تبصرو يا احساس سوال نا
+validation-guideline-3 = سڀون ھارو ݾمجڻ ۾ سولو ھان ساڌو
+validation-guideline-4 = ڪجھ جملو ۾ جواب ڏي ݾگو ھون
