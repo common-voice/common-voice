@@ -4,7 +4,7 @@ sc-review-lang-not-selected = Nid ydych wedi dewis unrhyw ieithoedd. Ewch i'ch <
 sc-review-title = Adolygu Brawddegau
 sc-review-loading = Yn llwytho brawddegau...
 sc-review-select-language = Dewiswch iaith i adolygu brawddegau ynddi.
-sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ychwanegwch ragor o frawddegau nawr!</addLink>
+sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ewch ati i ychwanegu ragor o frawddegau!</addLink>!</addLink>
 sc-review-form-prompt =
     .message = Brawddegau wedi'u hadolygu ond heb eu cyflwyno, ydych chi'n siŵr?
 sc-review-form-usage = Llusgwch i'r dde i gymeradwyo'r frawddeg. Llusgwch i'r chwith i'w gwrthod. Llusgwch i fyny i'w hepgor. <strong>Peidiwch ag anghofio i gyflwyno'ch adolygiad!</strong>
@@ -35,7 +35,7 @@ sc-review-form-reviewed-message =
         [many] { $sentences } brawddeg wedi'u hadolygu. Diolch yn fawr!
        *[other] { $sentences } brawddeg wedi'u hadolygu. Diolch yn fawr!
     }
-sc-review-form-review-failure = Nid oedd modd cadw'r adolygiad. Ceisiwch eto'n hwyrach.
+sc-review-form-review-failure = Doedd dim modd cadw'r adolygiad. Ceisiwch eto'n hwyrach.
 sc-review-link = Adolygu
 
 ## REVIEW CRITERIA
