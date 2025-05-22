@@ -12,11 +12,10 @@ request-language-form-info =
     .label = Gwybodaeth am yr iaith
 request-language-form-info-explanation =
     Ychwanegwch gymaint o wybodaeth ag y gallwch am yr iaith.
-    Gall
-    hyn gynnwys:
+    Gall hyn gynnwys:
 request-language-form-info-explanation-list-1 = Enwau eich iaith
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codau ISO</isoCodeLink> os yw'n hysbys
-request-language-form-info-explanation-list-3 = Dolenni i wefannau a all ein helpu i ddeall yr iaith
+request-language-form-info-explanation-list-3 = Dolenni i wefannau all ein helpu i ddeall yr iaith
 request-language-google-recaptcha-required = Mae angen reCAPTCHA os ydych am fwrw ymlaen
 request-language-google-recaptcha-error = Aeth rhywbeth o'i le gyda'r reCAPTCHA. Ceisiwch eto.
 # Success page

@@ -3,7 +3,7 @@
 profile-form-username =
     .label = Enw Defnyddiwr
 profile-form-native-language =
-    .label = Iaith Frodorol
+    .label = Mamiaith
 profile-form-additional-language =
     .label = Iaith Ychwanegol
 profile-form-language =
@@ -21,7 +21,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Rhyw
 leaderboard-visibility =
-    .label = Gwelededd y Sgorfwrdd
+    .label = Gwelededd y Bwrdd Dangos
 hidden = Cudd
 visible = Gweladwy
 native-language =
@@ -34,7 +34,7 @@ female_feminine = Benyw/Benywaidd
 intersex = Rhyngryw
 transgender = Trawsrywiol
 non-binary = Anneuaidd
-do_not_wish_to_say = Ddim yn dymuno dweud
+do_not_wish_to_say = Dim eisiau ddweud
 # Gender
 other = Arall
 why-profile-title = Pam proffil?
