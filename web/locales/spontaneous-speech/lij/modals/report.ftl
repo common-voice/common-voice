@@ -8,6 +8,7 @@ different_language = Atra lengua
 different_language-detail = O contegnuo o l’addeuvia unna lengua despægia da quella prevista.
 personally_identifiable_information = Informaçioin de identificaçion personale
 personally_identifiable_information-detail = Sto contegnuo o contëgne de informaçioin de identificaçion personale in sce l’identitæ de unna persoña, comme nomme, adresso email, poxiçion, numero de identificaçion ò numero de telefono.
+personally_identifiable_information-answer-detail = Sto contegnuo o domanda de informaçioin de identificaçion personale in sce l’identitæ de unna persoña, comme nomme, adresso email, poxiçion, numero de identificaçion ò numero de telefono.
 report-other-comment =
     .placeholder = Commento
 # Label for textarea in report modal

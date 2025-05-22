@@ -91,6 +91,7 @@ read-more-about = ننا پنہ نا باروٹ پین خوانبو
 answer-questions = سوجاتا ورندی تے ایتبو
 review-transcriptions = درشان کروکا نا جاچ
 add-questions = سوجاتے اوار کبو
+review-questions = سوجاتے ولدا ہوربو
 transcribe-audio = آڈیو نا درشانی کبو
 press-and-stories = پریس و کسہ غاک
 community-and-languages = مخلوق و زبانک

@@ -417,6 +417,16 @@ export const VARIANTS: Variant[] = [
     variant_token: 'sva-lentekh',
   },
   {
+    locale_name: 'tvu',
+    variant_name: 'Tunen (Ndikinimeki)',
+    variant_token: 'tvu-ndikini',
+  },
+  {
+    locale_name: 'tvu',
+    variant_name: 'Tunen (Fɔ̀mbɔ́)',
+    variant_token: 'tvu-fombo',
+  },
+  {
     locale_name: 'ug',
     variant_name: 'ئۇيغۇر تىلى',
     variant_token: 'ug-Arab',

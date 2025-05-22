@@ -34,5 +34,10 @@ request-language-success-list-3 =
 request-language-error =
     Potser no hem rebut aquesta sol·licitud. Envieu-nos un correu electrònic
     directament a <emailLink>{ $email }</emailLink> i us respondrem!
+request-for-scripted-speech-toggle = Sol·licitud de parla guionada
+request-for-spontaneous-speech-toggle = Sol·licitud de parla espontània
 need-help-deciding-platform = Necessiteu ajuda per decidir quin triar?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = La *parla guionada* (tradicionalment conegut com a Common Voice) és on podeu llegir frases en veu alta en la vostra llengua.
+need-help-deciding-platform-explanation-2 = La *parla espontània* és una nova part de Common Voice on podeu respondre a preguntes d'una manera més orgànica i col·loquial.
 need-help-deciding-platform-explanation-3 = Si no veieu el vostre idioma enlloc de la plataforma, seleccioneu-los tots dos.

@@ -2,7 +2,7 @@ speak = Siarad
 speak-now = Siaradwch nawr
 speak-subtitle = Cyfrannwch eich llais
 record-cta = Cychwyn recordio
-record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
+record-platform-not-supported = Ymddiheuriadau ond dyw eich platfform ddim yn cael ei gynnal ar hyn o bryd.
 record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
 record-platform-not-supported-ios-non-safari = Ar iOS parhewch gyda Safari i alluogi recordio…
 record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
@@ -38,7 +38,7 @@ review-keep-recordings = Cadw'r recordiadau
 review-delete-recordings = Dileu fy recordiadau
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 terms-agree = Rwy'n cytuno
-terms-disagree = Nid wyf yn cytuno
+terms-disagree = Dwi ddim yn cytuno
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Diolch am gyfrannu eich clipiau llais!
 first-cta-subtitle-text = Hoffech chi rannu rhywfaint o wybodaeth am sut rydych chi'n llefaru?
@@ -69,10 +69,10 @@ read-sentences-coming-soon = Darllen Brawddegau <small>(Yn dod cyn hir)</small>
 
 speak-contribute-menu-tooltip = Darllen Brawddegau, Ateb Cwestiynau
 read-sentences-menu-item-tooltip = Recordiwch eich hun yn darllen brawddegau yn eich iaith
-answer-questions-menu-item-tooltip = Recordiwch eich hun yn ymateb i gwestiynau ac awgrymiadau yn eich iaith
+answer-questions-menu-item-tooltip = Recordiwch eich hun yn ymateb i gwestiynau yn eich iaith
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Dewislen dewisiadau siarad
-read-sentences-menu-item-aria-label = Darllen brawddegau a gyflwynwyd gan y gymuned mewn ieithoedd amrywiol
+read-sentences-menu-item-aria-label = Darllen brawddegau wedi'u cyflwyno gan y gymuned mewn ieithoedd amrywiol
 answer-questions-menu-item-aria-label = Cyflwyno cwestiwn newydd i'r gymuned ei ddarllen ac ymateb iddo

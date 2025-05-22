@@ -12,15 +12,15 @@ awards = Gwobrau
 you = Chi
 everyone = Pawb
 contribution-activity = Gweithgaredd Cyfrannu
-top-contributors = Prif Gyfrannwyr
+top-contributors = Prif Gyfranwyr
 recorded-clips = Clipiau wedi'u Recordio
 validated-clips = Clipiau wedi'u Dilysu
 total-approved = Cyfanswm Cymeradwy
 overall-accuracy = Cywirdeb Cyffredinol
 set-visibility = Gosod fy ngwelededd
-visibility-explainer = Mae'r gosodiad hwn yn rheoli gwelededd eich bwrdd arwain. Pan fydd wedi ei guddio, bydd eich cynnydd yn breifat. Mae hyn yn golygu na fydd eich delwedd, enw defnyddiwr na'ch cynnydd yn ymddangos ar y bwrdd arwain. Sylwer bod adnewyddu'r bwrdd arwain yn cymryd ~ { $minutes } munud i ddangos y newidiadau.
-visibility-overlay-note = Sylwer: Pan wedi ei osod i 'Gweladwy', mae modd newid y gosodiad hwn o'r <profileLink>Dudalen broffil</profileLink>
-show-ranking = Dangoswch fy safle
+visibility-explainer = Mae'r gosodiad hwn yn rheoli gwelededd eich bwrdd dangos. Pan fydd wedi ei guddio, bydd eich cynnydd yn breifat. Mae hyn yn golygu na fydd eich delwedd, enw defnyddiwr na'ch cynnydd yn ymddangos ar y bwrdd arwain. Sylwch fod adnewyddu'r bwrdd dangos yn cymryd ~ { $minutes } munud i ddangos y newidiadau.
+visibility-overlay-note = Sylwch: Pan wedi ei osod i 'Gweladwy', mae modd newid y gosodiad hwn o'r <profileLink>Dudalen broffil</profileLink>
+show-ranking = Dangos fy safle
 
 ## Custom Goals
 
@@ -42,7 +42,7 @@ lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidia
 build-custom-goal = Adeiladu targed personol
 help-reach-hours-pluralized =
     { $hours ->
-        [zero] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
+        [zero] Helpu i gyrraedd { $hours } o oriau { $language } gyda tharged personol
         [one] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
         [two] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
         [few] Helpu i gyrraedd { $hours } awr { $language } gyda tharged personol
@@ -51,7 +51,7 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [zero] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
+        [zero] Helpu i gyrraedd { $hours } o oriau mewn iaith gyda tharged personol
         [one] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
         [two] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol
         [few] Helpu i gyrraedd { $hours } awr mewn iaith gyda tharged personol

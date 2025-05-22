@@ -103,9 +103,18 @@ about-playbook-how-localize-content-5 = امارا ويڊيا نين بيان ڪ
 
 about-playbook-how-add-sentences = مُون چچم جملا جمع ڪريوش
 about-playbook-how-add-sentences-content-1 = آ لنڪ مان تماري جُملا جمغ ڪروا سي۔ <writePageLink> لڇا هارو </writePageLink>  يان جملا ني دوهرائي هارو <reviewPageLink> صفعو دهرائي ڪرو۔
+about-playbook-how-add-sentences-content-2 =
+    جُملا نين وري زوئُون سي هانَ ٻي منکان مان ڪام وائيس قبول ڪراوو۔ ٻولي هارو هدايت تيار ڪرو۔ 
+    جُملا آنئين مان هوئي <languageGuidelinesLink>آنئين</languageGuidelinesLink>.
+    عوام هارو </licenseLink> ايڪ جُملا مان نانا پندراهن اکر هوئي۔ زي مالڪ سي اين ٿي پُوسا ڪرو هانَ حوالو تيار ڪرو <waiverLink> ويويئر لنڪ نا طريقا هارو </waiverLink>,هانَ امان نين ميلو جملا آ لنڪ مان commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = آ لنڪ استعمال ڪرو <scraperLink> جملا ليڌا واۯو ڪانڪ وڪيپيڊيا مان جملا سي۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = مُون چچم هڌري رڪارڊنگ نا ڪلپ رڪارڊ ڪريوش؟
+about-playbook-how-record-content-1 = هڌرا آواز ٿي ٻولو۔ ايوي نموني ٻوليا هارو ڌنيواۮ۔ امين چاهان سان ڪي تمارو اچار آ سي هانَ تمارو آواز سئي هوئي۔ تمارو انداز هانَ سُر هڌرو هوئي۔
+about-playbook-how-record-content-2 = باقي ٻارلو آواز نو ڌهيان راکو۔ چمڪي هڌري نموني هانمڀۯي ڪان۔
+about-playbook-how-record-content-3 = جملا دهيان ٿي هانمڀۯو۔ ويهارو نا يان وري اکر نا ڳڏاوو۔
 
 ## How to grow language
 
