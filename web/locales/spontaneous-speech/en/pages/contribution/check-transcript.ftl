@@ -5,7 +5,7 @@ transcription-page-instruction = { $actionType } <playIcon></playIcon> Listen to
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Check
 # Message which appears when there are no more resources on this page
-no-transcriptions-continue-skipped-message = There are currently no transcriptions to check for this language. Continue to see your skipped content or go to transcribe audio and try again later.
+no-transcriptions-continue-skipped-message = There are currently no transcriptions to check for this language. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.
 vote-transcript-success = Transcript voted successfully
 vote-transcript-error = An error occurred while voting the transcript
 transcript-edited-success = Transcript edited successfully

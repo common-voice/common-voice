@@ -5,7 +5,7 @@ accept-vote-toast-message = Successfully accepted question
 reject-vote-toast-message = Successfully rejected question
 add-vote-error-message = An error occurred while voting the prompt
 # Message which appears when there are no more resources on this page
-no-questions-continue-skipped-message = There are no more questions for this language. Continue to see your skipped content or go to transcribe audio and try again later.
+no-questions-continue-skipped-message = There are no more questions for this language. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S
