@@ -14,7 +14,7 @@ contribution-picker-tooltip-text = Newidiadau i'r set ddata iaith rydych yn cyfr
 coming-soon = Mae rhagor o ieithoedd ar eu ffordd!
 media-recorder-api-not-supported = Nid yw'r API MediaRecorder yn cael ei gefnogi yn eich porwr.
 # Toast message that is displayed when an item is skipped
-skipped = Hepgorwyd
+skipped = Wedi Hepgor
 audioplayer-header = Gwrando
 guidelines = Canllawiau
 # For the button to report an item
@@ -27,9 +27,9 @@ request-new-language = Gofyn am Iaith Newydd
 
 ## Navbar
 
-respond-to-prompt = Ymateb i Bromptiau
+respond-to-prompt = Ymateb
 transcribe = Trawsgrifio
-check-transcriptions = Gwirio Trawsgrifiadau
+check-transcriptions = Adolygu
 question = Cwestiwn
 
 ## Not Found Page
