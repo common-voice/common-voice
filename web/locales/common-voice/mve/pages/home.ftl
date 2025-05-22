@@ -78,6 +78,7 @@ read-more-about = مھوريَ ابائوٽ پئيج تيَ وڌيڪ پڙھو
 answer-questions = سوالون را جواب ڏيو
 review-transcriptions = لِکوڙيَ رو جائزو ليو
 add-questions = سوال جمع ڪرو
+review-questions = سوالون رو جائزو ليو
 transcribe-audio = آڊيو نيَ لکو
 press-and-stories = ڇپائي ھان وارتائون
 community-and-languages = برادري ھان ٻوليَ

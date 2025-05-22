@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جُملا شامل ڪرو ھان جائزو ل�
 add-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جُملا شامل ڪرو
 review-sentences-menu-item-tooltip = آپرِي ٻولِي ۾ جُملون رو جائزو ليو
 add-questions-menu-item-tooltip = آپرِي ٻولِي ۾ سوال شامل ڪرو
+review-questions-menu-item-tooltip = سوالون رو جائزو ليو
 transcribe-audio-menu-item-tooltip = آپرِي ٻولِي ۾ آڊيو رِي نقل ڪرو
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = آپشن مينيو نيَ لکو
 add-sentences-menu-item-aria-label = برادري رَي پڙھڻ لا نوان جُملا شامل ڪرو
 review-sentences-menu-item-aria-label = برادري رِي طرف ھون شامل ڪيوڙيَ جملون رو جائزو ليو
 add-questions-menu-item-aria-label = برادري ھارون پڙھڻ ھان جواب ڏيڻ ھارو نوان سوال جمع ڪرو
+review-questions-menu-item-aria-label = برادري رِي طرفون جمع ڪيوڙا نوان سوالون رو جائزو ليو ھان ووٽ ڏيو
 transcribe-audio-menu-item-aria-label = آڊيو ريڪارڍنگ نيَ اکرون ۾ لکو
