@@ -74,5 +74,5 @@ answer-questions-menu-item-tooltip = Recordiwch eich hun yn ymateb i gwestiynau 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Dewislen dewisiadau siarad
-read-sentences-menu-item-aria-label = Darllen brawddegau a gyflwynwyd gan y gymuned mewn ieithoedd amrywiol
+read-sentences-menu-item-aria-label = Darllen brawddegau wedi'u cyflwyno gan y gymuned mewn ieithoedd amrywiol
 answer-questions-menu-item-aria-label = Cyflwyno cwestiwn newydd i'r gymuned ei ddarllen ac ymateb iddo

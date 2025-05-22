@@ -26,5 +26,5 @@ review-transcriptions-menu-item-tooltip = Adolygu trawsgrifiadau a gyflwynwyd ga
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Dewislen dewisiadau gwrando
-validate-readings-menu-item-aria-label = Dilysu darlleniadau a gyflwynwyd gan aelodau'r gymuned
+validate-readings-menu-item-aria-label = Dilysu darlleniadau wedi'u cyflwyno gan aelodau'r gymuned
 review-transcriptions-menu-item-aria-label = Adolygu trawsgrifiadau o frawddegau a gofnodwyd i sicrhau cywirdeb

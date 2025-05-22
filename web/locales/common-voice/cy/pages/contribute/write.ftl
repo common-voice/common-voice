@@ -82,7 +82,7 @@ accepted-files = Mathau o ffeiliau derbyniol: .tsv yn unig
 minimum-sentences = Isafswm brawddegau yn y ffeil: 1000
 maximum-file-size = Maint mwyaf ffeil: 25 MB
 what-needs-to-be-in-file = Beth sydd angen bod yn fy ffeil?
-what-needs-to-be-in-file-explanation = Gwiriwch ein <templateFileLink>ffeil templed</templateFileLink>. Dylai eich brawddegau fod yn rhydd o hawlfraint (CC0 neu waith gwreiddiol â chaniatâd y cyflwynydd) a dylen nhw fod yn glir, yn ramadegol gywir ac yn hawdd eu darllen. Dylai brawddegau sy'n cael ei chyflwyno cymryd tua 10-15 eiliad i'w darllen a dylent osgoi cynnwys rhifau, enwau priod a nodau arbennig.
+what-needs-to-be-in-file-explanation = Gwiriwch ein <templateFileLink>ffeil templed</templateFileLink>. Dylai eich brawddegau fod yn rhydd o hawlfraint (CC0 neu waith gwreiddiol â chaniatâd y cyflwynydd) a dylen nhw fod yn glir, yn ramadegol gywir ac yn hawdd eu darllen. Dylai brawddegau sy'n cael ei chyflwyno cymryd tua 10-15 eiliad i'w darllen a dylen nhw osgoi cynnwys rhifau, enwau priod a nodau arbennig.
 upload-progress-text = Wrthi'n llwytho i fyny...
 sc-bulk-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
 bulk-upload-success-toast = Brawddegau Lluosog wedi'u Llwytho i Fyny
@@ -100,7 +100,7 @@ too-many-files = Gormod o ffeiliau
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Ychwanegu brawddegau parth cyhoeddus lluosog
 multiple-sentences-error = Nid oes modd ychwanegu brawddegau lluosog ar gyfer cyflwyniad sengl
-exceeds-small-batch-limit-error = Nid oes modd cyflwyno mwy na 1000 o frawddegau
+exceeds-small-batch-limit-error = Does dim modd cyflwyno mwy na 1000 o frawddegau
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
@@ -124,7 +124,7 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munudau cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [one] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [two] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } funud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [few] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
@@ -134,7 +134,7 @@ rate-limit-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliadau cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [one] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [two] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [few] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
@@ -183,7 +183,7 @@ transcribe-audio-menu-item-tooltip = Trawsgrifio recordiadau sain
 
 write-contribute-menu-aria-label = Dewislen dewisiadau ysgrifennu
 add-sentences-menu-item-aria-label = Ychwanegu brawddegau newydd i'r gymuned eu darllen
-review-sentences-menu-item-aria-label = Adolygu brawddegau presennol a gyflwynwyd gan y gymuned
+review-sentences-menu-item-aria-label = Adolygu brawddegau presennol wedi'u cyflwyno gan y gymuned
 add-questions-menu-item-aria-label = Cyflwyno cwestiynau newydd i'r gymuned eu darllen ac ymateb iddyn nhw
 review-questions-menu-item-aria-label = Adolygu a phleidleisio dros gwestiynau newydd sy'n cael eu cyflwyno gan y gymuned
 transcribe-audio-menu-item-aria-label = Trawsgrifio recordiadau sain i destun

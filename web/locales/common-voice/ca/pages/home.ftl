@@ -91,6 +91,7 @@ spontaneous-speech = PARLA ESPONTÀNIA
 
 about-menu-tooltip = Col·laboracions, premsa i articles, comunitat i llengües
 about-us-menu-item-tooltip = Apreu sobre la missió i l'equip que hi ha darrere de Common Voice
+about-us-menu-item-aria-label = Menú d'opcions de Quant a
 partnerships-menu-item-tooltip = Exploreu les organitzacions que donen suport a Common Voice arreu del món
 press-and-stories-menu-item-tooltip = Llegiu històries, actualitzacions i cobertura mediàtica de Common Voice
 community-and-languages-menu-item-tooltip = Connecteu amb la nostra comunitat i consulteu les llengües suportades
@@ -99,6 +100,7 @@ community-and-languages-menu-item-tooltip = Connecteu amb la nostra comunitat i 
 
 partnerships-menu-item-aria-label = Apreneu sobre les col·laboracions amb Common Voice
 press-and-stories-menu-item-aria-label = Accediu a notes de premsa i històries relacionades amb Common Voice
+community-and-languages-menu-item-aria-label = Exploreu la comunitat i les llengües que admet Common Voice
 
 ## NEW HOME PAGE KEYS
 
