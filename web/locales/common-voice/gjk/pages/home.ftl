@@ -132,6 +132,7 @@ spontaneous-card-content = نامياتِي ڍِٽاسيٽ ٺاۿيا ۿارُو
 language-text-card-header = ٻولِي نون متنَ
 language-text-card-content = ترجما ۿارُو، ننڪِيان ٻولِيان نا ماڍلان ۿارُو انين وڌارين عوامِي ڍومينَ نا پرومپٽس ۿارُو جُملا انين متنَ ٺاۿو ڪان وريَ شيئر ڪرو۔
 add-text = ٽيڪسٽ ايڍ ڪرو
+answer = جواٻ
 
 ## Community section
 

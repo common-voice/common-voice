@@ -13,3 +13,4 @@ validate-page-skip-button-shortcut = ايس
 ## Validation guidelines
 
 validation-guidelines-title = جانڪارئي
+validation-guideline-1 = ذاتي جانڪارِي مونڳوو مهانا سئہ(زم نوم، مالي جانڪارِي وغيره)
