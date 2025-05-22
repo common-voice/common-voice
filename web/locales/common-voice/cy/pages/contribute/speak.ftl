@@ -69,7 +69,7 @@ read-sentences-coming-soon = Darllen Brawddegau <small>(Yn dod cyn hir)</small>
 
 speak-contribute-menu-tooltip = Darllen Brawddegau, Ateb Cwestiynau
 read-sentences-menu-item-tooltip = Recordiwch eich hun yn darllen brawddegau yn eich iaith
-answer-questions-menu-item-tooltip = Recordiwch eich hun yn ymateb i gwestiynau a phromptiau yn eich iaith
+answer-questions-menu-item-tooltip = Recordiwch eich hun yn ymateb i gwestiynau yn eich iaith
 
 ## MENU ITEM ARIA LABELS
 

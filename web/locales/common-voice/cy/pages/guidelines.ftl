@@ -134,5 +134,5 @@ offensive-content-sensitive-information-explanation-explanation-1 = Cwestiynau a
 offensive-content-sensitive-information-explanation-explanation-2 = Cwestiynau a allai ysgogi lleferydd casineb neu deimladau rhagfarnllyd neu dramgwyddus eraill
 offensive-content-sensitive-information-explanation-explanation-3 = Cwestiynau a allai achosi i rywun rannu gwyodaeth sensitif, a allai sbarduno ymatebion
 example-questions-subheader = Cwestiynau enghreifftiol
-example-questions-explanation-1 = Gallwch ddod o hyd i <examplePromptsLink>120 awgrym enghreifftiol yn y daflen hon.</amplePromptsLink>
+example-questions-explanation-1 = Gallwch ddod o hyd i <examplePromptsLink>120 cwestiwn enghreifftiol yn y daflen hon.</amplePromptsLink>
 example-questions-explanation-2 = Os hoffech chi gyflwyno swmp o gwestiynau i'w cynnwys, gallwch <githubLink> wneud hynny trwy ein GitHub</githubLink> neu e-bostiwch eich rhestr i <emailFragment>commonvoice@mozilla.com.</emailFragment>
