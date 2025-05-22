@@ -15,3 +15,5 @@ validate-page-skip-button-shortcut = ایس
 validation-guidelines-title = مارگ درشکاں
 validation-guideline-1 = اپݨیں جاݨکارِیا کی ٻِنتی متی کرے (جِدؔا نانٚوَ، آرتھِک جاݨکاری)
 validation-guideline-2 = کوئی آپتی جنک، پہلسے پکا کروڑے کا شکار چرچا یا بھاوُک سُئال نائیں
+validation-guideline-3 = سادھارݨ اور سوَلا ہے تاکہ کوئی بھی سمجی سِکے
+validation-guideline-4 = کیئی ٻولینٚم جباب دؔی سِکتے ہے۔
