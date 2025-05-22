@@ -144,24 +144,24 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [zero] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [one] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [two] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [few] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
+        [zero] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+        [one] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+        [two] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+        [few] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+        [many] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+       *[other] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [zero] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [one] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawdd a wrthodwyd.
-        [two] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [few] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
+        [zero] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
+        [one] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddeg wrthodwyd.
+        [two] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
+        [few] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
+        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
+       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
     }
-small-batch-sentences-rule-1 = Dilynwch y canllawiau o “Pa frawddegau y gallaf eu hychwanegu?”
+small-batch-sentences-rule-1 = Dilynwch y canllawiau o “Pa frawddegau rwy'n gallu eu hychwanegu?”
 small-batch-sentences-rule-2 = Ychwanegu un frawddeg i linell
 small-batch-sentences-rule-3 = Gwahanwch frawddegau i un llinell trwy bwyso “Enter” neu “Return” unwaith
 small-batch-sentences-rule-4 = Ychwanegwch hyd at 1,000 o frawddegau

@@ -136,23 +136,23 @@ about-playbook-how-validate-content-4 = اگر کسی کلپا کُو 2 مِنک
 ## How to access dataset
 
 about-playbook-how-access-dataset = ہُوں ڈیٹا سیٹا تائِیں کِدؔا پرویش کرے اور اُپیوگ کرے؟
-about-playbook-how-access-dataset-content-1 = آپ <datasetsPage>ڈیٹا سیٹا کے پنیپ</datasetsPage> جائی سِکتے ہے ، لاجمی ورژن اور بھاشا چُنی سِکتے ہے ، اور اسکُو ڈاؤن لوڈ کری سِکتے ہے! پھائلینٚم <metadataLink>میٹا ڈیٹا س جُڑوڑا ہے</metadataLink> ، جِدؔا ڈیموگرافک جاݨکاری اور مانیتا کی گِنتِیام ۔ ڈیٹا سیٹ ڈاؤن لوڈ کرنے نتر آپ کُو ایک ای میل پتہ پُگاوݨیں کی جرورت پڑُوں گی۔
-about-playbook-how-access-dataset-content-2 = اگر آپ اے ایس آر ماڈل ٻݨاݨیں نتر ٹولز لوڑنیم ہے تو ، آپ <discourseLink>ڈسکورینٚپ</discourseLink> پڑاوا کے دُؔوجے مِنکھینٚس سمپرک جوڑی سِکتے ہے۔
+about-playbook-how-access-dataset-content-1 = آپ <datasetsPage>ڈیٹا سیٹا کے پنیپ</datasetsPage> جائی سِکتے ہے ، لاجمی نامُونا اور بھاشا چُنی سِکتے ہے ، اور اسکُو ڈاؤن لوڈ کری سِکتے ہے! پھائلینٚم <metadataLink>میٹا ڈیٹاس جُڑوڑا ہے</metadataLink> ، جِدؔا ڈیموگرافک جاݨکاری اور مانیتا کی گِنتِیام ۔ ڈیٹا سیٹ ڈاؤن لوڈ کرنے نتر آپ کُو ایک ای میل پتہ پُگاوݨیں کی جرورت پڑُوں گڑی۔
+about-playbook-how-access-dataset-content-2 = اگر آپ اے ایس آر ماڈل ٻݨاوَݨیں نتر ٹولز لوڑنیم ہے تو ، آپ <discourseLink>ڈسکورینٚپ</discourseLink> پڑاوَا کے دُؔوجے مِنکھینٚس سمپرک جوڑی سِکتے ہے۔
 
 ## How are decisions made
 
 about-playbook-how-project-governance = پریوجنا کے نِرݨیں کِدؔا کرے جاتے ہے؟
-about-playbook-how-project-governance-content-1 = موزیلا سادھارݨ اواجا کُو دنیا بھرا کے کاہرِئے کرنواڑے، بھاشا شاستری، ڈیٹا ویگِیانِک، شِکشاوِد اور سافٹ ویئر انجینئریں کی ایک الگ الگ سمُودائین سُکھی ٻݨایا ہے۔ اس یوجنا کی نِگھا موزیلا فاؤنڈیشن کری ری ہے۔
+about-playbook-how-project-governance-content-1 = موزیلا سادھارݨ اوَاجا کُو دُنیا بھرا کے کاہرِئے کرنواڑے، بھاشا شاستری، ڈیٹا ویگِیانِک، شِکشاوِد اور سافٹ ویئر انجینئریں کی ایک الگ الگ سمُودائین سُکی ٻݨایا ہے۔ اِس یوجنا کی نِگھا موزیلا فاؤنڈیشن کری ری ہے۔
 about-playbook-how-project-governance-content-2 = مھاری باچھائِیا کی بُڑاند ان بھاٹینٚپ دھروڑی ہے:
-about-playbook-how-project-governance-content-3 = بھیدؔ راکھݨواڑا، رکشا اور نِرملتا.
-about-playbook-how-project-governance-content-4 = پڑاوا کا بھیݪا اور نِیاو کرنا.
+about-playbook-how-project-governance-content-3 = بھیدؔ راکھݨوَاڑا، رکشا اور نِرملتا.
+about-playbook-how-project-governance-content-4 = پڑاوَا کا بھیݪا اور نِیاوَ کرنا.
 about-playbook-how-project-governance-content-5 = مان اور اوݪکھ.
 about-playbook-how-project-governance-content-6 = مِلی کن جباب دؔیݨواڑا۔
-about-playbook-how-project-governance-content-7 = <governanceLink>اس باریم ودھِیک پڑھو کہ ہم کِدؔا باچھائی کرتے ہے</governanceLink>
+about-playbook-how-project-governance-content-7 = <governanceLink>اس باریم وَدھِیک پڑھو کہ ہم کِدؔا باچھائی کرتے ہے</governanceLink>
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = سادھارݨ اواجا کُو کِدؔا چندا اُگاڑی کرا جاوتا ہے؟
-about-playbook-how-funded-content-1 = سادھارݨ اواج موزیلا فاؤنڈیشنا کی ایک یوجنا ہے ، جکو ایک امریکی 501 سی 3 ہے۔ ہلی اِٻکے یو یوجنا مکُومل توراپ <philantropicGrantLink>دؔانی گرانٹس</philantropicGrantLink> اور دُنِیا بھرا کے مِنکھیں کے دؔاناس پوشݨ دؔیتے ہے۔
-about-playbook-how-funded-content-2 = لاگِیتار سیوا دؔاری کرنے اور ڈیٹا سیٹ چھوڈؔݨیں ، پلیٹ پھارما کُو اجرا ٻݨاوݨیں اور <africaMradiLink>پڑاوا کے کاہرِئے</africaMradiLink> کُو چلاوݨیں نتر گھݨا رِپِیا کھرچ ہووتا ہے۔
+about-playbook-how-funded = سادھارݨ اوَاجا کُو کِدؔا چندا اُگاڑی کرا جاوَتا ہے؟
+about-playbook-how-funded-content-1 = سادھارݨ اوَاج موزیلا فاؤنڈیشنا کی ایک یوجنا ہے ، جکو ایک امریکی 501 سی 3 ہے۔ ہلی اِٻکے یو یوجنا مکُومل رُوپام <philantropicGrantLink>دؔانی گرانٹس</philantropicGrantLink> اور دُنِیا بھرا کے مِنکھیں کے دؔاناس پوشݨ دؔیتے ہے۔
+about-playbook-how-funded-content-2 = لاگِیتار سیوا دؔاری کرنے اور ڈیٹا سیٹ چھوڈؔݨیں ، پلیٹ پھارما کُو اجرا ٻݨاوَݨیں اور <africaMradiLink>پڑاوَا کے کاہرِئے</africaMradiLink> کُو چلاوَݨیں نتر گھݨا رِپِیا کھرچ ہووَتا ہے۔
 about-playbook-how-funded-content-3 = اگر آپ یا آپ کا سنٚگٹھن اس پریوجنام ہِسا ٻاہݨا چاہوتے ہے تو ، آپ <donateLink>دؔن</donateLink> دؔیئی سِکتے ہے یا <emailFragment>commonvoice@mozilla.com</emailFragment> پ مھاری سِیرواݪی دؔار سنٚگٹھناس سمپرک کری سِکتے ہے۔
