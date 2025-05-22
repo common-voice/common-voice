@@ -73,7 +73,16 @@ export default class Clip {
     router.get('/voices/:corpus_id', this.serveVoicesStats)
     router.get('/votes/daily_count', this.serveDailyVotesCount)
     router.get('/:clip_id', this.serveClip)
-    router.get('/c/:corpus_id', validate({ query: clipsSchema }), this.serveRandomClips)
+    router.get(
+      '/c/:corpus_id',
+      validate({ query: clipsSchema }),
+      this.serveRandomClips
+    )
+    router.get(
+      '/c/:locale/:corpus_id',
+      validate({ query: clipsSchema }),
+      this.serveRandomClips
+    )
     router.get('*', validate({ query: clipsSchema }), this.serveRandomClips)
 
     return router
@@ -369,7 +378,9 @@ export default class Clip {
   }
 
   serveVoicesStats = async ({ params }: Request, response: Response) => {
-    response.json(await this.model.getVoicesStats(params.locale, params.corpus_id))
+    response.json(
+      await this.model.getVoicesStats(params.locale, params.corpus_id)
+    )
   }
 
   serveClipLeaderboard = async (request: Request, response: Response) => {

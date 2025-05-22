@@ -488,15 +488,15 @@ export default class DB {
 
     const prioritySegments = this.getPrioritySegments(locale)
 
-    if (prioritySegments.length) {
-      taxonomySentences = await this.findSentencesMatchingTaxonomy(
-        client_id,
-        locale_id,
-        count,
-        prioritySegments,
-        corpus_id
-      )
-    }
+    // if (prioritySegments.length) {
+    taxonomySentences = await this.findSentencesMatchingTaxonomy(
+      client_id,
+      locale_id,
+      count,
+      prioritySegments,
+      corpus_id
+    )
+    // }
 
     const regularSentences =
       taxonomySentences.length >= count
@@ -505,15 +505,18 @@ export default class DB {
             client_id,
             locale_id,
             count - taxonomySentences.length,
+            corpus_id,
             exemptFromSSRL
           )
     return taxonomySentences.concat(regularSentences)
+    return taxonomySentences
   }
 
   async findSentencesWithFewClips(
     client_id: string,
     locale_id: number,
     count: number,
+    corpus_id: string,
     exemptFromSSRL?: boolean
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
@@ -524,6 +527,7 @@ export default class DB {
           FROM sentences
           WHERE 
             is_used 
+            AND corpus_id = ? 
             AND locale_id = ? 
             AND clips_count <= 15
             AND (enddate IS NULL OR enddate > NOW()) 
@@ -551,7 +555,15 @@ export default class DB {
         ORDER BY RAND()
         LIMIT ?
       `,
-      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
+      [
+        corpus_id,
+        locale_id,
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
     )
     return (rows || []).map(({ id, text }: any) => ({ id, text }))
   }
@@ -573,7 +585,7 @@ export default class DB {
           LEFT JOIN sentences ON entries.sentence_id = sentences.id
           WHERE term_id IN (?)
           AND is_used AND sentences.locale_id = ?
-          AND corpus_id = ?  
+          AND sentences.corpus_id = ?  
           AND (enddate IS NULL OR enddate > NOW())
           AND (startdate IS NULL OR startdate <= NOW())
           AND NOT EXISTS (
@@ -633,30 +645,27 @@ export default class DB {
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
 
     const prioritySegments = this.getPrioritySegments(locale)
-
-    if (prioritySegments.length) {
-      // taxonomySentences = await this.findClipsMatchingTaxonomy(
-      //   client_id,
-      //   locale_id,
-      //   count,
-      //   prioritySegments
-      // )
-      taxonomySentences = await this.findClipsWithoutTaxonomy(
-        client_id,
-        locale_id,
-        count,
-        corpus_id
-      )
-      Sentry.captureMessage(
-        `There are ${prioritySegments.length} priority segments for ${locale} locale`,
-        Sentry.Severity.Info
-      )
-    } else {
-      Sentry.captureMessage(
-        `There are 0 priority segments for ${locale} locale`,
-        Sentry.Severity.Info
-      )
-    }
+    //   client_id,
+    //   locale_id,
+    //   count,
+    //   prioritySegments
+    // )
+    taxonomySentences = await this.findClipsWithoutTaxonomy(
+      client_id,
+      locale_id,
+      count,
+      corpus_id
+    )
+    Sentry.captureMessage(
+      `There are ${prioritySegments.length} priority segments for ${locale} locale`,
+      Sentry.Severity.Info
+    )
+    // } else {
+    //   Sentry.captureMessage(
+    //     `There are 0 priority segments for ${locale} locale`,
+    //     Sentry.Severity.Info
+    //   )
+    // }
 
     // const regularSentences =
     //   taxonomySentences.length >= count

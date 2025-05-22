@@ -1,16 +1,17 @@
-export type TaxonomyToken = 'singlewordBenchmark' | 'covid19Spotter';
+export type TaxonomyToken = 'singlewordBenchmark' | 'covid19Spotter'
 
 export type TaxonomyType = {
-  name: string;
-  source: string;
-  locales: string[];
-};
+  name: string
+  source: string
+  locales: string[]
+}
 
 export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
   singlewordBenchmark: {
     name: 'Benchmark',
     source: 'singleword-benchmark',
     locales: [
+      'ar',
       'ab',
       'cs',
       'cv',
@@ -30,4 +31,4 @@ export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
     source: 'du-covid-keywords',
     locales: ['rw'],
   },
-};
+}
