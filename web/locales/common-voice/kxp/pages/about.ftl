@@ -112,6 +112,9 @@ about-playbook-how-add-sentences-content-3 = آ لنڪ استعمال ڪرو <sc
 ## How to record quality
 
 about-playbook-how-record-quality = مُون چچم هڌري رڪارڊنگ نا ڪلپ رڪارڊ ڪريوش؟
+about-playbook-how-record-content-1 = هڌرا آواز ٿي ٻولو۔ ايوي نموني ٻوليا هارو ڌنيواۮ۔ امين چاهان سان ڪي تمارو اچار آ سي هانَ تمارو آواز سئي هوئي۔ تمارو انداز هانَ سُر هڌرو هوئي۔
+about-playbook-how-record-content-2 = باقي ٻارلو آواز نو ڌهيان راکو۔ چمڪي هڌري نموني هانمڀۯي ڪان۔
+about-playbook-how-record-content-3 = جملا دهيان ٿي هانمڀۯو۔ ويهارو نا يان وري اکر نا ڳڏاوو۔
 
 ## How to grow language
 
