@@ -14,3 +14,6 @@ validate-page-skip-button-shortcut = ايس
 
 validation-guidelines-title = جانڪارئِي
 validation-guideline-1 = ذاتِي جانڪارئي مونڳوو منع سئہ(زم نوم، مالِي جائيڌاڌ رئي جانڪارئي وغيره)
+validation-guideline-2 = ڪوئي پڻ ايوا، ڀي ادڀا تڀصره ڪا نازُڪ سوئالات نہ هووو کپئہ
+validation-guideline-3 = ٻڌون ۿارُو ۿزميام ساڌو انَ ۿورو هووو کپئہ
+validation-guideline-4 = ايوا سوئال پُونسو جيا را ڪئنڪ جُملون ۾ جواڀ ۮِيڌا زائہ
