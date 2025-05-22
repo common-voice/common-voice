@@ -13,3 +13,4 @@ validate-page-skip-button-shortcut = ایس
 ## Validation guidelines
 
 validation-guidelines-title = مارگ درشکاں
+validation-guideline-1 = اپݨیں جاݨکارِیا کی ٻِنتی متی کرے (جِدؔا نانٚوَ، آرتھِک جاݨکاری)
