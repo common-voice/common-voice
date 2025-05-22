@@ -123,14 +123,14 @@ about-playbook-how-grow-language-content-5 =
      ٻاٹو کرو جکو وِیاکھِیا کرتی ہے کہ یو کھاس کاکام ہے ، اور بھاشا کے ادھِیکار ، اوَاج اے آئی ، یا ٹیکنالوجِیام بھِیر واݪئیں دؔیسی سمسیا کے باریم ٻات کرنوَاڑے دؔوجے مِنکھینٚس سمپرک کرو۔ <campaignLink>سوشل ابھِیان چلاوَݨیں کے باریم وَدھِیک سلاہ سُوڑی دؔیکھو ، سیمݪ ٻو سیمان جکو آپ پُوٹھا اُپیوگ کری سِکتے ہے</campaignLink>۔
 about-playbook-how-grow-language-content-6 = بھاگی دؔاری اور نیٹ وَرک
 about-playbook-how-grow-language-content-7 = دُؔوجیں کُو کھوج کرو جکو دھِیان کرتے ہے. یہ یونیورسٹیاں، بھاشا کے اسکول، وکالت گروپ یا ڈیٹا سائنس کمیونٹیز ہوئی سِکتی ہے. سمپرک کرو اور چِٹی وَِیاکھِیا کرو کہ ٻو کِس نامُونیس ساہِیتا کری سِکتے ہے اور کاکام. <outreachTemplates>مھارے ٹیمپلیٹ آؤٹ ریچ ای میلز دؔیکھو</outreachTemplates>۔
-about-playbook-how-grow-language-content-8 = <strong>رچئِیتا ہوئی جاؤ!</strong> آپ کی بھاشا کے پڑاو کھاس ہوؤنٚگی ، اور یو سرُو کرنے نتر رُگی تھوڑے نامُونے ہے۔
+about-playbook-how-grow-language-content-8 = <strong>رچئِیتا ہوئی جاؤ!</strong> آپ کی بھاشا کے پڑاوَ کھاس ہوؤنٚگی ، اور یو سرُو کرنے نتر رُگی تھوڑے نامُونے ہے۔
 
 ## How to validate
 
-about-playbook-how-validate = مِسکُو کِدؔ ٹھا پڑُوں گی کہ اواج کلپا کی اگِیا دؔیݨی ہے یا نائیں؟
-about-playbook-how-validate-content-1 = جےاگر آپ <strong>اِنکُو سُݨی سِکتے ہے</strong> اور <strong>انکُو سمجی سِکتے ہے</strong> تو ، سادھارݨ  <strong>اِگِیا دؔینا اجرا</strong> ہے۔
-about-playbook-how-validate-content-2 = <strong>ان کلپیں کُو چھوڈؔو متی جٹھے ٻوݪݨواڑے کا لیہکا 'آپ کے اپݨیں لیہکینٚس نِیارا ہے'</strong> - یو اواجا کُو اوݪکھݨیں نتر جروری ہے یکے ہر ایکی نتر اجرا کام کری سِکاں۔
-about-playbook-how-validate-content-3 = اگر آپ کُو لکھاوتا ہے کہ لیہکا <strong>سمجٹؔا ناممکن ٻٹؔائی دؔیتا</strong> ہے ، یا <strong>لارکے پاسیم گھݨا گاہرِیا</strong> ہے ، یا <strong>دُؔوجے مِنکھ بھی ٻولی</strong> رے ہے تو ، آپ کلپا کُو چھوڈؔی دؔیݨا چاجے۔ <accuracyLink>مھاری سئی کسوٹِیام ودھِیک جانکاری دیکھو</accuracyLink>.
+about-playbook-how-validate = مِسکُو کِدؔ ٹھا پڑُوں گی کہ اوَاج کلپا کی اِگِیا دؔیݨی ہے یا نائیں؟
+about-playbook-how-validate-content-1 = جےاگر آپ <strong>اِنکُو سُݨیں سِکتے ہے</strong> اور <strong>انکُو سمجی سِکتے ہے</strong> تو ، سادھارݨ  <strong>اِگِیا دؔیݨاں اجرا</strong> ہے۔
+about-playbook-how-validate-content-2 = <strong>ان کلپیں کُو چھوڈؔو مَتی جٹھے ٻوݪݨوَاڑیں کا لیہکا 'آپ کے اپݨیں لیہکینٚس نِیارا ہے'</strong> - یو اوَاجا کُو اوݪکھݨیں نتر جرُوری ہے یکے ہر ایکی نتر اجرا کام کری سِکاں۔
+about-playbook-how-validate-content-3 = اگر آپ کُو لکھاوَتا ہے کہ لیہکا <strong>سمجٹؔا اَسمبھوَ ٻٹؔائی دؔیتا</strong> ہے ، یا <strong>لارکے پاسیم گھݨا گاہرِیا</strong> ہے ، یا <strong>دُؔوجے مِنکھ بھی ٻولی</strong> رے ہے تو ، آپ کُو کلپ چھوڈؔی دؔیݨا چاہِجے۔ <accuracyLink>مھاری سئی کسوٹِیام وَدھِیک جاݨکاری دؔیکھو</accuracyLink>.
 about-playbook-how-validate-content-4 = اگر کسی کلپا کُو 2 مِنکھین چھوڈؔی دِؔیا ہے تو ، اسکُو ڈیٹا سیٹا کے ایک نِیارے سب سیٹام چھوڈؔتے ہے۔
 
 ## How to access dataset
