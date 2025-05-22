@@ -1,16 +1,16 @@
 ## Validate Page
 
-validate-page-instruction = تصڌيق<validateIcon> </validateIcon> ڪِي ايہ سوئال رهنمائي مانه پرو اُتر ريو؟
-dataset-label = ڊيتاسيٽ
-accept-vote-toast-message = سوئال کاميابي ٿِي مونئہ ليڌا ڳيا
-reject-vote-toast-message = سوئال کاميابي ٿِي رڌ ڪري ليڌا ڳيا
+validate-page-instruction = تصڌِيق<validateIcon> </validateIcon> ڪِي اي سوئال رهنمائي مانه پُورو اُترئه ريو؟
+dataset-label = ڊيٽاسيٽ
+accept-vote-toast-message = سوئال ڪامياڀِي ٿِي موني لِيڌا ڳياه
+reject-vote-toast-message = سوئال ڪامياڀِي ٿِي رڌ ڪري لِيڌا ڳياه
 add-vote-error-message = لِکت مانه ووٽ ۮيتون هيڪ ڳلتئي ۿومئي آوَئي
-no-questions-message = ايئا ٽوڻا ۾ ايئا ٻولِي ۿارُو ڪوئي آڊيو موجوڌ نٿِي۔ ميرڀونئي ڪرينَ پونيو نوو ڪرو ڪا ٻِيزي وار ڪوشيش ڪرو۔
+no-questions-message = اِيئا ٽوڻا ۾ اِيئا ٻولِي ۿارُو ڪوئي آڊيو موجوڌ نٿِي۔ ميرڀونئي ڪرينَ پونيو نوو ڪرو ڪا ٻِيزي وار ڪوشيش ڪرو۔
 validate-page-yes-button-shortcut = وائي
-validate-page-no-button-shortcut = اين
+validate-page-no-button-shortcut = اينَ
 validate-page-skip-button-shortcut = ايس
 
 ## Validation guidelines
 
-validation-guidelines-title = جانڪارئي
-validation-guideline-1 = ذاتي جانڪارِي مونڳوو مهانا سئہ(زم نوم، مالي جانڪارِي وغيره)
+validation-guidelines-title = جانڪارئِي
+validation-guideline-1 = ذاتِي جانڪارئي مونڳوو منع سئہ(زم نوم، مالِي جائيڌاڌ رئي جانڪارئي وغيره)
