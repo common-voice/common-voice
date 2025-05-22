@@ -11,7 +11,7 @@ citation-input-placeholder = Cyfeiriwch at ffynhonnell eich brawddeg (gofynnol)
 citation =
     .label = Cyfeirio
 sc-write-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
-sc-review-write-title = Pa frawddegau y gallaf eu hychwanegu?
+sc-review-write-title = Pa frawddegau gallai eu hychwanegu?
 sc-review-small-batch-title = Sut i ychwanegu brawddegau lluosog
 new-sentence-rule-1 = <noCopyright>Dim cyfyngiadau hawlfraint</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Llai na 15 gair
@@ -99,7 +99,7 @@ too-many-files = Gormod o ffeiliau
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Ychwanegu brawddegau parth cyhoeddus lluosog
-multiple-sentences-error = Nid oes modd ychwanegu brawddegau lluosog ar gyfer cyflwyniad sengl
+multiple-sentences-error = Does dim modd ychwanegu brawddegau lluosog ar gyfer cyflwyniad sengl
 exceeds-small-batch-limit-error = Does dim modd cyflwyno mwy na 1000 o frawddegau
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
