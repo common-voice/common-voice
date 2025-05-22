@@ -12,6 +12,8 @@ listen-abort-cancel = Topasni chalu dovor
 listen-abort-confirm = Puro zale
 # Menu item
 validate-readings = Vachop Topas
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Vachon promannit korchem <small>(begin yetlem)</small>
 
 ## MENU ITEM TOOLTIPS
 
