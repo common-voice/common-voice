@@ -1,19 +1,19 @@
 ## Home page
 
-welcome-to-spontaneous-speech = Croeso i Spontaneous Speech
+welcome-to-spontaneous-speech = Croeso i Llefaru Rhydd
 # <br></br> represents a newline break
 wall-of-text = Mae Common Voice yn lansio ail lwyfan sy'n canolbwyntio ar gasglu lleferydd organig, rhydd, heb ei ysgrifennu. Bydd hyn yn helpu llawer o gymunedau i gasglu data yn gynt, yn ogystal â bod yn ddefnyddiol i wyddonwyr data a datblygwyr.
-why-spontaneous-speech = Pam rydym wedi adeiladu'r prototeip Spontaneous Speech hwn
+why-spontaneous-speech = Pam rydym wedi adeiladu'r prototeip Llefaru Rhydd hwn
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Defnyddiol ar gyfer <mark>cyd-destunau lleferydd organig</mark> ac achosion defnydd (e.e., pan fyddwch eisiau adnabod lleferydd i weithio gyda phobl sy'n siarad heb sgript ac ar lafar)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Gwell cefnogaeth i realiti ieithyddol fel trawsieithu a <mark>chyfnewid cod</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Gwell cefnogaeth i ieithoedd sydd ag ychydig neu <mark>dim corpws testun</mark> i'w defnyddio (e.e., sosiolectau, amrywiadau, ieithoedd hanesyddol heb eu hysgrifennu ac ati)
-how-spontaneous-speech-works = Sut mae Spontaneous Speech yn gweithio
+how-spontaneous-speech-works = Sut mae Llefaru Rhydd yn gweithio
 # text wrapped in <mark></mark> will have a blue background
-prompt-bubble-title = <mark>Prompt</mark>
-prompt-bubble-subtitle = Byddwn yn dangos prompt neu gwestiwn i chi
+prompt-bubble-title = <mark>Cwestiwn</mark>
+prompt-bubble-subtitle = Byddwn yn dangos cwestiwn i chi
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Ymateb</mark>
 respond-bubble-subtitle = Rydych chi'n ymateb neu'n ateb iddo mor naturiol ag y gallwch

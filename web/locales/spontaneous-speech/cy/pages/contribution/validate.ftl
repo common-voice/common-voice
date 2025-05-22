@@ -13,7 +13,7 @@ validate-page-skip-button-shortcut = H
 ## Validation guidelines
 
 validation-guidelines-title = Canllawiau
-validation-guideline-1 = Dim gofyn am wybodaeth bersonol (e.e., enwau, manylion ariannol)
+validation-guideline-1 = Peidio gofyn am wybodaeth bersonol (e.e., enwau, manylion ariannol)
 validation-guideline-2 = Dim sylwadau sarhaus, rhagfarnllyd na chwestiynau sensitif
 validation-guideline-3 = Syml a hawdd i unrhyw un ei ddeall
 validation-guideline-4 = Mae modd ei ateb mewn ychydig o frawddegau

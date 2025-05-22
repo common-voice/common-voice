@@ -43,7 +43,7 @@ submit-form-action = Cyflwyno
 
 ## Reporting
 
-report = Adrodd
+report = Anaddas
 report-title = Cyflwyno adroddiad
 report-ask = Pa anawsterau ydych yn eu profi gyda'r frawddeg hon?
 report-offensive-language = Iaith dramgwyddus
