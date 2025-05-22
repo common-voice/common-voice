@@ -91,24 +91,24 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = سائٹ لوکلائزیشن کِدؔا کام کرتی ہے؟
 about-playbook-how-localize-content-1 = سادھارٹؔ اوَاج سائٹا کا انوَاد <strong>پونٹوناپ</strong> ہووَتا ہے۔
 about-playbook-how-localize-content-2 = اگر تھارے کن اکاؤنٹ نائیں ہے تو ایک <pontoonAccountLink>اکاؤنٹ بݨاؤ</pontoonAccountLink>۔ اس کے پِچھیں ، اپٹؔی بھاشا <strong>('ٹیم') چُناؤ کرو</strong> اور پِچھیں پروجیکٹ ، <pontoonCvLink>سادھارٹؔ اوَاجا کُو چُناؤ کرو</pontoonCvLink>۔ انوَاد کرنے نتر پھائلاں ہوؤں گِیاں۔ ایکی کُو دؔٻاوَ ، پِچھیں یو انگریزِیام لوَج دِؔکھاوَتا ہے اور ان کا انوَاد کرنے نتر ایک باکس دِؔکھاوَتا ہے۔
-about-playbook-how-localize-content-3 = انواد انگریجِیاس ہے، پٹؔ تھم دُؔوجی <strong>ٻولِیئینٚم سُجھاو</strong> دیکھی سِکتے ہے. پروپھائلام آئی کن <strong>پ</strong> دؔٻاوَ ، پِچھیں لیٹِؔیں کُو لنک <strong>کرو</strong> اور کسی بھی بھاشا کُو سیمل کرو جکو آپ ٻولتے ہے۔ نِیچے سونٚݪے کُھونٚٹؔیم انوادیں کی ایک سُوچی ہوؤنٚگی جِسے <strong>لوکلز</strong> کیہوتے ہے۔ ایکی دِؔنا کے پِچھیں ویب سائٹاپ انواد دِؔکھائے جاوتے ہے۔
-about-playbook-how-localize-content-4 = جِدؔ یو 75٪ نِویڑا ہوئی جاوتا ہے تو سائٹ سِرُو کرنے نتر تیار ہے.
-about-playbook-how-localize-content-5 = ساہئیتا کرنے نتر مھاری ویڈیو وِئیاکھِیا دؔیکھو
+about-playbook-how-localize-content-3 = انواد انگریجِیاس ہے، پٹؔ تھم دُؔوجی <strong>ٻولِیئینٚم سُجھاو</strong> دیکھی سِکتے ہے. پروپھائلام آئی کن <strong>پ</strong> دؔٻاوَ ، پِچھیں لیٹِؔیں کُو لنک <strong>کرو</strong> اور کسی بھی بھاشا کُو سیمݪ کرو جکو آپ ٻولتے ہے۔ نِیچے سونٚݪے کُھونٚٹؔیم انوَادیں کی ایک سُوچی ہوؤنٚگڑی جِس کُو <strong>لوکلز</strong> کیہوَتے ہے۔ ایکی دِؔنا کے پِچھیں ویب سائٹاپ انوَاد دِؔکھاوَتے ہے۔
+about-playbook-how-localize-content-4 = جِدؔ یو 75٪ نِوَیڑا ہوئی جاوَتا ہے تو سائٹ سِرُو کرنے نتر تیار ہے.
+about-playbook-how-localize-content-5 = ساہئیتا کرنے نتر مھاری وَیڈیو وَِیاکھِیا دؔیکھو
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = ہُوں ٻول کِدؔا سیمل کرے؟
-about-playbook-how-add-sentences-content-1 = آپ <writePageLink>لِکھٹؔیں کے پنیپ</writePageLink> ٻول سیمل کری سِکتے ہے یا دؔیکھٹؔا پنیپ ٻولیں کُو دیکھی سِکتے <reviewPageLink>ہے</reviewPageLink>۔
-about-playbook-how-add-sentences-content-2 = ٻولیں کُو دؔیکھٹؔا اور سادھارٹؔ اواجام سیمل کرنے نتر دؔو مِنکھیں کے جرِیئے سُئِیکار کرنا جروری ہے۔ آپ <languageGuidelinesLink>ایٹھے</languageGuidelinesLink> اپٹؔی بھاشا نتر مارگ درشک سیدھانت بناوتے ہے. ٻول <licenseLink>جنتا ڈومینام</licenseLink>  ہووٹؔا چاہِجے اور 15 لوَجینٚس کم ہووٹؔا چاہِجے. آپ کِسی متنا کے دھٹِؔیاس کیہئِی سِکتے ہے کہ ٻو <waiverLink>مھارے سما کا یتن اُپیوگ کرتوڑے اسکُو سی سی 0</waiverLink> ٻٹؔاوے ، اور ہمکُو commonvoice@mozilla.com بھری کن گھلاؤ۔
-about-playbook-how-add-sentences-content-3 = آپ ویکیپیڈیاس تھوڑے ٻول لیݨیں نتر <scraperLink>ٻول کاڈؔٹؔ واڑے</scraperLink> کا اُپوگ کری سِکتے ہے۔
+about-playbook-how-add-sentences = ہُوں ٻول کِدؔا سیمݪ کرے؟
+about-playbook-how-add-sentences-content-1 = آپ <writePageLink>لِکھٹؔیں کے پنیپ</writePageLink> ٻول سیمݪ کری سِکتے ہے یا دؔیکھٹؔا پنیپ ٻولیں کُو دؔیکھی سِکتے <reviewPageLink>ہے</reviewPageLink>۔
+about-playbook-how-add-sentences-content-2 = ٻولیں کُو دؔیکھٹؔا اور سادھارٹؔ اوَاجام سیمݪ کرنے نتر دؔو مِنکھیں کے جرِیئے سُئِیکار کرنا جروری ہے۔ آپ <languageGuidelinesLink>ایٹھے</languageGuidelinesLink> اپٹؔیںِ بھاشا نتر مارگ درشک سیدھانت بناَوتے ہے. ٻول <licenseLink>جنتا ڈومینام</licenseLink>  ہووَٹؔاں چاہِجے اور 15 لوَجینٚس کم ہووَٹؔاں چاہِجے. آپ کِسی لِکھتا کے دھٹِؔیاس کیہئِی سِکتے ہے کہ ٻو <waiverLink>مھارے سما کا یتن اُپیوگ کرتوڑے اسکُو سی سی 0</waiverLink> ٻٹؔاوَے ، اور ہمکُو commonvoice@mozilla.com بھری کن گھلاؤ۔
+about-playbook-how-add-sentences-content-3 = آپ وَیکیپیڈیاس تھوڑے ٻول لیݨیں نتر <scraperLink>ٻول کاڈؔٹؔ وَاڑے</scraperLink> کا اُپوگ کری سِکتے ہے۔
 
 ## How to record quality
 
-about-playbook-how-record-quality = ہُوں ایک اُونٚچے گُٹؔاں کی اواجا کا کلپ کِدؔ ریکارڈ کرے؟
-about-playbook-how-record-content-1 = اپٹؔی سادھارٹؔ اواجام بات کرو! جِدؔا آپ ٻولتے ہے ٻو ایٹھے آدرٹِؔئے ہے - ہم آپ کا لیہکا چاہوتے ہے جِدؔا کہ یو ہے ، اور ہم آپ کے سادھارٹؔ سی اواج ، لچھٹؔ اور انٹونیشن چاہوتے ہے۔
-about-playbook-how-record-content-2 = سپا گھٹؔے لارکے گاہرِییس بچو - آپ کُو سُٹؔنا سوَلا ہووٹؔا چاہئے.
-about-playbook-how-record-content-3 = ٻولا کُو دھِیاناس پڑھو - لوَجیں کُو یاد متی کرو ، بدلاوَ متی کرے یا سیمل متی کرے۔
-about-playbook-how-record-content-4 = اس باتا کُو نِشچِت ٻٹؔاؤ کہ پلیٹ پھارماپ ٻولٹؔا سِرو کرنیس آگے ریکارڈنگ کری را ہے ، اور یو رُگی ایک ٻیرِیا جِدؔ آپ کھتم ہوئی جاوتے ہے تو رُکی جاوتا ہے۔
+about-playbook-how-record-quality = ہُوں ایک اُونٚچے گُٹؔاں کی اوَاجا کا کلپ کِدؔ ریکارڈ کرے؟
+about-playbook-how-record-content-1 = اپٹؔیݨ سادھارٹؔ اوََاجام بات کرو! جِدؔا آپ ٻولتے ہے ٻو ایٹھے آدرٹِؔئے ہے - ہم آپ کا لیہکا چاہوتے ہے جِدؔا کہ یو ہے ، اور ہم آپ کے سادھارٹؔ سی اوَاج ، لچھٹؔ اور انٹونیشن چاہوَتے ہے۔
+about-playbook-how-record-content-2 = سپا گھٹؔے لارکے گاہرِییس بچو - آپ کُو سُٹؔنا سوَلا ہووَٹؔاں چاہِجے.
+about-playbook-how-record-content-3 = ٻولا کُو دھِیاناس پڑھو - لوَجیں کُو یاد متی کرو ، بدلاوَ متی کرے یا سیمݪ متی کرے۔
+about-playbook-how-record-content-4 = اس باتا کُو نِشچِت ٻٹؔاؤ کہ پلیٹ پھارماپ ٻولٹؔا سِرو کرنیس آگے ریکارڈنگ کری را ہے ، اور یو رُگی ایک ٻیرِیا جِدؔ آپ کھتم ہوئی جاوَتے ہے تو رُکی جاوَتا ہے۔َ
 about-playbook-how-record-content-5 = <accuracyLink>کھرے پنا کی اُونؔچائِیں کے باریم ودھِیک دؔیکھو.</accuracyLink>
 
 ## How to grow language
