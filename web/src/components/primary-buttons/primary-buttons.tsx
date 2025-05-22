@@ -1,10 +1,10 @@
-import * as React from 'react';
-import URLS from '../../urls';
-import { LocaleLink } from '../locale-helpers';
-import { getTrackClass } from '../../services/tracker';
-import { MicIcon, OldPlayIcon, StopIcon } from '../ui/icons';
+import * as React from 'react'
+import URLS from '../../urls'
+import { LocaleLink } from '../locale-helpers'
+import { getTrackClass } from '../../services/tracker'
+import { MicIcon, OldPlayIcon, StopIcon } from '../ui/icons'
 
-import './primary-buttons.css';
+import './primary-buttons.css'
 
 export const PrimaryButton = ({
   className,
@@ -27,72 +27,64 @@ export const PrimaryButton = ({
       )}
       <div className="background" />
     </div>
-  );
-};
+  )
+}
 
-export type RecordingStatus = null | 'waiting' | 'recording';
+export type RecordingStatus = null | 'waiting' | 'recording'
 
 export const RecordButton = ({
   status,
   trackClass,
   ...props
 }: {
-  status: RecordingStatus;
-  trackClass?: string;
+  status: RecordingStatus
+  trackClass?: string
 } & React.ButtonHTMLAttributes<HTMLButtonElement>) => {
-
   return (
     <button
       className={`${status === null ? 'stop' : 'record'} ${trackClass || ''}`}
       disabled={status === 'waiting'}
-      {...props}
-    >
+      {...props}>
       {status === 'recording' ? (
-        <img src="/voicewall/img/pause-icon.svg" alt="pause icon" />
+        <img src={require('./img/pause-icon.svg')} alt="pause icon" />
       ) : (
-        <img src="/voicewall/img/mic-icon.svg" alt="play icon" />
+        <img src={require('./img/mic-icon.svg')} alt="play icon" />
       )}
     </button>
-  );
-};
+  )
+}
 
 export const RecordLink = (props: any) => (
   <PrimaryButton className="stop" to={URLS.SPEAK} {...props}>
     <MicIcon />
   </PrimaryButton>
-);
+)
 
 export const Voice = (props: any) => (
   <PrimaryButton className="stop" {...props} />
-);
+)
 
 export const PlayButton = ({
   isPlaying,
   trackClass,
   ...props
 }: {
-  isPlaying: boolean;
-  trackClass?: string;
+  isPlaying: boolean
+  trackClass?: string
 } & React.ButtonHTMLAttributes<any>) => (
   <PrimaryButton
-      className={`${isPlaying  ? 'stop' : 'play'} ${trackClass || ''}`}
-      {...props}
-    >
-      {isPlaying ? (
-        <img src="/voicewall/img/pause-icon.svg" alt="pause icon" />
-      ) : (
-        <img
-        src="/voicewall/img/play-icon.svg"
-        alt="play-icon"
-  
-      />
-      )}
-    </PrimaryButton>
-
-);
+    className={`${isPlaying ? 'stop' : 'play'} ${trackClass || ''}`}
+    {...props}>
+    {isPlaying ? (
+      <img src={require('./img/pause-icon.svg')} alt="pause icon" />
+    ) : (
+      <img src={require('./img/play-icon.svg')} alt="play-icon" />
+    )}
+  </PrimaryButton>
+)
 
 export const PlayLink = (props: any) => (
   <PrimaryButton className="play" to={URLS.LISTEN} {...props}>
     <OldPlayIcon />
   </PrimaryButton>
-);
+)

@@ -132,7 +132,6 @@ export namespace Sentences {
             return
           }
 
-          console.log('refill', state, datasource)
           dispatch({ type: ActionType.REFILL_LOAD })
           const newSentences = await state.api.fetchRandomSentences(
             CACHE_SET_COUNT,
