@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جُملان نِي نظر سانِي انين �
 add-sentences-menu-item-tooltip = تمارِي ٻولِي مان جُملا ايڍ ڪرو
 review-sentences-menu-item-tooltip = تمارِي ٻولِي مان جُملان نين نظر سانِي ڪرو
 add-questions-menu-item-tooltip = تمارِي ٻولِي مان سوال ايڍ ڪرو
+review-questions-menu-item-tooltip = نظرسانِي وارا سوال
 transcribe-audio-menu-item-tooltip = تمارِي ٻولِي نِي رِڪارڍينڳ نِي آڍِيو ٺاۿو
 
 ## MENU ITEM ARIA LABELS
