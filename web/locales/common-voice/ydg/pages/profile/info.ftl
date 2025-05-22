@@ -8,3 +8,5 @@ profile-form-additional-language =
     .label = بیݰ زبان
 profile-form-language =
     .label = زبان
+profile-form-accent =
+    .label = لہجہ

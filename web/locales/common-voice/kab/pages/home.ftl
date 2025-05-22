@@ -98,10 +98,13 @@ hero-title = Takinuljit yettmeslayen tutlayt-nwen·nkent
 
 language-text-card-header = Aḍris
 add-text = Rnu aḍris
+answer = Tiririt
 
 ## Community section
 
 find-us-on-matrix = Af-aɣ-d deg Matrix
+# label for button
+find-us-on-matrix-action = Af-aɣ-d deg Matrix
 contribute-github = Ttekki di Github
 # label for button
 contribute-github-action = Ttekki di Github

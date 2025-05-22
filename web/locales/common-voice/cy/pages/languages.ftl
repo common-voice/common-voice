@@ -1,6 +1,6 @@
 ## Languages Overview
 
-language-section-in-progress = Ar y Ffordd
+language-section-in-progress = Ar Waith
 language-section-in-progress-new-description = Mae'r ieithoedd hyn ar hyn o bryd o dan ddatblygiad cymunedol. Mae'r bariau cynnydd yn nodi pa mor bell y mae pob iaith yn y broses o <localizationGlossaryLink>leoleiddio'u gwefan</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>chasglu brawddegau</sentenceCollectionGlossaryLink>.
 language-section-launched = Ar Gael
 language-section-launched-description = Ar gyfer yr ieithoedd sydd wedi'u lansio, mae'r wefan wedi'i <localizationGlossaryLink> leoleiddio'n </localizationGlossaryLink>llwyddiannus, ac mae ganddo ddigon o <sentenceCollectionGlossaryLink>frawddegau wedi'u casglu</sentenceCollectionGlossaryLink> i ganiatáu cyfraniadau <speakLink>Siarad</speakLink> a <listenLink>Gwrando</ listenLink>.

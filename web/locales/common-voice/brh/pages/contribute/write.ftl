@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جملہ جمع کبو و ولدا ہوربو، 
 add-sentences-menu-item-tooltip = تینا زبان ٹی جملہ غاتے جمع کبو
 review-sentences-menu-item-tooltip = تینا زبان ٹی جملہ غاتا ریویو کبو
 add-questions-menu-item-tooltip = تینا زبان ٹی سوجاتے جمع کبو
+review-questions-menu-item-tooltip = سوجاتا ولدا ہوننگ
 transcribe-audio-menu-item-tooltip = تینا زبان ٹی ریکارڈ کروکا آڈیو ئے درشان کبو
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = آپشن مینیو ئے لکھبو
 add-sentences-menu-item-aria-label = مخلوق نا خواننگ کن پوسکنو جملہ جمع کبو
 review-sentences-menu-item-aria-label = مخلوق نا پارہ غان جمع کروکا جملہ غاتا ریویو البو
 add-questions-menu-item-aria-label = مخلوق نا خواننگ و ورندی تننگ کن پوسکنو سوج جمع کبو
+review-questions-menu-item-aria-label = مخلوق نا پارہ غان جمع کروکا سوجاتا جاچ البو و ووٹ ایتبو۔
 transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگ ئے لوز آتیٹی درشان کبو

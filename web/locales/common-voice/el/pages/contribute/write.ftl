@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = Προσθήκη και έλεγχος προτ�
 add-sentences-menu-item-tooltip = Προσθέστε προτάσεις στη γλώσσα σας
 review-sentences-menu-item-tooltip = Ελέγξτε προτάσεις στη γλώσσα σας
 add-questions-menu-item-tooltip = Προσθέστε ερωτήσεις στη γλώσσα σας
+review-questions-menu-item-tooltip = Έλεγχος ερωτήσεων
 transcribe-audio-menu-item-tooltip = Μεταγράψτε ηχογραφήσεις στη γλώσσα σας
 
 ## MENU ITEM ARIA LABELS

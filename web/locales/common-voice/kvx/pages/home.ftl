@@ -78,6 +78,7 @@ read-more-about = وڌارئہ جانڪارِي ۿارُو امارو ۮِيڌل
 answer-questions = سوئال جواڀ
 review-transcriptions = لکل متنَ رئي ڌوهرائِي ڪرو
 add-questions = سوئالون نئہ شامِل ڪرو
+review-questions = ڌوهرائي را سوئال
 transcribe-audio = آڊيو نئہ لکيا رِي صُورت ۾ ڀڌلو
 press-and-stories = اخبارِي اطلاعون انَ وارتائون
 community-and-languages = قوم ان ٻولي
@@ -125,6 +126,7 @@ spontaneous-card-content = پرامٽز رو جواڀ ۮينَ قُڌرتِي ا
 language-text-card-header = ٻولِي رو متنَ
 language-text-card-content = منکون رو علمِي ڌائرو،جُملا انَ ترجمو ڪريا ۿارُو متنَ،ننڪئي ٻولئي،نمُونا، وڌارئہ اِستعمال ٿي هيڪئہ۔
 add-text = متنَ نئہ شامِل ڪرو
+answer = جواڀ
 
 ## Community section
 

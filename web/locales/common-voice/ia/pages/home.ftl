@@ -78,6 +78,7 @@ read-more-about = Lege plus in nostre pagina: A proposito
 answer-questions = Responder a questiones <small>(Tosto veniente)</small>
 review-transcriptions = Verifica le transcriptiones <small>(Tosto veniente)</small>
 add-questions = Adder Questiones <small>(Tosto veniente)</small>
+review-questions = Revider questiones
 transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos
 community-and-languages = Communitate e linguas

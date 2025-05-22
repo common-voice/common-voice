@@ -12,11 +12,10 @@ request-language-form-info =
     .label = Gwybodaeth am yr iaith
 request-language-form-info-explanation =
     Ychwanegwch gymaint o wybodaeth ag y gallwch am yr iaith.
-    Gall
-    hyn gynnwys:
+    Gall hyn gynnwys:
 request-language-form-info-explanation-list-1 = Enwau eich iaith
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codau ISO</isoCodeLink> os yw'n hysbys
-request-language-form-info-explanation-list-3 = Dolenni i wefannau a all ein helpu i ddeall yr iaith
+request-language-form-info-explanation-list-3 = Dolenni i wefannau all ein helpu i ddeall yr iaith
 request-language-google-recaptcha-required = Mae angen reCAPTCHA os ydych am fwrw ymlaen
 request-language-google-recaptcha-error = Aeth rhywbeth o'i le gyda'r reCAPTCHA. Ceisiwch eto.
 # Success page
@@ -40,5 +39,5 @@ request-for-spontaneous-speech-toggle = Gofyn am Leferydd Rhydd
 need-help-deciding-platform = Angen help i benderfynu pa un i'w ddewis?
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>Lleferydd Ysgrifenedig</strong> (yn draddodiadol yr hyn yr ydych yn ei adnabod fel Common Voice) yw lle gallwch ddarllen brawddegau yn uchel yn eich iaith.
-need-help-deciding-platform-explanation-2 = Mae <strong>Lleferydd Rhydd</strong> yn rhan newydd o Common Voice lle gallwch ymateb i gwestiynau mewn ffordd fwy organig, llafar.
+need-help-deciding-platform-explanation-2 = Mae <strong>Llefaru Rhydd</strong> yn rhan newydd o Common Voice lle gallwch ymateb i gwestiynau mewn ffordd fwy organig, llafar.
 need-help-deciding-platform-explanation-3 = Os nad ydych yn gweld eich iaith yn y naill ran na'r llall o'r platfform, dewiswch y ddau.

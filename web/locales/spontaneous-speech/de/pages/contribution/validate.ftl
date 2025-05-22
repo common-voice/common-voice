@@ -2,7 +2,7 @@
 
 validate-page-instruction = Überprüfen Sie <validateIcon></validateIcon> Erfüllt diese Frage die Richtlinien?
 dataset-label = Datensatz
-accept-vote-toast-message = Frage erfolgreich abgelehnt
+accept-vote-toast-message = Frage erfolgreich akzeptiert
 reject-vote-toast-message = Frage erfolgreich abgelehnt
 add-vote-error-message = Beim Abstimmen ist ein Fehler aufgetreten
 no-questions-message = Es gibt derzeit keine zu überprüfenden Fragen für diese Sprache. Bitte aktualisieren Sie die Seite oder versuchen Sie es später erneut.

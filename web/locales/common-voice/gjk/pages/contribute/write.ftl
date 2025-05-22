@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جُملان نِي نظر سانِي انين �
 add-sentences-menu-item-tooltip = تمارِي ٻولِي مان جُملا ايڍ ڪرو
 review-sentences-menu-item-tooltip = تمارِي ٻولِي مان جُملان نين نظر سانِي ڪرو
 add-questions-menu-item-tooltip = تمارِي ٻولِي مان سوال ايڍ ڪرو
+review-questions-menu-item-tooltip = سوالن نِي نظرسانِي
 transcribe-audio-menu-item-tooltip = تمارِي ٻولِي نِي رِڪارڍينڳ نِي آڍِيو ٺاۿو
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = آپشنَ مينيو لکو
 add-sentences-menu-item-aria-label = ڀراڌرِي نا ڀڻيا ۿارُو جُملا ايڍ ڪرو
 review-sentences-menu-item-aria-label = ڀراڌرِي نِي طرڦ ٿِي ۮيڌل جُملا نِي نظر سانِي ڪرو زين موجوڌ سي
 add-questions-menu-item-aria-label = ڀراڌرِي ۿارُو نوا جُملا ڄو ايٽليَ اِي ڀڻين ۿڳيَ انين جواٻ ۮئِي ۿڳيَ
+review-questions-menu-item-aria-label = ڀِراڌرِي نِي طرڦ ٿِي ۮيڌل نوان سوالان نِي نظرسانِي  انين ووٽ ڄو۔
 transcribe-audio-menu-item-aria-label = آڍِيو ٺاۿل نين اکران مان ڀيانَ ڪرو
