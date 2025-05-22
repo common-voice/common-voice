@@ -16,3 +16,5 @@ transcript-skipped-error = Ngǎjìní ddiy njèy ndèy ka tdè dǎ ndíydha ní 
 correct = Lǎní
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
 done = Ŋà njèy ndèy
+# For the button on the Check Transcriptions page to edit a transcription
+edit = Thi ǒnga
