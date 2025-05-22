@@ -13,7 +13,7 @@ wall-of-text-second = Nid yw'r rhan fwyaf o ddata sy'n cael ei ddefnyddio gan y 
 show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn gywir?
-no-clips-to-validate = Mae'n ymddangos nad oes unrhyw glipiau i wrando arnynt yn yr iaith hon. Helpwch ni i lanw'r bwlch dry recordio rhai nawr.
+no-clips-to-validate = Mae'n ymddangos nad oes unrhyw glipiau i wrando arnyn nhw yn yr iaith hon. Helpwch ni i lanw'r bwlch drwy recordio rhai nawr.
 toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
 speak-paragraph = Mae recordio clipiau'n rhan annatod o adeiladu ein set data gored; byddai rhai'n dweud mae hwn yw'r rhan sy'n fwyaf o hwyl, hefyd.
 speak-goal-text = Clipiau wedi'u recordio
@@ -30,7 +30,7 @@ all-locales = Y Cyfan
 today = Heddiw
 x-weeks-short =
     { $count ->
-        [zero] Wythnos
+        [zero] Wythnosau
         [one] Wythnos
         [two] Wythnos
         [few] Wythnos
@@ -39,7 +39,7 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [zero] mis
+        [zero] misoedd
         [one] mis
         [two] mis
         [few] mis
@@ -48,12 +48,12 @@ x-months-short =
     }
 x-years-short =
     { $count ->
-        [zero] b
-        [one] b
-        [two] b
-        [few] b
-        [many] b
-       *[other] b
+        [zero] { $count }b
+        [one] { $count }b
+        [two] { $count }b
+        [few] { $count }b
+        [many] { $count }b
+       *[other] { $count }b
     }
 help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel sy'n agored i'r cyhoedd
 sign-up-account = Cofrestru am gyfrif
@@ -68,7 +68,7 @@ improve-audio = Mae manylion proffil yn gwella'r data sain sy'n cael ei ddefnydd
 keep-track = Cadwch olwg ar eich cynnydd a'ch metrigau ar draws sawl iaith.
 compare-progress = Gweld sut mae'ch cynnydd yn cymharu â chyfranwyr eraill ledled y byd.
 view-goals = Gweld eich cynnydd yn erbyn targedau personol a phrosiectau.
-join-newsletter = Neu, ymunwch á'n rhestr e-bost am ddiweddariadau a newyddion am y project.
+join-newsletter = Neu, ymunwch â'n rhestr e-bost am ddiweddariadau a newyddion am y project.
 
 ## What's public
 
@@ -77,7 +77,7 @@ email-not-public = Fyddwn ni ddim yn gwneud eich e-bost yn gyhoeddus.
 recordings-and-locale-public = Bydd y nifer o recordiadau a pha ieithoedd rydych yn cyfrannu atyn nhw yn gyhoeddus.
 username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n anhysbys.
 demographic-deidentified-clarity-2 = Fydd data demograffig sy'n cael ei gynnig o ran dewis (e.e. oedran, rhyw, iaith, ac acen) byth yn cael ei gyhoeddi ar eich proffil, a fyddan nhw ddim yn gysylltiedig â'ch cyfrif yn y set ddata. Bydd clipiau sain unigol yn gysylltiedig â data demograffig at ddibenion dadansoddiad mwy cywir - er enghraifft, efallai y bydd ymchwilydd eisiau targedu model hyfforddi at segment demograffig penodol.
-username-email-not-demographic = Ni fydd eich enw defnyddiwr na'ch e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
+username-email-not-demographic = Bydd eich enw defnyddiwr na'ch e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
 
 ## Landing
 
