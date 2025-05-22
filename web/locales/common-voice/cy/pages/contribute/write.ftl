@@ -177,7 +177,7 @@ add-sentences-menu-item-tooltip = Ychwanegu brawddegau yn eich iaith
 review-sentences-menu-item-tooltip = Adolygu brawddegau yn eich iaith
 add-questions-menu-item-tooltip = Ychwanegu cwestiynau
 review-questions-menu-item-tooltip = Adolygu cwestiynau
-transcribe-audio-menu-item-tooltip = Trawsgrifio recordiadau sain yn eich iaith
+transcribe-audio-menu-item-tooltip = Trawsgrifio recordiadau sain
 
 ## MENU ITEM ARIA LABELS
 

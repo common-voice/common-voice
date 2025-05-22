@@ -17,7 +17,7 @@ add-question-error-message = Methodd yr llwytho i fyny, rhowch gynnig arall arni
 add-question-too-many-questions-error = Wedi mynd y tu hwnt i 500 o gwestiynau. Lleihewch nifer y cwestiynau a rhoi cynnig arall arni.
 partial-questions-upload-message =
     { $totalQuestions ->
-        [zero] { $uploadedQuestions } o { $totalQuestions } cwestiynnau a gasglwyd. Edrychwch ar ein tudalennau <guidelinesLink>Canllawiau</guidelinesLink> i ddysgu mwy am sut i ychwanegu cwestiynau
+        [zero] { $uploadedQuestions } o { $totalQuestions } cwestiynau a gasglwyd. Edrychwch ar ein tudalennau <guidelinesLink>Canllawiau</guidelinesLink> i ddysgu mwy am sut i ychwanegu cwestiynau
         [one] { $uploadedQuestions } o 1 cwestiwn a gasglwyd. Edrychwch ar ein tudalennau <guidelinesLink>Canllawiau</guidelinesLink> i ddysgu mwy am sut i ychwanegu cwestiynau
         [two] { $uploadedQuestions } o { $totalQuestions } gwestiwn a gasglwyd. Edrychwch ar ein tudalennau <guidelinesLink>Canllawiau</guidelinesLink> i ddysgu mwy am sut i ychwanegu cwestiynau
         [few] { $uploadedQuestions } o { $totalQuestions } cwestiwn a gasglwyd. Edrychwch ar ein tudalennau <guidelinesLink>Canllawiau</guidelinesLink> i ddysgu mwy am sut i ychwanegu cwestiynau

@@ -9,7 +9,7 @@ platform-language = Iaith y platfform:
 platform-language-tooltip-text = Dim ond yn newid testun gwefan.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = Yn cyfrannu at set ddata ar gyfer { $language }
+contribution-picker-label = Yn cyfrannu at set ddata yr iaith { $language }
 contribution-picker-tooltip-text = Newidiadau i'r set ddata iaith rydych yn cyfrannu ato
 coming-soon = Mae rhagor o ieithoedd ar eu ffordd!
 media-recorder-api-not-supported = Nid yw'r API MediaRecorder yn cael ei gefnogi yn eich porwr.
