@@ -1,6 +1,6 @@
 action-click = دؔٻاوَٹؔاں
 action-tap = تھپکی
-contribute = یوگدان دؔیٹؔا
+contribute = یوگدؔان دؔیٹؔا
 review = جائجا لئیو
 skip = سِرکاٹؔا
 shortcuts = نہڑݪا
