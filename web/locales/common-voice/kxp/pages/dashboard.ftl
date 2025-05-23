@@ -35,6 +35,7 @@ easy-difficulty = هورُون
 average-difficulty = سراسري
 difficult-difficulty = ۮورُون
 pro-difficulty = مورٿِي
+lose-goal-progress-warning = تمارا گول نِي ايڊيٽنگ ڪرو، شاهد تمين ڪام ڪريون هوئي اين مان ڪانڪ رئي جھون هوئي۔
 activity-needed-calculation-plural =
     { $totalHours ->
         [one]
