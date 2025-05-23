@@ -1,6 +1,6 @@
 action-click = دؔٻاوَٹؔاں
 action-tap = دؔٻاوَݨاں
-contribute = یوگدؔان دؔیٹؔا
+contribute = یوگدؔان دؔیوَٹؔاں
 review = جانٚچ
 skip = سِرکاوَٹؔاں
 shortcuts = نھیڑݪا
@@ -9,8 +9,8 @@ clips-with-count-pluralized =
         [one] ایک
        *[other] دؔوجے
     }
-goal-help-recording = تھمُون سادھارن اوَاجا کُو بھرنیم <goalPercentage> مہارے روجینا <goalPercentage> کے لکشے تائیں پُگٹؔینٚم { $goalValue } ساہیتا کری ہے
-goal-help-validation = تھمُون سادھارن اوَاجا کُو سمے تائیں <goalPercentage> مھارے روجینا <goalPercentage> کے لکشے تائیں پُگٹؔینٚم { $goalValue } ساہیتا کری ہے
+goal-help-recording = تھمُون سادھارݨ اوَاجا کُو بھرنیم <goalPercentage> مھارے روجِینا <goalPercentage> کے لکشے تائِیں پُگٹؔینٚم { $goalValue } ساہیتا کری ہے
+goal-help-validation = تھمُون سادھارݨ اوَاجا کُو سمے تائیں <goalPercentage> مھارے روجِینا <goalPercentage> کے لکشے تائِیں پُگٹؔینٚم { $goalValue } ساہیتا کری ہے
 contribute-more =
     { $count ->
         [one] ایک
