@@ -36,6 +36,10 @@ average-difficulty = سراسري
 difficult-difficulty = ۮورُون
 pro-difficulty = مورٿِي
 lose-goal-progress-warning = تمارا گول نِي ايڊيٽنگ ڪرو، شاهد تمين ڪام ڪريون هوئي اين مان ڪانڪ رئي جھون هوئي۔
+want-to-continue = تمارو ڪام جاري راکو۔
+finish-editing = مورٿي ايڊيٽنگ مڪمل ڪرو
+lose-changes-warning = زي ويهري جھون سي اين نين ميلِي آلو
+build-custom-goal = ايڪ معمول گول تيار ڪرو
 activity-needed-calculation-plural =
     { $totalHours ->
         [one]
