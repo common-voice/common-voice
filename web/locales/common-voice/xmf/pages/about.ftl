@@ -59,6 +59,8 @@ about-playbook-how-add-language = მუჭო გევუძინა ნი�
 about-playbook-how-add-language-translating-heading = საიტიშ გინოთანგუა
 about-playbook-how-add-language-collecting-sentences-heading = ზიტყვასქვილეფიშ კორობუა
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> ქოძირით ჩქინი ოხემანჯღვერე ზიტყვასქვილეფიში მაკორობალიშ გუმორინაფაშ გურშენი </sentenceCollectorVideo> .
+about-playbook-how-add-language-collecting-sentences-content-2 = შეილებუნა <sentenceCollectorLinkAdd> გეუძინათ ჭიჭე ზიტყვასქვილეფი </sentenceCollectorLinkAdd>, ხოლო <bulkImportDocsLink> ართო მიშაღალარო, ქიგმირინეთ Github </bulkImportDocsLink>. რშუდანი, ნამდა ზიტყვასქვილეფი აუცილებერო ოკო რდას <licenseLink> CC (ოირქიანე საკუთრებაშე) </licenseLink> ვარდა თქვა ოკო მიფიქრათ.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> ქოძირით უმოსი ზიტყვასქვილეფიშ ოკორობუშ გურშენი </sentenceCollectorFragment>.
 
 ## How does localization work
 
