@@ -263,6 +263,7 @@ sr = سيربيئن
 ss = سيسواتي
 st = سائوٿرن سوٿو
 sv-SE = سويڊِش
+sva = سوان
 sw = سواهيلي
 syr = سارييئڪ
 ta = تامِل
@@ -317,6 +318,17 @@ zza = زازا
 profile = پروفائيل
 help = مدد هيلپ
 contact = ڪانٽيڪٽ رابظو
+privacy = پراويسي  پوشيدگي
+terms = ٽرم ، مدت
+cookies = ڪُوڪيز
+faq = فاڪ
+documentation = دستاويز ڪاڳۯ
+content-license-text = ڪامن وائيس هارو رابطو آلل سي <licenseLink> لائيسنس </licenseLink>
+share-title = اماري برادري مان شامل ٿو
+share-text = شيکاڙو ڪي چچم واقعي منک مشين ٿي ڪام ڪري سي۔ تمار آواز هارو مدد { $link }
+link-copied = ڪاپ ٿل لنڪ
+back-top = واپس ماٿي زو
+logout = لوگ آوٽ
 
 ## Donate banner
 
