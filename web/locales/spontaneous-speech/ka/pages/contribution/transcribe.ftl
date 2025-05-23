@@ -2,7 +2,7 @@
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 audio-page-instruction = { $actionType } <playIcon></playIcon> და ნაწერის სახით გადმოეცით, რასაც მოისმენთ
-editbox-header = ნაწერად გადმოცემა
+editbox-header = ტრანსკრიბირება
 editbox-placeholder = ნაწერის სახით გადმოეცით, რასაც მოისმენთ
 no-audio-message = ამ ენისთვის ნაწერად გადმოსაცემი ხმოვანი ჩანაწერი არ მოიძებნა. გთხოვთ, განაახლოთ გვერდი ან მოგვიანებით სცადოთ.
 create-transcript-success = ნაწერად გადმოცემული წარმატებით გაიგზავნა
