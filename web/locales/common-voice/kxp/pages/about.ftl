@@ -152,6 +152,14 @@ about-playbook-how-access-dataset-content-2 = اي ايس آر نا مسڊل ه�
 
 about-playbook-how-project-governance = پرجيڪٽ هارو چچم  فيصلو ڪروو؟
 about-playbook-how-project-governance-content-1 = موزيلا ڪامن وائيس ممڪن طور برادري هارو سرگرمي، زبان، ديٽابيس سائينسٽڪ تعليمي نظام هانَ  پُوري دُنيا ٿي سوفٽ ويئر انجنيئر   تيار ڪريان سي۔ اي پروجيڪٽ موزيلا  فائونديشن ٿي سي۔
+about-playbook-how-project-governance-content-2 = اي گورنمنٽئي پيلر ڪوجنا ڪري سي۔
+about-playbook-how-project-governance-content-3 = رسائي، حفاظت هانَ صفت
+about-playbook-how-project-governance-content-4 = برادري ني شموليت هانَ فيٻلا
+about-playbook-how-project-governance-content-5 = اقدار هانَ آگاهي
+about-playbook-how-project-governance-content-6 = باهمي جوابداري
+about-playbook-how-project-governance-content-7 = وڌاري معلومات هارو <governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ڪامن وائيس چيوي نموني فنڊ آلي سي؟
+about-playbook-how-funded-content-1 = ڪامن وائيس ايڪ موزيلا فائوڊيشن نو پروجيڪٽ سي۔  US 501c3.  اي پروجيڪٽ پُورا <philantropicGrantLink> ڦلانٿروپڪ زي پُورا جڳت مان غريب سي ايوان ني مدد ڪري سي۔

@@ -123,17 +123,17 @@ contribution-misreadings-example-8-title = بھوَنٚرا تکڑا آگے وَ
 contribution-misreadings-example-8-explanation = [گیر مسلے ٻِروٻر]
 contribution-varying-pronunciations-title = دؔوجے لیہکے
 contribution-varying-pronunciations-description = اس بُڑانٚداپ کسی ٹُکڑے کو چھوڈؔٹؔینٚس آگے اِدؔائے ریہو کہ پڑھنوَاڑین کسی سٻدؔا کا گلت لیہکا کرا ہے،دِکتا کُو گلت جاگھاپ دھرا ہے، یا دؔیکھݨینٚم تو سُئالاڑا نِساٹؔ اندؔیکھا کری دِؔیا ہے۔ سنسارام الگ نامُونے کے لیہکے کا اُپیوگام ہے، جِنمیں سے کئی تھمُون اپٹِؔیں سادھارݨ سمُودائیم نائِیں سُٹؔیں ہوونٚگڑے۔ کِرپا کری کن اِن مِنکھیں نتر پرسنسا کا ایک سیما اُپلبدؔ کراؤ جکو تھم سے نِیاری ٻات کری سِکتے ہے۔
-contribution-varying-pronunciations-description-extended = دؔوجے پاسے، اگر تھمکو لکھاوتا ہے کہ ہوئی سِکتا ہے پڑھنواڑے کُو آگے کِدؔھی یو سٻدؔ نائیں مِلا، اور ٻو رُگی لیہکیپ گلت انداجا لگائی را ہے، تو کِرپا کری کن رد کری دؔیو۔ جے اگر تھمکو وِسواس نائیں تیا تو، سِرکاݨواڑا ٻٹٹؔا کا اُپیوگ کرو۔
+contribution-varying-pronunciations-description-extended = دؔوجے پاسے، اگر تھمکو لکھاوَتا ہے کہ ہوئی سِکتا ہے پڑھنوَاڑے کُو آگے کِدؔھی یو سٻدؔ نائِیں مِلا، اور ٻو رُگی لیہکینٚپ گلت انداجا لگائی را ہے، تو کِرپا کری کن ردؔ کری دؔیؤ۔ جے اگر تھمکو وِسواس نائِیں تِیا تو، سِرکاݨواڑا ٻٹٹؔاں کا اُپیوگ کرو۔
 contribution-varying-pronunciations-example-1-title = اُس کے مُوڈؔاپ اُس کی ٹوپی ٻاہؤڑی تی۔
 contribution-varying-pronunciations-example-1-explanation = [‘Beret' سئی ہے چاہے آگے سٻدؔ (UK) یا دؔوجے  (US) پر جورا کے سات]
-contribution-varying-pronunciations-example-2-title = اُس کا ہات اُوٹھوڑا تیا۔
-contribution-varying-pronunciations-example-2-explanation = [انگریجیام ‘Raised’ کا لیہکا سدائیں ایکی سٻدؔا کے توراپ ہووتا ہے، دؔو نائیں]
+contribution-varying-pronunciations-example-2-title = اُس کا ہات اُوٹھوڑا تِیا۔
+contribution-varying-pronunciations-example-2-explanation = [انگریجِیام ‘Raised’ کا لیہکا سدائِیں ایکی سٻدؔا کے رُوپام ہووَتا ہے، دؔو نائِیں]
 contribution-background-noise-title = لارکا گاہرِیا
 contribution-background-noise-description =
-    ہم چاہوتے ہے کہ مسین سِیکٹؔیں کا نِکسا نِیارے نِیارے نامُونے کے لارکے گاھرِئے کُو ساںمبھٹٚیں کا کام ہے،
-    اور ایٹھے تائیں تو اُسی جو ہے اواجیں کُو بھی مانا جائی سِکتا ہے اُس کے بھیݪا ٻو تھمکُو پورا کتھن سُٹؔنیس نائیں روکے ۔ لارکی سانتِیا کا سنگیت سئی ہے؛ سنگیت تھمکُو ہر ایک سٻدؔا کُو سُٹؔنیس روکٹؔیں نتر گھٹؔا تیج ہے۔
-contribution-background-noise-description-extended = جے اگر بھروڑی آواج ٹُوٹی جاوتی ہے، یا اِس میں تیڑاں پڑتیاں ہیں، اُس تائیں چھوڈؔی دؔیو جس تائیں کہ پُورا کتھن سُٹؔا نائیں جائی سِکے۔
-contribution-background-noise-example-1-fixed-title = <strong>[چھیک]</strong> پُراتن کال<strong> [کھانٚگا]</strong> کے سپا ٻڈؔے ڈائنوسار۔
+    ہم چاہوَتے ہے کہ مسین سِیکٹؔیں کا نِکسا نِیارے نِیارے نامُونے کے لارکے گاھرِئے کُو ساںمبھٹٚیں کا کام ہے،
+    اور ایٹھے تائِیں تو اُسی جُو ہے اوَاجیں کُو بھی مانا جائی سِکتا ہے اُس کے بھیݪا ٻو تھمکُو پورا کتھن سُٹؔنیس نائِیں روکے ۔ لارکی سانتِیا کا سنگیت سئی ہے؛ سنگیت تھمکُو ہر ایک سٻدؔا کُو سُٹؔنیس روکٹؔیں نتر گھٹؔا تیج ہے۔
+contribution-background-noise-description-extended = جے اگر بھروڑی اوَاج ٹُوٹی جاوَتی ہے، یا اِس میں تیڑاں پڑتِیاں ہے، اُس تائِیں چھوڈؔی دؔیو جس تائِیں کہ پُورا کتھن سُٹِؔیں نائیں سِکے۔
+contribution-background-noise-example-1-fixed-title = <strong>[چھیک]</strong> پُراتن کال<strong> [کھانٚگا]</strong> کے سپا ٻڈؔے ڈائنوسر۔
 contribution-background-noise-example-2-fixed-title = دیو ڈائنو <strong>[کھانٚگ]</strong> پُرتن کال۔
 contribution-background-noise-example-2-explanation = [کتھنا کا کئی بھاگ سٹؔا نائی جائی سِکے]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>riassic۔ <strong>[Crackle]</strong> کے ٻڈؔے ڈائنوسار۔
