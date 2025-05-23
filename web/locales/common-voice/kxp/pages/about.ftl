@@ -146,9 +146,12 @@ about-playbook-how-validate-content-4 = زي ٻي منکان نان ڪلپ رد 
 
 about-playbook-how-access-dataset = مُون ڊيٽا بيس هارو چچم رسائي ڪريوش۔
 about-playbook-how-access-dataset-content-1 = ڊيٽا بيس نا صفعا نين زوئو۔ <datasetsPage> ٻولي هانَ عمل نين زوئو زي تمين چاهو سو۔ تمين ڊائون لوڊ ڪري ڪو سو۔ </metadataLink> اي ئلم شماريت ني معلومات سي هانَ قيٽا تصديق هارو سي۔ ڊيٽا بيس نين ڊائون لود ڪريا هاو اي ميل آلو۔
+about-playbook-how-access-dataset-content-2 = اي ايس آر نا مسڊل هارو ٽُول نين زوئو تمين برادري نان منکان ٿي رابطو ڪري ڪو سو۔ <discourseLink>ڊسڪورس هارو لنڪ سي </discourseLink>۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پرجيڪٽ هارو چچم  فيصلو ڪروو؟
+about-playbook-how-project-governance-content-1 = موزيلا ڪامن وائيس ممڪن طور برادري هارو سرگرمي، زبان، ديٽابيس سائينسٽڪ تعليمي نظام هانَ  پُوري دُنيا ٿي سوفٽ ويئر انجنيئر   تيار ڪريان سي۔ اي پروجيڪٽ موزيلا  فائونديشن ٿي سي۔
 
 ## How is Common Voice funded
 
