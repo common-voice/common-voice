@@ -17,3 +17,8 @@ prompt-bubble-subtitle = ათხ დაგითო́თხ შუგო̆  �
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>პა́სუხ</mark>
 respond-bubble-subtitle = ცადლიბათ უ̂ნმაკ ბუნებრივ პა́სუხ ბალ'აჼ
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>ნაწე́რეღ დე́რწდარ
+transcribe-bubble-subtitle = დაწერადებათ, უნე იშარეჩო ჩანაწერე ხაწ შუჼ.
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>დაყყდარ</mark>
