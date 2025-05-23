@@ -140,9 +140,12 @@ about-playbook-how-validate-content-2 =
     زار ٻوليا واۯو ڪلپ نا اچار ٻولي سي تو تمين رد نا ڪرو۔ اي تمان ٿي فرق سي۔ </strong> 
     چم تو آواز رڪارڊ ڪروون  اوۯکوون الاهي خاص سي۔
 about-playbook-how-validate-content-3 = زي تمين سوچو سو ڪي اُچار سئي سي۔<strong> هانَ همزيا مان سوَلا سي يان ڪوئي ٻارلو شور ٿائي رو سي۔ يان اين مان وڌاري ٻيزان منک ٻولي ران سي تو تمين ڪلپ رد ڪرو پران۔<strong> وڌاري معلومات هارو جاجچ نين وڌيڪ زوئو۔ <strong>
+about-playbook-how-validate-content-4 = زي ٻي منکان نان ڪلپ رد سي۔ تو زوئو ڪانڪ فرق ميمبر هوئي ڊيٽا بيس هارو۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = مُون ڊيٽا بيس هارو چچم رسائي ڪريوش۔
+about-playbook-how-access-dataset-content-1 = ڊيٽا بيس نا صفعا نين زوئو۔ <datasetsPage> ٻولي هانَ عمل نين زوئو زي تمين چاهو سو۔ تمين ڊائون لوڊ ڪري ڪو سو۔ </metadataLink> اي ئلم شماريت ني معلومات سي هانَ قيٽا تصديق هارو سي۔ ڊيٽا بيس نين ڊائون لود ڪريا هاو اي ميل آلو۔
 
 ## How are decisions made
 

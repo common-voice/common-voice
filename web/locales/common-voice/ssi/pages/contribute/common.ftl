@@ -110,8 +110,8 @@ contribution-misreadings-description-extended-list-5 = ایکی سٻدؔا کُ�
 contribution-misreadings-example-1-title = پُراتن سمے کا وِشال کائے ڈائیناسور
 contribution-misreadings-example-2-title = پُراتن سمے کا وِشال کائے ڈائیناسور
 contribution-misreadings-example-2-explanation = ['ڈائیناسور' ہووَٹؔاں چاہِیجے]
-contribution-misreadings-example-3-title = پچیس ٻرس پہلکے دورام سپا ٻڈؔے ڈائِیناسور۔
-contribution-misreadings-example-3-explanation = [پچھاڑی سٻدؔاس  پچھاڑیاس  آگے اواج بھروڑی کاٹی دی ہے]
+contribution-misreadings-example-3-title = ٹریاسکا کے ٻڈؔے ڈیناسور۔
+contribution-misreadings-example-3-explanation = [پچھاڑی سٻدؔاس  پچھاڑیاس  آگے اوَاج بھروڑی کاٹی دؔی ہے]
 contribution-misreadings-example-4-title = پچیس ٻرس پہلکے دورام سپا ٻڈؔے ڈائیناسور۔ ہاوے
 contribution-misreadings-example-4-explanation = [جروری کتھناس ودھیک بھروڑا ہے]
 contribution-misreadings-example-5-title = ہم کوپھی لیوٹؔیں جائِیرے ہے۔
