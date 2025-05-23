@@ -6,3 +6,5 @@ wall-of-text = Common Voice-ს  ჲა́სტიჼ ცჰ̦ა ტყო́ჸ
 why-spontaneous-speech = სტე́ნნდალლა თაგჲინა́თხ დი́ნ ჲაჲნი̆ ა́მბუჲ ჲარეჼ (მეტყვე́ლებეჼ) მო́დელ?
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = საბუ́ხ გამოდგო́მალაჲნი̆ ხილ'ო̆ <mark> დი́ნ ჲაჲნი̆ ა́მბუჲ ჲარ მე́ ბჵარკკიკელ ხილ'ულო̆ (აჲლ'ჩე ვაჲ: მაცმე́ ცადლაჲში̆ ზე́პირ ა́მბუჲ ჲარ-ყო́ველდი́ნლუჼ ა́მბუჲ ჲარ ჰ̦ალო̆ ჲაბწლუჲში̆)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = ა́ნგრიშ ო́წო̆ ო́შტუჩო̆ ჰ̦ა́მინაჲნოჸ ჲაბწინჩო̆ გა́რემოება́ხ, მუჲლნე́ ჲაჲცი̆ მატტიშ ვაშა́ხ ხე́რცარე́, <mark> კო́დი გადა́რთოდარ</mark>
