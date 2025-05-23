@@ -139,6 +139,7 @@ about-playbook-how-validate-content-1 = زي ڪلپ هانمڀۯا مان سئي
 about-playbook-how-validate-content-2 =
     زار ٻوليا واۯو ڪلپ نا اچار ٻولي سي تو تمين رد نا ڪرو۔ اي تمان ٿي فرق سي۔ </strong> 
     چم تو آواز رڪارڊ ڪروون  اوۯکوون الاهي خاص سي۔
+about-playbook-how-validate-content-3 = زي تمين سوچو سو ڪي اُچار سئي سي۔<strong> هانَ همزيا مان سوَلا سي يان ڪوئي ٻارلو شور ٿائي رو سي۔ يان اين مان وڌاري ٻيزان منک ٻولي ران سي تو تمين ڪلپ رد ڪرو پران۔<strong> وڌاري معلومات هارو جاجچ نين وڌيڪ زوئو۔ <strong>
 
 ## How to access dataset
 
