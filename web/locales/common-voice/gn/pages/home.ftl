@@ -85,6 +85,7 @@ read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
 answer-questions = Embohovái porandu <small>(Tenondeve)</small>
 review-transcriptions = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
 add-questions = Embojuaju porandu <small>(Tenondeve)</small>
+review-questions = Porandu apojey
 transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 press-and-stories = Maranduasãiha ha Tembiasakue
 community-and-languages = Tekoha ha ñe’ẽnguéra
