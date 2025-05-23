@@ -29,7 +29,7 @@ request-new-language = მოითხოვეთ ახალი ენა
 
 respond-to-prompt = პასუხი
 transcribe = ტრანსკრიბირება
-check-transcriptions = ნაწერად ქცეულის შემოწმება
+check-transcriptions = შემოწმება
 question = შეკითხვა
 
 ## Not Found Page
