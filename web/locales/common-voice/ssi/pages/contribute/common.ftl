@@ -55,10 +55,10 @@ report-difficult-pronounce-detail = اِن میں ایسے سٻد یا ٻول ہ
 report-offensive-speech = بے لکھٹؔاں ٻولٹؔاں
 report-offensive-speech-detail = ٹُکڑیم اپمان جنک یا بے لکھٹؔی ٻولی ہے۔
 report-other-comment =
-    .placeholder = کُھلی کیہٹؔا
-success = سَپھلتا
+    .placeholder = کُھلی کیہوَٹؔا
+success = سپھلتا
 continue = کرا کر
-report-success = کھٻر سپھلتاس سِوکار کری لی ہے
+report-success = کھٻر سپھلتاس سُئِیکار کری لی ہے
 
 ## Speak & Listen Shortcuts
 
@@ -70,14 +70,14 @@ shortcut-skip = ایس
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ار
-shortcut-record-toggle-label = بھرنا / روکٹؔا
+shortcut-record-toggle-label = بھرنا / روکٹؔاں
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ٹُکڑا پُوٹھا بھرنا
 shortcut-discard-ongoing-recording = ای ایس سی
-shortcut-discard-ongoing-recording-label = بھرتوڑے کُو چھوڈؔی دؔیو
+shortcut-discard-ongoing-recording-label = بھرتوڑے کُو کھتم کر
 shortcut-submit = پُوٹھا
-shortcut-submit-label = ٹُکڑا بھیݪا کرنا
-request-language-text = آنجے تائیں سادھارن اواجاپ تھاری ٻولی نائیں دؔیسی؟
+shortcut-submit-label = ٹُکڑے جما کرنا
+request-language-text = آنجے تائِیں سادھارݨ اوَاجاپ تھاری ٻولی نائِیں دِؔیسی؟
 request-language-button = ایک ٻولیا کی ٻِنتی کرو
 
 ## Listen Shortcuts
@@ -85,7 +85,7 @@ request-language-button = ایک ٻولیا کی ٻِنتی کرو
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پی
-shortcut-play-toggle-label = چلاوٹؔا / روکٹؔا
+shortcut-play-toggle-label = چلاوٹؔاں / روکٹؔاں
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = وائے
@@ -96,9 +96,9 @@ shortcut-vote-no = ائن
 ## Validation criteria
 
 contribution-criteria-nav = ماݨک
-contribution-criteria-link = یوگدانا کا ماݨک  جاݨو
-contribution-criteria-page-title = یوگدانا کا ماݨک
-contribution-criteria-page-description = سمجو کہ اواجا کا ٹُکڑا سُٹؔتییاٹؔیں کِیا لھوڑنا ہے اور اپٹؔی اواجا کُو ودھیک اجری ٻٹؔاوٹؔینٚم ساہِیتا کرو!
+contribution-criteria-link = یوگدانا کا ماݨک  جاݨوں
+contribution-criteria-page-title = یوگدؔانا کا ماݨک
+contribution-criteria-page-description = سمجو کہ اوَاجا کا ٹُکڑا سُٹؔتییاٹؔیں کِیا لوڑنا ہے اور اپٹِؔیں اوَاجا کُو وَدھِیک اجری ٻٹؔانٚوَٹؔینٚم ساہِیتا کرو!
 contribution-for-example = ایک ٻات ہے
 contribution-misreadings-title = گلت سمجٹؔا
 contribution-misreadings-description = سُٹؔتییاٹؔیں اِدؔائے دؔیکھو کہ جکو بھروڑا ہے ٻو ٻوئی ہے جکو لِکھوڑا ہے جے اگر چھوچ موچ گلتیاں بھی ہووے تو چھوڈؔی دؔیؤ <br /> سپا سادھارݨ گلتِیم بھیݪی ہے
