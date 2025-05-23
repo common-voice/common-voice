@@ -115,9 +115,16 @@ about-playbook-how-record-quality = مُون چچم هڌري رڪارڊنگ نا
 about-playbook-how-record-content-1 = هڌرا آواز ٿي ٻولو۔ ايوي نموني ٻوليا هارو ڌنيواۮ۔ امين چاهان سان ڪي تمارو اچار آ سي هانَ تمارو آواز سئي هوئي۔ تمارو انداز هانَ سُر هڌرو هوئي۔
 about-playbook-how-record-content-2 = باقي ٻارلو آواز نو ڌهيان راکو۔ چمڪي هڌري نموني هانمڀۯي ڪان۔
 about-playbook-how-record-content-3 = جملا دهيان ٿي هانمڀۯو۔ ويهارو نا يان وري اکر نا ڳڏاوو۔
+about-playbook-how-record-content-4 = رڪارڊنگ ٿِي مور پليٽ فارم هارو يقين هوون زويئي، ايڪ چڪر مڪمل ٿايا چيڙ روڪو پري۔
+about-playbook-how-record-content-5 = <accuracyLink> ڪيريٽريا نين وڌيڪ زويا هارو آ لنڪ سي۔
 
 ## How to grow language
 
+about-playbook-how-grow-language = ڪامن وائيس ٻولي هارو امين چچم وڌيڪ فائيدو لئي ڪان سان۔
+about-playbook-how-grow-language-content-1 = ڪامن وائس هارو منک ڀيۯان ڪريا هارو ايڪ موقعو لو هانَ يقين ڪرو ڊيٽا بيس هارو منک ممڪن سي۔ امين ڪانڪ سامان هانَ ٽيمپليٽ استعمال ڪرشان۔
+about-playbook-how-grow-language-content-2 = پروگرام نو نتيزو
+about-playbook-how-grow-language-content-3 = تمين ايڪ پروگرام راکو زي منکان هارو مدد ٿئي ڪي۔ تمين سوچو ڪي چچم آسان سي۔ تمين آن لائين ويڊيو ڪانفرنس ڪرو۔ يان ڪوئي منک ٿي زي هورون هوئي۔ <eventTemplate> ٽيمپليٽ نين چيڪ ڪرو هانَ ڪانڪ وڌيڪ شيزون پروگرام هارو واپراوو۔
+about-playbook-how-grow-language-content-4 = سوشل ميڊيا
 
 ## How to validate
 
