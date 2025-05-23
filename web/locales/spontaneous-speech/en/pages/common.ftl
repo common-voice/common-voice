@@ -32,6 +32,7 @@ transcribe = Transcribe
 check-transcriptions = Review
 question = Question
 validate = Validate
+tag = Tag
 
 ## Not Found Page
 
