@@ -25,3 +25,7 @@ check-bubble-title = <mark>დაყყდარ</mark>
 check-bubble-subtitle = დაყყდებათ, ნიფსი́ და ლე ცო ნაწე́რეღ დე́რწინო̆ იშა́რეჼ ჩანაწერ
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>მონაცე́მი</mark>
+data-bubble-subtitle = ათხ ხაჼჲახითოშ ქვე́ყნბადჲო́თხ მონაცემა́ჼ კრე́ბულ
+contact-us = თხო́გო̆ ლავათ /დაკე́ჲვშრებალიბათ
+contact-us-title = ლე́ჸი შუჼ პრო́ექტე მონაწილეობ ლე თხო́ციჼ ცჰ̦ა́ღქე́სადალარ?
+contact-us-email = ელფო́სტ
