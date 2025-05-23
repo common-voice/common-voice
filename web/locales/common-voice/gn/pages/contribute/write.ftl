@@ -139,6 +139,7 @@ write-contribute-menu-tooltip = Embojuaju ha ehechajey ñe’ẽjuaju, eporandu,
 add-sentences-menu-item-tooltip = Embojuapy ñe’ẽjuaju ne ñe’ẽme
 review-sentences-menu-item-tooltip = Ehechajey umi ñe’ẽjuaju ne ñe’ẽme
 add-questions-menu-item-tooltip = Embojuapy ñe’ẽjuaju ne ñe’ẽme
+review-questions-menu-item-tooltip = Porandu apojey
 transcribe-audio-menu-item-tooltip = Emoñe’ẽjehai umi ñongatupyre ne ñe’ẽtépe
 
 ## MENU ITEM ARIA LABELS
