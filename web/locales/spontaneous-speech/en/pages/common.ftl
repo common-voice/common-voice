@@ -31,6 +31,7 @@ respond-to-prompt = Answer
 transcribe = Transcribe
 check-transcriptions = Review
 question = Question
+tag = Tag
 
 ## Not Found Page
 
