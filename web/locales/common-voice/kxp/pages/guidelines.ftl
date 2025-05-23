@@ -8,9 +8,17 @@ question-collection = سوال ڀيۯا ڪروا
 
 varying-pronunciations = اُچار مان فرق
 misreadings = ڀڻوا ويهاروون
+offensive-content = پسند نا هوئي
+background-noise = چيڙلو ڪاش
+background-voices = چيڙلو آواز
+volume = حجم، آواز
+reader-effects = ڀڻيا واۯان نا اثرات
+just-unsure = يقين نا هوئي
+example = مثال
 
 ## Voice collection sidebar content
 
+still-have-questions = هزي سوال سي
 
 ## Sentence collection nav ids
 

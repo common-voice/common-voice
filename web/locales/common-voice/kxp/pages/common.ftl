@@ -341,6 +341,11 @@ loading = لوڊنگ
 email-opt-in-info = گول هيئي سڙايا هارو اي ميل ني ضرورت نٿي۔ پروگريس نين اپڊيٽ هانَ ڪامن وائس نيون خبرُون۔
 email-opt-in-info-title = ميل لسٽ مان ڪامن وائيس مان شامل ٿو
 email-opt-in-info-sub-with-challenge = اي ميل ڪروان زم چيلينج هانَ گول ياد الاوون۔ آڳۯ وڌيا هارو اپڊيٽ ڪامن وائيس هارو واتُون يان خبرون۔
+email-opt-in-privacy-v2 = اي ميل نا منتخب ڪريا ٿي تمارو اسٽيٽ موزيلا ٿِي سئي ٿئي زاشي۔ موزيلا نين حوالي ڪام بيان ڪرو۔ <privacyLink>
+indicates-required = تارا نا نشان ٿِي ٽڪ ڪرو۔
+not-available-abbreviation = نا
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = امان نين تماري مدد نِي ضرورت سي<mark><br/></mark>
