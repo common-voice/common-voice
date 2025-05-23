@@ -4,6 +4,7 @@ validate-page-instruction = დაყყდებათ <validateIcon></validate
 dataset-label = კრებულ
 accept-vote-toast-message = შეკითხვ  დაქიშ ჲა ლაცინო̆
 reject-vote-toast-message = შეკითხვ დაქიშ ჲა დაწუნბადჲიენო̆
+add-vote-error-message = შეკითხვენ იშ თე́ლ'ოშ შეცდო́მ (ხარცხილ'არ) ხილ'ეჼ
 
 ## Validation guidelines
 
