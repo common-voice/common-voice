@@ -36,14 +36,14 @@ vote-no = نائِیں
 datasets = ڈیٹاسِیٹاں
 languages = ٻولّیاں
 about = کے باریم
-partner = ٻیلی
+partner = سیوَاݪی
 submit-form-action = بھیݪا کرنا
 
 ## Reporting
 
-report = کھٻر
-report-title = کھٻر دؔئٹؔا
-report-ask = اِن ٻولیںس تیرے سامے کیا مسلے آوتے ہے؟
+report = سُوچنا
+report-title = سُوچنا دؔیٹؔا
+report-ask = اِن ٻولّیںس تیرے سامے کیا مسلے آوَتے ہے؟
 report-offensive-language = بے لکھٹؔی ٻولی
 report-offensive-language-detail = ٻولیم اپمان جنک یا بے لکھٹؔی بولی ہے
 report-grammar-or-spelling = ٻولیا کے آینیم گلتی
