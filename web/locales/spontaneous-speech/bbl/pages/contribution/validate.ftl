@@ -13,3 +13,4 @@ validate-page-skip-button-shortcut = S
 ## Validation guidelines
 
 validation-guidelines-title = ნიყბა́ხუჲნი̆/გზამკვლევ
+validation-guideline-1 = აკრძა́ლოდიენო̆ და პირად ინფორმა́ციიშ დაკლე́ვადჲარ (მუჲლნე́ დაჲცი̆: წარიშ, ტათბუჴ ჴალლინო̆ დეტალი)
