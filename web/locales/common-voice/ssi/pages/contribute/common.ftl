@@ -2,21 +2,21 @@ action-click = دؔٻاوَٹؔاں
 action-tap = تھپکی
 contribute = یوگدؔان دؔیٹؔا
 review = جانٚچ
-skip = سِرکاٹؔا
-shortcuts = نہڑݪا
+skip = سِرکاوَٹؔاں
+shortcuts = نھیڑݪا
 clips-with-count-pluralized =
     { $count ->
         [one] ایک
        *[other] دؔوجے
     }
-goal-help-recording = تھمنے سادھارن آواجا کُو بھرنیم <goalPercentage> مہارے روجینا <goalPercentage> کے لکشے تائی پُگٹؔیم { $goalValue } ساہیتا کری ہے
-goal-help-validation = تھمنے سادھارن آواجا کُو سمے تائی <goalPercentage> مہارے روجینا <goalPercentage> کے لکشے تائی پُگٹؔیم { $goalValue } ساہیتا کری ہے
+goal-help-recording = تھمُون سادھارن اوَاجا کُو بھرنیم <goalPercentage> مہارے روجینا <goalPercentage> کے لکشے تائیں پُگٹؔینٚم { $goalValue } ساہیتا کری ہے
+goal-help-validation = تھمُون سادھارن اوَاجا کُو سمے تائیں <goalPercentage> مھارے روجینا <goalPercentage> کے لکشے تائیں پُگٹؔینٚم { $goalValue } ساہیتا کری ہے
 contribute-more =
     { $count ->
         [one] ایک
        *[other] دؔوجا
     }
-speak-empty-state = مہارے کن اِس ٻولیام بھرنے نتر ٻول  کُھٹی گے ہے۔۔۔
+speak-empty-state = مھارے کن اِس ٻولیام بھرنے نتر ٻول  کُھٹی گے ہے۔۔۔
 no-sentences-for-variants = ہوئی سِکتا ہے کہ تھاری ٻولیا کا موھ ٻولیںس ٻار ہووے! اگر تھم آراماس ہے تو تھم اپٹؔی ٻولیا کے مہم دؔوجے ٻول  اپٹؔی کتارا کُو بدلی کری سِکتے ہے۔
 speak-empty-state-cta = ٻول بھیݪے کرو
 speak-loading-error = ہمکُو تھارے ٻولٹؔیے نتر کوئی ٻول نائی مِلی سِکے۔ کرپا کری کن پیچھیں پُٹھا جتن کرو۔
