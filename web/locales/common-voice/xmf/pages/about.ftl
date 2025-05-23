@@ -58,6 +58,7 @@ about-playbook-what-is-language = მუ რე ნინა Common Voice-ის
 about-playbook-how-add-language = მუჭო გევუძინა ნინა?
 about-playbook-how-add-language-translating-heading = საიტიშ გინოთანგუა
 about-playbook-how-add-language-collecting-sentences-heading = ზიტყვასქვილეფიშ კორობუა
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> ქოძირით ჩქინი ოხემანჯღვერე ზიტყვასქვილეფიში მაკორობალიშ გუმორინაფაშ გურშენი </sentenceCollectorVideo> .
 
 ## How does localization work
 
