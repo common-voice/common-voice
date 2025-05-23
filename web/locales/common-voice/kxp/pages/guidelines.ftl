@@ -19,6 +19,7 @@ example = مثال
 ## Voice collection sidebar content
 
 still-have-questions = هزي سوال سي
+contact-common-voice = ڪامن وائيس ٽيم ٿِي راب﻿﻿﻿طو ڪرو
 
 ## Sentence collection nav ids
 

@@ -278,6 +278,7 @@ tig = تيگرِي
 tk = تُرڪمين
 tl = تگالوگ
 tn = سيٽسوانا
+tob = توبا قوم
 tok = ٽوڪِي پُونا
 tr = تُرڪش
 ts = ايڪٽسون گا
@@ -349,3 +350,7 @@ not-available-abbreviation = نا
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = امان نين تماري مدد نِي ضرورت سي<mark><br/></mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڊيٽا سيٽ ني ميزباني ڪريا هارو تقريبن ايڪ ملين ڊالر خرچ ٿائي سي۔ هانَ  برادري مان سئو ٻوليان مان پليٽ فارم ني ترقي سي۔ هوَي اميد سي ڪي شون ڪروون سي <strong> زي تمارو اقدار وڌي زين مان ڊيٽا شامل سي تو آز مدد ڪرو۔ </strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = سي وي هارو </mark><br/><mark>تماري کوجان </mark>
