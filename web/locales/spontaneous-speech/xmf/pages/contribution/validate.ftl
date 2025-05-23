@@ -10,3 +10,4 @@ no-questions-message = ასე თე ნინაშო გინაჯინ
 
 validation-guidelines-title = შარაშმაწურაფალი
 validation-guideline-3 = მარტივი დო არძაშო ანდვილო გაგებელი
+validation-guideline-4 = არ-ჟირ ზიტყვასქვილით რე შიოლებერი გამაშ მეჩამა
