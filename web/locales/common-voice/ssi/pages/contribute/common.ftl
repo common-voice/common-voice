@@ -1,7 +1,7 @@
 action-click = دؔٻاوَٹؔاں
 action-tap = تھپکی
 contribute = یوگدؔان دؔیٹؔا
-review = جائجا لئیو
+review = جانٚچ
 skip = سِرکاٹؔا
 shortcuts = نہڑݪا
 clips-with-count-pluralized =
