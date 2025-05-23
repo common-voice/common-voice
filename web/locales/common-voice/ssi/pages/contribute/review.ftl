@@ -1,10 +1,10 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تھمُون کوئی ٻولِیاں نائیں چُنِیاں ہے۔ ٻولئیں کُو چُنٹؔیں نتر کِرپا کری کن اپٹؔی<profileLink>پروفائلاپ</profileLink>جاؤ
-sc-review-title = ٻولیں کُو اَدؔائے دؔیکھو
+sc-review-lang-not-selected = تھمُون کوئی ٻولِیاں نائِیں چُنِیاں ہے۔ ٻولئیں کُو چُنٹؔیں نتر کِرپا کری کن اپٹِؔیں<profileLink>پروفائلاپ</profileLink>جاؤ
+sc-review-title = ٻولیں کُو اِدؔائے دؔیکھو
 sc-review-loading = ٻولیں کُو لوڈ کری رے ہے...
 sc-review-select-language = دؔیا کری ٻولیں کُو دؔیکھٹؔیں   نتر ایکی بھاشا چُنو ۔
-sc-review-no-sentences = نِگھا  راکھٹؔیں  نتر کوئی ٻول نائیں. <addLink>اِٻکے ودھِیک ٻول سیمل کرو!</addLink>
+sc-review-no-sentences = نِگھا  راکھٹؔیں  نتر کوئی ٻول نائِیں. <addLink>اِٻکے ودھِیک ٻول سیمݪ کرو!</addLink>
 sc-review-form-prompt =
     .message = نِگھا  کروڑے ٻول جما نائِیں کرائے گئے، کِیا وَسواس ہے؟
 sc-review-form-usage = ٻولیں کی ااِگیا  نتر ساجے پاسے سوائپ کرو۔ اِسکُو چھوڈؔٹؔیں   نتر کھاٻے پاسے سوائپ کرو۔ اِسکُو چھوڈؔٹؔیں  نتر اوپر سوائپ کرو۔ <strong>اپٹؔا دؔیکھوڑا بھتاوٹؔاں  متی بھولِئِیں!</strong>
