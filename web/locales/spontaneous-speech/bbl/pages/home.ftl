@@ -22,3 +22,5 @@ transcribe-bubble-title = <mark>ნაწე́რეღ დე́რწდარ
 transcribe-bubble-subtitle = დაწერადებათ, უნე იშარეჩო ჩანაწერე ხაწ შუჼ.
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>დაყყდარ</mark>
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>მონაცე́მი</mark>

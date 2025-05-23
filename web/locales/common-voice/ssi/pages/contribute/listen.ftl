@@ -1,8 +1,8 @@
 listen = سُٹؔناں
-listen-subtitle = اواجیں کُو اوݪکھٹؔینٚم مھاری ساہیتا کرو
+listen-subtitle = اوَاجیں کُو اوݪکھٹؔینٚم مھاری ساہیتا کرو
 listen-instruction = { $actionType }<playIcon></playIcon> کیا اُنُون سئی ٻول ٻولے؟
-listen-again-instruction = سپا اجرا کام ہے! <playIcon></playIcon> جِدؔ تھم تیار ہؤے تو پُوٹھا سُٹؔو
-listen-3rd-time-instruction = 2 نیچے، کرا کر!<playIcon></playIcon>
+listen-again-instruction = سپا اجرا کام ہے! <playIcon></playIcon> جِدؔ تھم تِیار ہووَے تو پُوٹھا سُٹؔوں
+listen-3rd-time-instruction = 2 نِیچے، کرا کر!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> پچھاڑی!
 listen-empty-state = ہوئی سِکتا ہے کہ مھارے کن ٹُکڑے کُھٹی گے ہووے پنے کُو چِٹا کرو، یا پِیچھیں پُوٹھا جتن کرو۔
 listen-empty-state-variants = ہوئی سِکتا ہے کہ تھاری ٻولیا کا ورژن  ٹُکڑینٚس  ٻاہر ہووے! اگر تھم اراماس ہے تو تھم اپٹؔی ٻولیا کے مئھیم دؔوجے ٻول  اپٹؔی کتارا کُو ٻدݪی سِکتے ہے۔
