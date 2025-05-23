@@ -10,3 +10,10 @@ why-card-1-text = საბუ́ხ გამოდგო́მალაჲნი
 why-card-2-text = ა́ნგრიშ ო́წო̆ ო́შტუჩო̆ ჰ̦ა́მინაჲნოჸ ჲაბწინჩო̆ გა́რემოება́ხ, მუჲლნე́ ჲაჲცი̆ მატტიშ ვაშა́ხ ხე́რცარე́, <mark> კო́დი გადა́რთოდარ</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = ჰ̦ალო̆ ღაზარჲო ფელე́ცარ ო́შტუჩო̆ მატტიშნ, მე́ნხუჲჩუჲშგოჰ̦ა́ ლე ცო ჲა, ლე მა́ ზორაში̆ კაწკოჼ  ჲა <mark>მატტიჼ კო́რპუს</mark> (მუჲლნე́ ჲაჲცი̆: მატტიჼ ჴენჴე́ნი კილუჲ, ჴეჩჴეჩო̆ ყურა́ჼ მეტყვე́ლებ, ო́ჴრიჼ ნაირსა́ხეობი,  დამწე́რლობეწიჼ მატტიშ...).
+how-spontaneous-speech-works = მო́ჰ ჲუჲტო̆  დი́ნი̆ ჲენი̆ ა́მბუჲ ჲარ დამუშებადჲარ
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark> მოთხო́ვნ</mark>
+prompt-bubble-subtitle = ათხ დაგითო́თხ შუგო̆  შეკითხვ ლე მოთხო́ვნ
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>პა́სუხ</mark>
+respond-bubble-subtitle = ცადლიბათ უ̂ნმაკ ბუნებრივ პა́სუხ ბალ'აჼ
