@@ -26,6 +26,9 @@ new-sentence-rule-8 = مثال قدرتي هانَ وات سينح ايوا جم
 login-instruction-multiple-sentences = <loginLink> لوگ اِن </loginLink> or <loginLink> سائين اپ </loginLink>وڌاري جملا ٺاهو
 how-to-cite = چچم حوالو آليوش؟
 how-to-cite-explanation-bold = يو آر ايل ني سائيٽ پورُون نام نيٽ ورڪ نُون
+how-to-cite-explanation =
+    آ تمارا پوتان نا اکر سي <italicizedText>
+    امان نين ضرورت سي ڪي تمين فهرست چانئين ٿي ليشو ڪي تمين منکان مين چچم چيڪ ڪراوشو ڪاپي رائيٽ اپلائي هارو چيڪ ڪرو۔ وڌيڪ معلومات هارو <guidelinesLink>
 guidelines = هدايت
 contact-us = امان ٿي رابطو ڪرو
 add-sentence-success = جملا جمع ڪرو
