@@ -1,5 +1,6 @@
 ## Validate Page
 
+validate-page-instruction = Bu sorular <validateIcon></validateIcon> yönergelere uygun mu?
 dataset-label = Veri kümesi
 accept-vote-toast-message = Soru başarıyla kabul edildi
 reject-vote-toast-message = Soru başarıyla reddedildi
