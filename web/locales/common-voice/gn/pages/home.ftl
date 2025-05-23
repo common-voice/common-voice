@@ -123,6 +123,7 @@ get-started = Emoñepyrũ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ha’e pyendavusu reigua ha software opavavépe g̃uarã ojejapohápe mba’ekuaarã aty ñe’ẽ ha moñe’ẽragua
 scripted-card-header = Ñe’ẽsyry hapéva
 spontaneous-card-header = Ñe’ẽsyry hape’ỹva
 language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
