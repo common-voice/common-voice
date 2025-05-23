@@ -130,9 +130,11 @@ about-playbook-how-grow-language-content-5 =
     </campaignLink>.
 about-playbook-how-grow-language-content-6 = شراڪت هانَ نيٽ ورڪ
 about-playbook-how-grow-language-content-7 = ٻيزان نين زوئي ڪي شُون ڪري سي۔ زم جڳت مان ٿائي سي۔ اسڪول ني ٻولي، گروپ مان مدد ڪروون يان ربادري مان ڊيٽا سائنس ڪري سي۔ زوئي هڌري نموني زوئو ڪي چچم مدد ٿئي ڪي سي هانَ چم؟ <outreachTemplates> آنئين مان ٽيمپليٽ نين زوئو چچم آڳۯ وڌي ڪان سان </outreachTemplates>.
+about-playbook-how-grow-language-content-8 = تخليق۔ </strong> تماري ٻولي برادري هارو خاص سي۔ هانَ ڪانڪ وسيلا سي زين ٿي تمين شروعات ڪري ڪو سو۔
 
 ## How to validate
 
+about-playbook-how-validate = مُون چچم پوتان نا ڪلڪ قبول ڪريش؟
 
 ## How to access dataset
 
