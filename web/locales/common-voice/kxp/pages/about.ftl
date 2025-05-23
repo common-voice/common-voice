@@ -163,3 +163,5 @@ about-playbook-how-project-governance-content-7 = وڌاري معلومات ها
 
 about-playbook-how-funded = ڪامن وائيس چيوي نموني فنڊ آلي سي؟
 about-playbook-how-funded-content-1 = ڪامن وائيس ايڪ موزيلا فائوڊيشن نو پروجيڪٽ سي۔  US 501c3.  اي پروجيڪٽ پُورا <philantropicGrantLink> ڦلانٿروپڪ زي پُورا جڳت مان غريب سي ايوان ني مدد ڪري سي۔
+about-playbook-how-funded-content-2 = زي پڻ ڊيٽا بيس هاچا هارو خرچ ٿائي سي اي ڀري سي۔ پليٽ فارم وڌارو هان هاڪو۔ <africaMradiLink> برادري نان پروگرام </africaMradiLink>
+about-playbook-how-funded-content-3 = زي تمين يان تمارو تمارو ادارو چاهي سي ڪي پروجيڪٽ نِي مدد ڪري۔ تو تمين ايڪ <donateLink> مدد تيار ڪرو۔  يان ٻيزان ڪوئي شراڪت ڪريان هوئي زي مدد ڪري <emailFragment>commonvoice@mozilla.com</emailFragment>
