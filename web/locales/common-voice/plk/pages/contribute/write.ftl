@@ -161,5 +161,5 @@ write-contribute-menu-aria-label = اختیاراتو مینو لِکِیا
 add-sentences-menu-item-aria-label = قامے جگو پڑیونے کِرِیا ناں جُملائے ٹل تِھیا۔
 review-sentences-menu-item-aria-label = قامے جگو جمع تھییلہ جُملو جائزہ ہرہ۔
 add-questions-menu-item-aria-label = قامے جگو پڑیون گہ جواب دونَڑ ناں سوالات جمع تھیا۔
-review-questions-menu-item-aria-label = کمیونیٹی ط رفِجیْ ناں جمع تِھیلہ سوالاتو جائزہ ہرہ آں ووٹ دیا
+review-questions-menu-item-aria-label = کمیونیٹی ط رفِجیْ ناں جمع تِھیلہ سوالاتو جائزہ ہرہ آں ووٹ دیا؟
 transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگ متن دہ نقل تِھیا۔
