@@ -40,3 +40,7 @@ feedback-q = ڪام نو نتيجو
 # This indicates that there is no data to display
 no-information = ڪوئي معلومات نا
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ کلل سي۔  جديد ترين </docsLink>ماڊل تيار ڪريا واۯا ماهر سي۔
+resource-deepspeech-info = موزيلا اوپن سورس نين اوۯڇا هارو انجن ٽيپ نو استعمال ڪريو جھو سي۔ وڌاري زويا هارو <githubLink> اين ڀڻيا يان شُروع ڪري هارو <discourseLink> اين مان شامل ٿو </discourseLink> ڪي چچم شروعات ڪرشان لنڪ مان زو۔
+resource-coqui-info = <coquiLink> عام ٻوليا هارو ٽيڪنالوجي سي۔ هزي وڌاري شيڇا هارو ڪرين STT هانَ TTS انجڻ سي۾
+community-playbook = برادري هارو رمچ ني ڪتاب
+resource-playbook-info = اڳواڻي هارو زي مدد ڪرشي <playbookLink> زي پوري برادري هارو ڪامن وائيس نو ايڪ سفر سي۔ مقامي ڊيٽا بيس نا استعمال هارو سي۔ اي هڌرون سي ڪي برادري ٿي تعاون ڪرو۔
