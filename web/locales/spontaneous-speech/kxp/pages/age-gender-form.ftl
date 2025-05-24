@@ -16,3 +16,5 @@ thank-you-for-your-information = معلومات هارو مهرباني
 
 ## Gender dropdown
 
+male_masculine = مرد۔ مذڪر
+female_feminine = عورت مونث
