@@ -40,6 +40,18 @@ want-to-continue = تمارو ڪام جاري راکو۔
 finish-editing = مورٿي ايڊيٽنگ مڪمل ڪرو
 lose-changes-warning = زي ويهري جھون سي اين نين ميلِي آلو
 build-custom-goal = ايڪ معمول گول تيار ڪرو
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] پوتان نان گول هارو  ايڪ ڪلاڪ ڪام ڪروون { $hours }{ $language }
+       *[other] پوتان نان گول هارو  ايڪ ڪلاڪ ڪام ڪروون { $hours }{ $language }
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] ڪامن وائيس هوڌي ڪام ڪريا هارُو ايڪ ڪلاڪ پوتان نِي ٻولي هارو گول ماٿي ڪام ڪروون { $hours }
+       *[other] ڪامن وائيس هوڌي ڪام ڪريا هارُو ايڪ ڪلاڪ پوتان نِي ٻولي هارو گول ماٿي ڪام ڪروون { $hours }
+    }
+set-a-goal = ايڪ گول تيار ڪرو
+cant-decide = فيصلو نٿي ڪريو؟
 activity-needed-calculation-plural =
     { $totalHours ->
         [one]
