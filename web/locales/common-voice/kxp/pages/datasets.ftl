@@ -44,3 +44,6 @@ resource-deepspeech-info = موزيلا اوپن سورس نين اوۯڇا ها
 resource-coqui-info = <coquiLink> عام ٻوليا هارو ٽيڪنالوجي سي۔ هزي وڌاري شيڇا هارو ڪرين STT هانَ TTS انجڻ سي۾
 community-playbook = برادري هارو رمچ ني ڪتاب
 resource-playbook-info = اڳواڻي هارو زي مدد ڪرشي <playbookLink> زي پوري برادري هارو ڪامن وائيس نو ايڪ سفر سي۔ مقامي ڊيٽا بيس نا استعمال هارو سي۔ اي هڌرون سي ڪي برادري ٿي تعاون ڪرو۔
+data-other-librispeech-description = لِبري تقرير  1000 ڪلاڪ 16Khz ڀڻيا واۯان ني تقرير نون ايڪ ٽوۯون سي۔  انگريزي مان آڊيو ڪتاب ڀڻيا واۯان زي لِبري پروجيٽ ٿي سي۔
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM کارپس ٹی ای ڈی ویب سائٹ مان سي آڊیو وات سينچ هانَ اين نقل تيار ڪري جھئي سي۔
