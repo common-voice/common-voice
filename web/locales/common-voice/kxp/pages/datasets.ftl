@@ -29,3 +29,14 @@ download-language = ڊائون لوڊ { $language }
 validated-hours = ڪلاڪ ايڪ تصديق
 recorded-hours = ڪلاڪ رڪارڊنگ
 whats-inside = ڪامن وائيس ڊيٽابيس مان شُون سي؟
+dataset-description-hours =
+    ڪامن وائيس ٻولي نين { $languages }ايڪ ڪلاڪ تصديق نين شامل ڪري سي۔  <b> { $valid }
+    پڻ امين هزي وڌاري ٻولي هانَ آوازون شامل ڪران سان اي ڪام هارو امين دراخواسر ڪران سان ڪي منک اماري مدد ڪري</languagesLink><languagesLink></b>
+want-dataset-update = گروپ مان مشورا
+subscribe = خريد ڪروون
+get-started-speech = تقرير ني شناخت ٿي شُروعات ڪرو
+other-datasets = ڊيٽابيس هارو ٻيزا آواز
+feedback-q = ڪام نو نتيجو
+# This indicates that there is no data to display
+no-information = ڪوئي معلومات نا
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ کلل سي۔  جديد ترين </docsLink>ماڊل تيار ڪريا واۯا ماهر سي۔
