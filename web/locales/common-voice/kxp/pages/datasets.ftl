@@ -47,3 +47,4 @@ resource-playbook-info = اڳواڻي هارو زي مدد ڪرشي <playbookLin
 data-other-librispeech-description = لِبري تقرير  1000 ڪلاڪ 16Khz ڀڻيا واۯان ني تقرير نون ايڪ ٽوۯون سي۔  انگريزي مان آڊيو ڪتاب ڀڻيا واۯان زي لِبري پروجيٽ ٿي سي۔
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM کارپس ٹی ای ڈی ویب سائٹ مان سي آڊیو وات سينچ هانَ اين نقل تيار ڪري جھئي سي۔
+data-other-voxforge-description = VoxForge نين مفت مان استعمال ڪريا هارو اوپن سورس اوۯڇا هارو انجڻ نو استعمال ڪرو جھو سي۔ نقل ڪرل تقير نين جمع ڪري هارو قائم ڪريون جھون سي،
