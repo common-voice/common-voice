@@ -26,3 +26,6 @@ size-megabyte = ايم بي
 confirm-no-identify = </b>تمين راضي سو ڪي ڪامن وائيس مان ٻوليا واۯان  شناخت ماٿي پاپندي نا ڪرو۔ <b>
 confirm-join-mailing-list = تمين ڪامن وائيس ني ميل لسٽ مان شامل ٿاوا چاهو سو؟
 download-language = ڊائون لوڊ { $language }
+validated-hours = ڪلاڪ ايڪ تصديق
+recorded-hours = ڪلاڪ رڪارڊنگ
+whats-inside = ڪامن وائيس ڊيٽابيس مان شُون سي؟
