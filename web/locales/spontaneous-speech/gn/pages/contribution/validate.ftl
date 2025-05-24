@@ -12,3 +12,5 @@ validate-page-skip-button-shortcut = S
 
 validation-guidelines-title = Tekoguatarã
 validation-guideline-1 = Ndojejeruréi marandu nde reheguaite (techapyrã, téra, mba’emimi viru rehegua)
+validation-guideline-2 = Noñemoneĩri je’epy ivaíva, ivaikuaáva térã porandu ijetu’úva
+validation-guideline-3 = Ndahasyiete iñeikumby oimeraẽvape g̃uarã
