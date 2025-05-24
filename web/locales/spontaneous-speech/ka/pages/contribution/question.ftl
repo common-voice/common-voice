@@ -6,8 +6,8 @@ add-questions-terms-checkbox = ვადასტურებ, რომ ეს 
 question-dataset-language = ენის კრებული: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
-        [one] { $uploadedQuestions }შეკითხვა მიღებულია 1-იდან
-       *[other] { $uploadedQuestions }შეკითხვა მიღებულია { $totalSentences }-იდან
+        [one] { $uploadedQuestions } შეკითხვა მიღებულია 1-იდან
+       *[other] { $uploadedQuestions } შეკითხვა მიღებულია { $totalSentences }-იდან
     }
 add-question-error-message = ატვირთვა ვერ მოხერხდა, გთხოვთ კვლავ სცადოთ.
 add-question-too-many-questions-error = აღემატება 500 კითხვას. შეამცირეთ კითხვების რაოდენობა და კვლავ სცადეთ.
