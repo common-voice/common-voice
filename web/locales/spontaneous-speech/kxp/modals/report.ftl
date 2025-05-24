@@ -1,6 +1,6 @@
 ## Report Modal
 
-report-modal-title = رپورٽ پيش ڪروون۔
+report-modal-title = رپورٽ پيش ڪروون
 report-modal-subtitle = تمارا تجربا مان ڪوئي مسئلو ڇو هوئي؟
 offensive_speech = پسند نا هوئي
 offensive_speech-detail = مواد مان ڪوئي ناڪاري ڪام يان ٻولي نا وڻي هوئي۔
@@ -20,3 +20,4 @@ report-error = رپورٽ جمع ڪريا مان ڪوئي مسئلو
 continue = جارِي راکو
 # Header for report modal after successful reporting
 success = ڪامياب
+report-success-message = رپورٽ ڪامياب ٿئي جھئي
