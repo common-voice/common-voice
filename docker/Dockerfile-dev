@@ -6,32 +6,29 @@ EXPOSE 9090
 # Install dependencies
 RUN apt-get update && \
     apt-get install -y apt-transport-https build-essential cmake && \
-    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
-    apt-get update && \
-    apt-get install --no-install-recommends -y yarn ffmpeg vim
+    apt-get install --no-install-recommends -y ffmpeg vim
 
 # Setup work directory
 WORKDIR /app
 
-# Copy root package.json and yarn.lock
-COPY package.json yarn.lock ./
+# Copy root package.json and lock
+COPY package.json package-lock.json ./
 
-# Install root yarn dependencies
-RUN yarn
+# Install root dependencies
+RUN npm install
 
 # Copy the rest of the application
 COPY . .
 # Copy .env-local-docker
 COPY .env-local-docker ./
 # Install dependencies for each subproject
-RUN cd common && yarn && cd .. && \
-    cd server && yarn && cd .. && \
-    cd web && yarn && cd .. && \
-    cd maintenance && yarn && cd ..
+RUN cd common && npm install && cd .. && \
+    cd server && npm install && cd .. && \
+    cd web && npm install && cd .. && \
+    cd maintenance && npm install && cd ..
 
 # Run build
-RUN yarn build
+RUN npm run build
 
 # Copy web images to the dist folder
 RUN cp -r /app/web/img /app/web/dist/
@@ -40,4 +37,4 @@ RUN cp -r /app/web/img /app/web/dist/
 RUN mkdir /app/logs
 
 # Default command to start the server
-CMD yarn start 2>&1 | tee /app/logs/voice-server.log
+CMD npm run start 2>&1 | tee /app/logs/voice-server.log

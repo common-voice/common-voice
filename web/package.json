@@ -111,7 +111,7 @@
     "cypress:open": "cypress open",
     "cy:run": "cypress run",
     "dev": "webpack --mode=development --watch",
-    "lint": "yarn lint:js && yarn lint:css",
+    "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint .",
     "lint:css": "stylelint \"src/**/*.css\"",
     "test": "jest --forceExit --detectOpenHandles --config=jest.config.js",

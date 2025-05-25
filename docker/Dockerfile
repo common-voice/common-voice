@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/node:18-bookworm
+FROM node:18-bookworm
 
 ARG COMMIT="local-build"
 ARG TAG=""
@@ -14,10 +14,7 @@ EXPOSE 9090
 # Install dependencies
 RUN apt-get update && \
     apt-get install -y apt-transport-https build-essential cmake && \
-    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
-    apt-get update && \
-    apt-get install --no-install-recommends -y yarn ffmpeg vim
+    apt-get install --no-install-recommends -y ffmpeg vim
 
 # Prepare for nonroot user
 RUN groupadd -g $GID app; \
@@ -36,13 +33,13 @@ RUN mkdir /code/logs
 
 ENV GIT_COMMIT_SHA=${COMMIT}
 
-# Install yarn dependencies
-RUN yarn
+# Install dependencies
+RUN npm install
 
 # Run build
-RUN yarn build
+RUN npm run build
 
 RUN cp -r /code/web/img /code/web/dist/
 
 # Default command to start the server
-CMD yarn start 2>&1 | tee /code/logs/voice-server.log
+CMD npm run start 2>&1 | tee /code/logs/voice-server.log
