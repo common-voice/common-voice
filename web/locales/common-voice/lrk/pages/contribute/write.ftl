@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جملا ڀيرا ڪرو ھين جائزو لي�
 add-sentences-menu-item-tooltip = جملا جمع ڪرو آپري ٻولي مي
 review-sentences-menu-item-tooltip = آپري ٻولي ۾ جملو رو جائزو ليو.
 add-questions-menu-item-tooltip = آپري ٻولي مي سوال جمع ڪرو
+review-questions-menu-item-tooltip = سوالن رو جائزو ليو
 transcribe-audio-menu-item-tooltip = آپري ٻولي ۾ آڊيو رڪارڊنگ نقل ڪرو
 
 ## MENU ITEM ARIA LABELS
