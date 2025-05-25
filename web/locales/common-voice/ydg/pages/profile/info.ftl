@@ -40,3 +40,7 @@ settings = سیٹنگز/ترتیب
 edit-profile = ڤے پروفائل تبدیل کڑا
 profile-create-success = سے کامیابی پروفائل ساؤز ݰوئے!
 profile-close = بود
+profile-explanation = ڤے خوئے ہورغ پیش رفت سے پروفائل اوژر اڤن ڤے ماخ آواز دے ڈیٹا پے غیݰے سہی کڑا دیر مدد کن۔
+thanks-for-account = ڤے اکاؤنٹ پے تصدیق کڑا دیر تو شکریہ، وس ڤے تے پروفائل سڤزآم
+why-demographic = مو اہمیت چی وستے؟
+accept-privacy-title = رازدارین پالیسی
