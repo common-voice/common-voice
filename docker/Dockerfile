@@ -42,4 +42,4 @@ RUN npm run build
 RUN cp -r /code/web/img /code/web/dist/
 
 # Default command to start the server
-CMD npm run start 2>&1 | tee /code/logs/voice-server.log
+CMD ["sh", "-c", "npm run start 2>&1 | tee /host/common-voice-server.log"]
