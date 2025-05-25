@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = ველები გამოხმაურებისთვის
+contact-title = გამოხმაურება
 contact-form-name =
     .label = სახელი
 contact-form-message =
