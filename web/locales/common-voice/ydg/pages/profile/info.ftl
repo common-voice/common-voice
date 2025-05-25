@@ -53,3 +53,4 @@ download-profile = ڤے من معلوماتف ڈاؤن لوڈ کن
 contribution-experience = حصو غودان تجربو
 off = بود
 on = آن
+help-accent = پے لہجو دیر مددن ضرورت استت
