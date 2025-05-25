@@ -46,3 +46,5 @@ why-demographic = مو اہمیت چی وستے؟
 accept-privacy-title = رازدارین پالیسی
 accept-privacy-and-terms = زو ڤے کامن وائسن <termsLink>شرائطف</termsLink>اڤن <privacyLink> ڤے رازدارین نوٹس قبول کینیمتے</privacyLink>
 login-identity = لاگ ان کڑان شناخت
+login = لاگ اِن
+edit = تبدیل کڑا
