@@ -62,7 +62,8 @@ about-playbook-how-add-language = მუჭო გევუძინა ნი�
 about-playbook-how-add-language-content-1 = დიო ქიგნაჯინი სკანი ნინა <languageLink> ქორე თუ ვარჷნი </languageLink>. ვარენ-და, სი შეილებუ <languageRequestLink>  ქიკითხე სკანი ნინაში გეძინაშ გურშენი </languageRequestLink>. რე ჟირი ეტაპი. საიტიში გინოთანგუა დო ზიტყვასქვილეფიშ აკოკორობუა
 about-playbook-how-add-language-translating-heading = საიტიშ გინოთანგუა
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ქოძირით ჩქინ შარაშმაწურაფალი, Pontoon მუჭო ოკო გიმირინუათჷნი. </translateVideoLink>
-about-playbook-how-add-language-collecting-sentences-heading = ზიტყვასქვილეფიშ კორობუა
+about-playbook-how-add-language-translating-content-2 = ოთანგალო ჩქი გიმიბრინუანთ Mozilla-ში ხეჭკუდეფს ათე სახელით <pontoonLink> Pontoon </pontoonLink>. Pontoon-ს ბრელი ნინა რე, მარა თქვანი ნინა ვაძირითჷ-და, შეილებუნა <pontoonRequestLink> მითხუათ თიშ გეძინა </pontoonRequestLink>. უკული, Common Voice-ქ თქვან ნინაშო ქიმუშუასჷნი, </githubRepoLink> ქიდმეკავშირით GitHub-ს </githubRepoLink>. <localizationFragment> ქოძირით უმოსი საიტიშ გინოთანგუაშ გურშენი </localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = ზიტყვასქვილეფიშ აკოკორობუა
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> ქოძირით ჩქინი ოხემანჯღვერე ზიტყვასქვილეფიში მაკორობალიშ გუმორინაფაშ გურშენი </sentenceCollectorVideo> .
 about-playbook-how-add-language-collecting-sentences-content-2 = შეილებუნა <sentenceCollectorLinkAdd> გეუძინათ ჭიჭე ზიტყვასქვილეფი </sentenceCollectorLinkAdd>, ხოლო <bulkImportDocsLink> ართო მიშაღალარო, ქიგმირინეთ Github </bulkImportDocsLink>. რშუდანი, ნამდა ზიტყვასქვილეფი აუცილებერო ოკო რდას <licenseLink> CC (ოირქიანე საკუთრებაშე) </licenseLink> ვარდა თქვა ოკო მიფიქრათ.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> ქოძირით უმოსი ზიტყვასქვილეფიშ ოკორობუშ გურშენი </sentenceCollectorFragment>.
@@ -96,7 +97,9 @@ about-playbook-how-record-content-5 = <accuracyLink> ქოძირით უ�
 
 about-playbook-how-grow-language = მუჭო შეუნწყუათ ხე ნინაშ რდუალას Common Voice-ის?
 about-playbook-how-grow-language-content-2 = ღონისძიებეფი
+about-playbook-how-grow-language-content-3 = შეილებუნა ღონისძიებეფი აკანწყუათ მეტი მოხალისეში აკაშაყარალო. ფირქენქჷნი, თიშ უმოს ანდვილ რე. ინტერნეტით, კონფერენციეფიშ მანწყუალ პროგრამეფით, პირადო კათაშ ძირაფათ. <eventTemplate> ქოძირით ჩქინ ნამუშერეფი დო მარგებელ მასალეფი ღონისძიებეფიშ გურშენი </eventTemplate>.
 about-playbook-how-grow-language-content-4 = სოციალური მედია
+about-playbook-how-grow-language-content-6 = ალმახანდეობა დო ქსელეფი
 
 ## How to validate
 
