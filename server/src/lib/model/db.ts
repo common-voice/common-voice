@@ -480,7 +480,7 @@ export default class DB {
     client_id: string,
     locale: string,
     count: number,
-    corpus_id: string
+    corpus_id?: string
   ): Promise<Sentence[]> {
     let taxonomySentences: Sentence[] = []
     const locale_id = await getLocaleId(locale)
@@ -488,31 +488,153 @@ export default class DB {
 
     const prioritySegments = this.getPrioritySegments(locale)
 
+    // Use the appropriate taxonomy method depending on whether corpus_id is provided
     // if (prioritySegments.length) {
-    taxonomySentences = await this.findSentencesMatchingTaxonomy(
-      client_id,
-      locale_id,
-      count,
-      prioritySegments,
-      corpus_id
-    )
-    // }
+    if (corpus_id) {
+      taxonomySentences = await this.findSentencesMatchingTaxonomyCorpusId(
+        client_id,
+        locale_id,
+        count,
+        prioritySegments,
+        corpus_id
+      )
+    } else {
+      taxonomySentences = await this.findSentencesMatchingTaxonomy(
+        client_id,
+        locale_id,
+        count,
+        prioritySegments
+      )
+    }
+    //}
 
+    // Determine which version of regular sentences to fetch
     const regularSentences =
       taxonomySentences.length >= count
         ? []
-        : await this.findSentencesWithFewClips(
+        : corpus_id
+        ? await this.findSentencesWithFewClipsCorpusId(
             client_id,
             locale_id,
             count - taxonomySentences.length,
             corpus_id,
             exemptFromSSRL
           )
+        : await this.findSentencesWithFewClips(
+            client_id,
+            locale_id,
+            count - taxonomySentences.length,
+            exemptFromSSRL
+          )
+
     return taxonomySentences.concat(regularSentences)
-    return taxonomySentences
   }
 
   async findSentencesWithFewClips(
+    client_id: string,
+    locale_id: number,
+    count: number,
+    exemptFromSSRL?: boolean
+  ): Promise<Sentence[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT *
+        FROM (
+          SELECT id, text
+          FROM sentences
+          WHERE 
+            is_used 
+            AND locale_id = ? 
+            AND clips_count <= 15
+            AND (enddate IS NULL OR enddate > NOW()) 
+            AND (startdate IS NULL OR startdate <= NOW())
+            AND NOT EXISTS (
+              SELECT original_sentence_id
+              FROM clips
+              WHERE clips.original_sentence_id = sentences.id AND
+                clips.client_id = ?
+              UNION ALL
+              SELECT sentence_id
+              FROM skipped_sentences skipped
+              WHERE skipped.sentence_id = sentences.id AND
+                skipped.client_id = ?
+              UNION ALL
+              SELECT sentence_id
+              FROM reported_sentences reported
+              WHERE reported.sentence_id = sentences.id AND
+                reported.client_id = ?
+            )
+          ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
+          ORDER BY clips_count ASC
+          LIMIT ?
+        ) t
+        ORDER BY RAND()
+        LIMIT ?
+      `,
+      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
+    )
+    return (rows || []).map(({ id, text }: any) => ({ id, text }))
+  }
+
+  async findSentencesMatchingTaxonomy(
+    client_id: string,
+    locale_id: number,
+    count: number,
+    segments: string[]
+  ): Promise<Sentence[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT *
+        FROM (
+          SELECT sentence_id AS id, text, term_name, term_sentence_source
+          FROM taxonomy_entries entries
+          LEFT JOIN taxonomy_terms terms ON terms.id = entries.term_id
+          LEFT JOIN sentences ON entries.sentence_id = sentences.id
+          WHERE term_id IN (?)
+          AND is_used AND sentences.locale_id = ?
+          AND (enddate IS NULL OR enddate > NOW())
+          AND (startdate IS NULL OR startdate <= NOW())
+          AND NOT EXISTS (
+            SELECT original_sentence_id
+            FROM clips
+            WHERE clips.original_sentence_id = sentences.id AND
+              clips.client_id = ?
+            UNION ALL
+            SELECT sentence_id
+            FROM skipped_sentences skipped
+            WHERE skipped.sentence_id = sentences.id AND
+              skipped.client_id = ?
+            UNION ALL
+            SELECT sentence_id
+            FROM reported_sentences reported
+            WHERE reported.sentence_id = sentences.id AND
+              reported.client_id = ?
+          )
+          LIMIT ?
+        ) t
+        ORDER BY RAND()
+        LIMIT ?
+      `,
+      [
+        await getTermIds(segments),
+        locale_id,
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
+    )
+
+    return (rows || []).map(
+      ({ id, text, term_name, term_sentence_source }: any) => ({
+        id,
+        text,
+        taxonomy: { name: term_name, source: term_sentence_source },
+      })
+    )
+  }
+  async findSentencesWithFewClipsCorpusId(
     client_id: string,
     locale_id: number,
     count: number,
@@ -568,7 +690,7 @@ export default class DB {
     return (rows || []).map(({ id, text }: any) => ({ id, text }))
   }
 
-  async findSentencesMatchingTaxonomy(
+  async findSentencesMatchingTaxonomyCorpusId(
     client_id: string,
     locale_id: number,
     count: number,

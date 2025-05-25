@@ -157,7 +157,7 @@ export default class Model {
     client_id: string,
     locale: string,
     count: number,
-    corpus_id: string
+    corpus_id?: string
   ): Promise<Sentence[]> {
     return this.db.findSentencesNeedingClips(
       client_id,
@@ -316,7 +316,8 @@ export default class Model {
 
   getVoicesStats = lazyCache(
     'voice-stats',
-    (locale: string, corpus_id: string) => this.db.getVoicesStats(corpus_id, locale),
+    (locale: string, corpus_id: string) =>
+      this.db.getVoicesStats(corpus_id, locale),
     1
   )
 

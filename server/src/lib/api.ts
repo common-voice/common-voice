@@ -109,7 +109,7 @@ export default class API {
     router.use('/sentences', SentencesRouter)
 
     router.get(
-      '/:locale/sentences/:corpus_id',
+      '/:locale/sentences/:corpus_id?',
       validate({ query: sentenceSchema }),
       this.getRandomSentences
     )
