@@ -4,7 +4,7 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> და მოსმენით შეამოწმეთ ნაწერთან თანხვედრა. თუ შეუსაბამოა, ჩაასწორეთ, სრულად რომ დაემთხვეს.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = შემოწმება
-no-transcriptions-message = ამ ენისთვის ნაწერად ქცეული ჩანაწერები არ მოიძებნა. გთხოვთ, განაახლოთ გვერდი ან მოგვიანებით სცადოთ.
+no-transcriptions-message = ამ ენისთვის ნაწერად ქცეული ჩანაწერები აღარაა. გთხოვთ, განაახლოთ გვერდი ან მოგვიანებით სცადოთ.
 vote-transcript-success = ნაწერად ქცეული შეფასდა წარმატებით
 vote-transcript-error = შეცდომა წარმოიშვა ნაწერად ქცეულის შეფასებისას
 transcript-edited-success = ნაწერად ქცეული ჩანაწერი ჩასწორდა წარმატებით
