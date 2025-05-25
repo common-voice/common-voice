@@ -59,7 +59,9 @@ about-playbook-what-is-language-content-3 = ნამთინე ნინა�
 ## How do I add a language
 
 about-playbook-how-add-language = მუჭო გევუძინა ნინა?
+about-playbook-how-add-language-content-1 = დიო ქიგნაჯინი სკანი ნინა <languageLink> ქორე თუ ვარჷნი </languageLink>. ვარენ-და, სი შეილებუ <languageRequestLink>  ქიკითხე სკანი ნინაში გეძინაშ გურშენი </languageRequestLink>. რე ჟირი ეტაპი. საიტიში გინოთანგუა დო ზიტყვასქვილეფიშ აკოკორობუა
 about-playbook-how-add-language-translating-heading = საიტიშ გინოთანგუა
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ქოძირით ჩქინ შარაშმაწურაფალი, Pontoon მუჭო ოკო გიმირინუათჷნი. </translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = ზიტყვასქვილეფიშ კორობუა
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> ქოძირით ჩქინი ოხემანჯღვერე ზიტყვასქვილეფიში მაკორობალიშ გუმორინაფაშ გურშენი </sentenceCollectorVideo> .
 about-playbook-how-add-language-collecting-sentences-content-2 = შეილებუნა <sentenceCollectorLinkAdd> გეუძინათ ჭიჭე ზიტყვასქვილეფი </sentenceCollectorLinkAdd>, ხოლო <bulkImportDocsLink> ართო მიშაღალარო, ქიგმირინეთ Github </bulkImportDocsLink>. რშუდანი, ნამდა ზიტყვასქვილეფი აუცილებერო ოკო რდას <licenseLink> CC (ოირქიანე საკუთრებაშე) </licenseLink> ვარდა თქვა ოკო მიფიქრათ.
