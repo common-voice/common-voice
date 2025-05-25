@@ -161,4 +161,5 @@ write-contribute-menu-aria-label = لکو اوپݾن مينو
 add-sentences-menu-item-aria-label = ڪميونٽي ھارو پڙھيا ھارو نوان جملا ڀيرا ڪرو
 review-sentences-menu-item-aria-label = برادري پاران جمع ڪرايوڙا موجوده جملو رو جائزو ليو
 add-questions-menu-item-aria-label = ڪميونٽي ھارو پڙيا مي ھين جواب ديدا ھارو نوان سوال جمع ڪراوُ.
+review-questions-menu-item-aria-label = برادري مون جمع ڪرايوڙا نو سوالو رو جائزو ليو ھين ووٽ ديو.
 transcribe-audio-menu-item-aria-label = آڊيو رڪارڊنگ ني ٽيڪسٽ ۾ نقل ڪرو
