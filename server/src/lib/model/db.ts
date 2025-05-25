@@ -1379,7 +1379,7 @@ export default class DB {
   }
 
   async getClipsStats(
-    corpus_id: string,
+    corpus_id?: string,
     locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
     const localeId = locale ? await getLocaleId(locale) : null
@@ -1401,22 +1401,23 @@ export default class DB {
             : [...ranges, [interval, intervals[i + 1]]],
         []
       )
-
-    const results = await Promise.all(
-      ranges.map(([from, to]) =>
-        Promise.all([
-          this.mysql.query(
-            `
+    let results
+    if (corpus_id) {
+      results = await Promise.all(
+        ranges.map(([from, to]) =>
+          Promise.all([
+            this.mysql.query(
+              `
               SELECT COUNT(*) AS total, ${to} AS date
               FROM clips
               WHERE corpus_id = ? AND created_at BETWEEN ${from} AND ${to} ${
-              locale ? 'AND locale_id = ?' : ''
-            }
+                locale ? 'AND locale_id = ?' : ''
+              }
             `,
-            [corpus_id, localeId]
-          ),
-          this.mysql.query(
-            `
+              [corpus_id, localeId]
+            ),
+            this.mysql.query(
+              `
               SELECT COUNT(*) as valid
               FROM clips
               WHERE clips.corpus_id = ? AND clips.is_valid AND (
@@ -1427,11 +1428,43 @@ export default class DB {
                 LIMIT 1
               ) BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''}
             `,
-            [corpus_id, localeId]
-          ),
-        ])
+              [corpus_id, localeId]
+            ),
+          ])
+        )
       )
-    )
+    } else {
+      results = await Promise.all(
+        ranges.map(([from, to]) =>
+          Promise.all([
+            this.mysql.query(
+              `
+              SELECT COUNT(*) AS total, ${to} AS date
+              FROM clips
+              WHERE created_at BETWEEN ${from} AND ${to} ${
+                locale ? 'AND locale_id = ?' : ''
+              }
+            `,
+              [localeId]
+            ),
+            this.mysql.query(
+              `
+              SELECT COUNT(*) as valid
+              FROM clips
+              WHERE  clips.is_valid AND (
+                SELECT created_at
+                FROM votes
+                WHERE votes.clip_id = clips.id
+                ORDER BY created_at DESC
+                LIMIT 1
+              ) BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''}
+            `,
+              [localeId]
+            ),
+          ])
+        )
+      )
+    }
     console.log('meshmesh', results)
 
     return results.reduce((totals, [[[{ date, total }]], [[{ valid }]]], i) => {
@@ -1445,7 +1478,7 @@ export default class DB {
   }
 
   async getVoicesStats(
-    corpus_id: string,
+    corpus_id?: string,
     locale?: string
   ): Promise<{ date: string; value: number }[]> {
     // Get current UTC time
@@ -1459,29 +1492,42 @@ export default class DB {
       return date.toISOString().slice(0, 19).replace('T', ' ') // Format: "YYYY-MM-DD HH:00:00"
     }).reverse() // Keep it in ascending order
 
-    // Define the expected structure of rows
-    type Row = { date: string; value: number }
+    let rows: { date: string; value: number }[] = []
 
-    // Execute the query
-    const [rows]: any = await this.mysql.query(
-      `
-        SELECT DATE_FORMAT(activity.created_at, '%Y-%m-%d %H:00:00') AS date,
-               COUNT(DISTINCT activity.client_id) AS value
-        FROM user_client_activities AS activity
-        WHERE activity.created_at >= ?
-              AND corpus_id = ?
-              ${locale ? 'AND locale_id = ?' : ''}
-        GROUP BY date
-      `,
-      [hours[0], corpus_id, locale ? await getLocaleId(locale) : '']
-    )
+    if (corpus_id) {
+      // Query with corpus_id filter
+      const [result]: any = await this.mysql.query(
+        `
+          SELECT DATE_FORMAT(activity.created_at, '%Y-%m-%d %H:00:00') AS date,
+                 COUNT(DISTINCT activity.client_id) AS value
+          FROM user_client_activities AS activity
+          WHERE activity.created_at >= ?
+                AND corpus_id = ?
+                ${locale ? 'AND locale_id = ?' : ''}
+          GROUP BY date
+        `,
+        [hours[0], corpus_id, ...(locale ? [await getLocaleId(locale)] : [])]
+      )
+      rows = result
+    } else {
+      // Query without corpus_id
+      const [result]: any = await this.mysql.query(
+        `
+          SELECT DATE_FORMAT(activity.created_at, '%Y-%m-%d %H:00:00') AS date,
+                 COUNT(DISTINCT activity.client_id) AS value
+          FROM user_client_activities AS activity
+          WHERE activity.created_at >= ?
+                ${locale ? 'AND locale_id = ?' : ''}
+          GROUP BY date
+        `,
+        [hours[0], ...(locale ? [await getLocaleId(locale)] : [])]
+      )
+      rows = result
+    }
 
-    // Ensure TypeScript knows the type
-    const typedRows = rows as Row[]
     // Convert database results into a map
-    const dataMap = new Map(typedRows.map(row => [row.date, row.value]))
-    console.log('dataMap:', dataMap)
-    console.log('hours:', hours)
+    const dataMap = new Map(rows.map(row => [row.date, row.value]))
+
     // Build the final result
     const result = hours.map(hour => ({
       date: new Date(hour + ' UTC').toISOString(), // Force UTC interpretation

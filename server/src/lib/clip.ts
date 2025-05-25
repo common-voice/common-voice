@@ -67,10 +67,10 @@ export default class Clip {
     router.post('*', this.saveClip)
 
     router.get('/daily_count', this.serveDailyCount)
-    router.get('/stats/:corpus_id', this.serveClipsStats)
+    router.get('/stats/:corpus_id?', this.serveClipsStats)
     router.get('/leaderboard', this.serveClipLeaderboard)
     router.get('/votes/leaderboard', this.serveVoteLeaderboard)
-    router.get('/voices/:corpus_id', this.serveVoicesStats)
+    router.get('/voices/:corpus_id?', this.serveVoicesStats)
     router.get('/votes/daily_count', this.serveDailyVotesCount)
     router.get('/:clip_id', this.serveClip)
     router.get(
