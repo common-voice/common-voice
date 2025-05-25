@@ -104,6 +104,7 @@ about-playbook-how-grow-language-content-6 = ალმახანდეობ�
 ## How to validate
 
 about-playbook-how-validate = მუჭო გებგა, მისაღებ რე თუ ვარ ხონარუან ინნაჭარა?
+about-playbook-how-validate-content-1 = თიში <strong> მორჩქილა </strong> დო <strong> გაგება </strong> ქეშეილებუ-და <strong> უმენტაშო მისაღები რე </strong>.
 
 ## How to access dataset
 
