@@ -9,7 +9,7 @@ platform-language = საიტის ენა:
 platform-language-tooltip-text = ცვლის მხოლოდ წარწერებს საიტზე
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = წვლილის შესატანი ენაა <bold>{ $language }</bold>
+contribution-picker-label = წვლილი <bold>{ $language }</bold> ენის კრებულში
 contribution-picker-tooltip-text = ცვლის მონაცემთა კრებულის ენას, რომელშიც წვლილი შეგაქვთ
 coming-soon = სხვა ენები მალე დაემატება!
 media-recorder-api-not-supported = MediaRecorder API არაა მხარდაჭერილი თქვენს ბრაუზერში.
