@@ -756,7 +756,7 @@ export default class DB {
     client_id: string,
     locale: string,
     count: number,
-    corpus_id: string
+    corpus_id?: string
   ): Promise<DBClip[]> {
     Sentry.captureMessage(
       `Find clips needing validation for ${locale} locale`,
@@ -767,37 +767,26 @@ export default class DB {
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
 
     const prioritySegments = this.getPrioritySegments(locale)
-    //   client_id,
-    //   locale_id,
-    //   count,
-    //   prioritySegments
-    // )
-    taxonomySentences = await this.findClipsWithoutTaxonomy(
-      client_id,
-      locale_id,
-      count,
-      corpus_id
-    )
+    if (corpus_id) {
+      taxonomySentences = await this.findClipsWithoutTaxonomyCorpusId(
+        client_id,
+        locale_id,
+        count,
+        corpus_id
+      )
+    } else {
+      taxonomySentences = await this.findClipsWithoutTaxonomy(
+        client_id,
+        locale_id,
+        count
+      )
+    }
+
     Sentry.captureMessage(
       `There are ${prioritySegments.length} priority segments for ${locale} locale`,
       Sentry.Severity.Info
     )
-    // } else {
-    //   Sentry.captureMessage(
-    //     `There are 0 priority segments for ${locale} locale`,
-    //     Sentry.Severity.Info
-    //   )
-    // }
 
-    // const regularSentences =
-    //   taxonomySentences.length >= count
-    //     ? []
-    //     : await this.findClipsWithFewVotes(
-    //         client_id,
-    //         locale_id,
-    //         count - taxonomySentences.length,
-    //         exemptFromSSRL
-    //       )
     const regularSentences =
       taxonomySentences.length >= count
         ? []
@@ -931,8 +920,55 @@ export default class DB {
   async findClipsWithoutTaxonomy(
     client_id: string,
     locale_id: number,
+    count: number
+  ): Promise<DBClip[]> {
+    const [clips] = await this.mysql.query(
+      `
+    SELECT *
+    FROM (
+      SELECT * 
+      FROM clips
+      WHERE locale_id = ?
+        AND is_valid IS NULL
+        AND clips.client_id <> ?
+        AND clips.is_approved = 1
+        AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+        AND NOT EXISTS (
+          SELECT clip_id
+          FROM votes
+          WHERE votes.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM reported_clips reported
+          WHERE reported.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM skipped_clips skipped
+          WHERE skipped.clip_id = clips.id AND client_id = ?
+        )
+      GROUP BY original_sentence_id
+      LIMIT ?
+    ) t
+    ORDER BY RAND()
+    LIMIT ?`,
+      [
+        locale_id,
+        client_id,
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
+    )
+    console.log('without taxonomy', clips)
+    return clips as DBClip[]
+  }
+  async findClipsWithoutTaxonomyCorpusId(
+    client_id: string,
+    locale_id: number,
     count: number,
-    corpus_id: string
+    corpus_id?: string
   ): Promise<DBClip[]> {
     const [clips] = await this.mysql.query(
       `
@@ -975,7 +1011,7 @@ export default class DB {
         count,
       ]
     )
-    console.log('meshmesh without taxonomy', clips)
+    console.log('without taxonomy', clips)
     return clips as DBClip[]
   }
   //----------------------------
@@ -1465,7 +1501,7 @@ export default class DB {
         )
       )
     }
-    console.log('meshmesh', results)
+    console.log('clips results', results)
 
     return results.reduce((totals, [[[{ date, total }]], [[{ valid }]]], i) => {
       const last = totals[totals.length - 1]

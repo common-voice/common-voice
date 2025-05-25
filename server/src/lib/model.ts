@@ -143,7 +143,7 @@ export default class Model {
     client_id: string,
     locale: string,
     count: number,
-    corpus_id: string
+    corpus_id?: string
   ): Promise<DBClip[]> {
     return this.db.findClipsNeedingValidation(
       client_id,

@@ -111,7 +111,7 @@ export default class Bucket {
     client_id: string,
     locale: string,
     count: number,
-    corpus_id: string
+    corpus_id?: string
   ): Promise<Clip[]> {
     // Get more clip IDs than needed to account for potential broken clips
     const clips = await this.model.findEligibleClips(
