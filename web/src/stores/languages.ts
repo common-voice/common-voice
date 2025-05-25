@@ -49,10 +49,7 @@ export const actions = {
       getState: () => StateTree
     ) => {
       const { api } = getState()
-      // const allLanguages = await api.fetchAllLanguages()
-
-      // For Development
-      const allLanguages = [
+      const defaultLangs = [
         {
           id: 8,
           name: 'ar',
@@ -63,6 +60,9 @@ export const actions = {
           text_direction: 'RTL',
         },
       ]
+      const allLanguages = await api
+        .fetchAllLanguages()
+        .catch(() => defaultLangs)
 
       //get obj of native names, default to language code
       const nativeNames = allLanguages.reduce((names: any, language) => {
