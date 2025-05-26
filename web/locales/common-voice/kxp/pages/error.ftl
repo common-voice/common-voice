@@ -7,3 +7,7 @@ error-something-went-wrong = معاف ڪرزو، ڪانڪ سئي نٿي
 error-clip-upload = ڪلپ اپلوڊ نٿي ٿاتا وار ڪوشش ڪرتان رو
 error-clip-upload-server = زي اپلوڊ ڪريا مان سرور مسئلو ڪري سي۔ تو پنون ريلوڊ ڪرو يان پسي ڪوشش ڪرو۔
 error-title-404 = تمان هارو اي پنون نٿي تلاش ڪرتا
+error-content-404 =
+    امارون هوم پيج <homepageLink> تماري مدد ڪرشي؟
+    سوال ڪريا هارو آ لنڪ مان زو <matrixLink> ميٽرڪ برادري ٿي وات </matrixLink> مونيٽر سائيز مسئلا هارو <githubLink> گلٽ هب </githubLink> يان وزٽ هارو <discourseLink> دسڪورس لنڪ هانَ ڊسڪورس فارم۔ </discourseLink>
+error-title-503 = امين غير موقع وکت نو مقابلو ڪران را سان
