@@ -30,4 +30,10 @@ contact-us = امان ٿي رابطو ڪرو
 contact-us-title = پروجيٽ ٿي ملين ايڪ ٻيزان مان شامل ٿو، يان امان ٿي شراڪت راکو
 contact-us-email = اي ميل <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = شُون تمين موڙٿيز ڪامن وائيس تقريري پروجيٽ هارو امارا بيٽا چيڪنگ نا گروپ مان سو؟
+signup-terms =
+    ڪلڪ ڪرينَ لنڪ ميلو، تمين امار ٽرم هانَ سروس ٿي راضي سو۔ <termsLink> هانَ </termsLink>
+    پرائيويسي پاليسي </privacyLink> هانَ معلومات هارو موزيلا تمان نين اي ميل ڪري ڪي چچم بيٽا ٽيسٽنگ هارو ڪامن وائيس  تقيري پروجيڪٽ مان حصو ليوو سي،
+signup-input-placeholder = اي ميل لکو nanjitkuamr@gmail.com
+signup-button-value = اي ميل هارو لنڪ ميلو
+footer-text-privacy = پرائيويسي </privacyLink>
 footer-text-cookies = <cookiesLink><cookiesLink>مقام منڏلي
