@@ -155,8 +155,12 @@ export default class API {
     )
   }
 
-  async fetchRandomClips(count = 1): Promise<Clip[]> {
-    return this.fetch(`${this.getClipPath()}?count=${count}`)
+  async fetchRandomClips(count = 1, datasource?: string): Promise<Clip[]> {
+    return this.fetch(
+      `${this.getClipPath()}${
+        datasource ? `/c/${datasource}` : ''
+      }?count=${count}`
+    )
   }
 
   uploadClip(
