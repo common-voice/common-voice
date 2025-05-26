@@ -70,9 +70,28 @@ dataset-donate-modal-heading = تمان نين کٻير سي
 donate-modal-explanation-1 = ڊيٽابيس نِي مزماني هارو ملينَ ڊالر خرچو ٿائي سي۔ هانَ پليٽ فارم ترقي هارو سي۔ سئو ٻوليون زي برادري مان امين ڀروسو ڪران سان۔
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold> زمي تمارو ڊيٽا هارو اقدارا سي ، تو آز مدد ڪرو۔ </bold>
+data-download-singleword-title = سنگل ورڊ ٽارگيٽ سيگميٽ ڊائونلوڊ ڪرو
+data-download-singleword-callout-v2 = آ ايڪ استعمال ٿي هينڏيا واۯو سيگميٽ اکران مان هانَ هووي نا نِي اوۯکاڻ هارُو ڊيٽا سي۔
+data-download-button = ڪامن وائيس ڊيٽا ڊائونلوڊ ڪرو
+data-download-yes = هووي
+data-download-deny = نا
+data-download-license = لائيسنس <licenseLink></licenseLink>CC
+data-download-modal =
+    شروع مان تمين سائز مقدار طريقا نين ڊائونلوڊ ڪرو <size> { $size }
+    GB size>
+data-subtitle = امين ايڪ وڌاري يان عوامي ڊيٽابيس تيار ڪرشان زي ٻڌانئين هارو آوزا نو سي  هر ايڪ درخواڊست ني  تقرير هارو تيار ٿائو۔
 data-explanatory-text = آ ايڪ گول سي اين هارو امين ٻڌانئين نين دعوت آلان سان ڪي اي اين مان شامل تائي۔ امارون مقصد  سي ڪي تقريري ٽيڪنالوجي مان ترقي ٿائي۔ اين نو فائيدو پوري دُنيا مان ٿائي۔
 data-get-started = تقريري آگاهي هارو شروعات ڪروون <speechBlogLink></speechBlogLink>
 data-other-title = ٻيزا وائيس ڊيٽابيس
 data-other-goto = زو { $name }
 data-other-download = ڊيٽا ڊائون لوڊ ڪرو
 data-bundle-button = ڊيٽا بيس ني ڳٺڙي ڊائون لوڊ ڪرو
+data-bundle-description = ڪامن وائيس ڊيٽا اين ڀيۯا ٻيزا ديٽا بيس زي ماٿي آلل سي۔
+release-version = ورزن
+dataset-date = تاريح
+license = لائيسنس <licenseLink>{ $license }</licenseLink>
+license-mixed = ڳڏاول
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = اماري وائيس ڊيٽا ڊائونلوڊ ڪرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ڊئونلوڊ ڪريا هارو ڪامن وائيس نشان سي
