@@ -28,4 +28,6 @@ data-bubble-title = ڊيٽا <mark>
 data-bubble-subtitle = وقت ماٿي امين ڊيٽابيس پيش ڪرشان
 contact-us = امان ٿي رابطو ڪرو
 contact-us-title = پروجيٽ ٿي ملين ايڪ ٻيزان مان شامل ٿو، يان امان ٿي شراڪت راکو
+contact-us-email = اي ميل <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = شُون تمين موڙٿيز ڪامن وائيس تقريري پروجيٽ هارو امارا بيٽا چيڪنگ نا گروپ مان سو؟
 footer-text-cookies = <cookiesLink><cookiesLink>مقام منڏلي
