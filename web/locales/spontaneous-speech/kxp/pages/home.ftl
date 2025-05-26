@@ -1,6 +1,6 @@
 ## Home page
 
-welcome-to-spontaneous-speech = اختياري تقرير هارُو ڌنيواۮ
+welcome-to-spontaneous-speech = اِختياري تقرير هارُو ڌنيواۮ
 # <br></br> represents a newline break
 wall-of-text = ڪامن وائيس ٻيزي چڪر پليٽ فارم ماٿي فوڪس ڪرينَ جُز ، پوتي، اسڪرپٽ تقرير جمع ڪري سي۔ زي برادري هارو الاهي مددگار سي زين مان ڊيٽا جلدي جمع ٿائي سي۔ اي هڌرون سي ڪي سائينسٽڪ هانَ استعمال هارو ترقي ٿاشي۔
 why-spontaneous-speech = امين چم اختياري تقريري نموتو تيار ڪران سان
@@ -36,4 +36,5 @@ signup-terms =
 signup-input-placeholder = اي ميل لکو nanjitkuamr@gmail.com
 signup-button-value = اي ميل هارو لنڪ ميلو
 footer-text-privacy = پرائيويسي </privacyLink>
+footer-text-terms = ٽرم </termsLink>
 footer-text-cookies = <cookiesLink><cookiesLink>مقام منڏلي
