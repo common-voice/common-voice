@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Harkje nei it audiofragmint en kontrolearje de transkripsje. Komme se oerien? Sa net, bewurkje dan de transkripsje sadat it perfekt oerienkomt.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Kontrolearje
-no-transcriptions-message = Der binne op dit stuit gjin transkripsjes te kontrolearjen. Ferfarskje de side of probearje it letter nochris.
 vote-transcript-success = Mei sukses stimd oer transkripsje
 vote-transcript-error = Der is in flater bard by it stimmen oer de transkripsje
 transcript-edited-success = Transkripsje mei sukses bewurke

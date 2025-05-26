@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Hören Sie sich die Audio-Clips an und überprüfen Sie die Transkription. Stimmt sie überein? Wenn nicht, bearbeiten Sie diese, damit sie perfekt übereinstimmt.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Überprüfen
-no-transcriptions-message = Es gibt derzeit keine Transkripte, die für diese Sprache überprüft werden können. Bitte aktualisieren Sie die Seite oder versuchen Sie es später erneut.
 vote-transcript-success = Erfolgreich über Transkript abgestimmt
 vote-transcript-error = Bei der Abstimmung für das Transkript ist ein Fehler aufgetreten
 transcript-edited-success = Transkript erfolgreich bearbeitet

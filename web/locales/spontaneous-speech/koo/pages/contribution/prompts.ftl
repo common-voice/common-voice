@@ -4,7 +4,6 @@ record-player-header = Wuhambire ebyawukabuugha oko kinimba
 mic-access-error = Mulighe erikolesya ebyuma ebikahulhukaya emyatsi.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> wanasubya kuwo kuwangathoka
-no-prompts-message = Lino sihali ebikabanika lhuba-lhuba busana n’ekihandi eky’ekisakango kino. Banithu muthasasuba oko kihandi eky’ekisango kino mwanathasalengesya.
 error-skipping = Erihaba molikabya mukakirukania oko kihandi eky’ekisakango kino.
 error-recording = Erihaba molikabanika mukahambira emirenge oko kinimba
 error-fetching-prompts = Mohakabya ekithethaghenda ndeke mukaheka ebikasondawa lhuba. Muthasalengesaya eyindi ndambi.

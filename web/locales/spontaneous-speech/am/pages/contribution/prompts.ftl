@@ -4,7 +4,6 @@ record-player-header = ምላሽዎን ይመዝግቡ
 mic-access-error = የማይክሮፎን መዳረሻን መፍቀድ አለብዎት።
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> እና በተቻለዎት መጠን ተፈጥሮአዊ ምላሽ ይስጡ
-no-prompts-message = በአሁኑ ጊዜ ለዚህ ቋንቋ ምንም ጥያቄዎች የሉም። እባክዎ ገጹን ያድሱ ወይም ቆይተው እንደገና ይሞክሩ።
 error-skipping = ይህን ጥያቄ በመዝለል ላይ ስህተት ተፈጥሯል።
 error-recording = በመቅረጽ ላይ ስህተት ተከስቷል።
 error-fetching-prompts = ጥያቄዎችን በማምጣት ላይ ሳለ የሆነ ችግር ተፈጥሯል። እባክዎ ቆይተው እንደገና ይሞክሩ።

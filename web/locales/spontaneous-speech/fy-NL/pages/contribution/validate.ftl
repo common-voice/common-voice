@@ -5,7 +5,6 @@ dataset-label = Gegevensset
 accept-vote-toast-message = Fraach mei sukses akseptearre
 reject-vote-toast-message = Fraach mei sukses ôfwiisd
 add-vote-error-message = Der is in flater bard by it stimmen oer de fraach
-no-questions-message = Der binne op it stuit gjin fragen om te falidearjen foar dizze taal. Ferfarskje de side of probearje it letter nochris.
 validate-page-yes-button-shortcut = J
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = O

@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> ndèymí ndíy gudjò cha nyi rr̀ ndeyli nì tdrǎ nì ddiy
 editbox-header = Ndíy nyi rr̀ nì ddiy
 editbox-placeholder = Ndíy nyi rr̀ nì ddiy ǐngá
-no-audio-message = Njanja li-chuw nì ngǎ cha ka dho ndana ka nì rř nì lò ndiy í li-chuw dhò. Please refresh the page ǐngí luwtéy ddéy ddíyàchú.
 create-transcript-success = Ma ndîy ma rr̀ nì ddiy ma chô lǎní
 create-transcript-error = Í ddiy tǎ ndèy cha ka tdè ndíydha ní lò tdyǎ mí nga nà
 error-playing-audio = À ta ndèy li-chuw pèydha ró

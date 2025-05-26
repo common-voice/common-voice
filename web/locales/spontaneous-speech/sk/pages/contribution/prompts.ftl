@@ -4,7 +4,6 @@ record-player-header = Zaznamenajte svoju odpoveď
 mic-access-error = Musíte povoliť prístup k mikrofónu.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> a odpovedzte tak prirodzene, ako len viete
-no-prompts-message = Momentálne neexistujú žiadne výzvy pre tento jazyk. Obnovte stránku alebo to skúste znova neskôr.
 error-skipping = Pri preskakovaní tejto výzvy sa vyskytla chyba
 error-recording = Počas nahrávania sa vyskytla chyba
 error-fetching-prompts = Pri načítavaní výziev sa vyskytla chyba. Skúste to znova neskôr.

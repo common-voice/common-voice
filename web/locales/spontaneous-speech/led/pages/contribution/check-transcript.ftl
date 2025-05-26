@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Rr li-chuw, ndèymí mey ka ndǐy nì lò ónga. À gbǎ ndèy ŋà? Ya nzá, thi ǒnga à gbǎ ndèy lǎní.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Mey ǒnga
-no-transcriptions-message = Njanja ndíydha ní lò nì ngǎ cha à kà ka měy ǒnga í lò-tsò dhò nì
 vote-transcript-success = Ndíydha ní lò ka vû lǎní nì
 vote-transcript-error = Ngǎjìní ddiy njèy ndèy ka tdè ndíydha ní lò vu ro
 transcript-edited-success = Ndíydha nì lò ónga thì ndèy lǎní

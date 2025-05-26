@@ -4,7 +4,6 @@ record-player-header = Kwata iraka ery'okugarukamu kwawe
 mic-access-error = Oine kwikiriza omuzindaro
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon>kandi ogarukemu otabandize kuteekereza muno
-no-prompts-message = Orulimi runu tirwine ebirukuleetereza (prompts) omu kasumi kanu.
 error-skipping = Habaireho ensobi obu obaire nooguruka ekireeterezo (prompt) kinu
 error-recording = Habaireho ensobi mu kukwata akatambi
 error-fetching-prompts = Haroho ekisobere omu kuleeta ebirukuleetereza. Yongera olengeho hanyuma.

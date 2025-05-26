@@ -4,7 +4,6 @@ record-player-header = Ogbe sikyaiku ndiako
 mic-access-error = Obhale bha biya na maikolofomu.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> na sikyaku ndia agbokelyani nesi okutoka
-no-prompts-message = Enindi kalibe kima poni sa loki yo. Gutu otodhe ekolilye ka mpapulo toli otodhe okingebe bhukeni.
 error-skipping = Nsobhi aenikana nnibhalia kabhongosya  kihandiko
 error-recording = Nsobhi aenikana  nibhalyakigba laso
 error-fetching-prompts = Kima kabhonga nibhalya ka kumesa bhanikia kihandiko. Gutu bhutodhe bhukingebe bhukeni.

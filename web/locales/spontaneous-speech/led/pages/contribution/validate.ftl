@@ -5,7 +5,6 @@ dataset-label = Dataset
 accept-vote-toast-message = Lǎní ka ùw nì dhíydha
 reject-vote-toast-message = Lǎní ka gù nì dhíydha
 add-vote-error-message = Ngǎjìní ddiy njèy ndèy ka tdè ndíydha ní lò vu ro
-no-questions-message = Njanja ndíydha ní lò nì ngǎ cha à kà ka měy ǒnga í lò-tsò dhò nì
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S

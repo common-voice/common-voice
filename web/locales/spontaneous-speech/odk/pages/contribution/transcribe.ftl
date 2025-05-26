@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> ائُون لِکا تہ تمهِين اي ماڻسا نُون ڪا ڪيهٿا سُڻا ڇَوا
 editbox-header = نقل ڪرا
 editbox-placeholder = اِٺي لِکا تہ تمهِين اي ماڻسا نُون ڪا ڪيهٿا سُڻا ڇَوا۔
-no-audio-message = اِمهين جي ٻولِي ۾ نقل ڪرڻي چي ڪاڻ ڪو بِي آڊيو ڪونهِي ڇَي۔ مهربانِي صفحي نُون رِيفريش ڪرا يان بڙي پڇي بڙتِي ڪوشش ڪرا۔
 create-transcript-success = نقل ڪاميابِي سُون جمع ڪرالِي گيلِي۔
 create-transcript-error = ها نقل سُڻاتان مهلِي هيڪ خرابِي هُتِي پلِي
 error-playing-audio = آڊيو فائِيل هلاتان مهلِي خرابِي

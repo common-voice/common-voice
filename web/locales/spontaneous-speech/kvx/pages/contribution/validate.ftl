@@ -5,7 +5,6 @@ dataset-label = ڊيٽاسيٽ
 accept-vote-toast-message = سوئال ڪامياڀِي ٿِي موني لِيڌا ڳياه
 reject-vote-toast-message = سوئال ڪامياڀِي ٿِي رڌ ڪري لِيڌا ڳياه
 add-vote-error-message = لِکت مانه ووٽ ۮيتون هيڪ ڳلتئي ۿومئي آوَئي
-no-questions-message = اِيئا ٽوڻا ۾ اِيئا ٻولِي ۿارُو ڪوئي آڊيو موجوڌ نٿِي۔ ميرڀونئي ڪرينَ پونيو نوو ڪرو ڪا ٻِيزي وار ڪوشيش ڪرو۔
 validate-page-yes-button-shortcut = وائي
 validate-page-no-button-shortcut = اينَ
 validate-page-skip-button-shortcut = ايس

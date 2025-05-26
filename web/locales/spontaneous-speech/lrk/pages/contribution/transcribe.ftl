@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon>ھين جي تمي او مينک ني ڪيتي ھڻو ھون آ لکو
 editbox-header = نقل ڪروي
 editbox-placeholder = ايئي  جي تمي ھڻي هي آ لکو.
-no-audio-message = اي ٻولي ھارو ٽرانسڪرائيب ڪريا ھارو في الحال ڪوئي ڀي آڊيو ڪوئي. مهربوني ڪرين صفحا ني ريفريش ڪرو يا بعد ۾ وري ڪوشش ڪرو.
 create-transcript-success = ٽرانسڪرپٽ ڪاميابي مون پيش ڪريو گيو
 create-transcript-error = آ ٽرانسڪرپٽ ٺاهيا دوران ايڪ غلطي ھوئي گئي.
 error-playing-audio = آڊيو فائل هلايا ري دوران غلطي.

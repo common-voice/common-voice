@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Uwokaniye laso ndia bhagbeiyo, toli ozibe kihandiko. Agbananiya? Kekabhe nali bhu, okolilyeku bhongosyai bhyani.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Kolyalku
-no-transcriptions-message = Enindi kalibe kihandiko sa kolilyaiku ka dhaka eyo. Gutu otodhe oklise iso bhongosya mpapulo kedha okingebe bhukeni.
 vote-transcript-success = Kihandiko bhakolisaku kulungi
 vote-transcript-error = Nsobhi aenikani ka bhuwa kihandiko
 transcript-edited-success = Kihandiko bhakolilyaku bhongosyai kulungi

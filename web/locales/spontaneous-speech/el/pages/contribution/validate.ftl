@@ -5,7 +5,6 @@ dataset-label = Σύνολο δεδομένων
 accept-vote-toast-message = Επιτυχής αποδοχή ερώτησης
 reject-vote-toast-message = Επιτυχής απόρριψη ερώτησης
 add-vote-error-message = Προέκυψε σφάλμα κατά την ψηφοφορία της προτροπής
-no-questions-message = Δεν υπάρχουν προς το παρόν προτροπές για επικύρωση σε αυτή τη γλώσσα. Ανανεώστε τη σελίδα ή δοκιμάστε ξανά αργότερα.
 validate-page-yes-button-shortcut = Ν
 validate-page-no-button-shortcut = Χ
 validate-page-skip-button-shortcut = Π

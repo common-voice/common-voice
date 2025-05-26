@@ -5,7 +5,6 @@ dataset-label = Набор данных
 accept-vote-toast-message = Вопрос успешно принят
 reject-vote-toast-message = Вопрос успешно отклонен
 add-vote-error-message = При голосовании по запросу произошла ошибка
-no-questions-message = В настоящее время нет запросов на проверку этого языка. Пожалуйста, обновите страницу или повторите попытку позже.
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S

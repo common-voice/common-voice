@@ -4,7 +4,6 @@
 audio-page-instruction = <playIcon></playIcon> { $actionType } und schreiben Sie auf, was Sie die Person sagen hören
 editbox-header = Transkribieren
 editbox-placeholder = Schreiben Sie auf, was Sie die Person hier sagen hören
-no-audio-message = Es gibt derzeit keine Audiodatei, die für diese Sprache zu transkribieren ist. Bitte aktualisieren Sie die Seite oder versuchen Sie es später erneut.
 create-transcript-success = Transkript erfolgreich übermittelt
 create-transcript-error = Beim Erstellen dieses Transkripts ist ein Fehler aufgetreten
 error-playing-audio = Fehler beim Abspielen der Audiodatei.

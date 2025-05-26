@@ -4,7 +4,6 @@ record-player-header = Grava la tuya respuesta
 mic-access-error = Has de permitir acceso a lo microfono.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> y responde con a maxima naturalidat que puedas
-no-prompts-message = Agora no queda preguntas pa este idioma. Refresca la pachina u mira d'intentar-lo dimpués.
 error-skipping = Ha ocurriu una error cuan se yera blincando esta pregunta
 error-recording = Ha ocurriu una error cuan se yera gravando
 error-fetching-prompts = Bella cosa ha fallau cuan se yeran recuperando las preguntas. Torna-lo a intentar dimpués.

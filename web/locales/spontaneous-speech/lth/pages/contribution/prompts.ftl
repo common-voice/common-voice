@@ -4,7 +4,6 @@ record-player-header = Mak dwoni ï gin ïgamö
 mic-access-error = Myero iyee microphone otii
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = ëka ïgam na calö kite na mïtërë ködë cön.
-no-prompts-message = Kobedini gin n'ëcöö pï lëb nï ope. Nën nï ïyabö pot karatac ëka ïtëm dökï.
 error-skipping = Bal ötïmërë ï karë n'ëkalö cöc ni.
 error-recording = Bal ötïmërë ï karë n'ëmakö dwön.
 error-fetching-prompts = Bal ötïmërë ï karë n'ëgamö cöc. Tëm dökï kinge.

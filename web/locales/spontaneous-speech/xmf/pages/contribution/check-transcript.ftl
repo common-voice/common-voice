@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon> ქუმურჩქილეთ ხონარიშ ინნაჭარეფს დო ქიგნაჯინით ნაჭარათ მოჩამილს. უმანგუ ქორედა, გაწორით.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = გინოჯინა
-no-transcriptions-message = თე ნინაშო ნაჭარათ მოჩამილ ინნაჭარეფქ ვეგორ. ქორთხინთ, გაახალით თე ხასილა ვარდა ქოცადით კინოხ.
 vote-transcript-success = წუმოძინელო შიფასინუ ნაჭარათ მოჩამილქ
 vote-transcript-error = ნაჭარათ მოჩამილიში შეფასებაშ დროს ჩილათაქ იჸუ
 transcript-edited-success = ნაჭარათ მოჩამილქ წუმოძინელო გეწორინუ

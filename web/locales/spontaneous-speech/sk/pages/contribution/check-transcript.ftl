@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Vypočujte si zvukový klip a skontrolujte prepis. Zhoduje sa to? Ak nie, upravte ho tak, aby dokonale zodpovedal.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Skontrolovať
-no-transcriptions-message = Momentálne neexistujú žiadne prepisy na kontrolu v tomto jazyku. Obnovte stránku alebo to skúste znova neskôr.
 vote-transcript-success = Hlasovanie o prepise bolo úspešné
 vote-transcript-error = Pri hlasovaní o prepise sa vyskytla chyba
 transcript-edited-success = Prepis bol úspešne upravený

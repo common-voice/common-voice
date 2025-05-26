@@ -4,7 +4,6 @@
 transcription-page-instruction = Winy dwön n'ëmakö ëka ïnën gin n'ëmakö. Rwatërë? Ka pe, yüb ëk örwatërë na bër.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Nënö
-no-transcriptions-message = Kobedini gin mörö ope n'ëmakö më anëna pï  lëb ni. Nën nï ïyabö pot karatac onyo tëm kinge dökï.
 vote-transcript-success = Ebolo kwir na bër ï gin n'ëcöö
 vote-transcript-error = Bal ötïmërë ï karë më bolo kwir pï gin n'ëcöö
 transcript-edited-success = Gin n'ëcöö ëyübö na bër

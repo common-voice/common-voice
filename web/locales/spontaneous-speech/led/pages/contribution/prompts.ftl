@@ -4,7 +4,6 @@ record-player-header = Low nyi nì ngǔ nì lò
 mic-access-error = À kà nyi bbǎ microphone njěy njí
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ndèymí ngu lò gbè ney cha nyi dho ngù níchú
-no-prompts-message = Ddiy rò nì ngǎ njanja cha ndèy dho ley í lò-tsò njěy ndèy nì.
 error-skipping = Ngǎjìní ddiy rò njèy ndèy cha ka tdè jǐ nzǐ í ddiy njěy ndèy ro
 error-recording = Ngǎjìní ddiy rò njèy ndèy li-chuw lòwdha mí nga nà
 error-fetching-prompts = Njàddí ddiy rò sà ndèy ka tdè jǐ  ndíydha ní lò njěy ndèy mí nga nà. Ddéy luwtéy ddíyàchú.

@@ -4,7 +4,6 @@ record-player-header = تینا ورندی ئے خوندی کبو
 mic-access-error = نمے مائکروفون اسکان سرمننگ کن اجازت تروئی مریک۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> و قدرتی وڑ اٹ اخس کہ مرے ورندی ایتبو۔
-no-prompts-message = دا زبان کن فی الحال ہچو اشارے ئس اف۔ بشخنداری پنہ ئے ریفریش کبو یا پدان ولدا اسے وار کوشست کبو۔
 error-skipping = دا پرامپٹ ئے یلہ کننگ نا وخت آ اسے خرابی ئس مس
 error-recording = ریکارڈ کننگ نا وخت آ اسے غلطی ئس مس
 error-fetching-prompts = پرامپٹس دوئی کننگ نا وخت آ گڑاس غلط مسونے۔ بشخنداری پدان ولدا اسے وار کوشست کبو۔

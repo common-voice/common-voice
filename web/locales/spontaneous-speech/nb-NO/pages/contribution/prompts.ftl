@@ -4,7 +4,6 @@ record-player-header = Ta opp stemmen din
 mic-access-error = Du må tillate tilgang til mikrofonen.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> og svar så naturlig du kan
-no-prompts-message = Det er for øyeblikket ingen forespørsler for dette språket. Oppdater siden eller prøv igjen senere.
 error-skipping = Det oppstod en feil når du hoppet over denne forespørselen
 error-recording = Det oppsto en feil under opptak
 error-fetching-prompts = Noe gikk galt under henting av forespørsler. Prøv igjen senere.

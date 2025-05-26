@@ -4,7 +4,6 @@ record-player-header = Recordiwch eich ymateb
 mic-access-error = Rhaid i chi ganiatáu mynediad meicroffon.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ac ymateb mor naturiol ag y gallwch
-no-prompts-message = Ar hyn o bryd does dim cwestiynau i'w gwirio yn yr iaith hon. Ail-lwythwch y dudalen neu ceisiwch eto yn nes ymlaen.
 error-skipping = Digwyddodd gwall wrth hepgor y cwestiwn hwn
 error-recording = Digwyddodd gwall wrth recordio
 error-fetching-prompts = Aeth rhywbeth o'i le wrth estyn cwestiwn. Ceisiwch eto yn nes ymlaen.

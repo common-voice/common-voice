@@ -2,7 +2,6 @@
 
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Hechajey
-no-transcriptions-message = Ko’ág̃a ndaipóri ñembokuatia ehechajey hag̃ua ko ñe’ẽme. Embohekopyahu pe kuatiarogue térã eha’ãjey ag̃ave.
 vote-transcript-success = Ñembokuatia oho apañuai’ỹre
 vote-transcript-error = Oiko jejavy evotakuévo pe ñembokuatia rehe
 transcript-edited-success = Ñembokuatia heñóiva apañuai’ỹre

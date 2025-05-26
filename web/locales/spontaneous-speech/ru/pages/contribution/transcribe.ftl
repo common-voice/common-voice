@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> и запишите то, что вы слышите от человека
 editbox-header = Транскрибировать
 editbox-placeholder = Записывайте то, что человек здесь говорит
-no-audio-message = В настоящее время нет аудио для транскрибирования на этом языке. Пожалуйста, обновите страницу или повторите попытку позже.
 create-transcript-success = Транскрипция успешно отправлена
 create-transcript-error = При создании этой транскрипции произошла ошибка
 error-playing-audio = Ошибка при воспроизведении аудио-файла.

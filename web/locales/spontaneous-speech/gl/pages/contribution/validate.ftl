@@ -5,7 +5,6 @@ dataset-label = Conxunto de datos
 accept-vote-toast-message = Pregunta aceptada correctamente
 reject-vote-toast-message = Pregunta rexeitada correctamente
 add-vote-error-message = Produciuse un erro ao votar a pregunta
-no-questions-message = Actualmente non hai preguntas para revisar neste idioma. Por favor actualice a páxina ou ténteo de novo máis tarde.
 
 ## Validation guidelines
 

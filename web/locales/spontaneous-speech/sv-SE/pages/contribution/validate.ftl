@@ -5,7 +5,6 @@ dataset-label = Datamängd
 accept-vote-toast-message = Frågan accepterades
 reject-vote-toast-message = Frågan avvisades
 add-vote-error-message = Ett fel uppstod vid röstningen
-no-questions-message = Det finns för närvarande inga frågor att validera för detta språk. Uppdatera sidan eller försök igen senare.
 validate-page-yes-button-shortcut = J
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = H

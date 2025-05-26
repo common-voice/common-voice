@@ -6,7 +6,6 @@ transcription-page-instruction =
     آڊيو ڪلپ نين هانڀۯو هانَ اين نِي نقل نين زوئو۔  شُو اين مِلي سي؟ زي نا ايڊٽ ڪرينَ سئي ملاوو۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = چيڪ
-no-transcriptions-message = فلاحال آ ٻولي هارو ڪوئي نقل چيڪ نٿي ڇئي۔ مهرباني ٿي پنُون ريفريش ڪرو هانَ وري ڪوشش ڪرو۔
 vote-transcript-success = نقل ڪريا نُون ڪامياب ٿئي جھون۔
 vote-transcript-error = زا نقل ڪرو سو تار ڪوئي مسئلو ٿائي سي۔
 transcript-edited-success = ايڊٽ ٿي نقل ڪريا نُون ڪامياب ٿئي جھون۔

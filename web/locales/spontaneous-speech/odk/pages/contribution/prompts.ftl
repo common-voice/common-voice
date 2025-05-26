@@ -4,7 +4,6 @@ record-player-header = آپڪا جواب رڪارڊ ڪرا۔
 mic-access-error = تمهان نُون مائِيڪروفونا تاڻِين پُجڻي چِي موڪل ڏِِيئڻ کپَي
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ائُون قُدرتِي نمُوني سُون جِترَي هُو سِگھَي جواب ڏِيا۔
-no-prompts-message = جي ٻولِي چي ڪاڻ اِمهين ڪو بِي اِشاري ڪونهِي هِتي۔ مهربانِي ڪتِي صفحا ريفريش ڪرا يان بڙي پڇي بڙتِي ڪوشش ڪرا۔
 error-skipping = اي پرامپٽا نُون ڇوڙتان مهلِي هيڪ خرابِي هُتِي پلِي
 error-recording = رڪارڊنگ ڪتان مهلِي هيڪ خرابِي هُتِي پلِي
 error-fetching-prompts = پرامپٽس گيهٿان مهلِي ڪهِين غلط هُتِي پلَي۔ مهربانِي ڪتِي پڇي بڙي بڙتِي ڪوشش ڪرا۔
