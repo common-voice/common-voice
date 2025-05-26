@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = تقريري اختياري هارو مدد ڪري امان تماري مهرباني
+age-gender-form-title = من ٿي تقريري اختياري هارو مدد ڪرِي اين مان تماري مهرباني
 age-gender-form-subtile = تماري پوتان نِي ترقي هارُو هانَ تمارا ڀارا مان همڀۯايا هارُو وڌيڪ علم حاصل ٿائي
 add-information-button = معلومات ڀيۯِي ڪروِي
 continue-speaking-button = ٻولوا جاري راکو
@@ -21,3 +21,4 @@ female_feminine = عورت مونث
 intersex = آۮمي ٻائيڙي نان جنس
 transgender = جنسي منتقلي
 non-binary = جوڙي نا هوئي
+do_not_wish_to_say = ڪيوون نا
