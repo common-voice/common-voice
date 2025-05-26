@@ -36,6 +36,32 @@ question = سوال
 
 not-found-page-header = نا زڙيون
 not-found-page-content = زي پنُون تمين ڳوتو را سو اي نا زڙيُون
+# Privacy and Terms checkbox
+accept-privacy-and-terms = مُون ڪامن وائيس ٿي راضي سُون، <termsLink> ٽرم </termsLink> هانَ <privacyLink> پرائيويسي۔</privacyLink>
+# Locales
+bsy = سبا بِسايا
+cdo = فُوزهو
+cpx = هينگ هُوئا
+en = انگريزي
+fr = فرينچ
+hch = وڪسرِيڪا
+kzi = ڪيلابِٽ
+mbf = بابا مالي
+meh = سائوٿ ويسٽرن ٽلاڪسيئاو مِڪسٽيڪ
+mel = سينٽرل ميلانائو
+mmc = مِيچائوڪن مازاهُوئا
+ms-MY = بابا مالي
+msi = سبا مالي
+pez = ايسٽرن مِنَ
+pne = ويسٽرن مِنَ
+sdo = سيريئن بدايُوه
+snv = سابن
+tr = تُرڪش
+xkl = ڪينِيا
 
 ## Language search component
 
+language-search-placeholder = ايڪ ٻولي چونڊو
+language-search-aria-label = ايڪ ٻولي چونڊو
+language-search-label = مدد واۯي  ٻولي ڊيٽابيس هارو تبديل ڪرو
+language-search-no-results = ٻولي نا زڙِي
