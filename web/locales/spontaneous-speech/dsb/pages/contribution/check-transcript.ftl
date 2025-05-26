@@ -4,6 +4,8 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Słuchajśo na awdioklip a pśeglědujśo transkripciju. Góźi se k tomu? Jolic nic, wobźěłajśo ju, aby se perfektnje góźeła.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Pśeglědaś
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = Tuchylu transkripcije za pśeglědowanje njedajo za toś tu rěc. Jolic sćo pśeskócył transkripcije, móžośo z pśeskóconym wopśimjeśim pókšacowaś abo awdio transkriběrowaś a pózdźej znowego wopytaś.
 vote-transcript-success = Wó transkripciji wuspěšnje wótgłosowany
 vote-transcript-error = Pśi wótgłosowanju wó transkripciji jo zmólka nastała
 transcript-edited-success = Transkripcija jo se wuspěšnje wobźěłała
