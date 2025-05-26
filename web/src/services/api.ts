@@ -36,10 +36,8 @@ interface Vote extends Event {
   challengeEnded?: boolean
 }
 
-const API_PATH =
-  process.env.CV_PROD === 'true'
-    ? location.origin + '/voicewall/api/v1'
-    : location.origin + '/api/v1'
+const PREFIX_VOICEWALL = process.env.CV_PROD === 'true' ? '/voicewall' : ''
+const API_PATH = PREFIX_VOICEWALL + '/api/v1'
 
 const getChallenge = (user: User.State): string => {
   return user?.account?.enrollment?.challenge
@@ -203,7 +201,7 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`/voicewall/locales/${locale}/messages.ftl`, {
+    return this.fetch(`${PREFIX_VOICEWALL}/locales/${locale}/messages.ftl`, {
       isJSON: false,
     })
   }
@@ -239,7 +237,9 @@ export default class API {
     name: 'privacy' | 'terms' | 'challenge-terms'
   ): Promise<string> {
     const locale = name === 'challenge-terms' ? 'en' : this.locale
-    return this.fetch(`/voicewall/${name}/${locale}.html`, { isJSON: false })
+    return this.fetch(`${PREFIX_VOICEWALL}/${name}/${locale}.html`, {
+      isJSON: false,
+    })
   }
 
   skipSentence(id: string) {
