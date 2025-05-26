@@ -24,6 +24,8 @@ skip-button = Preskočiť
 submit-button = Odoslať
 contribute = Prispieť
 request-new-language = Požiadať o nový jazyk
+# Button text which appears when there are no more resources
+continue-with-skipped = Pokračovať s preskočenými
 
 ## Navbar
 
