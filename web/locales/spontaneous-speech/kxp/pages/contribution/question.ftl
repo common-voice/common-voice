@@ -1,6 +1,6 @@
 ## Question Page
 
-question-page-instruction = منکان هارو سوال شامل ڪرو <icon> مانئين { $currentLocale }
+question-page-instruction = منکان هارو ايڪ سوال شامل ڪرو <icon> مانئين { $currentLocale }
 add-question-textarea-placeholder = مثال۔ تمين شون چاهو سو ڪي چيوِي ٽيڪنالوجي استعمال ڪرو سو؟
 add-questions-terms-checkbox =
     منين پڪ سي ڪي آ جملو عوام نو سي<publicDomainLink>>
@@ -29,3 +29,4 @@ do-section-guideline-3 = يپڪ هوئي ڪي سوالان نا جواب اين 
 do-not-section-title = نا ڪروون
 do-not-section-guideline-1 = زاتي طور سناخت ڪريا واۯي معلومات حاصل ڪرو زم نام يان مالي معلومات
 do-not-section-guideline-2 = جوش هانَ جزبا نو اظهار ڪرو يان اين هارو درخواست ڪرو
+do-not-section-guideline-3 = حساس اثر واۯا سوال پُوسو

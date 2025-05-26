@@ -1,13 +1,13 @@
 ## Prompts page
 
-record-player-header = تمارا ساٿي نو آوزا رڪارڊ ڪرو
-mic-access-error = ڪانَ واۯُون مائيڪ استعمال ڪرو
+record-player-header = تمارا ساٿي نو آوزا رڪارڊنگ ڪرو
+mic-access-error = ڪانَ واۯُون مائيڪ ضرور  استعمال ڪرو
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction =
     { $actionType } <micIcon></micIcon>
-    هانَ ساٿي زم قدرتي طور زم او ڪرِي ڪي۔
-no-prompts-message = فلاحال آ ٻولي هارو ڪوئي نقل چيڪ نٿي ڇئي۔ مهرباني ٿي پنُون ريفريش ڪرو هانَ وري ڪوشش ڪرو۔
-error-skipping = زا نقل  ڪريا نُون رئي زائي سي تار ڪوئي مسئلو ٿائي سي۔
+    هانَ ساٿي زم قُدرتي طور زم او ڪرِي ڪي۔
+no-prompts-message = فلاحال آ ٻولِي هارو ڪوئي نقل چيڪ نٿي ڇئي۔ مهرباني ٿي پنُون ريفريش ڪرو هانَ وري ڪوشش ڪرو۔
+error-skipping = زا نقل  ڪريا نُون رئي زائي سي تار ڪوئي مسئلو ٿائي سي
 error-recording = زار رڪارڊنگ ڪرو اي دوران ڪوئي مسئلو سي
 error-fetching-prompts = ڪانڪ شيزون سئي نٿي زار نقل ڪرو سو۔ اين هارو وري ڪوشش ڪرو
 error-uploading-response = زار اپلوڊ ڪرو سو تار ڪوئي مسئلو ٿائي سي
