@@ -13,3 +13,7 @@ validate-page-skip-button-shortcut = س
 ## Validation guidelines
 
 validation-guidelines-title = هدايت
+validation-guideline-1 = ڪوئي ذاتي معلومات ليڌا ني ضرورت نٿي مثال۔ ملياتي ڊيٽيل
+validation-guideline-2 = ڪوئي جارحانه، متصحانه ريمارڪس يا حساس نٿي
+validation-guideline-3 = سادُون هانَ آسان زي هر ايڪ همزيا مان آوي
+validation-guideline-4 = شُون ڪانڪ سوالان نا جواب آلي ڪي سي
