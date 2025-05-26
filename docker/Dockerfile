@@ -39,7 +39,9 @@ RUN npm install
 # Run build
 RUN npm run build
 
-RUN cp -r /code/web/img /code/web/dist/
+RUN mkdir -p /code/web/dist/img
+
+RUN cp -r /code/web/img/* /code/web/dist/img
 
 # Default command to start the server
 CMD ["sh", "-c", "npm run start 2>&1 | tee /host/common-voice-server.log"]
