@@ -1,6 +1,6 @@
 ## Prompts page
 
-record-player-header = ساٿي نو آوزا رڪارڊ ڪرو
+record-player-header = تمارا ساٿي نو آوزا رڪارڊ ڪرو
 mic-access-error = ڪانَ واۯُون مائيڪ استعمال ڪرو
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction =
@@ -29,3 +29,5 @@ learn-how-to-use-transcribe = شيکو ڪي نقل چچم ٿائي سي۔
 learn-how-to-use-transcribe-explanation = منک ڪو رُون سي اِي نيسي سئي لکو زي۔  نشان واۯا اکر استعمال ڪرو، اوممم، اررر،
 learn-how-to-use-transcribe-guidance = ڪلڪ <guidanceLink> آنئين </guidanceLink> زوئو ڪي صفعو چچم استعمال ٿائي سي۔
 learn-how-to-use-check-transcript = شيکو ڪي نقل چچم چيڪ ٿائي سي۔
+learn-how-to-use-check-transcript-explanation = نقل ڪرل ڪام نا هر اکر نانَ ليڪسيڪل هوئي۔ آواز بدلاوون زي منکئي ڪيڌُون سي هانَ اين مان دوهرائي شامل ڪرو
+learn-how-to-use-check-transcript-guidance = ڪلڪ <guidanceLink> آنئين </guidanceLink> زوئو ڪي صفعو چچم استعمال ٿائي سي۔
