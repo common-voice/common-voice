@@ -23,6 +23,7 @@ varying-pronunciations-explanation-2 = ايڪ ٻيزي وات ڪي زار ڪوئ
 varying-pronunciations-example = رستو سئي نٿي
 varying-pronunciations-tip-1 = ڪينيڊا انگريزي واۯا ايئان نا لهجه مان آواز ڪاڍشي
 varying-pronunciations-tip-2 = بريٽش واۯا ايئان نا سُر مان آواز ڪاڍشي
+offensive-content-explanation = جُملا ني جانڇ برادي ني مدد ٿي ٿائي سي۔ زي اي طريقو سئي نٿي هانَ مڪمل نٿي۔ زي تمين جُملا زوئو سو هانَ هانڀۯو سو  زي تمان نين پريشان ڪري۔ مثال: اي منکان نين زي شامل سي ايئان هارو خراب سي <participationGuidelines>تو هدايت نين زوئو۔ تو جنڊا نا ٻٽڻ نين زوئو۔  UI امان هوڌي مدد هارو <emailFragment>commonvoice@mozilla.com</emailFragment>
 still-have-questions = هزي سوال سي
 contact-common-voice = ڪامن وائيس ٽيم ٿِي راب﻿﻿﻿طو ڪرو
 
