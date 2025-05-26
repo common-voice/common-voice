@@ -4,6 +4,8 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> آڊيو ڪلپ سُڻا ائُون ٽرانسڪرپشن چڪاس ڪرا۔ ڪا مِلَي جُلَي ڇَي؟ جي ڪونهِي، تہ بِلڪُل هِڪ سِرکَي ڪرڻي چي ڪاڻ اوڇِي مرمت ڪرا۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = چڪاس
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = "جي ٻولِي ڪاڻ جي وقتا پر ڪو بِي ٽرانسڪرپشن چيڪ ڪرڻي ڪاڻ موجود ڪونهِي. جي تمهِين ڪو ڇوڙتِي ڏلِي ڇَي ته تمهِين ڇوڙوڙي موادا سُون جاري راک سِگها ڇوا، يان آڊيو ٽرانسڪرائب ڪرڻي هاڙي حصي ڏِسيين جتِي پچِي بڙتِي ڪوشش ڪر سگها ڇوا."
 vote-transcript-success = ٽرانسڪرپٽِي نُون ڪاميابِي سُون ووٽ ڏِلا گيلا۔
 vote-transcript-error = ٽرانسڪرپٽِي نُون ووٽ ڏِتان مهلِي هيڪ خرابِي هُتِي پلِي
 transcript-edited-success = نقلِي چِي ڪاميابِي سُون مرمت ڪلِي گيلِي۔
