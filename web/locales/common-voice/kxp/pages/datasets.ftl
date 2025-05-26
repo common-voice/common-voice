@@ -61,6 +61,15 @@ dataset-version = ورزن
 sha256-checksum-copied = SHA256 ڪاپي چيڪ سم
 sha256-checksum-copied-error = SHA256 ڪاپي ڪريا مان ناڪام سي
 clipboard-not-supported = ڪلپ بورڊ سپورٽ نٿي ٿاتا
+no-information-available = ڪوئي معلومات نٿي
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = تمارو ڊيٽابيس ڊائونلوڊ ٿائي رو سي
+dataset-donate-modal-heading = تمان نين کٻير سي
+donate-modal-explanation-1 = ڊيٽابيس نِي مزماني هارو ملينَ ڊالر خرچو ٿائي سي۔ هانَ پليٽ فارم ترقي هارو سي۔ سئو ٻوليون زي برادري مان امين ڀروسو ڪران سان۔
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> زمي تمارو ڊيٽا هارو اقدارا سي ، تو آز مدد ڪرو۔ </bold>
 data-explanatory-text = آ ايڪ گول سي اين هارو امين ٻڌانئين نين دعوت آلان سان ڪي اي اين مان شامل تائي۔ امارون مقصد  سي ڪي تقريري ٽيڪنالوجي مان ترقي ٿائي۔ اين نو فائيدو پوري دُنيا مان ٿائي۔
 data-get-started = تقريري آگاهي هارو شروعات ڪروون <speechBlogLink></speechBlogLink>
 data-other-title = ٻيزا وائيس ڊيٽابيس
