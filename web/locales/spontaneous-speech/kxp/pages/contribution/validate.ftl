@@ -1,11 +1,12 @@
 ## Validate Page
 
-validate-page-instruction = تصديق <validateIcon> شُون هدايت نا مطابق سي؟
+validate-page-instruction = تصديق <validateIcon> </validateIcon>شُون هدايت نا مطابق سي؟
 dataset-label = ڊيٽابيس
+accept-vote-toast-message = سوال ڪامياب ٿئي جھا سي
 reject-vote-toast-message = سوال رد ڪروا ڪاميان ٿئي جھا سي
 add-vote-error-message = آماده ڪريا ٽانڻي ڪانڪ مسئلو ڇو سي
 no-questions-message = همڻين ڪانئين پروموٽ نٿي زي پتان ني ٻولي مان تصديق ٿائي مهرباني ٿي پنُون ريفريش ڪرو هانَ وري ڪوشش ڪرو
-validate-page-yes-button-shortcut = يه
+validate-page-yes-button-shortcut = وائي
 validate-page-no-button-shortcut = ن
 validate-page-skip-button-shortcut = س
 
