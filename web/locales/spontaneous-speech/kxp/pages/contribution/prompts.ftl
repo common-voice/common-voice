@@ -22,3 +22,10 @@ submit-all-button = ٻڌائي جمع ٿئي جھا
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = شيکو ڪي پنُون چچم استعمال ڪرشان
+learn-how-to-use-prompts-explanation = زوئو ڪي ايڪ جملا مان جوڙ واۯا لفظ قدرتي طور منک چچم همزي س۔ تمان نين پڪ هوئي ڪي تماري ٻولي نو چويٽلو مانَ هان بي زبان سي۔
+learn-how-to-use-prompts-guidance = ڪلڪ <guidanceLink> آنئين </guidanceLink> زوئو ڪي صفعو چچم استعمال ٿائي سي۔
+learn-how-to-use-transcribe = شيکو ڪي نقل چچم ٿائي سي۔
+learn-how-to-use-transcribe-explanation = منک ڪو رُون سي اِي نيسي سئي لکو زي۔  نشان واۯا اکر استعمال ڪرو، اوممم، اررر،
+learn-how-to-use-transcribe-guidance = ڪلڪ <guidanceLink> آنئين </guidanceLink> زوئو ڪي صفعو چچم استعمال ٿائي سي۔
+learn-how-to-use-check-transcript = شيکو ڪي نقل چچم چيڪ ٿائي سي۔
