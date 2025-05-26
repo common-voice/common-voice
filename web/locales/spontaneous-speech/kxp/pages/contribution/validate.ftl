@@ -1,6 +1,6 @@
 ## Validate Page
 
-validate-page-instruction = تصديق <validateIcon> </validateIcon>شُون هدايت نا مطابق سي؟
+validate-page-instruction = تصديق <validateIcon> </validateIcon>شُون هدايت نا مُطابق سي؟
 dataset-label = ڊيٽابيس
 accept-vote-toast-message = سوال ڪامياب ٿئي جھا سي
 reject-vote-toast-message = سوال رد ڪروا ڪاميان ٿئي جھا سي
