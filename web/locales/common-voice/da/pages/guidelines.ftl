@@ -76,6 +76,7 @@ reviewing-sentences-explanation-4 = Hvis du løber tør for sætninger at gennem
 
 what-makes-a-good-question-explanation-criteria-3 = Ikke anvende, eller opfordre til, skadeligt eller stødende sprog
 easy-to-understand = Let at forstå
+easy-to-understand-explanation = Vælg enkle spørgsmål, som er lette for alle at forstå, uanset kultur eller kontekst.
 spelling-and-pronunciation = Stavning og tegnsætning
 spelling-and-pronunciation-explanation = Brug korrekt stavning og grammatik.
 length = Længde
