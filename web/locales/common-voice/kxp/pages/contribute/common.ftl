@@ -1,6 +1,6 @@
-action-click = ۮٻاوُون، ڪلڪ ڪروون
-action-tap = ڀار آلوون، ۮٻاوون
-contribute = حصو آلوو، مدد ڪروون
+action-click = ڪِلڪ ڪروون
+action-tap = ڪلڪ ڪروون
+contribute = حصو آلوو، مدد
 review = دوهرائِي، يان وري زوون
 skip = ميلِِي آلوون، رد ڪروون
 shortcuts = شارٽ ڪٽ،
