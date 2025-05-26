@@ -25,7 +25,7 @@ submit-button = Skicka in
 contribute = Bidra
 request-new-language = Begär nytt språk
 # Button text which appears when there are no more resources
-continue-with-skipped = Fortsätt med Överhoppat
+continue-with-skipped = Fortsätt med överhoppat
 
 ## Navbar
 
