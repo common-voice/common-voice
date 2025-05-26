@@ -5,6 +5,12 @@ dataset-label = Conxunto de datos
 accept-vote-toast-message = Pregunta aceptada correctamente
 reject-vote-toast-message = Pregunta rexeitada correctamente
 add-vote-error-message = Produciuse un erro ao votar a pregunta
+no-questions-message = Actualmente non hai preguntas para revisar neste idioma. Por favor actualice a páxina ou ténteo de novo máis tarde.
 
 ## Validation guidelines
 
+validation-guidelines-title = Directrices
+validation-guideline-1 = Non solicitar información persoal (por exemplo nomes, enderezos, detalles financeiros)
+validation-guideline-2 = Non facer preguntas sobre temas sensibles ou que poidan suxerir respostas prexuizosas ou ofensivas
+validation-guideline-3 = Deben ser sinxelas e fácil de entender para calquera
+validation-guideline-4 = Pódese responder en poucas frases
