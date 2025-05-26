@@ -11,3 +11,5 @@ error-content-404 =
     امارون هوم پيج <homepageLink> تماري مدد ڪرشي؟
     سوال ڪريا هارو آ لنڪ مان زو <matrixLink> ميٽرڪ برادري ٿي وات </matrixLink> مونيٽر سائيز مسئلا هارو <githubLink> گلٽ هب </githubLink> يان وزٽ هارو <discourseLink> دسڪورس لنڪ هانَ ڊسڪورس فارم۔ </discourseLink>
 error-title-503 = امين غير موقع وکت نو مقابلو ڪران را سان
+error-content-503 = سائيٽ زيٽلون ٿي سگھي جلدي بيڪ اپ ڪرشي۔ وڌيڪ معلومات هارُو ميٽرڪ لنڪ ميٽرڪ برادري ني واتون <matrixLink> يان وزٽ ڪرو <githubLink> گٽ هب </githubLink> يان امرون ڊسڪورس فارم </discourseLink> ڪوئي مسئلو تجربو جمع ڪريا هارو سي۔
+error-code = مسئلو { $code }
