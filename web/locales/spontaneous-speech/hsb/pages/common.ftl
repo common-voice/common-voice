@@ -24,6 +24,8 @@ skip-button = Přeskočić
 submit-button = Wotpósłać
 contribute = Sobu dźěłać
 request-new-language = Nowu rěč požadać
+# Button text which appears when there are no more resources
+continue-with-skipped = Z Přeskočeny pokročować
 
 ## Navbar
 
