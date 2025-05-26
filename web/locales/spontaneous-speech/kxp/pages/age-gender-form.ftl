@@ -18,3 +18,6 @@ thank-you-for-your-information = معلومات هارو مهرباني
 
 male_masculine = مرد۔ مذڪر
 female_feminine = عورت مونث
+intersex = آۮمي ٻائيڙي نان جنس
+transgender = جنسي منتقلي
+non-binary = جوڙي نا هوئي
