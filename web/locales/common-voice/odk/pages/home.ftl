@@ -78,6 +78,7 @@ read-more-about = اَمچي باري ۾ صفحي پر بڌِيڪ پڙها۔
 answer-questions = سوال ائُون جواب
 review-transcriptions = نقلان چا جائِزا گيهوا
 add-questions = سوال شامل ڪرا
+review-questions = جائِزي چي سوال
 transcribe-audio = آڊيوئِي چِي نقل ڪرا
 press-and-stories = پريس ائُون ڪهاڻِيان
 community-and-languages = برادرِي ائُو ٻولِيا
@@ -125,6 +126,7 @@ spontaneous-card-content = نانوان هاڙي، ٻول چالا هاڙِي س
 language-text-card-header = ٻولِي چا متن
 language-text-card-content = عوامِي ڊومين پرامپٽس، جُملي ائُون ترجمي چي ڪاڻ متن، ڌاڪڙِي ٻولِي چي ماڊلز، وغيره ٺاهوا يان بڙي اُونهان چا رُجھان ڏيکا۔
 add-text = متن شامل ڪرا
+answer = جواب
 
 ## Community section
 
