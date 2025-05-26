@@ -1,4 +1,4 @@
-action-click = ڪِلڪ ڪروون
+action-click = ڪِلڪ ڪرو
 action-tap = ڪلڪ ڪروون
 contribute = حصو آلوو، مدد
 review = دوهرائِي، يان وري زوون
