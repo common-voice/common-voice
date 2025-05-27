@@ -93,6 +93,9 @@ adding-sentences-subheader-numbers-explanation =
     گھڻون ڪرينَ متن مان ڪوئي عدد نا هوئي۔ چم تو اي اوتاۯي ٻوليا مان مسئلا پيدا ڪري ڪي سي۔  زم ڪوئي نمبر ڀڻان سان تو اين نو اثر سياق و سباق ماٿي هوئي سي۔ هانَ ڊيٽا سيٽ مان مشڪل پيدا ٿائي سي۔ مصال: 2409 چويهه ٻُڙئ نو
     بي هزار چار سئو نو۔ ٻيائن ٻيئي طريقي ٿي ڀڻيان زائي سي۔
 adding-sentences-subheader-abbreviations = مختصر خلاصه نا نام
+adding-sentences-subheader-abbreviations-explanation = خلاصه نان حصان نين شرُوع واۯا اکر نين “USA” يان “ICE کيال ڪروون زويئي چم ايئان ٿي هجي يا سئي ڀڻيا مان نين آوي۔ وڌيڪ خلاصه نان حصا مان درسٽ ڀڻي ڪان سان۔
+adding-sentences-subheader-punctuation = رموز اوقات لڇا نو عمل
+adding-sentences-subheader-punctuation-explanation = خصوصي نشان هانَ رموز اوقات تار استعملا ڪريان زائي سي زار ضرورت هوئي۔ مثال: زم انگريزي مان ڊونٽ، وي آر مان علامت حذف نون استعمال ٿائي سي۔ پڻ اي وات ممڪن نٿي ڪي تمان نين “@” or “#.” آووا نشان لکو۔
 
 ## Question collection ids
 
