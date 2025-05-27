@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Tanno benn làkk. Baalnu nga dem ci sa sa <profileLink>Lëkkalekaayu</profileLink> ngir tànn saw làkk.
 sc-review-title = Jàngat ay waat
 sc-review-loading = Dafay yab ay waat...
 sc-review-select-language = Tannal benn làkk ngir jàngat ay waat.
@@ -12,6 +13,13 @@ sc-review-form-usage = Bu baat bi baaxé laalal sa ndeyjoor. Bu baaxul sa cammoy
 sc-review-form-source = Cosaan : { $sentenceSource }
 sc-review-form-button-reject = Dàqq
 sc-review-form-button-skip = Tëb
+sc-review-form-button-approve = Dëggal
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = W
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = D
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Mën nga itam jëfandikoo gaawaayu àlluwa kër ngir :{ sc-review-form-button-approve-shortcut } Nangu, { sc-review-form-button-reject-shortcut } Bañ,{ sc-review-form-button-skip-shortcut } Jàll
 sc-review-form-button-submit =
     .submitText = Jeexal jàngat bi
@@ -47,3 +55,7 @@ review-error = Dafa am njuumte ci jàngatum baat bi
 review-error-rate-limit-exceeded = Ningay deme gaaw na lool. Ñoo ngi lay ñaan nga jël ab diir ngir jàngat baat bi xam ndax jub na.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ñoo ngi def ay coppite yu am solo
+sc-redirect-page-subtitle-1 = Dajalekay waat yi mingi toxu ci xarala gii di Common Voice. Leegi mën nga <writeURL>bind</writeURL> ab baat wala <reviewURL>jàngat</reviewURL> benn baat bune ci Common Voice.
+sc-redirect-page-subtitle-2 = Sàmp ap làaj ci <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> wala<emailLink>imeel</emailLink>.
+# menu item
+review-sentences = Jàngat ay waat
