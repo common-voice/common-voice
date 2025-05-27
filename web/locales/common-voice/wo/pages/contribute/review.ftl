@@ -42,3 +42,8 @@ sc-review-rules-title = Ndax baat bi sàmmo na ak càkkutéef yi ?
 sc-review-empty-state = Waat yiñ war a jàngat, jéex na ci làkk wii.
 report-sc-different-language = Làkk wu wuute
 report-sc-different-language-detail = Dañ ko bind ci làkk wu wuute ak làkk wii may jàngat.
+sentences-fetch-error = Dafa am njuumte ci waat yi
+review-error = Dafa am njuumte ci jàngatum baat bi
+review-error-rate-limit-exceeded = Ningay deme gaaw na lool. Ñoo ngi lay ñaan nga jël ab diir ngir jàngat baat bi xam ndax jub na.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Ñoo ngi def ay coppite yu am solo
