@@ -83,10 +83,12 @@ community-and-languages = Ҷомеа ва забонҳо
 coming-soon = Ба наздикӣ дастрас мешавад
 about-us = Дар бораи мо
 scripted-speech = НУТҚИ НАМОИШНОМА
+spontaneous-speech = НУТҚИ БЕВОСИТА
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Шарикӣ, Матбуот ва Ҳикояҳо, Ҷомеа ва забонҳо
+about-us-menu-item-tooltip = Маълумот дар бораи мақсадҳо ва гурӯҳи корие, ки лоиҳаи «Common Voice»-ро дастгирӣ мекунад
 about-us-menu-item-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-tooltip = Ҳамкорӣ бо мо
 press-and-stories-menu-item-tooltip = Ба блоги мо ворид шавед ё дар бораи мо нависед
