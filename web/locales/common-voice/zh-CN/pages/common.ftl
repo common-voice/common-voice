@@ -65,6 +65,7 @@ dag = 达戈姆巴语
 dar = 达尔格瓦语
 dav = Kidaw'ida 语
 de = 德语
+dmk = 达乌德语
 dru = 鲁凯语
 dsb = 下索布语
 dua = 杜阿拉语
