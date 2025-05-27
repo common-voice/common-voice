@@ -130,3 +130,7 @@ culturally-specific-questions = خاص ثقافت ٿي هوئي
 culturally-specific-questions-explanation = ايوا سوال زي ثقافتي هانَ خاص هوئي، يانَ جواب آليا واۯان ڪنين الاهي جواب هوئي۔
 length-avoid-explanation = ايوا سوال زين نا جواب آليا ني ڪوشش ڪرتون هوئي۔ ڪلپ نين ڊيگھ 15 سيڪنڊ هوئي۔
 process-steps = قدم، طريقي ڪار
+process-steps-explanation = ايوا سوال زين نا چيٽلائي نمونا سي زين نِي فهرست تيار ڪرو۔ فهرست ني لست صارف نين فطري رد عمل ني جڳائي ڀڻيا مان هانَ جواب آليا مان مدد ڪري سي۔
+offensive-content-sensitive-information = نا پسند مواد يان حساس معلومات
+offensive-content-sensitive-information-explanation-explanation-1 = سوالان نو ذاتي طور قابل شناخت حاصل ڪري ڪو سو۔
+offensive-content-sensitive-information-explanation-explanation-2 = تقريري ايوا سوال زي خراب يان بيڪار قسم نا پڻ ٿئي ڪي سي۔
