@@ -4,6 +4,8 @@ record-player-header = ჩაიწერეთ თქვენი პასუ�
 mic-access-error = საჭიროა მიკროფონთან წვდომის ნებართვა.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> და უპასუხეთ შეძლებისდაგვარად ბუნებრივად
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = ამჟამად ამ ენისთვის შეკითხვები აღარაა. თუ რომელიმე გამოტოვებული გაქვთ, შეგიძლიათ კვლავ დაუბრუნდეთ ან დაიწყოთ ხმის ნაწერად ქცევა და მოგვიანებით სცადოთ.
 error-skipping = შეცდომა წარმოიშვა მოთხოვნის გამოტოვებისას
 error-recording = შეცდომა წარმოიშვა ჩაწერისას
 error-fetching-prompts = რაღაც ხარვეზი წარმოიქმნა მოთხოვნების მოძიებისას. გთხოვთ, სცადოთ მოგვიანებით.
