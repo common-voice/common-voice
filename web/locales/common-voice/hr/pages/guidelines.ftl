@@ -70,6 +70,7 @@ public-domain-explanation-3 = Stvaraj moderne, svakodnevne rečenice sam/a, s pr
 public-domain-explanation-4 = Kontaktiraj autore, dramatičare ili scenariste i pitaj ih, je li bi bili voljni darovati jedan mali dio svojih djela javnoj domeni
 public-domain-explanation-5 = Potraži tekstove čija su autorska prava istekla – na primjer, većina knjiga koje su objavljene prije 1920.
 public-domain-explanation-6 = Obrati se vladama, neprofitnim organizacijama ili medijskim organizacijama te ih pitaj je li se neki od njihovih web sadržaja, izvještaja ili drugih sadržaja mogu darovati javnoj domeni
+citing-sentences-explanation-1 = Važno je uključiti citate kako bismo mogli provjeriti jesu li rečenice u javnoj domeni i je li postoje ograničenja autorskih prava.
 citing-sentences-subheader-websites = Web stranice
 citing-sentences-subheader-websites-explanation = Možeš uključiti web stranicu, npr. „Common Voice – https://commonvoice.mozilla.org/”
 citing-sentences-subheader-academic-reference = Akademska referenca
