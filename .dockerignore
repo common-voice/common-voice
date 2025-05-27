@@ -1,2 +1,39 @@
+.git
 **/node_modules
 bundler
+# config.json
+maintenance/index.html
+maintenance/css/vars.css
+common/index.ts
+common/js/
+web/dist/
+web/index.html
+server/js/
+server/upload/
+xcuserdata/
+.ignore
+.ignored_files/
+**/.DS_Store
+.vscode/
+ZZidea
+.env-local-docker
+docker-compose.override.yml
+index.ts.bak
+scripts/releases
+web/cypress.env.json
+.cache
+.config
+.env
+
+# Nubis
+nubis/librarian-puppet.tar.gz
+nubis/librarian-puppet
+nubis/Puppetfile.lock
+nubis/.tmp
+nubis/.librarian
+nubis/builder/artifacts/*
+
+# WebStorm
+.idea/
+orefay.pem
+.env
