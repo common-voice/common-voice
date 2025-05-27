@@ -37,7 +37,7 @@ interface Vote extends Event {
 }
 
 const PREFIX_VOICEWALL = process.env.CV_PROD === 'true' ? '/voicewall' : ''
-const API_PATH = PREFIX_VOICEWALL + '/api/v1'
+const API_PATH = location.origin + PREFIX_VOICEWALL + '/api/v1'
 
 const getChallenge = (user: User.State): string => {
   return user?.account?.enrollment?.challenge
