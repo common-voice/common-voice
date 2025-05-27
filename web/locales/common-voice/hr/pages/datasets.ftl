@@ -8,6 +8,7 @@ datasets-positioning =
     Višejezični skup podataka Common Voicea već je najveći javno dostupan glasovni skup podataka takve vrste, ali nije jedini.
     
     Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice raste, bit će izvor za naša buduća izdanja.
+datasets-speech-bubble-content = Uzbudljive vijesti! Spontani govor će uskoro biti dostupan! Prati novosti i svakako posjeti naš <discordLink>Discord</discordLink> za najnovije informacije.
 language = Jezik
 download-dataset-header = Preuzmi skup podataka
 download-delta-explainer = Učinili smo neke promjene. Delta segmenti sadrže samo najnovije isječke od zadnjeg izdanja. <deltaLink>Pročitaj više o ovom radu</deltaLink>.

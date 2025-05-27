@@ -254,5 +254,6 @@ donate-banner-cta = <mark>Trebamo</mark><br/><mark>tvoju pomoć!</mark>
 donate-banner-cta-explanation = Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje. <strong>Ako cijeniš otvorene, uključive podatke – doniraj danas!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Koristiš životopis za</mark><br/><mark>zvoje istraživanje?</mark>
+languages-donate-banner-cta-explanation = Common Voice se financira donacijama i dotacijama! Volimo surađivati s akademicima, civilnim društvom i istraživačima iz industrije. Common Voice se može besplatno koristiti, ali su doprinosi platformi i hostingu vrlo korisni.
 localization-select =
     .label = Odaberi jezik/lokalizaciju
