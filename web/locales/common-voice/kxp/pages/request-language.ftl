@@ -29,3 +29,7 @@ request-language-error =
 request-for-scripted-speech-toggle = تقريري اسڪرپٽ هارو درخواست
 request-for-spontaneous-speech-toggle = اختياري تقرير هارو درخواست
 need-help-deciding-platform = فيصلو ڪريا مان مدد ڪرو چائي نو انتخاب ڪران۔
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>اسڪرپٹ اسپیچ</strong> (روایتی طور زين نين تمين ڪامن وائيس ڪو سو۔ آ او جڳا سي زانئين تمين هڌري نموني پوتان ني ٻولي مان جملا ڀڻي ڪو سو۔
+need-help-deciding-platform-explanation-2 = <strong>بي ڊانچو تقریر</strong> ڪامن وائس نو ايڪ حصو سي۔  زانئين تمين سوال نا جواب سئي آلي ڪو سو۔
+need-help-deciding-platform-explanation-3 = زي تمان نين پليٽ فارم مان ڪوئي پڻ حصا مان پوتان ني ٻولي ڀاۯيا مان نٿي آوتي۔ تو ٻيئان نين چونڊو۔
