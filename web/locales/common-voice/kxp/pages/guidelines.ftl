@@ -105,9 +105,22 @@ reviewing-sentences-explanation-1 = زي جملو پُورا معيار پرما
 reviewing-sentences-explanation-2 = زي جملو ماٿي آلل معيار پرماڻي نٿي تو نو نُون ٻٽڻ ڪلڪ ڪرو۔
 reviewing-sentences-explanation-3 = زي تمان نين ڀروسو نٿي جملا ماٿي، تو ميلي آلو هانَ وري ٻيزا جملا نين زوئو۔
 reviewing-sentences-explanation-4 = زي تمارا جائزا هارُو جُملا ختم ٿئي جھا سي، تو وڌاري جُملا هارو امارِي مدد ڪرو۔
+domain-explanation = ڊومن جملا ٿي آ ظاهر ٿائي سي ڪي، فلالحال تمين آنئين مانئين ٿي چونڊي ڪو سو۔
 
 ## Question collection ids
 
+adding-questions = سوال جمع ڪروا
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = شون ڪوئي هڌرا سوال ڪري سي؟
+what-makes-a-good-question-explanation = عوامي شرڪت نا ڊيٽابيس هارو هڌرا سوال۔
+what-makes-a-good-question-explanation-criteria-1 = همزيا مان آسان هانَ سئي جواب هوئي
+what-makes-a-good-question-explanation-criteria-2 = عام طور ملتا جُلتا هوئي
+what-makes-a-good-question-explanation-criteria-3 = نقصانڪار يان جوش واۯي ٻولي استعمال نا ڪرو۔ يان درخواست نا ڪرو
+what-makes-a-good-question-tip = تمان نين مختلف سياق و سباق ڊومنيز نين وڌايا هارو غور ڪروو زويئي۔
+easy-to-understand = همزيا مان آسان هوئي
+easy-to-understand-explanation = ايوا سوال چونڊو زي ثقافت هانَ سياق وسباق هانَ همزيا مان آوتا هوئي۔
+spelling-and-pronunciation = گرامر هانَ زير زبر پيش
+spelling-and-pronunciation-explanation = درست گرامر هانَ هجي نو استعمال هوئي
+length = ڊيگھ
