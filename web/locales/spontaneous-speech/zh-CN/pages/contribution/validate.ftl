@@ -9,6 +9,7 @@ add-vote-error-message = 为引导语投票时出错
 no-questions-continue-skipped-message = 此语言当前已没有其他问题。您可以回顾曾跳过的问题；也可先去转录音频，以后再回来看看。
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
+validate-page-skip-button-shortcut = S
 
 ## Validation guidelines
 
