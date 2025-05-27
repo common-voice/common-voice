@@ -24,3 +24,17 @@ leaderboard-visibility =
     .label = ليڊر بورڊ ني رويت
 hidden = هتال
 visible = نمودار زي ڀاۯيا مان آوي
+native-language =
+    .label = ديسي ٻولي
+profile-form-add-accent = ايڪ نوا رسم نو لحجو راکو { $inputValue }
+profile-form-submit-save = سيو حفاظت ٿي راکوون
+profile-form-submit-saved = سيوڊ حفاطت ٿئي جھئي
+male_masculine = مرد۔ مذڪر
+female_feminine = عورت مونث
+intersex = آۮمي ٻائيڙي نان جنس
+transgender = جنسي منتقلي
+non-binary = جوڙي نا هوئي
+do_not_wish_to_say = ڪيوون نا
+# Gender
+other = ٻيزان
+why-profile-title = ايڪ پروفائيل چم
