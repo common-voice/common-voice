@@ -57,9 +57,13 @@ read-more-about = دے ماخ متعلق دے صحفہ اوئے دیر ام ݱا
 answer-questions = نے سوالف جواب دل
 review-transcriptions = ڤے نوختّغف دیبارو اوژر
 add-questions = سوال شامل کن
+review-questions = ڤے سوالف دیبارو اوژر
+press-and-stories = اخبار اڤن مضمون
+community-and-languages = کمیونٹی اڤن زبان
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت داری، اخبار، مضمون، کمیونٹی اڤن زبان
 
 ## MENU ITEM ARIA LABELS
 
