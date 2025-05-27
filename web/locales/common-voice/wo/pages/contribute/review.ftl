@@ -13,8 +13,32 @@ sc-review-form-source = Cosaan : { $sentenceSource }
 sc-review-form-button-reject = Dàqq
 sc-review-form-button-skip = Tëb
 sc-review-form-keyboard-usage-custom = Mën nga itam jëfandikoo gaawaayu àlluwa kër ngir :{ sc-review-form-button-approve-shortcut } Nangu, { sc-review-form-button-reject-shortcut } Bañ,{ sc-review-form-button-skip-shortcut } Jàll
+sc-review-form-button-submit =
+    .submitText = Jeexal jàngat bi
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Amul benn baat buñu jàngat.
+       *[other] { $sentences } waat yunu jàngat.
+    }
+sc-review-form-review-failure = Mënul yab jàngat bi. Jéemaatal ci kanam.
+sc-review-link = Jàngat
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Càkkutéefi saytu gi
+sc-criteria-title = Càkkutéefi saytu gi
+sc-criteria-make-sure = Fexeel ba baat bi méngoo ak càkkutéef yi :
+sc-criteria-item-1 = Dañoo wara bind baat bi ci nimu warée.
+sc-criteria-item-2 = Baat bi dafa wara sàmmote ay càkkutéefi nafar yi.
+sc-criteria-item-3 = Baat bi dafa wara nekk lunu mëna wax.
+sc-criteria-item-4 = Su baat bi sàmmote ak càkkutéef yi, bësal ci butoŋu &quot;Nangu&quot; bi ci sa ndeyjoor.
+sc-criteria-item-5-2 = Sudee baat bi wuute na ak liñu bind ci kaw, bësal ci butoŋu &quot;Dàqq&quot; ci sa cammoy. Soo xamul baat bi, mën nga jàll dem ci baat bi ci topp.
+sc-criteria-item-6 = Soo amatul waat yoo jàngat, mën ngañoo jàppale ñu dajale yeneen waat.
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Jàngatal <icon></icon> ndax baat bi awna yoon ?
+sc-review-rules-title = Ndax baat bi sàmmo na ak càkkutéef yi ?
 sc-review-empty-state = Waat yiñ war a jàngat, jéex na ci làkk wii.
 report-sc-different-language = Làkk wu wuute
+report-sc-different-language-detail = Dañ ko bind ci làkk wu wuute ak làkk wii may jàngat.
