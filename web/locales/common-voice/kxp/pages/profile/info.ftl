@@ -38,3 +38,15 @@ do_not_wish_to_say = ڪيوون نا
 # Gender
 other = ٻيزان
 why-profile-title = ايڪ پروفائيل چم
+why-profile-text = پوتان نا بارا مان معلومات هارو، تمين زي آڊيو ڊيٽا ڪامن وائيس هارو جمع ڪراوو سو۔ اي تقريري هارو الاهي فائيدا هارو سي۔  انجن شناخت هارو آ ڊيٽا نين بهتر ٺاهيا هارو استعمال ڪري سي۔
+dashboard = ڊيش بورڊ
+build-profile = پروفائيل تيار ڪرو
+avatar = اوتار
+goals = گول
+settings = سيٽنگ
+edit-profile = ايڊٽ پروفائيل
+profile-create-success = پروفائيل ڪامياب
+profile-close = بند
+profile-explanation = پروفائيل ڀيۯي پوتان نِي پيش نظر راکو، هانَ اماري سوتي ڊيٽا ٺاهيا مان  سئي مدد ڪرو۔
+thanks-for-account = اڪائونٽ هارو مهرباني، هوي پروفائيل تيار ڪرو
+why-demographic = آ مسئلو چم سي؟
