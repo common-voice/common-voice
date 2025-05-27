@@ -24,6 +24,8 @@ skip-button = გამოტოვება
 submit-button = გაგზავნა
 contribute = წვლილის შეტანა
 request-new-language = მოითხოვეთ ახალი ენა
+# Button text which appears when there are no more resources
+continue-with-skipped = გამოტოვებულზე გადასვლა
 
 ## Navbar
 
