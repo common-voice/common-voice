@@ -50,3 +50,17 @@ profile-close = بند
 profile-explanation = پروفائيل ڀيۯي پوتان نِي پيش نظر راکو، هانَ اماري سوتي ڊيٽا ٺاهيا مان  سئي مدد ڪرو۔
 thanks-for-account = اڪائونٽ هارو مهرباني، هوي پروفائيل تيار ڪرو
 why-demographic = آ مسئلو چم سي؟
+why-demographic-explanation-2 = صارف ني ڊيٽا هارو ڄمار، جنس، لهجو، تقيرير اوۯکاڻ انجڻ ني ترتيب آليا هارو استعمال ٿايا واۯا آڊيو ڊيٽا نين درست ڪري سي۔ تمارا صارف نُون نام اي ميل ڪاريڪ پڻ تماري ڊيٽا جم؛ ڪرايا هارو بيۯون نين ڪريون زائي۔ هانَ تمين انتخاب ڪري ڪو سو ڪي تمارا صارف نُون عوامي ٺاهيون جھون سي۔
+accept-privacy =
+    زيوون ڪي تمين موزيلا ني پاليسي نين <privacyLink></privacyLink>
+    مان وضاحت ڪرو سو مُون اِي معلومات نين همڀاۯايا مان ٺيڪ سُون۔
+accept-privacy-title = پرايويسي پاليسي
+accept-privacy-and-terms = مُون ڪامن وائيس ٿي راضي سُون، <termsLink> ٽرم </termsLink> هانَ <privacyLink> پرائيويسي۔</privacyLink>
+login-identity = شناخت لوگ ان ڪرو
+login = لوگ اِن
+edit = ايڊٽ
+email-subscriptions = ناني تصديق
+download-profile = مارون ڊيٽا ڊائون لوڊ ڪرو
+contribution-experience = مدد هارو تجربو
+skip-submission-feedback = جمع ڪرايا نا جائزا نين ميلو
+skip-submission-description = شراڪت جمع ڪريا نين دوران جم؛ ڪراوو اين جم؛ ڪروون اين نين ڪلڪ ڪرو، مدد ڪريا نوُن جاري راکو، آڳۯلا حصا هارو 5 رڪاردنگ يا نوو سيٽ نين تصديق ڪرو۔
