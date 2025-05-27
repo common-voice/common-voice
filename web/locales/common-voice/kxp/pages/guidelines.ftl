@@ -98,6 +98,13 @@ adding-sentences-subheader-punctuation = رموز اوقات لڇا نو عمل
 adding-sentences-subheader-punctuation-explanation = خصوصي نشان هانَ رموز اوقات تار استعملا ڪريان زائي سي زار ضرورت هوئي۔ مثال: زم انگريزي مان ڊونٽ، وي آر مان علامت حذف نون استعمال ٿائي سي۔ پڻ اي وات ممڪن نٿي ڪي تمان نين “@” or “#.” آووا نشان لکو۔
 adding-sentences-subheader-special-characters = خصوسي حروف هانَ غير ملڪي لفظ
 adding-sentences-subheader-special-characters-explanation-1 = زي ٻولي مان لفظ ٻولل سي اين نِي تصديق لازمي سي۔ مثال: “ж”  آ لفظ روشيئن الفابيٽ مان سي پڻ اِي انگريزي مان استعمال نين ٿائي هانَ انگريزي متن مان ظاهر نين ٿائي۔
+adding-sentences-subheader-special-characters-explanation-2 = هر ٻولي نا پوتان نان تصديق ڪريا نان اصول هوئي سي وڌاري ضرورت پرماڻي مقامي هوئي سي۔ زي تصديق نٿي ٿل اي ٻولي مان تو انگريزي مان واوڙشي ڪي هزي مدد هارو ڪام ڪرو۔
+adding-sentences-subheader-offensive-content = پسند نا هوئي
+adding-sentences-subheader-offensive-content-explanation = زي جملا نا پسند هوئي يا پريشان ڪريا واۯا سي۔ مثال: واضع مواد ني وجه ٿي يان برادري نو اڳواڻي ڪريا نين خلاف سي تو اي سزا نين لائق سي۔ <communityGuidelines> تو تمين جملا رد ڪرو پرا۔ </communityGuidelines> تمين آ ويب سائٽ مان مدد هارو <emailFragment> ربطو ڪرو يان ڪوئي ٻيزو مسئلو سي۔ commonvoice@mozilla.com
+reviewing-sentences-explanation-1 = زي جملو پُورا معيار پرماڻي سي تو هووي نُون ٻٽڻ ڪلڪ ڪرو۔
+reviewing-sentences-explanation-2 = زي جملو ماٿي آلل معيار پرماڻي نٿي تو نو نُون ٻٽڻ ڪلڪ ڪرو۔
+reviewing-sentences-explanation-3 = زي تمان نين ڀروسو نٿي جملا ماٿي، تو ميلي آلو هانَ وري ٻيزا جملا نين زوئو۔
+reviewing-sentences-explanation-4 = زي تمارا جائزا هارُو جُملا ختم ٿئي جھا سي، تو وڌاري جُملا هارو امارِي مدد ڪرو۔
 
 ## Question collection ids
 
