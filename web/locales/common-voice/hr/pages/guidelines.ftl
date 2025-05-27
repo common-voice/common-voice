@@ -47,6 +47,9 @@ background-noise-example-4 = [Pucketanje] divovski dinosaurus iz [pucketanje] -r
 background-noise-tip-1 = [prekinuto zbog pozadinske buke]
 background-noise-tip-2 = [Dio teksta se ne čuje]
 background-voices-example-1 = Jedan divovski dinosaurus iz trijasa. [čitano jednim glasom]
+background-voices-tip-1 = Dolaziš? [izgovoreno drugim glasom]
+volume-explanation = Postoje prirodne razlike u glasnoći govora čitatelja. Odbij samo ako je glasnoća toliko visoka da se snimka prekida ili (češće) ako je toliko tiha da ne možeš čuti što se govori bez upućivanja na pisani tekst.
+reader-effects-explanation = Većina snimaka su snimke ljudi koji govore svojim prirodnim glasom. Možeš prihvatiti povremeno nestandardno snimanje u kojem koje se viče, šapuće ili očito govori „dramatičnim” glasom. Odbij snimke pjevanja i one koje koriste računalom generirani glas.
 just-unsure-explanation = Ako naiđeš na nešto što ove smjernice ne pokrivaju, glasaj prema vlastitoj procjeni. Ako se stvarno ne možeš odlučiti, koristi gumb za preskakanje i prijeđi na sljedeću snimku.
 still-have-questions = Još uvijek imaš pitanja?
 contact-common-voice = Obrati se Common Voice timu
@@ -62,6 +65,7 @@ sentence-domain = Domena rečenica
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = Vrlo je važno da su sve tekstualne rečenice u <publicDomain>javnom vlasništvu</publicDomain> (<cc0>cc0</cc0>) jer je Common Voice skup podataka objavljen pod licencom cc0. Učitaj rečenicu samo ako si siguran/na i uvijek uključi relevantan citat.
+public-domain-explanation-2 = Najbolje rečenice za izgradnju korisnog sustava za prepoznavanje govora su one u svakodnevnom, modernom govoru. Neki prijedlozi koji ti mogu pomoći pri generiranju rečenica su:
 citing-sentences-subheader-websites = Web stranice
 citing-sentences-subheader-websites-explanation = Možeš uključiti web stranicu, npr. „Common Voice – https://commonvoice.mozilla.org/”
 citing-sentences-subheader-academic-reference = Akademska referenca
