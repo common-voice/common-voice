@@ -66,6 +66,8 @@ sentence-domain = Domena rečenica
 
 public-domain-explanation-1 = Vrlo je važno da su sve tekstualne rečenice u <publicDomain>javnom vlasništvu</publicDomain> (<cc0>cc0</cc0>) jer je Common Voice skup podataka objavljen pod licencom cc0. Učitaj rečenicu samo ako si siguran/na i uvijek uključi relevantan citat.
 public-domain-explanation-2 = Najbolje rečenice za izgradnju korisnog sustava za prepoznavanje govora su one u svakodnevnom, modernom govoru. Neki prijedlozi koji ti mogu pomoći pri generiranju rečenica su:
+public-domain-explanation-3 = Stvaraj moderne, svakodnevne rečenice sam/a, s prijateljima ili s jezičnom zajednicom – na primjer putem „pisateljskog maratona”
+public-domain-explanation-4 = Kontaktiraj autore, dramatičare ili scenariste i pitaj ih, je li bi bili voljni darovati jedan mali dio svojih djela javnoj domeni
 citing-sentences-subheader-websites = Web stranice
 citing-sentences-subheader-websites-explanation = Možeš uključiti web stranicu, npr. „Common Voice – https://commonvoice.mozilla.org/”
 citing-sentences-subheader-academic-reference = Akademska referenca
