@@ -3,6 +3,7 @@ guidelines-header = Smjernice za doprinošenje
 guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i audio isječke u Common Voice skup podataka
 voice-collection = Zbirka glasova
 sentence-collection = Zbirka rečenica
+question-collection = Zbirka pitanja
 
 ## Voice Collection nav ids
 
@@ -20,6 +21,7 @@ example = Primjer
 
 varying-pronunciations-explanation-1 = Različiti naglasci su dobrodošli! Oprez pri odbijanju isječaka za koje misliš da je čitatelj krivo izgovorio riječ, da je stavio naglasak na krivo mjesto ili da je zanemario interpunkciju. Postoji mnogo izgovora koji se koriste diljem svijeta koje možda ne poznaš. Uzmi u obzir da mnogi ljudi govore drugačije od tebe.
 varying-pronunciations-explanation-2 = S druge strane, ako misliš da čitatelj ne pozna tu riječ i da netočno nagađa izgovor, odbij isječak. Ako nisi siguran/na koristi gumb „Preskoči”.
+varying-pronunciations-example = Ruta je bila nejasna.
 misreadings-explanation-2 = Vrlo uobičajene pogreške uključuju:
 misreadings-explanation-3 = Na početku snimke nedostaje neodređeni ili određeni član imenice.
 misreadings-explanation-4 = Nedostaje nastavak za genitiv na kraju riječi.
