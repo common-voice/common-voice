@@ -14,5 +14,7 @@ validate-page-skip-button-shortcut = P
 ## Validation guidelines
 
 validation-guidelines-title = Směrnice
+validation-guideline-1 = Jo zakazane, wósobinske informacije pominaś (na pś. mjenja, financielne drobnostki)
+validation-guideline-2 = Žedne kśiwźece wugronjenja połne  pśedsudkow abo sensibelne pšašanja
 validation-guideline-3 = Jadnore a lažke za kuždego rozměś
 validation-guideline-4 = Dajo se na to w mało sadach wótegroniś
