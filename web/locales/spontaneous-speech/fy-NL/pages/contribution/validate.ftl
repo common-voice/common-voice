@@ -5,6 +5,8 @@ dataset-label = Gegevensset
 accept-vote-toast-message = Fraach mei sukses akseptearre
 reject-vote-toast-message = Fraach mei sukses ôfwiisd
 add-vote-error-message = Der is in flater bard by it stimmen oer de fraach
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = Der binne op dit stuit gjin fragen mear foar dizze taal. As jo ien oerslein hawwe, kinne jo trochgean mei oersleine ynhâld of of audiotranskripsje útfiere en it letter opnij probearje.
 validate-page-yes-button-shortcut = J
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = O
