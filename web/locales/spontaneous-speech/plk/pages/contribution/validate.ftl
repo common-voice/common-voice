@@ -5,6 +5,8 @@ dataset-label = ڈیٹاسیٹ
 accept-vote-toast-message = کامیابی گیْ قبول بِلہ سوالات
 reject-vote-toast-message = کامیابی گیْ مسترد بِلہ سوالات
 add-vote-error-message = پرامٹر ووٹ دونے وخ دہ خرابی پیخ بِلیْ
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = آ جِبے کِرِیا مُتہ سوالات نِش۔ اگر څھا جوْ پھتیتَن، توْ پھتیلوْ مواد سے ساتیْ جاری پھتبانَت یا آڈیو ٹرانسکرائب جیْ گیے پتو ست دُبار کوشش تھوبانَت۔
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S

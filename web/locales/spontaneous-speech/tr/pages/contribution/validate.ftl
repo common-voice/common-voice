@@ -12,4 +12,5 @@ validate-page-skip-button-shortcut = A
 ## Validation guidelines
 
 validation-guidelines-title = Yönergeler
+validation-guideline-3 = Basit ve herkesin anlayacağı şekilde
 validation-guideline-4 = Birkaç cümleyle cevaplanabilir

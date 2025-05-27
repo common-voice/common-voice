@@ -80,7 +80,7 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 
 answer-questions = Soru yanıtla
 review-transcriptions = Çeviri metinleri incele
-add-questions = Soru ekle <small>(Çok yakında)</small>
+add-questions = Soru ekle
 review-questions = Soruları incele
 transcribe-audio = Ses kayıtlarını metne çevir
 press-and-stories = Basın ve Haberler
