@@ -124,6 +124,7 @@ spontaneous-card-content = ئالدىن تەييارلانغان سوئاللا�
 language-text-card-header = تىل تېكىستى
 language-text-card-content = تەرجىمە، كىچىك تىل مودېلى قاتارلىق تۈرلەرگە ئاممىۋى دائىرىدىكى سۆز بېشى، جۈملە ۋە تېكىست قۇرۇپ ياكى ھەمبەھىرلەيدۇ.
 add-text = تېكىست قوش
+answer = جاۋاب
 
 ## Community section
 
