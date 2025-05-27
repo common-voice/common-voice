@@ -5,6 +5,8 @@ dataset-label = Gegevensset
 accept-vote-toast-message = Vraag met succes geaccepteerd
 reject-vote-toast-message = Vraag met succes afgewezen
 add-vote-error-message = Er is een fout opgetreden bij het stemmen over de vraag
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = Er zijn geen vragen meer voor deze taal. Als u iets hebt overgeslagen, kunt u doorgaan met de overgeslagen inhoud of audiotranscriptie uitvoeren en het later proberen.
 validate-page-yes-button-shortcut = J
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = O
