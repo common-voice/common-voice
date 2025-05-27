@@ -96,6 +96,7 @@ adding-sentences-subheader-abbreviations = مختصر خلاصه نا نام
 adding-sentences-subheader-abbreviations-explanation = خلاصه نان حصان نين شرُوع واۯا اکر نين “USA” يان “ICE کيال ڪروون زويئي چم ايئان ٿي هجي يا سئي ڀڻيا مان نين آوي۔ وڌيڪ خلاصه نان حصا مان درسٽ ڀڻي ڪان سان۔
 adding-sentences-subheader-punctuation = رموز اوقات لڇا نو عمل
 adding-sentences-subheader-punctuation-explanation = خصوصي نشان هانَ رموز اوقات تار استعملا ڪريان زائي سي زار ضرورت هوئي۔ مثال: زم انگريزي مان ڊونٽ، وي آر مان علامت حذف نون استعمال ٿائي سي۔ پڻ اي وات ممڪن نٿي ڪي تمان نين “@” or “#.” آووا نشان لکو۔
+adding-sentences-subheader-special-characters = خصوسي حروف هانَ غير ملڪي لفظ
 
 ## Question collection ids
 
