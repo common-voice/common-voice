@@ -134,3 +134,7 @@ process-steps-explanation = ايوا سوال زين نا چيٽلائي نمو�
 offensive-content-sensitive-information = نا پسند مواد يان حساس معلومات
 offensive-content-sensitive-information-explanation-explanation-1 = سوالان نو ذاتي طور قابل شناخت حاصل ڪري ڪو سو۔
 offensive-content-sensitive-information-explanation-explanation-2 = تقريري ايوا سوال زي خراب يان بيڪار قسم نا پڻ ٿئي ڪي سي۔
+offensive-content-sensitive-information-explanation-explanation-3 = ايوا سوال زي ڪوئي نين حساس، ممڪن طور متحرڪ جواب نا ناداني ڪريا نا سبب ٿئي ڪي سي۔
+example-questions-subheader = مثالي سوال
+example-questions-explanation-1 = تمين آنڻي شيٽ مان مثال ڳوتي ڪو سو <examplePromptsLink></examplePromptsLink>
+example-questions-explanation-2 = زي تمين جمع ڪريا هارو ايڪ قست جمع ڪراوو سو۔ تو تمين گٽ هب لنڪ نين زوئو۔ </githubLink>commonvoice@mozilla.com</emailFragment>
