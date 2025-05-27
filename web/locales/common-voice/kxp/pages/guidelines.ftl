@@ -77,6 +77,18 @@ citing-sentences-subheader-websites-explanation = تمين ڪامن وائيس �
 citing-sentences-subheader-academic-reference = تعليمي حوالا
 citing-sentences-subheader-academic-reference-explanation = تمين تعليمي حوالاجات نو استعمال ڪري ڪو سو۔ زم هارڊ ورڊ نمونو ڪامن وائيس آنئين موجود سي https://commonvoice.mozilla.org/ 15th September 2021)" دستياب سي۔
 citing-sentences-subheader-offline-sources = آف لائن وسيلا
+citing-sentences-subheader-offline-sources-explanation = آن لائن مان عوامي ڊومن حوالا موجود سي۔ تمين تعليمي حوالاجات استعمال ڪري ڪو سو۔ زم هارڊ ورد نمونو جيس 2021 مارون عوامي لائيسنس بيت۔
+citation =
+    .label = حوالو آلوو
+self-citation = ذاتي حوالو
+self-citation-explanation = زي تمين پوتي مواد لڇون سي تو تمين چچم حوالو آلشو؟
+adding-sentences-subheader-length = ڊيگھ
+adding-sentences-subheader-length-explanation = جُملا مان 15 لفظ ٿي گھٽ هووا زويئي۔
+adding-sentences-subheader-spelling-punctuation = گرامر هانَ زير زبر پيش
+adding-sentences-subheader-spelling-punctuation-explanation = جُملان نُون تلفظ درست هوئي۔
+adding-sentences-subheader-speakable = ٻوليا نين قابل هوئي
+adding-sentences-subheader-speakable-explanation = هڌرا جملا ٻويلا مان فطري هوئي سي۔  ايئان نين ڀڻيا مان آساني ٿائي۔ جملا مان سوتيات مختلف تنوع اهم ڪردار سي۔  اماري اي ڪوشش سي ڪي جملا رضاڪار طور ممڪن هانَ برادري هارو دلچسپ هوئي۔
+adding-sentences-subheader-numbers = نمبر
 
 ## Question collection ids
 
