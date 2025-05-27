@@ -82,7 +82,7 @@ press-and-stories = Матбуот ва ҳикояҳо
 community-and-languages = Ҷомеа ва забонҳо
 coming-soon = Ба наздикӣ дастрас мешавад
 about-us = Дар бораи мо
-scripted-speech = СУХАНРОНИИ АЗ РӮИ СЕНАРИЯ ОМОДАШУДА
+scripted-speech = НУТҚИ НАМОИШНОМА
 
 ## MENU ITEMS TOOLTIPS
 
