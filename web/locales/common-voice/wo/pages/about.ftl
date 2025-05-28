@@ -70,6 +70,12 @@ about-playbook-what-is-language-content-3 = Yenn làkk yi dañu am wuute yu bari
 ## How do I add a language
 
 about-playbook-how-add-language = naka lay def ba yokk benn làkk?
+about-playbook-how-add-language-content-1 =
+    Li njëkk, xoolal ndax sa làkk <languageLink>am na ba noppi</languageLink>.
+    Sudee amul, mën nga <languageRequestLink>laaj ngir yokk sa làkk</languageRequestLink>.
+    Amna ñaari biir. Tekki xët wi, ak dajale ay waat
+about-playbook-how-add-language-translating-heading = Tekki xët wi
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Seetanal sunuy tegtal ci ni ñuy jëfandikoo Pontoon.</translateVideoLink>
 
 ## How does localization work
 
