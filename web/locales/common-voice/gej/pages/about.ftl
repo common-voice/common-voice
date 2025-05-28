@@ -36,6 +36,8 @@ about-no-votes-text = ne àmèɖe mu dà asi ɖo gbèlélé ɖe ji o a, éla va 
 about-dataset-new = Common Voice be nyàlelewo.
 about-dataset-new-text = Commun Voice ɖo ègbè àkpe kàtakpo kè la kpe ɖo mɔ̀ɖàŋunuɖàtotɔwo né wo a teŋu  ɖè gbèmɔ̀ɖàŋùnuwo to.
 about-clip-graveyard = gbèlelekpaɖewojàfi / àji kè mè wó dà gbèlelekpaɖewo ɖo.
+about-clip-graveyard-text = Lè àjàfi kè mè wò dànà nyàlelekpaɖewo ɖe mè a,  wo la teŋu  kpɔ nyàlele kèwo  ji wó mú dà àsi ɖo lè Common Voice ji o. wo la teŋu kpɔ́ àjàfi kè a  ne wo la telesaze nuwo.
+about-get-involved = dó àsi  nu  mè.
 
 ## Community Playbook Content
 ## What is a language

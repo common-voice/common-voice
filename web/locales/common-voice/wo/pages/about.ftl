@@ -111,6 +111,8 @@ about-playbook-how-validate-content-4 = Su 2 nit bañee benn kàddu, dañu koy g
 ## How to access dataset
 
 about-playbook-how-access-dataset = Naka lanuy def ba mëna jëfandikoo jumtukaay yi?
+about-playbook-how-access-dataset-content-1 = Mën nga dem ci <datasetsPage>xëtu jumtukaay yi</datasetsPage>, tànnal wersiyoŋ bi ak làkk(yi) bi nga bëgg, nga yebbi ko! Fichier yi dañu am <metadataLink>métadone</metadataLink>, lu ci melni leerali demografik ak done yuy saytu. Danga wara joxe adres email ngir yebbi jumtukaay yi.
+about-playbook-how-access-dataset-content-2 = Sooy seet jumtukaay ngir tabax xeetu ASR, mën nga lëkkaloo ak yeneen nit ci mboolomi mi <discourseLink>ci Discourse</discourseLink>.
 
 ## How are decisions made
 
