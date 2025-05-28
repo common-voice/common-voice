@@ -121,6 +121,7 @@ about-playbook-how-project-governance-content-3 = Sàrt, kaaraange ak koolute.
 about-playbook-how-project-governance-content-4 = And jàppalante ak jël sunuy dogal.
 about-playbook-how-project-governance-content-5 = Waleur ak gëdd.
 about-playbook-how-project-governance-content-6 = Liggéey ci seen biir.
+about-playbook-how-project-governance-content-7 = <governanceLink>Leeral ci ni ñuy doxalee</governanceLink>
 
 ## How is Common Voice funded
 
