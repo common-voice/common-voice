@@ -276,9 +276,9 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 For Docker, in `.env-local-docker`:
 
 ```Dotenv
-CV_AUTH0_DOMAIN="<domain_here>"
-CV_AUTH0_CLIENT_ID="<client_id_here>"
-CV_AUTH0_CLIENT_SECRET="<client_secret_here>"
+CV_FXA_DOMAIN="<domain_here>"
+CV_FXA_CLIENT_ID="<client_id_here>"
+CV_FXA_CLIENT_SECRET="<client_secret_here>"
 ```
 
 6. You can add more login options to your app from the "Connections" tab
@@ -343,27 +343,3 @@ Did you notice a bug? Do you have a feature request? Please file an issue [here 
 ## Something Else?
 
 Want to talk about something but can't find a home for it here? Head to our [Discourse Category](https://discourse.mozilla-community.org/c/voice) to discuss everything from feedback and ideas to questions and random musings.
-- [Setting up a local development environment](#setting-up-a-local-development-environment)
-  - [Contents](#contents)
-  - [Who this guide is for](#who-this-guide-is-for)
-  - [Prerequistes](#prerequistes)
-  - [Summary to get up and running](#summary-to-get-up-and-running)
-  - [Forking and cloning the `common-voice` repository](#forking-and-cloning-the-common-voice-repository)
-  - [Project organization](#project-organization)
-  - [Orchestrating the environment with `docker` and `docker-compose`](#orchestrating-the-environment-with-docker-and-docker-compose)
-    - [`.env-local-docker` file](#env-local-docker-file)
-    - [Running the application through `docker`](#running-the-application-through-docker)
-      - [Flushing the `redis` cache](#flushing-the-redis-cache)
-    - [Minimal setup](#minimal-setup)
-  - [Troubleshooting](#troubleshooting)
-    - [Apple M1 Silicon](#apple-m1-silicon)
-    - [Couldn't connect to Docker daemon](#couldnt-connect-to-docker-daemon)
-    - [Running `docker-compose up` results in incorrect file system permissions on `/code/node_modules` directory](#running-docker-compose-up-results-in-incorrect-file-system-permissions-on-codenode_modules-directory)
-  - [Linting Typescript code contributions](#linting-typescript-code-contributions)
-  - [Authentication](#authentication)
-  - [Database migrations](#database-migrations)
-  - [Localization](#localization)
-  - [Updating languages](#updating-languages)
-  - [Testing using Jest](#testing-using-jest)
-  - [Submitting an Issue](#submitting-an-issue)
-  - [Something Else?](#something-else)
