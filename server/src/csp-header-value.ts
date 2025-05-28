@@ -58,7 +58,7 @@ const SOURCES = {
     'https://*.google-analytics.com',
     'https://pontoon.mozilla.org',
     'https://falak.ksaa.gov.sa',
-    'https://falak.ksaa.gov.sa',
+    'https://falakbeta.ksaa.gov.sa',
     'https://*.sentry.io',
     'https://tagmanager.google.com',
     '*.googletagmanager.com',
@@ -73,6 +73,7 @@ const SOURCES = {
   'font-src': [
     "'self'",
     'https://falak.ksaa.gov.sa',
+    'https://falakbeta.ksaa.gov.sa',
     'https://fonts.gstatic.com',
     // '*.fundraiseup.com',
     // '*.stripe.com',
