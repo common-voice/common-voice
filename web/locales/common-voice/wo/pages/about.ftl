@@ -115,6 +115,8 @@ about-playbook-how-access-dataset = Naka lanuy def ba mëna jëfandikoo jumtukaa
 ## How are decisions made
 
 about-playbook-how-project-governance = Naka lañuy jëlee dogal yi ci projet bi?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice ñu ngi ko amal ci ndimalu kuréel yu bari ànd ak worom xam xam, gëstukat ci xarala yu yés yi, jàngat ak defarkati losisel yu bawoo fu nekk ci àdduna bi. Fondation Mozilla mooy doxal projet bi.
+about-playbook-how-project-governance-content-2 = Ninuy doxale ñoo ngi ko tënk ci ponk yi :
 
 ## How is Common Voice funded
 
