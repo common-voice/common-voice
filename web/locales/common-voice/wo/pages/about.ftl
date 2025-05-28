@@ -125,4 +125,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Leeral ci ni �
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Naka luñuy financé Common Voice?
 about-playbook-how-funded-content-3 = Su fekkee ne yow wala sa mbootaay bëgg nañoo jàppale ci sémb bi, man nga def ab <donateLink>donation</donateLink> wala nga jokkool ak sunu ekipu jàppante yi ci <emailFragment>commonvoice@mozilla.com</emailFragment>.
