@@ -12,6 +12,17 @@ how-does-it-work-text = ကျွန်ုပ်တို့သည် အသံ�
 about-language-req-subtitle = တစ်စုံတစ်ယောက်က ဘာသာစကားတစ်ခုကို ထပ်ထည့်ခိုင်းတယ်။
 about-localization-title = ဝတ်ဆိုက် localization
 about-localization-subtitle = ဝဘ်ဆိုဒ်စာသားကို ထိုဘာသာစကားသို့ ဘာသာပြန်ဆိုထားသည်။
+about-sentence-collection-title = ဝါကျ အစု
+about-sentence-collection-subtitle = စာကြောင်းများကို လူများ ရွတ်ဖတ်ရန် စုစည်းထားသည်။
+about-new-lang-title = ဘာသာစကားအသစ် စတင်ခြင်း။
+about-new-lang-subtitle = ကျွန်ုပ်တို့သည် ဤဘာသာစကားဖြင့် Common Voice ဝဘ်ဆိုက်ကို စတင်လိုက်ပါသည်။
+about-voice-contrib-title = အသံဖြင့်ကူညီမှု
+about-voice-contrib-subtitle = လူအများလာရောက် အသံလှူဒါန်းးပေးကြတယ်
+about-voice-validation-title = အသံအတည်ပြုခြင်း။
+about-voice-validation-subtitle = အခြားလူများက ထိုအသံဖိုင်များကို အတည်ပြုသည်။
+about-dataset-release-title = ဒေတာအစုံ ထုတ်ဝေခြင်း။
+about-dataset-release-subtitle = ကျွန်ုပ်တို့သည် ဒေတာအတွဲကို 3 လတစ်ကြိမ် ထုတ်ပြန်ပါသည်။
+about-subscribe-text = Common Voice နှင့် အဆက်အသွယ်မပြတ်လိုပါသလား။
 about-speak = ပြောပါ
 about-speak-text = ပါဝင်ကူညီသူများ သည် လှူဒါန်းထားသော ဝါကျ ဘဏ် မှ စာကြောင်းကို ဖတ်ပြကာ အသံကလစ် ကို ဖမ်းယူရမည်။
 about-listen-queue = အစဉ်လိုက်-နားထောင်ပါ
@@ -27,6 +38,10 @@ about-no-votes-text = အသုံးပြုသူ တစ်ဦးမှ �
 about-dataset-new = Common Voice ဒေတာအစု
 about-dataset-new-text = Common Voice Dataset တွင် ထောင်ပေါင်းများစွာသော အသံနမူနာများပါ၀င်ပြီး developer များက အသံဖန်တီးခြင်းဆိုင်ရာအကူအညီပေးသောကိရိယာများတည်ဆောက်ရန်ကူညီသည်။
 about-clip-graveyard = ကလစ် သင်္ချိုင်း
+about-clip-graveyard-text =
+    ကလစ်သင်္ချိုင်းတွင် ၎င်းကို Common Voice ဒေတာအတွဲတွင် ထည့်သွင်းမထားသော အသံကလစ်များ ပါဝင်သည်။ ဒေတာအတွဲကဲ့သို့ပင်၊ Clip Graveyard ကို ဒေါင်းလုဒ်လုပ်ရန် ရနိုင်ပါသည်။
+    
+    ပရောဂျက်အတွက် ၎င်းတို့၏အကူအညီအတွက် အောက်ဖော်ပြပါ လူများနှင့် အဖွဲ့အစည်းများကို ကျွန်ုပ်တို့ ကျေးဇူးတင်လိုပါသည်။
 about-get-involved = ပါဝင်ဆောက်ရွက်မည်
 about-nav-why-common-voice = ဘာကြောင့်လဲ ?
 about-nav-how-it-works = ဘယ်လိုလဲ?
