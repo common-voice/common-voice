@@ -226,6 +226,7 @@ privacy = Privatnost
 terms = Uvjeti
 cookies = Kolačići
 faq = Često postavljena pitanja
+documentation = Dokumentacija
 content-license-text = Sadržaj je dostupan pod licencom <licenseLink>Creative Commons</licenseLink>
 share-title = Pomogni nam pronaći donatore glasa.
 share-text = Pomogni učiti strojeve govoriti ljudskim jezikom, doniraj svoj glas na { $link }

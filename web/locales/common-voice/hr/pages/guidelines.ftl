@@ -112,6 +112,10 @@ adding-questions = Dodavanje pitanja
 
 what-makes-a-good-question-subheader = Što je važno za dobro pitanje?
 what-makes-a-good-question-explanation = Dobro pitanje za skupove podataka javnog sudjelovanja trebalo bi:
+easy-to-understand = Lako za razumjeti
+easy-to-understand-explanation = Odaberi jednostavna pitanja koja svatko može razumjeti, bez obzira na kulturu ili kontekst.
+spelling-and-pronunciation = Pravopis i interpunkcija
+spelling-and-pronunciation-explanation = Koristi ispravan pravopis i gramatiku.
 length = Duljina
 length-explanation = Na pitanje bi se trebalo moći odgovoriti u samo par rečenica.
 dont-add-subheader = Nemoj dodavati
