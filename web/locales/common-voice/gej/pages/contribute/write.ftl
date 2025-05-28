@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = ŋlɔ̀
-write-instruction = Sɔ́<icon></icon>nyà gblɔ̀gblɔ̀ kèyé àmèwó nyã́ nyɔɛ̀ɖéà kpéé.
+write-instruction = Sɔ́<icon></icon>nyà̀gblɔ̃̀gblɔ̃̀ kèyé àmèwó nyã́ nyɔɛ̀ɖéà kpéè.
 write-page-subtitle = Wóà sɔ̀ nyà gblɔ̀gblɔ̀wó kè mì ŋlɔ̀ lè fíyèà kpé jùgbàjà bè cc-0 nyàcã́cã́ pòpú kèjí wó dàsíɖóà
 sentence =
     .label = nyàgblɔ̀gblɔ̀
@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = nyàgbèwosɔsɔkpe ku nyàgbèwototomè, nyàbi
 add-sentences-menu-item-tooltip = sɔ nyàgbèwo kpéè lè àpo gbè mè.
 review-sentences-menu-item-tooltip = dà ŋùku ɖó nyàgbèwo mè lè àpo gbè mè.
 add-questions-menu-item-tooltip = sɔ́ nyàbiɔséwo kpé è lè àpo gbè mè.
+review-questions-menu-item-tooltip = nyàbiɔsewo kèwo  trɔ àsi lè  wo ŋuti a.
 transcribe-audio-menu-item-tooltip = nyàléléwoŋɔ̀ŋlɔ lè àpo gbè mè.
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = Fǐkèyé wó là cã́ núŋɔ̀ŋlɔ vo
 add-sentences-menu-item-aria-label = sɔ̀ nyàgbè yéyé kèwo yé haho a la hlɛ̃̀.
 review-sentences-menu-item-aria-label = dà ŋùku ɖo nyàgbè kèwo lè eye  kè haha sɔ dà ɖo àpo ŋùkumè a.
 add-questions-menu-item-aria-label = sɔ nyàbiɔse yéyé sɔ ɖo ŋùkúmè na haho ne ba hlɛ̃ yé be la ɖo woa ŋútí.
+review-questions-menu-item-aria-label = trɔ kpɔ eye a dà àsi ɖo nyàbiɔse yeyewo  kèwo ye  hasòso a wɔ̀.
 transcribe-audio-menu-item-aria-label = ŋlɔ̀ nyàlélé awo.
