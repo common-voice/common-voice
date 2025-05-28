@@ -28,7 +28,7 @@ how-to-cite-explanation = Né wò ŋútɔ àpo nyàtiwo yé a,  ŋlɔ̀ kpò 
 guidelines = mɔtatawo/ mɔfiɔfiɔwo/ sèwo
 contact-us = ɖe  wò ji la yɔ mí a ?
 add-sentence-success = nyàgbè kèwo  lé a/ nyàgbè kè wò xɔ̀ a.
-add-sentence-error = àgbàdàda lè nyàgbè a sɔsɔkpe
+add-sentence-error = àgbàdàda lè nyàgbè a sɔsɔkpe.
 required-field = ŋlɔ̀ nu lè  fi yè.
 single-sentence-submission = nyàgbèɖèkasɔsɔɖoɖa
 small-batch-sentence-submission = nyàgbèviwoɖoɖa
@@ -36,8 +36,8 @@ bulk-sentence-submission = nyàgbèsugbɔɖoɖoɖa
 single-sentence = nyàgbèɖèkasɔsɔɖoɖa
 small-batch-sentence = vi
 bulk-sentence = sugbɔ
-sentence-domain-combobox-label = àkpa kè mè  nyàgbè só a
-sentence-domain-select-placeholder = cã àkpa tɔ̃̀
+sentence-domain-combobox-label = go kè mè  nyàgbè só a.
+sentence-domain-select-placeholder = cã àkpa tɔ̃̀.
 # Sentence Domain dropdown option
 agriculture_food = àgblèdada ku àgblèmènukuwoŋutidɔwɔ̀wɔ / àgblèmènukuwositɔtrɔ
 # Sentence Domain dropdown option

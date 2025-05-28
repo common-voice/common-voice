@@ -8,6 +8,7 @@ partnerships-community-description = Zajednica je srce Common Voicea – osobe d
 partnerships-foundations-header = Zaklade
 partnerships-foundations-description = Surađujemo sa zakladama, civilnim društvom i partnerima zajednice kako bismo internet učinili zdravijim mjestom, s posebnim naglaskom na istočnu Afriku. Saznaj više o našem <programmaticWork>programatskom radu.</programmaticWork>
 partnerships-governments-header = Vlade
+partnerships-governments-description = S velikim entuzijazmom podržavamo uključivanje javnog sektora u tehnologiju, inovacije i jezična prava. Ako planiraš provesti veći projekt ili kampanju, <emailFragment>javi nam se.</emailFragment>
 partnerships-academia-header = Sveučilišta, akademičari i istraživači
 partnerships-academia-description = Otvorena inovacija je osnova onoga što radimo. <emailFragment>Kontaktiraj nas</emailFragment> za istraživačku suradnju, sakupljanje podataka ili intervjua.
 partnerships-small-business-header = Male tvrtke, uključujući nova poduzeća u području tehnologije i umjetne inteligencije
