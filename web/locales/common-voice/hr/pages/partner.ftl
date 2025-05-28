@@ -1,5 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerstva
+partnerships-header-text = Za ostvarenje projekta Common Voice potrebno je mnogo toga! Mi to ne radimo sami. Želiš li s nama surađivati? Bit će nam drago ako nam se javiš.
 partnerships-get-in-touch = Kontaktiraj nas
 partnerships-become-a-partner = Postani Common Voice partner
 partnerships-community-header = Zajednica, kreativci i civilno društvo
