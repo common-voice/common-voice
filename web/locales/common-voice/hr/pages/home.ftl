@@ -94,14 +94,19 @@ read-more-about = Pročitaj više na našoj stranici „Informacije”
 answer-questions = Odgovori na pitanja
 review-transcriptions = Pregledaj transkripcije
 add-questions = Dodaj pitanja
+review-questions = Pregledaj pitanja
 transcribe-audio = Transkribiraj audio snimke
 press-and-stories = Objave i priče
 community-and-languages = Zajednica i jezici
 coming-soon = Uskoro stiže
+about-us = O nama
+scripted-speech = PRIPREMLJEN GOVOR
+spontaneous-speech = SPONTANI GOVOR
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerstva, objave i priče, zajednica i jezici
+about-us-menu-item-tooltip = Saznaj više o misiji i timu Common Voicea
 partnerships-menu-item-tooltip = Postani partner
 press-and-stories-menu-item-tooltip = Posjeti naš blog ili piši o nama
 community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajednički glas

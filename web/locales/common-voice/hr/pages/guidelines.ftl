@@ -116,3 +116,4 @@ offensive-content-sensitive-information-explanation-explanation-2 = Pitanja koja
 offensive-content-sensitive-information-explanation-explanation-3 = Pitanja koja mogu potaknuti osobu da podijeli povjerljive, potencijalno traumatične informacije
 example-questions-subheader = Primjeri pitanja
 example-questions-explanation-1 = U ovoj tablici možeš pronaći <examplePromptsLink>120 primjera.</examplePromptsLink>
+example-questions-explanation-2 = Ako želiš poslati više pitanja odjednom, <githubLink>koristi naš GitHub</githubLink> ili pošalji tvoj popis e-poštom na <emailFragment>commonvoice@mozilla.com.</emailFragment>
