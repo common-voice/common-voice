@@ -10,6 +10,8 @@ how-does-it-work-text = ကျွန်ုပ်တို့သည် အသံ�
 ## How does it work section
 
 about-language-req-subtitle = တစ်စုံတစ်ယောက်က ဘာသာစကားတစ်ခုကို ထပ်ထည့်ခိုင်းတယ်။
+about-localization-title = ဝတ်ဆိုက် localization
+about-localization-subtitle = ဝဘ်ဆိုဒ်စာသားကို ထိုဘာသာစကားသို့ ဘာသာပြန်ဆိုထားသည်။
 about-speak = ပြောပါ
 about-speak-text = ပါဝင်ကူညီသူများ သည် လှူဒါန်းထားသော ဝါကျ ဘဏ် မှ စာကြောင်းကို ဖတ်ပြကာ အသံကလစ် ကို ဖမ်းယူရမည်။
 about-listen-queue = အစဉ်လိုက်-နားထောင်ပါ
