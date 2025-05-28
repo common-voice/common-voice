@@ -142,10 +142,8 @@ export function getConfig(): CommonVoiceConfig {
       return injectedConfig
     }
 
-    if (BASE_CONFIG) {
-      console.log('Loading config: reading BASE_CONFIG ...')
-      return BASE_CONFIG
-    }
+    console.log('Loading config: reading BASE_CONFIG ...')
+    return BASE_CONFIG
   } catch (err) {
     console.error(
       `ERROR: Could not load any available configuration (error message: ${err.message})`
