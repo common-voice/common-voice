@@ -70,9 +70,13 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink> kp�
 about-playbook-how-add-language-translating-content-2 = mi le zã mozilia be dɔwɔ̀nuɖe kè wo yɔ be <pontoonLink>Pontoon</pontoonLink> sɔ ɖè gbèwó gɔ̃̀mè. Pontoon jina  gbègbogboɖe sɔ́ ɖona  ŋùkumè na àmè,  vɔ a ne tɔwò mu le éji  o a, wò la <pontoonRequestLink> biɔ be woa sɔɛ  kpeè</pontoonRequestLink>. Ne wò ji be gbè a ne nɔ̀  Common Voice b́é ɖoɖo a mè a, wo ɖo la <githubRepoLink> ji le GithHub ji </githubRepoLink>.<localizationFragment>. ɖe wò le ji la  kù nu  mè so siti a be gɔ̃̀mèɖèɖe ŋuti a?  tɔ́ àsì </localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = nyàgbèxɔ̀xɔ̌
 about-playbook-how-add-language-collecting-sentences-content-1 = dà  ŋùku ɖo miabe nyàgbèxɔ̀xɔxomaɖoɖo.
+about-playbook-how-add-language-collecting-sentences-content-2 = wò la teŋu <sentenceCollectorLinkAdd> sɔ nyàgbè viɖewo sɔ kpe nu lè fi yè</sentenceCollectorLinkAdd> alo la sɔ <bulkImportDocsLink> nugbogboɖe sɔ va yì GitHub ji</bulkImportDocsLink>.  wò ɖo la ɖo  ŋùku be dùkɔ̃ a ɖo la nɔ zã nyàgbè awo alo ne va yì nyi be wo só àmèɖe gbɔ a, wò ɖo la biɔɛ gbè</licenseLink> alo wò la téŋu ŋlɔ̀ wò ŋutɔ tɔ̀wòwo fà a.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> wò  jro la  nya nu sugbɔ  so  nyàgbèwo ŋuti a</sentenceCollectorFragment>
 
 ## How does localization work
 
+about-playbook-how-localize = leke sitì a bé gɔ̃̀mèɖèɖe yì na ɖo o?
+about-playbook-how-localize-content-1 = wo ɖènà Common Voice bé siti a  lè <strong>Pontoon</strong> ji.
 
 ## How to add sentences
 
