@@ -102,9 +102,11 @@ reviewing-sentences-explanation-1 = Ako rečenica ispunjava gornje kriterije, kl
 reviewing-sentences-explanation-2 = Ako rečenica ne ispunjava gornje kriterije, klikni gumb „Ne”.
 reviewing-sentences-explanation-3 = Ako rečenicu ne razumiješ, možeš je preskočiti i prijeći na sljedeću.
 reviewing-sentences-explanation-4 = Ako ti ponestane rečenica za pregled, pomogni nam sakupiti još rečenica!
+domain-explanation = Domena se odnosi na temu rečenice. Trenutačno možeš birati između:
 
 ## Question collection ids
 
+adding-questions = Dodavanje pitanja
 
 ## Question collection sidebar content
 

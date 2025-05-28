@@ -43,6 +43,13 @@ about-clip-graveyard-text =
     
     ပရောဂျက်အတွက် ၎င်းတို့၏အကူအညီအတွက် အောက်ဖော်ပြပါ လူများနှင့် အဖွဲ့အစည်းများကို ကျွန်ုပ်တို့ ကျေးဇူးတင်လိုပါသည်။
 about-get-involved = ပါဝင်ဆောက်ရွက်မည်
+about-get-involved-text-2 =
+    Common Voice ကို ပိုကောင်းအောင် ကူညီချင်ပါသလား။
+    ဟုတ်ပြီ! အီးမေးလ် သို့မဟုတ် <discourseLink>Discourse</discourseLink> မှတဆင့် ဆက်သွယ်ပါ။
+    ဖိုရမ်များ၊ <githubLink>GitHub</githubLink> မှတဆင့် ဆိုက်ပြဿနာများကို တင်ပြပါ၊ သို့မဟုတ် ပါဝင်ပါ
+    <matrixLink>Matrix</matrixLink> ကွန်မျူနတီ စကားဝိုင်း။
+about-stay-in-touch = ဘယ်လိုဆက်သွယ်ရမလဲ။
+about-stay-in-touch-button = စတင်သုံးရန် စာရင်းသွင်းပါ
 about-nav-why-common-voice = ဘာကြောင့်လဲ ?
 about-nav-how-it-works = ဘယ်လိုလဲ?
 about-nav-partners = မိတ်ဖက်များ
