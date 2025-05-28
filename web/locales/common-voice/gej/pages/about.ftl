@@ -77,6 +77,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = leke sitì a bé gɔ̃̀mèɖèɖe yì na ɖo o?
 about-playbook-how-localize-content-1 = wo ɖènà Common Voice bé siti a  lè <strong>Pontoon</strong> ji.
+about-playbook-how-localize-content-2 = <pontoonAccountLink> ɖo  profili o<strong> ne wò mu kpɔ ɖo o a. cã apo gbè a <strong>( «Team»)</strong>eye cã ɖoɖo,  <pontoonCvLink> Common Voice  </pontoonCvLink>. wò la  kpɔ nu kèwo gɔ̃̀mè  wò la ɖè a. tɔ àsi ɖèka  ji ye wò la kpɔ nyàtiwo lè ŋlɛsìgbe mè ku nu kè wò zã sɔ ɖè wo gɔ̃mè a.
 
 ## How to add sentences
 
