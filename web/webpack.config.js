@@ -16,10 +16,21 @@ module.exports = (_env, argv) => {
   const IS_DEVELOPMENT = argv.mode === 'development';
 
   if (IS_DEVELOPMENT) {
-    const result = dotenv.config({ path: '../.env-local-docker' });
+if (process.env.DOTENV_CONFIG_PATH) {
+    const result = dotenv.config({ path: process.env.DOTENV_CONFIG_PATH })
+      if (result.error) {
+        console.log(result.error)
+        console.log(
+          'Failed loading dotenv from DOTENV_CONFIG_PATH file, using defaults',
+          process.env.DOTENV_CONFIG_PATH
+        )
+      }
+    } else {
+      const result = dotenv.config()
     if (result.error) {
-      console.log(result.error);
-      console.log('Failed loading dotenv file, using defaults');
+      console.log(result.error)
+      console.log('Failed loading .env file, using defaults')
+      }
     }
   }
 
