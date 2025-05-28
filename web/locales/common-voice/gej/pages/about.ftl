@@ -69,6 +69,7 @@ about-playbook-how-add-language-translating-heading = ɖè siti gɔ̃̀mè
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> kpɔ miabe xoma kè pònu po so lekè wo zãna pontoon ŋuti.
 about-playbook-how-add-language-translating-content-2 = mi le zã mozilia be dɔwɔ̀nuɖe kè wo yɔ be <pontoonLink>Pontoon</pontoonLink> sɔ ɖè gbèwó gɔ̃̀mè. Pontoon jina  gbègbogboɖe sɔ́ ɖona  ŋùkumè na àmè,  vɔ a ne tɔwò mu le éji  o a, wò la <pontoonRequestLink> biɔ be woa sɔɛ  kpeè</pontoonRequestLink>. Ne wò ji be gbè a ne nɔ̀  Common Voice b́é ɖoɖo a mè a, wo ɖo la <githubRepoLink> ji le GithHub ji </githubRepoLink>.<localizationFragment>. ɖe wò le ji la  kù nu  mè so siti a be gɔ̃̀mèɖèɖe ŋuti a?  tɔ́ àsì </localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = nyàgbèxɔ̀xɔ̌
+about-playbook-how-add-language-collecting-sentences-content-1 = dà  ŋùku ɖo miabe nyàgbèxɔ̀xɔxomaɖoɖo.
 
 ## How does localization work
 

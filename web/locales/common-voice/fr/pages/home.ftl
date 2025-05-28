@@ -77,7 +77,7 @@ read-more-about = Pour en savoir plus lisez notre page À propos
 
 ## NAV ITEMS
 
-answer-questions = Répondez aux questions <small>(prochainement)</small>
+answer-questions = Répondez aux questions
 review-transcriptions = Vérifiez les transcriptions <small>(prochainement)</small>
 add-questions = Ajoutez des questions <small>(prochainement)</small>
 transcribe-audio = Transcriptions audio <small>(prochainement)</small>

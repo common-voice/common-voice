@@ -16,3 +16,5 @@ validate-page-skip-button-shortcut = T
 validation-guidelines-title = Tegtal yi
 validation-guideline-1 = Amul benn laaj bu jëm ci say bopp (lu melni, tur, leerali xaalis)
 validation-guideline-2 = Amul wax juy tooñ nit, wax ju ñaaw wala laaj yu sensible.
+validation-guideline-3 = Yomb te jàppandi ngir ku nekk xam
+validation-guideline-4 = Mën nañu ko tontu ci ay waat yu néew
