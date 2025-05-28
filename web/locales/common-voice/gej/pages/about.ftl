@@ -29,8 +29,9 @@ about-listen = sè
 about-listen-text = né a kpɔ bé nyɔnu alo ŋusu gbèdotɔ a hlɛ nyàgbè awo àdodoemètɔ a.
 about-is-it-valid = ɖe wo dà àsi ɖo nyàlélékpɔwɔɛ kèyà ji a a
 about-is-it-valid-text = wo sɔna ɛ bé nyàlàlélé kpaɖe
-about-yes-votes = àsìdàdàɖonuji nyi vè alo to vè ŋuti.
+about-yes-votes = ɛ̃̀ɛ alo àsìdàdàɖonuji nyi vè alo wu vè.
 about-yes-votes-text = keŋugbɔ̀xue  nyàleleɖe la zɛ̃ lè Common Voice ji a,  àmè amè vè ɖo  la dà àsi  ɖo eji.
+about-no-votes = àwò alo àsimàdàmàda nyí vè alo wu vè.
 
 ## Community Playbook Content
 ## What is a language
