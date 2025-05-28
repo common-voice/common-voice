@@ -32,6 +32,7 @@ about-is-it-valid-text = wo sɔna ɛ bé nyàlàlélé kpaɖe
 about-yes-votes = ɛ̃̀ɛ alo àsìdàdàɖonuji nyi vè alo wu vè.
 about-yes-votes-text = keŋugbɔ̀xue  nyàleleɖe la zɛ̃ lè Common Voice ji a,  àmè amè vè ɖo  la dà àsi  ɖo eji.
 about-no-votes = àwò alo àsimàdàmàda nyí vè alo wu vè.
+about-no-votes-text = ne àmèɖe mu dà asi ɖo gbèlélé ɖe ji o a, éla va yì kpɔɛ lè fikè wó ɖo lè a. Ne wo mù gbà dà àsi ɖo eji ke ò a ela va yì ci siti a be àjafi mè.
 
 ## Community Playbook Content
 ## What is a language
