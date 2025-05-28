@@ -67,7 +67,8 @@ about-playbook-how-add-language = le wo la sɔ gbèɖe sɔ kpé Common Voice o
 about-playbook-how-add-language-content-1 = Cucugbɔã kù émè kpɔ ɖa bé apo gbè<languageLink> à lè a<languageLink> né mu nyi nèné o a<strong> wò ɖo la ɖè siti a gɔ̃̀mè ye wo la xɔ nyàgbèwo </strong>.
 about-playbook-how-add-language-translating-heading = ɖè siti gɔ̃̀mè
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> kpɔ miabe xoma kè pònu po so lekè wo zãna pontoon ŋuti.
-about-playbook-how-add-language-translating-content-2 = mi le zã mozilia be dɔwɔ̀nuɖe kè wo yɔ be <pontoonLink>Pontoon</pontoonLink> wò la sɔ ɖè wó gɔ̃̀mè. Pontoon jina  gbègbogboɖe sɔ ɖona  ŋùkumè na àmè,
+about-playbook-how-add-language-translating-content-2 = mi le zã mozilia be dɔwɔ̀nuɖe kè wo yɔ be <pontoonLink>Pontoon</pontoonLink> sɔ ɖè gbèwó gɔ̃̀mè. Pontoon jina  gbègbogboɖe sɔ́ ɖona  ŋùkumè na àmè,  vɔ a ne tɔwò mu le éji  o a, wò la <pontoonRequestLink> biɔ be woa sɔɛ  kpeè</pontoonRequestLink>. Ne wò ji be gbè a ne nɔ̀  Common Voice b́é ɖoɖo a mè a, wo ɖo la <githubRepoLink> ji le GithHub ji </githubRepoLink>.<localizationFragment>. ɖe wò le ji la  kù nu  mè so siti a be gɔ̃̀mèɖèɖe ŋuti a?  tɔ́ àsì </localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = nyàgbèxɔ̀xɔ̌
 
 ## How does localization work
 
