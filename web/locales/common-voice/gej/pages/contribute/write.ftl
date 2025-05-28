@@ -2,11 +2,11 @@
 
 write = ŋlɔ̀
 write-instruction = Sɔ́<icon></icon>nyà̀gblɔ̃̀gblɔ̃̀ kèyé àmèwó nyã́ nyɔɛ̀ɖéà kpéè.
-write-page-subtitle = Wóà sɔ̀ nyà gblɔ̀gblɔ̀wó kè mì ŋlɔ̀ lè fíyèà kpé jùgbàjà bè cc-0 nyàcã́cã́ pòpú kèjí wó dàsíɖóà
+write-page-subtitle = Wó là sɔ̀ nyà gblɔ̀gblɔ̀wó kè mì ŋlɔ̀ lè fíyè à kpé jùgbàjà bè cc-0 nyàcã́cã́pòpú kè jí wó dà àsí ɖó à.
 sentence =
-    .label = nyàgblɔ̀gblɔ̀
-sentence-input-placeholder = Nlɔ̀ nyà gblɔ̀gblɔ̀ kè wó nyã́ sɔ̀ wú lè dɔ̀ kè wó wɔ̀nà bè akpájí.
-small-batch-sentence-input-placeholder = Nlɔ̀ nyà gblɔ̀gblɔ̀wó kè wó nyã́ sɔ̀ wú lè dɔ̀ kè wó wɔ̀nà bè akpájí
+    .label = nyàgblɔ̀gblɔ̀/ nyàgbè
+sentence-input-placeholder = Nlɔ̀ nyà gblɔ̀gblɔ̀ alo nyàgbè  kè dù gbàjà a nyà ɖo fiyè.
+small-batch-sentence-input-placeholder = Nlɔ̀ nyà gblɔ̀gblɔ̀ alo nyàgbè  kèwo dù gbàjà a nyà ɖo fiyè.
 citation-input-placeholder = Nà mìà nyã̀ fíkè wó sɔ̀ nyà gblɔ̀gblɔ̀wóà sòà(èhíã̀)
 citation =
     .label = Amènùmènyǎ
