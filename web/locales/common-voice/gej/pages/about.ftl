@@ -38,6 +38,12 @@ about-dataset-new-text = Commun Voice ɖo ègbè àkpe kàtakpo kè la kpe ɖo m
 about-clip-graveyard = gbèlelekpaɖewojàfi / àji kè mè wó dà gbèlelekpaɖewo ɖo.
 about-clip-graveyard-text = Lè àjàfi kè mè wò dànà nyàlelekpaɖewo ɖe mè a,  wo la teŋu  kpɔ nyàlele kèwo  ji wó mú dà àsi ɖo lè Common Voice ji o. wo la teŋu kpɔ́ àjàfi kè a  ne wo la telesaze nuwo.
 about-get-involved = dó àsi  nu  mè.
+about-get-involved-text-2 =
+    ɖe wo le ji la do àsi Common Voice ne be la gbà nyɔ a ? 
+    enyɔ ŋutɔ  ! ŋlɔ̀ nu na mi to miabe imɛli ji alo to miabe folɔmù<discourseLink>discourse</discourseLink>,
+    ɖo tagbãwo ɖo ɖa lè GitHub</githubLink>alo mi do go ku mí lè hahosɛ̂ŋukâkâ a  kà mè kè nyi<matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = léke wo la do kà ɔ̀?
+about-stay-in-touch-button = ŋlɔ̀ ŋyikɔ
 
 ## Community Playbook Content
 ## What is a language

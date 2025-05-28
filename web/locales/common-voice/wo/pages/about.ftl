@@ -94,9 +94,11 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = naka la lokalisasioŋ xët wi di doxee?
 about-playbook-how-localize-content-1 = Tekki xëtu Common Voice bi ñoo ngi koy defe ci <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Sosal kontu</pontoonAccountLink>sudee amoo kontu. Ginaaw loolu nga tànn sa làkk<strong> (‘Kureel’)</strong> ba noppi nga tànn projet bi, <pontoonCvLink>Common Voice</pontoonCvLink>. Dina am ay dosie yuñ wara tekki. Bësal ci benn, dinga giss ay waat ci Àngle ak barab bu ñu koy tekké.
+about-playbook-how-localize-content-5 = Seetanal sunu wideo leeral ngir jàppale
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Naka lay def ba yokk waat yi?
 
 ## How to record quality
 
