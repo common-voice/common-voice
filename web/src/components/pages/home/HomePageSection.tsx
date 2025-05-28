@@ -73,13 +73,7 @@ export default function HomePageSection(props: any) {
               <InfoDarkIcon />
             </button>
             {showInfoContributeModal && (
-              <Modal
-                buttons={{
-                  ابدأ: () => {
-                    history.push(URLS.SPEAK)
-                  },
-                }}
-                onRequestClose={() => setShowInfoContributeModal(false)}>
+              <Modal onRequestClose={() => setShowInfoContributeModal(false)}>
                 <div className="text-right">
                   <p className="text-center font-bold">
                     ستظهر لك مجموعة من الجمل والأسئلة
@@ -109,6 +103,16 @@ export default function HomePageSection(props: any) {
                     </li>
                   </ul>
                 </div>
+                <LocaleLink
+                  to={
+                    currentDataSource !== ''
+                      ? '/s/' + currentDataSource + URLS.SPEAK
+                      : URLS.SPEAK
+                  }
+                  type="button"
+                  className="button rounded-lg w-4 bg-white !text-black mx-auto hover:border-[#219F8A]">
+                  <span>أبدأ</span>{' '}
+                </LocaleLink>
               </Modal>
             )}
           </div>
@@ -174,13 +178,7 @@ export default function HomePageSection(props: any) {
               <InfoIcon />
             </button>
             {showInfoRatingModal && (
-              <Modal
-                buttons={{
-                  أبدأ: () => {
-                    history.push(URLS.LISTEN)
-                  },
-                }}
-                onRequestClose={() => setShowInfoRatingModal(false)}>
+              <Modal onRequestClose={() => setShowInfoRatingModal(false)}>
                 <div className="text-right">
                   <p className="text-center font-bold text-[20px]">
                     ستظهر لك مشاركات الآخرين لتقيّمها
@@ -219,6 +217,16 @@ export default function HomePageSection(props: any) {
                     </li>
                   </ul>
                 </div>
+                <LocaleLink
+                  to={
+                    currentDataSource !== ''
+                      ? '/s/' + currentDataSource + URLS.LISTEN
+                      : URLS.LISTEN
+                  }
+                  type="button"
+                  className="button rounded-lg w-4 bg-white !text-black mx-auto hover:border-[#219F8A]">
+                  <span>أبدأ</span>{' '}
+                </LocaleLink>
               </Modal>
             )}
           </div>
