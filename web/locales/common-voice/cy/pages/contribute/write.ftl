@@ -11,7 +11,7 @@ citation-input-placeholder = Cyfeiriwch at ffynhonnell eich brawddeg (gofynnol)
 citation =
     .label = Cyfeirio
 sc-write-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
-sc-review-write-title = Pa frawddegau y gallaf eu hychwanegu?
+sc-review-write-title = Pa frawddegau gallai eu hychwanegu?
 sc-review-small-batch-title = Sut i ychwanegu brawddegau lluosog
 new-sentence-rule-1 = <noCopyright>Dim cyfyngiadau hawlfraint</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Llai na 15 gair
@@ -82,7 +82,7 @@ accepted-files = Mathau o ffeiliau derbyniol: .tsv yn unig
 minimum-sentences = Isafswm brawddegau yn y ffeil: 1000
 maximum-file-size = Maint mwyaf ffeil: 25 MB
 what-needs-to-be-in-file = Beth sydd angen bod yn fy ffeil?
-what-needs-to-be-in-file-explanation = Gwiriwch ein <templateFileLink>ffeil templed</templateFileLink>. Dylai eich brawddegau fod yn rhydd o hawlfraint (CC0 neu waith gwreiddiol â chaniatâd y cyflwynydd) a dylen nhw fod yn glir, yn ramadegol gywir ac yn hawdd eu darllen. Dylai brawddegau sy'n cael ei chyflwyno cymryd tua 10-15 eiliad i'w darllen a dylent osgoi cynnwys rhifau, enwau priod a nodau arbennig.
+what-needs-to-be-in-file-explanation = Gwiriwch ein <templateFileLink>ffeil templed</templateFileLink>. Dylai eich brawddegau fod yn rhydd o hawlfraint (CC0 neu waith gwreiddiol â chaniatâd y cyflwynydd) a dylen nhw fod yn glir, yn ramadegol gywir ac yn hawdd eu darllen. Dylai brawddegau sy'n cael ei chyflwyno cymryd tua 10-15 eiliad i'w darllen a dylen nhw osgoi cynnwys rhifau, enwau priod a nodau arbennig.
 upload-progress-text = Wrthi'n llwytho i fyny...
 sc-bulk-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
 bulk-upload-success-toast = Brawddegau Lluosog wedi'u Llwytho i Fyny
@@ -99,8 +99,8 @@ too-many-files = Gormod o ffeiliau
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Ychwanegu brawddegau parth cyhoeddus lluosog
-multiple-sentences-error = Nid oes modd ychwanegu brawddegau lluosog ar gyfer cyflwyniad sengl
-exceeds-small-batch-limit-error = Nid oes modd cyflwyno mwy na 1000 o frawddegau
+multiple-sentences-error = Does dim modd ychwanegu brawddegau lluosog ar gyfer cyflwyniad sengl
+exceeds-small-batch-limit-error = Does dim modd cyflwyno mwy na 1000 o frawddegau
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
@@ -124,7 +124,7 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munudau cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [one] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [two] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } funud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [few] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
@@ -134,7 +134,7 @@ rate-limit-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliadau cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [one] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [two] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
         [few] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
@@ -144,24 +144,24 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [zero] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [one] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [two] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [few] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
+        [zero] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+        [one] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+        [two] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+        [few] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+        [many] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
+       *[other] { $uploadedSentences } o { $totalSentences } brawddeg gasglwyd
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [zero] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [one] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawdd a wrthodwyd.
-        [two] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [few] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
+        [zero] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
+        [one] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddeg wrthodwyd.
+        [two] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
+        [few] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
+        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
+       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau wrthodwyd.
     }
-small-batch-sentences-rule-1 = Dilynwch y canllawiau o “Pa frawddegau y gallaf eu hychwanegu?”
+small-batch-sentences-rule-1 = Dilynwch y canllawiau o “Pa frawddegau rwy'n gallu eu hychwanegu?”
 small-batch-sentences-rule-2 = Ychwanegu un frawddeg i linell
 small-batch-sentences-rule-3 = Gwahanwch frawddegau i un llinell trwy bwyso “Enter” neu “Return” unwaith
 small-batch-sentences-rule-4 = Ychwanegwch hyd at 1,000 o frawddegau
@@ -175,13 +175,15 @@ add-sentences = Ychwanegu Brawddegau
 write-contribute-menu-tooltip = Ychwanegu ac Adolygu Brawddegau, Ychwanegu Cwestiynau, Trawsgrifio Sain
 add-sentences-menu-item-tooltip = Ychwanegu brawddegau yn eich iaith
 review-sentences-menu-item-tooltip = Adolygu brawddegau yn eich iaith
-add-questions-menu-item-tooltip = Ychwanegu cwestiynau yn eich iaith
-transcribe-audio-menu-item-tooltip = Trawsgrifio recordiadau sain yn eich iaith
+add-questions-menu-item-tooltip = Ychwanegu cwestiynau
+review-questions-menu-item-tooltip = Adolygu cwestiynau
+transcribe-audio-menu-item-tooltip = Trawsgrifio recordiadau sain
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Dewislen dewisiadau ysgrifennu
 add-sentences-menu-item-aria-label = Ychwanegu brawddegau newydd i'r gymuned eu darllen
-review-sentences-menu-item-aria-label = Adolygu brawddegau presennol a gyflwynwyd gan y gymuned
+review-sentences-menu-item-aria-label = Adolygu brawddegau presennol wedi'u cyflwyno gan y gymuned
 add-questions-menu-item-aria-label = Cyflwyno cwestiynau newydd i'r gymuned eu darllen ac ymateb iddyn nhw
+review-questions-menu-item-aria-label = Adolygu a phleidleisio dros gwestiynau newydd sy'n cael eu cyflwyno gan y gymuned
 transcribe-audio-menu-item-aria-label = Trawsgrifio recordiadau sain i destun

@@ -24,6 +24,8 @@ skip-button = Overslaan
 submit-button = Indienen
 contribute = Bijdragen
 request-new-language = Nieuwe taal aanvragen
+# Button text which appears when there are no more resources
+continue-with-skipped = Doorgaan met Overgeslagen
 
 ## Navbar
 

@@ -78,6 +78,8 @@ The project is organized into the following directories:
 
 ## Orchestrating the environment with `docker` and `docker-compose`
 
+_NOTE: If you are working on a branch from your local fork of `common-voice` and subsequently raise a PR on the `common-voice` project, and this PR resolves an Issue in the `common-voice` repo, please ensure that the [Issue is mentioned in the PR or otherwise linked](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) for traceability. Linking Issues and PRs helps us to review them more efficiently._
+
 Common Voice uses Docker and Docker Compose for orchestrating the development environment. While it is possible to install each component separately, we neither encourage nor support this.
 
 ### `.env-local-docker` file

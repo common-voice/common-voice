@@ -1,10 +1,9 @@
 ## Check Transcriptions page
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-transcription-page-instruction = { $actionType } <playIcon></playIcon> অডিঅ’ ক্লিপটো শুনি শ্ৰুতলিপি পৰীক্ষা কৰক। মিলিছেনে? নিমিলিলে ইয়াক নিখুঁতভাৱে মিলাকৈ সম্পাদনা কৰক।
+transcription-page-instruction = { $actionType } <playIcon></playIcon> অডিঅ’ ক্লিপটো শুনি শ্ৰুতলিপি পৰীক্ষা কৰক। মিলিছেনে? নিমিলিলে ইয়াক নিখুঁতভাৱে মিলাকৈ সম্পাদনা কৰক।
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = পৰীক্ষা কৰক
-no-transcriptions-message = পৰীক্ষা কৰিবলৈ এই ভাষাত বৰ্তমান কোনো শ্ৰুতলিপি নাই। অনুগ্ৰহ কৰি পৃষ্ঠাখন সতেজ কৰক নাইবা পাছত পুনৰ চেষ্টা কৰিব।
 vote-transcript-success = শ্ৰুতলিপিক সফলতাৰে ভোট দিয়া হ’ল
 vote-transcript-error = শ্ৰুতলিপিক ভোট দিওঁতে এটা ত্ৰুটি ঘটিল
 transcript-edited-success = শ্ৰুতলিপি সফলতাৰে সম্পাদনা কৰা হ’ল

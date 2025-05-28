@@ -4,7 +4,6 @@
 transcription-page-instruction = آڈیو کلپ کی سُنا، تے تحریر کی چیک کرا۔ اے ہک دوئے کنے ملنے؟ اگر نی ملنے، اس کی تبدیل کری ٹھیک طرح ملا۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = چیک کرا
-no-transcriptions-message = اس زباناں کی چیک کرنے آسطے وقتی کوئی تحریر موجود نی۔ مہربانی کری پیج کی دوئی واری چلا ئو یا بعد اچ کوشش کرا۔
 vote-transcript-success = تحریر ناں ووٹ کامیابی کنے ہوئی غیا
 vote-transcript-error = تحریر آسطے ووٹ دینیاں ہک غلطی ہوئی غئی
 transcript-edited-success = تحریر کامیابی کنے تبدیل ہوئی غئی

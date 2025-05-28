@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Selaouit an enrolladenn ha gwiriit an treuzskrivadur anezhi. Ha klotañ a ra ? Ma ne ra ket , degasit ar cheñchamantoù ret evit ma klotfe rik.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Gwiriañ
-no-transcriptions-message = N'eus treuzskrivadur ebet da wiriañ evit ar yezh-mañ evit ar mare. Freskait ar bajenn pe distroit diwezhatoc'h.
 vote-transcript-success = Treuzskrivadur aprouet ervat
 vote-transcript-error = C'hoarvezet ez eus ur fazi e-ser votiñ evit an treuzskrivadur
 transcript-edited-success = Treuzskrivadur bet kemmet ervat

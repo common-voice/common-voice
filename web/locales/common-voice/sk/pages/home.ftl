@@ -92,12 +92,13 @@ read-more-about = Prečítajte si viac na stránke O nás
 answer-questions = Odpovedajte na otázky <small>(už čoskoro)</small>
 review-transcriptions = Kontrolujte prepisy <small>(už čoskoro)</small>
 add-questions = Pridajte otázky <small>(už čoskoro)</small>
+review-questions = Kontrolujte otázky
 transcribe-audio = Prepisujte zvuk <small>(už čoskoro)</small>
 press-and-stories = Tlač a príbehy
 community-and-languages = Komunita a jazyky
 coming-soon = Už čoskoro
 about-us = O nás
-scripted-speech = SKRIPOVANÁ REČ
+scripted-speech = SKRIPTOVANÁ REČ
 spontaneous-speech = SPONTÁNNA REČ
 
 ## MENU ITEMS TOOLTIPS
@@ -139,6 +140,7 @@ spontaneous-card-content = Reagujte na výzvy na vytvorenie kolekcií údajov pr
 language-text-card-header = Text jazyka
 language-text-card-content = Vytvárajte alebo zdieľajte verejné výzvy, vety a text na preklad, malé jazykové modely a ďalšie.
 add-text = Pridajte text
+answer = Odpovedajte
 
 ## Community section
 

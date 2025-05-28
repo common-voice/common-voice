@@ -24,6 +24,8 @@ skip-button = پھتِیا
 submit-button = ڇیݨ
 contribute = تعاون تِھیا
 request-new-language = نئی جِبے درخواست
+# Button text which appears when there are no more resources
+continue-with-skipped = Skipped سے ساتیْ جاری پھتِیا
 
 ## Navbar
 

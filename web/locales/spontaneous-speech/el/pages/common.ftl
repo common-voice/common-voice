@@ -24,6 +24,8 @@ skip-button = Παράλειψη
 submit-button = Υποβολή
 contribute = Συνεισφορά
 request-new-language = Αίτημα για νέα γλώσσα
+# Button text which appears when there are no more resources
+continue-with-skipped = Συνέχεια με παραλειφθέντα
 
 ## Navbar
 

@@ -4,7 +4,6 @@
 transcription-page-instruction = <playIcon></playIcon> düğmesine { $actionType }, ses kaydını dinleyin ve metin karşılığını kontrol edin. Aynılar mı? Değillerse metni tam aynı olacak şekilde düzenleyin.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Denetle
-no-transcriptions-message = Şu anda bu dil için denetlenecek metin yok. Lütfen sayfayı yenileyin ya da daha sonra yeniden deneyin.
 vote-transcript-success = Metin çevrimi başarılı şekilde oylandı
 vote-transcript-error = Metin çevrimini oylarken bir hata oluştu
 transcript-edited-success = Metin başarılı şekilde düzenlendi

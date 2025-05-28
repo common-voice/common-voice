@@ -24,6 +24,8 @@ skip-button = Oerslaan
 submit-button = Yntsjinje
 contribute = Bydrage
 request-new-language = Nije taal oanfreegje
+# Button text which appears when there are no more resources
+continue-with-skipped = Trochgean mei Oersloegen
 
 ## Navbar
 

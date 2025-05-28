@@ -164,6 +164,7 @@ write-contribute-menu-tooltip = Pridajte a kontrolujte vety, pridávajte otázky
 add-sentences-menu-item-tooltip = Pridajte vety vo vašom jazyku
 review-sentences-menu-item-tooltip = Kontrolujte vety vo vašom jazyku
 add-questions-menu-item-tooltip = Pridajte otázky vo vašom jazyku
+review-questions-menu-item-tooltip = Kontrolujte otázky
 transcribe-audio-menu-item-tooltip = Prepisujte zvukové nahrávky vo vašom jazyku
 
 ## MENU ITEM ARIA LABELS
@@ -172,4 +173,5 @@ write-contribute-menu-aria-label = Možnosti ponuky písania
 add-sentences-menu-item-aria-label = Pridajte nové vety, ktoré komunita môže prečítať
 review-sentences-menu-item-aria-label = Skontrolujte existujúce vety odoslané komunitou
 add-questions-menu-item-aria-label = Odošlite nové otázky, ktoré komunita môže prečítať a odpovedať na ne
+review-questions-menu-item-aria-label = Skontrolujte a hlasujte za nové otázky odoslané komunitou
 transcribe-audio-menu-item-aria-label = Prepisujte zvukové nahrávky do textu

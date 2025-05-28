@@ -49,11 +49,13 @@ about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
 about-nav-get-involved = Pridružite se
 about-nav-how-it-works-2 = Kako Common Voice deluje?
+about-nav-playbook = Naučite se sodelovati
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language = Kaj je jezik za Common Voice?
+about-playbook-what-is-language-content-3 = Znotraj nekaterih jezikov so prisotne ogromne razlike v slovnici, besedišču in izgovorjavi. Zaradi tega leta 2022 <ctaLink>uvajamo "različice"</ctaLink>. To skupnostim omogoča, da razlikujejo svoje jezike znotraj večjega nabora podatkov.
 
 ## How do I add a language
 
@@ -69,6 +71,8 @@ about-playbook-how-add-language-collecting-sentences-heading = Zbiranje stavkov
 
 ## How does localization work
 
+about-playbook-how-localize = Kako deluje lokalizacija spletnega mesta?
+about-playbook-how-localize-content-1 = Spletno mesto Common Voice se prevaja na <strong>Pontoonu</strong>.
 about-playbook-how-localize-content-4 = Stran je pripravljena za izid, ko doseže 75-odstotno dokončanost.
 about-playbook-how-localize-content-5 = Za pomoč si oglejte naš video z razlago
 
@@ -78,6 +82,8 @@ about-playbook-how-add-sentences = Kako dodam stavke?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kako posnamem glasovni posnetek visoke kakovosti?
+about-playbook-how-record-content-1 = Govorite s svojim običajnim glasom! Način, kako govorite, je pri nas dobrodošel – želimo vaš naglas takšen, kot je, želimo vašo običajno glasnost, slog in intonacijo.
 about-playbook-how-record-content-3 = Pozorno preberite stavek – ne izpuščajte, spreminjajte ali dodajajte besed.
 about-playbook-how-record-content-4 = Prepričajte se, da se snemanje začne, preden začnete govoriti, in da se ustavi šele, ko končate.
 about-playbook-how-record-content-5 = <accuracyLink>Več o merilih natančnosti.</accuracyLink>

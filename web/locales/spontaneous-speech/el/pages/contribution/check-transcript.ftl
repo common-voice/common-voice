@@ -4,7 +4,8 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Ακούστε το ηχητικό απόσπασμα και ελέγξτε τη μεταγραφή. Ταιριάζουν; Αν όχι, επεξεργαστείτε τη για απόλυτη αντιστοιχία.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Έλεγχος
-no-transcriptions-message = Δεν υπάρχουν προς το παρόν μεταγραφές προς έλεγχο σε αυτήν τη γλώσσα. Ανανεώστε τη σελίδα ή δοκιμάστε ξανά αργότερα.
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = Δεν υπάρχουν προς το παρόν μεταγραφές για έλεγχο για αυτή τη γλώσσα. Αν έχετε παραλείψει κάποιο, μπορείτε να συνεχίσετε με το περιεχόμενο ή να μεταγράψετε τον ήχο και να δοκιμάσετε ξανά αργότερα.
 vote-transcript-success = Επιτυχής υποβολή ψήφου για τη μεταγραφή
 vote-transcript-error = Προέκυψε σφάλμα κατά την υποβολή ψήφου για τη μεταγραφή
 transcript-edited-success = Επιτυχής επεξεργασία μεταγραφής

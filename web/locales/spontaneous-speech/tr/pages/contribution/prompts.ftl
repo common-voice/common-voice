@@ -4,7 +4,6 @@ record-player-header = Yanıtınızı kaydedin
 mic-access-error = Mikrofon erişimine izin vermeniz zorunludur.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = <micIcon></micIcon> düğmesine { $actionType } ve olabildiğince doğal konuşun
-no-prompts-message = Şu anda bu dil için soru yok. Lütfen sayfayı yenileyin ya da daha sonra yeniden deneyin.
 error-skipping = Bu soruyu atlarken bir hata oluştu
 error-recording = Kayıt yaparken bir hata oluştu
 error-fetching-prompts = Soruları yüklerken bir şey ters gitti. Lütfen daha sonra yeniden deneyin.

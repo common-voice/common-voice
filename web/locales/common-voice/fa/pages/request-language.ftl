@@ -30,3 +30,10 @@ request-language-success-list-3 =
 request-language-error =
     ممکن است درخواست شما را دریافت نکرده باشیم. لطفا مستقیما
     به <emailLink>{ $email }</emailLink> رایانامه بزنید و ما با شما تماس خواهیم گرفت!
+request-for-scripted-speech-toggle = درخواست گفتار از پیش نوشته شده
+request-for-spontaneous-speech-toggle = درخواست گفتار فی‌البداهه
+need-help-deciding-platform = برای تصمیم‌گیری در مورد انتخاب کدام گزینه به کمک نیاز دارید؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>گفتار از پیش نوشته شده</strong> (که به طور سنتی آن را با نام آوای مشترک می‌شناسید) روشی است که در آن می‌توانید جملات را با صدای بلند به زبان خود بخوانید.
+need-help-deciding-platform-explanation-2 = <strong>گفتار خودجوش یا فی‌البداهه</strong> بخش جدیدی از آوای مشترک است که در آن می‌توانید به شیوهٔ طبیعی و محاوره‌ای‌تری به سوالات پاسخ دهید.
+need-help-deciding-platform-explanation-3 = اگر زبان خود را در هیچ یک از بخش‌های این سکو نمی‌بینید، هر دو را انتخاب کنید.

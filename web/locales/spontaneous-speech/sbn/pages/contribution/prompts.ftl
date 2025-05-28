@@ -4,7 +4,6 @@ record-player-header = پنڊرو جوآب ريڪآرڊ ڪرو۔
 mic-access-error = مآئيڪروڦون کي لآزميٚ اجآزت ڏيڻ کپي۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> ائيٚنٚ جوآب اڀيٚنٚ جيترو ڦتريٚ ڪري سگھو دآ ايترو ڦتريٚ ڪرو
-no-prompts-message = هڃر ايئي ٻوليٚ ميݩ ڪو با لکت چيڪ ڪرڻ لآ ڪونهي۔ مهربآنيٚ ڪري سڦهي کي ريٚڦريش ڪرو جآݩ وري ڪوشيٚش ڪرو
 error-skipping = هَڪ مسلو آئي پيو لکت کي ڇڏڻ وکت
 error-recording = هَڪ مسلو آئي پيو ريڪآڊئيٚنگ ڪرڻ وکت
 error-fetching-prompts = ٽرآنسڪريٚپشن لآ آڊيٚو آڻڻ دورآݩ ڪجه گلتيݩ ٿئيݩ وهيݩ اهيݩ۔ مهربآنيٚ ڪري ٿوريٚ دير ميݩ وري ڪوشيٚش ڪرو.

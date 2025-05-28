@@ -48,12 +48,22 @@ benefits = فائدو
 
 ## Landing
 
+login-company = سے ای میل سائن اَپ/لاگ ان کن{ $company }
+profile-not-required = پے حصو غوردا دیر اکاؤنٹ ضروری نو، اکرچہ من فائدو ایتے، پے یئے معلومات دیر تورو اوژر۔
+read-more-about = دے ماخ متعلق دے صحفہ اوئے دیر ام ݱا
 
 ## NAV ITEMS
 
+answer-questions = نے سوالف جواب دل
+review-transcriptions = ڤے نوختّغف دیبارو اوژر
+add-questions = سوال شامل کن
+review-questions = ڤے سوالف دیبارو اوژر
+press-and-stories = اخبار اڤن مضمون
+community-and-languages = کمیونٹی اڤن زبان
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت داری، اخبار، مضمون، کمیونٹی اڤن زبان
 
 ## MENU ITEM ARIA LABELS
 

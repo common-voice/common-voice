@@ -4,7 +4,8 @@ record-player-header = Nehmen Sie Ihre Antwort auf
 mic-access-error = Sie müssen den Mikrofon-Zugriff zulassen.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = <micIcon></micIcon> { $actionType } und antworten Sie so natürlich wie möglich
-no-prompts-message = Es gibt derzeit keine Fragen für diese Sprache. Bitte aktualisieren Sie die Seite oder versuchen Sie es später erneut.
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Es gibt keine weiteren Fragen für diese Sprache. Wenn Sie eine übersprungen haben, können Sie mit dem übersprungenen Inhalt fortfahren oder Audio transkribieren und es später erneut versuchen.
 error-skipping = Beim Überspringen dieser Frage ist ein Fehler aufgetreten
 error-recording = Beim Aufnehmen ist ein Fehler aufgetreten
 error-fetching-prompts = Beim Abrufen der Fragen ist etwas schiefgegangen. Bitte versuchen Sie es später erneut.

@@ -78,6 +78,7 @@ read-more-about = Διαβάστε περισσότερα στη σελίδα «
 answer-questions = Απάντηση ερωτήσεων <small>(Προσεχώς)</small>
 review-transcriptions = Έλεγχος μεταγραφών <small>(Προσεχώς)</small>
 add-questions = Προσθήκη ερωτήσεων <small>(Προσεχώς)</small>
+review-questions = Έλεγχος ερωτήσεων
 transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
@@ -125,6 +126,7 @@ spontaneous-card-content = Απαντήστε σε μηνύματα προτρο
 language-text-card-header = Κείμενο γλώσσας
 language-text-card-content = Δημιουργήστε ή μοιραστείτε μηνύματα δημόσιου τομέα, προτάσεις και κείμενο για μετάφραση, μικρά γλωσσικά μοντέλα και πολλά άλλα.
 add-text = Προσθήκη κειμένου
+answer = Απάντηση
 
 ## Community section
 

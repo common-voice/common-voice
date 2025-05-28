@@ -4,7 +4,6 @@ record-player-header = Rögzítse a válaszát
 mic-access-error = Engedélyeznie kell a hozzáférést a mikrofonhoz.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> és válaszoljon a lehető legtermészetesebben
-no-prompts-message = Jelenleg nincsenek kérdések ehhez a nyelvhez. Frissítse az oldalt, vagy próbálja újra később.
 error-skipping = Hiba történt a kérdés kihagyása során
 error-recording = Hiba történt a felvétel során
 error-fetching-prompts = Hiba történt a kérdések lekérése során. Próbálja újra később.

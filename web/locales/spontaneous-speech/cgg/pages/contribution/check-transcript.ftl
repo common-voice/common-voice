@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Hurikiza amaraka, haza oshwijume ebihandiikirwe kuruga omu maraka. Kirakwatagana? Kyaba kitarakwatagana, Kihinduremu oreebe ngu kyakwatagana kurungi.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Shwijuma
-no-transcriptions-message = Hatiiya, tihariho bihandiiko birugire omu iraka omu rurimi oru. Nyaburawe, garuza busya peegi egi nainga garukamu bwanyamaho.
 vote-transcript-success = Ekihandiiko kyarabamu omu karuuru
 vote-transcript-error = Haabaho enshobi omu kuteerera ekihandiiko akaruuru
 transcript-edited-success = Ekihandiiko kyahindurwamu kyahwa gye

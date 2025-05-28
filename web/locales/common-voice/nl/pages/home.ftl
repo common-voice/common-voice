@@ -78,6 +78,7 @@ read-more-about = Meer info op onze pagina Over
 answer-questions = Vragen beantwoorden <small>(binnenkort)</small>
 review-transcriptions = Transcripties beoordelen <small>(binnenkort)</small>
 add-questions = Vragen toevoegen <small>(binnenkort)</small>
+review-questions = Vragen beoordelen
 transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
 press-and-stories = Pers en verhalen
 community-and-languages = Gemeenschap en talen
@@ -125,6 +126,7 @@ spontaneous-card-content = Beantwoord vragen om gegevenssets te maken voor organ
 language-text-card-header = Taaltekst
 language-text-card-content = Maak of deel vragen, zinnen en tekst in het publieke domein voor vertaling, kleine taalmodellen en meer.
 add-text = Tekst toevoegen
+answer = Beantwoorden
 
 ## Community section
 

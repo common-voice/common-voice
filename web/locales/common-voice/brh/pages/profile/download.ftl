@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = تینا ڈیٹا نا ڈاؤن لوڈ کننگ نا گُرج ارے؟
+download-info = ننے پابو کہ نم انت ئس ڈاؤن لوڈ کننگ خوارے:
+download-profile-title = پروفائل
+download-profile-info = ای میل، کارمرز کروکانا پِن و آبادیاتی چاہنداری آ تالان داسہ داڑے ارے۔
+download-profile-size = منہ بائٹز
+download-recordings-title = ریکارڈنگاک
+download-recordings-info = mp3s و اونا وڑ جملہ غاتے ساڑی او، تیاری ٹی منہ وخت لگنگ کیک۔
+download-recordings-size = عام انگا وڑ اٹ میگا بائٹس
+download-recordings-unavailable = نم تینا ریکارڈنگاتیکن خواست کننگ کپیرے ہرا وخت کہ اسہ پین خواست ئس مالو آن برجا اے۔
+download-recently-requested = نم ہر { $days } دے ٹی تینا ریکارڈنگ کن پوسکنو ٹیک آؤٹ نا خواست کننگ کیرے۔
+download-size = سائز
+download-selected = ارفنگا
+download-start = پروفائل ڈیٹا ڈاؤن لوڈ کبو
+download-request = ریکارڈنگاتیکے خواست
+download-requests = مُست نا ریکارڈنگاتے ڈاؤن لوڈ نا خواست
+download-requests-info = ہرا وخت نم تینا ریکارڈنگاتا خواست کیرے، گڑا نن اوفتے اسہ یا اسٹ آن زیات ZIP فائلاتے ٹی کننگیرہ۔ نما مُست نا وخت نا خواستاک دا دو:
+download-request-button = ڈاؤن لوڈ
+download-request-title = { $created }
+download-request-description = { $clipCount } توار ناکلپاک، مُچا آرکائیو سائز { $size }۔ میعاد ختم مننگ اے { $expires }۔
+download-request-archive-single = اسہ ZIP فائل یسا مشتمل اے
+download-request-archive-multiple = { $archiveCount } زپ فائل تیٹی بشخ و بانٹ کبو۔
+download-request-assembling-description = نما فائلاتے جمع کننگنگ او۔۔ براہ مہربانی گُڈ سر ٹی ولدا چیک کبو۔
+download-request-refresh-button = تازہ کبو
+download-request-modal-title = لنکاتے ڈاؤن لوڈ کبو
+download-request-modal-description = لنکاک داڑے کو انداکان تینا زپ فائل آتے ڈاؤن لوڈ کبو۔
+download-request-link-text = زپ #{ $offset } نا { $total }
+download-request-metadata-link = جملہ نا لوز
+download-request-link-single = نم تینا دوستنگا ڈاؤن لوڈ مینیجر ٹی براہ راست یو آر ایل ئے کاپی و پیسٹ ہم کننگ کیرے۔ دافتا میعاد 12 گھنٹہ ٹی ایسر مریرہ، ولے نم ہمرو ہم پوسکنو وخت ئس جوڑ کننگ کن دا پنہ غا واپس بننگ کیرے۔

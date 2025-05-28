@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Écoutez l’extrait audio et vérifiez la transcription. Est-ce qu’elle correspond ? Si ce n’est pas le cas, modifiez-la pour qu’elle corresponde parfaitement.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Vérifier
-no-transcriptions-message = Il n’y a actuellement aucune transcription à vérifier pour cette langue. Veuillez actualiser la page ou réessayer plus tard.
 vote-transcript-success = Vous avez voté pour la transcription
 vote-transcript-error = Erreur lors du vote pour la transcription
 transcript-edited-success = Transcription modifiée

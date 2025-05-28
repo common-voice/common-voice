@@ -130,6 +130,7 @@ spontaneous-card-content = Atbildiet uz jautājumiem, veidojot dabiskās sarunva
 language-text-card-header = Valodas teksti
 language-text-card-content = Veidojiet datu vākšanas jautājumus, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
 add-text = Pievienot tekstu
+answer = Atbilde
 
 ## Community section
 

@@ -100,9 +100,39 @@ adding-sentences-subheader-special-characters-explanation-2 = زبانک خلق�
 adding-sentences-subheader-offensive-content = زوراکی متن
 adding-sentences-subheader-offensive-content-explanation = اگہ جملہ زوراکی یا فریشان کروک مرے - دنکہ پاشنگا مواد نا سوب آن، یا ننا <communityGuidelines>مخلوق نا شریکداری نا رہشونی کسر</communityGuidelines> نا برخلاف مریک - نمے جملہ ئے رد کروئی مریک۔ نم ویل ئے ودیفنگ کن <emailFragment>commonvoice@mozilla.com</emailFragment> آ نم تون رابطہ کننگ کیرے۔
 reviewing-sentences-explanation-1 = اگہ جملہ بڑزنا معیار آ برابر بننگ اے گڑا "Yes" نا بٹن آ کلک کبو۔
+reviewing-sentences-explanation-2 = اگہ جملہ بڑزنا معیار آ برابر بننگ اف گڑا "No" نا بٹن آ کلک کبو۔
+reviewing-sentences-explanation-3 = اگہ نمے جملہ غاتا باروٹ یقین اف، گڑا نم اودے یلہ کریسہ ایلو والاڑا اننگ کیرے۔
+reviewing-sentences-explanation-4 = اگہ جاچ النگ کن نما جملہ غاک ختم مسونو، گڑا پین جملہ جمع کننگ کن نن تون کمک کبو!
+domain-explanation = ڈومین جملہ غاتا سرہال آن اے۔ فلحال، نم اندافتیان ارفنگ کیرے۔:
 
 ## Question collection ids
 
+adding-questions = سوجاتے شاغن
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = اسے جوانو سوج ئس امر مریک؟
+what-makes-a-good-question-explanation = الس نا ساڑی مننگ نا ڈیٹاسیٹس کن اسہ جوانو سوج ئس:
+what-makes-a-good-question-explanation-criteria-1 = سمجھنگ اٹ آسودہ مبو و ورندی ایتبو
+what-makes-a-good-question-explanation-criteria-2 = عام ڈول اٹ ہمن مبو
+what-makes-a-good-question-explanation-criteria-3 = نسخان یا زوراکی زبان نا ارفپابو یا کارمرز کپابو
+what-makes-a-good-question-tip = نمے جتا جتا او سیاق و سباق و ڈومیناتے تالان کننگ آ ہم غور کروئی مریک۔
+easy-to-understand = سمجھنگ اٹ آسان مرے
+easy-to-understand-explanation = ہندونو آسان او سوج گچین کبو ہراکے ہر کس نا پُو مننگ کن آسان مرے بیدس دود و سیاق و سباق آن۔
+spelling-and-pronunciation = حرف و ادائیگی
+spelling-and-pronunciation-explanation = سہی حرف و گرائمر ئے کارمرز کبو
+length = مُرغنی
+length-explanation = سوج نا اِرا جملہ ٹی ورندی تننگ مرے۔
+dont-add-subheader = شاغپابو (اوار کپابو)
+culturally-specific-questions = داسنا خاصنگا سوجاک
+culturally-specific-questions-explanation = ہندنگا سوجاک ہراکے دود آتا لحاظ ات بھاز خاص مریرہ، یا ورندی تروکانا بابت اٹ بھازا مفروضہ غاک جوڑ کننگرہ۔
+length-avoid-explanation = ہمو سوجاک ہرافتا ورندی 15 سیکنڈ ٹی تننگ کن بندغ ئس جہد کیک (زیات آن زیات کلپ نا مُرغنی)
+process-steps = عمل / اقداماک
+process-steps-explanation = ہمو سوجاک ہرافتا کئی مرحلہ غاتا لڑ جوڑ کرئی مریک۔ لڑ نا جوڑ کننگ اٹ بندغ ئے زیات فطرتی ورندی آن بجائے ورندی بنفنگ نا اشارہ کیک۔
+offensive-content-sensitive-information = زوراکی آ متن یا حساس انگا چاہنداری
+offensive-content-sensitive-information-explanation-explanation-1 = سوجاک ہراکے ذاتی وڑ اٹ پجار نا چاہنداری خواہرہ۔
+offensive-content-sensitive-information-explanation-explanation-2 = ہمو سوجاک ہرافتیٹی کست و ساڑ یا پین تعصب یا زوراکی نا جوزہ غاک ودی مریرہ۔
+offensive-content-sensitive-information-explanation-explanation-3 = سوجاک ہراکے کسے حساس، یا وڑ سینا وڑ سیٹی ورندی تے اوار کننگ نا وسیلہ جوڑ مننگ کیک۔
+example-questions-subheader = سوجاتا مثال
+example-questions-explanation-1 = نم دا شیٹ ٹی <examplePromptsLink>120 مثالاتا اشارہ غاتے پٹنگ کیرے۔</examplePromptsLink>
+example-questions-explanation-2 = اگہ نم سوجاتا مُچی ئس جاچ الننگ کن جمع کیرے، گڑا نم <githubLink>ہمارے GitHub نا کمک اٹ ہندن کننگ کیرے</githubLink> یا تینا لڑ ئے <emailFragment>commonvoice@mozilla.com آ ای میل کبو۔</emailFragment>

@@ -31,7 +31,7 @@ add-sentence-success = 1ზიტყვასქვილი რე კორო
 add-sentence-error = ჩილათა რე ზიტყვასქვილეფიშ გეძინაშ დროს
 required-field = ქორთხინთ, შეავსათ თე არდგილი.
 single-sentence-submission = ზიტყვასქვილეფიშ თითო-თითოთ მიშაღალა
-small-batch-sentence-submission = ართ-ჟირზიტყვასქვილიშ მიშაღალა
+small-batch-sentence-submission = ართ-ჟირ ზიტყვასქვილიშ მიშაღალა
 bulk-sentence-submission = ზიტყვასქვილეფიშ ართო მიშაღალა
 single-sentence = ცალკეიან ზიტყვასქვილი
 small-batch-sentence = ჭიჭე ოდენობა
@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = ზიტყვასქვილეფიშ �
 add-sentences-menu-item-tooltip = ქიგუძინით ზიტყვასქვილეფი თქვან ნინაშა
 review-sentences-menu-item-tooltip = ქიგნაჯინით ზიტყვასქვილეფს თქვან ნინაშა
 add-questions-menu-item-tooltip = ქიგუძინით ოკითხირეფი თქვან ნინაშა
+review-questions-menu-item-tooltip = ოკითხირეფიშ გინოჯინა
 transcribe-audio-menu-item-tooltip = ინოჭარილ ხონარეფიშ ტრანსკრიფცია თქვან ნინაშა
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = დოჭარით პარამეტ�
 add-sentences-menu-item-aria-label = ქიგუძინით ზიტყვასქვილეფი მაკათურეფქ წეკითხანინი
 review-sentences-menu-item-aria-label = მაკათურეფიშ წუმორინაფილი ზიტყვასქვილეფიშ გინოჯინა
 add-questions-menu-item-aria-label = ოკითხირეფიშ გეძინა, ბუნაშ მაკათურეფქ წეკითხან დო გამა ქიმეჩანინი
+review-questions-menu-item-aria-label = ქიგნაჯინით დო ხუმა ქიმეჩით საზოგადოებაშ მოჩამილ ახალ ოკითხირეეფს
 transcribe-audio-menu-item-aria-label = ინოჭარილ ხონარეფიშ ნაჭარათ მოჩამა

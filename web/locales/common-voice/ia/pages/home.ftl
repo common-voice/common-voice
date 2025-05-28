@@ -78,6 +78,7 @@ read-more-about = Lege plus in nostre pagina: A proposito
 answer-questions = Responder a questiones <small>(Tosto veniente)</small>
 review-transcriptions = Verifica le transcriptiones <small>(Tosto veniente)</small>
 add-questions = Adder Questiones <small>(Tosto veniente)</small>
+review-questions = Revider questiones
 transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos
 community-and-languages = Communitate e linguas
@@ -125,6 +126,7 @@ spontaneous-card-content = Responde al suggestiones pro crear collectiones de da
 language-text-card-header = Texto linguistic
 language-text-card-content = Crea o comparti suggestiones, phrases, e texto de dominio public pro traduction, parve modellos de lingua, e altero.
 add-text = Adder texto
+answer = Responder
 
 ## Community section
 

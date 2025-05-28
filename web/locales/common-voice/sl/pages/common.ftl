@@ -5,6 +5,7 @@
 ## Languages
 
 aa = afarščina
+aat = arvanitika
 ab = abhaščina
 ace = ačinščina
 ady = adigejščina
@@ -204,7 +205,7 @@ cookies = Piškotki
 faq = Pogosta vprašanja
 documentation = Dokumentacija
 content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Commons</licenseLink>
-share-title = Pomagajte nam poiskati druge, ki bi prispevali svoj glas!
+share-title = Pridružite se naši skupnosti
 share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
 link-copied = Povezava kopirana
 back-top = Nazaj na vrh

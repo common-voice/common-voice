@@ -78,6 +78,7 @@ read-more-about = Weitere Informationen über Common Voice
 answer-questions = Fragen beantworten <small>(kommt in Kürze)</small>
 review-transcriptions = Transkripte überprüfen <small>(kommt in Kürze)</small>
 add-questions = Fragen hinzufügen <small>(kommt in Kürze)</small>
+review-questions = Fragen überprüfen
 transcribe-audio = Audio transkribieren <small>(kommt in Kürze)</small>
 press-and-stories = Presse und Geschichten
 community-and-languages = Gemeinschaft und Sprachen
@@ -125,6 +126,7 @@ spontaneous-card-content = Beantworten Sie Aufforderungen, um Datensätze für o
 language-text-card-header = Sprachlicher Text
 language-text-card-content = Erstellen oder teilen Sie gemeinfreie Aufforderungen, Sätze und Text für die Übersetzung, kleine Sprachmodelle und mehr.
 add-text = Text hinzufügen
+answer = Antworten
 
 ## Community section
 

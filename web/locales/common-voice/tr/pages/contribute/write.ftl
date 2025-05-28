@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = Cümle ekle ve denetle, soru ekle, sesi metne d�
 add-sentences-menu-item-tooltip = Dilinizde cümleler ekleyin
 review-sentences-menu-item-tooltip = Dilinizdeki cümleleri denetleyin
 add-questions-menu-item-tooltip = Dilinizde sorular ekleyin
+review-questions-menu-item-tooltip = Soruları incele
 transcribe-audio-menu-item-tooltip = Dilinizdeki ses kayıtlarını metne dönüştürün
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = Yazma seçenekleri menüsü
 add-sentences-menu-item-aria-label = Topluluğun okuması için yeni cümleler ekleyin
 review-sentences-menu-item-aria-label = Topluluk tarafından gönderilen cümleleri gözden geçirin
 add-questions-menu-item-aria-label = Topluluğun okuyup yanıtlaması için yeni sorular gönderin
+review-questions-menu-item-aria-label = Topluluk tarafından gönderilen yeni soruları gözden geçirip oylayın
 transcribe-audio-menu-item-aria-label = Ses kayıtlarını metne dönüştürün

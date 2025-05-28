@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType }<playIcon></playIcon>اؤ لِکِؤ زی مے تسہ مانُݭہ کی ژمېنے ݭُنڈِمانېؤ
 editbox-header = نقل کېرِؤ
 editbox-placeholder = اِتے لِکِؤ زی مے تسہ مانۡوݭہ کی ژَمېنے ݭُنڈِمانېؤ
-no-audio-message = فلیالن تسہ باتِیہ ݭڅی نقل کېرِکہ ݭڅی کی آڈیؤ نہ تھنی۔ مېرَبانی کېری موخہ ریفریش کېرِؤ یا پتا دُوبُوڑہ کُوشُش کېرِؤ۔
 create-transcript-success = ٹرانسکِرپٹ کامیابِئے جمع کېران گئ
 create-transcript-error = اسہ ٹرانسکرِپٹہ ݫُپَئیکَنی وختہ یَہ خرابی پیدا بُوئی
 error-playing-audio = آڈیو فائلَہ چلَمېنے خرابی۔

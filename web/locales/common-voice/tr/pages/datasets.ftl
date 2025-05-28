@@ -23,7 +23,7 @@ dataset-splits = Ayrımlar (yaş ve cinsiyet)
 number-of-voices = Ses sayısı
 splits = Ayrımlar
 email-to-download = İndirmek için e-postanızı yazın
-why-email = <b>Neden e-posta istiyorsunuz?</b> Veri kümesindeki değişiklikler hakkında gelecekte sizinle iletişim kurmamız gerekebilir. E-postanız bize bir iletişim bilgisi sağlar.
+why-email = <b>Neden e-posta istiyoruz?</b> Veri kümesindeki değişiklikler hakkında gelecekte sizinle iletişim kurmamız gerekebilir. E-postanız bize bir iletişim bilgisi sağlar.
 why-donate-datasets-page = Mozilla Common Voice, dünyanın en kapsayıcı kitle kaynaklı açık konuşma veri kümesi. Gücümüzü tamamen bağışlarınızdan alıyoruz. Veri kümelerini barındırmanın ve platformu 100'den fazla dil için geliştirmenin yıllık maliyeti bir milyon dolara yakın. Açık ve kapsayıcı verilere değer veriyorsanız <b>bugün bağış yapın!</b>
 confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazırım
 size-gigabyte = GB
@@ -37,8 +37,7 @@ whats-inside = Bu Common Voice veri kümesinde neler var?
 dataset-description-hours =
     Veri kümesindeki her kayıt benzersiz bir MP3 ve buna karşılık gelen metin dosyasından oluşur. Veri kümesinde kaydedilen <b>{ $total }</b> saatin çoğunda, konuşma tanıma motorlarının doğruluğunu eğitmeye yardımcı olabilecek yaş, cinsiyet ve aksan gibi demografik meta veriler de bulunur.
     
-    
-    Veri kümesi şu anda <b>{ $languages }</b> dilde <b>{ $valid }</b> onaylı saatten oluşuyor ancak her zaman daha fazla ses ve dil ekliyoruz. Dil istemek veya katkıda bulunmaya başlamak için <languagesLink>Diller sayfamıza</languagesLink> bakın.
+    Veri kümesi şu anda <b>{ $languages }</b> dilde <b>{ $valid }</b> doğrulanmış saatten oluşuyor ama yeni sesler ve diller eklemeye devam ediyoruz. Dil talep etmek veya katkıda bulunmaya başlamak için <languagesLink>Diller sayfamıza</languagesLink> bakabilirsiniz.
 want-dataset-update = Common Voice veri kümesinin yeni sürümünü yayımladığımızda haberdar edilmek ister misiniz? Haber bültenimize abone olun.
 subscribe = Abone ol
 get-started-speech = Konuşma tanımaya giriş

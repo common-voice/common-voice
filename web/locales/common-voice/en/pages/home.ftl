@@ -90,6 +90,7 @@ read-more-about = Read more on our About page
 answer-questions = Answer Questions
 review-transcriptions = Review Transcriptions
 add-questions = Add Questions
+review-questions = Review Questions
 transcribe-audio = Transcribe Audio
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages
@@ -133,6 +134,7 @@ language-text-card-header = Language Text
 language-text-card-content = Create or share public domain prompts, sentences, and text for translation, small language models, and more.
 coming-soon = Coming Soon
 add-text = Add Text
+answer = Answer
 
 ## Community section
 community-section-title = Powered by global communities, for global communities — 130 languages and growing!
