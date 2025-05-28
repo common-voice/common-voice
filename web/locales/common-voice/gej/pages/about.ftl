@@ -58,7 +58,7 @@ about-nav-playbook = kpɔ lekè wò la kpɔ go mè lè émé.
 
 about-playbook-what-is-language = nukɛ ye nyi gbè lè Common Voice ji o?
 about-playbook-what-is-language-content-1 = wo la téŋu pò nùpo so  gbè ŋuti lè go vòvòvòwo mè. lè nukpakpla to mɔɖaŋukpɔwɔɛwo ji a, Common Voice biɔ be àmè bé àmè be susu né nɔ nugɔ̃mèsèse lè gbèwo domè alo wo a ɖo nyàbiɔse kèyà ŋuti :" ɖe àmè kèwo le do gbè kèyà wo la teŋu sè woa nɔnɔɛwo gɔ̃mè kloe, alo wo le  jè àgbàgba bé yewo a sè yewo nɔnɔgɔ̃womè a?  "
-about-playbook-what-is-language-content-2 = Mi le jro bé nyàlelekpɔwɔɛwo woa teŋu kpɔ gbèdotɔ gbogboɖewo lè émè.  né be la teŋu va émè nène a, gbèleɖodu ɖo la ɖɔli àmè sugbɔ vòvòvòwo.
+about-playbook-what-is-language-content-2 = mi jro be gbèdotɔ sùgbɔwo ne sè nyàlelekpɔwɔɛwo gɔ̃̀mè. keŋugbɔ̀xue ekeya la va émè a, gbèleɖodu ɖo  la ɖè gbè lɔ̀zɛ̃ vòvòvòwo fiɔ.
 about-playbook-what-is-language-content-3 = gbèɖe wo ɖo vòvòtoto gãɖewo lè gbèŋutisé, nyàɖoɖo alo yɔyɔ kpawo ji.  ekèya ŋuti a, mi la <ctaLink> do gbèlɔzɛwo</ctaLink> lè siti a ji lè pè 2022 mè. Ekèyà na bé dùkɔ̃wo wo la do jèsi woabe gbèwo lè gbèlepopugã mè.
 
 ## How do I add a language
