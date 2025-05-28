@@ -158,6 +158,7 @@ write-contribute-menu-tooltip = Dodaj i provjeri rečenice, dodaj pitanja, trans
 add-sentences-menu-item-tooltip = Dodaj rečenice na svojem jeziku
 review-sentences-menu-item-tooltip = Provjeri rečenice na svojem jeziku
 add-questions-menu-item-tooltip = Dodaj pitanja na svom jeziku
+review-questions-menu-item-tooltip = Pregledaj pitanja
 transcribe-audio-menu-item-tooltip = Transkribiraj zvučne snimke na svojem jeziku
 
 ## MENU ITEM ARIA LABELS

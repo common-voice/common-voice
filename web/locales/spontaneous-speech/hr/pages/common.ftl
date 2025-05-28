@@ -14,8 +14,14 @@ contribution-picker-tooltip-text = Mijenja skup podataka za jezik kojem doprinos
 coming-soon = Uskoro ćemo dodati još jezika
 # Toast message that is displayed when an item is skipped
 skipped = Preskočeno
+audioplayer-header = Slušaj
+guidelines = Smjernice
+# For the button to report an item
+report-button = Prijavi
 # For the button to skip an item
 skip-button = Preskoči
+submit-button = Pošalji
+contribute = Doprinesi
 
 ## Navbar
 

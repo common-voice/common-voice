@@ -112,6 +112,13 @@ adding-questions = Dodavanje pitanja
 
 what-makes-a-good-question-subheader = Što je važno za dobro pitanje?
 what-makes-a-good-question-explanation = Dobro pitanje za skupove podataka javnog sudjelovanja trebalo bi:
+length = Duljina
+length-explanation = Na pitanje bi se trebalo moći odgovoriti u samo par rečenica.
+dont-add-subheader = Nemoj dodavati
+culturally-specific-questions = Kulturno specifična pitanja
+culturally-specific-questions-explanation = Pitanja koja su vrlo kulturno specifična ili donose mnogo pretpostavki o ispitaniku
+length-avoid-explanation = Pitanja na koja bi netko teško odgovorio u roku od 15 sekundi (maksimalna duljina isječka)
+process-steps = Proces / Koraci
 offensive-content-sensitive-information-explanation-explanation-2 = Pitanja koja bi mogla poticati govor mržnje ili druge pristrane ili uvredljive osjećaje
 offensive-content-sensitive-information-explanation-explanation-3 = Pitanja koja mogu potaknuti osobu da podijeli povjerljive, potencijalno traumatične informacije
 example-questions-subheader = Primjeri pitanja
