@@ -110,3 +110,5 @@ adding-questions = Dodavanje pitanja
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Što je važno za dobro pitanje?
+what-makes-a-good-question-explanation = Dobro pitanje za skupove podataka javnog sudjelovanja trebalo bi:
