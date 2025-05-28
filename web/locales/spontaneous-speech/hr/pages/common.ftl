@@ -22,9 +22,15 @@ report-button = Prijavi
 skip-button = Preskoči
 submit-button = Pošalji
 contribute = Doprinesi
+request-new-language = Zatraži novi jezik
+# Button text which appears when there are no more resources
+continue-with-skipped = Nastavi s preskočenima
 
 ## Navbar
 
+respond-to-prompt = Odgovori
+transcribe = Transkribiraj
+check-transcriptions = Pregledaj
 question = Pitanje
 
 ## Not Found Page
@@ -36,3 +42,7 @@ accept-privacy-and-terms = Slažem se s <termsLink>uvjetima</termsLink> i <priva
 
 ## Language search component
 
+language-search-placeholder = Traži jezik …
+language-search-aria-label = Traži jezik
+language-search-label = Mijenja samo jezik doprinosa skupa podataka
+language-search-no-results = Nije pronađen nijedan jezik
