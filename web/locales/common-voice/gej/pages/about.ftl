@@ -3,10 +3,11 @@
 about-title = nukɛ ŋuti wo ɖo Common Voice ɖo o?
 about-header-description-v2 = <p>Common Voice yé nyi hahonùpolépopu kè zãna àlɔdoamètɔ lɔ̃lɔ̃nufatɔ̀ kewo só xixe kplògòdo à mè bé gbèwo.  àmè kèwo ji la ɖo àɖàŋuɖemɔɖoɖo kèwo la wɔ nu ɖèka àlo gbogboɖe zèɖeka kú gbè jèsi a wo la téŋu zã nupolepopu né wo a téŋu ɖo nùkplamɔkpɔwɔɛwo. </p>. le égbè bé ŋukèkè awo mè a, nùpolepopu gbogboɖewo kèwo lè awó nyí dɔwɔpéwotɔ̀, nu kèya le hɛ̃̀  nuyeyewoɖèɖeto yì ŋùgbèdomè. nùpolepòpuwo  kãnà àmè viɖe kèwo  dona ŋlɛsigbe, àmèyibɔ, nuwɔàmewo, ŋusu kèwo dɔ̃na ŋusuwo gbɔ, nyɔnu kèwo dɔ̃na nyɔnuwo gbɔ. Egɔ̃̀mè yé nyi bé mɔɖàŋudɔ kè hiã gbèlele má kã gbè gbogboɖewo o eye ekewo be la kã, ma wɔ dɔ nyɔɛɖe na àmè sia àmè. mi ji la trɔ nu kèyà, ye ŋuti mi le mì àsi na àmè si a mè kè so tèpé sia tèpe na ma ébe gbè
 how-does-it-work-title-v2 = leké ye Common Voice wɔnà dɔ ɖo o?
+how-does-it-work-text = Mi le mì  àsi na àmè sia mè ne ba do alɔ̀ nu a mè to ébé gbèlele ji. Le àpo gbè, dà si ɖo àmè buwo bé nyàlelewo ji, jrà gbèlelewo ɖo na àmèwo kpata bé nyɔna.
 
 ## How does it work section
 
-about-language-req-subtitle = àmèɖe le biɔ be ne wo sɔ gbèɖe kpe
+about-language-req-subtitle = àmèɖe le biɔ be wo a sɔ gbèɖe kpe.
 about-localization-title = sitiwɛbu a gɔ̃mèɖeɖe
 about-localization-subtitle = wo ɖè sitiwɛbu a lè gbè kèyà mè.
 about-sentence-collection-title = nyàgbèwo bé lélé
