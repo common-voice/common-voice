@@ -115,3 +115,4 @@ what-makes-a-good-question-explanation = Dobro pitanje za skupove podataka javno
 offensive-content-sensitive-information-explanation-explanation-2 = Pitanja koja bi mogla poticati govor mržnje ili druge pristrane ili uvredljive osjećaje
 offensive-content-sensitive-information-explanation-explanation-3 = Pitanja koja mogu potaknuti osobu da podijeli povjerljive, potencijalno traumatične informacije
 example-questions-subheader = Primjeri pitanja
+example-questions-explanation-1 = U ovoj tablici možeš pronaći <examplePromptsLink>120 primjera.</examplePromptsLink>
