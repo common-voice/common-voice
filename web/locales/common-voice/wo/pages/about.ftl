@@ -127,4 +127,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Leeral ci ni �
 
 about-playbook-how-funded = Naka luñuy financé Common Voice?
 about-playbook-how-funded-content-1 = Common Voice projet la bu Fondation Mozilla, ab US 501c3. Fi ñu toll nii, ñiiy jàppale projet bi ci koppar mooy <philantropicGrantLink>philanthropic grants</philantropicGrantLink>, ak ndimbal yu bawoo ci nit ñu bari ci àdduna bi.
+about-playbook-how-funded-content-2 = Ngir di wéyal di dalal ak di génne ay jumtukaay dafay laaj koppar gu tàkku yokk ci wara suqali platform bi ak doxal <africaMradiLink>prograami askan wi</africaMradiLink>.
 about-playbook-how-funded-content-3 = Su fekkee ne yow wala sa mbootaay bëgg nañoo jàppale ci sémb bi, man nga def ab <donateLink>donation</donateLink> wala nga jokkool ak sunu ekipu jàppante yi ci <emailFragment>commonvoice@mozilla.com</emailFragment>.
