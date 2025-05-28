@@ -44,6 +44,7 @@ about-get-involved-text-2 =
     ɖo tagbãwo ɖo ɖa lè GitHub</githubLink>alo mi do go ku mí lè hahosɛ̂ŋukâkâ a  kà mè kè nyi<matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = léke wo la do kà ɔ̀?
 about-stay-in-touch-button = ŋlɔ̀ ŋyikɔ
+about-stay-in-touch-text-1 = <emailFragment> ŋlɔ̀ apo nyikɔ </emailFragment> ne ateŋu kpɔ gomè lè gbɔlɔlɔwo ku wɔ̀nawo kudo Common Voice be ɖoɖowo mè.
 
 ## Community Playbook Content
 ## What is a language
