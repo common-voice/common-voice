@@ -22,6 +22,7 @@ about-dataset-release-title = Nuwoɖèɖeto
 about-dataset-release-subtitle = mí ɖènà nuwó tó wètri tɔ̃̀ sia wètri trɔ̃̀.
 about-subscribe-text = ɖe wò le ji la nɔ kàmè ku Common Voice à?
 about-speak = pò nùpo
+about-speak-text = àmè kèwo do nu ɖoɖo a mè a, wó la hlɛ̃̀ eyé wo la le haho a bé nyàgbèlelewo.
 about-listen = sè
 about-listen-text = né a kpɔ bé nyɔnu alo ŋusu gbèdotɔ a hlɛ nyàgbè awo àdodoemètɔ a.
 about-is-it-valid = ɖe wo dà àsi ɖo nyàlélékpɔwɔɛ kèyà ji a a
