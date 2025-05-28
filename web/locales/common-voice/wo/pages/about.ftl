@@ -76,6 +76,13 @@ about-playbook-how-add-language-content-1 =
     Amna ñaari biir. Tekki xët wi, ak dajale ay waat
 about-playbook-how-add-language-translating-heading = Tekki xët wi
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Seetanal sunuy tegtal ci ni ñuy jëfandikoo Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Danuy jëfandikoo ab jumtukaayu Mozilla bu tudd <pontoonLink>Pontoon</pontoonLink> ngir tekki làkk yi. Pontoon amna làkk yu bari,
+    waaye sudee amul sa làkk, mën nga<pontoonRequestLink> laaj ñu yokk sa làkk</pontoonRequestLink>.
+    Ginaaw loolu, làkk wi dina jàppandi ci Common Voice,
+    <githubRepoLink>laaj làkk wu bees wi ci GitHub</githubRepoLink>. <FragmentLokalisasioŋ>Xool leneen ci tekkib xët wii</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Dajale waat yi
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Seetanal sunuy tegtal ci nuñuy dajale waat yi</sentenceCollectorVideo>
 
 ## How does localization work
 
