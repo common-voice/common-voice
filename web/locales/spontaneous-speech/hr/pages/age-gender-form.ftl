@@ -15,3 +15,9 @@ thank-you-for-your-information = Hvala ti na tvojim podacima
 
 ## Gender dropdown
 
+male_masculine = Muški
+female_feminine = Ženski
+intersex = Interseksualni
+transgender = Transrodni
+non-binary = Nebinarni
+do_not_wish_to_say = Ne želim reći

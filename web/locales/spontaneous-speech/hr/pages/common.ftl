@@ -1,8 +1,17 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = Greška
+action-click = Klikni
+action-tap = Dodirni
+# Label for language switcher
+platform-language = Jezik platforme
+platform-language-tooltip-text = Mijenja samo tekst web stranice
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Doprinošenje skupu podataka za { $language }
+contribution-picker-tooltip-text = Mijenja skup podataka za jezik kojem doprinosiš
+coming-soon = Uskoro ćemo dodati još jezika
 # Toast message that is displayed when an item is skipped
 skipped = Preskočeno
 # For the button to skip an item
