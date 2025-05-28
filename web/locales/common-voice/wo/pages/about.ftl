@@ -83,9 +83,16 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>laaj làkk wu bees wi ci GitHub</githubRepoLink>. <FragmentLokalisasioŋ>Xool leneen ci tekkib xët wii</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Dajale waat yi
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Seetanal sunuy tegtal ci nuñuy dajale waat yi</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Mën nga<sentenceCollectorLinkAdd>yokk limu waat yi ndaw</sentenceCollectorLinkAdd>,
+    wala nga mëna def <bulkImportDocsLink>import yu bari ci Github</bulkImportDocsLink>.
+    Fàttaliku ne ay waat yi dañu war a nekk <licenseLink>CC0 (wala domen bu ñepp bokk)</licenseLink>, mbaa nga bindal ko sa bopp.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Xoolal leneen ci niñuy dajale waat yi</sentenceCollectorFragment>
 
 ## How does localization work
 
+about-playbook-how-localize = naka la lokalisasioŋ xët wi di doxee?
+about-playbook-how-localize-content-1 = Tekki xëtu Common Voice bi ñoo ngi koy defe ci <strong>Pontoon</strong>.
 
 ## How to add sentences
 
