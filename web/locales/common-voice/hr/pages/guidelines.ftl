@@ -114,3 +114,4 @@ what-makes-a-good-question-subheader = Što je važno za dobro pitanje?
 what-makes-a-good-question-explanation = Dobro pitanje za skupove podataka javnog sudjelovanja trebalo bi:
 offensive-content-sensitive-information-explanation-explanation-2 = Pitanja koja bi mogla poticati govor mržnje ili druge pristrane ili uvredljive osjećaje
 offensive-content-sensitive-information-explanation-explanation-3 = Pitanja koja mogu potaknuti osobu da podijeli povjerljive, potencijalno traumatične informacije
+example-questions-subheader = Primjeri pitanja
