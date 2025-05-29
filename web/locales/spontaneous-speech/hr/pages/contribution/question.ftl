@@ -1,5 +1,8 @@
 ## Question Page
 
+question-page-instruction = Dodaj pitanje <icon></icon> na jeziku { $currentLocale } na koje ljudi trebaju odgovoriti
+add-question-textarea-placeholder = npr. „Za što želiš koristiti tehnologiju?”
+add-questions-terms-checkbox = Potvrđujem da je ovo pitanje u <publicDomainLink>javnom vlasništvu</publicDomainLink> i da je smijem prenijeti.
 question-dataset-language = Skup podataka: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->

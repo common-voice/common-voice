@@ -20,3 +20,5 @@ learn-how-to-use-transcribe = Nauči transkribirati
 learn-how-to-use-transcribe-explanation = Zapiši točno što je osoba rekla, uključujući riječi popunjavanja poput „hm” ili „eem”.
 learn-how-to-use-transcribe-guidance = Klikni <guidanceLink>ovdje</guidanceLink> za informacije o tome kako koristiti ovu stranicu
 learn-how-to-use-check-transcript = Saznaj kako provjeriti transkripciju
+learn-how-to-use-check-transcript-explanation = Transkripcija bi trebala obuhvatiti svaku riječ ili ne-leksički zvuk razgovora koji je osoba izgovorila, uključujući ponavljanja.
+learn-how-to-use-check-transcript-guidance = Klikni <guidanceLink>ovdje</guidanceLink> za informacije o tome kako koristiti ovu stranicu
