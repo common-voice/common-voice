@@ -339,6 +339,7 @@ si = Sinhala
 sk = Slovak
 skr = Saraiki
 sl = Slovenian
+sn = Shona
 snk = Soninke
 so = Somali
 sq = Albanian

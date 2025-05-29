@@ -134,12 +134,13 @@ class ListenPage extends React.Component<Props, State> {
     ) {
       // Dispatch the action to set the datasourceId
       this.props.setDatasourceId(this.props.match.params.datasource || '')
+      this.props.loadClips(this.props.match.params.datasource || '')
     }
   }
 
   componentDidMount(): void {
     const { loadClips } = this.props
-    loadClips()
+    loadClips(this.props.match.params.datasource || '')
   }
 
   componentWillUnmount() {

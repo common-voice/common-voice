@@ -78,7 +78,6 @@ services:
       - falak-network
     ports:
       - 9090:9090
-    command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && npm install && npm start"
   web-dev:
     build:
       context: .
