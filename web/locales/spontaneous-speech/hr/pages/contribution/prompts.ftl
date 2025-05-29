@@ -15,4 +15,8 @@ submit-all-button = Pošalji sve
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Saznaj kako koristiti ovu stranicu
+learn-how-to-use-prompts-guidance = Klikni <guidanceLink>ovdje</guidanceLink> za informacije o tome kako koristiti ovu stranicu
 learn-how-to-use-transcribe = Nauči transkribirati
+learn-how-to-use-transcribe-explanation = Zapiši točno što je osoba rekla, uključujući riječi popunjavanja poput „hm” ili „eem”.
+learn-how-to-use-transcribe-guidance = Klikni <guidanceLink>ovdje</guidanceLink> za informacije o tome kako koristiti ovu stranicu
+learn-how-to-use-check-transcript = Saznaj kako provjeriti transkripciju
