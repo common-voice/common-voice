@@ -82,14 +82,22 @@ review-questions = سوال ني دهرائي
 transcribe-audio = آڊيو نقل نويسي
 press-and-stories = ڪهاڻيون هانَ پريس
 community-and-languages = برادري هانَ ٻوليون
+about-us = امارا ڀارا مان
+scripted-speech = لکل تقرير
+spontaneous-speech = اختياري تقرير
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = شراڪت داري، پريس هانَ ڪهاڻيون، برادري هانَ ٻوليون
 partnerships-menu-item-tooltip = دُنيا مان ڪامن وائيس ني حمايت ڪريا واۯي تنظيم نين ڳوتو۔
+press-and-stories-menu-item-tooltip = ڪهاڻيون ڀڻو، اپڊيٽ، هانا ڪامن وائس هارو ميڊيا مان عهد ڪرو۔
+community-and-languages-menu-item-tooltip = برادري ٿي رابطو هانَ زوئو زي ٻوليان نين سپورٽ ڪري سي۔
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = ڪامن وائيس ڀيۯان شراڪت نا ڀارا مان شيکو۔
+press-and-stories-menu-item-aria-label = ڪامن وائيس ٿي ملل پريس رليز ڪهاڻيان ني رسائي حاصل ڪرو۔
+community-and-languages-menu-item-aria-label = ڪامن وائيس ني مدد ٿي برادري هانَ ٻوليان نين ڳوتو۔
 
 ## NEW HOME PAGE KEYS
 
