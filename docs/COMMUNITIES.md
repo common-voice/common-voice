@@ -83,3 +83,5 @@ Many language communities are self organising and have their contact channels on
   * [LinkedIn Page](https://bit.ly/3GeX6Rp)
 * Uzbek (`uz`):
   * [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi)
+* Wolof (`wo`):
+  * [WhatsApp](https://chat.whatsapp.com/CqgmqagpljJA8F1TiNK203)  
