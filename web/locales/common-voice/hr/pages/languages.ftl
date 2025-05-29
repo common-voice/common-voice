@@ -1,7 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = U tijeku
-language-section-in-progress-new-description = Ove jezike trenutačno razvija zajednica. Trake napretka pokazuju stanje <localizationGlossaryLink>lokalizacije web stranice</localizationGlossaryLink> i količinu <sentenceCollectionGlossaryLink>prikupljenih rečenica</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Ove jezike trenutačno razvija zajednica. Trake napretka pokazuju stanje <localizationGlossaryLink>lokalizacije web stranice</localizationGlossaryLink> i količinu <sentenceCollectionGlossaryLink>sakupljenih rečenica</sentenceCollectionGlossaryLink>.
 language-section-launched = Pokrenuto
 language-section-launched-description = Za ove jezike je web stranica uspješno <localizationGlossaryLink>lokalizirana</localizationGlossaryLink> te je sakupljena dovoljna količina <sentenceCollectionGlossaryLink>rečenica</sentenceCollectionGlossaryLink> za daljnje doprinošenje <speakLink>govora</speakLink> i <listenLink>slušanja</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
