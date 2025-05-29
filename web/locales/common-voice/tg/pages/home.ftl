@@ -174,6 +174,8 @@ press-and-stories-link = Матбуот ва ҳикояҳо
 partner-section-title = Шарики мо шавед
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Ширкатҳои технологӣ</bold> - ба эҷоди маҷмуи маълумоти кушод барои экосистемаи пешрафтаи бисёрзабонии зеҳни сунъӣ (AI) сармоягузорӣ намоед
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Инсондӯстӣ</bold> - сарпарастии сохтани маҷмуи маълумот барои пешбурди инноватсия ва рушди маҳаллӣ
 # icon is an arrow that points to the right
 get-in-touch-button = Дар тамос шавед <icon></icon>
 # Partners section
