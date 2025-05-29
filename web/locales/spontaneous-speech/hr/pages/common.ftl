@@ -12,6 +12,7 @@ platform-language-tooltip-text = Mijenja samo tekst web stranice
 contribution-picker-label = Doprinošenje skupu podataka za { $language }
 contribution-picker-tooltip-text = Mijenja skup podataka za jezik kojem doprinosiš
 coming-soon = Uskoro ćemo dodati još jezika
+media-recorder-api-not-supported = Tvoj preglednik ne podržava MediaRecorder API.
 # Toast message that is displayed when an item is skipped
 skipped = Preskočeno
 audioplayer-header = Slušaj
