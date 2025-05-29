@@ -3,11 +3,9 @@
 datasets-heading = Skupovi podataka
 datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
 datasets-positioning =
-    Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju govorne tehnologije, utemeljene na strojnom učenju.
+    Veliki, javno dostupni skupovi glasovnih podataka potaknut će inovacije i zdravu konkurenciju u području tehnologije strojnog učenja govora. Skup podataka Common Voicea najveći je te vrste, ali nije jedini.
     
-    Višejezični skup podataka Common Voicea već je najveći javno dostupan glasovni skup podataka takve vrste, ali nije jedini.
-    
-    Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice raste, bit će izvor za naša buduća izdanja.
+    Ova stranica služi kao referentni centar za druge skupove glasovnih podataka otvorenog koda i kao dom za naša aktualizirana izdanja kako Common Voice raste.
 datasets-speech-bubble-content = Uzbudljive vijesti! Spontani govor će uskoro biti dostupan! Prati novosti i svakako posjeti naš <discordLink>Discord</discordLink> za najnovije informacije.
 language = Jezik
 download-dataset-header = Preuzmi skup podataka
