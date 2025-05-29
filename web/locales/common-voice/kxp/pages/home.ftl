@@ -18,9 +18,37 @@ speak-goal-text = ڪلپ رڪارڊ ٿئي جھا سي
 listen-paragraph = ڪامن وائيس مشن واۯان هارو جملا نين ٽصديق لازمي سي۔ ڪوآلٽي اوپن سورس تيار ڪري هارو ڪلپ هانڀۯين اماري مدد ڪرو۔
 listen-goal-text = ڪلپ تصديق ٿئي جھا سي
 hours-recorded = ڪلاڪ رڪارڊنگ
+hours-validated = ڪلاڪ ني تصديق
+voices-online = آن لائن وائيس
+todays-progress = آز ني ترقي
+help-reach-goal = اماري مدد هارو گول { $goal }
+read-terms-q = تمين حصا چچم ڀڻشو؟
+ready-to-record = آواز ني مدد هارو تيار ريوون
+all-locales = ٻڌائي
+today = آز
+x-weeks-short =
+    { $count ->
+        [one] مثال 1 هفتو
+       *[other] مثال 2 هفتو { $count }
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }mo
+       *[other] { $count }mo
+    }
+x-years-short =
+    { $count ->
+        [one] y { $count }
+       *[other] y { $count }
+    }
+help-make-dataset = سٺي معيار هارو مدد۔ عوامي اوپن ديٽا سيٽ
+sign-up-account = اڪائونٽ هارو سائن اپ ڪرو
+email-subscription-title = اي ميل اپديٽ هارو سائن اپ ڪروون
+email-subscription-title-new = ڪامن وائيس ني خٻير چار هارو سائن اپ ڪروون۔ حدف نين ياد الاوون هارو ترقي ڪروي
 
 ## Account Benefits
 
+benefits = فائيدہ مند
 
 ## What's public
 
