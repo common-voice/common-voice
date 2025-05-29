@@ -46,6 +46,7 @@ background-noise-example-3 = Jedan divovski dino [kašalj] trijasa.
 background-noise-example-4 = [Pucketanje] divovski dinosaurus iz [pucketanje] -rijasa.
 background-noise-tip-1 = [prekinuto zbog pozadinske buke]
 background-noise-tip-2 = [Dio teksta se ne čuje]
+background-voices-explanation = Ponešto pozadinske buke je u redu, ali ako čuješ govor jedne druge osobe, isječak treba odbaciti. To se obično događa kada je televizor ostavljen uključen ili kada se u blizini odvija razgovor.
 background-voices-example-1 = Jedan divovski dinosaurus iz trijasa. [čitano jednim glasom]
 background-voices-tip-1 = Dolaziš? [izgovoreno drugim glasom]
 volume-explanation = Postoje prirodne razlike u glasnoći govora čitatelja. Odbij samo ako je glasnoća toliko visoka da se snimka prekida ili (češće) ako je toliko tiha da ne možeš čuti što se govori bez upućivanja na pisani tekst.

@@ -13,3 +13,4 @@ validation-guidelines-title = Smjernice
 validation-guideline-1 = Zabranjeno traženje osobnih podataka (npr. imena, financijskih podataka)
 validation-guideline-2 = Zabranjeni su uvredljivi, pristrani komentari te povjerljiva pitanja.
 validation-guideline-3 = Jednostavan i za svakoga lako razumljiv
+validation-guideline-4 = Može se odgovoriti u nekoliko rečenica
