@@ -62,6 +62,7 @@ citing-sentences-explanation-1 = Муҳим аст, ки шумо иқтибос
 citing-sentences-subheader-websites = Сомонаҳо
 citing-sentences-subheader-websites-explanation = Шумо метавонед сомонаи моро дохил кунед, масалан: «Common Voice» - https://commonvoice.mozilla.org/
 citing-sentences-subheader-academic-reference = Маълумотномаи илмӣ
+citing-sentences-subheader-academic-reference-explanation = Шумо метавонед услуби истинодҳои академиро истифода баред, масалан, услуби Ҳарвард "Mozilla (2021) Common Voice. Дастрас дар https://commonvoice.mozilla.org/  (санаи муроҷиат: 15 сентябри 2021)"
 citing-sentences-subheader-offline-sources = Манбаъҳои офлайн
 citation =
     .label = Иқтибос
