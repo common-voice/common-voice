@@ -4,6 +4,7 @@ import DB from './model/db'
 import { DBClip } from './model/db/tables/clip-table'
 import lazyCache from './lazy-cache'
 import { secondsToHours } from './utils/secondsToHours'
+import { getConfig } from '../config-helper'
 
 // TODO: Retrieve average clip data from database (datasets/locale_datasets tables)
 const AVG_CLIP_SECONDS = 4.694
@@ -134,7 +135,7 @@ const DAY = MINUTE * 60 * 24
  * The Model loads all clip and user data into memory for quick access.
  */
 export default class Model {
-  db = new DB()
+  db = new DB(getConfig())
 
   /**
    * Fetch a random clip but make sure it's not the user's.

@@ -1,4 +1,4 @@
-import { getConfig } from '../../config-helper'
+import { CommonVoiceConfig, getConfig } from '../../config-helper'
 import Mysql, { getMySQLInstance } from './db/mysql'
 import Schema from './db/schema'
 import ClipTable, { DBClip } from './db/tables/clip-table'
@@ -318,8 +318,11 @@ export default class DB {
   mysql: Mysql
   schema: Schema
   vote: VoteTable
+  config: CommonVoiceConfig
 
-  constructor() {
+  constructor(config: CommonVoiceConfig) {
+    this.config = config ? config : getConfig()
+
     this.mysql = getMySQLInstance()
 
     this.clip = new ClipTable(this.mysql)
@@ -487,7 +490,7 @@ export default class DB {
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
 
     const prioritySegments = this.getPrioritySegments(locale)
-
+    const main_corpus_id = this.config.MAINCORPUSID
     // Use the appropriate taxonomy method depending on whether corpus_id is provided
     // if (prioritySegments.length) {
     if (corpus_id) {
@@ -499,11 +502,12 @@ export default class DB {
         corpus_id
       )
     } else {
-      taxonomySentences = await this.findSentencesMatchingTaxonomy(
+      taxonomySentences = await this.findSentencesMatchingTaxonomyCorpusId(
         client_id,
         locale_id,
         count,
-        prioritySegments
+        prioritySegments,
+        main_corpus_id
       )
     }
     //}
@@ -765,6 +769,7 @@ export default class DB {
     let taxonomySentences: DBClip[] = []
     const locale_id = await getLocaleId(locale)
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
+    const main_corpus_id = this.config.MAINCORPUSID
 
     const prioritySegments = this.getPrioritySegments(locale)
     if (corpus_id) {
@@ -775,10 +780,11 @@ export default class DB {
         corpus_id
       )
     } else {
-      taxonomySentences = await this.findClipsWithoutTaxonomy(
+      taxonomySentences = await this.findClipsWithoutTaxonomyCorpusId(
         client_id,
         locale_id,
-        count
+        count,
+        main_corpus_id
       )
     }
 
@@ -790,10 +796,11 @@ export default class DB {
     const regularSentences =
       taxonomySentences.length >= count
         ? []
-        : await this.findClipsWithFewVotesWithoutTaxonomy(
+        : await this.findClipsWithFewVotesWithoutTaxonomyCorpusId(
             client_id,
             locale_id,
             count - taxonomySentences.length,
+            corpus_id,
             exemptFromSSRL
           )
 
@@ -916,7 +923,128 @@ export default class DB {
 
     return clips as DBClip[]
   }
+  async findClipsWithFewVotesWithoutTaxonomyCorpusId(
+    client_id: string,
+    locale_id: number,
+    count: number,
+    corpus_id: string, // <-- Added parameter
+    exemptFromSSRL?: boolean
+  ): Promise<DBClip[]> {
+    // get cached clips for given language and corpus
+    const cachedClips: DBClip[] = await lazyCache(
+      `new-clips-per-language-${locale_id}-corpus-${corpus_id}`,
+      async () => {
+        return await this.getClipsToBeValidatedCorpusId(
+          locale_id,
+          corpus_id,
+          10000
+        )
+      },
+      MINUTE
+    )()
 
+    // Filter out user's own clips and expired clips + match corpus_id
+    const validUserClips: DBClip[] = cachedClips.filter(
+      (row: DBClip) =>
+        row.client_id !== client_id &&
+        row.is_approved === 1 &&
+        row.corpus_id === corpus_id && // <-- filter by corpus_id
+        (row.expire_at === null || new Date(row.expire_at) > new Date())
+    )
+
+    // Get users previously interacted clip ids
+    const [submittedUserClipIds] = await this.mysql.query(
+      `
+      SELECT clip_id
+      FROM votes
+      WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE client_id = ?
+      `,
+      [client_id, client_id, client_id]
+    )
+
+    // Remove duplicates and store as a flat set
+    const skipClipIds: Set<number> = new Set(
+      submittedUserClipIds.map((row: { clip_id: number }) => row.clip_id)
+    )
+
+    // Get clips that a user hasn't already seen and are not expired
+    const validClips = new Set(
+      validUserClips.filter((clip: DBClip) => {
+        if (exemptFromSSRL) {
+          return (
+            !skipClipIds.has(clip.id) &&
+            (clip.expire_at === null || new Date(clip.expire_at) > new Date())
+          )
+        }
+        // Only return clips that have not been validated before and are not expired
+        return (
+          !skipClipIds.has(clip.id) &&
+          clip.has_valid_clip === 0 &&
+          (clip.expire_at === null || new Date(clip.expire_at) > new Date())
+        )
+      })
+    )
+
+    if (validClips.size >= count) {
+      return Array.from(validClips).slice(0, count)
+    }
+
+    const [clips] = await this.mysql.query(
+      `
+      SELECT *
+      FROM (
+        SELECT clips.*
+        FROM clips
+        LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
+        WHERE is_valid IS NULL
+          AND clips.locale_id = ?
+          AND clips.client_id <> ?
+          AND clips.is_approved = 1
+          AND clips.corpus_id = ? -- <-- filter by corpus_id
+          AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+          AND NOT EXISTS (
+            SELECT clip_id
+            FROM votes
+            WHERE votes.clip_id = clips.id AND client_id = ?
+            UNION ALL
+            SELECT clip_id
+            FROM reported_clips reported
+            WHERE reported.clip_id = clips.id AND client_id = ?
+            UNION ALL
+            SELECT clip_id
+            FROM skipped_clips skipped
+            WHERE skipped.clip_id = clips.id AND client_id = ?
+          )
+          AND sentences.clips_count <= 50
+          ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
+        ORDER BY sentences.clips_count ASC, clips.created_at ASC
+        LIMIT ?
+      ) t
+      ORDER BY RAND()
+      LIMIT ?
+      `,
+      [
+        locale_id,
+        client_id,
+        corpus_id, // <-- passed here
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
+    )
+
+    return clips as DBClip[]
+  }
   async findClipsWithoutTaxonomy(
     client_id: string,
     locale_id: number,
@@ -968,7 +1096,7 @@ export default class DB {
     client_id: string,
     locale_id: number,
     count: number,
-    corpus_id?: string
+    corpus_id: string
   ): Promise<DBClip[]> {
     const [clips] = await this.mysql.query(
       `
@@ -1013,6 +1141,35 @@ export default class DB {
     )
     console.log('without taxonomy', clips)
     return clips as DBClip[]
+  }
+  async getClipsToBeValidatedCorpusId(
+    languageId: number,
+    corpus_id: string, // <-- added
+    limit: number
+  ): Promise<DBClip[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT 
+          c.id as id, 
+          c.path as path, 
+          s.has_valid_clip as has_valid_clip,
+          c.client_id as client_id, 
+          s.text as sentence,
+          c.original_sentence_id as original_sentence_id
+        FROM clips c
+        INNER JOIN 
+          sentences s ON s.id = c.original_sentence_id 
+          AND c.locale_id = ? 
+          AND c.corpus_id = ? -- <-- added condition
+        WHERE 
+          c.is_valid IS NULL 
+        ORDER BY RAND()
+        LIMIT ?
+      `,
+      [languageId, corpus_id, limit] // <-- updated parameters
+    )
+
+    return rows
   }
   //----------------------------
   async findClipsWithFewVotes(

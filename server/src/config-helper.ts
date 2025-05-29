@@ -25,6 +25,7 @@ export type CommonVoiceConfig = {
   MYSQLUSER: string
   MYSQLPASS: string
   MYSQLDBNAME: string
+  MAINCORPUSID: string
   MYSQLHOST: string
   MYSQLREPLICAHOST?: string
   MYSQLPORT: number
@@ -89,6 +90,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MYSQLUSER: configEntry('CV_MYSQLUSER', ''), // For normal DB interactions.
   MYSQLPASS: configEntry('CV_MYSQLPASS', ''),
   MYSQLDBNAME: configEntry('CV_MYSQLDBNAME', ''),
+  MAINCORPUSID: configEntry('MAIN_CORPUS_ID', 'falak'),
   // MYSQLHOST: configEntry('CV_MYSQLHOST', 'localhost'),
   // MYSQLPORT: configEntry('CV_MYSQLPORT', 3306, castInt),
   MYSQLHOST: configEntry('CV_MYSQLHOST', ''),
