@@ -145,6 +145,9 @@ ask-mozilla-share-content = ڪوئي گذرل يان آيا واۯو ڪوئي پ
 ask-mozilla-share-action = تمارون پروگرام شير ڪرو
 download-contribution-certificate = تمارو ڪام يان مدد نو سرٽيفيڪيٽ ڊئونلود ڪرو
 download-contribution-certificate-content = تمان پوتان هارو مدد نو سرٽيفيڪيٽ ڊئونلود ڪرو زي تمين ڪامن وائيس هارو مدد ڪري سي يان ڪام ڪريون سي۔ اي تمان وڳير ممڪن نٿي۔
+# label for button
+download-contribution-certificate-action = سرٽيفڪيٽ حاصل ڪرو
+contribute-github = گِٽ هُب هارو مدد يان ڪام
 
 ## Featured section
 
