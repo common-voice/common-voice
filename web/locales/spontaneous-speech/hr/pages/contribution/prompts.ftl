@@ -5,6 +5,10 @@ mic-access-error = Moraš dozvoliti pristup mikrofonu.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> i odgovori na što prirodniji način
 error-skipping = Došlo je do greške prilikom preskakanja ovog upita
+error-recording = Došlo je do greške prilikom snimanja
+error-uploading-response = Došlo je do greške prilikom prijenosa odgovora
+prompt-submitted-success = Odgovor je uspješno poslan
+prompt-response-deleted-success = Odgovor je uspješno izbrisan
 # For the button to delete a response to a prompt
 delete = Izbriši
 # For the disabled button on a prompt that indicates a prompt is already submitted
