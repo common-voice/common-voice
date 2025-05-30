@@ -5,9 +5,12 @@ transcription-page-instruction = { $actionType } <playIcon></playIcon> Poslušaj
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Provjeri
 # Message which appears when there are no more resources on this page
-no-transcriptions-continue-skipped-message = Trenutačno nema transkripcija za provjeru za ovaj jezik. Ako si neke preskočio/la, možeš nastaviti s preskočenim sadržajem ili transkribirati audio snimku i kasnije ponovo pokušati.
+no-transcriptions-continue-skipped-message = Trenutačno nema transkripcija za provjeru za ovaj jezik. Ako si neke preskočio/la, možeš nastaviti s preskočenim sadržajem ili transkribirati audio snimke i kasnije ponovo pokušati.
 vote-transcript-success = Glasanje za ovu transkripciju je uspjelo
 vote-transcript-error = Došlo je do greške prilikom glasanja za ovu transkripciju
+transcript-edited-success = Transkripcija je uspješno uređena
+transcript-edited-error = Došlo je do greške prilikom uređivanja transkripcije
+error-fetching-transcriptions = Dogodila se greška prilikom dohvaćanja transkripcije. Pokušaj kasnije ponovo.
 transcript-skipped-success = Transkripcija je uspješno preskočena
 transcript-skipped-error = Došlo je do greške prilikom preskakanja prijepisa
 # For the button on the Check Transcriptions page to assert that a transcription is correct

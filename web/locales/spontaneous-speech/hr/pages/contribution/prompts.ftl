@@ -4,6 +4,8 @@ record-player-header = Snimi svoj odgovor
 mic-access-error = Moraš dozvoliti pristup mikrofonu.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> i odgovori na što prirodniji način
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Nema više pitanja za ovaj jezik. Ako si neke preskočio/la, možeš nastaviti s preskočenim sadržajem ili transkribirati audio snimke i kasnije ponovo pokušati.
 error-skipping = Došlo je do greške prilikom preskakanja ovog upita
 error-recording = Došlo je do greške prilikom snimanja
 error-uploading-response = Došlo je do greške prilikom prijenosa odgovora
