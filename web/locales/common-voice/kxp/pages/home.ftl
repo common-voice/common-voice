@@ -121,6 +121,8 @@ action-items-section-subtitle = تقريري متن ني اختياري ڊيٽا
 scripted-card-header = تقريري تحرير
 scripted-card-content = تماري ٻولي مان اوتاۯا جُملا ڀڻو هانَ دُنيا مان تقريري ڊيٽا سيٽ هارو مدد ڪرو۔
 spontaneous-card-header = اختياري تقرير
+spontaneous-card-content = نامياتي، وات سينچ نا سياق و سباق هارو ڊيٽا سيٽ نا ٺاهيا نا اشارا نو جواب آلو۔ زي ٻوليان هارو الاهي هڌرون سي۔
+language-text-card-header = ٻولي نون متن
 
 ## Community section
 
