@@ -33,6 +33,7 @@ respond-to-prompt = Na namołwu wotmołwić
 transcribe = Transkribować
 check-transcriptions = Transkripcije přepruwować
 question = Prašenje
+validate = Přepruwować
 
 ## Not Found Page
 

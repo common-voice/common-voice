@@ -33,6 +33,7 @@ respond-to-prompt = Na naspominanje wótegroniś
 transcribe = Transkriběrowaś
 check-transcriptions = Transkripcije pśeglědowaś
 question = Pšašanje
+validate = Pśeglědowaś
 
 ## Not Found Page
 

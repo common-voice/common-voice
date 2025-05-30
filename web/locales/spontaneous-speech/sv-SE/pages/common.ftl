@@ -33,6 +33,7 @@ respond-to-prompt = Svara på prompt
 transcribe = Transkribera
 check-transcriptions = Kontrollera transkriptioner
 question = Fråga
+validate = Validera
 
 ## Not Found Page
 
