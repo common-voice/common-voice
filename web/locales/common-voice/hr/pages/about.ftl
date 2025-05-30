@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Zašto Common Voice?
+about-header-description-v2 =
+    <p>Common Voice je javno dostupan skup podataka za glasovne podatke, koji je stvoren glasovima volontera diljem svijeta. Ljudi koji žele izraditi glasovne aplikacije mogu koristiti skup podataka za obuku modela strojnog učenja.</p>
+    <p>Trenutačno je većina skupova podataka za glasovne podatke u vlasništvu tvrtki, što guši inovacije. Skupovi podataka za glasovne podatke također nedovoljno predstavljaju: osobe koje ne govore engleskim jezikom, osobe koje nisu bijele boje kože, osobe s invaliditetom, žene i LGBTQIA+ osobe. To znači da tehnologija omogućena glasom uopće ne funkcionira za mnoge jezike, a tamo gdje funkcionira, možda neće jednako dobro funkcionirati za sve. Želimo to promijeniti mobiliziranjem ljudi diljem svijeta da doprinesu svojim glasom.</p>
 how-does-it-work-title-v2 = Kako funkcionira Common Voice?
 how-does-it-work-text = Stvaramo skup podataka glasova otvorenog koda. Daj svoj glas, potvrdi točnost snimaka drugih ljudi, poboljšaj skup podataka za sve korisnike.
 
