@@ -1,5 +1,6 @@
 ## Validate Page
 
+validate-page-instruction = Тасдиқ кунед <validateIcon></validateIcon>, оё ин саволҳо ба дастурамалҳо мувофиқат мекунанд?
 dataset-label = Маҷмуи маълумот
 accept-vote-toast-message = Савол бомуваффақият қабул карда шуд
 reject-vote-toast-message = Савол бомуваффақият рад карда шуд
