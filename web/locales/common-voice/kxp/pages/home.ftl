@@ -148,15 +148,34 @@ download-contribution-certificate-content = تمان پوتان هارو مدد 
 # label for button
 download-contribution-certificate-action = سرٽيفڪيٽ حاصل ڪرو
 contribute-github = گِٽ هُب هارو مدد يان ڪام
+contribute-github-content = آ منصوبو تمان زيوان منکان وڳير مڪمل نٿي۔  ڪامن وائيس مان شامل ٿايا هارو الاهي طريقا سي۔ تمان نين اِي وات نِي ضرورت نٿي ڪي تعاون ڪريا هارو ڪوڍ هوئي۔
+# label for button
+contribute-github-action = گِٽ هُب هارو مدد يان ڪام
 
 ## Featured section
 
+featured-section-title = ڊانچو شڪل صورت
+# icon is an arrow that points downwards
+download-press-pack = امارون پريس پيڪ ڊائون لوڊ ڪرو <icon></icon>
 
 ## Developers section
 
+developers-section-title = عوامي طور مان 130 ٻوليان مان تقرير ڊيٽا سيٽ سي
+developers-section-subtitle = ASR، STT، TTS،  هانَ ٻيزان  NLP سیاق و سباق  هارو atasets - برادري نين شرڪت ٿي تخليق ڪريان جھان سي۔
+# icon is an arrow that points to the right
+explore-datasets = ڊيٽا بيس کوجنائي ڪروي <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = برادري هارو ڊيٽا بيس سپورٽ ڪروون
+read-sentences-link = جملا ڀڻوا
+validate-readings-link = ڀڻيا ني تصديق
+contribute-link = متن نُون مڪمل مواد هارو مدد
+answer-questions-link = سوال جواب
+transcribe-answers-link = جواب ني نقل اوتاروي
+review-transcriptions-link = نقل ني دوهرائي
+contribute-text-link = متن هارو مدد
+press-and-stories-link = پريس ڪهاڻيون
 
 ## Partner section
 
