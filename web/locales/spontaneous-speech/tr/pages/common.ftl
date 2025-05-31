@@ -24,6 +24,8 @@ skip-button = Atla
 submit-button = Gönder
 contribute = Katkı ver
 request-new-language = Yeni dil iste
+# Button text which appears when there are no more resources
+continue-with-skipped = Atladıklarınla devam et
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Yanıtla
 transcribe = Metne Çevir
 check-transcriptions = Metne Çevrilmişleri Denetle
 question = Soru
+validate = Doğrula
 
 ## Not Found Page
 
