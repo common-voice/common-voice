@@ -33,6 +33,7 @@ respond-to-prompt = Auf Frage antworten
 transcribe = Transkribieren
 check-transcriptions = Transkripte überprüfen
 question = Frage
+validate = Überprüfen
 
 ## Not Found Page
 
