@@ -33,6 +33,7 @@ respond-to-prompt = Απάντηση σε προτροπή
 transcribe = Μεταγραφή
 check-transcriptions = Έλεγχος μεταγραφών
 question = Ερώτηση
+validate = Επικύρωση
 
 ## Not Found Page
 
