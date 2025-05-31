@@ -8,3 +8,5 @@ request-language-form-info =
 request-language-form-info-explanation-list-1 = تے زبانن نامے
 request-language-form-info-explanation-list-2 = <isoCodeLink>آئی ایس او کوڈز</isoCodeLink>کہ نتو معلوم
 request-language-form-info-explanation-list-3 = ویب سائٹس کہ وئے ڤے زبان دے ڤزدا لے ماخ مدد کینت
+# Success page
+request-language-success-heading = شکریہ! تو دے یو نوؤ زبان باری سوال ݰیکاڑیت
