@@ -179,3 +179,14 @@ press-and-stories-link = پريس ڪهاڻيون
 
 ## Partner section
 
+partner-section-title = امان ٿي شراڪت داري
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ٽيڪ ڪمپنيون</bold> - تيار ٿي مور مختلف ٻوليان مان  AI ماحول هارو اوپن ڊيٽا سيٽ ني تخليق هارو وڌاري فائيدا هارو سي۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>سول سوسائيٽي هانا محققین</bold> - مفت مان موجود ڊيٽا سیٽس تيار ڪرو، میزبانی ڪرو هانَ شڪل تيار ڪرو۔
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>منکاۮئي، ڌوستي</bold> - مقامی جدت هانَ ترقی ني دهيان آليا هارو ڊيٽاسيٽ ني تخليق مانَ آلي سي۔
+# icon is an arrow that points to the right
+get-in-touch-button = رابطا مان رو <icon></icon>
+# Partners section
+our-partners-include = اماري شرڪت شامل سي
