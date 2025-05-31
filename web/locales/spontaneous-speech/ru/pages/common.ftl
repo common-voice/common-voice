@@ -33,6 +33,7 @@ respond-to-prompt = Ответить на запрос
 transcribe = Транскрибировать
 check-transcriptions = Проверить транскрипции
 question = Вопрос
+validate = Проверить
 
 ## Not Found Page
 
