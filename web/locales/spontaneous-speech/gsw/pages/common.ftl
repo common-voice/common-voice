@@ -4,12 +4,38 @@
 error = Fahler
 action-click = Klicke
 action-tap = Àntippe
+# Label for language switcher
+platform-language = Sproch vùn de Plàttform
+platform-language-tooltip-text = Andert nùmme de Text vùn de Websitt.
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = Mìtmàche àm <bold>{ $language }</bold> Dàtesàtz
+contribution-picker-tooltip-text = Verandert d’Sproch vùm Dàtesàtz, ze dem, wo-n’r dezü bitraawe
+coming-soon = Bàll kùmme néji Sproche dezü
+media-recorder-api-not-supported = Die MediaRecorder-API wird von Ihrem Browser nicht unterstützt.
+# Toast message that is displayed when an item is skipped
+skipped = Ìwwerghüpst
+audioplayer-header = Horiche/Losse
+guidelines = Vorschrìfte
+# For the button to report an item
+report-button = Malde
+# For the button to skip an item
+skip-button = Ìwwerhüpse
+submit-button = Fùrtschìcke
+contribute = Mìtmàche
+request-new-language = Néji Sproch vorschlaawe
 
 ## Navbar
 
+respond-to-prompt = Ùff d’Fröj Àntwùrt gann
+transcribe = Trànschkribiere
+check-transcriptions = Trànschkriptione noochlüeje
+question = Fröj
 
 ## Not Found Page
 
+not-found-page-header = Nìtt gfùnde
+not-found-page-content = D’Sitt, wo-n’r süeche, ìsch nierigs ze fìnde
 
 ## Language search component
 

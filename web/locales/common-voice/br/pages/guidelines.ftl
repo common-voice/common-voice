@@ -107,6 +107,24 @@ domain-explanation = Ober a ra an domani dave da dachenn ar frazenn. Evit poent 
 
 ## Question collection ids
 
+adding-questions = Ouzhpennañ goulennoù
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Peseurt goulennoù zo mat ?
+what-makes-a-good-question-explanation = Ur goulenn a-feson evit ma kemerfe perzh an dud e savidigezh strobadoù roadennoù a zle :
+what-makes-a-good-question-explanation-criteria-1 = Bezañ aes da gompren ha da respont dezhañ
+what-makes-a-good-question-explanation-criteria-2 = Bezañ dedennus dre vras
+what-makes-a-good-question-explanation-criteria-3 = Na implijout na boudañ ober gant gerioù tagus pe feukus
+what-makes-a-good-question-tip = Gallout a rit  soñjal e tachennoù pe kendestennoù a bep seurt ivez.
+easy-to-understand = Aes da gompren
+easy-to-understand-explanation = Dibabit goulennoù eeun a c'hall forzh piv respont dezho, ne vern o sevenadur pe ar gendestenn.
+spelling-and-pronunciation = Reizhskrivadur ha poentadur
+spelling-and-pronunciation-explanation = Reizh e rank bezañ an doare-skrivañ hag ar yezhadur.
+length = Hirder
+length-explanation = Ar goulenn a ranker gallout respont dezhañ gant un nebeud frazennoù hepken.
+dont-add-subheader = Arabat ouzhpennañ
+culturally-specific-questions = Goulennoù dibar a-fet sevenadur
+culturally-specific-questions-explanation = Goulennoù a denn d'ur sevenadur bennak resis pe a c'houlenn gouzout en a-raok traoù diuwar-benn an hini a responto
+length-avoid-explanation = Goulennoù a vo lakaet diaes an dud evit respont dezho dindan 15 eilenn (hirder brasañ un enrolladenn)
+process-steps = Argerzh / Pazennoù
