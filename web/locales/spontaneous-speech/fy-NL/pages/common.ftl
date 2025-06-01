@@ -33,6 +33,7 @@ respond-to-prompt = Prompt beäntwurdzje
 transcribe = Transkribearje
 check-transcriptions = Transkripsjes kontrolearje
 question = Fraach
+validate = Falidearje
 
 ## Not Found Page
 
