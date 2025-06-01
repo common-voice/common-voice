@@ -13,3 +13,9 @@ report-other-comment =
     .placeholder = Kommentàr
 # Label for textarea in report modal
 other = Ebs ànderscht
+report-error = Bim Fùrtschìcke vùm Berìcht het ebs nìtt geklàppt
+# Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
+continue = Witterscht
+# Header for report modal after successful reporting
+success = Erfolig
+report-success-message = De Berìcht ìsch mìt Erfolig fùrtgschìckt wùrre

@@ -21,6 +21,7 @@ submit-all-button = Àlles fùrtschìcke
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = Lehre, wie die Sitt benùtzt wùrd
 learn-how-to-use-prompts-explanation = Gann einfàch ìn e pààr Satz ùff d’Fröj eso nàdirlich wie méjlich Àntwùrt. Bàsse ùff, àss dìss, wàs’r saawe, reschpektvoll ìsch ùn nieme verletzt.
 learn-how-to-use-prompts-guidance = Klicke <guidanceLink>do</guidanceLink> drùff, fer ze erfàhre, wie die Sitt benùtzt wùrd
 learn-how-to-use-transcribe = Lehre, wie m’r trànschkribiert
