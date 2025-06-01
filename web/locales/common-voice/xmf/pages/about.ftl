@@ -41,6 +41,7 @@ about-get-involved = ქუმაკათით
 about-get-involved-text-2 = გიღუნანო ზალამი Common Voice-იშ გაუჯგუშებას ქჷდმეხვარათჷნი? ჰერებამი! ქიდმეკავშირით ელფოსტათ ვარდა <discourseLink>Discourse-ით</discourseLink> ფორუმეფს, ქუმომჯღონით მუ პრობლემეფი უღუ საიტის <githubLink>GitHub-ის</githubLink>, ვარდა ქუმაკათით<matrixLink>Matrix-იშ</matrixLink> კათაშ ოჩიებეს.
 about-stay-in-touch = მუჭო დოფსკიდა კავშირს?
 about-stay-in-touch-button = ანგარიშიშ აკოქიმინუა
+about-stay-in-touch-text-1 = <emailFragment> დერეგისტრირით </emailFragment> ჩქინ ელფოსტაში ბუნას დო ქიგეგით, მუჭო შეილებუნა მონაწილეობა მიღათ კომპანიეფშა, ღონისძიებეფშა დო Common Voice-იშ თანადიზაინიშ ფუნქციეფიშა.
 about-nav-why-common-voice = მუშენი?
 about-nav-how-it-works = მუჭო?
 about-nav-partners = ალმახანდეეფი
