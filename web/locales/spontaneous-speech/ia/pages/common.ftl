@@ -33,6 +33,7 @@ respond-to-prompt = Responder al Sollicitation
 transcribe = Transcriber
 check-transcriptions = Verificar transcriptiones
 question = Question
+validate = Validar
 
 ## Not Found Page
 
