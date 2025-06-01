@@ -3,6 +3,7 @@ guidelines-header = Sturiadurioù ar c'hemer perzh
 guidelines-header-subtitle = Kompren penaos kemer perzh hag aprouiñ frazennoù hag enrolladennoù son e strobad roadennoù Common voice
 voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumad frazennoù
+question-collection = Dastum goulennoù
 
 ## Voice Collection nav ids
 
