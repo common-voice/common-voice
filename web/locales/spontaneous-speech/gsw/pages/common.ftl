@@ -36,6 +36,28 @@ question = Fröj
 
 not-found-page-header = Nìtt gfùnde
 not-found-page-content = D’Sitt, wo-n’r süeche, ìsch nierigs ze fìnde
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Ìch stìmm de <termsLink>Benùtzùngsbedìngùnge</termsLink> ùn de <privacyLink>Dàteschùtzerklärùng</privacyLink> vùn Common Voice zü
+# Locales
+bsy = Sabah-Bisaya
+cdo = Fuzhou
+cpx = Heng Hua
+en = Anglisch
+fr = Frànzeesch
+hch = Wixarika
+kzi = Kelàbit
+mbf = Baba-Màlaisisch
+meh = Mixtek vùn Südwescht-Tlaxiaco
+mel = Zentràl-Melanau
+mmc = Michoacán-Mazahua
+ms-MY = Bahasa-Màlaisisch
+msi = Sabah-Màlaisisch
+pez = Oscht-Penan
+pne = Wescht-Penan
+sdo = Serian-Bidayuh
+snv = Sa’ban
+tr = Tìrikisch
+xkl = Kenyah
 
 ## Language search component
 
