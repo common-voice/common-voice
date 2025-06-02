@@ -129,6 +129,7 @@ contribution-background-noise-description = Tikufuna kuti malogaritimo ya upfund
 contribution-background-noise-description-extended = Kukoyiwa kwa fala kunganeseka, lambani, pinango pangakhala pakubveka mafalawo, bvumani.
 contribution-background-noise-example-1-fixed-title = <strong>[Exipiro]</strong> Bzinyama bzikulubzikulu <strong>[cifuwa]</strong> Tiriyasiko.
 contribution-background-noise-example-2-fixed-title = Cinyama cikulu <strong>[cifuwa]</strong> ca Tiriyasiko.
+contribution-background-noise-example-2-explanation = [Mbali la tsamba la nkhani lomwe lingabvedwe lini]
 contribution-background-noise-example-3-fixed-title = <strong>[Exitalo]</strong> bzinyama bzikulubzikulu bza <strong>[exitalo]</strong> -riyasiko.
 contribution-background-voices-title = Kubveka kwa mafala kutalitali
 contribution-background-voices-description = Kubveka kwa kukuwa kwa anthu kutalitali palibe bvuto, koma tinafuna lini kubva baludya inango yomwe ingacitise kuti logaritimo ya nchini ya kukoya fala ikhonde kukoya mafala yomwe anembedwa patsamba. Imwe mungakwanisa kubva mafala yomwe adasiyana na yomwe ali patsamba, kaseti tenki kulambiya. Bzinthu ninga ibzi bzimbacitika pangakhala kuti televisawu ya siyiwa idaliziwa penu pakuceza abthu pafupi.
