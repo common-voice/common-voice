@@ -83,6 +83,7 @@ if (process.env.DOTENV_CONFIG_PATH) {
         { from: 'releases', to: 'releases' },
         // copy the locales JSON files
         { from: '../locales', to: 'languages' },
+        { from: 'img', to: 'img' },
       ],
     }),
 
