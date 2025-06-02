@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، 
 add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
 review-sentences-menu-item-tooltip = تان وارو جملان وا لوڑے
 add-questions-menu-item-tooltip = تان وارا سوال شامل کو
+review-questions-menu-item-tooltip = وا لوڑیکو سوال
 transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیویشیکا انگے
 
 ## MENU ITEM ARIA LABELS
