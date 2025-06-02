@@ -33,6 +33,7 @@ respond-to-prompt = Odpovedať na výzvu
 transcribe = Prepis
 check-transcriptions = Skontrolujte prepisy
 question = Otázka
+validate = Skontrolovať
 
 ## Not Found Page
 
