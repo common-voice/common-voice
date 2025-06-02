@@ -33,6 +33,7 @@ respond-to-prompt = პასუხი
 transcribe = ტრანსკრიბირება
 check-transcriptions = შემოწმება
 question = შეკითხვა
+validate = შემოწმება
 
 ## Not Found Page
 
