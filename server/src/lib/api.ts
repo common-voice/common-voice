@@ -97,7 +97,7 @@ export default class API {
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
 
     router.get('/language/accents/:locale?/:corpus_id?', this.getAccents)
-    router.get('/language/variants/:locale?/corpus_id?', this.getVariants)
+    router.get('/language/variants/:locale?/:corpus_id?', this.getVariants)
     router.post(
       '/language/request',
       // 10 requests per minute
