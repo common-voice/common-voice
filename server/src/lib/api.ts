@@ -96,8 +96,8 @@ export default class API {
     router.post('/user_client/takeout/request', this.requestTakeout)
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
 
-    router.get('/language/accents/:locale?', this.getAccents)
-    router.get('/language/variants/:locale?', this.getVariants)
+    router.get('/language/accents/:locale?/:corpus_id?', this.getAccents)
+    router.get('/language/variants/:locale?/corpus_id?', this.getVariants)
     router.post(
       '/language/request',
       // 10 requests per minute
@@ -162,7 +162,7 @@ export default class API {
   // }
   getRandomSentences = async (request: Request, response: Response) => {
     const { client_id } = request
-    const { locale,corpus_id } = request.params
+    const { locale, corpus_id } = request.params
 
     // the validator coerces count into a number but doesn't update the type
     const count: number = (request.query.count as never) || 1
@@ -616,13 +616,21 @@ export default class API {
 
   getAccents = async ({ client_id, params }: Request, response: Response) => {
     response.json(
-      await this.model.db.getAccents(client_id, params?.locale || null)
+      await this.model.db.getAccents(
+        client_id,
+        params?.locale || null,
+        params?.corpus_id || null
+      )
     )
   }
 
   getVariants = async ({ client_id, params }: Request, response: Response) => {
     response.json(
-      await this.model.db.getVariants(client_id, params?.locale || null)
+      await this.model.db.getVariants(
+        client_id,
+        params?.locale || null,
+        params?.corpus_id || null
+      )
     )
   }
 

@@ -2053,14 +2053,18 @@ export default class DB {
     )[0][0].count
   }
 
-  async getVariants(client_id: string, locale?: string) {
+  async getVariants(client_id: string, locale?: string, corpus_id?: string) {
     const [variants] = await this.mysql.query(
       `
       SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name FROM variants v
       LEFT JOIN locales ON v.locale_id = locales.id
-       ${locale ? 'WHERE locale_id = ?' : ''}
+      ${locale ? 'WHERE locale_id = ?' : ''}
+      ${corpus_id ? (locale ? 'AND corpus_id = ?' : 'WHERE corpus_id = ?') : ''}
       `,
-      locale ? [await getLocaleId(locale)] : []
+      [
+        ...(locale ? [await getLocaleId(locale)] : []),
+        ...(corpus_id ? [corpus_id] : []),
+      ]
     )
 
     if (!variants) return
@@ -2083,14 +2087,15 @@ export default class DB {
     return mappedVariants
   }
 
-  async getAccents(client_id: string, locale?: string) {
+  async getAccents(client_id: string, locale?: string, corpus_id?: string) {
     const [accents] = await this.mysql.query(
       `
       SELECT name as lang, accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
       LEFT JOIN locales ON a.locale_id = locales.id
       WHERE (NOT user_submitted OR client_id = ?)
+      ${corpus_id ? 'AND a.corpus_id = ?' : ''}
       `,
-      [client_id]
+      [client_id, ...(corpus_id ? [corpus_id] : [])]
     )
 
     const mappedAccents = accents.reduce((acc: any, curr: any) => {
@@ -2105,10 +2110,8 @@ export default class DB {
       }
 
       if (curr.accent_name === '') {
-        // Each language has a default accent placeholder for unspecified accents
         acc[curr.lang].default = accent
       } else if (curr.user_submitted) {
-        // Note: currently the query only shows the user values that they created
         acc[curr.lang].userGenerated[curr.accent_id] = accent
       } else {
         acc[curr.lang].preset[curr.accent_id] = accent
