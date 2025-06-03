@@ -2054,13 +2054,15 @@ export default class DB {
   }
 
   async getVariants(client_id: string, locale?: string, corpus_id?: string) {
+    const main_corpus_id = this.config.MAINCORPUSID
+    const actual_corpus_id = corpus_id || main_corpus_id
     const [variants] = await this.mysql.query(
       `
       SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name FROM variants v
       LEFT JOIN locales ON v.locale_id = locales.id
       ${locale ? 'WHERE locale_id = ?' : ''}
       ${
-        corpus_id
+        actual_corpus_id
           ? locale
             ? 'AND v.corpus_id = ?'
             : 'WHERE v.corpus_id = ?'
@@ -2069,7 +2071,7 @@ export default class DB {
       `,
       [
         ...(locale ? [await getLocaleId(locale)] : []),
-        ...(corpus_id ? [corpus_id] : []),
+        ...(actual_corpus_id ? [actual_corpus_id] : []),
       ]
     )
 
@@ -2094,14 +2096,16 @@ export default class DB {
   }
 
   async getAccents(client_id: string, locale?: string, corpus_id?: string) {
+    const main_corpus_id = this.config.MAINCORPUSID
+    const actual_corpus_id = corpus_id || main_corpus_id
     const [accents] = await this.mysql.query(
       `
       SELECT name as lang, accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
       LEFT JOIN locales ON a.locale_id = locales.id
       WHERE (NOT user_submitted OR client_id = ?)
-      ${corpus_id ? 'AND a.corpus_id = ?' : ''}
+      ${actual_corpus_id ? 'AND a.corpus_id = ?' : ''}
       `,
-      [client_id, ...(corpus_id ? [corpus_id] : [])]
+      [client_id, ...(actual_corpus_id ? [actual_corpus_id] : [])]
     )
 
     const mappedAccents = accents.reduce((acc: any, curr: any) => {
