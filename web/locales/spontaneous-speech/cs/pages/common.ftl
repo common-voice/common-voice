@@ -24,6 +24,8 @@ skip-button = Přeskočit
 submit-button = Odeslat
 contribute = Přispět
 request-new-language = Požádat o nový jazyk
+# Button text which appears when there are no more resources
+continue-with-skipped = Pokračovat s přeskočenými
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Odpovědět na výzvu
 transcribe = Přepis
 check-transcriptions = Zkontrolovat přepisy
 question = Otázka
+validate = Zkontrolovat
 
 ## Not Found Page
 

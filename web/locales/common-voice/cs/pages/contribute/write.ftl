@@ -164,6 +164,7 @@ write-contribute-menu-tooltip = Přidávejte a kontrolujte věty, přidávejte o
 add-sentences-menu-item-tooltip = Přidávejte věty ve vašem jazyce
 review-sentences-menu-item-tooltip = Kontrolujte věty ve vašem jazyce
 add-questions-menu-item-tooltip = Přidejte otázky ve vašem jazyce
+review-questions-menu-item-tooltip = Kontrolujte otázky
 transcribe-audio-menu-item-tooltip = Přepisujte zvukové nahrávky ve vašem jazyce
 
 ## MENU ITEM ARIA LABELS
