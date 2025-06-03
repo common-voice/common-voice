@@ -26,7 +26,7 @@ if (process.env.DOTENV_CONFIG_PATH) {
         )
       }
     } else {
-      const result = dotenv.config()
+      const result = dotenv.config({ path: '../.env' })
     if (result.error) {
       console.log(result.error)
       console.log('Failed loading .env file, using defaults')
