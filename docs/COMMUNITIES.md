@@ -37,7 +37,7 @@ Many language communities are self organising and have their contact channels on
 * Czech (`cs`):
   * [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
 * Dargwa (`dar`):
-  * [Telegram](tg://resolve?domain=+ILBnBMEo-Bc3ODky)  
+  * [Telegram](https://t.me/+ILBnBMEo-Bc3ODky) 
 * Dhivehi (`dv`):
   * [Web](https://dhivehi.ai/)
   * [Discord](https://discord.com/invite/5ZdTHsN8Mn)
