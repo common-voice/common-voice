@@ -553,12 +553,20 @@ export default class API {
     return await this.fetch(`${API_PATH}/server_date`)
   }
 
-  getAccents(lang?: string) {
-    return this.fetch(`${API_PATH}/language/accents${lang ? '/' + lang : ''}`)
+  getAccents(lang?: string, datasource?: string) {
+    return this.fetch(
+      `${API_PATH}/language/accents${lang ? '/' + lang : ''}${
+        datasource ? '/' + datasource : ''
+      }`
+    )
   }
 
-  getVariants(lang?: string) {
-    return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`)
+  getVariants(lang?: string, datasource?: string) {
+    return this.fetch(
+      `${API_PATH}/language/variants${lang ? '/' + lang : ''}${
+        datasource ? '/' + datasource : ''
+      }`
+    )
   }
 
   getDatasets(releaseType: string) {

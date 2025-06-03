@@ -182,6 +182,8 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   componentDidMount() {
+    this.props.setDatasourceId(this.props.match.params.datasource || '')
+
     const { loadSentences } = this.props
     loadSentences(this.props.match.params.datasource || '')
 
