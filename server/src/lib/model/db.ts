@@ -2059,7 +2059,13 @@ export default class DB {
       SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name FROM variants v
       LEFT JOIN locales ON v.locale_id = locales.id
       ${locale ? 'WHERE locale_id = ?' : ''}
-      ${corpus_id ? (locale ? 'AND corpus_id = ?' : 'WHERE corpus_id = ?') : ''}
+      ${
+        corpus_id
+          ? locale
+            ? 'AND v.corpus_id = ?'
+            : 'WHERE v.corpus_id = ?'
+          : ''
+      }
       `,
       [
         ...(locale ? [await getLocaleId(locale)] : []),
