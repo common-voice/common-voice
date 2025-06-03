@@ -3,6 +3,8 @@
 dataset-label = Skup podataka
 accept-vote-toast-message = Uspješno prihvaćeno pitanje
 reject-vote-toast-message = Uspješno odbijeno pitanje
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = Nema više pitanja za ovaj jezik. Ako si neke preskočio/la, možeš nastaviti s preskočenim sadržajem ili transkribirati audio snimke i kasnije ponovo pokušati.
 validate-page-yes-button-shortcut = D
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = P
