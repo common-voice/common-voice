@@ -6,6 +6,8 @@ wall-of-text = Common Voice გუთმონწყუნს მაჟირა
 why-spontaneous-speech = მუშენ აკოფქიმინით თე სპონტანურ ჩიებაშ მოდელი
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = მოსახვარე იჸუაფუ <mark> ორთაშური ჩიებაშ კონტექსტეფი </mark> დო გუმორინაფაშ შემთხვევეფიშოთ (მაგალთო, მუჟამს მუშენთ ზეპირი რაგადიში დო ირდღარი ოჩიებე ნინაშ ეშაჩინებაშენი)
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = უჯგუში ხუჯიშ მეჩამა თიცალ ნინეფშოთ, ნამუსუთ ჭიჭე ვარდა <mark> შუროთ ვაუღუ ტექსტურ კორპუსი </mark> გუმარინაფალო (მაგალთო, სოციოლექტეფი, შხვადოშხვა ნერობა, ისტორიულო უდამწერლობო ნინეფი დო შხვა)
 how-spontaneous-speech-works = მუჭო მუშენს სპონტანურ ჩიება
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>მოთხუალა</mark>
@@ -21,7 +23,7 @@ check-bubble-title = <mark>გინოჯინა</mark>
 check-bubble-subtitle = ქიგნაჯინით, ნაჭარათ გინორთელი ხონარუან ინნაჭარაში მანგი ქორე თუ ვარჷნი
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark> მუნაჩემეფი </mark>
-data-bubble-subtitle = ჩქი პერიოდულო გუმუაქიანენთ მუნაჩემეფიშ ბაზას
+data-bubble-subtitle = ჩქი პერიოდულო გუმუაქიანენთ მუნაჩემეფიშ კათელს
 contact-us = ქიდმეკავშირით
 contact-us-email = ელფოსტა:<emailFragment> commonvoice@mozilla.com </emailFragment>
 signup-form-title = თქვა ანწი რეთო Beta-გინოჯინაში ჩქინ ბუნას Common Voice’s-იშ სპონტანურ ჩიებაში პროექტის?
