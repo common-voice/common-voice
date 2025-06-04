@@ -1,7 +1,7 @@
 ## Profile Download
 
-download-q = გოსაჭირუნანო თქვან მუნაჩემეფიშ გუმოხარგუა?
-download-info = ქომიწით მუში გუმოხარგუა გოკონანი:
+download-q = გოსაჭირუნანო თქვან მუნაჩემეფიშ გიმოხარგუა?
+download-info = ქომიწით მუში გიმოხარგუა გოკონანი:
 download-profile-title = პროფილი
 download-profile-info = თეშ დინახალე ელფოსტა, მუმახვარებელიშ სახელი დო დემოგრაფიულ მუნაჩემეფი, ხეშმიოჭირინაფალ რე.
 download-profile-size = ართ-ჟირ ბაიტი
@@ -14,7 +14,7 @@ download-size = ზომა
 download-selected = გჷშაგორილი
 download-start = პროფილიშ მუნაჩემეფიშ გიმოხარგუა
 download-request = ინნაჭარეფიშ მოთხუალა
-download-requests = კინოხონი ინნაჭარეფიშ გიმოჭარუაშ მოთხუალა
+download-requests = კინოხონი ინნაჭარეფიშ გიმოხარგუაშ მოთხუალა
 download-requests-info = მუჟამს მითხინთ თქვან ინნაჭარეფსჷნი, ჩქი თინეფს ფშაყარანთ ართი ვარდა ართ-ჟირ ZIP ფაილს. თაქ რე თქვანი კინოხონი მოთხუალეფი:
 download-request-button = გიმოხარგუა
 download-request-title = { $created }
