@@ -131,8 +131,18 @@ add-small-batch-success =
         [one] { $uploadedSentences } د { $totalSentences } جملو راټول شوي
        *[other] { $uploadedSentences } د { $totalSentences } جملو راټول شوي
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] د { $uploadedSentences } 1 جمله راټوله شوي. د رد شویو جملو ډاونلوډ کولو لپاره دلته <downloadLink> کلیک وکړئ</downloadLink>.
+       *[other] د { $totalSentences } جملو څخه { $uploadedSentences } راټول شوي. د رد شویو جملو ډاونلوډ کولو لپاره دلته <downloadLink> کلیک وکړئ</downloadLink>.
+    }
 small-batch-sentences-rule-1 = لارښوونې تعقیب کړئ د "کوم جملې اضافه کولی شم؟"
+small-batch-sentences-rule-2 = په هره کرښه کې یوه جمله اضافه کړئ
+small-batch-sentences-rule-3 = جملې په یوه کرښه کې جلا کړئ د "Enter" یا "Return" په کلیک کولو سره
 small-batch-sentences-rule-4 = تر 1,000 جملو پورې اضافه کړئ
+small-batch-sentences-rule-5 = ټولې جملې باید ورته ډومین ولري
+small-batch-sentences-rule-6 = ټولې جملې باید ورته اقتباس ولري
 # menu item
 add-sentences = جملې اضافه کړئ
 
@@ -142,10 +152,14 @@ write-contribute-menu-tooltip = جملې اضافه کړئ او بیاکتنه �
 add-sentences-menu-item-tooltip = په خپله ژبه کې جملې اضافه کړئ
 review-sentences-menu-item-tooltip = په خپله ژبه کې جملې بیاکتنه وکړئ
 add-questions-menu-item-tooltip = په خپله ژبه کې پوښتنې اضافه کړئ
+review-questions-menu-item-tooltip = د پوښتنو بیاکتنه
 transcribe-audio-menu-item-tooltip = په خپله ژبه کې د آډیو ریکارډونه په متن کې انتقال کړئ
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = د لیکلو اختیارونو مینو
 add-sentences-menu-item-aria-label = د ټولنې د لوستلو لپاره نوې جملې اضافه کړئ
 review-sentences-menu-item-aria-label = د ټولنې لخوا وړاندې شوي موجوده جملې بیاکتنه وکړئ
+add-questions-menu-item-aria-label = ټولنې ته د لوستلو او ځواب ورکولو لپاره نوې پوښتنې وسپارئ
+review-questions-menu-item-aria-label = د ټولنې لخوا وړاندې شوي نوي پوښتنو ته بیاکتنه او رایه ورکړئ
 transcribe-audio-menu-item-aria-label = د آډیو ریکارډونه په متن کې انتقال کړئ

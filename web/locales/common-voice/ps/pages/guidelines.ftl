@@ -3,6 +3,7 @@ guidelines-header = د ونډې لارښوونې
 guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسیټ ته د جملو او آډیو کلیپونو مرسته او اعتبار ورکړئ
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
+question-collection = د پوښتنو ټولګه
 
 ## Voice Collection nav ids
 
@@ -105,6 +106,17 @@ domain-explanation = ډومین د جملې موضوع ته اشاره کوي. �
 
 ## Question collection ids
 
+adding-questions = د پوښتنو اضافه کول
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-explanation = د عامه ګډون ډیټاسیټونو لپاره یوه ښه پوښتنه باید:
+what-makes-a-good-question-explanation-criteria-1 = په اسانۍ سره پوه شئ او ځواب ورکړئ
+what-makes-a-good-question-explanation-criteria-2 = په عمومي ډول اړونده اوسئ
+what-makes-a-good-question-explanation-criteria-3 = زیان رسوونکې یا سپکونکې ژبه مه کاروئ، یا یې غوښتنه مه کوئ
+what-makes-a-good-question-tip = تاسو ممکن د مختلفو شرایطو او ساحو پراخولو په اړه هم فکر وکړئ.
+easy-to-understand = د پوهیدو لپاره اسانه
+easy-to-understand-explanation = ساده پوښتنې غوره کړئ چې د هرچا لپاره د پوهیدو لپاره اسانه وي، پرته له دې چې کلتور یا شرایط په پام کې ونیول شي.
+spelling-and-pronunciation = املا او نښانونه
+spelling-and-pronunciation-explanation = سم املا او ګرامر وکاروئ.
+length = اوږدوالی
