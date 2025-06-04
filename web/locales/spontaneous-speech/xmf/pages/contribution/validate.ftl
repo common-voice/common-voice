@@ -14,5 +14,7 @@ validate-page-skip-button-shortcut = გ
 ## Validation guidelines
 
 validation-guidelines-title = შარაშმაწურაფალი
+validation-guideline-1 = მოვარებულ რე პირადი ინფორმაციაში მოთხუალა (მაგალთო, სახელეფი, ფინანსურ დეტალეფი)
+validation-guideline-2 = მოვარებულ რე ოლანძღარი, დისკრიმინაციული ვარდა სენსიტიურ ოკითხირეფი
 validation-guideline-3 = მარტივი დო არძაშო ანდვილო გაგებელი
 validation-guideline-4 = არ-ჟირ ზიტყვასქვილით რე შიოლებერი გამაშ მეჩამა
