@@ -102,10 +102,34 @@ small-batch-instruction = د عامه ډومین ډېري جملې اضافه ک
 multiple-sentences-error = تاسو نشئ کولی د یوې سپارښتنې لپاره د يوې نه ډیرې جملې اضافه کړئ
 exceeds-small-batch-limit-error = نشي کولی له 1000 څخه زیات جملې وړاندې کړي
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] د نرخ حد تېر شو. په یوه دقیقه کې بیا هڅه وکړئ
+       *[other] د نرخ حد تېر شو. په { $retryLimit } دقیقو کې بیا هڅه وکړئ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] د نرخ حد تېر شو. په ۱ ثانیه کې بیا هڅه وکړئ
+       *[other] د نرخ حد زیات شو. په { $retryLimit } ثانیو کې بیا هڅه وکړئ
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] تاسو د دې پاڼې لپاره د سپارلو حد ته رسیدلی یاست. مهرباني وکړئ د بلې جملې وړاندې کولو دمخه 1 دقیقې انتظار وکړئ. ستاسو د صبر لپاره مننه!
        *[other] تاسو د دې پاڼې لپاره د سپارلو حد ته رسیدلی یاست. مهرباني وکړئ د بلې جملې وړاندې کولو دمخه { $retryLimit } دقیقو انتظار وکړئ. ستاسو د صبر لپاره مننه!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تاسو د دې پاڼې لپاره د سپارلو حد ته رسیدلي یاست. مهرباني وکړئ د بلې جملې د سپارلو دمخه د 1 ثانیې انتظار وکړئ. ستاسو د صبر لپاره مننه!
+       *[other] تاسو د دې پاڼې د سپارلو حد ته رسیدلي یاست. مهرباني وکړئ د بلې جملې د سپارلو دمخه د { $retryLimit } ثانیو لپاره انتظار وکړئ. ستاسو د صبر لپاره مننه!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } د { $totalSentences } جملو راټول شوي
+       *[other] { $uploadedSentences } د { $totalSentences } جملو راټول شوي
     }
 small-batch-sentences-rule-1 = لارښوونې تعقیب کړئ د "کوم جملې اضافه کولی شم؟"
 small-batch-sentences-rule-4 = تر 1,000 جملو پورې اضافه کړئ
