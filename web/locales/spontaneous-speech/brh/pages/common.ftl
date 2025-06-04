@@ -33,6 +33,7 @@ respond-to-prompt = ورندی
 transcribe = مٹ کننگ
 check-transcriptions = ولدا ہوربوتے
 question = سوج
+validate = تصدیق کننگ
 
 ## Not Found Page
 
