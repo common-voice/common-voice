@@ -61,3 +61,7 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = E Sproch süeche…
+language-search-aria-label = E Sproch süeche
+language-search-label = Nùmme d’Sproch fer ’s Mìtmàche àm Dàtesàtz andere
+language-search-no-results = Kenn Sproche gfùnde
