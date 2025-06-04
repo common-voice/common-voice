@@ -4,6 +4,8 @@ welcome-to-spontaneous-speech = ჯგირი ორდას თქვან 
 # <br></br> represents a newline break
 wall-of-text = Common Voice გუთმონწყუნს მაჟირა პლატფორმას, ნამუთ უმოს ცორცხალი, დაუგეგმავი დო ზეპირ ჩიებაშ ინნაჭარეფს აკოშაყარანს. თენა დეხვარებუ ჩქინ ბუნაში მაკათურეფს მუნაჩემეფი მალას აკოკორობანინი. თეწკჷმა ართო მორგე იჸუაფუ მუნაჩემეფიშ სპეციალისტეფიშოთ.
 why-spontaneous-speech = მუშენ აკოფქიმინით თე სპონტანურ ჩიებაშ მოდელი
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = მოსახვარე იჸუაფუ <mark> ორთაშური ჩიებაშ კონტექსტეფი </mark> დო გუმორინაფაშ შემთხვევეფიშოთ (მაგალთო, მუჟამს მუშენთ ზეპირი რაგადიში დო ირდღარი ოჩიებე ნინაშ ეშაჩინებაშენი)
 how-spontaneous-speech-works = მუჭო მუშენს სპონტანურ ჩიება
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>მოთხუალა</mark>
