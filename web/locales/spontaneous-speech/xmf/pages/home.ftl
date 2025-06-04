@@ -27,6 +27,7 @@ data-bubble-subtitle = ჩქი პერიოდულო გუმუაქ�
 contact-us = ქიდმეკავშირით
 contact-us-email = ელფოსტა:<emailFragment> commonvoice@mozilla.com </emailFragment>
 signup-form-title = თქვა ანწი რეთო Beta-გინოჯინაში ჩქინ ბუნას Common Voice’s-იშ სპონტანურ ჩიებაში პროექტის?
+signup-terms = "ელფოსტაშა რსხილიშ მოჯღონა" თეშა გეკაკაფათ თქვა ოთანხმუთ <termsLink> მოხვარებაშ პირობენს </termsLink> დო <privacyLink> კონფიდენციალურობაშ პოლიტიკას </privacyLink>, თეწკჷმა ართო, ირძენთ ალებას, Mozilla-ქ ელფოსტაშა ქუმოიჯღონანი ინფორმაცია მუჭო ოკო მიღათ მონაწილეობა Common Voice-იშ სპონტანური ჩიებაში პროექტიშ Beta-გინოჯინაშა.
 signup-input-placeholder = გემშიჸონით თქვან ელფოსტა
 signup-button-value = ქუმომიჯღონი რსხილი ჩქიმი ელფოსტაშა
 footer-text-privacy = <privacyLink> პირადულობა </privacyLink>
