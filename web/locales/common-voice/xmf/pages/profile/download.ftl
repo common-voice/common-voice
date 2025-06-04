@@ -27,3 +27,4 @@ download-request-modal-title = გიმახარგალი რსხილ
 download-request-modal-description = თაქ რე რსხილი თქვან ZIP ფაილეფიშ გიმახარგალო.
 download-request-link-text = Zip # { $offset }, გვალო { $total }
 download-request-metadata-link = ზიტყვასქვილიშ ტექსტი
+download-request-link-single = თქვა შეილებუნა რსხილიშ ამნახანტი გეჭოფათ დო ქინახუნუათ გიმოხარგუაშ მენეჯერს. თის ხანი 12 საათიშა დელიებუ, მარა თე ხასილაშე ნებისმიერ დროს შეილებუნა რსხილეფიშ ახაშო აკოქიმინუა.
