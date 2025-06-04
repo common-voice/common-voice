@@ -1,9 +1,15 @@
 ## Validate Page
 
+validate-page-instruction = ქიგნაჯინით <validateIcon></validateIcon> თე ოკითხირეეფი ქაყმაყოფილენსო წესენს?
 dataset-label = მუნაჩემეფიშ კათელი
 accept-vote-toast-message = ოკითხირი წუმოძინელო რე მეღებული
 reject-vote-toast-message = ოკითხირი წუმოძინელო რე ვარებული
-add-vote-error-message = ოკითხირეშა ხუმაშ მეჩამაშ დროს ჩილათაქ იჸუ
+add-vote-error-message = მოთხუალაშა ხუმაშ მეჩამაშ დროს ჩილათაქ იჸუ
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = აწი თე ნინაშოთ ოკითხირეფი ვარე. ნამთინ გიშატებულ ქუგაფუნა-და, შეილებუნა კინ დართათჷნი ვარდა ქიდიჭყათ ხონარიშ ნაჭარათ მოჩამა დო უკული კინ ქოცადათჷნი.
+validate-page-yes-button-shortcut = ქ
+validate-page-no-button-shortcut = ვ
+validate-page-skip-button-shortcut = გ
 
 ## Validation guidelines
 
