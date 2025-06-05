@@ -45,6 +45,7 @@ benefits = فائدو
 
 ## What's public
 
+recordings-and-locale-public = چند کہ ریکارڈنگ کڑیت اڤن دے ګیم زبان کہ حصو غوردیت وئے وریع اویت۔
 
 ## Landing
 
