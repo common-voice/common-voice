@@ -271,10 +271,10 @@ export default class API {
   }
 
   createSkippedSentence = async (request: Request, response: Response) => {
+    // default the client_id to null if it is not present in the session.user object
+    // so it does not raise a TypeError
     const {
-      session: {
-        user: { client_id },
-      },
+      session: { user: { client_id = null } = {} } = {},
       params: { id },
     } = request
     await this.model.db.createSkippedSentence(id, client_id)
