@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = تُسیں کوئِی زبان نئ چُنی۔ اپنی پروفائل <profileLink> اُپر گچھی تے زبان ناں انتخاب کرا
+sc-review-lang-not-selected = تُسیں کوئِی زبان نئ چُنی۔ اپنی پروفائل <profileLink> اُپر گچھی تے زبان ناں انتخاب کرا۔
 sc-review-title = جملیاں کی ریویو کرا
 sc-review-loading = جملیاں لوڈ ہونے لغےنے۔۔۔۔
 sc-review-select-language = جملیاں کی ریویو کرنے آسطے زبان ناں انتخاب کرا
@@ -54,3 +54,9 @@ report-sc-different-language-detail = ایہہ مہاڑی جائزے آلے زب
 sentences-fetch-error = جملے ساونے انے وچ کوئی خرانی آئی اُٹھی۔
 review-error = اس جملے ناں جائزہ ہننے وچ کوئی خرابی آئی اُٹھی۔
 review-error-rate-limit-exceeded = تُس بہوں تیز جائزہ ہننے آ۔ تھوڑا ٹیم ہِنی جملے نی تصدیق کرا کہ ایہہ ٹھیک دا۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = اس کوئی بڑی تبدیلی لانے آلے آں۔
+sc-redirect-page-subtitle-1 = جملے جمع کرنے آلا ہُن کامن وائس نے بنیادی پلیٹ فارم اُپر جُلنا۔ تُس ہُن کامن وائس اُپر جملہ لِخی سکنے آ </writeURL> یا ہیک جملے نا جائزہ ہِنی سکنے آ</reviewURL> ۔
+sc-redirect-page-subtitle-2 = اساں کولا میٹرکس <matrixLink> ، ڈسکورس <discourseLink>  یا ای میل </emailLink> اُپر سوال پُچھا۔
+# menu item
+review-sentences = جملیاں ناں جائزہ ہِنا
