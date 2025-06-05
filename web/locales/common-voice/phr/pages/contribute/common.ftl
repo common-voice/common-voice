@@ -122,6 +122,10 @@ contribution-misreadings-example-7-explanation = [اس تحریر وچ 'a' نئ�
 contribution-misreadings-example-8-title = بھنورا تیزی کنے اگے گیا۔
 contribution-misreadings-example-8-explanation = [مواد آپس وچ نی ملنا]
 contribution-varying-pronunciations-title = بولنے نے مختتلف انداز
+contribution-varying-pronunciations-description = اگر بولنے آلا کسے لفظ کی ٹھیک طرح یا زورا کنے نہ بولی سکے، یا کسے جملے کی سوال نہ بنائی سکے تہ اُس کلپ کی مسترد کرنے وچ احتیاط کرا۔ دنیا وچ بہوں سارے انداز وچ زباناں بولن ہونیاں جیہڑیاں شیت تُسیں اپنی لوکل کمیونٹی وچ نہ سُنتیاں نیاں ہون۔ اگر کوئی تسیں سی مختلف طرح بولے تے اُس کی شاباش دینے نی گنجائش کھڈا۔
+contribution-varying-pronunciations-description-extended = اگر تُسیں کی لغنا کہ پڑھنے آلے کدے اے لفظ سُنتا ہی نئیں اور اوہ غلط اندازے کنے بولنا تہ فیر اُس کی مسترد کری شوڑو۔ اگر تسیں آپے وی نئیں پتہ تہ فیر اس کی چھوڑی شوڑو۔
+contribution-varying-pronunciations-example-1-title = اُس اپنے سرا اُپر بیریٹ لائی نی۔
+contribution-varying-pronunciations-example-1-explanation = "Beret" نے پہلے حصے اُپر زور وہے یا دوئے حصے اُپر، دویاں طرح ٹھیک اے
 contribution-background-noise-title = پچھے شور
 contribution-background-voices-title = پچھے آوزاں
 contribution-reader-effects-title = پڑھنے آلے نے اثرات

@@ -61,3 +61,6 @@ xkl = کینیاہ
 
 ## Language search component
 
+language-search-placeholder = یو زبان کوس...
+language-search-aria-label = یو زبان کوس
+language-search-no-results = چے زبان ملاؤ چے ݰوئے
