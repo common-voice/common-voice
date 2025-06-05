@@ -33,6 +33,7 @@ respond-to-prompt = جواب
 transcribe = نقل ڪرا
 check-transcriptions = نظرثانِي
 question = سوال
+validate = تصدِيق ڪرا
 
 ## Not Found Page
 
