@@ -66,6 +66,7 @@ adding-sentences-subheader-spelling-punctuation = املو اڤن زیر، زب�
 adding-sentences-subheader-spelling-punctuation-explanation = جملو صحیح نوختیغو اوئے۔
 adding-sentences-subheader-speakable = اݰٹان قابل
 adding-sentences-subheader-numbers = نمبرے
+adding-sentences-subheader-abbreviations = کوګ نوختیغو
 
 ## Question collection ids
 
