@@ -63,19 +63,19 @@ report-success = رپورٹ کامیابی کنے پہیجی غئی
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = ایس
+shortcut-skip = s
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = آر
+shortcut-record-toggle = r
 shortcut-record-toggle-label = ریکاڑد کرو/ رُکو
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = کلپ فیر ریکارڈ کرا
 shortcut-discard-ongoing-recording = چھوڑا
 shortcut-discard-ongoing-recording-label = ریکارڈنگ کی مسترد کرا
-shortcut-submit = واپس جُلو
+shortcut-submit = واپس گچھو اُٹھی
 shortcut-submit-label = کلپ جمع کرا
 request-language-text = تساں کی کامن وائس اوپر اپنی زبان نی نظر انی؟
 request-language-button = زبان نی درخواست کرا
@@ -88,16 +88,18 @@ shortcut-play-toggle = پی
 shortcut-play-toggle-label = چلائو/بند کرا
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = وائے
+shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = این
+shortcut-vote-no = n
 
 ## Validation criteria
 
 contribution-criteria-nav = معیار
-contribution-criteria-link = شرکت کرنے نا معیار سمجھا
-contribution-criteria-page-title = شرکت نا معیار
+contribution-criteria-link = شرکت کرنے ناں معیار سمجھا
+contribution-criteria-page-title = شرکت ناں معیار
+contribution-for-example = مثلا
+contribution-misreadings-title = غلط پڑھائی
 contribution-misreadings-example-5-title = اس بار کافی پینے کیا جلنے آں۔
 contribution-misreadings-example-6-title = اس بار کافی پینے کیا جلے آں۔
 contribution-misreadings-example-6-explanation = "وی آر" ہونا چاِینا
