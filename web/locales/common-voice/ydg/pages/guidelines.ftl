@@ -54,6 +54,11 @@ sentence-domain = جملو دائرو
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = ویب سائٹس
+citing-sentences-subheader-academic-reference = تعلیمی حوالو
+citing-sentences-subheader-offline-sources = آف لائن ذرائع
+citation =
+    .label = حوالو
+self-citation = ذاتی حوالو
 
 ## Question collection ids
 
