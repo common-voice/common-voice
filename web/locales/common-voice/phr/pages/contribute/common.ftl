@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] ہک <bold> { $count }</bold> کلپ
        *[other] ہور <bold>{ $count }</bold> کلپس
     }
+goal-help-recording = اساں نے روز نے ریکارڈنگ نے ٹارگٹ { $goalValue } <goalPercentage>  اُپر پہنچنے وچ تُسیں کامن وائس نی مدد کیتی!
+goal-help-validation = اساں نے روز نے تصدیق نے ٹارگٹ { $goalValue }  <goalPercentage>  اُپر پہنچنے وچ تُسیں کامن وائس نی مدد کیتی!
 record-button-label = اپنی آواز ریکارڈ کرا
 login-to-get-started = شروع کرنے آسطے لاگ ان کرا یا سائن اپ کرا
 target-segment-first-card = تس اساں نے پہلے سیگمنٹ ٹارگٹ اچ شرکت کرنے لغے آ
