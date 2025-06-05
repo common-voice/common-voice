@@ -33,6 +33,7 @@ respond-to-prompt = Ymateb
 transcribe = Trawsgrifio
 check-transcriptions = Adolygu
 question = Cwestiwn
+validate = Dilysu
 
 ## Not Found Page
 
