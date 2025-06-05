@@ -42,3 +42,15 @@ sc-criteria-make-sure = اس کی یقینی بنائو کہ جملے درج ذ�
 sc-criteria-item-1 = جملے درست لِخے نے ہونے چاینے۔
 sc-criteria-item-2 = جملیاں نا گرامر ٹھیک ہونا چاینا۔
 sc-criteria-item-3 = جملے ایسے ہونے چاینے جیہڑے پڑھن ہوئی سکن
+sc-criteria-item-4 = اگر جملہ معیار اُپر پورا اُترنا تہ سجے پاسے تصدیق اُپر کلک کرا ۔
+sc-criteria-item-5-2 = اگر جملہ معیار اُپر پورا نئیں اُترنا تہ کھبے پاسے مسترد اُپر کلک کرا۔ اگر تسیں کی جملے نے بارے وچ نئیں پتہ تُس اس کی چھوڑی اگے جُلی سکنے آ
+sc-criteria-item-6 = اگر جائزہ ہننے آسطے جملے مکی گئے ہون تہ تُس ہور جملے جمع کرنے وچ اساں نی مدد کرا۔
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = چیک <icon> کرا کہ ایہہ جملہ زبان نے حساب کنے ٹھیک دا؟
+sc-review-rules-title = ایہہ جملہ ہدایات دے مطابق دا؟
+sc-review-empty-state = اس زبان وچ جائزہ ہِننے آسطے اِس ٹیم کوجملے نئیں۔
+report-sc-different-language = مختلف زبان
+report-sc-different-language-detail = ایہہ مہاڑی جائزے آلے زباناں تی مختلف زبان وچ دا۔
+sentences-fetch-error = جملے ساونے انے وچ کوئی خرانی آئی اُٹھی۔
+review-error = اس جملے ناں جائزہ ہننے وچ کوئی خرابی آئی اُٹھی۔
+review-error-rate-limit-exceeded = تُس بہوں تیز جائزہ ہننے آ۔ تھوڑا ٹیم ہِنی جملے نی تصدیق کرا کہ ایہہ ٹھیک دا۔
