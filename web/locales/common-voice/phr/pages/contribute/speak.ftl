@@ -69,6 +69,10 @@ read-sentences-coming-soon = جملے پڑھنے وہا <small>(جلدی اچھ�
 
 speak-contribute-menu-tooltip = جملے پڑھنے وہا، سوالاں نے جواب دیا
 read-sentences-menu-item-tooltip = اپنی زباناں وچ جملے پڑھنیاں اپنے آپا کی ریکارڈ کرا۔
+answer-questions-menu-item-tooltip = سوالاں ناں اپنی زباناں وچ جواب دینیاں اپنے آپا کی ریکارڈ کرا
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = بولنے نے آپشن نی فہرست
+read-sentences-menu-item-aria-label = مختلف زباناں وچ کمیونٹی نی طرفا جمع ہونے نے جملے پڑھا
+answer-questions-menu-item-aria-label = کمیونٹی نے پڑھنے تہ جواب دینے آسطے نواں سوال جمع کرا
