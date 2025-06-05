@@ -1,5 +1,6 @@
 ## Validate Page
 
+validate-page-instruction = Emboaje <validateIcon></validateIcon> ¿Ko porandu orekopaite tekotevẽva?
 dataset-label = Mba’ekuaarã aty
 accept-vote-toast-message = Porandu ñemoneĩmbyre
 reject-vote-toast-message = Porandu oñemboykéva hekopete
