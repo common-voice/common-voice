@@ -29,10 +29,22 @@ continue-with-skipped = لے لیغدان دے جفت جاری اویاؤ
 respond-to-prompt = جواب
 transcribe = دے نوختا آڤاز
 check-transcriptions = دیبارو اوژر
+question = سوال/پیستا
+validate = تصدیق کڑا
 
 ## Not Found Page
 
 not-found-page-header = ملاؤ چے ݰوئے
+not-found-page-content = ڤے ګیم صفحہ کو تو کوسیتے وو ملاؤ چے ݰوئے
+# Privacy and Terms checkbox
+accept-privacy-and-terms = زو ڤے کامن وائسن <termsLink>شرائطف</termsLink>اڤن <privacyLink> ڤے رازدارین نوٹس قبول کینیمتے</privacyLink>
+# Locales
+bsy = صباح بیسایا
+cdo = فوژو
+cpx = ہینگ ہوا
+en = انگریزی
+fr = فرنچ
+hch = ویکساریکا
 
 ## Language search component
 
