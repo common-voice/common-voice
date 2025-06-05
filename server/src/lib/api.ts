@@ -271,10 +271,10 @@ export default class API {
   }
 
   createSkippedSentence = async (request: Request, response: Response) => {
+    // default the client_id to null if it is not present in the session.user object
+    // so it does not raise a TypeError
     const {
-      session: {
-        user: { client_id },
-      },
+      session: { user: { client_id = null } = {} } = {},
       params: { id },
     } = request
     await this.model.db.createSkippedSentence(id, client_id)
@@ -609,7 +609,10 @@ export default class API {
 
   getContributionActivity = async (req: Request, response: Response) => {
     const { locale } = req.params
-    const { client_id } = req?.session?.user
+    const { client_id } = req?.session?.user || {}
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     const { from } = req.query
 
     response.json(
