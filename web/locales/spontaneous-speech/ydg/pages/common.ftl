@@ -7,6 +7,9 @@ action-tap = ڤزیب
 # Label for language switcher
 platform-language = زبانن ژاغہ
 platform-language-tooltip-text = ژے ویب سائٹن صرف ڤے عبارت بادل کن
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = لے ڈیٹا سیٹن<bold>{ $language }</bold> پے یوانی کڑا دیر
 
 ## Navbar
 
