@@ -21,14 +21,18 @@ skip-button = لیغان
 submit-button = جمع کن
 contribute = حصو دریا
 request-new-language = نوؤ زبانن درخواست کن
+# Button text which appears when there are no more resources
+continue-with-skipped = لے لیغدان دے جفت جاری اویاؤ
 
 ## Navbar
 
 respond-to-prompt = جواب
+transcribe = دے نوختا آڤاز
 check-transcriptions = دیبارو اوژر
 
 ## Not Found Page
 
+not-found-page-header = ملاؤ چے ݰوئے
 
 ## Language search component
 
