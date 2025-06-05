@@ -11,16 +11,28 @@ clips-with-count-pluralized =
     }
 goal-help-recording = اساں نے روز نے ریکارڈنگ نے ٹارگٹ { $goalValue } <goalPercentage>  اُپر پہنچنے وچ تُسیں کامن وائس نی مدد کیتی!
 goal-help-validation = اساں نے روز نے تصدیق نے ٹارگٹ { $goalValue }  <goalPercentage>  اُپر پہنچنے وچ تُسیں کامن وائس نی مدد کیتی!
+contribute-more =
+    { $count ->
+        [one] ہور { $count }  کرنا چاہنے آ؟ ہیک
+       *[other] ہور
+    }
+speak-empty-state = اس زبان وچ ریکارڈ کرنے آسطے جملے مُکی گئے۔
+no-sentences-for-variants = تُسیں نی زبان نے مختلف لہجیاں نے جملے شیت مُکی گئے! اگر تُس کری سکنے آ تہ اپنی زباناں نے ہور جملے دیخنے آسطے سیٹنگ تبدیل کری سکنے آ۔
+speak-empty-state-cta = جملے شامل کرا۔
+speak-loading-error = اس بولنے آسطے تُسیں کوئی جملے نئیں دئی سکنے آں۔ بعد وچ کوشش کرا۔
 record-button-label = اپنی آواز ریکارڈ کرا
+share-title-new = ہور آوازاں شامل کرنے وچ اساں نی مدد کرا </bold>
+keep-track-profile = پروفائل بنائی اپنی کارکردگی اُپر نظر رکھا
 login-to-get-started = شروع کرنے آسطے لاگ ان کرا یا سائن اپ کرا
 target-segment-first-card = تس اساں نے پہلے سیگمنٹ ٹارگٹ اچ شرکت کرنے لغے آ
 target-segment-generic-card = تس ٹارگٹ سیگمنٹ اچ شرکت کرنے لغے آ
+target-segment-first-banner = { $locale } نے پہلے ٹارگٹ اُپر پہنچنے وچ کامن وائس نی مدد کرا
 target-segment-add-voice = اپنی آواز شامل کرا
 target-segment-learn-more = ہور سکھا
 change-preferences = اپنی پسند تبدیل کرا
 login-signup = لاگ ان/سائن اپ
 vote-yes = ہاں
-vote-no = نا
+vote-no = نئیں
 datasets = ڈیٹا سیٹس
 languages = زباناں
 about = ابائوٹ
