@@ -131,6 +131,7 @@ scripted-card-content = Emoñe’ẽ ayvúpe hatã ne ñe’ẽme ha eipytyvõ �
 spontaneous-card-header = Ñe’ẽsyry hape’ỹva
 spontaneous-card-content = Embohovái oñeporandúva heñoikuaa hag̃ua mba’ekuaarã aty taha’e jeregua ha ñe’ẽrei. Iporã añete ñe’ẽnguéra ojeporuvévape.
 language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
+language-text-card-content = Emoheñói térã emoherakuã je’epy, ñe’ẽjuaju ha moñe’ẽrã isãsóva ñe’ẽmbohasarã, ñe’ẽte rehegua ha hetave.
 add-text = Embojuapy moñe’ẽrã
 answer = Ñembohovái
 
