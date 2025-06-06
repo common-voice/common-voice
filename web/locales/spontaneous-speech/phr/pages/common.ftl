@@ -33,6 +33,10 @@ not-found-page-header = نئیں لَبا
 not-found-page-content = جیہڑا پیج تُسیں چاینا اوہ نئیں لَبا
 en = انگریزی
 fr = فرانسیسی
+tr = ترکی
 
 ## Language search component
 
+language-search-placeholder = زبان کی تلاش کرا
+language-search-aria-label = زبان کی تلاش کرا
+language-search-no-results = کوئی زبان نئیں لَبی
