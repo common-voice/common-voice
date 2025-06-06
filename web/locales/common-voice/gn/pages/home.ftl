@@ -129,6 +129,7 @@ action-items-section-subtitle = Oimeraẽva oñongatu, omoakãrapu’ã ha emopu
 scripted-card-header = Ñe’ẽsyry hapéva
 scripted-card-content = Emoñe’ẽ ayvúpe hatã ne ñe’ẽme ha eipytyvõ ñe’ẽsyry mba’ekuaarã aty oĩhápe opavavete arapy tuichakue.
 spontaneous-card-header = Ñe’ẽsyry hape’ỹva
+spontaneous-card-content = Embohovái oñeporandúva heñoikuaa hag̃ua mba’ekuaarã aty taha’e jeregua ha ñe’ẽrei. Iporã añete ñe’ẽnguéra ojeporuvévape.
 language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
 add-text = Embojuapy moñe’ẽrã
 answer = Ñembohovái
