@@ -43,9 +43,9 @@ Many language communities are self organising and have their contact channels on
   * [Discord](https://discord.com/invite/5ZdTHsN8Mn)
   * [Matrix](https://app.element.io/#/room/!WNiJFJTBpvYqMrDWir:matrix.org)
 * Esperanto (`eo`):
-  * [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
-  * [GitHub](https://github.com/parolrekonado)
+  * [GitHub](https://github.com/parolteknologio)
   * [Website](https://parolrekonado.github.io/)
+  * [Telegram](https://t.me/joinchat/rkl0bSUR0jQxNzY0)
 * Farsi/Persian (`fa`):
   * [Telegram](https://t.me/Common_Voice)
 * French (`fr`):
@@ -82,6 +82,6 @@ Many language communities are self organising and have their contact channels on
   * [Instagram](https://bit.ly/3G0RUAB)
   * [LinkedIn Page](https://bit.ly/3GeX6Rp)
 * Uzbek (`uz`):
-  * [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi)
+  * Telegram (expired)
 * Wolof (`wo`):
   * [WhatsApp](https://chat.whatsapp.com/CqgmqagpljJA8F1TiNK203)  
