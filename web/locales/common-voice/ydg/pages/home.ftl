@@ -49,6 +49,7 @@ recordings-and-locale-public = چند کہ ریکارڈنگ کڑیت اڤن دے
 
 ## Landing
 
+welcome-staff = نے ملازمف{ $company }خوش آمدید
 login-company = سے ای میل سائن اَپ/لاگ ان کن{ $company }
 profile-not-required = پے حصو غوردا دیر اکاؤنٹ ضروری نو، اکرچہ من فائدو ایتے، پے یئے معلومات دیر تورو اوژر۔
 read-more-about = دے ماخ متعلق دے صحفہ اوئے دیر ام ݱا
