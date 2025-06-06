@@ -64,14 +64,18 @@ review-questions = ڤے سوالف دیبارو اوژر
 transcribe-audio = ڤے آواز دے نوختا لیغان
 press-and-stories = اخبار اڤن مضمون
 community-and-languages = کمیونٹی اڤن زبان
+about-us = دے ماخ باری
+scripted-speech = نوختیغو گپ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = شراکت داری، اخبار، مضمون، کمیونٹی اڤن زبان
 press-and-stories-menu-item-tooltip = ڤے کامن وائس سوغیکف، اپڈیٹسف اڤن ڤے میڈیا کوریج ݱا
+community-and-languages-menu-item-tooltip = لے ماخ کمیونٹین جفت اوئی اڤن ڤے معاون زبان اوژرے
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = لے کامن وائسن دے شراکت باری ایخسے
 
 ## NEW HOME PAGE KEYS
 
