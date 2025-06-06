@@ -8,6 +8,7 @@ datasets-positioning =
     Common Voice의 다국어 데이터 세트는 이미 동종의 공개 데이터 세트 중에서 가장 큰 규모이지만, 그 밖에도 다른 데이터 세트가 존재합니다.
     
     이 페이지는 다른 오픈 소스 음성 데이터 세트의 참조처이자, Common Voice가 성장해 감에 따라 공개될 업데이트를 위한 장소가 될 것입니다.
+datasets-speech-bubble-content = 흥미로운 소식입니다! 자연 음성이 곧 출시됩니다! 최신 정보를 받으시려면 <discordLink>Discord</discordLink>에 가입하세요.
 language = 언어
 download-dataset-header = 데이터세트 다운로드
 download-delta-explainer = 변경 사항이 있습니다. 델타 세그먼트에는 마지막 릴리스 이후 가장 최근 클립만 포함됩니다. <deltaLink>이 일에 대해 자세히 알아보세요</deltaLink>.
