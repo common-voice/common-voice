@@ -50,6 +50,7 @@ nature_environment = Natur og miljø
 news_current_affairs = Nyheiter og aktuelle saker
 # Sentence Domain dropdown option
 technology_robotics = Teknologi og robotikk
+sentence-variant-select-label = Setningsvariant
 sentence-variant-select-placeholder = Vel ein variant (valfritt)
 
 ## BULK SUBMISSION
