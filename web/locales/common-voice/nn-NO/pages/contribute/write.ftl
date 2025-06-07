@@ -29,6 +29,7 @@ contact-us = Kontakt oss
 add-sentence-success = 1 setning innsamla
 add-sentence-error = Feil ved tillegging av setning
 required-field = Fyll ut dette feltet.
+single-sentence-submission = Innlevering av einskildsetning
 single-sentence = Enkelt setning
 small-batch-sentence = Lite parti
 bulk-sentence = Masseinnsending
