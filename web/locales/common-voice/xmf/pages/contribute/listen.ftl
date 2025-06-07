@@ -17,7 +17,7 @@ validate-readings-coming-soon = კითხირებულიშ გინ�
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = კითხირებულიშ დადასტურება, ტრანსკრიფციაშ გინოჯინა
+listen-contribute-menu-tooltip = კითხირებულიშ დადასურება, ტრანსკრიფციაშ გინოჯინა
 validate-readings-menu-item-tooltip = ქიგნაჯინით მუმახვარებელიშ ნაკითხირას თქვან ნინაშა
 review-transcriptions-menu-item-tooltip = ქიგნაჯინით მუმახვარებელიშ ნაჯღონა ტრანსკრიფციეფს თქვან ნინაშა
 
@@ -25,4 +25,4 @@ review-transcriptions-menu-item-tooltip = ქიგნაჯინით მუ�
 
 listen-contribute-menu-aria-label = რჩქილაშ პარამეტრეფიშ მენიუ
 validate-readings-menu-item-aria-label = ქიგნაჯინით ათე ბუნაშ მაკათურეფიშ ნაკითხირეფს
-review-transcriptions-menu-item-aria-label = ქიგნაჯინით ინოჭარილ ზიტყვასქვილეფიშ ტრანსკრიფციეფიშ სიწორეს
+review-transcriptions-menu-item-aria-label = ქიგნაჯინით ინოჭარილ ზიტყვასქვილეფიშ ტრანსკრიფციეფიშ სითინუეს
