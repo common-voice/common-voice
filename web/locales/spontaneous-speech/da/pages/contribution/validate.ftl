@@ -1,5 +1,6 @@
 ## Validate Page
 
+dataset-label = Datasæt
 
 ## Validation guidelines
 

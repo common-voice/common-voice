@@ -78,7 +78,9 @@ read-more-about = Læs mere på vores Om-side
 answer-questions = Besvar spørgsmål
 review-transcriptions = Gennemgå transskriptioner
 add-questions = Tilføj Spørgsmål
+review-questions = Gennemgå spørgsmål
 transcribe-audio = Transskriber lyd
+community-and-languages = Fællesskab og sprog
 coming-soon = Kommer snart
 about-us = Om os
 
