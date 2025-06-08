@@ -1,8 +1,10 @@
 ## Validate Page
 
+validate-page-instruction = Ověřte <validateIcon></validateIcon>. Splňuje tato otázka pravidla?
 dataset-label = Datasety
 accept-vote-toast-message = Otázka byla úspěšně přijata
 reject-vote-toast-message = Otázka byla úspěšně odmítnuta
+add-vote-error-message = Při hlasování o výzvě se vyskytla chyba
 # Message which appears when there are no more resources on this page
 no-questions-continue-skipped-message = Pro tento jazyk nejsou žádné další otázky. Pokud jste nějaký přeskočili, můžete ho použít i s přeskočeným obsahem nebo přejít na přepis zvuku a zkusit to znovu později.
 validate-page-yes-button-shortcut = o
