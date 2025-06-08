@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Zakaj Common Voice?
+about-header-description-v2 =
+    <p>Common Voice je javno dostopen nabor glasovnih podatkov, ki ga poganjajo glasovi prostovoljcev z vsega sveta. Ljudje, ki želijo zgraditi glasovne aplikacije, lahko nabor podatkov uporabijo za usposabljanje modelov strojnega učenja.</p>
+    <p>Trenutno je večina glasovnih podatkovnih nizov v lasti podjetij, kar duši inovacije. V glasovnih naborih podatkov so prav tako premalo zastopani: govorci drugih jezikov kot angleščine, ljudje s posebnimi potrebami, ženske in osebe LGBTQIA+. To pomeni, da glasovno omogočena tehnologija za mnoge jezike sploh ne deluje, kjer deluje, pa morda ne deluje enako dobro za vse. To želimo spremeniti z mobilizacijo čim več ljudi, da delijo svoj glas.</p>
 how-does-it-work-title-v2 = Kako Common Voice deluje?
 how-does-it-work-text = Ustvarjamo odprtokodni glasovni nabor podatkov. Prispevajte svoj glas in preverite točnost posnetkov drugih ljudi, da bo nabor podatkov boljši za vsakogar.
 
@@ -44,6 +47,7 @@ about-get-involved-text-2 =
     ali se nam pridružite na <matrixLink>kanalu Matrix</matrixLink>.
 about-stay-in-touch = Kako lahko ostanem v stiku?
 about-stay-in-touch-button = Registracija
+about-stay-in-touch-text-1 = <emailFragment>Prijavite se</emailFragment> na naš poštni seznam in spoznajte, kako lahko sodelujete v kampanjah, dogodkih in sooblikovanju projekta Common Voice.
 about-nav-why-common-voice = Zakaj?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
