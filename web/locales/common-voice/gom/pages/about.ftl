@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = Common Voice Kityak?
+about-title = 'Common Voice' Kityak?
 how-does-it-work-title-v2 = Common Voice koso cholta?
 
 ## How does it work section
