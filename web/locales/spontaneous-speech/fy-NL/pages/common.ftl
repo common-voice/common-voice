@@ -24,6 +24,8 @@ skip-button = Oerslaan
 submit-button = Yntsjinje
 contribute = Bydrage
 request-new-language = Nije taal oanfreegje
+# Button text which appears when there are no more resources
+continue-with-skipped = Trochgean mei Oersloegen
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Prompt beäntwurdzje
 transcribe = Transkribearje
 check-transcriptions = Transkripsjes kontrolearje
 question = Fraach
+validate = Falidearje
 
 ## Not Found Page
 

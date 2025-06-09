@@ -4,7 +4,8 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Lyssna på ljudklippet och kontrollera transkriptionen. Matchar den? Om inte, redigera den så att den matchar perfekt.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Kontrollera
-no-transcriptions-message = Det finns för närvarande inga transkriptioner att kontrollera för detta språk. Uppdatera sidan eller försök igen senare.
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = Det finns för närvarande inga transkriptioner att kontrollera för detta språk. Om du har hoppat över något, kan du fortsätta med överhoppat innehåll eller gå till transkribera ljud och försök igen senare.
 vote-transcript-success = Transkriptionen har röstats fram
 vote-transcript-error = Ett fel uppstod när transkriptionen röstades fram
 transcript-edited-success = Transkriptionen har redigerats

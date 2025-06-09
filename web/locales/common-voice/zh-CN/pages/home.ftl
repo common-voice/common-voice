@@ -75,6 +75,7 @@ read-more-about = 阅读我们的“关于”页面了解更多
 answer-questions = 回答问题<small>（即将推出）</small>
 review-transcriptions = 审核转录文本<small>（即将推出）</small>
 add-questions = 添加问题<small>（即将推出）</small>
+review-questions = 审核问题
 transcribe-audio = 转录音频<small>（即将推出）</small>
 press-and-stories = 新闻和文章
 community-and-languages = 社区和语言

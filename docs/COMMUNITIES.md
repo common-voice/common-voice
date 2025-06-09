@@ -36,6 +36,8 @@ Many language communities are self organising and have their contact channels on
   * [Landing Page](https://bit.ly/cv_circassian_start_here)
 * Czech (`cs`):
   * [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
+* Dargwa (`dar`):
+  * [Telegram](https://t.me/+ILBnBMEo-Bc3ODky) 
 * Dhivehi (`dv`):
   * [Web](https://dhivehi.ai/)
   * [Discord](https://discord.com/invite/5ZdTHsN8Mn)
@@ -81,3 +83,5 @@ Many language communities are self organising and have their contact channels on
   * [LinkedIn Page](https://bit.ly/3GeX6Rp)
 * Uzbek (`uz`):
   * [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi)
+* Wolof (`wo`):
+  * [WhatsApp](https://chat.whatsapp.com/CqgmqagpljJA8F1TiNK203)  

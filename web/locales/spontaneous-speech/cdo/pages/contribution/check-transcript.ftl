@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> 聽取音訊片段，並檢查轉錄內容。 是否相符？ 如果不相符，請編輯使其完全一致。
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = 檢查
-no-transcriptions-message = 目前這個語言沒有可供檢查的轉錄內容。請重新整理頁面或稍後再試。
 vote-transcript-success = 轉錄內容投票成功
 vote-transcript-error = 轉錄內容投票時發生錯誤
 transcript-edited-success = 轉錄內容編輯成功

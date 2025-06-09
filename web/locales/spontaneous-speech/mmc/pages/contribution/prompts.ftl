@@ -4,7 +4,6 @@ record-player-header = Chjǘrü. Mā̌jmü b'ë́ k'a rí mbéñe
 mic-access-error = 'ùnü ts'éts'e nú micrófono
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> chjǘrü ná jó'o má só'o
-no-prompts-message = Nú'ya 'ö́jto tö́nü nújya à nú'u. Ná fabor yé'p'e rí ñā̌nda nú pájina o yé'p'e rí ñā̌nda rá ndáme
 error-skipping = Gú yä́jpjü mā̌jmü ndás'ü nú tö̌nü nù
 error-recording = Gú yä́jpjü mā̌jmü grábaji
 error-fetching-prompts = Gú yä́jpjü mā̌jmü hǐzhi nú tö̌nü. Ná fabor rí yé'p'e rá ndáme

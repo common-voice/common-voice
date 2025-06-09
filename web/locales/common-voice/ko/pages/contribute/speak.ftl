@@ -62,6 +62,8 @@ create-profile-button = 프로필 만들기
 img-alt-success-checkmark = 성공 체크 표시
 # menu item
 read-sentences = 문장 낭독
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = 문장 읽기 <small>(곧 출시)</small>
 
 ## MENU ITEM TOOLTIPS
 

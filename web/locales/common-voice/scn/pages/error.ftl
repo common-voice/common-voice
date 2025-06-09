@@ -8,5 +8,5 @@ error-clip-upload = U carricamentu di sta riggistrazzioni fallisci sempri. Pruva
 error-clip-upload-server = U carricamentu di sta riggistrazzioni fallisci sempri nnô sirburi. Càrrica arrè a pàggina o riprova doppu.
 error-title-404 = Nun pòttimu attruvari sta pàggina
 error-title-503 = U situ nun è dispunìbbili accamora
-error-content-503 = U situ turnarà prima pussìbbili. Pi l'ùrtimi nutizzi, jùnciti â <matrixLink>chat di cumunità nne Matrix</matrixLink> o vìsita <githubLink>Github</githubLink> o i nostri <discourseLink>stanzi Discourse</discourseLink> pi mannàrini nutizzi e nfurmàriti ncapu î prubblemi dû situ.
+error-content-503 = U situ turnarà prima pussìbbili. Pi l’ùrtimi nutizzi, jùnciti â <matrixLink>chat di cumunità nne Matrix</matrixLink> o vìsita <githubLink>Github</githubLink> o i nostri <discourseLink>stanzi Discourse</discourseLink> pi mannàrini nutizzi e nfurmàriti ncapu î prubblemi dû situ.
 error-code = Erruri { $code }

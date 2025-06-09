@@ -2,6 +2,7 @@
 guidelines-header = Iwellihen n uttekki
 voice-collection = Alqaḍ n tuɣac
 sentence-collection = Alqaḍ n tefyar
+question-collection = Alqaḍ n yisteqsiyen
 
 ## Voice Collection nav ids
 
@@ -31,8 +32,10 @@ still-have-questions = Ɣur-k yakan isteqsiyen?
 ## Sentence collection nav ids
 
 public-domain = Taɣult tazayazt
+citing-sentences = Abdar n tefyar
 adding-sentences = Timerna n tefyar
 reviewing-sentences = Asenqed n tefyar
+sentence-domain = Talɣut n tefyirt
 
 ## Sentence collection sidebar content
 
@@ -48,6 +51,7 @@ reviewing-sentences-explanation-4 = Ma yella ur tesɛiḍ ara tifyar ara tesneqd
 
 ## Question collection ids
 
+adding-questions = Timerna n yisteqsyen
 
 ## Question collection sidebar content
 

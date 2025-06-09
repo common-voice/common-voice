@@ -4,7 +4,6 @@ record-player-header = Enregistreu la vostra resposta
 mic-access-error = Cal que permeteu l'accés al micròfon.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> i responeu tan naturalment com pugueu
-no-prompts-message = Actualment no hi ha cap més peticions per transcriure en aquesta llengua. Actualitzeu la pàgina o torneu-ho a provar més tard.
 error-skipping = S'ha produït un error en ometre la tasca
 error-recording = S'ha produït un error durant l'enregistrament.
 error-fetching-prompts = S'ha produït un error en recuperar les tasques. Torneu-ho a provar més tard.

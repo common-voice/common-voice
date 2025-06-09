@@ -1,4 +1,4 @@
-why-are-you-asking = Picchì t'addumannamu?
+why-are-you-asking = Picchì t’addumannamu?
 thank-you-for-your-information = Grazzi pî nfurmazzioni
 
 ## Gender dropdown

@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Éiste leis an ngearrthóg fuaime, agus dearbháil an tras-scríobh. An bhfuil siad mar an gcéanna? Mura bhfuil, cuir in eagar í chun go mbeidh siad díreach mar an gcéanna.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Dearbháil í
-no-transcriptions-message = Níl aon tras-scríbhinní le dearbháil don teanga seo faoi láthair. Athnuaigh an leathanach nó féach arís ar ball é.
 vote-transcript-success = D'éirigh leis an moltóireacht ar an tras-scríobh
 vote-transcript-error = Tharla earráid fad agus a bhí moltóireacht á déanamh ar an tras-scríobh
 transcript-edited-success = D'éirigh leis an eagarthóireacht ar an tras-scríobh

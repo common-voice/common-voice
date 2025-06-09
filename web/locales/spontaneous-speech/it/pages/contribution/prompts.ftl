@@ -4,7 +4,6 @@ record-player-header = Registra la tua risposta
 mic-access-error = È necessario consentire l’accesso al microfono del dispositivo.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> e rispondi nel modo più naturale possibile
-no-prompts-message = Al momento non ci sono domande per questa lingua. Aggiorna la pagina o riprova più tardi.
 error-skipping = Si è verificato un errore nel tentativo di ignorare la domanda
 error-recording = Si è verificato un errore durante la registrazione
 error-fetching-prompts = Si è verificato un errore durante il recupero delle domande. Riprova più tardi.

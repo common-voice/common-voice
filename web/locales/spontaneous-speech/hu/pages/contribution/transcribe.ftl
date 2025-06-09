@@ -4,7 +4,8 @@
 audio-page-instruction = { $actionType } a <playIcon></playIcon> ikonra, és írja le, hogy mit hall
 editbox-header = Leiratozás
 editbox-placeholder = Írja le, hogy mit mond a beszélő
-no-audio-message = Jelenleg nincsenek leiratozandó hangok ehhez a nyelvhez. Frissítse az oldalt, vagy próbálja újra később.
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message = Nincs több leiratozandó hang ehhez a nyelvhez. Ha bármelyiket kihagyta, akkor folytathatja a kihagyott tartalmakkal, vagy ugorhat a leiratok ellenőrzéséhez, és később újrapróbálhatja.
 create-transcript-success = Sikeresen beküldte a leiratot
 create-transcript-error = Hiba történt a leirat létrehozása során
 error-playing-audio = Hiba a hangfájl lejátszása során.

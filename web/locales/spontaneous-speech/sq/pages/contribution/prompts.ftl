@@ -4,7 +4,6 @@ record-player-header = Incizoni përgjigjen tuaj
 mic-access-error = Duhet të lejoni përdorimin e mikrofonit.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> dhe përgjigjuni në mënyrë sa më natyrale që të mundeni
-no-prompts-message = Aktualisht s’ka pyetje për këtë gjuhë. Ju lutemi, rifreskoni faqen, ose riprovoni më vonë.
 error-skipping = Ndodhi një gabim gjatë anashkalimit të pyetjes
 error-recording = Ndodhi një gabim gjatë incizimit.
 error-fetching-prompts = Diçka shkoi gabim teksa silleshin pyetjet. Ju lutemi, riprovoni më vonë.

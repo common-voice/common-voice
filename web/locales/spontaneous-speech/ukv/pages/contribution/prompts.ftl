@@ -4,7 +4,6 @@ record-player-header = Möku ruket net na
 mic-access-error = Kölöki ti kulyes kulö yeŋadi yi mökörökön .
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = Kö ruggi' ko bgörö' let lo 'berön lo.
-no-prompts-message = Tiyanana ŋo' 'ban na ŋarakini lo kutuk . Boŋo topurene na pele kode nyoki 'dok .
 error-skipping = liyaŋet a konda 'börik yi langu na na ŋariet
 error-recording = Liyaŋet a konda 'börik yi mökunda .
 error-fetching-prompts = Nene' ŋo' a konda 'börik yi galunda na ŋariesi'. Böŋö nyöki 'dok.

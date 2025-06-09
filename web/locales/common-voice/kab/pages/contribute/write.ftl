@@ -5,6 +5,7 @@ write-instruction = Rnu <icon></icon> tafyirt n taɣult tazayazt
 sentence =
     .label = Tafyirt
 sentence-input-placeholder = Sekcem tafyirt n taɣult tazayazt dagi
+small-batch-sentence-input-placeholder = Sekcem tefyar n taɣult tazayazt dagi
 citation =
     .label = Abder
 sc-review-write-title = Anti tifyar i zemreɣ ad rnuɣ?
@@ -63,6 +64,11 @@ add-sentences = Rnu tifyar
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = Rnu tifyar
+review-sentences-menu-item-tooltip = Senqed tifyar
+add-questions-menu-item-tooltip = Rnu isteqsiyen
+review-questions-menu-item-tooltip = Senqed isteqsiyen
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Aru umuɣ n textiṛiyin

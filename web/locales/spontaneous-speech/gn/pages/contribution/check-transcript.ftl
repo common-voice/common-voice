@@ -1,8 +1,9 @@
 ## Check Transcriptions page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+transcription-page-instruction = { $actionType } <playIcon></playIcon> Ehendu pe mba’epu ha ehechajey jehaikue. ¿Ojuehegua? Nahánirirõ, embosako’i ojuehegua porã hag̃ua.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Hechajey
-no-transcriptions-message = Ko’ág̃a ndaipóri ñembokuatia ehechajey hag̃ua ko ñe’ẽme. Embohekopyahu pe kuatiarogue térã eha’ãjey ag̃ave.
 vote-transcript-success = Ñembokuatia oho apañuai’ỹre
 vote-transcript-error = Oiko jejavy evotakuévo pe ñembokuatia rehe
 transcript-edited-success = Ñembokuatia heñóiva apañuai’ỹre

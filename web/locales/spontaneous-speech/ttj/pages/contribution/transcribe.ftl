@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> handiika ebi orukuhurra omuntu naagamba.
 editbox-header = Teeka iraka omu buhandiiki
 editbox-placeholder = Handiika ebi orukuhurra omuntu naagamba
-no-audio-message = Obwire bunu tiharoho katambi k'amaraka akookuta mu buhandiiki mu rulimi runu.
 create-transcript-success = Akatambi k'amaraka katairwe mu buhandiiki kurungi
 create-transcript-error = Habaireho ensobi omu kuhandiika akatambi k'amaraka
 error-playing-audio = Haroho ensobi omu teera akatambi k'amaraka

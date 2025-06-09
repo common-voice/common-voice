@@ -362,6 +362,8 @@ not-available-abbreviation = Дастнорас
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Мо ба</mark><br/><mark>кумаки шумо ниёзмандем!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Нархи нигоҳ доштани маҷмуи маълумот ва такмил додани платформа барои ҷамъиятҳои соҳибзабонони зиёда за 100+ забон, ки ба корҳои мо такя мекунанд, тақрибан як миллион доллар дар як сол ташкил медиҳад. <strong>Агар шумо маълумоти кушода ва фарогириро иззат кунед - имрӯз ҳадия кунед!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Барои таҳқиқоти худ аз</mark><br/><mark>«CV» истифода мебаред?</mark>
 localization-select =

@@ -4,7 +4,6 @@
 transcription-page-instruction = </playIcon> ا آډیو کلِپ امر، او ا نقل جېک کَۀ۔ او بُو مېج کوی؟ که نک بَۀ اېډټه کَۀ که مکمل مېچ سَۀ { $actionType }
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = جېک
-no-transcriptions-message = ایزیره دې څه نقل نک هۀ که مېچه کيېن پۀ زبان ګیرډ۔ مهرباني يې کَۀ ا پېج څُټکی سۀ وار دوبارۀ ریفرېش کَۀ
 vote-transcript-success = ا نقل په کامیابي سره ووټ ووټ دوک
 vote-transcript-error = غلطي ر دې نغک که ا نقل ن بُو ووټ کېک
 transcript-edited-success = ا نقل ارډیټ ݭیوک په کامیابي سره

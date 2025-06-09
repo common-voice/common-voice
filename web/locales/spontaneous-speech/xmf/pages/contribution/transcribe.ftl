@@ -4,7 +4,8 @@
 audio-page-instruction = { $actionType }<playIcon></playIcon> დო დოჭარით მუსუთ ირჩქილეთჷნი
 editbox-header = ნაჭარათ მოჩამა
 editbox-placeholder = კოჩიშ ნარაგადი, მუსუთ ირჩქილეთჷნი, დოჭარით
-no-audio-message = თე ნინაშოთ ნაჭარათ მაჩამალი ხონარუან ინნაჭარაქ ვეგორ. ქორთხინთ, გაახალათ ხასილა ვარდა ხოლო ქოცადათჷნი.
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message = აწი თე ნინაშოთ ხონარუან ინნაჭარეფი ვარე. ნამთინ გიშატებულ ქუგაფუნა-და, შეილებუნა დართათჷნი ვარდა ქიდიჭყათ ნაჭარათ მოჩამილიშ გინოჯინა დო უკულ კინ ქოცადათჷნი.
 create-transcript-success = ნაჭარათ მოჩამილქ წუმოძინელო ქიჯღონინჷ
 create-transcript-error = ჩილათაქ იჸუ ნაჭარათ გინორთინაფაშ დროს
 error-playing-audio = ჩილათაქ იჸუ ხონარიშ მორჩქილაფაშ დროს.

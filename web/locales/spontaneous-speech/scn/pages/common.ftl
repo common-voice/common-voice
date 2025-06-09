@@ -35,7 +35,7 @@ msi = Sabah Malay
 pez = Penan di livanti
 pne = Penan di punenti
 sdo = Serian Bidayuh
-snv = Sa'ban
+snv = Sa’ban
 tr = Turcu
 xkl = Kenyah
 

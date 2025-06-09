@@ -4,7 +4,6 @@ record-player-header = آپرِو جواب  ريڪاڍ ڪرو
 mic-access-error = ٿونيَ مائيڪروفون نيَ لازمِي اجازت ڏيڻ کپيَ
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> ھان جيترو ھوئيَ ݾگيَ فطري طور تيَ جواب ڏيو
-no-prompts-message = ايئيَ ٻولِي ھارو فلحال ڪو ڀِي اشارو ڪوني۔ مھربوني ڪريَ پنيَ نيَ ريفريش ڪرو يا پڇيَ وڙيَ ڪوشش ڪرو۔
 error-skipping = پرامپٽ نيَ ڇوڙڻ ريَ دوران هڪ غلطِي ھوئيَ گِي ھيَ
 error-recording = ريڪارڊنگ ريَ دوران ھيڪ غلطي ھوئيَ رِي
 error-fetching-prompts = اشارون ني لياڻ ريَ دوران ڪجهه غلط ھوئيو ھيَ۔  مهربانِي ڪريَ ٿوڙِي دير ھون پڇيَ وڙيَ ڪوشِش ڪرو۔

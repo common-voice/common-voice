@@ -4,7 +4,6 @@ record-player-header = تمُو جواب جمع تھا
 mic-access-error = تُو تے مائیکروفون ݜوؤنُو پکار ہون۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }  <micIcon> </micIcon> اؤ چھو تمو بس کارا فطرتی جواب دا در
-no-prompts-message = انا جیِبے کارا پرمپٹ نیِش۔ مہربانی تھا پیج تازہ تھا یا با کوشش بعد در تھا
 error-skipping = انا پرمپٹ پھتونودر ایک غلطی پیش ہنی
 error-recording = ریکارڈنگ در ایک غلطی پیش ہنی
 error-fetching-prompts = پرامپٹس ھاصل تھونو وقت درجے سا غلطی بئیا

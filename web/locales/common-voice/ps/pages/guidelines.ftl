@@ -3,6 +3,7 @@ guidelines-header = د ونډې لارښوونې
 guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسیټ ته د جملو او آډیو کلیپونو مرسته او اعتبار ورکړئ
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
+question-collection = د پوښتنو ټولګه
 
 ## Voice Collection nav ids
 
@@ -105,6 +106,30 @@ domain-explanation = ډومین د جملې موضوع ته اشاره کوي. �
 
 ## Question collection ids
 
+adding-questions = د پوښتنو اضافه کول
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = څه شی ښه پوښتنه جوړوي؟
+what-makes-a-good-question-explanation = د عامه ګډون ډیټاسیټونو لپاره یوه ښه پوښتنه باید:
+what-makes-a-good-question-explanation-criteria-1 = په اسانۍ سره پوه شئ او ځواب ورکړئ
+what-makes-a-good-question-explanation-criteria-2 = په عمومي ډول اړونده اوسئ
+what-makes-a-good-question-explanation-criteria-3 = زیان رسوونکې یا سپکونکې ژبه مه کاروئ، یا یې غوښتنه مه کوئ
+what-makes-a-good-question-tip = تاسو ممکن د مختلفو شرایطو او ساحو پراخولو په اړه هم فکر وکړئ.
+easy-to-understand = د پوهیدو لپاره اسانه
+easy-to-understand-explanation = ساده پوښتنې غوره کړئ چې د هرچا لپاره د پوهیدو لپاره اسانه وي، پرته له دې چې کلتور یا شرایط په پام کې ونیول شي.
+spelling-and-pronunciation = املا او نښانونه
+spelling-and-pronunciation-explanation = سم املا او ګرامر وکاروئ.
+length = اوږدوالی
+length-explanation = پوښتنه باید یوازې په څو جملو کې ځواب شي.
+dont-add-subheader = مه اضافه کوئ
+culturally-specific-questions = د کلتوري پلوه ځانګړي پوښتنې
+culturally-specific-questions-explanation = هغه پوښتنې چې له کلتوري پلوه ډېرې ځانګړې وي، یا د ځواب ورکوونکي په اړه ډېرې انګیرنې رامنځته کوي
+length-avoid-explanation = هغه پوښتنې چې یو څوک به یې په ۱۵ ثانیو کې ځوابولو کې ستونزه ولري (د کلیپ اعظمي اوږدوالی)
+process-steps = پروسه / ګامونه
+process-steps-explanation = هغه پوښتنې چې یو څوک د څو مرحلو لیست کولو ته اړتیا لري. د مرحلو لیست کول کارونکي هڅوي چې د ډیر طبیعي ځواب پرځای ځواب ووایی.
+offensive-content-sensitive-information = سپکاوی کوونکی مواد یا حساس معلومات
+offensive-content-sensitive-information-explanation-explanation-1 = هغه پوښتنې چې ممکن د شخصي پیژندنې وړ معلوماتو غوښتنه وکړي
+offensive-content-sensitive-information-explanation-explanation-2 = هغه پوښتنې چې ممکن د کرکې وینا یا نور تعصب لرونکي یا توهینونکي احساسات راپاروي
+offensive-content-sensitive-information-explanation-explanation-3 = هغه پوښتنې چې ممکن یو څوک د حساسو او احتمالي محرک ځوابونو شریکولو لامل شي
+example-questions-subheader = د مثال پوښتنې

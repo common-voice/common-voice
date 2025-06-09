@@ -23,6 +23,7 @@ request-new-language = Anmod om nyt sprog
 
 respond-to-prompt = Svar
 transcribe = Transskriber
+check-transcriptions = Gennemgå
 question = Spørgsmål
 
 ## Not Found Page
