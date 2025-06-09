@@ -91,6 +91,7 @@ add-questions = پوښتنې اضافه کړئ <کوچنۍ>(ډیر ژر راځي
 review-questions = د پوښتنو بیاکتنه
 transcribe-audio = آډیو نقل کړئ <small>(ډیر ژر راځي)</small>
 press-and-stories = مطبوعات او کیسې
+community-and-languages = ټولنه او ژبې
 
 ## MENU ITEMS TOOLTIPS
 
