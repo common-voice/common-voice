@@ -92,13 +92,21 @@ review-questions = د پوښتنو بیاکتنه
 transcribe-audio = آډیو نقل کړئ <small>(ډیر ژر راځي)</small>
 press-and-stories = مطبوعات او کیسې
 community-and-languages = ټولنه او ژبې
+about-us = زموږ په اړه
+scripted-speech = لیکل شوې وینا
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ملګرتیاوې، مطبوعات او کیسې، ټولنه او ژبې
+partnerships-menu-item-tooltip = په ټوله نړۍ کې د ګډ غږ ملاتړ کونکي سازمانونه وپلټئ
+press-and-stories-menu-item-tooltip = د کامن وائس کیسې، تازه معلومات، او د رسنیو پوښښ ولولئ
+community-and-languages-menu-item-tooltip = زموږ ټولنې سره وصل شئ او ملاتړ شوې ژبې وګورئ
 
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = د ګډ غږ سره د شراکت په اړه زده کړه
+press-and-stories-menu-item-aria-label = د کامن وائس پورې اړوند مطبوعاتي اعلامیو او کیسو ته لاسرسی ومومئ
+community-and-languages-menu-item-aria-label = د کامن وائس لخوا ملاتړ شوې ټولنه او ژبې وپلټئ
 
 ## NEW HOME PAGE KEYS
 
