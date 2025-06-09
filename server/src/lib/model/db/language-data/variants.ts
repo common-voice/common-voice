@@ -481,4 +481,29 @@ export const VARIANTS: Variant[] = [
     variant_name: 'Xopuri',
     variant_token: 'lzz-xopuri',
   },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Südrheinfränkisch (Weissebuisch, Màdere, usw.)',
+    variant_token: 'gsw-FR-sudrfran',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Rhinfränkisch (Bùckenùmm, Lìtzelstän, usw.)',
+    variant_token: 'gsw-FR-rhinfran',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, usw.)',
+    variant_token: 'gsw-FR-nordalem',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Südniederàlemmànisch (Kolmer, Gawìller, Mìlhüüsa, Àltkìrich, usw.)',
+    variant_token: 'gsw-FR-sudnalem',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Hochàlemmànnisch (Hìniga, Pfìrt, usw.)',
+    variant_token: 'gsw-FR-hochalem',
+  }
 ]

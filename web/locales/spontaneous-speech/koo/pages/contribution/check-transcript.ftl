@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Wuhulikirire omwatsi owali omwamulege, wana yungulawu.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Sondekanaya
-no-transcriptions-message = Lino sihali bisakango eby’erikolesibwa erisosothya omubuughe oyu. Banithu muthasasuba oko lhupapura olho, neryo mwanathasasosothy.
 vote-transcript-success = Ebisakango erikanganibwa kobinatholere
 vote-transcript-error = Mohakabanika ebihabire omo bisakango
 transcript-edited-success = Ekyipapura thwabiribugha erikyitakanizya ndeke

@@ -115,18 +115,53 @@ about-playbook-how-record-quality = مُون چچم هڌري رڪارڊنگ نا
 about-playbook-how-record-content-1 = هڌرا آواز ٿي ٻولو۔ ايوي نموني ٻوليا هارو ڌنيواۮ۔ امين چاهان سان ڪي تمارو اچار آ سي هانَ تمارو آواز سئي هوئي۔ تمارو انداز هانَ سُر هڌرو هوئي۔
 about-playbook-how-record-content-2 = باقي ٻارلو آواز نو ڌهيان راکو۔ چمڪي هڌري نموني هانمڀۯي ڪان۔
 about-playbook-how-record-content-3 = جملا دهيان ٿي هانمڀۯو۔ ويهارو نا يان وري اکر نا ڳڏاوو۔
+about-playbook-how-record-content-4 = رڪارڊنگ ٿِي مور پليٽ فارم هارو يقين هوون زويئي، ايڪ چڪر مڪمل ٿايا چيڙ روڪو پري۔
+about-playbook-how-record-content-5 = <accuracyLink> ڪيريٽريا نين وڌيڪ زويا هارو آ لنڪ سي۔
 
 ## How to grow language
 
+about-playbook-how-grow-language = ڪامن وائيس ٻولي هارو امين چچم وڌيڪ فائيدو لئي ڪان سان۔
+about-playbook-how-grow-language-content-1 = ڪامن وائس هارو منک ڀيۯان ڪريا هارو ايڪ موقعو لو هانَ يقين ڪرو ڊيٽا بيس هارو منک ممڪن سي۔ امين ڪانڪ سامان هانَ ٽيمپليٽ استعمال ڪرشان۔
+about-playbook-how-grow-language-content-2 = پروگرام نو نتيزو
+about-playbook-how-grow-language-content-3 = تمين ايڪ پروگرام راکو زي منکان هارو مدد ٿئي ڪي۔ تمين سوچو ڪي چچم آسان سي۔ تمين آن لائين ويڊيو ڪانفرنس ڪرو۔ يان ڪوئي منک ٿي زي هورون هوئي۔ <eventTemplate> ٽيمپليٽ نين چيڪ ڪرو هانَ ڪانڪ وڌيڪ شيزون پروگرام هارو واپراوو۔
+about-playbook-how-grow-language-content-4 = سوشل ميڊيا
+about-playbook-how-grow-language-content-5 =
+    تمين ڪوئي ڪوئي ڪام هارو سوشل ميڊيا نو استعمال ڪرو۔ هانَ پوسٽ شير ڪرو هانَ بيان ڪرو ڪي ڪوئي مسئلو سي۔ هانَ وڌيڪ مسئلا نا ڀارا مان منکان ٿي وات ڪرو زم ٻولي نو مسئلو سي۔ آواز يا، طرف داري آرٽ وڌيڪ مشورا هارو زوئو <campaignLink> سوشل مهم ايئان ني فهرست زوئو۔ 
+    </campaignLink>.
+about-playbook-how-grow-language-content-6 = شراڪت هانَ نيٽ ورڪ
+about-playbook-how-grow-language-content-7 = ٻيزان نين زوئي ڪي شُون ڪري سي۔ زم جڳت مان ٿائي سي۔ اسڪول ني ٻولي، گروپ مان مدد ڪروون يان ربادري مان ڊيٽا سائنس ڪري سي۔ زوئي هڌري نموني زوئو ڪي چچم مدد ٿئي ڪي سي هانَ چم؟ <outreachTemplates> آنئين مان ٽيمپليٽ نين زوئو چچم آڳۯ وڌي ڪان سان </outreachTemplates>.
+about-playbook-how-grow-language-content-8 = تخليق۔ </strong> تماري ٻولي برادري هارو خاص سي۔ هانَ ڪانڪ وسيلا سي زين ٿي تمين شروعات ڪري ڪو سو۔
 
 ## How to validate
 
+about-playbook-how-validate = مُون چچم پوتان نا ڪلڪ قبول ڪريش؟
+about-playbook-how-validate-content-1 = زي ڪلپ هانمڀۯا مان سئي سي هانَ <strong> هانَ همز پرماڻي سي۔ هانَ عام طور قبول ڪريا هارو سي۔
+about-playbook-how-validate-content-2 =
+    زار ٻوليا واۯو ڪلپ نا اچار ٻولي سي تو تمين رد نا ڪرو۔ اي تمان ٿي فرق سي۔ </strong> 
+    چم تو آواز رڪارڊ ڪروون  اوۯکوون الاهي خاص سي۔
+about-playbook-how-validate-content-3 = زي تمين سوچو سو ڪي اُچار سئي سي۔<strong> هانَ همزيا مان سوَلا سي يان ڪوئي ٻارلو شور ٿائي رو سي۔ يان اين مان وڌاري ٻيزان منک ٻولي ران سي تو تمين ڪلپ رد ڪرو پران۔<strong> وڌاري معلومات هارو جاجچ نين وڌيڪ زوئو۔ <strong>
+about-playbook-how-validate-content-4 = زي ٻي منکان نان ڪلپ رد سي۔ تو زوئو ڪانڪ فرق ميمبر هوئي ڊيٽا بيس هارو۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = مُون ڊيٽا بيس هارو چچم رسائي ڪريوش۔
+about-playbook-how-access-dataset-content-1 = ڊيٽا بيس نا صفعا نين زوئو۔ <datasetsPage> ٻولي هانَ عمل نين زوئو زي تمين چاهو سو۔ تمين ڊائون لوڊ ڪري ڪو سو۔ </metadataLink> اي ئلم شماريت ني معلومات سي هانَ قيٽا تصديق هارو سي۔ ڊيٽا بيس نين ڊائون لود ڪريا هاو اي ميل آلو۔
+about-playbook-how-access-dataset-content-2 = اي ايس آر نا مسڊل هارو ٽُول نين زوئو تمين برادري نان منکان ٿي رابطو ڪري ڪو سو۔ <discourseLink>ڊسڪورس هارو لنڪ سي </discourseLink>۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پرجيڪٽ هارو چچم  فيصلو ڪروو؟
+about-playbook-how-project-governance-content-1 = موزيلا ڪامن وائيس ممڪن طور برادري هارو سرگرمي، زبان، ديٽابيس سائينسٽڪ تعليمي نظام هانَ  پُوري دُنيا ٿي سوفٽ ويئر انجنيئر   تيار ڪريان سي۔ اي پروجيڪٽ موزيلا  فائونديشن ٿي سي۔
+about-playbook-how-project-governance-content-2 = اي گورنمنٽئي پيلر ڪوجنا ڪري سي۔
+about-playbook-how-project-governance-content-3 = رسائي، حفاظت هانَ صفت
+about-playbook-how-project-governance-content-4 = برادري ني شموليت هانَ فيٻلا
+about-playbook-how-project-governance-content-5 = اقدار هانَ آگاهي
+about-playbook-how-project-governance-content-6 = باهمي جوابداري
+about-playbook-how-project-governance-content-7 = وڌاري معلومات هارو <governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ڪامن وائيس چيوي نموني فنڊ آلي سي؟
+about-playbook-how-funded-content-1 = ڪامن وائيس ايڪ موزيلا فائوڊيشن نو پروجيڪٽ سي۔  US 501c3.  اي پروجيڪٽ پُورا <philantropicGrantLink> ڦلانٿروپڪ زي پُورا جڳت مان غريب سي ايوان ني مدد ڪري سي۔
+about-playbook-how-funded-content-2 = زي پڻ ڊيٽا بيس هاچا هارو خرچ ٿائي سي اي ڀري سي۔ پليٽ فارم وڌارو هان هاڪو۔ <africaMradiLink> برادري نان پروگرام </africaMradiLink>
+about-playbook-how-funded-content-3 = زي تمين يان تمارو تمارو ادارو چاهي سي ڪي پروجيڪٽ نِي مدد ڪري۔ تو تمين ايڪ <donateLink> مدد تيار ڪرو۔  يان ٻيزان ڪوئي شراڪت ڪريان هوئي زي مدد ڪري <emailFragment>commonvoice@mozilla.com</emailFragment>

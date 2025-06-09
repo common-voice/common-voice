@@ -6,8 +6,8 @@ add-questions-terms-checkbox = ვადასტურებ, რომ ეს 
 question-dataset-language = ენის კრებული: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
-        [one] { $uploadedQuestions }შეკითხვა მიღებულია 1-იდან
-       *[other] { $uploadedQuestions }შეკითხვა მიღებულია { $totalSentences }-იდან
+        [one] { $uploadedQuestions } შეკითხვა მიღებულია 1-იდან
+       *[other] { $uploadedQuestions } შეკითხვა მიღებულია { $totalSentences }-იდან
     }
 add-question-error-message = ატვირთვა ვერ მოხერხდა, გთხოვთ კვლავ სცადოთ.
 add-question-too-many-questions-error = აღემატება 500 კითხვას. შეამცირეთ კითხვების რაოდენობა და კვლავ სცადეთ.
@@ -20,7 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = რა კითხვები შეიძლება დავამატო?
 do-section-title = უნდა იყოს
 do-section-guideline-1 = გამართული მართლწერითა და გრამატიკით
-do-section-guideline-2 = იოლი კითხვები, საყოველთაოდ გასაგები წარმომავლობისა თუ გარემოს განურჩევლად
+do-section-guideline-2 = იოლი კითხვები, საყოველთაოდ გასაგები, წარმომავლობისა თუ საცხოვრებელი გარემოს განურჩევლად
 do-section-guideline-3 = იმგვარი, რომ პასუხი ერთი-ორი წინადადებით ხერხდებოდეს
 do-not-section-title = არ უნდა
 do-not-section-guideline-1 = ითხოვდეს პირის ამოსაცნობ მონაცემებს (თუნდაც სახელს ან შემოსავლებს)

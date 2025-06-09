@@ -4,7 +4,6 @@ record-player-header = تاں جواب ٹیپ کرہ
 mic-access-error = تے مېکے اجازت دیؤں ہو تُھوْ
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = آں کتوک تِنا ھوئی تھو کھن تسیں جواب دے
-no-prompts-message = آس جِباں فلحال گی چھر نیتھو. تو گتہ ݜس کُھولاکرہ یا کم لکھ پتئں کوشش کرہ
 error-skipping = ݜَس بنئیل لکیل پھرہانس بگی نشیْ گا
 error-recording = ٹیپ کراں دی بِگی خرابی ایگے
 error-fetching-prompts = سِڇھیان٘لی بال اَیں مہ بِگ مسئلہ ای تھی۔ ہِلاکَیں لک کوشش کرہ گل۔

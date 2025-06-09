@@ -5,6 +5,7 @@
 ## Languages
 
 aa = afarščina
+aat = arvanitika
 ab = abhaščina
 ace = ačinščina
 ady = adigejščina

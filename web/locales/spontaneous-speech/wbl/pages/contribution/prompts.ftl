@@ -4,7 +4,6 @@ record-player-header = K̃hũ jawob e lecer
 mic-access-error = Zarũr k̃hũ z̃aqlayfon-e g̃hẽtk ijozat rand
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> yan cumer be ki kecer (bas weze), fitri lihozer jawob rand
-no-prompts-message = Hadem wakht yem zik-e dẽstan, dremi kum be zẽmuner  (prompt) nast. Mehrboni car k̃he ya ruy (page) toza car yoy cẽbas n kushish car.
 error-skipping = Trem yizẽmuner (prompt) sar rũnd̃ũk wakht, yi rẽpak̃hkig̃h (ghẽlatig̃h)  pũrũt wezde.
 error-recording = Sabt k̃hak wakth, yi rẽpak̃hkig̃h pũrũt wezde
 error-fetching-prompts = Yizẽmuner (prompt) yundak wakht, z̃aqchiz rẽpak̃hk vite.  Mehrboni car k̃he cẽbas wen kushish car.

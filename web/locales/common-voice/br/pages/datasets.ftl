@@ -8,6 +8,7 @@ datasets-positioning =
     Bez' eo dija strobad roadennoù liesyezhek Common Voice ar strobad roadennoù brasañ digor d'an holl met n’eo ket an hini nemetañ.
     
     Ar bajenn-mañ zo ur bajenn dave a renabl strobadoù roadennoù digor all. A-feur ma talc'ho Common Voice da greskiñ e vo kinniget warni hon hizivadennoù da zont ivez.
+datasets-speech-bubble-content = Keloù mat ! Emañ ar gomz naturel o tont ! Chomit war evezh ha na zisoñjit ket sellet ouzh hon <discordLink>Discord</discordLink> evit kaout ar c'heleier diwezhañ.
 language = Yezh
 download-dataset-header = Pellgargañ ar strobad roadennoù
 download-delta-explainer = Tammoù cheñchamantoù zo bet degaset ganeomp. Ne vo kavet en troc'hadoù Delta nemet ar c'hlipoù nevesañ abaoe an embannadenn ziwezhañ. <deltaLink>Lenn pelloc'h diwar-benn an dra-se</deltaLink>.

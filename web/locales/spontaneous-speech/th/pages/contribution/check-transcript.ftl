@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> ฟังคลิปเสียงแล้วตรวจสอบการถอดเสียงว่าตรงกันหรือไม่ ถ้าไม่ตรงกัน ให้แก้ไขเพื่อให้ตรงกันอย่างสมบูรณ์
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = ตรวจสอบ
-no-transcriptions-message = ขณะนี้ยังไม่มีการถอดเสียงให้ตรวจสอบสำหรับภาษานี้ โปรดเรียกหน้านี้ใหม่หรือลองอีกครั้งในภายหลัง
 vote-transcript-success = ลงคะแนนการถอดเสียงสำเร็จแล้ว
 vote-transcript-error = เกิดข้อผิดพลาดขณะลงคะแนนการถอดเสียง
 transcript-edited-success = แก้ไขการถอดเสียงสำเร็จแล้ว

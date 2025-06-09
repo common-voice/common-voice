@@ -4,7 +4,8 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> en skriuw op wat jo de persoan sizze hearre
 editbox-header = Transkribearje
 editbox-placeholder = Skriuw op wat jo de persoan hearre sizze
-no-audio-message = Der is op it stuit foar dizze taal gjin audio om te transkribearjen. Ferfarskje de side of probearje it letter nochris.
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message = Der binne op dit stuit gjin audio foar dizze taal te transkribearjen. As jo guon oerslein hawwe, kinne jo trochgean mei oersleine ynhâld of transkripsjes beoardiele en it letter probearje.
 create-transcript-success = Transkripsje mei sukses ferstjoerd
 create-transcript-error = Der is in flater bard by it meitsjen fan dizze transkripsje
 error-playing-audio = Flater by ôfspyljen fan audiobestân.

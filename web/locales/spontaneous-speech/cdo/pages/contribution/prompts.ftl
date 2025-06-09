@@ -4,7 +4,6 @@ record-player-header = 錄製您的回應
 mic-access-error = 您必須允許麥克風存取權限。
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> 並盡可能自然地回應
-no-prompts-message = 目前這個語言沒有提示。 請重新整理頁面或稍後再試。
 error-skipping = 跳過此提示時發生錯誤
 error-recording = 錄音時發生錯誤
 error-fetching-prompts = 擷取提示時出現問題，請稍後再試

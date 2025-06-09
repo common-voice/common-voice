@@ -45,6 +45,8 @@ why-donate = Hvorfor spørger du?
 add-information-button = Tilføj information
 continue-speaking-button = Nej tak, fortsæt med at tale
 create-profile-text = Vil du gemme dine oplysninger? <createProfile>Opret en profil</createProfile>
+thanks-for-voice-toast = Tak for dine stemmeoplysninger
+thanks-for-voice-toast-error = Der opstod en fejl under indsendelse af dine stemmeoplysninger
 first-cta-gender-select-default-option = Vælg en mulighed
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tak fordi du bidrager med din stemme!

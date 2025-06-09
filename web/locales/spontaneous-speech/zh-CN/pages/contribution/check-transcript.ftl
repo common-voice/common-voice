@@ -4,7 +4,8 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon> 聆听音频片段，检查转录文本是否与其对应。若不对应，请编辑至完全对应。
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = 检查
-no-transcriptions-message = 此语言暂无需要检查的转录文本，请刷新页面或稍后再试。
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = 此语言当前已没有转录文本可供审核。您可以继续审核曾跳过的转录文本；也可先去转录音频，以后再回来看看。
 vote-transcript-success = 成功为转录文本投票
 vote-transcript-error = 为转录文本投票时出错
 transcript-edited-success = 转录文本编辑成功

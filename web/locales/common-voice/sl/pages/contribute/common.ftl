@@ -38,6 +38,7 @@ vote-no = Ne
 datasets = Nabori podatkov
 languages = Jeziki
 about = O nas
+partner = Partnerji
 submit-form-action = Pošlji
 
 ## Reporting
@@ -97,6 +98,7 @@ shortcut-vote-no = n
 
 contribution-criteria-nav = Merila
 contribution-for-example = na primer
+contribution-background-voices-title = Glasovi v ozadju
 contribution-volume-title = Glasnost
 contribution-just-unsure-title = Samo niste prepričani?
 see-more = <chevron></chevron>Prikaži več

@@ -4,7 +4,8 @@ record-player-header = Natočće swoju wotmołwu
 mic-access-error = Dyrbiće přistup k mikrofonej dowolić.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> a wotmołwće tak přirodnje kaž móžno
-no-prompts-message = Njeje tuchwilu žane namołwy za tutu rěč. Prošu aktualizujće stronu abo spytajće pozdźišo hišće raz.
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Dalše prašenja za tutu rěč njejsu. Jeli sće prašenja přeskočił, móžeće z přeskočenym wobsahom pokročować abo awdio transkribować a pozdźišo znowa spytać.
 error-skipping = Při přeskočenju tuteje namołwy je zmylk nastał
 error-recording = Při natočenju je zmylk nastał.
 error-fetching-prompts = Při wotwołanju namołwow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.

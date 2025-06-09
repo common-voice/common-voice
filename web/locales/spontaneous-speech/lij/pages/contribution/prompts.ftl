@@ -4,7 +4,6 @@ record-player-header = Registra a teu voxe
 mic-access-error = T’æ da autorizzâ l’accesso a-o micròfono.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> e replica inta mainea ciù naturale che ti peu
-no-prompts-message = Pe-o momento no gh’é nisciuña domanda pe sta lengua. Metti à giorno a pagina ò preuva torna ciù avanti.
 error-skipping = Gh’é stæto un errô in passâ sta domanda
 error-recording = Gh’é stæto un errô inta registraçion
 error-fetching-prompts = Gh’é stæto un errô in piggiâ e domande. Preuva torna ciù avanti.

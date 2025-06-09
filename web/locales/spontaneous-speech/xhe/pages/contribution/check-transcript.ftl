@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon>آڈیو ٹوٹیک ٻُجھ، ٻِیا نقل لال۔ چَھا اے رَلدا ہِے؟ اگر نَئیں ٻِیال ہیک رلاݨ واسطے جوڑ۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = لال
-no-transcriptions-message = ہِے ٻولی واسطے انڄیاں کا بھی نقل نہ تھے۔ صفحیک وَتا تازہ کر یا وَتا بعد آ کوشش کر۔
 vote-transcript-success = نقل کامیابی ساں چُݨیج ڳئی ہِے
 vote-transcript-error = نقل چُݨن تے وخت ہِک غلطی اَچ ڳئی ہِے
 transcript-edited-success = نقل کامیابی ساں جُڑ ڳئی ہِے

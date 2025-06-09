@@ -82,7 +82,7 @@ read-more-about = Čitajće wjace wo stronje Wo Common Voice
 ## NAV ITEMS
 
 answer-questions = Na prašenja wotmołwić
-review-transcriptions = Transkripcije přepruwować <small>(příndźe bórze</small>)
+review-transcriptions = Transkripcije přepruwować
 add-questions = Prašenja přidać
 review-questions = Prašenja přepruwować
 transcribe-audio = Awdijo transkribować

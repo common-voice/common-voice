@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> اور جکو کائیں تھم اس مِنکھا کُو کہتوڑا سُݨیں رے  ہے اِس کُو لِکھو
 editbox-header = نکݪ کرو
 editbox-placeholder = تھم اِس مِنکھا کُو ایٹھے کِیا کہتوڑا سُݨیں رے ہے اِس کُو لِکھو
-no-audio-message = ہلی اس ٻولیا نتر نکݪ کرنے نتر کوئی آڈیو ماجُود نائیں تی۔ کِرپا کری پنیں کُو نئوا کرو یا پِجھیں پُوٹھا جتن کرو۔
 create-transcript-success = ہر ایک لِکھت سپھلتا کے سات جما کرائی دؔی
 create-transcript-error = یو ہر ایک لِکھت ٻݨانٚوَتیاݨں ایک گلتی ہوئی ہے
 error-playing-audio = آڈیو پھائل چلاوَتیاݨیں گلتی۔

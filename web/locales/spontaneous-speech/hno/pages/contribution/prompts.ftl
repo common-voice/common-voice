@@ -4,7 +4,6 @@ record-player-header = اپنڑا جواب ریکارڈ کرو
 mic-access-error = تسیں ضرور مائیکروفون کو رسائی دی اجازت دیو۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon>ہور جتنا ہو سکا تسیں قدرتی طور تے جواب دیو
-no-prompts-message = وقتی طور تے اس زبان بچ کوئی پرومٹس نیں۔  مہربانی نال صفحے تازہ کرو یا فِر بعد بچ کوشش کریو۔
 error-skipping = اس پُرومٹ چُھوڑدیاں ہک غلطی ہو گئی
 error-recording = ریکارڈ کردیاں ہک غلطی ہو گئی۔
 error-fetching-prompts = پُرومٹس آنڑدیاں کجھ غلطی ہو گئی۔ بعد بچ دبّارہ کوشش کرو، مہربانی۔

@@ -54,6 +54,19 @@ sentence-domain = جملو دائرو
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = ویب سائٹس
+citing-sentences-subheader-academic-reference = تعلیمی حوالو
+citing-sentences-subheader-offline-sources = آف لائن ذرائع
+citation =
+    .label = حوالو
+self-citation = ذاتی حوالو
+self-citation-explanation = اگر کہ تو مواد خوو نوختیغت تو دیم قسم ڤے خوئے حوالو دلیتے
+adding-sentences-subheader-length = ڤنّاغی
+adding-sentences-subheader-length-explanation = دے جملو الفاظے ژے 15 کوب ݰویا بݰ
+adding-sentences-subheader-spelling-punctuation = املو اڤن زیر، زبر
+adding-sentences-subheader-spelling-punctuation-explanation = جملو صحیح نوختیغو اوئے۔
+adding-sentences-subheader-speakable = اݰٹان قابل
+adding-sentences-subheader-numbers = نمبرے
+adding-sentences-subheader-abbreviations = کوګ نوختیغو
 
 ## Question collection ids
 

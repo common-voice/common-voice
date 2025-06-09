@@ -61,3 +61,6 @@ xkl = Кениягӣ
 
 ## Language search component
 
+language-search-placeholder = Ҷустуҷӯи забон...
+language-search-aria-label = Ҷустуҷӯи забон
+language-search-no-results = Ягон забон ёфт нашуд

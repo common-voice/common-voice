@@ -92,6 +92,7 @@ read-more-about = اسے بارَد صفحہ جیْ شِناک گہ پڑِیا
 answer-questions = سُوالے جُواب دِیا <small> (جِنیْ اِیوݨَس)</small>
 review-transcriptions = نقلے جائزہ ہرہ <small> (جِنیْ اِیوݨَس)</small>
 add-questions = سوال ٹل تِھیا <small> (جِنیْ اِیوݨَس) </small>
+review-questions = سوالاتو جائزہ ہرہ
 transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 press-and-stories = پریس گہ قصائے
 community-and-languages = کمیونٹی گہ جِبہ
@@ -139,6 +140,7 @@ spontaneous-card-content = نامیاتی، موْݜ کَلَے سیاق گی س
 language-text-card-header = جِبے متن
 language-text-card-content = عوامی ڈومین پرامپٹس، جُملائے گہ ترجمائے کِرِیا متن آں لیکھیْ جِبو ماڈلز، وغیرہ سنِیا یا سیْݨے اشتراک تِھیا۔
 add-text = عبارت ٹل تِھیا
+answer = جواب
 
 ## Community section
 

@@ -1,7 +1,7 @@
 action-click = کلک کن
 action-tap = ڤزیب
 contribute = حصو دریا
-review = اشپہ اوݱڑا
+review = دیبارو اوژر
 skip = لیغان
 shortcuts = کوګ پادو
 clips-with-count-pluralized =

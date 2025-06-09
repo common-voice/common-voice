@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon>آڊيو ڪِلپ ۿانڀرو، نقل ڪرل ڪان اُوتار ڪرل نِي پرک ڪرو، شون اِي ميل کائيَ سي؟  زو نا، تو اين نين صحيح ڪريا ۿارُو "اپڍيٽ ڪرو"
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = پرک ڪرو
-no-transcriptions-message = آ ٻولِي مان اتيارين ڪانئين پڻ نقل ڪرل ڪان اُوتار ڪرل نٿِي۔ ميرٻانِي ڪرين صڦح نين ريڦريش ڪرو ڪان وري ٿوڙِيڪ وار وانۿين وري ڪوشِش ڪرو۔
 vote-transcript-success = نقل ڪرل نين ڪامياٻِي ٿِي ووٽ ڪرو
 vote-transcript-error = نقل ڪرل ماٿيَ ووٽ ۮيڌا ٽاڻي ايڪ ڳلتِي ڇئِي سي۔
 transcript-edited-success = نقل ڪرل ڪامياٻِي ٿِي اپڍيٽ ٿئِي جھئِي

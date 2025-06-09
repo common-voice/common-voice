@@ -24,6 +24,8 @@ skip-button = یلہ کبوتے
 submit-button = جمع کبو
 contribute = کمک کبو
 request-new-language = پوسکنو زبان سیکن خواست کبو
+# Button text which appears when there are no more resources
+continue-with-skipped = Skipped تون اوار برجا تخبو
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = ورندی
 transcribe = مٹ کننگ
 check-transcriptions = ولدا ہوربوتے
 question = سوج
+validate = تصدیق کننگ
 
 ## Not Found Page
 

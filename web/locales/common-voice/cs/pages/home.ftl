@@ -81,6 +81,7 @@ read-more-about = Přečtěte si více na stránce O nás
 answer-questions = Odpovídání na otázky <small>(Již brzy)</small>
 review-transcriptions = Kontrola přepisů <small>(již brzy)</small>
 add-questions = Přidat otázky <small>(Již brzy)</small>
+review-questions = Kontrolujte otázky
 transcribe-audio = Přepis zvuku <small>(již brzy)</small>
 press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky

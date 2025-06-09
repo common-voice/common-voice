@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جملان شامل کو اچی وا لوڑے، 
 add-sentences-menu-item-tooltip = تان وارا جملہ شامل کو
 review-sentences-menu-item-tooltip = تان وارو جملان وا لوڑے
 add-questions-menu-item-tooltip = تان وارا سوال شامل کو
+review-questions-menu-item-tooltip = وا لوڑیکو سوال
 transcribe-audio-menu-item-tooltip = تان وارا ہوازو رکارڈنگو نیویشیکا انگے
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = اختیاراتان فہرستو نیویش�
 add-sentences-menu-item-aria-label = رویان ریکو بچین نوغ جملہ شامل کو
 review-sentences-menu-item-aria-label = کمیونیٹیو رویان جمع کاردو موجودہ جملان وا لوڑے
 add-questions-menu-item-aria-label = کمیونیٹو ممبران سر ریکو وا جواب دیکو بچین نوغ سوال کو
+review-questions-menu-item-aria-label = کمیونیٹو ویشکیار سوال کی ہنی ہتیان وا لوڑے وا ووٹ دیت
 transcribe-audio-menu-item-aria-label = رکارڈ بیرو ہوازو نیویشیکا انگے

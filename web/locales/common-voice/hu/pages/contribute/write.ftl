@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = Mondatok hozzáadása és ellenőrzése, Kérdé
 add-sentences-menu-item-tooltip = Mondatok hozzáadása a saját nyelvén
 review-sentences-menu-item-tooltip = Mondatok ellenőrzése a saját nyelvén
 add-questions-menu-item-tooltip = Kérdések hozzáadása a saját nyelvén
+review-questions-menu-item-tooltip = Kérdések áttekintése
 transcribe-audio-menu-item-tooltip = Leiratozza a hangfelvételeket a saját nyelvén
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = Írás menü lehetőségei
 add-sentences-menu-item-aria-label = Adjon hozzá új mondatokat a közösség számára
 review-sentences-menu-item-aria-label = A közösség által beküldött meglévő mondatok ellenőrzése
 add-questions-menu-item-aria-label = Küldjön be új kérdéseket, hogy a közösség felolvassa őket, és válaszoljon rájuk
+review-questions-menu-item-aria-label = Ellenőrizze és szavazzon a közösség által beküldött új kérdésekre
 transcribe-audio-menu-item-aria-label = Leiratozza a hangfelvételeket

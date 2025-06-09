@@ -152,12 +152,14 @@ write-contribute-menu-tooltip = მაქ ლატჲებათ ჲე და
 add-sentences-menu-item-tooltip = მაქ ლატჲებათ წინადადბი შუი მატტმაქ//კაწკოჼ ვაშ სე აგეცინ ვიშრას ბუსცჰაჸ-ე, მაცმე ო ჰალო ჴეთთურ ჱურდეჼ, სოა ჰალო ჰაწამლარასო
 review-sentences-menu-item-tooltip = კაწკოჼ ვაშ სე აგეცინ ვიშრას ბუსცჰაჸ-ე, მაცმე ო ჰალო ჴეთთურ ჱურდეჼ, სოა ჰალო ჰაწამლარასო//ბუსცჰაჸ-ჲე, მაცნე
 add-questions-menu-item-tooltip = უ ლევლა -ე, მაცნე ნიფსივხო და ჲე//უჲშტნეჸ: ნიფსივხ და მაცნე
+review-questions-menu-item-tooltip = შეკითხვი დაყყჲარ
 transcribe-audio-menu-item-tooltip = აუდიოჩანაწერაჼ ტრანსკრიფცია შუ მატტმაქ
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = ჩუ ჩაწერადებათ პარამეტრაჼ მენიუ
+write-contribute-menu-aria-label = ჩუ ჩაწე́რადჲებათ პა́რამეტრაჼ მენიუ
 add-sentences-menu-item-aria-label = მაქ ლატჲებათ წინადადბი ვაი ერთობას ხატტანაინო
 review-sentences-menu-item-aria-label = დაყყდარ ო წინადადბი, მუნხუჲაჲ ერთობას და ჩუ დეჸენო
 add-questions-menu-item-aria-label = ჩუ დაჸათ წინ შეკითხვი, მე ერთობას ჰალო ხატტოლოჲე პასუხ ლოლო
+review-questions-menu-item-aria-label = ჰ̦ალო̆  შეფა́სბადჲებათე́ ი́́შ ლიბათ შუ ნა́ხვ წინიშ ლა́ტჲიენჩო̆ შეკითხვა́ხ
 transcribe-audio-menu-item-aria-label = იშა́რეჼ ჩანაწე́რი ტე́ქსტეღ დე́რწდარ (ტრანკრიფცია́)

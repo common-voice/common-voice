@@ -5,7 +5,7 @@ respond = გამოხმაურება
 # Link to the check transcriptions page in the navigation modal for mobile users
 check = შემოწმება
 # Link to the Transcribe page in the navigation modal for mobile users
-transcribe = ნაწერად გადმოცემა
+transcribe = ტრანსკრიბირება
 loading = იტვირთება…
 login-signup = შესვლა / შექმნა
 login = შესვლა
