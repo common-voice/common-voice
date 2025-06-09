@@ -25,7 +25,18 @@ sc-review-link = Pregled
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Merila za pregled
+sc-criteria-title = Merila za pregled
+sc-criteria-make-sure = Prepričajte se, da stavek izpolnjuje naslednja merila:
+sc-criteria-item-1 = Stavek mora biti pravilno črkovan.
+sc-criteria-item-2 = Stavek mora biti slovnično pravilen.
+sc-criteria-item-3 = Stavek mora biti izgovorljiv.
 sc-criteria-item-6 = Če vam zmanjka stavkov za pregled, nam pomagajte zbrati nove!
+sc-review-rules-title = Ali se stavek sklada s smernicami?
+sc-review-empty-state = V tem jeziku trenutno ni stavkov za pregled.
+report-sc-different-language = Drug jezik
+report-sc-different-language-detail = Napisan je v drugem jeziku, kot ga pregledujem.
+sentences-fetch-error = Pri pridobivanju stavkov je prišlo do napake
 review-error = Pri pregledovanju tega stavka je prišlo do napake
 review-error-rate-limit-exceeded = Prehitri ste. Vzemite si trenutek za pregled stavka in se prepričate, da je pravilen.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
