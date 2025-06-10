@@ -45,24 +45,48 @@ benefits = فائدو
 
 ## What's public
 
+recordings-and-locale-public = چند کہ ریکارڈنگ کڑیت اڤن دے ګیم زبان کہ حصو غوردیت وئے وریع اویت۔
 
 ## Landing
 
+welcome-staff = نے ملازمف{ $company }خوش آمدید
+help-contribute = تو دے مختلف قسم مدد کڑا کرکینے۔ پروفائل سڤزڤدیت اڤن ڤے خوئے آواز کہ مہربانی کڑیت پے سافف دیر ڈیٹا سیٹ ساؤز ای
+login-company = سے ای میل سائن اَپ/لاگ ان کن{ $company }
+profile-not-required = پے حصو غوردا دیر اکاؤنٹ ضروری نو، اکرچہ من فائدو ایتے، پے یئے معلومات دیر تورو اوژر۔
+read-more-about = دے ماخ متعلق دے صحفہ اوئے دیر ام ݱا
 
 ## NAV ITEMS
 
+answer-questions = نے سوالف جواب دل
+review-transcriptions = ڤے نوختّغف دیبارو اوژر
+add-questions = سوال شامل کن
+review-questions = ڤے سوالف دیبارو اوژر
+transcribe-audio = ڤے آواز دے نوختا لیغان
+press-and-stories = اخبار اڤن مضمون
+community-and-languages = کمیونٹی اڤن زبان
+about-us = دے ماخ باری
+scripted-speech = نوختیغو گپ
+spontaneous-speech = جاری گپ
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت داری، اخبار، مضمون، کمیونٹی اڤن زبان
+about-us-menu-item-aria-label = دے ماخ باری اختیاراتف مینو
+press-and-stories-menu-item-tooltip = ڤے کامن وائس سوغیکف، اپڈیٹسف اڤن ڤے میڈیا کوریج ݱا
+community-and-languages-menu-item-tooltip = لے ماخ کمیونٹین جفت اوئی اڤن ڤے معاون زبان اوژرے
 
 ## MENU ITEM ARIA LABELS
 
+partnerships-menu-item-aria-label = لے کامن وائسن دے شراکت باری ایخسے
+press-and-stories-menu-item-aria-label = دے کامن وائس باری دے خبرف اڤن دے مضمونف ژاغہ اوئے
+community-and-languages-menu-item-aria-label = کامن وائس لے ګیم کمیونٹیف اڤن لے ګیم زبانف کو مدد کیتے ڤے وف معلوم کن
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = ٹیکنالوجی کو یو دے تے زبان گپ دیہیتے
 
 ## Action items section
 

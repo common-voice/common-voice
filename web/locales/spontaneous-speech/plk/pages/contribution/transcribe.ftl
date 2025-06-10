@@ -4,7 +4,8 @@
 audio-page-instruction = { $actionType }<playIcon></playIcon> لِکِیا چہ اسہ منُوڙوْس جو رزانوْ آں څھوْس جو  ݜُݨنَت۔
 editbox-header = نقل تِھیا
 editbox-placeholder = ادی لِکِیا چہ اسہ منُوڙوْس جو رزانوْ آں څھوْس ادی جو  ݜُݨنَت۔
-no-audio-message = فی الحال آ جِبے کِرِیا نقل تھونَڑ کھاں گہ آڈیو نِش۔ مہربانی تھے صفحہ ریفریش تِھیا یا پتو پھری کوشِش تِھیا۔
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message = فی الحال آ جِب دہ نقل تھونے کِرِیا جوک گہ آڈیو نِش۔ احر څھا جو پھتیتَن توْ، څھوْس پھتیلوْ مواد سے ساتیْ جاری تھوبانَت یا ٹرانسکرپشنز اےْ جائزہ ہر باتَن آں پتو دوبارہ کوشش تھوباتَن۔
 create-transcript-success = ٹرانسکرپٹ کامیابی گیْ جمع تِھجِلی۔
 create-transcript-error = آ ٹرانسکرپٹ سنون دہ ایک غلطی بِلِن۔
 error-playing-audio = آڈیو فائل چلِیون دہ خرابی۔

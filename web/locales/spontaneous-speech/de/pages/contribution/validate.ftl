@@ -5,7 +5,8 @@ dataset-label = Datensatz
 accept-vote-toast-message = Frage erfolgreich akzeptiert
 reject-vote-toast-message = Frage erfolgreich abgelehnt
 add-vote-error-message = Beim Abstimmen ist ein Fehler aufgetreten
-no-questions-message = Es gibt derzeit keine zu überprüfenden Fragen für diese Sprache. Bitte aktualisieren Sie die Seite oder versuchen Sie es später erneut.
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = Es gibt keine weiteren Fragen für diese Sprache. Wenn Sie eine übersprungen haben, können Sie mit dem übersprungenen Inhalt fortfahren oder Audio transkribieren und es später erneut versuchen.
 validate-page-yes-button-shortcut = J
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S

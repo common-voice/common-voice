@@ -24,6 +24,8 @@ skip-button = Jepo
 submit-button = Mondo
 contribute = Ñepytyvõ
 request-new-language = Ejerure peteĩ ñe’ẽpyahu
+# Button text which appears when there are no more resources
+continue-with-skipped = Eku’ejey Ñomimbyre ndive
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Embohovái ñe’ẽmondo
 transcribe = Ñe’ẽjehai
 check-transcriptions = Ehechajey ñe’ẽjehai
 question = Porandu
+validate = Ñemoneĩ
 
 ## Not Found Page
 

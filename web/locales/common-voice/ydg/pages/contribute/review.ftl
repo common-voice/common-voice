@@ -32,7 +32,7 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } ڤے جملغّف دیبارو اوݱڑت۔ تو شکریہ!
     }
 sc-review-form-review-failure = ڤے دیبارو اوݱڑغّو محفوظ کڑا چے ای۔ کیستہ دیبال اڤن کوشش کن
-sc-review-link = اشپہ اوݱڑا
+sc-review-link = دیبارو اوژر
 
 ## REVIEW CRITERIA
 

@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> et notez ce que vous entendez la personne prononcer
 editbox-header = Transcrire
 editbox-placeholder = Notez ce que vous entendez prononcé par la personne ici
-no-audio-message = Il n’y a actuellement aucun audio à transcrire pour cette langue. Veuillez actualiser la page ou réessayer plus tard.
 create-transcript-success = Transcription envoyée
 create-transcript-error = Une erreur est survenue lors de la création de cette transcription
 error-playing-audio = Erreur lors de la lecture du fichier audio

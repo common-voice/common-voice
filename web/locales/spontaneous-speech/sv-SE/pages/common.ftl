@@ -24,6 +24,8 @@ skip-button = Hoppa över
 submit-button = Skicka in
 contribute = Bidra
 request-new-language = Begär nytt språk
+# Button text which appears when there are no more resources
+continue-with-skipped = Fortsätt med överhoppat
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Svara på prompt
 transcribe = Transkribera
 check-transcriptions = Kontrollera transkriptioner
 question = Fråga
+validate = Validera
 
 ## Not Found Page
 

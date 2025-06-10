@@ -43,8 +43,8 @@ help-reach-hours-pluralized =
     }
 set-a-goal = ღანკიშ მეწურაფა
 cant-decide = ვენგაჭყვიდესო?
-how-many-per-day = გვალო ჯგირი! მუზმა ინნაჭარა ირდღას?
-how-many-a-week = გვალო ჯგირი! მუზმა ინნაჭარა ირი მარას?
+how-many-per-day = გვალო ჯგირი! მუზმა ინნაჭარა ართ დღას?
+how-many-a-week = გვალო ჯგირი! მუზმა ინნაჭარა ართ მარას?
 which-goal-type = ნამუ გოკონა ჩიება, რჩილა თუ ჟირხოლო?
 n-clips-pluralized =
     { $count ->

@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> yòpjü k'a jy'ä̀rä yó jñatjo
 editbox-header = Yé'p'e rí yòpjü
 editbox-placeholder = Jyôpjü k'a jmā̌jmü nuté'e
-no-audio-message = Núdyà 'ȫtjo yó sonído k'á rá 'òpjü. Nà pjabór zénguaji nú pájina rá ts'í ndájme
 create-transcript-success = Yá péjñe nó yòpjü ná jó'o
 create-transcript-error = Gú hyòpjü jmā̌jmü  yépje gú 'òpjü
 error-playing-audio = Mí k'o hjépe ná pǔnkü

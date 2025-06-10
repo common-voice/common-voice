@@ -24,6 +24,8 @@ skip-button = ڇوڙا
 submit-button = جمع ڪراوَڻ
 contribute = حِصا ڏِيئڻ
 request-new-language = نَوِين ٻولِي چِي درخواست ڏِيا۔
+# Button text which appears when there are no more resources
+continue-with-skipped = ڇوڙوڙي سُون جاري راکا
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = جواب
 transcribe = نقل ڪرا
 check-transcriptions = نظرثانِي
 question = سوال
+validate = تصدِيق ڪرا
 
 ## Not Found Page
 

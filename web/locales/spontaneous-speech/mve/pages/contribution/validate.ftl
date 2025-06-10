@@ -5,7 +5,6 @@ dataset-label = مواد رو سيٽ
 accept-vote-toast-message = ڪاميابي ھون قبول ڪيوڙا سوال
 reject-vote-toast-message = ڪاميابي ھون رد ڪيوڙا سوال
 add-vote-error-message = پرومپٽ نيَ ووٽ ڏيڻ رَي دوران غلطي ھوئيَ گئي
-no-questions-message = ايئيَ ٻولِي ھارو فلحال تصديق ڪرڻ ھاروڪو ڀِي پرومپٽ ڪوني۔ مھربوني ڪريَ پنيَ نيَ ريفريش ڪرو يا پڇيَ وڙيَ ڪوشش ڪرو۔
 validate-page-yes-button-shortcut = وائيَ (ھوَي ڪرڻ رِي شارٽ ڪِي)
 validate-page-no-button-shortcut = اين (نا ڪرڻ رِي شارٽ ڪِي)
 validate-page-skip-button-shortcut = ايس (ڇوڙڻ رِي شارٽ ڪِي)

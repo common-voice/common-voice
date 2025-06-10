@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Escolteu el tall d'àudio i comproveu-ne la transcripció. Coincideix? Si no, editeu-lo perquè coincideixi perfectament.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Comproveu
-no-transcriptions-message = Actualment no hi ha cap més transcripció per comprovar en aquesta llengua. Actualitzeu la pàgina o torneu-ho a provar més tard.
 vote-transcript-success = La transcripció s'ha votat correctament
 vote-transcript-error = S'ha produït un error en votar la transcripció
 transcript-edited-success = La transcripció s'ha editat correctament

@@ -4,7 +4,6 @@ record-player-header = اپݨا جباب ریکارڈ کرو
 mic-access-error = تھمکُو مائکروپھونا تائیں پُگاوݨیں کی اِگیا دؔیوَٹیں لاجمی ہے۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> اور جِترا ہوئی سِکے سنسکِرتِیا کے رُوپام جباب دؔیووَ
-no-prompts-message = ہلی اس ٻولیا نتر کوئی جھالے ماجُود نائیں تِیئیں۔ کِرپا کری پنیں کُو تاجا کرو یا پیچھیں پُوٹھا یتن کرو۔
 error-skipping = اس پرمپٹا کُو چھوڈؔتیاݨیں ایک کھرابی آئی ہے
 error-recording = ریکارڈنگاݨیں ایک کھرابی آئی ہے
 error-fetching-prompts = جھالے لئتیاݨیں کائھِیں گلت ہوئی گا۔ کِرپا کری پُوٹھا یتن کرو۔

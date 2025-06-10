@@ -139,12 +139,29 @@ about-playbook-how-validate-content-1 = زي ڪلپ هانمڀۯا مان سئي
 about-playbook-how-validate-content-2 =
     زار ٻوليا واۯو ڪلپ نا اچار ٻولي سي تو تمين رد نا ڪرو۔ اي تمان ٿي فرق سي۔ </strong> 
     چم تو آواز رڪارڊ ڪروون  اوۯکوون الاهي خاص سي۔
+about-playbook-how-validate-content-3 = زي تمين سوچو سو ڪي اُچار سئي سي۔<strong> هانَ همزيا مان سوَلا سي يان ڪوئي ٻارلو شور ٿائي رو سي۔ يان اين مان وڌاري ٻيزان منک ٻولي ران سي تو تمين ڪلپ رد ڪرو پران۔<strong> وڌاري معلومات هارو جاجچ نين وڌيڪ زوئو۔ <strong>
+about-playbook-how-validate-content-4 = زي ٻي منکان نان ڪلپ رد سي۔ تو زوئو ڪانڪ فرق ميمبر هوئي ڊيٽا بيس هارو۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = مُون ڊيٽا بيس هارو چچم رسائي ڪريوش۔
+about-playbook-how-access-dataset-content-1 = ڊيٽا بيس نا صفعا نين زوئو۔ <datasetsPage> ٻولي هانَ عمل نين زوئو زي تمين چاهو سو۔ تمين ڊائون لوڊ ڪري ڪو سو۔ </metadataLink> اي ئلم شماريت ني معلومات سي هانَ قيٽا تصديق هارو سي۔ ڊيٽا بيس نين ڊائون لود ڪريا هاو اي ميل آلو۔
+about-playbook-how-access-dataset-content-2 = اي ايس آر نا مسڊل هارو ٽُول نين زوئو تمين برادري نان منکان ٿي رابطو ڪري ڪو سو۔ <discourseLink>ڊسڪورس هارو لنڪ سي </discourseLink>۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پرجيڪٽ هارو چچم  فيصلو ڪروو؟
+about-playbook-how-project-governance-content-1 = موزيلا ڪامن وائيس ممڪن طور برادري هارو سرگرمي، زبان، ديٽابيس سائينسٽڪ تعليمي نظام هانَ  پُوري دُنيا ٿي سوفٽ ويئر انجنيئر   تيار ڪريان سي۔ اي پروجيڪٽ موزيلا  فائونديشن ٿي سي۔
+about-playbook-how-project-governance-content-2 = اي گورنمنٽئي پيلر ڪوجنا ڪري سي۔
+about-playbook-how-project-governance-content-3 = رسائي، حفاظت هانَ صفت
+about-playbook-how-project-governance-content-4 = برادري ني شموليت هانَ فيٻلا
+about-playbook-how-project-governance-content-5 = اقدار هانَ آگاهي
+about-playbook-how-project-governance-content-6 = باهمي جوابداري
+about-playbook-how-project-governance-content-7 = وڌاري معلومات هارو <governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ڪامن وائيس چيوي نموني فنڊ آلي سي؟
+about-playbook-how-funded-content-1 = ڪامن وائيس ايڪ موزيلا فائوڊيشن نو پروجيڪٽ سي۔  US 501c3.  اي پروجيڪٽ پُورا <philantropicGrantLink> ڦلانٿروپڪ زي پُورا جڳت مان غريب سي ايوان ني مدد ڪري سي۔
+about-playbook-how-funded-content-2 = زي پڻ ڊيٽا بيس هاچا هارو خرچ ٿائي سي اي ڀري سي۔ پليٽ فارم وڌارو هان هاڪو۔ <africaMradiLink> برادري نان پروگرام </africaMradiLink>
+about-playbook-how-funded-content-3 = زي تمين يان تمارو تمارو ادارو چاهي سي ڪي پروجيڪٽ نِي مدد ڪري۔ تو تمين ايڪ <donateLink> مدد تيار ڪرو۔  يان ٻيزان ڪوئي شراڪت ڪريان هوئي زي مدد ڪري <emailFragment>commonvoice@mozilla.com</emailFragment>

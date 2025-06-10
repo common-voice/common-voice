@@ -6,6 +6,7 @@ action-click = Sit
 action-tap = Sit ɣef
 # Label for language switcher
 platform-language = Tutlayt n tɣerɣert
+coming-soon = Ugar n tutlayin ad ddunt ar zdat
 # Toast message that is displayed when an item is skipped
 skipped = Zgel
 audioplayer-header = Timesliwt

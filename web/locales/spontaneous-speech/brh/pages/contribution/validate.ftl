@@ -5,7 +5,8 @@ dataset-label = ڈیٹا سیٹ
 accept-vote-toast-message = سوج سرسہبی ٹی مننگا
 reject-vote-toast-message = سوج سرسہبی ٹی رد کننگا
 add-vote-error-message = پرومپٹ ئے ووٹ کننگ نا وخت آ ردینک ئس مس
-no-questions-message = دا زبان نا تصدیق کننگ کن فلحال ہچو اشارہ ئس اف۔ پنہ ئے ریفریش کبو یا ولدا اسہ وار ئس کوشست کبو۔
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = دا زبان کن پین سوج اف۔ اگہ نم گڑاس الانورے، گڑا نما الوکا مواد تون اوار برجا تخننگ کینہ یا آڈیو ٹرانسکرائب آ انبو ولدا واپس کوشست کننگ کیرے۔
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S

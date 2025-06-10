@@ -4,7 +4,6 @@ record-player-header = تان جوابو محفوظ کو
 mic-access-error = مائیکو ݯوکیکو خامخہ لاکے۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon>وا کندوری کی بوسان قدرتی اندازا جواب دیت
-no-prompts-message = ہیہ وختہ ہیہ وارو بچین کیا اشارہ نیکی۔ صفحو نوغ کو یا پھوک اچا کھوشش کو۔
 error-skipping = نیویشیرو سورین نیسیکو موژی نقص پیدا ہوئے
 error-recording = رکارڈ کوریکو موژی نقص پیدا ہوئے
 error-fetching-prompts = اشارو یی گناوا مسلہ پیدا ہوئے۔ پھوک اچا وا کوشش کو۔

@@ -4,7 +4,6 @@ record-player-header = Rekam jawaban Ente
 mic-access-error = Izinin buat gunain mik
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> dan jawab seadé-adénya ajé
-no-prompts-message = ga adé pertanyaan buat bahasé ini. Gih cobain ulang laman atow cobain beberapé saat lagi.
 error-skipping = Adé kesaléan pas ngelompatin nih pertanyaan.
 error-recording = Adé kesaléan pas ngerekam
 error-fetching-prompts = Adé kesaléan pas munculin pertanyaan. Gih cobain beberapé saat lagi.

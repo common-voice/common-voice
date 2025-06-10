@@ -24,6 +24,8 @@ skip-button = გიშატება
 submit-button = ჯღონა
 contribute = წილიშ მიშაღალა
 request-new-language = მითხით ახალი ნინა
+# Button text which appears when there are no more resources
+continue-with-skipped = გაგძელით გიშატებათ
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = ქუგამით მოთხუალას
 transcribe = ნაჭარათ მოჩამა
 check-transcriptions = ნაჭარაშ გინოჯინა
 question = ოკითხირე
+validate = გინოჯინა
 
 ## Not Found Page
 

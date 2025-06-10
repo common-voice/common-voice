@@ -24,6 +24,8 @@ skip-button = Kihagyás
 submit-button = Elküldés
 contribute = Közreműködés
 request-new-language = Új nyelv kérése
+# Button text which appears when there are no more resources
+continue-with-skipped = Folytatás a kihagyottakkal
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Válasz a kérdésre
 transcribe = Leiratozás
 check-transcriptions = Leiratok ellenőrzése
 question = Kérdés
+validate = Ellenőrzés
 
 ## Not Found Page
 

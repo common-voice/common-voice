@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon> آڊيو ڪِلپ ۿومڀۯو، انَ لکائِي چيڪ ڪرو۔ڪِي اي مِلئه رئي؟ جيڪيۮِي نا، تون اُوئا نئہ ۿاوي ٺائُوڪئہ نمُونئہ مِلايا رئي ڪوشش ڪرو۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = جائيزو ليوو
-no-transcriptions-message = فِي الحال اِيئا ٻولِي رِي لکائِي نئہ چيڪ ڪروو ضرُورِي نٿِي۔ميرڀونئي ڪرينَ پونيا نئہ ٻِيزِي وار تازو ڪرو ڪا وۯي ٻِيز وار ڪوشش ڪرو۔
 vote-transcript-success = لِکائِي نئہ ڪامياڀِي ٿِي ووٽ ۮِيڌو ڳيو
 vote-transcript-error = لِکت مانه ووٽ ۮيتون هيڪ ڳلتئي ۿومئي آوَئي
 transcript-edited-success = لکت نئہ ڪامياڀِي ٿِي ايڊِٽ ڪرئي ڳئي

@@ -62,6 +62,8 @@ create-profile-button = یو پروفایل جوړ کړئ
 img-alt-success-checkmark = د بریالیتوب نښه
 # menu item
 read-sentences = جملې ولولئ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملې ولولئ <small>(ژر راځي)</small></small>
 
 ## MENU ITEM TOOLTIPS
 

@@ -4,7 +4,8 @@ record-player-header = Uw antwoord opnemen
 mic-access-error = U dient toegang tot uw microfoon te geven.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> en antwoord zo natuurlijk mogelijk
-no-prompts-message = Er zijn momenteel voor deze taal geen vragen. Ververs de pagina of probeer het later nog eens.
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Er zijn geen vragen meer voor deze taal. Als u iets hebt overgeslagen, kunt u doorgaan met de overgeslagen inhoud of audiotranscriptie uitvoeren en het later proberen.
 error-skipping = Er is een fout opgetreden bij het overslaan van deze vraag
 error-recording = Er is een fout opgetreden tijdens het opnemen
 error-fetching-prompts = Er is iets misgegaan bij het ophalen van vragen. Probeer het later opnieuw.

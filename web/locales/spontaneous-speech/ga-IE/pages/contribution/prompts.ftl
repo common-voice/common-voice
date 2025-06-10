@@ -4,7 +4,6 @@ record-player-header = Taifead d'fhreagra
 mic-access-error = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> agus freagair chomh nádúrtha agus is féidir leat
-no-prompts-message = Níl aon leideanna don teanga seo faoi láthair. Athnuaigh an leathanach nó féach arís ar ball é.
 error-skipping = Tharla earráid fad agus a léimeadh thar an leid seo
 error-recording = Tharla earráid le linn an taifeadta
 # For the button to delete a response to a prompt

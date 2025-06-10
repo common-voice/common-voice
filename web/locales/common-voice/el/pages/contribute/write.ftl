@@ -161,4 +161,5 @@ write-contribute-menu-aria-label = Μενού επιλογών σύνταξης
 add-sentences-menu-item-aria-label = Προσθέστε νέες προτάσεις για να τις διαβάσει η κοινότητα
 review-sentences-menu-item-aria-label = Ελέγξτε υπάρχουσες προτάσεις που υποβλήθηκαν από την κοινότητα
 add-questions-menu-item-aria-label = Υποβάλετε νέες ερωτήσεις ώστε να τις διαβάσει και να τις απαντήσει η κοινότητα
+review-questions-menu-item-aria-label = Ελέγξτε και ψηφίστε τις νέες ερωτήσεις που υποβλήθηκαν από την κοινότητα
 transcribe-audio-menu-item-aria-label = Μεταγράψτε ηχογραφήσεις σε κείμενο

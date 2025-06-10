@@ -4,7 +4,6 @@ record-player-header = הקליטו את התגובה שלכם
 mic-access-error = עליכם לאפשר גישה למיקרופון.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> והגיבו כמה שיותר בטבעיות
-no-prompts-message = כרגע אין תמלולים לבדיקה עבור שפה זו. רעננו את הדף או נסו שוב מאוחר יותר.
 error-skipping = אירעה שגיאה בעת דילוג על ההנחיה
 error-recording = אירעה שגיאה במהלך ההקלטה
 error-fetching-prompts = משהו השתבש בעת שליפת ההנחיות. אנא נסו שוב מאוחר יותר.

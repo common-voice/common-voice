@@ -123,6 +123,7 @@ culturally-specific-questions = Porandu mba’ekuaarã rehegua
 culturally-specific-questions-explanation = Ñeporandu jekuaapy rehe g̃uarã térã ojapóva heta je’erei ñembohovái rehegua.
 length-avoid-explanation = Porandu peteĩ tapicha ikatukuaáva ombohovái 15 aravo’ípe (ko’a peve ipukukue pe porandu)
 process-steps = Mba’eapo / Jeku’e
+process-steps-explanation = Porandu oikotevẽva ñembopapapy. Embopapapy umi jeku’e he’i poruhárape ombohovái hag̃ua ombohovái reirangue.
 offensive-content-sensitive-information = Tetepy oporoko’õva térã marandu oñeñandúva
 offensive-content-sensitive-information-explanation-explanation-1 = Ñeporandu ikatukuaáva ojerure ndéve marandu nde ndeheguaitéva
 offensive-content-sensitive-information-explanation-explanation-2 = Porandu ikatúva omongu’e je’epy ja’e’ỹ térã hetave mba’e omongu’ekuaáva jeikovairã

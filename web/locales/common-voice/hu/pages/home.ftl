@@ -88,6 +88,7 @@ read-more-about = További információk a Névjegy oldalon
 answer-questions = Kérdések megválaszolása
 review-transcriptions = Leiratok ellenőrzése
 add-questions = Kérdések hozzáadása <small>(hamarosan)</small>
+review-questions = Kérdések áttekintése
 transcribe-audio = Hangok leiratozása
 press-and-stories = Sajtó és történetek
 community-and-languages = Közösség és nyelvek
@@ -135,6 +136,7 @@ spontaneous-card-content = Válaszoljon kérdésekre, hogy természetes, köznye
 language-text-card-header = Nyelvi szöveg
 language-text-card-content = Hozzon létre vagy osszon meg közkincsű kérdéseket és mondatokat, valamint fordításhoz, kis nyelvi modellekhez és egyebekhez használható szövegeket.
 add-text = Szöveg hozzáadása
+answer = Válasz
 
 ## Community section
 
