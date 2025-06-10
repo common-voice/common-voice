@@ -24,6 +24,8 @@ skip-button = Ignora
 submit-button = Invia
 contribute = Collabora
 request-new-language = Richiedi nuova lingua
+# Button text which appears when there are no more resources
+continue-with-skipped = Continua con contenuti saltati
 
 ## Navbar
 
