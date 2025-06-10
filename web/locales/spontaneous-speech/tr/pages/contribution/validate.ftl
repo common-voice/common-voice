@@ -15,5 +15,6 @@ validate-page-skip-button-shortcut = A
 
 validation-guidelines-title = Yönergeler
 validation-guideline-1 = Kişisel bilgi talep etmeyen (örn. ad, finansal bilgi)
+validation-guideline-2 = Saldırgan olmayan, önyargılı ifadeler içermeyen, hassas konulara değinmeyen
 validation-guideline-3 = Basit ve herkesin anlayacağı şekilde
 validation-guideline-4 = Birkaç cümleyle cevaplanabilir
