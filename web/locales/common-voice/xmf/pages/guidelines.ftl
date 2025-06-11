@@ -1,8 +1,9 @@
 # GUIDELINES PAGE
 guidelines-header = მაკათურეფიშ შარაშმაწურაფალი
-guidelines-header-subtitle = ქოძირით, მუჭო ოკო გეუძინათ დო გინაჯინათ ზიტყვასქვილეფს დო ხონარიშ ინნაჭარეფს Common Voice-იშ მუნაჩემეფიშ ოშაყარუს
+guidelines-header-subtitle = ქოძირით, მუჭო ოკო გეუძინათ დო გინაჯინათ ზიტყვასქვილეფს დო ხონარიშ ინნაჭარეფს Common Voice-იშ მუნაჩემეფიშ კათელს
 voice-collection = ხონარეფიშ კოლექცია
 sentence-collection = ზიტყვასქვილეფიშ კოლექცია
+question-collection = ოკითხირეეფიშ კოლექცია
 
 ## Voice Collection nav ids
 
