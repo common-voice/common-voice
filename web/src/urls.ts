@@ -44,6 +44,7 @@ export default Object.freeze({
   QUESTION: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/question',
   RECORD: '/record', // old, here for redirect purposes
   REVIEW: '/review',
+  REVIEW_QUESTIONS: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/validate',
   ROOT: '',
   TRANSCRIBE: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/transcribe',
   S3_CDN: 'https://cdn.commonvoice.mozilla.org',

@@ -15,7 +15,7 @@ coming-soon = Bàll kùmme néji Sproche dezü
 media-recorder-api-not-supported = Die MediaRecorder-API wird von Ihrem Browser nicht unterstützt.
 # Toast message that is displayed when an item is skipped
 skipped = Ìwwerghüpst
-audioplayer-header = Horiche/Losse
+audioplayer-header = Horiche/Loose
 guidelines = Vorschrìfte
 # For the button to report an item
 report-button = Malde
@@ -27,10 +27,10 @@ request-new-language = Néji Sproch vorschlaawe
 
 ## Navbar
 
-respond-to-prompt = Ùff d’Fröj Àntwùrt gann
+respond-to-prompt = Ùff Fröje Àntwùrt gann
 transcribe = Trànschkribiere
 check-transcriptions = Trànschkriptione noochlüeje
-question = Fröj
+question = Fröje
 
 ## Not Found Page
 
