@@ -128,19 +128,19 @@ export default class API {
 
   async fetchRandomSentences(
     count = 1,
-    ignoreVariant = false
+    ignoreClientVariant = false
   ): Promise<Sentence[]> {
     return this.fetch(
       `${this.getLocalePath()}/sentences?count=${count}${
-        ignoreVariant ? '&ignoreVariant=true' : ''
+        ignoreClientVariant ? '&ignoreClientVariant=true' : ''
       }`
     )
   }
 
-  async fetchRandomClips(count = 1, ignoreVariant = false): Promise<Clip[]> {
+  async fetchRandomClips(count = 1, ignoreClientVariant = false): Promise<Clip[]> {
     return this.fetch(
       `${this.getClipPath()}?count=${count}${
-        ignoreVariant ? '&ignoreVariant=true' : ''
+        ignoreClientVariant ? '&ignoreClientVariant=true' : ''
       }`
     )
   }

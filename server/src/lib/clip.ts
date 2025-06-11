@@ -357,10 +357,10 @@ export default class Clip {
     if (!client_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    const ignoreVariant = Boolean(request.query.ignoreVariant) || false
+    const ignoreClientVariant = Boolean(request.query.ignoreClientVariant) || false
     const count = Number(request.query.count) || 1
     const clips = await this.bucket
-      .getRandomClips(client_id, locale, count, ignoreVariant)
+      .getRandomClips(client_id, locale, count, ignoreClientVariant)
       .then(this.appendMetadata)
 
     response.json(clips)

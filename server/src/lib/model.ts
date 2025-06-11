@@ -55,11 +55,11 @@ export default class Model {
     client_id: string,
     locale: string,
     count: number,
-    ignoreVariant: boolean,
+    ignoreClientVariant: boolean,
   ): Promise<DBClip[]> {
     const localeId = await getLocaleId(locale)
 
-    const clientPrefersVariant = !ignoreVariant && await pipe(
+    const clientPrefersVariant = !ignoreClientVariant && await pipe(
       client_id,
       fetchUserClientVariants,
       TE.map(ucvs => isVariantPreferredOption(localeId)(ucvs)),
