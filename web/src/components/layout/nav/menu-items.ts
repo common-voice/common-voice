@@ -93,11 +93,12 @@ export const menuItems: Record<NavItem, MenuConfig> = {
       },
       {
         icon: ReviewQuestionsIcon,
-        localizedId: 'review-questions-coming-soon',
+        localizedId: 'review-questions',
         requiresAuth: true,
         menuItemTooltip: 'review-questions-menu-item-tooltip',
         menuItemAriaLabel: 'review-questions-menu-item-aria-label',
         type: 'spontaneous',
+        externalHref: URLS.REVIEW_QUESTIONS,
       },
       {
         icon: TranscribeIcon,
