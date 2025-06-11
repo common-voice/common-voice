@@ -1,12 +1,16 @@
 ## ProfileForm
 
+profile-form-username =
+    .label = მუმახვარებელიშ სახელი
 profile-form-native-language =
     .label = ნანაში ნენა
+profile-form-additional-language =
+    .label = დამატებით ნინა
 profile-form-language =
     .label = ნინა
 profile-form-variant =
     .label = { $language } ნამუ ვარიანტიშა იჩიებუქ?
-profile-form-variant-default-value = დიალექტი ვარე მითითებული
+profile-form-variant-default-value = დიალექტი ვარე გიშაგორილი
 profile-form-accent =
     .label = აქცენტი
 profile-form-custom-accent-help-text =
@@ -16,7 +20,10 @@ profile-form-age =
     .label = წანა
 profile-form-gender-2 =
     .label = სქესი ვარდა გენდერი
+leaderboard-visibility =
+    .label = Leaderboard-იშ ძირაფა
 hidden = ტყობინაფილი
+visible = ღილე
 native-language =
     .label = ნანაში ნენა
 profile-form-add-accent = ქიგუძინი საკუთარი კილო "{ $inputValue }"

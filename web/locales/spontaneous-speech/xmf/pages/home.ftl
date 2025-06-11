@@ -27,6 +27,7 @@ check-bubble-subtitle = ქიგნაჯინით, ნაჭარათ �
 data-bubble-title = <mark> მუნაჩემეფი </mark>
 data-bubble-subtitle = ჩქი პერიოდულო გუმუაქიანენთ მუნაჩემეფიშ კათელს
 contact-us = ქიდმეკავშირით
+contact-us-title = ზალამ გიღუნანო ჩქინ პროექტიშ მაკათური ვარდა ჩქინი ალმახანდე რდათჷნი?
 contact-us-email = ელფოსტა:<emailFragment> commonvoice@mozilla.com </emailFragment>
 signup-form-title = თქვა ანწი რეთო Beta-გინოჯინაში ჩქინ ბუნას Common Voice’s-იშ სპონტანურ ჩიებაში პროექტის?
 signup-terms = "ელფოსტაშა რსხილიშ მოჯღონა" თეშა გეკაკაფათ თქვა ოთანხმუთ <termsLink> მოხვარებაშ პირობენს </termsLink> დო <privacyLink> კონფიდენციალურობაშ პოლიტიკას </privacyLink>, თეწკჷმა ართო, ირძენთ ალებას, Mozilla-ქ ელფოსტაშა ქუმოიჯღონანი ინფორმაცია მუჭო ოკო მიღათ მონაწილეობა Common Voice-იშ სპონტანური ჩიებაში პროექტიშ Beta-გინოჯინაშა.
