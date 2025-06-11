@@ -24,6 +24,8 @@ skip-button = Saltar
 submit-button = Inviar
 contribute = Contribuer
 request-new-language = Require nove lingua.
+# Button text which appears when there are no more resources
+continue-with-skipped = Continuar con contento saltate
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Responder al Sollicitation
 transcribe = Transcriber
 check-transcriptions = Verificar transcriptiones
 question = Question
+validate = Validar
 
 ## Not Found Page
 

@@ -27,6 +27,8 @@ finance = Finans
 general = Generelt
 # Sentence Domain dropdown option
 healthcare = Sundhed
+# Sentence Domain dropdown option
+nature_environment = Natur og miljø
 sentence-variant-select-label = Sætningsvariant
 sentence-variant-select-placeholder = Vælg en variant (valgfrit)
 sentence-variant-select-multiple-variants = Generelt sprog / flere varianter
@@ -81,6 +83,7 @@ write-contribute-menu-tooltip = Tilføj og gennemgå sætninger, Tilføj spørgs
 add-sentences-menu-item-tooltip = Tilføj sætninger på dit sprog
 review-sentences-menu-item-tooltip = Gennemgå sætninger på dit sprog
 add-questions-menu-item-tooltip = Tilføj spørgsmål på dit sprog
+review-questions-menu-item-tooltip = Gennemgå spørgsmål
 transcribe-audio-menu-item-tooltip = Transskriber lydoptagelser på dit sprog
 
 ## MENU ITEM ARIA LABELS
@@ -88,4 +91,5 @@ transcribe-audio-menu-item-tooltip = Transskriber lydoptagelser på dit sprog
 add-sentences-menu-item-aria-label = Tilføj nye sætninger, som fællesskabet kan læse
 review-sentences-menu-item-aria-label = Gennemgå eksisterende sætninger indsendt af fællesskabet
 add-questions-menu-item-aria-label = Indsend nye spørgsmål, som fællesskabet kan læse og svare på
+review-questions-menu-item-aria-label = Gennem og stem for nye spørgsmål indsendt af fællesskabet
 transcribe-audio-menu-item-aria-label = Transskriber lydoptagelser til tekst

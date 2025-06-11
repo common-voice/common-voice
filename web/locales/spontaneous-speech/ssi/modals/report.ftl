@@ -1,14 +1,14 @@
 ## Report Modal
 
-report-modal-title = کھٻر دؔئٹؔا
-report-modal-subtitle = تھم کُو اِس سیمانا کے سات کیا سمسیاں کا انبھو ہے؟
-offensive_speech = اپمانِت سیمان سیمان
+report-modal-title = ایک رپورٹ جما کراؤ
+report-modal-subtitle = تھم کُو اِس سیمانا کے سات کیا سمسیاں کا انبھوَ ہے؟
+offensive_speech = اپمانِت جنک سیمان
 offensive_speech-detail = سیمانام اپمان جنک یا آپتی جنک بھاشا ہے۔
 different_language = نِیاری ٻولی
-different_language-detail = سیمانام ایک ایسی ٻولی سیمل ہے جس کی ہُوں اُمید کری را تِیا۔
-personally_identifiable_information = اپݨیں توراپ اوݪکھݨیں جوگی جانکاری
-personally_identifiable_information-detail = اس سیمانام کسی مِنکھا کی اوݪکھاس جُڑوڑی اپݨیں توراپ اوݪکھݨیں جوگی جانکاری سیمل ہے ، جِدؔا اِس کا نانٚو ، ای میل پتہ ، جھاگا ، اوݪکھݨیں لمبر ، یا پھون لمبر۔
-personally_identifiable_information-answer-detail = یو سیمان کسی مِنکھا کی اوݪکھاس جُڑوڑی اپݨیں توراپ اوݪکھݨیں جوگی جانکاری ٻُوجھی رہا ہے ، جِدؔا اس کا نانٚو ، ای میل پتہ ، جھاگا ، اوݪکھݨیں لمبر ، یا پھون لمبر۔
+different_language-detail = سیمانام ایک ایسی ٻولی سیمݪ ہے جس کی ہُوں اُمید کری را تِیا۔
+personally_identifiable_information = اپݨیں آپ سے اوݪکھݨیں جوگی جاݨکاری
+personally_identifiable_information-detail = اس سیمانام کسی مِنکھا کی اوݪکھاس جُڑوڑی اپݨیں آپ سے اوݪکھݨیں جوگی جاݨکاری سیمݪ ہے ، جِدؔا اِس کا نانٚوَ، ای میل پتا ، جاگھا ، اوݪکھݨیں کا لمبر ، یا پھون لمبر۔
+personally_identifiable_information-answer-detail = یو سیمان کسی مِنکھا کی اوݪکھاس جُڑوڑی اپݨیں آپ سے اوݪکھݨیں جوگی جاݨکاری ٻُوجھی رہا ہے ، جِدؔا اس کا نانٚوَ ، ای میل پتا ، جاگھا ، اوݪکھݨیں کا لمبر ، یا پھون لمبر۔
 report-other-comment =
     .placeholder = ٻچن
 # Label for textarea in report modal

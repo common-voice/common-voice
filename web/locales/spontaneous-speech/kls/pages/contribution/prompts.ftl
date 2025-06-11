@@ -4,7 +4,6 @@ record-player-header = Tan awaz recard kari
 mic-access-error = Tu khamakha Chutyak mon diuini lasai/ microphone
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = Prus't kai, tan chitan jawab de
-no-prompts-message = Filahal, shaya zuban una o kia ne newishi shiau. Meharbani kai page fresh kari ya o geri khushush kari
 error-skipping = Report jama karik vew galti hawaw
 error-recording = Recard karik wew galati hawaw
 error-fetching-prompts = Tichak kia galat hawaw reCAPTCHA una. Meharbani heri khushush kari.

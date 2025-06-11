@@ -4,7 +4,6 @@ record-player-header = บันทึกเสียงการตอบกล
 mic-access-error = คุณต้องอนุญาตให้ใช้ไมโครโฟนได้
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> แล้วตอบกลับอย่างเป็นธรรมชาติที่สุดเท่าที่คุณทำได้
-no-prompts-message = ขณะนี้ยังไม่มีข้อความคำสั่งสำหรับภาษานี้ โปรดเรียกหน้านี้ใหม่หรือลองอีกครั้งในภายหลัง
 error-skipping = เกิดข้อผิดพลาดขณะข้ามข้อความคำสั่งนี้
 error-recording = เกิดข้อผิดพลาดขณะบันทึกเสียง
 error-fetching-prompts = มีบางอย่างผิดปกติขณะดึงข้อมูลข้อความคำสั่ง โปรดลองอีกครั้ง

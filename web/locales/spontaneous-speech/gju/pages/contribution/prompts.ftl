@@ -4,7 +4,6 @@ record-player-header = اپنا جواب نا محفوظ کرو
 mic-access-error = تم نا مائیکرو فون نا بھی پہنچ دینی وھے گی
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon>  تے اسی طرحیا جواب دیوں جس طرحیا قدرتی طور اپر ہووے
-no-prompts-message = اس زبان وسطے اس وخت کوئی اشارو نیہہ ۔ مہربانی کر کے صفحہ نا تازو کرو یا نکی جئی چر تے کاہڈ بھی کوشش کرو
 error-skipping = اس اشارہ تے اگے لنگھن کے دوران  خرابی ہو گئی
 error-recording = جمع کرن کے دوران کائے خرابی ہو گئی
 error-fetching-prompts = نشان نے مڑ کے آنن ما کائے خرابی ہو گئی۔ مہربانی کر کے نکی جئی چر تے کاہڈ بھی کوشش کرو

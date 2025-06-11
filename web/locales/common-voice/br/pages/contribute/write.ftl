@@ -167,6 +167,7 @@ write-contribute-menu-tooltip = Ouzhpennañ ha gwiriañ frazennoù, sevel goulen
 add-sentences-menu-item-tooltip = Ouzhpennañ frazennoù en ho yezh
 review-sentences-menu-item-tooltip = Gwiriañ frazennoù en ho yezh
 add-questions-menu-item-tooltip = Ouzhpennañ goulennoù en ho yezh
+review-questions-menu-item-tooltip = Gwiriañ ar goulennoù
 transcribe-audio-menu-item-tooltip = Treuzskrivañ enrolladennoù en ho yezh
 
 ## MENU ITEM ARIA LABELS
@@ -175,4 +176,5 @@ write-contribute-menu-aria-label = Lañser dibarzhioù skrivañ
 add-sentences-menu-item-aria-label = Lakait frazennoù ouzhpenn da vezañ lennet gant ar gumuniezh
 review-sentences-menu-item-aria-label = Gwiriit frazennoù bet kinniget gant ar gumuniezh
 add-questions-menu-item-aria-label = Kasit goulennoù nevez da vezañ lennet ha respontet dezho gant ar gumuniezh
+review-questions-menu-item-aria-label = Gwiriañ ar goulennoù nevez kinniget d'ar gumuniezh ha votiñ evito
 transcribe-audio-menu-item-aria-label = Treuzskrivañ enrolladennoù

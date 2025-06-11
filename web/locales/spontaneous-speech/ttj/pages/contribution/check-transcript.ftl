@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Huliiriza akatambi k'amaraka, kandi orole obu karaaba nikasisana n'omulingo iraka lihandiikirwemu. Obu biraaba bitarukusisana obigorre obitereekereze.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Kebera
-no-transcriptions-message = Orulimi runu tirwine bihandiiko by'amaraka omu kasumi kanu. Noosobora kusisimura peeji rundi kulengeho hanyuma.
 vote-transcript-success = Ekihandiiko ky'amaraka kikomerwe kurungi
 vote-transcript-error = Habaireho ensobi mu kukoma ekihandiiko
 transcript-edited-success = Ekihandiiko ky'amaraka kigoroirwe kurungi

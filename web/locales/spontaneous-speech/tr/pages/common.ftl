@@ -9,7 +9,7 @@ platform-language = Platform dili:
 platform-language-tooltip-text = Sadece web sitesi arayüz dilini değiştirir.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = { $language } dilinin veri kümesine katkı yapılıyor
+contribution-picker-label = { $language } veri kümesine katkıda bulunuyorsunuz
 contribution-picker-tooltip-text = Katkıda bulunduğunuz dil veri kümesini değiştirir
 coming-soon = Yakında daha fazla dil gelecek
 media-recorder-api-not-supported = "MediaRecorder API" tarayıcınızda desteklenmemektedir.
@@ -24,6 +24,8 @@ skip-button = Atla
 submit-button = Gönder
 contribute = Katkı ver
 request-new-language = Yeni dil iste
+# Button text which appears when there are no more resources
+continue-with-skipped = Atladıklarınla devam et
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Yanıtla
 transcribe = Metne Çevir
 check-transcriptions = Metne Çevrilmişleri Denetle
 question = Soru
+validate = Doğrula
 
 ## Not Found Page
 

@@ -4,7 +4,6 @@ record-player-header = juwaap record etin
 mic-access-error = microphones e access gane ijazat ićhiin
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = daa but samba ayetum juwaap mićʰiin
-no-prompts-message = gute kheene gute baaṣulo transcribe ećar mesuman api. page refresh etin daa hik ke iciyate kośiś etin
 error-skipping = skip etasulo besan ṭʰisan manimi
 error-recording = recording etasulo besan ṭʰisan manimi
 error-fetching-prompts = besan ṭʰisan manimi  mesumin daal etasulo. hik ke iciyate kośiś etin

@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Kakgaxpatti chu kaliyawa xatalakatsokgni. Chu pala nitlan wix kakaxtlawa.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Kalakkakxilhti
-no-transcriptions-message = Ni tu xatatsokgtilha nak jaé tachiwín. Chu kamasasti xlakan web nixlimakgas.
 vote-transcript-success = Tlan taxtuchá xatalakgatsokgni.
 vote-transcript-error = Nitlan taxtuchá axkní lakgatsojka.
 transcript-edited-success = Tlan taxtuchá xatalakgpalin talakgatsokgni.

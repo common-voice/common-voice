@@ -1,4 +1,5 @@
 add-information-button = Dodaj podatke
+continue-speaking-button = Nadaljuj z govorjenjem
 age-select-label = Koliko ste stari?
 select-your-age = Izberite svojo starost
 gender-select-label = Katerega spola ste?

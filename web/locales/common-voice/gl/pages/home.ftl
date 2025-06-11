@@ -78,6 +78,7 @@ read-more-about = Máis información na pestana "Sobre nós"
 answer-questions = Responder preguntas
 review-transcriptions = Revisar transcricións
 add-questions = Engadir preguntas
+review-questions = Revisar preguntas
 transcribe-audio = Transcribir gravacións
 press-and-stories = Comunicación, novas
 community-and-languages = Comunidade, idiomas

@@ -78,10 +78,11 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 
 ## NAV ITEMS
 
-answer-questions = Soru yanıtla <small>(Çok yakında)</small>
-review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
-add-questions = Soru ekle <small>(Çok yakında)</small>
-transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
+answer-questions = Soru yanıtla
+review-transcriptions = Çeviri metinleri incele
+add-questions = Soru ekle
+review-questions = Soruları incele
+transcribe-audio = Ses kayıtlarını metne çevir
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
 coming-soon = Çok yakında
@@ -127,7 +128,7 @@ spontaneous-card-header = Doğaçlama Konuşma
 spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere sorulara yanıt verin. Konuşma öncelikli diller için ideal.
 language-text-card-header = Dilinizde Metinler
 language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
-add-text = Metin ekleyin
+add-text = Metin ekle
 answer = Yanıt ver
 
 ## Community section
@@ -187,7 +188,7 @@ partner-section-subtitle-tech-companies = <bold>Teknoloji şirketleri</bold>: H�
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Sivil toplum ve araştırmacılar</bold>: Etkileyici veri kümelerini ücretsiz olarak oluşturun, barındırın ve paylaşın
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-philantropy = <bold>Yardımseverlik</bold> - Yerel buluşları ve gelişmeyi desteklemek için veri kümeleri oluşturmaya sponsor olun
+partner-section-subtitle-philantropy = <bold>Yardımseverlik</bold>: Yerel buluşları ve gelişmeyi desteklemek için veri kümeleri oluşturmaya sponsor olun
 # icon is an arrow that points to the right
 get-in-touch-button = Bize ulaşın <icon></icon>
 # Partners section

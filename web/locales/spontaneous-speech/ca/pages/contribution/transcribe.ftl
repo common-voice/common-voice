@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> i anoteu allò que sentiu dir a la persona
 editbox-header = Transcriviu
 editbox-placeholder = Escriu aquí allò que sentiu dir a la persona
-no-audio-message = Actualment no hi ha cap més àudio per transcriure en aquesta llengua. Actualitzeu la pàgina o torneu-ho a provar més tard.
 create-transcript-success = La transcripció s'ha enviat correctament
 create-transcript-error = S'ha produït un error en crear la transcripció
 error-playing-audio = S'ha produït un error en reproduir el fitxer d'àudio.

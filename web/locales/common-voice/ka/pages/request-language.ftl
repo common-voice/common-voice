@@ -2,8 +2,8 @@
 
 request-language-heading = ახალი ენის დამატების მოთხოვნა
 request-language-explanation-1 =
-    შეამოწმეთ, არის თუ არა თქვენი ენა
-    <languagesPageLink>Common Voice-ის ენების გვერდზე</languagesPageLink>.
+    შეამოწმეთ, გიჩვენებთ თუ არა თქვენს ენას
+    <languagesPageLink>Common Voice ენების ჩამონათვალში</languagesPageLink>.
     თუ არაა, შეავსეთ კითხვარი და <strong>გამოგიგზავნით წერილს
     ენის დამატების შესახებ მითითებებით</strong>.
 request-language-form-email =

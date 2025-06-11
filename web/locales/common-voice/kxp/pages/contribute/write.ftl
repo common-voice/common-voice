@@ -25,6 +25,10 @@ new-sentence-rule-7 = مناسب حوالو هوئي
 new-sentence-rule-8 = مثال قدرتي هانَ وات سينح ايوا جملا ڀڻوا سوَلا سي
 login-instruction-multiple-sentences = <loginLink> لوگ اِن </loginLink> or <loginLink> سائين اپ </loginLink>وڌاري جملا ٺاهو
 how-to-cite = چچم حوالو آليوش؟
+how-to-cite-explanation-bold = يو آر ايل ني سائيٽ پورُون نام نيٽ ورڪ نُون
+how-to-cite-explanation =
+    آ تمارا پوتان نا اکر سي <italicizedText>
+    امان نين ضرورت سي ڪي تمين فهرست چانئين ٿي ليشو ڪي تمين منکان مين چچم چيڪ ڪراوشو ڪاپي رائيٽ اپلائي هارو چيڪ ڪرو۔ وڌيڪ معلومات هارو <guidelinesLink>
 guidelines = هدايت
 contact-us = امان ٿي رابطو ڪرو
 add-sentence-success = جملا جمع ڪرو
@@ -158,6 +162,7 @@ write-contribute-menu-tooltip = جملا جمع ڪرو هانَ وراي زوئ�
 add-sentences-menu-item-tooltip = پوتان نِي ٻولي مان جملا جمع ڪرو
 review-sentences-menu-item-tooltip = پوتاني ني ٻولي واۯا جملان نين وري زوئو
 add-questions-menu-item-tooltip = پوتان ني ٻولي مان سوال ٺاهو
+review-questions-menu-item-tooltip = سوال نِي دوهرائي
 transcribe-audio-menu-item-tooltip = پوتان ني ٻولي مان آڊيو رڪاڊنگ ڪرو
 
 ## MENU ITEM ARIA LABELS
@@ -166,4 +171,5 @@ write-contribute-menu-aria-label = فهرست لکو
 add-sentences-menu-item-aria-label = برادري نين ڀڻيا هارو نوا جملا ٺاهو
 review-sentences-menu-item-aria-label = دوهرائي ميلنَ برادري پرماڻي جملا پيش ڪرو
 add-questions-menu-item-aria-label = برادري هارو نوا جملا ٺاهو ڪي او ڀڻي ڪي
+review-questions-menu-item-aria-label = دوهرائي يان نوان سوالان نين زوئون هانَ برادري ٿِي جمع ڪروان
 transcribe-audio-menu-item-aria-label = حوالا مان آڊيو رڪارڊنگ ڪرو

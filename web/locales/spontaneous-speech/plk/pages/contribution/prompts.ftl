@@ -4,7 +4,8 @@ record-player-header = توموْ جُواب ریکارڈ تِھیا
 mic-access-error = څھوْڑ مائکروفون بُجَیش اجازہ دون بَو۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> آں قدرتی شان گیْ جُواب دیا کاتھ چہ دوبانَت۔
-no-prompts-message = آ جِبے کِرِیا فی الحال کھاں گہ اِشارائے نِش۔ مہربانی تھے صفحہ ریفریش تِھیا یا پتو پھری کوشِش تِھیا۔
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = آ جِبے کِرِیا مُتہ سوالات نِش۔ اگر څھا جوْ پھتیتَن، توْ پھتیلوْ مواد سے ساتیْ جاری پھتبانَت یا آڈیو ٹرانسکرائب جیْ گیے پتو ست دُبار کوشش تھوبانَت۔
 error-skipping = پرامپٹ پھتونے وخ دہ ایْک غلطی بِلِن۔
 error-recording = ریکارڈنگ تھون دہ ایْک غلطی بِلِن۔
 error-fetching-prompts = پرامپٹس حاصل تھونے وخ دہ جوکَک غلطی بِلِن۔ مہربانی تھے پھری کوشِش تِھیا۔

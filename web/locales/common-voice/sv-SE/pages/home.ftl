@@ -81,6 +81,7 @@ read-more-about = Läs mer på vår om sida
 answer-questions = Svara på frågor
 review-transcriptions = Granska transkriptioner
 add-questions = Lägg till frågor
+review-questions = Granska frågor
 transcribe-audio = Transkribera ljud
 press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk

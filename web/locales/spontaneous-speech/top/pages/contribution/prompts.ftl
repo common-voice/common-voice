@@ -4,7 +4,6 @@ record-player-header = Lhkakán mintakgalhtinat
 mic-access-error = Natlawaya litlán katamakanulh likilhchiwín
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> chu kakgalhtinanti la wix chiwinana
-no-prompts-message = Lata ukú nitu takgalhskinín nak ja'e tachiwín. Alistan katlawapala.
 error-skipping = Nitlan taxtuchá akxni akgpakgoslhi takgalaskinit.
 error-recording = Nitlan taxtuchá akxní lhkamaka tachiwin.
 error-fetching-prompts = Nitlan taxtuchá xatamakgit kgalaskininat. Alistan katlawapala.

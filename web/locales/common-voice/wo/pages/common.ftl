@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Afaar
 ab = Abxas
 ace = Acenese
 ady = Adig

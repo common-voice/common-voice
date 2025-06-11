@@ -20,11 +20,11 @@ validate-readings-coming-soon = Dilysu Darlleniadau <small>(Yn dod cyn hir)</sma
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Dilysu Darlleniadau, Adolygu Trawsgrifiadau
-validate-readings-menu-item-tooltip = Dilysu darlleniadau a recordiwyd gan ddefnyddwyr yn eich iaith
-review-transcriptions-menu-item-tooltip = Adolygu trawsgrifiadau a gyflwynwyd gan ddefnyddwyr yn eich iaith
+validate-readings-menu-item-tooltip = Dilysu darlleniadau recordiwyd gan ddefnyddwyr yn eich iaith
+review-transcriptions-menu-item-tooltip = Adolygu trawsgrifiadau gyflwynwyd gan ddefnyddwyr yn eich iaith
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Dewislen dewisiadau gwrando
-validate-readings-menu-item-aria-label = Dilysu darlleniadau a gyflwynwyd gan aelodau'r gymuned
-review-transcriptions-menu-item-aria-label = Adolygu trawsgrifiadau o frawddegau a gofnodwyd i sicrhau cywirdeb
+validate-readings-menu-item-aria-label = Dilysu darlleniadau wedi'u cyflwyno gan aelodau'r gymuned
+review-transcriptions-menu-item-aria-label = Adolygu trawsgrifiadau o frawddegau gofnodwyd i sicrhau cywirdeb

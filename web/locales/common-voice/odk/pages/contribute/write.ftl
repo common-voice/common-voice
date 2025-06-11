@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جُملي شامل ڪرا ائُون اُونه
 add-sentences-menu-item-tooltip = آپڪِي ٻولِي ۾ جُملي شامل ڪرا
 review-sentences-menu-item-tooltip = آپڪِي ٻولِي ۾ جُملان چا جائزا گيهوا
 add-questions-menu-item-tooltip = آپڪِي ٻولِي ۾ سوال شامل ڪرا
+review-questions-menu-item-tooltip = جائِزي چي سوال
 transcribe-audio-menu-item-tooltip = آڊيو رڪارڊنگِي نُون آپڪِي ٻولِي ۾ نقل ڪرا
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = اختيار ائُون مينيُون لِک
 add-sentences-menu-item-aria-label = برادري چي پڙهڻي چي ڪاڻ نوين جُملي لِکا
 review-sentences-menu-item-aria-label = برادرِي چي طرفُون موڪلوڙان جُملان چا جائزا گيهوا
 add-questions-menu-item-aria-label = برادري چي پڙهڻي ائُون جواب ڏِيڻي چي ڪاڻ نوين سوال جمع ڪراوا
+review-questions-menu-item-aria-label = برادرِي چي طرفُون جمع ڪروڙا نوان سوالان چا جائزا گيهوا ائُون ووٽ ڏِيا
 transcribe-audio-menu-item-aria-label = آڊيو رڪارڊنگِي نُون متنا ۾ نقل ڪرا

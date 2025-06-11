@@ -24,6 +24,8 @@ skip-button = Lezel a-gostez
 submit-button = Kas
 contribute = Kemer perzh
 request-new-language = Goulenn ur yezh nevez
+# Button text which appears when there are no more resources
+continue-with-skipped = Kenderc'hel gant ar re bet lezet a-gostez
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Respont d'ar goulenn
 transcribe = Treuzskrivañ
 check-transcriptions = Gwiriañ treuzskrivadurioù
 question = Goulenn
+validate = Aprouiñ
 
 ## Not Found Page
 
@@ -61,3 +64,7 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Klask ur yezh...
+language-search-aria-label = Klask ur yezh...
+language-search-label = Ne cheñch nemet yezh ar strobad roadennoù a gemerit perzh ennañ
+language-search-no-results = N'eus bet kavet yezh ebet

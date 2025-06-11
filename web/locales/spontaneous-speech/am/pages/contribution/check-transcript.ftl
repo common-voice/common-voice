@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> የድምጽ ቅንጥቡን ያዳምጡ፣ እና ቅጂውን ያረጋግጡ። ይዛመዳል? ካልሆነ፣ በትክክል እንዲዛመድ ያርትዑት።
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = ይፈትሹ
-no-transcriptions-message = በአሁኑ ጊዜ ይህን ቋንቋ ለመፈተሽ ምንም የተገለበጡ ጽሑፎች የሉም። እባክዎ ገጹን ያድሱ ወይም ቆይተው እንደገና ይሞክሩ።
 vote-transcript-success = ለለፅሁፉ በተሳካ ሁኔታ ድምጽ ተሰጥቷል
 vote-transcript-error = ፅህፅሁፉን በመምረጥ ላይ ስህተት ተከስቷል።
 transcript-edited-success = ፅሁፉ በተሳካ ሁኔታ ተስተካክሏል።

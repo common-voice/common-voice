@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> আৰু আপুনি ব্যক্তিগৰাকীয়ে যি কোৱা শুনে সেয়া লিখক
 editbox-header = লিপিবদ্ধ কৰক
 editbox-placeholder = আপুনি ব্যক্তিগৰাকীয়ে যি কোৱা শুনে সেয়া ইয়াত লিখক
-no-audio-message = এই ভাষাত বৰ্তমান লিপিবদ্ধ কৰিব পৰাকৈ কোনো অডিঅ’ নাই। অনুগ্ৰহ কৰি পৃষ্ঠাখন সতেজ কৰক নাইবা পাছত পুনৰ চেষ্টা কৰিব।
 create-transcript-success = শ্ৰুতলিপি সফলতাৰে দাখিল কৰা হ’ল
 create-transcript-error = এই শ্ৰুতলিপি তৈয়াৰ কৰোঁতে এটা ত্ৰুটি ঘটিল
 error-playing-audio = অডিঅ’ ফাইল বজাওঁতে ত্ৰুটি ঘটিল।

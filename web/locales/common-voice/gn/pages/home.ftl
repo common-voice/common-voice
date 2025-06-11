@@ -85,6 +85,7 @@ read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
 answer-questions = Embohovái porandu <small>(Tenondeve)</small>
 review-transcriptions = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
 add-questions = Embojuaju porandu <small>(Tenondeve)</small>
+review-questions = Porandu apojey
 transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 press-and-stories = Maranduasãiha ha Tembiasakue
 community-and-languages = Tekoha ha ñe’ẽnguéra
@@ -117,22 +118,30 @@ community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽngu
 hero-title = Tembiporupyahu oikumbýva ne ñe’ẽ
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = ¿Mba’ére IA oku’éta ndahetái ñe’ẽme añónte arapy tuichakuépe?
+hero-subtitle-2 = Ore ñe’ẽ ha’e ore rembiasakue, ore rekoha, ore kuaapy. Roguerovia mba’ekuaarã aty rohechaséva arapy tuichakue.
 # icon is an arrow that points downwards
 get-started = Emoñepyrũ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ha’e pyendavusu reigua ha software opavavépe g̃uarã ojejapohápe mba’ekuaarã aty ñe’ẽ ha moñe’ẽragua
+action-items-section-subtitle = Oimeraẽva oñongatu, omoakãrapu’ã ha emopu’ã ne ñe’ẽ emoherakuã, emoheñói ha eñongatúvo mba’ekuaarã aty moñe’ẽrã ha ñe’ẽ rehegua.
 scripted-card-header = Ñe’ẽsyry hapéva
+scripted-card-content = Emoñe’ẽ ayvúpe hatã ne ñe’ẽme ha eipytyvõ ñe’ẽsyry mba’ekuaarã aty oĩhápe opavavete arapy tuichakue.
 spontaneous-card-header = Ñe’ẽsyry hape’ỹva
+spontaneous-card-content = Embohovái oñeporandúva heñoikuaa hag̃ua mba’ekuaarã aty taha’e jeregua ha ñe’ẽrei. Iporã añete ñe’ẽnguéra ojeporuvévape.
 language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
+language-text-card-content = Emoheñói térã emoherakuã je’epy, ñe’ẽjuaju ha moñe’ẽrã isãsóva ñe’ẽmbohasarã, ñe’ẽte rehegua ha hetave.
 add-text = Embojuapy moñe’ẽrã
 answer = Ñembohovái
 
 ## Community section
 
+community-section-title = Ojapóva tekoha tuichaháicha, tekoha tuichaháichape g̃uarã: ¡130 ñe’ẽ ha rokakuaave!
 join-discord-community = Eike Discord atýpe
 # label for button
 join-discord-community-action = Ejuaju orerehe Discord-pe
+join-discord-community-content = Eike tekoha ñe’ẽkuaaty ñomongetahápe, eporandu ha eikuaa hag̃ua mba’e oikótava ha ñomongeta rehegua.
 find-us-on-matrix = Orejuhúta Matrix-pe
 # label for button
 find-us-on-matrix-action = Orejuhúta Matrix-pe

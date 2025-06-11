@@ -4,7 +4,6 @@ record-player-header = ບັນທຶກຄໍາຕອບຂອງທ່ານ
 mic-access-error = ທ່ານຕ້ອງອະນຸຍາດໃຫ້ເຂົ້າເຖິງໄມໂຄຣໂຟນ.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ແລະ ຕອບສະໜອງຢ່າງເປັນທຳມະຊາດເທົ່າທີ່ທ່ານສາມາດເຮັດໄດ້
-no-prompts-message = ໃນປັດຈຸບັນບໍ່ມີການເຕືອນສໍາລັບພາສານີ້. ກະລຸນາໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼື ລອງໃໝ່ໃນພາຍຫຼັງ.
 error-skipping = ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ຂ້າມການເຕືອນນີ້
 error-recording = ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການບັນທຶກ
 error-fetching-prompts = ມີບາງຢ່າງຜິດພາດໃນຂະນະທີ່ດຶງຂໍ້ມູນການເຕືອນ. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ.

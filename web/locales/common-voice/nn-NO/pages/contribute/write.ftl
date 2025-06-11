@@ -27,7 +27,9 @@ how-to-cite-explanation-bold = Sitér med ei URL-kopling eller heile namnet på 
 guidelines = Retningslinjer
 contact-us = Kontakt oss
 add-sentence-success = 1 setning innsamla
+add-sentence-error = Feil ved tillegging av setning
 required-field = Fyll ut dette feltet.
+single-sentence-submission = Innlevering av einskildsetning
 single-sentence = Enkelt setning
 small-batch-sentence = Lite parti
 bulk-sentence = Masseinnsending
@@ -49,6 +51,7 @@ nature_environment = Natur og miljø
 news_current_affairs = Nyheiter og aktuelle saker
 # Sentence Domain dropdown option
 technology_robotics = Teknologi og robotikk
+sentence-variant-select-label = Setningsvariant
 sentence-variant-select-placeholder = Vel ein variant (valfritt)
 
 ## BULK SUBMISSION

@@ -24,6 +24,8 @@ skip-button = Παράλειψη
 submit-button = Υποβολή
 contribute = Συνεισφορά
 request-new-language = Αίτημα για νέα γλώσσα
+# Button text which appears when there are no more resources
+continue-with-skipped = Συνέχεια με παραλειφθέντα
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Απάντηση σε προτροπή
 transcribe = Μεταγραφή
 check-transcriptions = Έλεγχος μεταγραφών
 question = Ερώτηση
+validate = Επικύρωση
 
 ## Not Found Page
 

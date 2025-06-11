@@ -24,6 +24,8 @@ skip-button = Pśeskócyś
 submit-button = Wótpósłaś
 contribute = Pśinosowaś
 request-new-language = Nowu rěc pominaś
+# Button text which appears when there are no more resources
+continue-with-skipped = Z Pśeskócony pókšacowaś
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Na naspominanje wótegroniś
 transcribe = Transkriběrowaś
 check-transcriptions = Transkripcije pśeglědowaś
 question = Pšašanje
+validate = Pśeglědowaś
 
 ## Not Found Page
 

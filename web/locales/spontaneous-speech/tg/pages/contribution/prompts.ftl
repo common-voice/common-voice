@@ -4,7 +4,6 @@ record-player-header = Ҷавоби худро сабт намоед
 mic-access-error = Шумо бояд дастрасии микрофонро иҷозат диҳед.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ва ба қадри имкон бо талаффузи сарех ва табии ҷавоб диҳед
-no-prompts-message = Ҳоло ягон дархост барои тафтиши ин забон вуҷуд надоранд. Лутфан, саҳифаро нав кунед ё дертар аз нав кӯшиш намоед.
 error-skipping = Ҳангоми нодида гузаронидани ин дархост хато ба миён омад
 error-recording = Ҳангоми сабт хато ба миён омад
 error-fetching-prompts = Ҳангоми гирифтани дархостҳо чизе нодуруст ба миён омад. Лутфан, баъдтар аз нав кӯшиш кунед.

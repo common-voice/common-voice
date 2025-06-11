@@ -4,7 +4,6 @@ record-player-header = جاۋابىڭىزنى ئۈنگە ئېلىڭ
 mic-access-error = مىكروفون زىيارىتىگە يول قويۇشىڭىز كېرەك.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ئىمكانقەدەر تەبىئىي ئىنكاس قايتۇرۇڭ
-no-prompts-message = نۆۋەتتە بۇ تىلنىڭ ھېچقانداق ئەسكەرتىشى يوق. بەتنى يېڭىلاڭ ياكى سەل تۇرۇپ قايتا سىناڭ.
 error-skipping = بۇ ئەسكەرتىشتىن ئاتلاۋاتقاندا خاتالىق كۆرۈلدى
 error-recording = ئۈنگە ئېلىۋاتقاندا خاتالىق كۆرۈلدى
 error-fetching-prompts = ئەسكەرتىشكە ئېرىشىۋاتقاندا خاتالىق كۆرۈلدى. سەل تۇرۇپ قايتا سىناڭ.

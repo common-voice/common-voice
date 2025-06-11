@@ -156,6 +156,7 @@ write-contribute-menu-tooltip = Sinnen tafoegje en beoardiele, Fragen tafoegje, 
 add-sentences-menu-item-tooltip = Sinnen yn jo taal tafoegje
 review-sentences-menu-item-tooltip = Sinnen yn jo taal beoardiele
 add-questions-menu-item-tooltip = Fragen yn jo taal tafoegje
+review-questions-menu-item-tooltip = Fragen beoardiele
 transcribe-audio-menu-item-tooltip = Audio-opnamen yn jo taal transkribearje
 
 ## MENU ITEM ARIA LABELS
@@ -164,4 +165,5 @@ write-contribute-menu-aria-label = Opsjesmenu Skriuwe
 add-sentences-menu-item-aria-label = Nije sinnen foar de mienskip tafoegje om te lêzen
 review-sentences-menu-item-aria-label = Besteande sinnen dy’t troch de mienskip yntsjinne binne beoardiele
 add-questions-menu-item-aria-label = Nije fragen yntsjinje foar de mienskip om te lêzen en te beäntwurdzjen
+review-questions-menu-item-aria-label = Nije fragen dy’t troch de mienskip yntsjinne binne beoardiele en derop stimme
 transcribe-audio-menu-item-aria-label = Audio-opnamen omsette nei tekst

@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Escucha el clip de audio y revisa la transcripción. ¿Coincide? Si no, edítala para que coincida perfectamente.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Revisar
-no-transcriptions-message = No hay transcripciones para revisar en este idioma. Actualiza la página o inténtelo de nuevo más tarde.
 transcript-edited-error = Se produjo un error al editar la transcripción.
 error-fetching-transcriptions = Se produjo un error al obtener las transcripciones. Inténtalo de nuevo más tarde.
 transcript-skipped-error = Se produjo un error al omitir la transcripción

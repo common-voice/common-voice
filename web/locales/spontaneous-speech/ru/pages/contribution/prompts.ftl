@@ -4,7 +4,8 @@ record-player-header = Запишите свой ответ
 mic-access-error = Вы должны разрешить доступ к микрофону.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <microIcon></microIcon> и отвечайте как можно более естественным образом
-no-prompts-message = В настоящее время нет запросов для этого языка. Пожалуйста, обновите страницу или повторите попытку позже.
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Для этого языка больше нет вопросов. Если вы пропустили что-либо, вы можете продолжить с пропущенным содержимым или перейти к расшифровке аудио и попробовать ещё раз позже.
 error-skipping = При пропуске этого запроса произошла ошибка
 error-recording = Во время записи произошла ошибка
 error-fetching-prompts = Что-то пошло не так при получении запросов. Подождите некоторое время и попробуйте снова.
