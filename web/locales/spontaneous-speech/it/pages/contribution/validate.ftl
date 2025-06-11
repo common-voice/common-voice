@@ -10,3 +10,4 @@ validate-page-no-button-shortcut = N
 ## Validation guidelines
 
 validation-guidelines-title = Linee guida
+validation-guideline-4 = È possibile rispondere in poche frasi
