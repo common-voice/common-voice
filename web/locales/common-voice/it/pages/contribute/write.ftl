@@ -144,6 +144,7 @@ write-contribute-menu-tooltip = Aggiungi e convalida frasi, aggiungi domande, tr
 add-sentences-menu-item-tooltip = Aggiungi frasi nella tua lingua
 review-sentences-menu-item-tooltip = Convalida frasi nella tua lingua
 add-questions-menu-item-tooltip = Aggiungi domande nella tua lingua
+review-questions-menu-item-tooltip = Convalida domande
 transcribe-audio-menu-item-tooltip = Trascrivi registrazioni audio nella tua lingua
 
 ## MENU ITEM ARIA LABELS
