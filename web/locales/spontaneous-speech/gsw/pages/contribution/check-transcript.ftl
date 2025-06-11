@@ -1,7 +1,7 @@
 ## Check Transcriptions page
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-transcription-page-instruction = { $actionType } <playIcon></playIcon> Horiche/Losse d’Ùffnàhm ùn lüeje d’Trànschkription nooch. Bàsst se? Wenn nìtt, tüen se noochnamme, bìs àss se perfekt bàsst.
+transcription-page-instruction = { $actionType } <playIcon></playIcon> Horiche/Loose d’Ùffnàhm ùn lüeje d’Trànschkription nooch. Pàsst se? Wenn nìtt, tüen se noochnamme, bìs àss se perfekt pàsst.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Noochlüeje
 # Message which appears when there are no more resources on this page
