@@ -18,6 +18,7 @@ visible = Feeñal
 native-language =
     .label = Làkk wi nga nàmp
 profile-form-submit-save = Denc
+profile-form-submit-saved = Dañu ko denc
 male_masculine = Góor
 female_feminine = Jigéen
 intersex = Goorjigéen
