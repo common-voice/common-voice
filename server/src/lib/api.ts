@@ -192,6 +192,7 @@ export default class API {
 
     // the validator coerces count into a number but doesn't update the type
     const count: number = (request.query.count as never) || 1
+    const ignoreClientVariant: boolean = Boolean(request.query.ignoreClientVariant) || false
 
     const userClientVariant = await pipe(
       client_id,
@@ -211,11 +212,13 @@ export default class API {
       )
     )()
 
-    const clientPrefersVariant = pipe(
-      userClientVariant,
-      O.map(v => v.isPreferredOption),
-      O.getOrElse(() => false)
-    )
+    const clientPrefersVariant =
+      !ignoreClientVariant &&
+      pipe(
+        userClientVariant,
+        O.map(v => v.isPreferredOption),
+        O.getOrElse(() => false)
+      )
 
     if (clientPrefersVariant) {
       const getVariantSentences = pipe(
