@@ -1,5 +1,6 @@
 ## Validate Page
 
+validate-page-instruction = Convalida <validateIcon></validateIcon> Questa domanda rispetta le linee guida?
 dataset-label = Dataset
 accept-vote-toast-message = Domanda accettata correttamente
 reject-vote-toast-message = Domanda rifiutata correttamente
