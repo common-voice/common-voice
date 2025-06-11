@@ -15,7 +15,6 @@
       - [Flushing the `redis` cache](#flushing-the-redis-cache)
     - [Minimal setup](#minimal-setup)
   - [Troubleshooting](#troubleshooting)
-    - [Apple M1 Silicon](#apple-m1-silicon)
     - [Couldn't connect to Docker daemon](#couldnt-connect-to-docker-daemon)
     - [Running `docker-compose up` results in incorrect file system permissions on `/code/node_modules` directory](#running-docker-compose-up-results-in-incorrect-file-system-permissions-on-codenode_modules-directory)
   - [Linting Typescript code contributions](#linting-typescript-code-contributions)
@@ -182,17 +181,6 @@ The _bundler_ service is not strictly needed to run the common voice website. Ru
 Docker can be a very memory-intensive process. If you notice intermittent failures, or if features like auto-rebuilding crash, try increasing Docker's available memory from within Docker's _Preferences > Resources_ settings.
 
 ## Troubleshooting
-
-### Apple M1 Silicon
-
-There is an outstanding issue where [MySQL doesn't work in Docker on Apple Silicon (as of 17th January 2022)](https://docs.docker.com/desktop/mac/apple-silicon/#known-issues). You can instead replace it with MariaDB in a [`docker-compose.override.yml` file](https://docs.docker.com/compose/extends/).
-
-```yml
-services:
-  db:
-    image: mariadb:10.4
-    command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
-```
 
 ### Couldn't connect to Docker daemon 
 
