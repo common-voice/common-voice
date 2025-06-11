@@ -7,6 +7,8 @@ partnerships-community-header = Dëkkandoo yi, Soskat yi ak Mbootayu Sosiete Siw
 partnerships-foundations-header = Mbootaay yi
 partnerships-governments-header = Nguur yi
 partnerships-academia-header = Daara yu kawe yi, jàngale kat yi ak gëstukat yi
+partnerships-academia-description = Li gëna am solo ci li ñuy def mooy ubbi gis-gis yu bees. Ngir liggéeyandoo ci gëstu, dajale ay done wala janoo, <emailFragment>jokkool ak nun.</emailFragment>
+partnerships-small-business-header = Liggéeyukaay yu ndaw, lu ci melni xarala yu bees yi ak IA
 partnerships-our-partners = Sunuy partaneer
 # menu item
 partners = Partaneer
