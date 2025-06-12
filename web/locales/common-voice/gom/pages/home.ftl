@@ -6,6 +6,8 @@ home-cta = Motian uloi, yogdan di!
 show-wall-of-text = Anik Vach
 help-us-title = Amchi moddot kor vakiank topasunk!
 help-us-explain = Recording chalu, kan divun aik, anik sang: Tennem sokoil dil'lim vak'ya asa toshech uloile?
+speak-goal-text = Clip rekord kel'li
+listen-goal-text = Clip topasli
 todays-progress = Aiche Pravas
 ready-to-record = Tuje avaaz divpak toiar asa?
 x-weeks-short =
@@ -52,6 +54,7 @@ community-and-languages-menu-item-tooltip = Amche somudaiye vangdda mellun je bh
 
 ## MENU ITEM ARIA LABELS
 
+community-and-languages-menu-item-aria-label = 'Common Voice'-an ubarleleo bhaso ani somudaiyen aplo sod chalu dovor
 
 ## NEW HOME PAGE KEYS
 
@@ -76,6 +79,7 @@ join-discord-community = Somudayek 'Discord'-acher Mell
 
 ## Get involved section
 
+get-involved-section-title = Ukte, somudaiyen fuddar ghetol'lim 'dataset'-ank adar ani tenko diyat
 transcribe-answers-link = Utram aikun boroi
 
 ## Partner section
