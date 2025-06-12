@@ -48,6 +48,7 @@ spontaneous-speech = KHOXECHEM ULOVOP
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnership, Press ani Gozalio, Somudai ani Bhaso
+community-and-languages-menu-item-tooltip = Amche somudaiye vangdda mellun je bhasank ami tenko dita te choi
 
 ## MENU ITEM ARIA LABELS
 
