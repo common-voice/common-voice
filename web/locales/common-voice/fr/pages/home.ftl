@@ -127,6 +127,7 @@ spontaneous-card-content = Répondez à des questions pour créer des jeux de do
 language-text-card-header = Texte
 language-text-card-content = Créez ou partagez des questions, des phrases et du texte du domaine public à traduire, des modèles linguistiques de petite taille, etc.
 add-text = Ajouter du texte
+answer = Répondre
 
 ## Community section
 
