@@ -22,6 +22,8 @@ profile-form-submit-saved = Denc nañ ko
 male_masculine = Góor
 female_feminine = Jigéen
 intersex = Goorjigéen
+transgender = Géen xéet
+do_not_wish_to_say = Bëgguma wax lii
 # Gender
 other = Yeneen
 why-profile-title = Lutax profil ?
