@@ -16,3 +16,7 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>မၢႆ ISO</isoC
 request-language-form-info-explanation-list-3 = လိင်ႉၶ်ၶဝ်ႈထိုင်ဝႅပ်ႉသၢႆႉသ်ၸိူဝ်းဢၼ်ၸၢင်ႈၸွႆႈႁႂ်ႈႁဝ်းၶႃႈပွင်ႇၸႂ်ၽႃႇသႃႇ
 request-language-google-recaptcha-required = တေလႆႈၸႂ်ႉ reCAPTCHA ပေႃးဝႃႈသူၸဝ်ႈၶႂ်ႈသိုပ်ႇၵႂႃႇ
 request-language-google-recaptcha-error = မီးလွင်ႈၽိတ်းပိူင်ႈတီႈ reCAPTCHA ၶႅၼ်းတေႃႈၸၢမ်းတူၺ်းထႅင်ႈ။
+# Success page
+request-language-success-heading = ယိၼ်းၸူမ်းၶႃႈ! သူၸဝ်ႈလႆႈသူင်ႇၶေႃႈၸွပ်ႇထၢမ်တွၼ်ႈတႃႇၽႃႇသႃႇမႂ်ႇယဝ်ႉ
+request-language-success-list-1 = သူၸဝ်ႈထုၵ်ႇလီလႆႈႁပ်ႉဢီးမေးလ်တီႈၽူႈၸတ်းၵၢၼ်တူင်ႇဝူင်းႁဝ်းၶႃႈ ဢၼ်တေသပ်းလႅင်းၼႄၶၵ်ႉတွၼ်ႈတႃႇတေသႂ်ႇၽႃႇသႃႇသူၸဝ်ႈၶဝ်ႈၼႂ်း Common Voice
+request-language-success-list-2 = ၽူႈၸတ်းၵၢၼ်တူင်ႇဝူင်းႁဝ်းၶႃႈတေၵပ်းသိုပ်ႇသူၸဝ်ႈတႃႇယိုၼ်ႈၼႄတၢင်းၸွႆႈထႅမ်ထႅင်ႈ၊ လႄႈၸႅင်ႈၼႄသူၸဝ်ႈသင်ဝႃႈမီးတူင်ႇဝူင်းဢၼ်ႁဵတ်းၵၢၼ်ၸွမ်းၽႃႇသႃႇသူၸဝ်ႈၼၼ်ႉဝႆႉယူႇယဝ်ႉ။

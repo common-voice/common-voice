@@ -2,6 +2,7 @@
 
 datasets-heading = მუნაჩემეფიშ კათელი
 language = ნინა
+download-dataset-header = მუნაჩემეფიშ კათელიშ გიმოხარგუა
 # File size in gigabytes
 size = ზომა
 validated-hr-total = დადასურებულ საათეფი ართო
