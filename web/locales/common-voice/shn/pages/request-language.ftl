@@ -33,3 +33,4 @@ need-help-deciding-platform = လူဝ်ႇတၢင်းၸွႆႈထႅ�
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>သဵင်လၢတ်ႈၸွမ်းထႅဝ်လိၵ်ႈ</strong> (ဢၼ်သူၸဝ်ႈႁူႉၸၵ်းဝႃႈ Common Voice) ပဵၼ်တီႈဢၼ်သူၸဝ်ႈၸၢင်ႈလူဢၢၼ်ႇဢွၵ်ႇသဵင်တူၼ်ႈထႅဝ်ၸိူဝ်းၼၼ်ႉၼႂ်းၽႃႇသႃႇၶွင်သူၸဝ်ႈ။
 need-help-deciding-platform-explanation-2 = <strong>သဵင်လၢတ်ႈတိုၼ်းပဵၼ်</strong> ပဵၼ်တွၼ်ႈမႂ်ႇၶွင် Common Voice တီႈဢၼ်သူၸဝ်ႈၸၢင်ႈတွပ်ႇၶေႃႈထၢမ်ၼႂ်းလွၵ်းလၢႆးဢၼ်ပဵၼ်သၽႃႇဝတိုၼ်းပဵၼ်၊ လၢႆးလၢတ်ႈၵႂၢမ်းၵူႈဝၼ်းဝၼ်း တိူဝ်းၼမ်မႃးလႆႈထႅင်ႈ။
+need-help-deciding-platform-explanation-3 = ပေႃးဝႃႈသူၸဝ်ႈဢမ်ႇႁၼ်ၽႃႇသႃႇသူၸဝ်ႈတီႈလႂ်သေဢမ်ႇဝႃႈၼႂ်းၽလႅတ်ႉၾွမ်ႇ၊ ႁႂ်ႈလိူၵ်ႈတင်းသွင်ဢၼ်။
