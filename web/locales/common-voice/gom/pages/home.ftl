@@ -8,8 +8,13 @@ help-us-title = Amchi moddot kor vakiank topasunk!
 help-us-explain = Recording chalu, kan divun aik, anik sang: Tennem sokoil dil'lim vak'ya asa toshech uloile?
 speak-goal-text = Clip rekord kel'li
 listen-goal-text = Clip topasli
-todays-progress = Aiche Pravas
+hours-recorded = Vora rekord kel'lem
+hours-validated = Vora topaslem
+voices-online = Avaz Onlain Asa
+todays-progress = Aiche Provas
 ready-to-record = Tuje avaaz divpak toiar asa?
+all-locales = Sogle
+today = Aiz
 x-weeks-short =
     { $count ->
         [one] ek suman
@@ -28,9 +33,14 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = Faide
 
 ## What's public
 
+whats-public = Kite public zatolem?
+email-not-public = Ami tujem email public korche na.
+recordings-and-locale-public = Rekord kelolechem hixob ani khoincheo bhasank tu yogdan dita ti 'public' astoli.
+username-optin-public = Tuka tujem 'username' ninanve (anonymous) vo sogleank dixtti (public) korpak zata.
 
 ## Landing
 
