@@ -51,19 +51,24 @@ dataset-metadata-sex = სქესი
 dataset-metadata-age = წანა
 donate-modal-message = თქვანი კრებულ გინმიჭარუ!
 dataset-donate-modal-heading = ქოიჩქუდესო...
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> ქაფასენთ გოღია, ინკლუზიურ მუნაჩემეფს-და - შემენწიით ამდღა! </bold>
+data-download-singleword-title = გეგმოხარგეთ ართი ზიტყვაში ღანკი სეგმენტი
 data-download-button = Common Voice-იშ მუნაჩემეფიშ გუმოხარგუა
 data-download-yes = ქო
 data-download-deny = ვარ
 data-download-license = ლიცენზია: <licenseLink>CC-0</licenseLink>
 data-download-modal = თქვა აპირენთ <size>{ $size } GB </size> ნტირულობაშ მუნაჩემეფიშ გიმოჭარუას, გოკონანო გაგძელათჷნი?
+data-subtitle = ჩქი აკმოფქიმინუნთ ხონარეფიშ გოღია დო არგამათ ხემიოჭირინაფალ მუნაჩემეფიშ კათელს, ნამუში გუმორინაფა არძას შეულებუდასჷნი იჸუაფუ ჩიებაში ხუჯიშმემაჩამალი აპლიკაციეფიშ გასაუჯგუშებელო.
 data-get-started = <speechBlogLink> ქიდიჭყით ჩიებაში გიშაჩინება </speechBlogLink>
 data-other-title = შხვა ხონარუან მუნაჩემეფიშ კრებულეფი…
 data-other-goto = გინილი { $name }
 data-other-download = მუნაჩემეფიშ გიმოჭარუა
 data-bundle-button = მუნაჩემეფიშ კათელიშ პაკეტიშ გუმოხარგუა
+data-bundle-description = Common Voice-იშ მუნაჩემეფს გეძინელი ხონარუანი მუნაჩემეფიშ არძა შხვა კათელი.
 release-version = ვერსია
 dataset-date = თარიღი
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = აკოკათელი
 # MENU ITEM TOOLTIPS
-download-contribute-menu-tooltip = თქვანი ხონარუან მუნაჩემეფიშ კრებულეფიშ გიმოჭარუა
+download-contribute-menu-tooltip = თქვანი ხონარუან მუნაჩემეფიშ კათელიშ გიმოხარგუა
