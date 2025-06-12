@@ -1,9 +1,9 @@
 ## Download Modal
 
-download-title = Къехыныр хуежащ.
-download-helpus = Мэкъэ технологиемкӏэ зы зэхэщэгъэ гуп зыдгъэпэщынум къыддэӏэпыкъу, э-пощтэкӏэ зэгъэтх.
+download-title = Файл къихыным щlидзащ
+download-helpus = Макъ технологиехэм ехьэлӏа зэдарэгъу гуп зэгъэпэщынымкӏэ фыкъыддэӏэпыкъу, э-пощткӏэ фыкъатхэ.
 download-form-email =
-    .label = уи э-пощтэр тхы
-    .value = Фӏыщӏэ пхудощӏ, зыкъыфпытщӏэнущ.
+    .label = Уи э-пощтыр итхэ
+    .value = Упсэу, зыныппытщӏэнщ.
 download-back = Return to Common Voice Datasets
-download-no = Хьэуэ, фIыщIэ фхузощI.
+download-no = Хьэуэ
