@@ -9,6 +9,7 @@ add-vote-error-message = Produciuse un erro ao votar a pregunta
 no-questions-continue-skipped-message = Non hai máis preguntas dispoñibles para este idioma. Se saltou algunha, pode seguir con ese contido ou ir a transcribir gravacións e volver tentalo máis tarde.
 validate-page-yes-button-shortcut = S
 validate-page-no-button-shortcut = N
+validate-page-skip-button-shortcut = O
 
 ## Validation guidelines
 
