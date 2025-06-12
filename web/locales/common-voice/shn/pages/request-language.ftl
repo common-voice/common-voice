@@ -29,3 +29,4 @@ request-language-error =
     <emailLink>{ $email }</emailLink> သေယဝ်ႉႁဝ်းၶႃႈတေၶိုၼ်းၵပ်းသိုပ်ႇႁႃသူၸဝ်ႈ!
 request-for-scripted-speech-toggle = တုၵ်းယွၼ်းတႃႇသဵင်လၢတ်ႈၸွမ်းထႅဝ်လိၵ်ႈ
 request-for-spontaneous-speech-toggle = တုၵ်းယွၼ်းတႃႇသဵင်လၢတ်ႈတိုၼ်းပဵၼ်
+need-help-deciding-platform = လူဝ်ႇတၢင်းၸွႆႈထႅမ်တႃႇတတ်းသဵၼ်ႈၸႂ်ဝႃႈတေလိူၵ်ႈဢၼ်လႂ်?
