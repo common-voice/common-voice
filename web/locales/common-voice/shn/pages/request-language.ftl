@@ -1,3 +1,18 @@
 ## Request Language Pages
 
 request-language-heading = ထၢမ်လွင်ႈၽႃႇသႃႇမႂ်ႇ
+request-language-explanation-1 =
+    ထတ်းတူၺ်းဝႃႈၽႃႇသႃႇသူၸဝ်ႈၸွင်ႇမီးယူႇၼႂ်းသဵၼ်ႈမၢႆၼိူဝ် <languagesPageLink>ၼႃႈၽႃႇသႃႇ Common Voice</languagesPageLink>
+    ပေႃးဝႃႈပႆႇမီးၼႆ၊ ထႅမ်ပၼ်ၾွမ်ႇၼႆႉယဝ်ႉႁဝ်းၶႃႈတေ <strong>သူင်ႇပၼ်ဢီးမေးလ်ငၢႆႈငၢႆႈ သပ်းလႅင်းၼႄဝႃႈတေႁဵတ်းႁိုဝ်ၸၢင်ႈတမ်းဝၢင်းၽႃႇသႃႇၶွင်သူၸဝ်ႈ</strong>။
+request-language-form-email =
+    .label = မၢႆဢီးမေးလ်သူၸဝ်ႈ
+request-language-form-info =
+    .label = ၶေႃႈမုၼ်းၵဵဝ်ႇလူၺ်ႈၽႃႇသႃႇ
+request-language-form-info-explanation =
+    ထႅမ်သႂ်ႇၶေႃႈမုၼ်းႁႂ်ႈၼမ်တီႈသုတ်းၼင်ႇပဵၼ်လႆႈၼႂ်းလွင်ႈၽႃႇသႃႇ။
+    ၼႆႉၸၢင်ႈႁူမ်ႈပႃး-
+request-language-form-info-explanation-list-1 = ၸိုဝ်ႈၽႃႇသႃႇၶွင်သူၸဝ်ႈ
+request-language-form-info-explanation-list-2 = <isoCodeLink>မၢႆ ISO</isoCodeLink> သင်ဝႃႈႁူႉ
+request-language-form-info-explanation-list-3 = လိင်ႉၶ်ၶဝ်ႈထိုင်ဝႅပ်ႉသၢႆႉသ်ၸိူဝ်းဢၼ်ၸၢင်ႈၸွႆႈႁႂ်ႈႁဝ်းၶႃႈပွင်ႇၸႂ်ၽႃႇသႃႇ
+request-language-google-recaptcha-required = တေလႆႈၸႂ်ႉ reCAPTCHA ပေႃးဝႃႈသူၸဝ်ႈၶႂ်ႈသိုပ်ႇၵႂႃႇ
+request-language-google-recaptcha-error = မီးလွင်ႈၽိတ်းပိူင်ႈတီႈ reCAPTCHA ၶႅၼ်းတေႃႈၸၢမ်းတူၺ်းထႅင်ႈ။
