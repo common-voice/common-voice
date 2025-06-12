@@ -51,7 +51,13 @@ n-clips-pluralized =
         [one] { $count } კლიპი
        *[other] { $count } კლიპეფი
     }
+help-share-goal = ქიდმეხვარით უმოსი ხონარიშ მოგორაფას, გაზიარით თქვან ღანკი
 confirm-goal = ღანკიშ დანანდულება
+goal-interval-weekly = ირი მარაში
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = გაზიარით თქვან { $count } კლიპიში დღარი ღანკი { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = გაზიარით თქვანი { $count } კლიპიში ირი მარაში ღანკი { $type }
 share-goal-type-speak = ჩიება
 share-goal-type-listen = რჩქილა
 share-goal-type-both = ჩიება დო რჩქილა
