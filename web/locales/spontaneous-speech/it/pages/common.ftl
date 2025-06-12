@@ -31,6 +31,7 @@ respond-to-prompt = Rispondi alla domanda
 transcribe = Trascrivi
 check-transcriptions = Verifica trascrizioni
 question = Domanda
+validate = Convalida
 
 ## Not Found Page
 
