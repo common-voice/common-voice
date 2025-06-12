@@ -38,12 +38,14 @@ do_not_wish_to_say = Bëgguma wax lii
 # Gender
 other = Yeneen
 why-profile-title = Lutax profil ?
+dashboard = Tablo dalu xam-xam bi
 build-profile = Defar sa profil
 avatar = Nataal
 goals = Jubluwaay yi
 settings = Jekkal yi
 edit-profile = Soppali profil
 profile-close = Tëj
+accept-privacy-title = Sàrti Sutura
 login = Lënku
 edit = Soppali
 download-profile = Yebbi samay jumtukaay
