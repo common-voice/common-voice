@@ -1,8 +1,10 @@
 ## Datasets Page
 
 datasets-heading = მუნაჩემეფიშ კათელი
+datasets-speech-bubble-content = ინტერესუანი სიახალეეფი რე! მალას ქიგიაძინუ სპონტანური ჩიება! თოლი ქუჸუნეთ გაახალებეფს დო ქოძირით ჩქინი <discordLink> Discord </discordLink> ახალ ინფორმაციეფიშ გაჩინებაფალო.
 language = ნინა
 download-dataset-header = მუნაჩემეფიშ კათელიშ გიმოხარგუა
+download-dataset-tag = ქიმუწურეთ კორინებული ნინაში მუნაჩემეფიშ კათელი დო გეიშაგორით ვერსია გიმახარგალო.
 # File size in gigabytes
 size = ზომა
 validated-hr-total = დადასურებულ საათეფი ართო
