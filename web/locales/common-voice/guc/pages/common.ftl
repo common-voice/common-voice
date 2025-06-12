@@ -58,6 +58,7 @@ gl = Gallego
 gn = Guaraní
 gom = Goan Konkani
 gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebreo
 hi = Hindi
