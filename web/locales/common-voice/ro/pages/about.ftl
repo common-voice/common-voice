@@ -132,12 +132,17 @@ about-playbook-how-validate = Cum știu dacă să aprob o secvență vocală?
 about-playbook-how-validate-content-1 = Dacă poți să <strong>auzi clar</strong> vocea din secvență și să o <strong>înțelegi</strong>, atunci <strong>este indicat să aprobi secvența</strong>.
 about-playbook-how-validate-content-2 = <strong>Nu respinge secvențele în care vorbitorul „are un accent diferit” de al tău</strong>. Accentele diferite în datele de antrenare sunt esențiale pentru îmbunătățirea recunoașterii vocale pentru toți.
 about-playbook-how-validate-content-3 = Dacă ți se pare că pronunția <strong>face imposibilă înțelegerea</strong>, că există <strong>prea mult zgomot de fond</strong>, sau că <strong>vorbesc și alte persoane în același timp</strong>, atunci trebuie să respingi secvența. <accuracyLink>Mai multe detalii se găsesc în criteriile noastre de acuratețe</accuracyLink>.
+about-playbook-how-validate-content-4 = Dacă o secvență este respinsă de două persoane, aceasta va fi adăugată unui subset diferit al setului de date.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Cum accesez și cum utilizez setul de date?
+about-playbook-how-access-dataset-content-1 = Pe pagina cu <datasetsPage>seturi de date (datasets)</datasetsPage>, alege versiunea și limba sau limbile dorite, iar apoi descarcă fișierele astfel filtrate. Fișierele au <metadataLink>metadate coresponzătoare</metadataLink>, cum ar fi informații demografice și date de validare. Va trebui să introduci o adresă de e-mail pentru a putea descărca setul de date.
+about-playbook-how-access-dataset-content-2 = Dacă ai nevoie de unelte pentru a dezvolta modele de recunoaștere vocală automată (ASR), poți lua legătura cu alți membri ai comunității prin <discourseLink>Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Cum se iau deciziile privind proiectul?
 
 ## How is Common Voice funded
 
