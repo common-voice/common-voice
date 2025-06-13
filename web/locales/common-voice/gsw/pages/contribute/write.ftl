@@ -1,5 +1,7 @@
 ## WRITE PAGE
 
+write = Schriiwe
+write-instruction = Setze <icon></icon> e Sàtz dezü, wo fréi benùtzbàr ìsch
 guidelines = Wie m’r’s màche soll
 contact-us = Kontàkt
 add-sentence-success = 1 Sàtz gsàmmelt

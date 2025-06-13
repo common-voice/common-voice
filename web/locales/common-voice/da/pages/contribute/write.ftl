@@ -33,6 +33,8 @@ general = Generelt
 # Sentence Domain dropdown option
 healthcare = Sundhed
 # Sentence Domain dropdown option
+media_entertainment = Medier og underholdning
+# Sentence Domain dropdown option
 nature_environment = Natur og miljø
 sentence-variant-select-label = Sætningsvariant
 sentence-variant-select-placeholder = Vælg en variant (valgfrit)

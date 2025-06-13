@@ -62,6 +62,7 @@ adding-sentences-subheader-numbers-explanation = Der bør ideelt set ikke være 
 adding-sentences-subheader-abbreviations = Forkortelser og akronymer
 adding-sentences-subheader-punctuation = Tegnsætning
 adding-sentences-subheader-punctuation-explanation = Særlige symboler og tegnsætning bør kun inkluderes, når det er absolut nødvendigt. For eksempel er en apostrof inkluderet i engelske ord som "don't" og "we're" og bør inkluderes i kildeteksten, men det er usandsynligt, at du nogensinde får brug for et specielt symbol som "@" eller "#. ”
+adding-sentences-subheader-special-characters = Specialtegn og udenlandske bogstaver
 adding-sentences-subheader-special-characters-explanation-1 = Bogstaver skal være gyldige på det sprog, der tales. For eksempel er "ж" et bogstav i det russiske alfabet, men det bruges aldrig på dansk og bør derfor aldrig forekomme i nogen dansk kildetekst.
 adding-sentences-subheader-offensive-content = Stødende indhold
 reviewing-sentences-explanation-1 = Hvis sætningen opfylder kriterierne ovenfor, skal du klikke på knappen "Ja".

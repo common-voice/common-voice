@@ -97,6 +97,7 @@ press-and-stories-menu-item-tooltip = Besøg vores blog eller skriv om os
 
 ## Hero section
 
+hero-title = Teknologi, der taler dit sprog
 
 ## Action items section
 
