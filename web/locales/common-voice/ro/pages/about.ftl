@@ -108,9 +108,15 @@ about-playbook-how-add-sentences-content-3 = Poți folosi instrumentul de extrag
 ## How to record quality
 
 about-playbook-how-record-quality = Cum înregistrez o secvență vocală de înaltă calitate?
+about-playbook-how-record-content-1 = Vorbește cum o faci de obicei! Felul tău de a vorbi este binevenit aici - avem nevoie de accentul tău așa cum este, precum și de volumul, stilul și intonația ta obișnuite.
+about-playbook-how-record-content-2 = Evită zgomotul excesiv de fundal - trebuie să fii ușor de auzit.
+about-playbook-how-record-content-3 = Citește propoziția cu atenție - nu omite, nu schimba și nu adăuga cuvinte.
+about-playbook-how-record-content-4 = Asigură-te că platforma Mozilla înregistrează înainte de a începe să vorbești și că se oprește doar după ce ai terminat de citit.
+about-playbook-how-record-content-5 = <accuracyLink>Aici găsești mai multe detalli legate de criteriile de acuratețe.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Cum putem crește în mod eficient volumul de date adunate pentru o limbă în cadrul proiectului Common Voice?
 
 ## How to validate
 
