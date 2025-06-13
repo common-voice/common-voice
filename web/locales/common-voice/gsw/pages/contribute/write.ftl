@@ -2,6 +2,7 @@
 
 write = Schriiwe
 write-instruction = Setze <icon></icon> e Sàtz dezü, wo fréi benùtzbàr ìsch
+write-page-subtitle = D’Satz, wo do dezügsetzt waare, waare ze’me Dàtesàtz dezügsetzt, wo ùnter e cc-0 Lizanz steht ùn fréi züganglich ìsch.
 guidelines = Wie m’r’s màche soll
 contact-us = Kontàkt
 add-sentence-success = 1 Sàtz gsàmmelt
