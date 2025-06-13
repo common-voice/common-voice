@@ -11,8 +11,8 @@ vote-transcript-error = Si è verificato un errore durante la votazione della tr
 transcript-edited-success = Trascrizione modificata correttamente
 transcript-edited-error = Si è verificato un errore durante la modifica della trascrizione
 error-fetching-transcriptions = Si è verificato un errore durante il recupero delle trascrizioni. Riprova più tardi.
-transcript-skipped-success = Trascrizione ignorata correttamente
-transcript-skipped-error = Si è verificato un errore nel tentativo di ignorare la trascrizione
+transcript-skipped-success = Trascrizione saltata correttamente
+transcript-skipped-error = Si è verificato un errore nel tentativo di saltare la trascrizione
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = Corretta
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription

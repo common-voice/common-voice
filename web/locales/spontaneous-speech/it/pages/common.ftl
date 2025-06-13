@@ -14,13 +14,13 @@ contribution-picker-tooltip-text = Cambia il dataset della lingua a cui stai con
 coming-soon = Nuove lingue in arrivo
 media-recorder-api-not-supported = L’API MediaRecorder non è supportata nel browser.
 # Toast message that is displayed when an item is skipped
-skipped = Ignorato
+skipped = Saltata
 audioplayer-header = Ascolta
 guidelines = Linee guida
 # For the button to report an item
 report-button = Segnala
 # For the button to skip an item
-skip-button = Ignora
+skip-button = Salta
 submit-button = Invia
 contribute = Collabora
 request-new-language = Richiedi nuova lingua
