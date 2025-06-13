@@ -41,7 +41,7 @@ const Footer = React.memo(() => {
         <div className="divider-bottom" />
         <div className="links">
           <div>
-            <ContactLink>
+            <ContactLink className='left-aligned'>
               <Localized id="contact-us">
                 <p />
               </Localized>
