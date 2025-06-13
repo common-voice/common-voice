@@ -18,3 +18,5 @@ request-language-success-list-1 = Tow’ri yi barqinomah gũtak  lozim kumd ki 
 request-language-success-list-2 = Spo yũrt-e sũkrot k̃hakkũzgep jald dẽ sav g̃hat  ki saver bes̃h malũmot rẽdho’r-e pishkash cart  woz savep agah cart  ozor ki kum khalg cem zik en skemes̃h yark cart.
 request-language-success-list-3 = Mũmkini ki sake ya kum guzorish ne gũtetk. Mehrboni carit k̃he saker yikto barqinomah stũyit skẽ <emailLink>{ $email }</emailLink>  sak yan woz dẽ sav g̃haten.
 request-language-error = Mũmkini ki sake ya kum guzorish ne gũtetk. Mehrboni carit k̃he saker yikto barqinomah stũyit skẽ <emailLink>{ $email }</emailLink> sak yan woz dẽ sav g̃haten.
+request-for-scripted-speech-toggle = K̃hẽnakẽr nivishetk chalg
+request-for-spontaneous-speech-toggle = bi nivishetk taqrirẽr arz
