@@ -20,3 +20,7 @@ request-language-success-list-3 = Mũmkini ki sake ya kum guzorish ne gũtetk.
 request-language-error = Mũmkini ki sake ya kum guzorish ne gũtetk. Mehrboni carit k̃he saker yikto barqinomah stũyit skẽ <emailLink>{ $email }</emailLink> sak yan woz dẽ sav g̃haten.
 request-for-scripted-speech-toggle = K̃hẽnakẽr nivishetk chalg
 request-for-spontaneous-speech-toggle = bi nivishetk taqrirẽr arz
+need-help-deciding-platform = Mẽdadi dẽrkor ki kumdẽ dũrzẽm
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>nivishtk taqrir</strong>(desturẽmetobiq tus̃h cẽrsokht dish ki komon voysi)kumẽrs̃h tu dẽ k̃hũ zik jumlvẽ joy
+need-help-deciding-platform-explanation-2 = <strong>bekhelew taqrirri</strong>kommon voisẽ s̃heg̃hd hisa dras̃h tu jald jẽwob rand,  K̃hẽnakẽ tẽriqa
