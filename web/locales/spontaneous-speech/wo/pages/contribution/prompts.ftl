@@ -5,6 +5,7 @@ mic-access-error = Danga wara taal sa mikoro.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon>  té nanga tontu ci ni nga ko mënee
 error-skipping = Njuumte am na bi ngay tëb prompt bi
+error-recording = Njuumte am na bi ngay rënk
 error-fetching-prompts = Am na lu jaarul yoon bi ñuy jël kàddu yi ngir tekki ko. Jéemaatal ci kanam.
 error-uploading-response = Am na njuumte bi ñuy yebbi tontu bi
 prompt-submitted-success = Tontu gi yegg na
