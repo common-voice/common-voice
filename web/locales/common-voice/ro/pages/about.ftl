@@ -117,6 +117,12 @@ about-playbook-how-record-content-5 = <accuracyLink>Aici găsești mai multe det
 ## How to grow language
 
 about-playbook-how-grow-language = Cum putem crește în mod eficient volumul de date adunate pentru o limbă în cadrul proiectului Common Voice?
+about-playbook-how-grow-language-content-1 = Cu cât un grup mai divers de persoane contribuie la proiectul Common Voice, cu atât mai reprezentativ și folositor va fi setul de date adunat. Pentru aceasta am creat resurse și șabloane pe care le poți folosi cu ușurință!
+about-playbook-how-grow-language-content-2 = Evenimente
+about-playbook-how-grow-language-content-3 = Dacă dorești, poți organiza evenimente pentru a ajuta oamenii să contribuie. Este mai ușor decât crezi. Poți să o faci online prin videoconferință sau în persoană dacă nu sunt probleme de siguranță. <eventTemplate>Consultă șabloanele și resursele noastre pentru organizarea de evenimente</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Rețele sociale
+about-playbook-how-grow-language-content-5 = Poți folosi platformele de socializare pentru a le spune și altora despre acest proiect. Distribuie postări care explică de ce este important și ia legătura cu alte persoane care vorbesc despre probleme precum drepturile lingvistice, inteligența artificială vocală, sau răspândirea prejudecăților prin intermediul tehnologiei. Vezi aici mai multe sugestii pentru <campaignLink>desfășurarea unei campanii sociale, inclusiv conținut pe care îl poți refolosi</campaignLink>.
+about-playbook-how-grow-language-content-6 = Parteneriate și rețele
 
 ## How to validate
 
