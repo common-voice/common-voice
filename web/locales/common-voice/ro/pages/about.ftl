@@ -143,6 +143,17 @@ about-playbook-how-access-dataset-content-2 = Dacă ai nevoie de unelte pentru a
 ## How are decisions made
 
 about-playbook-how-project-governance = Cum se iau deciziile privind proiectul?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice este un proiect care există datorită unei comunități de activiști, lingviști, specialiști în date, cadre universitare și ingineri software din întreaga lume. Proiectul este condus de Fundația Mozilla.
+about-playbook-how-project-governance-content-2 = Principiile de bază ale organizației noastre sunt:
+about-playbook-how-project-governance-content-3 = Confidențialitate, securitate și transparență.
+about-playbook-how-project-governance-content-4 = Participarea comunității în luarea deciziilor.
+about-playbook-how-project-governance-content-5 = Valoare și recunoaștere.
+about-playbook-how-project-governance-content-6 = Responsabilitate reciprocă.
+about-playbook-how-project-governance-content-7 = <governanceLink>Află mai multe despre cum suntem organizați</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Cum este finanțat proiectul Common Voice?
+about-playbook-how-funded-content-1 = Common Voice este un proiect al Fundației Mozilla, o organizație americană de tipul US 501c3. Proiectul este în prezent finanțat în întregime din <philantropicGrantLink>granturi filantropice</philantropicGrantLink> și donații primite de la persoane din întreaga lume.
+about-playbook-how-funded-content-2 = Găzduirea și publicarea continuă a seturilor de date, îmbunătățirea platformei și derularea <africaMradiLink>programelor comunitare</africaMradiLink> costă mult.
+about-playbook-how-funded-content-3 = Dacă tu sau organizația ta doriți să contribuiți la proiect, puteți face o <donateLink>donație</donateLink> sau puteți scrie echipei noastre de parteneriate la adresa <emailFragment>commonvoice@mozilla.com</emailFragment>.
