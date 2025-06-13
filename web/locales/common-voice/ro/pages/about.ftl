@@ -112,7 +112,7 @@ about-playbook-how-record-content-1 = Vorbește cum o faci de obicei! Felul tău
 about-playbook-how-record-content-2 = Evită zgomotul excesiv de fundal - trebuie să fii ușor de auzit.
 about-playbook-how-record-content-3 = Citește propoziția cu atenție - nu omite, nu schimba și nu adăuga cuvinte.
 about-playbook-how-record-content-4 = Asigură-te că platforma Mozilla înregistrează înainte de a începe să vorbești și că se oprește doar după ce ai terminat de citit.
-about-playbook-how-record-content-5 = <accuracyLink>Aici găsești mai multe detalli legate de criteriile de acuratețe.</accuracyLink>
+about-playbook-how-record-content-5 = <accuracyLink>Aici găsești mai multe despre criteriile de acuratețe.</accuracyLink>
 
 ## How to grow language
 
@@ -130,6 +130,8 @@ about-playbook-how-grow-language-content-8 = <strong>Fii inventiv!</strong> Comu
 
 about-playbook-how-validate = Cum știu dacă să aprob o secvență vocală?
 about-playbook-how-validate-content-1 = Dacă poți să <strong>auzi clar</strong> vocea din secvență și să o <strong>înțelegi</strong>, atunci <strong>este indicat să aprobi secvența</strong>.
+about-playbook-how-validate-content-2 = <strong>Nu respinge secvențele în care vorbitorul „are un accent diferit” de al tău</strong>. Accentele diferite în datele de antrenare sunt esențiale pentru îmbunătățirea recunoașterii vocale pentru toți.
+about-playbook-how-validate-content-3 = Dacă ți se pare că pronunția <strong>face imposibilă înțelegerea</strong>, că există <strong>prea mult zgomot de fond</strong>, sau că <strong>vorbesc și alte persoane în același timp</strong>, atunci trebuie să respingi secvența. <accuracyLink>Mai multe detalii se găsesc în criteriile noastre de acuratețe</accuracyLink>.
 
 ## How to access dataset
 
