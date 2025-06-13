@@ -41,6 +41,8 @@ too-many-files = lipu li mute ike
 
 ## SMALL BATCH SUBMISSION
 
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message = kulupu nimi { $totalSentences } la sina jo e kulupu { $uploadedSentences }. nena <downloadLink>ni</downloadLink> la o jo e kulupu nimi ike.
 
 ## MENU ITEM TOOLTIPS
 
