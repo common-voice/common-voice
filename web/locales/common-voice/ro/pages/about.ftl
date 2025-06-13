@@ -45,7 +45,7 @@ about-clip-graveyard-text =
 about-get-involved = Implică-te
 about-get-involved-text-2 =
     Vrei să faci proiectul Common Voice să aibă și mai mult succes?
-    Grozav! Ia legătura prin e-mail sau prin forumurile <discourseLink>Discourse</discourseLink>,
+    Super! Ia legătura prin e-mail sau prin forumurile <discourseLink>Discourse</discourseLink>,
     trimite problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe
     chat-ul comunității <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Cum pot păstra legătura?
@@ -87,12 +87,13 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     Poți <sentenceCollectorLinkAdd>adăuga doar câteva propoziții la colecție</sentenceCollectorLinkAdd>,
     sau poți <bulkImportDocsLink>adăuga unul sau mai multe fișiere în același timp prin Github</bulkImportDocsLink>.
     În ambele cazuri, nu uita că propozițiile trebuie să aibă licență <licenseLink>CC0 (sau să se găsească deja în domeniul public)</licenseLink>. Alternativ, poți scrie și adăuga propoziții originale.
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Citește mai mult despre adăugarea propozițiilor</sentenceCollectorFragment>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Citește mai mult despre adăugarea propozițiilor la colecția Mozilla Common Voice</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Cum funcționează localizarea site-ului?
-about-playbook-how-localize-content-1 = Traducerea site-ului Common Voice are loc pe <strong>Pontoon</strong>.
+about-playbook-how-localize-content-1 = Traducerea site-ului Common Voice are loc pe platforma de traducere <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Creează un cont pe Pontoon</pontoonAccountLink> dacă nu ai deja unul. Apoi, alege limba în care vrei să traduci <strong>(„Echipa”)</strong>. La final, alege și proiectul <pontoonCvLink>Common Voice</pontoonCvLink> la care vrei să lucrezi. Fiecare proiect are un număr de fișiere de tradus. Apasă pe unul dintre ele și vei vedea textul în engleză care trebuie tradus, precum și căsuța în care trebuie să scrii traducerea.
 about-playbook-how-localize-content-5 = Vizionează videoclipul nostru explicativ pentru îndrumare
 
 ## How to add sentences
