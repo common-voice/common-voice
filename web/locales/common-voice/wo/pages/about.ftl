@@ -47,7 +47,7 @@ about-get-involved-text-2 =
     Bëgg nga jàppale Common Voice mu gëna baax?
     Neex na! Jokkoo ak nun jaaraleko ci imeel wala <discourseLink>Waxtaan</discourseLink>
     forum yi, yonne jafe-jafe yi ci dal bi jaaraleko ci <githubLink>GitHub</githubLink>, wala nga dugg ci
-    <<matrixLink>Matrix</matrixLink> waxtaan mbooloo.
+    <<matrixLink>Matrix</matrixLink> waxtaan ak mbooloo mi.
 about-stay-in-touch = Naka laa mëna wéy di jokkoo ak yeen?
 about-stay-in-touch-button = Bindul
 about-stay-in-touch-text-1 = <emailFragment> Bindul</emailFragment> ci sunu limu mail ngir xam ni ngay mëna bokk ci kàmpaañ yi, xew-xew yi ak man-mani jëmmal ci Common Voice.
