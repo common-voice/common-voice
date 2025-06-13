@@ -14,7 +14,6 @@ new-sentence-rule-5 = Ingen tal og specialtegn
 new-sentence-rule-6 = Ingen udenlandske bogstaver
 new-sentence-rule-7 = Inkluder kildehenvisning
 login-instruction-multiple-sentences = <loginLink>Log ind</loginLink> eller <loginLink>tilmeld dig</loginLink> for at tilføje flere sætninger
-how-to-cite = Hvordan citerer jeg?
 guidelines = Retningslinjer
 contact-us = Kontakt os
 add-sentence-success = 1 sætning indsamlet
