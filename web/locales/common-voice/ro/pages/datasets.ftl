@@ -1,10 +1,11 @@
 ## Datasets Page
 
+datasets-heading = Seturi de date
 datasets-headline = Construim un set de date multilingv, cu sursă deschisă, cu voci pe care oricine le poate utiliza pentru antrenarea aplicațiilor cu comandă vocală.
 datasets-positioning =
-    Considerăm că seturile mari de date vocale disponibile public vor stimula inovația și concurența comercială sănătoasă în tehnologia vocală bazată pe învățarea mașinilor a modului cum vorbesc oamenii.
+    Considerăm că seturile mari de date vocale disponibile public vor stimula inovația și concurența comercială sănătoasă în tehnologia vocală bazată pe învățarea de către calculatoare a modului cum vorbesc oamenii.
     
-    Setul multilingvistic de date Common Voice este deja cel mai mare set de date vocale de acest gen pus la dispoziția publicului, dar nu este singurul.
+    Setul multilingv de date Common Voice este deja cel mai mare set de date vocale de acest gen pus la dispoziția publicului, dar nu este și singurul.
     
     Consideră această pagină ca un centru de referință pentru alte seturi de date vocale cu sursă deschisă și, pe măsură ce Common Voice continuă să crească, ca pe o pagină de start pentru actualizările noastre.
 language = Limbă
