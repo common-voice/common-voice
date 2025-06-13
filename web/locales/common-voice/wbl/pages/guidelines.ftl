@@ -128,3 +128,4 @@ culturally-specific-questions = Makhsus Saqofati sawolisht
 culturally-specific-questions-explanation = Saqofat en Mutaliqa Swlisht, yoy jawob redhowe kuzgk bara er C`hak mafruzat lecer.
 length-avoid-explanation = Kuybiki ce Sawlve Jawobe de 15 lamhotve dest rand (can deroz clip me wost)
 process-steps = Amal / Qadamish
+process-steps-explanation = kuyẽ sowolẽ kẽs̃hũynẽni ghafch qẽdamisht, kẽs̃hũynẽ qẽdamisht khalgẽ jẽwobẽr tiyor cart can elowa ki fitratẽ mẽtobiq jẽwob randẽn
