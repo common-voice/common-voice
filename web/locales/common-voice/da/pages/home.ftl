@@ -112,6 +112,7 @@ ask-mozilla-share = Bed Mozilla om at dele dine begivenheder
 # label for button
 ask-mozilla-share-action = Del din begivenhed
 contribute-github = Bidrag på GitHub
+contribute-github-content = Dette projekt ville ikke være muligt uden mennesker som dig. 🎉 Der er mange måder at blive involveret i Common Voice - du behøver ikke at kunne programmere for at bidrage!
 # label for button
 contribute-github-action = Bidrag på GitHub
 
