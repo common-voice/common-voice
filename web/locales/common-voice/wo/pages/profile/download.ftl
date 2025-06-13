@@ -6,5 +6,6 @@ download-profile-title = Porofil
 download-profile-size = Ay byte yu néew
 download-size = Dayo
 download-selected = falees
+download-start = Yebbi say jumtukaayu profil
 download-request-button = Yebbi
 download-request-refresh-button = Yeesal
