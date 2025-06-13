@@ -8,7 +8,11 @@ datasets-positioning =
     Setul multilingv de date Common Voice este deja cel mai mare set de date vocale de acest gen pus la dispoziția publicului, dar nu este și singurul.
     
     Consideră această pagină ca un centru de referință pentru alte seturi de date vocale cu sursă deschisă și, pe măsură ce Common Voice continuă să crească, ca pe o pagină de start pentru actualizările noastre.
+datasets-speech-bubble-content = Avem vești! Pagina pentru Vorbire spontană este aproape gata! Reveniți pentru noutăți și abonați-vă la canalul nostru <discordLink>Discord</discordLink> pentru cele mai recente informații.
 language = Limbă
+download-dataset-header = Descarcă setul de date
+download-delta-explainer = Am făcut câteva modificări. Segmentele Delta conțin doar cele mai recente secvențe de la ultima lansare. <deltaLink>Citește mai multe</deltaLink>.
+download-dataset-tag = Alege setul de date lingvistice dorit și versiunea pe care vrei să o descarci.
 # File size in gigabytes
 size = Mărime
 validated-hr-total = Total de ore validate
