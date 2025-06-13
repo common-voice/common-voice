@@ -1,3 +1,5 @@
+speak = o toki uta
+speak-now = o toki lon tenpo ni
 record-cta = o open e ilo kute
 record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
 record-platform-not-supported-desktop = ilo suli la sina ken pali pona tan kama jo…
