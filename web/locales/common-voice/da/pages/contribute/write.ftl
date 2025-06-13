@@ -25,6 +25,8 @@ sentence-domain-select-placeholder = Vælg op til tre domæner (valgfrit)
 # Sentence Domain dropdown option
 agriculture_food = Landbrug og fødevarer
 # Sentence Domain dropdown option
+automotive_transport = Transport og køretøjer
+# Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
 service_retail = Service og detailhandel
@@ -36,6 +38,8 @@ healthcare = Sundhed
 media_entertainment = Medier og underholdning
 # Sentence Domain dropdown option
 nature_environment = Natur og miljø
+# Sentence Domain dropdown option
+news_current_affairs = Nyheder og aktuelt
 sentence-variant-select-label = Sætningsvariant
 sentence-variant-select-placeholder = Vælg en variant (valgfrit)
 sentence-variant-select-multiple-variants = Generelt sprog / flere varianter
@@ -52,6 +56,7 @@ try-upload-again-md = Prøv at uploade igen
 select-file = Vælg fil
 select-file-mobile = Vælg fil, der skal uploades
 accepted-files = Accepterede filtyper: Kun .tsv
+minimum-sentences = Mindste antal sætninger i filen: 1000
 maximum-file-size = Maksimal filstørrelse: 25 MB
 what-needs-to-be-in-file = Hvad skal der være i min fil?
 upload-progress-text = Upload i gang...
