@@ -13,6 +13,9 @@ prompt-response-deleted-success = Tontu bi dindee-ku na
 delete = Màbb
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = Yónnees
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = Yonnee lépp
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = Jàngal nu nuy jëfandikoo xët wii
