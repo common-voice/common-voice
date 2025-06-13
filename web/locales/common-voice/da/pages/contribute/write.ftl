@@ -19,10 +19,15 @@ contact-us = Kontakt os
 add-sentence-success = 1 sætning indsamlet
 add-sentence-error = Fejl ved tilføjelse af sætning
 required-field = Udfyld venligst dette felt.
+single-sentence-submission = Indsendelse af en enkelt sætning
 single-sentence = Enkelt sætning
 sentence-domain-select-placeholder = Vælg op til tre domæner (valgfrit)
 # Sentence Domain dropdown option
+agriculture_food = Landbrug og fødevarer
+# Sentence Domain dropdown option
 finance = Finans
+# Sentence Domain dropdown option
+service_retail = Service og detailhandel
 # Sentence Domain dropdown option
 general = Generelt
 # Sentence Domain dropdown option
