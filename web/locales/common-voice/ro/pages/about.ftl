@@ -86,7 +86,7 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Poți <sentenceCollectorLinkAdd>adăuga doar câteva propoziții la colecție</sentenceCollectorLinkAdd>,
     sau poți <bulkImportDocsLink>adăuga unul sau mai multe fișiere în același timp prin Github</bulkImportDocsLink>.
-    În ambele cazuri, nu uita că propozițiile trebuie să aibă licență <licenseLink>CC0 (sau să se găsească deja în domeniul public)</licenseLink>. Alternativ, poți scrie și adăuga propoziții originale.
+    În ambele cazuri, nu uita că propozițiile trebuie să aibă licență <licenseLink>Creative Commons CC0 (sau să se găsească deja în domeniul public)</licenseLink>. Alternativ, poți scrie și adăuga propoziții originale.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Citește mai mult despre adăugarea propozițiilor la colecția Mozilla Common Voice</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -102,9 +102,12 @@ about-playbook-how-localize-content-5 = Vizionează videoclipul nostru explicati
 
 about-playbook-how-add-sentences = Cum adaug propoziții?
 about-playbook-how-add-sentences-content-1 = Poți adăuga propoziții pe <writePageLink>pagina de scriere</writePageLink> sau poți examina propoziții pe <reviewPageLink>pagina de examinare</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Propozițiile trebuie revizuite și acceptate de două persoane pentru a fi incluse în resursele Common Voice. <languageGuidelinesLink>Aici</languageGuidelinesLink> poți crea instrucțiuni pentru limba ta. Propozițiile trebuie să se găsească în <licenseLink>domeniul public</licenseLink> și să fie mai scurte de 15 cuvinte. Poți solicita autorului sau proprietarului unui text să îl publice cu licența <waiverLink>Creative Commons CC0 folosind formularul nostru de renunțare la drepturi</waiverLink>, formular pe care trebuie să ni-l trimiți apoi la adresa commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Poți folosi instrumentul de extragere de propoziții <scraperLink>Sentence extractor</scraperLink> pentru a adăuga propoziții scurte de pe Wikipedia.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Cum înregistrez o secvență vocală de înaltă calitate?
 
 ## How to grow language
 
