@@ -82,9 +82,9 @@ about-playbook-how-add-language-translating-content-2 =
     Apoi, pentru a face limba disponibilă în cadrul proiectului Common Voice,
     <githubRepoLink>solicită noua limbă pe GitHub</githubRepoLink>. <localizationFragment>Aici găsești mai multe informații despre traducerea site-ului</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Adunarea de propoziții scrise
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Urmărește ghidul nostru despre cum să utilizezi Biblioteca de propoziții</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Urmărește ghidul nostru despre cum să utilizezi Colecția de propoziții</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
-    Poți <sentenceCollectorLinkAdd>adăuga doar câteva propoziții</sentenceCollectorLinkAdd>,
+    Poți <sentenceCollectorLinkAdd>adăuga doar câteva propoziții la colecție</sentenceCollectorLinkAdd>,
     sau poți <bulkImportDocsLink>adăuga unul sau mai multe fișiere în același timp prin Github</bulkImportDocsLink>.
     În ambele cazuri, nu uita că propozițiile trebuie să aibă licență <licenseLink>CC0 (sau să se găsească deja în domeniul public)</licenseLink>. Alternativ, poți scrie și adăuga propoziții originale.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Citește mai mult despre adăugarea propozițiilor</sentenceCollectorFragment>.
