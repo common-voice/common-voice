@@ -70,6 +70,10 @@ about-playbook-what-is-language-content-3 = Unele limbi prezintă variații cons
 ## How do I add a language
 
 about-playbook-how-add-language = Cum adaug o limbă?
+about-playbook-how-add-language-content-1 =
+    Mai întâi, verifică dacă limba ta <languageLink>există deja</languageLink>.
+    Dacă nu există, poți <languageRequestLink>solicita adăugarea limbii tale</languageRequestLink>.
+    Există două etape. Traducerea site-ului și colectarea propozițiilor.
 about-playbook-how-add-language-collecting-sentences-heading = Adunarea de propoziții scrise
 
 ## How does localization work

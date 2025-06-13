@@ -2,6 +2,8 @@
 
 welcome-to-spontaneous-speech = دے اسپونٹینئس تقریر نتو خوش آمدید
 why-spontaneous-speech = ماخ ڤیم سپونٹینئس تقریر یو نمونہ چی سڤزامتے؟
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = بہتر المین ای کہ زبانن حقیقی مدد اوئے چیمین کو ای زبانن ترجمو اڤن<mark> دیر زبانن الفاظے استعمال کڑا استت</mark>
 how-spontaneous-speech-works = اسپونٹینئس چیمی ہورغ کیتے؟
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>اشارو</mark>

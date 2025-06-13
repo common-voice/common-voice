@@ -10,3 +10,4 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>آئی ایس او 
 request-language-form-info-explanation-list-3 = ویب سائٹس کہ وئے ڤے زبان دے ڤزدا لے ماخ مدد کینت
 # Success page
 request-language-success-heading = شکریہ! تو دے یو نوؤ زبان باری سوال ݰیکاڑیت
+request-for-scripted-speech-toggle = پے نوختیغو گپ دیر درخواست کن
