@@ -73,7 +73,14 @@ about-playbook-how-add-language = Cum adaug o limbă?
 about-playbook-how-add-language-content-1 =
     Mai întâi, verifică dacă limba ta <languageLink>există deja</languageLink>.
     Dacă nu există, poți <languageRequestLink>solicita adăugarea limbii tale</languageRequestLink>.
-    Există două etape. Traducerea site-ului și colectarea propozițiilor.
+    Există două etape. Traducerea site-ului și adunarea propozițiilor scrise.
+about-playbook-how-add-language-translating-heading = Cum se traduce site-ul
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Urmărește ghidul nostru despre cum să utilizezi platforma de traducere Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Pentru traducerea site-ului folosim un instrument Mozilla numit <pontoonLink>Pontoon</pontoonLink> . Pontoon include multe limbi,
+    dar dacă nu o are pe a ta, poți <pontoonRequestLink>solicita adăugarea ei.</pontoonRequestLink>.
+    Apoi, pentru a face limba disponibilă în cadrul proiectului Common Voice,
+    <githubRepoLink>solicită noua limbă pe GitHub</githubRepoLink>. <localizationFragment>Aici găsești mai multe informații despre traducerea site-ului</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Adunarea de propoziții scrise
 
 ## How does localization work
