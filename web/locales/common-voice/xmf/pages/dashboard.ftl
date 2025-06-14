@@ -18,6 +18,7 @@ validated-clips = გინოჯინელი კლიპეფი
 total-approved = გვალო დადასურებული
 overall-accuracy = ართოიანი მეკაკილობა
 set-visibility = ძირაფუობაში გერინაფა
+visibility-overlay-note = მიკოშანუა: მუჟამსით გერე "ძირაფუობა", თიში თირუა შიოლებერი რე <profileLink> პროფილიშ ხასილაშე </profileLink>
 show-ranking = ქუმოძირი ჩქიმი არდგილი
 
 ## Custom Goals
