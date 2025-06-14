@@ -8,8 +8,8 @@ download-dataset-header = მუნაჩემეფიშ კათელი�
 download-dataset-tag = ქიმუწურეთ კორინებული ნინაში მუნაჩემეფიშ კათელი დო გეიშაგორით ვერსია გიმახარგალო.
 # File size in gigabytes
 size = ზომა
-validated-hr-total = დადასურებულ საათეფი ართო
-overall-hr-total = საათეფიშ საერთო ჯამი
+validated-hr-total = გინოჯინელი საათეფი ართო
+overall-hr-total = საათეფიშ ართოიანი ჯამი
 cv-license = ლიცენზია
 audio-format = ხონარიშ ფორმატი
 dataset-splits = გორთუალა (ასაკი დო სქესი)
@@ -33,6 +33,8 @@ other-datasets = შხვა ხონარუან მუნაჩემე�
 feedback-q = გიღუნანო გუმოხონარება?
 # This indicates that there is no data to display
 no-information = ვარე ინფორმაცია
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ რე <docsLink> გოღია წყუში ხეჭკუდეფეში ნაკორობა </docsLink> მკვლევარეფიშო უახალაში AI მოდელეფიში აკაქიმინალო.
+community-playbook = ართობაში ოხემანჯღვერე
 data-other-ted-name = TED-LIUM კორპუსი
 your-feedback = მუთუნ იდეა გიღუნანო, მუჭო შემლებუნა Common Voice-იშ მუნაჩემეფიშ კათელიშ გაუჯგუშება? ქუმოპჭარით Discourse-შა
 go-discourse = გინილი ოჩიებეშა
