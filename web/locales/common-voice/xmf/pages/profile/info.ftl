@@ -1,7 +1,7 @@
 ## ProfileForm
 
 profile-form-username =
-    .label = მუმახვარებელიშ სახელი
+    .label = გუმმარინაფალიში ჯოხო
 profile-form-native-language =
     .label = ნანაში ნენა
 profile-form-additional-language =

@@ -16,13 +16,15 @@ demo-account = ანგარიში
 
 ## Demo Account
 
+demo-account-card-header = წილიში მიშაღალარო ანგარიში გიღუდასჷნი, ვარე სავალდებულო, მარა მარგებელი რე.
 demo-account-enter-email =
-    .label = გემშიონით ელფოსტა ანგარიშიშ აკაქიმინალი ბმულიშ ოჯღონალო
-demo-account-sign-up = ბმულიშ ჯღონა
+    .label = გემშიონით ელფოსტა ანგარიშიშ აკაქიმინალი რსხილიში ოჯღონალო
+demo-account-sign-up = რსხილიში ჯღონა
 
 ## Demo Contribute
 
 demo-contribute-card-header = ქორეთო ხაზირი ქიგუძინათ თქვანი ხონარი ვარდა ქურჩქილათჷნი?
+demo-listen-subtitle = ქორეთო ხაზირი წილიში მიშაღალარო?
 
 ## Demo Dashboard
 
