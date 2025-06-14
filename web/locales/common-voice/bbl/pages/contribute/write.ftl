@@ -153,13 +153,13 @@ add-sentences-menu-item-tooltip = მაქ ლა́ტჲებათ წინ
 review-sentences-menu-item-tooltip = წინადა́დბი დაყყჲარ შუ მატტმაქ //1. კაწკოჼ ვაშ სე ა́გეციჼ ვიშრა́ს ბუსცჰ̦აჸ-ე́...// 2. მაცმე́ ო ჰ̦ალო̆ ჴე́თთურ ჺურდეჼ, სოა́ ჰ̦ალო̆ ჰ̦ა́წამლა́რასო̆// - ბუსცჰ̦აჸ-ჲე́, მაცნე́
 add-questions-menu-item-tooltip = შეკითხვი ლა́ტჲარ შუ მატტანაჲნო̆ // ლე́ვლა -ე, მაცნე́ ნიფსივხ და ჲე// უჲშტნეჸ:  ლე́ვლა მაცმე́, ნიფსივხ და მაცნე́
 review-questions-menu-item-tooltip = შეკითხვი დაყყჲარ
-transcribe-audio-menu-item-tooltip = აუდიოჩანაწერაჼ ტრანსკრიფცია შუ მატტმაქ
+transcribe-audio-menu-item-tooltip = აუდიოჩანაწერაჼ ტრანსკრიფცია შუ მატტმაქ (იშენ ნაწე́რეჼ სახ ჲალ'არ)
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = ჩუ ჩაწე́რადჲებათ პა́რამეტრაჼ მენიუ
-add-sentences-menu-item-aria-label = მაქ ლატჲებათ წინადადბი ვაი ერთობას ხატტანაინო
-review-sentences-menu-item-aria-label = დაყყდარ ო წინადადბი, მუნხუჲაჲ ერთობას და ჩუ დეჸენო
-add-questions-menu-item-aria-label = ჩუ დაჸათ წინ შეკითხვი, მე ერთობას ჰალო ხატტოლოჲე პასუხ ლოლო
-review-questions-menu-item-aria-label = ჰ̦ალო̆  შეფა́სბადჲებათე́ ი́́შ ლიბათ შუ ნა́ხვ წინიშ ლა́ტჲიენჩო̆ შეკითხვა́ხ
-transcribe-audio-menu-item-aria-label = იშა́რეჼ ჩანაწე́რი ტე́ქსტეღ დე́რწდარ (ტრანკრიფცია́)
+add-sentences-menu-item-aria-label = მაქ ლა́ტჲებათ წინადა́დბი ვაჲ ე́რთობას ხა́ტტანაჲნო̆
+review-sentences-menu-item-aria-label = ო წინადა́დბი დაყყჲარ, მე́ნხუჲა́ჲ ე́რთობას ჲა ჩუ ჲე́ჸენო̆
+add-questions-menu-item-aria-label = ჩუ ჲაჸათ წი́ნ შეკითხვი, მე́ ე́რთობას ჰ̦ალო̆ ხა́ტტოლოე პა́სუხ ლო́ლო̆
+review-questions-menu-item-aria-label = ჰ̦ალო̆  შეფა́სბადჲებათე́ ი́შ ლიბათ შუ ნა́ხვ წინიშ ლა́ტჲიენჩო̆ შეკითხვა́ხ
+transcribe-audio-menu-item-aria-label = იშა́რეჼ ჩანაწე́რი ტე́ქსტეღ ჲე́რწჲარ (ტრანკრიფცია́)
