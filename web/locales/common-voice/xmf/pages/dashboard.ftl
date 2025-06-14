@@ -74,6 +74,7 @@ share-goal = გურთი ჩქიმი ღანკი
 
 ## Goals
 
+streaks = თია
 days =
     { $count ->
         [one] დღა
