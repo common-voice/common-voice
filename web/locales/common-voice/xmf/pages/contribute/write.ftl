@@ -23,13 +23,13 @@ new-sentence-rule-7 = ქიმუწურეთ მანგი წყუ
 new-sentence-rule-8 = იდეალურო ორთაშური დო ოჩიებე ნინა (ზიტყვასქვილეფი ანდვილას გეშეკითხანინი)
 login-instruction-multiple-sentences = <loginLink> მიშელით </loginLink> ვარდა <loginLink>  გაკეთით </loginLink> ანგარიშ ართ-ჟირ ზიტყვასქვილიშ გიოძინალო
 how-to-cite = მუჭო მეუწურუათ წყუ?
-how-to-cite-explanation-bold = წყუთ გუმოდირთუ საკუთრებაშ ნებაშე დუდშული მასალაშ ბმული ვარდა ნაჭარაშ სახელწოდება რსულათ.
+how-to-cite-explanation-bold = წყუთ გუმოდირთუ საკუთრებაშ ნებაშე დუდშული მასალაშ რსხილი ვარდა ნაჭარაშ ჯოხო რსულათ.
 how-to-cite-explanation = თქვან საკუთარ ზიტყვა ქორე-და, დუბაღ მეჭარუა <italicizedText> "ჩქიმი ნამუშერი" </italicizedText>. წყუშ გეძინა თიშენ რე აუცილებელი, მასალაშ გორუა შემლებუდანინი. ქიგნუოჯინათ, ნანდულო ოირქიანე საკუთრებას რე თუ ვარ დო საავტორო ნებათ ხომ ვეკრძალებუ თეშ გუმორინაფა. წყუშ მეწურაფაშ გურშენი უმოსი ქიგეგი ჩქინი <guidelinesLink> შარაშმაწურაფალიშ ხასლაშე </guidelinesLink>.
 guidelines = შარაშმაწურაფალი
 contact-us = ქიდმეკავშირით
 add-sentence-success = 1ზიტყვასქვილი რე კორობილი
 add-sentence-error = ჩილათა რე ზიტყვასქვილეფიშ გეძინაშ დროს
-required-field = ქორთხინთ, შეავსათ თე არდგილი.
+required-field = ქორთხინთ, აკაფშათ თე არდგილი.
 single-sentence-submission = ზიტყვასქვილეფიშ თითო-თითოთ მიშაღალა
 small-batch-sentence-submission = ართ-ჟირ ზიტყვასქვილიშ მიშაღალა
 bulk-sentence-submission = ზიტყვასქვილეფიშ ართო მიშაღალა
@@ -39,7 +39,7 @@ bulk-sentence = ბრელი
 sentence-domain-combobox-label = ზიტყვასქვილიშ ინტერნეტოწურაფუ
 sentence-domain-select-placeholder = ქიმუწურეთ სუმ დომენი (სავალდებულო ვარე)
 # Sentence Domain dropdown option
-agriculture_food = სოფელიშ მეურნეობა დო ოჭკომალი
+agriculture_food = ოფუტეშ მეურნეობა დო ოჭკომალი
 # Sentence Domain dropdown option
 automotive_transport = მანქანეფი დო ტრანსპორტი
 # Sentence Domain dropdown option
