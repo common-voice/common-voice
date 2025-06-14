@@ -98,6 +98,7 @@ about-playbook-how-record-content-5 = <accuracyLink> ქოძირით უ�
 ## How to grow language
 
 about-playbook-how-grow-language = მუჭო შეუნწყუათ ხე ნინაშ რდუალას Common Voice-ის?
+about-playbook-how-grow-language-content-1 = Common Voice-ის შხვადოშხვა კათაში მაჭანაფალო დო წილიშ მიშაღალარო ოსქვებური პირობეფიშ აკოქიმინუა, თის შანულენს ნამდა მუნაჩემეფიშ კათელი ბრელ კოჩის იჸუაფუ მერგებული. ჩქი გუახაზირით რესურსეფი დო შაბლონეფი, ნამუში გუმორინაფა შეილებუნანი!
 about-playbook-how-grow-language-content-2 = ღონისძიებეფი
 about-playbook-how-grow-language-content-3 = შეილებუნა ღონისძიებეფი აკანწყუათ მეტი მოხალისეში აკაშაყარალო. ფირქენქჷნი, თიშ უმოს ანდვილ რე. ინტერნეტით, კონფერენციეფიშ მანწყუალ პროგრამეფით, პირადო კათაშ ძირაფათ. <eventTemplate> ქოძირით ჩქინ ნამუშერეფი დო მარგებელ მასალეფი ღონისძიებეფიშ გურშენი </eventTemplate>.
 about-playbook-how-grow-language-content-4 = სოციალური მედია
