@@ -14,8 +14,10 @@ everyone = არძა
 contribution-activity = მიშაღალირი წილი
 top-contributors = საუჯგუშო მოხალისეეფი
 recorded-clips = ინნაჭარა კლიპეფი
-validated-clips = დადასურებულ კლიპეფი
-total-approved = გვალო დანანდულებური
+validated-clips = გინოჯინელი კლიპეფი
+total-approved = გვალო დადასურებული
+overall-accuracy = ართოიანი მეკაკილობა
+set-visibility = ძირაფუობაში გერინაფა
 show-ranking = ქუმოძირი ჩქიმი არდგილი
 
 ## Custom Goals
