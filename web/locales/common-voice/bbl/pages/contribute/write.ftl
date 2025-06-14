@@ -116,14 +116,14 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] აჰ̦ ჴეჲჩნა დაჰ̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდმაქ". დეხო́თხ ჩუ სტეხ 1 წუთე წინ წინადა́დებ ჲახითლო́მციჼ. მა́დლობ ჰ̦ალო̆ ყე́პყჲარენდალლა́
-       *[other] აჰ̦̦ ჴეჲჩნა დაჰ̦̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდმაქ". დეხო́თხ ჩუ სტეხ { $retryLimit } წუთე წი́ნ წინადა́დებ ჲახითლო́მციჼ. მა́დლობ ჰ̦ალო̆ ყე́პყჲარენდალლა
+        [one] აჰ̦ ჴეჲჩნა დაჰ̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდმაქ". დეხო́თხ ჩუ სტეხ 1 წუთე წინ წინადა́დებ ჲახითლო́მციჼ. მა́დელ ჰ̦ოჼ ჰ̦ალო̆ ყე́პყჲარენდალლა́
+       *[other] აჰ̦̦ ჴეჲჩნა დაჰ̦̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდმაქ". დეხო́თხ ჩუ სტეხ { $retryLimit } წუთე წი́ნ წინადა́დებ ჲახითლო́მციჼ. მა́დელ ჰ̦ოჼ ჰ̦ალო̆ ყე́პყჲარენდალლა́
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
         [one] აჰ̦ ჴეჲჩნა́ დაჰ̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდენმაქ". დეხო́თხ ჩუ სტე́ხ 1 წა́მე წი́ნ წინადა́დებ ჲახითლო́მციჼ. მადლობ ჰ̦̦ალო̆ ყე́პყჲარენდალლა́
-       *[other] აჰ ჴეჲჩნა́ დაჰ̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდენმაქ". დეხო́თხ ჩუ სტე́ხ { $retryLimit } წა́მე წი́ნ წინადა́დებ ჲახითლო́მციჼ. მადლობ ჰ̦ალო̆ ყე́პყჲარენდალლა
+       *[other] აჰ ჴეჲჩნა́ დაჰ̦ დახითარ მიჯნეგო́მციჼ ეჴ "გვერდენმაქ". დეხო́თხ ჩუ სტე́ხ { $retryLimit } წა́მე წი́ნ წინადა́დებ ჲახითლო́მციჼ. მადლობ ჰ̦ალო̆ ყე́პყჲარენდალლა́
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
@@ -137,10 +137,10 @@ small-batch-response-message =
         [one] { $uploadedSentences } წინადადებ ჲა მიღებადჲელნო1-ხიჼ. წკაპ ბაჴითათ <downloadLink>ესე</downloadLink>, მე აჰ ჲჵოფლუჲში უარ ალ'ინო წინადადბი
        *[other] { $uploadedSentences } წინადადებ ჲა მიღებადჲელნო { $totalSentences }-ხიჼ. წკაპ ბაჴითათ<downloadLink>ესე</downloadLink>, მე აჰ ჲჵოფლუჲში უარ ალ'ინო წინადადბი
     }
-small-batch-sentences-rule-1 = დოწლიბათ მითითბახ „მოლუჼ ჲეწ ხილ'აჼ წინადადებ?“
-small-batch-sentences-rule-2 = ლატჲებათ ცჰაც წინადადებ ცჰაცჰაჲნი ხაზენმაქ
-small-batch-sentences-rule-3 = წინჩო ხაზენმაქ ბედ ჲებათ წინადადბი  ლე „Enter“, ლე მა „Return“  ღილაკმაქ  წყე ნიწყ ბარევ
-small-batch-sentences-rule-4 = მაქ ლატჲებათ 1000-ეხ ცო საბლეჲნი წინადადბი
+small-batch-sentences-rule-1 = დო́წლიბათ მითითბა́ხ „მოლუჼ ჲეწ ხილ'აჼ წინადა́დებ?“
+small-batch-sentences-rule-2 = ლა́ტჲებათ ცჰ̦აც წინადა́დებ ცჰ̦აცჰ̦აჲნი̆ ხა́ზენმაქ
+small-batch-sentences-rule-3 = წინჩო̆ ხა́ზენმაქ ბედ ჲებათ (ყაფათ) წინადა́დბი  ლე „Enter“, ლე მა́ „Return“ ღილაკმაქ  წყე ნიწყ ბარევ
+small-batch-sentences-rule-4 = მაქ ლა́ტჲებათ 1000-ეხ ცო საბლაჲნი̆ წინადა́დბი
 small-batch-sentences-rule-5 = ვომაჸ წინადადბი ცჰაჲნი დარგუჼ ჲეწე ხილ'აჼ
 small-batch-sentences-rule-6 = ვომაჸ წინადადბი ცჰაჲნი წყარუჲლეჼ ჲეწე ხილ'აჼ
 # menu item
