@@ -42,6 +42,7 @@ about-get-involved-text-2 = გიღუნანო ზალამი Common V
 about-stay-in-touch = მუჭო დოფსკიდა კავშირს?
 about-stay-in-touch-button = ანგარიშიშ აკოქიმინუა
 about-stay-in-touch-text-1 = <emailFragment> დერეგისტრირით </emailFragment> ჩქინ ელფოსტაში ბუნას დო ქიგეგით, მუჭო შეილებუნა მონაწილეობა მიღათ კომპანიეფშა, ღონისძიებეფშა დო Common Voice-იშ თანადიზაინიშ ფუნქციეფიშა.
+about-stay-in-touch-text-2 = თქვა შეილებუნა შეხვადათ Mozilla-იშ შხვადოშხვა ნინეფიშ საზოგადოებაშ მაკათურეფს, ცალკეიანი თემეფშე ოჩიებეთ ქაკათათ <discordLink> Discord </discordLink> ვარდა <discourseLink> Discourse </discourseLink>, ხოლო რჩევეფიშ მიოჩამალო დერეგისტრირით ათაქ <matrixLink> Matrix </discordLink>.
 about-nav-why-common-voice = მუშენი?
 about-nav-how-it-works = მუჭო?
 about-nav-partners = ალმახანდეეფი
