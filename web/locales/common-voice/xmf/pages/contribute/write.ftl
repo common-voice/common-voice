@@ -59,7 +59,7 @@ media_entertainment = მედია დო ართუაფა
 # Sentence Domain dropdown option
 nature_environment = ორთა დო აკანი
 # Sentence Domain dropdown option
-news_current_affairs = სიახალე დო მიმდინარე მოვლენეფი
+news_current_affairs = სიახალე დო ასეიანი მოვლენეფი
 # Sentence Domain dropdown option
 technology_robotics = ტექნოლოგია დო რობოტიკა
 sentence-variant-select-label = ზიტყვასქვილიშ კუნთხუობა
@@ -82,7 +82,7 @@ accepted-files = ფაილიშ მეღებულ ნერობა რ
 minimum-sentences = ზიტყვასქვილი არძაშ უჭიჭაში ოკო რდას:1000
 maximum-file-size = ფაილიშ ნტირულობა არძაშ უმოსი: 25 მბაიტი
 what-needs-to-be-in-file = მუ ოკო რდას ჩქიმ ფაილს?
-what-needs-to-be-in-file-explanation = ქორთხინთ ქიგნაჯინათ <templateFileLink> ფაილიშ დადარს </templateFileLink>. თქვან ზიტყვასქვილეფი ოირქიანე საკუთრება ოკო რდას (CC0 ლიცენზიათ ვარდა საკუთარი ნამუშერი) დო არძაშო გაგებელჷ ნინათ, თინას ოკო ჭარუდას, არდვილო წეკითხანინი. თაქ მოჩამილ ზიტყვასქვილეფიშ კითხირს 10-15 წამი ოკო ოსაჭირუდას დო ციფრეფი, საკუთარ სახელეფი ვარდა შხვა საგანგიო ნიშნეფი ვარდას.
+what-needs-to-be-in-file-explanation = ქორთხინთ ქიგნაჯინათ <templateFileLink> ფაილიშ დადარს </templateFileLink>. თქვან ზიტყვასქვილეფი ოირქიანე საკუთრება ოკო რდას (CC0 ლიცენზიათ ვარდა საკუთარი ნამუშერი) დო არძაშო გაგებელჷ ნინათ, თინას ოკო ჭარუდას, არდვილო წეკითხანინი. თაქ მოჩამილ ზიტყვასქვილეფიშ კითხირს 10-15 წამი ოკო ოსაჭირუდას დო ციფრეფი, საკუთარ ჯოხოეფი ვარდა შხვა საგანგიო ნიშნეფი ვარდას.
 upload-progress-text = მეურს გეძინა...
 sc-bulk-submit-confirm = ვადასურენქ, ნამდა თე ზიტყვასქვილი <wikipediaLink> ოირქიანე საკუთრებას </wikipediaLink> დო მიღუ თიში გეძინაშ ნება.
 bulk-upload-success-toast = ზიტყვასქვილეფს არძოქ ართო ქიგიაძინ
@@ -134,8 +134,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences }1 ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფენი.
-       *[other] { $uploadedSentences } ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფენი { $totalSentences } -შე.
+        [one] { $uploadedSentences }1 ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკეთ.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფინი.
+       *[other] { $uploadedSentences } ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკეთ.<downloadLink> თაქ </downloadLink> გეგნიჭარე ვარებულ ზიტყვასქვილეფინი { $totalSentences } -შე.
     }
 small-batch-sentences-rule-1 = ქიმიაჸუნით შარაშმაწურაფალს "ზიტყვასქვილი მუჭომი ოკო რდას?"
 small-batch-sentences-rule-2 = ქიგუძინით თითო ზიტყვასქვილი თითო ხაზის
@@ -157,7 +157,7 @@ transcribe-audio-menu-item-tooltip = ინოჭარილ ხონარე
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = დოჭარით პარამეტრეფიშ მენიუშ
+write-contribute-menu-aria-label = ჭარუაშ პარამეტრეფიშ მენიუ
 add-sentences-menu-item-aria-label = ქიგუძინით ზიტყვასქვილეფი მაკათურეფქ წეკითხანინი
 review-sentences-menu-item-aria-label = მაკათურეფიშ წუმორინაფილი ზიტყვასქვილეფიშ გინოჯინა
 add-questions-menu-item-aria-label = ოკითხირეფიშ გეძინა, ბუნაშ მაკათურეფქ წეკითხან დო გამა ქიმეჩანინი
