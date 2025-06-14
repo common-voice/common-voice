@@ -45,13 +45,13 @@ automotive_transport = მანქანეფი დო ტრანსპო�
 # Sentence Domain dropdown option
 finance = ფინანსეფი
 # Sentence Domain dropdown option
-service_retail = მომსახურება დო საცალო ვაჭრუა
+service_retail = ინალობა დო საცალო ვაჭრუა
 # Sentence Domain dropdown option
 general = ზოგადი
 # Sentence Domain dropdown option
 healthcare = ჯანდაცვა
 # Sentence Domain dropdown option
-history_law_government = ისტორია, სამართალ დო მმართველობა
+history_law_government = ისტორია, სამართალ დო ხეშულობა
 # Sentence Domain dropdown option
 language_fundamentals = ნინაშ ჯინჯეფი (მაგალთო, ციფრეფი, ასოეფი, ფარა)
 # Sentence Domain dropdown option
