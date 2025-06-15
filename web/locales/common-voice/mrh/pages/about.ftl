@@ -16,6 +16,12 @@ about-voice-contrib-title = Ao Deichhyna
 about-voice-contrib-subtitle = Chyhsazy ta avy ei ta, ama aozy ama vaw thyu.
 about-voice-validation-title = Ao Apyna
 about-voice-validation-subtitle = Mo hrozy ta cha ao clip-zy cha amâ py.
+about-dataset-release-title = Dataset Pathliena
+about-dataset-release-subtitle = Keimo cha dataset he thla 3 a pha chareih ta eima pathlei tyh.
+about-subscribe-text = Common Voice nata azaona na hnei khoh ma?
+about-speak = Biereih
+about-speak-text = Deichhytuhzy cha bank sâ kha tawhta ama thyu chiehpa bietlâhzy reina chôta ama aozy ama pangia.
+about-listen-queue = Nahthlie-Paziah
 
 ## Community Playbook Content
 ## What is a language
