@@ -10,6 +10,12 @@ about-localization-title = Website Reihpaleina
 about-localization-subtitle = Website châzy kha cha reih lâ chata paleipa a châ.
 about-sentence-collection-title = Bietlâh Pahmaohna
 about-sentence-collection-subtitle = Bietlâhzy cha chyhsazy a paro kawpa ta ama rei thei nawpa ta pahmaohpa a châ.
+about-new-lang-title = Reih Thiehpa Pathao
+about-new-lang-subtitle = Keimo cha Common Voice he he reih heta eima pathao.
+about-voice-contrib-title = Ao Deichhyna
+about-voice-contrib-subtitle = Chyhsazy ta avy ei ta, ama aozy ama vaw thyu.
+about-voice-validation-title = Ao Apyna
+about-voice-validation-subtitle = Mo hrozy ta cha ao clip-zy cha amâ py.
 
 ## Community Playbook Content
 ## What is a language
