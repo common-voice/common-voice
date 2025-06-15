@@ -36,6 +36,7 @@ feedback-q = გიღუნანო გუმოხონარება?
 # This indicates that there is no data to display
 no-information = ვარე ინფორმაცია
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ რე <docsLink> გოღია წყუში ხეჭკუდეფეში ნაკორობა </docsLink> მკვლევარეფიშო უახალაში AI მოდელეფიში აკაქიმინალო.
+resource-deepspeech-info = Mozilla-ში გოღია წყუში ხუმაში ეშაჩინებელი ძრავა Deep Speech შილებე გუმორინაფილქ იჸუას თქვანი ხონარიში ეშაჩინებელი პროგრამეფიშოთ. წეკითხით ჩქინი <githubLink> Github მიმოხილვა </githubLink> ვარდა ქუმაკათით <discourseLink> DeepSpeech ოჩიებეს </discourseLink> დიგურეთ მუჭო ოკო დიჭყათჷნი.
 community-playbook = ართობაში ოხემანჯღვერე
 data-other-ted-name = TED-LIUM კორპუსი
 your-feedback = მუთუნ იდეა გიღუნანო, მუჭო შემლებუნა Common Voice-იშ მუნაჩემეფიშ კათელიშ გაუჯგუშება? ქუმოპჭარით Discourse-შა
