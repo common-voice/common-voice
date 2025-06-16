@@ -46,6 +46,9 @@ feedback-q = Ai sugestii?
 # This indicates that there is no data to display
 no-information = Fără informații
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ este un <docsLink>set de instrumente cu sursă deschisă</docsLink> pentru cercetătorii care dezvoltă modele de inteligență artificială conversațională de ultimă generație.
+resource-deepspeech-info = Deep Speech este motorul de recunoaștere vocală cu sursă deschiză de la Mozilla care poate fi utilizat pentru a construi aplicații de recunoaștere vocală. Citește <githubLink>prezentarea noastră generală pe Github</githubLink> sau intră pe <discourseLink>DeepSpeech Discourse</discourseLink> pentru a afla cum să îl folosești.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> este o inițiativă dedicată tehnologiei vocale cu sursă deschisă. Proiectele lor includ motoare de recunoaștere vocală (STT) și de sinteză vocală (TTS) bazate pe învățare profundă (deep learning).
+community-playbook = Ghidul comunității (Community Playbook)
 data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de vorbire, codate la 16Khz, în limba engleză, derivate din cărți audio citite, preluate din proiectul LibriVox.
 data-other-ted-name = Corpusul TED-LIUM
 data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile aferente, disponibile pe site-ul TED.
