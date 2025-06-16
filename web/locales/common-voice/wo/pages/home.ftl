@@ -29,6 +29,7 @@ no-clips-to-validate = Mel na ni baat yi nga man a dégglu ci làkk wii jeex na.
 toggle-play-tooltip = Bësal { shortcut-play-toggle } ngir dem ci mode bii dawal (mode lecture)
 speak-paragraph = Enregistrer ay baat dafa bokk ci defarug sunu jumtukaay yu ubbeeku yi (base de données ouvertes); ñenn ñi dañuy wax sax tamit ni mooy pàcc bi gën a neex.
 speak-goal-text = Enregistrer nañ baat yi
+sign-up-account = Bindul ngir am kont
 
 ## Account Benefits
 
@@ -82,3 +83,5 @@ answer-questions-link = Tontu laaj yi
 partner-section-title = sunuy partaner
 # icon is an arrow that points to the right
 get-in-touch-button = Jokkoo ak nun<icon></icon>
+# Partners section
+our-partners-include = Sunuy partaner ñooy...
