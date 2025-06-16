@@ -79,3 +79,6 @@ answer-questions-link = Tontu laaj yi
 
 ## Partner section
 
+partner-section-title = sunuy partaner
+# icon is an arrow that points to the right
+get-in-touch-button = Jokkoo ak nun<icon></icon>
