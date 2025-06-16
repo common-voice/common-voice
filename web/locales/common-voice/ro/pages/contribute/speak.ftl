@@ -31,14 +31,21 @@ record-abort-delete = Ieși și șterge secvențele vocale.
 review-aborted = Încărcare abandonată. Vrei să-ți ștergi înregistrările?
 review-submit-title = Evaluează și trimite
 review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum revezi secvențele vocale de mai jos și trimite-le.
-review-recording = Examinare
+review-recording = Evaluează
 review-rerecord = Reînregistrează
 review-cancel = Anulează trimiterea
 review-keep-recordings = Păstrează înregistrările
 review-delete-recordings = Șterge înregistrările mele
-review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
-terms-agree = De acord
-terms-disagree = Nu sunt de acord
+review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>.
+terms-agree = Sunt de acord.
+terms-disagree = Nu sunt de acord.
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Mulțumim că ne-ai donat înregistrările tale vocale!
+first-cta-subtitle-text = Adăugând câteva detalii despre tine, contribui la dezvoltarea de tehnologii mai incluzive.
+why-donate = De ce îmi cereți astfel de informații?
+why-donate-explanation-1 = Aceste informații sunt opționale - adaugă-le doar dacă dorești. Când publicăm setul de date, vom pseudo-anonimiza toate informațiile personale anonime. Ne vom asigura că detalii precum numele și adresa ta de e-mail nu sunt legate de informații demografice precum vârsta sau sexul.
+add-information-button = Adaugă informații
+continue-speaking-button = Nu, mulțumesc, continuă să citești.
 create-profile-text = Vrei să îți salvezi informațiile? <createProfile>Creează un profil</createProfile>
 create-profile-button = Creează un profil
 
