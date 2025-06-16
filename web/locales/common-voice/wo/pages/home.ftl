@@ -38,6 +38,7 @@ email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàt
 
 ## What's public
 
+username-email-not-demographic = Sa tur jëfandikukat ak sa email duñu ko boole ci jumtukaay yi yuñ siiwal.
 
 ## Landing
 
