@@ -30,6 +30,7 @@ about-is-it-valid-text = Ao clip cha hmâhtuhpa ta Âdo tahpa vaw a pie tita, "�
 about-yes-votes = ≥ 2 Apypa vawzy
 about-yes-votes-text = Common Voice dataset lâta palei awpa ta ao clip sâ kha cha alyu leipa hmâhtuhpa mo pa no tawhta amâ py awpa â byuh.
 about-no-votes = ≥ 2 Apy leipa vawzy
+about-no-votes-text = Hmâhtuhpa mo pakha tawhta ao clip kha â py vei pata nata paziahna lâ a vawh ha heih aw. Abeilâ ta a ei no na ta dythapa a châ khiah, thlâ su lâ paly awpa a châ.
 
 ## Community Playbook Content
 ## What is a language
