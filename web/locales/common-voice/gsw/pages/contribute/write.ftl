@@ -3,6 +3,14 @@
 write = Schriiwe
 write-instruction = Setze <icon></icon> e Sàtz dezü, wo fréi benùtzbàr ìsch
 write-page-subtitle = D’Satz, wo do dezügsetzt waare, waare ze’me Dàtesàtz dezügsetzt, wo ùnter e cc-0 Lizanz steht ùn fréi züganglich ìsch.
+sentence =
+    .label = Sàtz
+sentence-input-placeholder = Gann Éiere Sàtz, wo fréi benùtzbàr ìsch, do in
+small-batch-sentence-input-placeholder = Gann Éieri Satz, wo fréi benùtzbàr sìn, do in
+citation-input-placeholder = Gann d’Qall vùn Éierem Sàtz àn (obligàtorisch)
+citation =
+    .label = Zitàt
+sc-write-submit-confirm = Ìch tüe bstatische, àss der Sàtz <wikipediaLink>fréi benùtzbàr</wikipediaLink> ìsch ùn àss ìch ne hochlàde derf.
 guidelines = Wie m’r’s màche soll
 contact-us = Kontàkt
 add-sentence-success = 1 Sàtz gsàmmelt
