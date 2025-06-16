@@ -46,6 +46,9 @@ read-more-about = Yeneen leeral ci sunu xët wi
 
 ## NAV ITEMS
 
+answer-questions = Tontu laaj yi
+review-transcriptions = Jàngat Tekki yi
+add-questions = Sàmp ab laaj
 about-us = Lu jëm ci nun
 
 ## MENU ITEMS TOOLTIPS
