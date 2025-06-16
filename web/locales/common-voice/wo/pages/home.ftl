@@ -42,6 +42,7 @@ username-email-not-demographic = Sa tur jëfandikukat ak sa email duñu ko boole
 
 ## Landing
 
+read-more-about = Yeneen leeral ci sunu xët wi
 
 ## NAV ITEMS
 
