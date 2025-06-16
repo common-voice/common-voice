@@ -31,6 +31,7 @@ speak-paragraph = Enregistrer ay baat dafa bokk ci defarug sunu jumtukaay yu ubb
 speak-goal-text = Enregistrer nañ baat yi
 sign-up-account = Bindul ngir am kont
 email-subscription-title = Bindul ngir yeesal sa email
+email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàttaliku say mébet ak yeesal sag yokkute
 
 ## Account Benefits
 
