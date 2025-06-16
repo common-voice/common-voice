@@ -41,6 +41,7 @@ speak-goal-text = Enregistrer nañ baat yi
 
 ## NAV ITEMS
 
+about-us = Lu jëm ci nun
 
 ## MENU ITEMS TOOLTIPS
 
@@ -56,9 +57,15 @@ speak-goal-text = Enregistrer nañ baat yi
 
 ## Action items section
 
+answer = Tontu
 
 ## Community section
 
+find-us-on-matrix = Jokko ak nun ci Matrix
+# label for button
+find-us-on-matrix-action = Jokko ak nun ci Matrix
+# label for button
+ask-mozilla-share-action = Yëgleel sa xew-xew
 
 ## Featured section
 
@@ -68,6 +75,7 @@ speak-goal-text = Enregistrer nañ baat yi
 
 ## Get involved section
 
+answer-questions-link = Tontu laaj yi
 
 ## Partner section
 

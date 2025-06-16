@@ -21,3 +21,4 @@ goal-interval-weekly = Ci ayu-bis bi
 
 ## Goals
 
+days = Fan
