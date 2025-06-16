@@ -24,6 +24,8 @@ skip-button = დაჰ̦ დითარ
 submit-button = დაჰ̦ითარ
 contribute = და́ყ ჩუ დაჰ̦არ
 request-new-language = დაკლე́ვადბებათ წი́ნ მოტტ
+# Button text which appears when there are no more resources
+continue-with-skipped = დაჰ̦ დითენჩომაქ დო́ტარ
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = დაკლე́ვადბარეჼ (მოთხო́
 transcribe = ნაწე́რეღ დე́რწდარ (გადმოცე́მადარ)
 check-transcriptions = ნაწე́რეღ დე́რწინო̆  დაყყდარ
 question = შეკითხვ
+validate = დაყყდარ
 
 ## Not Found Page
 

@@ -29,6 +29,9 @@ no-clips-to-validate = Mel na ni baat yi nga man a dégglu ci làkk wii jeex na.
 toggle-play-tooltip = Bësal { shortcut-play-toggle } ngir dem ci mode bii dawal (mode lecture)
 speak-paragraph = Enregistrer ay baat dafa bokk ci defarug sunu jumtukaay yu ubbeeku yi (base de données ouvertes); ñenn ñi dañuy wax sax tamit ni mooy pàcc bi gën a neex.
 speak-goal-text = Enregistrer nañ baat yi
+sign-up-account = Bindul ngir am kont
+email-subscription-title = Bindul ngir yeesal sa email
+email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàttaliku say mébet ak yeesal sag yokkute
 
 ## Account Benefits
 
@@ -41,6 +44,7 @@ speak-goal-text = Enregistrer nañ baat yi
 
 ## NAV ITEMS
 
+about-us = Lu jëm ci nun
 
 ## MENU ITEMS TOOLTIPS
 
@@ -56,9 +60,15 @@ speak-goal-text = Enregistrer nañ baat yi
 
 ## Action items section
 
+answer = Tontu
 
 ## Community section
 
+find-us-on-matrix = Jokko ak nun ci Matrix
+# label for button
+find-us-on-matrix-action = Jokko ak nun ci Matrix
+# label for button
+ask-mozilla-share-action = Yëgleel sa xew-xew
 
 ## Featured section
 
@@ -68,6 +78,12 @@ speak-goal-text = Enregistrer nañ baat yi
 
 ## Get involved section
 
+answer-questions-link = Tontu laaj yi
 
 ## Partner section
 
+partner-section-title = sunuy partaner
+# icon is an arrow that points to the right
+get-in-touch-button = Jokkoo ak nun<icon></icon>
+# Partners section
+our-partners-include = Sunuy partaner ñooy...

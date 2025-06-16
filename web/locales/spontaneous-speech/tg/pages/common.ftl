@@ -24,6 +24,8 @@ skip-button = Нодида гузарондан
 submit-button = Пешниҳод кардан
 contribute = Саҳм гузоштан
 request-new-language = Дархости забони нав
+# Button text which appears when there are no more resources
+continue-with-skipped = Бо «Нодида гузаронидан» идома диҳед
 
 ## Navbar
 
@@ -31,6 +33,7 @@ respond-to-prompt = Ба дархост ҷавоб додан
 transcribe = Табдил додан
 check-transcriptions = Тафтиш кардани овонависӣ
 question = Савол
+validate = Тасдиқ кардан
 
 ## Not Found Page
 

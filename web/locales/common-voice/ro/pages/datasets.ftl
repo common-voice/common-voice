@@ -1,19 +1,25 @@
 ## Datasets Page
 
+datasets-heading = Seturi de date
 datasets-headline = Construim un set de date multilingv, cu sursă deschisă, cu voci pe care oricine le poate utiliza pentru antrenarea aplicațiilor cu comandă vocală.
 datasets-positioning =
-    Considerăm că seturile mari de date vocale disponibile public vor stimula inovația și concurența comercială sănătoasă în tehnologia vocală bazată pe învățarea mașinilor a modului cum vorbesc oamenii.
+    Considerăm că seturile mari de date vocale disponibile public vor stimula inovația și concurența comercială sănătoasă în tehnologia vocală bazată pe învățarea de către calculatoare a modului cum vorbesc oamenii.
     
-    Setul multilingvistic de date Common Voice este deja cel mai mare set de date vocale de acest gen pus la dispoziția publicului, dar nu este singurul.
+    Setul multilingv de date Common Voice este deja cel mai mare set de date vocale de acest gen pus la dispoziția publicului, dar nu este și singurul.
     
     Consideră această pagină ca un centru de referință pentru alte seturi de date vocale cu sursă deschisă și, pe măsură ce Common Voice continuă să crească, ca pe o pagină de start pentru actualizările noastre.
+datasets-speech-bubble-content = Avem vești! Pagina pentru Vorbire spontană este aproape gata! Reveniți pentru noutăți și abonați-vă la canalul nostru <discordLink>Discord</discordLink> pentru cele mai recente informații.
 language = Limbă
+download-dataset-header = Descarcă setul de date
+download-delta-explainer = Am făcut câteva modificări. Segmentele Delta conțin doar cele mai recente secvențe de la ultima lansare. <deltaLink>Citește mai multe</deltaLink>.
+download-dataset-tag = Alege setul de date lingvistice dorit și versiunea pe care vrei să o descarci.
 # File size in gigabytes
 size = Mărime
 validated-hr-total = Total de ore validate
 overall-hr-total = Total de ore per general
 cv-license = Licență
 audio-format = Format audio
+dataset-splits = Diviziuni (după vârstă și sex)
 number-of-voices = Număr de voci
 splits = Diviziuni
 email-to-download = Introdu adresa de e-mail pentru a descărca
@@ -22,6 +28,7 @@ confirm-size = Ești gata să inițiezi o descărcare de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Ești de acord</b> să nu încerci să determini identitatea vorbitorilor din setul de date Common Voice
+confirm-join-mailing-list = Înscrie-te pe lista de corespondență Common Voice
 download-language = Descarcă { $language }
 validated-hours = Ore validate
 recorded-hours = Ore înregistrate
@@ -35,6 +42,8 @@ subscribe = Abonare
 get-started-speech = Familiarizează-te cu recunoașterea vocală
 other-datasets = Alte seturi de date vocale
 feedback-q = Ai sugestii?
+# This indicates that there is no data to display
+no-information = Fără informații
 data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de vorbire, codate la 16Khz, în limba engleză, derivate din cărți audio citite, preluate din proiectul LibriVox.
 data-other-ted-name = Corpusul TED-LIUM
 data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile aferente, disponibile pe site-ul TED.

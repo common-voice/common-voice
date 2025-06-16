@@ -126,12 +126,23 @@ export default class API {
     return this.getLocalePath() + '/clips'
   }
 
-  async fetchRandomSentences(count = 1): Promise<Sentence[]> {
-    return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`)
+  async fetchRandomSentences(
+    count = 1,
+    ignoreClientVariant = false
+  ): Promise<Sentence[]> {
+    return this.fetch(
+      `${this.getLocalePath()}/sentences?count=${count}${
+        ignoreClientVariant ? '&ignoreClientVariant=true' : ''
+      }`
+    )
   }
 
-  async fetchRandomClips(count = 1): Promise<Clip[]> {
-    return this.fetch(`${this.getClipPath()}?count=${count}`)
+  async fetchRandomClips(count = 1, ignoreClientVariant = false): Promise<Clip[]> {
+    return this.fetch(
+      `${this.getClipPath()}?count=${count}${
+        ignoreClientVariant ? '&ignoreClientVariant=true' : ''
+      }`
+    )
   }
 
   uploadClip(

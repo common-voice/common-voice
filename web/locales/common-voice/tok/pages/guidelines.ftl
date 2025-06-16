@@ -48,6 +48,7 @@ adding-sentences-subheader-length-explanation = sitelen la nimi o mute lili, o l
 adding-sentences-subheader-spelling-punctuation = nasin nimi en sitelen pini
 adding-sentences-subheader-spelling-punctuation-explanation = nimi sitelen o pona lon nasin o pakala ala tawa lukin.
 adding-sentences-subheader-speakable = sina o ken toki e sitelen
+adding-sentences-subheader-numbers = nanpa
 adding-sentences-subheader-punctuation = sitelen pini
 adding-sentences-subheader-special-characters = sitelen nasa en sitelen pi toki ante
 adding-sentences-subheader-special-characters-explanation-1 = sitelen nimi o tan toki sitelen. ni li ken ala: sitelen “ж” li lon toki Lusi li lon ala toki Inli la, ona o lon ala sitelen pi toki Inli.
