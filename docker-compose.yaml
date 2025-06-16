@@ -42,7 +42,7 @@ services:
       context: ./bundler
       dockerfile: Dockerfile
     container_name: bundler
-    user: '${UID:-10001}:${GID:-10001}'
+    user: '${UID:-1000}:${GID:-1000}'
     links:
       - db
       - redis
@@ -59,7 +59,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile
     container_name: web
-    user: '${UID:-10001}:${GID:-10001}'
+    user: '${UID:-1000}:${GID:-1000}'
     links:
       - db
       - redis
