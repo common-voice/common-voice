@@ -24,26 +24,28 @@ number-of-voices = Număr de voci
 splits = Diviziuni
 email-to-download = Introdu adresa de e-mail pentru a descărca
 why-email = <b>De ce adresa de e-mail?</b> Este posibil să trebuiască să te contactăm mai târziu cu referire la modificări aduse setului de date. Adresa de e-mail va servi ca punct de contact.
+why-donate-datasets-page = Mozilla Common Voice reprezintă cel mai divers set de date vocale cu sursă deschisă. Datele sunt create de comunitățile de vorbitori ai limbilor, iar noi suntem finanțați în întregime din donații. Găzduirea seturilor de date și îmbunătățirea platformei pentru cele peste 100 de comunități lingvistice care depind de ceea ce facem costă aproape un milion de dolari pe an. Dacă prețuiești datele deschise și incluzive, <b>donează astăzi!</b>
 confirm-size = Ești gata să inițiezi o descărcare de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Ești de acord</b> să nu încerci să determini identitatea vorbitorilor din setul de date Common Voice
+confirm-no-identify = <b>Ești de acord</b> să nu încerci să afli identitatea vorbitorilor din setul de date Common Voice
 confirm-join-mailing-list = Înscrie-te pe lista de corespondență Common Voice
 download-language = Descarcă { $language }
 validated-hours = Ore validate
 recorded-hours = Ore înregistrate
 whats-inside = Ce conține setul de date Common Voice?
 dataset-description-hours =
-    Fiecare intrare din setul de date constă dintr-un MP3 unic și fișierul text corespondent. Multe dintre cele <b>{ $total }</b> de ore înregistrate din setul de date includ și metadate demografice, precum vârstă, sex și accent, care ajută la antrenarea pentru acuratețe a motoarelor de recunoaștere vocală.
+    Fiecare element din setul de date constă dintr-un fișier MP3 unic, căruia îi corespunde și un fișier text. Multe dintre cele <b>{ $total }</b> de ore înregistrate din setul de date includ și metadate demografice, precum vârstă, sex și accent, care ajută la antrenarea pentru acuratețe a motoarelor de recunoaștere vocală.
     
     Setul de date constă în prezent din <b>{ $valid }</b> de ore validate în <b>{ $languages }</b> de limbi, dar adăugăm constant mai multe voci și limbi. Aruncă o privire pe <languagesLink>Pagina de limbi</languagesLink> ca să soliciți o limbă sau ca să începi să contribui și tu.
 want-dataset-update = Vrei să fii informat(ă) când lansăm o nouă versiune a setului de date Common Voice? Abonează-te la buletinul nostru informativ.
-subscribe = Abonare
+subscribe = Abonează-te
 get-started-speech = Familiarizează-te cu recunoașterea vocală
 other-datasets = Alte seturi de date vocale
 feedback-q = Ai sugestii?
 # This indicates that there is no data to display
 no-information = Fără informații
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ este un <docsLink>set de instrumente cu sursă deschisă</docsLink> pentru cercetătorii care dezvoltă modele de inteligență artificială conversațională de ultimă generație.
 data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de vorbire, codate la 16Khz, în limba engleză, derivate din cărți audio citite, preluate din proiectul LibriVox.
 data-other-ted-name = Corpusul TED-LIUM
 data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile aferente, disponibile pe site-ul TED.
