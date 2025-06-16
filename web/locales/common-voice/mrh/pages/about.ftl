@@ -22,6 +22,14 @@ about-subscribe-text = Common Voice nata azaona na hnei khoh ma?
 about-speak = Biereih
 about-speak-text = Deichhytuhzy cha bank sâ kha tawhta ama thyu chiehpa bietlâhzy reina chôta ama aozy ama pangia.
 about-listen-queue = Nahthlie-Paziah
+about-listen-queue-text = Ao clip-zy cha nahthlie thei awpa ta pangiana paziahpa liata so khai hawpa a châ.
+about-listen = Nahthlie
+about-listen-text = Hmâhtuhpazy cha reih papua tuhpazy ta bietlâh kha âdo kawpa ta ama reih ma tahpa ta tahpa pasiana chôta ama thyu chiehpa clip-zy kha amâ py.
+about-is-it-valid = He clip he âdo ma?
+about-is-it-valid-text = Ao clip cha hmâhtuhpa ta Âdo tahpa vaw a pie tita, "âdo" tahpa ta ngiana taopa a châ.
+about-yes-votes = ≥ 2 Apypa vawzy
+about-yes-votes-text = Common Voice dataset lâta palei awpa ta ao clip sâ kha cha alyu leipa hmâhtuhpa mo pa no tawhta amâ py awpa â byuh.
+about-no-votes = ≥ 2 Apy leipa vawzy
 
 ## Community Playbook Content
 ## What is a language
