@@ -12,9 +12,11 @@ awards = Neexal
 you = Yaw
 everyone = Ñépp
 top-contributors = Jàppalekat yi gën a mag
+recorded-clips = Clips yiñ rënk
 
 ## Custom Goals
 
+easy-difficulty = Yomb na
 goal-interval-weekly = Ci ayu-bis bi
 
 ## Goals
