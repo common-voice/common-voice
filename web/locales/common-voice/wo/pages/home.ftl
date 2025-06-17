@@ -29,8 +29,11 @@ no-clips-to-validate = Mel na ni baat yi nga man a dégglu ci làkk wii jeex na.
 toggle-play-tooltip = Bësal { shortcut-play-toggle } ngir dem ci mode bii dawal (mode lecture)
 speak-paragraph = Enregistrer ay baat dafa bokk ci defarug sunu jumtukaay yu ubbeeku yi (base de données ouvertes); ñenn ñi dañuy wax sax tamit ni mooy pàcc bi gën a neex.
 speak-goal-text = Enregistrer nañ baat yi
+listen-paragraph = Saytu kàddu yiñ joxe lu am solo la ci Common Voice. Déglul te jàppale nu ngir nu defar ay jumtukaay yu am baat yu ubbeeku.
+listen-goal-text = Kàddu yiñu saytu
 hours-recorded = Waxtu yiñ rënk
 hours-validated = Waxtu yiñ saytu
+voices-online = Kàddu yi ci net bi
 todays-progress = Yokkte biss bi
 help-reach-goal = Jàppale ngir ñu matal { $goal }
 read-terms-q = Ndax jàng nga sunuy sàrt?
@@ -48,13 +51,17 @@ email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàt
 
 ## Account Benefits
 
+benefits = Ay ngëneel
 
 ## What's public
 
+whats-public = Yan nitt ?
+email-not-public = Dunu siiwal sa imeel.
 username-email-not-demographic = Sa tur jëfandikukat ak sa email duñu ko boole ci jumtukaay yi yuñ siiwal.
 
 ## Landing
 
+login-company = Duggal / Bindul ak sa { $company } imeel
 read-more-about = Yeneen leeral ci sunu xët wi
 
 ## NAV ITEMS
