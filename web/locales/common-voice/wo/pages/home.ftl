@@ -70,6 +70,9 @@ answer-questions = Tontu laaj yi
 review-transcriptions = Jàngat Tekki yi
 add-questions = Sàmp ab laaj
 review-questions = Jàngat ay laaj
+transcribe-audio = Transkripson kàddu yi
+press-and-stories = Press ak jaar-jaar
+community-and-languages = Askan wi ak làkk yi
 about-us = Lu jëm ci nun
 
 ## MENU ITEMS TOOLTIPS
