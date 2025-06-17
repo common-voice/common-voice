@@ -92,10 +92,13 @@ ask-mozilla-share-action = Yëgleel sa xew-xew
 ## Get involved section
 
 answer-questions-link = Tontu laaj yi
+press-and-stories-link = Press ak jaar-jaar
 
 ## Partner section
 
 partner-section-title = sunuy partaner
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> - jàppale nu ngir nu defar ay jumtukaay yu yees yi ngir yokkuteg sunuy askan
 # icon is an arrow that points to the right
 get-in-touch-button = Jokkoo ak nun<icon></icon>
 # Partners section
