@@ -85,13 +85,24 @@ ask-mozilla-share-action = Yëgleel sa xew-xew
 
 ## Featured section
 
+featured-section-title = Fësal ci...
 
 ## Developers section
 
+developers-section-subtitle = Ay jumtukaay ngir ASR, STT, TTS, ak yeneen mbir yu jëm ci NLP - ñu defaree ko ak askan wi.
+# icon is an arrow that points to the right
+explore-datasets = Saay jumtukaay yi<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Ay jumtukaay yu ubbeeku, yu askan wi jiite
+read-sentences-link = Dawal waat yi
+validate-readings-link = Saytu jàng mi
+contribute-link = Bokk ci bind mi
 answer-questions-link = Tontu laaj yi
+transcribe-answers-link = Jàngat tontu yi
+review-transcriptions-link = Jàngat Tekki yi
+contribute-text-link = Jàpp ci mbind mi
 press-and-stories-link = Press ak jaar-jaar
 
 ## Partner section
