@@ -29,6 +29,13 @@ no-clips-to-validate = Mel na ni baat yi nga man a dégglu ci làkk wii jeex na.
 toggle-play-tooltip = Bësal { shortcut-play-toggle } ngir dem ci mode bii dawal (mode lecture)
 speak-paragraph = Enregistrer ay baat dafa bokk ci defarug sunu jumtukaay yu ubbeeku yi (base de données ouvertes); ñenn ñi dañuy wax sax tamit ni mooy pàcc bi gën a neex.
 speak-goal-text = Enregistrer nañ baat yi
+all-locales = Yépp
+today = Tay
+x-weeks-short =
+    ayubès
+    { $count } ayubès
+x-months-short = { $count }mo
+x-years-short = { $count }y
 sign-up-account = Bindul ngir am kont
 email-subscription-title = Bindul ngir yeesal sa email
 email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàttaliku say mébet ak yeesal sag yokkute
