@@ -31,6 +31,7 @@ respond-to-prompt = Répondre à la question
 transcribe = Transcrire
 check-transcriptions = Vérifier les transcriptions
 question = Question
+validate = Valider
 
 ## Not Found Page
 

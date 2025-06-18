@@ -78,6 +78,7 @@ read-more-about = Күбрәк мәгълүмат «Хакында» сәхиф�
 ## NAV ITEMS
 
 coming-soon = Тиздән
+about-us = Безнең турында
 
 ## MENU ITEMS TOOLTIPS
 

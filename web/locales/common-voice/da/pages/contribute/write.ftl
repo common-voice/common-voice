@@ -12,23 +12,34 @@ new-sentence-rule-3 = Brug korrekt grammatik
 new-sentence-rule-4 = Brug korrekt stavning og tegnsætning
 new-sentence-rule-5 = Ingen tal og specialtegn
 new-sentence-rule-6 = Ingen udenlandske bogstaver
+new-sentence-rule-7 = Inkluder kildehenvisning
 login-instruction-multiple-sentences = <loginLink>Log ind</loginLink> eller <loginLink>tilmeld dig</loginLink> for at tilføje flere sætninger
-how-to-cite = Hvordan citerer jeg?
 guidelines = Retningslinjer
 contact-us = Kontakt os
 add-sentence-success = 1 sætning indsamlet
 add-sentence-error = Fejl ved tilføjelse af sætning
 required-field = Udfyld venligst dette felt.
+single-sentence-submission = Indsendelse af en enkelt sætning
 single-sentence = Enkelt sætning
 sentence-domain-select-placeholder = Vælg op til tre domæner (valgfrit)
 # Sentence Domain dropdown option
+agriculture_food = Landbrug og fødevarer
+# Sentence Domain dropdown option
+automotive_transport = Transport og køretøjer
+# Sentence Domain dropdown option
 finance = Finans
+# Sentence Domain dropdown option
+service_retail = Service og detailhandel
 # Sentence Domain dropdown option
 general = Generelt
 # Sentence Domain dropdown option
 healthcare = Sundhed
 # Sentence Domain dropdown option
+media_entertainment = Medier og underholdning
+# Sentence Domain dropdown option
 nature_environment = Natur og miljø
+# Sentence Domain dropdown option
+news_current_affairs = Nyheder og aktuelt
 sentence-variant-select-label = Sætningsvariant
 sentence-variant-select-placeholder = Vælg en variant (valgfrit)
 sentence-variant-select-multiple-variants = Generelt sprog / flere varianter
@@ -45,6 +56,7 @@ try-upload-again-md = Prøv at uploade igen
 select-file = Vælg fil
 select-file-mobile = Vælg fil, der skal uploades
 accepted-files = Accepterede filtyper: Kun .tsv
+minimum-sentences = Mindste antal sætninger i filen: 1000
 maximum-file-size = Maksimal filstørrelse: 25 MB
 what-needs-to-be-in-file = Hvad skal der være i min fil?
 upload-progress-text = Upload i gang...

@@ -149,3 +149,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Læs mere om, 
 ## How is Common Voice funded
 
 about-playbook-how-funded = Hvordan er Common Voice finansieret?
+about-playbook-how-funded-content-2 = Det koster mange penge at opbevare og udgive datasættene, forbedre platformen og køre <africaMradiLink>fællesskabsprogrammer</africaMradiLink>.
+about-playbook-how-funded-content-3 = Hvis du eller din organisation gerne vil bidrage til projektet, kan du give en <donateLink>donation</donateLink> eller kontakte vores partnerskabsteam på <emailFragment>commonvoice@mozilla.com</emailFragment>.

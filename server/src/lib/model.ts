@@ -54,11 +54,12 @@ export default class Model {
   async findEligibleClips(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    ignoreClientVariant: boolean,
   ): Promise<DBClip[]> {
     const localeId = await getLocaleId(locale)
 
-    const clientPrefersVariant = await pipe(
+    const clientPrefersVariant = !ignoreClientVariant && await pipe(
       client_id,
       fetchUserClientVariants,
       TE.map(ucvs => isVariantPreferredOption(localeId)(ucvs)),

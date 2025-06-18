@@ -353,14 +353,14 @@ export default class Clip {
   serveRandomClips = async (request: Request, response: Response) => {
     const { client_id } = request?.session?.user || {}
     const { locale } = request.params
-
+    
     if (!client_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-
+    const ignoreClientVariant = Boolean(request.query.ignoreClientVariant) || false
     const count = Number(request.query.count) || 1
     const clips = await this.bucket
-      .getRandomClips(client_id, locale, count)
+      .getRandomClips(client_id, locale, count, ignoreClientVariant)
       .then(this.appendMetadata)
 
     response.json(clips)
