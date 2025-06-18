@@ -90,18 +90,21 @@ read-more-about = Przeczytaj więcej na stronie informacji o nas
 
 ## Hero section
 
+hero-title = Technologia, która mówi Twoim językiem
 
 ## Action items section
 
 
 ## Community section
 
+community-section-title = Wspierany przez globalne społeczności, dla globalnych społeczności — 130 języków i wciąż rośniemy!
 
 ## Featured section
 
 
 ## Developers section
 
+developers-section-title = Publicznie dostępne otwarte zbiory danych w ponad 130 językach
 
 ## Get involved section
 
