@@ -199,7 +199,7 @@ export default class Clip {
       },
       headers,
     } = request
-    const sentenceId = headers.sentence_id as string
+    const sentenceId = headers['sentence-id'] as string
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
