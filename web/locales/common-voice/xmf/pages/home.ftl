@@ -119,9 +119,20 @@ download-press-pack = გაგმოხარგეთ ჩქინი პრ�
 
 ## Developers section
 
+developers-section-title = ოჯარეთ ხემიოჭირინაფალი გონჯამილი ჩიებაში მუნაჩემეფიში კათელი 130+ ნინაშა
+# icon is an arrow that points to the right
+explore-datasets = ქოძირით კათელეფი <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = წეკითხით ზიტყვასქვილეფი
+validate-readings-link = ქიგნაჯინით ნაკითხირას
+contribute-link = აკაფშით ტექსტური კორპუსი
+answer-questions-link = ქუგამით ოკითხირეეფს
+transcribe-answers-link = გამეფიშ ნაჭარათ გინორთინაფა
+review-transcriptions-link = ქიგნაჯინით ნაჭარათ მოჩამილს
+contribute-text-link = გემშიჸონით ტექსტი
+press-and-stories-link = პრესა დო ამბეფი
 
 ## Partner section
 
