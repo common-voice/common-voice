@@ -6,3 +6,4 @@ banner-error-slow-link = Stiti'che Pan
 error-something-went-wrong = Maaff kor, kite tori chukle
 error-clip-upload = Hem clip sarke upload zaina, try korit ravya?
 error-clip-upload-server = Hem clip upload zaina. Problem server'acher asa. Page reload kor na zalyar magir kenna try kor.
+error-title-404 = Tu je pan sodta te amkam mellunk na
