@@ -92,9 +92,14 @@ about-us-menu-aria-label = პარამეტრეფიშ მენიუ�
 hero-title = თქვანი ნინათ მაჩიებე ტექნოლოგია
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold> მუშენი ოკო იმუშუას ხელუანური ინტელექტიქ მსოფლიოში ხვალე ანდა ნინაშა? </bold>
+# icon is an arrow that points downwards
+get-started = ქიდიჭყით <icon><icon>
 
 ## Action items section
 
+scripted-card-header = ნაჭარაში გახონარება
+scripted-card-content = წეკითხით ზიტყვასქვილეფი თქვან ნინაშა ხონარმაღალო დო გემშეღით წილი მსოფლიოს არძაშ უმოსი მრავალფეროვანი საზოგადოებაში მუშობათ აკოქიმინელი მუნაჩემეფიში კათელიშა.
+spontaneous-card-header = სპონტანური ჩიება
 add-text = ტექსტეფიშ გეძინა
 
 ## Community section
@@ -103,9 +108,14 @@ add-text = ტექსტეფიშ გეძინა
 join-discord-community-action = მოზოჯით Discord-შა
 # label for button
 find-us-on-matrix-action = ქობძირით Matrix-ის
+# label for button
+contribute-github-action = გემშეღით თქვანი წილი GitHub-შა
 
 ## Featured section
 
+featured-section-title = წუმორინაფილი რე...
+# icon is an arrow that points downwards
+download-press-pack = გაგმოხარგეთ ჩქინი პრეს-პაკეტი <icon></icon>
 
 ## Developers section
 
