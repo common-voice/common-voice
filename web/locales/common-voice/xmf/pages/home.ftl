@@ -78,15 +78,20 @@ spontaneous-speech = სპონტანური ჩიება
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ალმახანდეობა, პრესა დო სიახალეეფი, საზოგადოებეფი დო ნინეფი
+about-us-menu-item-aria-label = ჩქინ გურშენი პარამეტრეფიშ მენიუ
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = პარამეტრეფიშ მენიუში გურშენი
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = თქვანი ნინათ მაჩიებე ტექნოლოგია
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> მუშენი ოკო იმუშუას ხელუანური ინტელექტიქ მსოფლიოში ხვალე ანდა ნინაშა? </bold>
 
 ## Action items section
 
