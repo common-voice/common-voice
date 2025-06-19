@@ -22,14 +22,19 @@ import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
 } from '../../application/repository/variant-repository'
+
 const MINUTE = 1000 * 60
 const HOUR = MINUTE * 60
 const DAY = HOUR * 24
-const THREE_WEEKS = DAY * 3 * 7
+const WEEK = DAY * 7
+const THREE_WEEKS = WEEK * 3
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500
+
+// We select this much extra because some might be removed later
+const EXTRA_COUNT = 5
 
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
@@ -314,7 +319,7 @@ export default class DB {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
         locale_id,
-        count + 5, // 5 might be removed later
+        count + EXTRA_COUNT,
         prioritySegments
       )
     }
@@ -325,7 +330,7 @@ export default class DB {
         : await this.findSentencesWithFewClips(
             client_id,
             locale_id,
-            count + 5 - taxonomySentences.length, // 5 might be removed later
+            count + EXTRA_COUNT - taxonomySentences.length,
             exemptFromSSRL
           )
 
