@@ -118,6 +118,8 @@ about-playbook-how-validate-content-4 = ინნაჭარას 2 კოჩ�
 ## How to access dataset
 
 about-playbook-how-access-dataset = მუჭო გიმიბრინუა მუნაჩემეფიშ კათელი?
+about-playbook-how-access-dataset-content-1 = შეილებუნა, გეგნორთათ <datasetsPage> მუნაჩემეფიშ კათელიში ხასჷლაშა </datasetsPage>, გაგშაგორათ ვერსია, ქიმუწურუათ კორინებული ნინა (ნინეფი) დო გეგმოხარგუათჷნი! ხონარუან ფაილეფს <metadataLink> უღუ მეტამონაცემეფი </metadataLink>, სოდეთ რე მოჩამილი დემოგრაფიული ინფორმაცია დო გინოჯინელი მონაცემეფი. კათელიში გიმახარგალო დეგესაჭირებუნა ელფოსტაში მიშაჸონაფა.
+about-playbook-how-access-dataset-content-2 = ქოგორჷნთ ხეჭკუდეფს ხომაში ეშაჩინებელი ASR მოდელიში აკანწყუალო-და, შეილებუნა ჩქინი ართობაში შხვა მაკათურებს დეკავშირათჷნი <discourseLink> Discourse-ს </discourseLink>.
 
 ## How are decisions made
 
