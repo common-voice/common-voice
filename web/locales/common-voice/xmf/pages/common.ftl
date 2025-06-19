@@ -114,6 +114,7 @@ contact = კონტაქტი
 terms = პირობეფი
 cookies = ქუქი-ფაილეფი
 documentation = დოკუმენტაცია
+content-license-text = მასალა ხემიოჭირინაფალი რე <licenseLink> Creative Commons ლიცენზიით </licenseLink>
 logout = გუშულა
 donate = შემენწით
 return-to-cv = დართით Common Voice-ის
