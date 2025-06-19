@@ -115,6 +115,7 @@ terms = პირობეფი
 cookies = ქუქი-ფაილეფი
 documentation = დოკუმენტაცია
 content-license-text = მასალა ხემიოჭირინაფალი რე <licenseLink> Creative Commons ლიცენზიით </licenseLink>
+share-title = ქაკათით ჩქინ საზოგადოებას
 logout = გუშულა
 donate = შემენწით
 return-to-cv = დართით Common Voice-ის
