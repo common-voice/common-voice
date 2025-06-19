@@ -142,7 +142,6 @@ export function getConfig(): CommonVoiceConfig {
       return injectedConfig
     }
 
-    console.log('Loading config: reading BASE_CONFIG ...')
     return BASE_CONFIG
   } catch (err) {
     console.error(
