@@ -74,6 +74,13 @@ reviewing-sentences-explanation-4 = ომოწმებელ ზიტყვ�
 
 ## Question collection ids
 
+adding-questions = ოკითხირეეფიშ გეძინა
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = მუჭომი ოკო რდას ჯგირი ოკითხირე?
+what-makes-a-good-question-explanation = ჯგირი ოკითხირე ოჯარე კათელიშო ოკო რდას:
+what-makes-a-good-question-explanation-criteria-1 = ანდვილო გაგებელი დო ოგამალი
+spelling-and-pronunciation = წორას ჭარუა დო სასვენ ლიშანეფი
+spelling-and-pronunciation-explanation = გიმირინეთ თინჭარუა დო გრამატიკა.
+length = სიგინძა
