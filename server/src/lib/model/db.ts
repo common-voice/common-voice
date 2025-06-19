@@ -11,7 +11,10 @@ import {
   Language,
   Datasets,
 } from 'common'
-import lazyCache from '../lazy-cache'
+import lazyCache, {
+  redisSetAddWithExpiry,
+  redisSetMembers,
+} from '../lazy-cache'
 import { option as O, task as T, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { DatasetStatistics } from '../../core/datasets/types/dataset'
@@ -20,13 +23,13 @@ import {
   findVariantsBySentenceIdsInDb,
 } from '../../application/repository/variant-repository'
 const MINUTE = 1000 * 60
-const DAY = MINUTE * 60 * 24
+const HOUR = MINUTE * 60
+const DAY = HOUR * 24
+const THREE_WEEKS = DAY * 3 * 7
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500
-
-const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000
 
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
@@ -44,6 +47,10 @@ const participantConditions = {
                 OR (visible = 1)
                 OR (visible = 2 AND teams.id = ${teammate_subquery})
               )`,
+}
+
+const redisKeyPerUserSentenceIdSet = (client_id: string) => {
+  return `recorded-sentences-by-${client_id}`
 }
 
 export const getParticipantSubquery = (
@@ -307,7 +314,7 @@ export default class DB {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
         locale_id,
-        count,
+        count + 5, // 5 might be removed later
         prioritySegments
       )
     }
@@ -318,11 +325,17 @@ export default class DB {
         : await this.findSentencesWithFewClips(
             client_id,
             locale_id,
-            count - taxonomySentences.length,
+            count + 5 - taxonomySentences.length, // 5 might be removed later
             exemptFromSSRL
           )
 
-    const totalSentences = taxonomySentences.concat(regularSentences)
+    // exclude recently recorded sentences by the user (from Redis cache) to overcome race conditions
+    const redisSet = await redisSetMembers(
+      redisKeyPerUserSentenceIdSet(client_id)
+    )
+    const totalSentences = (taxonomySentences.concat(regularSentences) || [])
+      .filter((s: Sentence) => !redisSet.includes(s.id))
+      .slice(0, count)
 
     return this.appendMetadataToSentence(totalSentences)
   }
@@ -779,6 +792,13 @@ export default class DB {
     sentence: string
     duration: number
   }): Promise<void> {
+    // save in Redis regardless of mysql results - they can come back 1 hour later in case of failure
+    await redisSetAddWithExpiry(
+      redisKeyPerUserSentenceIdSet(client_id),
+      original_sentence_id,
+      HOUR
+    )
+    // Do the insert/updates
     try {
       const [{ insertId }] = await this.mysql.query(
         `
