@@ -84,3 +84,7 @@ what-makes-a-good-question-explanation-criteria-1 = ანდვილო გა
 spelling-and-pronunciation = წორას ჭარუა დო სასვენ ლიშანეფი
 spelling-and-pronunciation-explanation = გიმირინეთ თინჭარუა დო გრამატიკა.
 length = სიგინძა
+dont-add-subheader = ვეგუძინა
+process-steps = პროცესი / ბიჯგეფი
+example-questions-subheader = ოკითხირეეფიშ ნიმუშეფი
+example-questions-explanation-1 = მაგალითიშოთ ქოძირით <examplePromptsLink>120 ნიმუში მოჩამილ ცნობარს. </examplePromptsLink>
