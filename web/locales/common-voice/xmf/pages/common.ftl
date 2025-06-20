@@ -131,10 +131,13 @@ email-input =
 loading = გინმიჭარუ…
 email-opt-in-info-title = ქაკათით Common Voice-იშ ელფოსტაში ბუნას
 indicates-required = (*) შანულენს აუცილებელ ველს
+not-available-abbreviation = ხემიოჭირინაფალი ვარე
 
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark> ჩქი მოსაჭირუნა</mark><br/><mark> თქვანი მოხვარა!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> CV-ის გიმმირინუანთო </mark><br/><mark> თქვანი კვლევეფიშოთ? </mark>
 localization-select =
     .label = გეიშაგორით ნინა/არდგილი
