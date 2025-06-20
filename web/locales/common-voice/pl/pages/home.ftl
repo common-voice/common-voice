@@ -78,6 +78,7 @@ read-more-about = Przeczytaj więcej na stronie informacji o nas
 
 ## NAV ITEMS
 
+about-us = O nas
 
 ## MENU ITEMS TOOLTIPS
 
