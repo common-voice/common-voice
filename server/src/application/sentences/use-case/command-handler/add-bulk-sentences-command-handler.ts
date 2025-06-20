@@ -12,6 +12,7 @@ import { SentenceSubmission } from '../../../types/sentence-submission'
 import { FetchVariants } from '../../../repository/variant-repository'
 import * as S from 'fp-ts/lib/string'
 import * as A from 'fp-ts/lib/Array'
+import { cleanText } from '../../../text-cleaner'
 
 export const AddBulkSentencesCommandHandler =
   (readTsvIntoMemory: ReadTsvIntoMemory) =>
@@ -55,8 +56,8 @@ export const AddBulkSentencesCommandHandler =
           sentences.map(submission => {
             console.log(submission)
             let sub: SentenceSubmission = {
-              sentence: submission['sentence'].trim().replace(/\s/gi, ' '),
-              source: submission['source'].trim(),
+              sentence: cleanText(submission['sentence']),
+              source: cleanText(submission['source']),
               locale_id: cmd.localeId,
               client_id: clientId,
               domain_ids: O.none,
