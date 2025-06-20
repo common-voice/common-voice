@@ -79,6 +79,7 @@ spontaneous-speech = სპონტანური ჩიება
 
 about-menu-tooltip = ალმახანდეობა, პრესა დო სიახალეეფი, საზოგადოებეფი დო ნინეფი
 about-us-menu-item-aria-label = ჩქინ გურშენი პარამეტრეფიშ მენიუ
+community-and-languages-menu-item-tooltip = ქიდეკავშირით ჩქინი ართობას დო ქოძირით ხუჯმეჩამილი ნინეფი
 
 ## MENU ITEM ARIA LABELS
 
@@ -100,14 +101,20 @@ get-started = ქიდიჭყით <icon><icon>
 scripted-card-header = ნაჭარაში გახონარება
 scripted-card-content = წეკითხით ზიტყვასქვილეფი თქვან ნინაშა ხონარმაღალო დო გემშეღით წილი მსოფლიოს არძაშ უმოსი მრავალფეროვანი საზოგადოებაში მუშობათ აკოქიმინელი მუნაჩემეფიში კათელიშა.
 spontaneous-card-header = სპონტანური ჩიება
+language-text-card-header = ტექსტიში ნინა
 add-text = ტექსტეფიშ გეძინა
+answer = გამა
 
 ## Community section
 
+join-discord-community = ქაკათით Discord-ართობას
 # label for button
 join-discord-community-action = მოზოჯით Discord-შა
+find-us-on-matrix = დობგორით Matrix-ის
 # label for button
 find-us-on-matrix-action = ქობძირით Matrix-ის
+ask-mozilla-share = ქოთხით Mozilla-ს თქვანი ღონისძიება შხვას გურთასჷნი
+ask-mozilla-share-content = გიღუდესო ვარდა გეგმუნთო მუთუნი ღონისძიებას? გომირთით დო ჩქი გუვოჩინებაფუანთ საზოგადოებას დო გაგმუაქიანენთ სვეტის!
 # label for button
 contribute-github-action = გემშეღით თქვანი წილი GitHub-შა
 
