@@ -116,6 +116,7 @@ contact = კონტაქტი
 privacy = კონფიდენციალურობა
 terms = პირობეფი
 cookies = ქუქი-ფაილეფი
+faq = შ.დ.ო.
 documentation = დოკუმენტაცია
 content-license-text = მასალა ხემიოჭირინაფალი რე <licenseLink> Creative Commons ლიცენზიით </licenseLink>
 share-title = ქაკათით ჩქინ საზოგადოებას

@@ -57,6 +57,7 @@ public-domain-explanation-1 = მნიშვნელოვან რე არ
 citing-sentences-subheader-websites = ვებგვერდები
 citing-sentences-subheader-websites-explanation = შეილებუნა ქიმუწურუათ ვებსაიტი, მაგალთო "Common Voice - https://commonvoice.mozilla.org/''
 citing-sentences-subheader-academic-reference = აკადემიური წყუ
+citing-sentences-subheader-offline-sources = ვებსივრცეში იქილე
 citation =
     .label = წყუ
 self-citation = მუშ ნამუშერი
