@@ -151,6 +151,7 @@ ask-mozilla-share-content = ¿Rerekópa peteĩ evento ymaguare térã oútava? �
 # label for button
 ask-mozilla-share-action = Emoherakuã ne rembiapo
 download-contribution-certificate = Emboguejy nde kuatia ñepytyvõ rechaukaha
+download-contribution-certificate-content = Emboguejy peteĩ kuatia’atã ne evento-kuéra térã ndejupe g̃uarã eipytyvõramo Common Voice-pe. ¡Kóva ndaikatumoʼãikuri nde reheʼỹ!
 # label for button
 download-contribution-certificate-action = Erekóke mboajepyre
 contribute-github = Eipytyvõ GitHub-pe
@@ -166,6 +167,7 @@ download-press-pack = Emboguejy ore dossier de prensa <icon></icon>
 ## Developers section
 
 developers-section-title = Ñe’ẽkuaa ijurujáva opavavépe g̃uarã mba’ekuaarã aty hetave 130 ñe’ẽmegui
+developers-section-subtitle = Mba’ekuaarã aty ASR-pe g̃uarã, STT, TTS ha ambue PNL jeregua, oñemoheñóiva tekoha ñepytyvõ rupi.
 # icon is an arrow that points to the right
 explore-datasets = Eheka mba’ekuaarã atýpe <icon></icon>
 
