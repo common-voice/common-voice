@@ -116,6 +116,9 @@ find-us-on-matrix-action = ქობძირით Matrix-ის
 ask-mozilla-share = ქოთხით Mozilla-ს თქვანი ღონისძიება შხვას გურთასჷნი
 ask-mozilla-share-content = გიღუდესო ვარდა გეგმუნთო მუთუნი ღონისძიებას? გომირთით დო ჩქი გუვოჩინებაფუანთ საზოგადოებას დო გაგმუაქიანენთ სვეტის!
 # label for button
+download-contribution-certificate-action = გეჭოფით თქვანი სერტიფიკატი
+contribute-github = გემშეღით თქვანი წილი GitHub-შა
+# label for button
 contribute-github-action = გემშეღით თქვანი წილი GitHub-შა
 
 ## Featured section
