@@ -60,7 +60,7 @@ report-other-comment =
     .placeholder = Cummentu
 success = Fattu
 continue = Cuntinua
-report-success = A signalijazzioni fu mmiata.
+report-success = Mmiasti na signalijazzioni.
 
 ## Speak & Listen Shortcuts
 
