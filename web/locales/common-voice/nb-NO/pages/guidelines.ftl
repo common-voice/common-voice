@@ -3,6 +3,7 @@ guidelines-header = Retningslinjer for bidrag
 guidelines-header-subtitle = Forstå hvordan du kan bidra med å validere setninger og lydklipp til Common Voice-datasettet
 voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
+question-collection = Spørsmålssamling
 
 ## Voice Collection nav ids
 
@@ -83,7 +84,7 @@ self-citation = Selvsitering
 self-citation-explanation = Slik oppgir du deg selv som kilde hvis du har skrevet innholdet selv.
 adding-sentences-subheader-length = Lengde
 adding-sentences-subheader-length-explanation = Setningen bør ha færre enn 15 ord.
-adding-sentences-subheader-spelling-punctuation = Stavemåte og Tegnsetting
+adding-sentences-subheader-spelling-punctuation = Stavemåte og tegnsetting
 adding-sentences-subheader-spelling-punctuation-explanation = Setningen må ha korrekt stavemåte
 adding-sentences-subheader-speakable = Lettlest
 adding-sentences-subheader-speakable-explanation = De beste setningene er naturlige og konverserende - det bør være enkelt å lese dem. Fonetisk mangfold og forskjellige ord i setninger er viktig, men vi prøver også å gjøre innspilling av setninger så engasjerende og morsomt  som mulig for vårt frivillige fellesskap.
@@ -106,6 +107,24 @@ domain-explanation = Domene refererer til emnet for setningen. For øyeblikket k
 
 ## Question collection ids
 
+adding-questions = Legge til spørsmål
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Hvordan ser et godt spørsmål ut?
+what-makes-a-good-question-explanation = Et  godt spørsmål for datasett for offentlig deltakelse bør:
+what-makes-a-good-question-explanation-criteria-1 = Vær lett å forstå og svare på
+what-makes-a-good-question-explanation-criteria-2 = Vær generelt relevant
+what-makes-a-good-question-explanation-criteria-3 = Ikke bruk eller oppfordre til skadelig eller støtende språk
+what-makes-a-good-question-tip = Du bør kanskje også vurdere å strekke deg over forskjellige kontekster og domener.
+easy-to-understand = Lett å forstå
+easy-to-understand-explanation = Velg enkle spørsmål som er lette for alle å forstå, uavhengig av kultur eller kontekst.
+spelling-and-pronunciation = Stavemåte og tegnsetting
+spelling-and-pronunciation-explanation = Bruk riktig stavemåte og grammatikk.
+length = Lengde
+length-explanation = Spørsmålet bør kunne besvares på bare et par setninger.
+dont-add-subheader = Ikke legg til
+culturally-specific-questions = Kulturspesifikke spørsmål
+culturally-specific-questions-explanation = Spørsmål som er svært kulturspesifikke, eller som gjør mange antagelser om den som svarer
+length-avoid-explanation = Spørsmål som noen ville hatt problemer med å svare på på 15 sekunder (maksimal klippelengde)
+process-steps = Prosess / trinn
