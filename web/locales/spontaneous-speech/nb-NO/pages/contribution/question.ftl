@@ -11,6 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = Opplasting mislyktes. Prøv på nytt.
 add-question-too-many-questions-error = Overskredet 25 spørsmål. Reduser antall spørsmål og prøv på nytt.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } av 1 spørsmål samlet inn. Se <guidelinesLink>retningslinje</guidelinesLink>-sidene våre for å lære mer om hvordan du legger til spørsmål
+       *[other] { $uploadedQuestions } av { $totalQuestions } spørsmål samlet inn. Se <guidelinesLink>retningslinje</guidelinesLink>-sidene våre for å lære mer om hvordan du legger til spørsmål
+    }
 # Guidelines
 add-question-guidelines-title = Hvilke spørsmål kan jeg legge til?
 do-section-title = å gjøre
