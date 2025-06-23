@@ -151,6 +151,24 @@ export const questionGuidelineSections: GuidelinesSection[] = [
     ),
     visible: true,
   },
+  {
+    id: CODE_SWITCHING,
+    component: React.lazy(() =>
+      import('./sidebar-content/question-collection/code-switching').then(
+        module => ({ default: module.CodeSwitching })
+      )
+    ),
+    visible: true,
+  },
+  {
+    id: REPORTING_CONTENT,
+    component: React.lazy(() =>
+      import('./sidebar-content/question-collection/reporting-content').then(
+        module => ({ default: module.ReportingContent })
+      )
+    ),
+    visible: true,
+  },
 ]
 
 export const VOICE_COLLECTION_ITEMS = [

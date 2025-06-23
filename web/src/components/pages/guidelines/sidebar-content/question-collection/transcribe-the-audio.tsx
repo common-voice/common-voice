@@ -187,10 +187,6 @@ export const TranscribeAudio = ({
               <li />
             </Localized>
           </ul>
-
-          <Localized id="transcribe-the-audio-offensive-content">
-            <p className="guidelines-content-explanation" />
-          </Localized>
         </div>
       )}
     </div>

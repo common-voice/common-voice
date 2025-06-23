@@ -8,7 +8,7 @@ import Page from '../../ui/page'
 import PageHeading from '../../ui/page-heading'
 import VoiceSidebarContent from './sidebar-content/voice-sidebar-content'
 import SentenceSidebarContent from './sidebar-content/sentence-sidebar-content'
-import { QuestionSidebarContent } from './sidebar-content/question-sidebar-content'
+import { SpontaneousSpeechContent } from './sidebar-content/spontaneous-speech-content'
 import RoundButton from '../../ui/round-button'
 import { DiscourseIconCode, MailIcon } from '../../ui/icons'
 import VisuallyHidden from '../../visually-hidden/visually-hidden'
@@ -176,6 +176,18 @@ const Guidelines = () => {
           </TabPanel>
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
+              <div>
+                <Localized id="question-collection">
+                  <button
+                    className={classNames({
+                      'active-tab-option':
+                        selectedTabOption === 'voice-collection',
+                    })}
+                    onClick={() => setSelectedTabOption('voice-collection')}
+                  />
+                </Localized>
+                <ChevronDown />
+              </div>
               <ul>
                 {(
                   Object.keys(SENTENCE_NAV_IDS) as Array<
@@ -204,30 +216,9 @@ const Guidelines = () => {
               </ul>
             </nav>
             <div className="sections">
-              <QuestionSidebarContent />
+              <SpontaneousSpeechContent />
             </div>
           </TabPanel>
-          {/* <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
-            <nav>
-              <ul>
-                <li>
-                  <div className="line" />
-                  <Link
-                    to={{
-                      pathname: location.pathname,
-                      hash: '#adding-questions',
-                      search: `?tab=question`,
-                    }}
-                    className="selected-option">
-                    <Localized id="adding-questions" />
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-            <div className="sections">
-              <QuestionSidebarContent />
-            </div>
-          </TabPanel> */}
         </Tabs>
       </section>
       <section className="contact-section">

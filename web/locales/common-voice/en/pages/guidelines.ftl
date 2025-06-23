@@ -195,7 +195,6 @@ transcribe-the-audio-subheader-4-explanation-2 = Sometimes speakers will repeat 
 transcribe-the-audio-subheader-4-explanation-2-example = And then I went to <underline>the the the bed- the</underline> bedroom
 transcribe-the-audio-subheader-5-explanation-1 = Spontaneous Speech will naturally contain grammatical mistakes. These should not be corrected when transcribing. The transcription should reflect the spoken content exactly.
 transcribe-the-audio-subheader-5-explanation-2 = Speakers may use colloquialisms (such as, in English, “gonna”, “cuz”, etc.) which may not be considered formally correct. These should be transcribed as they are, and not changed to their more formal equivalents.
-transcribe-the-audio-offensive-content = You must flag content that is offensive, harmful or otherwise worrying. It must also include no personally identifying information like phone numbers or addresses. It will be hidden from view until the Common Voice team can review it and investigate further.
 
 ## Review the Transcription
 review-the-transcription = Review the Transcription
@@ -206,3 +205,33 @@ review-the-transcription-explanation-3 = Again, you can flag content that is off
 ## Code switching
 code-switching = Code Switching
 
+code-switching-do-subheader-title = Do:
+code-switching-do-not-subheader-title = Do Not:
+code-switching-adding-questions-do-guidelines-1 = <bold>Use Correct Spelling and Grammar:</bold> Ensure that your questions are free from typos and grammatical errors to maintain clarity.
+code-switching-adding-questions-do-guidelines-2 = <bold>Choose Simple Questions:</bold> Formulate questions that are straightforward and easy to understand for a diverse audience. Avoid jargon or complex language that might confuse respondents.
+code-switching-adding-questions-do-guidelines-3 = <bold>Keep It Concise:</bold> Design questions that can be answered in a few sentences, allowing for spontaneous and natural responses.
+
+code-switching-adding-questions-do-not-guidelines-1 = <bold>Solicit Personal Information:</bold> Avoid questions that ask for names, addresses, or any financial details that could identify individuals.
+code-switching-adding-questions-do-not-guidelines-2 = <bold>Express Prejudice:</bold> Steer clear of questions that could be seen as offensive or discriminatory towards any group.
+code-switching-adding-questions-do-not-guidelines-3 = <bold>Ask Sensitive Questions:</bold> Refrain from inquiring about topics that could make respondents uncomfortable, such as personal trauma or controversial issues.
+
+code-switching-answering-questions = Answering Questions
+code-switching-answering-questions-explanation-1 = <bold>Be Authentic:</bold> When responding, aim for naturalness in your speech. Don’t worry about being perfect; the goal is to capture genuine conversation.
+code-switching-answering-questions-explanation-2 = <bold>Use Your Own Words:</bold> Feel free to express your thoughts in a way that feels comfortable to you, even if it means deviating slightly from the question.
+
+code-switching-transcribing-audio-questions = Transcribing Audio from Questions
+code-switching-transcribing-audio-questions-explanation-1 = <bold>Listen Carefully:</bold> Pay close attention to the audio before transcribing to ensure accuracy.
+code-switching-transcribing-audio-questions-explanation-2 = <bold>Transcribe Verbatim:</bold> Write down exactly what is said, including any natural disfluencies, pauses, or filler words. This helps maintain the authenticity of spontaneous speech.
+
+code-switching-review-transcriptions = Reviewing Transcriptions
+code-switching-review-transcriptions-explanation-1 = <bold>Check for Accuracy:</bold> After transcribing, review your work to ensure it reflects the audio accurately. Look for any missed words or misinterpretations.
+code-switching-review-transcriptions-explanation-2 = <bold>Edit for Clarity:</bold> If necessary, make minor adjustments to improve readability without altering the original meaning.
+
+code-switching-explanation-1 = <bold>Embrace Diversity:</bold> If you notice code switching in the responses, embrace it! This reflects the natural way people communicate in multilingual environments.
+code-switching-explanation-2 = <bold>Document Instances:</bold> When transcribing, make a note of any instances of code switching, as they can provide valuable insights into language use.
+code-switching-explanation-3 = By following these guidelines, you will help create a rich and diverse dataset that reflects the beauty of spontaneous speech. Thank you for your contributions to Common Voice!
+
+## Reproting content
+reporting-content = Reporting Content
+reporting-content-explanation-1 = You must flag content that is offensive, harmful or otherwise worrying. It must also include no personally identifying information like phone numbers or addresses. It will be removed from your experience until the Common Voice team can review it and investigate further.
+reporting-content-explanation-2 = To report content, select the “Report” button and choose one or all options: Offensive Content, Different language, Personally Identifiable Information, Other.  From here, provide more details about why you are reporting the content in the text area.  Then, submit the Report by clicking on the Report button. 
