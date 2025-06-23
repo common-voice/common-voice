@@ -88,7 +88,7 @@ press-and-stories = Presse
 community-and-languages = Fellesskap og språk
 coming-soon = Kommer snart…
 about-us = Om oss
-scripted-speech = SKRIVET TALE
+scripted-speech = FORBEREDT TALE
 spontaneous-speech = SPONTAN TALE
 
 ## MENU ITEMS TOOLTIPS
