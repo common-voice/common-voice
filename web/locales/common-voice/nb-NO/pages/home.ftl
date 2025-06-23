@@ -82,20 +82,27 @@ read-more-about = Les mer på vår "Om" side
 answer-questions = Besvar spørsmålene
 review-transcriptions = Gjennomgå transkripsjoner
 add-questions = Legg til spørsmål <small>(kommer snart)</small>
+review-questions = Gjennomgå spørsmål
 transcribe-audio = Transkribere lyd
 press-and-stories = Presse
 community-and-languages = Fellesskap og språk
 coming-soon = Kommer snart…
+about-us = Om oss
+scripted-speech = SKRIVET TALE
+spontaneous-speech = SPONTAN TALE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerskap, presse, fellesskap og språk
+about-us-menu-item-tooltip = Les mer om oppdraget og teamet bak Common Voice
+about-us-menu-item-aria-label = Om oss-alternativmeny
 partnerships-menu-item-tooltip = Bli partner med oss
 press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
 community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Om alternativmeny
 partnerships-menu-item-aria-label = Lær om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tilgang til pressemeldinger og historier relatert til Common Voice
 community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språkene som støttes av Common Voice
@@ -123,6 +130,7 @@ spontaneous-card-content = Svar på spørsmål for å lage datasett om organiske
 language-text-card-header = Tekstspråk
 language-text-card-content = Opprett eller del forespørsler, setninger og tekst i det offentlige domene for oversettelse, små språkmodeller og mer.
 add-text = Legg til tekst
+answer = Svar
 
 ## Community section
 
