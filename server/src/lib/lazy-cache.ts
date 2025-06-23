@@ -1,4 +1,5 @@
 import { redis, redlock, useRedis } from './redis'
+import { TimeUnits } from 'common'
 
 type Fn<T, S> = (...args: S[]) => Promise<T>
 
@@ -102,11 +103,13 @@ function redisCache<T, S>(
   }
 }
 
+// TODO: The lock duration of 3 minutes is conservative
+// After measuring per query performance and adding lock durations to calling functions, drop it to 30 sec
 export default function lazyCache<T, S>(
   cacheKey: string,
   f: Fn<T, S>,
   timeMs: number,
-  lockDurationMs = 30_000 // default to 30 sec
+  lockDurationMs = 3 * TimeUnits.MINUTE // TODO: drop this to 30 sec after finetuning
 ): Fn<T, S> {
   const memCache = memoryCache(f, timeMs)
   return async (...args: S[]) =>
