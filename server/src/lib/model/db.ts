@@ -93,7 +93,8 @@ const getLanguageMap = lazyCache(
       {}
     )
   },
-  TimeUnits.DAY
+  TimeUnits.DAY,
+  TimeUnits.SECOND
 )
 
 export async function getLocaleId(locale: string): Promise<number> {
@@ -508,7 +509,8 @@ export default class DB {
       async () => {
         return await this.getClipsToBeValidated(locale_id, 10000)
       },
-      TimeUnits.MINUTE
+      TimeUnits.MINUTE,
+      3 * TimeUnits.SECOND
     )()
 
     //filter out users own clips
