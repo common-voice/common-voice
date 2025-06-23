@@ -880,36 +880,38 @@ export default class DB {
 
     const [clips] = await this.mysql.query(
       `
-    SELECT *
-    FROM (
-      SELECT clips.*
-      FROM clips
-      LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
-      WHERE is_valid IS NULL
-        AND clips.locale_id = ?
-        AND clips.client_id <> ?
-        AND clips.is_approved = 1
-        AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
-        AND NOT EXISTS (
-          SELECT clip_id
-          FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
-        )
-        AND sentences.clips_count <= 50
-        ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
-      ORDER BY sentences.clips_count ASC, clips.created_at ASC
-      LIMIT ?
-    ) t
-    ORDER BY RAND()
-    LIMIT ?`,
+ SELECT *
+FROM (
+  SELECT clips.*, v.variant_name as variant_name
+  FROM clips
+  LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
+  LEFT JOIN user_client_variants ucv ON ucv.client_id = clips.client_id
+  LEFT JOIN variants v ON v.id = ucv.variant_id
+  WHERE is_valid IS NULL
+    AND clips.locale_id = ?
+    AND clips.client_id <> ?
+    AND clips.is_approved = 1
+    AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+    AND NOT EXISTS (
+      SELECT clip_id
+      FROM votes
+      WHERE votes.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE reported.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE skipped.clip_id = clips.id AND client_id = ?
+    )
+    AND sentences.clips_count <= 50
+    ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
+  ORDER BY sentences.clips_count ASC, clips.created_at ASC
+  LIMIT ?
+) t
+ORDER BY RAND()
+LIMIT ?`,
       [
         locale_id,
         client_id,
@@ -1000,36 +1002,38 @@ export default class DB {
     const [clips] = await this.mysql.query(
       `
       SELECT *
-      FROM (
-        SELECT clips.*
-        FROM clips
-        LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
-        WHERE is_valid IS NULL
-          AND clips.locale_id = ?
-          AND clips.client_id <> ?
-          AND clips.is_approved = 1
-          AND clips.corpus_id = ? -- <-- filter by corpus_id
-          AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
-          AND NOT EXISTS (
-            SELECT clip_id
-            FROM votes
-            WHERE votes.clip_id = clips.id AND client_id = ?
-            UNION ALL
-            SELECT clip_id
-            FROM reported_clips reported
-            WHERE reported.clip_id = clips.id AND client_id = ?
-            UNION ALL
-            SELECT clip_id
-            FROM skipped_clips skipped
-            WHERE skipped.clip_id = clips.id AND client_id = ?
-          )
-          AND sentences.clips_count <= 50
-          ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
-        ORDER BY sentences.clips_count ASC, clips.created_at ASC
-        LIMIT ?
-      ) t
-      ORDER BY RAND()
-      LIMIT ?
+FROM (
+  SELECT clips.*, v.variant_name as variant_name
+  FROM clips
+  LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
+  LEFT JOIN user_client_variants ucv ON ucv.client_id = clips.client_id
+  LEFT JOIN variants v ON v.id = ucv.variant_id
+  WHERE is_valid IS NULL
+    AND clips.locale_id = ?
+    AND clips.client_id <> ?
+    AND clips.is_approved = 1
+    AND clips.corpus_id = ?
+    AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+    AND NOT EXISTS (
+      SELECT clip_id
+      FROM votes
+      WHERE votes.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE reported.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE skipped.clip_id = clips.id AND client_id = ?
+    )
+    AND sentences.clips_count <= 50
+    ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
+  ORDER BY sentences.clips_count ASC, clips.created_at ASC
+  LIMIT ?
+) t
+ORDER BY RAND()
+LIMIT ?
       `,
       [
         locale_id,
@@ -1052,33 +1056,35 @@ export default class DB {
   ): Promise<DBClip[]> {
     const [clips] = await this.mysql.query(
       `
-    SELECT *
-    FROM (
-      SELECT * 
-      FROM clips
-      WHERE locale_id = ?
-        AND is_valid IS NULL
-        AND clips.client_id <> ?
-        AND clips.is_approved = 1
-        AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
-        AND NOT EXISTS (
-          SELECT clip_id
-          FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
-        )
-      GROUP BY original_sentence_id
-      LIMIT ?
-    ) t
-    ORDER BY RAND()
-    LIMIT ?`,
+  SELECT *
+FROM (
+  SELECT clips.*, v.name as variant_name
+  FROM clips
+  LEFT JOIN user_client_variants ucv ON ucv.client_id = clips.client_id
+  LEFT JOIN variants v ON v.id = ucv.variant_id
+  WHERE locale_id = ?
+    AND is_valid IS NULL
+    AND clips.client_id <> ?
+    AND clips.is_approved = 1
+    AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+    AND NOT EXISTS (
+      SELECT clip_id
+      FROM votes
+      WHERE votes.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE reported.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE skipped.clip_id = clips.id AND client_id = ?
+    )
+  GROUP BY original_sentence_id
+  LIMIT ?
+) t
+ORDER BY RAND()
+LIMIT ?`,
       [
         locale_id,
         client_id,
@@ -1101,33 +1107,35 @@ export default class DB {
     const [clips] = await this.mysql.query(
       `
     SELECT *
-    FROM (
-      SELECT * 
-      FROM clips
-      WHERE locale_id = ?
-        AND clips.corpus_id = ?
-        AND is_valid IS NULL
-        AND clips.client_id <> ?
-        AND clips.is_approved = 1
-        AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
-        AND NOT EXISTS (
-          SELECT clip_id
-          FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
-        )
-      GROUP BY original_sentence_id
-      LIMIT ?
-    ) t
-    ORDER BY RAND()
-    LIMIT ?`,
+FROM (
+  SELECT clips.*, v.variant_name as variant_name
+  FROM clips
+  LEFT JOIN user_client_variants ucv ON ucv.client_id = clips.client_id
+  LEFT JOIN variants v ON v.id = ucv.variant_id
+  WHERE clips.locale_id = ?
+    AND clips.corpus_id = ?
+    AND is_valid IS NULL
+    AND clips.client_id <> ?
+    AND clips.is_approved = 1
+    AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+    AND NOT EXISTS (
+      SELECT clip_id
+      FROM votes
+      WHERE votes.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE reported.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE skipped.clip_id = clips.id AND client_id = ?
+    )
+  GROUP BY original_sentence_id
+  LIMIT ?
+) t
+ORDER BY RAND()
+LIMIT ?`,
       [
         locale_id,
         corpus_id,
@@ -1150,21 +1158,22 @@ export default class DB {
     const [rows] = await this.mysql.query(
       `
         SELECT 
-          c.id as id, 
-          c.path as path, 
-          s.has_valid_clip as has_valid_clip,
-          c.client_id as client_id, 
-          s.text as sentence,
-          c.original_sentence_id as original_sentence_id
-        FROM clips c
-        INNER JOIN 
-          sentences s ON s.id = c.original_sentence_id 
-          AND c.locale_id = ? 
-          AND c.corpus_id = ? -- <-- added condition
-        WHERE 
-          c.is_valid IS NULL 
-        ORDER BY RAND()
-        LIMIT ?
+        c.id as id, 
+        c.path as path, 
+        s.has_valid_clip as has_valid_clip,
+        c.client_id as client_id, 
+        s.text as sentence,
+        c.original_sentence_id as original_sentence_id,
+        v.variant_name as variant_name
+      FROM clips c
+      INNER JOIN sentences s ON s.id = c.original_sentence_id 
+        AND c.locale_id = ?
+        AND c.corpus_id = ?
+      LEFT JOIN user_client_variants ucv ON ucv.client_id = c.client_id
+      LEFT JOIN variants v ON v.id = ucv.variant_id
+      WHERE c.is_valid IS NULL 
+      ORDER BY RAND()
+      LIMIT ?
       `,
       [languageId, corpus_id, limit] // <-- updated parameters
     )
