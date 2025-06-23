@@ -40,6 +40,11 @@ import Success from './success'
 import './contribution.css'
 import ProgressSteps from './ProgressSteps'
 
+import {
+  SpeakInstructionsButton,
+  SpeakInstructionsModal,
+} from './speak-instructions/speak-instructions'
+
 export const SET_COUNT = 5
 
 export interface ContributionPillProps {
@@ -70,6 +75,10 @@ export interface ContributionPageProps
   hasErrors: boolean
   errorContent?: React.ReactNode
   reportModalProps: Omit<ReportModalProps, 'onSubmitted' | 'getString'>
+  speakInstructionsModalProps?: Omit<
+    ReportModalProps,
+    'onSubmitted' | 'getString'
+  >
   instruction: (props: {
     vars: { actionType: string }
     children: any
@@ -99,6 +108,7 @@ export interface ContributionPageProps
 interface State {
   selectedPill: number
   showReportModal: boolean
+  showSpeakInstructionModal: boolean
   showShareModal: boolean
   showShortcutsModal: boolean
 }
@@ -111,6 +121,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
   state: State = {
     selectedPill: null,
     showReportModal: false,
+    showSpeakInstructionModal: false,
     showShareModal: false,
     showShortcutsModal: false,
   }
@@ -200,7 +211,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       event.shiftKey ||
       event.metaKey ||
       this.state.showReportModal ||
-      this.props.shouldShowFirstCTA
+      this.props.shouldShowFirstCTA ||
+      this.state.showSpeakInstructionModal
     ) {
       return
     }
@@ -233,13 +245,19 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       getString,
       onSkip,
       reportModalProps,
+      speakInstructionsModalProps,
       type,
       shouldShowFirstCTA,
       shouldShowSecondCTA,
       user,
       demoMode,
     } = this.props
-    const { showReportModal, showShareModal, showShortcutsModal } = this.state
+    const {
+      showReportModal,
+      showShareModal,
+      showShortcutsModal,
+      showSpeakInstructionModal,
+    } = this.state
 
     return (
       <div
@@ -273,6 +291,18 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             onRequestClose={() => this.setState({ showReportModal: false })}
             onSubmitted={onSkip}
             {...reportModalProps}
+          />
+        )}
+
+        {showSpeakInstructionModal && (
+          <SpeakInstructionsModal
+            {...speakInstructionsModalProps}
+            onSubmitted={() =>
+              this.setState({ showSpeakInstructionModal: false })
+            }
+            onRequestClose={() =>
+              this.setState({ showSpeakInstructionModal: false })
+            }
           />
         )}
         <div
@@ -558,7 +588,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           </div>
         )}
 
-        {/* {!hasErrors && !isSubmitted && (
+        {!hasErrors && !isSubmitted && (
           <LocaleLink
             blank
             to={URLS.GUIDELINES}
@@ -566,7 +596,12 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             <ExternalLinkIcon />
             <Localized id="contribution-criteria-link" />
           </LocaleLink>
-        )} */}
+        )}
+
+        <SpeakInstructionsButton
+          onClick={() => this.setState({ showSpeakInstructionModal: true })}
+          className="button rounded skip-button bg-white text-black w-[210px]"
+        />
 
         {!shouldShowCTA && (
           <div className="buttons">

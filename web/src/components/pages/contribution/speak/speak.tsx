@@ -824,6 +824,19 @@ class SpeakPage extends React.Component<Props, State> {
                   ? null
                   : clips[recordingIndex].sentence.id,
             }}
+            speakInstructionsModalProps={{
+              reasons: [
+                'offensive-language',
+                'grammar-or-spelling',
+                'different-language',
+                'difficult-pronounce',
+              ],
+              kind: 'sentence',
+              id:
+                recordingIndex == -1 || !clips[recordingIndex].sentence
+                  ? null
+                  : clips[recordingIndex].sentence.id,
+            }}
             sentences={clips.map(({ sentence }) => sentence)}
             shortcuts={[
               {
