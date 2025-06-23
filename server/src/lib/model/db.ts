@@ -22,12 +22,8 @@ import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
 } from '../../application/repository/variant-repository'
+import { TimeUnits } from 'common'
 
-const MINUTE = 1000 * 60
-const HOUR = MINUTE * 60
-const DAY = HOUR * 24
-const WEEK = DAY * 7
-const THREE_WEEKS = WEEK * 3
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -97,7 +93,7 @@ const getLanguageMap = lazyCache(
       {}
     )
   },
-  DAY
+  TimeUnits.DAY
 )
 
 export async function getLocaleId(locale: string): Promise<number> {
@@ -512,7 +508,7 @@ export default class DB {
       async () => {
         return await this.getClipsToBeValidated(locale_id, 10000)
       },
-      MINUTE
+      TimeUnits.MINUTE
     )()
 
     //filter out users own clips
@@ -801,7 +797,7 @@ export default class DB {
     await redisSetAddWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       original_sentence_id,
-      HOUR
+      TimeUnits.HOUR
     )
     // Do the insert/updates
     try {
@@ -1481,7 +1477,7 @@ export default class DB {
     if (row) {
       // row.start_date_utc is utc time (timezone offset is 0);
       const startDateUtc = new Date(`${row.start_date_utc}Z`)
-      challengeEnded = Date.now() > startDateUtc.valueOf() + THREE_WEEKS
+      challengeEnded = Date.now() > startDateUtc.valueOf() + 3 * TimeUnits.WEEK
     }
     return challengeEnded
   }
