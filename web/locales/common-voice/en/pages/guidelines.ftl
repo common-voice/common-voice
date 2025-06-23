@@ -4,6 +4,8 @@ guidelines-header-subtitle = Understand how to contribute and validate on the Co
 voice-collection = Voice Collection
 sentence-collection = Sentence Collection
 question-collection = Question Collection
+scripted-speech = Scripted Speech
+spontaneous-speech = Spontaneous Speech
 
 ## Voice Collection nav ids
 varying-pronunciations = Varying Pronunciations
@@ -130,3 +132,77 @@ offensive-content-sensitive-information-explanation-explanation-3 = Questions wh
 example-questions-subheader = Example questions
 example-questions-explanation-1 = You can find <examplePromptsLink>120 example prompts in this sheet.</examplePromptsLink>
 example-questions-explanation-2 = If you’d like to submit a tranche of questions for ingestion, you <githubLink>can do so via our GitHub</githubLink> or email your list to <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions 
+answer-questions = Answer Questions
+answer-questions-explanation-1 = Think for a moment about the prompt, consider what kind of thing you’d like to say, but don’t script yourself too much. Click the ‘record’ icon. Once you’ve recorded you can listen to yourself, re-record, delete or submit. 
+answer-questions-explanation-2 = Remember - don’t worry if you stutter, pause or repeat a word. This is all useful data for engineers trying to build inclusive, real-world speech recognition tools. 
+answer-questions-tip-1 = Record in a reasonably quiet place 
+answer-questions-tip-2 = Choose somewhere with a good internet connection
+answer-questions-tip-3 = Keep your response to 15 seconds
+answer-questions-tip-4 = Avoid hateful, inflammatory or otherwise offensive speech
+answer-questions-tip-5 = Speak naturally, as you would with a friend - use your own real variant, dialect and accent
+answer-questions-tip-6 = Keep your volume consistent - don’t shout or sing
+
+# Transcribe the Audio
+transcribe-the-audio = Transcribe the Audio
+transcribe-the-audio-subheader-1 = General guidance
+transcribe-the-audio-subheader-2 = Numbers and acronyms
+transcribe-the-audio-subheader-3 = Special Tags
+transcribe-the-audio-subheader-4 = Word segements, false starts, repeated words
+transcribe-the-audio-subheader-5 = Grammatical mistakes and colloquialisms
+transcribe-the-audio-subheader-1-explanation = In general, you should write down everything you hear. This includes;
+transcribe-the-audio-subheader-1-explanation-example-1 = Writing down disfluencies, including hesitations and repetitions 
+transcribe-the-audio-subheader-1-explanation-example-2 = Labeling noise events like coughing or laughing
+transcribe-the-audio-subheader-1-explanation-example-3 = Labeling significant noise pollution, like background chatter or car horns
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatical variation and slang should be recorded exactly as it occurs. Do not correct or edit people’s speech. 
+transcribe-the-audio-subheader-2-explanation-1 = Numbers and symbols should be spelled out in words rather than using numerals or special characters. Example:
+transcribe-the-audio-subheader-2-explanation-2 = Acronyms should be written as they are normally written in the language, following standard capitalization rules. They should not be transcribed phonetically. Example:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Correct</correct>: It’s one hundred miles away from here
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Wrong</wrong>: It’s 100 miles away from here
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Correct</correct>: See you in <underline>twenty fifteen</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wrong</wrong>: See you in <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Correct</correct>: It was twenty per cent off
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wrong</wrong>: It was 20% off
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Correct</correct>: They were arrested by the <underline>FBI</underline> last Thursday
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Wrong</wrong>: They were arrested by the <underline>eff bee eye</underline> last Thursday
+transcribe-the-audio-subheader-3-explanation = The following special tags should be used to mark disfluencies, fillers and other types of non-verbal content.
+tags-table-header-1 = Tag
+tags-table-header-2 = Meaning
+tags-laugh = Laugh
+tags-disfluency = Disfluency
+tags-unclear = Unclear
+tags-noise = Noise
+tags-laugh-explanation = The sound of laughter.
+tags-disfluency-explanation =
+    A filler word or sound used as a placeholder whilst a speaker decides what to say.
+    In English, some common hesitation sounds are “err”, “um”, “huh”, etc.
+tags-unclear-explanation = A word or sequence of words that cannot be understood.
+tags-noise-explanation =
+    Any other type of noise, such as the speaker coughing or clearing their throat,
+    a car honking, the sound of something hitting the microphone, a phone buzzing, etc.
+special-tags-example = And then I [noise] went on holiday.
+    Well, [noise] [laugh] it wasn’t exactly a holiday [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Spontaneous Speech naturally contains false starts where only a fragment of a full word is produced. For these instances, please transcribe to the best of your ability the word fragment and attach a hyphen at the end of the word (-) to indicate the word is a false start. Example:
+transcribe-the-audio-subheader-4-explanation-1-example = His name is <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Sometimes speakers will repeat a word or word fragment multiple times. This should be transcribed too. Example:
+transcribe-the-audio-subheader-4-explanation-2-example = And then I went to <underline>the the the bed- the</underline> bedroom
+transcribe-the-audio-subheader-5-explanation-1 = Spontaneous Speech will naturally contain grammatical mistakes. These should not be corrected when transcribing. The transcription should reflect the spoken content exactly.
+transcribe-the-audio-subheader-5-explanation-2 = Speakers may use colloquialisms (such as, in English, “gonna”, “cuz”, etc.) which may not be considered formally correct. These should be transcribed as they are, and not changed to their more formal equivalents.
+transcribe-the-audio-offensive-content = You must flag content that is offensive, harmful or otherwise worrying. It must also include no personally identifying information like phone numbers or addresses. It will be hidden from view until the Common Voice team can review it and investigate further.
+
+## Review the Transcription
+review-the-transcription = Review the Transcription
+review-the-transcription-explanation-1 = In general, we advise that the person who checks the transcription should not be the same person who did the original transcription. It is very hard to check your own work! Having multiple lines of review can help make quality assurance more robust, and help mitigate biases and issues.
+review-the-transcription-explanation-2 = Review the transcription guidelines above in order to check that a transcription is accurate. You can provide edits and submit them.
+review-the-transcription-explanation-3 = Again, you can flag content that is offensive, harmful or otherwise worrying, and it will be removed from your experience until the Common Voice team can review it and investigate further.
+
+## Code switching
+code-switching = Code Switching
+

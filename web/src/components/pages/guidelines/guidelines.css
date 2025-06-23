@@ -80,7 +80,7 @@
                 & .tab-link {
                     color: inherit;
 
-                    &.question-collection {
+                    &.spontaneous-speech {
                         [dir='ltr'] & {
                             &::after {
                                 content: 'Beta';
@@ -195,18 +195,51 @@
                 max-width: 270px;
                 margin-inline-end: 115px;
                 position: sticky;
-                padding-top: 20px;
+                /* padding-top: 20px; */
                 top: 50px;
                 height: 100%;
+
+                div {
+                    width: 270px;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+                button {
+                    border: none;
+                    font-family: var(--strong-font-family);
+                    font-size: var(--font-size-lg);
+                    font-weight: 600;
+                    margin-block-end: 12px;
+                    text-align: start;
+
+                    &.active-tab-option {
+                        &::before {
+                            content: '';
+                            background: linear-gradient(
+                                90deg,
+                                #f89096 0%,
+                                #b1b5e5 100%
+                            );
+                            height: 4px;
+                            width: 240px;
+                            margin-bottom: 5px;
+                            display: block;
+                        }
+                    }
+                }
 
                 ul {
                     list-style: none;
                     font-weight: 600;
-                    font-size: var(--font-size-lg);
+                    padding-left: 20px;
+                    font-size: 14px;
                     font-family: var(--strong-font-family);
 
                     li {
-                        margin-bottom: 30px;
+                        margin-bottom: 12px;
 
                         a {
                             color: var(--warm-grey);
@@ -214,19 +247,6 @@
 
                         & a.selected-option {
                             color: var(--black);
-
-                            &::before {
-                                content: '';
-                                background: linear-gradient(
-                                    90deg,
-                                    #f89096 0%,
-                                    #b1b5e5 100%
-                                );
-                                height: 4px;
-                                width: 270px;
-                                margin-bottom: 5px;
-                                display: block;
-                            }
                         }
                     }
                 }
@@ -426,10 +446,6 @@
                             & p.tip-explanation {
                                 font-size: var(--font-size-xs);
                                 color: var(--dark-grey);
-
-                                /* @media (--sm-down) {
-                                    font-size: ;
-                                } */
                             }
                         }
                     }
@@ -525,6 +541,31 @@
                         @media (--sm-down) {
                             min-width: 100px;
                             width: 100px;
+                        }
+                    }
+                }
+
+                & .example-container.transcribe-the-audio {
+                    margin-block: 28px;
+
+                    .example-tips-container {
+                        margin: 0 auto;
+                    }
+
+                    p.tip-text {
+                        margin-bottom: 6px;
+                        font-style: italic;
+
+                        span.correct {
+                            color: var(--valid-green);
+                        }
+
+                        span.underline {
+                            text-decoration: underline;
+                        }
+
+                        span.wrong {
+                            color: var(--red);
                         }
                     }
                 }
