@@ -288,7 +288,7 @@ export default class Clip {
           path: encodeURIComponent(clipFileName),
           sentence: sentence.text,
           duration: durationInSec * 1000,
-          corpus_id: sentence.corpus_id,
+          corpus_id: sentence.corpusId,
         })
         await Awards.checkProgress(
           client_id,
