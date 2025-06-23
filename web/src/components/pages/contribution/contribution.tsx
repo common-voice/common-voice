@@ -44,6 +44,10 @@ import {
   SpeakInstructionsButton,
   SpeakInstructionsModal,
 } from './speak-instructions/speak-instructions'
+import {
+  ListenInstructionsModal,
+  ListenInstructionsButton,
+} from './listen-instructions/listen-instructions'
 
 export const SET_COUNT = 5
 
@@ -79,6 +83,10 @@ export interface ContributionPageProps
     ReportModalProps,
     'onSubmitted' | 'getString'
   >
+  listenInstructionsModalProps?: Omit<
+    ReportModalProps,
+    'onSubmitted' | 'getString'
+  >
   instruction: (props: {
     vars: { actionType: string }
     children: any
@@ -108,7 +116,8 @@ export interface ContributionPageProps
 interface State {
   selectedPill: number
   showReportModal: boolean
-  showSpeakInstructionModal: boolean
+  showSpeakInstructionsModal: boolean
+  showListenInstructionsModal: boolean
   showShareModal: boolean
   showShortcutsModal: boolean
 }
@@ -121,7 +130,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
   state: State = {
     selectedPill: null,
     showReportModal: false,
-    showSpeakInstructionModal: false,
+    showSpeakInstructionsModal: false,
+    showListenInstructionsModal: false,
     showShareModal: false,
     showShortcutsModal: false,
   }
@@ -212,7 +222,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       event.metaKey ||
       this.state.showReportModal ||
       this.props.shouldShowFirstCTA ||
-      this.state.showSpeakInstructionModal
+      this.state.showSpeakInstructionsModal ||
+      this.state.showListenInstructionsModal
     ) {
       return
     }
@@ -246,6 +257,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       onSkip,
       reportModalProps,
       speakInstructionsModalProps,
+      listenInstructionsModalProps,
       type,
       shouldShowFirstCTA,
       shouldShowSecondCTA,
@@ -256,7 +268,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       showReportModal,
       showShareModal,
       showShortcutsModal,
-      showSpeakInstructionModal,
+      showSpeakInstructionsModal,
+      showListenInstructionsModal,
     } = this.state
 
     return (
@@ -294,14 +307,26 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           />
         )}
 
-        {showSpeakInstructionModal && (
+        {showSpeakInstructionsModal && (
           <SpeakInstructionsModal
             {...speakInstructionsModalProps}
             onSubmitted={() =>
-              this.setState({ showSpeakInstructionModal: false })
+              this.setState({ showSpeakInstructionsModal: false })
             }
             onRequestClose={() =>
-              this.setState({ showSpeakInstructionModal: false })
+              this.setState({ showSpeakInstructionsModal: false })
+            }
+          />
+        )}
+
+        {showListenInstructionsModal && (
+          <ListenInstructionsModal
+            {...listenInstructionsModalProps}
+            onSubmitted={() =>
+              this.setState({ showListenInstructionsModal: false })
+            }
+            onRequestClose={() =>
+              this.setState({ showListenInstructionsModal: false })
             }
           />
         )}
@@ -598,10 +623,19 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           </LocaleLink>
         )}
 
-        <SpeakInstructionsButton
-          onClick={() => this.setState({ showSpeakInstructionModal: true })}
-          className="button rounded skip-button bg-white text-black w-[210px]"
-        />
+        {type === 'listen' && (
+          <ListenInstructionsButton
+            onClick={() => this.setState({ showListenInstructionsModal: true })}
+            className="button rounded skip-button bg-white text-black w-[210px]"
+          />
+        )}
+
+        {type === 'speak' && (
+          <SpeakInstructionsButton
+            onClick={() => this.setState({ showSpeakInstructionsModal: true })}
+            className="button rounded skip-button bg-white text-black w-[210px]"
+          />
+        )}
 
         {!shouldShowCTA && (
           <div className="buttons">
