@@ -254,22 +254,31 @@ export const TRANSCRIBE_AUDIO_ITEMS = [
 
 export const CODE_SWITCHING_ITEMS = [
   {
-    label: 'adding-questions',
+    label: 'code-switching-adding-question-subheader',
   },
   {
-    label: 'code-switching-validating-questions',
+    label: 'code-switching-types-subheader',
   },
   {
-    label: 'code-switching-answering-questions',
+    label: 'code-switching-avoid-subheader',
   },
   {
-    label: 'code-switching-transcribing-audio-questions',
+    label: 'code-switching-review-subheader',
   },
   {
-    label: 'code-switching-review-transcriptions',
+    label: 'code-switching-answer-subheader',
   },
   {
-    label: 'code-switching',
+    label: 'code-switching-answer-dont-subheader',
+  },
+  {
+    label: 'code-switching-transcribe-subheader',
+  },
+  {
+    label: 'code-switching-cleanup-header',
+  },
+  {
+    label: 'code-switching-tagging-subheader',
   },
 ]
 

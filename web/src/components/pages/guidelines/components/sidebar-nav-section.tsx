@@ -23,42 +23,55 @@ export const SidebarNavSection = ({
   selectedSection,
   setSelectedSection,
   tabSearchParam,
-}: Props) => (
-  <>
-    <div>
-      <Localized id={sectionId}>
-        <button
-          className={classNames({
-            'active-tab-option': selectedTabOption === sectionId,
-          })}
-          onClick={() => setSelectedTabOption(sectionId)}
-        />
-      </Localized>
-      {items?.length > 0 && <ChevronDown />}
-    </div>
-    <ul>
-      {items?.map(item => (
-        <li key={item.label}>
-          <div className="line" />
-          <Link
-            to={{
-              pathname: location.pathname,
-              hash: `#${item.label}`,
-              search: tabSearchParam,
-            }}
+}: Props) => {
+  const [visible, setVisible] = React.useState(false)
+
+  return (
+    <>
+      <div className="sidebar-nav-section-btn-wrapper">
+        <Localized id={sectionId}>
+          <button
             className={classNames({
-              'selected-option': item.label === selectedSection,
+              'active-tab-option': selectedTabOption === sectionId,
             })}
             onClick={() => {
-              if (selectedTabOption !== sectionId) {
-                setSelectedTabOption(sectionId)
-              }
-              setSelectedSection(item.label)
-            }}>
-            <Localized id={item.label} />
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </>
-)
+              setSelectedTabOption(sectionId)
+              setVisible(!visible)
+            }}
+          />
+        </Localized>
+        {items?.length > 0 && (
+          <ChevronDown
+            className={classNames('chevron', { 'rotate-180': visible })}
+          />
+        )}
+      </div>
+      {visible && (
+        <ul>
+          {items?.map(item => (
+            <li key={item.label}>
+              <div className="line" />
+              <Link
+                to={{
+                  pathname: location.pathname,
+                  hash: `#${item.label}`,
+                  search: tabSearchParam,
+                }}
+                className={classNames({
+                  'selected-option': item.label === selectedSection,
+                })}
+                onClick={() => {
+                  if (selectedTabOption !== sectionId) {
+                    setSelectedTabOption(sectionId)
+                  }
+                  setSelectedSection(item.label)
+                }}>
+                <Localized id={item.label} />
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </>
+  )
+}
