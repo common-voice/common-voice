@@ -24,7 +24,8 @@ const HowGrowLanguage = React.memo(() => {
               rel="noopener noreferer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
       <p className="tab-subtitle">
@@ -42,7 +43,8 @@ const HowGrowLanguage = React.memo(() => {
               rel="noopener noreferer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
       <p className="tab-subtitle">
@@ -60,12 +62,11 @@ const HowGrowLanguage = React.memo(() => {
               rel="noopener noreferer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
-      <Localized
-        id="about-playbook-how-grow-language-content-8"
-        elems={{ strong }}>
+      <Localized id="about-playbook-how-grow-language-content-8" elems={{ strong }}>
         <p />
       </Localized>
     </>

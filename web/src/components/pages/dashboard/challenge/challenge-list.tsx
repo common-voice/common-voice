@@ -54,10 +54,7 @@ class ChallengeList extends React.Component<Props, State> {
   updateScrollIndicator = () => {
     const SIZE = 32;
     const el = this.scroller.current;
-    el.style.setProperty(
-      '--before-height',
-      Math.min(el.scrollTop, SIZE) + 'px'
-    );
+    el.style.setProperty('--before-height', Math.min(el.scrollTop, SIZE) + 'px');
     el.style.setProperty(
       '--after-height',
       Math.min(el.scrollHeight - el.scrollTop - el.clientHeight, SIZE) + 'px'
@@ -130,8 +127,7 @@ class ChallengeList extends React.Component<Props, State> {
     const row = this.youRow.current;
     if (!row) return;
 
-    this.scroller.current.scrollTop =
-      row.offsetTop - this.scroller.current.offsetTop;
+    this.scroller.current.scrollTop = row.offsetTop - this.scroller.current.offsetTop;
     this.updateScrollIndicator();
   };
 
@@ -155,20 +151,14 @@ class ChallengeList extends React.Component<Props, State> {
 
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
-      const nextPosition =
-        i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
-      const isYou =
-        row.name ===
-        (team ? user.account.enrollment.team : user.account.username);
+      const nextPosition = i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
+      const isYou = row.name === (team ? user.account.enrollment.team : user.account.username);
       return [
         !!prevPosition && prevPosition + 1 < row.position && (
           <FetchRow
             key={row.position + 'prev'}
             onClick={() =>
-              this.fetchMore([
-                Math.max(prevPosition + 1, row.position - FETCH_SIZE),
-                row.position,
-              ])
+              this.fetchMore([Math.max(prevPosition + 1, row.position - FETCH_SIZE), row.position])
             }
           />
         ),
@@ -176,7 +166,8 @@ class ChallengeList extends React.Component<Props, State> {
           <li
             key={row.position}
             className={`row team${isYou ? ' you' : ''}`}
-            ref={isYou ? this.youRow : null}>
+            ref={isYou ? this.youRow : null}
+          >
             <div className="ranking">
               <div className="position">
                 {row.position + 1 < 10 && '0'}
@@ -192,9 +183,7 @@ class ChallengeList extends React.Component<Props, State> {
             <div className="week" title="Week">
               {row.w1_points && week > 0 ? (
                 <>
-                  <PointsIcon
-                    className={row.w1 <= 3 ? `star-points-${row.w1}` : ''}
-                  />
+                  <PointsIcon className={row.w1 <= 3 ? `star-points-${row.w1}` : ''} />
                   {this.transformRankingToString(row.w1)}
                 </>
               ) : (
@@ -204,9 +193,7 @@ class ChallengeList extends React.Component<Props, State> {
             <div className="week" title="Week">
               {row.w2_points && week > 1 ? (
                 <>
-                  <PointsIcon
-                    className={row.w2 <= 3 ? `star-points-${row.w2}` : ''}
-                  />
+                  <PointsIcon className={row.w2 <= 3 ? `star-points-${row.w2}` : ''} />
                   {this.transformRankingToString(row.w2)}
                 </>
               ) : (
@@ -216,9 +203,7 @@ class ChallengeList extends React.Component<Props, State> {
             <div className="week" title="Week">
               {row.w3_points && (week > 2 || challengeComplete) ? (
                 <>
-                  <PointsIcon
-                    className={row.w3 <= 3 ? `star-points-${row.w3}` : ''}
-                  />
+                  <PointsIcon className={row.w3 <= 3 ? `star-points-${row.w3}` : ''} />
                   {this.transformRankingToString(row.w3)}
                 </>
               ) : (
@@ -231,7 +216,8 @@ class ChallengeList extends React.Component<Props, State> {
           <li
             key={row.position}
             className={`row${isYou ? ' you' : ''}`}
-            ref={isYou ? this.youRow : null}>
+            ref={isYou ? this.youRow : null}
+          >
             <div className="ranking">
               <div className="position">
                 {row.position + 1 < 10 && '0'}
@@ -245,11 +231,7 @@ class ChallengeList extends React.Component<Props, State> {
               </div>
             </div>
             <div className="point" title={row.points}>
-              <PointsIcon
-                className={
-                  row.position < 3 ? `star-points-${row.position + 1}` : ''
-                }
-              />
+              <PointsIcon className={row.position < 3 ? `star-points-${row.position + 1}` : ''} />
               {row.points}
             </div>
             <div className="approved" title={row.approved}>
@@ -276,10 +258,7 @@ class ChallengeList extends React.Component<Props, State> {
     });
     // [TODO]: This should be a <table>.
     return (
-      <ul
-        className="leaderboard"
-        ref={this.scroller}
-        onScroll={this.updateScrollIndicator}>
+      <ul className="leaderboard" ref={this.scroller} onScroll={this.updateScrollIndicator}>
         <li className="header" key="header">
           {team ? (
             <>

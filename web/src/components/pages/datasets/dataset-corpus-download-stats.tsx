@@ -53,9 +53,7 @@ const Splits = ({
               </div>
             </li>
           ))}
-        {!expanded && categories.length > DEFAULT_CATEGORY_COUNT && (
-          <li key="more">...</li>
-        )}
+        {!expanded && categories.length > DEFAULT_CATEGORY_COUNT && <li key="more">...</li>}
       </ol>
     </div>
   );
@@ -76,11 +74,7 @@ const DatasetCorpusDownloadStats = ({ releaseData, bundleState }: Props) => {
         size: bundleState.size,
         'dataset-version': (
           <div className="version">
-            {[
-              bundleState.bundleLocale,
-              bundleState.totalHours + 'h',
-              releaseData.date,
-            ].join('_')}
+            {[bundleState.bundleLocale, bundleState.totalHours + 'h', releaseData.date].join('_')}
           </div>
         ),
         'validated-hr-total': bundleState.validHours.toLocaleString(),

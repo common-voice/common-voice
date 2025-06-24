@@ -1,42 +1,37 @@
 export type ClipRow = {
-  id: string
-  client_id: string
-  path: string
-  sentence: string
-  up_votes: string
-  down_votes: string
-  age: string
-  gender: string
-  accents: string
-  variant: string
-  locale: string
-  segment: string
-}
+  id: string;
+  client_id: string;
+  path: string;
+  sentence: string;
+  up_votes: string;
+  down_votes: string;
+  age: string;
+  gender: string;
+  accents: string;
+  variant: string;
+  locale: string;
+  segment: string;
+};
 
-export const REPORTED_SENTENCES_COLUMNS = [
-  'sentence',
-  'sentence_id',
-  'locale',
-  'reason',
-] as const
+export const REPORTED_SENTENCES_COLUMNS = ['sentence', 'sentence_id', 'locale', 'reason'] as const;
 
-export type ReportedSentencesRow = Record<typeof REPORTED_SENTENCES_COLUMNS[number], string>
+export type ReportedSentencesRow = Record<typeof REPORTED_SENTENCES_COLUMNS[number], string>;
 
 export type Settings = {
-  type: 'full' | 'delta'
-  from: string
-  until: string
-  releaseName: string
-  previousReleaseName?: string
-}
+  type: 'full' | 'delta';
+  from: string;
+  until: string;
+  releaseName: string;
+  previousReleaseName?: string;
+};
 
 export type ProcessLocaleJob = Settings & {
-  locale: string
-}
+  locale: string;
+};
 
 export type AppEnv = Settings & {
-  locale: string
-  releaseDirPath: string
-  clipsDirPath: string
-  releaseTarballsDirPath: string
-}
+  locale: string;
+  releaseDirPath: string;
+  clipsDirPath: string;
+  releaseTarballsDirPath: string;
+};

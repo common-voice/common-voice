@@ -10,11 +10,7 @@
  * @returns A Promise that is resolved with `true` if user clicks the "OK" button,
  *    or resolved with `false` if user clicks the "Cancel" button.
  */
-export default function confirm(
-  label: string,
-  okLabel: string,
-  cancelLabel: string
-) {
+export default function confirm(label: string, okLabel: string, cancelLabel: string) {
   const element = document.createElement('div');
   element.classList.add('confirm-modal');
 

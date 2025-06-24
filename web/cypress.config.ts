@@ -1,4 +1,4 @@
-import { defineConfig } from 'cypress'
+import { defineConfig } from 'cypress';
 
 export default defineConfig({
   e2e: {
@@ -8,15 +8,14 @@ export default defineConfig({
         if (browser.family === 'firefox') {
           // launchOptions.preferences is a map of preference names to values
           // login is not working in firefox when testing_localhost_is_secure_when_hijacked is false
-          launchOptions.preferences[
-            'network.proxy.testing_localhost_is_secure_when_hijacked'
-          ] = true
+          launchOptions.preferences['network.proxy.testing_localhost_is_secure_when_hijacked'] =
+            true;
         }
 
-        return launchOptions
-      })
+        return launchOptions;
+      });
     },
     viewportWidth: 1500,
     viewportHeight: 1000,
   },
-})
+});

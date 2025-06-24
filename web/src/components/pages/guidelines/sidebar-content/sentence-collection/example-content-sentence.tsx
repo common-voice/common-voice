@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 
 import { SkipIcon } from '../../../../ui/icons';
@@ -13,10 +9,7 @@ type Props = {
   contentType: 'cite' | 'review';
 };
 
-const ExampleContent: React.FC<Props & WithLocalizationProps> = ({
-  getString,
-  contentType,
-}) => {
+const ExampleContent: React.FC<Props & WithLocalizationProps> = ({ getString, contentType }) => {
   if (contentType === 'cite') {
     return (
       <div className="example-container citing-sentences">

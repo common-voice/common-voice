@@ -5,22 +5,22 @@ import {
   ERR_NO_SYMBOLS,
   ERR_OTHER,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
-const tokenizeWords = require('talisman/tokenizers/words')
+const tokenizeWords = require('talisman/tokenizers/words');
 
 // Minimum of words that qualify as a sentence.
-const MIN_WORDS = 1
+const MIN_WORDS = 1;
 
 // Maximum of words allowed per sentence to keep recordings in a manageable duration.
-const MAX_WORDS = 14
+const MAX_WORDS = 14;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      const words = tokenizeWords(sentence)
-      return words.length < MIN_WORDS || words.length > MAX_WORDS
+      const words = tokenizeWords(sentence);
+      return words.length < MIN_WORDS || words.length > MAX_WORDS;
     },
     error: `Frazo devas havi minimume ${MIN_WORDS} kaj maksimume ${MAX_WORDS} vortojn`,
     errorType: ERR_OTHER,
@@ -43,8 +43,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     // Sentence should not contain the letters W, Q, X, Y, or other letters that are not in the Esperanto alphabet
     type: 'regex',
     regex: /[qQwWxXyYÀ-ćĊ-ěĞ-ģĞ-ģĦ-ĳĶ-śŞ-ūŮ-ʯḀ-ỿα-ωΑ-ΩЀ-ӿ]/,
-    error:
-      'Frazo devas ne enhavi la literojn W, Q, X, Y, aŭ aliajn ne-esperantajn literojn',
+    error: 'Frazo devas ne enhavi la literojn W, Q, X, Y, aŭ aliajn ne-esperantajn literojn',
     errorType: ERR_NO_FOREIGN_SCRIPT,
   },
   {
@@ -57,6 +56,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'Frazo devas ne enhavi mallongigojn',
     errorType: ERR_NO_ABBREVIATIONS,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

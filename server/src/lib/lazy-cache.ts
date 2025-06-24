@@ -40,11 +40,7 @@ function memoryCache<T, S>(cachedFunction: Fn<T, S>, timeMs: number): Fn<T, S> {
   };
 }
 
-function redisCache<T, S>(
-  cacheKey: string,
-  cachedFunction: Fn<T, S>,
-  timeMs: number
-): Fn<T, S> {
+function redisCache<T, S>(cacheKey: string, cachedFunction: Fn<T, S>, timeMs: number): Fn<T, S> {
   return async (...args) => {
     const key = cacheKey + JSON.stringify(args);
     const result = await redis.get(key);
@@ -63,10 +59,7 @@ function redisCache<T, S>(
     return new Promise(async resolve => {
       const lock = await redlock.lock(
         key + '-lock',
-        1000 *
-          60 *
-          60 *
-          3 /* intended 3 minutes, actually 3 hours, to be adjusted  @TODO */
+        1000 * 60 * 60 * 3 /* intended 3 minutes, actually 3 hours, to be adjusted  @TODO */
       );
       const result = await redis.get(key);
       if (result) {
@@ -86,11 +79,7 @@ function redisCache<T, S>(
   };
 }
 
-export default function lazyCache<T, S>(
-  cacheKey: string,
-  f: Fn<T, S>,
-  timeMs: number
-): Fn<T, S> {
+export default function lazyCache<T, S>(cacheKey: string, f: Fn<T, S>, timeMs: number): Fn<T, S> {
   if (!cacheEnabled) {
     return memoryCache(f, 1);
   }

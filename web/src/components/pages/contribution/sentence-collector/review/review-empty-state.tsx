@@ -1,9 +1,9 @@
-import { Localized } from '@fluent/react'
-import * as React from 'react'
+import { Localized } from '@fluent/react';
+import * as React from 'react';
 
-import { LinkButton } from '../../../../ui/ui'
-import { ArrowRight } from '../../../../ui/icons'
-import URLS from '../../../../../urls'
+import { LinkButton } from '../../../../ui/ui';
+import { ArrowRight } from '../../../../ui/icons';
+import URLS from '../../../../../urls';
 
 const ReviewEmptyState = () => {
   return (
@@ -20,7 +20,7 @@ const ReviewEmptyState = () => {
         </LinkButton>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ReviewEmptyState
+export default ReviewEmptyState;

@@ -12,7 +12,6 @@ xcuserdata/
 .ignore
 .ignored_files/
 .DS_Store
-.vscode/
 ZZidea
 .env-local-docker
 docker-compose.override.yml

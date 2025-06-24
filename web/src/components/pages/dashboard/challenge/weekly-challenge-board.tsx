@@ -27,11 +27,7 @@ export default function WeeklyChallengeBoard({
       <div className="title-container">
         <img
           className="icon"
-          src={
-            isDisabled
-              ? require('./images/stars-disabled.svg')
-              : require('./images/stars.svg')
-          }
+          src={isDisabled ? require('./images/stars-disabled.svg') : require('./images/stars.svg')}
           alt=""
           role="presentation"
         />
@@ -93,13 +89,9 @@ export default function WeeklyChallengeBoard({
             <div className="column challenge-stats team-stats">
               <div className="container team">
                 {/* TODO: Change .team-text and .team-invite classNames. */}
-                <p className="team-text">
-                  {weeklyChallengeCopy[week].subtitle}
-                </p>
+                <p className="team-text">{weeklyChallengeCopy[week].subtitle}</p>
                 <div className="v-divider" />
-                <p className="team-invite">
-                  {weeklyChallengeCopy[week].explanation}
-                </p>
+                <p className="team-invite">{weeklyChallengeCopy[week].explanation}</p>
               </div>
               <div className="container invite">
                 <CircleProgress
@@ -113,9 +105,7 @@ export default function WeeklyChallengeBoard({
                   className="team-bar progress-mobile"
                   percentage
                 />
-                <p className="team-invite-total">
-                  of {team.invite_total} invites
-                </p>
+                <p className="team-invite-total">of {team.invite_total} invites</p>
               </div>
             </div>
           </div>

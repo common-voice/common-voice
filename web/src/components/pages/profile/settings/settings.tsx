@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useEffect } from 'react';
 import { connect } from 'react-redux';
@@ -14,12 +10,7 @@ import URLS from '../../../../urls';
 import { getManageSubscriptionURL } from '../../../../utility';
 import { LocaleLink } from '../../../locale-helpers';
 import { InfoIcon, PenIcon, SettingsIcon } from '../../../ui/icons';
-import {
-  LabeledCheckbox,
-  LabeledInput,
-  LinkButton,
-  Toggle,
-} from '../../../ui/ui';
+import { LabeledCheckbox, LabeledInput, LinkButton, Toggle } from '../../../ui/ui';
 
 import './settings.css';
 import { useIsSubscribed } from '../../../../hooks/store-hooks';
@@ -55,10 +46,7 @@ interface PropsFromDispatch {
   saveAccount: any;
 }
 
-interface Props
-  extends WithLocalizationProps,
-    PropsFromState,
-    PropsFromDispatch {}
+interface Props extends WithLocalizationProps, PropsFromState, PropsFromDispatch {}
 
 function Settings(props: Props) {
   const { account, addNotification, getString, saveAccount } = props;
@@ -110,13 +98,15 @@ function Settings(props: Props) {
               className="manage-subscriptions"
               href={getManageSubscriptionURL(account)}
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <Localized id="manage-subscriptions">
                 <span />
               </Localized>
               <SettingsIcon />
             </a>
-          }>
+          }
+        >
           <div className="email-section">
             {isSubscribed == null ? (
               <div />
@@ -138,7 +128,8 @@ function Settings(props: Props) {
                   id="email-opt-in-privacy"
                   elems={{
                     privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
-                  }}>
+                  }}
+                >
                   <div />
                 </Localized>
                 <br />

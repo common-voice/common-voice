@@ -1,8 +1,8 @@
-import * as React from 'react'
-import { Localized } from '@fluent/react'
+import * as React from 'react';
+import { Localized } from '@fluent/react';
 
 const HowAddSentences = React.memo(() => {
-  const strong = <strong />
+  const strong = <strong />;
 
   return (
     <>
@@ -24,7 +24,8 @@ const HowAddSentences = React.memo(() => {
               rel="noopener noreferrer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
       <Localized
@@ -51,7 +52,8 @@ const HowAddSentences = React.memo(() => {
               rel="noopener noreferrer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
       <Localized
@@ -65,13 +67,14 @@ const HowAddSentences = React.memo(() => {
               rel="noopener noreferrer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
     </>
-  )
-})
+  );
+});
 
-HowAddSentences.displayName = 'HowAddSentences'
+HowAddSentences.displayName = 'HowAddSentences';
 
-export default HowAddSentences
+export default HowAddSentences;

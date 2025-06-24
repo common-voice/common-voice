@@ -19,7 +19,8 @@ const HowAddLanguage = React.memo(() => {
               rel="noopener noreferer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
       <Localized
@@ -32,7 +33,8 @@ const HowAddLanguage = React.memo(() => {
               rel="noopener noreferer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
     </>

@@ -34,9 +34,7 @@ const ErrorSlowBanner = () => {
     },
   };
 
-  return (
-    <NotificationBanner key="error-slow-banner" notification={notification} />
-  );
+  return <NotificationBanner key="error-slow-banner" notification={notification} />;
 };
 
 export default ErrorSlowBanner;

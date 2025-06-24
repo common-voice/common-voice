@@ -24,8 +24,7 @@ export const up = async function (db: any): Promise<any> {
       FOREIGN KEY (locale_id) REFERENCES locales(id) ON DELETE CASCADE
       -- FOREIGN KEY (submitter) REFERENCES user_clients(client_id) ON DELETE SET NULL,
       -- FOREIGN KEY (reviewer) REFERENCES user_clients(client_id) ON DELETE SET NULL
-    )`
-  );
+    )`);
 };
 
 export const down = async function (db: any): Promise<any> {

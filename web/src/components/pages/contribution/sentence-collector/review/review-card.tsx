@@ -1,14 +1,14 @@
-import { Localized } from '@fluent/react'
-import classNames from 'classnames'
-import * as React from 'react'
+import { Localized } from '@fluent/react';
+import classNames from 'classnames';
+import * as React from 'react';
 
 type Props = {
-  sentence: string
-  source: string
-  index: number
-  isActive: boolean
-  activeSentenceIndex: number
-}
+  sentence: string;
+  source: string;
+  index: number;
+  isActive: boolean;
+  activeSentenceIndex: number;
+};
 
 const ReviewCard: React.FC<Props> = ({
   sentence,
@@ -22,20 +22,17 @@ const ReviewCard: React.FC<Props> = ({
     style={{
       transform: [
         `scale(${isActive ? 1 : 0.9})`,
-        `translateX(${
-          (document.dir == 'rtl' ? -1 : 1) *
-          (index - activeSentenceIndex) *
-          -130
-        }%)`,
+        `translateX(${(document.dir == 'rtl' ? -1 : 1) * (index - activeSentenceIndex) * -130}%)`,
       ].join(' '),
       opacity: index < activeSentenceIndex ? 0 : 1,
     }}
-    data-testid={`${isActive ? 'active-review-card' : 'review-card'}`}>
+    data-testid={`${isActive ? 'active-review-card' : 'review-card'}`}
+  >
     <p className="sentence">{sentence}</p>
     <Localized id="sc-my-source" vars={{ source }}>
       <p className="source" />
     </Localized>
   </div>
-)
+);
 
-export default ReviewCard
+export default ReviewCard;

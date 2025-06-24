@@ -1,7 +1,7 @@
-import { taskEither as TE } from 'fp-ts'
-import Mysql, { getMySQLInstance } from '../../lib/model/db/mysql'
+import { taskEither as TE } from 'fp-ts';
+import Mysql, { getMySQLInstance } from '../../lib/model/db/mysql';
 
-const db: Mysql = getMySQLInstance()
+const db: Mysql = getMySQLInstance();
 
 const query =
   (db: Mysql) =>
@@ -10,7 +10,7 @@ const query =
     return TE.tryCatch(
       () => db.query(query, parameters),
       (err: Error) => err
-    )
-  }
+    );
+  };
 
-export const queryDb = query(db)
+export const queryDb = query(db);

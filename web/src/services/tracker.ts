@@ -117,19 +117,12 @@ export function trackDataset(action: string, locale: string) {
   track('Data', action, locale);
 }
 
-export function trackSharing(
-  channel: 'facebook' | 'twitter' | 'link',
-  locale: string
-) {
+export function trackSharing(channel: 'facebook' | 'twitter' | 'link', locale: string) {
   track('Sharing', channel, locale);
 }
 
 export function trackDashboard(
-  action:
-    | 'speak-cta'
-    | 'listen-cta'
-    | 'change-language'
-    | 'leaderboard-load-more',
+  action: 'speak-cta' | 'listen-cta' | 'change-language' | 'leaderboard-load-more',
   locale: string
 ) {
   track('Dashboard', action, locale);
@@ -140,11 +133,7 @@ export function trackLanding(action: 'speak' | 'profile' | 'about') {
 }
 
 export function trackChallenge(
-  action:
-    | 'dashboard-view'
-    | 'modal-invite'
-    | 'modal-onboarding'
-    | 'modal-welcome'
+  action: 'dashboard-view' | 'modal-invite' | 'modal-onboarding' | 'modal-welcome'
 ) {
   track('Challenge', action);
 }
@@ -154,10 +143,8 @@ export const trackSingleReview = (
   locale: string
 ) => track('SingleReview', action, locale);
 
-export const trackSingleSubmission = (
-  action: 'toggle-button-click' | 'submit',
-  locale: string
-) => track('SingleSubmission', action, locale);
+export const trackSingleSubmission = (action: 'toggle-button-click' | 'submit', locale: string) =>
+  track('SingleSubmission', action, locale);
 
 export const trackBulkSubmission = (
   action:

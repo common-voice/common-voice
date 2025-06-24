@@ -17,7 +17,8 @@ export function Fraction({
     <div
       className={`fraction${className ? ` ${className}` : ''}${
         typeof numerator === 'number' && numerator <= 99 ? ' md-right' : ''
-      }`}>
+      }`}
+    >
       <div className="numerator">{numerator}</div>
       {/* <div className="denominator">
         {percentage ? ' % ' : ' / '}
@@ -37,14 +38,7 @@ const Circle = ({
   strokeW: number;
   center: number;
 }) => (
-  <circle
-    strokeWidth={strokeW}
-    r={radius}
-    cx={center}
-    cy={center}
-    fill="transparent"
-    {...rest}
-  />
+  <circle strokeWidth={strokeW} r={radius} cx={center} cy={center} fill="transparent" {...rest} />
 );
 
 const RADIUS = 30;
@@ -72,9 +66,7 @@ export function CircleProgress({
   const center = radius + strokeW;
   const size = center * 2;
   return (
-    <div
-      className={`circle-progress ${className}`}
-      style={{ color: 'var(--red)' }}>
+    <div className={`circle-progress ${className}`} style={{ color: 'var(--red)' }}>
       <svg width={size} height={size}>
         <Circle radius={radius} strokeW={strokeW} center={center} />
         <Circle
@@ -83,9 +75,7 @@ export function CircleProgress({
           center={center}
           className="progress-circle"
           strokeDasharray={circumference}
-          strokeDashoffset={
-            circumference * Math.max(1 - value / (denominator || 1), 0)
-          }
+          strokeDashoffset={circumference * Math.max(1 - value / (denominator || 1), 0)}
         />
         {/* {!denominator && (
             <text
@@ -101,9 +91,7 @@ export function CircleProgress({
         <Fraction numerator={value} denominator={denominator} />
       ) : (
         <Fraction
-          numerator={
-            Math.round(100 * value) >= 100 ? '100' : Math.round(100 * value)
-          }
+          numerator={Math.round(100 * value) >= 100 ? '100' : Math.round(100 * value)}
           percentage
         />
       )}

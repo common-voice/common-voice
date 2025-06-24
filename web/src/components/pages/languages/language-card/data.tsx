@@ -18,18 +18,11 @@ import styles from './data.module.css';
 
 const TRANSLATED_MIN_PROGRESS_PERCENTAGE = 60;
 
-const LanguageCardDataLaunched = ({
-  language,
-}: {
-  language: LanguageStatistics;
-}) => {
-  const { recordedHours, validatedHours, speakersCount, sentencesCount } =
-    language;
+const LanguageCardDataLaunched = ({ language }: { language: LanguageStatistics }) => {
+  const { recordedHours, validatedHours, speakersCount, sentencesCount } = language;
 
   const validationPercent =
-    validatedHours && recordedHours
-      ? Math.ceil((validatedHours / recordedHours) * 100)
-      : 0;
+    validatedHours && recordedHours ? Math.ceil((validatedHours / recordedHours) * 100) : 0;
 
   return (
     <div className={styles.Data}>
@@ -54,9 +47,7 @@ const LanguageCardDataLaunched = ({
           <IconValidationProgress className={styles.DataItemHeadingIcon} />
           <Localized id="language-validation-progress" />
         </h4>
-        <p
-          data-testid="clip-validation-percent"
-          className={styles.DataItemValue}>
+        <p data-testid="clip-validation-percent" className={styles.DataItemValue}>
           {validationPercent}%
         </p>
         <ProgressBar percentageValue={validationPercent} />
@@ -72,11 +63,7 @@ const LanguageCardDataLaunched = ({
   );
 };
 
-const LanguageCardDataInProgress = ({
-  language,
-}: {
-  language: LanguageStatistics;
-}) => {
+const LanguageCardDataInProgress = ({ language }: { language: LanguageStatistics }) => {
   const { sentencesCount, localizedPercentage } = language;
 
   return (
@@ -88,9 +75,9 @@ const LanguageCardDataInProgress = ({
         </h4>
         <p
           className={classNames(styles.DataItemValue, {
-            [styles.DataItemValuePassed]:
-              localizedPercentage > TRANSLATED_MIN_PROGRESS_PERCENTAGE,
-          })}>
+            [styles.DataItemValuePassed]: localizedPercentage > TRANSLATED_MIN_PROGRESS_PERCENTAGE,
+          })}
+        >
           {localizedPercentage}%
         </p>
       </div>
@@ -103,7 +90,8 @@ const LanguageCardDataInProgress = ({
           className={classNames(styles.DataItemValue, {
             [styles.DataItemValuePassed]:
               sentencesCount.currentCount >= sentencesCount.targetSentenceCount,
-          })}>
+          })}
+        >
           {sentencesCount.currentCount}
           <small> / {sentencesCount.targetSentenceCount}</small>
         </p>
@@ -120,15 +108,11 @@ const LanguageCardData = ({
   language: LanguageStatistics;
 }) => {
   if (type === 'launched') {
-    return (
-      <LanguageCardDataLaunched language={language as LanguageStatistics} />
-    );
+    return <LanguageCardDataLaunched language={language as LanguageStatistics} />;
   }
 
   if (type === 'in-progress') {
-    return (
-      <LanguageCardDataInProgress language={language as LanguageStatistics} />
-    );
+    return <LanguageCardDataInProgress language={language as LanguageStatistics} />;
   }
 
   return null;

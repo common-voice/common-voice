@@ -9,17 +9,10 @@ interface Props {
   isCentered?: boolean;
   dataTestId?: string;
 }
-const Page = ({
-  children,
-  className,
-  isCentered = false,
-  dataTestId,
-}: Props) => {
+const Page = ({ children, className, isCentered = false, dataTestId }: Props) => {
   return (
     <div className={classNames('page', className)} data-testid={dataTestId}>
-      <div className={classNames({ page__wrapper: isCentered })}>
-        {children}
-      </div>
+      <div className={classNames({ page__wrapper: isCentered })}>{children}</div>
     </div>
   );
 };

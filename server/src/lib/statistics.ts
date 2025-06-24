@@ -28,26 +28,10 @@ export default class Statistics {
 
     router.get('/clips', validate({ query: clipStatSchema }), this.clipCount);
     router.get('/metadata', validate({ query: yearStatSchema }), this.getMetadata);
-    router.get(
-      '/downloads',
-      validate({ query: downloadStatSchema }),
-      this.downloadCount
-    );
-    router.get(
-      '/speakers',
-      validate({ query: speakerStatSchema }),
-      this.uniqueSpeakers
-    );
-    router.get(
-      '/accounts',
-      validate({ query: accountStatSchema }),
-      this.accountCount
-    );
-    router.get(
-      '/sentences',
-      validate({ query: sentenceStatSchema }),
-      this.sentenceCount
-    );
+    router.get('/downloads', validate({ query: downloadStatSchema }), this.downloadCount);
+    router.get('/speakers', validate({ query: speakerStatSchema }), this.uniqueSpeakers);
+    router.get('/accounts', validate({ query: accountStatSchema }), this.accountCount);
+    router.get('/sentences', validate({ query: sentenceStatSchema }), this.sentenceCount);
 
     return router;
   }
@@ -57,7 +41,7 @@ export default class Statistics {
 
     return response.json(await getStatistics(TableNames.DOWNLOADS, options));
   };
-  
+
   uniqueSpeakers = async (request: Request, response: Response) => {
     const options = request.query as QueryOptions;
 
@@ -78,25 +62,19 @@ export default class Statistics {
 
   accountCount = async (request: Request, response: Response) => {
     const options = request.query as QueryOptions;
-    
-    return response.json(
-      await getStatistics(TableNames.USERS, { ...options, filter: 'hasEmail' })
-    );
+
+    return response.json(await getStatistics(TableNames.USERS, { ...options, filter: 'hasEmail' }));
   };
 
   sentenceCount = async (request: Request, response: Response) => {
     const options = request.query as QueryOptions;
 
-    return response.json(
-      await getStatistics(TableNames.SENTENCES, options)
-    );
+    return response.json(await getStatistics(TableNames.SENTENCES, options));
   };
 
   getMetadata = async (request: Request, response: Response) => {
     const options = request.query as QueryOptions;
 
-    return response.json(
-      await getMetadataQueryHandler(TableNames.CLIPS, options)
-    );
+    return response.json(await getMetadataQueryHandler(TableNames.CLIPS, options));
   };
 }

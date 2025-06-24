@@ -9,7 +9,6 @@ import PageHeading from '../../../ui/page-heading';
 import './request.css';
 import { COMMON_VOICE_EMAIL } from '../../../../constants';
 
-
 const LanguagesRequestSuccessPage = () => {
   return (
     <Page className="languages-request-page languages-request-page--success">
@@ -33,7 +32,8 @@ const LanguagesRequestSuccessPage = () => {
                 elems={{
                   emailLink: <StyledLink href={`mailto:${COMMON_VOICE_EMAIL}`} />,
                 }}
-                vars={{ email: COMMON_VOICE_EMAIL }}>
+                vars={{ email: COMMON_VOICE_EMAIL }}
+              >
                 <li />
               </Localized>
             </ul>

@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import pick from 'lodash.pick';
@@ -81,8 +77,7 @@ const Item = ({
       {isDisabled ? (
         <span className="download-disabled">{disabledReason}</span>
       ) : (
-        <Localized
-          id={type === 'clips' ? 'download-request' : 'download-start'}>
+        <Localized id={type === 'clips' ? 'download-request' : 'download-start'}>
           <Button rounded className="download-button" onClick={action} />
         </Localized>
       )}
@@ -130,7 +125,8 @@ const Request = ({
             hour: 'numeric',
             minute: 'numeric',
           }),
-        }}>
+        }}
+      >
         <p className="download-request-title" />
       </Localized>
       {request.state === TakeoutState.AVAILABLE ? (
@@ -142,7 +138,8 @@ const Request = ({
           ) : (
             <Localized
               id="download-request-archive-multiple"
-              vars={{ archiveCount: request.archive_count }}>
+              vars={{ archiveCount: request.archive_count }}
+            >
               <span />
             </Localized>
           )}
@@ -152,15 +149,13 @@ const Request = ({
             vars={{
               size: sizeFormatter(request.clip_total_size),
               clipCount: request.clip_count,
-              expires: new Date(request.expiration_date).toLocaleDateString(
-                [],
-                {
-                  day: 'numeric',
-                  month: 'long',
-                  year: 'numeric',
-                }
-              ),
-            }}>
+              expires: new Date(request.expiration_date).toLocaleDateString([], {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric',
+              }),
+            }}
+          >
             <span />
           </Localized>
         </p>
@@ -174,7 +169,8 @@ const Request = ({
           rounded
           outline
           className="download-request-button"
-          onClick={() => onRequestLinks(request.id)}>
+          onClick={() => onRequestLinks(request.id)}
+        >
           <CloudIcon />{' '}
           <Localized id="download-request-button">
             <span />
@@ -186,7 +182,8 @@ const Request = ({
           outline
           disabled={refreshing}
           className="download-request-button"
-          onClick={doRefresh}>
+          onClick={doRefresh}
+        >
           <RedoIcon />{' '}
           <Localized id="download-request-refresh-button">
             <span />
@@ -204,14 +201,8 @@ interface LinkModalProps extends ModalProps {
   api: API;
 }
 
-const LinkModal = ({
-  title,
-  description,
-  requestId,
-  api,
-  ...props
-}: LinkModalProps) => {
-  const [links, setLinks] = useState({parts: [], metadata: ''});
+const LinkModal = ({ title, description, requestId, api, ...props }: LinkModalProps) => {
+  const [links, setLinks] = useState({ parts: [], metadata: '' });
 
   useEffect(() => {
     api
@@ -229,7 +220,8 @@ const LinkModal = ({
               <li key={i}>
                 <Localized
                   id="download-request-link-text"
-                  vars={{ offset: i + 1, total: links.parts.length }}>
+                  vars={{ offset: i + 1, total: links.parts.length }}
+                >
                   {/* Localized injects content into child tag */}
                   {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
                   <a key={link} href={link} target="_blank" rel="noreferrer" />
@@ -240,12 +232,7 @@ const LinkModal = ({
               <Localized id="download-request-metadata-link">
                 {/* Localized injects content into child tag */}
                 {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-                <a
-                  key={links.metadata}
-                  href={links.metadata}
-                  target="_blank"
-                  rel="noreferrer"
-                />
+                <a key={links.metadata} href={links.metadata} target="_blank" rel="noreferrer" />
               </Localized>
             </li>
           </ul>
@@ -268,10 +255,7 @@ const LinkModal = ({
 };
 
 export function downloadTextAsFile(filename: string, text: string) {
-  return downloadAsFile(
-    filename,
-    'data:text/plain;charset=utf-8,' + encodeURIComponent(text)
-  );
+  return downloadAsFile(filename, 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
 }
 
 function downloadAsFile(filename: string, url: string) {
@@ -293,11 +277,7 @@ export function getProfileInfo(account: UserClient) {
         .slice(1)
         .map((accent: Accent) => accent.name)
         .join(', ');
-      const arr = [
-        ...all,
-        [localeLabel, l.locale],
-        [localeLabel + ' accent(s)', accents],
-      ];
+      const arr = [...all, [localeLabel, l.locale], [localeLabel + ' accent(s)', accents]];
       return arr;
     }, []),
   ]
@@ -311,8 +291,7 @@ function download(
   type: 'profile' | 'clips',
   forceTakeoutRefresh: () => void
 ) {
-  if (type === 'profile')
-    downloadTextAsFile('profile.txt', getProfileInfo(account));
+  if (type === 'profile') downloadTextAsFile('profile.txt', getProfileInfo(account));
 
   if (type === 'clips')
     api
@@ -342,8 +321,7 @@ function DownloadProfile(props: WithLocalizationProps) {
   useEffect(() => {
     setHasAnyPendingTakeout(
       (takeouts || []).reduce(
-        (acc: boolean, t: TakeoutRequest) =>
-          acc || t.state !== TakeoutState.AVAILABLE,
+        (acc: boolean, t: TakeoutRequest) => acc || t.state !== TakeoutState.AVAILABLE,
         false
       )
     );
@@ -353,8 +331,7 @@ function DownloadProfile(props: WithLocalizationProps) {
         return (
           acc ||
           serverDate.getTime() <=
-            new Date(t.requested_date).getTime() +
-              REQUEST_LIMIT * 24 * 60 * 60 * 1000
+            new Date(t.requested_date).getTime() + REQUEST_LIMIT * 24 * 60 * 60 * 1000
         );
       }, false)
     );
@@ -371,9 +348,7 @@ function DownloadProfile(props: WithLocalizationProps) {
           onRequestClose={() => setTakeoutRequestId(null)}
         />
       )}
-      <Section
-        title={getString('download-q')}
-        info={getString('download-info')}>
+      <Section title={getString('download-q')} info={getString('download-info')}>
         <Item
           icon={<UserIcon />}
           title={getString('download-profile-title')}
@@ -407,7 +382,8 @@ function DownloadProfile(props: WithLocalizationProps) {
           info={getString('download-requests-info')}
           id="requests"
           className="download-requests"
-          key={takeoutRefresh}>
+          key={takeoutRefresh}
+        >
           {takeouts.map((request: TakeoutRequest) => (
             <Request
               key={request.id}

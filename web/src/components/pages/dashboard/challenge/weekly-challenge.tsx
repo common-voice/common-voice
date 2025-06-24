@@ -7,11 +7,7 @@ import { FINAL_CHALLENGE_WEEK, weeklyChallengeCopy } from './constants';
 import { ChevronDown } from '../../../ui/icons';
 import './weekly-challenge.css';
 
-export default function WeeklyChallenge({
-  weekly,
-}: {
-  weekly?: WeeklyChallenge;
-}) {
+export default function WeeklyChallenge({ weekly }: { weekly?: WeeklyChallenge }) {
   let currentWeek = weekly.week;
   let pastWeek: Array<number> = [];
   switch (currentWeek) {
@@ -36,11 +32,7 @@ export default function WeeklyChallenge({
         <div className="weeks">
           <span className="week">Week</span>
           {weeklyChallengeCopy.map((_, index) => (
-            <span
-              key={index}
-              className={`week-number ${
-                currentWeek === index ? 'active' : ''
-              }`}>
+            <span key={index} className={`week-number ${currentWeek === index ? 'active' : ''}`}>
               {index + 1}
             </span>
           ))}
@@ -51,10 +43,7 @@ export default function WeeklyChallenge({
               notification =>
                 notification.kind == 'pill' &&
                 notification.type === 'achievement' && (
-                  <NotificationPill
-                    key={notification.id}
-                    notification={notification}
-                  />
+                  <NotificationPill key={notification.id} notification={notification} />
                 )
             )
             .reverse()}
@@ -89,9 +78,9 @@ export default function WeeklyChallenge({
           </div>
         )}
         <div>
-          <p className="weekly-title">{`${
-            currentWeek ? 'Past' : 'Future'
-          } challenge${currentWeek === FINAL_CHALLENGE_WEEK ? 's' : ''}`}</p>
+          <p className="weekly-title">{`${currentWeek ? 'Past' : 'Future'} challenge${
+            currentWeek === FINAL_CHALLENGE_WEEK ? 's' : ''
+          }`}</p>
           {currentWeek === 0
             ? weekly && (
                 <WeeklyChallengeBoard

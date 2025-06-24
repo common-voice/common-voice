@@ -1,4 +1,4 @@
-import { ERR_OTHER, ValidatorRule } from '../../types/validators'
+import { ERR_OTHER, ValidatorRule } from '../../types/validators';
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
@@ -25,6 +25,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'Sentence should not end with a comma',
     errorType: ERR_OTHER,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

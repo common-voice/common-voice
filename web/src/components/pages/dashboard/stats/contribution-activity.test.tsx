@@ -1,12 +1,6 @@
 import * as React from 'react';
 import { axe, toHaveNoViolations } from 'jest-axe';
-import {
-  act,
-  waitFor,
-  fireEvent,
-  RenderResult,
-  render,
-} from '@testing-library/react';
+import { act, waitFor, fireEvent, RenderResult, render } from '@testing-library/react';
 
 import ContributionActivity from './contribution-activity';
 
@@ -51,9 +45,7 @@ describe('ProfileInfoLanguages', () => {
       // we change tab and update the props
       rerender(<ContributionActivity from="everyone" locale="en" />);
 
-      await waitFor(() =>
-        expect(mockFetchContributionActivity).toBeCalledWith('everyone', 'en')
-      );
+      await waitFor(() => expect(mockFetchContributionActivity).toBeCalledWith('everyone', 'en'));
     });
   });
 });

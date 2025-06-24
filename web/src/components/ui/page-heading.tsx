@@ -12,7 +12,8 @@ const PageHeading = ({ children, isLight = false }: Props) => {
     <h1
       className={classNames('page-heading', {
         'page-heading--is-light': isLight,
-      })}>
+      })}
+    >
       {children}
     </h1>
   );

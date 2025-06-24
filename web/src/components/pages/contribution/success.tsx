@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { DAILY_GOALS } from '../../../constants';
@@ -18,13 +14,7 @@ import './success.css';
 
 const COUNT_UP_MS = 500; // should be kept in sync with .contribution-success .done transition duration
 
-const GoalPercentage = ({
-  current,
-  final,
-}: {
-  current: number;
-  final: number;
-}) => (
+const GoalPercentage = ({ current, final }: { current: number; final: number }) => (
   <span className="goal-percentage">
     <span className="final">{final}%</span>
     <span className="current">{current}%</span>
@@ -45,8 +35,7 @@ function Success({
   const [locale, toLocaleRoute] = useLocale();
 
   const hasAccount = Boolean(account);
-  const customGoal =
-    hasAccount && account.custom_goals?.find(g => g.locale == locale);
+  const customGoal = hasAccount && account.custom_goals?.find(g => g.locale == locale);
   const goalValue = DAILY_GOALS[type][0];
 
   const killAnimation = useRef(false);
@@ -70,10 +59,7 @@ function Success({
   }
 
   useEffect(() => {
-    (type === 'speak'
-      ? api.fetchDailyClipsCount()
-      : api.fetchDailyVotesCount()
-    ).then(value => {
+    (type === 'speak' ? api.fetchDailyClipsCount() : api.fetchDailyVotesCount()).then(value => {
       setContributionCount(value + SET_COUNT);
     });
     return () => {
@@ -87,31 +73,18 @@ function Success({
     }
   }, [contributionCount]);
 
-  const finalPercentage = Math.ceil(
-    (100 * (contributionCount || 0)) / goalValue
-  );
+  const finalPercentage = Math.ceil((100 * (contributionCount || 0)) / goalValue);
 
   const ContributeMoreButton = (props: { children: React.ReactNode }) =>
     hasAccount ? (
-      <Button
-        className="contribute-more-button"
-        rounded
-        onClick={onReset}
-        {...props}
-      />
+      <Button className="contribute-more-button" rounded onClick={onReset} {...props} />
     ) : (
-      <TextButton
-        className="contribute-more-button secondary"
-        onClick={onReset}
-        {...props}
-      />
+      <TextButton className="contribute-more-button secondary" onClick={onReset} {...props} />
     );
 
   const goalPercentage = (
     <GoalPercentage
-      current={Math.ceil(
-        (100 * (currentCount === null ? 0 : currentCount)) / goalValue
-      )}
+      current={Math.ceil((100 * (currentCount === null ? 0 : currentCount)) / goalValue)}
       final={finalPercentage}
     />
   );
@@ -123,7 +96,8 @@ function Success({
         <Localized
           id="clips-with-count-pluralized"
           elems={{ bold: <b /> }}
-          vars={{ count: SET_COUNT + '/' + SET_COUNT }}>
+          vars={{ count: SET_COUNT + '/' + SET_COUNT }}
+        >
           <span className="text" />
         </Localized>
       </div>
@@ -131,7 +105,8 @@ function Success({
       <Localized
         id={type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'}
         elems={{ goalPercentage }}
-        vars={{ goalValue }}>
+        vars={{ goalValue }}
+      >
         <h1 />
       </Localized>
 
@@ -146,6 +121,7 @@ function Success({
 
       {hasAccount ? (
         <div />
+      ) : (
         // !customGoal && (
         //   <div className="info-card">
         //     <Localized
@@ -162,8 +138,7 @@ function Success({
         //     </Localized>
         //   </div>
         // )
-      ) : (
-        <div className="info-card"  style={{ display: 'none' }}>
+        <div className="info-card" style={{ display: 'none' }}>
           {/* <Localized id="profile-explanation">
             <p />
           </Localized>

@@ -26,10 +26,7 @@ export const BackgoundVoices: React.FC<SidebarContentProps> = ({
     <span className="line" />
     <div className="sidebar-content-header">
       <Localized id="background-voices">
-        <TextButton
-          onClick={toggleVisibleSection}
-          className="guidelines-content-heading"
-        />
+        <TextButton onClick={toggleVisibleSection} className="guidelines-content-heading" />
       </Localized>
       <ChevronDown
         onClick={toggleVisibleSection}
@@ -45,10 +42,7 @@ export const BackgoundVoices: React.FC<SidebarContentProps> = ({
           <Localized id="example">
             <p className="example" />
           </Localized>
-          <ExampleContent
-            exampleText="background-noise-example-1"
-            exampleTips={exampleTips}
-          />
+          <ExampleContent exampleText="background-noise-example-1" exampleTips={exampleTips} />
         </div>
       </div>
     )}

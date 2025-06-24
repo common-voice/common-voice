@@ -24,11 +24,7 @@ const LocalizedLocaleLink = ({
   const [locale] = useLocale();
   return (
     <Localized id={id}>
-      <LocaleLink
-        to={to}
-        onClick={() => trackNav(id, locale)}
-        data-testid={dataTestId}
-      />
+      <LocaleLink to={to} onClick={() => trackNav(id, locale)} data-testid={dataTestId} />
     </Localized>
   );
 };
@@ -71,7 +67,8 @@ const Footer = React.memo(() => {
                     href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
                   />
                 ),
-              }}>
+              }}
+            >
               <span />
             </Localized>
           </p>
@@ -79,16 +76,8 @@ const Footer = React.memo(() => {
         <div className="divider-bottom" />
         <div className="links">
           <div>
-            <LocalizedLocaleLink
-              id="privacy"
-              to={URLS.PRIVACY}
-              dataTestId="privacy-link"
-            />
-            <LocalizedLocaleLink
-              id="terms"
-              to={URLS.TERMS}
-              dataTestId="terms-link"
-            />
+            <LocalizedLocaleLink id="privacy" to={URLS.PRIVACY} dataTestId="privacy-link" />
+            <LocalizedLocaleLink id="terms" to={URLS.TERMS} dataTestId="terms-link" />
             <Localized id="cookies">
               <a
                 target="_blank"

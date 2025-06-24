@@ -18,10 +18,7 @@ export const ReviewingSentences: React.FC<SidebarContentProps> = ({
       <span className="line" />
       <div className="sidebar-content-header">
         <Localized id="reviewing-sentences">
-          <TextButton
-            onClick={toggleVisibleSection}
-            className="guidelines-content-heading"
-          />
+          <TextButton onClick={toggleVisibleSection} className="guidelines-content-heading" />
         </Localized>
         <ChevronDown
           onClick={toggleVisibleSection}

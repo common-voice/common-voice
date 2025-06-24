@@ -56,9 +56,7 @@ export function isMobileSafari(): boolean {
     isIOS() &&
     !window.navigator.standalone &&
     /AppleWebKit/i.test(window.navigator.userAgent) &&
-    !/Chrome|Focus|CriOS|OPiOS|OPT\/|FxiOS|EdgiOS|mercury/i.test(
-      window.navigator.userAgent
-    )
+    !/Chrome|Focus|CriOS|OPiOS|OPT\/|FxiOS|EdgiOS|mercury/i.test(window.navigator.userAgent)
   );
 }
 
@@ -97,9 +95,7 @@ export function getManageSubscriptionURL(account: UserClient) {
 export const getAudioFormat = (() => {
   const preferredFormat = 'audio/ogg; codecs=opus';
   const audio = document.createElement('audio');
-  const format = audio.canPlayType(preferredFormat)
-    ? preferredFormat
-    : 'audio/wav';
+  const format = audio.canPlayType(preferredFormat) ? preferredFormat : 'audio/wav';
   return function getAudioFormat() {
     return format;
   };
@@ -110,15 +106,11 @@ export async function hash(text: string) {
   const data = encoder.encode(text);
   const digest = await window.crypto.subtle.digest('SHA-256', data);
 
-  return [...new Uint8Array(digest)]
-    .map(value => value.toString(16).padStart(2, '0'))
-    .join('');
+  return [...new Uint8Array(digest)].map(value => value.toString(16).padStart(2, '0')).join('');
 }
 
 export function stringContains(haystack: string, needles: string) {
-  return (
-    haystack.toUpperCase().replace(SEARCH_REG_EXP, '').indexOf(needles) !== -1
-  );
+  return haystack.toUpperCase().replace(SEARCH_REG_EXP, '').indexOf(needles) !== -1;
 }
 
 export function doNotTrack() {

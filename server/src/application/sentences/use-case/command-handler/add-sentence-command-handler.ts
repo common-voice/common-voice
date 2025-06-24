@@ -1,11 +1,11 @@
-import { pipe } from 'fp-ts/lib/function'
-import { validateSentence } from '../../../../core/sentences'
-import { insertSentenceIntoDb } from '../../repository/sentences-repository'
-import { AddSentenceCommand } from './command/add-sentence-command'
-import { either as E, taskEither as TE } from 'fp-ts'
-import { ApplicationError } from '../../../types/error'
-import { createSentenceValidationError } from '../../../helper/error-helper'
-import { SentenceSubmission } from '../../../types/sentence-submission'
+import { pipe } from 'fp-ts/lib/function';
+import { validateSentence } from '../../../../core/sentences';
+import { insertSentenceIntoDb } from '../../repository/sentences-repository';
+import { AddSentenceCommand } from './command/add-sentence-command';
+import { either as E, taskEither as TE } from 'fp-ts';
+import { ApplicationError } from '../../../types/error';
+import { createSentenceValidationError } from '../../../helper/error-helper';
+import { SentenceSubmission } from '../../../types/sentence-submission';
 
 const createSentenceSubmissionFromCommand =
   (command: AddSentenceCommand) =>
@@ -15,7 +15,7 @@ const createSentenceSubmissionFromCommand =
     sentence: validatedSentence,
     source: command.source,
     corpus_id: command.corpus_id,
-  })
+  });
 
 export const AddSentenceCommandHandler = (
   command: AddSentenceCommand
@@ -27,5 +27,5 @@ export const AddSentenceCommandHandler = (
     E.map(createSentenceSubmissionFromCommand(command)),
     TE.fromEither,
     TE.chain(insertSentenceIntoDb)
-  )
-}
+  );
+};

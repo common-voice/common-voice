@@ -115,10 +115,7 @@ export default class Mysql {
   async query(...args: any[]) {
     let sqlQuery = args[0];
 
-    if (
-      QUERY_RULES.selectRead.test(sqlQuery) &&
-      !QUERY_RULES.selectWrite.test(sqlQuery)
-    ) {
+    if (QUERY_RULES.selectRead.test(sqlQuery) && !QUERY_RULES.selectWrite.test(sqlQuery)) {
       return (await this.getReadPool()).query(...args);
     }
     return (await this.getPool()).query(...args);
@@ -159,11 +156,7 @@ export default class Mysql {
   /**
    * Insert or update query generator.
    */
-  async upsert(
-    tableName: string,
-    columns: string[],
-    values: any[]
-  ): Promise<void> {
+  async upsert(tableName: string, columns: string[], values: any[]): Promise<void> {
     // Generate our bounded parameters.
     const params = values.map((val: any) => {
       return '?';

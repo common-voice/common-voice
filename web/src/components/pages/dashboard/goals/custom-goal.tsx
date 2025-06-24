@@ -60,8 +60,7 @@ function StepButtons({
         stepIndex < 5 &&
         [...(Array(4) as any).keys()].map(i => {
           const n = i + 1;
-          const isCompleted =
-            state[STATE_KEYS[n]] != null && touchedStepIndex >= n;
+          const isCompleted = state[STATE_KEYS[n]] != null && touchedStepIndex >= n;
           const isActive = n == stepIndex;
           return (
             <React.Fragment key={i}>
@@ -70,21 +69,19 @@ function StepButtons({
                   'step-button',
                   isActive ? 'active' : '',
                   isCompleted ? 'completed' : '',
-                ].join(' ')}>
+                ].join(' ')}
+              >
                 <button
                   type="button"
                   onClick={() => setStepIndex(n)}
-                  disabled={n > 1 && state[STATE_KEYS[n - 1]] == null}>
+                  disabled={n > 1 && state[STATE_KEYS[n - 1]] == null}
+                >
                   {n}
                 </button>
               </div>
               {n < 4 && (
                 <>
-                  <div
-                    className={
-                      'line ' + (isCompleted || isActive ? 'fill' : '')
-                    }
-                  />
+                  <div className={'line ' + (isCompleted || isActive ? 'fill' : '')} />
                   <div className={'line ' + (isCompleted ? 'fill' : '')} />
                 </>
               )}
@@ -106,8 +103,7 @@ function CompletedFields({
   states: any;
   stepIndex: number;
 }) {
-  const completedStates =
-    stepIndex > STEPS.SUBMIT ? [] : STATE_KEYS.slice(1, stepIndex);
+  const completedStates = stepIndex > STEPS.SUBMIT ? [] : STATE_KEYS.slice(1, stepIndex);
   return (
     <div className="fields completed">
       {completedStates.map(stateKey => {
@@ -125,14 +121,14 @@ function CompletedFields({
                       stateKey == 'type' && value == 'both'
                         ? 'both-speak-and-listen-long'
                         : labelId,
-                  })}>
+                  })}
+            >
               <span />
             </Localized>
             <button
               type="button"
-              onClick={() =>
-                setStepIndex(STATE_KEYS.findIndex(k => k == stateKey))
-              }>
+              onClick={() => setStepIndex(STATE_KEYS.findIndex(k => k == stateKey))}
+            >
               <PenIcon />
             </button>
           </Radio>
@@ -167,15 +163,13 @@ function CurrentFields({
                 ...state,
                 [currentStateKey]: value,
                 // reset following states
-                ...STATE_KEYS.slice(stepIndex + 1).reduce(
-                  (obj: any, key: string) => {
-                    obj[key] = null;
-                    return obj;
-                  },
-                  {}
-                ),
+                ...STATE_KEYS.slice(stepIndex + 1).reduce((obj: any, key: string) => {
+                  obj[key] = null;
+                  return obj;
+                }, {}),
               })
-            }>
+            }
+          >
             {currentStateKey == 'amount' ? (
               <>
                 <Localized id="n-clips-pluralized" vars={{ count: value }}>
@@ -197,11 +191,7 @@ function CurrentFields({
   );
 }
 
-export default function CustomGoal({
-  dashboardLocale,
-}: {
-  dashboardLocale: string;
-}) {
+export default function CustomGoal({ dashboardLocale }: { dashboardLocale: string }) {
   const { history, location } = useRouter();
   const api = useAPI();
   const account = useAccount();
@@ -225,9 +215,7 @@ export default function CustomGoal({
         daysInterval: customGoal.days_interval,
         amount: customGoal.amount,
         type:
-          Object.keys(customGoal.current).length == 1
-            ? Object.keys(customGoal.current)[0]
-            : 'both',
+          Object.keys(customGoal.current).length == 1 ? Object.keys(customGoal.current)[0] : 'both',
       }
     : {
         daysInterval: null,
@@ -299,7 +287,8 @@ export default function CustomGoal({
               handleNext(true);
             },
           }}
-          onRequestClose={() => setShowOverwriteModal(false)}>
+          onRequestClose={() => setShowOverwriteModal(false)}
+        >
           <Localized id="lose-goal-progress-warning">
             <span />
           </Localized>
@@ -320,7 +309,8 @@ export default function CustomGoal({
               setStepIndex(STEPS.INTRO);
             },
           }}
-          onRequestClose={() => setShowAbortEditModal(false)}>
+          onRequestClose={() => setShowAbortEditModal(false)}
+        >
           <Localized id="finish-editing">
             <span />
           </Localized>
@@ -338,11 +328,7 @@ export default function CustomGoal({
         {...{ state, stepIndex, touchedStepIndex }}
       />
       {showViewGoal ? (
-        <ViewGoal
-          locale={dashboardLocale}
-          onNext={() => handleNext()}
-          customGoal={customGoal}
-        />
+        <ViewGoal locale={dashboardLocale} onNext={() => handleNext()} customGoal={customGoal} />
       ) : (
         <Step
           closeButtonProps={{
@@ -351,12 +337,8 @@ export default function CustomGoal({
             },
             style: customGoal ? {} : { visibility: 'hidden' },
           }}
-          completedFields={
-            <CompletedFields {...{ setStepIndex, state, states, stepIndex }} />
-          }
-          currentFields={
-            <CurrentFields {...{ setState, state, states, stepIndex }} />
-          }
+          completedFields={<CompletedFields {...{ setStepIndex, state, states, stepIndex }} />}
+          currentFields={<CurrentFields {...{ setState, state, states, stepIndex }} />}
           nextButtonProps={{
             disabled:
               stepIndex > STEPS.INTRO &&

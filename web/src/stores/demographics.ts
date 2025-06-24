@@ -76,23 +76,20 @@ export const LEGACY_ACCENTS: any = {
   es: {
     nortepeninsular:
       'España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca)',
-    centrosurpeninsular:
-      'España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)',
+    centrosurpeninsular: 'España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)',
     surpeninsular: 'España: Sur peninsular (Andalucia, Extremadura, Murcia)',
     canario: 'España: Islas Canarias',
     mexicano: 'México',
     americacentral: 'América central',
     caribe:
       'Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México',
-    andino:
-      'Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina',
+    andino: 'Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina',
     rioplatense: 'Rioplatense: Argentina, Uruguay, este de Bolivia, Paraguay',
     chileno: 'Chileno: Chile, Cuyo',
     filipinas: 'Español de Filipinas',
   },
   eu: {
-    mendebalekoa:
-      'Mendebalekoa (Araka, Bizkaia, Gipuzkoako mendebaleko herri batzuk)',
+    mendebalekoa: 'Mendebalekoa (Araka, Bizkaia, Gipuzkoako mendebaleko herri batzuk)',
     erdialdekoa_nafarra: 'Erdialdekoa edo Nafarra (Gipuzkoa, Nafarroa)',
     nafarlapurtarra_zuberoatarra:
       'Nafar-lapurtarra edo Zuberotarra (Lapurdi, Nafarroa Beherea, Zuberoa)',

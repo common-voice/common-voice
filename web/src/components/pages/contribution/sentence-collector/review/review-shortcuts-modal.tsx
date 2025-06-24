@@ -1,30 +1,20 @@
-import React from 'react'
-import {
-  Localized,
-  WithLocalizationProps,
-  withLocalization,
-} from '@fluent/react'
+import React from 'react';
+import { Localized, WithLocalizationProps, withLocalization } from '@fluent/react';
 
-import Modal from '../../../../modal/modal'
+import Modal from '../../../../modal/modal';
 
 type Props = WithLocalizationProps & {
   shortcuts: {
-    key: string
-    label: string
-    icon?: React.ReactNode
-  }[]
-  toggleModalVisibility: () => void
-}
+    key: string;
+    label: string;
+    icon?: React.ReactNode;
+  }[];
+  toggleModalVisibility: () => void;
+};
 
-const ReviewShortCutsModal: React.FC<Props> = ({
-  getString,
-  shortcuts,
-  toggleModalVisibility,
-}) => {
+const ReviewShortCutsModal: React.FC<Props> = ({ getString, shortcuts, toggleModalVisibility }) => {
   return (
-    <Modal
-      innerClassName="shortcuts-modal"
-      onRequestClose={toggleModalVisibility}>
+    <Modal innerClassName="shortcuts-modal" onRequestClose={toggleModalVisibility}>
       <Localized id="shortcuts">
         <h1 />
       </Localized>
@@ -39,7 +29,7 @@ const ReviewShortCutsModal: React.FC<Props> = ({
         ))}
       </div>
     </Modal>
-  )
-}
+  );
+};
 
-export default withLocalization(ReviewShortCutsModal)
+export default withLocalization(ReviewShortCutsModal);

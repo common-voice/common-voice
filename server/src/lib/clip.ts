@@ -1,27 +1,27 @@
-import { NextFunction, Request, Response } from 'express'
-const PromiseRouter = require('express-promise-router')
-import { getConfig } from '../config-helper'
-import Model from './model'
-import getLeaderboard from './model/leaderboard'
-import { earnBonus, hasEarnedBonus } from './model/achievements'
-import * as Basket from './basket'
-import * as Sentry from '@sentry/node'
-import Bucket from './bucket'
-import Awards from './model/awards'
-import { checkGoalsAfterContribution } from './model/goals'
-import { ChallengeToken, challengeTokens } from 'common'
-import validate from './validation'
-import { clipsSchema } from './validation/clips'
-import { streamUploadToBucket } from '../infrastructure/storage/ociStorage'
-import { pipe } from 'fp-ts/lib/function'
-import { taskEither as TE, task as T, identity as Id } from 'fp-ts'
+import { NextFunction, Request, Response } from 'express';
+const PromiseRouter = require('express-promise-router');
+import { getConfig } from '../config-helper';
+import Model from './model';
+import getLeaderboard from './model/leaderboard';
+import { earnBonus, hasEarnedBonus } from './model/achievements';
+import * as Basket from './basket';
+import * as Sentry from '@sentry/node';
+import Bucket from './bucket';
+import Awards from './model/awards';
+import { checkGoalsAfterContribution } from './model/goals';
+import { ChallengeToken, challengeTokens } from 'common';
+import validate from './validation';
+import { clipsSchema } from './validation/clips';
+import { streamUploadToBucket } from '../infrastructure/storage/ociStorage';
+import { pipe } from 'fp-ts/lib/function';
+import { taskEither as TE, task as T, identity as Id } from 'fp-ts';
 
-const { promisify } = require('util')
-const Transcoder = require('stream-transcoder')
-const { Converter } = require('ffmpeg-stream')
-const { Readable, PassThrough } = require('stream')
-const mp3Duration = require('mp3-duration')
-const calcMp3Duration = promisify(mp3Duration)
+const { promisify } = require('util');
+const Transcoder = require('stream-transcoder');
+const { Converter } = require('ffmpeg-stream');
+const { Readable, PassThrough } = require('stream');
+const mp3Duration = require('mp3-duration');
+const calcMp3Duration = promisify(mp3Duration);
 
 enum ERRORS {
   MISSING_PARAM = 'MISSING_PARAM',
@@ -34,58 +34,48 @@ enum ERRORS {
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  private bucket: Bucket
-  private model: Model
+  private bucket: Bucket;
+  private model: Model;
 
   constructor(model: Model) {
-    this.model = model
-    this.bucket = new Bucket(this.model)
+    this.model = model;
+    this.bucket = new Bucket(this.model);
   }
 
   getRouter() {
-    const router = PromiseRouter({ mergeParams: true })
+    const router = PromiseRouter({ mergeParams: true });
 
-    router.use(
-      (
-        { client_id, params }: Request,
-        response: Response,
-        next: NextFunction
-      ) => {
-        const { locale, corpus_id } = params
+    router.use(({ client_id, params }: Request, response: Response, next: NextFunction) => {
+      const { locale, corpus_id } = params;
 
-        if (client_id && locale) {
-          this.model.db
-            .saveActivity(client_id, locale, corpus_id)
-            .catch((error: any) => console.error('activity save error', error))
-        }
-
-        next()
+      if (client_id && locale) {
+        this.model.db
+          .saveActivity(client_id, locale, corpus_id)
+          .catch((error: any) => console.error('activity save error', error));
       }
-    )
 
-    router.post('/:clipId/votes', this.saveClipVote)
-    router.post('*', this.saveClip)
+      next();
+    });
 
-    router.get('/daily_count', this.serveDailyCount)
-    router.get('/stats/:corpus_id?', this.serveClipsStats)
-    router.get('/leaderboard', this.serveClipLeaderboard)
-    router.get('/votes/leaderboard', this.serveVoteLeaderboard)
-    router.get('/voices/:corpus_id?', this.serveVoicesStats)
-    router.get('/votes/daily_count', this.serveDailyVotesCount)
-    router.get('/:clip_id', this.serveClip)
+    router.post('/:clipId/votes', this.saveClipVote);
+    router.post('*', this.saveClip);
+
+    router.get('/daily_count', this.serveDailyCount);
+    router.get('/stats/:corpus_id?', this.serveClipsStats);
+    router.get('/leaderboard', this.serveClipLeaderboard);
+    router.get('/votes/leaderboard', this.serveVoteLeaderboard);
+    router.get('/voices/:corpus_id?', this.serveVoicesStats);
+    router.get('/votes/daily_count', this.serveDailyVotesCount);
+    router.get('/:clip_id', this.serveClip);
     // router.get(
     //   '/c/:corpus_id',
     //   validate({ query: clipsSchema }),
     //   this.serveRandomClips
     // )
-    router.get(
-      '/c/:corpus_id',
-      validate({ query: clipsSchema }),
-      this.serveRandomClips
-    )
-    router.get('*', validate({ query: clipsSchema }), this.serveRandomClips)
+    router.get('/c/:corpus_id', validate({ query: clipsSchema }), this.serveRandomClips);
+    router.get('*', validate({ query: clipsSchema }), this.serveRandomClips);
 
-    return router
+    return router;
   }
 
   /*
@@ -100,31 +90,28 @@ export default class Clip {
     fingerprint: string,
     type: 'vote' | 'clip'
   ) {
-    const compiledError = `save_${type}_error: ${fingerprint}: ${msg}`
-    response.status(status).send(compiledError)
+    const compiledError = `save_${type}_error: ${fingerprint}: ${msg}`;
+    response.status(status).send(compiledError);
 
     Sentry.withScope(scope => {
       // group errors together based on their request and response
-      scope.setFingerprint([`save_${type}_error`, fingerprint])
-      Sentry.captureEvent({ request: { headers }, message: compiledError })
-    })
+      scope.setFingerprint([`save_${type}_error`, fingerprint]);
+      Sentry.captureEvent({ request: { headers }, message: compiledError });
+    });
   }
 
   serveClip = async ({ params }: Request, response: Response) => {
-    const url = await this.bucket.getClipUrl(params.clip_id)
+    const url = await this.bucket.getClipUrl(params.clip_id);
     if (url) {
-      response.redirect(await this.bucket.getClipUrl(params.clip_id))
+      response.redirect(await this.bucket.getClipUrl(params.clip_id));
     } else {
-      response.json({})
+      response.json({});
     }
-  }
+  };
 
-  saveClipVote = async (
-    { client_id, body, params, headers }: Request,
-    response: Response
-  ) => {
-    const id = params.clipId as string
-    const { isValid, challenge } = body
+  saveClipVote = async ({ client_id, body, params, headers }: Request, response: Response) => {
+    const id = params.clipId as string;
+    const { isValid, challenge } = body;
 
     if (!id || !client_id) {
       this.clipSaveError(
@@ -134,43 +121,29 @@ export default class Clip {
         `missing parameter: ${id ? 'client_id' : 'clip_id'}`,
         ERRORS.MISSING_PARAM,
         'vote'
-      )
-      return
+      );
+      return;
     }
 
-    const clip = await this.model.db.findClip(id)
+    const clip = await this.model.db.findClip(id);
     if (!clip) {
-      this.clipSaveError(
-        headers,
-        response,
-        422,
-        `clip not found`,
-        ERRORS.CLIP_NOT_FOUND,
-        'vote'
-      )
-      return
+      this.clipSaveError(headers, response, 422, `clip not found`, ERRORS.CLIP_NOT_FOUND, 'vote');
+      return;
     }
 
-    const glob = clip.path.replace('.mp3', '')
+    const glob = clip.path.replace('.mp3', '');
 
-    await this.model.db.saveVote(id, client_id, isValid)
-    await Awards.checkProgress(
-      client_id,
-      { id: clip.locale_id },
-      clip.corpus_id
-    )
-    await checkGoalsAfterContribution(client_id, { id: clip.locale_id })
+    await this.model.db.saveVote(id, client_id, isValid);
+    await Awards.checkProgress(client_id, { id: clip.locale_id }, clip.corpus_id);
+    await checkGoalsAfterContribution(client_id, { id: clip.locale_id });
     // move it to the last line and leave a trace here in case of serious performance issues
     // response.json(ret);
 
-    Basket.sync(client_id).catch(e => console.error(e))
+    Basket.sync(client_id).catch(e => console.error(e));
     const ret = challengeTokens.includes(challenge)
       ? {
           glob: glob,
-          showFirstContributionToast: await earnBonus('first_contribution', [
-            challenge,
-            client_id,
-          ]),
+          showFirstContributionToast: await earnBonus('first_contribution', [challenge, client_id]),
           hasEarnedSessionToast: await hasEarnedBonus(
             'invite_contribute_same_session',
             client_id,
@@ -183,9 +156,9 @@ export default class Clip {
           ]),
           challengeEnded: await this.model.db.hasChallengeEnded(challenge),
         }
-      : { glob }
-    response.json(ret)
-  }
+      : { glob };
+    response.json(ret);
+  };
 
   /**
    * Save the request body as an audio file.
@@ -194,11 +167,11 @@ export default class Clip {
    */
 
   saveClip = async (request: Request, response: Response) => {
-    const { client_id, headers } = request
-    const sentenceId = headers.sentence_id as string
-    const source = headers.source || 'unidentified'
-    const format = headers['content-type']
-    const size = headers['content-length']
+    const { client_id, headers } = request;
+    const sentenceId = headers.sentence_id as string;
+    const source = headers.source || 'unidentified';
+    const format = headers['content-type'];
+    const size = headers['content-length'];
 
     if (!sentenceId || !client_id) {
       this.clipSaveError(
@@ -208,11 +181,11 @@ export default class Clip {
         `missing parameter: ${!sentenceId ? 'client_id' : 'sentence_id'}`,
         ERRORS.MISSING_PARAM,
         'clip'
-      )
-      return
+      );
+      return;
     }
 
-    const sentence = await this.model.db.findSentence(sentenceId)
+    const sentence = await this.model.db.findSentence(sentenceId);
     if (!sentence) {
       this.clipSaveError(
         headers,
@@ -221,15 +194,15 @@ export default class Clip {
         `sentence not found`,
         ERRORS.SENTENCE_NOT_FOUND,
         'clip'
-      )
-      return
+      );
+      return;
     }
 
     // Where is our audio clip going to be located?
-    const folder = client_id + '/'
-    const filePrefix = sentenceId
-    const clipFileName = folder + filePrefix + '.mp3'
-    const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`
+    const folder = client_id + '/';
+    const filePrefix = sentenceId;
+    const clipFileName = folder + filePrefix + '.mp3';
+    const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`;
 
     if (await this.model.db.clipExists(client_id, sentenceId)) {
       this.clipSaveError(
@@ -239,10 +212,10 @@ export default class Clip {
         `${clipFileName} already exists`,
         ERRORS.ALREADY_EXISTS,
         'clip'
-      )
-      return
+      );
+      return;
     } else {
-      let audioInput = request
+      let audioInput = request;
 
       if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
         // aac data comes wrapped in an mpeg container, which is incompatible with
@@ -251,36 +224,29 @@ export default class Clip {
         // createBufferedInputStream will create a local file and pipe data in as
         // a file, which doesn't lose the seek mechanism
 
-        const converter = new Converter()
-        const audioStream = Readable.from(request)
+        const converter = new Converter();
+        const audioStream = Readable.from(request);
 
-        audioInput = converter.createBufferedInputStream()
-        audioStream.pipe(audioInput)
+        audioInput = converter.createBufferedInputStream();
+        audioStream.pipe(audioInput);
       }
 
-      const pass = new PassThrough()
+      const pass = new PassThrough();
 
-      let chunks: any = []
+      let chunks: any = [];
 
       pass.on('error', (error: string) => {
-        this.clipSaveError(
-          headers,
-          response,
-          500,
-          `${error}`,
-          `ffmpeg ${error}`,
-          'clip'
-        )
-        return
-      })
+        this.clipSaveError(headers, response, 500, `${error}`, `ffmpeg ${error}`, 'clip');
+        return;
+      });
       pass.on('data', function (chunk: any) {
-        chunks.push(chunk)
-      })
+        chunks.push(chunk);
+      });
       pass.on('finish', async () => {
-        const buffer = Buffer.concat(chunks)
-        const durationInSec = await calcMp3Duration(buffer)
+        const buffer = Buffer.concat(chunks);
+        const durationInSec = await calcMp3Duration(buffer);
 
-        console.log(`clip written to OCI ${metadata}`)
+        console.log(`clip written to OCI ${metadata}`);
         await this.model.saveClip({
           client_id: client_id,
           localeId: sentence.locale_id,
@@ -289,27 +255,23 @@ export default class Clip {
           sentence: sentence.text,
           duration: durationInSec * 1000,
           corpus_id: sentence.corpusId,
-        })
-        await Awards.checkProgress(
-          client_id,
-          { id: sentence.locale_id },
-          sentence.corpus_id
-        )
+        });
+        await Awards.checkProgress(client_id, { id: sentence.locale_id }, sentence.corpus_id);
 
         await checkGoalsAfterContribution(client_id, {
           id: sentence.locale_id,
-        })
+        });
 
-        Basket.sync(client_id).catch(e => console.error(e))
+        Basket.sync(client_id).catch(e => console.error(e));
 
-        const challenge = headers.challenge as ChallengeToken
+        const challenge = headers.challenge as ChallengeToken;
         const ret = challengeTokens.includes(challenge)
           ? {
               filePrefix: filePrefix,
-              showFirstContributionToast: await earnBonus(
-                'first_contribution',
-                [challenge, client_id]
-              ),
+              showFirstContributionToast: await earnBonus('first_contribution', [
+                challenge,
+                client_id,
+              ]),
               hasEarnedSessionToast: await hasEarnedBonus(
                 'invite_contribute_same_session',
                 client_id,
@@ -324,9 +286,9 @@ export default class Clip {
               ]),
               challengeEnded: await this.model.db.hasChallengeEnded(challenge),
             }
-          : { filePrefix }
-        response.json(ret)
-      })
+          : { filePrefix };
+        response.json(ret);
+      });
 
       const audioOutput = new Transcoder(audioInput)
         .audioCodec('mp3')
@@ -334,7 +296,7 @@ export default class Clip {
         .channels(1)
         .sampleRate(32000)
         .stream()
-        .pipe(pass)
+        .pipe(pass);
 
       await pipe(
         streamUploadToBucket,
@@ -342,80 +304,73 @@ export default class Clip {
         Id.ap(clipFileName),
         Id.ap(audioOutput),
         TE.getOrElse((err: Error) => T.of(console.log(err)))
-      )()
+      )();
     }
-  }
+  };
 
-  serveRandomClips = async (
-    request: Request,
-    response: Response
-  ): Promise<void> => {
-    const { client_id, params } = request
-    const count = Number(request.query.count) || 1
+  serveRandomClips = async (request: Request, response: Response): Promise<void> => {
+    const { client_id, params } = request;
+    const count = Number(request.query.count) || 1;
     const clips = await this.bucket.getRandomClips(
       client_id,
       params.locale,
       count,
       params.corpus_id
-    )
+    );
     // console.log('responce flag', response.json(clips))
     // console.log('clips flag', clips)
-    response.json(clips)
-  }
+    response.json(clips);
+  };
 
   serveDailyCount = async (request: Request, response: Response) => {
-    response.json(await this.model.db.getDailyClipsCount(request.params.locale))
-  }
+    response.json(await this.model.db.getDailyClipsCount(request.params.locale));
+  };
 
   serveDailyVotesCount = async (request: Request, response: Response) => {
-    response.json(await this.model.db.getDailyVotesCount(request.params.locale))
-  }
+    response.json(await this.model.db.getDailyVotesCount(request.params.locale));
+  };
 
   serveClipsStats = async ({ params }: Request, response: Response) => {
-    response.json(
-      await this.model.getClipsStats(params.locale, params.corpus_id)
-    )
-  }
+    response.json(await this.model.getClipsStats(params.locale, params.corpus_id));
+  };
 
   serveVoicesStats = async ({ params }: Request, response: Response) => {
-    response.json(
-      await this.model.getVoicesStats(params.locale, params.corpus_id)
-    )
-  }
+    response.json(await this.model.getVoicesStats(params.locale, params.corpus_id));
+  };
 
   serveClipLeaderboard = async (request: Request, response: Response) => {
-    const { client_id, params } = request
-    const cursor = this.getCursorFromQuery(request)
+    const { client_id, params } = request;
+    const cursor = this.getCursorFromQuery(request);
     const leaderboard = await getLeaderboard({
       dashboard: 'stats',
       type: 'clip',
       client_id,
       cursor,
       locale: params.locale,
-    })
-    response.json(leaderboard)
-  }
+    });
+    response.json(leaderboard);
+  };
 
   serveVoteLeaderboard = async (request: Request, response: Response) => {
-    const { client_id, params } = request
-    const cursor = this.getCursorFromQuery(request)
+    const { client_id, params } = request;
+    const cursor = this.getCursorFromQuery(request);
     const leaderboard = await getLeaderboard({
       dashboard: 'stats',
       type: 'vote',
       client_id,
       cursor,
       locale: params.locale,
-    })
-    response.json(leaderboard)
-  }
+    });
+    response.json(leaderboard);
+  };
 
   private getCursorFromQuery(request: Request) {
-    const { cursor } = request.query
+    const { cursor } = request.query;
 
     if (!cursor || typeof cursor !== 'string') {
-      return null
+      return null;
     }
 
-    return JSON.parse(cursor)
+    return JSON.parse(cursor);
   }
 }

@@ -16,8 +16,7 @@ const FILTERS = {
   hasEmail: 'email IS NOT null',
 };
 
-const yearlySumReducer = (total: number, row: StatisticsCount) =>
-  (total += row.total_count);
+const yearlySumReducer = (total: number, row: StatisticsCount) => (total += row.total_count);
 
 /**
  * Attach metadata about the stats (like when it was fetched)
@@ -30,10 +29,7 @@ const getResponseMetadata = () => {
   };
 };
 
-const queryStatistics = async (
-  tableName: TableNames,
-  options?: QueryOptions
-) => {
+const queryStatistics = async (tableName: TableNames, options?: QueryOptions) => {
   const isDistinct = options?.isDistinct ?? false;
   const isDuplicate = options?.isDuplicate ?? false;
   const year = getYearFromOptions(options);
@@ -134,9 +130,7 @@ const getUniqueMonthlyContributions = async (
   return rows;
 };
 
-const getMonthlyDuplicateSentences = async (
-  options: QueryOptions
-): Promise<StatisticsCount[]> => {
+const getMonthlyDuplicateSentences = async (options: QueryOptions): Promise<StatisticsCount[]> => {
   const [rows] = await db.query(`
     SELECT
       MAX(DATE_FORMAT(created_at, "%Y-%m-%d")) as date,
@@ -258,16 +252,9 @@ const getYearFromOptions = (options?: QueryOptions): number =>
 export const getStatistics = lazyCache(
   'get-stats',
   async (tableName: TableNames, options?: QueryOptions) => {
-    const { yearlySum, totalCount, monthlyIncrease } = await queryStatistics(
-      tableName,
-      options
-    );
+    const { yearlySum, totalCount, monthlyIncrease } = await queryStatistics(tableName, options);
 
-    const formattedStatistics = await formatStatistics(
-      yearlySum,
-      totalCount,
-      monthlyIncrease
-    );
+    const formattedStatistics = await formatStatistics(yearlySum, totalCount, monthlyIncrease);
 
     const metadata = getResponseMetadata();
 
@@ -287,29 +274,23 @@ export const formatMetadataStatistics = (
   monthlyIncreaseMetadata: StatisticsCount[],
   monthlyIncreaseClips: StatisticsCount[]
 ) => {
-  const flatMonthlyIncreaseMetadata: { [key: string]: number } =
-    monthlyIncreaseMetadata
-      .map(row => ({ [row.date]: row.total_count }))
-      .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+  const flatMonthlyIncreaseMetadata: { [key: string]: number } = monthlyIncreaseMetadata
+    .map(row => ({ [row.date]: row.total_count }))
+    .reduce((acc, curr) => ({ ...acc, ...curr }), {});
 
-  const flatMonthlyIncreaseClips: { [key: string]: number } =
-    monthlyIncreaseClips
-      .map(row => ({ [row.date]: row.total_count }))
-      .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+  const flatMonthlyIncreaseClips: { [key: string]: number } = monthlyIncreaseClips
+    .map(row => ({ [row.date]: row.total_count }))
+    .reduce((acc, curr) => ({ ...acc, ...curr }), {});
 
   const monthlyIncrease = Object.keys(flatMonthlyIncreaseClips)
     .map(key => ({
-      [key]: `${flatMonthlyIncreaseMetadata[key] ?? 0}/${
-        flatMonthlyIncreaseClips[key]
-      }`,
+      [key]: `${flatMonthlyIncreaseMetadata[key] ?? 0}/${flatMonthlyIncreaseClips[key]}`,
     }))
     .reduce((acc, curr) => ({ ...acc, ...curr }), {});
 
   const monthlyIncreaseCoverage = Object.keys(flatMonthlyIncreaseClips)
     .map(key => ({
-      [key]: +(
-        (flatMonthlyIncreaseMetadata[key] ?? 0) / flatMonthlyIncreaseClips[key]
-      ).toFixed(2),
+      [key]: +((flatMonthlyIncreaseMetadata[key] ?? 0) / flatMonthlyIncreaseClips[key]).toFixed(2),
     }))
     .reduce((acc, curr) => ({ ...acc, ...curr }), {});
 
@@ -328,10 +309,7 @@ export const formatMetadataStatistics = (
 
 // The route parameter is just a placeholder to have a unique redis cache key. Without it, we would have
 // an overlap with the clips endpoint.
-const getMetadataQueryHandlerImpl = async (
-  table: TableNames,
-  options?: QueryOptions
-) => {
+const getMetadataQueryHandlerImpl = async (table: TableNames, options?: QueryOptions) => {
   const year = getYearFromOptions(options);
   options = { ...options, year };
   const [metadata, clips, totalCountClips] = await Promise.all([
@@ -347,8 +325,7 @@ const getMetadataQueryHandlerImpl = async (
 
   const monthlyIncreaseClips = clips.map(formatDate);
 
-  const monthlyIncreaseMeta = metadata
-    .filter(row => new Date(row.date).getFullYear() === year);
+  const monthlyIncreaseMeta = metadata.filter(row => new Date(row.date).getFullYear() === year);
 
   const yearlySumMeta = monthlyIncreaseMeta
     .map(row => pick(row, ['total_count']))

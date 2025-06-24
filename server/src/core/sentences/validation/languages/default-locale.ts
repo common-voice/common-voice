@@ -4,24 +4,24 @@ import {
   ERR_NO_SYMBOLS,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types/validators'
+} from '../../types/validators';
 
-const tokenizeWords = require('talisman/tokenizers/words')
+const tokenizeWords = require('talisman/tokenizers/words');
 
-const TRANSLATION_KEY_PREFIX = 'TRANSLATION_KEY:'
+const TRANSLATION_KEY_PREFIX = 'TRANSLATION_KEY:';
 
 // Minimum of words that qualify as a sentence.
-const MIN_WORDS = 1
+const MIN_WORDS = 1;
 
 // Maximum of words allowed per sentence to keep recordings in a manageable duration.
-const MAX_WORDS = 14
+const MAX_WORDS = 14;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string): boolean => {
-      const words = tokenizeWords(sentence)
-      return words.length < MIN_WORDS || words.length > MAX_WORDS
+      const words = tokenizeWords(sentence);
+      return words.length < MIN_WORDS || words.length > MAX_WORDS;
     },
     error: `${TRANSLATION_KEY_PREFIX}sc-validation-number-of-words`,
     errorType: ERR_TOO_LONG,
@@ -48,6 +48,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: `${TRANSLATION_KEY_PREFIX}sc-validation-no-abbreviations`,
     errorType: ERR_NO_ABBREVIATIONS,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

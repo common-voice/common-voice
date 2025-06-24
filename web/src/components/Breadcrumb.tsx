@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import { useSelector } from 'react-redux'
-import { Link, useLocation } from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
+import { Link, useLocation } from 'react-router-dom';
 
 const routeNames: { [key: string]: string } = {
   speak: 'تحدث',
@@ -8,34 +8,30 @@ const routeNames: { [key: string]: string } = {
   write: 'الكتابة',
   review: 'المراجعة',
   login: 'تسجيل',
-}
+};
 
 export default function Breadcrumb(props: any) {
-  const location = useLocation()
-  const pathnames = location.pathname.split('/').filter(x => x !== 'ar')
+  const location = useLocation();
+  const pathnames = location.pathname.split('/').filter(x => x !== 'ar');
 
-  const [currentDataSource, setCurrentDataSource] = useState('')
+  const [currentDataSource, setCurrentDataSource] = useState('');
 
   useEffect(() => {
-    setCurrentDataSource(props['datasource'] ?? '')
-  }, [props])
+    setCurrentDataSource(props['datasource'] ?? '');
+  }, [props]);
 
   return (
     <div className="bg-white px-4 py-2 shadow-md">
       <div className="breadcrumbs text-sm">
         <ul className="flex gap-1 text-gray-600 px-14 pt-6">
           <li className="hover:text-blue-500 text-md">
-            <a
-              href="https://falak.ksaa.gov.sa"
-              className="flex items-center gap-1">
+            <a href="https://falak.ksaa.gov.sa" className="flex items-center gap-1">
               <span> الرئيسة</span>
             </a>
           </li>
           <li className="hover:text-blue-500 text-[#219F8A] text-md">
             {currentDataSource ? (
-              <Link
-                to={`/ar/s/${currentDataSource}`}
-                className="flex items-center gap-1">
+              <Link to={`/ar/s/${currentDataSource}`} className="flex items-center gap-1">
                 الجدارية الصوتية
               </Link>
             ) : (
@@ -45,17 +41,15 @@ export default function Breadcrumb(props: any) {
             )}
           </li>
           {pathnames.map((value, index) => {
-            const to = `/${pathnames.slice(0, index + 1).join('/')}`
-            const isLast = index === pathnames.length - 1
-            const routeName = routeNames[value]
+            const to = `/${pathnames.slice(0, index + 1).join('/')}`;
+            const isLast = index === pathnames.length - 1;
+            const routeName = routeNames[value];
 
             return (
               routeName && (
                 <li key={to} className="flex items-center gap-1">
                   {isLast ? (
-                    <span className="text-[#219F8A] font-medium">
-                      {routeName || value}
-                    </span>
+                    <span className="text-[#219F8A] font-medium">{routeName || value}</span>
                   ) : (
                     <Link to={to} className="text-gray-800 hover:text-blue-500">
                       {routeName || value}
@@ -63,10 +57,10 @@ export default function Breadcrumb(props: any) {
                   )}
                 </li>
               )
-            )
+            );
           })}
         </ul>
       </div>
     </div>
-  )
+  );
 }

@@ -1,10 +1,10 @@
-import { Localized } from '@fluent/react'
-import * as React from 'react'
+import { Localized } from '@fluent/react';
+import * as React from 'react';
 
 type Props = {
-  localizedId: string
-  icon: JSX.Element
-}
+  localizedId: string;
+  icon: JSX.Element;
+};
 
 export const Instruction: React.FC<Props> = ({ localizedId, icon }) => (
   <div className="instruction">
@@ -12,4 +12,4 @@ export const Instruction: React.FC<Props> = ({ localizedId, icon }) => (
       <span />
     </Localized>
   </div>
-)
+);

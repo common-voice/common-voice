@@ -45,11 +45,7 @@ export namespace Notifications {
       type: ActionType.ADD,
       notification: { id: ++id, kind: 'banner', content, bannerProps },
     }),
-    addAchievement: (
-      score: number,
-      text: string,
-      type: NotificationType = 'achievement'
-    ) => ({
+    addAchievement: (score: number, text: string, type: NotificationType = 'achievement') => ({
       type: ActionType.ADD,
       notification: { id: ++id, kind: 'pill', score, content: text, type },
     }),

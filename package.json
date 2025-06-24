@@ -45,7 +45,7 @@
     "build": "npm run build:maint && npm run build:common && concurrently \"npm run build:server\" \"npm run build:web\"",
     "build-dev": "npm run build:maint && npm run build-dev:common && concurrently \"npm run build:server\" \"npm run build-dev:web\"",
     "build:compressed-size": "npm run build:common && npm run build:web",
-        "build-dev:web": "cd web && npm run dev && cd ..",
+    "build-dev:web": "cd web && npm run dev && cd ..",
     "build-dev:common": "cd common && npm run dev && cd ..",
     "build:web": "cd web && npm run build && cd ..",
     "build:server": "cd server && npm run build && cd ..",

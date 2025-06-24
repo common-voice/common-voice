@@ -38,7 +38,8 @@ const HowAddLanguage = React.memo(() => {
       <a
         href="https://docs.google.com/document/d/1QHDhdJzBQzWRzjw88Br674OINtok09znq0vmpgVBZQo/edit#"
         target="_blank"
-        rel="noopener noreferer">
+        rel="noopener noreferer"
+      >
         <Localized id="about-playbook-how-project-governance-content-7">
           <p />
         </Localized>

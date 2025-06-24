@@ -128,19 +128,16 @@ const table = [
 ];
 
 describe('format metadata statistics', () => {
-  test.each(table)(
-    '$title',
-    ({ parameters, expected }) => {
-      expect(
-        formatMetadataStatistics(
-          parameters.yearlySumMetadata,
-          parameters.yearlySumClips,
-          parameters.totalCountMetadata,
-          parameters.totalCountClips,
-          parameters.monthlyIncreaseMetadata,
-          parameters.monthlyIncreaseClips
-        )    
-      ).toMatchObject(expected);
-    }
-  );
+  test.each(table)('$title', ({ parameters, expected }) => {
+    expect(
+      formatMetadataStatistics(
+        parameters.yearlySumMetadata,
+        parameters.yearlySumClips,
+        parameters.totalCountMetadata,
+        parameters.totalCountClips,
+        parameters.monthlyIncreaseMetadata,
+        parameters.monthlyIncreaseClips
+      )
+    ).toMatchObject(expected);
+  });
 });

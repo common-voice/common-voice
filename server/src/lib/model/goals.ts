@@ -18,13 +18,10 @@ const ONE_DAY = 24 * 60 * 60 * 1000;
 const daysBetween = (date1: Date, date2: Date) =>
   Math.floor((date1.getTime() - date2.getTime()) / ONE_DAY);
 
-const formatDate = (date: Date) =>
-  date.toISOString().slice(0, 19).replace('T', ' ');
+const formatDate = (date: Date) => date.toISOString().slice(0, 19).replace('T', ' ');
 
 async function hasComputedGoals(client_id: string) {
-  const [
-    [client],
-  ] = await db.query(
+  const [[client]] = await db.query(
     'SELECT has_computed_goals FROM user_clients WHERE client_id = ?',
     [client_id]
   );
@@ -73,13 +70,7 @@ export async function computeGoals(client_id: string): Promise<any> {
           VALUES (?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE reached_at = VALUES(reached_at)
         `,
-        [
-          isClip ? 'clips' : 'votes',
-          client_id,
-          locale_id,
-          count,
-          formatDate(new Date(created_at)),
-        ]
+        [isClip ? 'clips' : 'votes', client_id, locale_id, count, formatDate(new Date(created_at))]
       );
     }
 
@@ -110,23 +101,14 @@ export async function computeGoals(client_id: string): Promise<any> {
             )
             VALUES (?, ?, ?, ?, ?)
           `,
-          [
-            'streak',
-            client_id,
-            locale_id,
-            streakDays,
-            formatDate(contributionAt),
-          ]
+          ['streak', client_id, locale_id, streakDays, formatDate(contributionAt)]
         );
       }
     }
   }
 
   const now = new Date();
-  for (const [
-    locale_id,
-    { startedAt, lastActivityAt },
-  ] of localeStreakMap.entries()) {
+  for (const [locale_id, { startedAt, lastActivityAt }] of localeStreakMap.entries()) {
     if (daysBetween(now, lastActivityAt) > 1) {
       continue;
     }
@@ -143,10 +125,9 @@ export async function computeGoals(client_id: string): Promise<any> {
     );
   }
 
-  await db.query(
-    'UPDATE user_clients SET has_computed_goals = true WHERE client_id = ?',
-    [client_id]
-  );
+  await db.query('UPDATE user_clients SET has_computed_goals = true WHERE client_id = ?', [
+    client_id,
+  ]);
 }
 
 export default async function getGoals(
@@ -241,17 +222,12 @@ export async function checkGoalsAfterContribution(
 ) {
   if (!(await hasComputedGoals(client_id))) return;
 
-  const localeId =
-    'name' in locale ? await getLocaleId(locale.name) : locale.id;
-  let [
-    [reachedGoals],
-    [[{ clips_count, votes_count }]],
-    [[streak]],
-  ] = await Promise.all([
-    db.query(
-      'SELECT * FROM reached_goals WHERE client_id = ? AND locale_id = ?',
-      [client_id, localeId]
-    ),
+  const localeId = 'name' in locale ? await getLocaleId(locale.name) : locale.id;
+  let [[reachedGoals], [[{ clips_count, votes_count }]], [[streak]]] = await Promise.all([
+    db.query('SELECT * FROM reached_goals WHERE client_id = ? AND locale_id = ?', [
+      client_id,
+      localeId,
+    ]),
     db.query(
       `
         SELECT
@@ -317,18 +293,17 @@ export async function checkGoalsAfterContribution(
   );
   for (const type of ['streak', 'clips', 'votes']) {
     const maxCount = reachedGoals.reduce(
-      (max: number, row: any) =>
-        row.type == type && row.count > max ? row.count : max,
+      (max: number, row: any) => (row.type == type && row.count > max ? row.count : max),
       0
     );
-    const threshold = (type == 'streak' ? STREAK_THRESHOLDS : THRESHOLDS).find(
-      t => t > maxCount
-    );
-    const currentCount = ({
-      streak: streak_days,
-      clips: clips_count,
-      votes: votes_count,
-    } as any)[type];
+    const threshold = (type == 'streak' ? STREAK_THRESHOLDS : THRESHOLDS).find(t => t > maxCount);
+    const currentCount = (
+      {
+        streak: streak_days,
+        clips: clips_count,
+        votes: votes_count,
+      } as any
+    )[type];
 
     if (!threshold || currentCount < threshold) {
       continue;

@@ -1,11 +1,5 @@
 import { useDispatch } from 'react-redux';
-import {
-  Dispatch,
-  SetStateAction,
-  useCallback,
-  useEffect,
-  useState,
-} from 'react';
+import { Dispatch, SetStateAction, useCallback, useEffect, useState } from 'react';
 import { useTypedSelector } from '../stores/tree';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -35,14 +29,9 @@ export function useIsSubscribed() {
       setIsSubscribed(false);
       return;
     }
-    fetch(
-      'https://basket.mozilla.org/news/lookup-user/?token=' +
-        account.basket_token
-    )
+    fetch('https://basket.mozilla.org/news/lookup-user/?token=' + account.basket_token)
       .then(response => response.json())
-      .then(body =>
-        setIsSubscribed(body.newsletters?.includes('common-voice'))
-      );
+      .then(body => setIsSubscribed(body.newsletters?.includes('common-voice')));
   }, [account.basket_token]);
 
   return isSubscribed;
@@ -98,11 +87,9 @@ export function useLanguages() {
 }
 
 export function useSentences() {
-  return useTypedSelector(({ sentences }) => sentences)
+  return useTypedSelector(({ sentences }) => sentences);
 }
 
 export function useAbortContributionModal() {
-  return useTypedSelector(
-    ({ abortContributionModal }) => abortContributionModal
-  );
+  return useTypedSelector(({ abortContributionModal }) => abortContributionModal);
 }

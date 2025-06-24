@@ -1,40 +1,40 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const ProgressSteps = ({ currentStep, steps }: any) => {
-  const stepsDone = currentStep === -1
+  const stepsDone = currentStep === -1;
 
   return (
     <div
       className="steps-wrap my-5 w-full flex justify-center bg-white py-4 px-6 shadow-sm"
-      style={{ border: '1px solid #D4D4D4', borderRadius: '15px' }}>
+      style={{ border: '1px solid #D4D4D4', borderRadius: '15px' }}
+    >
       <ul className="steps flex-1 overflow-auto">
         {steps.map((step: any, index: number) => {
-          let imgSrc = ''
+          let imgSrc = '';
 
           if (stepsDone) {
-            imgSrc = require('./img/progress-check.svg')
+            imgSrc = require('./img/progress-check.svg');
           }
 
           if (!stepsDone) {
             if (index < currentStep) {
-              imgSrc = require('./img/progress-check.svg') // Successful step
+              imgSrc = require('./img/progress-check.svg'); // Successful step
             } else if (index === currentStep) {
-              imgSrc = require('./img/progress-check-active.svg')
+              imgSrc = require('./img/progress-check-active.svg');
             } else {
-              imgSrc = require('./img/progress-check-muted.svg')
+              imgSrc = require('./img/progress-check-muted.svg');
             }
           }
 
-          const isSuccess = imgSrc === '/voicewall/img/progress-check.svg'
+          const isSuccess = imgSrc === '/voicewall/img/progress-check.svg';
 
           return (
             <li
               key={index}
-              className={`step ${
-                index <= currentStep ? 'step-accent' : ''
-              } relative z-1`}
-              data-content="">
+              className={`step ${index <= currentStep ? 'step-accent' : ''} relative z-1`}
+              data-content=""
+            >
               <motion.img
                 src={imgSrc}
                 alt={
@@ -63,15 +63,13 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
                 }}
               />
 
-              <span className="text-center text-sm text-gray-500 pt-2">
-                {step}
-              </span>
+              <span className="text-center text-sm text-gray-500 pt-2">{step}</span>
             </li>
-          )
+          );
         })}
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default ProgressSteps
+export default ProgressSteps;

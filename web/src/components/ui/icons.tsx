@@ -1,19 +1,19 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Icon =
   (path: string, title = '') =>
   ({ children, ...props }: any) =>
-    <img src={path} title={title} {...props} alt="icon" />
+    <img src={path} title={title} {...props} alt="icon" />;
 
-let idCounter = 0
+let idCounter = 0;
 function uniqueIcon(component: (id: number, props: any) => React.ReactNode) {
   return class extends React.Component<any> {
-    id = idCounter++
+    id = idCounter++;
 
     render() {
-      return component(this.id, this.props)
+      return component(this.id, this.props);
     }
-  }
+  };
 }
 
 export const AlertIcon = ({ className = '' }: { className?: string }) => (
@@ -31,7 +31,7 @@ export const AlertIcon = ({ className = '' }: { className?: string }) => (
       fill="#F89096"
     />
   </svg>
-)
+);
 
 export const ArrowLeft = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -51,7 +51,7 @@ export const ArrowLeft = uniqueIcon((id, props) => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const ArrowRight = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -62,7 +62,7 @@ export const ArrowRight = uniqueIcon((id, props) => (
       fill="black"
     />
   </svg>
-))
+));
 
 export const ReturnKeyIcon = () => (
   <svg
@@ -73,11 +73,12 @@ export const ReturnKeyIcon = () => (
     stroke="currentColor"
     strokeWidth="2"
     strokeLinecap="round"
-    strokeLinejoin="round">
+    strokeLinejoin="round"
+  >
     <polyline points="9 10 4 15 9 20" />
     <path d="M20 4v7a4 4 0 0 1-4 4H4" />
   </svg>
-)
+);
 
 export const BarChartIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -96,7 +97,7 @@ export const BarChartIcon = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const BookmarkIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -116,7 +117,7 @@ export const BookmarkIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const CameraIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -135,7 +136,7 @@ export const CameraIcon = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const CheckIcon = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -154,7 +155,7 @@ export const CheckIcon = uniqueIcon((id, props) => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const CheckWithBoxIcon = () => (
   <svg width="22" height="22" viewBox="0 0 22 22">
@@ -171,7 +172,7 @@ export const CheckWithBoxIcon = () => (
       fill="#1570EF"
     />
   </svg>
-)
+);
 
 export const ChevronRight = (props: any) => (
   <svg
@@ -180,7 +181,8 @@ export const ChevronRight = (props: any) => (
     viewBox="0 0 25 24"
     fill="none"
     {...props}
-    xmlns="http://www.w3.org/2000/svg">
+    xmlns="http://www.w3.org/2000/svg"
+  >
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -188,15 +190,10 @@ export const ChevronRight = (props: any) => (
       fill="currentColor"
     />
   </svg>
-)
+);
 
 export const ChevronLeft = () => (
-  <svg
-    width="24"
-    height="24"
-    viewBox="0 0 25 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -204,13 +201,13 @@ export const ChevronLeft = () => (
       fill="currentColor"
     />
   </svg>
-)
+);
 
 export const ChevronDown = (props: any) => (
   <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" {...props}>
     <polygon points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375" />
   </svg>
-)
+);
 
 export const EyeIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -230,7 +227,7 @@ export const EyeIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const EyeOffIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -250,7 +247,7 @@ export const EyeOffIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const FlagIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -270,7 +267,7 @@ export const FlagIcon = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const UsersIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -290,12 +287,12 @@ export const UsersIcon = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const CloseIcon = ({ black, ...props }: any) => {
-  const RealIcon = Icon(require(`./icons/close${black ? '-black' : ''}.svg`))
-  return <RealIcon alt="" {...props} />
-}
+  const RealIcon = Icon(require(`./icons/close${black ? '-black' : ''}.svg`));
+  return <RealIcon alt="" {...props} />;
+};
 
 export const CloudIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -315,7 +312,7 @@ export const CloudIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const CogIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -334,9 +331,9 @@ export const CogIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
-export const ContactIcon = Icon(require('./icons/contact.svg'))
+export const ContactIcon = Icon(require('./icons/contact.svg'));
 
 export const ContactIconCode = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -356,15 +353,10 @@ export const ContactIconCode = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const MailIcon = () => (
-  <svg
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -376,7 +368,7 @@ export const MailIcon = () => (
       d="M1.18085 5.4265C1.49757 4.97405 2.1211 4.86402 2.57355 5.18073L12.0001 11.7793L21.4266 5.18073C21.8791 4.86402 22.5026 4.97405 22.8193 5.4265C23.136 5.87895 23.026 6.50248 22.5735 6.8192L12.5735 13.8192C12.2292 14.0602 11.7709 14.0602 11.4266 13.8192L1.42662 6.8192C0.974174 6.50248 0.864139 5.87895 1.18085 5.4265Z"
     />
   </svg>
-)
+);
 
 export const CrossIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -395,7 +387,7 @@ export const CrossIcon = (props: any) => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const DashboardIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -414,9 +406,9 @@ export const DashboardIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
-export const DiscourseIcon = Icon(require('./icons/discourse.svg'))
+export const DiscourseIcon = Icon(require('./icons/discourse.svg'));
 
 export const DiscourseIconCode = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -426,7 +418,7 @@ export const DiscourseIconCode = () => (
       d="M20 11.5C20 6.06975 14.0662 2.30981 9.15088 4.79256L9.14709 4.79447L9.14709 4.79447C5.52862 6.60292 3.95647 11.2139 5.79263 14.8491C5.91284 15.0871 5.93303 15.3632 5.84871 15.6162L4.58117 19.4188L8.3838 18.1513C8.63674 18.067 8.91289 18.0872 9.15088 18.2074C14.0075 20.6604 20.0139 16.8409 20 11.5026L20 11.5ZM22 11.4988C21.9992 4.61375 14.5263 -0.161513 8.25106 3.00641C3.78432 5.24011 1.77608 10.7956 3.82401 15.3657L2.05134 20.6837C1.93157 21.0431 2.02509 21.4392 2.29292 21.7071C2.56075 21.9749 2.95692 22.0684 3.31625 21.9486L8.63399 20.1761C14.7713 22.9322 22.0163 18.1596 22 11.4988Z"
     />
   </svg>
-)
+);
 
 export const DownloadIcon = (props: any) => (
   <svg width="15px" height="16px" viewBox="0 0 15 16">
@@ -436,9 +428,9 @@ export const DownloadIcon = (props: any) => (
       </g>
     </g>
   </svg>
-)
+);
 
-export const GithubIcon = Icon(require('./icons/github.svg'))
+export const GithubIcon = Icon(require('./icons/github.svg'));
 
 export const GithubIconCode = () => (
   <svg width="22" height="23" viewBox="0 0 22 23">
@@ -458,7 +450,7 @@ export const GithubIconCode = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const GlobeIcon = uniqueIcon(id => (
   <svg width="16" height="16" viewBox="0 0 16 16">
@@ -478,7 +470,7 @@ export const GlobeIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const InfoDarkIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -497,7 +489,7 @@ export const InfoDarkIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const InfoIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -516,9 +508,9 @@ export const InfoIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
-export const KeyboardIcon = Icon(require('./icons/keyboard.svg'))
+export const KeyboardIcon = Icon(require('./icons/keyboard.svg'));
 
 export const LinkIcon = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -537,7 +529,7 @@ export const LinkIcon = uniqueIcon((id, props) => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const ExternalLinkIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -545,7 +537,7 @@ export const ExternalLinkIcon = () => (
     <path d="M14.3375 3.91223C14.3375 3.35995 14.7852 2.91223 15.3375 2.91223H21.3375C21.8898 2.91223 22.3375 3.35995 22.3375 3.91223V9.91223C22.3375 10.4645 21.8898 10.9122 21.3375 10.9122C20.7852 10.9122 20.3375 10.4645 20.3375 9.91223V4.91223H15.3375C14.7852 4.91223 14.3375 4.46452 14.3375 3.91223Z" />
     <path d="M22.0446 3.20512C22.4352 3.59565 22.4352 4.22881 22.0446 4.61934L11.0446 15.6193C10.6541 16.0099 10.0209 16.0099 9.63042 15.6193C9.23989 15.2288 9.23989 14.5956 9.63042 14.2051L20.6304 3.20512C21.0209 2.8146 21.6541 2.8146 22.0446 3.20512Z" />
   </svg>
-)
+);
 
 export const LogoutIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -565,7 +557,7 @@ export const LogoutIcon = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const MenuIcon = ({ className = '', ...props }: any) => (
   <svg className={'menu-icon ' + className} width="10" height="10" {...props}>
@@ -575,35 +567,30 @@ export const MenuIcon = ({ className = '', ...props }: any) => (
     <rect className="left" x="4" y="8" width="2" height="2" />
     <rect className="right" x="4" y="8" width="2" height="2" />
   </svg>
-)
+);
 
 export const MicIcon = uniqueIcon(id => (
-<svg width="29" height="28" viewBox="0 0 29 28">
-  <defs>
-    <path
-      id={'mic-path'+ id}
-      d="M9.333 18.667A4.68 4.68 0 0 0 14 14V4.667A4.68 4.68 0 0 0 9.333 0a4.68 4.68 0 0 0-4.666 4.667V14a4.68 4.68 0 0 0 4.666 4.667zM7 4.667a2.34 2.34 0 0 1 2.333-2.334 2.34 2.34 0 0 1 2.334 2.334V14a2.34 2.34 0 0 1-2.334 2.333A2.34 2.34 0 0 1 7 14V4.667zm11.667 7V14c0 4.783-3.617 8.633-8.167 9.217v2.45H14c.7 0 1.167.466 1.167 1.166S14.7 28 14 28H4.667c-.7 0-1.167-.467-1.167-1.167s.467-1.166 1.167-1.166h3.5v-2.45C3.617 22.633 0 18.667 0 14v-2.333c0-.7.467-1.167 1.167-1.167s1.166.467 1.166 1.167V14c0 3.85 3.15 7 7 7s7-3.15 7-7v-2.333c0-.7.467-1.167 1.167-1.167s1.167.467 1.167 1.167z"
-    />
-  </defs>
-  <g fill="none" fillRule="evenodd" transform="translate(5)">
-    <mask id={'mic-mask'+ id} fill="#fff">
-      <use xlinkHref={'#mic-path'+ id} />
-    </mask>
-    {/* <use xlinkHref="#mic-path" /> */}
-    <g fill="#219f8a" mask={'url(#mic-mask'+id+')'}>
-      <path d="M-5 0h28v28H-5z" />
+  <svg width="29" height="28" viewBox="0 0 29 28">
+    <defs>
+      <path
+        id={'mic-path' + id}
+        d="M9.333 18.667A4.68 4.68 0 0 0 14 14V4.667A4.68 4.68 0 0 0 9.333 0a4.68 4.68 0 0 0-4.666 4.667V14a4.68 4.68 0 0 0 4.666 4.667zM7 4.667a2.34 2.34 0 0 1 2.333-2.334 2.34 2.34 0 0 1 2.334 2.334V14a2.34 2.34 0 0 1-2.334 2.333A2.34 2.34 0 0 1 7 14V4.667zm11.667 7V14c0 4.783-3.617 8.633-8.167 9.217v2.45H14c.7 0 1.167.466 1.167 1.166S14.7 28 14 28H4.667c-.7 0-1.167-.467-1.167-1.167s.467-1.166 1.167-1.166h3.5v-2.45C3.617 22.633 0 18.667 0 14v-2.333c0-.7.467-1.167 1.167-1.167s1.166.467 1.166 1.167V14c0 3.85 3.15 7 7 7s7-3.15 7-7v-2.333c0-.7.467-1.167 1.167-1.167s1.167.467 1.167 1.167z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(5)">
+      <mask id={'mic-mask' + id} fill="#fff">
+        <use xlinkHref={'#mic-path' + id} />
+      </mask>
+      {/* <use xlinkHref="#mic-path" /> */}
+      <g fill="#219f8a" mask={'url(#mic-mask' + id + ')'}>
+        <path d="M-5 0h28v28H-5z" />
+      </g>
     </g>
-  </g>
-</svg>
-))
+  </svg>
+));
 
 export const ListenIcon = () => (
-  <svg
-    width="16"
-    height="17"
-    viewBox="0 0 16 17"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -611,7 +598,7 @@ export const ListenIcon = () => (
       fill="#59CBB7"
     />
   </svg>
-)
+);
 
 export const OldPlayIcon = (props: any) => (
   <svg viewBox="0 0 13 15" {...props}>
@@ -624,7 +611,7 @@ export const OldPlayIcon = (props: any) => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const OldRedoIcon = (props: any) => (
   <svg>
@@ -634,7 +621,7 @@ export const OldRedoIcon = (props: any) => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const PenIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -654,7 +641,7 @@ export const PenIcon = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const PlayOutlineIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -673,7 +660,7 @@ export const PlayOutlineIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const PlayOutlineGreenIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -692,25 +679,34 @@ export const PlayOutlineGreenIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
-export const PlayIcon = Icon(require('./icons/play.svg'), 'play')
+export const PlayIcon = Icon(require('./icons/play.svg'), 'play');
 
 export const PauseIcon = () => (
-<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-	 width="23px" height="23px" viewBox="0 0 332.145 332.146">
-<g>
-	<g>
-		<path d="M121.114,0H25.558c-8.017,0-14.517,6.5-14.517,14.515v303.114c0,8.017,6.5,14.517,14.517,14.517h95.556
-			c8.017,0,14.517-6.5,14.517-14.517V14.515C135.631,6.499,129.131,0,121.114,0z M106.6,303.113H40.072V29.031H106.6V303.113z"/>
-		<path d="M306.586,0h-95.541c-8.018,0-14.518,6.5-14.518,14.515v303.114c0,8.017,6.5,14.517,14.518,14.517h95.541
+  <svg
+    fill="#000000"
+    version="1.1"
+    id="Capa_1"
+    xmlns="http://www.w3.org/2000/svg"
+    width="23px"
+    height="23px"
+    viewBox="0 0 332.145 332.146"
+  >
+    <g>
+      <g>
+        <path
+          d="M121.114,0H25.558c-8.017,0-14.517,6.5-14.517,14.515v303.114c0,8.017,6.5,14.517,14.517,14.517h95.556
+			c8.017,0,14.517-6.5,14.517-14.517V14.515C135.631,6.499,129.131,0,121.114,0z M106.6,303.113H40.072V29.031H106.6V303.113z"
+        />
+        <path
+          d="M306.586,0h-95.541c-8.018,0-14.518,6.5-14.518,14.515v303.114c0,8.017,6.5,14.517,14.518,14.517h95.541
 			c8.016,0,14.518-6.5,14.518-14.517V14.515C321.102,6.499,314.602,0,306.586,0z M292.073,303.113h-66.514V29.031h66.514V303.113z"
-			/>
-	</g>
-</g>
-</svg>
-
-)
+        />
+      </g>
+    </g>
+  </svg>
+);
 
 export const RedoIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -729,9 +725,9 @@ export const RedoIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
-export const SearchIcon = Icon(require('./icons/search.svg'), 'search')
+export const SearchIcon = Icon(require('./icons/search.svg'), 'search');
 
 export const SearchIconCode = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -751,7 +747,7 @@ export const SearchIconCode = (props: any) => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const SettingsIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -771,7 +767,7 @@ export const SettingsIcon = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const ShareIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -790,7 +786,7 @@ export const ShareIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const SkipIcon = uniqueIcon(id => (
   <svg width="22" height="22" viewBox="0 0 22 22">
@@ -810,7 +806,7 @@ export const SkipIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const StopIcon = uniqueIcon(id => (
   <svg width="28" height="28" viewBox="0 0 28 28">
@@ -829,11 +825,11 @@ export const StopIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
-export const SuccessIcon = Icon(require('./icons/success.svg'), 'success')
+export const SuccessIcon = Icon(require('./icons/success.svg'), 'success');
 
-export const SupportIcon = Icon(require('./icons/support.svg'), 'support')
+export const SupportIcon = Icon(require('./icons/support.svg'), 'support');
 
 export const ThumbsDownIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -852,7 +848,7 @@ export const ThumbsDownIcon = (props: any) => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const ThumbsUpIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -871,7 +867,7 @@ export const ThumbsUpIcon = (props: any) => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const TrashIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -890,7 +886,7 @@ export const TrashIcon = () => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const VolumeIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -909,7 +905,7 @@ export const VolumeIcon = (props: any) => (
       </g>
     </g>
   </svg>
-)
+);
 
 export const UserIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -928,7 +924,7 @@ export const UserIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const UserPlusIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -947,15 +943,10 @@ export const UserPlusIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-))
+));
 
 export const XMarkIcon = () => (
-  <svg
-    width="25"
-    height="25"
-    viewBox="0 0 25 25"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -969,13 +960,13 @@ export const XMarkIcon = () => (
       fill="#FF4F5E"
     />
   </svg>
-)
+);
 
 export const MatrixIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <path d="M5 4C4.73478 4 4.48043 4.10536 4.29289 4.29289C4.10536 4.48043 4 4.73478 4 5V18.5858L6.29289 16.2929C6.48043 16.1054 6.73478 16 7 16H19C19.2652 16 19.5196 15.8946 19.7071 15.7071C19.8946 15.5196 20 15.2652 20 15V5C20 4.73478 19.8946 4.48043 19.7071 4.29289C19.5196 4.10536 19.2652 4 19 4H5ZM2.87868 2.87868C3.44129 2.31607 4.20435 2 5 2H19C19.7957 2 20.5587 2.31607 21.1213 2.87868C21.6839 3.44129 22 4.20435 22 5V15C22 15.7957 21.6839 16.5587 21.1213 17.1213C20.5587 17.6839 19.7957 18 19 18H7.41421L3.70711 21.7071C3.42111 21.9931 2.99099 22.0787 2.61732 21.9239C2.24364 21.7691 2 21.4045 2 21V5C2 4.20435 2.31607 3.44129 2.87868 2.87868Z" />
   </svg>
-)
+);
 
 export const TargetIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -983,15 +974,10 @@ export const TargetIcon = () => (
     <path d="M11 6C8.23858 6 6 8.23858 6 11C6 13.7614 8.23858 16 11 16C13.7614 16 16 13.7614 16 11C16 8.23858 13.7614 6 11 6ZM4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z" />
     <path d="M11 10C10.4477 10 10 10.4477 10 11C10 11.5523 10.4477 12 11 12C11.5523 12 12 11.5523 12 11C12 10.4477 11.5523 10 11 10ZM8 11C8 9.34315 9.34315 8 11 8C12.6569 8 14 9.34315 14 11C14 12.6569 12.6569 14 11 14C9.34315 14 8 12.6569 8 11Z" />
   </svg>
-)
+);
 
 export const HexIcon = () => (
-  <svg
-    width="62"
-    height="68"
-    viewBox="0 0 62 68"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="62" height="68" viewBox="0 0 62 68" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M61 50.6443L31 67.1924L1 50.6443V17.5481L31 1L61 17.5481V50.6443Z" />
     <path
       fillRule="evenodd"
@@ -1008,7 +994,7 @@ export const HexIcon = () => (
       d="M54.816 45.6799L30.9998 58.6809L7.1836 45.6799L1.5 50.371L30.9998 66.6714L60.6599 50.371L54.816 45.6799Z"
     />
   </svg>
-)
+);
 
 export const EditIcon = () => (
   <svg
@@ -1017,7 +1003,8 @@ export const EditIcon = () => (
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className="edit-icon">
+    className="edit-icon"
+  >
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1031,7 +1018,7 @@ export const EditIcon = () => (
       fill="black"
     />
   </svg>
-)
+);
 
 export const ReviewIcon = () => (
   <svg
@@ -1040,7 +1027,8 @@ export const ReviewIcon = () => (
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className="review-icon">
+    className="review-icon"
+  >
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1066,15 +1054,10 @@ export const ReviewIcon = () => (
       fill="black"
     />
   </svg>
-)
+);
 
 export const QuestionIcon = () => (
-  <svg
-    width="22"
-    height="23"
-    viewBox="0 0 22 23"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1092,15 +1075,10 @@ export const QuestionIcon = () => (
       fill="#1570EF"
     />
   </svg>
-)
+);
 
 export const SendIcon = () => (
-  <svg
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1114,15 +1092,10 @@ export const SendIcon = () => (
       fill="black"
     />
   </svg>
-)
+);
 
 export const SingleContributionIcon = ({ isActive }: { isActive: boolean }) => (
-  <svg
-    width="12"
-    height="13"
-    viewBox="0 0 12 13"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
     <mask id="path-1-inside-1_4801_70351" fill="white">
       <path d="M0.0625 1.98608C0.0625 1.4338 0.510215 0.986084 1.0625 0.986084H10.5796C11.1319 0.986084 11.5796 1.4338 11.5796 1.98608V11.5032C11.5796 12.0555 11.1319 12.5032 10.5796 12.5032H1.0625C0.510216 12.5032 0.0625 12.0555 0.0625 11.5032V1.98608Z" />
     </mask>
@@ -1138,15 +1111,10 @@ export const SingleContributionIcon = ({ isActive }: { isActive: boolean }) => (
       strokeLinejoin="round"
     />
   </svg>
-)
+);
 
 export const BulkContributionIcon = ({ isActive }: { isActive: boolean }) => (
-  <svg
-    width="12"
-    height="13"
-    viewBox="0 0 12 13"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
     <mask id="path-1-inside-1_4925_75984" fill="white">
       <path d="M0.0625 1.79248C0.0625 1.2402 0.510215 0.79248 1.0625 0.79248H10.5796C11.1319 0.79248 11.5796 1.2402 11.5796 1.79248V11.3096C11.5796 11.8619 11.1319 12.3096 10.5796 12.3096H1.0625C0.510216 12.3096 0.0625 11.8619 0.0625 11.3096V1.79248Z" />
     </mask>
@@ -1180,7 +1148,7 @@ export const BulkContributionIcon = ({ isActive }: { isActive: boolean }) => (
       strokeLinejoin="round"
     />
   </svg>
-)
+);
 
 export const UploadIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none">
@@ -1196,7 +1164,7 @@ export const UploadIcon = () => (
       </clipPath>
     </defs>
   </svg>
-)
+);
 
 export const UploadIconLarge = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="96" height="97" fill="none">
@@ -1212,7 +1180,7 @@ export const UploadIconLarge = () => (
       </clipPath>
     </defs>
   </svg>
-)
+);
 
 export const LightBulbIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" fill="none">
@@ -1229,7 +1197,7 @@ export const LightBulbIcon = () => (
       clipRule="evenodd"
     />
   </svg>
-)
+);
 
 export const FileIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="none">
@@ -1247,15 +1215,10 @@ export const FileIcon = () => (
       clipRule="evenodd"
     />
   </svg>
-)
+);
 
 export const HeartIcon = () => (
-  <svg
-    width="14"
-    height="13"
-    viewBox="0 0 14 13"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1263,29 +1226,17 @@ export const HeartIcon = () => (
       fill="white"
     />
   </svg>
-)
+);
 
-export const FirefoxColor = Icon(
-  require('./icons/ff-color.svg'),
-  'firefox-color'
-)
+export const FirefoxColor = Icon(require('./icons/ff-color.svg'), 'firefox-color');
 
-export const ChromeColor = Icon(
-  require('./icons/chrome-color.svg'),
-  'chrome-color'
-)
+export const ChromeColor = Icon(require('./icons/chrome-color.svg'), 'chrome-color');
 
-export const SafariColor = Icon(
-  require('./icons/safari-color.svg'),
-  'safari-color'
-)
+export const SafariColor = Icon(require('./icons/safari-color.svg'), 'safari-color');
 
-export const CautionIcon = Icon(
-  require('./icons/exclamation.svg'),
-  'exclamation'
-)
+export const CautionIcon = Icon(require('./icons/exclamation.svg'), 'exclamation');
 
-export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'))
+export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'));
 
 const FONT_ICONS = {
   chrome: '',
@@ -1296,30 +1247,30 @@ const FONT_ICONS = {
   stop: '',
   twitter: '',
   undo: '',
-}
+};
 
 interface FontIconProps {
-  [key: string]: any
-  type: keyof typeof FONT_ICONS
+  [key: string]: any;
+  type: keyof typeof FONT_ICONS;
 }
 
 export const FontIcon = ({ type, ...props }: FontIconProps) => (
   <span aria-hidden="true" data-icon={FONT_ICONS[type]} {...props} />
-)
+);
 export const XIcon = () => {
   return (
     <svg
-    xmlns="http://www.w3.org/2000/svg"
-    height="25px"
-    width="24px"
-    viewBox="0 0 512 512"
-    className="XIcon"
-  >
-    <path
-      fill="#fff"
-      d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-    />
-  </svg>
+      xmlns="http://www.w3.org/2000/svg"
+      height="25px"
+      width="24px"
+      viewBox="0 0 512 512"
+      className="XIcon"
+    >
+      <path
+        fill="#fff"
+        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+      />
+    </svg>
   );
 };
 

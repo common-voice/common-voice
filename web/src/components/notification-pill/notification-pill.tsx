@@ -22,12 +22,10 @@ export default function NotificationPill({
 
   return (
     <div
-      className={
-        'notification-pill ' +
-        (notification.kind == 'pill' ? notification.type : '')
-      }
+      className={'notification-pill ' + (notification.kind == 'pill' ? notification.type : '')}
       style={{ opacity: show ? 1 : 0 }}
-      onTransitionEnd={() => removeNotification(notification.id)}>
+      onTransitionEnd={() => removeNotification(notification.id)}
+    >
       {notification.kind === 'pill' && notification.score && (
         <>
           <img

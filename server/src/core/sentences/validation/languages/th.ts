@@ -12,7 +12,7 @@ import {
   ERR_OTHER,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
 // These classes of Thai characters are not allowed to be immediately repeated:
 // - Lead vowels: \u0E40\u0E41\u0E42\u0E43\u0E44
@@ -37,14 +37,14 @@ import {
 // https://github.com/common-voice/common-voice/blob/1d6a861a234e5cd8cd075031b95095ba0ed9428b/web/src/components/pages/contribution/speak/speak.tsx#L50
 // We can read about 8-12 characters in 1 sec:
 // https://github.com/common-voice/sentence-collector/issues/442
-const MIN_LENGTH = 2
-const MAX_LENGTH = 100
+const MIN_LENGTH = 2;
+const MAX_LENGTH = 100;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH
+      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH;
     },
     error: `Number of characters must be between ${MIN_LENGTH} and ${MAX_LENGTH} (inclusive)`,
     errorType: ERR_TOO_LONG,
@@ -65,8 +65,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     // Khomut: \u0E5B ๛ (used to mark end of chapter/document)
     type: 'regex',
     regex: /[<>+*\\#@^[\]()/\u0E2F\u0E46\u0E4F\u0E5A\u0E5B]/,
-    error:
-      'Sentence should not contain symbols, including Paiyannoi and Maiyamok',
+    error: 'Sentence should not contain symbols, including Paiyannoi and Maiyamok',
     errorType: ERR_NO_SYMBOLS,
   },
   {
@@ -94,8 +93,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex:
       /(^|\s)[\u0E30\u0E32\u0E33\u0E45\u0E31\u0E34\u0E35\u0E36\u0E37\u0E4D\u0E47\u0E38\u0E39\u0E48\u0E49\u0E4A\u0E4B\u0E3A\u0E4C\u0E4D\u0E4E]/,
-    error:
-      'Word should not start with unexpected characters, like follow vowel and tone mark',
+    error: 'Word should not start with unexpected characters, like follow vowel and tone mark',
     errorType: ERR_OTHER,
   },
   {
@@ -127,8 +125,7 @@ const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'regex',
     regex: /\u0E3A{2}|\u0E4C{2}|\u0E4D{2}|\u0E4E{2}/,
-    error:
-      'Sentence should not contain repeating Phinthu / Thanthakhat / Nikhahit / Yamakkan',
+    error: 'Sentence should not contain repeating Phinthu / Thanthakhat / Nikhahit / Yamakkan',
     errorType: ERR_OTHER,
   },
   {
@@ -153,16 +150,14 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex:
       /[\u0E40\u0E41\u0E42\u0E43\u0E44\u0E30\u0E32\u0E33\u0E45][\u0E48\u0E49\u0E4A\u0E4B\u0E3A\u0E4C\u0E4D\u0E4E]/,
-    error:
-      'Sentence should not contain invalid symbols after lead/follow vowels',
+    error: 'Sentence should not contain invalid symbols after lead/follow vowels',
     errorType: ERR_OTHER,
   },
   {
     type: 'regex',
     regex:
       /[\u0E48\u0E49\u0E4A\u0E4B\u0E3A\u0E4C\u0E4D\u0E4E][\u0E31\u0E34\u0E35\u0E36\u0E37\u0E4D\u0E47\u0E38\u0E39]/,
-    error:
-      'Sentence should not contain invalid symbols before above/below vowels',
+    error: 'Sentence should not contain invalid symbols before above/below vowels',
     errorType: ERR_OTHER,
   },
   {
@@ -174,40 +169,35 @@ const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'regex',
     regex: /[\u0E30][\u0E32\u0E33\u0E45]/,
-    error:
-      'Sentence should not contain Sara Aa, Sara Am or Lakkhangyao after Sara A',
+    error: 'Sentence should not contain Sara Aa, Sara Am or Lakkhangyao after Sara A',
     errorType: ERR_OTHER,
   },
   {
     // 71 or more consonants/vowels running without a space is difficult to read
     type: 'regex',
     regex: /[\u200b\u200c\u2063\u0E01-\u0E4E]{71}/,
-    error:
-      'Sentence should not contain more than 70 consonants and vowels running without a space',
+    error: 'Sentence should not contain more than 70 consonants and vowels running without a space',
     errorType: ERR_OTHER,
   },
   {
     // 81 or more characters running wihtout a space is difficult to read
     type: 'regex',
     regex: /[\u200b\u200c\u2063\u0E01-\u0E4E.,\-"'“”‘’\u0060?!:;]{81}/,
-    error:
-      'Sentence should not contain more than 80 characters running without a space',
+    error: 'Sentence should not contain more than 80 characters running without a space',
     errorType: ERR_OTHER,
   },
   {
     // 31 or more repeating consonants running without a space likely difficult to read.
     type: 'regex',
     regex: /[\u200b\u200c\u2063ก-ฮ]{31}/,
-    error:
-      'Sentence should not contain more than 30 consonants running without a space',
+    error: 'Sentence should not contain more than 30 consonants running without a space',
     errorType: ERR_OTHER,
   },
   {
     // 7 or more repeating characters in a row is likely a non-formal spelling or difficult to read.
     type: 'regex',
     regex: /(.)\1{6}/,
-    error:
-      'Sentence should not contain more than 7 of the same character in a row',
+    error: 'Sentence should not contain more than 7 of the same character in a row',
     errorType: ERR_OTHER,
   },
   {
@@ -216,10 +206,9 @@ const INVALIDATIONS: ValidatorRule[] = [
     type: 'regex',
     regex:
       /(\u00a9|\u00ae|[\u2000-\u3300]|[\u2580-\u27bf]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff]|[\ue000-\uf8ff])/,
-    error:
-      'Sentence should not contain emojis or other special Unicode symbols',
+    error: 'Sentence should not contain emojis or other special Unicode symbols',
     errorType: ERR_NO_SYMBOLS,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

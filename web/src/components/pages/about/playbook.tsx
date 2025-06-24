@@ -132,12 +132,8 @@ const Playbook = React.memo(() => {
                       {getFragmentLink(tabEntry.title)}
                     </Localized>
                   </div>
-                  <div
-                    className={concatTitle('cv-tab-content', tabEntry.title)}>
-                    <TabEntry
-                      tabEntry={tabEntry}
-                      getFragment={getFragmentLink}
-                    />
+                  <div className={concatTitle('cv-tab-content', tabEntry.title)}>
+                    <TabEntry tabEntry={tabEntry} getFragment={getFragmentLink} />
                   </div>
                 </React.Fragment>
               );

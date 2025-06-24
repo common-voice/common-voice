@@ -10,8 +10,7 @@ export default [
       localizationId: 'resource-nemo-info',
       linkElems: {
         githubLink: 'https://github.com/NVIDIA/NeMo',
-        docsLink:
-          'https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/',
+        docsLink: 'https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/',
       },
     },
   },

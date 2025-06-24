@@ -10,7 +10,8 @@ export const PARTNER_OPTIONS = [
         <a
           href="https://common-voice.github.io/community-playbook"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           Community playbook
         </a>
       ),
@@ -18,7 +19,8 @@ export const PARTNER_OPTIONS = [
         <a
           href={`mailto:${COMMON_VOICE_EMAIL}?subject=Community partnership`}
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           get in touch.
         </a>
       ),
@@ -31,7 +33,8 @@ export const PARTNER_OPTIONS = [
         <a
           href="https://foundation.mozilla.org/en/common-voice/in-country-programmes"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           programmatic work
         </a>
       ),
@@ -44,7 +47,8 @@ export const PARTNER_OPTIONS = [
         <a
           href={`mailto:${COMMON_VOICE_EMAIL}?subject=Government partnership`}
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           get in touch.
         </a>
       ),
@@ -57,7 +61,8 @@ export const PARTNER_OPTIONS = [
         <a
           href={`mailto:${COMMON_VOICE_EMAIL}?subject=Academic partnership`}
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           reach out.
         </a>
       ),
@@ -70,7 +75,8 @@ export const PARTNER_OPTIONS = [
         <a
           href={`mailto:${COMMON_VOICE_EMAIL}?subject=Business partnership`}
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           hear from you.
         </a>
       ),
@@ -83,7 +89,8 @@ export const PARTNER_OPTIONS = [
         <a
           href={`mailto:${COMMON_VOICE_EMAIL}?subject=Corporate partnership`}
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           drop us a line.
         </a>
       ),

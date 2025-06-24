@@ -87,9 +87,7 @@ describe('LanguagesRequestFormPage', () => {
     });
 
     // redirects to success page
-    await expect(mockUseHistoryPush).toBeCalledWith(
-      '/en/language/request/success'
-    );
+    await expect(mockUseHistoryPush).toBeCalledWith('/en/language/request/success');
   });
 
   it('shows error if server endpoint errors', async () => {

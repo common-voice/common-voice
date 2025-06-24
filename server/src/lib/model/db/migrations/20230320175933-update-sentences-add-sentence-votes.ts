@@ -4,9 +4,9 @@ export const up = async function (db: any): Promise<any> {
     ALTER TABLE sentences
     ADD COLUMN is_validated TINYINT DEFAULT FALSE NOT NULL,
     ADD INDEX (is_validated);
-    `)
+    `);
   } catch (e) {
-    console.log(e)
+    console.log(e);
   }
 
   return db.runSql(`
@@ -40,8 +40,8 @@ export const up = async function (db: any): Promise<any> {
       FOREIGN KEY (sentence_id) REFERENCES sentences(id) ON DELETE CASCADE,
       FOREIGN KEY (client_id) REFERENCES user_clients(client_id) ON DELETE CASCADE
     )
-  `)
-}
+  `);
+};
 
 export const down = async function (db: any): Promise<any> {
   return db.runSql(`
@@ -51,5 +51,5 @@ export const down = async function (db: any): Promise<any> {
     DROP TABLE sentence_metadata;
 
     DROP TABLE sentence_votes;
-  `)
-}
+  `);
+};

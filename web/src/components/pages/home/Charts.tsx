@@ -1,6 +1,6 @@
-import React, { useRef } from 'react'
-import { Bar, Line } from 'react-chartjs-2'
-import { CheckCircleIcon, ClockIcon } from '@heroicons/react/24/outline'
+import React, { useRef } from 'react';
+import { Bar, Line } from 'react-chartjs-2';
+import { CheckCircleIcon, ClockIcon } from '@heroicons/react/24/outline';
 
 import {
   Chart as ChartJS,
@@ -14,7 +14,7 @@ import {
   ScriptableContext,
   BarElement,
   ChartOptions,
-} from 'chart.js'
+} from 'chart.js';
 
 ChartJS.register(
   CategoryScale,
@@ -25,10 +25,10 @@ ChartJS.register(
   Tooltip,
   Legend,
   BarElement
-)
+);
 
 export default function Charts() {
-  const chartRef = useRef(null)
+  const chartRef = useRef(null);
   const firstChartData = {
     labels: [['اليوم'], ['3', 'أشهر'], ['6', 'أشهر'], ['9', 'أشهر'], ['سنة', 'واحدة']],
     datasets: [
@@ -61,7 +61,6 @@ export default function Charts() {
       },
     ],
   };
-  
 
   const firstChartOptions = {
     responsive: true,
@@ -75,7 +74,6 @@ export default function Charts() {
       padding: {
         bottom: 0,
         right: 20,
-
       },
     },
     scales: {
@@ -86,8 +84,8 @@ export default function Charts() {
             size: 12,
           },
           color: '#0F2837',
-          maxRotation: 90, 
-        minRotation: 45,
+          maxRotation: 90,
+          minRotation: 45,
         },
         grid: {
           display: false,
@@ -101,7 +99,7 @@ export default function Charts() {
         beginAtZero: true,
       },
     },
-  }
+  };
 
   const SecondChartData = {
     labels: ['06 ص', '07 ص', '08 ص', '09 ص', '10 ص'],
@@ -110,23 +108,18 @@ export default function Charts() {
         label: 'Dataset 1',
         data: [30, 20, 50, 25, 40],
         backgroundColor: (context: ScriptableContext<'bar'>) => {
-          const chart = context.chart
-          const { ctx, chartArea } = chart
+          const chart = context.chart;
+          const { ctx, chartArea } = chart;
 
           if (!chartArea) {
-            return null
+            return null;
           }
-          const gradient = ctx.createLinearGradient(
-            0,
-            chartArea.bottom,
-            0,
-            chartArea.top
-          )
+          const gradient = ctx.createLinearGradient(0, chartArea.bottom, 0, chartArea.top);
 
-          gradient.addColorStop(0, 'rgba(0, 124, 143, 0.1)')
-          gradient.addColorStop(1, 'rgba(0, 124, 143, 1)')
+          gradient.addColorStop(0, 'rgba(0, 124, 143, 0.1)');
+          gradient.addColorStop(1, 'rgba(0, 124, 143, 1)');
 
-          return gradient
+          return gradient;
         },
         borderWidth: 1,
         borderRadius: 5,
@@ -134,7 +127,7 @@ export default function Charts() {
         maxBarThickness: 8,
       },
     ],
-  }
+  };
 
   const SecondChartOptions: ChartOptions<'bar'> = {
     responsive: true,
@@ -167,40 +160,38 @@ export default function Charts() {
         },
       },
     },
-  }
+  };
 
   return (
     <div className="flex flex-col md:flex-row justify-evenly items-start gap-8 mx-auto flex-wrap">
       {/* الجدارية الصوتية */}
       <div className="flex flex-col">
-        <h1 className="text-right text-[#00758A] text-[24px]">
-          الجدارية الصوتية
-        </h1>
+        <h1 className="text-right text-[#00758A] text-[24px]">الجدارية الصوتية</h1>
         <div className="flex flex-col items-center justify-center gap-8 p-4">
           <div
             style={{
               minWidth: '600px',
-              width:"100%",
+              width: '100%',
               // margin: '0 auto',
               boxShadow: '0px 3px 6px #00000016',
               borderRadius: '24px',
               border: '0.5px solid #00000016',
             }}
-            className="shadow-lg rounded-2xl p-8">
+            className="shadow-lg rounded-2xl p-8"
+          >
             <Line data={firstChartData} options={firstChartOptions} />
           </div>
           <div className="flex items-center justify-center gap-8 p-4">
             <div className="flex items-center justify-center gap-8 p-4">
               <div className="flex flex-col items-center space-x-2">
                 <div className="flex justify-between items-center gap-6">
-                  <span className="text-2xl font-bold text-[#103357]">
-                    1235
-                  </span>
+                  <span className="text-2xl font-bold text-[#103357]">1235</span>
                   <span
                     className="w-3 h-3 bg-[#103357] rounded-full drop-shadow-2xl"
                     style={{
                       boxShadow: '0 0 20px 10px rgba(10, 20, 50, 0.2)',
-                    }}></span>
+                    }}
+                  ></span>
                 </div>
                 <span className="flex flex-row-reverse items-center text-[#103357] mt-2">
                   الساعات المسجلة{' '}
@@ -218,14 +209,12 @@ export default function Charts() {
                   className="w-3 h-3 bg-[#219F8A] rounded-full drop-shadow-2xl"
                   style={{
                     boxShadow: '0 0 20px 10px rgba(33, 159, 138, 0.2)',
-                  }}></span>
+                  }}
+                ></span>
               </div>
               <p className="flex flex-row-reverse items-center text-[#219F8A] mt-2">
                 الساعات المدققة{' '}
-                <CheckCircleIcon
-                  className="ml-1"
-                  style={{ width: '20px', height: '20px' }}
-                />
+                <CheckCircleIcon className="ml-1" style={{ width: '20px', height: '20px' }} />
               </p>
             </div>
           </div>
@@ -233,9 +222,7 @@ export default function Charts() {
       </div>
       {/* الأصوات النشطة على الشبكة الآن */}
       <div className="flex flex-col items-start">
-        <h1 className="text-right text-[#00758A] text-[24px] mb-4">
-          الأصوات النشطة الآن
-        </h1>
+        <h1 className="text-right text-[#00758A] text-[24px] mb-4">الأصوات النشطة الآن</h1>
         <div
           style={{
             width: '600px',
@@ -244,14 +231,11 @@ export default function Charts() {
             borderRadius: '24px',
             border: '0.5px solid #00000016',
           }}
-          className="p-2">
-          <Bar
-            ref={chartRef}
-            data={SecondChartData}
-            options={SecondChartOptions}
-          />
+          className="p-2"
+        >
+          <Bar ref={chartRef} data={SecondChartData} options={SecondChartOptions} />
         </div>
       </div>
     </div>
-  )
+  );
 }

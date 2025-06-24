@@ -16,16 +16,9 @@ export interface ModalProps {
   onRequestClose?: (event?: React.MouseEvent | React.KeyboardEvent) => any;
 }
 
-export const ModalButtons = (props: any) => (
-  <div className="buttons" {...props} />
-);
+export const ModalButtons = (props: any) => <div className="buttons" {...props} />;
 
-export default function Modal({
-  buttons,
-  children,
-  innerClassName = '',
-  ...props
-}: ModalProps) {
+export default function Modal({ buttons, children, innerClassName = '', ...props }: ModalProps) {
   return (
     <ReactModal
       isOpen={true}
@@ -37,13 +30,11 @@ export default function Modal({
           padding: 0,
           background: 'transparent',
         },
-      }}>
+      }}
+    >
       <div className={'inner ' + innerClassName}>
         {props.onRequestClose && (
-          <button
-            type="button"
-            className="close"
-            onClick={props.onRequestClose as any}>
+          <button type="button" className="close" onClick={props.onRequestClose as any}>
             <CloseIcon black />
           </button>
         )}

@@ -8,9 +8,7 @@ describe('useLocalStorageState', () => {
   });
 
   it('should return default value and a function to set value', () => {
-    const { result } = renderHook(() =>
-      useLocalStorageState('test-value', 'test-key')
-    );
+    const { result } = renderHook(() => useLocalStorageState('test-value', 'test-key'));
 
     const [value, setValue] = result.current;
 
@@ -19,9 +17,7 @@ describe('useLocalStorageState', () => {
   });
 
   it('should change value when setValue is called', () => {
-    const { result } = renderHook(() =>
-      useLocalStorageState('test-value', 'test-key')
-    );
+    const { result } = renderHook(() => useLocalStorageState('test-value', 'test-key'));
 
     const [value, setValue] = result.current;
 
@@ -38,9 +34,7 @@ describe('useLocalStorageState', () => {
 
   it('should use store a value by key', () => {
     // set an initial value
-    const { result } = renderHook(() =>
-      useLocalStorageState('test-value', 'test-key')
-    );
+    const { result } = renderHook(() => useLocalStorageState('test-value', 'test-key'));
     const [_value, setValue] = result.current; // eslint-disable-line @typescript-eslint/no-unused-vars
     act(() => {
       setValue('another-test-value');
@@ -95,9 +89,7 @@ describe('useLocalStorageState', () => {
 
     it('acts like a normal useState', () => {
       // set an initial value
-      const { result } = renderHook(() =>
-        useLocalStorageState('test-value', 'test-key-2')
-      );
+      const { result } = renderHook(() => useLocalStorageState('test-value', 'test-key-2'));
       const [_value, setValue] = result.current; // eslint-disable-line @typescript-eslint/no-unused-vars
       act(() => {
         setValue('another-test-value');

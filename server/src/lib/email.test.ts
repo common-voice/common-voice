@@ -76,9 +76,10 @@ describe('Email', () => {
         },
       });
       // called with object for aws
-      expect(
-        Object.keys(mockNodemailer.createTransport.mock.calls[0][0])
-      ).toEqual(['SES', 'sendingRate']);
+      expect(Object.keys(mockNodemailer.createTransport.mock.calls[0][0])).toEqual([
+        'SES',
+        'sendingRate',
+      ]);
     });
 
     describe('sendLanguageRequestEmail', () => {
@@ -90,8 +91,7 @@ describe('Email', () => {
       it('calls nodemailer correctly', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
-          languageInfo:
-            "I'd love for JavaScript to be supported on CommonVoice",
+          languageInfo: "I'd love for JavaScript to be supported on CommonVoice",
           languageLocale: 'en-US',
         });
 
@@ -116,8 +116,7 @@ describe('Email', () => {
       it('handles missing language locale', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
-          languageInfo:
-            "No languages for me, just want to say you're doing a great job!",
+          languageInfo: "No languages for me, just want to say you're doing a great job!",
         });
 
         expect(mockTransport.sendMail).toBeCalledWith({
@@ -168,8 +167,7 @@ describe('Email', () => {
       it('calls nodemailer correctly', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
-          languageInfo:
-            "I'd love for JavaScript to be supported on CommonVoice",
+          languageInfo: "I'd love for JavaScript to be supported on CommonVoice",
           languageLocale: 'en-US',
         });
 

@@ -7,19 +7,17 @@ import { useTypedSelector } from '../../stores/tree';
 import { trackProfile } from '../../services/tracker';
 import { useLocale } from '../locale-helpers';
 
-export const LoginFailure = withRouter(
-  ({ history }: RouteComponentProps<any, any, any>): null => {
-    const [, toLocaleRoute] = useLocale();
-    const addNotification = useAction(Notifications.actions.addPill);
+export const LoginFailure = withRouter(({ history }: RouteComponentProps<any, any, any>): null => {
+  const [, toLocaleRoute] = useLocale();
+  const addNotification = useAction(Notifications.actions.addPill);
 
-    useEffect(() => {
-      addNotification('Login failed!');
-      history.replace(toLocaleRoute(URLS.ROOT));
-    }, []);
+  useEffect(() => {
+    addNotification('Login failed!');
+    history.replace(toLocaleRoute(URLS.ROOT));
+  }, []);
 
-    return null;
-  }
-);
+  return null;
+});
 
 export const LoginSuccess = withRouter(
   ({ history, location }: RouteComponentProps<any, any, any>): null => {
@@ -31,7 +29,7 @@ export const LoginSuccess = withRouter(
       if (isFetchingAccount) return;
       const redirectURL = sessionStorage.getItem('redirectURL');
       sessionStorage.removeItem('redirectURL');
-      console.log(account, URLS.PROFILE_INFO,  location.search, redirectURL);
+      console.log(account, URLS.PROFILE_INFO, location.search, redirectURL);
       if (account) {
         trackProfile('login', locale);
       }

@@ -1,52 +1,52 @@
-import * as React from 'react'
+import * as React from 'react';
 
-export const Y_OFFSET = 10
-export const TOTAL_LINE_MARGIN = 154
-export const TEXT_OFFSET = 40
-export const LINE_OFFSET = TEXT_OFFSET + 5
-export const PLOT_PADDING = 13
+export const Y_OFFSET = 10;
+export const TOTAL_LINE_MARGIN = 154;
+export const TEXT_OFFSET = 40;
+export const LINE_OFFSET = TEXT_OFFSET + 5;
+export const PLOT_PADDING = 13;
 
-import './plot.css'
-import { toArabicNumbers } from '../shared/helpers'
+import './plot.css';
+import { toArabicNumbers } from '../shared/helpers';
 
 export type PlotProps = {
-  children: (state: { max: number; width: number }) => React.ReactNode
-  data: any[]
-  formatNumber: (n: number) => string
-  max: number
-  renderXTickLabel: (datum: any, i: number) => React.ReactNode
-  tickCount: number
-  tickMultipliers: number[]
-} & React.SVGProps<SVGElement>
+  children: (state: { max: number; width: number }) => React.ReactNode;
+  data: any[];
+  formatNumber: (n: number) => string;
+  max: number;
+  renderXTickLabel: (datum: any, i: number) => React.ReactNode;
+  tickCount: number;
+  tickMultipliers: number[];
+} & React.SVGProps<SVGElement>;
 
 export default class Plot extends React.Component<
   PlotProps,
   {
-    width: number
+    width: number;
   }
 > {
   state: {
-    width: number
+    width: number;
   } = {
     width: 0,
-  }
+  };
 
-  svgRef = React.createRef<SVGSVGElement>()
+  svgRef = React.createRef<SVGSVGElement>();
 
   async componentDidMount() {
-    window.addEventListener('resize', this.updateSize)
-    this.updateSize()
+    window.addEventListener('resize', this.updateSize);
+    this.updateSize();
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateSize)
+    window.removeEventListener('resize', this.updateSize);
   }
 
   updateSize = () => {
     this.setState({
       width: this.svgRef.current.getBoundingClientRect().width,
-    })
-  }
+    });
+  };
 
   render() {
     let {
@@ -58,37 +58,32 @@ export default class Plot extends React.Component<
       tickCount,
       tickMultipliers,
       ...props
-    } = this.props
-    const { width } = this.state
+    } = this.props;
+    const { width } = this.state;
 
     const tickMultiplier =
       tickMultipliers
         .slice()
         .reverse()
-        .find(m => max > m) || 1
-    const ticksCeiling = (tickCount - 1) * tickMultiplier
+        .find(m => max > m) || 1;
+    const ticksCeiling = (tickCount - 1) * tickMultiplier;
 
     // If max is larger than the natural ceiling based on biggest
     // tickMultiplier and number of ticks, add padding equivalent
     // to another full tickMultiplier
     if (max >= ticksCeiling) {
-      max = max + (ticksCeiling - (max % ticksCeiling))
+      max = max + (ticksCeiling - (max % ticksCeiling));
     } else {
       // if max is smaller than the natural ceiling based on biggest
       // tickMultiplier and number of ticks, add padding that will bring
       // max to the next step of multiplier
-      max = max + (tickMultiplier - (max % tickMultiplier))
+      max = max + (tickMultiplier - (max % tickMultiplier));
     }
 
     return (
-      <svg
-        width="100%"
-        height="100%"
-        className="plot"
-        {...props}
-        ref={this.svgRef}>
+      <svg width="100%" height="100%" className="plot" {...props} ref={this.svgRef}>
         {Array.from({ length: tickCount }).map((_, i) => {
-          const y = (i * TOTAL_LINE_MARGIN) / tickCount + Y_OFFSET
+          const y = (i * TOTAL_LINE_MARGIN) / tickCount + Y_OFFSET;
           return (
             <React.Fragment key={i}>
               <text
@@ -96,11 +91,10 @@ export default class Plot extends React.Component<
                 x={TEXT_OFFSET}
                 y={y}
                 dominantBaseline="middle"
-                textAnchor="end">
+                textAnchor="end"
+              >
                 {toArabicNumbers(
-                  formatNumber(
-                    Math.round(((tickCount - 1 - i) * max) / (tickCount - 1))
-                  )
+                  formatNumber(Math.round(((tickCount - 1 - i) * max) / (tickCount - 1)))
                 )}
               </text>
               <line
@@ -111,34 +105,32 @@ export default class Plot extends React.Component<
                 stroke="rgba(0,0,0,0.2)"
               />
             </React.Fragment>
-          )
+          );
         })}
         {(Array.isArray(data) ? data : []).map((datum, i) => (
           <text
             key={i}
             className="x tick-label"
-            x={
-              LINE_OFFSET +
-              i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)
-            }
-            y={Y_OFFSET + TOTAL_LINE_MARGIN}>
+            x={LINE_OFFSET + i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)}
+            y={Y_OFFSET + TOTAL_LINE_MARGIN}
+          >
             {toArabicNumbers(renderXTickLabel(datum, i))}
           </text>
         ))}
         {children({ width, max })}
       </svg>
-    )
+    );
   }
 }
 
-const BAR_COUNT = 10
-const BAR_WIDTH_LG = 15
-const BAR_WIDTH_XS = 7
-const TICK_COUNT = 4
-const BAR_HEIGHT = TOTAL_LINE_MARGIN * ((TICK_COUNT - 1) / TICK_COUNT)
+const BAR_COUNT = 10;
+const BAR_WIDTH_LG = 15;
+const BAR_WIDTH_XS = 7;
+const TICK_COUNT = 4;
+const BAR_HEIGHT = TOTAL_LINE_MARGIN * ((TICK_COUNT - 1) / TICK_COUNT);
 
 // if window width is mobile, BAR_COUNT should be 5 only
-const BAR_COUNT_MOBILE = 5
+const BAR_COUNT_MOBILE = 5;
 
 // function getBarX(i: number) {
 //   const barCount = window.innerWidth < 768 ? BAR_COUNT_MOBILE : BAR_COUNT;
@@ -149,21 +141,14 @@ const BAR_COUNT_MOBILE = 5
 // }
 
 function formatNumber(n: number) {
-  return n > 1000 ? Math.round(n / 1000) + 'k' : n.toString()
+  return n > 1000 ? Math.round(n / 1000) + 'k' : n.toString();
 }
 
-export const BarPlot = ({
-  data,
-}: {
-  data: { date: string; value: number }[]
-}) => (
+export const BarPlot = ({ data }: { data: { date: string; value: number }[] }) => (
   <Plot
     data={data}
     formatNumber={formatNumber}
-    max={(Array.isArray(data) ? data : []).reduce(
-      (max, d) => Math.max(max, d.value),
-      0
-    )}
+    max={(Array.isArray(data) ? data : []).reduce((max, d) => Math.max(max, d.value), 0)}
     renderXTickLabel={({ date }) => {
       const timeString = new Date(date)
         .toLocaleString([], {
@@ -173,20 +158,21 @@ export const BarPlot = ({
         .replace(':00 ', '')
         .replace('AM', ' ص')
         .replace('PM', ' م')
-        .replace(/\./g, '')
+        .replace(/\./g, '');
 
-      return toArabicNumbers(timeString)
+      return toArabicNumbers(timeString);
     }}
     tickCount={TICK_COUNT}
-    tickMultipliers={[5, 10, 100, 1000]}>
+    tickMultipliers={[5, 10, 100, 1000]}
+  >
     {({ max, width }) => {
-      const barWidth = width < 400 ? BAR_WIDTH_XS : BAR_WIDTH_LG
+      const barWidth = width < 400 ? BAR_WIDTH_XS : BAR_WIDTH_LG;
 
       const getBarX = (i: number) =>
         LINE_OFFSET +
         PLOT_PADDING -
         barWidth / 2 +
-        (i * (width - PLOT_PADDING - TEXT_OFFSET)) / BAR_COUNT
+        (i * (width - PLOT_PADDING - TEXT_OFFSET)) / BAR_COUNT;
 
       return (
         <>
@@ -208,7 +194,7 @@ export const BarPlot = ({
             </linearGradient>
           </defs>
           {(data || []).map(({ value }: any, i: number) => {
-            const height = (value * BAR_HEIGHT) / max || 0
+            const height = (value * BAR_HEIGHT) / max || 0;
             return (
               <rect
                 key={i}
@@ -219,10 +205,10 @@ export const BarPlot = ({
                 width={barWidth}
                 height={height}
               />
-            )
+            );
           })}
         </>
-      )
+      );
     }}
   </Plot>
-)
+);

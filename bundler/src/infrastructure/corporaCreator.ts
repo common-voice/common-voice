@@ -1,15 +1,11 @@
-import { spawn } from 'node:child_process'
-import path from 'node:path'
-import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
-import { log } from 'fp-ts/lib/Console'
-import { AppEnv } from '../types'
+import { spawn } from 'node:child_process';
+import path from 'node:path';
+import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts';
+import { pipe } from 'fp-ts/lib/function';
+import { log } from 'fp-ts/lib/Console';
+import { AppEnv } from '../types';
 
-export const CORPORA_CREATOR_SPLIT_FILES = [
-  'dev.tsv',
-  'test.tsv',
-  'train.tsv',
-] as const
+export const CORPORA_CREATOR_SPLIT_FILES = ['dev.tsv', 'test.tsv', 'train.tsv'] as const;
 
 export const CORPORA_CREATOR_FILES = [
   'validated.tsv',
@@ -18,14 +14,12 @@ export const CORPORA_CREATOR_FILES = [
   'test.tsv',
   'train.tsv',
   'other.tsv',
-] as const
+] as const;
 
-export const isCorporaCreatorFile = (
-  filename: string,
-): filename is CorporaCreaterFile =>
-  CORPORA_CREATOR_FILES.includes(filename as CorporaCreaterFile)
+export const isCorporaCreatorFile = (filename: string): filename is CorporaCreaterFile =>
+  CORPORA_CREATOR_FILES.includes(filename as CorporaCreaterFile);
 
-export type CorporaCreaterFile = (typeof CORPORA_CREATOR_FILES)[number]
+export type CorporaCreaterFile = typeof CORPORA_CREATOR_FILES[number];
 
 /**
  * Runs the create-corpora command to generate corpora for the specified locale.
@@ -47,39 +41,33 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       releaseDirPath,
       '-f',
       path.join(releaseDirPath, locale, 'clips.tsv'),
-    ])
+    ]);
 
-    cc.stdout.pipe(process.stdout)
-    cc.stderr.pipe(process.stderr)
+    cc.stdout.pipe(process.stdout);
+    cc.stderr.pipe(process.stderr);
 
-    cc.on('close', () => resolve())
-    cc.on('error', reason => reject(reason))
-  })
+    cc.on('close', () => resolve());
+    cc.on('error', reason => reject(reason));
+  });
 
 export const corporaCreatorPipeline = (locale: string, releaseDirPath: string) => {
   return pipe(
     TE.Do,
-    TE.tap(() =>
-      TE.fromIO(log('Starting create-corpora for locale ' + locale)),
-    ),
+    TE.tap(() => TE.fromIO(log('Starting create-corpora for locale ' + locale))),
     TE.chain(() =>
       TE.tryCatch(
         () => runCorporaCreatorPromise(locale, releaseDirPath),
-        reason => Error(String(reason)),
-      ),
+        reason => Error(String(reason))
+      )
     ),
-    TE.tap(() =>
-      TE.fromIO(log('Finished create-corpora for locale ' + locale)),
-    ),
-  )
-}
+    TE.tap(() => TE.fromIO(log('Finished create-corpora for locale ' + locale)))
+  );
+};
 
-export const runCorporaCreator = (): RTE.ReaderTaskEither<
-  AppEnv,
-  Error,
-  void
-> =>
+export const runCorporaCreator = (): RTE.ReaderTaskEither<AppEnv, Error, void> =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath}) => corporaCreatorPipeline(locale, releaseDirPath)),
-  )
+    RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>
+      corporaCreatorPipeline(locale, releaseDirPath)
+    )
+  );

@@ -14,10 +14,7 @@ export default class ServerHarness {
     const config = getConfig();
     // Use a different database name then default for tests.
     config.MYSQLDBNAME =
-      DB_PREFIX +
-      config.MYSQLDBNAME +
-      '_' +
-      Math.random().toString(36).substring(7);
+      DB_PREFIX + config.MYSQLDBNAME + '_' + Math.random().toString(36).substring(7);
     injectConfig(config);
     this.server = new RealServer({ bundleCrossLocaleMessages: false });
   }

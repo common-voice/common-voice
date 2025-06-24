@@ -19,9 +19,7 @@ describe('LocalizationSelect', () => {
 
   it('should call onLocalChange with a new locale when changed', async () => {
     const onLocalChangeMock = jest.fn();
-    renderWithProviders(
-      <LocalizationSelect onLocaleChange={onLocalChangeMock} />
-    );
+    renderWithProviders(<LocalizationSelect onLocaleChange={onLocalChangeMock} />);
 
     // pick an option in the select box
     userEvent.selectOptions(

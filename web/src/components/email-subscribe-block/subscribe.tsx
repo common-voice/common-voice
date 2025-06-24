@@ -40,9 +40,7 @@ class Subscribe extends React.Component<SubscribeProps, State> {
     const { account, api, addNotification, updateUser } = this.props;
     this.setState({ submitStatus: 'submitting' });
     try {
-      await api.subscribeToNewsletter(
-        account ? account.email : this.state.email
-      );
+      await api.subscribeToNewsletter(account ? account.email : this.state.email);
       updateUser({ isSubscribedToMailingList: true });
       addNotification(
         <Localized id="profile-form-submit-saved">
@@ -58,8 +56,7 @@ class Subscribe extends React.Component<SubscribeProps, State> {
   };
 
   render() {
-    const { account, demoMode, subscribeText, light, partnerships } =
-      this.props;
+    const { account, demoMode, subscribeText, light, partnerships } = this.props;
     const { submitStatus } = this.state;
     const isEditable = submitStatus == null;
     const email = account ? account.email : this.state.email;
@@ -86,9 +83,7 @@ class Subscribe extends React.Component<SubscribeProps, State> {
               />
             </Localized>
 
-            <Button
-              type="submit"
-              disabled={!isEditable || !privacyAgreed || !email}>
+            <Button type="submit" disabled={!isEditable || !privacyAgreed || !email}>
               {!demoMode && (
                 <Localized id="subscribe">
                   <span />
@@ -100,7 +95,8 @@ class Subscribe extends React.Component<SubscribeProps, State> {
             label={
               <Localized
                 id="accept-privacy"
-                elems={{ privacyLink: <LocaleLink to={URLS.PRIVACY} blank /> }}>
+                elems={{ privacyLink: <LocaleLink to={URLS.PRIVACY} blank /> }}
+              >
                 <span />
               </Localized>
             }

@@ -5,11 +5,7 @@ import { DAILY_GOALS } from '../../../../constants';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { trackDashboard } from '../../../../services/tracker';
 import URLS from '../../../../urls';
-import {
-  LocaleLink,
-  toLocaleRouteBuilder,
-  useLocale,
-} from '../../../locale-helpers';
+import { LocaleLink, toLocaleRouteBuilder, useLocale } from '../../../locale-helpers';
 import { MicIcon, OldPlayIcon } from '../../../ui/icons';
 import { LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
@@ -23,12 +19,7 @@ export interface Props {
   personalGoal?: number;
 }
 
-export default function ProgressCard({
-  locale,
-  personalCurrent,
-  personalGoal,
-  type,
-}: Props) {
+export default function ProgressCard({ locale, personalCurrent, personalGoal, type }: Props) {
   const [globalLocale] = useLocale();
   const { custom_goals: customGoals } = useAccount() || {};
   let api = useAPI();
@@ -40,9 +31,7 @@ export default function ProgressCard({
     }
     api = api.forLocale(locale || null);
     setOverallCurrent(
-      await (type === 'speak'
-        ? api.fetchDailyClipsCount()
-        : api.fetchDailyVotesCount())
+      await (type === 'speak' ? api.fetchDailyClipsCount() : api.fetchDailyVotesCount())
     );
   }
 
@@ -61,21 +50,12 @@ export default function ProgressCard({
     <div className={'progress-card ' + type}>
       <div className="personal">
         {hasCustomGoalForThis ? (
-          <Fraction
-            numerator={currentCustomGoal}
-            denominator={customGoal.amount}
-          />
+          <Fraction numerator={currentCustomGoal} denominator={customGoal.amount} />
         ) : (
           <Fraction
-            numerator={
-              typeof personalCurrent == 'number' ? personalCurrent : '?'
-            }
+            numerator={typeof personalCurrent == 'number' ? personalCurrent : '?'}
             denominator={
-              (personalGoal == Infinity ? (
-                <div className="infinity">∞</div>
-              ) : (
-                personalGoal
-              )) || '?'
+              (personalGoal == Infinity ? <div className="infinity">∞</div> : personalGoal) || '?'
             }
           />
         )}
@@ -110,11 +90,7 @@ export default function ProgressCard({
       <div className="progress-wrap">
         <div className="progress">
           <div className="icon-wrap">
-            {isSpeak ? (
-              <MicIcon />
-            ) : (
-              <OldPlayIcon style={{ position: 'relative', left: 3 }} />
-            )}
+            {isSpeak ? <MicIcon /> : <OldPlayIcon style={{ position: 'relative', left: 3 }} />}
           </div>
         </div>
       </div>
@@ -124,10 +100,7 @@ export default function ProgressCard({
           numerator={overallCurrent == null ? '?' : overallCurrent}
           denominator={overallGoal}
         />
-        <Localized
-          id={
-            isSpeak ? 'todays-recorded-progress' : 'todays-validated-progress'
-          }>
+        <Localized id={isSpeak ? 'todays-recorded-progress' : 'todays-validated-progress'}>
           <div className="description" />
         </Localized>
         {/* <Localized id="help-reach-goal" vars={{ goal: overallGoal }}>

@@ -63,18 +63,8 @@ const CircleStats = ({
       value={valid}
       icon={<PlayOutlineIcon />}
     />
-    <CircleStat
-      className="total-hours"
-      label="recorded-hours"
-      value={total}
-      icon={<MicIcon />}
-    />
-    <CircleStat
-      className="languages"
-      label="languages"
-      value={languages}
-      icon={<GlobeIcon />}
-    />
+    <CircleStat className="total-hours" label="recorded-hours" value={total} icon={<MicIcon />} />
+    <CircleStat className="languages" label="languages" value={languages} icon={<GlobeIcon />} />
   </div>
 );
 

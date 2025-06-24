@@ -1,8 +1,8 @@
-import { Readable } from "stream";
+import { Readable } from 'stream';
 
 export type AddBulkSentencesCommand = {
-  clientId: string
-  tsvFile: Readable
-  localeId: number
-  corpus_id: string
-}
+  clientId: string;
+  tsvFile: Readable;
+  localeId: number;
+  corpus_id: string;
+};

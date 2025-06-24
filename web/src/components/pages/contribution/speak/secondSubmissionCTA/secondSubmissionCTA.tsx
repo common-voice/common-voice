@@ -11,9 +11,7 @@ type SecondPostSubmissionCtaProps = {
   onReset: () => void;
 };
 
-export const SecondPostSubmissionCTA: React.FC<
-  SecondPostSubmissionCtaProps
-> = ({ onReset }) => {
+export const SecondPostSubmissionCTA: React.FC<SecondPostSubmissionCtaProps> = ({ onReset }) => {
   const { height, width } = useWindowSize();
 
   const confettiSourceObject = {
@@ -27,19 +25,19 @@ export const SecondPostSubmissionCTA: React.FC<
 
   return (
     <div data-testid="second-submission-cta">
-      <div id='confetti'>
-      <Confetti
-        width={width}
-        height={heightWithoutHeader}
-        numberOfPieces={200}
-        gravity={0.1}
-        recycle={false}
-        initialVelocityX={8}
-        initialVelocityY={14}
-        opacity={70}
-        confettiSource={confettiSourceObject}
-        tweenDuration={7000}
-      />
+      <div id="confetti">
+        <Confetti
+          width={width}
+          height={heightWithoutHeader}
+          numberOfPieces={200}
+          gravity={0.1}
+          recycle={false}
+          initialVelocityX={8}
+          initialVelocityY={14}
+          opacity={70}
+          confettiSource={confettiSourceObject}
+          tweenDuration={7000}
+        />
       </div>
       <div className="second-cta-container">
         <div className="header-container">
@@ -66,18 +64,15 @@ export const SecondPostSubmissionCTA: React.FC<
             />
           </Localized>
           <Localized id="continue-speaking-button">
-            <Button
-              rounded
-              data-testid="continue-speaking-button"
-              onClick={onReset}
-            />
+            <Button rounded data-testid="continue-speaking-button" onClick={onReset} />
           </Localized>
         </div>
         <Localized
           id="already-have-an-account"
           elems={{
             login: <a href="/login" />,
-          }}>
+          }}
+        >
           <p className="login-text hidden" />
         </Localized>
       </div>

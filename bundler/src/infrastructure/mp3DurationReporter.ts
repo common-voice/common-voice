@@ -1,15 +1,15 @@
-import { spawn } from 'node:child_process'
-import path from 'node:path'
+import { spawn } from 'node:child_process';
+import path from 'node:path';
 
-import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
-import { log } from 'fp-ts/lib/Console'
+import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts';
+import { pipe } from 'fp-ts/lib/function';
+import { log } from 'fp-ts/lib/Console';
 
-import { AppEnv } from '../types'
+import { AppEnv } from '../types';
 
-export const Mp3DurationFiles = ['clip_durations.tsv'] as const
+export const Mp3DurationFiles = ['clip_durations.tsv'] as const;
 
-export type Mp3DurationFile = (typeof Mp3DurationFiles)[number]
+export type Mp3DurationFile = typeof Mp3DurationFiles[number];
 
 /**
  * Runs the mp3-duration-reporter command to calculate the duration of MP3 files for the specified locale.
@@ -21,22 +21,18 @@ export type Mp3DurationFile = (typeof Mp3DurationFiles)[number]
  */
 const runMp3DurationReporterPromise = (locale: string, releaseDirPath: string) =>
   new Promise<number>((resolve, reject) => {
-    const cc = spawn(
-      'mp3-duration-reporter',
-      [path.join(releaseDirPath, locale, 'clips')],
-      {
-        shell: true,
-      },
-    )
+    const cc = spawn('mp3-duration-reporter', [path.join(releaseDirPath, locale, 'clips')], {
+      shell: true,
+    });
 
-    let totalDurationInMs = 0
+    let totalDurationInMs = 0;
 
-    cc.stdout.on('data', data => (totalDurationInMs = Number(data)))
-    cc.stderr.on('data', data => console.log(`${data}`))
+    cc.stdout.on('data', data => (totalDurationInMs = Number(data)));
+    cc.stderr.on('data', data => console.log(`${data}`));
 
-    cc.on('close', () => resolve(totalDurationInMs))
-    cc.on('error', reason => reject(reason))
-  })
+    cc.on('close', () => resolve(totalDurationInMs));
+    cc.on('error', reason => reject(reason));
+  });
 
 export const mp3DurationReporterPipeline = (locale: string, releaseDirPath: string) => {
   return pipe(
@@ -45,18 +41,16 @@ export const mp3DurationReporterPipeline = (locale: string, releaseDirPath: stri
     TE.chain(() =>
       TE.tryCatch(
         () => runMp3DurationReporterPromise(locale, releaseDirPath),
-        reason => Error(String(reason)),
-      ),
-    ),
-  )
-}
+        reason => Error(String(reason))
+      )
+    )
+  );
+};
 
-export const runMp3DurationReporter = (): RTE.ReaderTaskEither<
-  AppEnv,
-  Error,
-  number
-> =>
+export const runMp3DurationReporter = (): RTE.ReaderTaskEither<AppEnv, Error, number> =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath }) => mp3DurationReporterPipeline(locale, releaseDirPath)),
-  )
+    RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>
+      mp3DurationReporterPipeline(locale, releaseDirPath)
+    )
+  );

@@ -21,7 +21,7 @@ const MOCK_LANGUAGE_STATS = [
     validatedHours: 1,
     speakersCount: 23,
     locale: 'en',
-    lastFetched: "2023-11-23T15:59:29.103Z"
+    lastFetched: '2023-11-23T15:59:29.103Z',
   },
   {
     id: 11,
@@ -35,15 +35,13 @@ const MOCK_LANGUAGE_STATS = [
     validatedHours: 0,
     speakersCount: 0,
     locale: 'ast',
-    lastFetched: "2023-11-23T15:59:29.103Z"
+    lastFetched: '2023-11-23T15:59:29.103Z',
   },
 ];
 
 // mock api
 const mockFetchCrossLocaleMessages = jest.fn(() => Promise.resolve([]));
-const mockFetchLanguageStats = jest.fn(() =>
-  Promise.resolve(MOCK_LANGUAGE_STATS)
-);
+const mockFetchLanguageStats = jest.fn(() => Promise.resolve(MOCK_LANGUAGE_STATS));
 
 jest.mock('../../../hooks/store-hooks', () => ({
   useAPI: () => {

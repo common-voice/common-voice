@@ -20,24 +20,14 @@ export const Avatar = ({
     {url ? (
       <img src={url} alt="" role="presentation" />
     ) : (
-      <img
-        className="mars-avatar"
-        src={require('./icons/mars-avatar.svg')}
-        alt="Robot Avatar"
-      />
+      <img className="mars-avatar" src={require('./icons/mars-avatar.svg')} alt="Robot Avatar" />
     )}
   </div>
 );
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const Button = (allProps: any) => {
-  const {
-    className = '',
-    outline = false,
-    rounded = false,
-    isBig = false,
-    ...props
-  } = allProps;
+  const { className = '', outline = false, rounded = false, isBig = false, ...props } = allProps;
 
   return (
     <button
@@ -58,10 +48,7 @@ export const CardAction = ({ className, ...props }: any) =>
 export const Hr = (props: any) => <hr className="hr" {...props} />;
 
 export const Checkbox = React.forwardRef(
-  (
-    props: HTMLProps<HTMLInputElement>,
-    ref: React.RefObject<HTMLInputElement>
-  ) => (
+  (props: HTMLProps<HTMLInputElement>, ref: React.RefObject<HTMLInputElement>) => (
     <span className="checkbox-container">
       <input ref={ref} type="checkbox" {...props} />
       <CheckIcon className="checkmark" />
@@ -76,12 +63,7 @@ export const LabeledCheckbox = React.forwardRef((allProps: any, ref) => {
 
   return (
     <label className="labeled-checkbox" style={style}>
-      <Checkbox
-        ref={ref}
-        aria-required={required}
-        required={required}
-        {...props}
-      />
+      <Checkbox ref={ref} aria-required={required} required={required} {...props} />
       <span className="label">
         {required && <span aria-hidden="true">* </span>}
         {label}
@@ -115,12 +97,7 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
     />
   );
 
-  const labelClassName = cx(
-    'labeled-form-control',
-    'for-' + Component,
-    className,
-    { disabled }
-  );
+  const labelClassName = cx('labeled-form-control', 'for-' + Component, className, { disabled });
 
   return (
     <label className={labelClassName} {...props}>
@@ -132,33 +109,25 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
           {label}
         </span>
       )}
-      {Component == 'select' ? (
-        <div className="wrapper with-down-arrow">{child}</div>
-      ) : (
-        child
-      )}
+      {Component == 'select' ? <div className="wrapper with-down-arrow">{child}</div> : child}
     </label>
   );
 });
 LabeledFormControl.displayName = 'LabeledFormControl';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const LabeledInput = React.forwardRef(
-  ({ type, component, ...props }: any, ref) => (
-    <LabeledFormControl
-      component={component || 'input'}
-      ref={ref}
-      type={type || 'text'}
-      name={type}
-      {...props}
-    />
-  )
-);
+export const LabeledInput = React.forwardRef(({ type, component, ...props }: any, ref) => (
+  <LabeledFormControl
+    component={component || 'input'}
+    ref={ref}
+    type={type || 'text'}
+    name={type}
+    {...props}
+  />
+));
 LabeledInput.displayName = 'LabeledInput';
 
-export const LabeledSelect = (props: any) => (
-  <LabeledFormControl component="select" {...props} />
-);
+export const LabeledSelect = (props: any) => <LabeledFormControl component="select" {...props} />;
 
 export const LabeledTextArea = (props: any) => (
   <LabeledFormControl component="textarea" {...props} />
@@ -187,11 +156,7 @@ interface SpinnerProps {
   isLight?: boolean;
   isFloating?: boolean;
 }
-export const Spinner = ({
-  delayMs,
-  isLight,
-  isFloating = true,
-}: SpinnerProps) => {
+export const Spinner = ({ delayMs, isLight, isFloating = true }: SpinnerProps) => {
   const [showSpinner, setShowSpinner] = useState(false);
 
   useEffect(() => {
@@ -224,10 +189,9 @@ export const StyledLink = ({
   blank = false,
   className,
   ...props
-}: (
-  | React.HTMLProps<HTMLAnchorElement>
-  | React.ComponentProps<typeof LocaleLink>
-) & { blank?: boolean }) => {
+}: (React.HTMLProps<HTMLAnchorElement> | React.ComponentProps<typeof LocaleLink>) & {
+  blank?: boolean;
+}) => {
   const Component = props.href ? 'a' : LocaleLink;
   return (
     <Component

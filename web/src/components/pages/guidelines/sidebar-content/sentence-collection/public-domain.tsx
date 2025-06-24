@@ -16,10 +16,7 @@ export const PublicDomain: React.FC<SidebarContentProps> = ({
       <span className="line" />
       <div className="sidebar-content-header">
         <Localized id="public-domain">
-          <TextButton
-            onClick={toggleVisibleSection}
-            className="guidelines-content-heading"
-          />
+          <TextButton onClick={toggleVisibleSection} className="guidelines-content-heading" />
         </Localized>
         <ChevronDown
           onClick={toggleVisibleSection}
@@ -47,7 +44,8 @@ export const PublicDomain: React.FC<SidebarContentProps> = ({
                   className="underlined-link"
                 />
               ),
-            }}>
+            }}
+          >
             <p className="guidelines-content-explanation" />
           </Localized>
           <Localized id="public-domain-explanation-2">

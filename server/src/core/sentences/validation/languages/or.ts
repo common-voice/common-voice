@@ -4,23 +4,23 @@ import {
   ERR_NO_SYMBOLS,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
-const tokenizeWords = require('talisman/tokenizers/words')
+const tokenizeWords = require('talisman/tokenizers/words');
 
 // Minimum of words that qualify as a sentence.
-const MIN_WORDS = 1
+const MIN_WORDS = 1;
 
 // Maximum of words allowed per sentence to keep recordings in a manageable duration.
 // This got increased from 14 as per easiness in creation of meaningful sentences.
-const MAX_WORDS = 20
+const MAX_WORDS = 20;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      const words = tokenizeWords(sentence)
-      return words.length < MIN_WORDS || words.length > MAX_WORDS
+      const words = tokenizeWords(sentence);
+      return words.length < MIN_WORDS || words.length > MAX_WORDS;
     },
     error: `Number of words must be between ${MIN_WORDS} and ${MAX_WORDS} (inclusive)`,
     errorType: ERR_TOO_LONG,
@@ -47,6 +47,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'Sentence should not contain abbreviations',
     errorType: ERR_NO_ABBREVIATIONS,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

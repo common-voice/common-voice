@@ -27,9 +27,7 @@ const ErrorPage = ({ children, errorCode, prevPath }: Props) => {
   }, []);
 
   const headingLocalisationId =
-    errorCode === '500'
-      ? 'error-something-went-wrong'
-      : `error-title-${errorCode}`;
+    errorCode === '500' ? 'error-something-went-wrong' : `error-title-${errorCode}`;
 
   return (
     <Page className="error-page">
@@ -52,7 +50,8 @@ const ErrorPage = ({ children, errorCode, prevPath }: Props) => {
                     matrixLink: <MatrixLink />,
                     githubLink: <GitHubLink />,
                     discourseLink: <DiscourseLink />,
-                  }}>
+                  }}
+                >
                   <p />
                 </Localized>
                 <div className="error-page__buttons">
@@ -82,12 +81,7 @@ const ErrorPage = ({ children, errorCode, prevPath }: Props) => {
           </PageTextContent>
         </div>
         <div className="error-page__image">
-          <img
-            src={require('./images/mars-sad.svg')}
-            alt=""
-            loading="lazy"
-            role="presentation"
-          />
+          <img src={require('./images/mars-sad.svg')} alt="" loading="lazy" role="presentation" />
         </div>
       </div>
     </Page>

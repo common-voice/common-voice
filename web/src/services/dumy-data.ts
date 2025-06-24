@@ -8,7 +8,7 @@ export const dumyLanguages = [
     is_translated: 1,
     text_direction: 'RTL',
   },
-]
+];
 
 export const dumyStats = [
   {
@@ -36,7 +36,7 @@ export const dumyStats = [
     total: 36918,
     valid: 24803,
   },
-]
+];
 
 export const dumyVoices = [
   {
@@ -79,7 +79,7 @@ export const dumyVoices = [
     date: '2025-02-22T11:00:00.000Z',
     value: 4,
   },
-]
+];
 
 export const dumySentences = [
   {
@@ -182,7 +182,7 @@ export const dumySentences = [
     id: '0c562a84bb4747148bd5330a756c9587',
     text: 'يمتاز النساء في شمال المملكة بإعداد خبز الصاج والعناية به.',
   },
-]
+];
 
 export const dumyVariants = {
   ar: [
@@ -277,7 +277,7 @@ export const dumyVariants = {
       name: 'السعودية - أخرى',
     },
   ],
-}
+};
 
 export const dumyAccents = {
   ar: {
@@ -289,7 +289,7 @@ export const dumyAccents = {
       name: '',
     },
   },
-}
+};
 
 export const dumyClips = [
   {
@@ -392,4 +392,4 @@ export const dumyClips = [
     audioSrc:
       'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzbw7rafu2r/b/SiwarFalakBucket/o/764cb5b9-858f-4b43-904d-c348c72bdb80%2F186cb063-08c5-489f-a5fe-806e847173ed.mp3',
   },
-]
+];

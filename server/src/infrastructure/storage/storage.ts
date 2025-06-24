@@ -1,11 +1,11 @@
-import { Storage } from '@google-cloud/storage'
-import { taskEither as TE } from 'fp-ts'
-import { getConfig } from '../../config-helper'
-import { Readable } from 'stream'
-import { StatusCodes } from 'http-status-codes'
-import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
+import { Storage } from '@google-cloud/storage';
+import { taskEither as TE } from 'fp-ts';
+import { getConfig } from '../../config-helper';
+import { Readable } from 'stream';
+import { StatusCodes } from 'http-status-codes';
+import { Metadata } from '@google-cloud/storage/build/src/nodejs-common';
 
-const TWELVE_HOURS_IN_MS = 1000 * 60 * 60 * 12
+const TWELVE_HOURS_IN_MS = 1000 * 60 * 60 * 12;
 
 const storage =
   getConfig().ENVIRONMENT === 'local'
@@ -14,7 +14,7 @@ const storage =
         projectId: 'local',
         useAuthWithCustomEndpoint: false,
       })
-    : new Storage()
+    : new Storage();
 
 const streamUpload =
   (storage: Storage) =>
@@ -24,20 +24,20 @@ const streamUpload =
     return TE.tryCatch(
       () =>
         new Promise<void>((resolve, reject) => {
-          const file = storage.bucket(bucket).file(path)
+          const file = storage.bucket(bucket).file(path);
           data
             .pipe(file.createWriteStream())
             .on('finish', () => {
-              console.log(`Successfully uploaded ${path}`)
-              resolve()
+              console.log(`Successfully uploaded ${path}`);
+              resolve();
             })
             .on('error', (err: Error) => {
-              reject(err)
-            })
+              reject(err);
+            });
         }),
       (err: Error) => err
-    )
-  }
+    );
+  };
 
 const upload =
   (storage: Storage) =>
@@ -46,13 +46,13 @@ const upload =
   (data: Buffer): TE.TaskEither<Error, void> => {
     return TE.tryCatch(
       async () => {
-        const file = storage.bucket(bucket).file(path)
-        await file.save(data)
-        console.log(`Successfully uploaded ${path}`)
+        const file = storage.bucket(bucket).file(path);
+        await file.save(data);
+        console.log(`Successfully uploaded ${path}`);
       },
       (err: Error) => err
-    )
-  }
+    );
+  };
 
 const makePublic =
   (storage: Storage) =>
@@ -60,10 +60,10 @@ const makePublic =
   (path: string): TE.TaskEither<Error, void> =>
     TE.tryCatch(
       async () => {
-        await storage.bucket(bucket).file(path).makePublic()
+        await storage.bucket(bucket).file(path).makePublic();
       },
       (err: Error) => err
-    )
+    );
 
 const getSignedUrl =
   (storage: Storage) =>
@@ -78,17 +78,17 @@ const getSignedUrl =
             version: 'v4',
             action: 'read',
             expires: Date.now() + TWELVE_HOURS_IN_MS,
-          })
-        return url
+          });
+        return url;
       },
       (err: Error) => err
-    )
+    );
 
 const getPublicUrl =
   (storage: Storage) =>
   (bucket: string) =>
   (path: string): string =>
-    storage.bucket(bucket).file(path).publicUrl()
+    storage.bucket(bucket).file(path).publicUrl();
 
 const deleteFile =
   (storage: Storage) =>
@@ -96,13 +96,12 @@ const deleteFile =
   (path: string): TE.TaskEither<Error, void> =>
     TE.tryCatch(
       async () => {
-        const [result] = await storage.bucket(bucket).file(path).delete()
+        const [result] = await storage.bucket(bucket).file(path).delete();
 
-        if (result.statusCode !== StatusCodes.OK)
-          throw new Error(`Error deleting ${path}`)
+        if (result.statusCode !== StatusCodes.OK) throw new Error(`Error deleting ${path}`);
       },
       (err: Error) => err
-    )
+    );
 
 const fileExists =
   (storage: Storage) =>
@@ -110,12 +109,12 @@ const fileExists =
   (path: string): TE.TaskEither<Error, boolean> => {
     return TE.tryCatch(
       async () => {
-        const [exists] = await storage.bucket(bucket).file(path).exists()
-        return exists
+        const [exists] = await storage.bucket(bucket).file(path).exists();
+        return exists;
       },
       (err: Error) => err
-    )
-  }
+    );
+  };
 
 const getMetadata =
   (storage: Storage) =>
@@ -123,12 +122,12 @@ const getMetadata =
   (path: string): TE.TaskEither<Error, Metadata> => {
     return TE.tryCatch(
       async () => {
-        const [metadata] = await storage.bucket(bucket).file(path).getMetadata()
-        return metadata
+        const [metadata] = await storage.bucket(bucket).file(path).getMetadata();
+        return metadata;
       },
       (err: Error) => err
-    )
-  }
+    );
+  };
 
 const downloadFile =
   (storage: Storage) =>
@@ -136,19 +135,19 @@ const downloadFile =
   (path: string): TE.TaskEither<Error, Buffer> => {
     return TE.tryCatch(
       async () => {
-        const [buffer] = await storage.bucket(bucket).file(path).download()
-        return buffer
+        const [buffer] = await storage.bucket(bucket).file(path).download();
+        return buffer;
       },
       (err: Error) => err
-    )
-  }
+    );
+  };
 
-export const streamUploadToBucket = streamUpload(storage)
-export const uploadToBucket = upload(storage)
-export const doesFileExistInBucket = fileExists(storage)
-export const makePublicInBucket = makePublic(storage)
-export const getSignedUrlFromBucket = getSignedUrl(storage)
-export const getPublicUrlFromBucket = getPublicUrl(storage)
-export const getMetadataFromFile = getMetadata(storage)
-export const deleteFileFromBucket = deleteFile(storage)
-export const downloadFileFromBucket = downloadFile(storage)
+export const streamUploadToBucket = streamUpload(storage);
+export const uploadToBucket = upload(storage);
+export const doesFileExistInBucket = fileExists(storage);
+export const makePublicInBucket = makePublic(storage);
+export const getSignedUrlFromBucket = getSignedUrl(storage);
+export const getPublicUrlFromBucket = getPublicUrl(storage);
+export const getMetadataFromFile = getMetadata(storage);
+export const deleteFileFromBucket = deleteFile(storage);
+export const downloadFileFromBucket = downloadFile(storage);

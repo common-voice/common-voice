@@ -30,9 +30,7 @@ export namespace Flags {
 
   export function reducer(
     state: State = {
-      messageOverwrites: JSON.parse(
-        sessionStorage.getItem('messageOverwrites') || '{}'
-      ),
+      messageOverwrites: JSON.parse(sessionStorage.getItem('messageOverwrites') || '{}'),
       showAccountConversionModal: !isProduction(),
     },
     action: Action

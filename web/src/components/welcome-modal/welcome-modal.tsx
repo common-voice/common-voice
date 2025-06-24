@@ -38,10 +38,7 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
 
   useEffect(() => trackChallenge('modal-welcome'), []);
 
-  const parseEnrollment = (
-    queryString: string,
-    referer?: string
-  ): Enrollment => {
+  const parseEnrollment = (queryString: string, referer?: string): Enrollment => {
     const regex = new RegExp(/([\w\-]+)=([\w\-]+)/, 'g');
     const queries = {} as { [key: string]: string };
     let pair: Array<string> = [];
@@ -60,10 +57,7 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
     } else return null;
   };
 
-  const redirectEnrollment = async (
-    enrollmentDetails: string,
-    referrer?: string
-  ) => {
+  const redirectEnrollment = async (enrollmentDetails: string, referrer?: string) => {
     const referrerString = referrer ? `&referer=${referrer}` : '';
 
     if (enrollmentDetails) {
@@ -94,12 +88,8 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
         <BalanceText>Welcome to the Open Voice Challenge</BalanceText>
       </h1>
       <BalanceText className="subheading">
-        Ready to join the {readableTeamName} challenge team? Read and agree to
-        the{' '}
-        <Link
-          to={URLS.CHALLENGE_TERMS}
-          target="_blank"
-          rel="noopener noreferrer">
+        Ready to join the {readableTeamName} challenge team? Read and agree to the{' '}
+        <Link to={URLS.CHALLENGE_TERMS} target="_blank" rel="noopener noreferrer">
           challenge terms
         </Link>{' '}
         and you're set to go!
@@ -110,10 +100,7 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
           <Checkbox onChange={(e: any) => setHasAgreed(e.target.checked)} />
           <BalanceText className="terms-agree">
             I've read and agree to the Open Voice Challenge{' '}
-            <Link
-              to={URLS.CHALLENGE_TERMS}
-              target="_blank"
-              rel="noopener noreferrer">
+            <Link to={URLS.CHALLENGE_TERMS} target="_blank" rel="noopener noreferrer">
               Terms & Conditions
             </Link>
           </BalanceText>
@@ -126,7 +113,8 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
         onClick={() => {
           const { referrer } = document;
           return redirectEnrollment(window.location.search, referrer);
-        }}>
+        }}
+      >
         Join the {readableTeamName} team
       </Button>
     </Modal>

@@ -4,23 +4,23 @@ import {
   ERR_OTHER,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types/validators'
+} from '../../types/validators';
 
-const tokenizeWords = require('talisman/tokenizers/words')
+const tokenizeWords = require('talisman/tokenizers/words');
 
 // Minimum of words that qualify as a sentence.
-const MIN_WORDS = 1
+const MIN_WORDS = 1;
 
 // Maximum of words allowed per sentence to keep recordings in a manageable duration.
 // For now the same as default.
-const MAX_WORDS = 14
+const MAX_WORDS = 14;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      const words = tokenizeWords(sentence)
-      return words.length < MIN_WORDS || words.length > MAX_WORDS
+      const words = tokenizeWords(sentence);
+      return words.length < MIN_WORDS || words.length > MAX_WORDS;
     },
     error: 'ژمارەی وشەکان دەبێت لەنێوان ١ بۆ ١٤ بێت',
     errorType: ERR_TOO_LONG,
@@ -44,6 +44,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'نابێت ڕستە پیتی بەدەر لە ئەلفوبێی کوردی (سۆرانی) تێدا بێت',
     errorType: ERR_OTHER,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

@@ -58,13 +58,7 @@ export default class Schema {
   }
 
   async upgrade() {
-    const {
-      MYSQLDBNAME,
-      MYSQLHOST,
-      DB_ROOT_PASS,
-      DB_ROOT_USER,
-      VERSION,
-    } = getConfig();
+    const { MYSQLDBNAME, MYSQLHOST, DB_ROOT_PASS, DB_ROOT_USER, VERSION } = getConfig();
     const dbMigrate = DBMigrate.getInstance(true, {
       config: {
         dev: {
@@ -76,15 +70,9 @@ export default class Schema {
           multipleStatements: true,
         },
       },
-      cwd: path.isAbsolute(__dirname)
-        ? __dirname
-        : path.resolve(path.join('server', __dirname)),
+      cwd: path.isAbsolute(__dirname) ? __dirname : path.resolve(path.join('server', __dirname)),
     });
-    console.log(
-      VERSION
-        ? 'Running migrations for version ' + VERSION
-        : 'Running migrations'
-    );
+    console.log(VERSION ? 'Running migrations for version ' + VERSION : 'Running migrations');
     await (VERSION ? dbMigrate.sync(VERSION) : dbMigrate.up());
   }
 }

@@ -5,17 +5,17 @@ import {
   ERR_OTHER,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
 // According to Mozilla Italia guidelines, we count chars to validate instead of words.
-const MIN_LENGTH = 1
-const MAX_LENGTH = 125
+const MIN_LENGTH = 1;
+const MAX_LENGTH = 125;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH
+      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH;
     },
     error: `Number of characters must be between ${MIN_LENGTH} and ${MAX_LENGTH} (inclusive)`,
     errorType: ERR_TOO_LONG,
@@ -39,8 +39,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     // doppio " " e più di un "." nella stessa frase.
     type: 'regex',
     regex: /[<>+*\\#@^“”‘’(){}É[\]/]|\s{2,}|!{2,}/,
-    error:
-      'Sentence should not contain symbols or multiple spaces/exclamation marks',
+    error: 'Sentence should not contain symbols or multiple spaces/exclamation marks',
     errorType: ERR_NO_SYMBOLS,
   },
   {
@@ -54,6 +53,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'Sentence should not contain abbreviations',
     errorType: ERR_NO_ABBREVIATIONS,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

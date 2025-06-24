@@ -10,9 +10,7 @@ import LanguagesRequestSuccessPage from './request-success';
 
 describe('LanguagesRequestSuccessPage', () => {
   it('should render with no accessibility violations', async () => {
-    const renderResult: RenderResult = renderWithLocalization(
-      <LanguagesRequestSuccessPage />
-    );
+    const renderResult: RenderResult = renderWithLocalization(<LanguagesRequestSuccessPage />);
     const results = await axe(renderResult.container);
     expect(results).toHaveNoViolations();
   });

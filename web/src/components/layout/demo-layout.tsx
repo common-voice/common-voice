@@ -23,11 +23,7 @@ function DemoLayout() {
     <div>
       <Suspense fallback={<Spinner />}>
         <Switch>
-          <SentryRoute
-            exact
-            path={toLocaleRoute(URLS.DEMO)}
-            component={Intro}
-          />
+          <SentryRoute exact path={toLocaleRoute(URLS.DEMO)} component={Intro} />
           {[
             {
               route: URLS.DEMO_CONTRIBUTE,
@@ -46,16 +42,8 @@ function DemoLayout() {
             />
           ))}
           {/* more routes to be added */}
-          <SentryRoute
-            exact
-            path={toLocaleRoute(URLS.DEMO_SPEAK)}
-            component={SpeakPage}
-          />
-          <SentryRoute
-            exact
-            path={toLocaleRoute(URLS.DEMO_LISTEN)}
-            component={ListenPage}
-          />
+          <SentryRoute exact path={toLocaleRoute(URLS.DEMO_SPEAK)} component={SpeakPage} />
+          <SentryRoute exact path={toLocaleRoute(URLS.DEMO_LISTEN)} component={ListenPage} />
           <SentryRoute render={() => <Redirect to={URLS.DEMO} />} />
         </Switch>
       </Suspense>

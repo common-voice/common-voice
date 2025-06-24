@@ -28,8 +28,7 @@ export function* asBundleGenerator(
     const bundle = new FluentBundle(locale, { useIsolating: false });
     bundle.addResource(
       new FluentResource(
-        messages +
-          (messageOverwrites?.[locale] ? '\n' + messageOverwrites[locale] : '')
+        messages + (messageOverwrites?.[locale] ? '\n' + messageOverwrites[locale] : '')
       )
     );
     yield bundle;
@@ -41,10 +40,7 @@ export function createCrossLocalization(
   locales: string[],
   availableLocales: string[]
 ) {
-  const currentLocales = negotiateLocales(
-    [...locales, ...navigator.languages],
-    availableLocales
-  );
+  const currentLocales = negotiateLocales([...locales, ...navigator.languages], availableLocales);
 
   localeMessages = localeMessages
     .filter(([locale]) => currentLocales.includes(locale))
@@ -65,13 +61,8 @@ export async function createLocalization(
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const localeMessages: any = await Promise.all(
-    currentLocales.map(async (locale: string) => [
-      locale,
-      await api.fetchLocaleMessages(locale),
-    ])
+    currentLocales.map(async (locale: string) => [locale, await api.fetchLocaleMessages(locale)])
   );
 
-  return new ReactLocalization(
-    asBundleGenerator(localeMessages, messageOverwrites)
-  );
+  return new ReactLocalization(asBundleGenerator(localeMessages, messageOverwrites));
 }

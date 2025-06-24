@@ -27,25 +27,23 @@ const Wave = () => (
   </svg>
 );
 
-const GoalBox = ({
-  date,
-  goal,
-  isNext,
-  type,
-}: GlobalGoal & { isNext: boolean; type: string }) => (
+const GoalBox = ({ date, goal, isNext, type }: GlobalGoal & { isNext: boolean; type: string }) => (
   <div className={'goal-box ' + type + (date ? ' done' : '')}>
     {(date || isNext) && <Wave />}
     <div className="goal">{goal}</div>
     <hr />
     <Localized
       id={
-        ({
-          streaks: 'days',
-          clips: 'recordings',
-          votes: 'validations',
-        } as any)[type]
+        (
+          {
+            streaks: 'days',
+            clips: 'recordings',
+            votes: 'validations',
+          } as any
+        )[type]
       }
-      vars={{ count: goal }}>
+      vars={{ count: goal }}
+    >
       <div className="unit" />
     </Localized>
     {date && (
@@ -67,18 +65,12 @@ export default function GoalRow({
 }) {
   return (
     <div className="goal-row">
-      <Localized
-        id={({ clips: 'speak', votes: 'listen' } as any)[type] || type}>
+      <Localized id={({ clips: 'speak', votes: 'listen' } as any)[type] || type}>
         <h3 />
       </Localized>
       <div className="goal-boxes">
         {goals.map((goal, i) => (
-          <GoalBox
-            key={i}
-            {...goal}
-            type={type}
-            isNext={(goals[i - 1] || ({} as any)).date}
-          />
+          <GoalBox key={i} {...goal} type={type} isNext={(goals[i - 1] || ({} as any)).date} />
         ))}
       </div>
     </div>

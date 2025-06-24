@@ -7,11 +7,7 @@ import API from '../../../../services/api';
 import { trackDashboard } from '../../../../services/tracker';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
-import {
-  User,
-  VISIBLE_FOR_NONE,
-  VISIBLE_FOR_ALL,
-} from '../../../../stores/user';
+import { User, VISIBLE_FOR_NONE, VISIBLE_FOR_ALL } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers';
 
@@ -87,9 +83,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       ({ rows }) => {
         const allRows = [
           ...newRows,
-          ...rows.filter(
-            r1 => !newRows.find((r2: any) => r1.clientHash == r2.clientHash)
-          ),
+          ...rows.filter(r1 => !newRows.find((r2: any) => r1.clientHash == r2.clientHash)),
         ];
         allRows.sort((r1, r2) => (r1.position > r2.position ? 1 : -1));
         return {
@@ -115,10 +109,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
   updateScrollIndicator = () => {
     const SIZE = 32;
     const el = this.scroller.current;
-    el.style.setProperty(
-      '--before-height',
-      Math.min(el.scrollTop, SIZE) + 'px'
-    );
+    el.style.setProperty('--before-height', Math.min(el.scrollTop, SIZE) + 'px');
     el.style.setProperty(
       '--after-height',
       Math.min(el.scrollHeight - el.scrollTop - el.clientHeight, SIZE) + 'px'
@@ -131,24 +122,21 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     // TODO: Render <Fetchrow>s outside of `items` to flatten the list.
     const items = rows.map((row, i) => {
       const prevPosition = i > 0 ? rows[i - 1].position : null;
-      const nextPosition =
-        i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
+      const nextPosition = i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
       return [
         prevPosition && prevPosition + 1 < row.position ? (
           <FetchRow
             key={row.position + 'prev'}
             onClick={() =>
-              this.fetchMore([
-                Math.max(prevPosition + 1, row.position - FETCH_SIZE),
-                row.position,
-              ])
+              this.fetchMore([Math.max(prevPosition + 1, row.position - FETCH_SIZE), row.position])
             }
           />
         ) : null,
         <li
           key={row.position}
           className={'row ' + (row.you ? 'you' : '')}
-          ref={row.you ? this.youRow : null}>
+          ref={row.you ? this.youRow : null}
+        >
           <div className="position">
             {row.position < 9 && '0'}
             {row.position + 1}
@@ -192,10 +180,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     });
 
     return (
-      <ul
-        className="leaderboard"
-        ref={this.scroller}
-        onScroll={this.updateScrollIndicator}>
+      <ul className="leaderboard" ref={this.scroller} onScroll={this.updateScrollIndicator}>
         {items}
       </ul>
     );
@@ -211,11 +196,7 @@ const Leaderboard = connect<PropsFromState>(
   { forwardRef: true }
 )(UnconnectedLeaderboard);
 
-export default function LeaderboardCard({
-  currentLocale,
-}: {
-  currentLocale?: string;
-}) {
+export default function LeaderboardCard({ currentLocale }: { currentLocale?: string }) {
   const account = useAccount();
   const saveAccount = useAction(User.actions.saveAccount);
 
@@ -263,7 +244,8 @@ export default function LeaderboardCard({
           <div
             className="leaderboard-info"
             onMouseEnter={() => setShowInfo(true)}
-            onMouseLeave={() => setShowInfo(false)}>
+            onMouseLeave={() => setShowInfo(false)}
+          >
             {showInfo && (
               <div className="info-menu">
                 <ul>
@@ -290,7 +272,8 @@ export default function LeaderboardCard({
               className={showInfo ? 'active' : ''}
               style={{ display: 'flex' }}
               onClick={() => setShowInfo(!showInfo)}
-              type="button">
+              type="button"
+            >
               <InfoIcon />
             </button>
           </div>
@@ -299,15 +282,10 @@ export default function LeaderboardCard({
       overlay={
         showOverlay && (
           <div className="leaderboard-overlay">
-            <button
-              className="close-overlay"
-              type="button"
-              onClick={() => setShowOverlay(false)}>
+            <button className="close-overlay" type="button" onClick={() => setShowOverlay(false)}>
               <CrossIcon />
             </button>
-            <LocalizedGetAttribute
-              id="leaderboard-visibility"
-              attribute="label">
+            <LocalizedGetAttribute id="leaderboard-visibility" attribute="label">
               {label => <h2>{label}</h2>}
             </LocalizedGetAttribute>
             <Toggle
@@ -315,9 +293,7 @@ export default function LeaderboardCard({
               onText="visible"
               defaultChecked={isAccountVisible}
               onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
-                const visible = event.target.checked
-                  ? VISIBLE_FOR_ALL
-                  : VISIBLE_FOR_NONE;
+                const visible = event.target.checked ? VISIBLE_FOR_ALL : VISIBLE_FOR_NONE;
                 saveAccount({ ...account, visible });
               }}
             />
@@ -330,7 +306,8 @@ export default function LeaderboardCard({
                 id="visibility-overlay-note"
                 elems={{
                   profileLink: <LocaleLink to={URLS.PROFILE_INFO} />,
-                }}>
+                }}
+              >
                 <p className="note" />
               </Localized>
             </div>
@@ -339,20 +316,10 @@ export default function LeaderboardCard({
       }
       tabs={{
         'recorded-clips': ({ locale }: { locale: string }) => (
-          <Leaderboard
-            key={'c' + locale}
-            locale={locale}
-            type="clip"
-            ref={leaderboardRef}
-          />
+          <Leaderboard key={'c' + locale} locale={locale} type="clip" ref={leaderboardRef} />
         ),
         'validated-clips': ({ locale }: { locale: string }) => (
-          <Leaderboard
-            key={'v' + locale}
-            locale={locale}
-            type="vote"
-            ref={leaderboardRef}
-          />
+          <Leaderboard key={'v' + locale} locale={locale} type="vote" ref={leaderboardRef} />
         ),
       }}
     />

@@ -38,10 +38,7 @@ const About: React.FC<PropsFromState> = ({ isSubscribedToMailingList }) => {
         // [SECTIONS.PLAYBOOK, Playbook],
         // [SECTIONS.GET_INVOLVED, GetInvolved],
       ].map(
-        (
-          [section, SectionComponent]: [string | Record<string, string>, any],
-          index: number
-        ) => {
+        ([section, SectionComponent]: [string | Record<string, string>, any], index: number) => {
           if (typeof section === 'object') {
             return <SectionComponent key={`section-${index}`} {...section} />;
           }
@@ -52,13 +49,12 @@ const About: React.FC<PropsFromState> = ({ isSubscribedToMailingList }) => {
               key={`section-${section}`}
               className={classNames('about-hero', section, {
                 active: section === activeSection,
-              })}>
+              })}
+            >
               {section === SECTIONS.SUBSCRIBE ? (
                 <SectionComponent light subscribeText="about-subscribe-text" />
               ) : (
-                <SectionComponent
-                  isSubscribedToMailingList={isSubscribedToMailingList}
-                />
+                <SectionComponent isSubscribedToMailingList={isSubscribedToMailingList} />
               )}
             </section>
           );

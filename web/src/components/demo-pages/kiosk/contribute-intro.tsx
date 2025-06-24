@@ -29,9 +29,7 @@ const getContributeComponents = (): PageContentType => {
             </Localized>
           </div>
           <div id="demo-contribute-speak-button">
-            <Link
-              to={toLocaleRoute(urls.DEMO_SPEAK)}
-              className="contribute-button">
+            <Link to={toLocaleRoute(urls.DEMO_SPEAK)} className="contribute-button">
               <MicIcon />
             </Link>
             <div></div>
@@ -52,9 +50,7 @@ const getContributeComponents = (): PageContentType => {
             </Localized>
           </div>
           <div id="demo-contribute-listen-button">
-            <Link
-              to={toLocaleRoute(urls.DEMO_LISTEN)}
-              className="contribute-button">
+            <Link to={toLocaleRoute(urls.DEMO_LISTEN)} className="contribute-button">
               <OldPlayIcon />
             </Link>
             <div id="listen-background"></div>
@@ -67,17 +63,11 @@ const getContributeComponents = (): PageContentType => {
   const CardComponent = () => (
     <>
       <KioskCard.Top>
-        <div
-          id="inner-circle"
-          className="demo-contribute-kiosk-top-icon-circle">
+        <div id="inner-circle" className="demo-contribute-kiosk-top-icon-circle">
           <img src={mars} alt="mini robot" />
         </div>
-        <div
-          id="outer-circle"
-          className="demo-contribute-kiosk-top-icon-circle"></div>
-        <div
-          id="circle-shadow"
-          className="demo-contribute-kiosk-top-icon-circle"></div>
+        <div id="outer-circle" className="demo-contribute-kiosk-top-icon-circle"></div>
+        <div id="circle-shadow" className="demo-contribute-kiosk-top-icon-circle"></div>
       </KioskCard.Top>
       <KioskCard.Body>
         <Localized id="demo-contribute-card-header">

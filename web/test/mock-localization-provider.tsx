@@ -18,11 +18,7 @@ function createMockLocalization() {
 const MOCK_LOCALIZATION = createMockLocalization();
 
 function MockLocalizationProvider({ children }: { children: React.ReactNode }) {
-  return (
-    <LocalizationProvider l10n={MOCK_LOCALIZATION}>
-      {children}
-    </LocalizationProvider>
-  );
+  return <LocalizationProvider l10n={MOCK_LOCALIZATION}>{children}</LocalizationProvider>;
 }
 
 export default MockLocalizationProvider;

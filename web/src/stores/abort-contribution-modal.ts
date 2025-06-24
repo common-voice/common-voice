@@ -1,4 +1,4 @@
-import { Dispatch } from 'redux'
+import { Dispatch } from 'redux';
 
 export enum AbortContributionModalStatus {
   CONFIRMED = 'CONFIRMED',
@@ -7,9 +7,9 @@ export enum AbortContributionModalStatus {
 }
 
 export type AbortContributionModalState = {
-  modalVisible: boolean | null
-  abortStatus: AbortContributionModalStatus
-}
+  modalVisible: boolean | null;
+  abortStatus: AbortContributionModalStatus;
+};
 
 export enum AbortContributionModalActionType {
   SET_MODAL_VISIBILITY = 'SET_MODAL_VISIBILITY',
@@ -17,18 +17,16 @@ export enum AbortContributionModalActionType {
 }
 
 interface SetAbortContributionModalAction {
-  type: AbortContributionModalActionType.SET_MODAL_VISIBILITY
-  isAbortContributionModalVisible: boolean
+  type: AbortContributionModalActionType.SET_MODAL_VISIBILITY;
+  isAbortContributionModalVisible: boolean;
 }
 
 interface SetAbortStatusAction {
-  type: AbortContributionModalActionType.SET_ABORT_STATUS
-  abortStatus: AbortContributionModalStatus
+  type: AbortContributionModalActionType.SET_ABORT_STATUS;
+  abortStatus: AbortContributionModalStatus;
 }
 
-export type AbortContributionModalAction =
-  | SetAbortContributionModalAction
-  | SetAbortStatusAction
+export type AbortContributionModalAction = SetAbortContributionModalAction | SetAbortStatusAction;
 
 export const AbortContributionModalActions = {
   setAbortContributionModalVisible:
@@ -37,23 +35,22 @@ export const AbortContributionModalActions = {
       dispatch({
         type: AbortContributionModalActionType.SET_MODAL_VISIBILITY,
         isAbortContributionModalVisible,
-      })
+      });
     },
 
   setAbortStatus:
-    (abortStatus: AbortContributionModalStatus) =>
-    (dispatch: Dispatch<SetAbortStatusAction>) => {
+    (abortStatus: AbortContributionModalStatus) => (dispatch: Dispatch<SetAbortStatusAction>) => {
       dispatch({
         type: AbortContributionModalActionType.SET_ABORT_STATUS,
         abortStatus,
-      })
+      });
     },
-}
+};
 
 const INITIAL_STATE: AbortContributionModalState = {
   modalVisible: null,
   abortStatus: AbortContributionModalStatus.INACTIVE,
-}
+};
 
 export function abortContributionModalReducer(
   state: AbortContributionModalState = INITIAL_STATE,
@@ -69,15 +66,15 @@ export function abortContributionModalReducer(
               abortStatus: AbortContributionModalStatus.INACTIVE,
             }
           : {}),
-      }
+      };
 
     case AbortContributionModalActionType.SET_ABORT_STATUS:
       return {
         ...state,
         abortStatus: action.abortStatus,
-      }
+      };
 
     default:
-      return state
+      return state;
   }
 }

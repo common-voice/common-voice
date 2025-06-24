@@ -17,16 +17,14 @@ export namespace Locale {
   export type Action = SetAction;
 
   export const actions = {
-    set:
-      (locale: string) =>
-      (dispatch: Dispatch<SetAction>, getState: () => StateTree) => {
-        if (getState().locale === locale) return;
+    set: (locale: string) => (dispatch: Dispatch<SetAction>, getState: () => StateTree) => {
+      if (getState().locale === locale) return;
 
-        dispatch({
-          type: ActionType.SET,
-          locale,
-        });
-      },
+      dispatch({
+        type: ActionType.SET,
+        locale,
+      });
+    },
   };
 
   export function reducer(state: State = null, action: Action): State {

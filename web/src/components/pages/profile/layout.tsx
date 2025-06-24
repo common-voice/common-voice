@@ -9,14 +9,7 @@ import { User } from '../../../stores/user';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
-import {
-  CameraIcon,
-  CloudIcon,
-  CogIcon,
-  TrashIcon,
-  UserIcon,
-  UserPlusIcon,
-} from '../../ui/icons';
+import { CameraIcon, CloudIcon, CogIcon, TrashIcon, UserIcon, UserPlusIcon } from '../../ui/icons';
 import AvatarSetup from './avatar-setup/avatar-setup';
 import DeleteProfile from './delete/delete';
 import InfoPage from './info/info';
@@ -89,14 +82,10 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
               key={route}
               exact
               path={route}
-              render={props =>
-                user.account ? <Component /> : <Redirect to={infoRoute} />
-              }
+              render={props => (user.account ? <Component /> : <Redirect to={infoRoute} />)}
             />
           ))}
-          <SentryRoute
-            render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}
-          />
+          <SentryRoute render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />} />
         </Switch>
       </div>
     </div>

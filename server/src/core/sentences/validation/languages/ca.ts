@@ -4,22 +4,22 @@ import {
   ERR_OTHER,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
-const tokenizeWords = require('talisman/tokenizers/words/gersam')
+const tokenizeWords = require('talisman/tokenizers/words/gersam');
 
 // Minimum of words that qualify as a sentence.
-const MIN_WORDS = 1
+const MIN_WORDS = 1;
 
 // Maximum of words allowed per sentence to keep recordings in a manageable duration.
-const MAX_WORDS = 14
+const MAX_WORDS = 14;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string): boolean => {
-      const words = tokenizeWords('ca', sentence)
-      return words.length < MIN_WORDS || words.length > MAX_WORDS
+      const words = tokenizeWords('ca', sentence);
+      return words.length < MIN_WORDS || words.length > MAX_WORDS;
     },
     error: `El nombre de paraules ha de ser entre ${MIN_WORDS} i ${MAX_WORDS} (inclòs)`,
     errorType: ERR_TOO_LONG,
@@ -55,6 +55,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'La frase no pot contenir abreviacions o acrònims',
     errorType: ERR_NO_ABBREVIATIONS,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

@@ -1,11 +1,7 @@
 /**
  * Turn a callback function into a promise function.
  */
-export default function run(
-  context: any,
-  method: Function,
-  args?: any
-): Promise<any> {
+export default function run(context: any, method: Function, args?: any): Promise<any> {
   if (!Array.isArray(args)) {
     args = [args];
   }

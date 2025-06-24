@@ -19,12 +19,7 @@ interface LanguageCardProps {
   setModalOptions?: ({ locale, l10n }: ModalOptions) => any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
-const LanguageCard = ({
-  type,
-  localeMessages,
-  language,
-  setModalOptions,
-}: LanguageCardProps) => {
+const LanguageCard = ({ type, localeMessages, language, setModalOptions }: LanguageCardProps) => {
   const [globalLocale] = useLocale();
   const availableLocales = useAvailableLocales();
 

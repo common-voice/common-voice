@@ -37,10 +37,7 @@ export const Misreadings: React.FC<SidebarContentProps> = ({
     <span className="line" />
     <div className="sidebar-content-header">
       <Localized id="misreadings">
-        <TextButton
-          onClick={toggleVisibleSection}
-          className="guidelines-content-heading"
-        />
+        <TextButton onClick={toggleVisibleSection} className="guidelines-content-heading" />
       </Localized>
       <ChevronDown
         onClick={toggleVisibleSection}
@@ -76,10 +73,7 @@ export const Misreadings: React.FC<SidebarContentProps> = ({
           <Localized id="example">
             <p className="example" />
           </Localized>
-          <ExampleContent
-            exampleText="misreadings-example-1"
-            exampleTips={exampleTips}
-          />
+          <ExampleContent exampleText="misreadings-example-1" exampleTips={exampleTips} />
         </div>
       </div>
     )}

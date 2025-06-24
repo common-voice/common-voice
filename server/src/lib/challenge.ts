@@ -21,30 +21,20 @@ export default class Challenge {
     router.get('/:challenge/progress', this.getWeeklyProgress);
     router.get('/:challenge/:locale/members/:type', this.getTopMembers);
     router.get('/:challenge/:locale/teams', this.getTopTeams);
-    router.get(
-      '/:challenge/:locale/contributors/:type',
-      this.getTopContributors
-    );
+    router.get('/:challenge/:locale/contributors/:type', this.getTopContributors);
     router.use('/:challenge/achievement/:bonus_type', this.getAchievement);
 
     return router;
   }
 
   getAchievement = async (
-    {
-      client_id,
-      params: { challenge, bonus_type },
-    }: ChallengeRequestArgument & Request,
+    { client_id, params: { challenge, bonus_type } }: ChallengeRequestArgument & Request,
     response: Response
   ) => {
     if (bonus_type === 'session') {
       // earn the invite_contribute_same_session achievement
       response.json(
-        await earnBonus('invite_contribute_same_session', [
-          client_id,
-          client_id,
-          challenge,
-        ])
+        await earnBonus('invite_contribute_same_session', [client_id, client_id, challenge])
       );
     } else if (bonus_type == 'invite') {
       // return { showInviteSendToast: boolean, hasEarnedSessionToast: boolean } in the json
@@ -52,11 +42,7 @@ export default class Challenge {
       // if invite_send achievement is not earned yet, earn that achievement and return showInviteSendToast: true
       // if invite_contribute_same_session is not earned yet, return hasEarnedSessionToast: false
       const achievement = {
-        showInviteSendToast: await earnBonus('invite_send', [
-          client_id,
-          client_id,
-          challenge,
-        ]),
+        showInviteSendToast: await earnBonus('invite_send', [client_id, client_id, challenge]),
         hasEarnedSessionToast: await hasEarnedBonus(
           'invite_contribute_same_session',
           client_id,
@@ -80,10 +66,7 @@ export default class Challenge {
     response: Response
   ) => {
     // week starts from zero
-    const progress = await this.model.db.getWeeklyProgress(
-      client_id,
-      challenge
-    );
+    const progress = await this.model.db.getWeeklyProgress(client_id, challenge);
     const weeklyProgress = {
       week: Math.max(0, Math.min(progress.week, 2)),
       challengeComplete: progress.week > 2,
@@ -99,11 +82,7 @@ export default class Challenge {
   };
 
   getTopMembers = async (
-    {
-      client_id,
-      params: { challenge, locale, type },
-      query,
-    }: ChallengeRequestArgument & Request,
+    { client_id, params: { challenge, locale, type }, query }: ChallengeRequestArgument & Request,
     response: Response
   ) => {
     response.json(
@@ -119,11 +98,7 @@ export default class Challenge {
   };
 
   getTopTeams = async (
-    {
-      client_id,
-      params: { challenge, locale },
-      query,
-    }: ChallengeRequestArgument & Request,
+    { client_id, params: { challenge, locale }, query }: ChallengeRequestArgument & Request,
     response: Response
   ) => {
     response.json(
@@ -138,11 +113,7 @@ export default class Challenge {
   };
 
   getTopContributors = async (
-    {
-      client_id,
-      params: { challenge, locale, type },
-      query,
-    }: ChallengeRequestArgument & Request,
+    { client_id, params: { challenge, locale, type }, query }: ChallengeRequestArgument & Request,
     response: Response
   ) => {
     response.json(

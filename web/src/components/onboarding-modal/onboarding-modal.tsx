@@ -31,8 +31,7 @@ const STEPS: Array<StepType> = [
     alt: 'invite',
   },
   {
-    title:
-      'Earn points by contributing your voice and validating recorded clips',
+    title: 'Earn points by contributing your voice and validating recorded clips',
     img: require('./images/contribute.png'),
     alt: 'contribute',
   },
@@ -72,11 +71,7 @@ const OnboardingModal = ({ onRequestClose }: Props) => {
       <p className="onboarding-modal-title">{stepData.title}</p>
       {isLastStep ? (
         <div className="wave">
-          <img
-            src={require('./images/1-red-copy.svg')}
-            className="red-copy"
-            alt="robot"
-          />
+          <img src={require('./images/1-red-copy.svg')} className="red-copy" alt="robot" />
         </div>
       ) : (
         <div className="image-container">
@@ -92,7 +87,8 @@ const OnboardingModal = ({ onRequestClose }: Props) => {
             outline
             onClick={() => {
               setStep(prevStep => prevStep + 1);
-            }}>
+            }}
+          >
             Next
             <SkipIcon />
           </Button>

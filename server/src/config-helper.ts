@@ -1,85 +1,85 @@
-import * as fs from 'fs'
-import { SESClientConfig } from '@aws-sdk/client-ses'
-import { config } from 'dotenv'
+import * as fs from 'fs';
+import { SESClientConfig } from '@aws-sdk/client-ses';
+import { config } from 'dotenv';
 
 if (process.env.DOTENV_CONFIG_PATH) {
-  const result = config({ path: process.env.DOTENV_CONFIG_PATH })
+  const result = config({ path: process.env.DOTENV_CONFIG_PATH });
   if (result.error) {
-    console.log(result.error)
+    console.log(result.error);
     console.log(
       'Failed loading dotenv from DOTENV_CONFIG_PATH file, using defaults',
       process.env.DOTENV_CONFIG_PATH
-    )
+    );
   }
 } else {
-  const result = config()
+  const result = config();
   if (result.error) {
-    console.log(result.error)
-    console.log('Failed loading .env file, using defaults')
+    console.log(result.error);
+    console.log('Failed loading .env file, using defaults');
   }
 }
 
 export type CommonVoiceConfig = {
-  VERSION: string
-  PROD: boolean
-  SERVER_PORT: number
-  DB_ROOT_USER: string
-  DB_ROOT_PASS: string
-  MYSQLUSER: string
-  MYSQLPASS: string
-  MYSQLDBNAME: string
-  MAINCORPUSID: string
-  MYSQLHOST: string
-  MYSQLREPLICAHOST?: string
-  MYSQLPORT: number
-  MYSQLREPLICAPORT?: number
-  CLIP_BUCKET_NAME: string
-  OCI_TENANCY_ID: string
-  OCI_USER_ID: string
-  OCI_FINGERPRINT: string
-  OCI_PRIVATE_KEY_PATH: string
-  OCI_REGION: string
-  OCI_NAMESPACE: string
-  OCI_BUCKET_NAME: string
-  DATASET_BUCKET_NAME: string
-  BULK_SUBMISSION_BUCKET_NAME: string
-  AWS_REGION: string
-  ENVIRONMENT: string
-  RELEASE_VERSION?: string
-  SECRET: string
-  AWS_SES_CONFIG: SESClientConfig
-  STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string
-  GCP_CREDENTIALS: object
-  ADMIN_EMAILS: string
+  VERSION: string;
+  PROD: boolean;
+  SERVER_PORT: number;
+  DB_ROOT_USER: string;
+  DB_ROOT_PASS: string;
+  MYSQLUSER: string;
+  MYSQLPASS: string;
+  MYSQLDBNAME: string;
+  MAINCORPUSID: string;
+  MYSQLHOST: string;
+  MYSQLREPLICAHOST?: string;
+  MYSQLPORT: number;
+  MYSQLREPLICAPORT?: number;
+  CLIP_BUCKET_NAME: string;
+  OCI_TENANCY_ID: string;
+  OCI_USER_ID: string;
+  OCI_FINGERPRINT: string;
+  OCI_PRIVATE_KEY_PATH: string;
+  OCI_REGION: string;
+  OCI_NAMESPACE: string;
+  OCI_BUCKET_NAME: string;
+  DATASET_BUCKET_NAME: string;
+  BULK_SUBMISSION_BUCKET_NAME: string;
+  AWS_REGION: string;
+  ENVIRONMENT: string;
+  RELEASE_VERSION?: string;
+  SECRET: string;
+  AWS_SES_CONFIG: SESClientConfig;
+  STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string;
+  GCP_CREDENTIALS: object;
+  ADMIN_EMAILS: string;
   AUTH0: {
-    DOMAIN: string
-    CLIENT_ID: string
-    CLIENT_SECRET: string
-  }
-  BASKET_API_KEY?: string
-  IMPORT_SENTENCES: boolean
-  REDIS_URL: string
-  LAST_DATASET: string
-  SENTRY_DSN_SERVER: string
-  MAINTENANCE_MODE: boolean
-  DEBUG: boolean
-  FLAG_BUFFER_STREAM_ENABLED: boolean
-  EMAIL_USERNAME_FROM: string
-  EMAIL_USERNAME_TO: string
-  ALI_OSS_REGION: string
-  ALI_OSS_ACCESS_KEY_ID: string
-  ALI_OSS_ACCESS_KEY_SECRET: string
-  ALI_OSS_BUCKET_NAME: string
-}
+    DOMAIN: string;
+    CLIENT_ID: string;
+    CLIENT_SECRET: string;
+  };
+  BASKET_API_KEY?: string;
+  IMPORT_SENTENCES: boolean;
+  REDIS_URL: string;
+  LAST_DATASET: string;
+  SENTRY_DSN_SERVER: string;
+  MAINTENANCE_MODE: boolean;
+  DEBUG: boolean;
+  FLAG_BUFFER_STREAM_ENABLED: boolean;
+  EMAIL_USERNAME_FROM: string;
+  EMAIL_USERNAME_TO: string;
+  ALI_OSS_REGION: string;
+  ALI_OSS_ACCESS_KEY_ID: string;
+  ALI_OSS_ACCESS_KEY_SECRET: string;
+  ALI_OSS_BUCKET_NAME: string;
+};
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const castDefault = (value: string): any => value
-const castBoolean = (value: string): boolean => value === 'true'
-const castInt = (value: string): number => parseInt(value)
-const castJson = (value: string): object => JSON.parse(value)
+const castDefault = (value: string): any => value;
+const castBoolean = (value: string): boolean => value === 'true';
+const castInt = (value: string): number => parseInt(value);
+const castJson = (value: string): object => JSON.parse(value);
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const configEntry = (key: string, defaultValue: any, cast = castDefault) =>
-  process.env[key] ? cast(process.env[key]) : defaultValue
+  process.env[key] ? cast(process.env[key]) : defaultValue;
 
 const BASE_CONFIG: CommonVoiceConfig = {
   VERSION: configEntry('CV_VERSION', null), // Migration number (e.g. 20171205171637), null = most recent
@@ -103,10 +103,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   // CLIP_BUCKET_NAME: configEntry('CV_CLIP_BUCKET_NAME', 'common-voice-clips'),
   //CLIP_BUCKET_NAME: configEntry('CV_CLIP_BUCKET_NAME', 'SiwarFalakBucket'),
   CLIP_BUCKET_NAME: configEntry('CV_CLIP_BUCKET_NAME', ''),
-  DATASET_BUCKET_NAME: configEntry(
-    'CV_DATASET_BUCKET_NAME',
-    'common-voice-datasets'
-  ),
+  DATASET_BUCKET_NAME: configEntry('CV_DATASET_BUCKET_NAME', 'common-voice-datasets'),
   BULK_SUBMISSION_BUCKET_NAME: configEntry(
     'CV_BULK_SUBMISSION_BUCKET_NAME',
     'common-voice-bulk-submissions'
@@ -134,11 +131,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
   DEBUG: configEntry('CV_DEBUG', false, castBoolean),
-  FLAG_BUFFER_STREAM_ENABLED: configEntry(
-    'CV_FLAG_BUFFER_STREAM_ENABLED',
-    false,
-    castBoolean
-  ),
+  FLAG_BUFFER_STREAM_ENABLED: configEntry('CV_FLAG_BUFFER_STREAM_ENABLED', false, castBoolean),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
   ALI_OSS_REGION: configEntry('ALI_OSS_REGION', null),
@@ -153,35 +146,33 @@ const BASE_CONFIG: CommonVoiceConfig = {
   OCI_REGION: configEntry('OCI_REGION', ''),
   OCI_NAMESPACE: configEntry('OCI_NAMESPACE', ''),
   OCI_BUCKET_NAME: configEntry('OCI_BUCKET_NAME', ''),
-}
+};
 
-let injectedConfig: CommonVoiceConfig
-let loadedConfig: CommonVoiceConfig
+let injectedConfig: CommonVoiceConfig;
+let loadedConfig: CommonVoiceConfig;
 
 export function injectConfig(config: Partial<CommonVoiceConfig>) {
-  injectedConfig = { ...BASE_CONFIG, ...config }
+  injectedConfig = { ...BASE_CONFIG, ...config };
 }
 
 export function getConfig(): CommonVoiceConfig {
   if (injectedConfig) {
-    return injectedConfig
+    return injectedConfig;
   }
 
   if (loadedConfig) {
-    return loadedConfig
+    return loadedConfig;
   }
 
-  let fileConfig = null
+  let fileConfig = null;
 
   try {
-    const config_path = process.env.SERVER_CONFIG_PATH || './config.json'
-    fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'))
+    const config_path = process.env.SERVER_CONFIG_PATH || './config.json';
+    fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
   } catch (err) {
-    console.error(
-      `Could not load config.json, using defaults (error message: ${err.message})`
-    )
+    console.error(`Could not load config.json, using defaults (error message: ${err.message})`);
   }
-  loadedConfig = { ...BASE_CONFIG, ...fileConfig }
+  loadedConfig = { ...BASE_CONFIG, ...fileConfig };
 
-  return loadedConfig
+  return loadedConfig;
 }

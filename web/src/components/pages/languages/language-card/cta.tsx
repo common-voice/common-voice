@@ -1,10 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import {
-  ReactLocalization,
-  Localized,
-  LocalizationProvider,
-} from '@fluent/react';
+import { ReactLocalization, Localized, LocalizationProvider } from '@fluent/react';
 
 import URLS from '../../../../urls';
 import { toLocaleRouteBuilder } from '../../../locale-helpers';
@@ -18,17 +14,10 @@ interface LanguageCardCTAProps {
   onClick: () => any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
-const LanguageCardCTA = ({
-  type,
-  locale,
-  l10n,
-  onClick,
-}: LanguageCardCTAProps) => {
+const LanguageCardCTA = ({ type, locale, l10n, onClick }: LanguageCardCTAProps) => {
   if (type === 'launched') {
     return (
-      <Link
-        className={styles.cta}
-        to={toLocaleRouteBuilder(locale)(URLS.SPEAK)}>
+      <Link className={styles.cta} to={toLocaleRouteBuilder(locale)(URLS.SPEAK)}>
         <LocalizationProvider l10n={l10n}>
           <Localized id="contribute" />
         </LocalizationProvider>

@@ -7,7 +7,7 @@ export const clipsSchema: AllowedSchema = {
       format: 'positiveIntegerFormat',
       type: 'number',
       minimum: 1,
-      maximum: 50
+      maximum: 50,
     },
   },
 };

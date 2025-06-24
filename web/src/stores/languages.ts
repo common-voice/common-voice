@@ -1,26 +1,26 @@
-import { Dispatch } from 'redux'
-import StateTree from '../stores/tree'
+import { Dispatch } from 'redux';
+import StateTree from '../stores/tree';
 
-type Locales = string[]
+type Locales = string[];
 
 interface NativeNames {
-  [property: string]: string
+  [property: string]: string;
 }
 
 interface LocaleNameAndIDMapping {
-  id: number
-  name: string
+  id: number;
+  name: string;
 }
 
 export interface State {
-  isLoading: boolean
-  allLocales?: Locales
-  contributableLocales?: Locales
-  nativeNames?: NativeNames
-  rtlLocales?: Locales
-  translatedLocales?: Locales
-  contributableNativeNames?: NativeNames
-  localeNameAndIDMapping?: LocaleNameAndIDMapping[]
+  isLoading: boolean;
+  allLocales?: Locales;
+  contributableLocales?: Locales;
+  nativeNames?: NativeNames;
+  rtlLocales?: Locales;
+  translatedLocales?: Locales;
+  contributableNativeNames?: NativeNames;
+  localeNameAndIDMapping?: LocaleNameAndIDMapping[];
 }
 
 enum ActionType {
@@ -28,27 +28,24 @@ enum ActionType {
 }
 
 interface LoadedAction {
-  type: ActionType.LOADED
+  type: ActionType.LOADED;
   payload: {
-    allLocales: Locales
-    contributableLocales: Locales
-    nativeNames: NativeNames
-    rtlLocales: Locales
-    translatedLocales: Locales
-    contributableNativeNames: NativeNames
-    localeNameAndIDMapping: LocaleNameAndIDMapping[]
-  }
+    allLocales: Locales;
+    contributableLocales: Locales;
+    nativeNames: NativeNames;
+    rtlLocales: Locales;
+    translatedLocales: Locales;
+    contributableNativeNames: NativeNames;
+    localeNameAndIDMapping: LocaleNameAndIDMapping[];
+  };
 }
 
-export type Action = LoadedAction
+export type Action = LoadedAction;
 
 export const actions = {
   loadLocalesData: () => {
-    return async (
-      dispatch: Dispatch<LoadedAction>,
-      getState: () => StateTree
-    ) => {
-      const { api } = getState()
+    return async (dispatch: Dispatch<LoadedAction>, getState: () => StateTree) => {
+      const { api } = getState();
       const defaultLangs = [
         {
           id: 8,
@@ -59,51 +56,49 @@ export const actions = {
           is_translated: 1,
           text_direction: 'RTL',
         },
-      ]
-      const allLanguages = await api
-        .fetchAllLanguages()
-        .catch(() => defaultLangs)
+      ];
+      const allLanguages = await api.fetchAllLanguages().catch(() => defaultLangs);
 
       //get obj of native names, default to language code
       const nativeNames = allLanguages.reduce((names: any, language) => {
-        names[language.name] = language.native_name ?? language.name
-        return names
-      }, {})
+        names[language.name] = language.native_name ?? language.name;
+        return names;
+      }, {});
 
       const contributableNativeNames = allLanguages.reduce(
         (names: Record<string, string>, language) => {
           if (language.is_contributable) {
-            names[language.name] = language.native_name ?? language.name
+            names[language.name] = language.native_name ?? language.name;
           }
-          return names
+          return names;
         },
         {}
-      )
+      );
 
       //get array of rtl languages
       const rtlLocales = allLanguages.reduce((names: any, language) => {
         if (language.text_direction === 'RTL') {
-          names.push(language.name)
+          names.push(language.name);
         }
-        return names
-      }, [])
+        return names;
+      }, []);
 
       const translatedLocales = allLanguages.reduce((names: any, language) => {
         if (language.is_translated) {
-          names.push(language.name)
+          names.push(language.name);
         }
-        return names
-      }, [])
+        return names;
+      }, []);
 
-      const allLocales = allLanguages.map(language => language.name)
+      const allLocales = allLanguages.map(language => language.name);
       const contributableLocales = allLanguages
         .filter(language => language.is_contributable)
-        .map(language => language.name)
+        .map(language => language.name);
 
       const localeNameAndIDMapping = allLanguages.map(language => ({
         id: language.id,
         name: language.name,
-      }))
+      }));
 
       dispatch({
         type: ActionType.LOADED,
@@ -116,14 +111,14 @@ export const actions = {
           contributableNativeNames,
           localeNameAndIDMapping,
         },
-      })
-    }
+      });
+    };
   },
-}
+};
 
 const INITIAL_STATE = {
   isLoading: true,
-}
+};
 
 export function reducer(state: State = INITIAL_STATE, action: Action): State {
   switch (action.type) {
@@ -138,9 +133,9 @@ export function reducer(state: State = INITIAL_STATE, action: Action): State {
         translatedLocales: action.payload.translatedLocales,
         contributableNativeNames: action.payload.contributableNativeNames,
         localeNameAndIDMapping: action.payload.localeNameAndIDMapping,
-      }
+      };
 
     default:
-      return state
+      return state;
   }
 }

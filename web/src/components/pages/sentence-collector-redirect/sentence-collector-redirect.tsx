@@ -1,23 +1,18 @@
-import React from 'react'
-import { Localized } from '@fluent/react'
+import React from 'react';
+import { Localized } from '@fluent/react';
 
-import Page from '../../ui/page'
-import PageHeading from '../../ui/page-heading'
+import Page from '../../ui/page';
+import PageHeading from '../../ui/page-heading';
 
-import PageTextContent from '../../ui/page-text-content'
-import RoundButton from '../../ui/round-button'
-import {
-  DiscourseLink,
-  EmailLink,
-  GitHubLink,
-  MatrixLink,
-} from '../../shared/links'
-import VisuallyHidden from '../../visually-hidden/visually-hidden'
-import { DiscourseIconCode, GithubIconCode, MatrixIcon } from '../../ui/icons'
-import { LocaleLink } from '../../locale-helpers'
-import URLS from '../../../urls'
+import PageTextContent from '../../ui/page-text-content';
+import RoundButton from '../../ui/round-button';
+import { DiscourseLink, EmailLink, GitHubLink, MatrixLink } from '../../shared/links';
+import VisuallyHidden from '../../visually-hidden/visually-hidden';
+import { DiscourseIconCode, GithubIconCode, MatrixIcon } from '../../ui/icons';
+import { LocaleLink } from '../../locale-helpers';
+import URLS from '../../../urls';
 
-import './sentence-collector-redirect.css'
+import './sentence-collector-redirect.css';
 
 const SentenceCollectorRedirect = () => (
   <Page className="sc-redirect-page">
@@ -34,7 +29,8 @@ const SentenceCollectorRedirect = () => (
               elems={{
                 writeURL: <LocaleLink to={URLS.WRITE} />,
                 reviewURL: <LocaleLink to={URLS.REVIEW} />,
-              }}>
+              }}
+            >
               <p className="subtitle-1" />
             </Localized>
             <Localized
@@ -44,7 +40,8 @@ const SentenceCollectorRedirect = () => (
                 githubLink: <GitHubLink />,
                 discourseLink: <DiscourseLink />,
                 emailLink: <EmailLink />,
-              }}>
+              }}
+            >
               <p />
             </Localized>
             <div className="sc-redirect-page__buttons">
@@ -82,6 +79,6 @@ const SentenceCollectorRedirect = () => (
       </div>
     </div>
   </Page>
-)
+);
 
-export default SentenceCollectorRedirect
+export default SentenceCollectorRedirect;

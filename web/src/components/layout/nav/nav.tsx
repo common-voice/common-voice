@@ -1,22 +1,22 @@
-import { Localized } from '@fluent/react'
-import * as React from 'react'
-import { trackNav, getTrackClass } from '../../../services/tracker'
-import URLS from '../../../urls'
-import { LocaleNavLink, useLocale } from '../../locale-helpers'
-import ContributeMenu from './contribute-menu'
-import { useAccount } from '../../../hooks/store-hooks'
+import { Localized } from '@fluent/react';
+import * as React from 'react';
+import { trackNav, getTrackClass } from '../../../services/tracker';
+import URLS from '../../../urls';
+import { LocaleNavLink, useLocale } from '../../locale-helpers';
+import ContributeMenu from './contribute-menu';
+import { useAccount } from '../../../hooks/store-hooks';
 
-import './nav.css'
+import './nav.css';
 
 type NavProps = {
-  id?: string
-  shouldExpandNavItems?: boolean
-  isContributionPageActive?: boolean
-  children?: React.ReactNode
-}
+  id?: string;
+  shouldExpandNavItems?: boolean;
+  isContributionPageActive?: boolean;
+  children?: React.ReactNode;
+};
 
 const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
-  const [locale] = useLocale()
+  const [locale] = useLocale();
   return (
     <Localized id={id}>
       <LocaleNavLink
@@ -26,8 +26,8 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
         onClick={() => trackNav(id, locale)}
       />
     </Localized>
-  )
-}
+  );
+};
 
 const Nav: React.FC<NavProps> = ({
   children,
@@ -35,14 +35,14 @@ const Nav: React.FC<NavProps> = ({
   isContributionPageActive,
   ...props
 }) => {
-  const [showMenu, setShowMenu] = React.useState(false)
-  const [showMobileMenu, setShowMobileMenu] = React.useState(false)
+  const [showMenu, setShowMenu] = React.useState(false);
+  const [showMobileMenu, setShowMobileMenu] = React.useState(false);
 
-  const account = useAccount()
+  const account = useAccount();
 
   const toggleMobileMenuVisible = () => {
-    setShowMobileMenu(!showMobileMenu)
-  }
+    setShowMobileMenu(!showMobileMenu);
+  };
 
   return (
     <nav {...props} className="nav-list">
@@ -67,7 +67,7 @@ const Nav: React.FC<NavProps> = ({
       </div>
       {children}
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

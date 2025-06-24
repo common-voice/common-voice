@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function FalakFooter() {
   return (
@@ -27,12 +27,12 @@ export default function FalakFooter() {
           <div className="w-full lg:w-6/12 mt-0 ml-0 order-2 md:order-none">
             <div className="mt-4">
               <div className="text-center text-xs lg:pr-2 text-white font-bold">
-                جميع الحقوق محفوظة لمجمع الملك سلمان العالمي للغة العربية ©
-                2024.
+                جميع الحقوق محفوظة لمجمع الملك سلمان العالمي للغة العربية © 2024.
                 <a
                   href="https://falak.ksaa.gov.sa/privacy"
                   target="_blank"
-                  className="text-white underline">
+                  className="text-white underline"
+                >
                   سياسة الاستخدام
                 </a>
               </div>
@@ -58,9 +58,7 @@ export default function FalakFooter() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://www.linkedin.com/company/ksgafal"
-                      target="_blank">
+                    <a href="https://www.linkedin.com/company/ksgafal" target="_blank">
                       <img
                         src={require('./img/linkedin.png')}
                         loading="lazy"
@@ -141,5 +139,5 @@ export default function FalakFooter() {
         </div>
       </div>
     </div>
-  )
+  );
 }

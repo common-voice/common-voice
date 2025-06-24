@@ -1,4 +1,4 @@
-import { AllowedSchema } from 'express-json-validator-middleware'
+import { AllowedSchema } from 'express-json-validator-middleware';
 
 export const AddSentenceRequest: AllowedSchema = {
   type: 'object',
@@ -21,7 +21,7 @@ export const AddSentenceRequest: AllowedSchema = {
       type: 'string',
     },
   },
-}
+};
 
 export const AddSentenceVoteRequest: AllowedSchema = {
   type: 'object',
@@ -34,7 +34,7 @@ export const AddSentenceVoteRequest: AllowedSchema = {
       type: 'boolean',
     },
   },
-}
+};
 
 export const GetSentencesForReviewRequest: AllowedSchema = {
   type: 'object',
@@ -48,4 +48,4 @@ export const GetSentencesForReviewRequest: AllowedSchema = {
       type: 'string',
     },
   },
-}
+};

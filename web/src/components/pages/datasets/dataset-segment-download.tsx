@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 
@@ -21,9 +17,7 @@ interface Props extends WithLocalizationProps {
   isSubscribedToMailingList: boolean;
 }
 
-const DatasetSegmentDownload: React.FC<Props> = ({
-  isSubscribedToMailingList,
-}) => {
+const DatasetSegmentDownload: React.FC<Props> = ({ isSubscribedToMailingList }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [releaseData, setReleaseData] = useState<Dataset>();
   const api = useAPI();

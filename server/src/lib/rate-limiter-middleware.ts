@@ -1,8 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import {
-  RateLimiterRedis,
-  IRateLimiterStoreOptions,
-} from 'rate-limiter-flexible';
+import { RateLimiterRedis, IRateLimiterStoreOptions } from 'rate-limiter-flexible';
 import { redis as redisClient } from './redis';
 
 function createRateLimiter(
@@ -36,11 +33,7 @@ function rateLimiterMiddleware(
 ) {
   const rateLimiter = createRateLimiter(keyPrefix, rateLimiterOptions);
 
-  return async function (
-    request: Request,
-    response: Response,
-    next: NextFunction
-  ) {
+  return async function (request: Request, response: Response, next: NextFunction) {
     if (!rateLimiter?.consume) {
       next(new Error('No rate limiter available'));
       return;

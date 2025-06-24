@@ -40,9 +40,7 @@ describe('getDifferenceInIds', () => {
   });
 
   test('long list of requested and log list of saved Ids', () => {
-    expect(
-      getDifferenceInIds(REQUESTED_IDS_LONG, SAVED_IDS_LONG)
-    ).toStrictEqual({
+    expect(getDifferenceInIds(REQUESTED_IDS_LONG, SAVED_IDS_LONG)).toStrictEqual({
       idsToBeRemoved: TO_BE_REMOVED_LONG,
       idsToBeAdded: TO_BE_SAVED_LONG,
     });

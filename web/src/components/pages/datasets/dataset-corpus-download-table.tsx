@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import classNames from 'classnames';
 import * as React from 'react';
 import { formatBytes, msToHours } from '../../../utility';
@@ -97,14 +93,16 @@ const DatasetCorpusDownloadTable = ({
             <tr
               onClick={() => onRowSelect(row.id)}
               className={classNames({ selected: row.id === selectedId })}
-              key={row.id + row.release_dir}>
+              key={row.id + row.release_dir}
+            >
               {Object.keys(COLUMNS).map((col: string, index) => {
                 const { label, display } = COLUMNS[col];
                 return (
                   <td
                     data-mobile-label={getString(label)}
                     key={index + label}
-                    className={index < 3 ? 'highlight' : ''}>
+                    className={index < 3 ? 'highlight' : ''}
+                  >
                     {display(row[col], locale)}
                   </td>
                 );

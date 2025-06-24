@@ -7,9 +7,7 @@ const KioskCard = {
       <div id="kiosk-card-top--button">{children}</div>
     </div>
   ),
-  Body: ({ children }: React.PropsWithChildren<any>) => (
-    <div id="kiosk-card--body">{children}</div>
-  ),
+  Body: ({ children }: React.PropsWithChildren<any>) => <div id="kiosk-card--body">{children}</div>,
 
   Bottom: ({ children }: React.PropsWithChildren<any>) => (
     <div id="kiosk-card--bottom">{children}</div>

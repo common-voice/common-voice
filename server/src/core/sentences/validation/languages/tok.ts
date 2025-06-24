@@ -5,17 +5,17 @@ import {
   ERR_OTHER,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
 // Amount of characters allowed per sentence to keep recordings in a manageable duration.
-const MIN_LENGTH = 1
-const MAX_LENGTH = 90
+const MIN_LENGTH = 1;
+const MAX_LENGTH = 90;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH
+      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH;
     },
     error: `toki sitelen ni li suli ike, li ken jo e sitelen lili pi mute ni taso: ${MIN_LENGTH}-${MAX_LENGTH}`,
     errorType: ERR_TOO_LONG,
@@ -91,8 +91,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     // No word-initial "n + consonant" sequences
     type: 'regex',
     regex: /\b[Nn][jklmpstw]/,
-    error:
-      'sitelen "n" li lon open nimi la sitelen "j k l m p s t w" li ken ala sitelen nanpa tu',
+    error: 'sitelen "n" li lon open nimi la sitelen "j k l m p s t w" li ken ala sitelen nanpa tu',
     errorType: ERR_OTHER,
   },
   {
@@ -102,6 +101,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'sitelen "wu wo ji ti" li ken ala',
     errorType: ERR_OTHER,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

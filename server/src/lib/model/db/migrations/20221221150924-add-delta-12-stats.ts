@@ -8,8 +8,7 @@ const STATS = [
     average_clips_duration: 5166,
     total_users: 1152,
     size: 1314755828,
-    checksum:
-      '0efd86ca6b40641b55d1411b7d3b1f1ab8626de4b207504953706df201d198a5',
+    checksum: '0efd86ca6b40641b55d1411b7d3b1f1ab8626de4b207504953706df201d198a5',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -27,8 +26,7 @@ const STATS = [
     average_clips_duration: 3992,
     total_users: 27,
     size: 88997465,
-    checksum:
-      '4b9635a8f2f14198ae8bc6a31245b5a0611d90edd8df850d0f67554b27c1a94e',
+    checksum: '4b9635a8f2f14198ae8bc6a31245b5a0611d90edd8df850d0f67554b27c1a94e',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -46,8 +44,7 @@ const STATS = [
     average_clips_duration: 5001,
     total_users: 345,
     size: 1020859073,
-    checksum:
-      '00afc519d48d749a4724386dc203b8a0286060efe4ccb46963555794fef216eb',
+    checksum: '00afc519d48d749a4724386dc203b8a0286060efe4ccb46963555794fef216eb',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -65,8 +62,7 @@ const STATS = [
     average_clips_duration: 4863,
     total_users: 373,
     size: 1079846567,
-    checksum:
-      '04e90a4bc52d1f0f9997f1b56ec3c636af09c411dc0437ca50df3c67a137c07a',
+    checksum: '04e90a4bc52d1f0f9997f1b56ec3c636af09c411dc0437ca50df3c67a137c07a',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -84,8 +80,7 @@ const STATS = [
     average_clips_duration: 3784,
     total_users: 1,
     size: 17738726,
-    checksum:
-      'fe68f6c28f38918388128bba5c6999ec478e508d8b7af5cbfa9e51c339bba67e',
+    checksum: 'fe68f6c28f38918388128bba5c6999ec478e508d8b7af5cbfa9e51c339bba67e',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -103,8 +98,7 @@ const STATS = [
     average_clips_duration: 3336,
     total_users: 11,
     size: 36226158,
-    checksum:
-      '683057ee2860eada3a5ed5874ccb55ee5cd664f1e95f9876282f54404f7cc955',
+    checksum: '683057ee2860eada3a5ed5874ccb55ee5cd664f1e95f9876282f54404f7cc955',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -122,8 +116,7 @@ const STATS = [
     average_clips_duration: 4863,
     total_users: 10,
     size: 10804250,
-    checksum:
-      '1bb1e1bba095aa4d022ef949dda8b2a806ef2a20d3f135f37b5d12723290db14',
+    checksum: '1bb1e1bba095aa4d022ef949dda8b2a806ef2a20d3f135f37b5d12723290db14',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -141,8 +134,7 @@ const STATS = [
     average_clips_duration: 5494,
     total_users: 663,
     size: 3407934221,
-    checksum:
-      'c9b0f4916532cd00782f1e155bd376e3e6f6f4829f73a8536c8aa9be5e773afa',
+    checksum: 'c9b0f4916532cd00782f1e155bd376e3e6f6f4829f73a8536c8aa9be5e773afa',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -160,8 +152,7 @@ const STATS = [
     average_clips_duration: 5185,
     total_users: 272,
     size: 1041733376,
-    checksum:
-      '2b8f54b28022d483f22c6a203a998d50fe946911b347f7e901113219ce5e9ab6',
+    checksum: '2b8f54b28022d483f22c6a203a998d50fe946911b347f7e901113219ce5e9ab6',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -179,8 +170,7 @@ const STATS = [
     average_clips_duration: 3755,
     total_users: 6,
     size: 1395558,
-    checksum:
-      '34edaf782e34e67177710eb44ac85cf14b488ad177c7f883996f42334939840b',
+    checksum: '34edaf782e34e67177710eb44ac85cf14b488ad177c7f883996f42334939840b',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -198,8 +188,7 @@ const STATS = [
     average_clips_duration: 6215,
     total_users: 8,
     size: 20439694,
-    checksum:
-      '20835f24c7f3bf8cb7cc60e6c4b368606a6f8988a1395657ca4f64395ca6a001',
+    checksum: '20835f24c7f3bf8cb7cc60e6c4b368606a6f8988a1395657ca4f64395ca6a001',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -217,8 +206,7 @@ const STATS = [
     average_clips_duration: 5165,
     total_users: 84,
     size: 297985268,
-    checksum:
-      'b7c55379cbb5a7fae18a8343bb5c6512587165c9a7b258de921b48484aef82c2',
+    checksum: 'b7c55379cbb5a7fae18a8343bb5c6512587165c9a7b258de921b48484aef82c2',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -236,8 +224,7 @@ const STATS = [
     average_clips_duration: 4324,
     total_users: 27,
     size: 21524017,
-    checksum:
-      '674cf7146187d88957fa5592a53ce05025fba5c79353a06227694a13be998af0',
+    checksum: '674cf7146187d88957fa5592a53ce05025fba5c79353a06227694a13be998af0',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -255,8 +242,7 @@ const STATS = [
     average_clips_duration: 5362,
     total_users: 65,
     size: 256491338,
-    checksum:
-      '00e4954197195361dbf0a919afbe99c735ac3128ce66e085037b13eba24a8d41',
+    checksum: '00e4954197195361dbf0a919afbe99c735ac3128ce66e085037b13eba24a8d41',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -274,8 +260,7 @@ const STATS = [
     average_clips_duration: 5187,
     total_users: 21,
     size: 36182026,
-    checksum:
-      'a669cbc38edd57d54441b1db84a4becad117c99c75f6ea973318741e7e66fd74',
+    checksum: 'a669cbc38edd57d54441b1db84a4becad117c99c75f6ea973318741e7e66fd74',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -293,8 +278,7 @@ const STATS = [
     average_clips_duration: 3622,
     total_users: 64,
     size: 137592877,
-    checksum:
-      '778825e1dc4a29f4fa5201e7bac51740a205763c6055632636dffc6aea669342',
+    checksum: '778825e1dc4a29f4fa5201e7bac51740a205763c6055632636dffc6aea669342',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -312,8 +296,7 @@ const STATS = [
     average_clips_duration: 4169,
     total_users: 77,
     size: 24071337,
-    checksum:
-      'b2a7db7b89bc919d365c56ed31d78733eb4270abb59cddae29bde215093ae6e1',
+    checksum: 'b2a7db7b89bc919d365c56ed31d78733eb4270abb59cddae29bde215093ae6e1',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -331,8 +314,7 @@ const STATS = [
     average_clips_duration: 3314,
     total_users: 17,
     size: 47424084,
-    checksum:
-      '76d1ec2365724dbaae27b99bc69e526ad006b8edbcacb535f0f30979eb352014',
+    checksum: '76d1ec2365724dbaae27b99bc69e526ad006b8edbcacb535f0f30979eb352014',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -350,8 +332,7 @@ const STATS = [
     average_clips_duration: 3134,
     total_users: 0,
     size: 50165035,
-    checksum:
-      '22dcc7f11a79437446cac99e9b4406661343a44ab95ba888599a9719f6dff5e3',
+    checksum: '22dcc7f11a79437446cac99e9b4406661343a44ab95ba888599a9719f6dff5e3',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -369,8 +350,7 @@ const STATS = [
     average_clips_duration: 4094,
     total_users: 346,
     size: 619867760,
-    checksum:
-      'c2dda2673732a414967a609cbbcdda384ce29be8b81f510a98deb5163f3fd13b',
+    checksum: 'c2dda2673732a414967a609cbbcdda384ce29be8b81f510a98deb5163f3fd13b',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -388,8 +368,7 @@ const STATS = [
     average_clips_duration: 6068,
     total_users: 17,
     size: 62081647,
-    checksum:
-      '5e19e7bc2c690ccdef66860b0a7ddb6cb721a44cc785d1a1887fd25be5f6b6d3',
+    checksum: '5e19e7bc2c690ccdef66860b0a7ddb6cb721a44cc785d1a1887fd25be5f6b6d3',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -407,8 +386,7 @@ const STATS = [
     average_clips_duration: 4549,
     total_users: 189,
     size: 89189528,
-    checksum:
-      '20c88b6413084e8762cff0d27953d5912ba8d88b2c662b707f047b3269209610',
+    checksum: '20c88b6413084e8762cff0d27953d5912ba8d88b2c662b707f047b3269209610',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -426,8 +404,7 @@ const STATS = [
     average_clips_duration: 4003,
     total_users: 37,
     size: 114794042,
-    checksum:
-      '9567242d629cd7788efe19bc8b88576c6810d37d5ceb3f3248428d062c4ceb5e',
+    checksum: '9567242d629cd7788efe19bc8b88576c6810d37d5ceb3f3248428d062c4ceb5e',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -445,8 +422,7 @@ const STATS = [
     average_clips_duration: 4181,
     total_users: 0,
     size: 1627299,
-    checksum:
-      'd64e20bc8fd084bc00cf7782ce392c9734c25ce648a73d5544505d891d0b7bd3',
+    checksum: 'd64e20bc8fd084bc00cf7782ce392c9734c25ce648a73d5544505d891d0b7bd3',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -464,8 +440,7 @@ const STATS = [
     average_clips_duration: 3447,
     total_users: 9,
     size: 32965770,
-    checksum:
-      'a9168e15dd608ab50f1de913d0df1453bea9471ddeb117c0aa4ae5e329f740b4',
+    checksum: 'a9168e15dd608ab50f1de913d0df1453bea9471ddeb117c0aa4ae5e329f740b4',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -483,8 +458,7 @@ const STATS = [
     average_clips_duration: 4376,
     total_users: 882,
     size: 1898383278,
-    checksum:
-      'f573fa5aff77257374832592f374b16b1eeb37d882211b2cf05d820bcebd8fd7',
+    checksum: 'f573fa5aff77257374832592f374b16b1eeb37d882211b2cf05d820bcebd8fd7',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -502,8 +476,7 @@ const STATS = [
     average_clips_duration: 5008,
     total_users: 2,
     size: 0,
-    checksum:
-      '07e467fd9c658db093dd33b1479abc52393df99dc475e154ed9eaebc215206ea',
+    checksum: '07e467fd9c658db093dd33b1479abc52393df99dc475e154ed9eaebc215206ea',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -521,8 +494,7 @@ const STATS = [
     average_clips_duration: 3964,
     total_users: 14,
     size: 14400980,
-    checksum:
-      '0512fa3a82e12e8e6d40125dde29a9e76be1fdfda0c3b7c88a1548bee9053edb',
+    checksum: '0512fa3a82e12e8e6d40125dde29a9e76be1fdfda0c3b7c88a1548bee9053edb',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -540,8 +512,7 @@ const STATS = [
     average_clips_duration: 3564,
     total_users: 0,
     size: 1990,
-    checksum:
-      'af57810dd1ad121bc016c57ece58d47d9f3d0701e4f0a0297b69a71ac943c5ee',
+    checksum: 'af57810dd1ad121bc016c57ece58d47d9f3d0701e4f0a0297b69a71ac943c5ee',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -559,8 +530,7 @@ const STATS = [
     average_clips_duration: 6758,
     total_users: 1,
     size: 211187,
-    checksum:
-      '1c809f7c0f95b30a892cbe09bbb65d687b69b97718b636b19246e19d82a95538',
+    checksum: '1c809f7c0f95b30a892cbe09bbb65d687b69b97718b636b19246e19d82a95538',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -578,8 +548,7 @@ const STATS = [
     average_clips_duration: 4538,
     total_users: 5,
     size: 1105967,
-    checksum:
-      'b0372b6d83b152a9c58aea685a6be8df570da3e3b3326928f2d493d6cfb1f3d5',
+    checksum: 'b0372b6d83b152a9c58aea685a6be8df570da3e3b3326928f2d493d6cfb1f3d5',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -597,8 +566,7 @@ const STATS = [
     average_clips_duration: 3987,
     total_users: 5,
     size: 40062982,
-    checksum:
-      '916003804f2e760ffef496451dbb04a8feae1b0701a829f36280132ead8097ea',
+    checksum: '916003804f2e760ffef496451dbb04a8feae1b0701a829f36280132ead8097ea',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -616,8 +584,7 @@ const STATS = [
     average_clips_duration: 6109,
     total_users: 0,
     size: 0,
-    checksum:
-      '0ae100f50c2d4077ea4ed540f232f248726e778a3ef0a6101d796570336b1b5f',
+    checksum: '0ae100f50c2d4077ea4ed540f232f248726e778a3ef0a6101d796570336b1b5f',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -635,8 +602,7 @@ const STATS = [
     average_clips_duration: 4129,
     total_users: 5,
     size: 8687112,
-    checksum:
-      '7835c6c85ae509e498610e30e7c89474fc35f6d14e8a75c290170e2213ec66f8',
+    checksum: '7835c6c85ae509e498610e30e7c89474fc35f6d14e8a75c290170e2213ec66f8',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -654,8 +620,7 @@ const STATS = [
     average_clips_duration: 4330,
     total_users: 24,
     size: 23949994,
-    checksum:
-      '65f7c995a5d9a9ab24b02390ceea535782631347ea7ed0958ba20885fdfe07b8',
+    checksum: '65f7c995a5d9a9ab24b02390ceea535782631347ea7ed0958ba20885fdfe07b8',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -673,8 +638,7 @@ const STATS = [
     average_clips_duration: 4490,
     total_users: 26,
     size: 30348832,
-    checksum:
-      '14e2419c3b8692cc4e36a68b2b981d6525c4e3712f4d224f58ec579bf3107c06',
+    checksum: '14e2419c3b8692cc4e36a68b2b981d6525c4e3712f4d224f58ec579bf3107c06',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -692,8 +656,7 @@ const STATS = [
     average_clips_duration: 5481,
     total_users: 1,
     size: 35149,
-    checksum:
-      '021875aa984bc25c3ffd88991b84d24bd8c1e60523f6b8b6a469524160227183',
+    checksum: '021875aa984bc25c3ffd88991b84d24bd8c1e60523f6b8b6a469524160227183',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -711,8 +674,7 @@ const STATS = [
     average_clips_duration: 5811,
     total_users: 0,
     size: 0,
-    checksum:
-      'd403a6a235255cd0a4fa69e57240a66f10bd62dc4f325c8779da77919aaaba8c',
+    checksum: 'd403a6a235255cd0a4fa69e57240a66f10bd62dc4f325c8779da77919aaaba8c',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -730,8 +692,7 @@ const STATS = [
     average_clips_duration: 5477,
     total_users: 6,
     size: 2855350,
-    checksum:
-      '8454570d8ebe14c5215b8c487f9481791f331aa0b43fc81c644895295dd26a52',
+    checksum: '8454570d8ebe14c5215b8c487f9481791f331aa0b43fc81c644895295dd26a52',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -749,8 +710,7 @@ const STATS = [
     average_clips_duration: 4185,
     total_users: 16,
     size: 13620184,
-    checksum:
-      '9177786ff68dc9439aac656cbb69e6754708f87913aa4bb1ecea82d0f29425eb',
+    checksum: '9177786ff68dc9439aac656cbb69e6754708f87913aa4bb1ecea82d0f29425eb',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -768,8 +728,7 @@ const STATS = [
     average_clips_duration: 5133,
     total_users: 0,
     size: 0,
-    checksum:
-      '8dfcf8a2d3396a5d1414a97f4f38594fc1e61781aa9192a5d6ddf1587f530b15',
+    checksum: '8dfcf8a2d3396a5d1414a97f4f38594fc1e61781aa9192a5d6ddf1587f530b15',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -787,8 +746,7 @@ const STATS = [
     average_clips_duration: 5065,
     total_users: 1,
     size: 21899946,
-    checksum:
-      '9661d6d9b09b505f206f9fe4a8ec214bd6d1f548662016e9e70df04c3023ba8a',
+    checksum: '9661d6d9b09b505f206f9fe4a8ec214bd6d1f548662016e9e70df04c3023ba8a',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -806,8 +764,7 @@ const STATS = [
     average_clips_duration: 4763,
     total_users: 21,
     size: 8168071,
-    checksum:
-      '3a49dab5846681ca5d4a44da8fede4098e07d921bb12c514efac9a7e297597f1',
+    checksum: '3a49dab5846681ca5d4a44da8fede4098e07d921bb12c514efac9a7e297597f1',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -825,8 +782,7 @@ const STATS = [
     average_clips_duration: 4741,
     total_users: 2,
     size: 191608,
-    checksum:
-      'fcd5ba501be158baefa5b54543e6860fdfdc49119d64e129516ee3ace9e5eeb7',
+    checksum: 'fcd5ba501be158baefa5b54543e6860fdfdc49119d64e129516ee3ace9e5eeb7',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -844,8 +800,7 @@ const STATS = [
     average_clips_duration: 5690,
     total_users: 1,
     size: 231692,
-    checksum:
-      '3a78dfece9c53ab3f7c51a42150c0e9870b47e439671151656ccb8cff6ab26ad',
+    checksum: '3a78dfece9c53ab3f7c51a42150c0e9870b47e439671151656ccb8cff6ab26ad',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -863,8 +818,7 @@ const STATS = [
     average_clips_duration: 5310,
     total_users: 83,
     size: 265729837,
-    checksum:
-      '43680f0e73b0ff83c673529d71020a04980fcd66fea38950ae32e3a941bf7058',
+    checksum: '43680f0e73b0ff83c673529d71020a04980fcd66fea38950ae32e3a941bf7058',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -882,8 +836,7 @@ const STATS = [
     average_clips_duration: 4976,
     total_users: 276,
     size: 389520133,
-    checksum:
-      '78d0b64630747fb937c65bff12d8365ba6ce45e14c47adaec91cabaf20bc156d',
+    checksum: '78d0b64630747fb937c65bff12d8365ba6ce45e14c47adaec91cabaf20bc156d',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -901,8 +854,7 @@ const STATS = [
     average_clips_duration: 5060,
     total_users: 6,
     size: 5557972,
-    checksum:
-      '8035637c87a8a5842f937e2b56232992e3f2f55e4e0c1762efc58a3e8fa311ce',
+    checksum: '8035637c87a8a5842f937e2b56232992e3f2f55e4e0c1762efc58a3e8fa311ce',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -920,8 +872,7 @@ const STATS = [
     average_clips_duration: 4832,
     total_users: 2,
     size: 4068260,
-    checksum:
-      'c2dd9fdc789651dd9c79cbe7c074dff5e1f6ff49cda28c50940f2c563129bd5b',
+    checksum: 'c2dd9fdc789651dd9c79cbe7c074dff5e1f6ff49cda28c50940f2c563129bd5b',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -939,8 +890,7 @@ const STATS = [
     average_clips_duration: 3968,
     total_users: 8,
     size: 2049978,
-    checksum:
-      'c64e2958fa792eae2a13ec6603c5b0ef61a298baa7564a8d8b01ea32bf8613c9',
+    checksum: 'c64e2958fa792eae2a13ec6603c5b0ef61a298baa7564a8d8b01ea32bf8613c9',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -958,8 +908,7 @@ const STATS = [
     average_clips_duration: 5037,
     total_users: 4,
     size: 11292413,
-    checksum:
-      'fd75c2bfb9f6b3ceee9651fc6141240b2d70408eb256281283b18609875c3abf',
+    checksum: 'fd75c2bfb9f6b3ceee9651fc6141240b2d70408eb256281283b18609875c3abf',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -977,8 +926,7 @@ const STATS = [
     average_clips_duration: 3550,
     total_users: 4,
     size: 5426424,
-    checksum:
-      '35338eb00d3f88053516d182ec03a80ad61912fafe196e122813896f7b62abb8',
+    checksum: '35338eb00d3f88053516d182ec03a80ad61912fafe196e122813896f7b62abb8',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -996,8 +944,7 @@ const STATS = [
     average_clips_duration: 4596,
     total_users: 4,
     size: 17241682,
-    checksum:
-      '405ca875072acac664033af14693b8d9ac5f13b1121fdfff8d01d9bcdc0aebc5',
+    checksum: '405ca875072acac664033af14693b8d9ac5f13b1121fdfff8d01d9bcdc0aebc5',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1015,8 +962,7 @@ const STATS = [
     average_clips_duration: 4939,
     total_users: 17,
     size: 34984621,
-    checksum:
-      '11d04b0076a86966fcfbf0106bd972937915de6cfe2281ffea66a851833c0032',
+    checksum: '11d04b0076a86966fcfbf0106bd972937915de6cfe2281ffea66a851833c0032',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1034,8 +980,7 @@ const STATS = [
     average_clips_duration: 4180,
     total_users: 77,
     size: 126791191,
-    checksum:
-      '4b8307f8b106afc87fce830a33784cf98505fc4275c3dec01441343983d3febb',
+    checksum: '4b8307f8b106afc87fce830a33784cf98505fc4275c3dec01441343983d3febb',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1053,8 +998,7 @@ const STATS = [
     average_clips_duration: 5150,
     total_users: 2,
     size: 855493,
-    checksum:
-      '3fc9878dc6c9657a35054212286f05654dff2b407e1c3e067f6e4ebbc0d3e418',
+    checksum: '3fc9878dc6c9657a35054212286f05654dff2b407e1c3e067f6e4ebbc0d3e418',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1072,8 +1016,7 @@ const STATS = [
     average_clips_duration: 5784,
     total_users: 141,
     size: 1522574724,
-    checksum:
-      '23ecc3417a4b97e19d8a8cf8ec986a5a9ef9f373011ac198a1cf153dbb37629f',
+    checksum: '23ecc3417a4b97e19d8a8cf8ec986a5a9ef9f373011ac198a1cf153dbb37629f',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1091,8 +1034,7 @@ const STATS = [
     average_clips_duration: 4838,
     total_users: 15,
     size: 10848727,
-    checksum:
-      'd79f1a1163b3603948b165069a719cced3ec83f97c24e484dd4450c96bf14020',
+    checksum: 'd79f1a1163b3603948b165069a719cced3ec83f97c24e484dd4450c96bf14020',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1110,8 +1052,7 @@ const STATS = [
     average_clips_duration: 4429,
     total_users: 0,
     size: 971,
-    checksum:
-      '68461ede6419acfe13d92d956bc3a793fae7d3ea94429a886b35215d4d208719',
+    checksum: '68461ede6419acfe13d92d956bc3a793fae7d3ea94429a886b35215d4d208719',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1129,8 +1070,7 @@ const STATS = [
     average_clips_duration: 4006,
     total_users: 5,
     size: 12365726,
-    checksum:
-      'a9e1f44d89f62f4ce6f0b7eb27481117dd52cfe64beb743ec39ca1329c778fe5',
+    checksum: 'a9e1f44d89f62f4ce6f0b7eb27481117dd52cfe64beb743ec39ca1329c778fe5',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1148,8 +1088,7 @@ const STATS = [
     average_clips_duration: 4029,
     total_users: 112,
     size: 557361459,
-    checksum:
-      '523182fa9217f44322ad9059e9290d621369a6f14856c4dd722482ce5b1458c8',
+    checksum: '523182fa9217f44322ad9059e9290d621369a6f14856c4dd722482ce5b1458c8',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1167,8 +1106,7 @@ const STATS = [
     average_clips_duration: 5523,
     total_users: 2,
     size: 18367948,
-    checksum:
-      'b26b390025d8b701d0a44bf7c1feeedebe59d860e80df2e1ef94c78d0f790efa',
+    checksum: 'b26b390025d8b701d0a44bf7c1feeedebe59d860e80df2e1ef94c78d0f790efa',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1186,8 +1124,7 @@ const STATS = [
     average_clips_duration: 4925,
     total_users: 4,
     size: 812509,
-    checksum:
-      '751ed8770e259cf4377264e2585a243171d4989b0f00aeccc7cbbd4892026c27',
+    checksum: '751ed8770e259cf4377264e2585a243171d4989b0f00aeccc7cbbd4892026c27',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1205,8 +1142,7 @@ const STATS = [
     average_clips_duration: 4427,
     total_users: 3,
     size: 4642013,
-    checksum:
-      '1744abaff7a497e011f3b1fbfdbd07bf10cbdda04d2ccf974b953f42d9bf3a42',
+    checksum: '1744abaff7a497e011f3b1fbfdbd07bf10cbdda04d2ccf974b953f42d9bf3a42',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1224,8 +1160,7 @@ const STATS = [
     average_clips_duration: 4899,
     total_users: 198,
     size: 217608136,
-    checksum:
-      '075f0dce6d595d075c79419f954d5447feea4a9b810ac544769d38b32f4a6844',
+    checksum: '075f0dce6d595d075c79419f954d5447feea4a9b810ac544769d38b32f4a6844',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1243,8 +1178,7 @@ const STATS = [
     average_clips_duration: 6018,
     total_users: 93,
     size: 117754897,
-    checksum:
-      '294a53ea0a774aeb7e32dc58ded213b91f67d44a11162240e6ff8a26bf7b44e4',
+    checksum: '294a53ea0a774aeb7e32dc58ded213b91f67d44a11162240e6ff8a26bf7b44e4',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1262,8 +1196,7 @@ const STATS = [
     average_clips_duration: 6110,
     total_users: 3,
     size: 848329,
-    checksum:
-      '9ce56a955233ccb2902a1f54aef399c7777a8a5ab217cee5cd7ef66908c8e6f9',
+    checksum: '9ce56a955233ccb2902a1f54aef399c7777a8a5ab217cee5cd7ef66908c8e6f9',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1281,8 +1214,7 @@ const STATS = [
     average_clips_duration: 4767,
     total_users: 938,
     size: 4040901322,
-    checksum:
-      'bcdb153eb0de0528452003a71f88de3998bf5640ca1ee7b18c59f42a502e1171',
+    checksum: 'bcdb153eb0de0528452003a71f88de3998bf5640ca1ee7b18c59f42a502e1171',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1300,8 +1232,7 @@ const STATS = [
     average_clips_duration: 3884,
     total_users: 6,
     size: 8822157,
-    checksum:
-      'b972c21ccbb81a9ce201e5b314fb7576207c9b26b902156944491c5ff018becf',
+    checksum: 'b972c21ccbb81a9ce201e5b314fb7576207c9b26b902156944491c5ff018becf',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1319,8 +1250,7 @@ const STATS = [
     average_clips_duration: 4229,
     total_users: 10,
     size: 52902729,
-    checksum:
-      '1254a51d19e9d93bf8eb24aa30beaef2ca408437ed3f6d03475b33a1ddc57b2e',
+    checksum: '1254a51d19e9d93bf8eb24aa30beaef2ca408437ed3f6d03475b33a1ddc57b2e',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1338,8 +1268,7 @@ const STATS = [
     average_clips_duration: 2818,
     total_users: 52,
     size: 20206907,
-    checksum:
-      '990f3583ce23c22bd2663a8d43911e52c193547ac6da186a4c46abdedc36122d',
+    checksum: '990f3583ce23c22bd2663a8d43911e52c193547ac6da186a4c46abdedc36122d',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1357,8 +1286,7 @@ const STATS = [
     average_clips_duration: 4144,
     total_users: 67,
     size: 77216367,
-    checksum:
-      'deaacaac5077e41cc67e219ea0d59ad78281e515bfe48d107c327535775da6d3',
+    checksum: 'deaacaac5077e41cc67e219ea0d59ad78281e515bfe48d107c327535775da6d3',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1376,8 +1304,7 @@ const STATS = [
     average_clips_duration: 6192,
     total_users: 1,
     size: 399244,
-    checksum:
-      'a36ae0bebf5348a9c70e77f785411344f07b008aa186eae6ea27c81b9bda1b08',
+    checksum: 'a36ae0bebf5348a9c70e77f785411344f07b008aa186eae6ea27c81b9bda1b08',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1395,8 +1322,7 @@ const STATS = [
     average_clips_duration: 4216,
     total_users: 8,
     size: 4910961,
-    checksum:
-      '4aa13fd019c3f6e47d975b1c604a643ee39eea3287531d4af0c614222dbfa16c',
+    checksum: '4aa13fd019c3f6e47d975b1c604a643ee39eea3287531d4af0c614222dbfa16c',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1414,8 +1340,7 @@ const STATS = [
     average_clips_duration: 5752,
     total_users: 0,
     size: 5223,
-    checksum:
-      '8319a9a7b2183855e657d954bab009e96f35dc7abe83ac639d19b4fa43529d0e',
+    checksum: '8319a9a7b2183855e657d954bab009e96f35dc7abe83ac639d19b4fa43529d0e',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1433,8 +1358,7 @@ const STATS = [
     average_clips_duration: 4507,
     total_users: 1,
     size: 265974,
-    checksum:
-      '39c5eb3a6f41d5b3f7aed4d36a1ca9bbf9ad73883ed4bd2989ea4fab341e6e23',
+    checksum: '39c5eb3a6f41d5b3f7aed4d36a1ca9bbf9ad73883ed4bd2989ea4fab341e6e23',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1452,8 +1376,7 @@ const STATS = [
     average_clips_duration: 4334,
     total_users: 3,
     size: 23964125,
-    checksum:
-      '57868f512cd681a137a0b73eda1cd3a5da21800bf6e9f8e406092878d38ae985',
+    checksum: '57868f512cd681a137a0b73eda1cd3a5da21800bf6e9f8e406092878d38ae985',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1471,8 +1394,7 @@ const STATS = [
     average_clips_duration: 3904,
     total_users: 26,
     size: 58673597,
-    checksum:
-      '04c67dd99441c062a12938a9ec8ce974b033b8c57c0a065fc6f311bf271251cd',
+    checksum: '04c67dd99441c062a12938a9ec8ce974b033b8c57c0a065fc6f311bf271251cd',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1490,8 +1412,7 @@ const STATS = [
     average_clips_duration: 4128,
     total_users: 6,
     size: 877110,
-    checksum:
-      '45d67f6793a80ce63d46afeebcaae44aa1475d06fbeb114c93352ef6f59aaf02',
+    checksum: '45d67f6793a80ce63d46afeebcaae44aa1475d06fbeb114c93352ef6f59aaf02',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1509,8 +1430,7 @@ const STATS = [
     average_clips_duration: 5250,
     total_users: 1,
     size: 116195,
-    checksum:
-      '6655d3c62187fedda01c2c3e9d22f80b254265c6323cc14ca2f4bf9921d0ba11',
+    checksum: '6655d3c62187fedda01c2c3e9d22f80b254265c6323cc14ca2f4bf9921d0ba11',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1528,8 +1448,7 @@ const STATS = [
     average_clips_duration: 5315,
     total_users: 273,
     size: 2183708552,
-    checksum:
-      '367f6cf3ae5aebf698642a08a6a075da84b1439985ff46e3bf43b17ffcfb3cde',
+    checksum: '367f6cf3ae5aebf698642a08a6a075da84b1439985ff46e3bf43b17ffcfb3cde',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1547,8 +1466,7 @@ const STATS = [
     average_clips_duration: 4482,
     total_users: 1,
     size: 1829813,
-    checksum:
-      'dc415e84c9ac25d4536ddb4213ea99382f335995178b3a9ea7a062a4a2112807',
+    checksum: 'dc415e84c9ac25d4536ddb4213ea99382f335995178b3a9ea7a062a4a2112807',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1566,8 +1484,7 @@ const STATS = [
     average_clips_duration: 4491,
     total_users: 0,
     size: 0,
-    checksum:
-      'dccaf792dfa26edc61cb84c12068a9493e8d611f338c6a655c5587aabaf50849',
+    checksum: 'dccaf792dfa26edc61cb84c12068a9493e8d611f338c6a655c5587aabaf50849',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1585,8 +1502,7 @@ const STATS = [
     average_clips_duration: 5470,
     total_users: 3,
     size: 967647,
-    checksum:
-      'ef428d7f3099020060e3933903414a27dad453871924873f3855991814b6191a',
+    checksum: 'ef428d7f3099020060e3933903414a27dad453871924873f3855991814b6191a',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1604,8 +1520,7 @@ const STATS = [
     average_clips_duration: 2670,
     total_users: 5,
     size: 4983679,
-    checksum:
-      '4643ba4dcc7a658e3d09d8c5ea8bc144a94f2707bb51a6be8778efc1a6e51348',
+    checksum: '4643ba4dcc7a658e3d09d8c5ea8bc144a94f2707bb51a6be8778efc1a6e51348',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1623,8 +1538,7 @@ const STATS = [
     average_clips_duration: 4664,
     total_users: 50,
     size: 862645901,
-    checksum:
-      'e7b89f49ae49e710d811e2eb5c1342db6ed680c498236888b0850ec98fb1a698',
+    checksum: 'e7b89f49ae49e710d811e2eb5c1342db6ed680c498236888b0850ec98fb1a698',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1642,8 +1556,7 @@ const STATS = [
     average_clips_duration: 4349,
     total_users: 1781,
     size: 16409764181,
-    checksum:
-      '545c840317cd3ed7c0720bad8bbad010674fd1428d01c192e5d87c449c7c46b8',
+    checksum: '545c840317cd3ed7c0720bad8bbad010674fd1428d01c192e5d87c449c7c46b8',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1661,8 +1574,7 @@ const STATS = [
     average_clips_duration: 3708,
     total_users: 12,
     size: 7105776,
-    checksum:
-      'c82e6d9e3e2edcdc05883c26d941cbc834cd513174dc76a0e825af68b85a0346',
+    checksum: 'c82e6d9e3e2edcdc05883c26d941cbc834cd513174dc76a0e825af68b85a0346',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1680,8 +1592,7 @@ const STATS = [
     average_clips_duration: 4101,
     total_users: 45,
     size: 104732822,
-    checksum:
-      '4d1684c3a2603d4e1a8118b8e04eaf42d441347199161df549e2e804d7c8b813',
+    checksum: '4d1684c3a2603d4e1a8118b8e04eaf42d441347199161df549e2e804d7c8b813',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1699,8 +1610,7 @@ const STATS = [
     average_clips_duration: 5997,
     total_users: 1,
     size: 195026,
-    checksum:
-      '6c6dac95bba33d77ec4d6e8ae8f6ce7ac2dba66ac38269b1ea3e4bd20a316af6',
+    checksum: '6c6dac95bba33d77ec4d6e8ae8f6ce7ac2dba66ac38269b1ea3e4bd20a316af6',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1718,8 +1628,7 @@ const STATS = [
     average_clips_duration: 5323,
     total_users: 0,
     size: 128,
-    checksum:
-      '58de04279d5676acd329a8ed4f44e656b69e2e473bb7c4504a0cca9489127858',
+    checksum: '58de04279d5676acd329a8ed4f44e656b69e2e473bb7c4504a0cca9489127858',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1737,8 +1646,7 @@ const STATS = [
     average_clips_duration: 4414,
     total_users: 0,
     size: 4480501,
-    checksum:
-      'a5298b8da4367be2a2c45e44c3df88826466c30f9108b9889d6d248313ff64dc',
+    checksum: 'a5298b8da4367be2a2c45e44c3df88826466c30f9108b9889d6d248313ff64dc',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1756,8 +1664,7 @@ const STATS = [
     average_clips_duration: 4091,
     total_users: 3,
     size: 11827102,
-    checksum:
-      '9351a40b7de22a00d63f049b48d3a9360c7e94001613cf36a2d82a43d68a1fb9',
+    checksum: '9351a40b7de22a00d63f049b48d3a9360c7e94001613cf36a2d82a43d68a1fb9',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1775,8 +1682,7 @@ const STATS = [
     average_clips_duration: 5779,
     total_users: 1,
     size: 324460,
-    checksum:
-      '428863f3968718e42946382b054a74092c23d96390a6e85183f3d076b841a063',
+    checksum: '428863f3968718e42946382b054a74092c23d96390a6e85183f3d076b841a063',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1794,8 +1700,7 @@ const STATS = [
     average_clips_duration: 4062,
     total_users: 8,
     size: 138732092,
-    checksum:
-      '9b408b04da3d532c0e4b26cbdaf8f34e4802c078672e427c1db4ae42d16eae4f',
+    checksum: '9b408b04da3d532c0e4b26cbdaf8f34e4802c078672e427c1db4ae42d16eae4f',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1813,8 +1718,7 @@ const STATS = [
     average_clips_duration: 3946,
     total_users: 3,
     size: 5326676,
-    checksum:
-      '57646a1ce316fd4c2e9aafd62a0fc8655fbb29f154004c82ab0ad68f089aca2c',
+    checksum: '57646a1ce316fd4c2e9aafd62a0fc8655fbb29f154004c82ab0ad68f089aca2c',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1832,8 +1736,7 @@ const STATS = [
     average_clips_duration: 2408,
     total_users: 0,
     size: 0,
-    checksum:
-      'ff4dcc62db098cc0400a7ae781a852aef363ba6f16b93c14c411403d3256c58b',
+    checksum: 'ff4dcc62db098cc0400a7ae781a852aef363ba6f16b93c14c411403d3256c58b',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1851,8 +1754,7 @@ const STATS = [
     average_clips_duration: 5422,
     total_users: 2,
     size: 2280223,
-    checksum:
-      '0763b38b5b64fbcccff69d47ad2a9958c416c0ab37f20472af8eaa299200b0d2',
+    checksum: '0763b38b5b64fbcccff69d47ad2a9958c416c0ab37f20472af8eaa299200b0d2',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1870,8 +1772,7 @@ const STATS = [
     average_clips_duration: 4305,
     total_users: 0,
     size: 194,
-    checksum:
-      '20f097653d3648a27c99df690cd14adb0ea63646b3270d31b1ff6c9f085b6768',
+    checksum: '20f097653d3648a27c99df690cd14adb0ea63646b3270d31b1ff6c9f085b6768',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1889,8 +1790,7 @@ const STATS = [
     average_clips_duration: 3936,
     total_users: 6,
     size: 7606719,
-    checksum:
-      'b8fd5ae4a948fc403e487da22ea47f21829a750277b1f3ef2ade3035a143065c',
+    checksum: 'b8fd5ae4a948fc403e487da22ea47f21829a750277b1f3ef2ade3035a143065c',
     release_date: '2022-12-22',
     name: 'Common Voice Delta Segment 12.0',
     release_dir: 'cv-corpus-12.0-delta-2022-12-07',
@@ -1902,9 +1802,7 @@ const STATS = [
 ];
 
 export const up = async function (db: any): Promise<any> {
-  const languageQuery = await db.runSql(
-    `SELECT id, name FROM locales where name is not null`
-  );
+  const languageQuery = await db.runSql(`SELECT id, name FROM locales where name is not null`);
   // {en: 1, fr: 2}
   const locales = languageQuery.reduce((obj: any, current: any) => {
     obj[current.name] = current.id;
@@ -1959,7 +1857,9 @@ export const up = async function (db: any): Promise<any> {
 };
 
 export const down = async function (db: any): Promise<any> {
-  const dataset_query = await db.runSql(`SELECT id from datasets WHERE release_dir='${STATS[0].release_dir}'`);
+  const dataset_query = await db.runSql(
+    `SELECT id from datasets WHERE release_dir='${STATS[0].release_dir}'`
+  );
 
   const dataset = dataset_query.reduce((obj: any, current: any) => {
     obj['id'] = current.id;

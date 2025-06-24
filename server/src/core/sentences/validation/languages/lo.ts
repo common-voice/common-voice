@@ -7,17 +7,17 @@ import {
   ERR_OTHER,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
 // use any rule from Thai rules https://github.com/common-voice/sentence-collector/blob/main/server/lib/validation/languages/th.js
-const MIN_LENGTH = 2
-const MAX_LENGTH = 140
+const MIN_LENGTH = 2;
+const MAX_LENGTH = 140;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH
+      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH;
     },
     error: `ຈຳນວນຕົວອັກສອນຕ້ອງຢູ່ລະຫວ່າງ ${MIN_LENGTH} ຫາ ${MAX_LENGTH} (ລວມ)`,
     errorType: ERR_TOO_LONG,
@@ -54,6 +54,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'ປະໂຫຍກບໍ່ຄວນມີ ອີໂມຈິ ຫຼືສັນຍາລັກຂອງ Unicode ພິເສດອື່ນໆ',
     errorType: ERR_NO_SYMBOLS,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

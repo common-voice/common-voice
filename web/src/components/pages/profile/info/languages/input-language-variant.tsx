@@ -1,9 +1,5 @@
 import * as React from 'react';
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 
 import { useNativeLocaleNames } from '../../../../locale-helpers';
 import { LabeledSelect } from '../../../../ui/ui';
@@ -86,14 +82,8 @@ const InputLanguageVariant = ({
   const language = nativeNames[locale];
 
   return (
-    <Localized
-      id="profile-form-variant"
-      attrs={{ label: true }}
-      vars={{ language }}>
-      <LabeledSelect
-        value={selectedValue}
-        onChange={handleChange}
-        name="variant">
+    <Localized id="profile-form-variant" attrs={{ label: true }} vars={{ language }}>
+      <LabeledSelect value={selectedValue} onChange={handleChange} name="variant">
         <option value={DEFAULT_OPTION_VALUE}>
           {getLocalizedString('profile-form-variant-default-value')}
         </option>

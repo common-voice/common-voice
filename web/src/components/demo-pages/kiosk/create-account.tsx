@@ -23,17 +23,11 @@ const getCreateAccountComponents = (): PageContentType => {
     return (
       <>
         <KioskCard.Top>
-          <div
-            id="inner-circle"
-            className="demo-create-account-top-icon-circle">
+          <div id="inner-circle" className="demo-create-account-top-icon-circle">
             <FlagIcon />
           </div>
-          <div
-            id="outer-circle"
-            className="demo-create-account-top-icon-circle-outer"></div>
-          <div
-            id="circle-shadow"
-            className="demo-create-account-top-icon-circle-outer"></div>
+          <div id="outer-circle" className="demo-create-account-top-icon-circle-outer"></div>
+          <div id="circle-shadow" className="demo-create-account-top-icon-circle-outer"></div>
         </KioskCard.Top>
         <KioskCard.Body>
           <h2>

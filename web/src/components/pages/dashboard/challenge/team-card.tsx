@@ -2,13 +2,7 @@ import * as React from 'react';
 import { useRef, useState } from 'react';
 import { useAccount } from '../../../../hooks/store-hooks';
 
-import {
-  BookmarkIcon,
-  CheckIcon,
-  EyeIcon,
-  EyeOffIcon,
-  InfoIcon,
-} from '../../../ui/icons';
+import { BookmarkIcon, CheckIcon, EyeIcon, EyeOffIcon, InfoIcon } from '../../../ui/icons';
 
 import ChallengeList from './challenge-list';
 
@@ -50,7 +44,8 @@ export default function TeamboardCard({
                   type="button"
                   onClick={() => {
                     teamboardRef.current.scrollToUser();
-                  }}>
+                  }}
+                >
                   <BookmarkIcon /> <span className="text">Show my ranking</span>
                 </button>
 
@@ -69,7 +64,8 @@ export default function TeamboardCard({
             <div
               className="leaderboard-info"
               onMouseEnter={() => setShowInfo(true)}
-              onMouseLeave={() => setShowInfo(false)}>
+              onMouseLeave={() => setShowInfo(false)}
+            >
               {showInfo && (
                 <div className="info-menu">
                   <ul>
@@ -95,7 +91,8 @@ export default function TeamboardCard({
                 className={showInfo ? 'active' : ''}
                 style={{ display: 'flex' }}
                 onClick={() => setShowInfo(!showInfo)}
-                type="button">
+                type="button"
+              >
                 <InfoIcon />
               </button>
             </div>

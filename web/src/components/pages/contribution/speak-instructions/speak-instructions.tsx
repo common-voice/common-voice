@@ -1,16 +1,14 @@
-import { WithLocalizationProps, withLocalization } from '@fluent/react'
-import * as React from 'react'
-import Modal, { ModalProps } from '../../../modal/modal'
-import { Button } from '../../../ui/ui'
-import './speak-instructions.css'
+import { WithLocalizationProps, withLocalization } from '@fluent/react';
+import * as React from 'react';
+import Modal, { ModalProps } from '../../../modal/modal';
+import { Button } from '../../../ui/ui';
+import './speak-instructions.css';
 
-export interface SpeakInstructionsModalProps
-  extends ModalProps,
-    WithLocalizationProps {
-  kind: 'clip' | 'sentence'
-  id: string
-  reasons: string[]
-  onSubmitted: () => any
+export interface SpeakInstructionsModalProps extends ModalProps, WithLocalizationProps {
+  kind: 'clip' | 'sentence';
+  id: string;
+  reasons: string[];
+  onSubmitted: () => any;
 }
 
 export const SpeakInstructionsModal = withLocalization(
@@ -24,17 +22,16 @@ export const SpeakInstructionsModal = withLocalization(
           <li>تحدث للبدء التسجيل</li>
         </ul>
       </Modal>
-    )
+    );
   }
-)
+);
 
-export const SpeakInstructionsButton = (
-  props: React.HTMLProps<HTMLButtonElement>
-) => (
+export const SpeakInstructionsButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <Button
     rounded
     className="open-speak-instructions-button bg-white text-black speak-button-control"
-    {...props}>
+    {...props}
+  >
     تعليمات الاستخدام
   </Button>
-)
+);

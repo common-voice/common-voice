@@ -3,11 +3,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { act, waitFor, fireEvent, RenderResult } from '@testing-library/react';
 
 import { renderWithProviders } from '../../../../../../test/render-with-providers';
-import {
-  MOCK_USER_LANGUAGES,
-  MOCK_ACCENTS_ALL,
-  MOCK_VARIANTS_ALL,
-} from './mocks';
+import { MOCK_USER_LANGUAGES, MOCK_ACCENTS_ALL, MOCK_VARIANTS_ALL } from './mocks';
 
 import ProfileInfoLanguages from './languages';
 
@@ -72,10 +68,7 @@ describe('ProfileInfoLanguages', () => {
 
       fireEvent.click(getByRole('button', { name: 'Add Language' }));
 
-      expect(mockSetLanguage).toBeCalledWith([
-        ...MOCK_USER_LANGUAGES,
-        { locale: '', accents: [] },
-      ]);
+      expect(mockSetLanguage).toBeCalledWith([...MOCK_USER_LANGUAGES, { locale: '', accents: [] }]);
       expect(mockSetLanguage).toBeCalledTimes(1);
     });
   });

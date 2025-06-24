@@ -7,12 +7,7 @@ import * as fs from 'fs';
 const TRANSLATED_MIN_PROGRESS = 0.5;
 const DEFAULT_TARGET_SENTENCE_COUNT = 5000;
 
-const localeMessagesPath = path.join(
-  __dirname,
-  '../../../../../',
-  'web',
-  'locales'
-);
+const localeMessagesPath = path.join(__dirname, '../../../../../', 'web', 'locales');
 
 type Variant = {
   id?: number;
@@ -176,7 +171,7 @@ const VARIANTS: Variant[] = [
     locale_name: 'zgh',
     variant_name: 'ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)',
     variant_token: 'zgh-rif',
-  }
+  },
 ];
 
 type Locale = {
@@ -222,9 +217,7 @@ const buildLocaleNativeNameMapping: any = () => {
     }
 
     const messages: any = parse(fs.readFileSync(messagesPath, 'utf-8'), {});
-    const message = messages.body.find(
-      (message: any) => message.id && message.id.name === locale
-    );
+    const message = messages.body.find((message: any) => message.id && message.id.name === locale);
 
     nativeNames[locale] = message ? message.value.elements[0].value : locale;
   }
@@ -271,18 +264,15 @@ export async function importLocales() {
 
     console.log(`${existingLangauges.length} Existing Languages`);
 
-    const languagesWithClips = existingLangauges.reduce(
-      (obj: any, language: any) => {
-        if (language.has_clips) obj[language.name] = true;
-        return obj;
-      }
-    );
+    const languagesWithClips = existingLangauges.reduce((obj: any, language: any) => {
+      if (language.has_clips) obj[language.name] = true;
+      return obj;
+    });
 
     const allLanguages = existingLangauges.reduce((obj: any, language: any) => {
       obj[language.name] = {
         ...language,
-        hasEnoughSentences:
-          language.total_sentence_count >= language.target_sentence_count,
+        hasEnoughSentences: language.total_sentence_count >= language.target_sentence_count,
       };
       return obj;
     }, {});
@@ -295,8 +285,7 @@ export async function importLocales() {
         ? 1
         : 0;
 
-      const hasEnoughSentences =
-        allLanguages[language.code]?.hasEnoughSentences || false;
+      const hasEnoughSentences = allLanguages[language.code]?.hasEnoughSentences || false;
 
       //if a lang has clips, consider it contributable
       const is_contributable = languagesWithClips[language.code]
@@ -308,8 +297,7 @@ export async function importLocales() {
       obj[language.code] = {
         ...language,
         target_sentence_count:
-          allLanguages[language.code]?.target_sentence_count ||
-          DEFAULT_TARGET_SENTENCE_COUNT,
+          allLanguages[language.code]?.target_sentence_count || DEFAULT_TARGET_SENTENCE_COUNT,
         is_translated: isTranslated ? 1 : 0,
         is_contributable,
       };
@@ -367,9 +355,7 @@ export async function importLocales() {
     console.log('Saving variants to database');
 
     //get languages again, since new langauges may have been added
-    const [languageQuery] = await db.query(
-      `SELECT id, name FROM locales where name is not null`
-    );
+    const [languageQuery] = await db.query(`SELECT id, name FROM locales where name is not null`);
 
     //reshape query results into object
     const mappedLanguages = languageQuery.reduce(
@@ -389,13 +375,7 @@ export async function importLocales() {
           `
           INSERT IGNORE INTO variants (locale_id, variant_token, variant_name) VALUES (?)
         `,
-          [
-            [
-              mappedLanguages[row.locale_name],
-              row.variant_token,
-              row.variant_name,
-            ],
-          ]
+          [[mappedLanguages[row.locale_name], row.variant_token, row.variant_name]]
         );
       })
     );

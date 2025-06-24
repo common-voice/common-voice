@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Footer() {
   return (
@@ -49,7 +49,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="#" className="hover:underline">
-              الجدارية الصوتية 
+                الجدارية الصوتية
               </a>
             </li>
             <li>
@@ -64,32 +64,44 @@ export default function Footer() {
           <h4 className="text-lg py-4  mb-4 border-b border-white w-[120px]">روابط مهمة</h4>
           <ul className="space-y-[20px] my-8">
             <li>
-            <a href="#" className="hover:underline">
+              <a href="#" className="hover:underline">
                 مجمع الملك سلمان العالمي للغة العربية
               </a>
-              <img src="/voicewall/img/social-media/link-square-rounded.svg" alt="link-squar" className='inline mx-3' />
-
+              <img
+                src="/voicewall/img/social-media/link-square-rounded.svg"
+                alt="link-squar"
+                className="inline mx-3"
+              />
             </li>
             <li>
               <a href="#" className="hover:underline">
                 منصة سوار للمعاجم اللغوية
               </a>
-              <img src="/voicewall/img/social-media/link-square-rounded.svg" alt="link-squar" className='inline mx-3' />
-
+              <img
+                src="/voicewall/img/social-media/link-square-rounded.svg"
+                alt="link-squar"
+                className="inline mx-3"
+              />
             </li>
             <li>
               <a href="#" className="hover:underline">
                 مجمع الرياض للغة العربية المعاصرة
               </a>
-              <img src="/voicewall/img/social-media/link-square-rounded.svg" alt="link-squar" className='inline mx-3' />
-
+              <img
+                src="/voicewall/img/social-media/link-square-rounded.svg"
+                alt="link-squar"
+                className="inline mx-3"
+              />
             </li>
             <li>
               <a href="#" className="hover:underline">
                 معجم الرياض
               </a>
-              <img src="/voicewall/img/social-media/link-square-rounded.svg" alt="link-squar" className='inline mx-3' />
-
+              <img
+                src="/voicewall/img/social-media/link-square-rounded.svg"
+                alt="link-squar"
+                className="inline mx-3"
+              />
             </li>
           </ul>
         </div>
@@ -98,23 +110,23 @@ export default function Footer() {
           <h4 className="text-lg py-4  mb-4 border-b border-white w-[120px]">تواصل معنا</h4>
           <ul className="list-none flex justify-between gap-3 pl-4 my-8">
             <li>
-            <a href="https://www.facebook.com/KSGAFAL/" target="_blank">
-            <img src="/voicewall/img/social-media/facebook.svg" alt="facebook" />
+              <a href="https://www.facebook.com/KSGAFAL/" target="_blank">
+                <img src="/voicewall/img/social-media/facebook.svg" alt="facebook" />
               </a>
             </li>
             <li>
-            <a href="https://www.youtube.com/@ksgafal" target="_blank">
-            <img src="/voicewall/img/social-media/youtube.svg" alt="youtube" />
+              <a href="https://www.youtube.com/@ksgafal" target="_blank">
+                <img src="/voicewall/img/social-media/youtube.svg" alt="youtube" />
               </a>
             </li>
             <li>
-            <a href="https://www.linkedin.com/company/ksgafal" target="_blank">
-            <img src="/voicewall/img/social-media/linkedin.svg" alt="linkedin" />
+              <a href="https://www.linkedin.com/company/ksgafal" target="_blank">
+                <img src="/voicewall/img/social-media/linkedin.svg" alt="linkedin" />
               </a>
             </li>
             <li>
-            <a href="https://twitter.com/KSGAFAL" target="_blank">
-            <img src="/voicewall/img/social-media/new-twitter.svg" alt="twitter" />
+              <a href="https://twitter.com/KSGAFAL" target="_blank">
+                <img src="/voicewall/img/social-media/new-twitter.svg" alt="twitter" />
               </a>
             </li>
           </ul>
@@ -122,38 +134,44 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 mt-10 border-t  border-white pt-6 flex justify-center md:justify-between items-center flex-wrap gap-8 ">
-       <div className='flex justify-center md:justify-between gap-8 flex-wrap'>
-       <div className="w-[260px] h-16">
-          <img
-            src="/voicewall/img/falak-logo-light.svg"
-            alt="logo"
-            className="w-full h-full object-contain"
-          />
-        </div>
-        <div className="w-[260px] h-16">
-              <a href="https://raqmi.dga.gov.sa/platforms/platforms/8713ef38-bc90-47a2-a34d-69f56873eccc/platform-license">
-                <img src="/voicewall/img/falak-seal.png" alt="falak-seal" className='w-full h-[73px]' />
-              </a>
-            </div>
-       </div>
-        
-        <div className='flex justify-between gap-8'>
+        <div className="flex justify-center md:justify-between gap-8 flex-wrap">
+          <div className="w-[260px] h-16">
             <img
-              src="/voicewall/img/logo-ksaa-light.png"
-              alt="logo-ksaa"
-              className="w-full h-[53px] object-contain"
+              src="/voicewall/img/falak-logo-light.svg"
+              alt="logo"
+              className="w-full h-full object-contain"
             />
-            <img
-              src="/voicewall/img/logo-hcdp.png"
-              className="w-full h-[53px] object-contain"
-              alt="hcdp-logo"
-            />  
+          </div>
+          <div className="w-[260px] h-16">
+            <a href="https://raqmi.dga.gov.sa/platforms/platforms/8713ef38-bc90-47a2-a34d-69f56873eccc/platform-license">
+              <img
+                src="/voicewall/img/falak-seal.png"
+                alt="falak-seal"
+                className="w-full h-[73px]"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="flex justify-between gap-8">
+          <img
+            src="/voicewall/img/logo-ksaa-light.png"
+            alt="logo-ksaa"
+            className="w-full h-[53px] object-contain"
+          />
+          <img
+            src="/voicewall/img/logo-hcdp.png"
+            className="w-full h-[53px] object-contain"
+            alt="hcdp-logo"
+          />
         </div>
       </div>
       {/* حقوق النشر © 2024 */}
       <div className="px-4 mt-8 py-2 bg-[#027589] flex flex-col md:flex-row justify-center items-center text-sm ">
-        <p className='mx-auto dir-right'>© 2024 مجمع الملك سلمان العالمي للغة العربية. جميع الحقوق محفوظة.</p>
+        <p className="mx-auto dir-right">
+          © 2024 مجمع الملك سلمان العالمي للغة العربية. جميع الحقوق محفوظة.
+        </p>
       </div>
     </footer>
-  )
+  );
 }

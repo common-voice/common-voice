@@ -1,67 +1,61 @@
-import { taskEither as TE, taskOption as TO } from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
-import { MysqlError } from 'mysql2Types'
-import { Sentence } from '../../../core/sentences/types'
-import { SentencesForReviewRow } from '../../../infrastructure/db/types'
-import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
-import { createSentenceId } from '../../../lib/utility'
-import { createPendingSentencesRepositoryError } from '../../helper/error-helper'
-import { ApplicationError } from '../../types/error'
-import { SentenceSubmission } from '../../types/sentence-submission'
+import { taskEither as TE, taskOption as TO } from 'fp-ts';
+import { pipe } from 'fp-ts/lib/function';
+import { MysqlError } from 'mysql2Types';
+import { Sentence } from '../../../core/sentences/types';
+import { SentencesForReviewRow } from '../../../infrastructure/db/types';
+import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql';
+import { createSentenceId } from '../../../lib/utility';
+import { createPendingSentencesRepositoryError } from '../../helper/error-helper';
+import { ApplicationError } from '../../types/error';
+import { SentenceSubmission } from '../../types/sentence-submission';
 
-const mysql2 = require('mysql2/promise')
+const mysql2 = require('mysql2/promise');
 
-const db = getMySQLInstance()
+const db = getMySQLInstance();
 
-const DUPLICATE_KEY_ERR = 1062
-const BATCH_SIZE = 1000
+const DUPLICATE_KEY_ERR = 1062;
+const BATCH_SIZE = 1000;
 
-const insertSentenceTransaction = async (
-  db: Mysql,
-  sentence: SentenceSubmission
-) => {
-  const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id,sentence.corpus_id)
-  console.log(sentenceId)
-  const conn = await mysql2.createConnection(db.getMysqlOptions())
+const insertSentenceTransaction = async (db: Mysql, sentence: SentenceSubmission) => {
+  const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id, sentence.corpus_id);
+  console.log(sentenceId);
+  const conn = await mysql2.createConnection(db.getMysqlOptions());
 
   try {
-    await conn.beginTransaction()
+    await conn.beginTransaction();
     await conn.query(
       `
         INSERT INTO sentences (id, text, source, locale_id)
         VALUES (?, ?, ?, ?);
      `,
       [sentenceId, sentence.sentence, sentence.source, sentence.locale_id]
-    )
+    );
     await conn.query(
       `
         INSERT INTO sentence_metadata(sentence_id, client_id)
         VALUES (?, ?);
      `,
       [sentenceId, sentence.client_id]
-    )
-    await conn.commit()
+    );
+    await conn.commit();
   } catch (err) {
-    await conn.rollback()
-    throw err
+    await conn.rollback();
+    throw err;
   } finally {
-    await conn.end()
+    await conn.end();
   }
-}
+};
 
-const insertBulkSentencesTransaction = async (
-  db: Mysql,
-  sentences: SentenceSubmission[]
-) => {
-  const sentence_values: any = []
-  const sentence_metadata_values: any = []
+const insertBulkSentencesTransaction = async (db: Mysql, sentences: SentenceSubmission[]) => {
+  const sentence_values: any = [];
+  const sentence_metadata_values: any = [];
 
   sentences.forEach(submission => {
     const sentenceId = createSentenceId(
       submission.sentence,
       submission.locale_id,
       submission.corpus_id
-    )
+    );
     sentence_values.push([
       sentenceId,
       submission.sentence,
@@ -69,20 +63,20 @@ const insertBulkSentencesTransaction = async (
       submission.locale_id,
       1,
       1,
-    ])
-    sentence_metadata_values.push([sentenceId, submission.client_id])
-  })
+    ]);
+    sentence_metadata_values.push([sentenceId, submission.client_id]);
+  });
 
-  const conn = await mysql2.createConnection(db.getMysqlOptions())
+  const conn = await mysql2.createConnection(db.getMysqlOptions());
 
-  let start = 0
-  let end = BATCH_SIZE
+  let start = 0;
+  let end = BATCH_SIZE;
 
-  let sentences_batch = sentence_values.slice(start, end)
-  let sentences_metadata_batch = sentence_metadata_values.slice(start, end)
+  let sentences_batch = sentence_values.slice(start, end);
+  let sentences_metadata_batch = sentence_metadata_values.slice(start, end);
 
   try {
-    await conn.beginTransaction()
+    await conn.beginTransaction();
 
     while (sentences_batch.length > 0) {
       await conn.query(
@@ -92,35 +86,33 @@ const insertBulkSentencesTransaction = async (
           ON DUPLICATE KEY UPDATE source=VALUES(source)
        `,
         [sentences_batch]
-      )
+      );
       await conn.query(
         `
           INSERT IGNORE INTO sentence_metadata(sentence_id, client_id)
           VALUES ?
        `,
         [sentences_metadata_batch]
-      )
+      );
 
-      start += BATCH_SIZE
-      end += BATCH_SIZE
-      sentences_batch = sentence_values.slice(start, end)
-      sentences_metadata_batch = sentence_metadata_values.slice(start, end)
+      start += BATCH_SIZE;
+      end += BATCH_SIZE;
+      sentences_batch = sentence_values.slice(start, end);
+      sentences_metadata_batch = sentence_metadata_values.slice(start, end);
     }
 
-    await conn.commit()
+    await conn.commit();
   } catch (err) {
-    await conn.rollback()
-    throw err
+    await conn.rollback();
+    throw err;
   } finally {
-    await conn.end()
+    await conn.end();
   }
-}
+};
 
 const insertSentence =
   (db: Mysql) =>
-  (
-    sentenceSubmission: SentenceSubmission
-  ): TE.TaskEither<ApplicationError, unknown> => {
+  (sentenceSubmission: SentenceSubmission): TE.TaskEither<ApplicationError, unknown> => {
     return TE.tryCatch(
       () => insertSentenceTransaction(db, sentenceSubmission),
       (err: MysqlError) => {
@@ -128,34 +120,32 @@ const insertSentence =
           return createPendingSentencesRepositoryError(
             `Duplicate entry '${sentenceSubmission.sentence}'`,
             err
-          )
+          );
         }
 
         return createPendingSentencesRepositoryError(
           `Error inserting pending sentence '${sentenceSubmission.sentence}'`,
           err
-        )
+        );
       }
-    )
-  }
+    );
+  };
 
 const insertBulkSentences =
   (db: Mysql) =>
-  (
-    sentenceSubmissions: SentenceSubmission[]
-  ): TE.TaskEither<Error, unknown> => {
+  (sentenceSubmissions: SentenceSubmission[]): TE.TaskEither<Error, unknown> => {
     return TE.tryCatch(
       () => insertBulkSentencesTransaction(db, sentenceSubmissions),
       (err: Error) => err
-    )
-  }
+    );
+  };
 
 const insertSentenceVote =
   (db: Mysql) =>
   (vote: {
-    sentenceId: number
-    vote: boolean
-    clientId: string
+    sentenceId: number;
+    vote: boolean;
+    clientId: string;
   }): TE.TaskEither<ApplicationError, unknown> => {
     return TE.tryCatch(
       () =>
@@ -170,26 +160,24 @@ const insertSentenceVote =
           `Error inserting vote for pending_sentence ${vote.sentenceId} with client_id ${vote.clientId}`,
           err
         )
-    )
-  }
+    );
+  };
 
-const mapRowToSentence = ([pendingSentenceRows]: [
-  [SentencesForReviewRow]
-]): Sentence[] =>
+const mapRowToSentence = ([pendingSentenceRows]: [[SentencesForReviewRow]]): Sentence[] =>
   pendingSentenceRows.map(row => ({
     sentence: row.text,
     sentenceId: row.id,
     source: row.source,
     localeId: row.locale_id,
     corpus_id: row.corpus_id,
-  }))
+  }));
 
 const findSentencesForReview =
   (db: Mysql) =>
   (queryParams: {
-    localeId: number
-    clientId: string
-    corpus_id: string
+    localeId: number;
+    clientId: string;
+    corpus_id: string;
   }): TO.TaskOption<Sentence[]> => {
     return pipe(
       TO.tryCatch(() =>
@@ -223,10 +211,10 @@ const findSentencesForReview =
         )
       ),
       TO.map(mapRowToSentence)
-    )
-  }
+    );
+  };
 
-export const insertSentenceIntoDb = insertSentence(db)
-export const insertBulkSentencesIntoDb = insertBulkSentences(db)
-export const insertSentenceVoteIntoDb = insertSentenceVote(db)
-export const findSentencesForReviewInDb = findSentencesForReview(db)
+export const insertSentenceIntoDb = insertSentence(db);
+export const insertBulkSentencesIntoDb = insertBulkSentences(db);
+export const insertSentenceVoteIntoDb = insertSentenceVote(db);
+export const findSentencesForReviewInDb = findSentencesForReview(db);

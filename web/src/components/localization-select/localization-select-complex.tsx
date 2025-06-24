@@ -28,9 +28,7 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
   const availableLocalesWithNames = useNativeNameAvailableLocales();
   const { abortStatus } = useAbortContributionModal();
   const localWithName = getLocaleWithName(locale);
-  const initialSelectedItem = localWithName
-    ? localWithName.code
-    : availableLocales[0];
+  const initialSelectedItem = localWithName ? localWithName.code : availableLocales[0];
   const items = availableLocalesWithNames.map(locale => locale.code);
 
   function onSelectedItemChange({ selectedItem }: { selectedItem: string }) {
@@ -68,7 +66,8 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
         <div
           className={classNames('localization-select with-down-arrow', {
             'localization-select--open': isOpen,
-          })}>
+          })}
+        >
           <VisuallyHidden>
             <label {...getLabelProps()}>{label}</label>
           </VisuallyHidden>
@@ -84,7 +83,8 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
                     selected: item === locale,
                     highlighted: index == highlightedIndex,
                   })}
-                  {...getItemProps({ item })}>
+                  {...getItemProps({ item })}
+                >
                   {getLocaleWithName(item).name}
                 </li>
               ))}

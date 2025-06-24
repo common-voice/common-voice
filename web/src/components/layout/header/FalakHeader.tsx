@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Breadcrumb from '../../Breadcrumb'
-import classes from './falak-header.module.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Breadcrumb from '../../Breadcrumb';
+import classes from './falak-header.module.css';
 export default function FalakHeader() {
   return (
     <>
@@ -21,40 +21,46 @@ export default function FalakHeader() {
         </button>
         <div
           className="items-center flex-grow-1 justify-between hidden lg:flex lg:static w-full left-0 px-6 lg:px-0 z-2"
-          style={{ top: '55px' }}>
+          style={{ top: '55px' }}
+        >
           <ul className="list-none gpa-8 p-0 m-0 flex lg:items-center select-none flex-col lg:flex-row cursor-pointer">
             <li>
               <a
                 href="https://falak.ksaa.gov.sa/"
-                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
+                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3"
+              >
                 <span>الرئيسة</span>
               </a>
             </li>
             <li>
               <a
                 href="https://falak.ksaa.gov.sa/aboutus"
-                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
+                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3"
+              >
                 <span>عن فلك</span>
               </a>
             </li>
             <li>
               <a
                 href="https://falak.ksaa.gov.sa/corpora"
-                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
+                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3"
+              >
                 <span> المدونات</span>
               </a>
             </li>
             <li>
               <a
                 href="https://falak.ksaa.gov.sa/voicewall"
-                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
+                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3"
+              >
                 <span> الجدارية الصوتية</span>
               </a>
             </li>
             <li>
               <a
                 href="https://falak.ksaa.gov.sa/frequency-lists"
-                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
+                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3"
+              >
                 <span> قوائم الشيوع</span>
               </a>
             </li>
@@ -62,7 +68,8 @@ export default function FalakHeader() {
             <li>
               <a
                 href="https://falak.ksaa.gov.sa/contact-us"
-                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
+                className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3"
+              >
                 <span>اتصل بنا</span>
               </a>
             </li>
@@ -70,10 +77,12 @@ export default function FalakHeader() {
           {/* {!isLoggedIn ? ( */}
           <div
             className="flex justify-between lg:block border-t lg:border-t-0 py-3 lg:py-0 mt-3 lg:mt-0"
-            style={{ display: 'none' }}>
+            style={{ display: 'none' }}
+          >
             <a
               href="https://falak.ksaa.gov.sa/auth/login"
-              className={`flex items-center space-x-2 ${classes['login-button']}`}>
+              className={`flex items-center space-x-2 ${classes['login-button']}`}
+            >
               <img
                 src="/voicewall/img/icon-login.svg"
                 alt="مِنَصّةُ فلك"
@@ -106,5 +115,5 @@ export default function FalakHeader() {
         </div>
       </div>
     </>
-  )
+  );
 }

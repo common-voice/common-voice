@@ -29,19 +29,11 @@ export default function Landing() {
         </Localized>
         {hasAccount ? (
           <Localized id="speak-subtitle">
-            <LinkButton
-              rounded
-              to={URLS.SPEAK}
-              onClick={() => trackLanding('speak')}
-            />
+            <LinkButton rounded to={URLS.SPEAK} onClick={() => trackLanding('speak')} />
           </Localized>
         ) : (
           <Localized id="login-company" vars={{ company: 'Sodedif' }}>
-            <LinkButton
-              rounded
-              href="/login"
-              onClick={() => trackLanding('profile')}
-            />
+            <LinkButton rounded href="/login" onClick={() => trackLanding('profile')} />
           </Localized>
         )}
         <Localized id="profile-not-required">
@@ -55,10 +47,7 @@ export default function Landing() {
             <h1 />
           </Localized>
 
-          <LinkButton
-            rounded
-            to={URLS.ABOUT}
-            onClick={() => trackLanding('about')}>
+          <LinkButton rounded to={URLS.ABOUT} onClick={() => trackLanding('about')}>
             <Localized id="show-wall-of-text">
               <div className="hidden-md-up" />
             </Localized>

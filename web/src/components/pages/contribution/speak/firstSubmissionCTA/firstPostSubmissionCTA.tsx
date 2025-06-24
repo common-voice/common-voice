@@ -1,39 +1,32 @@
-import * as React from 'react'
-import { Localized } from '@fluent/react'
-import { UserLanguage } from 'common'
-import classNames from 'classnames'
-import InputLanguageVariant from '../../../profile/info/languages/input-language-variant'
-import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents'
+import * as React from 'react';
+import { Localized } from '@fluent/react';
+import { UserLanguage } from 'common';
+import classNames from 'classnames';
+import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
+import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
 
-import { User } from '../../../../../stores/user'
-import {
-  useAction,
-  useAPI,
-  useLocalStorageState,
-} from '../../../../../hooks/store-hooks'
-import { Notifications } from '../../../../../stores/notifications'
-import {
-  AccentsAll,
-  VariantsAll,
-} from '../../../profile/info/languages/languages'
-import ExpandableInformation from '../../../../expandable-information/expandable-information'
-import { QuestionMarkIcon } from '../../../../ui/icons'
-import { Button } from '../../../../ui/ui'
+import { User } from '../../../../../stores/user';
+import { useAction, useAPI, useLocalStorageState } from '../../../../../hooks/store-hooks';
+import { Notifications } from '../../../../../stores/notifications';
+import { AccentsAll, VariantsAll } from '../../../profile/info/languages/languages';
+import ExpandableInformation from '../../../../expandable-information/expandable-information';
+import { QuestionMarkIcon } from '../../../../ui/icons';
+import { Button } from '../../../../ui/ui';
 
-import './firstPostSubmissionCTA.css'
-import { COUNTRIES } from '../../../../../countries'
-import { da } from 'date-fns/locale'
-import { useSelector } from 'react-redux'
+import './firstPostSubmissionCTA.css';
+import { COUNTRIES } from '../../../../../countries';
+import { da } from 'date-fns/locale';
+import { useSelector } from 'react-redux';
 
-export const USER_LANGUAGES = 'userLanguages'
+export const USER_LANGUAGES = 'userLanguages';
 
 type FirstPostSubmissionCtaProps = {
-  locale: string
-  onReset: () => void
-  addNotification: typeof Notifications.actions.addPill
-  successUploadMessage: string
-  errorUploadMessage: string
-}
+  locale: string;
+  onReset: () => void;
+  addNotification: typeof Notifications.actions.addPill;
+  successUploadMessage: string;
+  errorUploadMessage: string;
+};
 
 export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   locale,
@@ -42,40 +35,39 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   successUploadMessage,
   errorUploadMessage,
 }) => {
-  const saveAnonymousAccount = useAction(
-    User.actions.saveAnonymousAccountLanguages
-  )
-  const [areLanguagesLoading, setAreLanguagesLoading] = React.useState(true)
+  const saveAnonymousAccount = useAction(User.actions.saveAnonymousAccountLanguages);
+  const [areLanguagesLoading, setAreLanguagesLoading] = React.useState(true);
 
-  const [userLanguages, setUserLanguages] = useLocalStorageState<
-    UserLanguage[]
-  >([{ locale, accents: [] }], USER_LANGUAGES)
+  const [userLanguages, setUserLanguages] = useLocalStorageState<UserLanguage[]>(
+    [{ locale, accents: [] }],
+    USER_LANGUAGES
+  );
 
-  const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({})
-  const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({})
-  const [age, setAge] = React.useState('')
-  const [gender, setGender] = React.useState('')
-  const [country, setCountry] = React.useState('')
-  const [emailAddress, setEmailAddress] = React.useState('')
+  const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({});
+  const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({});
+  const [age, setAge] = React.useState('');
+  const [gender, setGender] = React.useState('');
+  const [country, setCountry] = React.useState('');
+  const [emailAddress, setEmailAddress] = React.useState('');
 
-  const isVariantInputVisible = Boolean(variantsAll[locale])
+  const isVariantInputVisible = Boolean(variantsAll[locale]);
 
   // is email address valid
   const isValidEmailAddress = (emailAddress: string) => {
     const re =
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    return re.test(String(emailAddress).toLowerCase())
-  }
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(emailAddress).toLowerCase());
+  };
   const isAddInformationButtonDisabled =
     (userLanguages[0].accents.length === 0 && !userLanguages[0].variant) ||
-    !isValidEmailAddress(emailAddress)
+    !isValidEmailAddress(emailAddress);
 
-  const api = useAPI()
+  const api = useAPI();
   const props = {
     dataSource: api.datasource,
-  }
+  };
 
-  const datasourceId = useSelector((state: any) => state.datasource)
+  const datasourceId = useSelector((state: any) => state.datasource);
 
   React.useEffect(() => {
     if (areLanguagesLoading) {
@@ -83,10 +75,10 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         api.getAccents(locale, api.datasource).then(setAccentsAll),
         api.getVariants(locale, api.datasource).then(setVariantsAll),
       ]).then(() => {
-        setAreLanguagesLoading(false)
-      })
+        setAreLanguagesLoading(false);
+      });
     }
-  }, [])
+  }, []);
 
   const handleAddInformationClick = async () => {
     const data = {
@@ -95,17 +87,17 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
       gender,
       country,
       emailAddress,
-    }
+    };
 
     try {
-      await saveAnonymousAccount(data)
-      addNotification(successUploadMessage, 'success')
+      await saveAnonymousAccount(data);
+      addNotification(successUploadMessage, 'success');
     } catch {
-      addNotification(errorUploadMessage, 'error')
+      addNotification(errorUploadMessage, 'error');
     }
 
-    onReset()
-  }
+    onReset();
+  };
 
   return (
     <div className="first-cta-container" data-testid="first-submission-cta">
@@ -128,7 +120,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
               className={classNames('language-wrap', {
                 'variant-input-visible': isVariantInputVisible,
               })}
-              key={locale}>
+              key={locale}
+            >
               <InputLanguageVariant
                 locale={locale}
                 variantsAll={variantsAll}
@@ -150,9 +143,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           <div className="grid grid-cols-1 mx-auto space-y-4 max-w-[650px] w-[100%]">
             {/* Fieldset for age, gender, and country */}
             <fieldset className="border border-gray-300 p-4 rounded-lg">
-              <legend className="text-black text-md px-2">
-                تفاصيل المستخدم
-              </legend>
+              <legend className="text-black text-md px-2">تفاصيل المستخدم</legend>
               <div className="input-group flex flex-col mt-4">
                 <label htmlFor="email" className="text-gray-500 text-md">
                   البريد الشبكي*:
@@ -166,12 +157,9 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   onChange={e => setEmailAddress(e.target.value)}
                 />
                 {/* Email Should be mendatory */}
-                {!isValidEmailAddress(emailAddress) &&
-                  emailAddress.length > 0 && (
-                    <span className="text-red-500 text-sm">
-                      البريد الشبكي غير صالح
-                    </span>
-                  )}
+                {!isValidEmailAddress(emailAddress) && emailAddress.length > 0 && (
+                  <span className="text-red-500 text-sm">البريد الشبكي غير صالح</span>
+                )}
               </div>
               <div className="input-group flex flex-col mt-4">
                 <label htmlFor="age" className="text-gray-500 text-md">
@@ -181,7 +169,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   id="age"
                   name="age"
                   className="mt-1 px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-12"
-                  onChange={e => setAge(e.target.value)}>
+                  onChange={e => setAge(e.target.value)}
+                >
                   <option value="">اختر عمرك</option>
                   <option value="10-5 سنوات">10-5 سنوات</option>
                   <option value="15-11 سنة">15-11 سنة</option>
@@ -199,7 +188,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   id="gender"
                   name="gender"
                   className="mt-1 px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-12"
-                  onChange={e => setGender(e.target.value)}>
+                  onChange={e => setGender(e.target.value)}
+                >
                   <option value="">اختر جنسك</option>
                   <option value="male">ذكر</option>
                   <option value="female">أنثى</option>
@@ -213,15 +203,14 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   id="country"
                   name="country"
                   className="mt-1 px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-12"
-                  onChange={e => setCountry(e.target.value)}>
+                  onChange={e => setCountry(e.target.value)}
+                >
                   <option value="">اختر دولتك</option>
-                  {COUNTRIES.sort((a, b) => a.name.localeCompare(b.name)).map(
-                    country => (
-                      <option key={country.value} value={country.value}>
-                        {country.name}
-                      </option>
-                    )
-                  )}
+                  {COUNTRIES.sort((a, b) => a.name.localeCompare(b.name)).map(country => (
+                    <option key={country.value} value={country.value}>
+                      {country.name}
+                    </option>
+                  ))}
                 </select>
               </div>
             </fieldset>
@@ -233,7 +222,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           summaryLocalizedId="why-donate"
           icon={<QuestionMarkIcon />}
           hideBorder
-          justifyCenter>
+          justifyCenter
+        >
           <Localized id="why-donate-explanation-1">
             <p />
           </Localized>
@@ -247,7 +237,8 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   rel="noreferrer"
                 />
               ),
-            }}>
+            }}
+          >
             <p />
           </Localized>
         </ExpandableInformation>
@@ -258,24 +249,23 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           className="add-information-button"
           onClick={handleAddInformationClick}
           data-testid="add-information-button"
-          disabled={isAddInformationButtonDisabled}>
+          disabled={isAddInformationButtonDisabled}
+        >
           إرسال المعلومات
         </Button>
         {/* </Localized> */}
         <Localized id="continue-speaking-button">
-          <Button
-            rounded
-            onClick={onReset}
-            data-testid="continue-speaking-button"></Button>
+          <Button rounded onClick={onReset} data-testid="continue-speaking-button"></Button>
         </Localized>
       </div>
       <Localized
         id="create-profile-text"
         elems={{
           createProfile: <a href="/login" />,
-        }}>
+        }}
+      >
         <p className="create-profile-text" />
       </Localized>
     </div>
-  )
-}
+  );
+};

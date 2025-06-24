@@ -36,7 +36,8 @@ const DatasetDescription = ({ releaseData }: Props) => {
           elems={{
             b: <b />,
             languagesLink: <LocaleLink to={URLS.LANGUAGES}></LocaleLink>,
-          }}>
+          }}
+        >
           <p id="description-hours" />
         </Localized>
       </div>

@@ -1,4 +1,4 @@
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   await db.runSql(`
   INSERT IGNORE INTO datasets(name, release_dir, multilingual, bundle_date, release_date, total_clips_duration,	valid_clips_duration,	release_type, download_path )
   VALUES
@@ -7,6 +7,6 @@ export const up = async function(db: any): Promise<any> {
   `);
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };

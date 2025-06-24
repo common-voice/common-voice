@@ -248,9 +248,7 @@ const locales: Locale[] = [
 
 export const up = async function (db: any): Promise<any> {
   // console.log(locales);
-  const checkCol = await db.runSql(
-    `SHOW COLUMNS FROM locales LIKE '%target_sentence_count%'`
-  );
+  const checkCol = await db.runSql(`SHOW COLUMNS FROM locales LIKE '%target_sentence_count%'`);
 
   if (checkCol.length > 0) {
     return;

@@ -4,19 +4,19 @@ import {
   ERR_OTHER,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
 // Minimum of characters that qualify as a sentence.
-const MIN_LENGTH = 3
+const MIN_LENGTH = 3;
 
 // Maximum of characters allowed per sentence to keep recordings in a manageable duration.
-const MAX_LENGTH = 50
+const MAX_LENGTH = 50;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH
+      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH;
     },
     error: `字數必須要喺 ${MIN_LENGTH} 同  ${MAX_LENGTH} 之間`,
     errorType: ERR_TOO_LONG,
@@ -74,6 +74,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: '句子唔可以有官話詞（這哪您們咱啥甭）',
     errorType: ERR_OTHER,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

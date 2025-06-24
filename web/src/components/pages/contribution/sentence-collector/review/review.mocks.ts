@@ -1,4 +1,4 @@
-import { PendingSentence } from 'common'
+import { PendingSentence } from 'common';
 
 export const mockPendingSentences: PendingSentence[] = [
   {
@@ -22,4 +22,4 @@ export const mockPendingSentences: PendingSentence[] = [
     sentenceId: 'mock-sentence-id-3',
     source: 'mock source',
   },
-]
+];

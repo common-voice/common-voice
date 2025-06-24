@@ -23,12 +23,7 @@ import UserMenu from './user-menu';
 import cx from 'classnames';
 import WelcomeModal from '../welcome-modal/welcome-modal';
 import NonProductionBanner from './non-production-banner';
-import {
-  ChallengeTeamToken,
-  challengeTeamTokens,
-  ChallengeToken,
-  challengeTokens,
-} from 'common';
+import { ChallengeTeamToken, challengeTeamTokens, ChallengeToken, challengeTokens } from 'common';
 import API from '../../services/api';
 import { SecondaryNav } from './nav/secondary-nav';
 import Hadear from './header/Hadear';
@@ -89,8 +84,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     this.setState({
       challengeTeamToken: challengeTeamToken,
       challengeToken: challengeToken,
-      showWelcomeModal:
-        challengeTeamToken !== undefined && challengeToken !== undefined,
+      showWelcomeModal: challengeTeamToken !== undefined && challengeToken !== undefined,
     });
   }
 
@@ -163,13 +157,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   render() {
     const { children, locale, location, user, shouldHideFooter } = this.props;
-    const {
-      challengeTeamToken,
-      challengeToken,
-      hasScrolled,
-      isMenuVisible,
-      showWelcomeModal,
-    } = this.state;
+    const { challengeTeamToken, challengeToken, hasScrolled, isMenuVisible, showWelcomeModal } =
+      this.state;
 
     const CONTRIBUTION_PAGES = [
       `/${locale}${URLS.SPEAK}`,
@@ -180,16 +169,13 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const isDemoMode = location.pathname.includes(URLS.DEMO);
-    const isContributionPageActive = CONTRIBUTION_PAGES.includes(
-      location.pathname
-    );
+    const isContributionPageActive = CONTRIBUTION_PAGES.includes(location.pathname);
     const pathParts = location.pathname.split('/');
     const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
       'nav-modal-active': this.state.isMenuVisible,
     });
 
-    const alreadyEnrolled =
-      this.state.showWelcomeModal && user.account?.enrollment?.challenge;
+    const alreadyEnrolled = this.state.showWelcomeModal && user.account?.enrollment?.challenge;
     const redirectURL = '/voicewall' + URLS.DASHBOARD + URLS.CHALLENGE;
 
     const handleMenuIconClick = () => {
@@ -296,37 +282,31 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             />
           )}
         </div> */}
-{/* old header */}
+        {/* old header */}
         {/* <Hadear/> */}
 
         {/* Falak header */}
-        <FalakHeader/>
+        <FalakHeader />
 
         <NonProductionBanner />
         <main
           id="content"
           className={className}
-          data-testid={pathParts[2] ? pathParts.slice(2).join(' ') : 'home'}>
+          data-testid={pathParts[2] ? pathParts.slice(2).join(' ') : 'home'}
+        >
           {children ? children : <Content location={location} />}
         </main>
         {/* {shouldHideFooter ? <></> : <Footer />} */}
-      {/* {shouldHideFooter ? <></> :<FooterSection />}   */}
-      {shouldHideFooter ? <></> :<FalakFooter />}  
-      
+        {/* {shouldHideFooter ? <></> :<FooterSection />}   */}
+        {shouldHideFooter ? <></> : <FalakFooter />}
 
-        <div
-          id="navigation-modal"
-          className={this.state.isMenuVisible ? 'active' : ''}>
+        <div id="navigation-modal" className={this.state.isMenuVisible ? 'active' : ''}>
           <Nav
-            shouldExpandNavItems={
-              this.state.shouldExpandNavItems || !isContributionPageActive
-            }
-            isContributionPageActive={isContributionPageActive}>
+            shouldExpandNavItems={this.state.shouldExpandNavItems || !isContributionPageActive}
+            isContributionPageActive={isContributionPageActive}
+          >
             <div className="user-nav">
-              <LocalizationSelect
-                locale={locale}
-                onLocaleChange={this.handleLocaleChange}
-              />
+              <LocalizationSelect locale={locale} onLocaleChange={this.handleLocaleChange} />
 
               {user.account && (
                 <div>
@@ -336,9 +316,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                       <span />
                     </Localized>
                   </LocaleNavLink>
-                  <LocaleNavLink
-                    className="user-nav-link"
-                    to={URLS.PROFILE_SETTINGS}>
+                  <LocaleNavLink className="user-nav-link" to={URLS.PROFILE_SETTINGS}>
                     <CogIcon />
                     <Localized id="settings">
                       <span />
@@ -378,8 +356,5 @@ const mapDispatchToProps = {
 };
 
 export default withRouter(
-  connect<PropsFromState, PropsFromDispatch>(
-    mapStateToProps,
-    mapDispatchToProps
-  )(Layout)
+  connect<PropsFromState, PropsFromDispatch>(mapStateToProps, mapDispatchToProps)(Layout)
 );

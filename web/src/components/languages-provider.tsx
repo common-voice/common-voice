@@ -6,11 +6,7 @@ import { useDispatch } from 'react-redux';
 import * as Sentry from '@sentry/react';
 
 import URLS from '../urls';
-import {
-  createLocalization,
-  DEFAULT_LOCALE,
-  negotiateLocales,
-} from '../services/localization';
+import { createLocalization, DEFAULT_LOCALE, negotiateLocales } from '../services/localization';
 import { useTypedSelector } from '../stores/tree';
 import { replacePathLocale } from '../utility';
 import { useAPI } from '../hooks/store-hooks';
@@ -27,11 +23,7 @@ interface LanguageRoutesProps {
   children: React.ReactNode;
 }
 
-const LanguageRoutes = ({
-  userLocales,
-  setUserLocales,
-  children,
-}: LanguageRoutesProps) => {
+const LanguageRoutes = ({ userLocales, setUserLocales, children }: LanguageRoutesProps) => {
   const languages = useTypedSelector(({ languages }) => languages);
 
   const [primaryUserLocale] = userLocales;
@@ -45,52 +37,37 @@ const LanguageRoutes = ({
           key={url}
           exact
           path={url || '/'}
-          render={() => (
-            <Redirect to={`/${primaryUserLocale}${url}${location.search}`} />
-          )}
+          render={() => <Redirect to={`/${primaryUserLocale}${url}${location.search}`} />}
         />
       ))}
       <SentryRoute
         path="/:locale"
         render={something => {
-          const localeParam = something?.match?.params?.locale
+          const localeParam = something?.match?.params?.locale;
 
-          const hasTranslatedLocale =
-            languages.translatedLocales.includes(localeParam)
+          const hasTranslatedLocale = languages.translatedLocales.includes(localeParam);
 
           if (hasTranslatedLocale) {
             if (primaryUserLocale !== localeParam) {
-              setUserLocales([localeParam, ...userLocales])
+              setUserLocales([localeParam, ...userLocales]);
             }
 
-            return children
+            return children;
           }
 
           // redirect pt-BR to pt
           if (localeParam === 'pt-BR') {
-            return (
-              <Redirect push to={location.pathname.replace('pt-BR', 'pt')} />
-            )
+            return <Redirect push to={location.pathname.replace('pt-BR', 'pt')} />;
           }
 
           // redirect en-UK, en-US etc to en
           if (localeParam.startsWith('en-')) {
-            return (
-              <Redirect
-                push
-                to={location.pathname.replace(localeParam, 'en')}
-              />
-            )
+            return <Redirect push to={location.pathname.replace(localeParam, 'en')} />;
           }
 
           // TODO: Find the right place to do this redirect
           if (localeParam === 'sentence-collector') {
-            return (
-              <Redirect
-                push
-                to={toLocaleRoute(URLS.SENTENCE_COLLECTOR_REDIRECT)}
-              />
-            )
+            return <Redirect push to={toLocaleRoute(URLS.SENTENCE_COLLECTOR_REDIRECT)} />;
           }
 
           // 404 for non-translated locales
@@ -102,7 +79,7 @@ const LanguageRoutes = ({
                 state: { prevPath: location.pathname },
               }}
             />
-          )
+          );
         }}
       />
     </Switch>
@@ -169,10 +146,7 @@ const LanguagesProvider = ({ children }: LanguagesProviderProps) => {
 
   useEffect(() => {
     if (userLocales.length === 0 && !languages?.isLoading) {
-      const newUserLocales = negotiateLocales(
-        navigator.languages,
-        languages.translatedLocales
-      );
+      const newUserLocales = negotiateLocales(navigator.languages, languages.translatedLocales);
       setUserLocales(newUserLocales);
     }
   }, [userLocales, languages]);

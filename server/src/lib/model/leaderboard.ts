@@ -217,12 +217,7 @@ export const getFullVoteLeaderboard = lazyCache(
 
 export const getTopSpeakersLeaderboard = lazyCache(
   'top-speaker-leaderboard',
-  async ({
-    client_id,
-    challenge,
-    locale,
-    team_only,
-  }: ChallengeLeaderboardArgument) => {
+  async ({ client_id, challenge, locale, team_only }: ChallengeLeaderboardArgument) => {
     return (
       await getTopSpeakers({
         client_id,
@@ -240,12 +235,7 @@ export const getTopSpeakersLeaderboard = lazyCache(
 
 export const getTopListenersLeaderboard = lazyCache(
   'top-listener-leaderboard',
-  async ({
-    client_id,
-    challenge,
-    locale,
-    team_only,
-  }: ChallengeLeaderboardArgument) => {
+  async ({ client_id, challenge, locale, team_only }: ChallengeLeaderboardArgument) => {
     return (
       await getTopListeners({
         client_id,
@@ -299,18 +289,14 @@ export default async function getLeaderboard({
   const prepareRows = (rows: any[]) =>
     rows.map(row => ({
       ...omit(row, 'client_id', 'avatar_clip_url'),
-      avatarClipUrl: row.avatar_clip_url
-        ? bucket.getAvatarClipsUrl(row.avatar_clip_url)
-        : null,
+      avatarClipUrl: row.avatar_clip_url ? bucket.getAvatarClipsUrl(row.avatar_clip_url) : null,
       clientHash: SHA256(row.client_id + getConfig().SECRET).toString(),
       you: row.client_id == client_id,
     }));
 
   let leaderboard = [];
   if (dashboard == 'stats') {
-    leaderboard = await (type == 'clip'
-      ? getFullClipLeaderboard
-      : getFullVoteLeaderboard)(locale);
+    leaderboard = await (type == 'clip' ? getFullClipLeaderboard : getFullVoteLeaderboard)(locale);
   } else if (dashboard == 'challenge') {
     const { scope, challenge } = arg;
     switch (scope) {
@@ -347,16 +333,14 @@ export default async function getLeaderboard({
   if (leaderboard.length < 5) leaderboard = [];
 
   const userIndex = leaderboard.findIndex(row => row.client_id == client_id);
-  const userRegion =
-    userIndex == -1 ? [] : leaderboard.slice(userIndex - 1, userIndex + 2);
+  const userRegion = userIndex == -1 ? [] : leaderboard.slice(userIndex - 1, userIndex + 2);
   const partialBoard = [
     ...leaderboard.slice(0, 10 + Math.max(0, 10 - userRegion.length)),
     ...userRegion,
   ];
   return prepareRows(
     partialBoard.filter(
-      ({ position }, i) =>
-        i == partialBoard.findIndex(row => row.position == position)
+      ({ position }, i) => i == partialBoard.findIndex(row => row.position == position)
     )
   );
 }

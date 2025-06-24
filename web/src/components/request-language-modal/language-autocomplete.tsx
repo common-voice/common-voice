@@ -7,14 +7,8 @@ import { RequestedLanguages } from '../../stores/requested-languages';
 import { useTypedSelector } from '../../stores/tree';
 import { LabeledInput } from '../ui/ui';
 
-export default function LanguageAutocomplete({
-  onChange,
-}: {
-  onChange: (...args: any[]) => any;
-}) {
-  const requestedLanguages = useTypedSelector(
-    store => store.requestedLanguages.languages
-  );
+export default function LanguageAutocomplete({ onChange }: { onChange: (...args: any[]) => any }) {
+  const requestedLanguages = useTypedSelector(store => store.requestedLanguages.languages);
   const fetchRequestedLanguages = useAction(RequestedLanguages.actions.fetch);
 
   // Types for Downshift haven't caught up yet. Can be removed in the future
@@ -26,20 +20,11 @@ export default function LanguageAutocomplete({
 
   return (
     <Downshift onChange={onChange}>
-      {({
-        getInputProps,
-        getItemProps,
-        isOpen,
-        inputValue,
-        selectedItem,
-        highlightedIndex,
-      }) => {
-        const options = Array.from(
-          new Set(requestedLanguages || [])
-        ).filter(name => name.toLowerCase().includes(inputValue.toLowerCase()));
-        const exactMatch = options.find(
-          name => name.toLowerCase() === inputValue.toLowerCase()
+      {({ getInputProps, getItemProps, isOpen, inputValue, selectedItem, highlightedIndex }) => {
+        const options = Array.from(new Set(requestedLanguages || [])).filter(name =>
+          name.toLowerCase().includes(inputValue.toLowerCase())
         );
+        const exactMatch = options.find(name => name.toLowerCase() === inputValue.toLowerCase());
         return (
           <div>
             <Localized id="language-autocomplete" attrs={{ label: true }}>
@@ -68,15 +53,16 @@ export default function LanguageAutocomplete({
                     maxHeight: '5rem',
                     overflowY: 'auto',
                     background: 'white',
-                  }}>
+                  }}
+                >
                   {!exactMatch && (
                     <div
                       {...getItemProps({ item: inputValue })}
                       style={{
-                        backgroundColor:
-                          highlightedIndex === 0 ? 'lightgray' : 'white',
+                        backgroundColor: highlightedIndex === 0 ? 'lightgray' : 'white',
                         fontWeight: selectedItem === name ? 'bold' : 'normal',
-                      }}>
+                      }}
+                    >
                       Add new Language "{inputValue}"
                     </div>
                   )}
@@ -86,11 +72,10 @@ export default function LanguageAutocomplete({
                       key={name}
                       style={{
                         backgroundColor:
-                          highlightedIndex === index + (exactMatch ? 0 : 1)
-                            ? 'lightgray'
-                            : 'white',
+                          highlightedIndex === index + (exactMatch ? 0 : 1) ? 'lightgray' : 'white',
                         fontWeight: selectedItem === name ? 'bold' : 'normal',
-                      }}>
+                      }}
+                    >
                       {name}
                     </div>
                   ))}

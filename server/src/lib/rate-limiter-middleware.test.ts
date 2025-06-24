@@ -68,9 +68,7 @@ describe('rateLimitedMiddleware', () => {
     );
 
     expect(mockNextFunction).toBeCalledTimes(1);
-    expect(mockNextFunction.mock.calls[0][0].message).toBe(
-      'No rate limiter available'
-    );
+    expect(mockNextFunction.mock.calls[0][0].message).toBe('No rate limiter available');
 
     expect(mockResponseStatus).not.toBeCalled();
   });

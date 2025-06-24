@@ -32,9 +32,7 @@ function useSortedLocales(
           locale,
           localizedName: getString(locale).toLocaleLowerCase(clientLocale),
         }))
-        .sort(({ localizedName: a }, { localizedName: b }) =>
-          a.localeCompare(b, clientLocale)
-        ),
+        .sort(({ localizedName: a }, { localizedName: b }) => a.localeCompare(b, clientLocale)),
     [locales, clientLocale, getString]
   );
 

@@ -166,9 +166,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       )
     );
     newLaunched.sort(
-      presortLanguages((l1, l2) =>
-        l1.validatedHours < l2.validatedHours ? 1 : -1
-      )
+      presortLanguages((l1, l2) => (l1.validatedHours < l2.validatedHours ? 1 : -1))
     );
 
     setState(previousState => ({
@@ -203,10 +201,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     }));
   };
 
-  const handleQueryChange = (
-    event: React.ChangeEvent<HTMLInputElement>,
-    nativeNames: any
-  ) => {
+  const handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>, nativeNames: any) => {
     const query = event.target.value;
 
     function filterLanguages<T>(languages: T[]): T[] {
@@ -260,9 +255,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       setState(previousState => ({
         ...previousState,
         isLoading: false,
-        inProgress: languageStatistics.filter(
-          (lang: LanguageStatistics) => !lang.is_contributable
-        ),
+        inProgress: languageStatistics.filter((lang: LanguageStatistics) => !lang.is_contributable),
         filteredInProgress: inProgress,
         launched: languageStatistics.filter(lang => lang.is_contributable),
         filteredLaunched: launched,
@@ -277,9 +270,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
 
   const descriptionElems = {
     localizationGlossaryLink: <StyledLink to={URLS.FAQ + '#localization'} />,
-    sentenceCollectionGlossaryLink: (
-      <StyledLink to={URLS.FAQ + '#sentence-collection'} />
-    ),
+    sentenceCollectionGlossaryLink: <StyledLink to={URLS.FAQ + '#sentence-collection'} />,
     speakLink: <StyledLink to={URLS.SPEAK} />,
     listenLink: <StyledLink to={URLS.LISTEN} />,
   };
@@ -287,17 +278,13 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
   const inProgressCountLabel = query && (
     <span className="count">({filteredInProgress.length})</span>
   );
-  const launchedCountLabel = query && (
-    <span className="count">({filteredLaunched.length})</span>
-  );
+  const launchedCountLabel = query && <span className="count">({filteredLaunched.length})</span>;
 
   const launchedLanguages =
     query || showAllLaunched ? filteredLaunched : filteredLaunched.slice(0, 3);
 
   const inProgressLanguages =
-    query || showAllInProgress
-      ? filteredInProgress
-      : filteredInProgress.slice(0, 3);
+    query || showAllInProgress ? filteredInProgress : filteredInProgress.slice(0, 3);
   const nativeNames = useNativeLocaleNames();
 
   // since all languages have the same lastFetched value we can use any language's lastFetched value
@@ -360,9 +347,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
               </h2>
             </div>
             <PageTextContent>
-              <Localized
-                id="language-section-launched-description"
-                elems={descriptionElems}>
+              <Localized id="language-section-launched-description" elems={descriptionElems}>
                 <p />
               </Localized>
             </PageTextContent>
@@ -387,8 +372,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
             </div>
 
             {!query && (
-              <Localized
-                id={'languages-show-' + (showAllLaunched ? 'less' : 'more')}>
+              <Localized id={'languages-show-' + (showAllLaunched ? 'less' : 'more')}>
                 <button
                   disabled={isLoading}
                   className="show-all-languages"
@@ -405,9 +389,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
             </h2>
 
             <PageTextContent>
-              <Localized
-                id="language-section-in-progress-new-description"
-                elems={descriptionElems}>
+              <Localized id="language-section-in-progress-new-description" elems={descriptionElems}>
                 <p />
               </Localized>
             </PageTextContent>
@@ -433,8 +415,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
             </div>
 
             {!query && (
-              <Localized
-                id={'languages-show-' + (showAllInProgress ? 'less' : 'more')}>
+              <Localized id={'languages-show-' + (showAllInProgress ? 'less' : 'more')}>
                 <button
                   disabled={isLoading}
                   className="show-all-languages"

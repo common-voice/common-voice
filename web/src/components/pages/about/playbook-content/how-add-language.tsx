@@ -14,7 +14,8 @@ const HowAddLanguage = React.memo(({ getFragment }: { getFragment: any }) => (
       id="about-playbook-how-add-language-content-1"
       elems={{
         languageRequestLink: <LocaleNavLink to={URLS.LANGUAGE_REQUEST} />,
-      }}>
+      }}
+    >
       <p />
     </Localized>
 
@@ -32,7 +33,8 @@ const HowAddLanguage = React.memo(({ getFragment }: { getFragment: any }) => (
             rel="noopener noreferrer"
           />
         ),
-      }}>
+      }}
+    >
       <p />
     </Localized>
 
@@ -45,7 +47,8 @@ const HowAddLanguage = React.memo(({ getFragment }: { getFragment: any }) => (
           <a href="https://github.com/common-voice/common-voice/issues/new?assignees=&labels=&template=language_request.md&title=" />
         ),
         localizationFragment: getFragment(PLAYBOOK.HOW_LOCALIZE),
-      }}>
+      }}
+    >
       <p />
     </Localized>
 
@@ -59,7 +62,8 @@ const HowAddLanguage = React.memo(({ getFragment }: { getFragment: any }) => (
         sentenceCollectorVideo: (
           <a href="https://drive.google.com/file/d/1d0Sjev-diNsYmCguIoh726vAf9LAXDps/view?usp=sharing" />
         ),
-      }}>
+      }}
+    >
       <p />
     </Localized>
 
@@ -75,7 +79,8 @@ const HowAddLanguage = React.memo(({ getFragment }: { getFragment: any }) => (
         licenseLink: (
           <a href="https://common-voice.github.io/community-playbook/sub_pages/cc0waiver_process.html" />
         ),
-      }}>
+      }}
+    >
       <p />
     </Localized>
 
@@ -83,7 +88,8 @@ const HowAddLanguage = React.memo(({ getFragment }: { getFragment: any }) => (
       id="about-playbook-how-add-language-collecting-sentences-content-3"
       elems={{
         sentenceCollectorFragment: getFragment(PLAYBOOK.HOW_ADD_SENTENCES),
-      }}>
+      }}
+    >
       <p />
     </Localized>
   </>

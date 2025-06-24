@@ -1,38 +1,38 @@
-import { Localized } from '@fluent/react'
-import * as React from 'react'
-import { useState, useEffect } from 'react'
-import { shallowEqual, useDispatch, useSelector } from 'react-redux'
-import { trackHome } from '../../../services/tracker'
-import { useTypedSelector } from '../../../stores/tree'
-import { ContributableLocaleLock } from '../../locale-helpers'
-import { RecordLink } from '../../primary-buttons/primary-buttons'
-import RegisterSection from '../../register-section/register-section'
-import { LinkButton } from '../../ui/ui'
-import Page from '../../ui/page'
-import Hero from './hero'
-import { ClipsStats, VoiceStats } from './stats'
-import URLS from '../../../urls'
+import { Localized } from '@fluent/react';
+import * as React from 'react';
+import { useState, useEffect } from 'react';
+import { shallowEqual, useDispatch, useSelector } from 'react-redux';
+import { trackHome } from '../../../services/tracker';
+import { useTypedSelector } from '../../../stores/tree';
+import { ContributableLocaleLock } from '../../locale-helpers';
+import { RecordLink } from '../../primary-buttons/primary-buttons';
+import RegisterSection from '../../register-section/register-section';
+import { LinkButton } from '../../ui/ui';
+import Page from '../../ui/page';
+import Hero from './hero';
+import { ClipsStats, VoiceStats } from './stats';
+import URLS from '../../../urls';
 
-import './home.css'
-import LanguageCard from '../languages/language-card/language-card'
-import { useAPI } from '../../../hooks/store-hooks'
-import { LanguageStatistics } from 'common'
-import { ModalOptions } from '../languages/languages'
-import HomePageSection from './HomePageSection'
-import Charts from './Charts'
-import FAQList from './FAQList'
-import { Datasource } from '../../../stores/datasource'
-import Breadcrumb from '../../Breadcrumb'
+import './home.css';
+import LanguageCard from '../languages/language-card/language-card';
+import { useAPI } from '../../../hooks/store-hooks';
+import { LanguageStatistics } from 'common';
+import { ModalOptions } from '../languages/languages';
+import HomePageSection from './HomePageSection';
+import Charts from './Charts';
+import FAQList from './FAQList';
+import { Datasource } from '../../../stores/datasource';
+import Breadcrumb from '../../Breadcrumb';
 
-type HeroType = 'speak' | 'listen'
+type HeroType = 'speak' | 'listen';
 
 interface State {
-  launched: LanguageStatistics[]
-  localeMessages: string[][]
+  launched: LanguageStatistics[];
+  localeMessages: string[][];
 }
 
 export default function HomePage(props: any) {
-  const heroes = ['speak', 'listen']
+  const heroes = ['speak', 'listen'];
 
   const { locale, user } = useTypedSelector(
     ({ locale, user }) => ({
@@ -40,48 +40,48 @@ export default function HomePage(props: any) {
       user,
     }),
     shallowEqual
-  )
+  );
 
-  const [activeHero, setActiveHero] = useState<null | HeroType>(null)
-  const [showWallOfText, setShowWallOfText] = useState(false)
+  const [activeHero, setActiveHero] = useState<null | HeroType>(null);
+  const [showWallOfText, setShowWallOfText] = useState(false);
 
   const setModalOptions = (options: ModalOptions) => {
     setState(previousState => ({
       ...previousState,
       modalOptions: options,
-    }))
-  }
+    }));
+  };
 
   const [state, setState] = useState({
     launched: [],
     localeMessages: null,
-  } as State)
+  } as State);
 
-  const { launched, localeMessages } = state
+  const { launched, localeMessages } = state;
 
-  const api = useAPI()
+  const api = useAPI();
 
   const loadData = async () => {
     const [localeMessages, languageStats] = await Promise.all([
       api.fetchCrossLocaleMessages(),
       api.fetchLanguageStats(),
-    ])
+    ]);
 
-    const languageStatistics = languageStats ?? []
+    const languageStatistics = languageStats ?? [];
 
-    return { localeMessages, languageStatistics }
-  }
+    return { localeMessages, languageStatistics };
+  };
 
-  const dispatch = useDispatch()
-  const datasourceId = useSelector((state: any) => state.datasource)
+  const dispatch = useDispatch();
+  const datasourceId = useSelector((state: any) => state.datasource);
 
   const setDatasourceId = (id: string) => {
-    dispatch(Datasource.actions.set(id))
-  }
+    dispatch(Datasource.actions.set(id));
+  };
 
   useEffect(() => {
-    setDatasourceId(props?.match?.params?.datasource ?? '')
-  }, [props?.match?.params?.datasource])
+    setDatasourceId(props?.match?.params?.datasource ?? '');
+  }, [props?.match?.params?.datasource]);
 
   // on mount
   useEffect(() => {
@@ -89,17 +89,13 @@ export default function HomePage(props: any) {
       setState(previousState => ({
         ...previousState,
         isLoading: false,
-        inProgress: languageStatistics.filter(
-          (lang: LanguageStatistics) => !lang.is_contributable
-        ),
-        launched: languageStatistics.filter(
-          lang => lang.is_contributable && lang.locale == 'ar'
-        ),
+        inProgress: languageStatistics.filter((lang: LanguageStatistics) => !lang.is_contributable),
+        launched: languageStatistics.filter(lang => lang.is_contributable && lang.locale == 'ar'),
         filteredLaunched: launched,
         localeMessages,
-      }))
-    })
-  }, [])
+      }));
+    });
+  }, []);
 
   return (
     <Page className="home">
@@ -134,16 +130,8 @@ export default function HomePage(props: any) {
             </div>
           ) : (
             <div className="non-contributable-hero">
-              <img
-                className="fading"
-                src={require('./images/fading.svg')}
-                alt="Fading"
-              />
-              <img
-                className="waves"
-                src={require('./images/speak.svg')}
-                alt="Waves"
-              />
+              <img className="fading" src={require('./images/fading.svg')} alt="Fading" />
+              <img className="waves" src={require('./images/speak.svg')} alt="Waves" />
             </div>
           )
         }
@@ -230,9 +218,7 @@ export default function HomePage(props: any) {
               render={({ isContributable }: { isContributable: boolean }) =>
                 isContributable ? (
                   <>
-                    <RecordLink
-                      onClick={() => trackHome('speak-mars', locale)}
-                    />
+                    <RecordLink onClick={() => trackHome('speak-mars', locale)} />
                     <h1>
                       <Localized id="ready-to-record" />
                     </h1>
@@ -275,5 +261,5 @@ export default function HomePage(props: any) {
         // </RegisterSection>
       )}
     </Page>
-  )
+  );
 }

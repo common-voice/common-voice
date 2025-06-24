@@ -67,10 +67,7 @@ describe('InputLanguageAccentsInput', () => {
 
     // TODO: this should not be found via test ID, it should be via a label
     const list = getByTestId('input-language-accents-input-list');
-    userEvent.selectOptions(
-      list,
-      getByRole('option', { name: 'Add new custom accent "Brummy"' })
-    );
+    userEvent.selectOptions(list, getByRole('option', { name: 'Add new custom accent "Brummy"' }));
 
     expect(mockSetUserLanguage).toHaveBeenCalledWith([
       { accents: [{ id: null, name: 'Brummy' }], locale: 'en' },

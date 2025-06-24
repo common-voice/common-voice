@@ -23,11 +23,7 @@ function ChallengeOffline({
 
   useEffect(() => {
     if (isBeforeChallenge && location.state?.earlyEnroll) {
-      addAchievement(
-        50,
-        'Bonus! You signed up in time for some extra points.',
-        'success'
-      );
+      addAchievement(50, 'Bonus! You signed up in time for some extra points.', 'success');
     }
   }, []);
 
@@ -48,17 +44,13 @@ function ChallengeOffline({
             <span className="listen-icon"></span>
           </LocaleLink>
         </div>
-        <p className="challenge-alt">
-          In the mean time you can still contribute to Common Voice
-        </p>
+        <p className="challenge-alt">In the mean time you can still contribute to Common Voice</p>
       </div>
     </div>
   ) : (
     <div className="challenge-blank-state post-challenge">
       <div className="challenge-cta">
-        <h1 className="challenge-header">
-          While you wait for the next one, create a custom goal!
-        </h1>
+        <h1 className="challenge-header">While you wait for the next one, create a custom goal!</h1>
         <LinkButton className="custom-goal-button" rounded to={URLS.GOALS}>
           Create a custom goal
         </LinkButton>

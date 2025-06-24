@@ -1,25 +1,25 @@
-import * as React from 'react'
-import { Localized } from '@fluent/react'
-import { filesize } from 'filesize'
-import { FileRejection } from 'react-dropzone'
+import * as React from 'react';
+import { Localized } from '@fluent/react';
+import { filesize } from 'filesize';
+import { FileRejection } from 'react-dropzone';
 
-import { CloseIcon, FileIcon, UploadIconLarge } from '../../../../../ui/icons'
-import { Button, LabeledCheckbox, Spinner } from '../../../../../ui/ui'
-import { FileInfo } from '../../../../../../hooks/use-bulk-submission-upload'
-import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
-import BulkUploadInstruction from './bulk-upload-instruction'
-import { BulkUploadStatus } from 'common'
+import { CloseIcon, FileIcon, UploadIconLarge } from '../../../../../ui/icons';
+import { Button, LabeledCheckbox, Spinner } from '../../../../../ui/ui';
+import { FileInfo } from '../../../../../../hooks/use-bulk-submission-upload';
+import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons';
+import BulkUploadInstruction from './bulk-upload-instruction';
+import { BulkUploadStatus } from 'common';
 
 type Props = {
-  isDragActive: boolean
-  uploadStatus: BulkUploadStatus
-  fileInfo: FileInfo
-  abortBulkSubmissionRequest: () => void
-  removeBulkSubmission: () => void
-  startUpload: () => void
-  fileRejections: FileRejection[]
-  openDialog: () => void
-}
+  isDragActive: boolean;
+  uploadStatus: BulkUploadStatus;
+  fileInfo: FileInfo;
+  abortBulkSubmissionRequest: () => void;
+  removeBulkSubmission: () => void;
+  startUpload: () => void;
+  fileRejections: FileRejection[];
+  openDialog: () => void;
+};
 
 const UploadZoneContent: React.FC<Props> = ({
   isDragActive,
@@ -31,20 +31,16 @@ const UploadZoneContent: React.FC<Props> = ({
   fileRejections,
   openDialog,
 }) => {
-  const [confirmPublicDomain, setConfirmPublicDomain] = React.useState(false)
+  const [confirmPublicDomain, setConfirmPublicDomain] = React.useState(false);
 
   const handleConfirmPublicDomainChange = () => {
-    setConfirmPublicDomain(!confirmPublicDomain)
-  }
+    setConfirmPublicDomain(!confirmPublicDomain);
+  };
 
   if (uploadStatus === 'waiting' && fileInfo) {
     return (
       <div className="waiting-container">
-        <CloseIcon
-          onClick={removeBulkSubmission}
-          black
-          className="close-icon"
-        />
+        <CloseIcon onClick={removeBulkSubmission} black className="close-icon" />
         <div className="file-icon-container">
           <FileIcon />
         </div>
@@ -64,7 +60,8 @@ const UploadZoneContent: React.FC<Props> = ({
                     rel="noreferrer"
                   />
                 ),
-              }}>
+              }}
+            >
               <span />
             </Localized>
           }
@@ -84,27 +81,20 @@ const UploadZoneContent: React.FC<Props> = ({
           id="bulk-upload-additional-information"
           elems={{
             emailFragment: (
-              <a
-                href="mailto:commonvoice@mozilla.com"
-                target="_blank"
-                rel="noreferrer"
-              />
+              <a href="mailto:commonvoice@mozilla.com" target="_blank" rel="noreferrer" />
             ),
-          }}>
+          }}
+        >
           <p className="upload-additional-information" />
         </Localized>
       </div>
-    )
+    );
   }
 
   if (uploadStatus === 'uploading' && fileInfo) {
     return (
       <div className="uploading-container">
-        <CloseIcon
-          onClick={abortBulkSubmissionRequest}
-          black
-          className="close-icon"
-        />
+        <CloseIcon onClick={abortBulkSubmissionRequest} black className="close-icon" />
         <Spinner isFloating={false} />
         <Localized id="upload-progress-text">
           <p className="upload-progress-text" />
@@ -114,7 +104,7 @@ const UploadZoneContent: React.FC<Props> = ({
           {filesize(fileInfo?.size)} • {fileInfo?.lastModified}
         </p>
       </div>
-    )
+    );
   }
 
   return (
@@ -138,6 +128,6 @@ const UploadZoneContent: React.FC<Props> = ({
         </Localized>
       </div>
     </>
-  )
-}
-export default UploadZoneContent
+  );
+};
+export default UploadZoneContent;

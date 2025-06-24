@@ -19,13 +19,10 @@ const NAV_IDS = {
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const GetStartedResource = React.memo((props: any) => {
-  const { title, id, trademark, titleLocalized, image, url, description } =
-    props;
+  const { title, id, trademark, titleLocalized, image, url, description } = props;
 
   Object.keys(description.linkElems).forEach(el => {
-    description.linkElems[el] = (
-      <StyledLink href={description.linkElems[el]} blank />
-    );
+    description.linkElems[el] = <StyledLink href={description.linkElems[el]} blank />;
   });
 
   return (
@@ -40,9 +37,7 @@ const GetStartedResource = React.memo((props: any) => {
             </StyledLink>
             {trademark ? trademark : ''}
           </h2>
-          <Localized
-            id={description.localizationId}
-            elems={description.linkElems}>
+          <Localized id={description.localizationId} elems={description.linkElems}>
             <p />
           </Localized>
         </div>
@@ -97,20 +92,11 @@ const Dataset = React.memo(
             )}
             <div className="buttons">
               <Localized id={collapsed ? 'more' : 'close'}>
-                <Button
-                  onClick={() => setCollapsed(!collapsed)}
-                  rounded
-                  outline
-                />
+                <Button onClick={() => setCollapsed(!collapsed)} rounded outline />
               </Localized>
               {!collapsed && download && (
                 <Localized id="download">
-                  <LinkButton
-                    rounded
-                    outline
-                    className="download"
-                    href={download}
-                  />
+                  <LinkButton rounded outline className="download" href={download} />
                 </Localized>
               )}
             </div>
@@ -130,7 +116,8 @@ const Section = ({ name, onChangeIntersection, ...props }: any) => (
       const { width, height } = entry.intersectionRect;
       onChangeIntersection(name, width * height);
     }}
-    threshold={[0.1, 0.2, 0.3, 0.4, 0.5]}>
+    threshold={[0.1, 0.2, 0.3, 0.4, 0.5]}
+  >
     <section id={name} {...props} />
   </InView>
 );
@@ -142,8 +129,7 @@ const Resources = () => {
   const handleIntersectionChange = (name: string, intersection: number) =>
     setIntersections({ ...intersections, [name]: intersection });
   const activeSection = Object.entries(intersections).reduce(
-    ([maxId, maxValue], [id, value]) =>
-      value > maxValue ? [id, value] : [maxId, maxValue],
+    ([maxId, maxValue], [id, value]) => (value > maxValue ? [id, value] : [maxId, maxValue]),
     [null, 0]
   )[0];
   const discourseURL = useLocalizedDiscourseURL();
@@ -171,7 +157,8 @@ const Resources = () => {
         <Section
           name={NAV_IDS.getStarted}
           onChangeIntersection={handleIntersectionChange}
-          className="get-started">
+          className="get-started"
+        >
           {getStartedResource.map(resource => (
             <GetStartedResource key={resource.id} {...resource} />
           ))}
@@ -180,21 +167,16 @@ const Resources = () => {
         <Section
           name={NAV_IDS.other}
           onChangeIntersection={handleIntersectionChange}
-          className="other-datasets">
+          className="other-datasets"
+        >
           {datasets.map(dataset => (
             <Dataset key={dataset.id} {...dataset} />
           ))}
         </Section>
 
-        <Section
-          name={NAV_IDS.feedback}
-          onChangeIntersection={handleIntersectionChange}>
+        <Section name={NAV_IDS.feedback} onChangeIntersection={handleIntersectionChange}>
           <div className="box feedback">
-            <img
-              src={require('./images/feedback.png')}
-              alt=""
-              role="presentation"
-            />
+            <img src={require('./images/feedback.png')} alt="" role="presentation" />
             <div className="dots-and-content">
               <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
               <div className="content">

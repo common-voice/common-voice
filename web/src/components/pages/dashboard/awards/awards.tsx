@@ -15,11 +15,8 @@ const NoAwardsPage = ({ dashboardLocale }: { dashboardLocale: string }) => (
     <h1>Earn your first award, create a goal</h1>
     <LinkButton
       rounded
-      to={
-        URLS.DASHBOARD +
-        (dashboardLocale ? '/' + dashboardLocale : '') +
-        URLS.GOALS
-      }>
+      to={URLS.DASHBOARD + (dashboardLocale ? '/' + dashboardLocale : '') + URLS.GOALS}
+    >
       Get started with goals
     </LinkButton>
     <p>When you complete a personal goal, your awards will show up here.</p>
@@ -57,14 +54,10 @@ const AwardBox = ({ award }: any) => (
   <li className={'award-box ' + award.type}>
     <Wave />
     <img className="star" src={require('./star.svg')} alt="Star" />
-    <div className="interval">
-      {INTERVAL_LABELS[award.days_interval] || award.days_interval}
-    </div>
+    <div className="interval">{INTERVAL_LABELS[award.days_interval] || award.days_interval}</div>
     <div className="line" />
     <div className="amount">{award.amount} Clips</div>
-    <div className="type">
-      {award.type[0].toUpperCase() + award.type.slice(1)}
-    </div>
+    <div className="type">{award.type[0].toUpperCase() + award.type.slice(1)}</div>
     <div className="icon">
       {({ speak: <MicIcon />, listen: <PlayOutlineIcon /> } as any)[award.type]}
     </div>
@@ -86,9 +79,7 @@ export default function AwardsPage({ dashboardLocale }: Props) {
     return null;
   }
 
-  const awards = account.awards.filter(
-    a => !dashboardLocale || a.locale == dashboardLocale
-  );
+  const awards = account.awards.filter(a => !dashboardLocale || a.locale == dashboardLocale);
 
   if (awards.length == 0) {
     return <NoAwardsPage {...{ dashboardLocale }} />;

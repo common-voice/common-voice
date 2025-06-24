@@ -174,10 +174,7 @@ export async function sync(client_id: string, firstSubscribe?: boolean) {
   // If no newsletter prefs exist, they don't get email triggers
   // If last update was within the past 5 minutes, do not send another sync to
   // prevent spamming endpoint
-  if (
-    !currUserStats ||
-    (parseInt(currUserStats.mins_elapsed) <= 5 && !firstSubscribe)
-  ) {
+  if (!currUserStats || (parseInt(currUserStats.mins_elapsed) <= 5 && !firstSubscribe)) {
     return;
   }
 

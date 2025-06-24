@@ -28,8 +28,7 @@ const isValidDate = (dateStr: string) => {
 };
 
 const getNow = () => {
-  const dateParam =
-    location.search && location.search.match(/date=(\d+-\d+-\d+)/);
+  const dateParam = location.search && location.search.match(/date=(\d+-\d+-\d+)/);
   const date = dateParam?.[1];
   return date && isValidDate(date) ? new Date(date) : new Date();
 };
@@ -49,8 +48,7 @@ export const pilotDates: ChallengeDuration = {
   end: new Date('2019-12-10'),
 };
 
-export const isEnrolled = (account: UserClient) =>
-  account?.enrollment?.challenge;
+export const isEnrolled = (account: UserClient) => account?.enrollment?.challenge;
 
 export const weeklyChallengeCopy = [
   {
@@ -67,10 +65,8 @@ export const weeklyChallengeCopy = [
   },
   {
     title: 'Top the Leaderboard',
-    subtitle:
-      'The team that validates the highest percentage of voice clips wins the prize',
-    explanation:
-      'This is the percentage of clips the team has accurately validated',
+    subtitle: 'The team that validates the highest percentage of voice clips wins the prize',
+    explanation: 'This is the percentage of clips the team has accurately validated',
   },
 ];
 

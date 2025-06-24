@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useRef } from 'react';
 import { trackSharing } from '../../services/tracker';
@@ -48,19 +44,18 @@ function ShareButtons({ getString, shareTextId }: Props) {
               </Localized>
             </>
           );
-        }}>
+        }}
+      >
         <input type="text" readOnly value={SHARE_URL} ref={shareURLInputRef} />
         <FontIcon type="link" />
       </button>
       <a
         className="share-button"
-        href={
-          'https://www.facebook.com/sharer/sharer.php?u=' +
-          encodeURIComponent(SHARE_URL)
-        }
+        href={'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(SHARE_URL)}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackSharing('facebook', locale)}>
+        onClick={() => trackSharing('facebook', locale)}
+      >
         <FontIcon type="facebook" />
       </a>
       <a
@@ -68,7 +63,8 @@ function ShareButtons({ getString, shareTextId }: Props) {
         href={'https://twitter.com/intent/tweet?text=' + encodedShareText}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackSharing('twitter', locale)}>
+        onClick={() => trackSharing('twitter', locale)}
+      >
         <XIcon />
       </a>
     </>

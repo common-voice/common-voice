@@ -1,15 +1,10 @@
-import {
-  ERR_NO_FOREIGN_SCRIPT,
-  ERR_OTHER,
-  ERR_TOO_LONG,
-  ValidatorRule,
-} from '../../types'
+import { ERR_NO_FOREIGN_SCRIPT, ERR_OTHER, ERR_TOO_LONG, ValidatorRule } from '../../types';
 
 // Minimum of characters that qualify as a sentence.
-const MIN_CHARACTERS = 1
+const MIN_CHARACTERS = 1;
 
 // Maximum of characters allowed per sentence to keep recordings in a manageable duration.
-const MAX_CHARACTERS = 50
+const MAX_CHARACTERS = 50;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
@@ -17,9 +12,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     fn: (sentence: string) => {
       // To properly tokenize Korean, We need some heavy tokenizers (ex: mecab-ko, nori, ...),
       // For counting letters those tokenizers are not necessary.
-      return (
-        sentence.length < MIN_CHARACTERS || sentence.length > MAX_CHARACTERS
-      )
+      return sentence.length < MIN_CHARACTERS || sentence.length > MAX_CHARACTERS;
     },
     error: `문장의 글자 수는 ${MIN_CHARACTERS}글자 이상, ${MAX_CHARACTERS}글자 이하여야 합니다.`,
     errorType: ERR_TOO_LONG,
@@ -52,8 +45,7 @@ const INVALIDATIONS: ValidatorRule[] = [
     // This regex is for codepoints other than "Hangul Syllables" (U+AC00–U+D7A3).
     type: 'regex',
     regex: /[\u1100-\u11FF\uA960-\uA97F\u3130-\u318F]/u,
-    error:
-      '문장에는 첫가끝 형태의 분해된 글자가 있어서는 안 됩니다. 완성형 글자를 입력해주세요.',
+    error: '문장에는 첫가끝 형태의 분해된 글자가 있어서는 안 됩니다. 완성형 글자를 입력해주세요.',
     errorType: ERR_OTHER,
   },
   {
@@ -67,10 +59,9 @@ const INVALIDATIONS: ValidatorRule[] = [
     //           ...
     type: 'regex',
     regex: /[^가-힣.,?! ]/u,
-    error:
-      '문장에는 한글과 마침표, 쉼표, 느낌표, 물음표, 공백만 들어있어야 합니다.',
+    error: '문장에는 한글과 마침표, 쉼표, 느낌표, 물음표, 공백만 들어있어야 합니다.',
     errorType: ERR_NO_FOREIGN_SCRIPT,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

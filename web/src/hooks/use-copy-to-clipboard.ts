@@ -9,9 +9,7 @@ import { useAction } from './store-hooks';
 type CopiedValue = string | null;
 type CopyFn = (text: string) => Promise<boolean>; // Return success
 
-function useCopyToClipboard(
-  getString: WithLocalizationProps['getString']
-): [CopiedValue, CopyFn] {
+function useCopyToClipboard(getString: WithLocalizationProps['getString']): [CopiedValue, CopyFn] {
   const [copiedText, setCopiedText] = useState<CopiedValue>(null);
   const addNotification = useAction(Notifications.actions.addPill);
 

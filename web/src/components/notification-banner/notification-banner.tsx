@@ -70,7 +70,8 @@ export default function NotificationBanner({
       onTransitionEnd={event => {
         if (show || event.target != el.current) return;
         removeNotification(notification.id);
-      }}>
+      }}
+    >
       {notification.content}
     </Banner>
   );

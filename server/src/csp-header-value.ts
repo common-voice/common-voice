@@ -1,4 +1,4 @@
-import { getConfig } from './config-helper'
+import { getConfig } from './config-helper';
 
 const SOURCES = {
   'default-src': ["'none'"],
@@ -111,11 +111,11 @@ const SOURCES = {
   // '*.paypal.com',
   // 'pay.google.com',
   // ],
-}
+};
 
 function getCSPHeaderValue() {
-  const { PROD } = getConfig()
-  const localhostURLs = 'http://localhost:*'
+  const { PROD } = getConfig();
+  const localhostURLs = 'http://localhost:*';
 
   /*
     default to production mode to make sure we
@@ -124,17 +124,17 @@ function getCSPHeaderValue() {
   */
   if (!PROD) {
     // we allow unsafe-eval, unsafe-inline locally for certain webpack functionality
-    SOURCES['style-src'].push("'unsafe-inline'")
-    SOURCES['script-src'].push("'unsafe-eval'")
+    SOURCES['style-src'].push("'unsafe-inline'");
+    SOURCES['script-src'].push("'unsafe-eval'");
     // add localhost to allowed sources in development
-    SOURCES['connect-src'].push(localhostURLs)
-    SOURCES['media-src'].push(localhostURLs)
-    SOURCES['img-src'].push(localhostURLs)
+    SOURCES['connect-src'].push(localhostURLs);
+    SOURCES['media-src'].push(localhostURLs);
+    SOURCES['img-src'].push(localhostURLs);
   }
 
   return Object.entries(SOURCES)
     .map(([type, values]) => `${type} ${values.join(' ')}`)
-    .join(';')
+    .join(';');
 }
 
-export default getCSPHeaderValue
+export default getCSPHeaderValue;

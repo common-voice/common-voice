@@ -2,10 +2,7 @@ import { Localized } from '@fluent/react';
 import { fireEvent, screen, waitFor } from '@testing-library/react';
 import * as React from 'react';
 import { renderWithProviders } from '../../../../test/render-with-providers';
-import ContributionPage, {
-  ContributionPageProps,
-  ContributionPillProps,
-} from './contribution';
+import ContributionPage, { ContributionPageProps, ContributionPillProps } from './contribution';
 import { ReportModalProps } from './report/report';
 import RecordingPill from './speak/recording-pill';
 
@@ -70,7 +67,8 @@ const defaultContributionPageProps = {
       clip={clip}
       onTogglePlay={jest.fn()}
       status="pending"
-      onRerecord={jest.fn()}>
+      onRerecord={jest.fn()}
+    >
       {rerecordIndex === i && (
         <Localized id="record-cancel">
           <button onClick={jest.fn()} className="text" />
@@ -89,12 +87,8 @@ const defaultContributionPageProps = {
   type: 'speak' as ContributionPageProps['type'],
 };
 
-const renderContributionPage = (
-  overrideProps?: Partial<ContributionPageProps>
-) =>
-  renderWithProviders(
-    <ContributionPage {...defaultContributionPageProps} {...overrideProps} />
-  );
+const renderContributionPage = (overrideProps?: Partial<ContributionPageProps>) =>
+  renderWithProviders(<ContributionPage {...defaultContributionPageProps} {...overrideProps} />);
 
 describe('Contribution - Speak', () => {
   it('renders Contribution page', () => {

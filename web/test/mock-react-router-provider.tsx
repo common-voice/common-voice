@@ -3,11 +3,7 @@ import { Router } from 'react-router';
 import { createBrowserHistory } from 'history';
 const history = createBrowserHistory();
 
-const MockReactRouterProvider = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+const MockReactRouterProvider = ({ children }: { children: React.ReactNode }) => {
   return <Router history={history}>{children}</Router>;
 };
 

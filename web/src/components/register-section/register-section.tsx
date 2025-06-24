@@ -24,13 +24,7 @@ export default function RegisterSection({
   const info = (
     <div className="signup-info">
       <div className="tabs">
-        {marsSrc && (
-          <img
-            className="waves"
-            src={require('./images/waves.png')}
-            alt="Waves"
-          />
-        )}
+        {marsSrc && <img className="waves" src={require('./images/waves.png')} alt="Waves" />}
         {['benefits', 'whats-public'].map(l => (
           <label key={l}>
             <input
@@ -58,13 +52,9 @@ export default function RegisterSection({
               className={i == index ? 'active' : ''}
               onClick={() => {
                 setIndex(i);
-                trackHome(
-                  isBenefits
-                    ? 'click-benefits-item'
-                    : 'click-whats-public-item',
-                  locale
-                );
-              }}>
+                trackHome(isBenefits ? 'click-benefits-item' : 'click-whats-public-item', locale);
+              }}
+            >
               <span>{i + 1}.</span>
               <Localized id={l}>
                 <span />

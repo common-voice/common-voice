@@ -1,10 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import classNames from 'classnames';
 
 import { useAPI } from '../../../hooks/store-hooks';
@@ -105,9 +101,7 @@ const DatasetDownloadEmailPrompt = ({
     }));
   };
 
-  const handleInputChange = async (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleInputChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, type, value, checked } = event.target;
 
     setFormState(prevState => ({
@@ -159,10 +153,7 @@ const DatasetDownloadEmailPrompt = ({
             </Localized>
             <LabeledCheckbox
               label={
-                <Localized
-                  id="confirm-size"
-                  elems={{ b: <strong /> }}
-                  vars={{ size }}>
+                <Localized id="confirm-size" elems={{ b: <strong /> }} vars={{ size }}>
                   <span />
                 </Localized>
               }
@@ -199,12 +190,9 @@ const DatasetDownloadEmailPrompt = ({
                 onClick={saveHasDownloaded}
                 rounded
                 blank
-                className="download-language">
-                <Localized
-                  id={
-                    canDownloadFile ? 'data-bundle-button' : 'email-to-download'
-                  }
-                />
+                className="download-language"
+              >
+                <Localized id={canDownloadFile ? 'data-bundle-button' : 'email-to-download'} />
                 <CloudIcon />
               </LinkButton>
               <Localized id="why-email" elems={{ b: <strong /> }}>
@@ -216,7 +204,8 @@ const DatasetDownloadEmailPrompt = ({
                   onClick={() => copy(checksum)}
                   onKeyDown={() => copy(checksum)}
                   role="button"
-                  tabIndex={0}>
+                  tabIndex={0}
+                >
                   <strong>sha256 checksum</strong>: <p>{checksum}</p>
                 </div>
               )}

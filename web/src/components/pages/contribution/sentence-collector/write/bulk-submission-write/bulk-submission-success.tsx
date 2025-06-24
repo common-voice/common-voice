@@ -1,24 +1,22 @@
-import * as React from 'react'
-import { Localized } from '@fluent/react'
-import { useDispatch } from 'react-redux'
+import * as React from 'react';
+import { Localized } from '@fluent/react';
+import { useDispatch } from 'react-redux';
 
-import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
-import { EditIcon } from '../../../../../ui/icons'
-import { LocaleNavLink } from '../../../../../locale-helpers'
-import URLS from '../../../../../../urls'
-import { Sentences } from '../../../../../../stores/sentences'
+import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons';
+import { EditIcon } from '../../../../../ui/icons';
+import { LocaleNavLink } from '../../../../../locale-helpers';
+import URLS from '../../../../../../urls';
+import { Sentences } from '../../../../../../stores/sentences';
 
 const BulkSubmissionSuccess = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const handleUploadMoreBtnClick = () => {
-    dispatch(Sentences.actions.setBulkUploadStatus('off'))
-  }
+    dispatch(Sentences.actions.setBulkUploadStatus('off'));
+  };
 
   return (
-    <div
-      className="bulk-submission-success"
-      data-testid="bulk-submission-success">
+    <div className="bulk-submission-success" data-testid="bulk-submission-success">
       <img
         src={require('../../../../../../../img/happy-mars@2x.png')}
         alt="Happy Mars"
@@ -33,9 +31,7 @@ const BulkSubmissionSuccess = () => {
         <h3 className="subheader-text" />
       </Localized>
 
-      <PrimaryButton
-        className="upload-more-btn"
-        onClick={handleUploadMoreBtnClick}>
+      <PrimaryButton className="upload-more-btn" onClick={handleUploadMoreBtnClick}>
         <EditIcon />
         <Localized id="upload-more-btn-text">
           <span />
@@ -46,7 +42,7 @@ const BulkSubmissionSuccess = () => {
         <Localized id="edit-profile" />
       </LocaleNavLink>
     </div>
-  )
-}
+  );
+};
 
-export default BulkSubmissionSuccess
+export default BulkSubmissionSuccess;

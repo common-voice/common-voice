@@ -1,3 +1,3 @@
-import SentencesRouter from './routes'; 
+import SentencesRouter from './routes';
 
 export default SentencesRouter;

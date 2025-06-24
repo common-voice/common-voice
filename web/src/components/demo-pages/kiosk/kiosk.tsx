@@ -1,13 +1,7 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
 
-import {
-  MicIcon,
-  PlayOutlineGreenIcon,
-  CloseIcon,
-  CloudIcon,
-  UserIcon,
-} from '../../ui/icons';
+import { MicIcon, PlayOutlineGreenIcon, CloseIcon, CloudIcon, UserIcon } from '../../ui/icons';
 import { Link } from 'react-router-dom';
 import { useLocale } from '../../locale-helpers';
 import urls from '../../../urls';
@@ -27,9 +21,7 @@ const BottomRightPane = () => {
       {expanded ? (
         <ul id="kiosk-bottom-right-pane__expanded">
           <li id="top" className="kiosk-bottom-right-pane__expanded--options">
-            <Link
-              id="kiosk-bottom-right-pane__expanded--speak"
-              to={toLocaleRoute(urls.DEMO_SPEAK)}>
+            <Link id="kiosk-bottom-right-pane__expanded--speak" to={toLocaleRoute(urls.DEMO_SPEAK)}>
               <MicIcon />
               <Localized id="speak">
                 <span />
@@ -37,7 +29,8 @@ const BottomRightPane = () => {
             </Link>
             <Link
               id="kiosk-bottom-right-pane__expanded--listen"
-              to={toLocaleRoute(urls.DEMO_LISTEN)}>
+              to={toLocaleRoute(urls.DEMO_LISTEN)}
+            >
               <PlayOutlineGreenIcon />
               <Localized id="listen">
                 <span />
@@ -70,17 +63,14 @@ const BottomRightPane = () => {
               </Link>
             </li>
           </ul>
-          <li
-            id="bottom"
-            className="kiosk-bottom-right-pane__expanded--options">
-            <Link
-              to={toLocaleRoute(urls.DEMO)}
-              id="kiosk-bottom-right-pane__expanded--home">
+          <li id="bottom" className="kiosk-bottom-right-pane__expanded--options">
+            <Link to={toLocaleRoute(urls.DEMO)} id="kiosk-bottom-right-pane__expanded--home">
               <img src={home} alt="home" />
             </Link>
             <button
               id="kiosk-bottom-right-pane__expanded--close"
-              onClick={() => setExpanded(false)}>
+              onClick={() => setExpanded(false)}
+            >
               <CloseIcon id="close-icon" black />
             </button>
           </li>

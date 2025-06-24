@@ -1,22 +1,18 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react'
-import * as React from 'react'
-import { useState } from 'react'
-import { useAPI } from '../../../../hooks/store-hooks'
-import Modal, { ModalProps } from '../../../modal/modal'
-import { ArrowLeft } from '../../../ui/icons'
-import { Button, Checkbox } from '../../../ui/ui'
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
+import * as React from 'react';
+import { useState } from 'react';
+import { useAPI } from '../../../../hooks/store-hooks';
+import Modal, { ModalProps } from '../../../modal/modal';
+import { ArrowLeft } from '../../../ui/icons';
+import { Button, Checkbox } from '../../../ui/ui';
 
-import './report.css'
+import './report.css';
 
 export interface ReportModalProps extends ModalProps, WithLocalizationProps {
-  kind: 'clip' | 'sentence'
-  id: string
-  reasons: string[]
-  onSubmitted: () => any
+  kind: 'clip' | 'sentence';
+  id: string;
+  reasons: string[];
+  onSubmitted: () => any;
 }
 
 const CheckboxRow = ({ children, title, ...props }: any) => (
@@ -29,19 +25,17 @@ const CheckboxRow = ({ children, title, ...props }: any) => (
     </label>
     <div className="detail">{children}</div>
   </div>
-)
+);
 
 export const ReportModal = withLocalization(
   ({ kind, id, reasons, onSubmitted, ...props }: ReportModalProps) => {
-    const { getString } = props
-    const api = useAPI()
+    const { getString } = props;
+    const api = useAPI();
     const [selectedReasons, setSelectedReasons] = useState<{
-      [key: string]: boolean
-    }>({})
-    const [otherText, setOtherText] = useState<string>(null)
-    const [submitStatus, setSubmitStatus] = useState<
-      null | 'submitting' | 'submitted'
-    >(null)
+      [key: string]: boolean;
+    }>({});
+    const [otherText, setOtherText] = useState<string>(null);
+    const [submitStatus, setSubmitStatus] = useState<null | 'submitting' | 'submitted'>(null);
 
     if (submitStatus == 'submitted') {
       return (
@@ -61,7 +55,7 @@ export const ReportModal = withLocalization(
             <Button outline rounded onClick={props.onRequestClose} />
           </Localized>
         </Modal>
-      )
+      );
     }
 
     return (
@@ -85,7 +79,8 @@ export const ReportModal = withLocalization(
                   ...selectedReasons,
                   [reason]: e.target.checked,
                 })
-              }>
+              }
+            >
               <Localized id={['report', reason, 'detail'].join('-')}>
                 <p />
               </Localized>
@@ -94,11 +89,10 @@ export const ReportModal = withLocalization(
           <CheckboxRow
             title="other"
             onChange={(e: any) => setOtherText(e.target.checked ? '' : null)}
-            value={otherText != null}>
+            value={otherText != null}
+          >
             {otherText != null && (
-              <Localized
-                id="report-other-comment"
-                attrs={{ placeholder: true }}>
+              <Localized id="report-other-comment" attrs={{ placeholder: true }}>
                 <textarea
                   value={otherText}
                   onChange={(e: any) => setOtherText(e.target.value)}
@@ -123,24 +117,26 @@ export const ReportModal = withLocalization(
                 .filter(([key, value]) => value)
                 .map(([key]) => key)
                 .concat(otherText || []),
-            })
-            setSubmitStatus('submitted')
-            onSubmitted()
-          }}>
+            });
+            setSubmitStatus('submitted');
+            onSubmitted();
+          }}
+        >
           <Localized id="report">
             <span />
           </Localized>
         </Button>
       </Modal>
-    )
+    );
   }
-)
+);
 
 export const ReportButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <Button
     rounded
     className="open-report-button bg-white text-black speak-button-control"
-    {...props}>
+    {...props}
+  >
     <img
       src={require('./../img/flag-report.svg')}
       alt="flag-report"
@@ -152,4 +148,4 @@ export const ReportButton = (props: React.HTMLProps<HTMLButtonElement>) => (
       <span />
     </Localized>
   </Button>
-)
+);

@@ -6,13 +6,7 @@ import { Localized } from '@fluent/react';
 import { useToLocaleRoute } from '../../../locale-helpers';
 import { useAPI } from '../../../../hooks/store-hooks';
 import URLS from '../../../../urls';
-import {
-  LabeledCheckbox,
-  LabeledInput,
-  LabeledTextArea,
-  StyledLink,
-  Button,
-} from '../../../ui/ui';
+import { LabeledCheckbox, LabeledInput, LabeledTextArea, StyledLink, Button } from '../../../ui/ui';
 import PageHeading from '../../../ui/page-heading';
 import ErrorPage from '../../error-page/error-page';
 import PageTextContent from '../../../ui/page-text-content';
@@ -35,21 +29,15 @@ const LanguagesRequestFormPage = () => {
   const [languageInfoValue, setLanguageInfoValue] = useState('');
   const [privacyAgreedChecked, setPrivacyAgreedChecked] = useState(false);
 
-  const handleEmailInputChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleEmailInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setEmailValue(event.target.value);
   };
 
-  const handleLanguageInfoTextAreaChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleLanguageInfoTextAreaChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setLanguageInfoValue(event.target.value);
   };
 
-  const handlePrivacyAgreedChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handlePrivacyAgreedChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPrivacyAgreedChecked(event.target.checked);
   };
 
@@ -101,7 +89,8 @@ const LanguagesRequestFormPage = () => {
           elems={{
             emailLink: <StyledLink href={`mailto:${COMMON_VOICE_EMAIL}`} />,
           }}
-          vars={{ email: COMMON_VOICE_EMAIL }}>
+          vars={{ email: COMMON_VOICE_EMAIL }}
+        >
           <p />
         </Localized>
       </ErrorPage>
@@ -122,20 +111,17 @@ const LanguagesRequestFormPage = () => {
               elems={{
                 languagesPageLink: <StyledLink to={URLS.LANGUAGES} />,
                 strong: <strong />,
-              }}>
+              }}
+            >
               <p />
             </Localized>
 
-            <Localized
-              id="request-language-explanation-2"
-              elems={{ strong: <strong /> }}>
+            <Localized id="request-language-explanation-2" elems={{ strong: <strong /> }}>
               <p />
             </Localized>
           </PageTextContent>
 
-          <form
-            className="languages-request-page__content__form"
-            onSubmit={handleSubmit}>
+          <form className="languages-request-page__content__form" onSubmit={handleSubmit}>
             <p className="languages-request-page__content__form__required">
               <Localized id="indicates-required" />
             </p>
@@ -164,7 +150,8 @@ const LanguagesRequestFormPage = () => {
                     isoCodeLink: (
                       <StyledLink href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" />
                     ),
-                  }}>
+                  }}
+                >
                   <li />
                 </Localized>
                 <li>
@@ -186,7 +173,8 @@ const LanguagesRequestFormPage = () => {
               label={
                 <Localized
                   id="accept-privacy"
-                  elems={{ privacyLink: <StyledLink to={URLS.PRIVACY} /> }}>
+                  elems={{ privacyLink: <StyledLink to={URLS.PRIVACY} /> }}
+                >
                   <span />
                 </Localized>
               }

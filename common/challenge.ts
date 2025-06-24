@@ -99,6 +99,4 @@ export const challengeTeams: { [key in ChallengeTeamToken]: ChallengeTeam } = {
 
 // For run-time checking.
 export const challengeTokens: ChallengeToken[] = ['pilot'];
-export const challengeTeamTokens = Object.values(challengeTeams).map(
-  team => team.token
-);
+export const challengeTeamTokens = Object.values(challengeTeams).map(team => team.token);

@@ -16,10 +16,7 @@ export const Unsure: React.FC<SidebarContentProps> = ({
     <span className="line" />
     <div className="sidebar-content-header">
       <Localized id="just-unsure">
-        <TextButton
-          onClick={toggleVisibleSection}
-          className="guidelines-content-heading"
-        />
+        <TextButton onClick={toggleVisibleSection} className="guidelines-content-heading" />
       </Localized>
       <ChevronDown
         onClick={toggleVisibleSection}

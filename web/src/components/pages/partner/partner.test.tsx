@@ -13,9 +13,7 @@ describe('Partner component', () => {
     const partnershipsHeading = screen.getByText('Partnerships');
     expect(partnershipsHeading).toBeDefined();
 
-    const becomeACommonVoicePartnerHeading = screen.getByText(
-      'Become a Common Voice Partner'
-    );
+    const becomeACommonVoicePartnerHeading = screen.getByText('Become a Common Voice Partner');
     expect(becomeACommonVoicePartnerHeading).toBeDefined();
   });
 });

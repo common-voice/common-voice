@@ -8,11 +8,7 @@ import './why-common-voice.css';
 const WhyCommonVoice: React.ComponentType<{}> = () => {
   return (
     <>
-      <img
-        className="wave-top"
-        src={require('./images/wave-top.png')}
-        alt="Wave"
-      />
+      <img className="wave-top" src={require('./images/wave-top.png')} alt="Wave" />
 
       <div className="about-container about-heading">
         <div className="about-header">
@@ -27,11 +23,7 @@ const WhyCommonVoice: React.ComponentType<{}> = () => {
           </div>
 
           <div className="intro-img">
-            <img
-              className="robot"
-              src={require('./images/robot.png')}
-              alt="robot"
-            />
+            <img className="robot" src={require('./images/robot.png')} alt="robot" />
           </div>
         </div>
       </div>

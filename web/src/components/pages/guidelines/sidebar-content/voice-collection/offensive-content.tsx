@@ -17,10 +17,7 @@ export const OffensiveContent: React.FC<SidebarContentProps> = ({
       <span className="line" />
       <div className="sidebar-content-header">
         <Localized id="offensive-content">
-          <TextButton
-            onClick={toggleVisibleSection}
-            className="guidelines-content-heading"
-          />
+          <TextButton onClick={toggleVisibleSection} className="guidelines-content-heading" />
         </Localized>
         <ChevronDown
           onClick={toggleVisibleSection}
@@ -40,13 +37,10 @@ export const OffensiveContent: React.FC<SidebarContentProps> = ({
                 />
               ),
               emailFragment: (
-                <a
-                  href="mailto:commonvoice@mozilla.com"
-                  target="_blank"
-                  rel="noreferrer"
-                />
+                <a href="mailto:commonvoice@mozilla.com" target="_blank" rel="noreferrer" />
               ),
-            }}>
+            }}
+          >
             <p className="guidelines-content-explanation" />
           </Localized>
         </div>

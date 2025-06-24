@@ -37,9 +37,7 @@ const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
           {!isSubscribedToMailingList && (
             <p>
               <RoundButton>
-                <Link
-                  to={`#${SECTIONS.SUBSCRIBE}`}
-                  data-testid="email-signup-button">
+                <Link to={`#${SECTIONS.SUBSCRIBE}`} data-testid="email-signup-button">
                   <VisuallyHidden>
                     <Localized id="about-stay-in-touch-button" />
                   </VisuallyHidden>
@@ -50,7 +48,8 @@ const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
                 id="about-stay-in-touch-text-1"
                 elems={{
                   emailFragment: <a href={`#${SECTIONS.SUBSCRIBE}`} />,
-                }}>
+                }}
+              >
                 <span />
               </Localized>
             </p>
@@ -68,7 +67,8 @@ const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
               elems={{
                 discourseLink: <DiscourseLink />,
                 matrixLink: <MatrixLink />,
-              }}>
+              }}
+            >
               <span />
             </Localized>
           </p>

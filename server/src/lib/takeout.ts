@@ -31,8 +31,7 @@ export type TaskQueues = {
 
 export function createTaskQueues(takeout: Takeout): TaskQueues {
   const redisUrlParts = getConfig().REDIS_URL?.split('//');
-  const redisDomain =
-    redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0];
+  const redisDomain = redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0];
 
   let redisOpts: any = { host: redisDomain };
   if (getConfig().REDIS_URL.includes('rediss://')) {
@@ -58,16 +57,10 @@ export function createTaskQueues(takeout: Takeout): TaskQueues {
   });
   dataTakeout.on('error', console.error);
   dataTakeout.on('failed', console.error);
-  dataTakeout.process(
-    kTakeoutConcurrency,
-    async job => await takeout.takeoutWorker(job)
-  );
+  dataTakeout.process(kTakeoutConcurrency, async job => await takeout.takeoutWorker(job));
 
   const dataTakeoutCleanup = createQueue<{}>('data-takeout-cleanup');
-  dataTakeoutCleanup.process(
-    1,
-    async job => await takeout.takeoutCleanupWorker(job)
-  );
+  dataTakeoutCleanup.process(1, async job => await takeout.takeoutCleanupWorker(job));
   // Do cleanup every hour at :15. No concurrency allowed.
   dataTakeoutCleanup.add({}, { repeat: { cron: '0 15 * * * *' } });
 
@@ -106,28 +99,26 @@ export default class Takeout {
     return takeout_id;
   }
 
-  async generateDownloadLinks(
-    client_id: string,
-    takeout_id: number
-  ): Promise<TakeoutResponse> {
+  async generateDownloadLinks(client_id: string, takeout_id: number): Promise<TakeoutResponse> {
     const takeout = await this.getTakeout(takeout_id);
     if (takeout === null) throw 'no such takeout';
     if (takeout.client_id !== client_id) throw 'no such takeout';
-    if (takeout.state !== TakeoutState.AVAILABLE)
-      throw 'takeout is unavailable';
+    if (takeout.state !== TakeoutState.AVAILABLE) throw 'takeout is unavailable';
 
     const keys = [...Array(takeout.archive_count).keys()].map(offset =>
       this.bucket.takeoutKey(takeout, offset)
     );
 
-    const urls = await Promise.all(keys.map(key => this.bucket.getPublicUrl(key)))
+    const urls = await Promise.all(keys.map(key => this.bucket.getPublicUrl(key)));
 
     const links = {
       parts: urls.map(url => decodeURIComponent(url)),
-      metadata: decodeURIComponent(await this.bucket.getPublicUrl(this.bucket.metadataKey(takeout))),
+      metadata: decodeURIComponent(
+        await this.bucket.getPublicUrl(this.bucket.metadataKey(takeout))
+      ),
     };
 
-    console.log(links)
+    console.log(links);
 
     return links;
   }
@@ -155,9 +146,7 @@ export default class Takeout {
     // As best as I can tell, sometime multiple pods try to initiate the same queue job
     // but throwing an error here will kill that entire job intead of just that pod's attempt
     if (takeout.state !== TakeoutState.PENDING) {
-      console.log(
-        `takeout ${job.data.takeout_id} already in progress, do nothing`
-      );
+      console.log(`takeout ${job.data.takeout_id} already in progress, do nothing`);
       return;
     }
 
@@ -171,27 +160,17 @@ export default class Takeout {
     // the server. So do the expensive work on each chunk sequentially.
     // const replies = await Promise.all(chunkedKeys
     //   .map((keys, offset) => bucket.zipTakeoutFilesToS3(takeout, offset, keys)));
-    const fileSizes: {size: number}[] = [];
+    const fileSizes: { size: number }[] = [];
 
     chunkedClips.forEach(async (chunk: string[], index: number) => {
-      fileSizes.push(
-        await this.bucket.zipTakeoutFilesToS3(takeout, index, chunk)
-      );
+      fileSizes.push(await this.bucket.zipTakeoutFilesToS3(takeout, index, chunk));
       await job.progress(Math.ceil((100 * index) / chunkedClips.length));
     });
 
     fileSizes.push(await this.bucket.uploadClipMetadata(takeout, clips));
-    const totalSize = fileSizes.reduce(
-      (acc, curr) => (acc += curr.size),
-      0
-    );
+    const totalSize = fileSizes.reduce((acc, curr) => (acc += curr.size), 0);
 
-    await this.finalizeTakeout(
-      takeout_id,
-      clips.length,
-      totalSize,
-      chunkedClips.length
-    );
+    await this.finalizeTakeout(takeout_id, clips.length, totalSize, chunkedClips.length);
     // TODO: send email.
   }
 
@@ -200,15 +179,12 @@ export default class Takeout {
 
     // Delete expired (or close to expiration) takeouts.
     const expired_deleted = await this.deleteCloseToExpirationTakeouts();
-    if (expired_deleted)
-      console.log(`deleted ${expired_deleted} expired takeouts`);
+    if (expired_deleted) console.log(`deleted ${expired_deleted} expired takeouts`);
 
     // Delete takeouts that take way too long.
     const stuck_deleted = await this.deleteStuckTakeouts();
     if (stuck_deleted)
-      console.log(
-        `deleted ${stuck_deleted} stuck takeouts; you might want to investigate`
-      );
+      console.log(`deleted ${stuck_deleted} stuck takeouts; you might want to investigate`);
   }
 
   async getClientTakeouts(client_id: string): Promise<TakeoutRequest[]> {
@@ -301,8 +277,7 @@ export default class Takeout {
   }
 
   private async insertNewTakeout(client_id: string): Promise<number> {
-    if (!(await this.clientCanRequestTakeout(client_id)))
-      throw new Error('pending takeout');
+    if (!(await this.clientCanRequestTakeout(client_id))) throw new Error('pending takeout');
     const [q] = await this.db.query(
       `
       INSERT INTO user_client_takeouts (client_id, state, requested_date)

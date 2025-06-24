@@ -46,9 +46,7 @@ const InputLanguageAccents = ({
         return (
           <span key={`accent-${index}`} className="selected-accent">
             {accent.name}
-            <button
-              className="selected-accent--button"
-              onClick={() => removeAccent(locale, index)}>
+            <button className="selected-accent--button" onClick={() => removeAccent(locale, index)}>
               <VisuallyHidden>Remove {accent.name} accent</VisuallyHidden>
               <CloseIcon black />
             </button>

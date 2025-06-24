@@ -9,12 +9,7 @@ import ChallengeOffline from './challenge-offline';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
 import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
-import {
-  User,
-  VISIBLE_FOR_NONE,
-  VISIBLE_FOR_ALL,
-  VISIBLE_FOR_TEAM,
-} from '../../../../stores/user';
+import { User, VISIBLE_FOR_NONE, VISIBLE_FOR_ALL, VISIBLE_FOR_TEAM } from '../../../../stores/user';
 import { CrossIcon, InfoIcon } from '../../../ui/icons';
 import { LabeledCheckbox } from '../../../ui/ui';
 import { Notifications } from '../../../../stores/notifications';
@@ -83,15 +78,14 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
         </div>
       )}
       <p className="explainer">
-        This setting controls your leaderboard visibility. When hidden, your
-        progress will be private. This means your image, user name and progress
-        will not appear on the leaderboard.
+        This setting controls your leaderboard visibility. When hidden, your progress will be
+        private. This means your image, user name and progress will not appear on the leaderboard.
       </p>
       <div className="info">
         <InfoIcon />
         <p className="note">
-          Note: When set to &lsquo;Visible&rsquo;, this setting can be changed
-          from the <LocaleLink to={URLS.PROFILE_INFO}>Profile page</LocaleLink>
+          Note: When set to &lsquo;Visible&rsquo;, this setting can be changed from the{' '}
+          <LocaleLink to={URLS.PROFILE_INFO}>Profile page</LocaleLink>
         </p>
       </div>
     </div>
@@ -124,10 +118,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
           onRequestClose={() => {
             setShowOnboardingModal(false);
             if (props.location.state?.earlyEnroll) {
-              addAchievement(
-                50,
-                'Bonus! You signed up in time for some extra points.'
-              );
+              addAchievement(50, 'Bonus! You signed up in time for some extra points.');
             }
           }}
         />
@@ -138,9 +129,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
           {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
           <div className="leader-board">
             <LeaderBoardCard
-              title={`${
-                challengeTeams[account.enrollment.team].readableName
-              } Team Progress`}
+              title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
               showVisibleIcon
               showOverlay={() => setShowOverlay(true)}
               service="team-progress"

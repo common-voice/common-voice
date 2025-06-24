@@ -1,4 +1,3 @@
 export type GetDatasetStatisticsQuery = {
-    locale: string
-}
-
+  locale: string;
+};

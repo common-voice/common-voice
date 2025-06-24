@@ -42,9 +42,7 @@ class Hero extends React.Component<
 
     const { api, type } = this.props;
     this.setState({
-      count: await (type === 'speak'
-        ? api.fetchDailyClipsCount()
-        : api.fetchDailyVotesCount()),
+      count: await (type === 'speak' ? api.fetchDailyClipsCount() : api.fetchDailyVotesCount()),
     });
   }
 
@@ -62,12 +60,10 @@ class Hero extends React.Component<
 
   measure() {
     this.setState({
-      dimensions: this.toggleableRefs.map(
-        ({ current: { offsetWidth, offsetHeight } }: any) => ({
-          width: offsetWidth,
-          height: offsetHeight,
-        })
-      ),
+      dimensions: this.toggleableRefs.map(({ current: { offsetWidth, offsetHeight } }: any) => ({
+        width: offsetWidth,
+        height: offsetHeight,
+      })),
       showToMeasure: false,
     });
   }
@@ -78,11 +74,7 @@ class Hero extends React.Component<
     return {
       ref: this.toggleableRefs[i],
       className: 'toggleable ' + className,
-      style: showToMeasure
-        ? {}
-        : status === 'active'
-        ? dimensions[i]
-        : { width: 0, height: 0 },
+      style: showToMeasure ? {} : status === 'active' ? dimensions[i] : { width: 0, height: 0 },
     };
   }
 
@@ -96,7 +88,8 @@ class Hero extends React.Component<
         className={['hero-box', type, status].join(' ')}
         onClick={onShow}
         onMouseEnter={onShow}
-        onMouseLeave={onHide}>
+        onMouseLeave={onHide}
+      >
         <div className="column title">
           <Localized id={type}>
             <h1 />
@@ -116,15 +109,13 @@ class Hero extends React.Component<
           </div>
         </div>
         <div className="column cta">
-          <PrimaryLink
-            trackClass={`${type}-from-home`}
-            onClick={() => trackHome(type, locale)}
-          />
+          <PrimaryLink trackClass={`${type}-from-home`} onClick={() => trackHome(type, locale)} />
           <div {...this.getToggleableProps(1, 'line ' + type)} />
           <div {...this.getToggleableProps(2)}>
             <Localized
               id="help-reach-goal"
-              vars={{ goal: type === 'speak' ? 'أسمعنا صوتك' : 'استمع واستمتع' }}>
+              vars={{ goal: type === 'speak' ? 'أسمعنا صوتك' : 'استمع واستمتع' }}
+            >
               <div className="cta-message" />
             </Localized>
           </div>

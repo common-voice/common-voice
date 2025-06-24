@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const faqList = [
   {
@@ -18,8 +18,7 @@ const faqList = [
       ' نعم! نحتاج صوتك، هدف الجدارية الصوتية هو جمع ما أمكن من البيانات الصوتية باللغة العربية، حتى لو كان المتحدث غير ناطق أصلي بها؛ فإن هذا يفيد في تطوير تطبيقات خاصة بغير الناطقين الأصليين.',
   },
   {
-    question:
-      'ما المستوى المطلوب لجودة الصوت أثناء التسجيل؟',
+    question: 'ما المستوى المطلوب لجودة الصوت أثناء التسجيل؟',
     answer:
       'جودة الصوت مهمة، لكننا نُدرك أهمية اختلاف جودة المقاطع؛ لأن ذلك سيعلّم الآلة الحالات المختلفة التي يكون عليها الصوت في الحياة اليومية.',
   },
@@ -31,42 +30,39 @@ const faqList = [
   },
   {
     question: 'كيف تحمون خصوصية من أسهموا بأصواتهم؟ ',
-    answer:
-      'تخضع الجدارية الصوتية لسياسة الخصوصية والاستخدام لمنصة فلك. ',
+    answer: 'تخضع الجدارية الصوتية لسياسة الخصوصية والاستخدام لمنصة فلك. ',
   },
   {
     question: 'ماذا بعد تسجيل صوتي؟ ',
-    answer: 'ستُنشر المقاطع التي سجلتَها ليقيّمها مستخدمون آخرون، ويمكن للباحثين طلب هذه البيانات لأغراض تطوير خوارزميات التعرف على الكلام وتوليده. ',
+    answer:
+      'ستُنشر المقاطع التي سجلتَها ليقيّمها مستخدمون آخرون، ويمكن للباحثين طلب هذه البيانات لأغراض تطوير خوارزميات التعرف على الكلام وتوليده. ',
   },
   {
     question: 'كيف أقيّم المقاطع الصوتية للآخرين؟',
     answer:
       ' إذا كانت المشاركة قراءة جملة، يُقبل المقطع المسجّل إذا كان مطابقًا للمكتوب في النص وكان النطق صحيحًا من خلال (نعم)، خلاف ذلك يُرفض المقطع من خلال (لا).<br/> إذا كانت المشاركة إجابة عن سؤال، يُقبل المقطع المسجّل إذا كانت الإجابة واضحة ومتعلقة بالسؤال من خلال (نعم)، خلاف ذلك يُرفض المقطع من خلال (لا).<br/> علمًا بأن تشوش الصوت لا يمنع من قبول المقطع الصوتي؛ لأننا نحتاج هذا التنوع الطبيعي في المقاطع.',
   },
-{
+  {
     question: 'هل يمكن الحصول على البيانات الصوتية؟ ',
     answer:
       'نعم، يمكن للباحثين الحصول على البيانات بشرط الإسهام في الجدارية بما لا يقل عن ساعة صوتية كاملة. لمزيد من المعلومات تواصل معنا على البريد الإلكتروني:  <br/>arai@ksaa.gov.sa',
-}
-
-]
+  },
+];
 
 export default function FAQList() {
-
   return (
     <>
-      <div className="bg-[#F5F7FA] px-8 md:px-20 py-20" id='faq-list'>
-        <h1 className="text-right text-[40px] font-bold mb-8">
-          الأسئلة الشائعة
-        </h1>
+      <div className="bg-[#F5F7FA] px-8 md:px-20 py-20" id="faq-list">
+        <h1 className="text-right text-[40px] font-bold mb-8">الأسئلة الشائعة</h1>
 
         {/* FAQ Container with scroll and overflow handling */}
-        <div className="space-y-4 overflow-y-auto" >
+        <div className="space-y-4 overflow-y-auto">
           {faqList.map((item, index) => (
             <div
               key={index}
               className="collapse collapse-plus bg-white"
-              style={{ border: '0.5px solid #AEAEAECC', borderRadius: '15px' }}>
+              style={{ border: '0.5px solid #AEAEAECC', borderRadius: '15px' }}
+            >
               <input type="radio" name="faq-accordion" id={`faq-${index}`} />
               <div className="collapse-title text-right text-md text-md pr-4 h-[30px]">
                 {item.question}
@@ -77,8 +73,7 @@ export default function FAQList() {
             </div>
           ))}
         </div>
-
       </div>
     </>
-  )
+  );
 }

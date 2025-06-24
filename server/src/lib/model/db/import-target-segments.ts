@@ -11,11 +11,7 @@ export async function importTargetSegments() {
       AND term_sentence_source IS NOT NULL`);
 
   const taxonomyQueries = rows.map(
-    async (taxonomy: {
-      id: number;
-      term_name: string;
-      term_sentence_source: string;
-    }) => {
+    async (taxonomy: { id: number; term_name: string; term_sentence_source: string }) => {
       console.log(
         `Importing sentences for taxonomy ${taxonomy.term_name} from source ${taxonomy.term_sentence_source}...`
       );

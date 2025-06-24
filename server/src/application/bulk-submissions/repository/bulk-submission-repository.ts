@@ -1,24 +1,24 @@
-import { taskEither as TE } from 'fp-ts'
-import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
-import { clientId } from '../../../core/types/clientId'
+import { taskEither as TE } from 'fp-ts';
+import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql';
+import { clientId } from '../../../core/types/clientId';
 
-const db = getMySQLInstance()
+const db = getMySQLInstance();
 
 export type BulkSubmission = {
-  localeId: number
-  size: number
-  path: string
-  name: string
-  submitter: clientId
-  importStatus: BulkSubmissionImportStatus,
-  corpus_id: string
-}
+  localeId: number;
+  size: number;
+  path: string;
+  name: string;
+  submitter: clientId;
+  importStatus: BulkSubmissionImportStatus;
+  corpus_id: string;
+};
 
-export const BulkSubmissionImportStatusCreated = 'created'
-export const BulkSubmissionImportStatusRunning = 'running'
-export const BulkSubmissionImportStatusSuccess = 'success'
-export const BulkSubmissionImportStatusWarning = 'warning'
-export const BulkSubmissionImportStatusFailed = 'failed'
+export const BulkSubmissionImportStatusCreated = 'created';
+export const BulkSubmissionImportStatusRunning = 'running';
+export const BulkSubmissionImportStatusSuccess = 'success';
+export const BulkSubmissionImportStatusWarning = 'warning';
+export const BulkSubmissionImportStatusFailed = 'failed';
 
 const BulkSubmissionImportStatusValue = [
   BulkSubmissionImportStatusCreated,
@@ -26,44 +26,44 @@ const BulkSubmissionImportStatusValue = [
   BulkSubmissionImportStatusSuccess,
   BulkSubmissionImportStatusWarning,
   BulkSubmissionImportStatusFailed,
-] as const
+] as const;
 
-export type BulkSubmissionImportStatus =
-  typeof BulkSubmissionImportStatusValue[number]
+export type BulkSubmissionImportStatus = typeof BulkSubmissionImportStatusValue[number];
 
 type BulkSubmissionStatusId = {
-  id: number
-}
+  id: number;
+};
 
 const createInsertQuery = () =>
   `
     INSERT INTO bulk_submissions (status, locale_id, size, path, name, submitter, import_status, corpus_id) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     ON DUPLICATE KEY UPDATE updated_at = NOW()
-  `
-const insertBulkSubmission =
-  (db: Mysql) => (bulkSubmission: BulkSubmission) => {
-    return TE.tryCatch(
-      async () => {
-        const [[statusNew]] = await db.query('SELECT id from bulk_submission_status WHERE status = \'new\'')
-        await db.query(createInsertQuery(), [
-          statusNew.id,
-          bulkSubmission.localeId,
-          bulkSubmission.size,
-          bulkSubmission.path,
-          bulkSubmission.name,
-          bulkSubmission.submitter,
-          bulkSubmission.importStatus,
-          bulkSubmission.corpus_id,
-        ])
+  `;
+const insertBulkSubmission = (db: Mysql) => (bulkSubmission: BulkSubmission) => {
+  return TE.tryCatch(
+    async () => {
+      const [[statusNew]] = await db.query(
+        "SELECT id from bulk_submission_status WHERE status = 'new'"
+      );
+      await db.query(createInsertQuery(), [
+        statusNew.id,
+        bulkSubmission.localeId,
+        bulkSubmission.size,
+        bulkSubmission.path,
+        bulkSubmission.name,
+        bulkSubmission.submitter,
+        bulkSubmission.importStatus,
+        bulkSubmission.corpus_id,
+      ]);
 
-        return true
-      },
-      (err: unknown) => {
-        console.log(err)
-        return Error(String(err))
-      }
-    )
-  }
+      return true;
+    },
+    (err: unknown) => {
+      console.log(err);
+      return Error(String(err));
+    }
+  );
+};
 
-export const insertBulkSubmissionIntoDb = insertBulkSubmission(db)
+export const insertBulkSubmissionIntoDb = insertBulkSubmission(db);

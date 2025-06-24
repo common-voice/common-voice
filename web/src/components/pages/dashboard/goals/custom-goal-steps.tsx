@@ -7,11 +7,7 @@ import URLS from '../../../../urls';
 import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks';
 import { useRouter } from '../../../../hooks/use-router';
 import { getManageSubscriptionURL } from '../../../../utility';
-import {
-  LocaleLink,
-  useLocale,
-  useContributableLocales,
-} from '../../../locale-helpers';
+import { LocaleLink, useLocale, useContributableLocales } from '../../../locale-helpers';
 import ShareModal from '../../../share-modal/share-modal';
 import {
   ArrowLeft,
@@ -76,7 +72,8 @@ export const ViewGoal = ({
             className="cta"
             rounded
             absolute
-            to={'/' + locale + (key == 'speak' ? URLS.SPEAK : URLS.LISTEN)}>
+            to={'/' + locale + (key == 'speak' ? URLS.SPEAK : URLS.LISTEN)}
+          >
             {key[0].toUpperCase() + key.slice(1)}
           </LinkButton>
         </div>
@@ -125,7 +122,8 @@ export default [
             vars={{
               hours: 10000,
               language: getString(dashboardLocale),
-            }}>
+            }}
+          >
             <span className="sub-head" />
           </Localized>
         </div>
@@ -136,12 +134,11 @@ export default [
 
         {!dashboardLocale && (
           <div className="select-wrap">
-            <Localized
-              id="request-language-form-language"
-              attrs={{ label: true }}>
+            <Localized id="request-language-form-language" attrs={{ label: true }}>
               <LabeledSelect
                 value={locale}
-                onChange={(event: any) => setLocale(event.target.value)}>
+                onChange={(event: any) => setLocale(event.target.value)}
+              >
                 <option key="empty" value="" />
                 {contributableLocales.map(l => (
                   <Localized id={l}>
@@ -164,9 +161,7 @@ export default [
                 ? nextButtonProps.onClick
                 : () => {
                     history.push(
-                      toLocaleRoute(
-                        URLS.DASHBOARD + '/' + locale + URLS.GOALS + '?start'
-                      )
+                      toLocaleRoute(URLS.DASHBOARD + '/' + locale + URLS.GOALS + '?start')
                     );
                   }
             }
@@ -201,7 +196,8 @@ export default [
               periodMonths: 6,
               people: 1000,
               clipsPerDay: 45,
-            }}>
+            }}
+          >
             <p />
           </Localized>
         </div>
@@ -209,18 +205,11 @@ export default [
     </>
   ),
 
-  ({
-    closeButtonProps,
-    completedFields,
-    currentFields,
-    nextButtonProps,
-    state,
-  }) => (
+  ({ closeButtonProps, completedFields, currentFields, nextButtonProps, state }) => (
     <>
       <div className="padded">
         {completedFields}
-        <Localized
-          id={state.daysInterval == 7 ? 'how-many-a-week' : 'how-many-per-day'}>
+        <Localized id={state.daysInterval == 7 ? 'how-many-a-week' : 'how-many-per-day'}>
           <h2 />
         </Localized>
         {currentFields}
@@ -267,19 +256,17 @@ export default [
           isSubscribed !== null && (
             <>
               <Localized
-                id={
-                  isSubscribed
-                    ? 'receiving-emails-info'
-                    : 'not-receiving-emails-info'
-                }
-                elems={{ bold: <b /> }}>
+                id={isSubscribed ? 'receiving-emails-info' : 'not-receiving-emails-info'}
+                elems={{ bold: <b /> }}
+              >
                 <p className="subscription-info" />
               </Localized>
               <a
                 className="manage-subscriptions"
                 href={getManageSubscriptionURL(account)}
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <Localized id="manage-email-subscriptions">
                   <span />
                 </Localized>
@@ -310,7 +297,8 @@ export default [
                   id="accept-privacy"
                   elems={{
                     privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
-                  }}>
+                  }}
+                >
                   <span />
                 </Localized>
               </div>
@@ -326,7 +314,8 @@ export default [
             rounded
             className="submit"
             {...nextButtonProps}
-            disabled={subscribed && !privacyAgreed}>
+            disabled={subscribed && !privacyAgreed}
+          >
             <CheckIcon />{' '}
             <Localized id="confirm-goal">
               <span />
@@ -346,9 +335,7 @@ export default [
           <ShareModal
             title={getString('help-share-goal')}
             text={getString(
-              isWeekly
-                ? 'share-n-weekly-contribution-goal'
-                : 'share-n-daily-contribution-goal',
+              isWeekly ? 'share-n-weekly-contribution-goal' : 'share-n-daily-contribution-goal',
               {
                 count: state.amount,
                 type: getString('share-goal-type-' + state.type),
@@ -380,10 +367,7 @@ export default [
             <span />
           </Localized>
         </p>
-        <Button
-          rounded
-          className="share-button"
-          onClick={() => setShowShareModal(true)}>
+        <Button rounded className="share-button" onClick={() => setShowShareModal(true)}>
           <ShareIcon />{' '}
           <Localized id="share-goal">
             <span />

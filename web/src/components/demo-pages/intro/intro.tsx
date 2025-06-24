@@ -1,11 +1,7 @@
 import * as React from 'react';
 import robot from './assets/red-robot.svg';
 import './intro.css';
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import { LinkButton } from '../../ui/ui';
 import { ArrowRight } from '../../ui/icons';
 import URLS from '../../../urls';
@@ -33,10 +29,7 @@ interface PropsFromDispatch {
   setLocale: typeof Locale.actions.set;
 }
 
-interface Props
-  extends PropsFromState,
-    PropsFromDispatch,
-    WithLocalizationProps {}
+interface Props extends PropsFromState, PropsFromDispatch, WithLocalizationProps {}
 
 export default connect<PropsFromState, PropsFromDispatch>(
   mapStateToProps,
@@ -62,10 +55,7 @@ export default connect<PropsFromState, PropsFromDispatch>(
               <p id="intro-container--text-box__text-body" />
             </Localized>
           </div>
-          <LinkButton
-            rounded
-            to={URLS.DEMO_ACCOUNT}
-            id="intro-container--btn-get-started">
+          <LinkButton rounded to={URLS.DEMO_ACCOUNT} id="intro-container--btn-get-started">
             <Localized id="demo-get-started">
               <span />
             </Localized>
@@ -75,9 +65,7 @@ export default connect<PropsFromState, PropsFromDispatch>(
             locale={locale}
             onLocaleChange={(newLocale: string) => {
               setLocale(newLocale);
-              history.push(
-                replacePathLocale(history.location.pathname, newLocale)
-              );
+              history.push(replacePathLocale(history.location.pathname, newLocale));
             }}
           />
         </div>

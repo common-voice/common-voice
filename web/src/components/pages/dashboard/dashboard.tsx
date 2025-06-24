@@ -42,8 +42,7 @@ const TopBar = ({
   const account = useAccount();
   const [isAboveMdWidth, setIsAboveMdWidth] = useState(true);
   const isChallengeEnrolled = isEnrolled(account);
-  const isChallengeTabSelected =
-    location.pathname.endsWith('/challenge') && isChallengeEnrolled;
+  const isChallengeTabSelected = location.pathname.endsWith('/challenge') && isChallengeEnrolled;
 
   function setLocale(value: string) {
     const pathParts = location.pathname.split('/');
@@ -54,21 +53,13 @@ const TopBar = ({
     );
   }
 
-  const unseenAwards = account
-    ? account.awards.filter(a => !a.seen_at).length
-    : 0;
+  const unseenAwards = account ? account.awards.filter(a => !a.seen_at).length : 0;
 
   const locales = [''].concat(
-    (account ? account.languages : [])
-      .map(({ locale }) => locale)
-      .filter(l => isContributable(l))
+    (account ? account.languages : []).map(({ locale }) => locale).filter(l => isContributable(l))
   );
-  const titleBarLocales = isAboveMdWidth
-    ? locales.slice(0, TITLE_BAR_LOCALE_COUNT)
-    : [];
-  const dropdownLocales = isAboveMdWidth
-    ? locales.slice(TITLE_BAR_LOCALE_COUNT)
-    : locales;
+  const titleBarLocales = isAboveMdWidth ? locales.slice(0, TITLE_BAR_LOCALE_COUNT) : [];
+  const dropdownLocales = isAboveMdWidth ? locales.slice(TITLE_BAR_LOCALE_COUNT) : locales;
 
   useEffect(() => {
     const checkSize = () => {
@@ -90,11 +81,8 @@ const TopBar = ({
           {isChallengeEnrolled && (
             <LocaleNavLink
               key={URLS.CHALLENGE}
-              to={
-                URLS.DASHBOARD +
-                (dashboardLocale ? '/' + dashboardLocale : '') +
-                URLS.CHALLENGE
-              }>
+              to={URLS.DASHBOARD + (dashboardLocale ? '/' + dashboardLocale : '') + URLS.CHALLENGE}
+            >
               <h2>Challenge</h2>
             </LocaleNavLink>
           )}
@@ -104,11 +92,8 @@ const TopBar = ({
           ].map(([label, path]) => (
             <LocaleNavLink
               key={path}
-              to={
-                URLS.DASHBOARD +
-                (dashboardLocale ? '/' + dashboardLocale : '') +
-                path
-              }>
+              to={URLS.DASHBOARD + (dashboardLocale ? '/' + dashboardLocale : '') + path}
+            >
               <Localized id={label}>
                 {/* Localized injects content into child tag */}
                 {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
@@ -193,9 +178,7 @@ const TopBar = ({
           </div>
         )} */}
       </div>
-      {isChallengeTabSelected && (
-        <ChallengeBar setShowInviteModal={setShowInviteModal} />
-      )}
+      {isChallengeTabSelected && <ChallengeBar setShowInviteModal={setShowInviteModal} />}
     </div>
   );
 };
@@ -204,11 +187,7 @@ function DashboardContent({
   Page,
   dashboardLocale,
 }: {
-  Page:
-    | typeof ChallengePage
-    | typeof StatsPage
-    | typeof GoalsPage
-    | typeof AwardsPage;
+  Page: typeof ChallengePage | typeof StatsPage | typeof GoalsPage | typeof AwardsPage;
   dashboardLocale: string;
 }) {
   const api = useAPI();
@@ -242,10 +221,7 @@ const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
         </div>
       )}
 
-      <Button
-        rounded
-        className="invite-btn"
-        onClick={() => setShowInviteModal(true)}>
+      <Button rounded className="invite-btn" onClick={() => setShowInviteModal(true)}>
         <span className="content">Invite</span>
         <span className="plus-icon"></span>
       </Button>
@@ -295,7 +271,8 @@ export default function Dashboard() {
             ? 'challenge-online'
             : 'challenge-offline'
           : ''
-      }>
+      }
+    >
       {showInviteModal && (
         <InviteModal
           enrollment={account.enrollment}
@@ -332,10 +309,7 @@ export default function Dashboard() {
               path={match.path + subPath}
               render={() => (
                 <>
-                  <TopBar
-                    dashboardLocale=""
-                    setShowInviteModal={setShowInviteModal}
-                  />
+                  <TopBar dashboardLocale="" setShowInviteModal={setShowInviteModal} />
                   <DashboardContent dashboardLocale="" {...{ Page }} />
                 </>
               )}
@@ -349,36 +323,25 @@ export default function Dashboard() {
               },
             }) => (
               <>
-                <TopBar
-                  {...{ dashboardLocale }}
-                  setShowInviteModal={setShowInviteModal}
-                />
+                <TopBar {...{ dashboardLocale }} setShowInviteModal={setShowInviteModal} />
                 <Switch>
                   {pages.map(({ subPath, Page }) => (
                     <SentryRoute
                       key={subPath}
                       exact
                       path={match.path + '/' + dashboardLocale + subPath}
-                      render={() => (
-                        <DashboardContent {...{ dashboardLocale, Page }} />
-                      )}
+                      render={() => <DashboardContent {...{ dashboardLocale, Page }} />}
                     />
                   ))}
                   <SentryRoute
-                    render={() => (
-                      <Redirect
-                        to={toLocaleRoute(URLS.DASHBOARD + defaultPage)}
-                      />
-                    )}
+                    render={() => <Redirect to={toLocaleRoute(URLS.DASHBOARD + defaultPage)} />}
                   />
                 </Switch>
               </>
             )}
           />
           <SentryRoute
-            render={() => (
-              <Redirect to={toLocaleRoute(URLS.DASHBOARD + defaultPage)} />
-            )}
+            render={() => <Redirect to={toLocaleRoute(URLS.DASHBOARD + defaultPage)} />}
           />
         </Switch>
       </div>

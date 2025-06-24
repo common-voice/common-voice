@@ -11,10 +11,7 @@ interface Props {
 const ProgressBar = ({ percentageValue = 0 }: Props) => (
   <div className={styles.progress}>
     <VisuallyHidden>{percentageValue}%</VisuallyHidden>
-    <div
-      className={styles.progressBar}
-      style={{ width: `${percentageValue}%` }}
-    />
+    <div className={styles.progressBar} style={{ width: `${percentageValue}%` }} />
   </div>
 );
 

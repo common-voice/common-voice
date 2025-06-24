@@ -995,4 +995,4 @@ export const COUNTRIES = [
     name: 'زيمبابوي',
     value: 'ZW',
   },
-]
+];

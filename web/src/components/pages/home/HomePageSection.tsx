@@ -1,26 +1,26 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 // import micBanner from './images/mic-banner.png'
-import classes from './home.module.css'
-import URLS from '../../../urls'
-import { LocaleLink } from '../../locale-helpers'
-import { InfoDarkIcon, InfoIcon, MicIcon } from '../../ui/icons'
-import Modal from '../../modal/modal'
-import { useHistory } from 'react-router-dom'
-import { useDispatch, useSelector } from 'react-redux'
-import { Datasource } from '../../../stores/datasource'
+import classes from './home.module.css';
+import URLS from '../../../urls';
+import { LocaleLink } from '../../locale-helpers';
+import { InfoDarkIcon, InfoIcon, MicIcon } from '../../ui/icons';
+import Modal from '../../modal/modal';
+import { useHistory } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { Datasource } from '../../../stores/datasource';
 
 export default function HomePageSection(props: any) {
-  const history = useHistory()
+  const history = useHistory();
 
-  const [showInfoContributeModal, setShowInfoContributeModal] = useState(false)
-  const [showInfoRatingModal, setShowInfoRatingModal] = useState(false)
-  const [currentDataSource, setCurrentDataSource] = useState('')
+  const [showInfoContributeModal, setShowInfoContributeModal] = useState(false);
+  const [showInfoRatingModal, setShowInfoRatingModal] = useState(false);
+  const [currentDataSource, setCurrentDataSource] = useState('');
 
-  const datasourceId = useSelector((state: any) => state.datasource)
+  const datasourceId = useSelector((state: any) => state.datasource);
 
   useEffect(() => {
-    setCurrentDataSource(datasourceId)
-  }, [datasourceId])
+    setCurrentDataSource(datasourceId);
+  }, [datasourceId]);
 
   return (
     <div className=" flex flex-col items-center mt-10">
@@ -61,23 +61,21 @@ export default function HomePageSection(props: any) {
             border: '1px solid #B1B1B157',
             borderRadius: '50px',
             padding: '30px',
-          }}>
+          }}
+        >
           <div className="flex justify-center gap-1">
-            <h1 className="text-[30px] lg:text-[50px] text-center font-bold">
-              أسهِمْ بصوتك
-            </h1>
+            <h1 className="text-[30px] lg:text-[50px] text-center font-bold">أسهِمْ بصوتك</h1>
             <button
               type="button"
               className="text-[#219F8A] text-[14px] md:text-[16px]"
-              onClick={() => setShowInfoContributeModal(true)}>
+              onClick={() => setShowInfoContributeModal(true)}
+            >
               <InfoDarkIcon />
             </button>
             {showInfoContributeModal && (
               <Modal onRequestClose={() => setShowInfoContributeModal(false)}>
                 <div className="text-right">
-                  <p className="text-center font-bold">
-                    ستظهر لك مجموعة من الجمل والأسئلة
-                  </p>
+                  <p className="text-center font-bold">ستظهر لك مجموعة من الجمل والأسئلة</p>
 
                   <p className="flex gap-1 justify-center mt-5">
                     انقر
@@ -85,32 +83,27 @@ export default function HomePageSection(props: any) {
                     ثم:
                   </p>
                   <p>إذا ظهرت لك جملة اقرأها بصوت عالٍ</p>
-                  <p>
-                    إذا ظهر لك سؤال أجِب عنه بلغتك التي تتحدث بها في حياتك
-                    اليومية
-                  </p>
+                  <p>إذا ظهر لك سؤال أجِب عنه بلغتك التي تتحدث بها في حياتك اليومية</p>
                   <ul className="list-disc pr-5 text-right text-[14px] md:text-[16px] leading-7 mt-5">
                     <li>لا تتجاوز قراءة الجملة أو إجابة السؤال 10 ثوانٍ.</li>
                     <li>
-                      ستظهر الجمل أو الأسئلة على دفعات، كل دفعة مكونة من خمس جمل
-                      أو أسئلة، سيُطلب منك تعبئة بياناتك عند الانتهاء من تسجيل
-                      أول خمسة مقاطع لأول مرة فقط.
+                      ستظهر الجمل أو الأسئلة على دفعات، كل دفعة مكونة من خمس جمل أو أسئلة، سيُطلب
+                      منك تعبئة بياناتك عند الانتهاء من تسجيل أول خمسة مقاطع لأول مرة فقط.
                     </li>
                     <li>يمكنك تخطي الجملة أو السؤال إلى غيرهما.</li>
                     <li>
-                      يمكنك الإبلاغ عن الجملة إذا كانت صعبة النطق، أو تحتوي على
-                      إساءة، أو خطأ كتابيّ، أو لغة مختلفة، أو أي مشكلة أخرى.
+                      يمكنك الإبلاغ عن الجملة إذا كانت صعبة النطق، أو تحتوي على إساءة، أو خطأ
+                      كتابيّ، أو لغة مختلفة، أو أي مشكلة أخرى.
                     </li>
                   </ul>
                 </div>
                 <LocaleLink
                   to={
-                    currentDataSource !== ''
-                      ? '/s/' + currentDataSource + URLS.SPEAK
-                      : URLS.SPEAK
+                    currentDataSource !== '' ? '/s/' + currentDataSource + URLS.SPEAK : URLS.SPEAK
                   }
                   type="button"
-                  className="button rounded-lg w-4 bg-white !text-black mx-auto hover:border-[#219F8A]">
+                  className="button rounded-lg w-4 bg-white !text-black mx-auto hover:border-[#219F8A]"
+                >
                   <span>أبدأ</span>{' '}
                 </LocaleLink>
               </Modal>
@@ -129,11 +122,8 @@ export default function HomePageSection(props: any) {
 
             <div className="flex flex-col justify-center items-center	w-[210px]">
               <LocaleLink
-                to={
-                  currentDataSource !== ''
-                    ? '/s/' + currentDataSource + URLS.SPEAK
-                    : URLS.SPEAK
-                }>
+                to={currentDataSource !== '' ? '/s/' + currentDataSource + URLS.SPEAK : URLS.SPEAK}
+              >
                 <div>
                   <img
                     src={require('./images/mic-icon.svg')}
@@ -165,16 +155,15 @@ export default function HomePageSection(props: any) {
             borderRadius: '50px',
             padding: '30px',
             color: 'white',
-          }}>
+          }}
+        >
           <div className="flex justify-center gap-1">
-            <h1 className="text-[30px] lg:text-[50px]  text-center font-bold">
-              {' '}
-              استمع وقيّم
-            </h1>
+            <h1 className="text-[30px] lg:text-[50px]  text-center font-bold"> استمع وقيّم</h1>
             <button
               type="button"
               className="text-[#219F8A] text-[14px] md:text-[16px]"
-              onClick={() => setShowInfoRatingModal(true)}>
+              onClick={() => setShowInfoRatingModal(true)}
+            >
               <InfoIcon />
             </button>
             {showInfoRatingModal && (
@@ -203,36 +192,32 @@ export default function HomePageSection(props: any) {
                   </p>
 
                   <ul className="list-disc mt-5 pr-5 text-right text-[14px] md:text-[16px] leading-7">
+                    <li>ستظهر المشاركات على دفعات، تتضمن كل دفعة خمس مشاركات.</li>
                     <li>
-                      ستظهر المشاركات على دفعات، تتضمن كل دفعة خمس مشاركات.
-                    </li>
-                    <li>
-                      تشوش الصوت لا يمنع من قبول المقطع الصوتي؛ لأننا نحتاج هذا
-                      التنوع الطبيعي في المقاطع.
+                      تشوش الصوت لا يمنع من قبول المقطع الصوتي؛ لأننا نحتاج هذا التنوع الطبيعي في
+                      المقاطع.
                     </li>
                     <li>يمكنك تخطي المشاركة إلى مشاركة أخرى. </li>
                     <li>
-                      يمكنك الإبلاغ عن المشاركة إذا كانت تحتوي على إساءة، أو خطأ
-                      كتابيّ، أو أي مشكلة أخرى.{' '}
+                      يمكنك الإبلاغ عن المشاركة إذا كانت تحتوي على إساءة، أو خطأ كتابيّ، أو أي مشكلة
+                      أخرى.{' '}
                     </li>
                   </ul>
                 </div>
                 <LocaleLink
                   to={
-                    currentDataSource !== ''
-                      ? '/s/' + currentDataSource + URLS.LISTEN
-                      : URLS.LISTEN
+                    currentDataSource !== '' ? '/s/' + currentDataSource + URLS.LISTEN : URLS.LISTEN
                   }
                   type="button"
-                  className="button rounded-lg w-4 bg-white !text-black mx-auto hover:border-[#219F8A]">
+                  className="button rounded-lg w-4 bg-white !text-black mx-auto hover:border-[#219F8A]"
+                >
                   <span>أبدأ</span>{' '}
                 </LocaleLink>
               </Modal>
             )}
           </div>
           <p className="text-right py-4 text-[14px] md:text-[16px] w-[240px] md:w-[440px] mx-auto leading-6 text-wrap">
-            شنّف سمعَك بمشاركات الآخرين وقيّمها، ساعِدنا على تطوير بيانات صوتية
-            دقيقة وعالية الجودة
+            شنّف سمعَك بمشاركات الآخرين وقيّمها، ساعِدنا على تطوير بيانات صوتية دقيقة وعالية الجودة
           </p>
 
           <div className="flex justify-center md:justify-center items-center pt-16 md:pr-8 gap-8 flex-wrap">
@@ -245,10 +230,9 @@ export default function HomePageSection(props: any) {
             <div className="flex flex-col justify-center items-center w-[210px]">
               <LocaleLink
                 to={
-                  currentDataSource !== ''
-                    ? '/s/' + currentDataSource + URLS.LISTEN
-                    : URLS.LISTEN
-                }>
+                  currentDataSource !== '' ? '/s/' + currentDataSource + URLS.LISTEN : URLS.LISTEN
+                }
+              >
                 <div>
                   <img
                     src={require('./images/play-icon.svg')}
@@ -272,5 +256,5 @@ export default function HomePageSection(props: any) {
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,39 +1,34 @@
-import * as React from 'react'
-import { useDropzone } from 'react-dropzone'
-import { Localized } from '@fluent/react'
-import classNames from 'classnames'
-import { useDispatch } from 'react-redux'
+import * as React from 'react';
+import { useDropzone } from 'react-dropzone';
+import { Localized } from '@fluent/react';
+import classNames from 'classnames';
+import { useDispatch } from 'react-redux';
 
-import { Instruction } from '../../instruction'
-import {
-  LightBulbIcon,
-  QuestionIcon,
-  SendIcon,
-  UploadIcon,
-} from '../../../../../ui/icons'
-import { Rules } from '../sentence-input-and-rules/rules'
-import { LinkButton } from '../../../../../ui/ui'
-import ExpandableInformation from '../../../../../expandable-information/expandable-information'
-import UploadZoneContent from './upload-zone-content'
+import { Instruction } from '../../instruction';
+import { LightBulbIcon, QuestionIcon, SendIcon, UploadIcon } from '../../../../../ui/icons';
+import { Rules } from '../sentence-input-and-rules/rules';
+import { LinkButton } from '../../../../../ui/ui';
+import ExpandableInformation from '../../../../../expandable-information/expandable-information';
+import UploadZoneContent from './upload-zone-content';
 
-import URLS from '../../../../../../urls'
-import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
-import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload'
-import { Sentences } from '../../../../../../stores/sentences'
-import { useLocale } from '../../../../../locale-helpers'
-import { trackBulkSubmission } from '../../../../../../services/tracker'
+import URLS from '../../../../../../urls';
+import { COMMON_VOICE_EMAIL } from '../../../../../../constants';
+import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload';
+import { Sentences } from '../../../../../../stores/sentences';
+import { useLocale } from '../../../../../locale-helpers';
+import { trackBulkSubmission } from '../../../../../../services/tracker';
 
-import './bulk-submission-write.css'
+import './bulk-submission-write.css';
 
-const MAX_FILE_SIZE = 1024 * 1024 * 25
+const MAX_FILE_SIZE = 1024 * 1024 * 25;
 
 const BulkSubmissionWrite = () => {
-  const dispatch = useDispatch()
-  const [locale] = useLocale()
+  const dispatch = useDispatch();
+  const [locale] = useLocale();
 
   React.useEffect(() => {
-    dispatch(Sentences.actions.setBulkUploadStatus('off'))
-  }, [])
+    dispatch(Sentences.actions.setBulkUploadStatus('off'));
+  }, []);
 
   const {
     handleDrop,
@@ -43,12 +38,10 @@ const BulkSubmissionWrite = () => {
     removeBulkSubmission,
     startUpload,
     fileRejections,
-  } = useBulkSubmissionUpload()
+  } = useBulkSubmissionUpload();
 
   const isDropZoneDisabled =
-    uploadStatus === 'waiting' ||
-    uploadStatus === 'uploading' ||
-    uploadStatus === 'done'
+    uploadStatus === 'waiting' || uploadStatus === 'uploading' || uploadStatus === 'done';
 
   const { getRootProps, getInputProps, isDragActive, open } = useDropzone({
     onDrop: React.useCallback(handleDrop, []),
@@ -57,32 +50,29 @@ const BulkSubmissionWrite = () => {
     disabled: isDropZoneDisabled,
     noClick: true,
     maxSize: MAX_FILE_SIZE,
-  })
+  });
 
   const handleToggle = (evt: React.SyntheticEvent<HTMLDetailsElement>) => {
     if (evt.currentTarget.open) {
-      trackBulkSubmission('expandable-information-click-open', locale)
+      trackBulkSubmission('expandable-information-click-open', locale);
     } else {
-      trackBulkSubmission('expandable-information-click-close', locale)
+      trackBulkSubmission('expandable-information-click-close', locale);
     }
-  }
+  };
 
   return (
     <div className="bulk-upload-container" data-testid="bulk-upload-container">
       <div className="upload-and-instruction">
-        <Instruction
-          localizedId="sc-bulk-upload-header"
-          icon={<UploadIcon />}
-        />
+        <Instruction localizedId="sc-bulk-upload-header" icon={<UploadIcon />} />
         <div className="upload-dropzone-and-rules">
           <div>
             <div
               data-testid="bulk-upload-dropzone"
               className={classNames('upload-dropzone', {
-                'no-border':
-                  uploadStatus === 'uploading' || uploadStatus === 'waiting',
+                'no-border': uploadStatus === 'uploading' || uploadStatus === 'waiting',
               })}
-              {...getRootProps()}>
+              {...getRootProps()}
+            >
               <input data-testid="file-input" {...getInputProps()} />
               <UploadZoneContent
                 isDragActive={isDragActive}
@@ -99,7 +89,8 @@ const BulkSubmissionWrite = () => {
               <ExpandableInformation
                 summaryLocalizedId="what-needs-to-be-in-file"
                 icon={<LightBulbIcon />}
-                onToggle={handleToggle}>
+                onToggle={handleToggle}
+              >
                 <Localized
                   id="what-needs-to-be-in-file-explanation"
                   elems={{
@@ -110,20 +101,18 @@ const BulkSubmissionWrite = () => {
                         rel="noreferrer"
                       />
                     ),
-                  }}>
+                  }}
+                >
                   <p />
                 </Localized>
                 <Localized
                   id="template-file-additional-information"
                   elems={{
                     emailFragment: (
-                      <a
-                        href="mailto:commonvoice@mozilla.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      />
+                      <a href="mailto:commonvoice@mozilla.com" target="_blank" rel="noreferrer" />
                     ),
-                  }}>
+                  }}
+                >
                   <p className="template-additional-information" />
                 </Localized>
               </ExpandableInformation>
@@ -134,22 +123,13 @@ const BulkSubmissionWrite = () => {
       </div>
       <div className="buttons">
         <div>
-          <LinkButton
-            rounded
-            outline
-            className="guidelines-button"
-            blank
-            to={URLS.GUIDELINES}>
+          <LinkButton rounded outline className="guidelines-button" blank to={URLS.GUIDELINES}>
             <QuestionIcon />
             <Localized id="guidelines">
               <span />
             </Localized>
           </LinkButton>
-          <LinkButton
-            rounded
-            outline
-            blank
-            href={`mailto:${COMMON_VOICE_EMAIL}`}>
+          <LinkButton rounded outline blank href={`mailto:${COMMON_VOICE_EMAIL}`}>
             <SendIcon />
             <Localized id="contact-us">
               <span />
@@ -158,7 +138,7 @@ const BulkSubmissionWrite = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BulkSubmissionWrite
+export default BulkSubmissionWrite;

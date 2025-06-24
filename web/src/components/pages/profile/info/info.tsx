@@ -1,19 +1,11 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { Tooltip } from 'react-tippy';
 import pick from 'lodash.pick';
 
-import {
-  useAction,
-  useAPI,
-  useLocalStorageState,
-} from '../../../../hooks/store-hooks';
+import { useAction, useAPI, useLocalStorageState } from '../../../../hooks/store-hooks';
 import { trackProfile } from '../../../../services/tracker';
 import { AGES, GENDERS } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
@@ -23,13 +15,7 @@ import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink, useLocale } from '../../../locale-helpers';
 import TermsModal from '../../../terms-modal';
-import {
-  Button,
-  Hr,
-  LabeledCheckbox,
-  LabeledInput,
-  LabeledSelect,
-} from '../../../ui/ui';
+import { Button, Hr, LabeledCheckbox, LabeledInput, LabeledSelect } from '../../../ui/ui';
 import { isEnrolled } from '../../dashboard/challenge/constants';
 import { UserLanguage } from 'common';
 
@@ -55,10 +41,7 @@ const Options = withLocalization(
   )
 );
 
-function ProfileInfo({
-  getString,
-  history,
-}: WithLocalizationProps & RouteComponentProps) {
+function ProfileInfo({ getString, history }: WithLocalizationProps & RouteComponentProps) {
   const api = useAPI();
   const [locale, toLocaleRoute] = useLocale();
   const user = useTypedSelector(({ user }) => user);
@@ -83,21 +66,14 @@ function ProfileInfo({
     sendEmails: false,
     privacyAgreed: false,
   });
-  const { username, visible, age, gender, sendEmails, privacyAgreed } =
-    userFields;
+  const { username, visible, age, gender, sendEmails, privacyAgreed } = userFields;
   const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
   const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([]);
-  const [userLanguagesInLocalStorage] = useLocalStorageState<UserLanguage[]>(
-    [],
-    'userLanguages'
-  );
+  const [userLanguagesInLocalStorage] = useLocalStorageState<UserLanguage[]>([], 'userLanguages');
   const [isSaving, setIsSaving] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(
-    null
-  );
-  const isEnrolledInChallenge =
-    user?.userClients[0]?.enrollment || isEnrolled(account);
+  const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(null);
+  const isEnrolledInChallenge = user?.userClients[0]?.enrollment || isEnrolled(account);
 
   useEffect(() => {
     if (user.isFetchingAccount || areLanguagesLoading) {
@@ -229,44 +205,33 @@ function ProfileInfo({
 
       <div className="form-fields">
         <Localized id="profile-form-username" attrs={{ label: true }}>
-          <LabeledInput
-            value={username}
-            onChange={handleChangeFor('username')}
-            name="username"
-          />
+          <LabeledInput value={username} onChange={handleChangeFor('username')} name="username" />
         </Localized>
 
         <Localized id="leaderboard-visibility" attrs={{ label: true }}>
           <LabeledSelect
             value={visible.toString()}
             onChange={handleChangeFor('visible')}
-            name="leaderboard visibility">
+            name="leaderboard visibility"
+          >
             <Localized id="hidden">
               <option value={0} />
             </Localized>
             <Localized id="visible">
               <option value={1} />
             </Localized>
-            {isEnrolledInChallenge && (
-              <option value={2}>Visible within challenge team</option>
-            )}
+            {isEnrolledInChallenge && <option value={2}>Visible within challenge team</option>}
           </LabeledSelect>
         </Localized>
 
         <Localized id="profile-form-age" attrs={{ label: true }}>
-          <LabeledSelect
-            value={age}
-            onChange={handleChangeFor('age')}
-            name="age">
+          <LabeledSelect value={age} onChange={handleChangeFor('age')} name="age">
             <Options>{AGES}</Options>
           </LabeledSelect>
         </Localized>
 
         <Localized id="profile-form-gender-2" attrs={{ label: true }}>
-          <LabeledSelect
-            value={gender}
-            onChange={handleChangeFor('gender')}
-            name="gender">
+          <LabeledSelect value={gender} onChange={handleChangeFor('gender')} name="gender">
             <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
@@ -284,10 +249,7 @@ function ProfileInfo({
       {!user.account?.basket_token && (
         <>
           <div className="signup-section">
-            <Tooltip
-              arrow
-              html={<>{getString('change-email-setings')}</>}
-              theme="dark">
+            <Tooltip arrow html={<>{getString('change-email-setings')}</>} theme="dark">
               <Localized id="email-input" attrs={{ label: true }}>
                 <LabeledInput value={user.userClients[0]?.email} disabled />
               </Localized>
@@ -321,7 +283,8 @@ function ProfileInfo({
                       id="accept-privacy"
                       elems={{
                         privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
-                      }}>
+                      }}
+                    >
                       <span />
                     </Localized>
                   </>

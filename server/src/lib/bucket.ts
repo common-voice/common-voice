@@ -1,10 +1,10 @@
-import { getConfig } from '../config-helper'
-import Model from './model'
-import { Clip, TakeoutRequest } from 'common'
-import { PassThrough } from 'stream'
-import { ClientClip } from './takeout'
-import * as Sentry from '@sentry/node'
-import { pipe } from 'fp-ts/lib/function'
+import { getConfig } from '../config-helper';
+import Model from './model';
+import { Clip, TakeoutRequest } from 'common';
+import { PassThrough } from 'stream';
+import { ClientClip } from './takeout';
+import * as Sentry from '@sentry/node';
+import { pipe } from 'fp-ts/lib/function';
 import {
   deleteFileFromBucket,
   doesFileExistInBucket,
@@ -14,12 +14,12 @@ import {
   getSignedUrlFromBucket,
   streamUploadToBucket,
   uploadToBucket,
-} from '../infrastructure/storage/storage'
-import { task as T, taskEither as TE } from 'fp-ts'
-import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
-import * as archiver from 'archiver'
-import { zip } from 'fp-ts/lib/ReadonlyArray'
-import { cons } from 'fp-ts/lib/ReadonlyNonEmptyArray'
+} from '../infrastructure/storage/storage';
+import { task as T, taskEither as TE } from 'fp-ts';
+import { Metadata } from '@google-cloud/storage/build/src/nodejs-common';
+import * as archiver from 'archiver';
+import { zip } from 'fp-ts/lib/ReadonlyArray';
+import { cons } from 'fp-ts/lib/ReadonlyNonEmptyArray';
 
 /**
  * Bucket
@@ -27,69 +27,58 @@ import { cons } from 'fp-ts/lib/ReadonlyNonEmptyArray'
  *   metadata into the Model from s3.
  */
 export default class Bucket {
-  private model: Model
+  private model: Model;
 
   constructor(model: Model) {
-    this.model = model
+    this.model = model;
   }
 
   /**
    * Fetch a public url for the resource.
    */
   public async getPublicUrl(key: string, bucketType?: string): Promise<string> {
-    const { DATASET_BUCKET_NAME, CLIP_BUCKET_NAME, ENVIRONMENT } = getConfig()
+    const { DATASET_BUCKET_NAME, CLIP_BUCKET_NAME, ENVIRONMENT } = getConfig();
 
-    const bucket =
-      bucketType === 'dataset' ? DATASET_BUCKET_NAME : CLIP_BUCKET_NAME
+    const bucket = bucketType === 'dataset' ? DATASET_BUCKET_NAME : CLIP_BUCKET_NAME;
 
     if (ENVIRONMENT === 'local') {
-      return `http://localhost:8080/storage/v1/b/${bucket}/o/${key}?alt=media`
+      return `http://localhost:8080/storage/v1/b/${bucket}/o/${key}?alt=media`;
     }
 
     const url = await pipe(
       getSignedUrlFromBucket(bucket)(key),
       TE.getOrElse(() => T.of(`Cannot get signed url for ${key}`))
-    )()
+    )();
 
-    return url
+    return url;
   }
-  public async OCIgetPublicUrl(
-    key: string,
-    bucketType?: string
-  ): Promise<string> {
-    const {
-      DATASET_BUCKET_NAME,
-      CLIP_BUCKET_NAME,
-      OCI_REGION,
-      OCI_NAMESPACE,
-      OCI_BUCKET_NAME,
-    } = getConfig()
+  public async OCIgetPublicUrl(key: string, bucketType?: string): Promise<string> {
+    const { DATASET_BUCKET_NAME, CLIP_BUCKET_NAME, OCI_REGION, OCI_NAMESPACE, OCI_BUCKET_NAME } =
+      getConfig();
     // const bucket =
     //   bucketType === 'dataset' ? DATASET_BUCKET_NAME : CLIP_BUCKET_NAME
-    const uploadedPath = `https://objectstorage.${OCI_REGION}.oraclecloud.com/n/${OCI_NAMESPACE}/b/${OCI_BUCKET_NAME}/o/${key}`
-    return uploadedPath
+    const uploadedPath = `https://objectstorage.${OCI_REGION}.oraclecloud.com/n/${OCI_NAMESPACE}/b/${OCI_BUCKET_NAME}/o/${key}`;
+    return uploadedPath;
   }
   /**
    * Construct the public URL for a resource that needs no token
    */
   public getUnsignedUrl(bucket: string, key: string) {
-    return getPublicUrlFromBucket(bucket)(key)
+    return getPublicUrlFromBucket(bucket)(key);
   }
 
   /**
    * Delete function for S3 used for removing old avatars
    */
   public async deleteAvatar(client_id: string, url: string) {
-    const urlParts = url.split('/')
+    const urlParts = url.split('/');
     if (urlParts.length) {
-      const fileName = urlParts[urlParts.length - 1]
+      const fileName = urlParts[urlParts.length - 1];
 
       await pipe(
-        deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(
-          `${client_id}/${fileName}`
-        ),
+        deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(`${client_id}/${fileName}`),
         TE.getOrElse((e: Error) => T.of(console.log(e)))
-      )()
+      )();
     }
   }
 
@@ -100,7 +89,7 @@ export default class Bucket {
     return pipe(
       doesFileExistInBucket(getConfig().CLIP_BUCKET_NAME)(path),
       TE.getOrElse(() => T.of(false))
-    )()
+    )();
   }
 
   /**
@@ -119,9 +108,9 @@ export default class Bucket {
       locale,
       Math.ceil(count * 1.5),
       corpus_id
-    )
+    );
 
-    const clipPromises: Clip[] = []
+    const clipPromises: Clip[] = [];
 
     // Sentry.captureMessage(
     //   `Got ${clips.length} eligible clips for ${locale} locale`,
@@ -130,47 +119,40 @@ export default class Bucket {
 
     // Iterate through the clips and process them
     for (let i = 0; i < clips.length; i++) {
-      const {
-        id,
-        path,
-        sentence,
-        original_sentence_id,
-        taxonomy,
-        variant_name,
-      } = clips[i]
+      const { id, path, sentence, original_sentence_id, taxonomy, variant_name } = clips[i];
 
       try {
-        const url = await this.OCIgetPublicUrl(path)
+        const url = await this.OCIgetPublicUrl(path);
         clipPromises.push({
           id: id.toString(),
           glob: path.replace('.mp3', ''),
           sentence: { id: original_sentence_id, text: sentence, taxonomy },
           audioSrc: url,
           variant_name: variant_name,
-        })
+        });
         // Stop once the required number of clips is collected
-        if (clipPromises.length == count) break
+        if (clipPromises.length == count) break;
       } catch (e) {
-        console.log(e.message)
-        console.log(`Storage error retrieving clip_id ${id}`)
-        await this.model.db.markInvalid(id.toString())
+        console.log(e.message);
+        console.log(`Storage error retrieving clip_id ${id}`);
+        await this.model.db.markInvalid(id.toString());
       }
     }
     Sentry.captureMessage(
       `Having a total of ${clipPromises.length} clips for ${locale} locale`,
       Sentry.Severity.Info
-    )
+    );
 
-    return Promise.all(clipPromises)
+    return Promise.all(clipPromises);
   }
 
   //----------------------------
   takeoutKey(takeout: TakeoutRequest, chunkIndex: number): string {
-    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_pt_${chunkIndex}.zip`
+    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_pt_${chunkIndex}.zip`;
   }
 
   metadataKey(takeout: TakeoutRequest): string {
-    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_metadata.txt`
+    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_metadata.txt`;
   }
 
   async zipTakeoutFilesToS3(
@@ -178,31 +160,31 @@ export default class Bucket {
     chunkIndex: number,
     paths: string[]
   ): Promise<Metadata> {
-    const destination = this.takeoutKey(takeout, chunkIndex)
+    const destination = this.takeoutKey(takeout, chunkIndex);
 
-    console.log('start takeout zipping', destination)
+    console.log('start takeout zipping', destination);
 
-    const bucket = getConfig().CLIP_BUCKET_NAME
-    const passThrough = new PassThrough()
+    const bucket = getConfig().CLIP_BUCKET_NAME;
+    const passThrough = new PassThrough();
 
-    const downloadList = paths.map(path => downloadFileFromBucket(bucket)(path))
+    const downloadList = paths.map(path => downloadFileFromBucket(bucket)(path));
 
     const buffers = await pipe(
       downloadList,
       TE.sequenceArray,
       TE.match(
         e => {
-          console.log(e)
-          return [] as Buffer[]
+          console.log(e);
+          return [] as Buffer[];
         },
         buffers => buffers
       )
-    )()
+    )();
 
-    const bufferList = zip(buffers)(paths)
+    const bufferList = zip(buffers)(paths);
 
-    const archive = archiver('zip', { zlib: { level: 6 } })
-    archive.pipe(passThrough)
+    const archive = archiver('zip', { zlib: { level: 6 } });
+    archive.pipe(passThrough);
 
     bufferList.forEach(([path, buffer]) =>
       archive.append(buffer, {
@@ -210,52 +192,46 @@ export default class Bucket {
           path.split('/').length > 1 ? path.split('/')[1] : path
         }`,
       })
-    )
+    );
 
-    archive.finalize()
+    archive.finalize();
 
     // passTrough contains the zipped file
-    await pipe(
-      streamUploadToBucket(bucket)(destination)(passThrough),
-      TE.mapLeft(console.log)
-    )()
+    await pipe(streamUploadToBucket(bucket)(destination)(passThrough), TE.mapLeft(console.log))();
 
     return await pipe(
       getMetadataFromFile(bucket)(destination),
       TE.getOrElse(() => T.of({ size: 0 }))
-    )()
+    )();
   }
 
-  async uploadClipMetadata(
-    takeout: TakeoutRequest,
-    clipData: ClientClip[]
-  ): Promise<Metadata> {
-    const fields = ['original_sentence_id', 'sentence', 'locale']
-    const metadataKey = this.metadataKey(takeout)
+  async uploadClipMetadata(takeout: TakeoutRequest, clipData: ClientClip[]): Promise<Metadata> {
+    const fields = ['original_sentence_id', 'sentence', 'locale'];
+    const metadataKey = this.metadataKey(takeout);
     let sentenceData = clipData
       .map((clip: any) => fields.map(field => clip[field]).join('\t'))
-      .join('\n')
-    sentenceData = `${fields.join('\t')}\n${sentenceData}`
-    const bucket = getConfig().CLIP_BUCKET_NAME
+      .join('\n');
+    sentenceData = `${fields.join('\t')}\n${sentenceData}`;
+    const bucket = getConfig().CLIP_BUCKET_NAME;
 
     await pipe(
       uploadToBucket(bucket)(metadataKey)(Buffer.from(sentenceData)),
       TE.mapLeft(console.log)
-    )()
+    )();
 
     return await pipe(
       getMetadataFromFile(bucket)(metadataKey),
       TE.getOrElse(() => T.of({ size: 0 }))
-    )()
+    )();
   }
 
   getAvatarClipsUrl(path: string) {
-    return this.getPublicUrl(path)
+    return this.getPublicUrl(path);
   }
 
   async getClipUrl(id: string): Promise<string> {
-    const clip = await this.model.db.findClip(id)
-    return clip ? this.getPublicUrl(clip.path) : null
+    const clip = await this.model.db.findClip(id);
+    return clip ? this.getPublicUrl(clip.path) : null;
   }
 
   /**
@@ -265,6 +241,6 @@ export default class Bucket {
     await pipe(
       deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(path),
       TE.mapLeft((err: Error) => console.log(err))
-    )()
+    )();
   }
 }

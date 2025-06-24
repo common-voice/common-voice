@@ -1,18 +1,18 @@
-import { AddBulkSubmissionCommand } from './command/add-bulk-submission-command'
-import { createBulkSubmissionFilepath } from '../../../../core/bulk-submissions/bulk-submissions'
-import { BulkSubmissionUploadJobQueue } from '../../../../infrastructure/queues/bulkSubmissionQueue'
-import { pipe } from 'fp-ts/lib/function'
-import { taskEither as TE } from 'fp-ts'
-import { createBulkSubmissionError } from '../../../helper/error-helper'
-import { getLocaleIdF } from '../../../../lib/model/db'
+import { AddBulkSubmissionCommand } from './command/add-bulk-submission-command';
+import { createBulkSubmissionFilepath } from '../../../../core/bulk-submissions/bulk-submissions';
+import { BulkSubmissionUploadJobQueue } from '../../../../infrastructure/queues/bulkSubmissionQueue';
+import { pipe } from 'fp-ts/lib/function';
+import { taskEither as TE } from 'fp-ts';
+import { createBulkSubmissionError } from '../../../helper/error-helper';
+import { getLocaleIdF } from '../../../../lib/model/db';
 import {
   BulkSubmission,
   BulkSubmissionImportStatusCreated,
   insertBulkSubmissionIntoDb,
-} from '../../repository/bulk-submission-repository'
-import { JobQueue } from '../../../../infrastructure/queues/types/JobQueue'
-import { BulkSubmissionUploadJob } from '../../../../infrastructure/queues/types/BulkSubmissionJob'
-import { fetchUserClientEmailById } from '../../repository/user-client-repository'
+} from '../../repository/bulk-submission-repository';
+import { JobQueue } from '../../../../infrastructure/queues/types/JobQueue';
+import { BulkSubmissionUploadJob } from '../../../../infrastructure/queues/types/BulkSubmissionJob';
+import { fetchUserClientEmailById } from '../../repository/user-client-repository';
 
 export const addBulkSubmission =
   (getLocaleId: (a: string) => TE.TaskEither<Error, number>) =>
@@ -23,9 +23,7 @@ export const addBulkSubmission =
   (cmd: AddBulkSubmissionCommand) => {
     return pipe(
       TE.Do,
-      TE.let('filepath', () =>
-        createBulkSubmissionFilepath(cmd.locale, cmd.file)
-      ),
+      TE.let('filepath', () => createBulkSubmissionFilepath(cmd.locale, cmd.file)),
       TE.bind('localeId', () => getLocaleId(cmd.locale)),
       TE.bind('userClientEmail', () => fetchClientEmail(cmd.submitter)),
       TE.bind('addToQueue', ({ filepath, userClientEmail }) =>
@@ -50,15 +48,11 @@ export const addBulkSubmission =
           corpus_id: cmd.corpus_id,
         })
       ),
-      TE.mapLeft(err =>
-        createBulkSubmissionError('Bulk submission upload failed', err)
-      ),
+      TE.mapLeft(err => createBulkSubmissionError('Bulk submission upload failed', err)),
       TE.map(({ addToQueue, insertIntoDb }) => addToQueue && insertIntoDb)
-    )
-  }
+    );
+  };
 
 export const addBulkSubmissionCommandHandler = addBulkSubmission(getLocaleIdF)(
   fetchUserClientEmailById
-)(createBulkSubmissionFilepath)(BulkSubmissionUploadJobQueue)(
-  insertBulkSubmissionIntoDb
-)
+)(createBulkSubmissionFilepath)(BulkSubmissionUploadJobQueue)(insertBulkSubmissionIntoDb);

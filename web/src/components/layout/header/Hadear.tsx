@@ -1,7 +1,7 @@
-import React from 'react'
-import classes from './Header.module.css'
-import Breadcrumb from '../../Breadcrumb'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import classes from './Header.module.css';
+import Breadcrumb from '../../Breadcrumb';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -26,7 +26,8 @@ export default function Header() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-4  inline h-4 mx-1 transform group-hover:rotate-180 transition">
+                    className="w-4  inline h-4 mx-1 transform group-hover:rotate-180 transition"
+                  >
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -38,7 +39,8 @@ export default function Header() {
 
                 <ul
                   tabIndex={0}
-                  className="dropdown-content bg-[#0f2837] text-white menu rounded-box z-[1] w-52 p-2 shadow">
+                  className="dropdown-content bg-[#0f2837] text-white menu rounded-box z-[1] w-52 p-2 shadow"
+                >
                   <li>
                     <a>Item 1</a>
                   </li>
@@ -57,7 +59,8 @@ export default function Header() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-4  inline h-4 mx-1 transform group-hover:rotate-180 transition">
+                    className="w-4  inline h-4 mx-1 transform group-hover:rotate-180 transition"
+                  >
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -69,7 +72,8 @@ export default function Header() {
 
                 <ul
                   tabIndex={0}
-                  className="dropdown-content bg-[#0f2837] text-white menu rounded-box z-[1] w-52 p-2 shadow">
+                  className="dropdown-content bg-[#0f2837] text-white menu rounded-box z-[1] w-52 p-2 shadow"
+                >
                   <li>
                     <a>Item 1</a>
                   </li>
@@ -89,7 +93,8 @@ export default function Header() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-4  inline h-4 mx-1 transform group-hover:rotate-180 transition">
+                    className="w-4  inline h-4 mx-1 transform group-hover:rotate-180 transition"
+                  >
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -101,7 +106,8 @@ export default function Header() {
 
                 <ul
                   tabIndex={0}
-                  className="dropdown-content bg-[#0f2837] text-white menu rounded-box z-[1] w-52 p-2 shadow">
+                  className="dropdown-content bg-[#0f2837] text-white menu rounded-box z-[1] w-52 p-2 shadow"
+                >
                   <li>
                     <a>Item 1</a>
                   </li>
@@ -120,7 +126,8 @@ export default function Header() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-4  inline h-4 mx-1 transform group-hover:rotate-180 transition">
+                    className="w-4  inline h-4 mx-1 transform group-hover:rotate-180 transition"
+                  >
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -132,7 +139,8 @@ export default function Header() {
 
                 <ul
                   tabIndex={0}
-                  className="dropdown-content bg-[#0f2837] text-white menu rounded-box z-[1] w-52 p-2 shadow">
+                  className="dropdown-content bg-[#0f2837] text-white menu rounded-box z-[1] w-52 p-2 shadow"
+                >
                   <li>
                     <a>Item 1</a>
                   </li>
@@ -160,5 +168,5 @@ export default function Header() {
       </div>
       <Breadcrumb />
     </>
-  )
+  );
 }

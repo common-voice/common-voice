@@ -1,13 +1,8 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
-import URLS from '../../../../urls'
+import URLS from '../../../../urls';
 
-import {
-  ArrowRight,
-  FirefoxColor,
-  ChromeColor,
-  SafariColor,
-} from '../../../ui/icons';
+import { ArrowRight, FirefoxColor, ChromeColor, SafariColor } from '../../../ui/icons';
 import { LinkButton } from '../../../ui/ui';
 import { isIOS, isMobileSafari } from '../../../../utility';
 import VisuallyHidden from '../../../visually-hidden/visually-hidden';
@@ -31,17 +26,11 @@ const UnsupportedInfo = () => (
             <Localized id="record-platform-not-supported-desktop" />
           </p>
           <div>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.firefox.com/">
+            <a rel="noopener noreferrer" target="_blank" href="https://www.firefox.com/">
               <VisuallyHidden>Firefox</VisuallyHidden>
               <FirefoxColor />
             </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.google.com/chrome">
+            <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/chrome">
               <VisuallyHidden>Chrome</VisuallyHidden>
               <ChromeColor />
             </a>
@@ -58,9 +47,7 @@ const NoSentencesAvailable = () => (
       <h1>
         <Localized id="speak-empty-state" />
       </h1>
-      <LinkButton
-        rounded
-        to={URLS.WRITE}>
+      <LinkButton rounded to={URLS.WRITE}>
         <ArrowRight className="speak-sc-icon" />{' '}
         <Localized id="speak-empty-state-cta">
           <span />

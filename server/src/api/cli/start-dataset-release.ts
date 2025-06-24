@@ -1,14 +1,14 @@
-import { program } from 'commander'
-import { pipe } from 'fp-ts/lib/function'
-import { addJobToQueue, getQueue } from '../../infrastructure/queues/queues'
+import { program } from 'commander';
+import { pipe } from 'fp-ts/lib/function';
+import { addJobToQueue, getQueue } from '../../infrastructure/queues/queues';
 
 type InitDatasetReleaseJob = {
-  type: 'full' | 'delta'
-  from: string
-  until: string
-  releaseName: string
-  previousReleaseName?: string
-}
+  type: 'full' | 'delta';
+  from: string;
+  until: string;
+  releaseName: string;
+  previousReleaseName?: string;
+};
 
 const startDatasetRelease = async (args: any, options: any) => {
   const run = pipe(
@@ -18,14 +18,14 @@ const startDatasetRelease = async (args: any, options: any) => {
       from: args.from,
       until: args.until,
       releaseName: args.releaseName,
-      previousReleaseName: args.previousReleaseName
+      previousReleaseName: args.previousReleaseName,
     })('init')({})
-  )
+  );
 
-  await run()
+  await run();
 
-  process.exit(0)
-}
+  process.exit(0);
+};
 
 program
   .name('start the dataset release process')
@@ -53,6 +53,6 @@ program
     The clips from the previous release will be downloaded to bootstrap the new release.
     `
   )
-  .action(startDatasetRelease)
+  .action(startDatasetRelease);
 
-program.parse()
+program.parse();

@@ -19,9 +19,7 @@ interface PropsFromState {
   isSubscribedToMailingList: boolean;
 }
 
-const DatasetInfo: React.FC<PropsFromState> = ({
-  isSubscribedToMailingList,
-}) => {
+const DatasetInfo: React.FC<PropsFromState> = ({ isSubscribedToMailingList }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   const [languagesWithDatasets, setLanguagesWithDatasets] = useState([]);
@@ -68,9 +66,7 @@ const DatasetInfo: React.FC<PropsFromState> = ({
         <DatasetDescription releaseData={currentDataset} />
       )}
 
-      <DatasetSegmentDownload
-        isSubscribedToMailingList={isSubscribedToMailingList}
-      />
+      <DatasetSegmentDownload isSubscribedToMailingList={isSubscribedToMailingList} />
     </div>
   );
 };

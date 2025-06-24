@@ -1,5 +1,5 @@
 export type GetSentencesForReviewQuery = {
-  localeId: number
-  clientId: string
-  corpus_id: string
-}
+  localeId: number;
+  clientId: string;
+  corpus_id: string;
+};

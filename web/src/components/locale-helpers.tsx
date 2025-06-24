@@ -14,8 +14,7 @@ interface LocaleProps extends LocalePropsFromState {
   dispatch: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
-export const toLocaleRouteBuilder = (locale: string) => (path: string) =>
-  `/${locale}${path}`
+export const toLocaleRouteBuilder = (locale: string) => (path: string) => `/${locale}${path}`;
 
 export const localeConnector = connect<LocalePropsFromState>(
   ({ locale }: StateTree) => ({
@@ -47,25 +46,11 @@ export function useContributableLocales() {
 }
 
 export function useContributableNativeNames() {
-  return useTypedSelector(
-    ({ languages }) => languages.contributableNativeNames
-  );
+  return useTypedSelector(({ languages }) => languages.contributableNativeNames);
 }
 
 export function useLocalizedDiscourseURL() {
-  const DISCOURSE_LOCALES = [
-    'de',
-    'ca',
-    'es',
-    'fr',
-    'it',
-    'sw',
-    'tr',
-    'uk',
-    'rw',
-    'uz',
-    'zh-TW',
-  ];
+  const DISCOURSE_LOCALES = ['de', 'ca', 'es', 'fr', 'it', 'sw', 'tr', 'uk', 'rw', 'uz', 'zh-TW'];
   const DISCOURSE_BASE = 'https://discourse.mozilla.org/c/voice';
 
   const [locale] = useLocale();
@@ -100,18 +85,8 @@ export function useNativeNameAvailableLocales() {
 
 export const LocaleLink: any = localeConnector(
   (props: { blank?: boolean } & LinkProps & LocaleProps) => {
-    const {
-      dispatch,
-      locale,
-      blank,
-      to,
-      toLocaleRoute,
-      children,
-      ...restOfProps
-    } = props;
-    const blankProps = blank
-      ? { target: '_blank', rel: 'noopener noreferrer' }
-      : {};
+    const { dispatch, locale, blank, to, toLocaleRoute, children, ...restOfProps } = props;
+    const blankProps = blank ? { target: '_blank', rel: 'noopener noreferrer' } : {};
     return props.target ? (
       <a href={toLocaleRoute(to)} {...blankProps} {...restOfProps}>
         {children}
@@ -124,18 +99,15 @@ export const LocaleLink: any = localeConnector(
   }
 );
 
-export const LocaleNavLink = localeConnector(
-  (props: NavLinkProps & LocaleProps) => {
-    const { dispatch, locale, to, toLocaleRoute, children, ...restOfProps } =
-      props;
+export const LocaleNavLink = localeConnector((props: NavLinkProps & LocaleProps) => {
+  const { dispatch, locale, to, toLocaleRoute, children, ...restOfProps } = props;
 
-    return (
-      <NavLink to={toLocaleRoute(to)} {...restOfProps}>
-        {children}
-      </NavLink>
-    );
-  }
-);
+  return (
+    <NavLink to={toLocaleRoute(to)} {...restOfProps}>
+      {children}
+    </NavLink>
+  );
+});
 
 export function isContributable(locale: string) {
   const contributableLocales = useContributableLocales();

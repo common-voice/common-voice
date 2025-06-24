@@ -1,21 +1,21 @@
-import * as React from 'react'
-import classNames from 'classnames'
-import { Localized } from '@fluent/react'
-import { RouteComponentProps, withRouter } from 'react-router'
+import * as React from 'react';
+import classNames from 'classnames';
+import { Localized } from '@fluent/react';
+import { RouteComponentProps, withRouter } from 'react-router';
 
-import { TextButton } from '../../../ui/ui'
-import { ChevronDown } from '../../../ui/icons'
-import ContributeMenuContent from '../contribute-menu-content'
+import { TextButton } from '../../../ui/ui';
+import { ChevronDown } from '../../../ui/icons';
+import ContributeMenuContent from '../contribute-menu-content';
 
-import './contribute-menu.css'
+import './contribute-menu.css';
 
 interface ContributeMenuProps extends RouteComponentProps {
-  showMenu: boolean
-  setShowMenu: React.Dispatch<React.SetStateAction<boolean>>
-  showMobileMenu: boolean
-  toggleMobileMenuVisible: () => void
-  isContributionPageActive: boolean
-  isUserLoggedIn: boolean
+  showMenu: boolean;
+  setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
+  showMobileMenu: boolean;
+  toggleMobileMenuVisible: () => void;
+  isContributionPageActive: boolean;
+  isUserLoggedIn: boolean;
 }
 
 const ContributeMenu: React.FC<ContributeMenuProps> = ({
@@ -29,15 +29,15 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
 }) => {
   const handleMouseEnter = () => {
     if (!isContributionPageActive) {
-      setShowMenu(true)
+      setShowMenu(true);
     }
-  }
+  };
 
   const handleMouseLeave = () => {
     if (!isContributionPageActive) {
-      setShowMenu(false)
+      setShowMenu(false);
     }
-  }
+  };
 
   return (
     <div className="contribute-wrapper">
@@ -64,11 +64,13 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         })}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        data-testid="contribute-menu">
+        data-testid="contribute-menu"
+      >
         <div
           className={classNames('contribute-links-wrapper', {
             'show-border': isContributionPageActive,
-          })}>
+          })}
+        >
           <p className="nav-link-item">
             <Localized id="contribute" />
           </p>
@@ -77,9 +79,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           )}
         </div>
         {(showMobileMenu || isContributionPageActive) && (
-          <div
-            className="menu-wrapper-mobile"
-            data-testid="contribute-mobile-menu">
+          <div className="menu-wrapper-mobile" data-testid="contribute-mobile-menu">
             <ContributeMenuContent
               pathname={location.pathname}
               className="mobile-menu-list"
@@ -89,15 +89,12 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         )}
         <div className="menu-wrapper" data-testid="menu-wrapper">
           <div className="menu">
-            <ContributeMenuContent
-              className="menu-list"
-              isUserLoggedIn={isUserLoggedIn}
-            />
+            <ContributeMenuContent className="menu-list" isUserLoggedIn={isUserLoggedIn} />
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default withRouter(ContributeMenu)
+export default withRouter(ContributeMenu);

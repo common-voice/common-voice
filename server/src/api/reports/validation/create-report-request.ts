@@ -1,4 +1,4 @@
-import { AllowedSchema } from 'express-json-validator-middleware'
+import { AllowedSchema } from 'express-json-validator-middleware';
 
 export const CreateReportRequest: AllowedSchema = {
   type: 'object',
@@ -6,7 +6,7 @@ export const CreateReportRequest: AllowedSchema = {
   properties: {
     kind: {
       type: 'string',
-      enum: ['clip', 'sentence', 'pending_sentence']
+      enum: ['clip', 'sentence', 'pending_sentence'],
     },
     id: {
       type: 'string',
@@ -18,4 +18,4 @@ export const CreateReportRequest: AllowedSchema = {
       },
     },
   },
-}
+};

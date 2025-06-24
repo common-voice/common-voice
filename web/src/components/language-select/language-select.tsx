@@ -1,11 +1,7 @@
 export const ALL_LOCALES = 'all-locales';
 
 import * as React from 'react';
-import {
-  LocalizedGetAttribute,
-  useAvailableLocales,
-  useLocale,
-} from '../locale-helpers';
+import { LocalizedGetAttribute, useAvailableLocales, useLocale } from '../locale-helpers';
 import { LabeledSelect } from '../ui/ui';
 
 import '../localization-select/localization-select.css';
@@ -22,9 +18,7 @@ const LanguageSelect = ({ locale, onChange, value, includesAll }: Props) => {
   const [clientLocale] = useLocale();
   let languages: string[] = [];
   const localesWithNames = useAvailableLocales();
-  const sortedLocales = localesWithNames.sort((a, b) =>
-    a.localeCompare(b, clientLocale)
-  );
+  const sortedLocales = localesWithNames.sort((a, b) => a.localeCompare(b, clientLocale));
 
   languages = sortedLocales;
 
@@ -52,7 +46,8 @@ const LanguageSelect = ({ locale, onChange, value, includesAll }: Props) => {
             if (onChange) {
               onChange(event.target.value);
             }
-          }}>
+          }}
+        >
           {languages.map(code => (
             <Localized key={code} id={code}>
               <option key={code} value={code}>

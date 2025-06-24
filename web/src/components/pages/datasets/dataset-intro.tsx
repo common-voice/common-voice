@@ -24,16 +24,11 @@ const DatasetIntro = () => {
       <div>
         {!showIntroTextMdDown && (
           <Localized id="show-wall-of-text">
-            <TextButton
-              className="hidden-lg-up"
-              onClick={() => setShow(true)}
-            />
+            <TextButton className="hidden-lg-up" onClick={() => setShow(true)} />
           </Localized>
         )}
         <Localized id="datasets-positioning">
-          <p
-            className={classNames({ 'hidden-md-down': !showIntroTextMdDown })}
-          />
+          <p className={classNames({ 'hidden-md-down': !showIntroTextMdDown })} />
         </Localized>
       </div>
     </div>

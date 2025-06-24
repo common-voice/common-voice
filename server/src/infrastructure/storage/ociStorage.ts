@@ -1,10 +1,10 @@
-import * as oci from 'oci-sdk'
-import { taskEither as TE } from 'fp-ts'
-import { Readable } from 'stream'
-import { StatusCodes } from 'http-status-codes'
-import * as fs from 'fs'
-import * as path from 'path'
-import { getConfig } from '../../config-helper'
+import * as oci from 'oci-sdk';
+import { taskEither as TE } from 'fp-ts';
+import { Readable } from 'stream';
+import { StatusCodes } from 'http-status-codes';
+import * as fs from 'fs';
+import * as path from 'path';
+import { getConfig } from '../../config-helper';
 
 // Configuration Retrieval Function
 const getociConfig = () => ({
@@ -15,7 +15,7 @@ const getociConfig = () => ({
   OCI_REGION: getConfig().OCI_REGION || '', // Use region ID instead of enum
   OCI_NAMESPACE: getConfig().OCI_NAMESPACE || '',
   OCI_BUCKET_NAME: getConfig().OCI_BUCKET_NAME || '',
-})
+});
 
 // const getociConfig = () => ({
 //   OCI_TENANCY_ID:
@@ -36,15 +36,15 @@ const getociConfig = () => ({
 // Load the private key
 const loadPrivateKey = (filePath: string): string => {
   try {
-    return fs.readFileSync(filePath, 'utf8')
+    return fs.readFileSync(filePath, 'utf8');
   } catch (err) {
-    throw new Error(`Failed to load private key from file: ${err.message}`)
+    throw new Error(`Failed to load private key from file: ${err.message}`);
   }
-}
+};
 
 // Ensure required configuration values are set
-const config = getociConfig()
-const region = oci.common.Region.fromRegionId(config.OCI_REGION) // Use dynamic region handling
+const config = getociConfig();
+const region = oci.common.Region.fromRegionId(config.OCI_REGION); // Use dynamic region handling
 
 const {
   OCI_TENANCY_ID,
@@ -53,27 +53,24 @@ const {
   OCI_PRIVATE_KEY_PATH,
   OCI_NAMESPACE,
   OCI_BUCKET_NAME,
-} = config
+} = config;
 
-const missingConfigs = []
+const missingConfigs = [];
 
-if (!OCI_TENANCY_ID) missingConfigs.push(`OCI_TENANCY_ID: ${OCI_TENANCY_ID}`)
-if (!OCI_USER_ID) missingConfigs.push(`OCI_USER_ID: ${OCI_USER_ID}`)
-if (!OCI_FINGERPRINT) missingConfigs.push(`OCI_FINGERPRINT: ${OCI_FINGERPRINT}`)
-if (!OCI_PRIVATE_KEY_PATH)
-  missingConfigs.push(`OCI_PRIVATE_KEY_PATH: ${OCI_PRIVATE_KEY_PATH}`)
-if (!region) missingConfigs.push(`OCI_REGION: ${config.OCI_REGION}`)
-if (!OCI_NAMESPACE) missingConfigs.push(`OCI_NAMESPACE: ${OCI_NAMESPACE}`)
-if (!OCI_BUCKET_NAME) missingConfigs.push(`OCI_BUCKET_NAME: ${OCI_BUCKET_NAME}`)
+if (!OCI_TENANCY_ID) missingConfigs.push(`OCI_TENANCY_ID: ${OCI_TENANCY_ID}`);
+if (!OCI_USER_ID) missingConfigs.push(`OCI_USER_ID: ${OCI_USER_ID}`);
+if (!OCI_FINGERPRINT) missingConfigs.push(`OCI_FINGERPRINT: ${OCI_FINGERPRINT}`);
+if (!OCI_PRIVATE_KEY_PATH) missingConfigs.push(`OCI_PRIVATE_KEY_PATH: ${OCI_PRIVATE_KEY_PATH}`);
+if (!region) missingConfigs.push(`OCI_REGION: ${config.OCI_REGION}`);
+if (!OCI_NAMESPACE) missingConfigs.push(`OCI_NAMESPACE: ${OCI_NAMESPACE}`);
+if (!OCI_BUCKET_NAME) missingConfigs.push(`OCI_BUCKET_NAME: ${OCI_BUCKET_NAME}`);
 
 if (missingConfigs.length > 0) {
-  throw new Error(
-    `Missing required OCI configuration values: ${missingConfigs.join(', ')}`
-  )
+  throw new Error(`Missing required OCI configuration values: ${missingConfigs.join(', ')}`);
 }
 
 // Load the private key
-const privateKey = loadPrivateKey(OCI_PRIVATE_KEY_PATH)
+const privateKey = loadPrivateKey(OCI_PRIVATE_KEY_PATH);
 
 // OCI Configuration
 const provider = new oci.common.SimpleAuthenticationDetailsProvider(
@@ -83,7 +80,7 @@ const provider = new oci.common.SimpleAuthenticationDetailsProvider(
   privateKey,
   null, // passphrase (if any)
   region
-)
+);
 
 // Enable debug logging
 // oci.common.setLogLevel(oci.common.LogLevel.Debug)
@@ -91,7 +88,7 @@ const provider = new oci.common.SimpleAuthenticationDetailsProvider(
 // Initialize the Object Storage client
 const objectStorageClient = new oci.objectstorage.ObjectStorageClient({
   authenticationDetailsProvider: provider,
-})
+});
 
 // // Test authentication by listing buckets
 // const testAuthentication = async () => {
@@ -109,14 +106,14 @@ const objectStorageClient = new oci.objectstorage.ObjectStorageClient({
 // testAuthentication()
 const getNamespace = async () => {
   try {
-    const response = await objectStorageClient.getNamespace({})
-    console.log('Hello Namespace:', response.value)
+    const response = await objectStorageClient.getNamespace({});
+    console.log('Hello Namespace:', response.value);
   } catch (err) {
-    console.error('Failed to retrieve namespace:', err)
+    console.error('Failed to retrieve namespace:', err);
   }
-}
+};
 
-getNamespace()
+getNamespace();
 
 // Functions
 const streamUpload =
@@ -131,22 +128,21 @@ const streamUpload =
             bucketName: bucket,
             objectName: path,
             putObjectBody: data,
-          }
-          console.log('Upload Details:', uploadDetails)
+          };
+          console.log('Upload Details:', uploadDetails);
 
           objectStorageClient.putObject(uploadDetails).then(
             () => {
-              console.log(`Successfully uploaded ${path}`)
-              resolve()
+              console.log(`Successfully uploaded ${path}`);
+              resolve();
             },
             (err: unknown) => {
-              reject(new Error(`Failed to upload file: ${String(err)}`))
+              reject(new Error(`Failed to upload file: ${String(err)}`));
             }
-          )
+          );
         }),
-      (err: unknown) =>
-        new Error(`Error occurred during stream upload: ${String(err)}`)
-    )
+      (err: unknown) => new Error(`Error occurred during stream upload: ${String(err)}`)
+    );
 
 const upload =
   (bucket: string) =>
@@ -159,23 +155,23 @@ const upload =
           bucketName: bucket,
           objectName: path,
           putObjectBody: data,
-        }
-        await objectStorageClient.putObject(uploadDetails)
-        console.log(`Successfully uploaded ${path}`)
+        };
+        await objectStorageClient.putObject(uploadDetails);
+        console.log(`Successfully uploaded ${path}`);
       },
       (err: Error) => err
-    )
+    );
 
 const getSignedUrl =
   (bucket: string) =>
   (path: string): TE.TaskEither<Error, string> =>
     TE.tryCatch(
       async () => {
-        const url = `https://${OCI_NAMESPACE}.compat.objectstorage.${config.OCI_REGION}.oraclecloud.com/${bucket}/${path}`
-        return url // OCI doesn't natively support signed URLs like GCS, this URL assumes public access
+        const url = `https://${OCI_NAMESPACE}.compat.objectstorage.${config.OCI_REGION}.oraclecloud.com/${bucket}/${path}`;
+        return url; // OCI doesn't natively support signed URLs like GCS, this URL assumes public access
       },
       (err: Error) => err
-    )
+    );
 
 const deleteFile =
   (bucket: string) =>
@@ -186,11 +182,11 @@ const deleteFile =
           namespaceName: OCI_NAMESPACE,
           bucketName: bucket,
           objectName: path,
-        })
-        console.log(`Successfully deleted ${path}`)
+        });
+        console.log(`Successfully deleted ${path}`);
       },
       (err: Error) => err
-    )
+    );
 
 const fileExists =
   (bucket: string) =>
@@ -202,19 +198,19 @@ const fileExists =
             namespaceName: OCI_NAMESPACE,
             bucketName: bucket,
             objectName: path,
-          })
-          return true
+          });
+          return true;
         } catch (err) {
-          if (err.statusCode === 404) return false
-          throw err
+          if (err.statusCode === 404) return false;
+          throw err;
         }
       },
       (err: Error) => err
-    )
+    );
 
 // Exports
-export const streamUploadToBucket = streamUpload
-export const uploadToBucket = upload
-export const doesFileExistInBucket = fileExists
-export const getSignedUrlFromBucket = getSignedUrl
-export const deleteFileFromBucket = deleteFile
+export const streamUploadToBucket = streamUpload;
+export const uploadToBucket = upload;
+export const doesFileExistInBucket = fileExists;
+export const getSignedUrlFromBucket = getSignedUrl;
+export const deleteFileFromBucket = deleteFile;

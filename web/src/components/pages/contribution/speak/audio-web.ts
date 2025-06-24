@@ -60,9 +60,7 @@ export default class AudioWeb {
       }
 
       if (navigator.mediaDevices?.getUserMedia) {
-        navigator.mediaDevices
-          .getUserMedia({ audio: true })
-          .then(resolve, deny);
+        navigator.mediaDevices.getUserMedia({ audio: true }).then(resolve, deny);
       } else if (navigator.webkitGetUserMedia) {
         navigator.webkitGetUserMedia({ audio: true }, resolve, deny);
       } else if (navigator.mozGetUserMedia) {
@@ -96,9 +94,7 @@ export default class AudioWeb {
       window.MediaRecorder.isTypeSupported(format)
     );
 
-    return (
-      typeof window.MediaRecorder !== 'undefined' && isAudioFormatSupported
-    );
+    return typeof window.MediaRecorder !== 'undefined' && isAudioFormatSupported;
   }
 
   private analyze() {
@@ -129,8 +125,7 @@ export default class AudioWeb {
     const microphone = await this.getMicrophone();
 
     this.microphone = microphone;
-    const audioContext = new (window.AudioContext ||
-      window.webkitAudioContext)();
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
     const sourceNode = audioContext.createMediaStreamSource(microphone);
     const volumeNode = audioContext.createGain();
     const analyzerNode = audioContext.createAnalyser();
@@ -180,10 +175,7 @@ export default class AudioWeb {
       this.chunks = [];
       // Remove the old listeners.
       this.recorder.removeEventListener('start', this.recorderListeners.start);
-      this.recorder.removeEventListener(
-        'dataavailable',
-        this.recorderListeners.dataavailable
-      );
+      this.recorder.removeEventListener('dataavailable', this.recorderListeners.dataavailable);
 
       // Update the stored listeners.
       this.recorderListeners.start = (e: Event) => res();
@@ -193,10 +185,7 @@ export default class AudioWeb {
 
       // Add the new listeners.
       this.recorder.addEventListener('start', this.recorderListeners.start);
-      this.recorder.addEventListener(
-        'dataavailable',
-        this.recorderListeners.dataavailable
-      );
+      this.recorder.addEventListener('dataavailable', this.recorderListeners.dataavailable);
 
       // Finally, start it up.
       // We want to be able to record up to 60s of audio in a single blob.

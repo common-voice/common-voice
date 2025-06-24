@@ -53,8 +53,8 @@ export default class Server {
       if (ready) {
         this.taskQueues = createTaskQueues(this.api.takeout);
         this.api.takeout.setQueue(this.taskQueues.dataTakeout);
-        setupUpdateValidatedSentencesQueue()
-        setupBulkSubmissionQueue()
+        setupUpdateValidatedSentencesQueue();
+        setupBulkSubmissionQueue();
       }
     });
 
@@ -88,10 +88,7 @@ export default class Server {
         response.set('X-Content-Type-Options', 'nosniff');
         response.set('X-XSS-Protection', '1; mode=block');
         response.set('X-Frame-Options', 'DENY');
-        response.set(
-          'Strict-Transport-Security',
-          'max-age=' + SECONDS_IN_A_YEAR
-        );
+        response.set('Strict-Transport-Security', 'max-age=' + SECONDS_IN_A_YEAR);
       },
     };
     app.use(express.json());
@@ -141,10 +138,7 @@ export default class Server {
 
       this.setupPrivacyAndTermsRoutes();
 
-      app.use(
-        /(.*)/,
-        express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)
-      );
+      app.use(/(.*)/, express.static(FULL_CLIENT_PATH + '/index.html', staticOptions));
 
       // Enable Sentry error handling
       app.use(Sentry.Handlers.errorHandler());
@@ -166,28 +160,19 @@ export default class Server {
           }
 
           const isAPIError = error instanceof APIError;
-          return response
-            .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
-            .json({
-              message: isAPIError ? error.message : 'Something went wrong',
-            });
+          return response.status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR).json({
+            message: isAPIError ? error.message : 'Something went wrong',
+          });
         }
       );
     }
   }
 
-  private ensureSSL(
-    req: express.Request,
-    res: express.Response,
-    next: express.NextFunction
-  ) {
+  private ensureSSL(req: express.Request, res: express.Response, next: express.NextFunction) {
     // Set by HTTPS load-balancers like ELBs
     if (req.headers['x-forwarded-proto'] === 'http') {
       // Send to https please, always and forever
-      res.redirect(
-        StatusCodes.PERMANENT_REDIRECT,
-        'https://' + req.headers.host + req.url
-      );
+      res.redirect(StatusCodes.PERMANENT_REDIRECT, 'https://' + req.headers.host + req.url);
     } else {
       return next();
     }
@@ -212,24 +197,15 @@ export default class Server {
   }
 
   private setupPrivacyAndTermsRoutes() {
-    this.app.get(
-      '/privacy/:locale.html',
-      async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('privacy_notice', locale));
-      }
-    );
-    this.app.get(
-      '/terms/:locale.html',
-      async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('terms', locale));
-      }
-    );
-    this.app.get(
-      '/challenge-terms/:locale.html',
-      async (_request, response) => {
-        response.send(await fetchLegalDocument('challenge_terms', 'en'));
-      }
-    );
+    this.app.get('/privacy/:locale.html', async ({ params: { locale } }, response) => {
+      response.send(await fetchLegalDocument('privacy_notice', locale));
+    });
+    this.app.get('/terms/:locale.html', async ({ params: { locale } }, response) => {
+      response.send(await fetchLegalDocument('terms', locale));
+    });
+    this.app.get('/challenge-terms/:locale.html', async (_request, response) => {
+      response.send(await fetchLegalDocument('challenge_terms', 'en'));
+    });
   }
 
   /**
@@ -286,9 +262,7 @@ export default class Server {
   listen(): void {
     // Begin handling requests before clip list is loaded.
     const port = getConfig().SERVER_PORT;
-    this.server = this.app.listen(port, () =>
-      this.print(`listening at http://localhost:${port}`)
-    );
+    this.server = this.app.listen(port, () => this.print(`listening at http://localhost:${port}`));
   }
 
   /**

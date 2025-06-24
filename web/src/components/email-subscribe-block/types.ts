@@ -16,9 +16,7 @@ export interface SubscribePropsFromDispatch {
   updateUser: typeof User.actions.update;
 }
 
-export interface SubscribeProps
-  extends SubscribePropsFromState,
-    SubscribePropsFromDispatch {
+export interface SubscribeProps extends SubscribePropsFromState, SubscribePropsFromDispatch {
   demoMode?: boolean;
   subscribeText: string;
   light?: boolean;

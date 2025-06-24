@@ -4,11 +4,7 @@ import { useState } from 'react';
 import { useAPI } from '../../hooks/store-hooks';
 import { trackGlobal } from '../../services/tracker';
 import URLS from '../../urls';
-import {
-  LocaleLink,
-  LocalizedGetAttribute,
-  useLocale,
-} from '../locale-helpers';
+import { LocaleLink, LocalizedGetAttribute, useLocale } from '../locale-helpers';
 import { CautionIcon, CheckIcon, OldPlayIcon } from '../ui/icons';
 import { LabeledCheckbox } from '../ui/ui';
 
@@ -19,9 +15,7 @@ export default function SubscribeNewsletter() {
   const [locale] = useLocale();
   const [email, setEmail] = useState('');
   const [privacyAgreed, setPrivacyAgreed] = useState(false);
-  const [status, setStatus] = useState<
-    null | 'submitting' | 'submitted' | 'error'
-  >(null);
+  const [status, setStatus] = useState<null | 'submitting' | 'submitted' | 'error'>(null);
 
   return (
     <form
@@ -43,7 +37,8 @@ export default function SubscribeNewsletter() {
           setStatus('error');
           console.error(e);
         }
-      }}>
+      }}
+    >
       <Localized id="email-subscription-title-new">
         <div className="goal-title" />
       </Localized>
@@ -87,7 +82,8 @@ export default function SubscribeNewsletter() {
         label={
           <Localized
             id="accept-privacy"
-            elems={{ privacyLink: <LocaleLink to={URLS.PRIVACY} blank /> }}>
+            elems={{ privacyLink: <LocaleLink to={URLS.PRIVACY} blank /> }}
+          >
             <span />
           </Localized>
         }

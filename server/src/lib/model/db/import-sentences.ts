@@ -21,8 +21,7 @@ function print(...args: any[]) {
 
 async function getFilesInFolder(path: string): Promise<string[]> {
   const fileNames = await promisify(fs, fs.readdir, path);
-  return fileNames
-  .map((name: string) => {
+  return fileNames.map((name: string) => {
     return path + '/' + name;
   });
 }
@@ -44,7 +43,7 @@ function streamSentences(localePath: string) {
             source,
           });
           sentences = [];
-        }
+        };
         await new Promise<void>(resolve => {
           const fileStream = fs
             .createReadStream(filePath)
@@ -77,11 +76,7 @@ function streamSentences(localePath: string) {
   return stream;
 }
 
-async function importLocaleSentences(
-  pool: any,
-  locale: string,
-  version: number
-) {
+async function importLocaleSentences(pool: any, locale: string, version: number) {
   await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
   const [[{ localeId }]] = await pool.query(
     'SELECT id AS localeId FROM locales WHERE name = ? LIMIT 1',
@@ -92,19 +87,11 @@ async function importLocaleSentences(
     print('importing', locale);
     const stream = streamSentences(path.join(SENTENCES_FOLDER, locale));
     stream
-      .on(
-        'data',
-        async ({
-          sentences,
-          source,
-        }: {
-          sentences: string[];
-          source: string;
-        }) => {
-          stream.pause();
-          try {
-            await pool.query(
-              `
+      .on('data', async ({ sentences, source }: { sentences: string[]; source: string }) => {
+        stream.pause();
+        try {
+          await pool.query(
+            `
               INSERT INTO sentences
               (id, text, is_used, locale_id, source, version)
               VALUES ${sentences
@@ -127,28 +114,25 @@ async function importLocaleSentences(
                 source = VALUES(source),
                 version = VALUES(version);
             `
-            );
-          } catch (e) {
-            console.error(
-              'error when inserting sentence batch from "',
-              sentences[0],
-              '" to "',
-              sentences[sentences.length - 1],
-              '":',
-              e
-            );
-          }
-          stream.resume();
+          );
+        } catch (e) {
+          console.error(
+            'error when inserting sentence batch from "',
+            sentences[0],
+            '" to "',
+            sentences[sentences.length - 1],
+            '":',
+            e
+          );
         }
-      )
+        stream.resume();
+      })
       .on('end', resolve);
   });
 }
 
 export async function importSentences(pool: any) {
-  const oldVersion = Number(
-    (await useRedis) ? await redis.get('sentences-version') : 0
-  );
+  const oldVersion = Number((await useRedis) ? await redis.get('sentences-version') : 0);
   const version = ((oldVersion || 0) + 1) % 256; //== max size of version column
   const locales = (
     (await new Promise(resolve =>
@@ -164,8 +148,7 @@ export async function importSentences(pool: any) {
     }
   }
 
-  (await useRedis) &&
-    (await redis.set('sentences-version', version.toString()));
+  (await useRedis) && (await redis.set('sentences-version', version.toString()));
 
   await pool.query(
     `

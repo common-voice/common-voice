@@ -18,6 +18,6 @@ export type TakeoutRequest = {
 };
 
 export type TakeoutResponse = {
-  parts: string[]
-  metadata: string
-}
+  parts: string[];
+  metadata: string;
+};

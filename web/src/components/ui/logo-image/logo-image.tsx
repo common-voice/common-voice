@@ -5,16 +5,17 @@ interface Props {
 }
 
 const LogoImage = ({ isReverse }: Props) => {
-  const imageSource = isReverse
-    ? require('./cv-logo-white.svg')
-    : require('./cv-logo-black.svg');
+  const imageSource = isReverse ? require('./cv-logo-white.svg') : require('./cv-logo-black.svg');
 
   return (
-    <img className="LogoImage" src="/voicewall/img/logo-white-transparent.png" alt="الجدارية الصوتية" style={
-      {
-        width: "100%",
-      }
-    } />
+    <img
+      className="LogoImage"
+      src="/voicewall/img/logo-white-transparent.png"
+      alt="الجدارية الصوتية"
+      style={{
+        width: '100%',
+      }}
+    />
   );
 };
 

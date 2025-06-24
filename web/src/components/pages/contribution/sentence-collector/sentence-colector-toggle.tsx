@@ -1,28 +1,23 @@
-import * as React from 'react'
-import { Localized } from '@fluent/react'
-import classNames from 'classnames'
+import * as React from 'react';
+import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 
-import { TextButton } from '../../../ui/ui'
-import {
-  SingleContributionIcon,
-  BulkContributionIcon,
-} from '../../../../components/ui/icons'
-import { WriteSubmissionToggleOptions } from './write/write-container'
+import { TextButton } from '../../../ui/ui';
+import { SingleContributionIcon, BulkContributionIcon } from '../../../../components/ui/icons';
+import { WriteSubmissionToggleOptions } from './write/write-container';
 
 type Props = {
-  onToggle: (option: WriteSubmissionToggleOptions) => void
-  activeOption: WriteSubmissionToggleOptions
-}
+  onToggle: (option: WriteSubmissionToggleOptions) => void;
+  activeOption: WriteSubmissionToggleOptions;
+};
 
-const SentenceCollectorToggle: React.FC<Props> = ({
-  onToggle,
-  activeOption,
-}) => (
+const SentenceCollectorToggle: React.FC<Props> = ({ onToggle, activeOption }) => (
   <div className="sc-toggle-wrapper" data-testid="sc-toggle">
     <div
       className={classNames('toggle-option single', {
         active: activeOption === 'single',
-      })}>
+      })}
+    >
       <SingleContributionIcon isActive={activeOption === 'single'} />
       <>
         <Localized id="single-sentence-submission">
@@ -33,10 +28,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
           />
         </Localized>
         <Localized id="single-sentence">
-          <TextButton
-            className="single-option hidden-lg-up"
-            onClick={() => onToggle('single')}
-          />
+          <TextButton className="single-option hidden-lg-up" onClick={() => onToggle('single')} />
         </Localized>
       </>
     </div>
@@ -44,7 +36,8 @@ const SentenceCollectorToggle: React.FC<Props> = ({
     <div
       className={classNames('toggle-option bulk', {
         active: activeOption === 'bulk',
-      })}>
+      })}
+    >
       <BulkContributionIcon isActive={activeOption === 'bulk'} />
       <>
         <Localized id="bulk-sentence-submission">
@@ -55,14 +48,11 @@ const SentenceCollectorToggle: React.FC<Props> = ({
           />
         </Localized>
         <Localized id="bulk-sentences">
-          <TextButton
-            className="bulk-option hidden-lg-up"
-            onClick={() => onToggle('bulk')}
-          />
+          <TextButton className="bulk-option hidden-lg-up" onClick={() => onToggle('bulk')} />
         </Localized>
       </>
     </div>
   </div>
-)
+);
 
-export default SentenceCollectorToggle
+export default SentenceCollectorToggle;

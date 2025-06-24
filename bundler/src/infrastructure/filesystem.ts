@@ -1,16 +1,16 @@
-import crypto from 'node:crypto'
-import fs from 'node:fs'
-import { spawn } from 'node:child_process'
+import crypto from 'node:crypto';
+import fs from 'node:fs';
+import { spawn } from 'node:child_process';
 
-import { io as IO, taskEither as TE, array as Arr } from 'fp-ts'
-import { flow, pipe } from 'fp-ts/lib/function'
-import path from 'node:path'
+import { io as IO, taskEither as TE, array as Arr } from 'fp-ts';
+import { flow, pipe } from 'fp-ts/lib/function';
+import path from 'node:path';
 
-const trimSpaces = (str: string) => str.trim()
-const splitOnSpace = (str: string) => str.split(' ')
-const isNotEmptyString = (str: string) => str !== ''
+const trimSpaces = (str: string) => str.trim();
+const splitOnSpace = (str: string) => str.split(' ');
+const isNotEmptyString = (str: string) => str !== '';
 
-export type LineCounts = Record<string, number>
+export type LineCounts = Record<string, number>;
 
 /**
  * Creates a directory at the specified path if it does not already exist.
@@ -21,9 +21,9 @@ export type LineCounts = Record<string, number>
 export const prepareDir =
   (dirPath: string): IO.IO<void> =>
   () => {
-    console.log(`Creating ${dirPath}`)
-    fs.mkdirSync(dirPath, { recursive: true })
-  }
+    console.log(`Creating ${dirPath}`);
+    fs.mkdirSync(dirPath, { recursive: true });
+  };
 
 /**
  * Counts the number of lines in the given filepaths.
@@ -40,12 +40,12 @@ const countLinesPromise = (filepaths: string[]) =>
   new Promise<LineCounts>((resolve, reject) => {
     const cc = spawn('wc', ['-l', ...filepaths], {
       shell: true,
-    })
+    });
 
-    const buffers: Buffer[] = []
+    const buffers: Buffer[] = [];
 
-    cc.stdout.on('data', data => buffers.push(data))
-    cc.stderr.on('data', data => console.log(`${data}`))
+    cc.stdout.on('data', data => buffers.push(data));
+    cc.stderr.on('data', data => console.log(`${data}`));
 
     cc.on('close', () => {
       const result = pipe(
@@ -55,46 +55,44 @@ const countLinesPromise = (filepaths: string[]) =>
         Arr.reduce({}, (acc: LineCounts, [count, filepath]) => {
           return filepath === 'total'
             ? acc
-            : { ...acc, ...{ [path.basename(filepath)]: Number(count) } }
-        }),
-      )
+            : { ...acc, ...{ [path.basename(filepath)]: Number(count) } };
+        })
+      );
 
-      resolve(result)
-    })
-    cc.on('error', reason => reject(reason))
-  })
+      resolve(result);
+    });
+    cc.on('error', reason => reject(reason));
+  });
 
-export const calculateChecksum = (
-  filepath: string,
-): TE.TaskEither<Error, string> => {
+export const calculateChecksum = (filepath: string): TE.TaskEither<Error, string> => {
   return TE.tryCatch(
     () =>
       new Promise(resolve => {
-        const data = fs.createReadStream(filepath)
-        const hash = crypto.createHash('sha256')
+        const data = fs.createReadStream(filepath);
+        const hash = crypto.createHash('sha256');
 
         data
           .on('data', (data: Buffer) => hash.update(data))
-          .on('close', () => resolve(hash.digest('hex')))
+          .on('close', () => resolve(hash.digest('hex')));
       }),
-    reason => Error(String(reason)),
-  )
-}
+    reason => Error(String(reason))
+  );
+};
 
 export const getFileSize =
   (filepath: string): IO.IO<number> =>
   () => {
-    const filestats = fs.statSync(filepath)
-    return filestats.size
-  }
+    const filestats = fs.statSync(filepath);
+    return filestats.size;
+  };
 
 export const countLines = (filepaths: string[]) =>
   TE.tryCatch(
     () => countLinesPromise(filepaths),
-    reason => Error(String(reason)),
-  )
+    reason => Error(String(reason))
+  );
 
 export const rmFilepath =
   (filepath: string): IO.IO<void> =>
   () =>
-    fs.rmSync(filepath)
+    fs.rmSync(filepath);

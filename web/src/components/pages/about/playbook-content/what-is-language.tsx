@@ -20,7 +20,8 @@ const WhatIsLanguage = React.memo(() => {
               rel="noopener noreferer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
     </>

@@ -10,9 +10,7 @@ import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
 expect.extend(toHaveNoViolations);
 
 // mock api
-const mockGetPublicUrl = jest.fn(() =>
-  Promise.resolve({ url: 'https://example.com/fake/url' })
-);
+const mockGetPublicUrl = jest.fn(() => Promise.resolve({ url: 'https://example.com/fake/url' }));
 const mockSaveHasDownload = jest.fn();
 const mockSubscribeToNewsLetter = jest.fn();
 
@@ -27,8 +25,7 @@ jest.mock('../../../hooks/store-hooks', () => ({
   useAction: () => jest.fn(),
 }));
 
-const bundleUrlTemplate =
-  'cv-corpus-8.0-2022-01-19/cv-corpus-8.0-2022-01-19-{locale}.tar.gz';
+const bundleUrlTemplate = 'cv-corpus-8.0-2022-01-19/cv-corpus-8.0-2022-01-19-{locale}.tar.gz';
 const locale = 'en';
 const selectedDataset = {
   download_path: bundleUrlTemplate,
@@ -100,77 +97,14 @@ describe('DatasetDownloadEmailPrompt', () => {
   });
 
   it('should allow download if filled in details', async () => {
-    const { getByRole, queryByRole, getByLabelText }: RenderResult =
-      renderWithLocalization(
-        <DatasetDownloadEmailPrompt
-          selectedLocale={locale}
-          downloadPath={selectedDataset.download_path}
-          releaseId={selectedDataset.id.toString()}
-          checksum={selectedDataset.checksum}
-          size={selectedDataset.size}
-          isSubscribedToMailingList={false}
-        />
-      );
-
-    await act(async () => {
-      fireEvent.click(getByRole('button', { name: 'Enter Email to Download' }));
-    });
-
-    // check the download link is disabled
-    const disabledDownloadLink = queryByRole('link', {
-      name: /Enter Email to Download/,
-    });
-    expect(disabledDownloadLink).toBeNull(); // not exist as a link
-
-    // type in email address
-    userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
-
-    // check the checkboxes
-    userEvent.click(
-      getByLabelText(/You are prepared to initiate a download of /)
-    );
-
-    userEvent.click(getByLabelText(/You agree to not attempt to determine/));
-
-    userEvent.click(
-      getByLabelText(/You want to join the Common Voice mailing list/)
-    );
-
-    // now has the link
-    const downloadLink = getByRole('button', {
-      name: /Download Dataset Bundle/,
-    });
-
-    expect(downloadLink.getAttribute('href')).toBe(
-      'https://example.com/fake/url'
-    );
-
-    // click link
-    fireEvent.click(downloadLink);
-
-    // calls api.saveHasDownloaded correctly
-    expect(mockSaveHasDownload).toBeCalledTimes(1);
-    expect(mockSaveHasDownload).toBeCalledWith(
-      'testemail@example.com',
-      'en',
-      '1'
-    );
-  });
-
-  it('should allow download if user is subscribed to mailing list', async () => {
-    const {
-      getByRole,
-      queryByRole,
-      getByLabelText,
-      queryByLabelText,
-    }: RenderResult = renderWithLocalization(
+    const { getByRole, queryByRole, getByLabelText }: RenderResult = renderWithLocalization(
       <DatasetDownloadEmailPrompt
         selectedLocale={locale}
         downloadPath={selectedDataset.download_path}
         releaseId={selectedDataset.id.toString()}
         checksum={selectedDataset.checksum}
         size={selectedDataset.size}
-        isSubscribedToMailingList
+        isSubscribedToMailingList={false}
       />
     );
 
@@ -188,39 +122,29 @@ describe('DatasetDownloadEmailPrompt', () => {
     userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
 
     // check the checkboxes
-    userEvent.click(
-      getByLabelText(/You are prepared to initiate a download of /)
-    );
+    userEvent.click(getByLabelText(/You are prepared to initiate a download of /));
 
     userEvent.click(getByLabelText(/You agree to not attempt to determine/));
 
-    expect(
-      queryByLabelText(/You want to join the Common Voice mailing list/)
-    ).toBeNull();
+    userEvent.click(getByLabelText(/You want to join the Common Voice mailing list/));
 
     // now has the link
     const downloadLink = getByRole('button', {
       name: /Download Dataset Bundle/,
     });
 
-    expect(downloadLink.getAttribute('href')).toBe(
-      'https://example.com/fake/url'
-    );
+    expect(downloadLink.getAttribute('href')).toBe('https://example.com/fake/url');
 
     // click link
     fireEvent.click(downloadLink);
 
     // calls api.saveHasDownloaded correctly
     expect(mockSaveHasDownload).toBeCalledTimes(1);
-    expect(mockSaveHasDownload).toBeCalledWith(
-      'testemail@example.com',
-      'en',
-      '1'
-    );
+    expect(mockSaveHasDownload).toBeCalledWith('testemail@example.com', 'en', '1');
   });
 
-  it('should still allow download if user decides not to join mailing list', async () => {
-    const { getByRole, queryByRole, getByLabelText }: RenderResult =
+  it('should allow download if user is subscribed to mailing list', async () => {
+    const { getByRole, queryByRole, getByLabelText, queryByLabelText }: RenderResult =
       renderWithLocalization(
         <DatasetDownloadEmailPrompt
           selectedLocale={locale}
@@ -228,7 +152,7 @@ describe('DatasetDownloadEmailPrompt', () => {
           releaseId={selectedDataset.id.toString()}
           checksum={selectedDataset.checksum}
           size={selectedDataset.size}
-          isSubscribedToMailingList={false}
+          isSubscribedToMailingList
         />
       );
 
@@ -246,35 +170,72 @@ describe('DatasetDownloadEmailPrompt', () => {
     userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
 
     // check the checkboxes
-    userEvent.click(
-      getByLabelText(/You are prepared to initiate a download of /)
-    );
+    userEvent.click(getByLabelText(/You are prepared to initiate a download of /));
 
     userEvent.click(getByLabelText(/You agree to not attempt to determine/));
 
-    // assert that checkbox is visible but don't click it
-    expect(
-      getByLabelText(/You want to join the Common Voice mailing list/)
-    ).toBeDefined();
+    expect(queryByLabelText(/You want to join the Common Voice mailing list/)).toBeNull();
 
     // now has the link
     const downloadLink = getByRole('button', {
       name: /Download Dataset Bundle/,
     });
 
-    expect(downloadLink.getAttribute('href')).toBe(
-      'https://example.com/fake/url'
-    );
+    expect(downloadLink.getAttribute('href')).toBe('https://example.com/fake/url');
 
     // click link
     fireEvent.click(downloadLink);
 
     // calls api.saveHasDownloaded correctly
     expect(mockSaveHasDownload).toBeCalledTimes(1);
-    expect(mockSaveHasDownload).toBeCalledWith(
-      'testemail@example.com',
-      'en',
-      '1'
+    expect(mockSaveHasDownload).toBeCalledWith('testemail@example.com', 'en', '1');
+  });
+
+  it('should still allow download if user decides not to join mailing list', async () => {
+    const { getByRole, queryByRole, getByLabelText }: RenderResult = renderWithLocalization(
+      <DatasetDownloadEmailPrompt
+        selectedLocale={locale}
+        downloadPath={selectedDataset.download_path}
+        releaseId={selectedDataset.id.toString()}
+        checksum={selectedDataset.checksum}
+        size={selectedDataset.size}
+        isSubscribedToMailingList={false}
+      />
     );
+
+    await act(async () => {
+      fireEvent.click(getByRole('button', { name: 'Enter Email to Download' }));
+    });
+
+    // check the download link is disabled
+    const disabledDownloadLink = queryByRole('link', {
+      name: /Enter Email to Download/,
+    });
+    expect(disabledDownloadLink).toBeNull(); // not exist as a link
+
+    // type in email address
+    userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
+
+    // check the checkboxes
+    userEvent.click(getByLabelText(/You are prepared to initiate a download of /));
+
+    userEvent.click(getByLabelText(/You agree to not attempt to determine/));
+
+    // assert that checkbox is visible but don't click it
+    expect(getByLabelText(/You want to join the Common Voice mailing list/)).toBeDefined();
+
+    // now has the link
+    const downloadLink = getByRole('button', {
+      name: /Download Dataset Bundle/,
+    });
+
+    expect(downloadLink.getAttribute('href')).toBe('https://example.com/fake/url');
+
+    // click link
+    fireEvent.click(downloadLink);
+
+    // calls api.saveHasDownloaded correctly
+    expect(mockSaveHasDownload).toBeCalledTimes(1);
+    expect(mockSaveHasDownload).toBeCalledWith('testemail@example.com', 'en', '1');
   });
 });

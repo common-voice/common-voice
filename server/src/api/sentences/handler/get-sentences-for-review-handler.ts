@@ -1,16 +1,16 @@
-import { Request, Response } from 'express'
-import { StatusCodes } from 'http-status-codes'
-import { GetPendingSentenceQueryHandler } from '../../../application/sentences/use-case/query-handler/get-sentences-for-review-query-handler'
-import { GetSentencesForReviewQuery } from '../../../application/sentences/use-case/query-handler/query/get-sentences-for-review-query'
+import { Request, Response } from 'express';
+import { StatusCodes } from 'http-status-codes';
+import { GetPendingSentenceQueryHandler } from '../../../application/sentences/use-case/query-handler/get-sentences-for-review-query-handler';
+import { GetSentencesForReviewQuery } from '../../../application/sentences/use-case/query-handler/query/get-sentences-for-review-query';
 
 export default async (req: Request, res: Response) => {
   const query: GetSentencesForReviewQuery = {
     localeId: +req.query.localeId,
     clientId: req.client_id || '',
     corpus_id: req.query.corpus_id as string,
-  }
+  };
 
-  const result = await GetPendingSentenceQueryHandler(query)()
+  const result = await GetPendingSentenceQueryHandler(query)();
 
-  res.status(StatusCodes.OK).json({ pendingSentences: result })
-}
+  res.status(StatusCodes.OK).json({ pendingSentences: result });
+};

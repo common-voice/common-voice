@@ -18,10 +18,7 @@ const localeMapping: { [key: string]: string } = {
   'sv-SE': 'se',
 };
 
-export default async function fetchLegalDocument(
-  name: string,
-  locale: string
-): Promise<string> {
+export default async function fetchLegalDocument(name: string, locale: string): Promise<string> {
   if (!cache[name]) cache[name] = {};
 
   let { fetchedAt, textHTML } = cache[name][locale] || ({} as any);
@@ -35,7 +32,6 @@ export default async function fetchLegalDocument(
     uri: `https://common-voice-clips.eu-central-1.linodeobjects.com/${legalLocale}_common_voice_${name}.md`,
     resolveWithFullResponse: true,
   })
-
     .then((response: any) => [response.statusCode, response.body])
     .catch(response => [response.statusCode, null]);
 
@@ -43,9 +39,7 @@ export default async function fetchLegalDocument(
     return (
       await Promise.all(
         // Fallback Languages
-        ['en', 'es', 'fr', 'pt', 'zh-TW'].map(locale =>
-          fetchLegalDocument(name, locale)
-        )
+        ['en', 'es', 'fr', 'pt', 'zh-TW'].map(locale => fetchLegalDocument(name, locale))
       )
     ).join('<br>');
   } else if (status < 300) {

@@ -8,11 +8,7 @@ let schema: Schema;
 
 jest.mock('../lib/rate-limiter-middleware', () => ({
   default: function () {
-    return async (
-      _request: Request,
-      _response: Response,
-      next: NextFunction
-    ) => {
+    return async (_request: Request, _response: Response, next: NextFunction) => {
       next();
     };
   },

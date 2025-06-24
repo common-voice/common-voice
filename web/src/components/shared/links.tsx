@@ -28,12 +28,7 @@ export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
   );
 };
 
-export const DeltaReadMoreLink = ({
-  dispatch,
-  style,
-  className,
-  ...props
-}: SharedLinkProps) => {
+export const DeltaReadMoreLink = ({ dispatch, style, className, ...props }: SharedLinkProps) => {
   const [locale] = useLocale();
   return (
     <a
@@ -79,9 +74,7 @@ export const ContactLink = ({ dispatch, ...props }: SharedLinkProps) => {
 
   return (
     <>
-      {showContactModal && (
-        <ContactModal onRequestClose={() => setShowContactModal(false)} />
-      )}
+      {showContactModal && <ContactModal onRequestClose={() => setShowContactModal(false)} />}
 
       <TextButton
         {...props}
@@ -95,12 +88,5 @@ export const ContactLink = ({ dispatch, ...props }: SharedLinkProps) => {
 };
 
 export const EmailLink = ({ ...props }: SharedLinkProps) => {
-  return (
-    <a
-      href="mailto:commonvoice@mozilla.com"
-      target="_blank"
-      rel="noreferrer"
-      {...props}
-    />
-  )
-}
+  return <a href="mailto:commonvoice@mozilla.com" target="_blank" rel="noreferrer" {...props} />;
+};

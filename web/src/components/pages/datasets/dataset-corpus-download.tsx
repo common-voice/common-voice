@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { localeConnector } from '../../locale-helpers';
@@ -39,9 +35,7 @@ const DatasetCorpusDownload = ({
 }: Props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
-  const [languageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>(
-    []
-  );
+  const [languageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>([]);
   const api = useAPI();
 
   const [locale, setLocale] = useState(initialLanguage);
@@ -62,9 +56,7 @@ const DatasetCorpusDownload = ({
     setIsLoading(true);
 
     api.getLanguageDatasetStats(locale).then(data => {
-      setLanguageDatasets(
-        data.filter((dataset: LanguageDatasets) => !!dataset.download_path)
-      );
+      setLanguageDatasets(data.filter((dataset: LanguageDatasets) => !!dataset.download_path));
       setSelectedDataset(data[0]);
       setIsLoading(false);
     });
@@ -81,7 +73,8 @@ const DatasetCorpusDownload = ({
             id="download-delta-explainer"
             elems={{
               deltaLink: <DeltaReadMoreLink className="link" />,
-            }}>
+            }}
+          >
             <div />
           </Localized>
           <p style={{ marginTop: '2rem' }}>
@@ -93,7 +86,8 @@ const DatasetCorpusDownload = ({
             label={getString('language')}
             name="bundleLocale"
             value={locale}
-            onChange={handleLanguageChange}>
+            onChange={handleLanguageChange}
+          >
             {sortedLanguages.map(val => (
               <Localized key={val} id={val}>
                 <option value={val} />
@@ -107,7 +101,8 @@ const DatasetCorpusDownload = ({
             width: '100%',
             alignItems: 'start',
             flexDirection: 'column',
-          }}>
+          }}
+        >
           {isLoading && <Spinner />}
           {!isLoading && languageDatasets && (
             <DatasetCorpusDownloadTable

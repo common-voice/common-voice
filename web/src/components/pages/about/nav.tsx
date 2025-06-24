@@ -28,9 +28,7 @@ const Nav: React.ComponentType<Props> = React.memo((props: Props) => {
     }
 
     const updateMobileBottomPosition = throttle(() => {
-      setMobileBottom(
-        document.documentElement.clientHeight - window.innerHeight
-      );
+      setMobileBottom(document.documentElement.clientHeight - window.innerHeight);
     });
 
     setTimeout(updateMobileBottomPosition, 0);

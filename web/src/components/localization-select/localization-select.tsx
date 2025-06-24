@@ -1,9 +1,6 @@
 import * as React from 'react';
 
-import {
-  LocalizedGetAttribute,
-  useNativeNameAvailableLocales,
-} from '../locale-helpers';
+import { LocalizedGetAttribute, useNativeNameAvailableLocales } from '../locale-helpers';
 import { LabeledSelect } from '../ui/ui';
 
 import './localization-select.css';
@@ -36,7 +33,8 @@ const LocalizationSelect = ({ locale, onLocaleChange }: Props) => {
             if (onLocaleChange) {
               onLocaleChange(event.target.value);
             }
-          }}>
+          }}
+        >
           {localesWithNames.map(({ code, name }) => (
             <option key={code} value={code}>
               {name}

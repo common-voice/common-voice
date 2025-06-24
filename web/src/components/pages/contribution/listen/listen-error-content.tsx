@@ -11,10 +11,7 @@ const MissingClips = ({ isDemoMode }: { isDemoMode: boolean }) => (
       <h1>
         <Localized id="listen-empty-state" />
       </h1>
-      <LinkButton
-        rounded
-        to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
-        className="record-instead">
+      <LinkButton rounded to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK} className="record-instead">
         <MicIcon />{' '}
         <Localized id="record-button-label">
           <span />
@@ -44,12 +41,7 @@ interface Props {
   isDemoMode: boolean;
 }
 
-const ListenErrorContent = ({
-  isLoading,
-  hasLoadingError,
-  isMissingClips,
-  isDemoMode,
-}: Props) => {
+const ListenErrorContent = ({ isLoading, hasLoadingError, isMissingClips, isDemoMode }: Props) => {
   if (isLoading) {
     return null;
   }

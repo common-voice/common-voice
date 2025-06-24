@@ -44,11 +44,7 @@ jest.mock('../src/services/api', () => {
   };
 });
 
-const MockReactReduxProvider = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+const MockReactReduxProvider = ({ children }: { children: React.ReactNode }) => {
   return <Provider store={store}>{children}</Provider>;
 };
 

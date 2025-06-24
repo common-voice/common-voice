@@ -16,19 +16,14 @@ const StatsPage = ({ allGoals, dashboardLocale }: Props) => {
     <div className="stats-page">
       <div className="cards">
         {['speak', 'listen'].map(type => {
-          const [current, goals] =
-            allGoals.globalGoals[type == 'speak' ? 'clips' : 'votes'];
+          const [current, goals] = allGoals.globalGoals[type == 'speak' ? 'clips' : 'votes'];
           return (
             <ProgressCard
               key={type + dashboardLocale}
               type={type as ProgressCardProps['type']}
               locale={dashboardLocale}
               personalCurrent={current}
-              personalGoal={
-                allGoals
-                  ? (goals.find(g => !g.date) || { goal: Infinity }).goal
-                  : null
-              }
+              personalGoal={allGoals ? (goals.find(g => !g.date) || { goal: Infinity }).goal : null}
             />
           );
         })}

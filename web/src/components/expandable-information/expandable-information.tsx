@@ -28,11 +28,13 @@ const ExpandableInformation = ({
       className={classNames('expandable-information', {
         'hide-border': hideBorder,
       })}
-      onToggle={onToggle}>
+      onToggle={onToggle}
+    >
       <summary
         className={classNames('expandable-information__summary', {
           'justify-center': justifyCenter,
-        })}>
+        })}
+      >
         {icon}
         <Localized id={summaryLocalizedId}>
           <span />

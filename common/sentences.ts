@@ -1,9 +1,9 @@
 export type SentenceSubmission = {
-  sentence: string
-  source: string
-  localeId: number
-  localeName: string
-}
+  sentence: string;
+  source: string;
+  localeId: number;
+  localeName: string;
+};
 
 export enum SentenceSubmissionError {
   TOO_LONG = 'TOO_LONG',
@@ -16,22 +16,17 @@ export enum SentenceSubmissionError {
 }
 
 export type PendingSentence = {
-  sentenceId: string
-  sentence: string
-  source: string
-  localeId: number
-  isValid: boolean
-}
+  sentenceId: string;
+  sentence: string;
+  source: string;
+  localeId: number;
+  isValid: boolean;
+};
 
 export type SentenceVote = {
-  vote: boolean
-  sentence_id: string
-  sentenceIndex: number
-}
+  vote: boolean;
+  sentence_id: string;
+  sentenceIndex: number;
+};
 
-export type BulkUploadStatus =
-  | 'off'
-  | 'waiting'
-  | 'uploading'
-  | 'done'
-  | 'error'
+export type BulkUploadStatus = 'off' | 'waiting' | 'uploading' | 'done' | 'error';

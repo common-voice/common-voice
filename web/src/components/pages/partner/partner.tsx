@@ -1,17 +1,17 @@
-import * as React from 'react'
-import { Localized } from '@fluent/react'
+import * as React from 'react';
+import { Localized } from '@fluent/react';
 
-import Page from '../../ui/page'
+import Page from '../../ui/page';
 
-import PageHeading from '../../ui/page-heading'
-import { LinkButton } from '../../ui/ui'
-import { MailIcon } from '../../ui/icons'
-import { COMMON_VOICE_EMAIL } from '../../../constants'
-import { PartnerOptionSection } from './partner-option-section'
-import { PARTNER_OPTIONS } from './partner-options'
-import Subscribe from '../../email-subscribe-block/subscribe'
+import PageHeading from '../../ui/page-heading';
+import { LinkButton } from '../../ui/ui';
+import { MailIcon } from '../../ui/icons';
+import { COMMON_VOICE_EMAIL } from '../../../constants';
+import { PartnerOptionSection } from './partner-option-section';
+import { PARTNER_OPTIONS } from './partner-options';
+import Subscribe from '../../email-subscribe-block/subscribe';
 
-import './partner.css'
+import './partner.css';
 
 const Partner = () => (
   <Page className="partner-main-container" dataTestId="partnerships-page">
@@ -30,27 +30,18 @@ const Partner = () => (
           </LinkButton>
         </div>
         <div className="partnerships-header-image">
-          <img
-            src={require('./images/mozilla-common-voice_foundation-mars.png')}
-            alt="robot"
-          />
+          <img src={require('./images/mozilla-common-voice_foundation-mars.png')} alt="robot" />
         </div>
       </div>
     </section>
     <section className="become-a-partner-section">
       <div className="become-a-partner-container">
         <Localized id="partnerships-become-a-partner">
-          <h2 className="section-heading-text">
-            Become a Common Voice Partner
-          </h2>
+          <h2 className="section-heading-text">Become a Common Voice Partner</h2>
         </Localized>
         <div className="become-a-partner-options">
           {PARTNER_OPTIONS.map(option => (
-            <PartnerOptionSection
-              option={option.id}
-              elems={option.elems}
-              key={option.id}
-            />
+            <PartnerOptionSection option={option.id} elems={option.elems} key={option.id} />
           ))}
         </div>
       </div>
@@ -107,6 +98,6 @@ const Partner = () => (
     </section>
     <Subscribe light partnerships subscribeText="about-subscribe-text" />
   </Page>
-)
+);
 
-export default Partner
+export default Partner;

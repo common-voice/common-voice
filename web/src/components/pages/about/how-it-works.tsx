@@ -62,18 +62,12 @@ const HowItWorks = React.memo(() => {
         {lastVisible && <div className="more-previous-overlay"></div>}
         {firstVisible && <div className="more-next-overlay"></div>}
         {howItWorksContent.map((howBlock: HowItWorksType, i: number) => {
-          const ref =
-            i === 0
-              ? firstRef
-              : i === howItWorksContent.length - 1
-              ? lastRef
-              : null;
+          const ref = i === 0 ? firstRef : i === howItWorksContent.length - 1 ? lastRef : null;
           return (
             <div className="how-it-works-block" key={i} ref={ref}>
               <div
-                className={`how-it-works-icon ${
-                  i + 1 === howItWorksContent.length ? 'done' : ''
-                }`}>
+                className={`how-it-works-icon ${i + 1 === howItWorksContent.length ? 'done' : ''}`}
+              >
                 {i + 1}
               </div>
               <Localized id={howBlock.title}>

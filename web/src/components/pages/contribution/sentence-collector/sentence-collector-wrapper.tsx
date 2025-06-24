@@ -1,13 +1,13 @@
-import * as React from 'react'
+import * as React from 'react';
 
 type Props = {
-  dataTestId?: string
-  extraClassName?: string
-  type: 'write' | 'review'
-}
+  dataTestId?: string;
+  extraClassName?: string;
+  type: 'write' | 'review';
+};
 
-import './sentence-collector-wrapper.css'
-import classNames from 'classnames'
+import './sentence-collector-wrapper.css';
+import classNames from 'classnames';
 
 const SentenceCollectionWrapper: React.FC<Props> = ({
   children,
@@ -20,6 +20,6 @@ const SentenceCollectionWrapper: React.FC<Props> = ({
       <div className={classNames(type, extraClassName)}>{children}</div>
     </div>
   </div>
-)
+);
 
-export default SentenceCollectionWrapper
+export default SentenceCollectionWrapper;

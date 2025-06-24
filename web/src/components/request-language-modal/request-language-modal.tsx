@@ -50,9 +50,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
     if (languages.nativeNames) {
       this.setState({
         language:
-          languages.nativeNames[
-            navigator.languages.find(lang => lang.split('-')[0] !== 'en')
-          ],
+          languages.nativeNames[navigator.languages.find(lang => lang.split('-')[0] !== 'en')],
       });
     }
   };
@@ -82,14 +80,12 @@ class RequestLanguageModal extends React.Component<Props, State> {
 
   render() {
     const { onRequestClose, languages } = this.props;
-    const { email, language, otherLanguage, isSubmitted, sendEmails } =
-      this.state;
+    const { email, language, otherLanguage, isSubmitted, sendEmails } = this.state;
     return (
       <Modal
-        innerClassName={
-          'request-language-modal ' + (isSubmitted ? '' : 'left-align')
-        }
-        onRequestClose={onRequestClose}>
+        innerClassName={'request-language-modal ' + (isSubmitted ? '' : 'left-align')}
+        onRequestClose={onRequestClose}
+      >
         {isSubmitted ? (
           <LanguageRequestSuccess onRequestClose={onRequestClose} />
         ) : (
@@ -102,14 +98,8 @@ class RequestLanguageModal extends React.Component<Props, State> {
 
             <br />
 
-            <Localized
-              id="request-language-form-language"
-              attrs={{ label: true }}>
-              <LabeledSelect
-                name="language"
-                required
-                value={language}
-                onChange={this.update}>
+            <Localized id="request-language-form-language" attrs={{ label: true }}>
+              <LabeledSelect name="language" required value={language} onChange={this.update}>
                 <Localized id="select-language">
                   <option value="" />
                 </Localized>
@@ -124,9 +114,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
               </LabeledSelect>
             </Localized>
 
-            {language == 'other' && (
-              <LanguageAutocomplete onChange={this.updateOtherLanguage} />
-            )}
+            {language == 'other' && <LanguageAutocomplete onChange={this.updateOtherLanguage} />}
 
             <Localized id="email-input" attrs={{ label: true }}>
               <LabeledInput
@@ -156,9 +144,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
             <div className="actions">
               <Localized id="submit-form-action">
                 <Button
-                  disabled={
-                    !email || (language == 'other' ? !otherLanguage : !language)
-                  }
+                  disabled={!email || (language == 'other' ? !otherLanguage : !language)}
                   type="submit"
                   rounded
                 />

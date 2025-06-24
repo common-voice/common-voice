@@ -41,18 +41,12 @@ export default function Invite({
             challengeEnded = true,
           }) => {
             try {
-              sessionStorage.setItem(
-                'showInviteSendToast',
-                JSON.stringify(showInviteSendToast)
-              );
+              sessionStorage.setItem('showInviteSendToast', JSON.stringify(showInviteSendToast));
               sessionStorage.setItem(
                 'hasEarnedSessionToast',
                 JSON.stringify(hasEarnedSessionToast)
               );
-              sessionStorage.setItem(
-                'challengeEnded',
-                JSON.stringify(challengeEnded)
-              );
+              sessionStorage.setItem('challengeEnded', JSON.stringify(challengeEnded));
             } catch (e) {
               console.warn(`A sessionStorage error occurred ${e.message}`);
             }
@@ -75,9 +69,7 @@ export default function Invite({
       <img alt="" src={require('./images/mail.svg')} role="presentation" />
 
       <h1>
-        <BalanceText>
-          Invite colleagues and friends to join your challenge team
-        </BalanceText>
+        <BalanceText>Invite colleagues and friends to join your challenge team</BalanceText>
       </h1>
 
       <input
@@ -95,7 +87,8 @@ export default function Invite({
             document.execCommand('copy');
             setCopiedRecently(true);
           }
-        }}>
+        }}
+      >
         {copiedRecently ? 'Copied' : 'Copy link'}
         <FontIcon type="link" className="icon" />
       </Button>

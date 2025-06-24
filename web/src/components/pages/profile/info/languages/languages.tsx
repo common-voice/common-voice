@@ -50,8 +50,7 @@ function ProfileInfoLanguages({
     const variants = variantsAll[language.locale];
     return variants && variants.length > 0;
   });
-  const hasNewEmptyLanguage =
-    hasUserLanguages && !userLanguages[userLanguages.length - 1].locale;
+  const hasNewEmptyLanguage = hasUserLanguages && !userLanguages[userLanguages.length - 1].locale;
 
   const handleAddNewLanguageButtonClick = () => {
     if (hasNewEmptyLanguage) {
@@ -126,16 +125,19 @@ function ProfileInfoLanguages({
             </Localized>
           </ExpandableInformation>
         )}
-        {!hasUserLanguages &&<Button
-          className="add-language"
-          outline
-          disabled={hasNewEmptyLanguage}
-          onClick={handleAddNewLanguageButtonClick}>
-          <Localized id="add-language">
-            <span />
-          </Localized>
-          <span aria-hidden={true}>+</span>
-        </Button>}
+        {!hasUserLanguages && (
+          <Button
+            className="add-language"
+            outline
+            disabled={hasNewEmptyLanguage}
+            onClick={handleAddNewLanguageButtonClick}
+          >
+            <Localized id="add-language">
+              <span />
+            </Localized>
+            <span aria-hidden={true}>+</span>
+          </Button>
+        )}
 
         {!hasUserLanguages && (
           <Localized id="profile-select-language">

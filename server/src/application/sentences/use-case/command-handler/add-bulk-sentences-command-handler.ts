@@ -1,12 +1,13 @@
-import { pipe } from 'fp-ts/lib/function'
-import { insertBulkSentencesIntoDb, insertSentenceIntoDb } from '../../repository/sentences-repository'
-import { either as E, taskEither as TE } from 'fp-ts'
-import { AddBulkSentencesCommand } from './command/add-bulk-sentences-command'
-import { readTsvIntoMemory } from '../../../../infrastructure/parser/tsvParser'
+import { pipe } from 'fp-ts/lib/function';
+import {
+  insertBulkSentencesIntoDb,
+  insertSentenceIntoDb,
+} from '../../repository/sentences-repository';
+import { either as E, taskEither as TE } from 'fp-ts';
+import { AddBulkSentencesCommand } from './command/add-bulk-sentences-command';
+import { readTsvIntoMemory } from '../../../../infrastructure/parser/tsvParser';
 
-export const AddBulkSentencesCommandHandler = (
-  cmd: AddBulkSentencesCommand
-) => {
+export const AddBulkSentencesCommandHandler = (cmd: AddBulkSentencesCommand) => {
   return pipe(
     readTsvIntoMemory<{ Sentence: string; Source: string }>(cmd.tsvFile),
     TE.map(sentences =>
@@ -19,5 +20,5 @@ export const AddBulkSentencesCommandHandler = (
       }))
     ),
     TE.chain(insertBulkSentencesIntoDb)
-  )
-}
+  );
+};

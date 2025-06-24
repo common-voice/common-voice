@@ -62,10 +62,7 @@ export namespace User {
     type: ActionType.TALLY_VERIFICATION;
   }
 
-  export type Action =
-    | UpdateAction
-    | TallyRecordingAction
-    | TallyVerificationAction;
+  export type Action = UpdateAction | TallyRecordingAction | TallyVerificationAction;
 
   export const actions = {
     update: (state: Partial<State>): UpdateAction => ({
@@ -81,33 +78,30 @@ export namespace User {
       type: ActionType.TALLY_VERIFICATION,
     }),
 
-    refresh:
-      () =>
-      async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
-        const { api } = getState();
-        dispatch({
-          type: ActionType.UPDATE,
-          state: { isFetchingAccount: true },
-        });
-        const [account, userClients] = await Promise.all([
-          api.fetchAccount(),
-          api.fetchUserClients(),
-        ]);
-        dispatch({
-          type: ActionType.UPDATE,
-          state: {
-            account,
-            userClients,
-            isFetchingAccount: false,
-            isSubscribedToMailingList: Boolean(account?.basket_token),
-          },
-        });
-        await actions.claimLocalUser(dispatch, getState);
-      },
+    refresh: () => async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
+      const { api } = getState();
+      dispatch({
+        type: ActionType.UPDATE,
+        state: { isFetchingAccount: true },
+      });
+      const [account, userClients] = await Promise.all([
+        api.fetchAccount(),
+        api.fetchUserClients(),
+      ]);
+      dispatch({
+        type: ActionType.UPDATE,
+        state: {
+          account,
+          userClients,
+          isFetchingAccount: false,
+          isSubscribedToMailingList: Boolean(account?.basket_token),
+        },
+      });
+      await actions.claimLocalUser(dispatch, getState);
+    },
 
     saveAccount:
-      (data: UserClient) =>
-      async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
+      (data: UserClient) => async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
         const { api } = getState();
         dispatch({
           type: ActionType.UPDATE,
@@ -142,10 +136,7 @@ export namespace User {
         await actions.claimLocalUser(dispatch, getState);
       },
 
-    claimLocalUser: async (
-      dispatch: Dispatch<UpdateAction>,
-      getState: () => StateTree
-    ) => {
+    claimLocalUser: async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
       const { api, user } = getState();
       if (user.account && user.userId) {
         await api.claimAccount();
@@ -165,9 +156,7 @@ export namespace User {
   export function reducer(state = getDefaultState(), action: Action): State {
     state = {
       ...state,
-      userId:
-        state.userId ||
-        (state.isFetchingAccount || state.account ? null : generateGUID()),
+      userId: state.userId || (state.isFetchingAccount || state.account ? null : generateGUID()),
     };
     switch (action.type) {
       case ActionType.UPDATE:

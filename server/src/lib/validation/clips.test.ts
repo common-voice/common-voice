@@ -3,60 +3,60 @@ import { ValidationError } from 'express-json-validator-middleware';
 import validate, { clipsSchema } from './index';
 
 describe('Clips Count Validation', () => {
-    let mockRequest: Partial<Request>;
-    let mockResponse: Partial<Response>;
-    let nextFunction: NextFunction;
+  let mockRequest: Partial<Request>;
+  let mockResponse: Partial<Response>;
+  let nextFunction: NextFunction;
 
-    beforeEach(() => {
-        mockRequest = {};
-        mockResponse = {
-            json: jest.fn()
-        };
-        nextFunction = jest.fn();
-    });
+  beforeEach(() => {
+    mockRequest = {};
+    mockResponse = {
+      json: jest.fn(),
+    };
+    nextFunction = jest.fn();
+  });
 
-    it('should be invalid when the count is greater than 50', () => {
-        const validation = validate({ query: clipsSchema });
-        mockRequest.query = {
-            count: '99',
-        };
+  it('should be invalid when the count is greater than 50', () => {
+    const validation = validate({ query: clipsSchema });
+    mockRequest.query = {
+      count: '99',
+    };
 
-        validation(mockRequest as Request, mockResponse as Response, nextFunction);
+    validation(mockRequest as Request, mockResponse as Response, nextFunction);
 
-        expect(nextFunction).toBeCalledTimes(1);
-        expect(nextFunction).toHaveBeenCalledWith(expect.any(ValidationError));
-    });
+    expect(nextFunction).toBeCalledTimes(1);
+    expect(nextFunction).toHaveBeenCalledWith(expect.any(ValidationError));
+  });
 
-    it('should be invalid when the count is less than 1', () => {
-        const validation = validate({ query: clipsSchema });
-        mockRequest.query = {
-            count: '-1',
-        };
+  it('should be invalid when the count is less than 1', () => {
+    const validation = validate({ query: clipsSchema });
+    mockRequest.query = {
+      count: '-1',
+    };
 
-        validation(mockRequest as Request, mockResponse as Response, nextFunction);
+    validation(mockRequest as Request, mockResponse as Response, nextFunction);
 
-        expect(nextFunction).toBeCalledTimes(1);
-        expect(nextFunction).toHaveBeenCalledWith(expect.any(ValidationError));
-    });
+    expect(nextFunction).toBeCalledTimes(1);
+    expect(nextFunction).toHaveBeenCalledWith(expect.any(ValidationError));
+  });
 
-    it('should be invalid when the count is not a number', () => {
-        const validation = validate({ query: clipsSchema });
-        mockRequest.query = {
-            count: 'abc',
-        };
+  it('should be invalid when the count is not a number', () => {
+    const validation = validate({ query: clipsSchema });
+    mockRequest.query = {
+      count: 'abc',
+    };
 
-        validation(mockRequest as Request, mockResponse as Response, nextFunction);
+    validation(mockRequest as Request, mockResponse as Response, nextFunction);
 
-        expect(nextFunction).toBeCalledTimes(1);
-        expect(nextFunction).toHaveBeenCalledWith(expect.any(ValidationError));
-    });
+    expect(nextFunction).toBeCalledTimes(1);
+    expect(nextFunction).toHaveBeenCalledWith(expect.any(ValidationError));
+  });
 
-    it('should be valid when count is not set ', () => {
-        mockRequest.query = {};
-        const validation = validate({ query: clipsSchema });
+  it('should be valid when count is not set ', () => {
+    mockRequest.query = {};
+    const validation = validate({ query: clipsSchema });
 
-        validation(mockRequest as Request, mockResponse as Response, nextFunction);
+    validation(mockRequest as Request, mockResponse as Response, nextFunction);
 
-        expect(nextFunction).toHaveBeenCalledWith();
-    });
+    expect(nextFunction).toHaveBeenCalledWith();
+  });
 });

@@ -49,10 +49,7 @@ describe('LanguageCardData', () => {
     let renderResult: RenderResult;
     act(() => {
       renderResult = renderWithProviders(
-        <LanguageCardData
-          type={LAUNCHED_TYPE}
-          language={LANGUAGE_STATISTICS[0]}
-        />
+        <LanguageCardData type={LAUNCHED_TYPE} language={LANGUAGE_STATISTICS[0]} />
       );
     });
     const results = await axe(renderResult.container);
@@ -63,10 +60,7 @@ describe('LanguageCardData', () => {
     let renderResult: RenderResult;
     act(() => {
       renderResult = renderWithProviders(
-        <LanguageCardData
-          type={IN_PROGRESS_TYPE}
-          language={LANGUAGE_STATISTICS[1]}
-        />
+        <LanguageCardData type={IN_PROGRESS_TYPE} language={LANGUAGE_STATISTICS[1]} />
       );
     });
     const { queryByText } = renderResult;
@@ -79,10 +73,7 @@ describe('LanguageCardData', () => {
     let renderResult: RenderResult;
     act(() => {
       renderResult = renderWithProviders(
-        <LanguageCardData
-          type={LAUNCHED_TYPE}
-          language={LANGUAGE_STATISTICS[0]}
-        />
+        <LanguageCardData type={LAUNCHED_TYPE} language={LANGUAGE_STATISTICS[0]} />
       );
     });
     const { queryByText } = renderResult;
@@ -95,10 +86,7 @@ describe('LanguageCardData', () => {
     let renderResult: RenderResult;
     act(() => {
       renderResult = renderWithProviders(
-        <LanguageCardData
-          type={LAUNCHED_TYPE}
-          language={LANGUAGE_STATISTICS[0]}
-        />
+        <LanguageCardData type={LAUNCHED_TYPE} language={LANGUAGE_STATISTICS[0]} />
       );
     });
     const { getByTestId } = renderResult;
@@ -110,10 +98,7 @@ describe('LanguageCardData', () => {
     let renderResult: RenderResult;
     act(() => {
       renderResult = renderWithProviders(
-        <LanguageCardData
-          type={LAUNCHED_TYPE}
-          language={LANGUAGE_STATISTICS[0]}
-        />
+        <LanguageCardData type={LAUNCHED_TYPE} language={LANGUAGE_STATISTICS[0]} />
       );
     });
     const { getByTestId } = renderResult;

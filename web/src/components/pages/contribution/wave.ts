@@ -38,12 +38,7 @@ class Curve {
 
   private equation(i: number) {
     const y =
-      ((-1 *
-        Math.abs(Math.sin(this.tick)) *
-        this.baseAmplitude *
-        this.amplitude *
-        HEIGHT) /
-        2) *
+      ((-1 * Math.abs(Math.sin(this.tick)) * this.baseAmplitude * this.amplitude * HEIGHT) / 2) *
       (1 / (1 + this.openClass * i ** 2) ** 2);
     if (Math.abs(y) < 0.001) {
       this.respawn();
@@ -74,14 +69,7 @@ class Curve {
     }
 
     const h = Math.abs(this.equation(0));
-    const gradient = ctx.createRadialGradient(
-      xBase,
-      yBase,
-      h * 2,
-      xBase,
-      yBase,
-      h * 0.3
-    );
+    const gradient = ctx.createRadialGradient(xBase, yBase, h * 2, xBase, yBase, h * 0.3);
     gradient.addColorStop(0, `rgba(${this.color.join(',')},0.1)`);
     gradient.addColorStop(1, `rgba(${this.color.join(',')},0.05)`);
 
@@ -108,7 +96,7 @@ export default class Wave {
   private colors = [
     [89, 203, 183],
     [177, 181, 229],
-    // [248, 144, 150], 
+    // [248, 144, 150],
   ];
   private ctx: CanvasRenderingContext2D;
   private curves: Curve[];
@@ -153,8 +141,7 @@ export default class Wave {
 
     this.clear();
 
-    const baseAmplitude =
-      this.curves[0].baseAmplitude * 0.9 + this.amplitude * 0.1;
+    const baseAmplitude = this.curves[0].baseAmplitude * 0.9 + this.amplitude * 0.1;
     for (const curve of this.curves) {
       curve.baseAmplitude = baseAmplitude;
       curve.draw();
@@ -176,9 +163,7 @@ export default class Wave {
       return;
     }
 
-    framesInLastSecond = framesInLastSecond.slice(
-      framesInLastSecond.length - index - 1
-    );
+    framesInLastSecond = framesInLastSecond.slice(framesInLastSecond.length - index - 1);
     if (framesInLastSecond.length < LOW_FPS) {
       lowFPSCount++;
     }

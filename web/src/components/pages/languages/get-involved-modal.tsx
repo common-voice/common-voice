@@ -51,8 +51,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
 
   private save = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const { api, createLanguageRequest, locale, updateUser, user, languages } =
-      this.props;
+    const { api, createLanguageRequest, locale, updateUser, user, languages } = this.props;
     const { email, sendEmails } = this.state;
     if (languages.nativeNames) {
       createLanguageRequest(languages.nativeNames[locale]);
@@ -72,9 +71,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
 
     return (
       <LocalizationProvider l10n={l10n}>
-        <Modal
-          innerClassName="get-involved-modal"
-          onRequestClose={onRequestClose}>
+        <Modal innerClassName="get-involved-modal" onRequestClose={onRequestClose}>
           <br />
           <Localized id="get-involved-title" vars={{ lang: nativeName }}>
             {/* Localized injects content into child tag */}
@@ -85,15 +82,14 @@ class GetInvolvedModal extends React.Component<Props, State> {
           <Localized
             id="get-involved-text"
             vars={{ lang: nativeName }}
-            elems={{ lineBreak: <br /> }}>
+            elems={{ lineBreak: <br /> }}
+          >
             <p />
           </Localized>
           <br />
           <div className="title-and-action">
             {!isSubmitted && (
-              <Localized
-                id="get-involved-form-title"
-                vars={{ lang: nativeName }}>
+              <Localized id="get-involved-form-title" vars={{ lang: nativeName }}>
                 {/* Localized injects content into child tag */}
                 {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
                 <h4 />
@@ -104,9 +100,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
             <div className="signup-success">
               <SuccessIcon />
 
-              <Localized
-                id="get-involved-success-title"
-                vars={{ language: nativeName }}>
+              <Localized id="get-involved-success-title" vars={{ language: nativeName }}>
                 {/* Localized injects content into child tag */}
                 {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
                 <h2 />
@@ -155,11 +149,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
 
               <div className="center">
                 <Localized id="get-involved-submit">
-                  <Button
-                    disabled={!email || !sendEmails}
-                    type="submit"
-                    rounded
-                  />
+                  <Button disabled={!email || !sendEmails} type="submit" rounded />
                 </Localized>
                 <div />
               </div>

@@ -14,10 +14,7 @@ type ExampleContentProps = {
   exampleTips: ExampleTip[];
 };
 
-export const ExampleContent: React.FC<ExampleContentProps> = ({
-  exampleText,
-  exampleTips,
-}) => (
+export const ExampleContent: React.FC<ExampleContentProps> = ({ exampleText, exampleTips }) => (
   <div className="example-container">
     <div className="example-text-container">
       <Localized id={exampleText}>
@@ -29,11 +26,7 @@ export const ExampleContent: React.FC<ExampleContentProps> = ({
         {exampleTips.map((tip, index) => (
           <div key={`${tip.text}${index}`} className="tip">
             <span className="circle">
-              {tip.icon === 'check' ? (
-                <CheckIcon className="check-icon" />
-              ) : (
-                <XMarkIcon />
-              )}
+              {tip.icon === 'check' ? <CheckIcon className="check-icon" /> : <XMarkIcon />}
             </span>
             <div className="tip-text-container">
               <Localized id={tip.text}>

@@ -1,29 +1,29 @@
-import * as React from 'react'
-import { Localized } from '@fluent/react'
-import classNames from 'classnames'
+import * as React from 'react';
+import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 
-import { SentenceSubmissionError } from 'common'
-import { AlertIcon, ChevronDown } from '../../../../../ui/icons'
-import { TextButton } from '../../../../../ui/ui'
-import useIsMaxWindowWidth from '../../../../../../hooks/use-is-max-window-width'
+import { SentenceSubmissionError } from 'common';
+import { AlertIcon, ChevronDown } from '../../../../../ui/icons';
+import { TextButton } from '../../../../../ui/ui';
+import useIsMaxWindowWidth from '../../../../../../hooks/use-is-max-window-width';
 
-import './rules.css'
+import './rules.css';
 
 type Props = {
-  error?: SentenceSubmissionError
-  showFirstRule?: boolean
-  title: string
-}
+  error?: SentenceSubmissionError;
+  showFirstRule?: boolean;
+  title: string;
+};
 
-const MAX_WINDOW_WIDTH = 992
+const MAX_WINDOW_WIDTH = 992;
 
 export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
-  const [rulesVisible, setShowRulesVisible] = React.useState(true)
-  const isMobileWidth = useIsMaxWindowWidth(MAX_WINDOW_WIDTH)
+  const [rulesVisible, setShowRulesVisible] = React.useState(true);
+  const isMobileWidth = useIsMaxWindowWidth(MAX_WINDOW_WIDTH);
 
   const handleClick = () => {
-    setShowRulesVisible(!rulesVisible)
-  }
+    setShowRulesVisible(!rulesVisible);
+  };
 
   return (
     <div className={classNames('rules', { 'write-rules': showFirstRule })}>
@@ -60,7 +60,8 @@ export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
                       rel="noreferrer"
                     />
                   ),
-                }}>
+                }}
+              >
                 <li />
               </Localized>
             )}
@@ -69,11 +70,7 @@ export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
                 className={classNames({
                   error: error === SentenceSubmissionError.TOO_LONG,
                 })}
-                data-testid={
-                  error === SentenceSubmissionError.TOO_LONG
-                    ? 'error-too-long'
-                    : ''
-                }
+                data-testid={error === SentenceSubmissionError.TOO_LONG ? 'error-too-long' : ''}
               />
             </Localized>
             <Localized id="new-sentence-rule-3">
@@ -115,9 +112,7 @@ export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
                   error: error === SentenceSubmissionError.NO_CITATION,
                 })}
                 data-testid={
-                  error === SentenceSubmissionError.NO_CITATION
-                    ? 'error-no-citation'
-                    : ''
+                  error === SentenceSubmissionError.NO_CITATION ? 'error-no-citation' : ''
                 }
               />
             </Localized>
@@ -128,5 +123,5 @@ export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
         )}
       </div>
     </div>
-  )
-}
+  );
+};

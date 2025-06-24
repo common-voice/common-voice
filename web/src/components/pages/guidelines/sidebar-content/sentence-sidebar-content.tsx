@@ -5,9 +5,7 @@ import { sentenceGuidelineSections } from '../constants';
 import { handleToggleVisibleSection } from '../utils';
 
 const SentenceSidebarContent = () => {
-  const [visibleSections, setVisibleSections] = React.useState(
-    sentenceGuidelineSections
-  );
+  const [visibleSections, setVisibleSections] = React.useState(sentenceGuidelineSections);
 
   const isMobileWidth = useIsMaxWindowWidth();
 

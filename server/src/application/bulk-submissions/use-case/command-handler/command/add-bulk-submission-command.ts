@@ -1,10 +1,10 @@
-import { clientId } from '../../../../../core/types/clientId'
+import { clientId } from '../../../../../core/types/clientId';
 
 export type AddBulkSubmissionCommand = {
-  submitter: clientId
-  filename: string
-  locale: string
-  file: string
-  size: number
-  corpus_id: string
-}
+  submitter: clientId;
+  filename: string;
+  locale: string;
+  file: string;
+  size: number;
+  corpus_id: string;
+};

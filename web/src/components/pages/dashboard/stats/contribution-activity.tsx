@@ -1,23 +1,23 @@
-import * as React from 'react'
-import { useEffect, useState } from 'react'
+import * as React from 'react';
+import { useEffect, useState } from 'react';
 
-import { BarPlot } from '../../../plot/plot'
-import { useAPI } from '../../../../hooks/store-hooks'
+import { BarPlot } from '../../../plot/plot';
+import { useAPI } from '../../../../hooks/store-hooks';
 
 interface Props {
-  locale: string
-  from: 'you' | 'everyone'
+  locale: string;
+  from: 'you' | 'everyone';
 }
 
 const ContributionActivity = ({ from, locale }: Props) => {
-  const api = useAPI()
-  const [barPlotData, setBarPlotData] = useState([])
+  const api = useAPI();
+  const [barPlotData, setBarPlotData] = useState([]);
 
   useEffect(() => {
-    api.fetchContributionActivity(from, locale).then(setBarPlotData)
-  }, [from, locale])
+    api.fetchContributionActivity(from, locale).then(setBarPlotData);
+  }, [from, locale]);
 
-  return barPlotData.length > 0 && <BarPlot data={barPlotData} />
-}
+  return barPlotData.length > 0 && <BarPlot data={barPlotData} />;
+};
 
-export default ContributionActivity
+export default ContributionActivity;

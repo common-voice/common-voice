@@ -29,7 +29,8 @@ const HowLocalize = React.memo(() => {
               rel="noopener noreferer"
             />
           ),
-        }}>
+        }}
+      >
         <p />
       </Localized>
       <Localized id="about-playbook-how-localize-content-3" elems={{ strong }}>
@@ -41,7 +42,8 @@ const HowLocalize = React.memo(() => {
       <LinkButton
         rounded
         blank
-        href="https://drive.google.com/file/d/1YVyHUPaw2oiVdZZ7_pg607cIMq0YDMcw/view?usp=sharing">
+        href="https://drive.google.com/file/d/1YVyHUPaw2oiVdZZ7_pg607cIMq0YDMcw/view?usp=sharing"
+      >
         <Localized id="about-playbook-how-localize-content-5" />
         <ArrowRight />
       </LinkButton>

@@ -1,9 +1,7 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import LanguageSelect, {
-  ALL_LOCALES,
-} from '../../../language-select/language-select';
+import LanguageSelect, { ALL_LOCALES } from '../../../language-select/language-select';
 import { useLocalStorageState } from '../../../../hooks/store-hooks';
 
 import './stats-card.css';
@@ -31,10 +29,7 @@ export default function StatsCard({
   scrollable?: boolean;
   currentLocale?: string;
 }) {
-  const [locale, setLocale] = useLocalStorageState(
-    DEFAULT_LOCALE_OPTION,
-    `${id}${currentLocale}`
-  );
+  const [locale, setLocale] = useLocalStorageState(DEFAULT_LOCALE_OPTION, `${id}${currentLocale}`);
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0]);
   const isDefaultOptionSelected = locale === DEFAULT_LOCALE_OPTION;
 
@@ -46,10 +41,7 @@ export default function StatsCard({
   }, [currentLocale]);
 
   return (
-    <div
-      className={`stats-card ${className || ''} ${
-        scrollable ? 'scrollable' : ''
-      }`}>
+    <div className={`stats-card ${className || ''} ${scrollable ? 'scrollable' : ''}`}>
       {overlay}
       <div className="stats-card__inner">
         <div className="title-and-icon">
@@ -72,7 +64,8 @@ export default function StatsCard({
                   key={label}
                   type="button"
                   className={label == selectedTab ? 'selected' : ''}
-                  onClick={() => setSelectedTab(label)}>
+                  onClick={() => setSelectedTab(label)}
+                >
                   {label}
                 </button>
               ) : (

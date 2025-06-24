@@ -89,7 +89,7 @@ export const up = async function (db: any): Promise<any> {
       UPDATE votes SET corpus_id = 'falak' WHERE corpus_id IS NULL;
     `);
 
-    return null;
+  return null;
 };
 
 export const down = async function (db: any): Promise<any> {

@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { User } from '../../../../stores/user';
@@ -74,9 +70,7 @@ class DeleteProfile extends React.Component<Props, { keep: boolean }> {
                   encodeURIComponent('Delete Profile') +
                   '&body=' +
                   encodeURIComponent(
-                    (keep
-                      ? 'keep my recordings'
-                      : 'remove my recordings, because: ' + '\n') +
+                    (keep ? 'keep my recordings' : 'remove my recordings, because: ' + '\n') +
                       /*+ this.textareaRef.current.value*/ '\n' +
                       'email:' +
                       this.props.user.account.email

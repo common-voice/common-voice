@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../../services/api';
@@ -96,10 +92,7 @@ interface PropsFromDispatch {
   addUpload: typeof Uploads.actions.add;
 }
 
-interface Props
-  extends WithLocalizationProps,
-    PropsFromState,
-    PropsFromDispatch {}
+interface Props extends WithLocalizationProps, PropsFromState, PropsFromDispatch {}
 
 interface State {
   isSaving: boolean;
@@ -174,8 +167,7 @@ class AvatarSetup extends React.Component<Props, State> {
     } = this.props;
     const { isSaving } = this.state;
     const avatarType =
-      account.avatar_url &&
-      account.avatar_url.startsWith('https://gravatar.com')
+      account.avatar_url && account.avatar_url.startsWith('https://gravatar.com')
         ? 'gravatar'
         : null;
     if (isSaving) {
@@ -203,7 +195,8 @@ class AvatarSetup extends React.Component<Props, State> {
                   refreshUser();
                 }
                 this.setState({ isSaving: false });
-              }}>
+              }}
+            >
               <Localized id="remove-avatar" />
             </Button>
           </div>
@@ -224,15 +217,13 @@ class AvatarSetup extends React.Component<Props, State> {
               onDrop={event => {
                 this.saveFileAvatar(event.dataTransfer.files);
                 event.preventDefault();
-              }}>
+              }}
+            >
               <span className="title">
                 <Localized id="browse-file-title" /> (
-                <Localized id="max-file-size" vars={{ kb: MAX_FILE_SIZE_KB }} />
-                )
+                <Localized id="max-file-size" vars={{ kb: MAX_FILE_SIZE_KB }} />)
               </span>
-              <Localized
-                id="browse-file"
-                elems={{ browseWrap: <span className="browse" /> }}>
+              <Localized id="browse-file" elems={{ browseWrap: <span className="browse" /> }}>
                 <span className="upload-label" />
               </Localized>
               <input
@@ -263,7 +254,8 @@ class AvatarSetup extends React.Component<Props, State> {
                 refreshUser();
               }
               this.setState({ isSaving: false });
-            }}>
+            }}
+          >
             <Localized id="connect-gravatar" />{' '}
             {avatarType == 'gravatar' ? (
               <CheckIcon className="check" />

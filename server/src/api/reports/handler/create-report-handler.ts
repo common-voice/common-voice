@@ -1,10 +1,10 @@
-import { Request, Response } from 'express'
-import { pipe } from 'fp-ts/function'
-import { taskEither as TE, task as T } from 'fp-ts'
-import { StatusCodes } from 'http-status-codes'
-import { CreateReportCommand } from '../../../application/reports/use-case/command-handler/command/create-report-command'
-import { createReportCommandHandler } from '../../../application/reports/use-case/command-handler/create-report-command-handler'
-import { createPresentableError } from '../../../application/helper/error-helper'
+import { Request, Response } from 'express';
+import { pipe } from 'fp-ts/function';
+import { taskEither as TE, task as T } from 'fp-ts';
+import { StatusCodes } from 'http-status-codes';
+import { CreateReportCommand } from '../../../application/reports/use-case/command-handler/command/create-report-command';
+import { createReportCommandHandler } from '../../../application/reports/use-case/command-handler/create-report-command-handler';
+import { createPresentableError } from '../../../application/helper/error-helper';
 
 export const createReportHandler = async (req: Request, res: Response) => {
   const cmd: CreateReportCommand = {
@@ -13,7 +13,7 @@ export const createReportHandler = async (req: Request, res: Response) => {
     id: req.body.id,
     reasons: req.body.reasons,
     corpus_id: req.body.corpus_id,
-  }
+  };
 
   return pipe(
     cmd,
@@ -28,5 +28,5 @@ export const createReportHandler = async (req: Request, res: Response) => {
           })
         )
     )
-  )()
-}
+  )();
+};

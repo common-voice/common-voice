@@ -1,22 +1,18 @@
-import { Job } from 'bull'
-import UserClient from '../../model/user-client'
-import { getConfig } from '../../../config-helper'
+import { Job } from 'bull';
+import UserClient from '../../model/user-client';
+import { getConfig } from '../../../config-helper';
 import {
   deleteFileFromBucket,
   getPublicUrlFromBucket,
   makePublicInBucket,
   uploadToBucket,
-} from '../../../infrastructure/storage/storage'
-import { constVoid, pipe } from 'fp-ts/lib/function'
-import { taskEither as TE, task as T } from 'fp-ts'
+} from '../../../infrastructure/storage/storage';
+import { constVoid, pipe } from 'fp-ts/lib/function';
+import { taskEither as TE, task as T } from 'fp-ts';
 
 const getUnsignedUrl = (bucket: string, key: string) => {
-  const {
-    ENVIRONMENT,
-    STORAGE_LOCAL_DEVELOPMENT_ENDPOINT,
-    CLIP_BUCKET_NAME,
-    AWS_REGION,
-  } = getConfig();
+  const { ENVIRONMENT, STORAGE_LOCAL_DEVELOPMENT_ENDPOINT, CLIP_BUCKET_NAME, AWS_REGION } =
+    getConfig();
 
   if (ENVIRONMENT === 'local') {
     return `${STORAGE_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
@@ -28,28 +24,23 @@ const getUnsignedUrl = (bucket: string, key: string) => {
 const deleteAvatar = async (client_id: string, url: string) => {
   const urlParts = url.split('/');
   if (urlParts.length) {
-    const fileName = urlParts[urlParts.length - 1]
+    const fileName = urlParts[urlParts.length - 1];
 
     await pipe(
-      deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(
-        `${client_id}/${fileName}`
-      ),
+      deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(`${client_id}/${fileName}`),
       TE.getOrElse((e: Error) => T.of(console.log(e)))
-    )()
+    )();
   }
-}
+};
 
 const updateAvatarURL = async (
   client_id: string,
   user: Express.User,
   uploadedImagePath: string
 ) => {
-  const oldAvatar = await UserClient.updateAvatarURL(
-    user.emails[0].value,
-    uploadedImagePath
-  )
-  if (oldAvatar) await deleteAvatar(client_id, oldAvatar)
-}
+  const oldAvatar = await UserClient.updateAvatarURL(user.emails[0].value, uploadedImagePath);
+  if (oldAvatar) await deleteAvatar(client_id, oldAvatar);
+};
 
 const imageProcessor = async (job: Job) => {
   const {
@@ -59,34 +50,32 @@ const imageProcessor = async (job: Job) => {
     imageBucket,
     user,
   } = job.data as {
-    client_id: string
-    rawImageData: string
-    user: Express.User
-    key: string
-    imageBucket: string
-  }
+    client_id: string;
+    rawImageData: string;
+    user: Express.User;
+    key: string;
+    imageBucket: string;
+  };
 
-  const imageBuffer = Buffer.from(rawImageData, 'binary')
+  const imageBuffer = Buffer.from(rawImageData, 'binary');
   //upload to S3 here
   try {
     await pipe(
       TE.Do,
-      TE.bind('upload', () =>
-        uploadToBucket(imageBucket)(fileName)(imageBuffer)
-      ),
+      TE.bind('upload', () => uploadToBucket(imageBucket)(fileName)(imageBuffer)),
       TE.bind('makePublic', () => makePublicInBucket(imageBucket)(fileName)),
       TE.map(constVoid),
       TE.getOrElse((e: Error) => T.of(console.log(e)))
-    )()
+    )();
 
-    const avatarURL = getPublicUrlFromBucket(imageBucket)(fileName)
+    const avatarURL = getPublicUrlFromBucket(imageBucket)(fileName);
 
-    await updateAvatarURL(client_id, user, avatarURL)
+    await updateAvatarURL(client_id, user, avatarURL);
   } catch (error) {
-    console.error(error)
-    return false
+    console.error(error);
+    return false;
   }
-  return true
-}
+  return true;
+};
 
-export default imageProcessor
+export default imageProcessor;

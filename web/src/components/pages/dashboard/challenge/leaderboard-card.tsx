@@ -2,13 +2,7 @@ import * as React from 'react';
 import { useRef, useState } from 'react';
 import { useAccount } from '../../../../hooks/store-hooks';
 
-import {
-  BookmarkIcon,
-  CheckIcon,
-  EyeIcon,
-  EyeOffIcon,
-  InfoIcon,
-} from '../../../ui/icons';
+import { BookmarkIcon, CheckIcon, EyeIcon, EyeOffIcon, InfoIcon } from '../../../ui/icons';
 
 import StatsCard from '../stats/stats-card';
 import ChallengeList from './challenge-list';
@@ -52,7 +46,8 @@ export default function LeaderboardCard({
                 type="button"
                 onClick={() => {
                   leaderboardRef.current.scrollToUser();
-                }}>
+                }}
+              >
                 <BookmarkIcon /> <span className="text">Show my ranking</span>
               </button>
 
@@ -71,7 +66,8 @@ export default function LeaderboardCard({
           <div
             className="leaderboard-info"
             onMouseEnter={() => setShowInfo(true)}
-            onMouseLeave={() => setShowInfo(false)}>
+            onMouseLeave={() => setShowInfo(false)}
+          >
             {showInfo && (
               <div className="info-menu">
                 <ul>
@@ -97,7 +93,8 @@ export default function LeaderboardCard({
               className={showInfo ? 'active' : ''}
               style={{ display: 'flex' }}
               onClick={() => setShowInfo(!showInfo)}
-              type="button">
+              type="button"
+            >
               <InfoIcon />
             </button>
           </div>
@@ -105,20 +102,10 @@ export default function LeaderboardCard({
       }
       tabs={{
         recorded: () => (
-          <ChallengeList
-            key="recorded-list"
-            type="clip"
-            service={service}
-            ref={leaderboardRef}
-          />
+          <ChallengeList key="recorded-list" type="clip" service={service} ref={leaderboardRef} />
         ),
         validated: () => (
-          <ChallengeList
-            key="validated-list"
-            type="vote"
-            service={service}
-            ref={leaderboardRef}
-          />
+          <ChallengeList key="validated-list" type="vote" service={service} ref={leaderboardRef} />
         ),
       }}
     />

@@ -5,19 +5,19 @@ import {
   ERR_NO_SYMBOLS,
   ERR_TOO_LONG,
   ValidatorRule,
-} from '../../types'
+} from '../../types';
 
 // Minimum of characters that qualify as a sentence.
-const MIN_LENGTH = 1
+const MIN_LENGTH = 1;
 
 // Maximum of characters allowed per sentence to keep recordings in a manageable duration.
-const MAX_LENGTH = 125
+const MAX_LENGTH = 125;
 
 const INVALIDATIONS: ValidatorRule[] = [
   {
     type: 'fn',
     fn: (sentence: string) => {
-      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH
+      return sentence.length < MIN_LENGTH || sentence.length > MAX_LENGTH;
     },
     error: `Number of characters must be between ${MIN_LENGTH} and ${MAX_LENGTH} (inclusive)`,
     errorType: ERR_TOO_LONG,
@@ -58,6 +58,6 @@ const INVALIDATIONS: ValidatorRule[] = [
     error: 'Sentence should not contain emojis',
     errorType: ERR_NO_SYMBOLS,
   },
-]
+];
 
-export default INVALIDATIONS
+export default INVALIDATIONS;

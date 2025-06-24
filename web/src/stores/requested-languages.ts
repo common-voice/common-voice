@@ -25,10 +25,7 @@ export namespace RequestedLanguages {
   export type Action = FetchAction | SetAction;
 
   export const actions = {
-    fetch: () => async (
-      dispatch: Dispatch<FetchAction | SetAction>,
-      getState: () => StateTree
-    ) => {
+    fetch: () => async (dispatch: Dispatch<FetchAction | SetAction>, getState: () => StateTree) => {
       const {
         api,
         requestedLanguages: { isLoading, languages },
@@ -46,10 +43,7 @@ export namespace RequestedLanguages {
       languages,
     }),
 
-    create: (language: string) => async (
-      dispatch: Dispatch<Action>,
-      getState: () => StateTree
-    ) => {
+    create: (language: string) => async (dispatch: Dispatch<Action>, getState: () => StateTree) => {
       await getState().api.requestLanguage(language);
       actions.fetch()(dispatch, getState);
     },
