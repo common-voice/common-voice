@@ -6,4 +6,5 @@ export type AddBulkSubmissionCommand = {
   locale: string
   file: string
   size: number
+  corpus_id: string
 }

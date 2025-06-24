@@ -13,30 +13,28 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
           let imgSrc = ''
 
           if (stepsDone) {
-            imgSrc = '/voicewall/img/progress-check.svg'
+            imgSrc = require('./img/progress-check.svg')
           }
 
           if (!stepsDone) {
             if (index < currentStep) {
-              imgSrc = '/voicewall/img/progress-check.svg' // Successful step
+              imgSrc = require('./img/progress-check.svg') // Successful step
             } else if (index === currentStep) {
-              imgSrc = '/voicewall/img/progress-check-active.svg'
+              imgSrc = require('./img/progress-check-active.svg')
             } else {
-              imgSrc = '/voicewall/img/progress-check-muted.svg'
+              imgSrc = require('./img/progress-check-muted.svg')
             }
           }
 
           const isSuccess = imgSrc === '/voicewall/img/progress-check.svg'
 
           return (
-
             <li
               key={index}
               className={`step ${
                 index <= currentStep ? 'step-accent' : ''
               } relative z-1`}
               data-content="">
-
               <motion.img
                 src={imgSrc}
                 alt={
@@ -68,7 +66,6 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
               <span className="text-center text-sm text-gray-500 pt-2">
                 {step}
               </span>
-
             </li>
           )
         })}

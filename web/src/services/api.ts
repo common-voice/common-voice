@@ -17,6 +17,7 @@ import {
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
 import { USER_KEY } from '../stores/root'
+import { Datasource } from '../stores/datasource'
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'
@@ -35,7 +36,8 @@ interface Vote extends Event {
   challengeEnded?: boolean
 }
 
-const API_PATH = location.origin + '/voicewall/api/v1'
+const PREFIX_VOICEWALL = process.env.CV_PROD === 'true' ? '/voicewall' : ''
+const API_PATH = location.origin + PREFIX_VOICEWALL + '/api/v1'
 
 const getChallenge = (user: User.State): string => {
   return user?.account?.enrollment?.challenge
@@ -44,11 +46,17 @@ const getChallenge = (user: User.State): string => {
 }
 
 export default class API {
-  private readonly locale: Locale.State
+  public readonly locale: Locale.State
   private readonly user: User.State
   private readonly abortController: AbortController
+  public readonly datasource: Datasource.State
 
-  constructor(locale: Locale.State, user: User.State) {
+  constructor(
+    locale: Locale.State,
+    user: User.State,
+    datasource: Datasource.State
+  ) {
+    this.datasource = datasource
     this.locale = locale
     this.user = user
     this.abortController = new AbortController()
@@ -106,11 +114,26 @@ export default class API {
       throw new Error(await response.text())
     }
 
-    return isJSON ? response.json() : response.text()
+    // Ensure we have content to parse if it's expected to be JSON
+    if (isJSON) {
+      const text = await response.text()
+      if (text) {
+        try {
+          return JSON.parse(text) // Attempt to parse JSON
+        } catch (e) {
+          throw new Error('Failed to parse response as JSON: ' + e.message)
+        }
+      } else {
+        throw new Error('Empty response body')
+      }
+    }
+
+    // Return text if it's not JSON
+    return response.text()
   }
 
   forLocale(locale: string) {
-    return new API(locale, this.user)
+    return new API(locale, this.user, this.datasource)
   }
 
   getLocalePath() {
@@ -121,12 +144,23 @@ export default class API {
     return this.getLocalePath() + '/clips'
   }
 
-  async fetchRandomSentences(count = 1): Promise<Sentence[]> {
-    return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`)
+  async fetchRandomSentences(
+    count = 1,
+    datasource?: string
+  ): Promise<Sentence[]> {
+    return this.fetch(
+      `${this.getLocalePath()}/sentences${
+        datasource ? `/${datasource}` : ''
+      }?count=${count}`
+    )
   }
 
-  async fetchRandomClips(count = 1): Promise<Clip[]> {
-    return this.fetch(`${this.getClipPath()}?count=${count}`)
+  async fetchRandomClips(count = 1, datasource?: string): Promise<Clip[]> {
+    return this.fetch(
+      `${this.getClipPath()}${
+        datasource ? `/c/${datasource}` : ''
+      }?count=${count}`
+    )
   }
 
   uploadClip(
@@ -171,7 +205,9 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`/voicewall/locales/${locale}/messages.ftl`, { isJSON: false })
+    return this.fetch(`${PREFIX_VOICEWALL}/locales/${locale}/messages.ftl`, {
+      isJSON: false,
+    })
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {
@@ -205,7 +241,9 @@ export default class API {
     name: 'privacy' | 'terms' | 'challenge-terms'
   ): Promise<string> {
     const locale = name === 'challenge-terms' ? 'en' : this.locale
-    return this.fetch(`/voicewall/${name}/${locale}.html`, { isJSON: false })
+    return this.fetch(`${PREFIX_VOICEWALL}/${name}/${locale}.html`, {
+      isJSON: false,
+    })
   }
 
   skipSentence(id: string) {
@@ -220,23 +258,39 @@ export default class API {
     })
   }
 
-  fetchClipsStats(locale?: string): Promise<
+  fetchClipsStats(
+    locale?: string,
+    datasource?: string
+  ): Promise<
     {
       date: string
       total: number
       valid: number
     }[]
   > {
-    return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats')
+    return this.fetch(
+      API_PATH +
+        (locale ? '/' + locale : '') +
+        '/clips/stats' +
+        (datasource ? '/' + datasource : '')
+    )
   }
 
-  fetchClipVoices(locale?: string): Promise<
+  fetchClipVoices(
+    locale?: string,
+    datasource?: string
+  ): Promise<
     {
       date: string
       value: number
     }[]
   > {
-    return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/voices')
+    return this.fetch(
+      API_PATH +
+        (locale ? '/' + locale : '') +
+        '/clips/voices' +
+        (datasource ? '/' + datasource : '')
+    )
   }
 
   fetchContributionActivity(
@@ -499,12 +553,20 @@ export default class API {
     return await this.fetch(`${API_PATH}/server_date`)
   }
 
-  getAccents(lang?: string) {
-    return this.fetch(`${API_PATH}/language/accents${lang ? '/' + lang : ''}`)
+  getAccents(lang?: string, datasource?: string) {
+    return this.fetch(
+      `${API_PATH}/language/accents${lang ? '/' + lang : ''}${
+        datasource ? '/' + datasource : ''
+      }`
+    )
   }
 
-  getVariants(lang?: string) {
-    return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`)
+  getVariants(lang?: string, datasource?: string) {
+    return this.fetch(
+      `${API_PATH}/language/variants${lang ? '/' + lang : ''}${
+        datasource ? '/' + datasource : ''
+      }`
+    )
   }
 
   getDatasets(releaseType: string) {

@@ -47,6 +47,7 @@ export const addBulkSubmission =
           path: filepath,
           submitter: cmd.submitter,
           importStatus: BulkSubmissionImportStatusCreated,
+          corpus_id: cmd.corpus_id,
         })
       ),
       TE.mapLeft(err =>
@@ -56,10 +57,8 @@ export const addBulkSubmission =
     )
   }
 
-export const addBulkSubmissionCommandHandler = 
-  addBulkSubmission
-    (getLocaleIdF)
-    (fetchUserClientEmailById)
-    (createBulkSubmissionFilepath)
-    (BulkSubmissionUploadJobQueue)
-    (insertBulkSubmissionIntoDb)
+export const addBulkSubmissionCommandHandler = addBulkSubmission(getLocaleIdF)(
+  fetchUserClientEmailById
+)(createBulkSubmissionFilepath)(BulkSubmissionUploadJobQueue)(
+  insertBulkSubmissionIntoDb
+)

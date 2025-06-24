@@ -225,7 +225,8 @@ router.get('/logout', (request: Request, response: Response) => {
 
 export default router
 
-const db = new DB()
+// Import or define CommonVoiceConfig before using it
+const db = new DB(getConfig())
 export async function authMiddleware(
   request: Request,
   response: Response,

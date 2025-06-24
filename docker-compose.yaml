@@ -18,12 +18,14 @@ services:
       - ../falak-host:/host
   adminer:
     image: adminer
-    container_name: voicewall-adminer
+    container_name: voicewall-adminer1
     restart: always
     ports:
       - 8010:8080
-    networks:
-      - falak-network
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    # networks:
+    #   - falak-network
   redis:
     image: redis:alpine
     container_name: voicewall-redis1

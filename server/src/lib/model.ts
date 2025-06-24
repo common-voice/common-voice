@@ -4,6 +4,7 @@ import DB from './model/db'
 import { DBClip } from './model/db/tables/clip-table'
 import lazyCache from './lazy-cache'
 import { secondsToHours } from './utils/secondsToHours'
+import { getConfig } from '../config-helper'
 
 // TODO: Retrieve average clip data from database (datasets/locale_datasets tables)
 const AVG_CLIP_SECONDS = 4.694
@@ -134,7 +135,7 @@ const DAY = MINUTE * 60 * 24
  * The Model loads all clip and user data into memory for quick access.
  */
 export default class Model {
-  db = new DB()
+  db = new DB(getConfig())
 
   /**
    * Fetch a random clip but make sure it's not the user's.
@@ -142,24 +143,28 @@ export default class Model {
   async findEligibleClips(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    corpus_id?: string
   ): Promise<DBClip[]> {
     return this.db.findClipsNeedingValidation(
       client_id,
       locale,
-      Math.min(count, 50)
+      Math.min(count, 50),
+      corpus_id
     )
   }
 
   async findEligibleSentences(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    corpus_id?: string
   ): Promise<Sentence[]> {
     return this.db.findSentencesNeedingClips(
       client_id,
       locale,
-      Math.min(count, 50)
+      Math.min(count, 50),
+      corpus_id
     )
   }
 
@@ -191,6 +196,7 @@ export default class Model {
     path: string
     sentence: string
     duration: number
+    corpus_id: string
   }) {
     await this.db.saveClip(clipData)
   }
@@ -263,13 +269,13 @@ export default class Model {
       ] = await Promise.all([
         this.getLocalizedPercentages(), //translation %, no en
         this.db
-          .getValidClipCount(allLanguageIds)
+          .getValidClipCount(allLanguageIds, '')
           .then(data => statsReducer(data)),
         this.db
-          .getTotalUniqueSpeakerCount(allLanguageIds)
+          .getTotalUniqueSpeakerCount(allLanguageIds, '')
           .then(data => statsReducer(data)),
         this.db
-          .getAllClipCount(allLanguageIds)
+          .getAllClipCount(allLanguageIds, '')
           .then(data => statsReducer(data)),
       ])
 
@@ -300,8 +306,8 @@ export default class Model {
 
   getClipsStats = lazyCache(
     'overall-clips-stats',
-    async (locale: string) =>
-      (await this.db.getClipsStats(locale)).map(stat => ({
+    async (locale: string, corpus_id?: string) =>
+      (await this.db.getClipsStats(corpus_id, locale)).map(stat => ({
         ...stat,
         total: Math.round(stat.total * getAverageSecondsPerClip(locale)),
         valid: Math.round(stat.valid * getAverageSecondsPerClip(locale)),
@@ -311,7 +317,8 @@ export default class Model {
 
   getVoicesStats = lazyCache(
     'voice-stats',
-    (locale: string) => this.db.getVoicesStats(locale),
+    (locale: string, corpus_id?: string) =>
+      this.db.getVoicesStats(corpus_id, locale),
     1
   )
 

@@ -1,4 +1,4 @@
-import { getConfig } from '../../config-helper'
+import { CommonVoiceConfig, getConfig } from '../../config-helper'
 import Mysql, { getMySQLInstance } from './db/mysql'
 import Schema from './db/schema'
 import ClipTable, { DBClip } from './db/tables/clip-table'
@@ -318,8 +318,11 @@ export default class DB {
   mysql: Mysql
   schema: Schema
   vote: VoteTable
+  config: CommonVoiceConfig
 
-  constructor() {
+  constructor(config: CommonVoiceConfig) {
+    this.config = config ? config : getConfig()
+
     this.mysql = getMySQLInstance()
 
     this.clip = new ClipTable(this.mysql)
@@ -426,7 +429,8 @@ export default class DB {
   }
 
   async getSpeakerCount(
-    localeIds: number[]
+    localeIds: number[],
+    corpus_id: string
   ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
@@ -434,15 +438,17 @@ export default class DB {
         SELECT clips.locale_id, COUNT(DISTINCT clips.client_id) AS count
         FROM clips
         WHERE clips.locale_id IN (?)
+        AND clips.corpus_id = ?
         GROUP BY clips.locale_id
       `,
-        [localeIds]
+        [localeIds, corpus_id]
       )
     )[0]
   }
 
   async getTotalUniqueSpeakerCount(
-    localeIds: number[]
+    localeIds: number[],
+    corpus_id: string
   ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
@@ -450,10 +456,11 @@ export default class DB {
         SELECT temp.locale_id, COUNT(1) AS count
         FROM (select c.locale_id, count(1) from clips c
         WHERE c.locale_id IN (?)
+        AND c.corpus_id = ?
         GROUP BY c.client_id, c.locale_id) temp
         GROUP BY temp.locale_id
       `,
-        [localeIds]
+        [localeIds, corpus_id]
       )
     )[0]
   }
@@ -475,32 +482,55 @@ export default class DB {
   async findSentencesNeedingClips(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    corpus_id?: string
   ): Promise<Sentence[]> {
     let taxonomySentences: Sentence[] = []
     const locale_id = await getLocaleId(locale)
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
 
     const prioritySegments = this.getPrioritySegments(locale)
-
-    if (prioritySegments.length) {
-      taxonomySentences = await this.findSentencesMatchingTaxonomy(
+    const main_corpus_id = this.config.MAINCORPUSID
+    // Use the appropriate taxonomy method depending on whether corpus_id is provided
+    // if (prioritySegments.length) {
+    if (corpus_id) {
+      taxonomySentences = await this.findSentencesMatchingTaxonomyCorpusId(
         client_id,
         locale_id,
         count,
-        prioritySegments
+        prioritySegments,
+        corpus_id
+      )
+    } else {
+      taxonomySentences = await this.findSentencesMatchingTaxonomyCorpusId(
+        client_id,
+        locale_id,
+        count,
+        prioritySegments,
+        main_corpus_id
       )
     }
+    //}
 
+    // Determine which version of regular sentences to fetch
     const regularSentences =
       taxonomySentences.length >= count
         ? []
+        : corpus_id
+        ? await this.findSentencesWithFewClipsCorpusId(
+            client_id,
+            locale_id,
+            count - taxonomySentences.length,
+            corpus_id,
+            exemptFromSSRL
+          )
         : await this.findSentencesWithFewClips(
             client_id,
             locale_id,
             count - taxonomySentences.length,
             exemptFromSSRL
           )
+
     return taxonomySentences.concat(regularSentences)
   }
 
@@ -608,11 +638,129 @@ export default class DB {
       })
     )
   }
+  async findSentencesWithFewClipsCorpusId(
+    client_id: string,
+    locale_id: number,
+    count: number,
+    corpus_id: string,
+    exemptFromSSRL?: boolean
+  ): Promise<Sentence[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT *
+        FROM (
+          SELECT id, text
+          FROM sentences
+          WHERE 
+            is_used 
+            AND corpus_id = ? 
+            AND locale_id = ? 
+            AND clips_count <= 15
+            AND (enddate IS NULL OR enddate > NOW()) 
+            AND (startdate IS NULL OR startdate <= NOW())
+            AND NOT EXISTS (
+              SELECT original_sentence_id
+              FROM clips
+              WHERE clips.original_sentence_id = sentences.id AND
+                clips.client_id = ?
+              UNION ALL
+              SELECT sentence_id
+              FROM skipped_sentences skipped
+              WHERE skipped.sentence_id = sentences.id AND
+                skipped.client_id = ?
+              UNION ALL
+              SELECT sentence_id
+              FROM reported_sentences reported
+              WHERE reported.sentence_id = sentences.id AND
+                reported.client_id = ?
+            )
+          ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
+          ORDER BY clips_count ASC
+          LIMIT ?
+        ) t
+        ORDER BY RAND()
+        LIMIT ?
+      `,
+      [
+        corpus_id,
+        locale_id,
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
+    )
+    return (rows || []).map(({ id, text }: any) => ({ id, text }))
+  }
+
+  async findSentencesMatchingTaxonomyCorpusId(
+    client_id: string,
+    locale_id: number,
+    count: number,
+    segments: string[],
+    corpus_id: string
+  ): Promise<Sentence[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT *
+        FROM (
+          SELECT sentence_id AS id, text, term_name, term_sentence_source
+          FROM taxonomy_entries entries
+          LEFT JOIN taxonomy_terms terms ON terms.id = entries.term_id
+          LEFT JOIN sentences ON entries.sentence_id = sentences.id
+          WHERE term_id IN (?)
+          AND is_used AND sentences.locale_id = ?
+          AND sentences.corpus_id = ?  
+          AND (enddate IS NULL OR enddate > NOW())
+          AND (startdate IS NULL OR startdate <= NOW())
+          AND NOT EXISTS (
+            SELECT original_sentence_id
+            FROM clips
+            WHERE clips.original_sentence_id = sentences.id AND
+              clips.client_id = ?
+            UNION ALL
+            SELECT sentence_id
+            FROM skipped_sentences skipped
+            WHERE skipped.sentence_id = sentences.id AND
+              skipped.client_id = ?
+            UNION ALL
+            SELECT sentence_id
+            FROM reported_sentences reported
+            WHERE reported.sentence_id = sentences.id AND
+              reported.client_id = ?
+          )
+          LIMIT ?
+        ) t
+        ORDER BY RAND()
+        LIMIT ?
+      `,
+      [
+        await getTermIds(segments),
+        locale_id,
+        corpus_id,
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
+    )
+
+    return (rows || []).map(
+      ({ id, text, term_name, term_sentence_source }: any) => ({
+        id,
+        text,
+        taxonomy: { name: term_name, source: term_sentence_source },
+      })
+    )
+  }
 
   async findClipsNeedingValidation(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    corpus_id?: string
   ): Promise<DBClip[]> {
     Sentry.captureMessage(
       `Find clips needing validation for ${locale} locale`,
@@ -621,48 +769,38 @@ export default class DB {
     let taxonomySentences: DBClip[] = []
     const locale_id = await getLocaleId(locale)
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
+    const main_corpus_id = this.config.MAINCORPUSID
 
     const prioritySegments = this.getPrioritySegments(locale)
-
-    if (prioritySegments.length) {
-      // taxonomySentences = await this.findClipsMatchingTaxonomy(
-      //   client_id,
-      //   locale_id,
-      //   count,
-      //   prioritySegments
-      // )
-      taxonomySentences = await this.findClipsWithoutTaxonomy(
+    if (corpus_id) {
+      taxonomySentences = await this.findClipsWithoutTaxonomyCorpusId(
         client_id,
         locale_id,
-        count
-      )
-      Sentry.captureMessage(
-        `There are ${prioritySegments.length} priority segments for ${locale} locale`,
-        Sentry.Severity.Info
+        count,
+        corpus_id
       )
     } else {
-      Sentry.captureMessage(
-        `There are 0 priority segments for ${locale} locale`,
-        Sentry.Severity.Info
+      taxonomySentences = await this.findClipsWithoutTaxonomyCorpusId(
+        client_id,
+        locale_id,
+        count,
+        main_corpus_id
       )
     }
 
-    // const regularSentences =
-    //   taxonomySentences.length >= count
-    //     ? []
-    //     : await this.findClipsWithFewVotes(
-    //         client_id,
-    //         locale_id,
-    //         count - taxonomySentences.length,
-    //         exemptFromSSRL
-    //       )
+    Sentry.captureMessage(
+      `There are ${prioritySegments.length} priority segments for ${locale} locale`,
+      Sentry.Severity.Info
+    )
+
     const regularSentences =
       taxonomySentences.length >= count
         ? []
-        : await this.findClipsWithFewVotesWithoutTaxonomy(
+        : await this.findClipsWithFewVotesWithoutTaxonomyCorpusId(
             client_id,
             locale_id,
             count - taxonomySentences.length,
+            corpus_id,
             exemptFromSSRL
           )
 
@@ -693,6 +831,7 @@ export default class DB {
       (row: DBClip) =>
         row.client_id !== client_id &&
         row.is_approved === 1 &&
+        row.corpus_id === '' &&
         (row.expire_at === null || new Date(row.expire_at) > new Date())
     )
 
@@ -741,36 +880,38 @@ export default class DB {
 
     const [clips] = await this.mysql.query(
       `
-    SELECT *
-    FROM (
-      SELECT clips.*
-      FROM clips
-      LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
-      WHERE is_valid IS NULL
-        AND clips.locale_id = ?
-        AND clips.client_id <> ?
-        AND clips.is_approved = 1
-        AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
-        AND NOT EXISTS (
-          SELECT clip_id
-          FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
-        )
-        AND sentences.clips_count <= 50
-        ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
-      ORDER BY sentences.clips_count ASC, clips.created_at ASC
-      LIMIT ?
-    ) t
-    ORDER BY RAND()
-    LIMIT ?`,
+ SELECT *
+FROM (
+  SELECT clips.*, v.variant_name as variant_name
+  FROM clips
+  LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
+  LEFT JOIN user_client_variants ucv ON ucv.client_id = clips.client_id
+  LEFT JOIN variants v ON v.id = ucv.variant_id
+  WHERE is_valid IS NULL
+    AND clips.locale_id = ?
+    AND clips.client_id <> ?
+    AND clips.is_approved = 1
+    AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+    AND NOT EXISTS (
+      SELECT clip_id
+      FROM votes
+      WHERE votes.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE reported.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE skipped.clip_id = clips.id AND client_id = ?
+    )
+    AND sentences.clips_count <= 50
+    ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
+  ORDER BY sentences.clips_count ASC, clips.created_at ASC
+  LIMIT ?
+) t
+ORDER BY RAND()
+LIMIT ?`,
       [
         locale_id,
         client_id,
@@ -784,7 +925,130 @@ export default class DB {
 
     return clips as DBClip[]
   }
+  async findClipsWithFewVotesWithoutTaxonomyCorpusId(
+    client_id: string,
+    locale_id: number,
+    count: number,
+    corpus_id: string, // <-- Added parameter
+    exemptFromSSRL?: boolean
+  ): Promise<DBClip[]> {
+    // get cached clips for given language and corpus
+    const cachedClips: DBClip[] = await lazyCache(
+      `new-clips-per-language-${locale_id}-corpus-${corpus_id}`,
+      async () => {
+        return await this.getClipsToBeValidatedCorpusId(
+          locale_id,
+          corpus_id,
+          10000
+        )
+      },
+      MINUTE
+    )()
 
+    // Filter out user's own clips and expired clips + match corpus_id
+    const validUserClips: DBClip[] = cachedClips.filter(
+      (row: DBClip) =>
+        row.client_id !== client_id &&
+        row.is_approved === 1 &&
+        row.corpus_id === corpus_id && // <-- filter by corpus_id
+        (row.expire_at === null || new Date(row.expire_at) > new Date())
+    )
+
+    // Get users previously interacted clip ids
+    const [submittedUserClipIds] = await this.mysql.query(
+      `
+      SELECT clip_id
+      FROM votes
+      WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE client_id = ?
+      `,
+      [client_id, client_id, client_id]
+    )
+
+    // Remove duplicates and store as a flat set
+    const skipClipIds: Set<number> = new Set(
+      submittedUserClipIds.map((row: { clip_id: number }) => row.clip_id)
+    )
+
+    // Get clips that a user hasn't already seen and are not expired
+    const validClips = new Set(
+      validUserClips.filter((clip: DBClip) => {
+        if (exemptFromSSRL) {
+          return (
+            !skipClipIds.has(clip.id) &&
+            (clip.expire_at === null || new Date(clip.expire_at) > new Date())
+          )
+        }
+        // Only return clips that have not been validated before and are not expired
+        return (
+          !skipClipIds.has(clip.id) &&
+          clip.has_valid_clip === 0 &&
+          (clip.expire_at === null || new Date(clip.expire_at) > new Date())
+        )
+      })
+    )
+
+    if (validClips.size >= count) {
+      return Array.from(validClips).slice(0, count)
+    }
+
+    const [clips] = await this.mysql.query(
+      `
+      SELECT *
+FROM (
+  SELECT clips.*, v.variant_name as variant_name
+  FROM clips
+  LEFT JOIN sentences ON clips.original_sentence_id = sentences.id
+  LEFT JOIN user_client_variants ucv ON ucv.client_id = clips.client_id
+  LEFT JOIN variants v ON v.id = ucv.variant_id
+  WHERE is_valid IS NULL
+    AND clips.locale_id = ?
+    AND clips.client_id <> ?
+    AND clips.is_approved = 1
+    AND clips.corpus_id = ?
+    AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+    AND NOT EXISTS (
+      SELECT clip_id
+      FROM votes
+      WHERE votes.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE reported.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE skipped.clip_id = clips.id AND client_id = ?
+    )
+    AND sentences.clips_count <= 50
+    ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
+  ORDER BY sentences.clips_count ASC, clips.created_at ASC
+  LIMIT ?
+) t
+ORDER BY RAND()
+LIMIT ?
+      `,
+      [
+        locale_id,
+        client_id,
+        corpus_id, // <-- passed here
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
+    )
+
+    return clips as DBClip[]
+  }
   async findClipsWithoutTaxonomy(
     client_id: string,
     locale_id: number,
@@ -792,33 +1056,35 @@ export default class DB {
   ): Promise<DBClip[]> {
     const [clips] = await this.mysql.query(
       `
-    SELECT *
-    FROM (
-      SELECT * 
-      FROM clips
-      WHERE locale_id = ?
-        AND is_valid IS NULL
-        AND clips.client_id <> ?
-        AND clips.is_approved = 1
-        AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
-        AND NOT EXISTS (
-          SELECT clip_id
-          FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
-        )
-      GROUP BY original_sentence_id
-      LIMIT ?
-    ) t
-    ORDER BY RAND()
-    LIMIT ?`,
+  SELECT *
+FROM (
+  SELECT clips.*, v.name as variant_name
+  FROM clips
+  LEFT JOIN user_client_variants ucv ON ucv.client_id = clips.client_id
+  LEFT JOIN variants v ON v.id = ucv.variant_id
+  WHERE locale_id = ?
+    AND is_valid IS NULL
+    AND clips.client_id <> ?
+    AND clips.is_approved = 1
+    AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+    AND NOT EXISTS (
+      SELECT clip_id
+      FROM votes
+      WHERE votes.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE reported.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE skipped.clip_id = clips.id AND client_id = ?
+    )
+  GROUP BY original_sentence_id
+  LIMIT ?
+) t
+ORDER BY RAND()
+LIMIT ?`,
       [
         locale_id,
         client_id,
@@ -829,8 +1095,90 @@ export default class DB {
         count,
       ]
     )
-    console.log('meshmesh without taxonomy', clips)
+    console.log('without taxonomy', clips)
     return clips as DBClip[]
+  }
+  async findClipsWithoutTaxonomyCorpusId(
+    client_id: string,
+    locale_id: number,
+    count: number,
+    corpus_id: string
+  ): Promise<DBClip[]> {
+    const [clips] = await this.mysql.query(
+      `
+    SELECT *
+FROM (
+  SELECT clips.*, v.variant_name as variant_name
+  FROM clips
+  LEFT JOIN user_client_variants ucv ON ucv.client_id = clips.client_id
+  LEFT JOIN variants v ON v.id = ucv.variant_id
+  WHERE clips.locale_id = ?
+    AND clips.corpus_id = ?
+    AND is_valid IS NULL
+    AND clips.client_id <> ?
+    AND clips.is_approved = 1
+    AND (clips.expire_at IS NULL OR clips.expire_at > NOW())
+    AND NOT EXISTS (
+      SELECT clip_id
+      FROM votes
+      WHERE votes.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM reported_clips reported
+      WHERE reported.clip_id = clips.id AND client_id = ?
+      UNION ALL
+      SELECT clip_id
+      FROM skipped_clips skipped
+      WHERE skipped.clip_id = clips.id AND client_id = ?
+    )
+  GROUP BY original_sentence_id
+  LIMIT ?
+) t
+ORDER BY RAND()
+LIMIT ?`,
+      [
+        locale_id,
+        corpus_id,
+        client_id,
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
+    )
+    console.log('without taxonomy', clips)
+    return clips as DBClip[]
+  }
+  async getClipsToBeValidatedCorpusId(
+    languageId: number,
+    corpus_id: string, // <-- added
+    limit: number
+  ): Promise<DBClip[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT 
+        c.id as id, 
+        c.path as path, 
+        s.has_valid_clip as has_valid_clip,
+        c.client_id as client_id, 
+        s.text as sentence,
+        c.original_sentence_id as original_sentence_id,
+        v.variant_name as variant_name
+      FROM clips c
+      INNER JOIN sentences s ON s.id = c.original_sentence_id 
+        AND c.locale_id = ?
+        AND c.corpus_id = ?
+      LEFT JOIN user_client_variants ucv ON ucv.client_id = c.client_id
+      LEFT JOIN variants v ON v.id = ucv.variant_id
+      WHERE c.is_valid IS NULL 
+      ORDER BY RAND()
+      LIMIT ?
+      `,
+      [languageId, corpus_id, limit] // <-- updated parameters
+    )
+
+    return rows
   }
   //----------------------------
   async findClipsWithFewVotes(
@@ -934,7 +1282,8 @@ export default class DB {
     client_id: string,
     locale_id: number,
     count: number,
-    segments: string[]
+    segments: string[],
+    corpus_id: string = ''
   ): Promise<DBClip[]> {
     const [clips] = await this.mysql.query(
       `
@@ -964,6 +1313,7 @@ export default class DB {
         ) term_sentences
           ON clips.original_sentence_id = term_sentences.sentence_id
         AND is_valid IS NULL
+        AND clips.corpus_id = ?
         AND clips.client_id <> ?
         AND NOT EXISTS(
           SELECT clip_id
@@ -989,6 +1339,7 @@ export default class DB {
         client_id,
         await getTermIds(segments),
         await getTermIds(segments),
+        corpus_id,
         client_id,
         client_id,
         client_id,
@@ -1120,6 +1471,7 @@ export default class DB {
     path,
     sentence,
     duration,
+    corpus_id,
   }: {
     client_id: string
     localeId: number
@@ -1127,15 +1479,24 @@ export default class DB {
     path: string
     sentence: string
     duration: number
+    corpus_id: string
   }): Promise<void> {
     try {
       const [{ insertId }] = await this.mysql.query(
         `
-          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, duration)
-          VALUES (?, ?, ?, ?, ?, ?)
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, duration, corpus_id)
+          VALUES (?, ?, ?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
-        [client_id, original_sentence_id, path, sentence, localeId, duration]
+        [
+          client_id,
+          original_sentence_id,
+          path,
+          sentence,
+          localeId,
+          duration,
+          corpus_id,
+        ]
       )
       await this.mysql.query(
         `
@@ -1188,36 +1549,39 @@ export default class DB {
     }
   }
   async getAllClipCount(
-    localeIds: number[]
+    localeIds: number[],
+    corpus_id: string
   ): Promise<{ locale_id: number; count: number }[]> {
     const [rows] = await this.mysql.query(
       `
         SELECT locale_id, COUNT(*) AS count
         FROM clips
-        WHERE locale_id IN (?)
+        WHERE locale_id IN (?) AND corpus_id = ?
         GROUP BY locale_id
       `,
-      [localeIds]
+      [localeIds, corpus_id]
     )
     return rows
   }
 
   async getValidClipCount(
-    localeIds: number[]
+    localeIds: number[],
+    corpus_id: string
   ): Promise<{ locale_id: number; count: number }[]> {
     const [rows] = await this.mysql.query(
       `
         SELECT locale_id, COUNT(*) AS count
         FROM clips
-        WHERE locale_id IN (?) AND is_valid
+        WHERE locale_id IN (?) AND is_valid AND corpus_id = ?
         GROUP BY locale_id
       `,
-      [localeIds]
+      [localeIds, corpus_id]
     )
     return rows
   }
 
   async getClipsStats(
+    corpus_id?: string,
     locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
     const localeId = locale ? await getLocaleId(locale) : null
@@ -1239,25 +1603,26 @@ export default class DB {
             : [...ranges, [interval, intervals[i + 1]]],
         []
       )
-
-    const results = await Promise.all(
-      ranges.map(([from, to]) =>
-        Promise.all([
-          this.mysql.query(
-            `
+    let results
+    if (corpus_id) {
+      results = await Promise.all(
+        ranges.map(([from, to]) =>
+          Promise.all([
+            this.mysql.query(
+              `
               SELECT COUNT(*) AS total, ${to} AS date
               FROM clips
-              WHERE created_at BETWEEN ${from} AND ${to} ${
-              locale ? 'AND locale_id = ?' : ''
-            }
+              WHERE corpus_id = ? AND created_at BETWEEN ${from} AND ${to} ${
+                locale ? 'AND locale_id = ?' : ''
+              }
             `,
-            [localeId]
-          ),
-          this.mysql.query(
-            `
+              [corpus_id, localeId]
+            ),
+            this.mysql.query(
+              `
               SELECT COUNT(*) as valid
               FROM clips
-              WHERE clips.is_valid AND (
+              WHERE clips.corpus_id = ? AND clips.is_valid AND (
                 SELECT created_at
                 FROM votes
                 WHERE votes.clip_id = clips.id
@@ -1265,12 +1630,44 @@ export default class DB {
                 LIMIT 1
               ) BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''}
             `,
-            [localeId]
-          ),
-        ])
+              [corpus_id, localeId]
+            ),
+          ])
+        )
       )
-    )
-    console.log('meshmesh', results)
+    } else {
+      results = await Promise.all(
+        ranges.map(([from, to]) =>
+          Promise.all([
+            this.mysql.query(
+              `
+              SELECT COUNT(*) AS total, ${to} AS date
+              FROM clips
+              WHERE created_at BETWEEN ${from} AND ${to} ${
+                locale ? 'AND locale_id = ?' : ''
+              }
+            `,
+              [localeId]
+            ),
+            this.mysql.query(
+              `
+              SELECT COUNT(*) as valid
+              FROM clips
+              WHERE  clips.is_valid AND (
+                SELECT created_at
+                FROM votes
+                WHERE votes.clip_id = clips.id
+                ORDER BY created_at DESC
+                LIMIT 1
+              ) BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''}
+            `,
+              [localeId]
+            ),
+          ])
+        )
+      )
+    }
+    console.log('clips results', results)
 
     return results.reduce((totals, [[[{ date, total }]], [[{ valid }]]], i) => {
       const last = totals[totals.length - 1]
@@ -1283,6 +1680,7 @@ export default class DB {
   }
 
   async getVoicesStats(
+    corpus_id?: string,
     locale?: string
   ): Promise<{ date: string; value: number }[]> {
     // Get current UTC time
@@ -1296,28 +1694,42 @@ export default class DB {
       return date.toISOString().slice(0, 19).replace('T', ' ') // Format: "YYYY-MM-DD HH:00:00"
     }).reverse() // Keep it in ascending order
 
-    // Define the expected structure of rows
-    type Row = { date: string; value: number }
+    let rows: { date: string; value: number }[] = []
 
-    // Execute the query
-    const [rows]: any = await this.mysql.query(
-      `
-        SELECT DATE_FORMAT(activity.created_at, '%Y-%m-%d %H:00:00') AS date,
-               COUNT(DISTINCT activity.client_id) AS value
-        FROM user_client_activities AS activity
-        WHERE activity.created_at >= ?
-              ${locale ? 'AND locale_id = ?' : ''}
-        GROUP BY date
-      `,
-      [hours[0], locale ? await getLocaleId(locale) : '']
-    )
+    if (corpus_id) {
+      // Query with corpus_id filter
+      const [result]: any = await this.mysql.query(
+        `
+          SELECT DATE_FORMAT(activity.created_at, '%Y-%m-%d %H:00:00') AS date,
+                 COUNT(DISTINCT activity.client_id) AS value
+          FROM user_client_activities AS activity
+          WHERE activity.created_at >= ?
+                AND corpus_id = ?
+                ${locale ? 'AND locale_id = ?' : ''}
+          GROUP BY date
+        `,
+        [hours[0], corpus_id, ...(locale ? [await getLocaleId(locale)] : [])]
+      )
+      rows = result
+    } else {
+      // Query without corpus_id
+      const [result]: any = await this.mysql.query(
+        `
+          SELECT DATE_FORMAT(activity.created_at, '%Y-%m-%d %H:00:00') AS date,
+                 COUNT(DISTINCT activity.client_id) AS value
+          FROM user_client_activities AS activity
+          WHERE activity.created_at >= ?
+                ${locale ? 'AND locale_id = ?' : ''}
+          GROUP BY date
+        `,
+        [hours[0], ...(locale ? [await getLocaleId(locale)] : [])]
+      )
+      rows = result
+    }
 
-    // Ensure TypeScript knows the type
-    const typedRows = rows as Row[]
     // Convert database results into a map
-    const dataMap = new Map(typedRows.map(row => [row.date, row.value]))
-    console.log('dataMap:', dataMap)
-    console.log('hours:', hours)
+    const dataMap = new Map(rows.map(row => [row.date, row.value]))
+
     // Build the final result
     const result = hours.map(hour => ({
       date: new Date(hour + ' UTC').toISOString(), // Force UTC interpretation
@@ -1327,6 +1739,7 @@ export default class DB {
     return result
   }
   async getVoicesStatsutcplus(
+    corpus_id: string,
     locale?: string
   ): Promise<{ date: string; value: number }[]> {
     // Get current UTC time and round to the nearest hour
@@ -1349,11 +1762,11 @@ export default class DB {
       SELECT DATE_FORMAT(CONVERT_TZ(activity.created_at, '+00:00', @@session.time_zone), '%Y-%m-%d %H:00:00') AS date, 
              COUNT(DISTINCT activity.client_id) AS value
       FROM user_client_activities AS activity
-      WHERE activity.created_at >= ? 
+      WHERE corpus_id = ? AND activity.created_at >= ? 
             ${locale ? 'AND locale_id = ?' : ''}
       GROUP BY date
     `,
-      [hours[0], locale ? await getLocaleId(locale) : '']
+      [corpus_id, hours[0], locale ? await getLocaleId(locale) : '']
     )
 
     // Ensure TypeScript knows the type
@@ -1372,6 +1785,7 @@ export default class DB {
   }
 
   async getContributionStats(
+    corpus_id: string,
     locale?: string,
     client_id?: string
   ): Promise<{ date: string; value: number }[]> {
@@ -1390,7 +1804,7 @@ export default class DB {
           LEFT JOIN (
             SELECT created_at
             FROM clips
-            WHERE clips.created_at > (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL 9 hour)
+            WHERE clips.corpus_id = ? AND clips.created_at > (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL 9 hour)
             ${locale ? 'AND clips.locale_id = :locale_id' : ''}
             ${client_id ? 'AND clips.client_id = :client_id' : ''}
 
@@ -1406,6 +1820,7 @@ export default class DB {
           GROUP BY date
     `,
       {
+        corpus_id,
         locale_id: locale ? await getLocaleId(locale) : null,
         client_id,
       }
@@ -1618,43 +2033,55 @@ export default class DB {
     return row
   }
 
-  async getDailyClipsCount(locale?: string) {
+  async getDailyClipsCount(corpus_id: string, locale?: string) {
     return (
       await this.mysql.query(
         `
         SELECT COUNT(id) AS count
         FROM clips
-        WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
+        WHERE corpus_id = ? AND created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
         ${locale ? 'AND locale_id = ?' : ''}
       `,
-        locale ? [await getLocaleId(locale)] : []
+        locale ? [corpus_id, await getLocaleId(locale)] : [corpus_id]
       )
     )[0][0].count
   }
 
-  async getDailyVotesCount(locale?: string) {
+  async getDailyVotesCount(corpus_id: string, locale?: string) {
     return (
       await this.mysql.query(
         `
         SELECT COUNT(votes.id) AS count
         FROM votes
-        LEFT JOIN clips on votes.clip_id = clips.id
-        WHERE votes.created_at >= CURDATE() AND votes.created_at < CURDATE() + INTERVAL 1 DAY
+        LEFT JOIN clips on votes.clip_id = clips.id 
+        WHERE clips.corpus_id = ? AND votes.created_at >= CURDATE() AND votes.created_at < CURDATE() + INTERVAL 1 DAY
         ${locale ? 'AND locale_id = ?' : ''}
       `,
-        locale ? [await getLocaleId(locale)] : []
+        locale ? [corpus_id, await getLocaleId(locale)] : [corpus_id]
       )
     )[0][0].count
   }
 
-  async getVariants(client_id: string, locale?: string) {
+  async getVariants(client_id: string, locale?: string, corpus_id?: string) {
+    const main_corpus_id = this.config.MAINCORPUSID
+    const actual_corpus_id = corpus_id || main_corpus_id
     const [variants] = await this.mysql.query(
       `
       SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name FROM variants v
       LEFT JOIN locales ON v.locale_id = locales.id
-       ${locale ? 'WHERE locale_id = ?' : ''}
+      ${locale ? 'WHERE locale_id = ?' : ''}
+      ${
+        actual_corpus_id
+          ? locale
+            ? 'AND v.corpus_id = ?'
+            : 'WHERE v.corpus_id = ?'
+          : ''
+      }
       `,
-      locale ? [await getLocaleId(locale)] : []
+      [
+        ...(locale ? [await getLocaleId(locale)] : []),
+        ...(actual_corpus_id ? [actual_corpus_id] : []),
+      ]
     )
 
     if (!variants) return
@@ -1677,14 +2104,17 @@ export default class DB {
     return mappedVariants
   }
 
-  async getAccents(client_id: string, locale?: string) {
+  async getAccents(client_id: string, locale?: string, corpus_id?: string) {
+    const main_corpus_id = this.config.MAINCORPUSID
+    const actual_corpus_id = corpus_id || main_corpus_id
     const [accents] = await this.mysql.query(
       `
       SELECT name as lang, accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
       LEFT JOIN locales ON a.locale_id = locales.id
       WHERE (NOT user_submitted OR client_id = ?)
+      ${actual_corpus_id ? 'AND a.corpus_id = ?' : ''}
       `,
-      [client_id]
+      [client_id, ...(actual_corpus_id ? [actual_corpus_id] : [])]
     )
 
     const mappedAccents = accents.reduce((acc: any, curr: any) => {
@@ -1699,10 +2129,8 @@ export default class DB {
       }
 
       if (curr.accent_name === '') {
-        // Each language has a default accent placeholder for unspecified accents
         acc[curr.lang].default = accent
       } else if (curr.user_submitted) {
-        // Note: currently the query only shows the user values that they created
         acc[curr.lang].userGenerated[curr.accent_id] = accent
       } else {
         acc[curr.lang].preset[curr.accent_id] = accent
@@ -1741,13 +2169,13 @@ export default class DB {
     }
   }
 
-  async saveActivity(client_id: string, locale: string) {
+  async saveActivity(client_id: string, locale: string, corpus_id: string) {
     try {
       await this.mysql.query(
         `
-        INSERT INTO user_client_activities (client_id, locale_id) VALUES (?, ?)
+        INSERT INTO user_client_activities (client_id, locale_id, corpus_id) VALUES (?, ?, ?)
       `,
-        [client_id, await getLocaleId(locale)]
+        [client_id, await getLocaleId(locale), corpus_id]
       )
     } catch (error) {
       console.error(`Unable to save activity (error message: ${error.message})`)

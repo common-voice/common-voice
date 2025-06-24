@@ -51,11 +51,11 @@ export default class Clip {
         response: Response,
         next: NextFunction
       ) => {
-        const { locale } = params
+        const { locale, corpus_id } = params
 
         if (client_id && locale) {
           this.model.db
-            .saveActivity(client_id, locale)
+            .saveActivity(client_id, locale, corpus_id)
             .catch((error: any) => console.error('activity save error', error))
         }
 
@@ -67,12 +67,22 @@ export default class Clip {
     router.post('*', this.saveClip)
 
     router.get('/daily_count', this.serveDailyCount)
-    router.get('/stats', this.serveClipsStats)
+    router.get('/stats/:corpus_id?', this.serveClipsStats)
     router.get('/leaderboard', this.serveClipLeaderboard)
     router.get('/votes/leaderboard', this.serveVoteLeaderboard)
-    router.get('/voices', this.serveVoicesStats)
+    router.get('/voices/:corpus_id?', this.serveVoicesStats)
     router.get('/votes/daily_count', this.serveDailyVotesCount)
     router.get('/:clip_id', this.serveClip)
+    // router.get(
+    //   '/c/:corpus_id',
+    //   validate({ query: clipsSchema }),
+    //   this.serveRandomClips
+    // )
+    router.get(
+      '/c/:corpus_id',
+      validate({ query: clipsSchema }),
+      this.serveRandomClips
+    )
     router.get('*', validate({ query: clipsSchema }), this.serveRandomClips)
 
     return router
@@ -144,7 +154,11 @@ export default class Clip {
     const glob = clip.path.replace('.mp3', '')
 
     await this.model.db.saveVote(id, client_id, isValid)
-    await Awards.checkProgress(client_id, { id: clip.locale_id })
+    await Awards.checkProgress(
+      client_id,
+      { id: clip.locale_id },
+      clip.corpus_id
+    )
     await checkGoalsAfterContribution(client_id, { id: clip.locale_id })
     // move it to the last line and leave a trace here in case of serious performance issues
     // response.json(ret);
@@ -274,8 +288,13 @@ export default class Clip {
           path: encodeURIComponent(clipFileName),
           sentence: sentence.text,
           duration: durationInSec * 1000,
+          corpus_id: sentence.corpusId,
         })
-        await Awards.checkProgress(client_id, { id: sentence.locale_id })
+        await Awards.checkProgress(
+          client_id,
+          { id: sentence.locale_id },
+          sentence.corpus_id
+        )
 
         await checkGoalsAfterContribution(client_id, {
           id: sentence.locale_id,
@@ -336,7 +355,8 @@ export default class Clip {
     const clips = await this.bucket.getRandomClips(
       client_id,
       params.locale,
-      count
+      count,
+      params.corpus_id
     )
     // console.log('responce flag', response.json(clips))
     // console.log('clips flag', clips)
@@ -352,11 +372,15 @@ export default class Clip {
   }
 
   serveClipsStats = async ({ params }: Request, response: Response) => {
-    response.json(await this.model.getClipsStats(params.locale))
+    response.json(
+      await this.model.getClipsStats(params.locale, params.corpus_id)
+    )
   }
 
   serveVoicesStats = async ({ params }: Request, response: Response) => {
-    response.json(await this.model.getVoicesStats(params.locale))
+    response.json(
+      await this.model.getVoicesStats(params.locale, params.corpus_id)
+    )
   }
 
   serveClipLeaderboard = async (request: Request, response: Response) => {

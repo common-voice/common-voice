@@ -12,6 +12,7 @@ export const createReportHandler = async (req: Request, res: Response) => {
     kind: req.body.kind,
     id: req.body.id,
     reasons: req.body.reasons,
+    corpus_id: req.body.corpus_id,
   }
 
   return pipe(

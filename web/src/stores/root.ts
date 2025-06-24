@@ -1,36 +1,37 @@
-import { applyMiddleware, compose, createStore } from 'redux';
-import thunk from 'redux-thunk';
-import API from '../services/api';
-import { trackProfile } from '../services/tracker';
-import { generateToken, hash } from '../utility';
-import { Flags } from './flags';
-import { Clips } from './clips';
-import { Locale } from './locale';
-import * as Languages from './languages';
-import { Notifications } from './notifications';
-import { RequestedLanguages } from './requested-languages';
-import { Sentences } from './sentences';
-import StateTree from './tree';
-import { Uploads } from './uploads';
-import { User } from './user';
+import { applyMiddleware, compose, createStore } from 'redux'
+import thunk from 'redux-thunk'
+import API from '../services/api'
+import { trackProfile } from '../services/tracker'
+import { generateToken, hash } from '../utility'
+import { Flags } from './flags'
+import { Clips } from './clips'
+import { Locale } from './locale'
+import * as Languages from './languages'
+import { Notifications } from './notifications'
+import { RequestedLanguages } from './requested-languages'
+import { Sentences } from './sentences'
+import StateTree from './tree'
+import { Uploads } from './uploads'
+import { User } from './user'
 import {
   AbortContributionModalAction,
   abortContributionModalReducer,
-} from './abort-contribution-modal';
+} from './abort-contribution-modal'
+import { Datasource } from './datasource'
 
-export const USER_KEY = 'userdata';
+export const USER_KEY = 'userdata'
 
-let preloadedState = null;
+let preloadedState = null
 try {
   preloadedState = {
     user: JSON.parse(localStorage.getItem(USER_KEY)) || undefined,
-  };
+  }
   if (preloadedState.user && !preloadedState.user.authToken) {
-    preloadedState.user.authToken = generateToken();
+    preloadedState.user.authToken = generateToken()
   }
 } catch (e) {
-  console.error('failed parsing storage', e);
-  localStorage.removeItem(USER_KEY);
+  console.error('failed parsing storage', e)
+  localStorage.removeItem(USER_KEY)
 }
 
 export function reducers(
@@ -45,6 +46,7 @@ export function reducers(
     notifications,
     uploads,
     abortContributionModal,
+    datasource,
   }: StateTree = {
     api: undefined,
     clips: undefined,
@@ -57,6 +59,7 @@ export function reducers(
     uploads: undefined,
     user: undefined,
     abortContributionModal: undefined,
+    datasource: null,
   },
   action:
     | Clips.Action
@@ -68,6 +71,7 @@ export function reducers(
     | Uploads.Action
     | User.Action
     | AbortContributionModalAction
+    | Datasource.Action
 ): StateTree {
   const newState = {
     clips: Clips.reducer(locale, clips, action as Clips.Action),
@@ -86,34 +90,38 @@ export function reducers(
       abortContributionModal,
       action as AbortContributionModalAction
     ),
-  };
+    datasource: Datasource.reducer(datasource, action as Datasource.Action),
+  }
 
-  return { api: new API(newState.locale, newState.user), ...newState };
+  return {
+    api: new API(newState.locale, newState.user, newState.datasource),
+    ...newState,
+  }
 }
 const composeEnhancers =
-  (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+  (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 const store = createStore(
   reducers,
   preloadedState as any,
   composeEnhancers(applyMiddleware(thunk))
-);
+)
 
-const flags = document.querySelector('#flags');
+const flags = document.querySelector('#flags')
 
 try {
-  flags && store.dispatch(Flags.actions.set(JSON.parse(flags.textContent)));
+  flags && store.dispatch(Flags.actions.set(JSON.parse(flags.textContent)))
   const observer = new MutationObserver(mutations => {
     for (const mutation of mutations) {
       for (const node of Array.from(mutation.addedNodes)) {
         if ((node as any).id === 'flags') {
-          store.dispatch(Flags.actions.set(JSON.parse(node.textContent)));
+          store.dispatch(Flags.actions.set(JSON.parse(node.textContent)))
         }
       }
     }
-  });
-  observer.observe(document.body, { childList: true });
+  })
+  observer.observe(document.body, { childList: true })
 } catch (e) {
-  console.error('error settings flags', e);
+  console.error('error settings flags', e)
 }
 
 const fieldTrackers: any = {
@@ -122,50 +130,50 @@ const fieldTrackers: any = {
   accent: trackProfile.bind(null, 'give-accent'),
   age: trackProfile.bind(null, 'give-age'),
   gender: trackProfile.bind(null, 'give-gender'),
-};
+}
 
-declare const ga: any;
+declare const ga: any
 
-let prevUser: User.State = null;
+let prevUser: User.State = null
 store.subscribe(async () => {
-  const { locale, user } = store.getState();
+  const { locale, user } = store.getState()
 
   if (
     typeof ga === 'function' &&
     (!prevUser || !prevUser.account) &&
     user.account
   ) {
-    ga('set', 'userId', await hash(user.account.client_id));
+    ga('set', 'userId', await hash(user.account.client_id))
     // const { custom_goals } = user.account;
     // if (custom_goals[0]) {
     //   const goals = Object.keys(custom_goals[0].current);
     //   ga('set', 'dimension1', goals.length > 1 ? 'both' : goals[0]);
     // }
-    ga('send', 'pageview');
+    ga('send', 'pageview')
   }
 
   for (const field of Object.keys(fieldTrackers)) {
-    const typedField = field as keyof User.State;
+    const typedField = field as keyof User.State
     if (prevUser && user[typedField] !== prevUser[typedField]) {
-      fieldTrackers[typedField](locale);
+      fieldTrackers[typedField](locale)
     }
   }
-  prevUser = user;
+  prevUser = user
 
   localStorage[USER_KEY] = JSON.stringify({
     ...user,
     account: null,
     isFetchingAccount: true,
-  });
-});
+  })
+})
 
 // Only check for storage events in non-IE browsers, as it misfires in IE
 if (!(document as any).documentMode) {
   window.addEventListener('storage', (storage: StorageEvent) => {
     if (storage.key === USER_KEY) {
-      store.dispatch(User.actions.update(JSON.parse(storage.newValue)) as any);
+      store.dispatch(User.actions.update(JSON.parse(storage.newValue)) as any)
     }
-  });
+  })
 }
 
-export default store;
+export default store

@@ -8,7 +8,9 @@ export default function FalakHeader() {
       <div className="inner-pages py-4 px-4 mx-0 gap-8 md:mx-6 lg:mx-8 xl:mx-8 lg:px-8 flex items-center justify-between">
         <a className="flex items-center" href="https://falak.ksaa.gov.sa/">
           <img
-            src="/voicewall/img/falak-logo-light.svg"
+            src={require('../falak-logo-light.svg')}
+            loading="lazy"
+            role="presentation"
             alt="مِنَصّةُ فلك"
             height="38"
             className="mr-0 lg:mr-2 mb-1 h-[38px] "
@@ -46,7 +48,7 @@ export default function FalakHeader() {
               <a
                 href="https://falak.ksaa.gov.sa/voicewall"
                 className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
-                <span>  الجدارية الصوتية</span>
+                <span> الجدارية الصوتية</span>
               </a>
             </li>
             <li>
@@ -66,7 +68,9 @@ export default function FalakHeader() {
             </li>
           </ul>
           {/* {!isLoggedIn ? ( */}
-          <div className="flex justify-between lg:block border-t lg:border-t-0 py-3 lg:py-0 mt-3 lg:mt-0" style={{ display: 'none' }}>
+          <div
+            className="flex justify-between lg:block border-t lg:border-t-0 py-3 lg:py-0 mt-3 lg:mt-0"
+            style={{ display: 'none' }}>
             <a
               href="https://falak.ksaa.gov.sa/auth/login"
               className={`flex items-center space-x-2 ${classes['login-button']}`}>
@@ -101,7 +105,6 @@ export default function FalakHeader() {
           {/* )} */}
         </div>
       </div>
-      <Breadcrumb />
     </>
   )
 }

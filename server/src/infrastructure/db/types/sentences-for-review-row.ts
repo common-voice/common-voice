@@ -5,4 +5,5 @@ export type SentencesForReviewRow = {
   locale_id: number
   number_of_approving_votes: number
   number_of_votes: number
+  corpus_id: string
 }

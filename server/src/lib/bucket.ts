@@ -110,13 +110,15 @@ export default class Bucket {
   async getRandomClips(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    corpus_id?: string
   ): Promise<Clip[]> {
     // Get more clip IDs than needed to account for potential broken clips
     const clips = await this.model.findEligibleClips(
       client_id,
       locale,
-      Math.ceil(count * 1.5)
+      Math.ceil(count * 1.5),
+      corpus_id
     )
 
     const clipPromises: Clip[] = []
@@ -128,7 +130,14 @@ export default class Bucket {
 
     // Iterate through the clips and process them
     for (let i = 0; i < clips.length; i++) {
-      const { id, path, sentence, original_sentence_id, taxonomy } = clips[i]
+      const {
+        id,
+        path,
+        sentence,
+        original_sentence_id,
+        taxonomy,
+        variant_name,
+      } = clips[i]
 
       try {
         const url = await this.OCIgetPublicUrl(path)
@@ -137,6 +146,7 @@ export default class Bucket {
           glob: path.replace('.mp3', ''),
           sentence: { id: original_sentence_id, text: sentence, taxonomy },
           audioSrc: url,
+          variant_name: variant_name,
         })
         // Stop once the required number of clips is collected
         if (clipPromises.length == count) break

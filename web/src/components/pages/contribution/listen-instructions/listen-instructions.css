@@ -1,0 +1,36 @@
+.listen-instructions-modal {
+    max-height: 100vh;
+    overflow: auto;
+    box-shadow: 0px 4px 8px #1018281a;
+    border: 1px solid #d2d6db;
+    border-radius: 16px;
+
+    @media (--md-up) {
+        padding: 60px 130px !important;
+        max-width: 775px !important;
+    }
+
+    & ul {
+        text-align: right;
+    }
+
+    & h4 {
+        margin-bottom: 10px;
+        font-size: var(--font-size-xxl);
+        font-weight: normal;
+    }
+}
+
+.open-listen-instructions-button {
+    text-decoration: none;
+
+    &:hover {
+        border-color: rgba(0, 0, 0, 0.1) !important;
+        box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
+    }
+
+    & svg {
+        margin-right: 11px;
+        width: 17px;
+    }
+}

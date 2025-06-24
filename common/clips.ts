@@ -1,14 +1,15 @@
-import { TaxonomyType } from './taxonomies';
+import { TaxonomyType } from './taxonomies'
 
 export type Sentence = {
-  id: string;
-  text: string;
-  taxonomy?: TaxonomyType;
-};
+  id: string
+  text: string
+  taxonomy?: TaxonomyType
+}
 
 export type Clip = {
-  id: string;
-  glob: string;
-  sentence: Sentence;
-  audioSrc: string;
-};
+  id: string
+  glob: string
+  sentence: Sentence
+  audioSrc: string
+  variant_name?: string
+}

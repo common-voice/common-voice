@@ -1,36 +1,38 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { useState, useEffect } from 'react';
-import { shallowEqual } from 'react-redux';
-import { trackHome } from '../../../services/tracker';
-import { useTypedSelector } from '../../../stores/tree';
-import { ContributableLocaleLock } from '../../locale-helpers';
-import { RecordLink } from '../../primary-buttons/primary-buttons';
-import RegisterSection from '../../register-section/register-section';
-import { LinkButton } from '../../ui/ui';
-import Page from '../../ui/page';
-import Hero from './hero';
-import { ClipsStats, VoiceStats } from './stats';
-import URLS from '../../../urls';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { useState, useEffect } from 'react'
+import { shallowEqual, useDispatch, useSelector } from 'react-redux'
+import { trackHome } from '../../../services/tracker'
+import { useTypedSelector } from '../../../stores/tree'
+import { ContributableLocaleLock } from '../../locale-helpers'
+import { RecordLink } from '../../primary-buttons/primary-buttons'
+import RegisterSection from '../../register-section/register-section'
+import { LinkButton } from '../../ui/ui'
+import Page from '../../ui/page'
+import Hero from './hero'
+import { ClipsStats, VoiceStats } from './stats'
+import URLS from '../../../urls'
 
-import './home.css';
-import LanguageCard from '../languages/language-card/language-card';
-import { useAPI } from '../../../hooks/store-hooks';
-import { LanguageStatistics } from 'common';
-import { ModalOptions } from '../languages/languages';
-import HomePageSection from './HomePageSection';
-import Charts from './Charts';
-import FAQList from './FAQList';
+import './home.css'
+import LanguageCard from '../languages/language-card/language-card'
+import { useAPI } from '../../../hooks/store-hooks'
+import { LanguageStatistics } from 'common'
+import { ModalOptions } from '../languages/languages'
+import HomePageSection from './HomePageSection'
+import Charts from './Charts'
+import FAQList from './FAQList'
+import { Datasource } from '../../../stores/datasource'
+import Breadcrumb from '../../Breadcrumb'
 
-type HeroType = 'speak' | 'listen';
+type HeroType = 'speak' | 'listen'
 
 interface State {
-  launched: LanguageStatistics[];
-  localeMessages: string[][];
+  launched: LanguageStatistics[]
+  localeMessages: string[][]
 }
 
-export default function HomePage() {
-  const heroes = ['speak', 'listen'];
+export default function HomePage(props: any) {
+  const heroes = ['speak', 'listen']
 
   const { locale, user } = useTypedSelector(
     ({ locale, user }) => ({
@@ -38,40 +40,48 @@ export default function HomePage() {
       user,
     }),
     shallowEqual
-  );
+  )
 
-  const [activeHero, setActiveHero] = useState<null | HeroType>(null);
-  const [showWallOfText, setShowWallOfText] = useState(false);
+  const [activeHero, setActiveHero] = useState<null | HeroType>(null)
+  const [showWallOfText, setShowWallOfText] = useState(false)
 
   const setModalOptions = (options: ModalOptions) => {
     setState(previousState => ({
       ...previousState,
       modalOptions: options,
-    }));
-  };
+    }))
+  }
 
   const [state, setState] = useState({
     launched: [],
     localeMessages: null,
-  } as State);
+  } as State)
 
-  const {
-    launched,
-    localeMessages,
-  } = state;
+  const { launched, localeMessages } = state
 
-  const api = useAPI();
+  const api = useAPI()
 
   const loadData = async () => {
     const [localeMessages, languageStats] = await Promise.all([
       api.fetchCrossLocaleMessages(),
       api.fetchLanguageStats(),
-    ]);
+    ])
 
-    const languageStatistics = languageStats ?? [];
+    const languageStatistics = languageStats ?? []
 
-    return { localeMessages, languageStatistics };
-  };
+    return { localeMessages, languageStatistics }
+  }
+
+  const dispatch = useDispatch()
+  const datasourceId = useSelector((state: any) => state.datasource)
+
+  const setDatasourceId = (id: string) => {
+    dispatch(Datasource.actions.set(id))
+  }
+
+  useEffect(() => {
+    setDatasourceId(props?.match?.params?.datasource ?? '')
+  }, [props?.match?.params?.datasource])
 
   // on mount
   useEffect(() => {
@@ -82,16 +92,19 @@ export default function HomePage() {
         inProgress: languageStatistics.filter(
           (lang: LanguageStatistics) => !lang.is_contributable
         ),
-        launched: languageStatistics.filter(lang => lang.is_contributable && lang.locale == 'ar'),
+        launched: languageStatistics.filter(
+          lang => lang.is_contributable && lang.locale == 'ar'
+        ),
         filteredLaunched: launched,
         localeMessages,
-      }));
-    });
-  }, []);
-
+      }))
+    })
+  }, [])
 
   return (
     <Page className="home">
+      <Breadcrumb datasource={datasourceId} />
+
       <ContributableLocaleLock
         render={({ isContributable }: { isContributable: boolean }) =>
           isContributable ? (
@@ -99,7 +112,7 @@ export default function HomePage() {
             //   className={
             //     'heroes ' + (heroes.length > 1 ? 'multiple' : 'single')
             //   }>
-                 <div>
+            <div>
               {/* {heroes.map((type: HeroType) => (
                 <Hero
                   key={type + locale}
@@ -117,7 +130,7 @@ export default function HomePage() {
                   }
                 />
               ))} */}
-              <HomePageSection/>
+              <HomePageSection />
             </div>
           ) : (
             <div className="non-contributable-hero">
@@ -184,33 +197,33 @@ export default function HomePage() {
       </div> 
       */}
 
-     {/* <div className="stats">
+      {/* <div className="stats">
         <ClipsStats.Root />
         <VoiceStats />
       </div>  */}
 
-    <div className='my-[100px]  px-10 flex justify-evenly flex-wrap gap-y-10	'>
-      {/* <Charts/> */}
-      <ClipsStats.Root />
-      <VoiceStats />
+      <div className="my-[100px]  px-10 flex justify-evenly flex-wrap gap-y-10	">
+        {/* <Charts/> */}
+        <ClipsStats.Root />
+        <VoiceStats />
       </div>
 
-{/* الأسئلة الشائعة */}
-<FAQList/>
+      {/* الأسئلة الشائعة */}
+      <FAQList />
 
       {user.account ? (
         <section className="contribute-section">
           <div className="mars-container">
             {/* <img src="/voicewall/img/mars.svg" alt="Mars" /> */}
-              {launched.map(language => (
-                <LanguageCard
-                  key={language.locale}
-                  localeMessages={localeMessages}
-                  type="launched"
-                  language={language}
-                  setModalOptions={setModalOptions}
-                />
-              ))}
+            {launched.map(language => (
+              <LanguageCard
+                key={language.locale}
+                localeMessages={localeMessages}
+                type="launched"
+                language={language}
+                setModalOptions={setModalOptions}
+              />
+            ))}
           </div>
           <div className="cta">
             <ContributableLocaleLock
@@ -262,5 +275,5 @@ export default function HomePage() {
         // </RegisterSection>
       )}
     </Page>
-  );
+  )
 }

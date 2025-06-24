@@ -20,6 +20,7 @@ const importSentences = async (args: any, options: any) => {
     clientId: args.client_id,
     localeId: localeId,
     tsvFile: fs.createReadStream(args.filepath, { encoding: 'utf-8' }),
+    corpus_id: args.corpus_id,
   }
 
   const executeCmd = pipe(

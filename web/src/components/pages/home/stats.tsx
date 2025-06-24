@@ -3,31 +3,31 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { useState } from 'react';
-import { connect } from 'react-redux';
-import { Tooltip } from 'react-tippy';
-import API from '../../../services/api';
-import { trackHome } from '../../../services/tracker';
-import StateTree from '../../../stores/tree';
+} from '@fluent/react'
+import * as React from 'react'
+import { useState } from 'react'
+import { connect } from 'react-redux'
+import { Tooltip } from 'react-tippy'
+import API from '../../../services/api'
+import { trackHome } from '../../../services/tracker'
+import StateTree from '../../../stores/tree'
 import LanguageSelect, {
   ALL_LOCALES,
-} from '../../language-select/language-select';
+} from '../../language-select/language-select'
 import Plot, {
   BarPlot,
   LINE_OFFSET,
   PLOT_PADDING,
   TOTAL_LINE_MARGIN,
   Y_OFFSET,
-} from '../../plot/plot';
+} from '../../plot/plot'
 
-import './stats.css';
-import { toArabicNumbers } from '../../shared/helpers';
+import './stats.css'
+import { toArabicNumbers } from '../../shared/helpers'
 
-const PLOT_STROKE_WIDTH = 2;
+const PLOT_STROKE_WIDTH = 2
 
-type Attribute = 'total' | 'valid';
+type Attribute = 'total' | 'valid'
 
 function StatsCard({
   children,
@@ -35,12 +35,12 @@ function StatsCard({
   header,
   scrollable,
 }: {
-  children?: React.ReactNode;
-  header: React.ReactNode;
-  onLocaleChange: (locale: string) => any;
-  scrollable?: boolean;
+  children?: React.ReactNode
+  header: React.ReactNode
+  onLocaleChange: (locale: string) => any
+  scrollable?: boolean
 }) {
-  const [locale, setLocale] = useState(ALL_LOCALES);
+  const [locale, setLocale] = useState(ALL_LOCALES)
   return (
     <div className={`home-card`}>
       <div className="head">
@@ -48,59 +48,59 @@ function StatsCard({
         <LanguageSelect
           value={locale}
           onChange={locale => {
-            trackHome('metric-locale-change', locale);
-            setLocale(locale);
-            onLocaleChange(locale == ALL_LOCALES ? null : locale);
+            trackHome('metric-locale-change', locale)
+            setLocale(locale)
+            onLocaleChange(locale == ALL_LOCALES ? null : locale)
           }}
         />
       </div>
       <div className={`home-card-content ${scrollable ? 'scrollable' : ''}`}>
-      {children}
+        {children}
       </div>
     </div>
-  );
+  )
 }
 
 interface PropsFromState {
-  api: API;
+  api: API
 }
 
 const mapStateToProps = ({ api }: StateTree) => ({
   api,
-});
+})
 
 function formatSeconds(totalSeconds: number, precise = false) {
-  const seconds = totalSeconds % 60;
-  const minutes = Math.floor(totalSeconds / 60) % 60;
-  const hours = Math.floor(totalSeconds / 3600);
+  const seconds = totalSeconds % 60
+  const minutes = Math.floor(totalSeconds / 60) % 60
+  const hours = Math.floor(totalSeconds / 3600)
 
   if (hours >= 1000) {
-    if (precise) return `${hours.toLocaleString()}h`;
-    return (hours / 1000).toPrecision(2) + 'k';
+    if (precise) return `${hours.toLocaleString()}h`
+    return (hours / 1000).toPrecision(2) + 'k'
   }
 
-  const timeParts = [];
+  const timeParts = []
 
   if (hours > 0) {
-    timeParts.push(hours + 'h');
+    timeParts.push(hours + 'h')
   }
 
   if (hours < 10 && minutes > 0) {
-    timeParts.push(minutes + 'm');
+    timeParts.push(minutes + 'm')
   }
 
   if (hours == 0 && minutes < 10 && seconds > 0) {
-    timeParts.push(seconds + 's');
+    timeParts.push(seconds + 's')
   }
 
-  return timeParts.join(' ') || '0';
+  return timeParts.join(' ') || '0'
 }
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace ClipsStats {
-  const DATA_LENGTH = 5;
-  const TICK_COUNT = 7;
-  const CIRCLE_RADIUS = 8;
+  const DATA_LENGTH = 5
+  const TICK_COUNT = 7
+  const CIRCLE_RADIUS = 8
 
   const MetricValue = ({ attribute, title, children }: any) => (
     <div className={'metric-value ' + attribute} title={title}>
@@ -114,16 +114,16 @@ export namespace ClipsStats {
 
       {children}
     </div>
-  );
+  )
 
   const Metric = ({
     data,
     labelId,
     attribute,
   }: {
-    data: any[];
-    labelId: string;
-    attribute: Attribute;
+    data: any[]
+    labelId: string
+    attribute: Attribute
   }) => (
     <div className="metric">
       <Localized id={labelId}>
@@ -141,7 +141,7 @@ export namespace ClipsStats {
           : '?'}
       </MetricValue>
     </div>
-  );
+  )
 
   const Path = React.forwardRef(
     (
@@ -151,14 +151,14 @@ export namespace ClipsStats {
         max,
         width,
       }: {
-        attribute: Attribute;
-        data: any[];
-        max: number;
-        width: number;
+        attribute: Attribute
+        data: any[]
+        max: number
+        width: number
       },
       ref: any
     ) => {
-      if (data.length === 0) return null;
+      if (data.length === 0) return null
 
       const pointFromDatum = (x: number, y: number): [number, number] => [
         LINE_OFFSET +
@@ -168,45 +168,52 @@ export namespace ClipsStats {
         Y_OFFSET -
           PLOT_STROKE_WIDTH / 2 +
           ((1 - y / max) * (data.length + 1) * TOTAL_LINE_MARGIN) / TICK_COUNT,
-      ];
+      ]
 
-      const lastIndex = data.length - 1;
-      const [x, y] = pointFromDatum(lastIndex, data[lastIndex][attribute]);
+      const lastIndex = data.length - 1
+      const [x, y] = pointFromDatum(
+        lastIndex,
+        data[lastIndex]?.[attribute] || null
+      )
 
       return (
         <>
-          <path
-            d={spline.svgPath(
-              spline.points(
-                data.map((datum: any, i: number) =>
-                  pointFromDatum(i, datum[attribute])
-                )
-              )
-            )}
-            className={attribute}
-            fill="none"
-            ref={ref}
-            strokeWidth={PLOT_STROKE_WIDTH}
-          />
-          <circle
-            cx={x}
-            cy={y}
-            r={CIRCLE_RADIUS}
-            fill="white"
-            className={'outer ' + attribute}
-          />
-          <circle
-            cx={x}
-            cy={y}
-            r={CIRCLE_RADIUS - 2}
-            className={'inner ' + attribute}
-          />
+          {attribute && Array.isArray(data) && data.length > 0 && (
+            <>
+              <path
+                d={spline.svgPath(
+                  spline.points(
+                    data.map((datum: any, i: number) =>
+                      pointFromDatum(i, datum[attribute])
+                    )
+                  )
+                )}
+                className={attribute}
+                fill="none"
+                ref={ref}
+                strokeWidth={PLOT_STROKE_WIDTH}
+              />
+              <circle
+                cx={x}
+                cy={y}
+                r={CIRCLE_RADIUS}
+                fill="white"
+                className={'outer ' + attribute}
+              />
+              <circle
+                cx={x}
+                cy={y}
+                r={CIRCLE_RADIUS - 2}
+                className={'inner ' + attribute}
+              />
+            </>
+          )}
         </>
-      );
+      )
     }
-  );
+  )
 
-  Path.displayName = 'Path';
+  Path.displayName = 'Path'
 
   class BareRoot extends React.Component<
     WithLocalizationProps & PropsFromState
@@ -214,43 +221,52 @@ export namespace ClipsStats {
     state: { data: any[]; hoveredIndex: number } = {
       data: [],
       hoveredIndex: null,
-    };
-
-    pathRef: any = React.createRef();
-
-    async componentDidMount() {
-      await this.updateData();
     }
 
-    updateData = async (locale?: string) => {
-      this.setState({ data: await this.props.api.fetchClipsStats(locale) });
-    };
+    pathRef: any = React.createRef()
+
+    componentDidUpdate(prevProps: PropsFromState) {
+      if (prevProps.api.datasource !== this.props.api.datasource) {
+        this.updateData(this.props.api.locale, this.props.api.datasource)
+      }
+      // If the datasource has changed, fetch new data from the API.
+    }
+
+    async componentDidMount() {
+      // await this.updateData()
+    }
+
+    updateData = async (locale?: string, datasource?: string) => {
+      this.setState({
+        data: await this.props.api.fetchClipsStats(locale, datasource),
+      })
+    }
 
     handleMouseMove = (event: any) => {
-      const path = this.pathRef.current;
+      const path = this.pathRef.current
       if (!path) {
-        this.setState({ hoveredIndex: null });
+        this.setState({ hoveredIndex: null })
       } else {
-        const { left, width } = path.getBoundingClientRect();
+        const { left, width } = path.getBoundingClientRect()
         const hoveredIndex =
-          Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1;
+          Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1
         this.setState({
           hoveredIndex:
             hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH
               ? hoveredIndex
               : null,
-        });
+        })
       }
-    };
+    }
 
-    handleMouseOut = () => this.setState({ hoveredIndex: null });
+    handleMouseOut = () => this.setState({ hoveredIndex: null })
 
     render() {
-      const { getString } = this.props;
-      const { data, hoveredIndex } = this.state;
+      const { getString } = this.props
+      const { data, hoveredIndex } = this.state
 
-      const datum = data[hoveredIndex];
-      const { date, total, valid } = datum || ({} as any);
+      const datum = data[hoveredIndex]
+      const { date, total, valid } = datum || ({} as any)
       const tooltipContents = datum ? (
         <>
           <b>
@@ -271,12 +287,12 @@ export namespace ClipsStats {
         </>
       ) : (
         <div />
-      );
+      )
 
       const isTooltipOpen = Object.prototype.hasOwnProperty.call(
         data,
         hoveredIndex
-      );
+      )
 
       return (
         <StatsCard
@@ -297,33 +313,33 @@ export namespace ClipsStats {
             <Plot
               data={data}
               formatNumber={formatSeconds}
-              max={data.reduce(
+              max={(Array.isArray(data) ? data : []).reduce(
                 (max: number, d: any) => Math.max(max, d.total, d.valid),
                 0
               )}
               onMouseMove={this.handleMouseMove}
               onMouseOut={this.handleMouseOut}
               renderXTickLabel={({ date }: any) => {
-                const dateObj = new Date(date);
+                const dateObj = new Date(date)
                 const dayDiff = Math.ceil(
                   Math.abs(dateObj.getTime() - new Date().getTime()) /
                     (1000 * 3600 * 24)
-                );
-                if (dayDiff <= 1) return getString('today');
+                )
+                if (dayDiff <= 1) return getString('today')
                 if (dayDiff < 30) {
                   return getString('x-weeks-short', {
                     count: Math.floor(dayDiff / 7),
-                  });
+                  })
                 }
                 if (dayDiff < 365) {
                   return getString('x-months-short', {
                     count: Math.floor(dayDiff / 30),
-                  });
+                  })
                 }
 
                 return getString('x-years-short', {
                   count: Math.floor(dayDiff / 365),
-                });
+                })
               }}
               tickCount={TICK_COUNT}
               tickMultipliers={[10, 60, 600, 3600, 36000, 360000]}>
@@ -341,31 +357,39 @@ export namespace ClipsStats {
             </Plot>
           </Tooltip>
         </StatsCard>
-      );
+      )
     }
   }
 
   export const Root = connect<PropsFromState>(mapStateToProps)(
     withLocalization(BareRoot)
-  );
+  )
 }
 
 export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
   class BareRoot extends React.Component<PropsFromState> {
-    state: { data: any[] } = { data: [] };
+    state: { data: any[] } = { data: [] }
 
     async componentDidMount() {
-      await this.updateData();
+      // await this.updateData()
     }
 
-    updateData = async (locale?: string) => {
-      this.setState({ data: await this.props.api.fetchClipVoices(locale) });
+    componentDidUpdate(prevProps: PropsFromState) {
+      if (prevProps.api.datasource !== this.props.api.datasource) {
+        this.updateData(this.props.api.locale, this.props.api.datasource)
+      }
+    }
+
+    updateData = async (locale?: string, datasource?: string) => {
+      this.setState({
+        data: await this.props.api.fetchClipVoices(locale, datasource),
+      })
 
       // if window is mobile, data should be 5 items
       // if (window.innerWidth < 768) {
       //   this.setState({ data: this.state.data.slice(0, 5) });
       // }
-    };
+    }
 
     render() {
       const { data } = this.state
@@ -381,15 +405,17 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
               </Localized>
               <div className="online-voices text-[#00758A]">
                 {data.length > 0
-                  ? toArabicNumbers(data[data.length - 1].value.toLocaleString())
+                  ? toArabicNumbers(
+                      data[data.length - 1].value.toLocaleString()
+                    )
                   : '?'}
               </div>
             </div>
           }
           onLocaleChange={this.updateData}>
-          <BarPlot data={data} />
+          {data.length > 0 && <BarPlot data={data} />}
         </StatsCard>
-      );
+      )
     }
   }
-);
+)

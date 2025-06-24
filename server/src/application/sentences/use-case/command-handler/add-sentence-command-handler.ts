@@ -14,6 +14,7 @@ const createSentenceSubmissionFromCommand =
     locale_id: command.localeId,
     sentence: validatedSentence,
     source: command.source,
+    corpus_id: command.corpus_id,
   })
 
 export const AddSentenceCommandHandler = (
