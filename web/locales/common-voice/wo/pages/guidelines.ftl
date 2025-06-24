@@ -1,3 +1,6 @@
+# GUIDELINES PAGE
+guidelines-header = Njàngaley jàppale
+
 ## Voice Collection nav ids
 
 volume = Rëyaay
