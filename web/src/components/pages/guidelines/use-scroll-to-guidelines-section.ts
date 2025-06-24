@@ -1,15 +1,12 @@
 import * as React from 'react'
-import // SENTENCE_NAV_IDS,
-// VOICE_NAV_IDS,
-// COLLECTING_QUESTIONS,
-'./constants'
+
 import { VOICE_NAV_IDS } from './constants'
 
 const getDefaultTabOption = ({ tab }: { tab: string }) => {
   if (tab === 'scripted-speech') {
     return 'voice-collection'
   } else if (tab === 'spontaneous-speech') {
-    return 'sentence-collection'
+    return 'question-collection'
   }
 
   return 'voice-collection'

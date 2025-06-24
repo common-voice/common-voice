@@ -216,6 +216,63 @@ export const SENTENCE_COLLECTION_ITEMS = [
   },
 ]
 
+export const QUESTION_COLLECTION_ITEMS = [
+  {
+    label: 'what-makes-a-good-question-subheader',
+  },
+  {
+    label: 'dont-add-subheader',
+  },
+]
+
+export const ANSWER_QUESTIONS_ITEMS = [
+  {
+    label: 'answer-questions-subheader',
+  },
+  {
+    label: 'answer-questions-explanation',
+  },
+]
+
+export const TRANSCRIBE_AUDIO_ITEMS = [
+  {
+    label: 'transcribe-the-audio-subheader-1',
+  },
+  {
+    label: 'transcribe-the-audio-subheader-2',
+  },
+  {
+    label: 'transcribe-the-audio-subheader-3',
+  },
+  {
+    label: 'transcribe-the-audio-subheader-4',
+  },
+  {
+    label: 'transcribe-the-audio-subheader-5',
+  },
+]
+
+export const CODE_SWITCHING_ITEMS = [
+  {
+    label: 'adding-questions',
+  },
+  {
+    label: 'code-switching-validating-questions',
+  },
+  {
+    label: 'code-switching-answering-questions',
+  },
+  {
+    label: 'code-switching-transcribing-audio-questions',
+  },
+  {
+    label: 'code-switching-review-transcriptions',
+  },
+  {
+    label: 'code-switching',
+  },
+]
+
 export const SPONTANEOUS_SPEECH_NAV_IDS = {
   QUESTION_COLLECTION: 'question-collection',
   ANSWER_QUESTIONS: 'answer-questions',

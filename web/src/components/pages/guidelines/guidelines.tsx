@@ -2,7 +2,6 @@ import * as React from 'react'
 import { Localized } from '@fluent/react'
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 import { Link } from 'react-router-dom'
-import classNames from 'classnames'
 
 import Page from '../../ui/page'
 import PageHeading from '../../ui/page-heading'
@@ -14,13 +13,15 @@ import { DiscourseIconCode, MailIcon } from '../../ui/icons'
 import VisuallyHidden from '../../visually-hidden/visually-hidden'
 import { DiscourseLink, MatrixLink } from '../../shared/links'
 import { LinkButton } from '../../ui/ui'
-import { ChevronDown } from '../../ui/icons'
+import { SidebarNavSection } from './components/sidebar-nav-section'
 
 import {
+  CODE_SWITCHING_ITEMS,
+  QUESTION_COLLECTION_ITEMS,
   SENTENCE_COLLECTION_ITEMS,
   SENTENCE_NAV_IDS,
+  TRANSCRIBE_AUDIO_ITEMS,
   VOICE_COLLECTION_ITEMS,
-  // VOICE_NAV_IDS,
 } from './constants'
 import { COMMON_VOICE_EMAIL } from '../../../constants'
 import useScrollToGuidelinesSection from './use-scroll-to-guidelines-section'
@@ -96,78 +97,24 @@ const Guidelines = () => {
 
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
-              <div>
-                <Localized id="voice-collection">
-                  <button
-                    className={classNames({
-                      'active-tab-option':
-                        selectedTabOption === 'voice-collection',
-                    })}
-                    onClick={() => setSelectedTabOption('voice-collection')}
-                  />
-                </Localized>
-                <ChevronDown />
-              </div>
-              <ul>
-                {VOICE_COLLECTION_ITEMS.map(item => (
-                  <li key={item.label}>
-                    <div className="line" />
-                    <Link
-                      to={{
-                        pathname: location.pathname,
-                        hash: `#${item.label}`,
-                        search: `?tab=scripted-speech`,
-                      }}
-                      className={classNames({
-                        'selected-option': item.label === selectedSection,
-                      })}
-                      onClick={() => {
-                        if (selectedTabOption !== 'voice-collection') {
-                          setSelectedTabOption('voice-collection')
-                        }
-                        setSelectedSection(item.label)
-                      }}>
-                      <Localized id={item.label} />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <div>
-                <Localized id="sentence-collection">
-                  <button
-                    className={classNames({
-                      'active-tab-option':
-                        selectedTabOption === 'sentence-collection',
-                    })}
-                    onClick={() => setSelectedTabOption('sentence-collection')}
-                  />
-                </Localized>
-                <ChevronDown />
-              </div>
-              <ul>
-                {SENTENCE_COLLECTION_ITEMS.map(item => (
-                  <li key={item.label}>
-                    <div className="line" />
-                    <Link
-                      to={{
-                        pathname: location.pathname,
-                        hash: `#${item.label}`,
-                        search: `?tab=scripted-speech`,
-                      }}
-                      className={classNames({
-                        'selected-option': item.label === selectedSection,
-                      })}
-                      onClick={() => {
-                        if (selectedTabOption !== 'sentence-collection') {
-                          setSelectedTabOption('sentence-collection')
-                        }
-                        setSelectedSection(item.label)
-                      }}>
-                      <Localized id={item.label} />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <SidebarNavSection
+                sectionId="voice-collection"
+                items={VOICE_COLLECTION_ITEMS}
+                selectedTabOption={selectedTabOption}
+                setSelectedTabOption={setSelectedTabOption}
+                selectedSection={selectedSection}
+                setSelectedSection={setSelectedSection}
+                tabSearchParam="?tab=scripted-speech"
+              />
+              <SidebarNavSection
+                sectionId="sentence-collection"
+                items={SENTENCE_COLLECTION_ITEMS}
+                selectedTabOption={selectedTabOption}
+                setSelectedTabOption={setSelectedTabOption}
+                selectedSection={selectedSection}
+                setSelectedSection={setSelectedSection}
+                tabSearchParam="?tab=scripted-speech"
+              />
             </nav>
             <div className="sections">
               <VoiceSidebarContent />
@@ -176,44 +123,34 @@ const Guidelines = () => {
           </TabPanel>
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
-              <div>
-                <Localized id="question-collection">
-                  <button
-                    className={classNames({
-                      'active-tab-option':
-                        selectedTabOption === 'voice-collection',
-                    })}
-                    onClick={() => setSelectedTabOption('voice-collection')}
-                  />
-                </Localized>
-                <ChevronDown />
-              </div>
-              <ul>
-                {(
-                  Object.keys(SENTENCE_NAV_IDS) as Array<
-                    keyof typeof SENTENCE_NAV_IDS
-                  >
-                ).map(key => (
-                  <li key={SENTENCE_NAV_IDS[key]}>
-                    <div className="line" />
-                    <Link
-                      to={{
-                        pathname: location.pathname,
-                        hash: `#${SENTENCE_NAV_IDS[key]}`,
-                        search: `?tab=spontaneous-speech`,
-                      }}
-                      className={classNames({
-                        'selected-option':
-                          SENTENCE_NAV_IDS[key] === selectedTabOption,
-                      })}
-                      onClick={() =>
-                        setSelectedTabOption(SENTENCE_NAV_IDS[key])
-                      }>
-                      <Localized id={SENTENCE_NAV_IDS[key]} />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              {[
+                {
+                  sectionId: 'question-collection',
+                  items: QUESTION_COLLECTION_ITEMS,
+                },
+                { sectionId: 'answer-questions' },
+                {
+                  sectionId: 'transcribe-audio',
+                  items: TRANSCRIBE_AUDIO_ITEMS,
+                },
+                { sectionId: 'review-the-transcription' },
+                {
+                  sectionId: 'code-switching',
+                  items: CODE_SWITCHING_ITEMS,
+                },
+                { sectionId: 'reporting-content' },
+              ].map(({ sectionId, items }) => (
+                <SidebarNavSection
+                  key={sectionId}
+                  sectionId={sectionId}
+                  items={items}
+                  selectedTabOption={selectedTabOption}
+                  setSelectedTabOption={setSelectedTabOption}
+                  selectedSection={selectedSection}
+                  setSelectedSection={setSelectedSection}
+                  tabSearchParam="?tab=spontaneous-speech"
+                />
+              ))}
             </nav>
             <div className="sections">
               <SpontaneousSpeechContent />

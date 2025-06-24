@@ -215,6 +215,10 @@ code-switching-adding-questions-do-not-guidelines-1 = <bold>Solicit Personal Inf
 code-switching-adding-questions-do-not-guidelines-2 = <bold>Express Prejudice:</bold> Steer clear of questions that could be seen as offensive or discriminatory towards any group.
 code-switching-adding-questions-do-not-guidelines-3 = <bold>Ask Sensitive Questions:</bold> Refrain from inquiring about topics that could make respondents uncomfortable, such as personal trauma or controversial issues.
 
+code-switching-validating-questions = Validating Questions
+code-switching-validating-questions-explanation-1 = <bold>Review for Clarity:</bold> Before finalizing your questions, ensure they are clear and unambiguous. Ask yourself if someone from a different background would understand them.
+code-switching-validating-questions-explanation-2 = <bold>Seek Feedback:</bold> If possible, have peers review your questions to catch any potential issues or misunderstandings.
+
 code-switching-answering-questions = Answering Questions
 code-switching-answering-questions-explanation-1 = <bold>Be Authentic:</bold> When responding, aim for naturalness in your speech. Don’t worry about being perfect; the goal is to capture genuine conversation.
 code-switching-answering-questions-explanation-2 = <bold>Use Your Own Words:</bold> Feel free to express your thoughts in a way that feels comfortable to you, even if it means deviating slightly from the question.

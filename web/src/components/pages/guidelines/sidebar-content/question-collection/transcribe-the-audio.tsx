@@ -31,7 +31,10 @@ export const TranscribeAudio = ({
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
           <Localized id="transcribe-the-audio-subheader-1">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="transcribe-the-audio-subheader-1"
+            />
           </Localized>
           <Localized id="transcribe-the-audio-subheader-1-explanation">
             <p className="guidelines-content-explanation" />
@@ -52,7 +55,10 @@ export const TranscribeAudio = ({
           </ul>
 
           <Localized id="transcribe-the-audio-subheader-2">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="transcribe-the-audio-subheader-2"
+            />
           </Localized>
           <ul>
             <Localized id="transcribe-the-audio-subheader-2-explanation-1">
@@ -128,7 +134,10 @@ export const TranscribeAudio = ({
           </ul>
 
           <Localized id="transcribe-the-audio-subheader-3">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="transcribe-the-audio-subheader-3"
+            />
           </Localized>
           <Localized id="transcribe-the-audio-subheader-3-explanation">
             <p className="guidelines-content-explanation" />
@@ -146,7 +155,10 @@ export const TranscribeAudio = ({
           </div>
 
           <Localized id="transcribe-the-audio-subheader-4">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="transcribe-the-audio-subheader-4"
+            />
           </Localized>
           <ul>
             <Localized id="transcribe-the-audio-subheader-4-explanation-1">
@@ -176,7 +188,10 @@ export const TranscribeAudio = ({
           </ul>
 
           <Localized id="transcribe-the-audio-subheader-5">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="transcribe-the-audio-subheader-5"
+            />
           </Localized>
 
           <ul>

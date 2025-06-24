@@ -30,7 +30,10 @@ export const CodeSwitching = ({
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
           <Localized id="adding-questions">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="adding-questions"
+            />
           </Localized>
           <Localized id="code-switching-do-subheader-title">
             <p className="guidelines-content-explanation" />
@@ -73,29 +76,30 @@ export const CodeSwitching = ({
             </Localized>
           </ul>
 
-          <Localized id="validating-questions">
-            <h2 className="guidelines-content-subheader" />
+          <Localized id="code-switching-validating-questions">
+            <h2
+              className="guidelines-content-subheader"
+              id="code-switching-validating-questions"
+            />
           </Localized>
           <ul>
             <Localized
-              id="code-switching-adding-questions-do-guidelines-1"
+              id="code-switching-validating-questions-explanation-1"
               elems={{ bold: <strong /> }}>
               <li />
             </Localized>
             <Localized
-              id="code-switching-adding-questions-do-guidelines-2"
-              elems={{ bold: <strong /> }}>
-              <li />
-            </Localized>
-            <Localized
-              id="code-switching-adding-questions-do-guidelines-3"
+              id="code-switching-validating-questions-explanation-2"
               elems={{ bold: <strong /> }}>
               <li />
             </Localized>
           </ul>
 
           <Localized id="code-switching-answering-questions">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="code-switching-answering-questions"
+            />
           </Localized>
           <ul>
             <Localized
@@ -111,7 +115,10 @@ export const CodeSwitching = ({
           </ul>
 
           <Localized id="code-switching-transcribing-audio-questions">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="code-switching-transcribing-audio-questions"
+            />
           </Localized>
           <ul>
             <Localized
@@ -127,7 +134,10 @@ export const CodeSwitching = ({
           </ul>
 
           <Localized id="code-switching-review-transcriptions">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="code-switching-review-transcription"
+            />
           </Localized>
           <ul>
             <Localized
@@ -143,7 +153,7 @@ export const CodeSwitching = ({
           </ul>
 
           <Localized id="code-switching">
-            <h2 className="guidelines-content-subheader" />
+            <h2 className="guidelines-content-subheader" id="code-switching" />
           </Localized>
           <ul>
             <Localized
