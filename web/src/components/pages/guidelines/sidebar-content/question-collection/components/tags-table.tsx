@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { Localized, useLocalization } from '@fluent/react'
 
 const tableStyle: React.CSSProperties = {
