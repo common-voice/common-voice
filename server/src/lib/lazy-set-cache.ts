@@ -136,4 +136,5 @@ export async function lazySetCache(
     await lazySetCacheFill(key, fresh, cacheDurationMs)
     return fresh
   })
+  return []
 }
