@@ -195,9 +195,14 @@
                 max-width: 270px;
                 margin-inline-end: 115px;
                 position: sticky;
-                /* padding-top: 20px; */
                 top: 50px;
                 height: 100%;
+
+                div.sidebar-nav-section-btn-wrapper {
+                    & svg.rotate-180 {
+                        transform: rotate(180deg);
+                    }
+                }
 
                 div {
                     width: 270px;

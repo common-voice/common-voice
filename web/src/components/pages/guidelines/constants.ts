@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 
 import { AddingSentences } from './sidebar-content/sentence-collection/adding-sentences'
 import { CitingSentences } from './sidebar-content/sentence-collection/citing-sentences'
