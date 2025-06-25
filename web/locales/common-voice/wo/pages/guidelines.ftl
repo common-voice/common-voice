@@ -44,6 +44,12 @@ adding-questions = Sàmp ab laaj
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Lan mooy laaj bu baax?
+what-makes-a-good-question-explanation = Laaj bu baax ngir ay jumtukaay yu nit ñi bokk dafa wara:
+what-makes-a-good-question-explanation-criteria-1 = Yomb a xam ak tontu
+what-makes-a-good-question-explanation-criteria-2 = Am njariñ ci ñépp
+what-makes-a-good-question-explanation-criteria-3 = Du jëfandikoo wala sàkku waxiin wuy gaañ wala yuy tooñ
+what-makes-a-good-question-tip = War nga xalaat itam nga boole ci yeneen mbir ak domen yu wuute.
 easy-to-understand = Yomb na xam
 spelling-and-pronunciation = Ortograafi ak ponksioŋ
 spelling-and-pronunciation-explanation = Jëfandikool ortograafi ak nàfar bu jaar yoon.
