@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
+activity-needed-calculation-fixed = Günde 100 cümle kaydeden 100 kişi 13 saatlik ses üretebilir. Bu performansla devam edildiğinde 3 ay içinde 1000 saate ulaşılabilir.
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
