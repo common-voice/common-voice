@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
+activity-needed-calculation-fixed = 100 personer som spelar in 100 meningar per dag kan generera 13 timmars ljud. Med denna prestanda kan 1000 timmar nås under 3 månader.
 how-many-per-day = Bra! Hur många klipp per dag?
 how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?
