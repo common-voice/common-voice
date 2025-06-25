@@ -56,6 +56,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Cil stajić
 cant-decide = Njemóžeće so rozsudźić?
+activity-needed-calculation-fixed = 100 ludźi, kotřiž 100 sadow na dźeń nahrawaja, móža 13 hodźin awdio generěrować. Hdyž při tutym wukonje wostawaja, móža 1000 hodźin w mjenje hač 3 měsacach docpěć.
 how-many-per-day = Wulkotnje! Kelko klipow wob dźeń?
 how-many-a-week = Wulkotnje! Kelko klipow wob tydźeń?
 which-goal-type = Chceće rěčeć, słuchać abo wobě?

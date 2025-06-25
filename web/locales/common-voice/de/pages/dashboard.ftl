@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
+activity-needed-calculation-fixed = 100 Personen, die 100 Sätze pro Tag aufnehmen, können 13 Stunden an Audio erzeugen. Wenn diese Leistung beibehalten wird, können in 3 Monaten 1000 Stunden erreicht werden.
 how-many-per-day = Top! Wie viele Clips pro Tag?
 how-many-a-week = Top! Wie viele Clips pro Woche?
 which-goal-type = Möchten Sie Sprechen, Hören oder beides?
