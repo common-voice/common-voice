@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = یک مصد سیٹ گر
 cant-decide = فیصلی نہ گرھواں ؟
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-    }
 how-many-per-day = ڙھؤ مڑنئ ! یک دِس مہ کیئت کلپ ؟
 how-many-a-week = ڙھؤ مڑنئ ! ہفتہ مہ کیت  کلپ تھا ؟
 which-goal-type = تو منو لوکھا، ݜوؤں لوکھا یا بھیزدو ؟

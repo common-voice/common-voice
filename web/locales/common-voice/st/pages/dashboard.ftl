@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ipehele sepheo
 cant-decide = Ha o kgone ho etsa qeto?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } motho a rekota{ $clipsPerDay } clip ka letsatsi.
-                               *[other] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } motho a rekota{ $clipsPerDay } di-clip ka letsatsi.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } clip ka letsatsi.
-                               *[other] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } di-clip ka letsatsi.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } motho a rekota{ $clipsPerDay } clip ka letsatsi.
-                               *[other] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } motho a rekota{ $clipsPerDay } di-clip ka letsatsi.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } clip ka letsatsi.
-                               *[other] { $totalHours } hora e ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } di-clip ka letsatsi.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } motho a rekota{ $clipsPerDay } clip ka letsatsi.
-                               *[other] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } motho a rekota{ $clipsPerDay } di-clip ka letsatsi.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } clip ka letsatsi.
-                               *[other] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } kgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } di-clip ka letsatsi.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } motho a rekota{ $clipsPerDay } clip ka letsatsi.
-                               *[other] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } motho a rekota{ $clipsPerDay } di-clip ka letsatsi.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } clip ka letsatsi.
-                               *[other] { $totalHours } dihora tse ka fihlellwang ka mora { $periodMonths } dikgwedi haeba{ $people } batho ba rekota{ $clipsPerDay } di-clip ka letsatsi.
-                            }
-                    }
-            }
-    }
 how-many-per-day = E ntle! Ke di-clip tse kae ka letsatsi?
 how-many-a-week = E ntle! Ke di-clip tse kae ka beke?
 which-goal-type = Na o batla ho Bua, ho Mamela, kapa di le pedi?

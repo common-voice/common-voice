@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ا۔مقصدنخ۔تا
 cant-decide = گیبی بام نہ لاد
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-    }
 how-many-per-day = باڑ ران۔۔۔۔۔ا دوس۔میکتیک جولالکٹر
 how-many-a-week = باڑ ران ۔۔۔۔ا ہفتا میکتیک جولال اے کلپس
 which-goal-type = تو۔منونہ بجونہ یا دوا آ تی

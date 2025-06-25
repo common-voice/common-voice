@@ -52,41 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Aseta tavoite
 cant-decide = Vaikeuksia päättää?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } tunti voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihminen äänittää { $clipsPerDay } näytteen päivässä.
-                               *[other] { $totalHours } tunti voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihminen äänittää { $clipsPerDay } näytettä päivässä.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } tunti voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihmistä äänittää { $clipsPerDay } näytteen päivässä.
-                               *[other] { $totalHours } tunti voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihmistä äänittää { $clipsPerDay } näytettä päivässä.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } tuntia voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihminen äänittää { $clipsPerDay } näytteen päivässä.
-                               *[other] { $totalHours } tuntia voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihminen äänittää { $clipsPerDay } näytettä päivässä.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } tuntia voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihmistä äänittää { $clipsPerDay } näytteen päivässä.
-                               *[other] { $totalHours } tuntia voidaan saavuttaa hiukan yli { $periodMonths } kuukaudessa jos { $people } ihmistä äänittää { $clipsPerDay } näytettä päivässä.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Hienoa! Kuinka monta näytettä päivittäin?
 how-many-a-week = Hienoa! Kuinka monta näytettä viikottain?
 which-goal-type = Haluatko puhua, kuunnella vai tehdä molempia?

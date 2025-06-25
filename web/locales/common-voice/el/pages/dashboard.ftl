@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Τέλεια! Πόσα αποσπάσματα την ημέρα;
 how-many-a-week = Τέλεια! Πόσα αποσπάσματα την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;

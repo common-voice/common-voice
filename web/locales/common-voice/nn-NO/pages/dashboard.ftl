@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Sett deg eit mål
 cant-decide = greier du ikkje å bestemme deg+
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timeer oppnåelig på drygt{ $periodMonths } månaddersom{ $people } personregistrerer{ $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timeer oppnåelig på drygt{ $periodMonths } månaddersom{ $people } personregistrerer{ $clipsPerDay } lydklipp om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timeer oppnåelig på drygt{ $periodMonths } månaddersom{ $people } personarregistrerer{ $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timeer oppnåelig på drygt{ $periodMonths } månaddersom{ $people } personarregistrerer{ $clipsPerDay } lydklipp om dagen.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timeer oppnåelig på drygt{ $periodMonths } månadardersom{ $people } personregistrerer{ $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timeer oppnåelig på drygt{ $periodMonths } månadardersom{ $people } personregistrerer{ $clipsPerDay } lydklipp om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timeer oppnåelig på drygt{ $periodMonths } månadardersom{ $people } personarregistrerer{ $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timeer oppnåelig på drygt{ $periodMonths } månadardersom{ $people } personarregistrerer{ $clipsPerDay } lydklipp om dagen.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timarer oppnåelig på drygt{ $periodMonths } månaddersom{ $people } personregistrerer{ $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timarer oppnåelig på drygt{ $periodMonths } månaddersom{ $people } personregistrerer{ $clipsPerDay } lydklipp om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timarer oppnåelig på drygt{ $periodMonths } månaddersom{ $people } personarregistrerer{ $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timarer oppnåelig på drygt{ $periodMonths } månaddersom{ $people } personarregistrerer{ $clipsPerDay } lydklipp om dagen.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timarer oppnåelig på drygt{ $periodMonths } månadardersom{ $people } personregistrerer{ $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timarer oppnåelig på drygt{ $periodMonths } månadardersom{ $people } personregistrerer{ $clipsPerDay } lydklipp om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timarer oppnåelig på drygt{ $periodMonths } månadardersom{ $people } personarregistrerer{ $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timarer oppnåelig på drygt{ $periodMonths } månadardersom{ $people } personarregistrerer{ $clipsPerDay } lydklipp om dagen.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Flott! Kor mange lydklipp pr. dag?
 how-many-a-week = Flott! Kor mange lydklipp i veka?
 which-goal-type = Vil du snakke, lytte eller begge delar?

@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = هيڪ مقصد مُقرر ڪرا
 cant-decide = فيصلا ڪونهِي هُو سِگھَي؟
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-    }
 how-many-per-day = بهترين! هر روز گھڻي ڪلپ هُوَي هِتي؟
 how-many-a-week = بهترين! هر هفتي گھڻي ڪلپ هُوَي هِتي؟
 which-goal-type = بهترِين! ڪا تمهِين ٻولڻ، سُڻڻ يان بڙي ڏونهِين ڪرڻ چاهوا ڇَوا؟

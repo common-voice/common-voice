@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Een doel stellen
 cant-decide = Kunt u geen besluit nemen?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                    }
-            }
-    }
 how-many-per-day = Geweldig! Hoeveel fragmenten per dag?
 how-many-a-week = Geweldig! Hoeveel fragmenten per week?
 which-goal-type = Wilt u spreken, luisteren of allebei?

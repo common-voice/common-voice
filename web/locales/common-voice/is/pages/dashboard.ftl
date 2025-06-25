@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Setja markmið
 cant-decide = Getur þú ekki ákveðið þig?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptöku á dag.
-                               *[other] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptökur á dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptöku á dag.
-                               *[other] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptökur á dag.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptöku á dag.
-                               *[other] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptökur á dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptöku á dag.
-                               *[other] { $totalHours } klukkutími er mögulegur á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptökur á dag.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptöku á dag.
-                               *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptökur á dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptöku á dag.
-                               *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuði, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptökur á dag.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptöku á dag.
-                               *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskja tekur upp{ $clipsPerDay } upptökur á dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptöku á dag.
-                               *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en{ $periodMonths } mánuðum, ef{ $people } manneskjur taka upp{ $clipsPerDay } upptökur á dag.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Frábært! Hversu margar upptökur á dag?
 how-many-a-week = Frábært! Hversu margar upptökur á viku?
 which-goal-type = Viltu tala, hlusta eða hvort tveggja?

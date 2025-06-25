@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Definir un objectivo
 cant-decide = Impossibile decider?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } mense si { $people } persona registra { $clipsPerDay } registration cata die.
-                               *[other] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } mense si { $people } persona registra { $clipsPerDay } registrationes cata die.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } mense si { $people } personas registra { $clipsPerDay } registration cata die.
-                               *[other] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } mense si { $people } personas registra { $clipsPerDay } registrationes cata die.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } menses si { $people } persona registra { $clipsPerDay } registration cata die.
-                               *[other] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } menses si { $people } persona registra { $clipsPerDay } registrationes cata die.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } menses si { $people } personas registra { $clipsPerDay } registration cata die.
-                               *[other] { $totalHours } hora es attingibile solo in ultra{ $periodMonths } menses si { $people } personas registra { $clipsPerDay } registrationes cata die.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } mense si { $people } persona registra { $clipsPerDay } registration cata die.
-                               *[other] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } mense si { $people } persona registra { $clipsPerDay } registrationes cata die.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } mense si { $people } personas registra { $clipsPerDay } registration cata die.
-                               *[other] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } mense si { $people } personas registra { $clipsPerDay } registrationes cata die.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } menses si { $people } persona registra { $clipsPerDay } registration cata die.
-                               *[other] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } menses si { $people } persona registra { $clipsPerDay } registrationes cata die.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } menses si { $people } personas registra { $clipsPerDay } registration cata die.
-                               *[other] { $totalHours } horas es attingibile solo in ultra{ $periodMonths } menses si { $people } personas registra { $clipsPerDay } registrationes cata die.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Magnific! Quante retalios per die?
 how-many-a-week = Magnific! Quante retalios per septimana?
 which-goal-type = Vole tu parlar, ascoltar o ambes?
