@@ -22,6 +22,8 @@ skip-button = Tëb
 submit-button = Yónnée
 contribute = Jàpp ci
 request-new-language = Laaj benn làkk
+# Button text which appears when there are no more resources
+continue-with-skipped = Wéyal ak Jàll
 
 ## Navbar
 
@@ -34,6 +36,8 @@ validate = Saytu
 ## Not Found Page
 
 not-found-page-header = Gisu ñu ko
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Maa ngi nangu sàrtu Common Voice yi <termsLink>Anam</termsLink> ak <privacyLink>yëgle yi</privacyLink>
 # Locales
 bsy = Sabah Bisaya
 cdo = Fuzhou
@@ -57,3 +61,6 @@ xkl = Keniya
 
 ## Language search component
 
+language-search-placeholder = Seetal làkk...
+language-search-aria-label = Seetal làkk...
+language-search-no-results = Gisu ñu làkk wii
