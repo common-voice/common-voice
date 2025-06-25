@@ -4,9 +4,13 @@
 error = Feil
 action-click = Klikk
 action-tap = Trykk
+# Label for language switcher
+platform-language = Plattformspråk
+platform-language-tooltip-text = Endrer kun tekst på nettstedet
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bidrar til datasett for { $language }
+contribution-picker-tooltip-text = Endrer språkdatasettet du bidrar til
 coming-soon = Flere språk kommer snart
 media-recorder-api-not-supported = MediaRecorder API støttes ikke i nettleseren din.
 # Toast message that is displayed when an item is skipped
@@ -20,11 +24,16 @@ skip-button = Hopp over
 submit-button = Send
 contribute = Bidra
 request-new-language = Be om nytt språk
+# Button text which appears when there are no more resources
+continue-with-skipped = Fortsett med hoppet over
 
 ## Navbar
 
 respond-to-prompt = Svar på spørsmål
+transcribe = Transkribere
 check-transcriptions = Sjekk transkripsjoner
+question = Spørsmål
+validate = Valider
 
 ## Not Found Page
 
@@ -55,3 +64,7 @@ xkl = Kenyah
 
 ## Language search component
 
+language-search-placeholder = Søk etter et språk…
+language-search-aria-label = Søk etter et språk
+language-search-label = Endrer kun bidragsspråket til datasettet
+language-search-no-results = Ingen språk funnet

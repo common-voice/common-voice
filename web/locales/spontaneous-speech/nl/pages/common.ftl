@@ -29,9 +29,9 @@ continue-with-skipped = Doorgaan met Overgeslagen
 
 ## Navbar
 
-respond-to-prompt = Prompt beantwoorden
+respond-to-prompt = Beantwoorden
 transcribe = Transcriberen
-check-transcriptions = Transcripties controleren
+check-transcriptions = Beoordelen
 question = Vraag
 validate = Valideren
 

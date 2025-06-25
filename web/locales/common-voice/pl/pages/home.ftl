@@ -78,6 +78,9 @@ read-more-about = Przeczytaj więcej na stronie informacji o nas
 
 ## NAV ITEMS
 
+answer-questions = Odpowiadaj na pytania
+coming-soon = Wkrótce
+about-us = O nas
 
 ## MENU ITEMS TOOLTIPS
 
@@ -91,9 +94,16 @@ read-more-about = Przeczytaj więcej na stronie informacji o nas
 ## Hero section
 
 hero-title = Technologia, która mówi Twoim językiem
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Dlaczego sztuczna inteligencja miałaby być dostępna tylko w kilku z najpopularniejszych języków świata?</bold>
+hero-subtitle-2 = Nasz język to nasza historia, nasza społeczność, nasza kultura. Stwórzmy zestawy danych, które chcemy widzieć na całym świecie.
+# icon is an arrow that points downwards
+get-started = Zaczynamy <ikona><ikona>
 
 ## Action items section
 
+action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych przez społeczność
+action-items-section-subtitle = Każdy może zachować, ożywić i podnieść rangę swojego języka poprzez udostępnianie, tworzenie i zarządzanie zbiorami danych tekstowych i mowy.
 
 ## Community section
 
@@ -108,6 +118,7 @@ developers-section-title = Publicznie dostępne otwarte zbiory danych w ponad 13
 
 ## Get involved section
 
+read-sentences-link = Czytaj zdania
 
 ## Partner section
 

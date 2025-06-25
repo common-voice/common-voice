@@ -78,3 +78,5 @@ license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = აკოკათელი
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = თქვანი ხონარუან მუნაჩემეფიშ კათელიშ გიმოხარგუა
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = გიმოხარგუაში ვარიანტეფი Common Voice-იშ მუნაჩემეფიშა დასაკავშირებელო

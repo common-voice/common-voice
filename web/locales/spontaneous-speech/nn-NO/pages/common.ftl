@@ -5,7 +5,7 @@ error = Feil
 action-click = Trykk
 action-tap = Trykk
 # Label for language switcher
-platform-language = Plattformspråk:
+platform-language = Plattformspråk
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bidreg til datasett for { $language }

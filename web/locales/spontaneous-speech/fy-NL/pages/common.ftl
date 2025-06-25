@@ -29,9 +29,9 @@ continue-with-skipped = Trochgean mei Oersloegen
 
 ## Navbar
 
-respond-to-prompt = Prompt beäntwurdzje
+respond-to-prompt = Beäntwurdzje
 transcribe = Transkribearje
-check-transcriptions = Transkripsjes kontrolearje
+check-transcriptions = Beoardiele
 question = Fraach
 validate = Falidearje
 
