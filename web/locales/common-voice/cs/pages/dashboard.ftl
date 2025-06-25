@@ -54,6 +54,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Stanovte si cíl
 cant-decide = Nemůžete se rozhodnout?
+activity-needed-calculation-fixed = 100 lidí, kteří denně nahrají 100 vět, může vytvořit 13 hodin zvuku. Při zachování tohoto výkonu lze dosáhnout 1000 hodin za 3 měsíce.
 how-many-per-day = Skvěle! Kolik záznamů denně?
 how-many-a-week = Skvěle! Kolik záznamů týdně?
 which-goal-type = Chcete mluvit, poslouchat, nebo obojí?
