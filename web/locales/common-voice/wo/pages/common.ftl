@@ -5,7 +5,9 @@
 ## Languages
 
 aa = Afaar
+aat = Arvanitik
 ab = Abxas
+abb = Bankon
 ace = Acenese
 ady = Adig
 af = Afrikaans
@@ -16,8 +18,13 @@ arn = Mapudungun
 as = Asames
 ast = Asturiyan
 az = Aserbaayjan
+azz = Puebla Nahuatl
 ba = Baskiir
+bal = Balochi
 bas = Basaa
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
 be = Biyéeloris
 bg = Bilgaar
 bm = Bambara
