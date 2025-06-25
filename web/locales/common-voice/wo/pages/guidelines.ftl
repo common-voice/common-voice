@@ -46,5 +46,8 @@ adding-questions = Sàmp ab laaj
 
 easy-to-understand = Yomb na xam
 dont-add-subheader = Bulko yokk
+offensive-content-sensitive-information-explanation-explanation-2 = Laaj yu mën a jur kàdduy mbañeel wala yeneen yëg-yëg yu ñaaw wala yuy sosal nit
+offensive-content-sensitive-information-explanation-explanation-3 = Laaj yu mëna waral nit di wax ci ay yëfam, laaj yu mëna indi jafe-jafe
+example-questions-subheader = Misali laaj
 example-questions-explanation-1 = Mën nga gis <examplePromptsLink>120 misaali laaj ci këyit bii.</examplePromptsLink>
 example-questions-explanation-2 = Soo bëggee yonne ay laaj ngir ñu mën ko jëfandikoo, mën nga ko def jaaraleko ci <githubLink>sunu GitHub </githubLink> wala nga yónnee sa lim ci <emailFragment>commonvoice@mozilla.com.</emailFragment>
