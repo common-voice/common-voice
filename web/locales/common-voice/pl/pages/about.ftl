@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Dlaczego Common Voice?
+about-header-description-v2 =
+    <p>Common Voice to publicznie dostępny zbiór danych głosowych, oparty na głosach wolontariuszy z całego świata. Osoby, które chcą tworzyć aplikacje głosowe, mogą używać zbioru danych do trenowania modeli uczenia maszynowego.</p>
+    <p>Obecnie większość zbiorów danych głosowych należy do firm, co ogranicza innowacyjność. Zbiory danych głosowych obejmują również niedostatecznie: osoby nieanglojęzyczne, osoby kolorowe, osoby niepełnosprawne, kobiety i osoby LGBTQIA+. Oznacza to, że technologia oparta na głosie w ogóle nie działa w przypadku wielu języków, a tam, gdzie działa, może nie działać równie dobrze dla wszystkich. Chcemy to zmienić, mobilizując ludzi wszędzie do dzielenia się swoim głosem.</p>
 how-does-it-work-title-v2 = Jak działa projekt Common Voice?
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
 
