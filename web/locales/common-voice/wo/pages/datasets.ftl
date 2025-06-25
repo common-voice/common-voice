@@ -1,10 +1,13 @@
 ## Datasets Page
 
 datasets-heading = Jumutukaay yi (Jeu de Données)
+datasets-headline = Danuy tabax ab setu done bu am baat bu ubbeeku ci làkk yu bari ngir tàggat ay aplikaasioŋ yu mëna wax.
 language = Làkk
 download-dataset-header = Yebbi jumtukaay yi
+download-dataset-tag = Tannal làkk wi nga bëgg, nga tànn jumtukaay bi nga bëgga yebbi.
 # File size in gigabytes
 size = Dayo
+number-of-voices = Limu kàddu yi
 email-to-download = Dugalal sa email ngi yebbi
 size-gigabyte = Go
 size-megabyte = MB
