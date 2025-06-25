@@ -56,6 +56,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Cel stajiś
 cant-decide = Njamóžośo se rozsuźiś?
+activity-needed-calculation-fixed = 100 luźi, kótarež 100 sadowa na źeń nagrawaju, mógu 13 góźin awdio generěrowaś. Gaž pśi toś tom wugbaśu wóstawaju, mógu 1000 góźin w mjenjej ako 3 mjasecach dojśpiś.
 how-many-per-day = Wjelicnje! Wjele klipow na źeń?
 how-many-a-week = Wjelicnje! Wjele klipow na tyźeń?
 which-goal-type = Cośo powědaś, słuchaś abo wobej?
