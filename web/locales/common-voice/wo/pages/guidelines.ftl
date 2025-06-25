@@ -45,7 +45,13 @@ adding-questions = Sàmp ab laaj
 ## Question collection sidebar content
 
 easy-to-understand = Yomb na xam
-dont-add-subheader = Bulko yokk
+spelling-and-pronunciation = Ortograafi ak ponksioŋ
+spelling-and-pronunciation-explanation = Jëfandikool ortograafi ak nàfar bu jaar yoon.
+length = Gudday
+length-explanation = Laaj bi war nañu ko mën a  tontu ci ñaari waat.
+dont-add-subheader = Bul yokk
+culturally-specific-questions = Laaj yu jëm ci cosaan ak aada
+culturally-specific-questions-explanation = Laaj yu jëm ci aada wala yuy wax ay biir ci tontukat bi
 offensive-content-sensitive-information-explanation-explanation-2 = Laaj yu mën a jur kàdduy mbañeel wala yeneen yëg-yëg yu ñaaw wala yuy sosal nit
 offensive-content-sensitive-information-explanation-explanation-3 = Laaj yu mëna waral nit di wax ci ay yëfam, laaj yu mëna indi jafe-jafe
 example-questions-subheader = Misali laaj
