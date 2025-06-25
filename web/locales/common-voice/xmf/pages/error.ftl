@@ -1,6 +1,7 @@
 ## Error pages
 
 banner-error-slow-1 = სანარღოთ, Common Voice-ისი გოწყნარაფილო მუშენს. მარდი, ყურადგებაშენი.
+banner-error-slow-2 = ბრელი ტრაფიკი მიღუნა დო ასე თე პრობლემეფიშ მოგვარებაშენი მუფშენთ.
 banner-error-slow-link = სტატუსიშ ხასლა
 error-something-went-wrong = სანარღოთ, მუდგარენ ხარვეზიქ გორჩქინდუ
 error-clip-upload = ათე ინნაჭარაქ ხოლო ვეგიძინინ, გოკონანო ხელახაშო ქოცადათჷნი?
