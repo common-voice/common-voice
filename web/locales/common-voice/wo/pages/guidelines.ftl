@@ -30,6 +30,8 @@ misreadings-example-3 = Danuy dem naani kafe.
 
 ## Sentence collection nav ids
 
+citing-sentences = Bind ay waat
+adding-sentences = Jokk ay waat
 reviewing-sentences = Jàngat ay waat
 
 ## Sentence collection sidebar content
@@ -44,3 +46,5 @@ adding-questions = Sàmp ab laaj
 
 easy-to-understand = Yomb na xam
 dont-add-subheader = Bulko yokk
+example-questions-explanation-1 = Mën nga gis <examplePromptsLink>120 misaali laaj ci këyit bii.</examplePromptsLink>
+example-questions-explanation-2 = Soo bëggee yonne ay laaj ngir ñu mën ko jëfandikoo, mën nga ko def jaaraleko ci <githubLink>sunu GitHub </githubLink> wala nga yónnee sa lim ci <emailFragment>commonvoice@mozilla.com.</emailFragment>
