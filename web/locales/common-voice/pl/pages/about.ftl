@@ -9,6 +9,7 @@ how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagra
 
 ## How does it work section
 
+about-language-req-subtitle = Ktoś prosi o dodanie danego języka.
 about-speak = Nagrywanie
 about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
 about-listen-queue = Kolejka do odsłuchania
