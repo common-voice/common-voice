@@ -24,9 +24,17 @@ varying-pronunciations-explanation-2 = Ci beneen wàll bi, sudee jàpp nga ni ki
 varying-pronunciations-example = Yoon wi leerul woon.
 varying-pronunciations-tip-1 = [Àngle bu Canada mën na def "route" melni "rowt"]
 varying-pronunciations-tip-2 = [Àngle bu Grande Bretagne mën na nekk "root"]
+misreadings-explanation-5 = Liggéeyukaay yi amul, lu ci melni "We're" ci barabu "We are", wala luko moy.
+misreadings-explanation-6 = Dafa am ay kàddu yu amul ci njeextalu baat bi
+misreadings-explanation-7 = Jéem ay yoon yu bari ngir jàng benn baat.
 misreadings-example-1 = Danuy dem wut kafe.
 misreadings-example-2 = Danuy dem wutti kafe.
 misreadings-example-3 = Danuy dem naani kafe.
+misreadings-example-4 = Bourdon bi daal di gaaw romb.
+misreadings-tip-1 = [Ndax du “We are”]
+misreadings-tip-2 = [Amul ‘a’ ci bind mu njëkk ma]
+misreadings-tip-3 = [Mbiir yi méngoowul]
+background-noise-example-1 = Dinosaur yu mag yi ci jamonoy Trias.
 
 ## Sentence collection nav ids
 
