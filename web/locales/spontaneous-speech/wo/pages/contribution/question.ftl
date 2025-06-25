@@ -2,11 +2,13 @@
 
 question-page-instruction = Yokk laaj <icon></icon> ngir { $currentLocale } nit ñi tontu
 add-question-textarea-placeholder = misal, “Lan ngay bëgoon  xarala yu yees yi njariñ ?”
+add-questions-terms-checkbox = * Maa ngi firndeel ni laaj bii ci <publicDomainLink> domen public</publicDomainLink> te amnaa sañ-sañu yebbi ko.
 question-dataset-language = Jumtukaay: { $datasetLanguage }
 add-question-success-toast-message =
     { $uploadedQuestions } ci 1 laaj yuñ dajale
     { $uploadedQuestions } ci { $totalQuestions } laaj yuñ dajale
 add-question-error-message = Yebbitewul, jéemaat ca kanam.
+add-question-too-many-questions-error = Ëpp na 25 laaj. Wàññil limu laaj yi nga jéemaat.
 # Guidelines
 add-question-guidelines-title = Yan laaj laa mëna yokk?
 do-section-title = défal
