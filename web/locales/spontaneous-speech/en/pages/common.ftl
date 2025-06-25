@@ -33,6 +33,7 @@ respond-to-prompt = Answer
 transcribe = Transcribe
 check-transcriptions = Review
 question = Question
+tag = Tag
 validate = Validate
 tag = Tag
 

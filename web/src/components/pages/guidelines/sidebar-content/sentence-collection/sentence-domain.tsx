@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
@@ -15,7 +15,7 @@ export const SentenceDomain: React.FC<SidebarContentProps> = ({
   isMobileWidth,
 }) => {
   return (
-    <div className="sidebar-content" id={id}>
+    <div className="sidebar-content no-border" id={id}>
       <span className="line" />
       <div className="sidebar-content-header">
         <Localized id="sentence-domain">

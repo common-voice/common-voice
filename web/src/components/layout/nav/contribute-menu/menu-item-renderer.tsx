@@ -13,6 +13,8 @@ type Props = {
   isLocaleContributable: boolean
 } & WithLocalizationProps
 
+const smallTagRegex = /\s*<small>.*?<\/small>/g
+
 export const MenuItemRenderer = ({
   item,
   isLocaleContributable,
@@ -66,7 +68,7 @@ export const MenuItemRenderer = ({
           className="contribute-link"
           onClick={toggleMenu}>
           <Icon />
-          {getString(localizedId)}
+          {getString(localizedId).replace(smallTagRegex, '')}
         </a>
       )
     }

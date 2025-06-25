@@ -1,20 +1,15 @@
 import * as React from 'react'
-import {
-  SENTENCE_NAV_IDS,
-  VOICE_NAV_IDS,
-  COLLECTING_QUESTIONS,
-} from './constants'
+
+import { VOICE_NAV_IDS } from './constants'
 
 const getDefaultTabOption = ({ tab }: { tab: string }) => {
-  if (tab === 'voice') {
-    return VOICE_NAV_IDS.PRONUNCIATIONS
-  } else if (tab === 'sentence') {
-    return SENTENCE_NAV_IDS.PUBLIC_DOMAIN
-  } else if (tab === 'question') {
-    return COLLECTING_QUESTIONS
+  if (tab === 'scripted-speech') {
+    return 'voice-collection'
+  } else if (tab === 'spontaneous-speech') {
+    return 'question-collection'
   }
 
-  return VOICE_NAV_IDS.PRONUNCIATIONS
+  return 'voice-collection'
 }
 
 const useScrollToGuidelinesSection = () => {
@@ -28,25 +23,27 @@ const useScrollToGuidelinesSection = () => {
   const [selectedTabIndex, setSelectedTabIndex] = React.useState(0)
   const [selectedTabOption, setSelectedTabOption] =
     React.useState(defaultTabOption)
+  const [selectedSection, setSelectedSection] = React.useState(
+    id || VOICE_NAV_IDS.PRONUNCIATIONS
+  )
 
   React.useEffect(() => {
     if (!tab) {
       setSelectedTabIndex(0)
     }
 
-    if (tab && tab === 'sentence') {
+    if (tab && tab === 'spontaneous-speech') {
       setSelectedTabIndex(1)
     }
 
-    if (tab && tab === 'question') {
-      setSelectedTabIndex(2)
+    if (tab && tab === 'scripted-speech') {
+      setSelectedTabIndex(0)
     }
 
     if (hash) {
       const element = document.getElementById(id)
 
       if (element) {
-        setSelectedTabOption(id)
         element.scrollIntoView({ block: 'start', behavior: 'smooth' })
       }
     }
@@ -57,6 +54,8 @@ const useScrollToGuidelinesSection = () => {
     setSelectedTabIndex,
     selectedTabOption,
     setSelectedTabOption,
+    selectedSection,
+    setSelectedSection,
   }
 }
 

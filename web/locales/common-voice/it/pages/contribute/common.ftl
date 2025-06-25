@@ -61,13 +61,13 @@ report-success = La segnalazione è stata inviata correttamente.
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
+shortcut-skip = S
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = r
+shortcut-record-toggle = e
 shortcut-record-toggle-label = Registra/Interrompi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ripeti la registrazione
@@ -82,14 +82,14 @@ request-language-button = Richiedi una lingua
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = p
+shortcut-play-toggle = R
 shortcut-play-toggle-label = Riproduci/Interrompi
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = y
+shortcut-vote-yes = S
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = n
+shortcut-vote-no = N
 
 ## Validation criteria
 

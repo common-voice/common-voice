@@ -143,12 +143,15 @@ join-discord-community = Eike Discord atýpe
 join-discord-community-action = Ejuaju orerehe Discord-pe
 join-discord-community-content = Eike tekoha ñe’ẽkuaaty ñomongetahápe, eporandu ha eikuaa hag̃ua mba’e oikótava ha ñomongeta rehegua.
 find-us-on-matrix = Orejuhúta Matrix-pe
+find-us-on-matrix-content = Matrix ha’e peteĩ tapereko ijurujáva, ivevúi, momarandu ñemyasãirã araitépe g̃uarã, ha Mozilla pyendavusu ñomongetarã ijurujáva.
 # label for button
 find-us-on-matrix-action = Orejuhúta Matrix-pe
 ask-mozilla-share = Ejerure Mozilla-pe omoherakuãvo ne rembiapo
+ask-mozilla-share-content = ¿Rerekópa peteĩ evento ymaguare térã oútava? ¡Emoherakuã orendive ha roikuaaukáta ore rekohápe térã rohaita peteĩ blog hesegua!
 # label for button
 ask-mozilla-share-action = Emoherakuã ne rembiapo
 download-contribution-certificate = Emboguejy nde kuatia ñepytyvõ rechaukaha
+download-contribution-certificate-content = Emboguejy peteĩ kuatia’atã ne evento-kuéra térã ndejupe g̃uarã eipytyvõramo Common Voice-pe. ¡Kóva ndaikatumoʼãikuri nde reheʼỹ!
 # label for button
 download-contribution-certificate-action = Erekóke mboajepyre
 contribute-github = Eipytyvõ GitHub-pe
@@ -164,6 +167,7 @@ download-press-pack = Emboguejy ore dossier de prensa <icon></icon>
 ## Developers section
 
 developers-section-title = Ñe’ẽkuaa ijurujáva opavavépe g̃uarã mba’ekuaarã aty hetave 130 ñe’ẽmegui
+developers-section-subtitle = Mba’ekuaarã aty ASR-pe g̃uarã, STT, TTS ha ambue PNL jeregua, oñemoheñóiva tekoha ñepytyvõ rupi.
 # icon is an arrow that points to the right
 explore-datasets = Eheka mba’ekuaarã atýpe <icon></icon>
 
@@ -182,6 +186,10 @@ press-and-stories-link = Prensa ha ñemombe’u
 ## Partner section
 
 partner-section-title = Eike orendive
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Mba’apoha tembiporupyahugua</bold>: Peinverti mba’ekuaarã aty moheñóirã IA ñe’ẽita akãrapu’ã rehegua
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Tapicha ha mba’erekahakuéra</bold>: pejapo, pehupi ha pemoherakuã mba’ekuaarã aty reiete
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = Mba’ekuaarã ojeykekóva aty ñemoheñói oñemoakãrapu’ã hag̃ua mba’epyahu ha jekakuaave
 # icon is an arrow that points to the right

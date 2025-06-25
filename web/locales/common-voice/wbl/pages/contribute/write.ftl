@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = Jũmla’v e drem bũnit et skamev nigah kat̃
 add-sentences-menu-item-tooltip = Dẽ k̃hũ zik jũmla’v e bũnit (kat̃it)
 review-sentences-menu-item-tooltip = Dẽ k̃hũ zik skẽ jũmla’v nigah kat̃it
 add-questions-menu-item-tooltip = Dẽ k̃hũ zik sawolev kat̃it (bũnit)
+review-questions-menu-item-tooltip = Sowolẽ didig̃h/yewẽr
 transcribe-audio-menu-item-tooltip = Dẽ k̃hũ  zik sabit k̃hetk owog̃hi mawodev (od̃iyo’v e) nivishit
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = Nivishn-e ikhtiyori fihrist
 add-sentences-menu-item-aria-label = Yũrt-e joyn-e dẽstan s̃heg̃hd jũmla’v  e  kat̃it (bũnit)
 review-sentences-menu-item-aria-label = Yũrt-e bũnetk trẽmisken jũmla’v-e  joyizah dũrzn
 add-questions-menu-item-aria-label = Yũrt-e joyn et jawob rẽdho’r -e dẽstan s̃heg̃hd sawolev kat̃it (bũnit)
+review-questions-menu-item-aria-label = jẽmoatẽ dhetk sowolẽ didig̃h k̃hẽ vot̃ yor kat̃
 transcribe-audio-menu-item-aria-label = Sabt k̃hetk owog̃hi  mawodev  hada k̃hat zik nivishit

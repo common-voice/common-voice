@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = Mien’r Éieri Dàte rùnterlàde?
+download-info = Saawe ùns, wàs’r rùnterlàde welle:
+download-profile-title = Profil
+download-profile-info = Ìhr bekùmme glich Zügàng ze de E-Mail-Àdrass, zem Benùtzernàmme ùn ze de demogràfische Informàtione
+download-profile-size = E pààr Bytes (octets)
+download-recordings-title = Ùffnàhme
+download-recordings-info = MP3-Dàtéie ùn Satz, wo dezügheere, kànn e bìssele düre
+download-recordings-size = Normàlerwiis Megabytes (Mo)
+download-recordings-unavailable = Ìhr kenne Éieri Ùffnàhme nìtt ànfordere, wenn schùn e àndere Àntràà lauft.
+download-recently-requested = Ìhr kenne Éieri Ùffnàhme nìtt ànfordere, wenn schùn e àndere Àntràà lauft.
+download-size = Dàtéigreesse
+download-selected = Schwàsiert
+download-start = Profil-Dàte rùnterlàde
+download-request = Rùnterlàde vùn Ùffnàhme ànfordere
+download-requests = Àlti Àntraj fer ’s Rùnterlàde vùn Ùffnàhme
+download-requests-info = Wenn’r Éieri Ùffnàhme ànfordere, stelle m’r se ìn einere odder mehrere ZIP-Dàtéie zàmme. Dìss sìn Éieri àlti Àntraj:
+download-request-button = Rùnterlàde
+download-request-title = { $created }
+download-request-description = { $clipCount } Ùffnàhme, Gsàmtgreesse vùm Àrchiv { $size }. Lauft àb àm { $expires }
+download-request-archive-single = Einzelni ZIP-Dàtéi mìt
+download-request-archive-multiple = Ùffgeteilt ìn { $archiveCount } ZIP-Dàtéie mìt
+download-request-assembling-description = Éieri Dàtéie waare gerìscht. Lüeje später noch emol verbi, wenn’s beliebt.
+download-request-refresh-button = Aktüalisiere
+download-request-modal-title = Link fer ’s Rùnterlàde
+download-request-modal-description = Do sìn d’Link fer ’s Rùnterlàde vùn Éiere ZIP-Dàtéie.
+download-request-link-text = ZIP-Dàtéi Nümero { $offset } vùn { $total }
+download-request-metadata-link = Sàtztext
+download-request-link-single = Ìhr kenne d’direkte ÜRL au kopiere ùn ìn Éiere Liewlìngsrùnterlàdemànàtscher ingann. Sie laufe ìn 12 Stùnd àb, àwwer Ìhr kenne egàl wànneh ùff die Sitt zerùckkùmme, fer néji ze generiere.

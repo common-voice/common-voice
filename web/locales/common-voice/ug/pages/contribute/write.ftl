@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جۈملە قوشۇپ ۋە قايتا تەكشۈ
 add-sentences-menu-item-tooltip = تىلىڭىزدا جۈملە قوشىدۇ
 review-sentences-menu-item-tooltip = تىلىڭىزدىكىك جۈملىنى تەكشۈرىدۇ
 add-questions-menu-item-tooltip = تىلىڭىزدا سوئال قوشىدۇ
+review-questions-menu-item-tooltip = سوئالنى تەكشۈر
 transcribe-audio-menu-item-tooltip = تىلىڭىزدىكى ئاۋاز خاتىرىسىنى تېكىستكە خاتىرىلەيدۇ
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = تاللانما تىزىملىكنى ياز�
 add-sentences-menu-item-aria-label = جامائەتنىڭ ئوقۇشى ئۈچۈن يېڭى جۈملە قوشىدۇ
 review-sentences-menu-item-aria-label = جامائەت يوللىغان مەۋجۇت جۈملىنى تەكشۈرىدۇ
 add-questions-menu-item-aria-label = جامائەتنىڭ ئوقۇپ ۋە ئىنكاس قايتۇرۇشى ئۈچۈن يېڭى سوئال يوللايدۇ
+review-questions-menu-item-aria-label = جامائەت يوللىغان يېڭى سوئالنى تەكشۈرۈپ ۋە بىلەت تاشلايدۇ
 transcribe-audio-menu-item-aria-label = ئۈن خاتىرىسىنى تېكىسكە خاتىرىلەيدۇ

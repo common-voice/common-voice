@@ -53,7 +53,9 @@ hi = ჰინდი
 hr = ხორვატიული
 hu = უნგრული
 hy-AM = სომხური
+ia = ინტერლინგვა
 id = ინდონეზიური
+ie = ინტერლინგვა
 is = ისლანდიური
 it = იტალიური
 ja = იაპონური
@@ -111,21 +113,32 @@ zu = ზულური
 profile = პროფილი
 help = მეხვარა
 contact = კონტაქტი
+privacy = კონფიდენციალურობა
 terms = პირობეფი
 cookies = ქუქი-ფაილეფი
+faq = შ.დ.ო.
 documentation = დოკუმენტაცია
+content-license-text = მასალა ხემიოჭირინაფალი რე <licenseLink> Creative Commons ლიცენზიით </licenseLink>
+share-title = ქაკათით ჩქინ საზოგადოებას
+share-text = ქიდმეხვარით, ქუდუოგურუათ მანქანეფს მუჭო იჩიებუნა ადამიერეფი, შემენწიით თქვანი ხონარეფით.
+link-copied = რსხილი კოპირებული რე
+back-top = დაჭყაფუშა დორთა
 logout = გუშულა
 donate = შემენწით
+stayintouch = ჩქი, Mozilla-ს, ვოცადუთ აკოფშაყარუათ დიდი ართობა ხონარუან ტექნოლოგიეფიშ მუკი-მუკი. კორინი მიღუნა, ქუდოფსკიდათ კავშირს გაახალებული ამბეფით, მუნაჩემეფიშ ახალ წყუეფით დო ქიმიფრჩქილუათ, მუჭო გიმმირინუანთ თე მუნაჩემეფს.
 return-to-cv = დართით Common Voice-ის
 email-input =
     .label = ელფოსტა
 loading = გინმიჭარუ…
 email-opt-in-info-title = ქაკათით Common Voice-იშ ელფოსტაში ბუნას
 indicates-required = (*) შანულენს აუცილებელ ველს
+not-available-abbreviation = ხემიოჭირინაფალი ვარე
 
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark> ჩქი მოსაჭირუნა</mark><br/><mark> თქვანი მოხვარა!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> CV-ის გიმმირინუანთო </mark><br/><mark> თქვანი კვლევეფიშოთ? </mark>
 localization-select =
     .label = გეიშაგორით ნინა/არდგილი

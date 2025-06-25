@@ -1,4 +1,4 @@
-import { AllowedSchema } from 'express-json-validator-middleware';
+import { AllowedSchema } from 'express-json-validator-middleware'
 
 export const sentenceSchema: AllowedSchema = {
   type: 'object',
@@ -10,5 +10,8 @@ export const sentenceSchema: AllowedSchema = {
       minimum: 1,
       maximum: 50,
     },
+    ignoreClientVariant: {
+      type: 'boolean',
+    },
   },
-};
+}

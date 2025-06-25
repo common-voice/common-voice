@@ -32,4 +32,4 @@ demo-listen-subtitle = Mën nga jàppale?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Tablo dashboard yi dañu lay jox leeral ci yokkuteg benn-benn nit ak askan wi.
-demo-dashboard-card-body = Bépp clip baat buñu joxe, ak bépp clip audio buñu bañ, dañuy yeesal sa tablo kontu ngir wane sa yokkute ci làkk wu nekk boo ci joxe. Waaw, mën nga jàppale lu ëpp benn!<br/><br/> Jëfandikool tablo yi ngir toppu say lim, xool ni ngay def ak ñeneen ñi ci askan wi, nga def ay mébeti jàppale bis bu nekk wala ayu-bis bu nekk.
+demo-dashboard-card-body = Bépp baat buñu joxe, ak bépp kàddu buñu bañ, dañuy yeesal sa tablo kontu ngir wane sa yokkute ci làkk wu nekk boo ci joxe. Waaw, mën nga jàppale lu ëpp benn!<br/><br/> Jëfandikool tablo yi ngir toppu say lim, xool ni ngay def ak ñeneen ñi ci askan wi, nga def ay mébeti jàppale bis bu nekk wala ayu-bis bu nekk.

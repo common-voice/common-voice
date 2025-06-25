@@ -1,5 +1,7 @@
 ## Dashboard
 
+you = Tumi
+everyone = Sogle
 show-ranking = Mhoje ranking dhakoi
 
 ## Custom Goals
