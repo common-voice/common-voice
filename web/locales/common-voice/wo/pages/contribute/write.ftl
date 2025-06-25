@@ -17,6 +17,8 @@ general = Ëmb lépp
 
 ## MENU ITEM TOOLTIPS
 
+add-questions-menu-item-tooltip = Yokk laaj
+review-questions-menu-item-tooltip = Jàngat ay laaj
 
 ## MENU ITEM ARIA LABELS
 
