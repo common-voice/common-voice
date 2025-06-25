@@ -20,3 +20,8 @@ download = Yebbi
 dataset-version = Sumb
 # dataset metadata - age of contributor
 dataset-metadata-age = At
+data-download-yes = Waaw
+data-download-deny = Déedéet
+data-download-license = License: <licenseLink>CC-0</licenseLink>
+release-version = Sumb
+dataset-date = Bis bi
