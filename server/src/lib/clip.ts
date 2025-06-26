@@ -197,6 +197,7 @@ export default class Clip {
     // so that a 400 is returned below
     const { session: { user: { client_id = null } = {} } = {}, headers } =
       request || {}
+    const client_id = request?.session?.user?.client_id
     const sentenceId = headers.sentence_id as string
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
