@@ -3,6 +3,7 @@
 download-q = Ndax danga soxla yebbi say jumtukaay ?
 download-info = Wax nu linga bëgg a yebbi:
 download-profile-title = Porofil
+download-profile-info = Book na ci imeel, tur jëfandikukat ak leeral demografik, yu jàppandi ci saasi
 download-profile-size = Ay byte yu néew
 download-size = Dayo
 download-selected = falees

@@ -6,6 +6,10 @@ wall-of-text = Common Voice mingi ubbi ñaareelu platform buy wax ci dajale kàd
 why-spontaneous-speech = Li waral ñu defar prototype bu waxukay bi
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Am na njérin ngir  <mark> anamu Kàddu  bi</mark> ak barab yu ñu koy jëfandikoo  (misaal : bo bëggé xamé kaddu ngir  liggéey  ak nit ñuy làkk lu ñu bindul ak waxu mbedd)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Jàppale bu gëna baax ci wàllu làkk, lu ci melni translanguage ak <mark>code-switching</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Jàppale bu gëna baax ci làkk yi <mark>amul benn corpus text</mark> bu ñuy jëfandikoo (lu melni, sociolects, variants, làkk yu amul mbind ci taarix, ak ñoom seen)
 how-spontaneous-speech-works = Naka la Spontaneous Speech di deme
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Tegtal</mark>

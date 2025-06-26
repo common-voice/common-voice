@@ -103,15 +103,20 @@ about-playbook-how-add-sentences = Naka lay def ba yokk waat yi?
 ## How to record quality
 
 about-playbook-how-record-content-1 = Wax ak sa baat ! Noo ngi lay sant ci ni ngay waxee - danu bëgg sa aksan ci nimu mel, te danu bëgg sa volume, sa stil ak sa intonasioŋ ni ngay faral di defee.
+about-playbook-how-record-content-2 = Moytul coow bu bari ci ginaaw - dafa wara yomb ñu dégg la.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Naka lañu mëne sukali làkk ci Common Voice?
+about-playbook-how-grow-language-content-1 = Sosal nit ñu bari ñu mëna jàppale ci Common Voice dafay tax done yi di jàppale nit ñu bari. Defar nanu ay jumtukaay ak ay template yoo mëna jëfandikoo!
+about-playbook-how-grow-language-content-2 = Xew-xew yi
 about-playbook-how-grow-language-content-4 = Reso sosio yi
 about-playbook-how-grow-language-content-5 = Mën nga jëfandikoo platform reso sosio ngir tassare mesaas bi. Séddoo ay mbind yuy leeral li tax mu am solo, nga jokkool ak ñeneen ñuy wax ci mbir yu melni yelleefi làkk, xarala IA yi, wala ci xarala yu bees yi. Xool yeneen xelal ci <campaignLink>doxal ab kàmpaañu mbooloo, boole ci ëmbiit yi nga mën a jëfandikoowaat</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partenariat ak reso
 
 ## How to validate
 
+about-playbook-how-validate = naka may xamee ni dama wara nangu kàddu bi?
 about-playbook-how-validate-content-4 = Su 2 nit bañee benn kàddu, dañu koy génne ci beneen subset ci jumtukaay yi.
 
 ## How to access dataset
