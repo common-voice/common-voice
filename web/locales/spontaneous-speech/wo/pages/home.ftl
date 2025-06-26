@@ -20,5 +20,7 @@ contact-us = Jokkook nun
 contact-us-email = Imeel: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Ndax bokk nga ci sunu kuréel Beta giy saytu projet kàddu yu bari yu Common Voice?
 signup-input-placeholder = Bindal sa imeel
+signup-button-value = Yonnee ab lëkkalekaay ci sama email
+footer-text-privacy = <privacyLink>Privacy</privacyLink>
 footer-text-terms = <termsLink>Anam yi</termsLink>
 footer-text-cookies = <cookiesLink>Cookies<cookiesLink>
