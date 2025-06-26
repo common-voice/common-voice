@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
+activity-needed-calculation-fixed = 100 minsken dy’t 100 sinnen deis opnimme, kinne 13 oeren oan audio generearje. As jo dizze prestaasje trochsette, kinne binnen 3 moannen 1000 oeren berikt wurde.
 how-many-per-day = Bjusterbaarlik! Hoefolle fragminten op in dei?
 how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn ’e wike?
 which-goal-type = Wolle jo sprekke, harkje of beide?

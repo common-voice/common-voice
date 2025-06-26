@@ -15,9 +15,13 @@ top-contributors = Jàppalekat yi gën a mag
 recorded-clips = Clips yiñ rënk
 validated-clips = Kàddu yiñ saytu
 total-approved = Liñu nangu
+overall-accuracy = Précision bèpp
+set-visibility = Ñèpp giss ma
+show-ranking = Waneel sama rang
 
 ## Custom Goals
 
+get-started-goals = Tambalil ak ay mébet
 easy-difficulty = Yomb na
 goal-interval-weekly = Ci ayu-bis bi
 
