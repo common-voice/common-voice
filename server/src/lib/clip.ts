@@ -195,8 +195,7 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     // default the client_id to null if it is not present in the session.user object
     // so that a 400 is returned below
-    const { session: { user: { client_id = null } = {} } = {}, headers } =
-      request || {}
+    const { headers } = request 
     const client_id = request?.session?.user?.client_id
     const sentenceId = headers.sentence_id as string
     const source = headers.source || 'unidentified'
