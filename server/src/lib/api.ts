@@ -264,19 +264,22 @@ export default class API {
   createLanguageRequest = async (request: Request, response: Response) => {
     const { client_id } = request?.session?.user || {}
     if (!client_id) {
-      response.sendStatus(StatusCodes.BAD_REQUEST)
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     await this.model.db.createLanguageRequest(request.body.language, client_id)
     response.json({})
   }
 
   createSkippedSentence = async (request: Request, response: Response) => {
-    // default the client_id to null if it is not present in the session.user object
-    // so it does not raise a TypeError
     const {
-      session: { user: { client_id = null } = {} } = {},
+      session: {
+        user: { client_id },
+      },
       params: { id },
     } = request
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     await this.model.db.createSkippedSentence(id, client_id)
     response.json({})
   }
