@@ -337,8 +337,9 @@ code-switching-single-token-explanation = A single space-separated token should 
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-explanation = Tag punctuation using the language closest span to the left. Examples:
-code-switching-punctuation-tagging-explanation-example-1 = and the one time that Maria screamed at me was porque she was trying to to printear un order. (BangorTalk)
-code-switching-punctuation-tagging-explanation-example-2 = but tú los puedes comprar rojo, negro, azul, whatever. (BangorTalk)
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one time that</purple> Maria <purple>screamed at me was</purple> <blue>porque</blue> <purple>she was trying to to</purple> printear <blue>un</blue> <purple>order.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
 
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Be Careful with Lookalikes

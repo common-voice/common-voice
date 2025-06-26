@@ -12,7 +12,7 @@ export const CodeSwitching = ({
   toggleVisibleSection,
   isMobileWidth,
 }: SidebarContentProps) => (
-  <div className="sidebar-content" id={id}>
+  <div className="sidebar-content code-switching" id={id}>
     <span className="line" />
     <div className="sidebar-content-header">
       <Localized id="adding-a-question">
@@ -484,10 +484,20 @@ export const CodeSwitching = ({
         </Localized>
 
         <ul>
-          <Localized id="code-switching-punctuation-tagging-explanation-example-1">
+          <Localized
+            id="code-switching-punctuation-tagging-explanation-example-1"
+            elems={{
+              purple: <span className="purple" />,
+              blue: <span className="blue" />,
+            }}>
             <li />
           </Localized>
-          <Localized id="code-switching-punctuation-tagging-explanation-example-2">
+          <Localized
+            id="code-switching-punctuation-tagging-explanation-example-2"
+            elems={{
+              purple: <span className="purple" />,
+              blue: <span className="blue" />,
+            }}>
             <li />
           </Localized>
         </ul>

@@ -162,6 +162,20 @@
                     @media (--md-up) {
                         padding-top: 20px;
                     }
+
+                    &.code-switching {
+                        & .purple {
+                            background: var(--gradient-purple);
+                            /* color: var(--white); */
+                            /* padding: 0 4px; */
+                        }
+
+                        & .blue {
+                            background: var(--blue);
+                            /* color: var(--white); */
+                            /* padding: 0 4px; */
+                        }
+                    }
                 }
 
                 & .sidebar-content.no-border {
