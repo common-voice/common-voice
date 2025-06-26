@@ -20,13 +20,35 @@ new-sentence-rule-4 = Jëfandikool ortograafi ak nàfar bu jaar yoon.
 new-sentence-rule-5 = Amul ay nimero wala ay arafu spesiaal
 new-sentence-rule-6 = Amul ay araf yu bawoo feneen
 new-sentence-rule-7 = Bokk ci ay sitaasioŋ yu war
+new-sentence-rule-8 = Li gëna mooy mu nuru waxtaan (dawal baat bi dafa wara yomb)
+login-instruction-multiple-sentences = <loginLink>Dugal</loginLink> wala nga <loginLink>bindu</loginLink> ngir yokk ay waat
+how-to-cite = naka lay cite?
+how-to-cite-explanation-bold = Cite ak lëkkalekaay URL wala tur liggéey bi yépp.
 guidelines = Tegtal yi
 contact-us = Jokkook Nun
 add-sentence-success = 1 baat yuñ dajale
+add-sentence-error = Amna jafe-jafe binuy yokk baat bii
+required-field = Bindal barab bii.
+single-sentence-submission = Dugalal benn baat rekk
+small-batch-sentence-submission = Dugalal baat bu gàtt
+bulk-sentence-submission = Dugalal ay waat yu bari
+single-sentence = Benn
+sentence-domain-combobox-label = Domen baat
+sentence-domain-select-placeholder = Tannal ba ñetti domen (tànneef)
+# Sentence Domain dropdown option
+agriculture_food = Bayy ak lekk
+# Sentence Domain dropdown option
+automotive_transport = Oto ak dem ak dikk
+# Sentence Domain dropdown option
+finance = Kom-kom
+# Sentence Domain dropdown option
+service_retail = Serwiis ak jaay ci detaay
 # Sentence Domain dropdown option
 general = Ëmb lépp
 # Sentence Domain dropdown option
 healthcare = Toppatoo wérgi-yaram
+# Sentence Domain dropdown option
+history_law_government = Taarix, Yoon ak Nguur
 
 ## BULK SUBMISSION
 
