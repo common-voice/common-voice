@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Emoĩ nde jehupytyrã
 cant-decide = Ndereikuaamo’ãipa mba’épa?
+activity-needed-calculation-fixed = 100 tapicha oñongatúramo 100 ñe’ẽjoaju opa árape omoheñoikuaa 13 aravo mba’epu. Péicha ojapóramo, ojehupytykuaa 1.000 aravo 3 jasy mboyve.
 how-many-per-day = ¡Oĩ porãiterei! Mboy ñe’ẽjoajúpa ára ñavõme?
 how-many-a-week = ¡Oĩ porãiterei! Mboy ñe’ẽjoajúpa arapokõindy ñavõme?
 which-goal-type = Reñembohyapusépa, remoneĩsépa ñe’ẽ térãpa mokõive?
