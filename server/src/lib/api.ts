@@ -613,9 +613,6 @@ export default class API {
   getContributionActivity = async (req: Request, response: Response) => {
     const { locale } = req.params
     const { client_id } = req?.session?.user || {}
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
     const { from } = req.query
 
     response.json(
