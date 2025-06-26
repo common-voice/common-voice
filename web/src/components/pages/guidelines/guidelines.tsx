@@ -19,7 +19,6 @@ import {
   CODE_SWITCHING_ITEMS,
   QUESTION_COLLECTION_ITEMS,
   SENTENCE_COLLECTION_ITEMS,
-  SENTENCE_NAV_IDS,
   TRANSCRIBE_AUDIO_ITEMS,
   VOICE_COLLECTION_ITEMS,
 } from './constants'
@@ -32,7 +31,6 @@ import './guidelines.css'
 
 const Guidelines = () => {
   const defaultVoiceOption = 'voice-collection'
-  const defaultSentenceOption = SENTENCE_NAV_IDS.PUBLIC_DOMAIN
 
   const toLocaleRoute = useToLocaleRoute()
 
@@ -53,7 +51,7 @@ const Guidelines = () => {
       if (index === 0) {
         setSelectedTabOption(defaultVoiceOption)
       } else {
-        setSelectedTabOption(defaultSentenceOption)
+        setSelectedTabOption('question-collection')
       }
     }
 
