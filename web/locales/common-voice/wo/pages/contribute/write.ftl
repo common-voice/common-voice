@@ -49,9 +49,21 @@ general = Ëmb lépp
 healthcare = Toppatoo wérgi-yaram
 # Sentence Domain dropdown option
 history_law_government = Taarix, Yoon ak Nguur
+# Sentence Domain dropdown option
+language_fundamentals = bangkàss làkk wii (lu melni ay lim, ay araf, xaalis)
+# Sentence Domain dropdown option
+media_entertainment = Media ak bégal xol
+# Sentence Domain dropdown option
+nature_environment = Nature ak jéeri ji
+# Sentence Domain dropdown option
+news_current_affairs = Xibaar yi ak jafe-jafe yi am ci jamono jii
+# Sentence Domain dropdown option
+technology_robotics = Xarala yu bees ak Robotik
 
 ## BULK SUBMISSION
 
+sc-bulk-upload-instruction-drop = Bàyyil fichier bi fii ngir yebbi
+select-file = Tannal benn Fichier
 
 ## SMALL BATCH SUBMISSION
 
