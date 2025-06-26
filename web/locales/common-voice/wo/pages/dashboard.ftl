@@ -22,6 +22,12 @@ show-ranking = Waneel sama rang
 ## Custom Goals
 
 get-started-goals = Tambalil ak ay mébet
+create-custom-goal = Sosal ab mébet
+goal-type = Ban xeetu mébet ngay bëgga tabax?
+both-speak-and-listen = Ñaar yépp
+both-speak-and-listen-long = Ñoom ñaar (Wax ak Déglu)
+daily-goal = Mébetu bis bi
+weekly-goal = Mébet ayu-bis
 easy-difficulty = Yomb na
 goal-interval-weekly = Ci ayu-bis bi
 
