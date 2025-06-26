@@ -12,6 +12,7 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Undo
 tag-success-toast-message = Tags submitted successfully
 tag-error-toast-message = Error submitting tags
+tag-empty-submit-error = No text to submit. Please tag some text first.
 
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Use correct orthography
