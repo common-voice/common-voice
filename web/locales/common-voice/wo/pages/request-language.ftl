@@ -15,3 +15,4 @@ request-language-google-recaptcha-required = reCAPTCHA dafa war soo bëggee romb
 request-language-google-recaptcha-error = Amna ay jafe-jafe ci reCAPTCHA. Jéemaat.
 # Success page
 request-language-success-heading = Jërëjëf! Yonnee nga laajte ci làkk wu bees
+request-language-success-list-1 = War nga jot benn email bu jóge ci ñun di leeral jéego yi nga wara def ngir yokk sa làkk ci Common Voice
