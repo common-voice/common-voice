@@ -1,8 +1,13 @@
 ## WRITE PAGE
 
 write = Bind
+write-instruction = Yokk <icon></icon>waat yu ñépp bokk
+write-page-subtitle = Dina ñu yokk waat yingay dugal ci jumtukaay yi ak licence cc-0 te ñépp mëna ko am.
 sentence =
     .label = Baat
+sentence-input-placeholder = Bindal sa baat domen bu népp bokk fii
+small-batch-sentence-input-placeholder = Bindal sa baat domen bu népp bokk fii
+citation-input-placeholder = Royuwaay fi sa baat bi bawoo (dafa warr)
 sc-review-write-title = Yan waat laa mëna yokk?
 guidelines = Tegtal yi
 contact-us = Jokkook Nun
