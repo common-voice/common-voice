@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Een doel stellen
 cant-decide = Kunt u geen besluit nemen?
+activity-needed-calculation-fixed = 100 mensen die 100 zinnen per dag opnemen kunnen 13 uur aan audio genereren. Als u deze prestatie voortzet, kan er binnen 3 maanden 1000 uur worden bereikt.
 how-many-per-day = Geweldig! Hoeveel fragmenten per dag?
 how-many-a-week = Geweldig! Hoeveel fragmenten per week?
 which-goal-type = Wilt u spreken, luisteren of allebei?
