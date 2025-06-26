@@ -61,6 +61,7 @@ username-email-not-demographic = Sa tur jëfandikukat ak sa email duñu ko boole
 
 ## Landing
 
+welcome-staff = Dalal ak jàmm { $company } ci liggéey bi
 login-company = Duggal / Bindul ak sa { $company } imeel
 read-more-about = Yeneen leeral ci sunu xët wi
 

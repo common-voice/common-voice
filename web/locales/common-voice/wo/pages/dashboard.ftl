@@ -13,6 +13,8 @@ you = Yaw
 everyone = Ñépp
 top-contributors = Jàppalekat yi gën a mag
 recorded-clips = Clips yiñ rënk
+validated-clips = Kàddu yiñ saytu
+total-approved = Liñu nangu
 
 ## Custom Goals
 
