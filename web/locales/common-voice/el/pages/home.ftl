@@ -148,7 +148,7 @@ download-contribution-certificate-content = Κάντε λήψη ενός πισ�
 # label for button
 download-contribution-certificate-action = Λάβετε το πιστοποιητικό σας
 contribute-github = Συνεισφορά στο GitHub
-contribute-github-content = Αυτό το έργο δεν θα ήταν δυνατό χωρίς άτομα σαν εσάς. 🎉 Υπάρχουν πολλοί τρόποι για να συνεισφέρετε στο Common Voice - δεν χρειάζεται να γνωρίζετε προγραμματισμό για να συνεισφέρετε!
+contribute-github-content = Αυτό το έργο δεν θα ήταν δυνατό χωρίς άτομα σαν κι εσάς. 🎉 Υπάρχουν πολλοί τρόποι για να συνεισφέρετε στο Common Voice· δεν χρειάζεται να γνωρίζετε προγραμματισμό για να συνεισφέρετε!
 # label for button
 contribute-github-action = Συνεισφορά στο GitHub
 
@@ -181,11 +181,11 @@ press-and-stories-link = Τύπος και άρθρα
 
 partner-section-title = Συνεργαστείτε μαζί μας
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Εταιρείες τεχνολογίας</bold> - επενδύστε στη δημιουργία ανοικτών συνόλων δεδομένων για ένα ακμάζον, πολύγλωσσο οικοσύστημα τεχνητής νοημοσύνης
+partner-section-subtitle-tech-companies = <bold>Εταιρείες τεχνολογίας:</bold> επενδύστε στη δημιουργία ανοικτών συνόλων δεδομένων για ένα ακμάζον, πολύγλωσσο οικοσύστημα τεχνητής νοημοσύνης
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-civil-society = <bold>Κοινωνία των πολιτών και ερευνητές</bold> - δημιουργήστε, φιλοξενήστε και μοιραστείτε εντυπωσιακά σύνολα δεδομένων δωρεάν
+partner-section-subtitle-civil-society = <bold>Κοινωνία των πολιτών και ερευνητές:</bold> δημιουργήστε, φιλοξενήστε και μοιραστείτε δωρεάν εντυπωσιακά σύνολα δεδομένων
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-philantropy = <bold>Φιλανθρωπία</bold> - γίνετε χορηγός της δημιουργίας του συνόλου δεδομένων για να τροφοδοτήσετε την τοπική καινοτομία και ανάπτυξη
+partner-section-subtitle-philantropy = <bold>Φιλανθρωπία:</bold> γίνετε χορηγός της δημιουργίας του συνόλου δεδομένων για να τροφοδοτήσετε την τοπική καινοτομία και ανάπτυξη
 # icon is an arrow that points to the right
 get-in-touch-button = Επικοινωνία <icon></icon>
 # Partners section

@@ -74,7 +74,7 @@ share-goal-type-speak = Ομιλία
 share-goal-type-listen = Ακρόαση
 share-goal-type-both = Ομιλία και ακρόαση
 # LINK will be replaced with the current URL
-goal-share-text = Δημιούργησα έναν προσωπικό στόχο δωρεάς φωνής στο #CommonVoice - έλα μαζί μου και βοήθησε να διδάξουμε τις μηχανές πώς μιλουν οι πραγματικοί άνθρωποι { $link }
+goal-share-text = Δημιούργησα έναν προσωπικό στόχο δωρεάς φωνής στο #CommonVoice. Ας διδάξουμε μαζί τις μηχανές πώς μιλούν οι πραγματικοί άνθρωποι { $link }
 weekly-goal-created = Ο εβδομαδιαίος στόχος σας έχει δημιουργηθεί
 daily-goal-created = Ο ημερήσιος στόχος σας έχει δημιουργηθεί
 track-progress = Παρακολουθήστε την πρόοδο εδώ και στη σελίδα στατιστικών στοιχείων.
