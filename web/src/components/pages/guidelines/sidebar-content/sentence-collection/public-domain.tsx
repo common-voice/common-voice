@@ -1,9 +1,9 @@
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
-import React from 'react';
-import { ChevronDown } from '../../../../ui/icons';
-import { TextButton } from '../../../../ui/ui';
-import { SidebarContentProps } from '../../types';
+import { Localized } from '@fluent/react'
+import classNames from 'classnames'
+import * as React from 'react'
+import { ChevronDown } from '../../../../ui/icons'
+import { TextButton } from '../../../../ui/ui'
+import { SidebarContentProps } from '../../types'
 
 export const PublicDomain: React.FC<SidebarContentProps> = ({
   id,
@@ -70,5 +70,5 @@ export const PublicDomain: React.FC<SidebarContentProps> = ({
         </div>
       )}
     </div>
-  );
-};
+  )
+}
