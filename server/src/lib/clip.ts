@@ -169,6 +169,7 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
     const sentenceId = headers.sentence_id as string;
+    const corpus = headers.corpus as string;
     const source = headers.source || 'unidentified';
     const format = headers['content-type'];
     const size = headers['content-length'];
@@ -247,6 +248,7 @@ export default class Clip {
         const durationInSec = await calcMp3Duration(buffer);
 
         console.log(`clip written to OCI ${metadata}`);
+        console.log('corpus passed to saveClip : ' + corpus);
         await this.model.saveClip({
           client_id: client_id,
           localeId: sentence.locale_id,
@@ -254,7 +256,7 @@ export default class Clip {
           path: encodeURIComponent(clipFileName),
           sentence: sentence.text,
           duration: durationInSec * 1000,
-          corpus_id: sentence.corpusId,
+          corpus_id: corpus || null, // corpus can be null
         });
         await Awards.checkProgress(client_id, { id: sentence.locale_id }, sentence.corpus_id);
 
