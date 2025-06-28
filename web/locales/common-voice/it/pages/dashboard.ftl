@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Imposta un obiettivo
 cant-decide = Sei indeciso?
+activity-needed-calculation-fixed = 100 persone che registrano 100 frasi al giorno possono generare 13 ore di audio. Mantenendo questo ritmo, è possibile raggiungere 1000 ore in meno di 3 mesi.
 how-many-per-day = Ottimo! Quante registrazioni al giorno?
 how-many-a-week = Ottimo! Quante registrazioni a settimana?
 which-goal-type = Vuoi registrare, convalidare o entrambi?
