@@ -1,13 +1,13 @@
 ## Prompts page
 
 record-player-header = ქინიჭარით თქვანი გამა
-mic-access-error = მიკროფონიშ გუმორინაფაშ ნება ქიმეჩით.
+mic-access-error = მიკროფონიში გუმორინაფაში ნება ქიმეჩით.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> დო ქუგამით მუთ შილებენი ორთაშურო
 # Message which appears when there are no more resources on this page
-no-prompts-continue-skipped-message = აწი თე ნინაშოთ ოკითხირეფი ვარე. ნამთინ გიშატებულ ქუგაფუნა-და, შეილებუნა კინ დართათჷნი ვარდა ქიდიჭყათ ხონარიშ ნაჭარათ მოჩამა დო უკული კინ ქოცადათჷნი.
-error-skipping = თე მოთხუალაშ გიშატებაშ დროს ჩილათაქ იჸუ
-error-recording = ჩილათაქ იჸუ ინოჭარუაშ დროს
+no-prompts-continue-skipped-message = აწი თე ნინაშოთ ოკითხირეფი ვარე. ნამთინი გიშატებული ქუგაფუნა-და, შეილებუნა დართათჷნი ვარდა ქიდიჭყათ ხონარიში ნაჭარათ მოჩამა დო უკული კინ ქოცადათჷნი.
+error-skipping = თე მოთხუალაში გიშატებაში დროს ჩილათაქ იჸუ
+error-recording = ჩილათაქ იჸუ ინოჭარუაში დროს
 error-fetching-prompts = მოთხუალაშ მიღებაშ დროს ჩილათაქ იჸუ. ქორთხინთ, ქოცადათ კინოხ.
 error-uploading-response = ჩილათაქ იჸუ თქვანი გამაში ეტვირთუაშ დროს
 prompt-submitted-success = გამაქ ხეუნჩალუო ქიჯღონინ
