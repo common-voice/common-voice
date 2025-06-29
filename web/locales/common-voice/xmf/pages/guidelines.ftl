@@ -97,6 +97,7 @@ what-makes-a-good-question-explanation-criteria-1 = ანდვილო გა
 what-makes-a-good-question-explanation-criteria-2 = უმოსო ოირქიანე
 what-makes-a-good-question-explanation-criteria-3 = ვეგმირინუათ დო ვემითხუათ მონე დო ოლანძღარი ზიტყვეფი
 easy-to-understand = ანდვილო გასაგები
+easy-to-understand-explanation = გაიშაგორით ანდვილი ოკითხირეეფი, ნამუთ არძაშო გასაგები იჸუაფუ კულტურაში დო კონტექსტიში უმკუჯინუო.
 spelling-and-pronunciation = წორას ჭარუა დო სასვენ ლიშანეფი
 spelling-and-pronunciation-explanation = გიმირინეთ თინჭარუა დო გრამატიკა.
 length = სიგინძა
