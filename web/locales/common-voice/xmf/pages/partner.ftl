@@ -7,6 +7,7 @@ partnerships-community-header = ართობა, შემოქმედე�
 partnerships-foundations-header = ფონდეფი
 partnerships-governments-header = ხეშულობეფი
 partnerships-corporates-header = შხუ კორპორაციეფი დო პლატფორმულ კომპანიეფი
+partnerships-corporates-description = ზალამი ქოიღუნა, უმოსი იჩიათ მუნაჩემეფიში კათელიში გურშენი ვარდა თქვანი წილი გემშიღათ პლატფორმაში გოფართინაფაშა, ვარდა გორუნთ ალმახანდეობაში შხვა შარეფს-და, <emailFragment> ქუმობჭარით. </emailFragment>
 partnerships-our-partners = ჩქინ მალათირეეფი
 # menu item
 partners = მალათირეეფი
