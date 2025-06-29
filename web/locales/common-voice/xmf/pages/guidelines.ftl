@@ -73,7 +73,10 @@ adding-sentences-subheader-speakable = ჩიება
 adding-sentences-subheader-speakable-explanation = არძაში უჯგუში ზიტყვასქვილი ორთაშურო ნარაგადა რე - თინეფი ანდვილო ოკითხირალი ოკო რდას, თიში უმკუჯინუო, ნამდა ფონეტიკური დო ზიტყვეფიში შხვადოშხვანერობა შანულამიე. ჩქი ვოცადუთ, ნამდა მოხალისეეფიშოთ ზიტყვასქვილეფიშ ინოჭარუა სახალისო რდასჷნი.
 adding-sentences-subheader-numbers = რიცხვეფი
 adding-sentences-subheader-abbreviations = აბრევიატურეფი დო აკრონიმეფი
+adding-sentences-subheader-abbreviations-explanation = აბრევიატურა დო აკრონიმეფს "აშშ" ვარდა "იკე", დუს ავარიდანთჷ-და, ჯგირი იჸუაფუ, შილებე თენა უწოროთ წეკითხანინი. თეში გარდა, კანკალე აბრევიატურა შხვადოშხვანერო ხოლო იკითხირუაფუ.
 adding-sentences-subheader-punctuation = პუნქტუაცია
+adding-sentences-subheader-punctuation-explanation = სპეციალური სიმბოლოეფი აუცილებელიში გარდა, ვარდას ოკო ტექსტის. მაგალთო, დეფისი, საჭირო რე “რაჭა-ლეჩხუმქ“ ათაში დიჭარასჷნი დო შილებე ქუმოხვადას ტექსტისჷნი, მარა ათეჯგურა ურცხო სიმბოლოეფქ “@" ვარდა "#” მითინს ვედესაჭირებუ.
+adding-sentences-subheader-special-characters = საგანგიო ნიშნეფი დო ურცხო ასოეფი
 adding-sentences-subheader-offensive-content = ოლანძღარი შინაარსი
 reviewing-sentences-explanation-4 = ომოწმებელ ზიტყვასქვილეფქ დელიუდა, გორთხინთ, ქიდმეხვარათ ახალიშ გორუას დო კორობუასჷნი.
 
