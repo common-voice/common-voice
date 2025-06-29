@@ -44,6 +44,11 @@ help-reach-hours-pluralized =
         [one] ქიდმეხვარით ქიმუონჭირინუათ { $hours } საათის { $language } ნინაშო პირადი ღანკიშ დასახებათ
        *[other] ქიდმეხვარით ქიმუონჭირინუათ { $hours } საათის { $language } ნინაშო პირადი ღანკიშ დასახებათ
     }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] ქიმმეხვარით Common Voice-ის ქიმუონჭირინუათ { $hours } საათის ნინაშოთ, ნამუსუთ პირადი ღანკი უღუ.
+       *[other] ქიმმეხვარით Common Voice-ის ქიმუონჭირინუათ { $hours } საათის ნინაშოთ, ნამუსუთ პირადი ღანკი უღუ.
+    }
 set-a-goal = ღანკიშ მეწურაფა
 cant-decide = ვენგაჭყვიდესო?
 how-many-per-day = გვალო ჯგირი! მუზმა ინნაჭარა ართ დღას?
