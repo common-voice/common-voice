@@ -146,3 +146,9 @@ press-and-stories-link = პრესა დო ამბეფი
 
 ## Partner section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> ქველმოქმედება </bold> - დაფინანსით მუნაჩემეფიში კათელეფი ადგილობრივი ინოვაციეფიში გაფალარო.
+# icon is an arrow that points to the right
+get-in-touch-button = ქიდმეკავშირით <icon></icon>
+# Partners section
+our-partners-include = ჩქინი მალათირეეფი რენა...
