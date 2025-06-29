@@ -50,6 +50,7 @@ profile-close = კილუა
 profile-explanation = თოლი ქუჸუნეთ თქვან წიმე ულას პროფილიშ აკოქიმინუათ დო ქიდმეხვარით ხონარუან მუნაჩემეფქ უმოს გოთინილქ ქიჸუასჷნი.
 thanks-for-account = მარდი თქვან ანგარიშიშ დადასურებაშენი, ასე ქიდიპჭყათ თქვან პროფილიშ აკოქიმინუა.
 why-demographic = მუშენ რე თენა საჭირო?
+accept-privacy = თანახმა ვორექ, ნამდა ჩქიმ მუნაჩემეფს Mozilla დამუშენს <privacyLink> კონფიდენციალურობაში დებულებაში შესაბამისო </privacyLink>
 accept-privacy-title = კონფიდენციალურობაშ პოლიტიკა
 accept-privacy-and-terms = ვოთანხმუქ Common Voice-იშ <termsLink> პირობეფს </termsLink> დო <privacyLink> პირადი მუნაჩემეფიშ თხილუაშ განაცხადის </privacyLink>
 login-identity = მიშულაშ იდენტიფიკაცია
