@@ -82,7 +82,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Συλλογή π
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Παρακολουθήστε τον οδηγό μας σχετικά με τη χρήση του Sentence Collector</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Μπορείτε να <sentenceCollectorLinkAdd>προσθέσετε μικρούς αριθμούς προτάσεων</sentenceCollectorLinkAdd>
-    ή μπορείτε να κάνετε <bulkImportDocsLink>μαζικές εισαγωγές μέσω του Github</bulkImportDocsLink>.
+    ή μπορείτε να κάνετε <bulkImportDocsLink>μαζικές εισαγωγές μέσω του GitHub</bulkImportDocsLink>.
     Θυμηθείτε ότι οι προτάσεις πρέπει να είναι <licenseLink>CC0 (ή δημόσιου τομέα)</licenseLink> ή μπορείτε να γράψετε τις δικές σας.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Δείτε περισσότερα για τη συλλογή προτάσεων</sentenceCollectorFragment>.
 

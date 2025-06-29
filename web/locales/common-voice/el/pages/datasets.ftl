@@ -46,7 +46,7 @@ feedback-q = Έχετε σχόλια;
 # This indicates that there is no data to display
 no-information = Καμία πληροφορία
 resource-nemo-info = Το <githubLink>NVIDIA NeMo</githubLink>™ είναι ένα <docsLink>κιτ εργαλείων ανοικτού κώδικα</docsLink> για ερευνητές που αναπτύσσουν υπερσύγχρονα μοντέλα ΤΝ συζήτησης.
-resource-deepspeech-info = Το Deep Speech, η ανοικτού κώδικα μηχανή αναγνώρισης φωνής της Mozilla, μπορεί να χρησιμοποιηθεί για την ανάπτυξη εφαρμογών αναγνώρισης ομιλίας. Διαβάστε την <githubLink>επισκόπησή μας στο Github</githubLink> ή γίνετε μέλος στο <discourseLink>Discourse του DeepSpeech</discourseLink> για να μάθετε πώς να ξεκινήσετε.
+resource-deepspeech-info = Το Deep Speech, η ανοικτού κώδικα μηχανή αναγνώρισης φωνής της Mozilla, μπορεί να χρησιμοποιηθεί για την ανάπτυξη εφαρμογών αναγνώρισης ομιλίας. Διαβάστε την <githubLink>επισκόπησή μας στο GitHub</githubLink> ή γίνετε μέλος στο <discourseLink>Discourse του DeepSpeech</discourseLink> για να μάθετε πώς να ξεκινήσετε.
 resource-coqui-info = Το <coquiLink>Coqui</coquiLink> είναι αφοσιωμένο στην ανοικτή τεχνολογία ομιλίας. Τα έργα τους περιλαμβάνουν βαθιά εκμάθηση σε μηχανές STT και TTS.
 community-playbook = Βιβλίο κανόνων κοινότητας
 resource-playbook-info = <playbookLink>Βρείτε χρήσιμες οδηγίες</playbookLink> για όλη την πορεία του Common Voice, από τη μετάφραση μέχρι τη χρήση συνόλων δεδομένων, καθώς και τη σύνδεση με την κοινότητά μας.
