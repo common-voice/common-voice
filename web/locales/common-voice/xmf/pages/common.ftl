@@ -130,7 +130,9 @@ return-to-cv = დართით Common Voice-ის
 email-input =
     .label = ელფოსტა
 loading = გინმიჭარუ…
+email-opt-in-info = ჩქიმი ელფოსტაშა მოკო მიბღენი ღანკეფიში გოშინა, ჩქიმი პროგრესიში გაახალება დო საინფორმაციო ბიულეტენეფი Common Voice-იშ გურშენი.
 email-opt-in-info-title = ქაკათით Common Voice-იშ ელფოსტაში ბუნას
+email-opt-in-info-sub-with-challenge = ელფოსტაშა თქვა მიღენთ ღანკეფიში გასაშინეს, პროგრესიში გაახალებას დო საინფორმაციო ბიულეტენეფს Common Voice-იშ გურშენი.
 indicates-required = (*) შანულენს აუცილებელ ველს
 not-available-abbreviation = ხემიოჭირინაფალი ვარე
 
