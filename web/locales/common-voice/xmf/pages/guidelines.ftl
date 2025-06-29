@@ -77,8 +77,13 @@ adding-sentences-subheader-abbreviations-explanation = აბრევიატ�
 adding-sentences-subheader-punctuation = პუნქტუაცია
 adding-sentences-subheader-punctuation-explanation = სპეციალური სიმბოლოეფი აუცილებელიში გარდა, ვარდას ოკო ტექსტის. მაგალთო, დეფისი, საჭირო რე “რაჭა-ლეჩხუმქ“ ათაში დიჭარასჷნი დო შილებე ქუმოხვადას ტექსტისჷნი, მარა ათეჯგურა ურცხო სიმბოლოეფქ “@" ვარდა "#” მითინს ვედესაჭირებუ.
 adding-sentences-subheader-special-characters = საგანგიო ნიშნეფი დო ურცხო ასოეფი
+adding-sentences-subheader-special-characters-explanation-1 = ხვალე თი ასონიშანეფი რე მისაღები, ნამუთ თე ნინას რენი. მაგალთო, „Ω“ ბერძნულ ანბანშე რე დო მარგალურს თენას ვახვარენა. ათეშენი თე ასო დღას ვამოხვადუ მარგალური ტექსტის.
 adding-sentences-subheader-offensive-content = ოლანძღარი შინაარსი
+reviewing-sentences-explanation-1 = ზიტყვასქვილი ქაყმაყოფილენს პირობენს-და, ქიგუკაკეთ "ქო"
+reviewing-sentences-explanation-2 = ზიტყვასქვილი ქაყმაყოფილენს პირობენს-და, ქიგუკაკეთ "ვარ".
+reviewing-sentences-explanation-3 = ქუგოეჭუნა თე ზიტყვასქვილი-და, შეილებუნა გაგშეტუათ დო გინილათ უკულიანიშა.
 reviewing-sentences-explanation-4 = ომოწმებელ ზიტყვასქვილეფქ დელიუდა, გორთხინთ, ქიდმეხვარათ ახალიშ გორუას დო კორობუასჷნი.
+domain-explanation = დომენი ზიტყვასქვილიში საგანს ოხუ. შეილებუნა გიშაგორათ:
 
 ## Question collection ids
 
@@ -89,6 +94,7 @@ adding-questions = ოკითხირეეფიშ გეძინა
 what-makes-a-good-question-subheader = მუჭომი ოკო რდას ჯგირი ოკითხირე?
 what-makes-a-good-question-explanation = ჯგირი ოკითხირე ოჯარე კათელიშო ოკო რდას:
 what-makes-a-good-question-explanation-criteria-1 = ანდვილო გაგებელი დო ოგამალი
+what-makes-a-good-question-explanation-criteria-2 = უმოსო ოირქიანე
 what-makes-a-good-question-explanation-criteria-3 = ვეგმირინუათ დო ვემითხუათ მონე დო ოლანძღარი ზიტყვეფი
 easy-to-understand = ანდვილო გასაგები
 spelling-and-pronunciation = წორას ჭარუა დო სასვენ ლიშანეფი
