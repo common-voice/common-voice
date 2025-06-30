@@ -7,6 +7,7 @@ download-dataset-header = Yebbi jumtukaay yi
 download-dataset-tag = Tannal làkk wi nga bëgg, nga tànn jumtukaay bi nga bëgga yebbi.
 # File size in gigabytes
 size = Dayo
+validated-hr-total = Lèpp liñ validé ci Hr.
 number-of-voices = Limu kàddu yi
 email-to-download = Dugalal sa email ngi yebbi
 size-gigabyte = Go

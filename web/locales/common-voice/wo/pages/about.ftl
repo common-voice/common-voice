@@ -94,11 +94,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = naka la lokalisasioŋ xët wi di doxee?
 about-playbook-how-localize-content-1 = Tekki xëtu Common Voice bi ñoo ngi koy defe ci <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Sosal kontu</pontoonAccountLink>sudee amoo kontu. Ginaaw loolu nga tànn sa làkk<strong> (‘Kureel’)</strong> ba noppi nga tànn projet bi, <pontoonCvLink>Common Voice</pontoonCvLink>. Dina am ay dosie yuñ wara tekki. Bësal ci benn, dinga giss ay waat ci Àngle ak barab bu ñu koy tekké.
+about-playbook-how-localize-content-4 = Sit bi mën nañu ko tàmbali suñu defee 75% ci liggéey bi.
 about-playbook-how-localize-content-5 = Seetanal sunu wideo leeral ngir jàppale
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Naka lay def ba yokk waat yi?
+about-playbook-how-add-sentences-content-1 = Mën nga yokk ay tegtal ci <writePageLink>Xëtu bind</writePageLink> wala nga xoolaat ay tegtal ci <reviewPageLink>Jàngat xët</reviewPageLink>.
 
 ## How to record quality
 
@@ -117,6 +119,8 @@ about-playbook-how-grow-language-content-6 = Partenariat ak reso
 ## How to validate
 
 about-playbook-how-validate = naka may xamee ni dama wara nangu kàddu bi?
+about-playbook-how-validate-content-1 = Sudee mën nga leen <strong>déglu ba noppi </strong> <strong> xam limuy wax </strong>, laata ngay nangu.
+about-playbook-how-validate-content-2 = <strong>Bul bañ kàddu ndax rekk waxiin bi dafa wuute ak sa boss</strong> - loolu lu am solo la ngir xàmmee baat gëna baax ci ku nekk.
 about-playbook-how-validate-content-4 = Su 2 nit bañee benn kàddu, dañu koy génne ci beneen subset ci jumtukaay yi.
 
 ## How to access dataset
