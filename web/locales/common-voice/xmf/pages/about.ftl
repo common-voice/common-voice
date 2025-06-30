@@ -125,7 +125,7 @@ about-playbook-how-access-dataset-content-2 = ქოგორჷნთ ხეჭ
 
 about-playbook-how-project-governance = მი იღენს გინოჭყვიდუეფს თე პროექტის?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice ბრელი შხვადოშხვა კათაქ აკოქიმინჷ, თენეფი რდეს აქტივისტეფი, ენათმეცნიერეფი, მუნაჩემეფიში სპეციალისტეფი, ინჟინერ-პროგრამისტეფი თელი მსოფლიოშე. პროექტიში ხემანჯღვერე რე Mozilla Foundation.
-about-playbook-how-project-governance-content-2 = ჩქინი მმართველობა გჷთმიაპონუ:
+about-playbook-how-project-governance-content-2 = ჩქინი გამაგეობა გჷთმიაპონუ:
 about-playbook-how-project-governance-content-3 = კონფიდენციალურობა, უსაფრთხოება დო გამჭვირვალობა.
 about-playbook-how-project-governance-content-4 = კათაშ ხოლაფა გინოჭყვადუეფიშ მეღებაშ დროს.
 about-playbook-how-project-governance-content-5 = დაფასება დო აღიარება.
