@@ -69,6 +69,9 @@ try-upload-again-md = Jéemal yebbiwaat
 select-file = Tannal benn Fichier
 select-file-mobile = Tannal téere bi nga bëgga yebbi
 accepted-files = Xeetu fichier yiñ nangu: .tsv kese
+minimum-sentences = Lumu ndaw ndaw dosiye bi warna am : 1000
+maximum-file-size = Dayo fichier bi gëna mag: 25 MB
+what-needs-to-be-in-file = Lu wara nekk ci sama dosiye?
 
 ## SMALL BATCH SUBMISSION
 
