@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Estabelecer un obxectivo
 cant-decide = Non se decide?
+activity-needed-calculation-fixed = Se 100 persoas gravan 100 frases ao día, xéranse 13 horas de audio. Mantendo ese ritmo, pódense acadar 1000 horas en menos de 3 meses.
 how-many-per-day = Xenial! Cantos fragmentos por día?
 how-many-a-week = Xenial! Cantos fragmentos por semana?
 which-goal-type = Quere falar, escoitar ou ambos?
