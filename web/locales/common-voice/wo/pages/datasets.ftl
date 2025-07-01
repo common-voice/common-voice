@@ -22,8 +22,13 @@ recorded-hours = Waxtu yiñ rënk
 whats-inside = Lan moo nekk ci biir jumtukaay yu Common Voice?
 want-dataset-update = Bëgg nga joot sunuy xibaar yu jël ci jumtukaay yu yees yu Common Voice? Aboneel ci sunu bataxal.
 subscribe = Takkoo
+get-started-speech = Tambalil ci xàmmee kàddu
+other-datasets = Yeneen jumtukaay yu kàddu
+feedback-q = Am nga ay xalaat?
 # This indicates that there is no data to display
 no-information = Amul xibaar
+data-other-librispeech-description = LibriSpeech corpus la bu tollu ci 1000 waxtu ci 16Khz yuñ wax ci Àngle bu juge ci téere audio yuñ jàng ci projet LibriVox.
+data-other-ted-name = TED-LIUM Corpus
 go-discourse = Dem ci Discourse
 go-languages-page = Dem ci xëtu làkk yi
 more = Gën bari
