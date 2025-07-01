@@ -60,6 +60,8 @@ read-sentences-coming-soon = Ɣeṛ tifyar <small>(Sya ɣer sdat)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Ɣeṛ tifyar, err-d ɣef yisteqsiyen
+read-sentences-menu-item-tooltip = Sekles iman-k⋅im mi ara d-teqqareḍ tifyar deg tutlayt-ik⋅im
 
 ## MENU ITEM ARIA LABELS
 
