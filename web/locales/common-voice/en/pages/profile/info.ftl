@@ -61,6 +61,8 @@ login = Log In
 edit = Edit
 email-subscriptions = Email Subscriptions
 download-profile = Download My Data
+api-credentials = API
+api-credentials-keys = Keys
 contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
 skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
@@ -79,3 +81,24 @@ variant-contribution-option-1 = Show me sentences and clips from all variants wi
 variant-contribution-option-2 = Only show me sentences and clips from my variant
 variant-contribution-warning-title = ⓘ Not all sentences and clips have Variant tags yet!
 variant-contribution-warning-subtitle = If you’re having trouble contributing, you can switch back to seeing all content for your language at any time.
+api-credentials-description = Common Voice's API allows developers to access a rich dataset of voice recordings contributed by users around the world.
+    By integrating this API, you can enhance your applications with high-quality speech recognition capabilities. The API provides endpoints for submitting audio samples, retrieving datasets, and accessing various tools to analyze and improve speech models.
+    This collaborative platform not only helps in building more accurate voice recognition systems but also empowers users to contribute to the evolution of voice technology.
+create-api-key-button = Create API Key
+your-api-keys = Your API Keys
+no-api-keys-header = <bold>Currently, there are no API keys associated with your account.</bold>
+no-api-keys-description = To create your first API key, click "Create API Key,” then name
+    your API Key and generate a unique API Key by clicking “Generate
+    API Key.” Then, copy the key immediately, as it will only be
+    displayed once.
+api-key-name-input =
+    .label = API Key Name
+create-api-key-header = <bold>Important Notice: API Key Generation</bold>
+create-api-key-description = When you click the "Generate API Key" button, a unique API key will be created for your account. 
+    Please note that for security reasons, this API key will only be displayed once. Make sure to copy and store it in a safe place immediately after generation.
+    If you lose this key, you will need to generate a new one, as it will not be retrievable later.
+generate-api-key-button = Generate API Key
+public-api-key =
+    ,label = Public API Key
+secret-api-key =
+    .label = Secret API Key
