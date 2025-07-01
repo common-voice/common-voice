@@ -94,6 +94,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = naka la lokalisasioŋ xët wi di doxee?
 about-playbook-how-localize-content-1 = Tekki xëtu Common Voice bi ñoo ngi koy defe ci <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Sosal kontu</pontoonAccountLink>sudee amoo kontu. Ginaaw loolu nga tànn sa làkk<strong> (‘Kureel’)</strong> ba noppi nga tànn projet bi, <pontoonCvLink>Common Voice</pontoonCvLink>. Dina am ay dosie yuñ wara tekki. Bësal ci benn, dinga giss ay waat ci Àngle ak barab bu ñu koy tekké.
+about-playbook-how-localize-content-3 = Tekki bi ci Àngle la jóge, waaye man ngaa gis <strong>Digal</strong> yi ci yeneen làkk yi. Bësal ikonu <strong>Profiil</strong> bi, ba pare lëkkale <strong>Jekkal</strong> yi te nga yokk bépp làkk booy làkk. Ci koñu ndeyjoor bi ci suuf, dina am limu làkk yuñ tekki yu tuddu <strong>Barab yi</strong>. Tekki làkk yi dina ñu feeñ ci xët wi ginaaw benn fan.
 about-playbook-how-localize-content-4 = Sit bi mën nañu ko tàmbali suñu defee 75% ci liggéey bi.
 about-playbook-how-localize-content-5 = Seetanal sunu wideo leeral ngir jàppale
 
@@ -104,6 +105,7 @@ about-playbook-how-add-sentences-content-1 = Mën nga yokk ay tegtal ci <writePa
 
 ## How to record quality
 
+about-playbook-how-record-quality = naka lay enregistre kàddu bu baax?
 about-playbook-how-record-content-1 = Wax ak sa baat ! Noo ngi lay sant ci ni ngay waxee - danu bëgg sa aksan ci nimu mel, te danu bëgg sa volume, sa stil ak sa intonasioŋ ni ngay faral di defee.
 about-playbook-how-record-content-2 = Moytul coow bu bari ci ginaaw - dafa wara yomb ñu dégg la.
 
