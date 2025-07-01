@@ -102,6 +102,7 @@ about-playbook-how-localize-content-5 = Seetanal sunu wideo leeral ngir jàppale
 
 about-playbook-how-add-sentences = Naka lay def ba yokk waat yi?
 about-playbook-how-add-sentences-content-1 = Mën nga yokk ay tegtal ci <writePageLink>Xëtu bind</writePageLink> wala nga xoolaat ay tegtal ci <reviewPageLink>Jàngat xët</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Ñaari nit ñoo wara jàngat waat yi ba noppi nangu leen ngir ñu boole leen ci Common Voice. Yaa ngi sos ay tegtal ngir sa làkk <languageGuidelinesLink>fii</languageGuidelinesLink>. Waat yi dañu wara nekk ci <licenseLink>domen publik</licenseLink> te gëna gàtt 15 araf. Mën nga ñaan boroom ab mbind mu def ko <waiverLink>CC0 ci sunu doxalinu baale</waiverLink>, te yónnee nu ko ci commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Mën nga jëfandikoo <scraperLink>Séegkay waat yi</scraperLink> ngir mbind yu gàtt yi ci Wikipedia.
 
 ## How to record quality
@@ -122,6 +123,8 @@ about-playbook-how-grow-language-content-3 = Mën nga amal ay xew-xew ngir xiir 
 about-playbook-how-grow-language-content-4 = Reso sosio yi
 about-playbook-how-grow-language-content-5 = Mën nga jëfandikoo platform reso sosio ngir tassare mesaas bi. Séddoo ay mbind yuy leeral li tax mu am solo, nga jokkool ak ñeneen ñuy wax ci mbir yu melni yelleefi làkk, xarala IA yi, wala ci xarala yu bees yi. Xool yeneen xelal ci <campaignLink>doxal ab kàmpaañu mbooloo, boole ci ëmbiit yi nga mën a jëfandikoowaat</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partenariat ak reso
+about-playbook-how-grow-language-content-7 = Wutal ñeneen ñu la bëgg jàppale ci liigéey bi. Mën na nekk daara yu kawe yi, daara yi di jàngale lakk yi, kuréel yuy xeex wala askanu siyaas ci done yi. Jokkoo ak ñoom leeral leen bu baax ni ñu mëna jàppale ak luko waral. <outreachTemplates>Xool sunu modèlu imeel yiy yegg ci nit ñi</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Sosal lu bees!</strong> Sa làkk dina wuute ak yeneen yi, lii yenn mbir la yoo mëna tàmbalee.
 
 ## How to validate
 
