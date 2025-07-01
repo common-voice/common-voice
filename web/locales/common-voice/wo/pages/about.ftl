@@ -102,12 +102,14 @@ about-playbook-how-localize-content-5 = Seetanal sunu wideo leeral ngir jàppale
 
 about-playbook-how-add-sentences = Naka lay def ba yokk waat yi?
 about-playbook-how-add-sentences-content-1 = Mën nga yokk ay tegtal ci <writePageLink>Xëtu bind</writePageLink> wala nga xoolaat ay tegtal ci <reviewPageLink>Jàngat xët</reviewPageLink>.
+about-playbook-how-add-sentences-content-3 = Mën nga jëfandikoo <scraperLink>Séegkay waat yi</scraperLink> ngir mbind yu gàtt yi ci Wikipedia.
 
 ## How to record quality
 
 about-playbook-how-record-quality = naka lay enregistre kàddu bu baax?
 about-playbook-how-record-content-1 = Wax ak sa baat ! Noo ngi lay sant ci ni ngay waxee - danu bëgg sa aksan ci nimu mel, te danu bëgg sa volume, sa stil ak sa intonasioŋ ni ngay faral di defee.
 about-playbook-how-record-content-2 = Moytul coow bu bari ci ginaaw - dafa wara yomb ñu dégg la.
+about-playbook-how-record-content-3 = Liiral waat yi bu baax - bul fàtte, soppi wala yokk araf.
 
 ## How to grow language
 
