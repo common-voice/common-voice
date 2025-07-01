@@ -39,6 +39,8 @@ review-delete-recordings = Kkes ikalasen-iw
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tanemmirt imi i d-tmuddeḍ ibruyen seg taɣect-ik⋅im!
 why-donate = Ayɣer i testeqsaḍ?
 add-information-button = Rnu talɣut
 continue-speaking-button = Uhu, tanemmirt. Kemmel ameslay
