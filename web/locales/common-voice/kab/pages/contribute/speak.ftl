@@ -49,9 +49,14 @@ first-cta-gender-select-help-text =
     .label = Amek ara d-tgelmeḍ tuzzuft-ik neɣ tawsit-ik?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tanemmirt ɣef umuddu n taɣect-ik!
+already-have-an-account = Ɣur-k⋅m yakan amiḍan? <login>Qqen</login>
 create-profile-button = Rnu amaɣnu
 # IMAGE TAGS
 img-alt-success-checkmark = aṛcam n rrbaḥ
+# menu item
+read-sentences = Ɣeṛ tifyar
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Ɣeṛ tifyar <small>(Sya ɣer sdat)</small>
 
 ## MENU ITEM TOOLTIPS
 
