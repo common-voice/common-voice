@@ -4,6 +4,7 @@ tag-page-instruction = Highlight <icon></icon> the text to begin
 tag-terms-checkbox = I agree to Common Voice Terms and Privacy.
 tag-popover-title = Select a tag
 select-a-tag = Select a tag
+edit-tag = Edit tag
 
 # Shortcuts modal
 tag-page-shortcut-tag-english = 1
