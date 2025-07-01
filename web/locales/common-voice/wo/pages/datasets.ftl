@@ -12,9 +12,15 @@ number-of-voices = Limu kàddu yi
 splits = Xaaj
 email-to-download = Dugalal sa email ngi yebbi
 why-email = <b>Lu waral email?</b> Xéy-na danuy soxla jokkoo ak yaw ëllëg ci lu jëm ci coppite yi am ci dajale jumtukaay yi, email moo nuy may ñu mën jokkoo.
+confirm-size = Yaa ngi bëgg a tàmbali yebbi <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = MB
+confirm-join-mailing-list = Bëgg nga bokk ci limu bataaxal Common Voice
 download-language = Yebbi { $language }
+validated-hours = Waxtu yiñ nangu
+recorded-hours = Waxtu yiñ rënk
+whats-inside = Lan moo nekk ci biir jumtukaay yu Common Voice?
+want-dataset-update = Bëgg nga joot sunuy xibaar yu jël ci jumtukaay yu yees yu Common Voice? Aboneel ci sunu bataxal.
 subscribe = Takkoo
 # This indicates that there is no data to display
 no-information = Amul xibaar
