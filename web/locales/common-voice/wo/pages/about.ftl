@@ -110,12 +110,15 @@ about-playbook-how-record-quality = naka lay enregistre kàddu bu baax?
 about-playbook-how-record-content-1 = Wax ak sa baat ! Noo ngi lay sant ci ni ngay waxee - danu bëgg sa aksan ci nimu mel, te danu bëgg sa volume, sa stil ak sa intonasioŋ ni ngay faral di defee.
 about-playbook-how-record-content-2 = Moytul coow bu bari ci ginaaw - dafa wara yomb ñu dégg la.
 about-playbook-how-record-content-3 = Liiral waat yi bu baax - bul fàtte, soppi wala yokk araf.
+about-playbook-how-record-content-4 = Fexeel platform bi di enregistre laata ngay tàmbali wax, te nga taxawal ko boo waxee ba noppi.
+about-playbook-how-record-content-5 = <accuracyLink>Xoolal leneen ci sàrti dëggu.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Naka lañu mëne sukali làkk ci Common Voice?
 about-playbook-how-grow-language-content-1 = Sosal nit ñu bari ñu mëna jàppale ci Common Voice dafay tax done yi di jàppale nit ñu bari. Defar nanu ay jumtukaay ak ay template yoo mëna jëfandikoo!
 about-playbook-how-grow-language-content-2 = Xew-xew yi
+about-playbook-how-grow-language-content-3 = Mën nga amal ay xew-xew ngir xiir nit ñi ñu jàpp ci liiggéey bi. Aka yomb sax. Mën ngako def ci net bi ak jumtukaayu videoconference, wala sa ci bërëp boo nekk sudee wóor na. <eventTemplate>Xool sunuy modèle ak jumtukaayi doxal xew-xew yi</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Reso sosio yi
 about-playbook-how-grow-language-content-5 = Mën nga jëfandikoo platform reso sosio ngir tassare mesaas bi. Séddoo ay mbind yuy leeral li tax mu am solo, nga jokkool ak ñeneen ñuy wax ci mbir yu melni yelleefi làkk, xarala IA yi, wala ci xarala yu bees yi. Xool yeneen xelal ci <campaignLink>doxal ab kàmpaañu mbooloo, boole ci ëmbiit yi nga mën a jëfandikoowaat</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partenariat ak reso
