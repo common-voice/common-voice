@@ -98,27 +98,27 @@ about-playbook-how-record-content-5 = <accuracyLink> ქოძირით უ�
 ## How to grow language
 
 about-playbook-how-grow-language = მუჭო შეუნწყუათ ხე ნინაში რდუალას Common Voice-ის?
-about-playbook-how-grow-language-content-1 = Common Voice-ის შხვადოშხვა კათაში მაჭანაფალო დო წილიშ მიშაღალარო ოსქვებური პირობეფიშ აკოქიმინუა, თის შანულენს ნამდა მუნაჩემეფიშ კათელი ბრელ კოჩის იჸუაფუ მერგებული. ჩქი გუახაზირით რესურსეფი დო შაბლონეფი, ნამუში გუმორინაფა შეილებუნანი!
+about-playbook-how-grow-language-content-1 = Common Voice-ის შხვადოშხვა კათაში მაჭანაფალო დო წილიში მიშაღალარო ოსქვებური პირობეფიში აკოქიმინუა, თის შანულენს ნამდა მუნაჩემეფიში კათელი ბრელ კოჩის იჸუაფუ მერგებული. ჩქი გუახაზირით რესურსეფი დო შაბლონეფი, ნამუში გუმორინაფა შეილებუნანი!
 about-playbook-how-grow-language-content-2 = ღონისძიებეფი
-about-playbook-how-grow-language-content-3 = შეილებუნა ღონისძიებეფი აკანწყუათ მეტი მოხალისეში აკაშაყარალო. ფირქენქჷნი, თიშ უმოს ანდვილ რე. ინტერნეტით, კონფერენციეფიშ მანწყუალ პროგრამეფით, პირადო კათაშ ძირაფათ. <eventTemplate> ქოძირით ჩქინ ნამუშერეფი დო მარგებელ მასალეფი ღონისძიებეფიშ გურშენი </eventTemplate>.
+about-playbook-how-grow-language-content-3 = შეილებუნა ღონისძიებეფი აკანწყუათ მეტი მოხალისეში აკაშაყარალო. ფირქენქჷნი, თიშ უმოს ანდვილ რე. ინტერნეტით, კონფერენციეფიში მანწყუალი პროგრამეფით, პირადო კათაში ძირაფათ. <eventTemplate> ქოძირით ჩქინი ნამუშერეფი დო მარგებელი მასალეფი ღონისძიებეფიში გურშენი </eventTemplate>.
 about-playbook-how-grow-language-content-4 = სოციალური მედია
-about-playbook-how-grow-language-content-5 = შხვადოშხვა სოციალური ქსელიშ გუმორინაფა შეილებუნა კათაში მაჭანაფალო. გურთით პოსტი, სოდეთ ენწყუმილი იჸუაფუ, მუშენ რე თე საკითხი შანულამი. ეჩიით კათას ციფრული ტექნოლოგიეფით ნინაში გინოსქილადაშ გურშენი. ქოძირით რჩევეფი <campaignLink> სოციალური კამპანიაში ჸონაფაშენი დო კონტენტი, ნამუში გუმორინაფა ხელახაშო შეილებუნანი </campaignLink>
+about-playbook-how-grow-language-content-5 = შხვადოშხვა სოციალური ქსელიში გუმორინაფა შეილებუნა კათაში მაჭანაფალო. გურთით პოსტი, სოდეთ ენწყუმილი იჸუაფუ, მუშენი რე თე საკითხი შანულამი. ეჩიით კათას ციფრული ტექნოლოგიეფით ნინაში გინოსქილადაში გურშენი. ქოძირით რჩევეფი <campaignLink> სოციალური კამპანიაში ჸონაფაშენი დო კონტენტი, ნამუში გუმორინაფა ხელახაშო შეილებუნანი </campaignLink>
 about-playbook-how-grow-language-content-6 = ალმახანდეობა დო ქსელეფი
-about-playbook-how-grow-language-content-7 = დოგორით შხვეფი ხოლო, მისჷთ აინტერესენსჷნი. შილებე რდასჷნი უნივერსიტეტეფი, ნინაში დუმაგურაფალი სკოლეფი, მუნაჩემეფიშ მენცარეფიშ ბუნეფი. ქიდეკავშირით დო გეუნწყით, მუშენი დო მუჭო ოკო მიგეხვარანინი. <outreachTemplates> გოძირით ჩქინი საინფორმაციო შაბლონეფი </outreachTemplates>.
+about-playbook-how-grow-language-content-7 = დოგორით შხვეფი ხოლო, მისჷთ აინტერესენსჷნი. შილებე რდასჷნი უნივერსიტეტეფი, ნინაში დუმაგურაფალი სკოლეფი, მუნაჩემეფიში მენცარეფიში ბუნეფი. ქიდეკავშირით დო გეუნწყით, მუშენი დო მუჭო ოკო მიგეხვარანინი. <outreachTemplates> გოძირით ჩქინი საინფორმაციო შაბლონეფი </outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong> ქიმუდირთით შემოქმედებითო! </strong> თქვანი ნინაში საზოგადოება უნიკალური იჸუაფუ დო თენა რე შარა დაჭყაფალო.
 
 ## How to validate
 
-about-playbook-how-validate = მუჭო გებგა, მისაღებ რე თუ ვარ ხონარუან ინნაჭარა?
+about-playbook-how-validate = მუჭო გებგა, მისაღები რე თუ ვარ ხონარუანი ინნაჭარა?
 about-playbook-how-validate-content-1 = თიში <strong> მორჩქილა </strong> დო <strong> გაგება </strong> ქეშეილებუ-და <strong> უმენტაშო მისაღები რე </strong>.
 about-playbook-how-validate-content-2 = <strong> ვევარათ ინნაჭარეფი, სოდეთ მაჩიებეს თქვანდე გინორთელი ‘აქცენტი უღუნი’ </strong> - თენა შანულამი რე ხონარიშ ეშაჩინებელიშოთ, არძაში გაგება შეულებუდასჷნი.
-about-playbook-how-validate-content-3 = ქოფირქენთ, ნამდა თიში ნარაგადა <strong> ხეს უშალუნს არზიშ გაგებას </strong>, ვარდა რე <strong> ფონური ხონარობა </strong>, ვარა <strong> შხვა კათაში ჩიება <strong>, თინწკუმა ვარია ქუწით კლიპის. <accuracyLink> თიაში წორას მიშაღალაშენი უმოს გოფაჩილო ინფორმაცია ქიგეგით </accuracyLink>.
+about-playbook-how-validate-content-3 = ქოფირქენთ, ნამდა თიში ნარაგადა <strong> ხეს უშალუნს არზიში გაგებას </strong>, ვარდა რე <strong> ფონური ხონარობა </strong>, ვარა <strong> შხვა კათაში ჩიება <strong>, თინწკუმა ვარია ქუწით კლიპის. <accuracyLink> თიაში წორას მიშაღალაშენი უმოს გოფაჩილო ინფორმაცია ქიგეგით </accuracyLink>.
 about-playbook-how-validate-content-4 = ინნაჭარას 2 კოჩი ვარენო ვარიან ქუწინსჷნი, თინა მუნაჩემეფიში კათელიში შხვა ბუნას გაგმიქიანებუ.
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = მუჭო გიმიბრინუა მუნაჩემეფიშ კათელი?
-about-playbook-how-access-dataset-content-1 = შეილებუნა, გეგნორთათ <datasetsPage> მუნაჩემეფიშ კათელიში ხასჷლაშა </datasetsPage>, გაგშაგორათ ვერსია, ქიმუწურუათ კორინებული ნინა (ნინეფი) დო გეგმოხარგუათჷნი! ხონარუან ფაილეფს <metadataLink> უღუ მეტამონაცემეფი </metadataLink>, სოდეთ რე მოჩამილი დემოგრაფიული ინფორმაცია დო გინოჯინელი მონაცემეფი. კათელიში გიმახარგალო დეგესაჭირებუნა ელფოსტაში მიშაჸონაფა.
+about-playbook-how-access-dataset = მუჭო გიმიბრინუა მუნაჩემეფიში კათელი?
+about-playbook-how-access-dataset-content-1 = შეილებუნა, გეგნორთათ <datasetsPage> მუნაჩემეფიში კათელიში ხასჷლაშა </datasetsPage>, გაგშაგორათ ვერსია, ქიმუწურუათ კორინებული ნინა (ნინეფი) დო გეგმოხარგუათჷნი! ხონარუან ფაილეფს <metadataLink> უღუ მეტამონაცემეფი </metadataLink>, სოდეთ რე მოჩამილი დემოგრაფიული ინფორმაცია დო გინოჯინელი მონაცემეფი. კათელიში გიმახარგალო დეგესაჭირებუნა ელფოსტაში მიშაჸონაფა.
 about-playbook-how-access-dataset-content-2 = ქოგორჷნთ ხეჭკუდეფს ხომაში ეშაჩინებელი ASR მოდელიში აკანწყუალო-და, შეილებუნა ჩქინი ართობაში შხვა მაკათურებს დეკავშირათჷნი <discourseLink> Discourse-ს </discourseLink>.
 
 ## How are decisions made
@@ -127,9 +127,9 @@ about-playbook-how-project-governance = მი იღენს გინოჭ�
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice ბრელი შხვადოშხვა კათაქ აკოქიმინჷ, თენეფი რდეს აქტივისტეფი, ენათმეცნიერეფი, მუნაჩემეფიში სპეციალისტეფი, ინჟინერ-პროგრამისტეფი თელი მსოფლიოშე. პროექტიში ხემანჯღვერე რე Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = ჩქინი გამაგეობა გჷთმიაპონუ:
 about-playbook-how-project-governance-content-3 = კონფიდენციალურობა, უსაფრთხოება დო გამჭვირვალობა.
-about-playbook-how-project-governance-content-4 = კათაშ ხოლაფა გინოჭყვადუეფიშ მეღებაშ დროს.
+about-playbook-how-project-governance-content-4 = კათაში ხოლაფა გინოჭყვადუეფიში მეღებაში დროს.
 about-playbook-how-project-governance-content-5 = დაფასება დო აღიარება.
-about-playbook-how-project-governance-content-6 = ართმაჟიაშ ანგარიშვალდებულება.
+about-playbook-how-project-governance-content-6 = ართმაჟიაში ანგარიშვალდებულება.
 about-playbook-how-project-governance-content-7 = <governanceLink>წეკითხით უმოსი, მუჭო უნჯღვერთ </governanceLink>
 
 ## How is Common Voice funded
