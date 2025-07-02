@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = 设定目标
 cant-decide = 无法决定？
-activity-needed-calculation-plural =
-    { $people ->
-       *[other]
-            { $clipsPerDay ->
-               *[other]
-                    { $periodMonths ->
-                       *[other]
-                            { $totalHours ->
-                               *[other] 若有 { $people } 个人每天录下 { $clipsPerDay } 个片段，就可以在 { $periodMonths } 个月内达成{ $totalHours } 小时录音片段的目标。
-                            }
-                    }
-            }
-    }
 how-many-per-day = 好的，每天要贡献几个片段？
 how-many-a-week = 好的，每周要贡献几个片段？
 which-goal-type = 想要录音、聆听确认，还是两者都要？

@@ -130,7 +130,9 @@ return-to-cv = დართით Common Voice-ის
 email-input =
     .label = ელფოსტა
 loading = გინმიჭარუ…
+email-opt-in-info = ჩქიმი ელფოსტაშა მოკო მიბღენი ღანკეფიში გოშინა, ჩქიმი პროგრესიში გაახალება დო საინფორმაციო ბიულეტენეფი Common Voice-იშ გურშენი.
 email-opt-in-info-title = ქაკათით Common Voice-იშ ელფოსტაში ბუნას
+email-opt-in-info-sub-with-challenge = ელფოსტაშა თქვა მიღენთ ღანკეფიში გასაშინეს, პროგრესიში გაახალებას დო საინფორმაციო ბიულეტენეფს Common Voice-იშ გურშენი.
 indicates-required = (*) შანულენს აუცილებელ ველს
 not-available-abbreviation = ხემიოჭირინაფალი ვარე
 
@@ -138,6 +140,8 @@ not-available-abbreviation = ხემიოჭირინაფალი ვ�
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark> ჩქი მოსაჭირუნა</mark><br/><mark> თქვანი მოხვარა!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ირი წანას მილიონი დოლარს მიოჭირინუანს მუნაჩემეფიში კათელიში განთავსება დო პლატფორმაში გაუჯგუშებელი საქვარიში ხარჯი 100-შე მეტი ნინაში ართობაშო, ნამუთ მთლიანო ჩქინდა რე გეჸონილი. <strong> თქვანოთ შანულამი ქორე გონწყუმილი, ინკლუზიური მუნაჩემეფი-და - გემშიღით თქვანი წილი ამდღა! </strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark> CV-ის გიმმირინუანთო </mark><br/><mark> თქვანი კვლევეფიშოთ? </mark>
 localization-select =

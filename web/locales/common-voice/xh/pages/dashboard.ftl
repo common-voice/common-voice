@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Seta injongo
 cant-decide = Uwukwazi ukwena isigqibo?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } umntu rekhoda { $clipsPerDay } ikliphu ngelanga
-                               *[other] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } umntu rekhoda { $clipsPerDay } iikliphu ngelanga
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } abantu rekhoda { $clipsPerDay } ikliphu ngelanga
-                               *[other] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } abantu rekhoda { $clipsPerDay } iikliphu ngelanga
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } umntu rekhoda { $clipsPerDay } ikliphu ngelanga
-                               *[other] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } umntu rekhoda { $clipsPerDay } iikliphu ngelanga
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } abantu rekhoda { $clipsPerDay } ikliphu ngelanga
-                               *[other] { $totalHours } Iyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } abantu rekhoda { $clipsPerDay } iikliphu ngelanga
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } umntu rekhoda { $clipsPerDay } ikliphu ngelanga
-                               *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } umntu rekhoda { $clipsPerDay } iikliphu ngelanga
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } abantu rekhoda { $clipsPerDay } ikliphu ngelanga
-                               *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } inyanga ukuba { $people } abantu rekhoda { $clipsPerDay } iikliphu ngelanga
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } umntu rekhoda { $clipsPerDay } ikliphu ngelanga
-                               *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } umntu rekhoda { $clipsPerDay } iikliphu ngelanga
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } abantu rekhoda { $clipsPerDay } ikliphu ngelanga
-                               *[other] { $totalHours } iiyure iinokufezekiswa nje kuphengela ngee { $periodMonths } iinyanga ukuba { $people } abantu rekhoda { $clipsPerDay } iikliphu ngelanga
-                            }
-                    }
-            }
-    }
 how-many-per-day = Kuhle! Zingaphi iikliphu ngelanga?
 how-many-a-week = Kuhle! Zingaphi iikliphu ngeveki?
 which-goal-type = Ingaba uyafuna ukuthetha, mamela okanye zombini?

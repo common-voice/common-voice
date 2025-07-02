@@ -98,6 +98,7 @@ get-started = ქიდიჭყით <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice რე უფასო, გოღია წყუ უღუნი ფერი პლატფორმა ართობაში აკოქიმინელი მუნაჩემეფით.
 scripted-card-header = ნაჭარაში გახონარება
 scripted-card-content = წეკითხით ზიტყვასქვილეფი თქვან ნინაშა ხონარმაღალო დო გემშეღით წილი მსოფლიოს არძაშ უმოსი მრავალფეროვანი საზოგადოებაში მუშობათ აკოქიმინელი მუნაჩემეფიში კათელიშა.
 spontaneous-card-header = სპონტანური ჩიება
@@ -115,6 +116,8 @@ find-us-on-matrix = დობგორით Matrix-ის
 find-us-on-matrix-action = ქობძირით Matrix-ის
 ask-mozilla-share = ქოთხით Mozilla-ს თქვანი ღონისძიება შხვას გურთასჷნი
 ask-mozilla-share-content = გიღუდესო ვარდა გეგმუნთო მუთუნი ღონისძიებას? გომირთით დო ჩქი გუვოჩინებაფუანთ საზოგადოებას დო გაგმუაქიანენთ სვეტის!
+download-contribution-certificate = გეგმოხარგეთ თქვანი წილიში მიშმაღალარიში სერტიფიკატი
+download-contribution-certificate-content = გაგმოხარგეთ სერტიფიკატი თქვანი ღონისძიებეფიშოთ ვარდა თქვანოთ, წილი ქიმშმაიღუნა Common Voice-იშა-და - თქვანი უმუშო თენა ვემიხერხინედუ!
 # label for button
 download-contribution-certificate-action = გეჭოფით თქვანი სერტიფიკატი
 contribute-github = გემშეღით თქვანი წილი GitHub-შა
@@ -146,3 +149,9 @@ press-and-stories-link = პრესა დო ამბეფი
 
 ## Partner section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> ქველმოქმედება </bold> - დაფინანსით მუნაჩემეფიში კათელეფი ადგილობრივი ინოვაციეფიში გაფალარო.
+# icon is an arrow that points to the right
+get-in-touch-button = ქიდმეკავშირით <icon></icon>
+# Partners section
+our-partners-include = ჩქინი მალათირეეფი რენა...

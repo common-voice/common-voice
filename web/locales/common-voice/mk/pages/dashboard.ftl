@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Поставете цел
 cant-decide = Не можете да се одлучите?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } личностснимаат{ $clipsPerDay } снимкана ден
-                               *[other] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } личностснимаат{ $clipsPerDay } снимкина ден
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } луѓеснимаат{ $clipsPerDay } снимкана ден
-                               *[other] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } луѓеснимаат{ $clipsPerDay } снимкина ден
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } личностснимаат{ $clipsPerDay } снимкана ден
-                               *[other] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } личностснимаат{ $clipsPerDay } снимкина ден
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } луѓеснимаат{ $clipsPerDay } снимкана ден
-                               *[other] { $totalHours } чассе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } луѓеснимаат{ $clipsPerDay } снимкина ден
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } личностснимаат{ $clipsPerDay } снимкана ден
-                               *[other] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } личностснимаат{ $clipsPerDay } снимкина ден
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } луѓеснимаат{ $clipsPerDay } снимкана ден
-                               *[other] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месецако{ $people } луѓеснимаат{ $clipsPerDay } снимкина ден
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } личностснимаат{ $clipsPerDay } снимкана ден
-                               *[other] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } личностснимаат{ $clipsPerDay } снимкина ден
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } луѓеснимаат{ $clipsPerDay } снимкана ден
-                               *[other] { $totalHours } часасе постигнува за нешто повеќе од{ $periodMonths } месециако{ $people } луѓеснимаат{ $clipsPerDay } снимкина ден
-                            }
-                    }
-            }
-    }
 how-many-per-day = Одлично! Колку снимки на ден?
 how-many-a-week = Одлично! Колку снимки неделно?
 which-goal-type = Дали сакате да зборувате, слушате или и двете?

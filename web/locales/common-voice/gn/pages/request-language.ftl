@@ -37,4 +37,5 @@ request-language-error =
 request-for-scripted-speech-toggle = Ojejerure ñe’ẽsyry hapéva
 request-for-spontaneous-speech-toggle = Ojejerure ñe’ẽsyry hape’ỹva
 need-help-deciding-platform = ¿Eikotevẽ pytyvõ eiporavokuaa hag̃ua?
+need-help-deciding-platform-explanation-2 = Ñe’ẽ jeporu ha’e peteĩ mba’e pyahu añetéva Common Voice-pe g̃uarã ikatuhápe rembohovái opaite porandu osẽreiháicha ndévente.
 need-help-deciding-platform-explanation-3 = Nderehecháiramo ne ñe’ẽ mamovete peyendavusu ryepýpe, eiporavo mokõive.

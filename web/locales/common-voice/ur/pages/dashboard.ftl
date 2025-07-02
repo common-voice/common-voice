@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ایک مقصد طے کریں
 cant-decide = فیصلہ نہیں کر سکتے۔
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours }  گھنٹا{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
-                               *[other] { $totalHours }  گھنٹا{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours }  گھنٹا{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
-                               *[other] { $totalHours }  گھنٹا{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours }  گھنٹا{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
-                               *[other] { $totalHours }  گھنٹا{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours }  گھنٹا{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
-                               *[other] { $totalHours }  گھنٹا{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours }  گھنٹے{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
-                               *[other] { $totalHours }  گھنٹے{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours }  گھنٹے{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
-                               *[other] { $totalHours }  گھنٹے{ $periodMonths }  مہنہاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
-                               *[other] { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشہایک دن
-                               *[other] { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
-                            }
-                    }
-            }
-    }
 how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
 how-many-a-week = زبردست! ہفتے میں کتنے کلپس ہیں؟
 which-goal-type = کیا آپ بولنا ، سننا چاہتے ہیں یا دونوں؟

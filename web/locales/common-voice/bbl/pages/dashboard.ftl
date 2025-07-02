@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = მიზაჼ მითითბადარ
 cant-decide = ცუჲ ჩავარდომაკინდა ჰ̦ოჼ?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                    }
-            }
-    }
 how-many-per-day = დაქიჼ და! დე́ნი მელ' ჩანაწერ?
 how-many-a-week = დაქიჼ და! გეფსუ მელ' ჩანაწერ?
 which-goal-type = ჩაწე́რადარი თე́ლ' ჰ̦ო, ლარკ ჵო́ფარი́ ლე შიკეჸ?

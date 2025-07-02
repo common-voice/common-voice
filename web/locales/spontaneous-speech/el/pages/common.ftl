@@ -38,7 +38,7 @@ validate = Επικύρωση
 ## Not Found Page
 
 not-found-page-header = Δεν βρέθηκε
-not-found-page-content = Η σελίδα που ζητήσατε δε βρέθηκε
+not-found-page-content = Δεν ήταν δυνατή η εύρεση της σελίδας που ψάχνετε
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Συμφωνώ με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink> του Common Voice
 # Locales
