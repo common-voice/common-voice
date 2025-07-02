@@ -55,10 +55,21 @@ first-cta-gender-select-help-text =
     .label = Care este sexul sau genul tău?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Mulțumim că ne-ai donat înregistrările tale vocale!
+second-cta-subtitle-text = Dacă iți creezi un profil, vei putea să-ți urmărești activitatea și să iei legătura cu toți cei care contribuie și ei date vocale.
+already-have-an-account = Ai deja un cont? <login>Autentificare</login>
 create-profile-button = Creează un profil
+# IMAGE TAGS
+img-alt-success-checkmark = bifă de succes
+# menu item
+read-sentences = Citește propoziții
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Citește propoziții <small>(în curând)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Citește propoziții, răspunde la întrebări
+read-sentences-menu-item-tooltip = Înregistrează-te citind propoziții în limba română
+answer-questions-menu-item-tooltip = Înregistrează-te răspunzând la întrebări în limba română
 
 ## MENU ITEM ARIA LABELS
 
