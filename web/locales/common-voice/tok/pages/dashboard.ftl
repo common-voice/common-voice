@@ -47,19 +47,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = o wile pali
 cant-decide = sina wile anu seme?
-activity-needed-calculation-plural =
-    { $totalHours ->
-       *[other]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                       *[other]
-                            { $clipsPerDay ->
-                               *[other] jan { $people } li awen e kalama { $clipsPerDay } la, ona li ken pali e tenpo suli { $totalHours } lon tenpo mun { $periodMonths }.
-                            }
-                    }
-            }
-    }
 how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme?
 how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
 which-goal-type = sina wile toki, anu kute, anu ni tu?

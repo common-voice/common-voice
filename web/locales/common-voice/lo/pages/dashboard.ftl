@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ຕັ້ງເປົ້າໝາຍ
 cant-decide = ບໍ່​ສາ​ມາດ​ຕັດ​ສິນ​ໃຈ​?
-activity-needed-calculation-plural =
-    { $totalHours ->
-       *[other]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                       *[other]
-                            { $clipsPerDay ->
-                               *[other] { $totalHours } ຊົ່ວໂມງແມ່ນສາມາດເຮັດໄດ້ໃນຫຼາຍກວ່າ { $totalHours } ຊົ່ວໂມງແມ່ນສາມາດເຮັດໄດ້ໃນຫຼາຍກວ່າ { $periodMonths } ເດືອນຖ້າ { $periodMonths } ເດືອນຖ້າຄົນບັນທຶກ { $people } ຄົນບັນທຶກ { $people }{ $clipsPerDay } ຄລິບຕໍ່ມື້
-                            }
-                    }
-            }
-    }
 how-many-per-day = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ມື້?
 how-many-a-week = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ອາທິດ?
 which-goal-type = ທ່ານຕ້ອງການເວົ້າ, ຟັງຫຼືທັງສອງ?

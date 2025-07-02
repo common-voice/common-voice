@@ -59,6 +59,8 @@ username-email-not-demographic = თქვან მუმახვარებ�
 
 ## Landing
 
+welcome-staff = გომორძგუა { $company } ალმახანდეეფი!
+login-company = მიშელით / დერეგისტრირით { $company } ელფოსტათ
 
 ## NAV ITEMS
 
@@ -76,35 +78,80 @@ spontaneous-speech = სპონტანური ჩიება
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ალმახანდეობა, პრესა დო სიახალეეფი, საზოგადოებეფი დო ნინეფი
+about-us-menu-item-aria-label = ჩქინ გურშენი პარამეტრეფიშ მენიუ
+community-and-languages-menu-item-tooltip = ქიდეკავშირით ჩქინი ართობას დო ქოძირით ხუჯმეჩამილი ნინეფი
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = პარამეტრეფიშ მენიუში გურშენი
 
 ## NEW HOME PAGE KEYS
 
 
 ## Hero section
 
+hero-title = თქვანი ნინათ მაჩიებე ტექნოლოგია
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold> მუშენი ოკო იმუშუას ხელუანური ინტელექტიქ მსოფლიოში ხვალე ანდა ნინაშა? </bold>
+# icon is an arrow that points downwards
+get-started = ქიდიჭყით <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice რე უფასო, გოღია წყუ უღუნი ფერი პლატფორმა ართობაში აკოქიმინელი მუნაჩემეფით.
+scripted-card-header = ნაჭარაში გახონარება
+scripted-card-content = წეკითხით ზიტყვასქვილეფი თქვან ნინაშა ხონარმაღალო დო გემშეღით წილი მსოფლიოს არძაშ უმოსი მრავალფეროვანი საზოგადოებაში მუშობათ აკოქიმინელი მუნაჩემეფიში კათელიშა.
+spontaneous-card-header = სპონტანური ჩიება
+language-text-card-header = ტექსტიში ნინა
 add-text = ტექსტეფიშ გეძინა
+answer = გამა
 
 ## Community section
 
+join-discord-community = ქაკათით Discord-ართობას
 # label for button
 join-discord-community-action = მოზოჯით Discord-შა
+find-us-on-matrix = დობგორით Matrix-ის
 # label for button
 find-us-on-matrix-action = ქობძირით Matrix-ის
+ask-mozilla-share = ქოთხით Mozilla-ს თქვანი ღონისძიება შხვას გურთასჷნი
+ask-mozilla-share-content = გიღუდესო ვარდა გეგმუნთო მუთუნი ღონისძიებას? გომირთით დო ჩქი გუვოჩინებაფუანთ საზოგადოებას დო გაგმუაქიანენთ სვეტის!
+download-contribution-certificate = გეგმოხარგეთ თქვანი წილიში მიშმაღალარიში სერტიფიკატი
+download-contribution-certificate-content = გაგმოხარგეთ სერტიფიკატი თქვანი ღონისძიებეფიშოთ ვარდა თქვანოთ, წილი ქიმშმაიღუნა Common Voice-იშა-და - თქვანი უმუშო თენა ვემიხერხინედუ!
+# label for button
+download-contribution-certificate-action = გეჭოფით თქვანი სერტიფიკატი
+contribute-github = გემშეღით თქვანი წილი GitHub-შა
+# label for button
+contribute-github-action = გემშეღით თქვანი წილი GitHub-შა
 
 ## Featured section
 
+featured-section-title = წუმორინაფილი რე...
+# icon is an arrow that points downwards
+download-press-pack = გაგმოხარგეთ ჩქინი პრეს-პაკეტი <icon></icon>
 
 ## Developers section
 
+developers-section-title = ოჯარეთ ხემიოჭირინაფალი გონჯამილი ჩიებაში მუნაჩემეფიში კათელი 130+ ნინაშა
+# icon is an arrow that points to the right
+explore-datasets = ქოძირით კათელეფი <icon></icon>
 
 ## Get involved section
 
+read-sentences-link = წეკითხით ზიტყვასქვილეფი
+validate-readings-link = ქიგნაჯინით ნაკითხირას
+contribute-link = აკაფშით ტექსტური კორპუსი
+answer-questions-link = ქუგამით ოკითხირეეფს
+transcribe-answers-link = გამეფიშ ნაჭარათ გინორთინაფა
+review-transcriptions-link = ქიგნაჯინით ნაჭარათ მოჩამილს
+contribute-text-link = გემშიჸონით ტექსტი
+press-and-stories-link = პრესა დო ამბეფი
 
 ## Partner section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold> ქველმოქმედება </bold> - დაფინანსით მუნაჩემეფიში კათელეფი ადგილობრივი ინოვაციეფიში გაფალარო.
+# icon is an arrow that points to the right
+get-in-touch-button = ქიდმეკავშირით <icon></icon>
+# Partners section
+our-partners-include = ჩქინი მალათირეეფი რენა...

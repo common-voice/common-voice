@@ -22,6 +22,7 @@ import { ApplicationError } from '../../../types/error'
 import { SentenceSubmission } from '../../../types/sentence-submission'
 import { toDomainIds } from '../../helper/domain-helper'
 import { AddMultipleSentencesCommand } from './command/add-multiple-sentences-command'
+import { cleanText } from '../../../text-cleaner'
 
 export const MAX_SENTENCES = 1000
 
@@ -83,6 +84,7 @@ export const AddMultipleSentencesCommandHandler =
           variant,
           O.map(v => v.id)
         )
+        const cleanedSource: string = cleanText(cmd.source)
         const sentenceSubmissions: SentenceSubmission[] = pipe(
           sentences,
           A.map(sentence => {
@@ -90,7 +92,7 @@ export const AddMultipleSentencesCommandHandler =
               ...sentence,
               locale_id: localeId,
               client_id: cmd.clientId,
-              source: cmd.source,
+              source: cleanedSource,
               variant_id,
               domain_ids: O.some(domainIds),
             }

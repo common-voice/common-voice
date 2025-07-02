@@ -2,6 +2,25 @@ import { redis, redlock, useRedis } from './redis';
 
 type Fn<T, S> = (...args: S[]) => Promise<T>;
 
+//
+// Simple redis set manipulation
+//
+
+// Adds a value to a Redis SET with expiry
+export async function redisSetAddWithExpiry(key: string, value: string, ttlMs: number) {
+  await redis.sadd(key, value);
+  await redis.expire(key, Math.floor(ttlMs / 1000)); // resets TTL each time
+}
+
+// Gets values from a Redis SET (if exists)
+export async function redisSetMembers(key: string): Promise<string[]> {
+  return await redis.smembers(key) || [];
+}
+
+//
+// lazyCache implementation
+//
+
 function isExpired(at: number, timeMs: number) {
   return Date.now() - at > timeMs;
 }

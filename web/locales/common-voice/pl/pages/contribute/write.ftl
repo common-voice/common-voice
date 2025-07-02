@@ -1,5 +1,6 @@
 ## WRITE PAGE
 
+write = Pisz
 
 ## BULK SUBMISSION
 

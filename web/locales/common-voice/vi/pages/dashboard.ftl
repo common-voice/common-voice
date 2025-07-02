@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Đặt một mục tiêu
 cant-decide = Không thể quyết định?
-activity-needed-calculation-plural =
-    { $totalHours ->
-       *[other]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                       *[other]
-                            { $clipsPerDay ->
-                               *[other] { $totalHours } giờ có thể đạt được chỉ trong hơn { $periodMonths } tháng nếu { $people } người ghi { $clipsPerDay } đoạn thoại một ngày.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Tuyệt quá! Có bao nhiêu đoạn thoại mỗi ngày?
 how-many-a-week = Tuyệt quá! Có bao nhiêu đoạn thoại một tuần?
 which-goal-type = Bạn có muốn nói, nghe hay cả hai?

@@ -35,4 +35,4 @@ signup-input-placeholder = Εισαγάγετε το email σας
 signup-button-value = Αποστολή συνδέσμου στο email μου
 footer-text-privacy = <privacyLink>Απόρρητο</privacyLink>
 footer-text-terms = <termsLink>Όροι</termsLink>
-footer-text-cookies = <cookiesLink>Cookies<cookiesLink>
+footer-text-cookies = <cookiesLink>Cookie<cookiesLink>

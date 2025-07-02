@@ -193,12 +193,10 @@ export default class Clip {
    * to be easily parsed from other errors
    */
   saveClip = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      headers,
-    } = request
+    // default the client_id to null if it is not present in the session.user object
+    // so that a 400 is returned below
+    const { headers } = request 
+    const client_id = request?.session?.user?.client_id
     const sentenceId = headers['sentence-id'] as string
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
@@ -410,7 +408,7 @@ export default class Clip {
   serveClipLeaderboard = async (request: Request, response: Response) => {
     const { client_id } = request?.session?.user || {}
     if (!client_id) {
-      response.sendStatus(StatusCodes.BAD_REQUEST)
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     const { locale } = request.params
     const cursor = this.getCursorFromQuery(request)

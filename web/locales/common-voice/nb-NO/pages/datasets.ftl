@@ -8,6 +8,7 @@ datasets-positioning =
     Common Voices flerspråklige datasett er allerede det største offentlig tilgjengelige stemmedatasettet av sitt slag, men det er ikke det eneste.
     
     Se på denne siden som et referansehub for andre stemmesett med åpen kildekode, og etterhvert som Common Voice fortsetter å vokse, et hjem for våre datasettoppdateringer.
+datasets-speech-bubble-content = Spennende nyheter! Spontan tale er på vei! Følg med for oppdateringer, og sørg for å sjekke <discordLink>Discord</discordLink> vår for den nyeste informasjonen.
 language = Språk
 download-dataset-header = Last ned datasettet
 download-delta-explainer = Vi har gjort noen endringer. "Delta Segments" inneholder kun de aller nyeste lydklippene etter siste utgivelse. <deltaLink>Les mer on denne endringen</deltaLink>.

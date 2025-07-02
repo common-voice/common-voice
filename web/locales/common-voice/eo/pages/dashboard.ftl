@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Difini celon
 cant-decide = Ĉu vi ne povas decidi?
-activity-needed-calculation-plural =
-    { $people ->
-        [one]
-            { $clipsPerDay ->
-                [one]
-                    { $totalHours ->
-                        [one]
-                            { $periodMonths ->
-                                [one] Se { $people } persono faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horo atingeblas post iom pli ol monato.
-                               *[other] Se { $people } persono faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horo atingeblas post iom pli ol { $periodMonths } monatoj.
-                            }
-                       *[other]
-                            { $periodMonths ->
-                                [one] Se { $people } persono faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horoj atingeblas post iom pli ol monato.
-                               *[other] Se { $people } persono faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horoj atingeblas post iom pli ol { $periodMonths } monatoj.
-                            }
-                    }
-               *[other]
-                    { $totalHours ->
-                        [one]
-                            { $periodMonths ->
-                                [one] Se { $people } persono faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horo atingeblas post iom pli ol monato.
-                               *[other] Se { $people } persono faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horo atingeblas post iom pli ol { $periodMonths } monatoj.
-                            }
-                       *[other]
-                            { $periodMonths ->
-                                [one] Se { $people } persono faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horoj atingeblas post iom pli ol monato.
-                               *[other] Se { $people } persono faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horoj atingeblas post iom pli ol { $periodMonths } monatoj.
-                            }
-                    }
-            }
-       *[other]
-            { $clipsPerDay ->
-                [one]
-                    { $totalHours ->
-                        [one]
-                            { $periodMonths ->
-                                [one] Se { $people } personoj faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horo atingeblas post iom pli ol monato.
-                               *[other] Se { $people } personoj faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horo atingeblas post iom pli ol { $periodMonths } monatoj.
-                            }
-                       *[other]
-                            { $periodMonths ->
-                                [one] Se { $people } personoj faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horoj atingeblas post iom pli ol monato.
-                               *[other] Se { $people } personoj faras { $clipsPerDay } voĉregistron ĉiutage, { $totalHours } horoj atingeblas post iom pli ol { $periodMonths } monatoj.
-                            }
-                    }
-               *[other]
-                    { $totalHours ->
-                        [one]
-                            { $periodMonths ->
-                                [one] Se { $people } personoj faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horo atingeblas post iom pli ol monato.
-                               *[other] Se { $people } personoj faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horo atingeblas post iom pli ol { $periodMonths } monatoj.
-                            }
-                       *[other]
-                            { $periodMonths ->
-                                [one] Se { $people } personoj faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horoj atingeblas post iom pli ol monato.
-                               *[other] Se { $people } personoj faras { $clipsPerDay } voĉregistrojn ĉiutage, { $totalHours } horoj atingeblas post iom pli ol { $periodMonths } monatoj.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?

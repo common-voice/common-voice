@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Itani tshipikwa
 cant-decide = A ni koni u dzhia phetho?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } muthu rekhonani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-                               *[other] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } muthu rekhonani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } vhathu rekhodani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-                               *[other] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } vhathu rekhodani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } muthu rekhonani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-                               *[other] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } muthu rekhonani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } vhathu rekhodani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-                               *[other] { $totalHours } awara i nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } vhathu rekhodani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } muthu rekhonani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-                               *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } muthu rekhonani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } vhathu rekhodani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-                               *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } ṅwedzi arali { $people } vhathu rekhodani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } muthu rekhonani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-                               *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } muthu rekhonani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } vhathu rekhodani rekhodo nthihi { $clipsPerDay } nga ḓuvha.
-                               *[other] { $totalHours } dzi awara dzi nga swikelelea nga murahu ha{ $periodMonths } miṅwedzi arali { $people } vhathu rekhodani rekhodo nnzhi { $clipsPerDay } nga ḓuvha.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga ḓuvha?
 how-many-a-week = Ndi zwavhuḓi! Hu ṱoḓea rekhodo nngana nga vhege?
 which-goal-type = Ni khou ṱoḓa u Amba, u Thetshelesa kana u ita zwoṱhe?
