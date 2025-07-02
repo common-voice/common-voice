@@ -75,3 +75,4 @@ answer-questions-menu-item-tooltip = Înregistrează-te răspunzând la întreb�
 
 speak-contribute-menu-aria-label = Opțiunile meniului Înregistrează-te
 read-sentences-menu-item-aria-label = Citește propoziții scrise de comunitate în diverse limbi
+answer-questions-menu-item-aria-label = Pune o întrebare comunității.
