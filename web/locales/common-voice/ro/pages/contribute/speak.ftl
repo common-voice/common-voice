@@ -73,3 +73,5 @@ answer-questions-menu-item-tooltip = Înregistrează-te răspunzând la întreb�
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Opțiunile meniului Înregistrează-te
+read-sentences-menu-item-aria-label = Citește propoziții scrise de comunitate în diverse limbi
