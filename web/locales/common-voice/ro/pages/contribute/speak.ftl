@@ -49,7 +49,12 @@ add-information-button = Adaugă informații
 continue-speaking-button = Nu, mulțumesc, continuă să citești.
 create-profile-text = Vrei să îți salvezi informațiile? <createProfile>Creează un profil</createProfile>
 thanks-for-voice-toast = Mulțumim pentru informațiile asociate vocii tale.
-thanks-for-voice-toast-error = Eroare: din pǎcate, informațiile asociate vocii tale nu au fost înregistrate.
+thanks-for-voice-toast-error = Eroare: din păcate, informațiile asociate vocii tale nu au fost înregistrate.
+first-cta-gender-select-default-option = Alege o opțiune
+first-cta-gender-select-help-text =
+    .label = Care este sexul sau genul tău?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Mulțumim că ne-ai donat înregistrările tale vocale!
 create-profile-button = Creează un profil
 
 ## MENU ITEM TOOLTIPS
