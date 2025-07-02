@@ -44,9 +44,12 @@ first-cta-header-text = Mulțumim că ne-ai donat înregistrările tale vocale!
 first-cta-subtitle-text = Adăugând câteva detalii despre tine, contribui la dezvoltarea de tehnologii mai incluzive.
 why-donate = De ce îmi cereți astfel de informații?
 why-donate-explanation-1 = Aceste informații sunt opționale - adaugă-le doar dacă dorești. Când publicăm setul de date, vom pseudo-anonimiza toate informațiile personale anonime. Ne vom asigura că detalii precum numele și adresa ta de e-mail nu sunt legate de informații demografice precum vârsta sau sexul.
+why-donate-explanation-2 = Pentru ca tehnologia să funcționeze bine pentru toți, datele cu care dezvoltatorii construiesc noi tehnologii trebuie să reprezinte o varietate de persoane. De exemplu, dacă nu includem niciun vorbitor care are un accent aparte, atunci tehnologia nu va funcționa bine pentru cei care vorbesc cu același accent. <learnMore>Aflați mai multe despre importanța metadatelor aici.</learnMore>
 add-information-button = Adaugă informații
 continue-speaking-button = Nu, mulțumesc, continuă să citești.
 create-profile-text = Vrei să îți salvezi informațiile? <createProfile>Creează un profil</createProfile>
+thanks-for-voice-toast = Mulțumim pentru informațiile asociate vocii tale.
+thanks-for-voice-toast-error = Eroare: din pǎcate, informațiile asociate vocii tale nu au fost înregistrate.
 create-profile-button = Creează un profil
 
 ## MENU ITEM TOOLTIPS
