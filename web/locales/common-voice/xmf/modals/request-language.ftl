@@ -1,6 +1,6 @@
 ## Request Language Modal
 
-request-language-title = ნინაშ მოთხუალა
+request-language-title = ნინაში მოთხუალა
 request-language-form-language =
     .label = ნინა
 request-language-success-title = ნინაშ მოთხუალაქ ქიჯღონინ ხეუნჩალუო, მარდი.
