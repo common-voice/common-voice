@@ -54,6 +54,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Stabilește un obiectiv
 cant-decide = Nu te poți decide?
+activity-needed-calculation-fixed = 100 de persoane care înregistrează 100 de propoziții pe zi pot genera 13 ore de sunet. În acest ritm, se pot înregistra 1.000 de ore în 3 luni.
 how-many-per-day = Grozav! Câte înregistrări pe zi?
 how-many-a-week = Grozav! Câte înregistrări pe săptămână?
 which-goal-type = Vrei să vorbești, să asculți sau ambele?
