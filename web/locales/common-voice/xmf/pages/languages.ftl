@@ -2,7 +2,7 @@
 
 language-section-in-progress = პროგრესი
 language-section-launched = გოტებულიე
-language-section-launched-description = მოჩამილ ნინეფშა ვებსაიტიქ წუმოძინელო <localizationGlossaryLink> გეგნითანგუ </localizationGlossaryLink>, დო დასაბაღ რე <sentenceCollectionGlossaryLink> ზიტყვასქვილეფი ხოლო </sentenceCollectionGlossaryLink> გეგძელინას <speakLink> ინოჭარუაქ </speakLink> დო <listenLink> მორჩქილაფაქ </listenLink>.
+language-section-launched-description = მოჩამილი ნინეფშა ვებსაიტიქ წუმოძინელო <localizationGlossaryLink> გეგნითანგუ </localizationGlossaryLink>, დო <sentenceCollectionGlossaryLink> ზიტყვასქვილეფი ხოლო დასაბაღჷ რე </sentenceCollectionGlossaryLink> გეგძელინას <speakLink> ინოჭარუაქ </speakLink> დო <listenLink> მორჩქილაფაქჷნი </listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = ბოლო გაახალება: { $lastUpdatedTimeStamp }
 languages-show-more = ქოძირი უმოსი
@@ -15,8 +15,8 @@ language-speakers = მაჩიებე
 localized = ლოკალიზებური
 sentences = ზიტყვასქვილეფი
 language-validation-hours = საათეფი
-language-validation-progress = წიმე ულა დადასურებას
-contribute = წილიშ მიშაღალა
+language-validation-progress = დადასურებაში წიმე ულა
+contribute = წილიში მიშაღალა
 get-involved-button = ქუმაკათით
 get-involved-title = წილი გემშეღით { $lang }
 get-involved-form-title = დერეგისტრირით { $lang } სიახალეეფიშოთ:
