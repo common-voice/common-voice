@@ -9,8 +9,8 @@ partnerships-governments-header = ხეშულობეფი
 partnerships-academia-header = უნივერსიტეტეფი, აკადემიკოსეფი დო მკვლევარეფი
 partnerships-small-business-header = ჭიჭე წუმოჭყაფა ტექნოლოგიეფიში დო ხელუანური ინტელექტიში დარგის
 partnerships-small-business-description = ჩქი ირო მოკონა მუნაჩემეფიში გუმმარინაფალეფიშე მიფრჩქილუათ შხვადოშხვა საჭიროებაში დო კონტექსტიში გურშენი - მუნაჩემეფიში აკოშაყარუაშე დოჭყაფილი თე მასალეფიში გაუჯგუშებაშენი თქვანი არზით გათებული. სიამოვნებით <emailFragment> მიფრჩქილუანთ თქვანდე. </emailFragment>
-partnerships-corporates-header = შხუ კორპორაციეფი დო პლატფორმულ კომპანიეფი
+partnerships-corporates-header = შხუ კორპორაციეფი დო პლატფორმული კომპანიეფი
 partnerships-corporates-description = ზალამი ქოიღუნა, უმოსი იჩიათ მუნაჩემეფიში კათელიში გურშენი ვარდა თქვანი წილი გემშიღათ პლატფორმაში გოფართინაფაშა, ვარდა გორუნთ ალმახანდეობაში შხვა შარეფს-და, <emailFragment> ქუმობჭარით. </emailFragment>
-partnerships-our-partners = ჩქინ მალათირეეფი
+partnerships-our-partners = ჩქინი მალათირეეფი
 # menu item
 partners = მალათირეეფი
