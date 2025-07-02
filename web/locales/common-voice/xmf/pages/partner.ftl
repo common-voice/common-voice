@@ -1,6 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = ალმახანდეობა
-partnerships-header-text = Common Voice ბრელ ხანდას ოხვილუ! ხვალე ჩქი თენა ვეშმალებენა. კორინ გიღუნანო ქჷმაკათათჷნი? სიამოვნებით მიფრჩქილუანთ თქვან არზის.
+partnerships-header-text = Common Voice ბრელი ხანდას ოხვილუ! ხვალე ჩქი თენა ვეშმალებენა. კორინი გიღუნანო ქჷმაკათათჷნი? სიამოვნებით მიფრჩქილუანთ თქვან არზის.
 partnerships-get-in-touch = ქიდმეკავშირით
 partnerships-become-a-partner = Common Voice-იშ მალათირე გინირთი
 partnerships-community-header = ართობა, შემოქმედებითი დო სამოქალაქო საზოგადოება
