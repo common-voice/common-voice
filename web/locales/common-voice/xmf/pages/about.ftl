@@ -36,13 +36,13 @@ about-no-votes-text = მუჟამს მუმახვარებელი
 about-dataset-new = Common Voice-იში მუნაჩემეფიში კათელი
 about-dataset-new-text = Common Voice-ი მუნაჩემეფიში კათელს შაყარანს ოში ანთასობით ხონარიში ნიმუშის, ნამუთ გჷმადირთუნა მამუშებელეფს ხონარიში ეშაჩინებელი საშუალებეფიში აკოქიმინუას.
 about-clip-graveyard = ხონარუანი ინნაჭარეფიში საფლე
-about-clip-graveyard-text = ხონარუან ინნაჭარეფიშ საფლეს რე Common Voice-იშ მუნაჩემეფიშ ბაზას ვეგეძინუნ ფერი ინნაჭარეფი. თე საფლეშე კლიპეფიშ გინოჭარუა შეილებუნა.
+about-clip-graveyard-text = ხონარუანი ინნაჭარეფიში საფლეს რე Common Voice-იშ მუნაჩემეფიში ბაზას ვეგეძინუნ ფერი ინნაჭარეფი. თე საფლეშე შეილებუნა კლიპეფიში გიმოხარგუა.
 about-get-involved = ქუმაკათით
-about-get-involved-text-2 = გიღუნანო ზალამი Common Voice-იშ გაუჯგუშებას ქჷდმეხვარათჷნი? ჰერებამი! ქიდმეკავშირით ელფოსტათ ვარდა <discourseLink>Discourse-ით</discourseLink> ფორუმეფს, ქუმომჯღონით მუ პრობლემეფი უღუ საიტის <githubLink>GitHub-ის</githubLink>, ვარდა ქუმაკათით<matrixLink>Matrix-იშ</matrixLink> კათაშ ოჩიებეს.
+about-get-involved-text-2 = გიღუნანო ზალამი Common Voice-იშ გაუჯგუშებას ქჷდმეხვარათჷნი? ჰერებამი! ქიდმეკავშირით ელფოსტათ ვარდა <discourseLink>Discourse-ით</discourseLink> ფორუმეფს, ქუმომჯღონით მუ პრობლემეფი უღუ საიტის <githubLink>GitHub-ის</githubLink>, ვარდა ქუმაკათით<matrixLink>Matrix-იშ</matrixLink> კათაში ოჩიებეს.
 about-stay-in-touch = მუჭო დოფსკიდა კავშირს?
-about-stay-in-touch-button = ანგარიშიშ აკოქიმინუა
-about-stay-in-touch-text-1 = <emailFragment> დერეგისტრირით </emailFragment> ჩქინ ელფოსტაში ბუნას დო ქიგეგით, მუჭო შეილებუნა მონაწილეობა მიღათ კომპანიეფშა, ღონისძიებეფშა დო Common Voice-იშ თანადიზაინიშ ფუნქციეფიშა.
-about-stay-in-touch-text-2 = თქვა შეილებუნა შეხვადათ Mozilla-იშ შხვადოშხვა ნინეფიშ საზოგადოებაშ მაკათურეფს, ცალკეიანი თემეფშე ოჩიებეთ ქაკათათ <discordLink> Discord </discordLink> ვარდა <discourseLink> Discourse </discourseLink>, ხოლო რჩევეფიშ მიოჩამალო დერეგისტრირით ათაქ <matrixLink> Matrix </discordLink>.
+about-stay-in-touch-button = ანგარიშიში აკოქიმინუა
+about-stay-in-touch-text-1 = <emailFragment> დერეგისტრირით </emailFragment> ჩქინ ელფოსტაში ბუნას დო ქიგეგით, მუჭო შეილებუნა მონაწილეობა მიღათ კომპანიეფშა, ღონისძიებეფშა დო Common Voice-იში თანადიზაინიში ფუნქციეფიშა.
+about-stay-in-touch-text-2 = თქვა შეილებუნა შეხვადათ Mozilla-იშ შხვადოშხვა ნინეფიში საზოგადოებაში მაკათურეფს, ცალკეიანი თემეფშე ოჩიებეთ ქაკათათ <discordLink> Discord </discordLink> ვარდა <discourseLink> Discourse </discourseLink>, ხოლო რჩევეფიში მიოჩამალო დერეგისტრირით ათაქ <matrixLink> Matrix </discordLink>.
 about-nav-why-common-voice = მუშენი?
 about-nav-how-it-works = მუჭო?
 about-nav-partners = ალმახანდეეფი
@@ -54,50 +54,50 @@ about-nav-playbook = ქიგეგით მუჭო ოკო მიღა�
 ## What is a language
 
 about-playbook-what-is-language = მუ რე ნინა Common Voice-ის?
-about-playbook-what-is-language-content-1 = ნინაშენ ფირქიშ ბრელ შარა რე. ჩიებაშ ეშაჩინებელი მოდელეფჷშო Common Voice-ი მარზენა ფოკუსირებას "ართიანიშ გაგებაშა", "ქოცადჷნანი, ქეშულებუნა თუ ვარ თე ნინაშა მაჩიებე კათას ართიანიშ გაგება?"
-about-playbook-what-is-language-content-2 = მოკონა, ჩიებაშ მოდელეფს ჯგირო შეულებუდას შხვადოშხვა ადამიერიშ გაგება. თეშ გურშენი, ჩქინ კათელს ოკო რდას ბრელ შხვადოშხვანერი ხონარუან ინნაჭარეფი.
+about-playbook-what-is-language-content-1 = ნინაშენ ფირქიში ბრელ შარა რე. ჩიებაში ეშაჩინებელი მოდელეფჷშო Common Voice-ი მარზენა ფოკუსირებას "ართიანიში გაგებაშა", "ქოცადჷნანი, ქეშულებუნა თუ ვარ თე ნინაშა მაჩიებე კათას ართიანიში გაგება?"
+about-playbook-what-is-language-content-2 = მოკონა, ჩიებაში მოდელეფს ჯგირო შეულებუდას შხვადოშხვა ადამიერიში გაგება. თეში გურშენი, ჩქინ კათელს ოკო რდას ბრელი შხვადოშხვანერი ხონარუანი ინნაჭარეფი.
 about-playbook-what-is-language-content-3 = ნამთინე ნინაში გრამატიკას, ლექსიკას დო გამოთქმას განსხვავებული ვარიაციეფი უღუ. თეშენი გეგნოპჭყვიდით, <ctaLink> გამშამღალუდესკო "ვარიანტეფი" </ctaLink> 2022 წანას. თენა საზოგადოებაში თითეული ბუნას მეჩანს საშუალებას გაგშაგორას მუში ოჩიებე ნინა თლიან კათელჷშე.
 
 ## How do I add a language
 
 about-playbook-how-add-language = მუჭო გევუძინა ნინა?
-about-playbook-how-add-language-content-1 = დიო ქიგნაჯინი სკანი ნინა <languageLink> ქორე თუ ვარჷნი </languageLink>. ვარენ-და, სი შეილებუ <languageRequestLink>  ქიკითხე სკანი ნინაში გეძინაშ გურშენი </languageRequestLink>. რე ჟირი ეტაპი. საიტიში გინოთანგუა დო ზიტყვასქვილეფიშ აკოკორობუა
-about-playbook-how-add-language-translating-heading = საიტიშ გინოთანგუა
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ქოძირით ჩქინ შარაშმაწურაფალი, Pontoon მუჭო ოკო გიმირინუათჷნი. </translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = ოთანგალო ჩქი გიმიბრინუანთ Mozilla-ში ხეჭკუდეფს ათე სახელით <pontoonLink> Pontoon </pontoonLink>. Pontoon-ს ბრელი ნინა რე, მარა თქვანი ნინა ვაძირითჷ-და, შეილებუნა <pontoonRequestLink> მითხუათ თიშ გეძინა </pontoonRequestLink>. უკული, Common Voice-ქ თქვან ნინაშო ქიმუშუასჷნი, </githubRepoLink> ქიდმეკავშირით GitHub-ს </githubRepoLink>. <localizationFragment> ქოძირით უმოსი საიტიშ გინოთანგუაშ გურშენი </localizationFragment>.
-about-playbook-how-add-language-collecting-sentences-heading = ზიტყვასქვილეფიშ აკოკორობუა
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> ქოძირით ჩქინი ოხემანჯღვერე ზიტყვასქვილეფიში მაკორობალიშ გუმორინაფაშ გურშენი </sentenceCollectorVideo> .
+about-playbook-how-add-language-content-1 = დიო ქიგნაჯინი სკანი ნინა <languageLink> ქორე თუ ვარჷნი </languageLink>. ვარენ-და, სი შეილებუ <languageRequestLink>  ქიკითხე სკანი ნინაში გეძინაშ გურშენი </languageRequestLink>. რე ჟირი ეტაპი. საიტიში გინოთანგუა დო ზიტყვასქვილეფიში აკოკორობუა
+about-playbook-how-add-language-translating-heading = საიტიში გინოთანგუა
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> ქოძირით ჩქინი შარაშმაწურაფალი, Pontoon მუჭო ოკო გიმირინუათჷნი. </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = ოთანგალო ჩქი გიმიბრინუანთ Mozilla-ში ხეჭკუდეფს ათე სახელით <pontoonLink> Pontoon </pontoonLink>. Pontoon-ს ბრელი ნინა რე, მარა თქვანი ნინა ვაძირითჷ-და, შეილებუნა <pontoonRequestLink> მითხუათ თიშ გეძინა </pontoonRequestLink>. უკული, Common Voice-ქ თქვან ნინაშო ქიმუშუასჷნი, </githubRepoLink> ქიდმეკავშირით GitHub-ს </githubRepoLink>. <localizationFragment> ქოძირით უმოსი საიტიში გინოთანგუაში გურშენი </localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = ზიტყვასქვილეფიში აკოკორობუა
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> ქოძირით ჩქინი ოხემანჯღვერე ზიტყვასქვილეფიში მაკორობალიში გუმორინაფაში გურშენი </sentenceCollectorVideo> .
 about-playbook-how-add-language-collecting-sentences-content-2 = შეილებუნა <sentenceCollectorLinkAdd> გეუძინათ ჭიჭე ზიტყვასქვილეფი </sentenceCollectorLinkAdd>, ხოლო <bulkImportDocsLink> ართო მიშაღალარო, ქიგმირინეთ Github </bulkImportDocsLink>. რშუდანი, ნამდა ზიტყვასქვილეფი აუცილებერო ოკო რდას <licenseLink> CC (ოირქიანე საკუთრებაშე) </licenseLink> ვარდა თქვა ოკო მიფიქრათ.
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> ქოძირით უმოსი ზიტყვასქვილეფიშ ოკორობუშ გურშენი </sentenceCollectorFragment>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> ქოძირით უმოსი ზიტყვასქვილეფიში ოკორობუში გურშენი </sentenceCollectorFragment>.
 
 ## How does localization work
 
-about-playbook-how-localize = საიტიშ ლოკალობა მუჭო მუშენს?
+about-playbook-how-localize = საიტიში ლოკალობა მუჭო მუშენს?
 about-playbook-how-localize-content-1 = Common Voice-ქ გეგნითანგასჷნი, თეშენ გიმირინუაფუ <strong> Pontoon </strong>.
-about-playbook-how-localize-content-2 = <pontoonAccountLink> აკოქიმინით ანგარიში </pontoonAccountLink>, დიო ვაიღუნა-და. უკული გაგშაგორით თქვანი ნინა <strong>(‘Team’)</strong> დო პროექტი <pontoonCvLink>. თექ დორხვადუნა გინათანგალ ფაილეფი. ქიგუკაკეთ ართ-ართის დო ქოძირუნთჷ ინგლისურ ტექსტის, თუდო იჸუაფუ ველი, სოდეთ ქინაჭარანთ ნათანგას.
-about-playbook-how-localize-content-3 = თანგუა ინგლისურშე რე შიოლებერი, თუმცა თექ ხემიოჭირინაფალ ხოლო რე <strong> მერზიება </strong> შხვადოშხვა ნინეფშე. ქიგუკაკეთ <strong> Profile </strong> ნიშანს, უკული <strong> Settings </strong> ბმულს დო ქიგუძინით კორინებულ ნინეფი. თუდო მარძგვან კუნთხუს ძირუნთ ნინეფშენ მერზიებას, ნამუსუთ გეჭარჷ <strong> Locales </strong>. გინოთანგუა საიტის ართ დღაშა ქორჩქინდუ.
-about-playbook-how-localize-content-4 = საიტი ხაზირ იჸუაფუ გატებელო, მუჟამს თანგილ იჸი 75%.
-about-playbook-how-localize-content-5 = მოხვარაშენი ქუჯინით ჩქინ ვიდეოს.
+about-playbook-how-localize-content-2 = <pontoonAccountLink> აკოქიმინით ანგარიში </pontoonAccountLink>, დიო ვაიღუნა-და. უკული გაგშაგორით თქვანი ნინა <strong>(‘Team’)</strong> დო პროექტი <pontoonCvLink>. თექ დორხვადუნა გინათანგალი ფაილეფი. ქიგუკაკეთ ართ-ართის დო ქოძირუნთჷ ინგლისურ ტექსტის, თუდო იჸუაფუ ველი, სოდეთ ქინაჭარანთ ნათანგას.
+about-playbook-how-localize-content-3 = თანგუა ინგლისურშე რე შიოლებერი, თუმცა თექ ხემიოჭირინაფალი ხოლო რე <strong> მერზიება </strong> შხვადოშხვა ნინეფშე. ქიგუკაკეთ <strong> Profile </strong> ნიშანს, უკული <strong> Settings </strong> რსხილს დო ქიგუძინით კორინებული ნინეფი. თუდო მარძგვან კუნთხუს ძირუნთ ნინეფშენ მერზიებას, ნამუსუთ გეჭარჷ <strong> Locales </strong>. გინოთანგუა საიტის ართ დღაშა ქორჩქინდუ.
+about-playbook-how-localize-content-4 = საიტი ხაზირ იჸუაფუ გატებელო, მუჟამს თანგილი იჸი 75%.
+about-playbook-how-localize-content-5 = მოხვარაშენი ქუჯინით ჩქინი ვიდეოს.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = მუჭო გევუძინა ზიტყვასქვილეფი?
-about-playbook-how-add-sentences-content-1 = სი შეილებუ ქიგუძინე ზიტყვასქვილეფი <writePageLink> ჭარუაშ ხასლას </writePageLink> ვარდა ზიტყვასქვილეფიშ გინოჯინა <reviewPageLink> გინოჯინაშ ხასლას </reviewPageLink>.
-about-playbook-how-add-sentences-content-2 = ზიტყვასქვილეფს ოკო გინაჯინას დო მიღას ჟირ კოჩქ, ხვალე ათე შემთხვევას ქიგიაძინუ თინა Common Voice-ის. ოხემანჯღვერე წესეფი თქვან ნინაშოთ შეილებუნა აკოქიმინათჷნი <languageGuidelinesLink> ათაქ </languageGuidelinesLink>. ზიტყვასქვილეფი ოკო რდას <licenseLink> ოირქიანე საკუთრებაშე </licenseLink> დო მიშეშკვანდას ოკო 15 ზიტყვას. შეილებუნა შხვადოშხვა ავტორს ქოთხუათ მუნეფიშ საკუთარ ტექსტეფი <waiverLink>CC0-ლიცენზიათ საკუთარი ნებაშ დათმებათ </waiverLink>, დო ქუმობჭარით commonvoice@mozilla.com
-about-playbook-how-add-sentences-content-3 = თეშ გარდა, შეილებუნა გიმირინუათ <scraperLink> ზიტყვასქვილეფიშ მაკორობალი </scraperLink> ხეჭკუდი ვიკიპედიაშე კუნტა ზიტყვასქვილეფიშ დუდიშული ლიცენზიათ გჷმარინაფალო.
+about-playbook-how-add-sentences-content-1 = სი შეილებუ ქიგუძინე ზიტყვასქვილეფი <writePageLink> ჭარუაში ხასლას </writePageLink> ვარდა ზიტყვასქვილეფიში გინოჯინა <reviewPageLink> გინოჯინაში ხასლას </reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = ზიტყვასქვილეფს ოკო გინაჯინას დო მიღას ჟირ კოჩქ, ხვალე ათე შემთხვევას ქიგიაძინუ თინა Common Voice-ის. ოხემანჯღვერე წესეფი თქვანი ნინაშოთ შეილებუნა აკოქიმინათჷნი <languageGuidelinesLink> ათაქ </languageGuidelinesLink>. ზიტყვასქვილეფი ოკო რდას <licenseLink> ოირქიანე საკუთრებაშე </licenseLink> დო მიშეშკვანდას ოკო 15 ზიტყვას. შეილებუნა შხვადოშხვა ავტორს ქოთხუათ მუნეფიში საკუთარი ტექსტეფი <waiverLink>CC0-ლიცენზიათ საკუთარი ნებაში დათმებათ </waiverLink>, დო ქუმობჭარით commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = თეშ გარდა, შეილებუნა გიმირინუათ <scraperLink> ზიტყვასქვილეფიში მაკორობალი </scraperLink> ხეჭკუდი ვიკიპედიაშე კუნტა ზიტყვასქვილეფიში დუდიშული ლიცენზიათ გჷმარინაფალო.
 
 ## How to record quality
 
-about-playbook-how-record-quality = მუჭო ინიბჭარა მაღალ ხარისხიშ ხონარუან კლიპი?
-about-playbook-how-record-content-1 = იჩიით ორთაშურო! თქვანი განსხვავებული ჩიებაშ მანერა თაქ მიოღებელ რე. მოკონა, თქვანი აქცენტი თიცალი, მუჭომით რენი დო თქვან ჩიებაშ ნტირულობა, სტილი დო ინტონაცია.
-about-playbook-how-record-content-2 = დუდ არიდით ზედმეტ ხონარობას - თქვანი ხონარი კარაკანო ოკო ირჩქილედას.
+about-playbook-how-record-quality = მუჭო ინიბჭარა მაღალი ხარისხიში ხონარუანი კლიპი?
+about-playbook-how-record-content-1 = იჩიით ორთაშურო! თქვანი განსხვავებული ჩიებაში მანერა თაქ მიოღებელი რე. მოკონა, თქვანი აქცენტი თიცალი, მუჭომით რენი დო თქვანი ჩიებაში ნტირულობა, სტილი დო ინტონაცია.
+about-playbook-how-record-content-2 = დუდი არიდით ზედმეტი ხონარობას - თქვანი ხონარი კარაკანო ოკო ირჩქილედას.
 about-playbook-how-record-content-3 = წეკითხით ზიტყვასქვილი თოლჸუჯიერო - ვაგშეტუათ, ვათირუათ დო ვეგუძინათ ზიტყვეფი ვარდა ასოეფი.
-about-playbook-how-record-content-4 = დერწმუნით, ნამდა თქვან მოწყობილობა ინმიჭარანს ხონარს ჩიებაშ დოჭყაფაშა დო მითმეჭყორდუ ჩიებაშ გათებაშ უკული.
-about-playbook-how-record-content-5 = <accuracyLink> ქოძირით უმოს მეტი წილიშ წორას მიშაღალაშ გურშენი. </accuracyLink>
+about-playbook-how-record-content-4 = დერწმუნით, ნამდა თქვან მოწყობილობა ინმიჭარანს ხონარს ჩიებაში დოჭყაფაშა დო მითმეჭყორდუ ჩიებაში გათებაში უკული.
+about-playbook-how-record-content-5 = <accuracyLink> ქოძირით უმოს მეტი წილიში წორას მიშაღალაში გურშენი. </accuracyLink>
 
 ## How to grow language
 
-about-playbook-how-grow-language = მუჭო შეუნწყუათ ხე ნინაშ რდუალას Common Voice-ის?
+about-playbook-how-grow-language = მუჭო შეუნწყუათ ხე ნინაში რდუალას Common Voice-ის?
 about-playbook-how-grow-language-content-1 = Common Voice-ის შხვადოშხვა კათაში მაჭანაფალო დო წილიშ მიშაღალარო ოსქვებური პირობეფიშ აკოქიმინუა, თის შანულენს ნამდა მუნაჩემეფიშ კათელი ბრელ კოჩის იჸუაფუ მერგებული. ჩქი გუახაზირით რესურსეფი დო შაბლონეფი, ნამუში გუმორინაფა შეილებუნანი!
 about-playbook-how-grow-language-content-2 = ღონისძიებეფი
 about-playbook-how-grow-language-content-3 = შეილებუნა ღონისძიებეფი აკანწყუათ მეტი მოხალისეში აკაშაყარალო. ფირქენქჷნი, თიშ უმოს ანდვილ რე. ინტერნეტით, კონფერენციეფიშ მანწყუალ პროგრამეფით, პირადო კათაშ ძირაფათ. <eventTemplate> ქოძირით ჩქინ ნამუშერეფი დო მარგებელ მასალეფი ღონისძიებეფიშ გურშენი </eventTemplate>.
