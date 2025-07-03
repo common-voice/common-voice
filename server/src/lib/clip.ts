@@ -237,7 +237,7 @@ export default class Clip {
       this.clipSaveError(
         headers,
         response,
-        204,
+        409,
         `${clipFileName} already exists`,
         ERRORS.ALREADY_EXISTS,
         'clip'
