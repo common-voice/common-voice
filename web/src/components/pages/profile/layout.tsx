@@ -23,6 +23,7 @@ import DeleteProfile from './delete/delete'
 import InfoPage from './info/info'
 import Settings from './settings/settings'
 import DownloadProfile from './download/download'
+import { ApiCredentials } from './api-credentials'
 
 import './layout.css'
 
@@ -98,14 +99,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
             { route: downloadRoute, Component: DownloadProfile },
-            {
-              route: apiCredentialsRoute,
-              Component: React.lazy(() =>
-                import('./api-credentials').then(module => ({
-                  default: module.ApiCredentials,
-                }))
-              ),
-            },
+            { route: apiCredentialsRoute, Component: ApiCredentials },
           ].map(({ route, Component }) => (
             <SentryRoute
               key={route}

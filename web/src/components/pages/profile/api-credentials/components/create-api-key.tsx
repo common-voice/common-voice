@@ -1,10 +1,14 @@
 import React from 'react'
 
 import { Localized } from '@fluent/react'
-import { Button, LabeledInput } from '../../../ui/ui'
-import { InfoIcon, PlusCircleIcon } from '../../../ui/icons'
+import { Button, LabeledInput } from '../../../../ui/ui'
+import { InfoIcon, PlusCircleIcon } from '../../../../ui/icons'
 
-export const CreateApiKey = () => {
+type Props = {
+  handleCreateApiKey: () => void
+}
+
+export const CreateApiKey = ({ handleCreateApiKey }: Props) => {
   const [apiKeyName, setApiKeyName] = React.useState('')
 
   return (
@@ -31,7 +35,9 @@ export const CreateApiKey = () => {
             <p className="description" />
           </Localized>
 
-          <Button className="generate-api-key-button">
+          <Button
+            className="generate-api-key-button"
+            onClick={handleCreateApiKey}>
             <PlusCircleIcon />
             <Localized id="generate-api-key-button">
               <span />

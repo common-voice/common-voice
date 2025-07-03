@@ -81,8 +81,8 @@ variant-contribution-option-1 = Show me sentences and clips from all variants wi
 variant-contribution-option-2 = Only show me sentences and clips from my variant
 variant-contribution-warning-title = ⓘ Not all sentences and clips have Variant tags yet!
 variant-contribution-warning-subtitle = If you’re having trouble contributing, you can switch back to seeing all content for your language at any time.
-api-credentials-description = Common Voice's API allows developers to access a rich dataset of voice recordings contributed by users around the world.
-    By integrating this API, you can enhance your applications with high-quality speech recognition capabilities. The API provides endpoints for submitting audio samples, retrieving datasets, and accessing various tools to analyze and improve speech models.
+api-credentials-description-1 = Common Voice's API allows developers to access a rich dataset of voice recordings contributed by users around the world.
+api-credentials-description-2 = By integrating this API, you can enhance your applications with high-quality speech recognition capabilities. The API provides endpoints for submitting audio samples, retrieving datasets, and accessing various tools to analyze and improve speech models.
     This collaborative platform not only helps in building more accurate voice recognition systems but also empowers users to contribute to the evolution of voice technology.
 create-api-key-button = Create API Key
 your-api-keys = Your API Keys
@@ -98,7 +98,11 @@ create-api-key-description = When you click the "Generate API Key" button, a uni
     Please note that for security reasons, this API key will only be displayed once. Make sure to copy and store it in a safe place immediately after generation.
     If you lose this key, you will need to generate a new one, as it will not be retrievable later.
 generate-api-key-button = Generate API Key
-public-api-key =
-    ,label = Public API Key
-secret-api-key =
-    .label = Secret API Key
+public-api-key = Public API Key
+secret-api-key = Secret API Key
+save-api-key-info = <bold>Save Your Keys Securely:</bold> Once generated, make sure to store the keys securely and do not expose it in public repositories.
+    The SECRET key will only be accessible once, right now.
+api-key-name-display-label = API Key Name
+api-key-modal-confirmation-header = Are you sure?
+cancel-api-key-confirmation-description = Are you sure you want to cancel generating an API key?
+delete-api-key-confirmation-description = Are you sure you want to delete API Key [API Key Name]? This action can’t be undone

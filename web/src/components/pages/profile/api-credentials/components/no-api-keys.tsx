@@ -1,7 +1,7 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
 
-import { InfoIcon } from '../../../ui/icons'
+import { InfoIcon } from '../../../../ui/icons'
 
 export const NoApiKeys = () => {
   return (
