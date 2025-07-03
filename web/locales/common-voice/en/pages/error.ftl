@@ -6,6 +6,7 @@ banner-error-slow-link = Status Page
 error-something-went-wrong = Sorry, something went wrong
 error-clip-upload = Upload of this clip keeps failing, keep retrying?
 error-clip-upload-server = Upload of this clip keeps failing at server. Reload the page or try again later.
+error-duplicate-clips =  Only { $uploaded } of { $total } clips could be uploaded. It looks like you've already recorded others. Let's go ahead and try the next set!
 error-title-404 = We couldn’t find that page for you
 error-content-404 = Maybe our <homepageLink>homepage</homepageLink> will help? To ask a question, please join the <matrixLink>Matrix community chat</matrixLink>, monitor site issues via <githubLink>GitHub</githubLink> or visit <discourseLink>our Discourse forums</discourseLink>.
 error-title-503 = We’re experiencing unexpected downtime
