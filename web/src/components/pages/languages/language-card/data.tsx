@@ -65,7 +65,14 @@ const LanguageCardDataLaunched = ({
           <IconSentences className={styles.DataItemHeadingIcon} />
           <Localized id="sentences" />
         </h4>
-        <p className={styles.DataItemValue}>{sentencesCount.currentCount}</p>
+        <p className={styles.DataItemValue}>
+          {sentencesCount.currentCount}
+          {sentencesCount.votableCount > 0 ?
+            <small> / +{sentencesCount.votableCount}</small>
+            :
+            <></>
+          }
+        </p>
       </div>
     </div>
   )

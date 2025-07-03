@@ -1,6 +1,7 @@
 export type SentenceCount = {
   currentCount: number;
   targetSentenceCount: number;
+  votableCount: number;
 };
 
 export type GenericStatistic = {
