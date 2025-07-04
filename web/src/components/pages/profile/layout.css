@@ -59,6 +59,10 @@
                 }
             }
 
+            svg.code-icon {
+                width: unset;
+            }
+
             a {
                 border-radius: 40px;
                 padding: 18px 40px;
