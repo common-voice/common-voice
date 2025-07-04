@@ -10,6 +10,8 @@ import { useLocale } from '../../locale-helpers';
 
 import './dataset-corpus-download-table.css';
 
+const DEFAULT_VISIBLE_COUNT = 6
+
 interface Props {
   releaseData: any[];
   onRowSelect: (selectedId: number, index: number) => void;
@@ -79,42 +81,60 @@ const DatasetCorpusDownloadTable = ({
 }: Props & WithLocalizationProps) => {
   const [locale] = useLocale();
 
+  const [showAllDownloads, setShowAllDownloads] = React.useState(false);
+
+  const toggleShowAllDownloads = () => {
+    setShowAllDownloads(!showAllDownloads)
+  }
+
+  const datasetsToShow = showAllDownloads
+    ? releaseData
+    : releaseData.slice(0, DEFAULT_VISIBLE_COUNT)
+
   return (
-    <table className="table dataset-table hidden-md-down">
-      <thead>
-        <tr>
-          {Object.values(COLUMNS).map(column => {
+    <React.Fragment>
+        <Localized id={'datasets-show-' + (showAllDownloads ? 'less' : 'more')}>
+          <button
+            className="show-all-datasets hidden-md-down"
+            onClick={toggleShowAllDownloads}
+          />
+        </Localized>
+      <table className="table dataset-table hidden-md-down">
+        <thead>
+          <tr>
+            {Object.values(COLUMNS).map(column => {
+              return (
+                <th key={column.label}>
+                  <Localized id={column.label} />
+                </th>
+              );
+            })}
+          </tr>
+        </thead>
+        <tbody>
+          {datasetsToShow.map((row, index) => {
             return (
-              <th key={column.label}>
-                <Localized id={column.label} />
-              </th>
+              <tr
+                onClick={() => onRowSelect(row.id, index)}
+                className={classNames({ selected: row.id === selectedId })}
+                key={row.id + row.release_dir}>
+                {Object.keys(COLUMNS).map((col: string, index) => {
+                  const { label, display } = COLUMNS[col];
+                  return (
+                    <td
+                      data-mobile-label={getString(label)}
+                      key={index + label}
+                      className={index < 3 ? 'highlight' : ''}>
+                      {display(row[col], locale)}
+                    </td>
+                  );
+                })}
+              </tr>
             );
           })}
-        </tr>
-      </thead>
-      <tbody>
-        {releaseData.map((row, index) => {
-          return (
-            <tr
-              onClick={() => onRowSelect(row.id, index)}
-              className={classNames({ selected: row.id === selectedId })}
-              key={row.id + row.release_dir}>
-              {Object.keys(COLUMNS).map((col: string, index) => {
-                const { label, display } = COLUMNS[col];
-                return (
-                  <td
-                    data-mobile-label={getString(label)}
-                    key={index + label}
-                    className={index < 3 ? 'highlight' : ''}>
-                    {display(row[col], locale)}
-                  </td>
-                );
-              })}
-            </tr>
-          );
-        })}
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </React.Fragment>
   );
 };
 
