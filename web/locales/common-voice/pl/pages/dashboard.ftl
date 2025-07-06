@@ -54,6 +54,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ustal cel
 cant-decide = Nie możesz się zdecydować?
+activity-needed-calculation-fixed = 100 osób nagrywających 100 zdań dziennie może wygenerować 13 godzin dźwięku. Utrzymując tę wydajność, 1000 godzin można osiągnąć w ciągu 3 miesięcy.
 how-many-per-day = Świetnie! Ile nagrań dziennie?
 how-many-a-week = Świetnie! Ile nagrań tygodniowo?
 which-goal-type = Czy chcesz nagrywać, odsłuchiwać czy wykonywać oba działania?

@@ -55,7 +55,7 @@ about-nav-get-involved = Dołącz do nas
 
 ## How to grow language
 
-about-playbook-how-grow-language-content-6 = Partnerstwa i sieci
+about-playbook-how-grow-language-content-6 = Współpraca i sieci
 
 ## How to validate
 
@@ -68,3 +68,4 @@ about-playbook-how-grow-language-content-6 = Partnerstwa i sieci
 
 ## How is Common Voice funded
 
+about-playbook-how-funded-content-3 = Jeśli Ty lub Twoja organizacja chcielibyście wesprzeć projekt, możecie dokonać <donateLink>darowizny</donateLink> lub skontaktować się z naszym zespołem ds. partnerstw pod adresem <emailFragment>commonvoice@mozilla.com</emailFragment>.

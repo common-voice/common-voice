@@ -273,6 +273,7 @@ privacy = Prywatność
 terms = Warunki korzystania
 cookies = Ciasteczka
 faq = Często zadawane pytania
+documentation = Dokumentacja
 content-license-text = Treść dostępna na warunkach <licenseLink>licencji Creative Commons</licenseLink>
 share-title = Zachęć innych do nagrania swojego głosu!
 share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspomóż swoim głosem na { $link }
