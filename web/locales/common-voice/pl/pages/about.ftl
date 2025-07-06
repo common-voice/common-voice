@@ -36,6 +36,7 @@ about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
 about-nav-get-involved = Dołącz do nas
+about-nav-how-it-works-2 = Jak działa projekt Common Voice?
 
 ## Community Playbook Content
 ## What is a language
@@ -46,6 +47,7 @@ about-nav-get-involved = Dołącz do nas
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = Tłumaczenie witryny Common Voice odbywa się na <strong>Pontoon</strong>.
 
 ## How to add sentences
 
@@ -68,4 +70,5 @@ about-playbook-how-grow-language-content-6 = Współpraca i sieci
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Jak finansowany jest projekt Common Voice?
 about-playbook-how-funded-content-3 = Jeśli Ty lub Twoja organizacja chcielibyście wesprzeć projekt, możecie dokonać <donateLink>darowizny</donateLink> lub skontaktować się z naszym zespołem ds. partnerstw pod adresem <emailFragment>commonvoice@mozilla.com</emailFragment>.
