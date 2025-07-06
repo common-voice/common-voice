@@ -45,6 +45,7 @@ contact-common-voice = Kontakt Common Voice-teamet
 ## Sentence collection nav ids
 
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
+citing-sentences = Kjeldetilvisingar for setningar
 adding-sentences = Leggje til setningar
 reviewing-sentences = Vurdere setningar
 sentence-domain = Setningsdomene
@@ -62,6 +63,7 @@ adding-sentences-subheader-length = Lengde
 adding-sentences-subheader-length-explanation = Setninga bør ha færre enn 15 ord.
 adding-sentences-subheader-spelling-punctuation = Stavemåte og teiknsetting
 adding-sentences-subheader-spelling-punctuation-explanation = Setninga må vere rett stava.
+adding-sentences-subheader-speakable = Lettlest
 adding-sentences-subheader-numbers = Nummerering
 adding-sentences-subheader-abbreviations = Forkortingar og akronym
 adding-sentences-subheader-punctuation = Teiknsetting

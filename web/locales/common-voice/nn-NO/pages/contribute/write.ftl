@@ -30,6 +30,8 @@ add-sentence-success = 1 setning innsamla
 add-sentence-error = Feil ved tillegging av setning
 required-field = Fyll ut dette feltet.
 single-sentence-submission = Innlevering av einskildsetning
+small-batch-sentence-submission = innsending av fleire setningar
+bulk-sentence-submission = Masseinnsending av setningar
 single-sentence = Enkelt setning
 small-batch-sentence = Lite parti
 bulk-sentence = Masseinnsending
@@ -40,9 +42,15 @@ agriculture_food = Landbruk og matprodukt
 # Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
+service_retail = Service og detaljhandel
+# Sentence Domain dropdown option
 general = Generelt
 # Sentence Domain dropdown option
 healthcare = Helsevesen
+# Sentence Domain dropdown option
+history_law_government = Historie, lov og stat
+# Sentence Domain dropdown option
+language_fundamentals = Grunnleggande språk (t.d. siffer, bokstavar, pengar)
 # Sentence Domain dropdown option
 media_entertainment = Media og underhaldning
 # Sentence Domain dropdown option

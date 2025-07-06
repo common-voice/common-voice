@@ -267,7 +267,7 @@ export default class API {
   createLanguageRequest = async (request: Request, response: Response) => {
     const { client_id } = request?.session?.user || {}
     if (!client_id) {
-      response.sendStatus(StatusCodes.BAD_REQUEST)
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     await this.model.db.createLanguageRequest(request.body.language, client_id)
     response.json({})
@@ -280,6 +280,9 @@ export default class API {
       },
       params: { id },
     } = request
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     await this.model.db.createSkippedSentence(id, client_id)
     response.json({})
   }
@@ -612,7 +615,7 @@ export default class API {
 
   getContributionActivity = async (req: Request, response: Response) => {
     const { locale } = req.params
-    const { client_id } = req?.session?.user
+    const { client_id } = req?.session?.user || {}
     const { from } = req.query
 
     response.json(

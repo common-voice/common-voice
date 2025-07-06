@@ -34,67 +34,6 @@ difficult-difficulty = Гугъу
 pro-difficulty = Iэзэ
 build-custom-goal = Езым уи мурадыр зыхуэгъэув
 cant-decide = Унафэ фыхъуркъэ?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                               *[other] сыхьэтнэсыфмазэецIыхутхыкIэщIзы махуэм.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Хъарзынэщ! Махуэ къэс сыт хуэдиз макъ тептхэрэ?
 how-many-a-week = Хъарзынэщ! Тхьэмахуэ къэс сыт хуэдиз макъ тептхэрэ?
 which-goal-type = Фтетхыну, къэфпщытэну хьэмэрэ модрейри?

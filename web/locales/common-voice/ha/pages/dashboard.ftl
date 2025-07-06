@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Saita manufa
 cant-decide = Ba za a iya yanke shawara ba?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awa ana samun nasara cikin sama da watanni{ $periodMonths } wata idan { $people } mutum rikodi { $clipsPerDay } shashin vidiyo a rana.
-                               *[other] { $totalHours } awa ana samun nasara cikin sama da watanni{ $periodMonths } wata idan { $people } mutum rikodi { $clipsPerDay } shirye-shiryen bidiyo a rana.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awa ana samun nasara cikin sama da watanni{ $periodMonths } wata idan { $people } mutane rikodi { $clipsPerDay } shashin vidiyo a rana.
-                               *[other] { $totalHours } awa ana samun nasara cikin sama da watanni{ $periodMonths } wata idan { $people } mutane rikodi { $clipsPerDay } shirye-shiryen bidiyo a rana.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awa ana samun nasara cikin sama da watanni{ $periodMonths } watanni idan { $people } mutum rikodi { $clipsPerDay } shashin vidiyo a rana.
-                               *[other] { $totalHours } awa ana samun nasara cikin sama da watanni{ $periodMonths } watanni idan { $people } mutum rikodi { $clipsPerDay } shirye-shiryen bidiyo a rana.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awa ana samun nasara cikin sama da watanni{ $periodMonths } watanni idan { $people } mutane rikodi { $clipsPerDay } shashin vidiyo a rana.
-                               *[other] { $totalHours } awa ana samun nasara cikin sama da watanni{ $periodMonths } watanni idan { $people } mutane rikodi { $clipsPerDay } shirye-shiryen bidiyo a rana.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awanni ana samun nasara cikin sama da watanni{ $periodMonths } wata idan { $people } mutum rikodi { $clipsPerDay } shashin vidiyo a rana.
-                               *[other] { $totalHours } awanni ana samun nasara cikin sama da watanni{ $periodMonths } wata idan { $people } mutum rikodi { $clipsPerDay } shirye-shiryen bidiyo a rana.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awanni ana samun nasara cikin sama da watanni{ $periodMonths } wata idan { $people } mutane rikodi { $clipsPerDay } shashin vidiyo a rana.
-                               *[other] { $totalHours } awanni ana samun nasara cikin sama da watanni{ $periodMonths } wata idan { $people } mutane rikodi { $clipsPerDay } shirye-shiryen bidiyo a rana.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awanni ana samun nasara cikin sama da watanni{ $periodMonths } watanni idan { $people } mutum rikodi { $clipsPerDay } shashin vidiyo a rana.
-                               *[other] { $totalHours } awanni ana samun nasara cikin sama da watanni{ $periodMonths } watanni idan { $people } mutum rikodi { $clipsPerDay } shirye-shiryen bidiyo a rana.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awanni ana samun nasara cikin sama da watanni{ $periodMonths } watanni idan { $people } mutane rikodi { $clipsPerDay } shashin vidiyo a rana.
-                               *[other] { $totalHours } awanni ana samun nasara cikin sama da watanni{ $periodMonths } watanni idan { $people } mutane rikodi { $clipsPerDay } shirye-shiryen bidiyo a rana.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Da kyau! Shirye-shiryen bidiyo guda nawa a rana?
 how-many-a-week = Da kyau! Shirye-shiryen bidiyo nawa a mako?
 which-goal-type = Ko kana bukatan yin magana, Saurara ko duka biyu?

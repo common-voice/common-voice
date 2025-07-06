@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Teekawo ekiruubirirwa
 cant-decide = Tosobola kusalawo?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipolunaku.
-                               *[other] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipolunaku.
-                               *[other] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipolunaku.
-                               *[other] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipolunaku.
-                               *[other] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipolunaku.
-                               *[other] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipolunaku.
-                               *[other] essaawa { $totalHours }esoboka mu mwezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipolunaku.
-                               *[other] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaomuntu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipolunaku.
-                               *[other] essaawa { $totalHours }esoboka mu myezi { $periodMonths }singaabantu { $people }balikondinga{ $clipsPerDay } clipsolunaku.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
 how-many-a-week = Kilungi! Buloboozi bumeka mu wiiki?
 which-goal-type = Oyagala kw'ogera, Kuwuliriza oba by'ombi?

@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Tetapkan target
 cant-decide = Tak bisa memutuskan?
-activity-needed-calculation-plural =
-    { $totalHours ->
-       *[other]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                       *[other]
-                            { $clipsPerDay ->
-                               *[other] { $totalHours } jamtercapai hanya dalam{ $periodMonths } bulanjika{ $people } orangmerekam{ $clipsPerDay } klipper hari.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Hebat! Berapa banyak klip per hari?
 how-many-a-week = Hebat! Berapa banyak klip dalam seminggu?
 which-goal-type = Apakah Anda ingin Bicara, Mendengarkan, atau keduanya?

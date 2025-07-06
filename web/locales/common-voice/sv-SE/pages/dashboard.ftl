@@ -52,67 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timme kan uppnås på drygt { $periodMonths } månad om { $people } person spelar in { $clipsPerDay } klipp per dag.
-                               *[other] { $totalHours } timme kan uppnås på drygt { $periodMonths } månad om { $people } person spelar in { $clipsPerDay } klipp per dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timme kan uppnås på drygt { $periodMonths } månad om { $people } personer spelar in { $clipsPerDay } klipp per dag.
-                               *[other] { $totalHours } timme kan uppnås på drygt { $periodMonths } månad om { $people } personer spelar in { $clipsPerDay } klipp per dag.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timme kan uppnås på drygt { $periodMonths } månader om { $people } person spelar in { $clipsPerDay } klipp per dag.
-                               *[other] { $totalHours } timme kan uppnås på drygt { $periodMonths } månader om { $people } person spelar in { $clipsPerDay } klipp per dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timme kan uppnås på drygt { $periodMonths } månader om { $people } personer spelar in { $clipsPerDay } klipp per dag.
-                               *[other] { $totalHours } timme kan uppnås på drygt { $periodMonths } månader om { $people } personer spelar in { $clipsPerDay } klipp per dag.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månad om { $people } person spelar in { $clipsPerDay } klipp per dag.
-                               *[other] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månad om { $people } person spelar in { $clipsPerDay } klipp per dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månad om { $people } personer spelar in { $clipsPerDay } klipp per dag.
-                               *[other] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månad om { $people } personer spelar in { $clipsPerDay } klipp per dag.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månader om { $people } person spelar in { $clipsPerDay } klipp per dag.
-                               *[other] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månader om { $people } person spelar in { $clipsPerDay } klipp per dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månader om { $people } personer spelar in { $clipsPerDay } klipp per dag.
-                               *[other] { $totalHours } timmar kan uppnås på drygt { $periodMonths } månader om { $people } personer spelar in { $clipsPerDay } klipp per dag.
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = 100 personer som spelar in 100 meningar per dag kan generera 13 timmars ljud. Med denna prestanda kan 1000 timmar nås under 3 månader.
 how-many-per-day = Bra! Hur många klipp per dag?
 how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?

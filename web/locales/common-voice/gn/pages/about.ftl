@@ -149,5 +149,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 ## How is Common Voice funded
 
 about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
+about-playbook-how-funded-content-1 = Common Voice ha’e apopyrã Fundación Mozilla mba’éva, tendaguasu viru’ỹgua EE. UU.-ygua 501c3. Ko’ág̃a, ko apopyrã ojehepyme’ẽ <philantropicGrantLink>tapicha imba’eporãva rupi</philantropicGrantLink> ha jopói ome’ẽva yvypóra arapy tuichakue.
 about-playbook-how-funded-content-2 = Hetaiterei viru tekotevẽ ñeñongatu ha mba’ekuaarã aty ñemoherakuã, pyendavusu moporãve ha emongu’e <africaMradiLink>tembiaporape tekohagua</africaMradiLink>.
 about-playbook-how-funded-content-3 = Nde térã ne rendaguasu oipytyvõséramo apopyrã ndive, ejapokuaa <donateLink>jopói</donateLink> térã eñe’ẽ ore aty <emailFragment>commonvoice@mozilla.com</emailFragment> rupive.

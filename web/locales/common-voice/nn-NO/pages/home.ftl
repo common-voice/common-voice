@@ -117,6 +117,7 @@ action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattfor
 action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbetre tekst- og taledatasett.
 scripted-card-header = Opplesen tekst
 spontaneous-card-header = Spontan tale
+language-text-card-header = Tekstspråk
 add-text = Legg til tekst
 
 ## Community section
@@ -148,6 +149,8 @@ download-press-pack = Last ned pressepakken vår <icon></icon>
 ## Developers section
 
 developers-section-title = Offentleg tilgjengelege opne taledatasett på over 130 språk
+# icon is an arrow that points to the right
+explore-datasets = Utforsk datasett <icon></icon>
 
 ## Get involved section
 

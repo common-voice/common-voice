@@ -19,6 +19,9 @@ contribute-more =
 speak-empty-state = Vi har gått tom for setningar å spele inn på dette språket…
 no-sentences-for-variants = Språkvarianten din kan vere tom for setningar! Dersom du er ønskjer, kan du endre innstillingane dine for å sjå andre setningar på språket ditt.
 speak-empty-state-cta = Bidra med setningar
+speak-loading-error =
+    Vi klarte ikkje å laste nokre setningar du kan lese.
+    Prøv igjen seinare.
 record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
 keep-track-profile = Hald oversikt over framgangen din med ein profil
@@ -123,6 +126,7 @@ contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-varying-pronunciations-title = Ulike uttalar
 contribution-varying-pronunciations-description = Ver forsiktig før du avviser eit klipp med grunngiving at lesaren har uttalt eit ord feil, har lagt vekta på feil stad, eller tilsynelatande har ignorert eit spørsmålsteikn. Det er eit stort utval uttale i bruk rundt om i verda, nokre av dei har du kanskje ikkje høyrt i lokalsamfunnet ditt. Gi rom for variasjon overfor dei som snakkar annleis enn deg.
 contribution-varying-pronunciations-description-extended = På den andre sida, viss du trur at lesaren sannsynlegvis aldri har kome over ordet før, og berre gjettar feil på uttalen, ver vennleg og avvis. Viss du er usikker, bruk hopp over-knappen.
+contribution-varying-pronunciations-example-1-title = På hovudet hadde han ein beret.
 contribution-background-noise-title = Bakgrunnsstøy
 contribution-background-noise-description = Vi vil at maskinlæringsalgoritmane skal kunne handtere bakgrunnsstøy, og til og med relativt høge lydar kan aksepterast føresett at dei ikkje hindrar deg i å høyre heile teksten. Stille bakgrunnsmusikk er OK; musikk høg nok til å hindre deg i å høyre kvart einaste ord er det ikkje.
 contribution-background-noise-description-extended = Viss opptaket hakkar, eller har knitring, avvis det med mindre heile teksten framleis kan høyrast.

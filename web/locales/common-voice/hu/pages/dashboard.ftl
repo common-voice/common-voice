@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Cél kitűzése
 cant-decide = Nem tud dönteni?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                               *[other] { $totalHours } óra akár { $periodMonths } hónap alatt is elérhető, ha { $people } ember napi { $clipsPerDay } klipet vesz fel.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Nagyszerű! Naponta hány klipet?
 how-many-a-week = Nagyszerű! Hetente hány klipet?
 which-goal-type = Beszélni, figyelni vagy mindkettőt szeretne?

@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Zibekele umgomo
 cant-decide = Awukwazi ukuthatha isinqumo
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​inyanga uma { $people } umuntu orekhodayo { $clipsPerDay } isiqeshana ngosuku.
-                               *[other] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​inyanga uma { $people } umuntu orekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​inyanga uma abantu abangu-{ $people } abarekhodayo { $clipsPerDay } isiqeshana ngosuku.
-                               *[other] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​inyanga uma abantu abangu-{ $people } abarekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​izinyanga uma { $people } umuntu orekhodayo { $clipsPerDay } isiqeshana ngosuku.
-                               *[other] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​izinyanga uma { $people } umuntu orekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​izinyanga uma abantu abangu-{ $people } abarekhodayo { $clipsPerDay } isiqeshana ngosuku.
-                               *[other] { $totalHours } ihora lifinyeleleka esikhathini esingaphezudlwana nje kuka{ $periodMonths } ​​izinyanga uma abantu abangu-{ $people } abarekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​inyanga uma { $people } umuntu orekhodayo { $clipsPerDay } isiqeshana ngosuku.
-                               *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​inyanga uma { $people } umuntu orekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​inyanga uma abantu abangu-{ $people } abarekhodayo { $clipsPerDay } isiqeshana ngosuku.
-                               *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​inyanga uma abantu abangu-{ $people } abarekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​izinyanga uma { $people } umuntu orekhodayo { $clipsPerDay } isiqeshana ngosuku.
-                               *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​izinyanga uma { $people } umuntu orekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​izinyanga uma abantu abangu-{ $people } abarekhodayo { $clipsPerDay } isiqeshana ngosuku.
-                               *[other] { $totalHours } amahora ifinyeleleka esikhathini esingaphezudlwana kuka{ $periodMonths } ​​izinyanga uma abantu abangu-{ $people } abarekhodayo iziqeshana ezingu-{ $clipsPerDay } ngosuku.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Kuhle! Zingaki iziqeshana ngosuku?
 how-many-a-week = Kuhle! Zingaki iziqeshana ngeviki?
 which-goal-type = Uyafuna Ukukhuluma, Ukulalela noma kokubili?
