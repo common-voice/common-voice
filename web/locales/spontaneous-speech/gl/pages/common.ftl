@@ -29,7 +29,7 @@ continue-with-skipped = Continuar co contido omitido
 
 ## Navbar
 
-respond-to-prompt = Responda a pregunta
+respond-to-prompt = Responda
 transcribe = Transcriba
 check-transcriptions = Revise transcricións
 question = Engada preguntas
