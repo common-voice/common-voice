@@ -2,7 +2,7 @@
 
 ## Current release
 
-### v1.147.0 (2025-07-??)
+### v1.147.0 (2025-07-07)
 
 - Feat: Text input cleaning (handles CR/LF/TAB characters in free input fields) by [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4850](https://github.com/common-voice/common-voice/pull/4850)
 - Feat: Add cv-corpus-22-0 and cv-corpus-22-0-delta datasets and stats by [@moz-dfeller](https://github.com/moz-dfeller) in [#4953](https://github.com/common-voice/common-voice/pull/4953)
@@ -29,6 +29,10 @@
 - Move existing tvu data to tvu-ndikini variant by [@moz-bozden](https://github.com/moz-bozden) in [#4902](https://github.com/common-voice/common-voice/pull/4902)
 - Add ug-Cyrl and ug-Arab variants by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#4889](https://github.com/common-voice/common-voice/pull/4889)
 - Move existing ug data to ug-Arab variant by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#4891](https://github.com/common-voice/common-voice/pull/4891)
+
+## Next release
+
+### v1.x.x (TBA)
 
 ## Past releases
 
