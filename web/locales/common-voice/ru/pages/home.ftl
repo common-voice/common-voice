@@ -100,6 +100,7 @@ community-and-languages-menu-item-tooltip = Откройте для себя я�
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Меню доступа к Партнерствам, Прессе и историям, Сообществу и Языкам
 about-us-menu-aria-label = Меню настроек «О нас»
 about-us-menu-item-aria-label = Меню параметров "О нас"
 partnerships-menu-item-aria-label = Узнайте о партнёрстве с Common Voice
