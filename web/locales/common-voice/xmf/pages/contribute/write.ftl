@@ -84,28 +84,28 @@ maximum-file-size = ფაილიში ნტირულობა არძ�
 what-needs-to-be-in-file = მუ ოკო რდას ჩქიმ ფაილს?
 what-needs-to-be-in-file-explanation = ქორთხინთ ქიგნაჯინათ <templateFileLink> ფაილიში დადარს </templateFileLink>. თქვანი ზიტყვასქვილეფი ოირქიანე საკუთრება ოკო რდას (CC0 ლიცენზიათ ვარდა საკუთარი ნამუშერი) დო არძაშო გაგებელჷ ნინათ, თინას ოკო ჭარუდას, არდვილო წეკითხანინი. თაქ მოჩამილი ზიტყვასქვილეფიში კითხირს 10-15 წამი ოკო ოსაჭირუდას დო ციფრეფი, საკუთარი ჯოხოეფი ვარდა შხვა საგანგიო ნიშნეფი ვარდას.
 upload-progress-text = გითმიაძინუ...
-sc-bulk-submit-confirm = ვადასურენქ, ნამდა თე ზიტყვასქვილი <wikipediaLink> ოირქიანე საკუთრებას </wikipediaLink> დო მიღუ თიში გეძინაშ ნება.
-bulk-upload-success-toast = ზიტყვასქვილეფს არძოქ ართო ქიგიაძინ
+sc-bulk-submit-confirm = ვადასურენქ, ნამდა თე ზიტყვასქვილი <wikipediaLink> ოირქიანე საკუთრება რე </wikipediaLink> დო მიღუ თიში გედვალაში ნება.
+bulk-upload-success-toast = ზიტყვასქვილეფქ არძოქ ართო ქიგიაძინჷ
 bulk-upload-failed-toast = ვეგიაძინ, ქორთხინთ, კინ ქოცადათჷნი.
-bulk-submission-success-header = მარდი, ზიტყვასქვილეფიშ ართო მოჯღონუაშენი!
-bulk-submission-success-subheader = თქვა ოხვარუთ Common Voice-ის ზიტყვასქვილეფიშ შაყარუაში დღაშ ღანკიში მეჭირინაფას!
-upload-more-btn-text = გოკონანო მეტი ზიტყვასქვილეფიშ გეძინა?
+bulk-submission-success-header = მარდი, ზიტყვასქვილეფიში ართო მოჯღონუაშენი!
+bulk-submission-success-subheader = თქვა ოხვარუთ Common Voice-ის ზიტყვასქვილეფიში შაყარუაში დღაში ღანკიში მეჭირინაფას!
+upload-more-btn-text = გოკონანო მეტი ზიტყვასქვილეფიში გეძინა?
 file-invalid-type = უწორო ფაილი
-file-too-large = ფაილი გვალო დიდ რე
+file-too-large = ფაილი გვალო დიდი რე
 file-too-small = ფაილი გვალო ჭიჭე რე
-too-many-files = ბრელ ფაილეფ რე
+too-many-files = ბრელი ფაილეფი რე
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = ქიგუძინით ართ-ჟირ </icon><icon> ზიტყვასქვილი ოირქიანე საკუთრებაშე
-multiple-sentences-error = ვეგგაძინინენა ართ-ჟირ ზიტყვასქვილი თიო-თიოთ მიშაღალაშ დროს
-exceeds-small-batch-limit-error = ვემიხერხინე 1000-შე უმოსი ზიტყვასქვილიშ ჯღონა
+small-batch-instruction = ქიგუძინით ართ-ჟირი </icon><icon> ზიტყვასქვილი ოირქიანე საკუთრებაშე
+multiple-sentences-error = ვეგგაძინინენა ართ-ჟირი ზიტყვასქვილი თიო-თიოთ მიშაღალაში დროს
+exceeds-small-batch-limit-error = ვემიხერხინე 1000-შე უმოსი ზიტყვასქვილიში ჯღონა
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] სიხშირეშ სანზღვარს მიკაჩირთ. ხოლო ქოცადით 1 წუთშა.
-       *[other] სიხშირეშ სანზღვარს მიკაჩირთ. ხოლო ქოცადით { $retryLimit } წუთშა.
+        [one] სიხშირეში სანზღვარს მიკაჩირთ. ხოლო ქოცადით 1 წუთშა.
+       *[other] სიხშირეში სანზღვარს მიკაჩირთ. ხოლო ქოცადით { $retryLimit } წუთშა.
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
@@ -116,14 +116,14 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ 1 წუთი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი, მოთვინებაშენი!
-       *[other] თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ { $retryLimit } წუთი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი, მოთვინებაშენი!
+        [one] თქვა ქიმიონჭირინეთ ჯღონაში ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ 1 წუთი ახალი ზიტყვასქვილიში ჯღონაშახ. მარდი, მოთვინებაშენი!
+       *[other] თქვა ქიმიონჭირინეთ ჯღონაში ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ { $retryLimit } წუთი ახალი ზიტყვასქვილიში ჯღონაშახ. მარდი, მოთვინებაშენი!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ 1 წამი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი,მოთვინებაშენი!
-       *[other] თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ { $retryLimit } წამი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი, მოთვინებაშენი!
+        [one] თქვა ქიმიონჭირინეთ ჯღონაში ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ 1 წამი ახალი ზიტყვასქვილიში ჯღონაშახ. მარდი,მოთვინებაშენი!
+       *[other] თქვა ქიმიონჭირინეთ ჯღონაში ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ { $retryLimit } წამი ახალი ზიტყვასქვილიში ჯღონაშახ. მარდი, მოთვინებაშენი!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
@@ -144,22 +144,22 @@ small-batch-sentences-rule-4 = ქიგუძინით არძაშ უ�
 small-batch-sentences-rule-5 = არძა ზიტყვასქვილი ართი დარგიშე ოკო ორდას
 small-batch-sentences-rule-6 = არძა ზიტყვასქვილი ართი წყუშე ოკო რდას
 # menu item
-add-sentences = ზიტყვასქვილეფიშ გეძინა
+add-sentences = ზიტყვასქვილეფიში გეძინა
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = ზიტყვასქვილეფიშ გეძინა დო გინოჯინა, ოკითხირეფიშ გეძინა, ინოჭარილ ხონარეფიშ ნაჭარათ მოჩამა
-add-sentences-menu-item-tooltip = ქიგუძინით ზიტყვასქვილეფი თქვან ნინაშა
-review-sentences-menu-item-tooltip = ქიგნაჯინით ზიტყვასქვილეფს თქვან ნინაშა
-add-questions-menu-item-tooltip = ქიგუძინით ოკითხირეფი თქვან ნინაშა
-review-questions-menu-item-tooltip = ოკითხირეფიშ გინოჯინა
-transcribe-audio-menu-item-tooltip = ინოჭარილ ხონარეფიშ ტრანსკრიფცია თქვან ნინაშა
+write-contribute-menu-tooltip = ზიტყვასქვილეფიში გეძინა დო გინოჯინა, ოკითხირეფიში გეძინა, ინოჭარილი ხონარეფიში ნაჭარათ მოჩამა
+add-sentences-menu-item-tooltip = ქიგუძინით ზიტყვასქვილეფი თქვანი ნინაშა
+review-sentences-menu-item-tooltip = ქიგნაჯინით ზიტყვასქვილეფს თქვანი ნინაშა
+add-questions-menu-item-tooltip = ქიგუძინით ოკითხირეფი თქვანი ნინაშა
+review-questions-menu-item-tooltip = ოკითხირეფიში გინოჯინა
+transcribe-audio-menu-item-tooltip = ინოჭარილი ხონარეფიში ტრანსკრიფცია თქვანი ნინაშა
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = ჭარუაშ პარამეტრეფიშ მენიუ
+write-contribute-menu-aria-label = ჭარუაში პარამეტრეფიში მენიუ
 add-sentences-menu-item-aria-label = ქიგუძინით ზიტყვასქვილეფი მაკათურეფქ წეკითხანინი
-review-sentences-menu-item-aria-label = მაკათურეფიშ წუმორინაფილი ზიტყვასქვილეფიშ გინოჯინა
-add-questions-menu-item-aria-label = ოკითხირეფიშ გეძინა, ბუნაშ მაკათურეფქ წეკითხან დო გამა ქიმეჩანინი
-review-questions-menu-item-aria-label = ქიგნაჯინით დო ხუმა ქიმეჩით საზოგადოებაშ მოჩამილ ახალ ოკითხირეეფს
-transcribe-audio-menu-item-aria-label = ინოჭარილ ხონარეფიშ ნაჭარათ მოჩამა
+review-sentences-menu-item-aria-label = მაკათურეფიში წუმორინაფილი ზიტყვასქვილეფიში გინოჯინა
+add-questions-menu-item-aria-label = ოკითხირეფიში გეძინა, ბუნაშ მაკათურეფქ წეკითხანი დო გამა ქიმეჩანინი
+review-questions-menu-item-aria-label = ქიგნაჯინით დო ხუმა ქიმეჩით საზოგადოებაში მოჩამილი ახალი ოკითხირეფს
+transcribe-audio-menu-item-aria-label = ინოჭარილი ხონარეფიში ნაჭარათ მოჩამა
