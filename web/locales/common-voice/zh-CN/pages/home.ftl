@@ -88,7 +88,6 @@ spontaneous-speech = 即兴发言
 
 about-menu-tooltip = 合作伙伴、新闻和文章、社区和语言
 about-us-menu-item-tooltip = 详细了解 Common Voice 背后的团队及肩负的使命
-about-us-menu-item-aria-label = “关于我们”选项菜单
 partnerships-menu-item-tooltip = 与我们合作
 press-and-stories-menu-item-tooltip = 访问我们的博客，或讲述我们的故事
 community-and-languages-menu-item-tooltip = 探索语言、社区与 Common Voice
@@ -96,6 +95,7 @@ community-and-languages-menu-item-tooltip = 探索语言、社区与 Common Voic
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = “关于”选项菜单
+about-us-menu-item-aria-label = “关于我们”选项菜单
 partnerships-menu-item-aria-label = 了解与 Common Voice 的合作
 press-and-stories-menu-item-aria-label = 获取关于 Common Voice 的新闻稿和文章
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社区和语言

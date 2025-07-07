@@ -101,7 +101,6 @@ spontaneous-speech = SPONTANE SPRAAK
 
 about-menu-tooltip = Partnerskippen, Parse en ferhalen, Mienskip en talen
 about-us-menu-item-tooltip = Lês mear oer de misje en it team efter Common Voice
-about-us-menu-item-aria-label = Opsjesmenu Oer ús
 partnerships-menu-item-tooltip = Partner wurde
 press-and-stories-menu-item-tooltip = Besykje ús blog of skriuw oer ús
 community-and-languages-menu-item-tooltip = Talen en mienskippen en Common Voice ûntdekke
@@ -109,6 +108,7 @@ community-and-languages-menu-item-tooltip = Talen en mienskippen en Common Voice
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Opsjesmenu Oer
+about-us-menu-item-aria-label = Opsjesmenu Oer ús
 partnerships-menu-item-aria-label = Mear oer partnerskippen mei Common Voice
 press-and-stories-menu-item-aria-label = Parseberjochten en ferhalen mei betrekking ta Common Voice benaderje
 community-and-languages-menu-item-aria-label = De troch Common Voice stipe mienskip en talen ferkenne

@@ -91,7 +91,6 @@ spontaneous-speech = ΑΥΘΟΡΜΗΤΗ ΟΜΙΛΙΑ
 
 about-menu-tooltip = Συνεργασίες, τύπος και άρθρα, κοινότητα και γλώσσες
 about-us-menu-item-tooltip = Μάθετε για την αποστολή και την ομάδα πίσω από το Common Voice
-about-us-menu-item-aria-label = Μενού επιλογών πληροφοριών σχετικά με εμάς
 partnerships-menu-item-tooltip = Συνεργαστείτε μαζί μας
 press-and-stories-menu-item-tooltip = Επισκεφθείτε το blog μας ή γράψτε για εμάς
 community-and-languages-menu-item-tooltip = Ανακαλύψτε γλώσσες, κοινότητες και το Common Voice
@@ -99,6 +98,7 @@ community-and-languages-menu-item-tooltip = Ανακαλύψτε γλώσσες,
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Μενού επιλογών πληροφοριών
+about-us-menu-item-aria-label = Μενού επιλογών πληροφοριών σχετικά με εμάς
 partnerships-menu-item-aria-label = Μάθετε για τις συνεργασίες με το Common Voice
 press-and-stories-menu-item-aria-label = Αποκτήστε πρόσβαση σε δελτία τύπου και άρθρα σχετικά με το Common Voice
 community-and-languages-menu-item-aria-label = Εξερευνήστε την κοινότητα και τις γλώσσες που υποστηρίζει το Common Voice

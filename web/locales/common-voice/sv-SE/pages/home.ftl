@@ -94,7 +94,6 @@ spontaneous-speech = SPONTANT TAL
 
 about-menu-tooltip = Partnerskap, press och berättelser, gemenskap och språk
 about-us-menu-item-tooltip = Lär dig om uppdraget och teamet bakom Common Voice
-about-us-menu-item-aria-label = Alternativmeny — Om oss
 partnerships-menu-item-tooltip = Samarbeta med oss
 press-and-stories-menu-item-tooltip = Besök vår blogg eller skriv om oss
 community-and-languages-menu-item-tooltip = Upptäck språk och gemenskaper och Common Voice
@@ -102,6 +101,7 @@ community-and-languages-menu-item-tooltip = Upptäck språk och gemenskaper och 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Alternativmeny — Om
+about-us-menu-item-aria-label = Alternativmeny — Om oss
 partnerships-menu-item-aria-label = Läs om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tillgång till pressmeddelanden och berättelser relaterade till Common Voice
 community-and-languages-menu-item-aria-label = Utforska communityn och språk som stöds av Common Voice

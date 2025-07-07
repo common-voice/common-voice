@@ -94,7 +94,6 @@ spontaneous-speech = СПОНТАННАЯ РЕЧЬ
 
 about-menu-tooltip = Партнерства, Пресса и статьи, Сообщество и языки
 about-us-menu-item-tooltip = Узнайте о миссии и команде, стоящей за Common Voice.
-about-us-menu-item-aria-label = Меню параметров "О нас"
 partnerships-menu-item-tooltip = Стать нашим партнером
 press-and-stories-menu-item-tooltip = Посетите наш блог или напишите о нас
 community-and-languages-menu-item-tooltip = Откройте для себя языки, сообщества и общий голос
@@ -102,6 +101,7 @@ community-and-languages-menu-item-tooltip = Откройте для себя я�
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Меню настроек «О нас»
+about-us-menu-item-aria-label = Меню параметров "О нас"
 partnerships-menu-item-aria-label = Узнайте о партнёрстве с Common Voice
 press-and-stories-menu-item-aria-label = Получите доступ к пресс-релизам и статьям, связанным с Common Voice
 community-and-languages-menu-item-aria-label = Узнайте о сообществе и языках, поддерживаемых Common Voice

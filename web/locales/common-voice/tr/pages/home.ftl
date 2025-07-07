@@ -94,7 +94,6 @@ spontaneous-speech = DOĞAÇLAMA KONUŞMA
 
 about-menu-tooltip = Ortaklıklar, Basın ve Haberler, Topluluk ve Diller
 about-us-menu-item-tooltip = Common Voice’un misyonu ve ekibi hakkında bilgi alın
-about-us-menu-item-aria-label = Hakkımızda menüsü
 partnerships-menu-item-tooltip = İş ortağımız olun
 press-and-stories-menu-item-tooltip = Blogumuzu ziyaret edin veya hakkımızda yazı yazın
 community-and-languages-menu-item-tooltip = Dilleri, toplulukları ve Common Voice’u keşfedin
@@ -102,6 +101,7 @@ community-and-languages-menu-item-tooltip = Dilleri, toplulukları ve Common Voi
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Hakkında menüsü
+about-us-menu-item-aria-label = Hakkımızda menüsü
 partnerships-menu-item-aria-label = Common Voice ile ortaklık hakkında bilgi alın
 press-and-stories-menu-item-aria-label = Common Voice ile ilgili basın bültenlerine ve haberlere ulaşın
 community-and-languages-menu-item-aria-label = Common Voice topluluğunu ve desteklenen dilleri keşfedin

@@ -89,7 +89,6 @@ spontaneous-speech = НУТҚИ БЕВОСИТА
 
 about-menu-tooltip = Шарикӣ, Матбуот ва Ҳикояҳо, Ҷомеа ва забонҳо
 about-us-menu-item-tooltip = Маълумот дар бораи мақсадҳо ва гурӯҳи корие, ки лоиҳаи «Common Voice»-ро дастгирӣ мекунад
-about-us-menu-item-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-tooltip = Ҳамкорӣ бо мо
 press-and-stories-menu-item-tooltip = Ба блоги мо ворид шавед ё дар бораи мо нависед
 community-and-languages-menu-item-tooltip = Забонҳо, ҷомеаҳо ва овози умумиро кашф кунед
@@ -97,6 +96,7 @@ community-and-languages-menu-item-tooltip = Забонҳо, ҷомеаҳо ва 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Менюи имконоти «Дар бораи мо»
+about-us-menu-item-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Common Voice» маълумот гиред
 press-and-stories-menu-item-aria-label = Ба матбуоти расмӣ ва мақолаҳои марбут ба лоиҳаи «Common Voice» дастрасӣ пайдо намоед
 community-and-languages-menu-item-aria-label = Дар бораи ҷамъияти мо ва забонҳое, ки аз ҷониби «Common Voice» дастгирӣ мешаванд, маълумоти пурра пайдо кунед

@@ -71,12 +71,12 @@ spontaneous-speech = جاری گپ
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = شراکت داری، اخبار، مضمون، کمیونٹی اڤن زبان
-about-us-menu-item-aria-label = دے ماخ باری اختیاراتف مینو
 press-and-stories-menu-item-tooltip = ڤے کامن وائس سوغیکف، اپڈیٹسف اڤن ڤے میڈیا کوریج ݱا
 community-and-languages-menu-item-tooltip = لے ماخ کمیونٹین جفت اوئی اڤن ڤے معاون زبان اوژرے
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-item-aria-label = دے ماخ باری اختیاراتف مینو
 partnerships-menu-item-aria-label = لے کامن وائسن دے شراکت باری ایخسے
 press-and-stories-menu-item-aria-label = دے کامن وائس باری دے خبرف اڤن دے مضمونف ژاغہ اوئے
 community-and-languages-menu-item-aria-label = کامن وائس لے ګیم کمیونٹیف اڤن لے ګیم زبانف کو مدد کیتے ڤے وف معلوم کن

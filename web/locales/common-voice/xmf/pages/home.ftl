@@ -78,12 +78,12 @@ spontaneous-speech = სპონტანური ჩიება
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ალმახანდეობა, პრესა დო სიახალეეფი, საზოგადოებეფი დო ნინეფი
-about-us-menu-item-aria-label = ჩქინ გურშენი პარამეტრეფიშ მენიუ
 community-and-languages-menu-item-tooltip = ქიდეკავშირით ჩქინი ართობას დო ქოძირით ხუჯმეჩამილი ნინეფი
 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = პარამეტრეფიშ მენიუში გურშენი
+about-us-menu-item-aria-label = ჩქინ გურშენი პარამეტრეფიშ მენიუ
 
 ## NEW HOME PAGE KEYS
 
