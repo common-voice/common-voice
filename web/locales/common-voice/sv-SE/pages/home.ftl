@@ -100,6 +100,7 @@ community-and-languages-menu-item-tooltip = Upptäck språk och gemenskaper och 
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Meny för åtkomst till Partnerskap, Press och berättelser, Community och Språk
 about-us-menu-aria-label = Alternativmeny — Om
 about-us-menu-item-aria-label = Alternativmeny — Om oss
 partnerships-menu-item-aria-label = Läs om partnerskap med Common Voice
