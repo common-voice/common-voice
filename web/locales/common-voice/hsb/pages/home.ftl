@@ -103,6 +103,7 @@ community-and-languages-menu-item-tooltip = Wotkryjće rěče, zhromadźenstwa a
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Meni za přistup k partnerstwam, nowinam a stawizničkam, zhromadźenstwu a rěčam
 about-us-menu-aria-label = Wo meniju Nastajenja
 about-us-menu-item-aria-label = Nastajenja menija „Wo nas“
 partnerships-menu-item-aria-label = Zhońće wjace wo partnerstwach z Common Voice
