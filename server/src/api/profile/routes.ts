@@ -4,7 +4,6 @@ import { validateStrict } from '../../lib/validation'
 import { CreateApiCredentialsRequest } from './validation/create-api-credentials-request'
 import { createApiCredentialsHandler } from './handler/create-api-credentials-handler'
 import { getApiCredentialsHandler } from './handler/get-api-credentials-handler'
-import { GetApiCredentialsRequest } from './validation/get-api-credentials-request'
 
 export const profilesRouter = PromiseRouter({ mergeParams: true })
   .post(
@@ -16,8 +15,4 @@ export const profilesRouter = PromiseRouter({ mergeParams: true })
     validateStrict({ body: CreateApiCredentialsRequest }),
     createApiCredentialsHandler
   )
-  .get(
-    '/api-credentials',
-    validateStrict({ query: GetApiCredentialsRequest }),
-    getApiCredentialsHandler
-  )
+  .get('/api-credentials', getApiCredentialsHandler)

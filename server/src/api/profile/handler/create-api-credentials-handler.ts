@@ -11,8 +11,10 @@ export const createApiCredentialsHandler = async (
   if (!clientId)
     return res.status(StatusCodes.BAD_REQUEST).json({ message: 'no client id' })
 
-  return createClientCredentialsCommandHandler({
+  const result = await createClientCredentialsCommandHandler({
     userId: clientId,
     description: req.body.description,
   })
+
+  return res.json(result)
 }
