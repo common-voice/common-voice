@@ -408,25 +408,20 @@ class SpeakPage extends React.Component<Props, State> {
     this.setState({ clips: [], isSubmitted: true })
 
     const clip_count = clips.length
-    let duplicate_clip = false
     let uploaded_count = 0
+    let hasDuplicateClip = false
 
     addUploads([
       ...clips.map(({ sentence, recording }) => async () => {
         let retries = 3
         while (retries) {
           try {
-            const res = await api.uploadClip(
-              recording.blob,
-              sentence.id,
-              this.demoMode
-            )
             const {
               showFirstContributionToast = false,
               hasEarnedSessionToast = false,
               showFirstStreakToast = false,
               challengeEnded = true,
-            } = res
+            } = await api.uploadClip(recording.blob, sentence.id, this.demoMode)
             URL.revokeObjectURL(recording.url)
             try {
               sessionStorage.setItem(
@@ -474,9 +469,8 @@ class SpeakPage extends React.Component<Props, State> {
             uploaded_count += 1
           } catch (error) {
             let key = 'error-clip-upload'
-            console.log(error)
             if (error.message.includes('ALREADY_EXISTS')) {
-              duplicate_clip = true
+              hasDuplicateClip = true
               key = 'error-duplicate-clip'
             } else if (error.message.includes('save_clip_error')) {
               key = 'error-clip-upload-server'
@@ -485,7 +479,7 @@ class SpeakPage extends React.Component<Props, State> {
             retries--
             await new Promise(resolve => setTimeout(resolve, 1000))
 
-            if (retries == 0 && !duplicate_clip && confirm(getString(key))) {
+            if (retries == 0 && !hasDuplicateClip && confirm(getString(key))) {
               retries = 3
             }
           }
@@ -503,13 +497,21 @@ class SpeakPage extends React.Component<Props, State> {
               </Localized>
             </>
           )
-        } else if (duplicate_clip) {
-          alert(
-            getString('error-duplicate-clips', {
-              uploaded: uploaded_count,
-              total: clip_count,
-            })
-          )
+        } else if (hasDuplicateClip) {
+          if (uploaded_count === 0) {
+            alert(
+              getString('error-duplicate-clips-all', {
+                total: clip_count,
+              })
+            )
+          } else {
+            alert(
+              getString('error-duplicate-clips-some', {
+                uploaded: uploaded_count,
+                total: clip_count,
+              })
+            )
+          }
         }
       },
     ])
@@ -631,50 +633,6 @@ class SpeakPage extends React.Component<Props, State> {
       <>
         <div id="speak-page">
           {noNewClips && isLoading && <Spinner delayMs={500} />}
-          {isSubmitted && true && (
-            <NavigationPrompt
-              when={() => {
-                const clipsToRecord =
-                  clips.filter(clip => clip.recording).length > 0
-
-                if (clipsToRecord) {
-                  this.setAbortContributionModalVisiblity(true)
-                }
-
-                return clipsToRecord
-              }}>
-              {({ onConfirm, onCancel }: any) => (
-                <Modal
-                  innerClassName="record-abort"
-                  onRequestClose={() => this.handleAbortCancel(onCancel)}>
-                  <Localized id="record-abort-title">
-                    <h1 className="title" />
-                  </Localized>
-                  <Localized id="record-abort-text">
-                    <p className="text" />
-                  </Localized>
-                  <ModalButtons>
-                    <Localized id="record-abort-submit">
-                      <Button
-                        outline
-                        rounded
-                        className={getTrackClass('fs', 'exit-submit-clips')}
-                        onClick={() => {
-                          if (this.upload()) this.handleAbortConfirm(onConfirm)
-                        }}
-                      />
-                    </Localized>
-                  </ModalButtons>
-                  <Localized id="record-abort-delete">
-                    <TextButton
-                      className={getTrackClass('fs', 'exit-delete-clips')}
-                      onClick={onConfirm}
-                    />
-                  </Localized>
-                </Modal>
-              )}
-            </NavigationPrompt>
-          )}
           {!isSubmitted && (
             <NavigationPrompt
               when={() => {
