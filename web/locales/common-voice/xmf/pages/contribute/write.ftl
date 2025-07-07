@@ -2,12 +2,12 @@
 
 write = ჭარუა
 write-instruction = ქიგუძინით <icon></icon> ზიტყვასქვილეფი ოირქიანე საკუთრებაშე
-write-page-subtitle = თაქ მიშაღალირი ზიტყვასქვილეფი ქიგიაძინუ ოჯარეთ ხეშმიოჭირინაფალ cc-0 ლიცენზირებულ მუნაჩემეფიში კათელს.
+write-page-subtitle = თაქ მიშაღალირი ზიტყვასქვილეფი ქიგიაძინუ ოჯარეთ ხემიოჭირინაფალი cc-0 ლიცენზირებული მუნაჩემეფიში კათელს.
 sentence =
     .label = ზიტყვასქვილი
 sentence-input-placeholder = გემშიღით თაქ თქვანი ოირქიანე საკუთრებაშე ზიტყვასქვილი
 small-batch-sentence-input-placeholder = გემშიღით თაქ თქვანი ოირქიანე საკუთრებაშე ზიტყვასქვილი
-citation-input-placeholder = ქიმუწურეთ თქვანი ზიტყვასქვილეფიშ წყუ (აუცილებელ რე)
+citation-input-placeholder = ქიმუწურეთ თქვანი ზიტყვასქვილეფიში წყუ (აუცილებერი რე)
 citation =
     .label = წყუ
 sc-write-submit-confirm = ვადასურენქ, ნამდა თე ზიტყვასქვილი <wikipediaLink> ოირქიანე საკუთრება რე </wikipediaLink> დო მიღუ თიში გეძინაშ ნება.
