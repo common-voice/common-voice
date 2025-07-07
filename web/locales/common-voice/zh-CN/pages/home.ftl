@@ -94,6 +94,7 @@ community-and-languages-menu-item-tooltip = 探索语言、社区与 Common Voic
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = 用于访问合作伙伴、新闻和文章、社区和语言等项目的菜单
 about-us-menu-aria-label = “关于”选项菜单
 about-us-menu-item-aria-label = “关于我们”选项菜单
 partnerships-menu-item-aria-label = 了解与 Common Voice 的合作
