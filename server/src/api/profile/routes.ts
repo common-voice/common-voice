@@ -1,0 +1,23 @@
+import PromiseRouter from 'express-promise-router'
+import rateLimiter from '../../lib/rate-limiter-middleware'
+import { validateStrict } from '../../lib/validation'
+import { CreateApiCredentialsRequest } from './validation/create-api-credentials-request'
+import { createApiCredentialsHandler } from './handler/create-api-credentials-handler'
+import { getApiCredentialsHandler } from './handler/get-api-credentials-handler'
+import { GetApiCredentialsRequest } from './validation/get-api-credentials-request'
+
+export const profilesRouter = PromiseRouter({ mergeParams: true })
+  .post(
+    '/api-credentials',
+    rateLimiter('api/v1/profiles/api-credentials', {
+      points: 10,
+      duration: 60,
+    }),
+    validateStrict({ body: CreateApiCredentialsRequest }),
+    createApiCredentialsHandler
+  )
+  .get(
+    '/api-credentials',
+    validateStrict({ query: GetApiCredentialsRequest }),
+    getApiCredentialsHandler
+  )

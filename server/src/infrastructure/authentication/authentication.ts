@@ -1,4 +1,4 @@
-import { Environment } from '../../config-helper'
+import { Environment, getConfig } from '../../config-helper'
 
 export const CALLBACK_URL = '/callback'
 
@@ -11,3 +11,43 @@ export const COMMON_VOICE_DOMAIN_MAP: Readonly<Record<Environment, string>> = {
 
 export const callbackURL = (env: Environment) =>
   COMMON_VOICE_DOMAIN_MAP[env] + CALLBACK_URL
+
+export const createClientCredentials = async (clientInfo: {
+  userId: string
+  description: string
+  permissions: string[]
+}) => {
+  const res = await fetch(
+    getConfig().AUTH_SERVICE_URL + '/internal/auth/clients',
+    {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(clientInfo),
+    }
+  )
+
+  if (!res.ok) {
+    throw new Error(`Failed to create client credentials: ${res.status}`)
+  }
+
+  const data = await res.json()
+
+  return data
+}
+
+export const getClientCredentials = async (clientInfo: { userId: string }) => {
+  const res = await fetch(
+    getConfig().AUTH_SERVICE_URL +
+      `/internal/auth/clients?userId=${encodeURIComponent(clientInfo.userId)}`
+  )
+
+  if (!res.ok) {
+    throw new Error(`Failed to retrieve client credentials: ${res.status}`)
+  }
+
+  const data = await res.json()
+
+  return data
+}
