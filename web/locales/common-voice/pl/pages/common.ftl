@@ -296,3 +296,5 @@ not-available-abbreviation = Niedostępne
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Potrzebujemy</mark><br/><mark>Twojej pomocy!</mark>
