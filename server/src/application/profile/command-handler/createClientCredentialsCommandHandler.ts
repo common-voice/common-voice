@@ -9,11 +9,13 @@ const INITIAL_PERMISSIONS = [
   'text:submission:read',
   'text:submission:list',
 ]
-export const createClientCredentialsCommandHandler = (
+export const createClientCredentialsCommandHandler = async (
   cmd: CreateClientCredentialsCommand
 ) => {
-  return createClientCredentials({
+  const clientCredentials = await createClientCredentials({
     ...cmd,
     permissions: INITIAL_PERMISSIONS,
   })
+
+  return {...clientCredentials, permissions: clientCredentials.permissions.map(p => p.name)}
 }

@@ -12,11 +12,25 @@ export const COMMON_VOICE_DOMAIN_MAP: Readonly<Record<Environment, string>> = {
 export const callbackURL = (env: Environment) =>
   COMMON_VOICE_DOMAIN_MAP[env] + CALLBACK_URL
 
+export type CreateClientCredentialsResponse = {
+  userId: string
+  clientId: string
+  clientSecret: string
+  description: string
+  permissions: ClientCredentialsPermission[]
+}
+
+export type ClientCredentialsPermission = {
+  permission_id: number
+  name: string
+  description: string
+}
+
 export const createClientCredentials = async (clientInfo: {
   userId: string
   description: string
   permissions: string[]
-}) => {
+}): Promise<CreateClientCredentialsResponse> => {
   const res = await fetch(
     getConfig().AUTH_SERVICE_URL + '/internal/auth/clients',
     {
