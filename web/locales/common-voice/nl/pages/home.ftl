@@ -97,6 +97,7 @@ community-and-languages-menu-item-tooltip = Talen en gemeenschappen en Common Vo
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Menu voor toegang tot Partnerschappen, Pers en verhalen, Gemeenschap en Talen
 about-us-menu-aria-label = Optiesmenu Over
 about-us-menu-item-aria-label = Optiesmenu Over ons
 partnerships-menu-item-aria-label = Meer over partnerschappen met Common Voice
