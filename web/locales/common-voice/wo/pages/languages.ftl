@@ -1,5 +1,16 @@
 ## Languages Overview
 
+language-section-in-progress = Yokkute
+language-section-in-progress-new-description = Fimna nii lakk yooyu ñu ngi ci liggéeyu askan wi. <localizationGlossaryLink> Lokalisasioŋ dalu web bi</localizationGlossaryLink> ak <sentenceCollectionGlossaryLink> dajale baat</sentenceCollectionGlossaryLink> lañ soxla ngir tàmbali.
+language-section-launched = Tàmbali
+languages-show-more = Xol yeneen
+language-total-progress = Lépp
+language-search-input =
+    .placeholder = Wut
+language-speakers = Waxkat
+localized = Bërëb
+sentences = Waat
+language-validation-hours = Waxtu
 contribute = Jàpp ci
 get-involved-button = Bokk
 get-involved-title = Jàpp ci { $lang }

@@ -130,3 +130,4 @@ offensive-content-sensitive-information-explanation-explanation-2 = Porandu ikat
 offensive-content-sensitive-information-explanation-explanation-3 = Porandu ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
 example-questions-subheader = Porandu techapyrãva
 example-questions-explanation-1 = Ejuhukuaa <examplePromptsLink>120 techapyrã oĩva ko kuatiaroguépe.</examplePromptsLink>
+example-questions-explanation-2 = Remondoséramo peteĩ porandu aty rehegua oñeikumby porã hag̃ua, ikatu ejapo ore GitHub rupive</githubLink> térã emondo tysýi ñanduti veve rupive <emailFragment>commonvoice@mozilla.com-pe.

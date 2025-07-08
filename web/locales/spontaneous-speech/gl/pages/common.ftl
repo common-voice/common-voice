@@ -24,13 +24,16 @@ skip-button = Saltar
 submit-button = Enviar
 contribute = Colabore
 request-new-language = Solicitar un novo idioma
+# Button text which appears when there are no more resources
+continue-with-skipped = Continuar co contido omitido
 
 ## Navbar
 
 respond-to-prompt = Responda a pregunta
 transcribe = Transcriba
 check-transcriptions = Revise transcricións
-question = Pregunta
+question = Engada preguntas
+validate = Valide
 
 ## Not Found Page
 

@@ -5,8 +5,8 @@ error = ჩილათა
 action-click = ქიგუკაკეთ
 action-tap = ქიგუნჭირით
 # Label for language switcher
-platform-language = პლატფორმაშ ნინა
-platform-language-tooltip-text = თირანს ხვალე ვებსაიტიშ ტექსტის
+platform-language = პლატფორმაში ნინა
+platform-language-tooltip-text = თირანს ხვალე ვებსაიტიში ტექსტის
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = წილიშ მიშაღალარი ნინა { $language }
@@ -22,7 +22,7 @@ report-button = მოხსენება
 # For the button to skip an item
 skip-button = გიშატება
 submit-button = ჯღონა
-contribute = წილიშ მიშაღალა
+contribute = წილიში მიშაღალა
 request-new-language = მითხით ახალი ნინა
 # Button text which appears when there are no more resources
 continue-with-skipped = გაგძელით გიშატებათ
@@ -31,7 +31,7 @@ continue-with-skipped = გაგძელით გიშატებათ
 
 respond-to-prompt = ქუგამით მოთხუალას
 transcribe = ნაჭარათ მოჩამა
-check-transcriptions = ნაჭარაშ გინოჯინა
+check-transcriptions = ნაჭარაში გინოჯინა
 question = ოკითხირე
 validate = გინოჯინა
 

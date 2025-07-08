@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                               *[other] { $totalHours } сәгатьэчендә генә ирешеп була { $periodMonths } айәгәр{ $people } кешеяздырса{ $clipsPerDay } аудиоязмакөненә
-                            }
-                    }
-            }
-    }
 how-many-per-day = Шәп! Көнгә ничә аудиоязма?
 how-many-a-week = Шәп! Атнага ничә аудиоязма?
 which-goal-type = Сөйлисегез киләме, тыңлыйсыгызмы, әллә икесе дә?

@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Establecer una meta
 cant-decide = ¿No puedes decidir?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora es alcanzable en sólo{ $periodMonths } mes si{ $people } registro de persona{ $clipsPerDay } clip al día.
-                               *[other] { $totalHours } hora es alcanzable en sólo{ $periodMonths } mes si{ $people } registro de persona{ $clipsPerDay } clips al día.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora es alcanzable en sólo{ $periodMonths } mes si{ $people } registro de personas{ $clipsPerDay } clip al día.
-                               *[other] { $totalHours } hora es alcanzable en sólo{ $periodMonths } mes si{ $people } registro de personas{ $clipsPerDay } clips al día.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora es alcanzable en sólo{ $periodMonths } meses si{ $people } registro de persona{ $clipsPerDay } clip al día.
-                               *[other] { $totalHours } hora es alcanzable en sólo{ $periodMonths } meses si{ $people } registro de persona{ $clipsPerDay } clips al día.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora es alcanzable en sólo{ $periodMonths } meses si{ $people } registro de personas{ $clipsPerDay } clip al día.
-                               *[other] { $totalHours } hora es alcanzable en sólo{ $periodMonths } meses si{ $people } registro de personas{ $clipsPerDay } clips al día.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas son alcanzables en sólo{ $periodMonths } mes si{ $people } registro de persona{ $clipsPerDay } clip al día.
-                               *[other] { $totalHours } horas son alcanzables en sólo{ $periodMonths } mes si{ $people } registro de persona{ $clipsPerDay } clips al día.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas son alcanzables en sólo{ $periodMonths } mes si{ $people } registro de personas{ $clipsPerDay } clip al día.
-                               *[other] { $totalHours } horas son alcanzables en sólo{ $periodMonths } mes si{ $people } registro de personas{ $clipsPerDay } clips al día.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas son alcanzables en sólo{ $periodMonths } meses si{ $people } registro de persona{ $clipsPerDay } clip al día.
-                               *[other] { $totalHours } horas son alcanzables en sólo{ $periodMonths } meses si{ $people } registro de persona{ $clipsPerDay } clips al día.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas son alcanzables en sólo{ $periodMonths } meses si{ $people } registro de personas{ $clipsPerDay } clip al día.
-                               *[other] { $totalHours } horas son alcanzables en sólo{ $periodMonths } meses si{ $people } registro de personas{ $clipsPerDay } clips al día.
-                            }
-                    }
-            }
-    }
 how-many-per-day = ¡Estupendo! ¿Cuántos clips por día?
 how-many-a-week = ¡Estupendo! ¿Cuántos clips a la semana?
 which-goal-type = ¿Quieres hablar, escuchar o ambos?

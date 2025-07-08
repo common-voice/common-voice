@@ -52,67 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصد موقرَڑ تِھیا
 cant-decide = فیصلہ نہ تھوبامَس؟
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
-                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
-                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
-                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
-                               *[other] { $totalHours } hour is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clip a day.
-                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } person record { $clipsPerDay } clips a day.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clip a day.
-                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } month if { $people } people record { $clipsPerDay } clips a day.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clip a day.
-                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } person record { $clipsPerDay } clips a day.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clip a day.
-                               *[other] { $totalHours } hours is achievable in just over { $periodMonths } months if { $people } people record { $clipsPerDay } clips a day.
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = ایْک دیزمجی 100 جُملائے ریکارڈ تھینَک 100 منُوڙَس 13 گھنٹو آڈیو تِیار تھوبانَن۔ آ تکِھیار برقرار تِھیؤ 3 موزو مجی 1000 گھنٹو بُجَیش اُڇھبانَن۔
 how-many-per-day = لئی مِݜٹیْ ǃ ہر چھک کچا کلپی؟
 how-many-a-week = لئی مِݜٹیْ ǃ ہر ہفتہ دہ کچا کلپی؟
 which-goal-type = څھوْ موْݜ کال تھینَت،  ݜِݨون کھوشنَت یا بیدہوݩڑ؟

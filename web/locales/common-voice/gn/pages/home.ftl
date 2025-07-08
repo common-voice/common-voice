@@ -155,6 +155,7 @@ download-contribution-certificate-content = Emboguejy peteĩ kuatia’atã ne ev
 # label for button
 download-contribution-certificate-action = Erekóke mboajepyre
 contribute-github = Eipytyvõ GitHub-pe
+contribute-github-content = Ko apopyrã ndaikatumo’ãikuri umi tapicha ndeichagua’ỹre. 🎉 Oĩ heta tape eikekuaa hag̃ua Common Voice ndive - ¡natekotevẽi eikuaa ñemboguata rehegua eipytyvõ hag̃ua!
 # label for button
 contribute-github-action = Eipytyvõ GitHub-pe
 

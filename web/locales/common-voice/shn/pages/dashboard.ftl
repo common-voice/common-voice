@@ -7,6 +7,7 @@ clips-you-recorded = ၶလိပ်ႉဢၼ်သူၸဝ်ႈဢတ်း�
 
 ## Custom Goals
 
+easy-difficulty = ငၢႆႈ
 difficult-difficulty = ယၢပ်ႇ
 
 ## Goals

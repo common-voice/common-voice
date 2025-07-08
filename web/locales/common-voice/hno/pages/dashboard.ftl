@@ -52,7 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ہک ہدف طے کرو
 cant-decide = فیصلہ نیں کر ہکدے؟
-activity-needed-calculation-plural = { $totalHours } گھنٹے قابل حصول ہن صرف{ $periodMonths } مہینیاں بچ جی اگر{ $people } بندے ریکاڈ کرن،ہر روز { $clipsPerDay } کلپ۔
 how-many-per-day = زبردست! روز دے کتنے کلپ ہن؟
 how-many-a-week = زبردست! ہفتے دے کتنے کلپ ہن؟
 which-goal-type = تسیں بولنڑا، سنڑنا یا دونڑے چہندے ہو؟

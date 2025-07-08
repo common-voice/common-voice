@@ -20,9 +20,21 @@ record-last-instruction = <recordIcon></recordIcon>Benn bu mujj !!
 review-tooltip = Jàngat ak enregistre ay waat ci ni ngako mënee
 share-clip = Séddalel sa kàddu
 share-common-voice = Jàlalel Common Voice
+review-recording = Jàngat
+terms-agree = Nangu naa
+terms-disagree = Nangu wuma ko
+why-donate = Lu tax ngay laaj ?
+add-information-button = Yokk ay xibaar
+first-cta-gender-select-default-option = Tannal benn tànneef
+already-have-an-account = Am nga kontu ba noppi?<login>Dugal</login>
+create-profile-button = Sos benn jëmmalin
+# menu item
+read-sentences = Dawal waat yi
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Dawal waat yi, Tontu laaj
+read-sentences-menu-item-tooltip = Enregistreel sa bopp li ngay jàng ci sa làkk
 
 ## MENU ITEM ARIA LABELS
 
