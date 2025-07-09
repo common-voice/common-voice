@@ -59,7 +59,6 @@ hsb = Kisobia ya Juu
 ht = Kihaiti
 hu = Kihangari
 hy-AM = Kiarmenia
-hyw = Kiarmenia ya Magharibi
 ia = Kiintalingua
 id = Kiindonesia
 ie = Kiinterlingue

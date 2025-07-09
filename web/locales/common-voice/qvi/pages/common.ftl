@@ -67,7 +67,6 @@ hsb = Sorbio, Alto
 ht = Haitiano
 hu = Húngaro
 hy-AM = Armenio
-hyw = Armenia Occidental
 ia = Interlingua
 id = Indonesio
 ie = Interlingue

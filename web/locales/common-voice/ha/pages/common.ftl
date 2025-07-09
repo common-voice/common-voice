@@ -58,7 +58,6 @@ hsb = Yaren Sobiya, Na sama
 ht = Yan kasar Haiti
 hu = Hungoriyanci
 hy-AM = Armeniyawa
-hyw = Yammacin Armeniya
 ia = Yaren Interlingua
 id = Yaren Indonisia
 is = Yaren Icelandic

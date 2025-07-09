@@ -119,7 +119,6 @@ hsb = Boppe-Sorbysk
 ht = Haïtiaansk
 hu = Hongaarsk
 hy-AM = Armeensk
-hyw = West-Armeensk
 ia = Ynterlingua
 ibb = Ibibio
 id = Yndonezysk

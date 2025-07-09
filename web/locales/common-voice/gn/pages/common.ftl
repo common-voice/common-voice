@@ -119,7 +119,6 @@ hsb = Serbia ñe’ẽ, Yvategua
 ht = Haiti-gua
 hu = Hungría ñe’ẽ
 hy-AM = Armenio ñe’ẽ
-hyw = Armenio ñe’ẽ Kuarahyreike gotyogua
 ia = Ñe’ẽ Interlingua
 ibb = Ibibio
 id = Indonesia ñe’ẽ

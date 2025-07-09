@@ -59,7 +59,6 @@ hsb = Bahsa Sorbia Ateueh
 ht = Haiti
 hu = Bahsa Hongaria
 hy-AM = Armenia
-hyw = Armènia Barat
 ia = Bahsa Intèrlingua
 id = Bahsa Indônèsia
 ie = Interlingue

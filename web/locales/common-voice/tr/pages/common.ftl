@@ -119,7 +119,6 @@ hsb = Yukarı Sorbca
 ht = Haiti dili
 hu = Macarca
 hy-AM = Ermenice
-hyw = Batı Ermenicesi
 ia = Interlingua
 ibb = Ibibio
 id = Endonezce

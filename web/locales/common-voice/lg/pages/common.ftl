@@ -57,7 +57,6 @@ hr = Croatian
 hsb = Sorbian, Wagulu
 hu = Lu'angale
 hy-AM = Armenian
-hyw = Armenian Western
 ia = Nnimi-ntabule
 id = Indonesian
 is = Icelandic

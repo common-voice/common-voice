@@ -58,7 +58,6 @@ hsb = Sorbian, Upper
 ht = Li Haiti
 hu = Li Hungaria
 hy-AM = Li Armenia
-hyw = Li Armenia Barat
 ia = Interlingua
 id = Li Indonesia
 is = Icelandic

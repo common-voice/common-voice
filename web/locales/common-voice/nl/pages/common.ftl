@@ -119,7 +119,6 @@ hsb = Oppersorbisch
 ht = Haïtiaans
 hu = Hongaars
 hy-AM = Armeens
-hyw = West-Armeens
 ia = Interlingua
 ibb = Ibibio
 id = Indonesisch

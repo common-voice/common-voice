@@ -52,7 +52,6 @@ hr = Croată
 hsb = Sorbenă de sus
 hu = Maghiară
 hy-AM = Armeană
-hyw = Armeană de vest
 ia = Interlingua
 id = Indoneziană
 is = Islandeză

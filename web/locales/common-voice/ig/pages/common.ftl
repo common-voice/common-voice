@@ -58,7 +58,6 @@ hsb = Ásụ̀sụ́ Sọ́bíànụ̀, Kèélúélú
 ht = Ásụ̀sụ́ Hàítíànụ̀
 hu = Ásụ̀sụ́ Họ̀n̄géríànụ̀ụ̀
 hy-AM = Ásụ̀sụ́ Àméníànụ̀
-hyw = Ásụ̀sụ́ Àméníà Ǹdị̀dà ányánwụ́
 ia = Ásụ̀sụ́ Àgbàtà ásụ̀sụ̀ ábụ̀ọ́
 id = Ásụ̀sụ́ Ị́ndònéshíànụ̀
 ie = Ásụ̀sụ́ á gwàrà ọ́gwá

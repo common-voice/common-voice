@@ -118,7 +118,6 @@ hsb = Soraab, Kawe
 ht = Ayisiyeŋ
 hu = Onguruwa
 hy-AM = Armeñeŋ
-hyw = Armeñaŋ Sowu
 ia = Interlinguwa
 ibb = Ibibio
 id = Indonesiyeŋ

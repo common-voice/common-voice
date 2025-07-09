@@ -119,7 +119,6 @@ hsb = Sòrabo erto
 ht = Haitian
 hu = Ongareise
 hy-AM = Ermeno
-hyw = Ermeno de ponente
 ia = Interlingua
 ibb = Ibibio
 id = Indonexan

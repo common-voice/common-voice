@@ -75,7 +75,6 @@ hsb = Felsőszorb
 ht = Haiti
 hu = Magyar
 hy-AM = Örmény
-hyw = Nyugati örmény
 ia = Interlingva
 id = Indonéz
 ie = Interlingue

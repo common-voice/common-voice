@@ -119,7 +119,6 @@ hsb = Górnoserbšćina
 ht = Haitiańšćina
 hu = Hungoršćina
 hy-AM = Armeńšćina
-hyw = Pódwjacornoarmeńšćina
 ia = Interlingua
 ibb = Ibibio
 id = Indonešćina

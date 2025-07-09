@@ -52,7 +52,6 @@ hr = Croat
 hsb = Sorb ot
 hu = Ungarais
 hy-AM = Armen
-hyw = Armen dal vest
 ia = Interlingua
 id = Indonais
 is = Islandais

@@ -119,7 +119,6 @@ hsb = hornolužická srbčina
 ht = haitská kreolčina
 hu = maďarčina
 hy-AM = arménčina
-hyw = západná arménčina
 ia = interlingua
 ibb = ibibio
 id = indonézština

@@ -61,7 +61,6 @@ hsb = Sorbian, Upper
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
-hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
 ie = Interlingue

@@ -119,7 +119,6 @@ hsb = Högsorbiska
 ht = Haitiska
 hu = Ungerska
 hy-AM = Armeniska
-hyw = Armenisk västerländska
 ia = Interlingua
 ibb = Ibibio
 id = Indonesiska

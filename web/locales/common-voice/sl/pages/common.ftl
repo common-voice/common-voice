@@ -75,7 +75,6 @@ hsb = gornja lužiška srbščina
 ht = haitščina
 hu = madžarščina
 hy-AM = armenščina
-hyw = zahodna armenščina
 ia = interlingva
 ibb = ibibio
 id = indonezijščina

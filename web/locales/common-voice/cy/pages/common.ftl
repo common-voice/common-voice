@@ -119,7 +119,6 @@ hsb = Sorbeg Uwch
 ht = Haiteg
 hu = Hwngareg
 hy-AM = Armeneg
-hyw = Armeneg Gorllewinol
 ia = Interlingua
 ibb = Ibibio
 id = Indoneseg
