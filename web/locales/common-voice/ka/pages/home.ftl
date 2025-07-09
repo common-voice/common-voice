@@ -93,14 +93,15 @@ spontaneous-speech = ᲖᲔᲞᲘᲠᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
 
 about-menu-tooltip = თანამშრომლობა, პრესა და სიახლეები, საზოგადოებები და ენები
 about-us-menu-item-tooltip = იხილეთ ვრცლად, თუ რა მიზანი აქვს და ვისი ქმნილებაა Common Voice
-about-us-menu-item-aria-label = ჩვენ შესახებ ასარჩევი მენიუ
 partnerships-menu-item-tooltip = გვეთანამშრომლეთ
 press-and-stories-menu-item-tooltip = იხილეთ სვეტი ან დაწერეთ ჩვენ შესახებ
 community-and-languages-menu-item-tooltip = უკეთ გაიცანით ენები, საზოგადოებები და Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = მენიუში თანამშრომლობა, პრესა და სიახლეები, საზოგადოებები და ენები
 about-us-menu-aria-label = ჩვენ შესახებ მენიუ
+about-us-menu-item-aria-label = ჩვენ შესახებ ასარჩევი მენიუ
 partnerships-menu-item-aria-label = გაეცანით Common Voice-თან თანამშრომლობის გზებს
 press-and-stories-menu-item-aria-label = Common Voice-თან დაკავშირებული განცხადებები და სიახლეები პრესაში
 community-and-languages-menu-item-aria-label = გამოიკვლიეთ ენები და საზოგადოებები, რომელთაც მხარს უჭერს Common Voice

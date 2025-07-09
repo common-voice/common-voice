@@ -60,6 +60,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Gosod targed
 cant-decide = Methu penderfynu?
+activity-needed-calculation-fixed = Gall 100 o bobl sy'n recordio 100 brawddeg y dydd gynhyrchu 13 awr o sain. I gynnal y perfformiad hwn, mae modd cyrraedd 1000 o oriau o fewn 3 mis.
 how-many-per-day = Gwych! Sawl clip y dydd?
 how-many-a-week = Gwych! Sawl clip yr wythnos?
 which-goal-type = Hoffech chi Siarad, Gwrando neu'r ddau?

@@ -1,6 +1,7 @@
 ## Home Page
 
 home-title = Proiectul Common Voice este inițiativa Mozilla pentru a ajuta mașinile să învețe cum vorbesc oamenii reali.
+default-tagline = Proiectul Common Voice este inițiativa Mozilla pentru a ajuta mașinile să învețe cum vorbesc oamenii.
 home-cta = Donează-ți vocea, contribuie aici!
 wall-of-text-start = Vocea este naturală și umană. De aceea suntem fascinați de ideea creării unei tehnologii vocale utile pentru dispozitivele noastre. Dar pentru a crea sisteme vocale este necesar un volum mare de date vocale.
 wall-of-text-more-mobile = Cele mai multe dintre datele folosite de marile companii nu sunt disponibile pentru majoritatea oamenilor. Credem că este o piedică în calea inovației. De aceea am lansat proiectul Common Voice - ca să facem recunoașterea vocală o tehnologie deschisă pentru toți.
@@ -64,6 +65,7 @@ whats-public = Ce este public?
 email-not-public = Nu îți vom face publică adresa de e-mail.
 recordings-and-locale-public = Numărul de înregistrări și limbile în care vei contribui vor fi publice.
 username-optin-public = Poți alege să îți faci numele de utilizator public sau anonim.
+demographic-deidentified-clarity-2 = Datele demografice trimise opțional (de ex. vârsta, sexul, limba și accentul) nu vor fi făcute niciodată publice pe profilul tău și nu vor fi legate de contul tău în setul de date. Secvențele audio individuale vor fi asociate cu datele demografice în scopul unei analize mai precise - de exemplu, un cercetător ar putea dori să asocieze un model de instruire cu un anumit segment demografic.
 username-email-not-demographic = Numele de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Landing
@@ -76,10 +78,17 @@ read-more-about = Află mai multe pe pagina Despre
 
 ## NAV ITEMS
 
+answer-questions = Răspunde la întrebări
 review-transcriptions = Examinează transcrierile
+add-questions = Adaugă întrebări
+review-questions = Verifică întrebări
+transcribe-audio = Transcrie înregistrări audio
+press-and-stories = Presă și Relatări
+community-and-languages = Comunitate și Limbi
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Parteneriate, Presă și Relatări, Comunitate și Limbi
 
 ## MENU ITEM ARIA LABELS
 

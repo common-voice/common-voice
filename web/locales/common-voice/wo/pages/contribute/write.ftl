@@ -33,6 +33,8 @@ single-sentence-submission = Dugalal benn baat rekk
 small-batch-sentence-submission = Dugalal baat bu gàtt
 bulk-sentence-submission = Dugalal ay waat yu bari
 single-sentence = Benn
+small-batch-sentence = Pàcc bu ndaw
+bulk-sentence = Pàcc bu bari
 sentence-domain-combobox-label = Domen baat
 sentence-domain-select-placeholder = Tannal ba ñetti domen (tànneef)
 # Sentence Domain dropdown option
@@ -63,7 +65,13 @@ technology_robotics = Xarala yu bees ak Robotik
 ## BULK SUBMISSION
 
 sc-bulk-upload-instruction-drop = Bàyyil fichier bi fii ngir yebbi
+try-upload-again-md = Jéemal yebbiwaat
 select-file = Tannal benn Fichier
+select-file-mobile = Tannal téere bi nga bëgga yebbi
+accepted-files = Xeetu fichier yiñ nangu: .tsv kese
+minimum-sentences = Lumu ndaw ndaw dosiye bi warna am : 1000
+maximum-file-size = Dayo fichier bi gëna mag: 25 MB
+what-needs-to-be-in-file = Lu wara nekk ci sama dosiye?
 
 ## SMALL BATCH SUBMISSION
 

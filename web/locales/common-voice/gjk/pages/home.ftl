@@ -98,7 +98,6 @@ spontaneous-speech = منصُوٻا وڳرِ ڪرل تقرير
 
 about-menu-tooltip = ڀائيوارِيون، پريس انين وارتايُون، ڀِراڌرِي انين ٻولِيُون
 about-us-menu-item-tooltip = ڪامنَ وائيس لارين زين ٽِيم انين مِشَ سي اين نا ٻارا مان شِيکو
-about-us-menu-item-aria-label = امارا ٻارا مان آپشنَ مينيُو
 partnerships-menu-item-tooltip = امان ڀيڳا حِصو ليو
 press-and-stories-menu-item-tooltip = امارا ڀِلوگ ماٿيَ زائو يا امارا ٻارا مان لکو
 community-and-languages-menu-item-tooltip = ٻولِيُون انين ڀِراڌرِيُون انين عام آواز ڳوتو
@@ -106,6 +105,7 @@ community-and-languages-menu-item-tooltip = ٻولِيُون انين ڀِراڌ
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = آپشنَ مينيُو نا ٻارا مان
+about-us-menu-item-aria-label = امارا ٻارا مان آپشنَ مينيُو
 partnerships-menu-item-aria-label = ڪامنَ وائيس ٿِي ڀائيوارِي نا ٻارا مان شِيکو
 press-and-stories-menu-item-aria-label = ڪامنَ وائيس ٿِي لاڳاپل پريس رِليز انين وارتايان ۿوُڌِي پوڄا نِي رسائِي حاصل ڪرو
 community-and-languages-menu-item-aria-label = ڪامنَ وائيس نِي مۮت ٿِي ڀِراڌرِي انين ٻولِيان نين ڳوتو

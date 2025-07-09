@@ -91,7 +91,6 @@ spontaneous-speech = بي بقا تقرِير
 
 about-menu-tooltip = شراڪت دارِي، پريس ائُون ڪهاڻِيان، برادرِي ائُون ٻولِيا۔
 about-us-menu-item-tooltip = ڪامن وائِيسا چي لارُون  مِشنا ائُون ٽِيمِي بابت سِيکا
-about-us-menu-item-aria-label = اَمچي باري ۾ آپشن مينيُو
 partnerships-menu-item-tooltip = اَمهان سُون شِرڪت ڪرا
 press-and-stories-menu-item-tooltip = اَمچي بلاگا پر جاوا يان بڙي امچي باري ۾ لِکا
 community-and-languages-menu-item-tooltip = برادرِيا ائُون ٻولِيا ائُون هِڪ سِرکي آواز سوڌا۔
@@ -99,6 +98,7 @@ community-and-languages-menu-item-tooltip = برادرِيا ائُون ٻولِ
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = اٽڪل آپشن مينيُوئا چي باري ۾
+about-us-menu-item-aria-label = اَمچي باري ۾ آپشن مينيُو
 partnerships-menu-item-aria-label = ڪامن وائِيسا سُون بِچڙڻي چي باري ۾ ڄاڻا۔
 press-and-stories-menu-item-aria-label = ڪامن وائِيسا سُون مِلوڙِِي پريس ريليز ائُون ڪهااڻِيان تاڻِِين پُجا۔
 community-and-languages-menu-item-aria-label = ڪامن وائِيسا چي وسِيلي تعاون ڪرڻي هاڙِي برادرِي ائُون ٻولِيا سوڌا۔

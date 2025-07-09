@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Aseta tavoite
 cant-decide = Vaikeuksia päättää?
+activity-needed-calculation-fixed = 100 ihmistä voi tallentaa 100 lausetta päivässä ja tuottaa 13 tuntia ääntä. Tällä suorituskyvyllä 1000 tuntia voidaan saavuttaa alle kolmessa kuukaudessa.
 how-many-per-day = Hienoa! Kuinka monta näytettä päivittäin?
 how-many-a-week = Hienoa! Kuinka monta näytettä viikottain?
 which-goal-type = Haluatko puhua, kuunnella vai tehdä molempia?
