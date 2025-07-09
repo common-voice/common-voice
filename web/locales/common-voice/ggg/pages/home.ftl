@@ -90,7 +90,6 @@ spontaneous-speech = ڪُدرتيٚ ٻآت چيٚت
 
 about-menu-tooltip = ڀائيوآريٚونٚ، پريس اور ڪهاڻيٚونٚ، ڪميوُنٽيٚ اور ٻوليٚونٚ
 about-us-menu-item-tooltip = ڪآمن وآئسو ڪآ مشن اور ٽيمو بآرآ مي  سيٚڪو
-about-us-menu-item-aria-label = همرآ بآرآ مي اديڪآريٚ ليِِسٽ
 partnerships-menu-item-tooltip = همآ دي ڀآئيوآري
 press-and-stories-menu-item-tooltip = همرو بلاگ وزٽ ڪرو جآنٚ همرآ بآرآ مي لِکو
 community-and-languages-menu-item-tooltip = ٻوليآنٚ اور ڪميونٽيآنٚ ڪوُ ڍونڊو ايڪ آم آوآج
@@ -98,6 +97,7 @@ community-and-languages-menu-item-tooltip = ٻوليآنٚ اور ڪميونٽي
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = اديڪآرو ڪيٚ مينيُو ڪآ بآرآ مي
+about-us-menu-item-aria-label = همرآ بآرآ مي اديڪآريٚ ليِِسٽ
 partnerships-menu-item-aria-label = ڪآمن ووئسودي شرآڪتدآريآنٚ بآرآ مي کبر ليوو
 press-and-stories-menu-item-aria-label = آم آوآجي دي جُڙري پريس ريليج ڪهآڻيو ليوو
 community-and-languages-menu-item-aria-label = ڊم آوآجيٚ ڪيٚ حمآيت ڪروآݪيٚ ڪميونٽيٚ اور ڀوليآنٚ ڪو ڍونڊو
