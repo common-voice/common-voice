@@ -100,7 +100,6 @@ spontaneous-speech = KOMZ NATUREL
 
 about-menu-tooltip = Kevelerioù, kazetennoù hag istorioù, kumuniezhioù ha yezhoù
 about-us-menu-item-tooltip = Gouzout hiroc'h diwar-benn kefridi ha skipailh Common Voice
-about-us-menu-item-aria-label = Dibarzhioù al lañser "A-zivout"
 partnerships-menu-item-tooltip = Bezañ keveler deomp
 press-and-stories-menu-item-tooltip = Kit da welet hor blog pe skrivit diwar hor penn
 community-and-languages-menu-item-tooltip = Dizoloit ar yezhoù, ar c'humuniezhioù ha Common voice
@@ -108,6 +107,7 @@ community-and-languages-menu-item-tooltip = Dizoloit ar yezhoù, ar c'humuniezhi
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Dibarzhioù al lañser "A-zivout"
+about-us-menu-item-aria-label = Dibarzhioù al lañser "A-zivout"
 partnerships-menu-item-aria-label = Gouzout hiroc'h diwar-benn ar c'heveliñ war Common voice
 press-and-stories-menu-item-aria-label = Gwelet an embannoù kelaouiñ liammet ouzh Common voice
 community-and-languages-menu-item-aria-label = Dizoloit an holl yezhoù ha kumuniezhioù skoret gant Common voice

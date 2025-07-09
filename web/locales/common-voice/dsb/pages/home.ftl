@@ -97,14 +97,15 @@ spontaneous-speech = SPONTANE POWĚDANJE
 
 about-menu-tooltip = Partnaŕstwa, casnikaŕstwo a tšojenja, zgromaźeństwo a rěcy
 about-us-menu-item-tooltip = Zgóńśo wěcej wó misiji a teamje za Common Voice
-about-us-menu-item-aria-label = Nastajenja menija „Wó nas“
 partnerships-menu-item-tooltip = Buźćo naš partnaŕ
 press-and-stories-menu-item-tooltip = Woglědajśo se k našomu blogoju abo pišćo wó nas
 community-and-languages-menu-item-tooltip = Namakajśo rěcy, zgromaźeństwa a Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Meni za pśistup k partnaŕstwam, casnikaŕstwoju a tšojenjam, zgromaźeństwoju a rěcam
 about-us-menu-aria-label = Wó meniju Nastajenja
+about-us-menu-item-aria-label = Nastajenja menija „Wó nas“
 partnerships-menu-item-aria-label = Zgóńśo wěcej wó partnaŕstwach z Common Voice
 press-and-stories-menu-item-aria-label = Mějśo pśistup k wózjawjenjam casnikaŕstwa a tšojenjam wó Common Voice
 community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rěcy, kótarež se pśez Common Voice pódpěraju

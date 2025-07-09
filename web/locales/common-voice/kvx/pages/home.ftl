@@ -91,7 +91,6 @@ spontaneous-speech = تيارئي ڪريا وڳر ڪرل تقرِير
 
 about-menu-tooltip = حصيڌار،اخبارِي اطلاعون انَ وارتائون،قوم انَ ٻولي
 about-us-menu-item-tooltip = ڪومنَ وائيس را مقصڌ انَ اُوئا رِي ٽِيم را ڀارام زوڻو
-about-us-menu-item-aria-label = امارا ڀارام آپشن مينيُو
 partnerships-menu-item-tooltip = ٻڌِي ڌُنيا ۾ ڪومنَ وائيس رو ساٿ ۮِيڌا واۯِيون تنظِيمون نئہ زوئو
 press-and-stories-menu-item-tooltip = ڪومنَ وائيس را ڀارام وارتائون،نوَئي نوَئي جانڪارئي،انَ ميڍيا رئي ڪوريج ڀڻو
 community-and-languages-menu-item-tooltip = امارِي قوم ٿِي مِلو انَ مڌت ڪرنار ٻوليون نئہ زوئو
@@ -99,6 +98,7 @@ community-and-languages-menu-item-tooltip = امارِي قوم ٿِي مِلو 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = آپشنز مينيُو را ڀارام
+about-us-menu-item-aria-label = امارا ڀارام آپشن مينيُو
 partnerships-menu-item-aria-label = ڪومنَ وائيس ڀيۯئي شامِل ٿيا واۯا حِصا را ڀارام شِينکو
 press-and-stories-menu-item-aria-label = ڪومنَ وائيس را ڀارام پريس رلِيزون انَ وارتائون زوئو
 community-and-languages-menu-item-aria-label = ڪومنَ وائيس رئي قوم انَ مڌت ڪرنار ٻوليون رو جائزو ليو

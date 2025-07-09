@@ -100,7 +100,6 @@ about-us = ስለ እኛ
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ሽርክና፣ ህትመት እና ታሪኮች፣ ማህበረሰብ እና ቋንቋዎች
-about-us-menu-item-aria-label = ስለ እኛ አማራጮች ምናሌ
 partnerships-menu-item-tooltip = ከእኛ ጋር አጋር ይሁኑ
 press-and-stories-menu-item-tooltip = ብሎጎቻችንን ይጎብኙ ወይም ስለእኛ ይጻፉ
 community-and-languages-menu-item-tooltip = ቋንቋዎችን እና ማህበረሰቦችን እና የጋራ ድምጽን ያግኙ
@@ -108,6 +107,7 @@ community-and-languages-menu-item-tooltip = ቋንቋዎችን እና ማህበ�
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = ስለ አማራጮች ምናሌ
+about-us-menu-item-aria-label = ስለ እኛ አማራጮች ምናሌ
 partnerships-menu-item-aria-label = ከጋራ ድምጽ ጋር ስላላቸው ሽርክና ይወቁ
 press-and-stories-menu-item-aria-label = ከጋራ ድምጽ ጋር የሚዛመዱ የጋዜጣዊ መግለጫዎችን እና ታሪኮችን ያግኙ
 community-and-languages-menu-item-aria-label = በጋራ ድምጽ የሚደገፉ ማህበረሰቡን እና ቋንቋዎችን ያስሱ

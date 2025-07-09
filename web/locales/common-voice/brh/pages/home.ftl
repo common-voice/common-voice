@@ -104,7 +104,6 @@ spontaneous-speech = سٹی انگا تران
 
 about-menu-tooltip = ہمراہی، پریس و کسہ غاک، مخلوق و زبانک
 about-us-menu-item-tooltip = کامن وائس نا پَد اٹ ہرا جہد و گَل اوار او اوفتا باروٹ پُو مبو
-about-us-menu-item-aria-label = ننا باروٹ آپشن مینیوک
 partnerships-menu-item-tooltip = مچا دنیا ٹی کامن وائس ئے کمک کروکا تنظیماتے پٹبو
 press-and-stories-menu-item-tooltip = کامن وائس نا کسہ غانے خوانبو، پوسکنا گڑا تا باروٹ پابو و میڈیا نا کورج
 community-and-languages-menu-item-tooltip = ننا ٹولی تون ہمگرنچ مبو و شون تروکا زبانتے ہوربو
@@ -112,6 +111,7 @@ community-and-languages-menu-item-tooltip = ننا ٹولی تون ہمگرنچ 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = آپشن مینیو نا باروٹ
+about-us-menu-item-aria-label = ننا باروٹ آپشن مینیوک
 partnerships-menu-item-aria-label = کامن وائس تون ہمراہ مننگ نا بابت ہیل کبو
 press-and-stories-menu-item-aria-label = کامن وائس نا بابت اٹ شینک مروکا کسہ و پریس ریلیز آ سر مبو
 community-and-languages-menu-item-aria-label = کامن وائس نا کمک کروکا مخلوق و زبانتے پٹبو۔

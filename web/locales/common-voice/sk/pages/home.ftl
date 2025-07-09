@@ -105,7 +105,6 @@ spontaneous-speech = SPONTÁNNA REČ
 
 about-menu-tooltip = Partnerstvá, tlač a príbehy, komunita a jazyky
 about-us-menu-item-tooltip = Získajte informácie o poslaní a tíme, ktorý stojí za Common Voice
-about-us-menu-item-aria-label = Ponuka možností O nás
 partnerships-menu-item-tooltip = Staňte sa našimi partnermi
 press-and-stories-menu-item-tooltip = Navštívte náš blog alebo o nás napíšte
 community-and-languages-menu-item-tooltip = Objavte jazyky, komunity a spoločný hlas
@@ -113,6 +112,7 @@ community-and-languages-menu-item-tooltip = Objavte jazyky, komunity a spoločn�
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Ponuka možností O nás
+about-us-menu-item-aria-label = Ponuka možností O nás
 partnerships-menu-item-aria-label = Získajte informácie o partnerstvách so službou Common Voice
 press-and-stories-menu-item-aria-label = Získajte prístup k tlačovým správam a príbehom týkajúcim sa Common Voice
 community-and-languages-menu-item-aria-label = Preskúmajte komunitu a jazyky podporované Common Voice

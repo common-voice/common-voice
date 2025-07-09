@@ -94,7 +94,6 @@ spontaneous-speech = স্বতঃস্ফূৰ্ত ভাষণ
 
 about-menu-tooltip = অংশীদাৰিত্ব, সংবাদ আৰু গল্প, সমাজ আৰু ভাষা
 about-us-menu-item-tooltip = অভিযান আৰু কমন ভইচৰ আঁৰত থকা দলৰ বিষয়ে জানি লওক
-about-us-menu-item-aria-label = আমাৰ বিষয়ৰ বিকল্পৰ মেন্যু
 partnerships-menu-item-tooltip = আমাৰ অংশীদাৰ হওক
 press-and-stories-menu-item-tooltip = আমাৰ ব্লগ চাওক নাইবা আমাৰ বিষয়ে লিখক
 community-and-languages-menu-item-tooltip = ভাষা আৰু সমাজ আৰু লগতে কমন ভইচ আৱিষ্কাৰ কৰক
@@ -102,6 +101,7 @@ community-and-languages-menu-item-tooltip = ভাষা আৰু সমাজ 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = সন্দৰ্ভৰ বিকল্পৰ মেন্যু
+about-us-menu-item-aria-label = আমাৰ বিষয়ৰ বিকল্পৰ মেন্যু
 partnerships-menu-item-aria-label = কমন ভইচৰ সৈতে অংশীদাৰিত্ব সন্দৰ্ভে জানি লওক
 press-and-stories-menu-item-aria-label = কমন ভইচৰ সৈতে জড়িত প্ৰেছ বিজ্ঞপ্তি আৰু গল্পবোৰ চাওক
 community-and-languages-menu-item-aria-label = কমন ভইচৰ দ্বাৰা সমৰ্থিত সমাজ আৰু ভাষাবোৰ অন্বেষণ কৰক

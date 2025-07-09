@@ -98,7 +98,6 @@ spontaneous-speech = ÑE’ẼKUAA SYRYRY
 
 about-menu-tooltip = Juaju, Maranduasãiha ha Tembiasakue, Tekoha ha Ñe’ẽita
 about-us-menu-item-tooltip = Eikuaa Common Voice rembipota ha omba’apovakuéra
-about-us-menu-item-aria-label = Poravoha renda ore rehegua
 partnerships-menu-item-tooltip = Eike orendive
 press-and-stories-menu-item-tooltip = Eike ore blog-pe térã ehai ore rehegua
 community-and-languages-menu-item-tooltip = Ehechakuaa ñe’ẽita ha tekoha ha ayvu opavaveguáva
@@ -106,6 +105,7 @@ community-and-languages-menu-item-tooltip = Ehechakuaa ñe’ẽita ha tekoha ha
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Poravoha renda rehegua
+about-us-menu-item-aria-label = Poravoha renda ore rehegua
 partnerships-menu-item-aria-label = Eikuaave opaite juaju Common Voice ndivegua rehe
 press-and-stories-menu-item-aria-label = Eike maranduasãi ha tembiasakue ojuehegua Common Voice ndive
 community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽnguéra omoneĩva Common Voice
