@@ -112,3 +112,5 @@ create-api-key-error-toast-message = Error creating API key
 delete-api-key-error-toast-message = Error deleting API key
 api-key-deleted-success-toast-message = API key deleted successfully
 fetching-api-keys-error-toast-message = Error fetching API keys
+copy-api-credential-success-toast-message = Copied successfully
+copy-api-credential-error-toast-message = Error copying

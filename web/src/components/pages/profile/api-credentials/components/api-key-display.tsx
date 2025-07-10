@@ -36,7 +36,15 @@ const ApiKeyDisplay = ({
         })}>
         <span className="api-key-text">{value}</span>
         {showButton && (
-          <Button className="copy-api-key-button" onClick={() => copy(value)}>
+          <Button
+            className="copy-api-key-button"
+            onClick={() =>
+              copy(value, {
+                successToastMessage:
+                  'copy-api-credential-success-toast-message',
+                errorToastMessage: 'copy-api-credential-error-toast-message',
+              })
+            }>
             <CopyIcon />
             <Localized id="copy">
               <span />
