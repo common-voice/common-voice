@@ -118,6 +118,12 @@ rate-limit-message-minutes =
         [one] Remohu’ãma ñemondo kuatiaroguépe g̃uarã. Eha’arõ peteĩ aravo’i emondo mboyve ambue ñe’ẽjoaju. ¡Aguyje pene rembiapóre!
        *[other] Remohu’ãma ñemondo kuatiaroguépe g̃uarã. Eha’arõ { $retryLimit } aravo’i emondo mboyve ambue ñe’ẽjoaju. ¡Aguyje pene rembiapóre!
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Remohu’ãma ñemondo kuatiaroguépe g̃uarã. Eha’arõ 1 aravo’ive emondo mboyve ambue ñe’ẽjoaju. ¡Aguyje pene rembiapóre!
+       *[other] Remohu’ãma ñemondo kuatiaroguépe g̃uarã. Eha’arõ { $retryLimit } aravo’ive emondo mboyve ambue ñe’ẽjoaju. ¡Aguyje pene rembiapóre!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
