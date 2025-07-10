@@ -5,7 +5,7 @@ import { Button, LabeledInput } from '../../../../ui/ui'
 import { InfoIcon, PlusCircleIcon } from '../../../../ui/icons'
 
 type Props = {
-  handleCreateApiKey: () => void
+  handleCreateApiKey: (desription: string) => void
 }
 
 export const CreateApiKey = ({ handleCreateApiKey }: Props) => {
@@ -37,7 +37,7 @@ export const CreateApiKey = ({ handleCreateApiKey }: Props) => {
 
           <Button
             className="generate-api-key-button"
-            onClick={handleCreateApiKey}>
+            onClick={() => handleCreateApiKey(apiKeyName)}>
             <PlusCircleIcon />
             <Localized id="generate-api-key-button">
               <span />

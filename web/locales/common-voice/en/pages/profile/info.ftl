@@ -103,6 +103,12 @@ secret-api-key = Secret API Key
 save-api-key-info = <bold>Save Your Keys Securely:</bold> Once generated, make sure to store the keys securely and do not expose it in public repositories.
     The SECRET key will only be accessible once, right now.
 api-key-name-display-label = API Key Name
+api-client-secret-display-label = API Client Secret
+api-client-id-display-label = API Client ID
 api-key-modal-confirmation-header = Are you sure?
 cancel-api-key-confirmation-description = Are you sure you want to cancel generating an API key?
-delete-api-key-confirmation-description = Are you sure you want to delete API Key [API Key Name]? This action can’t be undone
+delete-api-key-confirmation-description = Are you sure you want to delete API Key <bold>{ $apiKeyName }</bold>? This action can’t be undone
+create-api-key-error-toast-message = Error creating API key
+delete-api-key-error-toast-message = Error deleting API key
+api-key-deleted-success-toast-message = API key deleted successfully
+fetching-api-keys-error-toast-message = Error fetching API keys

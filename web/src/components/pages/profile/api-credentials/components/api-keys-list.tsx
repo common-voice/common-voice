@@ -3,35 +3,32 @@ import React from 'react'
 import { TrashIcon } from '../../../../ui/icons'
 
 import ApiKeyDisplay from './api-key-display'
+import { ApiKey } from '../api-credentials.reducer'
 
 type Props = {
-  apiKeys: {
-    keyName: string
-    publicKey: string
-    secretKey: string
-  }[]
-  onDeleteApiKey: (keyName: string) => void
+  apiKeys: ApiKey[]
+  showDeleteModal: (keyName: string) => void
 }
 
-export const ApiKeysList = ({ apiKeys, onDeleteApiKey }: Props) => {
+export const ApiKeysList = ({ apiKeys, showDeleteModal }: Props) => {
   return (
     <div className="api-keys-list-container">
       {apiKeys.map(apiKey => (
-        <div key={apiKey.keyName} className="api-key-item-header">
+        <div key={apiKey.userId} className="api-key-item-header">
           <div className="api-key-header">
-            <p className="api-keyname">{apiKey.keyName}</p>
-            <button onClick={() => onDeleteApiKey(apiKey.keyName)}>
+            <p className="api-keyname">{apiKey.description}</p>
+            <button onClick={() => showDeleteModal(apiKey.clientId)}>
               <TrashIcon />
             </button>
           </div>
           <ApiKeyDisplay
             showButton
-            apiKey={apiKey.publicKey}
+            value={apiKey.clientId}
             label="public-api-key"
             isHiddenDisplayMode
           />
           <ApiKeyDisplay
-            apiKey={apiKey.secretKey}
+            value="⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺"
             label="secret-api-key"
             isHiddenDisplayMode
           />

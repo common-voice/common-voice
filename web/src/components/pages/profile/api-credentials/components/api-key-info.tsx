@@ -1,24 +1,40 @@
 import React from 'react'
+import { Localized, useLocalization } from '@fluent/react'
 
 import ApiKeyDisplay from './api-key-display'
-import { Localized } from '@fluent/react'
 import { InfoIcon } from '../../../../ui/icons'
 
 type Props = {
-  apiKeyData: { label: string; value: string }[]
+  description: string
+  apiClientID: string
+  apiClientSecret: string
 }
 
-export const ApiKeyInfo = ({ apiKeyData }: Props) => {
+export const ApiKeyInfo = ({
+  description,
+  apiClientID,
+  apiClientSecret,
+}: Props) => {
+  const { l10n } = useLocalization()
   return (
     <div className="api-key-info">
-      {apiKeyData.map(({ label, value }) => (
-        <ApiKeyDisplay
-          key={label}
-          apiKey={value}
-          label={label}
-          showButton={label !== 'API Key Name'}
-        />
-      ))}
+      <ApiKeyDisplay
+        value={description}
+        label={l10n.getString('api-key-name-display-label')}
+        showButton={false}
+      />
+
+      <ApiKeyDisplay
+        value={apiClientID}
+        label={l10n.getString('api-client-id-display-label')}
+        showButton
+      />
+
+      <ApiKeyDisplay
+        value={apiClientSecret}
+        label={l10n.getString('api-client-secret-display-label')}
+        showButton
+      />
 
       <div className="api-key-info-section">
         <div>

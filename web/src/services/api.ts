@@ -137,7 +137,10 @@ export default class API {
     )
   }
 
-  async fetchRandomClips(count = 1, ignoreClientVariant = false): Promise<Clip[]> {
+  async fetchRandomClips(
+    count = 1,
+    ignoreClientVariant = false
+  ): Promise<Clip[]> {
     return this.fetch(
       `${this.getClipPath()}?count=${count}${
         ignoreClientVariant ? '&ignoreClientVariant=true' : ''
@@ -624,5 +627,16 @@ export default class API {
 
   abortBulkSubmissionRequest() {
     this.abortController.abort()
+  }
+
+  createAPICredentials(description: string) {
+    return this.fetch(`${API_PATH}/profiles/api-credentials`, {
+      method: 'POST',
+      body: { description },
+    })
+  }
+
+  getAPICredentials() {
+    return this.fetch(`${API_PATH}/profiles/api-credentials`)
   }
 }

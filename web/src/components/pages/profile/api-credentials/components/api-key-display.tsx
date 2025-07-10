@@ -11,14 +11,14 @@ import { CopyIcon } from '../../../../ui/icons'
 import useCopyToClipboard from '../../../../../hooks/use-copy-to-clipboard'
 
 type Props = {
-  apiKey: string
+  value: string
   label: string
   showButton?: boolean
   isHiddenDisplayMode?: boolean
 } & WithLocalizationProps
 
 const ApiKeyDisplay = ({
-  apiKey,
+  value,
   label,
   showButton,
   isHiddenDisplayMode,
@@ -34,9 +34,9 @@ const ApiKeyDisplay = ({
         className={classNames('api-key-container', {
           'hidden-display-mode': isHiddenDisplayMode,
         })}>
-        <span className="api-key-text">{apiKey}</span>
+        <span className="api-key-text">{value}</span>
         {showButton && (
-          <Button className="copy-api-key-button" onClick={() => copy(apiKey)}>
+          <Button className="copy-api-key-button" onClick={() => copy(value)}>
             <CopyIcon />
             <Localized id="copy">
               <span />

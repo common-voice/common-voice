@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Localized } from '@fluent/react'
 
-import { Button } from '../../../ui/ui'
+import { Button, Spinner } from '../../../ui/ui'
 import {
   ChevronDown,
   ChevronRight,
@@ -16,46 +16,57 @@ import { CreateApiKey } from './components/create-api-key'
 import { ApiKeyInfo } from './components/api-key-info'
 import { ApiKeysList } from './components/api-keys-list'
 
+import { useApiCredentials } from './use-api-credentials'
+import { ApiKey } from './api-credentials.reducer'
+
 import './api-credentials.css'
 
-const mockApiKeyData = [
-  { label: 'api-key-name-display-label', value: 'My First CV API Key' },
-  { label: 'public-api-key', value: 'C0mm0nV0ice-1234-5678-9abc-def0GHIJklmn' },
-  { label: 'secret-api-key', value: 'C0mm0nV0ice-1234-5678-9abc-def0GHIJklmn' },
-]
-
-const mockApiKeys = [
-  {
-    keyName: 'My first key',
-    publicKey: 'jeunioeonv',
-    secretKey: 'jeguu76894kn jvej7890',
-  },
-  {
-    keyName: 'My second key',
-    publicKey: 'jeuiouenv',
-    secretKey: 'jeguu76894kn jvej7890',
-  },
-]
-
 export const ApiCredentials = () => {
-  const [showCancelConfirmationModal, setShowCancelConfirmationModal] =
-    React.useState(false)
-  const [showDeleteConfirmationModal, setShowDeleteConfirmationModal] =
-    React.useState(false)
-  const [showText, setShowText] = React.useState(false)
-  const [showCreateApiKey, setShowCreateApiKey] = React.useState(false)
-  const [apiKeyData, setApiKeyData] = React.useState([])
-  const [apiKeys] = React.useState(mockApiKeys)
+  const [apiKeyToDelete, setApiKeyToDelete] = React.useState<ApiKey | null>(
+    null
+  )
 
-  const noAPIKeys = apiKeys.length === 0 && !showCreateApiKey
+  const {
+    state: {
+      apiKeys,
+      createApiKeyResponse,
+      showCreateApiKeyForm,
+      showCancelConfirmationModal,
+      showDeleteConfirmationModal,
+      showText,
+      isFetchingApiKeys,
+    },
+    fetchApiKeys,
+    toggleShowText,
+    toggleCreateApiKeyForm,
+    toggleCancelConfirmationModal,
+    toggleDeleteConfirmationModal,
+    setCreateApiKeyData,
+    onCreateApiKey,
+  } = useApiCredentials()
 
-  const handleCreateApiKey = () => {
-    setApiKeyData(mockApiKeyData)
+  useEffect(() => {
+    fetchApiKeys()
+  }, [])
+
+  const noAPIKeys =
+    apiKeys.length === 0 && !showCreateApiKeyForm && !isFetchingApiKeys
+  const shouldShowCreateApiKeyForm =
+    showCreateApiKeyForm && !createApiKeyResponse
+
+  const handleCreateApiKey = (description: string) => {
+    onCreateApiKey(description)
   }
 
-  const handleDeleteApiKey = (keyName: string) => {
-    setShowDeleteConfirmationModal(true)
-    console.log(`Delete API Key: ${keyName}`)
+  const handleDeleteApiKey = (clientID: string) => {
+    toggleDeleteConfirmationModal(true)
+    const apiKey = apiKeys.find(key => key.clientId === clientID)
+
+    if (apiKey) {
+      setApiKeyToDelete(apiKey)
+    }
+
+    console.log(`Delete API Key: ${clientID}`)
   }
 
   return (
@@ -71,7 +82,7 @@ export const ApiCredentials = () => {
         {!showText && (
           <button
             className="show-wall-of-text hidden-md-up"
-            onClick={() => setShowText(!showText)}>
+            onClick={() => toggleShowText(!showText)}>
             <Localized id="show-wall-of-text">
               <span />
             </Localized>
@@ -92,7 +103,7 @@ export const ApiCredentials = () => {
         {showText && (
           <button
             className="hidden-md-up"
-            onClick={() => setShowText(!showText)}>
+            onClick={() => toggleShowText(!showText)}>
             <Localized id="close">
               <span />
             </Localized>
@@ -107,11 +118,11 @@ export const ApiCredentials = () => {
             <h2 />
           </Localized>
 
-          {!showCreateApiKey ? (
+          {!showCreateApiKeyForm ? (
             <Button
               className="create-api-key-button"
               rounded
-              onClick={() => setShowCreateApiKey(true)}>
+              onClick={() => toggleCreateApiKeyForm(true)}>
               <PlusCircleIcon />
               <Localized id="create-api-key-button">
                 <span />
@@ -122,11 +133,11 @@ export const ApiCredentials = () => {
               className="cancel-api-key-button"
               rounded
               onClick={() => {
-                if (!apiKeyData.length) {
-                  setShowCancelConfirmationModal(true)
+                if (!createApiKeyResponse) {
+                  toggleCancelConfirmationModal(true)
                 } else {
-                  setShowCreateApiKey(false)
-                  setApiKeyData([])
+                  toggleCreateApiKeyForm(false)
+                  setCreateApiKeyData(null)
                 }
               }}>
               <XCircleIcon />
@@ -137,29 +148,43 @@ export const ApiCredentials = () => {
           )}
         </div>
 
-        <div className="api-keys-box">
-          <Localized id="your-api-keys">
-            <h3 />
-          </Localized>
-        </div>
-        <div className="api-keys-content">
-          {noAPIKeys && <NoApiKeys />}
-          {showCreateApiKey && apiKeyData.length === 0 && (
-            <CreateApiKey handleCreateApiKey={handleCreateApiKey} />
-          )}
-          {apiKeyData.length > 0 && <ApiKeyInfo apiKeyData={mockApiKeyData} />}
-          {
-            <ApiKeysList
-              apiKeys={apiKeys}
-              onDeleteApiKey={handleDeleteApiKey}
-            />
-          }
-        </div>
+        {shouldShowCreateApiKeyForm && (
+          <CreateApiKey handleCreateApiKey={handleCreateApiKey} />
+        )}
+        {createApiKeyResponse && (
+          <ApiKeyInfo
+            description={createApiKeyResponse.description}
+            apiClientID={createApiKeyResponse.clientId}
+            apiClientSecret={createApiKeyResponse.clientSecret}
+          />
+        )}
+
+        {isFetchingApiKeys ? (
+          <Spinner isFloating={false} />
+        ) : (
+          <>
+            <div className="api-keys-box">
+              <Localized id="your-api-keys">
+                <h3 />
+              </Localized>
+            </div>
+            <div className="api-keys-content">
+              {noAPIKeys && <NoApiKeys />}
+
+              {
+                <ApiKeysList
+                  apiKeys={apiKeys}
+                  showDeleteModal={handleDeleteApiKey}
+                />
+              }
+            </div>
+          </>
+        )}
       </section>
 
       {showCancelConfirmationModal && (
         <Modal
-          onRequestClose={() => setShowCancelConfirmationModal(false)}
+          onRequestClose={() => toggleCancelConfirmationModal(false)}
           innerClassName="api-modal">
           <div className="api-modal-content">
             <XCircleIcon />
@@ -173,8 +198,8 @@ export const ApiCredentials = () => {
 
             <Button
               onClick={() => {
-                setShowCreateApiKey(false)
-                setShowCancelConfirmationModal(false)
+                toggleCreateApiKeyForm(false)
+                toggleCancelConfirmationModal(false)
               }}
               rounded
               isBig>
@@ -188,7 +213,7 @@ export const ApiCredentials = () => {
 
       {showDeleteConfirmationModal && (
         <Modal
-          onRequestClose={() => setShowDeleteConfirmationModal(false)}
+          onRequestClose={() => toggleDeleteConfirmationModal(false)}
           innerClassName="api-modal">
           <div className="api-modal-content">
             <TrashIcon />
@@ -196,13 +221,16 @@ export const ApiCredentials = () => {
               <h3 />
             </Localized>
 
-            <Localized id="delete-api-key-confirmation-description">
+            <Localized
+              id="delete-api-key-confirmation-description"
+              vars={{ apiKeyName: apiKeyToDelete?.description || '' }}
+              elems={{ bold: <strong /> }}>
               <p />
             </Localized>
 
             <Button
               onClick={() => {
-                setShowDeleteConfirmationModal(false)
+                toggleDeleteConfirmationModal(false)
                 // TODO: call function to delete api key
                 console.log('API Key deleted')
               }}
