@@ -8,6 +8,7 @@ aa = Afarca
 aat = Arvanitçe
 ab = Abhazca
 abb = Bankon
+abq = Abazaca
 ace = Açece
 ady = Adıgece (Batı Çerkesçesi)
 af = Afrikaans
