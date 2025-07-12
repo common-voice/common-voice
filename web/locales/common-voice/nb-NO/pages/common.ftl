@@ -310,6 +310,7 @@ si = Singalesisk
 sk = Slovakisk
 skr = Saraiki
 sl = Slovensk
+sn = Shona
 snk = Soninke
 so = Somali
 sq = Albansk
