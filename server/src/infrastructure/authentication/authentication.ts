@@ -65,3 +65,17 @@ export const getClientCredentials = async (clientInfo: { userId: string }) => {
 
   return data
 }
+
+export const deleteClientCredentials = async (clientInfo: { clientId: string }) => {
+  const res = await fetch(
+    getConfig().AUTH_SERVICE_URL +
+      `/internal/auth/clients/${encodeURIComponent(clientInfo.clientId)}`,
+    {
+      method: 'DELETE',
+    }
+  )
+
+  if (!res.ok) {
+    throw new Error(`Failed to delete client credentials: ${res.status}`)
+  }
+}
