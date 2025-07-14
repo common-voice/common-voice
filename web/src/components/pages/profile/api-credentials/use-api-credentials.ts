@@ -23,6 +23,7 @@ const initialState: ApiCredentialsState = {
 }
 
 const MAX_API_KEYS = 10
+const SHOW_NOTIFICATION_BOLD_TEXT = true
 
 export const useApiCredentials = () => {
   const [state, apiCredentialsDispatch] = useReducer(
@@ -45,7 +46,9 @@ export const useApiCredentials = () => {
 
       addNotification(
         l10n.getString('fetching-api-keys-error-toast-message'),
-        'error'
+        'error',
+        AlertIcon,
+        SHOW_NOTIFICATION_BOLD_TEXT
       )
     }
   }
@@ -59,7 +62,8 @@ export const useApiCredentials = () => {
       addNotification(
         l10n.getString('max-api-keys-reached'),
         'error',
-        AlertIcon
+        AlertIcon,
+        SHOW_NOTIFICATION_BOLD_TEXT
       )
       return
     }
@@ -84,7 +88,8 @@ export const useApiCredentials = () => {
       addNotification(
         l10n.getString('add-api-key-name-error'),
         'error',
-        AlertIcon
+        AlertIcon,
+        SHOW_NOTIFICATION_BOLD_TEXT
       )
       return
     }
@@ -98,7 +103,9 @@ export const useApiCredentials = () => {
     } catch (error) {
       addNotification(
         l10n.getString('create-api-key-error-toast-message'),
-        'error'
+        'error',
+        AlertIcon,
+        SHOW_NOTIFICATION_BOLD_TEXT
       )
     }
   }
@@ -114,7 +121,9 @@ export const useApiCredentials = () => {
     } catch (error) {
       addNotification(
         l10n.getString('delete-api-key-error-toast-message'),
-        'error'
+        'error',
+        AlertIcon,
+        SHOW_NOTIFICATION_BOLD_TEXT
       )
     } finally {
       toggleDeleteConfirmationModal(false)
