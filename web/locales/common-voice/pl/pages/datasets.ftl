@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = Zbiory danych
 datasets-headline = Tworzymy wielojęzyczny zbiór danych mowy open source, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
 datasets-positioning =
     Uważamy, że duże, publicznie dostępne zbiory danych głosowych będą promować innowacje i zdrową konkurencję w dziedzinie technologii mowy opartej na uczeniu maszynowym.
@@ -8,6 +9,8 @@ datasets-positioning =
     
     Ta strona może służyć jako centrum informacji o innych zbiorach danych mowy open source oraz, wraz z rozwojem Common Voice, miejsce na nasze nowe wydania.
 language = Język
+download-dataset-header = Pobierz zbiór danych
+download-dataset-tag = Wybierz żądany zbiór danych językowych i wybierz wersję, którą chcesz pobrać.
 # File size in gigabytes
 size = Rozmiar
 validated-hr-total = Razem sprawdzonych godzin
