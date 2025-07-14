@@ -638,4 +638,10 @@ export default class API {
   getAPICredentials() {
     return this.fetch(`${API_PATH}/profiles/api-credentials`)
   }
+
+  deleteAPICredentials(clientID: string) {
+    return this.fetch(`${API_PATH}/profiles/api-credentials/${clientID}`, {
+      method: 'DELETE',
+    })
+  }
 }

@@ -7,6 +7,7 @@ export const ActionTypes = {
   RESET_API_KEY_DATA: 'RESET_API_KEY_DATA',
   SET_API_KEYS: 'SET_API_KEYS',
   FETCHING_API_KEYS: 'FETCHING_API_KEYS',
+  DELETE_API_KEY: 'DELETE_API_KEY',
 } as const
 
 export type ActionType = typeof ActionTypes[keyof typeof ActionTypes]
@@ -70,6 +71,10 @@ export const actionCreators = {
     type: ActionTypes.FETCHING_API_KEYS,
     payload: isFetching,
   }),
+  deleteApiKey: (clientID: string) => ({
+    type: ActionTypes.DELETE_API_KEY,
+    payload: clientID,
+  }),
 }
 
 type ToggleCancelModal = ReturnType<typeof actionCreators.toggleCancelModal>
@@ -82,6 +87,7 @@ type SetCreateApiKeyResponse = ReturnType<
 type ResetApiKeyData = ReturnType<typeof actionCreators.resetApiKeyData>
 type SetApiKeys = ReturnType<typeof actionCreators.setApiKeys>
 type FetchingApiKeys = ReturnType<typeof actionCreators.setFetchingApiKeys>
+type DeleteApiKey = ReturnType<typeof actionCreators.deleteApiKey>
 
 type ApiCredentialsAction =
   | ToggleCancelModal
@@ -92,6 +98,7 @@ type ApiCredentialsAction =
   | ResetApiKeyData
   | SetApiKeys
   | FetchingApiKeys
+  | DeleteApiKey
 
 export function apiCredentialsReducer(
   state: ApiCredentialsState,
@@ -114,6 +121,12 @@ export function apiCredentialsReducer(
       return { ...state, apiKeys: action.payload, isFetchingApiKeys: false }
     case ActionTypes.FETCHING_API_KEYS:
       return { ...state, isFetchingApiKeys: action.payload }
+    case ActionTypes.DELETE_API_KEY:
+      return {
+        ...state,
+        apiKeys: state.apiKeys.filter(key => key.clientId !== action.payload),
+        showDeleteConfirmationModal: false,
+      }
     default:
       return state
   }

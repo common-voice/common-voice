@@ -1,4 +1,5 @@
 import { useReducer } from 'react'
+import { useLocalization } from '@fluent/react'
 
 import {
   apiCredentialsReducer,
@@ -9,7 +10,7 @@ import {
 } from './api-credentials.reducer'
 import { useAction, useAPI } from '../../../../hooks/store-hooks'
 import { Notifications } from '../../../../stores/notifications'
-import { useLocalization } from '@fluent/react'
+import { AlertIcon } from '../../../ui/icons'
 
 const initialState: ApiCredentialsState = {
   isFetchingApiKeys: false,
@@ -20,6 +21,8 @@ const initialState: ApiCredentialsState = {
   createApiKeyResponse: null,
   apiKeys: [],
 }
+
+const MAX_API_KEYS = 10
 
 export const useApiCredentials = () => {
   const [state, apiCredentialsDispatch] = useReducer(
@@ -52,6 +55,15 @@ export const useApiCredentials = () => {
   }
 
   const toggleCreateApiKeyForm = (show: boolean) => {
+    if (state.apiKeys.length >= MAX_API_KEYS && show) {
+      addNotification(
+        l10n.getString('max-api-keys-reached'),
+        'error',
+        AlertIcon
+      )
+      return
+    }
+
     apiCredentialsDispatch(actionCreators.toggleCreateApiKey(show))
   }
 
@@ -68,6 +80,15 @@ export const useApiCredentials = () => {
   }
 
   const onCreateApiKey = async (description: string) => {
+    if (!description) {
+      addNotification(
+        l10n.getString('add-api-key-name-error'),
+        'error',
+        AlertIcon
+      )
+      return
+    }
+
     try {
       const response = await api.createAPICredentials(description)
       apiCredentialsDispatch(actionCreators.setCreateApiKeyResponse(response))
@@ -82,6 +103,24 @@ export const useApiCredentials = () => {
     }
   }
 
+  const deleteAPIKey = async (clientID: string) => {
+    try {
+      await api.deleteAPICredentials(clientID)
+      apiCredentialsDispatch(actionCreators.deleteApiKey(clientID))
+      addNotification(
+        l10n.getString('delete-api-key-success-toast-message'),
+        'success'
+      )
+    } catch (error) {
+      addNotification(
+        l10n.getString('delete-api-key-error-toast-message'),
+        'error'
+      )
+    } finally {
+      toggleDeleteConfirmationModal(false)
+    }
+  }
+
   return {
     state,
     fetchApiKeys,
@@ -91,5 +130,6 @@ export const useApiCredentials = () => {
     toggleDeleteConfirmationModal,
     setCreateApiKeyData,
     onCreateApiKey,
+    deleteAPIKey,
   }
 }

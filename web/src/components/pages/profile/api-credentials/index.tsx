@@ -43,14 +43,14 @@ export const ApiCredentials = () => {
     toggleDeleteConfirmationModal,
     setCreateApiKeyData,
     onCreateApiKey,
+    deleteAPIKey,
   } = useApiCredentials()
 
   useEffect(() => {
     fetchApiKeys()
   }, [])
 
-  const noAPIKeys =
-    apiKeys.length === 0 && !showCreateApiKeyForm && !isFetchingApiKeys
+  const noAPIKeys = apiKeys.length === 0 && !isFetchingApiKeys
   const shouldShowCreateApiKeyForm =
     showCreateApiKeyForm && !createApiKeyResponse
 
@@ -64,9 +64,8 @@ export const ApiCredentials = () => {
 
     if (apiKey) {
       setApiKeyToDelete(apiKey)
+      deleteAPIKey(clientID)
     }
-
-    console.log(`Delete API Key: ${clientID}`)
   }
 
   return (
