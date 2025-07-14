@@ -75,7 +75,6 @@ hsb = Lužičkosrpski, gornji
 ht = Haićanski
 hu = Mađarski
 hy-AM = Armenski
-hyw = Armenski zapadni
 ia = Interlingua
 id = Indonezijski
 ie = Interlingua

@@ -111,6 +111,7 @@ community-and-languages-menu-item-tooltip = Objavte jazyky, komunity a spoločn�
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Ponuka pre prístup k partnerstvám, tlači a príbehom, komunite a Jazykom
 about-us-menu-aria-label = Ponuka možností O nás
 about-us-menu-item-aria-label = Ponuka možností O nás
 partnerships-menu-item-aria-label = Získajte informácie o partnerstvách so službou Common Voice

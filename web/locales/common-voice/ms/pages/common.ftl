@@ -63,7 +63,6 @@ hsb = Sorbian Atas
 ht = Bahasa Haiti
 hu = Bahasa Hungary
 hy-AM = Bahasa Armenia
-hyw = Armenia Barat
 ia = Interlingua
 id = Bahasa Indonesia
 ie = Bahasa Interlingue

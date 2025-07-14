@@ -105,7 +105,6 @@ hsb = górnołużycki
 ht = haitański
 hu = węgierski
 hy-AM = ormiański
-hyw = zachodni ormiański
 ia = interlingua
 ibb = ibibio
 id = indonezyjski

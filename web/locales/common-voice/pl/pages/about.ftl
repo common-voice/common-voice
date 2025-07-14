@@ -10,6 +10,7 @@ how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagra
 ## How does it work section
 
 about-language-req-subtitle = Ktoś prosi o dodanie danego języka.
+about-dataset-release-subtitle = Co 3 miesiące udostępniamy zestaw danych.
 about-speak = Nagrywanie
 about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
 about-listen-queue = Kolejka do odsłuchania
@@ -57,6 +58,7 @@ about-playbook-how-localize-content-1 = Tłumaczenie witryny Common Voice odbywa
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
 about-playbook-how-grow-language-content-6 = Współpraca i sieci
 
 ## How to validate
@@ -67,6 +69,7 @@ about-playbook-how-grow-language-content-6 = Współpraca i sieci
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Jak podejmowane są decyzje projektowe?
 
 ## How is Common Voice funded
 

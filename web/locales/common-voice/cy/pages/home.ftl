@@ -111,6 +111,7 @@ community-and-languages-menu-item-tooltip = Darganfod ieithoedd a chymunedau a C
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Dewislen i gael mynediad i Bartneriaethau, y Wasg a Straeon, Cymuned ac Ieithoedd
 about-us-menu-aria-label = Dewislen dewisiadau ynghylch
 about-us-menu-item-aria-label = Dewislen dewisiadau Amdanom ni
 partnerships-menu-item-aria-label = Dysgwch am bartneriaethau gyda Common Voice

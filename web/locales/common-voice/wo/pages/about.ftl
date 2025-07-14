@@ -131,6 +131,7 @@ about-playbook-how-grow-language-content-8 = <strong>Sosal lu bees!</strong> Sa 
 about-playbook-how-validate = naka may xamee ni dama wara nangu kàddu bi?
 about-playbook-how-validate-content-1 = Sudee mën nga leen <strong>déglu ba noppi </strong> <strong> xam limuy wax </strong>, laata ngay nangu.
 about-playbook-how-validate-content-2 = <strong>Bul bañ kàddu ndax rekk waxiin bi dafa wuute ak sa boss</strong> - loolu lu am solo la ngir xàmmee baat gëna baax ci ku nekk.
+about-playbook-how-validate-content-3 = Soo jàppee ni waxin bi day tax </strong>ken du mëna dégg <strong>, wala dafa am<strong>coow bu bari si suf </strong>, wala dafa am<strong>ñeneen ñuy wax itam</strong>, kon danga wara dindi clip bi. <accuracyLink>Xoolal yeneen leeral ci sunu sàrti njubal yi.
 about-playbook-how-validate-content-4 = Su 2 nit bañee benn kàddu, dañu koy génne ci beneen subset ci jumtukaay yi.
 
 ## How to access dataset

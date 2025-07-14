@@ -52,7 +52,6 @@ hr = Kroatų
 hsb = Auštutinių sorbų
 hu = Vengrų
 hy-AM = Armėnų
-hyw = Armėnų (Vakarų)
 ia = Interlingua
 id = Indoneziečių
 is = Islandų

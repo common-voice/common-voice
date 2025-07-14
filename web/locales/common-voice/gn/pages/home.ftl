@@ -104,6 +104,7 @@ community-and-languages-menu-item-tooltip = Ehechakuaa ñe’ẽita ha tekoha ha
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Poravorã eike hag̃ua Atyguasu, Maranduasãiha ha Tembiasakue, Tekoha ha Ñe’ẽita
 about-us-menu-aria-label = Poravoha renda rehegua
 about-us-menu-item-aria-label = Poravoha renda ore rehegua
 partnerships-menu-item-aria-label = Eikuaave opaite juaju Common Voice ndivegua rehe

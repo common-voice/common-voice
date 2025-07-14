@@ -59,7 +59,6 @@ hsb = Sorb, Yuqori
 ht = Gaityancha
 hu = Vengriya
 hy-AM = Arman
-hyw = Gʻarbiy arman
 ia = Interlingua
 id = Indonez
 ie = Interlingue

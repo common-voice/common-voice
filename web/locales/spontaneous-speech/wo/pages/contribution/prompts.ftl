@@ -20,3 +20,8 @@ submit-all-button = Yonnee lépp
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Jàngal nu nuy jëfandikoo xët wii
+learn-how-to-use-prompts-guidance = Bësal  <guidanceLink>fi</guidanceLink> ngir jàng naka ngay Jëfandikoo xët bi
+learn-how-to-use-transcribe = Jàngal naka ngay Déggé-bind
+learn-how-to-use-transcribe-explanation = Bindal ci suuf li nit ki wax kepp, dugal ci baatu wuutu yu melni 'um', wala 'errr'.
+learn-how-to-use-transcribe-guidance = Bësal <guidanceLink>fi</guidanceLink> ngir Jàng naka ngay Jëfandikoo xët bi
+learn-how-to-use-check-transcript = Jàngal naka ngay Seeté ab Dégg-bind

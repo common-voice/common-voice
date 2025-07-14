@@ -70,7 +70,6 @@ hsb = Kisorbia cha Lughu
 ht = Kiheiti
 hu = Kihangari
 hy-AM = Kiarmenia
-hyw = Kiarmenia cha Magharibi
 ia = Kiintelingua
 id = Kiindoneshia
 ie = Kiintelingue

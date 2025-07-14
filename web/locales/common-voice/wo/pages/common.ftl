@@ -8,6 +8,7 @@ aa = Afaar
 aat = Arvanitik
 ab = Abxas
 abb = Bankon
+abq = Abaza
 ace = Acenese
 ady = Adig
 af = Afrikaans
@@ -118,7 +119,6 @@ hsb = Soraab, Kawe
 ht = Ayisiyeŋ
 hu = Onguruwa
 hy-AM = Armeñeŋ
-hyw = Armeñaŋ Sowu
 ia = Interlinguwa
 ibb = Ibibio
 id = Indonesiyeŋ
@@ -277,6 +277,7 @@ tig = Tigere
 tk = Turkmen
 tl = Tagalog
 tn = Setswana
+tob = Toba Qom
 tok = Toki Pona
 top = Papantla Totonac
 tr = Tirk
@@ -360,5 +361,7 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Soxla</mark><br/><mark> sa ndimbal !</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>jëfandikoo CV ngir</mark><br/><mark>li ngay  gëstu?</mark>
 localization-select =
     .label = Tannal làkk/bërëb

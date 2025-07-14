@@ -67,7 +67,6 @@ hsb = Sorbian, Lower
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
-hyw = Armeniire baŋnge hirnaange
 ia = Interlingua
 id = Indonesiire
 ie = Interlingue

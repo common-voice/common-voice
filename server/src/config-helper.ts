@@ -1,4 +1,3 @@
-import * as fs from 'fs'
 import { SESClientConfig } from '@aws-sdk/client-ses'
 import { config } from 'dotenv'
 
@@ -62,6 +61,7 @@ export type CommonVoiceConfig = {
   FLAG_BUFFER_STREAM_ENABLED: boolean
   EMAIL_USERNAME_FROM: string
   EMAIL_USERNAME_TO: string
+  AUTH_SERVICE_URL: string
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -127,6 +127,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
+  AUTH_SERVICE_URL: configEntry('CV_AUTH_SERVICE_URL', 'http://gha-auth:8000'),
 }
 
 let injectedConfig: CommonVoiceConfig

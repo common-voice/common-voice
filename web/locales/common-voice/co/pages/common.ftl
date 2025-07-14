@@ -59,7 +59,6 @@ hsb = Altu sorabu
 ht = Haitianu
 hu = Ungarese
 hy-AM = Armenianu
-hyw = Armenianu uccidentale
 ia = Interlingua
 id = Indunesianu
 ie = Interlingue

@@ -119,7 +119,6 @@ hsb = Surabbu autu
 ht = Haitianu
 hu = Unghirisi
 hy-AM = Armenu
-hyw = Armenu uccidintali
 ia = Ntirlingua
 ibb = Ibibio
 id = Nnunisianu

@@ -18,7 +18,9 @@ export const up = async function (db: any): Promise<any> {
   )
   const locale_id = result?.locale_id
   if (!locale_id) {
-    throw new Error(`Specified locale does not exist: [${LOCALE}]`)
+    // for local env do not throw/fail but continue with next
+    console.warn(`Specified locale does not exist: [${LOCALE}]`)
+    return
   }
 
   // do it in small batches

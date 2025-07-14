@@ -100,6 +100,7 @@ community-and-languages-menu-item-tooltip = Dilleri, toplulukları ve Common Voi
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Ortaklıklar, Basın ve Haberler, Topluluk ve Diller’e erişim menüsü
 about-us-menu-aria-label = Hakkında menüsü
 about-us-menu-item-aria-label = Hakkımızda menüsü
 partnerships-menu-item-aria-label = Common Voice ile ortaklık hakkında bilgi alın

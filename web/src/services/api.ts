@@ -158,14 +158,13 @@ export default class API {
     showFirstStreakToast?: boolean
     challengeEnded: boolean
   }> {
-    // make sure nginx server has allow_underscore turned on
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
-        sentence_id: sentenceId,
+        'sentence-id': sentenceId,
         challenge: getChallenge(this.user),
-        from_demo: fromDemo ? 'true' : 'false',
+        'from-demo': fromDemo ? 'true' : 'false',
         source: 'web',
       },
       body: blob,
