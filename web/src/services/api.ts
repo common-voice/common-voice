@@ -89,6 +89,10 @@ export default class API {
         : undefined,
     })
 
+    if (response.status === 204) {
+      return null
+    }
+
     if (response.status == 401) {
       localStorage.removeItem(USER_KEY)
       location.reload()
