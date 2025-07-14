@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { TrashIcon } from '../../../../ui/icons'
+import { TrashIconRed } from '../../../../ui/icons'
 
 import ApiKeyDisplay from './api-key-display'
 import { ApiKey } from '../api-credentials.reducer'
@@ -18,7 +18,7 @@ export const ApiKeysList = ({ apiKeys, showDeleteModal }: Props) => {
           <div className="api-key-header">
             <p className="api-keyname">{apiKey.description}</p>
             <button onClick={() => showDeleteModal(apiKey.clientId)}>
-              <TrashIcon />
+              <TrashIconRed />
             </button>
           </div>
           <ApiKeyDisplay

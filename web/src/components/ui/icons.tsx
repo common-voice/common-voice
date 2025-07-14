@@ -1085,6 +1085,29 @@ export const TrashIcon = () => (
   </svg>
 )
 
+export const TrashIconRed = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+    <path
+      fill="#FF4F5E"
+      fillRule="evenodd"
+      d="M1.334 4c0-.368.298-.667.667-.667h12a.667.667 0 0 1 0 1.333H2A.667.667 0 0 1 1.334 4Z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="#FF4F5E"
+      fillRule="evenodd"
+      d="M6.667 2a.667.667 0 0 0-.666.667v.666h4v-.667A.667.667 0 0 0 9.334 2H6.667Zm4.667 1.333v-.667a2 2 0 0 0-2-2H6.667a2 2 0 0 0-2 2v.667H3.334A.667.667 0 0 0 2.667 4v9.333a2 2 0 0 0 2 2h6.667a2 2 0 0 0 2-2V4a.667.667 0 0 0-.667-.667h-1.333ZM4.001 4.666v8.667a.667.667 0 0 0 .666.667h6.667a.667.667 0 0 0 .667-.667V4.667H4Z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="#FF4F5E"
+      fillRule="evenodd"
+      d="M6.667 6.667c.369 0 .667.298.667.666v4a.667.667 0 1 1-1.333 0v-4c0-.368.298-.667.666-.667ZM9.334 6.667c.368 0 .667.298.667.666v4a.667.667 0 0 1-1.334 0v-4c0-.368.299-.667.667-.667Z"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+
 export const VolumeIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>

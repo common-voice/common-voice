@@ -64,7 +64,6 @@ export const ApiCredentials = () => {
 
     if (apiKey) {
       setApiKeyToDelete(apiKey)
-      deleteAPIKey(clientID)
     }
   }
 
@@ -229,9 +228,8 @@ export const ApiCredentials = () => {
 
             <Button
               onClick={() => {
+                deleteAPIKey(apiKeyToDelete.clientId)
                 toggleDeleteConfirmationModal(false)
-                // TODO: call function to delete api key
-                console.log('API Key deleted')
               }}
               rounded
               isBig>
