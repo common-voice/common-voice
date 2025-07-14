@@ -8,13 +8,21 @@ type Props = {
   handleCreateApiKey: (desription: string) => void
 }
 
-export const CreateApiKey = ({ handleCreateApiKey }: Props) => {
+export const CreateApiCredentials = ({ handleCreateApiKey }: Props) => {
   const [apiKeyName, setApiKeyName] = React.useState('')
+  const inputRef = React.useRef<HTMLInputElement>(null)
+
+  React.useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus()
+    }
+  }, [])
 
   return (
     <div className="create-api-key-container">
       <Localized id="api-key-name-input" attrs={{ label: true }}>
         <LabeledInput
+          ref={inputRef}
           value={apiKeyName}
           onChange={(evt: React.ChangeEvent<HTMLInputElement>) =>
             setApiKeyName(evt.target.value)

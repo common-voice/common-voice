@@ -1,16 +1,16 @@
 import React from 'react'
 
-import { TrashIconRed } from '../../../../ui/icons'
+import { FullCircleIcon, TrashIconRed } from '../../../../ui/icons'
 
-import ApiKeyDisplay from './api-key-display'
-import { ApiKey } from '../api-credentials.reducer'
+import ApiCredentialDisplay from './api-credential-display'
+import { ApiCredentials } from '../api-credentials.reducer'
 
 type Props = {
-  apiKeys: ApiKey[]
+  apiKeys: ApiCredentials[]
   showDeleteModal: (keyName: string) => void
 }
 
-export const ApiKeysList = ({ apiKeys, showDeleteModal }: Props) => {
+export const ApiCredentialsList = ({ apiKeys, showDeleteModal }: Props) => {
   return (
     <div className="api-keys-list-container">
       {apiKeys.map(apiKey => (
@@ -21,15 +21,17 @@ export const ApiKeysList = ({ apiKeys, showDeleteModal }: Props) => {
               <TrashIconRed />
             </button>
           </div>
-          <ApiKeyDisplay
+          <ApiCredentialDisplay
             showButton
             value={apiKey.clientId}
-            label="public-api-key"
+            label="api-client-id-display-label"
             isHiddenDisplayMode
           />
-          <ApiKeyDisplay
-            value="⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺⏺"
-            label="secret-api-key"
+          <ApiCredentialDisplay
+            value={Array.from({ length: 20 }, (_, i) => i + 1).map(el => (
+              <FullCircleIcon key={el} />
+            ))}
+            label="api-client-secret-display-label"
             isHiddenDisplayMode
           />
         </div>

@@ -11,13 +11,13 @@ import { CopyIcon } from '../../../../ui/icons'
 import useCopyToClipboard from '../../../../../hooks/use-copy-to-clipboard'
 
 type Props = {
-  value: string
+  value: React.ReactNode
   label: string
   showButton?: boolean
   isHiddenDisplayMode?: boolean
 } & WithLocalizationProps
 
-const ApiKeyDisplay = ({
+const ApiCredentialDisplay = ({
   value,
   label,
   showButton,
@@ -39,7 +39,7 @@ const ApiKeyDisplay = ({
           <Button
             className="copy-api-key-button"
             onClick={() =>
-              copy(value, {
+              copy(value as string, {
                 successToastMessage:
                   'copy-api-credential-success-toast-message',
                 errorToastMessage: 'copy-api-credential-error-toast-message',
@@ -56,4 +56,4 @@ const ApiKeyDisplay = ({
   )
 }
 
-export default withLocalization(ApiKeyDisplay)
+export default withLocalization(ApiCredentialDisplay)

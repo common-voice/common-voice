@@ -590,6 +590,30 @@ export const DownloadIcon = (props: any) => (
   </svg>
 )
 
+export const FullCircleIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="none">
+    <g fill="#575757" clipPath="url(#a)">
+      <path
+        stroke="#575757"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M4 1.333a2.667 2.667 0 1 1-.001 5.334A2.667 2.667 0 0 1 4 1.333Z"
+      />
+      <path
+        fillRule="evenodd"
+        d="M5.77 2.681c.13.13.13.341 0 .471L3.7 5.32a.333.333 0 0 1-.47 0l-1-1a.333.333 0 1 1 .47-.471l.765.764 1.833-1.931c.13-.13.342-.13.472 0Z"
+        clipRule="evenodd"
+      />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h8v8H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+)
+
 export const GithubIcon = Icon(require('./icons/github.svg'))
 
 export const GithubIconCode = () => (

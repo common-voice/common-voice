@@ -3,7 +3,7 @@ import { Localized } from '@fluent/react'
 
 import { InfoIcon } from '../../../../ui/icons'
 
-export const NoApiKeys = () => {
+export const NoApiCredentials = () => {
   return (
     <div className="no-api-keys-container">
       <div>

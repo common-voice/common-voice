@@ -5,21 +5,21 @@ import {
   apiCredentialsReducer,
   ApiCredentialsState,
   actionCreators,
-  CreateAPIKeyResponse,
-  ApiKey,
+  CreateAPICredentialsResponse,
+  ApiCredentials,
 } from './api-credentials.reducer'
 import { useAction, useAPI } from '../../../../hooks/store-hooks'
 import { Notifications } from '../../../../stores/notifications'
 import { AlertIcon } from '../../../ui/icons'
 
 const initialState: ApiCredentialsState = {
-  isFetchingApiKeys: false,
+  isFetchingApiCredentials: false,
   showCancelConfirmationModal: false,
   showDeleteConfirmationModal: false,
   showText: false,
-  showCreateApiKeyForm: false,
-  createApiKeyResponse: null,
-  apiKeys: [],
+  showCreateApiCredentalsForm: false,
+  createApiCredentialsResponse: null,
+  apiCredentials: [],
 }
 
 const MAX_API_KEYS = 10
@@ -35,14 +35,16 @@ export const useApiCredentials = () => {
   const addNotification = useAction(Notifications.actions.addPill)
   const { l10n } = useLocalization()
 
-  const fetchApiKeys = async () => {
+  const fetchApiCredentials = async () => {
     try {
-      apiCredentialsDispatch(actionCreators.setFetchingApiKeys(true))
+      apiCredentialsDispatch(actionCreators.setFetchingApiCredentials(true))
 
       const response = await api.getAPICredentials()
-      apiCredentialsDispatch(actionCreators.setApiKeys(response as ApiKey[]))
+      apiCredentialsDispatch(
+        actionCreators.setApiCredentials(response as ApiCredentials[])
+      )
     } catch (error) {
-      apiCredentialsDispatch(actionCreators.setApiKeys([]))
+      apiCredentialsDispatch(actionCreators.setApiCredentials([]))
 
       addNotification(
         l10n.getString('fetching-api-keys-error-toast-message'),
@@ -57,8 +59,8 @@ export const useApiCredentials = () => {
     apiCredentialsDispatch(actionCreators.toggleShowText(show))
   }
 
-  const toggleCreateApiKeyForm = (show: boolean) => {
-    if (state.apiKeys.length >= MAX_API_KEYS && show) {
+  const toggleCreateApiCredentialsForm = (show: boolean) => {
+    if (state.apiCredentials.length >= MAX_API_KEYS && show) {
       addNotification(
         l10n.getString('max-api-keys-reached'),
         'error',
@@ -68,7 +70,7 @@ export const useApiCredentials = () => {
       return
     }
 
-    apiCredentialsDispatch(actionCreators.toggleCreateApiKey(show))
+    apiCredentialsDispatch(actionCreators.toggleCreateApiCredentialsForm(show))
   }
 
   const toggleCancelConfirmationModal = (show: boolean) => {
@@ -79,11 +81,11 @@ export const useApiCredentials = () => {
     apiCredentialsDispatch(actionCreators.toggleDeleteModal(show))
   }
 
-  const setCreateApiKeyData = (data: CreateAPIKeyResponse) => {
-    apiCredentialsDispatch(actionCreators.setCreateApiKeyResponse(data))
+  const setCreateApiCredentialsData = (data: CreateAPICredentialsResponse) => {
+    apiCredentialsDispatch(actionCreators.setCreateApiCredentialsResponse(data))
   }
 
-  const onCreateApiKey = async (description: string) => {
+  const onCreateApiCredentials = async (description: string) => {
     if (!description) {
       addNotification(
         l10n.getString('add-api-key-name-error'),
@@ -94,12 +96,28 @@ export const useApiCredentials = () => {
       return
     }
 
+    if (
+      state.apiCredentials.some(
+        credential => credential.description === description
+      )
+    ) {
+      addNotification(
+        l10n.getString('duplicate-api-key-name-error'),
+        'error',
+        AlertIcon,
+        SHOW_NOTIFICATION_BOLD_TEXT
+      )
+      return
+    }
+
     try {
       const response = await api.createAPICredentials(description)
-      apiCredentialsDispatch(actionCreators.setCreateApiKeyResponse(response))
+      apiCredentialsDispatch(
+        actionCreators.setCreateApiCredentialsResponse(response)
+      )
 
       // fetch the updated API keys after creating a new one
-      fetchApiKeys()
+      fetchApiCredentials()
     } catch (error) {
       addNotification(
         l10n.getString('create-api-key-error-toast-message'),
@@ -110,10 +128,10 @@ export const useApiCredentials = () => {
     }
   }
 
-  const deleteAPIKey = async (clientID: string) => {
+  const deleteAPICredentials = async (clientID: string) => {
     try {
       await api.deleteAPICredentials(clientID)
-      apiCredentialsDispatch(actionCreators.deleteApiKey(clientID))
+      apiCredentialsDispatch(actionCreators.deleteApiCredentials(clientID))
       addNotification(
         l10n.getString('delete-api-key-success-toast-message'),
         'success'
@@ -132,13 +150,13 @@ export const useApiCredentials = () => {
 
   return {
     state,
-    fetchApiKeys,
+    fetchApiCredentials,
     toggleShowText,
-    toggleCreateApiKeyForm,
+    toggleCreateApiCredentialsForm,
     toggleCancelConfirmationModal,
     toggleDeleteConfirmationModal,
-    setCreateApiKeyData,
-    onCreateApiKey,
-    deleteAPIKey,
+    setCreateApiCredentialsData,
+    onCreateApiCredentials,
+    deleteAPICredentials,
   }
 }

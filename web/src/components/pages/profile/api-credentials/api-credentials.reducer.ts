@@ -2,17 +2,17 @@ export const ActionTypes = {
   TOGGLE_CANCEL_MODAL: 'TOGGLE_CANCEL_MODAL',
   TOGGLE_DELETE_MODAL: 'TOGGLE_DELETE_MODAL',
   TOGGLE_SHOW_TEXT: 'TOGGLE_SHOW_TEXT',
-  TOGGLE_CREATE_API_KEY_FORM: 'TOGGLE_CREATE_API_KEY_FORM',
-  SET_CREATE_API_KEY_RESPONSE: 'SET_CREATE_API_KEY_RESPONSE',
-  RESET_API_KEY_DATA: 'RESET_API_KEY_DATA',
-  SET_API_KEYS: 'SET_API_KEYS',
-  FETCHING_API_KEYS: 'FETCHING_API_KEYS',
-  DELETE_API_KEY: 'DELETE_API_KEY',
+  TOGGLE_CREATE_API_CREDENTIALS_FORM: 'TOGGLE_CREATE_API_CREDENTIALS_FORM',
+  SET_CREATE_API_CREDENTIALS_RESPONSE: 'SET_CREATE_API_CREDENTIALS_RESPONSE',
+  RESET_API_CREDENTIALS_DATA: 'RESET_API_CREDENTIALS_DATA',
+  SET_API_CREDENTIALS: 'SET_API_CREDENTIALS',
+  FETCHING_API_CREDENTIALS: 'FETCHING_API_CREDENTIALS',
+  DELETE_API_CREDENTIALS: 'DELETE_API_CREDENTIALS',
 } as const
 
 export type ActionType = typeof ActionTypes[keyof typeof ActionTypes]
 
-export type CreateAPIKeyResponse = {
+export type CreateAPICredentialsResponse = {
   userId: string
   clientId: string
   clientSecret: string
@@ -20,7 +20,7 @@ export type CreateAPIKeyResponse = {
   permissions: string[]
 }
 
-export type ApiKey = {
+export type ApiCredentials = {
   userId: string
   clientId: string
   description: string
@@ -28,13 +28,13 @@ export type ApiKey = {
 }
 
 export type ApiCredentialsState = {
-  isFetchingApiKeys: boolean
+  isFetchingApiCredentials: boolean
   showCancelConfirmationModal: boolean
   showDeleteConfirmationModal: boolean
   showText: boolean
-  showCreateApiKeyForm: boolean
-  createApiKeyResponse: CreateAPIKeyResponse | null
-  apiKeys: ApiKey[]
+  showCreateApiCredentalsForm: boolean
+  createApiCredentialsResponse: CreateAPICredentialsResponse | null
+  apiCredentials: ApiCredentials[]
 }
 
 export const actionCreators = {
@@ -50,29 +50,29 @@ export const actionCreators = {
     type: ActionTypes.TOGGLE_SHOW_TEXT,
     payload: show,
   }),
-  toggleCreateApiKey: (show: boolean) => ({
-    type: ActionTypes.TOGGLE_CREATE_API_KEY_FORM,
+  toggleCreateApiCredentialsForm: (show: boolean) => ({
+    type: ActionTypes.TOGGLE_CREATE_API_CREDENTIALS_FORM,
     payload: show,
   }),
-  setCreateApiKeyResponse: (data: CreateAPIKeyResponse) => ({
-    type: ActionTypes.SET_CREATE_API_KEY_RESPONSE,
+  setCreateApiCredentialsResponse: (data: CreateAPICredentialsResponse) => ({
+    type: ActionTypes.SET_CREATE_API_CREDENTIALS_RESPONSE,
     payload: data,
   }),
-  resetApiKeyData: () => ({
-    type: ActionTypes.RESET_API_KEY_DATA,
+  resetApiCredentialsData: () => ({
+    type: ActionTypes.RESET_API_CREDENTIALS_DATA,
   }),
-  setApiKeys: (
-    apiKeys: ApiKey[]
-  ): { type: 'SET_API_KEYS'; payload: ApiKey[] } => ({
-    type: ActionTypes.SET_API_KEYS,
-    payload: apiKeys,
+  setApiCredentials: (
+    apiCredentials: ApiCredentials[]
+  ): { type: 'SET_API_CREDENTIALS'; payload: ApiCredentials[] } => ({
+    type: ActionTypes.SET_API_CREDENTIALS,
+    payload: apiCredentials,
   }),
-  setFetchingApiKeys: (isFetching: boolean) => ({
-    type: ActionTypes.FETCHING_API_KEYS,
+  setFetchingApiCredentials: (isFetching: boolean) => ({
+    type: ActionTypes.FETCHING_API_CREDENTIALS,
     payload: isFetching,
   }),
-  deleteApiKey: (clientID: string) => ({
-    type: ActionTypes.DELETE_API_KEY,
+  deleteApiCredentials: (clientID: string) => ({
+    type: ActionTypes.DELETE_API_CREDENTIALS,
     payload: clientID,
   }),
 }
@@ -80,25 +80,33 @@ export const actionCreators = {
 type ToggleCancelModal = ReturnType<typeof actionCreators.toggleCancelModal>
 type ToggleDeleteModal = ReturnType<typeof actionCreators.toggleDeleteModal>
 type ToggleShowText = ReturnType<typeof actionCreators.toggleShowText>
-type ToggleCreateApiKey = ReturnType<typeof actionCreators.toggleCreateApiKey>
-type SetCreateApiKeyResponse = ReturnType<
-  typeof actionCreators.setCreateApiKeyResponse
+type ToggleCreateApiCredentialsForm = ReturnType<
+  typeof actionCreators.toggleCreateApiCredentialsForm
 >
-type ResetApiKeyData = ReturnType<typeof actionCreators.resetApiKeyData>
-type SetApiKeys = ReturnType<typeof actionCreators.setApiKeys>
-type FetchingApiKeys = ReturnType<typeof actionCreators.setFetchingApiKeys>
-type DeleteApiKey = ReturnType<typeof actionCreators.deleteApiKey>
+type SetCreateApiCredentialsResponse = ReturnType<
+  typeof actionCreators.setCreateApiCredentialsResponse
+>
+type ResetApiCredentialsData = ReturnType<
+  typeof actionCreators.resetApiCredentialsData
+>
+type SetApiCredentials = ReturnType<typeof actionCreators.setApiCredentials>
+type FetchingApiCredentials = ReturnType<
+  typeof actionCreators.setFetchingApiCredentials
+>
+type DeleteApiCredentials = ReturnType<
+  typeof actionCreators.deleteApiCredentials
+>
 
 type ApiCredentialsAction =
   | ToggleCancelModal
   | ToggleDeleteModal
   | ToggleShowText
-  | ToggleCreateApiKey
-  | SetCreateApiKeyResponse
-  | ResetApiKeyData
-  | SetApiKeys
-  | FetchingApiKeys
-  | DeleteApiKey
+  | ToggleCreateApiCredentialsForm
+  | SetCreateApiCredentialsResponse
+  | ResetApiCredentialsData
+  | SetApiCredentials
+  | FetchingApiCredentials
+  | DeleteApiCredentials
 
 export function apiCredentialsReducer(
   state: ApiCredentialsState,
@@ -111,20 +119,26 @@ export function apiCredentialsReducer(
       return { ...state, showDeleteConfirmationModal: action.payload }
     case ActionTypes.TOGGLE_SHOW_TEXT:
       return { ...state, showText: action.payload }
-    case ActionTypes.TOGGLE_CREATE_API_KEY_FORM:
-      return { ...state, showCreateApiKeyForm: action.payload }
-    case ActionTypes.SET_CREATE_API_KEY_RESPONSE:
-      return { ...state, createApiKeyResponse: action.payload }
-    case ActionTypes.RESET_API_KEY_DATA:
-      return { ...state, createApiKeyResponse: null }
-    case ActionTypes.SET_API_KEYS:
-      return { ...state, apiKeys: action.payload, isFetchingApiKeys: false }
-    case ActionTypes.FETCHING_API_KEYS:
-      return { ...state, isFetchingApiKeys: action.payload }
-    case ActionTypes.DELETE_API_KEY:
+    case ActionTypes.TOGGLE_CREATE_API_CREDENTIALS_FORM:
+      return { ...state, showCreateApiCredentalsForm: action.payload }
+    case ActionTypes.SET_CREATE_API_CREDENTIALS_RESPONSE:
+      return { ...state, createApiCredentialsResponse: action.payload }
+    case ActionTypes.RESET_API_CREDENTIALS_DATA:
+      return { ...state, createApiCredentialsResponse: null }
+    case ActionTypes.SET_API_CREDENTIALS:
       return {
         ...state,
-        apiKeys: state.apiKeys.filter(key => key.clientId !== action.payload),
+        apiCredentials: action.payload,
+        isFetchingApiCredentials: false,
+      }
+    case ActionTypes.FETCHING_API_CREDENTIALS:
+      return { ...state, isFetchingApiCredentials: action.payload }
+    case ActionTypes.DELETE_API_CREDENTIALS:
+      return {
+        ...state,
+        apiCredentials: state.apiCredentials.filter(
+          credential => credential.clientId !== action.payload
+        ),
         showDeleteConfirmationModal: false,
       }
     default:

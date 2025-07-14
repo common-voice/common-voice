@@ -1,7 +1,7 @@
 import React from 'react'
 import { Localized, useLocalization } from '@fluent/react'
 
-import ApiKeyDisplay from './api-key-display'
+import ApiKeyDisplay from './api-credential-display'
 import { InfoIcon } from '../../../../ui/icons'
 
 type Props = {
@@ -10,7 +10,7 @@ type Props = {
   apiClientSecret: string
 }
 
-export const ApiKeyInfo = ({
+export const ApiCredentialsInfo = ({
   description,
   apiClientID,
   apiClientSecret,

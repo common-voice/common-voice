@@ -62,7 +62,7 @@ edit = Edit
 email-subscriptions = Email Subscriptions
 download-profile = Download My Data
 api-credentials = API
-api-credentials-keys = Keys
+api-credentials-header = Credentials
 contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
 skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
@@ -84,37 +84,34 @@ variant-contribution-warning-subtitle = If you’re having trouble contributing,
 api-credentials-description-1 = Common Voice's API allows developers to access a rich dataset of voice recordings contributed by users around the world.
 api-credentials-description-2 = By integrating this API, you can enhance your applications with high-quality speech recognition capabilities. The API provides endpoints for submitting audio samples, retrieving datasets, and accessing various tools to analyze and improve speech models.
     This collaborative platform not only helps in building more accurate voice recognition systems but also empowers users to contribute to the evolution of voice technology.
-create-api-key-button = Create API Key
-your-api-keys = Your API Keys
-no-api-keys-header = <bold>Currently, there are no API keys associated with your account.</bold>
-no-api-keys-description = To create your first API key, click "Create API Key,” then name
-    your API Key and generate a unique API Key by clicking “Generate
-    API Key.” Then, copy the key immediately, as it will only be
+create-api-key-button = Create API Credentials
+your-api-keys = Your API Credentials
+no-api-keys-header = <bold>Currently, there are no API credentials associated with your account.</bold>
+no-api-keys-description = To create your first API key, click "Create API Credentials,” then name
+    your API Credentials and generate unique API Credentials by clicking “Generate
+    API Credentials.” Then, copy the secret key immediately, as it will only be
     displayed once.
 api-key-name-input =
-    .label = API Key Name
+    .label = API Credential Name
 create-api-key-header = <bold>Important Notice: API Key Generation</bold>
-create-api-key-description = When you click the "Generate API Key" button, a unique API key will be created for your account. 
-    Please note that for security reasons, this API key will only be displayed once. Make sure to copy and store it in a safe place immediately after generation.
+create-api-key-description = When you click the "Generate API Credentials" button, unique API credentials will be created for your account. 
+    Please note that for security reasons, this secret key will only be displayed once. Make sure to copy and store it in a safe place immediately after generation.
     If you lose this key, you will need to generate a new one, as it will not be retrievable later.
-generate-api-key-button = Generate API Key
-public-api-key = Public API Key
-secret-api-key = Secret API Key
+generate-api-key-button = Generate API Credentials
 save-api-key-info = <bold>Save Your Keys Securely:</bold> Once generated, make sure to store the keys securely and do not expose it in public repositories.
     The SECRET key will only be accessible once, right now.
-api-key-name-display-label = API Key Name
+api-key-name-display-label = API Credential Name
 api-client-secret-display-label = API Client Secret
 api-client-id-display-label = API Client ID
 api-key-modal-confirmation-header = Are you sure?
-cancel-api-key-confirmation-description = Are you sure you want to cancel generating an API key?
-delete-api-key-confirmation-description = Are you sure you want to delete API Key <bold>{ $apiKeyName }</bold>? This action can’t be undone
-create-api-key-error-toast-message = Error creating API key
-delete-api-key-error-toast-message = Error deleting API key
-api-key-deleted-success-toast-message = API key deleted successfully
-fetching-api-keys-error-toast-message = Error fetching API keys
+cancel-api-key-confirmation-description = Are you sure you want to cancel generating an API credential?
+delete-api-key-confirmation-description = Are you sure you want to delete API credential <bold>{ $apiKeyName }</bold>? This action can’t be undone
+create-api-key-error-toast-message = Error creating API credentials
+delete-api-key-error-toast-message = Error deleting API credentials
+fetching-api-keys-error-toast-message = Error fetching API credentials
 copy-api-credential-success-toast-message = Copied successfully
 copy-api-credential-error-toast-message = Error copying
-delete-api-key-success-toast-message= API key deleted successfully
-delete-api-key-error-toast-message = Error deleting API key
-add-api-key-name-error = Add an API key name
-max-api-keys-reached = Exceeded API Key limit of 10
+delete-api-key-success-toast-message = API credential deleted successfully
+add-api-key-name-error = Add an API credential name
+max-api-keys-reached = Exceeded API credentials limit of 10
+duplicate-api-key-name-error = Duplicate API key name
