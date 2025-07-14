@@ -112,6 +112,8 @@ export const useApiCredentials = () => {
         'success'
       )
     } catch (error) {
+      // TODO: remove this
+      console.error('Error deleting API key:', error)
       addNotification(
         l10n.getString('delete-api-key-error-toast-message'),
         'error'
