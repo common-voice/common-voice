@@ -93,7 +93,7 @@ no-api-keys-description = To create your first API key, click "Create API Creden
     displayed once.
 api-key-name-input =
     .label = API Credential Name
-create-api-key-header = <bold>Important Notice: API Key Generation</bold>
+create-api-key-header = <bold>Important Notice: API Credentials Generation</bold>
 create-api-key-description = When you click the "Generate API Credentials" button, unique API credentials will be created for your account. 
     Please note that for security reasons, this secret key will only be displayed once. Make sure to copy and store it in a safe place immediately after generation.
     If you lose this key, you will need to generate a new one, as it will not be retrievable later.
