@@ -31,16 +31,24 @@ terms-agree = Nangu naa
 terms-disagree = Nangu wuma ko
 why-donate = Lu tax ngay laaj ?
 add-information-button = Yokk ay xibaar
+continue-speaking-button = Dédeet jërëjëf, wéyalal  wax
+create-profile-text = Bëgg nga denc say leeral?  <createProfile>Sos ab profil</createProfile>
 first-cta-gender-select-default-option = Tannal benn tànneef
+second-cta-subtitle-text = Soo amee profil, di nga mëna topp sa liggéey ba noppi lëkkaloo ak askanu ñiy jàppale ci nosukaay yu baat yi .
 already-have-an-account = Am nga kontu ba noppi?<login>Dugal</login>
 create-profile-button = Sos benn jëmmalin
 # menu item
 read-sentences = Dawal waat yi
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Jàngal xët yi <small>(Dina dikk ca kanam)</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Dawal waat yi, Tontu laaj
 read-sentences-menu-item-tooltip = Enregistreel sa bopp li ngay jàng ci sa làkk
+answer-questions-menu-item-tooltip = Enregistreel sa bopp ngay tontu ci laaj yi ci sa làkk
 
 ## MENU ITEM ARIA LABELS
 
+read-sentences-menu-item-aria-label = Jàngal xët yi mboolo wi joxe ci làkk yu bari
+answer-questions-menu-item-aria-label = Yonneel ab laaj bu bees ngir mboolo wi jàng ko te tontu ci
