@@ -1,3 +1,6 @@
+speak = మాట్లాడండి
+speak-now = ఇప్పుడు మాట్లాడండి
+speak-subtitle = మీ గొంతును దానమివ్వండి
 record-cta = రికార్డింగ్ మొదలుపెట్టండి
 record-platform-not-supported = మమ్మల్ని క్షమించండి, కానీ మీ ప్లాట్ఫాంకి  ప్రస్తుతం మద్దతు లేదు.
 record-platform-not-supported-desktop = డెస్కుటాపు కంప్యూటర్లలో, మీరు తాజావి డౌన్లోడ్ చేసుకోవచ్చు:
@@ -14,6 +17,7 @@ record-three-more-instruction = ఇంకా మూడే ఉన్నాయి!
 record-again-instruction = బాగుంది!<recordIcon></recordIcon> మీ తదుపరి క్లిప్‌ను రికార్డ్ చేయండి
 record-again-instruction2 = దీన్ని కొనసాగించండి, మళ్లీ రికార్డ్ చేయండి <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> చివరిది!
+review-tooltip = మీరు ఇక్కడ క్లిప్‌లను సమీక్షించి, తిరిగి రికార్డ్ చేయవచ్చు
 share-clip = మీ క్లిప్‌ను షేర్ చేయండి
 share-common-voice = కామన్ వాయిస్ ని షేర్ చేయండి
 review-instruction = సమీక్షించి, అవసరమైతే క్లిప్పులు మళ్ళీ రికార్డుచేయండి
@@ -48,9 +52,3 @@ already-have-an-account = ఖాతా కలిగి ఉన్నారా? <l
 create-profile-button = ప్రొఫైలు సృష్టింపు
 # IMAGE TAGS
 img-alt-success-checkmark = విజయం చెక్ మార్క్
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
