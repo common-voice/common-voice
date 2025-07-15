@@ -7,10 +7,22 @@ select-a-tag = Select a tag
 edit-tag = Edit tag
 
 # Shortcuts modal
-tag-page-shortcut-tag-english = 1
-tag-page-shortcut-tag-spanish = 2
+tag-page-shortcut-tag-language-1 = 1
+tag-page-shortcut-tag-language-2 = 2
+tag-page-shortcut-tag-language-3 = 3
+tag-page-shortcut-tag-language-4 = 4
+tag-page-shortcut-tag-language-5 = 5
+
+tag-page-shortcut-remove-tags = 9
+remove-tags = Remove tags
+tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = Toggle mouse/keyboard usage
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Undo
+tag-page-shortcut-select-all = A
+select-all = Select all
+
+# Messages
 tag-success-toast-message = Tags submitted successfully
 tag-error-toast-message = Error submitting tags
 tag-empty-submit-error = No text to submit. Please tag some text first.

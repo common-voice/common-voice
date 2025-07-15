@@ -36,6 +36,8 @@ const Guidelines = () => {
 
   const guidelinesRoute = toLocaleRoute(URLS.GUIDELINES)
 
+  const isFeatureCodeSwitching = location.href.includes('feature=code-switch')
+
   const {
     selectedTabIndex,
     setSelectedTabIndex,
@@ -132,7 +134,7 @@ const Guidelines = () => {
                   items: TRANSCRIBE_AUDIO_ITEMS,
                 },
                 { sectionId: 'review-the-transcription' },
-                {
+                isFeatureCodeSwitching && {
                   sectionId: 'code-switching',
                   items: CODE_SWITCHING_ITEMS,
                 },

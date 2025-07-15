@@ -1,0 +1,57 @@
+## Specific to code-switching datasets
+
+## Errors
+cs-error-fetching-datasets = Something went wrong while fetching contributable datasets. Please try again later.
+cs-error-fetching-questions = Something went wrong while fetching questions. Please try again later.
+cs-error-fetching-transcriptions = Something went wrong while fetching transcriptions. Please try again later.
+
+## Modals
+cs-locale-change-modal-subtitle = You have unsaved changes on this page. If you change the dataset, your changes will not be saved. Are you sure you want to change the dataset?
+
+## Page Items
+
+## Question Page Items
+cs-question-page-instruction = Add up to 25 questions <icon></icon> to the { $currentLocale } dataset for people to answer
+cs-add-question-textarea-placeholder = Enter code-switching questions, one for each line. When the question contains code-switching, the probability of getting code-switching answers increases.
+cs-question-dataset-name = Dataset: { $datasetName }
+
+## Validate Page Items
+cs-validate-page-instruction = Validate <validateIcon></validateIcon> that this question meets the guidelines.
+cs-no-questions-continue-skipped = There are no more questions for this dataset. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.
+cs-add-vote-error-message = An error occurred while voting the question
+
+## Answer Page Items
+
+
+## Transcribe Page Items
+cs-no-audio-continue-skipped-message = There is currently no audio to transcribe for this dataset. If you have skipped any, you can continue with skipped content or go to review transcriptions and try again later.
+
+## Review Page Items
+cs-no-transcriptions-continue-skipped = There are currently no transcriptions to check for this dataset. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.
+
+## Tag Page Items
+cs-no-transcriptions-to-tag-continue-skipped = There are currently no transcriptions to tag for this dataset. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.
+cs-tag-dataset-name = Dataset [{ $datasetName }]
+
+
+## Guidelines
+
+learn-how-to-use = Learn how to use this page
+read-full-guidelines-here = <guidanceLink>Read full guidelines here</guidanceLink>
+
+## Answer Page Guidelines
+cs-learn-how-to-use-answer-explanation = Just respond to the prompt as naturally as you can, if possible code-switching. Make sure your language is respectful and inoffensive.
+
+## Transcribe Page Guidelines
+
+## Review Page Guidelines
+cs-learn-how-to-use-check-transcript-explanation = A transcription should capture every word or non-lexical conversation sound that was said by the person, including repetitions.
+
+## Tagging Page Guidelines
+
+
+# TODO: Remove these
+glv = glv
+el-CY = el-CY
+en-es-US = en-es-US
+en-es-test = en-es-test
