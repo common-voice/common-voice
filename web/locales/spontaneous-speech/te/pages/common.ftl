@@ -21,6 +21,7 @@ request-new-language = కొత్త భాష కోసం అభ్యర్
 
 respond-to-prompt = సమాధానం
 question = ప్రశ్న
+validate = సరిచూడు
 
 ## Not Found Page
 
