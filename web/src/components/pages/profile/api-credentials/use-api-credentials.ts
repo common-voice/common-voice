@@ -60,15 +60,15 @@ export const useApiCredentials = () => {
   }
 
   const toggleCreateApiCredentialsForm = (show: boolean) => {
-    if (state.apiCredentials.length >= MAX_API_KEYS && show) {
-      addNotification(
-        l10n.getString('max-api-keys-reached'),
-        'error',
-        AlertIcon,
-        SHOW_NOTIFICATION_BOLD_TEXT
-      )
-      return
-    }
+    // if (state.apiCredentials.length >= MAX_API_KEYS && show) {
+    //   addNotification(
+    //     l10n.getString('max-api-keys-reached'),
+    //     'error',
+    //     AlertIcon,
+    //     SHOW_NOTIFICATION_BOLD_TEXT
+    //   )
+    //   return
+    // }
 
     apiCredentialsDispatch(actionCreators.toggleCreateApiCredentialsForm(show))
   }
