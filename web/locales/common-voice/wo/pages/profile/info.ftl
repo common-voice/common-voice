@@ -54,3 +54,6 @@ email-subscriptions = Bindu yi ci email
 download-profile = Yebbi samay jumtukaay
 off = Suux
 on = Suqali
+help-accent = Soxla nga ñu jàppale la ci maaska bi?
+help-accent-explanation = Sa maaska mooy ningay waxee kàddu yi. Mën na aju ci barab bi nga dëkk, yeneen làkk yi ngay wax ak yeneen mbir yu bari. Mën nga séddoo bépp leeral boo jàpp ni am njariñ fii.
+help-variants = Soxla nga ndimbal ci wuute yi?

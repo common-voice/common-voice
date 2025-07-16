@@ -134,6 +134,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong>
 contribution-background-voices-title = Ay coow ci ginaaw
 contribution-background-voices-description = Hubbub bu dal ci ginaaw baaxna, waaye bëggunu yeneen baat yu mëna waral algorithm masin ngir xàmmee kàddu yi nekkul ci bind biñ bind. Sudee mën nga dégg ay baat yu wuute ak yi ci bind bi, danga wara bañ clip bi. Dafay faral di am suñu bàyyee tele bi taal, wala su amee waxtaan bu am ci seen wet.
 contribution-background-voices-description-extended = Sudee kàddu gi dafa yàqu, wala mu am ay jafe-jafe, bañ ko fileek mën nga jàng mbind mi yépp.
+contribution-background-voices-example-1-title = Dinosaur yu mag yi ci jamonoy Triassic. <strong>[ jàng ko ci benn baat]</strong>
 contribution-background-voices-example-1-explanation = Ndax yaa ngi ñëw ? <strong>[keneen woo ko]</strong>
 contribution-volume-title = Rëyaay
 contribution-volume-description = Dina am ay wuute ci gudday baat bi ci diggante ñi koy jàng. Bañal kàddu bi sudee dafa gudd lool wala (li gëna bari) sudee daa wàññeeku ba mënoo dégg li ñuy wax te doo xool mbind mi.
