@@ -22,8 +22,8 @@ const initialState: ApiCredentialsState = {
   apiCredentials: [],
 }
 
-const MAX_API_KEYS = 10
 const SHOW_NOTIFICATION_BOLD_TEXT = true
+const TOO_MANY_CREDENTIALS_ERROR = 'too many credentials'
 
 export const useApiCredentials = () => {
   const [state, apiCredentialsDispatch] = useReducer(
@@ -60,16 +60,6 @@ export const useApiCredentials = () => {
   }
 
   const toggleCreateApiCredentialsForm = (show: boolean) => {
-    // if (state.apiCredentials.length >= MAX_API_KEYS && show) {
-    //   addNotification(
-    //     l10n.getString('max-api-keys-reached'),
-    //     'error',
-    //     AlertIcon,
-    //     SHOW_NOTIFICATION_BOLD_TEXT
-    //   )
-    //   return
-    // }
-
     apiCredentialsDispatch(actionCreators.toggleCreateApiCredentialsForm(show))
   }
 
@@ -119,12 +109,23 @@ export const useApiCredentials = () => {
       // fetch the updated API keys after creating a new one
       fetchApiCredentials()
     } catch (error) {
-      addNotification(
-        l10n.getString('create-api-key-error-toast-message'),
-        'error',
-        AlertIcon,
-        SHOW_NOTIFICATION_BOLD_TEXT
-      )
+      // TODO: remove console.log after debugging
+      console.log({ error })
+      if (error.message.includes(TOO_MANY_CREDENTIALS_ERROR)) {
+        addNotification(
+          l10n.getString('max-api-keys-reached'),
+          'error',
+          AlertIcon,
+          SHOW_NOTIFICATION_BOLD_TEXT
+        )
+      } else {
+        addNotification(
+          l10n.getString('create-api-key-error-toast-message'),
+          'error',
+          AlertIcon,
+          SHOW_NOTIFICATION_BOLD_TEXT
+        )
+      }
     }
   }
 
