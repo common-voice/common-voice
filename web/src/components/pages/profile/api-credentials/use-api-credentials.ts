@@ -109,8 +109,6 @@ export const useApiCredentials = () => {
       // fetch the updated API keys after creating a new one
       fetchApiCredentials()
     } catch (error) {
-      // TODO: remove console.log after debugging
-      console.log({ error })
       if (error.message.includes(TOO_MANY_CREDENTIALS_ERROR)) {
         addNotification(
           l10n.getString('max-api-keys-reached'),
