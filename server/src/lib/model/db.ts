@@ -94,7 +94,7 @@ const getLanguageMap = lazyCache(
     )
   },
   TimeUnits.DAY,
-  TimeUnits.SECOND
+  3 * TimeUnits.MINUTE
 )
 
 export async function getLocaleId(locale: string): Promise<number> {
@@ -325,11 +325,11 @@ export default class DB {
       taxonomySentences.length >= count
         ? []
         : await this.findSentencesWithFewClips(
-            client_id,
-            locale_id,
-            count + EXTRA_COUNT - taxonomySentences.length,
-            exemptFromSSRL
-          )
+          client_id,
+          locale_id,
+          count + EXTRA_COUNT - taxonomySentences.length,
+          exemptFromSSRL
+        )
 
     // exclude recently recorded sentences by the user (from Redis cache) to overcome race conditions
     const redisSet = await redisSetMembers(
@@ -488,11 +488,11 @@ export default class DB {
       taxonomySentences.length >= count
         ? []
         : await this.findClipsWithFewVotes(
-            client_id,
-            locale_id,
-            count - taxonomySentences.length,
-            exemptFromSSRL
-          )
+          client_id,
+          locale_id,
+          count - taxonomySentences.length,
+          exemptFromSSRL
+        )
 
     return taxonomySentences.concat(regularSentences)
   }
@@ -510,7 +510,7 @@ export default class DB {
         return await this.getClipsToBeValidated(locale_id, 10000)
       },
       TimeUnits.MINUTE,
-      3 * TimeUnits.SECOND
+      3 * TimeUnits.MINUTE
     )()
 
     //filter out users own clips
@@ -912,8 +912,7 @@ export default class DB {
             `
               SELECT COUNT(*) AS total, ${to} AS date
               FROM clips
-              WHERE created_at BETWEEN ${from} AND ${to} ${
-              locale ? 'AND locale_id = ?' : ''
+              WHERE created_at BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''
             }
             `,
             [localeId]
@@ -986,8 +985,8 @@ export default class DB {
           FROM (
             SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
             FROM (${hours
-              .map(i => `SELECT ${i} AS hour`)
-              .join(' UNION ')}) hours
+        .map(i => `SELECT ${i} AS hour`)
+        .join(' UNION ')}) hours
           ) date_alias
           LEFT JOIN (
             SELECT created_at
