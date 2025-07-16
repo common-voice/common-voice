@@ -4,10 +4,16 @@
 
 ## Languages
 
+aa = Afar
+aat = Arvanitika
 ab = Abhază
+abb = Bankon
+abq = Abaza
 ace = Acehneză
 ady = Adyghe
 af = Afrikaans
+ajg = Adja
+aln = Albaneză Gheg
 am = Amhară
 an = Aragoneză
 ar = Arabă
@@ -155,6 +161,3 @@ email-opt-in-info-sub-with-challenge = Primești mesaje pe e-mail, precum mement
 email-opt-in-privacy-v2 = Dacă optezi să primești mesaje pe e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații, conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
 indicates-required = * Indică un câmp obligatoriu
 not-available-abbreviation = Nu e cazul
-
-## Donate banner
-
