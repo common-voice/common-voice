@@ -64,3 +64,7 @@ read-sentences-coming-soon = వాక్యాలను చదవండి <sma
 
 speak-contribute-menu-tooltip = వాక్యాలు చదివి, ప్రశ్నలకు జవాబులు ఇవ్వండి
 read-sentences-menu-item-tooltip = మీ భాషలో వాక్యాలను చదువుతూ రికార్డు చేయండి
+
+## MENU ITEM ARIA LABELS
+
+read-sentences-menu-item-aria-label = కమ్యూనిటీ సమర్పించిన వాక్యాలను వివిధ భాషలలో చదవండి
