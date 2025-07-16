@@ -6,3 +6,4 @@ action-click = کلیک
 action-tap = ټپ کړئ
 # Label for language switcher
 platform-language = د پلیټ‌فارم ژبه
+platform-language-tooltip-text = يوازې د ویبسایټ ليک بدلول
