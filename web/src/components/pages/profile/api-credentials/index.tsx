@@ -118,34 +118,35 @@ export const ApiCredentials = () => {
             <h2 />
           </Localized>
 
-          {!showCreateApiCredentalsForm ? (
-            <Button
-              className="create-api-key-button"
-              rounded
-              onClick={() => toggleCreateApiCredentialsForm(true)}>
-              <PlusCircleIcon />
-              <Localized id="create-api-key-button">
-                <span />
-              </Localized>
-            </Button>
-          ) : (
-            <Button
-              className="cancel-api-key-button"
-              rounded
-              onClick={() => {
-                if (!createApiCredentialsResponse) {
-                  toggleCancelConfirmationModal(true)
-                } else {
-                  toggleCreateApiCredentialsForm(false)
-                  setCreateApiCredentialsData(null)
-                }
-              }}>
-              <XCircleIcon />
-              <Localized id="cancel">
-                <span />
-              </Localized>
-            </Button>
-          )}
+          {!createApiCredentialsResponse &&
+            (!showCreateApiCredentalsForm ? (
+              <Button
+                className="create-api-key-button"
+                rounded
+                onClick={() => toggleCreateApiCredentialsForm(true)}>
+                <PlusCircleIcon />
+                <Localized id="create-api-key-button">
+                  <span />
+                </Localized>
+              </Button>
+            ) : (
+              <Button
+                className="cancel-api-key-button"
+                rounded
+                onClick={() => {
+                  if (!createApiCredentialsResponse) {
+                    toggleCancelConfirmationModal(true)
+                  } else {
+                    toggleCreateApiCredentialsForm(false)
+                    setCreateApiCredentialsData(null)
+                  }
+                }}>
+                <XCircleIcon />
+                <Localized id="cancel">
+                  <span />
+                </Localized>
+              </Button>
+            ))}
         </div>
 
         {shouldShowCreateApiCredentialsForm && (
