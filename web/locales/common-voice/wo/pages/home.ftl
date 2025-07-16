@@ -45,6 +45,7 @@ x-weeks-short =
     { $count } ayubès
 x-months-short = { $count }mo
 x-years-short = { $count }y
+help-make-dataset = Dimbali nu defar ay jumtukaay yu baax te ubbeeku ci ñépp
 sign-up-account = Bindul ngir am kont
 email-subscription-title = Bindul ngir yeesal sa email
 email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàttaliku say mébet ak yeesal sag yokkute
@@ -52,11 +53,15 @@ email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàt
 ## Account Benefits
 
 benefits = Ay ngëneel
+view-goals = Xoolal sa yokkute ci say mébeti bopp ak say mébet si say nas.
+join-newsletter = Soo bëggee bokkal ci sunu limu email ngir am yeesal ak leeral yu bees ci nas bi.
 
 ## What's public
 
 whats-public = Yan nitt ?
 email-not-public = Dunu siiwal sa imeel.
+recordings-and-locale-public = Limu rënk yi ak làkk yi nga ci jàppale ñépp dina ñu ko giss.
+username-optin-public = Mën nga tànn nga fësal sa tur fi wala nga nëbb ko.
 username-email-not-demographic = Sa tur jëfandikukat ak sa email duñu ko boole ci jumtukaay yi yuñ siiwal.
 
 ## Landing
@@ -75,18 +80,6 @@ transcribe-audio = Transkripson kàddu yi
 press-and-stories = Press ak jaar-jaar
 community-and-languages = Askan wi ak làkk yi
 about-us = Lu jëm ci nun
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
 
 ## Action items section
 

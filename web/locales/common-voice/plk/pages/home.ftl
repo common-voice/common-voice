@@ -111,6 +111,7 @@ community-and-languages-menu-item-tooltip = جِبہ، کمیونیٹیز گہ �
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = شرکت، پریس گہ قصائے، کمیونٹی گہ جِبو بُجیس اُڇھونے کِرِیا مینو
 about-us-menu-aria-label = اختِیاراتو مینو بارَد ڇکِیا
 about-us-menu-item-aria-label = اسیے بارَد واکے اختیارے مینو
 partnerships-menu-item-aria-label = کامن وائس سے ساتیْ شراکتے بارَد معلوم تِھیا

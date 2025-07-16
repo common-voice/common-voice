@@ -6,6 +6,7 @@ export const CreateApiCredentialsRequest: AllowedSchema = {
   properties: {
     description: {
       type: 'string',
+      maxLength: 255,
     },
   },
 }

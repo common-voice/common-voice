@@ -7,6 +7,8 @@ age-select-label = Ñata at nga am ?
 select-your-age = Tannal say at
 select-your-gender = Tànnal wax ndax goor nga wala jigéen
 country-of-residence-label = Réew/Region bi nga dëkk
+country-of-residence-placeholder =
+    .placeholder = Bindal sa Réew/Diiwaan bi nga dëkk
 why-are-you-asking = Lu tax ngay laaj ?
 thank-you-for-your-information = Noo ngi lay di sant ci xibaar yi
 
