@@ -1,5 +1,6 @@
 ## Dashboard
 
+your-languages = Tujeo Bhaso
 you = Tumi
 everyone = Sogle
 show-ranking = Mhoje ranking dhakoi
@@ -24,3 +25,8 @@ n-clips-pluralized =
 
 ## Goals
 
+validations =
+    { $count ->
+        [one] Topasnni
+       *[other] Topasnneo
+    }
