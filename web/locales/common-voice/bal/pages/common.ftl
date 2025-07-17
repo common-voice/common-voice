@@ -8,9 +8,3 @@ skr = سرائیکی
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

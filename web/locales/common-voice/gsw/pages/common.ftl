@@ -8,9 +8,3 @@ gsw = Elsassisch
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

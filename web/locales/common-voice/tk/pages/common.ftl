@@ -189,6 +189,3 @@ email-opt-in-info-sub-with-challenge = Ýumuşlar we öňde goýlan maksat ýatl
 email-opt-in-privacy-v2 = E-poçtalary almaga meýletin goşulmak bilen siz Mozillanyň bu maglumaty Mozillanyň  <privacyLink>Gizlinlik syýasatynda</privacyLink> düşündirilişi ýaly ulanjakdygyna razylyk berýärsiňiz.
 indicates-required = * Hökmany meýdany görkezýär
 not-available-abbreviation = D/D
-
-## Donate banner
-

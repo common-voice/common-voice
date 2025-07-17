@@ -2,17 +2,8 @@
 # [Languages]
 
 
-## Languages
-
-
-# [/]
-
-
 ## Layout
 
 help = Ayudo
 contact = Contacto
 privacy = Privacidad
-
-## Donate banner
-

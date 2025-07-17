@@ -191,6 +191,3 @@ email-opt-in-info-sub-with-challenge = Common Voice Project क संबंध 
 email-opt-in-privacy-v2 = ईमेल प्राप्त करय के विकल्प चुनि क’ अहाँ अनुमति देत छी जे अहाँ Mozilla के एहि जानकारी के संभारबाक ख़ातिर तैयार छी जहिना जे Mozilla केर <privacyLink>गोपनीयता नीति</privacyLink> मे बताएल गेल अछि.
 indicates-required = जतए (*) चिह्नित अछि तकरा पूरा कएनाय ज़रूरी अछि.
 not-available-abbreviation = लागू नहि
-
-## Donate banner
-

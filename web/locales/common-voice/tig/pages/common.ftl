@@ -188,6 +188,3 @@ email-opt-in-info-sub-with-challenge = ኢሜል ከበት ከምሰል ናይ �
 email-opt-in-privacy-v2 = ኢሜል እግል ትትከበቶ ላሓረኩም Mozilla ኣብ እሊ ዲብ <privacyLink>Privacy Policy</privacyLink> ላትሸራሓ ገብይ እግል ትጽበጦ ውፉቅም ህለኩም
 indicates-required = * ላለትሓዘ ኣካን ላሓብር
 not-available-abbreviation = ለይህላ
-
-## Donate banner
-

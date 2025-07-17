@@ -8,9 +8,3 @@ aa = Afar
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

@@ -234,6 +234,3 @@ email-opt-in-info-sub-with-challenge = Common Voice に関する目標リマイ�
 email-opt-in-privacy-v2 = メールの受信を選択した場合、Mozilla の <privacyLink>プライバシーポリシー</privacyLink> に記載のとおり、この情報を Mozilla が取り扱うことに同意したものとみなされます。
 indicates-required = * の付いた項目は入力必須です
 not-available-abbreviation = 該当なし
-
-## Donate banner
-

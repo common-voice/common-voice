@@ -2,15 +2,6 @@
 # [Languages]
 
 
-## Languages
-
-
-# [/]
-
-
 ## Layout
 
 terms = hulrice
-
-## Donate banner
-

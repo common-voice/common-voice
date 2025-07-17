@@ -164,6 +164,3 @@ email-opt-in-info-sub-with-challenge = Kôhna bimél kiki bo pémsan ni mbigda m
 email-opt-in-privacy-v2 = Intel u ngéda u nneebe kôs bimél, wee u nneebe le Mozilla a bôñôl unu nwin kiki ka ngéda biniigana bi <privacyLink>nkok u matédés</privacyLink> u Mozilla.
 indicates-required = Nit mapoga ma mbéda.
 not-available-abbreviation = Yemel
-
-## Donate banner
-

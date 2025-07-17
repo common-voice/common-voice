@@ -192,6 +192,3 @@ email-opt-in-info-sub-with-challenge = Men maqsad va yutuqlar haqida bildirishno
 email-opt-in-privacy-v2 = E-pochta xabarlarini olishni tanlab, Mozillaning <privacyLink>Maxfiylik siyosatida</privacyLink> tushuntirilganidek, ushbu maʼlumot bilan ishlashga tayyor ekanligingizni bildirasiz.
 indicates-required = * Toʻldirish majburiy boʻlgan maydon
 not-available-abbreviation = M/E
-
-## Donate banner
-

@@ -155,6 +155,3 @@ email-opt-in-info-sub-with-challenge = Gauti iššūkių ir tikslų priminimus, 
 email-opt-in-privacy-v2 = Pasirinkęs (-usi) gauti el. laiškus, Tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje</privacyLink>.
 indicates-required = * Nurodo privalomą lauką
 not-available-abbreviation = Nepasiekiama
-
-## Donate banner
-

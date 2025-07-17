@@ -2,16 +2,7 @@
 # [Languages]
 
 
-## Languages
-
-
-# [/]
-
-
 ## Layout
 
 terms = sinqaqasam
 logout = mudaan
-
-## Donate banner
-

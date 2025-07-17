@@ -172,6 +172,3 @@ email-opt-in-info-sub-with-challenge = Էլ. փոստով ստանալ Common Vo
 email-opt-in-privacy-v2 = Ընտրելով էլ. նամակներ ստանալու հնարավորությունը՝ Դուք համաձայնվում եք նաև, որ Mozilla-ն մշակի այդ տեղեկատվությունը համաձայն Mozilla-ի <privacyLink>Անձնական տվյալների պաշտպանության քաղաքականության<privacyLink>:
 indicates-required = * Պարտադիր լրացման համար
 not-available-abbreviation = Կիրառելի չէ
-
-## Donate banner
-

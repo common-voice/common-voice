@@ -10,9 +10,3 @@ abb = Banko
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

@@ -205,6 +205,3 @@ email-opt-in-info-sub-with-challenge = Ruray paktachik chaskillita kachamuway, �
 email-opt-in-privacy-v2 = Ñukanchik chaskillikunata chaskishpaka Mozilla kikinpa yachaykunata allilla apanchunmi nikunki imahinami nikun kay <privacyLink> shinallata Privacy Policy nishkapi</privacyLink>.
 indicates-required = Kay iñuwan (*) pushtukunaka maymanta mutsurishkami.
 not-available-abbreviation = Na mutsurishka
-
-## Donate banner
-

@@ -121,6 +121,3 @@ email-input =
     .label = Imeri
 loading = Birakinjira...
 indicates-required = *Yemeje ingeri ikenewe
-
-## Donate banner
-
