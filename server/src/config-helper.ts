@@ -10,6 +10,12 @@ if (process.env.DOTENV_CONFIG_PATH) {
       process.env.DOTENV_CONFIG_PATH
     )
   } else {
+    // check to see if the default authentication details have changed, if not issue Warning
+    if (result.parsed.CV_FXA_DOMAIN == '<domain_here>') {
+      console.log(
+        'ERROR loading config: found default Authentication values. Have you updated .env-docker-local with correct Authentication values?'
+      )
+    }
     console.log(
       'Loading config: successfully loaded dotenv file: ',
       process.env.DOTENV_CONFIG_PATH
