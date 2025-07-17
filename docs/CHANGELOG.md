@@ -14,7 +14,7 @@
 
 #### Data Changes in v1.148.0
 
-- (in v1.147.1) Lowered sentence requirement bands of 43 locales (mostly new ones defaulting to 5000) by [@moz-bozden](https://github.com/moz-bozden) in [#4569](https://github.com/common-voice/common-voice/pull/4969) thank you @ft [@ftyers](https://github.com/ftyers) for his review, and community members flagging the issue.
+- (in v1.147.1) Lowered sentence requirement bands of 43 locales (mostly new ones defaulting to 5000) by [@moz-bozden](https://github.com/moz-bozden) in [#4569](https://github.com/common-voice/common-voice/pull/4969) thank you [@ftyers](https://github.com/ftyers) for his review, and community members flagging the issue.
 
 ### Next release v1.14x.x (TBA)
 
