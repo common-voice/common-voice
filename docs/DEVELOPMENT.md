@@ -44,6 +44,7 @@ This guide is intended for:
 ## Summary to get up and running 
 
 * Fork and clone the repo 
+* Set up an Auth0 tenant or similar to provide authentication.
 * Copy the `.env-local-docker.example` file to `.env-local-docker`, and edit as required for your context
 * Run `docker` containers with `docker compose up`
 * Flush `redis` cache when sentences from your language are imported 
