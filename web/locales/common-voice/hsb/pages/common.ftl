@@ -387,6 +387,7 @@ wbl = Wakhi
 wep = Westfalšćina
 wes = Kamerunski pidźin
 wo = Wolof
+xdq = Kaitagšćina
 xh = Xhosa
 xhe = Ketrani
 xka = Kalkoti
