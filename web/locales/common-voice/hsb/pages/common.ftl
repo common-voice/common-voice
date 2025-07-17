@@ -297,6 +297,7 @@ qwa = Quechua Corongo Ancash
 qws = Quechua Sihuas Ancash
 qxa = Quechua Chiquián
 qxp = Kečua Puno
+qxq = Kašgajšćina
 qxt = Quechua Pasco Santa Ana de Tusi
 qxu = Quechua Arequipa-La Unión
 qxw = Quechua Jauja Wanka
