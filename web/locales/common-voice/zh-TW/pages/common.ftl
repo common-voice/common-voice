@@ -97,7 +97,6 @@ hsb = 上索布語
 ht = 海地語
 hu = 匈牙利語
 hy-AM = 亞美尼亞語
-hyw = 西亞美尼亞語
 ia = 國際語（Interlingua）
 ibb = Ibibio 語
 id = 印尼語

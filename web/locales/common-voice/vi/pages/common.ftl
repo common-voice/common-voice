@@ -97,7 +97,6 @@ hsb = Thượng Sorb
 ht = Haiti
 hu = Hungary
 hy-AM = Armenia
-hyw = Armenia Tây
 ia = Interlingua
 ibb = Ibibio
 id = Indo

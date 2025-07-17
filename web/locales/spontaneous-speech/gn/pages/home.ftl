@@ -2,6 +2,8 @@
 
 welcome-to-spontaneous-speech = Eg̃uahẽporã Spontaneous Speech-pe
 why-spontaneous-speech = ¿Mba’érepa rojapo koichagua ayvu jeporurã?
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Oipytyvõ porãve ñe’ẽnguéra rekoteépe g̃uarã ikatúva pe ñe’ẽ jeporuporã ha ayvu ñemoambue
 how-spontaneous-speech-works = Mba’éichapa oiko ayvu jeporu
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Prompt</mark>

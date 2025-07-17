@@ -58,7 +58,6 @@ hsb = Altu sórabu
 ht = Haitianu
 hu = Húngaru
 hy-AM = Armeniu
-hyw = Armeniu occidental
 ia = Interlingua
 id = Indonesiu
 is = Islandés

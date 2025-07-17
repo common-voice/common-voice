@@ -63,7 +63,6 @@ hsb = Alto Sorabo
 ht = aj Haiti
 hu = Hungaro
 hy-AM = Armenyan
-hyw = Armenio (occidental )
 ia = Interlingua
 id = Indonesio
 ie = Interlingue

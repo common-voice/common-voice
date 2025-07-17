@@ -70,7 +70,6 @@ hsb = toki Konkosepusina
 ht = toki Awisi
 hu = toki Mosijo
 hy-AM = toki Aja
-hyw = toki Aja Wesa
 ia = toki Intelinwa
 id = toki Intonesija
 ie = toki Intelinwe

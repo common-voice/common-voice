@@ -97,6 +97,7 @@ community-and-languages-menu-item-tooltip = Descubra os idiomas e as comunidades
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Acceder á area de colaboracións, comunicación e novas, comunidade e idiomas
 about-us-menu-aria-label = Menú de opcións "Sobre nós"
 about-us-menu-item-aria-label = Menú de opcións "Sobre nós"
 partnerships-menu-item-aria-label = Aprenda sobre as colaboracións con Common Voice

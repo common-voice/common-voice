@@ -72,7 +72,6 @@ hsb = alt sòrab
 ht = haitià
 hu = hongarès
 hy-AM = armeni
-hyw = armeni occidental
 ia = interlingua
 id = indonesi
 ie = interlingue

@@ -69,7 +69,6 @@ hsb = Sorbiane, E sipërme
 ht = Haitiane
 hu = Hungarisht
 hy-AM = Armene
-hyw = Armene Perëndimore
 ia = Interlingua
 id = Indonezisht
 ie = Interlingue

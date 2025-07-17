@@ -97,6 +97,7 @@ community-and-languages-menu-item-tooltip = Ανακαλύψτε γλώσσες,
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Μενού για την πρόσβαση στις σελίδες «Συνεργασίες», «Τύπος και άρθρα», «Κοινότητα» και «Γλώσσες»
 about-us-menu-aria-label = Μενού επιλογών πληροφοριών
 about-us-menu-item-aria-label = Μενού επιλογών πληροφοριών σχετικά με εμάς
 partnerships-menu-item-aria-label = Μάθετε για τις συνεργασίες με το Common Voice

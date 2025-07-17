@@ -57,7 +57,6 @@ hr = Kroasia
 hsb = Sorbia i Ño Mbok
 hu = Hongaria
 hy-AM = Arménia
-hyw = Arménia i Kendi Mbok
 ia = Mbôrokhop
 id = Indonésia
 is = Island

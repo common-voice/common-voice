@@ -58,7 +58,6 @@ hsb = Sorbça, ýokary
 ht = Gaitiçe
 hu = Wengerçe
 hy-AM = Ermeniçe
-hyw = Ermeniçe, günbatar
 ia = Interlingwa
 id = Indonezçe
 ie = Interlingwa

@@ -24,6 +24,7 @@ new-sentence-rule-8 = Li gëna mooy mu nuru waxtaan (dawal baat bi dafa wara yom
 login-instruction-multiple-sentences = <loginLink>Dugal</loginLink> wala nga <loginLink>bindu</loginLink> ngir yokk ay waat
 how-to-cite = naka lay cite?
 how-to-cite-explanation-bold = Cite ak lëkkalekaay URL wala tur liggéey bi yépp.
+how-to-cite-explanation = Sudee sa kàddu la, waxal <italicizedText>“Sama Kadù”</italicizedText>. Danu wara xam fi nga fekk ëmbiit lii suko defee ñu mëna xool ndax nekk na ci lu ñu bokk te amul benn tënk ci yelleefu moomeel. Ngir am ci yeneen leeral ci kadù yi xoolal sunu <guidelinesLink>Xëtu tegtal yi</guidelinesLink>
 guidelines = Tegtal yi
 contact-us = Jokkook Nun
 add-sentence-success = 1 baat yuñ dajale
@@ -65,6 +66,7 @@ technology_robotics = Xarala yu bees ak Robotik
 ## BULK SUBMISSION
 
 sc-bulk-upload-instruction-drop = Bàyyil fichier bi fii ngir yebbi
+bulk-upload-additional-information = Su amee yeneen leeral yu nga bëgg  joxe ci dencukaay bii, jokkool ak <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again-md = Jéemal yebbiwaat
 select-file = Tannal benn Fichier
 select-file-mobile = Tannal téere bi nga bëgga yebbi
@@ -72,14 +74,24 @@ accepted-files = Xeetu fichier yiñ nangu: .tsv kese
 minimum-sentences = Lumu ndaw ndaw dosiye bi warna am : 1000
 maximum-file-size = Dayo fichier bi gëna mag: 25 MB
 what-needs-to-be-in-file = Lu wara nekk ci sama dosiye?
+bulk-upload-failed-toast = Yebbitewul, jéemaatal ci kanam.
+bulk-submission-success-subheader = Yaa ngi jàppale Common Voice mu mëna matal  mébetam ci xët  bis bi!
+upload-more-btn-text = Da ngay yebbi yenen waat?
+file-invalid-type = kàggu bi baaxul
+file-too-large = Téere bi dafa mak
+file-too-small = Téere bi dafa tuuti
+too-many-files = Téere yi da ño beuri
 
 ## SMALL BATCH SUBMISSION
 
+multiple-sentences-error = Mëno  yokk ay xët yu bari ci benn dugal
+exceeds-small-batch-limit-error = Mëno dugal lu ëpp 1000 xët
+small-batch-sentences-rule-1 = Toppal tegtal yi ci "Yan xët laa mëna yokk?"
+small-batch-sentences-rule-4 = Yokkal lu tollu ci 1000 xët
+# menu item
+add-sentences = Jokk ay waat
 
 ## MENU ITEM TOOLTIPS
 
 add-questions-menu-item-tooltip = Yokk laaj
 review-questions-menu-item-tooltip = Jàngat ay laaj
-
-## MENU ITEM ARIA LABELS
-

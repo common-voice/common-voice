@@ -3,9 +3,8 @@ import { ApplicationError } from '../types/error'
 import { Domain, domainDescriptionMap } from '../../core/domains/domain'
 import { pipe } from 'fp-ts/lib/function'
 import { queryDb } from '../../infrastructure/db/mysql'
-import { DAY } from '../../infrastructure/redis/redis'
 import { createDatabaseError } from '../helper/error-helper'
-import { SentenceDomain } from 'common'
+import { SentenceDomain, TimeUnits } from 'common'
 
 export type FetchSentenceDomains = () => TE.TaskEither<
   ApplicationError,

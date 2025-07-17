@@ -75,7 +75,6 @@ hsb = Augšsorbu
 ht = Haitīšu
 hu = Ungaru
 hy-AM = Armeņu
-hyw = Rītumarmeņu
 ia = Interlingua
 id = Indonezīšu
 ie = Interlingue

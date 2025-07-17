@@ -107,6 +107,7 @@ community-and-languages-menu-item-tooltip = Fedezzen fel nyelveket, közössége
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Menü a Partnerségek, Sajtó és történetek, Közösség és nyelvek eléréséhez
 about-us-menu-aria-label = Névjegy menü lehetőségei
 about-us-menu-item-aria-label = Névjegy menü lehetőségei
 partnerships-menu-item-aria-label = Tudjon meg többet a Common Voice-szal való partnerségekről
