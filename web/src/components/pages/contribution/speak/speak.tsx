@@ -508,7 +508,6 @@ class SpeakPage extends React.Component<Props, State> {
             alert(
               getString('error-duplicate-clips-some', {
                 uploaded: uploaded_count,
-                total: clip_count,
               })
             )
           }
