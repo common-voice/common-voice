@@ -5,9 +5,7 @@ import { CreateClientCredentialsCommand } from '../../../../application/profile/
 // Mock the dependencies
 jest.mock('../../../../infrastructure/authentication/authentication')
 
-const mockCreateClientCredentials = createClientCredentials as jest.MockedFunction<
-  typeof createClientCredentials
->
+const mockCreateClientCredentials = jest.mocked(createClientCredentials)
 
 describe('createClientCredentialsCommandHandler', () => {
   beforeEach(() => {

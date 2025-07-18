@@ -5,9 +5,7 @@ import { GetClientCredentialsQuery } from '../../../../application/profile/query
 // Mock the infrastructure dependency
 jest.mock('../../../../infrastructure/authentication/authentication')
 
-const mockGetClientCredentials = getClientCredentials as jest.MockedFunction<
-  typeof getClientCredentials
->
+const mockGetClientCredentials = jest.mocked(getClientCredentials)
 
 describe('getClientCredentialsQueryHandler', () => {
   beforeEach(() => {

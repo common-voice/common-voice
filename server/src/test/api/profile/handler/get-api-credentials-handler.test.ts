@@ -6,9 +6,7 @@ import { getClientCredentialsQueryHandler } from '../../../../application/profil
 // Mock the dependencies
 jest.mock('../../../../application/profile/query-handler/getClientCredentialsQueryHandler')
 
-const mockGetClientCredentialsQueryHandler = getClientCredentialsQueryHandler as jest.MockedFunction<
-  typeof getClientCredentialsQueryHandler
->
+const mockGetClientCredentialsQueryHandler = jest.mocked(getClientCredentialsQueryHandler)
 
 interface MockRequest {
   session: {

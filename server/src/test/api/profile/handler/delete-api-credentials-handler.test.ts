@@ -8,12 +8,8 @@ import { deleteClientCredentialsCommandHandler } from '../../../../application/p
 jest.mock('../../../../application/profile/query-handler/getClientCredentialsQueryHandler')
 jest.mock('../../../../application/profile/command-handler/deleteClientCredentialsCommandHandler')
 
-const mockGetClientCredentialsQueryHandler = getClientCredentialsQueryHandler as jest.MockedFunction<
-  typeof getClientCredentialsQueryHandler
->
-const mockDeleteClientCredentialsCommandHandler = deleteClientCredentialsCommandHandler as jest.MockedFunction<
-  typeof deleteClientCredentialsCommandHandler
->
+const mockGetClientCredentialsQueryHandler = jest.mocked(getClientCredentialsQueryHandler)
+const mockDeleteClientCredentialsCommandHandler = jest.mocked(deleteClientCredentialsCommandHandler)
 
 interface MockRequest {
   session: {
