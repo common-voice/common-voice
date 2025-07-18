@@ -12,6 +12,7 @@ export default function NotificationPill({
 }: {
   notification: Notifications.Notification
 }) {
+  console.log('NotificationPill', notification)
   const removeNotification = useAction(Notifications.actions.remove)
   const [show, setShow] = useState(true)
 
@@ -24,7 +25,8 @@ export default function NotificationPill({
     <div
       className={
         'notification-pill ' +
-        (notification.kind == 'pill' ? notification.type : '')
+        (notification.kind == 'pill' ? notification.type : '') +
+        (notification.showBoldText ? ' bold-text' : '')
       }
       style={{ opacity: show ? 1 : 0 }}
       onTransitionEnd={() => removeNotification(notification.id)}>
