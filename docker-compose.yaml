@@ -3,6 +3,7 @@ services:
     image: mysql:8.0.31
     networks:
       - voice-web
+      - common-voice-network
     container_name: db
     restart: unless-stopped
     environment:
@@ -19,7 +20,6 @@ services:
     restart: unless-stopped
     networks:
       - voice-web
-      - common-voice-network
   storage:
     image: fsouza/fake-gcs-server
     container_name: storage
