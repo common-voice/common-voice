@@ -134,6 +134,7 @@ loading = გინმიჭარუ…
 email-opt-in-info = ჩქიმი ელფოსტაშა მოკო მიბღენი ღანკეფიში გოშინა, ჩქიმი პროგრესიში გაახალება დო საინფორმაციო ბიულეტენეფი Common Voice-იშ გურშენი.
 email-opt-in-info-title = ქაკათით Common Voice-იშ ელფოსტაში ბუნას
 email-opt-in-info-sub-with-challenge = ელფოსტაშა თქვა მიღენთ ღანკეფიში გასაშინეს, პროგრესიში გაახალებას დო საინფორმაციო ბიულეტენეფს Common Voice-იშ გურშენი.
+email-opt-in-privacy-v2 = ელფოსტაშა ნაჭარეფიში მეღებაში დოჸუნათ, ვარეთ წინააღმდეგი Mozilla-ქ თე მუნაჩემეფი დამუშუას <privacyLink> პირადულობაში თხილუაში დებულებაში </privacyLink> შესაბამისო.
 indicates-required = (*) შანულენს აუცილებელ ველს
 not-available-abbreviation = ხემიოჭირინაფალი ვარე
 
