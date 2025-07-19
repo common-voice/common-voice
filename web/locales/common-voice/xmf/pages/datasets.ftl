@@ -39,6 +39,7 @@ feedback-q = გიღუნანო გუმოხონარება?
 no-information = ვარე ინფორმაცია
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ რე <docsLink> გოღია წყუში ხეჭკუდეფეში ნაკორობა </docsLink> მკვლევარეფიშო უახალაში AI მოდელეფიში აკაქიმინალო.
 resource-deepspeech-info = Mozilla-ში გოღია წყუში ხუმაში ეშაჩინებელი ძრავა Deep Speech შილებე გუმორინაფილქ იჸუას თქვანი ხონარიში ეშაჩინებელი პროგრამეფიშოთ. წეკითხით ჩქინი <githubLink> Github მიმოხილვა </githubLink> ვარდა ქუმაკათით <discourseLink> DeepSpeech ოჩიებეს </discourseLink> დიგურეთ მუჭო ოკო დიჭყათჷნი.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> მეძღვინელი რე გოღია ჩიებაში ტექნოლოგიეფჷშოთ. თინეფიში პროექტეფი ოხიუ STT დო TTS ძრავეფიში საფუძვლიან გურაფას.
 community-playbook = ართობაში ოხემანჯღვერე
 data-other-ted-name = TED-LIUM კორპუსი
 data-other-ted-description = TED-LIUM  კორპუსის რე ხონარუანი ინნაჭარეფი დო თინეფიში ტრანსკრიფცია, ნამუთ ხემიოჭირინაფალი რე TED-იში ვებსაიტის.
