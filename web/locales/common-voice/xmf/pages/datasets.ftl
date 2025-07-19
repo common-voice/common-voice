@@ -69,6 +69,7 @@ donate-modal-explanation-1 = ირ წანას მილიონ დოლ
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold> ქაფასენთ გოღია, ინკლუზიურ მუნაჩემეფს-და - შემენწიით ამდღა! </bold>
 data-download-singleword-title = გეგმოხარგეთ ართი ზიტყვაში ღანკი სეგმენტი
+data-download-singleword-callout-v2 = თენა რე გუმორინაფაში შემთხვევეფიშა ორიენტირებული სეგმენტი, ნამუთ მიშეშკვანს მუნაჩემეფს ციფრეფიში დო ქო/ვარ ხონარუან ზოჯუეფიში ეშაჩინებაში უზრუნველსაყოფო.
 data-download-button = Common Voice-იშ მუნაჩემეფიშ გუმოხარგუა
 data-download-yes = ქო
 data-download-deny = ვარ
