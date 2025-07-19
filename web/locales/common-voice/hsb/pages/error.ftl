@@ -15,9 +15,9 @@ error-code = Zmylk { $code }
 error-duplicate-clips-all =
     { $total ->
         [one] Njemóžachmy waš { $total } klip nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
-        [two] Njemóžachmy wašej { $total } klipaj nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
-        [few] Njemóžachmy waše { $total } klipy nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
-       *[other] Njemóžachmy waše { $total } klipow nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
+        [two] Njemóžachmy wašej { $total } klipaj nahrać. Stej so hižo prjedy nahrałoj. Čińmy z přichodnym staplom dale!
+        [few] Njemóžachmy waše { $total } klipy nahrać. Su so hižo prjedy nahrali. Čińmy z přichodnym staplom dale!
+       *[other] Njemóžachmy waše { $total } klipow nahrać. Je so hižo prjedy nahrało. Čińmy z přichodnym staplom dale!
     }
 # Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
 error-duplicate-clips-some = Smy { $uploaded } z wašich klipow nahrali – Zbytk je so hižo nahrał. Čińmy z přichodnym staplom dale!
