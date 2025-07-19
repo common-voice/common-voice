@@ -11,3 +11,11 @@ error-content-404 = Snano budźe naša <homepageLink>startowa strona</homepageLi
 error-title-503 = Mamy njewočakowany čas staća
 error-content-503 = Sydło budźe tak bórze kaž móžno zaso k dispoziciji być. Najnowše informacije dóstanjeće w  <matrixLink>chaće Matrix zhromadźenstwa</matrixLink> abo wopytajće <githubLink>GitHub</githubLink> abo <discourseLink>naše forumy Discourse</discourseLink>, zo byšće problemy ze sydłom zdźělił abo wobkedźbował.
 error-code = Zmylk { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] Njemóžachmy waš { $total } klip nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
+        [two] Njemóžachmy wašej { $total } klipaj nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
+        [few] Njemóžachmy waše { $total } klipy nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
+       *[other] Njemóžachmy waše { $total } klipow nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
+    }
