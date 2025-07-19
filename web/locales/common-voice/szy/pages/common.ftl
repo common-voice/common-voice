@@ -21,6 +21,3 @@ privacy = himicu
 terms = sacukaymas a hulic
 logout = patahekal
 donate = painipakahut
-
-## Donate banner
-

@@ -114,6 +114,3 @@ return-to-cv = Common Voice'ко кайтуу
 email-input =
     .label = Эмейл
 loading = Жүктөлүүдө...
-
-## Donate banner
-

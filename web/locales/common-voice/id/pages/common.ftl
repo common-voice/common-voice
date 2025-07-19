@@ -174,6 +174,3 @@ email-opt-in-info-sub-with-challenge = Terima email seperti pengingat tantangan 
 email-opt-in-privacy-v2 = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
 indicates-required = * Wajib diisi
 not-available-abbreviation = N/A
-
-## Donate banner
-

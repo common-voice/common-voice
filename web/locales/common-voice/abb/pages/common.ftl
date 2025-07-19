@@ -8,9 +8,3 @@ abb = Ɓàŋkón
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

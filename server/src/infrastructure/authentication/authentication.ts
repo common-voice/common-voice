@@ -6,8 +6,7 @@ export const COMMON_VOICE_DOMAIN_MAP: Readonly<Record<Environment, string>> = {
   prod: 'https://commonvoice.mozilla.org',
   stage: 'https://commonvoice.allizom.org',
   sandbox: 'https://sandbox.commonvoice.allizom.org',
-  // local: 'http://localhost:9000', // TODO: use SERVER_PORT
-  local: 'http://common-voice:9090', // TODO: use SERVER_PORT
+  local: 'http://localhost:9000', // TODO: use SERVER_PORT
 }
 
 export const callbackURL = (env: Environment) =>
@@ -55,7 +54,7 @@ export const createClientCredentials = async (clientInfo: {
 export const getClientCredentials = async (clientInfo: { userId: string }) => {
   const res = await fetch(
     getConfig().AUTH_SERVICE_URL +
-      `/internal/auth/clients?userId=${encodeURIComponent(clientInfo.userId)}`
+    `/internal/auth/clients?userId=${encodeURIComponent(clientInfo.userId)}`
   )
 
   if (!res.ok) {
@@ -70,7 +69,7 @@ export const getClientCredentials = async (clientInfo: { userId: string }) => {
 export const deleteClientCredentials = async (clientInfo: { clientId: string }) => {
   const res = await fetch(
     getConfig().AUTH_SERVICE_URL +
-      `/internal/auth/clients/${encodeURIComponent(clientInfo.clientId)}`,
+    `/internal/auth/clients/${encodeURIComponent(clientInfo.clientId)}`,
     {
       method: 'DELETE',
     }

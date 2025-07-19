@@ -110,6 +110,3 @@ email-input =
     .label = Эл. пуштӑ
 loading = Тиенет...
 indicates-required = * Тивӗҫлӗ анана пӗлтерет
-
-## Donate banner
-

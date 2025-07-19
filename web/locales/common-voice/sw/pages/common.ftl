@@ -197,6 +197,3 @@ email-opt-in-info-sub-with-challenge = Pokea barua pepe kama vile ukumbusho wa c
 email-opt-in-privacy-v2 = Kwa kuchagua kupokea ujumbe kwa njia ya barua pepe unakubaliana na  Mozilla kutunza ujumbe huu kama ilivyoelekezwa katika <privacyLink>Sera ya faragha ya Mozilla</privacyLink>
 indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
-
-## Donate banner
-

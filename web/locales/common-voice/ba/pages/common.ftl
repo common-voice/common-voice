@@ -223,6 +223,3 @@ email-opt-in-info-sub-with-challenge = Common Voice тураһында яңы м
 email-opt-in-privacy-v2 = <privacyLink>Хосусилек сәйәсәтендә</privacyLink> яҙылғансы, электрон хаттарҙы алыуға рөхсәт биреп,  һеҙ  Mozilla мөғлүмәттәрҙе эшкәртеүгә ҡаршы түгел икәнлегегеҙҙе белдерәһегеҙ
 indicates-required = Мотлаҡ тултырырға
 not-available-abbreviation = Бирелмәгән
-
-## Donate banner
-

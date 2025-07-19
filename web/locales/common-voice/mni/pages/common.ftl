@@ -235,6 +235,3 @@ email-opt-in-info-sub-with-challenge = ꯃꯁꯤꯒꯨꯝꯕ ꯑꯁꯤꯗ  ꯏ�
 email-opt-in-privacy-v2 = ꯏꯃꯦꯜꯁꯤꯡ ꯐꯪꯅꯕꯥ ꯈꯟꯗꯨꯅꯥ ꯅꯍꯥꯛꯅꯥ ꯃꯣꯖꯤꯂꯥꯒꯤ <privacyLink>>ꯑꯔꯣꯟꯕ ꯊꯧꯔꯥꯡ</privacy Link>ꯗꯥ ꯄꯅꯈ꯭ꯔꯤꯕꯥ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯃꯣꯖꯤꯂꯥꯅꯥ ꯏꯅꯐꯣꯔꯃꯦꯁꯟ ꯑꯁꯤ ꯍꯦꯟꯗꯜ ꯇꯧꯕꯗꯥ ꯅꯍꯥꯛꯅꯥ ꯑꯣꯀꯦ ꯍꯥꯏꯅꯥ ꯍꯥꯏꯔꯤ꯫
 indicates-required = * ꯃꯁꯤꯅ ꯇꯥꯛꯂꯤꯕ ꯑꯁꯤ ꯁꯣꯢꯗꯅ ꯆꯪꯕ
 not-available-abbreviation = ꯐꯪꯗꯕ
-
-## Donate banner
-

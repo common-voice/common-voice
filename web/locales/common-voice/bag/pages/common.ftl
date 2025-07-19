@@ -8,9 +8,3 @@ bag = Tukí
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

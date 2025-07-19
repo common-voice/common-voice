@@ -11,3 +11,11 @@ error-content-404 = Vielleicht hilft unsere <homepageLink>Startseite</ homepageL
 error-title-503 = Unsere Website ist unerwarteterweise nicht erreichbar.
 error-content-503 = Die Seite wird so schnell wie möglich wieder verfügbar sein. Die neuesten Informationen erhalten Sie im <matrixLink>Matrix-Community-Chat</matrixLink>. Nutzen Sie <githubLink>GitHub</githubLink> oder <discourseLink>unsere Discourse-Foren</discourseLink>, um Probleme mit der Website zu melden und Fehlerberichte zu lesen.
 error-code = Fehler { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] Wir konnten Ihren Clip nicht hochladen. Er wurde bereits zuvor hochgeladen. Weiter geht’s mit dem nächsten Paket!
+       *[other] Wir konnten { $total } Clips nicht hochladen. Sie wurden bereits zuvor hochgeladen. Weiter geht’s mit dem nächsten Paket!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Wir haben { $uploaded } Ihrer Clips hochgeladen – der Rest wurde bereits hochgeladen. Weiter geht’s mit dem nächsten Paket!

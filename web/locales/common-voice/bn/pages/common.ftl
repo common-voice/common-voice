@@ -189,6 +189,3 @@ email-opt-in-info-sub-with-challenge = আমি Common Voice সম্পর্
 email-opt-in-privacy-v2 = ইমেইল গ্রহণ করার অনুমতি দিয়ে আপনি মজিলাকে, আপনার এই তথ্য ব্যবস্থাপনা করতে সম্মত দিচ্ছেন, যেমনটা মজিলার <privacyLink> গোপনীয়তা নীতিতে <privacyLink> ব্যাখ্যা করা হয়েছে।
 indicates-required = * প্রয়োজনীয় ক্ষেত্র নির্দেশ করে
 not-available-abbreviation = প্রযোজ্য নয়
-
-## Donate banner
-
