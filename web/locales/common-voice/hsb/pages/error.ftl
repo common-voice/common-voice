@@ -19,3 +19,5 @@ error-duplicate-clips-all =
         [few] Njemóžachmy waše { $total } klipy nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
        *[other] Njemóžachmy waše { $total } klipow nahrać. Je so hižo prjedy nahrał. Čińmy z přichodnym staplom dale!
     }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Smy { $uploaded } z wašich klipow nahrali – Zbytk je so hižo nahrał. Čińmy z přichodnym staplom dale!
