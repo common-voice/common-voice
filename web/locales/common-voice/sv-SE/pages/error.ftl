@@ -14,7 +14,7 @@ error-code = Fel { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
     { $total ->
-        [one] Vi kunde inte ladda upp ditt klipp. Den har redan laddats upp tidigare. Låt oss fortsätta med nästa parti!
+        [one] Vi kunde inte ladda upp ditt klipp. Det har redan laddats upp tidigare. Låt oss fortsätta med nästa parti!
        *[other] Vi kunde inte ladda upp { $total } klipp. De har redan laddats upp tidigare. Låt oss fortsätta med nästa parti!
     }
 # Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
