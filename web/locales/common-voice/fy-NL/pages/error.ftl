@@ -11,3 +11,11 @@ error-content-404 = Miskien helpt ús <homepageLink>startside</homepageLink>? As
 error-title-503 = Wy ûnderfine op dit stuit in ûnferwachte ûnderbrekking
 error-content-503 = De site sil sa gau as mooglik wersteld wurde. Nim foar de meast resinte ynformaasje diel oan de <matrixLink>Matrix-mienskip-chat</matrixLink> of besykje <githubLink>GitHub</githubLink> of <discourseLink>ús Discourse-foarums</discourseLink> om problemen mei de website te melden en te folgjen.
 error-code = Flater { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] Wy koene dit fragmint net oplade. Dizze is earder al opladen. Litte wy trochgean mei de folgjende searje!
+       *[other] Wy koene { $total } fragminten net oplade. Dizze binne earder al opladen. Litte wy trochgean mei de folgjende searje!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Wy hawwe { $uploaded } fan jo fragminten opladen – De rest is al opladen. Litte wy trochgean mei de folgjende searje!
