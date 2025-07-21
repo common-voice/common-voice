@@ -7,6 +7,7 @@ demo-welcome-subheader = გოკონანო ქიდიგურუათ
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice რე მსოფლიოს უდიდაში, არგამათ ხემიოჭირინაფალი, მიარენინამი ხონარუანი მუნაჩემეფიში კათელი.
+demo-language-select-card-body = 259 ანთასჷშე მეტი მოხალისეეფიში შენწეობათ 50-შე უმოსი ნინაშოთ თე მუნაჩემეფი ხონარუან პროგრამეფიში ხუჯიშმიოჩამალო გიმმირინუაფუ, ადამიერეფიში ხომაშენი უჯგუშო რეაგირენდანინი.
 card-button-next = უკულიანი
 card-button-back = უკახალე
 demo-language-select-label = ნინეფიში ძირაფა
