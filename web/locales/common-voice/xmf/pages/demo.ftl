@@ -2,7 +2,7 @@
 
 demo-get-started = მორთი, ქიდიპჭყათ
 demo-welcome = მოზოჯით Common Voice-შა
-demo-welcome-subheader = გიღუნანო ზალამი ქიდიგურუათ უმოსი დო წილი გემშეღათ პროექტიშანი?
+demo-welcome-subheader = გოკონანო ქიდიგურუათ უმოსი დო წილი გემშეღათ პროექტიშანი?
 
 ## Demo Datasets
 
