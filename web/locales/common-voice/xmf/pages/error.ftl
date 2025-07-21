@@ -14,6 +14,8 @@ error-code = ჩილათა { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
     { $total ->
-        [one] ინნაჭარაში ეხარგუაქ ვემიხერხინუ. თიქ უკვე ქიგიაძინუ. გაგძელით უკულიანი ინნაჭარეფიში ართო ეხარგუა.
-       *[other] { $total } ინნაჭარაში ეხარგუაქ ვემიხერხინუ. თიქ უკვე ქიგიაძინუ. გაგძელით უკულიანი ინნაჭარეფიში ართო ეხარგუა.
+        [one] ინნაჭარაში ეხარგუაქ ვემიხერხინუ. თიქ უკვე ქიგიაძინუ. გაგძელით უკულიანი ინნაჭარეფიში ართო ეხარგუა!
+       *[other] { $total } ინნაჭარაში ეხარგუაქ ვემიხერხინუ. თიქ უკვე ქიგიაძინუ. გაგძელით უკულიანი ინნაჭარეფიში ართო ეხარგუა!
     }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = { $uploaded } ინნაჭარა ეხარგელი რე — უკვე ქიგიაძინ დოსკილადირქ. გაგძელით უკულიანი ინნაჭარეფიში ართო ეხარგუა!
