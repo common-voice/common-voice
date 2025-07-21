@@ -70,7 +70,6 @@ hsb = Kisorbia cha Lughu
 ht = Kiheiti
 hu = Kihangari
 hy-AM = Kiarmenia
-hyw = Kiarmenia cha Magharibi
 ia = Kiintelingua
 id = Kiindoneshia
 ie = Kiintelingue
@@ -241,6 +240,3 @@ email-opt-in-info-sub-with-challenge = Pata imeili sa reksukuma na kukumbusira l
 email-opt-in-privacy-v2 = Kwa kusaghua kupata imeili, kwaaghora kwarumiria Mozilla iw'ike malagho ghako seji ieleshero andenyi ya <privacyLink>Maandiko gha Malagho gha Kiviso</privacyLink> gha Mozilla.
 indicates-required = Andu ukokose kuw'ikirilo nyeri nyeri (*), icho chilombwagha aho chekundika.
 not-available-abbreviation = Mbai
-
-## Donate banner
-

@@ -58,7 +58,6 @@ hsb = सॉर्बियन, अप्पर
 ht = हैतीयन
 hu = हंगेरियन
 hy-AM = आर्मेनियन
-hyw = आर्मेनियन (द.)
 ia = इंटरलिंग्वा
 id = इंडोनेशियन
 is = आइसलँडिक
@@ -178,6 +177,3 @@ email-opt-in-info-sub-with-challenge = आव्हाने व ध्येय
 email-opt-in-privacy-v2 = ईमेल प्राप्त करण्याचा पर्याय निवडण्याचा अर्थ आपणास मोझिलाच्या </privacyLink> गोपनीयता धोरणात</privacyLink> दिल्यानुसार मोझीलाने ही माहिती हाताळण्यास आपली हरकत नाही.
 indicates-required = * आवश्यक फील्ड दर्शवते
 not-available-abbreviation = लागू नाही
-
-## Donate banner
-

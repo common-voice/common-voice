@@ -29,8 +29,24 @@ both-speak-and-listen-long = Ñoom ñaar (Wax ak Déglu)
 daily-goal = Mébetu bis bi
 weekly-goal = Mébet ayu-bis
 easy-difficulty = Yomb na
+average-difficulty = Tane
+difficult-difficulty = Jafe
+want-to-continue = Bëgg nga yeggali?
+finish-editing = jeexalal Rënk bi ba noppi?
+lose-changes-warning = So deme léegi dafay tekki ni da ngay ñàkk li nga jota def
+set-a-goal = Defal ab mébet
+cant-decide = Mëno  dogal?
+which-goal-type = Da nga bëggv wax, déglu wala ñoom ñaar niep?
+help-share-goal = Dimbali ñu am yeneen kàddu, tassarel sa mébet
 goal-interval-weekly = Ci ayu-bis bi
+share-goal-type-speak = Wax
+share-goal-type-listen = Déglu
+share-goal-type-both = Wax ak Déglu
+weekly-goal-created = Sa mébetu ayu-bis bi defar nañu ko
+daily-goal-created = Sa mébetu bis bu nekk defar nañu ko
+share-goal = Tassaré sama mébet
 
 ## Goals
 
 days = Fan
+recordings = Rënk

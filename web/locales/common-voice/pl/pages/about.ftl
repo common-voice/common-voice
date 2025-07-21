@@ -10,6 +10,8 @@ how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagra
 ## How does it work section
 
 about-language-req-subtitle = Ktoś prosi o dodanie danego języka.
+about-dataset-release-title = Wydanie zbioru danych
+about-dataset-release-subtitle = Co 3 miesiące wydajemy zbiór danych.
 about-speak = Nagrywanie
 about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
 about-listen-queue = Kolejka do odsłuchania
@@ -23,7 +25,7 @@ about-yes-votes-text = Aby trafić do zbioru danych Common Voice, nagranie musi 
 about-no-votes = ≥ 2 głosy na nie
 about-no-votes-text = Po odrzuceniu przez użytkownika nagranie wraca do kolejki. Jeśli zostanie odrzucone drugi raz, to zostaje przeniesione na cmentarz nagrań.
 about-dataset-new = Zbiór danych Common Voice
-about-dataset-new-text = Zbiór danych Common Voice zawiera setki tysięcy próbek głosowych pomagających deweloperom tworzyć narzędzia do rozpoznawania mowy.
+about-dataset-new-text = Zbiór danych Common Voice zawiera setki tysięcy próbek głosowych, które ułatwiają programistom tworzenie narzędzi do rozpoznawania mowy.
 about-clip-graveyard = Cmentarz nagrań
 about-clip-graveyard-text = Cmentarz nagrań składa się z nagrań, które nie trafiły do zbioru Common Voice. Tak jak główny zbiór, cmentarz nagrań jest dostępny do pobrania.
 about-get-involved = Dołącz do nas
@@ -41,6 +43,8 @@ about-nav-how-it-works-2 = Jak działa projekt Common Voice?
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-2 = Chcemy, aby modele mowy lepiej rozumiały zróżnicowane grono osób mówiących. Aby to osiągnąć, zbiór danych głosowych musi reprezentować wiele różnych osób.
+about-playbook-what-is-language-content-3 = Niektóre języki charakteryzują się ogromnym zróżnicowaniem gramatyki, słownictwa i wymowy. Z tego powodu w 2022 roku <ctaLink>wprowadzamy „Warianty”</ctaLink>. Dzięki temu społeczności będą mogły rozróżniać swoje języki w ramach większego zbioru danych.
 
 ## How do I add a language
 
@@ -57,6 +61,7 @@ about-playbook-how-localize-content-1 = Tłumaczenie witryny Common Voice odbywa
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
 about-playbook-how-grow-language-content-6 = Współpraca i sieci
 
 ## How to validate
@@ -67,6 +72,7 @@ about-playbook-how-grow-language-content-6 = Współpraca i sieci
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Jak podejmowane są decyzje projektowe?
 
 ## How is Common Voice funded
 

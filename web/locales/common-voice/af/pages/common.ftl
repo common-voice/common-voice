@@ -65,7 +65,6 @@ hsb = Sorbian, Hoër
 ht = Haitiaans
 hu = Hongaars
 hy-AM = Armeens
-hyw = Westerse Armeens
 ia = Interlingua
 id = Indonesies
 ie = Interlingue

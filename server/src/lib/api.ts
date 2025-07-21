@@ -54,6 +54,7 @@ import {
 import { fetchUserClientVariants } from '../application/repository/user-client-variants-repository'
 import { getLocaleId } from './model/db'
 import { languagesRouter } from '../api/languages/routes'
+import { profilesRouter } from '../api/profile/routes'
 import { getFolderNames } from '../infrastructure/fs/fp-fs'
 import { LOCALES_PATH } from '../application/locales/use-case/query-handler/get-locale-messages-query-handler'
 import { isProject } from '../core/types/project'
@@ -172,6 +173,7 @@ export default class API {
     router.get('/server_date', this.getServerDate)
 
     router.use('/:locale/bulk_submissions', bulkSubmissionsRouter)
+    router.use('/profiles', profilesRouter)
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404)
@@ -192,7 +194,8 @@ export default class API {
 
     // the validator coerces count into a number but doesn't update the type
     const count: number = (request.query.count as never) || 1
-    const ignoreClientVariant: boolean = Boolean(request.query.ignoreClientVariant) || false
+    const ignoreClientVariant: boolean =
+      Boolean(request.query.ignoreClientVariant) || false
 
     const userClientVariant = await pipe(
       client_id,

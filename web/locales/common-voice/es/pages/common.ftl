@@ -64,7 +64,6 @@ hsb = Alto sorabo
 ht = Haitiano
 hu = Húngaro
 hy-AM = Armenio
-hyw = Armenio (occidental )
 ia = Interlingua
 id = Indonesio
 is = Islandés
@@ -213,6 +212,3 @@ email-opt-in-info-sub-with-challenge = Recibe correos con recordatorios de objet
 email-opt-in-privacy-v2 = Al aceptar recibir correos entendemos que das permiso a Mozilla para utilizar la información tal y como se explica en la <privacyLink>Política de Privacidad</privacyLink> de Mozilla.
 indicates-required = * Indica un campo obligatorio
 not-available-abbreviation = N/A
-
-## Donate banner
-

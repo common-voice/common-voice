@@ -60,7 +60,6 @@ hsb = Sorbian, Upper
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
-hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
 ie = Interlingue
@@ -208,6 +207,3 @@ email-opt-in-info-sub-with-challenge = Me pɛ sɛ me gye emails challenge ne goa
 email-opt-in-privacy-v2 = Sɛ wo pɛ sɛ wo gye emails a, wo ka sɛ w'ani agye sɛ Mozilla agye information yi, Mozilla's <privacyLink> Privacy Policy <privacyLink> kwan so
 indicates-required = Ewo sɛ wo twerɛ wo adaka no mu a wo asterisk (*)
 not-available-abbreviation = N/A
-
-## Donate banner
-

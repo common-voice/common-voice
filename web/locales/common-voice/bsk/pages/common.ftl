@@ -119,7 +119,6 @@ hsb = sorbian yatpamo
 ht = haitian
 hu = hungarian
 hy-AM = armenian
-hyw = armenian western
 ia = interlingua
 ibb = ibibio
 id = indonesian

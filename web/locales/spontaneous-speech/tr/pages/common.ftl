@@ -31,7 +31,7 @@ continue-with-skipped = Atladıklarınla devam et
 
 respond-to-prompt = Yanıtla
 transcribe = Metne Çevir
-check-transcriptions = Metne Çevrilmişleri Denetle
+check-transcriptions = Metinleri Denetle
 question = Soru
 validate = Doğrula
 

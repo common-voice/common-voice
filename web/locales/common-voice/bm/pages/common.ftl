@@ -65,7 +65,6 @@ hsb = Sorbiyankan, Sanfɛla la
 ht = Haïtikan na
 hu = Hɔngirikan na
 hy-AM = Armenikan na
-hyw = Armeni Tlebi jamanaw
 ia = Kanw ni ɲɔgɔn cɛ
 id = Indonezikan na
 ie = Kanw ni ɲɔgɔn cɛ
@@ -227,6 +226,3 @@ email-opt-in-info-sub-with-challenge = N bɛ fɛ ka imɛyi sɔrɔ walasa ka N Ha
 email-opt-in-privacy-v2 = Ni i y’a sugandi ka batakiw sɔrɔ i b’a jira k'I sɔna ko Mozilla ka nin kunnafoni in lasago i n’a fɔ a ɲɛfɔlen bɛ cogo min na Mozilla ka <privacyLink> Gundo sariya </privacyLink> kɔnɔ.
 indicates-required = Yɔrɔ minnu taamasiyɛn ye dolow (*) ye, olu wajibiyalen don.
 not-available-abbreviation = Surunyalen tɛ sɔrɔ
-
-## Donate banner
-

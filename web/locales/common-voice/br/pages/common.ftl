@@ -119,7 +119,6 @@ hsb = Uhelsorabeg
 ht = Haitieg
 hu = Hungareg
 hy-AM = Armenianeg
-hyw = Armenianeg ar c’hornog
 ia = Interlingua
 ibb = Ibibioeg
 id = Indonezeg

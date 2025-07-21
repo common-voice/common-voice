@@ -152,6 +152,3 @@ email-opt-in-info-title = Issieħeb mal-mailing list ta' Common Voice.
 email-opt-in-info-sub-with-challenge = Ibda rċievi l-emails biex ifakkruk dwar sfidi u għanijiet, aġġornamenti dwar il-progress, u aħbarijiet dwar Common Voice.
 indicates-required = * Tindika informazzjoni meħtieġa
 not-available-abbreviation = Mhux applikabbli
-
-## Donate banner
-

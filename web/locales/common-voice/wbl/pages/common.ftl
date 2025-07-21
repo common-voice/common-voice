@@ -119,7 +119,6 @@ hsb = Maghribi Slavic, Sorbia Qawmiyate Zik
 ht = Haiti e Qawmi Zik
 hu = Hunggary e Qawmi Zik
 hy-AM = Armenia he Qawmi Zik
-hyw = Maghribi Armeni Ziki Turky Ziker qareb, Laikin ter nopaid wocne gẽnahi
 ia = Latini bunyodher qoyin Zikve Majmua Zik
 ibb = Nigeria he Ibibio Qawmiyate Zik
 id = Indonesia he Qawmi Zikres̃h Bahasa be K̃hanen
