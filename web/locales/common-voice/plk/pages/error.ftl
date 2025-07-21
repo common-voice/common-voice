@@ -17,3 +17,5 @@ error-duplicate-clips-all =
         [one] اسا څھے کلپ لوڈ نہ تھوبالنَس۔ آ مُڇھو گہ اپ لوڈ تِھجِلُن۔ اِیا مُڇِھنوْ صفحہ سے جاری تِھیا۔
        *[other] اسا څھے کلپ لوڈ نہ تھوبالنَس { $total } کلپس آ مُڇھو گہ اپ لوڈ تِھجِلُن۔ مُتوْ صفحہ سے جاری تِھیا۔
     }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = اسا اپ لوڈ تھیسَن { $uploaded } آ کلپس — اِکِنہ مُڇھوگیْ اپ لوڈ بِلان۔ مُڇِھنو صفحہ سے جاری تِھیا۔
