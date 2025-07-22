@@ -52,67 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Sett et mål
 cant-decide = Klarer du ikke å velge?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måned hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måned hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måned hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måned hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } time er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måned hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måned hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måned hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måned hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } person registrerer { $clipsPerDay } lydklipp om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
-                               *[other] { $totalHours } timer er oppnåelig på drøyt { $periodMonths } måneder hvis { $people } personer registrerer { $clipsPerDay } lydklipp om dagen.
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = 100 personer som spiller inn 100 setninger om dagen kan generere 13 timer med lyd. Ved å opprettholde denne ytelsen kan 1000 timer nås på under 3 måneder.
 how-many-per-day = Flott! Hvor mange klipp per dag?
 how-many-a-week = Flott! Hvor mange klipp i uken?
 which-goal-type = Vil du snakke, lytte eller begge deler?

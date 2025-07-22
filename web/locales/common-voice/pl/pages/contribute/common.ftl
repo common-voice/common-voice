@@ -23,6 +23,13 @@ target-segment-generic-card = Przyczyniasz się do segmentu docelowego
 target-segment-first-banner = Pomóż utworzyć pierwszy segment docelowy projektu Common Voice w języku: { $locale }
 target-segment-add-voice = Dodaj swój głos
 target-segment-learn-more = Więcej informacji
+change-preferences = Zmień preferencje
+login-signup = Zaloguj się/zarejestruj
+vote-yes = Tak
+vote-no = Nie
+datasets = Zbiory danych
+languages = Języki
+about = Informacje
 
 ## Reporting
 

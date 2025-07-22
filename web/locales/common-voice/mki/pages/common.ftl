@@ -24,9 +24,3 @@ ba = بشڪر
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

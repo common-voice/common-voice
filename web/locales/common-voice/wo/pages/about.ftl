@@ -94,24 +94,44 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = naka la lokalisasioŋ xët wi di doxee?
 about-playbook-how-localize-content-1 = Tekki xëtu Common Voice bi ñoo ngi koy defe ci <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Sosal kontu</pontoonAccountLink>sudee amoo kontu. Ginaaw loolu nga tànn sa làkk<strong> (‘Kureel’)</strong> ba noppi nga tànn projet bi, <pontoonCvLink>Common Voice</pontoonCvLink>. Dina am ay dosie yuñ wara tekki. Bësal ci benn, dinga giss ay waat ci Àngle ak barab bu ñu koy tekké.
+about-playbook-how-localize-content-3 = Tekki bi ci Àngle la jóge, waaye man ngaa gis <strong>Digal</strong> yi ci yeneen làkk yi. Bësal ikonu <strong>Profiil</strong> bi, ba pare lëkkale <strong>Jekkal</strong> yi te nga yokk bépp làkk booy làkk. Ci koñu ndeyjoor bi ci suuf, dina am limu làkk yuñ tekki yu tuddu <strong>Barab yi</strong>. Tekki làkk yi dina ñu feeñ ci xët wi ginaaw benn fan.
+about-playbook-how-localize-content-4 = Sit bi mën nañu ko tàmbali suñu defee 75% ci liggéey bi.
 about-playbook-how-localize-content-5 = Seetanal sunu wideo leeral ngir jàppale
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Naka lay def ba yokk waat yi?
+about-playbook-how-add-sentences-content-1 = Mën nga yokk ay tegtal ci <writePageLink>Xëtu bind</writePageLink> wala nga xoolaat ay tegtal ci <reviewPageLink>Jàngat xët</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Ñaari nit ñoo wara jàngat waat yi ba noppi nangu leen ngir ñu boole leen ci Common Voice. Yaa ngi sos ay tegtal ngir sa làkk <languageGuidelinesLink>fii</languageGuidelinesLink>. Waat yi dañu wara nekk ci <licenseLink>domen publik</licenseLink> te gëna gàtt 15 araf. Mën nga ñaan boroom ab mbind mu def ko <waiverLink>CC0 ci sunu doxalinu baale</waiverLink>, te yónnee nu ko ci commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Mën nga jëfandikoo <scraperLink>Séegkay waat yi</scraperLink> ngir mbind yu gàtt yi ci Wikipedia.
 
 ## How to record quality
 
+about-playbook-how-record-quality = naka lay enregistre kàddu bu baax?
 about-playbook-how-record-content-1 = Wax ak sa baat ! Noo ngi lay sant ci ni ngay waxee - danu bëgg sa aksan ci nimu mel, te danu bëgg sa volume, sa stil ak sa intonasioŋ ni ngay faral di defee.
+about-playbook-how-record-content-2 = Moytul coow bu bari ci ginaaw - dafa wara yomb ñu dégg la.
+about-playbook-how-record-content-3 = Liiral waat yi bu baax - bul fàtte, soppi wala yokk araf.
+about-playbook-how-record-content-4 = Fexeel platform bi di enregistre laata ngay tàmbali wax, te nga taxawal ko boo waxee ba noppi.
+about-playbook-how-record-content-5 = <accuracyLink>Xoolal leneen ci sàrti dëggu.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Naka lañu mëne sukali làkk ci Common Voice?
+about-playbook-how-grow-language-content-1 = Sosal nit ñu bari ñu mëna jàppale ci Common Voice dafay tax done yi di jàppale nit ñu bari. Defar nanu ay jumtukaay ak ay template yoo mëna jëfandikoo!
+about-playbook-how-grow-language-content-2 = Xew-xew yi
+about-playbook-how-grow-language-content-3 = Mën nga amal ay xew-xew ngir xiir nit ñi ñu jàpp ci liiggéey bi. Aka yomb sax. Mën ngako def ci net bi ak jumtukaayu videoconference, wala sa ci bërëp boo nekk sudee wóor na. <eventTemplate>Xool sunuy modèle ak jumtukaayi doxal xew-xew yi</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Reso sosio yi
 about-playbook-how-grow-language-content-5 = Mën nga jëfandikoo platform reso sosio ngir tassare mesaas bi. Séddoo ay mbind yuy leeral li tax mu am solo, nga jokkool ak ñeneen ñuy wax ci mbir yu melni yelleefi làkk, xarala IA yi, wala ci xarala yu bees yi. Xool yeneen xelal ci <campaignLink>doxal ab kàmpaañu mbooloo, boole ci ëmbiit yi nga mën a jëfandikoowaat</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partenariat ak reso
+about-playbook-how-grow-language-content-7 = Wutal ñeneen ñu la bëgg jàppale ci liigéey bi. Mën na nekk daara yu kawe yi, daara yi di jàngale lakk yi, kuréel yuy xeex wala askanu siyaas ci done yi. Jokkoo ak ñoom leeral leen bu baax ni ñu mëna jàppale ak luko waral. <outreachTemplates>Xool sunu modèlu imeel yiy yegg ci nit ñi</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Sosal lu bees!</strong> Sa làkk dina wuute ak yeneen yi, lii yenn mbir la yoo mëna tàmbalee.
 
 ## How to validate
 
+about-playbook-how-validate = naka may xamee ni dama wara nangu kàddu bi?
+about-playbook-how-validate-content-1 = Sudee mën nga leen <strong>déglu ba noppi </strong> <strong> xam limuy wax </strong>, laata ngay nangu.
+about-playbook-how-validate-content-2 = <strong>Bul bañ kàddu ndax rekk waxiin bi dafa wuute ak sa boss</strong> - loolu lu am solo la ngir xàmmee baat gëna baax ci ku nekk.
+about-playbook-how-validate-content-3 = Soo jàppee ni waxin bi day tax </strong>ken du mëna dégg <strong>, wala dafa am<strong>coow bu bari si suf </strong>, wala dafa am<strong>ñeneen ñuy wax itam</strong>, kon danga wara dindi clip bi. <accuracyLink>Xoolal yeneen leeral ci sunu sàrti njubal yi.
 about-playbook-how-validate-content-4 = Su 2 nit bañee benn kàddu, dañu koy génne ci beneen subset ci jumtukaay yi.
 
 ## How to access dataset

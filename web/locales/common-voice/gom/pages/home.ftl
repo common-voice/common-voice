@@ -42,9 +42,6 @@ email-not-public = Ami tujem email public korche na.
 recordings-and-locale-public = Rekord kelolechem hixob ani khoincheo bhasank tu yogdan dita ti 'public' astoli.
 username-optin-public = Tuka tujem 'username' ninanve (anonymous) vo sogleank dixtti (public) korpak zata.
 
-## Landing
-
-
 ## NAV ITEMS
 
 answer-questions = Proxnacheo Zap Di
@@ -66,9 +63,6 @@ community-and-languages-menu-item-tooltip = Amche somudaiye vangdda mellun je bh
 
 community-and-languages-menu-item-aria-label = 'Common Voice'-an ubarleleo bhaso ani somudaiyen aplo sod chalu dovor
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-subtitle-2 = Amchi bhas asa amchi kanni, amchi somudai, amchi sonskrutai. Chollat ami teo mhaiti-kox (dataset) koruia je amka sonvsarant dispak zai.
@@ -76,21 +70,14 @@ hero-subtitle-2 = Amchi bhas asa amchi kanni, amchi somudai, amchi sonskrutai. C
 ## Action items section
 
 action-items-section-title = 'Common Voice' zavun asa ek mukt, muft ani 'open source' veaspitt zachi 'data' amchi somudai toiar korta
+scripted-card-header = Boroil'lem Ulovop
+spontaneous-card-header = Khoxechem Ulovop
 
 ## Community section
 
 join-discord-community = Somudayek 'Discord'-acher Mell
 
-## Featured section
-
-
-## Developers section
-
-
 ## Get involved section
 
 get-involved-section-title = Ukte, somudaiyen fuddar ghetol'lim 'dataset'-ank adar ani tenko diyat
 transcribe-answers-link = Utram aikun boroi
-
-## Partner section
-

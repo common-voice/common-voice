@@ -101,14 +101,15 @@ spontaneous-speech = SPONTÁN BESZÉD
 
 about-menu-tooltip = Partnerkapcsolatok, Sajtó és történetek, Közösség és nyelvek
 about-us-menu-item-tooltip = Tudjon meg többet a küldetésről és a Common Voice mögötti csapatról
-about-us-menu-item-aria-label = Névjegy menü lehetőségei
 partnerships-menu-item-tooltip = Legyen a partnerünk
 press-and-stories-menu-item-tooltip = Látogassa meg blogunkat vagy írjon rólunk
 community-and-languages-menu-item-tooltip = Fedezzen fel nyelveket, közösségeket, és a közös hangot
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Menü a Partnerségek, Sajtó és történetek, Közösség és nyelvek eléréséhez
 about-us-menu-aria-label = Névjegy menü lehetőségei
+about-us-menu-item-aria-label = Névjegy menü lehetőségei
 partnerships-menu-item-aria-label = Tudjon meg többet a Common Voice-szal való partnerségekről
 press-and-stories-menu-item-aria-label = Érje el a Common Voice-szal kapcsolatos sajtóközleményeket és történeteket
 community-and-languages-menu-item-aria-label = Fedezze fel a közösséget és a Common Voice által támogatott nyelveket

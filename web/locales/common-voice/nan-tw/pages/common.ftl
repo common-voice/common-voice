@@ -98,7 +98,6 @@ hsb = Upper Sorbian 上索布語
 ht = Haitian 海地語
 hu = Hungarian 匈牙利語
 hy-AM = Armenian 亞美尼亞語
-hyw = Armenian Western 西亞美尼亞語
 ia = Interlingua 國際語
 ibb = Ibibio 語
 id = Indonesian 印尼語

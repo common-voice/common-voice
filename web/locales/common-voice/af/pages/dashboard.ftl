@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Stel 'n doelwit
 cant-decide = Kan jy nie besluit nie?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] uur is bereikbaar in net meer asmaand aspersoon opgeneemsnit per dag.
-                               *[other] uur is bereikbaar in net meer asmaand aspersoon opgeneemsnitte per dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] uur is bereikbaar in net meer asmaand aspersone opgeneemsnit per dag.
-                               *[other] uur is bereikbaar in net meer asmaand aspersone opgeneemsnitte per dag.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] uur is bereikbaar in net meer asmaande aspersoon opgeneemsnit per dag.
-                               *[other] uur is bereikbaar in net meer asmaande aspersoon opgeneemsnitte per dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] uur is bereikbaar in net meer asmaande aspersone opgeneemsnit per dag.
-                               *[other] uur is bereikbaar in net meer asmaande aspersone opgeneemsnitte per dag.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] ure is bereikbaar in net meer asmaand aspersoon opgeneemsnit per dag.
-                               *[other] ure is bereikbaar in net meer asmaand aspersoon opgeneemsnitte per dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] ure is bereikbaar in net meer asmaand aspersone opgeneemsnit per dag.
-                               *[other] ure is bereikbaar in net meer asmaand aspersone opgeneemsnitte per dag.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] ure is bereikbaar in net meer asmaande aspersoon opgeneemsnit per dag.
-                               *[other] ure is bereikbaar in net meer asmaande aspersoon opgeneemsnitte per dag.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] ure is bereikbaar in net meer asmaande aspersone opgeneemsnit per dag.
-                               *[other] ure is bereikbaar in net meer asmaande aspersone opgeneemsnitte per dag.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Puik! Hoeveel snitte per dag?
 how-many-a-week = Puik! Hoeveel snitte per week?
 which-goal-type = Wil jy Praat, Luister of albei?

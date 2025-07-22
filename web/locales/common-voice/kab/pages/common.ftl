@@ -77,7 +77,6 @@ hsb = Sorbyan, Tameqqrant
 ht = Tahaysit
 hu = Tahungaṛit
 hy-AM = Taṛminit
-hyw = Taṛminit tutrimt
 ia = Tutlayt tagraɣlant
 id = Tandunizit
 ie = Interlingue

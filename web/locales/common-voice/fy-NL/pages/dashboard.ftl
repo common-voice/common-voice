@@ -52,67 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoan{ $clipsPerDay } fragmintop in dei opnimme
-                               *[other] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoan{ $clipsPerDay } fragmintenop in dei opnimme
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoanen{ $clipsPerDay } fragmintop in dei opnimme
-                               *[other] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoanen{ $clipsPerDay } fragmintenop in dei opnimme
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoan{ $clipsPerDay } fragmintop in dei opnimme
-                               *[other] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoan{ $clipsPerDay } fragmintenop in dei opnimme
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoanen{ $clipsPerDay } fragmintop in dei opnimme
-                               *[other] { $totalHours } oereis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoanen{ $clipsPerDay } fragmintenop in dei opnimme
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoan{ $clipsPerDay } fragmintop in dei opnimme
-                               *[other] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoan{ $clipsPerDay } fragmintenop in dei opnimme
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoanen{ $clipsPerDay } fragmintop in dei opnimme
-                               *[other] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moanneas{ $people } persoanen{ $clipsPerDay } fragmintenop in dei opnimme
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoan{ $clipsPerDay } fragmintop in dei opnimme
-                               *[other] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoan{ $clipsPerDay } fragmintenop in dei opnimme
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoanen{ $clipsPerDay } fragmintop in dei opnimme
-                               *[other] { $totalHours } oerenis berikber yn wat mear as{ $periodMonths } moannenas{ $people } persoanen{ $clipsPerDay } fragmintenop in dei opnimme
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = 100 minsken dy’t 100 sinnen deis opnimme, kinne 13 oeren oan audio generearje. As jo dizze prestaasje trochsette, kinne binnen 3 moannen 1000 oeren berikt wurde.
 how-many-per-day = Bjusterbaarlik! Hoefolle fragminten op in dei?
 how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn ’e wike?
 which-goal-type = Wolle jo sprekke, harkje of beide?

@@ -33,6 +33,3 @@ email-opt-in-info-sub-with-challenge = Beishi we takabaasa kwetereza?
 email-opt-in-privacy-v2 = Murire muta okwe?
 indicates-required = Nyamba Mukama
 not-available-abbreviation = Mukama akundindire
-
-## Donate banner
-

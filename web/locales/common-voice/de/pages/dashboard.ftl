@@ -52,67 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Stunde sind in { $periodMonths } Monat erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
-                               *[other] { $totalHours } Stunde sind in { $periodMonths } Monat erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Stunde sind in { $periodMonths } Monat erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
-                               *[other] { $totalHours } Stunde sind in { $periodMonths } Monat erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Stunde sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
-                               *[other] { $totalHours } Stunde sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Stunde sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
-                               *[other] { $totalHours } Stunde sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Stunden sind in { $periodMonths } Monat erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
-                               *[other] { $totalHours } Stunden sind in { $periodMonths } Monat erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Stunden sind in { $periodMonths } Monat erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
-                               *[other] { $totalHours } Stunden sind in { $periodMonths } Monat erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Stunden sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
-                               *[other] { $totalHours } Stunden sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Person jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } Stunden sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahme aufnehmen.
-                               *[other] { $totalHours } Stunden sind in { $periodMonths } Monaten erreichbar, wenn{ $people } Personen jeden Tag{ $clipsPerDay } Aufnahmen aufnehmen.
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = 100 Personen, die 100 Sätze pro Tag aufnehmen, können 13 Stunden an Audio erzeugen. Wenn diese Leistung beibehalten wird, können in 3 Monaten 1000 Stunden erreicht werden.
 how-many-per-day = Top! Wie viele Clips pro Tag?
 how-many-a-week = Top! Wie viele Clips pro Woche?
 which-goal-type = Möchten Sie Sprechen, Hören oder beides?

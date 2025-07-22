@@ -5,7 +5,7 @@ transcription-page-instruction = { $actionType } <playIcon></playIcon> Ακού�
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Έλεγχος
 # Message which appears when there are no more resources on this page
-no-transcriptions-continue-skipped-message = Δεν υπάρχουν προς το παρόν μεταγραφές για έλεγχο για αυτή τη γλώσσα. Αν έχετε παραλείψει κάποιο, μπορείτε να συνεχίσετε με το περιεχόμενο ή να μεταγράψετε τον ήχο και να δοκιμάσετε ξανά αργότερα.
+no-transcriptions-continue-skipped-message = Δεν υπάρχουν προς το παρόν μεταγραφές προς έλεγχο για αυτήν τη γλώσσα. Αν έχετε παραλείψει κάποια, μπορείτε να συνεχίσετε με το περιεχόμενο που παραλείψατε ή να μεταβείτε στη μεταγραφή ήχου και να δοκιμάσετε ξανά αργότερα.
 vote-transcript-success = Επιτυχής υποβολή ψήφου για τη μεταγραφή
 vote-transcript-error = Προέκυψε σφάλμα κατά την υποβολή ψήφου για τη μεταγραφή
 transcript-edited-success = Επιτυχής επεξεργασία μεταγραφής

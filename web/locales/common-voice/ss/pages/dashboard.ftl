@@ -55,67 +55,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Setha ligoli
 cant-decide = Awukhoni kukhetsa?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } lihora lingenteka ngeku { $periodMonths } inyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } sicephu ngelilanga
-                               *[other] { $totalHours } lihora lingenteka ngeku { $periodMonths } inyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } ticephu ngelilanga
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } lihora lingenteka ngeku { $periodMonths } inyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } sicephu ngelilanga
-                               *[other] { $totalHours } lihora lingenteka ngeku { $periodMonths } inyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } ticephu ngelilanga
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } lihora lingenteka ngeku { $periodMonths } tinyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } sicephu ngelilanga
-                               *[other] { $totalHours } lihora lingenteka ngeku { $periodMonths } tinyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } ticephu ngelilanga
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } lihora lingenteka ngeku { $periodMonths } tinyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } sicephu ngelilanga
-                               *[other] { $totalHours } lihora lingenteka ngeku { $periodMonths } tinyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } ticephu ngelilanga
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } emohora lingenteka ngeku { $periodMonths } inyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } sicephu ngelilanga
-                               *[other] { $totalHours } emohora lingenteka ngeku { $periodMonths } inyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } ticephu ngelilanga
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } emohora lingenteka ngeku { $periodMonths } inyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } sicephu ngelilanga
-                               *[other] { $totalHours } emohora lingenteka ngeku { $periodMonths } inyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } ticephu ngelilanga
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } emohora lingenteka ngeku { $periodMonths } tinyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } sicephu ngelilanga
-                               *[other] { $totalHours } emohora lingenteka ngeku { $periodMonths } tinyanga uma { $people } umuntfu uyatfwebula { $clipsPerDay } ticephu ngelilanga
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } emohora lingenteka ngeku { $periodMonths } tinyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } sicephu ngelilanga
-                               *[other] { $totalHours } emohora lingenteka ngeku { $periodMonths } tinyanga uma { $people } bantfu bayatfwebula { $clipsPerDay } ticephu ngelilanga
-                            }
-                    }
-            }
-    }
 how-many-per-day = Kuhle! Tingaphi ticephu lotitfwebula ngelilanga?
 how-many-a-week = Kuhle! Tingaphi ticephu lotitfwebula ngeliviki?
 which-goal-type = Ufuna kukhuluma, kulalela, noma kokubili?

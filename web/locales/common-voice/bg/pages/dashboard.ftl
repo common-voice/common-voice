@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Задаване на цел
 cant-decide = Не можете да решите?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } час е постижим за { $periodMonths } месец ако { $people } човек правипо { $clipsPerDay } запис на ден.
-                               *[other] { $totalHours } час е постижим за { $periodMonths } месец ако { $people } човек правипо { $clipsPerDay } записа на ден.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } час е постижим за { $periodMonths } месец ако { $people } души правятпо { $clipsPerDay } запис на ден.
-                               *[other] { $totalHours } час е постижим за { $periodMonths } месец ако { $people } души правятпо { $clipsPerDay } записа на ден.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } час е постижим за { $periodMonths } месеца ако { $people } човек правипо { $clipsPerDay } запис на ден.
-                               *[other] { $totalHours } час е постижим за { $periodMonths } месеца ако { $people } човек правипо { $clipsPerDay } записа на ден.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } час е постижим за { $periodMonths } месеца ако { $people } души правятпо { $clipsPerDay } запис на ден.
-                               *[other] { $totalHours } час е постижим за { $periodMonths } месеца ако { $people } души правятпо { $clipsPerDay } записа на ден.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } часа са постижими за { $periodMonths } месец ако { $people } човек правипо { $clipsPerDay } запис на ден.
-                               *[other] { $totalHours } часа са постижими за { $periodMonths } месец ако { $people } човек правипо { $clipsPerDay } записа на ден.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } часа са постижими за { $periodMonths } месец ако { $people } души правятпо { $clipsPerDay } запис на ден.
-                               *[other] { $totalHours } часа са постижими за { $periodMonths } месец ако { $people } души правятпо { $clipsPerDay } записа на ден.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } часа са постижими за { $periodMonths } месеца ако { $people } човек правипо { $clipsPerDay } запис на ден.
-                               *[other] { $totalHours } часа са постижими за { $periodMonths } месеца ако { $people } човек правипо { $clipsPerDay } записа на ден.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } часа са постижими за { $periodMonths } месеца ако { $people } души правятпо { $clipsPerDay } запис на ден.
-                               *[other] { $totalHours } часа са постижими за { $periodMonths } месеца ако { $people } души правятпо { $clipsPerDay } записа на ден.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Страхотно! Колко записа на ден?
 how-many-a-week = Страхотно! Колко записа на седмица?
 which-goal-type = Искате ли да говорите, да слушате или и двете?

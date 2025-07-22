@@ -84,7 +84,6 @@ about-us = Về chúng tôi
 
 about-menu-tooltip = Đối tác, báo chí và tin tức, cộng đồng và ngôn ngữ
 about-us-menu-item-tooltip = Tìm hiểu về sứ mệnh và đội ngũ đằng sau Common Voice
-about-us-menu-item-aria-label = Menu tùy chọn Giới thiệu về chúng tôi
 partnerships-menu-item-tooltip = Hợp tác với chúng tôi
 press-and-stories-menu-item-tooltip = Ghé thăm blog hoặc viết về chúng tôi
 community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng đồng và dự án Common Voice
@@ -92,6 +91,7 @@ community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Menu tùy chọn Giới thiệu
+about-us-menu-item-aria-label = Menu tùy chọn Giới thiệu về chúng tôi
 press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice
 community-and-languages-menu-item-aria-label = Khám phá cộng đồng và ngôn ngữ được hỗ trợ bởi Common Voice
 

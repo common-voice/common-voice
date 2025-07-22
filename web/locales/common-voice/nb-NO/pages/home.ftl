@@ -95,14 +95,15 @@ spontaneous-speech = SPONTAN TALE
 
 about-menu-tooltip = Partnerskap, presse, fellesskap og språk
 about-us-menu-item-tooltip = Les mer om oppdraget og teamet bak Common Voice
-about-us-menu-item-aria-label = Om oss-alternativmeny
 partnerships-menu-item-tooltip = Bli partner med oss
 press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
 community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Meny for å få tilgang til partnerskap, presse og historier, fellesskap og språk
 about-us-menu-aria-label = Om alternativmeny
+about-us-menu-item-aria-label = Om oss-alternativmeny
 partnerships-menu-item-aria-label = Lær om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tilgang til pressemeldinger og historier relatert til Common Voice
 community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språkene som støttes av Common Voice

@@ -58,7 +58,6 @@ hsb = Yaren Sobiya, Na sama
 ht = Yan kasar Haiti
 hu = Hungoriyanci
 hy-AM = Armeniyawa
-hyw = Yammacin Armeniya
 ia = Yaren Interlingua
 id = Yaren Indonisia
 is = Yaren Icelandic
@@ -173,6 +172,3 @@ email-opt-in-info-sub-with-challenge = Karɓi imel kamar kalubale da masu tuni, 
 email-opt-in-privacy-v2 = Akan zaɓin ƙarban sakonnin imel ka shaida cewa ka amince da Mozilla su rike wannan labari kamar yadda aka bayyana a tsarin <privacyLink>sirrin tsaruka</privacyLink>.
 indicates-required = * Yana nuna cewa wajibi ne ka ciƙe gurbin
 not-available-abbreviation = Babu Wata Bayani
-
-## Donate banner
-

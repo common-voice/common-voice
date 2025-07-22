@@ -91,14 +91,15 @@ spontaneous-speech = FALA ESPONTÁNEA
 
 about-menu-tooltip = Colaboracións, comunicación e novas, comunidade e idiomas
 about-us-menu-item-tooltip = Obteña información sobre a misión e o equipo detrás de Common Voice
-about-us-menu-item-aria-label = Menú de opcións "Sobre nós"
 partnerships-menu-item-tooltip = Colabore connosco
 press-and-stories-menu-item-tooltip = Visite o noso blog ou escriba sobre nós
 community-and-languages-menu-item-tooltip = Descubra os idiomas e as comunidades presentes en Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Acceder á area de colaboracións, comunicación e novas, comunidade e idiomas
 about-us-menu-aria-label = Menú de opcións "Sobre nós"
+about-us-menu-item-aria-label = Menú de opcións "Sobre nós"
 partnerships-menu-item-aria-label = Aprenda sobre as colaboracións con Common Voice
 press-and-stories-menu-item-aria-label = Acceda a notas de prensa e novas relacionadas con Common Voice
 community-and-languages-menu-item-aria-label = Explore a comunidade e os idiomas presentes en Common Voice

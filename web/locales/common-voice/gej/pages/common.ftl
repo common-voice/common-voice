@@ -21,9 +21,3 @@ ast = asturigbe
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

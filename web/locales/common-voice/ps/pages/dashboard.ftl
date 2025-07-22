@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = یوه موخه وټاکئ
 cant-decide = پریکړه نشئ کولئ؟
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
-                               *[other] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
-                               *[other] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
-                               *[other] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
-                               *[other] { $totalHours } ساعتد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
-                               *[other] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
-                               *[other] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
-                               *[other] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } کسثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپ په یوه ورځ
-                               *[other] { $totalHours } ساعتونهد لاسته راوړلو وړ یوازي په { $periodMonths } میاشتېکه چیرې{ $people } خلکثبتونه{ $clipsPerDay } کلیپونه په یوه ورځ
-                            }
-                    }
-            }
-    }
 how-many-per-day = غوره! په ورځ کې څو کلیپونه؟
 how-many-a-week = غوره! په اونۍ کې څو کلیپونه؟
 which-goal-type = ایا تاسو غواړئ چې وغږیږئ، واورئ یا دواړه؟

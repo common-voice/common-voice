@@ -63,7 +63,6 @@ hsb = Sorbian Atas
 ht = Bahasa Haiti
 hu = Bahasa Hungary
 hy-AM = Bahasa Armenia
-hyw = Armenia Barat
 ia = Interlingua
 id = Bahasa Indonesia
 ie = Bahasa Interlingue
@@ -204,6 +203,3 @@ email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran d
 email-opt-in-privacy-v2 = Dengan memilih untuk menerima e-mel, anda menyatakan bahawa anda bersetuju dengan Mozilla mengendalikan maklumat tersebut seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
 indicates-required = Medan bertanda asterisk (*) diperlukan.
 not-available-abbreviation = N/A
-
-## Donate banner
-

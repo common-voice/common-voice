@@ -59,7 +59,6 @@ hsb = Suprasoraba
 ht = Haitia kreola
 hu = Hungara
 hy-AM = Armena
-hyw = Okcidenta armena
 ia = Interlingvao
 id = Indonezia
 ie = interlingvao

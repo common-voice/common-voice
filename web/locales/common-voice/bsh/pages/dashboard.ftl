@@ -52,7 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = اہ مقصد مقرر کشݩع
 cant-decide = فیصلہ نہ بوتہ
-activity-needed-calculation-plural = { $totalHours } سکال گھنٹہ  { $periodMonths } سکال مؤس{ $people } منچی { $clipsPerDay } کلیپس اہ وس
 how-many-per-day = بلیوک لستہ ہرگرجار چہ کلپس آی؟
 how-many-a-week = بلیوک لستہ اہ ہفتہ تہ چوک کلپس آی
 which-goal-type = کائ تیو ولستہ دے سݣستہ یا آدیوں وگچہ؟

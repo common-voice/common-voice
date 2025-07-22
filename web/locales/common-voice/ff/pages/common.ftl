@@ -62,7 +62,6 @@ hsb = Sorbian, Lower
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
-hyw = Armeniire baŋnge hirnaange
 ia = Interlingua
 id = Indonesiire
 ie = Interlingue
@@ -210,6 +209,3 @@ email-opt-in-info-sub-with-challenge = Heɓ iimeeluuji hono ciiftinooji ko fad-m
 email-opt-in-privacy-v2 = Suɓaade heɓde iimeeliiji firti ko aɗa yahdi e kuutoragol Mozilla ngoo humpito hono no facciraa e <privacyLink>Dawirgol Duturo</privacyLink> Mozilla.
 indicates-required = * Joofii ko gallol baɗɗingol
 not-available-abbreviation = N/A
-
-## Donate banner
-

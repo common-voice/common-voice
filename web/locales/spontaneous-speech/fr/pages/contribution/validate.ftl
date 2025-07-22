@@ -12,6 +12,7 @@ validate-page-skip-button-shortcut = P
 
 ## Validation guidelines
 
+validation-guideline-1 = Il est interdit de demander des informations personnelles (ex. : noms, données financières).
 validation-guideline-2 = Pas de remarques offensantes, de préjugés ou de questions sensibles
 validation-guideline-3 = Simple et facile à comprendre par tout le monde
 validation-guideline-4 = On peut y répondre en quelques phrases

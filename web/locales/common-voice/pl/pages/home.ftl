@@ -84,12 +84,7 @@ about-us = O nas
 
 ## MENU ITEMS TOOLTIPS
 
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
+about-menu-tooltip = Współpraca, prasa i historie, społeczność i języki
 
 ## Hero section
 
@@ -104,21 +99,33 @@ get-started = Zaczynamy <ikona><ikona>
 
 action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych przez społeczność
 action-items-section-subtitle = Każdy może zachować, ożywić i podnieść rangę swojego języka poprzez udostępnianie, tworzenie i zarządzanie zbiorami danych tekstowych i mowy.
+coming-soon = Wkrótce
 
 ## Community section
 
 community-section-title = Wspierany przez globalne społeczności, dla globalnych społeczności — 130 języków i wciąż rośniemy!
+# label for button
+join-discord-community-action = Dołącz do nas na Discordzie
+# label for button
+download-contribution-certificate-action = Odbierz swój certyfikat
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = Pobierz nasz pakiet prasowy <icon></icon>
 
 ## Developers section
 
 developers-section-title = Publicznie dostępne otwarte zbiory danych w ponad 130 językach
+developers-section-subtitle = Zestawy danych dla ASR, STT, TTS i innych kontekstów NLP - tworzone przy udziale społeczności.
 
 ## Get involved section
 
 read-sentences-link = Czytaj zdania
+press-and-stories-link = Prasa i historie
 
 ## Partner section
 
+partner-section-title = Zostań naszym partnerem
+# Partners section
+our-partners-include = Naszymi partnerami są między innymi...

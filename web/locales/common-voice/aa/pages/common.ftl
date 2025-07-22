@@ -70,7 +70,6 @@ hsb = Sorbiyaan, Fayya
 ht = Hayisiyaan
 hu = Hangariyaan
 hy-AM = Armeeniyaan
-hyw = Ayrô kormah Armeeniyaan
 ia = Interlinguwa
 id = Indoneesiyaan
 ie = Interlinge

@@ -80,10 +80,14 @@ read-more-about = Lezi de ciù in sciâ nòstra pagina Informaçioin
 answer-questions = Replica a-e domande <small>(disponibile fito)</small>
 review-transcriptions = Verifica e trascriçioin <small>(disponibile fito)</small>
 add-questions = Azzonzi de domande <small>(disponibile fito)</small>
+review-questions = Amia torna e domande
 transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
 press-and-stories = Stampa e stöie
 community-and-languages = Communitæ e lengue
 coming-soon = Disponibile fito
+about-us = In sce niatri
+scripted-speech = DISCORSO CON TRASCRIÇION
+spontaneous-speech = DISCORSO SPONTANEO
 
 ## MENU ITEMS TOOLTIPS
 

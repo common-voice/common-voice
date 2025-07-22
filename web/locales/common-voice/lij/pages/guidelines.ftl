@@ -122,3 +122,5 @@ easy-to-understand-explanation = Çerni de domande sence e comprenscibile da tut
 spelling-and-pronunciation = Ortografia e pontezzatua
 spelling-and-pronunciation-explanation = Addeuvia unna boña grafia e grammatica.
 length = Longhixe
+example-questions-subheader = Domande d'ezenpio
+example-questions-explanation-1 = Ti peu atrovâ <examplePromptsLink>120 ezenpi de domanda in sto feuggio.</examplePromptsLink>

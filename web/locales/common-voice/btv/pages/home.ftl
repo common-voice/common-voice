@@ -90,7 +90,6 @@ spontaneous-speech = ناڅاپہ تقریر
 
 about-menu-tooltip = ملگرتیا، دباؤ گرو آ قصے، کمیونٹی آ زِب
 about-us-menu-item-tooltip = عام اواز سو ڈا پتن ٹیم آ مقد سو متعلا ڇھج
-about-us-menu-item-aria-label = اسئیں متعلق اختیار سو مینیو
 partnerships-menu-item-tooltip = چاپیرا دنیا مہ وام اواز سو مدد سو دَن تنظیم ٹنڈ
 press-and-stories-menu-item-tooltip = قصے پڑھ، اپڈیٹ آ وام اواز سو میڈیا کورج
 community-and-languages-menu-item-tooltip = اسئیں کمیونٹی مِل یکزہ ھوں، آ مدد گار زِب بھال
@@ -98,6 +97,7 @@ community-and-languages-menu-item-tooltip = اسئیں کمیونٹی مِل ی�
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = اختیاری مینیو سو متعلق
+about-us-menu-item-aria-label = اسئیں متعلق اختیار سو مینیو
 partnerships-menu-item-aria-label = عام اواز مِل شراکت سو متعلق ڇھج
 press-and-stories-menu-item-aria-label = خبرے دے والوں آ عام اواز مِل جڑیل قصیوں یے اوڑ
 community-and-languages-menu-item-aria-label = عام سو مدد گریل زِب آ کمیونٹی ٹنڈ

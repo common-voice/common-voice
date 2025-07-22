@@ -107,7 +107,6 @@ spontaneous-speech = SPONTANI GOVOR
 
 about-menu-tooltip = Partnerstva, objave i priče, zajednica i jezici
 about-us-menu-item-tooltip = Saznaj više o misiji i timu Common Voicea
-about-us-menu-item-aria-label = Izbornik opcija „O nama”
 partnerships-menu-item-tooltip = Postani partner
 press-and-stories-menu-item-tooltip = Posjeti naš blog ili piši o nama
 community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajednički glas
@@ -115,6 +114,7 @@ community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajedni�
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = Izbornik opcija za informacije
+about-us-menu-item-aria-label = Izbornik opcija „O nama”
 partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
 press-and-stories-menu-item-aria-label = Pristupi objavama i pričama o Common Voiceu
 community-and-languages-menu-item-aria-label = Istraži zajednicu i jezike koje podržava Common Voice

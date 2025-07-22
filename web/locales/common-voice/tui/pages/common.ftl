@@ -49,9 +49,3 @@ zu = Sulu
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

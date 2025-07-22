@@ -105,14 +105,15 @@ spontaneous-speech = LLEFARU RHYDD
 
 about-menu-tooltip = Partneriaethau, y Wasg a Straeon, y Gymuned ac Ieithoedd
 about-us-menu-item-tooltip = Dysgwch am y genhadaeth a'r tîm y tu ôl i Common Voice
-about-us-menu-item-aria-label = Dewislen dewisiadau Amdanom ni
 partnerships-menu-item-tooltip = Partneru gyda ni
 press-and-stories-menu-item-tooltip = Ymweld â'n blog neu ysgrifennu amdanom
 community-and-languages-menu-item-tooltip = Darganfod ieithoedd a chymunedau a Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Dewislen i gael mynediad i Bartneriaethau, y Wasg a Straeon, Cymuned ac Ieithoedd
 about-us-menu-aria-label = Dewislen dewisiadau ynghylch
+about-us-menu-item-aria-label = Dewislen dewisiadau Amdanom ni
 partnerships-menu-item-aria-label = Dysgwch am bartneriaethau gyda Common Voice
 press-and-stories-menu-item-aria-label = Cael mynediad at datganiadau i'r wasg a straeon yn ymwneud â Common Voice
 community-and-languages-menu-item-aria-label = Archwilio'r gymuned a'r ieithoedd sy'n cael eu cefnogi gan Common Voice

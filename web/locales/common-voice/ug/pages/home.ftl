@@ -89,7 +89,6 @@ spontaneous-speech = تەبىئىي نۇتۇق
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ھەمكارلاشقۇچى، خەۋەر ۋە ماقالە، جامائەت ۋە تىل
-about-us-menu-item-aria-label = بىز ھەققىدە تاللانما تىزىملىكى
 partnerships-menu-item-tooltip = بىز بىلەن ھەمكارلىشىش
 press-and-stories-menu-item-tooltip = بىلوگىمىزنى زىيارەت ياكى بىز ھەققىدىكى يازما
 community-and-languages-menu-item-tooltip = تىل بايقاش ۋە جامائەت ھەمدە common voice
@@ -97,6 +96,7 @@ community-and-languages-menu-item-tooltip = تىل بايقاش ۋە جامائ�
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = ھەققىدە تاللانما تىزىملىكى
+about-us-menu-item-aria-label = بىز ھەققىدە تاللانما تىزىملىكى
 partnerships-menu-item-aria-label = Common Voice بىلەن ھەمكارلىشىش ھەققىدىكى بىلىملەر
 press-and-stories-menu-item-aria-label = Common Voice ھەققىدىكى خەۋەر ۋە ماقالىگە ئېرىشىش
 community-and-languages-menu-item-aria-label = Common Voice قوللىغان تىل ۋە جامائىتى ھەققىدە ئىزدىنىش

@@ -104,6 +104,13 @@ export default class API {
       throw error
     }
 
+    if (response.status === 409) {
+      if (response.statusText.includes('ALREADY_EXISTS')) {
+        throw new Error(response.statusText)
+      }
+      throw new Error(await response.text())
+    }
+
     if (response.status >= 400) {
       if (response.statusText.includes('save_clip_error')) {
         throw new Error(response.statusText)
@@ -155,14 +162,13 @@ export default class API {
     showFirstStreakToast?: boolean
     challengeEnded: boolean
   }> {
-    // make sure nginx server has allow_underscore turned on
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
-        sentence_id: sentenceId,
+        'sentence-id': sentenceId,
         challenge: getChallenge(this.user),
-        from_demo: fromDemo ? 'true' : 'false',
+        'from-demo': fromDemo ? 'true' : 'false',
         source: 'web',
       },
       body: blob,

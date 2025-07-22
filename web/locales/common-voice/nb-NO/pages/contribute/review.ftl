@@ -44,7 +44,7 @@ sc-criteria-item-2 = Setningen må være grammatisk korrekt.
 sc-criteria-item-3 = Setningen må kunne tales.
 sc-criteria-item-4 = Hvis setningen oppfyller kriteriene, klikker du på "Godkjenn"-knappen til høyre.
 sc-criteria-item-5-2 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Avvis"-knappen til venstre. Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
-sc-criteria-item-6 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
+sc-criteria-item-6 = Hvis du går tom for setninger å vurdere, hjelp oss med å samle inn flere setninger!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Sjekk <icon></icon> er dette en språklig korrekt setning?
 sc-review-rules-title = Oppfyller setningen retningslinjene?

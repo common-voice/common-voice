@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Xiktlali tlen tikajxitisneki
 cant-decide = ¿Amo tikmati tlen tikpejpenas?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtoli a day.
-                               *[other] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtolmej a day.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtoli a day.
-                               *[other] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtolmej a day.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtoli a day.
-                               *[other] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtolmej a day.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtoli a day.
-                               *[other] { $totalHours } hora is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtolmej a day.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtoli a day.
-                               *[other] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtolmej a day.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtoli a day.
-                               *[other] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtolmej a day.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtoli a day.
-                               *[other] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuia record { $clipsPerDay } tlajtolmej a day.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtoli a day.
-                               *[other] { $totalHours } horas is achievable in just over { $periodMonths } meetstli if { $people } tlapaleuiaj record { $clipsPerDay } tlajtolmej a day.
-                            }
-                    }
-            }
-    }
 how-many-per-day = ¡Kuali! ¿Kanachi ik se tonal?
 how-many-a-week = ¡Kuali! ¿Kanachi chijchikome?
 which-goal-type = ¿Tikneki Titlajtos, Titlakakis noso nochi?

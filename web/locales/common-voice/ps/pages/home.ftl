@@ -100,7 +100,6 @@ spontaneous-speech = په خپله خوښه وینا
 
 about-menu-tooltip = ملګرتیاوې، مطبوعات او کیسې، ټولنه او ژبې
 about-us-menu-item-tooltip = د کامن وائس تر شا د ماموریت او ټیم په اړه زده کړه وکړئ
-about-us-menu-item-aria-label = د اختیارونو مینو په اړه
 partnerships-menu-item-tooltip = په ټوله نړۍ کې د ګډ غږ ملاتړ کونکي سازمانونه وپلټئ
 press-and-stories-menu-item-tooltip = د کامن وائس کیسې، تازه معلومات، او د رسنیو پوښښ ولولئ
 community-and-languages-menu-item-tooltip = زموږ ټولنې سره وصل شئ او ملاتړ شوې ژبې وګورئ
@@ -108,6 +107,7 @@ community-and-languages-menu-item-tooltip = زموږ ټولنې سره وصل ش
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = د اختیارونو مینو په اړه
+about-us-menu-item-aria-label = د اختیارونو مینو په اړه
 partnerships-menu-item-aria-label = د ګډ غږ سره د شراکت په اړه زده کړه
 press-and-stories-menu-item-aria-label = د کامن وائس پورې اړوند مطبوعاتي اعلامیو او کیسو ته لاسرسی ومومئ
 community-and-languages-menu-item-aria-label = د کامن وائس لخوا ملاتړ شوې ټولنه او ژبې وپلټئ

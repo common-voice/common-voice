@@ -57,7 +57,6 @@ hr = Croatian
 hsb = Sorbian, Wagulu
 hu = Lu'angale
 hy-AM = Armenian
-hyw = Armenian Western
 ia = Nnimi-ntabule
 id = Indonesian
 is = Icelandic
@@ -162,6 +161,3 @@ email-opt-in-info-sub-with-challenge = Ffuna email ng'ezikwata ku bisoomooza n'e
 email-opt-in-privacy-v2 = Bw'okkiriza okufuna email kitegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola. <privacyLink>Engeri gye Tukuumamu Ebikukwatako</privacyLink>.
 indicates-required = Kano * kalaga kyetaagisa
 not-available-abbreviation = N/A
-
-## Donate banner
-

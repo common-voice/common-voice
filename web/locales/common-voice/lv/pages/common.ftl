@@ -119,7 +119,6 @@ hsb = Augšsorbu
 ht = Haitiešu
 hu = Ungāru
 hy-AM = Armēņu
-hyw = Armēnijas rietumu
 ia = Interlingua
 ibb = Ibibio
 id = Indonēziešu

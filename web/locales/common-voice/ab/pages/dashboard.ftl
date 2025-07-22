@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ухықәкы цәырга
 cant-decide = Иузымгәаӷьӡои?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } амза акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
-                               *[other] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } амза акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } амза акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
-                               *[other] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } амза акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
-                               *[other] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
-                               *[other] { $totalHours } асааҭ анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } амза акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
-                               *[other] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } амза акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } амза акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
-                               *[other] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } амза акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
-                               *[other] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } уаҩы иҟаиҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } fҭаҩра ҽнак ала.
-                               *[other] { $totalHours } асааҭқәа рзы анагӡара алшоит{ $periodMonths } мызқәак акәзар{ $people } ауаа иҟарҵоит{ $clipsPerDay } аҭаҩрақәа ҽнак ала.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Ибзиоуп! Ҽнак заҟа нҵамҭа?
 how-many-a-week = Абзаиӡа! Шаҟа анҵамҭақәа мчыбжьык ала?
 which-goal-type = Уара иҭауҩҩыр уҭаху, игәоуҭарц акәу, мамзаргьы аҩускгьы ҟауҵарц угәы иҭоу?

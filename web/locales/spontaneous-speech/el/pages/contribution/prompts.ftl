@@ -5,7 +5,7 @@ mic-access-error = Πρέπει να επιτρέψετε την πρόσβασ�
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } στο <micIcon></micIcon> και απαντήστε όσο πιο φυσικά μπορείτε
 # Message which appears when there are no more resources on this page
-no-prompts-continue-skipped-message = Δεν υπάρχουν άλλες ερωτήσεις για αυτή τη γλώσσα. Αν έχετε παραλείψει κάποιο, μπορείτε να συνεχίσετε με το περιεχόμενο ή να μεταγράψετε τον ήχο και να δοκιμάσετε ξανά αργότερα.
+no-prompts-continue-skipped-message = Δεν υπάρχουν άλλες ερωτήσεις για αυτήν τη γλώσσα. Αν έχετε παραλείψει κάποια, μπορείτε να συνεχίσετε με το περιεχόμενο που παραλείψατε ή να μεταβείτε στη μεταγραφή ήχου και να δοκιμάσετε ξανά αργότερα.
 error-skipping = Προέκυψε σφάλμα κατά την παράλειψη αυτής της προτροπής
 error-recording = Προέκυψε σφάλμα κατά την ηχογράφηση
 error-fetching-prompts = Κάτι πήγε στραβά κατά τη λήψη προτροπών. Δοκιμάστε ξανά αργότερα.

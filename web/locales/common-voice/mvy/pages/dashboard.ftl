@@ -52,7 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ایک مقصد اوک مقرر کرہ
 cant-decide = فیصلہ نیرہانٚت؟
-activity-needed-calculation-plural = { $totalHours } گېن٘ٹی ہون٘ہہۡ{ $periodMonths } حاصل کرژَیں یاں قابل تُھو صرف{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
 how-many-per-day = شاباش! دیس مہ کتیُک اوک کٹرو؟
 how-many-a-week = شاباش! ہفتہ مہ کتیُک اوک کٹرو؟
 which-goal-type = توۡ منئیں غرضی تُھو، گی ݜُن٘وَئیں  یا بھجدُوں؟
