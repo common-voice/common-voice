@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Få e-postmeddelanden som målpåminnelse
 email-opt-in-privacy-v2 = Genom att anmäla dig till att ta emot e-postmeddelanden godkänner du att du är okej med att Mozilla hanterar denna information, som förklaras i Mozillas <privacyLink>sekretesspolicy</privacyLink>.
 indicates-required = * Indikerar obligatoriska fält
 not-available-abbreviation = inte tillgänglig
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopiera
+# Text shown on a button that can be clicked to cancel an action
+cancel = Avbryt
+# Text shown on a button that can be clicked to delete an item
+delete = Ta bort
 
 ## Donate banner
 
