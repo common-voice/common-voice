@@ -82,3 +82,4 @@ variant-contribution-warning-subtitle = Ha problémái vannak a közreműködés
 api-credentials-description = Érje el a felhasználók közreműködésével készült hangfelvételek globális adatkészletét a Common Voice API-val. Fejlessze alkalmazásait kiváló minőségű beszédfelismeréssel, ezeken a végpontokon keresztül:
 api-credentials-use-case-1 = Hangminták beküldése
 api-credentials-use-case-2 = Adatkészletek lekérése
+create-api-key-button = API hitelesítési adatok létrehozása
