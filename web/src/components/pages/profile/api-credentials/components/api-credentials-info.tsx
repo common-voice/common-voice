@@ -45,6 +45,11 @@ export const ApiCredentialsInfo = ({
           <Localized id="save-api-key-info" elems={{ bold: <strong /> }}>
             <p className="description" />
           </Localized>
+          <Localized
+            id="save-api-key-info-description"
+            elems={{ bold: <strong /> }}>
+            <p className="description" />
+          </Localized>
         </div>
       </div>
     </div>

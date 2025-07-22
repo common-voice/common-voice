@@ -82,6 +82,10 @@ export const ApiCredentials = () => {
             <li />
           </Localized>
         </ul>
+
+        <Localized id="api-credentials-description-conclusion">
+          <p className="api-credentials-description" />
+        </Localized>
       </section>
 
       <section className="api-keys">

@@ -85,20 +85,20 @@ api-credentials-description = Access a global dataset of user-contributed voice 
 api-credentials-use-case-1 = Submitting audio samples
 api-credentials-use-case-2 = Retrieving datasets
 api-credentials-use-case-3 = Analyzing and improving speech models
-    This collaborative platform not only helps in building more accurate voice recognition systems but also empowers users to contribute to the evolution of voice technology.
+api-credentials-description-conclusion = This collaborative platform not only helps in building more accurate voice recognition systems but also empowers users to contribute to the evolution of voice technology.
 create-api-key-button = Create API Credentials
 your-api-keys = Your API Credentials
 no-api-keys-header = <bold>Currently, there are no API credentials associated with your account.</bold>
 no-api-keys-description = To create your first API key, click "Create API Credentials,” then name
-    your API Credentials and generate unique API Credentials by clicking “Generate
-    API Credentials.” Then, copy the secret key immediately, as it will only be
+    your API Credentials and generate unique API Credentials by clicking “Generate Credentials.” Then, copy the secret key immediately, as it will only be
     displayed once.
 api-key-name-input =
     .label = API Credential Name
 create-api-key-header = <bold>Important Notice: API Credentials Generation</bold>
 create-api-key-description = Clicking "Generate Credentials" will create unique credentials for your account. For security reasons, the secret key is displayed <bold>only once</bold>. Please copy and store it securely. If lost, you must generate a new key, as it cannot be retrieved.
 generate-api-key-button = Generate Credentials
-save-api-key-info = <bold>Save Your Keys Securely:</bold> Store your keys safely and avoid exposing them in public repositories. The SECRET key is only accessible now and will not be shown again.
+save-api-key-info = <bold>Save Your Keys Securely</bold>
+save-api-key-info-description = Store your keys safely and avoid exposing them in public repositories. The SECRET key is only accessible now and will not be shown again.
 api-key-name-display-label = API Credential Name
 api-client-secret-display-label = API Client Secret
 api-client-id-display-label = API Client ID
