@@ -89,6 +89,10 @@ export default class API {
         : undefined,
     })
 
+    if (response.status === 204) {
+      return null
+    }
+
     if (response.status == 401) {
       localStorage.removeItem(USER_KEY)
       location.reload()
@@ -144,7 +148,10 @@ export default class API {
     )
   }
 
-  async fetchRandomClips(count = 1, ignoreClientVariant = false): Promise<Clip[]> {
+  async fetchRandomClips(
+    count = 1,
+    ignoreClientVariant = false
+  ): Promise<Clip[]> {
     return this.fetch(
       `${this.getClipPath()}?count=${count}${
         ignoreClientVariant ? '&ignoreClientVariant=true' : ''
@@ -630,5 +637,22 @@ export default class API {
 
   abortBulkSubmissionRequest() {
     this.abortController.abort()
+  }
+
+  createAPICredentials(description: string) {
+    return this.fetch(`${API_PATH}/profiles/api-credentials`, {
+      method: 'POST',
+      body: { description },
+    })
+  }
+
+  getAPICredentials() {
+    return this.fetch(`${API_PATH}/profiles/api-credentials`)
+  }
+
+  deleteAPICredentials(clientID: string) {
+    return this.fetch(`${API_PATH}/profiles/api-credentials/${clientID}`, {
+      method: 'DELETE',
+    })
   }
 }

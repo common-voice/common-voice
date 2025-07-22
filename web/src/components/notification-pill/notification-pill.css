@@ -20,6 +20,17 @@
         background: var(--red);
     }
 
+    &.bold-text {
+        font-weight: bold;
+        color: var(--black);
+
+        & svg {
+            path {
+                fill: var(--black);
+            }
+        }
+    }
+
     &.achievement {
         background: var(--blue);
         line-height: 1.5;
