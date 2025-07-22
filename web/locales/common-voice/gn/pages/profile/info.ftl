@@ -101,3 +101,4 @@ copy-api-credential-error-toast-message = Ojavy embokuatiávo
 delete-api-key-success-toast-message = API rerachaukaha oñemboguetéma
 add-api-key-name-error = Embojuaju API réra rechaukaha
 max-api-keys-reached = Ojehasáma 10 API rerachaukaha
+duplicate-api-key-name-error = API réra ñemigua ikõi
