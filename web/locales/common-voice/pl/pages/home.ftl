@@ -86,12 +86,6 @@ about-us = O nas
 
 about-menu-tooltip = Współpraca, prasa i historie, społeczność i języki
 
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Technologia, która mówi Twoim językiem
@@ -105,10 +99,13 @@ get-started = Zaczynamy <ikona><ikona>
 
 action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych przez społeczność
 action-items-section-subtitle = Każdy może zachować, ożywić i podnieść rangę swojego języka poprzez udostępnianie, tworzenie i zarządzanie zbiorami danych tekstowych i mowy.
+coming-soon = Wkrótce
 
 ## Community section
 
 community-section-title = Wspierany przez globalne społeczności, dla globalnych społeczności — 130 języków i wciąż rośniemy!
+# label for button
+join-discord-community-action = Dołącz do nas na Discordzie
 # label for button
 download-contribution-certificate-action = Odbierz swój certyfikat
 

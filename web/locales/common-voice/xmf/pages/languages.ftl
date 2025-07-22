@@ -1,6 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = პროგრესი
+language-section-in-progress-new-description = მოჩამილ ნინეფს ართობაში მაკათურეფი ამუშენა. გატებელო საჭირო რე <localizationGlossaryLink> ვებსაიტიში ლოკალიზაცია </localizationGlossaryLink> დო <sentenceCollectionGlossaryLink> ზიტყვასქვილეფიში კოლექცია</sentenceCollectionGlossaryLink>.
 language-section-launched = გოტებულიე
 language-section-launched-description = მოჩამილი ნინეფშა ვებსაიტიქ წუმოძინელო <localizationGlossaryLink> გეგნითანგუ </localizationGlossaryLink>, დო <sentenceCollectionGlossaryLink> ზიტყვასქვილეფი ხოლო დასაბაღჷ რე </sentenceCollectionGlossaryLink> გეგძელინას <speakLink> ინოჭარუაქ </speakLink> დო <listenLink> მორჩქილაფაქჷნი </listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated

@@ -40,6 +40,7 @@ export default Object.freeze({
   PROFILE_GOALS: PROFILE + '/goals', // old, here for redirect purposes
   PROFILE_INFO: PROFILE + '/info',
   PROFILE_SETTINGS: PROFILE + '/settings',
+  PROFILE_API_CREDENTIALS: PROFILE + '/api-credentials',
   PROMPTS: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/prompts',
   QUESTION: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/question',
   RECORD: '/record', // old, here for redirect purposes
