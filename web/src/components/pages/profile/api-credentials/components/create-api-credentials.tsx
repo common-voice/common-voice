@@ -39,7 +39,9 @@ export const CreateApiCredentials = ({ handleCreateApiKey }: Props) => {
           <Localized id="create-api-key-header" elems={{ bold: <strong /> }}>
             <p className="header" />
           </Localized>
-          <Localized id="create-api-key-description">
+          <Localized
+            id="create-api-key-description"
+            elems={{ bold: <strong /> }}>
             <p className="description" />
           </Localized>
 

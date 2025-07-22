@@ -81,8 +81,10 @@ variant-contribution-option-1 = Show me sentences and clips from all variants wi
 variant-contribution-option-2 = Only show me sentences and clips from my variant
 variant-contribution-warning-title = ⓘ Not all sentences and clips have Variant tags yet!
 variant-contribution-warning-subtitle = If you’re having trouble contributing, you can switch back to seeing all content for your language at any time.
-api-credentials-description-1 = Common Voice's API allows developers to access a rich dataset of voice recordings contributed by users around the world.
-api-credentials-description-2 = By integrating this API, you can enhance your applications with high-quality speech recognition capabilities. The API provides endpoints for submitting audio samples, retrieving datasets, and accessing various tools to analyze and improve speech models.
+api-credentials-description = Access a global dataset of user-contributed voice recordings with the Common Voice API. Enhance your applications with high-quality speech recognition through endpoints for:
+api-credentials-use-case-1 = Submitting audio samples
+api-credentials-use-case-2 = Retrieving datasets
+api-credentials-use-case-3 = Analyzing and improving speech models
     This collaborative platform not only helps in building more accurate voice recognition systems but also empowers users to contribute to the evolution of voice technology.
 create-api-key-button = Create API Credentials
 your-api-keys = Your API Credentials
@@ -94,12 +96,9 @@ no-api-keys-description = To create your first API key, click "Create API Creden
 api-key-name-input =
     .label = API Credential Name
 create-api-key-header = <bold>Important Notice: API Credentials Generation</bold>
-create-api-key-description = When you click the "Generate API Credentials" button, unique API credentials will be created for your account. 
-    Please note that for security reasons, this secret key will only be displayed once. Make sure to copy and store it in a safe place immediately after generation.
-    If you lose this key, you will need to generate a new one, as it will not be retrievable later.
-generate-api-key-button = Generate API Credentials
-save-api-key-info = <bold>Save Your Keys Securely:</bold> Once generated, make sure to store the keys securely and do not expose it in public repositories.
-    The SECRET key will only be accessible once, right now.
+create-api-key-description = Clicking "Generate Credentials" will create unique credentials for your account. For security reasons, the secret key is displayed <bold>only once</bold>. Please copy and store it securely. If lost, you must generate a new key, as it cannot be retrieved.
+generate-api-key-button = Generate Credentials
+save-api-key-info = <bold>Save Your Keys Securely:</bold> Store your keys safely and avoid exposing them in public repositories. The SECRET key is only accessible now and will not be shown again.
 api-key-name-display-label = API Credential Name
 api-client-secret-display-label = API Client Secret
 api-client-id-display-label = API Client ID

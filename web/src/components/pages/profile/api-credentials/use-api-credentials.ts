@@ -16,7 +16,6 @@ const initialState: ApiCredentialsState = {
   isFetchingApiCredentials: false,
   showCancelConfirmationModal: false,
   showDeleteConfirmationModal: false,
-  showText: false,
   showCreateApiCredentalsForm: false,
   createApiCredentialsResponse: null,
   apiCredentials: [],
@@ -53,10 +52,6 @@ export const useApiCredentials = () => {
         SHOW_NOTIFICATION_BOLD_TEXT
       )
     }
-  }
-
-  const toggleShowText = (show: boolean) => {
-    apiCredentialsDispatch(actionCreators.toggleShowText(show))
   }
 
   const toggleCreateApiCredentialsForm = (show: boolean) => {
@@ -150,7 +145,6 @@ export const useApiCredentials = () => {
   return {
     state,
     fetchApiCredentials,
-    toggleShowText,
     toggleCreateApiCredentialsForm,
     toggleCancelConfirmationModal,
     toggleDeleteConfirmationModal,

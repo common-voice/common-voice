@@ -2,13 +2,7 @@ import React, { useEffect } from 'react'
 import { Localized } from '@fluent/react'
 
 import { Button, Spinner } from '../../../ui/ui'
-import {
-  ChevronDown,
-  ChevronRight,
-  PlusCircleIcon,
-  TrashIcon,
-  XCircleIcon,
-} from '../../../ui/icons'
+import { PlusCircleIcon, TrashIcon, XCircleIcon } from '../../../ui/icons'
 import Modal from '../../../modal/modal'
 
 import { NoApiCredentials } from './components/no-api-credentials'
@@ -32,11 +26,9 @@ export const ApiCredentials = () => {
       showCreateApiCredentalsForm,
       showCancelConfirmationModal,
       showDeleteConfirmationModal,
-      showText,
       isFetchingApiCredentials,
     },
     fetchApiCredentials,
-    toggleShowText,
     toggleCreateApiCredentialsForm,
     toggleCancelConfirmationModal,
     toggleDeleteConfirmationModal,
@@ -71,45 +63,25 @@ export const ApiCredentials = () => {
 
   return (
     <div className="api-credentials-container">
-      <section className="api-credentials-description">
+      <section className="api-credentials-description-section">
         <Localized id="api-credentials">
           <h2 />
         </Localized>
-        <Localized id="api-credentials-description-1">
-          <span className="api-credentials-description-1" />
+        <Localized id="api-credentials-description">
+          <p className="api-credentials-description" />
         </Localized>
 
-        {!showText && (
-          <button
-            className="show-wall-of-text hidden-md-up"
-            onClick={() => toggleShowText(!showText)}>
-            <Localized id="show-wall-of-text">
-              <span />
-            </Localized>
-            <ChevronRight />
-          </button>
-        )}
-
-        <Localized id="api-credentials-description-2">
-          <span className="hidden-sm-down" />
-        </Localized>
-
-        {showText && (
-          <Localized id="api-credentials-description-2">
-            <span className="api-credentials-description-2-sm" />
+        <ul>
+          <Localized id="api-credentials-use-case-1">
+            <li />
           </Localized>
-        )}
-
-        {showText && (
-          <button
-            className="hidden-md-up"
-            onClick={() => toggleShowText(!showText)}>
-            <Localized id="close">
-              <span />
-            </Localized>
-            <ChevronDown style={{ marginInlineStart: '4px', scale: '0.6' }} />
-          </button>
-        )}
+          <Localized id="api-credentials-use-case-2">
+            <li />
+          </Localized>
+          <Localized id="api-credentials-use-case-3">
+            <li />
+          </Localized>
+        </ul>
       </section>
 
       <section className="api-keys">

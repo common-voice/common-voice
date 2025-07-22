@@ -1,7 +1,6 @@
 export const ActionTypes = {
   TOGGLE_CANCEL_MODAL: 'TOGGLE_CANCEL_MODAL',
   TOGGLE_DELETE_MODAL: 'TOGGLE_DELETE_MODAL',
-  TOGGLE_SHOW_TEXT: 'TOGGLE_SHOW_TEXT',
   TOGGLE_CREATE_API_CREDENTIALS_FORM: 'TOGGLE_CREATE_API_CREDENTIALS_FORM',
   SET_CREATE_API_CREDENTIALS_RESPONSE: 'SET_CREATE_API_CREDENTIALS_RESPONSE',
   RESET_API_CREDENTIALS_DATA: 'RESET_API_CREDENTIALS_DATA',
@@ -31,7 +30,6 @@ export type ApiCredentialsState = {
   isFetchingApiCredentials: boolean
   showCancelConfirmationModal: boolean
   showDeleteConfirmationModal: boolean
-  showText: boolean
   showCreateApiCredentalsForm: boolean
   createApiCredentialsResponse: CreateAPICredentialsResponse | null
   apiCredentials: ApiCredentials[]
@@ -44,10 +42,6 @@ export const actionCreators = {
   }),
   toggleDeleteModal: (show: boolean) => ({
     type: ActionTypes.TOGGLE_DELETE_MODAL,
-    payload: show,
-  }),
-  toggleShowText: (show: boolean) => ({
-    type: ActionTypes.TOGGLE_SHOW_TEXT,
     payload: show,
   }),
   toggleCreateApiCredentialsForm: (show: boolean) => ({
@@ -79,7 +73,6 @@ export const actionCreators = {
 
 type ToggleCancelModal = ReturnType<typeof actionCreators.toggleCancelModal>
 type ToggleDeleteModal = ReturnType<typeof actionCreators.toggleDeleteModal>
-type ToggleShowText = ReturnType<typeof actionCreators.toggleShowText>
 type ToggleCreateApiCredentialsForm = ReturnType<
   typeof actionCreators.toggleCreateApiCredentialsForm
 >
@@ -100,7 +93,6 @@ type DeleteApiCredentials = ReturnType<
 type ApiCredentialsAction =
   | ToggleCancelModal
   | ToggleDeleteModal
-  | ToggleShowText
   | ToggleCreateApiCredentialsForm
   | SetCreateApiCredentialsResponse
   | ResetApiCredentialsData
@@ -117,8 +109,6 @@ export function apiCredentialsReducer(
       return { ...state, showCancelConfirmationModal: action.payload }
     case ActionTypes.TOGGLE_DELETE_MODAL:
       return { ...state, showDeleteConfirmationModal: action.payload }
-    case ActionTypes.TOGGLE_SHOW_TEXT:
-      return { ...state, showText: action.payload }
     case ActionTypes.TOGGLE_CREATE_API_CREDENTIALS_FORM:
       return { ...state, showCreateApiCredentalsForm: action.payload }
     case ActionTypes.SET_CREATE_API_CREDENTIALS_RESPONSE:
