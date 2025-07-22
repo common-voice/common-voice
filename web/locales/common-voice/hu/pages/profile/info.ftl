@@ -79,3 +79,6 @@ variant-contribution-option-1 = Mondatok és klipek megjelenítése a saját nye
 variant-contribution-option-2 = Mondatok és klipek megjelenítése csak az Ön nyelvváltozatából
 variant-contribution-warning-title = ⓘ Még nem minden mondat és klip rendelkezik változatcímkével!
 variant-contribution-warning-subtitle = Ha problémái vannak a közreműködéssel, bármikor visszaválthat arra, hogy lássa az összes tartalmat a saját nyelvén.
+api-credentials-description = Érje el a felhasználók közreműködésével készült hangfelvételek globális adatkészletét a Common Voice API-val. Fejlessze alkalmazásait kiváló minőségű beszédfelismeréssel, ezeken a végpontokon keresztül:
+api-credentials-use-case-1 = Hangminták beküldése
+api-credentials-use-case-2 = Adatkészletek lekérése
