@@ -88,8 +88,8 @@ create-api-key-button = Přizjewjenske daty API wutworić
 your-api-keys = Waše přizjewjenske daty API
 no-api-keys-header = <bold>Tuchwilu přizjewjenske daty API z tutym kontom zwjazane njejsu.</bold>
 no-api-keys-description =
-    Zo byšće swój prěni kluč API wutworił,klikńće na „Přizjewjenske daty API wutworić“, potom na mjeno
-    swojich přizjewjenskich API a klikńće na „Přizjewjenske daty generować“, zo byšće jónkróćne přizjewjenske daty API generował. Kopěrujće potom hnydom tajny kluč, dokelž so jenož
+    Zo byšće swój prěni kluč API wutworił, klikńće na „Přizjewjenske daty API wutworić“, potom na mjeno
+    swojich přizjewjenskich datow API a klikńće na „Přizjewjenske daty generować“, zo byšće jónkróćne přizjewjenske daty API generował. Kopěrujće potom hnydom tajny kluč, dokelž so jenož
     jedyn raz pokaza.
 api-key-name-input =
     .label = Mjeno přizjewjenskich datow API

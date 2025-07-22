@@ -79,12 +79,18 @@ variant-contribution-option-1 = Jano sady a klipy mójeje warianty pokazaś
 variant-contribution-option-2 = Sady a klipy wšych wariantow mójeje rěcy pokazaś
 variant-contribution-warning-title = ⓘ Nic wšykne sady a klipy wariantowe wobznamjenja maju!
 variant-contribution-warning-subtitle = Jolic problemy maśo pśinosowaś, móžośo se wrośiś, aby wšykno wopśimjeśe za swóju rěc naraz wiźeł.
+api-credentials-description = Mějśo pśistup ku globalnej datowej sajźbje z głosowymi nagraśami wužywarjow z API Common Voice. Pólěpšćo swóje nałoženja z powědańskim spóznaśim wusokeje kwality pśez kóńcne dypki za:
 api-credentials-use-case-1 = Awdiopśikłady zapódaś
 api-credentials-use-case-2 = Datowe sajźby wótwołaś
 api-credentials-use-case-3 = Powědańske modele analyzěrowaś a pólěpšyś
+api-credentials-description-conclusion = Pśizamkniśo se nam, aby my głosowu technologiju pógónjowali a dalšne wužywaŕske pśinoski zmóžnili.
 create-api-key-button = Pśizjawjeńske daty API napóraś
 your-api-keys = Waše pśizjawjeńske daty API
 no-api-keys-header = <bold>Tuchylu pśizjawjeńske daty API njejsu zwězane z toś tym kontom.</bold>
+no-api-keys-description =
+    Aby swój prědny kluc API napórał, klikniśo na „Pśizjawjeńske daty API napóraś“, pón na mě
+    swójich pśizjawjeńskich API a klikniśo na „Pśizjawjeńske daty generěrowaś“, aby jadnorazowe pśizjawjeńske daty API generěrował. Kopěrujśo pón ned pótajmny kluc, dokulaž se jano
+    jaden raz pokažo.
 api-key-name-input =
     .label = Mě pśizjawjeńskich datow API
 create-api-key-header = <bold>Wažna pokazka: Generěrowanje pśizjawjeńskich datow API</bold>
