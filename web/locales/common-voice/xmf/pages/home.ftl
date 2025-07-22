@@ -97,7 +97,8 @@ community-and-languages-menu-item-tooltip = ქიდეკავშირით
 
 ## MENU ITEM ARIA LABELS
 
-about-us-menu-aria-label = პარამეტრეფიშ მენიუში გურშენი
+about-menu-aria-label = პარტნიორობა, პრესა, ისტორია, ართობა დო ნინა ქოძირათჷნი, თიში მენიუ.
+about-us-menu-aria-label = პარამეტრეფიში მენიუში გურშენი
 about-us-menu-item-aria-label = ჩქინ გურშენი პარამეტრეფიში მენიუ
 partnerships-menu-item-aria-label = ქიგეგით Common Voice-წკუმა პარტნიორობაში გურშენი
 press-and-stories-menu-item-aria-label = Common Voice-იში გურშენი ჭარილი პრესრელიზეფი დო ისტორიეფი
@@ -108,6 +109,7 @@ community-and-languages-menu-item-aria-label = გეჩინებაფეთ
 hero-title = თქვანი ნინათ მაჩიებე ტექნოლოგია
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold> მუშენი ოკო იმუშუას ხელუანური ინტელექტიქ მსოფლიოში ხვალე ანდა ნინაშა? </bold>
+hero-subtitle-2 = ჩქინი ნინა რე ჩქინი ისტორია, ჩქინი ართობა, ჩქინი კულტურა. მორთით, აკოფქიმინათ მუნაჩემეფიში კათელი, ნამუში ძირაფა თელი მსოფლიოს მოკონანი.
 # icon is an arrow that points downwards
 get-started = ქიდიჭყით <icon><icon>
 
