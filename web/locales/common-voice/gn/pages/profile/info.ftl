@@ -98,3 +98,6 @@ delete-api-key-error-toast-message = Ojavy API rerachaukaha emboguévo
 fetching-api-keys-error-toast-message = Ojavy API rerachaukaha erekóvo
 copy-api-credential-success-toast-message = Ñembokuatia hekopete
 copy-api-credential-error-toast-message = Ojavy embokuatiávo
+delete-api-key-success-toast-message = API rerachaukaha oñemboguetéma
+add-api-key-name-error = Embojuaju API réra rechaukaha
+max-api-keys-reached = Ojehasáma 10 API rerachaukaha

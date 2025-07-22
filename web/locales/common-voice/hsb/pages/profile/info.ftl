@@ -83,9 +83,14 @@ api-credentials-description = Mějće přistup ke globalnej datowej sadźbje z h
 api-credentials-use-case-1 = Awdiopřikłady zapodać
 api-credentials-use-case-2 = Datowe sadźby wotwołać
 api-credentials-use-case-3 = Rěčenske modele analyzować a polěpšować
+api-credentials-description-conclusion = Přidružće so nam, zo bychmy hłosowu technologiju doprědka ćěrili a dalše wužiwarske přinoški zmóžnili.
 create-api-key-button = Přizjewjenske daty API wutworić
 your-api-keys = Waše přizjewjenske daty API
 no-api-keys-header = <bold>Tuchwilu přizjewjenske daty API z tutym kontom zwjazane njejsu.</bold>
+no-api-keys-description =
+    Zo byšće swój prěni kluč API wutworił,klikńće na „Přizjewjenske daty API wutworić“, potom na mjeno
+    swojich přizjewjenskich API a klikńće na „Přizjewjenske daty generować“, zo byšće jónkróćne přizjewjenske daty API generował. Kopěrujće potom hnydom tajny kluč, dokelž so jenož
+    jedyn raz pokaza.
 api-key-name-input =
     .label = Mjeno přizjewjenskich datow API
 create-api-key-header = <bold>Wažna pokazka: Generowanje přizjewjenskich datow API</bold>

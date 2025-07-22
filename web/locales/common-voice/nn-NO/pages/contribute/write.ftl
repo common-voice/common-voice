@@ -24,6 +24,7 @@ new-sentence-rule-8 = Ideelt naturleg og samtalevennleg (det bør vere lett å l
 login-instruction-multiple-sentences = <loginLink>Logg in</loginLink> eller <loginLink>registrer dig</loginLink> for å leggje til fleire setningar
 how-to-cite = Korleis siterer eg?
 how-to-cite-explanation-bold = Sitér med ei URL-kopling eller heile namnet på verket.
+how-to-cite-explanation = Dersom det er dine eigne ord, berre sei <italicizedText>“Sjølvsitering”</italicizedText>. Vi treng å vite kvar du fann dette innhaldet, slik at vi kan sjekke at det er i det offentlege domenet og ingen opphavsrettsavgrensingar gjeld. For meir informasjon om sitering, sjå <guidelinesLink>Retningslinjene</guidelinesLink> våre.
 guidelines = Retningslinjer
 contact-us = Kontakt oss
 add-sentence-success = 1 setning innsamla
