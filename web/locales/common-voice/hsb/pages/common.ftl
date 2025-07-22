@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Dóstańće mejlki, kaž na přikład wu�
 email-opt-in-privacy-v2 = Jeli chceće e-mejlki dóstać, dyrbiće do wobchadźenja Mozilla z tymi informacijemi zwolić, kotrež so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla rozjasnjeja.
 indicates-required = * Woznamjenja trěbne polo
 not-available-abbreviation = Ničo k dispoziciji
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopěrować
+# Text shown on a button that can be clicked to cancel an action
+cancel = Přetorhnyć
+# Text shown on a button that can be clicked to delete an item
+delete = Zhašeć
 
 ## Donate banner
 
