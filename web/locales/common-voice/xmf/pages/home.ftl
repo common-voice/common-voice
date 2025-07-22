@@ -71,10 +71,11 @@ welcome-staff = გომორძგუა { $company } ალმახან�
 help-contribute = Common Voice პროფილიში აკოქიმინუათ დო ხუმაში ინნაჭარეფიში გაშელებათ, თქვა შეილებუნა ქიდმეხვარათ ბრელნერი დო გოღია წყუ უღუნ ფერი მუნაჩემეფიში კათელიში გახაზირებას.
 login-company = მიშელით / დერეგისტრირით { $company } ელფოსტათ
 profile-not-required = წილიში მიშაღალარო პროფილიში ღვენა სავალდებულო ვარე, მარა სარგებლუანი იჸუაფუ. მუშენინი, ქოძირით თუდო.
+read-more-about = ქიგეგით უმოსი ხასილაშე "ჩქინ გურშენი"
 
 ## NAV ITEMS
 
-answer-questions = ქუგამით ოკითხირეეფს
+answer-questions = ქუგამით ოკითხირეფს
 review-transcriptions = ქიგნაჯინით ტრანსკრიფციას
 add-questions = ქიგუძინით ოკითხირეეფი
 review-questions = ქიგნაჯინით ოკითხირეეფს
@@ -88,6 +89,8 @@ spontaneous-speech = სპონტანური ჩიება
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ალმახანდეობა, პრესა დო სიახალეეფი, საზოგადოებეფი დო ნინეფი
+partnerships-menu-item-tooltip = გეჩინებაფეთ Common Voice-იშ ხუჯიშ დუმაკინებელი ორგანიზაციეფი თელი მსოფლიოშე
+press-and-stories-menu-item-tooltip = წეკითხით Common Voice-იში სიახალეეფი დო მედია გინოჩამეფი
 community-and-languages-menu-item-tooltip = ქიდეკავშირით ჩქინი ართობას დო ქოძირით ხუჯმეჩამილი ნინეფი
 
 ## MENU ITEM ARIA LABELS
