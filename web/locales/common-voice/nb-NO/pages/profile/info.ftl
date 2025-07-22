@@ -79,3 +79,4 @@ variant-contribution-option-1 = Vis setninger og klipp fra alle varianter på sp
 variant-contribution-option-2 = Vis bare setninger og klipp fra varianten min
 variant-contribution-warning-title = ⓘ Ikke alle setninger og klipp har varianttagger ennå!
 variant-contribution-warning-subtitle = Hvis du har problemer med å bidra, kan du når som helst bytte tilbake til å se alt innhold for språket ditt.
+api-key-modal-confirmation-header = Er du sikker?
