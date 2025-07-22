@@ -252,6 +252,12 @@ email-opt-in-info-sub-with-challenge = Iratkozzon fel e-mailekre, köztük a kih
 email-opt-in-privacy-v2 = Azzal, hogy az e-mailek fogadását kéri, beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben</privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
 not-available-abbreviation = Nincs
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Másolás
+# Text shown on a button that can be clicked to cancel an action
+cancel = Mégse
+# Text shown on a button that can be clicked to delete an item
+delete = Törlés
 
 ## Donate banner
 
