@@ -1,14 +1,14 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { connect } from 'react-redux';
-import { Redirect, Route, Switch } from 'react-router';
-import { NavLink } from 'react-router-dom';
-import * as Sentry from '@sentry/react';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { connect } from 'react-redux'
+import { Redirect, Route, Switch } from 'react-router'
+import { NavLink } from 'react-router-dom'
+import * as Sentry from '@sentry/react'
 
-import { User } from '../../../stores/user';
-import StateTree from '../../../stores/tree';
-import URLS from '../../../urls';
-import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
+import { User } from '../../../stores/user'
+import StateTree from '../../../stores/tree'
+import URLS from '../../../urls'
+import { localeConnector, LocalePropsFromState } from '../../locale-helpers'
 import {
   CameraIcon,
   CloudIcon,
@@ -16,31 +16,41 @@ import {
   TrashIcon,
   UserIcon,
   UserPlusIcon,
-} from '../../ui/icons';
-import AvatarSetup from './avatar-setup/avatar-setup';
-import DeleteProfile from './delete/delete';
-import InfoPage from './info/info';
-import Settings from './settings/settings';
+  CodeIcon,
+} from '../../ui/icons'
+import AvatarSetup from './avatar-setup/avatar-setup'
+import DeleteProfile from './delete/delete'
+import InfoPage from './info/info'
+import Settings from './settings/settings'
+import DownloadProfile from './download/download'
+import { ApiCredentials } from './api-credentials'
 
-import './layout.css';
-import DownloadProfile from './download/download';
+import './layout.css'
 
-const SentryRoute = Sentry.withSentryRouting(Route);
+const SentryRoute = Sentry.withSentryRouting(Route)
 
 interface PropsFromState {
-  user: User.State;
+  user: User.State
 }
 
 interface Props extends LocalePropsFromState, PropsFromState {}
 
 const Layout = ({ toLocaleRoute, user }: Props) => {
-  const [infoRoute, avatarRoute, prefRoute, deleteRoute, downloadRoute] = [
+  const [
+    infoRoute,
+    avatarRoute,
+    prefRoute,
+    deleteRoute,
+    downloadRoute,
+    apiCredentialsRoute,
+  ] = [
     URLS.PROFILE_INFO,
     URLS.PROFILE_AVATAR,
     URLS.PROFILE_SETTINGS,
     URLS.PROFILE_DELETE,
     URLS.PROFILE_DOWNLOAD,
-  ].map(r => toLocaleRoute(r));
+    URLS.PROFILE_API_CREDENTIALS,
+  ].map(r => toLocaleRoute(r))
   return (
     <div className="profile-layout">
       <div className="profile-nav">
@@ -53,6 +63,11 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
                 : { icon: <UserPlusIcon />, id: 'build-profile' }),
             },
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
+            {
+              route: apiCredentialsRoute,
+              icon: <CodeIcon />,
+              id: 'api-credentials',
+            },
             { route: prefRoute, icon: <CogIcon />, id: 'settings' },
             {
               route: deleteRoute,
@@ -84,12 +99,13 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
             { route: downloadRoute, Component: DownloadProfile },
+            { route: apiCredentialsRoute, Component: ApiCredentials },
           ].map(({ route, Component }) => (
             <SentryRoute
               key={route}
               exact
               path={route}
-              render={props =>
+              render={() =>
                 user.account ? <Component /> : <Redirect to={infoRoute} />
               }
             />
@@ -100,9 +116,9 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
         </Switch>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default connect<PropsFromState>(({ user }: StateTree) => ({ user }))(
   localeConnector(Layout)
-);
+)
