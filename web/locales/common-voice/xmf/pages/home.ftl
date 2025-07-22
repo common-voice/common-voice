@@ -84,11 +84,13 @@ press-and-stories = პრესა დო სიახალეეფი
 community-and-languages = საზოგადოება დო ნინეფი
 coming-soon = მალას
 about-us = ჩქინ გურშენი
+scripted-speech = ჭარილი ნინა
 spontaneous-speech = სპონტანური ჩიება
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ალმახანდეობა, პრესა დო სიახალეეფი, საზოგადოებეფი დო ნინეფი
+about-us-menu-item-tooltip = გეჩინებაფეთ Common Voice-იში ბუნა დო მისია
 partnerships-menu-item-tooltip = გეჩინებაფეთ Common Voice-იშ ხუჯიშ დუმაკინებელი ორგანიზაციეფი თელი მსოფლიოშე
 press-and-stories-menu-item-tooltip = წეკითხით Common Voice-იში სიახალეეფი დო მედია გინოჩამეფი
 community-and-languages-menu-item-tooltip = ქიდეკავშირით ჩქინი ართობას დო ქოძირით ხუჯმეჩამილი ნინეფი
@@ -96,7 +98,10 @@ community-and-languages-menu-item-tooltip = ქიდეკავშირით
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = პარამეტრეფიშ მენიუში გურშენი
-about-us-menu-item-aria-label = ჩქინ გურშენი პარამეტრეფიშ მენიუ
+about-us-menu-item-aria-label = ჩქინ გურშენი პარამეტრეფიში მენიუ
+partnerships-menu-item-aria-label = ქიგეგით Common Voice-წკუმა პარტნიორობაში გურშენი
+press-and-stories-menu-item-aria-label = Common Voice-იში გურშენი ჭარილი პრესრელიზეფი დო ისტორიეფი
+community-and-languages-menu-item-aria-label = გეჩინებაფეთ Common Voice-იშე ხუჯმეჩამილი ართობეფი დო ნინეფი
 
 ## Hero section
 
