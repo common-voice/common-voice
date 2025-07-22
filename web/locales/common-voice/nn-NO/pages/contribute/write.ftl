@@ -113,6 +113,12 @@ rate-limit-toast-message-seconds =
         [one] Grense for førespurnadar overskriden. Prøv igjen om 1 sekund
        *[other] Grense for førespurnadar overskriden. Prøv igjen om { $retryLimit } sekund
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Du har nådd innsendingsgrensa for denne sida. Vent i 1 minutt før du sender inn ei ny setning. Takk for tolmodet!
+       *[other] Du har nådd innsendingsgrensa for denne sida. Vent i { $retryLimit } minutt før du sender inn ei ny setning. Takk for tolmodet!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
