@@ -177,6 +177,3 @@ email-opt-in-info-sub-with-challenge = Riceve email cum’è sfide è ramintenze
 email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chì Mozilla si ghjova di st'infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
-
-## Donate banner
-

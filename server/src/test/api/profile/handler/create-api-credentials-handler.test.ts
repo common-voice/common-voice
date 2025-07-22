@@ -12,13 +12,8 @@ jest.mock(
   '../../../../application/profile/command-handler/createClientCredentialsCommandHandler'
 )
 
-const mockGetClientCredentialsQueryHandler = jest.mocked(
-  getClientCredentialsQueryHandler
-)
-
-const mockCreateClientCredentialsCommandHandler = jest.mocked(
-  createClientCredentialsCommandHandler
-)
+const mockGetClientCredentialsQueryHandler = jest.mocked(getClientCredentialsQueryHandler)
+const mockCreateClientCredentialsCommandHandler = jest.mocked(createClientCredentialsCommandHandler)
 
 interface MockRequest {
   session: {

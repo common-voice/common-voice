@@ -189,6 +189,3 @@ email-input =
 loading = Pumeuhah...
 email-opt-in-info = Lon galak beujitamöng surat-e lagee peuingat tujuan, seuneubaro progress lon ngon seunurat keu bhaih Su Common.
 indicates-required = * Suwah geupasoe
-
-## Donate banner
-

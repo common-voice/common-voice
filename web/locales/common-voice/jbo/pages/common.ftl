@@ -76,6 +76,3 @@ email-input =
 loading = samymo'i…
 email-opt-in-info = .au te samymri tu'a lonu tergu'a rejgau .e lo nuzba be loni mulno do'e mi kei .e lo xatra be fo tu'a la'o gy Common Voice gy
 email-opt-in-info-title = jongau fi lo te samymri liste pe la'o gy Common Voice gy
-
-## Donate banner
-

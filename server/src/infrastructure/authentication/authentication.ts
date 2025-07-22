@@ -54,7 +54,7 @@ export const createClientCredentials = async (clientInfo: {
 export const getClientCredentials = async (clientInfo: { userId: string }) => {
   const res = await fetch(
     getConfig().AUTH_SERVICE_URL +
-      `/internal/auth/clients?userId=${encodeURIComponent(clientInfo.userId)}`
+    `/internal/auth/clients?userId=${encodeURIComponent(clientInfo.userId)}`
   )
 
   if (!res.ok) {
@@ -69,7 +69,7 @@ export const getClientCredentials = async (clientInfo: { userId: string }) => {
 export const deleteClientCredentials = async (clientInfo: { clientId: string }) => {
   const res = await fetch(
     getConfig().AUTH_SERVICE_URL +
-      `/internal/auth/clients/${encodeURIComponent(clientInfo.clientId)}`,
+    `/internal/auth/clients/${encodeURIComponent(clientInfo.clientId)}`,
     {
       method: 'DELETE',
     }

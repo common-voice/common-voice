@@ -189,6 +189,3 @@ email-opt-in-info-sub-with-challenge = Ná-ènwétà ózí íméèlụ̀ (email)
 email-opt-in-privacy-v2 = Ọ bụrụ na i kweta ka e zitere gi ozi íméèlụ̀ (email), ọ putara na i kwetago kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink
 indicates-required = Ákàrà kpákpáǹdò (*) nà-ègósí ébé á chọ̀rọ̀ ka e dee ihe.
 not-available-abbreviation = N/A
-
-## Donate banner
-

@@ -129,6 +129,3 @@ loading = Ашаалагдажа байна...
 email-opt-in-info = Зорилго һануулһан, ажалай ябаса харуулһан, Common Voice-ын һонинуудые мэдээсэһэн сахим шуудан абахаа һананаб.
 indicates-required = *Заабол бүглэхэ ёһотой мэдээсэл
 not-available-abbreviation = Ү/Х
-
-## Donate banner
-

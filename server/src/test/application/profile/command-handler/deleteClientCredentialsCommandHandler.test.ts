@@ -5,9 +5,7 @@ import { DeleteClientCredentialsCommand } from '../../../../application/profile/
 // Mock the dependencies
 jest.mock('../../../../infrastructure/authentication/authentication')
 
-const mockDeleteClientCredentials = deleteClientCredentials as jest.MockedFunction<
-  typeof deleteClientCredentials
->
+const mockDeleteClientCredentials = jest.mocked(deleteClientCredentials)
 
 describe('deleteClientCredentialsCommandHandler', () => {
   beforeEach(() => {

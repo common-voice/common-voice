@@ -134,6 +134,3 @@ loading = Laadimine…
 email-opt-in-info = Soovin saada e-kirju eesmärkide meeldetuletuste ja edenemise uuendustega ning uudiskirju Common Voice'i kohta.
 indicates-required = * tähistab kohustuslikku välja
 not-available-abbreviation = N/A
-
-## Donate banner
-

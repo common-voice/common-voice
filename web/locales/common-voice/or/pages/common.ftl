@@ -224,6 +224,3 @@ email-opt-in-info-sub-with-challenge = Common Voice ବିଷୟରେ ପ୍ର
 email-opt-in-privacy-v2 = ଆପଣ ଯଦି ଆମଠାରୁ ଇମେଲ ପାଇବାକୁ ରାଜି ଅଛନ୍ତି ତେବେ Mozilla ତାହାର <privacyLink> ଗୋପନ ନିୟମାବଳୀ </privacyLink> ହିସାବରେ ଆପଣଙ୍କର ଏହି ଇମେଲ ଆଇଡି ଯେଭଳି ଭାବରେ ଉପଯୋଗ କରିବ ସେଥିରେ ଆପଣ ସହମତ ।
 indicates-required = * ଦରକାରୀ କ୍ଷେତ୍ର ନିର୍ଦ୍ଦେଶ କରେ
 not-available-abbreviation = ଅନାବଶ୍ୟକ
-
-## Donate banner
-

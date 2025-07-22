@@ -108,6 +108,13 @@ export default class API {
       throw error
     }
 
+    if (response.status === 409) {
+      if (response.statusText.includes('ALREADY_EXISTS')) {
+        throw new Error(response.statusText)
+      }
+      throw new Error(await response.text())
+    }
+
     if (response.status >= 400) {
       if (response.statusText.includes('save_clip_error')) {
         throw new Error(response.statusText)

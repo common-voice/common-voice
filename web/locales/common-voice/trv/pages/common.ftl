@@ -2,17 +2,8 @@
 # [Languages]
 
 
-## Languages
-
-
-# [/]
-
-
 ## Layout
 
 contact = mlawa
 terms = waya
 logout = wada
-
-## Donate banner
-
