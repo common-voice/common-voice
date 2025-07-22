@@ -40,6 +40,8 @@ sentence-domain-select-placeholder = Vel opptil tre domene
 # Sentence Domain dropdown option
 agriculture_food = Landbruk og matprodukt
 # Sentence Domain dropdown option
+automotive_transport = Køyretøy og transport
+# Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
 service_retail = Service og detaljhandel
@@ -61,6 +63,7 @@ news_current_affairs = Nyheiter og aktuelle saker
 technology_robotics = Teknologi og robotikk
 sentence-variant-select-label = Setningsvariant
 sentence-variant-select-placeholder = Vel ein variant (valfritt)
+sentence-variant-select-multiple-variants = Generelt språk / fleire variantar
 
 ## BULK SUBMISSION
 
