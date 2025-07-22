@@ -147,6 +147,7 @@ download-contribution-certificate-content = გაგმოხარგეთ �
 # label for button
 download-contribution-certificate-action = გეჭოფით თქვანი სერტიფიკატი
 contribute-github = გემშეღით თქვანი წილი GitHub-შა
+contribute-github-content = თე პროექტი თქვანცალი კათაში უმუშო ვეკეთინედუ. 🎉 ბრელნერო შეილებუნა ქაკათათ დო ხე ქუნწყუათ Common Voice-იში გოფალუას. - კოდიში ჭარუა ვაგოსაჭირუნა წილიში მიშაღალარო!
 # label for button
 contribute-github-action = გემშეღით თქვანი წილი GitHub-შა
 
@@ -159,11 +160,13 @@ download-press-pack = გაგმოხარგეთ ჩქინი პრ�
 ## Developers section
 
 developers-section-title = ოჯარეთ ხემიოჭირინაფალი გონჯამილი ჩიებაში მუნაჩემეფიში კათელი 130+ ნინაშა
+developers-section-subtitle = მუნაჩემეფიში კათელი ASR, STT, TTS, დო შხვა  NLP საშუალებეფიშოთ - აკოქიმინელი ართობაში მოხვარათ.
 # icon is an arrow that points to the right
 explore-datasets = ქოძირით კათელეფი <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = გონჯამილი, ართობაში აკოქიმინელი მუნაჩემეფიში კათელეფიშა ხუჯიში მეჩამა
 read-sentences-link = წეკითხით ზიტყვასქვილეფი
 validate-readings-link = ქიგნაჯინით ნაკითხირას
 contribute-link = აკაფშით ტექსტური კორპუსი
@@ -175,6 +178,7 @@ press-and-stories-link = პრესა დო ამბეფი
 
 ## Partner section
 
+partner-section-title = ჩქინწკუმა მალათირეობა
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold> ქველმოქმედება </bold> - დაფინანსით მუნაჩემეფიში კათელეფი ადგილობრივი ინოვაციეფიში გაფალარო.
 # icon is an arrow that points to the right
