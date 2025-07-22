@@ -129,9 +129,11 @@ answer = გამა
 
 ## Community section
 
+community-section-title = ოირქიანე ართობეფიში ხუჯიში დაკინებათ, ოირქიანე ართობეფიშოთ —130 ნინა დო ხოლო ირდუ!
 join-discord-community = ქაკათით Discord-ართობას
 # label for button
 join-discord-community-action = მოზოჯით Discord-შა
+join-discord-community-content = მიღით მონაწილეობა ნინაში მუკი-მუკი აკოშაყარელი ართობაში დისკუსიაშა, ქიკითხით დო ქიგეგით უმოსი მუმალი ღონისძიებეფიში ვარდა შეხვალამეფიში გურშენი.
 find-us-on-matrix = დობგორით Matrix-ის
 # label for button
 find-us-on-matrix-action = ქობძირით Matrix-ის
