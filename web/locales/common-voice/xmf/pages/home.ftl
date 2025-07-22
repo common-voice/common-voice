@@ -180,6 +180,10 @@ press-and-stories-link = პრესა დო ამბეფი
 
 partner-section-title = ჩქინწკუმა მალათირეობა
 # Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold> ტექნიკური კომპანიეფი </bold> - ინვესტიციეფით მუნაჩემეფიში გონჯამილი კათელეფიში აკაქიმინალო ბრელინინამი AI ეკოსისტემეფიში გაფალარო
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold> სამოქალაქო ართობეფი დო მკვლევარეფი </bold> - კათელეფიში აკოქიმინუა, გაშელება უფასოთ
+# Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold> ქველმოქმედება </bold> - დაფინანსით მუნაჩემეფიში კათელეფი ადგილობრივი ინოვაციეფიში გაფალარო.
 # icon is an arrow that points to the right
 get-in-touch-button = ქიდმეკავშირით <icon></icon>
