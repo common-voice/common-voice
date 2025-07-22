@@ -79,6 +79,7 @@ variant-contribution-option-1 = Jenož sady a klipy mojeje warianty pokazać
 variant-contribution-option-2 = Sady a klipy wšěch wariantow mojeje rěče pokazać
 variant-contribution-warning-title = ⓘ Nic wšě sady a klipy wariantowe znački maja!
 variant-contribution-warning-subtitle = Jeli problemy maće přinošować, móžeće so wróćić, zo byšće wšón wobsah za swoju rěč naraz widźał.
+api-credentials-description = Mějće přistup ke globalnej datowej sadźbje z hłosowymi natočenjemi wužiwarjow z API Common Voice. Polěpšće swoje nałoženja z rěčenskim spóznaćom wysokeje kwality přez kónčne dypki za:
 api-credentials-use-case-1 = Awdiopřikłady zapodać
 api-credentials-use-case-2 = Datowe sadźby wotwołać
 api-credentials-use-case-3 = Rěčenske modele analyzować a polěpšować
