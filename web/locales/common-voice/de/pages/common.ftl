@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Erhalten Sie E-Mails wie  Herausforderung
 email-opt-in-privacy-v2 = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung</privacyLink> von Mozilla verarbeitet.
 indicates-required = * Pflichtfeld
 not-available-abbreviation = Nicht verfügbar
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopieren
+# Text shown on a button that can be clicked to cancel an action
+cancel = Abbrechen
+# Text shown on a button that can be clicked to delete an item
+delete = Löschen
 
 ## Donate banner
 

@@ -59,6 +59,8 @@ login = Anmelden
 edit = Bearbeiten
 email-subscriptions = E-Mail-Abonnements
 download-profile = Meine Daten herunterladen
+api-credentials = API
+api-credentials-header = Zugangsdaten
 contribution-experience = Verhalten von »Mitarbeiten«
 skip-submission-feedback = Feedbackseite überspringen
 skip-submission-description = Beim Mitarbeiten wird nach dem Klick auf »Übermitteln« kein Feedback zu Ihrem Beitrag mehr eingeblendet. Es geht direkt mit den nächsten fünf Aufzeichnungen oder Überprüfungen weiter.
@@ -77,3 +79,18 @@ variant-contribution-option-1 = Nur Sätze und Clips von meiner Variante anzeige
 variant-contribution-option-2 = Sätze und Clips von allen Varianten in meiner Sprache anzeigen
 variant-contribution-warning-title = ⓘ Noch nicht alle Sätze und Clips haben Variante-Tags!
 variant-contribution-warning-subtitle = Wenn Sie Probleme beim Mitwirken haben, können Sie jederzeit wieder alle Inhalte für Ihre Sprache sehen.
+api-credentials-description = Greifen Sie mit der Common-Voice-API auf einen globalen Datensatz von durch Benutzer beigesteuerten Sprachaufzeichnungen zu. Verbessern Sie Ihre Anwendungen mit qualitativ hochwertiger Spracherkennung über Endpunkte für:
+api-credentials-use-case-1 = Audiobeispiele werden übermittelt
+api-credentials-use-case-2 = Datensätze werden abgerufen
+api-credentials-use-case-3 = Sprachmodelle analysieren und verbessern
+api-credentials-description-conclusion = Diese kollaborative Plattform hilft nicht nur beim Aufbau genauerer Spracherkennungssysteme, sondern ermöglicht es Benutzern auch, zur Entwicklung der Sprachtechnologie beizutragen.
+create-api-key-button = API-Zugangsdaten erstellen
+your-api-keys = Ihre API-Zugangsdaten
+no-api-keys-header = <bold>Derzeit sind keine API-Zugangsdaten mit Ihrem Konto verknüpft.</bold>
+no-api-keys-description =
+    Um Ihren ersten API-Schlüssel zu erstellen, klicken Sie auf „API-Zugangsdaten erstellen“, benennen Sie dann
+    Ihre API-Zugangsdaten und erzeugen Sie eindeutige API-Zugangsdaten, indem Sie auf „Zugangsdaten erzeugen“ klicken. Kopieren Sie dann sofort den Geheimschlüssel, da er nur
+    einmal angezeigt wird.
+api-key-name-input =
+    .label = Name der API-Zugangsdaten
+create-api-key-header = <bold>Wichtiger Hinweis: Generierung von API-Zugangsdaten</bold>
