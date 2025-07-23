@@ -81,3 +81,4 @@ variant-contribution-warning-title = ⓘ Non tutte le frasi e le registrazioni h
 variant-contribution-warning-subtitle = Se riscontri difficoltà nel collaborare, puoi tornare a visualizzare tutti i contenuti nella tua lingua in qualsiasi momento.
 create-api-key-button = Crea credenziali API
 your-api-keys = Le tue credenziali API
+no-api-keys-header = <bold>Al momento non ci sono credenziali API associate al tuo account.</bold>
