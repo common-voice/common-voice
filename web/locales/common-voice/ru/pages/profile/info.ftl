@@ -111,5 +111,5 @@ copy-api-credential-success-toast-message = Скопировано успешн�
 copy-api-credential-error-toast-message = Ошибка копирования
 delete-api-key-success-toast-message = Учетные данные API успешно удалены
 add-api-key-name-error = Добавить имя учётных данных API
-max-api-keys-reached = Превышен лимит учётных данных API (10)
-duplicate-api-key-name-error = Совпадающее имя ключа API
+max-api-keys-reached = Достигнут лимит API-ключей (10)
+duplicate-api-key-name-error = API-ключ с таким названием уже существует
