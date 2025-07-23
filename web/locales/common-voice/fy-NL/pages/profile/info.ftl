@@ -79,3 +79,18 @@ variant-contribution-option-1 = Allinnich sinnen en fragminten út myn fariant t
 variant-contribution-option-2 = My sinnen en fragminten fan alle farianten yn myn taal toane
 variant-contribution-warning-title = ⓘ Noch net alle sinnen en fragminten hawwe fariantlabels!
 variant-contribution-warning-subtitle = As jo problemen hawwe mei by it bydragen, kinne jo op elk momint weromgean nei it sjen fan alle ynhâld foar jo taal.
+api-credentials-description = Benaderje in algemiene gegevensset fan troch brûkers bydroegen spraakopnamen mei de Common Voice-API. Ferbetterje jo tapassingen mei heechweardige spraakwerkenning fia einpunten foar:
+api-credentials-use-case-1 = Audiofragminten yntsjinje
+api-credentials-use-case-2 = Gegevenssets ophelje
+api-credentials-use-case-3 = Spraakmodellen analysearje en ferbetterje
+api-credentials-description-conclusion = Doch mei ús mei om spraaktechnology foarút te helpen en mear brûkersbydragen mooglik te meitsjen.
+create-api-key-button = API-referinsjes oanmeitsje
+your-api-keys = Jo API-referinsjes
+no-api-keys-header = <bold>Op it stuit binne der gjin API-referinsjes oan jo account keppele.</bold>
+no-api-keys-description =
+    Klik om jo earste API-kaai oan te meitsjen op ‘API-referinsjes oanmeitsje’, jou in namme oan
+    jo API-referinsjes en generearje unike API-referinsjes troch op ‘Referinsjes oanmeitsje’ te klikken. Kopiearje dêrnei daliks de geheime kaai, want dizze wurdt mar
+    ien kear toand.
+api-key-name-input =
+    .label = Namme API-referinsjes
+create-api-key-header = <bold>Wichtige meidieling: oanmeitsjen fan API-referinsjes</bold>
