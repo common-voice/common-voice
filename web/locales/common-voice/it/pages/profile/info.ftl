@@ -89,3 +89,6 @@ cancel-api-key-confirmation-description = Annullare la generazione delle credenz
 create-api-key-error-toast-message = Errore durante la creazione delle credenziali API
 delete-api-key-error-toast-message = Errore durante l’eliminazione delle credenziali API
 fetching-api-keys-error-toast-message = Errore durante il recupero delle credenziali API
+copy-api-credential-success-toast-message = Copiata correttamente
+copy-api-credential-error-toast-message = Errore durante la copia
+max-api-keys-reached = È stato superato il limite di 10 credenziali API
