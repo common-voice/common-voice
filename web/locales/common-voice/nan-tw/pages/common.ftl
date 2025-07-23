@@ -4,17 +4,17 @@
 
 ## Languages
 
-aa = Afar 阿費爾語
+aa = Afar 阿法爾語
 aat = Arvanitika 語
 ab = Abkhaz 阿布哈茲語
-abb = Bankon 語
-abq = Abaza 語
+abb = Bankon 班空語
+abq = Abaza 阿巴札語
 ace = Acehnese 亞齊語
 ady = Adyghe (West Circassian) 西切爾克斯阿迪格語
-af = Afrikaans 阿非利卡語
+af = Afrikaans 南非荷蘭語
 ajg = Adja 語
 aln = Gheg Albanian 蓋格阿爾巴尼亞語
-am = Amharic 安哈拉語
+am = Amharic 阿姆哈拉語
 an = Aragonese 亞拉岡語
 ar = Arabic 阿拉伯語
 arn = Mapudungun 馬普切語
@@ -66,6 +66,7 @@ cjk = Chokwe 紹奎語
 ckb = Central Kurdish 中庫德語
 cnh = Hakha Chin 語
 co = Corsican 科西嘉語
+cpy = Asheninka, South Ucayali 語
 crh = Crimean Tatar 克里米亞韃靼語
 cs = Czech 捷克語
 cut = Teutila Cuicatec 語
@@ -77,6 +78,8 @@ dag = Dagbani 達巴尼語
 dar = Dargwa 語
 dav = Kidaw'ida 語
 de = German 德語
+dmk = Dawoodi 語
+dml = Dameli 語
 dru = 魯凱語
 dsb = Lower Sorbian 下索布語
 dua = Duala 杜阿拉語
