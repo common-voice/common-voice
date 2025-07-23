@@ -1,9 +1,9 @@
 ## Home page
 
-welcome-to-spontaneous-speech = 歡迎使用提示性錄音
+welcome-to-spontaneous-speech = 歡迎使用隨在講話錄音
 # <br></br> represents a newline break
 wall-of-text = Common Voice 將推出第二个平台，聚焦佇收集自然、自發性、猶未有跤本的語音內容。如此會當幫贊真濟社群閣較緊收集到資料，對於資料科學家佮開發者來講嘛真利便。
-why-spontaneous-speech = 咱為何欲製作提示性錄音實驗
+why-spontaneous-speech = 咱為何欲製作隨在講話實驗
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = 會當幫贊<mark>自然的講話情境</mark>佮實際場景（例如：予語音技術會當識別口語佮無講稿的發言）
 # text wrapped with <mark></mark> will have a light red background

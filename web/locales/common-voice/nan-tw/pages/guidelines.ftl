@@ -127,3 +127,13 @@ dont-add-subheader = 莫加添
 culturally-specific-questions = 特定文化背景的問題
 culturally-specific-questions-explanation = 有特定文化背景，抑是對回答者有一寡假定的問題
 length-avoid-explanation = 一般人無法度佇15秒的時間（上長的片段長度）簡單回答的問題
+process-steps = 程序／步數
+process-steps-explanation =
+    需要回答的人列出幾若步的問題。
+    列出步數會予使用者用回答解答的方式，較毋是自然的回答。
+offensive-content-sensitive-information = 會予人感覺冒犯抑是敏感的資訊
+offensive-content-sensitive-information-explanation-explanation-1 = 會侵犯個人會當識別資訊的問題
+offensive-content-sensitive-information-explanation-explanation-2 = 會當引發仇恨言論抑是其他有偏見抑是有攻擊性情緒的問題
+offensive-content-sensitive-information-explanation-explanation-3 = 有可能予人分享敏感、有可能引發反應的問題
+example-questions-subheader = 舉例的問題
+example-questions-explanation-1 = 你會當佇這个表單撨揣<examplePromptsLink>問答的例</examplePromptsLink>。

@@ -4,9 +4,13 @@
 error = 錯誤
 action-click = 點擊
 action-tap = 點選
+# Label for language switcher
+platform-language = 平台語言
+platform-language-tooltip-text = 干焦改變網站文字
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 貢獻到 { $language } 資料集
+contribution-picker-tooltip-text = 共語言資料集改變做你貢獻的語言
 coming-soon = 更多語言將陸續推出
 media-recorder-api-not-supported = 你的瀏覽器不支援 MediaRecorder API。
 # Toast message that is displayed when an item is skipped
@@ -19,11 +23,14 @@ report-button = 回報
 skip-button = 略過
 submit-button = 送出
 contribute = 貢獻
+request-new-language = 要求新語言
 
 ## Navbar
 
 respond-to-prompt = 回應提示
+transcribe = 轉錄
 check-transcriptions = 檢查轉錄內容
+question = 問題
 
 ## Not Found Page
 
@@ -54,3 +61,7 @@ xkl = Kenyah 語
 
 ## Language search component
 
+language-search-placeholder = 撨濟一个語言…
+language-search-aria-label = 撨濟一个語言
+language-search-label = 干焦改變資料集的貢獻語言
+language-search-no-results = 無揣著語言
