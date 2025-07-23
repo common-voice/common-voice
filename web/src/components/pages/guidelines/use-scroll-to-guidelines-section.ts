@@ -27,27 +27,43 @@ const useScrollToGuidelinesSection = () => {
     id || VOICE_NAV_IDS.PRONUNCIATIONS
   )
 
-  React.useEffect(() => {
-    if (!tab) {
-      setSelectedTabIndex(0)
-    }
-
-    if (tab && tab === 'spontaneous-speech') {
-      setSelectedTabIndex(1)
-    }
-
-    if (tab && tab === 'scripted-speech') {
-      setSelectedTabIndex(0)
-    }
-
-    if (hash) {
-      const element = document.getElementById(id)
+  const scrollToElement = React.useCallback(
+    (elementId: string, retries = 5) => {
+      const element = document.getElementById(elementId)
 
       if (element) {
         element.scrollIntoView({ block: 'start', behavior: 'smooth' })
+        return true
       }
+
+      if (retries > 0) {
+        setTimeout(() => scrollToElement(elementId, retries - 1), 100)
+      } else {
+        console.warn(`Element with id "${elementId}" not found after retries`)
+      }
+
+      return false
+    },
+    []
+  )
+
+  React.useEffect(() => {
+    if (!tab) {
+      setSelectedTabIndex(0)
+    } else if (tab === 'spontaneous-speech') {
+      setSelectedTabIndex(1)
+    } else if (tab === 'scripted-speech') {
+      setSelectedTabIndex(0)
     }
-  }, [selectedTabIndex])
+  }, [tab])
+
+  React.useEffect(() => {
+    if (hash && id) {
+      setTimeout(() => {
+        scrollToElement(id)
+      }, 50)
+    }
+  }, [selectedTabIndex, hash, id, scrollToElement])
 
   return {
     selectedTabIndex,
