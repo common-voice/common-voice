@@ -23,7 +23,7 @@ import DeleteProfile from './delete/delete'
 import InfoPage from './info/info'
 import Settings from './settings/settings'
 import DownloadProfile from './download/download'
-import { ApiCredentials } from './api-credentials'
+// import { ApiCredentials } from './api-credentials'
 
 import './layout.css'
 
@@ -42,7 +42,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
     prefRoute,
     deleteRoute,
     downloadRoute,
-    apiCredentialsRoute,
+    // apiCredentialsRoute,
   ] = [
     URLS.PROFILE_INFO,
     URLS.PROFILE_AVATAR,
@@ -63,11 +63,11 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
                 : { icon: <UserPlusIcon />, id: 'build-profile' }),
             },
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
-            {
-              route: apiCredentialsRoute,
-              icon: <CodeIcon />,
-              id: 'api-credentials',
-            },
+            // {
+            //   route: apiCredentialsRoute,
+            //   icon: <CodeIcon />,
+            //   id: 'api-credentials',
+            // },
             { route: prefRoute, icon: <CogIcon />, id: 'settings' },
             {
               route: deleteRoute,
@@ -99,7 +99,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
             { route: downloadRoute, Component: DownloadProfile },
-            { route: apiCredentialsRoute, Component: ApiCredentials },
+            // { route: apiCredentialsRoute, Component: ApiCredentials },
           ].map(({ route, Component }) => (
             <SentryRoute
               key={route}
