@@ -9,6 +9,7 @@ ab = Abkhaz
 abb = Bankon 語
 ace = Acehnese
 ady = Adyghe (West Circassian)
+szy = Sakizaya
 
 # [/]
 
