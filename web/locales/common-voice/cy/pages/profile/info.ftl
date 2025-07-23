@@ -59,6 +59,8 @@ login = Mewngofnodi
 edit = Golygu
 email-subscriptions = Tanysgrifiadau E-bost
 download-profile = Llwytho fy nata i lawr
+api-credentials = API
+api-credentials-header = Manylion
 contribution-experience = Profiad Cyfrannu
 skip-submission-feedback = Hepgor Adborth Cyfrannu
 skip-submission-description = Wrth gyflwyno cyfraniadau bydd adborth y cael ei hepgor ar ôl clicio 'Cyflwyno'. Bydd cyfrannu'n parhau gyda'r set nesaf o 5 recordio neu ddilysu.
@@ -77,3 +79,17 @@ variant-contribution-option-1 = Dim ond dangos brawddegau a chlipiau o fy amrywi
 variant-contribution-option-2 = Dangos i mi frawddegau a chlipiau o bob amrywiad o fewn fy iaith
 variant-contribution-warning-title = ⓘ Nid oes gan bob brawddeg a chlip dagiau Amrywiad eto!
 variant-contribution-warning-subtitle = Os ydych chi'n cael trafferth cyfrannu, gallwch newid yn ôl i weld yr holl gynnwys eich iaith ar unrhyw adeg.
+api-credentials-description = Cael mynediad i set ddata byd-eang o recordiadau llais a gyfrannwyd gan ddefnyddwyr gyda'r API Common Voice. Gwellwch eich rhaglenni gydag adnabod lleferydd o ansawdd uchel trwy bwyntiau terfyn ar gyfer:
+api-credentials-use-case-1 = Yn cyflwyno samplau sain
+api-credentials-use-case-2 = Yn adalw setiau data
+api-credentials-use-case-3 = Dadansoddi a gwella modelau lleferydd
+api-credentials-description-conclusion = Ymunwch â ni i ddatblygu technoleg llais a grymuso mwy o gyfraniadau gan ddefnyddwyr.
+create-api-key-button = Creu Manylion API
+your-api-keys = Eich Manylion API
+no-api-keys-header = <bold>Ar hyn o bryd, nid oes unrhyw fanylion API yn gysylltiedig â'ch cyfrif.</bold>
+no-api-keys-description =
+    I greu eich allwedd API gyntaf, cliciwch "Creu Manylion API," yna enwch
+    eich Manylion API a chynhyrchu Manylion API unigryw trwy glicio “Cynhyrchu Manylion.” Yna, copïwch yr allwedd cyfrin ar unwaith, gan mai dim ond unwaith
+    y bydd yn cael ei ddangos.
+api-key-name-input =
+    .label = Enw Manylion API
