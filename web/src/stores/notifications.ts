@@ -4,6 +4,7 @@ export namespace Notifications {
     id: number
     content: any
     icon?: React.ComponentType
+    showBoldText?: boolean
   } & (
     | {
         kind: 'pill'
@@ -40,10 +41,18 @@ export namespace Notifications {
     addPill: <T extends object>(
       content: any,
       type: NotificationType = 'success',
-      icon?: React.ComponentType<T>
+      icon?: React.ComponentType<T>,
+      showBoldText = false
     ) => ({
       type: ActionType.ADD,
-      notification: { id: ++id, kind: 'pill', content, type, icon },
+      notification: {
+        id: ++id,
+        kind: 'pill',
+        content,
+        type,
+        icon,
+        showBoldText,
+      },
     }),
 
     // TODO: separate banners from notifications

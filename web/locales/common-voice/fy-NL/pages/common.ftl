@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Untfang e-mailberjochten lykas oantinkens
 email-opt-in-privacy-v2 = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied</privacyLink>.
 indicates-required = * jout fereaske fjild oan
 not-available-abbreviation = NB
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopiearje
+# Text shown on a button that can be clicked to cancel an action
+cancel = Annulearje
+# Text shown on a button that can be clicked to delete an item
+delete = Fuortsmite
 
 ## Donate banner
 

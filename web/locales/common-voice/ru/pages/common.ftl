@@ -4,7 +4,7 @@
 
 ## Languages
 
-aa = Афар
+aa = Афарский
 aat = Арванитика
 ab = Абхазский
 abb = Банкон
@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Получать такие письма,
 email-opt-in-privacy-v2 = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Копировать
+# Text shown on a button that can be clicked to cancel an action
+cancel = Отмена
+# Text shown on a button that can be clicked to delete an item
+delete = Удалить
 
 ## Donate banner
 

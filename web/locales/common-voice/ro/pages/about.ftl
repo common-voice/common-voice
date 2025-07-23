@@ -138,7 +138,7 @@ about-playbook-how-validate-content-4 = Dacă o secvență este respinsă de dou
 
 about-playbook-how-access-dataset = Cum accesez și cum utilizez setul de date?
 about-playbook-how-access-dataset-content-1 = Pe pagina cu <datasetsPage>seturi de date (datasets)</datasetsPage>, alege versiunea și limba sau limbile dorite, iar apoi descarcă fișierele astfel filtrate. Fișierele au <metadataLink>metadate coresponzătoare</metadataLink>, cum ar fi informații demografice și date de validare. Va trebui să introduci o adresă de e-mail pentru a putea descărca setul de date.
-about-playbook-how-access-dataset-content-2 = Dacă ai nevoie de unelte pentru a dezvolta modele de recunoaștere vocală automată (ASR), poți lua legătura cu alți membri ai comunității prin <discourseLink>Discourse</discourseLink>.
+about-playbook-how-access-dataset-content-2 = Dacă ai nevoie de instrumente pentru dezvoltarea de modele de recunoaștere vocală automată (ASR), poți lua legătura cu alți membri ai comunității prin <discourseLink>Discourse</discourseLink>.
 
 ## How are decisions made
 

@@ -95,14 +95,12 @@ community-and-languages-menu-item-tooltip = Забонҳо, ҷомеаҳо ва 
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Меню барои дастрасӣ ба Шарикӣ, Матбуот ва Ҳикояҳо, Ҷомеа ва забонҳо
 about-us-menu-aria-label = Менюи имконоти «Дар бораи мо»
 about-us-menu-item-aria-label = Менюи имконоти «Дар бораи мо»
 partnerships-menu-item-aria-label = Дар бораи ҳамкорӣ бо «Common Voice» маълумот гиред
 press-and-stories-menu-item-aria-label = Ба матбуоти расмӣ ва мақолаҳои марбут ба лоиҳаи «Common Voice» дастрасӣ пайдо намоед
 community-and-languages-menu-item-aria-label = Дар бораи ҷамъияти мо ва забонҳое, ки аз ҷониби «Common Voice» дастгирӣ мешаванд, маълумоти пурра пайдо кунед
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -121,6 +119,7 @@ scripted-card-header = Нутқи намоишнома
 scripted-card-content = Ҷумлаҳоро бо забони худ бо овози баланд хонед ва ба маҷмуи гуногуни суханронии иштироки ҷамъиятӣ дар ҷаҳон саҳм гузоред.
 spontaneous-card-header = Лоиҳаи «Spontaneous Speech»
 language-text-card-header = Матни забон
+coming-soon = Ба наздикӣ дастрас мешавад
 add-text = Илова кардани матн
 answer = Ҷавоб додан
 

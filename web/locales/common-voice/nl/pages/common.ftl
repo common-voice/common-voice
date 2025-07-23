@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Ontvang e-mailberichten zoals herinnering
 email-opt-in-privacy-v2 = Door u in te schrijven voor het ontvangen van e-mailberichten, verklaart u dat u akkoord gaat met het verwerken van deze informatie door Mozilla in overeenstemming met Mozilla’s <privacyLink>Privacybeleid</privacyLink>.
 indicates-required = * Geeft verplicht veld aan
 not-available-abbreviation = NB
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopiëren
+# Text shown on a button that can be clicked to cancel an action
+cancel = Annuleren
+# Text shown on a button that can be clicked to delete an item
+delete = Verwijderen
 
 ## Donate banner
 
