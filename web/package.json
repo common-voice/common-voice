@@ -36,6 +36,7 @@
     "react-tooltip": "5.28.0",
     "redux": "4.1.2",
     "redux-thunk": "2.4.2",
+    "stylus": "github:stylus/stylus#0.54.4",
     "webpack": "5.94.0"
   },
   "devDependencies": {
