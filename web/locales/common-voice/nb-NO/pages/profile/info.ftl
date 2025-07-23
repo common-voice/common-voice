@@ -80,6 +80,7 @@ variant-contribution-option-2 = Vis bare setninger og klipp fra varianten min
 variant-contribution-warning-title = ⓘ Ikke alle setninger og klipp har varianttagger ennå!
 variant-contribution-warning-subtitle = Hvis du har problemer med å bidra, kan du når som helst bytte tilbake til å se alt innhold for språket ditt.
 api-credentials-description = Få tilgang til et globalt datasett med brukerbidrag fra stemmeopptak med Common Voice API. Forbedre applikasjonene dine med talegjenkjenning av høy kvalitet gjennom endepunkter for:
+api-credentials-use-case-1 = Sender inn lydklipp
 api-credentials-use-case-2 = Henter datasett
 api-credentials-use-case-3 = Analysere og forbedre talemodeller
 api-key-modal-confirmation-header = Er du sikker?
