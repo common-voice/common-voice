@@ -1,19 +1,20 @@
 # GUIDELINES PAGE
 guidelines-header = 貢獻指引
-guidelines-header-subtitle = 了解如何向 Common Voice 資料庫貢獻語音與協助驗證
+guidelines-header-subtitle = 了解如何幫贊 Common Voice 資料庫貢獻語音佮協助驗證
 voice-collection = 收集語音
 sentence-collection = 語句集合
+question-collection = 問題集
 
 ## Voice Collection nav ids
 
-varying-pronunciations = 不同發音
+varying-pronunciations = 無仝的發音
 misreadings = 誤讀
 offensive-content = 冒犯性內容
 background-noise = 背景噪音
 background-voices = 背景說話聲
 volume = 音量
 reader-effects = 聲音的表現
-just-unsure = 還是不確定嗎？
+just-unsure = 敢猶是無確定？
 example = 範例
 
 ## Voice collection sidebar content
@@ -21,9 +22,9 @@ example = 範例
 varying-pronunciations-explanation-1 = 我們歡迎不同的腔調！當你認為錄音者發音錯誤、或重音放錯地方時，請務必謹慎決定是否要拒絕一段錄音。世界上有很多不同的腔調，有些在你的地區可能不太習慣。對跟你不同腔調的貢獻者，也請保持客氣。
 varying-pronunciations-explanation-2 = 反過來說，如果你覺得錄音者根本沒看過這個字，不知道正確發音，只是在有邊讀邊、無邊讀中間時，請拒絕這個錄音。如果你無法確定，請按跳過。
 varying-pronunciations-example = 周潤發跟鳳飛飛
-varying-pronunciations-tip-1 = (有些人可能會把「周潤發」讀出「鄒論花」)
-varying-pronunciations-tip-2 = (有些人可能會把「鳳飛飛」發音「鬨揮揮」)
-offensive-content-explanation = 句子是透過社群管理程序來進行審查的，但這個程序並不完美。若您看到或聽到冒犯您，或讓您不滿意的句子（例如句子違反了我們的<participationGuidelines>社群參與準則</participationGuidelines>），請使用網站中的標記按鈕。您也可以寄信到 <emailFragment>commonvoice@mozilla.com</emailFragment> 來聯絡我們。
+varying-pronunciations-tip-1 = (有一寡人可能會共「周潤發」讀做「鄒論花」)
+varying-pronunciations-tip-2 = (有一寡人可能會共「鳳飛飛」發音做「鬨揮揮」)
+offensive-content-explanation = 句仔是透過社群管理程序來進行審查的，毋過這个程序並無完美。若是您看著抑是聽著的物件冒犯您，抑是予您無滿意的句仔（比喻講句仔違反咱的<participationGuidelines>社群參與準則</participationGuidelines>），請使用網站中的標記揤仔。您嘛會當寄批到 <emailFragment>commonvoice@mozilla.com</emailFragment> 來聯絡咱。
 misreadings-explanation-1 = 朗讀出所有文字十分重要。聆聽錄音片段時，請注意內容是否與文字內容完全一致，如有添字、漏字，則將其駁回。
 misreadings-explanation-2 = 常見錯誤包含有：
 misreadings-explanation-3 = 句首多了「啊」或句尾多了「吼」
@@ -106,6 +107,23 @@ domain-explanation = 「領域」指的是語句的主旨。目前可以選擇�
 
 ## Question collection ids
 
+adding-questions = 新增問題
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = 啥物是好的問題？
+what-makes-a-good-question-explanation = 對公共參與的資料集來講的好的問題應該是：
+what-makes-a-good-question-explanation-criteria-1 = 愛簡單會當理解佮會當回應
+what-makes-a-good-question-explanation-criteria-2 = 一般愛有相關性
+what-makes-a-good-question-explanation-criteria-3 = 無咧使用、抑是強迫推銷、有傷害人，抑是予人感覺冒犯的語言
+what-makes-a-good-question-tip = 你嘛有可能想欲考慮迒無仝背景佮領域。
+easy-to-understand = 簡單會當了解
+easy-to-understand-explanation = 選擇簡單的問題來予人較會當了解，毋管𪜶的文化背景抑是上下文。
+spelling-and-pronunciation = 拼字佮標點符號
+spelling-and-pronunciation-explanation = 使用正確的拼音佮文法。
+length = 長短
+length-explanation = 這个問題愛會當簡單一寡話就會當回答。
+dont-add-subheader = 莫加添
+culturally-specific-questions = 特定文化背景的問題
+culturally-specific-questions-explanation = 有特定文化背景，抑是對回答者有一寡假定的問題
+length-avoid-explanation = 一般人無法度佇15秒的時間（上長的片段長度）簡單回答的問題
