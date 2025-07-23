@@ -82,3 +82,6 @@ variant-contribution-warning-subtitle = Se riscontri difficoltà nel collaborare
 create-api-key-button = Crea credenziali API
 your-api-keys = Le tue credenziali API
 no-api-keys-header = <bold>Al momento non ci sono credenziali API associate al tuo account.</bold>
+generate-api-key-button = Genera credenziali
+save-api-key-info = <bold>Salva le tue chiavi in modo sicuro</bold>
+api-client-id-display-label = ID client API
