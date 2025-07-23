@@ -37,7 +37,8 @@
     "minimist": "^1.2.5",
     "webpack": "5.94.0",
     "loader-utils": "^2.0.3",
-    "@babel/traverse": "^7.23.3"
+    "@babel/traverse": "^7.23.3",
+    "stylus": "0.0.1-security"
   },
   "scripts": {
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
