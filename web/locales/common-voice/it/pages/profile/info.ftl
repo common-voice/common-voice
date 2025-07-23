@@ -85,3 +85,7 @@ no-api-keys-header = <bold>Al momento non ci sono credenziali API associate al t
 generate-api-key-button = Genera credenziali
 save-api-key-info = <bold>Salva le tue chiavi in modo sicuro</bold>
 api-client-id-display-label = ID client API
+cancel-api-key-confirmation-description = Annullare la generazione delle credenziali API?
+create-api-key-error-toast-message = Errore durante la creazione delle credenziali API
+delete-api-key-error-toast-message = Errore durante l’eliminazione delle credenziali API
+fetching-api-keys-error-toast-message = Errore durante il recupero delle credenziali API
