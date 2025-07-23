@@ -93,6 +93,7 @@ no-api-keys-description =
 generate-api-key-button = Genera credenziali
 save-api-key-info = <bold>Salva le tue chiavi in modo sicuro</bold>
 api-client-id-display-label = ID client API
+api-key-modal-confirmation-header = Procedere con la generazione?
 cancel-api-key-confirmation-description = Annullare la generazione delle credenziali API?
 create-api-key-error-toast-message = Errore durante la creazione delle credenziali API
 delete-api-key-error-toast-message = Errore durante l’eliminazione delle credenziali API
