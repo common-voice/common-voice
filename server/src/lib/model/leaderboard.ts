@@ -190,8 +190,8 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
   return rows
 }
 
-const CACHE_TIME_MS = 20 * TimeUnits.MINUTE
-const LOCK_TIME_MS = 3 * TimeUnits.MINUTE // TODO: This should be conservative, might need fine tuning
+const CACHE_TIME_MS = 1 * TimeUnits.HOUR
+const LOCK_TIME_MS = 10 * TimeUnits.MINUTE
 
 export const getFullClipLeaderboard = lazyCache(
   'clip-leaderboard',
@@ -326,21 +326,21 @@ export default async function getLeaderboard({
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
           : getTopListenersLeaderboard)({
-          client_id,
-          challenge,
-          locale,
-          team_only: false,
-        })
+            client_id,
+            challenge,
+            locale,
+            team_only: false,
+          })
         break
       case 'members':
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
           : getTopListenersLeaderboard)({
-          client_id,
-          challenge,
-          locale,
-          team_only: true,
-        })
+            client_id,
+            challenge,
+            locale,
+            team_only: true,
+          })
         break
       case 'teams':
         leaderboard = await getTopTeamsLeaderboard(challenge)
