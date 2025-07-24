@@ -4,11 +4,7 @@
 
 ## Languages
 
-dru = Drekay
+bax = Shüpamom
 
 # [/]
 
-
-## Layout
-
-terms = hulrice

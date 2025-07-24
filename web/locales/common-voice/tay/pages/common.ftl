@@ -4,11 +4,7 @@
 
 ## Languages
 
-dru = Drekay
+tay = Atayal
 
 # [/]
 
-
-## Layout
-
-terms = hulrice

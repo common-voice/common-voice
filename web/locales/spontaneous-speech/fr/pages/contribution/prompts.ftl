@@ -4,6 +4,8 @@ record-player-header = Enregistrez votre réponse
 mic-access-error = Vous devez autoriser l’accès au microphone.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> et répondez de la manière la plus naturelle possible
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Il n’y a plus de questions pour cette langue. Si vous en avez passé, vous pouvez revenir dessus ou faire des transcriptions et réessayer plus tard.
 error-skipping = Une erreur est survenue en passant cette question
 error-recording = Une erreur est survenue lors de l’enregistrement
 error-fetching-prompts = Une erreur est survenue lors de la récupération des questions, veuillez réessayer plus tard

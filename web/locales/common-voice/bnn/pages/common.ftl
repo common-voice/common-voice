@@ -2,6 +2,13 @@
 # [Languages]
 
 
+## Languages
+
+bnn = Bunun
+
+# [/]
+
+
 ## Layout
 
 terms = sinqaqasam

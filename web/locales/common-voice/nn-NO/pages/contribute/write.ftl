@@ -24,6 +24,7 @@ new-sentence-rule-8 = Ideelt naturleg og samtalevennleg (det bør vere lett å l
 login-instruction-multiple-sentences = <loginLink>Logg in</loginLink> eller <loginLink>registrer dig</loginLink> for å leggje til fleire setningar
 how-to-cite = Korleis siterer eg?
 how-to-cite-explanation-bold = Sitér med ei URL-kopling eller heile namnet på verket.
+how-to-cite-explanation = Dersom det er dine eigne ord, berre sei <italicizedText>“Sjølvsitering”</italicizedText>. Vi treng å vite kvar du fann dette innhaldet, slik at vi kan sjekke at det er i det offentlege domenet og ingen opphavsrettsavgrensingar gjeld. For meir informasjon om sitering, sjå <guidelinesLink>Retningslinjene</guidelinesLink> våre.
 guidelines = Retningslinjer
 contact-us = Kontakt oss
 add-sentence-success = 1 setning innsamla
@@ -81,11 +82,13 @@ accepted-files = Godkjende filtypar: berre .tsv
 minimum-sentences = Minimum antal setningar i fila: 1000
 maximum-file-size = Maksimal filstorleik: 25 MB
 what-needs-to-be-in-file = Kva må vere i fila mi?
+what-needs-to-be-in-file-explanation = Ver vennleg og sjekk <templateFileLink>malfila<templateFileLink>vår</templateFileLink>. Setningane dine bør vere opphavsrettsfrie (CC0 eller tillate originalverk av innsendaren) og vere klare, grammatisk korrekte og lette å lese. Innsende setningar bør ta omlag 10–15 sekund å lese og bør unngå å inkludere tal, særnamn og spesialteikn.
 upload-progress-text = Opplasting i framdrift...
 sc-bulk-submit-confirm = Eg stadfestar at desse setningane er <wikipediaLink>offentleg domene</wikipediaLink> og at eg har løyve til å laste dei opp.
 bulk-upload-success-toast = Fleire setningar lasta opp
 bulk-upload-failed-toast = Mislykka opplasting. Prøv på nytt.
 bulk-submission-success-header = Takk for at du bidrog med masseinnsendinga!
+bulk-submission-success-subheader = Du hjelper Common Voice med å nå dei daglege setningsmåla våre!
 upload-more-btn-text = Laste opp fleire setningar?
 file-invalid-type = Ugyldig fil
 file-too-large = Fila er for stor
@@ -103,6 +106,18 @@ rate-limit-toast-message-minutes =
     { $retryLimit ->
         [one] Grensa overskriden. Prøv på nytt om 1 minutt
        *[other] Grensa overskriden. Prøv på nytt om { $retryLimit } minutt
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Grense for førespurnadar overskriden. Prøv igjen om 1 sekund
+       *[other] Grense for førespurnadar overskriden. Prøv igjen om { $retryLimit } sekund
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Du har nådd innsendingsgrensa for denne sida. Vent i 1 minutt før du sender inn ei ny setning. Takk for tolmodet!
+       *[other] Du har nådd innsendingsgrensa for denne sida. Vent i { $retryLimit } minutt før du sender inn ei ny setning. Takk for tolmodet!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
