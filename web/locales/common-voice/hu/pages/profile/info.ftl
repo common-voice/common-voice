@@ -85,6 +85,7 @@ api-credentials-use-case-2 = Adatkészletek lekérése
 api-credentials-use-case-3 =
     Beszédmodellek elemzése és tökéletesítése
     Ez az együttműködési platform nem csak a pontosabb hangfelismerő rendszerek készítését segíti elő, hanem lehetővé teszi a felhasználóknak, hogy hozzájáruljanak a hangtechnológia fejlődéséhez.
+api-credentials-description-conclusion = Csatlakozzon hozzánk a hangtechnológia fejlesztésében, és tegyen lehetővé még több felhasználói közreműködést.
 create-api-key-button = API hitelesítési adatok létrehozása
 your-api-keys = Saját API hitelesítési adatok
 no-api-keys-header = <bold>Jelenleg nincsenek API hitelesítő adatok társítva a fiókjához.</bold>
