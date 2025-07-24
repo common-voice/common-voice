@@ -91,10 +91,14 @@ no-api-keys-description =
     Per creare la tua prima chiave API, fai clic su “Crea credenziali API”, assegna loro un nome
     e poi genera credenziali API univoche facendo clic su “Genera credenziali”. Copia la chiave segreta immediatamente, poiché sarà visualizzata
     una sola volta.
+api-key-name-input =
+    .label = Nome credenziali API
+create-api-key-header = <bold>Avviso importante: generazione delle credenziali API</bold>
 create-api-key-description = Facendo clic su “Genera credenziali” verranno create delle credenziali univoche per il tuo account. Per motivi di sicurezza, la chiave segreta viene visualizzata <bold>una sola volta</bold>. Copiala e conservala in modo sicuro. In caso di smarrimento della chiave, non sarà possibile recuperarla e sarà quindi necessario generarne una nuova.
 generate-api-key-button = Genera credenziali
 save-api-key-info = <bold>Salva le tue chiavi in modo sicuro</bold>
 save-api-key-info-description = Conserva le tue chiavi in modo sicuro ed evita di esporle in repository pubblici. La chiave segreta è accessibile solo in questo momento e non verrà più mostrata.
+api-key-name-display-label = Nome credenziali API
 api-client-secret-display-label = Chiave segreta del client API
 api-client-id-display-label = ID del client API
 api-key-modal-confirmation-header = Procedere con la generazione?
