@@ -99,6 +99,7 @@ create-api-key-header = <bold>Fontos megjegyzés: API hitelesítési adatok elő
 create-api-key-description = A „Hitelesítési adatok előállítása” gombra kattintva egyedi hitelesítő adatokat hoz létre a fiókjához. Biztonsági okokból a titkos kulcs <bold>csak egyszer</bold> jelenik meg. Másolja le és tárolja biztonságosan. Ha elveszett, akkor újat kell előállítania, mivel az nem kérhető le.
 generate-api-key-button = Hitelesítési adatok előállítása
 save-api-key-info = <bold>Mentse biztonságosan a kulcsait:</bold> Tárolja biztonságosan a kulcsait, és kerülje el, hogy nyilvános tárolókba kerüljenek. A TITKOS kulcs csak most érhető el, és nem fog újra megjelenni.
+save-api-key-info-description = Tárolja biztonságosan a kulcsait, és kerülje el, hogy azok nyilvános forráskódtárolókba kerüljenek. A TITKOS kulcs csak most érhető el, és nem fog újra megjelenni.
 api-key-name-display-label = API hitelesítési adat neve
 api-client-secret-display-label = API klienstitka
 api-client-id-display-label = API kliensazonosítója
