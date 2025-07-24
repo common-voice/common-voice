@@ -101,9 +101,6 @@ partnerships-menu-item-aria-label = Common Voice بىلەن ھەمكارلىشى
 press-and-stories-menu-item-aria-label = Common Voice ھەققىدىكى خەۋەر ۋە ماقالىگە ئېرىشىش
 community-and-languages-menu-item-aria-label = Common Voice قوللىغان تىل ۋە جامائىتى ھەققىدە ئىزدىنىش
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = تىلىڭىزنى سۆزلەيدىغان تېخنىكا
@@ -123,6 +120,7 @@ spontaneous-card-header = تەبىئىي نۇتۇق
 spontaneous-card-content = ئالدىن تەييارلانغان سوئاللارغا جاۋاب بېرىپ، تەبىئىي ئېغىزاكى تېكىست سانلىق مەلۇماتىنى قۇرىدۇ. ئېغىز تىلىنى ئاساس قىلىدىغان تىلغا ماس كېلىدۇ.
 language-text-card-header = تىل تېكىستى
 language-text-card-content = تەرجىمە، كىچىك تىل مودېلى قاتارلىق تۈرلەرگە ئاممىۋى دائىرىدىكى سۆز بېشى، جۈملە ۋە تېكىست قۇرۇپ ياكى ھەمبەھىرلەيدۇ.
+coming-soon = پات يېقىندا قوشۇلىدۇ
 add-text = تېكىست قوش
 answer = جاۋاب
 
@@ -167,7 +165,7 @@ explore-datasets = سانلىق مەلۇمات توپلىمى <icon></icon> با
 
 get-involved-section-title = جامائەت باشلامچىلىقىدىكى ئوچۇق سانلىق مەلۇمات توپلىمىنى قوللاڭ
 read-sentences-link = جۈملە ئوقۇڭ
-validate-readings-link = ئوقۇشنى دەلىللە
+validate-readings-link = ئوقۇشنى دەلىللەڭ
 contribute-link = تېكىست توپلىمىغا تۆھبە قوشۇڭ
 answer-questions-link = سوئالغا جاۋاب
 transcribe-answers-link = جاۋابنى خەتكە پۈتۈڭ
