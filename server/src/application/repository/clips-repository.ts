@@ -6,7 +6,7 @@ import { DBClip } from '../../lib/model/db/tables/clip-table'
 import { pipe } from 'fp-ts/lib/function'
 import { lazyQueryDb, queryDb } from '../../infrastructure/db/mysql'
 import { createDatabaseError } from '../helper/error-helper'
-import { TimeUnits } from 'common/types'
+import { TimeUnits } from 'common'
 
 const VARIANT_CLIPS_LIMIT = 10000
 
