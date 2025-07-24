@@ -112,8 +112,5 @@
   "browserslist": [
     "Firefox ESR",
     "last 2 versions and not ie > 0 and > 1%"
-  ],
-  "resolutions": {
-    "stylus": "0.0.1-security"
-  }
+  ]
 }
