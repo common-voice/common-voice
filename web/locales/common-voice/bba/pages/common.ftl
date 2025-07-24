@@ -4,11 +4,7 @@
 
 ## Languages
 
-dru = Drekay
+bba = Baatɔnum
 
 # [/]
 
-
-## Layout
-
-terms = hulrice

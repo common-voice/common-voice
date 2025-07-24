@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Ricevi email come promemoria di sfide e o
 email-opt-in-privacy-v2 = Scegliendo di ricevere le email, accetti che Mozilla utilizzi queste informazioni secondo quanto riportato nell’<privacyLink>informativa sulla privacy</privacyLink>.
 indicates-required = * indica un campo obbligatorio
 not-available-abbreviation = N.D.
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Copia
+# Text shown on a button that can be clicked to cancel an action
+cancel = Annulla
+# Text shown on a button that can be clicked to delete an item
+delete = Elimina
 
 ## Donate banner
 

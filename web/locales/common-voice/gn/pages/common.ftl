@@ -297,6 +297,7 @@ qwa = Quechua Corongo Ancash
 qws = Quechua Sihuas Ancash
 qxa = Quechua Chiquián
 qxp = Puno Quechua
+qxq = Qashqai
 qxt = Quechua Pasco Santa Ana de Tusi
 qxu = Quechua Arequipa-La Unión
 qxw = Quechua Jauja Wanka
@@ -386,6 +387,7 @@ wbl = Wakhi
 wep = Westfalia-gua
 wes = Cameroon Pidgin
 wo = Wolof
+xdq = Kaitag
 xh = Xhosa
 xhe = Ketrani
 xka = Kalkoti
@@ -437,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu 
 email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesakãva <privacyLink>ko’ápe</privacyLink>.
 indicates-required = Emyanyhẽva’erã katuete (*) tenda’i hairenda.
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Monguatia
+# Text shown on a button that can be clicked to cancel an action
+cancel = Heja
+# Text shown on a button that can be clicked to delete an item
+delete = Mboguete
 
 ## Donate banner
 

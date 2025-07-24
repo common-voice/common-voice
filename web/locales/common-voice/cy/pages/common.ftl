@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Derbyn e-byst sy'n cynnwys atgoffwr her a
 email-opt-in-privacy-v2 = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
 indicates-required = Mae * yn dynodi maes angenrheidiol
 not-available-abbreviation = Dim Ar Gael
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Copïo
+# Text shown on a button that can be clicked to cancel an action
+cancel = Diddymu
+# Text shown on a button that can be clicked to delete an item
+delete = Dileu
 
 ## Donate banner
 

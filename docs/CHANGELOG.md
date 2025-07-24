@@ -12,7 +12,7 @@
 - Workaround: Some users were having a caching related issue after the parameter passing change in [#4945](https://github.com/common-voice/common-voice/pull/4945). Implemented a workaround to handle both cases for a while by [@moz-bozden](https://github.com/moz-bozden) in [#4975](https://github.com/common-voice/common-voice/pull/4975)
 - Fix: Long (3h) lock duration in LazyCache implementation was preventing more frequent updates in Redis caching. This fix adds lock-duration as a parameter, per query, with a default of 3 min if not specified. By [@moz-bozden](https://github.com/moz-bozden) in [#4949](https://github.com/common-voice/common-voice/pull/4949)
 - Fix: Non existing locale in migration should not throw error but silently warn, it causes local dev env fail if that language does not exist - update to [#4559](https://github.com/common-voice/common-voice/pull/4959) by [@moz-bozden](https://github.com/moz-bozden) in [#4974](https://github.com/common-voice/common-voice/pull/4974) thank you [@akrabat](https://github.com/akrabat) for reporting and testing.
-- (in v1.147.1) Fix: Parameter passing with fields containing underscore through request.headers were causing problems in some external environments (e.g. nginx) by [@moz-bozden](https://github.com/moz-bozden) in [#4945](https://github.com/common-voice/common-voice/pull/4945)
+- Fix (in v1.147.1): Parameter passing with fields containing underscore through request.headers were causing problems in some external environments (e.g. nginx) by [@moz-bozden](https://github.com/moz-bozden) in [#4945](https://github.com/common-voice/common-voice/pull/4945)
 - Docs: Update `.env-local-docker.example` and `DEVELOPMENT.md` to include more comments for developers, especially on the use of authentication - with error checking, by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#4980](https://github.com/common-voice/common-voice/pull/4980)
 - Chore: Updates to Pontoon keys
 
@@ -20,9 +20,16 @@
 
 - (in v1.147.1) Lowered sentence requirement bands of 43 locales (mostly new ones defaulting to 5000) by [@moz-bozden](https://github.com/moz-bozden) in [#4569](https://github.com/common-voice/common-voice/pull/4969) thank you [@ftyers](https://github.com/ftyers) for his review, and community members flagging the issue.
 
-### Next release v1.14x.x (TBA)
+### Next release v1.149.0 (TBA)
 
-#### Data Changes in the next release
+- Feat (in v1.148.1): Update profile page to add API Credentials (temporarily disabled) by [@moz-rotimib](https://github.com/moz-rotimib) in [#4961](https://github.com/common-voice/common-voice/pull/4961)
+- Minor fix (in v1.148.2): Adjust cache duration of variant-only clips, which was causing lock-release issues in RedLock by [@moz-bozden](https://github.com/moz-bozden) in [#4995](https://github.com/common-voice/common-voice/pull/4995)
+- Minor fix (in v1.148.2): Adjust cache and lock duration of LeaderBoard statistics, which was causing lock-release issues in RedLock by [@moz-bozden](https://github.com/moz-bozden) in [#4994](https://github.com/common-voice/common-voice/pull/4994)
+- Chore (in v1.148.2): Delete unused/remnant files from the repository by [@moz-bozden](https://github.com/moz-bozden) in [#4996](https://github.com/common-voice/common-voice/pull/4996)
+
+#### Data Changes in v1.149.0 (TBA)
+
+- N/A
 
 ## Past releases
 
