@@ -15,7 +15,7 @@ no-clips-to-validate = Se pare că nu există secvențe vocale în această limb
 toggle-play-tooltip = Apasă { shortcut-play-toggle } pentru a comuta modul de redare (Play)
 speak-paragraph = Înregistrarea secvențelor vocale este un element principal în construirea setului nostru de date deschise; unii ar spune chiar că este partea cea mai distractivă.
 speak-goal-text = Secvențe vocale înregistrate
-listen-paragraph = Validarea secvențelor vocale donate este la fel de importantă pentru misiunea Common Voice. Ascultă și ajută-ne să creăm date vocale de calitate și cu sursă deschisă.
+listen-paragraph = Validarea secvențelor vocale donate este și ea foarte importantă pentru misiunea Common Voice. Ascultă câte secvențe poți și ajută-ne să creăm date vocale de calitate cu sursă deschisă.
 listen-goal-text = Secvențe vocale validate
 hours-recorded = Ore înregistrate
 hours-validated = Ore validate
@@ -44,14 +44,14 @@ x-years-short =
         [few] { $count } ani
        *[other] { $count } de ani
     }
-help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, liber la dispoziția publicului
-sign-up-account = Înscrie-te pentru un cont
-email-subscription-title = Abonează-te la informări prin e-mail
-email-subscription-title-new = Abonează-te la buletinele informative Common Voice, mementouri de obiective și actualizări despre progres
+help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, disponibil tuturor.
+sign-up-account = Înscrie-te pentru un cont.
+email-subscription-title = Primește noutăți despre proiect prin e-mail
+email-subscription-title-new = Abonează-te pentru a primi buletine informative Common Voice, mementouri de obiective și actualizări despre progres.
 
 ## Account Benefits
 
-benefits = Beneficii
+benefits = Avantaje
 rich-data = Asigură-te că datele transmise sunt cât mai bogate posibil, furnizând unele date demografice anonime. Identificăm toate datele demografice înainte de a le face publice.
 improve-audio = Informațiile profilului îmbunătățesc datele audio utilizate în acuratețea recunoașterii vocale.
 keep-track = Urmărește-ți progresul și metrica pe mai multe limbi.
