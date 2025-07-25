@@ -70,9 +70,9 @@ username-email-not-demographic = Numele tău de utilizator și adresa de e-mail 
 
 ## Landing
 
-welcome-staff = Bun venit angajaților { $company }!
+welcome-staff = Bun venit angajaților companiei { $company }!
 help-contribute = Poți ajuta la crearea unui set de date divers, cu sursă deschisă, făcându-ți un profil Common Voice și înregistrând mai multe secvențe vocale.
-login-company = Autentifică-te / Înscrie-te cu adresa de e-mail { $company }
+login-company = Autentifică-te / Înscrie-te cu adresa de e-mail a companiei { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util. Îți explicăm mai jos de ce.
 read-more-about = Află mai multe pe pagina Despre noi
 
@@ -109,6 +109,12 @@ community-and-languages-menu-item-aria-label = Descoperă comunitatea și limbil
 ## Hero section
 
 hero-title = Tehnologie care vorbește în limba ta
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>De ce să funcționeze inteligența artificială doar pentru câteva limbi?</bold>
+
+## Action items section
+
+scripted-card-content = Înregistrează-te citind propoziții în limba ta și contribuie astfel la cel mai divers set de date vocale creat de oameni din întreaga lume.
 
 ## Community section
 
@@ -118,4 +124,5 @@ ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spu
 ## Get involved section
 
 read-sentences-link = Citește propoziții
+validate-readings-link = Validează înregistrările altora
 review-transcriptions-link = Examinează transcrieri
