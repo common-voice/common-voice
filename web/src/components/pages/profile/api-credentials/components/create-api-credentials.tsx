@@ -1,8 +1,11 @@
 import React from 'react'
 
 import { Localized } from '@fluent/react'
-import { Button, LabeledInput } from '../../../../ui/ui'
+
+import { Button, LabeledCheckbox, LabeledInput } from '../../../../ui/ui'
 import { InfoIcon, PlusCircleIcon } from '../../../../ui/icons'
+import { LocaleLink } from '../../../../locale-helpers'
+import URLS from '../../../../../urls'
 
 type Props = {
   handleCreateApiKey: (desription: string) => void
@@ -11,6 +14,11 @@ type Props = {
 export const CreateApiCredentials = ({ handleCreateApiKey }: Props) => {
   const [apiKeyName, setApiKeyName] = React.useState('')
   const inputRef = React.useRef<HTMLInputElement>(null)
+
+  const [privacyAgreed, setIsPrivacyAgreed] = React.useState(false)
+  const [confirmNoIdentify, setConfirmNoIdentify] = React.useState(false)
+
+  const isGenerateButtonDisabled = !privacyAgreed || !confirmNoIdentify
 
   React.useEffect(() => {
     if (inputRef.current) {
@@ -44,16 +52,55 @@ export const CreateApiCredentials = ({ handleCreateApiKey }: Props) => {
             elems={{ bold: <strong /> }}>
             <p className="description" />
           </Localized>
-
-          <Button
-            className="generate-api-key-button"
-            onClick={() => handleCreateApiKey(apiKeyName)}>
-            <PlusCircleIcon />
-            <Localized id="generate-api-key-button">
-              <span />
-            </Localized>
-          </Button>
         </div>
+      </div>
+
+      <div className="generate-api-key-button-container">
+        <div className="checkboxes">
+          <LabeledCheckbox
+            label={
+              <Localized
+                id="accept-privacy-and-terms"
+                elems={{
+                  termsLink: <LocaleLink to={URLS.TERMS} blank />,
+                  privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                }}>
+                <span />
+              </Localized>
+            }
+            required
+            onChange={() => {
+              setIsPrivacyAgreed(!privacyAgreed)
+            }}
+            checked={privacyAgreed}
+            data-testid="checkbox"
+            className="accept-privacy-and-terms"
+          />
+
+          <LabeledCheckbox
+            label={
+              <Localized id="create-api-key-agreement">
+                <span />
+              </Localized>
+            }
+            required
+            onChange={() => {
+              setConfirmNoIdentify(!confirmNoIdentify)
+            }}
+            checked={confirmNoIdentify}
+            data-testid="checkbox"
+          />
+        </div>
+
+        <Button
+          className="generate-api-key-button"
+          onClick={() => handleCreateApiKey(apiKeyName)}
+          disabled={isGenerateButtonDisabled}>
+          <PlusCircleIcon />
+          <Localized id="generate-api-key-button">
+            <span />
+          </Localized>
+        </Button>
       </div>
     </div>
   )
