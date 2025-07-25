@@ -79,11 +79,7 @@ export const CreateApiCredentials = ({ handleCreateApiKey }: Props) => {
 
           <LabeledCheckbox
             label={
-              <Localized
-                id="confirm-no-identify"
-                elems={{
-                  b: <strong />,
-                }}>
+              <Localized id="create-api-key-agreement">
                 <span />
               </Localized>
             }
