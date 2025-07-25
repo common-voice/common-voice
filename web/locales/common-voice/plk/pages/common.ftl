@@ -439,6 +439,10 @@ email-opt-in-info-sub-with-challenge = کامن وائس اےْ بارد ای م
 email-opt-in-privacy-v2 = ای میلز وصول تھونے انتخاب تھون دہ څھوْس آ رزنَت چہ څھوْس موزیلا اےْ آ معلومات سمٹون کھوْشنَت کاتھ چہ موزیلا دہ بیان تِھجِلِن<privacyLink> رازداری پالیسی<privacyLink>
 indicates-required = تاروْ گیْ (*) نکھوْ تِھیلیْ فیلڈ پکارِن
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = کاپی
+# Text shown on a button that can be clicked to delete an item
+delete = ڈیلیٹ
 
 ## Donate banner
 
