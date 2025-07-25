@@ -111,10 +111,17 @@ community-and-languages-menu-item-aria-label = Descoperă comunitatea și limbil
 hero-title = Tehnologie care vorbește în limba ta
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>De ce să funcționeze inteligența artificială doar pentru câteva limbi?</bold>
+hero-subtitle-2 = Limba fiecăruia dintre noi reprezintă povestea, comunitatea, cultura noastră. Hai să creăm seturi de date care ne reprezintă!
+# icon is an arrow that points downwards
+get-started = Începe <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Proiectul Common Voice este o platformă gratuită cu sursă deschisă. Ea permite comunității să creeze seturi de date.
+action-items-section-subtitle = Oricine își poate păstra, revitaliza și îmbunătăți limba prin partajarea, crearea și verificarea seturilor de date scrise și vocale.
+scripted-card-header = Discurs scris
 scripted-card-content = Înregistrează-te citind propoziții în limba ta și contribuie astfel la cel mai divers set de date vocale creat de oameni din întreaga lume.
+spontaneous-card-header = Discurs spontan
 
 ## Community section
 
