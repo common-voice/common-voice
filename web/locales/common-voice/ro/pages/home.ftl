@@ -74,26 +74,36 @@ welcome-staff = Bun venit angajaților { $company }!
 help-contribute = Poți ajuta la crearea unui set de date divers, cu sursă deschisă, făcându-ți un profil Common Voice și înregistrând mai multe secvențe vocale.
 login-company = Autentifică-te / Înscrie-te cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util. Îți explicăm mai jos de ce.
-read-more-about = Află mai multe pe pagina Despre
+read-more-about = Află mai multe pe pagina Despre noi
 
 ## NAV ITEMS
 
 answer-questions = Răspunde la întrebări
-review-transcriptions = Examinează transcrierile
+review-transcriptions = Evaluează transcrierile
 add-questions = Adaugă întrebări
 review-questions = Verifică întrebări
 transcribe-audio = Transcrie înregistrări audio
-press-and-stories = Presă și Relatări
-community-and-languages = Comunitate și Limbi
+press-and-stories = Presă și relatări
+community-and-languages = Comunitate și limbi
 about-us = Despre noi
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = Parteneriate, Presă și Relatări, Comunitate și Limbi
+about-menu-tooltip = Parteneriate, presă și relatări, comunitate și limbi
+about-us-menu-item-tooltip = Află mai multe despre misiunea și echipa din spatele proiectului Common Voice.
+partnerships-menu-item-tooltip = Iată ce organizații susțin proiectul Common Voice în întreaga lume
+press-and-stories-menu-item-tooltip = Citește articolele apărute online sau în mass-media despre proiectul Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = Meniul de opțiuni Despre noi
 about-us-menu-item-aria-label = Meniul de opțiuni Despre noi
+partnerships-menu-item-aria-label = Află mai multe despre parteneriatele cu proiectul Common Voice.
+
+## Community section
+
+join-discord-community-content = Participă la discuții în comunitatea ta lingvistică, pune întrebări și află despre evenimentele și discuțiile viitoare.
+ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spune-ne și nouă pentru a-i anunța pe toți din comunitatea noastră. Putem scrie și o postare pe un blog despre evenimentul tău!
 
 ## Get involved section
 
