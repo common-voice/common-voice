@@ -85,6 +85,7 @@ review-questions = Verifică întrebări
 transcribe-audio = Transcrie înregistrări audio
 press-and-stories = Presă și relatări
 community-and-languages = Comunitate și limbi
+coming-soon = În curând
 about-us = Despre noi
 scripted-speech = Discurs scris
 spontaneous-speech = Discurs spontan
@@ -122,6 +123,11 @@ action-items-section-subtitle = Oricine își poate păstra, revitaliza și îmb
 scripted-card-header = Discurs scris
 scripted-card-content = Înregistrează-te citind propoziții în limba ta și contribuie astfel la cel mai divers set de date vocale creat de oameni din întreaga lume.
 spontaneous-card-header = Discurs spontan
+spontaneous-card-content = Vorbește liber pe diverse teme pentru a crea seturi de date ce reprezintă contexte naturale și informale. Limbile care sunt în principal vorbite și nu scrise au în special de câștigat prin asta.
+language-text-card-header = Text
+language-text-card-content = Crează sau distribuie teme de discuție, propoziții și texte din domeniul public ce pot fi folosite pentru traducere, antrenarea modelelor lingvistice de mici dimensiuni, sau în alte scopuri.
+coming-soon = În curând
+add-text = Adaugă text
 
 ## Community section
 
@@ -132,4 +138,12 @@ ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spu
 
 read-sentences-link = Citește propoziții
 validate-readings-link = Validează înregistrările altora
-review-transcriptions-link = Examinează transcrieri
+answer-questions-link = Răspunde la întrebări
+transcribe-answers-link = Transcrie răspunsuri
+review-transcriptions-link = Evaluează transcrierile
+contribute-text-link = Contribuie un text
+press-and-stories-link = Presă și relatări
+
+## Partner section
+
+partner-section-title = Devino partenerul nostru!
