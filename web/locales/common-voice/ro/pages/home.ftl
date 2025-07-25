@@ -52,12 +52,12 @@ email-subscription-title-new = Abonează-te pentru a primi buletine informative 
 ## Account Benefits
 
 benefits = Avantaje
-rich-data = Asigură-te că datele transmise sunt cât mai bogate posibil, furnizând unele date demografice anonime. Identificăm toate datele demografice înainte de a le face publice.
-improve-audio = Informațiile profilului îmbunătățesc datele audio utilizate în acuratețea recunoașterii vocale.
-keep-track = Urmărește-ți progresul și metrica pe mai multe limbi.
-compare-progress = Vezi progresul tău comparat cu cel al altor colaboratori din toată lumea.
-view-goals = Vezi progresul realizat în comparație cu obiectivele personale și de proiect.
-join-newsletter = Înscrie-te opțional în lista noastră de corespondență pentru actualizări și informații noi despre proiect.
+rich-data = Adaugă și câteva date demografice anonime pentru a îmbogăți setul de date. Oricum, înainte de a publica setul de date, ne vom asigura că toate datele demografice sunt anonimizate.
+improve-audio = Informațiile corespunzătoare profilului tău îmbunătățesc datele audio utilizate, ceea ce va duce la creșterea acurateții aplicațiilor de recunoaștere vocale.
+keep-track = Vezi cât, când și unde ai contribuit pentru una sau mai multe limbi.
+compare-progress = Vezi cât ai contribuit comparativ cu alți colaboratori din toată lumea.
+view-goals = Vezi cât ai contribuit din ce ți-ai propus sau din cât are nevoie proiectul.
+join-newsletter = Dacă dorești, te poți înscrie și pe lista noastră de corespondență pentru a primi noutăți despre proiect.
 
 ## What's public
 
