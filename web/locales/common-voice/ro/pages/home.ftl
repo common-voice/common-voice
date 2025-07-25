@@ -86,6 +86,8 @@ transcribe-audio = Transcrie înregistrări audio
 press-and-stories = Presă și relatări
 community-and-languages = Comunitate și limbi
 about-us = Despre noi
+scripted-speech = Discurs scris
+spontaneous-speech = Discurs spontan
 
 ## MENU ITEMS TOOLTIPS
 
@@ -93,12 +95,20 @@ about-menu-tooltip = Parteneriate, presă și relatări, comunitate și limbi
 about-us-menu-item-tooltip = Află mai multe despre misiunea și echipa din spatele proiectului Common Voice.
 partnerships-menu-item-tooltip = Iată ce organizații susțin proiectul Common Voice în întreaga lume
 press-and-stories-menu-item-tooltip = Citește articolele apărute online sau în mass-media despre proiectul Common Voice
+community-and-languages-menu-item-tooltip = Intră în comunitatea noastră și vezi cu ce limbi lucrăm deja
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Meniu pentru a accesa secțiunea de Parteneriate, presă și relatări, comunitate și limbi
 about-us-menu-aria-label = Meniul de opțiuni Despre noi
 about-us-menu-item-aria-label = Meniul de opțiuni Despre noi
 partnerships-menu-item-aria-label = Află mai multe despre parteneriatele cu proiectul Common Voice.
+press-and-stories-menu-item-aria-label = Citește comunicate de presă și articole despre proiectul Common Voice
+community-and-languages-menu-item-aria-label = Descoperă comunitatea și limbile din proiectul Common Voice.
+
+## Hero section
+
+hero-title = Tehnologie care vorbește în limba ta
 
 ## Community section
 
@@ -107,4 +117,5 @@ ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spu
 
 ## Get involved section
 
+read-sentences-link = Citește propoziții
 review-transcriptions-link = Examinează transcrieri
