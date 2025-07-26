@@ -70,7 +70,7 @@ username-email-not-demographic = Numele tău de utilizator și adresa de e-mail 
 
 ## Landing
 
-welcome-staff = Bun venit angajaților companiei { $company }!
+welcome-staff = Bun venit echipei companiei { $company }!
 help-contribute = Poți ajuta la crearea unui set de date divers, cu sursă deschisă, făcându-ți un profil Common Voice și înregistrând mai multe secvențe vocale.
 login-company = Autentifică-te / Înscrie-te cu adresa de e-mail a companiei { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util. Îți explicăm mai jos de ce.
@@ -128,9 +128,14 @@ language-text-card-header = Text
 language-text-card-content = Crează sau distribuie teme de discuție, propoziții și texte din domeniul public ce pot fi folosite pentru traducere, antrenarea modelelor lingvistice de mici dimensiuni, sau în alte scopuri.
 coming-soon = În curând
 add-text = Adaugă text
+answer = Vorbește liber
 
 ## Community section
 
+community-section-title = Suntem susținuți de și lucrăm pentru comunități de pretutindeni — am ajuns deja la 130 de limbi și nu ne oprim aici!
+join-discord-community = Alătură-te comunității noastre de pe Discord
+# label for button
+join-discord-community-action = Hai pe Discord
 join-discord-community-content = Participă la discuții în comunitatea ta lingvistică, pune întrebări și află despre evenimentele și discuțiile viitoare.
 ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spune-ne și nouă pentru a-i anunța pe toți din comunitatea noastră. Putem scrie și o postare pe un blog despre evenimentul tău!
 
