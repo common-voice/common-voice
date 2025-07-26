@@ -147,3 +147,5 @@ press-and-stories-link = Presă și relatări
 ## Partner section
 
 partner-section-title = Devino partenerul nostru!
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Companii de tehnologie</bold>:  investiți în crearea de seturi de date deschise și susțineți astfel ecosistemul inteligenței artificiale multilingve
