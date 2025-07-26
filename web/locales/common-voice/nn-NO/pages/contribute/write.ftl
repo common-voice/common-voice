@@ -119,6 +119,12 @@ rate-limit-message-minutes =
         [one] Du har nådd innsendingsgrensa for denne sida. Vent i 1 minutt før du sender inn ei ny setning. Takk for tolmodet!
        *[other] Du har nådd innsendingsgrensa for denne sida. Vent i { $retryLimit } minutt før du sender inn ei ny setning. Takk for tolmodet!
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Du har nådd innsendingsgrensa for denne sida. Vent i 1 sekund før du sender inn ei ny setning. Takk for tolmodet!
+       *[other] Du har nådd innsendingsgrensa for denne sida. Vent i { $retryLimit } sekund før du sender inn ei ny setning. Takk for tolmodet!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
