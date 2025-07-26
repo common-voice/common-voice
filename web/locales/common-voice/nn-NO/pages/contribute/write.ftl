@@ -131,8 +131,15 @@ add-small-batch-success =
         [one] { $uploadedSentences } av 1 setning innsamla
        *[other] { $uploadedSentences } av { $totalSentences } setningar innsamla
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } av 1 setning samla. Klikk <downloadLink>her</downloadLink> for å laste ned avviste setningar.
+       *[other] { $uploadedSentences } av 1 setning samla. Klikk <downloadLink>her</downloadLink> for å laste ned avviste setningar.
+    }
 small-batch-sentences-rule-1 = Følg retningslinjene i «Kva for setningar kan eg leggje til?»
 small-batch-sentences-rule-2 = Legg til éi setning per linje
+small-batch-sentences-rule-3 = Skil setningar til éi linje ved å trykkje éin gong på «Enter» eller «Return»
 small-batch-sentences-rule-4 = Legg til opptil 1000 setningar
 small-batch-sentences-rule-5 = Alle setningar må ha same domene
 small-batch-sentences-rule-6 = Alle setningar må ha same sitat
@@ -145,11 +152,14 @@ write-contribute-menu-tooltip = Legg til og sjå gjennom setningar, legg til sp�
 add-sentences-menu-item-tooltip = Legg til setningar på ditt språk
 review-sentences-menu-item-tooltip = Vurder setningar på språket ditt
 add-questions-menu-item-tooltip = Legg til spørsmål på språket ditt
+review-questions-menu-item-tooltip = Vurderingsspørsmål
 transcribe-audio-menu-item-tooltip = Transkriber lydopptak på språket ditt
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Skrivealternativ
 add-sentences-menu-item-aria-label = Legg til nye setningar som fellesskapet kan lese
 review-sentences-menu-item-aria-label = Vurder eksisterande setningar sendt inn av felleskapet
 add-questions-menu-item-aria-label = Send inn nye spørsmål som fellesskapet kan lese og svare på
+review-questions-menu-item-aria-label = Sjå gjennom og stem på nye spørsmål sendt inn av fellesskapen
 transcribe-audio-menu-item-aria-label = Transkribere lydopptak til tekst
