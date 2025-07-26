@@ -1,20 +1,15 @@
 import * as React from 'react'
-import {
-  SENTENCE_NAV_IDS,
-  VOICE_NAV_IDS,
-  COLLECTING_QUESTIONS,
-} from './constants'
+
+import { VOICE_NAV_IDS } from './constants'
 
 const getDefaultTabOption = ({ tab }: { tab: string }) => {
-  if (tab === 'voice') {
-    return VOICE_NAV_IDS.PRONUNCIATIONS
-  } else if (tab === 'sentence') {
-    return SENTENCE_NAV_IDS.PUBLIC_DOMAIN
-  } else if (tab === 'question') {
-    return COLLECTING_QUESTIONS
+  if (tab === 'scripted-speech') {
+    return 'voice-collection'
+  } else if (tab === 'spontaneous-speech') {
+    return 'question-collection'
   }
 
-  return VOICE_NAV_IDS.PRONUNCIATIONS
+  return 'voice-collection'
 }
 
 const useScrollToGuidelinesSection = () => {
@@ -28,35 +23,55 @@ const useScrollToGuidelinesSection = () => {
   const [selectedTabIndex, setSelectedTabIndex] = React.useState(0)
   const [selectedTabOption, setSelectedTabOption] =
     React.useState(defaultTabOption)
+  const [selectedSection, setSelectedSection] = React.useState(
+    id || VOICE_NAV_IDS.PRONUNCIATIONS
+  )
+
+  const scrollToElement = React.useCallback(
+    (elementId: string, retries = 5) => {
+      const element = document.getElementById(elementId)
+
+      if (element) {
+        element.scrollIntoView({ block: 'start', behavior: 'smooth' })
+        return true
+      }
+
+      if (retries > 0) {
+        setTimeout(() => scrollToElement(elementId, retries - 1), 100)
+      } else {
+        console.warn(`Element with id "${elementId}" not found after retries`)
+      }
+
+      return false
+    },
+    []
+  )
 
   React.useEffect(() => {
     if (!tab) {
       setSelectedTabIndex(0)
-    }
-
-    if (tab && tab === 'sentence') {
+    } else if (tab === 'spontaneous-speech') {
       setSelectedTabIndex(1)
+    } else if (tab === 'scripted-speech') {
+      setSelectedTabIndex(0)
     }
+  }, [tab])
 
-    if (tab && tab === 'question') {
-      setSelectedTabIndex(2)
+  React.useEffect(() => {
+    if (hash && id) {
+      setTimeout(() => {
+        scrollToElement(id)
+      }, 50)
     }
-
-    if (hash) {
-      const element = document.getElementById(id)
-
-      if (element) {
-        setSelectedTabOption(id)
-        element.scrollIntoView({ block: 'start', behavior: 'smooth' })
-      }
-    }
-  }, [selectedTabIndex])
+  }, [selectedTabIndex, hash, id, scrollToElement])
 
   return {
     selectedTabIndex,
     setSelectedTabIndex,
     selectedTabOption,
     setSelectedTabOption,
+    selectedSection,
+    setSelectedSection,
   }
 }
 
