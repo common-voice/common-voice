@@ -88,6 +88,7 @@ create-api-key-button = Δημιουργία διαπιστευτηρίων API
 your-api-keys = Τα διαπιστευτήρια API σας
 api-key-name-input =
     .label = Όνομα διαπιστευτηρίων API
+create-api-key-header = <bold>Σημαντική σημείωση: δημιουργία διαπιστευτηρίων API</bold>
 generate-api-key-button = Δημιουργία διαπιστευτηρίων
 api-key-name-display-label = Όνομα διαπιστευτηρίων API
 cancel-api-key-confirmation-description = Θέλετε σίγουρα να ακυρώσετε τη δημιουργία διαπιστευτηρίων API;
