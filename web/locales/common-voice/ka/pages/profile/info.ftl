@@ -59,6 +59,7 @@ login = შესვლა
 edit = ჩასწორება
 email-subscriptions = გამოწერები ელფოსტით
 download-profile = პროფილის მონაცემების ჩამოტვირთვა
+api-credentials = API
 contribution-experience = წვლილის მოხერხებულად შესატანად
 skip-submission-feedback = ნამუშევრის შეფასების გამოტოვება
 skip-submission-description = წვლილის შეტანისას შესაბამის ღილაკზე დაჭერისას აღარ გამოჩნდება შეფასება. პირდაპირ განაგრძობთ მომდევნო 5 ჩანაწერის გაკეთებას ან შემოწმებას.

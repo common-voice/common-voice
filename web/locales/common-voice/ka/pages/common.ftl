@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = მიიღეთ ელფოსტა�
 email-opt-in-privacy-v2 = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არ ხართ წინააღმდეგი, Mozilla-მ ეს მონაცემები დაამუშაოს <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად.
 indicates-required = * აღნიშნავს აუცილებელ ველს
 not-available-abbreviation = მიუწვდომელია
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = ასლი
+# Text shown on a button that can be clicked to cancel an action
+cancel = გაუქმება
+# Text shown on a button that can be clicked to delete an item
+delete = წაშლა
 
 ## Donate banner
 
