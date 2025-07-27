@@ -60,7 +60,7 @@ edit = ჩასწორება
 email-subscriptions = გამოწერები ელფოსტით
 download-profile = პროფილის მონაცემების ჩამოტვირთვა
 api-credentials = API
-api-credentials-header = მოწმობები
+api-credentials-header = მოწმობა
 contribution-experience = წვლილის მოხერხებულად შესატანად
 skip-submission-feedback = ნამუშევრის შეფასების გამოტოვება
 skip-submission-description = წვლილის შეტანისას შესაბამის ღილაკზე დაჭერისას აღარ გამოჩნდება შეფასება. პირდაპირ განაგრძობთ მომდევნო 5 ჩანაწერის გაკეთებას ან შემოწმებას.
@@ -84,6 +84,18 @@ api-credentials-use-case-1 = ხმის ნიმუშების გად�
 api-credentials-use-case-2 = მონაცემთა კრებულების მიღება
 api-credentials-use-case-3 = მეტყველების მოდელების დამუშავება და დახვეწა
 api-credentials-description-conclusion = შემოგვიერთდით ხმოვანი ხელსაწყოების გასაუმჯობესებლად და წვლილის შემტან მოხალისეთა ზრდისთვის.
-create-api-key-button = API-მოწმობების შედგენა
-your-api-keys = თქვენი API-მოწმობები
-no-api-keys-header = <bold>ამჟამად თქვენს ანგარიშთან API-მოწმობები არაა დაკავშირებული.</bold>
+create-api-key-button = API-მოწმობის შედგენა
+your-api-keys = თქვენი API-მოწმობა
+no-api-keys-header = <bold>ამჟამად თქვენს ანგარიშთან API-მოწმობა არაა დაკავშირებული.</bold>
+no-api-keys-description =
+    თქვენი პირველი API-გასაღების შესაქმნელად დაწკაპეთ „API-მოწმობის შედგენა“, შემდეგ დაარქვით სახელი
+    თქვენს API-მოწმობას და შექმენით უნიკალური API-მოწმობა ღილაკით „მოწმობის შედგენა“. შემდგომ კი დაუყოვნებლივ აიღეთ საიდუმლო გასაღების ასლი, ვინაიდან მხოლოდ
+    ერთხელ გამოჩნდება.
+api-key-name-input =
+    .label = API-მოწმობის სახელი
+create-api-key-header = <bold>ყურადღება: API-მოწმობის შედგენა</bold>
+create-api-key-description = ღილაკით „მოწმობის შედგენა“ შეიქმნება უნიკალური მოწმობა თქვენი ანგარიშისთვის. უსაფრთხოების მიზნით საიდუმლო გასაღები გამოჩნდება <bold>მხოლოდ ერთხელ</bold>. გთხოვთ აიღოთ მისი ასლი და შეინახოთ დაცულ ადგილას. დაკარგვის შემთხვევაში მოგიწევთ ახლის შედგენა, რადგან მისი ხელმეორედ მოპოვება შეუძლებელია.
+generate-api-key-button = მოწმობის შედგენა
+save-api-key-info = <bold>შეინახეთ გასაღებები დაცულ ადგილას</bold>
+api-key-name-display-label = API-მოწმობის სახელი
+api-client-secret-display-label = API-კლიენტის საიდუმლო
