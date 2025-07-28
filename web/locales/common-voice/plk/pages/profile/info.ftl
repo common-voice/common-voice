@@ -87,3 +87,29 @@ api-credentials-description-conclusion = صوتی ٹیکنالوجی خور تھ
 create-api-key-button = API اسناد سنِیا
 your-api-keys = څھے API اسناد
 no-api-keys-header = <bold>فی الحال څھے اکاؤنٹ سے کھاں گہ  API اسناد وابستہ نانیْ۔</bold>
+no-api-keys-description =
+    تومیْ تم مُڇِھینیْ API کنجی سنونے کِرِیا   ”API  اسناد سنِیا“ سیݨوڑ نُوم دِیا
+    کلک تھے تومیْ منفردAPI اسناد سنِیا ”اسناد سنِیا“۔ تے سیکرٹ کنجی جنیْ گیْ کاپی تِھیا کھاں آ بُو چہ
+    کھاں صرف آ بُو چہ۔
+api-key-name-input =
+    .label = API اسناے نُوم
+create-api-key-header = <bold> ضورڑی نوٹس، API اسناد جنریشن</bold>
+create-api-key-description = ”جنریٹ کریڈینشیلز“ جیْ کلک تھون گیْ څھے اکاؤنٹے کِرِیا منفرد اسناد سنجِی۔ سیکورٹی وجوہاتو بنا جیْ، خفیہ کلید څرگن بِینیْ۔ <bold> صرف ایْک چوْٹ </bold> مہرنانی تھے کاپی تھے محفوظ چھورِیا۔ څھوْس لازمی نئی کنجی جنریٹ تِھیا۔ کاتھ چہ ست دُبار ریٹریو نہ تِھجبانیْ۔
+generate-api-key-button = کریڈنشل جنریٹ تِھیا
+save-api-key-info = <bold> تومیْ کنݩجی محفوظ چھورِیا </bold>
+save-api-key-info-description = تومیْ کُنجئے محفوظ طریقہ گیْ چھورِیا آں آئیݨو عوامی ذخیرو مجیْ ظاہر تھونِجیْ گریز تِھیا۔ سیکریٹ کلید صرف چیئے قابل رسائی نیْ آں ست دُوبار نہ پشجُوئی۔
+api-key-name-display-label = API اسناے نُوم
+api-client-secret-display-label = API کلائینٹ اے راز
+api-client-id-display-label = API کلائینٹے آئی ڈی
+api-key-modal-confirmation-header = څھوْڑ یقِینِن یا؟
+cancel-api-key-confirmation-description = واقعی څھوْس API سند تِیار تھون منسوخ تھینَت یا؟
+delete-api-key-confirmation-description = څھوْش API سند واقعی دہ ڈیلیٹ تھینَت یا؟<bold> </bold> آئے ایکشن کرہ گہ انڈو نہ تِھجبانوْ
+create-api-key-error-toast-message = API اسناد سنون دہ غلطی بِلِن
+delete-api-key-error-toast-message = API اسناد ڈیلیٹ تھون دہ غلطی بِلِن
+fetching-api-keys-error-toast-message = API اسنادو بازیافت دہ غلطی
+copy-api-credential-success-toast-message = کامیابی گیْ کاپی بِلیْ
+copy-api-credential-error-toast-message = کاپی تھون دہ غلطی
+delete-api-key-success-toast-message = API اسناد کامیابی گیْ ڈیلیٹ بِلیْ
+add-api-key-name-error = API سندے نُوم شامل تِھیا
+max-api-keys-reached = API اسنادو حدِجیْ تجاوز بلِن
+duplicate-api-key-name-error = API کنجی نُوم ڈوبلیکیٹ تِھیا

@@ -8,6 +8,7 @@ aa = Afar
 aat = Arvanitique
 ab = Abkhaze
 abb = Bankon
+abq = Abaza
 ace = Aceh
 ady = Adyguéen
 af = Afrikaans

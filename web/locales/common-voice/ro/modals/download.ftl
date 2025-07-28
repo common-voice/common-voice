@@ -5,5 +5,5 @@ download-helpus = Ajută-ne să construim o comunitate în jurul tehnologiei voc
 download-form-email =
     .label = Introdu adresa de e-mail
     .value = Îți mulțumim! Vom ține legătura.
-download-back = Întoarce-te la seturile de date Common Voice
-download-no = Nu, mulțumesc
+download-back = Întoarce-te la seturile de date Common Voice.
+download-no = Nu, mulțumesc.

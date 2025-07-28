@@ -15,7 +15,7 @@ no-clips-to-validate = Se pare că nu există secvențe vocale în această limb
 toggle-play-tooltip = Apasă { shortcut-play-toggle } pentru a comuta modul de redare (Play)
 speak-paragraph = Înregistrarea secvențelor vocale este un element principal în construirea setului nostru de date deschise; unii ar spune chiar că este partea cea mai distractivă.
 speak-goal-text = Secvențe vocale înregistrate
-listen-paragraph = Validarea secvențelor vocale donate este la fel de importantă pentru misiunea Common Voice. Ascultă și ajută-ne să creăm date vocale de calitate și cu sursă deschisă.
+listen-paragraph = Validarea secvențelor vocale donate este și ea foarte importantă pentru misiunea Common Voice. Ascultă câte secvențe poți și ajută-ne să creăm date vocale de calitate cu sursă deschisă.
 listen-goal-text = Secvențe vocale validate
 hours-recorded = Ore înregistrate
 hours-validated = Ore validate
@@ -44,20 +44,20 @@ x-years-short =
         [few] { $count } ani
        *[other] { $count } de ani
     }
-help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, liber la dispoziția publicului
-sign-up-account = Înscrie-te pentru un cont
-email-subscription-title = Abonează-te la informări prin e-mail
-email-subscription-title-new = Abonează-te la buletinele informative Common Voice, mementouri de obiective și actualizări despre progres
+help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, disponibil tuturor.
+sign-up-account = Înscrie-te pentru un cont.
+email-subscription-title = Primește noutăți despre proiect prin e-mail
+email-subscription-title-new = Abonează-te pentru a primi buletine informative Common Voice, mementouri de obiective și actualizări despre progres.
 
 ## Account Benefits
 
-benefits = Beneficii
-rich-data = Asigură-te că datele transmise sunt cât mai bogate posibil, furnizând unele date demografice anonime. Identificăm toate datele demografice înainte de a le face publice.
-improve-audio = Informațiile profilului îmbunătățesc datele audio utilizate în acuratețea recunoașterii vocale.
-keep-track = Urmărește-ți progresul și metrica pe mai multe limbi.
-compare-progress = Vezi progresul tău comparat cu cel al altor colaboratori din toată lumea.
-view-goals = Vezi progresul realizat în comparație cu obiectivele personale și de proiect.
-join-newsletter = Înscrie-te opțional în lista noastră de corespondență pentru actualizări și informații noi despre proiect.
+benefits = Avantaje
+rich-data = Adaugă și câteva date demografice anonime pentru a îmbogăți setul de date. Oricum, înainte de a publica setul de date, ne vom asigura că toate datele demografice sunt anonimizate.
+improve-audio = Informațiile corespunzătoare profilului tău îmbunătățesc datele audio utilizate, ceea ce va duce la creșterea acurateții aplicațiilor de recunoaștere vocale.
+keep-track = Vezi cât, când și unde ai contribuit pentru una sau mai multe limbi.
+compare-progress = Vezi cât ai contribuit comparativ cu alți colaboratori din toată lumea.
+view-goals = Vezi cât ai contribuit din ce ți-ai propus sau din cât are nevoie proiectul.
+join-newsletter = Dacă dorești, te poți înscrie și pe lista noastră de corespondență pentru a primi noutăți despre proiect.
 
 ## What's public
 
@@ -65,31 +65,96 @@ whats-public = Ce este public?
 email-not-public = Nu îți vom face publică adresa de e-mail.
 recordings-and-locale-public = Numărul de înregistrări și limbile în care vei contribui vor fi publice.
 username-optin-public = Poți alege să îți faci numele de utilizator public sau anonim.
-demographic-deidentified-clarity-2 = Datele demografice trimise opțional (de ex. vârsta, sexul, limba și accentul) nu vor fi făcute niciodată publice pe profilul tău și nu vor fi legate de contul tău în setul de date. Secvențele audio individuale vor fi asociate cu datele demografice în scopul unei analize mai precise - de exemplu, un cercetător ar putea dori să asocieze un model de instruire cu un anumit segment demografic.
-username-email-not-demographic = Numele de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
+demographic-deidentified-clarity-2 = Datele demografice trimise opțional (de ex. vârsta, sexul, limba și accentul) nu vor fi făcute niciodată publice pe profilul tău și nu vor fi legate de contul tău în setul de date. Secvențele audio individuale vor fi asociate cu datele demografice în scopul unei analize mai precise - de exemplu, un cercetător ar putea dori să creeze un model de recunoaștere vocală specific unui anumit segment demografic.
+username-email-not-demographic = Numele tău de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Landing
 
-welcome-staff = Bun venit, angajaților { $company }!
-help-contribute = Poți ajuta la clădirea unui set de date divers, cu cursă deschisă, creând un profil Common Voice și contribuind cu vocea ta.
-login-company = Autentifică-te / Înscrie-te cu adresa de e-mail { $company }
-profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
-read-more-about = Află mai multe pe pagina Despre
+welcome-staff = Bun venit echipei companiei { $company }!
+help-contribute = Poți ajuta la crearea unui set de date divers, cu sursă deschisă, făcându-ți un profil Common Voice și înregistrând mai multe secvențe vocale.
+login-company = Autentifică-te / Înscrie-te cu adresa de e-mail a companiei { $company }
+profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util. Îți explicăm mai jos de ce.
+read-more-about = Află mai multe pe pagina Despre noi
 
 ## NAV ITEMS
 
 answer-questions = Răspunde la întrebări
-review-transcriptions = Examinează transcrierile
+review-transcriptions = Evaluează transcrierile
 add-questions = Adaugă întrebări
 review-questions = Verifică întrebări
 transcribe-audio = Transcrie înregistrări audio
-press-and-stories = Presă și Relatări
-community-and-languages = Comunitate și Limbi
+press-and-stories = Presă și relatări
+community-and-languages = Comunitate și limbi
+coming-soon = În curând
+about-us = Despre noi
+scripted-speech = Discurs scris
+spontaneous-speech = Discurs spontan
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = Parteneriate, Presă și Relatări, Comunitate și Limbi
+about-menu-tooltip = Parteneriate, presă și relatări, comunitate și limbi
+about-us-menu-item-tooltip = Află mai multe despre misiunea și echipa din spatele proiectului Common Voice.
+partnerships-menu-item-tooltip = Iată ce organizații susțin proiectul Common Voice în întreaga lume
+press-and-stories-menu-item-tooltip = Citește articolele apărute online sau în mass-media despre proiectul Common Voice
+community-and-languages-menu-item-tooltip = Intră în comunitatea noastră și vezi cu ce limbi lucrăm deja
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Meniu pentru a accesa secțiunea de Parteneriate, presă și relatări, comunitate și limbi
+about-us-menu-aria-label = Meniul de opțiuni Despre noi
+about-us-menu-item-aria-label = Meniul de opțiuni Despre noi
+partnerships-menu-item-aria-label = Află mai multe despre parteneriatele cu proiectul Common Voice.
+press-and-stories-menu-item-aria-label = Citește comunicate de presă și articole despre proiectul Common Voice
+community-and-languages-menu-item-aria-label = Descoperă comunitatea și limbile din proiectul Common Voice.
+
+## Hero section
+
+hero-title = Tehnologie care vorbește în limba ta
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>De ce să funcționeze inteligența artificială doar pentru câteva limbi?</bold>
+hero-subtitle-2 = Limba fiecăruia dintre noi reprezintă povestea, comunitatea, cultura noastră. Hai să creăm seturi de date care ne reprezintă!
+# icon is an arrow that points downwards
+get-started = Începe <icon><icon>
+
+## Action items section
+
+action-items-section-title = Proiectul Common Voice este o platformă gratuită cu sursă deschisă. Ea permite comunității să creeze seturi de date.
+action-items-section-subtitle = Oricine își poate păstra, revitaliza și îmbunătăți limba prin partajarea, crearea și verificarea seturilor de date scrise și vocale.
+scripted-card-header = Discurs scris
+scripted-card-content = Înregistrează-te citind propoziții în limba ta și contribuie astfel la cel mai divers set de date vocale creat de oameni din întreaga lume.
+spontaneous-card-header = Discurs spontan
+spontaneous-card-content = Vorbește liber pe diverse teme pentru a crea seturi de date ce reprezintă contexte naturale și informale. Limbile care sunt în principal vorbite și nu scrise au în special de câștigat prin asta.
+language-text-card-header = Text
+language-text-card-content = Crează sau distribuie teme de discuție, propoziții și texte din domeniul public ce pot fi folosite pentru traducere, antrenarea modelelor lingvistice de mici dimensiuni, sau în alte scopuri.
+coming-soon = În curând
+add-text = Adaugă text
+answer = Vorbește liber
+
+## Community section
+
+community-section-title = Suntem susținuți de și lucrăm pentru comunități de pretutindeni — am ajuns deja la 130 de limbi și nu ne oprim aici!
+join-discord-community = Alătură-te comunității noastre de pe Discord
+# label for button
+join-discord-community-action = Contactează-ne pe Discord
+join-discord-community-content = Participă la discuții în comunitatea ta lingvistică, pune întrebări și află despre evenimentele și discuțiile viitoare.
+find-us-on-matrix = Contactează-ne pe Matrix
+find-us-on-matrix-content = Matrix reprezintă un protocol deschis pentru comunicare descentralizată în timp real. La ora actuală este platforma preferată de Mozilla pentru discuții deschise.
+# label for button
+find-us-on-matrix-action = Contactează-ne pe Matrix
+ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spune-ne și nouă pentru a-i anunța pe toți din comunitatea noastră. Putem scrie și o postare pe un blog despre evenimentul tău!
 
 ## Get involved section
 
-review-transcriptions-link = Examinează transcrieri
+read-sentences-link = Citește propoziții
+validate-readings-link = Validează înregistrările altora
+answer-questions-link = Răspunde la întrebări
+transcribe-answers-link = Transcrie răspunsuri
+review-transcriptions-link = Evaluează transcrierile
+contribute-text-link = Contribuie un text
+press-and-stories-link = Presă și relatări
+
+## Partner section
+
+partner-section-title = Devino partenerul nostru!
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Companii de tehnologie</bold>:  investiți în crearea de seturi de date deschise și susțineți astfel ecosistemul inteligenței artificiale multilingve
