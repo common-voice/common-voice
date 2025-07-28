@@ -86,3 +86,4 @@ api-credentials-description-conclusion = Rejoignez-nous pour faire progresser la
 create-api-key-button = Créer les informations d’authentification pour l’API
 your-api-keys = Vos informations d’authentification pour l’API
 no-api-keys-header = <bold>Actuellement, aucune information d’authentification à l’API n’est associée à votre compte.</bold>
+api-key-modal-confirmation-header = Confirmation
