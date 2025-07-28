@@ -19,7 +19,10 @@ example = Døme
 
 ## Voice collection sidebar content
 
+varying-pronunciations-explanation-1 = Vi ønskjer ulike dialektar og aksentar velkomne! Ver veldig varsam før du avviser eit klipp med den grunngivinga at du trur lesaren har uttalt eit ord feil, har lagt vekta på feil stad, eller har ignorert teiknsetjing. Det er eit breitt utval av talemåtar i bruk rundt om i verda, nokre av dei har du kanskje ikkje høyrt i lokalsamfunnet ditt. Gi ein god margin for dei som kanskje snakkar annleis enn deg.
+varying-pronunciations-explanation-2 = På den andre sida, om du trur at lesaren aldri har kome over ordet før, og gjettar feil på uttalen, ver vennleg og avvis. Om du er usikker, bruk hopp over-knappen.
 varying-pronunciations-example = Ruta var uklar.
+varying-pronunciations-tip-1 = [Canadisk engelsk kan få «route» til å høyrest ut som «rowt»]
 varying-pronunciations-tip-2 = [Britisk engelsk kan lage «root»]
 misreadings-explanation-2 = Svært vanlege feil inkluderer:
 misreadings-explanation-3 = Det mangler «ein» eller «den» i starten av opptaket.
