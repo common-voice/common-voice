@@ -4,7 +4,7 @@ import useIsMaxWindowWidth from '../../../../hooks/use-is-max-window-width'
 import { questionGuidelineSections } from '../constants'
 import { handleToggleVisibleSection } from '../utils'
 
-export const QuestionSidebarContent = () => {
+export const SpontaneousSpeechContent = () => {
   const [visibleSections, setVisibleSections] = React.useState(
     questionGuidelineSections
   )
