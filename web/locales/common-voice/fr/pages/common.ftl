@@ -367,6 +367,7 @@ tw = Twi
 ty = Tahitien
 tyv = Touvain
 uby = Oubykh
+udl = Ouldémé
 udm = Oudmourte
 ug = Ouïghour
 uk = Ukrainien
