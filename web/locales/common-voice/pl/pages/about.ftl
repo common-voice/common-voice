@@ -10,6 +10,10 @@ how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagra
 ## How does it work section
 
 about-language-req-subtitle = Ktoś prosi o dodanie danego języka.
+about-sentence-collection-subtitle = Gromadzimy zdania, które użytkownicy danego języka będą odczytywać na głos.
+about-new-lang-subtitle = Uruchamiamy witrynę Common Voice w danym języku.
+about-voice-contrib-subtitle = Użytkownicy przekazują nam swoje głosy.
+about-voice-validation-subtitle = Inne osoby sprawdzają poprawność nagrań głosowych.
 about-dataset-release-title = Wydanie zbioru danych
 about-dataset-release-subtitle = Co 3 miesiące wydajemy zbiór danych.
 about-speak = Nagrywanie
@@ -46,29 +50,14 @@ about-nav-how-it-works-2 = Jak działa projekt Common Voice?
 about-playbook-what-is-language-content-2 = Chcemy, aby modele mowy lepiej rozumiały zróżnicowane grono osób mówiących. Aby to osiągnąć, zbiór danych głosowych musi reprezentować wiele różnych osób.
 about-playbook-what-is-language-content-3 = Niektóre języki charakteryzują się ogromnym zróżnicowaniem gramatyki, słownictwa i wymowy. Z tego powodu w 2022 roku <ctaLink>wprowadzamy „Warianty”</ctaLink>. Dzięki temu społeczności będą mogły rozróżniać swoje języki w ramach większego zbioru danych.
 
-## How do I add a language
-
-
 ## How does localization work
 
 about-playbook-how-localize-content-1 = Tłumaczenie witryny Common Voice odbywa się na <strong>Pontoon</strong>.
-
-## How to add sentences
-
-
-## How to record quality
-
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
 about-playbook-how-grow-language-content-6 = Współpraca i sieci
-
-## How to validate
-
-
-## How to access dataset
-
 
 ## How are decisions made
 
