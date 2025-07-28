@@ -3,22 +3,20 @@ import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
 import { SidebarContentProps } from '../../types'
-import { sentenceDomains } from 'common'
-
 import { TextButton } from '../../../../ui/ui'
 import { ChevronDown } from '../../../../ui/icons'
 
-export const SentenceDomain: React.FC<SidebarContentProps> = ({
+export const ReportingContent = ({
   id,
   contentVisible,
   toggleVisibleSection,
   isMobileWidth,
-}) => {
+}: SidebarContentProps) => {
   return (
     <div className="sidebar-content no-border" id={id}>
       <span className="line" />
       <div className="sidebar-content-header">
-        <Localized id="sentence-domain">
+        <Localized id="reporting-content">
           <TextButton
             onClick={toggleVisibleSection}
             className="guidelines-content-heading"
@@ -29,18 +27,15 @@ export const SentenceDomain: React.FC<SidebarContentProps> = ({
           className={classNames('chevron', { 'rotate-180': contentVisible })}
         />
       </div>
+
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
-          <Localized id="domain-explanation">
+          <Localized id="reporting-content-explanation-1">
             <p className="guidelines-content-explanation" />
           </Localized>
-          <ul>
-            {sentenceDomains.map(sentenceDomain => (
-              <Localized id={sentenceDomain} key={sentenceDomain}>
-                <li />
-              </Localized>
-            ))}
-          </ul>
+          <Localized id="reporting-content-explanation-2">
+            <p className="guidelines-content-explanation" />
+          </Localized>
         </div>
       )}
     </div>
