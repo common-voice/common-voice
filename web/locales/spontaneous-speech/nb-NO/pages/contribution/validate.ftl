@@ -4,7 +4,7 @@ validate-page-instruction = Valider <validateIcon></validateIcon> oppfyller diss
 dataset-label = Datasett
 accept-vote-toast-message = Spørsmålet er akseptert
 reject-vote-toast-message = Spørsmålet ble avvist
-add-vote-error-message = Det oppsto en feil under avstemningen
+add-vote-error-message = Det oppstod en feil under avstemningen
 # Message which appears when there are no more resources on this page
 no-questions-continue-skipped-message = Det finnes ingen flere spørsmål for dette språket. Hvis du har hoppet over noen, kan du fortsette med innholdet som er hoppet over, eller gå til transkribering av lyd og prøve på nytt senere.
 validate-page-yes-button-shortcut = J

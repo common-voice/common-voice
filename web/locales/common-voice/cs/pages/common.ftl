@@ -439,6 +439,12 @@ email-opt-in-info-sub-with-challenge = Zasílání e-mailů jako jsou připomín
 email-opt-in-privacy-v2 = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů</privacyLink> společnosti Mozilla.
 indicates-required = * označuje povinná pole
 not-available-abbreviation = není k dispozici
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopírovat
+# Text shown on a button that can be clicked to cancel an action
+cancel = Zrušit
+# Text shown on a button that can be clicked to delete an item
+delete = Smazat
 
 ## Donate banner
 

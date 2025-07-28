@@ -7,12 +7,12 @@ check-editbox-header = Sjekk
 # Message which appears when there are no more resources on this page
 no-transcriptions-continue-skipped-message = Det finnes for øyeblikket ingen transkripsjoner å sjekke for dette språket. Hvis du har hoppet over noen, kan du fortsette med innholdet som er hoppet over, eller gå til transkribering av lyd og prøve på nytt senere.
 vote-transcript-success = Transkripsjonen ble valgt
-vote-transcript-error = Det oppsto en feil under velging av transkripsjonen
+vote-transcript-error = Det oppstod en feil under velging av transkripsjonen
 transcript-edited-success = Transkripsjonen er redigert
-transcript-edited-error = Det oppsto en feil under redigering av transkripsjonen
+transcript-edited-error = Det oppstod en feil under redigering av transkripsjonen
 error-fetching-transcriptions = Noe gikk galt under henting av transkripsjoner. Prøv igjen senere.
 transcript-skipped-success = Transkripsjonen ble hoppet over
-transcript-skipped-error = Det oppsto en feil når du hoppen over transkripsjonen
+transcript-skipped-error = Det oppstod en feil når du hoppen over transkripsjonen
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = Korrekt
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription

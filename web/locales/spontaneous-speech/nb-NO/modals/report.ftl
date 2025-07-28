@@ -13,7 +13,7 @@ report-other-comment =
     .placeholder = Kommentar
 # Label for textarea in report modal
 other = Annet
-report-error = Det oppsto en feil under innsending av rapporten
+report-error = Det oppstod en feil under innsending av rapporten
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = Fortsett
 # Header for report modal after successful reporting

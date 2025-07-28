@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Sett deg eit mål
 cant-decide = greier du ikkje å bestemme deg+
+activity-needed-calculation-fixed = 100 personar som spelar inn 100 setningar om dagen kan generere 13 timar med lyd. Ved å halde oppe denne ytinga kan 1000 timar nåast på under 3 månadar.
 how-many-per-day = Flott! Kor mange lydklipp pr. dag?
 how-many-a-week = Flott! Kor mange lydklipp i veka?
 which-goal-type = Vil du snakke, lytte eller begge delar?

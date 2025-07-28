@@ -96,6 +96,7 @@ api-key-name-input =
     .label = API Credential Name
 create-api-key-header = <bold>Important Notice: API Credentials Generation</bold>
 create-api-key-description = Clicking "Generate Credentials" will create unique credentials for your account. For security reasons, the secret key is displayed <bold>only once</bold>. Please copy and store it securely. If lost, you must generate a new key, as it cannot be retrieved.
+create-api-key-agreement = I agree I will not attempt to identify the speakers in the Common Voice dataset.
 generate-api-key-button = Generate Credentials
 save-api-key-info = <bold>Save Your Keys Securely</bold>
 save-api-key-info-description = Store your keys safely and avoid exposing them in public repositories. The SECRET key is only accessible now and will not be shown again.

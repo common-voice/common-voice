@@ -48,6 +48,7 @@ no-information = Ingen informasjon
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er eit <docsLink>open-kjeldekodeverktøy</docsLink> for forskarar som utviklar moderne kunstig intelligens-modellar for samtalerobotar.
 resource-deepspeech-info = Mozilla Deep Speech er ein open kjeldekode-motor for taleattkjenning som kan brukast i taleattkjenningsapplikasjonar. Les  <githubLink>oppsummeringa på Github</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære meir om korleis du kjem i gang med systemet.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> jobbar for open taleteknologi. Prosjekta deira inkluderer system for tale-til-tekst og tekst-til-tale basert på djup læring.
+community-playbook = Fellesskapsguide
 resource-playbook-info = <playbookLink>Få hjelp og rettleiing</playbookLink> gjennom heile Common Voice-reisa, frå omsetjing til bruk av datasett, og ta kontakt med fellesskapet.
 data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 timar med engelsk tale (16Khz-opptak) henta frå lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM korpus
