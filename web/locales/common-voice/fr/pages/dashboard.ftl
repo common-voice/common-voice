@@ -1,6 +1,6 @@
 ## Dashboard
 
-your-languages = Vos langues 
+your-languages = Vos langues{ " " }
 toward-next-goal = Vers le prochain objectif
 goal-reached = Objectif atteint
 clips-you-recorded = Les échantillons que vous avez enregistrés
@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Fixer un objectif
 cant-decide = Vous ne pouvez pas décider ?
+activity-needed-calculation-fixed = 100 personnes enregistrant 100 phrases par jour peuvent générer 13 heures d’audio. En maintenant ce rythme, il est possible d’atteindre 1 000 heures en moins de 3 mois.
 how-many-per-day = Génial ! Combien d’échantillons par jour ?
 how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
