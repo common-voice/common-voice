@@ -92,6 +92,7 @@ api-key-name-input =
     .label = API-inloggningsnamn
 create-api-key-header = <bold>Viktigt meddelande: Generering av API-inloggningsuppgifter</bold>
 create-api-key-description = Om du klickar på "Generera inloggningsuppgifter" skapas unika inloggningsuppgifter för ditt konto. Av säkerhetsskäl visas den hemliga nyckeln <bold>bara en gång</bold>. Kopiera och förvara den säkert. Om du förlorar den måste du generera en ny nyckel, eftersom den inte kan hämtas.
+create-api-key-agreement = Jag godkänner. Jag kommer inte att försöka identifiera talarna i Common Voice-datamängden.
 generate-api-key-button = Generera inloggningsuppgifter
 save-api-key-info = <bold>Spara dina nycklar säkert</bold>
 save-api-key-info-description = Förvara dina nycklar säkert och undvik att exponera dem i offentliga arkiv. Den HEMLIGA nyckeln är endast tillgänglig nu och kommer inte att visas igen.
