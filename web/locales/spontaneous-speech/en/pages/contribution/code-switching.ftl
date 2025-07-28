@@ -48,10 +48,3 @@ cs-learn-how-to-use-answer-explanation = Just respond to the prompt as naturally
 cs-learn-how-to-use-check-transcript-explanation = A transcription should capture every word or non-lexical conversation sound that was said by the person, including repetitions.
 
 ## Tagging Page Guidelines
-
-
-# TODO: Remove these
-glv = glv
-el-CY = el-CY
-en-es-US = en-es-US
-en-es-test = en-es-test
