@@ -51,7 +51,7 @@ sc-review-rules-title = Oppfyller setningen retningslinjene?
 sc-review-empty-state = Det er for øyeblikket ingen setninger å vurdere på dette språket.
 report-sc-different-language = Annet språk
 report-sc-different-language-detail = Den er skrevet på et annet språk enn det jeg gjennomgår.
-sentences-fetch-error = Det oppsto en feil under henting av setninger
+sentences-fetch-error = Det oppstod en feil under henting av setninger
 review-error = Det oppstod en feil ved gjennomgang av denne setningen
 review-error-rate-limit-exceeded = Du er for rask. Ta deg tid til å se gjennom setningen for å sikre at den er riktig.
 # SENTENCE-COLLECTOR-REDIRECT PAGE

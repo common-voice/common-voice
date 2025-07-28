@@ -2,7 +2,7 @@
 
 question-page-instruction = Adder un question <icon></icon> in { $currentLocale } proque le personas responde
 add-question-textarea-placeholder = p. ex., “Pro que desira tu poter usar le technologia?”
-add-questions-terms-checkbox = * Io confirma que iste question es de <publicDomainLink>dominio public</publicDomainLink> e io ha permisso pro cargar lo.
+add-questions-terms-checkbox = * Io confirma que iste question es in le <publicDomainLink>dominio public</publicDomainLink> e que io ha le permission de incargar lo.
 question-dataset-language = Base de datos: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->

@@ -7,9 +7,9 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> og svar så naturl
 # Message which appears when there are no more resources on this page
 no-prompts-continue-skipped-message = Det finnes ingen flere spørsmål for dette språket. Hvis du har hoppet over noen, kan du fortsette med innholdet som er hoppet over, eller gå til transkribering av lyd og prøve på nytt senere.
 error-skipping = Det oppstod en feil når du hoppet over denne forespørselen
-error-recording = Det oppsto en feil under opptak
+error-recording = Det oppstod en feil under opptak
 error-fetching-prompts = Noe gikk galt under henting av forespørsler. Prøv igjen senere.
-error-uploading-response = Det oppsto en feil under opplasting av svaret ditt
+error-uploading-response = Det oppstod en feil under opplasting av svaret ditt
 prompt-submitted-success = Svaret ble sendt
 prompt-response-deleted-success = Svaret ble slettet
 # For the button to delete a response to a prompt
