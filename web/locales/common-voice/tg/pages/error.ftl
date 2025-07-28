@@ -16,3 +16,5 @@ error-duplicate-clips-all =
         [one] Мо { $total } сабтро бор карда натавонистем. Онҳо аллакай қаблан бор карда шуда буданд. Биёед бо бастаи навбатӣ идома диҳем!
        *[other] Мо { $total } сабтро бор карда натавонистем. Онҳо аллакай қаблан бор карда шуда буданд. Биёед бо бастаи навбатӣ идома диҳем!
     }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Мо { $uploaded }-и сабти шуморо бор кардем — боқимондаҳо аллакай бор карда шудаанд. Биёед бо бастаи навбатӣ идома диҳем!
