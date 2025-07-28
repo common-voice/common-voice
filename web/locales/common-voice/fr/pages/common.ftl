@@ -393,6 +393,7 @@ xmf = Mingrélien
 xsm = Kassem
 yaq = Yaqui
 yav = Nuasue
+ydg = Yidgha
 yi = Yiddish
 yo = Yoruba
 yue = Cantonais
