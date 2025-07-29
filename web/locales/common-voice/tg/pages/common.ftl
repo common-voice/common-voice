@@ -365,6 +365,12 @@ email-opt-in-info-sub-with-challenge = Паёмҳои электрониро б�
 email-opt-in-privacy-v2 = Бо интихоби қабули паёмҳои электронӣ, шумо изҳор мекунед, ки шумо бо Mozilla барои коркарди ин иттилоот ба тавре, ки дар <privacyLink> Сиёсати махфияти</privacyLink> Mozilla шарҳ дода шудааст, розӣ ҳастед.
 indicates-required = * ин аломат майдони ҳатмиро нишон медиҳад
 not-available-abbreviation = Дастнорас
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Нусха бардоштан
+# Text shown on a button that can be clicked to cancel an action
+cancel = Бекор кардан
+# Text shown on a button that can be clicked to delete an item
+delete = Нест кардан
 
 ## Donate banner
 
