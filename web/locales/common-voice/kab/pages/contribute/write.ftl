@@ -33,6 +33,8 @@ agriculture_food = Tafellaḥt d wučči
 # Sentence Domain dropdown option
 general = Amatu
 # Sentence Domain dropdown option
+healthcare = Annaren n usgunfu
+# Sentence Domain dropdown option
 nature_environment = Agama d twennaḍt
 
 ## BULK SUBMISSION
@@ -59,6 +61,7 @@ too-many-files = Aṭas n yifuyla
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-4 = Rnu alamma d 1,000 tefyar
 # menu item
 add-sentences = Rnu tifyar
 
