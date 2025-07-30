@@ -95,6 +95,7 @@ api-key-name-input =
     .label = Namme API-referinsjes
 create-api-key-header = <bold>Wichtige meidieling: oanmeitsjen fan API-referinsjes</bold>
 create-api-key-description = As jo op ‘Referinsjes oanmeitsje’ klikke, wurde unike referinsjes foar jo account oanmakke. Om feilichheidsredenen wurdt de geheime kaai <bold>mar ien kear</bold> toand. Kopiearje en bewarje dizze feilich. As jo de kaai ferlieze, moatte jo in nije kaai oanmeitsje, omdat dizze net ophelle wurde kin.
+create-api-key-agreement = Ik gean akkoard dat ik net probearje sil de sprekkers yn de Common Voice-dataset te identifisearjen.
 generate-api-key-button = Referinsjes oanmeitsje
 save-api-key-info = <bold>Bewarje jo kaaien feilich</bold>
 save-api-key-info-description = Bewarje jo kaaien feilich en foarkom dat se bleatsteld wurde yn iepenbiere repositories. De GEHEIME kaai is allinnich no tagonklik en sil net wer toand wurde.

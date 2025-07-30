@@ -19,8 +19,8 @@ speak-paragraph = L’enregistrement d’échantillons de voix fait partie inté
 speak-goal-text = Échantillons enregistrés
 listen-paragraph = La validation des échantillons vocaux donnés est également importante pour la mission Common Voice. Prenez l’écoute et aidez-nous à créer des données vocales libres de qualité.
 listen-goal-text = Extraits validés
-hours-recorded = Heures d’enregistrement 
-hours-validated = Heures validées 
+hours-recorded = Heures d’enregistrement{ " " }
+hours-validated = Heures validées{ " " }
 voices-online = Échantillons de voix maintenant en ligne
 todays-progress = Progression du jour
 help-reach-goal = Aidez-nous à atteindre { $goal }
@@ -80,6 +80,7 @@ read-more-about = Pour en savoir plus lisez notre page À propos
 answer-questions = Répondez aux questions
 review-transcriptions = Vérifiez les transcriptions
 add-questions = Ajoutez des questions
+review-questions = Vérifiez les questions
 transcribe-audio = Transcriptions audio
 press-and-stories = Presse et articles
 community-and-languages = Communautés et langues
@@ -98,14 +99,12 @@ community-and-languages-menu-item-tooltip = Découvrez les langues, les communau
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Menu pour accéder aux partenariats, à l’espace presse et aux témoignages, à la communauté et aux langues
 about-us-menu-aria-label = Options du menu « À propos »
 about-us-menu-item-aria-label = Options du menu « À propos »
 partnerships-menu-item-aria-label = En savoir plus sur les partenariats avec Common Voice
 press-and-stories-menu-item-aria-label = Accédez aux communiqués de presse et aux articles liés à Common Voice
 community-and-languages-menu-item-aria-label = Découvrez les communautés et les langues prises en charge par Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -126,11 +125,13 @@ spontaneous-card-header = Parole spontanée
 spontaneous-card-content = Répondez à des questions pour créer des jeux de données pour des contextes naturels et conversationnels. Parfait pour les langues à prédominance orale.
 language-text-card-header = Texte
 language-text-card-content = Créez ou partagez des questions, des phrases et du texte du domaine public à traduire, des modèles linguistiques de petite taille, etc.
+coming-soon = Prochainement
 add-text = Ajouter du texte
 answer = Répondre
 
 ## Community section
 
+community-section-title = Rendu possible par des communautés mondiales, pour des communautés mondiales. Déjà 130 langues et ce n’est pas fini !
 join-discord-community = Rejoindre la communauté Discord
 # label for button
 join-discord-community-action = Rejoignez-nous sur Discord

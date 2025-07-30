@@ -95,6 +95,7 @@ api-key-name-input =
     .label = Mjeno přizjewjenskich datow API
 create-api-key-header = <bold>Wažna pokazka: Generowanje přizjewjenskich datow API</bold>
 create-api-key-description = Hdyž na „Přizjewjenske daty generować“ klikaće, so jónkróćne přizjewjenske daty za waše konto generuja. Z přičinow wěstoty so tajny kluč <bold>jenož jedyn raz</bold> pokaza. Prošu kopěrujće jón a składujće jón na wěstym městnje. Jeli jón zhubiće, dyrbiće nowy kluč generować, dokelž njeda so wobnowić.
+create-api-key-agreement = Sym přezjedny, njebudu pospytować rěčnikow w datowej sadźbje Common Voice identifikować.
 generate-api-key-button = Přizjewjenske daty generować
 save-api-key-info = <bold>Składujće swoje kluče wěsće</bold>
 save-api-key-info-description = Składujće swoje kluče na wěstym městnje a wobeńdźće, zo so w zjawnych repozitorijach pokazuje. TAJNY kluč je jenož nětko přistupny a njebudźe so zaso pokazować.

@@ -1,19 +1,10 @@
 sentence-collection = Zbieranie zdań
 
-## Voice Collection nav ids
-
-
-## Voice collection sidebar content
-
-
-## Sentence collection nav ids
-
-
 ## Sentence collection sidebar content
 
-
-## Question collection ids
-
+adding-sentences-subheader-length = Długość
+adding-sentences-subheader-length-explanation = Zdanie powinno zawierać mniej niż 15 słów.
 
 ## Question collection sidebar content
 
+example-questions-subheader = Przykładowe pytania

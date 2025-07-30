@@ -24,6 +24,7 @@ request-new-language = Sumer tutlayt niḍen
 respond-to-prompt = Err
 check-transcriptions = Senqed
 question = Asteqsi
+validate = Seɣbel
 
 ## Not Found Page
 

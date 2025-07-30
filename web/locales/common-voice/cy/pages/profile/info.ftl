@@ -95,6 +95,7 @@ api-key-name-input =
     .label = Enw Manylion API
 create-api-key-header = <bold>Hysbysiad Pwysig: Cynhyrchu Manylion API</bold>
 create-api-key-description = Bydd clicio ar "Cynhyrchu Manylion Personol" yn creu manylion unigryw ar gyfer eich cyfrif. Am resymau diogelwch, mae'r allwedd gyfrinachol yn cael ei dangos <bold>dim ond unwaith</bold>. Cofiwch ei gopïo a'i gadw'n ddiogel. Os byddwch yn ei golli, bydd rhaid i chi gynhyrchu allwedd newydd, gan nad oes modd ei hadalw.
+create-api-key-agreement = Rwy'n cytuno na fyddaf yn ceisio adnabod y siaradwyr yn set ddata Common Voice.
 generate-api-key-button = Cynhyrchu Manylion
 save-api-key-info = <bold>Cadw Eich Allweddi'n Ddiogel</bold>
 save-api-key-info-description = Cadwch eich allweddi'n ddiogel a pheidiwch â'u hamlygu mewn storfeydd cyhoeddus. Dim ond nawr mae'r allwedd CYFRIN ar gael ac ni fydd yn cael ei dangos eto.

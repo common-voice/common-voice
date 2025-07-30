@@ -95,6 +95,7 @@ api-key-name-input =
     .label = Nome credenziale API
 create-api-key-header = <bold>Avviso importante: generazione credenziale API</bold>
 create-api-key-description = Facendo clic su “Genera credenziali” verranno create delle credenziali univoche per il tuo account. Per motivi di sicurezza, la chiave segreta viene visualizzata <bold>una sola volta</bold>. Copiala e conservala in modo sicuro. In caso di smarrimento della chiave, non sarà possibile recuperarla e sarà quindi necessario generarne una nuova.
+create-api-key-agreement = Accetto di non tentare di identificare le persone che leggono le frasi nel dataset di Common Voice.
 generate-api-key-button = Genera credenziali
 save-api-key-info = <bold>Salva le tue chiavi in modo sicuro</bold>
 save-api-key-info-description = Conserva le tue chiavi in modo sicuro ed evita di esporle in repository pubblici. La chiave segreta è accessibile solo in questo momento e non verrà più mostrata.
