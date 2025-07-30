@@ -95,6 +95,7 @@ api-key-name-input =
     .label = Mě pśizjawjeńskich datow API
 create-api-key-header = <bold>Wažna pokazka: Generěrowanje pśizjawjeńskich datow API</bold>
 create-api-key-description = Gaž na „Pśizjawjeńske daty generěrowaś“ klikaśo, se jadnorazowe pśizjawjeńske daty za wašo konto generěruju. Z pśicynow wěstoty se pótajmny kluc <bold>jano jaden raz</bold> pokažo. Pšosym kopěrujśo jen a składujśo jen na wěstem městnje. Jolic jen zgubijośo, musyśo nowy kluc generěrowaś, dokulaž njedajo se wótnowiś.
+create-api-key-agreement = Som wobjadny, njebudu wopytowaś powědarje w datowej sajźbje Common Voice identificěrowaś.
 generate-api-key-button = Pśizjawjeńske daty generěrowaś
 save-api-key-info = <bold>Składujśo swóje kluce wěsće</bold>
 save-api-key-info-description = Składujśo swóje kluce na wěstem městnje a wobiniśo se, až se w zjawnych repozitoriumach pokazujo. PÓTAJMNY kluc jo jano něnto pśistupny a njebuźo se zasej pokazowaś.

@@ -19,8 +19,13 @@ example = Døme
 
 ## Voice collection sidebar content
 
+varying-pronunciations-explanation-1 = Vi ønskjer ulike dialektar og aksentar velkomne! Ver veldig varsam før du avviser eit klipp med den grunngivinga at du trur lesaren har uttalt eit ord feil, har lagt vekta på feil stad, eller har ignorert teiknsetjing. Det er eit breitt utval av talemåtar i bruk rundt om i verda, nokre av dei har du kanskje ikkje høyrt i lokalsamfunnet ditt. Gi ein god margin for dei som kanskje snakkar annleis enn deg.
+varying-pronunciations-explanation-2 = På den andre sida, om du trur at lesaren aldri har kome over ordet før, og gjettar feil på uttalen, ver vennleg og avvis. Om du er usikker, bruk hopp over-knappen.
 varying-pronunciations-example = Ruta var uklar.
+varying-pronunciations-tip-1 = [Canadisk engelsk kan få «route» til å høyrest ut som «rowt»]
 varying-pronunciations-tip-2 = [Britisk engelsk kan lage «root»]
+offensive-content-explanation = Setningar blir kontrollerte gjennom ein prosess for fellesskapsmoderering, men denne prosessen er ikkje perfekt. Om du ser eller høyrer ei setning som støyter eller opprører deg - til dømes fordi ho bryt med retningslinjene <participationGuidelines>våre for fellesskapsdeltaking</participationGuidelines> - gjer vel og bruk flaggknappen i brukargrensesnittet. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Det er viktig å lese alle orda på sida rett. Når du lyttar, sjekk veldig nøye at det som er teke opp er nøyaktig det som er skrive; avvis om dei har lagt til, trekt saman eller utelate ord.
 misreadings-explanation-2 = Svært vanlege feil inkluderer:
 misreadings-explanation-3 = Det mangler «ein» eller «den» i starten av opptaket.
 misreadings-explanation-4 = Det manglar ein «s» på slutten av eit ord.
@@ -34,8 +39,16 @@ misreadings-example-4 = Humla flaug forbi.
 misreadings-tip-1 = [Skulle vore «Vi er»]
 misreadings-tip-2 = [Ordet «igjen» var ikkje i teksten]
 misreadings-tip-3 = [Heilt feil innhald]
+background-noise-explanation = Du må kunne høyre kvart ord i opptaket. Vi vil at maskinlæringsalgoritmar skal kunne handtere ulik bakgrunnsstøy, og til og med relativt høge lydar eller stille bakgrunnsmusikk kan aksepterast føresett at dei ikkje hindrar deg i å høyre heile teksten. Viss spraking eller opptaket hakkar, hindrar deg i å høyre teksten, betyr det at du bør avvise klippet.
 background-noise-example-1 = Dei store dinosaurane i Trias.
+background-noise-example-2 = [Nys] Dei gigantiske dinosaurane i [hoste] triastida.
+background-noise-example-3 = Den gigantiske dino [hoster] Trias.
+background-noise-example-4 = [Knitre] gigantiske dinosaurar i [knitre] -rias.
+background-noise-tip-1 = [avbrote av bakgrunnsstøy]
 background-noise-tip-2 = [Del av teksten kan ikkje høyrast]
+background-voices-explanation = Litt bakgrunnsstøy er greitt, men om du kan høyre ein annan person seie tydelege ord, bør klippet avvisast. Vanlegvis skjer dette der TV-en har vorte ståande på, eller der det går føre seg ein samtale i nærleiken.
+background-voices-example-1 = Dei gigantiske dinosaurane i triastida. [lese av éi røyst]
+background-voices-tip-1 = Kjem du? [blir ropt av ein annan]
 volume-explanation = Det vil vere naturlege variasjonar i volum på dei ulike lesarane. Avvis berre viss volumet er så høgt at opptaket blir brote opp, eller (vanlegare) viss det er så lågt at du ikkje kan høyre kva som blir sagt utan å referere til den skrivne teksten.
 reader-effects-explanation = Dei fleste opptak er av folk som snakkar med den naturlege stemma si. Du kan godta ein og anna ikkje-standard innspeling som blir ropt, kviskra eller openbert leverte med ei «dramatisk» stemme. Ver vennleg og avvis songopptak og dei som bruker ei datamaskinsyntetisert stemme.
 just-unsure-explanation = Viss du kjem over noko som desse retningslinjene ikkje dekkjer, ver vennleg og stem etter beste skjønn. Viss du verkeleg ikkje kan bestemme deg, bruk hopp over-knappen og gå vidare til neste innspeling.
