@@ -505,5 +505,25 @@ export const VARIANTS: Variant[] = [
     locale_name: 'gsw',
     variant_name: 'Hochàlemmànnisch (Hìniga, Pfìrt, usw.)',
     variant_token: 'gsw-FR-hochalem',
-  }
+  },
+  {
+    locale_name: 'ga-IE',
+    variant_name: 'Gaeilge Uladh',
+    variant_token: 'ga-IE-uladh',
+  },
+  {
+    locale_name: 'ga-IE',
+    variant_name: 'Gaeilge Chonnacht',
+    variant_token: 'ga-IE-chonnact',
+  },
+  {
+    locale_name: 'ga-IE',
+    variant_name: 'Gaeilge na Mumhan',
+    variant_token: 'ga-IE-mumhan',
+  },
+  {
+    locale_name: 'ga-IE',
+    variant_name: 'Gaeilge Chaighdeánach',
+    variant_token: 'ga-IE-caighd',
+  },
 ]
