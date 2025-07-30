@@ -20,6 +20,18 @@
 
 - (in v1.147.1) Lowered sentence requirement bands of 43 locales (mostly new ones defaulting to 5000) by [@moz-bozden](https://github.com/moz-bozden) in [#4569](https://github.com/common-voice/common-voice/pull/4969) thank you @ft [@ftyers](https://github.com/ftyers) for his review, and community members flagging the issue.
 
+#### Spontaneous Speech v1.148.0
+
+- Fix: Version parameter missing in Dockerfile by [@moz-dfeller](https://github.com/moz-dfeller) in commits [1](https://github.com/common-voice/spontaneous-speech/commit/6acc11073c578d89bfef438f2c2d358491ea5b38) and [2](https://github.com/common-voice/spontaneous-speech/commit/e234da9e8f9ed553b698b084247bc69245d15e50)
+- Fix: Relax validation pipeline rules, where non-ASCII characters entered through Questions page were rejected. This also increases default max length of questions to 200. By [@moz-bozden](https://github.com/moz-bozden) in [#459](https://github.com/common-voice/spontaneous-speech/pull/459), fixes [#4984](https://github.com/common-voice/common-voice/issues/4984) and [#4927](https://github.com/common-voice/common-voice/issues/4927)
+- Minor Fix: Guidelines links in 3 places were broken by [@moz-bozden](https://github.com/moz-bozden) in [#458](https://github.com/common-voice/spontaneous-speech/pull/458), fixes first issue in [#4940](https://github.com/common-voice/common-voice/issues/4940)
+- Minor Fix: Make guidelines link on expandable component recognizable by [@moz-bozden](https://github.com/moz-bozden) in [#457](https://github.com/common-voice/spontaneous-speech/pull/457)
+- Minor Fix: Pontoon key of submit button in question page was wrong by [@moz-bozden](https://github.com/moz-bozden) in [#456](https://github.com/common-voice/spontaneous-speech/pull/456)
+
+##### SS Data Changes in v1.148.0
+
+- Add Bodo (`brx`) prompts by [@bandrandr](https://github.com/bandrandr) in [#455](https://github.com/common-voice/spontaneous-speech/pull/455)
+
 ### Next release v1.149.0 (TBA)
 
 - Feat (in v1.148.3): Add two legal consent checkboxes to API Credentials and re-enable the tab, by [@moz-rotimib](https://github.com/moz-rotimib) in [#5001](https://github.com/common-voice/common-voice/pull/5001)
@@ -30,7 +42,21 @@
 
 #### Data Changes in v1.149.0 (TBA)
 
-- N/A
+- (in v 1.148.4) Add Irish `ga-IE` variants by [@moz-bozden](https://github.com/moz-bozden) in [#5003](https://github.com/common-voice/common-voice/pull/5003)
+
+#### Spontaneous Speech v1.149.0 (TBA)
+
+- Feat (in v1.148.3): Remove age-gender form from code base because after the public release we are collecting that data in MCV profiles, which might also interfare with merging the two systems if they don't match, by [@moz-bozden](https://github.com/moz-bozden) in [#470](https://github.com/common-voice/spontaneous-speech/pull/470)
+- Feat (in v1.148.3): Remove beta-batches visually and extend the component to show any string on a page if needed, by [@moz-bozden](https://github.com/moz-bozden) in [#469](https://github.com/common-voice/spontaneous-speech/pull/469)
+- Feat (in v1.148.2): Implement a replica of user avatar and username on the menu line to replace current behavior which shows the user email, as a first step to merge both webapps visually. By [@moz-bozden](https://github.com/moz-bozden) in [#460](https://github.com/common-voice/spontaneous-speech/pull/460) and CSS fix in [#468](https://github.com/common-voice/spontaneous-speech/pull/468)
+
+##### SS Data Changes in v1.149.0 (TBA)
+
+- (in v1.148.4) Add 104 Irish (`ga-IE`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#473](https://github.com/common-voice/spontaneous-speech/pull/473)
+- (in v1.148.4) Add 71 Frisian (`fy-NL`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#472](https://github.com/common-voice/spontaneous-speech/pull/472)
+- (in v1.148.2) Add Bashkir (`bak`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#464](https://github.com/common-voice/spontaneous-speech/pull/464)
+- (in v1.148.2) Add German (`de`) questions by [@bandrandr](https://github.com/bandrandr) in [#462](https://github.com/common-voice/spontaneous-speech/pull/462)
+- (in v1.148.2) Add Basaa (`bas`) questions by [@bandrandr](https://github.com/bandrandr) in [#461](https://github.com/common-voice/spontaneous-speech/pull/461)
 
 ## Past releases
 
@@ -61,6 +87,20 @@
 - Move existing `tvu` data to `tvu-ndikini` variant by [@moz-bozden](https://github.com/moz-bozden) in [#4902](https://github.com/common-voice/common-voice/pull/4902)
 - Add `ug-Cyrl` and `ug-Arab` variants by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#4889](https://github.com/common-voice/common-voice/pull/4889)
 - Move existing `ug` data to `ug-Arab` variant by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#4891](https://github.com/common-voice/common-voice/pull/4891)
+
+#### Spontaneous Speech v1.147.0
+
+- Feat: Add docs/CHANGELOG.md
+- Feat: Add migration helper for adding SS questions by [@moz-bozden](https://github.com/moz-bozden) in [#453](https://github.com/common-voice/spontaneous-speech/pull/453)
+- Fix: Remove duplicate or obsolete sentences by [@moz-dfeller](https://github.com/moz-dfeller) in [commit](https://github.com/common-voice/spontaneous-speech/commit/dda63db5a751c5e1c00fd40660d67d4627aeb1be)
+- Fix: Fix redirection issue when an existing user logins [@moz-bozden](https://github.com/moz-bozden) in [#446](https://github.com/common-voice/spontaneous-speech/pull/446)
+- Fix: Fix small tag in main menu [@moz-rotimib](https://github.com/moz-rotimib) in [#445](https://github.com/common-voice/spontaneous-speech/pull/445)
+
+##### SS Data Changes in v1.147.0
+
+- Fix: Two Georgian questions by [@moz-bozden](https://github.com/moz-bozden) in [#452](https://github.com/common-voice/spontaneous-speech/pull/452)
+- Add Mara (`mrh`) questions by [@bandrandr](https://github.com/bandrandr) in [#450](https://github.com/common-voice/spontaneous-speech/pull/450)
+- Add Galician (`gl`) questions by [@bandrandr](https://github.com/bandrandr) in [#449](https://github.com/common-voice/spontaneous-speech/pull/449)
 
 ### [v1.141.3 (2025-04-29)](https://github.com/common-voice/common-voice/releases/tag/release-v1.141.3)
 
