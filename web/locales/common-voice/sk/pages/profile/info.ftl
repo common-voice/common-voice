@@ -92,6 +92,7 @@ api-key-name-input =
     .label = Názov poverenia API
 create-api-key-header = <bold>Dôležité upozornenie: Generovanie poverení API</bold>
 create-api-key-description = Kliknutím na tlačidlo „Generovať poverenia“ vytvoríte jedinečné poverenia pre váš účet. Z bezpečnostných dôvodov sa tajný kľúč zobrazí <bold>iba raz</bold>. Skopírujte si ho a bezpečne uložte. V prípade straty musíte vygenerovať nový kľúč, pretože ho nie je možné získať späť.
+create-api-key-agreement = Súhlasím, že sa nebudem pokúšať identifikovať hovoriacich v kolekcii údajov Common Voice.
 generate-api-key-button = Generovať poverenia
 save-api-key-info = <bold>Bezpečne si uschovajte kľúče</bold>
 save-api-key-info-description = Bezpečne si uložte svoje kľúče a nezverejňujte ich vo verejných úložiskách. TAJNÝ kľúč je prístupný iba teraz a už sa nezobrazí.
