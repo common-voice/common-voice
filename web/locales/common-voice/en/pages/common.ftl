@@ -269,6 +269,7 @@ os = Ossetian
 pa-IN = Punjabi
 pap = Papiamento
 pap-AW = Papiamento (Aruba)
+pcd = Picard
 pcm = Nigerian Pidgin English
 phl = Palula
 phr = Pahari-Pothwari
