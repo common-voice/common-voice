@@ -272,6 +272,7 @@ os = Osetšćina
 pa-IN = Pundžabšćina
 pap = Papiamento
 pap-AW = Papiamento (Aruba)
+pcd = Pikardšćina
 pcm = Nigeriska pidźinowa jendźelšćina
 phl = Palula
 phr = Pahari-Pothwari
