@@ -306,6 +306,12 @@ email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进�
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = 复制
+# Text shown on a button that can be clicked to cancel an action
+cancel = 取消
+# Text shown on a button that can be clicked to delete an item
+delete = 删除
 
 ## Donate banner
 

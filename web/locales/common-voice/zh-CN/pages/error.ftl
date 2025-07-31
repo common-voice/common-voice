@@ -11,3 +11,5 @@ error-content-404 = 也许回到我们的<homepageLink>主页</homepageLink>会�
 error-title-503 = 发生了意外的宕机
 error-content-503 = 网站将尽快恢复正常。请到我们的 <matrixLink>Matrix 社区聊天频道</matrixLink>、<githubLink>GitHub</githubLink> 上的网站问题反馈，或到 <discourseLink>Discourse 论坛</discourseLink>向我们反馈，获取最新信息。
 error-code = { $code } 错误
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all = 无法上传您的 { $total } 个片段，因为此前已经上传过。继续上传下一批吧！
