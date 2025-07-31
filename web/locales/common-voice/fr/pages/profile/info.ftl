@@ -106,3 +106,4 @@ copy-api-credential-error-toast-message = Erreur de copie
 delete-api-key-success-toast-message = Les identifiants d’API ont été supprimés
 add-api-key-name-error = Ajouter un nom pour l’identifiant d’API
 max-api-keys-reached = Dépassement de la limite de 10 identifiants d’API
+duplicate-api-key-name-error = Nom de clé d’API en double
