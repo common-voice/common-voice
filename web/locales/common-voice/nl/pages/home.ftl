@@ -75,9 +75,9 @@ read-more-about = Meer info op onze pagina Over
 
 ## NAV ITEMS
 
-answer-questions = Vragen beantwoorden <small>(binnenkort)</small>
-review-transcriptions = Transcripties beoordelen <small>(binnenkort)</small>
-add-questions = Vragen toevoegen <small>(binnenkort)</small>
+answer-questions = Vragen beantwoorden
+review-transcriptions = Transcripties beoordelen
+add-questions = Vragen toevoegen
 review-questions = Vragen beoordelen
 transcribe-audio = Audio transcriberen
 press-and-stories = Pers en verhalen

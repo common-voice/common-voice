@@ -85,9 +85,9 @@ read-more-about = Mear ynfo op ús side Oer
 
 ## NAV ITEMS
 
-answer-questions = Fragen beäntwurdzje <small>(ynkoarten)</small>
-review-transcriptions = Transkripsjes beoardiele <small>(ynkoarten)</small>
-add-questions = Fragen tafoegje <small>(ynkoarten)</small>
+answer-questions = Fragen beäntwurdzje
+review-transcriptions = Transkripsjes beoardiele
+add-questions = Fragen tafoegje
 review-questions = Fragen beoardiele
 transcribe-audio = Audio transkribearje
 press-and-stories = Parse en ferhalen
