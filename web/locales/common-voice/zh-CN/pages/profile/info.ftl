@@ -38,7 +38,7 @@ do_not_wish_to_say = 保密
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
-why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
+why-profile-text = 语音识别引擎可使用此数据来改进识别准确度。若您能提供一些自己的信息，您向 Common Voice 提交的音频数据将更具实用价值。
 dashboard = 面板
 build-profile = 创建个人资料
 avatar = 头像
