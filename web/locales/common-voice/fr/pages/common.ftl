@@ -272,6 +272,7 @@ os = Ossète
 pa-IN = Pendjabi
 pap = Papiamento
 pap-AW = Papiamento (Aruba)
+pcd = Picard
 pcm = Pidgin nigérian
 phl = Phalura
 phr = Pahari

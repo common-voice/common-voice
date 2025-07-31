@@ -1,5 +1,6 @@
 ## Validate Page
 
+validate-page-instruction = Valider <validateIcon></validateIcon>. Cette proposition respecte-t-elle les consignes de validation ?
 dataset-label = Jeu de données
 accept-vote-toast-message = Question acceptée
 reject-vote-toast-message = Question rejetée
@@ -12,6 +13,7 @@ validate-page-skip-button-shortcut = P
 
 ## Validation guidelines
 
+validation-guidelines-title = Consignes
 validation-guideline-1 = Il est interdit de demander des informations personnelles (ex. : noms, données financières).
 validation-guideline-2 = Pas de remarques offensantes, de préjugés ou de questions sensibles
 validation-guideline-3 = Simple et facile à comprendre par tout le monde
