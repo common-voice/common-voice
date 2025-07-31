@@ -13,3 +13,5 @@ error-content-503 = 网站将尽快恢复正常。请到我们的 <matrixLink>Ma
 error-code = { $code } 错误
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all = 无法上传您的 { $total } 个片段，因为此前已经上传过。继续上传下一批吧！
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = 本次已上传您的 { $uploaded } 个片段，其余片段此前已经上传过。继续上传下一批吧！
