@@ -102,9 +102,6 @@ about-us-menu-item-tooltip = Spoznajte poslanstvo in ekipo, ki stoji za projekto
 
 partnerships-menu-item-aria-label = Več o partnerstvih s Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Tehnologija, ki govori vaš jezik
@@ -116,8 +113,10 @@ get-started = Začnite <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice je brezplačna odprtokodna platforma za ustvarjanje podatkov pod vodstvom skupnosti
 scripted-card-header = Pisani govor
 spontaneous-card-header = Spontani govor
+coming-soon = Kmalu na voljo
 add-text = Dodaj besedilo
 
 ## Community section
@@ -130,12 +129,6 @@ find-us-on-matrix-action = Poiščite nas na Matrixu
 contribute-github = Prispevajte na GitHubu
 # label for button
 contribute-github-action = Prispevajte na GitHubu
-
-## Featured section
-
-
-## Developers section
-
 
 ## Get involved section
 
