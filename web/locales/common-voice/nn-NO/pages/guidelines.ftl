@@ -91,6 +91,7 @@ adding-sentences-subheader-speakable-explanation = Dei beste setningane er natur
 adding-sentences-subheader-numbers = Nummerering
 adding-sentences-subheader-numbers-explanation = Det bør ideelt sett ikkje vere tal i kjeldeteksten fordi dei kan skape problem når dei blir lesne høgt. Måten eit tal blir lese på er avhengig av kontekst og kan føre til forvirring i datasettet. Til dømes kan talet «2409» lesast korrekt som både «tjuefire null ni» og «to tusen fire hundre og ni».
 adding-sentences-subheader-abbreviations = Forkortingar og akronym
+adding-sentences-subheader-abbreviations-explanation = Forkortingar og akronym som «USA» eller «ICE» bør unngåast i kjeldeteksten fordi dei kan lesast på ein måte som ikkje stemmer overeins med stavemåten. I tillegg kan det vere fleire vanlege uttalemåtar for ei enkelt forkorting.
 adding-sentences-subheader-punctuation = Teiknsetting
 adding-sentences-subheader-special-characters = Spesialteikn og utanlandske bokstavar
 adding-sentences-subheader-offensive-content = Krenkande innhald
