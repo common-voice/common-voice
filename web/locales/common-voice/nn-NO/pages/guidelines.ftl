@@ -65,6 +65,13 @@ sentence-domain = Setningsdomene
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = Det er veldig viktig at alle setningar med tekst er <publicDomain>offentleg eigedom</publicDomain> (<cc0>cc0</cc0>) sidan Common Voice-datasettet er gitt ut under ein cc0-lisens. Last berre opp ei setning om du er sikker, og inkluder alltid den relevante kjeldetilvisinga.
+public-domain-explanation-2 = Dei beste setningane for å byggje ein nyttig talegjenkjenningsmotor er daglegdags, moderne språkbruk. Nokre idear for å hjelpe deg med å generere setningar er;
+public-domain-explanation-3 = Lag moderne, daglegdagse setningar sjølv eller saman med vennane dine eller språkmiljøet ditt – til dømes gjennom eit «skrive-maraton»
+public-domain-explanation-4 = Ta kontakt med forfattarar, dramatikarar eller manusforfattarar og spør om dei kan vere villige til å frigi ein liten del av verka sine som offentlege eigedom
+public-domain-explanation-5 = Sjå etter tekstar der opphavsretten ikkje lenger gjeld - til dømes dei fleste bøker som vart gitt ut før 1920
+public-domain-explanation-6 = Ta kontakt med styresmakter, ideelle organisasjonar eller medieorganisasjonar for å sjå om noko av nettinnhalda deira, rapportar eller anna innhald kan frigivast som offentlege eigedom
+citing-sentences-explanation-1 = Det er viktig å inkludere kjeldetilvisingar slik at vi kan sjekke at setningar er offentlege eigedom og at dei ikkje har opphavsrettslege avgrensingar.
 citing-sentences-subheader-websites = Nettstadar
 citing-sentences-subheader-academic-reference = Akademisk referanse
 citing-sentences-subheader-offline-sources = Fråkopla kjelder
