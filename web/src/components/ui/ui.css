@@ -334,6 +334,10 @@ button.card-action:focus.focus-visible path {
     border: none;
     background: none;
     font-family: var(--base-font-family);
+
+    &.left-aligned {
+        text-align: left;
+    }
 }
 
 .toggle-input {
