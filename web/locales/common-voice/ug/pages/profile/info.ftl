@@ -80,3 +80,6 @@ variant-contribution-option-1 = تىلىمدىكى بارلىق شېۋىدىكى
 variant-contribution-option-2 = شېۋەمدىكى جۈملە ۋە ئۈن ئۈزۈندىلىرىنىلا كۆرسەت
 variant-contribution-warning-title = ⓘھەممە جۈملە ۋە ئۈن ئۈزۈندىسىنىڭ شېۋە بەلگىسى بولۇشى ناتايىن!
 variant-contribution-warning-subtitle = تۆھپە قوشۇشتا مەسىلىگە يولۇقسىڭىز، تىلىڭىزدىكى بارلىق مەزمۇنلارنى خالىغان ۋاقىتتا كۆرەلەيسىز.
+api-credentials-use-case-1 = ئاۋاز ئەۋرىشكىسىنى يوللاش
+api-credentials-use-case-2 = سانلىق مەلۇمات توپلىمىنى سۈرۈشتۈرۈش
+api-credentials-use-case-3 = ئاۋاز مودېلىنى تەھلىل قىلىش ۋە ياخشىلاش
