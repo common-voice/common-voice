@@ -98,6 +98,7 @@ adding-sentences-subheader-special-characters = Spesialteikn og utanlandske boks
 adding-sentences-subheader-special-characters-explanation-1 = Bokstavar må vere gyldige på språket som blir snakka. Til dømes er "ж" ein bokstav i det russiske alfabetet, men blir aldri brukt på norsk og bør derfor aldri visast i nokon norsk kjeldetekst.
 adding-sentences-subheader-special-characters-explanation-2 = Språk kan ha sine eigne valideringsreglar med ekstra krav når dei blir omsette. Om det ikkje er noka spesifikk valideringsfil for eit språk, vil dei engelske reglane visast for bidragsytarar.
 adding-sentences-subheader-offensive-content = Krenkande innhald
+adding-sentences-subheader-offensive-content-explanation = Viss setninga er støytande eller opprørande – til dømes på grunn av eksplisitt innhald, eller eit anna brot på <communityGuidelines>retningslinjene våre for samfunnsdeltaking</communityGuidelines> – bør du avvise setninga. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment> for å eskalere problemet.
 
 ## Question collection ids
 
