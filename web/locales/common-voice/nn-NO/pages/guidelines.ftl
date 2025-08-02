@@ -93,7 +93,10 @@ adding-sentences-subheader-numbers-explanation = Det bør ideelt sett ikkje vere
 adding-sentences-subheader-abbreviations = Forkortingar og akronym
 adding-sentences-subheader-abbreviations-explanation = Forkortingar og akronym som «USA» eller «ICE» bør unngåast i kjeldeteksten fordi dei kan lesast på ein måte som ikkje stemmer overeins med stavemåten. I tillegg kan det vere fleire vanlege uttalemåtar for ei enkelt forkorting.
 adding-sentences-subheader-punctuation = Teiknsetting
+adding-sentences-subheader-punctuation-explanation = Spesialsymbol og teiknsetjing bør berre brukast når det er absolutt nødvendig. Til dømes er ein apostrof inkludert i engelske ord som «don’t» og «we’reie», og bør inkluderast i kjeldeteksten, men det er usannsynleg at du nokon gong vil trenge eit spesielt symbol som «@» eller «#».
 adding-sentences-subheader-special-characters = Spesialteikn og utanlandske bokstavar
+adding-sentences-subheader-special-characters-explanation-1 = Bokstavar må vere gyldige på språket som blir snakka. Til dømes er "ж" ein bokstav i det russiske alfabetet, men blir aldri brukt på norsk og bør derfor aldri visast i nokon norsk kjeldetekst.
+adding-sentences-subheader-special-characters-explanation-2 = Språk kan ha sine eigne valideringsreglar med ekstra krav når dei blir omsette. Om det ikkje er noka spesifikk valideringsfil for eit språk, vil dei engelske reglane visast for bidragsytarar.
 adding-sentences-subheader-offensive-content = Krenkande innhald
 
 ## Question collection ids
