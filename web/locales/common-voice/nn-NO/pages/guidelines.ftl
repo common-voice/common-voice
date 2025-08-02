@@ -115,6 +115,7 @@ what-makes-a-good-question-subheader = Korleis ser eit godt spørsmål ut?
 what-makes-a-good-question-explanation = Eit  godt spørsmål for datasett for offentleg deltaking bør:
 what-makes-a-good-question-explanation-criteria-1 = Verelett å forstå og svare på
 what-makes-a-good-question-explanation-criteria-2 = Vere generelt relevant
+what-makes-a-good-question-explanation-criteria-3 = Ikkje bruke, eller oppfordre til skadeleg eller støytande språk
 easy-to-understand = Lett å forstå
 spelling-and-pronunciation = Stavemåte og teiknsetting
 spelling-and-pronunciation-explanation = Bruk korrekt staving og grammatikk.
