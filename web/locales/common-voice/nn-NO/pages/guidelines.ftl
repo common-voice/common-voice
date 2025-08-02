@@ -99,6 +99,11 @@ adding-sentences-subheader-special-characters-explanation-1 = Bokstavar må vere
 adding-sentences-subheader-special-characters-explanation-2 = Språk kan ha sine eigne valideringsreglar med ekstra krav når dei blir omsette. Om det ikkje er noka spesifikk valideringsfil for eit språk, vil dei engelske reglane visast for bidragsytarar.
 adding-sentences-subheader-offensive-content = Krenkande innhald
 adding-sentences-subheader-offensive-content-explanation = Viss setninga er støytande eller opprørande – til dømes på grunn av eksplisitt innhald, eller eit anna brot på <communityGuidelines>retningslinjene våre for samfunnsdeltaking</communityGuidelines> – bør du avvise setninga. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment> for å eskalere problemet.
+reviewing-sentences-explanation-1 = Viss setninga oppfyller kriteria ovanfor, klikkar du på «Ja»-knappen.
+reviewing-sentences-explanation-2 = Viss setninga ikkje oppfyller kriteria ovanfor, klikkar du på «Nei»-knappen.
+reviewing-sentences-explanation-3 = Om du er usikker på setninga, kan du også hoppe over ho og gå vidare til neste.
+reviewing-sentences-explanation-4 = Om du går tom for setningar å vurdere, gjer vel og hjelp oss med å samle inn fleire setningar!
+domain-explanation = Domene refererer til emnet for setninga. Akkurat no kan du velje mellom:
 
 ## Question collection ids
 
@@ -107,6 +112,9 @@ adding-questions = Legg til spørsmål
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Korleis ser eit godt spørsmål ut?
+what-makes-a-good-question-explanation = Eit  godt spørsmål for datasett for offentleg deltaking bør:
+what-makes-a-good-question-explanation-criteria-1 = Verelett å forstå og svare på
+what-makes-a-good-question-explanation-criteria-2 = Vere generelt relevant
 easy-to-understand = Lett å forstå
 spelling-and-pronunciation = Stavemåte og teiknsetting
 spelling-and-pronunciation-explanation = Bruk korrekt staving og grammatikk.
