@@ -4,23 +4,25 @@
 // - Replicate data in local dev environment
 // - Do extensive testing
 // For special cases, one should duplicate migrateAccentsToVariants_default => migrateAccentsToVariants_language_code and work on it
-import { AV_MAPPING_TYPE, migrateAccentsToVariants_default } from '../migration-helpers'
+import {
+  AV_MAPPING_TYPE,
+  migrateAccentsToVariants_default,
+} from '../migration-helpers'
 
 const LOCALE_CODE = 'ga-IE'
 
 // MAPPING: [accent_token, variant_token]
 // These are 1-to-1 mappings
 const MAPPING: AV_MAPPING_TYPE = [
-  ["connachta", "ga-IE-chonnact"],
-  ["mumhain", "ga-IE-mumhan"],
-  ["ulaidh", "ga-IE-uladh"]
+  ['connachta', 'ga-IE-chonnact'],
+  ['mumhain', 'ga-IE-mumhan'],
+  ['ulaidh', 'ga-IE-uladh'],
 ]
 
 //
 // Do not change the code below unless database structure has been changed
 //
 export const up = async function (db: any): Promise<any> {
-  // Find locale id
   return await migrateAccentsToVariants_default(db, LOCALE_CODE, MAPPING)
 }
 
