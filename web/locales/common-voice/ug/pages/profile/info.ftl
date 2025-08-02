@@ -61,6 +61,7 @@ login = كىرىش
 edit = تەھرىرلەش
 email-subscriptions = ئېلخەت مۇشتەرىلىكى
 download-profile = سانلىق مەلۇماتىمنى چۈشۈرىمەن
+api-credentials = API
 contribution-experience = تۆھپە تەجرىبىسى
 skip-submission-feedback = تەكلىپ يوللاشتىن ئاتلا
 skip-submission-description = تۆھپىڭىز تاپشۇرۇش جەريانىدا «يوللاش» چېكىلسە تەكلىپ يوللاشتىن ئاتلاپ ئۆتۈپ كېتىدۇ. تۆھپە كېيىنكى 5 يۈرۈش خاتىرىلەش ياكى دەلىللەش بىلەن بىۋاسىتە داۋاملىشىدۇ.
