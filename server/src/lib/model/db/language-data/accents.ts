@@ -360,4 +360,34 @@ export const ACCENTS: Accent[] = [
     accent_name: 'Beğlevani (Güreşen)',
     accent_token: 'beğlevanuri',
   },
+  {
+    locale_name: 'ga-IE',
+    accent_name: 'Cainteoir dúchais, Gaeltacht',
+    accent_token: 'cainteoir_dúchais_gaeltacht',
+  },
+  {
+    locale_name: 'ga-IE',
+    accent_name: 'Cainteoir dúchais, lasmuigh den Ghaeltacht',
+    accent_token: 'cainteoir_dúchais_lasmuigh_den_ghaeltacht',
+  },
+  {
+    locale_name: 'ga-IE',
+    accent_name: 'Cainteoir líofa, ní ó dhúchas',
+    accent_token: 'cainteoir_líofa_ní_ó_dhúchas',
+  },
+  {
+    locale_name: 'ga-IE',
+    accent_name: 'Foghlaimeoir, i nGaelscoil',
+    accent_token: 'foghlaimeoir_i_ngaelscoil',
+  },
+  {
+    locale_name: 'ga-IE',
+    accent_name: 'Foghlaimeoir fásta, ó Bhéarla',
+    accent_token: 'foghlaimeoir_fásta_ó_bhéarla',
+  },
+  {
+    locale_name: 'ga-IE',
+    accent_name: 'Foghlaimeoir fásta, ó theanga eile',
+    accent_token: 'foghlaimeoir_fásta_ó_theanga_eile',
+  },
 ]
