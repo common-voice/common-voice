@@ -86,3 +86,4 @@ api-credentials-use-case-3 = Analysere og forbedre talemodellar
 api-credentials-description-conclusion = Bli med oss for å utvikle stemmeteknologi og leggje til rette for fleire brukarbidrag.
 create-api-key-button = Opprett API-innloggingsinformasjon
 your-api-keys = API-innloggingsopplysningane dine dine
+no-api-keys-header = <bold>Det er akkurat no ingen API-innloggingsdetaljar knytt til kontoen din.</bold>
