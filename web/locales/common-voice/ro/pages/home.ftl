@@ -143,6 +143,26 @@ find-us-on-matrix-content = Matrix reprezintă un protocol deschis pentru comuni
 find-us-on-matrix-action = Contactează-ne pe Matrix
 ask-mozilla-share = Organizezi evenimente? Spune și echipei Mozilla!
 ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spune-ne și nouă pentru a-i anunța pe toți din comunitatea noastră. Putem scrie și o postare pe un blog despre evenimentul tău!
+# label for button
+ask-mozilla-share-action = Invită la eveniment!
+download-contribution-certificate = Ai contribuit? Descarcă-ți certificatul!
+download-contribution-certificate-content = Descarcă un certificat pentru evenimentele pe care le-ai organizat sau chiar și pentru tine dacă ai contribuit la Common Voice — acest proiect nu ar fi posibil fără tine!
+# label for button
+download-contribution-certificate-action = Obține-ți certificatul
+contribute-github = Contribuie pe GitHub
+contribute-github-content = Acest proiect nu ar fi posibil fără oameni ca tine. 🎉 Te poți implica în diverse feluri în Common Voice, chiar și dacă nu știi să programezi!
+# label for button
+contribute-github-action = Contribuie pe GitHub
+
+## Featured section
+
+featured-section-title = Menționat pe...
+# icon is an arrow that points downwards
+download-press-pack = Descarcă dosarul nostru pentru presă <icon></icon>
+
+## Developers section
+
+developers-section-title = Seturi de date vocale cu sursă deschisă accesibile publicului în peste 130 de limbi
 
 ## Get involved section
 
