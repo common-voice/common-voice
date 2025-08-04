@@ -91,4 +91,7 @@ no-api-keys-description = For å opprette den første API-nøkkelen din, klikk p
 api-key-name-input =
     .label = API-innloggingsinformasjonsnamn
 create-api-key-header = <bold>Viktigt melding: Generering av API-inloggingsinformasjon</bold>
+create-api-key-description = Om du klikkar på «Generer innloggingsinformasjon», blir unik innloggingsinformasjon oppretta for kontoen din. Av tryggingsomsyn blir den hemmelege nøkkelen vist <bold>berre éin gong</bold>. Kopier og oppbevar hann sikkert. Om du mistar hann, må du generere ein ny nøkkel, då han ikkje kan hentast fram igjen.
+create-api-key-agreement = Eg samtykker i at eg ikkje vil prøve å identifisere talarane i Common Voice-datasettet.
 generate-api-key-button = Generer innloggingsinformasjon
+save-api-key-info = <bold>Oppbevar nøklane dine sikkert</bold>
