@@ -185,7 +185,11 @@ const InputLanguageAccentsInput = ({
                         style: {
                           backgroundColor:
                             highlightedIndex === index
-                              ? 'var(--light-grey)'
+                              ? '#1967d2'
+                              : 'initial',
+                          color:
+                            highlightedIndex === index
+                              ? '#ffffff'
                               : 'initial',
                         },
                       })}>
