@@ -11,6 +11,10 @@ partnerships-governments-header = Regjeringar
 partnerships-governments-description = Vi er glade for å stø offentleg sektor sitt engasjement innan teknologi, innovasjon og språkrettar. Viss du planlegg å køyre eit større prosjekt eller ein kampanje, kan du <emailFragment>ta kontakt.</emailFragment>
 partnerships-academia-header = Universitet, akademikarar og forskarar
 partnerships-academia-description = Open innovasjon er kjernen i det vi gjer. For forskingssamarbeid, datainnsamling eller intervju, <emailFragment>ta kontakt.</emailFragment>
+partnerships-small-business-header = Små bedrifter, inkludert oppstartsbedrifter innan teknologi og kunstig intelligens
+partnerships-small-business-description = Vi er alltid ute etter å høyre frå dataforbrukarar om behova og konteksten deira – frå samarbeid om datainnsamlingsplattforma til å gi datahelseinnsikt, vi ønskjer å <emailFragment>høyre frå deg.</emailFragment>
+partnerships-corporates-header = Storskala bedrifter og plattformselskap
+partnerships-corporates-description = Om du ønskjer å snakke meir om datasettet, ønskjer å medinvestere i planlagde plattformutvidingar, eller sjå etter samarbeidsmoglegheiter, <emailFragment>send oss ei melding.</emailFragment>
 partnerships-our-partners = Partnarane våre
 # menu item
 partners = Partnarar

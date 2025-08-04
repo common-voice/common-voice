@@ -59,6 +59,7 @@ login = Logg inn
 edit = Rediger
 email-subscriptions = E-postabonnement
 download-profile = Last ned mine data
+api-credentials = API
 contribution-experience = Bidragserfaring
 skip-submission-feedback = Hopp over tilbakemelding
 skip-submission-description = I løpet av bidragsinnsening vil tilbakemelding bli hoppa over etter å ha klikka «Send inn». Deretter fortset vi direkte med det neste settet med 5 innspelingar eller valideringar.
