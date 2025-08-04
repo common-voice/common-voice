@@ -33,6 +33,8 @@ male_masculine = Masculin
 female_feminine = Feminin
 intersex = Intersex
 transgender = Transgen
+non-binary = Non-binar
+do_not_wish_to_say = Prefer să nu spun
 # Gender
 other = Altul
 why-profile-title = De ce un profil?
