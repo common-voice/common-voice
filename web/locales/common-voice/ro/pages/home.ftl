@@ -141,6 +141,7 @@ find-us-on-matrix = Contactează-ne pe Matrix
 find-us-on-matrix-content = Matrix reprezintă un protocol deschis pentru comunicare descentralizată în timp real. La ora actuală este platforma preferată de Mozilla pentru discuții deschise.
 # label for button
 find-us-on-matrix-action = Contactează-ne pe Matrix
+ask-mozilla-share = Organizezi evenimente? Spune și echipei Mozilla!
 ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spune-ne și nouă pentru a-i anunța pe toți din comunitatea noastră. Putem scrie și o postare pe un blog despre evenimentul tău!
 
 ## Get involved section
