@@ -128,3 +128,6 @@ culturally-specific-questions = Kulturspesifikke spørsmål
 culturally-specific-questions-explanation = Spørsmål som er svært kulturspesifikke, eller som gjer mange gjettingar og antakingar om den som svarar
 length-avoid-explanation = Spørsmål som nokon ville hatt problem med å svare på på 15 sekund (maksimal klippelengde)
 process-steps = Prosess / steg
+process-steps-explanation = Spørsmål som krev at nokon listar opp fleire steg. Å liste opp steg ber brukaren om å lese opp eit svar i staden for eit meir naturleg svar.
+offensive-content-sensitive-information = Støytande innhald eller sensitiv informasjon
+offensive-content-sensitive-information-explanation-explanation-1 = Spørsmål som kan be om personleg identifiserbar informasjon
