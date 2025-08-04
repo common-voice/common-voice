@@ -108,5 +108,6 @@ fetching-api-keys-error-toast-message = Eroare la preluarea credențialelor pent
 copy-api-credential-success-toast-message = Copiere cu succes!
 copy-api-credential-error-toast-message = Eroare în timpul copierii.
 delete-api-key-success-toast-message = Credențialul API a fost șters cu succes.
+add-api-key-name-error = Dă un nume credențialului API.
 max-api-keys-reached = Limita de 10 credențiale pentru API a fost depășită
 duplicate-api-key-name-error = Nume cheie API duplicat
