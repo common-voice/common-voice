@@ -78,6 +78,7 @@ read-more-about = Les meir på Om oss-sida vår
 answer-questions = Svar på spørsmål
 review-transcriptions = Vurder transkripsjonar
 add-questions = Legg til spørsmål
+review-questions = Vurder spørsmål
 transcribe-audio = Transkriber lyd
 press-and-stories = Presse og historier
 community-and-languages = Fellesskap og språk
@@ -89,18 +90,19 @@ spontaneous-speech = SPONTAN TALE
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnarskap, presse og historier, fellesskap og språk.
+about-us-menu-item-tooltip = Les meir om oppdraget og teamet bak Common Voice
 partnerships-menu-item-tooltip = Bli partnar med oss
 press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
 community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Meny for å få tilgang til partnarskap, presse og historier, fellesskap og språk
+about-us-menu-aria-label = Alternativmeny — Om
+about-us-menu-item-aria-label = Alternativmeny — Om oss
 partnerships-menu-item-aria-label = Lær om partnarskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tilgang til pressemeldingar og historier relatert til Common Voice
 community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språka som blir støtta av Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -116,8 +118,10 @@ get-started = Kom i gang <icon><icon>
 action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd datainnsamling
 action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbetre tekst- og taledatasett.
 scripted-card-header = Opplesen tekst
+scripted-card-content = Les setningar høgt på språket ditt og bidra til det mest mangfaldige taledatasettet i heile verda.
 spontaneous-card-header = Spontan tale
 language-text-card-header = Tekstspråk
+coming-soon = Kjem snart
 add-text = Legg til tekst
 
 ## Community section
