@@ -102,3 +102,5 @@ api-client-id-display-label = API-klient-ID
 api-key-modal-confirmation-header = Er du sikker?
 cancel-api-key-confirmation-description = Er du sikker på at du vil avbryte genereringa av ein API-innloggingsinformasjon?
 delete-api-key-confirmation-description = Er du sikker på at du vil slette API-innloggingsinformasjonen <bold>{ $apiKeyName }</bold>? Denne handlinga kan ikkje angrast
+create-api-key-error-toast-message = Feil ved oppretting av innloggingsinfo
+delete-api-key-error-toast-message = Feil ved sletting av API-innloggingsinfo
