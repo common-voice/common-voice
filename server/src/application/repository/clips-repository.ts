@@ -16,7 +16,7 @@ export type FetchVariantClips = (
 export const fetchVariantClipsFromDB: FetchVariantClips = (variant: Variant) =>
   pipe(
     [variant.id, variant.id, VARIANT_CLIPS_LIMIT],
-    lazyQueryDb(`fetch-variant-clips-${variant.name}`)(TimeUnits.MINUTE)(
+    lazyQueryDb(`fetch-variant-clips-${variant.tag}`)(10 * TimeUnits.MINUTE)(
       `
         SELECT c.id, c.client_id, c.path, c.sentence, c.original_sentence_id
         FROM clips c

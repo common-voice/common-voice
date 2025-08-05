@@ -272,6 +272,7 @@ os = Osseta
 pa-IN = Punjabi
 pap = Papiamento
 pap-AW = Papiamento (Aruba)
+pcd = Picard
 pcm = Pidgin nigerian anglese
 phl = Palula
 phr = Pahari-Pothwari
@@ -439,6 +440,12 @@ email-opt-in-info-sub-with-challenge = Recipe emails como rememorationes de defi
 email-opt-in-privacy-v2 = Si tu opta pro reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Copiar
+# Text shown on a button that can be clicked to cancel an action
+cancel = Cancellar
+# Text shown on a button that can be clicked to delete an item
+delete = Deler
 
 ## Donate banner
 

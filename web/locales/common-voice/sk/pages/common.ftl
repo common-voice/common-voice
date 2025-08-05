@@ -272,6 +272,7 @@ os = osetčina
 pa-IN = pandžábčina
 pap = papiamento
 pap-AW = papiamento (Aruba)
+pcd = picard
 pcm = Nigerian Pidgin English
 phl = palula
 phr = pahari-pothwari
@@ -439,6 +440,12 @@ email-opt-in-info-sub-with-challenge = Dostávajte e‑maily, ako sú upozorneni
 email-opt-in-privacy-v2 = Prihlásením sa na odber e‑mailov vyjadrujete, že súhlasíte s tým, že Mozilla narába s týmito informáciami tak, ako je vysvetlené v <privacyLink>Zásadách ochrany osobných údajov</privacyLink> spoločnosti Mozilla.
 indicates-required = * označuje povinné pole
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopírovať
+# Text shown on a button that can be clicked to cancel an action
+cancel = Zrušiť
+# Text shown on a button that can be clicked to delete an item
+delete = Odstrániť
 
 ## Donate banner
 

@@ -85,6 +85,7 @@ api-credentials-use-case-2 = Adatkészletek lekérése
 api-credentials-use-case-3 =
     Beszédmodellek elemzése és tökéletesítése
     Ez az együttműködési platform nem csak a pontosabb hangfelismerő rendszerek készítését segíti elő, hanem lehetővé teszi a felhasználóknak, hogy hozzájáruljanak a hangtechnológia fejlődéséhez.
+api-credentials-description-conclusion = Csatlakozzon hozzánk a hangtechnológia fejlesztésében, és tegyen lehetővé még több felhasználói közreműködést.
 create-api-key-button = API hitelesítési adatok létrehozása
 your-api-keys = Saját API hitelesítési adatok
 no-api-keys-header = <bold>Jelenleg nincsenek API hitelesítő adatok társítva a fiókjához.</bold>
@@ -96,8 +97,10 @@ api-key-name-input =
     .label = API hitelesítési adat neve
 create-api-key-header = <bold>Fontos megjegyzés: API hitelesítési adatok előállítása</bold>
 create-api-key-description = A „Hitelesítési adatok előállítása” gombra kattintva egyedi hitelesítő adatokat hoz létre a fiókjához. Biztonsági okokból a titkos kulcs <bold>csak egyszer</bold> jelenik meg. Másolja le és tárolja biztonságosan. Ha elveszett, akkor újat kell előállítania, mivel az nem kérhető le.
+create-api-key-agreement = Beleegyezek, hogy nem kísérlem meg a Common Voice adatkészletben beszélők azonosítását.
 generate-api-key-button = Hitelesítési adatok előállítása
 save-api-key-info = <bold>Mentse biztonságosan a kulcsait:</bold> Tárolja biztonságosan a kulcsait, és kerülje el, hogy nyilvános tárolókba kerüljenek. A TITKOS kulcs csak most érhető el, és nem fog újra megjelenni.
+save-api-key-info-description = Tárolja biztonságosan a kulcsait, és kerülje el, hogy azok nyilvános forráskódtárolókba kerüljenek. A TITKOS kulcs csak most érhető el, és nem fog újra megjelenni.
 api-key-name-display-label = API hitelesítési adat neve
 api-client-secret-display-label = API klienstitka
 api-client-id-display-label = API kliensazonosítója

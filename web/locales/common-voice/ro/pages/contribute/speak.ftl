@@ -55,7 +55,7 @@ first-cta-gender-select-help-text =
     .label = Care este sexul sau genul tău?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Mulțumim că ne-ai donat înregistrările tale vocale!
-second-cta-subtitle-text = Dacă iți creezi un profil, vei putea să-ți urmărești activitatea și să iei legătura cu toți cei care contribuie și ei date vocale.
+second-cta-subtitle-text = Dacă iți creezi un profil, vei putea să-ți urmărești activitatea și să iei legătura cu toți cei care contribuie și ei cu date vocale.
 already-have-an-account = Ai deja un cont? <login>Autentificare</login>
 create-profile-button = Creează un profil
 # IMAGE TAGS

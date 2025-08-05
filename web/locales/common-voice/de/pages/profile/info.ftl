@@ -95,6 +95,7 @@ api-key-name-input =
     .label = Name der API-Zugangsdaten
 create-api-key-header = <bold>Wichtiger Hinweis: Generierung von API-Zugangsdaten</bold>
 create-api-key-description = Wenn Sie auf „Zugangsdaten erzeugen“ klicken, werden eindeutige Zugangsdaten für Ihr Konto erstellt. Aus Sicherheitsgründen wird der Geheimschlüssel <bold>nur einmal</bold> angezeigt. Bitte kopieren Sie diesen und bewahren Sie ihn sicher auf. Wenn er verloren geht, müssen Sie einen neuen Schlüssel erzeugen, da er nicht wiederhergestellt werden kann.
+create-api-key-agreement = Ich stimme zu, dass ich nicht versuchen werde, die Sprecher im Common-Voice-Datensatz zu identifizieren.
 generate-api-key-button = Zugangsdaten erzeugen
 save-api-key-info = <bold>Speichern Sie Ihre Schlüssel sicher</bold>
 save-api-key-info-description = Bewahren Sie Ihre Schlüssel sicher auf und vermeiden Sie deren Veröffentlichung in öffentlichen Speichern. Der GEHEIM-Schlüssel ist nur jetzt zugänglich und wird nicht wieder angezeigt.

@@ -129,3 +129,4 @@ length-avoid-explanation = بىرەيلەن 15 سېكۇنت (ئەڭ ئۇزۇن �
 process-steps = جەريان/باسقۇچ
 offensive-content-sensitive-information = كىشىنى بىزار قىلىدىغان مەزمۇن ياكى سەزگۈر ئۇچۇر
 offensive-content-sensitive-information-explanation-explanation-1 = شەخسىي سالاھىيەت ئۇچۇرىنى تەلەپ قىلىشى مۇمكىن بولغان سوئال
+example-questions-subheader = مىسال سوئاللىرى

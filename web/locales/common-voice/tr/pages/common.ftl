@@ -357,6 +357,12 @@ email-opt-in-info-sub-with-challenge = Hedef hatırlatmaları, ilerleme durumu v
 email-opt-in-privacy-v2 = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
 indicates-required = * Gerekli alanları gösterir
 not-available-abbreviation = Yok
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopyala
+# Text shown on a button that can be clicked to cancel an action
+cancel = Vazgeç
+# Text shown on a button that can be clicked to delete an item
+delete = Sil
 
 ## Donate banner
 

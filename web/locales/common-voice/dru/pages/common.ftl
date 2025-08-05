@@ -2,6 +2,13 @@
 # [Languages]
 
 
+## Languages
+
+dru = Drekay
+
+# [/]
+
+
 ## Layout
 
 terms = hulrice

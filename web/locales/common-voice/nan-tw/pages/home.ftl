@@ -77,26 +77,30 @@ read-more-about = 到咱的「關於」頁面了解閣較濟資訊
 answer-questions = 回答問題 <small>(咧欲推出)</small>
 review-transcriptions = 審核轉錄 <small>咧欲推出</small>
 add-questions = 新增問題 <small>(咧欲推出)</small>
+review-questions = 審核問題
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體佮故事
 community-and-languages = 社群佮語言
 coming-soon = 咧欲推出
+about-us = 關於咱
+scripted-speech = 有記錄的講話內容
+spontaneous-speech = 家己的講話內容
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = 合作夥伴、媒體佮故事、社群佮語言
+about-us-menu-item-tooltip = 知影計畫的精神佮 Common Voice 背後的團隊
 partnerships-menu-item-tooltip = 成為夥伴
 press-and-stories-menu-item-tooltip = 到咱的部落格抑是撰寫咱的故事
 community-and-languages-menu-item-tooltip = 探索語言、社群佮 Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-us-menu-aria-label = 關於選項選單
+about-us-menu-item-aria-label = 關於咱的選單
 partnerships-menu-item-aria-label = 了解如何佮 Common Voic變成夥伴
 press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿佮故事
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -117,7 +121,9 @@ spontaneous-card-header = 家己的講話內容
 spontaneous-card-content = 回答有情境的問題來創作有機、平時講話慣常的資料集。適合予口說為主的語言。
 language-text-card-header = 語言文字
 language-text-card-content = 創作抑是分享公有領域的情境問答、字句、佮文字會當來翻譯、細語言模型、閣較濟應用。
+coming-soon = 咧欲推出
 add-text = 加添文字
+answer = 答案
 
 ## Community section
 

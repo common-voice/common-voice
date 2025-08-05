@@ -272,6 +272,7 @@ os = Οσσετικά
 pa-IN = Παντζάμπι
 pap = Παπιαμέντο
 pap-AW = Παπιαμέντο (Αρούμπα)
+pcd = Πικάρ
 pcm = Αγγλικά Pidgin (Νιγηρία)
 phl = Παλούλα
 phr = Παχάρι-Ποτβάρι
@@ -439,6 +440,12 @@ email-opt-in-info-sub-with-challenge = Λάβετε email, όπως υπενθυ
 email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με τον χειρισμό αυτών των δεδομένων από τη Mozilla, όπως εξηγεί η <privacyLink>Πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Αντιγραφή
+# Text shown on a button that can be clicked to cancel an action
+cancel = Ακύρωση
+# Text shown on a button that can be clicked to delete an item
+delete = Διαγραφή
 
 ## Donate banner
 
