@@ -74,6 +74,13 @@ about-playbook-how-add-language-content-1 =
     Estas du stadioj: traduko de la retejo kaj kolekto de frazoj.
 about-playbook-how-add-language-translating-heading = Traduko de la retejo
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Spektu nian gvidilon pri kiel uzi Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Ni uzas ilon de Mozilla nomata <pontoonLink>Pontoon</pontoonLink> por tradukoj. Pontoon havas multajn lingvojn,  
+    sed se ĝi ne havas vian, vi povas <pontoonRequestLink>peti aldoni ĝin</pontoonRequestLink>.  
+    Poste, por igi la lingvon disponebla en la projekto Common Voice,  
+    <pontoonRequestLink>petu la novan lingvon en GitHub</pontoonRequestLink>. <localizationFragment>Jen pli da informo pri traduko de la retejo</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Kolekto de frazoj
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Spektu nian gvidilon pri uzo de la kolektilo de frazoj</sentenceCollectorVideo>.
 
 ## How are decisions made
 
