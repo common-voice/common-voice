@@ -71,7 +71,7 @@ about-playbook-how-add-language = Kiel aldoni lingvon?
 about-playbook-how-add-language-content-1 =
     Unue, kontrolu ĉu via lingvo <languageLink>jam ekzistas</languageLink>.  
     Se ne, vi povas <languageRequestLink>peti aldoni vian lingvon</languageLink>.  
-    Estas du stadioj: traduko de la retejo kaj kolekto de frazoj.
+    Estas du stadioj: traduko de la retejo kaj kolektado de frazoj.
 about-playbook-how-add-language-translating-heading = Traduko de la retejo
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Spektu nian gvidilon pri kiel uzi Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
@@ -79,8 +79,24 @@ about-playbook-how-add-language-translating-content-2 =
     sed se ĝi ne havas vian, vi povas <pontoonRequestLink>peti aldoni ĝin</pontoonRequestLink>.  
     Poste, por igi la lingvon disponebla en la projekto Common Voice,  
     <pontoonRequestLink>petu la novan lingvon en GitHub</pontoonRequestLink>. <localizationFragment>Jen pli da informo pri traduko de la retejo</localizationFragment>.
-about-playbook-how-add-language-collecting-sentences-heading = Kolekto de frazoj
+about-playbook-how-add-language-collecting-sentences-heading = Kolektado de frazoj
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Spektu nian gvidilon pri uzo de la kolektilo de frazoj</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Vi povas <sentenceCollectorLinkAdd>aldoni malmultajn frazojn</sentenceCollectorLinkAdd>,  
+    aŭ vi povas fari <bulkImportDocsLink>amasan enporton per GitHub</bulkImportDocsLink>.  
+    Memoru, ke frazoj devas esti sub la permesilo <licenseLink>CC0 (aŭ en la publika regno)</licenseLink>, aŭ vi povas verki viajn proprajn.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Vidu pli pri kolektado de frazoj</sentenceCollectorFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Kiel funkcias la traduko de la retejo?
+about-playbook-how-localize-content-1 = La traduko de la retejo de Common Voice okazas ĉe <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = La retejo estos preta por lanĉo kiam ĝi atingos 75%-an kompletigon.
+about-playbook-how-localize-content-5 = Spektu nian klarigan video kiel helpon
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Kiel aldoni frazojn?
 
 ## How are decisions made
 
