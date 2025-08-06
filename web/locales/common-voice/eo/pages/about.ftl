@@ -102,6 +102,19 @@ about-playbook-how-add-sentences-content-1 = Vi povas aldoni frazojn en <writePa
 ## How to record quality
 
 about-playbook-how-record-quality = Kiel registri altkvalitan voĉregistraĵon?
+about-playbook-how-record-content-1 = Parolu per via normala voĉo! Via parolmaniero estas bonvena ĉi tie - ni volas vian akĉenton kia ĝi estas, kaj ni volas vian kutiman laŭtecon, stilon kaj frazmelodion.
+about-playbook-how-record-content-2 = Evitu tro da fona bruo - devus esti facile aŭdi vin.
+about-playbook-how-record-content-3 = Legu la frazon atente - ne preterlasu, ŝanĝu aŭ aldonu vortojn.
+about-playbook-how-record-content-4 = Certigu, ke la platformo registras antaŭ ol vi komencas paroli, kaj ke ĝi ĉesas nur kiam vi finos.
+about-playbook-how-record-content-5 = <accuracyLink>Pli da informo pri precizecaj kriterioj.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Kiel ni povas efike kreskigi lingvon en Common Voice?
+about-playbook-how-grow-language-content-1 = Krei ŝancojn por ke diverseco da homoj kontribuu al Common Voice certigas, ke la datumbazo servu kiel eble plej multajn homojn. Ni kreis rimedojn kaj ŝablonojn, kiujn vi povas uzi!
+about-playbook-how-grow-language-content-2 = Eventoj
+about-playbook-how-grow-language-content-4 = Sociaj retoj
+about-playbook-how-grow-language-content-5 = Vi povas uzi viajn sociajn reton por diskonigi la mesaĝon. Dividu mesaĝojn, kiuj klarigas kial ĝi gravas kaj kontaktu aliajn personojn kiuj priparolas temojn, kiel ekzemple lingvajn rajtojn, A.I. voĉon, aŭ antaŭjuĝojn en teknologio. Vidu pli da konsiloj pri <campaignLink>kiel ruli socian kampanjon, kun enhavo kiun vi povas reuzi</campaignLink>.
 
 ## How are decisions made
 
