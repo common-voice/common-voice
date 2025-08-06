@@ -97,6 +97,7 @@ about-playbook-how-localize-content-5 = Spektu nian klarigan video kiel helpon
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kiel aldoni frazojn?
+about-playbook-how-add-sentences-content-1 = Vi povas aldoni frazojn en <writePageLink>Skribi paĝon</writePageLink> aŭ kontroli frazojn en <reviewPageLink>Kontroli paĝon</reviewPageLink>.
 
 ## How are decisions made
 
