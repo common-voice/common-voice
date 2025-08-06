@@ -48,6 +48,8 @@ about-get-involved-text-2 =
     aŭ aliĝu al la komunuma retbabilejo en la <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Kiel resti en kontakto?
 about-stay-in-touch-button = Registriĝi
+about-stay-in-touch-text-1 = <emailFragment>Aliĝu</emailFragment> al nia retpoŝta listo por ekscii kiel vi povas partopreni en kampanjoj, eventoj kaj kunprojekti funkciojn en Common Voice.
+about-stay-in-touch-text-2 = Vi povas renkonti aliajn personojn en la lingvokomunumoj de Mozilla aliĝante al <discourseLink>Discourse</discourseLink> por konversacioj pri specifaj temoj, aŭ al <matrixLink>Matrix</matrixLink> por rapidaj konsiloj.
 about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
@@ -59,6 +61,7 @@ about-nav-playbook = Lernu kiel partopreni
 ## What is a language
 
 about-playbook-what-is-language = Kio estas lingvo ĉe Common Voice?
+about-playbook-what-is-language-content-1 = Estas multaj manieroj pripensi lingvon. Por la celoj de parolrekonaj modeloj, Common Voice sugestas fokusiĝi je "reciproka kompreneblo", aŭ "ĉu parolantoj de ĉi tiu lingvo plejparte povas kompreni unu la alian se ili provas?"
 
 ## How do I add a language
 
