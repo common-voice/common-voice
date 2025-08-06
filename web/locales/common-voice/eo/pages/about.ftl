@@ -62,10 +62,18 @@ about-nav-playbook = Lernu kiel partopreni
 
 about-playbook-what-is-language = Kio estas lingvo ĉe Common Voice?
 about-playbook-what-is-language-content-1 = Estas multaj manieroj pripensi lingvon. Por la celoj de parolrekonaj modeloj, Common Voice sugestas fokusiĝi je "reciproka kompreneblo", aŭ "ĉu parolantoj de ĉi tiu lingvo plejparte povas kompreni unu la alian se ili provas?"
+about-playbook-what-is-language-content-2 = Ni volas, ke parolmodeloj pli bone komprenu diversajn parolantojn. Por ke tio okazu, voĉa datumaro devas reprezenti multajn malsamajn homojn.
+about-playbook-what-is-language-content-3 = Iuj lingvoj havas grandegan varion en gramatiko, vortprovizo kaj elparolo. Pro tio, ni <ctaLink>enkondukis “Variaĵojn”</ctaLink> en 2022. Tio donas al komunumoj manieron distingi siajn lingvojn ene de la pli granda datumaro.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Kiel aldoni lingvon?
+about-playbook-how-add-language-content-1 =
+    Unue, kontrolu ĉu via lingvo <languageLink>jam ekzistas</languageLink>.  
+    Se ne, vi povas <languageRequestLink>peti aldoni vian lingvon</languageLink>.  
+    Estas du stadioj: traduko de la retejo kaj kolekto de frazoj.
+about-playbook-how-add-language-translating-heading = Traduko de la retejo
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Spektu nian gvidilon pri kiel uzi Pontoon.</translateVideoLink>
 
 ## How are decisions made
 
