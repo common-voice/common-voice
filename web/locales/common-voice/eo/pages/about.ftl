@@ -19,6 +19,7 @@ about-new-lang-subtitle = Ni lanĉas la retejon Common Voice en tiu ĉi lingvo.
 about-voice-contrib-title = Voĉa kontribuo
 about-voice-contrib-subtitle = Homoj venas kaj kontribuas siajn voĉojn.
 about-voice-validation-title = Voice validigo
+about-voice-validation-subtitle = Aliaj homoj validigas tiujn voĉajn registraĵojn.
 about-dataset-release-title = Eldono de datumaro
 about-dataset-release-subtitle = Ni eldonas la datumaron ĉiun trian monaton.
 about-subscribe-text = Ĉu vi volas resti en kontakto kun Common Voice?
