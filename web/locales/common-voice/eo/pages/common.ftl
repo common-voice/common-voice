@@ -4,10 +4,15 @@
 
 ## Languages
 
+aa = Afara
 ab = Abĥaza
+abb = Bankona
+abq = Abaza
 ace = Aĉea
 ady = Adigea
 af = Afrikansa
+ajg = Adja
+aln = Gŭeg-albana
 am = Amhara
 an = Aragona
 ar = Araba
@@ -16,10 +21,12 @@ as = Asama
 ast = Astura
 az = Azerbajĝana
 ba = Baŝkira
+bal = Baluĉa
 bas = Basaa
 be = Bjelorusa
 bg = Bulgara
 bn = Bengala
+bo = Tibeta
 br = Bretona
 bs = Bosna
 bxr = Burjata
@@ -183,6 +190,7 @@ share-text = Helpu instrui al maŝinoj kiel veraj homoj parolas, donacu vian vo�
 link-copied = Ligilo kopiita
 back-top = Reen al la supro
 logout = Fini seancon
+donate = Donaci
 stayintouch = Ĉe Mozilla ni konstruas komunumon pri voĉaj teknologioj. Ni ŝatus resti en kontakto kun vi pri ĝisdatigoj, novaj fontoj kaj ankaŭ por scii pli pri  via uzo de tiuj ĉi datumoj.
 privacy-info = Ni promesas zorge pritrakti viajn informojn. Pli da informo troveblas en nia <privacyLink>politiko pri privateco</privacyLink>.
 return-to-cv = Reiri al Common Voice
@@ -198,5 +206,7 @@ not-available-abbreviation = Nedisponebla
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Ni bezonas</mark><br/><mark>vian helpon!</mark>
 localization-select =
     .label = Elekti lingvon/tradukon
