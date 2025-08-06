@@ -15,6 +15,10 @@ about-localization-subtitle = La retejo estas tradukita en tiun lingvon.
 about-sentence-collection-title = Kolekto de frazoj
 about-sentence-collection-subtitle = Frazoj estas kolektitaj por homoj, kiuj legos ilin laŭte.
 about-new-lang-title = Lanĉo de nova lingvo
+about-new-lang-subtitle = Ni lanĉas la retejon Common Voice en tiu ĉi lingvo.
+about-voice-contrib-title = Voĉa kontribuo
+about-voice-contrib-subtitle = Homoj venas kaj kontribuas siajn voĉojn.
+about-voice-validation-title = Voice validigo
 about-dataset-release-title = Eldono de datumaro
 about-dataset-release-subtitle = Ni eldonas la datumaron ĉiun trian monaton.
 about-subscribe-text = Ĉu vi volas resti en kontakto kun Common Voice?
@@ -59,28 +63,7 @@ about-playbook-what-is-language = Kio estas lingvo ĉe Common Voice?
 
 about-playbook-how-add-language = Kiel aldoni lingvon?
 
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
 ## How are decisions made
 
 about-playbook-how-project-governance-content-6 = Reciproka respondeco.
 about-playbook-how-project-governance-content-7 = <governanceLink>Pli da informo pri nia administro</governanceLink>
-
-## How is Common Voice funded
-
