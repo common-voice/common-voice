@@ -19,6 +19,7 @@ contribute-more =
        *[other] Gata pentru încă { $count }?
     }
 speak-empty-state = Nu mai avem propoziții de înregistrat în această limbă...
+no-sentences-for-variants = Se poate să nu mai existe propoziții pentru varietatea ta de limbă. Dacă dorești, îți poți modifica setările pentru a vedea și alte propoziții în limba ta.
 speak-empty-state-cta = Contribuie cu propoziții
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
