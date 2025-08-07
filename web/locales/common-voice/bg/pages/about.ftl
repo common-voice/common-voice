@@ -113,6 +113,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Вижте повече от
 
 ## How to grow language
 
+about-playbook-how-grow-language = Как можем ефективно да развием език в Common Voice?
 about-playbook-how-grow-language-content-2 = Събития
 about-playbook-how-grow-language-content-5 = Можете да използвате социалмните мрежи, за да разпространите съобщението. Споделяйте публикации, които обясняват защо има значение, и се свързвайте с други хора, които говорят за проблеми като езикови права, гласов AI или пристрастия в технологиите. Вижте повече съвети за <campaignLink>провеждане на социална кампания, включително съдържание, което можете да използвате повторно</campaignLink>.
 about-playbook-how-grow-language-content-6 = Партньорства и мрежи
