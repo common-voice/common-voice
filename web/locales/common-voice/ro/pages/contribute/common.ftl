@@ -107,3 +107,5 @@ contribution-for-example = de exemplu
 contribution-misreadings-title = Cuvinte citite greșit
 contribution-misreadings-description = Când asculți, verifică foarte atent dacă ceea ce a fost înregistrat este exact ceea ce a fost scris; respinge înregistrarea chiar dacă are doar mici erori. <br />Printre greșelile foarte frecvente se numără:
 contribution-misreadings-description-extended-list-1 = Înregistrarea începe fără cuvinte scurte precum <strong>'Un'</strong>, <strong>'O'</strong>, <strong>'A'</strong>, <strong>'Au'</strong>, etc.
+contribution-misreadings-description-extended-list-2 = Nu se aud clar particulele ce indică pluralul precum <strong>'e'</strong> sau <strong>'i'</strong>, sau articolele hotărâte de la sfârșitul cuvintelor, sau, în general ultima literă sau silabă. Altă situație implică accentul schimbat pe altă silabă, de exemplu între pluralul nearticulat <strong>'copii'</strong> și pluralul articulat <strong>'copiii'</strong>.
+contribution-misreadings-description-extended-list-3 = Citirea împreună a cuvintelor atunci când nu sunt scrise cu cratimă, cum ar fi „mare-a fost mirarea lor” în loc de „mare a fost mirarea lor”, sau invers.
