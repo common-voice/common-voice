@@ -29,30 +29,40 @@ share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
 keep-track-profile = Urmărește-ți progresul cu ajutorul unui profil
 login-to-get-started = Autentifică-te sau înscrie-te pentru a începe
 target-segment-first-card = Contribui la primul nostru segment-țintă
+target-segment-generic-card = Contribui la un segment-țintă
 target-segment-first-banner = Ajută-ne să creăm primul segment-țintă Common Voice în { $locale }
 target-segment-add-voice = Adaugă-ți vocea
 target-segment-learn-more = Află mai multe
+change-preferences = Modifică preferințele
+login-signup = Autentificare / Înregistrare
+vote-yes = Da
+vote-no = Nu
+datasets = Seturi de date
+languages = Limbi
+about = Despre noi
+partner = Parteneri
+submit-form-action = Trimite
 
 ## Reporting
 
-report = Raportează
-report-title = Trimite un raport
+report = Semnalează
+report-title = Trimite o sesizare
 report-ask = Ce probleme întâmpini cu această propoziție?
 report-offensive-language = Limbaj ofensator
 report-offensive-language-detail = Propoziția conține limbaj disprețuitor sau ofensator.
 report-grammar-or-spelling = Greșeală gramaticală / ortografică
 report-grammar-or-spelling-detail = Propoziția conține o greșeală gramaticală sau ortografică.
 report-different-language = Limbă diferită
-report-different-language-detail = Este scrisă într-o limbă diferită față de ceea pe care o vorbesc.
+report-different-language-detail = Propoziția este scrisă într-o limbă diferită față de ceea pe care o vorbesc.
 report-difficult-pronounce = Dificilă de pronunțat
-report-difficult-pronounce-detail = Aceasta conține cuvinte sau sintagme care sunt dificil de citit sau de pronunțat.
+report-difficult-pronounce-detail = Propoziția conține cuvinte sau sintagme care sunt dificil de citit sau de pronunțat.
 report-offensive-speech = Discurs ofensator
 report-offensive-speech-detail = Secvența vocală conține limbaj disprețuitor sau ofensator.
 report-other-comment =
     .placeholder = Comentariu
 success = Succes
 continue = Continuă
-report-success = Raportul a fost transmis cu succes
+report-success = Sesizarea a fost transmisă cu succes
 
 ## Speak & Listen Shortcuts
 
