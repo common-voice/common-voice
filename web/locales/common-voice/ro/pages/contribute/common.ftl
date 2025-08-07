@@ -105,3 +105,5 @@ contribution-criteria-page-title = Criterii de contribuție
 contribution-criteria-page-description = Înțelege la ce trebuie să fii atent atunci când evaluezi secvențele audio existente și îmbunătățește-ți astfel și propriile înregistrări viitoare!
 contribution-for-example = de exemplu
 contribution-misreadings-title = Cuvinte citite greșit
+contribution-misreadings-description = Când asculți, verifică foarte atent dacă ceea ce a fost înregistrat este exact ceea ce a fost scris; respinge înregistrarea chiar dacă are doar mici erori. <br />Printre greșelile foarte frecvente se numără:
+contribution-misreadings-description-extended-list-1 = Înregistrarea începe fără cuvinte scurte precum <strong>'Un'</strong>, <strong>'O'</strong>, <strong>'A'</strong>, <strong>'Au'</strong>, etc.
