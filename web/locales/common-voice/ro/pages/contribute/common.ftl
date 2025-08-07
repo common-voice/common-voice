@@ -1,4 +1,4 @@
-action-click = Dă clic pe
+action-click = Fă clic pe
 action-tap = Atinge
 contribute = Contribuie
 review = Examinează
@@ -78,6 +78,3 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
-
-## Validation criteria
-
