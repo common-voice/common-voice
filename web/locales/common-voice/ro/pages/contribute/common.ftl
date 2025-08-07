@@ -77,6 +77,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Înregistrează/Oprește
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Reînregistrează secvența vocală
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Renunță la înregistrarea în curs
+shortcut-submit = Înapoi
+shortcut-submit-label = Trimite secvențele audio
 request-language-text = Încă nu îți vezi limba pe Common Voice?
 request-language-button = Solicită o limbă
 
@@ -92,3 +96,12 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
+
+contribution-criteria-nav = Criterii
+contribution-criteria-link = Care sunt criteriile de contribuție?
+contribution-criteria-page-title = Criterii de contribuție
+contribution-criteria-page-description = Înțelege la ce trebuie să fii atent atunci când evaluezi secvențele audio existente și îmbunătățește-ți astfel și propriile înregistrări viitoare!
+contribution-for-example = de exemplu
+contribution-misreadings-title = Cuvinte citite greșit
