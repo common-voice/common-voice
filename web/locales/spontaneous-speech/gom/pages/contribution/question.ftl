@@ -9,7 +9,13 @@ add-question-success-toast-message =
        *[other] { $totalQuestions } hatuntlean { $uploadedQuestions } prosn ekthailem
     }
 add-question-error-message = Upload zal na. Anik ek pautt proytn kor.
-add-question-too-many-questions-error = 25 prosneo zavun geli. Prosn mezun unnem korun porot dhadd.
+add-question-too-many-questions-error = 25 prosneo zavun geli. Prosnneo unnem korun porot dhadd.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $totalQuestions } hatuntlean 1 prosn ektthailam. Amchi <guidelinesLink>Guidelines</guidelinesLink> polovn gheyat prosneo koxe toren ghalunk shikpak.
+       *[other] { $totalQuestions } hatuntlean { $uploadedQuestions } prosn ektthaileat. Amchi <guidelinesLink>Guidelines</guidelinesLink> polovn gheyat prosneo koxe toren ghalunk shikpak.
+    }
 do-section-title = Oxem Kor
+do-section-guideline-1 = Boroitana sarke vakyaronn anik okxoranchi manddnni dovorat.
 do-not-section-title = Hem koru naka
 do-not-section-guideline-3 = Monak-lavpi prosneo vicharu naka
