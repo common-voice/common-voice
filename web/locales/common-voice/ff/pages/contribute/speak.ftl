@@ -36,9 +36,3 @@ review-delete-recordings = Momtu nanngitte am
 review-terms = Huutoraade Common Voice firti ko aɗa jaɓi ɗooftaade <termsLink>sarɗiiji</termsLink> e <privacyLink>Konngol Suturo</privacyLink> amen
 terms-agree = Mi jaɓii
 terms-disagree = Mi jaɓaani
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

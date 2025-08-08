@@ -53,6 +53,3 @@ sdo = سیرین بدایوہ
 snv = شعبان/ سعبان
 tr = تُرکی
 xkl = کِینیا
-
-## Language search component
-

@@ -14,12 +14,3 @@ sc-bulk-upload-header = Киһи-аймах бас билиитэ этиилэр
 sc-bulk-submit-confirm = Мин бигэргэтэбин, бу этиилэр <wikipediaLink>киһи-аймах бас билиитэ</wikipediaLink> буолаллар уонна мин манна киллэрэр көҥүллээхпин.
 bulk-upload-success-toast = Элбэх этии киирдэ
 upload-more-btn-text = Өссө этиилэри киллэрэҕит?
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

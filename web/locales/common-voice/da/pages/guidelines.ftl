@@ -69,9 +69,6 @@ reviewing-sentences-explanation-2 = Hvis sætningen ikke opfylder ovenstående k
 reviewing-sentences-explanation-3 = Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
 reviewing-sentences-explanation-4 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
 
-## Question collection ids
-
-
 ## Question collection sidebar content
 
 what-makes-a-good-question-explanation-criteria-3 = Ikke anvende, eller opfordre til, skadeligt eller stødende sprog

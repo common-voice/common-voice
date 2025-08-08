@@ -51,6 +51,3 @@ sdo = سیرین بددایوہ
 snv = شعبان
 tr = ترکی
 xkl = کینیا
-
-## Language search component
-

@@ -20,6 +20,3 @@ demo-account-sign-up = Doloç̌aruşi linki oncğoni
 ## Demo Contribute
 
 demo-listen-subtitle = Eǩoǩatus xadziri ore-i?
-
-## Demo Dashboard
-

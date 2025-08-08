@@ -32,9 +32,6 @@ shortcut-record-toggle = g
 shortcut-rerecord-toggle = [1-5]
 shortcut-submit = Nopiaka
 
-## Listen Shortcuts
-
-
 ## Validation criteria
 
 contribution-for-example = Kemitaka

@@ -69,36 +69,3 @@ help-contribute = Сіз Common Voice профилін құру және өз д
 login-company = { $company } электрондық поштасымен кіріңіз / тіркеліңіз
 profile-not-required = Профайл болуы қажетті емес, бірақ пайдалы болуы мүмкін
 read-more-about = Толығырақ туралы Біздің парағымыздан оқыңыз
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

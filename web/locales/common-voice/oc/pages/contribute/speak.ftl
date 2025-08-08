@@ -36,9 +36,3 @@ review-delete-recordings = Suprimís es mèns enregistraments
 review-terms = En usar Common Voice, acceptatz es <termsLink>condicions d'usatge</termsLink> e eth <privacyLink>avertiment de privadança</privacyLink>
 terms-agree = D'acòrd
 terms-disagree = Non i sò d'acòrd
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -10,9 +10,3 @@ listen-loading-error = Bi ndzi kig bad sɔm bifas məvogolan bifə. Dugan vəgə
 listen-abort-title = Yə mia man yəbə?
 listen-abort-cancel = Kəlan ai məyəbə osu
 listen-abort-confirm = Təlan məyəbə nnyie vala.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

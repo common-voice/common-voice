@@ -73,36 +73,3 @@ help-contribute = আপনি একটি Common Voice প্রোফাই�
 login-company = { $company } ইমেল দিয়ে লগ ইন / সাইন আপ করুন
 profile-not-required = অবদান রাখার জন্যে কোন প্রোফাইল থাকার প্রয়োজন হয় না, যদিও এটি সহায়ক হবে।
 read-more-about = আমাদের সম্পর্কে আরও পাতা পড়ুন
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

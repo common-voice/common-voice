@@ -138,14 +138,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] 	{ $uploadedSentences }1 جُملہ کھنینغ
-       *[other] 	{ $uploadedSentences } جُملہ کھنینغ { $totalSentences } کنی
+        [one] { "\u0009" }{ $uploadedSentences }1 جُملہ کھنینغ
+       *[other] { "\u0009" }{ $uploadedSentences } جُملہ کھنینغ { $totalSentences } کنی
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] 	{ $uploadedSentences }جملہ ءِ جم کنگ ءِ<downloadLink>ھاترا ادا کلک بہ کن اِت </downloadLink> رد کتگیں جملہانی ڈاؤن لوڈ کنگ ءِ
-       *[other] 	{ $uploadedSentences } جملہ ءِ جم کنگ ءِ<downloadLink>ھاترا ادا کلک بہ کن اِت </downloadLink> رد کتگیں جملہانی ڈاؤن لوڈ کنگ ءِ
+        [one] { "\u0009" }{ $uploadedSentences }جملہ ءِ جم کنگ ءِ<downloadLink>ھاترا ادا کلک بہ کن اِت </downloadLink> رد کتگیں جملہانی ڈاؤن لوڈ کنگ ءِ
+       *[other] { "\u0009" }{ $uploadedSentences } جملہ ءِ جم کنگ ءِ<downloadLink>ھاترا ادا کلک بہ کن اِت </downloadLink> رد کتگیں جملہانی ڈاؤن لوڈ کنگ ءِ
     }
 small-batch-sentences-rule-1 = "ماں تھاں جملہ شامل کھنا سگا "؟ اشی آگوں رہنما خطوط آں نئ چھکا عملا کھنے?
 small-batch-sentences-rule-2 = یک  جملہ یا لائن جمع کنی انت

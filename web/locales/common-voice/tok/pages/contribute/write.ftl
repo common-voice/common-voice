@@ -46,9 +46,3 @@ too-many-files = lipu li mute ike
 small-batch-response-message = kulupu nimi { $totalSentences } la sina jo e kulupu { $uploadedSentences }. nena <downloadLink>ni</downloadLink> la o jo e kulupu nimi ike.
 # menu item
 add-sentences = o pana e toki
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

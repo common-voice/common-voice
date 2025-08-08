@@ -33,9 +33,3 @@ review-delete-recordings = Tuun mi hlonh
 review-terms = Common Voice hman ahcun , kan <termsLink> Biakam </termsLink> le <privacyLink> Kilvennak Hngalhternak</privacyLink> hi na lung a tling.
 terms-agree = Ka lungtling
 terms-disagree = Ka lungtling lo
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

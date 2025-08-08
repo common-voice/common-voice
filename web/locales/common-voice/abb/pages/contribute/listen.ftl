@@ -10,9 +10,3 @@ listen-loading-error = Sa ta ko᷇s mikòobyaà i iyɔ̄ɔwàk. Kèga ipɛp�
 listen-abort-title = Ìɓɛmsàk di njêlè di ɓɛ lâ?
 listen-abort-cancel = Kɛ̀na Ìɓɛmsàk di njêlè ibasū
 listen-abort-confirm = Sugus Ìɓɛmsàk di njêlè
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -72,36 +72,3 @@ help-contribute = Jy kan help om 'n diverse, oopbrondatastel te bou deur 'n Comm
 login-company = Meld aan / teken in met { $company } e-posadres
 profile-not-required = Dit is nie nodig om 'n profiel te hê om by te dra nie, hoewel dit nuttig is, sien hier onder waarom.
 read-more-about = Lees meer op ons Meer oor-bladsy
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

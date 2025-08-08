@@ -87,12 +87,3 @@ file-invalid-type = epəb daa tə yeeni
 file-too-large = epə e tə  did abui
 file-too-small = epəb e nə ma ovəvɛs
 too-many-files = nnəməne məp̣əb
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

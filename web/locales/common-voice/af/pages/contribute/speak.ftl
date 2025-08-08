@@ -54,9 +54,3 @@ already-have-an-account = Reeds 'n rekening? <login>Teken aan</login>
 create-profile-button = Skep 'n profiel
 # IMAGE TAGS
 img-alt-success-checkmark = sukses baken
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -8,9 +8,3 @@ listen-loading-error = maginyoru ngalalekab kutit cheimuuch igaas.Tyem kogeny ko
 listen-abort-title = taar ivalideteni klipishek?
 listen-abort-cancel = testai ivalideteni
 listen-abort-confirm = taar ivalideteni
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

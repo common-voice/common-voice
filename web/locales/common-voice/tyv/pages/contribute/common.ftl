@@ -10,15 +10,6 @@ report-different-language-detail = Нарын-дыр
 report-difficult-pronounce = Адаары берге-дир
 continue = Улаштырар
 
-## Speak & Listen Shortcuts
-
-
-## Speak Shortcuts
-
-
-## Listen Shortcuts
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Негелделер

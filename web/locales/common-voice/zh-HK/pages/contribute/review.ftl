@@ -11,6 +11,3 @@ sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
 sc-review-link = 審核
-
-## REVIEW CRITERIA
-

@@ -101,9 +101,3 @@ small-batch-instruction = Zaiteo 'public-domain' vakyo <icon></icon> boroi
 small-batch-sentences-rule-4 = Chod korun 1000 vakyo ghalunk zata
 small-batch-sentences-rule-5 = Soglleo vakyo těch 'domain'-nant aspak zai
 small-batch-sentences-rule-6 = Sogllea vakyank ekuch 'citation' aspak zai
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

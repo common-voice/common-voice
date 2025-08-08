@@ -37,9 +37,3 @@ review-terms = കോമണ്‍ വോയിസ് ഉപയോഗിക്ക
 terms-agree = ഞാൻ അംഗീകരിക്കുന്നു
 terms-disagree = ഞാൻ അംഗീകരിക്കുന്നില്ല
 add-information-button = വിവരങ്ങൾ ചേൎക്കുക
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

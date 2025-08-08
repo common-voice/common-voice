@@ -51,12 +51,3 @@ file-invalid-type = Murupa orakala
 file-too-large = Murupa ophova wuunuwa
 file-too-small = Murupa ophova  okhala mwamukhaani
 too-many-files = Murupa sikina
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

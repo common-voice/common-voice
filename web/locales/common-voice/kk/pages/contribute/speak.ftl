@@ -36,9 +36,3 @@ review-delete-recordings = Менің жазбаларымды өшіру
 review-terms = Common Voice қолдану арқылы сіз <termsLink>Шарттар</termsLink> мен <privacyLink>Құпиялылық</privacyLink> туралы ескертумен келісесіз.
 terms-agree = Мен келісемін
 terms-disagree = Мен келісім бермеймін
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

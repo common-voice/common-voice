@@ -38,9 +38,3 @@ terms-agree = 我同意
 terms-disagree = 我唔同意
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = 多謝捐出你嘅錄音
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

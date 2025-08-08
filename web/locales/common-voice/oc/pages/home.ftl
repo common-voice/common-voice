@@ -72,36 +72,3 @@ help-contribute = Ajudatz a bastir un conjunt de donades liures e diuèrses en t
 login-company = Inici de session / Registre damb era adreça electronica de { $company }
 profile-not-required = Non ei de besonh crear un perfil entà collaborar, mès ei util.
 read-more-about = Vedetz mès informacion ena pagina «Qui èm»
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

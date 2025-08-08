@@ -74,36 +74,3 @@ help-contribute = कॉमन व्हॉईस प्रोफाइल त�
 login-company = { $company } ईमेलसह लॉग इन / साइन अप करा
 profile-not-required = योगदान देण्यासाठी प्रोफाइल असण्याची आवश्यकता नाही, का ते खाली पहा.
 read-more-about = आमच्याबद्दल पृष्ठावर अधिक वाचा
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

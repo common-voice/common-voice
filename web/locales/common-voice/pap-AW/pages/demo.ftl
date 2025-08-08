@@ -1,6 +1,3 @@
-## DemoLayout
-
-
 ## Demo Datasets
 
 demo-language-select-card-body = Danki na e contribucion di mas cu 259K persona den mas cu 50 lenguage, e data aki ta ser uza pa yuda aplicacionnan di bos reconoce y responde miho na e bos humano.

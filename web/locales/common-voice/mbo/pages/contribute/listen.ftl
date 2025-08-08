@@ -10,9 +10,3 @@ listen-loading-error = Si pɛtɛnɛ́ ikɛ́ɛ́ ǹjɔŋ ihwɔ́ mí ń tí 
 listen-abort-title = A mali ikwenkǐ ǹjɔŋ ihwɔ́
 listen-abort-cancel = A dyɛ́m a kwenki ǹjɔŋ ihwɔ́
 listen-abort-confirm = A mali ikwenkǐ ǹjɔŋ ihwɔ́
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

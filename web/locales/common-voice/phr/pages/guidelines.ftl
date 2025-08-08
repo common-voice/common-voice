@@ -25,9 +25,3 @@ reviewing-sentences = جملیاں نی تصدیق
 ## Sentence collection sidebar content
 
 adding-sentences-subheader-length = لمبائی
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

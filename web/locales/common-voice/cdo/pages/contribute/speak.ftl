@@ -55,9 +55,3 @@ second-cta-header-text = 感謝您捐出錄音片段！
 second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
 already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
 create-profile-button = 註冊帳號
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

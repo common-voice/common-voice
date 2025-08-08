@@ -11,15 +11,3 @@ agriculture_food = Antaberentsi jero aobaretentsi
 healthcare = Abitantsi
 # Sentence Domain dropdown option
 nature_environment = Tomirimaski jero shonkimoteiri
-
-## BULK SUBMISSION
-
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

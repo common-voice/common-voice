@@ -1,11 +1,5 @@
 contribute = Akaaliijaa
 
-## Reporting
-
-
-## Speak & Listen Shortcuts
-
-
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Ejeerüjaa/Ata’ülaa
@@ -15,6 +9,3 @@ shortcut-submit = A’lakaa
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = Alatiraa/Ata'ülaa
-
-## Validation criteria
-

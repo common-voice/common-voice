@@ -58,6 +58,3 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turco
 xkl = Kenia
-
-## Language search component
-

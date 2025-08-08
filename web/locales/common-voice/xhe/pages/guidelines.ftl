@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = اگر ڳالھ وار اُتّوں والے
 reviewing-sentences-explanation-3 = اگر تُوں ڳالھ وار تی باریک غیر یقینی ہیں، ٻیال تُو ہوک چھوڑ کر اڳوں والے تی ون٘ڄ سڳدا ہیں۔
 reviewing-sentences-explanation-4 = اگر وتا لالݨ واسطے تاں جے ڳالھ وارینک ختم تھی ڳئین، تاں مہربانی کر ٻے ڳالھ وارینک وِڄݨ دی ساں جی مدد کر!
 domain-explanation = ڈومین ڳالھ وار تے موضوع ساں مراد ہیں۔ ہے وخت، تُو ہیانک چُݨ سڳدا ہیں:
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

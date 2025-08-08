@@ -36,9 +36,3 @@ review-delete-recordings = Яҙмаларымды юйырға
 review-terms = Common Voiceты ҡулланыр өсөн, Һеҙ <termsLink>Ҡулланыу шарттары</termsLink> һәм <privacyLink>Хосусилек сәйәсәте</privacyLink> менән килешергә тейешһегеҙ
 terms-agree = Килешәм
 terms-disagree = Килешмәйем
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

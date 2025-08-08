@@ -31,10 +31,6 @@ about-nav-get-involved = সম্পৃক্ত হোন
 about-nav-how-it-works-2 = Common Voice কিভাবে কাজ করে?
 about-nav-playbook = কীভাবে অংশ নিতে হয় জানুন
 
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
 about-playbook-how-add-language = আমি কীভাবে ভাষা যোগ করবো?
@@ -47,16 +43,10 @@ about-playbook-how-localize = সাইট স্থানীয়করণ ক
 
 about-playbook-how-add-sentences = আমি কীভাবে বাক্য যোগ করবো?
 
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = ইভেন্ট
 about-playbook-how-grow-language-content-4 = সামাজিক যোগাযোগ মাধ্যম
-
-## How to validate
-
 
 ## How to access dataset
 
@@ -65,6 +55,3 @@ about-playbook-how-access-dataset = আমি কিভাবে ডেটাস
 ## How are decisions made
 
 about-playbook-how-project-governance = প্রকল্পের সিদ্ধান্তসমূহ কীভাবে নেওয়া হয়?
-
-## How is Common Voice funded
-

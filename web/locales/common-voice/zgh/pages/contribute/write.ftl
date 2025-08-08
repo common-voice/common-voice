@@ -71,9 +71,3 @@ too-many-files = ⴰⴳⵓⴷⵉ ⵏ ⵉⴼⵓⵢⵍⴰ
 
 # menu item
 add-sentences = ⵔⵏⵓ ⵜⵉⵡⵉⵏⴰⵙ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

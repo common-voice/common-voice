@@ -80,36 +80,13 @@ read-more-about = Күбрәк мәгълүмат «Хакында» сәхиф�
 coming-soon = Тиздән
 about-us = Безнең турында
 
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
 ## Action items section
 
 spontaneous-card-header = Кинәт туган сөйләм
 language-text-card-header = Телегездәге текст
+coming-soon = Тиздән
 add-text = Текст өстәү
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
 
 ## Get involved section
 
 read-sentences-link = Җөмләләрне уку
-
-## Partner section
-

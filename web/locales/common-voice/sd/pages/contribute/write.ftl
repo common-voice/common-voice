@@ -54,12 +54,3 @@ file-invalid-type = ناقص فائل
 file-too-large = فائل تمام وڏي آهي
 file-too-small = فائل تمام ننڍي آهي
 too-many-files = تمام گهڻيون فائلون
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

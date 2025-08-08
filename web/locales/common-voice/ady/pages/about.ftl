@@ -52,21 +52,3 @@ about-playbook-how-localize-content-5 = Узгъэсэщт тивидео ӏэп
 ## How to add sentences
 
 about-playbook-how-add-sentences = Сыдэущтэу гущыӏэухыгъэхэм ахэзгъэхъощта?
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

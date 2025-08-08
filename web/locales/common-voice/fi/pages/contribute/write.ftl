@@ -48,9 +48,3 @@ too-many-files = Liian monta tiedostoa
 ## SMALL BATCH SUBMISSION
 
 small-batch-sentences-rule-2 = Lisää yksi lause riviä kohden
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

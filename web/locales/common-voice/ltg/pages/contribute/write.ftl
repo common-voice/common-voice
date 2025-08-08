@@ -59,12 +59,6 @@ file-too-large = Fails ir par lelu
 file-too-small = Fails ir par mozu
 too-many-files = Par daudzi failu
 
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
 ## MENU ITEM ARIA LABELS
 
 transcribe-audio-menu-item-aria-label = Puorrokstit audio īrokstus

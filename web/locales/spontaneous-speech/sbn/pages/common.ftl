@@ -58,6 +58,3 @@ sdo = سئيرن بيٚديآه
 snv = سآبآن
 tr = ترڪيٚ
 xkl = ڪينيآ
-
-## Language search component
-

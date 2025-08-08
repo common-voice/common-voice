@@ -95,9 +95,6 @@ partnerships-menu-item-tooltip = Obair i gcomhar linn
 
 community-and-languages-menu-item-aria-label = Déan iniúchadh ar an bpobal agus ar na teangacha a fhaigheann tacaíocht ó Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Teicneolaíocht a labhraíonn do theanga
@@ -117,6 +114,7 @@ spontaneous-card-header = Caint Thobann
 spontaneous-card-content = Freagair leideanna chun tacair shonraí a chruthú do chomhthéacsanna orgánacha sa ghnáthchaint. Oireann sé go mór do theangacha nach bhfuil scríofa go fóill.
 language-text-card-header = Téacs Teanga
 language-text-card-content = Cruthaigh nó roinn leideanna, abairtí, agus téacs atá sa bhfearainn poiblí chun go ndéanfaí iad a aistriú agus chun mionsamhlacha teanga a chruthú astu agus go leor eile.
+coming-soon = Ag teacht go luath
 add-text = Cuir Téacs leis
 
 ## Community section

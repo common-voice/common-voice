@@ -7,9 +7,3 @@ listen-empty-state = Sesiphelelwe ticephu letitfwebuliwe kutsi singachubeka sitf
 listen-loading-error =
     Asikakhoni kutfola emavi latfwebuliwe longakhona kuwalalela. 
     Sicela uphindze wetame futsi.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -58,6 +58,3 @@ sdo = Serian Bidayuh 西連比達友語
 snv = Sa'ban 語
 tr = Turkish 土耳其語
 xkl = Kenyah 語
-
-## Language search component
-

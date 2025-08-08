@@ -25,6 +25,3 @@ demo-account-sign-up = Регистрацим эртӓш ссылкым колт
 
 demo-contribute-card-header = Ӹшке юкетӹм уштараш ӓли колышташ йӓмдӹ ылат?
 demo-listen-subtitle = Вкладетӹм пырташ йӓмдӹ ылат?
-
-## Demo Dashboard
-

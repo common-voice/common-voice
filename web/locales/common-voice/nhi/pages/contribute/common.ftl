@@ -43,9 +43,6 @@ success = coali
 continue = nemilis
 report-success = tlanahuatil omunlatitlane coali
 
-## Speak & Listen Shortcuts
-
-
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = tlahtolahcucui/ tzacuili

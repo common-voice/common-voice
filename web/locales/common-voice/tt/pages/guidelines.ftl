@@ -52,9 +52,6 @@ adding-sentences-subheader-offensive-content = Рәнҗеткеч эчтәлек
 reviewing-sentences-explanation-1 = Әгәр җөмлә югарыдагы критерийларга туры килсә, "Әйе" төймәсенә басыгыз.
 reviewing-sentences-explanation-2 = Әгәр җөмлә югарыдагы критерийларга туры килмәсә, "Юк" төймәсенә басыгыз.
 
-## Question collection ids
-
-
 ## Question collection sidebar content
 
 length = Озынлык

@@ -72,36 +72,3 @@ help-contribute = Unaweza kusaidia kujenga daftari anuwai la chanzo wazi kwa kuu
 login-company = Ingia / Jisajili na barua pepe ya { $company }
 profile-not-required = Kuwa na wasifu hauhitajiki kuchangia ingawa inasaidia, tazama kwa nini hapa chini.
 read-more-about = Soma zaidi kwenye ukurasa wa kutuhusu
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

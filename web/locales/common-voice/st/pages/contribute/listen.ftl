@@ -7,9 +7,3 @@ listen-empty-state = Re feletswe ke di-clip tse lokelang ho netefatswa ho puo en
 listen-loading-error =
     Ha rea ​​kgona ho fumana di-clip tsa audio hore o ka di mamela. 
     Ke kopa o leke hape hamorao.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

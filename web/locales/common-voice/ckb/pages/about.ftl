@@ -109,6 +109,3 @@ about-playbook-how-project-governance = بڕیارەکانی پرۆژەکە چۆ
 about-playbook-how-project-governance-content-2 = حکومەتەکەمان دامەزراوە لەسەر بنەمای:
 about-playbook-how-project-governance-content-3 = تایبەتێتی، پارێزەری و ڕوونی
 about-playbook-how-project-governance-content-6 = لێپرسینەوەی یەکتر.
-
-## How is Common Voice funded
-

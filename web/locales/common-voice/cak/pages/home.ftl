@@ -71,36 +71,3 @@ help-contribute = Yatikïr yato'on chi runuk'ik jalajöj rucholxe' tzij, ri jaq�
 login-company = Tatikirisaj Molojri'ïl / Tatz'ib'aj Ab'i' rik'in ri { $company } taqoya'l
 profile-not-required = Man k'atzinel ta jun ruwäch ab'i' richin yato'on, po rik'in jub'a' nik'atzin.
 read-more-about = Tisik'ïx ch'aqa' chik pa Chi rij pa ri ruxaq
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

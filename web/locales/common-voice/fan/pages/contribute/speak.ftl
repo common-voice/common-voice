@@ -60,9 +60,3 @@ already-have-an-account = ye tiliban yañ? <login>Tiliban<login>
 create-profile-button = téé abam
 # IMAGE TAGS
 img-alt-success-checkmark = atuan nkabane
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

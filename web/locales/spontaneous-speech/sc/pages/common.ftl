@@ -14,9 +14,6 @@ skip-button = Brinca
 submit-button = Imbia
 contribute = Contribui
 
-## Navbar
-
-
 ## Not Found Page
 
 not-found-page-header = No agatadu
@@ -24,6 +21,3 @@ en = Inglesu
 fr = Frantzesu
 meh = Mixtecu de su sud-est de Tlaxiaco
 tr = Turcu
-
-## Language search component
-

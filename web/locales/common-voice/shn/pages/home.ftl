@@ -72,36 +72,3 @@ help-contribute = သူၸဝ်ႈၸၢင်ႈၸွႆႈၶူင်သ�
 login-company = လွၵ်ႉၶဝ်ႈ / လူင်းသဵၼ်ႈၸိုဝ်ႈလူၺ်ႈဢီးမေးလ် { $company }
 profile-not-required = ၵၢၼ်မီးပရူဝ်ႇၾၢႆႇ ဢမ်ႇၸႂ်ႈဝႃႈတိုၼ်းလူဝ်လႆႈမီး တွၼ်ႈတႃႇတေၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ် ပႅၵ်ႉသမ်ႉဝႃႈမၼ်းမီးၽွၼ်းလီသေတႃႉ၊ တူၺ်းဝႃႈယွၼ်ႉသင် ပႃႈတႂ်ႈၼႆႉ။
 read-more-about = လူဢၢၼ်ႇထႅင်ႈၼႂ်းၼႃႈ About ႁဝ်းၶႃႈ
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -58,6 +58,3 @@ sdo = سرین بدایو
 snv = سابان
 tr = ترکی
 xkl = کینیا
-
-## Language search component
-

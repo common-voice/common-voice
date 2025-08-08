@@ -9,9 +9,3 @@ listen-loading-error = We no be fit get oda audio film dem for you for hear dem.
 listen-abort-title = You don finish for confirm film dem?
 listen-abort-cancel = Continue for confirm
 listen-abort-confirm = Finish for confirm
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

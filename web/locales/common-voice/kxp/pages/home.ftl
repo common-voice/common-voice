@@ -103,9 +103,6 @@ partnerships-menu-item-aria-label = ڪامن وائيس ڀيۯان شراڪت ن
 press-and-stories-menu-item-aria-label = ڪامن وائيس ٿي ملل پريس رليز ڪهاڻيان ني رسائي حاصل ڪرو۔
 community-and-languages-menu-item-aria-label = ڪامن وائيس ني مدد ٿي برادري هانَ ٻوليان نين ڳوتو۔
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٽيڪنالوجي تماري ٻولي ٻولي سي
@@ -125,6 +122,7 @@ spontaneous-card-header = اختياري تقرير
 spontaneous-card-content = نامياتي، وات سينچ نا سياق و سباق هارو ڊيٽا سيٽ نا ٺاهيا نا اشارا نو جواب آلو۔ زي ٻوليان هارو الاهي هڌرون سي۔
 language-text-card-header = ٻولي نون متن
 language-text-card-content = پبلڪ ڊومن پروموٽ تيار ڪرو يان ٻيزان نين همڀۯاوو، جملا، ترجمه هارو متن، ناني ٻوليون هانَ وغيره
+coming-soon = جلدي آوشي
 add-text = تمن جمع ڪرو
 answer = جواب
 

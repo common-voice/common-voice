@@ -1,6 +1,3 @@
-## ABOUT US
-
-
 ## How does it work section
 
 about-localization-title = ܕܘܟܬܢܐܝܬ ܕܦܪܣ ܢܘܠܐ
@@ -12,34 +9,6 @@ about-clip-graveyard = ܒܝܬ ܩܒ݂ܘܪ̈ܐ ܕܡܐܡܪܐ
 about-nav-how-it-works = ܐܝܟܢܐ؟
 about-nav-partners = ܫܘܬܦܝ̈ܐ
 
-## Community Playbook Content
-## What is a language
-
-
-## How do I add a language
-
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-6 = ܢܘܠ̈ܐ ܘܡܫܘܬܦܢܘܬ̈ܐ
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

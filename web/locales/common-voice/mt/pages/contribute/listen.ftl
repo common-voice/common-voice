@@ -4,9 +4,3 @@ listen-again-instruction = Prosit!<playIcon></playIcon> Meta trid tista' terġa'
 listen-3rd-time-instruction = 2 lesti, ibqa' sejjer!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> L-aħħar waħda!
 listen-empty-state = Għalissa ma baqax clips x'tiċċekkja b'din il-lingwa.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

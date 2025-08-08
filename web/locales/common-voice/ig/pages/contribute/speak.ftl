@@ -35,9 +35,3 @@ review-delete-recordings = Hị́chàpụ́ íhé ńd́ekọ̀ ḿ
 review-terms = Síté nà-íjì Common Voice mèé íhē, Ị́ nà-èkwéré na <termsLink> Usoro</termsLink> na <privacyLink> Ọkwa Nzoro</privacyLink>
 terms-agree = Ékwèrè ḿ
 terms-disagree = Èkwéghị́ ḿ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

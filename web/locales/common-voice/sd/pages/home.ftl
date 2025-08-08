@@ -86,36 +86,3 @@ help-contribute = توهان مدد ڪري سگهو ٿا هڪ متنوع، او�
 login-company = لاگ ان ڪريو / سائن اپ ڪريو { $company } اي ميل سان
 profile-not-required = پروفائل هجڻ ضروري ناهي حصو ڏيڻ لاءِ پر اهو مددگار آهي، هيٺ ڏسو ڇو.
 read-more-about = اسان جي باري ۾ صفحي تي وڌيڪ پڙهو
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

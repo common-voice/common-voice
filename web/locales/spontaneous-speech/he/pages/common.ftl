@@ -51,6 +51,3 @@ sdo = בִּידאיה סֵריאנית
 snv = סהבאן
 tr = טורקית
 xkl = קניה
-
-## Language search component
-

@@ -40,9 +40,3 @@ second-cta-subtitle-text = Con un perfil, puede realizar un seguimiento de su ac
 create-profile-button = Crear un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca de éxito
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

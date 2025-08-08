@@ -73,15 +73,3 @@ about-playbook-how-record-quality = High quality aavaaz'ache clip koshe zodop?
 
 about-playbook-how-grow-language = Common Voice'acher ami ek bhas prabhavipanan kashi vadopak shaktale?
 about-playbook-how-grow-language-content-4 = Social media
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

@@ -10,9 +10,3 @@ listen-loading-error = Sa ǹ maa gari bɛɛru garu mɔ sa ko swa daki  I wure i
 listen-abort-title = I ko gari bɛɛnun wurabu kpe?
 listen-abort-cancel = I wuswa do i ka  gari bɛɛnun wurabu kpe
 listen-abort-confirm = I wurabu kpeeyo
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -1,20 +1,5 @@
 sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
 
-## Voice Collection nav ids
-
-
-## Voice collection sidebar content
-
-
 ## Sentence collection nav ids
 
 public-domain = ܝܪܬܘܬܐ ܓܠܝܐ
-
-## Sentence collection sidebar content
-
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

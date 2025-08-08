@@ -87,12 +87,3 @@ file-invalid-type = fichier ŋu gollataa
 file-too-large = fichier ŋu e teddi puy
 file-too-small = fichier ŋu e fanɗɗi puy
 too-many-files = fichier  ɗuɗɗi
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

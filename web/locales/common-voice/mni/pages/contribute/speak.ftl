@@ -36,9 +36,3 @@ review-delete-recordings = ꯑꯩꯒꯤ ꯔꯦꯀꯣꯔꯗꯁꯤꯡ ꯀꯛꯊꯠ
 review-terms = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ, ꯅꯍꯥꯛꯅꯥ ꯑꯩꯈꯣꯏꯒꯤ <termsLink>ꯋꯥꯐꯝꯁꯤꯡ</termsLink> ꯑꯃꯁꯨꯡ <privacyLink>ꯄ꯭ꯔꯥꯏꯚꯦꯁꯤ ꯅꯣꯇꯤꯁ</privacyLink> ꯑꯁꯤ ꯌꯥꯔꯦ ꯫
 terms-agree = ꯑꯩ ꯌꯥꯔꯦ
 terms-disagree = ꯑꯩ ꯌꯥꯅꯤꯡꯗꯦ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

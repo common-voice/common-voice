@@ -7,7 +7,7 @@ shortcuts = Kəm-nǰ
 clips-with-count-pluralized =
     { $count ->
         [one] Tsə̌m
-       *[other]  Mətsə̌m
+       *[other] { " " }Mətsə̌m
     }
 goal-help-recording = Tsəpə-nji ku' lə́ <goalPercentage></goalPercentage> ngʉ fa' yé maa le'é tsəm ńté ghí' o pfutə yé lə́ { $goalValue } ngóu məzə̂u !
 goal-help-validation = Tsəpə-nji ku' lə́ <goalPercentage></goalPercentage> ngʉ fa' yé maa le'é tsəm ńté ghí' o pfutə yé lə́ { $goalValue } nkárə́ məzə̂u !

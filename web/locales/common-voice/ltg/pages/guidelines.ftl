@@ -101,9 +101,3 @@ reviewing-sentences-explanation-1 = Ka teikums atbylst agruok nūsauktajim krite
 reviewing-sentences-explanation-2 = Ka teikums naatbylst agruok nūsauktajim kriterejim, klykstynojit iz pūgys "Nā".
 reviewing-sentences-explanation-3 = Ka naasat puorlīcynuots par teikumu, varit tū izlaist i puorīt iz nuokušū.
 reviewing-sentences-explanation-4 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

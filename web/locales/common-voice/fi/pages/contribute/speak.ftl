@@ -39,9 +39,3 @@ terms-disagree = En hyväksy
 continue-speaking-button = Ei kiitos, jatka puhumista
 create-profile-text = Haluatko tallentaa tietosi? <createProfile>Luo profiili</createProfile>
 create-profile-button = Luo profiili
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

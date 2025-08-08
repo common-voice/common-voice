@@ -104,9 +104,6 @@ partnerships-menu-item-aria-label = Saper plus re le collaborationes con Common 
 press-and-stories-menu-item-aria-label = Accede al communicatos de pressa e al articulos relative a Common Voice
 community-and-languages-menu-item-aria-label = Explora le communitate e le linguas supportate per Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Technologia que parla tu lingua
@@ -126,6 +123,7 @@ spontaneous-card-header = Discurso spontanee
 spontaneous-card-content = Responde al suggestiones pro crear collectiones de datos pro contextos organic e colloquial. Perfecte pro linguas primo oral.
 language-text-card-header = Texto linguistic
 language-text-card-content = Crea o comparti suggestiones, phrases, e texto de dominio public pro traduction, parve modellos de lingua, e altero.
+coming-soon = Veniente tosto
 add-text = Adder texto
 answer = Responder
 

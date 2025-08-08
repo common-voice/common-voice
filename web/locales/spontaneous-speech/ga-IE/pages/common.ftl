@@ -58,6 +58,3 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Tuircis
 xkl = Kenyah
-
-## Language search component
-

@@ -56,8 +56,8 @@ how-many-a-week = kararan!klipishek hata eng wiikit?
 which-goal-type = tos imache ingalal,igaste anan iyai tugul?
 n-clips-pluralized =
     { $count ->
-        [one] 	{ $count } klipit
-       *[other] 	{ $count } klipishek
+        [one] { "\u0009" }{ $count } klipit
+       *[other] { "\u0009" }{ $count } klipishek
     }
 help-share-goal = toretech asigenyoru sauti alak,ak ihoite borsengung
 confirm-goal = iyaan borset

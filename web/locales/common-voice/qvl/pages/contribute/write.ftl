@@ -122,7 +122,7 @@ rate-limit-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] 	You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+        [one] { "\u0009" }You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
        *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission

@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = اگر جملہ بُرز ءِ رہبنداں
 reviewing-sentences-explanation-3 = اگاں شما جملہ ءِ بابت ءَ دلجم نہ اِت گڑا شما ھم یلہ دات کن اِت ءُ دیمتر ءِ جملہ ءَ شُت کن اِت۔
 reviewing-sentences-explanation-4 = اگر جائزہ گرغ واسطہ شوے جملہ ختم بیزا شزغاں تاں براہ کرم مزید جملہ جمع کھنغ وچا مے مدد کھنے
 domain-explanation = ڈومین جملہ ءِ بنگپ ءَ گوں سیادی دار ایت۔ اے وھدا، تئو اے نیاما گچین کث کنئے:
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

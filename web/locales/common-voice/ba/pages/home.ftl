@@ -72,36 +72,3 @@ help-contribute = Common Voice профилен булдырып һәм тауы
 login-company = { $company } почтаһы аша Инеү / Теркәлеү
 profile-not-required = Үҙ өлөшөңдө индереү өсөн профилдең булыу мотлаҡ түгел, ә шулай ҙа файҙалы, Ни өсөн - аҫта ҡара.
 read-more-about = «Беҙҙең турала» тигән биттә компания тураһында күберәк белерһегеҙ
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -51,6 +51,3 @@ sdo = serian bidayuh
 snv = saban
 tr = turkish
 xkl = kenyah
-
-## Language search component
-

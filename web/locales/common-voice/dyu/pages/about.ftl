@@ -146,6 +146,3 @@ about-playbook-how-project-governance-content-4 = Sigidamɔgɔw sendonni ani u k
 about-playbook-how-project-governance-content-5 = Nafa ni dɔnniya sɔrɔli.
 about-playbook-how-project-governance-content-6 = Jateminɛ kɛ ɲɔgɔn fɛ.
 about-playbook-how-project-governance-content-7 = <governanceLink>Aw ye kunnafoni wɛrɛw kalan an bɛ mara cogo min na</governanceLink>
-
-## How is Common Voice funded
-

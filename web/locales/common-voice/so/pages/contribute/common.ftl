@@ -5,8 +5,8 @@ skip = Ka bood
 shortcuts = Waddo gaaban
 clips-with-count-pluralized =
     { $count ->
-        [one] 	<bold>{ $count }</bold> Cod
-       *[other] 	<bold>{ $count }</bold> Codad
+        [one] { "\u0009" }<bold>{ $count }</bold> Cod
+       *[other] { "\u0009" }<bold>{ $count }</bold> Codad
     }
 goal-help-recording = Waxaad ka caawisay Common Voice inay gaarto <goalPercentage></goalPercentage> yoolkeenna qabashada maalinlaha ah ee { $goalValue }
 goal-help-validation = Waxaad ka caawisay Common Voice gaaridda <goalPercentage></goalPercentage> yoolkeenna hubinta maalinlaha ah ee { $goalValue }

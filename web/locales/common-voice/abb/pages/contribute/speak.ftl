@@ -60,9 +60,3 @@ already-have-an-account = Ɔ̀ mɔ bwɛ̀ɛ kâŋ i ? <login>Connexion</login>
 create-profile-button = Fɛ̀gɛk kìdiŋgɛdiŋgɛ̀
 # IMAGE TAGS
 img-alt-success-checkmark = Ŋ̀yik nu ǹtòŋlak
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -116,9 +116,6 @@ partnerships-menu-item-aria-label = کامن وائس تون ہمراہ مننگ
 press-and-stories-menu-item-aria-label = کامن وائس نا بابت اٹ شینک مروکا کسہ و پریس ریلیز آ سر مبو
 community-and-languages-menu-item-aria-label = کامن وائس نا کمک کروکا مخلوق و زبانتے پٹبو۔
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٹیکنالوجی ہراکے نما زبان ئے پائک
@@ -138,6 +135,7 @@ spontaneous-card-header = سٹی انگا تران
 spontaneous-card-content = نامیاتی، ہیت و گپ نا سیاق و سباق کن ڈیٹا سیٹس جوڑ کننگ نا اشارہ نا ورندی ایتبو۔ زبانی اولیکو زبان تیکن گچین۔
 language-text-card-header = زبان نا نوشت
 language-text-card-content = السی ڈومین پرامپٹاک، جملہ، و مٹ بدل تیکن متن، چنکا زبان تا ماڈلاک، پین جوڑ کبو یا اوار کبو۔
+coming-soon = زوت بریک
 add-text = نوشت اوار کبو
 answer = ورندی
 

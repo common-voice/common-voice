@@ -16,9 +16,6 @@ validated-clips = Kontrollitud salvestisi
 total-approved = Kinnitatud kokku
 overall-accuracy = Üldine korrektsus
 
-## Custom Goals
-
-
 ## Goals
 
 streaks = Seeriad

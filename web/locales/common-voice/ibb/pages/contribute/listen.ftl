@@ -10,9 +10,3 @@ listen-loading-error = nnyịn ikikanna inie mmuumuyo mfen se unọọ yak akpa�
 listen-abort-title = kweeñe aditVM nse mme mmuumuyo?
 listen-abort-cancel = kaiso aditVm nse
 listen-abort-confirm = kweeñe aditVm nse
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

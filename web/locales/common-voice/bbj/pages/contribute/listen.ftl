@@ -9,9 +9,3 @@ listen-loading-error = Pyə̌ kétə ghə mjɛghɔm má'ma'́ myə é pyə̌ k�
 listen-abort-title = Pú miŋ nə́ tîŋtə  jɛghɔm nə́ jɔ́ á?
 listen-abort-cancel = Lə́ nə́ tîŋtə dɔ́kɛ
 listen-abort-confirm = Miŋ nə́ tîŋtə
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -61,36 +61,3 @@ welcome-staff = መርሓባ ሙወዘፊን { $company }!
 login-company = እተ / ኣብ ናይ { $company } ኢሜል ሕሳብ ፍታሕ
 profile-not-required = አግል ትሳህሞ ናይ ኖስ መለፍ ላሀሌኩም ኢለትሓዘኒ ብስ ነፍዓኩም, ገልሚቱ ግል ታኣምሮ ታሓት ራኣው
 read-more-about = ዲብላ ናይና ሰፍሓት About አንደ ግስኹም ዘያደት ቀርኦ
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

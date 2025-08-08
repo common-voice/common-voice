@@ -9,9 +9,3 @@ listen-loading-error = Lo le gɛ gɛ ńcân bhwetɔ́ oyé. Tɛmɛ ɔ́n cu bre
 listen-abort-title = Tɛmɛ ɔ́n ní júmán phú
 listen-abort-cancel = ɔ́n ní júmán ló hɛ́nmɛn
 listen-abort-confirm = Júmán ophú
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

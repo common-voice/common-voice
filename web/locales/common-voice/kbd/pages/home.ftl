@@ -44,33 +44,3 @@ welcome-staff = Фӏохъус апщий, { $company } ӏуэхущӏэхэр!
 answer-questions = Упщӏэхэм жэуап ет <small>(Куэд мыщӏэу)</small>
 add-questions = Упщӏэхэр хэлъхьэ <small>(Куэд мыщӏэу)</small>
 press-and-stories = Къэхъукъащӏэхэр
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

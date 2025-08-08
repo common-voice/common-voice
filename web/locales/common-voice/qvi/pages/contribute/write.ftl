@@ -118,26 +118,26 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] 	You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
+        [one] { "\u0009" }You have reached the submission limit for this page. Please wait for 1 minute before submitting another sentence. Thank you for your patience!
        *[other] You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] 	You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
-       *[other] 	You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
+        [one] { "\u0009" }You have reached the submission limit for this page. Please wait for 1 second before submitting another sentence. Thank you for your patience!
+       *[other] { "\u0009" }You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
         [one] { $uploadedSentences } of 1 sentence collected
-       *[other] 	{ $uploadedSentences } of { $totalSentences } sentences collected
+       *[other] { "\u0009" }{ $uploadedSentences } of { $totalSentences } sentences collected
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] 	{ $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
-       *[other] 	{ $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+        [one] { "\u0009" }{ $uploadedSentences } of 1 sentence collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
+       *[other] { "\u0009" }{ $uploadedSentences } of { $totalSentences } sentences collected. Click <downloadLink>here</downloadLink> to download rejected sentences.
     }
 small-batch-sentences-rule-1 = “¿Ima rimaykunatataq yapaaman?” nishqanpita kamachiykunata qatiy
 small-batch-sentences-rule-2 = Sapa siqiman huk rimayta yapay

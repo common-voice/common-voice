@@ -57,9 +57,3 @@ already-have-an-account = You already get account? <login>Enter inside</login>
 create-profile-button = Form ya profile
 # IMAGE TAGS
 img-alt-success-checkmark = Chang good
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

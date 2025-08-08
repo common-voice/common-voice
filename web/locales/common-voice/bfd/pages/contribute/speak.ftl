@@ -24,7 +24,7 @@ review-instruction = m̀bu nlèntə ɨnnù bo m̀bu ŋko ɨnnù mə mbə bɨ 
 record-submit-tooltip = { $actionType } tsyàsə̀ ajàŋ yìi mə. Ò màŋsə
 clips-uploaded = ǹjoo mbòòn
 record-abort-title = tsyâ bìì maŋsə ŋkô ?
-record-abort-text = m̀mà'àtə tsɨ̀tsɔ̀ŋ ɨ̀ dɨ̀'ɨ̀ aa mə ò ka bwɛ ŋkwi yò ŋghɛɛ nɨ̂ m̀bìì 
+record-abort-text = m̀mà'àtə tsɨ̀tsɔ̀ŋ ɨ̀ dɨ̀'ɨ̀ aa mə ò ka bwɛ ŋkwi yò ŋghɛɛ nɨ̂ m̀bìì{ " " }
 record-abort-submit = tsyaaə ǹjoo mbòònslə̀jyâ
 record-abort-continue = màŋsə ŋkô
 record-abort-delete = fi'isə ŋkɨ ntsɨgɨtə ɨnnù
@@ -60,9 +60,3 @@ already-have-an-account = à bàa nlə̀ə̂ ŋkabə a ndâ ǹlə̀ə̂ ŋ̀
 create-profile-button = ŋa'a ɨwǎŋ ajàŋ yìi. Mə ŋù à bə̀ aà
 # IMAGE TAGS
 img-alt-success-checkmark = ǹlèntə̂ ŋ̂kwî
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

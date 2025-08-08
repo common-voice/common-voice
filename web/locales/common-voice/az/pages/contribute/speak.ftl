@@ -33,9 +33,3 @@ review-delete-recordings = Qeydlərimi sil
 review-terms = Common Voice işlətməklə <termsLink>Şərt</termsLink> və <privacyLink>Məxfilik Qeydləri</privacyLink>mizlə razılaşmış olursuz
 terms-agree = Razıyam
 terms-disagree = Razı deyiləm
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

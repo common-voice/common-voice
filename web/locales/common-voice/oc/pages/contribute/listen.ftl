@@ -7,9 +7,3 @@ listen-empty-state = Non i a cap mès talh entà validar en aguesta lengua...
 listen-loading-error =
     Non auem podut arténher cap de talh de votz entà que lo revisetz.
     Tornatz-ac a sajar mès tard.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -58,6 +58,3 @@ sdo = سیری بیداہاؤ
 snv = سعبان
 tr = ترکی
 xkl = کینیاہ
-
-## Language search component
-

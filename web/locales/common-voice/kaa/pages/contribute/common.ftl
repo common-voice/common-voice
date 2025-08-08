@@ -47,9 +47,6 @@ success = Таяр
 continue = Даўам етиў
 report-success = Шағым табыслы жиберилди
 
-## Speak & Listen Shortcuts
-
-
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle = [1-5]

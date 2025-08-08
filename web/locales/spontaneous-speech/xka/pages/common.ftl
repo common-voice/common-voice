@@ -58,6 +58,3 @@ sdo = سیرین بدایوہ
 snv = سبان
 tr = ٹرکش
 xkl = کینیا
-
-## Language search component
-

@@ -36,9 +36,3 @@ review-delete-recordings = Diḽitani zwe na rekhoda
 review-terms = Nga u shumisa Common Voice, ni khou tendelana na <termsLink>Milayo ya Kushumisele</termsLink>na<privacyLink>Milayo ya Tshiphiri</privacyLink>
 terms-agree = Ndi a tenda
 terms-disagree = A thi tendelani nazwo
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

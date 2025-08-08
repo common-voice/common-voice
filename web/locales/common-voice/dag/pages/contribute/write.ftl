@@ -87,12 +87,3 @@ file-invalid-type = Di bi saɣi n-ti gbaŋ ŋɔ
 file-too-large = Gbaŋ maa bara pam
 file-too-small = Gbaŋ maa pɔri pam
 too-many-files = Gbana pam
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

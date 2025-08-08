@@ -14,7 +14,7 @@ add-question-too-many-questions-error = Ohingwize ebikaguzo 25. Keehya omuhendo 
 partial-questions-upload-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } of 1 question collected. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
-       *[other] 	{ $uploadedQuestions } of { $totalQuestions } questions collected. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
+       *[other] { "\u0009" }{ $uploadedQuestions } of { $totalQuestions } questions collected. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
     }
 # Guidelines
 add-question-guidelines-title = Nyongereho bikaguzo ki?

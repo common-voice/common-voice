@@ -3,9 +3,3 @@ listen-instruction = <playIcon></playIcon> { $actionType }. Пуплерӗше /
 listen-again-instruction = Питӗ лайӑх!<playIcon></playIcon> Тепре итлӗр хатӗр пулсассӑн
 listen-3rd-time-instruction = Иккӗ хатӗр, малалла! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Юлашки!
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

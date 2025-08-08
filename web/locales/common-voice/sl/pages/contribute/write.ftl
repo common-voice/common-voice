@@ -36,12 +36,3 @@ technology_robotics = Tehnologija in robotika
 ## BULK SUBMISSION
 
 sc-bulk-submit-confirm = Potrjujem, da so ti stavki <wikipediaLink>javna last</wikipediaLink> in da mi jih je dovoljeno naložiti.
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

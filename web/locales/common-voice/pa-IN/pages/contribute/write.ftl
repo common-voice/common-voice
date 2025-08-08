@@ -27,12 +27,3 @@ upload-progress-text = ...ਅੱਪਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ �
 file-too-large = ਫ਼ਾਇਲ ਬਹੁਤ ਵੱਡੀ ਹੈ
 file-too-small = ਫ਼ਾਇਲ ਬਹੁਤ ਛੋਟੀ ਹੈ
 too-many-files = ਬਹੁਤ ਸਾਰੀਆਂ ਫ਼ਾਇਲਾਂ
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

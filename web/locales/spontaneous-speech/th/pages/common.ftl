@@ -58,6 +58,3 @@ sdo = บิดายุฮ์เซอเรียน
 snv = ซาบัน
 tr = ตุรกี
 xkl = เคนยาฮ์
-
-## Language search component
-

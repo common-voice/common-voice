@@ -35,6 +35,3 @@ accept-privacy-and-terms = Jeg accepterer Common Voices' <termsLink>vilkår</ter
 en = Engelsk
 fr = Fransk
 tr = Tyrkisk
-
-## Language search component
-

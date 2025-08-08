@@ -4,9 +4,3 @@ listen-again-instruction = Одличан посао!<playIcon></playIcon> Сл�
 listen-3rd-time-instruction = Два урађена, само наставите тако!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Последњи!
 listen-empty-state = Понестало нам је исечака за потврду на овом језику...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

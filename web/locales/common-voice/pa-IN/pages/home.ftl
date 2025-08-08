@@ -82,33 +82,3 @@ read-more-about = ਸਾਡੇ ਇਸ ਬਾਰੇ ਸਫ਼ੇ ਉੱਤੇ ਹ
 
 add-questions = ਸਵਾਲਾਂ ਨੂੰ ਜੋੜੋ
 community-and-languages = ਸਮਾਜ ਅਤੇ ਭਾਸ਼ਾਵਾਂ
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -12,12 +12,6 @@ demo-eofy-header = 2019 End-of-Year Release
 demo-eofy-sub_header = Voice Dataset, Handa nang I-download
 demo-account = Account
 
-## Demo Account
-
-
 ## Demo Contribute
 
 demo-listen-subtitle = Handa nang mag-ambag?
-
-## Demo Dashboard
-

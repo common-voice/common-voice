@@ -79,15 +79,9 @@ about-playbook-how-grow-language-content-2 = Tapahtumat
 about-playbook-how-grow-language-content-4 = Sosiaalinen media
 about-playbook-how-grow-language-content-6 = Kumppanuudet ja verkostot
 
-## How to validate
-
-
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kuinka saan pääsyn ja kuinka käytän aineistoa?
-
-## How are decisions made
-
 
 ## How is Common Voice funded
 

@@ -87,12 +87,3 @@ file-invalid-type = Mmo gie me ŋweʼe ta neŋe tsɛɛ mmó gie a kaa gwɔ́ pa
 file-too-large = Mmo gie me ŋweʼe ta neŋe tsɛɛ mmó a pú ncʉ́e tɛʼ
 file-too-small = Mmo gie me ŋweʼe ta neŋe tsɛɛ mmó gie a pǔ nkɔ́g
 too-many-files = Shúm sie me ŋweʼe ta neŋe tsɛɛ mmó sie a pǔ ngyɔ́ɔn tɛʼ
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

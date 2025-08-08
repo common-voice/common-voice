@@ -87,12 +87,3 @@ file-invalid-type = Fayl ateyn ghɨ wi ajuŋ
 file-too-large = Fayl àteyn gha' chwôsɨ-à
 file-too-small = Fayl àteyn læ chwôsɨ-à
 too-many-files = Faylsɨ ateyn dvɨ chwôsɨ-à
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -57,9 +57,3 @@ already-have-an-account = Ohandni bondango nʼdowa mú iwani yɔ́ngɔ eeeh ?<l
 create-profile-button = Bondaha nʼdowa mú ewani yɔ́ngɔ
 # IMAGE TAGS
 img-alt-success-checkmark = ndembeyo ya náh ovɛlɛndi iha
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

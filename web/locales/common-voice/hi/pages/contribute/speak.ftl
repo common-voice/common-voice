@@ -34,9 +34,3 @@ review-delete-recordings = मेरी रिकॉर्डिंग्स क
 review-terms = कॉमन वॉइस का उपयोग करके, आप हमारे <termsLink> टर्म्स </ termsLink> और <privacyLink> गोपनीयता सूचना </ privacyLink> से सहमत होते हैं
 terms-agree = मैं सहमत हूँ
 terms-disagree = मैं असहमत हूँ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

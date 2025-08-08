@@ -101,6 +101,3 @@ about-playbook-how-project-governance-content-3 = Приватност, безб
 about-playbook-how-project-governance-content-4 = Учество на заедницата и донесување одлуки.
 about-playbook-how-project-governance-content-5 = Вредност и признание.
 about-playbook-how-project-governance-content-6 = Взаемна одговорност.
-
-## How is Common Voice funded
-

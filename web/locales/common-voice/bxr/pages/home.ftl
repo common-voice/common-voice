@@ -39,39 +39,3 @@ email-not-public = Сахим хаягыетнай олониитэдэ саса
 recordings-and-locale-public = Танай бэшэлгын тоо болон ямар хэлэ баялижуулжа байһантнай олониитэдэ харуулагдаха.
 username-optin-public = Хэрэглэгшын нэрэеэ олониитын гү, үгы һаа нюуса болгохоорта.
 username-email-not-demographic = Танай хэрэглэгшын нэрэ сахим хаяг хоёр ниитэлэгдэһэн үгэгдэлтэйтнай холбоогүй байха.
-
-## Landing
-
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -104,9 +104,6 @@ partnerships-menu-item-aria-label = سکو هيسدآريٚ ڪآمن وآئيٚ�
 press-and-stories-menu-item-aria-label = اجآزت ڏيڻ لآ پريس بٽڻ دٻآئو ڇڏڻ لآ ائيٚݩ آکهآڻيوݩ ڪآمن وآئيٚس ري متآبڪ
 community-and-languages-menu-item-aria-label = ڪآمن وآئيٚس ريٚ مدت سآنٚ ڪميٚونٽيٚ ائيٚنٚ ٻوليآنٚ کي لنٚڀو
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٽيڪنآلآجيٚ جيڪو اڀآݩ ريٚ ٻوليٚ ڳآلهآئي ديٚ
@@ -126,6 +123,7 @@ spontaneous-card-header = بي اکتيآر تڪريٚر
 spontaneous-card-content = نآميآتيٚ، ڳآلهآڻ وآرآنٚ هوآلآنٚ لآ ڊيٽآ سيٽ ٺآهڻ لآ اشآرنٚ رو جوآب ڏيو۔ پهرينٚ زبآنيٚ ٻوليآنٚ لآ بهترينٚ۔
 language-text-card-header = ٻوليٚ ريٚ لکت
 language-text-card-content = ترجمي، ننڍي ٻوليآنٚ ري کآکي، ائيٚنٚ وڌيٚڪ لآ آوآميٚ ڊوميٚن پرآمپٽس، جملآ، ائيٚنٚ لکت ٺآهو جآنٚ شيئر ڪرو.
+coming-soon = جلديٚ آڻ وآريٚ اهي
 add-text = لکت شآمل ڪرو
 
 ## Community section

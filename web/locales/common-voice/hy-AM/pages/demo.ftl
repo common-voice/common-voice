@@ -8,12 +8,3 @@ demo-welcome = Բարի գալուստ Common Voice
 card-button-next = հաջորդ
 card-button-back = Նախորդ
 demo-account = Հաշիվ
-
-## Demo Account
-
-
-## Demo Contribute
-
-
-## Demo Dashboard
-

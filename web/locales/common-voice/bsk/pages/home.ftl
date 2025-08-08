@@ -29,16 +29,16 @@ today = kʰulto
 x-weeks-short =
     { $count ->
         [one] hafta
-       *[other] 	{ $count }wk
+       *[other] { "\u0009" }{ $count }wk
     }
 x-months-short =
     { $count ->
-        [one] 	{ $count }wk
-       *[other] 	{ $count }wk
+        [one] { "\u0009" }{ $count }wk
+       *[other] { "\u0009" }{ $count }wk
     }
 x-years-short =
     { $count ->
-        [one] 	{ $count }y
+        [one] { "\u0009" }{ $count }y
        *[other] { $count } y
     }
 help-make-dataset = śuwa quality daa sisar open dataset desmayar mii miriin ce duunin
@@ -96,9 +96,6 @@ partnerships-menu-item-aria-label = common voice e kaa kaa numa duro etas henin
 press-and-stories-menu-item-aria-label = common voice ate minaśin daa ixbaare taqhpan ġatanin
 community-and-languages-menu-item-aria-label = common voice e uriin ce duunum baaṣiṅ daa kiyooć udoor otin
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Maa baaṣulo ćaġa etas technology.
@@ -118,6 +115,7 @@ spontaneous-card-header = Hik dam ćaġa bar
 spontaneous-card-content = Ćaġa bar damaagusasinar nusenin midigaarum bariṇulo  datase desmanin. Girminas, ġatanas apim baaṣine gane dumanum bila.
 language-text-card-header = Baṣe ćaġa bar
 language-text-card-content = Uyoone barenas diśanulo ćaġa bar doogusasiṅ, jumlan daa, tarjumar text, daa jutiṅ baaśe models desmanin daa emasin.
+coming-soon = Chor diya.
 add-text = Text jama etin.
 
 ## Community section

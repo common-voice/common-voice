@@ -60,9 +60,3 @@ already-have-an-account = ǒβí è βólò jàŋgɔ̀? <login>kpééja�
 create-profile-button = gbèjá è βólò jàŋgɔ̀
 # IMAGE TAGS
 img-alt-success-checkmark = jómà jímáwí
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

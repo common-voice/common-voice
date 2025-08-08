@@ -4,9 +4,3 @@ listen-again-instruction = ବଢ଼ିଆ କାମ! <playIcon></playIcon> ପ�
 listen-3rd-time-instruction = ଆଉ ୨ଟା ରହିଲା, ଆଗେଇ ଚାଲନ୍ତୁ! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> ଶେଷଟି!
 listen-empty-state = ଏହି ଭାଷାରେ ବୈଧତା ପାଇଁ ଆମ ପାଖରେ ଧ୍ୱନି ସରିଯାଇଛି...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

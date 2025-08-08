@@ -107,9 +107,6 @@ partnerships-menu-item-aria-label = Узнайте о партнёрстве с 
 press-and-stories-menu-item-aria-label = Получите доступ к пресс-релизам и статьям, связанным с Common Voice
 community-and-languages-menu-item-aria-label = Узнайте о сообществе и языках, поддерживаемых Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Технологии, говорящие на вашем языке
@@ -129,6 +126,7 @@ spontaneous-card-header = Спонтанная речь
 spontaneous-card-content = Отвечайте на запросы о создании наборов данных для органического разговорного контекста. Идеально для устных языков.
 language-text-card-header = Текст на языке
 language-text-card-content = Создавайте или делитесь общественным достоянием, предложениями и текстом для перевода, небольшими языковыми моделями и так далее.
+coming-soon = Скоро
 add-text = Добавить текст
 answer = Ответить
 

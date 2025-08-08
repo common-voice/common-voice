@@ -87,12 +87,3 @@ file-invalid-type = Mukuta mwá kálati mú kasáɓɛ
 file-too-large = Mukuta mwá́ kálati mú e ɓodiló ɓwambí
 file-too-small = Mukuta mwá ká́lati mú ɓosadi ɓwambí
 too-many-files = Mikuta má kálati mí e jǐta
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

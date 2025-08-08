@@ -10,9 +10,3 @@ listen-loading-error = Ɛɛ kpa so tigɛr o hokawi mɛ zii na. Ɛnɛ we woyo nɛ
 listen-abort-title = Kaɗi kɔ̀ɔ̧́ɗɔ̀ɔ́tom ko o-hokawi nde ?
 listen-abort-cancel = Nɛ́-siti tɛ nɛ kɔ̀ɔ̧́ɗɔ̀ɔ́tom
 listen-abort-confirm = Kaɗi kɔ̀ɔ̧́ɗɔ̀ɔ́tom
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

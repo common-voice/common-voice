@@ -118,9 +118,6 @@ partnerships-menu-item-aria-label = Získajte informácie o partnerstvách so sl
 press-and-stories-menu-item-aria-label = Získajte prístup k tlačovým správam a príbehom týkajúcim sa Common Voice
 community-and-languages-menu-item-aria-label = Preskúmajte komunitu a jazyky podporované Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Technológia, ktorá hovorí vaším jazykom
@@ -140,6 +137,7 @@ spontaneous-card-header = Spontánna reč
 spontaneous-card-content = Reagujte na výzvy na vytvorenie kolekcií údajov pre organické, hovorové kontexty. Ideálne pre hovorové jazyky.
 language-text-card-header = Text jazyka
 language-text-card-content = Vytvárajte alebo zdieľajte verejné výzvy, vety a text na preklad, malé jazykové modely a ďalšie.
+coming-soon = Už čoskoro
 add-text = Pridajte text
 answer = Odpovedajte
 

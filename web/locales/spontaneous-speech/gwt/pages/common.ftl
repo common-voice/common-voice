@@ -58,6 +58,3 @@ sdo = سیرین بدائیوا
 snv = شعبان
 tr = ترکی
 xkl = کېنیا
-
-## Language search component
-

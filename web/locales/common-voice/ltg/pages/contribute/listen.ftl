@@ -16,6 +16,3 @@ listen-abort-confirm = Beigt apstyprynuošonu
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Apstyprynoj īrunuotū, puorsaver transkripcejis
-
-## MENU ITEM ARIA LABELS
-

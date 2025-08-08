@@ -84,12 +84,6 @@ partnerships-menu-item-tooltip = Cullàbbura cu nuiautri
 press-and-stories-menu-item-tooltip = Vìsita u nostru blog o scrivi ncapu a nuiautri
 community-and-languages-menu-item-tooltip = Scopri lingui, cumunità e Common Voice
 
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Ticnuluggìa chi parra a to lingua
@@ -111,12 +105,6 @@ join-discord-community-action = Jùnciti a nuiautri nne Discord
 find-us-on-matrix = Attròvani nne Matrix
 # label for button
 find-us-on-matrix-action = Attròvani nne Matrix
-
-## Featured section
-
-
-## Developers section
-
 
 ## Get involved section
 

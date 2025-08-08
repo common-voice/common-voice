@@ -96,9 +96,6 @@ partnerships-menu-item-aria-label = Saber mas sobre colaboracions con Common Voi
 press-and-stories-menu-item-aria-label = Accede a las notas de prensa y articlos relacionaus con Common Voice
 community-and-languages-menu-item-aria-label = Descubre la comunidat y los idiomas soportaus per Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = La tecnolochía que charra la tuya luenga
@@ -118,6 +115,7 @@ spontaneous-card-header = Parla espontania
 spontaneous-card-content = Responde a las preguntas pa crear bases de datos pa contextos mas organicos y coloquials. Ye perfecta la luengas orals.
 language-text-card-header = Texto linguistico
 language-text-card-content = Crear u compartir preguntas d'o dominio publico, frases y texto pa traducción, modelos de luengache chicoz, y muito mas.
+coming-soon = Disponible luego
 add-text = Anyadir texto
 
 ## Community section

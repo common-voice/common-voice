@@ -143,9 +143,3 @@ small-batch-sentences-rule-3 = Kunebi'id ama nudu dïd chi kabnuu kuo am ama nuk
 small-batch-sentences-rule-4 = Kunejúd nii 1.000 núdu
 small-batch-sentences-rule-5 = Nudi chi dijud ne'e chi dama nukue.
 small-batch-sentences-rule-6 = Nudu chi dijud ne'e chi dama nukue.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

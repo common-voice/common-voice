@@ -72,36 +72,3 @@ help-contribute = Гом рардты ӕмбырды алыхуызон сфӕл
 login-company = Бахиз кӕнӕ { $company } посты ууылты регистраци скӕн
 profile-not-required = Архайынæн профиль ӕнӕмӕнг хъæугæ нӕу, ӕниу пайда у, дæлæ ранымайæм цæмæй.
 read-more-about = Фылдӕр базон нӕ фарсыл  «Мах тыххӕй»
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -33,34 +33,3 @@ about-is-it-valid = 片段正確嗎？
 about-is-it-valid-text = 若使用者投下「正確」，就會標示為有效。
 about-yes-votes = ≥ 2 張「正確」票
 about-yes-votes-text = 必須經過兩位不同的使用者確認過，片段才會進入 Common Voice 資料集。
-
-## Community Playbook Content
-## What is a language
-
-
-## How do I add a language
-
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

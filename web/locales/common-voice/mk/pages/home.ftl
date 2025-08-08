@@ -75,36 +75,3 @@ help-contribute = Може да помогнете во градењето на 
 login-company = Најавете се / Регистрирајте се со е-пошта на { $company }
 profile-not-required = Не е задолжително да се има профил за да придонесете, но е корисно. Видете зошто подолу.
 read-more-about = Прочитајте повеќе на нашата страница За
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -150,6 +150,3 @@ about-playbook-how-project-governance-content-4 = Go tsaya karolo le go dira dit
 about-playbook-how-project-governance-content-5 = Boleng le go lemogiwa.
 about-playbook-how-project-governance-content-6 = Maikarabelo a maphata ka bobedi.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala mo go oketsegileng ka ga go re re laolwa jang</governanceLink>
-
-## How is Common Voice funded
-

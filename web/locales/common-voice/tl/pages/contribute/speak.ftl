@@ -29,9 +29,3 @@ review-delete-recordings = Burahin ang mga recording ko
 review-terms = Sa paggagamit ng Common Voice, sumasang-ayon ka sa aming <termsLink>Terms<termsLink> at <privacyLink>Abiso sa Privacy</privacyLink>
 terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

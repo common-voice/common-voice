@@ -7,9 +7,3 @@ listen-empty-state = Beno ke qeydî nêmendê - xeyrê xo rîpelî aktualîze bi
 listen-loading-error =
     Ma qet qeydê vengî nêdîyo ke ti goşdar bikerê.
     Keremê xo ra badêna reyna biceribne.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -87,12 +87,3 @@ file-invalid-type = De file no correct
 file-too-large = De file over big
 file-too-small = De file over small
 too-many-files = De file dem over plenty
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

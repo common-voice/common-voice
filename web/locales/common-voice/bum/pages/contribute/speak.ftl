@@ -57,9 +57,3 @@ already-have-an-account = Ye ô bili afola ? <login>Ntimban</login>
 create-profile-button = Té'é éve'ela
 # IMAGE TAGS
 img-alt-success-checkmark = Ndem medañ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

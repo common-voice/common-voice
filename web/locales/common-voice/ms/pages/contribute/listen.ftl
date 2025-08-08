@@ -6,9 +6,3 @@ listen-empty-state = Kami kehabisan klip untuk mengesahkan dalam bahasa ini ...
 listen-loading-error =
     Kami tidak dapat mendapatkan sebarang klip audio untuk anda dengar.
     Sila cuba sebentar lagi.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

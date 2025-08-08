@@ -8,12 +8,3 @@ report-button = padjaljun
 skip-button = alimen
 submit-button = sipatjequlja
 contribute = pakaljavutan
-
-## Navbar
-
-
-## Not Found Page
-
-
-## Language search component
-

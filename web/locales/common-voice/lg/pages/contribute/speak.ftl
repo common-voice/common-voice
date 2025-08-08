@@ -36,9 +36,3 @@ review-delete-recordings = Sangula amaloboozi gange
 review-terms = Bw'okozesa Common Voice, okiriza <termsLink>Enkolagana</termsLink> ne <privacyLink>Eby'ekyama</privacyLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

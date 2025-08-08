@@ -16,9 +16,6 @@ validated-clips = Видлалӧма
 total-approved = Вынсьӧдӧма
 overall-accuracy = Стӧчлун
 
-## Custom Goals
-
-
 ## Goals
 
 streaks = ӧтпырйӧ

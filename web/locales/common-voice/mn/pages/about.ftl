@@ -29,34 +29,3 @@ about-nav-why-common-voice = Яагаад?
 about-nav-how-it-works = Яаж ?
 about-nav-partners = Түншүүд
 about-nav-get-involved = Оролцох
-
-## Community Playbook Content
-## What is a language
-
-
-## How do I add a language
-
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

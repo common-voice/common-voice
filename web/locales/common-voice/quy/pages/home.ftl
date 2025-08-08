@@ -72,36 +72,3 @@ help-contribute = Yanapakuyta atikunki huk imaymana, kichasqa willay huñu ruway
 login-company = Iniciar sesión / Registrarse con email de { $company }
 profile-not-required = Mana perfilniyuq yanapakuyta atinki, yanapakuq kaptinpas, uraypi qhaway imarayku.
 read-more-about = Astawan ñawinchay Ñoqaykumanta nisqa paginapi
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

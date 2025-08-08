@@ -4,9 +4,3 @@ listen-again-instruction = കൊള്ളാം!<playIcon></playIcon> തയ്
 listen-3rd-time-instruction = 2 ക്ലിപ്പുകൾ കേട്ടിരിക്കുന്നു, തുടരാം!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> അവസാനത്തേത്!
 listen-empty-state = ഞങ്ങളുടെ കൈയ്യിൽ ഈ ഭാഷയിൽ സാധൂകരിക്കാനുള്ള ക്ലിപ്പുകൾ തീർന്നു ...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

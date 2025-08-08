@@ -38,16 +38,7 @@ history_law_government = Tarixi, Hukuki do Maktaloba
 language_fundamentals = Nenapeşi Temeli (evuli: koretsxape, boncape, geçareli)
 sentence-variant-select-label = Cumleşi lehçepe
 
-## BULK SUBMISSION
-
-
 ## SMALL BATCH SUBMISSION
 
 # menu item
 add-sentences = Cumle eǩudvi
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

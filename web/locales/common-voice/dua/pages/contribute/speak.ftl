@@ -60,9 +60,3 @@ already-have-an-account = O máɓɛ́nɛ dína ó m̀ɓóko? <login>Connexio
 create-profile-button = Tilisɛ dína
 # IMAGE TAGS
 img-alt-success-checkmark = eyemban á ɗolɔ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

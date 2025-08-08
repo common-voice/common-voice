@@ -34,9 +34,3 @@ add-information-button = לייג צו אינפארמאציע
 thanks-for-voice-toast = א דאנק פאר אייער שטימע אינפארמאציע
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = א דאנק פארן ביישטייערן אייער שטימע!
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

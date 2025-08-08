@@ -54,9 +54,3 @@ already-have-an-account = اڳ ۾ ئي هڪ اڪائونٽ آهي؟ <login>لا�
 create-profile-button = پروفائل ٺاھيو
 # IMAGE TAGS
 img-alt-success-checkmark = ڪاميابي جي نشاني
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

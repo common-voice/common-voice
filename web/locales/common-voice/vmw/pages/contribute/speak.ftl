@@ -46,9 +46,3 @@ second-cta-subtitle-text = Ni eperifiili, nyuwo mummalela oveleelaka miteko sany
 create-profile-button = Mupake eperefili
 # IMAGE TAGS
 img-alt-success-checkmark = Muttapunye othanla ni murettele
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

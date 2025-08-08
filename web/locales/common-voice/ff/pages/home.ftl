@@ -86,36 +86,3 @@ help-contribute = Aɗa waawi mahde leemre keɓe limtoɗinnde, udditiinde so sosd
 login-company = Seŋo/ winndito e { $company } iimeel
 profile-not-required = Jogogol heftinirde wonaa ko waɗɗii ngam wallitde hay so haɗum nafa, yiy ko saabii ɗum les ɗoo.
 read-more-about = Jokku taro to hello amen Ɓaɗte
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -7,9 +7,3 @@ listen-empty-state = Hi heleriwe hi swiphemu ku tiyisisa hi ririmi leri...
 listen-loading-error =
     A hi swi kotanga ku kuma swiphemu swa mpfumawulo leswaku u ti yingisela.
     Hi kombela u ringeta nakambe endzhaku ka nkarhi.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

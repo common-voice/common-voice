@@ -108,9 +108,6 @@ partnerships-menu-item-aria-label = Lær om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tilgang til pressemeldinger og historier relatert til Common Voice
 community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språkene som støttes av Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Teknologi som snakker ditt språk
@@ -130,6 +127,7 @@ spontaneous-card-header = Spontan tale
 spontaneous-card-content = Svar på spørsmål for å lage datasett om organiske, dagligdagse kontekster. Perfekt for muntlig førstespråk.
 language-text-card-header = Tekstspråk
 language-text-card-content = Opprett eller del forespørsler, setninger og tekst i det offentlige domene for oversettelse, små språkmodeller og mer.
+coming-soon = Kommer snart…
 add-text = Legg til tekst
 answer = Svar
 

@@ -69,6 +69,3 @@ read-sentences-coming-soon = Skaiteit teikumus <small>(dreizumā)</small>
 speak-contribute-menu-tooltip = Skaitit teikumus, atbiļdit iz vaicuojumim
 read-sentences-menu-item-tooltip = Īrokstit, kai skaitit teikumus sovā volūdā
 answer-questions-menu-item-tooltip = Īrokstit, kai atbiļdit iz vaicuojumim sovā volūdā
-
-## MENU ITEM ARIA LABELS
-

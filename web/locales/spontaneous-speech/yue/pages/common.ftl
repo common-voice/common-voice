@@ -31,6 +31,3 @@ not-found-page-content = 揾唔到你想去嘅頁面
 cdo = 福州
 en = 英語
 fr = 法語
-
-## Language search component
-

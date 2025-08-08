@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = کٞہ جملہ رتٞہ داٞگاٞل مع
 reviewing-sentences-explanation-3 = کٞہ تو جملاٞں باٞراٞمئ یقینی نہ ہو تو تاٞس چھورباں تے مُکٞہ بجباں دی کٞہ۔
 reviewing-sentences-explanation-4 = لخہ تھکے جائیزیں کیر جملاٞ لاٞست تے، تھوکو ما سہ ماربینی کاٞ دی جملاٞ جمع کٞر۔
 domain-explanation = ڈومین جملاٞں موضوع کٞہ اشارہ کٞرنت۔ حلٞن تو مئ خوشاباں؛
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

@@ -9,9 +9,3 @@ listen-loading-error = Pü má ndîne yü nkuete mfu' meyue yi njú' yue pü n
 listen-abort-title = Lishe nún yi kâshe mfu'
 listen-abort-cancel = Ku'she nún yi  kâshe
 listen-abort-confirm = Lishe nún yi kâshe
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

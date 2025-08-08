@@ -65,36 +65,3 @@ username-email-not-demographic = Izina ndanga ryawe na imeri ntibizajya hamwe n'
 ## Landing
 
 profile-not-required = Kugira ibigwi bikomeye si byo ngombwa nubwo byafasha.
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

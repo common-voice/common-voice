@@ -79,36 +79,3 @@ welcome-staff = Selamat Datang kakitangan { $company }!
 login-company = Log masuk / Daftar dengan e-mel { $company }
 profile-not-required = Mempunyai profil tidak wajibkan untuk menyumbang walaupun ia sangat membantu , lihat sebabnya di bawah.
 read-more-about = Baca lebih lanjut di halaman Perihal kami
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

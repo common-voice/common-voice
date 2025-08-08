@@ -2,13 +2,6 @@
 
 about-title = Common Voice Wɛr maysela?
 
-## How does it work section
-
-
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
 about-playbook-how-add-language = A wɛr jag lɛ ni ɓɔ'ge la?
@@ -25,27 +18,3 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink> Wɔ ti GitHub ma wii heege wɛr jag ma defay ni</githubRepoLink>. <localizationFragment>Ko wɛr jag maaga wɔ de fɛrge ni</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Targe wããre wɔ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ko fideyɔ wùr ma ɓɔd nen ti faage fen tar wããre no </sentenceCollectorVideo>.
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

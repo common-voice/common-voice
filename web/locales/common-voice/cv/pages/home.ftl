@@ -60,36 +60,3 @@ username-email-not-demographic = Ятупа эл. пушту уҫӑмлатнӑ 
 ## Landing
 
 profile-not-required = Хутшӑнмашкӑн аккаунт кирлӗ мар, анчах унпа ҫӑмӑлтарах
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

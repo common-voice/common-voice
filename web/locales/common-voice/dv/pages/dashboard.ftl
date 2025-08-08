@@ -16,9 +16,6 @@ validated-clips = ފާސްކުރެވިފައިވާ އަޑުކޮޅުތައް
 total-approved = ޖުމްލަ ފާސްކުރި
 overall-accuracy = ޖުމުލަގޮތެއްގައި ދިމާވުން
 
-## Custom Goals
-
-
 ## Goals
 
 streaks = ޖެހިޖެހިގެން

@@ -50,9 +50,3 @@ reviewing-sentences-explanation-1 = వాక్యం పై ప్రమాణ
 reviewing-sentences-explanation-2 = వాక్యం పై ప్రమాణాలకు అనుగుణంగా లేకుంటే, "లేదు" బటన్‌ను క్లిక్ చేయండి.
 reviewing-sentences-explanation-3 = వాక్యం గురించి మీకు ఖచ్చితంగా తెలియకుంటే, మీరు దానిని దాటవేసి తదుపరి దానికి వెళ్లవచ్చు.
 reviewing-sentences-explanation-4 = మీరు సమీక్షించాల్సిన వాక్యాలు అయిపోతే, దయచేసి మరిన్ని వాక్యాలను సేకరించడంలో మాకు సహాయపడండి!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

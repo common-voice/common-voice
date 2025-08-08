@@ -4,9 +4,3 @@ listen-again-instruction = Yoñ me ntuk!<playIcon></playIcon> Tiimba emble ing�
 listen-3rd-time-instruction = Kenek ni bisu, u tomb bañ!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> hi nsôk!
 listen-empty-state = Dikékét di makiñ di ñhéñél bés inyu ineebe munu unu hop.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

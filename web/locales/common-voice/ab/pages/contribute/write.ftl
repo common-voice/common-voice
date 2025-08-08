@@ -143,9 +143,3 @@ small-batch-sentences-rule-3 = Ажәаҳәақәа цәаҳәак ала еиҟ
 small-batch-sentences-rule-4 = 1000 жәаҳәара рҟынӡа иацҵатәуп
 small-batch-sentences-rule-5 = Ажәаҳәақәа зегьы доменк рымазароуп
 small-batch-sentences-rule-6 = Ажәаҳәақәа зегьы цитатак рымазароуп
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

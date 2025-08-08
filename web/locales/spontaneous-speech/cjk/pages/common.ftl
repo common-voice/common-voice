@@ -11,9 +11,3 @@ contribute = Kuchingilako
 ## Navbar
 
 check-transcriptions = Kuhengulula
-
-## Not Found Page
-
-
-## Language search component
-

@@ -60,9 +60,3 @@ already-have-an-account = nî mǎ ádyaní abú ǹshwɔ́n a hɔ́ŋ ? <lo
 create-profile-button = A lʉ̂mpi yɛ̌n átə̂
 # IMAGE TAGS
 img-alt-success-checkmark = tɔnɛ́ itɛ̂mpi
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

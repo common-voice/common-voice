@@ -4,9 +4,3 @@ listen-again-instruction = Un bellu travagliu ! <playIcon></playIcon> Ascolta to
 listen-3rd-time-instruction = Più chì 2 <playIcon></playIcon>, cuntinuatelu !
 listen-last-time-instruction = <playIcon></playIcon>L'ultimu !
 listen-empty-state = Ùn avemu più campioni dà cunvalidà in issa lingua...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

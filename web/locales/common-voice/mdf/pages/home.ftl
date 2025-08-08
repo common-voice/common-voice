@@ -74,36 +74,3 @@ help-contribute = Лезтт аф фкя лацонь даннаень тием�
 login-company = Сувамс / Тиемс сувама васта эл.адресонь вельде
 profile-not-required = Лездомста профильсь аф эряви, но сембе сяка канды лезкс
 read-more-about = Содак сяда лама «Минь колганк» лопаса
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

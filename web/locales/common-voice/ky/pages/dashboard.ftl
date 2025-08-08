@@ -12,9 +12,6 @@ top-contributors = Көп салым кошкондор
 recorded-clips = Жаздырылгандар
 validated-clips = Текшерилгендер
 
-## Custom Goals
-
-
 ## Goals
 
 streaks = Катары менен

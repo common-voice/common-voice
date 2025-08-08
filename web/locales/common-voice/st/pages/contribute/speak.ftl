@@ -36,9 +36,3 @@ review-delete-recordings = Hlakola direkoto tsa ka
 review-terms = Ka ho sebedisa Common Voice, o dumellana le <termsLink>Dipehelo</termsLink> le <privacyLink>Tsebiso ya Lekunutu</privacyLink>
 terms-agree = Kea dumela
 terms-disagree = Ha ke dumele
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

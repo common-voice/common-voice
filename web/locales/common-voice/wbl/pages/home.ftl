@@ -96,9 +96,6 @@ partnerships-menu-item-aria-label = Dẽ Kommon Voysẽn qẽti wocnẽ k̃hẽ 
 press-and-stories-menu-item-aria-label = Kommon Voysẽ barar press reliz woz zhindagvẽ barar resoyi hosil car
 community-and-languages-menu-item-aria-label = Jẽmoatvẽ woz zẽbonvẽ s̃hẽkur kumdvẽri ki Kommon voysẽ mẽdad k̃hetk
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = T̃eknonojis̃h ti zikẽ bobatẽn k̃hand
@@ -118,6 +115,7 @@ spontaneous-card-header = yidamẽr k̃hẽnak
 spontaneous-card-content = Ishoravẽr jẽwob rand asli d̃at̃asẽt k̃hakẽr, gapẽ metobiq, ne nifishet awalgũni zik.
 language-text-card-header = Zikẽ matan
 language-text-card-content = Yi zẽmunẽr domenẽ pẽjẽhon go,Jumlavẽ, matanẽ, trẽjũmavẽ, z̃aqlay zikẽ sokht woz bes̃h.
+coming-soon = Jaldẽb wizit
 add-text = Matanẽ shomil
 
 ## Community section

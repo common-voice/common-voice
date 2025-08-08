@@ -44,9 +44,3 @@ continue-speaking-button = Ok kamano , med wuoyo
 thanks-for-voice-toast = Erokamano kuom chiwo wach duondi
 already-have-an-account = In kod akaont? <login>Dinji</login>
 create-profile-button = Ket pichani
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

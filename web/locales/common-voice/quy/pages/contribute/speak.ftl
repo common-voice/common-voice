@@ -36,9 +36,3 @@ review-delete-recordings = Borrar mis grabaciones
 review-terms = Al usar Common Voice, acepta nuestros <termsLink>Términos</termsLink> y <privacyLink>Aviso de privacidad</privacyLink>
 terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

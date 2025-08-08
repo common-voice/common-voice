@@ -32,9 +32,3 @@ review-aborted = Dagah-keel baxqeh. Atu isi tasgiil kaltam maay faxxaa?
 review-submit-title = Sekkaacis & Kobbos
 review-submit-msg = Tasgiil abteemih gadda gey!<lineBreak></lineBreak>Away ku xabbittey gubal tani sekkaacisaay kobbos.
 review-recording = Sekkaacis
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

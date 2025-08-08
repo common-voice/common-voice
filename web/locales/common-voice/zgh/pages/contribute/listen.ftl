@@ -11,9 +11,3 @@ listen-loading-error =
 listen-abort-title = ⵙⵎⴷ ⴰⵣⵣⵔⴰⵢ ⵏ ⵜⵓⵙⵙⵉⴼⵉⵏ?
 listen-abort-cancel = ⵙⵎⴷ ⵙⵓⵍ ⴰⵣⵣⵔⴰⵢ
 listen-abort-confirm = ⵙⵎⴷ ⴰⵣⵣⵔⴰⵢ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

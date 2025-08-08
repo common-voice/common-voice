@@ -36,9 +36,3 @@ review-delete-recordings = Нардамс эсь сёрматфнень
 review-terms = «Common Voice»-нь тевс нолдамста праят фкя мяльс мархтонк <termsLink>Условиятнень </termsLink> и <privacyLink>Эсь тевонь каготтнень кяшемаснон</privacyLink> коряс.
 terms-agree = Праян фкя мяльс
 terms-disagree = Аф праян фкя мяльс
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -145,6 +145,3 @@ about-playbook-how-project-governance-content-4 = ኮማዊ ተሳትፎን ም�
 about-playbook-how-project-governance-content-5 = ዋጋን ኣፍልጦ ምሃብን።
 about-playbook-how-project-governance-content-6 = ሓባራዊ ተሓታትነት።
 about-playbook-how-project-governance-content-7 = <governanceLink>ብዛዕባ ኣመራርሓና ዝያዳ ኣንብቡ</governanceLink>
-
-## How is Common Voice funded
-

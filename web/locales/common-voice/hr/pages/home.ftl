@@ -119,9 +119,6 @@ partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
 press-and-stories-menu-item-aria-label = Pristupi objavama i pričama o Common Voiceu
 community-and-languages-menu-item-aria-label = Istraži zajednicu i jezike koje podržava Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Tehnologija koja govori tvojim jezikom
@@ -141,6 +138,7 @@ spontaneous-card-header = Spontani govor
 spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za etimološke, kolokvijalne kontekste. Savršeno za usmene prve jezike.
 language-text-card-header = Jezični tekst
 language-text-card-content = Stvori ili dijeli upite, rečenice i tekst za prijevod, male jezične modele u javnom vlasništvu i još mnogo toga.
+coming-soon = Uskoro stiže
 add-text = Dodaj tekst
 answer = Odgovor
 

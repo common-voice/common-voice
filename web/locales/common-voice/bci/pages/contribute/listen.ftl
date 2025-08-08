@@ -10,9 +10,3 @@ listen-loading-error = E kwla ɲanman ndɛ wie fi naan y’a tie. Yaki, yo i sin
 listen-abort-title = Ama vie nzɔliɛ like ye ?
 listen-abort-cancel = Yo ekun
 listen-abort-confirm = Bue’n i awieliɛ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

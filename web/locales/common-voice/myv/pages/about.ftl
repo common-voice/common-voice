@@ -89,12 +89,6 @@ about-playbook-how-grow-language-content-4 = Соцмедия
 
 about-playbook-how-validate = Мезень коряс содави вайгельсёрмадксось кемекстамс -- а кемекстамс?
 
-## How to access dataset
-
-
 ## How are decisions made
 
 about-playbook-how-project-governance = Кода проектэнь коряс ве мельс самот теевить?
-
-## How is Common Voice funded
-

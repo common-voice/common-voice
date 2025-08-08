@@ -57,9 +57,3 @@ already-have-an-account = Ó é dá' gə ta' cə́ mcuŋ á ? <login> ya' ko
 create-profile-button = Nyaptə ta' cə́ mcuŋ
 # IMAGE TAGS
 img-alt-success-checkmark = Ywə̀ nə́ biŋ gə́ á cyə pəpúŋ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -7,9 +7,3 @@ listen-empty-state = ነዚ ቛንቋ እዚ ንምርግጋጽ ክሊፕታት 
 listen-loading-error =
     ክትሰምዕ እትኽእሉ ዝኾነ ናይ ሓጺር-ድምጺ ክንረክብ ኣይከኣልናን።
     ጸኒሕካ እንደገና ፈትን።
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

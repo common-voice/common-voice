@@ -10,9 +10,3 @@ listen-loading-error = Bì tā də̀ yɔ̄m à mə vɔ̀klaŋ
 listen-abort-title = Sâlǎnì kaŋ isé
 listen-abort-cancel = Tɔ̀lanì nə mə sâlǐ
 listen-abort-confirm = Məŋyânì nsàlaŋ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

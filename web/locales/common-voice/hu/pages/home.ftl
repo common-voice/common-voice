@@ -114,9 +114,6 @@ partnerships-menu-item-aria-label = Tudjon meg többet a Common Voice-szal való
 press-and-stories-menu-item-aria-label = Érje el a Common Voice-szal kapcsolatos sajtóközleményeket és történeteket
 community-and-languages-menu-item-aria-label = Fedezze fel a közösséget és a Common Voice által támogatott nyelveket
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Technológia, amely beszéli az Ön nyelvét
@@ -136,6 +133,7 @@ spontaneous-card-header = Spontán beszéd
 spontaneous-card-content = Válaszoljon kérdésekre, hogy természetes, köznyelvi adatkészleteket készítsen. Tökéletes az elsősorban beszédhez használt nyelvekhez.
 language-text-card-header = Nyelvi szöveg
 language-text-card-content = Hozzon létre vagy osszon meg közkincsű kérdéseket és mondatokat, valamint fordításhoz, kis nyelvi modellekhez és egyebekhez használható szövegeket.
+coming-soon = Hamarosan
 add-text = Szöveg hozzáadása
 answer = Válasz
 

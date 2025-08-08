@@ -6,9 +6,3 @@ listen-last-time-instruction = <playIcon></playIcon> Апошні!
 listen-empty-state = У нас скончыліся кліпы для праверкі на гэтай мове...
 listen-abort-cancel = Працягнуць праверку
 listen-abort-confirm = Скончыць праверку
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

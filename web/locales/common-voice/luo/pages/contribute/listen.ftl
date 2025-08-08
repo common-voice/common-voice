@@ -8,9 +8,3 @@ listen-loading-error = Nok wanyal yudoni duonde momaki minyalo chike iti. Wakway
 listen-abort-title = Isetieko puotho duonde momaki?
 listen-abort-cancel = Dhi nyime kod puotho
 listen-abort-confirm = Tiek puodho weche
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

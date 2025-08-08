@@ -50,9 +50,3 @@ already-have-an-account = Xora hesabê to est o? <login>Dekewe</login>
 create-profile-button = Profîlêk viraze
 # IMAGE TAGS
 img-alt-success-checkmark = nîşanê serkewtişî
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

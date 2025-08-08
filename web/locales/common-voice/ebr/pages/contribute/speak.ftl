@@ -57,9 +57,3 @@ already-have-an-account = Wú ɔ́n phwa láka ?<login>gán-gán donɛ́n yi
 create-profile-button = Créer un profil
 # IMAGE TAGS
 img-alt-success-checkmark = áyígɛ́ yí osɛ́n
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

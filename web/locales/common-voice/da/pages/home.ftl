@@ -89,18 +89,13 @@ about-us = Om os
 
 press-and-stories-menu-item-tooltip = Besøg vores blog eller skriv om os
 
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Teknologi, der taler dit sprog
 
 ## Action items section
 
+coming-soon = Kommer snart
 add-text = Tilføj tekst
 
 ## Community section
@@ -116,16 +111,7 @@ contribute-github-content = Dette projekt ville ikke være muligt uden mennesker
 # label for button
 contribute-github-action = Bidrag på GitHub
 
-## Featured section
-
-
-## Developers section
-
-
 ## Get involved section
 
 validate-readings-link = Valider oplæsninger
 answer-questions-link = Besvar spørgsmål
-
-## Partner section
-

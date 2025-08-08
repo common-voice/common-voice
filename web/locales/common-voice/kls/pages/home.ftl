@@ -94,9 +94,6 @@ partnerships-menu-item-aria-label = Joni malgerian/ partnerships as som common v
 press-and-stories-menu-item-aria-label = Common voice/ sawin awazas bariu una jonikas bati
 community-and-languages-menu-item-aria-label = Jagai comety an ze zuban an bariu una common voice/ sawin awazas thara sawuz hula
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Technology kia ki tai zuban joniu
@@ -116,6 +113,7 @@ spontaneous-card-header = Tez mon dek
 spontaneous-card-content = Jawab de prus't kai, dataset prus't karikas bati, zuban mahikas ze jonikas bati
 language-text-card-header = Zuban newishil'a
 language-text-card-content = Sawzai ya o phazi, domain prompts, newishil'a, newishil'a tarjuma, chutyak zuban ze warek
+coming-soon = Gha'ns' ew dai
 add-text = Newishil'a jama kari
 
 ## Community section

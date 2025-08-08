@@ -101,9 +101,3 @@ reviewing-sentences-explanation-1 = Si la oración cumple con los criterios ante
 reviewing-sentences-explanation-2 = Si la oración no cumple con los criterios anteriores, haga clic en el botón "No".
 reviewing-sentences-explanation-3 = Si no está seguro de la frase, también puede omitirla y pasar a la siguiente.
 reviewing-sentences-explanation-4 = Si te quedas sin oraciones para revisar, ¡ayúdanos a recopilar más oraciones!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

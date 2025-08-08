@@ -7,9 +7,3 @@ listen-empty-state = N’a sɔrɔ an ka klipw banna - ka ɲɛ in lakurayali, wal
 listen-loading-error =
     An ma se ka odio clip si sɔrɔ walasa aw ka se k’a lamɛn.
     Aw ye aw jija ka segin ka a lajɛ kɔfɛ.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

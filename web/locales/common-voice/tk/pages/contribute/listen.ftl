@@ -4,9 +4,3 @@ listen-again-instruction = Berekella!<playIcon></playIcon> Taýýar bolanyňyzda
 listen-3rd-time-instruction = 2 sanysy dyndy, arman dowam ediň!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Soňkusy!
 listen-empty-state = Bu dilde barlanmaly klipleri gutardyk...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

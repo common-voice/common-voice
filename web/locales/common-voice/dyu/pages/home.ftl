@@ -86,36 +86,3 @@ help-contribute = Aw bɛ se ka dɛmɛ don ka kunnafonidilan suguya caman jɔ, mi
 login-company = Don / I tɔgɔ sɛbɛn ni { $company } email ye
 profile-not-required = Ka kɛ ni profil ye, o man kan ka kɛ walasa ka dɛmɛ don hali ni o bɛ dɛmɛ don, a’ ye mun na a lajɛ jukɔrɔ.
 read-more-about = Aw ye kunnafoni wɛrɛw kalan an ka Kow ɲɛ kan
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -36,9 +36,3 @@ review-delete-recordings = Hapus rekaman saya
 review-terms = Dengan menggunakan Common Voice, berarti Anda menyetujui <termsLink>Persyaratan</termsLink> dan <privacyLink>Pemberitahuan Privasi</privacyLink> kami
 terms-agree = Saya setuju
 terms-disagree = Saya tidak setuju
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

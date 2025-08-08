@@ -19,6 +19,3 @@ demo-account-card-header = עס פארלאנגט זיך נישט צו האבן �
 ## Demo Contribute
 
 demo-listen-subtitle = גרייט צו ביישטייערן?
-
-## Demo Dashboard
-

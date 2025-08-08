@@ -26,6 +26,3 @@ easy-difficulty = آسان
 average-difficulty = درمیانہ
 difficult-difficulty = مشکل
 want-to-continue = تُس جاری رکھنا چانے آ؟
-
-## Goals
-

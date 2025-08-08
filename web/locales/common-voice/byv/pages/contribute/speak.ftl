@@ -60,9 +60,3 @@ already-have-an-account = bǐn yǎ cú' zìn dʉ̀ gí?<login>Bì cú</lo
 create-profile-button = cú' dʉ̀
 # IMAGE TAGS
 img-alt-success-checkmark = jú nǝ̀ lɑ̀hdǝ̀ mbǝ́ á brɔ̌
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

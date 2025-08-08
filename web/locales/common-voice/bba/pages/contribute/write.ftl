@@ -87,12 +87,3 @@ file-invalid-type = Bɔɔ gari nɛnuti  tè ba ǹ wure
 file-too-large = Bɔɔ gari nɛnuti te ta pkã to
 file-too-small = Bɔɔ gari nɛnutiru ta piibuu sãa n banda
 too-many-files = Bɔɔ gari nŋutinu nu dabia to
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

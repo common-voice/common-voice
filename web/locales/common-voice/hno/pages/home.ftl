@@ -98,9 +98,6 @@ partnerships-menu-item-aria-label = کامن وائس نال شراکتاں با
 press-and-stories-menu-item-aria-label = کامن وائس بارے پریس ریلیز ہور کہانڑیاں کو پُہنچو
 community-and-languages-menu-item-aria-label = کامن وائس دی مدد آلیاں زباناں ہور کمیونٹی بارے جانڑو۔
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٹیکنالوجی جڑّی تسدی زبان بولا
@@ -120,6 +117,7 @@ spontaneous-card-header = خود بخود گل/تقریر
 spontaneous-card-content = اصلی تے عام بات چیت آلے سیاق و سباق آسطے ڈیٹاسیٹ بنڑانڑ آسطے پرامپٹ دا جواب دیو۔ پہلے بولنا آلیاں زباناں آسطے بہترین اے۔
 language-text-card-header = زبان دی عبارت
 language-text-card-content = ترجمے، نکی زبان دے نمونے تے مزید آسطے عوامی ڈومین پرامپٹس، جملے تے عبارت بنڑاؤ ہور اگا چلاؤ۔
+coming-soon = جلدی آ رے آ
 add-text = عبارت/جملے بھاؤ
 
 ## Community section

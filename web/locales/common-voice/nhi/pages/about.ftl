@@ -108,6 +108,3 @@ about-playbook-how-project-governance-content-4 = tlapalehuani masehualnichicol 
 about-playbook-how-project-governance-content-5 = quexquich huan teixpantilis
 about-playbook-how-project-governance-content-6 = pohual sansicah
 about-playbook-how-project-governance-content-7 = <governanceLink> ximomachti cachi quemeh quenin tech ixpantiah</governanceLink>
-
-## How is Common Voice funded
-

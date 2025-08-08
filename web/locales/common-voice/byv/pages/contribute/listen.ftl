@@ -10,9 +10,3 @@ listen-loading-error = bú gǝ̄ brɔ̌ rǝ̌ ncúp nǝ̀ jú'. Bɛ̀n trɑ̂
 listen-abort-title = myɑ̀dǝ̌ nǝ̀ bɑ́mǝ́ ncúp?
 listen-abort-cancel = nɛ̌n mbrǝ̌ nǝ̀ bɑ́mǝ́
 listen-abort-confirm = myɑ̀dǝ̌ nǝ̀ bɑ́mǝ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

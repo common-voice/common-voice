@@ -13,9 +13,6 @@ contribute-more =
 record-button-label = Үнүңөрдү жаздыргыла
 share-title-new = Дагы үн тапканга <bold>бизге жардам</bold> бергиле
 
-## Reporting
-
-
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
@@ -44,6 +41,3 @@ shortcut-vote-yes = о
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ж
-
-## Validation criteria
-

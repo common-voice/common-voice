@@ -52,7 +52,7 @@ sc-review-empty-state = kaa ɨ̀nnù a mbǔ nlèntə tsɨ̀tsɔŋ fàa mum n
 report-sc-different-language = nɨ̀ghàà ni dàŋə̀
 report-sc-different-language-detail = bɨ ŋwa'anə aa a nɨ nɨghàà ni daŋ kaa a wa'a annù ya mə mə bù ǹlentə aa bə̂
 sentences-fetch-error = àfànsənnù kɨ̀ fɛ̀'ɛ a noò ǹlɔ̀ɔ̂ ɨnnù
-review-error = àfǎnsənnù a kɨ̀ fɛ̀ɛ a noò yìi mə bɨ kɨ̀ aɨ lèntə̀ yuà ànnù 
+review-error = àfǎnsənnù a kɨ̀ fɛ̀ɛ a noò yìi mə bɨ kɨ̀ aɨ lèntə̀ yuà ànnù{ " " }
 review-error-rate-limit-exceeded = o qàŋsə̀ ŋghɛɛ si'i tsàà tsà'à, bɔɔ nyɨ'ɨnə a mbǔ nlèntə̂ ɨ̀nnù jyâ a nyə mə ɨ ku'unə̂
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = bì'i ggɨ̀rə̀ bɨ̂kwensə bî wè bî mɔ'ɔ̀

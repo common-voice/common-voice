@@ -87,12 +87,3 @@ file-invalid-type = Ìpɛ̀n diɓɛ̄
 file-too-large = Di ìpɛ̀n di pɛ̀ndɛ nīn
 file-too-small = Di ìpɛ̀n di pɛ̀ndɛ tɔ̄go
 too-many-files = Màpɛ̀n ma pɛ̀ndɛ ŋgǎn
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

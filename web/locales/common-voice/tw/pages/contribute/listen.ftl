@@ -7,9 +7,3 @@ listen-empty-state = We've run out of clips to validate in this language...
 listen-loading-error =
     We couldn’t get any audio clips for you to listen to.
     Please try again later.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

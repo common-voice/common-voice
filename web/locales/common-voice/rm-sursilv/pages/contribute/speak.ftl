@@ -33,9 +33,3 @@ review-delete-recordings = stizzar mias registraziuns
 review-terms = Cun duvrar Common Voice acceptas ti nossas <termsLink>cundiziuns d'utilisaziun</termsLink> e nossas<privacyLink>directivas davart la protecziun da datas</privacyLink>
 terms-agree = jeu sun d'accord
 terms-disagree = jeu refuseschel
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

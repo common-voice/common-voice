@@ -80,9 +80,6 @@ about-playbook-how-grow-language-content-2 = Imeachtaí
 about-playbook-how-grow-language-content-4 = Na meáin shóisialta
 about-playbook-how-grow-language-content-6 = Comhpháirtíochtaí agus líonraí
 
-## How to validate
-
-
 ## How to access dataset
 
 about-playbook-how-access-dataset = Conas is féidir liom an tacar sonraí a rochtain agus a úsáid?

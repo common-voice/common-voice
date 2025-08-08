@@ -4,9 +4,3 @@ listen-again-instruction = Ai lucrat bine!<playIcon></playIcon> Ascultă din nou
 listen-3rd-time-instruction = Ai terminat 2. Ține-o tot așa!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ultima!
 listen-empty-state = Nu mai avem clipuri de validat în această limbă...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

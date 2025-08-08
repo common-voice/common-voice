@@ -38,6 +38,3 @@ sdo = Serian Bidayuh
 snv = Sa’ban
 tr = Turcu
 xkl = Kenyah
-
-## Language search component
-

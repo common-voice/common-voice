@@ -8,18 +8,6 @@ background-noise = Taustamelu
 background-voices = Taustaäänet
 example = Esimerkki
 
-## Voice collection sidebar content
-
-
-## Sentence collection nav ids
-
-
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = Verkkosivustot
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

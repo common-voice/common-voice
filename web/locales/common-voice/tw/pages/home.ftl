@@ -64,39 +64,3 @@ recordings-and-locale-public = The number of recordings and which languages you 
 username-optin-public = You can choose to make your username public or anonymous.
 demographic-deidentified-clarity-2 = Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
 username-email-not-demographic = Your username and email will not be associated with the published data.
-
-## Landing
-
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

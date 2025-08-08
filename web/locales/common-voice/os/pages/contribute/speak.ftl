@@ -38,9 +38,3 @@ terms-agree = Æз разы кæнын
 terms-disagree = Æз нæ разы кæнын
 add-information-button = Бафтау информаци
 create-profile-button = Дæ профиль скæн
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

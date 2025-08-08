@@ -7,18 +7,3 @@ languages = भास
 about = About
 partner = हातांत हात
 submit-form-action = दाड
-
-## Reporting
-
-
-## Speak & Listen Shortcuts
-
-
-## Speak Shortcuts
-
-
-## Listen Shortcuts
-
-
-## Validation criteria
-

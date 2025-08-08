@@ -53,9 +53,3 @@ already-have-an-account = Ou deja genyen yon kont? Ebyen <login>Konekte</login>
 create-profile-button = Kreye yon pwofil
 # IMAGE TAGS
 img-alt-success-checkmark = mak siksè
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

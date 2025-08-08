@@ -81,24 +81,9 @@ partnerships-menu-item-aria-label = لے کامن وائسن دے شراکت ب�
 press-and-stories-menu-item-aria-label = دے کامن وائس باری دے خبرف اڤن دے مضمونف ژاغہ اوئے
 community-and-languages-menu-item-aria-label = کامن وائس لے ګیم کمیونٹیف اڤن لے ګیم زبانف کو مدد کیتے ڤے وف معلوم کن
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٹیکنالوجی کو یو دے تے زبان گپ دیہیتے
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
 
 ## Get involved section
 

@@ -4,9 +4,3 @@ listen-again-instruction = Керемет жұмыс! <playIcon></playIcon> Да
 listen-3rd-time-instruction = 2 дайын, жалғастырыңыз! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Соңғысы!
 listen-empty-state = Осы тілде тексеру үшін клиптеріміз таусылды ...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -98,9 +98,3 @@ too-many-files = ٻہوں ساریاں فائلاں
 
 # menu item
 add-sentences = جملے شامل کرو
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

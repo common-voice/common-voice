@@ -101,9 +101,6 @@ community-and-languages-menu-item-tooltip = با جامعهٔ ما ارتباط 
 partnerships-menu-item-aria-label = دربارهٔ همکاری با آوای مشترک بیشتر بدانید
 press-and-stories-menu-item-aria-label = به اطلاعیه‌های مطبوعاتی و داستان‌های مرتبط با آوای مشترک دسترسی پیدا کنید
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = فناوری‌ای که به زبان شما صحبت می‌کند
@@ -111,6 +108,7 @@ hero-title = فناوری‌ای که به زبان شما صحبت می‌کن�
 ## Action items section
 
 language-text-card-header = متن زبان
+coming-soon = به زودی
 add-text = افزودن متن
 answer = پاسخ
 
@@ -125,15 +123,6 @@ find-us-on-matrix-content = ماتریکس یک شیوه‌نامهٔ آزاد �
 find-us-on-matrix-action = ما را در ماتریکس پیدا کنید
 ask-mozilla-share = از موزیلا بخواهید رویدادهای شما را هم‌رسانی کند
 
-## Featured section
-
-
-## Developers section
-
-
 ## Get involved section
 
 answer-questions-link = به پرسش‌ها پاسخ دهید
-
-## Partner section
-

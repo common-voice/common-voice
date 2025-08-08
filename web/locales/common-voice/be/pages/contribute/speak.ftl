@@ -48,9 +48,3 @@ thanks-for-voice-toast-error = Пры адпраўцы інфармацыі пр
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Дзякуй вам, што ахвяравалі ваш голас!
 create-profile-button = Стварыць профіль
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

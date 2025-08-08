@@ -117,9 +117,6 @@ partnerships-menu-item-aria-label = ڪامن وائس مون ڀائيواري ب
 press-and-stories-menu-item-aria-label = ڪامن وائس مون ڀآريوڙي پريس رليز ھين ڪهاڻيون تڪ رسائي حاصل ڪرو
 community-and-languages-menu-item-aria-label = ڪامن وائس ري مدد مون ڪميونٽي ھين ٻوليو يي جو
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٽيڪنالاجي جي تمو ري ٻولي ٻولي ھي
@@ -139,6 +136,7 @@ spontaneous-card-header = بي اختيار تقرير
 spontaneous-card-content = نامياتي، ٻوليا وارو حوالو ھارو ڊيٽاسيٽ ٺاهيا ھارو اشارو رو جواب ڏيو. پهري زباني ٻوليو ھارو بهتري.
 language-text-card-header = ٻولي رو متن
 language-text-card-content = ترجمو، نيني ٻوليو ري ماڊلز، ھين وڌيڪ ھارو عوامي ڊومين پرامپٽس، جملا، ھين متن ٺايو يا شيئر ڪرو.
+coming-soon = جلدي آوئي
 add-text = متن جما ڪرو
 answer = جواب
 

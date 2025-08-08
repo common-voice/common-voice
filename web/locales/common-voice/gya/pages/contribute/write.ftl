@@ -87,12 +87,3 @@ file-invalid-type = Mboɗatom'ɛ nyɛm sɛnɛ na
 file-too-large = Mboɗatom'ɛ gasa yák-zalé
 file-too-small = Mboɗatom'ɛ dee geɗek-a yák-zalé
 too-many-files = Mboɗatom nɔ̀ɔ́ dɔka yák-zalé
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

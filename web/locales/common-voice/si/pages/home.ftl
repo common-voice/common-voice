@@ -34,39 +34,3 @@ email-not-public = අපි ඔබගේ විද්‍යුත් තැප�
 recordings-and-locale-public = පටිගත කිරීම් ගණන සහ ඔබ දායක වන භාෂා පොදු වේ.
 username-optin-public = ඔබේ පරිශීලක නාමය පොදු හෝ නිර්නාමික කිරීමට ඔබට තෝරා ගත හැකිය.
 username-email-not-demographic = ඔබගේ පරිශීලක නාමය සහ විද්‍යුත් ලිපිනය ප්‍රකාශිත දත්ත සමඟ සම්බන්ධ නොවේ.
-
-## Landing
-
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

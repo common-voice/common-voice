@@ -85,12 +85,3 @@ file-invalid-type = 檔案無效
 file-too-large = 檔案太大
 file-too-small = 檔案太小
 too-many-files = 檔案太多
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

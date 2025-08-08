@@ -99,9 +99,6 @@ partnerships-menu-item-aria-label = Leghe àteru in pitzus de is sòtzios de Com
 press-and-stories-menu-item-aria-label = Atzede a is comunicados de istampa e a istòrias acapiadas a Common Voice
 community-and-languages-menu-item-aria-label = Esplora sa comunidade e is limbas cumpatìbiles cun Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Tecnologia chi faeddat sa limba tua
@@ -121,6 +118,7 @@ spontaneous-card-header = Testu ispontàneu
 spontaneous-card-content = Risponde a inditos pro creare pachetes de datos pro cuntestos orgànicos e collochiales. Perfetu pro limbas cun una traditzione orale forte.
 language-text-card-header = Testos in sa limba
 language-text-card-content = Crea o cumpartzi preguntas de domìniu pùblicu, fràsias e testu pro sa tradutzione, modellos piticos de limba e àteru.
+coming-soon = Luego
 add-text = Agiunghe testos
 
 ## Community section
@@ -149,9 +147,6 @@ contribute-github-action = Contribui a Github
 ## Featured section
 
 featured-section-title = Nd’ant faeddadu
-
-## Developers section
-
 
 ## Get involved section
 

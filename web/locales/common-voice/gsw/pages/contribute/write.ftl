@@ -64,15 +64,3 @@ news_current_affairs = Noochrìchte ùn aktüelli Theme
 technology_robotics = Technologie ùn Robotik
 sentence-variant-select-label = Sàtzvàriànt
 sentence-variant-select-placeholder = Schwàsiere eieri Vàriànt (optionàl)
-
-## BULK SUBMISSION
-
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

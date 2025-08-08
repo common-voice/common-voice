@@ -101,9 +101,6 @@ partnerships-menu-item-aria-label = גלו עוד על שותפיות עם Commo
 press-and-stories-menu-item-aria-label = גישה להודעות לעיתונות ולידיעות הקשורות ל-Common Voice
 community-and-languages-menu-item-aria-label = גלו עוד על הקהילה והשפות של Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = טכנולוגיה שמדברת בשפה שלך
@@ -114,18 +111,3 @@ hero-subtitle-2 = השפה שלנו היא הסיפור שלנו, הקהילה �
 ## Action items section
 
 action-items-section-title = ‏Common Voice היא פלטפורמת קוד פתוח חינמית ליצירת נתונים בהובלת הקהילה
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

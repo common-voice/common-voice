@@ -7,9 +7,3 @@ listen-empty-state = Биһиэхэ тургутар килииптэр бүтт
 listen-abort-title = Тургутууну тохтотоҕут?
 listen-abort-cancel = Ситэри тургутуу
 listen-abort-confirm = Тургутууну тохтот
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

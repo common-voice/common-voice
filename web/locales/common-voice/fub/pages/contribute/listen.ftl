@@ -10,9 +10,3 @@ listen-loading-error = Min keɓaay misaalu rezistira  haa heɗitoo, Ponndite fah
 listen-abort-title = timmine tabintinde misaaluuji
 listen-abort-cancel = Tokkoo tabintinde
 listen-abort-confirm = timmine tabintinde
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

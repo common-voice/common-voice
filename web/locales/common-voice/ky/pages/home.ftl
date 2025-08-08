@@ -64,36 +64,3 @@ username-email-not-demographic = Атыңыз жана эмейлиңиз жар
 ## Landing
 
 profile-not-required = Салым кошуу үчүн профайл түзүү талап кылынбайт, бирок пайдалуу болмок
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

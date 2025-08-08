@@ -60,9 +60,3 @@ already-have-an-account = ¿Kámaxakiri chiiti inchakwa ma ya? <iniciar sesión>
 create-profile-button = úni mitikwarhintskwa ma
 # IMAGE TAGS
 img-alt-success-checkmark = arhikwekasïnti eska yámu ampe sési weraska
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

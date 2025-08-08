@@ -60,9 +60,3 @@ already-have-an-account = bɨ tɨ dɨ djaŋ yin ?<login>dinghɨ </login>
 create-profile-button = muara djaŋ yɔ
 # IMAGE TAGS
 img-alt-success-checkmark = Butɛn dɨ dɨ kpan
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

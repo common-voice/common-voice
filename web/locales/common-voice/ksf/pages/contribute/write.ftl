@@ -87,12 +87,3 @@ file-invalid-type = ǹ benɨ kɨsal
 file-too-large = kɨsal kɨ tɔrɛ
 file-too-small = kɨsal kɨ rɨ lə sag
 too-many-files = Bɨsal bɨ teghɛ
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -9,9 +9,3 @@ listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍
 listen-abort-title = 是否完成驗證片段？
 listen-abort-cancel = 繼續驗證
 listen-abort-confirm = 完成驗證
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

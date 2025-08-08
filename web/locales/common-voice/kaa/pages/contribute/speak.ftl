@@ -16,9 +16,3 @@ terms-disagree = Разы емеспен
 why-donate = Не ушын сорап атырсыз?
 first-cta-gender-select-default-option = Вариантты таңлаң
 create-profile-button = Профил жаратыў
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

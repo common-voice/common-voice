@@ -10,9 +10,3 @@ listen-loading-error = bì'ì ghɨ̀rə wa'à kaa bì'ì kɨ̀ wa'à nɨ́
 listen-abort-title = màŋsə mbiitə m̀bɛɛ yâ?
 listen-abort-cancel = ghɛɛ nɨ̀ bìì a bííntə̂
 listen-abort-confirm = màŋsə mbɛɛ̀
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

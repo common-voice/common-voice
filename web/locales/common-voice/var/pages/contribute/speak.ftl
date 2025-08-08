@@ -60,9 +60,3 @@ already-have-an-account = ¿Iniwaému waási cuentá? <iniciar sesión>Oínaka i
 create-profile-button = Netenarésaka uká piré Common Voice
 # IMAGE TAGS
 img-alt-success-checkmark = Amó kawé nahurió itapéri
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

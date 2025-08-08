@@ -33,9 +33,3 @@ review-delete-recordings = Манӑн ҫырусене картла
 review-terms = Common Voice усӑ курсассӑн эсир пирӗн <termsLink>усӑ курас условийӗсемпе</termsLink> тата <privacyLink>привотность политикипе</privacyLink> килӗшетӗр
 terms-agree = Эпӗ килӗшетӗп
 terms-disagree = Эпӗ килӗшместӗп
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

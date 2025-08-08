@@ -18,6 +18,3 @@ demo-account-card-body = To the right we outline the benefits and clarify what i
 ## Demo Contribute
 
 demo-listen-subtitle = Хэлъхьэныгъэ фщӏыну фыхьэзыр?
-
-## Demo Dashboard
-

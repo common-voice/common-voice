@@ -23,6 +23,3 @@ demo-account-sign-up = Or tundruok mar donjo
 
 demo-contribute-card-header = Iseikori medo duondi kendo miyowa iti?
 demo-listen-subtitle = Iseikri ne chiuruok?
-
-## Demo Dashboard
-

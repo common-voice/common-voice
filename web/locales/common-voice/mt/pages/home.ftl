@@ -73,36 +73,3 @@ help-contribute = Tista' tgħinna nibnu ġabra ta' data ddiversifikata u open so
 login-company = Idħol / Abbona bl-imejl tal-{ $company }
 profile-not-required = Mhux bilfors irid ikollok profil biex tikkontribwixxi, għalkemm dan jaf iservi ta' għajnuna, ara għaliex hawn taħt.
 read-more-about = Aqra iktar fuq il-paġna Dwarna
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

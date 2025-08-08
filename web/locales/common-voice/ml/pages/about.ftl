@@ -37,40 +37,18 @@ about-nav-how-it-works = എങ്ങനെ ?
 about-nav-partners = പങ്കാളികള്‍
 about-nav-get-involved = പങ്കെടുക്കുക
 
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
 about-playbook-how-add-language = ഒരു ഭാഷ എങ്ങനെ ചേൎക്കാൻ പറ്റും?
 about-playbook-how-add-language-translating-heading = താൾ വിവൎത്തനം
 about-playbook-how-add-language-collecting-sentences-heading = വാക്ക്യങ്ങളെ പിരിക്കുന്നതു്
 
-## How does localization work
-
-
 ## How to add sentences
 
 about-playbook-how-add-sentences = വാക്യങ്ങൾ എങ്ങനെയാണു് ചേൎക്കുന്നതു്?
-
-## How to record quality
-
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = പരിപാടികൾ
 about-playbook-how-grow-language-content-4 = സാമൂഹികമാധ്യമം
 about-playbook-how-grow-language-content-6 = പങ്കാളിത്തവും
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

@@ -7,6 +7,3 @@ error-recording = Яздырганда хата килеп чыкты
 delete = Бетерү
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = Җибәрелде
-
-## Explainer text (Respond to Prompt)
-

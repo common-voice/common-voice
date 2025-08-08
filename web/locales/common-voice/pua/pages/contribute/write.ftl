@@ -143,9 +143,3 @@ small-batch-sentences-rule-3 = mantani kwirutsikata jimpo jarhasperataa wantakwa
 small-batch-sentences-rule-4 = úakari 1000 o utasaï wantakwa úntskata kúparhataani
 small-batch-sentences-rule-5 = Jatsisti eska yáminut wantakwa untskataecha úaka mak'u jankwarhu niarani
 small-batch-sentences-rule-6 = Yámintu wantakwa úntskataecha jatsiska eskaksï mapurhku anapuwaka
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

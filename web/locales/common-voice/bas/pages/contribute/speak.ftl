@@ -36,9 +36,3 @@ review-delete-recordings = Sas miñôdge nwem
 review-terms = Intel u ñgéda u ntep le u mbôñôl Common Voice, wee u mbôn le u nneebe <termsLink>Mayegna</termsLink> ni <privacyLink>Libam li Matédés</privacyLink>
 terms-agree = Me nneebe
 terms-disagree = Me nneebe bé
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

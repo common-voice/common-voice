@@ -95,9 +95,6 @@ about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
 
 about-playbook-how-validate = Nena doloç̌areri geptzora vana mot geptzora muç̌o oxovotzonare?
 
-## How to access dataset
-
-
 ## How are decisions made
 
 about-playbook-how-project-governance = Projeşi ǩarari muç̌o eiç̌open?

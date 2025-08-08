@@ -10,9 +10,3 @@ listen-loading-error = nambamfaŋá ya matakalavara mahalaba aŋa ya midekala s
 listen-abort-title = ndavamara mopolovoro aŋa ga mahalaba aŋa
 listen-abort-cancel = numoro akama ara mopolovoro aŋa
 listen-abort-confirm = ndavamara mopolovoro aŋa
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

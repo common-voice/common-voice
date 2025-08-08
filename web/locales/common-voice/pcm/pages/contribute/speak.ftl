@@ -62,9 +62,3 @@ already-have-an-account = Yu don get account? <login>Log-In</login>
 create-profile-button = Kreat a profile
 # IMAGE TAGS
 img-alt-success-checkmark = Suksess chekmark
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

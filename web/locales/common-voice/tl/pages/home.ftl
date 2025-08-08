@@ -65,36 +65,3 @@ username-email-not-demographic = Ang iyong username at email ay hindi maiuugnay 
 welcome-staff = Mabuhay ang mga kawani ng { $company }!
 login-company = Log In / Sign Up with { $company } email
 read-more-about = Magbasa pa sa aming About page
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

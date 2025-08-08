@@ -10,9 +10,3 @@ listen-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
 listen-abort-title = ¿Chínu chinebëd nudu?
 listen-abort-cancel = Kunebekad
 listen-abort-confirm = Chinu chinebed
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

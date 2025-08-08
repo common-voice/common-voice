@@ -107,9 +107,6 @@ partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common V
 press-and-stories-menu-item-aria-label = Piekļūstiet preses relīzēm un stāstiem, kas saistīti ar Common Voice
 community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīto kopienu un valodas
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Tehnoloģija, kas runā mūsu valodā
@@ -129,6 +126,7 @@ spontaneous-card-header = Spontāna runa
 spontaneous-card-content = Atbildiet uz jautājumiem, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
 language-text-card-header = Valodas teksti
 language-text-card-content = Veidojiet datu vākšanas jautājumus, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+coming-soon = Drīzumā
 add-text = Pievienot tekstu
 answer = Atbilde
 

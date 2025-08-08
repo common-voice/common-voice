@@ -93,9 +93,3 @@ reviewing-sentences-explanation-2 = 문장이 위의 기준에 부합하지 않�
 reviewing-sentences-explanation-3 = 잘 모르겠다면 해당 문장을 건너뛰고 다음 문장으로 넘어가도 됩니다.
 reviewing-sentences-explanation-4 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
 domain-explanation = 도메인은 문장의 주제를 뜻합니다. 현재 다음 내용 중에서 선택할 수 있습니다.
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

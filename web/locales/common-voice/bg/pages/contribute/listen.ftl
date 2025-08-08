@@ -10,9 +10,3 @@ listen-loading-error =
 listen-abort-title = Валидирането приключи ли?
 listen-abort-cancel = Продължаване на валидирането
 listen-abort-confirm = Завършване на  валидирането
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

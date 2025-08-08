@@ -9,9 +9,3 @@ review-recording = Kanna
 review-delete-recordings = Strika mínar upptøkur
 terms-agree = Eg góðtaki
 terms-disagree = Eg góðtaki ikki
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

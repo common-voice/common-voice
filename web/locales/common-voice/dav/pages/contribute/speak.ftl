@@ -36,9 +36,3 @@ review-delete-recordings = Futa klipu rapo
 review-terms = Kwa kutumia Common Voice, kwarumiriana na <termsLink> Tamzi <termsLink> na <privacyLink> Maeleshero gha Maza ra Kiviso </privacyLink>
 terms-agree = Narumiria
 terms-disagree = Sirumirie
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

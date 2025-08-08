@@ -87,12 +87,3 @@ file-invalid-type = Apa' ǹshwɔ́n á bɔɔŋɛ́
 file-too-large = Apa' ǹshwɔ́n á díín ŋgʉ́mengêŋ
 file-too-small = Apa' ǹshwɔ́n á diinɛ́
 too-many-files = Opa' ǹshɔ́n ú bʉ́ʉ́ tə̂ ŋgʉ́mengêŋ
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

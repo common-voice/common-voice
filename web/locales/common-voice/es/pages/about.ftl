@@ -34,10 +34,6 @@ about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Patrocinadores
 about-nav-get-involved = Colaborar
 
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Mira nuestra guía sobre cómo usar Pontoon.</translateVideoLink>
@@ -46,27 +42,3 @@ about-playbook-how-add-language-collecting-sentences-heading = Recolectando orac
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Vea nuestra guía sobre el uso de Sentence Collector</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 = Puede <sentenceCollectorLinkAdd>agregar una pequeña cantidad de oraciones</sentenceCollectorLinkAdd>, o puede realizar <bulkImportDocsLink>importaciones masivas usando Github</bulkImportDocsLink>. Recuerda que las oraciones deben ser <licenseLink>CC0 (o dominio público)</licenseLink>, o puedes escribir las tuyas propias.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ver más sobre la colección de oraciones</sentenceCollectorFragment>.
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

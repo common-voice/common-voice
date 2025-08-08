@@ -87,12 +87,3 @@ file-invalid-type = Afəb dayean kig
 file-too-large = Afəb a nə adzid abui
 file-too-small = Afəb a nə mbə ovəvəs
 too-many-files = Məfəb ma nnəməna
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

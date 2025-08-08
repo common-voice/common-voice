@@ -156,6 +156,3 @@ about-playbook-how-project-governance-content-4 = Kutimbandzakanya kwemmango nek
 about-playbook-how-project-governance-content-5 = Linani nekunconywa
 about-playbook-how-project-governance-content-6 = Kwetsembeka lokufananako.
 about-playbook-how-project-governance-content-7 = <governanceLink>Fundza kabanti ngekutsi sengamelwe kanjani</governanceLink>
-
-## How is Common Voice funded
-

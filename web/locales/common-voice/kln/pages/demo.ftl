@@ -24,6 +24,3 @@ demo-account-sign-up = iyogun linkit asiasirgei
 
 demo-contribute-card-header = ichopot itesyi sautingung anan igoite itingung?
 demo-listen-subtitle = ichobot iyum?
-
-## Demo Dashboard
-

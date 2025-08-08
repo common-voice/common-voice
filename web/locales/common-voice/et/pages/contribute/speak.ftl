@@ -33,9 +33,3 @@ review-delete-recordings = Kustuta mu salvestised
 review-terms = Common Voice'i kasutamisel nõustud meie <termsLink>tingimuste</termsLink> ja <privacyLink>privaatsusreeglitega</privacyLink>
 terms-agree = Olen nõus
 terms-disagree = Ma ei ole nõus
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

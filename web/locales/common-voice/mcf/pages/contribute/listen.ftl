@@ -5,9 +5,3 @@ listen-abort-confirm = Nainquis anisbanec
 validate-readings = Onquiedtedi anisban
 # text wrapped in <small></small> will be shown in a smaller font size
 validate-readings-coming-soon = Onquiedtedi anisban <small>(badedquioshë)</small>
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

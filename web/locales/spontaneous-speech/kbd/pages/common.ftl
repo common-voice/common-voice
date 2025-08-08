@@ -1,9 +1,3 @@
-## General
-
-
-## Navbar
-
-
 ## Not Found Page
 
 # Locales
@@ -26,6 +20,3 @@ sdo = Сериан Бидау
 snv = Сабан
 tr = Тыркубзэ
 xkl = Кенийбзэ
-
-## Language search component
-

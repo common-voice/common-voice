@@ -27,10 +27,6 @@ about-nav-get-involved = Қатнасыў
 about-nav-how-it-works-2 = Common Voice қалай ислейди?
 about-nav-playbook = Қалай қатнасыў кереклигин билиў
 
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
 about-playbook-how-add-language = Мен тилди қалай қосыўым мүмкин?
@@ -61,9 +57,6 @@ about-playbook-how-grow-language-content-2 = Ўақиялар
 about-playbook-how-grow-language-content-4 = Социал медиа
 about-playbook-how-grow-language-content-6 = Сериклик ҳәм тармақлар
 
-## How to validate
-
-
 ## How to access dataset
 
 about-playbook-how-access-dataset = Мағлыўматлар топламын алып қалай қолланыўым мүмкин?
@@ -73,6 +66,3 @@ about-playbook-how-access-dataset = Мағлыўматлар топламын а
 about-playbook-how-project-governance = Жойбар бойынша шешимлер қалай қабылланады?
 about-playbook-how-project-governance-content-3 = Қупиялық, қәўипсизлик ҳәм ашықлық.
 about-playbook-how-project-governance-content-6 = Өз-ара жуўапкершилик.
-
-## How is Common Voice funded
-

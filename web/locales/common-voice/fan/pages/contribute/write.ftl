@@ -87,12 +87,3 @@ file-invalid-type = bia ben afep di
 file-too-large = afep é ne anen abui
 file-too-small = afep é ne tyotyo
 too-many-files = abui mefep
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -104,9 +104,3 @@ reviewing-sentences-explanation-2 = اگرجملہ اولݩع پتہ معیار 
 reviewing-sentences-explanation-3 = اگرتو جملہ بارہ تہ یقین نہ بیبا ستہ ایکی جملہ پاتہ تے پنوی وای جملہ تہ اں بچی ۔
 reviewing-sentences-explanation-4 = اگر جائزہ اݣستہ دیوکں توتہ جملہ لکہ بیبا مہربانی کتہ ایموتہ اہ چا دی جملہ جمع کوستہ تہ کمک کشݩع
 domain-explanation = ڈومین جملہ موضوع پعوان اوہ تہ ستہ ول تہ تیو ویرہ ستاں تاستݩع انتخاب کو بچی :
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

@@ -7,9 +7,3 @@ listen-empty-state = Ro fhelelwa nga zwo rekhodiwaho zwine zwa ṱoḓa u khwa�
 listen-loading-error =
     A ro ngo kona u wana odio dzo rekhodiwaho dza maipfi uri inwi ni kone u dzi thetshelesa.
      Ri humbela uri ni lingedze nga vhuya.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

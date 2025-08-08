@@ -82,36 +82,3 @@ help-contribute = ᱟᱢ ᱫᱚ ᱣᱤᱣᱤᱫ, ᱠᱷᱩᱞᱟᱹ ᱥᱨᱚᱛ
 login-company = ᱵᱚᱞᱚᱱ ᱢᱮ/ ᱥᱩᱦᱤ ᱮᱢ ᱢᱮ { $company } ᱤᱢᱮᱞ ᱥᱟᱶᱛᱮ
 profile-not-required = ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱢᱚᱦᱚᱨ ᱫᱚ ᱵᱟᱭ ᱫᱚᱨᱠᱟᱨ ᱠᱟᱱᱟ ᱦᱮᱞᱮ ᱠᱚᱨᱟᱣ ᱠᱟᱜ ᱞᱮᱠᱷᱟᱱ ᱴᱷᱤᱠ ᱛᱟᱦᱮᱸᱱᱚ, ᱞᱟᱛᱟᱨ ᱧᱮᱞ ᱢᱮ ᱪᱮᱫᱟᱜ᱾
 read-more-about = ᱟᱞᱮᱭᱟ ᱵᱟᱵᱚᱛ ᱥᱟᱦᱴᱟ ᱨᱮ ᱟᱨᱦᱚᱸ ᱯᱟᱲᱦᱟᱣ ᱯᱮ
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

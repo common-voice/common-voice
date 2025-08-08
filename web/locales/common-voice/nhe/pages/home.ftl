@@ -68,36 +68,3 @@ username-email-not-demographic = Su nombre de usuario y correo electrónico no s
 
 help-contribute = Puede ayudar a crear un conjunto de datos diverso y de código abierto creando un perfil de Common Voice y contribuyendo con su voz.
 read-more-about = Lea más en nuestra página Acerca de
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

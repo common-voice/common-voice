@@ -9,9 +9,3 @@ listen-loading-error = yaa nji sɔmi bipasməvogolan pibəbə. timinə vəg ambu
 listen-abort-title = də e jəbələ?
 listen-abort-cancel = kɛnəngan osu
 listen-abort-confirm = nyə vala
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

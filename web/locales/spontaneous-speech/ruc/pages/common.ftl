@@ -51,6 +51,3 @@ sdo = Serian Bidayuh
 snv = Saban
 tr = Mutuluki
 xkl = Munakenya
-
-## Language search component
-

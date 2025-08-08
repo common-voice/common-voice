@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = Si la oración no cumple con os criterios an
 reviewing-sentences-explanation-3 = Si no yes seguro d'a frase, tamién puez omitir-la y pasar a la siguient.
 reviewing-sentences-explanation-4 = Si te quedas sin frases a revisar, aduya-nos a replegar-ne mas!
 domain-explanation = Lo dominio fa referencia a la tematica d'a frase. Actualment puez triar entre:
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

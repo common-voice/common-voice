@@ -20,9 +20,6 @@ skip-button = رد کردن
 submit-button = ارسال
 contribute = مشارکت
 
-## Navbar
-
-
 ## Not Found Page
 
 not-found-page-header = پیدا نشد
@@ -33,6 +30,3 @@ en = انگلیسی
 fr = فرانسوی
 tr = ترکی
 xkl = کنیا
-
-## Language search component
-

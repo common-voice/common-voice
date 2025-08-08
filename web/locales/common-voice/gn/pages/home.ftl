@@ -111,9 +111,6 @@ partnerships-menu-item-aria-label = Eikuaave opaite juaju Common Voice ndivegua 
 press-and-stories-menu-item-aria-label = Eike maranduasãi ha tembiasakue ojuehegua Common Voice ndive
 community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽnguéra omoneĩva Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Tembiporupyahu oikumbýva ne ñe’ẽ
@@ -133,6 +130,7 @@ spontaneous-card-header = Ñe’ẽsyry hape’ỹva
 spontaneous-card-content = Embohovái oñeporandúva heñoikuaa hag̃ua mba’ekuaarã aty taha’e jeregua ha ñe’ẽrei. Iporã añete ñe’ẽnguéra ojeporuvévape.
 language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
 language-text-card-content = Emoheñói térã emoherakuã je’epy, ñe’ẽjuaju ha moñe’ẽrã isãsóva ñe’ẽmbohasarã, ñe’ẽte rehegua ha hetave.
+coming-soon = Ag̃aitéma
 add-text = Embojuapy moñe’ẽrã
 answer = Ñembohovái
 

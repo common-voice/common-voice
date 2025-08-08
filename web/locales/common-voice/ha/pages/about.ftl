@@ -31,34 +31,3 @@ about-nav-why-common-voice = Me yasa?
 about-nav-how-it-works = Ta yaya?
 about-nav-partners = Abokan hulɗa
 about-nav-get-involved = Sami Shiga
-
-## Community Playbook Content
-## What is a language
-
-
-## How do I add a language
-
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

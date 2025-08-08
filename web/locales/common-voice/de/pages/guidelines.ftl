@@ -100,7 +100,7 @@ adding-sentences-subheader-abbreviations = Abkürzungen und Akronyme
 adding-sentences-subheader-abbreviations-explanation = Abkürzungen und Akronyme wie „USA“ oder „ICE“ sollten im Quelltext vermieden werden, da sie möglicherweise nicht mit ihrer Schreibweise übereinstimmen. Darüber hinaus kann es für eine einzelne Abkürzung mehrere korrekte Bedeutungen.
 adding-sentences-subheader-punctuation = Interpunktion
 adding-sentences-subheader-punctuation-explanation =
-     Sonderzeichen und Satzzeichen sollten nur enthalten sein, wenn es unbedingt notwendig ist. Zum Beispiel ist ein Apostroph in englischen Wörtern wie 
+    { " " }Sonderzeichen und Satzzeichen sollten nur enthalten sein, wenn es unbedingt notwendig ist. Zum Beispiel ist ein Apostroph in englischen Wörtern wie 
     „don’t“ und „we’re“ enthalten und sollte in den Quelltext aufgenommen werden, aber es ist unwahrscheinlich, dass Sie jemals ein Sonderzeichen wie „@“ oder „#“ benötigen.
 adding-sentences-subheader-special-characters = Sonderzeichen und ausländische Buchstaben
 adding-sentences-subheader-special-characters-explanation-1 =

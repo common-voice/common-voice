@@ -17,12 +17,3 @@ file-invalid-type = Невалидна датотека
 file-too-large = Датотеката е преголема
 file-too-small = Датотеката е премногу мала
 too-many-files = Премногу датотеки
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

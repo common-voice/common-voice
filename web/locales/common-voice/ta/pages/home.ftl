@@ -70,36 +70,3 @@ help-contribute = நீங்கள் ஒரு பொதுக்குரல
 login-company = { $company } மின்னஞ்சலுடன் உள்நுழைக / பதிவு செய்க
 profile-not-required = ஒரு சுயவிவரத்தை வைத்திருப்பது உதவியாக இருந்தாலும் பங்களிப்பு செய்ய வேண்டிய அவசியமில்லை
 read-more-about = எங்கள் அறிமுகப் பற்றி பக்கத்தில் மேலும் படியுங்கள்
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

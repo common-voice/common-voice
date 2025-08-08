@@ -6,7 +6,7 @@ skip = بِل اِنت
 shortcuts = کسانیں جُز
 clips-with-count-pluralized =
     { $count ->
-        [one] 	<bold>{ $count }</bold> کلپ
+        [one] { "\u0009" }<bold>{ $count }</bold> کلپ
        *[other] <bold>{ $count }</bold> کلپس
     }
 goal-help-recording = تھو میں کامن وأس را میے روزانۂ پرکھنے کار تک میں ساتھ دہ

@@ -52,6 +52,3 @@ sdo = سرین بدایو
 snv = سابن
 tr = ترکش
 xkl = کینیا
-
-## Language search component
-
