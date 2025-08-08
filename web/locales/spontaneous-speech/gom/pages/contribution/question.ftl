@@ -9,6 +9,7 @@ add-question-success-toast-message =
        *[other] { $totalQuestions } hatuntlean { $uploadedQuestions } prosn ekthailem
     }
 add-question-error-message = Upload zal na. Anik ek pautt proytn kor.
+add-question-too-many-questions-error = 25 prosneo zavun geli. Prosn mezun unnem korun porot dhadd.
 do-section-title = Oxem Kor
 do-not-section-title = Hem koru naka
 do-not-section-guideline-3 = Monak-lavpi prosneo vicharu naka
