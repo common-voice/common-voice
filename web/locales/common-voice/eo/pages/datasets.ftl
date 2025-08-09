@@ -24,6 +24,7 @@ number-of-voices = Nombro de voĉoj
 splits = Dividoj
 email-to-download = Tajpu retpoŝton por elŝuti
 why-email = <b>Kial ni petas retpoŝton</b> Ni povus bezoni kontakti vin en la estonteco, pro ŝanĝoj al la datumaro kaj via retpoŝto permesos al ni tion fari.
+why-donate-datasets-page = Mozilla Common Voice estas la plej diverseca malfermita parola datumaro en la mondo, kreita el publikaj kontribuoj. Kaj nin financas nur donacoj. Kostas preskaŭ milionon da dolaroj jare gastigi la datumarojn kaj plibonigi la platformon por la pli ol 100 lingvaj komunumoj, kiuj kalkulas je ni kaj je kion ni faras. Se vi valoras malfermitajn, inkluzivajn datumojn - <b>donacu hodiaŭ!</b>
 confirm-size = Vi pretas komenci la elŝuton de <b>{ $size }</b>
 size-gigabyte = GO
 size-megabyte = MO
@@ -45,6 +46,8 @@ feedback-q = Ĉu vi ŝatus komenti?
 # This indicates that there is no data to display
 no-information = Sen informo
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ estas <docsLink>malfermitkoda ilaro</docsLink> por esploristoj kiuj disvolvas avangardajn konversacian AI-ajn modelojn.
+resource-deepspeech-info = La malfermitkoda parolrekonilo de Mozilla, Deep Speech, povas esti uzita por konstrui parolkapablajn programojn. Vizitu nian <githubLink>superrigardon de Gihub</githubLink> aŭ aliĝu al <discourseLink>DeepSpeech Discourse</discourseLink> por scii kie kaj kiel komenci.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> dediĉas sin al malfermita parola teknologio. Iliis dedicated to open speech technology. Ĝiaj projektoj inkuzivas STT kaj TTS motorojn, kiuj estas bazitaj je profunda lernado.
 community-playbook = Komunuma manlibro
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
