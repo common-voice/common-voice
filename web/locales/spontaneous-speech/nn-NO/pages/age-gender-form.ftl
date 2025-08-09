@@ -1,3 +1,6 @@
+# Age and Gender form
+age-gender-form-title = Takk for at du bidreg til Spontaneous Speech!
+age-gender-form-subtile = Ved å fortelje oss om deg sjølv, vil du hjelpe utviklarar med å byggje meir inkluderande teknologi
 add-information-button = Legg til informasjon
 continue-speaking-button = Fortset å snakke
 age-select-label = Kor gammal er du?
