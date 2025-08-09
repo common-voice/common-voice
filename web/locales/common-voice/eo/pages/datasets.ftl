@@ -8,8 +8,10 @@ datasets-positioning =
     La plurlingva datumaro de Common Voice estas jam la plej granda publike havebla voĉa datumaro, sed ne la ununura.
     
     Tiu ĉi paĝo listigas aliajn malfermitkodajn voĉajn datumarojn kaj, dum la evoluo de Common Voice, ankaŭ niajn estontajn ĝisdatigojn.
+datasets-speech-bubble-content = Ekscitaj novaĵoj! Spontanea parolo alvenos baldaŭ! Restu informita pri ĝisdatigoj kaj certu kontroli nian <discordLink>Discord</discordLink> por havi la lastajn informojn.
 language = Lingvo
 download-dataset-header = Elŝuti la datumaron
+download-delta-explainer = Ni ŝanĝis kelkajn aferojn. Segmentoj Delta nur enhavas la plej ĵusajn registraĵojn ekde la lasta eldono. <deltaLink>Pli da informo pri tiu ĉi temo</deltaLink>.
 download-dataset-tag = Elektu la deziratan lingvan datumaron kaj la version, kiun vi volas elŝuti.
 # File size in gigabytes
 size = Grando
@@ -17,6 +19,7 @@ validated-hr-total = Validigitaj entutaj horoj
 overall-hr-total = Entutaj horoj
 cv-license = Permesilo
 audio-format = Formo de sono
+dataset-splits = Grupoj (aĝo kaj sekso)
 number-of-voices = Nombro de voĉoj
 splits = Dividoj
 email-to-download = Tajpu retpoŝton por elŝuti

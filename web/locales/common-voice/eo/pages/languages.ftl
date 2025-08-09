@@ -4,6 +4,8 @@ language-section-in-progress = Progresanta
 language-section-in-progress-new-description = Tiu ĉi lingvoj estas nuntempe preparataj de iliaj komunumoj. La progresindikiloj montras la nunan staton  de <localizationGlossaryLink>traduko de la retejo</localizationGlossaryLink> kaj <sentenceCollectionGlossaryLink>kolekto da frazoj</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanĉita
 language-section-launched-description = Por ĉi tiuj lanĉitaj lingvoj la retejo estis sukcese <localizationGlossaryLink>tradukita</localizationGlossaryLink>, kaj la lingvo havas sufiĉe da <sentenceCollectionGlossaryLink>frazoj kolektitaj</sentenceCollectionGlossaryLink> kiu permesas daŭrajn <speakLink>parolajn</speakLink> kaj <listenLink>aŭskultaj</listenLink>   kontribuojn.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Lasta ĝisdatigo: { $lastUpdatedTimeStamp }
 languages-show-more = Vidi pli
 languages-show-less = Vidi malpli
 language-meter-in-progress = Progreso
@@ -13,6 +15,8 @@ language-search-input =
 language-speakers = Parolantoj
 localized = Tradukita
 sentences = Frazoj
+language-validation-hours = Horoj
+language-validation-progress = Validiga progreso
 contribute = Kontribui
 get-involved-button = Partopreni
 get-involved-title = Kontribui al { $lang }
