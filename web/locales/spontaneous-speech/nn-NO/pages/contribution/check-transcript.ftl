@@ -6,6 +6,8 @@ transcription-page-instruction = { $actiontype } <playIcon></playIcon> Lytt til 
 check-editbox-header = Valt
 # Message which appears when there are no more resources on this page
 no-transcriptions-continue-skipped-message = Det finst akkurat no ingen transkripsjonar å sjekke for dette språket. Om du har hoppa over noko, kan du halde fram med innhaldet som er hoppa over, eller gå til transkribering av lyd og prøve på nytt seinare.
+vote-transcript-success = Godkjent transkripsjon
+vote-transcript-error = Det oppstod ein feil under avstemminga for transkripsjonen
 transcript-edited-success = Transkripsjonen er redigert
 transcript-skipped-success = Transkripsjonen vart hoppa over
 # For the button on the Check Transcriptions page to assert that a transcription is correct
