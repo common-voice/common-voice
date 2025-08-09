@@ -27,3 +27,15 @@ sc-review-link = Revizii
 
 sc-criteria-modal = ⓘ Kriterioj por revizio
 sc-criteria-title = Kriterioj por revizio
+sc-criteria-make-sure = Certiĝu, ke la frazo plenumas la jenajn kriteriojn:
+sc-criteria-item-1 = La frazo devas esti ĝuste literumita.
+sc-criteria-item-2 = La frazo devas esti gramatike ĝusta.
+sc-criteria-item-3 = La frazo devas esti pronocebla.
+sc-criteria-item-4 = Se la frazo plenumas la kriteriojn, alklaku la butonon &quot;Akcepti&quot; dekstre.
+sc-criteria-item-5-2 = Se la frazo ne plenumas la suprajn kriteriojn, alklaku la butonon &quot;Rifuzi&quot; maldekstre. Se vi ne certas pri la frazo, vi ankaŭ povas pretersalti ĝin kaj daŭrigi kun la sekva frazo.
+sc-criteria-item-6 = Se vi ne plu havas frazojn por revizii, bonvolu helpi nin kolekti pliajn frazojn!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrolu <icon></icon> ĉu ĉi tiu frazo estas lingve ĝusta?
+sc-review-rules-title = Ĉu la frazo plenumas la gvidliniojn?
+sc-review-empty-state = Nuntempe ne estas frazoj por revizii en ĉi tiu lingvo.
+report-sc-different-language = Alia lingvo
