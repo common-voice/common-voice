@@ -28,3 +28,5 @@ learn-how-to-use-transcribe = Lær korleis du transkriberer
 learn-how-to-use-transcribe-explanation = Skriv ned nøyaktig kva personen sa, inkludert mellombelse ord som «ehm» eller «eh».
 learn-how-to-use-transcribe-guidance = Klikk <guidanceLink>her</guidanceLink> for å lære korleis du brukar denne sida
 learn-how-to-use-check-transcript = Finn ut korleis du kontrollerer ein transkripsjon
+learn-how-to-use-check-transcript-explanation = Ein transkripsjon skal fange opp kvart ord eller ikkje-leksikalsk samtalelyd som vart sagt av personen, inkludert repetisjonar.
+learn-how-to-use-check-transcript-guidance = Klikk <guidanceLink>her</guidanceLink> for å lære korleis du brukar denne sida
