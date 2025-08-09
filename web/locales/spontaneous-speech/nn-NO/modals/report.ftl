@@ -1,8 +1,11 @@
 ## Report Modal
 
 report-modal-title = Send inn ein rapport
+report-modal-subtitle = Kva problem opplever du med dette innholdet?
 offensive_speech = Krenkande innhald
+offensive_speech-detail = Setninga inneheld respektlaust eller krenkjande språk.
 different_language = Anna språk
+different_language-detail = Innhaldet har eit anna språk enn eg hadde venta.
 personally_identifiable_information = Personleg identifiserbar informasjon
 report-other-comment =
     .placeholder = Kommentar
