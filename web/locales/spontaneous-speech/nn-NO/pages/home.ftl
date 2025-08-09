@@ -3,6 +3,9 @@
 welcome-to-spontaneous-speech = Velkomen til spontan tale
 # <br></br> represents a newline break
 wall-of-text = Common Voice lanserer ei ny plattform som fokuserer på å samle inn organisk, spontan tale utan manus. Dette vil hjelpe mange samfunn med å samle inn data raskare, i tillegg til å vere nyttig for forskarar og utviklarar.
+why-spontaneous-speech = Kvifor vi bygde denne prototypen for spontan tale
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = Nyttig for <mark>organiske talekontekstar</mark> og bruksområde (t.d. når du vil at talegjenkjenning skal fungere med folk som snakkar utan manus og brukar munnleg daglegtale)
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Førespurnad</mark>
 prompt-bubble-subtitle = Vi vil vise deg ein førespurnad eller eit spørsmål
