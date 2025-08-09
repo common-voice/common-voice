@@ -39,3 +39,11 @@ sc-review-instruction = Kontrolu <icon></icon> ĉu ĉi tiu frazo estas lingve ĝ
 sc-review-rules-title = Ĉu la frazo plenumas la gvidliniojn?
 sc-review-empty-state = Nuntempe ne estas frazoj por revizii en ĉi tiu lingvo.
 report-sc-different-language = Alia lingvo
+report-sc-different-language-detail = Ĝi estas skribita en lingvo malsama ol tiu, kiun mi revizias.
+sentences-fetch-error = Okazis eraro dum ŝargado de frazoj
+review-error = Okazis eraro dum revizio de tiu ĉi frazo
+review-error-rate-limit-exceeded = Vi laboras tro rapide. Bonvolu preni momenton por revizii la frazon por certi, ke ĝi estas ĝusta.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Ni faras kelkajn gravajn ŝanĝojn
+# menu item
+review-sentences = Revizii frazojn
