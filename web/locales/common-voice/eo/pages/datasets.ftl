@@ -49,6 +49,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ estas <docsLink>mal
 resource-deepspeech-info = La malfermitkoda parolrekonilo de Mozilla, Deep Speech, povas esti uzita por konstrui parolkapablajn programojn. Vizitu nian <githubLink>superrigardon de Gihub</githubLink> aŭ aliĝu al <discourseLink>DeepSpeech Discourse</discourseLink> por scii kie kaj kiel komenci.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> dediĉas sin al malfermita parola teknologio. Iliis dedicated to open speech technology. Ĝiaj projektoj inkuzivas STT kaj TTS motorojn, kiuj estas bazitaj je profunda lernado.
 community-playbook = Komunuma manlibro
+resource-playbook-info = <playbookLink>Trovu helpan gvidadon</playbookLink> pri la tuta travojaĝo en Common Voice, ekde la tradukado ĝis la uzo de la datumaro, kaj pri la maniero konektiĝi kun nia komunumo.
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
@@ -65,6 +66,7 @@ download = Elŝuti
 dataset-version = Versio
 sha256-checksum-copied = Kontrolsumo SHA256 kopiita!
 sha256-checksum-copied-error = Ne eblis kopii la kontrolsumon SHA256
+clipboard-not-supported = Tondujo ne subtenata
 no-information-available = Neniu informo havebla
 dataset-metadata-sex = Sekso
 # dataset metadata - age of contributor
