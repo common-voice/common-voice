@@ -9,6 +9,8 @@ datasets-positioning =
     
     Tiu ĉi paĝo listigas aliajn malfermitkodajn voĉajn datumarojn kaj, dum la evoluo de Common Voice, ankaŭ niajn estontajn ĝisdatigojn.
 language = Lingvo
+download-dataset-header = Elŝuti la datumaron
+download-dataset-tag = Elektu la deziratan lingvan datumaron kaj la version, kiun vi volas elŝuti.
 # File size in gigabytes
 size = Grando
 validated-hr-total = Validigitaj entutaj horoj
@@ -23,6 +25,7 @@ confirm-size = Vi pretas komenci la elŝuton de <b>{ $size }</b>
 size-gigabyte = GO
 size-megabyte = MO
 confirm-no-identify = <b>Vi akceptas</b> ne klopodi eltiri la identecon de parolantoj en la datumaro de Common Voice
+confirm-join-mailing-list = Vi volas aliĝi al la dissendolisto de Common Voice
 download-language = Elŝuti { $language }
 validated-hours = Validigitaj horoj
 recorded-hours = Registritaj horoj
@@ -36,6 +39,8 @@ subscribe = Aboni
 get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
+# This indicates that there is no data to display
+no-information = Sen informo
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ estas <docsLink>malfermitkoda ilaro</docsLink> por esploristoj kiuj disvolvas avangardajn konversacian AI-ajn modelojn.
 community-playbook = Komunuma manlibro
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
@@ -52,6 +57,17 @@ more = Pli
 close = Fermi
 download = Elŝuti
 dataset-version = Versio
+sha256-checksum-copied = Kontrolsumo SHA256 kopiita!
+sha256-checksum-copied-error = Ne eblis kopii la kontrolsumon SHA256
+no-information-available = Neniu informo havebla
+dataset-metadata-sex = Sekso
+# dataset metadata - age of contributor
+dataset-metadata-age = Aĝo
+donate-modal-message = Via datumbazo elŝutiĝas!
+dataset-donate-modal-heading = Ĉu vi sciis ke…
+donate-modal-explanation-1 = Kostas preskaŭ milionon da dolaroj jare gastigi la datumarojn kaj plibonigi la platformon por la pli ol 100 lingvaj komunumoj, kiuj kalkulas je ni kaj je kion ni faras?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Se vi valoras malfermitajn, inkluzivajn datumojn - donacu hodiaŭ!</bold>
 data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
 data-download-singleword-callout-v2 = Tiu ĉi estas segmento por aparta uzo; ĝu enhavas datumojn por povi rekoni parolitajn ciferojn kaj respondojn jes/ne.
 data-download-button = Elŝuti datumojn de Common Voice
@@ -71,3 +87,7 @@ release-version = Versio
 dataset-date = Date
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Elŝuti niajn voĉajn datumarojn
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Elŝutaj ebloj por aliri la datumojn de Common Voice
