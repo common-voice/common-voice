@@ -53,3 +53,26 @@ thanks-for-voice-toast-error = Eraro okazis dum sendo de la informoj pri via vo�
 first-cta-gender-select-default-option = Elektu eblon
 first-cta-gender-select-help-text =
     .label = Kiel vi priskribus vian sekson aŭ genron?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Dankon pro la kontribuo de via voĉo!
+second-cta-subtitle-text = Per profilo vi povas sekvi vian agadon kaj konektiĝi kun komunumo de voĉdatumaj kontribuantoj.
+already-have-an-account = Ĉu vi jam havas konton? <login>Ensaluti</login>
+create-profile-button = Krei profilon
+# IMAGE TAGS
+img-alt-success-checkmark = sukcesa markilo
+# menu item
+read-sentences = Legi frazojn
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Legi frazojn <small>(baldaŭa trajto)</small>
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Legi frazojn, respondi demandojn
+read-sentences-menu-item-tooltip = Registru vin legante frazojn en via lingvo
+answer-questions-menu-item-tooltip = Registru vin respondante al demandoj kaj sugestoj en via lingvo
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Ebloj de menuo "Paroli"
+read-sentences-menu-item-aria-label = Legi frazojn alsenditajn de la komunumo en diversaj lingvoj
+answer-questions-menu-item-aria-label = Sendi novan demandon al la komunumo por legi kaj respondi
