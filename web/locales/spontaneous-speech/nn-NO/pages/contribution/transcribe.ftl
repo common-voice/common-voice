@@ -9,3 +9,4 @@ no-audio-continue-skipped-message = Det finst akkurat no ingen lyd å transkribe
 create-transcript-success = Transkripsjon sendt inn
 create-transcript-error = Det oppstod ein feil under oppretting av denne transkripsjonen
 error-playing-audio = Feil under avspeling av lydfil.
+error-fetching-audio = Noko gjekk gale under henting av lyd for transkripsjonar. Prøv på nytt seinare.
