@@ -174,3 +174,18 @@ transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Feil</wrong>: Det er 1
 transcribe-the-audio-subheader-2-example-2-correct = <correct>Riktig</correct>: Vi sees i <underline>tjuenfemten</underline>
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Feil</wrong>: Vi sees i <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Riktig</correct>: Det var tjue prosent rabatt
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Feil</wrong>: Det var 20 % rabatt
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Riktig</correct>: De ble arrestert av <underline>FBI</underline> sist torsdag
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Feil</wrong>: De ble arrestert av <underline>eff beh i</underline> sist torsdag
+tags-table-header-1 = Etikett
+tags-table-header-2 = Betydning
+tags-laugh = Latter
+tags-disfluency = Talefeil
+tags-unclear = Uklar
+tags-noise = Støy
+tags-laugh-explanation = Lyden av latter.
+tags-disfluency-explanation =
+    Et utfyllingsord eller -lyd som brukes som en midlertidig plassholder mens taleren bestemmer seg for hva han eller hun skal si.
+    På norsk er noen vanlige nølingslyder «øh», «eh», «ehm», «ah» osv.
+tags-unclear-explanation = Et ord eller en ordrekkefølge som ikke kan forstås.
