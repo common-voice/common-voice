@@ -116,7 +116,7 @@ adding-questions = Legg til spørsmål
 
 what-makes-a-good-question-subheader = Korleis ser eit godt spørsmål ut?
 what-makes-a-good-question-explanation = Eit  godt spørsmål for datasett for offentleg deltaking bør:
-what-makes-a-good-question-explanation-criteria-1 = Verelett å forstå og svare på
+what-makes-a-good-question-explanation-criteria-1 = Vere lett å forstå og svare på
 what-makes-a-good-question-explanation-criteria-2 = Vere generelt relevant
 what-makes-a-good-question-explanation-criteria-3 = Ikkje bruke, eller oppfordre til skadeleg eller støytande språk
 what-makes-a-good-question-tip = Du bør kanskje også vurdere å strekkje deg over ulike kontekstar og domene.
@@ -172,9 +172,29 @@ tags-disfluency-explanation =
     Eit utfyllingsord eller -lyd som blir brukt som ein mellombels plasshaldar medan talaren bestemmer seg for kva han eller ho skal seie.
     På norsk er nokre vanlege nølingslydar «øh», «eh», «ehm», «ah» osb.
 tags-unclear-explanation = Eit ord eller ei ordrekkjefølgje som ikkje kan forståast.
+tags-noise-explanation = Alle annan type støy, som til dømes at den som snakkar hostar eller kremtar, ein bil som tutar, lyden av noko som treffer mikrofonen, ein telefon som summar osb.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Og så drog eg [støy] på ferie.
+    Vel, [støy] [latter] det var ikkje akkurat ein ferie [latter]
+transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneheld naturleg nok falske startar, der berre ein del av eit ord blir uttalt. I slike tilfelle, prøv å transkribere ordfragmentet så godt du kan, og legg til ein bindestrek (-) på slutten av ordet for å indikere at det er ein falsk start. Døme:
+transcribe-the-audio-subheader-4-explanation-1-example = Han heiter <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Av og til gjentek talarar eit ord eller eit ordfragment fleire gongar. Dette skal også transkriberast. Døme:
+
+## Review the Transcription
+
+review-the-transcription = Vurder transkripsjonen
 
 ## Code-Switching
 
+adding-a-question = Legg til eit spørsmål
+# Adding a Question
+code-switching-adding-question-subheader = Korleis ser eit godt spørsmål ut?
+code-switching-adding-question-criteria-1 = Vere lett å forstå og svare på
+code-switching-adding-question-criteria-2 = Vere generelt relevant
+code-switching-adding-question-criteria-3 = Ikkje bruke, eller oppfordre til skadeleg eller støytande språk
+code-switching-adding-question-note = Du bør kanskje også vurdere å strekkje deg over ulike kontekstar og domene.
 code-switching-dont-header = Ikkje
 # Reviewing a Question
 code-switching-review-subheader = Vurder eit spørsmål
+code-switching-review-criterion-1 = Vere lett å forstå og svare på
