@@ -4,6 +4,9 @@ guidelines-header-subtitle = Verstehen Sie, wie Sie Sätze und Audioclips zum Co
 voice-collection = Stimmensammlung
 sentence-collection = Satz-Sammlung
 question-collection = Fragensammlung
+scripted-speech = Geschriebene Sprache
+spontaneous-speech = Spontane Sprache
+dont-subheader = Falsch:
 
 ## Voice Collection nav ids
 
@@ -146,3 +149,9 @@ offensive-content-sensitive-information-explanation-explanation-3 = Fragen, die 
 example-questions-subheader = Beispielfragen
 example-questions-explanation-1 = Sie können in dieser Tabelle <examplePromptsLink>120 Beispielfragen finden.</examplePromptsLink>
 example-questions-explanation-2 = Wenn Sie eine Tranche von Fragen zur Aufnahme einreichen möchten, können Sie <githubLink>das über unseren GitHub</githubLink> tun oder Ihre Liste per E-Mail an <emailFragment>commonvoice@mozilla.com</emailFragment> senden
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Beantworten Sie Fragen
+answer-questions-explanation-1 = Denken Sie einen Moment über die Aufforderung nach, überlegen Sie, was Sie sagen möchten, aber schreiben Sie sich nicht zu viel. Klicken Sie auf das Aufnahme-Symbol. Sobald Sie aufgenommen haben, können Sie sich selbst anhören, erneut aufnehmen, löschen oder absenden.

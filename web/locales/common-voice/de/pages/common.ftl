@@ -208,6 +208,7 @@ lv = Lettisch
 lzz = Lasisch
 mai = Maithili
 mau = Huautla-Mazatekisch
+mbf = Baba-Malaysisch
 mbo = Mbo
 mcf = Matsés
 mcn = Masana
