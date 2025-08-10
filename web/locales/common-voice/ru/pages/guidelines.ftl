@@ -4,6 +4,9 @@ guidelines-header-subtitle = Узнайте, как участвовать и п
 voice-collection = Коллекция голосов
 sentence-collection = Коллекция фраз
 question-collection = Подборка вопросов
+scripted-speech = Сценарная речь
+spontaneous-speech = Спонтанная речь
+dont-subheader = Не
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,27 @@ offensive-content-sensitive-information-explanation-explanation-3 = Вопрос
 example-questions-subheader = Примеры вопросов
 example-questions-explanation-1 = Вы можете найти <examplePromptsLink>120 примеров вопросов в этой таблице.</examplePromptsLink>
 example-questions-explanation-2 = Если вы хотите отправить группу вопросов для добавления, вы <githubLink>можете сделать это через наш GitHub</githubLink> или отправить список на <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Ответить на вопросы
+answer-questions-subheader = Общее руководство
+answer-questions-explanation-1 = На минутку подумайте о промте, подумайте, что бы вы хотели сказать, но не слишком много скриптуйте. Нажмите значок «запись». Как только вы записали, вы можете прослушать себя, перезаписать, удалить или отправить.
+answer-questions-explanation-2 = Помните — не беспокойтесь, если вы заикаетесь, делаете паузу или повторяете слово. Это все полезные данные для инженеров, пытающихся создать инклюзивные, реально работающие инструменты распознавания речи.
+answer-questions-tip-1 = Записывайте в достаточно тихом месте
+answer-questions-tip-2 = Выберите место с хорошим интернетом
+answer-questions-tip-3b = Постарайтесь уложиться в 15-30 секунд
+answer-questions-tip-4 = Избегайте разжигающих ненависть, подстрекательских или других оскорбительных высказываний
+answer-questions-tip-5 = Говорите естественно, как с другом - используйте свой настоящий вариант, диалект и акцент
+answer-questions-tip-6 = Поддерживайте постоянную громкость — не кричите и не пойте
+# Transcribe the Audio
+transcribe-the-audio = Транскрибировать аудио
+transcribe-the-audio-subheader-1 = Общее руководство
+transcribe-the-audio-subheader-2 = Числа и акронимы
+transcribe-the-audio-subheader-3 = Специальные метки
+transcribe-the-audio-subheader-4 = Сегменты слов, фальстарты, повторяющиеся слова
+transcribe-the-audio-subheader-5 = Грамматические ошибки и разговорные выражения
+transcribe-the-audio-subheader-1-explanation = В общем, вам следует записывать всё, что вы слышите. Это включает в себя:
+transcribe-the-audio-subheader-1-explanation-example-1 = Записывать нарушения, включая неуверенность и повторы
+transcribe-the-audio-subheader-1-explanation-example-2 = Помечать шумовые события, такие как кашель или смайлик
