@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = Pisz
+contact-us = Skontaktuj się z nami
 
 ## BULK SUBMISSION
 
