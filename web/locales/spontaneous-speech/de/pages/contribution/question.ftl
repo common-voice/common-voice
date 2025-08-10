@@ -26,3 +26,9 @@ do-not-section-title = Nein:
 do-not-section-guideline-1 = Fragen Sie nicht nach personenbezogenen Daten (wie Namen oder Finanzdaten)
 do-not-section-guideline-2 = Es dürfen keine Vorurteile oder beleidigende Gefühle geäußert oder ausgelöst werden
 do-not-section-guideline-3 = Es dürfen keine Sensiblen Fragen gestellt werden
+# Code switching Guidelines
+cs-do-section-guideline-1 = Zweisprachige Fragen oder zweisprachigen Kontext verwenden
+cs-do-section-guideline-2 = Erkunden Sie informelle Szenarien, Situationen oder Nachstellungen
+cs-do-not-section-guideline-1 = Fragen Sie nicht nach personenbezogenen Daten (wie Namen oder Finanzdaten) und verwenden Sie keine anstößige Sprache
+cs-do-not-section-guideline-2 = Um Sprachwechsel bitten oder Übersetzung anfordern
+cs-do-not-section-guideline-3 = Zu förmliche Sprache verwenden

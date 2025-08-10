@@ -16,8 +16,11 @@ import { LinkButton } from '../../ui/ui'
 import { SidebarNavSection } from './components/sidebar-nav-section'
 
 import {
+  ANSWER_QUESTIONS_ITEMS,
   CODE_SWITCHING_ITEMS,
   QUESTION_COLLECTION_ITEMS,
+  REPORTING_CONTENT_ITEMS,
+  REVIEW_THE_TRANSCRIPTION_ITEMS,
   SENTENCE_COLLECTION_ITEMS,
   TRANSCRIBE_AUDIO_ITEMS,
   VOICE_COLLECTION_ITEMS,
@@ -128,17 +131,26 @@ const Guidelines = () => {
                   sectionId: 'question-collection',
                   items: QUESTION_COLLECTION_ITEMS,
                 },
-                { sectionId: 'answer-questions' },
+                {
+                  sectionId: 'answer-questions',
+                  items: ANSWER_QUESTIONS_ITEMS,
+                },
                 {
                   sectionId: 'transcribe-audio',
                   items: TRANSCRIBE_AUDIO_ITEMS,
                 },
-                { sectionId: 'review-the-transcription' },
+                {
+                  sectionId: 'review-the-transcription',
+                  items: REVIEW_THE_TRANSCRIPTION_ITEMS,
+                },
                 isFeatureCodeSwitching && {
                   sectionId: 'code-switching',
                   items: CODE_SWITCHING_ITEMS,
                 },
-                { sectionId: 'reporting-content' },
+                {
+                  sectionId: 'reporting-content',
+                  items: REPORTING_CONTENT_ITEMS,
+                },
               ].map(({ sectionId, items }) => (
                 <SidebarNavSection
                   key={sectionId}

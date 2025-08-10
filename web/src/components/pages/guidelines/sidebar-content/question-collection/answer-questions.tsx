@@ -30,6 +30,12 @@ export const AnswerQuestions = ({
 
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
+          <Localized id="answer-questions-subheader">
+            <h2
+              className="guidelines-content-subheader"
+              id="answer-questions-subheader"
+            />
+          </Localized>
           <Localized id="answer-questions-explanation-1">
             <p className="guidelines-content-explanation" />
           </Localized>
@@ -40,7 +46,7 @@ export const AnswerQuestions = ({
             <Localized id="answer-questions-tip-2">
               <li />
             </Localized>
-            <Localized id="answer-questions-tip-3">
+            <Localized id="answer-questions-tip-3b">
               <li />
             </Localized>
             <Localized id="answer-questions-tip-4">

@@ -148,7 +148,7 @@ export const TranscribeAudio = ({
           </Localized>
           <div className="example-container transcribe-the-audio">
             <div className="example-tips-container">
-              <Localized id="special-tags-example">
+              <Localized id="special-tags-example-2">
                 <p className="tip-text" />
               </Localized>
             </div>

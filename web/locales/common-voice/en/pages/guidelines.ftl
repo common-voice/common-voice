@@ -138,11 +138,12 @@ example-questions-explanation-2 = If you’d like to submit a tranche of questio
 
 # Answer Questions 
 answer-questions = Answer Questions
+answer-questions-subheader = General guidance
 answer-questions-explanation-1 = Think for a moment about the prompt, consider what kind of thing you’d like to say, but don’t script yourself too much. Click the ‘record’ icon. Once you’ve recorded you can listen to yourself, re-record, delete or submit. 
 answer-questions-explanation-2 = Remember - don’t worry if you stutter, pause or repeat a word. This is all useful data for engineers trying to build inclusive, real-world speech recognition tools. 
 answer-questions-tip-1 = Record in a reasonably quiet place 
 answer-questions-tip-2 = Choose somewhere with a good internet connection
-answer-questions-tip-3 = Keep your response to 15 seconds
+answer-questions-tip-3b = Try to keep your response to 15-30 seconds
 answer-questions-tip-4 = Avoid hateful, inflammatory or otherwise offensive speech
 answer-questions-tip-5 = Speak naturally, as you would with a friend - use your own real variant, dialect and accent
 answer-questions-tip-6 = Keep your volume consistent - don’t shout or sing
@@ -152,7 +153,7 @@ transcribe-the-audio = Transcribe the Audio
 transcribe-the-audio-subheader-1 = General guidance
 transcribe-the-audio-subheader-2 = Numbers and acronyms
 transcribe-the-audio-subheader-3 = Special Tags
-transcribe-the-audio-subheader-4 = Word segements, false starts, repeated words
+transcribe-the-audio-subheader-4 = Word segments, false starts, repeated words
 transcribe-the-audio-subheader-5 = Grammatical mistakes and colloquialisms
 transcribe-the-audio-subheader-1-explanation = In general, you should write down everything you hear. This includes;
 transcribe-the-audio-subheader-1-explanation-example-1 = Writing down disfluencies, including hesitations and repetitions 
@@ -173,7 +174,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Correct</correct>:
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wrong</wrong>: It was 20% off
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Correct</correct>: They were arrested by the <underline>FBI</underline> last Thursday
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Wrong</wrong>: They were arrested by the <underline>eff bee eye</underline> last Thursday
-transcribe-the-audio-subheader-3-explanation = The following special tags should be used to mark disfluencies, fillers and other types of non-verbal content.
+transcribe-the-audio-subheader-3-explanation = The following special tags should be used to mark disfluencies, fillers and other types of non-verbal content (in English).
 tags-table-header-1 = Tag
 tags-table-header-2 = Meaning
 tags-laugh = Laugh
@@ -188,7 +189,8 @@ tags-unclear-explanation = A word or sequence of words that cannot be understood
 tags-noise-explanation =
     Any other type of noise, such as the speaker coughing or clearing their throat,
     a car honking, the sound of something hitting the microphone, a phone buzzing, etc.
-special-tags-example = And then I [noise] went on holiday.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 = And then I [noise] went on holiday.
     Well, [noise] [laugh] it wasn’t exactly a holiday [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Spontaneous Speech naturally contains false starts where only a fragment of a full word is produced. For these instances, please transcribe to the best of your ability the word fragment and attach a hyphen at the end of the word (-) to indicate the word is a false start. Example:
 transcribe-the-audio-subheader-4-explanation-1-example = His name is <underline>Jo- Jona-</underline> Jonathan.
@@ -199,6 +201,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Speakers may use colloquialisms
 
 ## Review the Transcription
 review-the-transcription = Review the Transcription
+review-the-transcription-subheader = General guidance
 review-the-transcription-explanation-1 = In general, we advise that the person who checks the transcription should not be the same person who did the original transcription. It is very hard to check your own work! Having multiple lines of review can help make quality assurance more robust, and help mitigate biases and issues.
 review-the-transcription-explanation-2 = Review the transcription guidelines above in order to check that a transcription is accurate. You can provide edits and submit them.
 review-the-transcription-explanation-3 = Again, you can flag content that is offensive, harmful or otherwise worrying, and it will be removed from your experience until the Common Voice team can review it and investigate further.
@@ -365,5 +368,6 @@ code-switching-not-tag-interjections-example-4 = “Er”
 
 ## Reporting Content
 reporting-content = Reporting Content
+reporting-content-subheader = General guidance
 reporting-content-explanation-1 = You must flag content that is offensive, harmful or otherwise worrying. It must also include no personally identifying information like phone numbers or addresses. It will be removed from your experience until the Common Voice team can review it and investigate further.
 reporting-content-explanation-2 = To report content, select the “Report” button and choose one or all options: Offensive Content, Different language, Personally Identifiable Information, Other.  From here, provide more details about why you are reporting the content in the text area.  Then, submit the Report by clicking on the Report button. 

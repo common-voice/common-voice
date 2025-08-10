@@ -208,6 +208,7 @@ lv = Latvisk
 lzz = Lasisk
 mai = Maithili
 mau = Huautla Mazatec
+mbf = Baba Malay
 mbo = Mbo
 mcf = Matses
 mcn = Massa

@@ -32,8 +32,11 @@ continue-with-skipped = Hald fram med hoppa over
 question = Spørsmål
 validate = Valider
 respond-to-prompt = Svar
+respond-to-prompt-mobile = Svar
 transcribe = Transkribere
 check-transcriptions = Sjekk transkripsjonar
+check-transcriptions-mobile = Vurdering
+tag = Etikett
 
 ## Not Found Page
 
