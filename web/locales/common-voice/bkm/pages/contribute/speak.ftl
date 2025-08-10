@@ -57,9 +57,3 @@ already-have-an-account = Và sɨ kel akantɨ-a? <login>Zɨ</login>
 create-profile-button = Cho' plofayl
 # IMAGE TAGS
 img-alt-success-checkmark = Checkmark i soksid
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -64,9 +64,3 @@ already-have-an-account = A le kont kun ? <login>Sie su</login>
 create-profile-button = Kplɛ ɔ wun ndɛ
 # IMAGE TAGS
 img-alt-success-checkmark = nzɔliɛ like ng’ɔ yoli kpa
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

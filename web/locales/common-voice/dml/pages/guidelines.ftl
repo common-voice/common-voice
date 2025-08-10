@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = اگر جملہ پچو پریسن معیار
 reviewing-sentences-explanation-3 = اگر تو کی جملہ تہ برا یقین نی درو بہ ، تا پھرکی مس وعی مُکھبئیں جملہ کی ین بیبہ۔
 reviewing-sentences-explanation-4 = اگر توملی جائزہ کی جملہ نم ختم بابہ، مہربانی کُری اما ملی ورے جملہ نم سوتنہ  مدد کُرے
 domain-explanation = ڈومین جملہ تہ موضوع ساں مطلب درو تے، فی الحال تو مسومن تہ انتخاب کُرین بیئب۔
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

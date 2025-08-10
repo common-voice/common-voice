@@ -27,9 +27,9 @@ request-new-language = Yêu cầu ngôn ngữ mới
 
 ## Navbar
 
+question = Câu hỏi
 respond-to-prompt = Trả lời
 check-transcriptions = Đánh giá
-question = Câu hỏi
 
 ## Not Found Page
 

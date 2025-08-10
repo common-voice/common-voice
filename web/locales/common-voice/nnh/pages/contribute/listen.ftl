@@ -9,9 +9,3 @@ listen-loading-error = Peg kaa kuʼu legẅiin tsɔ́ mmó gie me ka gʉa faʼ,
 listen-abort-title = Me mege nzẅíŋ meshúm mie me ne ngʉa faʼ?
 listen-abort-cancel = Me lɔgɔ lezẅíŋ ndɔg ngʉa ne mvfò.
 listen-abort-confirm = Me mege ńzẅíŋ.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

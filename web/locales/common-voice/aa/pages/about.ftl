@@ -33,39 +33,17 @@ about-nav-how-it-works = Mannal ?
 about-nav-partners = Waklenta
 about-nav-get-involved = Edde engel
 
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
 about-playbook-how-add-language-translating-heading = Arac maqnissiyya
 about-playbook-how-add-language-collecting-sentences-heading = Maxcâ maafo gaaboysiyya
 
-## How does localization work
-
-
 ## How to add sentences
 
 about-playbook-how-add-sentences = Anu maxcâ maafo mannal ossam duudaah?
-
-## How to record quality
-
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Tekkooka
 about-playbook-how-grow-language-content-4 = Ayyuntiinô ratteema
 about-playbook-how-grow-language-content-6 = Waklentiinoonaa kee Rettaati
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

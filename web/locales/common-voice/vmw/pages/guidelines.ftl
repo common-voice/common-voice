@@ -76,9 +76,3 @@ reviewing-sentences-explanation-1 = Ankhi nlamulo otthunela mithinto soovarela o
 reviewing-sentences-explanation-2 = Ankhi nlamulo ohitthunela mithinto soovarela osulu, mutthitte vaputawuni "Nnaari"
 reviewing-sentences-explanation-3 = Ankhi mwaahikhalane exariya wa nlamulo, nyuwo navetho mookhala ohipeela ni ootupha murowelaka ekina.
 reviewing-sentences-explanation-4 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

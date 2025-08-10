@@ -95,6 +95,7 @@ api-key-name-input =
     .label = Naam API-referenties
 create-api-key-header = <bold>Belangrijke mededeling: aanmaken van API-referenties</bold>
 create-api-key-description = Als u op ‘Referenties aanmaken’ klikt, worden unieke referenties voor uw account aangemaakt. Om veiligheidsredenen wordt de geheime sleutel <bold>slechts één keer</bold> getoond. Kopieer en bewaar deze veilig. Als u de sleutel verliest, moet u een nieuwe sleutel aanmaken, omdat deze niet kan worden opgehaald.
+create-api-key-agreement = Ik ga akkoord dat ik niet zal proberen de sprekers te identificeren in de Common Voice-gegevensset.
 generate-api-key-button = Referenties aanmaken
 save-api-key-info = <bold>Bewaar uw sleutels veilig</bold>
 save-api-key-info-description = Bewaar uw sleutels veilig en voorkom dat ze in publieke repositories worden bewaard. De GEHEIME sleutel is alleen nu toegankelijk en zal niet meer worden getoond.

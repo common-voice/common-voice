@@ -51,6 +51,3 @@ sdo = Lëb Serian Bidayuh
 snv = Lëb Sa'ban
 tr = Lëb Turkish
 xkl = Lëb Kenyah
-
-## Language search component
-

@@ -51,6 +51,3 @@ sdo = 'gutu lo sida i serian division
 snv = 'gutu lo si'da i jur lo penan
 tr = 'gutu lo si'da i jur lo Turkey
 xkl = 'gutu lo si'da Sarawak
-
-## Language search component
-

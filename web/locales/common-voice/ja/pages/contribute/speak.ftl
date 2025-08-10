@@ -36,9 +36,3 @@ review-delete-recordings = 録音を削除
 review-terms = Common Voice を利用すると、「<termsLink>利用規約</termsLink>」と「<privacyLink>プライバシーについて</privacyLink>」に同意したものとみなします。
 terms-agree = 同意する
 terms-disagree = 同意しない
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

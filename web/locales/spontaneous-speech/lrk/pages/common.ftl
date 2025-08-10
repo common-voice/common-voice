@@ -27,10 +27,10 @@ request-new-language = نوي ٻولي ري درخواست ڪرو
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = جواب
 transcribe = نقل ڪروي
 check-transcriptions = پرکوہ
-question = سوال
 
 ## Not Found Page
 

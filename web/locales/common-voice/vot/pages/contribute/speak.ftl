@@ -33,9 +33,3 @@ review-delete-recordings = Удалить мои записи
 review-terms = Используя Common Voice, вы соглашаетесь с нашими <termsLink>условиями использования</termsLink> и <privacyLink>политикой приватности</privacyLink>
 terms-agree = Я согласен(а)
 terms-disagree = Я не согласен(а)
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

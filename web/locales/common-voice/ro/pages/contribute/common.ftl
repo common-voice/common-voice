@@ -1,4 +1,4 @@
-action-click = Dă clic pe
+action-click = Fă clic pe
 action-tap = Atinge
 contribute = Contribuie
 review = Examinează
@@ -19,36 +19,50 @@ contribute-more =
        *[other] Gata pentru încă { $count }?
     }
 speak-empty-state = Nu mai avem propoziții de înregistrat în această limbă...
+no-sentences-for-variants = Se poate să nu mai existe propoziții pentru varietatea ta de limbă. Dacă dorești, îți poți modifica setările pentru a vedea și alte propoziții în limba ta.
 speak-empty-state-cta = Contribuie cu propoziții
+speak-loading-error =
+    Nu am găsit nicio propoziție pe care să o citești.
+    Te rugăm să încerci din nou mai târziu.
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
 keep-track-profile = Urmărește-ți progresul cu ajutorul unui profil
 login-to-get-started = Autentifică-te sau înscrie-te pentru a începe
 target-segment-first-card = Contribui la primul nostru segment-țintă
+target-segment-generic-card = Contribui la un segment-țintă
 target-segment-first-banner = Ajută-ne să creăm primul segment-țintă Common Voice în { $locale }
 target-segment-add-voice = Adaugă-ți vocea
 target-segment-learn-more = Află mai multe
+change-preferences = Modifică preferințele
+login-signup = Autentificare / Înregistrare
+vote-yes = Da
+vote-no = Nu
+datasets = Seturi de date
+languages = Limbi
+about = Despre noi
+partner = Parteneri
+submit-form-action = Trimite
 
 ## Reporting
 
-report = Raportează
-report-title = Trimite un raport
+report = Semnalează
+report-title = Trimite o sesizare
 report-ask = Ce probleme întâmpini cu această propoziție?
 report-offensive-language = Limbaj ofensator
 report-offensive-language-detail = Propoziția conține limbaj disprețuitor sau ofensator.
 report-grammar-or-spelling = Greșeală gramaticală / ortografică
 report-grammar-or-spelling-detail = Propoziția conține o greșeală gramaticală sau ortografică.
 report-different-language = Limbă diferită
-report-different-language-detail = Este scrisă într-o limbă diferită față de ceea pe care o vorbesc.
+report-different-language-detail = Propoziția este scrisă într-o limbă diferită față de ceea pe care o vorbesc.
 report-difficult-pronounce = Dificilă de pronunțat
-report-difficult-pronounce-detail = Aceasta conține cuvinte sau sintagme care sunt dificil de citit sau de pronunțat.
+report-difficult-pronounce-detail = Propoziția conține cuvinte sau sintagme care sunt dificil de citit sau de pronunțat.
 report-offensive-speech = Discurs ofensator
 report-offensive-speech-detail = Secvența vocală conține limbaj disprețuitor sau ofensator.
 report-other-comment =
     .placeholder = Comentariu
 success = Succes
 continue = Continuă
-report-success = Raportul a fost transmis cu succes
+report-success = Sesizarea a fost transmisă cu succes
 
 ## Speak & Listen Shortcuts
 
@@ -63,6 +77,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Înregistrează/Oprește
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Reînregistrează secvența vocală
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Renunță la înregistrarea în curs
+shortcut-submit = Înapoi
+shortcut-submit-label = Trimite secvențele audio
 request-language-text = Încă nu îți vezi limba pe Common Voice?
 request-language-button = Solicită o limbă
 
@@ -81,3 +99,13 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Criterii
+contribution-criteria-link = Care sunt criteriile de contribuție?
+contribution-criteria-page-title = Criterii de contribuție
+contribution-criteria-page-description = Înțelege la ce trebuie să fii atent atunci când evaluezi secvențele audio existente și îmbunătățește-ți astfel și propriile înregistrări viitoare!
+contribution-for-example = de exemplu
+contribution-misreadings-title = Cuvinte citite greșit
+contribution-misreadings-description = Când asculți, verifică foarte atent dacă ceea ce a fost înregistrat este exact ceea ce a fost scris; respinge înregistrarea chiar dacă are doar mici erori. <br />Printre greșelile foarte frecvente se numără:
+contribution-misreadings-description-extended-list-1 = Înregistrarea începe fără cuvinte scurte precum <strong>'Un'</strong>, <strong>'O'</strong>, <strong>'A'</strong>, <strong>'Au'</strong>, etc.
+contribution-misreadings-description-extended-list-2 = Nu se aud clar particulele ce indică pluralul precum <strong>'e'</strong> sau <strong>'i'</strong>, sau articolele hotărâte de la sfârșitul cuvintelor, sau, în general ultima literă sau silabă. Altă situație implică accentul schimbat pe altă silabă, de exemplu între pluralul nearticulat <strong>'copii'</strong> și pluralul articulat <strong>'copiii'</strong>.
+contribution-misreadings-description-extended-list-3 = Citirea împreună a cuvintelor atunci când nu sunt scrise cu cratimă, cum ar fi „mare-a fost mirarea lor” în loc de „mare a fost mirarea lor”, sau invers.

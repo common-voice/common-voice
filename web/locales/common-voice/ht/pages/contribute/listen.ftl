@@ -10,9 +10,3 @@ listen-loading-error =
 listen-abort-title = Fini validation klip yo?
 listen-abort-cancel = Kontinye valide
 listen-abort-confirm = Fini validation
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

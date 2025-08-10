@@ -89,36 +89,3 @@ username-email-not-demographic = Ny vydh dha hanow-usyer po ebost kelmys gans an
 
 welcome-staff = Dynnargh mayni { $company }!
 login-company = Omgelmi / Omrolya gans ebost { $company }
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

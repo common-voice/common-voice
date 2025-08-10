@@ -75,36 +75,3 @@ help-contribute = Вы можаце дапамагчы пабудаваць ра
 login-company = Зарэгістравацца / ўвайсці з эл. поштай { $company }
 profile-not-required = Каб удзельнічаць, не абавязкова мець профіль, хаця гэта можа быць карысна (падрабязнасці ніжэй).
 read-more-about = Падрабязней на старонцы «Пра нас»
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -272,6 +272,7 @@ os = osetčina
 pa-IN = pandžábčina
 pap = papiamento
 pap-AW = papiamento (Aruba)
+pcd = picard
 pcm = Nigerian Pidgin English
 phl = palula
 phr = pahari-pothwari

@@ -38,9 +38,3 @@ review-delete-recordings = N ka fɔlisenw bɔ yen
 review-terms = Ni i bɛ baara kɛ ni Common Voice ye, i bɛ sɔn an ka <termsLink>Sariyaw</termsLink> ani <privacyLink>Gundola kunnafoni</privacyLink> ma
 terms-agree = N sɔnna o ma
 terms-disagree = N ma sɔn o ma
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

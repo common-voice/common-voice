@@ -73,7 +73,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = 丢弃进行中的录音
 shortcut-submit = 返回
 shortcut-submit-label = 提交片段
-request-language-text = 没在 Common Voice 看到您的语言吗？
+request-language-text = 没在 Common Voice 中看到您的语言？
 request-language-button = 请求新语言
 
 ## Listen Shortcuts

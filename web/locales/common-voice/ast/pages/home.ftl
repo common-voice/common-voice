@@ -86,36 +86,3 @@ help-contribute = Pues ayudar a crear un conxuntu de datos diversu y abiertu cre
 login-company = Aniciar sesión / Rexistrase col corréu de { $company }
 profile-not-required = Nun se rique tener un perfil pa collaborar, magar qu'ayuda.
 read-more-about = Llei más tocante a nós na nuesa páxina Tocante a
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

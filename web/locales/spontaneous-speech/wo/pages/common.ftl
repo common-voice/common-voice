@@ -27,11 +27,11 @@ continue-with-skipped = Wéyal ak Jàll
 
 ## Navbar
 
+question = Laaj
+validate = Saytu
 respond-to-prompt = Tontu
 transcribe = Bind
 check-transcriptions = Jàngat
-question = Laaj
-validate = Saytu
 
 ## Not Found Page
 

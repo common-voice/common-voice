@@ -40,9 +40,3 @@ adding-sentences-subheader-speakable = רעדעוודיג
 adding-sentences-subheader-numbers = נומערן
 reviewing-sentences-explanation-3 = אויב זענט איר נישט זיכער איבער דעם זאץ, קענט איר עס אויך איבערהיפן און ווייטער גיין צו דעם קומענדיגן.
 reviewing-sentences-explanation-4 = אויב לויפט איר אויס פון זאצן איבער צו קוקן, ביטע העלפט אונז זאמלען מער זאצן!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

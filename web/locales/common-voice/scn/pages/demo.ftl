@@ -26,6 +26,3 @@ demo-account-sign-up = Manna lijami di riggistrazzioni
 
 demo-contribute-card-header = Prontu p’agghiùnciri a to vuci, o pristàrini i to aricchi?
 demo-listen-subtitle = Cullabburamu?
-
-## Demo Dashboard
-

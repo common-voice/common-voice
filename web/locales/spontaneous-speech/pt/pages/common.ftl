@@ -51,6 +51,3 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turco
 xkl = Quénia
-
-## Language search component
-

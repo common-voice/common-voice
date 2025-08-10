@@ -14,9 +14,3 @@ listen-loading-error =
     "Azikho iinqetjhana zokurekhodiweko esizifumanako
     ongazilalela.
     Sibawa ulinge godu esikhathini esizako."
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

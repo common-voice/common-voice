@@ -272,6 +272,7 @@ os = Ossetysk
 pa-IN = Punjabi
 pap = Papiamintsk
 pap-AW = Papiamintsk (Aruba)
+pcd = Picard
 pcm = Nigeriaansk pidgin-Ingelsk
 phl = Palula
 phr = Pahari-Pothwari

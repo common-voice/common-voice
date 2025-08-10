@@ -55,9 +55,3 @@ already-have-an-account = Хисабыгыз бармы инде? <login>Кер�
 create-profile-button = Профиль булдыру
 # menu item
 read-sentences = Җөмләләрне уку
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

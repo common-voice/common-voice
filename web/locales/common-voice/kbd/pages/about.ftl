@@ -74,28 +74,10 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>запросите новый язык на GitHub</githubRepoLink>. <localizationFragment>Подробнее о переводе сайтов</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Псалъэухахэр зэщӏекъуэ
 
-## How does localization work
-
-
 ## How to add sentences
 
 about-playbook-how-add-sentences = Псалъэухахэр дауэ хэслъхьэфыну?
 
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Къэхъукъащӏэхэр
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

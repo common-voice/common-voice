@@ -4,9 +4,3 @@ listen-again-instruction = ᱪᱚᱨᱚᱠ ᱞᱟᱹᱢᱤ!<playIcon></playIcon>
 listen-3rd-time-instruction = 2 ᱞᱟᱛᱟᱨ, ᱪᱟᱹᱞᱩ ᱠᱟᱜ ᱢᱮ!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon><playIcon>ᱢᱩᱪᱟᱹᱫᱟᱜ!
 listen-empty-state = ᱯᱟᱹᱨᱥᱤ ᱢᱟᱱᱭᱚ ᱞᱟᱹᱜᱤᱫ ᱠᱞᱤᱯ ᱵᱟᱹᱱᱩᱜᱼᱟ...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

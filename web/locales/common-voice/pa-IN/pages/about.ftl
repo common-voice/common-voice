@@ -55,20 +55,11 @@ about-playbook-how-localize-content-1 = Common Voice ਦਾ ਅਨੁਵਾਦ <
 
 about-playbook-how-add-sentences = ਮੈਂ ਵਾਕ ਕਿਵੇਂ ਜੋੜਾਂ?
 
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = ਸਮਾਗਮ
 about-playbook-how-grow-language-content-4 = ਸੋਸ਼ਲ ਮੀਡੀਆ
 about-playbook-how-grow-language-content-6 = ਹਿੱਸੇਦਾਰ ਅਤੇ ਨੈੱਟਵਰਕ
-
-## How to validate
-
-
-## How to access dataset
-
 
 ## How are decisions made
 
@@ -76,6 +67,3 @@ about-playbook-how-project-governance-content-3 = ਪਰਦੇਦਾਰੀ, ਸ�
 about-playbook-how-project-governance-content-4 = ਕਮਿਊਨਟੀ ਵਲੋਂ ਹਿੱਸਾ ਲੈਣਾ ਅਤੇ ਫੈਸਲੇ ਕਰਨੇ।
 about-playbook-how-project-governance-content-5 = ਮੁੱਲ ਅਤੇ ਪਛਾਣ।
 about-playbook-how-project-governance-content-6 = ਆਪਸੀ ਜਵਾਬਦੇਹੀ।
-
-## How is Common Voice funded
-

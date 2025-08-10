@@ -112,9 +112,6 @@ partnerships-menu-item-aria-label = Gouzout hiroc'h diwar-benn ar c'heveliñ war
 press-and-stories-menu-item-aria-label = Gwelet an embannoù kelaouiñ liammet ouzh Common voice
 community-and-languages-menu-item-aria-label = Dizoloit an holl yezhoù ha kumuniezhioù skoret gant Common voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Un deknologiezh a gomz da yezh
@@ -134,6 +131,7 @@ spontaneous-card-header = Komz naturel
 spontaneous-card-content = Respont d'ar goulennoù evit krouiñ strobadoù roadennoù gant kendestennoù implij pemdeziek pe laosk. Eus ar c'hentañ evit ar yezhoù hep hengoun lennegel.
 language-text-card-header = Testennoù en ho yezh
 language-text-card-content = Krouiñ pe rannañ kemennadennoù, frazennoù ha testennoù en domani foran, prest da vezañ troet, evit sevel patromoù evit yezhoù bihan pe muioc'h
+coming-soon = Dizale
 add-text = Ouzhpennañ un destenn
 answer = Respont
 

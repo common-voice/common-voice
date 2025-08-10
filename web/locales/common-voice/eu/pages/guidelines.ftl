@@ -89,9 +89,3 @@ reviewing-sentences-explanation-1 = Esaldiak goiko irizpideak betetzen baditu, s
 reviewing-sentences-explanation-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Ez" botoia.
 reviewing-sentences-explanation-3 = Ziur ez bazaude, esaldia saltatu dezakezu eta hurrengora pasa.
 reviewing-sentences-explanation-4 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

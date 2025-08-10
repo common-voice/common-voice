@@ -77,36 +77,3 @@ help-contribute = Unokunceda ukwakha iseti yedatha eyahlukeneyo, evulekileyo ngo
 login-company = Ngena / Bhalisa nge-imeyile ye { $company }
 profile-not-required = Ukuba neprofayile akufuneki ukuba ube nogalelo nangona kuluncedo, bona ukuba kutheni ngezantsi
 read-more-about = Funda ngakumbi kwiphepha lethu Malunga nathi
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

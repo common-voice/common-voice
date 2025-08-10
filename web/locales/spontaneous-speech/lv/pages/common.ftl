@@ -27,10 +27,10 @@ request-new-language = Lūgt jaunu valodu
 
 ## Navbar
 
+question = Jautājums
 respond-to-prompt = Atbildēt uz jautājumu
 transcribe = Pārrakstīt
 check-transcriptions = Pārskatīt transkripcijas
-question = Jautājums
 
 ## Not Found Page
 

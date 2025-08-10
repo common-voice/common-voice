@@ -87,12 +87,3 @@ file-invalid-type = derto walaa tabintinde
 file-too-large = derto teddi massin
 file-too-small = derto famɗi masin
 too-many-files = dertooji ɗuuɗɗi
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

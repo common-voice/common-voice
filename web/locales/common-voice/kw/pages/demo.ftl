@@ -17,6 +17,3 @@ demo-account-sign-up = Danvon kevren omrolya
 ## Demo Contribute
 
 demo-listen-subtitle = Parys dhe gevri?
-
-## Demo Dashboard
-

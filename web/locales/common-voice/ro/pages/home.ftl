@@ -141,12 +141,38 @@ find-us-on-matrix = Contactează-ne pe Matrix
 find-us-on-matrix-content = Matrix reprezintă un protocol deschis pentru comunicare descentralizată în timp real. La ora actuală este platforma preferată de Mozilla pentru discuții deschise.
 # label for button
 find-us-on-matrix-action = Contactează-ne pe Matrix
+ask-mozilla-share = Organizezi evenimente? Spune și echipei Mozilla!
 ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spune-ne și nouă pentru a-i anunța pe toți din comunitatea noastră. Putem scrie și o postare pe un blog despre evenimentul tău!
+# label for button
+ask-mozilla-share-action = Invită la eveniment!
+download-contribution-certificate = Ai contribuit? Descarcă-ți certificatul!
+download-contribution-certificate-content = Descarcă un certificat pentru evenimentele pe care le-ai organizat sau chiar și pentru tine dacă ai contribuit la Common Voice — acest proiect nu ar fi posibil fără tine!
+# label for button
+download-contribution-certificate-action = Obține-ți certificatul
+contribute-github = Contribuie pe GitHub
+contribute-github-content = Acest proiect nu ar fi posibil fără oameni ca tine. 🎉 Te poți implica în diverse feluri în Common Voice, chiar și dacă nu știi să programezi!
+# label for button
+contribute-github-action = Contribuie pe GitHub
+
+## Featured section
+
+featured-section-title = Menționat pe...
+# icon is an arrow that points downwards
+download-press-pack = Descarcă dosarul nostru pentru presă <icon></icon>
+
+## Developers section
+
+developers-section-title = Seturi de date vocale cu sursă deschisă accesibile publicului în peste 130 de limbi
+developers-section-subtitle = Seturi de date pentru recunoaștere și sinteză vocală automate, precum și alte domenii ale procesării limbajului natural. Aceste date au fost create cu ajutorul comunității.
+# icon is an arrow that points to the right
+explore-datasets = Explorează seturile de date <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Susține comunitatea ce creează seturi de date cu sursă deschisă
 read-sentences-link = Citește propoziții
 validate-readings-link = Validează înregistrările altora
+contribute-link = Contribuie la colecția de texte scrise
 answer-questions-link = Răspunde la întrebări
 transcribe-answers-link = Transcrie răspunsuri
 review-transcriptions-link = Evaluează transcrierile
@@ -157,4 +183,12 @@ press-and-stories-link = Presă și relatări
 
 partner-section-title = Devino partenerul nostru!
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Companii de tehnologie</bold>:  investiți în crearea de seturi de date deschise și susțineți astfel ecosistemul inteligenței artificiale multilingve
+partner-section-subtitle-tech-companies = <bold>Companii de tehnologie</bold>,  investiți în crearea de seturi de date deschise și susțineți astfel ecosistemul inteligenței artificiale multilingve!
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Societate civilă și cercetători</bold>, creați, găzduiți și distribuiți gratuit seturile de date ce au impact!
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Organizații filantropice</bold>, sponsorizați crearea seturilor de date pentru a stimula inovația și dezvoltarea locală!
+# icon is an arrow that points to the right
+get-in-touch-button = Contactează-ne <icon></icon>
+# Partners section
+our-partners-include = Printre partenerii noștri se numără...

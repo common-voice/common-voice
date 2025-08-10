@@ -96,9 +96,6 @@ partnerships-menu-item-aria-label = کامن وائیش ساتی سجئیی تھ
 press-and-stories-menu-item-aria-label = کامن وائیسو پریس ریلیزگا شیلوکو کچی ایپھو
 community-and-languages-menu-item-aria-label = کامن وائیسے سے سانتی دیک کمیونیٹی گہ باشے آنے واشے
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = تھئیی باش تھیک ٹیکنالوجی
@@ -118,6 +115,7 @@ spontaneous-card-header = اَشانگیو شونگو
 spontaneous-card-content = تھَنی باشوڈیٹا سیٹ سَنیونو جواب دے۔ رَزینیک باشوکاری لاؤ سَم ہُوں
 language-text-card-header = باشو کَچَٹ/ لِکھِیتی
 language-text-card-content = عام جَکوڑے ترجمئی کاری ڈومین پرومٹ ، موجی، گہ کَچَٹیانی/لِکھیانی سَنے، باشو چُنے ماڈلی، گہ مُتے لائی۔۔
+coming-soon = لوکو اِیُوں ہِیں/ہُوں
 add-text = کَچٹ تھِتی /لِکھِیتی یو تھے
 
 ## Community section

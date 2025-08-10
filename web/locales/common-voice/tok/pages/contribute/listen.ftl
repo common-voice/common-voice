@@ -11,9 +11,3 @@ listen-loading-error =
 listen-abort-title = sina pini ala pini?
 listen-abort-cancel = o awen
 listen-abort-confirm = o pini
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -101,9 +101,3 @@ reviewing-sentences-explanation-1 = جيڪڏهن جملو مٿي ڏنل معيا
 reviewing-sentences-explanation-2 = جيڪڏهن جملو مٿي ڏنل معيار کي پورو نٿو ڪري، "نه" بٽڻ تي ڪلڪ ڪريو.
 reviewing-sentences-explanation-3 = جيڪڏهن توهان جملي جي باري ۾ پخته نه آهيو، ته توهان ان کي ڇڏي به سگهو ٿا ۽ اڳتي وڌو.
 reviewing-sentences-explanation-4 = جيڪڏھن توھان جي نظرثاني ڪرڻ لاءِ جملا ختم ٿي ويا آھن، مھرباني ڪري وڌيڪ جملا گڏ ڪرڻ ۾ اسان جي مدد ڪريو!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

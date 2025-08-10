@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = کیدراں جولال اسی منیل ڄھ
 reviewing-sentences-explanation-3 = اے تی پا جملا اے° بام گیش بال،رس دا تراپ دا دی پر چو
 reviewing-sentences-explanation-4 = کیرا توسان دی نالیل کیر جملا  حلاص بیل تھ ۔دئر اسان سے دی جولال سمٹیل می مدد تھا
 domain-explanation = ڈومین مطلب ان اںجولال کا بارا می این۔۔عین ِٹیم رل منجروک جوش بون
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

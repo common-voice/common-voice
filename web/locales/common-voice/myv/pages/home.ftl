@@ -71,36 +71,3 @@ welcome-staff = Совадо { $company } ломанть!
 login-company = Совамс / Шкамс совамо тарка { $company } ёндолсёрма адрессэ
 profile-not-required = Лездамсто профилэсь а эряви, ялатеке сон лезэв
 read-more-about = Ловнок седе тов «Минденек» лопасонок
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

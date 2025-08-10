@@ -70,36 +70,3 @@ help-contribute = Tü poust güdar a construir üna collecziun da datas multifar
 login-company = Annunzcha't / Registrescha't cun l'adressa dad e-mail da { $company }
 profile-not-required = I nu fa dabsögn dad avair ün profil per contribuir, eir schi füss ütil. Suotvart vezzast perche.
 read-more-about = Legia daplü sün nossa pagina d'infuormaziun da Common Voice.
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

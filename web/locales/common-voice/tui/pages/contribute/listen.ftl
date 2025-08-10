@@ -10,9 +10,3 @@ listen-loading-error = Wur la da' saɓlaŋ gẽẽge ma laage gà. Fɛr dogge b
 listen-abort-title = Da taw yãã saɓlaŋre wɔ blam ?
 listen-abort-cancel = Taw yããge ɓɛ gɔ
 listen-abort-confirm = Taw yããge ɓɛ gɔ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

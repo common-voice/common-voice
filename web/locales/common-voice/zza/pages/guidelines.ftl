@@ -1,8 +1,5 @@
 sentence-collection = Arêdayîşê Cumleyan
 
-## Voice Collection nav ids
-
-
 ## Voice collection sidebar content
 
 background-voices-tip-1 = Ti yenî? [yewna kes ke veng dano]
@@ -11,12 +8,3 @@ volume-explanation = Normal o ke sewîyeya vengî yê her qiseykerdoxî cîya ya
 ## Sentence collection nav ids
 
 reviewing-sentences = Çimçarnayîşê Cumleyan
-
-## Sentence collection sidebar content
-
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

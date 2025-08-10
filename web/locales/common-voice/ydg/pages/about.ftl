@@ -95,12 +95,6 @@ about-playbook-how-record-content-5 = <accuracyLink>صحیح پے کڑا دیر 
 
 about-playbook-how-grow-language = ماخ دے کامن وئس ڤے یو زبان دے څس طریقو ژے اپیرن ڤینم۔
 
-## How to validate
-
-
-## How to access dataset
-
-
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = راز داری، تحفظ اڤن شفافیت

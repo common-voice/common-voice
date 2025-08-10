@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Difini celon
 cant-decide = Ĉu vi ne povas decidi?
+activity-needed-calculation-fixed = 100 homoj, kiu registras po 100 frazojn ĉiutage povas krei ĝis 13 horojn da sono. Je tiu ritmo 1000 horoj povas esti atingitaj en malpli ol 3 monatoj.
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?

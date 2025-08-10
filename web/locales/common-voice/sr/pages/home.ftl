@@ -75,36 +75,3 @@ help-contribute = Можете помоћи у изградњи разнолик
 login-company = Пријавите се или направите налог { $company } е-поштом
 profile-not-required = Иако је од помоћи, није обавезно да имате профил да би допринели. Погледајте зашто доле.
 read-more-about = Прочитајте више на нашој страници
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

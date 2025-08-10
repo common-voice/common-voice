@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = اگر تم سیر پو یار مینے یو
 reviewing-sentences-explanation-3 = اگر یانگلا تم سیر پو پے لوکھسینگنو چھدکھہ میدنارے، یانگلا چوق سکیورے اخا یودپوی رول گوا نینید۔
 reviewing-sentences-explanation-4 = اگر ہلتس بزو بیالا تم سیر میدنارے، یری شیزدے ینگ تم سیر زدامہ لا نٸی روخ بیوس جوو
 domain-explanation = تھونگ بزو تم سیر پونہ زومسے یودپن۔ دوسے یانگلا یا نیس پینگنہ غدمہ ننید۔
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

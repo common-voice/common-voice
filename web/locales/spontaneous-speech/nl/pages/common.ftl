@@ -29,11 +29,11 @@ continue-with-skipped = Doorgaan met Overgeslagen
 
 ## Navbar
 
+question = Vraag
+validate = Valideren
 respond-to-prompt = Beantwoorden
 transcribe = Transcriberen
 check-transcriptions = Beoordelen
-question = Vraag
-validate = Valideren
 
 ## Not Found Page
 

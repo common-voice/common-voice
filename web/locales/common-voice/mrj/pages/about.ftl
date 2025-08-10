@@ -98,6 +98,3 @@ about-playbook-how-project-governance-content-2 = Мӓмнӓн виктӓрӹм�
 about-playbook-how-project-governance-content-3 = Конфиденциальность, лӱдӹшлӓ агыл ылмаш дӓ вашт каймаш.
 about-playbook-how-project-governance-content-5 = Ӓклӹмӓш дӓ шотеш пиштӹмӓш
 about-playbook-how-project-governance-content-6 = Вӓшӓ-вӓш вуйын шалгымаш.
-
-## How is Common Voice funded
-

@@ -102,9 +102,6 @@ partnerships-menu-item-aria-label = ڪآمن ووئسودي شرآڪتدآريآ
 press-and-stories-menu-item-aria-label = آم آوآجي دي جُڙري پريس ريليج ڪهآڻيو ليوو
 community-and-languages-menu-item-aria-label = ڊم آوآجيٚ ڪيٚ حمآيت ڪروآݪيٚ ڪميونٽيٚ اور ڀوليآنٚ ڪو ڍونڊو
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٽيڪنالآجيٚ جيڪآ تِمريٚ ٻوليٚ ٻولدي هي
@@ -124,6 +121,7 @@ spontaneous-card-header = ڦِتري ٻآت چيٚت
 spontaneous-card-content = حوالآ ڪو جبآب ڪيٚ،آم اور مڪآميٚ مآحولو مي ڊيٽآ سيٽ ٺآوو۔ جِبآنيٚ تورو پر ٻوليآنٚ تآڻي مڪمل۔
 language-text-card-header = ٻوليو ڪيٚ لِکت
 language-text-card-content = اوآمي دآيئرآ ڪيٚ ميل، جُملآ ڪآ، اور ترجمو ڪروو، نهينيٚ ٻوليو ڪيٚ ماڊلسآنٚ تآڻي مواد ٺآوآوو جآنٚ شيئر ڪرو۔
+coming-soon = جلدي آرهيورو هي
 add-text = لِکت لگآوو
 
 ## Community section

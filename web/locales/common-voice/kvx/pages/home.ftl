@@ -103,9 +103,6 @@ partnerships-menu-item-aria-label = ڪومنَ وائيس ڀيۯئي شامِل 
 press-and-stories-menu-item-aria-label = ڪومنَ وائيس را ڀارام پريس رلِيزون انَ وارتائون زوئو
 community-and-languages-menu-item-aria-label = ڪومنَ وائيس رئي قوم انَ مڌت ڪرنار ٻوليون رو جائزو ليو
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ايوَئي ٽيڪنالاجِي جيو تمارِي ٻولِي نئہ ۿزمئہ انَ اُوئا ۾ وات پڻ ڪرئہ
@@ -125,6 +122,7 @@ spontaneous-card-header = تيارِي وڳر لکل وات چِيت
 spontaneous-card-content = پرامٽز رو جواڀ ۮينَ قُڌرتِي انَ هر روز رِي زنڌگِي ۾ اِستعمال ٿيا واۯو ڊيٽاسيٽ ٺاوو۔اي زبونِي پيرهين واۯِيون ٻوليون ۿارُو جوم ٺائُوڪو نمُونو سئہ۔
 language-text-card-header = ٻولِي رو متنَ
 language-text-card-content = منکون رو علمِي ڌائرو،جُملا انَ ترجمو ڪريا ۿارُو متنَ،ننڪئي ٻولئي،نمُونا، وڌارئہ اِستعمال ٿي هيڪئہ۔
+coming-soon = جلڌِي آوئه ريو
 add-text = متنَ نئہ شامِل ڪرو
 answer = جواڀ
 

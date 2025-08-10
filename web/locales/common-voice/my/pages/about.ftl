@@ -54,34 +54,3 @@ about-nav-why-common-voice = ဘာကြောင့်လဲ ?
 about-nav-how-it-works = ဘယ်လိုလဲ?
 about-nav-partners = မိတ်ဖက်များ
 about-nav-get-involved = ပါဝင်ဆောက်ရွက်ရန်
-
-## Community Playbook Content
-## What is a language
-
-
-## How do I add a language
-
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

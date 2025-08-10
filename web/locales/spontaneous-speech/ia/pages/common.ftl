@@ -29,11 +29,11 @@ continue-with-skipped = Continuar con contento saltate
 
 ## Navbar
 
+question = Question
+validate = Validar
 respond-to-prompt = Responder al Sollicitation
 transcribe = Transcriber
 check-transcriptions = Verificar transcriptiones
-question = Question
-validate = Validar
 
 ## Not Found Page
 

@@ -21,10 +21,10 @@ request-new-language = Anmod om nyt sprog
 
 ## Navbar
 
+question = Spørgsmål
 respond-to-prompt = Svar
 transcribe = Transskriber
 check-transcriptions = Gennemgå
-question = Spørgsmål
 
 ## Not Found Page
 
@@ -35,6 +35,3 @@ accept-privacy-and-terms = Jeg accepterer Common Voices' <termsLink>vilkår</ter
 en = Engelsk
 fr = Fransk
 tr = Tyrkisk
-
-## Language search component
-

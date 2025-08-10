@@ -102,9 +102,6 @@ partnerships-menu-item-aria-label = ڪآمن وآئس سون ڀآئيوآڙي ب
 press-and-stories-menu-item-aria-label = ڪآمن وآئسي سون ميلوڙآ پريس رليز آئين ڪهآڻيون تآئين رسڻو هآسيل ڪرو
 community-and-languages-menu-item-aria-label = ڪآمن وآئسي ري مددي سون برآدري آئين ٻولي  ني ڊونڊو
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٽيڪنولآجي جيڪو تمآري ٻولي ٻولي ڇي
@@ -124,6 +121,7 @@ spontaneous-card-header = بي اکتيآري تڪرير
 spontaneous-card-content = نآميآتي ،ٻولي وآڙي هوآلي سآرو ڊيٽآ سيٽ ٺآئي سآرو ايشآري رو جوآب ڏئو ۔ پهلي  زبآني ٻولي سآرو آڇي۔
 language-text-card-header = ٻولي رو موآد
 language-text-card-content = ترجمي ،نيني ۔ٻولي ري مآڊلز ، آئين وڌيڪي سآرو آوآمي ڊومين پر امپٽس ،جملآ آئين ٽيڪسٽ ٺآئو يآ شيئر ڪرو
+coming-soon = جلدي آئيوآڙو ڇي
 add-text = لڦز جمآ ڪرو
 
 ## Community section

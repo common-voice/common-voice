@@ -27,10 +27,10 @@ request-new-language = نوِي ٻولِي نِي ڌرخواست ڄو
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = زٻاپ
 transcribe = اُوتار ڪروون ڪان نقل ڪروون
 check-transcriptions = جائزو ليوو
-question = سوال
 
 ## Not Found Page
 

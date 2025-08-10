@@ -121,15 +121,3 @@ about-playbook-how-grow-language-content-2 = Nechikolmej
 about-playbook-how-grow-language-content-3 = Uelis tikchiuas se nechikoli kanin oksekimej tlapaleuiskej. Amo oui. Uelis tikchiuas ika videoconferencia noso kanaj tla uelis. <eventTemplate>Xikita nikan seki tlamantli tlen mitspaleuis xikchiua se nechikoli</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Redes sociales
 about-playbook-how-grow-language-content-5 = Uelis tiktematiltis nin tekitl itech redes sociales. Xiktematilti tleka miak ipati, uan ximotlapoui inuan oksekimej itech tlanauatilmej non techpaleuiaj, IA tlajtoli, noso teposmej. Okachi xikmati itech <campaignLink>tikintekitiltis redes sociales uan okseki tlamantli tlen mitspaleuis</campaignLink>.
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

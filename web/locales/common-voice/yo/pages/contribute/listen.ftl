@@ -7,9 +7,3 @@ listen-empty-state = A ò nỉ fọ́nrán mở rún àyẹ̀wò nínú e�
 listen-loading-error =
     A kò rí fọ́nrán olóhùn kọọkan fún ọ láti gbọ́.
     Jọ̀wọ́ ṣe ìbẹ̀wò tó bá ṣe díẹ̀.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

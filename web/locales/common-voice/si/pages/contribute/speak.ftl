@@ -19,9 +19,3 @@ review-recording = පරීක්ෂා කිරීම
 review-delete-recordings = මගේ පටිගත කිරීම් මකන්න
 terms-agree = මම එකඟයි
 terms-disagree = මම එකඟ නැහැ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

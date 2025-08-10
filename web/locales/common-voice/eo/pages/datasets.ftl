@@ -8,21 +8,28 @@ datasets-positioning =
     La plurlingva datumaro de Common Voice estas jam la plej granda publike havebla voĉa datumaro, sed ne la ununura.
     
     Tiu ĉi paĝo listigas aliajn malfermitkodajn voĉajn datumarojn kaj, dum la evoluo de Common Voice, ankaŭ niajn estontajn ĝisdatigojn.
+datasets-speech-bubble-content = Ekscitaj novaĵoj! Spontanea parolo alvenos baldaŭ! Restu informita pri ĝisdatigoj kaj certu kontroli nian <discordLink>Discord</discordLink> por havi la lastajn informojn.
 language = Lingvo
+download-dataset-header = Elŝuti la datumaron
+download-delta-explainer = Ni ŝanĝis kelkajn aferojn. Segmentoj Delta nur enhavas la plej ĵusajn registraĵojn ekde la lasta eldono. <deltaLink>Pli da informo pri tiu ĉi temo</deltaLink>.
+download-dataset-tag = Elektu la deziratan lingvan datumaron kaj la version, kiun vi volas elŝuti.
 # File size in gigabytes
 size = Grando
 validated-hr-total = Validigitaj entutaj horoj
 overall-hr-total = Entutaj horoj
 cv-license = Permesilo
 audio-format = Formo de sono
+dataset-splits = Grupoj (aĝo kaj sekso)
 number-of-voices = Nombro de voĉoj
 splits = Dividoj
 email-to-download = Tajpu retpoŝton por elŝuti
 why-email = <b>Kial ni petas retpoŝton</b> Ni povus bezoni kontakti vin en la estonteco, pro ŝanĝoj al la datumaro kaj via retpoŝto permesos al ni tion fari.
+why-donate-datasets-page = Mozilla Common Voice estas la plej diverseca malfermita parola datumaro en la mondo, kreita el publikaj kontribuoj. Kaj nin financas nur donacoj. Kostas preskaŭ milionon da dolaroj jare gastigi la datumarojn kaj plibonigi la platformon por la pli ol 100 lingvaj komunumoj, kiuj kalkulas je ni kaj je kion ni faras. Se vi valoras malfermitajn, inkluzivajn datumojn - <b>donacu hodiaŭ!</b>
 confirm-size = Vi pretas komenci la elŝuton de <b>{ $size }</b>
 size-gigabyte = GO
 size-megabyte = MO
 confirm-no-identify = <b>Vi akceptas</b> ne klopodi eltiri la identecon de parolantoj en la datumaro de Common Voice
+confirm-join-mailing-list = Vi volas aliĝi al la dissendolisto de Common Voice
 download-language = Elŝuti { $language }
 validated-hours = Validigitaj horoj
 recorded-hours = Registritaj horoj
@@ -36,8 +43,13 @@ subscribe = Aboni
 get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
+# This indicates that there is no data to display
+no-information = Sen informo
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ estas <docsLink>malfermitkoda ilaro</docsLink> por esploristoj kiuj disvolvas avangardajn konversacian AI-ajn modelojn.
+resource-deepspeech-info = La malfermitkoda parolrekonilo de Mozilla, Deep Speech, povas esti uzita por konstrui parolkapablajn programojn. Vizitu nian <githubLink>superrigardon de Gihub</githubLink> aŭ aliĝu al <discourseLink>DeepSpeech Discourse</discourseLink> por scii kie kaj kiel komenci.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> dediĉas sin al malfermita parola teknologio. Iliis dedicated to open speech technology. Ĝiaj projektoj inkuzivas STT kaj TTS motorojn, kiuj estas bazitaj je profunda lernado.
 community-playbook = Komunuma manlibro
+resource-playbook-info = <playbookLink>Trovu helpan gvidadon</playbookLink> pri la tuta travojaĝo en Common Voice, ekde la tradukado ĝis la uzo de la datumaro, kaj pri la maniero konektiĝi kun nia komunumo.
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
@@ -52,6 +64,18 @@ more = Pli
 close = Fermi
 download = Elŝuti
 dataset-version = Versio
+sha256-checksum-copied = Kontrolsumo SHA256 kopiita!
+sha256-checksum-copied-error = Ne eblis kopii la kontrolsumon SHA256
+clipboard-not-supported = Tondujo ne subtenata
+no-information-available = Neniu informo havebla
+dataset-metadata-sex = Sekso
+# dataset metadata - age of contributor
+dataset-metadata-age = Aĝo
+donate-modal-message = Via datumbazo elŝutiĝas!
+dataset-donate-modal-heading = Ĉu vi sciis ke…
+donate-modal-explanation-1 = Kostas preskaŭ milionon da dolaroj jare gastigi la datumarojn kaj plibonigi la platformon por la pli ol 100 lingvaj komunumoj, kiuj kalkulas je ni kaj je kion ni faras?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Se vi valoras malfermitajn, inkluzivajn datumojn - donacu hodiaŭ!</bold>
 data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
 data-download-singleword-callout-v2 = Tiu ĉi estas segmento por aparta uzo; ĝu enhavas datumojn por povi rekoni parolitajn ciferojn kaj respondojn jes/ne.
 data-download-button = Elŝuti datumojn de Common Voice
@@ -71,3 +95,7 @@ release-version = Versio
 dataset-date = Date
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Elŝuti niajn voĉajn datumarojn
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Elŝutaj ebloj por aliri la datumojn de Common Voice

@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = agar ki asa mond milaw hikas usulana ziad pe
 reviewing-sentences-explanation-3 = agar ki tay  atra mond as thara yaqeen pe ne hiu day how,tu ala alak kayo warek alik bhas
 reviewing-sentences-explanation-4 = tay som pe alfaz, yao mondr khul hawan haw homa madad kari
 domain-explanation = Domain subject as gehenaw ishara kaw day. shonja tu khosek bahas esi mochaw:
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

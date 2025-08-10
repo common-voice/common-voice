@@ -61,15 +61,3 @@ report-other-comment =
 success = Erfolig
 continue = Witterscht
 report-success = D’Maldùng ìsch mìt Erfolig fùrtgschìckt wùrre
-
-## Speak & Listen Shortcuts
-
-
-## Speak Shortcuts
-
-
-## Listen Shortcuts
-
-
-## Validation criteria
-

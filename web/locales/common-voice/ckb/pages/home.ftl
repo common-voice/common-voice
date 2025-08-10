@@ -72,36 +72,3 @@ help-contribute = تۆ دەتوانی یارمەتی بدەی بۆ سازکرد�
 login-company = خۆت تۆمار کە یان ڵاگین بکە بە پۆستی ئەلیکترۆنیی { $company }
 profile-not-required = پێویست نییە پڕۆفایلت ببێت بەڵام ئەگە پڕۆفایل ساز کەی زیاتر یارمەتیمان دەدات.
 read-more-about = لە بەرگەی دەربارەی ئێمە زیاتر بخوێنەوە
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

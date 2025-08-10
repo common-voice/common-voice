@@ -29,11 +29,11 @@ continue-with-skipped = Parhau gyda'r rhai sydd wedi'u Hepgor
 
 ## Navbar
 
+question = Cwestiwn
+validate = Dilysu
 respond-to-prompt = Ymateb
 transcribe = Trawsgrifio
 check-transcriptions = Adolygu
-question = Cwestiwn
-validate = Dilysu
 
 ## Not Found Page
 

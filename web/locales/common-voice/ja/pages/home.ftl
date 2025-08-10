@@ -69,36 +69,3 @@ help-contribute = Common Voice プロファイルを作成し、音声を提供�
 login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
 read-more-about = 詳しくは Common Voice の概要ページをご覧ください
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

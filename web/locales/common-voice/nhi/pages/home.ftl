@@ -67,36 +67,3 @@ help-contribute = huilis titech palehuis matic chihchihuacan se hueyi base de tl
 login-company = pehualtin sesion/ ximu ihcuilo ican correo de { $company }
 profile-not-required = amo mu niqui ticpixtos se nexica para ti tiquitis, mas yeh huilis tech cualtias
 read-more-about = xicahsi cachi ican tu página ican Common Voice
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

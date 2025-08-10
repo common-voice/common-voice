@@ -46,6 +46,3 @@ pne = Tù'un Penan ityi nuu kivɨ nkanii.
 sdo = Tù'un Serian Bidayuh
 snv = Tù'un Sa'ban
 xkl = Tù'un Kenyah
-
-## Language search component
-

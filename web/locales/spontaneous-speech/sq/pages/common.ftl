@@ -27,10 +27,10 @@ request-new-language = Kërkoni Gjuhë të Re
 
 ## Navbar
 
+question = Pyetje
 respond-to-prompt = Përgjigjuni një Hapi
 transcribe = Transkriptoni
 check-transcriptions = Kontrolloni Transkriptime
-question = Pyetje
 
 ## Not Found Page
 

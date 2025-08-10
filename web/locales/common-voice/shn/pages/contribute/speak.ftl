@@ -5,9 +5,3 @@ terms-disagree = ဢမ်ႇႁၼ်လီၸွမ်း
 why-donate = ယွၼ်ႉသင်လႄႈသူၸဝ်ႈထၢမ်?
 add-information-button = ၽိူမ်ႉထႅမ်ၶေႃႈမုၼ်း
 continue-speaking-button = ဢမ်ႇ ၸူမ်းယဝ်ႉ! သိုပ်ႇလၢတ်ႈထႅင်ႈ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

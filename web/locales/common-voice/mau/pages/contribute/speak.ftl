@@ -58,9 +58,3 @@ already-have-an-account = ¿A jeé tjinri xki?<iniciar sesión>te'tsi'e</iniciar
 create-profile-button = Tindae asenri
 # IMAGE TAGS
 img-alt-success-checkmark = Tjajnare chuba nga nda kji
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

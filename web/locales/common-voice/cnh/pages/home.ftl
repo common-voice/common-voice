@@ -70,36 +70,3 @@ help-contribute = Aw phuntling le miphun caah a sunglawi mi dataset ser dingah p
 login-company = { $company } email in Lutnak / Account sernak tuah
 profile-not-required = Aw tunnak dingah profile ngeih cu a herh lo nain na ngei ahcun a kan bawmh deuh lai
 read-more-about = 'About' ah tam deuh in rel
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

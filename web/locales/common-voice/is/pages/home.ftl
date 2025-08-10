@@ -76,36 +76,3 @@ help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins 
 login-company = Innskrá / nýskrá með netfangi hjá { $company }
 profile-not-required = Notkunarsniðs er ekki krafist til að taka þátt þótt það sé gagnlegt, sjáðu hvers vegna hér fyrir neðan.
 read-more-about = Lestu meira á síðunni okkar um verkefnið
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

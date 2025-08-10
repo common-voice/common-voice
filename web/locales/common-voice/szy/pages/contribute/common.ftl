@@ -14,15 +14,3 @@ submit-form-action = padungus patahekal
 ## Reporting
 
 report = nipatubeli
-
-## Speak & Listen Shortcuts
-
-
-## Speak Shortcuts
-
-
-## Listen Shortcuts
-
-
-## Validation criteria
-

@@ -85,36 +85,3 @@ help-contribute = يمكنك تقديم يد العون لبناء مجموعة 
 login-company = لِج أو سجّل حسابًا ببريد { $company }
 profile-not-required = امتلاكك لملف شخصي ليس مطلوبا لتشارك معنا، إلا أن وجوده مفيد
 read-more-about = اطّلع على المزيد من صفحة ”من نحن“
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

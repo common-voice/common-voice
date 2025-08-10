@@ -103,9 +103,6 @@ partnerships-menu-item-aria-label = ჰ̦ალო̆ და́ბწათ Common
 press-and-stories-menu-item-aria-label = Common Voice-ციჼ კა́ვშირ ჲაჲნი̆ განცხა́დბია́ წი́ნ ა́მბუჲა́ პრე́სე
 community-and-languages-menu-item-aria-label = ღაზი́შ ჰ̦ალო̆ და́ბწათ მატტიშა́ საზო́გადბია́, მენხუჲჩუჲშვა́ ფე ლე́ცოო̆ Common Voice-ენ
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = შუ მატტავ ́ა́მბუჲ ჲუჲნი̆ ტექნოლოგია́
@@ -125,6 +122,7 @@ spontaneous-card-header = ზე́პირ ა́მბუჲ ჲარ
 spontaneous-card-content = უ̂ნე მოთხო́ვნი ჲაჲცი̆, პა́სუხ თე́ლ'ათ, მე́ მონაცემა́ჼ კრე́ბულ ჰ̦ალო̆ ჲუწულო̆ მუჲლნე́ჴელბა ა́მბუჲ ჲო́ჩო̆ მატტიჼ შარახ თაგუჩო̆ ჩანაწე́რივ. თაჲნად, დაქიჼ ხილ'ო̆  დამწე́რლობ ცო ჲაჩო̆ მატტანაჲნო̆.
 language-text-card-header = ტექსტ მატტანაჲნო̆
 language-text-card-content = ე́შუჲში̆ შედგე́ნადჲება́ეთ საზიაროღა́ ჲე́რწჲებათ ჰ̦ამა́ნეჸ საკუთრებე ჲეჲნი̆ წინადა́დბი, შეკითხვი, თა́რგმნადუჲნი̆ ტექსტი, კაწკა́ჩო̆ მატტანაჲნო̆ კუთნბალაჲნი̆ ა́ლ'რი...
+coming-soon = ქასტეჼ
 add-text = ტექსტ ლა́ტჲარ
 answer = პა́სუხ
 

@@ -27,10 +27,10 @@ request-new-language = رپوٽ نئيٚ ٻوليٚ ريٚ
 
 ## Navbar
 
+question = سوآل
 respond-to-prompt = جوآب
 transcribe = آڊيٚو کي لکو
 check-transcriptions = جآنچو
-question = سوآل
 
 ## Not Found Page
 
@@ -58,6 +58,3 @@ sdo = سئيرن بيٚديآه
 snv = سآبآن
 tr = ترڪيٚ
 xkl = ڪينيآ
-
-## Language search component
-

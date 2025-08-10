@@ -118,9 +118,6 @@ partnerships-menu-item-aria-label = کامن وائس سے ساتیْ شراکت
 press-and-stories-menu-item-aria-label = کامن وائس اےْ بارَد پریس ریلیز گہ قصَو بُجَیش اُڇِھیار حاصل تِھیا
 community-and-languages-menu-item-aria-label = کامن وائس اےْ ذریعہ گیْ تعاون یافتہ کمیونٹی گہ جِبو بارَد معلوم تِھیا
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٹیکنالوجیْ کھاں سہ څھے دِینیْ
@@ -140,6 +137,7 @@ spontaneous-card-header = بے ساختہ تقریر
 spontaneous-card-content = نامیاتی، موْݜ کَلَے سیاق گی سباق اےْ کِرِیا ڈیٹاسیٹس سنونے اشارو جُواب دِیا۔ موْݜ کال گیْ آں مُڇِھنیْ جِبوڑ مِݜٹیْ۔
 language-text-card-header = جِبے متن
 language-text-card-content = عوامی ڈومین پرامپٹس، جُملائے گہ ترجمائے کِرِیا متن آں لیکھیْ جِبو ماڈلز، وغیرہ سنِیا یا سیْݨے اشتراک تِھیا۔
+coming-soon = جِنیْ اِینوْ
 add-text = عبارت ٹل تِھیا
 answer = جواب
 

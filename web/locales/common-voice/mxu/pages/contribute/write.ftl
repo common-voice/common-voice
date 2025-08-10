@@ -87,12 +87,3 @@ file-invalid-type = eɗe arawa da
 file-too-large = eɗe aɗak dik haŋ
 file-too-small = eɗe aɗak klaŋa
 too-many-files = eɗe atal dik
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

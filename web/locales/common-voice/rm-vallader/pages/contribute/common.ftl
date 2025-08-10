@@ -70,6 +70,3 @@ shortcut-vote-yes = h
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
-
-## Validation criteria
-

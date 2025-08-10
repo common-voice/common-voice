@@ -2,7 +2,7 @@
 guidelines-header = Consignes pour participer
 guidelines-header-subtitle = Comprendre comment ajouter et valider des phrases et des échantillons audio dans le jeu de données Common Voice
 voice-collection = Collecte de voix
-sentence-collection = Collecte de phrases 
+sentence-collection = Collecte de phrases{ " " }
 question-collection = Collecte de questions
 
 ## Voice Collection nav ids

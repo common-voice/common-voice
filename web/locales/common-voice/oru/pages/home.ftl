@@ -102,9 +102,6 @@ partnerships-menu-item-aria-label = ته بائی والي مشترک آواز �
 press-and-stories-menu-item-aria-label = پرېس ریلیز کی چیو او کهانئے مشترک آواز بارۀ نر
 community-and-languages-menu-item-aria-label = جوت کَۀ افئ کمیونېټیز او ا زبنی که ا مشترک آوازه وبو سپورټ کوی
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ا ټېکنالوجی، ا څېن بُو که ترتُو ا زبان غؤݭی
@@ -124,6 +121,7 @@ spontaneous-card-header = بغېر ديېک سپسيېک تقریر یا خُل�
 spontaneous-card-content = ته قدرتي، او ته عام ژغېدا ته ډېټاسېټ ته جوړؤ پاره يې ته پرومپټس ځواب کېوَن۔ ته نک لیکک زبنی پناره بهترین
 language-text-card-header = ته زبان ا سبق
 language-text-card-content = ته پبلک ډومېن پرومپټس، جملي او سبچی دی ته ترجمه پاره جوړ یا شریک کوئ
+coming-soon = سېره ر بُو څوا
 add-text = سبق ال يې ګډ کوئ
 
 ## Community section

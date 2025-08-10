@@ -128,7 +128,7 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] 	مين ايڪ جملو ڀيڙي ڪيڌو  1{ $uploadedSentences }
+        [one] { "\u0009" }مين ايڪ جملو ڀيڙي ڪيڌو  1{ $uploadedSentences }
        *[other] مين { $uploadedSentences } جملآ ڀيڙي ڪيڌو ڇون{ $totalSentences }
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission

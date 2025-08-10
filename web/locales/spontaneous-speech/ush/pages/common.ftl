@@ -51,6 +51,3 @@ sdo = سیرئیائی بیدھاؤ
 snv = سعابان
 tr = ترکی
 xkl = کینیاہ
-
-## Language search component
-

@@ -4,9 +4,3 @@ listen-again-instruction = Mulimu mulungi<playIcon></playIcon>ddamu owulirize ng
 listen-3rd-time-instruction = 2 biwedde, kkola nga bw'otyo!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Ekisembayo!
 listen-empty-state = Clip ez'okusunsula ziweddewo mu lulimi luno...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

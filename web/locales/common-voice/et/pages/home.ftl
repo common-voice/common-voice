@@ -65,36 +65,3 @@ username-email-not-demographic = Sinu kasutajanime ja e-posti aadressi ei seosta
 ## Landing
 
 profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

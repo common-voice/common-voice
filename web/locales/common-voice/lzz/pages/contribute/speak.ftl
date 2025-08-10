@@ -51,9 +51,3 @@ create-profile-button = Profili getzopxi
 img-alt-success-checkmark = ot̆işu onayişi ğara
 # menu item
 read-sentences = Cumle golionit
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

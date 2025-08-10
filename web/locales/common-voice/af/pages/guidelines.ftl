@@ -35,15 +35,3 @@ misreadings-example-1 = Ons gaan uit om koffie te kry.
 misreadings-example-2 = Ons gaan koffie kry.
 misreadings-example-3 = Ons gaan uit om 'n koffie te kry.
 misreadings-example-4 = Die hommelby het verbygeswiep.
-
-## Sentence collection nav ids
-
-
-## Sentence collection sidebar content
-
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

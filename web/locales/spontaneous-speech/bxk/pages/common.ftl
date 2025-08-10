@@ -27,10 +27,10 @@ request-new-language = Saaba Ènganikha èmbya
 
 ## Navbar
 
+question = Liswaali
 respond-to-prompt = Ilahmo
 transcribe = khuLeckah
 check-transcriptions = Ilakamo
-question = Liswaali
 
 ## Not Found Page
 
@@ -58,6 +58,3 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkish
 xkl = Kenyah
-
-## Language search component
-

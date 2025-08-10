@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = اَگَر جملݺ اڎݵ ہݵئ کرݳئٹ
 reviewing-sentences-explanation-3 = اگر جملݳئی بݳرہ نݳ تمݵچݸ دَک نݳ تݳ، تمݺ اݽݵئ فَت اِری ہگݸ ہݵیَس جݳئی شکݵگُچھݸت.
 reviewing-sentences-explanation-4 = اَگَر تُمݺ پݳ دݸبارہ گِرمِنݳنݳئی کݳرݸ جُملݳݣݳ فَݽ ہݸݵیتݳ مِربݳݳنݵ رِݵ اَمݵچُݸ مزݵد جملݳݣݳ جَمَع رِنݺ بلݸ مَدَد اِرݳ!
 domain-explanation = ڈݸمݵنݵئ مَطَلَب جملݳئی مݸضݸع ہݸگݳ چھݳ. مݸتݸ، تُمݺ دݸݵیڎ مجَنݸ دِسقَٹݳرݳ:
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

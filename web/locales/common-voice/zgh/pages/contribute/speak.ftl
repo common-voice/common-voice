@@ -58,9 +58,3 @@ already-have-an-account = ⵖⵓⵔⵓⵏ ⵢⴰⴷ ⴰⵎⵉⴹⴰⵏ? <login>�
 create-profile-button = ⵙⵏⴼⵍⵓⵍ ⵉⴼⵔⵙ
 # IMAGE TAGS
 img-alt-success-checkmark = ⵜⴰⵎⴰⵜⴰⵔⵜ ⵏ ⵓⵙⵜⴰⵢ ⵏ ⵓⵎⵓⵔⵙ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

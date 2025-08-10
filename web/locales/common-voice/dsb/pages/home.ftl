@@ -110,9 +110,6 @@ partnerships-menu-item-aria-label = Zgóńśo wěcej wó partnaŕstwach z Common
 press-and-stories-menu-item-aria-label = Mějśo pśistup k wózjawjenjam casnikaŕstwa a tšojenjam wó Common Voice
 community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rěcy, kótarež se pśez Common Voice pódpěraju
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Technologija, kótaraž wašu rěc powěda
@@ -132,6 +129,7 @@ spontaneous-card-header = Spontane powědanje
 spontaneous-card-content = Wótegrońśo na naspominanja, aby datowe sajźby za organiske, wobchadnorěcne konteksty napórał. To jo perfektne za pśewažnje wustne rěcy.
 language-text-card-header = Rěcny tekst
 language-text-card-content = Napórajśo abo źělśo zjawne naspominanja, sady a tekst za pśełoženje, małe rěcne modele a wěcej.
+coming-soon = Skóro k dispoziciji
 add-text = Tekst pśidaś
 answer = Wótegroniś
 

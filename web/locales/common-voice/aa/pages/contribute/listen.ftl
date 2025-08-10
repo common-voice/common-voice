@@ -12,9 +12,3 @@ listen-loading-error =
 listen-abort-title = Xabbabitteh ceesasak gaba kaltaa?
 listen-abort-cancel = Ceesasal warray
 listen-abort-confirm = Ceesasak gaba kal
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -29,11 +29,11 @@ continue-with-skipped = Бо «Нодида гузаронидан» идома 
 
 ## Navbar
 
+question = Савол
+validate = Тасдиқ кардан
 respond-to-prompt = Ба дархост ҷавоб додан
 transcribe = Табдил додан
 check-transcriptions = Тафтиш кардани овонависӣ
-question = Савол
-validate = Тасдиқ кардан
 
 ## Not Found Page
 

@@ -27,10 +27,10 @@ request-new-language = Saba orulimi oruhyaka
 
 ## Navbar
 
+question = Kaguza
 respond-to-prompt = Garukamu
 transcribe = Teeka iraka omu buhandiiki
 check-transcriptions = Garukamu oyetegereze
-question = Kaguza
 
 ## Not Found Page
 
@@ -58,6 +58,3 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkish
 xkl = Kenyah
-
-## Language search component
-

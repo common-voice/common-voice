@@ -52,9 +52,3 @@ already-have-an-account = tos itinye akount?<login>Logen-In</login>
 create-profile-button = tau profilit
 # IMAGE TAGS
 img-alt-success-checkmark = ibaru oleiboorse
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

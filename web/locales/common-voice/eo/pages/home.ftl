@@ -72,36 +72,3 @@ help-contribute = Vi povas helpi konstrui diversan, malfermitkodan datumaron per
 login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
 read-more-about = Pli da informo en la paĝo: Pri Common Voice
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

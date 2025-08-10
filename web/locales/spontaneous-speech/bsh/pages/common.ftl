@@ -27,10 +27,10 @@ request-new-language = نوئ وری کہ درخواست کشی
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = پرامٹ جواب پعستہ
 transcribe = ستراݩع
 check-transcriptions = ٹرانسکریپشن ایشکوع
-question = سوال
 
 ## Not Found Page
 
@@ -58,6 +58,3 @@ sdo = سیریان بیڈایو
 snv = سابان
 tr = ترکی
 xkl = کینیا
-
-## Language search component
-

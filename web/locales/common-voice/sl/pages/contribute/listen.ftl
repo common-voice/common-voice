@@ -8,9 +8,6 @@ listen-empty-state = Zmanjkalo nam je posnetkov za potrditev v tem jeziku ...
 listen-abort-cancel = Nadaljujte s potrjevanjem
 listen-abort-confirm = Dokončajte potrjevanje
 
-## MENU ITEM TOOLTIPS
-
-
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Meni možnosti poslušanja

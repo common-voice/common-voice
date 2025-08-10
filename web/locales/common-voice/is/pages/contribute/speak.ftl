@@ -55,9 +55,3 @@ already-have-an-account = Ertu nú þegar með reikning? <login>Skrá inn</login
 create-profile-button = Búa til notandasnið
 # IMAGE TAGS
 img-alt-success-checkmark = gátmerki fyrir árangur
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

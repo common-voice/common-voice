@@ -4,12 +4,3 @@
 skipped = Nilaktawan
 # For the button to skip an item
 skip-button = Laktawan
-
-## Navbar
-
-
-## Not Found Page
-
-
-## Language search component
-

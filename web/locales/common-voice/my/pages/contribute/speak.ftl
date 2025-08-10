@@ -24,9 +24,3 @@ review-delete-recordings = ကျွန်ုပ် ၏ အသံဖမ်းယ
 review-terms = Common Voice ကိုအသုံးပြုခြင်းအားဖြင့်ကျွန်ုပ်တို့၏ <termsLink> Terms </termsLink> နှင့် <privacyLink> Privacy Notice </privacyLink> ကိုသဘောတူတယ်။
 terms-agree = ကျွန်တော် သဘောတူသည်
 terms-disagree = ကျွန်တော် သဘောမတူပါ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

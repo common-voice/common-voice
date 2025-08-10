@@ -4,9 +4,3 @@ listen-again-instruction = بہت اچھے<playIcon></playIcon> دوبارہ س�
 listen-3rd-time-instruction = ۲  ہو گئے۔  شاباش جاری رکھیں!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>آخری ایک!
 listen-empty-state = اس زبان میں توثیق کرنے کیلئے ہمارے پاس تراشے ختم ہوگئے ہیں۔
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -111,12 +111,3 @@ about-playbook-how-grow-language-content-6 = Partenariati è rete
 about-playbook-how-validate = Comu possu sapè quandu cunvalidà un campione vucale ?
 about-playbook-how-validate-content-1 = Si pudeti <strong>sentali bè</strong> è <strong>capisceli bè</strong>, di regula hè megliu di <strong>cunvalidalli</strong>.
 about-playbook-how-validate-content-2 = <strong>Ùn rifiuteti micca campioni vucali quandu u locutoru « hà un accentu » distintu di u vostru</strong>. Campioni cusì sò impurtantissimi pà fà viaghjà a ricunniscenza vucala per tutti.
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

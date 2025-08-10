@@ -71,36 +71,3 @@ help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音
 login-company = 以 { $company } 電郵登入 / 註冊
 profile-not-required = 唔需要成立個人檔案即可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
 read-more-about = 去關於我哋嘅頁面瞭解更多
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

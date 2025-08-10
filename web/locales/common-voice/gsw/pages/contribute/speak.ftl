@@ -48,9 +48,3 @@ add-information-button = Informàtione dezügann
 continue-speaking-button = Nää, märsi, witterschtredde
 create-profile-text = Wotte-n’r Éieri Dàte speichere? <createProfile>Erstelle e Profil</createProfile>
 thanks-for-voice-toast = Vielmols märsi fer Éieri Sprochinformàtione
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

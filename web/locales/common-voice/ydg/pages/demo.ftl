@@ -17,9 +17,3 @@ demo-account = اکاؤنٹ
 ## Demo Account
 
 demo-account-card-header = پے غورا دیر اکاؤنٹ ضروری نو، اگرچہ کہ مو مدد کیتے
-
-## Demo Contribute
-
-
-## Demo Dashboard
-

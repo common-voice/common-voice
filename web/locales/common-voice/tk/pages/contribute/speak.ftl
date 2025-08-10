@@ -36,9 +36,3 @@ review-delete-recordings = Ýazgylarymy poz
 review-terms = Common Voice-i ulanmak bilen, <termsLink>Düzgünlerimiz</termsLink> we <privacyLink>Gizlinlik syýasatymyz</privacyLink> bilen ylalaşýarsyňyz.
 terms-agree = Ylalaşýaryn
 terms-disagree = Ylalaşmaýaryn
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

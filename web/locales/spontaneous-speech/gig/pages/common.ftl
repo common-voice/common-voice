@@ -27,10 +27,10 @@ request-new-language = ڀولي ري درخواس ڪرو
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = جواب
 transcribe = لکوڙآ
 check-transcriptions = ڌوبآرا ڌيکڻو
-question = سوال
 
 ## Not Found Page
 

@@ -144,6 +144,3 @@ about-playbook-how-project-governance-content-4 = Тӱшкан ушнымашы�
 about-playbook-how-project-governance-content-5 = Кӱлешлык да пагалымаш.
 about-playbook-how-project-governance-content-6 = Ваш-ваш мутым кучымаш.
 about-playbook-how-project-governance-content-7 = <governanceLink>Кузе ме виктарена, шукырак пален нал</governanceLink>
-
-## How is Common Voice funded
-

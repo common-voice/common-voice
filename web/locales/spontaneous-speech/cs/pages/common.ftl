@@ -29,11 +29,11 @@ continue-with-skipped = Pokračovat s přeskočenými
 
 ## Navbar
 
+question = Otázka
+validate = Zkontrolovat
 respond-to-prompt = Odpovědět na výzvu
 transcribe = Přepis
 check-transcriptions = Zkontrolovat přepisy
-question = Otázka
-validate = Zkontrolovat
 
 ## Not Found Page
 

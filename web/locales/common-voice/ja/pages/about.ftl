@@ -35,10 +35,6 @@ about-nav-get-involved = 参加しよう
 about-nav-how-it-works-2 = Common Voiceはどのような仕組みですか？
 about-nav-playbook = 参加するには
 
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
 about-playbook-how-add-language = 言語を追加するには？
@@ -52,23 +48,11 @@ about-playbook-how-localize-content-5 = 動画の説明をご覧ください
 
 about-playbook-how-add-sentences = 文章を追加するには？
 
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = イベント
 about-playbook-how-grow-language-content-4 = ソーシャルメディア
 
-## How to validate
-
-
 ## How to access dataset
 
 about-playbook-how-access-dataset = データセットにアクセスして使用するには？
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

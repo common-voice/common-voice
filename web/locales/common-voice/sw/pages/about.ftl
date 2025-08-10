@@ -73,9 +73,6 @@ about-playbook-how-localize-content-5 = Tazama kielezi chetu cha video kukusaidi
 
 about-playbook-how-add-sentences = Je, ninaongezaje sentensi?
 
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Matukio
@@ -100,6 +97,3 @@ about-playbook-how-project-governance-content-4 = Ushiriki wa jamii na kufanya m
 about-playbook-how-project-governance-content-5 = Thamani na kutambuliwa.
 about-playbook-how-project-governance-content-6 = Uwajibikaji wa pande zote.
 about-playbook-how-project-governance-content-7 = <governanceLink>Soma zaidi kuhusu jinsi tunavyotawaliwa</governanceLink>
-
-## How is Common Voice funded
-

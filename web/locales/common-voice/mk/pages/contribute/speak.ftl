@@ -41,9 +41,3 @@ add-information-button = Додадете информации
 create-profile-button = Создај профил
 # IMAGE TAGS
 img-alt-success-checkmark = ознака за успех
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

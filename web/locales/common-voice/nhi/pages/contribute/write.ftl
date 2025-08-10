@@ -1,15 +1,3 @@
 ## WRITE PAGE
 
 write = tlahcuilo
-
-## BULK SUBMISSION
-
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

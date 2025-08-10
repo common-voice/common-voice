@@ -102,6 +102,3 @@ about-playbook-how-project-governance-content-4 = Wiira mpatta ni ophavela moolu
 about-playbook-how-project-governance-content-5 = Ottittimiha ni osuwelaxiha.
 about-playbook-how-project-governance-content-6 = Wisuwela wa khula mutthu.
 about-playbook-how-project-governance-content-7 = <governanceLink>Ihapari  sinceene  mwaha  wa  manamuuno  ahu  wa  matumereryo  sa  muthokiho o</governanceLink>
-
-## How is Common Voice funded
-

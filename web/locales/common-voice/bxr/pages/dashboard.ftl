@@ -11,9 +11,6 @@ top-contributors = Түрүү баялигжуулагшад
 total-approved = Ниитэ зүбшөөрһэн
 overall-accuracy = Юрэнхы нарин нягта байдал
 
-## Custom Goals
-
-
 ## Goals
 
 days =

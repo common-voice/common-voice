@@ -27,10 +27,10 @@ request-new-language = Kwo Lò-tsò Tdey
 
 ## Navbar
 
+question = Lo dhíydha
 respond-to-prompt = Ngu lò dziydjò
 transcribe = Ndíy nyi rr̀ nì ddiy
 check-transcriptions = Nja ǒnga ddíyàchú
-question = Lo dhíydha
 
 ## Not Found Page
 

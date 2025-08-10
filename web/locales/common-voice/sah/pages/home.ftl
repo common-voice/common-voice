@@ -68,36 +68,3 @@ username-email-not-demographic = Эн бэлиэ-аатыҥ уонна email-ы�
 ## Landing
 
 profile-not-required = Профиль хайаан да ирдэммэт, ол гынан баран туһалаах
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

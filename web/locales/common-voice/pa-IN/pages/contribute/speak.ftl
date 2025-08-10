@@ -46,9 +46,3 @@ second-cta-header-text = ਤੁਹਾਡੀ ਆਵਾਜ਼ ਦੇ ਯੋਗਦਾ�
 create-profile-button = ਪਰੋਫਾਈਲ ਬਣਾਓ
 # menu item
 read-sentences = ਵਾਕਾਂ ਨੂੰ ਪੜ੍ਹੋ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

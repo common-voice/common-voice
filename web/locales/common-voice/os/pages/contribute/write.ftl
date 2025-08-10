@@ -30,12 +30,3 @@ history_law_government = Истори, закъæттæ æмæ хицауад
 ## BULK SUBMISSION
 
 file-too-large = Файл æгæр стыр у
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

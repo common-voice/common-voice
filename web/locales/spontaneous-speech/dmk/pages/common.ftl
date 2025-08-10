@@ -51,6 +51,3 @@ sdo = سݵرِݵَن بِدݳݵُݸح
 snv = سآبݳن
 tr = ترکݵ
 xkl = کݵنݵݳح
-
-## Language search component
-

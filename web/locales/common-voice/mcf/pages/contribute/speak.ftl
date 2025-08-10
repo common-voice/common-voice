@@ -4,6 +4,3 @@ read-sentences-coming-soon = Onquiedtedi isban <small>(Badedquioshë)</small>
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Onquiedtedi isban, chuisho ëcbedban
-
-## MENU ITEM ARIA LABELS
-

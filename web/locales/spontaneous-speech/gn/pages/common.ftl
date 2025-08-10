@@ -29,11 +29,11 @@ continue-with-skipped = Eku’ejey Ñomimbyre ndive
 
 ## Navbar
 
+question = Porandu
+validate = Ñemoneĩ
 respond-to-prompt = Embohovái ñe’ẽmondo
 transcribe = Ñe’ẽjehai
 check-transcriptions = Ehechajey ñe’ẽjehai
-question = Porandu
-validate = Ñemoneĩ
 
 ## Not Found Page
 

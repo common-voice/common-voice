@@ -5,6 +5,3 @@ select-your-age = Izavielej vacumu
 country-of-residence-label = Vaļsts voi regions
 why-are-you-asking = Deļkuo jius vaicojit?
 thank-you-for-your-information = Paļdis par informaceju
-
-## Gender dropdown
-

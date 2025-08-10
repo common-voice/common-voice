@@ -45,9 +45,3 @@ adding-sentences-subheader-abbreviations = Giorrúcháin agus Acrainmneacha
 adding-sentences-subheader-punctuation = Poncaíocht
 adding-sentences-subheader-offensive-content = Ábhar Gránna
 reviewing-sentences-explanation-4 = Mura bhfuil abairtí le léirmheas a dhéanamh, cuidigh linn tuilleadh abairtí a bhailiú!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

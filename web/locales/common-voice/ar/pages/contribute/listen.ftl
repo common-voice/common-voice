@@ -4,9 +4,3 @@ listen-again-instruction = عمل رائع!<playIcon></playIcon> استمع إل
 listen-3rd-time-instruction = أنهيتَ جملتين، تابِع هكذا!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> آخر جملة!
 listen-empty-state = انتهت المقاطع التي تطلب التحقق لهذه اللغة...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -29,11 +29,11 @@ continue-with-skipped = Atladıklarınla devam et
 
 ## Navbar
 
+question = Soru
+validate = Doğrula
 respond-to-prompt = Yanıtla
 transcribe = Metne Çevir
 check-transcriptions = Metinleri Denetle
-question = Soru
-validate = Doğrula
 
 ## Not Found Page
 

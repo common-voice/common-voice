@@ -36,9 +36,3 @@ review-delete-recordings = ମୋ ରେକ୍ଡ଼ିଂସବୁ ହଟାନ
 review-terms = Common Voice ବ୍ୟବହାର କରିବାଦ୍ୱାରା, ଆପଣ ଆମର <termsLink>ସର୍ତ୍ତାବଳୀ</termsLink> ଏବଂ <privacyLink>ଗୋପନୀୟତାର ନୋଟିସ</privacyLink> ସହିତ ସହମତ ଅଛନ୍ତି ବୋଲି ଧରାଯିବ ।
 terms-agree = ମୁଁ ସହମତ
 terms-disagree = ମୁଁ ସହମତି ଦେଉନାହିଁ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

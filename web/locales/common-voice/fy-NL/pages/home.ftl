@@ -85,11 +85,11 @@ read-more-about = Mear ynfo op ús side Oer
 
 ## NAV ITEMS
 
-answer-questions = Fragen beäntwurdzje <small>(ynkoarten)</small>
-review-transcriptions = Transkripsjes beoardiele <small>(ynkoarten)</small>
-add-questions = Fragen tafoegje <small>(ynkoarten)</small>
+answer-questions = Fragen beäntwurdzje
+review-transcriptions = Transkripsjes beoardiele
+add-questions = Fragen tafoegje
 review-questions = Fragen beoardiele
-transcribe-audio = Audio transkribearje <small>(ynkoarten)</small>
+transcribe-audio = Audio transkribearje
 press-and-stories = Parse en ferhalen
 community-and-languages = Mienskip en talen
 coming-soon = Ynkoarten beskikber
@@ -114,9 +114,6 @@ partnerships-menu-item-aria-label = Mear oer partnerskippen mei Common Voice
 press-and-stories-menu-item-aria-label = Parseberjochten en ferhalen mei betrekking ta Common Voice benaderje
 community-and-languages-menu-item-aria-label = De troch Common Voice stipe mienskip en talen ferkenne
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Technology dy’t jo taal sprekt
@@ -136,6 +133,7 @@ spontaneous-card-header = Spontane spraak
 spontaneous-card-content = Reagearje op fragen om gegevenssets te meitsjen foar organyske, ynformele konteksten. Perfekt foar orale talen.
 language-text-card-header = Taaltekst
 language-text-card-content = Meitsje of diel fragen, sinnen en tekst yn it iepenbiere domein foar oersetting, lytse taalmodellen, en mear.
+coming-soon = Ynkoarten beskikber
 add-text = Tekst tafoegje
 answer = Beäntwurdzje
 

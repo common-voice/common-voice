@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = کېنے زی کَلاؤ رتاپی معیا
 reviewing-sentences-explanation-3 = کېنے زی مېنی کَلاوَنہ بارا یقین نہ تھنی  بہ، جو مے تسہ ووئی تلَئ پُدَماپِیاں دِی بَمانېؤ۔
 reviewing-sentences-explanation-4 = جائزہ گوئیکہ ݭڅی جُملہ نام نِمَتی تنَئیت بہ مېرَبانی کېری واری جُملہ جمع کېرِکہ امَہ مِنزی ہسپلہ ݭَؤ!
 domain-explanation = ڈومېن جُملانہ موضوعہ نی مطلب تھِنی۔ فلیالن، مے اسُونہ منزَنہ انتخاب کېری بَمانېؤ:
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

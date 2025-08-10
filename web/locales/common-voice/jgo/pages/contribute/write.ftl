@@ -129,7 +129,7 @@ rate-limit-message-seconds =
 add-small-batch-success =
     { $totalSentences ->
         [one] kɛmcú lakńcúꞌtɛ nǔu
-       *[other]  mɛkɛmcú lakńcúꞌtɛ́ nǔu
+       *[other] { " " }mɛkɛmcú lakńcúꞌtɛ́ nǔu
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
