@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Localized, useLocalization } from '@fluent/react'
+import { Localized } from '@fluent/react'
 
 const tableStyle: React.CSSProperties = {
   border: '1px solid',
@@ -13,8 +13,6 @@ const cellStyle: React.CSSProperties = {
 }
 
 export const TagsTable = () => {
-  const { l10n } = useLocalization()
-
   return (
     <table style={tableStyle}>
       <thead>
@@ -30,7 +28,7 @@ export const TagsTable = () => {
       <tbody>
         <tr>
           <td style={cellStyle}>
-            <code>[{l10n.getString('laugh')}]</code>
+            <code>[laugh]</code>
           </td>
           <td style={cellStyle}>
             <Localized id="tags-laugh-explanation" />
@@ -38,7 +36,7 @@ export const TagsTable = () => {
         </tr>
         <tr>
           <td style={cellStyle}>
-            <code>[{l10n.getString('disfluency')}]</code>
+            <code>[disfluency]</code>
           </td>
           <td style={cellStyle}>
             <Localized id="tags-disfluency-explanation" />
@@ -47,7 +45,7 @@ export const TagsTable = () => {
         <tr>
           <td style={cellStyle}>
             <code>
-              <code>[{l10n.getString('unclear')}]</code>
+              <code>[unclear]</code>
             </code>
           </td>
           <td style={cellStyle}>
@@ -56,7 +54,7 @@ export const TagsTable = () => {
         </tr>
         <tr>
           <td style={cellStyle}>
-            <code>[{l10n.getString('noise')}]</code>
+            <code>[noise]</code>
           </td>
           <td style={cellStyle}>
             <Localized id="tags-noise-explanation" />
