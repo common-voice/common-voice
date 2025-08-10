@@ -173,6 +173,10 @@ transcribe-the-audio-subheader-2-example-1-correct = <correct>Rett</correct>: De
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Feil</wrong>: Det er 100 mil unna her
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-correct = <correct> Rett</correct>: Vi sjåast i <underline>tjuefemten</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Feil</wrong>: Vi sjåast i <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Rett</correct>: Det var tjue prosent rabatt
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Feil</wrong>: Det var 20 % rabatt
 tags-table-header-1 = Etikett
 tags-table-header-2 = Meining
 tags-laugh = Latter
