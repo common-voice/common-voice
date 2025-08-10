@@ -144,6 +144,7 @@ example-questions-explanation-2 = Si tu amarea inviar un serie de questiones a i
 
 # Answer Questions
 answer-questions = Responder a questiones
+answer-questions-subheader = Guida general
 answer-questions-tip-1 = Registra in un loco rationabilemente quiete
 answer-questions-tip-2 = Elige un position con un bon connexion a internet
 answer-questions-tip-3b = Tenta mantener tu responsa in 15-30 secundas
@@ -152,6 +153,9 @@ answer-questions-tip-5 = Parla naturalmente, como tu facerea con un amico, usa t
 answer-questions-tip-6 = Mantene un volumine costante, sin critar o cantar.
 # Transcribe the Audio
 transcribe-the-audio = Transcriber le audio
+transcribe-the-audio-subheader-1 = Guida general
+transcribe-the-audio-subheader-2 = Numeros e acronymos
+transcribe-the-audio-subheader-3 = Tags special
 tags-table-header-1 = Tag
 
 ## Review the Transcription
@@ -187,3 +191,7 @@ code-switching-review-no-3 = Questiones que pote causar a alcuno de compartir re
 # Answering a Question
 code-switching-answer-subheader = Responder a un question
 code-switching-not-tag-interjections-example-2 = “No”
+
+## Reporting Content
+
+reporting-content-subheader = Guida general
