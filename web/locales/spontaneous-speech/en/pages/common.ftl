@@ -29,11 +29,14 @@ continue-with-skipped = Continue with Skipped
 
 ## Navbar
 
-respond-to-prompt = Answer
-transcribe = Transcribe
-check-transcriptions = Review
 question = Question
 validate = Validate
+respond-to-prompt = Answer
+respond-to-prompt-mobile = Answer
+transcribe = Transcribe
+check-transcriptions = Review
+check-transcriptions-mobile = Review
+tag = Tag
 
 ## Not Found Page
 

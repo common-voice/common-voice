@@ -30,7 +30,10 @@ export const AddingQuestions = ({
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
           <Localized id="what-makes-a-good-question-subheader">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="what-makes-a-good-question-subheader"
+            />
           </Localized>
           <Localized id="what-makes-a-good-question-explanation">
             <p className="guidelines-content-explanation" />
@@ -69,7 +72,10 @@ export const AddingQuestions = ({
           </Localized>
 
           <Localized id="dont-add-subheader">
-            <h2 className="guidelines-content-subheader" />
+            <h2
+              className="guidelines-content-subheader"
+              id="dont-add-subheader"
+            />
           </Localized>
           <Localized id="offensive-content-sensitive-information">
             <p className="guidelines-content-explanation header" />
