@@ -32,8 +32,11 @@ continue-with-skipped = Fortsätt med överhoppat
 question = Fråga
 validate = Validera
 respond-to-prompt = Svara på prompt
+respond-to-prompt-mobile = Svara
 transcribe = Transkribera
 check-transcriptions = Kontrollera transkriptioner
+check-transcriptions-mobile = Granska
+tag = Etikett
 
 ## Not Found Page
 
