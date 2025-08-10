@@ -154,3 +154,30 @@ transcribe-the-audio-subheader-4 = Słowne segmenty, wopačne spočatki, wospjet
 tags-table-header-1 = Značka
 tags-table-header-2 = Woznam
 tags-laugh = Smjeće
+tags-disfluency = Njeběžnosć
+tags-unclear = Njejasny
+tags-noise = Šum
+
+## Review the Transcription
+
+review-the-transcription = Přepruwujće transkripciju
+review-the-transcription-subheader = Powšitkowne pokazki
+
+## Code-Switching
+
+adding-a-question = Prašenje přidać
+# Adding a Question
+code-switching-adding-question-subheader = Što dobre prašenje twori?
+code-switching-adding-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
+code-switching-adding-question-criteria-1 = Lochko rozumić być a na so wotmołwić dać
+code-switching-adding-question-criteria-2 = Powšitkownje relewantne być
+code-switching-adding-question-criteria-3 = Křiwdźacu abo njepřistojnu rěč njewužiwać
+code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne konteksty a domeny zapřijeć.
+# What types of questions to add
+code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
+code-switching-dont-header = Špatne
+# Answering a Question
+code-switching-answer-subheader = Na prašenje wotmołwić
+# Transcribing
+code-switching-transcribe-subheader = Transkribować
+code-switching-tagging-error-2 = Pisanske zmylki
