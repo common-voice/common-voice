@@ -4,6 +4,9 @@ guidelines-header-subtitle = Common Voice veri kümesine cümle ve ses kayıtlar
 voice-collection = Ses toplama
 sentence-collection = Cümle derleme
 question-collection = Soru toplama
+scripted-speech = Yazıları Seslendirme
+spontaneous-speech = Doğaçlama Konuşma
+dont-subheader = Bunları yapmayın
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,10 @@ offensive-content-sensitive-information-explanation-explanation-3 = Birisinin ha
 example-questions-subheader = Örnek sorular
 example-questions-explanation-1 = <examplePromptsLink>Bu sayfada 120 örnek soru bulabilirsiniz.</examplePromptsLink>
 example-questions-explanation-2 = Besleme için çok sayıda soru göndermek isterseniz <githubLink>GitHub üzerinden gönderebilir</githubLink> veya listenizi <emailFragment>commonvoice@mozilla.com</emailFragment> adresine e-postayla gönderebilirsiniz.
+
+## Spontaneous Speech sidebar content
+
+answer-questions-subheader = Genel yönergeler
+transcribe-the-audio-subheader-1 = Genel yönergeler
+transcribe-the-audio-subheader-2 = Sayılar ve kısaltmalar
+transcribe-the-audio-subheader-3 = Özel etiketler

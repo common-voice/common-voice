@@ -32,8 +32,11 @@ continue-with-skipped = Atladıklarınla devam et
 question = Soru
 validate = Doğrula
 respond-to-prompt = Yanıtla
+respond-to-prompt-mobile = Yanıtla
 transcribe = Metne Çevir
 check-transcriptions = Metinleri Denetle
+check-transcriptions-mobile = İncele
+tag = Etiketle
 
 ## Not Found Page
 
