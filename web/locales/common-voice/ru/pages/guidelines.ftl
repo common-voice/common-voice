@@ -249,6 +249,13 @@ code-switching-avoid-subheader = Чего избегать
 code-switching-avoid-intro = Вопросов, которые могут:
 code-switching-avoid-1 = Запрашивать конфиденциальную информацию
 code-switching-avoid-2 = Провоцировать язык, разжигающий ненависть, или другие предвзятые или оскорбительные выражения
+code-switching-avoid-3 = Побудить поделиться чем-то конфиденциальным, потенциально вызывающим ответные действия
+code-switching-dont-header = Не
+code-switching-dont-1 = Не используйте слишком формальный язык
+# Reviewing a Question
+code-switching-review-subheader = Проверка вопроса
+code-switching-review-intro = Убедитесь, что вопрос соответствует критериям:
+code-switching-review-criterion-1 = Быть лёгким для понимания и ответа
 code-switching-review-criterion-2 = Быть в целом релевантным
 code-switching-review-criterion-3 = Не содержать и не поощрять нежелательную или оскорбительную лексику
 code-switching-review-does-not-header = И <bold>НЕ</bold> включает:
@@ -307,3 +314,22 @@ code-switching-tagging-error-intro = Если транскрипция соде�
 code-switching-tagging-error-1 = Неверная пунктуация или регистр
 code-switching-tagging-error-2 = Опечатки
 code-switching-tagging-error-3 = Слова, написанные с неправильной орфографией
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Использовать правильную орфографию для каждого языка
+code-switching-orthography-explanation = Запишите каждое слово в соответствии с орфографией языка, из которого оно выведено. Например:
+code-switching-orthography-explanation-example-1 = Если слово «kitchen» произносится как испанское, оно должно быть написано как «kitchen», а не как «quichen».
+code-switching-orthography-explanation-example-2 = Если слово quinceaños произносится как английское, напишите его через ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Используйте произношение, чтобы помочь определить язык
+code-switching-pronunciation-explanation = Некоторые слова могут выглядеть одинаково на обоих языках, но по-разному произноситься.  Слушайте произношение, чтобы помочь расставить метки правильно.  Например: кабельное телевидение, тако, актер, детектив.
+code-switching-pronunciation-explanation-example-1 = Англйский: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Испанский: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Пометка в одном токене
+code-switching-single-token-explanation = Один маркер, разделенный пробелом, должен содержать более одного помеченного интервала.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Присваивать метки пунктуации на основе близкого языка
+code-switching-punctuation-tagging-explanation = Помечайте пунктуацию, используя язык, ближайший к левому интервалу. Примеры:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>и единственный раз, когда<</purple> Мари <purple>закричала на меня,</purple> <blue>porque</blue> <purple>она пыталась</purple> распечатать <blue>не</blue> <purple>по порядку</purple>. (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>но<</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>для чего угодно.</purple> (BangorTank)
