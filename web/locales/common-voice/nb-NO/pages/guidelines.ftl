@@ -145,3 +145,32 @@ example-questions-explanation-2 = Hvis du ønsker å sende inn en rekke spørsm�
 # Answer Questions
 answer-questions = Besvar spørsmål
 answer-questions-subheader = Generell veiledning
+answer-questions-explanation-2 = Husk – ikke vær redd for å stamme, ta pauser eller gjenta et ord. Alt dette er nyttig data for ingeniører som prøver å lage inkluderende, virkelighetsnære talegjenkjenningsverktøy.
+answer-questions-tip-1 = Spill inn på et rimelig stille sted
+answer-questions-tip-2 = Velg et sted med en god internettforbindelse
+answer-questions-tip-3b = Prøv å holde svartiden på 15–30 sekunder
+answer-questions-tip-4 = Unngå hatefulle, provoserende eller på annen måte støtende ytringer
+answer-questions-tip-5 = Snakk naturlig, slik du ville gjort med en venn – bruk din egen ekte variant, dialekt og aksent.
+answer-questions-tip-6 = Hold volumet jevnt – ikke rop eller syng
+# Transcribe the Audio
+transcribe-the-audio = Transkriber lyden
+transcribe-the-audio-subheader-1 = Generell veiledning
+transcribe-the-audio-subheader-2 = Tall og forkortelser
+transcribe-the-audio-subheader-3 = Spesielle tagger
+transcribe-the-audio-subheader-4 = Ordsegmenter, falske starter, gjentatte ord
+transcribe-the-audio-subheader-5 = Grammatiske feil og muntlige uttrykk
+transcribe-the-audio-subheader-1-explanation = Generelt sett bør du skrive ned alt du hører. Dette inkluderer;
+transcribe-the-audio-subheader-1-explanation-example-1 = Skrive ned talefeil, inkludert nøling og gjentakelser
+transcribe-the-audio-subheader-1-explanation-example-2 = Merking av støyhendelser som hosting eller latter
+transcribe-the-audio-subheader-1-explanation-example-3 = Merking av betydelig støyforurensning, som bakgrunnsprat eller bilhorn
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatisk variasjon og slang skal skrives ned akkurat slik det forekommer. Ikke korriger eller rediger folks tale.
+transcribe-the-audio-subheader-2-explanation-1 = Tall og symboler skal skrives ut med bokstaver i stedet for å bruke sifre eller spesialtegn. Eksempel:
+transcribe-the-audio-subheader-2-explanation-2 = Forkortelser skal skrives som de vanligvis skrives på språket, i henhold til vanlige regler for store og små bokstaver. De skal ikke transkriberes fonetisk. Eksempel:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Riktig</correct>: Det er hundre mil unna her
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Feil</wrong>: Det er 100 mil unna her
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Riktig</correct>: Vi sees i <underline>tjuenfemten</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Feil</wrong>: Vi sees i <underline>2015</underline>
