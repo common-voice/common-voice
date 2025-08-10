@@ -163,7 +163,11 @@ transcribe-the-audio-subheader-5 = Errores grammatical e colloquialismos
 transcribe-the-audio-subheader-1-explanation = In general, tu deberea scriber omne cosa tu audi. Isto include;
 tags-table-header-1 = Tag
 tags-table-header-2 = Significato
-tags-laugh = Risada
+tags-laugh = Riso
+tags-disfluency = Dysfluencia
+tags-unclear = Poco clar
+tags-noise = Ruito
+tags-laugh-explanation = Le sono de riso.
 
 ## Review the Transcription
 
@@ -188,6 +192,7 @@ code-switching-avoid-subheader = Que evitar
 code-switching-avoid-intro = Questiones que pote:
 code-switching-avoid-3 = Causar a alcuno compartir responsas sensibile, potentialmente discatenante
 code-switching-dont-header = Non
+code-switching-dont-1 = Non usar un linguage troppo formal
 # Reviewing a Question
 code-switching-review-subheader = Revider un question
 code-switching-review-criterion-1 = Esser facile a comprender e a responder
