@@ -163,3 +163,23 @@ transcribe-the-audio-subheader-5 = Грамматические ошибки и 
 transcribe-the-audio-subheader-1-explanation = В общем, вам следует записывать всё, что вы слышите. Это включает в себя:
 transcribe-the-audio-subheader-1-explanation-example-1 = Записывать нарушения, включая неуверенность и повторы
 transcribe-the-audio-subheader-1-explanation-example-2 = Помечать шумовые события, такие как кашель или смайлик
+transcribe-the-audio-subheader-1-explanation-example-3 = Помечать заметное шумовое воздействие, например, фоновую болтовню или гудки машин
+transcribe-the-audio-subheader-1-explanation-example-4 = Грамматические вариации и сленг должны записываться в том виде, в котором они появляются. Не исправляйте и не редактируйте речь людей.
+transcribe-the-audio-subheader-2-explanation-1 = Числа и символы должны быть прописаны в словах, а не содержать цифр или специальных символов. Пример:
+transcribe-the-audio-subheader-2-explanation-2 = Акронимы должны быть написаны так, как они обычно записываются на языке, в соответствии со стандартными правилами использования заглавных букв. Они не должны транскрибироваться фонетически. Пример:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <корректное> Верно</корректное>: Это в сотне миль отсюда
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Неверно</word>: Это за 100 миль отсюда
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Верно</корректно>: Увидимся в <underline>две тысячи пятнадцатом</underline> году
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Неверно</wrong>: Увидимся в <underline>2015</underline> году
+transcribe-the-audio-subheader-2-example-3-correct = <корректно>Правильно</корректно>: Была скидка в двадцать процентов
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Неверно</wrong>: Была скидка в 20%
+transcribe-the-audio-subheader-2-example-4-correct = <корректно>Верно</корректно>: Они были задержаны <underline>ФБР</underline> в прошлый четверг
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Неверно</wrong>: Они были задержаны <underline>эф бэ эр</underline> в прошлый четверг
+transcribe-the-audio-subheader-3-explanation = Следующие специальные метки должны использоваться для пометки невербальных дополнений, наполнителей и других типов невербального содержимого (на английском языке).
+tags-table-header-1 = Метка
+tags-table-header-2 = Значение
+tags-laugh = Смех

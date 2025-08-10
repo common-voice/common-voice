@@ -4,6 +4,9 @@ guidelines-header-subtitle = Forstå hvordan du kan bidra med å validere setnin
 voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
 question-collection = Spørsmålssamling
+scripted-speech = Opplest tekst
+spontaneous-speech = Spontan tale
+dont-subheader = Ikke
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,9 @@ offensive-content-sensitive-information-explanation-explanation-3 = Spørsmål s
 example-questions-subheader = Eksempelspørsmål
 example-questions-explanation-1 = Du finner <examplePromptsLink>120 eksempelspørsmål i dette arket.</examplePromptsLink>
 example-questions-explanation-2 = Hvis du ønsker å sende inn en rekke spørsmål for inntak, <githubLink>kan du gjøre det via GitHub-en vår</githubLink> eller sende listen din på e-post til <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Besvar spørsmål
+answer-questions-subheader = Generell veiledning
