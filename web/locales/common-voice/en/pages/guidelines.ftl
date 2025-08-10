@@ -143,7 +143,7 @@ answer-questions-explanation-1 = Think for a moment about the prompt, consider w
 answer-questions-explanation-2 = Remember - don’t worry if you stutter, pause or repeat a word. This is all useful data for engineers trying to build inclusive, real-world speech recognition tools. 
 answer-questions-tip-1 = Record in a reasonably quiet place 
 answer-questions-tip-2 = Choose somewhere with a good internet connection
-answer-questions-tip-3 = Try to keep your response to 15-30 seconds
+answer-questions-tip-3b = Try to keep your response to 15-30 seconds
 answer-questions-tip-4 = Avoid hateful, inflammatory or otherwise offensive speech
 answer-questions-tip-5 = Speak naturally, as you would with a friend - use your own real variant, dialect and accent
 answer-questions-tip-6 = Keep your volume consistent - don’t shout or sing
@@ -190,7 +190,7 @@ tags-noise-explanation =
     Any other type of noise, such as the speaker coughing or clearing their throat,
     a car honking, the sound of something hitting the microphone, a phone buzzing, etc.
 # Note: do not translate any tag, like [noise] or [laugh]
-special-tags-example = And then I [noise] went on holiday.
+special-tags-example-2 = And then I [noise] went on holiday.
     Well, [noise] [laugh] it wasn’t exactly a holiday [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Spontaneous Speech naturally contains false starts where only a fragment of a full word is produced. For these instances, please transcribe to the best of your ability the word fragment and attach a hyphen at the end of the word (-) to indicate the word is a false start. Example:
 transcribe-the-audio-subheader-4-explanation-1-example = His name is <underline>Jo- Jona-</underline> Jonathan.

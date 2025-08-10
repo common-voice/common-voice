@@ -46,7 +46,7 @@ export const AnswerQuestions = ({
             <Localized id="answer-questions-tip-2">
               <li />
             </Localized>
-            <Localized id="answer-questions-tip-3">
+            <Localized id="answer-questions-tip-3b">
               <li />
             </Localized>
             <Localized id="answer-questions-tip-4">
