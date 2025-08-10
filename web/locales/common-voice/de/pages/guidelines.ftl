@@ -280,3 +280,51 @@ code-switching-answer-bullet-3 = Verwenden Sie Wörter, die Sie wirklich verwend
 code-switching-answer-bullet-4 = Es gibt keine „perfekte“ Möglichkeit für eine Antwort
 code-switching-authentic-header = Natürlich und authentisch antworten
 code-switching-authentic-speak = <bold>Sprechen Sie, wie Sie mit Freunden oder der Familie sprechen würden.</bold> Wenn Sie im wirklichen Leben Sprachen mischen, tun Sie dasselbe hier. Beispiel:
+code-switching-authentic-speak-example = „Pues, ich habe ihr gesagt, dass ich nicht kommen kann, aber sie war so: ‚Wär’ besser, wenn Du kommst!‘“
+code-switching-use-both-languages = <bold>Verwenden Sie beide Sprachen, wenn Sie es normalerweise so ausdrücken würden.</bold> Sogar das Wechseln von nur einem oder zwei Wörtern ist nützlich. Beispiel:
+code-switching-use-both-languages-example = „Sie wurde wirklich wütend, porque ich sie nicht zurückgerufen habe.“
+code-switching-authentic-direct-quotes = <bold>Fügen Sie direkte Zitate oder Dialoge ein.</bold> Sagen Sie genau, was jemand gesagt hat, keine bereinigte oder förmliche Version. Beispiel:
+code-switching-authentic-direct-quotes-example = „Mi mamá dijo, ‚Tú crees que esto es un juego?‘ und ich so: ‚Ok, mach Dich locker!‘“
+code-switching-authentic-reflect = <bold>Stellen Sie Emotionen, Identität und Kontext dar.</bold> Der Wechsel erfolgt normalerweise, wenn Personen Emotionen, Dringlichkeit oder kulturelle Ideen ausdrücken. Nutzen Sie dies, wenn Sie Fragen beantworten.
+code-switching-authentic-full-context = <bold>Verwenden Sie vollständige Antworten mit dem Kontext.</bold> Seien Sie so detailliert wie möglich und geben Sie so viele Details wie möglich an. Erzählen Sie in Ihren Antworten eine Geschichte oder ein Beispiel.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nicht zu viel nachdenken oder bearbeiten
+code-switching-answer-dont-correct-language = <bold>„Korrigieren“ Sie Ihre Sprache nicht.</bold> Dies ist kein Test. Die „richtige“ Form ist hier nicht wichtig, die natürliche Sprache schon.
+code-switching-answer-dont-avoid-switching = <bold>Sprachwechsel vermeiden, wenn Sie es normalerweise tun würden.</bold> Es ist in Ordnung, während des Satzes, des Gedankens oder nur für ein Wort zu wechseln.
+code-switching-answer-dont-formal-writing = <bold>Sprechen Sie, als würden Sie förmlich schreiben.</bold> Vermeiden Sie förmliche, akademische Antworten. Bleiben Sie bei gewohnter Konversationssprache.
+code-switching-answer-dont-force-switch = <bold>Erzwingen Sie den Wechsel, wenn es nicht natürlich ist.</bold> Wechseln Sie nur, wenn Sie in dieser Situation natürlich sprechen würden.
+code-switching-answer-dont-translate-repeat = <bold>Übersetzen oder wiederholen Sie alles.</bold> Sagen Sie es nur einmal, so wie es in einem Gespräch sein würde. Sie müssen nicht in jeder Sprache eine Version der Antwort sagen.
+# Transcribing
+code-switching-transcribe-subheader = Transkription
+code-switching-transcribe-intro = Wenn Sie Antworten transkribieren, die Sprachwechsel enthalten, stellen Sie die Sprache des Sprechers so dar, wie sie gesprochen wurde – ohne zu korrigieren, zu bearbeiten oder zu vereinfachen. Dies gilt für alle Umschaltungen zwischen Sprachen, informeller Sprache und gemischtsprachigen Wörtern.
+code-switching-transcribe-do-1 = Spielen Sie kurze Segmente mehrmals ab, um subtile Wechsel zu erkennen
+code-switching-transcribe-do-2 = Machen Sie nach jedem Satz eine Pause, um auf Wechsel oder gemischte Wörter zu achten
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Sprache genau so aufzeichnen, wie sie gesprochen wird
+code-switching-capture-explanation = Beide Sprachen transkribieren, wie sie erscheinen / klingeln. „Reparieren“ Sie die Sprache nicht oder ändern Sie sie nicht auf nur eine Sprache.
+# Include filler words and markers
+code-switching-filler-header = Füllwörter und Markierungen einschließen
+code-switching-filler-explanation = Wörter wie „ähm“, „wie“, „pues“, „Sie wissen schon“ und „entonces“ sind sinnvoll. Beispiel: „Also, äh, ich habe ihr gesagt: 'Pues no sé, vielleicht später.'“
+# Use standard spelling for each language
+code-switching-spelling-header = Standardschreibweise für jede Sprache verwenden
+code-switching-spelling-explanation = Versuchen Sie, die Wörter für jede Sprache richtig zu buchstabieren, es sei denn, der Sprecher spricht sie eindeutig auf eine nicht standardisierte Art und Weise aus.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nicht aufräumen oder die Sprache vereinfachen
+code-switching-cleanup-1 = Übersetzen oder umschreiben Sie – schreiben Sie auf, was der Sprecher gesagt hat, nicht was er „gemeint“ hat.
+code-switching-cleanup-2 = „Korrekte“ Grammatik oder Aussprache – Behalten Sie den natürlichen Gebrauch des Sprechers bei.
+code-switching-cleanup-3 = Wechsel überspringen, die unwichtig oder klein erscheinen – selbst Lehnwörter sind wichtig.
+code-switching-cleanup-4 = Satzzeichen einfügen, die die Bedeutung ändern könnten – halten Sie den Fluss natürlich.
+code-switching-cleanup-5 = Annehmen, Sie kennen die Sprache jedes Wortes – wählen Sie das Schlagwort nutzungsbasiert aus.
+# Tagging
+code-switching-tagging-subheader = Schlagwörter
+code-switching-tagging-error-intro = Wenn die Transkription einen Fehler enthält, verwenden Sie bitte die Melde-Funktion, um diesen zu melden. Mögliche Fehler sind:
+code-switching-tagging-error-1 = Fehlerhafte Zeichensetzung oder Groß-/Kleinschreibung
+code-switching-tagging-error-2 = Tippfehler
+code-switching-tagging-error-3 = Wörter mit Rechtschreibfehlern
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Die Verwendung der korrekten Rechtschreibung für jede Sprache
+code-switching-orthography-explanation = Schreiben Sie jedes Wort gemäß der Schreibweise der Sprache, aus der es stammt. Zum Beispiel:
+code-switching-orthography-explanation-example-1 = Wenn das Wort „kitchen“ wie auf Spanisch ausgesprochen wird, sollte es wie auf Englisch geschrieben werden, nicht als „quichen“.
+code-switching-orthography-explanation-example-2 = Wenn das Wort quinceaños wie im Englischen ausgesprochen wird, schreiben Sie es mit dem ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Die Aussprache zur Ermittlung der Sprache verwenden
