@@ -20,30 +20,30 @@ sc-review-form-reviewed-message =
         [one] 1 frazo kontrolita. Dankon!
        *[other] { $sentences } frazoj kontrolita. Dankon!
     }
-sc-review-form-review-failure = Ne eblis konservi la revizion. Bonvolu reprovi poste.
-sc-review-link = Revizii
+sc-review-form-review-failure = Ne eblis konservi la kontrolon. Bonvolu reprovi poste.
+sc-review-link = Kontroli
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ Kriterioj por revizio
-sc-criteria-title = Kriterioj por revizio
+sc-criteria-modal = ⓘ Kriterioj por kontrolo
+sc-criteria-title = Kriterioj por kontrolo
 sc-criteria-make-sure = Certiĝu, ke la frazo plenumas la jenajn kriteriojn:
 sc-criteria-item-1 = La frazo devas esti ĝuste literumita.
 sc-criteria-item-2 = La frazo devas esti gramatike ĝusta.
 sc-criteria-item-3 = La frazo devas esti pronocebla.
 sc-criteria-item-4 = Se la frazo plenumas la kriteriojn, alklaku la butonon &quot;Akcepti&quot; dekstre.
 sc-criteria-item-5-2 = Se la frazo ne plenumas la suprajn kriteriojn, alklaku la butonon &quot;Rifuzi&quot; maldekstre. Se vi ne certas pri la frazo, vi ankaŭ povas pretersalti ĝin kaj daŭrigi kun la sekva frazo.
-sc-criteria-item-6 = Se vi ne plu havas frazojn por revizii, bonvolu helpi nin kolekti pliajn frazojn!
+sc-criteria-item-6 = Se vi ne plu havas frazojn por kontroli, bonvolu helpi nin kolekti pliajn frazojn!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Kontrolu <icon></icon> ĉu ĉi tiu frazo estas lingve ĝusta?
 sc-review-rules-title = Ĉu la frazo plenumas la gvidliniojn?
-sc-review-empty-state = Nuntempe ne estas frazoj por revizii en ĉi tiu lingvo.
+sc-review-empty-state = Nuntempe ne estas kontrolendaj frazoj en ĉi tiu lingvo.
 report-sc-different-language = Alia lingvo
-report-sc-different-language-detail = Ĝi estas skribita en lingvo malsama ol tiu, kiun mi revizias.
+report-sc-different-language-detail = Ĝi estas skribita en lingvo malsama ol tiu, kiun mi kontrolas.
 sentences-fetch-error = Okazis eraro dum ŝargado de frazoj
-review-error = Okazis eraro dum revizio de tiu ĉi frazo
-review-error-rate-limit-exceeded = Vi laboras tro rapide. Bonvolu preni momenton por revizii la frazon por certi, ke ĝi estas ĝusta.
+review-error = Okazis eraro dum kontrolo de tiu ĉi frazo
+review-error-rate-limit-exceeded = Vi laboras tro rapide. Bonvolu preni momenton por kontroli la frazon por certi, ke ĝi estas ĝusta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ni faras kelkajn gravajn ŝanĝojn
 # menu item
-review-sentences = Revizii frazojn
+review-sentences = Kontroli frazojn
