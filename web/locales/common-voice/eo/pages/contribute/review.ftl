@@ -11,7 +11,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Vi ankaŭ povas uzi klavarajn mallongigojn: { sc-review-form-button-approve-shortcut } por akcepti, { sc-review-form-button-reject-shortcut } por rifuzi, { sc-review-form-button-skip-shortcut } por ignori
 sc-review-form-button-submit =
-    .submitText = Fini revizion
+    .submitText = Fini kontrolon
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =

@@ -1,6 +1,7 @@
 action-click = Alklaku
 action-tap = Tuŝetu
 contribute = Kontribui
+review = Kontroli
 skip = Ignori
 shortcuts = Alirklavoj
 clips-with-count-pluralized =
@@ -9,7 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> voĉregistroj
     }
 goal-help-recording = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } registra celo!
-goal-help-validation = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } revizia celo!
+goal-help-validation = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } kontrola celo!
 contribute-more =
     { $count ->
         [one] Ĉu vi pretas fari unu plian?
