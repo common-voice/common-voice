@@ -158,7 +158,6 @@ answer-questions-explanation-1 = Denken Sie einen Moment über die Aufforderung 
 answer-questions-explanation-2 = Denken Sie daran: Machen Sie sich keine Sorgen, wenn Sie stottern, eine Pause einlegen oder ein Wort wiederholen. Dies sind alles hilfreiche Daten für Entwickler, die inklusive Werkzeuge zur Spracherkennung in der realen Welt entwickeln möchten.
 answer-questions-tip-1 = An einem einigermaßen leisen Ort aufnehmen
 answer-questions-tip-2 = Wählen Sie einen Ort mit einer guten Internetverbindung
-answer-questions-tip-3 = Beschränken Sie Ihre Antwort auf 15 Sekunden
 answer-questions-tip-4 = Vermeiden Sie hasserfüllte, aufhetzende oder anderweitig beleidigende Sprache
 answer-questions-tip-5 = Sprechen Sie natürlich, wie Sie es mit einem Freund tun würden – verwenden Sie Ihre eigene Variante, Ihren Dialekt und Ihren Akzent
 answer-questions-tip-6 = Achten Sie auf eine gleichbleibende Lautstärke – schreien oder singen Sie nicht
@@ -203,9 +202,6 @@ tags-unclear-explanation = Ein Wort oder eine Folge von Wörtern, die nicht vers
 tags-noise-explanation =
     Jede andere Art von Geräusch, wie Husten oder sich räuspern,
     ein hupendes Auto, etwas, das auf das Mikrofon trifft, ein Telefon, das summt usw.
-special-tags-example =
-    Und dann bin ich [Geräusch] in Urlaub gefahren.
-    Nun, [Geräusch] [Lachen] es war nicht gerade ein Feiertag [Lachen]
 transcribe-the-audio-subheader-4-explanation-1 = Spontane Sprache enthält von Natur aus Fehlstarts, wo nur ein Fragment eines vollständigen Worts erzeugt wird. Für diese Fälle transkribieren Sie bitte das Wortfragment nach bestem Wissen und Gewissen und fügen Sie einen Bindestrich an das Ende des Wortes (-) an, um anzuzeigen, dass das Wort ein Fehlanfang ist. Beispiel:
 transcribe-the-audio-subheader-4-explanation-1-example = Sein Name ist <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Manchmal werden Sprecher ein Wort oder Wortfragment mehrmals wiederholen. Dies sollte auch transkribiert werden. Beispiel:
