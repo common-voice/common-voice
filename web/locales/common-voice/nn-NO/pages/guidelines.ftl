@@ -171,6 +171,8 @@ transcribe-the-audio-subheader-2-explanation-2 = Forkortingar skal skrivast som 
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Rett</correct>: Det er hundre mil unna her
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Feil</wrong>: Det er 100 mil unna her
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Rett</correct>: Vi sjåast i <underline>tjuefemten</underline>
 tags-table-header-1 = Etikett
 tags-table-header-2 = Meining
 tags-laugh = Latter
