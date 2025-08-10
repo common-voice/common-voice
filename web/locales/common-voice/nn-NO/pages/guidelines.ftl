@@ -163,9 +163,15 @@ transcribe-the-audio-subheader-1-explanation = Generelt sett bør du skrive ned 
 transcribe-the-audio-subheader-1-explanation-example-1 = Skrive ned talefeil, inkludert nøling og gjentakingar
 tags-table-header-1 = Etikett
 tags-table-header-2 = Meining
+tags-laugh = Latter
+tags-disfluency = Talefeil
 tags-unclear = UKlar
 tags-noise = Støy
 tags-laugh-explanation = Lyden av latter.
+tags-disfluency-explanation =
+    Eit utfyllingsord eller -lyd som blir brukt som ein mellombels plasshaldar medan talaren bestemmer seg for kva han eller ho skal seie.
+    På norsk er nokre vanlege nølingslydar «øh», «eh», «ehm», «ah» osb.
+tags-unclear-explanation = Eit ord eller ei ordrekkjefølgje som ikkje kan forståast.
 
 ## Code-Switching
 
