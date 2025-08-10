@@ -189,3 +189,4 @@ tags-disfluency-explanation =
     Et utfyllingsord eller -lyd som brukes som en midlertidig plassholder mens taleren bestemmer seg for hva han eller hun skal si.
     På norsk er noen vanlige nølingslyder «øh», «eh», «ehm», «ah» osv.
 tags-unclear-explanation = Et ord eller en ordrekkefølge som ikke kan forstås.
+tags-noise-explanation = Enhver annen type støy, som for eksempel at den som snakker hoster eller kremter, en bil som tuter, lyden av noe som treffer mikrofonen, en telefon som summer osv.
