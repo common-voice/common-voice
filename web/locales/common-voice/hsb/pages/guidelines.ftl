@@ -4,6 +4,9 @@ guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Vo
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
 question-collection = Zběrka prašenjow
+scripted-speech = Rěčenje ze skriptom
+spontaneous-speech = Spontane rěčenje
+dont-subheader = Špatne
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,18 @@ offensive-content-sensitive-information-explanation-explanation-3 = Prašenja, k
 example-questions-subheader = Přikładowe prašenja
 example-questions-explanation-1 = Móžeće <examplePromptsLink>120 přikładowych prašenjow w tutej tabeli namakać.</examplePromptsLink>
 example-questions-explanation-2 = Jeli chceće rjad prašenjow za zapřijeće zapodać, <githubLink>móžeće to přez GitHub činić</githubLink> abo swoju lisćinu z e-mejlu na <emailFragment>commonvoice@mozilla.com</emailFragment> słać.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Wotmołwće na prašenja
+answer-questions-subheader = Powšitkowne pokazki
+# Transcribe the Audio
+transcribe-the-audio = Awdijo transkribować
+transcribe-the-audio-subheader-1 = Powšitkowne pokazki
+transcribe-the-audio-subheader-2 = Ličby a akronymy
+transcribe-the-audio-subheader-3 = Wosebite znački
+transcribe-the-audio-subheader-4 = Słowne segmenty, wopačne spočatki, wospjetowane słowa
+tags-table-header-1 = Značka
+tags-table-header-2 = Woznam
+tags-laugh = Smjeće

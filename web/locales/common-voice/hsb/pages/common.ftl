@@ -208,6 +208,7 @@ lv = Letišćina
 lzz = Lazišćina
 mai = Majtilišćina
 mau = Mazatekšćina Huautla
+mbf = Baba Malay
 mbo = Mbo
 mcf = Matses
 mcn = Massa
