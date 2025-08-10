@@ -144,5 +144,12 @@ example-questions-explanation-2 = Si tu amarea inviar un serie de questiones a i
 
 # Answer Questions
 answer-questions = Responder a questiones
+answer-questions-tip-1 = Registra in un loco rationabilemente quiete
+answer-questions-tip-2 = Elige un position con un bon connexion a internet
 answer-questions-tip-3b = Tenta mantener tu responsa in 15-30 secundas
 answer-questions-tip-4 = Evita un linguage odiose, incendiari o comocunque offensive.
+answer-questions-tip-5 = Parla naturalmente, como tu facerea con un amico, usa tu proprie real variante, dialecto e accento
+answer-questions-tip-6 = Mantene un volumine costante, sin critar o cantar.
+# Transcribe the Audio
+transcribe-the-audio = Transcriber le audio
+tags-table-header-1 = Tag
