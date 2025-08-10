@@ -229,9 +229,6 @@ export const ANSWER_QUESTIONS_ITEMS = [
   {
     label: 'answer-questions-subheader',
   },
-  {
-    label: 'answer-questions-explanation',
-  },
 ]
 
 export const TRANSCRIBE_AUDIO_ITEMS = [
@@ -249,6 +246,18 @@ export const TRANSCRIBE_AUDIO_ITEMS = [
   },
   {
     label: 'transcribe-the-audio-subheader-5',
+  },
+]
+
+export const REVIEW_THE_TRANSCRIPTION_ITEMS = [
+  {
+    label: 'review-the-transcription-subheader',
+  },
+]
+
+export const REPORTING_CONTENT_ITEMS = [
+  {
+    label: 'reporting-content-subheader',
   },
 ]
 
