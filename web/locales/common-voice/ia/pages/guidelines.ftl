@@ -153,3 +153,7 @@ answer-questions-tip-6 = Mantene un volumine costante, sin critar o cantar.
 # Transcribe the Audio
 transcribe-the-audio = Transcriber le audio
 tags-table-header-1 = Tag
+
+## Review the Transcription
+
+review-the-transcription-subheader = Guida general

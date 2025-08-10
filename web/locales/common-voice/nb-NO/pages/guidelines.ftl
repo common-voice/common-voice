@@ -190,3 +190,37 @@ tags-disfluency-explanation =
     På norsk er noen vanlige nølingslyder «øh», «eh», «ehm», «ah» osv.
 tags-unclear-explanation = Et ord eller en ordrekkefølge som ikke kan forstås.
 tags-noise-explanation = Enhver annen type støy, som for eksempel at den som snakker hoster eller kremter, en bil som tuter, lyden av noe som treffer mikrofonen, en telefon som summer osv.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Og så dro jeg [støy] på ferie.
+    Vel, [støy] [latter] det var ikke akkurat en ferie [latter]
+transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneholder naturlig nok falske starter, der bare en del av et ord blir uttalt. I slike tilfeller, prøv å transkribere ordfragmentet så godt du kan, og legg til en bindestrek (-) på slutten av ordet for å indikere at det er en falsk start. Eksempel:
+transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et ord eller et ordfragment flere ganger. Dette skal også transkriberes. Eksempel:
+
+## Code-Switching
+
+code-switching-informal-scenarios-header = Utforsk uformelle situasjoner
+code-switching-informal-scenarios-explanation-example = «Hva er en vits vennene dine alltid drar — og hvordan sier de den?»
+# What to Avoid
+code-switching-avoid-subheader = Hva du bør unngå
+code-switching-avoid-intro = Spørsmål som kan være:
+code-switching-avoid-1 = Be om personlig identifiserbar informasjon
+code-switching-avoid-2 = Oppfordre til hatefulle ytringer eller andre partiske eller støtende følelser
+code-switching-avoid-3 = Få noen til å dele sensitive, potensielt utløsende reaksjoner
+code-switching-dont-header = Ikke
+code-switching-dont-1 = Ikke bruk for formelt språk
+# Reviewing a Question
+code-switching-review-subheader = Gjennomgang av et spørsmål
+code-switching-review-intro = Sørg for at spørsmålet oppfyller kriteriene:
+code-switching-review-criterion-1 = Vær lett å forstå og svare på
+code-switching-review-criterion-2 = Vær generelt relevant
+code-switching-review-criterion-3 = Ikke bruk eller oppfordre til skadelig eller støtende språk
+code-switching-review-does-not-header = Og <bold>INKLUDERER IKKE</bold>:
+code-switching-review-offensive-content = <bold>Støtende innhold eller sensitiv informasjon</bold>
+code-switching-answer-header = Støtende innhold eller sensitiv informasjon
+code-switching-review-no-1 = Spørsmål som kan be om personlig identifiserbar informasjon
+code-switching-review-no-2 = Spørsmål som kan oppfordre til hatefulle ytringer eller andre partiske eller støtende følelser
+code-switching-review-no-3 = Spørsmål som kan føre til at noen deler sensitive, potensielt utløsende svar
+# Answering a Question
+code-switching-answer-subheader = Svare på et spørsmål

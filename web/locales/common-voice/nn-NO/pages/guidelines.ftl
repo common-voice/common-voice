@@ -145,6 +145,7 @@ example-questions-explanation-2 = Om du ønskjer å sende inn ei rekkje spørsm�
 # Answer Questions
 answer-questions = Svar på spørsmål
 answer-questions-subheader = Generell rettleiing
+answer-questions-explanation-2 = Hugs – ikkje ver redd for å stamme, ta pausar eller gjenta eit ord. Alt dette er nyttige data for ingeniørar som prøver å lage inkluderande, røyndomsnære talegjenkjenningsverktøy.
 tags-table-header-1 = Etikett
 tags-table-header-2 = Meining
 tags-unclear = UKlar
