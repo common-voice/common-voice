@@ -11,9 +11,13 @@ cs-locale-change-modal-subtitle = У вас есть несохранённые 
 ## Question Page Items
 
 cs-question-page-instruction = Добавьте до 25 вопросов <icon></icon> в набор данных { $currentLocale }, чтобы люди могли ответить
+cs-add-question-textarea-placeholder = Вводите вопросы с переключением кода, по одному в строке. Люди с большей вероятностью ответят с переключением кода, если вопрос также содержит переключение кода.
+cs-question-dataset-name = Набор данных: { $datasetName }
 
 ## Validate Page Items
 
+cs-validate-page-instruction = Убедитесь <validateIcon></validateIcon>, что этот вопрос соответствует требованиям.
+cs-no-questions-continue-skipped = Для этого набора данных больше нет вопросов. Если вы пропустили что-либо, вы можете продолжить с пропущенным содержимым или перейти к расшифровке аудио и попробовать ещё раз позже.
 cs-add-vote-error-message = При голосовании за вопрос произошла ошибка
 
 ## Transcribe Page Items

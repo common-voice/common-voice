@@ -4,6 +4,9 @@ guidelines-header-subtitle = Saper como collaborar e validar phrases e registrat
 voice-collection = Collection de voces
 sentence-collection = Collection de phrases
 question-collection = Collection de questiones
+scripted-speech = Parla con texto scribite
+spontaneous-speech = Discurso spontanee
+dont-subheader = No
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,9 @@ offensive-content-sensitive-information-explanation-explanation-3 = Questiones q
 example-questions-subheader = Questiones de exemplo
 example-questions-explanation-1 = Tu pote trovar
 example-questions-explanation-2 = Si tu amarea inviar un serie de questiones a inserer, tu <githubLink>pote facer lo via nostre GitHub</githubLink> o inviar tu lista per email a <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Responder a questiones
+answer-questions-tip-4 = Evita un linguage odiose, incendiari o comocunque offensive.
