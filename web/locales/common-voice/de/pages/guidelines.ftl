@@ -155,3 +155,26 @@ example-questions-explanation-2 = Wenn Sie eine Tranche von Fragen zur Aufnahme 
 # Answer Questions
 answer-questions = Beantworten Sie Fragen
 answer-questions-explanation-1 = Denken Sie einen Moment über die Aufforderung nach, überlegen Sie, was Sie sagen möchten, aber schreiben Sie sich nicht zu viel. Klicken Sie auf das Aufnahme-Symbol. Sobald Sie aufgenommen haben, können Sie sich selbst anhören, erneut aufnehmen, löschen oder absenden.
+answer-questions-explanation-2 = Denken Sie daran: Machen Sie sich keine Sorgen, wenn Sie stottern, eine Pause einlegen oder ein Wort wiederholen. Dies sind alles hilfreiche Daten für Entwickler, die inklusive Werkzeuge zur Spracherkennung in der realen Welt entwickeln möchten.
+answer-questions-tip-1 = An einem einigermaßen leisen Ort aufnehmen
+answer-questions-tip-2 = Wählen Sie einen Ort mit einer guten Internetverbindung
+answer-questions-tip-3 = Beschränken Sie Ihre Antwort auf 15 Sekunden
+answer-questions-tip-4 = Vermeiden Sie hasserfüllte, aufhetzende oder anderweitig beleidigende Sprache
+answer-questions-tip-5 = Sprechen Sie natürlich, wie Sie es mit einem Freund tun würden – verwenden Sie Ihre eigene Variante, Ihren Dialekt und Ihren Akzent
+answer-questions-tip-6 = Achten Sie auf eine gleichbleibende Lautstärke – schreien oder singen Sie nicht
+# Transcribe the Audio
+transcribe-the-audio = Die Audiodatei transkribieren
+transcribe-the-audio-subheader-1 = Allgemeine Hinweise
+transcribe-the-audio-subheader-2 = Zahlen und Akronyme
+transcribe-the-audio-subheader-3 = Besondere Schlagwörter
+transcribe-the-audio-subheader-4 = Wortsegmente, Fehlstart, Wortwiederholung
+transcribe-the-audio-subheader-5 = Grammatikfehler und umgangssprachliche Ausdrücke
+transcribe-the-audio-subheader-1-explanation = Im Allgemeinen sollten Sie alles aufschreiben, was Sie hören. Dies schließt ein:
+transcribe-the-audio-subheader-1-explanation-example-1 = Aufschreiben von Ungenauigkeiten, einschließlich Zögern und Wiederholungen
+transcribe-the-audio-subheader-1-explanation-example-2 = Kennzeichnen von Geräusche wie Husten oder Lachen
+transcribe-the-audio-subheader-1-explanation-example-3 = Markieren von erheblicher Geräuschbelästigung wie Hintergrundgesprächen oder Autohupen
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatikalisierung und Slang sollten genau so aufgezeichnet werden, wie sie vorkommen. Korrigieren oder bearbeiten Sie keine Reden von Personen.
+transcribe-the-audio-subheader-2-explanation-1 = Zahlen und Symbole sollten in Wörtern geschrieben werden, und nicht aus Ziffern oder Sonderzeichen. Beispiel:
+transcribe-the-audio-subheader-2-explanation-2 = Akronyme sollten so geschrieben werden, wie sie in der Sprache normalerweise geschrieben werden, nach den Standardregeln für die Groß-/Kleinschreibung. Sie sollten nicht phonetisch transkribiert werden. Beispiel:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <korrekt> Richtig</korrekt>: Es sind noch einhundert Kilometer von hier
