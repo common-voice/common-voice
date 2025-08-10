@@ -30,6 +30,12 @@ export const ReportingContent = ({
 
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
+          <Localized id="reporting-content-subheader">
+            <h2
+              className="guidelines-content-subheader"
+              id="reporting-content-subheader"
+            />
+          </Localized>
           <Localized id="reporting-content-explanation-1">
             <p className="guidelines-content-explanation" />
           </Localized>

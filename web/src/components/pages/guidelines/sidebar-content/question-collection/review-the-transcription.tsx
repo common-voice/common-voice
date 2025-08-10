@@ -29,6 +29,12 @@ export const ReviewTheTranscription = ({
       </div>
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
+          <Localized id="review-the-transcription-subheader">
+            <h2
+              className="guidelines-content-subheader"
+              id="review-the-transcription-subheader"
+            />
+          </Localized>
           <Localized id="review-the-transcription-explanation-1">
             <p className="guidelines-content-explanation" />
           </Localized>
