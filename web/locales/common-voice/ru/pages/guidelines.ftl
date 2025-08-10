@@ -249,3 +249,16 @@ code-switching-filler-explanation = Такие слова, как «гм», «т
 # Use standard spelling for each language
 code-switching-spelling-header = Используйте стандартную орфографию для каждого языка
 code-switching-spelling-explanation = Старайтесь правильно писать слова для каждого языка, если только говорящий не произносит их явно нестандартным образом.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Не очищайте и не упрощайте язык
+code-switching-cleanup-1 = Переводить или перефразировать — пишите, что сказал говорящий, а не то, что он «имеет в виду».
+code-switching-cleanup-2 = «Правильная» грамматика или произношение — сохраняйте естественный язык.
+code-switching-cleanup-3 = Пропускать переключения, которые кажутся второстепенными или маленькими — даже заимствованные слова имеют значение.
+code-switching-cleanup-4 = Вставлять знаки препинания, которые могут изменить значение текста — будьте естественными.
+code-switching-cleanup-5 = Предположим, что вы знаете язык каждого слова — отмечайте на основе использования.
+# Tagging
+code-switching-tagging-subheader = Присвоение меток
+code-switching-tagging-error-intro = Если транскрипция содержит ошибку, пожалуйста, используйте функцию сообщения, чтобы отметить её. Потенциальные ошибки включают в себя:
+code-switching-tagging-error-1 = Неверная пунктуация или регистр
+code-switching-tagging-error-2 = Опечатки
+code-switching-tagging-error-3 = Слова, написанные с неправильной орфографией

@@ -342,4 +342,30 @@ code-switching-punctuation-tagging-header = Interpunktion basierend auf Sprache 
 code-switching-punctuation-tagging-explanation = Interpunktion mit der Sprache, die am nächsten zur linken Seite liegt mit Schlagwörtern versehen. Beispiele:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>und das einzige Mal, dass</purple> Maria <purple>mich anschrie, war</purple> <blue>porque</blue> <purple>sie wollte</purple> printear<blue>un</blue> <purple>Bestellung.</purple> (BangorTalk)
-code-switching-punctuation-tagging-explanation-example-2 = <purple>aber</purple> <blue>vor allem in rojo, schwarz, azul</blue>, <purple>was auch immer</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>aber</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>was auch immer</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Seien Sie vorsichtig mit ähnlich aussehenden Wörtern
+code-switching-lookalikes-explanation = Einige Wörter sehen aus wie eine Sprache, werden aber in der anderen verwendet. Schlagwörter basieren auf Bedeutung und Verwendung, nicht auf Aussehen. Beispiele:
+code-switching-lookalikes-explanation-example-1 = „Footing“ bedeuteten bisher Laufen auf Spanisch > Als Schlagwort wird Spanisch vergeben
+code-switching-lookalikes-explanation-example-2 = „No Problemo“ wird auf Englisch verwendet > Als Schlagwort wird Englisch vergeben
+# When Not to Tag Words
+code-switching-not-tag-header = Wann Wörter nicht mit Schlagwörtern versehen werden sollten
+code-switching-not-tag-explanation = Einige Wörter sollten <bold>keine Sprachbeschriftung als Schlagwort erhalten</bold>, auch wenn sie gemischt oder angepasst erscheinen. Hier einige Beispiele:
+code-switching-not-tag-proper-names = <bold>Eigennamen.</bold> Namen von Personen, Orten und Organisationen sollten nicht mit Schlagwörtern versehen werden. Beispiele:
+code-switching-not-tag-proper-names-example-1 = Personen: Maria, John
+code-switching-not-tag-proper-names-example-2 = Orte: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marken/Organisationen: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Gemischte oder strukturell angepasste Wörter.</bold> Wörter, die Sprachen vermischen oder die Endungen aus einer anderen Sprache haben, erhalten keine Schlagwörter. Beispiele:
+code-switching-not-tag-mixed-words-example = Eine Wurzel ist Englisch, die Endung ist Spanisch: „parkear“, „printearlo“
+code-switching-not-tag-interjections = <bold>Interjektionen.</bold> Interjektionen und Füllwörter sollten unabhängig von der Sprache <bold>ohne Schlagwort</bold> bleiben. Beispiele:
+code-switching-not-tag-interjections-example-1 = „Äh“
+code-switching-not-tag-interjections-example-2 = „Nein“
+code-switching-not-tag-interjections-example-3 = „Ja“
+code-switching-not-tag-interjections-example-4 = „Ähm“
+
+## Reporting Content
+
+reporting-content = Inhalte melden
+reporting-content-subheader = Allgemeine Hinweise
+reporting-content-explanation-1 = Sie müssen Inhalte melden, die anstößig, schädlich oder anderweitig besorgniserregend sind. Die Inhalte dürfen auch keine personenbezogenen Daten wie Telefonnummern oder Adressen enthalten. Sie werden aus Ihrer Umgebung entfernt, bis das Common-Voice-Team sie überprüft und weitere Untersuchungen vorgenommen hat.
+reporting-content-explanation-2 = Um Inhalte zu melden, klicken Sie auf die Schaltfläche „Melden“ und wählen Sie eine oder alle Optionen: Anstößiger Inhalt, andere Sprache, personenbezogene Daten, Sonstiges.  Geben Sie hier weitere Details dazu an, warum Sie den Inhalt im Textfeld melden.  Übermitteln Sie dann den Bericht, indem Sie auf die Schaltfläche „Melden“ klicken.
