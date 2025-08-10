@@ -219,6 +219,36 @@ code-switching = Переключение кода
 adding-a-question = Добавление вопроса
 # Adding a Question
 code-switching-adding-question-subheader = Каким должен быть хороший вопрос?
+code-switching-adding-question-explanation = Хороший вопрос для наборов данных с публичным участием:
+code-switching-adding-question-criteria-1 = Быть лёгким для понимания и ответа
+code-switching-adding-question-criteria-2 = Быть релевантным
+code-switching-adding-question-criteria-3 = Не содержать и не поощрять нежелательную или оскорбительную лексику
+code-switching-adding-question-note = Также стоит учитывать разнообразие контекстов и тематик.
+# What types of questions to add
+code-switching-types-subheader = Какие типы вопросов добавить?
+code-switching-use-bilingual-prompts-header = Использовать билингвальные запросы
+code-switching-use-bilingual-prompts-explanation = Используйте двухязычные запросы, включающие в ваш вопрос оба языка: Пример:
+code-switching-use-bilingual-prompts-explanation-example = «Що ти сказала своїй мамі, когда вы вернулись в тот день домой?»
+code-switching-ask-bilingual-contexts-header = Спрашивать о билингвальных контекстах
+code-switching-ask-bilingual-contexts-explanation = Используйте ситуации, в которых обычно используются оба языка (например, дома, в школе, на мероприятиях сообщества). Пример:
+code-switching-ask-bilingual-contexts-explanation-example = «Когда вы разговариваете со своими кузенами, вы смешиваете украинский и русский языки?»
+code-switching-focus-emotional-header = Сосредоточьтесь на волнующих вас моментах
+code-switching-focus-emotional-explanation = Люди часто переключаются между кодами, когда выражают эмоции или срочность. Пример:
+code-switching-focus-emotional-explanation-example = «Расскажите мне, что сказали родители, когда вы сообщили им большие новости — именно так, как они это сказали».
+code-switching-direct-quotes-header = Попросите прямые цитаты или реконструкции
+code-switching-direct-quotes-explanation = Попросите участников воспроизвести то, что было сказано на самом деле. Пример:
+code-switching-direct-quotes-explanation-example = «Что точно вы сказали, когда узнали?»
+code-switching-cultural-topics-header = Выбирайте темы с учетом культурной специфики
+code-switching-cultural-topics-explanation = Еда, обычаи, праздники и семейная динамика часто побуждают к смене кода.
+code-switching-cultural-topics-explanation-example = «Как бы вы описали Диа-де-лос-Муэртос тому, кто говорит только по-английски?»
+code-switching-informal-scenarios-header = Исследуйте неформальные сценарии
+code-switching-informal-scenarios-explanation = Разговоры с друзьями или отправка текстовых сообщений часто включают в себя более естественный переход. Пример:
+code-switching-informal-scenarios-explanation-example = «Какую ерунду всегда отчебучивают ваши друзья — и как они об этом говорят?»
+# What to Avoid
+code-switching-avoid-subheader = Чего избегать
+code-switching-avoid-intro = Вопросов, которые могут:
+code-switching-avoid-1 = Запрашивать конфиденциальную информацию
+code-switching-avoid-2 = Провоцировать язык, разжигающий ненависть, или другие предвзятые или оскорбительные выражения
 code-switching-review-criterion-2 = Быть в целом релевантным
 code-switching-review-criterion-3 = Не содержать и не поощрять нежелательную или оскорбительную лексику
 code-switching-review-does-not-header = И <bold>НЕ</bold> включает:
