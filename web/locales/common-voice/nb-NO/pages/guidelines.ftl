@@ -145,7 +145,7 @@ example-questions-explanation-2 = Hvis du ønsker å sende inn en rekke spørsm�
 # Answer Questions
 answer-questions = Besvar spørsmål
 answer-questions-subheader = Generell veiledning
-answer-questions-explanation-2 = Husk – ikke vær redd for å stamme, ta pauser eller gjenta et ord. Alt dette er nyttig data for ingeniører som prøver å lage inkluderende, virkelighetsnære talegjenkjenningsverktøy.
+answer-questions-explanation-2 = Husk – ikke vær redd for å stamme, ta pauser eller gjenta et ord. Alt dette er nyttige data for ingeniører som prøver å lage inkluderende, virkelighetsnære talegjenkjenningsverktøy.
 answer-questions-tip-1 = Spill inn på et rimelig stille sted
 answer-questions-tip-2 = Velg et sted med en god internettforbindelse
 answer-questions-tip-3b = Prøv å holde svartiden på 15–30 sekunder
@@ -224,3 +224,12 @@ code-switching-review-no-2 = Spørsmål som kan oppfordre til hatefulle ytringer
 code-switching-review-no-3 = Spørsmål som kan føre til at noen deler sensitive, potensielt utløsende svar
 # Answering a Question
 code-switching-answer-subheader = Svare på et spørsmål
+code-switching-answer-intro = Når du svarer på et spørsmål, er målet å svare naturlig – akkurat som du ville gjort i en ekte samtale. Vi ønsker å fange hvordan språk faktisk blandes i dagligtalen.
+code-switching-answer-bullet-1 = Tenk på øyeblikk eller situasjoner fra virkeligheten: vitser, krangler, tradisjoner
+code-switching-answer-bullet-2 = Tenk deg at du sender en tekstmelding til en venn eller forteller noen en historie
+code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, selv om de er lånte eller blandet
+code-switching-answer-bullet-4 = Det finnes ingen «perfekt» måte å svare på
+code-switching-authentic-header = Svar naturlig og autentisk
+code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Hvis du blander språk i det virkelige liv, gjør det samme her. Eksempel:
+code-switching-not-tag-proper-names-example-1 = Personer: Maria, John
+code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida

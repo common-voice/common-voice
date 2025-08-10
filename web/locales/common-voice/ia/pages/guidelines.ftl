@@ -157,3 +157,33 @@ tags-table-header-1 = Tag
 ## Review the Transcription
 
 review-the-transcription-subheader = Guida general
+
+## Code-Switching
+
+adding-a-question = Adder un question
+# Adding a Question
+code-switching-adding-question-subheader = Que rende bon un question?
+code-switching-adding-question-explanation = Un bon question pro le participation public a collectiones de datos deberea:
+code-switching-adding-question-criteria-1 = Esser facile a comprender e a responder
+code-switching-adding-question-criteria-2 = Esser generalmente pertinente
+code-switching-adding-question-criteria-3 = Non usar, o sollicitar, linguage malefic o offensive
+code-switching-adding-question-note = Tu poterea alsi considerar de extender lo a differente contextos e dominios.
+# What types of questions to add
+code-switching-types-subheader = Que typos de questiones adder?
+# What to Avoid
+code-switching-avoid-subheader = Que evitar
+code-switching-avoid-intro = Questiones que pote:
+code-switching-avoid-3 = Causar a alcuno compartir responsas sensibile, potentialmente discatenante
+code-switching-dont-header = Non
+code-switching-review-criterion-1 = Esser facile a comprender e a responder
+code-switching-review-criterion-2 = Esser generalmente pertinente
+code-switching-review-criterion-3 = Non usar, o sollicitar, linguage malefic o offensive
+code-switching-review-does-not-header = E <bold>NON</bold> includer:
+code-switching-review-offensive-content = <bold>Contento offensive o datos sensibile</bold>
+code-switching-answer-header = Contento offensive o datos sensibile
+code-switching-review-no-1 = Questiones que poterea sollicitar informationes de identification personal
+code-switching-review-no-2 = Questiones que poterea sollicitar incitamento al odio o altere sentimentos prevenite o offensive
+code-switching-review-no-3 = Questiones que pote causar a alcuno de compartir responsas sensibile, potentialmente discatenante
+# Answering a Question
+code-switching-answer-subheader = Responder a un question
+code-switching-not-tag-interjections-example-2 = “No”
