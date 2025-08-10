@@ -144,10 +144,12 @@ example-questions-explanation-2 = Om du vill skicka in en del frågor för inmat
 
 # Answer Questions
 answer-questions = Svara på frågor
+answer-questions-subheader = Allmän vägledning
 answer-questions-explanation-1 = Tänk ett ögonblick på uppmaningen, överväg vad du vill säga, men skriv inte för mycket. Klicka på ikonen ‘inspelning’. När du har spelat in kan du lyssna på dig själv, spela in igen, radera eller skicka in.
 answer-questions-explanation-2 = Kom ihåg - oroa dig inte om du stammar, pausar eller upprepar ett ord. Det här är användbar data för ingenjörer som försöker bygga inklusive, verkliga taligenkänningsverktyg.
 answer-questions-tip-1 = Spela in på en någorlunda tyst plats
 answer-questions-tip-2 = Välj någonstans med en bra internetanslutning
+answer-questions-tip-3b = Försök att hålla ditt svar inom 15-30 sekunder
 answer-questions-tip-4 = Undvik hatiskt, upphetsande eller på annat sätt kränkande tal
 answer-questions-tip-5 = Tala naturligt, som du skulle med en vän - använd din egen riktiga variant, dialekt och accent
 answer-questions-tip-6 = Håll din volym konsekvent - skrika eller sjung inte
@@ -188,6 +190,8 @@ tags-laugh-explanation = Ljudet av skratt.
 tags-disfluency-explanation = Ett utfyllnadsord eller ljud som används som en platshållare medan en talare bestämmer vad den ska säga. På engelska är några vanliga tvekan ljud "err", "um", "huh" etc.
 tags-unclear-explanation = Ett ord eller en sekvens av ord som inte kan förstås.
 tags-noise-explanation = Alla andra typer av ljud, till exempel hostning av högtalaren eller harklar sig, en bil som tutar, ljudet av något som slår i mikrofonen, en surrande telefon etc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 = Och sedan åkte I [noise] på semester. Tja, [noise] [skratt] det var inte precis en semester [skratt]
 transcribe-the-audio-subheader-4-explanation-1 = Spontant tal innehåller naturligtvis felstarter där endast en del av ett helt ord produceras. I dessa fall, vänligen transkribera efter din förmåga ordfragmentet och bifoga ett bindestreck i slutet av ordet (-) för att indikera att ordet är en falsk start. Exempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Ibland upprepar högtalarna ett ord eller ordfragment flera gånger. Detta bör också transkriberas. Exempel:
@@ -198,6 +202,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Talare kan använda vardagar (t
 ## Review the Transcription
 
 review-the-transcription = Granska transkriptionen
+review-the-transcription-subheader = Allmän vägledning
 review-the-transcription-explanation-1 = Generellt sett rekommenderar vi att den som kontrollerar transkriptionen inte bör vara samma person som gjorde den ursprungliga transkriptionen. Det är väldigt svårt att kontrollera sitt eget arbete! Att ha flera granskningsrader kan hjälpa till att göra kvalitetssäkringen mer robust och hjälpa till att mildra partitioner och problem.
 review-the-transcription-explanation-2 = Granska riktlinjerna för transkription ovan för att kontrollera att en transkription är korrekt. Du kan tillhandahålla redigeringar och skicka in dem.
 review-the-transcription-explanation-3 = Återigen, kan du flagga innehåll som är stötande, skadligt eller på annat sätt oroande och det kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska det och undersöka ytterligare.
@@ -345,5 +350,6 @@ code-switching-not-tag-interjections-example-4 = "Eh"
 ## Reporting Content
 
 reporting-content = Rapportera innehåll
+reporting-content-subheader = Allmän vägledning
 reporting-content-explanation-1 = Du måste flagga innehåll som är stötande, skadligt eller på annat sätt oroande. Den får inte heller innehålla någon personligt identifierande information som telefonnummer eller adresser. Den kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska den och undersöka ytterligare.
 reporting-content-explanation-2 = För att rapportera innehåll, välj knappen "Rapportera" och välj ett eller alla alternativ: Kränkande innehåll, Annat språk, Personligt identifierbar information, Annat.  Härifrån ger du mer information om varför du rapporterar innehållet i textområdet.  Skicka sedan rapporten genom att klicka på knappen Rapportera.
