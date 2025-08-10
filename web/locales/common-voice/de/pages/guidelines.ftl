@@ -178,3 +178,72 @@ transcribe-the-audio-subheader-2-explanation-1 = Zahlen und Symbole sollten in W
 transcribe-the-audio-subheader-2-explanation-2 = Akronyme sollten so geschrieben werden, wie sie in der Sprache normalerweise geschrieben werden, nach den Standardregeln für die Groß-/Kleinschreibung. Sie sollten nicht phonetisch transkribiert werden. Beispiel:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <korrekt> Richtig</korrekt>: Es sind noch einhundert Kilometer von hier
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Falsch</wrong>: Es sind noch 100 Kilometer von hier
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <korrekt> Richtig</korrekt>: Wir sehen uns im Jahr <underline>Zweitausendfünfzehn</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Falsch</wrong>: Wir sehen uns im Jahr <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <korrekt>Korrekt</korrekt>: Es gab zwanzig Prozent Rabatt
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Falsch</wrong>: Es gab 20 % Rabatt
+transcribe-the-audio-subheader-2-example-4-correct = <korrekt>Korrekt</korrekt>: Sie wurden am letzten Donnerstag vom <underline>BKA</underline> festgenommen
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Falsch</wrong>: Sie wurden am letzten Donnerstag vom <underline>Bee-Kaa-Aaa</underline> festgenommen
+transcribe-the-audio-subheader-3-explanation = Die folgenden speziellen Schlagwörter sollten verwendet werden, um störende Elemente, Füllwörter und andere Arten von nicht-verbalen Inhalten zu kennzeichnen.
+tags-table-header-1 = Schlagwort
+tags-table-header-2 = Bedeutung
+tags-laugh = Lachen
+tags-disfluency = Unflüssig
+tags-unclear = Unklar
+tags-noise = Geräusche
+tags-laugh-explanation = Lachen
+tags-disfluency-explanation =
+    Ein Füllwort oder ein Laut, der als Platzhalter verwendet wird, während ein Sprecher entscheidet, was gesagt wird.
+    Im Deutschen sind einige gängige Laute des Zögerns „ähm“, „ähh“, „öhh“ usw.
+tags-unclear-explanation = Ein Wort oder eine Folge von Wörtern, die nicht verstanden werden kann.
+tags-noise-explanation =
+    Jede andere Art von Geräusch, wie Husten oder sich räuspern,
+    ein hupendes Auto, etwas, das auf das Mikrofon trifft, ein Telefon, das summt usw.
+special-tags-example =
+    Und dann bin ich [Geräusch] in Urlaub gefahren.
+    Nun, [Geräusch] [Lachen] es war nicht gerade ein Feiertag [Lachen]
+transcribe-the-audio-subheader-4-explanation-1 = Spontane Sprache enthält von Natur aus Fehlstarts, wo nur ein Fragment eines vollständigen Worts erzeugt wird. Für diese Fälle transkribieren Sie bitte das Wortfragment nach bestem Wissen und Gewissen und fügen Sie einen Bindestrich an das Ende des Wortes (-) an, um anzuzeigen, dass das Wort ein Fehlanfang ist. Beispiel:
+transcribe-the-audio-subheader-4-explanation-1-example = Sein Name ist <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Manchmal werden Sprecher ein Wort oder Wortfragment mehrmals wiederholen. Dies sollte auch transkribiert werden. Beispiel:
+transcribe-the-audio-subheader-4-explanation-2-example = Und dann bin ich in das <underline>das das das Schlaf-</underline> Schlafzimmer gegangen
+transcribe-the-audio-subheader-5-explanation-1 = Spontane Sprache enthält natürlich grammatikalische Fehler. Diese sollten bei der Transkription nicht korrigiert werden. Die Transkription sollte den gesprochenen Inhalt genau wiedergeben.
+transcribe-the-audio-subheader-5-explanation-2 = Sprecher werden vielleicht umgangssprachliche Ausdrücke verwenden (wie im Deutschen „wolln“, „wern“, usw.), die möglicherweise nicht als formal korrekt angesehen werden. Diese sollten so abgeschrieben werden, wie sie sind, und nicht in ihre formaleren Entsprechungen geändert werden.
+
+## Review the Transcription
+
+review-the-transcription = Überprüfen Sie die Transkription
+review-the-transcription-explanation-1 = Im Allgemeinen empfehlen wir, dass die Person, die das Transkript überprüft, nicht dieselbe Person sein sollte, die sie erstellt hat. Es ist sehr schwer, Ihre eigenen Arbeiten zu überprüfen! Mehrere Überprüfungszeilen können dazu beitragen, die Qualitätssicherung robuster zu machen und Vorurteile und Probleme zu mindern.
+review-the-transcription-explanation-2 = Lesen Sie die obigen Richtlinien für die Transkription, um zu überprüfen, ob eine Transkription korrekt ist. Sie können Bearbeitungen angeben und absenden.
+review-the-transcription-explanation-3 = Auch hier können Sie anstößige, schädliche oder anderweitig besorgniserregende Inhalte melden, und diese werden aus Ihrem Zugriff entfernt, bis das Common-Voice-Team sie erneut überprüft und untersucht.
+
+## Code-Switching
+
+code-switching = Code-Umschaltung
+adding-a-question = Eine Frage hinzufügen
+# Adding a Question
+code-switching-adding-question-subheader = Wie sieht eine gute Frage aus?
+code-switching-adding-question-explanation = Eine gute Frage für Datensätze zur Öffentlichkeitsarbeit sollte:
+code-switching-adding-question-criteria-1 = Einfach zu verstehen und zu beantworten sein
+code-switching-adding-question-criteria-2 = Allgemein relevant sein
+code-switching-adding-question-criteria-3 = Keine schädliche oder anstößige Sprache verwenden
+code-switching-adding-question-note = Sie können auch erwägen, verschiedene Kontexte und Bereiche zu umfassen.
+# What types of questions to add
+code-switching-types-subheader = Welche Fragentypen sollen hinzugefügt werden?
+code-switching-use-bilingual-prompts-header = Zweisprachige Aufforderungen verwenden
+code-switching-use-bilingual-prompts-explanation = Verwenden Sie zweisprachige Aufforderungen, die beide Sprachen in Ihrer Frage enthalten: Beispiel:
+code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá als Du heute nach Hause kamst?”
+code-switching-ask-bilingual-contexts-header = Fragen Sie nach zweisprachigen Kontexten
+code-switching-ask-bilingual-contexts-explanation = Verwenden Sie Situationen, in denen beide Sprachen häufig verwendet werden (z.B. zu Hause, Schule, Veranstaltungen der Gemeinschaft). Beispiel:
+code-switching-ask-bilingual-contexts-explanation-example = „Wenn Sie mit Ihren Cousinen sprechen, mischen Sie Spanisch und Englisch?“
+code-switching-focus-emotional-header = Konzentrieren Sie sich auf emotionale oder wichtige Momente
+code-switching-focus-emotional-explanation = Nutzer:innen vertauschen die Codes, wenn sie Emotionen oder Dringlichkeit ausdrücken. Beispiel:
+code-switching-focus-emotional-explanation-example = „Sagen Sie mir, was Ihre Eltern gesagt haben, als Sie ihnen die große Neuigkeiten erzählt haben – genau wie sie es gesagt haben.“
+code-switching-direct-quotes-header = Fragen Sie nach direkten Zitaten oder Nachstellungen
+code-switching-direct-quotes-explanation = Ermutigen Sie die Teilnehmer dazu, so zu reproduzieren, wie die Dinge wirklich gesagt wurden. Beispiel:
+code-switching-direct-quotes-explanation-example = „Was haben Sie genau gesagt, als Sie davon erfahren haben?“
+code-switching-cultural-topics-header = Wählen Sie kulturspezifische Themen
+code-switching-cultural-topics-explanation = Essen, Traditionen, Feiertage und Familiendynamik laden oft zum Sprachwechsel ein.
