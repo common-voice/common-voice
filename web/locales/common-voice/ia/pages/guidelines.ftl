@@ -162,6 +162,8 @@ transcribe-the-audio-subheader-4 = Segmentos de parola, false partitas, parolas 
 transcribe-the-audio-subheader-5 = Errores grammatical e colloquialismos
 transcribe-the-audio-subheader-1-explanation = In general, tu deberea scriber omne cosa tu audi. Isto include;
 tags-table-header-1 = Tag
+tags-table-header-2 = Significato
+tags-laugh = Risada
 
 ## Review the Transcription
 
@@ -170,6 +172,7 @@ review-the-transcription-subheader = Guida general
 
 ## Code-Switching
 
+code-switching = Mutation de lingua
 adding-a-question = Adder un question
 # Adding a Question
 code-switching-adding-question-subheader = Que rende bon un question?
