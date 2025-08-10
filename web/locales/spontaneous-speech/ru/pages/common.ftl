@@ -32,8 +32,11 @@ continue-with-skipped = Продолжить с пропущенным
 question = Вопрос
 validate = Проверить
 respond-to-prompt = Ответить на запрос
+respond-to-prompt-mobile = Ответ
 transcribe = Транскрибировать
 check-transcriptions = Проверить транскрипции
+check-transcriptions-mobile = Проверка
+tag = Метки
 
 ## Not Found Page
 

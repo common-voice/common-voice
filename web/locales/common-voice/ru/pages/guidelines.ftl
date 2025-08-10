@@ -333,3 +333,29 @@ code-switching-punctuation-tagging-explanation = Помечайте пункту
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>и единственный раз, когда<</purple> Мари <purple>закричала на меня,</purple> <blue>porque</blue> <purple>она пыталась</purple> распечатать <blue>не</blue> <purple>по порядку</purple>. (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>но<</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>для чего угодно.</purple> (BangorTank)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Будьте осторожны с похожими словами
+code-switching-lookalikes-explanation = Некоторые слова могут выглядеть как один язык, но использоваться в другом. Метка на основе значения и использования, а не внешнего вида. Примеры:
+code-switching-lookalikes-explanation-example-1 = «Fouting» раньше означал бежать на Испанском > пометить как Испанский
+code-switching-lookalikes-explanation-example-2 = «No problemo» используется в английском > отмечайте как английский
+# When Not to Tag Words
+code-switching-not-tag-header = Когда не помечать слова
+code-switching-not-tag-explanation = Некоторые слова <bold>не должны</bold> помечаться метками языка, даже если они кажутся смешанными или адаптированными.  Вот как обрабатывать некоторые примеры:
+code-switching-not-tag-proper-names = <bold>Имена собственные.</bold> Имена людей, мест и организаций не должны помечаться метками. Примеры:
+code-switching-not-tag-proper-names-example-1 = Люди: Мария, Джон
+code-switching-not-tag-proper-names-example-2 = Места: Лос-Анджелес, Флорида
+code-switching-not-tag-proper-names-example-3 = Бренды/Организации:  Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Смешанные или морфологически адаптированные слова.</bold> Не помечайте слова со смешиванием языков или с добавленными окончаниями из другого языка. Примеры:
+code-switching-not-tag-mixed-words-example = Где корень является английским, а суффикс — испанским: «parear», «printearlo»
+code-switching-not-tag-interjections = <bold>Междометия.</bold> Междометия и слова-заполнители, независимо от языка, должны оставаться <bold>непомеченными.</bold> Примеры:
+code-switching-not-tag-interjections-example-1 = «Э»
+code-switching-not-tag-interjections-example-2 = «Нет»
+code-switching-not-tag-interjections-example-3 = «Йеа»
+code-switching-not-tag-interjections-example-4 = «Эм»
+
+## Reporting Content
+
+reporting-content = Жалоба на содержимое
+reporting-content-subheader = Общее руководство
+reporting-content-explanation-1 = Вы должны отмечать содержимое, которое является оскорбительным, вредоносным или иным образом вызывающим беспокойство. Оно также не должно содержать личной информации, такой как номера телефонов или адреса. Оно будет удалено из вашего взаимодействия до того, как команда Common Voice сможет его проверить и расследовать.
+reporting-content-explanation-2 = Чтобы сообщить о контенте, нажмите кнопку «Пожаловаться» и выберите один или все варианты: Оскорбительное содержимое, Другой язык, Личная информация, Другое.  Теперь предоставьте более подробную информацию о том, почему вы сообщаете о содержимом, в текстовом поле.  Затем отправьте заявление, нажав кнопку «Пожаловаться».
