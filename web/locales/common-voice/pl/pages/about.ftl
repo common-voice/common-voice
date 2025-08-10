@@ -10,12 +10,17 @@ how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagra
 ## How does it work section
 
 about-language-req-subtitle = Ktoś prosi o dodanie danego języka.
+about-localization-title = Lokalizacja witryny
+about-localization-subtitle = Tekst strony internetowej jest tłumaczony na dany język.
+about-sentence-collection-title = Zbieranie zdań
 about-sentence-collection-subtitle = Gromadzimy zdania, które użytkownicy danego języka będą odczytywać na głos.
+about-new-lang-title = Uruchomienie nowego języka
 about-new-lang-subtitle = Uruchamiamy witrynę Common Voice w danym języku.
 about-voice-contrib-subtitle = Użytkownicy przekazują nam swoje głosy.
 about-voice-validation-subtitle = Inne osoby sprawdzają poprawność nagrań głosowych.
 about-dataset-release-title = Wydanie zbioru danych
 about-dataset-release-subtitle = Co 3 miesiące wydajemy zbiór danych.
+about-subscribe-text = Chcesz pozostać w kontakcie z Common Voice?
 about-speak = Nagrywanie
 about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
 about-listen-queue = Kolejka do odsłuchania
@@ -38,6 +43,9 @@ about-get-involved-text-2 =
     Wspaniale! Skontaktuj się z nami przez e-mail lub serwis <discourseLink>Discourse</discourseLink>,
     zgłoś problem ze stroną w serwisie <githubLink>GitHub</githubLink> lub dołącz
     do pokoju rozmów społeczności w sieci <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Jak pozostać w kontakcie?
+about-stay-in-touch-button = Zapisz się
+about-stay-in-touch-text-1 = <emailFragment>Zapisz się</emailFragment> na naszą listę mailingową, aby dowiedzieć się, jak możesz brać udział w kampaniach, wydarzeniach i współtworzeniu funkcji w Common Voice.
 about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
@@ -49,6 +57,16 @@ about-nav-how-it-works-2 = Jak działa projekt Common Voice?
 
 about-playbook-what-is-language-content-2 = Chcemy, aby modele mowy lepiej rozumiały zróżnicowane grono osób mówiących. Aby to osiągnąć, zbiór danych głosowych musi reprezentować wiele różnych osób.
 about-playbook-what-is-language-content-3 = Niektóre języki charakteryzują się ogromnym zróżnicowaniem gramatyki, słownictwa i wymowy. Z tego powodu w 2022 roku <ctaLink>wprowadzamy „Warianty”</ctaLink>. Dzięki temu społeczności będą mogły rozróżniać swoje języki w ramach większego zbioru danych.
+
+## How do I add a language
+
+about-playbook-how-add-language = Jak dodać język?
+about-playbook-how-add-language-content-1 =
+    Najpierw sprawdź, czy Twój język <languageLink>już istnieje</languageLink>.
+    Jeśli nie, możesz <languageRequestLink>poprosić o dodanie swojego języka</languageRequestLink>.
+    Etapy są dwa: tłumaczenie strony i zbieranie zdań
+about-playbook-how-add-language-translating-heading = Tłumaczenie strony
+about-playbook-how-add-language-collecting-sentences-heading = Zbieranie zdań
 
 ## How does localization work
 
