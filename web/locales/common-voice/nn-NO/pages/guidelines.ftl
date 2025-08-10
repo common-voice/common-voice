@@ -144,6 +144,7 @@ example-questions-explanation-2 = Om du ønskjer å sende inn ei rekkje spørsm�
 
 # Answer Questions
 answer-questions = Svar på spørsmål
+answer-questions-subheader = Generell rettleiing
 tags-table-header-1 = Etikett
 tags-table-header-2 = Meining
 tags-unclear = UKlar
