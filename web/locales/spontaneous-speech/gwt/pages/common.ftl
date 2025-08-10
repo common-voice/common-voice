@@ -27,10 +27,10 @@ request-new-language = نُنگی باتِیَنی درخاس کېرِؤ
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = آدیوَہ نقل کېرِؤ
 transcribe = نقل کېرِؤ
 check-transcriptions = نقل نامہ چېک کېرِؤ
-question = سوال
 
 ## Not Found Page
 

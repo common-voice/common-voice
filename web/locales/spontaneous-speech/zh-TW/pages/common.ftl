@@ -27,10 +27,10 @@ request-new-language = 要求新語言
 
 ## Navbar
 
+question = 問題
 respond-to-prompt = 回應提示
 transcribe = 轉錄
 check-transcriptions = 檢查轉錄內容
-question = 問題
 
 ## Not Found Page
 

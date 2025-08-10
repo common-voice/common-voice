@@ -27,10 +27,10 @@ request-new-language = ขอภาษาใหม่
 
 ## Navbar
 
+question = คำถาม
 respond-to-prompt = ตอบกลับข้อความคำสั่ง
 transcribe = ถอดเสียง
 check-transcriptions = ตรวจทานการถอดเสียง
-question = คำถาม
 
 ## Not Found Page
 

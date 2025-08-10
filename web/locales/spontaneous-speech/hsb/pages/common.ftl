@@ -29,11 +29,11 @@ continue-with-skipped = Z Přeskočeny pokročować
 
 ## Navbar
 
+question = Prašenje
+validate = Přepruwować
 respond-to-prompt = Na namołwu wotmołwić
 transcribe = Transkribować
 check-transcriptions = Transkripcije přepruwować
-question = Prašenje
-validate = Přepruwować
 
 ## Not Found Page
 

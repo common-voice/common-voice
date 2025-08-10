@@ -29,11 +29,11 @@ continue-with-skipped = Folytatás a kihagyottakkal
 
 ## Navbar
 
+question = Kérdés
+validate = Ellenőrzés
 respond-to-prompt = Válasz a kérdésre
 transcribe = Leiratozás
 check-transcriptions = Leiratok ellenőrzése
-question = Kérdés
-validate = Ellenőrzés
 
 ## Not Found Page
 

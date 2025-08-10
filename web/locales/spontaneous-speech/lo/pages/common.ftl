@@ -27,10 +27,10 @@ request-new-language = ຂໍພາສາໃໝ່
 
 ## Navbar
 
+question = ຄຳຖາມ
 respond-to-prompt = ຄໍາຕອບ
 transcribe = ການຖອດຂໍ້ຄວາມ
 check-transcriptions = ການກວດຄືນ
-question = ຄຳຖາມ
 
 ## Not Found Page
 

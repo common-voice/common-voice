@@ -27,10 +27,10 @@ request-new-language = نوَي ٻولي هارو درخواست
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = جواب
 transcribe = نقل
 check-transcriptions = دوهرائِي
-question = سوال
 
 ## Not Found Page
 

@@ -27,10 +27,10 @@ request-new-language = Sol·licita una llengua
 
 ## Navbar
 
+question = Pregunta
 respond-to-prompt = Resposta
 transcribe = Transcriu
 check-transcriptions = Revisa
-question = Pregunta
 
 ## Not Found Page
 

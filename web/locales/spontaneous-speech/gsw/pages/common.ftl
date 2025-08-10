@@ -27,10 +27,10 @@ request-new-language = Néji Sproch vorschlaawe
 
 ## Navbar
 
+question = Fröje
 respond-to-prompt = Ùff Fröje Àntwùrt gann
 transcribe = Trànschkribiere
 check-transcriptions = Trànschkriptione noochlüeje
-question = Fröje
 
 ## Not Found Page
 

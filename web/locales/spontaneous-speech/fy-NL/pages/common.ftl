@@ -29,11 +29,11 @@ continue-with-skipped = Trochgean mei Oersloegen
 
 ## Navbar
 
+question = Fraach
+validate = Falidearje
 respond-to-prompt = Beäntwurdzje
 transcribe = Transkribearje
 check-transcriptions = Beoardiele
-question = Fraach
-validate = Falidearje
 
 ## Not Found Page
 

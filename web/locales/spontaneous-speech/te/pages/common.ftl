@@ -19,9 +19,9 @@ request-new-language = కొత్త భాష కోసం అభ్యర్
 
 ## Navbar
 
-respond-to-prompt = సమాధానం
 question = ప్రశ్న
 validate = సరిచూడు
+respond-to-prompt = సమాధానం
 
 ## Not Found Page
 

@@ -29,11 +29,11 @@ continue-with-skipped = Fortsett med hoppet over
 
 ## Navbar
 
+question = Spørsmål
+validate = Valider
 respond-to-prompt = Svar på spørsmål
 transcribe = Transkribere
 check-transcriptions = Sjekk transkripsjoner
-question = Spørsmål
-validate = Valider
 
 ## Not Found Page
 

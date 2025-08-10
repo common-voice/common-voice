@@ -27,10 +27,10 @@ request-new-language = Saaba Ènganikha èmbya
 
 ## Navbar
 
+question = Liswaali
 respond-to-prompt = Ilahmo
 transcribe = khuLeckah
 check-transcriptions = Ilakamo
-question = Liswaali
 
 ## Not Found Page
 

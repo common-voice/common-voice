@@ -27,10 +27,10 @@ request-new-language = نوغ وارو درخواست کو
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = اشاران جوابو دیت
 transcribe = نیویشیکا انگے
 check-transcriptions = نیویشیروان لوڑے
-question = سوال
 
 ## Not Found Page
 

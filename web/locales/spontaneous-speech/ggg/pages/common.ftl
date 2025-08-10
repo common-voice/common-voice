@@ -27,10 +27,10 @@ request-new-language = نويٚنٚ ڀوليو ڪيٚ درکآس
 
 ## Navbar
 
+question = سوآل
 respond-to-prompt = جبآب
 transcribe = لِکوو
 check-transcriptions = وَريٚ نينٚگ ڪروو
-question = سوآل
 
 ## Not Found Page
 

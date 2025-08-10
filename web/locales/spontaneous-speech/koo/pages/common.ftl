@@ -27,10 +27,10 @@ request-new-language = Saba omubuughe omuhyaka
 
 ## Navbar
 
+question = Kyibulyo
 respond-to-prompt = Subamo
 transcribe = Kanganaya omwatsi omo bisakango
 check-transcriptions = Sososothaya ebisakango
-question = Kyibulyo
 
 ## Not Found Page
 

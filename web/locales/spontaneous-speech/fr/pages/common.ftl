@@ -29,11 +29,11 @@ continue-with-skipped = Continuer avec les ressources ignorées
 
 ## Navbar
 
+question = Question
+validate = Valider
 respond-to-prompt = Répondre à la question
 transcribe = Transcrire
 check-transcriptions = Vérifier les transcriptions
-question = Question
-validate = Valider
 
 ## Not Found Page
 

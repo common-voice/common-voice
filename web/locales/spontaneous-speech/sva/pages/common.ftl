@@ -27,10 +27,10 @@ request-new-language = ხიჰრ მახე ნინ
 
 ## Navbar
 
+question = კითხვა
 respond-to-prompt = ლოხპასუ̂იხუ̂ იმუ̂ა̄̈ჲ იჰრიხ
 transcribe = ჟოხოსყ ტრანსკიფცია
 check-transcriptions = ჩუ̂ათმოწმა̈ნ ტრანსკრიფცია̄̈ლ
-question = კითხვა
 
 ## Not Found Page
 

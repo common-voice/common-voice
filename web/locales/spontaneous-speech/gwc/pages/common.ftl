@@ -27,10 +27,10 @@ request-new-language = نِیم جِبیں کیر درخاس دہ
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = اِشاراں جواب دہ
 transcribe = نقل کٞروگ
 check-transcriptions = نقل کٞراٞل چیک کٞر
-question = سوال
 
 ## Not Found Page
 

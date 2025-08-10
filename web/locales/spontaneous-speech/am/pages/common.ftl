@@ -29,11 +29,11 @@ continue-with-skipped = በተዘለለ ይቀጥሉ
 
 ## Navbar
 
+question = ጥያቄ
+validate = አረጋግጥ
 respond-to-prompt = ለፈጣን ምላሽ ይስጡ
 transcribe = ወደ ፅሁፍ ገልብጥ
 check-transcriptions = ፅሁፎችን ያረጋግጡ
-question = ጥያቄ
-validate = አረጋግጥ
 
 ## Not Found Page
 

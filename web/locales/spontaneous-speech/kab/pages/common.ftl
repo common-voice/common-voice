@@ -21,10 +21,10 @@ request-new-language = Sumer tutlayt niḍen
 
 ## Navbar
 
-respond-to-prompt = Err
-check-transcriptions = Senqed
 question = Asteqsi
 validate = Seɣbel
+respond-to-prompt = Err
+check-transcriptions = Senqed
 
 ## Not Found Page
 

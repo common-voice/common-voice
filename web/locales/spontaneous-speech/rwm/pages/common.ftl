@@ -27,10 +27,10 @@ request-new-language = Kunga dhaka myaka
 
 ## Navbar
 
+question = Olulya
 respond-to-prompt = Sikyaku/sikyaiku
 transcribe = Handika
 check-transcriptions = Kolilyiaku
-question = Olulya
 
 ## Not Found Page
 

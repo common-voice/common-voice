@@ -27,10 +27,10 @@ request-new-language = Shaba Orurimi Rusya
 
 ## Navbar
 
+question = Buuza/Ekibuuzo
 respond-to-prompt = Garukamu
 transcribe = Hurikiza ohandiike amaraka gakwasirwe aha rutambi
 check-transcriptions = Shwijuma
-question = Buuza/Ekibuuzo
 
 ## Not Found Page
 

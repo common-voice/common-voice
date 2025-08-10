@@ -27,10 +27,10 @@ request-new-language = نوئی زبان وسطے گزارش کرو
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = جھب جھب جواب دیوں
 transcribe = اسکو تجزیو کرو
 check-transcriptions = تجزیہ کو جائزو لیو
-question = سوال
 
 ## Not Found Page
 

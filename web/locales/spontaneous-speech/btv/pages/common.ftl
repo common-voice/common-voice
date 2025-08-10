@@ -27,10 +27,10 @@ request-new-language = نیئ زیب سو درخواست
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = جواب
 transcribe = نقل
 check-transcriptions = نظرثانی
-question = سوال
 
 ## Not Found Page
 

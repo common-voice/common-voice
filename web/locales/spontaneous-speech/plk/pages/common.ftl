@@ -29,11 +29,11 @@ continue-with-skipped = Skipped سے ساتیْ جاری پھتِیا
 
 ## Navbar
 
+question = سوال
+validate = توثیق تِھیا
 respond-to-prompt = پرامپٹے جُواب دِیا
 transcribe = نقل تِھیا
 check-transcriptions = ٹرانسکرپشنز چیک تِھیا
-question = سوال
-validate = توثیق تِھیا
 
 ## Not Found Page
 

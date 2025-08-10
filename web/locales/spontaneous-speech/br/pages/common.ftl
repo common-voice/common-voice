@@ -29,11 +29,11 @@ continue-with-skipped = Kenderc'hel gant ar re bet lezet a-gostez
 
 ## Navbar
 
+question = Goulenn
+validate = Aprouiñ
 respond-to-prompt = Respont d'ar goulenn
 transcribe = Treuzskrivañ
 check-transcriptions = Gwiriañ treuzskrivadurioù
-question = Goulenn
-validate = Aprouiñ
 
 ## Not Found Page
 
