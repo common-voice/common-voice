@@ -328,3 +328,14 @@ code-switching-orthography-explanation-example-1 = Wenn das Wort „kitchen“ w
 code-switching-orthography-explanation-example-2 = Wenn das Wort quinceaños wie im Englischen ausgesprochen wird, schreiben Sie es mit dem ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Die Aussprache zur Ermittlung der Sprache verwenden
+code-switching-pronunciation-explanation = Einige Wörter können in beiden Sprachen gleich aussehen, aber unterschiedlich ausgesprochen werden.  Hören Sie sich die Aussprache an, um richtige Schlagwörter zu erhalten.  Zum Beispiel: Kabel, Taco, Schauspieler, Detektiv.
+code-switching-pronunciation-explanation-example-1 = Englisch: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spanisch: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Schlagwörter in einem einzigen Token
+code-switching-single-token-explanation = Ein einzelnes durch Leerzeichen getrenntes Token sollte mehr als einen Abschnitt mit Schlagwort enthalten.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Interpunktion basierend auf Sprache in der Nähe mit Schlagwörtern versehen
+code-switching-punctuation-tagging-explanation = Interpunktion mit der Sprache, die am nächsten zur linken Seite liegt mit Schlagwörtern versehen. Beispiele:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>und das einzige Mal, dass</purple> Maria <purple>mich anschrie, war</purple> <blue>porque</blue> <purple>sie wollte</purple> printear<blue>un</blue> <purple>Bestellung.</purple> (BangorTalk)
