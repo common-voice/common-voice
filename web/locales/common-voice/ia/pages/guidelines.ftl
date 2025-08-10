@@ -144,4 +144,5 @@ example-questions-explanation-2 = Si tu amarea inviar un serie de questiones a i
 
 # Answer Questions
 answer-questions = Responder a questiones
+answer-questions-tip-3b = Tenta mantener tu responsa in 15-30 secundas
 answer-questions-tip-4 = Evita un linguage odiose, incendiari o comocunque offensive.
