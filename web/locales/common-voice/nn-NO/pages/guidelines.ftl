@@ -162,6 +162,15 @@ transcribe-the-audio-subheader-4 = Ordsegment, falske startar, gjentekne ord
 transcribe-the-audio-subheader-5 = Grammatiske feil og munnlege uttrykk
 transcribe-the-audio-subheader-1-explanation = Generelt sett bør du skrive ned alt du høyrer. Dette inkluderer;
 transcribe-the-audio-subheader-1-explanation-example-1 = Skrive ned talefeil, inkludert nøling og gjentakingar
+transcribe-the-audio-subheader-1-explanation-example-2 = Merking av støyhendingar som hosting eller latter
+transcribe-the-audio-subheader-1-explanation-example-3 = Merking av stor støyforureining, som bakgrunnsprat eller bilhorn
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatisk variasjon og slang skal skrivast ned akkurat slik det førekjem. Ikkje korriger eller rediger folks tale.
+transcribe-the-audio-subheader-2-explanation-1 = Tal og symbol skal skrivast ut med bokstavar i staden for å bruke siffer eller spesialteikn. Døme:
+transcribe-the-audio-subheader-2-explanation-2 = Forkortingar skal skrivast som dei vanlegvis blir skrivne på språket, i samsvar med vanlege reglar for store og små bokstavar. Dei skal ikkje transkriberast fonetisk. Døme:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Rett</correct>: Det er hundre mil unna her
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Feil</wrong>: Det er 100 mil unna her
 tags-table-header-1 = Etikett
 tags-table-header-2 = Meining
 tags-laugh = Latter
