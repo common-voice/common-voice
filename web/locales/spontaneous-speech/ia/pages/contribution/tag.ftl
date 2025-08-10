@@ -1,5 +1,7 @@
 ## Tagging Page
 
+tag-popover-title = Seliger un etiquetta
+select-a-tag = Seliger un etiquetta
 edit-tag = Rediger un tag
 # Shortcuts modal
 tag-page-shortcut-tag-language-1 = 1

@@ -2,6 +2,10 @@
 
 cs-error-fetching-transcriptions = Alco errate eveniva recuperante le transcriptiones. Retenta plus tarde.
 
+## Question Page Items
+
+cs-question-dataset-name = Collection de datos: { $datasetName }
+
 ## Guidelines
 
 learn-how-to-use = Apprende como usar iste pagina

@@ -190,11 +190,14 @@ code-switching-types-subheader = Que typos de questiones adder?
 # What to Avoid
 code-switching-avoid-subheader = Que evitar
 code-switching-avoid-intro = Questiones que pote:
+code-switching-avoid-1 = Sollicitar informationes de identification personal
+code-switching-avoid-2 = Sollicitar incitamento al odio o altere sentimentos prevenite o offensive
 code-switching-avoid-3 = Causar a alcuno compartir responsas sensibile, potentialmente discatenante
 code-switching-dont-header = Non
 code-switching-dont-1 = Non usar un linguage troppo formal
 # Reviewing a Question
 code-switching-review-subheader = Revider un question
+code-switching-review-intro = Assecurar se que le question satisface le criterios:
 code-switching-review-criterion-1 = Esser facile a comprender e a responder
 code-switching-review-criterion-2 = Esser generalmente pertinente
 code-switching-review-criterion-3 = Non usar, o sollicitar, linguage malefic o offensive
@@ -206,6 +209,11 @@ code-switching-review-no-2 = Questiones que poterea sollicitar incitamento al od
 code-switching-review-no-3 = Questiones que pote causar a alcuno de compartir responsas sensibile, potentialmente discatenante
 # Answering a Question
 code-switching-answer-subheader = Responder a un question
+code-switching-authentic-header = Responder naturalmente e authenticamente
+# Transcribing
+code-switching-transcribe-subheader = Transcription
+code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
+code-switching-not-tag-proper-names-example-2 = Postos: Los Angeles, Florida
 code-switching-not-tag-interjections-example-2 = “No”
 
 ## Reporting Content
