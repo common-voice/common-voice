@@ -231,5 +231,14 @@ code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, selv om de er 
 code-switching-answer-bullet-4 = Det finnes ingen «perfekt» måte å svare på
 code-switching-authentic-header = Svar naturlig og autentisk
 code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Hvis du blander språk i det virkelige liv, gjør det samme her. Eksempel:
+code-switching-tagging-error-intro =
+    Hvis transkripsjonen inneholder en feil, bruk rapporteringsfunksjonen for å markere den.  
+    Mulige feil inkluderer:
+code-switching-tagging-error-1 = Feil tegnsetting eller bruk av store/små bokstaver
+code-switching-tagging-error-2 = Skrivefeil
 code-switching-not-tag-proper-names-example-1 = Personer: Maria, John
 code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida
+
+## Reporting Content
+
+reporting-content-subheader = Generell veiledning
