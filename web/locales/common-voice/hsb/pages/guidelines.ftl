@@ -181,3 +181,10 @@ code-switching-answer-subheader = Na prašenje wotmołwić
 # Transcribing
 code-switching-transcribe-subheader = Transkribować
 code-switching-tagging-error-2 = Pisanske zmylki
+code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
+
+## Reporting Content
+
+reporting-content-subheader = Powšitkowne pokazki
