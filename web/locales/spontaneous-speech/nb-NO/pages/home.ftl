@@ -7,7 +7,7 @@ why-spontaneous-speech = Hvorfor vi bygde denne spontane tale prototypen
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Nyttig for <mark>naturlige talekontekster</mark> og andre bruksområder (f.eks. når du vil at talegjenkjenning skal fungere med folk som snakker uten manus og i daglig tale)
 # text wrapped with <mark></mark> will have a light red background
-why-card-2-text = Bedre støtte for språk- og <mark>kodebytte</mark>
+why-card-2-text = Bedre støtte for språklige realiteter som transspråking og <mark>kodeveksling</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Bedre støtte for språk som har lite eller <mark>ingen tekstkorpus</mark> (f.eks. sosiolekter, varianter, historisk uskriptede språk osv.)
 how-spontaneous-speech-works = Hvordan spontan tale fungerer
