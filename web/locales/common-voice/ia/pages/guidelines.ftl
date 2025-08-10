@@ -145,6 +145,8 @@ example-questions-explanation-2 = Si tu amarea inviar un serie de questiones a i
 # Answer Questions
 answer-questions = Responder a questiones
 answer-questions-subheader = Guida general
+answer-questions-explanation-1 = Pensa per un momento re le invitation, considera que sorta de cosa tu amarea dicer, ma non scribe troppo. Clicca le icone ‘registrar’. Un vice tu ha registrate tu pote ascoltar te mesme, re-registrar, deler o inviar.
+answer-questions-explanation-2 = Memora: non te preoccupa si tu balbutia, pausa o repete un parola. Isto es tote datos utile pro ingenieros tentante de construer utensiles de recognition vocal inclusive, pro le mundo-real.
 answer-questions-tip-1 = Registra in un loco rationabilemente quiete
 answer-questions-tip-2 = Elige un position con un bon connexion a internet
 answer-questions-tip-3b = Tenta mantener tu responsa in 15-30 secundas
@@ -156,10 +158,14 @@ transcribe-the-audio = Transcriber le audio
 transcribe-the-audio-subheader-1 = Guida general
 transcribe-the-audio-subheader-2 = Numeros e acronymos
 transcribe-the-audio-subheader-3 = Tags special
+transcribe-the-audio-subheader-4 = Segmentos de parola, false partitas, parolas repetite
+transcribe-the-audio-subheader-5 = Errores grammatical e colloquialismos
+transcribe-the-audio-subheader-1-explanation = In general, tu deberea scriber omne cosa tu audi. Isto include;
 tags-table-header-1 = Tag
 
 ## Review the Transcription
 
+review-the-transcription = Revide le transcription
 review-the-transcription-subheader = Guida general
 
 ## Code-Switching
@@ -179,6 +185,8 @@ code-switching-avoid-subheader = Que evitar
 code-switching-avoid-intro = Questiones que pote:
 code-switching-avoid-3 = Causar a alcuno compartir responsas sensibile, potentialmente discatenante
 code-switching-dont-header = Non
+# Reviewing a Question
+code-switching-review-subheader = Revider un question
 code-switching-review-criterion-1 = Esser facile a comprender e a responder
 code-switching-review-criterion-2 = Esser generalmente pertinente
 code-switching-review-criterion-3 = Non usar, o sollicitar, linguage malefic o offensive
