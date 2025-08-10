@@ -145,6 +145,7 @@ example-questions-explanation-2 = Hvis du ønsker å sende inn en rekke spørsm�
 # Answer Questions
 answer-questions = Besvar spørsmål
 answer-questions-subheader = Generell veiledning
+answer-questions-explanation-1 = Tenk et øyeblikk på oppgaven — vurder hva du vil si, men ikke skriv et manus. Trykk på «opptak»-ikonet. Når du har spilt inn, kan du lytte, ta opp på nytt, slette eller sende inn.
 answer-questions-explanation-2 = Husk – ikke vær redd for å stamme, ta pauser eller gjenta et ord. Alt dette er nyttige data for ingeniører som prøver å lage inkluderende, virkelighetsnære talegjenkjenningsverktøy.
 answer-questions-tip-1 = Spill inn på et rimelig stille sted
 answer-questions-tip-2 = Velg et sted med en god internettforbindelse
@@ -201,6 +202,7 @@ transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et o
 ## Code-Switching
 
 code-switching-informal-scenarios-header = Utforsk uformelle situasjoner
+code-switching-informal-scenarios-explanation = Samtaler med venner eller tekstmeldinger inkluderer ofte mer naturlig veksling. Eksempel:
 code-switching-informal-scenarios-explanation-example = «Hva er en vits vennene dine alltid drar — og hvordan sier de den?»
 # What to Avoid
 code-switching-avoid-subheader = Hva du bør unngå
@@ -231,6 +233,9 @@ code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, selv om de er 
 code-switching-answer-bullet-4 = Det finnes ingen «perfekt» måte å svare på
 code-switching-authentic-header = Svar naturlig og autentisk
 code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Hvis du blander språk i det virkelige liv, gjør det samme her. Eksempel:
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ikke overtenk eller overrediger
+code-switching-answer-dont-correct-language = <bold>«Korriger» språket ditt.</bold> Dette er ikke en test. «Riktig» form spiller ingen rolle her, naturlig språk gjør det.
 code-switching-tagging-error-intro =
     Hvis transkripsjonen inneholder en feil, bruk rapporteringsfunksjonen for å markere den.  
     Mulige feil inkluderer:
