@@ -145,6 +145,7 @@ example-questions-explanation-2 = Om du ønskjer å sende inn ei rekkje spørsm�
 # Answer Questions
 answer-questions = Svar på spørsmål
 answer-questions-subheader = Generell rettleiing
+answer-questions-explanation-1 = Tenk ein augneblink på oppgåva — vurder kva du vil seie, men ikkje skriv eit manus. Trykk på «opptak»-ikonet. Når du har spelt inn, kan du lytte, ta opp på nytt, slette eller sende inn.
 answer-questions-explanation-2 = Hugs – ikkje ver redd for å stamme, ta pausar eller gjenta eit ord. Alt dette er nyttige data for ingeniørar som prøver å lage inkluderande, røyndomsnære talegjenkjenningsverktøy.
 answer-questions-tip-1 = Spel inn på ein rimeleg stille stad
 answer-questions-tip-2 = Vel ein stad med eit godt internettsamband
