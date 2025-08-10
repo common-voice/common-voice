@@ -222,7 +222,7 @@ review-the-transcription-explanation-3 = Auch hier können Sie anstößige, sch�
 
 ## Code-Switching
 
-code-switching = Code-Umschaltung
+code-switching = Sprachwechsel
 adding-a-question = Eine Frage hinzufügen
 # Adding a Question
 code-switching-adding-question-subheader = Wie sieht eine gute Frage aus?
@@ -247,3 +247,36 @@ code-switching-direct-quotes-explanation = Ermutigen Sie die Teilnehmer dazu, so
 code-switching-direct-quotes-explanation-example = „Was haben Sie genau gesagt, als Sie davon erfahren haben?“
 code-switching-cultural-topics-header = Wählen Sie kulturspezifische Themen
 code-switching-cultural-topics-explanation = Essen, Traditionen, Feiertage und Familiendynamik laden oft zum Sprachwechsel ein.
+code-switching-cultural-topics-explanation-example = „Wie beschreiben Sie den Día de los Muertos jemandem, der nur Deutsch spricht?“
+code-switching-informal-scenarios-header = Erkunden Sie informelle Szenarien
+code-switching-informal-scenarios-explanation = Gespräche mit Freunden oder zum Schreiben einer SMS wechseln oft natürlicher. Beispiel:
+code-switching-informal-scenarios-explanation-example = „Was ist ein Witz, den Ihre Freunde immer machen – und wie sagen sie ihn?“
+# What to Avoid
+code-switching-avoid-subheader = Was Sie vermeiden sollten
+code-switching-avoid-intro = Fragen, die:
+code-switching-avoid-1 = personenbezogene Daten anfordern
+code-switching-avoid-2 = Hassreden oder andere voreingenommene oder beleidigende Gefühle ausdrücken
+code-switching-avoid-3 = dazu führen könnten, dass jemand sensible und potenziell auslösende Antworten gibt
+code-switching-dont-header = Falsch:
+code-switching-dont-1 = Verwenden Sie keine zu förmliche Sprache
+# Reviewing a Question
+code-switching-review-subheader = Eine Frage überprüfen
+code-switching-review-intro = Die Frage sollte folgende Kriterien erfüllen:
+code-switching-review-criterion-1 = Einfach zu verstehen und zu beantworten sein
+code-switching-review-criterion-2 = Allgemein relevant sein
+code-switching-review-criterion-3 = Keine schädliche oder anstößige Sprache verwenden
+code-switching-review-does-not-header = Und Folgendes <bold>NICHT</bold> enthalten:
+code-switching-review-offensive-content = <bold>Anstößige Inhalte oder sensible Informationen</bold>
+code-switching-answer-header = Anstößige Inhalte oder sensible Informationen
+code-switching-review-no-1 = Fragen, die möglicherweise personenbezogene Daten enthalten
+code-switching-review-no-2 = Fragen, die Hassreden oder andere voreingenommene oder beleidigende Gefühle entwickeln könnten
+code-switching-review-no-3 = Fragen, die dazu führen könnten, dass jemand sensible und potenziell auslösende Antworten antwortet
+# Answering a Question
+code-switching-answer-subheader = Eine Frage beantworten
+code-switching-answer-intro = Das Ziel der Antwort auf eine Frage ist, dass Sie natürlich antworten – wie in einem echten Gespräch. Wir wollen erfassen, wie sich Sprachen in der Umgangssprache vermischen.
+code-switching-answer-bullet-1 = Denken Sie an Momente oder Situationen aus dem wirklichen Leben: Witze, Diskussionen, Traditionen
+code-switching-answer-bullet-2 = Stellen Sie sich vor, Sie schreiben einem Freund eine SMS oder erzählen jemandem eine Geschichte
+code-switching-answer-bullet-3 = Verwenden Sie Wörter, die Sie wirklich verwenden würden, auch wenn sie entlehnt oder gemischt sind
+code-switching-answer-bullet-4 = Es gibt keine „perfekte“ Möglichkeit für eine Antwort
+code-switching-authentic-header = Natürlich und authentisch antworten
+code-switching-authentic-speak = <bold>Sprechen Sie, wie Sie mit Freunden oder der Familie sprechen würden.</bold> Wenn Sie im wirklichen Leben Sprachen mischen, tun Sie dasselbe hier. Beispiel:
