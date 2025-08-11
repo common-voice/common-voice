@@ -142,3 +142,14 @@ example-questions-explanation-2 = Se desideri inviare una serie di domande per l
 ## Spontaneous Speech sidebar content
 
 answer-questions-subheader = Guida generale
+answer-questions-tip-1 = Registra in un luogo sufficientemente tranquillo
+answer-questions-tip-2 = Scegli un luogo con una buona connessione a Internet
+answer-questions-tip-4 = Evita discorsi che incitano all’odio, provocatori o comunque offensivi
+answer-questions-tip-6 = Mantieni un volume della voce costante: non urlare o cantare
+# Transcribe the Audio
+transcribe-the-audio = Trascrivi l’audio
+transcribe-the-audio-subheader-1 = Guida generale
+transcribe-the-audio-subheader-2 = Numeri e acronimi
+transcribe-the-audio-subheader-3 = Etichette speciali
+transcribe-the-audio-subheader-4 = Segmenti di parole, false partenze, parole ripetute
+transcribe-the-audio-subheader-1-explanation-example-1 = Annotare le disfluenze, comprese le esitazioni e le ripetizioni

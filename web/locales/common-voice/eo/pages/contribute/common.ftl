@@ -27,6 +27,11 @@ target-segment-generic-card = Vi kontribuas kun cela segmento
 target-segment-first-banner = Helpu krei la unuan celan segmenton de Common Voice en { $locale }
 target-segment-add-voice = Aldoni vian voĉon
 target-segment-learn-more = Pli da informo
+datasets = Datumaroj
+languages = Lingvoj
+about = Pri
+partner = Kunlaboranto
+submit-form-action = Sendi
 
 ## Reporting
 
@@ -92,6 +97,9 @@ contribution-for-example = ekzemple
 contribution-misreadings-title = Mislegoj
 contribution-misreadings-description-extended-list-1 = Mankas <strong>'A'</strong> aŭ <strong>'The'</strong> en la komenco de la registraĵo.
 contribution-varying-pronunciations-title = Malsamaj  prononcoj
+contribution-background-noise-title = Fona bruo
 contribution-background-noise-description = Ni volas, ke la algoritmoj de maŝina lernado kapablu pritrakti diversajn fonajn bruojn, do eĉ sufiĉe laŭta bruo povas esti akceptita, nur se ĝi tute ne malebligas aŭdi la tutan tekston. Mallaŭta fona muziko estas en ordo, tamen muziko, pro kiu vi ne povas bone aŭdi ĉiun vorton, ne taŭgas.
 contribution-background-voices-title = Fonaj voĉoj
 contribution-volume-title = Laŭteco
+see-more = <chevron></chevron>Montri pli
+see-less = <chevron></chevron>Montri malpli

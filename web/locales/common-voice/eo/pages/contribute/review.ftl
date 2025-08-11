@@ -1,5 +1,8 @@
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Fonto: { $sentenceSource }
 sc-review-form-button-reject = Rifuzi
 sc-review-form-button-skip = Ignori
 sc-review-form-button-approve = Akcepti

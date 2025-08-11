@@ -233,6 +233,17 @@ code-switching-ask-bilingual-contexts-header = Demandar re contextos bilingue
 code-switching-ask-bilingual-contexts-explanation = Usar situationes ubi ambe linguas es communmente usate (p. ex., casa, schola, eventos de communitate). Exemplo:
 code-switching-ask-bilingual-contexts-explanation-example = “Quando tu parla a tu cosinos, esque tu misce espaniol e anglese?”
 code-switching-focus-emotional-header = Concentrar se sur momentos emotive o importante
+code-switching-focus-emotional-explanation = Personas bilingue sole miscer lor linguas pro exprimer emotion o urgentia. Exemplo:
+code-switching-focus-emotional-explanation-example = “Conta me que tu genitores diceva quando tu les narrava tu grande novas: exactemente como illes lo diceva.”
+code-switching-direct-quotes-header = Demandar citationes directe o reinterpretationes
+code-switching-direct-quotes-explanation = Incoragiar participantes a reproducer como le cosas era realmente dicite. Exemplo:
+code-switching-direct-quotes-explanation-example = “Qual era tu parolas exacte quando tu lo sapeva?”
+code-switching-cultural-topics-header = Eliger themas culturalmente specific
+code-switching-cultural-topics-explanation = Le dynamicas de alimentos, traditiones, vacantias, e familia sovente invita miscer proprie linguas native.
+code-switching-cultural-topics-explanation-example = “Como describe le Día de los Muertos a alcuno qui solo parla interlingua?”
+code-switching-informal-scenarios-header = Explorar scenarios informal
+code-switching-informal-scenarios-explanation = Conversationes o messages con amicos sovente include le mixturas linguistic plus natural. Exemplo:
+code-switching-informal-scenarios-explanation-example = “Qual es un burla que tu amicos sempre face, e como lo conta illes?”
 # What to Avoid
 code-switching-avoid-subheader = Que evitar
 code-switching-avoid-intro = Questiones que pote:
@@ -255,6 +266,11 @@ code-switching-review-no-2 = Questiones que poterea sollicitar incitamento al od
 code-switching-review-no-3 = Questiones que pote causar a alcuno de compartir responsas sensibile, potentialmente discatenante
 # Answering a Question
 code-switching-answer-subheader = Responder a un question
+code-switching-answer-intro = Respondente a un question, le objectivo es responder naturalmente: justo como tu amarea in un conversation de vita real. Nos vole capturar como le linguas actualmente se misce in le colloquio de cata die.
+code-switching-answer-bullet-1 = Pensar momentos o situationes de vita real: burlas, argumentos, traditiones
+code-switching-answer-bullet-2 = Imagina que tu invia messages a un amico o conta un historia a alcuno
+code-switching-answer-bullet-3 = Usa parolas que tu amarea realmente usar, mesmo si prestate o miscite
+code-switching-answer-bullet-4 = Il non ha maniera “perfecte” de responder
 code-switching-authentic-header = Responder naturalmente e authenticamente
 # Transcribing
 code-switching-transcribe-subheader = Transcription

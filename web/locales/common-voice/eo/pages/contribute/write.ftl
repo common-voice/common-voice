@@ -15,6 +15,9 @@ sc-review-write-title = Kiujn frazojn mi povas aldoni?
 sc-review-small-batch-title = Kiel aldoni plurajn frazojn
 new-sentence-rule-2 = Po malpli ol 15 vortoj en ĉiu frazo
 new-sentence-rule-3 = Uzu ĝustan gramatikon
+new-sentence-rule-5 = Sen ciferoj aŭ specialaj signoj
+new-sentence-rule-6 = Sen fremdaj literoj
+guidelines = Gvidlinioj
 
 ## MENU ITEM TOOLTIPS
 
