@@ -155,7 +155,16 @@ answer-questions-tip-6 = Maintenez un volume constant ; ne criez pas et ne chan
 transcribe-the-audio = Transcriptions audio
 transcribe-the-audio-subheader-1 = Instructions générales
 transcribe-the-audio-subheader-2 = Nombres et acronymes
-transcribe-the-audio-subheader-3 = Étiquettes spéciales
+transcribe-the-audio-subheader-3 = Balises spéciales
 transcribe-the-audio-subheader-5 = Erreurs grammaticales et expressions familières
+transcribe-the-audio-subheader-1-explanation = En règle générale, notez tout ce que vous entendez. Cela implique :
 transcribe-the-audio-subheader-1-explanation-example-1 = De noter les disfluences, y compris les hésitations et les répétitions
-transcribe-the-audio-subheader-1-explanation-example-2 = D’ajouter des tags lorsqu’il y a des bruits, par exemple si l’on entend quelqu’un tousser ou rire
+transcribe-the-audio-subheader-1-explanation-example-2 = D’ajouter des balises lorsqu’il y a des bruits, par exemple si l’on entend quelqu’un tousser ou rire
+transcribe-the-audio-subheader-1-explanation-example-3 = D’ajouter des balises lors de nuisances sonores importantes, comme des conversations en arrière-plan ou des klaxons de voitures
+transcribe-the-audio-subheader-1-explanation-example-4 = De retranscrire fidèlement les variations grammaticales et l’argot. Ne corrigez et ne modifiez pas les propos des personnes.
+transcribe-the-audio-subheader-2-explanation-1 = Les nombres et les symboles doivent être rédigés en toutes lettres plutôt qu’avec des chiffres ou des caractères spéciaux. Par exemple :
+transcribe-the-audio-subheader-2-explanation-2 = Les acronymes doivent être retranscrits tels qu’ils s’écrivent habituellement dans la langue, en respectant les règles standard de capitalisation. Ils ne doivent pas être retranscrits phonétiquement. Par exemple :
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Correct</correct> : C’est à un kilomètre d’ici
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Incorrect</wrong> : C’est à 100 kilomètres d’ici

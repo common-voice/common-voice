@@ -95,6 +95,9 @@ release-version = Verzió
 dataset-date = Dátum
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
+# Support old genders in older datasets
+male = Férfi
+female = Nő
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Töltse le a hangadatkészleteinket
 # MENU ITEM ARIA LABELS

@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Írás
+write = Írjon
 write-instruction = Közkincsű mondat hozzáadása <icon></icon>
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
 sentence =
@@ -157,7 +157,7 @@ transcribe-audio-menu-item-tooltip = Leiratozza a hangfelvételeket a saját nye
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = Írás menü lehetőségei
+write-contribute-menu-aria-label = Írjon menü lehetőségei
 add-sentences-menu-item-aria-label = Adjon hozzá új mondatokat a közösség számára
 review-sentences-menu-item-aria-label = A közösség által beküldött meglévő mondatok ellenőrzése
 add-questions-menu-item-aria-label = Küldjön be új kérdéseket, hogy a közösség felolvassa őket, és válaszoljon rájuk
