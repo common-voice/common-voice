@@ -4,6 +4,8 @@ guidelines-header-subtitle = Leer hoe u zinnen en audiofragmenten aan de Common 
 voice-collection = Spraakcollectie
 sentence-collection = Zinnenverzameling
 question-collection = Vragenverzameling
+scripted-speech = Scriptspraak
+spontaneous-speech = Spontane spraak
 
 ## Voice Collection nav ids
 
@@ -140,3 +142,8 @@ offensive-content-sensitive-information-explanation-explanation-3 = Vragen die e
 example-questions-subheader = Voorbeeldvragen
 example-questions-explanation-1 = U vindt <examplePromptsLink>120 voorbeeldprompts in dit blad.</examplePromptsLink>
 example-questions-explanation-2 = Als u een reeks vragen voor opname wilt indienen, kunt u <githubLink>dit doen via onze GitHub</githubLink> of uw lijst e-mailen naar <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+tags-table-header-1 = Label
+tags-table-header-2 = Betekenis
