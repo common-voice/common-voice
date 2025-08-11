@@ -179,6 +179,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Rett</correct>: De
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Feil</wrong>: Det var 20 % rabatt
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Rett</correct>: Dei vart arresterte av <underline>FBI</underline> sist torsdag
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Feil</wrong>: Dei vart arresterte av <underline>eff beh i</underline> sist torsdag
+transcribe-the-audio-subheader-3-explanation = Følgjande spesialtaggar skal brukast for å markere nølingslydar, fyllord og andre typar ikkje-verbalt innhald (på engelsk).
 tags-table-header-1 = Etikett
 tags-table-header-2 = Meining
 tags-laugh = Latter
