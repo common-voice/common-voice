@@ -145,3 +145,7 @@ contribution-background-voices-description-extended = Respinge înregistrările 
 contribution-background-voices-example-1-title = Dinozaurii giganți ai Triasicului. <strong>[text citit de o voce]</strong>
 contribution-background-voices-example-1-explanation = Haide, vii? <strong>[strigă altcineva în apropiere]</strong>
 contribution-volume-title = Volumul înregistrării
+contribution-volume-description = Este de așteptat să existe variații de volum între înregistrări. Respinge secvența audio doar dacă volumul este atât de ridicat încât înregistrarea se întrerupe sau, mai frecvent, dacă este atât de scăzut încât nu poți auzi și înțelege ce se spune fără să te uiți și la textul scris.
+contribution-reader-effects-title = Particularități ale vocilor cititorilor
+contribution-reader-effects-description = Majoritatea înregistrărilor sunt făcute de oameni care citesc cu vocea lor obișnuită. Poți accepta uneori și înregistrări mai neobișnuite care sunt strigate, șoptite, sau declamate ca într-o piesă de teatru. Acestea fiind spuse, trebuie respinse înregistrările cântate, precum și cele care utilizează o voce artificială, sintetizată de calculator.
+contribution-just-unsure-title = Eziți?
