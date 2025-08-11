@@ -272,6 +272,7 @@ code-switching-answer-bullet-2 = Imagina que tu invia messages a un amico o cont
 code-switching-answer-bullet-3 = Usa parolas que tu amarea realmente usar, mesmo si prestate o miscite
 code-switching-answer-bullet-4 = Il non ha maniera “perfecte” de responder
 code-switching-authentic-header = Responder naturalmente e authenticamente
+code-switching-authentic-reflect = <bold>Reflecte emotion, identitate, e contexto.</bold> mixturas linguistic usualmente eveni quando personas exprime emotion, urgentia, o ideas cultural. Usa lo respondente a questiones.
 # Transcribing
 code-switching-transcribe-subheader = Transcription
 code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
