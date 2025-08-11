@@ -35,6 +35,8 @@ respond-to-prompt = Svar på spørsmål
 respond-to-prompt-mobile = Svar
 transcribe = Transkribere
 check-transcriptions = Sjekk transkripsjoner
+check-transcriptions-mobile = Gjennomgang
+tag = Etikett
 
 ## Not Found Page
 
