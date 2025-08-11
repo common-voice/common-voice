@@ -280,4 +280,5 @@ code-switching-not-tag-interjections-example-2 = “No”
 
 ## Reporting Content
 
+reporting-content = Contento de reporto
 reporting-content-subheader = Guida general

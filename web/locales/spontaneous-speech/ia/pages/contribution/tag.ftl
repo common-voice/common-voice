@@ -18,6 +18,7 @@ tag-page-shortcut-select-all = A
 select-all = Seliger toto
 # Messages
 tag-success-toast-message = Tags inviate con successo
+cs-tag-shortcuts-section-title = Uso de claviero
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }

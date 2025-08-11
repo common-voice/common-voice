@@ -153,3 +153,22 @@ transcribe-the-audio-subheader-2 = Numeri e acronimi
 transcribe-the-audio-subheader-3 = Etichette speciali
 transcribe-the-audio-subheader-4 = Segmenti di parole, false partenze, parole ripetute
 transcribe-the-audio-subheader-1-explanation-example-1 = Annotare le disfluenze, comprese le esitazioni e le ripetizioni
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Corretto</correct>: dista cento chilometri da qui
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Sbagliato</wrong>: dista 100 chilometri da qui
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Corretto</correct>: ci vediamo nel <underline>duemilaquindici</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Sbagliato</wrong>: ci vediamo nel <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Corretto</correct>: c’era uno sconto del venti per cento
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Sbagliato</wrong>: c’era uno sconto del 20%.
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Corretto</correct>: sono stati arrestati giovedì scorso dall’<underline>FBI</underline>
+tags-table-header-1 = Etichetta
+tags-table-header-2 = Significato
+tags-laugh = Risata
+tags-disfluency = Disfluenza
+tags-unclear = Non chiaro
+tags-noise = Rumore
+tags-laugh-explanation = Il suono di una risata.
+tags-unclear-explanation = Una parola o una sequenza di parole incomprensibili.
