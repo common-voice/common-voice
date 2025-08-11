@@ -178,3 +178,16 @@ transcribe-the-audio-subheader-2-example-4-correct = <correct>Correct</correct>�
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Incorrect</wrong> : Ils ont été arrêtés par le <underline>haie feu bi aïe</underline> jeudi dernier
 transcribe-the-audio-subheader-3-explanation = Les balises spéciales suivantes doivent être utilisées pour indiquer les disfluences, les remplissages et d’autres contenus non verbaux (en anglais).
 tags-table-header-1 = Balise
+tags-table-header-2 = Signification
+tags-laugh = Rire
+tags-disfluency = Disfluence
+tags-unclear = Pas clair
+tags-noise = Bruit
+tags-laugh-explanation = Des éclats de rire.
+tags-disfluency-explanation =
+    Un mot ou un son de remplissage employé comme marqueur temporaire pendant que le locuteur réfléchit à ce qu’il souhaite exprimer.
+    En français, parmi les sons d’hésitation fréquents, on retrouve « hum », « heu », etc.
+tags-unclear-explanation = Un mot ou une suite de mots qui ne peuvent pas être compris.
+transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
+transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre
