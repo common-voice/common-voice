@@ -2,7 +2,7 @@ action-click = Alklaku
 action-tap = Tuŝetu
 contribute = Kontribui
 review = Kontroli
-skip = Ignori
+skip = Preterlasi
 shortcuts = Alirklavoj
 clips-with-count-pluralized =
     { $count ->

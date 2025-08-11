@@ -13,11 +13,13 @@ contribution-picker-label = Kontribui al la <bold>{ $language }</bold> datumaro
 contribution-picker-tooltip-text = Tio ŝanĝas la lingvon de la datumaro al kiu vi kontribuas
 coming-soon = Pliaj lingvoj baldaŭ venos
 media-recorder-api-not-supported = La MediaRecorder API ne estas subtenata en via retumilo.
+# Toast message that is displayed when an item is skipped
+skipped = Preterlasita
 audioplayer-header = Aŭskulti
 # For the button to report an item
 report-button = Raporti
 # For the button to skip an item
-skip-button = Ignori
+skip-button = Preterlasi
 submit-button = Sendi
 contribute = Kontribui
 request-new-language = Peti novan lingvon

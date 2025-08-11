@@ -6,7 +6,7 @@ sc-review-loading = Frazoj ŝargataj…
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Fonto: { $sentenceSource }
 sc-review-form-button-reject = Rifuzi
-sc-review-form-button-skip = Ignori
+sc-review-form-button-skip = Preterlasi
 sc-review-form-button-approve = Akcepti
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
@@ -14,7 +14,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
-sc-review-form-keyboard-usage-custom = Vi ankaŭ povas uzi klavarajn mallongigojn: { sc-review-form-button-approve-shortcut } por akcepti, { sc-review-form-button-reject-shortcut } por rifuzi, { sc-review-form-button-skip-shortcut } por ignori
+sc-review-form-keyboard-usage-custom = Vi ankaŭ povas uzi klavarajn mallongigojn: { sc-review-form-button-approve-shortcut } por akcepti, { sc-review-form-button-reject-shortcut } por rifuzi, { sc-review-form-button-skip-shortcut } por preterlasi
 sc-review-form-button-submit =
     .submitText = Fini kontrolon
 # Variables:
