@@ -26,3 +26,6 @@ do-not-section-title = non
 do-not-section-guideline-1 = Sollicitar informationes de identification personal (como nomines o informationes financiari)
 do-not-section-guideline-2 = Exprimer o sollicitar sentimentos interessate o offensive
 do-not-section-guideline-3 = Demandar questiones sensibile
+# Code switching Guidelines
+cs-do-section-guideline-1 = Usar questiones o contexto bilingual
+cs-do-not-section-guideline-3 = Usar un linguage troppo formal

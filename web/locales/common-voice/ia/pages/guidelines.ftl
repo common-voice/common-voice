@@ -167,6 +167,8 @@ transcribe-the-audio-subheader-1-explanation-example-3 = Etiquettar significativ
 transcribe-the-audio-subheader-1-explanation-example-4 = Variationes grammatical e slang deberea esser registrate exactemente como illos occurre.
 transcribe-the-audio-subheader-2-explanation-1 = Numeros e symbolos deberea esser scribite in parolas plus tosto que usar numerales o characteres special.
 transcribe-the-audio-subheader-2-explanation-2 = Acronymos deberea esser scribite como illos es normalmente scripte in le lingua, sequente regulas standard pro le majusculas. Exemplo:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Correcte</correct>: il es cento millias distante de ci
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Errate</wrong>: il es 100 millias distante del ci
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
@@ -193,8 +195,11 @@ tags-noise-explanation =
     Ulle altere typo de ruito, tal como quando le parlator tussi o clara su gorga,
     un klaxonar de auto, le sono de alco que colpa le microphono, un stridor de telephono, etc.
 transcribe-the-audio-subheader-4-explanation-1 = Le discurso spontanee naturalmente contine false partitas ubi solo un fragmento de un parola integre es producite. Pro iste instantias, per favor transcribe al melior de tu habilitate le fragmento de parola e affixa un tracto de union al fin del parola (-) pro indicar le parola es un false initio. Exemplo:
+transcribe-the-audio-subheader-4-explanation-1-example = Su nomine es <underline>Jo- Jona-</underline> Jonatha.
 transcribe-the-audio-subheader-4-explanation-2 = Aliquando le parlantes repetera un parola o un fragmento de parola plure vices. Iste deberea esser transcribite anque. Exemplo:
 transcribe-the-audio-subheader-4-explanation-2-example = E pois io veniva a <underline>le le le cam- le</underline> camera a dormir
+transcribe-the-audio-subheader-5-explanation-1 = Le discurso spontanee naturalmente continera errores grammatical. Istos non deberea esser corrigite dum on los transcribera. Le transcription debe reflecter le contento parlate exactemente.
+transcribe-the-audio-subheader-5-explanation-2 = Parlantes pote usar colloquialismos (tal como, in anglese, “gonna”, “cuz”, etc.) que pote non esser considerate formalmente correcte. Istos deberea esser transcribite como illos es, e non cambiate a lor equivalentes plus formal.
 
 ## Review the Transcription
 

@@ -146,3 +146,44 @@ answer-questions-subheader = Genel yönergeler
 transcribe-the-audio-subheader-1 = Genel yönergeler
 transcribe-the-audio-subheader-2 = Sayılar ve kısaltmalar
 transcribe-the-audio-subheader-3 = Özel etiketler
+tags-table-header-2 = Anlam
+tags-laugh = Gülme
+tags-disfluency = Akıcı olmayan konuşma
+tags-unclear = Net değil
+tags-noise = Gürültü
+tags-laugh-explanation = Gülme sesi.
+tags-unclear-explanation = Anlaşılamayan bir sözcük ya da sözcük dizisi.
+
+## Review the Transcription
+
+review-the-transcription-subheader = Genel yönergeler
+
+## Code-Switching
+
+adding-a-question = Soru ekleme
+# Adding a Question
+code-switching-adding-question-subheader = İyi bir soru nasıl olur?
+code-switching-adding-question-explanation = Kitlesel katılımla oluşturulan veri kümeleri için iyi bir soru:
+code-switching-adding-question-criteria-1 = Anlaşılması ve yanıtlanması kolay olmalı
+code-switching-adding-question-criteria-2 = Genel konularla ilgili olmalı
+code-switching-adding-question-criteria-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
+code-switching-adding-question-note = Farklı bağlamları ve alanları da kapsamayı düşünebilirsiniz.
+# What types of questions to add
+code-switching-types-subheader = Ne tür sorular eklemelisiniz?
+code-switching-review-criterion-1 = Anlaşılması ve yanıtlanması kolay olmalı
+code-switching-review-criterion-2 = Genel konularla ilgili olmalı
+code-switching-review-criterion-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
+code-switching-review-offensive-content = <bold>Rahatsız edici içerik veya hassas bilgiler</bold>
+code-switching-answer-header = Rahatsız edici içerik veya hassas bilgiler
+code-switching-review-no-1 = Kişisel kimlik bilgilerini vermekle sonuçlanabilecek sorular
+code-switching-review-no-2 = Nefret söylemi, önyargılı ya da saldırgan ifadeler içerebilecek yanıtları tetikleyebilecek sorular
+code-switching-review-no-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
+# Tagging
+code-switching-tagging-subheader = Etiketleme
+code-switching-tagging-error-1 = Yanlış noktalama veya büyük harf kullanımı
+code-switching-tagging-error-2 = Yazım hataları
+code-switching-not-tag-interjections-example-2 = “Hayır”
+
+## Reporting Content
+
+reporting-content-subheader = Genel yönergeler
