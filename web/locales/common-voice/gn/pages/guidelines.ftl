@@ -140,8 +140,16 @@ example-questions-explanation-2 = Remondoséramo peteĩ porandu aty rehegua oñe
 # Answer Questions
 answer-questions = Embohovái Porandu
 answer-questions-subheader = Ñembohape guasu
+answer-questions-tip-1 = Egrava peteĩ tenda hyapu’ỹhápe
+# Transcribe the Audio
+transcribe-the-audio = Emonguatia Mba’epu
+transcribe-the-audio-subheader-1 = Ñembohape guasu
+transcribe-the-audio-subheader-2 = Papapy ha akrónimo
+transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
 tags-table-header-1 = Teramoĩ
 tags-table-header-2 = He’iséva
 tags-laugh = Puka
 tags-disfluency = Ñe’ẽpa’ã
+tags-unclear = Hesakã’ỹva
 tags-noise = Tyapu
+tags-laugh-explanation = Jepuka ryapu.
