@@ -153,3 +153,11 @@ tags-disfluency = Ñe’ẽpa’ã
 tags-unclear = Hesakã’ỹva
 tags-noise = Tyapu
 tags-laugh-explanation = Jepuka ryapu.
+
+## Code-Switching
+
+code-switching = Ayvu ñemoambue
+adding-a-question = Embojuaju Porandu
+# Adding a Question
+code-switching-adding-question-subheader = ¿Mba’e pe omoporãvéva porandu?
+code-switching-adding-question-explanation = Porandu iporãva mba’ekuaarãme g̃uarã opavave ojapóva orekova’erã:
