@@ -161,3 +161,10 @@ adding-a-question = Embojuaju Porandu
 # Adding a Question
 code-switching-adding-question-subheader = ¿Mba’e pe omoporãvéva porandu?
 code-switching-adding-question-explanation = Porandu iporãva mba’ekuaarãme g̃uarã opavave ojapóva orekova’erã:
+code-switching-adding-question-criteria-1 = Ndahasýi iñeikumby ha iñembohovái
+code-switching-adding-question-criteria-2 = Hetave jey hekoporãva’erã
+code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva.
+# What types of questions to add
+code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
+code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
+code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
