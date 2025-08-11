@@ -137,3 +137,12 @@ offensive-content-sensitive-information-explanation-explanation-3 = Olyan kérd�
 example-questions-subheader = Példakérdések
 example-questions-explanation-1 = <examplePromptsLink>120 példakérdést talál ezen a lapon.</examplePromptsLink>
 example-questions-explanation-2 = Ha egy kérdéscsoportot küldene be feldolgozásra, akkor a <githubLink>GitHubon keresztül teheti meg</githubLink>, vagy küldje el a listáját e-mailben a <emailFragment>commonvoice@mozilla.com</emailFragment> címre.
+
+## Spontaneous Speech sidebar content
+
+transcribe-the-audio-subheader-1-explanation = Általában le kell írnia mindent, amit hall. Ez ezt takarja:
+
+## Code-Switching
+
+code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
+code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a helyesírása szerint, amelyből származnak. Például:

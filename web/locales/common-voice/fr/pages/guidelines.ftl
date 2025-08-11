@@ -165,6 +165,16 @@ transcribe-the-audio-subheader-1-explanation-example-4 = De retranscrire fidèle
 transcribe-the-audio-subheader-2-explanation-1 = Les nombres et les symboles doivent être rédigés en toutes lettres plutôt qu’avec des chiffres ou des caractères spéciaux. Par exemple :
 transcribe-the-audio-subheader-2-explanation-2 = Les acronymes doivent être retranscrits tels qu’ils s’écrivent habituellement dans la langue, en respectant les règles standard de capitalisation. Ils ne doivent pas être retranscrits phonétiquement. Par exemple :
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = <correct> Correct</correct> : C’est à un kilomètre d’ici
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Correct</correct> : C’est à cent kilomètres d’ici
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Incorrect</wrong> : C’est à 100 kilomètres d’ici
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Correct</correct> : Rendez-vous en <underline>deux mille quinze</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Incorrect</wrong> : Rendez-vous en <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Correct</correct> : La remise est de vingt pourcents
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Incorrect</wrong> : La remise est de 20 %
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Correct</correct> : Ils ont été arrêtés par le <underline>FBI</underline> jeudi dernier
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Incorrect</wrong> : Ils ont été arrêtés par le <underline>haie feu bi aïe</underline> jeudi dernier
+transcribe-the-audio-subheader-3-explanation = Les balises spéciales suivantes doivent être utilisées pour indiquer les disfluences, les remplissages et d’autres contenus non verbaux (en anglais).
+tags-table-header-1 = Balise
