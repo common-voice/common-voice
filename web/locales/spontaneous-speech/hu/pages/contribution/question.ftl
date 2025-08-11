@@ -26,3 +26,5 @@ do-not-section-title = ne
 do-not-section-guideline-1 = Kérjen személyazonosításra alkalmas adatokat (például neveket vagy pénzügyi információkat)
 do-not-section-guideline-2 = Fejezzen ki előítéletes vagy sértő érzéseket
 do-not-section-guideline-3 = Tegyen fel kényes kérdéseket
+# Code switching Guidelines
+cs-do-section-guideline-1 = Kétnyelvű kérdések vagy környezet használata
