@@ -167,6 +167,17 @@ transcribe-the-audio-subheader-1-explanation-example-3 = Etiquettar significativ
 transcribe-the-audio-subheader-1-explanation-example-4 = Variationes grammatical e slang deberea esser registrate exactemente como illos occurre.
 transcribe-the-audio-subheader-2-explanation-1 = Numeros e symbolos deberea esser scribite in parolas plus tosto que usar numerales o characteres special.
 transcribe-the-audio-subheader-2-explanation-2 = Acronymos deberea esser scribite como illos es normalmente scripte in le lingua, sequente regulas standard pro le majusculas. Exemplo:
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Errate</wrong>: il es 100 millias distante del ci
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Correcte</correct>: a revider in <underline>vinti dece-cinque</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Errate</wrong>: a revider in <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Correcte</correct>: il era vinti per cento disactivate
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Errate</wrong>: il era 20% disactivate
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Correcte</correct>: Illes era arrestate per le <underline>FBI</underline> le ultime jovedi
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Errate</wrong>: Illes era arrestate per le <underline>eff bee eye</underline> le ultime jovedi
+transcribe-the-audio-subheader-3-explanation = Le sequente etiquettas special deberea esser usate pro marcar imprecisiones, repletores e altere typos de contento non-verbal (in anglese).
 tags-table-header-1 = Tag
 tags-table-header-2 = Significato
 tags-laugh = Riso
@@ -174,6 +185,16 @@ tags-disfluency = Dysfluencia
 tags-unclear = Poco clar
 tags-noise = Ruito
 tags-laugh-explanation = Le sono de riso.
+tags-disfluency-explanation =
+    Un parola o sono repletor usate como marca-posto dum un parlator decide que dicer.
+    In anglese, alcun commun sonos de hesitation es “err”, “um”, “huh”, etc.
+tags-unclear-explanation = Un parola o un sequentia de parolas que non pote esser comprendite.
+tags-noise-explanation =
+    Ulle altere typo de ruito, tal como quando le parlator tussi o clara su gorga,
+    un klaxonar de auto, le sono de alco que colpa le microphono, un stridor de telephono, etc.
+transcribe-the-audio-subheader-4-explanation-1 = Le discurso spontanee naturalmente contine false partitas ubi solo un fragmento de un parola integre es producite. Pro iste instantias, per favor transcribe al melior de tu habilitate le fragmento de parola e affixa un tracto de union al fin del parola (-) pro indicar le parola es un false initio. Exemplo:
+transcribe-the-audio-subheader-4-explanation-2 = Aliquando le parlantes repetera un parola o un fragmento de parola plure vices. Iste deberea esser transcribite anque. Exemplo:
+transcribe-the-audio-subheader-4-explanation-2-example = E pois io veniva a <underline>le le le cam- le</underline> camera a dormir
 
 ## Review the Transcription
 
