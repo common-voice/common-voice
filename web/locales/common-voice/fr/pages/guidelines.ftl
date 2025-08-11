@@ -4,6 +4,7 @@ guidelines-header-subtitle = Comprendre comment ajouter et valider des phrases e
 voice-collection = Collecte de voix
 sentence-collection = Collecte de phrases{ " " }
 question-collection = Collecte de questions
+dont-subheader = À proscrire
 
 ## Voice Collection nav ids
 
@@ -132,6 +133,7 @@ process-steps-explanation = Des questions qui demandent à dresser une liste de 
 offensive-content-sensitive-information = Contenu choquant ou informations sensibles
 offensive-content-sensitive-information-explanation-explanation-1 = Des questions susceptibles de demander des données personnelles
 offensive-content-sensitive-information-explanation-explanation-2 = Des questions qui pourraient susciter des propos haineux, des préjugés ou des commentaires offensants
+offensive-content-sensitive-information-explanation-explanation-3 = Des questions qui peuvent amener un·e internaute à partager des informations sensibles et pouvant déclencher des réactions.
 example-questions-subheader = Exemples de questions
 example-questions-explanation-1 = Vous trouverez <examplePromptsLink>120 exemples de questions dans cette feuille.</examplePromptsLink>
 example-questions-explanation-2 = Si vous souhaitez soumettre une série de questions à intégrer, vous pouvez <githubLink>le faire via notre GitHub</githubLink> ou envoyer votre liste à l’adresse <emailFragment>commonvoice@mozilla.com.</emailFragment>
@@ -153,4 +155,7 @@ answer-questions-tip-6 = Maintenez un volume constant ; ne criez pas et ne chan
 transcribe-the-audio = Transcriptions audio
 transcribe-the-audio-subheader-1 = Instructions générales
 transcribe-the-audio-subheader-2 = Nombres et acronymes
+transcribe-the-audio-subheader-3 = Étiquettes spéciales
 transcribe-the-audio-subheader-5 = Erreurs grammaticales et expressions familières
+transcribe-the-audio-subheader-1-explanation-example-1 = De noter les disfluences, y compris les hésitations et les répétitions
+transcribe-the-audio-subheader-1-explanation-example-2 = D’ajouter des tags lorsqu’il y a des bruits, par exemple si l’on entend quelqu’un tousser ou rire
