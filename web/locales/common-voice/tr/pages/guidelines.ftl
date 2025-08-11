@@ -142,10 +142,15 @@ example-questions-explanation-2 = Besleme için çok sayıda soru göndermek ist
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Soru yanıtlama
 answer-questions-subheader = Genel yönergeler
+# Transcribe the Audio
+transcribe-the-audio = Ses kayıtlarını metne çevirme
 transcribe-the-audio-subheader-1 = Genel yönergeler
 transcribe-the-audio-subheader-2 = Sayılar ve kısaltmalar
 transcribe-the-audio-subheader-3 = Özel etiketler
+tags-table-header-1 = Etiket
 tags-table-header-2 = Anlam
 tags-laugh = Gülme
 tags-disfluency = Akıcı olmayan konuşma
@@ -156,6 +161,7 @@ tags-unclear-explanation = Anlaşılamayan bir sözcük ya da sözcük dizisi.
 
 ## Review the Transcription
 
+review-the-transcription = Çeviri metinleri inceleme
 review-the-transcription-subheader = Genel yönergeler
 
 ## Code-Switching

@@ -95,6 +95,9 @@ release-version = Sürüm
 dataset-date = Tarih
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
+# Support old genders in older datasets
+male = Erkek
+female = Kadın
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Ses verisi kümelerimizi indirin
 # MENU ITEM ARIA LABELS
