@@ -177,3 +177,14 @@ code-switching-dont-header = Nahániri
 code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
 # Reviewing a Question
 code-switching-review-subheader = Ehecha jey Porandu
+code-switching-review-criterion-2 = Hetave jey hekoporãva’erã
+code-switching-review-criterion-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+# Answering a Question
+code-switching-answer-subheader = Embohovaihína Porandu
+# Tagging
+code-switching-tagging-subheader = Teramoĩmbyre
+code-switching-tagging-error-2 = Jejavy taiguáva
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “Naháriri”
+code-switching-not-tag-interjections-example-3 = “Héẽ”
+code-switching-not-tag-interjections-example-4 = “Er”

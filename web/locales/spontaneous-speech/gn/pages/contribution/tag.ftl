@@ -1,5 +1,7 @@
 ## Tagging Page
 
+tag-popover-title = Eiporavo teramoĩ
+select-a-tag = Eiporavo teramoĩ
 # Shortcuts modal
 tag-page-shortcut-tag-language-1 = 1
 tag-page-shortcut-tag-language-2 = 2
