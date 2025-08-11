@@ -23,6 +23,16 @@ add-sentence-success = 1 frazo kolektita
 add-sentence-error = Eraro dum aldono de frazo
 sentence-domain-combobox-label = Temo de la frazo
 # Sentence Domain dropdown option
+finance = Financo
+# Sentence Domain dropdown option
+service_retail = Servoj kaj komerco
+# Sentence Domain dropdown option
+general = Ĝeneralaĵoj
+# Sentence Domain dropdown option
+healthcare = Sanzorgado
+# Sentence Domain dropdown option
+history_law_government = Historio, juro kaj registaro
+# Sentence Domain dropdown option
 language_fundamentals = Lingvaj fundamentoj (ekz. ciferoj, literoj, mono)
 # Sentence Domain dropdown option
 media_entertainment = Amaskomunikiloj kaj distraĵo
@@ -34,6 +44,7 @@ news_current_affairs = Novaĵoj kaj aktualaj aferoj
 technology_robotics = Teknologio kaj robotiko
 sentence-variant-select-label = Varianto de frazo
 sentence-variant-select-placeholder = Elektu varianton (nedevige)
+sentence-variant-select-multiple-variants = Ĝenerala lingvo / pluraj variantoj
 
 ## BULK SUBMISSION
 
@@ -53,6 +64,7 @@ too-many-files = Tro da dosieroj
 ## SMALL BATCH SUBMISSION
 
 small-batch-sentences-rule-2 = Aldonu po unu frazon en ĉiu linio
+small-batch-sentences-rule-4 = Aldoni ĝis 1000 frazojn
 # menu item
 add-sentences = Aldoni frazojn
 
@@ -60,3 +72,4 @@ add-sentences = Aldoni frazojn
 
 add-questions-menu-item-tooltip = Aldoni demandojn
 review-questions-menu-item-tooltip = Revizii demandojn
+transcribe-audio-menu-item-tooltip = Transskribi sonregistraĵojn

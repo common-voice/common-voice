@@ -81,3 +81,13 @@ add-questions = Aldoni demandojn
 review-questions = Kontroli demandojn
 transcribe-audio = Transkribi sonon
 press-and-stories = Gazetaro kaj artikoloj
+community-and-languages = Komunumoj kaj lingvoj
+coming-soon = Baldaŭ
+about-us = Pri ni
+
+## Action items section
+
+language-text-card-header = Lingva teksto
+coming-soon = Baldaŭ
+add-text = Aldoni tekston
+answer = Respondo

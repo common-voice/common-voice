@@ -156,9 +156,11 @@ transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawy</correct>: 
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Wopak</wrong>: Je 100 kilometrow wottud zdalene
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-correct = <correct> Prawy</correct>: Widźimy so w lěće <underline>dwaceći pjatnaće</underline>
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Prawje</correct>: Widźimy so w lěće <underline>dwaj tysac pjatnaće</underline>
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Widźimy so w <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Prawje</correct>: Běše dwaceći procentow rabata
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Běše 20 % rabata
 tags-table-header-1 = Značka
 tags-table-header-2 = Woznam
 tags-laugh = Smjeće
