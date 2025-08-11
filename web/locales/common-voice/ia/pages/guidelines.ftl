@@ -194,6 +194,10 @@ tags-unclear-explanation = Un parola o un sequentia de parolas que non pote esse
 tags-noise-explanation =
     Ulle altere typo de ruito, tal como quando le parlator tussi o clara su gorga,
     un klaxonar de auto, le sono de alco que colpa le microphono, un stridor de telephono, etc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    E pois io [ruito] continuava le vacantia.
+    Ben, [ruito] [riso] il non era exactemente un vacantia [riso]
 transcribe-the-audio-subheader-4-explanation-1 = Le discurso spontanee naturalmente contine false partitas ubi solo un fragmento de un parola integre es producite. Pro iste instantias, per favor transcribe al melior de tu habilitate le fragmento de parola e affixa un tracto de union al fin del parola (-) pro indicar le parola es un false initio. Exemplo:
 transcribe-the-audio-subheader-4-explanation-1-example = Su nomine es <underline>Jo- Jona-</underline> Jonatha.
 transcribe-the-audio-subheader-4-explanation-2 = Aliquando le parlantes repetera un parola o un fragmento de parola plure vices. Isto deberea esser transcribite anque. Exemplo:
@@ -205,6 +209,9 @@ transcribe-the-audio-subheader-5-explanation-2 = Parlantes pote usar colloquiali
 
 review-the-transcription = Revide le transcription
 review-the-transcription-subheader = Guida general
+review-the-transcription-explanation-1 = In general, nos adverti que le persona qui controla le transcription non deberea esser le mesme persona qui faceva le transcription original. Il es multo difficile verificar tu proprie labor! Haber plure lineas de revision pote adjutar a render le garantia del qualitate plus robuste, e adjutar mitigar prejudicios e problemas.
+review-the-transcription-explanation-2 = Revide le lineas guida del transcription supra pro verificar que un transcription es correcte. Tu pote fornir modificationes e inviar los.
+review-the-transcription-explanation-3 = Ancora, tu poter signalar contento que es offensive, malefic o alteremente preoccupante, e illo sera removite de tu experientia usque le equipa de Common Voice potera revider lo e investigar ulteriormente.
 
 ## Code-Switching
 
@@ -219,6 +226,13 @@ code-switching-adding-question-criteria-3 = Non usar, o sollicitar, linguage mal
 code-switching-adding-question-note = Tu poterea alsi considerar de extender lo a differente contextos e dominios.
 # What types of questions to add
 code-switching-types-subheader = Que typos de questiones adder?
+code-switching-use-bilingual-prompts-header = Usar suggestiones bilingue
+code-switching-use-bilingual-prompts-explanation = Usa suggestiones bilingue que incorpora ambe linguas in tu question: Exemplo:
+code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá when you got home that day?”
+code-switching-ask-bilingual-contexts-header = Demandar re contextos bilingue
+code-switching-ask-bilingual-contexts-explanation = Usar situationes ubi ambe linguas es communmente usate (p. ex., casa, schola, eventos de communitate). Exemplo:
+code-switching-ask-bilingual-contexts-explanation-example = “Quando tu parla a tu cosinos, esque tu misce espaniol e anglese?”
+code-switching-focus-emotional-header = Concentrar se sur momentos emotive o importante
 # What to Avoid
 code-switching-avoid-subheader = Que evitar
 code-switching-avoid-intro = Questiones que pote:

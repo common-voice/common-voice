@@ -140,6 +140,9 @@ example-questions-explanation-2 = Ha egy kérdéscsoportot küldene be feldolgoz
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Kérdések megválaszolása
+answer-questions-subheader = Általános útmutatás
 transcribe-the-audio-subheader-1-explanation = Általában le kell írnia mindent, amit hall. Ez ezt takarja:
 
 ## Code-Switching

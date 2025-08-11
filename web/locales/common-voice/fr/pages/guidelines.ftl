@@ -191,3 +191,24 @@ tags-unclear-explanation = Un mot ou une suite de mots qui ne peuvent pas être 
 transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
 transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre
+
+## Code-Switching
+
+adding-a-question = Ajouter une question
+# Adding a Question
+code-switching-adding-question-subheader = Quels sont les critères d’une bonne question ?
+code-switching-adding-question-explanation = Une question pertinente pour les jeux de données à participation publique doit :
+code-switching-adding-question-criteria-1 = Être facile à comprendre et à répondre
+code-switching-adding-question-criteria-2 = Être globalement pertinente
+# Reviewing a Question
+code-switching-review-subheader = Vérifier une question
+code-switching-review-intro = Assurez-vous que la question répond à ces critères :
+code-switching-review-criterion-1 = Être facile à comprendre et à répondre
+code-switching-review-criterion-2 = Être globalement pertinente
+code-switching-review-offensive-content = <bold>Contenu choquant ou informations sensibles</bold>
+code-switching-answer-header = Contenu choquant ou informations sensibles
+code-switching-review-no-1 = Des questions susceptibles de demander des données personnelles
+code-switching-review-no-2 = Des questions qui pourraient susciter des propos haineux, des préjugés ou des commentaires offensants
+code-switching-review-no-3 = Des questions qui peuvent amener un·e internaute à partager des informations sensibles et pouvant déclencher des réactions.
+# Answering a Question
+code-switching-answer-subheader = Répondre à une question
