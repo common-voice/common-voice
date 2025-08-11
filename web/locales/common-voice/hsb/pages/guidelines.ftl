@@ -152,7 +152,7 @@ transcribe-the-audio-subheader-2 = Ličby a akronymy
 transcribe-the-audio-subheader-3 = Wosebite znački
 transcribe-the-audio-subheader-4 = Słowne segmenty, wopačne spočatki, wospjetowane słowa
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawy</correct>: Je sto kilometrow wottud zdalene.
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawje</correct>: Je sto kilometrow wottud zdalene.
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Wopak</wrong>: Je 100 kilometrow wottud zdalene
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
@@ -167,6 +167,7 @@ tags-laugh = Smjeće
 tags-disfluency = Njeběžnosć
 tags-unclear = Njejasny
 tags-noise = Šum
+tags-laugh-explanation = Zynk smjeća.
 
 ## Review the Transcription
 

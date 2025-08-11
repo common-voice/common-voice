@@ -179,6 +179,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Riktig</correct>: 
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Feil</wrong>: Det var 20 % rabatt
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Riktig</correct>: De ble arrestert av <underline>FBI</underline> sist torsdag
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Feil</wrong>: De ble arrestert av <underline>eff beh i</underline> sist torsdag
+transcribe-the-audio-subheader-3-explanation = Følgende spesialtagger skal brukes for å markere nølingslyder, fyllord og andre typer ikke-verbalt innhold (på engelsk).
 tags-table-header-1 = Etikett
 tags-table-header-2 = Betydning
 tags-laugh = Latter
@@ -198,6 +199,10 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneholder naturlig nok falske starter, der bare en del av et ord blir uttalt. I slike tilfeller, prøv å transkribere ordfragmentet så godt du kan, og legg til en bindestrek (-) på slutten av ordet for å indikere at det er en falsk start. Eksempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et ord eller et ordfragment flere ganger. Dette skal også transkriberes. Eksempel:
+
+## Review the Transcription
+
+review-the-transcription-subheader = Generell veiledning
 
 ## Code-Switching
 

@@ -21,3 +21,9 @@ check-transcriptions = Revizii
 not-found-page-header = Ne trovita
 en = Angla
 fr = Franca
+
+## Language search component
+
+language-search-placeholder = Serĉi lingvon...
+language-search-aria-label = Serĉi lingvon
+language-search-no-results = Neniu lingvo trovita
