@@ -5,6 +5,7 @@ voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
 spontaneous-speech = Discorso spontaneo
+dont-subheader = Non
 
 ## Voice Collection nav ids
 
