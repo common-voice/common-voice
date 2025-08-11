@@ -58,6 +58,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
+activity-needed-calculation-fixed = 100 den oc'h enrollañ 100 frazenn bemdez a c'hell krouiñ 13 eurvezh a enrolladennoù aodio. Gant ar memes lusk e c'hell 1000 eurvezh bezañ enrollet dindan 3 miz.
 how-many-per-day = Dispar ! Pet klip an deiz ?
 how-many-a-week = Dispar ! Pet klip ar sizhun ?
 which-goal-type = Komz pe selaou a fell deoc'h ober, an daou ?

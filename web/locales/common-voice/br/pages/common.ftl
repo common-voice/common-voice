@@ -153,6 +153,7 @@ knn = Konkani (devanagari)
 ko = Koreaneg
 koo = Konzoeg
 kpv = Komieg-zirieg
+ks = Kachmireg
 ksf = Bafiaeg
 kw = Kerneveureg
 ky = Kirgizeg
@@ -161,6 +162,7 @@ leu = Karaeg
 lg = Gandaeg
 lij = Ligureg
 lke = Kenyeg
+lld = Ladineg
 ln = Lingalaeg
 lo = Laoseg
 lss = Lasseg
@@ -175,6 +177,7 @@ mau = Huautla Mazatec
 mbo = Mboeg
 mdf = Mokshaeg
 meh = Mikstekeg Yucuhiti
+mfe = Kreoleg Enez-Voris
 mg = Malgacheg
 mhr = Marieg ar pradeier
 mk = Makedoneg
@@ -216,6 +219,7 @@ os = Oseteg
 pa-IN = Punjabeg
 pap = Papiamento
 pap-AW = Papiamento (Aruba)
+pcd = Pikardeg
 pcm = Pidjin saoznek Nigeria
 phl = Paloulaeg
 pl = Poloneg
@@ -244,6 +248,7 @@ rm-vallader = Romañcheg vallader
 ro = Roumaneg
 ru = Rusianeg
 ruc = Ruuleg
+rup = Aroumaneg
 rw = Kinyarwanda
 sah = Yakouteg
 sat = Santali (Ol Chiki)
@@ -361,6 +366,12 @@ email-opt-in-info-sub-with-challenge = Resevit posteloù diwar-benn daeoù, koun
 email-opt-in-privacy-v2 = En ur asantiñ degemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget er <privacyLink>Politikerezh prevezded</privacyLink> Mozilla.
 indicates-required = * Rekis eo leuniañ ar maeziennoù merket gant ur steredennig (*).
 not-available-abbreviation = Dihegerz
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Eilañ
+# Text shown on a button that can be clicked to cancel an action
+cancel = Nullañ
+# Text shown on a button that can be clicked to delete an item
+delete = Dilemel
 
 ## Donate banner
 

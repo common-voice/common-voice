@@ -168,3 +168,12 @@ code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’�
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
+# What to Avoid
+code-switching-avoid-subheader = Mba’éicha emboykéta
+code-switching-avoid-intro = Porandu ikatúva:
+code-switching-avoid-1 = Ejerure marandu tapicha mba’eteéva rehegua
+code-switching-dont-header = Nahániri
+code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
+# Reviewing a Question
+code-switching-review-subheader = Ehecha jey Porandu
