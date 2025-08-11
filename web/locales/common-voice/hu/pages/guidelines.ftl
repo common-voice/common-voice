@@ -149,3 +149,4 @@ transcribe-the-audio-subheader-1-explanation = Általában le kell írnia minden
 
 code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
 code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a helyesírása szerint, amelyből származnak. Például:
+code-switching-orthography-explanation-example-2 = Ha a quinceaños szót úgy ejtik ki, ahogy angolul mondják, akkor írja ñ betűvel.
