@@ -135,3 +135,17 @@ offensive-content-sensitive-information-explanation-explanation-2 = Des question
 example-questions-subheader = Exemples de questions
 example-questions-explanation-1 = Vous trouverez <examplePromptsLink>120 exemples de questions dans cette feuille.</examplePromptsLink>
 example-questions-explanation-2 = Si vous souhaitez soumettre une série de questions à intégrer, vous pouvez <githubLink>le faire via notre GitHub</githubLink> ou envoyer votre liste à l’adresse <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Répondre à des questions
+answer-questions-subheader = Instructions générales
+answer-questions-explanation-1 = Réfléchissez un instant à la question, réfléchissez à ce que vous voulez répondre, mais ne préparez pas de réponse mot à mot. Cliquez sur l’icône « Enregistrer ». Une fois que vous avez enregistré votre réponse, vous pouvez l’écouter, la réenregistrer, la supprimer ou l’envoyer.
+answer-questions-explanation-2 = Ne vous inquiétez pas, si vous bégayez, faites une pause ou répétez un mot. Toutes ces données sont utiles pour les ingénieurs qui tentent de créer des outils de reconnaissance vocale inclusifs et concrets.
+answer-questions-tip-1 = Enregistrez dans un endroit relativement calme
+answer-questions-tip-2 = Choisissez un endroit avec une bonne connexion Internet
+answer-questions-tip-3b = Essayez de limiter votre temps de réponse à 15-30 secondes
+answer-questions-tip-4 = Évitez les propos haineux, provocateurs ou offensants
+answer-questions-tip-5 = Exprimez-vous de manière naturelle, comme si vous discutiez avec un ami. Utilisez votre variante, votre dialecte et votre accent
+answer-questions-tip-6 = Maintenez un volume constant ; ne criez pas et ne chantez pas
