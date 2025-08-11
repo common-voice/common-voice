@@ -149,3 +149,8 @@ answer-questions-tip-3b = Essayez de limiter votre temps de réponse à 15-30 s
 answer-questions-tip-4 = Évitez les propos haineux, provocateurs ou offensants
 answer-questions-tip-5 = Exprimez-vous de manière naturelle, comme si vous discutiez avec un ami. Utilisez votre variante, votre dialecte et votre accent
 answer-questions-tip-6 = Maintenez un volume constant ; ne criez pas et ne chantez pas
+# Transcribe the Audio
+transcribe-the-audio = Transcriptions audio
+transcribe-the-audio-subheader-1 = Instructions générales
+transcribe-the-audio-subheader-2 = Nombres et acronymes
+transcribe-the-audio-subheader-5 = Erreurs grammaticales et expressions familières
