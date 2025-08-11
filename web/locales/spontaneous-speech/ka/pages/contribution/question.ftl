@@ -27,4 +27,5 @@ do-not-section-guideline-1 = ითხოვდეს პირის ამო�
 do-not-section-guideline-2 = გამოხატავდეს ან მოითხოვდეს მავნე თუ უხამს წინადადებებს
 do-not-section-guideline-3 = მოიცავდეს სათუთ და საფრთხილო ხასიათის კითხვებს
 # Code switching Guidelines
-cs-do-section-guideline-1 = მოიცავდეს ორენოვან კითხვებს ან შინაარსს
+cs-do-section-guideline-1 = გამოიყენებოდეს ორენოვანი კითხვები ან შინაარსი
+cs-do-not-section-guideline-1 = ითხოვდეს პირის ამოსაცნობ მონაცემებს (თუნდაც სახელს ან შემოსავლებს)
