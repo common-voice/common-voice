@@ -127,3 +127,7 @@ contribution-misreadings-example-8-title = Bondarul a zburat pe lângă ei cu vi
 contribution-misreadings-example-8-explanation = [Textul citit nu corespunde textului scris]
 contribution-varying-pronunciations-title = Pronunții diverse
 contribution-varying-pronunciations-description = Ai grijă înainte de a respinge o secvență audio pe motiv că cititorul a pronunțat greșit un cuvânt, a pus accentul pe silaba greșită, sau a ignorat un semn de întrebare. Chiar dacă nu ai mai auzit o astfel de pronunție sau un astfel de accent în comunitatea ta, asta nu înseamnă neapărat că ele sunt automat și incorecte. Gândește-te că unii pot vorbi un pic diferit față de tine.
+contribution-varying-pronunciations-description-extended = Pe de altă parte, când consideri că persoana care citește nu a mai întâlnit cuvântul respectiv și doar ghicește (incorect, în cazul de față) cum ar trebui pronunțat, te rugăm să respingi acea înregistrare. Dacă nu ești sigur, folosește butonul „Sari peste”.
+contribution-varying-pronunciations-example-1-title = Sigur nu ne vom mai vedea.
+contribution-varying-pronunciations-example-1-explanation = [„Sigur” este pronunțat corect chiar dacă se pune accentul pe prima silabă (cum o fac vorbitorii din Moldova sau Țara Românească) sau pe a doua (cum o fac vorbitorii din Transilvania)]
+contribution-varying-pronunciations-example-2-title = Nu fi rău!

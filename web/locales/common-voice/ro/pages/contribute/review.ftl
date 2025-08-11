@@ -1,6 +1,7 @@
 ## REVIEW
 
 sc-review-title = Examinează propozițiile
+sc-review-form-button-skip = Sari peste
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =

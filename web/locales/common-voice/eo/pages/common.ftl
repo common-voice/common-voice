@@ -5,6 +5,7 @@
 ## Languages
 
 aa = Afara
+aat = Arvanitika
 ab = Abĥaza
 abb = Bankona
 abq = Abaza
@@ -20,11 +21,22 @@ arn = Mapuĉa
 as = Asama
 ast = Astura
 az = Azerbajĝana
+azz = Naŭatla el la montaro de Puebla
 ba = Baŝkira
+bag = Tukia
 bal = Baluĉa
 bas = Basaa
+bax = Bamuna
+bba = Bariba
+bbj = Gomala
+bbl = Bacba
+bci = Baŭlea
 be = Bjelorusa
+beb = Bamvela
+bew = Betaŭia
+bfd = Bafuta
 bg = Bulgara
+bkm = Komia
 bn = Bengala
 bo = Tibeta
 br = Bretona
