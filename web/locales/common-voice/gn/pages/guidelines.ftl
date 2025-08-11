@@ -4,6 +4,9 @@ guidelines-header-subtitle = Eikuaa mba’éichapa eipytyvõ ha emoneĩta ñe’
 voice-collection = Ayvu Ñembyaty
 sentence-collection = Ñe’ẽsyry ñembyaty
 question-collection = Porandu Aty
+scripted-speech = Ñe’ẽsyry hapéva
+spontaneous-speech = Ñe’ẽsyry hape’ỹva
+dont-subheader = Nahániri
 
 ## Voice Collection nav ids
 
@@ -131,3 +134,14 @@ offensive-content-sensitive-information-explanation-explanation-3 = Porandu ikat
 example-questions-subheader = Porandu techapyrãva
 example-questions-explanation-1 = Ejuhukuaa <examplePromptsLink>120 techapyrã oĩva ko kuatiaroguépe.</examplePromptsLink>
 example-questions-explanation-2 = Remondoséramo peteĩ porandu aty rehegua oñeikumby porã hag̃ua, ikatu ejapo ore GitHub rupive</githubLink> térã emondo tysýi ñanduti veve rupive <emailFragment>commonvoice@mozilla.com-pe.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Embohovái Porandu
+answer-questions-subheader = Ñembohape guasu
+tags-table-header-1 = Teramoĩ
+tags-table-header-2 = He’iséva
+tags-laugh = Puka
+tags-disfluency = Ñe’ẽpa’ã
+tags-noise = Tyapu

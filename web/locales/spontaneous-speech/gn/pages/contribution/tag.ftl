@@ -17,3 +17,9 @@ select-all = Mbosa’ypa
 # Messages
 tag-success-toast-message = Ohóma teramoĩ hekoitépe
 tag-error-toast-message = Ojavy teramoĩ ñemondo
+cs-tag-shortcuts-section-title = Tairenda jeporu
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Teramoĩ  ñe’ẽ ndive
+cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
+cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
+cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
+cs-tag-shortcuts-guideline-5 = <key>{ tag-page-shortcut-tag-undo }</key> { undo }
