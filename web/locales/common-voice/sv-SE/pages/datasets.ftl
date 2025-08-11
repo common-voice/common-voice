@@ -95,6 +95,9 @@ release-version = Version
 dataset-date = Datum
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandat
+# Support old genders in older datasets
+male = Man
+female = Kvinna
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Ladda ner våra röstdatamängder
 # MENU ITEM ARIA LABELS
