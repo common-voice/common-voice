@@ -32,6 +32,7 @@ continue-with-skipped = Fortsett med hoppet over
 question = Spørsmål
 validate = Valider
 respond-to-prompt = Svar på spørsmål
+respond-to-prompt-mobile = Svar
 transcribe = Transkribere
 check-transcriptions = Sjekk transkripsjoner
 

@@ -1,4 +1,4 @@
-action-click = Fă clic pe
+action-click = Dă clic pe
 action-tap = Atinge
 contribute = Contribuie
 review = Examinează
@@ -149,3 +149,6 @@ contribution-volume-description = Este de așteptat să existe variații de volu
 contribution-reader-effects-title = Particularități ale vocilor cititorilor
 contribution-reader-effects-description = Majoritatea înregistrărilor sunt făcute de oameni care citesc cu vocea lor obișnuită. Poți accepta uneori și înregistrări mai neobișnuite care sunt strigate, șoptite, sau declamate ca într-o piesă de teatru. Acestea fiind spuse, trebuie respinse înregistrările cântate, precum și cele care utilizează o voce artificială, sintetizată de calculator.
 contribution-just-unsure-title = Eziți?
+contribution-just-unsure-description = Dacă dai peste un aspect care nu a fost menționat în aceste instrucțiuni, folosește-ți intuiția de vorbitor nativ. Dacă nu te poți hotărî, apasă pe butonul „Sari peste” și treci la următoarea înregistrare.
+see-more = <chevron></chevron>Vezi mai multe
+see-less = <chevron></chevron>Vezi mai puține

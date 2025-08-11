@@ -85,6 +85,7 @@ api-credentials-use-case-2 = Henter datasett
 api-credentials-use-case-3 = Analysere og forbedre talemodeller
 api-credentials-description-conclusion = Bli med oss for å utvikle stemmeteknologi og legge til rette for flere brukerbidrag.
 create-api-key-button = Opprett API-innloggingsinformasjon
+your-api-keys = Dine API-innloggingsopplysninger
 save-api-key-info = <bold>Oppbevar nøklene dine sikkert</bold>
 save-api-key-info-description = Oppbevar nøklene dine trygt og unngå å eksponere dem via offentlige lagringsplasser. Den HEMMELIGE nøkkelen er bare tilgjengelig nå og vil ikke vises igjen.
 api-client-id-display-label = API-klient-ID
