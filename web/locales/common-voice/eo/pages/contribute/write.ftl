@@ -46,7 +46,17 @@ what-needs-to-be-in-file = Kio devas nepre esti en mia dosiero?
 upload-progress-text = Alŝuto...
 bulk-upload-failed-toast = Alŝuto malsukcesis, bonvolu reprovi.
 file-invalid-type = Nevalida dosiero
+file-too-large = Dosiero tro granda
+file-too-small = Dosiero tro malgranda
+too-many-files = Tro da dosieroj
+
+## SMALL BATCH SUBMISSION
+
+small-batch-sentences-rule-2 = Aldonu po unu frazon en ĉiu linio
+# menu item
+add-sentences = Aldoni frazojn
 
 ## MENU ITEM TOOLTIPS
 
+add-questions-menu-item-tooltip = Aldoni demandojn
 review-questions-menu-item-tooltip = Revizii demandojn

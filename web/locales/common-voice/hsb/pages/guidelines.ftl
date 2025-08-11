@@ -155,6 +155,10 @@ transcribe-the-audio-subheader-4 = Słowne segmenty, wopačne spočatki, wospjet
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawy</correct>: Je sto kilometrow wottud zdalene.
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Wopak</wrong>: Je 100 kilometrow wottud zdalene
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Prawy</correct>: Widźimy so w lěće <underline>dwaceći pjatnaće</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Widźimy so w <underline>2015</underline>
 tags-table-header-1 = Značka
 tags-table-header-2 = Woznam
 tags-laugh = Smjeće

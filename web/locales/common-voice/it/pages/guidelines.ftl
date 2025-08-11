@@ -172,3 +172,19 @@ tags-unclear = Non chiaro
 tags-noise = Rumore
 tags-laugh-explanation = Il suono di una risata.
 tags-unclear-explanation = Una parola o una sequenza di parole incomprensibili.
+
+## Review the Transcription
+
+review-the-transcription-subheader = Guida generale
+review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. È possibile apportare modifiche e inviarle.
+
+## Code-Switching
+
+# Adding a Question
+code-switching-adding-question-subheader = Quali sono i requisiti per una buona domanda?
+code-switching-adding-question-criteria-1 = Essere sia facile da capire che facile a cui rispondere
+code-switching-adding-question-criteria-2 = Essere generalmente appropriata
+code-switching-adding-question-criteria-3 = Non contenere o incoraggiare l’uso di linguaggio offensivo o oltraggioso
+code-switching-adding-question-note = Considera anche l’inclusione di contesti e domini diversi.
+# What types of questions to add
+code-switching-types-subheader = Che tipo di domande aggiungere?

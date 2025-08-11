@@ -72,3 +72,12 @@ help-contribute = Vi povas helpi konstrui diversan, malfermitkodan datumaron per
 login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
 read-more-about = Pli da informo en la paĝo: Pri Common Voice
+
+## NAV ITEMS
+
+answer-questions = Respondi demandojn
+review-transcriptions = Kontroli transkriboj
+add-questions = Aldoni demandojn
+review-questions = Kontroli demandojn
+transcribe-audio = Transkribi sonon
+press-and-stories = Gazetaro kaj artikoloj

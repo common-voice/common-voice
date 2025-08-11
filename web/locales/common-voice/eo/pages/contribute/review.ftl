@@ -1,5 +1,7 @@
 ## REVIEW
 
+sc-review-title = Kontroli frazojn
+sc-review-loading = Frazoj ŝargataj…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Fonto: { $sentenceSource }
