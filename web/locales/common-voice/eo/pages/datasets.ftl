@@ -95,6 +95,9 @@ release-version = Versio
 dataset-date = Date
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
+# Support old genders in older datasets
+male = Vira
+female = Ina
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Elŝuti niajn voĉajn datumarojn
 # MENU ITEM ARIA LABELS

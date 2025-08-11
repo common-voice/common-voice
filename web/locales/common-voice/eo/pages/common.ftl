@@ -116,11 +116,14 @@ kn = Kanara
 knn = Konkana (nagaria)
 ko = Korea
 kpv = Komiziriana
+ksf = Bafia
 kw = Korniŝa
 ky = Kirgiza
 lb = Luksemburga
 lg = Ganda
 lij = Ligura
+lld = Ladina
+lo = Laŭa
 lt = Litova
 lv = Latva
 mai = Maitila
@@ -140,6 +143,7 @@ my = Birma
 myv = Erzja
 nan-tw = Hokla
 nb-NO = Norvega Bokmål
+ncx = Naŭatla el la centro de Puebla
 ne-NP = Nepala
 nia = Niasa
 nl = Nederlanda
@@ -163,7 +167,9 @@ sah = Jakuta
 sat = Santala
 sc = Sarda
 scn = Sicilia
+sdh = Suda kurda
 shi = Ŝelha
+shn = Ŝana
 si = Sinhala
 sk = Slovaka
 skr = Sarajkia
@@ -215,6 +221,7 @@ privacy = Privateco
 terms = Kondiĉoj
 cookies = Kuketoj
 faq = Oftaj demandoj
+documentation = Dokumentaro
 content-license-text = Enhavo disponebla sub <licenseLink>permesilo Creative Commons</licenseLink>
 share-title = Helpu nin trovi aliajn, kiuj volos donaci siajn voĉojn!
 share-text = Helpu instrui al maŝinoj kiel veraj homoj parolas, donacu vian voĉon ĉe { $link }
@@ -234,10 +241,20 @@ email-opt-in-info-sub-with-challenge = Ricevi retpoŝtmesaĝojn, kiel ekzemple m
 email-opt-in-privacy-v2 = Se vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko</privacyLink> de Mozilla.
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopii
+# Text shown on a button that can be clicked to cancel an action
+cancel = Nuligi
+# Text shown on a button that can be clicked to delete an item
+delete = Forigi
 
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Ni bezonas</mark><br/><mark>vian helpon!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Kostas preskaŭ milionon da dolaroj jare distribui la datumarojn kaj plibonigi la platformon por la pli ol 100 lingvaj komunumoj, kiuj dependas de nia agado. <strong>Se vi aprezas malfermajn, inkluzivajn datumojn - donacu hodiaŭ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Ĉu vi uzas Common Voice por</mark><br/><mark>via esplorado?</mark>
 localization-select =
     .label = Elekti lingvon/tradukon

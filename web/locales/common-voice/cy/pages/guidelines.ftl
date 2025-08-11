@@ -166,3 +166,20 @@ transcribe-the-audio-subheader-1-explanation-example-2 = Labelu digwyddiadau sŵ
 transcribe-the-audio-subheader-1-explanation-example-3 = Labelu llygredd sŵn sylweddol, fel sgwrsio cefndirol neu gorn car
 transcribe-the-audio-subheader-1-explanation-example-4 = Cofnodwch amrywiad gramadegol a slang yn union fel y mae'n digwydd. Peidiwch â chywiro na golygu lleferydd pobl.
 transcribe-the-audio-subheader-2-explanation-1 = Rhaid sillafu rhifau a symbolau mewn geiriau yn hytrach na defnyddio rhifolion neu nodau arbennig. Enghraifft:
+transcribe-the-audio-subheader-2-explanation-2 = Rhaid ysgrifennu acronymau gan eu bod yn cael eu hysgrifennu fel arfer yn yr iaith, gan ddilyn rheolau priflythrenu safonol. Peidiwch a'u trawsgrifio'n ffonetig. Enghraifft:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Cywir</correct>: Mae can milltir i ffwrdd o fan hyn
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <cywir> Anghywir</ anghywir>: Mae 100 milltir i ffwrdd o fan hyn
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <cywir> Cywir</correct>: Welwn ni chi yn <underline>dau ddeg un deg pump</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Anghywir</ anghywir>: Welwn ni chi yn <tanlinellu>2015</tanlinell>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Cywir</correct>: Roedd yn ostyngiad o ugain y cant
+transcribe-the-audio-subheader-2-example-3-wrong = <cywir> Anghywir</ anghywir>: Roedd yn ostyngiad o 20%
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Cywir</correct>: Mae'r ddau'n aelodau o <underline>UCAC</underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Anghywir</wrong>: Mae'r ddau'n aelodau o <underline>icac</underline>
+transcribe-the-audio-subheader-3-explanation = Rhaid defnyddio'r tagiau arbennig canlynol i nodi anghysondebau, llenwyr a mathau eraill o gynnwys di-eiriau (yn Saesneg).
+tags-table-header-1 = Tag
+tags-table-header-2 = Ystyr
+tags-laugh = Chwerthin
