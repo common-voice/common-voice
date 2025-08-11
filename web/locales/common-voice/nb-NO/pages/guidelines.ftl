@@ -203,9 +203,24 @@ transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et o
 ## Review the Transcription
 
 review-the-transcription-subheader = Generell veiledning
+review-the-transcription-explanation-3 = Igjen, du kan flagge innhold som er støtende, skadelig eller på annen måte bekymringsfullt, og det vil bli fjernet fra opplevelsen din inntil Common Voice-teamet kan gjennomgå det og undersøke det videre.
 
 ## Code-Switching
 
+code-switching = Kodebytte
+adding-a-question = Legge til et spørsmål
+# Adding a Question
+code-switching-adding-question-subheader = Hvordan ser et godt spørsmål ut?
+code-switching-adding-question-explanation = Et godt spørsmål for datasett for offentlig deltakelse bør:
+code-switching-adding-question-criteria-1 = Vær lett å forstå og svare på
+code-switching-adding-question-criteria-2 = Vær generelt relevant
+code-switching-adding-question-criteria-3 = Ikke bruk eller oppfordre til skadelig eller støtende språk
+code-switching-adding-question-note = Du bør kanskje også vurdere å strekke deg over forskjellige kontekster og domener.
+# What types of questions to add
+code-switching-types-subheader = Hvilke typer spørsmål skal legges til?
+code-switching-use-bilingual-prompts-header = Bruk tospråklige spørsmål
+code-switching-use-bilingual-prompts-explanation = Bruk tospråklige spørsmål som inkluderer begge språkene i spørsmålet ditt: Eksempel:
+code-switching-ask-bilingual-contexts-header = Spør om tospråklige kontekster
 code-switching-informal-scenarios-header = Utforsk uformelle situasjoner
 code-switching-informal-scenarios-explanation = Samtaler med venner eller tekstmeldinger inkluderer ofte mer naturlig veksling. Eksempel:
 code-switching-informal-scenarios-explanation-example = «Hva er en vits vennene dine alltid drar — og hvordan sier de den?»

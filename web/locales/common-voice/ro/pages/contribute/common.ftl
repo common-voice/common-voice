@@ -125,3 +125,5 @@ contribution-misreadings-example-7-title = Lucrarea pe care a terminat-o nu m-a 
 contribution-misreadings-example-7-explanation = [Nu există „m-” în textul original]
 contribution-misreadings-example-8-title = Bondarul a zburat pe lângă ei cu viteză.
 contribution-misreadings-example-8-explanation = [Textul citit nu corespunde textului scris]
+contribution-varying-pronunciations-title = Pronunții diverse
+contribution-varying-pronunciations-description = Ai grijă înainte de a respinge o secvență audio pe motiv că cititorul a pronunțat greșit un cuvânt, a pus accentul pe silaba greșită, sau a ignorat un semn de întrebare. Chiar dacă nu ai mai auzit o astfel de pronunție sau un astfel de accent în comunitatea ta, asta nu înseamnă neapărat că ele sunt automat și incorecte. Gândește-te că unii pot vorbi un pic diferit față de tine.
