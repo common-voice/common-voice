@@ -272,7 +272,17 @@ code-switching-answer-bullet-2 = Imagina que tu invia messages a un amico o cont
 code-switching-answer-bullet-3 = Usa parolas que tu amarea realmente usar, mesmo si prestate o miscite
 code-switching-answer-bullet-4 = Il non ha maniera “perfecte” de responder
 code-switching-authentic-header = Responder naturalmente e authenticamente
+code-switching-authentic-speak = <bold>Parla como tu amarea con amicos o familia.</bold> Si tu misce linguas in le vita real, face lo mesme ci.
+code-switching-use-both-languages = <bold>Usa ambe linguas si isto es como tu amarea normalmente dicer lo.</bold> Mesmo mutar justo un parola o duo es utile. Exemplo:
+code-switching-use-both-languages-example = “Illa fureva multo porque io non la revocava.”
+code-switching-authentic-direct-quotes = <bold>Includer citationes directe o dialogo.</bold> Dicer exactemente lo que alcuno diceva, nulle version mundate o formal. Exemplo:
+code-switching-authentic-direct-quotes-example = “Mi mamá dijo, ‘Tú crees que esto es un juego?’ e io era como, ‘De accordo chill!’”
 code-switching-authentic-reflect = <bold>Reflecte emotion, identitate, e contexto.</bold> mixturas linguistic usualmente eveni quando personas exprime emotion, urgentia, o ideas cultural. Usa lo respondente a questiones.
+code-switching-authentic-full-context = <bold>Usar plen responsas con contexto.</bold> Sia tanto detaliate como possibile, da quanto plus detalios tu pote. Comparti un historia o exemplo in tu responsas.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Non pensa o redige troppo
+code-switching-answer-dont-correct-language = Non <bold>“Corrige” tu lingua.</bold> Isto non es un test. Un forma “Correcte” non importa ci, le lingua natural si.
+code-switching-answer-dont-avoid-switching = <bold>Evita mixturas linguistic si tu normalmente lo face.</bold> Il es ben mutar lingua in le medio del phrase, pensata, o justo pro un parola.
 # Transcribing
 code-switching-transcribe-subheader = Transcription
 code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
