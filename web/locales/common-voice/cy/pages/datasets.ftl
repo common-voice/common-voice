@@ -95,6 +95,9 @@ release-version = Fersiwn
 dataset-date = Dyddiad
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
+# Support old genders in older datasets
+male = Gwryw
+female = Benyw
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Llwytho ein setiau data llais i lawr
 # MENU ITEM ARIA LABELS

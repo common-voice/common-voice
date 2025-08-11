@@ -4,6 +4,9 @@ guidelines-header-subtitle = Deall sut i gyfrannu a dilysu brawddegau a chlipiau
 voice-collection = Casglu Lleisiau
 sentence-collection = Casglu Brawddegau
 question-collection = Casgliad Cwestiynau
+scripted-speech = Lleferydd Testun
+spontaneous-speech = Llefaru Rhydd
+dont-subheader = Peidiwch
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,30 @@ offensive-content-sensitive-information-explanation-explanation-3 = Cwestiynau a
 example-questions-subheader = Cwestiynau enghreifftiol
 example-questions-explanation-1 = Gallwch ddod o hyd i <examplePromptsLink>120 cwestiwn enghreifftiol yn y daflen hon.</amplePromptsLink>
 example-questions-explanation-2 = Os hoffech chi gyflwyno swmp o gwestiynau i'w cynnwys, gallwch <githubLink> wneud hynny trwy ein GitHub</githubLink> neu e-bostiwch eich rhestr i <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Ateb Cwestiynau
+answer-questions-subheader = Arweiniad cyffredinol
+answer-questions-explanation-1 = Meddyliwch am eiliad am yr anogwr, ystyriwch pa fath o beth yr hoffech ei ddweud, ond peidiwch â sgriptio gormod. Cliciwch ar yr eicon ‘record’. Unwaith y byddwch wedi recordio gallwch wrando arnoch chi'ch hun, ail-recordio, dileu neu gyflwyno.
+answer-questions-explanation-2 = Cofiwch - peidiwch â phoeni os byddwch yn atal, oedi neu ailadrodd gair. Mae hyn i gyd yn ddata defnyddiol ar gyfer peirianwyr sy'n ceisio adeiladu offer adnabod lleferydd cynhwysol, byd go iawn.
+answer-questions-tip-1 = Recordiwch mewn man gweddol dawel
+answer-questions-tip-2 = Dewiswch rywle gyda chysylltiad rhyngrwyd da
+answer-questions-tip-3b = Ceisiwch gadw'ch ymateb i 15-30 eiliad
+answer-questions-tip-4 = Osgowch sgwrsio atgas, ymfflamychol neu fel arall yn sarhaus
+answer-questions-tip-5 = Siaradwch yn naturiol, fel y byddech gyda ffrind - defnyddiwch eich amrywiad go iawn, tafodiaith ac acen
+answer-questions-tip-6 = Cadwch eich sain yn gyson - peidiwch â gweiddi na chanu
+# Transcribe the Audio
+transcribe-the-audio = Trawsgrifio'r Sain
+transcribe-the-audio-subheader-1 = Arweiniad cyffredinol
+transcribe-the-audio-subheader-2 = Rhifau ac acronymau
+transcribe-the-audio-subheader-3 = Tagiau Arbennig
+transcribe-the-audio-subheader-4 = Segmentau geiriau, cam ddechreuadau, ailadrodd geiriau
+transcribe-the-audio-subheader-5 = Camgymeriadau gramadegol ac ymadroddion llafar
+transcribe-the-audio-subheader-1-explanation = Yn gyffredinol, dylech ysgrifennu popeth rydych chi'n ei glywed. Mae hyn yn cynnwys;
+transcribe-the-audio-subheader-1-explanation-example-1 = Ysgrifennu anghysondebau, gan gynnwys petruso ac ailadrodd
+transcribe-the-audio-subheader-1-explanation-example-2 = Labelu digwyddiadau sŵn fel pesychu neu chwerthin
+transcribe-the-audio-subheader-1-explanation-example-3 = Labelu llygredd sŵn sylweddol, fel sgwrsio cefndirol neu gorn car
+transcribe-the-audio-subheader-1-explanation-example-4 = Cofnodwch amrywiad gramadegol a slang yn union fel y mae'n digwydd. Peidiwch â chywiro na golygu lleferydd pobl.
+transcribe-the-audio-subheader-2-explanation-1 = Rhaid sillafu rhifau a symbolau mewn geiriau yn hytrach na defnyddio rhifolion neu nodau arbennig. Enghraifft:
