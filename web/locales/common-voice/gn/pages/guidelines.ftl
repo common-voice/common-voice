@@ -154,6 +154,10 @@ tags-unclear = Hesakã’ỹva
 tags-noise = Tyapu
 tags-laugh-explanation = Jepuka ryapu.
 
+## Review the Transcription
+
+review-the-transcription-subheader = Ñembohape guasu
+
 ## Code-Switching
 
 code-switching = Ayvu ñemoambue
@@ -177,6 +181,8 @@ code-switching-dont-header = Nahániri
 code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
 # Reviewing a Question
 code-switching-review-subheader = Ehecha jey Porandu
+code-switching-review-intro = Ehecháke pe porandu taiporãmeme:
+code-switching-review-criterion-1 = Ndahasýi iñeikumby ha imbohovái
 code-switching-review-criterion-2 = Hetave jey hekoporãva’erã
 code-switching-review-criterion-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
 # Answering a Question
