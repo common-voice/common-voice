@@ -4,6 +4,7 @@ guidelines-header-subtitle = Scopri come collaborare e convalidare frasi e regis
 voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
+spontaneous-speech = Discorso spontaneo
 
 ## Voice Collection nav ids
 
@@ -136,3 +137,7 @@ offensive-content-sensitive-information-explanation-explanation-3 = Domande che 
 example-questions-subheader = Esempi di domande
 example-questions-explanation-1 = Puoi trovare <examplePromptsLink>120 esempi di domande in questa pagina.</examplePromptsLink>
 example-questions-explanation-2 = Se desideri inviare una serie di domande per l’importazione, <githubLink>puoi farlo tramite GitHub</githubLink> oppure mandare la lista via email a <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+answer-questions-subheader = Guida generale
