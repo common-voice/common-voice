@@ -145,6 +145,7 @@ example-questions-explanation-2 = Jeli chceće rjad prašenjow za zapřijeće za
 # Answer Questions
 answer-questions = Wotmołwće na prašenja
 answer-questions-subheader = Powšitkowne pokazki
+answer-questions-tip-2 = Wubjerće městno z dobrym internetnym zwiskom
 # Transcribe the Audio
 transcribe-the-audio = Awdijo transkribować
 transcribe-the-audio-subheader-1 = Powšitkowne pokazki
