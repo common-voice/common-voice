@@ -4,6 +4,9 @@ guidelines-header-subtitle = Zrozmějśo, kak móžośo datowej sajźbje Common 
 voice-collection = Zběrka głosow
 sentence-collection = Zběrka sadow
 question-collection = Zběrka pšašanjow
+scripted-speech = Powědanje ze skriptom
+spontaneous-speech = Spontane powědanje
+dont-subheader = Špatne
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,25 @@ offensive-content-sensitive-information-explanation-explanation-3 = Pšašanja, 
 example-questions-subheader = Pśikładowe pšašanja
 example-questions-explanation-1 = Móžośo <examplePromptsLink>120 pśikładowych pšašanjow w toś tej tabeli namakaś.</examplePromptsLink>
 example-questions-explanation-2 = Jolic cośo rěd pšašanjow za zapśimjeśe zapódaś, <githubLink>móžośo to pśez GitHub cyniś</githubLink> abo swóju lisćinu z e-mailu na <emailFragment>commonvoice@mozilla.com</emailFragment> słaś.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Wótegrońśo na pšašanja
+answer-questions-subheader = Powšykne pokazki
+# Transcribe the Audio
+transcribe-the-audio = Awdio transkriběrowaś
+transcribe-the-audio-subheader-1 = Powšykne pokazki
+transcribe-the-audio-subheader-2 = Licby a akronymy
+transcribe-the-audio-subheader-3 = Specialne wobznamjenja
+transcribe-the-audio-subheader-4 = Słowne segmenty, wopacne zachopjeńki, wóspjetowane słowa
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Pšawje</correct>: Jo sto kilometrow wót how zdalone.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Wopak</wrong>: Jo 100 kilometrow wót how zdalone
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Pšawje</correct>: Wiźimy se w lěśe <underline>dwa tysac pětnaśe</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Wiźimy se w <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Pšawje</correct>: Dajo dwaźasća procentow rabata
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Dajo 20 % rabata

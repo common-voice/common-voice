@@ -142,11 +142,15 @@ answer-questions = Embohovái Porandu
 answer-questions-subheader = Ñembohape guasu
 answer-questions-tip-1 = Egrava peteĩ tenda hyapu’ỹhápe
 answer-questions-tip-2 = Eiporavo peteĩ tenda eikekuaa hag̃ua internépe
+answer-questions-tip-3b = Erekóke ne ñembohovái 15-30 aravo’ípe
 # Transcribe the Audio
 transcribe-the-audio = Emonguatia Mba’epu
 transcribe-the-audio-subheader-1 = Ñembohape guasu
 transcribe-the-audio-subheader-2 = Papapy ha akrónimo
 transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
+transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
 tags-table-header-1 = Teramoĩ
 tags-table-header-2 = He’iséva
 tags-laugh = Puka
