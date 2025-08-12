@@ -182,6 +182,7 @@ review-the-transcription-explanation-2 = Consulta le linee guida per la trascriz
 
 # Adding a Question
 code-switching-adding-question-subheader = Quali sono i requisiti per una buona domanda?
+code-switching-adding-question-explanation = Una buona domanda per i dataset di partecipazione pubblica dovrebbe:
 code-switching-adding-question-criteria-1 = Essere sia facile da capire che facile a cui rispondere
 code-switching-adding-question-criteria-2 = Essere generalmente appropriata
 code-switching-adding-question-criteria-3 = Non contenere o incoraggiare l’uso di linguaggio offensivo o oltraggioso
