@@ -299,6 +299,24 @@ code-switching-cleanup-1 = Omsetje eller omskrive – skriv det talaren faktisk 
 code-switching-cleanup-2 = «Korrekt» grammatikk eller uttale – behald den naturlege bruken til talaren.
 code-switching-cleanup-3 = Hopp over byter som verkar små eller ubetydelege – sjølv lånte ord har noko å seie.
 code-switching-cleanup-4 = Set inn teiknsetjing som kan endre betydninga – hald flyten naturleg.
+# Tagging
+code-switching-tagging-subheader = Merking
+code-switching-tagging-error-intro =
+    Viss transkripsjonen inneheld ein feil, bruk rapporteringsfunksjonen for å markere han.  
+    Moglege feil inkluderer:
+code-switching-tagging-error-1 = Feil teiknsetjing eller bruk av store/små bokstavar
+code-switching-tagging-error-2 = Skrivefeil
+code-switching-tagging-error-3 = Ord skrivne med feil ortografi
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Bruk av rett ortografi for kvart språk
+code-switching-orthography-explanation = Skriv kvart ord i samsvar med stavemåten til språket det kjem frå. Til dømes:
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+code-switching-pronunciation-explanation-example-1 = Engelsk: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spansk: /ˈkable/
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Merk teiknsetjing basert på språk i nærleiken
+code-switching-punctuation-tagging-explanation = Merk teiknsetjing med språket nærast venstre. Døme:
 
 ## Reporting Content
 
