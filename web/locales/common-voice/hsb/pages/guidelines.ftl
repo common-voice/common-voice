@@ -161,6 +161,8 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Prawje</correct>:
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Widźimy so w <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Prawje</correct>: Běše dwaceći procentow rabata
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Běše 20 % rabata
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Prawje</correct>: Buchu wot <underline>BKA</underline> zańdźeny štwórtk zajeći
+transcribe-the-audio-subheader-2-example-4-wrong = <correct>Wopak</correct>: Buchu wot <underline>be-ka-a</underline> zańdźeny štwórtk zajeći
 tags-table-header-1 = Značka
 tags-table-header-2 = Woznam
 tags-laugh = Smjeće
@@ -168,6 +170,7 @@ tags-disfluency = Njeběžnosć
 tags-unclear = Njejasny
 tags-noise = Šum
 tags-laugh-explanation = Zynk smjeća.
+tags-unclear-explanation = Słowo abo słowna skupina, kotrejž njehodźitej so rozumić.
 
 ## Review the Transcription
 
@@ -188,6 +191,7 @@ code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne k
 # What types of questions to add
 code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
 code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
+code-switching-use-bilingual-prompts-explanation = Wužiwajće dwurěčne namołwy, kotrež wobě rěči we wašim prašenju wopřijimaja: Přikład:
 code-switching-avoid-intro = Prašenja, kotrež:
 code-switching-dont-header = Špatne
 code-switching-dont-1 = Njewužiwajće přeformalnu rěč
