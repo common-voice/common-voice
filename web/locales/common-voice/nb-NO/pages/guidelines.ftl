@@ -330,6 +330,10 @@ code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merkenavn/organisasjoner:  Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Blandede eller morfologisk tilpassede ord.</bold> Ikke merk ord som blander språk eller har lagt til endelser fra et annet språk. Eksempler:
 code-switching-not-tag-interjections = <bold>Interjeksjoner.</bold> Interjeksjoner og fyllord, uavhengig av språk, skal forbli <bold>umerket.</bold> Eksempler:
+code-switching-not-tag-interjections-example-1 = «Eh»
+code-switching-not-tag-interjections-example-2 = «Nei»
+code-switching-not-tag-interjections-example-3 = «Ja»
+code-switching-not-tag-interjections-example-4 = «Øh»
 
 ## Reporting Content
 
