@@ -141,6 +141,7 @@ example-questions-explanation-2 = Remondoséramo peteĩ porandu aty rehegua oñe
 answer-questions = Embohovái Porandu
 answer-questions-subheader = Ñembohape guasu
 answer-questions-tip-1 = Egrava peteĩ tenda hyapu’ỹhápe
+answer-questions-tip-2 = Eiporavo peteĩ tenda eikekuaa hag̃ua internépe
 # Transcribe the Audio
 transcribe-the-audio = Emonguatia Mba’epu
 transcribe-the-audio-subheader-1 = Ñembohape guasu

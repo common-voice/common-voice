@@ -1,7 +1,7 @@
 ## Transcribe Audio page
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-audio-page-instruction = { $actionType } <playIcon></playIcon> și transcrie ce auzi că spune persoana respectivă
+audio-page-instruction = { $actionType } <playIcon></playIcon> și transcrie ce auzi că spune persoana din înregistrare.
 editbox-header = Transcrie
 editbox-placeholder = Transcrie ce auzi că spune persoana aici
 # Message which appears when there are no more resources on this page
