@@ -134,7 +134,7 @@ process-steps-explanation = Domande che richiedono l’elenco di più passaggi. 
 offensive-content-sensitive-information = Contenuti offensivi o informazioni sensibili
 offensive-content-sensitive-information-explanation-explanation-1 = Domande che potrebbero indurre alla divulgazione di informazioni di identificazione personale
 offensive-content-sensitive-information-explanation-explanation-2 = Domande che potrebbero provocare incitamento all’odio o ad altri sentimenti faziosi o offensivi
-offensive-content-sensitive-information-explanation-explanation-3 = Domande che potrebbero indurre l’interlocutore a condividere risposte di natura riservata o contenenti argomenti delicati
+offensive-content-sensitive-information-explanation-explanation-3 = Domande che potrebbero indurre alla condivisione di risposte di natura riservata o contenenti argomenti delicati
 example-questions-subheader = Esempi di domande
 example-questions-explanation-1 = Puoi trovare <examplePromptsLink>120 esempi di domande in questa pagina.</examplePromptsLink>
 example-questions-explanation-2 = Se desideri inviare una serie di domande per l’importazione, <githubLink>puoi farlo tramite GitHub</githubLink> oppure mandare la lista via email a <emailFragment>commonvoice@mozilla.com.</emailFragment>
@@ -197,3 +197,6 @@ code-switching-direct-quotes-explanation = Incoraggia i partecipanti a riportare
 code-switching-cultural-topics-header = Scegli argomenti culturalmente specifici
 code-switching-informal-scenarios-header = Esplora scenari informali
 code-switching-informal-scenarios-explanation-example = “Qual è quella battuta che i tuoi amici ripetono sempre e come la raccontano?”
+# What to Avoid
+code-switching-avoid-subheader = Che cosa evitare
+code-switching-avoid-intro = Domande che potrebbero:
