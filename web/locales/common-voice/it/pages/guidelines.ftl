@@ -155,7 +155,12 @@ transcribe-the-audio-subheader-1 = Guida generale
 transcribe-the-audio-subheader-2 = Numeri e acronimi
 transcribe-the-audio-subheader-3 = Etichette speciali
 transcribe-the-audio-subheader-4 = Segmenti di parole, false partenze, parole ripetute
+transcribe-the-audio-subheader-5 = Errori grammaticali ed espressioni colloquiali
+transcribe-the-audio-subheader-1-explanation = In generale, dovresti annotare tutto ciò che senti. Questo include:
 transcribe-the-audio-subheader-1-explanation-example-1 = Annotare le disfluenze, comprese le esitazioni e le ripetizioni
+transcribe-the-audio-subheader-1-explanation-example-3 = Etichettare inquinamenti acustici significativi, come chiacchiere in sottofondo o clacson
+transcribe-the-audio-subheader-2-explanation-1 = I numeri e i simboli devono essere scritti utilizzando le lettere anziché cifre o caratteri speciali. Esempio:
+transcribe-the-audio-subheader-2-explanation-2 = Gli acronimi devono essere scritti nello stesso modo in cui vengono normalmente scritti nella lingua in questione, seguendo le regole standard per l’utilizzo delle maiuscole. Non devono essere trascritti foneticamente. Esempio:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Corretto</correct>: dista cento chilometri da qui
 # text wrapped in wrong will be shown as red text in the UI
@@ -167,6 +172,8 @@ transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Sbagliato</wrong>: ci 
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Corretto</correct>: c’era uno sconto del venti per cento
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Sbagliato</wrong>: c’era uno sconto del 20%.
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Corretto</correct>: sono stati arrestati giovedì scorso dall’<underline>FBI</underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Sbagliato</wrong>: sono stati arrestati giovedì scorso dall’<underline>ef bi ai</underline>
+transcribe-the-audio-subheader-3-explanation = Le etichette speciali seguenti (in inglese) devono essere utilizzate per contrassegnare disfluenze, riempitivi e altri tipi di contenuti non lessicali.
 tags-table-header-1 = Etichetta
 tags-table-header-2 = Significato
 tags-laugh = Risata
