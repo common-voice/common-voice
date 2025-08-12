@@ -14,8 +14,17 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 remove-tags = Fjern etikettar
 tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = Slå av/på popover-vindauget
+tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Angre
+tag-page-shortcut-select-all = A
 select-all = Merk alle
+# Messages
+tag-success-toast-message = Etikettar sendt inn
+tag-error-toast-message = Feil ved innsending av etikettar
+tag-empty-submit-error = Ingen tekst å sende inn. Merk litt tekst først.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Bruk rett ortografi
 cs-tag-shortcuts-section-title = Tastaturbruk
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
