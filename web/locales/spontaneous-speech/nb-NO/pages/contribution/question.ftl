@@ -26,3 +26,9 @@ do-not-section-title = å ikke gjøre
 do-not-section-guideline-1 = Be om personlig identifiserbar informasjon (som navn eller økonomisk informasjon)
 do-not-section-guideline-2 = Uttrykke eller oppfordre til fordomsfulle eller støtende følelser
 do-not-section-guideline-3 = Still sensitive spørsmål
+# Code switching Guidelines
+cs-do-section-guideline-1 = Bruk tospråklige spørsmål eller kontekst
+cs-do-section-guideline-2 = Utforsk uformelle scenarier, situasjoner eller gjenskapninger
+cs-do-not-section-guideline-1 = Be om personlig identifiserbar informasjon (som navn eller økonomisk informasjon) eller støtende ytringer
+cs-do-not-section-guideline-2 = Be om kodebytte eller be om oversettelse
+cs-do-not-section-guideline-3 = Bruk altfor formelt språk

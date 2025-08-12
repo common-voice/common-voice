@@ -4,6 +4,8 @@ guidelines-header-subtitle = Common Voice سانلىق مەلۇمات ئامبى
 voice-collection = ئاۋاز توپلىمى
 sentence-collection = جۈملە توپلىمى
 question-collection = سوئال توپلىمى
+scripted-speech = قوليازما نۇتقى
+spontaneous-speech = تەبىئىي نۇتۇق
 
 ## Voice Collection nav ids
 

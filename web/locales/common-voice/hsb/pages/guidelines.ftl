@@ -4,6 +4,9 @@ guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Vo
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
 question-collection = Zběrka prašenjow
+scripted-speech = Rěčenje ze skriptom
+spontaneous-speech = Spontane rěčenje
+dont-subheader = Špatne
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,67 @@ offensive-content-sensitive-information-explanation-explanation-3 = Prašenja, k
 example-questions-subheader = Přikładowe prašenja
 example-questions-explanation-1 = Móžeće <examplePromptsLink>120 přikładowych prašenjow w tutej tabeli namakać.</examplePromptsLink>
 example-questions-explanation-2 = Jeli chceće rjad prašenjow za zapřijeće zapodać, <githubLink>móžeće to přez GitHub činić</githubLink> abo swoju lisćinu z e-mejlu na <emailFragment>commonvoice@mozilla.com</emailFragment> słać.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Wotmołwće na prašenja
+answer-questions-subheader = Powšitkowne pokazki
+# Transcribe the Audio
+transcribe-the-audio = Awdijo transkribować
+transcribe-the-audio-subheader-1 = Powšitkowne pokazki
+transcribe-the-audio-subheader-2 = Ličby a akronymy
+transcribe-the-audio-subheader-3 = Wosebite znački
+transcribe-the-audio-subheader-4 = Słowne segmenty, wopačne spočatki, wospjetowane słowa
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawje</correct>: Je sto kilometrow wottud zdalene.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Wopak</wrong>: Je 100 kilometrow wottud zdalene
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Prawje</correct>: Widźimy so w lěće <underline>dwaj tysac pjatnaće</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Widźimy so w <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Prawje</correct>: Běše dwaceći procentow rabata
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Běše 20 % rabata
+tags-table-header-1 = Značka
+tags-table-header-2 = Woznam
+tags-laugh = Smjeće
+tags-disfluency = Njeběžnosć
+tags-unclear = Njejasny
+tags-noise = Šum
+tags-laugh-explanation = Zynk smjeća.
+
+## Review the Transcription
+
+review-the-transcription = Přepruwujće transkripciju
+review-the-transcription-subheader = Powšitkowne pokazki
+
+## Code-Switching
+
+adding-a-question = Prašenje přidać
+# Adding a Question
+code-switching-adding-question-subheader = Što dobre prašenje twori?
+code-switching-adding-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
+code-switching-adding-question-criteria-1 = Lochko rozumić być a na so wotmołwić dać
+code-switching-adding-question-criteria-2 = Powšitkownje relewantne być
+code-switching-adding-question-criteria-3 = Křiwdźacu abo njepřistojnu rěč njewužiwać
+code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne konteksty a domeny zapřijeć.
+# What types of questions to add
+code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
+code-switching-dont-header = Špatne
+# Answering a Question
+code-switching-answer-subheader = Na prašenje wotmołwić
+# Transcribing
+code-switching-transcribe-subheader = Transkribować
+code-switching-tagging-error-2 = Pisanske zmylki
+code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
+code-switching-not-tag-interjections-example-1 = „Eh“
+code-switching-not-tag-interjections-example-2 = „Ně“
+code-switching-not-tag-interjections-example-3 = „Haj“
+code-switching-not-tag-interjections-example-4 = „Em“
+
+## Reporting Content
+
+reporting-content-subheader = Powšitkowne pokazki

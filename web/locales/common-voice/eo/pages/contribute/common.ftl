@@ -1,7 +1,8 @@
 action-click = Alklaku
 action-tap = Tuŝetu
 contribute = Kontribui
-skip = Ignori
+review = Kontroli
+skip = Preterlasi
 shortcuts = Alirklavoj
 clips-with-count-pluralized =
     { $count ->
@@ -9,7 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> voĉregistroj
     }
 goal-help-recording = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } registra celo!
-goal-help-validation = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } revizia celo!
+goal-help-validation = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } kontrola celo!
 contribute-more =
     { $count ->
         [one] Ĉu vi pretas fari unu plian?
@@ -26,6 +27,15 @@ target-segment-generic-card = Vi kontribuas kun cela segmento
 target-segment-first-banner = Helpu krei la unuan celan segmenton de Common Voice en { $locale }
 target-segment-add-voice = Aldoni vian voĉon
 target-segment-learn-more = Pli da informo
+change-preferences = Ŝanĝi preferojn
+login-signup = Ensaluti / Krei konton
+vote-yes = Jes
+vote-no = Ne
+datasets = Datumaroj
+languages = Lingvoj
+about = Pri
+partner = Kunlaboranto
+submit-form-action = Sendi
 
 ## Reporting
 
@@ -91,6 +101,9 @@ contribution-for-example = ekzemple
 contribution-misreadings-title = Mislegoj
 contribution-misreadings-description-extended-list-1 = Mankas <strong>'A'</strong> aŭ <strong>'The'</strong> en la komenco de la registraĵo.
 contribution-varying-pronunciations-title = Malsamaj  prononcoj
+contribution-background-noise-title = Fona bruo
 contribution-background-noise-description = Ni volas, ke la algoritmoj de maŝina lernado kapablu pritrakti diversajn fonajn bruojn, do eĉ sufiĉe laŭta bruo povas esti akceptita, nur se ĝi tute ne malebligas aŭdi la tutan tekston. Mallaŭta fona muziko estas en ordo, tamen muziko, pro kiu vi ne povas bone aŭdi ĉiun vorton, ne taŭgas.
 contribution-background-voices-title = Fonaj voĉoj
 contribution-volume-title = Laŭteco
+see-more = <chevron></chevron>Montri pli
+see-less = <chevron></chevron>Montri malpli

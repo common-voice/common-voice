@@ -170,7 +170,6 @@ validate-readings-link = Convalida letture
 contribute-link = Contribuisci al corpus testuale
 answer-questions-link = Rispondi alle domande
 transcribe-answers-link = Trascrivi risposte
-review-transcriptions-link = Verifica trascrizioni
 contribute-text-link = Proponi testi
 press-and-stories-link = Sezione stampa e notizie
 

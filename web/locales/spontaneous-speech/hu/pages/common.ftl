@@ -32,8 +32,11 @@ continue-with-skipped = Folytatás a kihagyottakkal
 question = Kérdés
 validate = Ellenőrzés
 respond-to-prompt = Válasz a kérdésre
+respond-to-prompt-mobile = Válasz
 transcribe = Leiratozás
 check-transcriptions = Leiratok ellenőrzése
+check-transcriptions-mobile = Ellenőrzés
+tag = Címke
 
 ## Not Found Page
 

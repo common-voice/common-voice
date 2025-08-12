@@ -32,8 +32,11 @@ continue-with-skipped = გამოტოვებულზე გადას�
 question = შეკითხვა
 validate = შემოწმება
 respond-to-prompt = პასუხი
+respond-to-prompt-mobile = პასუხი
 transcribe = ტრანსკრიბირება
 check-transcriptions = შემოწმება
+check-transcriptions-mobile = შემოწმება
+tag = ჭდე
 
 ## Not Found Page
 

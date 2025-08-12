@@ -4,6 +4,9 @@ guidelines-header-subtitle = Eikuaa mba’éichapa eipytyvõ ha emoneĩta ñe’
 voice-collection = Ayvu Ñembyaty
 sentence-collection = Ñe’ẽsyry ñembyaty
 question-collection = Porandu Aty
+scripted-speech = Ñe’ẽsyry hapéva
+spontaneous-speech = Ñe’ẽsyry hape’ỹva
+dont-subheader = Nahániri
 
 ## Voice Collection nav ids
 
@@ -131,3 +134,63 @@ offensive-content-sensitive-information-explanation-explanation-3 = Porandu ikat
 example-questions-subheader = Porandu techapyrãva
 example-questions-explanation-1 = Ejuhukuaa <examplePromptsLink>120 techapyrã oĩva ko kuatiaroguépe.</examplePromptsLink>
 example-questions-explanation-2 = Remondoséramo peteĩ porandu aty rehegua oñeikumby porã hag̃ua, ikatu ejapo ore GitHub rupive</githubLink> térã emondo tysýi ñanduti veve rupive <emailFragment>commonvoice@mozilla.com-pe.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Embohovái Porandu
+answer-questions-subheader = Ñembohape guasu
+answer-questions-tip-1 = Egrava peteĩ tenda hyapu’ỹhápe
+# Transcribe the Audio
+transcribe-the-audio = Emonguatia Mba’epu
+transcribe-the-audio-subheader-1 = Ñembohape guasu
+transcribe-the-audio-subheader-2 = Papapy ha akrónimo
+transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
+tags-table-header-1 = Teramoĩ
+tags-table-header-2 = He’iséva
+tags-laugh = Puka
+tags-disfluency = Ñe’ẽpa’ã
+tags-unclear = Hesakã’ỹva
+tags-noise = Tyapu
+tags-laugh-explanation = Jepuka ryapu.
+
+## Review the Transcription
+
+review-the-transcription-subheader = Ñembohape guasu
+
+## Code-Switching
+
+code-switching = Ayvu ñemoambue
+adding-a-question = Embojuaju Porandu
+# Adding a Question
+code-switching-adding-question-subheader = ¿Mba’e pe omoporãvéva porandu?
+code-switching-adding-question-explanation = Porandu iporãva mba’ekuaarãme g̃uarã opavave ojapóva orekova’erã:
+code-switching-adding-question-criteria-1 = Ndahasýi iñeikumby ha iñembohovái
+code-switching-adding-question-criteria-2 = Hetave jey hekoporãva’erã
+code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva.
+# What types of questions to add
+code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
+code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
+code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
+# What to Avoid
+code-switching-avoid-subheader = Mba’éicha emboykéta
+code-switching-avoid-intro = Porandu ikatúva:
+code-switching-avoid-1 = Ejerure marandu tapicha mba’eteéva rehegua
+code-switching-dont-header = Nahániri
+code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
+# Reviewing a Question
+code-switching-review-subheader = Ehecha jey Porandu
+code-switching-review-intro = Ehecháke pe porandu taiporãmeme:
+code-switching-review-criterion-1 = Ndahasýi iñeikumby ha imbohovái
+code-switching-review-criterion-2 = Hetave jey hekoporãva’erã
+code-switching-review-criterion-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+# Answering a Question
+code-switching-answer-subheader = Embohovaihína Porandu
+# Tagging
+code-switching-tagging-subheader = Teramoĩmbyre
+code-switching-tagging-error-2 = Jejavy taiguáva
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “Naháriri”
+code-switching-not-tag-interjections-example-3 = “Héẽ”
+code-switching-not-tag-interjections-example-4 = “Er”

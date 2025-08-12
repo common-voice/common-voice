@@ -154,10 +154,12 @@ example-questions-explanation-2 = Wenn Sie eine Tranche von Fragen zur Aufnahme 
 
 # Answer Questions
 answer-questions = Beantworten Sie Fragen
+answer-questions-subheader = Allgemeine Hinweise
 answer-questions-explanation-1 = Denken Sie einen Moment über die Aufforderung nach, überlegen Sie, was Sie sagen möchten, aber schreiben Sie sich nicht zu viel. Klicken Sie auf das Aufnahme-Symbol. Sobald Sie aufgenommen haben, können Sie sich selbst anhören, erneut aufnehmen, löschen oder absenden.
 answer-questions-explanation-2 = Denken Sie daran: Machen Sie sich keine Sorgen, wenn Sie stottern, eine Pause einlegen oder ein Wort wiederholen. Dies sind alles hilfreiche Daten für Entwickler, die inklusive Werkzeuge zur Spracherkennung in der realen Welt entwickeln möchten.
 answer-questions-tip-1 = An einem einigermaßen leisen Ort aufnehmen
 answer-questions-tip-2 = Wählen Sie einen Ort mit einer guten Internetverbindung
+answer-questions-tip-3b = Versuchen Sie, Ihre Antwort auf 15-30 Sekunden zu beschränken
 answer-questions-tip-4 = Vermeiden Sie hasserfüllte, aufhetzende oder anderweitig beleidigende Sprache
 answer-questions-tip-5 = Sprechen Sie natürlich, wie Sie es mit einem Freund tun würden – verwenden Sie Ihre eigene Variante, Ihren Dialekt und Ihren Akzent
 answer-questions-tip-6 = Achten Sie auf eine gleichbleibende Lautstärke – schreien oder singen Sie nicht
@@ -202,6 +204,10 @@ tags-unclear-explanation = Ein Wort oder eine Folge von Wörtern, die nicht vers
 tags-noise-explanation =
     Jede andere Art von Geräusch, wie Husten oder sich räuspern,
     ein hupendes Auto, etwas, das auf das Mikrofon trifft, ein Telefon, das summt usw.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Und dann bin ich [Geräusch] in Urlaub gefahren.
+    Nun, [Geräusch] [Lachen] es war nicht gerade ein Feiertag [Lachen]
 transcribe-the-audio-subheader-4-explanation-1 = Spontane Sprache enthält von Natur aus Fehlstarts, wo nur ein Fragment eines vollständigen Worts erzeugt wird. Für diese Fälle transkribieren Sie bitte das Wortfragment nach bestem Wissen und Gewissen und fügen Sie einen Bindestrich an das Ende des Wortes (-) an, um anzuzeigen, dass das Wort ein Fehlanfang ist. Beispiel:
 transcribe-the-audio-subheader-4-explanation-1-example = Sein Name ist <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Manchmal werden Sprecher ein Wort oder Wortfragment mehrmals wiederholen. Dies sollte auch transkribiert werden. Beispiel:
@@ -212,6 +218,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Sprecher werden vielleicht umga
 ## Review the Transcription
 
 review-the-transcription = Überprüfen Sie die Transkription
+review-the-transcription-subheader = Allgemeine Hinweise
 review-the-transcription-explanation-1 = Im Allgemeinen empfehlen wir, dass die Person, die das Transkript überprüft, nicht dieselbe Person sein sollte, die sie erstellt hat. Es ist sehr schwer, Ihre eigenen Arbeiten zu überprüfen! Mehrere Überprüfungszeilen können dazu beitragen, die Qualitätssicherung robuster zu machen und Vorurteile und Probleme zu mindern.
 review-the-transcription-explanation-2 = Lesen Sie die obigen Richtlinien für die Transkription, um zu überprüfen, ob eine Transkription korrekt ist. Sie können Bearbeitungen angeben und absenden.
 review-the-transcription-explanation-3 = Auch hier können Sie anstößige, schädliche oder anderweitig besorgniserregende Inhalte melden, und diese werden aus Ihrem Zugriff entfernt, bis das Common-Voice-Team sie erneut überprüft und untersucht.
@@ -335,3 +342,30 @@ code-switching-punctuation-tagging-header = Interpunktion basierend auf Sprache 
 code-switching-punctuation-tagging-explanation = Interpunktion mit der Sprache, die am nächsten zur linken Seite liegt mit Schlagwörtern versehen. Beispiele:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>und das einzige Mal, dass</purple> Maria <purple>mich anschrie, war</purple> <blue>porque</blue> <purple>sie wollte</purple> printear<blue>un</blue> <purple>Bestellung.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>aber</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>was auch immer</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Seien Sie vorsichtig mit ähnlich aussehenden Wörtern
+code-switching-lookalikes-explanation = Einige Wörter sehen aus wie eine Sprache, werden aber in der anderen verwendet. Schlagwörter basieren auf Bedeutung und Verwendung, nicht auf Aussehen. Beispiele:
+code-switching-lookalikes-explanation-example-1 = „Footing“ bedeuteten bisher Laufen auf Spanisch > Als Schlagwort wird Spanisch vergeben
+code-switching-lookalikes-explanation-example-2 = „No Problemo“ wird auf Englisch verwendet > Als Schlagwort wird Englisch vergeben
+# When Not to Tag Words
+code-switching-not-tag-header = Wann Wörter nicht mit Schlagwörtern versehen werden sollten
+code-switching-not-tag-explanation = Einige Wörter sollten <bold>keine Sprachbeschriftung als Schlagwort erhalten</bold>, auch wenn sie gemischt oder angepasst erscheinen. Hier einige Beispiele:
+code-switching-not-tag-proper-names = <bold>Eigennamen.</bold> Namen von Personen, Orten und Organisationen sollten nicht mit Schlagwörtern versehen werden. Beispiele:
+code-switching-not-tag-proper-names-example-1 = Personen: Maria, John
+code-switching-not-tag-proper-names-example-2 = Orte: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marken/Organisationen: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Gemischte oder strukturell angepasste Wörter.</bold> Wörter, die Sprachen vermischen oder die Endungen aus einer anderen Sprache haben, erhalten keine Schlagwörter. Beispiele:
+code-switching-not-tag-mixed-words-example = Eine Wurzel ist Englisch, die Endung ist Spanisch: „parkear“, „printearlo“
+code-switching-not-tag-interjections = <bold>Interjektionen.</bold> Interjektionen und Füllwörter sollten unabhängig von der Sprache <bold>ohne Schlagwort</bold> bleiben. Beispiele:
+code-switching-not-tag-interjections-example-1 = „Äh“
+code-switching-not-tag-interjections-example-2 = „Nein“
+code-switching-not-tag-interjections-example-3 = „Ja“
+code-switching-not-tag-interjections-example-4 = „Ähm“
+
+## Reporting Content
+
+reporting-content = Inhalte melden
+reporting-content-subheader = Allgemeine Hinweise
+reporting-content-explanation-1 = Sie müssen Inhalte melden, die anstößig, schädlich oder anderweitig besorgniserregend sind. Die Inhalte dürfen auch keine personenbezogenen Daten wie Telefonnummern oder Adressen enthalten. Sie werden aus Ihrer Umgebung entfernt, bis das Common-Voice-Team sie überprüft und weitere Untersuchungen vorgenommen hat.
+reporting-content-explanation-2 = Um Inhalte zu melden, klicken Sie auf die Schaltfläche „Melden“ und wählen Sie eine oder alle Optionen: Anstößiger Inhalt, andere Sprache, personenbezogene Daten, Sonstiges.  Geben Sie hier weitere Details dazu an, warum Sie den Inhalt im Textfeld melden.  Übermitteln Sie dann den Bericht, indem Sie auf die Schaltfläche „Melden“ klicken.

@@ -32,8 +32,11 @@ continue-with-skipped = Z Přeskočeny pokročować
 question = Prašenje
 validate = Přepruwować
 respond-to-prompt = Na namołwu wotmołwić
+respond-to-prompt-mobile = Wotmołwa
 transcribe = Transkribować
 check-transcriptions = Transkripcije přepruwować
+check-transcriptions-mobile = Přepruwować
+tag = Značka
 
 ## Not Found Page
 

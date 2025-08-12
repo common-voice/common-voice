@@ -32,8 +32,11 @@ continue-with-skipped = Eku’ejey Ñomimbyre ndive
 question = Porandu
 validate = Ñemoneĩ
 respond-to-prompt = Embohovái ñe’ẽmondo
+respond-to-prompt-mobile = Ñembohovái
 transcribe = Ñe’ẽjehai
 check-transcriptions = Ehechajey ñe’ẽjehai
+check-transcriptions-mobile = Hechajey
+tag = Teramoĩ
 
 ## Not Found Page
 

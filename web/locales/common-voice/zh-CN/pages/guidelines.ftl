@@ -116,7 +116,6 @@ what-makes-a-good-question-explanation = 对于公众参与的数据集而言，
 what-makes-a-good-question-explanation-criteria-1 = 易于理解，也易于回答
 what-makes-a-good-question-explanation-criteria-2 = 意义明确
 what-makes-a-good-question-explanation-criteria-3 = 不能使用或引导使用伤害或冒犯性用语
-what-makes-a-good-question-tip = 您可能还需要考虑跨度不同的上下文和域名
 easy-to-understand = 易于理解
 easy-to-understand-explanation = 选择简单的问题，确保来自各种文化和背景的回答者都能轻松理解。
 spelling-and-pronunciation = 用字与标点符号

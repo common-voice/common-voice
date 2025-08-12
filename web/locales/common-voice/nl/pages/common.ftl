@@ -208,6 +208,7 @@ lv = Lets
 lzz = Laz
 mai = Maithili
 mau = Huautla-Mazateeks
+mbf = Baba-Maleis
 mbo = Mbo
 mcf = Matses
 mcn = Massa

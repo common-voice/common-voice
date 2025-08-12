@@ -94,6 +94,10 @@ dataset-date = Date
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
 
+# Support old genders in older datasets
+male = Male
+female = Female
+
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Download our voice datasets
 

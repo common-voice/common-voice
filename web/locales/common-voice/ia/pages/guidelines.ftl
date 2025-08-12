@@ -4,6 +4,9 @@ guidelines-header-subtitle = Saper como collaborar e validar phrases e registrat
 voice-collection = Collection de voces
 sentence-collection = Collection de phrases
 question-collection = Collection de questiones
+scripted-speech = Parla con texto scribite
+spontaneous-speech = Discurso spontanee
+dont-subheader = No
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,190 @@ offensive-content-sensitive-information-explanation-explanation-3 = Questiones q
 example-questions-subheader = Questiones de exemplo
 example-questions-explanation-1 = Tu pote trovar
 example-questions-explanation-2 = Si tu amarea inviar un serie de questiones a inserer, tu <githubLink>pote facer lo via nostre GitHub</githubLink> o inviar tu lista per email a <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Responder a questiones
+answer-questions-subheader = Guida general
+answer-questions-explanation-1 = Pensa per un momento re le invitation, considera que sorta de cosa tu amarea dicer, ma non scribe troppo. Clicca le icone ‘registrar’. Un vice tu ha registrate tu pote ascoltar te mesme, re-registrar, deler o inviar.
+answer-questions-explanation-2 = Memora: non te preoccupa si tu balbutia, pausa o repete un parola. Isto es tote datos utile pro ingenieros tentante de construer utensiles de recognition vocal inclusive, pro le mundo-real.
+answer-questions-tip-1 = Registra in un loco rationabilemente quiete
+answer-questions-tip-2 = Elige un position con un bon connexion a internet
+answer-questions-tip-3b = Tenta mantener tu responsa in 15-30 secundas
+answer-questions-tip-4 = Evita un linguage odiose, incendiari o comocunque offensive.
+answer-questions-tip-5 = Parla naturalmente, como tu facerea con un amico, usa tu proprie real variante, dialecto e accento
+answer-questions-tip-6 = Mantene un volumine costante, sin critar o cantar.
+# Transcribe the Audio
+transcribe-the-audio = Transcriber le audio
+transcribe-the-audio-subheader-1 = Guida general
+transcribe-the-audio-subheader-2 = Numeros e acronymos
+transcribe-the-audio-subheader-3 = Tags special
+transcribe-the-audio-subheader-4 = Segmentos de parola, false partitas, parolas repetite
+transcribe-the-audio-subheader-5 = Errores grammatical e colloquialismos
+transcribe-the-audio-subheader-1-explanation = In general, tu deberea scriber omne cosa tu audi. Isto include;
+transcribe-the-audio-subheader-1-explanation-example-1 = Annotar imprecisiones, includente hesitationes e repetitiones
+transcribe-the-audio-subheader-1-explanation-example-2 = Etiquettar eventos ruitose como quando on tussi o ride
+transcribe-the-audio-subheader-1-explanation-example-3 = Etiquettar significative pollutiones ruitose, como garrular in secunde plano o colpos de klaxon
+transcribe-the-audio-subheader-1-explanation-example-4 = Variationes grammatical e slang deberea esser registrate exactemente como illos occurre.
+transcribe-the-audio-subheader-2-explanation-1 = Numeros e symbolos deberea esser scribite in parolas plus tosto que usar numerales o characteres special.
+transcribe-the-audio-subheader-2-explanation-2 = Acronymos deberea esser scribite como illos es normalmente scripte in le lingua, sequente regulas standard pro le majusculas. Exemplo:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Correcte</correct>: il es cento millias distante de ci
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Errate</wrong>: il es 100 millias distante del ci
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Correcte</correct>: a revider in <underline>vinti dece-cinque</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Errate</wrong>: a revider in <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Correcte</correct>: il era vinti per cento disactivate
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Errate</wrong>: il era 20% disactivate
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Correcte</correct>: Illes era arrestate per le <underline>FBI</underline> le ultime jovedi
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Errate</wrong>: Illes era arrestate per le <underline>eff bee eye</underline> le ultime jovedi
+transcribe-the-audio-subheader-3-explanation = Le sequente etiquettas special deberea esser usate pro marcar imprecisiones, repletores e altere typos de contento non-verbal (in anglese).
+tags-table-header-1 = Tag
+tags-table-header-2 = Significato
+tags-laugh = Riso
+tags-disfluency = Dysfluencia
+tags-unclear = Poco clar
+tags-noise = Ruito
+tags-laugh-explanation = Le sono de riso.
+tags-disfluency-explanation =
+    Un parola o sono repletor usate como marca-posto dum un parlator decide que dicer.
+    In anglese, alcun commun sonos de hesitation es “err”, “um”, “huh”, etc.
+tags-unclear-explanation = Un parola o un sequentia de parolas que non pote esser comprendite.
+tags-noise-explanation =
+    Ulle altere typo de ruito, tal como quando le parlator tussi o clara su gorga,
+    un klaxonar de auto, le sono de alco que colpa le microphono, un stridor de telephono, etc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    E pois io [ruito] continuava le vacantia.
+    Ben, [ruito] [riso] il non era exactemente un vacantia [riso]
+transcribe-the-audio-subheader-4-explanation-1 = Le discurso spontanee naturalmente contine false partitas ubi solo un fragmento de un parola integre es producite. Pro iste instantias, per favor transcribe al melior de tu habilitate le fragmento de parola e affixa un tracto de union al fin del parola (-) pro indicar le parola es un false initio. Exemplo:
+transcribe-the-audio-subheader-4-explanation-1-example = Su nomine es <underline>Jo- Jona-</underline> Jonatha.
+transcribe-the-audio-subheader-4-explanation-2 = Aliquando le parlantes repetera un parola o un fragmento de parola plure vices. Isto deberea esser transcribite anque. Exemplo:
+transcribe-the-audio-subheader-4-explanation-2-example = E pois io veniva a <underline>le le le cam- le</underline> camera a dormir
+transcribe-the-audio-subheader-5-explanation-1 = Le discurso spontanee naturalmente continera errores grammatical. Istos non deberea esser corrigite dum on los transcribera. Le transcription debe reflecter le contento parlate exactemente.
+transcribe-the-audio-subheader-5-explanation-2 = Parlantes pote usar colloquialismos (tal como, in anglese, “gonna”, “cuz”, etc.) que pote non esser considerate formalmente correcte. Istos deberea esser transcribite como illos es, e non cambiate a lor equivalentes plus formal.
+
+## Review the Transcription
+
+review-the-transcription = Revide le transcription
+review-the-transcription-subheader = Guida general
+review-the-transcription-explanation-1 = In general, nos adverti que le persona qui controla le transcription non deberea esser le mesme persona qui faceva le transcription original. Il es multo difficile verificar tu proprie labor! Haber plure lineas de revision pote adjutar a render le garantia del qualitate plus robuste, e adjutar mitigar prejudicios e problemas.
+review-the-transcription-explanation-2 = Revide le lineas guida del transcription supra pro verificar que un transcription es correcte. Tu pote fornir modificationes e inviar los.
+review-the-transcription-explanation-3 = Ancora, tu poter signalar contento que es offensive, malefic o alteremente preoccupante, e illo sera removite de tu experientia usque le equipa de Common Voice potera revider lo e investigar ulteriormente.
+
+## Code-Switching
+
+code-switching = Mutation de lingua
+adding-a-question = Adder un question
+# Adding a Question
+code-switching-adding-question-subheader = Que rende bon un question?
+code-switching-adding-question-explanation = Un bon question pro le participation public a collectiones de datos deberea:
+code-switching-adding-question-criteria-1 = Esser facile a comprender e a responder
+code-switching-adding-question-criteria-2 = Esser generalmente pertinente
+code-switching-adding-question-criteria-3 = Non usar, o sollicitar, linguage malefic o offensive
+code-switching-adding-question-note = Tu poterea alsi considerar de extender lo a differente contextos e dominios.
+# What types of questions to add
+code-switching-types-subheader = Que typos de questiones adder?
+code-switching-use-bilingual-prompts-header = Usar suggestiones bilingue
+code-switching-use-bilingual-prompts-explanation = Usa suggestiones bilingue que incorpora ambe linguas in tu question: Exemplo:
+code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá when you got home that day?”
+code-switching-ask-bilingual-contexts-header = Demandar re contextos bilingue
+code-switching-ask-bilingual-contexts-explanation = Usar situationes ubi ambe linguas es communmente usate (p. ex., casa, schola, eventos de communitate). Exemplo:
+code-switching-ask-bilingual-contexts-explanation-example = “Quando tu parla a tu cosinos, esque tu misce espaniol e anglese?”
+code-switching-focus-emotional-header = Concentrar se sur momentos emotive o importante
+code-switching-focus-emotional-explanation = Personas bilingue sole miscer lor linguas pro exprimer emotion o urgentia. Exemplo:
+code-switching-focus-emotional-explanation-example = “Conta me que tu genitores diceva quando tu les narrava tu grande novas: exactemente como illes lo diceva.”
+code-switching-direct-quotes-header = Demandar citationes directe o reinterpretationes
+code-switching-direct-quotes-explanation = Incoragiar participantes a reproducer como le cosas era realmente dicite. Exemplo:
+code-switching-direct-quotes-explanation-example = “Qual era tu parolas exacte quando tu lo sapeva?”
+code-switching-cultural-topics-header = Eliger themas culturalmente specific
+code-switching-cultural-topics-explanation = Le dynamicas de alimentos, traditiones, vacantias, e familia sovente invita miscer proprie linguas native.
+code-switching-cultural-topics-explanation-example = “Como describe le Día de los Muertos a alcuno qui solo parla interlingua?”
+code-switching-informal-scenarios-header = Explorar scenarios informal
+code-switching-informal-scenarios-explanation = Conversationes o messages con amicos sovente include le mixturas linguistic plus natural. Exemplo:
+code-switching-informal-scenarios-explanation-example = “Qual es un burla que tu amicos sempre face, e como lo conta illes?”
+# What to Avoid
+code-switching-avoid-subheader = Que evitar
+code-switching-avoid-intro = Questiones que pote:
+code-switching-avoid-1 = Sollicitar informationes de identification personal
+code-switching-avoid-2 = Sollicitar incitamento al odio o altere sentimentos prevenite o offensive
+code-switching-avoid-3 = Causar a alcuno compartir responsas sensibile, potentialmente discatenante
+code-switching-dont-header = Non
+code-switching-dont-1 = Non usar un linguage troppo formal
+# Reviewing a Question
+code-switching-review-subheader = Revider un question
+code-switching-review-intro = Assecurar se que le question satisface le criterios:
+code-switching-review-criterion-1 = Esser facile a comprender e a responder
+code-switching-review-criterion-2 = Esser generalmente pertinente
+code-switching-review-criterion-3 = Non usar, o sollicitar, linguage malefic o offensive
+code-switching-review-does-not-header = E <bold>NON</bold> includer:
+code-switching-review-offensive-content = <bold>Contento offensive o datos sensibile</bold>
+code-switching-answer-header = Contento offensive o datos sensibile
+code-switching-review-no-1 = Questiones que poterea sollicitar informationes de identification personal
+code-switching-review-no-2 = Questiones que poterea sollicitar incitamento al odio o altere sentimentos prevenite o offensive
+code-switching-review-no-3 = Questiones que pote causar a alcuno de compartir responsas sensibile, potentialmente discatenante
+# Answering a Question
+code-switching-answer-subheader = Responder a un question
+code-switching-answer-intro = Respondente a un question, le objectivo es responder naturalmente: justo como tu amarea in un conversation de vita real. Nos vole capturar como le linguas actualmente se misce in le colloquio de cata die.
+code-switching-answer-bullet-1 = Pensar momentos o situationes de vita real: burlas, argumentos, traditiones
+code-switching-answer-bullet-2 = Imagina que tu invia messages a un amico o conta un historia a alcuno
+code-switching-answer-bullet-3 = Usa parolas que tu amarea realmente usar, mesmo si prestate o miscite
+code-switching-answer-bullet-4 = Il non ha maniera “perfecte” de responder
+code-switching-authentic-header = Responder naturalmente e authenticamente
+code-switching-authentic-speak = <bold>Parla como tu amarea con amicos o familia.</bold> Si tu misce linguas in le vita real, face lo mesme ci.
+code-switching-use-both-languages = <bold>Usa ambe linguas si isto es como tu amarea normalmente dicer lo.</bold> Mesmo mutar justo un parola o duo es utile. Exemplo:
+code-switching-use-both-languages-example = “Illa fureva multo porque io non la revocava.”
+code-switching-authentic-direct-quotes = <bold>Includer citationes directe o dialogo.</bold> Dicer exactemente lo que alcuno diceva, nulle version mundate o formal. Exemplo:
+code-switching-authentic-direct-quotes-example = “Mi mamá dijo, ‘Tú crees que esto es un juego?’ e io era como, ‘De accordo chill!’”
+code-switching-authentic-reflect = <bold>Reflecte emotion, identitate, e contexto.</bold> mixturas linguistic usualmente eveni quando personas exprime emotion, urgentia, o ideas cultural. Usa lo respondente a questiones.
+code-switching-authentic-full-context = <bold>Usar plen responsas con contexto.</bold> Sia tanto detaliate como possibile, da quanto plus detalios tu pote. Comparti un historia o exemplo in tu responsas.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Non pensa o redige troppo
+code-switching-answer-dont-correct-language = Non <bold>“Corrige” tu lingua.</bold> Isto non es un test. Un forma “Correcte” non importa ci, le lingua natural si.
+code-switching-answer-dont-avoid-switching = <bold>Evita mixturas linguistic si tu normalmente lo face.</bold> Il es ben mutar lingua in le medio del phrase, pensata, o justo pro un parola.
+code-switching-answer-dont-formal-writing = <bold>Parlar como tu scribe formalmente.</bold> Evita responsas formal, academic. Mantene lo conversational.
+code-switching-answer-dont-force-switch = <bold>Fortiar mixturas linguistic si il non es natural.</bold> Solo muta lingua si isto es como tu vole naturalmente parlar in ille situation.
+code-switching-answer-dont-translate-repeat = <bold>Traducer o repeter omne cosa.</bold> Justo dicer lo un vice, in le maniera que illo venirea in un conversation. Tu non debe dicer un version del responsa in cata lingua.
+# Transcribing
+code-switching-transcribe-subheader = Transcription
+code-switching-transcribe-intro = Transcribente responsas que include miscer proprie linguas native, representa le lingua del parlante como illo era parlate: sin corriger, modificar, o simplificar. Isto es pro tote le commutationes inter linguas, discursos informal, e parolas de mixturas linguistic.
+code-switching-transcribe-do-1 = Reproduce breve segmentos plure vices pro capturar subtil mixturas linguistic
+code-switching-transcribe-do-2 = Pausa post cata phrase pro controlar duo vices pro commutationes o parolas miscite
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Captura le voce exactemente como parlate
+code-switching-capture-explanation = Transcriber ambe linguas como illos appare / sona. Non “repara” le lingua o lo cambia a un sol lingua.
+# Include filler words and markers
+code-switching-filler-header = Include parolas repletor e marcatores
+code-switching-filler-explanation = Parolas como “um,” “like,” “pues,” “you know,” e “entonces” es significative. Exemplo: “So, um, I told her like, ‘pues no sé, maybe later.’”
+# Use standard spelling for each language
+code-switching-spelling-header = Usar orthographia standard pro cata lingua
+code-switching-spelling-explanation = Tenta orthographiar parolas correctemente pro cata lingua, salvo que le parlator clarmente los pronuncia in un maniera non standard.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Non munda o simplifica le linguage
+code-switching-cleanup-1 = Traducer o paraphrasar: scribe lo que le parlator diceva, non lo que ille “intendeva.”
+code-switching-cleanup-2 = “Corriger” grammatica o pronunciation: mantene le uso natural del parlante.
+code-switching-cleanup-3 = Saltar commutationes que pare minor o micre: mesmo le parolas prestate importa.
+code-switching-cleanup-4 = Inserer punctuation que poterea cambiar le significato: mantene le fluxo natural.
+code-switching-cleanup-5 = Presumer que tu sape le lingua de cata parola: etiquetta in base al uso.
+# Tagging
+code-switching-tagging-subheader = Etiquettar
+code-switching-tagging-error-intro = Si le transcription contine un error, usa le function de reporto pro signalar lo. Possibile errores include:
+code-switching-tagging-error-1 = Punctuation o majusculas errate
+code-switching-tagging-error-2 = Errores typographic
+code-switching-tagging-error-3 = Parolas scripte in le errate orthographia
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Usar correcte orthographia pro cata lingua
+code-switching-orthography-explanation = Scriber cata parola secundo le orthographia del lingua pertinente. Per exemplo:
+code-switching-orthography-explanation-example-1 = Si le parola “kitchen” appare pronunciate como in espaniol, il deberea esser scripte como in anglese, non como “quichen.”
+code-switching-orthography-explanation-example-2 = Si le parola quinceaños es pronunciate como in anglese, scribe lo con le ñ.
+code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
+code-switching-not-tag-proper-names-example-2 = Postos: Los Angeles, Florida
+code-switching-not-tag-interjections-example-2 = “No”
+
+## Reporting Content
+
+reporting-content = Contento de reporto
+reporting-content-subheader = Guida general

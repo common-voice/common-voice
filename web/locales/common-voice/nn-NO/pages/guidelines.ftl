@@ -116,7 +116,7 @@ adding-questions = Legg til spørsmål
 
 what-makes-a-good-question-subheader = Korleis ser eit godt spørsmål ut?
 what-makes-a-good-question-explanation = Eit  godt spørsmål for datasett for offentleg deltaking bør:
-what-makes-a-good-question-explanation-criteria-1 = Verelett å forstå og svare på
+what-makes-a-good-question-explanation-criteria-1 = Vere lett å forstå og svare på
 what-makes-a-good-question-explanation-criteria-2 = Vere generelt relevant
 what-makes-a-good-question-explanation-criteria-3 = Ikkje bruke, eller oppfordre til skadeleg eller støytande språk
 what-makes-a-good-question-tip = Du bør kanskje også vurdere å strekkje deg over ulike kontekstar og domene.
@@ -144,14 +144,151 @@ example-questions-explanation-2 = Om du ønskjer å sende inn ei rekkje spørsm�
 
 # Answer Questions
 answer-questions = Svar på spørsmål
+answer-questions-subheader = Generell rettleiing
+answer-questions-explanation-1 = Tenk ein augneblink på oppgåva — vurder kva du vil seie, men ikkje skriv eit manus. Trykk på «opptak»-ikonet. Når du har spelt inn, kan du lytte, ta opp på nytt, slette eller sende inn.
+answer-questions-explanation-2 = Hugs – ikkje ver redd for å stamme, ta pausar eller gjenta eit ord. Alt dette er nyttige data for ingeniørar som prøver å lage inkluderande, røyndomsnære talegjenkjenningsverktøy.
+answer-questions-tip-1 = Spel inn på ein rimeleg stille stad
+answer-questions-tip-2 = Vel ein stad med eit godt internettsamband
+answer-questions-tip-3b = Prøv å halde svartida på 15–30 sekund
+answer-questions-tip-4 = Unngå hatefulle, provoserande eller på annan måte støytande ytringar
+answer-questions-tip-5 = Snakk naturleg, slik du ville gjort med ein venn – bruk din eigen ekte variant, dialekt og aksent.
+answer-questions-tip-6 = Hald volumet jamt – ikkje rop eller syng
+# Transcribe the Audio
+transcribe-the-audio = Transkriber lyden
+transcribe-the-audio-subheader-1 = Generell rettleiing
+transcribe-the-audio-subheader-2 = Tal og forkortingar
+transcribe-the-audio-subheader-3 = Spesielle taggar
+transcribe-the-audio-subheader-4 = Ordsegment, falske startar, gjentekne ord
+transcribe-the-audio-subheader-5 = Grammatiske feil og munnlege uttrykk
+transcribe-the-audio-subheader-1-explanation = Generelt sett bør du skrive ned alt du høyrer. Dette inkluderer;
+transcribe-the-audio-subheader-1-explanation-example-1 = Skrive ned talefeil, inkludert nøling og gjentakingar
+transcribe-the-audio-subheader-1-explanation-example-2 = Merking av støyhendingar som hosting eller latter
+transcribe-the-audio-subheader-1-explanation-example-3 = Merking av stor støyforureining, som bakgrunnsprat eller bilhorn
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatisk variasjon og slang skal skrivast ned akkurat slik det førekjem. Ikkje korriger eller rediger folks tale.
+transcribe-the-audio-subheader-2-explanation-1 = Tal og symbol skal skrivast ut med bokstavar i staden for å bruke siffer eller spesialteikn. Døme:
+transcribe-the-audio-subheader-2-explanation-2 = Forkortingar skal skrivast som dei vanlegvis blir skrivne på språket, i samsvar med vanlege reglar for store og små bokstavar. Dei skal ikkje transkriberast fonetisk. Døme:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Rett</correct>: Det er hundre mil unna her
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Feil</wrong>: Det er 100 mil unna her
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Rett</correct>: Vi sjåast i <underline>tjuefemten</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Feil</wrong>: Vi sjåast i <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Rett</correct>: Det var tjue prosent rabatt
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Feil</wrong>: Det var 20 % rabatt
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Rett</correct>: Dei vart arresterte av <underline>FBI</underline> sist torsdag
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Feil</wrong>: Dei vart arresterte av <underline>eff beh i</underline> sist torsdag
+transcribe-the-audio-subheader-3-explanation = Følgjande spesialtaggar skal brukast for å markere nølingslydar, fyllord og andre typar ikkje-verbalt innhald (på engelsk).
 tags-table-header-1 = Etikett
 tags-table-header-2 = Meining
+tags-laugh = Latter
+tags-disfluency = Talefeil
 tags-unclear = UKlar
 tags-noise = Støy
 tags-laugh-explanation = Lyden av latter.
+tags-disfluency-explanation =
+    Eit utfyllingsord eller -lyd som blir brukt som ein mellombels plasshaldar medan talaren bestemmer seg for kva han eller ho skal seie.
+    På norsk er nokre vanlege nølingslydar «øh», «eh», «ehm», «ah» osb.
+tags-unclear-explanation = Eit ord eller ei ordrekkjefølgje som ikkje kan forståast.
+tags-noise-explanation = Alle annan type støy, som til dømes at den som snakkar hostar eller kremtar, ein bil som tutar, lyden av noko som treffer mikrofonen, ein telefon som summar osb.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Og så drog eg [støy] på ferie.
+    Vel, [støy] [latter] det var ikkje akkurat ein ferie [latter]
+transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneheld naturleg nok falske startar, der berre ein del av eit ord blir uttalt. I slike tilfelle, prøv å transkribere ordfragmentet så godt du kan, og legg til ein bindestrek (-) på slutten av ordet for å indikere at det er ein falsk start. Døme:
+transcribe-the-audio-subheader-4-explanation-1-example = Han heiter <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Av og til gjentek talarar eit ord eller eit ordfragment fleire gongar. Dette skal også transkriberast. Døme:
+transcribe-the-audio-subheader-4-explanation-2-example = Og så gjekk eg <underline>til til sove- til</underline> soverommet
+transcribe-the-audio-subheader-5-explanation-1 = Spontan tale vil naturleg innehalde grammatiske feil. Desse bør ikkje korrigerast ved transkribering. Transkripsjonen bør spegle det talte innhaldet nøyaktig.
+transcribe-the-audio-subheader-5-explanation-2 = Talarar kan bruke daglegdagse uttrykk (som på engelsk «gonna», «cuz» osb.) som kanskje ikkje blir rekna som formelt korrekte. Desse bør transkriberast som dei er, og ikkje blir endra til meir formelle ekvivalentar.
+
+## Review the Transcription
+
+review-the-transcription = Vurder transkripsjonen
+review-the-transcription-subheader = Generell rettleiing
+review-the-transcription-explanation-1 = Generelt tilrår vi at personen som kontrollerer transkripsjonen ikkje er den same som utførte den opphavlege transkripsjonen. Det er veldig vanskeleg å kvalitetssikre eige arbeid! Fleire rundar med gjennomgang kan bidra til betre kvalitetssikring og redusere skeivskapar og problem.
+review-the-transcription-explanation-2 = Gå gjennom transkripsjonsretningslinjene ovanfor for å sjekke at ein transkripsjon er korrekt. Du kan gjere endringar og sende dei inn.
+review-the-transcription-explanation-3 = Igjen, du kan flagge innhald som er støytande, skadeleg eller på annan måte urovekkjande, og det vil bli fjerna frå opplevinga di inntil Common Voice-teamet kan gå gjennom det og undersøkje det vidare.
 
 ## Code-Switching
 
+code-switching = Kodebyte
+adding-a-question = Legg til eit spørsmål
+# Adding a Question
+code-switching-adding-question-subheader = Korleis ser eit godt spørsmål ut?
+code-switching-adding-question-explanation = Eit godt spørsmål for datasett for offentleg deltaking bør:
+code-switching-adding-question-criteria-1 = Vere lett å forstå og svare på
+code-switching-adding-question-criteria-2 = Vere generelt relevant
+code-switching-adding-question-criteria-3 = Ikkje bruke, eller oppfordre til skadeleg eller støytande språk
+code-switching-adding-question-note = Du bør kanskje også vurdere å strekkje deg over ulike kontekstar og domene.
+# What types of questions to add
+code-switching-types-subheader = Kva typar spørsmål skal leggjast til?
+code-switching-use-bilingual-prompts-header = Bruk tospråklege spørsmål
+code-switching-use-bilingual-prompts-explanation = Bruk tospråklege spørsmål som inkluderer begge språka i spørsmålet ditt: Døme:
+code-switching-ask-bilingual-contexts-header = Spør om tospråklege kontekstar
+code-switching-ask-bilingual-contexts-explanation = Bruk situasjonar der begge språka er vanlege (t.d. heime, på skulen, ved arrangement i lokalsamfunnet). Døme:
+code-switching-ask-bilingual-contexts-explanation-example = «Når du snakkar med søskenbarna dine, blandar de spansk og engelsk?»
+code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige stunder
+code-switching-focus-emotional-explanation-example = «Fortel meg kva foreldra dine sa då du fortalde dei den store nyheita — nøyaktig korleis dei sa det.»
+code-switching-direct-quotes-header = Be om direkte sitat eller attforteljingar
+code-switching-direct-quotes-explanation = Oppmod deltakarane til å gi att korleis ting faktisk vart sagt. Døme:
+code-switching-direct-quotes-explanation-example = «Kva var dei eksakte orda dine då du fann det ut?»
+code-switching-cultural-topics-header = Vel kulturspesifikke emne
+code-switching-cultural-topics-explanation = Mat, tradisjonar, høgtider og familiedynamikk inviterer ofte til kodebyte.
+code-switching-informal-scenarios-header = Utforsk uformelle situasjonar
+code-switching-informal-scenarios-explanation = Samtalar med vennar eller tekstmeldingar inkluderer ofte meir naturleg veksling. Døme:
+# What to Avoid
+code-switching-avoid-subheader = Kva du bør unngå
+code-switching-avoid-intro = Spørsmål som kan vere:
+code-switching-avoid-1 = Be om personleg identifiserbar informasjon
+code-switching-avoid-2 = Oppfordre til hatefulle ytringar eller andre partiske eller støytande kjensler
+code-switching-avoid-3 = Få nokon til å dele sensitive, potensielt utløysande reaksjonar
 code-switching-dont-header = Ikkje
+code-switching-dont-1 = Ikkje bruk for formelt språk
 # Reviewing a Question
 code-switching-review-subheader = Vurder eit spørsmål
+code-switching-review-intro = Sørg for at spørsmålet oppfyller kriteria:
+code-switching-review-criterion-1 = Vere lett å forstå og svare på
+code-switching-review-criterion-2 = Vere generelt relevant
+code-switching-review-criterion-3 = Ikkje bruke, eller oppfordre til skadeleg eller støytande språk
+code-switching-review-does-not-header = Og <bold>INKLUDERER IKKJE</bold>:
+code-switching-review-offensive-content = <bold>Støytande innhald eller sensitiv informasjon</bold>
+code-switching-answer-header = Støytande innhald eller sensitiv informasjon
+code-switching-review-no-1 = Spørsmål som kan be om personleg identifiserbar informasjon
+code-switching-review-no-2 = Spørsmål som kan oppmode til hatefulle ytringar eller andre partiske eller støytande kjensler
+code-switching-review-no-3 = Spørsmål som kan få folk til å dele sensitive, potensielt utløysande svar.
+# Answering a Question
+code-switching-answer-subheader = Svare på et spørsmål
+code-switching-answer-intro = Når du svarar på et spørsmål, er målet å svare naturleg – akkurat som du ville gjort i ein ekte samtale. Vi ønskjer å fange korleis språk faktisk vert blanda i daglegtalen.
+code-switching-answer-bullet-1 = Tenk på augneblink eller situasjonar frå røyndommen: vitsar, kranglar, tradisjonar
+code-switching-answer-bullet-2 = Tenk deg at du sender ei tekstmelding til ein venn eller fortel nokon ei historie
+code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, sjølv om dei er lånte eller blanda
+code-switching-answer-bullet-4 = Det finst ingen «perfekt» måte å svare på
+code-switching-authentic-header = Svar naturleg og autentisk
+code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Om du blandar språk i det verkelege livet, gjer det same her. Døme:
+code-switching-use-both-languages = <bold>Bruk begge språka dersom det er slik du vanlegvis seier det.</bold> Sjølv det å byte ut berre eitt eller to ord er nyttig. Døme:
+code-switching-authentic-direct-quotes = <bold>Inkluder direkte sitat eller dialog.</bold> Sei nøyaktig kva nokon sa, ikkje ein opprydda eller formell versjon. Døme:
+code-switching-authentic-reflect = <bold>Reflekter kjensler, identitet og kontekst.</bold> Veksling skjer vanlegvis når folk uttrykkjer kjensler, kor viktig det er, eller kulturelle idear. Ta omsyn til desse når du svarar på spørsmål.
+code-switching-authentic-full-context = <bold>Bruk fullstendige svar med kontekst.</bold> Ver så detaljert som mogleg, og gi så mange detaljar som mogleg. Del ei historie eller eit døme i svara dine.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ikkje overtenk eller overrediger
+code-switching-answer-dont-correct-language = <bold>«Korriger» språket ditt.</bold> Dette er ikkje ein test. «Rett» form spelar inga rolle her, naturleg språk gjer det.
+code-switching-answer-dont-avoid-switching = <bold>Unngå å byte om du vanlegvis gjer det.</bold> Det går fint å byte midt i ei setning, midt i ein tanke eller berre for eitt ord.
+code-switching-answer-dont-formal-writing = <bold>Snakk som om du skriv formelt.</bold> Unngå formelle, akademiske svar. Hald det samtaleorientert.
+code-switching-answer-dont-force-switch = <bold>Tving fram byte om det ikkje er naturleg.</bold> Byt berre dersom det er slik du naturleg ville snakka i den situasjonen.
+code-switching-answer-dont-translate-repeat = <bold>Omset eller gjenta alt.</bold> Berre sei det éin gong, slik det ville vorte sagt i ein samtale. Du treng ikkje å seie ein versjon av svaret på kvart språk.
+# Transcribing
+code-switching-transcribe-subheader = Transkribering
+code-switching-transcribe-intro = Når du transkriberer svar som inkluderer kodebyte, skal du gi att språket til talaren slik det vart snakka – utan å korrigere, redigere eller forenkle. Dette gjeld for alle språkbyte, uformell tale og blanda ord.
+code-switching-transcribe-do-1 = Spel korte segment fleire gongar for å fange opp subtile byte
+code-switching-transcribe-do-2 = Pause etter kvar setning for å dobbelsjekke om det er ordvekslingar eller blanda ord.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Skriv ned talen nøyaktig som han vart sagt
+code-switching-capture-explanation = Transkriber begge språka slik dei ser ut / høyrest ut. Ikkje «fiks» språket eller endre det til berre eitt språk.
+# Include filler words and markers
+code-switching-filler-header = Inkluder fyllord og markørar
+
+## Reporting Content
+
+reporting-content-subheader = Generell rettleiing

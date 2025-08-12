@@ -32,8 +32,11 @@ continue-with-skipped = Mit übersprungenen Inhalten weitermachen
 question = Frage
 validate = Überprüfen
 respond-to-prompt = Auf Frage antworten
+respond-to-prompt-mobile = Antwort
 transcribe = Transkribieren
 check-transcriptions = Transkripte überprüfen
+check-transcriptions-mobile = Überprüfen
+tag = Schlagwörter
 
 ## Not Found Page
 
