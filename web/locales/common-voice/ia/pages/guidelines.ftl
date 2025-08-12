@@ -283,8 +283,41 @@ code-switching-authentic-full-context = <bold>Usar plen responsas con contexto.<
 code-switching-answer-dont-subheader = Non pensa o redige troppo
 code-switching-answer-dont-correct-language = Non <bold>“Corrige” tu lingua.</bold> Isto non es un test. Un forma “Correcte” non importa ci, le lingua natural si.
 code-switching-answer-dont-avoid-switching = <bold>Evita mixturas linguistic si tu normalmente lo face.</bold> Il es ben mutar lingua in le medio del phrase, pensata, o justo pro un parola.
+code-switching-answer-dont-formal-writing = <bold>Parlar como tu scribe formalmente.</bold> Evita responsas formal, academic. Mantene lo conversational.
+code-switching-answer-dont-force-switch = <bold>Fortiar mixturas linguistic si il non es natural.</bold> Solo muta lingua si isto es como tu vole naturalmente parlar in ille situation.
+code-switching-answer-dont-translate-repeat = <bold>Traducer o repeter omne cosa.</bold> Justo dicer lo un vice, in le maniera que illo venirea in un conversation. Tu non debe dicer un version del responsa in cata lingua.
 # Transcribing
 code-switching-transcribe-subheader = Transcription
+code-switching-transcribe-intro = Transcribente responsas que include miscer proprie linguas native, representa le lingua del parlante como illo era parlate: sin corriger, modificar, o simplificar. Isto es pro tote le commutationes inter linguas, discursos informal, e parolas de mixturas linguistic.
+code-switching-transcribe-do-1 = Reproduce breve segmentos plure vices pro capturar subtil mixturas linguistic
+code-switching-transcribe-do-2 = Pausa post cata phrase pro controlar duo vices pro commutationes o parolas miscite
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Captura le voce exactemente como parlate
+code-switching-capture-explanation = Transcriber ambe linguas como illos appare / sona. Non “repara” le lingua o lo cambia a un sol lingua.
+# Include filler words and markers
+code-switching-filler-header = Include parolas repletor e marcatores
+code-switching-filler-explanation = Parolas como “um,” “like,” “pues,” “you know,” e “entonces” es significative. Exemplo: “So, um, I told her like, ‘pues no sé, maybe later.’”
+# Use standard spelling for each language
+code-switching-spelling-header = Usar orthographia standard pro cata lingua
+code-switching-spelling-explanation = Tenta orthographiar parolas correctemente pro cata lingua, salvo que le parlator clarmente los pronuncia in un maniera non standard.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Non munda o simplifica le linguage
+code-switching-cleanup-1 = Traducer o paraphrasar: scribe lo que le parlator diceva, non lo que ille “intendeva.”
+code-switching-cleanup-2 = “Corriger” grammatica o pronunciation: mantene le uso natural del parlante.
+code-switching-cleanup-3 = Saltar commutationes que pare minor o micre: mesmo le parolas prestate importa.
+code-switching-cleanup-4 = Inserer punctuation que poterea cambiar le significato: mantene le fluxo natural.
+code-switching-cleanup-5 = Presumer que tu sape le lingua de cata parola: etiquetta in base al uso.
+# Tagging
+code-switching-tagging-subheader = Etiquettar
+code-switching-tagging-error-intro = Si le transcription contine un error, usa le function de reporto pro signalar lo. Possibile errores include:
+code-switching-tagging-error-1 = Punctuation o majusculas errate
+code-switching-tagging-error-2 = Errores typographic
+code-switching-tagging-error-3 = Parolas scripte in le errate orthographia
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Usar correcte orthographia pro cata lingua
+code-switching-orthography-explanation = Scriber cata parola secundo le orthographia del lingua pertinente. Per exemplo:
+code-switching-orthography-explanation-example-1 = Si le parola “kitchen” appare pronunciate como in espaniol, il deberea esser scripte como in anglese, non como “quichen.”
+code-switching-orthography-explanation-example-2 = Si le parola quinceaños es pronunciate como in anglese, scribe lo con le ñ.
 code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
 code-switching-not-tag-proper-names-example-2 = Postos: Los Angeles, Florida
 code-switching-not-tag-interjections-example-2 = “No”
