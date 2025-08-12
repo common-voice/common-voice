@@ -230,6 +230,7 @@ code-switching-ask-bilingual-contexts-header = Spør om tospråklege kontekstar
 code-switching-ask-bilingual-contexts-explanation = Bruk situasjonar der begge språka er vanlege (t.d. heime, på skulen, ved arrangement i lokalsamfunnet). Døme:
 code-switching-ask-bilingual-contexts-explanation-example = «Når du snakkar med søskenbarna dine, blandar de spansk og engelsk?»
 code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige stunder
+code-switching-focus-emotional-explanation = Folk byter ofte kode når dei uttrykkjer kjensler eller noko som hastar. Døme:
 code-switching-focus-emotional-explanation-example = «Fortel meg kva foreldra dine sa då du fortalde dei den store nyheita — nøyaktig korleis dei sa det.»
 code-switching-direct-quotes-header = Be om direkte sitat eller attforteljingar
 code-switching-direct-quotes-explanation = Oppmod deltakarane til å gi att korleis ting faktisk vart sagt. Døme:
@@ -238,6 +239,7 @@ code-switching-cultural-topics-header = Vel kulturspesifikke emne
 code-switching-cultural-topics-explanation = Mat, tradisjonar, høgtider og familiedynamikk inviterer ofte til kodebyte.
 code-switching-informal-scenarios-header = Utforsk uformelle situasjonar
 code-switching-informal-scenarios-explanation = Samtalar med vennar eller tekstmeldingar inkluderer ofte meir naturleg veksling. Døme:
+code-switching-informal-scenarios-explanation-example = «Kva er ein vits vennane dine alltid dreg — og korleis fortel dei han?»
 # What to Avoid
 code-switching-avoid-subheader = Kva du bør unngå
 code-switching-avoid-intro = Spørsmål som kan vere:
@@ -288,6 +290,13 @@ code-switching-capture-header = Skriv ned talen nøyaktig som han vart sagt
 code-switching-capture-explanation = Transkriber begge språka slik dei ser ut / høyrest ut. Ikkje «fiks» språket eller endre det til berre eitt språk.
 # Include filler words and markers
 code-switching-filler-header = Inkluder fyllord og markørar
+# Use standard spelling for each language
+code-switching-spelling-header = Bruk standard stavemåte for kvart språk
+code-switching-spelling-explanation = Prøv å stave ord rett for kvart språk, med mindre den som snakkar tydeleg uttalar dei på ein ikkje-standard måte.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Ikkje rydd opp eller forenkle språket
+code-switching-cleanup-1 = Omsetje eller omskrive – skriv det talaren faktisk sa, ikkje kva han «meinte».
+code-switching-cleanup-2 = «Korrekt» grammatikk eller uttale – behald den naturlege bruken til talaren.
 
 ## Reporting Content
 
