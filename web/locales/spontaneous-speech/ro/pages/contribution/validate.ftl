@@ -17,3 +17,4 @@ validation-guidelines-title = Îndrumări
 validation-guideline-1 = Nu se solicită informații personale (de exemplu, nume, detalii financiare, etc.)
 validation-guideline-2 = Nu se fac remarci jignitoare, cu prejudecăți și nu se pun întrebări delicate.
 validation-guideline-3 = Întrebarea trebuie să fie simplă și ușor de înțeles pentru oricine.
+validation-guideline-4 = Se poate răspunde în doar câteva propoziții.
