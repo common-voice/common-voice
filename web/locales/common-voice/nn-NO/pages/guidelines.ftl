@@ -297,6 +297,8 @@ code-switching-spelling-explanation = Prøv å stave ord rett for kvart språk, 
 code-switching-cleanup-header = Ikkje rydd opp eller forenkle språket
 code-switching-cleanup-1 = Omsetje eller omskrive – skriv det talaren faktisk sa, ikkje kva han «meinte».
 code-switching-cleanup-2 = «Korrekt» grammatikk eller uttale – behald den naturlege bruken til talaren.
+code-switching-cleanup-3 = Hopp over byter som verkar små eller ubetydelege – sjølv lånte ord har noko å seie.
+code-switching-cleanup-4 = Set inn teiknsetjing som kan endre betydninga – hald flyten naturleg.
 
 ## Reporting Content
 
