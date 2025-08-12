@@ -25,7 +25,11 @@ tag-error-toast-message = Feil ved innsending av etikettar
 tag-empty-submit-error = Ingen tekst å sende inn. Merk litt tekst først.
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Bruk rett ortografi
+cs-tag-do-guideline-2 = Bruk uttale for å hjelpe
+cs-tag-do-guideline-3 = Vær forsiktig med liknande ord
+cs-tag-do-not-guideline-1 = Merk særnamn, blanda ord eller interjeksjonar
 cs-tag-shortcuts-section-title = Tastaturbruk
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Merk med språk
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }

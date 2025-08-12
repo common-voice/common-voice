@@ -334,6 +334,11 @@ code-switching-not-tag-proper-names-example-1 = Personar: Maria, John
 code-switching-not-tag-proper-names-example-2 = Stadar: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merkenamn/organisasjonar:  Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Blanda eller morfologisk tilpassa ord.</bold> Ikkje merk ord som blandar språk eller har lagt til endingar frå eit anna språk. Døme:
+code-switching-not-tag-interjections = <bold>Interjeksjonar.</bold> Interjeksjonar og fyllord, uavhengig av språk, skal halde fram med å vere <bold> umerkte.</bold> Døme:
+code-switching-not-tag-interjections-example-1 = «Eh»
+code-switching-not-tag-interjections-example-2 = «Nei»
+code-switching-not-tag-interjections-example-3 = «Ja»
+code-switching-not-tag-interjections-example-4 = «Øh»
 
 ## Reporting Content
 
