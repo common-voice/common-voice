@@ -186,7 +186,20 @@ code-switching-adding-question-criteria-3 = Křiwdźacu abo njepřistojnu rěč 
 code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne konteksty a domeny zapřijeć.
 # What types of questions to add
 code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
+code-switching-avoid-intro = Prašenja, kotrež:
 code-switching-dont-header = Špatne
+code-switching-dont-1 = Njewužiwajće přeformalnu rěč
+# Reviewing a Question
+code-switching-review-subheader = Prašenje přepruwować
+code-switching-review-criterion-1 = lochko rozumić być a na so wotmołwić dać
+code-switching-review-criterion-2 = powšitkownje relewantne być
+code-switching-review-criterion-3 = křiwdźacu abo njepřistojnu rěč njewužiwać
+code-switching-review-does-not-header = A <bold>NJE</bold>wobsahuje:
+code-switching-review-offensive-content = <bold>Njepřistojny wobsah abo sensibelne informacije</bold>
+code-switching-answer-header = Njepřistojny wobsah abo sensibelne informacije
+code-switching-review-no-1 = Prašenja, kotrež sej informacije wo wosobinskej identiće wuprošuja
+code-switching-review-no-2 = Prašenja, kotrež sej móhli rěčenja hidy abo druhe stroniske abo njepřistojne začuća wuprošować
+code-switching-review-no-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne, potencielnje wuwołowace wotmołwy dźělić
 # Answering a Question
 code-switching-answer-subheader = Na prašenje wotmołwić
 # Transcribing
@@ -195,6 +208,7 @@ code-switching-tagging-error-2 = Pisanske zmylki
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
+code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
 code-switching-not-tag-interjections-example-1 = „Eh“
 code-switching-not-tag-interjections-example-2 = „Ně“
 code-switching-not-tag-interjections-example-3 = „Haj“

@@ -203,6 +203,7 @@ review-the-transcription-explanation-2 = Consulta le linee guida per la trascriz
 
 ## Code-Switching
 
+adding-a-question = Aggiungere una domanda
 # Adding a Question
 code-switching-adding-question-subheader = Quali sono i requisiti per una buona domanda?
 code-switching-adding-question-explanation = Una buona domanda per i dataset di partecipazione pubblica dovrebbe:
@@ -212,6 +213,7 @@ code-switching-adding-question-criteria-3 = Non contenere o incoraggiare l’uso
 code-switching-adding-question-note = Considera anche l’inclusione di contesti e domini diversi.
 # What types of questions to add
 code-switching-types-subheader = Che tipo di domande aggiungere?
+code-switching-use-bilingual-prompts-explanation-example = “Che cosa ti ha detto tua mamma when you got home that day?”
 code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui entrambe le lingue sono comunemente utilizzate (ad es. a casa, a scuola, durante eventi della comunità). Esempio:
 code-switching-focus-emotional-header = Punta su momenti emotivi o cruciali
 code-switching-focus-emotional-explanation = Le persone spesso cambiano codice linguistico per esprimere emozioni o urgenza. Esempio:
