@@ -321,6 +321,9 @@ code-switching-orthography-explanation-example-2 = Si le parola quinceaños es p
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Usa le pronunciation pro adjutar a definir le linguage
 code-switching-pronunciation-explanation = Alcun parolas poterea parer equal in ambe linguas, ma poterea esser pronunciate differentemente. Ascolta le pronunciation pro adjutar a etiquettar correctemente. Per exemplo: cablo, taco, actor, detective.
+# Tagging in a Single Token
+code-switching-single-token-header = Etiquettar in un sol token
+code-switching-single-token-explanation = Un sol token separate per spatio debe continer plus que un intervallo etiquettate.
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Attention al sosias
 code-switching-lookalikes-explanation = Alcun parolas pote apparer como un lingua ma es usate pro le altere. Etiquettar in base a significato e uso, non apparentia. Exemplos:

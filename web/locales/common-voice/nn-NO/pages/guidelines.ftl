@@ -328,7 +328,9 @@ code-switching-not-tag-proper-names = <bold>Særnamn.</bold> Namn på personar, 
 code-switching-not-tag-proper-names-example-1 = Personar: Maria, John
 code-switching-not-tag-proper-names-example-2 = Stadar: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merkenamn/organisasjonar:  Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Blanda eller morfologisk tilpassa ord.</bold> Ikkje merk ord som blandar språk eller har lagt til endingar frå eit anna språk. Døme:
 
 ## Reporting Content
 
+reporting-content = Rapportering av innhold
 reporting-content-subheader = Generell rettleiing
