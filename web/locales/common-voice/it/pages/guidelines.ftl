@@ -200,3 +200,10 @@ code-switching-informal-scenarios-explanation-example = “Qual è quella battut
 # What to Avoid
 code-switching-avoid-subheader = Che cosa evitare
 code-switching-avoid-intro = Domande che potrebbero:
+code-switching-review-intro = Assicurati che la domanda soddisfi i seguenti criteri:
+code-switching-review-criterion-1 = Sia facile da capire e a cui rispondere
+code-switching-review-criterion-2 = Sia generalmente appropriata
+code-switching-review-criterion-3 = Non contenga o incoraggi l’uso di linguaggio offensivo o oltraggioso
+code-switching-answer-header = Contenuti offensivi o informazioni sensibili
+code-switching-review-no-1 = Domande che potrebbero indurre alla divulgazione di informazioni di identificazione personale
+code-switching-review-no-2 = Domande che potrebbero provocare incitamento all’odio o ad altri sentimenti faziosi o offensivi
