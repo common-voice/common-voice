@@ -1,3 +1,8 @@
+## Errors
+
+cs-error-fetching-questions = Ҳангоми гирифтани саволҳо чизе нодуруст ба миён омад. Лутфан, баъдтар аз нав кӯшиш кунед.
+cs-error-fetching-transcriptions = Ҳангоми гирифтани матни сабт чизе нодуруст ба миён омад. Лутфан, баъдтар аз нав кӯшиш кунед.
+
 ## Question Page Items
 
 cs-question-dataset-name = Маҷмуи маълумот: { $datasetName }

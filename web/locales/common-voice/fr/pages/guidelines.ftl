@@ -205,6 +205,7 @@ code-switching-review-subheader = Vérifier une question
 code-switching-review-intro = Assurez-vous que la question répond à ces critères :
 code-switching-review-criterion-1 = Être facile à comprendre et à répondre
 code-switching-review-criterion-2 = Être globalement pertinente
+code-switching-review-does-not-header = Et qu’elle <bold>NE CONTIENT PAS</bold> de :
 code-switching-review-offensive-content = <bold>Contenu choquant ou informations sensibles</bold>
 code-switching-answer-header = Contenu choquant ou informations sensibles
 code-switching-review-no-1 = Des questions susceptibles de demander des données personnelles

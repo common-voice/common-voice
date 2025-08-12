@@ -219,3 +219,4 @@ code-switching-answer-bullet-4 = Non esiste un modo “perfetto” per risponder
 code-switching-authentic-header = Rispondi in modo naturale e autentico
 code-switching-authentic-speak-example = “Well, le ho detto che non potevo andare ma lei mi ha risposto ‘Faresti meglio a presentarti!’”
 code-switching-use-both-languages-example = “Si è davvero arrabbiata because non l’ho richiamata.”
+code-switching-authentic-reflect = <bold>Rendi emozioni, identità e contesto.</bold> Il cambio di lingua avviene di solito quando le persone esprimono emozioni, urgenza o idee culturali. Sfrutta questi aspetti quando rispondi alle domande.
