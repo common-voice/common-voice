@@ -320,6 +320,14 @@ code-switching-punctuation-tagging-explanation = Merk teiknsetjing med språket 
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Ver varsam med ord som liknar på kvarandre
 code-switching-lookalikes-explanation = Nokre ord kan sjå ut som på eitt språk, men brukast på det andre. Merk basert på betydning og bruk, ikkje utsjånad. Døme:
+code-switching-lookalikes-explanation-example-2 = «No problemo» brukt på engelsk > merk som engelsk
+# When Not to Tag Words
+code-switching-not-tag-header = Når ein ikkje skal merke ord
+code-switching-not-tag-explanation = Nokre ord skal <bold>ikkje merkast</bold> med ein språketikett, sjølv om dei ser ut til å vere blanda eller tilpassa.  Her er nokre døme på handsaming:
+code-switching-not-tag-proper-names = <bold>Særnamn.</bold> Namn på personar, stader og organisasjonar skal ikkje merkast. Døme:
+code-switching-not-tag-proper-names-example-1 = Personar: Maria, John
+code-switching-not-tag-proper-names-example-2 = Stadar: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Merkenamn/organisasjonar:  Target, Burger King
 
 ## Reporting Content
 
