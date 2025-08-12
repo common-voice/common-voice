@@ -323,6 +323,7 @@ code-switching-pronunciation-header = Usa le pronunciation pro adjutar a definir
 code-switching-pronunciation-explanation = Alcun parolas poterea parer equal in ambe linguas, ma poterea esser pronunciate differentemente. Ascolta le pronunciation pro adjutar a etiquettar correctemente. Per exemplo: cablo, taco, actor, detective.
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Attention al sosias
+code-switching-lookalikes-explanation = Alcun parolas pote apparer como un lingua ma es usate pro le altere. Etiquettar in base a significato e uso, non apparentia. Exemplos:
 code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
 code-switching-not-tag-proper-names-example-2 = Postos: Los Angeles, Florida
 code-switching-not-tag-interjections-example-2 = “No”
