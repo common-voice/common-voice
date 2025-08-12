@@ -124,7 +124,7 @@ spelling-and-pronunciation = Ορθογραφία και στίξη
 spelling-and-pronunciation-explanation = Χρησιμοποιήστε σωστή ορθογραφία και γραμματική.
 length = Μήκος
 length-explanation = Θα πρέπει να είναι δυνατή η απάντηση της ερώτησης μέσα σε λίγες μόνο προτάσεις.
-dont-add-subheader = Να μην γίνει προσθήκη
+dont-add-subheader = Ερωτήσεις προς αποφυγή
 culturally-specific-questions = Ερωτήσεις για συγκεκριμένους πολιτισμούς
 culturally-specific-questions-explanation = Ερωτήσεις που είναι πολύ συγκεκριμένες πολιτισμικά ή βασίζονται σε πολλές υποθέσεις σχετικά με το άτομο που απαντά.
 length-avoid-explanation = Ερωτήσεις στις οποίες κάποιος θα δυσκολευόταν να απαντήσει μέσα σε 15 δευτερόλεπτα (μέγιστη διάρκεια του αποσπάσματος).
@@ -141,6 +141,8 @@ example-questions-explanation-2 = Αν θέλετε να υποβάλετε μι
 ## Spontaneous Speech sidebar content
 
 answer-questions-subheader = Γενικές οδηγίες
+transcribe-the-audio-subheader-1 = Γενικές οδηγίες
+transcribe-the-audio-subheader-2 = Αριθμοί και ακρωνύμια
 transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Σωστό</correct>: Απέχει εκατό χιλιόμετρα από εδώ
@@ -168,6 +170,9 @@ review-the-transcription-subheader = Γενικές οδηγίες
 ## Code-Switching
 
 code-switching-review-intro = Βεβαιωθείτε ότι η ερώτηση πληροί τα εξής κριτήρια:
+code-switching-review-does-not-header = Και ότι <bold>ΔΕΝ</bold> περιλαμβάνει:
+code-switching-review-offensive-content = <bold>Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες</bold>
+code-switching-answer-header = Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες
 code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
 # Transcribing
 code-switching-transcribe-subheader = Μεταγραφή
