@@ -11,3 +11,11 @@ error-content-404 = Peut-être que notre <homepageLink>page d’accueil</homepag
 error-title-503 = Nous subissons des temps d’arrêt inattendus
 error-content-503 = L’accès au site sera restauré dans les plus brefs délais. Pour obtenir les dernières informations, rejoignez le <matrixLink>chat de la communauté Matrix</matrixLink>, visitez <githubLink>GitHub</githubLink> ou <discourseLink>nos forums Discourse</discourseLink> pour soumettre et surveiller les problèmes liés à l’utilisation du site.
 error-code = Erreur { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] Impossible d’envoyer { $total } échantillon. Il a déjà été envoyé auparavant. Passons au lot suivant !
+       *[other] Impossible d’envoyer { $total } échantillons. Ils ont déjà été envoyés auparavant. Passons au lot suivant !
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Nous avons envoyé { $uploaded } de vos échantillons. Les autres ont déjà été envoyés. Passons au lot suivant !

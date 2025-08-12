@@ -31,6 +31,7 @@ about-nav-how-it-works = Сыдэущтэу?
 about-nav-partners = Ӏэхьагъухэр
 about-nav-get-involved = Хэлажь
 about-nav-how-it-works-2 = Комон Войс сыдэущтэу мэлажьа?
+about-nav-playbook = Зэгъашӏ узэрэхэлэжьэщтыр
 
 ## Community Playbook Content
 ## What is a language
@@ -39,31 +40,15 @@ about-playbook-what-is-language = Коммон Войсымкӏэ бзэр сы�
 
 ## How do I add a language
 
+about-playbook-how-add-language = Сыдэущтэу бзэ горэ хэзгъэхъощт?
 about-playbook-how-add-language-translating-heading = Сайтыр къызэдзэкӏ
 about-playbook-how-add-language-collecting-sentences-heading = Гущыӏэухыгъэр угъоин
 
 ## How does localization work
 
 about-playbook-how-localize = Сайтым ичӏыпӏэзэгъэуӏупӏэ сыдэущтэу лажьэра?
+about-playbook-how-localize-content-5 = Узгъэсэщт тивидео ӏэпыӏэгъум еплъ
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Сыдэущтэу гущыӏэухыгъэхэм ахэзгъэхъощта?
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

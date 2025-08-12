@@ -50,9 +50,3 @@ review-delete-recordings = Sula engikurekhodileko
 review-terms = Ngokusebenzisa i-Common Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -68,36 +68,3 @@ username-email-not-demographic = Тіян ним да электрон пошт�
 
 welcome-staff = Виддза корам, { $company } уджалысьяс!
 profile-not-required = Профиль вӧчӧм абу зэв колана, но сійӧ вермас отсавны
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ዕላማ ኣቐምጥ
 cant-decide = ክትውስን ኣሸጊሩካ?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
-                               *[other] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
-                               *[other] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
-                               *[other] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
-                               *[other] { $totalHours } ሰዓትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
-                               *[other] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
-                               *[other] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ወርሒእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
-                               *[other] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰብመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፕመዓልቲ
-                               *[other] { $totalHours } ሰዓታትዝተበጽሐ ትወዲኡ ኣሎ{ $periodMonths } ኣዋርሕእንተ{ $people } ሰባትመዝገብ{ $clipsPerDay } ክሊፓትመዓልቲ
-                            }
-                    }
-            }
-    }
 how-many-per-day = ብጣዕሚ ጽቡቕ! ንማዓልቲ ክንደይ ክሉፕስ ክትቀድሕ ትደሊ?
 how-many-a-week = ብጣዕሚ ጽቡቕ! ንሰሙን ክንደይ ክሉፕስ ክትቀድሕ ትደሊ?
 which-goal-type = ድምጽኻ ክትቀድሕ ጥራይ ዲኻ ትደሊ ዋላስ ክትሰምዕ እንኮላይ ትደሊ ኢኻ?

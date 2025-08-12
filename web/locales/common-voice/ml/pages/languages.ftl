@@ -1,6 +1,6 @@
 ## Languages Overview
 
-language-section-in-progress = പുരോഗതിയില്‍...
+language-section-in-progress = നടപ്പിലാണു്
 language-section-in-progress-new-description = ഈ ഭാഷകൾ നിലവിൽ കൂട്ടായ്മകൾ വികസിപ്പിക്കുന്നവയാണ്. <localizationGlossaryLink>വെബ്സൈറ്റ് പ്രാദേശികവത്കരണത്തിന്റെയും</localizationGlossaryLink> <sentenceCollectionGlossaryLink>വാക്യസമ്പാദനത്തിന്റെയും</sentenceCollectionGlossaryLink> പുരോഗതിയിൽ എത്രത്തോളം മുമ്പിലാണ് ഓരോ ഭാഷയുമെന്ന് പ്രോഗ്രസ് ബാറുകൾ കാണിക്കുന്നു.
 language-section-launched = ആരംഭിച്ചു
 language-section-launched-description = കോമൺ വോയിസ് ആരംഭിച്ചു കഴിഞ്ഞ ഇക്കാണുന്ന ഭാഷകളിലേക്ക് വെബ്സൈറ്റ് വിജയകരമായി <localizationGlossaryLink>പ്രാദേശികവത്കരിക്കപ്പെട്ടിരിക്കുന്നു</localizationGlossaryLink>. മാത്രമല്ല ഇവയിൽ  <speakLink>സംസാരിയ്ക്കാനും</speakLink, <listenLink>കേട്ടു ശരിവെയ്ക്കാനുമായി</listenLink>  ആവശ്യത്തിനു് <sentenceCollectionGlossaryLink> വാക്യങ്ങൾ സമ്പാദിക്കപ്പെട്ടിട്ടുമുണ്ട്</sentenceCollectionGlossaryLink>.

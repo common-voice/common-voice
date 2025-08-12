@@ -70,7 +70,6 @@ hsb = 上索布語
 ht = 海地語
 hu = 匈牙利語
 hy-AM = 亞美尼亞語
-hyw = 西亞美尼亞語
 ia = 國際語
 id = 印尼語
 ie = 國際語（Interlingue）

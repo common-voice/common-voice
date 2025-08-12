@@ -3,6 +3,13 @@ guidelines-header = Richtlijnen voor bijdragen
 guidelines-header-subtitle = Leer hoe u zinnen en audiofragmenten aan de Common Voice-gegevensset kunt bijdragen en valideren
 voice-collection = Spraakcollectie
 sentence-collection = Zinnenverzameling
+question-collection = Vragenverzameling
+scripted-speech = Scriptspraak
+spontaneous-speech = Spontane spraak
+dont-subheader = Niet doen
+
+## Voice Collection nav ids
+
 varying-pronunciations = Uiteenlopende uitspraken
 misreadings = Verkeerd gelezen
 offensive-content = Aanstootgevende inhoud
@@ -12,6 +19,9 @@ volume = Volume
 reader-effects = Lezereffecten
 just-unsure = Gewoon onzeker?
 example = Voorbeeld
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = We verwelkomen verschillende accenten! Wees heel voorzichtig voordat u een fragment afwijst als u denkt dat een lezer een woord verkeerd uitspreekt, de nadruk op de verkeerde plaats legt of interpunctie negeert. Er wordt een grote variëteit aan uitspraken in de wereld gebruikt, en sommige hebt u mogelijk in uw omgeving niet gehoord. Bied een ruime marge aan personen die anders dan u spreken.
 varying-pronunciations-explanation-2 = Als u daarentegen denkt dat de lezer het woord nog nooit heeft gebruikt en een onjuiste inschatting van de uitspraak doet, wijs het fragment dan af. Als u het niet zeker weet, gebruik dan de knop Overslaan.
 varying-pronunciations-example = De route was onduidelijk.
@@ -47,11 +57,17 @@ reader-effects-explanation = De meeste opnames zijn van mensen die met hun natuu
 just-unsure-explanation = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
 still-have-questions = Nog steeds vragen?
 contact-common-voice = Neem contact op met het Common Voice-team
+
+## Sentence collection nav ids
+
 public-domain = Publiek domein
 citing-sentences = Bronnen van zinnen vermelden
 adding-sentences = Zinnen toevoegen
 reviewing-sentences = Zinnen beoordelen
 sentence-domain = Zinsdomein
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Het is heel belangrijk dat alle tekstzinnen <publicDomain>publiek domein</publicDomain> (<cc0>cc0</cc0>) zijn, aangezien de Common Voice-dataset wordt uitgegeven onder een cc0-licentie. Upload een zin alleen als u hier zeker van bent en voeg altijd de relevante bronvermelding toe.
 public-domain-explanation-2 = De beste zinnen voor het bouwen van een bruikbare spraakherkenningsengine zijn in moderne spreektaal. Enkele ideeën om u te helpen bij het aanmaken van zinnen zijn;
 public-domain-explanation-3 = Maak zelf moderne, informele zinnen of met uw vrienden of taalgemeenschap – bijvoorbeeld door middel van een ‘write-a-thon’
@@ -95,3 +111,80 @@ reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
 domain-explanation = Domein verwijst naar het onderwerp van de zin. Momenteel kunt u kiezen tussen:
+
+## Question collection ids
+
+adding-questions = Vragen toevoegen
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Hoe ziet een goede vraag eruit?
+what-makes-a-good-question-explanation = Een goede vraag voor datasets voor publieksparticipatie moet:
+what-makes-a-good-question-explanation-criteria-1 = Eenvoudig te begrijpen en te beantwoorden zijn
+what-makes-a-good-question-explanation-criteria-2 = Algemeen relevant zijn
+what-makes-a-good-question-explanation-criteria-3 = Geen schadelijke of beledigende taal gebruiken of erom vragen
+what-makes-a-good-question-tip = U kunt ook overwegen verschillende contexten en domeinen te bestrijken.
+easy-to-understand = Eenvoudig te begrijpen
+easy-to-understand-explanation = Kies eenvoudige vragen die voor iedereen gemakkelijk te begrijpen zijn, ongeacht cultuur of context.
+spelling-and-pronunciation = Spelling en interpunctie
+spelling-and-pronunciation-explanation = Gebruik correcte spelling en grammatica.
+length = Lengte
+length-explanation = De vraag moet in slechts een paar zinnen kunnen worden beantwoord
+dont-add-subheader = Niet toevoegen
+culturally-specific-questions = Cultureel specifieke vragen
+culturally-specific-questions-explanation = Vragen die zeer cultureel specifiek zijn, of veel veronderstellingen over de beantwoorder doen
+length-avoid-explanation = Vragen die iemand maar moeilijk binnen 15 seconden (de maximale fragmentlengte) zou kunnen beantwoorden
+process-steps = Proces / stappen
+process-steps-explanation = Vragen waarbij iemand meerdere stappen moet opsommen. Het opsommen van stappen vraagt de gebruiker een antwoord op te zeggen in plaats van een natuurlijker antwoord.
+offensive-content-sensitive-information = Beledigende inhoud of gevoelige informatie
+offensive-content-sensitive-information-explanation-explanation-1 = Vragen waarbij mogelijk om persoonlijk identificeerbare informatie wordt gevraagd
+offensive-content-sensitive-information-explanation-explanation-2 = Vragen die kunnen aanzetten tot haat of andere bevooroordeelde of beledigende gevoelens
+offensive-content-sensitive-information-explanation-explanation-3 = Vragen die ervoor kunnen zorgen dat iemand gevoelige, mogelijk activerende antwoorden deelt
+example-questions-subheader = Voorbeeldvragen
+example-questions-explanation-1 = U vindt <examplePromptsLink>120 voorbeeldprompts in dit blad.</examplePromptsLink>
+example-questions-explanation-2 = Als u een reeks vragen voor opname wilt indienen, kunt u <githubLink>dit doen via onze GitHub</githubLink> of uw lijst e-mailen naar <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Vragen beantwoorden
+answer-questions-subheader = Algemene richtlijnen
+transcribe-the-audio-subheader-3 = Speciale labels
+tags-table-header-1 = Label
+tags-table-header-2 = Betekenis
+tags-laugh = Lachen
+tags-unclear = Onduidelijk
+tags-noise = Ruis
+tags-laugh-explanation = Het geluid van gelach.
+
+## Review the Transcription
+
+review-the-transcription-subheader = Algemene richtlijnen
+
+## Code-Switching
+
+adding-a-question = Een vraag toevoegen
+# Adding a Question
+code-switching-adding-question-subheader = Hoe ziet een goede vraag eruit?
+code-switching-adding-question-explanation = Een goede vraag voor datasets voor publieksparticipatie moet:
+code-switching-adding-question-criteria-1 = Eenvoudig te begrijpen en te beantwoorden zijn
+code-switching-adding-question-criteria-2 = Algemeen relevant zijn
+code-switching-adding-question-criteria-3 = Geen schadelijke of beledigende taal gebruiken of erom vragen
+code-switching-adding-question-note = U kunt ook overwegen verschillende contexten en domeinen te bestrijken.
+# What to Avoid
+code-switching-avoid-subheader = Wat te vermijden
+code-switching-avoid-intro = Vragen die mogelijk:
+code-switching-dont-header = Niet doen
+# Reviewing a Question
+code-switching-review-subheader = Een vraag beoordelen
+code-switching-review-criterion-1 = Eenvoudig te begrijpen en te beantwoorden zijn
+code-switching-review-criterion-2 = Algemeen relevant zijn
+code-switching-review-criterion-3 = Geen schadelijke of beledigende taal gebruiken of erom vragen
+code-switching-review-does-not-header = En <bold>BEVAT NIET</bold>:
+code-switching-review-offensive-content = <bold>Beledigende inhoud of gevoelige informatie</bold>
+code-switching-answer-header = Beledigende inhoud of gevoelige informatie
+code-switching-review-no-1 = Vragen waarbij mogelijk om persoonlijk identificeerbare informatie wordt gevraagd
+code-switching-review-no-2 = Vragen die kunnen aanzetten tot haat of andere bevooroordeelde of beledigende gevoelens
+code-switching-review-no-3 = Vragen die ervoor kunnen zorgen dat iemand gevoelige, mogelijk activerende antwoorden deelt
+# Transcribing
+code-switching-transcribe-subheader = Transcriberen

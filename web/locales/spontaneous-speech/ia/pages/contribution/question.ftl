@@ -2,7 +2,7 @@
 
 question-page-instruction = Adder un question <icon></icon> in { $currentLocale } proque le personas responde
 add-question-textarea-placeholder = p. ex., “Pro que desira tu poter usar le technologia?”
-add-questions-terms-checkbox = * Io confirma que iste question es de <publicDomainLink>dominio public</publicDomainLink> e io ha permisso pro cargar lo.
+add-questions-terms-checkbox = * Io confirma que iste question es in le <publicDomainLink>dominio public</publicDomainLink> e que io ha le permission de incargar lo.
 question-dataset-language = Base de datos: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
@@ -26,3 +26,6 @@ do-not-section-title = non
 do-not-section-guideline-1 = Sollicitar informationes de identification personal (como nomines o informationes financiari)
 do-not-section-guideline-2 = Exprimer o sollicitar sentimentos interessate o offensive
 do-not-section-guideline-3 = Demandar questiones sensibile
+# Code switching Guidelines
+cs-do-section-guideline-1 = Usar questiones o contexto bilingual
+cs-do-not-section-guideline-3 = Usar un linguage troppo formal

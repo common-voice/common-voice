@@ -11,8 +11,6 @@ platform-language-tooltip-text = ویب سائٹو صرف عبارتو بدل ک
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹو سوم { $language } بچین مدد کوریک
 contribution-picker-tooltip-text = ہتے وارو تین الوس کی کورا کی تو حصہ دریک مݰکیسان
-# Label for button on contribution switcher
-change = بدل کو
 coming-soon = خور واران دی شاؤ انگوسیان
 media-recorder-api-not-supported = تہ براوسرا میڈیا رکارڈر اے پی آئی نو چالوران۔
 # Toast message that is displayed when an item is skipped
@@ -29,10 +27,10 @@ request-new-language = نوغ وارو درخواست کو
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = اشاران جوابو دیت
 transcribe = نیویشیکا انگے
 check-transcriptions = نیویشیروان لوڑے
-question = سوال
 
 ## Not Found Page
 

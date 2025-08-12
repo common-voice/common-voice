@@ -11,9 +11,6 @@ skip-button = ⵙⵙⵉⵏⴼ
 submit-button = ⴰⵣⵏ
 contribute = ⴰⵔⴳ
 
-## Navbar
-
-
 ## Not Found Page
 
 en = ⵜⴰⵏⴳⵍⵉⵣⵜ

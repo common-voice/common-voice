@@ -9,5 +9,8 @@ export const clipsSchema: AllowedSchema = {
       minimum: 1,
       maximum: 50
     },
+    ignoreClientVariant: {
+      type: 'boolean',
+    },
   },
 };

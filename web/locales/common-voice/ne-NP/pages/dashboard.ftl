@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = एक लक्ष्य सेट गर्नुहोस्
 cant-decide = निर्णय गर्न सक्नुहुन्न?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } घंटामा जम्मा { $periodMonths } महिनामायदि  { $people } जना ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                               *[other] { $totalHours } घंटामा जम्मा { $periodMonths } महिनामायदि  { $people } जना ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } घंटामा जम्मा { $periodMonths } महिनामायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                               *[other] { $totalHours } घंटामा जम्मा { $periodMonths } महिनामायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } घंटामा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जना ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                               *[other] { $totalHours } घंटामा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जना ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } घंटामा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                               *[other] { $totalHours } घंटामा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनामायदि  { $people } जना ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                               *[other] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनामायदि  { $people } जना ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनामायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                               *[other] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनामायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जना ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                               *[other] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जना ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                               *[other] { $totalHours } घंटाहरुमा जम्मा { $periodMonths } महिनाहरुमायदि  { $people } जनाहरु ले { $clipsPerDay } क्लिपहरुप्रतिदिन रिकार्ड गरे भने मज्जाले पुग्छ
-                            }
-                    }
-            }
-    }
 how-many-per-day = वाह! प्रति दिन कतिवटा क्लिपहरू?
 how-many-a-week = वाह! हप्तामा कतिवटा क्लिपहरू?
 which-goal-type = के तपाईं बोल्न चाहनुहुन्छ, सुन्न वा दुबै?

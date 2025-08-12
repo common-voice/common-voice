@@ -29,12 +29,3 @@ single-sentence = Адзін сказ
 ## BULK SUBMISSION
 
 maximum-file-size = Максімальны памер файла: 25 Мб
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

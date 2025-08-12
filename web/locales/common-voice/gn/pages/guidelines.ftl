@@ -3,6 +3,13 @@ guidelines-header = Ñepytyvõkuaa rapereko
 guidelines-header-subtitle = Eikuaa mba’éichapa eipytyvõ ha emoneĩta ñe’ẽjuaju ha mba’epu mombyky Common Voice mba’ekuaarã atýpe
 voice-collection = Ayvu Ñembyaty
 sentence-collection = Ñe’ẽsyry ñembyaty
+question-collection = Porandu Aty
+scripted-speech = Ñe’ẽsyry hapéva
+spontaneous-speech = Ñe’ẽsyry hape’ỹva
+dont-subheader = Nahániri
+
+## Voice Collection nav ids
+
 varying-pronunciations = Je’epyre Hekoetáva
 misreadings = Moñe’ẽ vai
 offensive-content = Ñe’ẽreity Ivaíva
@@ -12,6 +19,9 @@ volume = Mbopuatãha
 reader-effects = Moñe’ẽhára Oñandúva
 just-unsure = ¿Nahekorasãi?
 example = Techapyrã
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ¡Romog̃uahẽporã opaichagua ñe’ẽryapúpe! Ejesarekóke embotove mboyve peteĩ jekutúpe heʼívo pe omoñe’ẽva omoñe’ẽvaihague peteĩ ñe’ẽ, omoĩvaihague térã haʼetévaicha ndojesarekoihague peteĩ kyta rehe. Ko yvóra tuichakuére ojeporu hetaiterei ñe’ẽ ñembohyapu, ha ikatu oĩ nerehendúiva ne ava’atýpe. Peme’ẽmi peteĩ aguyjeme’ẽ pa’ũme umi ikatúva oñe’ẽ ambuéva pendehegui.
 varying-pronunciations-explanation-2 = Ambueháicha, eguerovia mba’éramo pe moñe’ẽhára araka’eve ndohechamo’ãiha pe ñe’ẽ ha oimo’ãreínte ojavývo pe iñemboayvu pukue, ha pévare omboyke. Ndereikuaa porãiramo, eiporu pe votõ Jepo.
 varying-pronunciations-example = Pe tape nahesakãporãi.
@@ -45,11 +55,17 @@ reader-effects-explanation = Hetavéva ñe’ẽñongatupy haʼe yvypóra oñeʼ
 just-unsure-explanation = Ejuhúramo ko’ã pauta ndojaho’íriva, evota reñamindu’uhaichaite. Ndaikatúiramo añetehápe eiporavo, eiporu pe votõ jepoha ha eku’ejey ambue ñeñongatu ndive.
 still-have-questions = ¿Eporandusépa gueteri?
 contact-common-voice = Eñomongeta Common Voice aty ndive
+
+## Sentence collection nav ids
+
 public-domain = Opavave oiporukuaáva
 citing-sentences = Emboysýi ñe’ẽjuaju
 adding-sentences = Emoĩve Ñe’ẽjuaju
 reviewing-sentences = Ehechajey Ñe’ẽjuaju
 sentence-domain = Ñe’ẽjuaju rendatee
+
+## Sentence collection sidebar content
+
 public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua ñe’ẽayvu ñeikumby mongu’eha oikóva ha’e ñe’ẽ syryry ha poravopyre. Ãva nepytyvõta ejapokuaa hag̃ua ñe’ẽjuaju;
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
@@ -86,3 +102,134 @@ reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eik
 reviewing-sentences-explanation-3 = Ndereikuaaporãiramo ñe’ẽjuaju rehe, avei ikatu emboyke ha ehasánte chugui.
 reviewing-sentences-explanation-4 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 domain-explanation = Tendatee oñe’ẽ ñe’ẽjuaju rehe. Ko’ag̃aite, eiporavokuaa ko’ãva apytégui:
+
+## Question collection ids
+
+adding-questions = Embojuaju porandu
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = ¿Mba’e pe omoporãvéva porandu?
+what-makes-a-good-question-explanation = Peteĩ porandu iporãvéva mba’ekuaarãme g̃uarã ojejapóva opavavépe orekova’erã:
+what-makes-a-good-question-explanation-criteria-1 = Ndahasýi iñeikumby ha imbohovái
+what-makes-a-good-question-explanation-criteria-2 = Hetave jey hekoporãva’erã
+what-makes-a-good-question-explanation-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+what-makes-a-good-question-tip = Ikatu ejagarrasehína heta jeregua ha tendatee.
+easy-to-understand = Ndahasýi iñeikumby
+easy-to-understand-explanation = Eporandu hasy’ỹva oikumbykuaa hag̃uáicha oimeraẽtéva, taha’e kuaapy térã oñeñe’ẽva rehegua.
+spelling-and-pronunciation = Haiporã ha Ñemokyta
+spelling-and-pronunciation-explanation = Eiporuporã haikuaa ha ñe’ẽtekuaa.
+length = Pukukue
+length-explanation = Ikatúramo eñeha’ã embohovái ndahetái ñe’ẽjuajúpe.
+dont-add-subheader = Ani embojuaju
+culturally-specific-questions = Porandu mba’ekuaarã rehegua
+culturally-specific-questions-explanation = Ñeporandu jekuaapy rehe g̃uarã térã ojapóva heta je’erei ñembohovái rehegua.
+length-avoid-explanation = Porandu peteĩ tapicha ikatukuaáva ombohovái 15 aravo’ípe (ko’a peve ipukukue pe porandu)
+process-steps = Mba’eapo / Jeku’e
+process-steps-explanation = Porandu oikotevẽva ñembopapapy. Embopapapy umi jeku’e he’i poruhárape ombohovái hag̃ua ombohovái reirangue.
+offensive-content-sensitive-information = Tetepy oporoko’õva térã marandu oñeñandúva
+offensive-content-sensitive-information-explanation-explanation-1 = Ñeporandu ikatukuaáva ojerure ndéve marandu nde ndeheguaitéva
+offensive-content-sensitive-information-explanation-explanation-2 = Porandu ikatúva omongu’e je’epy ja’e’ỹ térã hetave mba’e omongu’ekuaáva jeikovairã
+offensive-content-sensitive-information-explanation-explanation-3 = Porandu ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
+example-questions-subheader = Porandu techapyrãva
+example-questions-explanation-1 = Ejuhukuaa <examplePromptsLink>120 techapyrã oĩva ko kuatiaroguépe.</examplePromptsLink>
+example-questions-explanation-2 = Remondoséramo peteĩ porandu aty rehegua oñeikumby porã hag̃ua, ikatu ejapo ore GitHub rupive</githubLink> térã emondo tysýi ñanduti veve rupive <emailFragment>commonvoice@mozilla.com-pe.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Embohovái Porandu
+answer-questions-subheader = Ñembohape guasu
+answer-questions-tip-1 = Egrava peteĩ tenda hyapu’ỹhápe
+answer-questions-tip-2 = Eiporavo peteĩ tenda eikekuaa hag̃ua internépe
+answer-questions-tip-3b = Erekóke ne ñembohovái 15-30 aravo’ípe
+# Transcribe the Audio
+transcribe-the-audio = Emonguatia Mba’epu
+transcribe-the-audio-subheader-1 = Ñembohape guasu
+transcribe-the-audio-subheader-2 = Papapy ha akrónimo
+transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
+transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Oiko’ỹva</wrong>: Opyta sa mílla ko’águi
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Oiko</correct>: Jajuecháta <underline>mokõipa papo</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Oiko’ỹva</wrong>: Jajuecháta <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Oiko</correct>: Areko mokõipa savore hepykue guejýva
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Oiko’ỹva</wrong>: Areko mokõipa savore hepykue guejýva
+tags-table-header-1 = Teramoĩ
+tags-table-header-2 = He’iséva
+tags-laugh = Puka
+tags-disfluency = Ñe’ẽpa’ã
+tags-unclear = Hesakã’ỹva
+tags-noise = Tyapu
+tags-laugh-explanation = Jepuka ryapu.
+tags-unclear-explanation = Ñe’ẽ térã ñe’ẽ juaju oñeikumbykuaa’ỹva.
+transcribe-the-audio-subheader-4-explanation-1-example = Ha’e héra <underline>Jo- Jona-</underline> Jonathan.
+
+## Review the Transcription
+
+review-the-transcription = Ehechajey jehaikue
+review-the-transcription-subheader = Ñembohape guasu
+
+## Code-Switching
+
+code-switching = Ayvu ñemoambue
+adding-a-question = Embojuaju Porandu
+# Adding a Question
+code-switching-adding-question-subheader = ¿Mba’e pe omoporãvéva porandu?
+code-switching-adding-question-explanation = Porandu iporãva mba’ekuaarãme g̃uarã opavave ojapóva orekova’erã:
+code-switching-adding-question-criteria-1 = Ndahasýi iñeikumby ha iñembohovái
+code-switching-adding-question-criteria-2 = Hetave jey hekoporãva’erã
+code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva.
+# What types of questions to add
+code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
+code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
+code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
+code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
+code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
+# What to Avoid
+code-switching-avoid-subheader = Mba’éicha emboykéta
+code-switching-avoid-intro = Porandu ikatúva:
+code-switching-avoid-1 = Ejerure marandu tapicha mba’eteéva rehegua
+code-switching-dont-header = Nahániri
+code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
+# Reviewing a Question
+code-switching-review-subheader = Ehecha jey Porandu
+code-switching-review-intro = Ehecháke pe porandu taiporãmeme:
+code-switching-review-criterion-1 = Ndahasýi iñeikumby ha imbohovái
+code-switching-review-criterion-2 = Hetave jey hekoporãva’erã
+code-switching-review-criterion-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+code-switching-answer-header = Tetepy oporoko’õva térã marandu oñeñandúva
+code-switching-review-no-1 = Ñeporandu ikatukuaáva ojerure ndéve marandu nde ndeheguaitéva
+code-switching-review-no-2 = Porandu ikatúva omongu’e je’epy ja’e’ỹ térã hetave mba’e omongu’ekuaáva jeikovairã
+code-switching-review-no-3 = Porandu ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
+# Answering a Question
+code-switching-answer-subheader = Embohovaihína Porandu
+code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emombeʼuha tembiasakue nde rapichápe
+code-switching-answer-bullet-3 = Eiporu ñe’ẽ añetehápe eiporútava, taha’e porupy térã ojehe’áva
+code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
+code-switching-authentic-header = Embohovái porã ha ha’etéva
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
+# Transcribing
+code-switching-transcribe-subheader = Ñe’ẽnguejehai
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
+# Include filler words and markers
+code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
+# Tagging
+code-switching-tagging-subheader = Teramoĩmbyre
+code-switching-tagging-error-2 = Jejavy taiguáva
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “Naháriri”
+code-switching-not-tag-interjections-example-3 = “Héẽ”
+code-switching-not-tag-interjections-example-4 = “Er”
+
+## Reporting Content
+
+reporting-content = Emombe’u Tetepy
+reporting-content-subheader = Ñembohape guasu

@@ -7,8 +7,6 @@ action-tap = לחיצה
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = תרומה למערך הנתונים עבור { $language }
-# Label for button on contribution switcher
-change = שינוי
 coming-soon = שפות נוספות מגיעות בקרוב
 media-recorder-api-not-supported = ה-API של MediaRecorder אינו נתמך בדפדפן שלכם.
 # Toast message that is displayed when an item is skipped

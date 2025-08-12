@@ -63,7 +63,7 @@ img-alt-success-checkmark = Symbol wuspěcha
 # menu item
 read-sentences = Sady čitać
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = Sady čitać <small>(přińdźe bórze)</small>
+read-sentences-coming-soon = Sady čitać
 
 ## MENU ITEM TOOLTIPS
 

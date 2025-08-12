@@ -25,6 +25,3 @@ ba = Bashkir
 email-input =
     .label = Email
 not-available-abbreviation = N/A
-
-## Donate banner
-

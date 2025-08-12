@@ -1,8 +1,17 @@
 # GUIDELINES PAGE
 guidelines-header = Киржиириниң удуртулга бижии
+
+## Voice Collection nav ids
+
 example = Чижек
+
+## Voice collection sidebar content
+
 just-unsure-explanation = Бо сүмелерниң чугаалавайн турары чүүлдерге таваржы берзиңерзе, угаан-сарыылыңарга даянып, бадылаңар. Шынап-ла шиитпирлеп чадап турар болзуңарза, эрттирериниң кнопказын ажыглапкаш, дараазында бижикче шилчий бериңер.
 contact-common-voice = Common Voice-туң командазы-биле харылзажыптыңар
+
+## Sentence collection sidebar content
+
 public-domain-explanation-4 = Авторлар, драматургтар азы сценаристер-биле харылзашкаш, олар чогаалдарының улуг эвес кезиин хөй-ниитиниң өнчүзүнче дамчыдып берип шыдаар-дыр бе, айтырып көрүңер.
 citing-sentences-subheader-offline-sources-explanation = Хөй-ниитиниң өнчүзү болуп турар, Интернетте чок сөзүглелге айтылгаларның академиктиг хевирин, чижээ, Гарвард стилин, ажыглап болур силер: «Джесс (2021) Ажык лицензиялыг мээң шүлүктерим».
 adding-sentences-subheader-length-explanation = 15 сөстен эвээш

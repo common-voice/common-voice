@@ -52,7 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Mete yon objektif
 cant-decide = Ou pa ka deside?
-activity-needed-calculation-plural = { $totalHours } èdtan yo ka reyalize nan yon ti kras plis pase { $periodMonths } mwa si { $people } moun anrejistre { $clipsPerDay } clip pa jou.
 how-many-per-day = Trè byen! Konbyen odyo pa jou?
 how-many-a-week = Trè byen! Konbyen odyo pa jou?
 which-goal-type = Èske ou vle Pale, Koute oswa toude?

@@ -4,4 +4,5 @@ export type UnvalidatedSentenceDto = {
   source: string
   localeId: number
   variantTag: string | null
+  variantName: string | null
 }

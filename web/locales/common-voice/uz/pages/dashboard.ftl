@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                               *[other] { $totalHours } soatli kontentnitaxminan,{ $periodMonths } oy muddatda yakunlasa boʻladiagar{ $people } ta odamkuniga{ $clipsPerDay } ta ovozyozsa.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Ajoyib! Kuniga nechta klip?
 how-many-a-week = Ajoyib! Kuniga nechta klip?
 which-goal-type = Oʻqishni, tinglashni yoki ikkalasini ham xohlaysizmi?

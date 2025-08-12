@@ -1,4 +1,3 @@
-import * as fs from 'fs'
 import { SESClientConfig } from '@aws-sdk/client-ses'
 import { config } from 'dotenv'
 
@@ -6,7 +5,21 @@ if (process.env.DOTENV_CONFIG_PATH) {
   const result = config({ path: process.env.DOTENV_CONFIG_PATH })
   if (result.error) {
     console.log(result.error)
-    console.log('Failed loading dotenv file, using defaults')
+    console.log(
+      'ERROR loading config: Failed loading dotenv file. Expected file: ',
+      process.env.DOTENV_CONFIG_PATH
+    )
+  } else {
+    // check to see if the default authentication details have changed, if not issue Warning
+    if (result.parsed.CV_FXA_DOMAIN == '<domain_here>') {
+      console.log(
+        'ERROR loading config: found default Authentication values. Have you updated .env-docker-local with correct Authentication values?'
+      )
+    }
+    console.log(
+      'Loading config: successfully loaded dotenv file: ',
+      process.env.DOTENV_CONFIG_PATH
+    )
   }
 }
 
@@ -45,6 +58,7 @@ export type CommonVoiceConfig = {
   }
   BASKET_API_KEY?: string
   IMPORT_SENTENCES: boolean
+  IMPORT_LANGUAGES: string
   REDIS_URL: string
   LAST_DATASET: string
   SENTRY_DSN_SERVER: string
@@ -53,6 +67,7 @@ export type CommonVoiceConfig = {
   FLAG_BUFFER_STREAM_ENABLED: boolean
   EMAIL_USERNAME_FROM: string
   EMAIL_USERNAME_TO: string
+  AUTH_SERVICE_URL: string
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -104,6 +119,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
     CLIENT_SECRET: configEntry('CV_FXA_CLIENT_SECRET', ''),
   },
   IMPORT_SENTENCES: configEntry('CV_IMPORT_SENTENCES', true, castBoolean),
+  IMPORT_LANGUAGES: configEntry('CV_IMPORT_LANGUAGES', ''),
   REDIS_URL: configEntry('CV_REDIS_URL', null),
   LAST_DATASET: configEntry('CV_LAST_DATASET', '2019-06-12'),
   SENTRY_DSN_SERVER: configEntry('CV_SENTRY_DSN_SERVER', ''),
@@ -117,35 +133,26 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
+  AUTH_SERVICE_URL: configEntry('CV_AUTH_SERVICE_URL', 'http://gha-auth:8000'),
 }
 
 let injectedConfig: CommonVoiceConfig
-let loadedConfig: CommonVoiceConfig
 
 export function injectConfig(config: Partial<CommonVoiceConfig>) {
   injectedConfig = { ...BASE_CONFIG, ...config }
 }
 
 export function getConfig(): CommonVoiceConfig {
-  if (injectedConfig) {
-    return injectedConfig
-  }
-
-  if (loadedConfig) {
-    return loadedConfig
-  }
-
-  let fileConfig = null
-
   try {
-    const config_path = process.env.SERVER_CONFIG_PATH || './config.json'
-    fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'))
+    if (injectedConfig) {
+      console.log('Loading config: reading injectedConfig ...')
+      return injectedConfig
+    }
+
+    return BASE_CONFIG
   } catch (err) {
     console.error(
-      `Could not load config.json, using defaults (error message: ${err.message})`
+      `ERROR: Could not load any available configuration (error message: ${err.message})`
     )
   }
-  loadedConfig = { ...BASE_CONFIG, ...fileConfig }
-
-  return loadedConfig
 }

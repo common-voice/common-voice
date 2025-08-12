@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Dengerin suaré dan periksé transkripsi. Apé itu sesué? Kalo engga, edit ajé biar sesué.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Periksé
-no-transcriptions-message = Ga adé berkas transkripsi buat diperiksé di bahasé ini. Gih muat ulang nih halaman atau cobain beberapé saat lagi.
 vote-transcript-success = Penilaian transkripsi berhasil!
 vote-transcript-error = Adé eror pas ngenilai transkripsi
 transcript-edited-success = Adé kesaléan pas ngedit transkripsi

@@ -58,7 +58,6 @@ hsb = Altu sórabu
 ht = Haitianu
 hu = Húngaru
 hy-AM = Armeniu
-hyw = Armeniu occidental
 ia = Interlingua
 id = Indonesiu
 is = Islandés
@@ -172,6 +171,3 @@ email-opt-in-info-sub-with-challenge = Vas recibir correos con recordatorios, an
 email-opt-in-privacy-v2 = Al Optar a recibir correos, aceptes que Mozilla remane esta información como desplica na so <privacyLink>Política de Privacidá</privacyLink>.
 indicates-required = * indica que ye un campu riquíu
 not-available-abbreviation = N/D
-
-## Donate banner
-

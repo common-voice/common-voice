@@ -1,8 +1,12 @@
 # GUIDELINES PAGE
 guidelines-header = მონაწილეთა გზამკვლევი
-guidelines-header-subtitle = გაეცანით, როგორ უნდა დაამატოთ და შეამოწმოთ წინადადებები ან ხმოვანი ჩანაწერები Common Voice-ის მონაცემთა კრებულში.
+guidelines-header-subtitle = გაეცანით, როგორ უნდა დაამატოთ და შეამოწმოთ ჩანაწერები, რომელთაც Common Voice აგროვებს კრებულში.
 voice-collection = ხმების შეგროვება
-sentence-collection = წინადადებების შეგროვება
+sentence-collection = წინადადების შეგროვება
+question-collection = კითხვების შეგროვება
+
+## Voice Collection nav ids
+
 varying-pronunciations = განსხვავებული წარმოთქმა
 misreadings = შეცდომით ამოკითხვა
 offensive-content = შეურაცხმყოფელი შინაარსი
@@ -12,6 +16,9 @@ volume = ხმის სიმაღლე
 reader-effects = შეცვლილი ხმა
 just-unsure = მაინც გეეჭვებათ?
 example = მაგალითი
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = მეტყველების განსხვავებული კილოები მისასალმებელია ჩვენთან! მეტი სიფრთხილე გამოიჩინეთ ჩანაწერის უარყოფამდე, როცა საქმე ეხება სიტყვის არამართებულ წარმოთქმას, მახვილის უადგილოდ დასმას ან კითხვის ნიშნის უგულებელყოფას. ვინაიდან მსოფლიოში მრავალი თავისებური სახის მეტყველებაა, რომლებიც შეიძლება არ გქონდეთ გაგონილი ახლომახლო. გთხოვთ, ისინიც გაითვალისწინოთ, ვინც შესაძლოა, თქვენგან განსხვავებულად საუბრობდნენ.
 varying-pronunciations-explanation-2 = მეორე მხრივ, თუ ფიქრობთ, რომ მკითხველი პირველად წააწყდა ამ სიტყვას და ნამდვილად შეცდომით ამოიკითხა, გთხოვთ უარყოთ. თუ არ ხართ დარწმუნებული, გამოიყენეთ გამოტოვების ღილაკი.
 varying-pronunciations-example = ფეხბურთის გუნდი ბრჭყალებში ჩაისმის.
@@ -46,12 +53,18 @@ volume-explanation = განსხვავება ბუნებრივ�
 reader-effects-explanation = ჩანაწერების უმეტესობაში ხალხი ბუნებრივი ხმით საუბრობს. ამასთანავე, შეგიძლიათ გამონაკლისის სახით მიიღოთ უჩვეულო ხმით ჩაწერილებიც, რომლებიც შეიცავს ყვირილს, ჩურჩულს ან ხელოვნურ, „სამსახიობო“ შესრულებით წარმოთქმულს. გთხოვთ, უარყოთ ნამღერი და კომპიუტერული პროგრამის მიერ ხელოვნურად ამოკითხული ჩანაწერები.
 just-unsure-explanation = თუ ისეთ საკითხს წააწყდით, რომელიც ამ მითითებებში არაა განხილული, გთხოვთ შეაფასოთ საკუთარი შეხედულებისამებრ, კეთილსინდისიერად. როცა ნამდვილად გაგიჭირდებათ გადაწყვეტილების მიღება, მხოლოდ გამოტოვეთ და სხვა ჩანაწერზე გადადით.
 still-have-questions = კიდევ გაქვთ კითხვები?
-contact-common-voice = მოგვწერეთ Common Voice-გუნდს
+contact-common-voice = მოგვწერეთ – Common Voice
+
+## Sentence collection nav ids
+
 public-domain = საყოველთაო საკუთრება
 citing-sentences = წყაროს მითითება
 adding-sentences = წინადადებების დამატება
 reviewing-sentences = წინადადებების შემოწმება
 sentence-domain = წინადადების დარგი
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = მეტად მნიშვნელოვანია, რომ ყველა წინადადება წარმოადგენდეს <publicDomain>საყოველთაო საკუთრებას</publicDomain> (<cc0>cc0</cc0>), რათა Common Voice-ის კრებულის გამოცემა შესაძლებელი იყოს cc0-ლიცენზიით. მხოლოდ იმ შემთხვევაში ატვირთეთ წინადადება, თუ დადასტურებულად იცით, რომ გაქვთ გამოყენების უფლება და ყოველთვის დაურთეთ თან გადამოწმებული წყარო.
 public-domain-explanation-2 = მეტყველების ამომცნობი ძრავას შესაქმნელად მეტად გამოსადეგია წინადადებები თანამედროვე სასაუბრო ენიდან. იხილეთ რამდენიმე გზა ამგვარი წინადადებების შესადგენად;
 public-domain-explanation-3 = შეთხზეთ თანამედროვე სასაუბრო ენის მიხედვით წინადადებები თავად და მეგობრებთან ერთად ერთგვარი „მარათონული“ შეჯიბრების მოწყობით წერაში
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = თუ წინადადება ვე
 reviewing-sentences-explanation-3 = თუ გეეჭვებათ წინადადება, შეგიძლიათ გამოტოვოთ და გადახვიდეთ მომდევნოზე.
 reviewing-sentences-explanation-4 = თუ ამოიწურება შესამოწმებელი წინადადებები, გთხოვთ დაგვეხმაროთ ახლის მოძიებასა და შეგროვებაში!
 domain-explanation = დარგი მიუთითებს, თუ რა საგანს ეხება წინადადება. ამჟამად შეგიძლიათ აირჩიოთ:
+
+## Question collection ids
+
+adding-questions = კითხვების დამატება
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = როგორი უნდა იყოს კარგი შეკითხვა?
+what-makes-a-good-question-explanation = კარგი შეკითხვა საჯარო კრებულისთვის უნდა იყოს:
+what-makes-a-good-question-explanation-criteria-1 = ადვილად გასაგები და იოლად საპასუხო
+what-makes-a-good-question-explanation-criteria-2 = მეტად საყოველთაო
+what-makes-a-good-question-explanation-criteria-3 = არ შეიცავდეს და არ ითხოვდეს მავნე ან შეურაცხმყოფელ სიტყვებს
+what-makes-a-good-question-tip = აგრეთვე სასურველია, მოიცვათ მრავალი საკითხი და დარგი.
+easy-to-understand = ადვილად გასაგები
+easy-to-understand-explanation = იოლი კითხვები, საყოველთაოდ გასაგები, წარმომავლობისა თუ საცხოვრებელი გარემოს განურჩევლად.
+spelling-and-pronunciation = მართლწერა და სასვენი ნიშნები
+spelling-and-pronunciation-explanation = გამართული მართლწერითა და გრამატიკით.
+length = სიგრძე
+length-explanation = შეკითხვა იმგვარი უნდა იყოს, რომ პასუხი ერთი-ორი წინადადებით ხერხდებოდეს.
+dont-add-subheader = არ დაამატოთ
+culturally-specific-questions = კითხვები ცალკეული ხალხის ან გარემოს შესახებ
+culturally-specific-questions-explanation = კითხვები, რომლებიც ვიწროდ მოიცავს ცალკეული საზოგადოების მახასიათებლებსა და მოპასუხისგან ითხოვს ზედმეტად ბევრ ვარაუდს.
+length-avoid-explanation = კითხვები, რომელთა საპასუხოდ ძალისხმევა აჭარბებს 15 წამს (ჩანაწერის ნებადართულ ხანგრძლივობას)
+process-steps = მიმდინარეობა / ნაბიჯები
+process-steps-explanation = კითხვები, რომლებიც მოითხოვს რამდენიმე ნაბიჯის მითითებას.  ნაბიჯების ჩამოთვლისას მომხმარებელს უწევს დაზეპირებული პასუხის გაცემა და იკარგება ბუნებრიობა.
+offensive-content-sensitive-information = შეურაცხმყოფელი ან საფრთხილო ინფორმაცია
+offensive-content-sensitive-information-explanation-explanation-1 = კითხვები, რომლითაც გამჟღავნდება პირის ამოსაცნობი მონაცემები
+offensive-content-sensitive-information-explanation-explanation-2 = კითხვები, რომლებიც შეიძლება იწვევდეს სიძულვილის ენას ან სხვა მიკერძოებულ თუ შეურაცხმყოფელ განწყობებს.
+offensive-content-sensitive-information-explanation-explanation-3 = კითხვები, რომლებიც მოპასუხისთვის შეიძლება აღმოჩნდეს მეტად მგრძნობიარე, ამაღელვებელი და უბიძგოს საფრთხილო მონაცემების გამჟღავნებისკენ.
+example-questions-subheader = შეკითხვის ნიმუშები
+example-questions-explanation-1 = მაგალითისთვის იხილეთ <examplePromptsLink>შეკითხვის 120 ნიმუში მოცემულ ცნობარში.</examplePromptsLink>
+example-questions-explanation-2 = თუ გსურთ კითხვების ერთიანად გადმოგზავნა შეტანისთვის, <githubLink>შეგიძლიათ გამოიყენოთ ჩვენი GitHub</githubLink> ან მოგვაწოდოთ ჩამონათვალი ელფოსტაზე <emailFragment>commonvoice@mozilla.com.</emailFragment>

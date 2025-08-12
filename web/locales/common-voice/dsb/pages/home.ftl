@@ -81,34 +81,34 @@ read-more-about = Cytajśo wěcej wó boku Wó Common Voice
 
 ## NAV ITEMS
 
-answer-questions = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
-answer-questions-coming-soon = Na pšašanja wótegroniś <small>(pśiźo skóro)</small>
-review-transcriptions = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
-review-transcriptions-coming-soon = Transkripcije pśeglědowaś <small>(pśiźo skóro</small>)
-add-questions = Pšašanja pśidaś <small>(pśiźo skóro)</small>
-add-questions-coming-soon = Pšašanja pśidaś <small>(pśiźo skóro)</small>
-transcribe-audio-coming-soon = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
-transcribe-audio = Awdio transkriběrowaś <small>(pśiźo skóro)</small>
+answer-questions = Na pšašanja wótegroniś
+review-transcriptions = Transkripcije pśeglědowaś
+add-questions = Pšašanja pśidaś
+review-questions = Pšašanja pśeglědowaś
+transcribe-audio = Awdio transkriběrowaś
 press-and-stories = Casnikaŕstwo a tšojenja
 community-and-languages = Zgromaźeństwo a rěcy
 coming-soon = Skóro k dispoziciji
+about-us = Wó nas
+scripted-speech = POWĚDANJE ZE SKRIPTOM
+spontaneous-speech = SPONTANE POWĚDANJE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnaŕstwa, casnikaŕstwo a tšojenja, zgromaźeństwo a rěcy
+about-us-menu-item-tooltip = Zgóńśo wěcej wó misiji a teamje za Common Voice
 partnerships-menu-item-tooltip = Buźćo naš partnaŕ
 press-and-stories-menu-item-tooltip = Woglědajśo se k našomu blogoju abo pišćo wó nas
 community-and-languages-menu-item-tooltip = Namakajśo rěcy, zgromaźeństwa a Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Wó meniju Nastajenja
+about-menu-aria-label = Meni za pśistup k partnaŕstwam, casnikaŕstwoju a tšojenjam, zgromaźeństwoju a rěcam
+about-us-menu-aria-label = Wó meniju Nastajenja
+about-us-menu-item-aria-label = Nastajenja menija „Wó nas“
 partnerships-menu-item-aria-label = Zgóńśo wěcej wó partnaŕstwach z Common Voice
 press-and-stories-menu-item-aria-label = Mějśo pśistup k wózjawjenjam casnikaŕstwa a tšojenjam wó Common Voice
 community-and-languages-menu-item-aria-label = Wuslěźćo zgromaźeństwo a rěcy, kótarež se pśez Common Voice pódpěraju
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,20 +123,22 @@ get-started = Prědne kšace <icon><icon>
 
 action-items-section-title = Common Voice jo dermotna platforma wótwórjonego žrědła za wót zgromaźeństwa nawjedowane napóranje datow
 action-items-section-subtitle = Kuždy móžo swóju rěc wobchowaś, zasej wóžywiś a pólěpšyś, gaž tekst a powědańske datowe sajźby źěli, napórajo a zastoj.
-scripted-card-header = Napisane powědanje
+scripted-card-header = Powědanje ze skriptom
 scripted-card-content = Cytajśo sady głosnje w swójej rěcy a pśinosujśo k nejwjelerakšej zjawnej rěcnej datowej sajźbje w swěśe.
 spontaneous-card-header = Spontane powědanje
 spontaneous-card-content = Wótegrońśo na naspominanja, aby datowe sajźby za organiske, wobchadnorěcne konteksty napórał. To jo perfektne za pśewažnje wustne rěcy.
 language-text-card-header = Rěcny tekst
 language-text-card-content = Napórajśo abo źělśo zjawne naspominanja, sady a tekst za pśełoženje, małe rěcne modele a wěcej.
+coming-soon = Skóro k dispoziciji
 add-text = Tekst pśidaś
+answer = Wótegroniś
 
 ## Community section
 
 community-section-title = Pódprěte wót globalnych zgromaźeństwow za globalne zgromaźeństwa – 130 rěcow a pśiběrajuce!
 join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
 # label for button
-join-discord-community-action = Pśizamkniśo se nam na Discord
+join-discord-community-action = &nbsp;Pśizamkniśo se nam na Discord
 join-discord-community-content = Wobźělśo se na diskusijach rěcnego zgromaźeństwa, stajśo pšašanja a zgóńśo wó pśichodnych zarědowanjach a rozgronach.
 find-us-on-matrix = Namakajśo nas na Matrix
 find-us-on-matrix-content = Matrix jo wótwórjony, lažki protokol za decentralizěrowanu komunikaciju w napšawdnem casu a wót Mozilla preferěrowana wótwórjona diskusijna platforma.

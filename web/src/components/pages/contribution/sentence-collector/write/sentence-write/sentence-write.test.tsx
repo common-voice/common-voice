@@ -10,7 +10,8 @@ const useActionMock = jest.fn()
 const mockVariants = jest.fn(() => Promise.resolve({}))
 const mockHandlesSubmit = jest.fn().mockImplementation(e => e.preventDefault())
 
-const allVariants = ['mock-variant-1', 'mock-variant-2']
+const allVariantTokens = ['mock-variant-1', 'mock-variant-2']
+const allVariantNames = ['Mock Variant 1', 'Mock Variant 2']
 const mockCitation = 'mock-citation'
 const mockSentence = 'Mock sentence'
 const mockSentenceVariant = 'mock-variant-1'
@@ -41,7 +42,8 @@ describe('Single Submission Write page', () => {
   it('renders Single Submission Write page', async () => {
     renderWithProviders(
       <SentenceWrite
-        allVariants={allVariants}
+        allVariantTokens={allVariantTokens}
+        allVariantNames={allVariantNames}
         mode="single"
         handleCitationChange={jest.fn()}
         handlePublicDomainChange={jest.fn()}

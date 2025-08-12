@@ -7,8 +7,6 @@ action-tap = Síb'i ngék'o rá só'o rí 'ópjü
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Nuts'k'é gí pë́pji yó jângo jñatjo { $language }
-# Label for button on contribution switcher
-change = Pö̀tüji
 coming-soon = Yá kjâ rá méxe rá mib'i jñatjo
 media-recorder-api-not-supported = Nú API MediaRecorder dyà zô'o rá jñā̂nda
 # Toast message that is displayed when an item is skipped

@@ -2,7 +2,7 @@
 
 sc-review-lang-not-selected = sina kepeken ala toki. o lukin e lipu jan sina. o kepeken toki.
 sc-review-title = o lukin e sitelen
-sc-review-loading = sitelen li kama…
+sc-review-loading = mi pana e toki…
 sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
 sc-review-no-sentences = sitelen sin li lon ala. <addLink>o pana e sitelen sin lon tenpo ni!</addLink>
 sc-review-form-prompt =

@@ -62,13 +62,17 @@ create-profile-button = Tạo hồ sơ
 img-alt-success-checkmark = dấu kiểm thành công
 # menu item
 read-sentences = Đọc câu
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Đọc câu <small>(sắp ra mắt)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Đọc câu và Trả lời câu hỏi
 read-sentences-menu-item-tooltip = Ghi âm cách bản thân đọc các câu trong ngôn ngữ của bạn
 answer-questions-menu-item-tooltip = Ghi âm cách bản thân trả lời các câu hỏi và yêu cầu trong ngôn ngữ của bạn
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Tuỳ chọn khi nói
+read-sentences-menu-item-aria-label = Đọc các câu được cộng đồng gửi bằng nhiều ngôn ngữ khác nhau
 answer-questions-menu-item-aria-label = Đăng một câu hỏi mới để cộng đồng cùng đọc và trả lời

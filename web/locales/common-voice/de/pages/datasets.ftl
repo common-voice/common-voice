@@ -8,6 +8,7 @@ datasets-positioning =
     Der mehrsprachige Datensatz von Common Voice ist bereits der größte öffentlich verfügbare Sprachdatensatz seiner Art, jedoch nicht das einzige.
     
     Betrachten Sie diese Seite als Referenzpunkt für andere quelloffene Sprachdatensätze. Wenn Common Voice weiter wächst, finden Sie hier die neuesten Updates.
+datasets-speech-bubble-content = Aufregende Nachrichten! Spontane Sprache ist bald verfügbar! Bleiben Sie dran für Neuigkeiten und besuchen Sie unseren <discordLink>Discord</discordLink>, um die neuesten Informationen zu erhalten.
 language = Sprache
 download-dataset-header = Datensatz herunterladen
 download-delta-explainer = Wir haben einige Änderungen vorgenommen. Delta-Segmente enthalten nur die neuesten Clips seit der letzten Veröffentlichung. <deltaLink>Lesen Sie mehr über diese Arbeit</deltaLink>.
@@ -94,6 +95,9 @@ release-version = Version
 dataset-date = Datum
 license = Lizenz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Gemischt
+# Support old genders in older datasets
+male = Männlich
+female = Weiblich
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Laden Sie unsere Sprachdatensätze herunter
 # MENU ITEM ARIA LABELS

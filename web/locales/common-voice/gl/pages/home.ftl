@@ -75,34 +75,34 @@ read-more-about = Máis información na pestana "Sobre nós"
 
 ## NAV ITEMS
 
-answer-questions = Responder preguntas <small>(Proximamente)</small>
-answer-questions-coming-soon = Responder preguntas <small>(proximamente)</small>
-review-transcriptions = Revisar transcricións <small>(Proximamente)</small>
-review-transcriptions-coming-soon = Revisar transcricións <small>(proximamente)</small>
-add-questions = Engadir preguntas <small>(Proximamente)</small>
-add-questions-coming-soon = Engadir preguntas <small>(Proximamente)</small>
-transcribe-audio-coming-soon = Transcribir gravacións <small>(proximamente)</small>
-transcribe-audio = Transcribir gravacións <small>(Proximamente)</small>
+answer-questions = Responder preguntas
+review-transcriptions = Revisar transcricións
+add-questions = Engadir preguntas
+review-questions = Revisar preguntas
+transcribe-audio = Transcribir gravacións
 press-and-stories = Comunicación, novas
 community-and-languages = Comunidade, idiomas
 coming-soon = Proximamente
+about-us = Sobre nós
+scripted-speech = FALA GUIADA
+spontaneous-speech = FALA ESPONTÁNEA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Colaboracións, comunicación e novas, comunidade e idiomas
+about-us-menu-item-tooltip = Obteña información sobre a misión e o equipo detrás de Common Voice
 partnerships-menu-item-tooltip = Colabore connosco
 press-and-stories-menu-item-tooltip = Visite o noso blog ou escriba sobre nós
 community-and-languages-menu-item-tooltip = Descubra os idiomas e as comunidades presentes en Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menú de opcións "Sobre nós"
+about-menu-aria-label = Acceder á area de colaboracións, comunicación e novas, comunidade e idiomas
+about-us-menu-aria-label = Menú de opcións "Sobre nós"
+about-us-menu-item-aria-label = Menú de opcións "Sobre nós"
 partnerships-menu-item-aria-label = Aprenda sobre as colaboracións con Common Voice
 press-and-stories-menu-item-aria-label = Acceda a notas de prensa e novas relacionadas con Common Voice
 community-and-languages-menu-item-aria-label = Explore a comunidade e os idiomas presentes en Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,7 +123,9 @@ spontaneous-card-header = Fala espontánea
 spontaneous-card-content = Responde a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
 language-text-card-header = Texto na súa lingua
 language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
+coming-soon = Proximamente
 add-text = Achegar texto
+answer = Resposta
 
 ## Community section
 

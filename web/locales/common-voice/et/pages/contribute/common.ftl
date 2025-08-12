@@ -13,9 +13,6 @@ contribute-more =
 record-button-label = Salvesta oma hääl
 share-title-new = <bold>Aita meil</bold> leida rohkem hääli
 
-## Reporting
-
-
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
@@ -44,6 +41,3 @@ shortcut-vote-yes = J
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = E
-
-## Validation criteria
-

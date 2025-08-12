@@ -63,7 +63,6 @@ hsb = Alto Sorabo
 ht = aj Haiti
 hu = Hungaro
 hy-AM = Armenyan
-hyw = Armenio (occidental )
 ia = Interlingua
 id = Indonesio
 ie = Interlingue
@@ -204,6 +203,3 @@ email-opt-in-info-sub-with-challenge = Ke'ak'ulu' taq taqoya'l achi'el kinatab'a
 email-opt-in-privacy-v2 = Toq naya' q'ij ye'ak'ül taq taqoya'l, niq'ax pan qawi' chi naya' q'ij chi re ri Mozilla nrokisaj ri awetamab'al achi'el nichol pa ri <privacyLink>Ichinan Runa'ojil </privacyLink> Mozilla.
 indicates-required = * Retal chi k'atzinel ri k'ojlib'äl
 not-available-abbreviation = M/O
-
-## Donate banner
-

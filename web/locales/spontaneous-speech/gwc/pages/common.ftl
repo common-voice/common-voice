@@ -11,8 +11,6 @@ platform-language-tooltip-text = ویب سائیٹاں صرف مواد بداٞ�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹ مئ شراکاٞت  کٞرنت جِبیں کیر{ $language }
 contribution-picker-tooltip-text = کاٞں جِباں مواداں سیٹ مئی تُو حصہ تلنت تاٞس بدلانت
-# Label for button on contribution switcher
-change = بداٞل کٞر
 coming-soon = دی جِیبونہ شاٞردہ یینت
 media-recorder-api-not-supported = میڈیا ریکارڈر چھاٞں بروزر نہ چلاونت۔
 # Toast message that is displayed when an item is skipped
@@ -29,10 +27,10 @@ request-new-language = نِیم جِبیں کیر درخاس دہ
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = اِشاراں جواب دہ
 transcribe = نقل کٞروگ
 check-transcriptions = نقل کٞراٞل چیک کٞر
-question = سوال
 
 ## Not Found Page
 

@@ -9,9 +9,3 @@ listen-loading-error = Ghesɨ bu tî keli nô gɨ-a ìmò' na va yvɨtɨ. M�
 listen-abort-title = Ghɨ chwosɨ meyn mèsi gɨ-sɨ-a ?
 listen-abort-cancel = Va chwosɨ ndu kɨ ndu
 listen-abort-confirm = Chwòsɨ̀ mesi
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

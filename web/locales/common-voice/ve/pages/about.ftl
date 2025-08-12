@@ -150,6 +150,3 @@ about-playbook-how-project-governance-content-4 = U longa tshanḓa kha tshigwad
 about-playbook-how-project-governance-content-5 = U dzhiiwa i ya ndeme na u ḓivhiwa.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vhuḓalo nga ha uri ri langiwa hani</governanceLink>
-
-## How is Common Voice funded
-

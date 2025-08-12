@@ -2,12 +2,6 @@
 # [Languages]
 
 
-## Languages
-
-
-# [/]
-
-
 ## Layout
 
 contact = padjadjaljudjaljun
@@ -15,6 +9,3 @@ privacy = sikaqiljiqilji a pakeljang
 terms = papasusuan ta siseljudjan
 logout = sisasavan
 donate = sipasaseqeljiqeljing
-
-## Donate banner
-

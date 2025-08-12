@@ -1,3 +1,6 @@
+speak = Tal
+speak-now = Tal nu
+speak-subtitle = Donér din stemme
 record-cta = Start optagelse
 record-platform-not-supported = Vi beklager, men din platform er i øjeblikket ikke understøttet.
 record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
@@ -40,12 +43,21 @@ terms-disagree = Jeg accepterer ikke
 first-cta-header-text = Tak fordi du donerede dine stemmoptagelser!
 why-donate = Hvorfor spørger du?
 add-information-button = Tilføj information
+continue-speaking-button = Nej tak, fortsæt med at tale
+create-profile-text = Vil du gemme dine oplysninger? <createProfile>Opret en profil</createProfile>
+thanks-for-voice-toast = Tak for dine stemmeoplysninger
+thanks-for-voice-toast-error = Der opstod en fejl under indsendelse af dine stemmeoplysninger
 first-cta-gender-select-default-option = Vælg en mulighed
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tak fordi du bidrager med din stemme!
 already-have-an-account = Har du allerede en konto? <login>Log ind</login>
 create-profile-button = Opret en profil
 
 ## MENU ITEM TOOLTIPS
 
+read-sentences-menu-item-tooltip = Optag dig selv, mens du oplæser sætninger på dit sprog
 
 ## MENU ITEM ARIA LABELS
 
+read-sentences-menu-item-aria-label = Læs sætninger indsendt af fællesskabet på forskellige sprog
+answer-questions-menu-item-aria-label = Indsend et nyt spørgsmål, som fællesskabet kan læse og svare på

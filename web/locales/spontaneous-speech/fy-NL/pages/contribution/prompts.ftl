@@ -4,7 +4,8 @@ record-player-header = Jo antwurd opnimme
 mic-access-error = Jo moatte tagong ta jo mikrofoan tastean.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> en antwurdzje sa natuerlik mooglik
-no-prompts-message = Der binne op it stuit gjin fragen foar dizze taal. Ferfarskje de side of probearje it letter nochris.
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Der binne op dit stuit gjin fragen mear foar dizze taal. As jo ien oerslein hawwe, kinne jo trochgean mei oersleine ynhâld of of audiotranskripsje útfiere en it letter opnij probearje.
 error-skipping = Der is in flater bard by it oerslaan fan dizze fraach
 error-recording = Der is in flater bard wylst it opnimmen
 error-fetching-prompts = Der is wat misgien by it opheljen fan fragen. Probearje it letter opnij.

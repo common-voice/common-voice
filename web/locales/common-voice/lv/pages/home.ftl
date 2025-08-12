@@ -81,32 +81,31 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbildēt uz jautājumiem
-answer-questions-coming-soon = Atbildēt uz jautājumiem <small>(drīzumā)</small>
 review-transcriptions = Pārskatiet transkripcijas
-review-transcriptions-coming-soon = Pārskatīt transkripcijas <small>(drīzumā)</small>
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
-transcribe-audio-coming-soon = Pārrakstīt audio <small>(drīzumā)</small>
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
 community-and-languages = Kopiena un valodas
 coming-soon = Drīzumā
+about-us = Par mums
+scripted-speech = SAGATAVOTĀ RUNA
+spontaneous-speech = SPONTĀNĀ RUNA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
+about-us-menu-item-tooltip = Uzziniet par Common Voice misiju un komandu
 partnerships-menu-item-tooltip = Sadarbojieties ar mums
 press-and-stories-menu-item-tooltip = Apmeklējiet mūsu emuāru vai rakstiet par mums
 community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Par iespēju izvēlni
+about-us-menu-aria-label = Par iespēju izvēlni
+about-us-menu-item-aria-label = Par mums izvēlne
 partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common Voice
 press-and-stories-menu-item-aria-label = Piekļūstiet preses relīzēm un stāstiem, kas saistīti ar Common Voice
 community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīto kopienu un valodas
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -124,10 +123,12 @@ action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot s
 scripted-card-header = Sagatavota runa
 scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot plašāko kopienas radīto runas datu kopu pasaulē.
 spontaneous-card-header = Spontāna runa
-spontaneous-card-content = Atbildiet uz uzvednēm, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
+spontaneous-card-content = Atbildiet uz jautājumiem, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
 language-text-card-header = Valodas teksti
-language-text-card-content = Veidojiet pārizmantojamas uzvednes, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+language-text-card-content = Veidojiet datu vākšanas jautājumus, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+coming-soon = Drīzumā
 add-text = Pievienot tekstu
+answer = Atbilde
 
 ## Community section
 

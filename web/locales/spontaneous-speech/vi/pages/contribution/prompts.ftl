@@ -4,7 +4,6 @@ record-player-header = Ghi âm phản hồi của bạn
 mic-access-error = Bạn cần cho phép truy cập micrô.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> và phản hồi tự nhiên nhất có thể
-no-prompts-message = Hiện không có yêu cầu nào cho ngôn ngữ này. Vui lòng tải lại trang hoặc thử lại sau.
 error-skipping = Đã xảy ra lỗi khi bỏ qua yêu cầu này
 error-recording = Đã xảy ra lỗi khi đang ghi âm
 error-fetching-prompts = Đã xảy ra sự cố khi truy xuất yêu cầu. Vui lòng thử lại sau.

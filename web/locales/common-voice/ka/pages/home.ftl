@@ -46,7 +46,7 @@ x-years-short =
 help-make-dataset = დაგვეხმარეთ მაღალი ხარისხის, საჯაროდ ხელმისაწვდომი კრებულის შექმნაში
 sign-up-account = ანგარიშის შექმნა
 email-subscription-title = გამოიწერეთ ელფოსტაზე სიახლეები
-email-subscription-title-new = გამოიწერეთ Common Voice-ის ახალი ამბები, მიზნის შეხსენებები და მიმდინარე წინსვლის შესახებ ცნობები
+email-subscription-title-new = გამოიწერეთ Common Voice და გაეცანით ახალ ამბებს, მიზნის შეხსენებებსა და მიმდინარე წინსვლის შესახებ ცნობებს
 
 ## Account Benefits
 
@@ -64,7 +64,7 @@ whats-public = რა არის საჯარო?
 email-not-public = ჩვენ არ გავასაჯაროებთ თქვენს ელფოსტას.
 recordings-and-locale-public = ჩანაწერების რაოდენობა და ის ენები, რომლებშიც წვლილი შეგაქვთ, იქნება ხილული.
 username-optin-public = თავად შეგეძლებათ, გადაწყვიტოთ, თქვენი სახელი საჯარო იყოს, თუ დაფარული.
-demographic-deidentified-clarity-2 = დამატებით წარმოდგენილი მონაცემები (როგორიცაა ასაკი, სქესი და აქცენტი) არასდროს გამოქვეყნდება საჯაროდ პროფილზე და არ იქნება დაკავშირებული თქვენს ანგარიშთან კრებულში. ცალკეულ ხმოვან ჩანაწერებს დაერთვება ეს დემოგრაფიული მონაცემები, დამუშავების სიზუსტის გასაუმჯობესებლად — მაგალითად, მკვლევარმა რომ შეძლოს მოდელი მოარგოს გარკვეულ დემოგრაფიულ ჯგუფს, სურვილისამებრ.
+demographic-deidentified-clarity-2 = დამატებით წარმოდგენილი მონაცემები (როგორიცაა ასაკი, სქესი და კილო) არასდროს გამოქვეყნდება საჯაროდ პროფილზე და არ იქნება დაკავშირებული თქვენს ანგარიშთან კრებულში. ცალკეულ ხმოვან ჩანაწერებს დაერთვება ეს დემოგრაფიული მონაცემები, დამუშავების სიზუსტის გასაუმჯობესებლად — მაგალითად, მკვლევარმა რომ შეძლოს მოდელი მოარგოს გარკვეულ დემოგრაფიულ ჯგუფს სურვილისამებრ.
 username-email-not-demographic = თქვენი მომხმარებლის სახელი და ელფოსტა არ იქნება დაკავშირებული გამოქვეყნებულ მონაცემებთან.
 
 ## Landing
@@ -77,34 +77,34 @@ read-more-about = ვრცლად იხილეთ გვერდი ჩ�
 
 ## NAV ITEMS
 
-answer-questions = კითხვებზე პასუხი <small>(მალე)</small>
-answer-questions-coming-soon = კითხვებზე პასუხი <small>(მალე)</small>
-review-transcriptions = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
-review-transcriptions-coming-soon = ნაწერად ქცეულის შემოწმება <small>(მალე)</small>
-add-questions = კითხვების დამატება <small>(მალე)</small>
-add-questions-coming-soon = კითხვების დამატება <small>(მალე)</small>
-transcribe-audio-coming-soon = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
-transcribe-audio = ხმის ნაწერად გადმოცემა <small>(მალე)</small>
+answer-questions = კითხვებზე პასუხი
+review-transcriptions = ტრანსკრიფციის შემოწმება
+add-questions = კითხვების დამატება
+review-questions = კითხვების შემოწმება
+transcribe-audio = ხმის ნაწერად ქცევა
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
 coming-soon = მალე
+about-us = ჩვენ შესახებ
+scripted-speech = ᲬᲔᲠᲘᲗᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
+spontaneous-speech = ᲖᲔᲞᲘᲠᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = თანამშრომლობა, პრესა და სიახლეები, საზოგადოებები და ენები
+about-us-menu-item-tooltip = იხილეთ ვრცლად, თუ რა მიზანი აქვს და ვისი ქმნილებაა Common Voice
 partnerships-menu-item-tooltip = გვეთანამშრომლეთ
 press-and-stories-menu-item-tooltip = იხილეთ სვეტი ან დაწერეთ ჩვენ შესახებ
 community-and-languages-menu-item-tooltip = უკეთ გაიცანით ენები, საზოგადოებები და Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = ჩვენ შესახებ გვერდი
+about-menu-aria-label = მენიუში თანამშრომლობა, პრესა და სიახლეები, საზოგადოებები და ენები
+about-us-menu-aria-label = ჩვენ შესახებ მენიუ
+about-us-menu-item-aria-label = ჩვენ შესახებ ასარჩევი მენიუ
 partnerships-menu-item-aria-label = გაეცანით Common Voice-თან თანამშრომლობის გზებს
 press-and-stories-menu-item-aria-label = Common Voice-თან დაკავშირებული განცხადებები და სიახლეები პრესაში
 community-and-languages-menu-item-aria-label = გამოიკვლიეთ ენები და საზოგადოებები, რომელთაც მხარს უჭერს Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -125,24 +125,26 @@ spontaneous-card-header = ზეპირი მეტყველება
 spontaneous-card-content = გაეცით პასუხი მოთხოვნებს, რომ მონაცემთა კრებული შეივსოს მეტად ბუნებრივი, სასაუბრო ენისთვის სახასიათო ჩანაწერებით. განსაკუთრებით გამოსადეგია დამწერლობის არმქონე ენებისთვის.
 language-text-card-header = ტექსტი ენისთვის
 language-text-card-content = თავადვე შეადგინეთ ან გააზიარეთ საყოველთაო საკუთრებაში არსებული წინადადებები, შეკითხვები, სათარგმნი ტექსტები, მცირე ენებისთვის განკუთვნილი ნიმუშები და სხვ.
+coming-soon = მალე
 add-text = ტექსტის დამატება
+answer = პასუხი
 
 ## Community section
 
-community-section-title = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — 130 ენა და ჯერ კიდევ მზარდი!
+community-section-title = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — მოიცავს 130 ენას და ჯერ კიდევ მზარდია!
 join-discord-community = შემოუერთდით Discord-ერთობას
 # label for button
 join-discord-community-action = გვეწვიეთ Discord-ზე
 join-discord-community-content = მიიღეთ მონაწილეობა ენობრივ განხილვებში, დასვით კითხვები და გაეცანით მომავალ ღონისძიებებსა თუ შეხვედრებს.
 find-us-on-matrix = გვიპოვეთ Matrix-ზე
-find-us-on-matrix-content = Matrix ღია, სწრაფმოქმედი ოქმის მქონე საშუალებაა ზედამხედველების გარეშე პირდაპირ საურთიერთობოდ და რომელსაც Mozilla ამჯობინებს ღია განხილვების გასამართად.
+find-us-on-matrix-content = Matrix არის ღია, სწრაფმოქმედი ოქმის მქონე საშუალება ზედამხედველების გარეშე პირდაპირ საურთიერთობოდ და რომელსაც Mozilla ამჯობინებს ღია განხილვების გასამართად.
 # label for button
 find-us-on-matrix-action = გვიპოვეთ Matrix-ზე
 ask-mozilla-share = დაიხმარეთ Mozilla შეკრებებში
 ask-mozilla-share-content = გქონდათ ან გეგმავთ რამე ღონისძიებას? გაგვიზიარეთ და ჩვენ გავაცნობთ საზოგადოებას ან გამოვაქვეყნებთ სვეტს!
 # label for button
 ask-mozilla-share-action = გააზიარეთ შეკრება
-download-contribution-certificate = მიიღეთ შემომწირველის მოწმობა
+download-contribution-certificate = მიიღეთ მოხალისის მოწმობა
 download-contribution-certificate-content = ჩამოტვირთეთ მოწმობა თქვენი ღონისძიებებისთვის ან თქვენთვის, თუ წვლილი შეგაქვთ Common Voice-ში — თქვენ გარეშე ეს ყველაფერი ვერ მოხერხდებოდა!
 # label for button
 download-contribution-certificate-action = მიიღეთ მოწმობა

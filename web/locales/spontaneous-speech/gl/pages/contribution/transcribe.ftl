@@ -4,7 +4,8 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> e escriba todo o que se pronunciou na gravación
 editbox-header = Transcriba
 editbox-placeholder = Escriba aquí o que escoite dicir á persoa que gravou
-no-audio-message = Actualmente non hai gravacións para transcribir neste idioma. Por favor actualice a páxina ou ténteo de novo máis tarde.
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message = Neste momento non hai gravacións dispoñibles para transcribir neste idioma. Se saltou algunha, pode seguir con ese contido ou ir a revisar transcricións e volver tentalo máis tarde.
 create-transcript-success = Enviouse a transcrición
 create-transcript-error = Produciuse un erro ao crear a transcrición
 error-playing-audio = Produciuse un erro ao reproducir o ficheiro de audio.

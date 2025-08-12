@@ -4,8 +4,6 @@
 error = نقص
 action-click = کلک
 action-tap = انگل لاؤ
-# Label for button on contribution switcher
-change = وٹاؤ
 audioplayer-header = سݨو
 guidelines = ہدایات
 # For the button to report an item
@@ -15,9 +13,6 @@ skip-button = چھوڑو
 submit-button = جمع کرواؤ
 contribute = حصہ پاؤ
 request-new-language = نویں زبان دی ارداس کرو
-
-## Navbar
-
 
 ## Not Found Page
 

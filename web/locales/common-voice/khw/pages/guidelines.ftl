@@ -3,6 +3,9 @@ guidelines-header = حصہ دریکو رہنمائی
 guidelines-header-subtitle = ہوݰ کو کامن وائسو ڈیٹاسیٹا جملان وا اسکوردی ہوازان کیچہ کوری جمع وا تصدیق کورونو بوئے
 voice-collection = ہواز بڑاڅیک
 sentence-collection = جملہ بڑاڅیک
+
+## Voice Collection nav ids
+
 varying-pronunciations = لہجو بدل دیک
 misreadings = غلط ریک
 offensive-content = شوم مواد
@@ -12,6 +15,9 @@ volume = ہواز
 reader-effects = ریاکان اثر
 just-unsure = صرف غیر یقینی
 example = مثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = اسپہ تھمام لہجان قبول کوسیان!  ای ہوازو رد ہیہ لوا کوراوا بو احتیاط کوکہ ریاک لفظو غلط ادا کوری اسور ،ریاوا غلط ژاغا زور دیتی اسور یا غلط ژاغا ژینگے اسور۔ دنیا بو قسمہ لہجہ شینی، تہ کمیونیٹیا ہیت تا کارا نو توریرو بوئے۔
 varying-pronunciations-explanation-2 = ہیہ لو دی شیر، تہ خیالہ ریاک ہے ہیغار پورشٹی  ہے لفظو  کیہ وخت نور رے استائے  وا ریاوا غلط اندازہ لگیران، مہرابانی کوری ہورو رد کو۔  کی یقین نیکی کیچہ کوروم رے، سورین نیسی پروشٹی بوغے۔
 varying-pronunciations-example = راہ سفا نو اوشوئے
@@ -47,11 +53,17 @@ reader-effects-explanation = ذیاد رکارڈنگ ہتے رویان کاکی 
 just-unsure-explanation = ہݰ اشناری کی تہ پروشٹہ ہائےکہ ہتوغو بارا ہیا 'رہنمائی' کیا اشناری شامل نیکی اندازا لگئے توغو بارا فیصلہ کو۔ فیصلہ کوریکو کی نوبیتاو سورین نیسی پروشٹی رکارڈنگو تین بوغَے۔
 still-have-questions = ودی سوال شینیا؟
 contact-common-voice = کامن وائسو ٹیمو سوم رابطہ کو
+
+## Sentence collection nav ids
+
 public-domain = عام رویان دائرہ
 citing-sentences = جملان حوالہ دیک
 adding-sentences = جملان شامل کوریک
 reviewing-sentences = جملان والوڑیک
 sentence-domain = جملان دائرہ
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = ہیہ بو ضروری کہ تھمام جملہ <publicDomain>  عام رویان دائرو</publicDomain><cc0>سی سی زیرو</cc0> بائے۔ کیچہ کہ کامن وائسو  ڈیٹاسیٹو لائسنس سی سی زیرو سورا دینو بیتی شیر۔  ہمیشو بچین ہݰ جملان اپ لوڈ کوکی کی تہ تین یقیین اوشوئے وا ہمیشو بچین حوالہ شامل کو۔
 public-domain-explanation-2 = عام لو دیک وا مشقولگی سفوسار بہترین جملہ ای فائدہ مند ہوازو ہوݰ کوراک مشین ساوزیکو بچین۔ جملہ نیزیکو بچیں پھوک فائدہ مند لو:
 public-domain-explanation-3 = تان، تان دوستانا یا کمیونیٹیو رویان ݯکھے نوغ  عام لوان جملا پیدا کو - مثلا بو رویان ݯکھے نیویشے۔

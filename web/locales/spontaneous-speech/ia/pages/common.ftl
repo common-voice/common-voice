@@ -11,8 +11,6 @@ platform-language-tooltip-text = Modifica solo LE texto del sito web.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contribuer al collection de datos pro { $language }
 contribution-picker-tooltip-text = Cambia le insimul de datos linguistic cuje tu contribue.
-# Label for button on contribution switcher
-change = Cambiar
 coming-soon = Altere linguas tosto veniente
 media-recorder-api-not-supported = Le API de MediaRecorder non es supportate in tu navigator.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,19 @@ skip-button = Saltar
 submit-button = Inviar
 contribute = Contribuer
 request-new-language = Require nove lingua.
+# Button text which appears when there are no more resources
+continue-with-skipped = Continuar con contento saltate
 
 ## Navbar
 
+question = Question
+validate = Validar
 respond-to-prompt = Responder al Sollicitation
+respond-to-prompt-mobile = Responsa
 transcribe = Transcriber
 check-transcriptions = Verificar transcriptiones
-question = Question
+check-transcriptions-mobile = Revider
+tag = Tag
 
 ## Not Found Page
 
@@ -60,3 +64,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turco
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Cercar un lingua...
+language-search-aria-label = Cercar un lingua
+language-search-label = Solo cambia le lingua de de contribution de collection de datos
+language-search-no-results = Necun lingua trovate

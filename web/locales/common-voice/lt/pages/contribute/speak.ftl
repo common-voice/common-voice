@@ -34,9 +34,3 @@ review-delete-recordings = Pašalinti mano įrašus
 review-terms = Naudodamasis „Common Voice“, sutinki su <termsLink>Sąlygomis</termsLink> ir <privacyLink>Privatumo pranešimu</privatacyLink>
 terms-agree = Sutinku
 terms-disagree = Nesutinku
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

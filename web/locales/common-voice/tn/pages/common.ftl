@@ -60,7 +60,6 @@ hsb = Se-Sorbia, sa kwa Godimo
 ht = Se-Haiti
 hu = Se-Hungary
 hy-AM = Se-Armania
-hyw = Se-Armenia sa Bophirima
 ia = Dipuo tse di Kopaneng
 id = Se-Indonesia
 ie = Dipuo tse di kopaneng

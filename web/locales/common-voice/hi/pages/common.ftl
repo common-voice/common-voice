@@ -154,6 +154,3 @@ email-opt-in-info-title = Common Voic मेलिंग सूची से ज
 email-opt-in-info-sub-with-challenge = Common Voice के बारे में चुनौती और लक्ष्य स्मरण, प्रगति अपडेट और समाचार पत्र जैसे ईमेल प्राप्त करें।
 indicates-required = * आवश्यक क्षेत्र हैं
 not-available-abbreviation = उपलब्ध नहीं
-
-## Donate banner
-

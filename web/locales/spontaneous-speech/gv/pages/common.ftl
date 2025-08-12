@@ -7,8 +7,6 @@ action-tap = Crank
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Cur stiagh ayns y vundeil 'ysseree son { $language }
-# Label for button on contribution switcher
-change = Caghlaa
 coming-soon = Tooilley çhengaghyn çheet dy leah
 media-recorder-api-not-supported = Cha nel API VediaRecorder gobbragh ayns dty yeeagheyder.
 # Toast message that is displayed when an item is skipped

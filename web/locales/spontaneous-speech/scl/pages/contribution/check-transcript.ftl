@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon> </playIcon>  شونگو کلپ پَرُوش/ کونڈ دے، ہو کچٹ تھیئیک چکے۔ انی ایکشان ہِیں دا؟ نُش تو، انی بدل تھے ایکشان اکی سَنے۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = چکے
-no-transcriptions-message = انی باشی چکیونو کوتے جیک گہ کچٹیک نُش۔ انو پٹو ریفریش تھے پتو پھیرے/ دُگُنی چکے۔
 vote-transcript-success = کچٹ تھیئیکئی سم بو مِنیجیلی۔
 vote-transcript-error = کچٹ تھیئیک چکیوجا ٹھِیسیک بِیلیں۔
 transcript-edited-success = کچٹ تھیئیک سم بو بدل بِیلیں۔

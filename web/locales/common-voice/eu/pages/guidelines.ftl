@@ -3,6 +3,9 @@ guidelines-header = Parte-hartze gidalerroak
 guidelines-header-subtitle = Ulertu nola gehitu eta balioztatu esaldiak eta grabazioak Common Voice datu-sortan
 voice-collection = Ahotsak biltzea
 sentence-collection = Esaldiak biltzea
+
+## Voice Collection nav ids
+
 varying-pronunciations = Ahoskera desberdinak
 misreadings = Gaizki irakurriak
 offensive-content = Eduki iraingarria
@@ -12,6 +15,9 @@ volume = Bolumena
 reader-effects = Irakurlearen efektuak
 just-unsure = Oraindik zalantzatan?
 example = Adibidea
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Azentu desberdinak ongi etorriak dira! Esaldiak dauden euskalkian irakurri behar dira ("dut" badakar ezin duzu "dot" edo "det" irakurri), baina soinuak desberdin ahoskatzea zilegi da. "Makila" ez dute berdin ahoskatzen Baionan eta Gasteizen, ezta "jan" berdin ahoskatzen Bermeon eta Usurbilen. Kontuz ibili pertsona batek hitz bat gaizki ahoskatu duela pentsatu eta bere grabazioa baztertzearekin. Euskara ahoskatzeko hamaika modu daude eta horietako batzuk agian ez dituzu zure komunitate lokalean inoiz entzun. Mesedez, izan zaitez eskuzabala zuk ez bezala hitz egiten duten pertsonen grabazioak balioztatzeko unean.
 varying-pronunciations-explanation-2 = Bestalde, irakurleak hitz horrekin inoiz topo egin ez eta gaizki ahoskatzen ari dela uste baduzu, baztertu ezazu. Ziur ez bazaude, erabili Saltatu botoia.
 varying-pronunciations-example = Etxera joan behar dut.
@@ -47,10 +53,16 @@ reader-effects-explanation = Grabazio gehienak beren ahots naturalarekin hitz eg
 just-unsure-explanation = Irizpide hauek betetzen ez dituen zerbaitekin topo egiten baduzu, bozkatu zure sen onaren arabera. Benetan ezin baduzu erabaki, erabili Saltatu botoia eta jarraitu hurrengo grabazioarekin.
 still-have-questions = Oraindik zalantzak dituzu?
 contact-common-voice = Jarri harremanetan Common Voice taldearekin
+
+## Sentence collection nav ids
+
 public-domain = Jabetza publikoa
 citing-sentences = Esaldien aipamenak egiten
 adding-sentences = Esaldiak gehitzen
 reviewing-sentences = Esaldiak berrikusten
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Oso garrantzitsua da testu-esaldi guztiak <publicDomain>jabetza publikoan</publicDomain> (<cc0>CC0</cc0>) izatea, Common Voice datu-sorta CC0 lizentziapean kaleratzen baita. Igo esaldia bakarrik ziur bazaude, eta gehitu beti aipamena.
 public-domain-explanation-2 = Hizketaren ezagutzarako motor erabilgarri bat sortzeko esaldirik onenak, hizkera modernoa eta lagunartekoa dutenak dira. Hona hemen esaldiak sortzen laguntzeko ideia batzuk:
 citing-sentences-subheader-websites = Webguneak

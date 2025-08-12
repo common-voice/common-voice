@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon> Eaisht rish y veer sheean, as shickyree y vac-screeuan. Vel ad myr y cheilley? Mannagh vel, jean femblal eh dy charraghey ny marranyn.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Prow
-no-transcriptions-message = Cha nel mac-screeuanyn erbee ayn dy hickyraghey son y çhengey shoh. Jean aa-laadey y ghuillag ny prow reesht ny sanmey.
 vote-transcript-success = Mac-screeuan er ny teiy dy speeideilagh
 vote-transcript-error = Va boirey ayn prowal dy heiy er y vac-screeuan
 transcript-edited-success = Mac-screeuan er ny femblal dy speeideilagh

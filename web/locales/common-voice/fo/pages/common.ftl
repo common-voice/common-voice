@@ -88,6 +88,3 @@ email-input =
     .label = Teldupostur
 loading = Hugsar...
 indicates-required = * merkir teigurin er kravdur
-
-## Donate banner
-

@@ -15,7 +15,7 @@ listen-abort-confirm = Slutför valideringen
 # Menu item
 validate-readings = Validera avläsning
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = Validera avläsningar <small> (Kommer snart) </small>
+validate-readings-coming-soon = Validera avläsningar <small>(Kommer snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
@@ -25,6 +25,6 @@ review-transcriptions-menu-item-tooltip = Granska användarinlämnade transkript
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = Alternativmeny för lyssning
+listen-contribute-menu-aria-label = Alternativmeny — Lyssning
 validate-readings-menu-item-aria-label = Validera avläsningar som skickats in av communitymedlemmar
 review-transcriptions-menu-item-aria-label = Granska transkriptioner av inspelade meningar för noggrannhet

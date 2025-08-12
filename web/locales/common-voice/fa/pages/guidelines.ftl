@@ -3,6 +3,10 @@ guidelines-header = راهنمای مشارکت
 guidelines-header-subtitle = نحوه مشارکت و اعتبارسنجی جملات و صداهای ضبط شده را در مجموعه دادهٔ آوای مشترک درک کنید
 voice-collection = گردآوری صدا
 sentence-collection = گردآوری جمله
+question-collection = مجموعه سوالات
+
+## Voice Collection nav ids
+
 varying-pronunciations = تفاوت در اعراب‌گذاری‌ها
 misreadings = خوانش‌های نادرست
 offensive-content = محتوای توهین آمیز
@@ -12,6 +16,9 @@ volume = بلندی صدا
 reader-effects = جلوه‌های صوتی خواننده
 just-unsure = مطمئن نیستید؟
 example = مثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ما از لهجه‌های مختلف استقبال می‌کنیم! قبل از رد یک صدا به این دلیل که فکر می‌کنید خواننده، کلمه‌ای را اشتباه تلفظ کرده، تاکید را در جای اشتباه قرار داده است یا علائم نگارشی را نادیده گرفته است، بسیار محتاط باشید. در سراسر جهان انواع مختلفی از تلفظ‌ها در حال استفاده است که ممکن است برخی از آنها را در اجتماع محلی خود نشنیده باشید. لطفاً به طور سخاوتمندانه‌ای، قدردان کسانی که ممکن است متفاوت از شما صحبت کنند باشید.
 varying-pronunciations-explanation-2 = از طرف دیگر، اگر فکر می‌کنید که خواننده قبلاً به این کلمه برخورد نکرده است و در تلفظ آن حدس نادرستی می‌زند، لطفا رد کنید. اگر مطمئن نیستید، از دکمه پرش استفاده کنید.
 varying-pronunciations-example = مسیر مشخص نبود.
@@ -47,11 +54,17 @@ reader-effects-explanation = اکثر صداهای ضبط شده از افراد
 just-unsure-explanation = اگر به چیزی برخورد کردید که در این دستورالعمل‌ها پوشش داده نشده بود، لطفا براساس بهترین قضاوت خود رأی دهید. اگر واقعا نمی‌توانید تصمیم بگیرید، از دکمه رد شدن استفاده کنید و به صدای ضبط شده بعدی بروید.
 still-have-questions = اگه هنوز سوالی دارید؟
 contact-common-voice = با تیم آوای مشترک تماس بگیرید
+
+## Sentence collection nav ids
+
 public-domain = مالکیت عمومی
 citing-sentences = ارجاع جملات
 adding-sentences = افزودن جملات
 reviewing-sentences = بازبینی جملات
 sentence-domain = زمینهٔ جمله
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = بسیار مهم است که تمام جملات متنی در <publicDomain>مالکیت عمومی</publicDomain> (<cc0>cc0</cc0>) باشند زیرا مجموعه داده‌های آوای مشترک تحت مجوز cc0 منتشر می‌شود. فقط زمانی یک جمله را بارگذاری کنید که مطمئن هستید و همیشه ارجاع مربوطه را اضافه کنید.
 public-domain-explanation-2 = بهترین جمله‌ها برای ساخت یک موتور تشخیص گفتار مفید، گفتار محاوره‌ای و معاصر هستند. برخی ایده‌ها برای کمک به شما در تولید جملات عبارتند از؛
 public-domain-explanation-3 = جملات مدرن و محاوره‌ای را خودتان یا با دوستان یا اجتماع زبانی خود ایجاد کنید - به عنوان مثال از طریق یک ‘نویسندگی گروهی’
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = اگر جمله معیارهای فوق را
 reviewing-sentences-explanation-3 = اگر در مورد جمله مطمئن نیستید، می‌توانید آن را نیز رد کنید و به جمله بعدی بروید.
 reviewing-sentences-explanation-4 = اگر جملات برای بازبینی تمام شدند، لطفا به ما در گردآوری جملات بیشتر کمک کنید!
 domain-explanation = زمینه به موضوع جمله اشاره دارد. در حال حاضر، می‌توانید بین موارد زیر انتخاب کنید:
+
+## Question collection ids
+
+adding-questions = افزودن سوالات
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = چه چیزی یک سوال را خوب می‌سازد؟
+what-makes-a-good-question-explanation = یک سوال خوب برای مجموعه داده‌های مشارکت عمومی بایستی:
+what-makes-a-good-question-explanation-criteria-1 = به راحتی قابل فهم و پاسخ‌دادن باشد
+what-makes-a-good-question-explanation-criteria-2 = به طور عمومی مرتبط باشد
+what-makes-a-good-question-explanation-criteria-3 = از زبان آسیب‌رسان یا توهین‌آمیز استفاده نکرده و چنین چیزی را هم درخواست نکند
+what-makes-a-good-question-tip = همچنین ممکن است بخواهید زمینه‌ها و دامنه‌های گسترده‌تری را در نظر بگیرید.
+easy-to-understand = آسان برای فهم
+easy-to-understand-explanation = سوالات ساده‌ای را انتخاب کنید که برای همه، صرف نظر از فرهنگ یا زمینه، قابل فهم باشد.
+spelling-and-pronunciation = دیکته و علامت‌گذاری
+spelling-and-pronunciation-explanation = از قواعد صرفی و نحوی درستی استفاده کنید.
+length = طول
+length-explanation = باید بتوان فقط در چند جمله به پرسش پاسخ داد.
+dont-add-subheader = این موارد را اضافه نکنید
+culturally-specific-questions = پرسش‌های خاص فرهنگی
+culturally-specific-questions-explanation = سوالاتی که از نظر فرهنگی بسیار خاص هستند، یا فرضیات زیادی در مورد پاسخ دهنده ایجاد می‌کنند
+length-avoid-explanation = پرسش‌هایی که پاسخ دادن به آنها زیر ۱۵ ثانیه (بیشینهٔ طول صدا) برای افراد دشوار است
+process-steps = فرایند / گام‌ها
+process-steps-explanation = پرسش‌هایی که نیاز به فهرست کردن چندین مرحله دارند. فهرست کردن مراحل، کاربر را به جای یک پاسخ طبیعی‌تر، به خواندن یک پاسخ ترغیب می‌کند.
+offensive-content-sensitive-information = محتوای توهین‌آمیز یا اطلاعات حساس
+offensive-content-sensitive-information-explanation-explanation-1 = پرسش‌هایی که ممکن است اطلاعات شخصی قابل شناسایی را درخواست کنند
+offensive-content-sensitive-information-explanation-explanation-2 = پرسش‌هایی که ممکن است باعث نفرت‌پراکنی یا ایجاد سایر احساسات مغرضانه یا توهین‌آمیز شوند
+offensive-content-sensitive-information-explanation-explanation-3 = پرسش‌های که ممکن است باعث شود کسی پاسخ‌های حساس و بالقوه تحریک‌آمیزی را به اشتراک بگذارد
+example-questions-subheader = چند مثال برای پرسش‌ها
+example-questions-explanation-1 = شما می‌توانید <examplePromptsLink>۱۲۰ نمونه فرمان را در این برگه</examplePromptsLink> پیدا کنید.
+example-questions-explanation-2 = اگر می‌خواهید مجموعه‌ای از پرسش‌ها را برای دریافت پاسخ بفرستید، می‌توانید <githubLink> این کار را از طریق گیت‌هاب</githubLink> ما انجام دهید یا آن‌ها را در قالب پیامی به <emailFragment>commonvoice@mozilla.com</emailFragment> ارسال کنید.

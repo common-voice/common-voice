@@ -51,67 +51,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
-                               *[other] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
-                               *[other] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
-                               *[other] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
-                               *[other] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
-                               *[other] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
-                               *[other] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
-                               *[other] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
-                               *[other] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Primeran! Zenbat grabazio egunean?
 how-many-a-week = Primeran! Zenbat grabazio astean?
 which-goal-type = Hitz egin, entzun edo biak egin nahi dituzu?

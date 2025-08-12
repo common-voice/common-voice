@@ -4,7 +4,6 @@ record-player-header = تانیجواب ریکارتہ
 mic-access-error = توٹھ مائکرو فون ایں اجازت دال پکار
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = تو کتیک تھ بوس تھ قدرتی جواب دہ۔
-no-prompts-message = اوں جب کیر اوں ٹائم رل گئب اشارے نان۔پات تازہ تھا تھ دیران کوشش تھا۔
 error-skipping = اغلطی بیل
 error-recording = ریکارډنګ دوران م ا غلطی بېل
 error-fetching-prompts = اجتھال می گجگوا بیل مربنی تھا تھ دراں کوشش تھا۔

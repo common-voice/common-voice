@@ -75,33 +75,46 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## NAV ITEMS
 
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
+answer-questions = Err-d ɣef isteqsiyen
+add-questions = Rnu isteqsiyen
+transcribe-audio = Aru aḍris n umeslaw
+press-and-stories = Taɣamsa akked yimagraden
+community-and-languages = Timɣiwnin akked tutlayin
+about-us = Fell-aɣ
 
 ## Hero section
 
+hero-title = Takinuljit yettmeslayen tutlayt-nwen·nkent
+# icon is an arrow that points downwards
+get-started = Aha bdu <icon><icon>
 
 ## Action items section
 
+language-text-card-header = Aḍris
+add-text = Rnu aḍris
+answer = Tiririt
 
 ## Community section
 
-
-## Featured section
-
-
-## Developers section
-
+find-us-on-matrix = Af-aɣ-d deg Matrix
+# label for button
+find-us-on-matrix-action = Af-aɣ-d deg Matrix
+contribute-github = Ttekki di Github
+# label for button
+contribute-github-action = Ttekki di Github
 
 ## Get involved section
 
+read-sentences-link = Ɣeṛ tifyar
+validate-readings-link = Sentem n tɣuri
+contribute-link = Ttekki deg wammud n yiḍrisen
+answer-questions-link = Err-d ɣef isteqsiyen
+review-transcriptions-link = Senqed tira
+contribute-text-link = Azen aḍris
+press-and-stories-link = Taɣamsa akked yimagraden
 
 ## Partner section
 
+partner-section-title = Ili-k⋅kem d t⋅amendid⋅t-nneɣ
+# icon is an arrow that points to the right
+get-in-touch-button = Nermes-aɣ-d <icon></icon>

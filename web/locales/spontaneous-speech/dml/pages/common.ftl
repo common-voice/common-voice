@@ -7,8 +7,6 @@ action-tap = ٹیپ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹا سیٹہ تعاون کُرئیں کی{ $language }
-# Label for button on contribution switcher
-change = بدل کُرن
 coming-soon = ورے باݜہ نم بھتائی آڅنا
 media-recorder-api-not-supported = تاں براوزرہ میڈیا ریکاڈر API ki ساں حمایت حاصل نی درو۔
 # Toast message that is displayed when an item is skipped

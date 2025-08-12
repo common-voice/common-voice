@@ -18,6 +18,8 @@ request-language-success-list-1 = Vous devriez recevoir sous peu un e-mail vous 
 request-language-success-list-2 = Notre community manager vous contactera pour vous proposer de l’aide supplémentaire, et vous informera si une communauté travaille déjà sur votre langue.
 request-language-success-list-3 = Si vous n’avez pas de nouvelles de notre part d’ici quelques jours, contactez <emailLink>{ $email }</emailLink> et nous vous répondrons.
 request-language-error = Nous n’avons peut-être pas reçu cette demande. Veuillez nous envoyer un e-mail directement à l’adresse <emailLink>{ $email }</emailLink> et nous vous répondrons.
+need-help-deciding-platform = Besoin d’aide pour faire votre choix ?
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>Parole lue</strong> (que vous connaissez traditionnellement sous le nom de Common Voice), où vous avez la possibilité de lire des phrases à voix haute dans votre langue.
 need-help-deciding-platform-explanation-2 = <strong>Parole spontanée</strong> est une nouveauté de Common Voice, qui vous permet de répondre aux questions d’une manière plus naturelle et informelle.
+need-help-deciding-platform-explanation-3 = Si votre langue ne figure dans aucune partie de la plateforme, sélectionnez les deux.

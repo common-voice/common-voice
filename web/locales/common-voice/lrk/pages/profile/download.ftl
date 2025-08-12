@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = تمو ري ڊيٽا ني ڊائون لوڊ ڪريا ري ضرورت هي؟
+download-info = امو ري ھڻاو تو تمي  ڪاوُ ڊائون لوڊ ڪرووُ چاهو ھون:
+download-profile-title = پروفائل
+download-profile-info = ٻيرا هي اي ميل، صارف رو نوم ھين ڊيموگرافڪ ڄوڻ، فوري طور تي دستياب
+download-profile-size = چند بائيٽس
+download-recordings-title = رڪارڊنگون
+download-recordings-info = ٻيرا ھي  mp3s ھين ڀيريوڙا جملا، تيار ھويا ۾ ڪوئي وقت لئي سگھي ھو
+download-recordings-size = عام ميگا بائيٽس
+download-recordings-unavailable = تمي آپري رڪارڊنگ ري درخواست ڪوئي ڪري سگهو جڏي تو ٻجي درخواست پآري ۾ ئي جاري هي.
+download-recently-requested = تمي هر { $days } ڏن ۾ تمو ري رڪارڊنگ ري نوي ٽيڪ آئوٽ ري درخواست ڪري سگهو ھون.
+download-size = ماپ
+download-selected = چونڊيوڙي
+download-start = پروفائل ڊيٽا ڊائون لوڊ ڪرو
+download-request = رڪارڊنگ ري درخواست ڪرو
+download-requests = پيرڪي رڪارڊنگ ڊائون لوڊ ري درخواستون
+download-requests-info = جڏي تمي آپري رڪارڊنگ ري درخواست ڪرو ھون، امي اووہ ني ايڪ يا گهڻي زپ فائلن ۾ ڀيري ڪرو ھون. ايئي تمو ري پيرڪي ري درخواستون ھي:
+download-request-button = ڊائون لوڊ ڪرو
+download-request-title = { $created }
+download-request-description = { $clipCount } وائس ڪلپس، ڪل آرڪائيو سائيز { $size }. رو مدو پورو ھوئي ھي { $expires }.
+download-request-archive-single = ايڪ زپ فائل ڀيري ھي
+download-request-archive-multiple = زپ فائلن تي مشتمل { $archiveCount } ۾ ويراووُ
+download-request-assembling-description = تمو ري فائلون ڀيريو ڪريوجائي ھي . مهربوني ڪرين پسي وري چيڪ ڪرو.
+download-request-refresh-button = تازو ڪرو
+download-request-modal-title = لنڪس ڊائونلوڊ ڪرو
+download-request-modal-description = ائيئ ھي لنڪ تمو ري زپ فائلو ني ڊائونلوڊ ڪريا ھارو.
+download-request-link-text = زپ #{ $offset } مون { $total }
+download-request-metadata-link = جملو رو متن
+download-request-link-single = تمي پڻ نقل ڪري سگھو ھون سڌو URLs ني آپري پسنديده ڊائون لوڊ مئنيجر ۾. هي 12 ڪلاڪو ۾ ختم ھوئي جائي، پر تمي  ڪي ڀي وقت نوان ٺاهڻيا ھارو اي صفحا تي واپس آوي سگهو ھون.

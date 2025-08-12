@@ -11,3 +11,11 @@ error-content-404 = Ίσως σας βοηθήσει η <homepageLink>αρχικ
 error-title-503 = Αντιμετωπίζουμε μη αναμενόμενο χρόνο διακοπής λειτουργίας
 error-content-503 = Ο ιστότοπος θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, γίνετε μέλος της <matrixLink>κοινότητάς μας στο Matrix</matrixLink> ή επισκεφτείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλετε και να παρακολουθήσετε ζητήματα σχετικά με τον ιστότοπο.
 error-code = Σφάλμα { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] Δεν ήταν δυνατή η μεταφόρτωση του αποσπάσματός σας. Έχει ήδη μεταφορτωθεί στο παρελθόν. Ας συνεχίσουμε με την επόμενη δέσμη!
+       *[other] Δεν ήταν δυνατή η μεταφόρτωση { $total } αποσπασμάτων. Έχουν ήδη μεταφορτωθεί στο παρελθόν. Ας συνεχίσουμε με την επόμενη δέσμη!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Μεταφορτώθηκαν { $total } από τα αποσπάσματά σας. Τα υπόλοιπα έχουν ήδη μεταφορτωθεί. Ας συνεχίσουμε με την επόμενη δέσμη!

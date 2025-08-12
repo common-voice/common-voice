@@ -3,6 +3,9 @@ guidelines-header = Riglyne vir bydraes
 guidelines-header-subtitle = Verstaan hoe om sinne en klanksnitte by te dra en te bekragtig vir die Common Voice-datastel
 voice-collection = Stemversameling
 sentence-collection = Stemversameling
+
+## Voice Collection nav ids
+
 varying-pronunciations = Verskillende uitsprake
 misreadings = Lees foute
 offensive-content = Aanstootlike inhoud
@@ -12,6 +15,9 @@ volume = Volume
 reader-effects = Leser-effekte
 just-unsure = Net onseker?
 example = Voorbeeld
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Ons verwelkom verskillende aksente! Wees baie versigtig voordat jy 'n snit verwerp omdat jy dink die leser het 'n woord verkeerd uitgespreek, die klem op die verkeerde plek geplaas of leestekens geïgnoreer. Daar is 'n wye verskeidenheid uitsprake wat regoor die wêreld gebruik word, waarvan jy dalk nie in jou plaaslike gemeenskap hoor nie. Verskaf asseblief 'n ruim marge van waardering vir diegene wat dalk anders as jy praat.
 varying-pronunciations-explanation-2 = Aan die ander kant, as jy dink dat die leser nog nooit die woord teëgekom het nie, en 'n verkeerde raaiskoot maak oor die uitspraak, verwerp asseblief die sin. As jy onseker is, gebruik die "skip"-knoppie.
 varying-pronunciations-example = Die roete was onduidelik.

@@ -3,6 +3,9 @@ guidelines-header = meer emasase guidelines
 guidelines-header-subtitle = belate common voice e dataset ar emaśaan daa jumlan ke audio clips in e tasdiiq ećaan ke ite masulo biśain
 voice-collection = gati etumin ućʰariṅ
 sentence-collection = gati etumin jumulan
+
+## Voice Collection nav ids
+
 varying-pronunciations = farq farq e talafuz
 misreadings = aparc doyalas
 offensive-content = mimoos dimeecas mawaad
@@ -12,6 +15,9 @@ volume = velium
 reader-effects = ġatanas ine asarin
 just-unsure = leel api
 example = misaalan
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = mii raxt raxt ac̣cnets ar xoś aamadiit seya baan. lafze talfafuz t/his etume yaa aparc diśulo stress etume yaa sawaaliya niśaan phat etumar clip reject etas cum yarne śan etin. lafz senase butan andazin bican amik maa maymo sis haran atamaylas mumkin bila. kaman dupoqras diś oosin mene maa cum thumanate ćaġa ećaan ke.
 varying-pronunciations-explanation-2 = itepa mo, agar ġatanas ine lafz yarne eycumate talfuz andazaanate seybay ke reject etin. agar maar leel api ke skip buton istimaal etin
 varying-pronunciations-example = gane leel api
@@ -47,11 +53,17 @@ reader-effects-explanation = butan recordings sise uymo ućarulo bican. gaayimo 
 just-unsure-explanation = tey besan mayar ddimi amite guke guideline cover ayeći bi ke maymo judgment cum vote etin. agar decide ettas amaamanuman ke skip netan iciyatumo recording atar niin
 still-have-questions = darum besan duġarusasan bila?
 contact-common-voice = Common Voice e duro etaśue kaa raabta etin
+
+## Sentence collection nav ids
+
 public-domain = Public e domain
 citing-sentences = jumlan cite etas
 adding-sentences = jumlan kaa etas
 reviewing-sentences = jumlanar hik ke barenas
 sentence-domain = jumlaa domain
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = gute but laazmi bila ke uyoon text e jumlan public domain e bican beske common voice e dataset c̣c0 license e yaare diyusum bila. jmukamal yaqiin bila ke umlaan upload etin daa citation laazmi śaamil etin
 public-domain-explanation-2 = shuwa duruar ẓuwas bariṅ leel etas engin e gane behtriin jumlan ulo ćaġa bariṅ, modern paralancs bican. jumlan desmayar guke ideas ine maar madatt eći.
 public-domain-explanation-3 = mamay yaa maymo śugulmuc e kaa tʰuwaan, aam ćaġa bare jumlan desmanin-masalan "write-a-thon" cum

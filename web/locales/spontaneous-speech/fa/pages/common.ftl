@@ -7,8 +7,6 @@ action-tap = ضربه بزنید
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = مشارکت در مجموعه داده‌ها برای { $language }
-# Label for button on contribution switcher
-change = تغییر
 coming-soon = زبان‌های بیشتر به‌زودی اضافه می‌شوند
 media-recorder-api-not-supported = API ضبط کننده رسانه در مرورگر شما پشتیبانی نمی‌شود.
 # Toast message that is displayed when an item is skipped
@@ -21,9 +19,6 @@ report-button = گزارش
 skip-button = رد کردن
 submit-button = ارسال
 contribute = مشارکت
-
-## Navbar
-
 
 ## Not Found Page
 

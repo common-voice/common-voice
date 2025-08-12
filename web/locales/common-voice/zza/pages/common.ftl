@@ -70,7 +70,6 @@ hsb = Sirbkîya Corêne
 ht = Haîtîkî
 hu = Macarkî
 hy-AM = Armenîkî
-hyw = Armenîkîya Rojawanî
 ia = Interlingua
 id = Îndonezkî
 ie = Interlingue

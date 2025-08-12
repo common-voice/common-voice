@@ -1,5 +1,5 @@
 import * as request from 'request-promise-native'
-import { GenericStatistic, Sentence } from 'common'
+import { GenericStatistic, Sentence, TimeUnits } from 'common'
 import DB, { getLocaleId } from './model/db'
 import { DBClip } from './model/db/tables/clip-table'
 import lazyCache from './lazy-cache'
@@ -39,9 +39,6 @@ function fetchLocalizedPercentagesByLocale(): Promise<any> {
   )
 }
 
-const MINUTE = 1000 * 60
-const DAY = MINUTE * 60 * 24
-
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
@@ -54,11 +51,12 @@ export default class Model {
   async findEligibleClips(
     client_id: string,
     locale: string,
-    count: number
+    count: number,
+    ignoreClientVariant: boolean,
   ): Promise<DBClip[]> {
     const localeId = await getLocaleId(locale)
 
-    const clientPrefersVariant = await pipe(
+    const clientPrefersVariant = !ignoreClientVariant && await pipe(
       client_id,
       fetchUserClientVariants,
       TE.map(ucvs => isVariantPreferredOption(localeId)(ucvs)),
@@ -143,7 +141,8 @@ export default class Model {
       const languages = await this.db.getAllLanguages()
       return languages
     },
-    DAY
+    TimeUnits.DAY,
+    3 * TimeUnits.MINUTE,
   )
 
   getAllDatasets = lazyCache(
@@ -151,7 +150,8 @@ export default class Model {
     async (releaseType: string): Promise<any[]> => {
       return await this.db.getAllDatasets(releaseType)
     },
-    DAY
+    TimeUnits.DAY,
+    3 * TimeUnits.MINUTE,
   )
 
   getLanguageDatasetStats = lazyCache(
@@ -159,7 +159,8 @@ export default class Model {
     async (languageCode: string) => {
       return await this.db.getLanguageDatasetStats(languageCode)
     },
-    DAY
+    TimeUnits.DAY,
+    3 * TimeUnits.MINUTE,
   )
 
   getAllLanguagesWithDatasets = lazyCache(
@@ -167,13 +168,15 @@ export default class Model {
     async (): Promise<any[]> => {
       return await this.db.getAllLanguagesWithDatasets()
     },
-    DAY
+    TimeUnits.DAY,
+    3 * TimeUnits.MINUTE,
   )
 
   getLocalizedPercentages = lazyCache(
     'get-localized-percentages',
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
-    DAY
+    TimeUnits.DAY,
+    3 * TimeUnits.MINUTE,
   )
 
   getAverageSecondsPerClip = lazyCache(
@@ -184,7 +187,8 @@ export default class Model {
       )
       return avg_seconds_per_clip || AVG_CLIP_SECONDS
     },
-    DAY / 2
+    12 * TimeUnits.HOUR,
+    10 * TimeUnits.MINUTE
   )
 
   getLanguageStats = lazyCache(
@@ -274,7 +278,8 @@ export default class Model {
 
       return languageStats
     },
-    DAY / 2
+    12 * TimeUnits.HOUR,
+    10 * TimeUnits.MINUTE
   )
 
   getClipsStats = lazyCache(
@@ -293,18 +298,21 @@ export default class Model {
         ),
       }))
     },
-    DAY / 2
+    12 * TimeUnits.HOUR,
+    30 * TimeUnits.MINUTE
   )
 
   getVoicesStats = lazyCache(
     'voice-stats',
     (locale: string) => this.db.getVoicesStats(locale),
-    20 * MINUTE
+    20 * TimeUnits.MINUTE,
+    3 * TimeUnits.MINUTE
   )
 
   getContributionStats = lazyCache(
     'contribution-stats',
     (locale?: string) => this.db.getContributionStats(locale),
-    20 * MINUTE
+    20 * TimeUnits.MINUTE,
+    3 * TimeUnits.MINUTE
   )
 }

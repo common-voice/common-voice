@@ -78,34 +78,34 @@ read-more-about = Läs mer på vår om sida
 
 ## NAV ITEMS
 
-answer-questions = Svara på frågor <small>(Kommer snart)</small>
-answer-questions-coming-soon = Svara på frågor <small>(Kommer snart)</small>
-review-transcriptions = Granska transkriptioner <small>(Kommer snart)</small>
-review-transcriptions-coming-soon = Granska transkriptioner <small>(Kommer snart)</small>
-add-questions = Lägg till frågor <small>(Kommer snart)</small>
-add-questions-coming-soon = Lägg till frågor <small>(Kommer snart)</small>
-transcribe-audio-coming-soon = Transkribera ljud <small>(Kommer snart)</small>
-transcribe-audio = Transkribera ljud <small>(Kommer snart)</small>
+answer-questions = Svara på frågor
+review-transcriptions = Granska transkriptioner
+add-questions = Lägg till frågor
+review-questions = Granska frågor
+transcribe-audio = Transkribera ljud
 press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk
 coming-soon = Kommer snart
+about-us = Om oss
+scripted-speech = SKRIVET TAL
+spontaneous-speech = SPONTANT TAL
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerskap, press och berättelser, gemenskap och språk
+about-us-menu-item-tooltip = Lär dig om uppdraget och teamet bakom Common Voice
 partnerships-menu-item-tooltip = Samarbeta med oss
 press-and-stories-menu-item-tooltip = Besök vår blogg eller skriv om oss
 community-and-languages-menu-item-tooltip = Upptäck språk och gemenskaper och Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Om alternativmenyn
+about-menu-aria-label = Meny för åtkomst till partnerskap, press och berättelser, gemenskap och språk
+about-us-menu-aria-label = Alternativmeny — Om
+about-us-menu-item-aria-label = Alternativmeny — Om oss
 partnerships-menu-item-aria-label = Läs om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tillgång till pressmeddelanden och berättelser relaterade till Common Voice
 community-and-languages-menu-item-aria-label = Utforska communityn och språk som stöds av Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -126,12 +126,14 @@ spontaneous-card-header = Spontant tal
 spontaneous-card-content = Svara på frågor för att skapa datamängder för organiska vardagliga sammanhang. Passar perfekt för dina första språk.
 language-text-card-header = Språktext
 language-text-card-content = Skapa eller dela offentliga domänuppdrag, meningar och text för översättning, små språkmodeller och mer.
+coming-soon = Kommer snart
 add-text = Lägg till text
+answer = Svara
 
 ## Community section
 
 community-section-title = Drivs av globala gemenskaper, för globala gemenskaper — 130 språk och växer!
-join-discord-community = Gå med i Discord-communityt
+join-discord-community = Gå med i Discord-gemenskapen
 # label for button
 join-discord-community-action = Gå med oss på Discord
 join-discord-community-content = Delta i diskussioner i språkgemenskapen, ställ frågor och lär dig om kommande evenemang och föredrag.

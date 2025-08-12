@@ -8,6 +8,7 @@ different_language = Ngôn ngữ khác
 different_language-detail = Nội dung có chứa loại ngôn ngữ khác so với tôi mong đợi.
 personally_identifiable_information = Thông tin nhận dạng cá nhân
 personally_identifiable_information-detail = Nội dung này có chứa thông tin nhận dạng cá nhân liên quan đến danh tính một cá nhân, chẳng hạn như tên, địa chỉ email, vị trí, số nhận dạng hoặc số điện thoại.
+personally_identifiable_information-answer-detail = Nội dung này yêu cầu cung cấp thông tin nhận dạng cá nhân liên quan đến danh tính một cá nhân, chẳng hạn như tên, địa chỉ email, vị trí, số nhận dạng hoặc số điện thoại.
 report-other-comment =
     .placeholder = Bình luận
 # Label for textarea in report modal

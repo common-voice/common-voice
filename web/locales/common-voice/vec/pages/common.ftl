@@ -152,6 +152,3 @@ email-opt-in-info-title = Nòtate a ƚa mailing list de Common Voice
 email-opt-in-info-sub-with-challenge = Risevi email cofà promemoria de sfide e obietivi, axornamenti su i progresi e newsletter de Common Voice.
 indicates-required = * vol dire on canpo che ghe voƚe par forsa
 not-available-abbreviation = N.D.
-
-## Donate banner
-

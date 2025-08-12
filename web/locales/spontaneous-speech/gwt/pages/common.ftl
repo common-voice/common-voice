@@ -11,8 +11,6 @@ platform-language-tooltip-text = صرف ویبسائیٹَنی عبارَتہ ب
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } نہ ڈېٹا سیٹہ تعاون کېرِک
 contribution-picker-tooltip-text = باتِیَنی ڈېٹاسېٹہ بدل کېرِمان تېنے مے تعاون کېرِمانېؤ
-# Label for button on contribution switcher
-change = بدلی
 coming-soon = واری باتی نام ددُوپی ژِمېت
 media-recorder-api-not-supported = مېڈیا رکاڈر اے پی آئی مېنہ براؤزَرہ تعاون بِسنت نہ تھنہ۔
 # Toast message that is displayed when an item is skipped
@@ -29,10 +27,10 @@ request-new-language = نُنگی باتِیَنی درخاس کېرِؤ
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = آدیوَہ نقل کېرِؤ
 transcribe = نقل کېرِؤ
 check-transcriptions = نقل نامہ چېک کېرِؤ
-question = سوال
 
 ## Not Found Page
 

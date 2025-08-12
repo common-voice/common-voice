@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = 訂立目標
 cant-decide = 決定唔到？
-activity-needed-calculation-plural =
-    { $people ->
-       *[other]
-            { $clipsPerDay ->
-               *[other]
-                    { $periodMonths ->
-                       *[other]
-                            { $totalHours ->
-                               *[other] 假如有 { $people } 個人每天錄低 { $clipsPerDay } 條片，就可以喺 { $periodMonths } 個月內達到{ $totalHours } 小時錄音片段嘅目標。
-                            }
-                    }
-            }
-    }
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
 which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？

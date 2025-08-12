@@ -141,6 +141,3 @@ about-playbook-how-project-governance-content-4 = Gemeenskapsdeelname en -beslui
 about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wedersydse aanspreeklikheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lees meer oor hoe ons bestuur word</governanceLink>
-
-## How is Common Voice funded
-

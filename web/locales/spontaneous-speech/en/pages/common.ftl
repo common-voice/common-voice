@@ -6,13 +6,11 @@ action-click = Click
 action-tap = Tap
 # Label for language switcher
 platform-language = Platform language
-platform-language-tooltip-text = Changes website text only.
+platform-language-tooltip-text = Changes website text only
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contributing to <bold>{ $language }</bold> dataset
 contribution-picker-tooltip-text = Changes the language dataset to which you're contributing
-# Label for button on contribution switcher
-change = Change
 coming-soon = More languages coming soon
 media-recorder-api-not-supported = The MediaRecorder API is not supported in your browser.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,19 @@ skip-button = Skip
 submit-button = Submit
 contribute = Contribute
 request-new-language = Request New Language
+# Button text which appears when there are no more resources
+continue-with-skipped = Continue with Skipped
 
 ## Navbar
 
+question = Question
+validate = Validate
 respond-to-prompt = Answer
+respond-to-prompt-mobile = Answer
 transcribe = Transcribe
 check-transcriptions = Review
-question = Question
+check-transcriptions-mobile = Review
+tag = Tag
 
 ## Not Found Page
 
@@ -62,3 +66,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkish
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Search for a language...
+language-search-aria-label = Search for a language
+language-search-label = Changes contribution language of dataset only
+language-search-no-results = No languages found

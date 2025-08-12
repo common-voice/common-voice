@@ -4,6 +4,7 @@
 
 ## Languages
 
+bnn = Bunun
 
 # [/]
 
@@ -12,6 +13,3 @@
 
 terms = sinqaqasam
 logout = mudaan
-
-## Donate banner
-

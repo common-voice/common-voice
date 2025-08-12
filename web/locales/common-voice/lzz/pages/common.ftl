@@ -70,7 +70,6 @@ hsb = Jileni Sorburi
 ht = Haituri
 hu = Macaruri
 hy-AM = Sumexuri
-hyw = Gyulvani Sumexuri
 ia = Interlinguri
 id = Endonezuri
 ie = İnterlinguri

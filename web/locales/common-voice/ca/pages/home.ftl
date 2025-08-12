@@ -76,46 +76,109 @@ read-more-about = Vegeu més informació a la pàgina «Qui som»
 ## NAV ITEMS
 
 answer-questions = Responeu preguntes
-answer-questions-coming-soon = Responeu preguntes <small>(pròximament)</small>
 review-transcriptions = Reviseu transcripcions
-review-transcriptions-coming-soon = Reviseu transcripcions <small>(pròximament)</small>
 add-questions = Afegiu preguntes <small>(pròximament)</small>
-transcribe-audio-coming-soon = Transcriviu àudio <small>(pròximament)</small>
+review-questions = Reviseu les preguntes
 transcribe-audio = Transcriviu àudio
 press-and-stories = Premsa i articles
 community-and-languages = Comunitat i llengües
 coming-soon = Pròximament
+about-us = Quant a Mozilla
+scripted-speech = PARLA GUIONADA
+spontaneous-speech = PARLA ESPONTÀNIA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Col·laboracions, premsa i articles, comunitat i llengües
+about-us-menu-item-tooltip = Apreu sobre la missió i l'equip que hi ha darrere de Common Voice
+partnerships-menu-item-tooltip = Exploreu les organitzacions que donen suport a Common Voice arreu del món
+press-and-stories-menu-item-tooltip = Llegiu històries, actualitzacions i cobertura mediàtica de Common Voice
+community-and-languages-menu-item-tooltip = Connecteu amb la nostra comunitat i consulteu les llengües suportades
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menú d'opcions de Quant a
-
-## NEW HOME PAGE KEYS
-
+about-us-menu-aria-label = Menú d'opcions de Quant a
+about-us-menu-item-aria-label = Menú d'opcions de Quant a
+partnerships-menu-item-aria-label = Apreneu sobre les col·laboracions amb Common Voice
+press-and-stories-menu-item-aria-label = Accediu a notes de premsa i històries relacionades amb Common Voice
+community-and-languages-menu-item-aria-label = Exploreu la comunitat i les llengües que admet Common Voice
 
 ## Hero section
 
+hero-title = Tecnologia que parla la vostra llengua
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Per què la IA només hauria de funcionar per a unes poques llengües del món?</bold>
+hero-subtitle-2 = La nostra llengua és la nostra història, la nostra comunitat, la nostra cultura. Creem els conjunts de dades que volem veure al món.
+# icon is an arrow that points downwards
+get-started = Comencem <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice és una plataforma gratuïta i de codi obert per a la creació de dades liderada per la comunitat.
+action-items-section-subtitle = Qualsevol persona pot preservar, revitalitzar i elevar la seva llengua compartint, creant i seleccionant conjunts de dades de text i parla.
+scripted-card-header = Parla guionada
+scripted-card-content = Llegiu frases en veu alta en la vostra llengua i contribuïu al conjunt de dades de diàlegs participatius públics més divers del món.
+spontaneous-card-header = Parla espontània
+spontaneous-card-content = Responeu les indicacions per a crear conjunts de dades en contextos orgànics i col·loquials. Perfecte per a llengües orals.
+language-text-card-header = Text en la llengua
+language-text-card-content = Creeu o compartiu indicacions, frases i text de domini públic per a la traducció, models lingüístics petits i molt més.
+coming-soon = Pròximament
+add-text = Afegiu text
+answer = Resposta
 
 ## Community section
 
+community-section-title = Amb el suport de comunitats globals, per a comunitats globals: 130 idiomes i en creixement!
+join-discord-community = Uniu-vos a la comunitat Discord
+# label for button
+join-discord-community-action = Uniu-vos a nosaltres a Discord
+join-discord-community-content = Participeu en debats de la comunitat lingüística, feu preguntes i informeu-vos sobre els propers esdeveniments i xerrades.
+find-us-on-matrix = Trobeu-nos a Matrix
+find-us-on-matrix-content = Matrix és un protocol obert i lleuger per a la comunicació descentralitzada en temps real i la plataforma de discussió oberta preferida de Mozilla.
+# label for button
+find-us-on-matrix-action = Trobeu-nos a Matrix
+ask-mozilla-share = Demaneu a Mozilla que comparteixi els vostres esdeveniments
+ask-mozilla-share-content = Teniu algun esdeveniment passat o proper? Compartiu-lo amb nosaltres i l'anunciarem a la nostra comunitat o en farem una entrada al blog!
+# label for button
+ask-mozilla-share-action = Compartiu el vostre esdeveniment
+download-contribution-certificate = Baixeu el vostre certificat de col·laboració
+download-contribution-certificate-content = Baixeu-vos un certificat per als vostres esdeveniments o per a vosaltres mateixos si heu contribuït a Common Voice; això no seria possible sense vosaltres!
+# label for button
+download-contribution-certificate-action = Aconseguiu el certificat
+contribute-github = Col·laboració a GitHub
+contribute-github-content = Aquest projecte no seria possible sense gent com vós. 🎉 Hi ha moltes maneres de participar amb Common Voice: no cal saber programar per a contribuir-hi!
 
 ## Featured section
 
+# icon is an arrow that points downwards
+download-press-pack = Baixeu el dossier de premsa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Conjunts de dades de parla oberts i d'accés públic en més de 130 idiomes
+# icon is an arrow that points to the right
+explore-datasets = Exploreu els conjunts de dades <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Doneu suport a conjunts de dades oberts i dirigits per la comunitat
 read-sentences-link = Llegiu frases
 validate-readings-link = Valideu enregistraments
+contribute-link = Contribuïu al corpus textual
+answer-questions-link = Responeu preguntes
+transcribe-answers-link = Transcriu respostes
+review-transcriptions-link = Revisa transcripcions
+contribute-text-link = Contribueix amb text
+press-and-stories-link = Premsa i articles
 
 ## Partner section
 
+partner-section-title = Associa't amb nosaltres
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Empreses tecnològiques</bold>: invertiu en la creació de conjunts de dades oberts per a un ecosistema d'IA multilingüe pròsper
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Societat civil i investigadors</bold>: creeu, allotgeu i compartiu conjunts de dades impactants de manera gratuïta
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold>: patrocineu la creació de conjunts de dades per a impulsar la innovació i el desenvolupament locals
+# Partners section
+our-partners-include = Els nostres socis inclouen...

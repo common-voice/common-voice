@@ -4,7 +4,8 @@ record-player-header = Enrollañ ho respont
 mic-access-error = Ret eo deoc’h aotren ar mikrofon.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ha respontit en doare naturelañ posupl
-no-prompts-message = N'eus goulenn ebet evit ar yezh-se evit ar mare. Freskait ar bajenn pe distroit diwezhatoc'h.
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Ne chom goulenn ebet ken evit ar yezh-mañ. M'hoc'h eus lezet lod a-gostez e c'hallit kenderc'hel gant ar re-se pe plediñ gant treuzskrivañ enrolladennoù ha distreiñ diwezhatoc'h.
 error-skipping = C'hoarvezet ez eus ur fazi en ur glask lezel ar goulenn-mañ a-gostez
 error-recording = C'hoarvezet ez eus ur fazi e-pad an enrolladenn
 error-fetching-prompts = Aet ez eus un dra bennak a-dreuz en ur vont da gerc'hat ar respontoù. Klaskit en-dro diwezhatoc'hik.

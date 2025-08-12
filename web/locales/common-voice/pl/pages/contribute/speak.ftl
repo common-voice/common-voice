@@ -1,3 +1,4 @@
+speak = Mów
 record-cta = Zacznij nagrywanie
 record-platform-not-supported = Przepraszamy, używany system nie jest obecnie obsługiwany.
 record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
@@ -36,9 +37,3 @@ review-delete-recordings = Usuń moje nagrania
 review-terms = Korzystając z Common Voice, zgadzasz się na <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
 terms-agree = Zgadzam się
 terms-disagree = Nie zgadzam się
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -4,7 +4,6 @@ record-player-header = Pehaʼewatɨ ke naʼakaʼɨki
 mic-access-error = Penetsipitɨame Micrófonotsie pemeukaniuni
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> Ke pemɨtiyɨweni ʼatsipekaraʼeriwatɨ ke pemɨtiuniuka mɨpaɨ ke tineuʼá
-no-prompts-message = Ikɨ niukiyarikɨ hikɨ ʼiwaurika pɨkaʼayehú. Ximɨxi, página ke nayehekwariya yátɨni ʼarikié ke tineutaʼinɨata.
 error-skipping = Axa katiniuyɨní ʼiwaurika xeimetsie pekawenike
 error-recording = Axa katiniuyɨní niuki makaʼɨkiwakaitsie
 error-fetching-prompts = Axa katiniuyɨní ʼiwaurika manuyutinɨawakaitsie. Ximɨxi, ʼarikié ke tineutaʼinɨata.

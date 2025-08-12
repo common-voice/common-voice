@@ -5,6 +5,7 @@ write-instruction = Monduli ar cumle kekumtsxvit <icon></icon>
 sentence =
     .label = Cumle
 sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
+small-batch-sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
 citation =
     .label = Eşaç̌opu
 sc-review-write-title = Nam cumlepe ekhomamtsxven?
@@ -37,16 +38,7 @@ history_law_government = Tarixi, Hukuki do Maktaloba
 language_fundamentals = Nenapeşi Temeli (evuli: koretsxape, boncape, geçareli)
 sentence-variant-select-label = Cumleşi lehçepe
 
-## BULK SUBMISSION
-
-
 ## SMALL BATCH SUBMISSION
 
 # menu item
 add-sentences = Cumle eǩudvi
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -86,33 +86,33 @@ read-more-about = További információk a Névjegy oldalon
 ## NAV ITEMS
 
 answer-questions = Kérdések megválaszolása
-answer-questions-coming-soon = Kérdések megválaszolása <small>(hamarosan)</small>
 review-transcriptions = Leiratok ellenőrzése
-review-transcriptions-coming-soon = Leiratok ellenőrzése <small>(hamarosan)</small>
 add-questions = Kérdések hozzáadása <small>(hamarosan)</small>
-add-questions-coming-soon = Kérdések hozzáadása <small>(hamarosan)</small>
-transcribe-audio-coming-soon = Hangok leiratozása <small>(hamarosan)</small>
+review-questions = Kérdések áttekintése
 transcribe-audio = Hangok leiratozása
 press-and-stories = Sajtó és történetek
 community-and-languages = Közösség és nyelvek
 coming-soon = Hamarosan
+about-us = Névjegy
+scripted-speech = ELŐRE MEGÍRT BESZÉD
+spontaneous-speech = SPONTÁN BESZÉD
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerkapcsolatok, Sajtó és történetek, Közösség és nyelvek
+about-us-menu-item-tooltip = Tudjon meg többet a küldetésről és a Common Voice mögötti csapatról
 partnerships-menu-item-tooltip = Legyen a partnerünk
 press-and-stories-menu-item-tooltip = Látogassa meg blogunkat vagy írjon rólunk
 community-and-languages-menu-item-tooltip = Fedezzen fel nyelveket, közösségeket, és a közös hangot
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Névjegy menü lehetőségei
+about-menu-aria-label = Menü a Partnerségek, Sajtó és történetek, Közösség és nyelvek eléréséhez
+about-us-menu-aria-label = Névjegy menü lehetőségei
+about-us-menu-item-aria-label = Névjegy menü lehetőségei
 partnerships-menu-item-aria-label = Tudjon meg többet a Common Voice-szal való partnerségekről
 press-and-stories-menu-item-aria-label = Érje el a Common Voice-szal kapcsolatos sajtóközleményeket és történeteket
 community-and-languages-menu-item-aria-label = Fedezze fel a közösséget és a Common Voice által támogatott nyelveket
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -133,14 +133,16 @@ spontaneous-card-header = Spontán beszéd
 spontaneous-card-content = Válaszoljon kérdésekre, hogy természetes, köznyelvi adatkészleteket készítsen. Tökéletes az elsősorban beszédhez használt nyelvekhez.
 language-text-card-header = Nyelvi szöveg
 language-text-card-content = Hozzon létre vagy osszon meg közkincsű kérdéseket és mondatokat, valamint fordításhoz, kis nyelvi modellekhez és egyebekhez használható szövegeket.
+coming-soon = Hamarosan
 add-text = Szöveg hozzáadása
+answer = Válaszoljon
 
 ## Community section
 
 community-section-title = Globális közösségekkel, a globális közösségekért – 130 nyelv és egyre csak bővül!
 join-discord-community = Csatlakozzon a Discord közösséghez
 # label for button
-join-discord-community-action = Csatlakozz hozzánk Discordon
+join-discord-community-action = Csatlakozzon hozzánk a Discordon
 join-discord-community-content = Vegyen részt nyelvi közösségi beszélgetésekben, kérdezzen, és értesüljön a közelgő eseményekről és előadásokról.
 find-us-on-matrix = Keressen meg minket a Matrixon
 find-us-on-matrix-content = A Matrix egy nyílt, könnyűsúlyú protokoll a decentralizált, valós idejű kommunikációhoz, és a Mozilla által kedvelt nyílt vitafórum.

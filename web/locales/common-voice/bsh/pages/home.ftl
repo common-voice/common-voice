@@ -76,12 +76,8 @@ read-more-about = ایمو بارا تہ صفحہ تہ مزید ولہ۔
 ## NAV ITEMS
 
 answer-questions = سوال جواب<small>(نوݜٹہ اڅہتی)</small>
-answer-questions-coming-soon = سوال جواب<small>(نوݜٹہ اڅہتی)</small>
 review-transcriptions = ٹرانکرپشن جائزہ کشی<small>(نوݜٹہ اڅہتہ)</small>
-review-transcriptions-coming-soon = ٹرانکرپشن جائزہ کشی<small>(نوݜٹہ اڅہتہ)</small>
 add-questions = سوال سنا<small>(نوݜٹہ اڅہتی)</small>
-add-questions-coming-soon = سوال سنا<small>(نوݜٹہ اڅہتی)</small>
-transcribe-audio-coming-soon = آڈیو نقل کشی<small>(نوݜٹہ اڅتہ)</small>
 transcribe-audio = آڈیو نقل کشی<small>(نوݜٹہ اڅتہ)</small>
 press-and-stories = وسپلہ دے پرݩجیکہ
 community-and-languages = کمیونٹی (اوگعمہ) دے ورے
@@ -96,13 +92,9 @@ community-and-languages-menu-item-tooltip = ورے، منچاݩ، عام کوٹ�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = مرضی ستہ مینو بارا تہ
 partnerships-menu-item-aria-label = عام کوٹہ مع پلئی وار زعݩہ
 press-and-stories-menu-item-aria-label = عام کوٹہ بگنہ پرس رلیز دے پرݩجیک تہ پعا۔
 community-and-languages-menu-item-aria-label = عام کوٹہ مع منچاݩ (کمیونٹی) دے ورے بنڅا
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,6 +115,7 @@ spontaneous-card-header = اڈگں ولستہ
 spontaneous-card-content = اشارہ ستہ جواب پعتے ڈیٹاسیٹ ایپاݩع چہ ستہ قدرتی سورہ عام وری ولہ ستہ سیاق دے سباق مع پسنہ لہ بولا اینہ وری دیوکں بلیوک لستہ اسہ
 language-text-card-header = وری ستورئ
 language-text-card-content = عوام ڈومیں (سنہ تے) تہ اشارہ ۡجملہ ۡسورہ متن دزݩع یا گاݜ کشݩع ترجمہ لوکہ وری ستہ نمونہ سورہ ورں کہ دی ۔
+coming-soon = نݜٹو ازیا
 add-text = ستورئ اتیوݩشی
 
 ## Community section

@@ -9,10 +9,8 @@ platform-language = Langue de la plateforme
 platform-language-tooltip-text = Modifie uniquement le texte du site web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = En contribuant au jeu de données pour { $language }
+contribution-picker-label = Vous contribuez au jeu de données en <bold>{ $language }</bold>
 contribution-picker-tooltip-text = Modifie le jeu de données vocales auquel vous contribuez
-# Label for button on contribution switcher
-change = Modifier
 coming-soon = Bientôt de nouvelles langues
 media-recorder-api-not-supported = L’API MediaRecorder n’est pas prise en charge par votre navigateur.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,16 @@ skip-button = Passer
 submit-button = Soumettre
 contribute = Contribuer
 request-new-language = Proposer une nouvelle langue
+# Button text which appears when there are no more resources
+continue-with-skipped = Continuer avec les ressources ignorées
 
 ## Navbar
 
+question = Question
+validate = Valider
 respond-to-prompt = Répondre à la question
 transcribe = Transcrire
 check-transcriptions = Vérifier les transcriptions
-question = Question
 
 ## Not Found Page
 
@@ -60,3 +61,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turc
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Rechercher une langue…
+language-search-aria-label = Rechercher une langue
+language-search-label = Changer la langue de contribution au jeu de données uniquement
+language-search-no-results = Aucune langue trouvée

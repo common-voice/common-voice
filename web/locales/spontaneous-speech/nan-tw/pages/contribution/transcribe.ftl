@@ -4,7 +4,10 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> 並寫下您聽到對方說了什麼
 editbox-header = 轉錄
 editbox-placeholder = 寫下你聽到的錄音內容
-no-audio-message = 目前此語言沒有可轉錄的聲音。請重新整理頁面或稍後再試。
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message =
+    這馬這个語言並無需要轉錄的錄音。
+    若是有跳過的，你會當繼續跳過內容抑是等一下審核轉錄閣試一改。
 create-transcript-success = 成功送出轉錄內容
 create-transcript-error = 建立此轉錄時發生錯誤
 error-playing-audio = 播放音檔時發生錯誤。

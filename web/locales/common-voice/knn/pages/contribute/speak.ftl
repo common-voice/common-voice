@@ -19,9 +19,3 @@ first-cta-gender-select-help-text =
     .label = तुजें लिंग कितें?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = तुवेंन आपली आवाज योगदान केले म्हुण तुका देंव बरें करुं!
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

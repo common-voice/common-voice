@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Common Voice Kityak?
+about-header-description-v2 =
+    <p>`Common Voice` zavun asa ek sarvojonik (publicly) uplobdhi 'voice dataset' (avazacho mhaiti-kox), zaka tenko ani ghottai mellta somest pritumeche 'volunteer'-achea (apvavurpi-chea) avazacho. Je lokh avazachea 'software/application' bandpak sodtai te hi mhaiti-kox vaprun 'machine learning' akrutank shikovnk zata.</p>
+    <p>Aichea kallant, chodxe avazachem mhaiti-kox (voice dataset) komponi-che malok-hokacher asa, ani oxem 'innovation'-acho ghollo damun urta. Avazachem mhaiti-kox hea lokank sudda unnem promannan dakhovn dita: Inglix uloinat, veglle rongache monismonxeank, opong asloleank, bailank, chedvank, ani LGBTQIA+ lokank. Mhonnchem avazacher-goddil`le 'technology' choxe bhasank matsui kam` korunk pavonam, ani zuim te kam` kortat thoi te soglea lokank sarko cholcho nam. Ami hem bodlunk sodtai sogle zagear lokank aplo avaz vanttpak tanka ektthaim korun.</p>
 how-does-it-work-title-v2 = Common Voice koso cholta?
 
 ## How does it work section
@@ -70,15 +73,3 @@ about-playbook-how-record-quality = High quality aavaaz'ache clip koshe zodop?
 
 about-playbook-how-grow-language = Common Voice'acher ami ek bhas prabhavipanan kashi vadopak shaktale?
 about-playbook-how-grow-language-content-4 = Social media
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

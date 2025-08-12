@@ -9,11 +9,10 @@ listen-empty-state-variants = Seans go bhfuil do mhalairt teanga rite as gearrth
 listen-loading-error =
     Níorbh fhéidir linn aon ghearrthóga fuaime a fháil chun éisteacht leo.
     Féach arís é ar ball.
+listen-abort-title = Críochnaigh bailíochtú na ngearrthóg?
 listen-abort-cancel = Lean ar aghaidh ag deimhniú
 listen-abort-confirm = Críochnaigh an bailíochtú
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
+# Menu item
+validate-readings = Bailíochtaigh Míreanna Léite
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Bailíochtú Míreanna Léite <small>(Ag teacht go luath)</small>

@@ -60,9 +60,3 @@ already-have-an-account = kikemara azlam yaka amaɗ gukwəle andəva ya?  <login
 create-profile-button = mawala mindze fətek
 # IMAGE TAGS
 img-alt-success-checkmark = mazabaŋa ya matakalavara aŋa
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

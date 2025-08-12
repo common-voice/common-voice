@@ -11,8 +11,6 @@ platform-language-tooltip-text = Αλλάζει μόνο το κείμενο τ�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Συνεισφορά στο σύνολο δεδομένων για τα { $language }
 contribution-picker-tooltip-text = Αλλάζει το σύνολο των δεδομένων γλώσσας στο οποίο συνεισφέρετε
-# Label for button on contribution switcher
-change = Αλλαγή
 coming-soon = Σύντομα σε περισσότερες γλώσσες
 media-recorder-api-not-supported = Το MediaRecorder API δεν υποστηρίζεται από το πρόγραμμα περιήγησής σας.
 # Toast message that is displayed when an item is skipped
@@ -26,18 +24,24 @@ skip-button = Παράλειψη
 submit-button = Υποβολή
 contribute = Συνεισφορά
 request-new-language = Αίτημα για νέα γλώσσα
+# Button text which appears when there are no more resources
+continue-with-skipped = Συνέχεια με παραλειφθέντα
 
 ## Navbar
 
+question = Ερώτηση
+validate = Επικύρωση
 respond-to-prompt = Απάντηση σε προτροπή
+respond-to-prompt-mobile = Απάντηση
 transcribe = Μεταγραφή
 check-transcriptions = Έλεγχος μεταγραφών
-question = Ερώτηση
+check-transcriptions-mobile = Έλεγχος
+tag = Ετικέτα
 
 ## Not Found Page
 
 not-found-page-header = Δεν βρέθηκε
-not-found-page-content = Η σελίδα που ζητήσατε δε βρέθηκε
+not-found-page-content = Δεν ήταν δυνατή η εύρεση της σελίδας που ψάχνετε
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Συμφωνώ με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink> του Common Voice
 # Locales
@@ -60,3 +64,10 @@ sdo = Μπινταγιού (Σέριαν)
 snv = Σαμπάν
 tr = Τουρκικά
 xkl = Κενιάχ
+
+## Language search component
+
+language-search-placeholder = Αναζήτηση για γλώσσα...
+language-search-aria-label = Αναζήτηση για γλώσσα
+language-search-label = Αλλάζει μόνο τη γλώσσα συνεισφοράς του συνόλου δεδομένων
+language-search-no-results = Δεν βρέθηκαν γλώσσες

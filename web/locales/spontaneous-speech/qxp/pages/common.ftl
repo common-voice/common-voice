@@ -7,8 +7,6 @@ action-tap = Llamiy
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } rimayhuñuman yapaykuy
-# Label for button on contribution switcher
-change = Hukniraqchay
 coming-soon = Aswan simikuna hamushan
 media-recorder-api-not-supported = MediaRecorder APIqa manan llamk'anchu browserniykipi.
 # Toast message that is displayed when an item is skipped

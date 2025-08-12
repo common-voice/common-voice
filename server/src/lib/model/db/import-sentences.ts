@@ -145,25 +145,56 @@ async function importLocaleSentences(
   });
 }
 
-export async function importSentences(pool: any) {
+export async function importSentences(pool: any, import_languages: string) {
+  // Decide on which locales to import.
+  // If no IMPORT_LANGUAGES specified, all from the file system, else the intersection.
+  function getImportableLanguages(
+    allLocales: string[],
+    localesToImport: string[]
+  ) {
+    if (localesToImport.length > 0) {
+      print(
+        `Locales requested: ${localesToImport.length} [${localesToImport.join(
+          ','
+        )}]`
+      )
+      return localesToImport.filter(lc => allLocales.includes(lc))
+    }
+    return allLocales
+  }
+
   const oldVersion = Number(
     (await useRedis) ? await redis.get('sentences-version') : 0
-  );
-  const version = ((oldVersion || 0) + 1) % 256; //== max size of version column
-  const locales = (
+  )
+  const version = ((oldVersion || 0) + 1) % 256 //== max size of version column
+  // get locales from file system
+  const fsLocales = (
     (await new Promise(resolve =>
       fs.readdir(SENTENCES_FOLDER, (_, names) => resolve(names))
     )) as string[]
-  ).filter(name => name !== 'LICENSE');
+  ).filter(name => name !== 'LICENSE')
 
-  print('locales', locales.join(','));
+  print(
+    `Locale directories found: ${fsLocales.length} [${fsLocales.join(',')}]`
+  )
 
-  for (const locale of locales) {
-    await importLocaleSentences(pool, locale, version);
+  // filter them with IMPORT_LANGUAGES config value if specified
+  const importable_locales = getImportableLanguages(
+    fsLocales,
+    import_languages.trim().split(',')
+  )
+  print(
+    `Final import list: ${importable_locales.length} [${importable_locales.join(
+      ','
+    )}]`
+  )
+
+  for (const locale of importable_locales) {
+    await importLocaleSentences(pool, locale, version)
   }
 
-  (await useRedis) &&
-    (await redis.set('sentences-version', version.toString()));
+  ;(await useRedis) &&
+    (await redis.set('sentences-version', version.toString()))
 
   await pool.query(
     `
@@ -175,7 +206,7 @@ export async function importSentences(pool: any) {
             version <> ?
     `,
     [version]
-  );
+  )
   await pool.query(
     `
       UPDATE sentences
@@ -183,7 +214,7 @@ export async function importSentences(pool: any) {
       WHERE version <> ?
     `,
     [version]
-  );
+  )
 
   const [localeCounts] = (await pool.query(
     `
@@ -193,17 +224,17 @@ export async function importSentences(pool: any) {
       WHERE is_used
       GROUP BY locale_id
     `
-  )) as { locale: string; count: number }[][];
+  )) as { locale: string; count: number }[][]
 
   print(
     'sentences',
     JSON.stringify(
       localeCounts.reduce((obj, { count, locale }) => {
-        obj[locale] = count;
-        return obj;
+        obj[locale] = count
+        return obj
       }, {} as { [locale: string]: number }),
       null,
       2
     )
-  );
+  )
 }

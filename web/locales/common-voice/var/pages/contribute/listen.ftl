@@ -10,9 +10,3 @@ listen-loading-error = Kikawesítere temé tékimia pu'ká audióči . Weikác�
 listen-abort-title = ¿Kahunáremu yomá werifikandómia kawé manía puú ehémploči?
 listen-abort-cancel = Simiténaremu yoráka werificandóka, kawé manía puú ehemploči toátiame.
 listen-abort-confirm = ¿Yomá kahunáremu re'wisaróaka?
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

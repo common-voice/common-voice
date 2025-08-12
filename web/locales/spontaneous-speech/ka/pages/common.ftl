@@ -5,14 +5,12 @@ error = შეცდომა
 action-click = დაწკაპეთ
 action-tap = შეეხეთ
 # Label for language switcher
-platform-language = პლატფორმის ენა:
-platform-language-tooltip-text = ცვლის მხოლოდ ვებსაიტის ტექსტს.
+platform-language = საიტის ენა:
+platform-language-tooltip-text = ცვლის მხოლოდ წარწერებს საიტზე
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = წვლილის შესატანი ენა { $language }
+contribution-picker-label = წვლილი <bold>{ $language }</bold> ენის კრებულში
 contribution-picker-tooltip-text = ცვლის მონაცემთა კრებულის ენას, რომელშიც წვლილი შეგაქვთ
-# Label for button on contribution switcher
-change = შეცვლა
 coming-soon = სხვა ენები მალე დაემატება!
 media-recorder-api-not-supported = MediaRecorder API არაა მხარდაჭერილი თქვენს ბრაუზერში.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,19 @@ skip-button = გამოტოვება
 submit-button = გაგზავნა
 contribute = წვლილის შეტანა
 request-new-language = მოითხოვეთ ახალი ენა
+# Button text which appears when there are no more resources
+continue-with-skipped = გამოტოვებულზე გადასვლა
 
 ## Navbar
 
-respond-to-prompt = პასუხი მოთხოვნაზე
-transcribe = ნაწერად გადმოცემა
-check-transcriptions = ნაწერად ქცეულის შემოწმება
 question = შეკითხვა
+validate = შემოწმება
+respond-to-prompt = პასუხი
+respond-to-prompt-mobile = პასუხი
+transcribe = ტრანსკრიბირება
+check-transcriptions = შემოწმება
+check-transcriptions-mobile = შემოწმება
+tag = ჭდე
 
 ## Not Found Page
 
@@ -60,3 +64,10 @@ sdo = სერიანული ბიდაუ
 snv = საბანი
 tr = თურქული
 xkl = კენიური
+
+## Language search component
+
+language-search-placeholder = ენის მოძებნა...
+language-search-aria-label = ენის მოძებნა
+language-search-label = ცვლის მხოლოდ კრებულში წვლილის შესატან ენას
+language-search-no-results = ენა არ მოიძებნა

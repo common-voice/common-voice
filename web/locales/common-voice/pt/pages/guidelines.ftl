@@ -3,6 +3,9 @@ guidelines-header = Diretrizes de contribuição
 guidelines-header-subtitle = Entenda como contribuir e validar frases e clipes de áudio para o conjunto de dados do Common Voice
 voice-collection = Coleta de voz
 sentence-collection = Coleção de frases
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronúncias diferentes
 misreadings = Erros de leitura
 offensive-content = Conteúdo ofensivo
@@ -12,6 +15,9 @@ volume = Volume
 reader-effects = Efeitos do leitor
 just-unsure = Não tem certeza?
 example = Exemplo
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Sotaques diferentes são bem-vindos! Tenha bastante cautela antes de rejeitar um clipe com base em sua avaliação de que o leitor pronunciou uma palavra incorretamente, colocou a ênfase no lugar errado ou ignorou a pontuação. Há uma grande variedade de pronúncias em uso no mundo todo, algumas das quais você pode não ter ouvido em sua comunidade local. Dê uma generosa margem de apreço àqueles que podem falar de forma diferente de você.
 varying-pronunciations-explanation-2 = Por outro lado, se você achar que o leitor nunca se deparou com a palavra antes e está dando um palpite incorreto sobre a pronúncia, rejeite. Se não tiver certeza, use o botão de pular.
 varying-pronunciations-example = Comi um pedaço de bolo.
@@ -47,11 +53,17 @@ reader-effects-explanation = A maioria das gravações é de pessoas falando em 
 just-unsure-explanation = Caso se depare com algo que essas diretrizes não abrangem, vote de acordo com seu bom senso. Se realmente não conseguir decidir, use o botão de pular e siga para a próxima gravação.
 still-have-questions = Ainda tem dúvidas?
 contact-common-voice = Entre em contato com a equipe do Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Domínio público
 citing-sentences = Citação de frases
 adding-sentences = Adição de frases
 reviewing-sentences = Revisão de frases
 sentence-domain = Domínio da frase
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = É muito importante que todas as sentenças de texto sejam de <publicDomain>domínio público</publicDomain> (<cc0>cc0</cc0>), pois o conjunto de dados do Common Voice é lançado sob uma licença cc0. Só envie uma frase se tiver certeza e sempre inclua a citação relevante.
 public-domain-explanation-2 = As melhores frases para construir um mecanismo útil de reconhecimento de voz são de linguagem coloquial e moderna. Eis algumas ideias para ajudar a gerar frases;
 public-domain-explanation-3 = Crie você mesmo frases modernas e coloquiais, com seus amigos ou comunidade linguística, por exemplo, através de uma 'maratona de redação'

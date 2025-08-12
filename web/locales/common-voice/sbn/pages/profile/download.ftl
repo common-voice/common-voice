@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = اڀآݩ ري ڊيٽآ کي ڊآئون لوڊ ڪرڻ ريٚ زرُورت اهي؟
+download-info = سُڻآئو تا اڀآݩ کي ڪيٚ ڊآئون لوڊ ڪرڻ پسند اهي:
+download-profile-title = پُروڦآئيٚل
+download-profile-info = شآمل اهي ايٚ ميل استمآل ڪرڻ وآري رو نآلو ائيٚݩ ڊيموگرآڦ ڄآڻ، ڦوريٚ تور تي دستيآب اهي۔
+download-profile-size = ڪجه بآئيٚٽس
+download-recordings-title = ريڪآڊئيٚنگونٚ
+download-recordings-info = ايم پيٚ ٿريٚ (mp3) کي شآمل ڪرو ائيٚݩ اُئي جيهڙآ جملآ، شآيد ڪجه وکت وٺي تيآر ڪرڻ ميݩ
+download-recordings-size = آم ميگآ بآئيٚٽس
+download-recordings-unavailable = اڀيٚݩ پنڊريٚ ريڪآڊئيٚنگ ريٚ درکوآست ڪوندآ ڪري سگهوݩ، ڪݩهݩ لآ تي ٻئيٚ درکوآست اڳ ميݩ ئيٚ جآريٚ اهي۔
+download-recently-requested = اڀيٚݩ هر { $days } ڏيٚݩهݩ تي پنڊريٚ ريڪآڊئيٚنگ ريٚ نئيٚ ٽيڪ آئوٽ ريٚ درکوآست ڪري سگهو دآ۔
+download-size = مآپ (سآئيٚز)
+download-selected = چُنڊل
+download-start = ڊآئون لوڊ ڪرو پُروڦآئيٚل رو ڊيٽآ
+download-request = ريٚڪآڊئيٚنگ لآ درکوآست ڪرو
+download-requests = گزريل ريڪآڊئيٚنگ ڊآئون لوڊ ريݩ درکوآستيݩ
+download-requests-info = جڏهينٚ اڀآنٚ پنڊريٚ ريڪآڊئيٚنگ ري درکوآست ڪرونٚ دآ، اسآنٚ اُئآنٚ کي هَڪ ججآنٚ وڌيٚڪ زپ ڦآئيٚلآنٚ مينٚ مرتب ڪرونٚ دآ۔ ايٿ اڀآنٚ رينٚ گزريل درکوآستينٚ اهينٚ:
+download-request-button = ڊآئون لوڊ ڪرو
+download-request-title = { $created }
+download-request-description = آوآز رينٚ ڪليٚپآنٚ، ڪُل آرڪآئيٚو سآئيز{ $size }۔ کتم ٿئي دو{ $expires }۔
+download-request-archive-single = هڪڙيٚ زپ ڦآئيٚل شآمل ڪرو
+download-request-archive-multiple = زپ ڦآئيٚلآݩ تي مشتمل { $archiveCount }ميݩ ورهآئو
+download-request-assembling-description = اڀآݩ ريݩ ڦآئيلآݩ کي ڀيڙيݩ ڪيݩ پيݩ وهُڙيٚݩ۔ مهربآنيٚ ڪري ٿوڙيٚ دير کآݩ پوء وري ڪوشيٚش ڪرو۔
+download-request-refresh-button = ريٚڦريش ڪرو
+download-request-modal-title = ليݩڪ کي ڊآئون لوڊ ڪرو
+download-request-modal-description = ايٿ اهي ليݩڪ اڀآݩ ريٚ زپ ڦآئيٚلآݩ کي ڊآئون لوڊ ڪرڻ لآ۔
+download-request-link-text = زپ{ $offset }مآݩ{ $total }
+download-request-metadata-link = جملي ريٚ لکت
+download-request-link-single = اڀآنٚ سڌو سئونٚ URLs کي پنڊرينٚ پسنديٚدآ ڊآئون لوڊ مئنيٚجر مينٚ ڪآپيٚ ائيٚنٚ پيسٽ ڪري سگهو دآ۔ اوٚ 12 ڪلاڪ مينٚ کتم ٿئي وهينٚ، پر اڀيٚنٚ ڪنٚهنٚ با وکت نوآنٚ ٺآهڻ لآ ايئي سڦهي تي وآپس آئي سگهودآ۔

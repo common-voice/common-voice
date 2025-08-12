@@ -3,6 +3,9 @@ guidelines-header = Iphiro sookhalihana
 guidelines-header-subtitle = Osuweleke mananna oowuncererya ni otthuniherya moolumo ni ikilipi sa aawutiyu wa nikhuru na itaatu sa Common Voice.
 voice-collection = Ottottela nsu
 sentence-collection = Wuuraana wa malove
+
+## Voice Collection nav ids
+
 varying-pronunciations = Malavulelo oovirikana
 misreadings = Ovonya wa osoma
 offensive-content = Soolempha soruwana
@@ -12,6 +15,9 @@ volume = Evolume
 reader-effects = Soowoneya sa musomi
 just-unsure = Khamurina exariya?
 example = Moniheryo
+
+## Voice collection sidebar content
+
 varying-pronunciations-example = Kihoolo epittula emosa ya mukatthe.
 misreadings-explanation-2 = Soovonya sinceene sinttharana:
 misreadings-explanation-3 = Ohikhala nlepo <strong>'A'</strong> wala <strong>'Nto'</strong> woopacerani wa karavasawu.
@@ -33,10 +39,16 @@ background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
 background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 background-voices-example-1 = Matinosawuru oorekamasa a oTiriyaasiku.  <strong>[yoosomwa ni nsu nimosa]</strong>
 still-have-questions = Nlelo ehaavo enooxankihani?
+
+## Sentence collection nav ids
+
 public-domain = Sa osuwela vamayirhori
 citing-sentences = Ohimya malove ookwanela
 adding-sentences = Ovukula wa malove ookwanela.
 reviewing-sentences = Woonexexa
+
+## Sentence collection sidebar content
+
 public-domain-explanation-3 = Mupake  nyeenyu  meekhiinyu  moolumo  masya  ni  a  mivaanelo,  hoothe  ni  axirikha  anyu  nnakhala  mmuttettheni  mwa  malavuleelo,  ntoko  ntthoonyeryo,  murumeelaka  'ekwaha  yoolepa'
 public-domain-explanation-5 = Mwaavye etestu eri soohiheleliwatho ihaakhi sa anamupaka, sintoko, ilivuru sinceene soolaleyiwa eyaakha ya 1920  ehinatthi
 public-domain-explanation-6 = Mulavule ni kuverunu, miloko sinvara muteko mwaha wa okhoola wala mithukumano sa mitthaka wii ewehe yakhala wii ikaruma sa weepi, mitthaka soolempwa wala itthu sikina sikhanle soovelelihiwa wa osuwela vamayithori.

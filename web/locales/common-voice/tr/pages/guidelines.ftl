@@ -3,6 +3,13 @@ guidelines-header = Katkıda bulunma yönergeleri
 guidelines-header-subtitle = Common Voice veri kümesine cümle ve ses kayıtları ile nasıl katkıda bulunabileceğinizi öğrenin
 voice-collection = Ses toplama
 sentence-collection = Cümle derleme
+question-collection = Soru toplama
+scripted-speech = Yazıları Seslendirme
+spontaneous-speech = Doğaçlama Konuşma
+dont-subheader = Bunları yapmayın
+
+## Voice Collection nav ids
+
 varying-pronunciations = Farklı telaffuzlar
 misreadings = Yanlış okumalar
 offensive-content = Saldırgan üslup
@@ -12,6 +19,9 @@ volume = Ses seviyesi
 reader-effects = Okuyucu efektleri
 just-unsure = Emin değil misiniz?
 example = Örnek
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Farklı aksanları da memnuniyetle karşılıyoruz! Okuyucunun bir kelimeyi yanlış telaffuz ettiği, vurguyu yanlış yere koyduğu ya da noktalama işaretlerini görmezden geldiği gerekçesiyle bir kaydı reddetmeden önce dikkatli olun. Dünyanın ve ülkenin farklı yerlerinde kullanılan farklı aksanlar ve telaffuzlar olabilir, bunlardan bazılarını yerelde duymamış olabilirsiniz. Lütfen sizden farklı konuşanlar için geniş bir takdir payı bırakın.
 varying-pronunciations-explanation-2 = Öte yandan, okuyucunun kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
 varying-pronunciations-example = Yarın Kastamonu’ya ciğer almaya gidiyorum.
@@ -47,11 +57,17 @@ reader-effects-explanation = Çoğu kayıt, doğal sesleriyle konuşan insanlara
 just-unsure-explanation = Bu yönergelerin kapsamadığı bir şeyle karşılaşırsanız, lütfen sağduyunuza göre oy verin. Gerçekten karar veremiyorsanız, atlama düğmesini kullanın ve bir sonraki kayda geçin.
 still-have-questions = Hâlâ sorularınız var mı?
 contact-common-voice = Common Voice ekibiyle iletişime geçebilirsiniz
+
+## Sentence collection nav ids
+
 public-domain = Kamu malı
 citing-sentences = Alıntı cümleler
 adding-sentences = Cümle ekleme
 reviewing-sentences = Cümleleri inceleme
 sentence-domain = Cümlenin alanı
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Common Voice veri kümesi cc0 lisansı ile yayımlandığından, tüm cümlelerin <publicDomain>kamu malı</publicDomain> (<cc0>cc0</cc0>) olması çok önemlidir. Bir cümleyi yalnızca bundan eminseniz yükleyin ve her zaman cümlenin kaynağını belirtin.
 public-domain-explanation-2 = Kullanışlı bir konuşma tanıma motoru oluşturmak için en iyi cümleler günlük konuşma dilindeki cümlelerdir. Cümle oluşturmanıza yardımcı olacak fikirlerden bazıları:
 public-domain-explanation-3 = Kendi başınıza, arkadaşlarınızla ya da dil topluluğunuzla modern konuşma dilinde cümleler oluşturun. Örneğin birlikte yazma oturumları düzenleyebilirsiniz.
@@ -91,3 +107,89 @@ reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamı
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 domain-explanation = Alan, cümlenin konusunu ifade eder. Şu anda aşağıdakiler arasından seçim yapabilirsiniz:
+
+## Question collection ids
+
+adding-questions = Soru ekleme
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = İyi bir soru nasıl olur?
+what-makes-a-good-question-explanation = Kitlesel katılımla oluşturulan veri kümeleri için iyi bir soru:
+what-makes-a-good-question-explanation-criteria-1 = Anlaşılması ve yanıtlanması kolay olmalı
+what-makes-a-good-question-explanation-criteria-2 = Genel konularla ilgili olmalı
+what-makes-a-good-question-explanation-criteria-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
+what-makes-a-good-question-tip = Farklı bağlamları ve alanları da kapsamayı düşünebilirsiniz.
+easy-to-understand = Anlaması kolay
+easy-to-understand-explanation = Kültür veya bağlamdan bağımsız olarak herkesin anlayacağı basit sorular seçin.
+spelling-and-pronunciation = Yazım ve noktalama
+spelling-and-pronunciation-explanation = Yazım ve dilbilgisi kurallarına uyun.
+length = Uzunluk
+length-explanation = Soru birkaç cümleyle yanıtlanabilir olmalıdır.
+dont-add-subheader = Şunları eklemeyin
+culturally-specific-questions = Kültürlere özgü sorular
+culturally-specific-questions-explanation = Kültüre özgü olan ya da yanıtlayan hakkında birçok varsayımda bulunan sorular
+length-avoid-explanation = Kişinin 15 saniye içinde yanıtlamakta zorlanacağı sorular (maksimum kayıt uzunluğu)
+process-steps = Aşamalı sorular
+process-steps-explanation = Kişinin birkaç adımı sıralamasını gerektiren sorular.  Böyle bir durumda kullanıcı doğal bir yanıt vermek yerine yanıtını önceden hazırlamaya çalışır.
+offensive-content-sensitive-information = Rahatsız edici içerik veya hassas bilgiler
+offensive-content-sensitive-information-explanation-explanation-1 = Kişisel kimlik bilgilerini vermekle sonuçlanabilecek sorular
+offensive-content-sensitive-information-explanation-explanation-2 = Nefret söylemi, önyargılı ya da saldırgan ifadeler içerebilecek yanıtları tetikleyebilecek sorular
+offensive-content-sensitive-information-explanation-explanation-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
+example-questions-subheader = Örnek sorular
+example-questions-explanation-1 = <examplePromptsLink>Bu sayfada 120 örnek soru bulabilirsiniz.</examplePromptsLink>
+example-questions-explanation-2 = Besleme için çok sayıda soru göndermek isterseniz <githubLink>GitHub üzerinden gönderebilir</githubLink> veya listenizi <emailFragment>commonvoice@mozilla.com</emailFragment> adresine e-postayla gönderebilirsiniz.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Soru yanıtlama
+answer-questions-subheader = Genel yönergeler
+# Transcribe the Audio
+transcribe-the-audio = Ses kayıtlarını metne çevirme
+transcribe-the-audio-subheader-1 = Genel yönergeler
+transcribe-the-audio-subheader-2 = Sayılar ve kısaltmalar
+transcribe-the-audio-subheader-3 = Özel etiketler
+tags-table-header-1 = Etiket
+tags-table-header-2 = Anlam
+tags-laugh = Gülme
+tags-disfluency = Akıcı olmayan konuşma
+tags-unclear = Net değil
+tags-noise = Gürültü
+tags-laugh-explanation = Gülme sesi.
+tags-unclear-explanation = Anlaşılamayan bir sözcük ya da sözcük dizisi.
+
+## Review the Transcription
+
+review-the-transcription = Çeviri metinleri inceleme
+review-the-transcription-subheader = Genel yönergeler
+
+## Code-Switching
+
+adding-a-question = Soru ekleme
+# Adding a Question
+code-switching-adding-question-subheader = İyi bir soru nasıl olur?
+code-switching-adding-question-explanation = Kitlesel katılımla oluşturulan veri kümeleri için iyi bir soru:
+code-switching-adding-question-criteria-1 = Anlaşılması ve yanıtlanması kolay olmalı
+code-switching-adding-question-criteria-2 = Genel konularla ilgili olmalı
+code-switching-adding-question-criteria-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
+code-switching-adding-question-note = Farklı bağlamları ve alanları da kapsamayı düşünebilirsiniz.
+# What types of questions to add
+code-switching-types-subheader = Ne tür sorular eklemelisiniz?
+code-switching-review-criterion-1 = Anlaşılması ve yanıtlanması kolay olmalı
+code-switching-review-criterion-2 = Genel konularla ilgili olmalı
+code-switching-review-criterion-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
+code-switching-review-offensive-content = <bold>Rahatsız edici içerik veya hassas bilgiler</bold>
+code-switching-answer-header = Rahatsız edici içerik veya hassas bilgiler
+code-switching-review-no-1 = Kişisel kimlik bilgilerini vermekle sonuçlanabilecek sorular
+code-switching-review-no-2 = Nefret söylemi, önyargılı ya da saldırgan ifadeler içerebilecek yanıtları tetikleyebilecek sorular
+code-switching-review-no-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
+# Tagging
+code-switching-tagging-subheader = Etiketleme
+code-switching-tagging-error-1 = Yanlış noktalama veya büyük harf kullanımı
+code-switching-tagging-error-2 = Yazım hataları
+code-switching-not-tag-interjections-example-2 = “Hayır”
+
+## Reporting Content
+
+reporting-content-subheader = Genel yönergeler

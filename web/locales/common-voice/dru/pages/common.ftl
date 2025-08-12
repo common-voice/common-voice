@@ -4,6 +4,7 @@
 
 ## Languages
 
+dru = Drekay
 
 # [/]
 
@@ -11,6 +12,3 @@
 ## Layout
 
 terms = hulrice
-
-## Donate banner
-

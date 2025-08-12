@@ -8,7 +8,7 @@ different_language = Iaith wahanol
 different_language-detail = Mae'r cynnwys yn cynnwys iaith wahanol i'r hyn roeddwn i'n ei ddisgwyl.
 personally_identifiable_information = Gwybodaeth sy'n bersonol adnabyddadwy
 personally_identifiable_information-detail = Mae'r cynnwys hwn yn cynnwys gwybodaeth bersonol adnabyddadwy sy'n ymwneud â hunaniaeth unigolyn, megis ei enw, cyfeiriad e-bost, lleoliad, rhif adnabod, neu rif ffôn.
-personally_identifiable_information-answer-detail = Mae'r cynnwys hwn yn cynnwys manylion personol adnabyddadwy sy'n ymwneud â hunaniaeth unigolyn, megis ei enw, cyfeiriad e-bost, lleoliad, rhif adnabod, neu rif ffôn.
+personally_identifiable_information-answer-detail = Mae'r cynnwys hwn yn cynnwys manylion personol adnabyddadwy sy'n ymwneud â hunaniaeth unigolyn, fel ei enw, cyfeiriad e-bost, lleoliad, rhif adnabod, neu rif ffôn.
 report-other-comment =
     .placeholder = Sylw
 # Label for textarea in report modal

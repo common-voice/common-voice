@@ -3,6 +3,12 @@ guidelines-header = Sturiadurioù ar c'hemer perzh
 guidelines-header-subtitle = Kompren penaos kemer perzh hag aprouiñ frazennoù hag enrolladennoù son e strobad roadennoù Common voice
 voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumad frazennoù
+question-collection = Dastum goulennoù
+scripted-speech = Lenn skridoù
+spontaneous-speech = Komz naturel
+
+## Voice Collection nav ids
+
 varying-pronunciations = Distagadurioù disheñvel
 misreadings = Fazioù lenn
 offensive-content = Danvez feukus
@@ -12,6 +18,9 @@ volume = Live son
 reader-effects = Efedoù al lenner
 just-unsure = Etre daou soñj ?
 example = Skouer
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Deuet-mat eo ar pouezhioù-mouezh disheñvel ! Diwallit mat a-raok disteurel un enrolladenn war zigarez eo bet distaget-fall ger pe c'her, eo bet lec'hiet-fall an taol-mouezh pe c'hoazh abalamaour n'eus ket bet taolet fed d'ar poentadur. Kalz a zoareoù disheñvel zo da zistagañ er bed a-bezh ha lod anezho n'int ket bet klevet ganeoc'h en ho kumuniehz lec'hel. Lezit plas a-walc'h d'ar re a c'hall komz en un doare disheñvel diouzh ho hini.
 varying-pronunciations-explanation-2 = Diouzh an tu all, ma soñj deoc'h ne oa ket anavezet ar ger gant al lenner a-raok hag emañ o klask divinout an distagadur hep gouzout, distaolit an enrolladenn. Ma n'oc'h ket sur, lezit anezhi a-gostez ha kit pelloc'h.
 varying-pronunciations-example = Ne oa ket sklaer an hent.
@@ -47,11 +56,17 @@ reader-effects-explanation = Ar pep brasañ eus an enrolladennoù a ya d'o ober 
 just-unsure-explanation = M'en em gavit gant un dra bennak n'hon eus ket lakaet ar gaoz warnañ, grit ho seizh gwellañ. Ma ne c'hallit ket ober ho soñj tamm ebet, kit pelloc'h ha pledit gant an enrolladenn da-heul.
 still-have-questions = Goulennoù ho peus c’hoazh ?
 contact-common-voice = Mont e darempred gant skipailh Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Domani Foran
 citing-sentences = Menegiñ frazennoù
 adding-sentences = Ouzhpennañ Frazennoù
 reviewing-sentences = Gwiriañ Frazennoù
 sentence-domain = Domani ar frazenn
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Pouezus-bras eo e vefe an holl frazennoù en <publicDomain>domani foran</publicDomain> (<cc0>cc0</cc0>) rak embannet eo strobad roadennoù Common Voice dindan an aotre-implijout cc0. Ouzhpennit hepken frazennoù oc'h sur anezho ha merkit atav an arroudenn a zere.
 public-domain-explanation-2 = Ar frazennoù gwellañ evit sikour sevel un ardivink gouest da anavezout ar vouezh zo ober gant frazennoù pemdez ar yezh komzet hiziv. Setu aze un nebeud mennozhioù evit skoazellañ ac'hanoc'h da sevel frazennoù :
 public-domain-explanation-3 = Krouiñ frazennoù modern, pemdez, c'hwi hoc'h-unan pe asmables gant ho mignoned pe ho kumuniezh yezh -da skouer dre ur skrivaton.
@@ -91,3 +106,56 @@ reviewing-sentences-explanation-2 = Ma ne glot ket ar frazenn gant an dezverkoù
 reviewing-sentences-explanation-3 = Ma n'oc'h ket sur e c'hallit ivez he lezel a-gostez ha plediñ gant ur frazenn all.
 reviewing-sentences-explanation-4 = Ma n'hoc'h eus ket netra da wiriañ ken e c'hallit hor skoazellañ da zastum muioc'h a frazennoù !
 domain-explanation = Ober a ra an domani dave da dachenn ar frazenn. Evit poent e c'hallit dibab etre :
+
+## Question collection ids
+
+adding-questions = Ouzhpennañ goulennoù
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Peseurt goulennoù zo mat ?
+what-makes-a-good-question-explanation = Ur goulenn a-feson evit ma kemerfe perzh an dud e savidigezh strobadoù roadennoù a zle :
+what-makes-a-good-question-explanation-criteria-1 = Bezañ aes da gompren ha da respont dezhañ
+what-makes-a-good-question-explanation-criteria-2 = Bezañ dedennus dre vras
+what-makes-a-good-question-explanation-criteria-3 = Na implijout na boudañ ober gant gerioù tagus pe feukus
+what-makes-a-good-question-tip = Gallout a rit  soñjal e tachennoù pe kendestennoù a bep seurt ivez.
+easy-to-understand = Aes da gompren
+easy-to-understand-explanation = Dibabit goulennoù eeun a c'hall forzh piv respont dezho, ne vern o sevenadur pe ar gendestenn.
+spelling-and-pronunciation = Reizhskrivadur ha poentadur
+spelling-and-pronunciation-explanation = Reizh e rank bezañ an doare-skrivañ hag ar yezhadur.
+length = Hirder
+length-explanation = Ar goulenn a ranker gallout respont dezhañ gant un nebeud frazennoù hepken.
+dont-add-subheader = Arabat ouzhpennañ
+culturally-specific-questions = Goulennoù dibar a-fet sevenadur
+culturally-specific-questions-explanation = Goulennoù a denn d'ur sevenadur bennak resis pe a c'houlenn gouzout en a-raok traoù diuwar-benn an hini a responto
+length-avoid-explanation = Goulennoù a vo lakaet diaes an dud evit respont dezho dindan 15 eilenn (hirder brasañ un enrolladenn)
+process-steps = Argerzh / Pazennoù
+process-steps-explanation = Goulennoù a c'houlenn sevel ur roll pazennoù. Rollañ pazennoù a lakay ar responter da zibunañ respontoù desket kentoc'h eget reiñ ur respont naturel.
+offensive-content-sensitive-information = Danvez tagus pe kizidik
+offensive-content-sensitive-information-explanation-explanation-1 = Goulennoù a c'houlenn titouroù personel a c'haller anavezout
+offensive-content-sensitive-information-explanation-explanation-2 = Goulennoù a c'hall degas respontoù kasonius, raksoñjoù pe santadoù tagus
+offensive-content-sensitive-information-explanation-explanation-3 = Goulennoù a c'hallfe lakaat unan bennak da rannañ respontoù a c'hall bezañ kizidik pe skoemp
+example-questions-subheader = Skouerioù goulennoù
+example-questions-explanation-1 = Gallout a reot kavout <examplePromptsLink>120 skouer goulennoù er follenn-mañ.</examplePromptsLink>
+example-questions-explanation-2 = Ma fell deoc'h kinnig ur strobad goulennoù da vezañ enframmet e c'hallit <githubLink>en ober dre hor GitHub</githubLink> pe kas ho roll dre bostel da <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Respont da c'houlennoù
+tags-table-header-2 = Ster
+tags-laugh = C'hoarzhin
+tags-noise = Trouz
+
+## Code-Switching
+
+adding-a-question = Ouzhpennañ ur goulenn
+# Adding a Question
+code-switching-adding-question-subheader = Peseurt goulennoù zo mat ?
+code-switching-adding-question-explanation = Ur goulenn a-feson evit ma kemerfe perzh an dud e savidigezh strobadoù roadennoù a zle :
+code-switching-adding-question-criteria-1 = Bezañ aes da gompren ha da respont dezhañ
+code-switching-adding-question-criteria-2 = Bezañ dedennus dre vras
+code-switching-tagging-error-2 = Fazioù reizhskrivañ
+code-switching-not-tag-interjections-example-1 = "Euh"
+code-switching-not-tag-interjections-example-2 = "Nann"
+code-switching-not-tag-interjections-example-3 = "Ya"

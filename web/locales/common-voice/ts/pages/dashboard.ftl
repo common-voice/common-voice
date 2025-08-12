@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Vekela pakani
 cant-decide = A wu swi koti ku endla xiboho?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
-                               *[other] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
-                               *[other] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
-                               *[other] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
-                               *[other] { $totalHours } awara yi fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
-                               *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
-                               *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } n'hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
-                               *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } rhekhodo ya munhu { $clipsPerDay } swiphemu hi siku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
-                               *[other] { $totalHours } tiawara ti fikeleleka hi ku tlulanyana { $periodMonths } tin’hweti loko { $people } ti rhekhodo ta vanhu { $clipsPerDay } swiphemu hi siku.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Swikulu! Xana i swiphemu swingani hi siku?
 how-many-a-week = Swikulu! Xana i swiphemu swingani  hi vhiki?
 which-goal-type = Xana u lava ku Vulavula, Ku Yingisela kumbe hi vumbirhi bya swona?

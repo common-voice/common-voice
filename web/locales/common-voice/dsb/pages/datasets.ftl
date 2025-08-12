@@ -8,6 +8,7 @@ datasets-positioning =
     Wěcejrěcna datowa sajźba Common Voice jo južo nejwětša zjawnje k dispoziciji stojeca datowa sajźba swójeje družyny, ale njejo jadnučka.
     
     Mějśo toś ten bok ako referencny dypk za druge głosowe datowe sajbźy wótwórjonego žrědła a, dokulaž Common Voice dalej rosćo, ako startowy dypk za naše nejnowše aktualizacije.
+datasets-speech-bubble-content = Zagórjujuce nowosći! Spontane powědanje jo pó droze! Slědujśo aktualizacije a cytajśo naše nejnowše informacije wó tom na <discordLink>Discord</discordLink>.
 language = Rěc
 download-dataset-header = Datowu sajźbu ześěgnuś
 download-delta-explainer = Smy pśewjadli někotare změny. Deltasegmenty jano nejnowše klipy wót slědnego wozjawjenja wopśimuju. <deltaLink>Cytajśo wěcej wó toś tom źěle</deltaLink>.
@@ -94,6 +95,9 @@ release-version = Wersija
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
+# Support old genders in older datasets
+male = Muski
+female = Žeńscyny
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Naše głosowe datowe sajźby ześěgnuś
 # MENU ITEM ARIA LABELS

@@ -2,6 +2,8 @@
 
 welcome-to-spontaneous-speech = Eg̃uahẽporã Spontaneous Speech-pe
 why-spontaneous-speech = ¿Mba’érepa rojapo koichagua ayvu jeporurã?
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Oipytyvõ porãve ñe’ẽnguéra rekoteépe g̃uarã ikatúva pe ñe’ẽ jeporuporã ha ayvu ñemoambue
 how-spontaneous-speech-works = Mba’éichapa oiko ayvu jeporu
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Prompt</mark>
@@ -21,6 +23,7 @@ data-bubble-subtitle = Romoherakuã meme mba’ekuaarã aty
 contact-us = Eñe’ẽ orendive
 contact-us-title = ¿Eikesépa orendive ko apopyrépe térã eñemoirũta orendive?
 contact-us-email = Ñanduti veve: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = ¿Reiméma ore aty Beta pe Common Voice Apopyrã Ñe’ẽ Jeheguíva ryepýpe?
 signup-input-placeholder = Emoinge ne ñanduti veve
 signup-button-value = Embou juajuha che ñanduti vevépe
 footer-text-privacy = <privacyLink>Ñemigua</privacyLink>

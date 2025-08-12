@@ -2,64 +2,63 @@ const PROFILE = '/profile'
 const DASHBOARD = '/dashboard'
 const DEMO = '/demo'
 const SPONTANEOUS_SPEECH = '/spontaneous-speech/beta'
+const SPONTANEOUS_SPEECH_PROD_ROOT_URL =
+  'https://commonvoice.mozilla.org/spontaneous-speech/beta'
 
 export default Object.freeze({
-  ROOT: '',
-
-  RECORD: '/record', // old, here for redirect purposes
-  SPEAK: '/speak',
-  LISTEN: '/listen',
-  WRITE: '/write',
-  REVIEW: '/review',
-
-  PROFILE,
-  PROFILE_INFO: PROFILE + '/info',
-  PROFILE_AVATAR: PROFILE + '/avatar',
-  PROFILE_SETTINGS: PROFILE + '/settings',
-  PROFILE_DELETE: PROFILE + '/delete',
-  PROFILE_DOWNLOAD: PROFILE + '/download',
-
-  DASHBOARD,
-  STATS: '/stats',
-  PROFILE_GOALS: PROFILE + '/goals', // old, here for redirect purposes
-  GOALS: '/goals',
+  ABOUT: '/about',
   AWARDS: '/awards',
   CHALLENGE: '/challenge',
-
+  CHALLENGE_TERMS: '/challenge-terms',
+  CHECK_TRANSCRIPT: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/check-transcript',
+  CRITERIA: '/criteria',
+  DASHBOARD,
   DATA: '/data', // old, here for redirect purposes
   DATASETS: '/datasets',
-
+  DEMO,
+  DEMO_ACCOUNT: DEMO + '/create-profile',
+  DEMO_CONTRIBUTE: DEMO + '/contribute',
+  DEMO_LISTEN: DEMO + '/listen',
+  DEMO_SPEAK: DEMO + '/speak',
   FAQ: '/faq',
-  PRIVACY: '/privacy',
-  TERMS: '/terms',
-  CHALLENGE_TERMS: '/challenge-terms',
-  ABOUT: '/about',
-  CRITERIA: '/criteria',
-  PARTNER: '/partner',
+  GITHUB_ROOT: 'https://github.com/mozilla/common-voice',
+  GOALS: '/goals',
   GUIDELINES: '/guidelines',
-  SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
-
-  SPONTANEOUS_SPEECH,
-  SPONTANEOUS_SPEECH_REDIRECT: '/spontaneous-speech-redirect',
-
+  HTTP_ROOT: 'https://commonvoice.mozilla.org',
+  INTRO: DEMO,
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',
   LANGUAGE_REQUEST_SUCCESS: '/language/request/success',
-
-  DEMO,
-  INTRO: DEMO,
-  DEMO_SPEAK: DEMO + '/speak',
-  DEMO_LISTEN: DEMO + '/listen',
-  DEMO_ACCOUNT: DEMO + '/create-profile',
-  DEMO_CONTRIBUTE: DEMO + '/contribute',
+  LISTEN: '/listen',
+  MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
+  PARTNER: '/partner',
+  PRIVACY: '/privacy',
+  PROFILE,
+  PROFILE_AVATAR: PROFILE + '/avatar',
+  PROFILE_DELETE: PROFILE + '/delete',
+  PROFILE_DOWNLOAD: PROFILE + '/download',
+  PROFILE_GOALS: PROFILE + '/goals', // old, here for redirect purposes
+  PROFILE_INFO: PROFILE + '/info',
+  PROFILE_SETTINGS: PROFILE + '/settings',
+  PROFILE_API_CREDENTIALS: PROFILE + '/api-credentials',
+  PROMPTS: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/prompts',
+  QUESTION: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/question',
+  RECORD: '/record', // old, here for redirect purposes
+  REVIEW: '/review',
+  REVIEW_QUESTIONS: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/validate',
+  ROOT: '',
+  TRANSCRIBE: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/transcribe',
+  S3_CDN: 'https://cdn.commonvoice.mozilla.org',
+  SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
+  SPEAK: '/speak',
+  SPONTANEOUS_SPEECH,
+  SPONTANEOUS_SPEECH_REDIRECT: '/spontaneous-speech-redirect',
+  STAGING_ROOT: 'https://commonvoice.allizom.org',
+  STATS: '/stats',
   TARGET_SEGMENT_INFO:
     'https://discourse.mozilla.org/t/help-create-common-voices-first-target-segment/59587',
   TARGET_SEGMENT_INFO_ES:
     'https://discourse.mozilla.org/t/ayuda-a-crear-el-primer-objetivo-segmentado-de-common-voice/60472/',
-
-  HTTP_ROOT: 'https://commonvoice.mozilla.org',
-  STAGING_ROOT: 'https://commonvoice.allizom.org',
-  GITHUB_ROOT: 'https://github.com/mozilla/common-voice',
-  MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
-  S3_CDN: 'https://cdn.commonvoice.mozilla.org',
+  TERMS: '/terms',
+  WRITE: '/write',
 })

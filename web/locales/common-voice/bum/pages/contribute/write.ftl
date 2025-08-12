@@ -87,12 +87,3 @@ file-invalid-type = Momo esae
 file-too-large = Esae é dañ ya ábui
 file-too-small = Esae é dañ ya tyutyoe
 too-many-files = Aka'a abui bisae
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

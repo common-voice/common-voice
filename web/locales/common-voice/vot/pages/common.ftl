@@ -140,6 +140,3 @@ email-opt-in-info = Я хочу получать такие письма, как
 email-opt-in-info-title = Сделайте голосовую запись частью аватара вашего профиля. Другие смогут прослушать её.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
-
-## Donate banner
-

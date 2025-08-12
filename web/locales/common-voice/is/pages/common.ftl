@@ -70,7 +70,6 @@ hsb = Hásorbíska
 ht = Haítíska
 hu = Ungverska
 hy-AM = Armenska
-hyw = Vestur-armenska
 ia = Interlingua
 id = Indónesíska
 ie = Interlingue

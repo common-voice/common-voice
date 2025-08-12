@@ -4,7 +4,8 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Ascolta le registration vocal, e verifica le transcription. Concorda illo? Si non, redige lo pro concordar perfectemente.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Marcar
-no-transcriptions-message = Il ha actualmente nulle transcriptiones a verificar pro iste lingua. Renova le pagina o retenta plus tarde.
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = Actualmente il non ha alcun transcription a verificar pro iste lingua. Si tu ha saltate alcun, tu pote continuar con contento saltate o ir a transcriber audio e retentar plus tarde.
 vote-transcript-success = Transcription votate con successo
 vote-transcript-error = Un error occurreva votante le transcription
 transcript-edited-success = Transcription redigite con successo

@@ -8,6 +8,7 @@ datasets-positioning =
     Common Voice 的多語言資料集已經成為最大的公開語音資料集，但不是唯一的一套。
     
     您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
+datasets-speech-bubble-content = 予人歡喜的消息！隨在講話咧欲推出矣！請鎖定咱的上新消息佮定定看咱<discordLink>Discord</discordLink>的上新消息。
 language = 語言
 download-dataset-header = 下載資料集
 download-delta-explainer = 注意以下改變：差異片段現僅包含從上次發佈以來最新版的片段。<deltaLink>了解此項目的更多資訊</deltaLink>。

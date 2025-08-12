@@ -41,6 +41,3 @@ email-opt-in-info-sub-with-challenge = சவால் இலக்கு நி
 email-opt-in-privacy-v2 = மின்னஞ்சல்கள் பெறுவதை தேர்வுசெய்வதன் மூலம், Mozilla வின் <privacyLink>தனியுரிமைக் கொள்கையில்<privacyLink> விவரிக்கப்பட்டுள்ளபடி Mozilla இந்தத் தகவலைக் கையாளுவதற்கு நீங்கள் ஒப்புக் கொள்கிறீர்கள்.
 indicates-required = * தேவையான பகுதிகளைக் குறிக்கிறது
 not-available-abbreviation = N/A
-
-## Donate banner
-

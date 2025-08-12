@@ -7,9 +7,3 @@ listen-empty-state = Nos hemos quedado sin clips para validar en este idioma...
 listen-loading-error =
     No pudimos obtener ningún clip de audio para que escuches.
     Por favor, inténtelo de nuevo más tarde.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

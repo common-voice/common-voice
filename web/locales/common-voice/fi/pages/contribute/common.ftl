@@ -25,6 +25,10 @@ target-segment-first-card = Osallistut ensimmäiseen kohdesegmenttiimme
 target-segment-first-banner = Auta luomaan Common Voicen ensimmäinen kohdesegmentti kielellä { $locale }
 target-segment-add-voice = Lisää äänesi
 target-segment-learn-more = Lue lisää
+login-signup = Kirjaudu / Rekisteröidy
+vote-yes = Kyllä
+vote-no = Ei
+languages = Kielet
 
 ## Reporting
 

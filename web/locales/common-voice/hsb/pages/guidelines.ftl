@@ -3,6 +3,13 @@ guidelines-header = Směrnicy za sobuskutkowarjow
 guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Voice sady a awdioklipy přinošować a kak móžeće je přepruwować
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
+question-collection = Zběrka prašenjow
+scripted-speech = Rěčenje ze skriptom
+spontaneous-speech = Spontane rěčenje
+dont-subheader = Špatne
+
+## Voice Collection nav ids
+
 varying-pronunciations = Rozdźělne wurjekowanja
 misreadings = Čitanske zmylki
 offensive-content = Njepřistojny wobsah
@@ -12,9 +19,14 @@ volume = Sylnosć zwuka
 reader-effects = Efekty čitarja
 just-unsure = Jenož njewěsty?
 example = Přikład
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Witamy rozdźělne akcenty! Budźće jara kedźbliwy, prjedy hač klip z wopodstatnjenjom wotpokazujeće, dokelž mysliće, zo čitar je słowo wopak wurjekował, je přizwuk na wopačne městno stajił abo interpunkciju prašak ignorował. Wjele wurjekowanjow so po cyłym swěće wužiwa, snano njejsće někotre z nich w swojim lokalnym zhromadźenstwje słyšał. Prošu přizwolće tym wulkomyslnu swobodu, kotřiž hinak hač wy rěča.
 varying-pronunciations-explanation-2 = Jeli wšak měniće, zo čitar je słowo přez připad namakał a wurjekowanje wopak wuhódał, wotpokazajće prošu. Jeli sej wěsty njejsće, wužiwajće tłóčatko Přeskočić.
 varying-pronunciations-example = Ruta běše njejasna.
+varying-pronunciations-tip-1 = [W kanadiskej jendźelšćinje móhło „route“ kaž „rowt“ klinčeć]
+varying-pronunciations-tip-2 = [W britiskej jendźelšćinje móhło „route“ kaž „root“ klinčeć]
 offensive-content-explanation = Sady so přez moderaciski proces zhromadźenstwa přepruwuja, ale tutón proces perfektny njeje. Jeli sadu widźiće abo słyšiće, kotrež was křiwdźi abo hněwa – na přikład, dokelž so přećiwo našim <participationGuidelines>wobdźělenskim směrnicam zhromadźenstwa</participationGuidelines> přeńdźe – wužiwajće prošu tłóčatko Zdźělić we wužiwarskim powjerchu. Móžeće so tež z nami přez <emailFragment>commonvoice@mozilla.com</emailFragment> do zwiska stajić.
 misreadings-explanation-1 = Je wažnje, zo so wšě słowa na stronje prawje čitaja. Přepruwujće při słuchanju jara starosćiwje, zo natočene je tež napisane; wotpokazajće, jeli su přidate, skontrahowane abo wuwostajene słowa.
 misreadings-explanation-2 = Jara časte zmylki su:
@@ -32,6 +44,9 @@ misreadings-tip-2 = [‘a’ w originalnym teksće njeje]
 misreadings-tip-3 = [Wobsah njewotpowěduje]
 background-noise-explanation = Dyrbiće kóžde słowo natočenja słyšeć móc. Chcemy, zo algoritmy mašinelneho wuknjenja móža z wjele wšelakorymi pozadkowymi šumami wobchadźeć a samo relatiwnje hłósne šumy abo ćicha pozadkowa hudźba dadźa so akceptować, pod wuměnjenjom, zo tomu njezadźěwaja, zo so cyły tekst słyši. Knyskotanje abo přetorhnjenja, kotrež tomu zadźěwaja, zo tekst słyšiće, rěka, zo wy měł klip wotpokazać.
 background-noise-example-1 = Hoberske dinosawriery triasa.
+background-noise-example-2 = [Třichanje] Hoberske dinosawriery [kašel] triasa.
+background-noise-example-3 = Hoberski dinosawrier [kašel] triasa.
+background-noise-example-4 = [Knakać] hoberske dinosawriery [knakać] -riasa.
 background-noise-tip-1 = [přez pozadkowy šum přetorhnjeny]
 background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
 background-voices-explanation = Ćichi pozadkowy šum je w porjadku, ale jeli móžeće słyšeć, zo druha wosoba druhe słowa rěči, měł so klip wotpokazać. Zwjetša to so tam stawa, hdźež telewizor je zapinjeny abo hdźež je rozmołwa w bliskosći.
@@ -42,11 +57,17 @@ reader-effects-explanation = Najwjace nahraćow je wot ludźi, kotřiž ze swoji
 just-unsure-explanation = Jeli na něšto storčiće, zo tutym směrnicam njewotpowěduje, hłosujće prošu po swojim najlěpšim posudku. Jeli woprawdźe njemóžeće so rozsudźić, wužiwajće tłóčatko Přeskočić a pokročujće z přichodnym nahraćom.
 still-have-questions = Maće hišće prašenja?
 contact-common-voice = Stajće z teamom Common Voice do zwiska
+
+## Sentence collection nav ids
+
 public-domain = Zjawnje wužiwajomny
 citing-sentences = Sady citować
 adding-sentences = Sady přidać
 reviewing-sentences = Sady přepruwować
 sentence-domain = Tema sady
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Je jara wažnje, zo wšě tekstowe sady su <publicDomain>zjawnje přistupne</publicDomain> (<cc0>cc0</cc0>), dokelž datowa sadźba Common Voice so pod licencu cc0 wozjewja. Nahrajće jenož sadu, jeli sće sej wěsty, a přidajće přeco relewantny citat.
 public-domain-explanation-2 = Najlěpše sady za wužitny program rěčenskeho spóznaća su wobchadnorěčne, moderne rěčne wužiwanje. Někotre ideje, kotrež wam pomhaja, sady generować, su;
 public-domain-explanation-3 = Wutworće moderne, wobchadnorěčne sady sam abo ze swojimi přećelemi abo z rěčnym zhromadźenstwom – na přikład přez „write-a-thon“
@@ -86,3 +107,124 @@ reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje
 reviewing-sentences-explanation-3 = Jeli při sadźe wěsty njejsće, móžeće ju přeskočić a z přichodnej pokročować.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
 domain-explanation = Tema so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
+
+## Question collection ids
+
+adding-questions = Prašenja přidać
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Što dobre prašenje twori?
+what-makes-a-good-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
+what-makes-a-good-question-explanation-criteria-1 = lochko rozumić być a na so wotmołwić dać
+what-makes-a-good-question-explanation-criteria-2 = powšitkownje relewantne być
+what-makes-a-good-question-explanation-criteria-3 = křiwdźacu abo njepřistojnu rěč njewužiwać
+what-makes-a-good-question-tip = Móžeće tež rozwažować, rozdźělne konteksty a domeny zapřijeć.
+easy-to-understand = Lochko rozumić
+easy-to-understand-explanation = Wubjerće jednore prašenja, kotrež móže kóždy lochko rozumić, njedźiwajo na kulturu abo kontekst.
+spelling-and-pronunciation = Prawopis a interpunkcija
+spelling-and-pronunciation-explanation = Wužiwajće korektny prawopis a korektnu gramatiku.
+length = Dołhosć
+length-explanation = Na prašenje měło so w jenož mało sadach wotmołwić dać.
+dont-add-subheader = Njepřidać
+culturally-specific-questions = Za kulturu specifiske prašenja
+culturally-specific-questions-explanation = Prašenja, kotrež su jara specifiske za kulturu abo wjele tukanjow wo wotmołwjacym wobsahuja
+length-avoid-explanation = Prašenja, z kotrymiž něchtó by měł prócu, na nje za 15 sekundow wotmołwić (maksimalna dołhosć klipa)
+process-steps = Proces / Kroki
+process-steps-explanation = Prašenja, za kotrež něchtó dyrbi wjacore kroki nalistować.  Hdyž so kroki nalistuja, so wužiwar namołwja, wotmołwu zaso podać, město toho, zo by so přirodnišu wotmołwu dał.
+offensive-content-sensitive-information = Njepřistojny wobsah abo sensibelne informacije
+offensive-content-sensitive-information-explanation-explanation-1 = Prašenja, kotrež sej informacije wo wosobinskej identiće wuprošuja
+offensive-content-sensitive-information-explanation-explanation-2 = Prašenja, kotrež sej móhli rěčenja hidy abo druhe stroniske abo njepřistojne začuća wuprošować
+offensive-content-sensitive-information-explanation-explanation-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne, potencielnje wuwołowace wotmołwy dźělić
+example-questions-subheader = Přikładowe prašenja
+example-questions-explanation-1 = Móžeće <examplePromptsLink>120 přikładowych prašenjow w tutej tabeli namakać.</examplePromptsLink>
+example-questions-explanation-2 = Jeli chceće rjad prašenjow za zapřijeće zapodać, <githubLink>móžeće to přez GitHub činić</githubLink> abo swoju lisćinu z e-mejlu na <emailFragment>commonvoice@mozilla.com</emailFragment> słać.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Wotmołwće na prašenja
+answer-questions-subheader = Powšitkowne pokazki
+# Transcribe the Audio
+transcribe-the-audio = Awdijo transkribować
+transcribe-the-audio-subheader-1 = Powšitkowne pokazki
+transcribe-the-audio-subheader-2 = Ličby a akronymy
+transcribe-the-audio-subheader-3 = Wosebite znački
+transcribe-the-audio-subheader-4 = Słowne segmenty, wopačne spočatki, wospjetowane słowa
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawje</correct>: Je sto kilometrow wottud zdalene.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Wopak</wrong>: Je 100 kilometrow wottud zdalene
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Prawje</correct>: Widźimy so w lěće <underline>dwaj tysac pjatnaće</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Widźimy so w <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Prawje</correct>: Běše dwaceći procentow rabata
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Běše 20 % rabata
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Prawje</correct>: Buchu wot <underline>BKA</underline> zańdźeny štwórtk zajeći
+transcribe-the-audio-subheader-2-example-4-wrong = <correct>Wopak</correct>: Buchu wot <underline>be-ka-a</underline> zańdźeny štwórtk zajeći
+tags-table-header-1 = Značka
+tags-table-header-2 = Woznam
+tags-laugh = Smjeće
+tags-disfluency = Njeběžnosć
+tags-unclear = Njejasny
+tags-noise = Šum
+tags-laugh-explanation = Zynk smjeća.
+tags-unclear-explanation = Słowo abo słowna skupina, kotrejž njehodźitej so rozumić.
+
+## Review the Transcription
+
+review-the-transcription = Přepruwujće transkripciju
+review-the-transcription-subheader = Powšitkowne pokazki
+
+## Code-Switching
+
+code-switching = Přepinanje koda
+adding-a-question = Prašenje přidać
+# Adding a Question
+code-switching-adding-question-subheader = Što dobre prašenje twori?
+code-switching-adding-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
+code-switching-adding-question-criteria-1 = lochko rozumić być a na so wotmołwić dać
+code-switching-adding-question-criteria-2 = Powšitkownje relewantne być
+code-switching-adding-question-criteria-3 = Křiwdźacu abo njepřistojnu rěč njewužiwać
+code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne konteksty a domeny zapřijeć.
+# What types of questions to add
+code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
+code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
+code-switching-use-bilingual-prompts-explanation = Wužiwajće dwurěčne namołwy, kotrež wobě rěči we wašim prašenju wopřijimaja: Přikład:
+code-switching-avoid-intro = Prašenja, kotrež:
+code-switching-dont-header = Špatne
+code-switching-dont-1 = Njewužiwajće přeformalnu rěč
+# Reviewing a Question
+code-switching-review-subheader = Prašenje přepruwować
+code-switching-review-criterion-1 = lochko rozumić być a na so wotmołwić dać
+code-switching-review-criterion-2 = powšitkownje relewantne być
+code-switching-review-criterion-3 = křiwdźacu abo njepřistojnu rěč njewužiwać
+code-switching-review-does-not-header = A <bold>NJE</bold>wobsahuje:
+code-switching-review-offensive-content = <bold>Njepřistojny wobsah abo sensibelne informacije</bold>
+code-switching-answer-header = Njepřistojny wobsah abo sensibelne informacije
+code-switching-review-no-1 = Prašenja, kotrež sej informacije wo wosobinskej identiće wuprošuja
+code-switching-review-no-2 = Prašenja, kotrež sej móhli rěčenja hidy abo druhe stroniske abo njepřistojne začuća wuprošować
+code-switching-review-no-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne, potencielnje wuwołowace wotmołwy dźělić
+# Answering a Question
+code-switching-answer-subheader = Na prašenje wotmołwić
+# Transcribing
+code-switching-transcribe-subheader = Transkribować
+# Use standard spelling for each language
+code-switching-spelling-header = Standardny prawopis za kóždu rěč wužiwać
+code-switching-tagging-error-2 = Pisanske zmylki
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
+code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
+code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
+code-switching-not-tag-interjections-example-1 = „Eh“
+code-switching-not-tag-interjections-example-2 = „Ně“
+code-switching-not-tag-interjections-example-3 = „Haj“
+code-switching-not-tag-interjections-example-4 = „Hm“
+
+## Reporting Content
+
+reporting-content = Wobsah zdźělić
+reporting-content-subheader = Powšitkowne pokazki

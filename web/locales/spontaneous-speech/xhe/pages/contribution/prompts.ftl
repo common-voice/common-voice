@@ -4,7 +4,6 @@ record-player-header = آپݨاں جواب بھر
 mic-access-error = تو آپݨے مائیکروفونیک ضرور اجازت ݙے۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon>ٻِیا جیلا تھی سڳدا ہِے قدرتی جواب ݙے
-no-prompts-message = ہِے ٻولی واسطے انڄیاں کا بھی پرامپٹس نہ تھئین۔ مہربانی کر صفحیک وَتا تازہ کر یا وَتا بعد آ کوشش کر۔
 error-skipping = ہِے پرامپٹ چھوڑݨ تے وخت ہِک غلطی اَچ ڳئی ہِے
 error-recording = رکارڈنگ تے وخت ہِک غلطی اَچ ڳئی ہِے
 error-fetching-prompts = پرامپٹس آنݨ تے وخت کُجھ غلط تھی ڳیا ہِے۔ مہربانی کر وتا بعد آ کوشش کر۔

@@ -67,7 +67,6 @@ hsb = Goi-sorabiera
 ht = Haitiko kreolera
 hu = Hungariera
 hy-AM = Armeniera
-hyw = Armeniera (mendebaldekoa)
 ia = Interlingua
 id = Indonesiera
 ie = Interlingua

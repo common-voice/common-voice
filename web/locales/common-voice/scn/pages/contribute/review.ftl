@@ -18,7 +18,7 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = A
-sc-review-form-keyboard-usage-custom = Poi usari macari l'accurzi dâ tastiera: { sc-review-form-button-approve-shortcut } pi Appruvari, { sc-review-form-button-reject-shortcut } pi Rifiutari, { sc-review-form-button-skip-shortcut } pi Sautari
+sc-review-form-keyboard-usage-custom = Poi usari macari l’accurzi dâ tastiera: { sc-review-form-button-approve-shortcut } pi Appruvari, { sc-review-form-button-reject-shortcut } pi Rifiutari, { sc-review-form-button-skip-shortcut } pi Sautari
 sc-review-form-button-submit =
     .submitText = Accabba a Validazzioni
 # Variables:
@@ -37,9 +37,9 @@ sc-review-link = Vàlida
 sc-criteria-modal = ⓘ Règuli di Validazzioni
 sc-criteria-title = Règuli di validazzioni
 sc-criteria-make-sure = Cuntrolla chi a frasi sicuta sti règuli:
-sc-criteria-item-1 = A frasi àv'a èssiri scritta bona.
-sc-criteria-item-2 = A frasi àv'a èssiri curretta nnâ grammàtica.
-sc-criteria-item-3 = A frasi àv'a èssiri liggìbbili.
+sc-criteria-item-1 = A frasi àv’a èssiri scritta bona.
+sc-criteria-item-2 = A frasi àv’a èssiri curretta nnâ grammàtica.
+sc-criteria-item-3 = A frasi àv’a èssiri liggìbbili.
 sc-criteria-item-4 = Si a frasi sicuta sti règuli, ammacca u buttuni &quot;Appruva&quot; a dritta.
 sc-criteria-item-5-2 = Si a frasi nun sicuta sti règuli, ammacca u buttuni &quot;Rifiuta&quot; a manca. Si nun sì sicuru ncapu a sta frasi, poi macari sautalla e jiri a chiḍḍa appressu.
 sc-criteria-item-6 = Si finisti i frasi di validari, ajùtani a ricògghiri novi frasi!
@@ -49,8 +49,8 @@ sc-review-rules-title = Sta frasi sicuta i dirittivi?
 sc-review-empty-state = Accamora nun cci sunnu frasi di validari nna sta lingua.
 report-sc-different-language = Lingua diversa
 report-sc-different-language-detail = È scritta nta na lingua diversa di chiḍḍa chi staju validannu.
-sentences-fetch-error = Mmattìu n'erruri ricupirannu i frasi
-review-error-rate-limit-exceeded = Staju jennu troppu assai lestu. Pìgghiati n'anticchia cchiù assai di tempu pi virificari chi a frasi è bona.
+sentences-fetch-error = Mmattìu n’erruri ricupirannu i frasi
+review-error-rate-limit-exceeded = Staju jennu troppu assai lestu. Pìgghiati n’anticchia cchiù assai di tempu pi virificari chi a frasi è bona.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Stamu facennu canci mpurtanti
 # menu item

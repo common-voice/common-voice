@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ipeele pakane
 cant-decide = Ga o kgone go kgetha?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } pego ka letšatši.
-                               *[other] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } dipego ka letšatši.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } pego ka letšatši.
-                               *[other] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } dipego ka letšatši.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } pego ka letšatši.
-                               *[other] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } dipego ka letšatši.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } pego ka letšatši.
-                               *[other] { $totalHours } iri e ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } dipego ka letšatši.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } pego ka letšatši.
-                               *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } dipego ka letšatši.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } pego ka letšatši.
-                               *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } kgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } dipego ka letšatši.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } pego ka letšatši.
-                               *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } motho o rekhota { $clipsPerDay } dipego ka letšatši.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } pego ka letšatši.
-                               *[other] { $totalHours } diiri di ya fihlelelwa ka godimo ga { $periodMonths } dikgwedi ge e ba { $people } batho o rekhota { $clipsPerDay } dipego ka letšatši.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Go ka botse! Ke di pego tše kae ka letšatši?
 how-many-a-week = Seo se a kgahiša! Ke ditsopolwa tše kae ka beke?
 which-goal-type = O nyaka go bolela, go Theeletša goba ka bobedi?

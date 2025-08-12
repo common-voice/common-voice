@@ -4,8 +4,6 @@
 error = Faddina
 action-click = Incarca
 action-tap = Toca
-# Label for button on contribution switcher
-change = Modifica
 coming-soon = Àteras limbas luego
 audioplayer-header = Ascurta
 guidelines = Ghias
@@ -15,9 +13,6 @@ report-button = Sinnala
 skip-button = Brinca
 submit-button = Imbia
 contribute = Contribui
-
-## Navbar
-
 
 ## Not Found Page
 

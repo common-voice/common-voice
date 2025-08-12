@@ -11,9 +11,3 @@ listen-abort-cancel = 繼續驗證
 listen-abort-confirm = 完成驗證
 # Menu item
 validate-readings = 驗證朗讀錄音
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

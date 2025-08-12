@@ -69,36 +69,3 @@ username-email-not-demographic = Nyingi mitiyogo donjie chenroni kod barupi mar 
 
 welcome-staff = Ruako jotij { $company }
 read-more-about = Som weche mamoko e migapwa
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

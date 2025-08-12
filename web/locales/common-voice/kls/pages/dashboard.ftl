@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Nishan, Goal sawzai
 cant-decide = Faisala ne ari?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-    }
 how-many-per-day = Bo prus't! kimon clib, (video che'lak) har adua?
 how-many-a-week = Bo prus't! kimon clips (video che'lak) ek haftan
 which-goal-type = Tu mon dek, ya o ko'n' karik khojis day e, yao awdu?

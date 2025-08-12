@@ -75,34 +75,34 @@ read-more-about = Meer info op onze pagina Over
 
 ## NAV ITEMS
 
-answer-questions = Vragen beantwoorden <small>(binnenkort)</small>
-answer-questions-coming-soon = Vragen beantwoorden <small>(binnenkort)</small>
-review-transcriptions = Transcripties beoordelen <small>(binnenkort)</small>
-review-transcriptions-coming-soon = Transcripties beoordelen <small>(binnenkort)</small>
-add-questions = Vragen toevoegen <small>(binnenkort)</small>
-add-questions-coming-soon = Vragen toevoegen <small>(binnenkort)</small>
-transcribe-audio-coming-soon = Audio transcriberen <small>(binnenkort)</small>
-transcribe-audio = Audio transcriberen <small>(binnenkort)</small>
+answer-questions = Vragen beantwoorden
+review-transcriptions = Transcripties beoordelen
+add-questions = Vragen toevoegen
+review-questions = Vragen beoordelen
+transcribe-audio = Audio transcriberen
 press-and-stories = Pers en verhalen
 community-and-languages = Gemeenschap en talen
 coming-soon = Binnenkort beschikbaar
+about-us = Over ons
+scripted-speech = GESCRIPTE SPRAAK
+spontaneous-speech = SPONTANE SPRAAK
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerschappen, Pers en verhalen, Gemeenschap en talen
+about-us-menu-item-tooltip = Lees meer over de missie en het team achter Common Voice
 partnerships-menu-item-tooltip = Partner worden
 press-and-stories-menu-item-tooltip = Bezoek onze blog of schrijf over ons
 community-and-languages-menu-item-tooltip = Talen en gemeenschappen en Common Voice ontdekken
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Optiesmenu Over
+about-menu-aria-label = Menu voor toegang tot Partnerschappen, Pers en verhalen, Gemeenschap en Talen
+about-us-menu-aria-label = Optiesmenu Over
+about-us-menu-item-aria-label = Optiesmenu Over ons
 partnerships-menu-item-aria-label = Meer over partnerschappen met Common Voice
 press-and-stories-menu-item-aria-label = Persberichten en verhalen met betrekking tot Common Voice benaderen
 community-and-languages-menu-item-aria-label = De door Common Voice ondersteunde gemeenschap en talen verkennen
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,7 +123,9 @@ spontaneous-card-header = Spontane spraak
 spontaneous-card-content = Beantwoord vragen om gegevenssets te maken voor organische, informele contexten. Perfect voor orale talen.
 language-text-card-header = Taaltekst
 language-text-card-content = Maak of deel vragen, zinnen en tekst in het publieke domein voor vertaling, kleine taalmodellen en meer.
+coming-soon = Binnenkort beschikbaar
 add-text = Tekst toevoegen
+answer = Beantwoorden
 
 ## Community section
 

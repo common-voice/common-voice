@@ -175,6 +175,7 @@ const Review: React.FC<Props> = ({ getString }) => {
                   index={index}
                   activeSentenceIndex={activeSentenceIndex}
                   variantTag={submission.variantTag}
+                  variantName={submission.variantName}
                 />
               ))}
             </div>

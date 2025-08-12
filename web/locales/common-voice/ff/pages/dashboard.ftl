@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Taƴ faandaare
 cant-decide = A horiima fellitde?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] waktu { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soneɗɗo { $people }nanngitiimalefel { $clipsPerDay }ñalawma
-                               *[other] waktu { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soneɗɗo { $people }nanngitiimalefon { $clipsPerDay }ñalawma
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] waktu { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soyimɓe { $people }nanngitiimalefel { $clipsPerDay }ñalawma
-                               *[other] waktu { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] waktu { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soneɗɗo { $people }nanngitiimalefel { $clipsPerDay }ñalawma
-                               *[other] waktu { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soneɗɗo { $people }nanngitiimalefon { $clipsPerDay }ñalawma
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] waktu { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefel { $clipsPerDay }ñalawma
-                               *[other] waktu { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] waktuuji { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soneɗɗo { $people }nanngitiimalefel { $clipsPerDay }ñalawma
-                               *[other] waktuuji { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soneɗɗo { $people }nanngitiimalefon { $clipsPerDay }ñalawma
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] waktuuji { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soyimɓe { $people }nanngitiimalefel { $clipsPerDay }ñalawma
-                               *[other] waktuuji { $totalHours }ena waawi timmude e ko seɓilewru { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soneɗɗo { $people }nanngitiimalefel { $clipsPerDay }ñalawma
-                               *[other] waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soneɗɗo { $people }nanngitiimalefon { $clipsPerDay }ñalawma
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefel { $clipsPerDay }ñalawma
-                               *[other] waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
-                            }
-                    }
-            }
-    }
 how-many-per-day = Eyyoo! No foti lefon ñalawma?
 how-many-a-week = Eyyoo! No foti lefon yontere?
 which-goal-type = Aɗa yiɗi haalde, heɗaade walla ɗiɗi fof?

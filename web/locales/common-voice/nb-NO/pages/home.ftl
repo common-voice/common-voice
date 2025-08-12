@@ -80,32 +80,33 @@ read-more-about = Les mer på vår "Om" side
 ## NAV ITEMS
 
 answer-questions = Besvar spørsmålene
-answer-questions-coming-soon = Besvar spørsmål <small>(kommer snart)</small>
 review-transcriptions = Gjennomgå transkripsjoner
-review-transcriptions-coming-soon = Gjennomgå transkripsjoner <small>(kommer snart)</small>
 add-questions = Legg til spørsmål <small>(kommer snart)</small>
-transcribe-audio-coming-soon = Transkriber lyd <small>(kommer snart)</small>
+review-questions = Gjennomgå spørsmål
 transcribe-audio = Transkribere lyd
 press-and-stories = Presse
 community-and-languages = Fellesskap og språk
 coming-soon = Kommer snart…
+about-us = Om oss
+scripted-speech = FORBEREDT TALE
+spontaneous-speech = SPONTAN TALE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerskap, presse, fellesskap og språk
+about-us-menu-item-tooltip = Les mer om oppdraget og teamet bak Common Voice
 partnerships-menu-item-tooltip = Bli partner med oss
 press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
 community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Om alternativmeny
+about-menu-aria-label = Meny for å få tilgang til partnerskap, presse og historier, fellesskap og språk
+about-us-menu-aria-label = Om alternativmeny
+about-us-menu-item-aria-label = Om oss-alternativmeny
 partnerships-menu-item-aria-label = Lær om partnerskap med Common Voice
 press-and-stories-menu-item-aria-label = Få tilgang til pressemeldinger og historier relatert til Common Voice
 community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språkene som støttes av Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -126,7 +127,9 @@ spontaneous-card-header = Spontan tale
 spontaneous-card-content = Svar på spørsmål for å lage datasett om organiske, dagligdagse kontekster. Perfekt for muntlig førstespråk.
 language-text-card-header = Tekstspråk
 language-text-card-content = Opprett eller del forespørsler, setninger og tekst i det offentlige domene for oversettelse, små språkmodeller og mer.
+coming-soon = Kommer snart…
 add-text = Legg til tekst
+answer = Svar
 
 ## Community section
 

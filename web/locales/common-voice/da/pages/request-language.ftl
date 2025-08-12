@@ -34,3 +34,4 @@ request-language-success-list-3 =
 request-language-error =
     Vi har muligvis ikke modtaget den anmodning. Send en mail til os
     på <emailLink>{ $email }</emailLink>, så vender vi tilbage til dig!
+request-for-spontaneous-speech-toggle = Anmodning om spontan tale

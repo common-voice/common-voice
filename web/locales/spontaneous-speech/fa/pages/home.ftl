@@ -11,3 +11,4 @@ why-card-2-text = پشتیبانی بهتر از واقعیت‌های زبان�
 how-spontaneous-speech-works = چگونه گفتار خودجوش کار می‌کند
 contact-us-email = رایانامه: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = آیا در گروه آزمایش بتا پروژه گفتار خودجوش آوای مشترک ما عضو هستید؟
+signup-input-placeholder = رایانامه خود را وارد کنید

@@ -4,7 +4,8 @@ record-player-header = 录下您的回答
 mic-access-error = 您需要允许访问麦克风。
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> 并尽量自然地回答
-no-prompts-message = 此语言暂无引导语，请刷新页面或稍后再试。
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = 此语言当前已没有其他问题。您可以回顾曾跳过的问题；也可先去转录音频，以后再回来看看。
 error-skipping = 跳过此引导语时出错
 error-recording = 录音时出错
 error-fetching-prompts = 获取引导语时出了点问题，请稍后再试。

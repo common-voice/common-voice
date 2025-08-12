@@ -69,7 +69,7 @@ read-sentences-coming-soon = Lezi de frase <small>(disponibile fito)</small>
 
 speak-contribute-menu-tooltip = Lezi e frase, respondi a-e domande
 read-sentences-menu-item-tooltip = Registrite tanto che lezi de frase inta teu lengua
-answer-questions-menu-item-tooltip = Regitrite tanto che ti replichi à de domande inta teu lengua
+answer-questions-menu-item-tooltip = Registrite tanto che ti replichi à de domande inta teu lengua
 
 ## MENU ITEM ARIA LABELS
 

@@ -30,9 +30,35 @@ add-sentence-success = 1 fràsia regorta
 add-sentence-error = Faddina in s'agiunta de sa fràsia
 required-field = Cumpila custu campu.
 single-sentence-submission = Imbiu de una fràsia isceti
+single-sentence = Fràsia ùnica
+sentence-domain-combobox-label = Domìniu de sa fràsia
+sentence-domain-select-placeholder = Sèbera finas a tres domìnios (optzionale)
+# Sentence Domain dropdown option
+general = Generale
+# Sentence Domain dropdown option
+healthcare = Salude
+# Sentence Domain dropdown option
+history_law_government = Istòria, deretu e guvernu
+sentence-variant-select-label = Variedade de sa fràsia
+sentence-variant-select-placeholder = Sèbera una variedade (optzionale)
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Càrriga <icon></icon> fràsias de domìniu pùblicu
+try-upload-again = Torra·nche a proare trisinende s’archìviu inoghe
+try-upload-again-md = Torra a proare sa càrriga
+select-file = Seletziona un’archìviu
+select-file-mobile = Seletziona s’archìviu de carrigare
+accepted-files = Tipos de archìvios atzetados: isceti .tsv
+minimum-sentences = Mìnimu de fràsias de s’archìviu: 1000
+maximum-file-size = Mannària màssima de s’archìviu: 25 MB
+what-needs-to-be-in-file = Ite nche depet èssere, in s’archìviu?
+upload-progress-text = Càrriga in cursu...
+sc-bulk-submit-confirm = Cunfirmo chi custas fràsias sunt in <wikipediaLink>domìniu pùblicu</wikipediaLink> e chi tèngio permissu pro ddas carrigare.
+bulk-upload-failed-toast = Càrriga faddida. Torra·nche a proare.
+upload-more-btn-text = Boles carrigare àteras fràsias?
+file-invalid-type = Archìviu non vàlidu
 file-too-large = S’archìviu est tropu mannu
 file-too-small = S’archìviu est tropu piticu
 too-many-files = Tropu archìvios

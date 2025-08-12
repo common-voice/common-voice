@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = I ka kuntilenna dɔ sigi sen kan
 cant-decide = Se tɛ ka ko latigɛ wa?
-activity-needed-calculation-plural =
-    { $totalHours ->
-       *[other]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                       *[other]
-                            { $clipsPerDay ->
-                               *[other] { $totalHours } lɛrɛ bɛ se ka sɔrɔ a tɛmɛnen dɔrɔn kɔnɔ { "" } { "" } { "" }
-                            }
-                    }
-            }
-    }
 how-many-per-day = Belebele! Klip joli bɛ kɛ tile kɔnɔ?
 how-many-a-week = Belebele! Klip joli bɛ kɛ tile kɔnɔ?
 which-goal-type = Yala i b’a fɛ ka Kuma, Lamɛnni walima u fila bɛɛ wa?

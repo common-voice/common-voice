@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> newishi se mich kianmaw haw ya o kis mon del dai
 editbox-header = Newishi
 editbox-placeholder = Newishi se moch kia maw haw
-no-audio-message = Filahal, shaya zuban una o kia ne newishi shiau. Meharbani kai page fresh kari ya o geri khushush kari
 create-transcript-success = Newishil'a sahi hawaw
 create-transcript-error = Report jama karik vew galti hawaw
 error-playing-audio = Audio file shathik wew galati hawaw.

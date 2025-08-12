@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = Zbiory danych
 datasets-headline = Tworzymy wielojęzyczny zbiór danych mowy open source, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
 datasets-positioning =
     Uważamy, że duże, publicznie dostępne zbiory danych głosowych będą promować innowacje i zdrową konkurencję w dziedzinie technologii mowy opartej na uczeniu maszynowym.
@@ -8,16 +9,20 @@ datasets-positioning =
     
     Ta strona może służyć jako centrum informacji o innych zbiorach danych mowy open source oraz, wraz z rozwojem Common Voice, miejsce na nasze nowe wydania.
 language = Język
+download-dataset-header = Pobierz zbiór danych
+download-dataset-tag = Wybierz żądany zbiór danych językowych i wybierz wersję, którą chcesz pobrać.
 # File size in gigabytes
 size = Rozmiar
 validated-hr-total = Razem sprawdzonych godzin
 overall-hr-total = Razem godzin
 cv-license = Licencja
 audio-format = Format dźwięku
+dataset-splits = Podziały (wiek i płeć)
 number-of-voices = Liczba głosów
 splits = Podziały
 email-to-download = Wpisz adres e-mail, aby pobrać
 why-email = <b>Dlaczego adres e-mail?</b> Być może będziemy musieli skontaktować się z Tobą w przyszłości w sprawie zmian w zbiorze danych.
+why-donate-datasets-page = Mozilla Common Voice to najbardziej zróżnicowany na świecie zbiór danych o otwartej mowie, pozyskiwany w ramach crowdsourcingu – a nasza działalność jest w całości finansowana z darowizn. Roczny koszt utrzymania zbiorów danych i ulepszania platformy dla ponad 100 społeczności językowych, które polegają na naszej działalności, wynosi prawie milion dolarów. Jeśli cenisz otwarte, inkluzywne dane – <b>wesprzyj nas już dziś!</b>
 confirm-size = Pobranie <b>{ $size }</b> jest gotowe do rozpoczęcia
 size-gigabyte = GB
 size-megabyte = MB
@@ -54,6 +59,10 @@ more = Więcej
 close = Zamknij
 download = Pobierz
 dataset-version = Wersja
+dataset-metadata-sex = Płeć
+# dataset metadata - age of contributor
+dataset-metadata-age = Wiek
+donate-modal-message = Trwa pobieranie zestawu danych!
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
 data-download-singleword-callout-v2 = To segment przeznaczony do konkretnego użytku, zawierający dane wspomagające rozpoznawanie wymawianych cyfr i wykrywanie tak/nie.
 data-download-button = Pobierz dane Common Voice

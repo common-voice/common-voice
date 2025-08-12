@@ -25,6 +25,3 @@ demo-account-sign-up = ናይ ሕሳብ ፍትሓት link ላኣኾ
 demo-contribute-card-header = ክርንኩም ግል ትወስኮ ኣው ኣዘንኩም ግል ታህቡና ጃህዛም ህለኹም?
 demo-contribute-card-body-v2 = ኣዘ ናይ ሕበር ክርን ሚቱ ኣመርኩም ፣ ኣፎ ኢትጀሩባ? ዓላመት ማክረፎን እንደ ጨቀጥኩም እብ ክርን ውቁል ጁምለት ቅሮኣ  <br/><br/> ናይ ፀርኩም ናይ ክርን ተበሩዓት ታሓቅቆ ምን ታሓዙ፣ ናይ play ዓላመት ጭቃጦ። ላ ተስጂል ከማ ክታበት ከም ጋኣ እግታኣኸዶ ቱ ።
 demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
-
-## Demo Dashboard
-

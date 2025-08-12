@@ -73,6 +73,6 @@ answer-questions-menu-item-tooltip = Spela in dig själv när du svarar på frå
 
 ## MENU ITEM ARIA LABELS
 
-speak-contribute-menu-aria-label = Alternativmeny för tal
+speak-contribute-menu-aria-label = Alternativmeny — Tal
 read-sentences-menu-item-aria-label = Läs meningar som skickats in av communityn på olika språk
 answer-questions-menu-item-aria-label = Skicka in en ny fråga som gemenskapen kan läsa och svara på

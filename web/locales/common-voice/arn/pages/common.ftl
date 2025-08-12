@@ -21,9 +21,3 @@ sv-SE = Suesiazugun
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

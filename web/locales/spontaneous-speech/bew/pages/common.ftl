@@ -7,8 +7,6 @@ action-tap = Tab baru
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Ngikut kontribusi buat dataset dari  { $language }
-# Label for button on contribution switcher
-change = Ubé
 coming-soon = Lebih banyak bahasé nyang bakalan hadir/adé
 media-recorder-api-not-supported = Browser Ente ga ngedukung MediaRecorder API
 # Toast message that is displayed when an item is skipped

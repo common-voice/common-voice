@@ -12,7 +12,7 @@ how-does-it-work-text = ჩვენ ვქმნით ხმის ჩან�
 about-language-req-subtitle = ვიღაც ითხოვს ენის დამატებას.
 about-localization-title = საიტის თარგმნა
 about-localization-subtitle = ვებსაიტზე ტექსტი ითარგმნება ამ ენაზე.
-about-sentence-collection-title = წინადადებების შეგროვება
+about-sentence-collection-title = წინადადების შეგროვება
 about-sentence-collection-subtitle = წინადადებები გროვდება ამოსაკითხად.
 about-new-lang-title = ახალი ენის გაშვება
 about-new-lang-subtitle = Common Voice საიტი გაეშვება ამ ენაზე.
@@ -22,23 +22,23 @@ about-voice-validation-title = ჩანაწერის დამოწმე
 about-voice-validation-subtitle = სხვები ამოწმებენ ამ ჩანაწერებს.
 about-dataset-release-title = კრებულის გამოცემა
 about-dataset-release-subtitle = კრებული გამოდის სამ თვეში ერთხელ.
-about-subscribe-text = გსურთ, არ ჩამორჩეთ Common Voice-ის სიახლეებს?
+about-subscribe-text = გსურთ, მუდმივად გეცნობოთ, თუ რა სიახლეებითაა Common Voice?
 about-speak = წარმოთქმა
-about-speak-text = მოხალისეები აკეთებენ ხმოვან ჩანაწერებს, შემოწირულობით შეგროვებული წინადადებების წაკითხვით.
+about-speak-text = მოხალისეები ქმნიან ხმოვან ჩანაწერებს, შემოწირული წინადადებების წაკითხვით.
 about-listen-queue = მოსასმენი რიგი
-about-listen-queue-text = ხმოვანი ჩანაწერები, რომლებიც წარდგენილია მოსასმენად და შესაფასებლად.
+about-listen-queue-text = ხმოვანი ჩანაწერები გადადის წარსადგენ რიგში და მზადდება მოსასმენად.
 about-listen = მოსმენა
 about-listen-text = მომხმარებლები ამოწმებენ შემოწირული ჩანაწერების სიზუსტეს, აფასებენ, სწორად არის თუ არა წარმოთქმული წინადადება.
 about-is-it-valid = არის ჩანაწერი მართებული?
 about-is-it-valid-text = ხმოვანი ჩანაწერი „მართებულად“ მოინიშნება, თუ მომხმარებელი დადებითად შეაფასებს.
 about-yes-votes = ≥ 2 დადებითი შეფასება
-about-yes-votes-text = იმისათვის, რომ Common Voice-ის მონაცემთა კრებულში დაემატოს, ხმის ჩანაწერი უნდა დამოწმდეს ორი სხვადასხვა მომხმარებლის მიერ.
+about-yes-votes-text = იმ შემთხვევაში დაიმატებს Common Voice მონაცემთა კრებულში, თუ ხმის ჩანაწერი დამოწმდება ორი სხვადასხვა მომხმარებლის მიერ.
 about-no-votes = ≥ 2 უარყოფითი შეფასება
 about-no-votes-text = როდესაც მომხმარებელი უარყოფს ხმოვან ჩანაწერს, იგი დაუბრუნდება რიგს. თუ მეორედაც უარყოფენ, ხმის ჩანაწერი გადავა ჩანაწერების სასაფლაოზე.
-about-dataset-new = Common Voice-ის მონაცემთა ბაზა
-about-dataset-new-text = Common Voice-ის მონაცემთა კრებული შეიცავს ასეულ ათასობით ხმის ნიმუშს, რომლებიც გამოადგება შემმუშავებლებს, ხმის ამომცნობი საშუალებების შექმნაში.
+about-dataset-new = Common Voice – კრებული
+about-dataset-new-text = Common Voice მონაცემთა კრებულში აგროვებს ასეულ ათასობით ხმის ნიმუშს, რომლებიც წაადგებათ შემმუშავებლებს ხმის ამომცნობი საშუალებების შექმნაში.
 about-clip-graveyard = ჩანაწერების სასაფლაო
-about-clip-graveyard-text = ჩანაწერების სასაფლაო შედგება იმ ხმოვანი ჩანაწერებისგან, რომლებიც არაა წარმოდგენილი Common Voice-ის მონაცემთა კრებულში. ჩანაწერების სასაფლაო, აგრეთვე ხელმისაწვდომია ჩამოსატვირთად, მსგავსად მონაცემთა კრებულისა.
+about-clip-graveyard-text = ჩანაწერების სასაფლაო შედგება იმ ხმოვანი ჩანაწერებისგან, რომლებსაც არ შეიტანს Common Voice მონაცემთა კრებულში. ჩანაწერების სასაფლაო აგრეთვე ხელმისაწვდომია ჩამოსატვირთად, მსგავსად მონაცემთა კრებულისა.
 about-get-involved = ჩაერთეთ
 about-get-involved-text-2 =
     გსურთ დაგვეხმაროთ, რომ Common Voice მეტად გაუმჯობესდეს?
@@ -47,10 +47,10 @@ about-get-involved-text-2 =
     <matrixLink>Matrix-ზე</matrixLink> საერთო მიმოწერაში.
 about-stay-in-touch = როგორ დავრჩე კავშირზე?
 about-stay-in-touch-button = ანგარიშის შექმნა
-about-stay-in-touch-text-1 = <emailFragment>გაწევრიანდით</emailFragment> ჩვენი ელფოსტის ჯგუფში და გაეცანით, როგორ შეგიძლიათ მიიღოთ მონაწილეობა კამპანიებში, ღონისძიებებსა და ახალი შესაძლებლობების დანერგვაში Common Voice-ისთვის.
+about-stay-in-touch-text-1 = <emailFragment>გაწევრიანდით</emailFragment> ჩვენი ელფოსტის ჯგუფში და გაეცანით, როგორ შეგიძლიათ მიიღოთ მონაწილეობა კამპანიებში, ღონისძიებებსა და ახალი შესაძლებლობების დანერგვაში, რომ განვავითაროთ Common Voice.
 about-stay-in-touch-text-2 = სხვადასხვა ენებიდან Mozilla-ს წარმომადგენლებთან შესახვედრად და ცალკეულ საკითხზე მსჯელობისთვის გამოგადგებათ <discourseLink>Discourse</discourseLink>, ხოლო სწრაფი რჩევების მისაღებად შემოუერთდით <matrixLink>Matrix-ს</matrixLink>.
-about-nav-why-common-voice = რატომ?
-about-nav-how-it-works = როგორ?
+about-nav-why-common-voice = რატომ ?
+about-nav-how-it-works = როგორ ?
 about-nav-partners = თანამშრომლობა
 about-nav-get-involved = შემოგვიერთდით
 about-nav-how-it-works-2 = როგორ მუშაობს Common Voice?
@@ -59,7 +59,7 @@ about-nav-playbook = როგორ უნდა მიიღოთ მონ�
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = რას გულისხმობს „ენა“ Common Voice-ში?
+about-playbook-what-is-language = როგორ განსაზღვრავს „ენას“ Common Voice?
 about-playbook-what-is-language-content-1 = მრავალი კუთხით შეიძლება განვიხილოთ ენა. ხმის ამომცნობი სისტემებისთვის კი Common Voice გთავაზობთ „ურთიერთგაგების“ გათვალისწინებას, ანუ „ამ ენაზე მოლაპარაკენი უნდა ახერხებდნენ აზრის გამოტანას ერთმანეთის საუბრიდან“.
 about-playbook-what-is-language-content-2 = გვსურს, რომ ხმის მოდელებს უკეთ შეეძლოს სხვადასხვა ადამიანის გაგება. ამისთვის კრებული უნდა შედგებოდეს მრავალი განსხვავებული ხმის ჩანაწერისგან.
 about-playbook-what-is-language-content-3 = ზოგ ენას შეიძლება გააჩნდეს უამრავი სახესხვაობა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ გადავწყვიტეთ, <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
@@ -72,9 +72,9 @@ about-playbook-how-add-language-translating-heading = საიტის თა�
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     თარგმნისთვის ჩვენ ვიყენებთ Mozilla-ს ხელსაწყოს სახელწოდებით <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ ვერ იპოვით თქვენსას, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ მისი დამატება</pontoonRequestLink>.
-    შემდეგ Common Voice-ის პროექტში თქვენი ენის დასამატებლად
+    შემდეგ, Common Voice თქვენი ენისთვისაც რომ ამუშავდეს,
     <githubRepoLink>მოგვმართეთ GitHub-ზე</githubRepoLink>. <localizationFragment>ვრცლად საიტის თარგმნის შესახებ</localizationFragment>.
-about-playbook-how-add-language-collecting-sentences-heading = წინადადებების შეგროვება
+about-playbook-how-add-language-collecting-sentences-heading = წინადადების შეგროვება
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ წინადადებების შემგროვებელი</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     აქედან შეგიძლიათ <sentenceCollectorLinkAdd>მცირე ოდენობის წინადადებების დამატება</sentenceCollectorLinkAdd>,
@@ -85,7 +85,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = როგორ უნდა ითარგმნოს საიტი?
-about-playbook-how-localize-content-1 = Common Voice-საიტის თარგმნისთვის გამოიყენება <strong>Pontoon</strong>.
+about-playbook-how-localize-content-1 = Common Voice რომ ითარგმნოს, ამისთვის გამოიყენება <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>შექმენით ანგარიში</pontoonAccountLink>, თუ ჯერ არ გაქვთ. შემდეგ აირჩიეთ თქვენი ენა <strong>(„Team“)</strong> და პროექტი <pontoonCvLink>Common Voice</pontoonCvLink>. იქ დაგხვდებათ გადასათარგმნი ფაილები. დაწკაპეთ ერთ-ერთს და გამოჩნდება ინგლისური ტექსტი, ქვემოთ კი ველი, სადაც ჩაწერთ თარგმანს.
 about-playbook-how-localize-content-3 = თარგმნა ინგლისურიდანაა შესაძლებელი, თუმცა იქვე ხელმისაწვდომია <strong>შემოთავაზებები</strong> სხვა ენებიდანაც. დაწკაპეთ <strong>Profile</strong> ხატულაზე, შემდეგ <strong>Settings</strong> ბმულზე და დაამატეთ სასურველი ენები. ქვედა მარჯვენა კუთხეში იხილავთ ენებიდან შემოთავაზებებს, რომელთაც აწერია <strong>Locales</strong>. თარგმანი საიტზე აისახება ერთ დღეში.
 about-playbook-how-localize-content-4 = საიტი მზად იქნება გასაშვებად, როცა თარგმნილი იქნება 75%.
@@ -95,13 +95,13 @@ about-playbook-how-localize-content-5 = იხილეთ ვიდეო უ�
 
 about-playbook-how-add-sentences = როგორ დავამატო წინადადებები?
 about-playbook-how-add-sentences-content-1 = <strong>წინადადებების შემგროვებელი</strong> არის ხელსაწყო, საყოველთაო საკუთრებაში არსებული წინადადებების დასამატებლად და შესამოწმებლად. დაგჭირდებათ <scAccountLink>ანგარიშის შექმნა</scAccountLink>. შემდეგ მიუთითეთ თქვენი ენა <strong>პროფილიდან</strong>. შესაძლებელია წინადადებების <strong>დამატება</strong> ან უკვე დამატებულების <strong>შემოწმება</strong>.
-about-playbook-how-add-sentences-content-2 = წინადადებები უნდა შეამოწმოს და მიიღოს ორმა ადამიანმა, რომ Common Voice-ში მოხვდეს. სახელმძღვანელო წესები თქვენი ენისთვის შეგიძლიათ შექმნათ <languageGuidelinesLink>აქედან</languageGuidelinesLink>. წინადადებები უნდა იყოს <licenseLink>საყოველთაო საკუთრებაში</licenseLink> და შედგებოდეს არაუმეტეს 15 სიტყვისგან. შეგიძლიათ სხვადასხვა ავტორს სთხოვოთ, შემოგვწიროს საკუთარი ნაწარმოები <waiverLink>CC0-ლიცენზიით საკუთრების უფლების დათმობის ხარჯზე</waiverLink> და გვაცნობოს commonvoice@mozilla.com მისამართზე.
+about-playbook-how-add-sentences-content-2 = წინადადებები უნდა შეამოწმოს და მიიღოს ორმა ადამიანმა, ამ შემთხვევაში დაიმატებს Common Voice. სახელმძღვანელო წესები თქვენი ენისთვის შეგიძლიათ შექმნათ <languageGuidelinesLink>აქედან</languageGuidelinesLink>. წინადადებები უნდა იყოს <licenseLink>საყოველთაო საკუთრებაში</licenseLink> და შედგებოდეს არაუმეტეს 15 სიტყვისგან. შეგიძლიათ სხვადასხვა ავტორს სთხოვოთ, შემოგვწიროს საკუთარი ნაწარმოები <waiverLink>CC0-ლიცენზიით საკუთრების უფლების დათმობის ხარჯზე</waiverLink> და გვაცნობოს commonvoice@mozilla.com მისამართზე.
 about-playbook-how-add-sentences-content-3 = გარდა ამისა, შეგიძლიათ გამოიყენოთ <scraperLink>წინადადებების ამომკრეფი</scraperLink> ხელსაწყოც მოკლე წინადადებების თავისუფალი ლიცენზიით მოსაპოვებლად ვიკიპედიიდან.
 
 ## How to record quality
 
 about-playbook-how-record-quality = როგორ იქმნება სათანადო ხარისხის ჩანაწერი?
-about-playbook-how-record-content-1 = ილაპარაკეთ ბუნებრივად! თქვენი განსხვავებული საუბრის მანერა მეტად მისასალმებელია აქ – გვსურს, ხელუხლებლად მოგვაწოდოთ თქვენი აქცენტი, ხმის სიმაღლე და მეტყველების თავისებურება.
+about-playbook-how-record-content-1 = ილაპარაკეთ ბუნებრივად! თქვენი მეტყველების თავისებურება მეტად მისასალმებელია აქ – გვსურს, ხელუხლებლად მოგვაწოდოთ თქვენი აქცენტი, კილო თუ ხმის სიმაღლე.
 about-playbook-how-record-content-2 = აირიდეთ ზედმეტი ხმაური ფონზე – თქვენი ხმა გასაგები უნდა იყოს.
 about-playbook-how-record-content-3 = წაიკითხეთ წინადადება ყურადღებით – არ გამოგრჩეთ, არ შეცვალოთ და არ დაამატოთ სიტყვები ან ასოები.
 about-playbook-how-record-content-4 = დარწმუნდით, რომ თქვენი მოწყობილობა იწერს ხმას საუბრის დაწყებამდე და მხოლოდ დასრულების შემდეგ წყვეტს.
@@ -123,7 +123,7 @@ about-playbook-how-grow-language-content-8 = <strong>მიუდექით �
 
 about-playbook-how-validate = როგორ გავიგო, მისაღებია თუ არა ხმოვანი ჩანაწერი?
 about-playbook-how-validate-content-1 = თუ <strong>გესმით მკაფიოდ</strong> და <strong>იგებთ შინაარსს</strong>, უმეტესად <strong>მისაღებია</strong>.
-about-playbook-how-validate-content-2 = <strong>არ უარყოთ ჩანაწერები, თუ მოსაუბრეს თქვენგან განსხვავებული „აქცენტი აქვს“</strong> – ეს მეტად მნიშვნელოვანია ხმის ამომცნობისთვის, რომ ყველას გაგება შეეძლოს.
+about-playbook-how-validate-content-2 = <strong>არ უარყოთ ჩანაწერები, თუ მოსაუბრეს თქვენგან განსხვავებული „კილო აქვს“</strong> – ეს მეტად მნიშვნელოვანია ხმის ამომცნობისთვის, რომ ყველას გაგება შეეძლოს.
 about-playbook-how-validate-content-3 = თუ მიგაჩნიათ, რომ გამოთქმის თავისუბერება <strong>შეუძლებელს ხდის აზრის გამოტანას</strong> ან <strong>მაღალი ხმაურია ფონზე</strong>, ანდაც <strong>სხვა ვინმეც ლაპარაკობს</strong>, მაშინ უნდა უარყოთ ჩანაწერი. <accuracyLink>იხილეთ ვრცლად წვლილის სწორად შეტანის შესახებ</accuracyLink>.
 about-playbook-how-validate-content-4 = თუ ჩანაწერს უარყოფს 2 ადამიანი, გამოქვეყნებისას განთავსებული იქნება მონაცემთა კრებულის ცალკე ქვეჯგუფში.
 
@@ -146,7 +146,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>იხილ�
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = როგორ ფინანსდება Common Voice-ი?
+about-playbook-how-funded = როგორ ფინანსდება Common Voice?
 about-playbook-how-funded-content-1 = Common Voice არის Mozilla-ფონდის პროექტი, US 501c3. იგი ამჟამად სრულად ფინანსდება <philanropicGrantLink>საქველმოქმედო მიზნებისთვის გამოყოფილი სახსრებით</philanropicGrantLink>, აგრეთვე, რიგითი ხალხის შემწეობით მთელი მსოფლიოდან.
 about-playbook-how-funded-content-2 = დიდ სახსრებს საჭიროებს მონაცემთა კრებულების მუდმივად განთავსება და გამოშვება, მომსახურების დროდადრო გაუმჯობესება და <africaMradiLink>ერთობის პროგრამების განხორციელება</africaMradiLink>.
 about-playbook-how-funded-content-3 = თუ თქვენ ან თქვენს დაწესებულებას სურს პროექტში მონაწილეობა, შეგიძლიათ გაიღოთ <donateLink>შემოწირულობა</donateLink> ან დაუკავშირდეთ საქმიან საკითხებზე მომუშავე გუნდს მისამართზე <emailFragment>commonvoice@mozilla.com</emailFragment>.

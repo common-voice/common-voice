@@ -9,17 +9,34 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ၶလိပ်ႉ
        *[other] <bold>{ $count }</bold> ၶလိပ်ႉ
     }
-goal-help-recording = သူလႆႈၸွႆႈႁႂ်ႈ Common Voice ႁွတ်ႈၽႅဝ် <goalPercentage></goalPercentage> ၶွင်ယိူင်းမၢႆၵၢၼ်ဢတ်းသဵင် { $goalValue } ၵူႈဝၼ်းၶွင်ႁဝ်း!
-goal-help-validation = သူလႆႈၸွႆႈႁႂ်ႈ Common Voice ႁွတ်ႈၽႅဝ် <goalPercentage></goalPercentage> ၶွင်ယိူင်းမၢႆၵၢၼ်ၵူတ်ႇထတ်း { $goalValue } ၵူႈဝၼ်းၶွင်ႁဝ်း!
+goal-help-recording = သူၸဝ်ႈလႆႈၸွႆႈႁႂ်ႈ Common Voice ႁွတ်ႈၽႅဝ် <goalPercentage></goalPercentage> ၶွင်ယိူင်းမၢႆၵၢၼ်ဢတ်းသဵင် { $goalValue } ၵူႈဝၼ်းၶွင်ႁဝ်း!
+goal-help-validation = သူၸဝ်ႈလႆႈၸွႆႈႁႂ်ႈ Common Voice ႁွတ်ႈၽႅဝ် <goalPercentage></goalPercentage> ၶွင်ယိူင်းမၢႆၵၢၼ်ၵူတ်ႇထတ်း { $goalValue } ၵူႈဝၼ်းၶွင်ႁဝ်း!
 contribute-more =
     { $count ->
         [one] ၽွမ်ႉတႃႇတေႁဵတ်းထႅင်ႈ { $count } ယဝ်ႉႁႃႉ?
        *[other] ၽွမ်ႉတႃႇတေႁဵတ်းထႅင်ႈ { $count } ယဝ်ႉႁႃႉ?
     }
-speak-empty-state = ႁဝ်းၶႃႈဢမ်ႇမီးတူၼ်းထႅဝ်လိၵ်ႈတႃႇတေဢတ်းသဵင်ၼႂ်းၽႃႇသႃႇၼႆႉယဝ်ႉ...
+speak-empty-state = ႁဝ်းၶႃႈဢမ်ႇမီးတူၼ်ႈထႅဝ်လိၵ်ႈတႃႇတေဢတ်းသဵင်ၼႂ်းၽႃႇသႃႇၼႆႉယဝ်ႉ...
+target-segment-add-voice = ထႅမ်သႂ်ႇသဵင်သူၸဝ်ႈ
+target-segment-learn-more = လဵပ်ႈႁဵတ်းထႅင်ႈ
+vote-yes = ၸႂ်ႈ
+vote-no = ဢမ်ႇ
+datasets = ၸုမ်ႇၶေႃႈမုၼ်း
+languages = ၽႃႇသႃႇ
+about = ၵဵဝ်ႇလူၺ်ႈ
+partner = ၽူႈႁူမ်ႈၽၢၵ်ႈ
+submit-form-action = သူင်ႇ
 
 ## Reporting
 
+report-offensive-language = ၽႃႇသႃႇဢၼ်ဢမ်ႇၵိုင်ႇလႅပ်ႈ
+report-different-language = တၢင်ႇၽႃႇသႃႇ
+report-different-language-detail = တႅမ်ႇဝႆႉပဵၼ်တၢင်ႇၽႃႇသႃႇ ဢၼ်ဢမ်ႇၸႂ်ႈၽႃႇသႃႇဢၼ်ၵဝ်ၶႃႈလၢတ်ႈ။
+report-difficult-pronounce = လၢတ်ႈသဵင်ဢွၵ်ႇယၢပ်ႇ
+report-offensive-speech = ၵႂၢမ်းလၢတ်ႈဢမ်ႇၵိုင်ႇလႅပ်ႈ
+report-other-comment =
+    .placeholder = ၶေႃႈႁၼ်ထိုင်
+continue = သိုပ်ႇထႅင်ႈ
 
 ## Speak & Listen Shortcuts
 
@@ -56,3 +73,13 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-for-example = ပိူင်တႅၵ်ႈ
+contribution-misreadings-title = လူဢၢၼ်ႇၽိတ်း
+contribution-misreadings-description-extended-list-2 = တူၵ်းႁၢႆ <strong>'s'</strong> တီႈၽၢႆႇလင်ၶေႃႈၵႂၢမ်း (တွၼ်ႈတႃႇၽႃႇသႃႇဢိင်းၵလဵတ်ႈ)
+contribution-misreadings-example-7-title = ႁဝ်းတိုၵ်ႉတေဢွၵ်ႇၵႃႇသိုဝ်ႉၵေႃႇၾီႇ
+contribution-background-noise-example-2-explanation = [ၶေႃႈၵႂၢမ်းမၢင်တွၼ်ႈဢမ်ႇလႆႈယိၼ်း]
+contribution-background-voices-example-1-explanation = ၸွင်ႇတေမႃးၸွမ်း? <strong>[သဵင်ထႅင်ႈၵေႃႉၼိုင်ႈ]</strong>
+contribution-volume-title = ၸၼ်ႉသဵင်
+contribution-just-unsure-title = ဢမ်ႇမၼ်ႈၸႂ်ၸွင်ႇၸႂ်ႈ?
+see-more = <chevron></chevron>တူၺ်းၼမ်ထႅင်ႈ
+see-less = <chevron></chevron>တူၺ်းယွမ်းလူင်း

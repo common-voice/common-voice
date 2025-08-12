@@ -11,7 +11,10 @@ import {
   Language,
   Datasets,
 } from 'common'
-import lazyCache from '../lazy-cache'
+import lazyCache, {
+  redisSetAddWithExpiry,
+  redisSetMembers,
+} from '../lazy-cache'
 import { option as O, task as T, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { DatasetStatistics } from '../../core/datasets/types/dataset'
@@ -19,14 +22,15 @@ import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
 } from '../../application/repository/variant-repository'
-const MINUTE = 1000 * 60
-const DAY = MINUTE * 60 * 24
+import { TimeUnits } from 'common'
+
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500
 
-const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000
+// We select this much extra because some might be removed later
+const EXTRA_COUNT = 5
 
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
@@ -44,6 +48,10 @@ const participantConditions = {
                 OR (visible = 1)
                 OR (visible = 2 AND teams.id = ${teammate_subquery})
               )`,
+}
+
+const redisKeyPerUserSentenceIdSet = (client_id: string) => {
+  return `recorded-sentences-by-${client_id}`
 }
 
 export const getParticipantSubquery = (
@@ -85,7 +93,8 @@ const getLanguageMap = lazyCache(
       {}
     )
   },
-  DAY
+  TimeUnits.DAY,
+  3 * TimeUnits.MINUTE
 )
 
 export async function getLocaleId(locale: string): Promise<number> {
@@ -307,7 +316,7 @@ export default class DB {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
         locale_id,
-        count,
+        count + EXTRA_COUNT,
         prioritySegments
       )
     }
@@ -316,13 +325,19 @@ export default class DB {
       taxonomySentences.length >= count
         ? []
         : await this.findSentencesWithFewClips(
-            client_id,
-            locale_id,
-            count - taxonomySentences.length,
-            exemptFromSSRL
-          )
+          client_id,
+          locale_id,
+          count + EXTRA_COUNT - taxonomySentences.length,
+          exemptFromSSRL
+        )
 
-    const totalSentences = taxonomySentences.concat(regularSentences)
+    // exclude recently recorded sentences by the user (from Redis cache) to overcome race conditions
+    const redisSet = await redisSetMembers(
+      redisKeyPerUserSentenceIdSet(client_id)
+    )
+    const totalSentences = (taxonomySentences.concat(regularSentences) || [])
+      .filter((s: Sentence) => !redisSet.includes(s.id))
+      .slice(0, count)
 
     return this.appendMetadataToSentence(totalSentences)
   }
@@ -473,11 +488,11 @@ export default class DB {
       taxonomySentences.length >= count
         ? []
         : await this.findClipsWithFewVotes(
-            client_id,
-            locale_id,
-            count - taxonomySentences.length,
-            exemptFromSSRL
-          )
+          client_id,
+          locale_id,
+          count - taxonomySentences.length,
+          exemptFromSSRL
+        )
 
     return taxonomySentences.concat(regularSentences)
   }
@@ -494,7 +509,8 @@ export default class DB {
       async () => {
         return await this.getClipsToBeValidated(locale_id, 10000)
       },
-      MINUTE
+      TimeUnits.MINUTE,
+      3 * TimeUnits.MINUTE
     )()
 
     //filter out users own clips
@@ -779,6 +795,13 @@ export default class DB {
     sentence: string
     duration: number
   }): Promise<void> {
+    // save in Redis regardless of mysql results - they can come back 1 hour later in case of failure
+    await redisSetAddWithExpiry(
+      redisKeyPerUserSentenceIdSet(client_id),
+      original_sentence_id,
+      TimeUnits.HOUR
+    )
+    // Do the insert/updates
     try {
       const [{ insertId }] = await this.mysql.query(
         `
@@ -889,8 +912,7 @@ export default class DB {
             `
               SELECT COUNT(*) AS total, ${to} AS date
               FROM clips
-              WHERE created_at BETWEEN ${from} AND ${to} ${
-              locale ? 'AND locale_id = ?' : ''
+              WHERE created_at BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''
             }
             `,
             [localeId]
@@ -963,8 +985,8 @@ export default class DB {
           FROM (
             SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
             FROM (${hours
-              .map(i => `SELECT ${i} AS hour`)
-              .join(' UNION ')}) hours
+        .map(i => `SELECT ${i} AS hour`)
+        .join(' UNION ')}) hours
           ) date_alias
           LEFT JOIN (
             SELECT created_at
@@ -1456,7 +1478,7 @@ export default class DB {
     if (row) {
       // row.start_date_utc is utc time (timezone offset is 0);
       const startDateUtc = new Date(`${row.start_date_utc}Z`)
-      challengeEnded = Date.now() > startDateUtc.valueOf() + THREE_WEEKS
+      challengeEnded = Date.now() > startDateUtc.valueOf() + 3 * TimeUnits.WEEK
     }
     return challengeEnded
   }

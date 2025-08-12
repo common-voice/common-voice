@@ -84,34 +84,33 @@ read-more-about = Lenn hiroc’h war ar bajenn A-zivout
 
 ## NAV ITEMS
 
-answer-questions = Respont da c'houlennoù <small>(a-raok pell)</small>
-answer-questions-coming-soon = Respont da c'houlennoù <small>(a-raok pell)</small>
+answer-questions = Respont da c'houlennoù
 review-transcriptions = Adwelet treuzskrivadurioù <small>(a-raok pell)</small>
-review-transcriptions-coming-soon = Adwelet treuzskrivadurioù <small>(a-raok pell)</small>
 add-questions = Ouzhpennañ goulennoù <small>(a-raok pell)</small>
-add-questions-coming-soon = Ouzhpennañ goulennoù <small>(a-raok pell)</small>
-transcribe-audio-coming-soon = Treuzskrivañ enrolladennoù <small>(a-raok pell)</small>
+review-questions = Gwiriañ ar goulennoù
 transcribe-audio = Treuzskrivañ enrolladennoù <small>(a-raok pell)</small>
 press-and-stories = Kazetennoù ha pennadoù
 community-and-languages = Kumuniezhioù ha yezhoù
 coming-soon = Dizale
+about-us = Diwar hor penn
+scripted-speech = KOMZOÙ LENNET
+spontaneous-speech = KOMZ NATUREL
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Kevelerioù, kazetennoù hag istorioù, kumuniezhioù ha yezhoù
+about-us-menu-item-tooltip = Gouzout hiroc'h diwar-benn kefridi ha skipailh Common Voice
 partnerships-menu-item-tooltip = Bezañ keveler deomp
 press-and-stories-menu-item-tooltip = Kit da welet hor blog pe skrivit diwar hor penn
 community-and-languages-menu-item-tooltip = Dizoloit ar yezhoù, ar c'humuniezhioù ha Common voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Dibarzhioù al lañser A-zivout
+about-us-menu-aria-label = Dibarzhioù al lañser "A-zivout"
+about-us-menu-item-aria-label = Dibarzhioù al lañser "A-zivout"
 partnerships-menu-item-aria-label = Gouzout hiroc'h diwar-benn ar c'heveliñ war Common voice
 press-and-stories-menu-item-aria-label = Gwelet an embannoù kelaouiñ liammet ouzh Common voice
 community-and-languages-menu-item-aria-label = Dizoloit an holl yezhoù ha kumuniezhioù skoret gant Common voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -132,7 +131,9 @@ spontaneous-card-header = Komz naturel
 spontaneous-card-content = Respont d'ar goulennoù evit krouiñ strobadoù roadennoù gant kendestennoù implij pemdeziek pe laosk. Eus ar c'hentañ evit ar yezhoù hep hengoun lennegel.
 language-text-card-header = Testennoù en ho yezh
 language-text-card-content = Krouiñ pe rannañ kemennadennoù, frazennoù ha testennoù en domani foran, prest da vezañ troet, evit sevel patromoù evit yezhoù bihan pe muioc'h
+coming-soon = Dizale
 add-text = Ouzhpennañ un destenn
+answer = Respont
 
 ## Community section
 

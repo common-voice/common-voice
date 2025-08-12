@@ -87,12 +87,3 @@ file-invalid-type = Ywɛ' mcuŋ cwəpuŋ
 file-too-large = Ywɛ' mcuŋ yəŋgaə́ yɔm tɛ'
 file-too-small = Ywɛ' mcuŋ yəŋgaə́ kɔk tɛ'
 too-many-files = Mywɛ' mcuŋ yɔm gá'bʉ
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -11,12 +11,3 @@ sentence-variant-select-multiple-variants = Ziwano bingeyên / tayê fekê ci
 file-too-large = Dosya zêde girs a
 file-too-small = Dosya zêde qijkek a
 too-many-files = Zêde dosyeyî
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

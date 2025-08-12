@@ -4,7 +4,7 @@ import { lazyQueryDb, queryDb } from '../../infrastructure/db/mysql'
 import { pipe } from 'fp-ts/lib/function'
 import { createDatabaseError } from '../helper/error-helper'
 import { Locale, TextDirection } from '../../core/types/locale'
-import { DAY } from '../../infrastructure/redis/redis'
+import { TimeUnits } from 'common'
 
 export type FindLocaleByName = (
   localeName: string
@@ -37,7 +37,7 @@ export const toLocale = (row: LocaleRow): O.Option<Locale> =>
 export const findLocaleByNameInDb: FindLocaleByName = (localeName: string) =>
   pipe(
     [localeName],
-    lazyQueryDb(`find-locale-by-name-${localeName}`)(DAY)(
+    lazyQueryDb(`find-locale-by-name-${localeName}`)(TimeUnits.DAY)(
       ` SELECT
           id,
           name,

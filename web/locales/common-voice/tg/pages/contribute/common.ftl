@@ -99,6 +99,7 @@ shortcut-vote-no = n
 contribution-criteria-nav = Меъёрҳо
 contribution-criteria-link = Фаҳмидани меъёрҳои саҳми овоз
 contribution-criteria-page-title = Меъёрҳои саҳми овоз
+contribution-criteria-page-description = Фаҳмед, ки ҳангоми гӯш кардани порчаҳои овозӣ ба чӣ чизҳо бояд таваҷҷӯҳ кард ва ба сабтҳои овозии худ низ мазмуну равшанӣ бештар бахшед!
 contribution-for-example = масалан
 contribution-misreadings-title = Хониши нодуруст
 contribution-misreadings-description = Ҳангоми гӯш кардан, бодиққат тафтиш намоед, ки сабт комилан бо матн мувофиқат мекунад; ҳатто агар хатоҳои ночиз вуҷуд дошта бошанд, онро рад намоед.  <br/> Хатоҳои хеле маъмул иборатанд аз:

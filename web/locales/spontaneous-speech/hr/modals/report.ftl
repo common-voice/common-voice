@@ -6,6 +6,9 @@ offensive_speech = Uvredljiv sadržaj
 offensive_speech-detail = Sadržaj je nepristojan ili uvredljiv.
 different_language = Drugačiji jezik
 different_language-detail = Sadržaj sadrži jezik koji je drugačiji od očekivanog.
+personally_identifiable_information = Osobni podaci
+personally_identifiable_information-detail = Ovaj sadržaj sadrži osobne podatke povezane s identitetom pojedinca, kao što su ime, e-mail adresa, mjesto, identifikacijski broj ili broj telefona.
+personally_identifiable_information-answer-detail = Ovaj sadržaj traži osobne podatke povezane s identitetom pojedinca, kao što su ime, e-mail adresa, mjesto, identifikacijski broj ili broj telefona.
 report-other-comment =
     .placeholder = Komentar
 # Label for textarea in report modal

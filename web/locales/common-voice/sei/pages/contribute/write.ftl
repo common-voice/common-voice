@@ -143,9 +143,3 @@ small-batch-sentences-rule-3 = Icaaitom hant coii coi líneaj quih impahaa, salt
 small-batch-sentences-rule-4 = Icaaitom hant coii quih 1.000 ano miiquim iisax siipe aha
 small-batch-sentences-rule-5 = Icaaitom hant coii coi pocooo hant ano yaii hac pti ismis oo caha
 small-batch-sentences-rule-6 = Icaaitom hant coii coi pocooo ipacta siizoj oo caha
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

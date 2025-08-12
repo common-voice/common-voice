@@ -36,9 +36,3 @@ review-delete-recordings = मेरो रेकर्डिङहरु मे
 review-terms = Common Voice गर्दा तपाईंले हाम्रो <termsLink>सर्तहरू</termsLink>  र <privacyLink>गोपनीयता सूचना</privacyLink> मा सहमत हुनुहुनेछ
 terms-agree = म सहमत छु
 terms-disagree = म सहमत छैन
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

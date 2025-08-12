@@ -3,6 +3,10 @@ guidelines-header = ته پېش کؤ هدایات
 guidelines-header-subtitle = ته پېش کؤ آ زدکړه او که ته جمله توثیق يې سو څا کېوی او آډیو کلِپ سو څا مشترک آواز کی څا ڒیڅېوی
 voice-collection = آوزی جمع کؤ
 sentence-collection = ته جملي ا جمع کؤ
+question-collection = ته سولَّی ا جمع کؤ
+
+## Voice Collection nav ids
+
 varying-pronunciations = مختلف ادائګي (ته الفاظ)
 misreadings = غلط هِشتک
 offensive-content = ته غصه ا مواد
@@ -12,6 +16,9 @@ volume = ته ژغ ا چِګ ا ټُوټ
 reader-effects = ته هِشتَکَوُونئ ا اثر
 just-unsure = یقینم بُو نک سَۀ
 example = مثل
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ماخ بُو مختلف لهجي کی پخېر سرئ غؤݭيېن۔۔ ته پۀ بنیاد په بنا که تُو غؤس که ته سۀ کلِپ ته غوېڅن واله ته سړئ ا لهجه يې غلط هۀ یا وه سه لفظ نر ا زور غلط ځاک زر دوک هۀ، یا وې ته اوقاف صحیح استعمال نک دوک هۀ، ا کلِپ رد کېوی ته پۀ سو زُت احتیاط سېتی۔ دنیا نردی بو ته پروناؤنسيېشن بېشمار قسمی استعمالوَک سېن که پئ نردی سو سا ګۀ بېن که ترتو کمیونېټی نر نک امرک سېن۔ مهرباني کوئ که ته پئ پاره ا زلی ستری کوئ کوک که تیوس لاسته مختلف ژغېن
 varying-pronunciations-explanation-2 = ته پۀ برخلاف که ترتُو يې او خیال بَۀ که ا سۀ ته غوېڅن واله او لفظ لواړه ديېک یا اميېک نک هۀ او ته سۀ پروناؤنسيېشن بارۀ نر بُو او محض اندازي لګوی، تُو و بُو رد اېنچی۔ او که یقینت نک بَۀ، ته سکِپ ا بټن ځن
 varying-pronunciations-example = ا رایٛ صفا نک بُک
@@ -47,11 +54,17 @@ reader-effects-explanation = ا ݫات ریکارډنګ يې بو ته فۀ خل
 just-unsure-explanation = که پئ هدایات نر يې سا شئ بَۀ که وه نک ویزر رس، بيې ا خوئ بهترین اندازۀ لګېون۔ خه که بيې وه ګه پویٛ نک سُن، بيې اسکِپ بټن ځن او مخکی ل تر سُن
 still-have-questions = بيې دی ګۀ سؤلی یِن؟
 contact-common-voice = ته مشترک آواز ټیم ګیرډ يې رابطۀ کېون
+
+## Sentence collection nav ids
+
 public-domain = پبلک ډومېن
 citing-sentences = ته جملي ته حوالۀ ا ڒیوک
 adding-sentences = ته جملي ا ګډؤ
 reviewing-sentences = بيې جیرؤ ته جملي
 sentence-domain = ته جملۀ ا ډومېن
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = آ يې ضروري هۀ که اره جملي ته پبلک ډومېن بېن </publicDomain> (<cc0>cc0</cc0>) کيې که ته مشترک آواز ا ډېټا بو ته  cc0 لائسنس ځېمه ړنګوَک سَۀ۔ جکه افئ جملي اپ لوډ کَوَک سون که ائ يې حواله دَرِن۔
 public-domain-explanation-2 = ته بهترین سپیچ پزنؤ مشین ته جوړؤ مشین پاره يې آ ضروري هۀ که ا جمله ته خلق بول چال نر رواج بَۀ۔ ته سا جملي ته جوړؤ پاره بو ائ ځېم اصولی سِر کر کَوِن
 public-domain-explanation-3 = جدید، ته عام بول چال جملۀ يې خوئ جوړ کَۀ یا ته یِمبئ یا ته زبان ته کمیونېټی په مدد سره، ته مثال په طور تهرو ”ته سټائل په لیک”
@@ -93,3 +106,35 @@ reviewing-sentences-explanation-2 = که  ا جمله ترماخ ائ بېژ ب�
 reviewing-sentences-explanation-3 = که ته جمله باره نر پُرۀ مطمئن نک بی تُو وه بو سکِپ ګه اېنچی او مخکی چیو او ا بيې بیان کی
 reviewing-sentences-explanation-4 = که تُو لاسته ته نظرثاني پناره ا جملي ختُم سېن، بيې دی بيے جملي جمع کَۀ۔
 domain-explanation = ا ډومېن ته جمله بُو ته جملۀ ا مضمون بیانَوي۔ ایزیره يې بُو تُو پئ لاسته ا ݭيې خوش کَۀ
+
+## Question collection ids
+
+adding-questions = ته سولَّی ګډؤ
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = ا سِر سوال يې بُفو څا جوړېک سَۀ
+what-makes-a-good-question-explanation = ته عام خلق ته شمولیت واله ډېټاسېټ پاره يې ا سِر سوال سا پکر هۀ
+what-makes-a-good-question-explanation-criteria-1 = سوال زر ته پوهیؤ او ته ځواب ته ڒیوڅن پاره يې ا څاک سینۀ پکر هۀ
+what-makes-a-good-question-explanation-criteria-2 = غمومأ ته موضوع په مطابق چیو
+what-makes-a-good-question-explanation-criteria-3 = ضررناک او غصه ناک زبان يې مه خوئ استعمالېون او نۀ ته بیکوک ته سال زبان ته استعمال حمایت کېوَن
+what-makes-a-good-question-tip = تُو سُو آ ګه زېئی که ته مختلف حوالي او کری احاطۀ يې کېوی
+easy-to-understand = ته پوهیه پاره اسن
+easy-to-understand-explanation = افۀ سوال خؤش کَۀ ته هرکوکه وه په اسانه پویٛ اؤسېن ته حواله او ته کلتور ته لحاظ بغېر
+spelling-and-pronunciation = املا او اوقاف
+spelling-and-pronunciation-explanation = صحیح املا او ګرامر يې استعمالېون
+length = دراغوالئ
+length-explanation = ا سوال يې صرف ݭيې یا دیو جملۀ نر پکر هۀ
+dont-add-subheader = خوئ ال يې مک ګډېون
+culturally-specific-questions = کلتور ګیرډ خاص سولَّی
+culturally-specific-questions-explanation = ا فئ سولَّی که کلتور ګیرډ خاص بېن یا ته ځواب ته ڒیوڅن واله باره نره وه دی مفروضي وینر بېن
+length-avoid-explanation = ته سولَّی ا ځواب يې ݫات لاسته ݫات ته پنځېس سیکِنډ کلِپ تر پکر هۀ
+process-steps = طریقۀ/قـدمی
+process-steps-explanation = سولَّی که ا څېن دی څُون مرحلي زَیِن۔ ته مرحلي ا لسټ کؤ بُو ته استعمال واله پۀ کی مجبور کَوِی که فئ يي سولی زر ال ترېک سَۀ، په ځاکه ته پۀ که فدرتي ځواب ال يې ڒوی
+offensive-content-sensitive-information = غصۀ ڒُوکَوُونکئ مواد یا حساس معلومات
+offensive-content-sensitive-information-explanation-explanation-1 = ا فئ سولَّی که ترکوک بارۀ نر دی ذاتي معلومات دُشی
+offensive-content-sensitive-information-explanation-explanation-2 = سا سولَّی که ته نفرت ژغېدا دی زَئۍ یا وې تعصب بَۀ وینر یا دی غصه نچی جدبات ظهرَوِی
+offensive-content-sensitive-information-explanation-explanation-3 = سا سولَّی که ته حساس معلومات شامؤ زرت مجبُورَوی
+example-questions-subheader = نمونۀ ته سولَّی
+example-questions-explanation-1 = پۀ شیټ نر دی بُو میثلَّی ديېک اېنچی
+example-questions-explanation-2 = که تو زېئی که تو ل دی ګۀ ائ سا سولَّی ګډېوی، نو تُو بوګۀ سا اېنچی ترماخ ته GitHub په ذریعۀ یا بُو ماخ کی ا لیسټ ای مېل اېنچی

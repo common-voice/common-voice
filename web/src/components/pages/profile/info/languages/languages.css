@@ -54,17 +54,21 @@
         width: 100%;
 
         li {
+            border-bottom: 1px solid var(--light-grey);
             cursor: pointer;
             list-style: none;
-            padding: 15px;
-            border-bottom: 1px solid var(--dark-grey);
+            width: 100%;
+            padding: 13px;
         }
     }
 
     .downshift-open {
-        border: 1px solid var(--light-grey);
-
-        box-shadow: 0 2px 5px 0 var(--light-grey);
-        overflow: hidden;
+        border: 1px solid var(--grey);
+        box-shadow: 0 2px 5px 0 var(--grey);
+        border-radius: 10px;
+        width: 96%;
+        max-height: 500px;
+        overflow-y: auto;
     }
+
 }

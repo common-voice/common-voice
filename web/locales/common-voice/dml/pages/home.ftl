@@ -91,31 +91,6 @@ community-and-languages-menu-item-tooltip = دریافت کُرا باڜہ نم 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = آپشن تہ مینیو تہ بارہ
 partnerships-menu-item-aria-label = شراکت تہ بارہ زانا عام کاڻہ ملی
 press-and-stories-menu-item-aria-label = عام کاڻ تہ بارہ پریس ریلیز آں شُلوک نم کی رسائی حاصل کُرا
 community-and-languages-menu-item-aria-label = عام کاڻ ساں حمایت کُرال کمیونٹی آں باڜہ ساں جائزہ گیا
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

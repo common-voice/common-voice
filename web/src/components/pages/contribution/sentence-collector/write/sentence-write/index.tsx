@@ -18,7 +18,8 @@ import './sentence-write.css'
 export type WriteMode = 'single' | 'small-batch'
 
 type Props = {
-  allVariants: string[]
+  allVariantTokens: string[]
+  allVariantNames: string[]
   mode: WriteMode
   handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
   handlePublicDomainChange: () => void
@@ -37,7 +38,8 @@ type Props = {
 }
 
 export const SentenceWrite: React.FC<Props> = ({
-  allVariants,
+  allVariantTokens,
+  allVariantNames,
   mode,
   handleCitationChange,
   handlePublicDomainChange,
@@ -68,7 +70,8 @@ export const SentenceWrite: React.FC<Props> = ({
           selectedSentenceDomains={selectedSentenceDomains}
           error={error}
           handleSentenceVariantChange={handleSentenceVariantChange}
-          variantTokens={allVariants}
+          variantTokens={allVariantTokens}
+          variantNames={allVariantNames}
           selectedVariant={sentenceVariant}
           mode={mode}
         />

@@ -3,6 +3,7 @@ services:
     image: mysql:8.0.31
     networks:
       - voice-web
+      - common-voice-network
     container_name: db
     restart: unless-stopped
     environment:
@@ -42,7 +43,7 @@ services:
       context: ./bundler
       dockerfile: Dockerfile
     container_name: bundler
-    user: '${UID:-10001}:${GID:-10001}'
+    user: '${UID:-1000}:${GID:-1000}'
     links:
       - db
       - redis
@@ -59,7 +60,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile
     container_name: web
-    user: '${UID:-10001}:${GID:-10001}'
+    user: '${UID:-1000}:${GID:-1000}'
     links:
       - db
       - redis
@@ -70,9 +71,12 @@ services:
       - DOTENV_CONFIG_PATH=/code/.env-local-docker
     networks:
       - voice-web
+      - common-voice-network
     ports:
       - 9000:9000
     command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn --frozen-lockfile && yarn start"
 
 networks:
   voice-web:
+  common-voice-network:
+    name: common-voice-network

@@ -48,9 +48,3 @@ second-cta-header-text = tlasohcamatictzin titech palehuia ica mu tlahtol
 second-cta-subtitle-text = ican se ixnexica huilis tic chihuas se nimilis de mu tiquiuh huan ti mu nilos ihuan nichicomasehual aquihquen tech plehuiah ican tlanahuatil tlahtol
 already-have-an-account = yitic pia se cuenta? <login> pehualti sesion</login>
 create-profile-button = xicchihua se ixnexicah
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -11,3 +11,15 @@ error-content-404 = Efallai y bydd ein <homepageLink>tudalen cartref</homepageLi
 error-title-503 = Rydym yn profi toriad darpariaeth annisgwyl
 error-content-503 = Bydd y wefan yn ôl at ei gilydd cyn gynted â phosibl. Am y wybodaeth ddiweddaraf, ymunwch â'n  sgwrs gymunedol yn <matrixLink>Matrix</matrixLink> neu ewch i <githubLink>GitHub</githubLink> neu'n <discourseLink>fforymau Discourse</discourseLink> i gyflwyno a monitro materion profiad gwefan.
 error-code = Gwall { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [zero] Doedd dim modd i ni lwytho { $total } clipiau. Maen nhw eisoes wedi'u llwytho o'r blaen. Gadewch i ni barhau gyda'r swp nesaf!
+        [one] Doedd dim modd i ni lwytho { $total } clip. Maen nhw eisoes wedi'u llwytho o'r blaen. Gadewch i ni barhau gyda'r swp nesaf!
+        [two] Doedd dim modd i ni lwytho { $total } glip. Maen nhw eisoes wedi'u llwytho o'r blaen. Gadewch i ni barhau gyda'r swp nesaf!
+        [few] Doedd dim modd i ni lwytho { $total } clip. Maen nhw eisoes wedi'u llwytho o'r blaen. Gadewch i ni barhau gyda'r swp nesaf!
+        [many] Doedd dim modd i ni lwytho { $total } chlip. Maen nhw eisoes wedi'u llwytho o'r blaen. Gadewch i ni barhau gyda'r swp nesaf!
+       *[other] Doedd dim modd i ni lwytho { $total } clip. Maen nhw eisoes wedi'u llwytho o'r blaen. Gadewch i ni barhau gyda'r swp nesaf!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Rydym wedi { $uploaded } o'ch clipiau. — Mae'r gweddill eisoes wedi'u llwytho o'r blaen. Gadewch i ni barhau gyda'r swp nesaf!

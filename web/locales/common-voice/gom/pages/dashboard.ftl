@@ -1,5 +1,10 @@
 ## Dashboard
 
+your-languages = Tujeo Bhaso
+awards = Puroskar
+you = Tumi
+everyone = Sogle
+recorded-clips = Record kel'lem
 show-ranking = Mhoje ranking dhakoi
 
 ## Custom Goals
@@ -22,3 +27,8 @@ n-clips-pluralized =
 
 ## Goals
 
+validations =
+    { $count ->
+        [one] Topasnni
+       *[other] Topasnneo
+    }

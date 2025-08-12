@@ -60,7 +60,6 @@ hsb = IsiSorbian, Upper
 ht = IsiHaitia
 hu = Hungarian
 hy-AM = Isi-Armenia
-hyw = Isi-Armenian sangeTlhagwini
 ia = Isi-Interlingua
 id = Isi-Indonesia
 ie = Isi-Interlingue

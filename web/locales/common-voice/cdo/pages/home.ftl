@@ -71,36 +71,3 @@ help-contribute = 您可以透過註冊 Common Voice 資料並貢獻語音，來
 login-company = 登入 / 使用 { $company } 註冊
 profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
 read-more-about = 到我們的「關於」頁面了解更多資訊
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

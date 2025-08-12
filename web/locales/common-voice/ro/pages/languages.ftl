@@ -1,9 +1,11 @@
 ## Languages Overview
 
 language-section-in-progress = În lucru
-language-section-in-progress-new-description = Aceste limbi sunt în prezent în curs de dezvoltare de către comunitate. Barele de progres arată cât de departe am ajuns cu fiecare limbă în <localizationGlossaryLink>localizarea site-ului</localizationGlossaryLink> și <sentenceCollectionGlossaryLink>colectarea de propoziții</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Aceste limbi sunt în prezent în curs de dezvoltare de către comunitate. Barele de progres arată cât de departe am ajuns cu fiecare limbă în <localizationGlossaryLink>localizarea site-ului</localizationGlossaryLink> și <sentenceCollectionGlossaryLink>adunarea de propoziții</sentenceCollectionGlossaryLink>.
 language-section-launched = Lansate
-language-section-launched-description = Pentru aceste limbi lansate, site-ul web a fost <localizationGlossaryLink>localizat</localizationGlossaryLink> cu succes și are suficiente <sentenceCollectionGlossaryLink>propoziții colectate</sentenceCollectionGlossaryLink> pentru a permite contribuții curente de <speakLink>Vorbire</speakLink> și <listenLink>Ascultare</listenLink>.
+language-section-launched-description = Pentru aceste limbi lansate, site-ul web a fost <localizationGlossaryLink>localizat</localizationGlossaryLink> cu succes și are suficiente <sentenceCollectionGlossaryLink>propoziții adunate</sentenceCollectionGlossaryLink> pentru a permite contribuții de <speakLink>Înregistrare</speakLink> și <listenLink>Ascultare</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Ultima actualizare: { $lastUpdatedTimeStamp }
 languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
 language-meter-in-progress = Progres
@@ -13,12 +15,14 @@ language-search-input =
 language-speakers = Vorbitori
 localized = Localizat
 sentences = Propoziții
+language-validation-hours = Ore
+language-validation-progress = Progresul validării
 contribute = Contribuie
 get-involved-button = Implică-te
 get-involved-title = Contribuie la { $lang }
 get-involved-text =
     Îți mulțumim pentru interesul de a contribui la { $lang }. Ne străduim să pregătim fiecare limbă pentru lansare și să ne ținem
-    la curent echipele prin e-mail. Dacă vreisă contribui, te rugăm să ne furnizezi adresa ta de e-mail mai jos.
+    la curent echipele prin e-mail. Dacă vrei să contribui, te rugăm să ne lași adresa ta de e-mail mai jos.
 get-involved-form-title = Înscrie-te pentru actualizări cu privire la { $lang }:
 get-involved-email =
     .label = E-mail

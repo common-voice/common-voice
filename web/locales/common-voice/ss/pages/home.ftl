@@ -83,36 +83,3 @@ help-contribute = Ungasita kwakha i-database lehlukile ngekwakha likhasi lelicha
 login-company = Ngena / Bhalisa nge email ye { $company }
 profile-not-required = Kuba nelikhasi lelichaza kabanti ngawe akudzingeki, kepha kulusito, buka kutsi kungani langentasi
 read-more-about = Fundza kabanti ekhasini lelichaza Kabanti ngatsi
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

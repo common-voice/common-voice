@@ -66,15 +66,6 @@ about-playbook-how-grow-language-content-2 = Hwarvosow
 about-playbook-how-grow-language-content-4 = Media sosyel
 about-playbook-how-grow-language-content-6 = Kesparow ha rosweythyow
 
-## How to validate
-
-
-## How to access dataset
-
-
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = Privetter, diogeledh hag ylynder.
-
-## How is Common Voice funded
-

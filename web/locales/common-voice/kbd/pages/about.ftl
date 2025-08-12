@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = Сыт щхьэкӏэ Common Voice?
+about-title = Common Voice-ыр зищlысыр
 about-header-description-v2 =
     <p>Common Voice – это общедоступный набор голосовых данных, созданный на основе голосов добровольцев со всего мира. Люди, которые хотят создавать голосовые приложения, могут использовать этот набор данных для обучения моделей машинного обучения.</p>
     <p>В настоящее время большинство наборов голосовых данных принадлежат компаниям, что сдерживает инновации. В наборах голосовых данных также преобладают белые англоговорящие мужчины. Это означает, что голосовая технология вообще не работает для многих языков, а там, где она работает, может не работать одинаково хорошо для всех. Мы хотим изменить это, побудив людей со всего мира поделиться своим голосом.</p>
@@ -74,28 +74,10 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>запросите новый язык на GitHub</githubRepoLink>. <localizationFragment>Подробнее о переводе сайтов</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Псалъэухахэр зэщӏекъуэ
 
-## How does localization work
-
-
 ## How to add sentences
 
 about-playbook-how-add-sentences = Псалъэухахэр дауэ хэслъхьэфыну?
 
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Къэхъукъащӏэхэр
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

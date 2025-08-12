@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType }<playIcon></playIcon> آں لیِکھ کا یأ تُو بُھویودُودا ہے انسان کا بندُو
 editbox-header = آڈیو لیِگ/ٹرانسکرائب
 editbox-placeholder = مھید تیس لیِکھ کا یأ تأ مے انسان ما بُوتا
-no-audio-message = مے جیِب می مھیرے کی آڈیو نُو تُھو یرأ تیس لیِگادا۔ مہربانی کیدے مے پاݜ تازا کو یا بھی کوشش کو
 create-transcript-success = ٹرانسکریپٹ کامأبی دے تھلا گأ
 create-transcript-error = ٹرانسکیرپٹ سی پیدا  کؤ می کآں غلطی ہی
 error-playing-audio = آڈیو سی چلؤ می غلطی ہی۔

@@ -4,7 +4,6 @@ record-player-header = Record your response
 mic-access-error = You must allow microphone access.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> and respond as naturally as you can
-no-prompts-message = There are currently no prompts for this language. Please refresh the page or try again later.
 error-skipping = An error occurred while skipping this prompt
 error-recording = An error occurred while recording
 error-fetching-prompts = Something went wrong while fetching prompts. Please try again later.

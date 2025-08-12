@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = یَہ مقصدہ فُورہ کېرِؤ
 cant-decide = فیصلہ کېرِی نہ بَمانېوا؟
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { "" }
-                               *[other] { "" }
-                            }
-                    }
-            }
-    }
 how-many-per-day = لؤ بئ! یَکېک دېسے کتہ کِلپس؟
 how-many-a-week = لؤ بئ! یَہ ݭُکُوارہ کتہ کِلپس؟
 which-goal-type = باتی کېرانے ژِمانا، ݭُنڈانے ژِمانا خو دُمِمِی؟

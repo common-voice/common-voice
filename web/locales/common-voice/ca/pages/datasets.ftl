@@ -8,6 +8,7 @@ datasets-positioning =
     El conjunt de dades multilingüe del Common Voice ja és el conjunt de dades de veu disponible públicament més gran del seu tipus, però no l'únic.
     
     Considereu aquesta pàgina com a punt central de referència sobre els altres conjunts de dades de veu oberts i, a mesura que el Common Voice continua creixent, la pàgina on anunciarem les actualitzacions de les versions.
+datasets-speech-bubble-content = Notícies emocionants! Parla espontània està en camí! Estigueu atents a les novetats i assegureu-vos de consultar el nostre <discordLink>Discord</discordLink> per a obtenir la informació més recent.
 language = Llengua
 download-dataset-header = Baixa el conjunt de dades
 download-delta-explainer = Hem fet alguns canvis. Els segments Delta només contenen els talls més recents des de la versió anterior. <deltaLink>Vegeu més informació sobre aquesta tasca</deltaLink>.

@@ -52,7 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Çerni un obiettivo
 cant-decide = T’ê indeçiso?
-activity-needed-calculation-plural = Un obiettivo de { $totalHours } oue o se peu ottegnî inte un pittin ciù de  { $periodMonths } meixi se { $people } persoñe registran { $clipsPerDay } frase a-o giorno.
 how-many-per-day = Milia! Quante registraçioin a-o giorno?
 how-many-a-week = Milia! Quante registraçioin a-a settemaña?
 which-goal-type = Ti veu registrâ, verificâ, ò tutti doî?

@@ -8,6 +8,7 @@ datasets-positioning =
     Common Voices flerspråkiga datamängd är redan den största offentligt tillgängliga röstdatamängden av sitt slag, men den är inte den enda.
     
     Titta på den här sidan som referensnav för andra datakällor med öppen källkod och eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
+datasets-speech-bubble-content = Spännande nyheter! Spontant tal är på väg! Håll ögonen öppna efter uppdateringar och se till att kolla vår <discordLink>Discord</discordLink> för den senaste informationen.
 language = Språk
 download-dataset-header = Ladda ner datamängden
 download-delta-explainer = Vi har gjort några ändringar. Delta Segments innehåller bara de senaste klippen sedan den senaste releasen. <deltaLink>Läs mer om detta arbete</deltaLink>.
@@ -94,6 +95,9 @@ release-version = Version
 dataset-date = Datum
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandat
+# Support old genders in older datasets
+male = Man
+female = Kvinna
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Ladda ner våra röstdatamängder
 # MENU ITEM ARIA LABELS

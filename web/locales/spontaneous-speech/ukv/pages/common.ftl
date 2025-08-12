@@ -7,8 +7,6 @@ action-tap = 'bole
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = gwegwelunda i pirit nagele'g i dataset kata
-# Label for button on contribution switcher
-change = gaweret
 coming-soon = kutusin jore gwe nyona tutulundo
 media-recorder-api-not-supported = pirit na 'biyani wiritön     API 'bayin i moga i pirit net galet na
 # Toast message that is displayed when an item is skipped

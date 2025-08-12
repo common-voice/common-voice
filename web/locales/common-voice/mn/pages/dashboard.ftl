@@ -51,67 +51,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Зорилт тавих
 cant-decide = Шийдэж чадахгүй байна уу?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгөдөр
-                               *[other] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгөдөр
-                               *[other] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгөдөр
-                               *[other] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгөдөр
-                               *[other] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгөдөр
-                               *[other] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгөдөр
-                               *[other] { $totalHours } цагдууслаа{ $periodMonths } сарХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгөдөр
-                               *[other] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүнбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгөдөр
-                               *[other] { $totalHours } цагдууслаа{ $periodMonths } саруудХэрэв{ $people } хүмүүсбичлэг{ $clipsPerDay } бичлэгнүүдөдөр
-                            }
-                    }
-            }
-    }
 how-many-per-day = Дажгүй шүү! Өдөрт хэдэн бичлэг?
 how-many-a-week = Дажгүй шүү! 7 хоногт хэдэн бичлэг?
 which-goal-type = Та ярих, сонсох эсвэл хоёуланг нь хүсч байна уу?

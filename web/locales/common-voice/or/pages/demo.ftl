@@ -16,6 +16,3 @@ demo-account-card-header = ଯୋଗଦାନ ପାଇଁ ଏକ ଆକାଉ�
 ## Demo Contribute
 
 demo-listen-subtitle = ଯୋଗଦାନ କରିବାକୁ ପ୍ରସ୍ତୁତ କି?
-
-## Demo Dashboard
-

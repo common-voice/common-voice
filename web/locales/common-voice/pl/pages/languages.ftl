@@ -4,6 +4,8 @@ language-section-in-progress = W trakcie
 language-section-in-progress-new-description = Te języki są obecnie w trakcie rozwoju przez społeczność. Paski postępu wskazują postęp <localizationGlossaryLink>tłumaczenia strony</localizationGlossaryLink> oraz <sentenceCollectionGlossaryLink>zbierania zdań</sentenceCollectionGlossaryLink> dla danego języka.
 language-section-launched = Działające
 language-section-launched-description = Dla tych języków strona została pomyślnie <localizationGlossaryLink>przetłumaczona</localizationGlossaryLink> i jest dość <sentenceCollectionGlossaryLink>zebranych zdań</sentenceCollectionGlossaryLink>, aby umożliwić <speakLink>nagrywanie</speakLink> i <listenLink>odsłuchiwanie</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Ostatnia aktualizacja: { $lastUpdatedTimeStamp }
 languages-show-more = Więcej
 languages-show-less = Mniej
 language-meter-in-progress = Postęp

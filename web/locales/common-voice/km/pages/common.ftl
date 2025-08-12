@@ -50,6 +50,3 @@ email-opt-in-info-sub-with-challenge = ទទួលបានអ៊ីមែល�
 email-opt-in-privacy-v2 = តាមរយៈ​ការ​ជ្រើសរើស​ទទួល​អ៊ីមែល អ្នក​បញ្ជាក់​ថា​អ្នក​មិន​អី​ទេ​ជាមួយ Mozilla ក្នុងការចាត់ចែង​ព័ត៌មាន​នេះ​ដូច​ដែល​បាន​ពន្យល់​ក្នុង <privacyLink>គោលការណ៍​ឯកជនភាព</privacyLink> របស់ Mozilla។
 indicates-required = កន្លែង​បញ្ចូល​ដែលសម្គាល់​ដោយ​សញ្ញា (*) ត្រូវតម្រូវឱ្យបញ្ចូល។
 not-available-abbreviation = មិនអាចអនុវត្តបាន
-
-## Donate banner
-

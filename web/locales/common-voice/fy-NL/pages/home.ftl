@@ -85,34 +85,34 @@ read-more-about = Mear ynfo op ús side Oer
 
 ## NAV ITEMS
 
-answer-questions = Fragen beäntwurdzje <small>(ynkoarten)</small>
-answer-questions-coming-soon = Fragen beäntwurdzje <small>(ynkoarten)</small>
-review-transcriptions = Transkripsjes beoardiele <small>(ynkoarten)</small>
-review-transcriptions-coming-soon = Transkripsjes beoardiele <small>(ynkoarten)</small>
-add-questions = Fragen tafoegje <small>(ynkoarten)</small>
-add-questions-coming-soon = Fragen tafoegje <small>(ynkoarten)</small>
-transcribe-audio-coming-soon = Audio transkribearje <small>(ynkoarten)</small>
-transcribe-audio = Audio transkribearje <small>(ynkoarten)</small>
+answer-questions = Fragen beäntwurdzje
+review-transcriptions = Transkripsjes beoardiele
+add-questions = Fragen tafoegje
+review-questions = Fragen beoardiele
+transcribe-audio = Audio transkribearje
 press-and-stories = Parse en ferhalen
 community-and-languages = Mienskip en talen
 coming-soon = Ynkoarten beskikber
+about-us = Oer ús
+scripted-speech = SCRIPTE SPRAAK
+spontaneous-speech = SPONTANE SPRAAK
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerskippen, Parse en ferhalen, Mienskip en talen
+about-us-menu-item-tooltip = Lês mear oer de misje en it team efter Common Voice
 partnerships-menu-item-tooltip = Partner wurde
 press-and-stories-menu-item-tooltip = Besykje ús blog of skriuw oer ús
 community-and-languages-menu-item-tooltip = Talen en mienskippen en Common Voice ûntdekke
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Opsjesmenu Oer
+about-menu-aria-label = Menu foar tagong ta Partnerskippen, Parse en ferhalen, Mienskip en Talen
+about-us-menu-aria-label = Opsjesmenu Oer
+about-us-menu-item-aria-label = Opsjesmenu Oer ús
 partnerships-menu-item-aria-label = Mear oer partnerskippen mei Common Voice
 press-and-stories-menu-item-aria-label = Parseberjochten en ferhalen mei betrekking ta Common Voice benaderje
 community-and-languages-menu-item-aria-label = De troch Common Voice stipe mienskip en talen ferkenne
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -133,7 +133,9 @@ spontaneous-card-header = Spontane spraak
 spontaneous-card-content = Reagearje op fragen om gegevenssets te meitsjen foar organyske, ynformele konteksten. Perfekt foar orale talen.
 language-text-card-header = Taaltekst
 language-text-card-content = Meitsje of diel fragen, sinnen en tekst yn it iepenbiere domein foar oersetting, lytse taalmodellen, en mear.
+coming-soon = Ynkoarten beskikber
 add-text = Tekst tafoegje
+answer = Beäntwurdzje
 
 ## Community section
 

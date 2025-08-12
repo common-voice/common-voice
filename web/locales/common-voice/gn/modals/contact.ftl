@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = Kuatia ñemyanyhẽrã Eñe’ẽ hag̃ua orendive
+contact-title = Kuatia ñemyanyhẽrã eñe’ẽ hag̃ua
 contact-form-name =
     .label = Téra
 contact-form-message =

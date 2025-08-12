@@ -2,10 +2,9 @@
     background: var(--lighter-grey);
     display: flex;
     justify-content: center;
+    z-index: var(--middle-z-index);
     .dataset-corpus-download-container {
-        @media (--xl-up) {
-            transform: translateY(-2%);
-        }
+        transform: translateY(-2%);
         background: var(--light-grey);
         width: 80%;
         padding: 2%;

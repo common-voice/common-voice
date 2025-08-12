@@ -29,12 +29,3 @@ file-invalid-type = 無效文件
 file-too-large = 文件太大
 file-too-small = 文件太細
 too-many-files = 太多文件
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

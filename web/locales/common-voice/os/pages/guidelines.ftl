@@ -1,9 +1,18 @@
 voice-collection = Хъæлæстæ
 sentence-collection = Хъуыдыйæдтæ
+
+## Voice Collection nav ids
+
 offensive-content = Æфхæрӕг мидис
 background-voices = Æндæр хъæлæстæ уыцы-иу фысты
 example = Дæнцæг
+
+## Voice collection sidebar content
+
 offensive-content-explanation = Хъуыдыйæдтæ сгæрст æрцæуынц æмбалады модераци процессы фæрцы, фæлæ уæддæр ацы процесс æнаипп нæу. Ды куы фенай кæнæ фехъусай, дæ зæрдæхудты кæй цæуы кæнæ хъыг дын кæй у, ахæм хъуыдыйад, зæгъæм, уымæн æмæ уый халы нæ <participationGuidelines>æмбалады хайады фæтк</participationGuidelines>, уæд, дæ хорзæхæй, æрхæц тырысайы цæппæрыл интерфейсы. Стæй дæ бон у немæ сбæттын <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
+## Sentence collection sidebar content
+
 citing-sentences-explanation-1 = Хъуыдыйады ратæдзæн бацамонын тынг ахсджиаг у, мах цæмæй зонæм хъуыдыйæдтæ æхсæнады хæзнайæ ист кæй сты, уый.
 citing-sentences-subheader-websites = Веб-сайттæ
 citing-sentences-subheader-websites-explanation = Сайт бацамонын, зæгъæм: "Common Voice - https://commonvoice.mozilla.org/"

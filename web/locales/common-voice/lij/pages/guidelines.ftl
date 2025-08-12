@@ -3,6 +3,10 @@ guidelines-header = Guidda de collaboraçion
 guidelines-header-subtitle = Descreuvi comme collaborâ e verificâ frase e registraçioin audio do dataset de Common Voice
 voice-collection = Arrecuggeita de voxe
 sentence-collection = Colleçion de frase
+question-collection = Accuggeita de domande
+
+## Voice Collection nav ids
+
 varying-pronunciations = Variaçioin de prononçia
 misreadings = Erroî de lettua
 offensive-content = Contegnui offenscivi
@@ -12,6 +16,9 @@ volume = Volumme
 reader-effects = Emoçioin inta voxe di lettoî
 just-unsure = No t’ê seguo?
 example = Exempio
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Tutti i açenti en i benvegnui! Fanni attençion avanti de refuâ unna registraçion inta quæ, segondo ti, o lettô o l’à prononçiou mâ unna poula, o l’à misso mâ l’açento, ò o l’à ignorou a pontezzatua. In gio pe-o mondo s’addeuvia ben ben de prononçie despæge e magara ghe n’é de quelle che no t’æ mai sentio da-e teu bande. Pe piaxei ammia d’ëse flescibile, comme segno de respetto pe e persoñe che no parlan comme ti.
 varying-pronunciations-explanation-2 = Se però ti pensi che o lettô o no l’agge mai visto quella poula, e o l’agge fæto unn’ipòtexi sbaliâ da seu prononçia, refua a registraçion. Se no t’ê seguo, addeuvia o pommello Passa.
 varying-pronunciations-example = Semmo anæti in viægio.
@@ -47,11 +54,17 @@ reader-effects-explanation = A ciù parte de registraçioin en de persoñe che p
 just-unsure-explanation = Se ti treuvi quarcösa de no trattou inte ste instruçioin, addeuvia o sæximo. Se no t’arriësci à deçidde, ti peu addeuviâ o pommello Passa pe anâ a-a registraçion apreuvo.
 still-have-questions = T’æ ancon de domande?
 contact-common-voice = Contatta a squaddra de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Pubrico dominio
 citing-sentences = Çittâ e frase
 adding-sentences = Azzonze de frase
 reviewing-sentences = Verificâ e frase
 sentence-domain = Dominio da frase
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = L’é davei importante che tutte e frase seggian de <publicDomain>pubrico dominio</publicDomain> (<cc0>cc0</cc0>) perché o dataset Common Voice o l’é pubricou con unna liçensa cc0. Azzonzi e frase solo se t’ê seguo che ô son, e metti a çittaçion delongo.
 public-domain-explanation-2 = E megio frase pe contrue un scistema de reconoscimento vocale en quelle colloquiale, con un lenguaggio moderno. De idee pe aggiuttâte à generâ de frase en:
 public-domain-explanation-3 = Crea de frase moderne, colloquiale da pe ti ò co-i teu amixi ò co-a teu communitæ linguistica, pe exempio con organizzâ unna «maratoña de scrittua»
@@ -91,3 +104,23 @@ reviewing-sentences-explanation-2 = Se a frase a satisfa tutti i critëi, sciacc
 reviewing-sentences-explanation-3 = Se no t’ê seguo in sciâ frase, ti peu ascì passâla.
 reviewing-sentences-explanation-4 = Se no gh’é ciù de frase da approvâ, aggiuttine à arrecheuggine de atre!
 domain-explanation = O dominio o fa referensa à l’argomento da frase. Pe-o momento, ti peu çerne tra:
+
+## Question collection ids
+
+adding-questions = Azzonze de dmande
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Comme scrive unna boña domanda?
+what-makes-a-good-question-explanation = Unna boña domanda pe un corpus de parteçipaçion pubrica a dovieiva:
+what-makes-a-good-question-explanation-criteria-1 = Ëse de bon intende e façile da respondighe
+what-makes-a-good-question-explanation-criteria-2 = Ëse generalmente appropiâ
+what-makes-a-good-question-explanation-criteria-3 = No contegnî ò incoraggî l’uso de lenguaggio grammo ò offenscivo
+what-makes-a-good-question-tip = Danni a mente ascì à includde di contesti e di dominni despægi.
+easy-to-understand = Boña da intende
+easy-to-understand-explanation = Çerni de domande sence e comprenscibile da tutti, independentemente da-a coltua ò o contesto.
+spelling-and-pronunciation = Ortografia e pontezzatua
+spelling-and-pronunciation-explanation = Addeuvia unna boña grafia e grammatica.
+length = Longhixe
+example-questions-subheader = Domande d'ezenpio
+example-questions-explanation-1 = Ti peu atrovâ <examplePromptsLink>120 ezenpi de domanda in sto feuggio.</examplePromptsLink>

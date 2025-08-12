@@ -3,13 +3,13 @@
 about-title = Pam Common Voice?
 about-header-description-v2 =
     <p>Mae Common Voice yn set ddata llais sydd ar gael yn gyhoeddus, wedi'i phweru gan leisiau cyfranwyr gwirfoddol ledled y byd. Gall pobl sydd eisiau adeiladu rhaglenni llais ddefnyddio'r set ddata i hyfforddi modelau dysgu peirianyddol.</p>
-    <p>Ar hyn o bryd, cwmnïau sy’n berchen ar y rhan fwyaf o setiau data llais, sy’n rhwystro arloesedd. Mae setiau data llais hefyd yn gorgynrychioli gwrywod gwyn, Saesneg eu hiaith. Mae hyn yn golygu nad yw technoleg llais yn gweithio o gwbl ar gyfer llawer o ieithoedd a lle mae'n gweithio, efallai na fydd yn perfformio cystal i bawb. Rydyn ni eisiau newid hynny trwy annog pobl ym mhobman i rannu eu llais.</p>
+    <p>Ar hyn o bryd, cwmnïau sy’n berchen ar y rhan fwyaf o setiau data llais, sy’n rhwystro arloesedd. Mae setiau data llais hefyd yn gorgynrychioli dynion gwyn, Saesneg eu hiaith. Mae hyn yn golygu nad yw technoleg llais yn gweithio o gwbl ar gyfer llawer o ieithoedd a lle mae'n gweithio, efallai na fydd yn perfformio cystal i bawb. Rydyn ni eisiau newid hynny trwy annog pobl ym mhobman i rannu eu llais.</p>
 how-does-it-work-title-v2 = Sut mae Common Voice yn gweithio?
 how-does-it-work-text = Rydym yn torfoli set ddata cod agored o leisiau. Rhowch eich llais, dilyswch gywirdeb clipiau pobl eraill, gwnewch y set ddata yn well i bawb.
 
 ## How does it work section
 
-about-language-req-subtitle = Mae rhywun yn gofyn i ychwanegu iaith.
+about-language-req-subtitle = Mae rhywun yn gofyn i iaith gael ei hychwangu.
 about-localization-title = Lleoleiddio'r Wefan
 about-localization-subtitle = Mae testun y wefan yn cael ei gyfieithu i'r iaith honno.
 about-sentence-collection-title = Casglu Brawddegau
@@ -24,11 +24,11 @@ about-dataset-release-title = Rhyddhau Setiau Data
 about-dataset-release-subtitle = Rydyn ni'n rhyddhau'r setiau data bob 3 mis.
 about-subscribe-text = Eisiau cadw mewn cysylltiad â Common Voice?
 about-speak = Siarad
-about-speak-text = Mae cyfranwyr yn recordio clipiau llais trwy ddarllen o gronfa o frawddegau a gyfrannwyd.
+about-speak-text = Mae cyfranwyr yn recordio clipiau llais trwy ddarllen o gronfa o frawddegau sydd wedi'u cyfrannu.
 about-listen-queue = Ciw Gwrando
 about-listen-queue-text = Mae clipiau llais yn cael eu rhoi mewn ciw cyflwyno sy'n eu paratoi ar gyfer gwrando.
 about-listen = Gwrando
-about-listen-text = Mae defnyddwyr yn dilysu cywirdeb clipiau a gyfrannwyd, gan wirio bod y siaradwr yn darllen y frawddeg yn gywir.
+about-listen-text = Mae defnyddwyr yn dilysu cywirdeb clipiau sydd wedi'u cyfrannu, gan wirio bod y siaradwr yn darllen y frawddeg yn gywir.
 about-is-it-valid = Ydy'r clip yn ddilys?
 about-is-it-valid-text = Mae clip llais wedi'i farcio yn "ddilys" pan fydd defnyddiwr yn ei nodi'n Iawn.
 about-yes-votes = ≥ 2 Iawn
@@ -115,7 +115,7 @@ about-playbook-how-grow-language-content-1 = Mae creu cyfleoedd i amrywiaeth o b
 about-playbook-how-grow-language-content-2 = Digwyddiadau
 about-playbook-how-grow-language-content-3 = Gallwch gynnal digwyddiadau i helpu pobl i gyfrannu. Mae'n haws nag yr ydych chi'n ei feddwl. Fe allech chi ei wneud ar-lein gydag offer fideo-gynadledda, neu yn bersonol os yw'n ddiogel. <eventTemplate>Edrychwch ar ein templedi a'n hadnoddau ar gyfer rhedeg digwyddiadau</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Cyfryngau cymdeithasol
-about-playbook-how-grow-language-content-5 = Gallwch ddefnyddio llwyfannau cyfryngau cymdeithasol i ledu'r neges. Rhannwch negeseuon sy'n esbonio pam ei fod yn bwysig, a chysylltwch â phobl eraill i siarad am faterion fel hawliau iaith, dellusrwydd artiffisial llais neu ragfarn o fewn technoleg. Dyma ragor o gyngor ar gael ar sut i <campaignLink>gynnal ymgyrch gymdeithasol, gan gynnwys cynnwys y gallwch ei ailddefnyddio</campaignLink>.
+about-playbook-how-grow-language-content-5 = Gallwch ddefnyddio llwyfannau cyfryngau cymdeithasol i ledu'r neges. Rhannwch negeseuon sy'n esbonio pam ei fod yn bwysig, a chysylltwch â phobl eraill i siarad am faterion fel hawliau iaith, deallusrwydd artiffisial llais neu ragfarn o fewn technoleg. Dyma ragor o gyngor ar gael ar sut i <campaignLink>gynnal ymgyrch gymdeithasol, gan gynnwys cynnwys y gallwch ei ailddefnyddio</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partneriaethau a rhwydweithiau
 about-playbook-how-grow-language-content-7 = Dewch o hyd i eraill sy'n frwdfrydig. Gall hynny fod yn brifysgolion, ysgolion iaith, grwpiau eiriolaeth neu gymunedau gwyddor data. Cysylltwch ac eglurwch yn glir sut y gallan nhw helpu a pham. <outreachTemplates>Edrychwch ar ein templedi e-byst chwilio am gymorth</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Byddwch yn greadigol!</strong> Bydd eich cymuned iaith yn unigryw - dyma rhai ffyrdd i ddechrau arni.
@@ -140,7 +140,7 @@ about-playbook-how-project-governance = Sut mae penderfyniadau project yn cael e
 about-playbook-how-project-governance-content-1 = Mae Common Voice Mozilla yn bosibl oherwydd cymuned amrywiol o weithredwyr, ieithyddion, gwyddonwyr data, academyddion a pheirianwyr meddalwedd o bob rhan o'r byd. Mae'r project yn cael ei stiwardio gan y Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Mae ein llywodraethu wedi’i seilio ar:
 about-playbook-how-project-governance-content-3 = Breifatrwydd, diogelwch a thryloywder.
-about-playbook-how-project-governance-content-4 = Cyfranogiad a penderfyniadau cymunedol.
+about-playbook-how-project-governance-content-4 = Cyfranogiad a phenderfyniadau cymunedol.
 about-playbook-how-project-governance-content-5 = Gwerth a chydnabyddiaeth.
 about-playbook-how-project-governance-content-6 = Atebolrwydd ar y cyd.
 about-playbook-how-project-governance-content-7 = <governanceLink>Darllenwch ragor am sut rydyn ni'n cael ein llywodraethu</governanceLink>

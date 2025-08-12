@@ -82,7 +82,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Συλλογή π
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Παρακολουθήστε τον οδηγό μας σχετικά με τη χρήση του Sentence Collector</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Μπορείτε να <sentenceCollectorLinkAdd>προσθέσετε μικρούς αριθμούς προτάσεων</sentenceCollectorLinkAdd>
-    ή μπορείτε να κάνετε <bulkImportDocsLink>μαζικές εισαγωγές μέσω του Github</bulkImportDocsLink>.
+    ή μπορείτε να κάνετε <bulkImportDocsLink>μαζικές εισαγωγές μέσω του GitHub</bulkImportDocsLink>.
     Θυμηθείτε ότι οι προτάσεις πρέπει να είναι <licenseLink>CC0 (ή δημόσιου τομέα)</licenseLink> ή μπορείτε να γράψετε τις δικές σας.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Δείτε περισσότερα για τη συλλογή προτάσεων</sentenceCollectorFragment>.
 
@@ -105,9 +105,9 @@ about-playbook-how-add-sentences-content-3 = Μπορείτε να χρησιμ�
 ## How to record quality
 
 about-playbook-how-record-quality = Πώς ηχογραφώ αποσπάσματα υψηλής ποιότητας;
-about-playbook-how-record-content-1 = Μιλήστε κανονικά! Ο τρόπος ομιλίας σας είναι ευπρόσδεκτος εδώ - θέλουμε την προφορά σας όπως είναι και θέλουμε τη συνήθη ένταση, το στυλ και τον τονισμό σας.
-about-playbook-how-record-content-2 = Αποφύγετε τον υπερβολικό θόρυβο γύρω σας - θα πρέπει να σας ακούμε εύκολα.
-about-playbook-how-record-content-3 = Διαβάστε προσεκτικά την πρόταση - μην παραλείψετε, μην αλλάξετε και μην προσθέσετε λέξεις.
+about-playbook-how-record-content-1 = Μιλήστε κανονικά! Ο τρόπος ομιλίας σας είναι ευπρόσδεκτος εδώ· θέλουμε την προφορά σας όπως είναι και θέλουμε τη συνήθη ένταση, το στιλ και τον τονισμό σας.
+about-playbook-how-record-content-2 = Αποφύγετε τον υπερβολικό θόρυβο παρασκηνίου· θα πρέπει να σας ακούμε εύκολα.
+about-playbook-how-record-content-3 = Διαβάστε προσεκτικά την πρόταση· μην παραλείψετε, μην αλλάξετε και μην προσθέσετε λέξεις.
 about-playbook-how-record-content-4 = Βεβαιωθείτε ότι η πλατφόρμα ηχογραφεί πριν αρχίσετε να μιλάτε και ότι σταματάει μόνο όταν τελειώσετε.
 about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότερα σχετικά με τα κριτήρια ακρίβειας.</accuracyLink>
 
@@ -127,7 +127,7 @@ about-playbook-how-grow-language-content-8 = <strong>Γίνετε δημιουρ
 
 about-playbook-how-validate = Πώς ξέρω αν πρέπει να εγκρίνω ένα απόσπασμα;
 about-playbook-how-validate-content-1 = Αν μπορέσατε να τα <strong>ακούσετε</strong> και να τα <strong>καταλάβετε</strong>, <strong>καλό θα ήταν να τα εγκρίνετε</strong>.
-about-playbook-how-validate-content-2 = <strong>Μην απορρίπτετε αποσπάσματα όπου ο ομιλητής «έχει προφορά», διαφορετική από τη δική σας</strong> - αυτό είναι σημαντικό για να λειτουργεί καλύτερα η αναγνώριση φωνής για όλους.
+about-playbook-how-validate-content-2 = <strong>Μην απορρίπτετε αποσπάσματα όπου ο ομιλητής «έχει προφορά», διαφορετική από τη δική σας</strong>. Αυτό είναι σημαντικό για να λειτουργεί καλύτερα η αναγνώριση φωνής για όλους.
 about-playbook-how-validate-content-3 = Αν πιστεύετε ότι η προφορά καθιστά <strong>αδύνατη την κατανόηση</strong> ή υπάρχει <strong>πολύς θόρυβος στο παρασκήνιο</strong> ή <strong>μιλούν και άλλα άτομα</strong>, τότε θα πρέπει να απορρίψετε το απόσπασμα. <accuracyLink>Δείτε περισσότερες πληροφορίες για τα κριτήρια ακρίβειάς μας</accuracyLink>.
 about-playbook-how-validate-content-4 = Αν ένα απόσπασμα απορριφθεί από 2 άτομα, κυκλοφορεί σε διαφορετικό υποσύνολο του συνόλου δεδομένων.
 

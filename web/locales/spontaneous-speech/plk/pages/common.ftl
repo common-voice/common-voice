@@ -11,8 +11,6 @@ platform-language-tooltip-text = صرف ویب سائٹے متن بدل تِھی
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹاسیٹ دہ تعاون تھونے کِرِیا { $language }
 contribution-picker-tooltip-text = جِبے ڈیٹا سیٹ دہ تبدیلی تھینوْ، کھاݩس دہ څھوْس تعاون تھینَت
-# Label for button on contribution switcher
-change = ترمیم
 coming-soon = مُتی جِبہ جِنیْ ٹل بونانَن
 media-recorder-api-not-supported = میڈیا ریکارڈر اے پی آئی څھے براؤزر دہ تعاون یافتہ ناننوْ
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,16 @@ skip-button = پھتِیا
 submit-button = ڇیݨ
 contribute = تعاون تِھیا
 request-new-language = نئی جِبے درخواست
+# Button text which appears when there are no more resources
+continue-with-skipped = Skipped سے ساتیْ جاری پھتِیا
 
 ## Navbar
 
+question = سوال
+validate = توثیق تِھیا
 respond-to-prompt = پرامپٹے جُواب دِیا
 transcribe = نقل تِھیا
 check-transcriptions = ٹرانسکرپشنز چیک تِھیا
-question = سوال
 
 ## Not Found Page
 
@@ -60,3 +61,10 @@ sdo = سیرین بدایوہ
 snv = سابن
 tr = ترکش
 xkl = کینیا
+
+## Language search component
+
+language-search-placeholder = جِبے کِرِیا اوروڑ تِھیا
+language-search-aria-label = جِبے کِرِیا اوروڑ تِھیا
+language-search-label = صرف ڈیٹاسیٹ اےْ شراکتے جِب بدل تِھینوْ
+language-search-no-results = کھاں گہ جِب نہ ہشِلِن

@@ -65,7 +65,6 @@ hsb = Sorbiya jorîn
 ht = Haîtiyî
 hu = Macarî
 hy-AM = Ermenkî
-hyw = Ermenkiya Rojavayî
 ia = Interlingua
 id = Indonezî
 ie = Interlingue

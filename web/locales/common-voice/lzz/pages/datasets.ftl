@@ -24,11 +24,16 @@ download-language = { $language } doya geiğit
 validated-hours = İtzuranu Saatepe
 recorded-hours = Doliç̌aru Saatepe
 whats-inside = Common Voice datamarç̌aşi doloxe mupe orenan?
+dataset-description-hours =
+    Datamarçhas na ren khatha doloçhara umemgvapu MP3 do hemus na numtsxun ar çharaşi dosyaşen eçkindun. Datamarçhas na doloçharun <b>{ $total }</b> saatişi didos, osinapu oçinu şeni tzana, cinsiyethi do aksani steri demografikhuri meta marçhape meşadzin.
+    Datamarçha hatzi <b>{ $languages }</b> nenas <b>{ $valid }</b> saatişen eçkindun ama phanda çkva dido xoma do nena ekhevumtsxumt.
 want-dataset-update = { "" }
 subscribe = Abone iyi
 get-started-speech = Osinapu Oçinus Kogyoç̌ǩit
 other-datasets = Majura Xomaşi Datamarç̌ape
 feedback-q = Uǩaçxeni gnapa giğunan-i?
+# This indicates that there is no data to display
+no-information = Çkinapa va ren
 resource-nemo-info = { "" }
 resource-deepspeech-info = { "" }
 resource-coqui-info = Galiçuri

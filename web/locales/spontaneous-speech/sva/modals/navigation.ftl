@@ -1,12 +1,12 @@
 ## Navigation modal
 
 # Link to the Respond to Prompts page in the navigation modal for mobile users
-respond = ლოხპასვიხვ
+respond = ლოხპასუ̂იხუ̂
 # Link to the check transcriptions page in the navigation modal for mobile users
-check = ჩვათმოწმა̈ნ
+check = ჩუ̂ათმოწმა̈ნ
 # Link to the Transcribe page in the navigation modal for mobile users
-transcribe = ჟოხოსყ ტრანსკიფცია
-loading = იტვირთა̈ვი
+transcribe = ჟო̄ხოსყ ტრანსკრიფცია
+loading = იტუ̂ირთა̈უ̂ი…
 login-signup = სგალი̄ზი/რეგისტრაცია
 login = სგა ლი̄ზი
 logout = ქა ლიჴედ

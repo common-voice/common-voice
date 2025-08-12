@@ -56,7 +56,6 @@ hr = Хорват кыв
 hsb = Сорб кыв
 hu = Маддяр кыв
 hy-AM = Армен кыв
-hyw = Рытыввыв армен кыв
 ia = Интерлингва кыв
 id = Индонезия кыв
 is = Исландса кыв
@@ -182,6 +181,3 @@ email-opt-in-info-sub-with-challenge = Мк кӧсъя, медым меным ы
 email-opt-in-privacy-v2 = Электрон письмӧяс пӧлучитӧм бӧрйигӧн Ті сетаннныд сӧгласлун Mozilla-лы тайӧ юӧрнас вӧдитчӧм вылӧ, кыдзи тайӧс пасйӧма <privacyLink> Mozilla-лӧн йӧзӧдтӧмлун политикаын </privacyLink>.
 indicates-required = * петкӧдлӧ эрдъяс, кодъясӧс колӧ тыртны
 not-available-abbreviation = Оз позь йитчыны
-
-## Donate banner
-

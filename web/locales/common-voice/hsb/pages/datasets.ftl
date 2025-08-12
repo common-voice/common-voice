@@ -8,6 +8,7 @@ datasets-positioning =
     Wjacerěčna datowa sadźba Common Voice je hižo najwjetša zjawnje k dispoziciji stejaca datowa sadźba swojeje družiny, ale njeje jenička.
     
     Mějće tutu stronu jako referencny dypk za druhe hłosowe datowe sadźy wotewrjeneho žórła a, dokelž Common Voice dale rosće, jako startowy dypk za naše najnowše aktualizacije.
+datasets-speech-bubble-content = Zahorjace nowinki! Spontane rěčenje je po puću! Slědujće aktualizacije a čitajće naše najnowše informacije wo tym na <discordLink>Discord</discordLink>.
 language = Rěč
 download-dataset-header = Datowu sadźbu sćahnyć
 download-delta-explainer = Smy někotre změny přewjedli. Deltasegmenty jenož najnowše klipy wot poslednjeho wozjewjenja wobsahuja. <deltaLink>Čitajće wjace wo tutym dźěle</deltaLink>.
@@ -94,6 +95,9 @@ release-version = Wersija
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
+# Support old genders in older datasets
+male = Muski
+female = Žónski
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Naše hłosowe datowe sadźby sćahnyć
 # MENU ITEM ARIA LABELS

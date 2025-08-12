@@ -42,9 +42,37 @@ terms-disagree = هون متفق ڪوني هان
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = اوهان ري آواز ڪلپس عطيو ڪرڻ لاء اوهان ري مهرباني!
 first-cta-subtitle-text = ڪئ اوھان ڪجھ معلومات شيئر ڪرڻ چاھو ٿا ته اوھان ڪيئن ڳالھايو؟
+why-donate = ڪريلل پڇي رهيا هو؟
+why-donate-explanation-1 = اها معلومات مهيا ڪرڻ لاءِ اختياري آهي - توهان کي صرف ان کي شامل ڪرڻ گهرجي جيڪڏهن توهان آرام سان محسوس ڪيو. جڏهن اسان ڊيٽا سيٽ کي جاري ڪريون ٿا، اسان سڀ ذاتي معلومات تخلص ڪريون ٿا، ۽ پڪ ڪريو ته معلومات جهڙوڪ توهان جو نالو ۽ اي ميل ڊيموگرافڪ معلومات جهڙوڪ عمر يا جنس سان ڳنڍيل ناهي.
+why-donate-explanation-2 = ٽيڪنالاجي لاءِ هر ڪنهن لاءِ سٺو ڪم ڪرڻ لاءِ، ڊيٽا جيڪا ڊولپرز کي ٽيڪنالاجي ٺاهڻ ۾ مدد ڪري ٿي ماڻهن جي مختلف قسمن کي ظاهر ڪرڻ جي ضرورت آهي. مثال طور، جيڪڏهن اسان ڪنهن به ڳالهائيندڙن کي هڪ خاص تلفظ سان شامل نه ڪندا آهيون، ته پوءِ ٽيڪنالاجي انهي تلفظ سان ماڻهن لاءِ سٺو ڪم نه ڪندي. <وڌيڪ سکو>
+add-information-button = معلومات شامل ڪرو
+continue-speaking-button = نه مهرباني، ٻلوڻ جاري رکو
+create-profile-text = اوھان ري معلومات محفوظ ڪرڻ چاھو ٿا؟ <createProfile>پروفائل ٺاھو</createProfile>
+thanks-for-voice-toast = اوهان ري آواز ري معلومات لاء اوهان ري مهرباني
+thanks-for-voice-toast-error = اوهان ري آواز ري معلومات جمع ڪرائڻ ۾ هيڪ نقص پيدا ٿيو
+first-cta-gender-select-default-option = اوڀشن سليڪٿ ڪرو
+first-cta-gender-select-help-text =
+    .label = آڀرو سيڪس يا جينڍر ڪئ ڀذاسو
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = اوهان ري آواز ۾ حصو ليڻ لاء اوهان ري مهرباني!
+second-cta-subtitle-text = پروفائل سان، اوھان آپري سرگرمي ري نگراني ڪري سگھوٿا ۽ آواز ڊيٽا ري مدد ڪندڙن ري ھڪڙي ڪميونٽي سان ڳنڍي سگھوٿا.
+already-have-an-account = اڳ ۾ ئي هيڪ اڪائونٽ هي؟ <login>لاگ ان</login>
+create-profile-button = پروفائل ٺاھو
+# IMAGE TAGS
+img-alt-success-checkmark = ڪاميابي ري نشاني
+# menu item
+read-sentences = جملو پڙھو
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملو پڙھو<ننڍو>(جلدي آسي)<ننڍو>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = جملو پڙھو, جواب ڎيو
+read-sentences-menu-item-tooltip = آپري ٻوليءَ ۾ جملا پڙهڻ رو رڪارڊ ڪرو
+answer-questions-menu-item-tooltip = آپري ٻولي ۾ سوالنا ۽ اشارنا را جواب پاڻ نا رڪارڊ ڪرو
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = مينيو پوليڻ  رو
+read-sentences-menu-item-aria-label = مختلف ٻولينا ۾ ڪميونٽي پاران پيش ڪريل سزائون پڙهو
+answer-questions-menu-item-aria-label = ڪميونٽي نا پڙهڻ ۽ جواب ڏيڻ لاءِ هيڪ نئون سوال جمع ڪراو

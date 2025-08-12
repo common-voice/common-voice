@@ -3,6 +3,11 @@ guidelines-header = Οδηγίες συνεισφοράς
 guidelines-header-subtitle = Κατανοήστε τον τρόπο συνεισφοράς και επικύρωσης των προτάσεων και των ηχητικών αποσπασμάτων στο σύνολο δεδομένων του Common Voice
 voice-collection = Συλλογή φωνών
 sentence-collection = Συλλογή προτάσεων
+question-collection = Συλλογή ερωτήσεων
+spontaneous-speech = Αυθόρμητη ομιλία
+
+## Voice Collection nav ids
+
 varying-pronunciations = Ποικίλες προφορές
 misreadings = Λάθη στην ανάγνωση
 offensive-content = Προσβλητικό περιεχόμενο
@@ -12,6 +17,9 @@ volume = Ένταση
 reader-effects = Εφέ ανάγνωσης
 just-unsure = Δεν γνωρίζετε;
 example = Παράδειγμα
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Οι διαφορετικές προφορές είναι ευπρόσδεκτες! Προσέξτε πολύ πριν απορρίψετε κάποιο απόσπασμα όπου, κατά τη γνώμη σας, ο αναγνώστης έχει προφέρει λανθασμένα μια λέξη, δεν έχει τονίσει τη σωστή συλλαβή ή έχει αγνοήσει τα σημεία στίξης. Υπάρχει μια μεγάλη ποικιλία προφορών, μερικές από τις οποίες ενδέχεται να μην έχετε ακούσει στην περιοχή σας. Δείξτε αρκετή επιείκεια ως ένδειξη εκτίμησης για τους ανθρώπους που μιλούν διαφορετικά από εσάς.
 varying-pronunciations-explanation-2 = Από την άλλη, αν θεωρείτε ότι ο αναγνώστης δεν έχει έρθει ποτέ ξανά αντιμέτωπος με τη λέξη και δεν μάντεψε σωστά την προφορά της, κάντε απόρριψη. Αν δεν γνωρίζετε σίγουρα, κάντε κλικ στο κουμπί «Παράλειψη».
 varying-pronunciations-example = Ο καιρός ήταν καλός.
@@ -47,24 +55,30 @@ reader-effects-explanation = Οι περισσότερες ηχογραφήσε�
 just-unsure-explanation = Αν συναντήσετε κάτι που δεν καλύπτουν αυτοί οι κανόνες, ψηφίστε σύμφωνα με τη δική σας κρίση. Αν δεν μπορείτε πραγματικά να αποφασίσετε, κάντε κλικ στο κουμπί «Παράλειψη» και μεταβείτε στην επόμενη ηχογράφηση.
 still-have-questions = Έχετε ακόμα ερωτήσεις;
 contact-common-voice = Επικοινωνήστε με την ομάδα του Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Δημόσιος τομέας
 citing-sentences = Παραπομπή προτάσεων
 adding-sentences = Προσθήκη προτάσεων
 reviewing-sentences = Έλεγχος προτάσεων
 sentence-domain = Τομέας πρότασης
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Είναι πολύ σημαντικό όλες οι προτάσεις κειμένου να ανήκουν στον <publicDomain>δημόσιο τομέα</publicDomain> (<cc0>cc0</cc0>), καθώς το σύνολο δεδομένων του Common Voice κυκλοφορεί με άδεια cc0. Μεταφορτώστε μια πρόταση μόνο εάν είστε σίγουροι για αυτό και συμπεριλάβετε πάντα τη σχετική παραπομπή.
 public-domain-explanation-2 = Οι καλύτερες προτάσεις για τη δημιουργία μιας χρήσιμης μηχανής αναγνώρισης ομιλίας είναι η καθομιλουμένη, η σύγχρονη γλώσσα. Μερικές ιδέες που θα σας βοηθήσουν να δημιουργήσετε προτάσεις είναι:
 public-domain-explanation-3 = Δημιουργήστε σύγχρονες, καθημερινές προτάσεις μόνοι σας, με τους φίλους σας ή με μια γλωσσική κοινότητα, για παράδειγμα μέσω μιας εκδήλωσης συγγραφής.
 public-domain-explanation-4 = Επικοινωνήστε με συγγραφείς, δραματουργούς ή σεναριογράφους και ρωτήστε εάν θα ήταν πρόθυμοι να αφιερώσουν ένα μικρό μέρος των έργων τους στον δημόσιο τομέα
-public-domain-explanation-5 = Αναζητήστε κείμενο όπου δεν ισχύουν πλέον τα πνευματικά δικαιώματα - για παράδειγμα, τα περισσότερα βιβλία που εκδόθηκαν πριν από το 1920
+public-domain-explanation-5 = Αναζητήστε κείμενα για τα οποία δεν ισχύουν πλέον τα πνευματικά δικαιώματα, όπως τα περισσότερα βιβλία που εκδόθηκαν πριν από το 1920
 public-domain-explanation-6 = Απευθυνθείτε σε κυβερνήσεις, μη κερδοσκοπικούς οργανισμούς ή οργανισμούς μέσων ενημέρωσης για να δείτε εάν το περιεχόμενο ιστού, οι αναφορές ή άλλο περιεχόμενό τους μπορούν να προσφερθούν στον δημόσιο τομέα
 citing-sentences-explanation-1 = Είναι σημαντικό να συμπεριλάβουμε αναφορές, ώστε να μπορούμε να ελέγξουμε ότι οι προτάσεις ανήκουν στον δημόσιο τομέα και ότι δεν ισχύουν περιορισμοί πνευματικών δικαιωμάτων.
 citing-sentences-subheader-websites = Ιστότοποι
 citing-sentences-subheader-websites-explanation = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
 citing-sentences-subheader-academic-reference = Ακαδημαϊκή αναφορά
-citing-sentences-subheader-academic-reference-explanation = Μπορείτε να χρησιμοποιήσετε αναφορά ακαδημαϊκού τύπου, π.χ. το στυλ του Harvard: «Mozilla (2021) Common Voice. Διαθέσιμο στο https://commonvoice.mozilla.org/ (Ανακτήθηκε στις 15 Σεπτεμβρίου 2021)»
+citing-sentences-subheader-academic-reference-explanation = Μπορείτε να χρησιμοποιήσετε αναφορά ακαδημαϊκού τύπου, π.χ. το στιλ του Harvard: «Mozilla (2021) Common Voice. Διαθέσιμο στο https://commonvoice.mozilla.org/ (Ανακτήθηκε στις 15 Σεπτεμβρίου 2021)»
 citing-sentences-subheader-offline-sources = Πηγές εκτός διαδικτύου
-citing-sentences-subheader-offline-sources-explanation = Για κείμενα του δημόσιου τομέα που δεν είναι διαθέσιμα στο διαδίκτυο, μπορείτε να χρησιμοποιήσετε αναφορά ακαδημαϊκού τύπου, π.χ. το στυλ του Harvard: «Jess (2021) Ποιήματα με δημόσια άδεια»
+citing-sentences-subheader-offline-sources-explanation = Για κείμενα του δημόσιου τομέα που δεν είναι διαθέσιμα στο διαδίκτυο, μπορείτε να χρησιμοποιήσετε αναφορά ακαδημαϊκού τύπου, π.χ. το στιλ του Harvard: «Jess (2021) Ποιήματα με δημόσια άδεια»
 citation =
     .label = Παραπομπή
 self-citation = Αυτοαναφορά
@@ -91,3 +105,85 @@ reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί
 reviewing-sentences-explanation-3 = Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις προς έλεγχο, βοηθήστε μας να συγκεντρώσουμε περισσότερες!
 domain-explanation = Ο τομέας αναφέρεται στο θέμα της πρότασης. Προς το παρόν, μπορείτε να επιλέξετε μεταξύ των παρακάτω:
+
+## Question collection ids
+
+adding-questions = Προσθήκη ερωτήσεων
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Τι χαρακτηριστικά έχει μια καλή ερώτηση;
+what-makes-a-good-question-explanation = Μια καλή ερώτηση για σύνολα δεδομένων δημόσιας συμμετοχής θα πρέπει να:
+what-makes-a-good-question-explanation-criteria-1 = Είναι εύκολη στην κατανόηση και στην απάντηση
+what-makes-a-good-question-explanation-criteria-2 = Είναι γενικά επίκαιρη
+what-makes-a-good-question-explanation-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
+what-makes-a-good-question-tip = Σκεφτείτε επίσης να συμπεριλάβετε διαφορετικά συμφραζόμενα και τομείς.
+easy-to-understand = Εύκολη στην κατανόηση
+easy-to-understand-explanation = Επιλέξτε απλές ερωτήσεις που είναι εύκολες στην κατανόηση για οποιονδήποτε, ανεξαρτήτως πολιτισμικού υποβάθρου ή πλαισίου.
+spelling-and-pronunciation = Ορθογραφία και στίξη
+spelling-and-pronunciation-explanation = Χρησιμοποιήστε σωστή ορθογραφία και γραμματική.
+length = Μήκος
+length-explanation = Θα πρέπει να είναι δυνατή η απάντηση της ερώτησης μέσα σε λίγες μόνο προτάσεις.
+dont-add-subheader = Ερωτήσεις προς αποφυγή
+culturally-specific-questions = Ερωτήσεις για συγκεκριμένους πολιτισμούς
+culturally-specific-questions-explanation = Ερωτήσεις που είναι πολύ συγκεκριμένες πολιτισμικά ή βασίζονται σε πολλές υποθέσεις σχετικά με το άτομο που απαντά.
+length-avoid-explanation = Ερωτήσεις στις οποίες κάποιος θα δυσκολευόταν να απαντήσει μέσα σε 15 δευτερόλεπτα (μέγιστη διάρκεια του αποσπάσματος).
+process-steps = Διαδικασία/Βήματα
+process-steps-explanation = Ερωτήσεις που απαιτούν από κάποιον να παραθέσει αρκετά βήματα. Η παράθεση βημάτων αναγκάζει τον χρήστη να απαγγείλει το κείμενο, αντί να δώσει μια πιο φυσική απάντηση.
+offensive-content-sensitive-information = Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες
+offensive-content-sensitive-information-explanation-explanation-1 = Ερωτήσεις που ενδέχεται να ζητήσουν δεδομένα προσωπικού χαρακτήρα
+offensive-content-sensitive-information-explanation-explanation-2 = Ερωτήσεις που ενδέχεται να προκαλέσουν ρητορική μίσους ή άλλες προκατειλημμένες ή προσβλητικές απόψεις.
+offensive-content-sensitive-information-explanation-explanation-3 = Ερωτήσεις που ενδέχεται να οδηγήσουν κάποιον στο να μοιραστεί ευαίσθητες, ενδεχομένως τραυματικές απαντήσεις.
+example-questions-subheader = Παραδείγματα ερωτήσεων
+example-questions-explanation-1 = Μπορείτε να βρείτε <examplePromptsLink>120 παραδείγματα προτροπών σε αυτό το φύλλο.</examplePromptsLink>
+example-questions-explanation-2 = Αν θέλετε να υποβάλετε μια σειρά από ερωτήσεις, <githubLink>μπορείτε να το κάνετε μέσω του GitHub μας</githubLink> ή να στείλετε μέσω email τη λίστα σας στο <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
+## Spontaneous Speech sidebar content
+
+answer-questions-subheader = Γενικές οδηγίες
+transcribe-the-audio-subheader-1 = Γενικές οδηγίες
+transcribe-the-audio-subheader-2 = Αριθμοί και ακρωνύμια
+transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Σωστό</correct>: Απέχει εκατό χιλιόμετρα από εδώ
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Λάθος</wrong>: Απέχει 100 χιλιόμετρα από εδώ
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Σωστό</correct>: Τα λέμε το <underline>δύο χιλιάδες δεκαπέντε</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Λάθος</wrong>: Τα λέμε το <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Σωστό</correct>: Είχε είκοσι τοις εκατό έκπτωση
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Λάθος</wrong>: Είχε 20% έκπτωση
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Σωστό</correct>: Συνελήφθησαν από το <underline>FBI</underline> την προηγούμενη Πέμπτη
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Λάθος</wrong>: Συνελήφθησαν από το <underline>εφ μπι άι</underline> την προηγούμενη Πέμπτη
+tags-table-header-1 = Ετικέτα
+tags-table-header-2 = Σημασία
+tags-laugh = Γέλιο
+tags-unclear = Ασάφεια
+tags-noise = Θόρυβος
+tags-laugh-explanation = Ο ήχος του γέλιου.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Και τότε [θόρυβος] πήγα διακοπές.
+    Βασικά, [θόρυβος] [γέλιο] δεν ήταν ακριβώς διακοπές [γέλιο]
+
+## Review the Transcription
+
+review-the-transcription-subheader = Γενικές οδηγίες
+
+## Code-Switching
+
+code-switching-review-intro = Βεβαιωθείτε ότι η ερώτηση πληροί τα εξής κριτήρια:
+code-switching-review-does-not-header = Και ότι <bold>ΔΕΝ</bold> περιλαμβάνει:
+code-switching-review-offensive-content = <bold>Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες</bold>
+code-switching-answer-header = Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες
+code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
+# Transcribing
+code-switching-transcribe-subheader = Μεταγραφή
+code-switching-tagging-error-2 = Ορθογραφικά λάθη
+code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
+
+## Reporting Content
+
+reporting-content = Αναφορά περιεχομένου

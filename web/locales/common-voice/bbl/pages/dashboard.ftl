@@ -1,8 +1,8 @@
 ## Dashboard
 
 your-languages = შუჼ მატტი́შ
-toward-next-goal = ნიფს შილღეჩო მიზნეგო́მციჼ
-goal-reached = მიზაჼ ჴაჩენო̆ და
+toward-next-goal = ნიფს შილღეჩო̆ მიზნეგო́მციჼ
+goal-reached = მიზაჼ ჴაჩენო̆ ჲა
 clips-you-recorded = შუჼ ჩანაწერი
 clips-you-validated = ეჲშო̆ დარაჲლ'ნუჲ
 todays-recorded-progress = თხალუჼ ჰ̦ა́თხიხრი ჩანაწერა́ხ
@@ -18,8 +18,8 @@ validated-clips = დარალ'რი
 total-approved = დი́ნ დარაჲლნუჲ
 overall-accuracy = დიჼ ნიფსხოლ/სიზუსტ
 set-visibility = ნჵეჲნ გულა́ /ხილვადობ ო́თთჲარ
-visibility-explainer = ე პარამეტრევ გუდა́ჴო̆ ჰა́თხდახენჩუ́ჲშლო გუიშ ლე ცო. მაცმე ლაჭყდიენო̆ და, ჴე́ჩუიშნ ცო გუ შუჼ ჰა́თხ იხარ. ე ო ა́ლ'ანდა, მე შუჼ გამოსა́ხულებ, წე ჲე ჰალო̆ თაგდინუჲ ცო ხილ'ო̆ სიელო. ბჵარკკიკელ ხილ'ა́ლ შუგო, მე სი́ ჰალო̆ წინარდანაჲნო { $minutes }წთ ხილ'ო̆ საჭირო̆, მე უ̂ნე́ ხა́რცდა́ლინც, ო ასა́ხოლა́ლო̆
-visibility-overlay-note = მაცმე ოთთდიენო და "გულეჲნი", ეჰათ ო ხარცდარ მაკ შუჼ <profileLink>პროფილერენდა/საიტერენდა</profileLink>
+visibility-explainer = ე პარამეტრევ გუდა́ჴო̆ ჰა́თხდახენჩუ́ჲშლო გუიშ ლე ცო. მაცმე ლაჭყდიენო̆ და, ჴე́ჩუიშნ ცო გუ შუჼ ჰა́თხ იხარ. ე ო ა́ლ'ანდა, მე შუჼ გამოსა́ხულებ, წე ჲე ჰალო̆ თაგდინუჲ ცო ხილ'ო̆ სიელო. ბჵარკკიკელ ხილ'ა́ლ შუგო, მე სი́ ჰალო̆ წინარდანაჲნო { $minutes } წთ ხილ'ო̆ საჭირო̆, მე უ̂ნე́ ხა́რცდა́ლინც, ო ასა́ხოლა́ლო̆
+visibility-overlay-note = მაცმე́ ო́თთდიენო̆ და "ჰ̦ალო̆ გულეჲნი̆", ეჰ̦ა́თ ო ხა́რცდაჼ მაკ შუჼ <profileLink>პრო́ფილერენდა/სა́იტერენდა</profileLink>
 show-ranking = საიჼ ა́დგილ ჲაგარ
 
 ## Custom Goals
@@ -52,72 +52,11 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = მიზაჼ მითითბადარ
 cant-decide = ცუჲ ჩავარდომაკინდა ჰ̦ოჼ?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                               *[other] { $totalHours } საათი მიიღწევა სულ რაღაც  { $periodMonths } თვეში თუ{ $people } ადამიანი გააკეთებს { $clipsPerDay } ჩანაწერს დღეში
-                            }
-                    }
-            }
-    }
 how-many-per-day = დაქიჼ და! დე́ნი მელ' ჩანაწერ?
 how-many-a-week = დაქიჼ და! გეფსუ მელ' ჩანაწერ?
 which-goal-type = ჩაწე́რადარი თე́ლ' ჰ̦ო, ლარკ ჵო́ფარი́ ლე შიკეჸ?
-receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენო̆ და, მე ლე́ჸ ჰ̦ოჼ ელფო́სტევ მიღე́ბადოლო́ დაკჴე́ლრი ჰ̦ალო̆ შესრულბადუ́ჲნჩო̆ მიზნა́ხა́ჲ, უჲშტნეჸ, სა́ქმ მიმდინარეობეხ ჲე  Common Voice-ხ ჴალლუ́ჲნი̆ წინ ამბუჲ
-not-receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენო̆ და, მე<bold>ცო</bold> ლე́ჸ ჰ̦ოჼ ელფო́სტევ მიღე́ბადოლო́ დაკჴე́ლრი ჰ̦ალო̆ შესრულბადუ́ჲნჩო̆ მიზნა́ხა́ჲ, უჲშტნეჸ, სა́ქმ მიმდინარეობეხ ჲე  Common Voice-ხ ჴალლუ́ჲნი̆ წინ ამბუჲ
+receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენო̆ და, მე ლე́ჸ ჰ̦ოჼ ელფო́სტევ მიღე́ბადოლო́ დაკჴე́ლრი ჰ̦ალო̆ შესრულბადო́ჩო̆ მიზნა́ხა́ჲ, უჲშტნეჸ, სა́ქმ მიმდინარეობეხე́  Common Voice-ხ ჴალლუ́ჲნი̆ წინ ამბუჲ
+not-receiving-emails-info = ჰ̦ო́გო დაკლე́ვადიენო̆ და, მე<bold>ცო</bold> ლე́ჸ ჰ̦ოჼ ელფო́სტევ მიღე́ბადოლო́ დაკჴე́ლრი ჰ̦ალო̆ შესრულბადო́ჩო̆ მიზნა́ხა́ჲ, უჲშტნეჸ, სა́ქმ მიმდინარეობეხე́  Common Voice-ხ ჴალლუ́ჲნი̆ წინ ამბუჲ
 n-clips-pluralized =
     { $count ->
         [one] ჩანაწერ

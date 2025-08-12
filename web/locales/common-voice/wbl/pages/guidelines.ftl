@@ -3,6 +3,10 @@ guidelines-header = Hisadoriẽ fidat
 guidelines-header-subtitle = hisadoriẽ hẽr k̃hũ pẽzũv kat̃ woz jũmlavẽ towsiq car woz komon voysẽ d̃at̃asẽt̃ẽr owozẽ klipisht
 voice-collection = owoz g̃hũrtẽn
 sentence-collection = Jumlaev jama k̃hak
+question-collection = Sawolve Majmua'
+
+## Voice Collection nav ids
+
 varying-pronunciations = qisẽm qismẽ tẽlafuz
 misreadings = ghẽlat joyn/ ghẽlat hẽr k̃hũ pẽzũv kẽt̃ak
 offensive-content = jarihana muwod
@@ -12,6 +16,9 @@ volume = Hũjẽm
 reader-effects = Joynẽkũzgvẽ Asar
 just-unsure = sirf gheyr yẽqini
 example = misol
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = har qisme lehjarẽs̃h khũshomẽdin k̃hanẽn! tor ki sedhoydẽ ki joynekũzge ghẽlat joyetk kumd kelipe rad k̃hakẽr ityot car. tẽnawi sẽk ghẽlat jay, yoyeve owqofẽv rẽmũs̃htk. dẽ pẽtũn dẽnyoyi ghafch qisme hijayisht. yisarẽt nivẽr dẽ k̃hu zik ne kẽs̃hẽn. miriboni car k̃hẽ yave k̃hũ pẽzũve het̃ lecẽr k̃he sẽtow
 varying-pronunciations-explanation-2 = tor ki sẽdhoydẽ ki joynẽ kuzgẽ kumd harf tag ne winetk, wozẽs̃h telafuzẽs̃h ghelat ẽndoza cart, miriboni car k̃hẽ rad car agar ki tori yaqin nast, shekhsnẽ mẽrwotẽ pakhch.
 varying-pronunciations-example = vẽdek pokiza ne tu/ vẽdek nomalum tu
@@ -47,11 +54,17 @@ reader-effects-explanation = ziyodatar ricording haya owozẽr wost kumdrẽs̃h
 just-unsure-explanation = agar haz̃irgẽs̃h ki chizẽ win ki yasht wẽchel ne vitk, miriboni car k̃hẽ baf andoza car. agarẽt ki faysila bas ne wezdẽ shekhsnẽ mẽrwatẽ istimol k̃he ya yor record̃ingẽr rec̃h
 still-have-questions = Galẽv bẽ sowolishta?
 contact-common-voice = Dẽ Kommon Voys grun rabita
+
+## Sentence collection nav ids
+
 public-domain = Mẽrdũme D̃omen
 citing-sentences = Jumla hẽwola/ zẽrya
 adding-sentences = Jumlav qẽti k̃hak
 reviewing-sentences = Jumlavẽ dẽdeg̃hik
 sentence-domain = Jũmlaẽ had/makhso d̃omen (domain)
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Yemi gha zẽrũri ki tẽmon nivishet jumlavev mẽrdũme makso <publicDomain></publicDomain> (<cc0>cc</cc0>) cergeve ki Kommon Voyse d̃at̃aset dẽ yi cc0 sanadẽ dest k̃het. agar tori ki yaqin tey yi jũmal uplowd̃ car, woz hamishat mutaliqa hawola rand.
 public-domain-explanation-2 = Gap dini yi koromad taqrir shẽnokhtẽ injẽnẽr dẽrkor, s̃heg̃hd  gpadin, Jũmla k̃hakri caq k̃heyolisht:
 public-domain-explanation-3 = k̃hat yoy dẽ k̃hũ dustvẽn yoy zikẽ kommuniti mẽs̃h jadid qẽsaẽ jumlave gok̃hit - yanike write-a-thon sẽbabẽn
@@ -91,3 +104,28 @@ reviewing-sentences-explanation-2 = agar jũmlas̃h ki dẽ k̃hẽnet mẽyor 
 reviewing-sentences-explanation-3 = tini ki sẽk jũmla barar yaqin tey, to andi tra yor jũmal shekhs
 reviewing-sentences-explanation-4 = Agar dẽdeg̃hikrẽs̃h ki jumla kam wost, miriboni car k̃hẽ c̃hak jumla g̃hurtnẽr k̃hakẽr sakẽr  yori/ mẽdad woc
 domain-explanation = ce Ẽhatani jumla mowzu mẽrod . hanivẽs̃h, tu dẽ mung intikhobẽ bas wez
+
+## Question collection ids
+
+adding-questions = Sawlev Qiti K`hak
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Yi Baf swoles`h chisokht wost?
+what-makes-a-good-question-explanation = Yurte Shirokatdoriye haten yi baf sawole 'datasets' boyedki:
+what-makes-a-good-question-explanation-criteria-1 = Repuzuv kitak et jawob redhower Oson humuyd
+what-makes-a-good-question-explanation-criteria-2 = Amumi torer mutaliqa humuyd
+what-makes-a-good-question-explanation-criteria-3 = Naqabili Istimol, talab k`hetk, nuqsondeh, yoy jarihanana zik me humuyd
+what-makes-a-good-question-tip = Mumkini Sashtep Digar siyoq o saboq et 'Domains' ver be sumba carit.
+easy-to-understand = Puzuv kitaker Oson Humuyd
+easy-to-understand-explanation = Oson Jumlave intikhob car kumdiki puzuv kitaker har yiewer Oson, damve makhsus saqofat et Siyoqe mutobiq.
+spelling-and-pronunciation = Hijat woz awqof
+spelling-and-pronunciation-explanation = Durust Hijja et Graimar istimol carit.
+length = Dẽrozig̃h
+length-explanation = Sawole jawob de Chandi Jumlaev redho wost.
+dont-add-subheader = Qitti Mecar
+culturally-specific-questions = Makhsus Saqofati sawolisht
+culturally-specific-questions-explanation = Saqofat en Mutaliqa Swlisht, yoy jawob redhowe kuzgk bara er C`hak mafruzat lecer.
+length-avoid-explanation = Kuybiki ce Sawlve Jawobe de 15 lamhotve dest rand (can deroz clip me wost)
+process-steps = Amal / Qadamish
+process-steps-explanation = kuyẽ sowolẽ kẽs̃hũynẽni ghafch qẽdamisht, kẽs̃hũynẽ qẽdamisht khalgẽ jẽwobẽr tiyor cart can elowa ki fitratẽ mẽtobiq jẽwob randẽn

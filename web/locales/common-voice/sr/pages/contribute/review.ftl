@@ -33,6 +33,3 @@ sc-review-form-reviewed-message =
     }
 sc-review-form-review-failure = Није могуће сачувати преглед. Покушајте поново касније.
 sc-review-link = Прегледај
-
-## REVIEW CRITERIA
-

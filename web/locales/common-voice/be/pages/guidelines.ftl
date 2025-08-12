@@ -1,6 +1,9 @@
 guidelines-header-subtitle = Даведайцеся, як дадаваць і правяраць сказы і аўдыёзапісы ў наборы дадзеных Common Voice
 voice-collection = Збор галасоў
 sentence-collection = Збор сказаў
+
+## Voice Collection nav ids
+
 varying-pronunciations = Розныя вымаўленні
 misreadings = Няправільнае прачытанне
 offensive-content = Абразлівы змест
@@ -9,12 +12,21 @@ volume = Гучнасць
 reader-effects = Асаблівасці чытання
 just-unsure = Проста не ўпэўненыя?
 example = Прыклад
+
+## Voice collection sidebar content
+
 still-have-questions = Засталіся пытанні?
 contact-common-voice = Звяжыцеся з камандай Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Грамадскі набытак
 citing-sentences = Цытаванне сказаў
 adding-sentences = Дадаванне сказаў
 reviewing-sentences = Праверка сказаў
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Вельмі важна, каб усе тэкставыя сказы былі ў <publicDomain>грамадскім набытку</publicDomain> (<cc0>cc0</cc0>), бо набор дадзеных Common Voice публікуецца пад ліцэнзіяй cc0. Толькі ў тым выпадку дадавайце сказ, калі вы ўпэўнены, што ліцэнзійных абмежаванняў няма, і заўсёды пазначайце адпаведную цытату.
 citing-sentences-subheader-websites = Вэб-сайты
 citing-sentences-subheader-academic-reference = Навуковае цытаванне

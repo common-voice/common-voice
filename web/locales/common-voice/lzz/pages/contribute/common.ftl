@@ -1,9 +1,14 @@
-action-click = Met̆aǩulu
-action-tap = Ombolina
-contribute = Eǩoşvelu
-review = Meotzǩedi
+action-click = not̆aǩulit
+action-tap = nantzit
+contribute = Nuşvelit
+review = Notsadi
 skip = Moyoǩap̌i
 shortcuts = Gzamǩulepe
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> xoma doloçhara
+       *[other] <bold>{ $count }</bold> xoma doloçharape
+    }
 contribute-more =
     { $count ->
         [one] { $count } daha dido-muşi oxenus xadziri ore-i?
@@ -11,14 +16,19 @@ contribute-more =
     }
 speak-empty-state = Ham nenas doliç̌arasen cumle var madzires.
 speak-empty-state-cta = Cumlepe şeni eǩuşvelit
+speak-loading-error =
+    Dologaçharanen cumle var madzires. 
+    Goga, ukhule xolo geitsadit.
 record-button-label = Nena-skani doloç̌ari
 share-title-new = Daha dido xoma odzirus <bold>memişvelit</bold>
 keep-track-profile = Ar profilite ogzalu-tkvani nayonit
 login-to-get-started = Geç̌ǩapu (ceç̌apu) şeni amaxtit vana doliç̌arit
 target-segment-first-card = Maarani hedefişi segmentis numxacamt.
 target-segment-generic-card = Hedef segmentis numxacamt.
+target-segment-first-banner = Common Voiceşi maarani { $locale } hedef segmenti getzopxus memişvelit
 target-segment-add-voice = Nena-tkvani keǩunt̆alit
 target-segment-learn-more = Daha fazla gaçkinas
+change-preferences = Goşatsxunerepe gokturi
 login-signup = Amaxti / Doliç'ari
 vote-yes = Ho
 vote-no = Var
@@ -56,9 +66,6 @@ shortcut-skip = i
 
 ## Speak Shortcuts
 
-# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
-# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = d
 shortcut-record-toggle-label = Doloç̌ari/ Dodgiti
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ǩilibi meyoç̌ari
@@ -87,6 +94,8 @@ shortcut-vote-no = v
 contribution-criteria-nav = ǩriterepe
 contribution-criteria-link = Meşveluşi kriterepe oxotzonit
 contribution-criteria-page-title = Meşveluşi kriterepe
+contribution-criteria-page-description = Ses kayıtlarını dinlerken nelere dikkat etmeniz gerektiğini öğrenin. Böylece kendi ses kayıtlarınızı da zenginleştirebilirsiniz.
+contribution-for-example = evuli
 contribution-misreadings-title = Yanlişi oǩitxupe
 contribution-misreadings-description-extended-list-4 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
 contribution-misreadings-description-extended-list-5 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.

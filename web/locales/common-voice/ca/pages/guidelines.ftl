@@ -3,6 +3,10 @@ guidelines-header = Directrius de col·laboració
 guidelines-header-subtitle = Enteneu com col·laborar i validar frases i talls de veu al conjunt de dades del Common Voice
 voice-collection = Recollida de veus
 sentence-collection = Recollida de frases
+question-collection = Col·lecció de preguntes
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronunciacions variables
 misreadings = Lectures errònies
 offensive-content = Contingut ofensiu
@@ -12,6 +16,9 @@ volume = Volum
 reader-effects = Efectes de lectura
 just-unsure = Teniu dubtes?
 example = Exemple
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Volem accents diferents! Tingueu cura abans de rebutjar un tall perquè penseu que el lector ha pronunciat malament una paraula, no ha neutralitzat alguna vocal o ha ignorat una erra final. El català té una àmplia varietat de pronúncies, i potser no les heu sentit mai. No es pronuncia igual en català central, balear, valencià o septentrional. Feu confiança a aquells que parlen d’una manera diferent de la vostra.
 varying-pronunciations-explanation-2 = D'altra banda, si creieu que el lector no s'ha trobat mai amb la paraula i fa una suposició incorrecta de la pronúncia, rebutgeu el tall. Si no n'esteu segur, utilitzeu el botó Omet.
 varying-pronunciations-example = Mengem peres.
@@ -47,11 +54,17 @@ reader-effects-explanation = La majoria dels enregistraments són de gent que pa
 just-unsure-explanation = Si us trobeu amb alguna cosa que aquestes directrius no cobreixen, voteu segons el vostre criteri. Si realment no ho podeu decidir, feu servir el botó Omet i passeu a l'enregistrament següent.
 still-have-questions = Encara teniu preguntes?
 contact-common-voice = Contacteu amb l'equip de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Domini públic
 citing-sentences = Citació de frases
 adding-sentences = Addició de frases
 reviewing-sentences = Revisió de frases
 sentence-domain = Domini de les frases
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = És molt important que totes les frases de text siguin <publicDomain>domini públic</publicDomain> (<cc0>cc0</cc0>), ja que el conjunt de dades de Common Voice es publica sota una llicència cc0. Pengeu una frase només si n'esteu segur i incloeu sempre la citació corresponent.
 public-domain-explanation-2 = Les millors frases per a construir un motor de reconeixement de veu útil són les de llenguatge col·loquial i modern. Algunes idees per a ajudar-vos a generar frases són;
 public-domain-explanation-3 = Creeu frases modernes i col·loquials per vosaltres mateixos o amb els vostres amics o comunitat lingüística, per exemple mitjançant una «marató d'escriptura»
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anterio
 reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 domain-explanation = El domini fa referència a la temàtica de la frase. Actualment, podeu triar entre:
+
+## Question collection ids
+
+adding-questions = Afegir preguntes
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Què fa que una pregunta sigui bona?
+what-makes-a-good-question-explanation = Una bona pregunta per a conjunts de dades de participació pública hauria de:
+what-makes-a-good-question-explanation-criteria-1 = Ser fàcil d'entendre i de respondre
+what-makes-a-good-question-explanation-criteria-2 = Ser rellevant en general
+what-makes-a-good-question-explanation-criteria-3 = No usar ni sol·licitar llenguatge perjudicial o ofensiu
+what-makes-a-good-question-tip = També podríeu considerar abastar diferents contextos i dominis.
+easy-to-understand = Fàcil d'entendre
+easy-to-understand-explanation = Trieu preguntes senzilles que siguin fàcils d'entendre per tothom, independentment de la cultura o el context.
+spelling-and-pronunciation = Ortografia i puntuació
+spelling-and-pronunciation-explanation = L'ortografia i la gramàtica són correctes
+length = Longitud
+length-explanation = La pregunta s'hauria de poder respondre en només un parell de frases.
+dont-add-subheader = No afegiu
+culturally-specific-questions = Preguntes culturalment específiques
+culturally-specific-questions-explanation = Preguntes que són molt específiques de cada cultura o que fan moltes suposicions sobre la persona que respon
+length-avoid-explanation = Preguntes que algú tindria dificultats per respondre en 15 segons (la durada màxima del clip)
+process-steps = Procés / Passos
+process-steps-explanation = Preguntes que requereixen que algú enumeri diversos passos. L'enumeració dels passos demana a l'usuari que reciti una resposta en lloc d'una resposta més natural.
+offensive-content-sensitive-information = Contingut ofensiu o informació sensible
+offensive-content-sensitive-information-explanation-explanation-1 = Preguntes que podrien sol·licitar informació personal identificable
+offensive-content-sensitive-information-explanation-explanation-2 = Preguntes que puguin incitar a l'odi o altres sentiments esbiaixats o ofensius
+offensive-content-sensitive-information-explanation-explanation-3 = Preguntes que poden fer que algú comparteixi respostes sensibles i potencialment desencadenants
+example-questions-subheader = Preguntes d'exemple
+example-questions-explanation-1 = Podeu trobar <examplePromptsLink>120 preguntes d'exemple en aquest full.</examplePromptsLink>
+example-questions-explanation-2 = Si voleu enviar una sèrie de preguntes per a afegir-les, <githubLink>podeu fer-ho a través del nostre GitHub</githubLink> o enviar la llista per correu electrònic a <emailFragment>commonvoice@mozilla.com.</emailFragment>

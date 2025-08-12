@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copë në ditë.
-                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copa në ditë.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copë në ditë.
-                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copa në ditë.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copë në ditë.
-                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copa në ditë.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copë në ditë.
-                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copa në ditë.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copë në ditë.
-                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copa në ditë.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copë në ditë.
-                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copa në ditë.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copë në ditë.
-                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } person incizojnë { $clipsPerDay } copa në ditë.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copë në ditë.
-                               *[other] { $totalHours } orë mund të plotësohen në thjesht{ $periodMonths } muaj nëse{ $people } vetë incizojnë { $clipsPerDay } copa në ditë.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?

@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Maksat goý
 cant-decide = Karar berip bilmeýärsiňizmi?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                               *[other] { $totalHours } sagada ýetip bolýar { $periodMonths } aýda eger { $people } adam ýazgy etse günde { $clipsPerDay } klip.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Örän gowy! Günde näçe klip?
 how-many-a-week = Örän gowy! Hepdede näçe klip?
 which-goal-type = Geplemek, diňlemek ýa-da ikisinem isleýärsiňizmi?

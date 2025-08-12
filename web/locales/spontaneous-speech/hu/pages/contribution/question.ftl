@@ -3,6 +3,7 @@
 question-page-instruction = Adjon hozzá egy kérdést <icon></icon> { $currentLocale } nyelven, hogy a mások megválaszolhassák
 add-question-textarea-placeholder = például „Mire használná a technológiát?”
 add-questions-terms-checkbox = * Megerősítem, hogy ez a mondat <wikipediaLink>közkincs</wikipediaLink>, és engedéllyel töltöm fel.
+question-dataset-language = Adatkészlet: { $databaseLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } / 1 kérdés összegyűjtve
@@ -25,3 +26,5 @@ do-not-section-title = ne
 do-not-section-guideline-1 = Kérjen személyazonosításra alkalmas adatokat (például neveket vagy pénzügyi információkat)
 do-not-section-guideline-2 = Fejezzen ki előítéletes vagy sértő érzéseket
 do-not-section-guideline-3 = Tegyen fel kényes kérdéseket
+# Code switching Guidelines
+cs-do-section-guideline-1 = Használjon kétnyelvű kérdéseket vagy szövegkörnyezetet

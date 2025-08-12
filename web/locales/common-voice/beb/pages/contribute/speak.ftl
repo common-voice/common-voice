@@ -60,9 +60,3 @@ already-have-an-account = Bɛlì si nə mpək ɛ<login>Connexion</login>
 create-profile-button = À cɔ̄m mpək
 # IMAGE TAGS
 img-alt-success-checkmark = Bà mə kâbì
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

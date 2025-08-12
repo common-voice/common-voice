@@ -37,6 +37,7 @@ const replaceWhitespaces = () =>
       const updatedClipRow = {
         ...chunk,
         sentence: chunk.sentence.replace(/\s/gi, ' '),
+        source: chunk.sentence.replace(/\s/gi, ' '),
       }
 
       callback(null, updatedClipRow)

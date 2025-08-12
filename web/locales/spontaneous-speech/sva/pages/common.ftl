@@ -4,11 +4,13 @@
 error = შეცდომა
 action-click = ჟილითლე
 action-tap = ლიგდური
+# Label for language switcher
+platform-language = პლატფორმა̄̈ ნინ
+platform-language-tooltip-text = აცა̄̈დი საიტი ტექსტს გარ
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = მონაცემრეშ ხორეუ̂თეჲსგა წვლილი ლიდი { $language }-ეშდ
-# Label for button on contribution switcher
-change = ჟი ლისპე
+contribution-picker-tooltip-text = აცა̄დუნე ნინი მონაცემრე ბაზას, ხედუ̂ა̄̈ჲთე̄ჲსგა სი ეჯღუ̂ა წუ̂ლილ
 coming-soon = დო̄სგ ქა იწუ̂ე̄ნიხ იშგენ ნჷნა̈რი
 media-recorder-api-not-supported = The MediaRecorder API მა̄მ ლი მხარდაჭერილ ისგუ̂ა ბრაუზერისგა.
 # Toast message that is displayed when an item is skipped
@@ -18,13 +20,16 @@ guidelines = რეკომენდაცია̄̈ლ
 # For the button to report an item
 report-button = ანგარიშ
 # For the button to skip an item
-skip-button = ქა ლიცვრე
+skip-button = ქა ლიცუ̂რე
 submit-button = ქა ლიზზი
 contribute = ლიმურჯუ̂ი
+request-new-language = ხიჰრ მახე ნინ
 
 ## Navbar
 
+question = კითხვა
 respond-to-prompt = ლოხპასუ̂იხუ̂ იმუ̂ა̄̈ჲ იჰრიხ
+transcribe = ჟოხოსყ ტრანსკიფცია
 check-transcriptions = ჩუ̂ათმოწმა̈ნ ტრანსკრიფცია̄̈ლ
 
 ## Not Found Page
@@ -43,13 +48,20 @@ hch = ვიქსარიკა
 kzi = კელაბიტ
 mbf = ბაბა მალაიზია
 meh = სამხრეთ-დასავლეთ Tlaxiaco Mixtec
-mel = ცენტრალური Melanau
+mel = ცენტრალურ Melanau
 mmc = მიჩოაკან მაზახუა
 ms-MY = მალაიური ენა
 msi = მალაიური
-pez = აღმოსავლური პენანი
-pne = დასავლური პენანი
+pez = აღმოსავლურ პენან
+pne = დასავლურ პენან
 sdo = Bidayuh-ის ტომი
 snv = მა̈გ
 tr = თურქულ
 xkl = კენიურ
+
+## Language search component
+
+language-search-placeholder = ნინი ლითხე̄ლი...
+language-search-aria-label = ნინი ლითხე̄ლი
+language-search-label = აცა̄̈დი მონაცემრე წუ̂ლილი ნინსგარ
+language-search-no-results = ნინა̈რ მა̄მ ა̈ნთხა̄̈ნხ

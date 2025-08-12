@@ -6,11 +6,11 @@ action-click = Prema
 action-tap = Toque
 # Label for language switcher
 platform-language = Idioma da páxina:
+platform-language-tooltip-text = Só modifica o texto do sitio web.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Está contribuíndo ao conxunto de datos do { $language }
-# Label for button on contribution switcher
-change = Cambiar
+contribution-picker-tooltip-text = Cambia o conxunto de datos lingüísticos ao que está a contribuír.
 coming-soon = Máis idiomas proximamente
 media-recorder-api-not-supported = A API MediaRecorder non é compatible co seu navegador.
 # Toast message that is displayed when an item is skipped
@@ -24,12 +24,16 @@ skip-button = Saltar
 submit-button = Enviar
 contribute = Colabore
 request-new-language = Solicitar un novo idioma
+# Button text which appears when there are no more resources
+continue-with-skipped = Continuar co contido omitido
 
 ## Navbar
 
-respond-to-prompt = Responda a pregunta
+question = Engada preguntas
+validate = Valide
+respond-to-prompt = Responda
+transcribe = Transcriba
 check-transcriptions = Revise transcricións
-question = Pregunta
 
 ## Not Found Page
 
@@ -40,3 +44,10 @@ accept-privacy-and-terms = Acepto as <termsLink>Condicións</termsLink> e o <pri
 en = Inglés
 fr = Francés
 tr = Turco
+
+## Language search component
+
+language-search-placeholder = Busque un idioma…
+language-search-aria-label = Busque un idioma
+language-search-label = Cambia só o idioma de contribución ao conxunto de datos
+language-search-no-results = Non se atopou ningún idioma

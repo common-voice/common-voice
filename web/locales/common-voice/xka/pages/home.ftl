@@ -76,12 +76,8 @@ read-more-about = اسے پیج دی پا باڑ
 ## NAV ITEMS
 
 answer-questions = سوالونی ام جواب دہ
-answer-questions-coming-soon = سوال جواب<small>تیپہ پشہ۔
 review-transcriptions = ترجمہ دیراں نال
-review-transcriptions-coming-soon = ترجمہ دیراں نال<small>تیپہ پݭہ</small>
 add-questions = دی پہ سوالونی <small> تیپہ پݭہ</small>
-add-questions-coming-soon = دی پہ سوالونی <small> تیپہ پݭہ</small>
-transcribe-audio-coming-soon = جولال سمال۔<small>تیپہ پݭون۔</small>
 transcribe-audio = بوجل نقل تیپہ پݭہ۔
 press-and-stories = سیپ دے
 community-and-languages = تانی خلق تے  تنے جیب
@@ -96,13 +92,9 @@ community-and-languages-menu-item-tooltip = جیب،خلق تے کامن ویس 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اپشن مینو بارا مے
 partnerships-menu-item-aria-label = کامن ویاس دا دراوال  جان
 press-and-stories-menu-item-aria-label = کامن وایس سہ قیصہ
 community-and-languages-menu-item-aria-label = ءکامن وایس اے کاں  خلق تے جیب   ام اے مدد تھال تنا پویان
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,6 +115,7 @@ spontaneous-card-header = جولال
 spontaneous-card-content = ران،تے بربادی روان جولال  تے سلوخ ڈیٹا سیٹ ترال کیرپرامپٹ تہ رسپانس دہ
 language-text-card-header = جیب اے چوݨاگیل
 language-text-card-content = لک جیب ام۔تے ترجمہ ام کیر عوامی ڈومین نکلا شیئر تھا
+coming-soon = یندر
 add-text = ٹیکسٹ مِیلہ۔
 
 ## Community section

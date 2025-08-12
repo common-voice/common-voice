@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = ڪِي تمي آپرو ڊيٽا ڊائونلوڊ ڪروا ڪروه؟
+download-info = ڪِي تمي ۿمڀۯاوي هيڪو جي تمي ڪِي ڊائونلوڊ ڪروا ڪروه:
+download-profile-title = پروفائل
+download-profile-info = اِيئا ۾ تمارو اِيميل،استمعال ڪريا واۯا رو نوم،انَ آڀاڌِي را ڀارام جانڪارئي هوئہ، جيو جھٽ ۾ زڙي هيڪئہ
+download-profile-size = جوم ننڪئي ڊيٽا مِقڌار
+download-recordings-title = رِيڪارڊِنگون
+download-recordings-info = اِيئا ۾ ايم پِي 3 فائلون انَ اُوئا ٿِي متعلق جُملا شامِل سئہ،تيارِي ۾ ڪيئنڪ ٽيم لاڳي هيڪئہ
+download-recordings-size = گھڻو ڪرينَ ميگابائيٽ ۾ هوئہ
+download-recordings-unavailable = تمي آپرِي ريڪارڊِنگ رئي ڌرخواست تئيون ۿُوڌِي نٿِي ۮي هيڪتا زئيون ۿُوڌِِي هيڪ ٻِيزئي ڌرخواست ويتئي هوئہ۔
+download-recently-requested = تمي آپرِي ريڪارڊِنگ ليوو{ $days }هر ۮِي ۾ ڌرخواست ۮي هيڪو۔
+download-size = ماپ
+download-selected = سُونڍل
+download-start = پروفائل ڊيٽا ڊائونلوڊ ڪرو
+download-request = رِيڪارڊِنگ رئي ڌرخواست
+download-requests = پيرهيِن ريڪارڊِنگ رئي ڌرخواست
+download-requests-info = زئيون تمي آپرِي رِيڪارڊِنگ رئي ڌرخواست ڪروه،امي اُوئا هيڪِي زِپ فائل ۾ ڀيۯو ڪرونه۔ پرئي ايٿئہ تمارئي پيرهِين ڌرخواست سئہ:
+download-request-button = ڊائونلوڊ
+download-request-title = { $created }
+download-request-description = { $clipCount }آوازون را ڪِلپ،ٻڌائي محفُوظ ماپ{ $size }۔کتم{ $expires }۔
+download-request-archive-single = هيڪ زپ فائل جيو شامِل سئہ
+download-request-archive-multiple = زِپ ۾ تقسيم ڪريو ڳيو { $archiveCount }جيو شامِل سئہ
+download-request-assembling-description = تماري فائلون جمع ڪري زائه ري۔ميرڀونئي ڪرينَ ٻِيزي وار چيڪ ڪرو۔
+download-request-refresh-button = وۯي نوو ڪرو
+download-request-modal-title = ڊائونلوڊ را لِنڪ
+download-request-modal-description = ايٿئہ تمون ۿارُو زِپ فائلون ڊائونلوڊ ڪريا ۿارُو لِنڪ ۮِيڌل سئہ۔
+download-request-link-text = زِپ #{ $offset }رو{ $total }
+download-request-metadata-link = جُملا رو متنَ
+download-request-link-single = تمي آپرا پسنڌِيڌا ڊائولوڊ مئنِيجر ۾ سِڌو URLs پڻ ڪاپئي ڪري هيڪو۔اي ٻارئہ ڪلاڪون ڪيڙ کتم ٿي زاشي، پڻ تمي اِيئا پونيا مانه آوينَ ڪيئہ پڻ ٽوڻئہ آوينَ نوا ٺاوي هيڪو۔

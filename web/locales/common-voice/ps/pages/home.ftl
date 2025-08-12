@@ -88,36 +88,40 @@ read-more-about = نور زموږ په اړه پاڼې کې ولولئ
 answer-questions = پوښتنو ته ځواب ورکړئ <کوچنۍ>(ډیر ژر راځي)</small>
 review-transcriptions = د نقلونو بیاکتنه <small>(ډیر ژر راځي)</small>
 add-questions = پوښتنې اضافه کړئ <کوچنۍ>(ډیر ژر راځي)</small>
+review-questions = د پوښتنو بیاکتنه
 transcribe-audio = آډیو نقل کړئ <small>(ډیر ژر راځي)</small>
+press-and-stories = مطبوعات او کیسې
+community-and-languages = ټولنه او ژبې
+about-us = زموږ په اړه
+scripted-speech = لیکل شوې وینا
+spontaneous-speech = په خپله خوښه وینا
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = ملګرتیاوې، مطبوعات او کیسې، ټولنه او ژبې
+about-us-menu-item-tooltip = د کامن وائس تر شا د ماموریت او ټیم په اړه زده کړه وکړئ
+partnerships-menu-item-tooltip = په ټوله نړۍ کې د ګډ غږ ملاتړ کونکي سازمانونه وپلټئ
+press-and-stories-menu-item-tooltip = د کامن وائس کیسې، تازه معلومات، او د رسنیو پوښښ ولولئ
+community-and-languages-menu-item-tooltip = زموږ ټولنې سره وصل شئ او ملاتړ شوې ژبې وګورئ
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = د اختیارونو مینو په اړه
+about-us-menu-aria-label = د اختیارونو مینو په اړه
+about-us-menu-item-aria-label = د اختیارونو مینو په اړه
 partnerships-menu-item-aria-label = د ګډ غږ سره د شراکت په اړه زده کړه
-
-## NEW HOME PAGE KEYS
-
+press-and-stories-menu-item-aria-label = د کامن وائس پورې اړوند مطبوعاتي اعلامیو او کیسو ته لاسرسی ومومئ
+community-and-languages-menu-item-aria-label = د کامن وائس لخوا ملاتړ شوې ټولنه او ژبې وپلټئ
 
 ## Hero section
 
+hero-title = ټیکنالوژي چې ستاسو په ژبه خبرې کوي
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>ولې باید مصنوعي ذهانت یوازې د نړۍ د څو ژبو لپاره کار وکړي؟</bold>
+hero-subtitle-2 = زموږ ژبه زموږ کیسه ده، زموږ ټولنه ده، زموږ کلتور دی. راځئ چې هغه ډیټاسیټونه جوړ کړو چې موږ یې په نړۍ کې لیدل غواړو.
+# icon is an arrow that points downwards
+get-started = پیل وکړئ <icon><icon>
 
 ## Action items section
 
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-
+action-items-section-title = کامن وائس د ټولنې په مشرۍ د معلوماتو جوړولو لپاره یو وړیا، خلاص سرچینه پلیټ فارم دی
+action-items-section-subtitle = هرڅوک کولی شي د متن او وینا ډیټاسیټونو شریکولو، جوړولو او تنظیمولو سره خپله ژبه خوندي، بیا ژوندي او لوړه کړي.

@@ -12,10 +12,17 @@ listen-abort-cancel = Topasni chalu dovor
 listen-abort-confirm = Puro zale
 # Menu item
 validate-readings = Vachop Topas
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Vachon promannit korchem <small>(begin yetlem)</small>
 
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Vachop Topas, Transcription Niyal Kor
+validate-readings-menu-item-tooltip = Vaporpean record kel'lem vachon tumchea bhaxent promannit korchem
+review-transcriptions-menu-item-tooltip = Vaporpean sador kel'lea protilipincho tumchea bhaxentlean punraulokon korcho
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Poryai menu aikat
+validate-readings-menu-item-aria-label = Somaz vangddeamni sador kel'lem vachon promannit korop
+review-transcriptions-menu-item-aria-label = Nond kel'lea vakeanchea protilipinchi ochukotaye khatir punraulokon korchem

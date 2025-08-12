@@ -36,9 +36,3 @@ review-delete-recordings = Futa rekodi zangu
 review-terms = Kwa kutumia Common Voice, unakubaliana na <termsLink>Masharti</termsLink> yetu na <privacyLink> Ilani ya Faragha</privacyLink>
 terms-agree = nakubali
 terms-disagree = Sikubali
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

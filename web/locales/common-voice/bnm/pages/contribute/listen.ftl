@@ -9,9 +9,3 @@ listen-loading-error = Ihávɛlɛni ipaheya behembelani bé bó bówaha. Hɛ
 listen-abort-title = Idomiyɛhe ibinja na ihémeya behembelani eeeh ?
 listen-abort-cancel = Ivaledɛ ó bohó na ibinja na ihémeya
 listen-abort-confirm = Idomiyɛ ibinja na ihémeya
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

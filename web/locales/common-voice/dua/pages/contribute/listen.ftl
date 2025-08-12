@@ -10,9 +10,3 @@ listen-loading-error = Di sí timbi kusa eloŋgi  á ɓeseŋgédí ó  seŋ
 listen-abort-title = O máɓɔ̄lɛ na ɓamsɛ lá ɓeloŋgi?
 listen-abort-cancel = Alánɛ́ ɓâmsɛ ó ɓosó.
 listen-abort-confirm = Ɓɔ́lɛ́ na ɓâmsɛ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

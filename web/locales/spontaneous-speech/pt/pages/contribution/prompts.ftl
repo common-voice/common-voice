@@ -4,7 +4,6 @@ record-player-header = Gravar sua resposta
 mic-access-error = Você deve permitir o acesso ao microfone.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> e responda o mais naturalmente possível
-no-prompts-message = Atualmente, não há consultas para este idioma. Atualize a página ou tente novamente mais tarde.
 error-skipping = Ocorreu um erro ao saltar esta consulta
 error-recording = Ocorreu um erro durante a gravação
 error-fetching-prompts = Algo correu mal ao obter as consultas. Tente novamente mais tarde.

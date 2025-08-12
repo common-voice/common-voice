@@ -4,7 +4,6 @@
 audio-page-instruction = <playIcon> افۀ لیکن که څۀ يې امر کوک لاسته
 editbox-header = نقل
 editbox-placeholder = دۀ افۀ لیکن که څۀ يې امر کوک لاسته
-no-audio-message = ایزیره دې آډیو نک هۀ که نقل سَۀ پۀ زبان نر۔ مهرباني يې کَۀ که ا پېج ریفرېش کَۀ یا وه بيې کوشِش کَۀ
 create-transcript-success = ا نقل پېش ݭیوک په کامیابي سره
 create-transcript-error = غلذي يې سۀک که کانن يې بُو او نقل جوړېک
 error-playing-audio = غلطي يې سُک که کانن بُوآو آډیو فلم چلېک

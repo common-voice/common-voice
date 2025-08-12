@@ -88,15 +88,14 @@ read-more-about = ስለ ገፃችን የበለጠ ያንብቡ
 ## NAV ITEMS
 
 answer-questions = ጥያቄዎችን ይመልሱ <small>(በቅርብ ጊዜ)</small>
-answer-questions-coming-soon = ጥያቄዎችን ይመልሱ <small>(በቅርብ ቀን)</small>
 review-transcriptions = ፅሁፎችን ይገምግሙ
-review-transcriptions-coming-soon = ፅሁፎችን ይገምግሙ <small>(በቅርቡ ቀን)</small>
 add-questions = ጥያቄዎችን ያክሉ <small>(በቅርብ ጊዜ)</small>
-transcribe-audio-coming-soon = ድምፅ ወደ ፅሁፍ ይገልብጡ < small>(በቅርቡ የሚመጣ)</small>
+review-questions = የግምገማ ጥያቄዎች
 transcribe-audio = ድምጹን ወደ ፅሁፍ ይገልብጡ
 press-and-stories = ህትመት እና ታሪኮች
 community-and-languages = ማህበረሰብ እና ቋንቋዎች
 coming-soon = በቅርብ ቀን
+about-us = ስለ እኛ
 
 ## MENU ITEMS TOOLTIPS
 
@@ -107,13 +106,11 @@ community-and-languages-menu-item-tooltip = ቋንቋዎችን እና ማህበ�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = ስለ አማራጮች ምናሌ
+about-us-menu-aria-label = ስለ አማራጮች ምናሌ
+about-us-menu-item-aria-label = ስለ እኛ አማራጮች ምናሌ
 partnerships-menu-item-aria-label = ከጋራ ድምጽ ጋር ስላላቸው ሽርክና ይወቁ
 press-and-stories-menu-item-aria-label = ከጋራ ድምጽ ጋር የሚዛመዱ የጋዜጣዊ መግለጫዎችን እና ታሪኮችን ያግኙ
 community-and-languages-menu-item-aria-label = በጋራ ድምጽ የሚደገፉ ማህበረሰቡን እና ቋንቋዎችን ያስሱ
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -134,7 +131,9 @@ spontaneous-card-header = የነፃነት ንግግር
 spontaneous-card-content = የውሂብ ስብስቦችን ለመፍጠር ተፈጥሮአዊ እና የንግግር አውዶች ምላሽ ይስጡ። ፍጹም የሆነ ለአፍ-ማፍቻ ቋንቋዎች።
 language-text-card-header = የቋንቋ ጽሑፍ
 language-text-card-content = የህዝብ ጎራ ጥያቄዎችን፣ ዓረፍተ ነገሮችን እና ለትርጉም ጽሑፍን፣ የአነስተኛ ቋንቋ ሞዴሎችን እና ሌሎችንም ይፍጠሩ ወይም ያጋሩ።
+coming-soon = በቅርብ ቀን
 add-text = ጽሑፍ አክል
+answer = መልስ
 
 ## Community section
 

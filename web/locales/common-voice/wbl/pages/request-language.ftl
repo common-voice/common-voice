@@ -18,3 +18,10 @@ request-language-success-list-1 = Tow’ri yi barqinomah gũtak  lozim kumd ki 
 request-language-success-list-2 = Spo yũrt-e sũkrot k̃hakkũzgep jald dẽ sav g̃hat  ki saver bes̃h malũmot rẽdho’r-e pishkash cart  woz savep agah cart  ozor ki kum khalg cem zik en skemes̃h yark cart.
 request-language-success-list-3 = Mũmkini ki sake ya kum guzorish ne gũtetk. Mehrboni carit k̃he saker yikto barqinomah stũyit skẽ <emailLink>{ $email }</emailLink>  sak yan woz dẽ sav g̃haten.
 request-language-error = Mũmkini ki sake ya kum guzorish ne gũtetk. Mehrboni carit k̃he saker yikto barqinomah stũyit skẽ <emailLink>{ $email }</emailLink> sak yan woz dẽ sav g̃haten.
+request-for-scripted-speech-toggle = K̃hẽnakẽr/ qarirẽr  nivishetk chalg
+request-for-spontaneous-speech-toggle = bi nivishetk taqrirẽr arz
+need-help-deciding-platform = Mẽdadi dẽrkor ki kumdẽ dũrzẽm
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>nivishtk taqrir</strong>(desturẽmetobiq tus̃h cẽrsokht dish ki komon voysi)kumẽrs̃h tu dẽ k̃hũ zik jumlvẽ joy
+need-help-deciding-platform-explanation-2 = <strong>bekhelew taqrirri</strong>kommon voisẽ s̃heg̃hd hisa dras̃h tu jald jẽwob rand,  K̃hẽnakẽ tẽriqa
+need-help-deciding-platform-explanation-3 = Agares̃h ki dẽ pontun k̃hu zikẽ ne win kifchẽ durz

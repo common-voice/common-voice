@@ -4,7 +4,8 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Poslechněte si zvukový klip a zkontrolujte přepis. Shoduje se? Pokud ne, upravte jej tak, aby dokonale odpovídal.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Zaškrtnout
-no-transcriptions-message = V současné době nejsou k dispozici žádné přepisy, které by bylo možné pro tento jazyk zkontrolovat. Obnovte prosím stránku nebo to zkuste později.
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = V tomto jazyce nejsou dostupné žádné přepisy. Pokud jste nějaký přeskočili, můžete ho použít i s přeskočeným obsahem nebo přejít na přepis zvuku a zkusit to znovu později.
 vote-transcript-success = Hlasování o přepisu bylo úspěšné
 vote-transcript-error = Při hlasování o přepisu došlo k chybě
 transcript-edited-success = Přepis úspěšně upraven

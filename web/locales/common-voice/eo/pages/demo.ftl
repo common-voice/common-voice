@@ -1,6 +1,6 @@
 ## DemoLayout
 
-demo-get-started = Komencu ni
+demo-get-started = Ni Komencu
 demo-welcome = Bonvenon al Common Voice
 demo-welcome-subheader = Ĉu vi ŝatus scii pli kaj kontribui kun tiu ĉi projekto?
 

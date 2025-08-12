@@ -35,9 +35,3 @@ review-delete-recordings = ትስጂልየ ዎርክዮ
 review-terms = ክርን ሕበር እንደ ታኣስታዕሙሎ እብ <termsLink>ሽሩጥ</termsLink> ው <privacyLink>ሓበረ ናይ ክሱስየት</privacyLink>
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅኒ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

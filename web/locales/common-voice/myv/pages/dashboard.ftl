@@ -51,67 +51,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Путомс норовавкс-цель
 cant-decide = Кавтолдат?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клип чизэнзэ.
-                               *[other] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клипть чизэнзэ.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клип чизэнзэ.
-                               *[other] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клипть чизэнзэ.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клип чизэнзэ.
-                               *[other] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клипть чизэнзэ.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клип чизэнзэ.
-                               *[other] { $totalHours } час пурнави сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клипть чизэнзэ.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клип чизэнзэ.
-                               *[other] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клипть чизэнзэ.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клип чизэнзэ.
-                               *[other] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клипть чизэнзэ.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клип чизэнзэ.
-                               *[other] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломань карминдеряй сёрмадомо { $clipsPerDay } клипть чизэнзэ.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клип чизэнзэ.
-                               *[other] { $totalHours } част пурнавить сеске { $periodMonths } ковдо мейле { $people } ломанть карминдеряйть сёрмадомо { $clipsPerDay } клипть чизэнзэ.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Маралянь тевть! Зяро клипть чизэнзэ?
 how-many-a-week = Маралянь тевть! Зяро клипть таргозонзо?
 which-goal-type = Тон арсят Кортамс, Кунсоломс эли кавонест тевтнень тейсыть?

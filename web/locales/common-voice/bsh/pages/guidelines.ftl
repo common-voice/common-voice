@@ -3,6 +3,9 @@ guidelines-header = کمک ستہ رھنمااصول
 guidelines-header-subtitle = کامن وائس ڈیٹاسیٹ تہ جملہ سورہ آڈیوکلپس جمع کراستہ سورہ تصدیق ستہ کوستہ طریقہ زعݩہ
 voice-collection = آواز ستہ مجموعہ
 sentence-collection = جملہ ستہ مجموعہ
+
+## Voice Collection nav ids
+
 varying-pronunciations = مختلف تلفظ
 misreadings = نمل ولہ ستہ
 offensive-content = ضرر پعوالہ مواد
@@ -12,6 +15,9 @@ volume = آواز (حجم )
 reader-effects = ولہ لے ستہ تاثرات
 just-unsure = پنع غیر یقینی
 example = مثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ایمومختلف لہجہ ستہ خیرمقدم کوتمیش اہ کلپ رد کوستہ تݩع پنوی وای بلیوک محتاط بوݩع ۔کہ کع با تیو گجی وشچہ ولہ لے لفظ غلط تلفظ کعیسہ لے کہ ۔زورغلط جائ تہ وینسہ یا نحو نظر انداز کعسہ کہ ۔دنیا تہ بلیوک قسم تلفظات استعمال بوتت امکیاں پمیچ تو مقامی اوگعماں تہ نہ سݣئ سہ لے  برائے کرم امکی منچاں  دی بلیوک سکال حوصلہ افزائی کشݩع ۔چہ امکی توتݩع مختلف انداز تہ وری ولہ تت
 varying-pronunciations-explanation-2 = دیوبولی تہ اگر تو چمہ ایبا چہ ولہ اینہ لفظ مع بلد نہ اسہ لہ سورہ ستہ تلفظ ستہ غلط اندازہ لگاتہ کہ ستہ برائے کرم کلپ مسترد کشݩع۔اگرشا شک بیبا ستہ صورت تہ اسٹرکشن پاتستہ کں اسکپ  بٹن استعمال کشݩع۔
 varying-pronunciations-example = پوت واضح نہ اسی
@@ -48,11 +54,17 @@ reader-effects-explanation = سکال ریکا ڈنگ منچا ستہ قدرتی
 just-unsure-explanation = اگر توتہ آجستہ لتری بدو گوبا چہ امکیاں ستہ انی احاطہ نہ بیستہ بیبا تیو برائے کرم توستہ لے رایہ مطا بق ووٹ اتیوشی اگرتیو واقعی فیصلہ کونہ بلہ بیش با اسکیپ بٹن استعمال کشی پنوی وای ریکا ڈنگ تہ یی
 still-have-questions = کای توتہ شترک دی سوالات ایہ؟
 contact-common-voice = کامن وائس ٹیم مع رابطہ کشی
+
+## Sentence collection nav ids
+
 public-domain = عوام ستہ ملکیت
 citing-sentences = جملہ حوالہ پعستہ
 adding-sentences = جملہ شامل کوستہ
 reviewing-sentences = جملہ ستہ جائزہ اوݣستہ
 sentence-domain = جملہ ستہ ملکیت
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = اینہ بلیوک ضروری اسہ چہ متن ستہ څݣ جملہ<publicDomain> عوامی صرف ملکیت </publicDomain>(<cc0>cc0</cc0>بولہ کہ کعہ با کامن وائس ڈیٹاcc0لائسنس پکعوجاری کاع بوتہ۔صرف ستہ ول تہ جملہ اپلوڈکشݩع کائ ول تہ شا پورہ اعتماد بیبا سورہ ہمیشہ متعلقہ حوالہ شامل بیبا
 public-domain-explanation-2 = مفیداسپیچ ریکگنیشن انجن ایپاستہ کں لئ جملہ عوامی سورہ نوئ وری ستہ بولہ جملہ ایپاستہ تہ کمک کوستہ دیوکں اچاک خیالات امنی ای:
 public-domain-explanation-3 = نوئ جملہ سورہ عوامی جملہ یازعیں ایپاݩع دوستان مع وری ستہ اوگعاماں مع ایپاݩع مثلا ستورا ستہ تھون ذریعہ تہ

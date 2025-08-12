@@ -1,13 +1,12 @@
 ## Datasets Page
 
 datasets-heading = Datasets
-datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
+datasets-headline = We’re building a multi-language, open-source voice dataset for training speech-enabled applications.
 datasets-positioning =
-    We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
+    Large, publicly available voice datasets will foster innovation and healthy competition in machine-learning speech technology. Common Voice’s dataset is the largest of its kind, but not the only one.
     
-    Common Voice’s multi-language dataset is already the largest publicly available voice dataset of its kind, but it’s not the only one.
-    
-    Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
+    This page serves as a reference hub for other open-source voice datasets and a home for our release updates as Common Voice grows.
+datasets-speech-bubble-content = Exciting news! Spontaneous Speech is on the way! Stay tuned for updates and make sure to check our <discordLink>Discord</discordLink> for the latest information.
 language = Language
 download-dataset-header = Download the Dataset
 download-delta-explainer = We’ve made some changes. Delta Segments just contain the most recent clips since the last release. <deltaLink>Read more about this work</deltaLink>.
@@ -94,6 +93,10 @@ release-version = Version
 dataset-date = Date
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
+
+# Support old genders in older datasets
+male = Male
+female = Female
 
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Download our voice datasets

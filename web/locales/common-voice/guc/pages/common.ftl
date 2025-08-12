@@ -58,6 +58,7 @@ gl = Gallego
 gn = Guaraní
 gom = Goan Konkani
 gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -67,7 +68,6 @@ hsb = Alto sorabo
 ht = Haitiano
 hu = Húngaro
 hy-AM = Armenio
-hyw = Armenio (occidental )
 ia = Interlingua
 id = Indonesio
 ie = Interlingue
@@ -232,6 +232,3 @@ email-opt-in-info-sub-with-challenge = Tacheküin aluwataanüin imeeirü tamüin
 email-opt-in-privacy-v2 = Müleka püchekülee süntüin imeeirü pümüin aa müshii jia sümüin Mozilla süpüla aapaanüin tü püchikimaajatüka süchiirua tü amünakalü sulu'u <privacyLink>Poliitika saa'ujee aa'inmajiraa wakuwa'ipa</privacyLink> sümüinka Mozilla.
 indicates-required = * Acheküsü püneekajüin eere püjüttüinjatü
 not-available-abbreviation = N/A
-
-## Donate banner
-

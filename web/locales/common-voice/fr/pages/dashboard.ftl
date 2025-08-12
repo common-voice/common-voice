@@ -1,6 +1,6 @@
 ## Dashboard
 
-your-languages = Vos langues 
+your-languages = Vos langues{ " " }
 toward-next-goal = Vers le prochain objectif
 goal-reached = Objectif atteint
 clips-you-recorded = Les échantillons que vous avez enregistrés
@@ -52,67 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Fixer un objectif
 cant-decide = Vous ne pouvez pas décider ?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] Un objectif d’une heurepeut être atteint en un peu plusd’un moissiune personne enregistre{ $clipsPerDay } échantillonpar jour.
-                               *[other] Un objectif d’une heurepeut être atteint en un peu plusd’un moissiune personne enregistre{ $clipsPerDay } échantillonspar jour.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] Un objectif d’une heurepeut être atteint en un peu plusd’un moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonpar jour.
-                               *[other] Un objectif d’une heurepeut être atteint en un peu plusd’un moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonspar jour.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] Un objectif d’une heurepeut être atteint en un peu plusde { $periodMonths } moissiune personne enregistre{ $clipsPerDay } échantillonpar jour.
-                               *[other] Un objectif d’une heurepeut être atteint en un peu plusde { $periodMonths } moissiune personne enregistre{ $clipsPerDay } échantillonspar jour.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] Un objectif d’une heurepeut être atteint en un peu plusde { $periodMonths } moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonpar jour.
-                               *[other] Un objectif d’une heurepeut être atteint en un peu plusde { $periodMonths } moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonspar jour.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusd’un moissiune personne enregistre{ $clipsPerDay } échantillonpar jour.
-                               *[other] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusd’un moissiune personne enregistre{ $clipsPerDay } échantillonspar jour.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusd’un moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonpar jour.
-                               *[other] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusd’un moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonspar jour.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusde { $periodMonths } moissiune personne enregistre{ $clipsPerDay } échantillonpar jour.
-                               *[other] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusde { $periodMonths } moissiune personne enregistre{ $clipsPerDay } échantillonspar jour.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusde { $periodMonths } moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonpar jour.
-                               *[other] Un objectif  de { $totalHours } heurespeut être atteint en un peu plusde { $periodMonths } moissi{ $people } personnes enregistrent{ $clipsPerDay } échantillonspar jour.
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = 100 personnes enregistrant 100 phrases par jour peuvent générer 13 heures d’audio. En maintenant ce rythme, il est possible d’atteindre 1 000 heures en moins de 3 mois.
 how-many-per-day = Génial ! Combien d’échantillons par jour ?
 how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?

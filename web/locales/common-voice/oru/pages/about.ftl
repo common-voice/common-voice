@@ -88,7 +88,7 @@ about-playbook-how-add-sentences-content-3 = تُو بو ته <scraperLink> ا �
 
 ## How to record quality
 
-about-playbook-how-record-quality = ته سرۀ کوالݫټی ا آواز سُو از څخل ریکارډ کېم
+about-playbook-how-record-quality = ته سرۀ کوالېټی ا آواز سُو از څخل ریکارډ کېم
 about-playbook-how-record-content-1 = عام آواز نر ژغ۔ تو بو که څا ګۀ ژغ ماخ کی منظور هۀ دۀ۔ ماخ بُو ترتو ا عام آواز زېن۔ او ترتو ته ریوزمره ا سټائل او ته ژغؤ ا ظریقه ماخ کی منظور هۀ۔
 about-playbook-how-record-content-2 = ته په څُټ دُندُوکر لاسته دی ا څان بچکېون۔ که تُو په اسانه اميېک سُن۔
 about-playbook-how-record-content-3 = ا جملۀ په احتیاط سره غؤس، که نۀ يې څه هنزنی، بدل سَۀ یا ليې څه ګډ سَۀ

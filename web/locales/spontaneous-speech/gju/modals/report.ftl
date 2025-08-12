@@ -8,6 +8,7 @@ different_language = کنی زبان
 different_language-detail = اس مواد کی زبان اس تے بکھ ہے جس کی ہم امید کراں تھا
 personally_identifiable_information = یاہ معلومات ایسی ہے جس کی ذاتی طور اپر شناخت ہو سکے
 personally_identifiable_information-detail = یوہ مواد کسے بند  کی شناخت کے  متعلق ذاتی طور اپر قابل شناخت معلومات پر مشتمل ہے، جس طرحیا کہ اس کو ناں، ای میل پتو، جا، شناختی نمبر، یا فون نمبر
+personally_identifiable_information-answer-detail = یہ مواد کسے آدمی کی شناخت کے متعلق ذاتی طور اپر قابل شناخت معلومات کی درخواست کر ے لگو، جس طرحیا کہ ان کا ناں  ای میل پتہ، مقام، شناختی نمبر، یا فون نمبر۔
 report-other-comment =
     .placeholder = تبصرو
 # Label for textarea in report modal

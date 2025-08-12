@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = 목표를 설정하기
 cant-decide = 결정할 수 없습니까?
-activity-needed-calculation-plural =
-    { $totalHours ->
-       *[other]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                       *[other]
-                            { $clipsPerDay ->
-                               *[other] { $totalHours } 시간완료 가능 { $periodMonths }{ $periodMonths } 개월만약{ $people } 명기록{ $clipsPerDay } 개일간
-                            }
-                    }
-            }
-    }
 how-many-per-day = 좋습니다! 하루에 몇 개의 클립을 하시겠습니까?
 how-many-a-week = 좋습니다! 일주일에 몇 개의 클립을 하시겠습니까?
 which-goal-type = 말하기, 듣기 또는 둘 다를 원하십니까?

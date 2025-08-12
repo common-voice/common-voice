@@ -3,6 +3,10 @@ guidelines-header = Vadlīnijas
 guidelines-header-subtitle = Izprotiet, kā pievienot un apstiprināt teikumus un ierakstus Common Voice datu kopā
 voice-collection = Ierakstu vākšana
 sentence-collection = Teikumu kolekcija
+question-collection = Jautājumu kolekcija
+
+## Voice Collection nav ids
+
 varying-pronunciations = Dažādas izrunas
 misreadings = Kļūdaini lasījumi
 offensive-content = Aizskarošs saturs
@@ -12,6 +16,9 @@ volume = Skaļums
 reader-effects = Ierunātāja izrunas īpatnības
 just-unsure = Vienkārši neesat pārliecināti?
 example = Piemērs
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Mēs priecājamies par dažādiem akcentiem! Rūpīgi izvērtējiet, pirms noraidāt ierakstu, pamatojoties uz to, ka, jūsuprāt, lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai ignorējis pieturzīmes. Dažādi cilvēki pasaulē runā dažādi, un dažas no šīm izrunām, iespējams, ikdienā nedzirdat. Lūdzu, novērtējiet tos, kuri runā atšķirīgi no jums.
 varying-pronunciations-explanation-2 = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
 varying-pronunciations-example = Man garšo mērce un desa.
@@ -47,11 +54,17 @@ reader-effects-explanation = Lielākajā daļā ierakstu cilvēki, runā savā d
 just-unsure-explanation = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, vērtējiet kā jums šķiet pareizi. Kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
 still-have-questions = Joprojām ir jautājumi?
 contact-common-voice = Sazinieties ar Common Voice komandu
+
+## Sentence collection nav ids
+
 public-domain = Publiskie dati
 citing-sentences = Atsauce uz teikumu avotu
 adding-sentences = Teikumu pievienošana
 reviewing-sentences = Pārbaudīt teikumus
 sentence-domain = Teikuma joma
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
 public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas idejas, kas palīdzēs ģenerēt teikumus, ir;
 public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem k
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 domain-explanation = Joma attiecas uz teikuma saturu. Jūs varat izvēlēties vienu no:
+
+## Question collection ids
+
+adding-questions = Jautājumu pievienošana
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Kādi ir labi jautājumi?
+what-makes-a-good-question-explanation = Labam spontānās runas jautājumam vajadzētu:
+what-makes-a-good-question-explanation-criteria-1 = Būt viegli saprotamam un atbildamam
+what-makes-a-good-question-explanation-criteria-2 = Būt aktuālam jebkuram cilvēkam
+what-makes-a-good-question-explanation-criteria-3 = Nelietot un nemudināt uz aizskarošu valodu
+what-makes-a-good-question-tip = Apsveriet vai jautājums varētu attiekties uz vairākiem kontekstiem vai jomām.
+easy-to-understand = Viegli saprotams
+easy-to-understand-explanation = Izvēlieties vienkāršus jautājumus, ko viegli saprast ikvienam neatkarīgi no pieredzes vai konteksta.
+spelling-and-pronunciation = Pareizrakstība un pieturzīmes
+spelling-and-pronunciation-explanation = Izmantojiet pareizu pareizrakstību un gramatiku.
+length = Garums
+length-explanation = Uz jautājumu vajadzētu varēt atbildēt dažos teikumos.
+dont-add-subheader = Nepievienojiet
+culturally-specific-questions = Specifiskas pieredzes jautājumus
+culturally-specific-questions-explanation = Jautājumus, kas ir specifiski kādai jomai vai cilvēkiem ar noteiktu dzīves pieredzi
+length-avoid-explanation = Jautājumus, kurus būtu grūti atbildēt 15 sekundēs (minimālais ieraksta garums)
+process-steps = Process / soļi
+process-steps-explanation = Jautājumi, kuros jāuzskaita konkrēti soļi. Šādi jautājumi mudina lietotājus uzskaitīt konkrētas lietas, nevis veidot dabiskas sarunvalodas atbildes.
+offensive-content-sensitive-information = Aizvainojošs saturs vai sensitīva informācija
+offensive-content-sensitive-information-explanation-explanation-1 = Jautājumi, kas varētu izvilināt personu identificējošu informāciju
+offensive-content-sensitive-information-explanation-explanation-2 = Jautājumi, kas var mudināt uz naida runu vai citiem aizspriedumiem vai aizvainojošiem uzskatiem
+offensive-content-sensitive-information-explanation-explanation-3 = Jautājumi, kas kādam varētu likt izpaust sensitīvu informāciju vai aizkaitinošu atbildi
+example-questions-subheader = Jautājumu piemēri
+example-questions-explanation-1 = Šajā lapā varat atrast <examplePromptsLink>120 jautājumu piemērus.</examplePromptsLink>
+example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kopu, to var <githubLink>izdarīt mūsu GitHub</githubLink> vai sūtot epastu uz <emailFragment>commonvoice@mozilla.com.</emailFragment>

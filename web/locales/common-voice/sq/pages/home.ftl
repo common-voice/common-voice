@@ -78,33 +78,29 @@ read-more-about = Lexoni më tepër te faqja jonë Mbi
 ## NAV ITEMS
 
 answer-questions = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
-answer-questions-coming-soon = Përgjigjuni Pyetjeve <small>(Së shpejti)</small>
 review-transcriptions = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
-review-transcriptions-coming-soon = Shqyrtoni Transkriptime <small>(Së shpejti)</small>
 add-questions = Shtoni Pyetje <small>(Së shpejti)</small>
-add-questions-coming-soon = Shtoni Pyetje <small>(Së afërmi)</small>
-transcribe-audio-coming-soon = Transkriptoni Audio <small>(Së shpejti)</small>
 transcribe-audio = Transkriptoni Audio <small>(Së shpejti)</small>
 press-and-stories = Për Shtypin dhe Shembuj
 community-and-languages = Bashkësi dhe Gjuhë
 coming-soon = Së Shpejti
+about-us = Rreth nesh
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partneritete, Shtypi dhe Shembuj, Bashkësi dhe Gjuhë
+about-us-menu-item-tooltip = Mësoni mbi misionin dhe ekipin pas Common Voice-it
 partnerships-menu-item-tooltip = Partneritet me ne
 press-and-stories-menu-item-tooltip = Vizitoni blogun tonë, ose shkruani rreth nesh
 community-and-languages-menu-item-tooltip = Zbuloni gjuhë dhe bashkësi dhe Common Voice-in
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menu mundësish “Mbi”
+about-us-menu-aria-label = Menu mundësish “Mbi”
+about-us-menu-item-aria-label = Menu mundësish “Mbi ne”
 partnerships-menu-item-aria-label = Mësoni rreth partneritete me Common Voice
 press-and-stories-menu-item-aria-label = Shihni njoftime shtypi dhe shembuj të lidhur me Common Voice
 community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuhët e mbuluara nga Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -125,6 +121,7 @@ spontaneous-card-header = E folur Spontane
 spontaneous-card-content = Përgjigjuni pyetjeve për të krijuar grupe të dhënash për kontekste organike, bisedore. E përsosur për gjuhë që së pari janë gojore.
 language-text-card-header = Tekst Gjuhe
 language-text-card-content = Krijoni ose ndani me të tjerë pyetje, togfjalësh dhe tekst në përkatësi publike dhe tekst për përkthim, modele të vegjël gjuhësorë, etj.
+coming-soon = Së Shpejti
 add-text = Shtoni Tekst
 
 ## Community section

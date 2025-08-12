@@ -54,7 +54,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Izvierzeit mierki
 cant-decide = Navarit nūsprīst?
-activity-needed-calculation-plural = { $totalHours } stuņdis ir sasnādzamys { $periodMonths } mienešūs, ka { $people } cylvāki īraksteitu { $clipsPerDay } īrokstus dīnā.
 how-many-per-day = Breineigi! Cik īrokstu dīnā?
 how-many-a-week = Breineigi! Cik īrokstu nedeļā?
 which-goal-type = Voi gribit runuot, klauseitīs voi obejus?

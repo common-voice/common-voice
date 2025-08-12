@@ -11,8 +11,6 @@ platform-language-tooltip-text = صرف ته وېب سائټ ا ټېکسټ بُ�
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ډېټا سېټ کی پېش کؤ { $language }
 contribution-picker-tooltip-text = بدلوی بُو ته فۀ زبان ا ډېټاسېټ څېن زر بُو که تُو کر کېوی
-# Label for button on contribution switcher
-change = تبدیلي
 coming-soon = بيې زبنی ر دی بُو څوېن سېره
 media-recorder-api-not-supported = ته میډیا ا ریکارډرAPI بُو ترتو ای برؤزر نر نک سپورټ کېک سَۀ
 # Toast message that is displayed when an item is skipped
@@ -29,10 +27,10 @@ request-new-language = ته نیوو زبان پاره درخواست
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = پرمپټ کی ځواب
 transcribe = نقل
 check-transcriptions = ا نقل چېک کَۀ
-question = سوال
 
 ## Not Found Page
 
@@ -60,3 +58,10 @@ sdo = سېرئن بیدایُوح
 snv = سابن
 tr = تُرکئے
 xkl = کېنیاح
+
+## Language search component
+
+language-search-placeholder = ته زبان ا تلاش
+language-search-aria-label = تلاش ته زبان پاره
+language-search-label = صرف فۀ زبان نر ا تبدیلئے ا څېن که ډېټاسېټ نر موجود بَۀ
+language-search-no-results = هېڅ زبان يې نک ووک ݭیوک

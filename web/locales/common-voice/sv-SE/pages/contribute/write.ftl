@@ -2,7 +2,7 @@
 
 write = Skriv
 write-instruction = Lägg till <icon></icon> en mening som är allmän egendom
-write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
+write-page-subtitle = Meningar som läggs till här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
 sentence =
     .label = Mening
 sentence-input-placeholder = Ange din mening som är allmän egendom här
@@ -152,12 +152,14 @@ write-contribute-menu-tooltip = Lägg till och granska meningar, lägga till fr�
 add-sentences-menu-item-tooltip = Lägg till meningar på ditt språk
 review-sentences-menu-item-tooltip = Granska meningar på ditt språk
 add-questions-menu-item-tooltip = Lägg till frågor på ditt språk
+review-questions-menu-item-tooltip = Granska frågor
 transcribe-audio-menu-item-tooltip = Transkribera ljudinspelningar på ditt språk
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = Alternativmeny för skriva
+write-contribute-menu-aria-label = Alternativmeny — Skriva
 add-sentences-menu-item-aria-label = Lägg till nya meningar som gemenskapen kan läsa
 review-sentences-menu-item-aria-label = Granska befintliga meningar som skickats in av gemenskapen
 add-questions-menu-item-aria-label = Skicka in nya frågor som gemenskapen kan läsa och svara på
+review-questions-menu-item-aria-label = Granska och rösta på nya frågor som skickats in av communityn
 transcribe-audio-menu-item-aria-label = Transkribera ljudinspelningar till text

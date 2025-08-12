@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Establecer objetivo
 cant-decide = ¿No te decides?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horaes alcanzable en solo{ $periodMonths } messi{ $people } personagraban{ $clipsPerDay } fragmentoal día.
-                               *[other] { $totalHours } horaes alcanzable en solo{ $periodMonths } messi{ $people } personagraban{ $clipsPerDay } fragmentosal día.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horaes alcanzable en solo{ $periodMonths } messi{ $people } personasgraban{ $clipsPerDay } fragmentoal día.
-                               *[other] { $totalHours } horaes alcanzable en solo{ $periodMonths } messi{ $people } personasgraban{ $clipsPerDay } fragmentosal día.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horaes alcanzable en solo{ $periodMonths } mesessi{ $people } personagraban{ $clipsPerDay } fragmentoal día.
-                               *[other] { $totalHours } horaes alcanzable en solo{ $periodMonths } mesessi{ $people } personagraban{ $clipsPerDay } fragmentosal día.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horaes alcanzable en solo{ $periodMonths } mesessi{ $people } personasgraban{ $clipsPerDay } fragmentoal día.
-                               *[other] { $totalHours } horaes alcanzable en solo{ $periodMonths } mesessi{ $people } personasgraban{ $clipsPerDay } fragmentosal día.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horases alcanzable en solo{ $periodMonths } messi{ $people } personagraban{ $clipsPerDay } fragmentoal día.
-                               *[other] { $totalHours } horases alcanzable en solo{ $periodMonths } messi{ $people } personagraban{ $clipsPerDay } fragmentosal día.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horases alcanzable en solo{ $periodMonths } messi{ $people } personasgraban{ $clipsPerDay } fragmentoal día.
-                               *[other] { $totalHours } horases alcanzable en solo{ $periodMonths } messi{ $people } personasgraban{ $clipsPerDay } fragmentosal día.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horases alcanzable en solo{ $periodMonths } mesessi{ $people } personagraban{ $clipsPerDay } fragmentoal día.
-                               *[other] { $totalHours } horases alcanzable en solo{ $periodMonths } mesessi{ $people } personagraban{ $clipsPerDay } fragmentosal día.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } horases alcanzable en solo{ $periodMonths } mesessi{ $people } personasgraban{ $clipsPerDay } fragmentoal día.
-                               *[other] { $totalHours } horases alcanzable en solo{ $periodMonths } mesessi{ $people } personasgraban{ $clipsPerDay } fragmentosal día.
-                            }
-                    }
-            }
-    }
 how-many-per-day = ¡Excelente! ¿Cuántas grabaciones al día?
 how-many-a-week = ¡Excelente! ¿Cuántas grabaciones a la semana?
 which-goal-type = ¿Quieres hablar, escuchar o los dos?

@@ -72,36 +72,3 @@ help-contribute = Уара иулшоит ацхыраара ҟауҵарц иа
 login-company = Аҭалара/Аҽҭагалара { $company } ԥошьҭала
 profile-not-required = Ахалархәразы ахатә ҷыдахәра амазаара хымԥадатәӡом, уи шхәарҭоугьы.
 read-more-about = Нарҭбааны Иазкны ҳдаҟьаҿы
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

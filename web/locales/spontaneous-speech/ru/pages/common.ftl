@@ -11,8 +11,6 @@ platform-language-tooltip-text = Изменяет только текст веб
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Участие в наборе данных для { $language }
 contribution-picker-tooltip-text = Изменяет языковой набор данных, созданию которого вы помогаете
-# Label for button on contribution switcher
-change = Изменить
 coming-soon = Скоро добавим ещё больше языков
 media-recorder-api-not-supported = MediaRecorder API не поддерживается вашим браузером.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,19 @@ skip-button = Пропустить
 submit-button = Отправить
 contribute = Внести вклад
 request-new-language = Запросить новый язык
+# Button text which appears when there are no more resources
+continue-with-skipped = Продолжить с пропущенным
 
 ## Navbar
 
+question = Вопрос
+validate = Проверить
 respond-to-prompt = Ответить на запрос
+respond-to-prompt-mobile = Ответ
 transcribe = Транскрибировать
 check-transcriptions = Проверить транскрипции
-question = Вопрос
+check-transcriptions-mobile = Проверка
+tag = Метки
 
 ## Not Found Page
 
@@ -60,3 +64,10 @@ sdo = Серианский бидау
 snv = Сабан
 tr = Турецкий
 xkl = Кенийский
+
+## Language search component
+
+language-search-placeholder = Поиск языка...
+language-search-aria-label = Поиск языка
+language-search-label = Изменяет язык интерфейса для поиска набора данных
+language-search-no-results = Языки не найдены

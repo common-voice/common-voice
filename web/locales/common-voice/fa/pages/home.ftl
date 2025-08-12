@@ -78,35 +78,51 @@ read-more-about = در صفحه درباره ما بیشتر بخوانید
 
 ## NAV ITEMS
 
+answer-questions = به پرسش‌ها پاسخ دهید
+review-transcriptions = بازبینی رونویسی‌ها
+add-questions = افزودن پرسش‌ها
+transcribe-audio = صداها را رونویسی کنید
+press-and-stories = مطبوعات و داستان‌ها
 community-and-languages = اجتماع و زبان‌ها
 coming-soon = به زودی
+about-us = دربارهٔ ما
+scripted-speech = گفتار نوشته‌شده
+spontaneous-speech = گفتار فی‌البداهه
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = شراکت‌ها، مطبوعات و داستان‌ها، جامعه و زبان‌ها
+partnerships-menu-item-tooltip = سازمان‌های حامی آوای مشترک در سراسر جهان را بشناسید
+press-and-stories-menu-item-tooltip = داستان‌ها، به‌روزرسانی‌ها، و پوشش رسانه‌ای آوای مشترک را بخوانید
+community-and-languages-menu-item-tooltip = با جامعهٔ ما ارتباط گرفته و زبان‌های پشتیبانی‌شده را ببینید
 
 ## MENU ITEM ARIA LABELS
 
-
-## NEW HOME PAGE KEYS
-
+partnerships-menu-item-aria-label = دربارهٔ همکاری با آوای مشترک بیشتر بدانید
+press-and-stories-menu-item-aria-label = به اطلاعیه‌های مطبوعاتی و داستان‌های مرتبط با آوای مشترک دسترسی پیدا کنید
 
 ## Hero section
 
+hero-title = فناوری‌ای که به زبان شما صحبت می‌کند
 
 ## Action items section
 
+language-text-card-header = متن زبان
+coming-soon = به زودی
+add-text = افزودن متن
+answer = پاسخ
 
 ## Community section
 
-
-## Featured section
-
-
-## Developers section
-
+join-discord-community = به اجتماع دیسکورد بپیوندید
+# label for button
+join-discord-community-action = در دیسکورد به ما بپیوندید
+find-us-on-matrix = ما را در ماتریکس پیدا کنید
+find-us-on-matrix-content = ماتریکس یک شیوه‌نامهٔ آزاد و سبک برای ارتباطات غیرمتمرکز و بلادرنگ، و سکوی مورد علاقهٔ موزیلا برای  گفتگوی آزاد است.
+# label for button
+find-us-on-matrix-action = ما را در ماتریکس پیدا کنید
+ask-mozilla-share = از موزیلا بخواهید رویدادهای شما را هم‌رسانی کند
 
 ## Get involved section
 
-
-## Partner section
-
+answer-questions-link = به پرسش‌ها پاسخ دهید

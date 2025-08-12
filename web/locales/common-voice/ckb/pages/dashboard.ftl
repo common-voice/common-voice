@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = دیاری کردنی ئامانج
 cant-decide = ناتوانی بڕیار بدەی؟
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                               *[other] { $totalHours } کاژێرلە ماوەی{ $periodMonths } مانگ کۆ دەبێتەوە ئەگەر{ $people } کەس ڕۆژانە{ $clipsPerDay } کلیپ تۆمار بکەن.
-                            }
-                    }
-            }
-    }
 how-many-per-day = بژی! چەند کلیپ لە ڕۆژێکدا؟
 how-many-a-week = بژی! چەند کلیپ لە هەفتەیەکدا؟
 which-goal-type = دەتەوێ قسە بکەی، ببیستی یان هەردووکیان؟

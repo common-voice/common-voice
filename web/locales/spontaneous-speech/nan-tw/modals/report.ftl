@@ -8,6 +8,7 @@ different_language = 其他語言
 different_language-detail = 內容使用的語言與我預期的不同。
 personally_identifiable_information = 可識別個人資訊
 personally_identifiable_information-detail = 此內容包含能識別使用者身分的資訊，例如姓名、E-Mail、地點、手機或身份證號碼。
+personally_identifiable_information-answer-detail = 這个內容是欲問使用者的身份資訊，比喻講名姓、E-Mail、所在、身分證字號抑是手機仔號碼。
 report-other-comment =
     .placeholder = 附註
 # Label for textarea in report modal

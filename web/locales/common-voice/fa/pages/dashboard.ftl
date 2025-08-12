@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = یک هدف تنظیم کنید
 cant-decide = نمی‌توانید تصمیم بگیرید؟
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
-                            }
-                    }
-            }
-    }
 how-many-per-day = عالی است! چه تعداد برش صوتی در روز؟
 how-many-a-week = عالی است! چه تعداد برش صوتی در هفته؟
 which-goal-type = می‌خواهید صحبت کنید، بشنوید یا هردو؟

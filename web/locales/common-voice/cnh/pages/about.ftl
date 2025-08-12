@@ -26,34 +26,3 @@ about-nav-why-common-voice = Zei Ruangah?
 about-nav-how-it-works = Zeitin?
 about-nav-partners = Ṭuanṭi
 about-nav-get-involved = I tel ve
-
-## Community Playbook Content
-## What is a language
-
-
-## How do I add a language
-
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

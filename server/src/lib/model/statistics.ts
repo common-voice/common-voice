@@ -276,7 +276,8 @@ export const getStatistics = lazyCache(
       metadata,
     }
   },
-  TimeUnits.DAY
+  TimeUnits.DAY,
+  5 * TimeUnits.MINUTE
 )
 
 export const formatMetadataStatistics = (
@@ -376,5 +377,6 @@ const getMetadataQueryHandlerImpl = async (
 export const getMetadataQueryHandler = lazyCache(
   'get-stats-metadata',
   getMetadataQueryHandlerImpl,
-  TimeUnits.DAY
+  TimeUnits.DAY,
+  10 * TimeUnits.MINUTE
 )

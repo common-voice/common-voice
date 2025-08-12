@@ -3,6 +3,9 @@ guidelines-header = Vodlinejis
 guidelines-header-subtitle = Izprūtit, kai dalikt i apstyprynuot teikumus i īrokstus Common Voice datu kūpā
 voice-collection = Īrokstu vuokšona
 sentence-collection = Teikumu kolekceja
+
+## Voice Collection nav ids
+
 varying-pronunciations = Dažaidys izrunys
 misreadings = Klaidaini skaitejumi
 offensive-content = Aiztīkūšs saturs
@@ -12,6 +15,9 @@ volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
 just-unsure = Vīnkuorši naasat puorlīcynuots?
 example = Pīmārs
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Mes asam prīceigi par vysaidim akcentim! Esit pīsardzeigi, pyrma nūraidit īrokstu, atsasaucūt iz tū, ka skaiteituojs ir napareizi izrunuojs vuordu, lics uzsvoru napareizā vītā voi acimradzami ignoriejs pīturzeimis. Izrunys ir vysaidys i puors nu tom jius varbyut kasdīnā sev apleik nadzierdit. Lyudzu, nūviertejit tū, ka cylvāki var runuot cytaiž kai jius.
 varying-pronunciations-explanation-2 = Nu cytys pusis, ka izruna ir napareiza voi klaidaina, nūraidit īrokstu. Ka naasat puorlīcynuots, lītojit izlaisšonys pūgu.
 varying-pronunciations-example = Pi munys sātys aug eglis i ūzuli.
@@ -47,10 +53,16 @@ reader-effects-explanation = Leluokuo daļa īrokstu ir nu cylvāku, kas runoj s
 just-unsure-explanation = Ka truopās koč kas, kas itamuos vodlinejuos nav īlykts, lyudzu, bolsojit tai, kai jums ruodīs pareizi. Atguodojit - kvalitate i precizitate ir svareiguoka par īrokstu skaitu. Ka eistyn navarit izlemt, lītojit izlaisšonys pūgu i puorejit iz nuokušū īrokstu.
 still-have-questions = Vys vēļ ir vaicuojumi?
 contact-common-voice = Sasazinojit ar Common Voice komandu
+
+## Sentence collection nav ids
+
 public-domain = Publiskī dati
 citing-sentences = Atsauce iz teikumu olūtu
 adding-sentences = Teikumu davīnuošona
 reviewing-sentences = Teikumu puorbaude
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Ir cīši svareigi, lai vysi teikumi byutu <publicDomain>publiskais domens</publicDomain> (<cc0>cc0</cc0>), partū ka Common Voice datu kūpa teik izlaista ar cc0 liceņzi. Augšynluodejit teikumu tikai tod, ka asat puorlīcynuots par tuo publiskumu, i vysod īlīcit atsauci iz olūtu.
 public-domain-explanation-2 = Lobuokī teikumi dereiga runys atpazeišonys reika izveidei ir sarunvolūda, myusdīneiga volūda. Puors idejis, kas paleidzēs generēt teikumus, ir;
 public-domain-explanation-3 = Rodit myusdīneigus sarunvolūdys teikumus pats voi kūpā ar draugim voi volūdys kūpīnu, par pīmāru, reikojūt "raksteišonys maratonu"

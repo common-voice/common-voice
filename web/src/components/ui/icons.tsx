@@ -213,7 +213,8 @@ export const ChevronRight = (props: any) => (
     viewBox="0 0 25 24"
     fill="none"
     {...props}
-    xmlns="http://www.w3.org/2000/svg">
+    xmlns="http://www.w3.org/2000/svg"
+    className="chevron-right-icon">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -242,6 +243,44 @@ export const ChevronLeft = () => (
 export const ChevronDown = (props: any) => (
   <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" {...props}>
     <polygon points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375" />
+  </svg>
+)
+
+export const CodeIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    fill="none"
+    className="code-icon">
+    <path
+      fill="#575757"
+      fillRule="evenodd"
+      d="M15.293 5.293a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L20.586 12l-5.293-5.293a1 1 0 0 1 0-1.414ZM8.707 5.293a1 1 0 0 1 0 1.414L3.414 12l5.293 5.293a1 1 0 1 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0Z"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+
+export const CopyIcon = () => (
+  <svg
+    width="16"
+    height="17"
+    viewBox="0 0 16 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M7.33203 7.16667C6.96384 7.16667 6.66536 7.46514 6.66536 7.83333V13.8333C6.66536 14.2015 6.96384 14.5 7.33203 14.5H13.332C13.7002 14.5 13.9987 14.2015 13.9987 13.8333V7.83333C13.9987 7.46514 13.7002 7.16667 13.332 7.16667H7.33203ZM5.33203 7.83333C5.33203 6.72876 6.22746 5.83333 7.33203 5.83333H13.332C14.4366 5.83333 15.332 6.72876 15.332 7.83333V13.8333C15.332 14.9379 14.4366 15.8333 13.332 15.8333H7.33203C6.22746 15.8333 5.33203 14.9379 5.33203 13.8333V7.83333Z"
+      fill="black"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M2.66797 2.5C2.49116 2.5 2.32159 2.57024 2.19656 2.69526C2.07154 2.82029 2.0013 2.98986 2.0013 3.16667V9.16667C2.0013 9.34348 2.07154 9.51305 2.19656 9.63807C2.32159 9.7631 2.49116 9.83333 2.66797 9.83333H3.33464C3.70283 9.83333 4.0013 10.1318 4.0013 10.5C4.0013 10.8682 3.70283 11.1667 3.33464 11.1667H2.66797C2.13754 11.1667 1.62883 10.956 1.25376 10.5809C0.878682 10.2058 0.667969 9.6971 0.667969 9.16667V3.16667C0.667969 2.63624 0.878682 2.12753 1.25376 1.75245C1.62883 1.37738 2.13754 1.16667 2.66797 1.16667H8.66797C9.1984 1.16667 9.70711 1.37738 10.0822 1.75245C10.4573 2.12753 10.668 2.63623 10.668 3.16667V3.83333C10.668 4.20152 10.3695 4.5 10.0013 4.5C9.63311 4.5 9.33464 4.20152 9.33464 3.83333V3.16667C9.33464 2.98986 9.2644 2.82029 9.13937 2.69526C9.01435 2.57024 8.84478 2.5 8.66797 2.5H2.66797Z"
+      fill="black"
+    />
   </svg>
 )
 
@@ -551,6 +590,30 @@ export const DownloadIcon = (props: any) => (
   </svg>
 )
 
+export const FullCircleIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="none">
+    <g fill="#575757" clipPath="url(#a)">
+      <path
+        stroke="#575757"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M4 1.333a2.667 2.667 0 1 1-.001 5.334A2.667 2.667 0 0 1 4 1.333Z"
+      />
+      <path
+        fillRule="evenodd"
+        d="M5.77 2.681c.13.13.13.341 0 .471L3.7 5.32a.333.333 0 0 1-.47 0l-1-1a.333.333 0 1 1 .47-.471l.765.764 1.833-1.931c.13-.13.342-.13.472 0Z"
+        clipRule="evenodd"
+      />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h8v8H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+)
+
 export const GithubIcon = Icon(require('./icons/github.svg'))
 
 export const GithubIconCode = () => (
@@ -798,6 +861,34 @@ export const PlayOutlineGreenIcon = uniqueIcon(id => (
 
 export const PlayIcon = Icon(require('./icons/play.svg'), 'play')
 
+export const PlusCircleIcon = uniqueIcon(id => (
+  <svg
+    width="16"
+    height="17"
+    viewBox="0 0 16 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M7.99935 2.49999C4.68564 2.49999 1.99935 5.18628 1.99935 8.49999C1.99935 11.8137 4.68564 14.5 7.99935 14.5C11.3131 14.5 13.9993 11.8137 13.9993 8.49999C13.9993 5.18628 11.3131 2.49999 7.99935 2.49999ZM0.666016 8.49999C0.666016 4.4499 3.94926 1.16666 7.99935 1.16666C12.0494 1.16666 15.3327 4.4499 15.3327 8.49999C15.3327 12.5501 12.0494 15.8333 7.99935 15.8333C3.94926 15.8333 0.666016 12.5501 0.666016 8.49999Z"
+      fill="white"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M8.00065 5.16666C8.36884 5.16666 8.66732 5.46513 8.66732 5.83332V11.1667C8.66732 11.5348 8.36884 11.8333 8.00065 11.8333C7.63246 11.8333 7.33398 11.5348 7.33398 11.1667V5.83332C7.33398 5.46513 7.63246 5.16666 8.00065 5.16666Z"
+      fill="white"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M4.66602 8.50001C4.66602 8.13182 4.96449 7.83334 5.33268 7.83334H10.666C11.0342 7.83334 11.3327 8.13182 11.3327 8.50001C11.3327 8.8682 11.0342 9.16668 10.666 9.16668H5.33268C4.96449 9.16668 4.66602 8.8682 4.66602 8.50001Z"
+      fill="white"
+    />
+  </svg>
+))
+
 export const RedoIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
@@ -1015,6 +1106,29 @@ export const TrashIcon = () => (
         <path d="M0 0h24v24H0z" />
       </g>
     </g>
+  </svg>
+)
+
+export const TrashIconRed = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+    <path
+      fill="#FF4F5E"
+      fillRule="evenodd"
+      d="M1.334 4c0-.368.298-.667.667-.667h12a.667.667 0 0 1 0 1.333H2A.667.667 0 0 1 1.334 4Z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="#FF4F5E"
+      fillRule="evenodd"
+      d="M6.667 2a.667.667 0 0 0-.666.667v.666h4v-.667A.667.667 0 0 0 9.334 2H6.667Zm4.667 1.333v-.667a2 2 0 0 0-2-2H6.667a2 2 0 0 0-2 2v.667H3.334A.667.667 0 0 0 2.667 4v9.333a2 2 0 0 0 2 2h6.667a2 2 0 0 0 2-2V4a.667.667 0 0 0-.667-.667h-1.333ZM4.001 4.666v8.667a.667.667 0 0 0 .666.667h6.667a.667.667 0 0 0 .667-.667V4.667H4Z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="#FF4F5E"
+      fillRule="evenodd"
+      d="M6.667 6.667c.369 0 .667.298.667.666v4a.667.667 0 1 1-1.333 0v-4c0-.368.298-.667.666-.667ZM9.334 6.667c.368 0 .667.298.667.666v4a.667.667 0 0 1-1.334 0v-4c0-.368.299-.667.667-.667Z"
+      clipRule="evenodd"
+    />
   </svg>
 )
 
@@ -1431,7 +1545,12 @@ export const ChatBubbleIcon = () => (
 )
 
 export const CheckCircle = () => (
-  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    width="16"
+    height="16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="check-circle-icon">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1448,7 +1567,12 @@ export const CheckCircle = () => (
 )
 
 export const TranscribeIcon = () => (
-  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    width="16"
+    height="16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="transcribe-icon">
     <g clipPath="url(#a)" fillRule="evenodd" clipRule="evenodd" fill="#959595">
       <path d="M2.666 3.333A.667.667 0 0 0 1.999 4v9.333a.667.667 0 0 0 .667.667h9.333a.667.667 0 0 0 .667-.667v-3.56a.667.667 0 0 1 1.333 0v3.56a2 2 0 0 1-2 2H2.666a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.56a.667.667 0 0 1 0 1.333h-3.56Z" />
       <path d="M11.528.862c.26-.26.682-.26.943 0l2.666 2.667c.26.26.26.682 0 .942l-6.666 6.667a.667.667 0 0 1-.472.195H5.333a.667.667 0 0 1-.667-.666V8c0-.177.07-.346.195-.471L11.528.862ZM5.999 8.276V10h1.724l6-6L12 2.276l-6 6Z" />
@@ -1462,7 +1586,12 @@ export const TranscribeIcon = () => (
 )
 
 export const FilePlus = () => (
-  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    width="16"
+    height="16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="question-icon">
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -1481,6 +1610,29 @@ export const FilePlus = () => (
       d="M5.333 10c0-.368.299-.667.667-.667h4a.667.667 0 1 1 0 1.334H6A.667.667 0 0 1 5.333 10Z"
       fill="#959595"
     />
+  </svg>
+)
+
+export const ReviewQuestionsIcon = () => (
+  <svg
+    width="16"
+    height="16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="thumbsup-icon">
+    <g
+      clipPath="url(#a)"
+      fillRule="evenodd"
+      clipRule="evenodd"
+      fill="#959595"
+      transform="scale(0.6)">
+      <path d="M21.367 8.2c-.506-.6-1.215-1.1-2.025-1.2h-5.165V4c0-2.2-1.823-4-4.05-4-.405 0-.81.2-.912.6L5.468 9h-2.43C1.316 9 0 10.3 0 12v7c0 1.7 1.316 3 3.038 3h14.481c1.519 0 2.734-1.1 3.038-2.5l1.418-9c.1-.8-.102-1.6-.608-2.3zM5.063 20H3.038c-.608 0-1.013-.4-1.013-1v-7c0-.6.405-1 1.013-1h2.025v9zm13.469-.8c-.102.5-.507.8-1.013.8H7.089v-9.8l3.645-8.1c.81.3 1.418 1 1.418 1.9v4c0 .6.405 1 1.013 1h5.974c.304 0 .507.2.71.4.202.2.202.5.202.7l-1.52 9.1z" />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h16v16H0z" />
+      </clipPath>
+    </defs>
   </svg>
 )
 
@@ -1565,6 +1717,35 @@ export const FilledStarIcon = () => (
   </svg>
 )
 
+export const XCircleIcon = () => (
+  <svg
+    width="16"
+    height="17"
+    viewBox="0 0 16 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="x-circle-icon">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M8.0013 2.49999C4.68759 2.49999 2.0013 5.18628 2.0013 8.49999C2.0013 11.8137 4.68759 14.5 8.0013 14.5C11.315 14.5 14.0013 11.8137 14.0013 8.49999C14.0013 5.18628 11.315 2.49999 8.0013 2.49999ZM0.667969 8.49999C0.667969 4.4499 3.95121 1.16666 8.0013 1.16666C12.0514 1.16666 15.3346 4.4499 15.3346 8.49999C15.3346 12.5501 12.0514 15.8333 8.0013 15.8333C3.95121 15.8333 0.667969 12.5501 0.667969 8.49999Z"
+      fill="black"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M10.4727 6.02858C10.7331 6.28893 10.7331 6.71104 10.4727 6.97139L6.47271 10.9714C6.21236 11.2317 5.79025 11.2317 5.5299 10.9714C5.26955 10.711 5.26955 10.2889 5.5299 10.0286L9.5299 6.02858C9.79025 5.76824 10.2124 5.76824 10.4727 6.02858Z"
+      fill="black"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M5.5299 6.02858C5.79025 5.76824 6.21236 5.76824 6.47271 6.02858L10.4727 10.0286C10.7331 10.2889 10.7331 10.711 10.4727 10.9714C10.2124 11.2317 9.79025 11.2317 9.5299 10.9714L5.5299 6.97139C5.26955 6.71104 5.26955 6.28893 5.5299 6.02858Z"
+      fill="black"
+    />
+  </svg>
+)
+
 export const FirefoxColor = Icon(
   require('./icons/ff-color.svg'),
   'firefox-color'
@@ -1584,6 +1765,8 @@ export const CautionIcon = Icon(
   require('./icons/exclamation.svg'),
   'exclamation'
 )
+
+export const MarsSolo = Icon(require('./icons/mars-solo.svg'), 'mars-solo')
 
 export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'))
 

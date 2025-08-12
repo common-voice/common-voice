@@ -96,7 +96,6 @@ hsb = Sòrabu artu
 ht = Haitianu
 hu = Ungheresu
 hy-AM = Armenu
-hyw = Armenu otzidentale
 ia = Interlingua
 ibb = Ibibio
 id = Indonesianu

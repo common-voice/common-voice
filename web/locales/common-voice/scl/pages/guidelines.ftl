@@ -3,6 +3,9 @@ guidelines-header = سانتی دین گایڈلاینز
 guidelines-header-subtitle = کامن ٖٖڈیٹا سیٹا نی کنا تھے سانت دینا اور کنا تھے موجی گہ شونگو کلیپی ویلیڈیٹ تھینا سیچ۔
 voice-collection = شونگو ٹال
 sentence-collection = یوپینیک موجی
+
+## Voice Collection nav ids
+
 varying-pronunciations = مُتئی مُتئی رجینئیے
 misreadings = کھچی تھے رجونو
 offensive-content = روش اڑاینایک موجی
@@ -12,6 +15,9 @@ volume = آواس
 reader-effects = رزیکئی اثر
 just-unsure = لیل نے بیلی دا؟
 example = مثالیک
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = بیسے موتے موتے شونگے خوشامدید تھونس! کوئی اک رزیک سے ٹھس تھاؤ تھے، شونگو ڈنگو تھاؤ تھے، یا اچھی کھری نا ارؤ تھے، کلپیک لنگ تھیونو لیگ لایئی خیال چھورے۔ دنیاتنی کدائی کدائی شونگو رجینیارے ھائیں، کاسے نو کچاکیک توٹے تمومی کوی نی نے پروجی بے۔ تھی شل بئی، کاسے تھو پرولی تھے نہ رزے نا، اینو کاری گا یکیونو گینیا۔
 varying-pronunciations-explanation-2 = جے واری، توسے گناؤ کہ رزیک سے کریگا آ موش نے پشاؤ، آسے کاری زو سے ٹھس تھے رزیو تو لنگ/رجیکٹ تھے۔ تا توٹے ہیجے نا وتی تو، لنگ تھین /سکپو ٹکایا زاپ تھے۔
 varying-pronunciations-example = پون لیل نا سیلی۔
@@ -47,11 +53,17 @@ reader-effects-explanation = لائئی ریکارڈنگے جک تھے موجی 
 just-unsure-explanation = آنے سیچاریئکے نیو مُتیک ہتھے آلی تو تھنی حسابینی منے۔ فیصلہ تھیون نے بلو تو سکپ بٹن زراب تھے مُتی ریکارڈنگی نی بو
 still-have-questions = مُتی گہ جیک کھُوجونو ہِوں دا؟
 contact-common-voice = کامن وائیسو جکو (ٹیم) سانتی رابطہ تھے
+
+## Sentence collection nav ids
+
 public-domain = عام جکو دِش
 citing-sentences = موجو حوالہ دیونو
 adding-sentences = موجی یو تھیو نو
 reviewing-sentences = موجی دُگُنی چکیونو
 sentence-domain = موجو ڈومین
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = انی لائی کُوری ہی کہ موجی <publicDomain>عام جکو کاری بو تھن </publicDomain> (<cc0>cc0</cc0>) ۔ کریگا یک ٓموجیک چینڈ اگر تُویقین ہی تو۔ کریگا یُوپینیک حوالائی دے۔
 public-domain-explanation-2 = شونگو سوجین تھیک انجن سنیونو عام جک سے رزینیک موجی لا سم بینا۔ موجی رجونو آنے سم طریقائی ہاں۔
 public-domain-explanation-3 = نا(موڈرن)، عام جکو موجی تُوسے اکی سنے، یا تھنے دوستو سانتی یا باشو کمیونیٹیو سانتی، مثالیک: رائٹ تھون

@@ -1,10 +1,11 @@
 ## Check Transcriptions page
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-transcription-page-instruction = { $actionType } <playIcon></playIcon> მოუსმინეთ ხმოვან ჩანაწერს და შეამოწმეთ ნაწერის სახით გადმოცემული. თუ შეუსაბამოა, ჩაასწორეთ, რომ სრულად ემთხვეოდეს.
+transcription-page-instruction = { $actionType } <playIcon></playIcon> და მოსმენით შეამოწმეთ ნაწერთან თანხვედრა. თუ შეუსაბამოა, ჩაასწორეთ, სრულად რომ დაემთხვეს.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = შემოწმება
-no-transcriptions-message = ამ ენისთვის ნაწერად ქცეული ჩანაწერები არ მოიძებნა. გთხოვთ, განაახლოთ გვერდი ან მოგვიანებით სცადოთ.
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = ამჟამად ამ ენისთვის შესამოწმებელი ნაწერები აღარაა. თუ რომელიმე გამოტოვებული გაქვთ, შეგიძლიათ კვლავ დაუბრუნდეთ ან დაიწყოთ ხმის ნაწერად ქცევა და მოგვიანებით სცადოთ.
 vote-transcript-success = ნაწერად ქცეული შეფასდა წარმატებით
 vote-transcript-error = შეცდომა წარმოიშვა ნაწერად ქცეულის შეფასებისას
 transcript-edited-success = ნაწერად ქცეული ჩანაწერი ჩასწორდა წარმატებით

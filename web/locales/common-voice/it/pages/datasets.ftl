@@ -8,6 +8,7 @@ datasets-positioning =
     Il dataset multilingue di Common Voice è già il più grande del suo genere disponibile pubblicamente, ma non è l’unico.
     
     Considera questa pagina come un punto di riferimento per dataset open source e, man mano che Common Voice continua a crescere, una pagina per i nostri aggiornamenti.
+datasets-speech-bubble-content = Grandi notizie: il discorso spontaneo è in arrivo! Non perderti gli ultimi aggiornamenti e tieni d'occhio il nostro <discordLink>Discord</discordLink> per le informazioni più recenti.
 language = Lingua
 download-dataset-header = Scarica il dataset
 download-delta-explainer = Abbiamo apportato alcune modifiche. I segmenti delta contengono solo le registrazioni più recenti dall’ultima versione. <deltaLink>Ulteriori informazioni su queste modifiche</deltaLink>.
@@ -27,7 +28,7 @@ why-donate-datasets-page = Mozilla Common Voice è il dataset open speech realiz
 confirm-size = Sei pronto per iniziare un download di <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Accetti</b> di rinunciare a determinare l’identità dei parlanti presenti nel dataset di Common Voice
+confirm-no-identify = <b>Accetti</b> di rinunciare a identificare le persone che leggono le frasi nel dataset di Common Voice.
 confirm-join-mailing-list = Voglio iscrivermi alla mailing list di Common Voice
 download-language = Scarica { $language }
 validated-hours = Ore convalidate
@@ -93,6 +94,9 @@ release-version = Versione
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
+# Support old genders in older datasets
+male = Maschio
+female = Femmina
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Scarica i nostri dataset vocali
 # MENU ITEM ARIA LABELS

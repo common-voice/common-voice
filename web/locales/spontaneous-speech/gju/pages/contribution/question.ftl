@@ -3,6 +3,7 @@
 question-page-instruction = سوال کو اضافو کرو <icon> </icon> ما { $currentLocale } لوکاں کا جواب وسطے
 add-question-textarea-placeholder = مثال کے طور اپر “ تم کس چیز وسطے ٹیکنالوجی کو استعمال کرنو چاہو”
 add-questions-terms-checkbox = ہوں اس گل کی تصدیق کروں جے یوہ سوال <publicDomainLink> پبلک ڈومین </publicDomainLink> تے منا اس نا اپلوڈ کی اجازت ہے
+question-dataset-language = ڈیٹا سیٹ{ $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } 1 سوال جمع ہو گیو

@@ -7,8 +7,6 @@ action-tap = Dwöng
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Mïö thama ï dataset
-# Label for button on contribution switcher
-change = Alökalöka
 coming-soon = Lëb na pol tye ka bino na cwöcwök
 media-recorder-api-not-supported = Gin na makö dwön ï API ba ëcwakö ï acïmni
 # Toast message that is displayed when an item is skipped

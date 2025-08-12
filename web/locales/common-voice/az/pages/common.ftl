@@ -110,6 +110,3 @@ email-input =
     .label = E-poçt
 loading = Yüklənir…
 indicates-required = * Tələb edilən bölmələri göstərir
-
-## Donate banner
-

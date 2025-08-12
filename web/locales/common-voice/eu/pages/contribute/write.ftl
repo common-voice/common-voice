@@ -26,12 +26,3 @@ add-sentence-error = Errorea esaldia gehitzean
 ## BULK SUBMISSION
 
 sc-bulk-submit-confirm = Esaldi hauek <wikipediaLink>jabetza publikoan</wikipediaLink> daudela eta berauok igotzeko baimena dudala baieztatzen dut.
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

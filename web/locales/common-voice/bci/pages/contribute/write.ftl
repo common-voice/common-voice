@@ -89,12 +89,3 @@ file-invalid-type = Fasie timan kpa
 file-too-large = Fasie ti dan kpa .
 file-too-small = Fasie ti kaan kpa .
 too-many-files = Fasie kaka
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

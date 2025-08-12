@@ -11,7 +11,7 @@
 
     & p.tag-text {
         font-size: var(--font-size-sm);
-        text-transform: uppercase;
+        text-transform: none;
         font-weight: 600;
     }
 

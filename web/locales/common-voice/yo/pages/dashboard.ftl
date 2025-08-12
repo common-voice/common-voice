@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ṣètò àfojúsùn
 cant-decide = O kò ní ìpinnu?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                               *[other] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                               *[other] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                               *[other] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                               *[other] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                               *[other] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                               *[other] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                               *[other] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                               *[other] { $totalHours } wákátìí ṣeéṣe{ $periodMonths } oṣù tí{ $people } ìgbohùnsílẹ̀ énìyàn{ $clipsPerDay } ìkálẹ̀ ojojúmọ́
-                            }
-                    }
-            }
-    }
 how-many-per-day = Ó dára! Fọ́nrán mẹ́lòó ní ojúmọ́ kan?
 how-many-a-week = Ó dára! Fọ́nrán mélòó ní ọ̀sẹ̀ kan?
 which-goal-type = Ṣé o fẹ́ sọ̀rọ̀, gbọ́rọ̀ tàbí méjéèjì

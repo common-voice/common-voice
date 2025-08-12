@@ -8,6 +8,7 @@ datasets-positioning =
     Vícejazyčný dataset Common Voice je již největší veřejně dostupným souborem svého druhu, ale není jediným.
     
     Podívejte se na tuto stránku, tento centrální rozcestník, který obsahuje další otevřené soubory, ale i aktualizace a nové verze datasetu Common Voice, který stále roste.
+datasets-speech-bubble-content = Vzrušující zprávy! Spontánní řeč je na cestě! Sledujte aktualizace a nezapomeňte se podívat na náš <discordLink>Discord</discordLink>, kde najdete nejnovější informace.
 language = Jazyk
 download-dataset-header = Stáhnout dataset
 download-delta-explainer = Provedli jsme několik změny. Delta Segments nyní obsahují pouze nejnovější nahrávky od posledního vydání. <deltaLink>Přečtěte si více o této novince</deltaLink>.

@@ -10,7 +10,7 @@ add-question-success-toast-message =
         *[other] of {$totalQuestions} questions collected
     }
 add-question-error-message = Upload failed, please retry.
-add-question-too-many-questions-error = Exceeded 500 questions. Reduce number of questions and retry.
+add-question-too-many-questions-error = Exceeded 25 questions. Reduce number of questions and retry.
 partial-questions-upload-message = 
     {$uploadedQuestions} {$totalQuestions -> 
         [one] of 1 question collected
@@ -27,3 +27,10 @@ do-not-section-title = do not
 do-not-section-guideline-1 = Solicit personally identifying information (like names or financial information)
 do-not-section-guideline-2 = Express or solicit prejudiced or offensive sentiments
 do-not-section-guideline-3 = Ask sensitive questions
+
+# Code switching Guidelines
+cs-do-section-guideline-1 = Use bilingual questions or context
+cs-do-section-guideline-2 = Explore informal scenarios, situations, or reenactments
+cs-do-not-section-guideline-1 = Solicit personally identifying information (like names or financial information) or offensive sentiments
+cs-do-not-section-guideline-2 = Ask for codeswitching or request translation
+cs-do-not-section-guideline-3 = Use overly formal language

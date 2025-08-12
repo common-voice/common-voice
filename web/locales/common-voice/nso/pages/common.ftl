@@ -60,7 +60,6 @@ hsb = Se-Sorbian, Upper
 ht = Se-Haitian
 hu = Se-Hungarian
 hy-AM = Se-Armenia
-hyw = Se-Armenian Western
 ia = Se-Interlingua
 id = Se-Indonesia
 ie = Se-Interlingue

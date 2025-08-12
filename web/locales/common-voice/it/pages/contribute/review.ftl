@@ -15,9 +15,9 @@ sc-review-form-button-reject = Rifiuta
 sc-review-form-button-skip = Salta
 sc-review-form-button-approve = Approva
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = Y
+sc-review-form-button-approve-shortcut = A
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = N
+sc-review-form-button-reject-shortcut = R
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Puoi anche utilizzare le scorciatoie da tastiera: { sc-review-form-button-approve-shortcut } per approvare, { sc-review-form-button-reject-shortcut } per rifiutare, { sc-review-form-button-skip-shortcut } per saltare

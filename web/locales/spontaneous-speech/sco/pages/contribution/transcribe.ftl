@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> and write down what you hear the person saying
 editbox-header = Transcribe
 editbox-placeholder = Write down what you hear the person saying here
-no-audio-message = There is currently no audio to transcribe for this language. Please refresh the page or try again later.
 create-transcript-success = Transcript submitted successfully
 create-transcript-error = An error occurred while creating this transcript
 error-playing-audio = Error while playing audio file.

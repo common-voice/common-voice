@@ -67,7 +67,6 @@ hsb = Nò Sòbyen
 ht = Ayisyen
 hu = Ongwa
 hy-AM = Amenyen
-hyw = Lwès Amenyen
 ia = Intèlengwa
 id = Endonezyen
 ie = Intèleng

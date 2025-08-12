@@ -52,67 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Imposta un obiettivo
 cant-decide = Sei indeciso?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persona producendo { $clipsPerDay } registrazione al giorno.
-                               *[other] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persona producendo { $clipsPerDay } registrazioni al giorno.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persone producendo { $clipsPerDay } registrazione al giorno.
-                               *[other] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persone producendo { $clipsPerDay } registrazioni al giorno.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persona producendo { $clipsPerDay } registrazione al giorno.
-                               *[other] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persona producendo { $clipsPerDay } registrazioni al giorno.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persone producendo { $clipsPerDay } registrazione al giorno.
-                               *[other] { $totalHours } ora è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persone producendo { $clipsPerDay } registrazioni al giorno.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persona producendo { $clipsPerDay } registrazione al giorno.
-                               *[other] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persona producendo { $clipsPerDay } registrazioni al giorno.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persone producendo { $clipsPerDay } registrazione al giorno.
-                               *[other] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mese da { $people } persone producendo { $clipsPerDay } registrazioni al giorno.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persona producendo { $clipsPerDay } registrazione al giorno.
-                               *[other] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persona producendo { $clipsPerDay } registrazioni al giorno.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persone producendo { $clipsPerDay } registrazione al giorno.
-                               *[other] { $totalHours } ore è un obiettivo che può essere raggiunto in solo { $periodMonths } mesi da { $people } persone producendo { $clipsPerDay } registrazioni al giorno.
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = 100 persone che registrano 100 frasi al giorno possono generare 13 ore di audio. Mantenendo questo ritmo, è possibile raggiungere 1000 ore in meno di 3 mesi.
 how-many-per-day = Ottimo! Quante registrazioni al giorno?
 how-many-a-week = Ottimo! Quante registrazioni a settimana?
 which-goal-type = Vuoi registrare, convalidare o entrambi?

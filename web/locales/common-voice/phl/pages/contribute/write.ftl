@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جملے شامل تھہ او تنی جائزہ 
 add-sentences-menu-item-tooltip = تیݨی زبان کی جملے شامل تھہ
 review-sentences-menu-item-tooltip = تیݨی زبان کی جملیمی جائزہ تھہ۔
 add-questions-menu-item-tooltip = تیݨی زبان کی سُویلی شامل تھہ۔
+review-questions-menu-item-tooltip = سویلیمی دوبارہ جائزہ تھوئی
 transcribe-audio-menu-item-tooltip = آڈیو ریکاڈنگ تیݨی زبان کی نقل تھہ
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = اختیاریتی مینو ݜُݨ
 add-sentences-menu-item-aria-label = کمیونٹی خلکیمی منئی دپارہ آک ناوہ جملے جمع تھہ
 review-sentences-menu-item-aria-label = کمیونٹی خلکیمی طرفی پیش تھیلہ بھاؤ موجودہ جملیمی جائزہ گھن
 add-questions-menu-item-aria-label = کمیونٹی خلکیمی منئنی دپارہ اور جواب دئنی دپارہ آک سوال امزیہ۔
+review-questions-menu-item-aria-label = کمیونٹی طرفی جمع تھیلی ویندی سویلیمی دوبارہ جائزہ تھوئی تھے بہ ووٹ دوئی
 transcribe-audio-menu-item-aria-label = آڈیو ریکاڈنگ عبارت کی نقل تھہ

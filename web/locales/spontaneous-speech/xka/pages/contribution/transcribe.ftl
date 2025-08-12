@@ -4,7 +4,6 @@
 audio-page-instruction = چھوڈآ تس ات میش گھوا مینل رل بت۔
 editbox-header = نقل تھال
 editbox-placeholder = جوݨڑا تس اوں میش اوما گوا منیل رل بت۔
-no-audio-message = اوں جب می نقل تھال کیر گیب اڈیو نان ۔مربنی تھا پات تازہ تھاتھ پتا دیرا کوشش تھا
 create-transcript-success = نقل کامیابی سے تھ جیت۔
 create-transcript-error = اوں ٹراسکرپٹ تیار تھال ٹآئم رل خرابی یل
 error-playing-audio = اڈیو فائل چلال ٹائم رل غلطی۔

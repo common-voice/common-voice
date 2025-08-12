@@ -87,12 +87,6 @@ coming-soon = ¡Muy pronto!
 partnerships-menu-item-tooltip = Colaborar con nosotros
 community-and-languages-menu-item-tooltip = Descubrir las lenguas y las comunidades de Common Voice
 
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 # icon is an arrow that points downwards
@@ -104,6 +98,7 @@ action-items-section-title = Common Voice es una plataforma gratuita y de softwa
 scripted-card-header = Habla leída
 spontaneous-card-header = Habla espontánea
 language-text-card-header = Texto en idioma
+coming-soon = ¡Muy pronto!
 add-text = Añadir texto
 
 ## Community section
@@ -111,12 +106,6 @@ add-text = Añadir texto
 find-us-on-matrix = Encontrarnos en Matrix
 # label for button
 find-us-on-matrix-action = Encontrarnos en Matrix
-
-## Featured section
-
-
-## Developers section
-
 
 ## Get involved section
 

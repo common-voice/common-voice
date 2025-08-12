@@ -8,6 +8,7 @@ datasets-positioning =
     Common Voice-niko ha’emavoi kuaapy’aty tuichavéva oĩva heta ñe’ẽme, katu naha’eñói.
     
     Eikemi ko toguépe eikuaasevérõ ambue kuaapy’aty ãichagua oĩva opavavépe g̃uarã ha avei okakuaa ohóvo Common Voice, reikuaáta ápe mba’epyahu.
+datasets-speech-bubble-content = ¡Marandu tetia’erã! ¡Ñe’ẽ tee oĩma tapére! Eikuaapa tekopyahu rehegua ha katuete eporandu nde <discord Link>Discord</discord Link> eikuaa hag̃ua oikóva guive.
 language = Ñe’ẽ
 download-dataset-header = Emboguejy mba’ekuaarã aty
 download-delta-explainer = Romoambuékuri heta mba’e. Pe delta vore oguerekóma mba’epyahu roguenohẽramóvéva. <deltaLink>Emoñe’ẽve ko tembiapo rehegua</deltaLink>.
@@ -93,6 +94,9 @@ release-version = Peteĩchagua
 dataset-date = Mba’ekuaarã
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
+# Support old genders in older datasets
+male = Kuimba’e
+female = Kuña
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Emboguejy ore ayvu mba’ekuaarã aty
 # MENU ITEM ARIA LABELS

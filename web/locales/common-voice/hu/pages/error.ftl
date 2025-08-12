@@ -11,3 +11,11 @@ error-content-404 = Talán a <homepageLink>kezdőlapunk</homepageLink> segít. H
 error-title-503 = Váratlan leállásokat tapasztalunk
 error-content-503 = Az oldal a lehető leghamarabb újra üzemelni fog. A legfrissebb információkért csatlakozzon a <matrixLink>Matrix közösségi csevegéshez</matrixLink>, vagy látogassa meg a <githubLink>GitHubot</githubLink> vagy a <discourseLink>Discourse fórumunkat</discourseLink>, hogy elküldje és figyelje a webhellyel kapcsolatos problémákat.
 error-code = Hibakód: { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] Nem sikerült a klipet feltölteni. Korábban már fel lett töltve. Folytassa a következő köteggel!
+       *[other] Nem sikerült { $total } klipet feltölteni. Korábban már fel lettek töltve. Folytassa a következő köteggel!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = { $uploaded } klipjét feltöltöttük – a többi már fel lett töltve. Folytassa a következő köteggel!

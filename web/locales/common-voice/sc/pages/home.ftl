@@ -83,10 +83,8 @@ read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de
 
 ## NAV ITEMS
 
-answer-questions-coming-soon = Risponde preguntas <small>(luego)</small>
-review-transcriptions-coming-soon = Revisiona trascritziones <small>(luego)</small>
+answer-questions = Risponde preguntas
 add-questions = Agiunghe preguntas <small>(luego)</small>
-transcribe-audio-coming-soon = Trascrie àudio <small>(luego)</small>
 press-and-stories = Istampa e istòrias
 community-and-languages = Comunidade e limbas
 coming-soon = Luego
@@ -100,9 +98,6 @@ about-menu-tooltip = Collaboratziones, istampa e istòrias, comunidades e limbas
 partnerships-menu-item-aria-label = Leghe àteru in pitzus de is sòtzios de Common Voice
 press-and-stories-menu-item-aria-label = Atzede a is comunicados de istampa e a istòrias acapiadas a Common Voice
 community-and-languages-menu-item-aria-label = Esplora sa comunidade e is limbas cumpatìbiles cun Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,6 +118,7 @@ spontaneous-card-header = Testu ispontàneu
 spontaneous-card-content = Risponde a inditos pro creare pachetes de datos pro cuntestos orgànicos e collochiales. Perfetu pro limbas cun una traditzione orale forte.
 language-text-card-header = Testos in sa limba
 language-text-card-content = Crea o cumpartzi preguntas de domìniu pùblicu, fràsias e testu pro sa tradutzione, modellos piticos de limba e àteru.
+coming-soon = Luego
 add-text = Agiunghe testos
 
 ## Community section
@@ -151,9 +147,6 @@ contribute-github-action = Contribui a Github
 ## Featured section
 
 featured-section-title = Nd’ant faeddadu
-
-## Developers section
-
 
 ## Get involved section
 

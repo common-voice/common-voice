@@ -173,6 +173,3 @@ about-playbook-how-project-governance-content-4 = Ukuzibandakanya komphakathi no
 about-playbook-how-project-governance-content-5 = Ukuqakatheka nokutjhejwa.
 about-playbook-how-project-governance-content-6 = Isibopho sokulandisa.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengeziweko ngendlela esibuswa ngayo</governanceLink>
-
-## How is Common Voice funded
-

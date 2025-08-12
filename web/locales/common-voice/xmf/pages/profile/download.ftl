@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = გოსაჭირუნანო თქვან მუნაჩემეფიშ გიმოხარგუა?
+download-info = ქომიწით მუში გიმოხარგუა გოკონანი:
+download-profile-title = პროფილი
+download-profile-info = თეშ დინახალე ელფოსტა, მუმახვარებელიშ სახელი დო დემოგრაფიულ მუნაჩემეფი, ხეშმიოჭირინაფალ რე.
+download-profile-size = ართ-ჟირ ბაიტი
+download-recordings-title = ინნაჭარეფი
+download-recordings-info = თაქ რე mp3 დო თიშა მერსხილი ზიტყვასქვილეფი, ხაზირებას ჭიჭე დრო ოსაჭირუ
+download-recordings-size = ჩვეულებრივ მეგაბაიტეფი
+download-recordings-unavailable = ვეშეილებუ ინნაჭარეფიშ მოთხუალა, მუჟამს შხვა მოთხუალაში დამუშება მეურსუნი.
+download-recently-requested = საკუთარ ინნაჭარეფიშ ეშაღალა შეგილებუნა მითხუათ ირი { $days } დღას.
+download-size = ზომა
+download-selected = გჷშაგორილი
+download-start = პროფილიშ მუნაჩემეფიშ გიმოხარგუა
+download-request = ინნაჭარეფიშ მოთხუალა
+download-requests = კინოხონი ინნაჭარეფიშ გიმოხარგუაშ მოთხუალა
+download-requests-info = მუჟამს მითხინთ თქვან ინნაჭარეფსჷნი, ჩქი თინეფს ფშაყარანთ ართი ვარდა ართ-ჟირ ZIP ფაილს. თაქ რე თქვანი კინოხონი მოთხუალეფი:
+download-request-button = გიმოხარგუა
+download-request-title = { $created }
+download-request-description = { $clipCount } ხონარუან ინნაჭარეფი, არქივიშ ნტირულობა { $size }. ვადა { $expires }.
+download-request-archive-single = ართ ZIP ფაილი რე
+download-request-archive-multiple = გორთილი { $archiveCount } ართ ZIP ფაილო
+download-request-assembling-description = თქვან ფაილეფი იშაყარუ. ქორთხინთ, ქიგნაჯინათ ჭიჭე ხანიშა.
+download-request-refresh-button = გაახალება
+download-request-modal-title = გიმახარგალი რსხილეფი
+download-request-modal-description = თაქ რე რსხილი თქვან ZIP ფაილეფიშ გიმახარგალო.
+download-request-link-text = Zip # { $offset }, გვალო { $total }
+download-request-metadata-link = ზიტყვასქვილიშ ტექსტი
+download-request-link-single = თქვა შეილებუნა რსხილიშ ამნახანტი გეჭოფათ დო ქინახუნუათ გიმოხარგუაშ მენეჯერს. თის ხანი 12 საათიშა დელიებუ, მარა თე ხასილაშე ნებისმიერ დროს შეილებუნა რსხილეფიშ ახაშო აკოქიმინუა.

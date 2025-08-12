@@ -4,7 +4,6 @@
 transcription-page-instruction = Audio clip ko'n' kari, newishila jagai, sahi peruk jonel dai e? ne pe haw warek kai kari
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Check/ Jagai
-no-transcriptions-message = Filahal, shaya zuban una o kia ne newishi shiau. Meharbani kai page fresh kari ya o geri khushush kari
 vote-transcript-success = Newishila manzor hawaw, kamyab thi
 vote-transcript-error = Report jama karik vew galti hawaw
 transcript-edited-success = Newishil'a sahi hawaw

@@ -37,6 +37,11 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'sw',
+    variant_name: 'Katanga (DRC)',
+    variant_token: 'sw-katanga',
+  },
+  {
+    locale_name: 'sw',
     variant_name: 'Kiswahili Sanifu (EA)',
     variant_token: 'sw-sanifu',
   },
@@ -412,6 +417,26 @@ export const VARIANTS: Variant[] = [
     variant_token: 'sva-lentekh',
   },
   {
+    locale_name: 'tvu',
+    variant_name: 'Tunen (Ndikinimeki)',
+    variant_token: 'tvu-ndikini',
+  },
+  {
+    locale_name: 'tvu',
+    variant_name: 'Tunen (Fɔ̀mbɔ́)',
+    variant_token: 'tvu-fombo',
+  },
+  {
+    locale_name: 'ug',
+    variant_name: 'ئۇيغۇر تىلى',
+    variant_token: 'ug-Arab',
+  },
+  {
+    locale_name: 'ug',
+    variant_name: 'Уйғур тили',
+    variant_token: 'ug-Cyrl',
+  },
+  {
     locale_name: 'vi',
     variant_name: 'Hà Nội',
     variant_token: 'vi-hanoi',
@@ -455,5 +480,50 @@ export const VARIANTS: Variant[] = [
     locale_name: 'lzz',
     variant_name: 'Xopuri',
     variant_token: 'lzz-xopuri',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Südrheinfränkisch (Weissebuisch, Màdere, usw.)',
+    variant_token: 'gsw-FR-sudrfran',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Rhinfränkisch (Bùckenùmm, Lìtzelstän, usw.)',
+    variant_token: 'gsw-FR-rhinfran',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, usw.)',
+    variant_token: 'gsw-FR-nordalem',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Südniederàlemmànisch (Kolmer, Gawìller, Mìlhüüsa, Àltkìrich, usw.)',
+    variant_token: 'gsw-FR-sudnalem',
+  },
+  {
+    locale_name: 'gsw',
+    variant_name: 'Hochàlemmànnisch (Hìniga, Pfìrt, usw.)',
+    variant_token: 'gsw-FR-hochalem',
+  },
+  {
+    locale_name: 'ga-IE',
+    variant_name: 'Gaeilge Uladh',
+    variant_token: 'ga-IE-uladh',
+  },
+  {
+    locale_name: 'ga-IE',
+    variant_name: 'Gaeilge Chonnacht',
+    variant_token: 'ga-IE-chonnact',
+  },
+  {
+    locale_name: 'ga-IE',
+    variant_name: 'Gaeilge na Mumhan',
+    variant_token: 'ga-IE-mumhan',
+  },
+  {
+    locale_name: 'ga-IE',
+    variant_name: 'Gaeilge Chaighdeánach',
+    variant_token: 'ga-IE-caighd',
   },
 ]

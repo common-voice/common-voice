@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = تِمريٚ ڊيٽآ ڪوُ ڊيونلوڊ ڪروآ ڪي جرُرت هي؟
+download-info = همآ ڪوُ ٻتآئو تو ڪآ ڊآنلوڊ ڪوو چآهندآ هو:
+download-profile-title = پروڦآئيل
+download-profile-info = شآمل هي ايٚ ميل، سآرڦو ڪو نآئونٚ اورڊيموگرافڪ کبر، جلدي تورو پر موجود
+download-profile-size = چند بآئيٽس
+download-recordings-title = رِڪآرڊينگينٚ
+download-recordings-info = اورجُڙرآ جُملآ، تيآر هوآ مي ڪُج ٽيم لگ سڪدو هي mp3s شآمل هينٚ
+download-recordings-size = آم ميگآ بآئيٽس
+download-recordings-unavailable = تِمي تِمري رڪآرڊينگي ڪيٚ درڪآس ڪونآ ڪر سڪو جيسي تو دوسري درڪآس اگي ئي جآري هي
+download-recently-requested = دنو مي تِمري رڪآرڊينگي ڪيٚ نويٚنٚ ٽيڪ{ $days } تِمي هر آئوُٽو ڪي درڪآس ڪر سڪدآ هو
+download-size = مآپ
+download-selected = چُڳري
+download-start = پروڦآئيل ڊيٽآ لوڊ ڪرو
+download-request = رڪآرڊينگي ڪي درڪآس ڪرو
+download-requests = پِڇلي رڪآرڊينگ ڊونلوڊي ڪي درڪآسينٚ
+download-requests-info = جد تِمي آپو ڪي رڪآرڊينگيٚ ڪيٚ درڪآس ڪردآ هو، همي اُنآ ڪوُ ايڪ جآنٚ ڀوت جپ ڦآئيٚليٚ مي ڀيݪي ڪردآ هونٚ۔ يآنٚ تِمري اگليٚ درڪآسينٚ هينٚ
+download-request-button = ڊآونلوڊ ڪرو
+download-request-title = { $created }
+download-request-description = { $clipCount } وآئيس ڪِلپ، ڪل آر ڪآئيو سآئيج { $size } ڪو ٽيم پورو هوندو هي{ $expires }۔
+download-request-archive-single = ايڪ جِپ ڦآئيل شآمل ڪرو
+download-request-archive-multiple = جِپ ڦآئيلي پر يڪوڀوت سآريآنٚ{ $archiveCount } مي بِرآوو
+download-request-assembling-description = تِمري ڦآئيلينٚ ڀيݪي ڪرري جآ رهيريونٚ هينٚ۔ ميهربآنيٚ ڪر ڪي بآد مي وري چيڪ ڪرو۔
+download-request-refresh-button = تآجو ڪرو
+download-request-modal-title = لِنڪ ڊونلوڊ ڪرو
+download-request-modal-description = جِپ ڦآئليٚنٚ ڪوُ ڊونلوڊ ڪروآ تآڻي لنک يهآنٚ هينٚ۔
+download-request-link-text = جِپ#{ $offset } دي{ $total }
+download-request-metadata-link = جملآ ڪي لِکت
+download-request-link-single = ڪوُ پسنديآݪو آونلوڊ URLs تِمي بي پقل ڪر سڪدآ هو سيدو لوڊ مينيجرو مي۔ وي12 ڪلآڪينٚ مي کتم هو جآسيٚ، پر تِمي ڪِرو بيٚ ٽيم نوآنٚ ٽآوآ تآڻي اِرو سڦآ پر وآپس آ سڪدآ هو۔

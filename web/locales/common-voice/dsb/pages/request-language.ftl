@@ -31,10 +31,10 @@ request-language-success-list-3 =
 request-language-error =
     Snaź njejsmy dostali toś tu pšosbu. Pšosym sćelśo nam direktnu mejlku
     na <emailLink>{ $email }</emailLink> a my wótegronijomy!
-request-for-scripted-speech-toggle = Pominanje za napisane powědanje
+request-for-scripted-speech-toggle = Pominanje za powědanje ze skriptom
 request-for-spontaneous-speech-toggle = Pominanje za spontane powědanje
 need-help-deciding-platform = Trjebaśo pomoc, aby rozsuźił, kótaru móžośo wubraś?
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-platform-explanation-1 = <strong>Napisane powědanje</strong> (tradicionelnje to, což ako Common Voice znajośo) jo to, źož móžośo w swójej rěcy głosnje cytaś.
+need-help-deciding-platform-explanation-1 = <strong>Powědanje ze skriptom</strong> (tradicionelnje to, což ako Common Voice znajośo) jo to, źož móžośo w swójej rěcy głosnje cytaś.
 need-help-deciding-platform-explanation-2 = <strong>Spontane powědanje</strong> jo nowy źěl Common Voice, źož móžośo na pšašanja na wěcej organiski, wobchadnorěcny nałog wótegroniś.
 need-help-deciding-platform-explanation-3 = Jolic swóju rěc we wobyma źěloma platformy njewiźiśo, wubjeŕśo wobej.

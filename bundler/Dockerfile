@@ -2,7 +2,7 @@ FROM node:18-bullseye
 
 RUN apt-get update && \
     apt-get install python3-pip vim -y && \
-    pip3 install --upgrade setuptools
+    pip3 install --upgrade setuptools==68.2.2
 
 RUN groupmod -g 10001 node && usermod -u 10001 -g 10001 node
 

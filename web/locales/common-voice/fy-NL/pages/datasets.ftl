@@ -8,6 +8,7 @@ datasets-positioning =
     De meartalige gegevensset fan Common Voice is no al de grutste iepenbiere spraakgegevensset yn syn soarte, mar it is net de iennige.
     
     Beskôgje dizze side as in list mei referinsjes nei oare iepenboarne-spraakgegevenssets en, wylst Common Voice trochgroeit, de startside foar ús nije útjefte.
+datasets-speech-bubble-content = Spannend nijs! Spontane spraak is ûnderweis! Bliuw op ’e hichte foar updates en kontrolearje ús <discordLink>Discord</discordLink> foar de lêste ynformaasje.
 language = Taal
 download-dataset-header = De gegevensset downloade
 download-delta-explainer = Wy hawwe inkelde wizigingen oanbrocht. Delta Segments befetsje allinnich de meast resinte fragminten sûnt de foarige ferzje. <deltaLink>Mear ynfo oer dit wurk</deltaLink>.
@@ -74,7 +75,7 @@ donate-modal-message = Jo gegevensset wurdt download!
 dataset-donate-modal-heading = Wisten jo dat…
 donate-modal-explanation-1 = It kostet hast in miljoen dollar yn it jier om de gegevenssets te hosten en it platfoarm te ferbetterjen foar de mear as 100 taalmienskippen dy’t ôfhinklik binne fan wat wy dogge?
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>As jo iepen, ynklusyf gegevens wurdearje – donearje hjoed noch!</bold>
+donate-modal-explanation-2 = <bold>As jo iepen, ynklusive gegevens wurdearje – donearje hjoed noch!</bold>
 data-download-singleword-title = It inkeld-wurd-doelsegmint downloade
 data-download-singleword-callout-v2 = Dit is in gebrûksbasearre segmint dat gegevens befettet om it werkennen fan sprutsen sifers en deteksje fan ja/nee mooglik te meitsjen.
 data-download-button = Common Voice-gegevens downloade
@@ -88,7 +89,7 @@ data-get-started = <speechBlogLink>Start no mei spraakwerkenning</speechBlogLink
 data-other-title = Oare stimgegevenssets…
 data-other-goto = Gean nei { $name }
 data-other-download = Gegevens downloade
-data-bundle-button = Bondel gegevensset downloade
+data-bundle-button = Gegevenssetbondel downloade
 data-bundle-description = Common Voice-gegevens plus alle oare boppesteande stimgegevenssets.
 release-version = Ferzje
 dataset-date = Datum

@@ -76,15 +76,15 @@ read-more-about = تەپسىلاتنى بىزنىڭ توغرىسىدا بېتى�
 ## NAV ITEMS
 
 answer-questions = سوئالغا جاۋاب <small>(پات يېقىندا قوشۇلىدۇ)</small>
-answer-questions-coming-soon = سوئالغا جاۋاب <small>(پات يېقىندا قوشۇلىدۇ)</small>
 review-transcriptions = تېكىست خاتىرىسىنى تەكشۈر<small>(پات يېقىندا قوشۇلىدۇ)</small>
-review-transcriptions-coming-soon = تېكىست خاتىرىسىنى تەكشۈر<small>(پات يېقىندا قوشۇلىدۇ)</small>
 add-questions = سوئال قوش<small>(پات يېقىندا قوشۇلىدۇ)</small>
-transcribe-audio-coming-soon = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 press-and-stories = خەۋەر ۋە ماقالە
 community-and-languages = جامائەت ۋە تىل
 coming-soon = پات يېقىندا قوشۇلىدۇ
+about-us = بىز ھەققىدە
+scripted-speech = قوليازما نۇتقى
+spontaneous-speech = تەبىئىي نۇتۇق
 
 ## MENU ITEMS TOOLTIPS
 
@@ -95,13 +95,11 @@ community-and-languages-menu-item-tooltip = تىل بايقاش ۋە جامائ�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = تاللانما تىزىملىك ھەققىدە
+about-us-menu-aria-label = ھەققىدە تاللانما تىزىملىكى
+about-us-menu-item-aria-label = بىز ھەققىدە تاللانما تىزىملىكى
 partnerships-menu-item-aria-label = Common Voice بىلەن ھەمكارلىشىش ھەققىدىكى بىلىملەر
 press-and-stories-menu-item-aria-label = Common Voice ھەققىدىكى خەۋەر ۋە ماقالىگە ئېرىشىش
 community-and-languages-menu-item-aria-label = Common Voice قوللىغان تىل ۋە جامائىتى ھەققىدە ئىزدىنىش
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -122,7 +120,9 @@ spontaneous-card-header = تەبىئىي نۇتۇق
 spontaneous-card-content = ئالدىن تەييارلانغان سوئاللارغا جاۋاب بېرىپ، تەبىئىي ئېغىزاكى تېكىست سانلىق مەلۇماتىنى قۇرىدۇ. ئېغىز تىلىنى ئاساس قىلىدىغان تىلغا ماس كېلىدۇ.
 language-text-card-header = تىل تېكىستى
 language-text-card-content = تەرجىمە، كىچىك تىل مودېلى قاتارلىق تۈرلەرگە ئاممىۋى دائىرىدىكى سۆز بېشى، جۈملە ۋە تېكىست قۇرۇپ ياكى ھەمبەھىرلەيدۇ.
+coming-soon = پات يېقىندا قوشۇلىدۇ
 add-text = تېكىست قوش
+answer = جاۋاب
 
 ## Community section
 
@@ -165,7 +165,7 @@ explore-datasets = سانلىق مەلۇمات توپلىمى <icon></icon> با
 
 get-involved-section-title = جامائەت باشلامچىلىقىدىكى ئوچۇق سانلىق مەلۇمات توپلىمىنى قوللاڭ
 read-sentences-link = جۈملە ئوقۇڭ
-validate-readings-link = ئوقۇشنى دەلىللە
+validate-readings-link = ئوقۇشنى دەلىللەڭ
 contribute-link = تېكىست توپلىمىغا تۆھبە قوشۇڭ
 answer-questions-link = سوئالغا جاۋاب
 transcribe-answers-link = جاۋابنى خەتكە پۈتۈڭ

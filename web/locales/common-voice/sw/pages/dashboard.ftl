@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Weka lengo
 cant-decide = Huwezi kuamua?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] saa { $totalHours }inafanikiwa kwa muda wamwezi { $periodMonths }ikiwamtu { $people }wamerokodikipande { $clipsPerDay } cha sautikwa siku.
-                               *[other] saa { $totalHours }inafanikiwa kwa muda wamwezi { $periodMonths }ikiwamtu { $people }wamerokodivipande { $clipsPerDay } vya sautikwa siku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] saa { $totalHours }inafanikiwa kwa muda wamwezi { $periodMonths }ikiwawatu { $people }wamerokodikipande { $clipsPerDay } cha sautikwa siku.
-                               *[other] saa { $totalHours }inafanikiwa kwa muda wamwezi { $periodMonths }ikiwawatu { $people }wamerokodivipande { $clipsPerDay } vya sautikwa siku.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] saa { $totalHours }inafanikiwa kwa muda wamiezi { $periodMonths }ikiwamtu { $people }wamerokodikipande { $clipsPerDay } cha sautikwa siku.
-                               *[other] saa { $totalHours }inafanikiwa kwa muda wamiezi { $periodMonths }ikiwamtu { $people }wamerokodivipande { $clipsPerDay } vya sautikwa siku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] saa { $totalHours }inafanikiwa kwa muda wamiezi { $periodMonths }ikiwawatu { $people }wamerokodikipande { $clipsPerDay } cha sautikwa siku.
-                               *[other] saa { $totalHours }inafanikiwa kwa muda wamiezi { $periodMonths }ikiwawatu { $people }wamerokodivipande { $clipsPerDay } vya sautikwa siku.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] saa { $totalHours }inafanikiwa kwa muda wamwezi { $periodMonths }ikiwamtu { $people }wamerokodikipande { $clipsPerDay } cha sautikwa siku.
-                               *[other] saa { $totalHours }inafanikiwa kwa muda wamwezi { $periodMonths }ikiwamtu { $people }wamerokodivipande { $clipsPerDay } vya sautikwa siku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] saa { $totalHours }inafanikiwa kwa muda wamwezi { $periodMonths }ikiwawatu { $people }wamerokodikipande { $clipsPerDay } cha sautikwa siku.
-                               *[other] saa { $totalHours }inafanikiwa kwa muda wamwezi { $periodMonths }ikiwawatu { $people }wamerokodivipande { $clipsPerDay } vya sautikwa siku.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] saa { $totalHours }inafanikiwa kwa muda wamiezi { $periodMonths }ikiwamtu { $people }wamerokodikipande { $clipsPerDay } cha sautikwa siku.
-                               *[other] saa { $totalHours }inafanikiwa kwa muda wamiezi { $periodMonths }ikiwamtu { $people }wamerokodivipande { $clipsPerDay } vya sautikwa siku.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] saa { $totalHours }inafanikiwa kwa muda wamiezi { $periodMonths }ikiwawatu { $people }wamerokodikipande { $clipsPerDay } cha sautikwa siku.
-                               *[other] saa { $totalHours }inafanikiwa kwa muda wamiezi { $periodMonths }ikiwawatu { $people }wamerokodivipande { $clipsPerDay } vya sautikwa siku.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Vizuri! Vipande vingapi vya sauti kwa siku?
 how-many-a-week = Vizuri! Vipande vingapi vya sauti kwa wiki?
 which-goal-type = Unataka kuongea, usikiliza au zote mbili?

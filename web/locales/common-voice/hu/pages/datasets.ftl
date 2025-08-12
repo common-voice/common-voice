@@ -8,6 +8,7 @@ datasets-positioning =
     A Common Voice többnyelvű adatkészlete már most a legnagyobb nyilvánosan hozzáférhető hangadat-készlet, de ez nem az egyetlen.
     
     Tekintsen erre az oldalra, mint egy referencia-központra, amely más nyílt forráskódú hangadat-készleteket tartalmaz, és ahogy a Common Voice tovább növekszik, ez lesz a frissített kiadások otthona is.
+datasets-speech-bubble-content = Izgalmas hírek! A Spontán beszéd úton van! Kövesse a híreket, és a legfrissebb információkért nézze meg a <discordLink>Discordunkat</discordLink>.
 language = Nyelv
 download-dataset-header = Az adatkészlet letöltése
 download-delta-explainer = Néhány változtatást hajtottunk végre. A delta szegmensek csak a legutóbbi kiadás óta készült legfrissebb klipeket tartalmazzák. <deltaLink>További információk erről a munkáról</deltaLink>.
@@ -94,6 +95,9 @@ release-version = Verzió
 dataset-date = Dátum
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
+# Support old genders in older datasets
+male = Férfi
+female = Nő
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Töltse le a hangadatkészleteinket
 # MENU ITEM ARIA LABELS

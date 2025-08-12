@@ -64,7 +64,6 @@ hsb = Ughelsorbek
 ht = Haitiek
 hu = Hongarek
 hy-AM = Armenyek
-hyw = Armenyek West
 ia = Interlingua
 id = Indonesek
 ie = Interlingue

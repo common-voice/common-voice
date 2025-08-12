@@ -29,45 +29,98 @@ no-clips-to-validate = Mel na ni baat yi nga man a dégglu ci làkk wii jeex na.
 toggle-play-tooltip = Bësal { shortcut-play-toggle } ngir dem ci mode bii dawal (mode lecture)
 speak-paragraph = Enregistrer ay baat dafa bokk ci defarug sunu jumtukaay yu ubbeeku yi (base de données ouvertes); ñenn ñi dañuy wax sax tamit ni mooy pàcc bi gën a neex.
 speak-goal-text = Enregistrer nañ baat yi
+listen-paragraph = Saytu kàddu yiñ joxe lu am solo la ci Common Voice. Déglul te jàppale nu ngir nu defar ay jumtukaay yu am baat yu ubbeeku.
+listen-goal-text = Kàddu yiñu saytu
+hours-recorded = Waxtu yiñ rënk
+hours-validated = Waxtu yiñ saytu
+voices-online = Kàddu yi ci net bi
+todays-progress = Yokkte biss bi
+help-reach-goal = Jàppale ngir ñu matal { $goal }
+read-terms-q = Ndax jàng nga sunuy sàrt?
+ready-to-record = Mën nga joxe sa kàddu?
+all-locales = Yépp
+today = Tay
+x-weeks-short =
+    ayubès
+    { $count } ayubès
+x-months-short = { $count }mo
+x-years-short = { $count }y
+help-make-dataset = Dimbali nu defar ay jumtukaay yu baax te ubbeeku ci ñépp
+sign-up-account = Bindul ngir am kont
+email-subscription-title = Bindul ngir yeesal sa email
+email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàttaliku say mébet ak yeesal sag yokkute
 
 ## Account Benefits
 
+benefits = Ay ngëneel
+view-goals = Xoolal sa yokkute ci say mébeti bopp ak say mébet si say nas.
+join-newsletter = Soo bëggee bokkal ci sunu limu email ngir am yeesal ak leeral yu bees ci nas bi.
 
 ## What's public
 
+whats-public = Yan nitt ?
+email-not-public = Dunu siiwal sa imeel.
+recordings-and-locale-public = Limu rënk yi ak làkk yi nga ci jàppale ñépp dina ñu ko giss.
+username-optin-public = Mën nga tànn nga fësal sa tur fi wala nga nëbb ko.
+username-email-not-demographic = Sa tur jëfandikukat ak sa email duñu ko boole ci jumtukaay yi yuñ siiwal.
 
 ## Landing
 
+welcome-staff = Dalal ak jàmm { $company } ci liggéey bi
+login-company = Duggal / Bindul ak sa { $company } imeel
+read-more-about = Yeneen leeral ci sunu xët wi
 
 ## NAV ITEMS
 
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
+answer-questions = Tontu laaj yi
+review-transcriptions = Jàngat Tekki yi
+add-questions = Sàmp ab laaj
+review-questions = Jàngat ay laaj
+transcribe-audio = Transkripson kàddu yi
+press-and-stories = Press ak jaar-jaar
+community-and-languages = Askan wi ak làkk yi
+about-us = Lu jëm ci nun
 
 ## Action items section
 
+answer = Tontu
 
 ## Community section
 
+find-us-on-matrix = Jokko ak nun ci Matrix
+# label for button
+find-us-on-matrix-action = Jokko ak nun ci Matrix
+# label for button
+ask-mozilla-share-action = Yëgleel sa xew-xew
 
 ## Featured section
 
+featured-section-title = Fësal ci...
 
 ## Developers section
 
+developers-section-subtitle = Ay jumtukaay ngir ASR, STT, TTS, ak yeneen mbir yu jëm ci NLP - ñu defaree ko ak askan wi.
+# icon is an arrow that points to the right
+explore-datasets = Saay jumtukaay yi<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Ay jumtukaay yu ubbeeku, yu askan wi jiite
+read-sentences-link = Dawal waat yi
+validate-readings-link = Saytu jàng mi
+contribute-link = Bokk ci bind mi
+answer-questions-link = Tontu laaj yi
+transcribe-answers-link = Jàngat tontu yi
+review-transcriptions-link = Jàngat Tekki yi
+contribute-text-link = Jàpp ci mbind mi
+press-and-stories-link = Press ak jaar-jaar
 
 ## Partner section
 
+partner-section-title = sunuy partaner
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> - jàppale nu ngir nu defar ay jumtukaay yu yees yi ngir yokkuteg sunuy askan
+# icon is an arrow that points to the right
+get-in-touch-button = Jokkoo ak nun<icon></icon>
+# Partners section
+our-partners-include = Sunuy partaner ñooy...

@@ -15,7 +15,7 @@ listen-abort-confirm = Přepruwowanje dokónčić
 # Menu item
 validate-readings = Čitanja přepruwować
 # text wrapped in <small></small> will be shown in a smaller font size
-validate-readings-coming-soon = Čitanja přepruwować <small>(přińdźe bórze)</small>
+validate-readings-coming-soon = Čitanja přepruwować
 
 ## MENU ITEM TOOLTIPS
 

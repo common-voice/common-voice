@@ -70,36 +70,3 @@ help-contribute = Anda dapat bantu membantu set data sumber-terbuka nan beragama
 login-company = Masuk/Daftar dengan surel { $company }
 profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
 read-more-about = Baca lebih lanjut pada laman Tentang Kami
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصد مقرر کرو
 cant-decide = بھلا فیصلہ نہوے کر سڳدے؟
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } گھنٹہ قابل حصول ہے صرف{ $periodMonths } مہینہ وچ جے کر{ $people } بندہ رکاڈ کرے،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                               *[other] { $totalHours } گھنٹہ قابل حصول ہے صرف{ $periodMonths } مہینہ وچ جے کر{ $people } بندہ رکاڈ کرے،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } گھنٹہ قابل حصول ہے صرف{ $periodMonths } مہینہ وچ جے کر{ $people } بندے رکاڈ کرن،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                               *[other] { $totalHours } گھنٹہ قابل حصول ہے صرف{ $periodMonths } مہینہ وچ جے کر{ $people } بندے رکاڈ کرن،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } گھنٹہ قابل حصول ہے صرف{ $periodMonths } مہینیاں وچ جے کر{ $people } بندہ رکاڈ کرے،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                               *[other] { $totalHours } گھنٹہ قابل حصول ہے صرف{ $periodMonths } مہینیاں وچ جے کر{ $people } بندہ رکاڈ کرے،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } گھنٹہ قابل حصول ہے صرف{ $periodMonths } مہینیاں وچ جے کر{ $people } بندے رکاڈ کرن،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                               *[other] { $totalHours } گھنٹہ قابل حصول ہے صرف{ $periodMonths } مہینیاں وچ جے کر{ $people } بندے رکاڈ کرن،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } گھنٹے قابل حصول ہے صرف{ $periodMonths } مہینہ وچ جے کر{ $people } بندہ رکاڈ کرے،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                               *[other] { $totalHours } گھنٹے قابل حصول ہے صرف{ $periodMonths } مہینہ وچ جے کر{ $people } بندہ رکاڈ کرے،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } گھنٹے قابل حصول ہے صرف{ $periodMonths } مہینہ وچ جے کر{ $people } بندے رکاڈ کرن،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                               *[other] { $totalHours } گھنٹے قابل حصول ہے صرف{ $periodMonths } مہینہ وچ جے کر{ $people } بندے رکاڈ کرن،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } گھنٹے قابل حصول ہے صرف{ $periodMonths } مہینیاں وچ جے کر{ $people } بندہ رکاڈ کرے،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                               *[other] { $totalHours } گھنٹے قابل حصول ہے صرف{ $periodMonths } مہینیاں وچ جے کر{ $people } بندہ رکاڈ کرے،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } گھنٹے قابل حصول ہے صرف{ $periodMonths } مہینیاں وچ جے کر{ $people } بندے رکاڈ کرن،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                               *[other] { $totalHours } گھنٹے قابل حصول ہے صرف{ $periodMonths } مہینیاں وچ جے کر{ $people } بندے رکاڈ کرن،ہر ݙین٘ہ { $clipsPerDay } کلپ۔
-                            }
-                    }
-            }
-    }
 how-many-per-day = زبردست فی ݙین٘ہ کتی کلپ ہن؟
 how-many-a-week = زبردست! ہفتے وچ کتی کلپ ہن؟
 which-goal-type = بھلا تساں ٻولݨ، سُݨݨ چاہندے ہو یا ݙوہیں؟

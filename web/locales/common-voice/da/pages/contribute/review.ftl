@@ -15,11 +15,11 @@ sc-review-form-button-reject = Afvis
 sc-review-form-button-skip = Spring over
 sc-review-form-button-approve = Godkend
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = G
+sc-review-form-button-approve-shortcut = J
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = A
+sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = S
+sc-review-form-button-skip-shortcut = P
 sc-review-form-keyboard-usage-custom = Du kan også bruge tastaturgenveje: { sc-review-form-button-approve-shortcut } for at Godkende, { sc-review-form-button-reject-shortcut } for at Afvise, { sc-review-form-button-skip-shortcut } for at Springe over
 sc-review-form-button-submit =
     .submitText = Afslut gennemgang
@@ -53,3 +53,5 @@ sentences-fetch-error = Der opstod en fejl under hentning af sætninger
 review-error = Der opstod en fejl under gennemgang af denne sætning
 review-error-rate-limit-exceeded = Det går for hurtigt. Brug et øjeblik på at gennemgå sætningen for at sikre, at den er korrekt.
 sc-redirect-page-subtitle-2 = Stil os spørgsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller via <emailLink>e-mail</emailLink>.
+# menu item
+review-sentences = Gennemgå sætninger

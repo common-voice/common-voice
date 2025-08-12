@@ -3,9 +3,3 @@ listen-instruction = { $actionType }<playIcon></playIcon> үгүүлбэриие
 listen-again-instruction = Бэрхэт даа!<playIcon></playIcon> Бэлэн болоходоо дахин шагнажа үзэгты
 listen-3rd-time-instruction = 2 үлэбэ, бү зогсогты!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Һүүлшынхи!
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

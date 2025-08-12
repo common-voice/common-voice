@@ -11,8 +11,6 @@ platform-language-tooltip-text = Kemmañ a ra hepken testenn al lec'hienn web.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = O kemer perzh er strobad roadennoù evit { $language }
 contribution-picker-tooltip-text = Cheñch yezh ar strobad roadennoù a felldeoc'h kemeer perzh ennañ
-# Label for button on contribution switcher
-change = Kemmañ
 coming-soon = Muioc'h a yezhoù a-raok pell
 media-recorder-api-not-supported = N'eo ket skoret API MediaRecorder gant ho merdeer.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,18 @@ skip-button = Lezel a-gostez
 submit-button = Kas
 contribute = Kemer perzh
 request-new-language = Goulenn ur yezh nevez
+# Button text which appears when there are no more resources
+continue-with-skipped = Kenderc'hel gant ar re bet lezet a-gostez
 
 ## Navbar
 
+question = Goulenn
+validate = Aprouiñ
 respond-to-prompt = Respont d'ar goulenn
+respond-to-prompt-mobile = Respont
 transcribe = Treuzskrivañ
 check-transcriptions = Gwiriañ treuzskrivadurioù
-question = Goulenn
+check-transcriptions-mobile = Gwiriañ
 
 ## Not Found Page
 
@@ -60,3 +63,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkeg
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Klask ur yezh...
+language-search-aria-label = Klask ur yezh...
+language-search-label = Ne cheñch nemet yezh ar strobad roadennoù a gemerit perzh ennañ
+language-search-no-results = N'eus bet kavet yezh ebet

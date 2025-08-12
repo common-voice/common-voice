@@ -70,7 +70,6 @@ hsb = Soraapio wa sulu
 ht = Kirioulo wa mahaiti
 hu = Huunkaro
 hy-AM = Marameenio
-hyw = Armenio ocitental
 ia = Mattavani
 id = Intoneesio
 ig = Ikipo

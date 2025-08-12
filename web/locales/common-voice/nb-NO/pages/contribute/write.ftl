@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = Legg til og se gjennom setninger, legg til spør
 add-sentences-menu-item-tooltip = Legg til setninger på språket ditt
 review-sentences-menu-item-tooltip = Gjennomgå setninger på språket ditt
 add-questions-menu-item-tooltip = Legg til spørsmål på ditt språk
+review-questions-menu-item-tooltip = Gjennomgangsspørsmål
 transcribe-audio-menu-item-tooltip = Transkriber lydopptak på ditt språk
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = Skrivealternativer
 add-sentences-menu-item-aria-label = Legg til nye setninger som fellesskapet kan lese
 review-sentences-menu-item-aria-label = Vurder eksisterende setninger sendt inn av felleskapet
 add-questions-menu-item-aria-label = Send inn nye spørsmål som fellesskapet kan lese og svare på
+review-questions-menu-item-aria-label = Se gjennom og stem på nye spørsmål sendt inn av fellesskapet
 transcribe-audio-menu-item-aria-label = Transkribere lydopptak til tekst

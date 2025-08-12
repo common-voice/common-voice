@@ -3,6 +3,9 @@ guidelines-header = شراکیتیں کیر ہدایات
 guidelines-header-subtitle = جاٞناٞ اوں جملاٞ تے ٹیپ کٞراٞل کلپونہ سٞہ مداد تے توم صحی کھیکی کٞراٞں عام ہوازاٞں مواٞد سٞہ۔ کامن وائیسیں ڈیٹا سیٹ مئ حصہ تلوگ تے تصحیح کٞروگ اِزدہ کٞراٞ۔
 voice-collection = ہواٞزونہ جمہ کٞروگ
 sentence-collection = جملاٞ جمہ کٞروگ
+
+## Voice Collection nav ids
+
 varying-pronunciations = بداٞل تلفظ
 misreadings = کھوچہ پٞروگ
 offensive-content = لاݪ مواد
@@ -12,6 +15,9 @@ volume = ہوازیں سپیڈ
 reader-effects = پٞروگ والاں اثرات
 just-unsure = پھتہ نہ؟
 example = مثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = مٞہ بداٞل بداٞل لہجاٞ کٞہ بڑبژیہ مننت۔  اٞ لفظاٞں غلط تلفظاٞں بنیاٞد دہ، زورغلط بھاٞگ رہ داٞگ دہ، یا ظاہِراً سوالیہ نشان نظرانداز کٞروگاٞں بنیاٞد دہ اٞ کلِپ مسترد کٞروگ ما پھِرمال احتیاط کٞر۔ دُناۓ مئ تلفظاں باٞر زیات اختلاف تُھو، کیدے شی توم مئ باضی تئ تانی مقامی کمیونٹی مئ نہ بُت۔ ماٞربینی کاٞ کاٞں خلک تھئ ما بداٞل جوڑہ جولاٞںش توم کٞہ رعایت دہ۔
 varying-pronunciations-explanation-2 = دی دِیش کٞہ لخہ چھاں خیال اِیں تھو اُوں پروگ والہ پھِرمال اِیں لفظ ما شِید نات تے سٞہ اِیں لفظیں ادائگی رہ غلط اندازہ ݭانت، تھُکو تاٞس مسترد کٞر۔ لخہ تھکٞہ یقین نات تہ تھوکو چھوروگ والہ بٹنیں دہ۔
 varying-pronunciations-example = پن واضح نہ آش۔
@@ -47,11 +53,17 @@ reader-effects-explanation = اکثاٞر ریکارڈنگ تتھیں خلکیں
 just-unsure-explanation = لخہ اِچھلاں کٞہ شئ مُکہ یائ اُوں سٞہ اومی گائیڈلایٔنز مئ نہ آش تہ تھُکو باٞر صحیح طریقاٞ دہ اُٹ دہ، لخہ تو فیصلہ نہ کٞرباݭات تہ چھوروگاں بٹن اِستِمال کاٞ مِڄی ریکارڈنگ کٞہ چو۔
 still-have-questions = مُٹو پا ساٞلونہ تھو آٞ؟
 contact-common-voice = کامن وائیس ایں ٹیم سٞہ رابطہ کٞر
+
+## Sentence collection nav ids
+
 public-domain = عام ڈومین (کاٞں مئ لیسنسیں یا کاپی رائیٹیں پابندی ناتھی تہ)
 citing-sentences = جملاٞ آں حوالہ داٞگ
 adding-sentences = جُملاٞ آں  مِلاگ
 reviewing-sentences = جُملاٞ آں جائزہ گِھِنوگ
 sentence-domain = جُملاٞں ڈومین
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = اٞئی باٞر اہم اوں سواٞ چُنڑاٞل جملاٞ <publicDomain> پبلک ڈومین </publicDomain> <cc0> </cc0> واٞلاٞ ہو دہ۔  کیکوں کامن وائیساں ڈیٹا سیٹ  سی سی زیرو لائسنس آٞں بنیاد رہ جاری ہوانت۔  صرف تٞتھی جملہ بار کٞر اوں تٞھکٞہ یقین آش تہ، تے ہمیشہ ݭجاٞل حوالہ شامل کٞر۔
 public-domain-explanation-2 = اٞ مفید ہواز پویانوگاں انجن چاگیں کیر بہترین جملاٞ تتھیں اوں کاٞں عام جولاٞگ مئ استعمال ہوانش تہ تے کاٞں جدید پیشاٞ سٞہ متعلق تھو تہ۔  اٞلاٞت تصورات اومی تھو اوم جُملاٞ چاگ مئ تھوں مداٞد کٞرئ۔
 public-domain-explanation-3 = ناٞم ، عام جملاٞ اٞپینہ چاٞ یا تانی سیتاٞن سٞہ یا جیباٞں خلٞک سٞہ مِلی چا، مثلاً  write-a-thon’ منی اٞ کتاب تھو تن تھی پا جُملاٞ چاٞگ مئ مداٞد میلا ہوئ۔
@@ -74,20 +86,20 @@ adding-sentences-subheader-length-explanation = جملہ مئ  پاٞنجاٞ ا
 adding-sentences-subheader-spelling-punctuation = ہیزی تے رموزِ اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = اِیں جملیں ہیزی خامخہ صحی پکار۔
 adding-sentences-subheader-speakable = مٞنوگاں قابیل
-adding-sentences-subheader-speakable-explanation = راٞن جملاٞ قدرتی تے عام آٞشاٞں ــ اوم کساٞ کٞہ پٞروگہ ہسان آٞشاٞں۔اٞ جملاٞ مئ مختلف ہواٞز واٞلاٞ الفاٞظ ضرولی، مٞپ پا کوشش کںٞرنت اوں ٹیپ کٞروگ واٞلاٞ جملاٞ مزیدار تے ہساگ واٞلاٞ ہوگ موں رضاکار خلٞک ایں کیر کٞتیک ممکن ہو تہ۔
+adding-sentences-subheader-speakable-explanation = راٞن جملاٞ قدرتی تے عام گُفتگو واٞلاٞ جُملاٞ آٞشاٞں ــ اوم کساٞ کٞہ پٞروکٞہ ہسان آٞشاٞں۔ اٞ جملاٞ مئ متنوع ہواٞز تے مختلف الفاٞظ ضرولی، مٞہ پا کوشش کںٞرنتھوں موں رضاکار خلٞک ایں کیر کٞتیک ممکن ہو تہ  ٹیپ کٞروگ واٞلاٞ جملاٞ مزیدار تے ہساگ واٞلاٞ ہودہ۔
 adding-sentences-subheader-numbers = لمٞر
-adding-sentences-subheader-numbers-explanation = چُنڑیل آٞں حوالہ مئ ہندساٞ پکاٞر نہ اینیں کیر وں مٞنوگ مئ دیگیر اٞئی مسئلاٞ چیں۔ کھیکی اٞ ہندسہ اٞساں موقع تھی پتہ ݭجاں  تے کیدے شی اٞئی مواد ایں سیٹ ماٞکٞہ خلل پیدا کٞرگ۔ مثاٞلاٞں طور دہ لماٞر 2409 صحی دوئے چھلہ منجئی چور تے بیش صفر نوم تے دو زیر چور سو تے نوم۔
-adding-sentences-subheader-abbreviations = مخفف تے کھٹٞن کٞہ چُنڑاٞل
-adding-sentences-subheader-abbreviations-explanation = اختصار تے مخفف اصل مواد مئی ما پان پرا لخہ “USA” تے “ICE”، اینیں کیر اُوں اینچھلہ ادا ہوواں اُوں سہ اسوں ہجاٞ سہ براباٞر نہ ہوباں۔ آس ما علاوہ ا مخفف پروگ جدا جدا ہوباں۔
+adding-sentences-subheader-numbers-explanation = چُنڑیل  مئ ہندساٞ پکاٞر نہ اینیں کیر وں مٞنوگ مئ دیگیر اٞئی مسئلاٞ چیں۔ اٞ ہندسہ کٞہ جوڑہ پرجاں تہ ائ تساٞں سیاق و سباٞق رہ منحصر آشاں تے  کیدے شی اٞئی مواد ایں سیٹ ماٞکٞہ خلل پیدا کٞرئی۔  مثاٞلاٞں طور دہ لماٞر 2409 صحی دوئے چھلہ منجئی "چور تے بیش صفر نوم" تے "دو زیرتے نوم رتہ چور سو"۔
+adding-sentences-subheader-abbreviations = مخفف تے ایکرونیم (ایکرونیم تتھیں لفظ اوں سٞہ اختصاراٞں حروف مِلا تاٞس لفظاٞں جوڑہ پروݭاٞت تہ مثلاً WAPDA, UNESCO)
+adding-sentences-subheader-abbreviations-explanation = مواد مئ اختصار ما تے ایکرونیم ما اپان پرا لخہ “USA” تے “ICE”، کِیکوں اوم اینچھلہ ادا ہواں اُوں سہ اسوں ہجاٞ سہ براباٞر نہ ہوباں۔ آس ما علاوہ ا مخفف پروگ آٞک ما ذیات طریقاٞ دہ صحیح ہوباں۔
 adding-sentences-subheader-punctuation = رموزِ اوقاف
-adding-sentences-subheader-punctuation-explanation = خاص علامتونہ تے اعراب تھوکو شامل کراٞ اُوں کون اسوں ضروراٞت ہی تہ۔ مثلاً ا رتاں اعراب انگرزی الفاٞظ مئی شمال ہواں، لخہ “don’t” تے “we’re” تے ایں بنیادی مواد مئی شامل ہودہ، پرہ ایں ضریلی نہ کو تھکہ کوئی امی اعرابیں ضرورات ہوگ لخہ “@” تے “#.”
-adding-sentences-subheader-special-characters = خاص اعراب تے دی جیبیں ٹیکیل
-adding-sentences-subheader-special-characters-explanation-1 = حروف صحی پکاٞر کیں جِب مئ جولاٞنتہ۔ مثلاً “ж” اٞ ٹیکی تھی روسی حروف تہجی  مئ پرہ اٞئی انگریزی مئ کونی استمال نہ ہیت۔ اینیں کیر انگریزی ایں چُنڑیل ماٞکٞہ کونی اخکارہ نہ ہیت۔
-adding-sentences-subheader-special-characters-explanation-2 = جِیبوناں تصدیق کٞروگاں تانی قاٞنون آشآں  مزید شرطونہ سمان کون اوم مقیمی ہی تہ۔ کٞہ اٞ جِب ایں کیر خاص تصدیقی فائل نہ ہی، معاونین کٞہ انگریزی آٞں قاٞنون پشا جئ۔
+adding-sentences-subheader-punctuation-explanation = خاص علامتونہ تے رُموز تھوکو شامل کراٞ اُوں کون باٞر ضرولی ہی تہ۔ مثلاً ایپاسٹرافی انگریزی الفاٞظ مئی شامل کراٞں، لخہ “don’t” تے “we’re” پرہ ایں ضریلی نہ کو تھکہ کوئی امی اعرابیں ضرورات ہوگ لخہ “@” تے “#.”
+adding-sentences-subheader-special-characters = خاص حروف تے دی جیبیں ٹیکیل
+adding-sentences-subheader-special-characters-explanation-1 = حروف صحی پکاٞر کیں جِب مئ جولاٞنتہ۔ مثلاً “ж” اٞ ٹیکی تھی روسی حروف تہجی  مئ پرہ اٞئی انگریزی مئ کھنٞہ ئ استمال نہ ہیت۔ اینیں کیر انگریزی ایں چُنڑیل ماٞکٞہ پکاٞر نہ کو یئی تہ۔
+adding-sentences-subheader-special-characters-explanation-2 = جِیبوناں تصدیق کٞروگاں تانی قاٞنون آشآں  مزید شرطونہ سمان کون اوم مقیمی ہی تہ۔ کٞہ اٞ جِب ایں کیر خاص تصدیقی فائل نہ ہی،  انگریزی آٞں قاٞنون آٞس پشائی۔
 adding-sentences-subheader-offensive-content = لاݪ مواد
-adding-sentences-subheader-offensive-content-explanation = کچٞری اٞ جملہ لیݪ یا پریشان کٞروگ والہ ہی مثلاً اخکارہ مواد یا دی خلاف ورزی موں<communityGuidelines> خلٞکیں شراکیتاں معیار آں۔</communityGuidelines> تھکٞہ جملہ رد کٞروگ پکاٞر۔ تو ماکٞہ پا پھݭباں<emailFragment> اcommonvoice@mozilla.com</emailFragment>وں ایں مسئلہ تیز کٞرگ۔
-reviewing-sentences-explanation-1 = کٞہ جملہ رتھہ داٞگاٞل معیار رہ پورہ  ہُو، تھوکو یئس آٞں بٹن وا دہ۔
-reviewing-sentences-explanation-2 = کٞہ جملہ رتھہ داٞگاٞل معیار رہ پورہ نہ ہو، تھوکو نو آٞں بٹن وا دہ۔
+adding-sentences-subheader-offensive-content-explanation = کچٞری اٞ جملہ لیݪ یا پریشان کٞروگ والہ ہی مثلاً اخکارہ مواد یا  موں<communityGuidelines> خلٞکیں شراکیتاں معیار آں۔</communityGuidelines> دی خلاف ورزی آش تہ تھکو جملہ رد کٞروگ پکاٞر۔ تو ما سٞہ رابطہ کٞرباں <emailFragment> اcommonvoice@mozilla.com</emailFragment>ایں مسلاٞں باٞراٞ مئ۔
+reviewing-sentences-explanation-1 = کٞہ جملہ رتٞہ داٞگاٞل معیار رہ پورہ  ہُو، تھوکو ییس آٞں بٹن وا دہ۔
+reviewing-sentences-explanation-2 = کٞہ جملہ رتٞہ داٞگاٞل معیار رہ پورہ نہ ہو، تُھکو نو آٞں بٹن وا دہ۔
 reviewing-sentences-explanation-3 = کٞہ تو جملاٞں باٞراٞمئ یقینی نہ ہو تو تاٞس چھورباں تے مُکٞہ بجباں دی کٞہ۔
 reviewing-sentences-explanation-4 = لخہ تھکے جائیزیں کیر جملاٞ لاٞست تے، تھوکو ما سہ ماربینی کاٞ دی جملاٞ جمع کٞر۔
-domain-explanation = ڈومین جملیں مقصد کٞہ اشارہ کٞرنت۔ حلٞن تو دوئے مئ خوشاواں؛
+domain-explanation = ڈومین جملاٞں موضوع کٞہ اشارہ کٞرنت۔ حلٞن تو مئ خوشاباں؛

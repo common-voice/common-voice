@@ -75,33 +75,19 @@ read-more-about = Pli da informo en la paĝo: Pri Common Voice
 
 ## NAV ITEMS
 
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
+answer-questions = Respondi demandojn
+review-transcriptions = Kontroli transkriboj
+add-questions = Aldoni demandojn
+review-questions = Kontroli demandojn
+transcribe-audio = Transkribi sonon
+press-and-stories = Gazetaro kaj artikoloj
+community-and-languages = Komunumoj kaj lingvoj
+coming-soon = Baldaŭ
+about-us = Pri ni
 
 ## Action items section
 
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-
+language-text-card-header = Lingva teksto
+coming-soon = Baldaŭ
+add-text = Aldoni tekston
+answer = Respondo

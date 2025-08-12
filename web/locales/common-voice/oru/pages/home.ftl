@@ -38,8 +38,8 @@ x-months-short =
     }
 x-years-short =
     { $count ->
-        [one] { $count } څان
-       *[other] څنی
+        [one] { $count } سۀ
+       *[other] دیو
     }
 help-make-dataset = ترماخ مدد کوئ که معیاري او ته پبلک پاره میوک ډېټا سېټ يې جوړ کيېن
 sign-up-account = ته اکاؤنټ ته جوړؤ پاره يې دستڅط کېون
@@ -76,33 +76,31 @@ read-more-about = أؤسه بيې ګۀ ترماخ پا بېژ پېج لاسته
 ## NAV ITEMS
 
 answer-questions = سؤلی ځوبًی <small> څوار بُو سېره </small>
-answer-questions-coming-soon = سؤلی ځوبًی <small> څوار بُو سېره </small>
 review-transcriptions = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
-review-transcriptions-coming-soon = ا نقل بيې جیر کَۀ <small> څوار ثُو سېره </small>
 add-questions = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
-add-questions-coming-soon = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </small>
-transcribe-audio-coming-soon = ا ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 press-and-stories = پرېس او کهانيے
 community-and-languages = کمیونېټی او زبنی
 coming-soon = سېره ر بُو څوا
+about-us = ترماخ بارۀ نر
+scripted-speech = لیکيېک تقریر
+spontaneous-speech = بې ديېڅن تقریر
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = بائی والي، پرېس او کهانئے، کمیونېټی او زبنی
+about-us-menu-item-tooltip = معلومات دی وُر ته مِشن او ته ټیم بارۀ نر کوک که ته مشترک آواز په څُټ هنشتا
 partnerships-menu-item-tooltip = ماخ ګډ بائی والي
 press-and-stories-menu-item-tooltip = ترماخ بلاګ کی ر زئ یا لیک کَۀ ترماخ بارۀ نر
 community-and-languages-menu-item-tooltip = زبنی، کمیونېټی او مشترک آواز
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = ته وُرغېوي ا مېنیو
+about-us-menu-aria-label = ته وُرغېوي ا مېنیو
+about-us-menu-item-aria-label = ترماخ بارۀ نر ته آپشن ا مېنیو
 partnerships-menu-item-aria-label = ته بائی والي مشترک آواز باره يې زدکړه کَۀ
 press-and-stories-menu-item-aria-label = پرېس ریلیز کی چیو او کهانئے مشترک آواز بارۀ نر
 community-and-languages-menu-item-aria-label = جوت کَۀ افئ کمیونېټیز او ا زبنی که ا مشترک آوازه وبو سپورټ کوی
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,6 +121,7 @@ spontaneous-card-header = بغېر ديېک سپسيېک تقریر یا خُل�
 spontaneous-card-content = ته قدرتي، او ته عام ژغېدا ته ډېټاسېټ ته جوړؤ پاره يې ته پرومپټس ځواب کېوَن۔ ته نک لیکک زبنی پناره بهترین
 language-text-card-header = ته زبان ا سبق
 language-text-card-content = ته پبلک ډومېن پرومپټس، جملي او سبچی دی ته ترجمه پاره جوړ یا شریک کوئ
+coming-soon = سېره ر بُو څوا
 add-text = سبق ال يې ګډ کوئ
 
 ## Community section

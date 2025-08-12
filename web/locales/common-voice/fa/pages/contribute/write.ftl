@@ -143,9 +143,21 @@ small-batch-sentences-rule-3 = جملات را با فشار دادن یک با�
 small-batch-sentences-rule-4 = تا ۱٫۰۰۰ جمله اضافه کنید
 small-batch-sentences-rule-5 = همه جملات باید مالکیت عمومی باشند
 small-batch-sentences-rule-6 = همه جملات باید ارجاع یکسانی داشته باشند
+# menu item
+add-sentences = جملاتی اضافه کنید
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملات افزوده و بازبینی کنید، پرسش‌هایی بیافزایید، صدایی را به متن درآورید
+add-sentences-menu-item-tooltip = جملاتی به زبان خود اضافه کنید
+review-sentences-menu-item-tooltip = جملاتی در زبان خود را بررسی کنید
+add-questions-menu-item-tooltip = پرسش‌هایی را به زبان خود اضافه کنید
+transcribe-audio-menu-item-tooltip = صداهای ضبط‌شده‌ای به زبان خود را به متن درآورید
 
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = نوشتن فهرست گزینه‌ها
+add-sentences-menu-item-aria-label = جملات جدیدی بنویسید تا دیگران بخوانند
+review-sentences-menu-item-aria-label = جملاتی را که توسط دیگران فرستاده شده است را بازبینی کنید
+add-questions-menu-item-aria-label = پرسش‌هایی را برای دیگران بفرستید که بخوانند و به آن‌ها پاسخ دهند
+transcribe-audio-menu-item-aria-label = صداهای ضبط‌شده را به متن رونویسی کنید

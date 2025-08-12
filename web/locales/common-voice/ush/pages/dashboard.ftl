@@ -52,7 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ایک گول برابر تھا
 cant-decide = فیصلہ نی تھو بھئینو؟
-activity-needed-calculation-plural = سرگرمی- ضروری- حساب- جمع=
 how-many-per-day = لالو غورا! ہر دیس کچاک کلپس ہنی؟
 how-many-a-week = لالو غورا! ہفتہ در کچاک کلپس ہنی؟
 which-goal-type = تو رزونو، ݜنونو اؤ کہ بئی دی چھیلا؟

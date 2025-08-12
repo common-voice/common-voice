@@ -22,7 +22,7 @@ hours-validated = Horas validate
 voices-online = Voces actualmente in linea
 todays-progress = Progressos hodierne
 help-reach-goal = Adjuta nos a obtener { $goal }
-read-terms-q = Ha tu legite nostre terminos de uso?
+read-terms-q = Ha tu legite nostre conditiones de uso?
 ready-to-record = Es tu preste a donar tu voce?
 all-locales = Toto
 today = Hodie
@@ -76,33 +76,33 @@ read-more-about = Lege plus in nostre pagina: A proposito
 ## NAV ITEMS
 
 answer-questions = Responder a questiones <small>(Tosto veniente)</small>
-answer-questions-coming-soon = Responder a questiones <small>(Tosto veniente)</small>
 review-transcriptions = Verifica le transcriptiones <small>(Tosto veniente)</small>
-review-transcriptions-coming-soon = Verifica le transcriptiones <small>(Tosto veniente)</small>
 add-questions = Adder Questiones <small>(Tosto veniente)</small>
-add-questions-coming-soon = Adder Questiones <small>(Tosto veniente)</small>
-transcribe-audio-coming-soon = Transcriber audio <small>(Tosto veniente)</small>
+review-questions = Revider questiones
 transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos
 community-and-languages = Communitate e linguas
 coming-soon = Veniente tosto
+about-us = A proposito de nos
+scripted-speech = DISCURSO CON TRANSCRIPTION
+spontaneous-speech = DISCURSO SPONTANEE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Collaborationes, Pressa e articulos, Communitate e linguas
+about-us-menu-item-tooltip = Saper plus re le mission e le equipa detra Common Voice
 partnerships-menu-item-tooltip = Collaborar con nos
 press-and-stories-menu-item-tooltip = Visita nostre blog o scribe re nos
 community-and-languages-menu-item-tooltip = Discoperi linguas e communitates e Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Re le menu del optiones
+about-menu-aria-label = Menu pro acceder a partenarios, pressa e historias, communitates e linguas
+about-us-menu-aria-label = Optiones del menu: A proposito.
+about-us-menu-item-aria-label = Optiones del menu: A proposito de nos.
 partnerships-menu-item-aria-label = Saper plus re le collaborationes con Common Voice
 press-and-stories-menu-item-aria-label = Accede al communicatos de pressa e al articulos relative a Common Voice
 community-and-languages-menu-item-aria-label = Explora le communitate e le linguas supportate per Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -116,14 +116,16 @@ get-started = Que nos va <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice es un platteforma gratuite, open-source  pro creation de datos ducite per communitate
-action-items-section-subtitle = Quicunque poter preservar, revitalisar e elevar su lingua per compartir, crear e curar collectiones de datos textual e vocal.
+action-items-section-subtitle = Quicunque pote preservar, revitalisar e elevar su lingua per compartir, crear e curar collectiones de datos textual e vocal.
 scripted-card-header = Parla con texto scribite
 scripted-card-content = Lege phrases in alte voce in tu lingua e contribue al plus diverse collection de datos vocal de participation public in le mundo.
 spontaneous-card-header = Discurso spontanee
 spontaneous-card-content = Responde al suggestiones pro crear collectiones de datos pro contextos organic e colloquial. Perfecte pro linguas primo oral.
 language-text-card-header = Texto linguistic
 language-text-card-content = Crea o comparti suggestiones, phrases, e texto de dominio public pro traduction, parve modellos de lingua, e altero.
+coming-soon = Veniente tosto
 add-text = Adder texto
+answer = Responder
 
 ## Community section
 

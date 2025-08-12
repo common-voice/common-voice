@@ -4,9 +4,3 @@ listen-again-instruction = Karekî pir baş!<playIcon></playIcon> Dema tu amade 
 listen-3rd-time-instruction = 2 jê temam, dewam bike!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ma yek!
 listen-empty-state = Ji bo piştrastkirinê, di vî zimanî de klîbên dengî neman...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

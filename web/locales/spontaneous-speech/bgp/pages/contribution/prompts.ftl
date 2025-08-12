@@ -4,7 +4,6 @@ record-player-header = وثی جواب ئا ریکارڈ کن
 mic-access-error = ترا مائیکروفون ءِ رسائی ءِ اجازت دیگی اِنت۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon>ءُ ھما وڑا پسّو دات کن ئے کہ تو کت کن ئے</micIcon>
-no-prompts-message = انوگ ءَ اے زبان ءِ ھاتر ءَ ھچ وڑیں ھال ءُ اھوال نیست۔ تاک ءَ نوک بہ کن اِت یا رند ءَ پدا جھد بہ کن اِت۔
 error-skipping = اے پرامپٹ ءِ یلہ دیگ ءِ وھد ءَ ردی یے بوتگ
 error-recording = ریکارڈنگ کنغ وختا ردی یے بیثہ
 error-fetching-prompts = اشارہ آرگ ءِ وھد ءَ چیزے ردی بوتگ۔ دزبندی ایں کہ پذا پذا کوشش کن۔

@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon> </playIcon> واز کا حصہ نا سنو تے اس کو تجزیہ دیکھو۔یا ملے؟ جے کدے نیہہ ملتی بھی تم ترمیم کرو تے پچھا طریقہ نال ملاو۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = دیکھو
-no-transcriptions-message = اس زبان نا دیکھن وسطے اس وخت کوئی تجزیو موجود نیہہ۔مہربانی کر کہ اس نا تازو کرو یا بھی کوشش کرو۔
 vote-transcript-success = تجزیو کامیاب ہو گیو
 vote-transcript-error = تجزیہ نا ووٹ دین کے دوران خرابی ہو گئی
 transcript-edited-success = تجزیہ کی ترمیم کامیابی نال ہو گئی

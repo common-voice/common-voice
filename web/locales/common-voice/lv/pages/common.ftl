@@ -119,7 +119,6 @@ hsb = Augšsorbu
 ht = Haitiešu
 hu = Ungāru
 hy-AM = Armēņu
-hyw = Armēnijas rietumu
 ia = Interlingua
 ibb = Ibibio
 id = Indonēziešu
@@ -354,7 +353,7 @@ loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
 email-opt-in-info-sub-with-challenge = Saņemiet e-pastus par sacensībām vai pasākumiem, atgādinājumus par mērķiem, jaunumus un ziņas no Common Voice
-email-opt-in-privacy-v2 = Izvēloties saņemt e-pasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā, kā tas ir norādīts Mozilla <privacyLink>privātuma politikā<privacyLink>.
+email-opt-in-privacy-v2 = Piekrītot saņemt e-pasta ziņojumus tiek apliecināts, ka Mozilla apstrādās tos tā, kā tas ir izskaidrots Mozilla <privacyLink>privātuma pamatnostādnēs<privacyLink>.
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
 

@@ -92,23 +92,27 @@ community-and-languages-menu-item-tooltip = Descubra idiomas e comunidades e Com
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menu de opções de informações
 partnerships-menu-item-aria-label = Saiba mais sobre parcerias com o Common Voice
 press-and-stories-menu-item-aria-label = Acesse comunicados de imprensa e artigos relacionados ao Common Voice
 community-and-languages-menu-item-aria-label = Descubra a comunidade e os idiomas suportados pelo Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Tecnologia que fala seu idioma
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Porque deve a IA funcionar apenas para alguns idiomas do mundo?</bold>
+hero-subtitle-2 = A nossa língua é nossa história, a nossa comunidade e a nossa cultura. Vamos criar os conjuntos de dados que queremos ver no mundo.
+# icon is an arrow that points downwards
+get-started = Começar <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice é uma plataforma gratuita e de código aberto para criação de dados gerida pela comunidade
+action-items-section-subtitle = Qualquer pessoa pode preservar, revitalizar e valorizar a sua língua ao partilhar, criar e organizar conjuntos de dados de texto e de fala.
 scripted-card-header = Fala com roteiro
 scripted-card-content = Leia frases em voz alta no seu idioma e contribua para o conjunto de dados de voz de participação pública mais diversificado do mundo.
 spontaneous-card-header = Fala espontânea
+coming-soon = Em breve
 add-text = Adicionar texto
 
 ## Community section
@@ -127,12 +131,6 @@ contribute-github-action = Contribua no GitHub
 ## Featured section
 
 featured-section-title = Em destaque em...
-
-## Developers section
-
-
-## Get involved section
-
 
 ## Partner section
 

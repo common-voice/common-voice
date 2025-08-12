@@ -80,36 +80,3 @@ help-contribute = کامن وائس پر پروفائل بنا کر اپنی آ�
 login-company = لاگ ان / { $company } ای میل کے ساتھ سائن اپ کریں۔
 profile-not-required = شراکتیں شامل کرنے کے لیے پروفائل ضروری نہیں گو مددگار ہے ، وجہ کے لیے نیچے دیکھیں۔
 read-more-about = مزید جاننے کے لیے تعارفی صفحہ دیکھیں۔
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

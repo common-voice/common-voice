@@ -3,6 +3,9 @@ guidelines-header = phazhikas nishan
 guidelines-header-subtitle = jhona ki khn kay phazhin or validate sentences zhe awaz ane clip khn kay kan sawin awaz dataset as bate
 voice-collection = Awaz jama karik
 sentence-collection = mon jama karik
+
+## Voice Collection nav ids
+
 varying-pronunciations = Awaz/ alfas, sahi ne
 misreadings = Ghalat Maik
 offensive-content = galat newishila
@@ -12,6 +15,9 @@ volume = Awaz
 reader-effects = Ma'awaw as asar
 just-unsure = Ne Ajoni e?
 example = misal
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Abi tay kay andai a e gohik day, warek min dekas tharika, warek awaz sawzaikas bati, ya o clip histikas bati. mahaw pe ne ajonaw haw, ya o pe se to awaz sahi kay maik ne abahaw haw. ya o pe se galat jaiga una pay pe to awaz akhojaw haw ne saprel. Kura pe tay pe warek mon deman aini haw, tasi tarif kari.
 varying-pronunciations-explanation-2 = Tu pe shehen chitis day haw, kura ki maw day, se alfaz warek pe ashis haw, to histi. ne pe anjoni haw warek batan as te.
 varying-pronunciations-example = shia phon safa ne shiow
@@ -47,11 +53,17 @@ reader-effects-explanation = Ziad recarding ya o Tipek, mochan mi tan awaz hiu. 
 just-unsure-explanation = Tu pe she'hen phond saprai haw, se pe sahi ne ashis haw, recard ya o mo tipai, kas pi phuchi, tu pe faisala karik ne abahi haw, to o histi, warek recard ya o tipai
 still-have-questions = Tay som mazit sawal shian e?
 contact-common-voice = Sawin awazas som rabita kari
+
+## Sentence collection nav ids
+
 public-domain = Sawin domain
 citing-sentences = Mon dek
 adding-sentences = Mondr jama karik
 reviewing-sentences = Alfaz dobara jagek
 sentence-domain = Mondras domain
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = ia bo zarure kia sow text mond <publicDomain>public domain</publicDomain> (<cc0>cc0</cc0>) as the Common Voice dataset is released under a cc0 license. Only ever upload a sentence if you are sure, and always include the relevant citation.
 public-domain-explanation-2 = prust alfaz zaruri speech recognition engine te colloquial,modern parlance. adha idea tay generate sentences as bate;
 public-domain-explanation-3 = ak modern sowzay,

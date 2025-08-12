@@ -12,6 +12,7 @@ This is the web app for [Mozilla Common Voice](https://commonvoice.mozilla.org),
 ## Quick links
 
 - [Code of conduct](./docs/CODE_OF_CONDUCT.md)
+- [ChangeLog](./docs/CHANGELOG.md)
 - [Development setup](./docs/DEVELOPMENT.md)
 - [Language workflow](./docs/LANGUAGE.md)
 - [Sentences workflow](./docs/SENTENCES.md)
@@ -57,7 +58,7 @@ If you use the data in a published academic work we would appreciate if you cite
 
 The BiBTex is:
 
-```
+```text
 @inproceedings{commonvoice:2020,
   author = {Ardila, R. and Branson, M. and Davis, K. and Henretty, M. and Kohler, M. and Meyer, J. and Morais, R. and Saunders, L. and Tyers, F. M. and Weber, G.},
   title = {Common Voice: A Massively-Multilingual Speech Corpus},
@@ -68,4 +69,5 @@ The BiBTex is:
 ```
 
 ## Cross Browser Testing
+
 This project is tested with [Browserstack](https://email.browserstack.com/c/eJwkyrGSgyAQANCv0Q5nQQUsKK7Jb9ws7BKZoCSA40y-_orrH7nVr2RGdlLbWSsLVo2789pu2kgPwISB_AwbgJUWMEYdDIzJ6WVFBbNUKxr5K1kqDAa9UhyD3TZjaZ1aIn6lj4iVPxefXUQS70JXY2xdigPTOQufLxZ6IR8tea3Fs7_8d1iAD0x5ipXbTtxeUyjHmN3e-3uYfwb1GNTjvu_J13I3rq1j-DfVHSnsnDNfwwJH-aacMZbrJOypnFOpz78AAAD__4I2T84)

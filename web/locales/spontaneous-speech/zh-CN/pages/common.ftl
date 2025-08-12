@@ -11,8 +11,6 @@ platform-language-tooltip-text = 仅更改网站文本。
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = 为 { $language } 数据集做贡献
 contribution-picker-tooltip-text = 将语言数据集更改为您正在贡献的数据集
-# Label for button on contribution switcher
-change = 更改
 coming-soon = 更多语言即将推出！
 media-recorder-api-not-supported = 您的浏览器不支持 MediaRecorder API。
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,16 @@ skip-button = 跳过
 submit-button = 提交
 contribute = 贡献
 request-new-language = 请求新语言
+# Button text which appears when there are no more resources
+continue-with-skipped = 回顾跳过的项目
 
 ## Navbar
 
+question = 问题
+validate = 验证
 respond-to-prompt = 回答引导语
 transcribe = 转录
 check-transcriptions = 检查转录文本
-question = 问题
 
 ## Not Found Page
 
@@ -60,3 +61,10 @@ sdo = 西连比达友语
 snv = Sa'ban 语
 tr = 土耳其语
 xkl = 肯雅语
+
+## Language search component
+
+language-search-placeholder = 搜索语言…
+language-search-aria-label = 搜索语言
+language-search-label = 只更改数据集的贡献语言
+language-search-no-results = 找不到语言

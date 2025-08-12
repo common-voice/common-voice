@@ -78,34 +78,34 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 
 ## NAV ITEMS
 
-answer-questions = Soru yanıtla <small>(Çok yakında)</small>
-answer-questions-coming-soon = Soru yanıtla <small>(Çok yakında)</small>
-review-transcriptions = Çeviri metinleri incele <small>(Çok yakında)</small>
-review-transcriptions-coming-soon = Çeviri metinleri incele <small>(Çok yakında)</small>
-add-questions = Soru ekle <small>(Çok yakında)</small>
-add-questions-coming-soon = Soru ekle <small>(Çok yakında)</small>
-transcribe-audio-coming-soon = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
-transcribe-audio = Ses kayıtlarını metne çevir <small>(Çok yakında)</small>
+answer-questions = Soru yanıtla
+review-transcriptions = Çeviri metinleri incele
+add-questions = Soru ekle
+review-questions = Soruları incele
+transcribe-audio = Ses kayıtlarını metne çevir
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
 coming-soon = Çok yakında
+about-us = Hakkımızda
+scripted-speech = YAZILARI SESLENDİRME
+spontaneous-speech = DOĞAÇLAMA KONUŞMA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Ortaklıklar, Basın ve Haberler, Topluluk ve Diller
+about-us-menu-item-tooltip = Common Voice’un misyonu ve ekibi hakkında bilgi alın
 partnerships-menu-item-tooltip = İş ortağımız olun
 press-and-stories-menu-item-tooltip = Blogumuzu ziyaret edin veya hakkımızda yazı yazın
 community-and-languages-menu-item-tooltip = Dilleri, toplulukları ve Common Voice’u keşfedin
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Seçenekler menüsü hakkında
+about-menu-aria-label = Ortaklıklar, Basın ve Haberler, Topluluk ve Diller’e erişim menüsü
+about-us-menu-aria-label = Hakkında menüsü
+about-us-menu-item-aria-label = Hakkımızda menüsü
 partnerships-menu-item-aria-label = Common Voice ile ortaklık hakkında bilgi alın
 press-and-stories-menu-item-aria-label = Common Voice ile ilgili basın bültenlerine ve haberlere ulaşın
 community-and-languages-menu-item-aria-label = Common Voice topluluğunu ve desteklenen dilleri keşfedin
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,10 +123,12 @@ action-items-section-subtitle = Herkes metin ve konuşma veri kümeleri paylaşa
 scripted-card-header = Yazıları Seslendirme
 scripted-card-content = Cümleleri kendi dilinizde okuyun ve kitlesel katılımla oluşturulan, dünyanın en kapsayıcı dil veri kümesine katkıda bulunun.
 spontaneous-card-header = Doğaçlama Konuşma
-spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere istemlere yanıt verin. Konuşma öncelikli diller için ideal.
+spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere sorulara yanıt verin. Konuşma öncelikli diller için ideal.
 language-text-card-header = Dilinizde Metinler
 language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
-add-text = Metin ekleyin
+coming-soon = Çok yakında
+add-text = Metin ekle
+answer = Yanıt ver
 
 ## Community section
 
@@ -185,7 +187,7 @@ partner-section-subtitle-tech-companies = <bold>Teknoloji şirketleri</bold>: H�
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Sivil toplum ve araştırmacılar</bold>: Etkileyici veri kümelerini ücretsiz olarak oluşturun, barındırın ve paylaşın
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-philantropy = <bold>Yardımseverlik</bold> - Yerel buluşları ve gelişmeyi desteklemek için veri kümeleri oluşturmaya sponsor olun
+partner-section-subtitle-philantropy = <bold>Yardımseverlik</bold>: Yerel buluşları ve gelişmeyi desteklemek için veri kümeleri oluşturmaya sponsor olun
 # icon is an arrow that points to the right
 get-in-touch-button = Bize ulaşın <icon></icon>
 # Partners section

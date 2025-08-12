@@ -8,6 +8,7 @@ datasets-positioning =
     Мультиязычный набор данных Common Voice уже является крупнейшим общедоступным набором голосовых данных, но он не единственный в своем роде.
     
     На этой странице вы можете найти ссылки на другие открытые наборы голосовых данных и, с развитием Common Voice, обновления наших выпусков.
+datasets-speech-bubble-content = Отличные новости! Скоро появится Spontaneous Speech! Следите за обновлениями и обязательно загляните на наш <discordLink>Discord</discordLink> для получения последних новостей.
 language = Язык
 download-dataset-header = Загрузить набор данных
 download-delta-explainer = Мы внесли некоторые изменения. Дельта-сегменты содержат самые последние клипы с момента последнего выпуска. <deltaLink>Подробнее об этой работе</deltaLink>.
@@ -94,6 +95,9 @@ release-version = Версия
 dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Смешанная
+# Support old genders in older datasets
+male = Мужской
+female = Женский
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Загрузите наши наборы голосовых данных
 # MENU ITEM ARIA LABELS

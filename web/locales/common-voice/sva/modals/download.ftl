@@ -1,9 +1,9 @@
 ## Download Modal
 
-download-title = ისგუ ჩამოტვირთვა ჟ'ა̈ნბინა̄̈ნ
+download-title = ისგუ ჩამოტუ̂ირთუ̂ა ჟ'ა̈ნბინა̄̈ნ.
 download-helpus = ლა̈ნმარჯუ̂, ერე ალსყა̄დ საზოგადოება ხმოვან ტექნოლოგია̄̈ გირკიდ . ჩუ ხარდა̈ს კონტაქტჟი ელფოსტოუ̂შ.
 download-form-email =
     .label = სგა̄თიჲრ ისგუ ელფოსტა̈ მისამართ
     .value = მაჴუ̂ა̄მ, ნა̈ჲ დაგიკავშირდებით.
-download-back = ქა̄დ ა̄̈ტხ Common Voice მონაცემრეშ კრებულთე.
+download-back = ქა̄დ ა̄̈ტხ Common Voice მონაცემრე კრებულთე.
 download-no = მა̄მ მაკუ, მაჴუ̂მა̄̈რ

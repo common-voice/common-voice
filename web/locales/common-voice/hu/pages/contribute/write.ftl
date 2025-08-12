@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Írás
+write = Írjon
 write-instruction = Közkincsű mondat hozzáadása <icon></icon>
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
 sentence =
@@ -13,14 +13,14 @@ citation =
 sc-write-submit-confirm = Megerősítem, hogy ez a mondat <wikipediaLink>közkincs</wikipediaLink>, és engedéllyel töltöm fel.
 sc-review-write-title = Milyen mondatokat adhatok hozzá?
 sc-review-small-batch-title = Több mondat hozzáadása
-new-sentence-rule-1 = <noCopyright>Nincs szerzői jogi</noCopyright> korlátozás (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Kevesebb mint 15 szó
+new-sentence-rule-1 = <noCopyright>Ne legyen rá szerzői jogi</noCopyright> korlátozás (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Mondatonként legyen 15 szónál rövidebb
 new-sentence-rule-3 = Használjon helyes nyelvtant
 new-sentence-rule-4 = Írjon helyesen, és használjon központozást
 new-sentence-rule-5 = Ne legyenek benne számok és speciális karakterek
 new-sentence-rule-6 = Ne legyenek benne idegen betűk
-new-sentence-rule-7 = Idézze megfelelően
-new-sentence-rule-8 = Ideálisan természetes és társalgási jellegű (a mondatnak könnyen olvashatónak kell lennie)
+new-sentence-rule-7 = Idézzen megfelelően
+new-sentence-rule-8 = Ideálisan legyen természetes és társalgási jellegű (a mondatnak könnyen olvashatónak kell lennie)
 login-instruction-multiple-sentences = Több mondat hozzáadásához <loginLink>jelentkezzen be</loginLink> vagy <loginLink>regisztráljon</loginLink>
 how-to-cite = Hogyan kell idézni?
 how-to-cite-explanation-bold = Idézzen a teljes webcím-hivatkozással vagy a mű teljes nevével.
@@ -152,12 +152,14 @@ write-contribute-menu-tooltip = Mondatok hozzáadása és ellenőrzése, Kérdé
 add-sentences-menu-item-tooltip = Mondatok hozzáadása a saját nyelvén
 review-sentences-menu-item-tooltip = Mondatok ellenőrzése a saját nyelvén
 add-questions-menu-item-tooltip = Kérdések hozzáadása a saját nyelvén
+review-questions-menu-item-tooltip = Kérdések áttekintése
 transcribe-audio-menu-item-tooltip = Leiratozza a hangfelvételeket a saját nyelvén
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = Írás menü lehetőségei
+write-contribute-menu-aria-label = Írjon menü lehetőségei
 add-sentences-menu-item-aria-label = Adjon hozzá új mondatokat a közösség számára
 review-sentences-menu-item-aria-label = A közösség által beküldött meglévő mondatok ellenőrzése
 add-questions-menu-item-aria-label = Küldjön be új kérdéseket, hogy a közösség felolvassa őket, és válaszoljon rájuk
+review-questions-menu-item-aria-label = Ellenőrizze és szavazzon a közösség által beküldött új kérdésekre
 transcribe-audio-menu-item-aria-label = Leiratozza a hangfelvételeket

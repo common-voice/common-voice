@@ -141,7 +141,7 @@ about-playbook-how-access-dataset-content-2 = که تاسو د ASR موډلون�
 about-playbook-how-project-governance = د پروژې پریکړې څنګه کیږي؟
 about-playbook-how-project-governance-content-1 = د موزیلا کامن غږ د نړۍ له ګوټ ګوټ څخه د فعالینو، ژبپوهانو، ډیټا ساینس پوهانو، اکادمیکانو او سافټویر انجینرانو د متنوع ټولنې لخوا ممکنه شوی. دا پروژه د موزیلا فاونډیشن لخوا اداره کیږي.
 about-playbook-how-project-governance-content-2 = زموږ حکومتوالۍ په لاندې ستنو ولاړه ده:
-about-playbook-how-project-governance-content-3 = محرمیت، امنیت او روڼتیا.
+about-playbook-how-project-governance-content-3 = پټنتيا، امنیت او روڼتيا
 about-playbook-how-project-governance-content-4 = د ټولنې ګډون او پریکړې کول.
 about-playbook-how-project-governance-content-5 = ارزښت او پیژندنه.
 about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
@@ -150,6 +150,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړ
 ## How is Common Voice funded
 
 about-playbook-how-funded = عام غږ څنګه کار کوي؟
-about-playbook-how-funded-content-1 = Common Voice د موزیلا بنسټ یوه پروژه ده، چې د امریکا 501c3 ده. دا پروژه اوس مهال په بشپړه توګه د <philantropicGrantLink>خلکو مرستو</philantropicGrantLink> لخوا تمویل کیږي، او د نړۍ د خلکو لخوا تمویل کیږي.
+about-playbook-how-funded-content-1 = Common Voice د موزیلا بنسټ یوه پروژه ده، چې د امریکا 501c3 ده. دا پروژه اوس مهال په بشپړه توګه د <philantropicGrantLink>خلکو مرستو</philantropicGrantLink> لخوا تمویل کیږي، او د نړۍ د وګړو په بسپنې چلېږې.
 about-playbook-how-funded-content-2 = دا په دوامداره توګه د ډیټاسیټونو کوربه کولو او خوشې کولو، پلیټ فارم ته وده ورکولو او د <africaMradiLink> د ټولنې پروګرامونو</africaMradiLink> چلولو لپاره ډیرې پیسې لګوي.
-about-playbook-how-funded-content-3 = که تاسو یا ستاسو سازمان غواړئ چې په دې پروژه کې بیرته مرسته وکړئ، تاسو کولی شئ یو <donateLink>ډونیشن</donateLink> وکړئ یا په <emailFragment>commonvoice@mozilla.com</emailFragment> کې زموږ د شراکت ټیم سره اړیکه ونیسئ.
+about-playbook-how-funded-content-3 = که تاسو یا ستاسو سازمان غواړي چې په دې پروژه کې بیرته مرسته وکړئ، تاسو کولی شئ یو <donateLink>بسپنه</donateLink> وکړئ یا په <emailFragment>commonvoice@mozilla.com</emailFragment> کې زموږ د ونډواله ډلې سره اړیکه ونیسئ.

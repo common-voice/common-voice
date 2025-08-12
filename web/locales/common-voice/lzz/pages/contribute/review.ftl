@@ -1,10 +1,15 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Çkar nena var tsxunit. nena otsxunu şeni <profileLink>profili tkvanişa</profileLink> idit.
 sc-review-title = Cumlepes tsadiCumlepes tsadi
 sc-review-loading = Cumlepe eiğmalinen...
 sc-review-form-button-reject = Reddi oxenu
 sc-review-form-button-skip = Moyoǩap̌i
 sc-review-form-button-approve = Otzuranu
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = V
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = A
 sc-review-form-button-submit =
     .submitText = Elaxtimu doçodinit.
 sc-review-link = Meotzǩedi

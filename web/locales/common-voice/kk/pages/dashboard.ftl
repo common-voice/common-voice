@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Мақсат қойыңыз
 cant-decide = Шешім қабылдай алмайсыз ба?
-activity-needed-calculation-plural =
-    { $totalHours ->
-       *[other]
-            { $periodMonths ->
-               *[other]
-                    { $people ->
-                       *[other]
-                            { $clipsPerDay ->
-                               *[other] { $totalHours } сағатқақол жеткізуге болады{ $periodMonths } ай ішіндеегер{ $people } адамжазса{ $clipsPerDay } клипкүніне
-                            }
-                    }
-            }
-    }
 how-many-per-day = Керемет! Күніне қанша клип?
 how-many-a-week = Керемет! Аптасына қанша клип?
 which-goal-type = Сіз сөйлегіңіз келе ме, тыңдайсыз ба әлде екеуі де ме?

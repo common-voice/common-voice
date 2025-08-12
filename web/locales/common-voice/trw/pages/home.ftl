@@ -76,12 +76,8 @@ read-more-about = مُھن مے پاݜ سے دئی بُوا
 ## NAV ITEMS
 
 answer-questions = سوالا سی جواب دا <small> شیرتے یدُو
-answer-questions-coming-soon = سوالا سی جواب دیؤ <small> شیرتے ینیِن
 review-transcriptions = آڈیو سی لیِکھ سی جائزہ گھیںا <small> شیرتے ینیِن
-review-transcriptions-coming-soon = آڈیو سی لیِکھ سی جائزہ گھیںُو <small> شیرتے ینیِن
 add-questions = سوال جمع کوا <small>شیرتے ینیِن
-add-questions-coming-soon = سوال جمع کوا <small>شیرتے ینیِن
-transcribe-audio-coming-soon = آڈیو لیِگُو <small> شیرتے ینیِن
 transcribe-audio = آڈیو لیِگا <small> شیرتے ینیِن
 press-and-stories = پریس او سٹوری
 community-and-languages = کمیونیٹی او جیِب
@@ -96,13 +92,9 @@ community-and-languages-menu-item-tooltip = جیِب او کمیونیٹی آں 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = اپشنز مینُو سی بارا می
 partnerships-menu-item-aria-label = کامن وائس سیت شراکت سی بارا می آمن جنا
 press-and-stories-menu-item-aria-label = کامن وائس سی بارا می میڈیا سی خبر آں سٹوری مھید پشا
 community-and-languages-menu-item-aria-label = کامن وائس کامے جیِبا سی مدد کودُودا تھأ مھید پشا
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,6 +115,7 @@ spontaneous-card-header = مُوا بأت
 spontaneous-card-content = اُوچات کوئیل سوالا سی جواب تُنُو جیِب سی بنُو سی کیا دا۔ صرف بنیل جیِبا سی کیا چیر شیو تُھو۔
 language-text-card-header = جیِب سی لیِکھ
 language-text-card-content = تُنُو جیِب می سوالا سی جواب دیدے جملہ سوا۔ ترجمہ سی کیا لیؤ جیِبا سی ماڈل سی کیا لیِکھ سوا۔ ہامُوڑ چیر کآں کوابیَدُو
+coming-soon = شیرتے ینیِن
 add-text = لیِکھ جم کو
 
 ## Community section

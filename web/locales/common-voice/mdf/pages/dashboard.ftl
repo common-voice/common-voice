@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Путомс целень коряс сатфкс
 cant-decide = Кафтолдат? Аф кемат?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                               *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                               *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                               *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                               *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                               *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                               *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                               *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                               *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }{ $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
-                            }
-                    }
-            }
-    }
 how-many-per-day = Пяк пара! Мзяра тиеть сёрматфкста шити?
 how-many-a-week = Пяк пара! Мзяра сёрматфкста тиеть недляти?
 which-goal-type = Тон арьсят сёрмадомс вайгяльть, видеста ваномс-петнемс али кафцьке тефнень кармат тиема?

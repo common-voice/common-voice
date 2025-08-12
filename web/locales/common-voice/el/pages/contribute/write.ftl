@@ -79,7 +79,7 @@ try-upload-again-md = Δοκιμάστε να μεταφορτώσετε ξαν�
 select-file = Επιλογή αρχείου
 select-file-mobile = Επιλέξτε αρχείο για μεταφόρτωση
 accepted-files = Αποδεκτοί τύποι αρχείων: μόνο .tsv
-minimum-sentences = Ελάχιστες προτάσεις αρχείου: 1000
+minimum-sentences = Ελάχιστες προτάσεις αρχείου: 1.000
 maximum-file-size = Μέγιστο μέγεθος αρχείου: 25 MB
 what-needs-to-be-in-file = Τι πρέπει να υπάρχει στο αρχείο μου;
 what-needs-to-be-in-file-explanation = Ελέγξτε το <templateFileLink>αρχείο προτύπου</templateFileLink>. Οι προτάσεις σας θα πρέπει να μην υπόκεινται σε πνευματικά δικαιώματα (CC0 ή πρωτότυπο έργο για το οποίο ο υποβάλλων έχει λάβει την άδεια από τον δημιουργό) και να είναι σαφείς, γραμματικά σωστές και εύκολες στην ανάγνωση. Η ανάγνωση των προτάσεων που υποβάλλονται θα πρέπει να διαρκεί περίπου 10-15 δευτερόλεπτα και δεν θα πρέπει να περιέχονται αριθμοί, κύρια ονόματα και ειδικοί χαρακτήρες.
@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = Προσθήκη και έλεγχος προτ�
 add-sentences-menu-item-tooltip = Προσθέστε προτάσεις στη γλώσσα σας
 review-sentences-menu-item-tooltip = Ελέγξτε προτάσεις στη γλώσσα σας
 add-questions-menu-item-tooltip = Προσθέστε ερωτήσεις στη γλώσσα σας
+review-questions-menu-item-tooltip = Έλεγχος ερωτήσεων
 transcribe-audio-menu-item-tooltip = Μεταγράψτε ηχογραφήσεις στη γλώσσα σας
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = Μενού επιλογών σύνταξης
 add-sentences-menu-item-aria-label = Προσθέστε νέες προτάσεις για να τις διαβάσει η κοινότητα
 review-sentences-menu-item-aria-label = Ελέγξτε υπάρχουσες προτάσεις που υποβλήθηκαν από την κοινότητα
 add-questions-menu-item-aria-label = Υποβάλετε νέες ερωτήσεις ώστε να τις διαβάσει και να τις απαντήσει η κοινότητα
+review-questions-menu-item-aria-label = Ελέγξτε και ψηφίστε τις νέες ερωτήσεις που υποβλήθηκαν από την κοινότητα
 transcribe-audio-menu-item-aria-label = Μεταγράψτε ηχογραφήσεις σε κείμενο

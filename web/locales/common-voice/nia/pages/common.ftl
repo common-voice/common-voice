@@ -58,7 +58,6 @@ hsb = Sorbian, Upper
 ht = Li Haiti
 hu = Li Hungaria
 hy-AM = Li Armenia
-hyw = Li Armenia Barat
 ia = Interlingua
 id = Li Indonesia
 is = Icelandic
@@ -173,6 +172,3 @@ email-opt-in-info-sub-with-challenge = Tema email samasugi tödö zinangea mu'oh
 email-opt-in-privacy-v2 = Na öfaduhugö wanema email, öfaduhugö göi wa fao dödöu ba wondrorogöma informasi andre simane si no tefa'anö ba <privacyLink>Privacy Policy</privacyLink> khö Mozilla.
 indicates-required = * Eluahania lö tola lö'ö mufo'ösi
 not-available-abbreviation = Lö'ö
-
-## Donate banner
-

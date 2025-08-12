@@ -35,6 +35,3 @@ email-opt-in-info-title = Kota na buku ya baimele ya Common Voice
 email-opt-in-info-sub-with-challenge = Zwá ba imele lokola makundoli ya mokakatano mpe mikano, bozongisi ya sika ya bokoli, mpe ba bulletins ya sango na ntina ya Common Voice.
 email-opt-in-privacy-v2 = Na ko ndima kozuaka baimele otatoli ete omoni mabé te mpona Mozilla ko salela mayebi oyo ndenge elimbolami na  <privacyLink>politiki ya sekele</privacyLink> ya Mozilla.
 not-available-abbreviation = Ezali te
-
-## Donate banner
-

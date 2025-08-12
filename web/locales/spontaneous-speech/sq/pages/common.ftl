@@ -11,8 +11,6 @@ platform-language-tooltip-text = Ndryshon vetëm tekstin e sajtit.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Dhënie kontributi te grup të dhënash për { $language }
 contribution-picker-tooltip-text = Ndryshon grupin e të dhënave të gjuhës te e cila po kontribuoni
-# Label for button on contribution switcher
-change = Ndryshoje
 coming-soon = Më tepër gjuhë së shpejti
 media-recorder-api-not-supported = API MediaRecorder s’mbulohet nga shfletuesi juaj.
 # Toast message that is displayed when an item is skipped
@@ -29,10 +27,10 @@ request-new-language = Kërkoni Gjuhë të Re
 
 ## Navbar
 
+question = Pyetje
 respond-to-prompt = Përgjigjuni një Hapi
 transcribe = Transkriptoni
 check-transcriptions = Kontrolloni Transkriptime
-question = Pyetje
 
 ## Not Found Page
 
@@ -43,3 +41,9 @@ accept-privacy-and-terms = Pajtohem me <termsLink>Kushtet</termsLink> dhe <priva
 en = Anglisht
 fr = Frëngjisht
 tr = Turqisht
+
+## Language search component
+
+language-search-placeholder = Kërkoni për një gjuhë…
+language-search-aria-label = Kërkoni për një gjuhë
+language-search-no-results = S’u gjetën gjuhë

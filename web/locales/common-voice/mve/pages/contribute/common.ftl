@@ -1,39 +1,39 @@
 action-click = ڪلِڪ ڪرڻ
-action-tap = ٿپڻاڻ
-contribute = هسو ڏيڻ يان ڏيڻ آݪو
-review = جونچڻ
-skip = ڇوُڙڻ
-shortcuts = ويچ ڪرڻ
+action-tap = ٽيپ (چيڪ ڪرڻ آݪِي جگھہ)
+contribute = حصو ڏيڻ
+review = جائزو
+skip = ڇوڙڻ
+shortcuts = ڪِي بورڊ را شاٽ ڪٽ
 clips-with-count-pluralized =
     { $count ->
-        [one] هيڪ <bold>{ $count }</bold>ڪلِپ
-       *[other] ٻِجيَ <bold>{ $count }</bold>ڪلِپون
+        [one] <bold>{ $count }</bold>ڪلِپ
+       *[other] <bold>{ $count }</bold>ڪلِپون
     }
-goal-help-recording = ڪينو ٿُون مدد ڪِي ڪومن وئِيس تي رسيڻ رِي <goalPercentage></goalPercentage>آپڻِي روز رِي{ $goalValue } رِڪورڊئينگ را مقسد
-goal-help-validation = ٿُون مدد ڪِي ڪومن وئِيس رسيڻ <goalPercentage></goalPercentage> آپڻِا روز را { $goalValue }مقسد
+goal-help-recording = ٿُون ڪامن وائس تيَ رسڻ ۾ مدد ڪِي ھيَ<goalPercentage>مھورَي زوز رَي { $goalValue } ريڪاڊِنگ رَي مقصد
+goal-help-validation = ٿُون ڪامن وائس تيَ رسڻ ۾ مدد ڪِي ھيَ<goalPercentage>مھورَي روز رَي { $goalValue } تصديقي مقصد
 contribute-more =
     { $count ->
-        [one] تيار هون گيڻيڻ هارون
-       *[other] تيار هون گيڻيڻ هارون
+        [one] ڪرڻ ھارون تيار ھو { $count }وڌيڪ؟
+       *[other] ڪرڻ ھارون تيار ھو { $count }وڌيڪ؟
     }
-speak-empty-state = اِيئي ٻولِي ۾ لکڻ هارون جملا ختم هويا را۔
-no-sentences-for-variants = هوئي هگھي هَي ڪيَ ٿونرِي ٻولِي را جملا الگ الگ شڪليون هون ٻاهر هوئي، اگر ٿَي سهي سمجهو هون تو ٿَي ٿونرِي ٻولِي ۾ ٻِيجا جملا جونڻ هارون ٿَي ٿونرِي ترتيِب بدليَ هگھون هون۔
-speak-empty-state-cta = جملا ٺاهڻ يان تآون ڪرڻ
-speak-loading-error = ميه ٿُوريَ ٻولڻ هارون جملا ڀيڙا ڪريَ ڪونِي هگھيا۔ مهربونِي ڪريَ ٿوڙِي دير هون ويڙيَ ڪوشِيش ڪريا
-record-button-label = آپرِي آواز رِڪورڊ ڪرو
-share-title-new = <bold>مهورِي مدد ڪرو </bold>وڌِيڪ آواز جونچڻ هارون
-keep-track-profile = پُروفائيل ريَ وسِيلي آپرِي ترقِي جونچتا رهون
-login-to-get-started = لوُگِين يان سهائين اَپ ڪرو شروعات ڪرڻ هارون
-target-segment-first-card = ٿُون مهوريَ پيلڪو مقسد حاصل ڪرڻ ۾ ڪوم ڪريَ ريو هَي
-target-segment-generic-card = ٿُون ڪوم ڪريَ ريو هَي مهوريَ مقسد نَي پورو ڪرڻ ۾
-target-segment-first-banner = مدد ڪرو ٺاهڻ ۾ ڪومن وئِيس رِيَ پيلڪي مقسد نَي{ $locale }
-target-segment-add-voice = ٿُنورِي آواز شامل ڪرو
-target-segment-learn-more = وڌِيڪ هِيکون
-change-preferences = هِيکوڙيَ واتون نَي بدلائو
-login-signup = لوُگِين اِنن يان سهائِين اَپ
-vote-yes = هاوَي
+speak-empty-state = مھون ڪنيَ اِيئي ٻولِي ۾ ريڪاڍ ڪرڻ ھارون جُملا ختم ھويا را۔
+no-sentences-for-variants = ٿُررِي ٻولِي رو قِسم جُملون ھون الگ ھوئيَ ݾگھيَ ھيَ! جيَ ٿيَ راضِي ھو تو ٿيَ آپرِي ٻولِي ۾ ٻيجا جُملا جوڻ ھارون آپرَي سيٽِگون  بدلِي ڪريَ ݾگھو ھو۔
+speak-empty-state-cta = جُملون رو حصو ڏيو
+speak-loading-error = مھيَ ٿونرَي ٻولڻ ھارو ڪو بہ جُملو ڪونھي جوئيَ ݾگھيا ھون۔ مھربونِي ڪريَ پڇيَ وڙيَ ڪوشِش ڪريا۔
+record-button-label = آپرِي آواز ريڪاڍ ڪرو
+share-title-new = <bold>مھورِي مدد ڪرو</bold> ٻيجيَ آوازون جوڻ ھارو
+keep-track-profile = آپرَي ڪوم رِي ترقِي جونچڻ ھارو آپرِي پروفائل جوتا رو
+login-to-get-started = شروع ڪرڻ ھارو لاگ اِن يا سائن اپ ڪرو
+target-segment-first-card = ٿيَ مھورَي پيلڪيَ حدف ريَ حصيَ ۾ ڀاگ ليو پڙيا۔
+target-segment-generic-card = ٿيَ ھيڪ حدف رَي حصيَ ۾ ڀاگ ليو پڙيا۔
+target-segment-first-banner = ڪامن وائس رَي  پيلڪي حدف رَي حثي ناي ٺاھڻ ۾ مدد ڪرو{ $locale }
+target-segment-add-voice = ٿونرِي آواز شامل ڪرو
+target-segment-learn-more = وڌيڪ ݾيکو
+change-preferences = ترجيَ بدلو
+login-signup = لاگ اِن يا سائن اپ
+vote-yes = هاويَ
 vote-no = نا
-datasets = ڊيٽاشِيٽ
+datasets = مواد رو سيٽ
 languages = ٻوليَ
 about = باريَ ۾
 partner = ساٿِي
@@ -42,23 +42,23 @@ submit-form-action = جما ڪرڻ
 ## Reporting
 
 report = رپورٽ
-report-title = کبرچار جما ڪرڻ
-report-ask = ٿَني اِيئي جمليَ ۾ ڪهڙا ڪهڙا ميسلا آيا هَي۔
-report-offensive-language = گاڙئيون آݪِي ٻولِي
-report-offensive-language-detail = گاڙئيون آݪِي ٻولِي هانَ گاڙئيون آݪا جملا
-report-grammar-or-spelling = گرامر يان لکائِي غلط هوئي
-report-grammar-or-spelling-detail = جمليَ ۾ گرامر يان لکائِي رو ميسلو هَي
-report-different-language = الگ الگ ٻولي
-report-different-language-detail = لکوُڙِي ٻولِي الگ هوئي هَي جڪي هُون ٻولون هون
-report-difficult-pronounce = ڏُکيو هَي اِيئي لفز نَي ٻولڻ
-report-difficult-pronounce-detail = اِيئي ۾ شامل هَي لفز هانَ جملا جيڪو جوم ڏُکيا هَي ٻولڻ
-report-offensive-speech = گاڙئيون آݪي ٻولِي
-report-offensive-speech-detail = اِيئي ڪلِپ ۾ گاڙيَ هانَ ڪِنا لفز هَي
+report-title = رپورٽ جمع ڪرو
+report-ask = ٿيَ اِيئي جُمليَ ۾ ڪيھڙيَ ڪيھڙيَ ممسئلون رو تجربو ڪريَ ريا ھو؟
+report-offensive-language = بداخلاقِي ٻولِي
+report-offensive-language-detail = اِيئي جُمليَ ۾ بيَ عزتِي ھانَ بداخلاقِي ٻولِي ھيَ۔
+report-grammar-or-spelling = گرامر يا اکرون رِي لکائِي رو مسئلو
+report-grammar-or-spelling-detail = جمليَ ۾ گرامر يا اکرون رِي لکائِي  رو ميسلو ھيَ۔
+report-different-language = مختلف ٻوليَ
+report-different-language-detail = او ٻولِي جڪو ھُون ٻولون ھون اُوئي ھون الف ٻولِي ۾ لکوڙو ھيَ۔
+report-difficult-pronounce = اوچار ۾ ڏُکيو
+report-difficult-pronounce-detail = اِيئيون ۾ اھڙا اکر يا جُملا ھيَ جڪو پڙھڻ ھانَ اوچار ڪرڻ ۾ ڏُکيا ھيَ۔
+report-offensive-speech = بداخلاقِي ھون ٻولڻ
+report-offensive-speech-detail = اِيئي ڪلِپ ۾ بيَ عزتِي ھانَ بداخلاقِي ٻولِي استعمال ھويوڙِي ھيَ۔
 report-other-comment =
-    .placeholder = خيال ظاهر ڪرڻ
-success = ڪامِيابِي
-continue = هليَ پَڙيو
-report-success = رِپورٽ منضوُر هوئِي رِي ڪامِيابِي هون
+    .placeholder = رائيَ ڏيڻ
+success = ڪاميابِي
+continue = هليَ پَڙيو يا جارِي ھيَ
+report-success = رپورٽ ڪاميابِي ھون جمع ھوئِي رِي
 
 ## Speak & Listen Shortcuts
 
@@ -70,22 +70,22 @@ shortcut-skip = س
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ر
-shortcut-record-toggle-label = رِڪورڊ هانَ روڪڻ
-shortcut-rerecord-toggle = 5۔1
-shortcut-rerecord-toggle-label = وَڙيَ رِڪورڊ ڪرو اِيئي ڪلِپ نَي
-shortcut-discard-ongoing-recording = اِيِ اَس سِي
-shortcut-discard-ongoing-recording-label = هلتِي رِڪورڊئينگ نَي ختم ڪرو
-shortcut-submit = واپس آڻ
-shortcut-submit-label = ڪلِپ جما ڪرڻ
-request-language-text = آپرِي ٻولِي نَي ڪومن وئِيس ۾ هِڻي نِي جووُ
-request-language-button = ٻولِي هارون درخواست ڏيو
+shortcut-record-toggle-label = رِيڪاڍ ڪرو هانَ روڪو
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ڪلِپ نَي وڙيَ رِيڪاڍ ڪرو
+shortcut-discard-ongoing-recording = ايَ ايس سِي (رد ڪرڻ رو بٽڻ)
+shortcut-discard-ongoing-recording-label = هلتِي ريڪاڊِنگ نَي رد ڪرو
+shortcut-submit = واپسِي
+shortcut-submit-label = ڪلِپون جمع ڪرو
+request-language-text = اڃون تائين آپڻِي ٻولِي ڪامن وائس تيَ ڪونِي ڏيکِجيَ ھيَ؟
+request-language-button = ٻولِي هارو درخواست ڏيو
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پ
-shortcut-play-toggle-label = هلائو يان روڪو
+shortcut-play-toggle-label = هلائو يا روڪو
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = ي
@@ -95,56 +95,56 @@ shortcut-vote-no = ن
 
 ## Validation criteria
 
-contribution-criteria-nav = ميهار
-contribution-criteria-link = ميها نَي سمجھو هان هسو ليو
-contribution-criteria-page-title = هسو ليڻ رو ميهار
-contribution-criteria-page-description = ياد راکو ڪيَ اَي ڪلِيپ جونچڻ ريَ ٽيم ڪهڙِي شئين نَي جونچڻ کپيَ هانَ آپرِي رِڪورڊئينگ ني سُٺي نمُونَي رِڪورڊ ڪرو
+contribution-criteria-nav = معيار
+contribution-criteria-link = شراڪت رَي معيار نَي سمجھو
+contribution-criteria-page-title = شراڪت رو معيار
+contribution-criteria-page-description = سمجھو ڪہ آواز رو ڪلِپ ھونڀڻڻ رَي ٽيم ڪِي جونچڻ کپيَ ھان آپرِي آواز نيَ ريڪارڊِنگ نيَ وڌيڪ سُٺِي ٺاھڻ ۾ مدد ڪرو!
 contribution-for-example = مسال طور
 contribution-misreadings-title = غلط پڙهڻ
-contribution-misreadings-description = جڏيَ هونبڙو، ڌيان هون چيڪ ڪرو ڪي ٿَي ڪِي رِڪورڊ ڪريَ ريا هون، ڪِي او جي هَي جيڪو لکوڙو هَي: سهي ڪرو جڪو غلط هوئي ننڪِي هون ننڪِي غلطِي <br /> ڀليَ ڪو ڀِي غلطِي هوئي
-contribution-misreadings-description-extended-list-1 = گائيب <strong>اَي</strong>يان<strong>دي</strong>رِڪورڊئينگ ريَ شروعات ۾
-contribution-misreadings-description-extended-list-2 = گائيب <strong>س</strong>لفز ريَ آخر ۾
-contribution-misreadings-description-extended-list-3 = پڙهون او ئي جي جڪو نکتا ڏِئنوڙا هَي اِت، جئين ميه هون يان ميه ئي هون
-contribution-misreadings-description-extended-list-4 = آخرِي لفز رو آخرِي هِسو گائيب ڪريَ ڪَٽو رِڪورڊئينگ ڀِي ڪرو جلدِي
-contribution-misreadings-description-extended-list-5 = بار بار پڙهو هيڪي لفز نَي
-contribution-misreadings-example-1-title = ٽرياسڪ را ڊئيناسور
-contribution-misreadings-example-2-title = ٽرياسڪ را موٽا موٽا ڊئيناسور.
-contribution-misreadings-example-2-explanation = اَي دئيناسور هوئڻ کپيَ
-contribution-misreadings-example-3-title = ٽريائيسي را موٽا ڊئيناسور
-contribution-misreadings-example-3-explanation = آخرِي لفز ري آخر هون اگ ۾ رِڪوڊئينگ ڪٽِي رِي
-contribution-misreadings-example-4-title = ٽرياسڪ را موٽا ڊئيناسور۔ هاوَي
-contribution-misreadings-example-4-explanation = جتريَ رِي ضروروت هتِي  اُوئي هون ڌِيڪ رِڪوڊ ڪِيو گيو هَي
-contribution-misreadings-example-5-title = ميه جونه پيِڻ ٻاهر جاوُن پَڙيا
-contribution-misreadings-example-6-title = ميه جونه پيِڻ ٻاهر جاوُن پَڙيا
-contribution-misreadings-example-6-explanation = اَي هوئڻ کپيَ ”ميه هون”
-contribution-misreadings-example-7-title = ميه آپِيس هون ٻاهر جاوُن پَڙيا
-contribution-misreadings-example-7-explanation = نا اَي اصلِي لکائِي ۾
-contribution-misreadings-example-8-title = بنورا سجون هون اگ ۾ جائي هَي
-contribution-misreadings-example-8-explanation = اَي آپت ۾ ڪونِي مليَ هَي
-contribution-varying-pronunciations-title = مختلِيف اُوچار
-contribution-varying-pronunciations-description = اِيئي بُنياد تي ڪي ڀِي ڪلِپ نَي رد ڪرڻ هون پيل ڌيان ڪريا ڪي او غلط تو ڪونِي لفز، هانَ ڪو لفز غلط جگا تي تو ڪونِي راکوڙو هَي۔  يان ڪي سواليا نشانِي نِي لگائي۔ اُونون ۾ ڪجه ٿُون نِي ڀِي هونبڙيا هوئي يا برادرِي ڀِي نِي هونڀڙا هوئي۔ مهربونِي ڪريَ الگ ٻولڻ آݪون ريَ باري ۾ لِکو
-contribution-varying-pronunciations-description-extended = هانَ ٻِيجي پاهيَ، اگر ٿَي سوچو هون ڪي پڙهڻ آݪا قابِل ڪونِي ڪي او آئي لفز هون پيل هانَ ساديِ بناوٽ غلط اُوچار، مهربونِي ڪري رد ڪرو۔ اگر ٿُوني خبر ڪونِي تو ٿَي اِيئي ني ڇوڙيَ ڏيو۔
-contribution-varying-pronunciations-example-1-title = اُوئي آپريَ ماٿيَ تي بيرِٽ پيريوهتو
-contribution-varying-pronunciations-example-1-explanation = بيريٽ تو سهي هَي پڻ پيلڪي آکر ۾ يوڪي يان ٻِيجو يو اَس
-contribution-varying-pronunciations-example-2-title = اُوئي رو هاٿ ماٿي هَي۔
-contribution-varying-pronunciations-example-2-explanation = ماٿي انگريزِي ۾ هيڪ جي لفز هَي۔
-contribution-background-noise-title = لاري هُول هَي
-contribution-background-noise-description = ميه چاهون ڪي مشِن لرنئينگ الوگرٿم اِيئي قابِل هوئي ڪي او الگ الگ آوازون تي ڪوم ڪريَ هگھيَ۔ گِيت هونبڙڻ تو سهي هَي پڻ گِيت هونبڙڻ ري اجازت ڪونِي ڏيَ
-contribution-background-noise-description-extended = اگر رِڪورڊئينگ ويچ ۾ ٽُوٽيَ رِي يان خراب هوئي رِي تو اُوئي نَي ختم ڪريَ وَڙي هونبڙو
-contribution-background-noise-example-1-fixed-title = <strong> ڇِينڪ ليڻ</strong>ڊئيناسور <strong>کنَگ</strong>ٽرياسڪ
-contribution-background-noise-example-2-fixed-title = دي جيئنٽ د”ڊئينو <strong>کنَگ </strong>ٽرياسڪ
-contribution-background-noise-example-2-explanation = لکائي رو هسو ڪونِي هونبڙِجي
-contribution-background-noise-example-3-fixed-title = <strong>ڪريڪل </strong>جئينٽ ڊئيناسور<strong>ڪريڪل </strong>رئيسڪ
-contribution-background-voices-title = آسيَ پاسيَ ريَ آوازون
-contribution-background-voices-description = ٿوڙو آواز تو سهي هَي، پڻ مهوني ٻِيجو آواز ڪونِي کپيَ  جڪو وڌيڪ آواز ڪريَ مشِن الوگرٿم اوڙکڻ ۾ لفزون نَي جڪو لکوڙا ڪونِي۔ اگر ٿَي لفز هونبڙَي هگھون هون تو جڪو اُوئي لکائي رو هَي تو اُوئي نَي رد ڪرو۔ اڪسر ڪريَ اَي اُٿ هوئي هَي جٿ ٽِي وِي هوئي يان جٿ وات چِت هوئي پَڙِي
-contribution-background-voices-description-extended = اگر رِڪوڊينگ ٽُوٽي هَي يان اُوئي ۾ خرابِي هوئي هَي تو اُوئي ني رد ڪرو او لکو جڪو لکوڙو هَي هانَ هونبڙن ۾ آئي هَي۔
-contribution-background-voices-example-1-title = ٽرياسڪ ٽيم را موٽا ڊئيناسور۔<strong> پڙهون هيڪ جي آواز ۾ </strong>
-contribution-background-voices-example-1-explanation = ڪِي ٿَي آئو پَڙيا؟<strong> ڪيَ ٻِيجي هَيلو ڪيو </strong>
+contribution-misreadings-description = ھونڀڻڻ رَي ٽيم، ڌيان ھون جونچو ڪہ جڪو ريڪاڍ ڪِيو ھيَ او بلڪُل اِيئيونج لِکيو ھيَ۔ جيَ ننڍيَ غلطيَ ڀِي ھوئيَ تو رد ڪرو۔<br />  عام غلطيَ شامل ھيَ:
+contribution-misreadings-description-extended-list-1 = غائب <strong> ’اَي‘ </strong> يا <strong> ’دا‘ </strong> ريڪاڊِنگ رَي شروع ۾۔
+contribution-misreadings-description-extended-list-2 = غائب <strong>’س‘</strong> اکر رَي پڇاڙِي ۾۔
+contribution-misreadings-description-extended-list-3 = اھڙيَ نِشانين پڙھڻ جڪو اصل ۾ موجود ڪونھي ھيَ، جون ”مھيَ ھون“ رِي جگھہ ”مھيَ ھون“ يا اُوئون جيھڙِي ھيَ۔
+contribution-misreadings-description-extended-list-4 = ريڪاڍِنگ نَي جوم ڇيڪِي ڪٽڻ رَي ڪريَ پڇاڙِي را اکر گُمِيجيَ را
+contribution-misreadings-description-extended-list-5 = ھيڪيَ اکر نَي پڙھڻ ھارو ڪِيتريَ ڪوشِشون ڪرڻ۔
+contribution-misreadings-example-1-title = اڊائِي سئو ڪروڙ سال پيل را موٽا ڊائناسور۔
+contribution-misreadings-example-2-title = اڊائِي سئو ڪروڙ سال پيل رو ڊائناسور۔
+contribution-misreadings-example-2-explanation = [’ڊائناسور‘ ھوڻ کپيَ]
+contribution-misreadings-example-3-title = اڊائِي سئو سال پيل را ڊائناسور۔
+contribution-misreadings-example-3-explanation = [آخرِي اکر رِي  پڇاڙِي ھون پيل  ريڪاڍِنگ ڪَٽوڙِي ھيَ]
+contribution-misreadings-example-4-title = اڊائِي سئو سال پيل را ڊائناسور۔ ھاويَ۔
+contribution-misreadings-example-4-explanation = [جِيترو مواد کپتو تو اُوئي ھون وڌيڪ ريڪاڍ ڪِيو گيو ھيَ]
+contribution-misreadings-example-5-title = مھيَ ڪاڦِي ليڻ ھارو ٻاھر جائون پڙيا۔
+contribution-misreadings-example-6-title = مھيَ ٻاھر جائون پڙيا ڪاڦِي ليڻ ھارو
+contribution-misreadings-example-6-explanation = ["مھيَ ھون"  ھوڻ کپيَ]
+contribution-misreadings-example-7-title = مھيَ ٻاھر جائون پڙيا ڪاڦِي ليڻ ھارو۔
+contribution-misreadings-example-7-explanation = [اصل مواد ۾ 'a' (آ) ڪونِي ھيَ]
+contribution-misreadings-example-8-title = ماکِي تيزِي ھون مِٽيَ گئِي۔
+contribution-misreadings-example-8-explanation = [نِي ملتو مواد]
+contribution-varying-pronunciations-title = مختلف اوچار
+contribution-varying-pronunciations-description = ڪيَ ڀِي ڪلِپ نَي رد ڪرڻ ھون پيل ٿيَ ڌيان ھون جونچو ڪہ پڙھڻ آݪو ڪو اکر غلط اوچار ھون پڙھيو ھيَ، زور ڪيَ غلط اکر تيَ راکيو ھيَ، يا ٻولڻ وقت سواليا نشانِي ڇوڙِي ھيَ۔ دُنيا ۾ مختلف قِسم را اوچار استعمال ھوئيَ ھيَ۔ جڪون ۾ ڪجھ ھوئيَ ݾگھيَ ھيَ ڪہ ٿُون آپرَي مقامِي ٻوليون ۾ نِي ھونڀڙا ھوئي۔  مھربونِي ڪريَ ھيڪ حد ٺاھو جڪو ٿونرِي ٻولِي ھون الگ يا فرق ٻولڻ آݪا ھيَ۔
+contribution-varying-pronunciations-description-extended = ٻيجيَ پاݾي، جيَ ٿيَ سوچو ھون ڪہ پڙھڻ آݪيَ ڪڏيَ ڀِي اُوئي اکر نَي نِي پڙھيو ھوئي، ھانَ او ھيڪ غلط اندازيَ ھون پڙھيَ ھيَ، مھربونِي ڪريَ  رد ڪرو۔ جيَ ٿونَي پَڪ نِي ھوئي تو، ٿَي اِسڪِپ (ڇوڙڻ) رو بٽڻ ڌٻائو۔
+contribution-varying-pronunciations-example-1-title = اُوئي ماٿيَ تيَ ٽوپِي پيرِي ھيَ
+contribution-varying-pronunciations-example-1-explanation = ['بيريٽ يا ٽوپِي' اکر ٺيڪ هيَ، پيلڪي اکر ۾ (برطانيا) تي زور ھيَ  يا ٻيجيَ ۾ (آمريڪا) تي]
+contribution-varying-pronunciations-example-2-title = اُوئي رو هاٿ ماٿي کڻوڙو هتو۔
+contribution-varying-pronunciations-example-2-explanation = [انگريزِي ۾ 'کڻوڙَي' اکر نَي سدائين ٻي نا پڻ هيڪ اکر ۾ اوچار ڪِيو جائي ھيَ۔]
+contribution-background-noise-title = لاريَ  رو هُول
+contribution-background-noise-description = مھيَ چاھون ھون ڪہ مشِين ݾِکڻ الگورٺم مختلف قِسم ريَ آݾيَ پاݾيَ ريَ ھُل ھانَ شور نَي سنڀالڻ ھارو قابل ھوئي، تکِي آوازون نَي ڪبول ڀِي ڪريَ ݾگھيَ۔ رُگو شرط اَي ھيَ ڪہ ٿونَي سجو مواد پڙھڻ ھون نِي روڪيَ۔ آݾيَ پاݾيَ ۾ خاموشِي را گِيت تو ٺيڪ ھيَ۔ اِيتري بُلند آواز گِيت جڪو ٿونَي ھر ھيڪ اکر نَي ھونڀڙڻ ھون نِي روڪيَ ݾگھيَ ھيَ، او ڪونھي ھيَ۔
+contribution-background-noise-description-extended = جيَ ريڪارڍِنگ وِچ ۾ ٽوٽيَ جائيَ ھان ايئيَ ۾ ٽُڪڙا ٽُڪڙا ھوئيَ تو رد ڪرو جيستائين سجِي  ريڪارڍِنگ  ھونڀڙيَ نِي ݾگو
+contribution-background-noise-example-1-fixed-title = <strong> ڇِينڪ ليڻ</strong>وڏا ڊئيناسور <strong>کنَگ</strong>اڊائِي سئو ڪروڙ سال پيل
+contribution-background-noise-example-2-fixed-title = وڏو ڊائنا <strong>کنَگ </strong>اڊائِي سئو ڪروڙ سال پيل
+contribution-background-noise-example-2-explanation = لکائي رو حضو ڪونِي هونڀڙِجيَ
+contribution-background-noise-example-3-fixed-title = <strong>ٽُٽل </strong>وڏو ڊئيناسور<strong>ٽُٽل </strong>رائيسڪ
+contribution-background-voices-title = لاريَ ريَ آوازون
+contribution-background-voices-description = لاريَ ٿوڙو آواز تو ٺيڪ ھيَ پڻ مھيَ وڌيڪ آواز ڪونِي چاھون جُڪو مشينِي الگورٿم ۾ مسئلو ڪريَ جڪو اکر لکوڙا ڪونِي۔ جيَ ٿيَ جڪو اکر لکوڙا ھيَ اوئون ھون ٻيجا اکر ھونڀرو ھو تو ڪلِپ نيَ لازمي رد ڪرڻ کپيَ۔ اَي گھڻو ڪريَ جڏيَ ھوئيَ ھي جيَ ٽِي وِي ھلتِي ھوئيَ يا جيٿ ويجھو ٻولِي چالِي ھوئيَ۔
+contribution-background-voices-description-extended = جيَ ريڪارڍِنگ ٽُٽيَ رِي يا ايئيَ ۾ ٽُڪڙا ٽُڪڙا ھوئيَ تو رد ڪرو جيستائين سجو مواد ھونڀڙيَ ݾگو
+contribution-background-voices-example-1-title = اڊائِي سئو ڪروڙ سال موروڪا موٽا ڊئناسور۔<strong>  هيڪ آواز ۾ پڙهو</strong>
+contribution-background-voices-example-1-explanation = ڪِي ٿَي آئو پَڙيا؟<strong> ڪيَ ٻِيجيَ هيلو ڪِيو </strong>
 contribution-volume-title = آواز
-contribution-volume-description = قُدرتِي فرق هوئي هَي  آواز هانَ پڙهڻ آݪي ۾۔ رد ڪرو اگر اُوئي رِي آواز ماٿي هوئي يان رِڪوڊئينگ ٽُوٽي، يان عام طور، اگر او ڍيلِي هوئي تو ٿَي هونبڙيَ ڪونِي هگھو ڪي او ڪِي ڪهي ريا هَي جڪو لکوڙو هَي۔
-contribution-reader-effects-title = پڙهڻ آݪي را اسرانداز
-contribution-reader-effects-description = ڪافِي مِنک آپرِي آواز ۾ ئي ٻوليَ هَي هانَ رِڪوڊدئينگ ڀي ڪرائي هَي۔ ٿوني قبول ڪرڻ کپي جڪو ڀِي رِڪوڊئينگ ۾ آواز هَي۔ مهربونِي ڪريَ رد ڪرو گِيتون نَي جڪو ڪمپيوٽر رِي آواز هوئي هَي۔
-contribution-just-unsure-title = خبر ڪونِي
-contribution-just-unsure-description = ٿوني ڪو اهڙِي شئي ملي جڪي رو زڪر ڪونِِي ڪيوڙو هوئي هَي، مهربونِي ڪريَ ووٽ ڪرو ڪي ڪوُڻ ڪيترو سهي هَي۔ جڏي ٿي فيصلو ڪونِي ڪريَ هگھو تو اُوئي نَي ڇوڙي هانَ اگتي رِڪوقئينگ ڪريا
-see-more = <chevron></chevron> ٻِيجا ڀِي جووُ
-see-less = <chevron></chevron> ٿوڙا جووُ
+contribution-volume-description = پڙھڻ آݪون رَي وِچ ۾ آواز ۾ قدرتِي فرق ھوئيَ ھيَ۔ جيَ آواز جام اونچو ھيَ جڪو ريڪارڍِنگ نيَ ٽوݪيَ ھيَ ھان (عام طور تيَ)ھونڀڙيَ ڪونِي ݾگيَ ھيَ جيَ اَي جام ھيٺِي ھيَ ھان ٿيَ بنا جوئيَ ٿيَ ڪونِي سمجھو ڪہ ڪِي لکوڙو ھيَ۔
+contribution-reader-effects-title = پڙهڻ آݪي رو اسر
+contribution-reader-effects-description = گھڻو ڪريَ ريڪارڍِنگون منکو رِي قدرتِي آواز ۾ ھوئيَ ھيَ۔ ٿيَ ڪڏيَ ڪڏيَ غير معيارِي ريڪارڍِنگ قبول ڪريَ ݾگو ھو جون رڙ، ڦُس ڦُس ڪِي جائيَ ھيَ، يا کُليَ طور ’ڊراميَ آݪِي‘ آواز ۾ ڏنِي جائيَ ھيَ۔ مھربونِي ڪريَ گايوڙِي ريڪاڍِنگ ھانَ ڪمپِيوٽر ھون ٺاھيوڙِي آواز استعمال ڪرڻ آݪِي ريڪاڍِنگ نَي رد ڪرو۔
+contribution-just-unsure-title = مھنيَ يقِين ڪونھي
+contribution-just-unsure-description = جيَ ٿونيَ ڪو اھڙِي وات  نظر آئيَ جڪو اُوئون ھِدايتون ھون ڀيڙِي شامل ڪونھي، تو مھربونِي ڪريَ آپرَي سُٺيَ ھون سُٺو فيصلو ڪري ووٽ ڏيو۔ جيَ ٿيَ ݾاچيلِي فيصلو ڪونھي ڪريَ ݾگھو، تو پڇيَ ”اِسڪِيپ“ (ڇوڙڻ آݪو) بٽڻ استعمال ڪرو ھانَ آݪ آݪِي ريڪاڍِنگ تيَ جائو۔
+see-more = <chevron></chevron> جونچو وڌيڪ
+see-less = <chevron></chevron> جونچو ٿوڙا

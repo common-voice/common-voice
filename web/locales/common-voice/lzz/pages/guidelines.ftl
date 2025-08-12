@@ -2,6 +2,9 @@
 guidelines-header = Meşveluşi ǩuralepe
 voice-collection = Xomaşi ǩoleǩsioni
 sentence-collection = Cumleşi ǩoleǩsiyoni
+
+## Voice Collection nav ids
+
 varying-pronunciations = Goimturu otkupe
 misreadings = Yanlişi oǩitxupe
 background-noise = ǩap̌ulani nağarya
@@ -10,6 +13,9 @@ volume = Hacimi
 reader-effects = Maǩitxeşi Efektepe
 just-unsure = Vorsi var giçkinan-i?
 example = Evuli
+
+## Voice collection sidebar content
+
 varying-pronunciations-example = Rota var içkinen.
 varying-pronunciations-tip-1 = [ǩanadaşi İngilizurik "rota" zit̆a "rowt" ya do datkven.
 varying-pronunciations-tip-2 = Britişuri İngilizuris "cici" axenen
@@ -28,10 +34,16 @@ background-noise-example-1 = Triyasişi divi dinazorepe.
 background-noise-tip-2 = [ç̌araşi ar notzile var diguren]
 still-have-questions = Xolo ǩitxalape giğunan-i?
 contact-common-voice = Common Voiceşi ekibi şkala ikontaktit
+
+## Sentence collection nav ids
+
 public-domain = ǩamuşi Monduni
 citing-sentences = Cumlepeşen ar muti eç̌opinu
 adding-sentences = Cumle Oǩatu
 reviewing-sentences = Cumlepe Otsadu
+
+## Sentence collection sidebar content
+
 citing-sentences-subheader-websites = Web sitepe
 citing-sentences-subheader-academic-reference = Akademiǩuri referansi
 citing-sentences-subheader-offline-sources = Ofline Cireǩepe

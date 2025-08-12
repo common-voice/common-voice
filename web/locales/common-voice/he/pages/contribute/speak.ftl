@@ -62,6 +62,8 @@ create-profile-button = יצירת פרופיל
 img-alt-success-checkmark = סימן הצלחה
 # menu item
 read-sentences = קריאת משפטים
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = קריאת משפטים <small>(בקרוב)</small>
 
 ## MENU ITEM TOOLTIPS
 

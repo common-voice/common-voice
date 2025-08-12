@@ -1,12 +1,12 @@
 ## Dashboard
 
 your-languages = 您的語言
-toward-next-goal = 距離下一個目標
+toward-next-goal = 距離下一个目標
 goal-reached = 達成目標
 clips-you-recorded = 您已錄音的片段
 clips-you-validated = 您已驗證的片段
-todays-recorded-progress = 本日 Common Voice 錄音片段進度
-todays-validated-progress = 本日 Common Voice 驗證片段進度
+todays-recorded-progress = 今仔日 Common Voice 錄音片段進度
+todays-validated-progress = 今仔日 Common Voice 驗證片段進度
 stats = 統計
 awards = 成就
 you = 你家己
@@ -50,19 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = 設定目標
 cant-decide = 無法決定嗎？
-activity-needed-calculation-plural =
-    { $people ->
-       *[other]
-            { $clipsPerDay ->
-               *[other]
-                    { $periodMonths ->
-                       *[other]
-                            { $totalHours ->
-                               *[other] 若有 { $people } 個人每天錄下 { $clipsPerDay } 個片段，就可以在 { $periodMonths } 個月內達成 { $totalHours } 小時錄音片段的目標。
-                            }
-                    }
-            }
-    }
 how-many-per-day = 好的，每天要貢獻幾個片段？
 how-many-a-week = 好的，每週要貢獻幾個片段？
 which-goal-type = 想要錄音、聆聽確認，還是兩者都要？

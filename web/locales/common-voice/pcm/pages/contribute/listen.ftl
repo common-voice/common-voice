@@ -10,9 +10,3 @@ listen-loading-error = Wi no fit get eni odio klips for yu to lisin to. Abeg tra
 listen-abort-title = Finish validetin klips?
 listen-abort-cancel = Kontinu to validet
 listen-abort-confirm = Finish validetin
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

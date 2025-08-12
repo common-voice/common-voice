@@ -52,7 +52,6 @@ hr = الكرواتيّة
 hsb = الصربيّة العليا
 hu = المجريّة
 hy-AM = الأرمينية
-hyw = الأرمينية الغربية
 ia = اللغة الوسيطة
 id = الإندونيسيّة
 is = الآيسلنديّة
@@ -156,6 +155,3 @@ email-opt-in-info-sub-with-challenge = أريد استلام البريد مثل
 email-opt-in-privacy-v2 = اشتراكك في خدمة تلقّي البريد تعني بأنك لا تُمانع بأن تتعامل Mozilla مع هذه البيانات كما هو موضّح في <privacyLink>سياسة الخصوصية</privacyLink>.
 indicates-required = * يعني أن الحقل مطلوب
 not-available-abbreviation = غير متاح
-
-## Donate banner
-

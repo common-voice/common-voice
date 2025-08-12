@@ -43,6 +43,7 @@ about-get-involved-text-2 =
      Ntsaşa Yextat! E-posta var na <discourseLink>Discourse</discourseLink>iten koniǩirit, forumepes amaxtit, sites na ren problemepe <git̆ubLink>Git̆ub</git̆ubLink> iten kommemotsadapit var na   <matrixLink>Matrix</matrixLink>işen ǩatas oğarğaluşa amaxtit."
 about-stay-in-touch = Muç̌o oǩovimçinaten?
 about-stay-in-touch-button = Uye iyi (Uye ivi/ iqvi)
+about-stay-in-touch-text-2 = Majurape içinit.
 about-nav-why-common-voice = Muşeni?
 about-nav-how-it-works = Muç̌o?
 about-nav-partners = Maǩatape
@@ -54,16 +55,25 @@ about-nav-playbook = Muç̌o na eǩvant̆alaten digurit
 ## What is a language
 
 about-playbook-what-is-language = Common Voices nena mu oren?
+about-playbook-what-is-language-content-1 = Nena omsifonu şeni çkva do çkva gzalepe renan.
+about-playbook-what-is-language-content-2 = Nenape şeni vorsi dulyape oxenu minonan.
+about-playbook-what-is-language-content-3 = Bazi nenapes çkva do çkva variantepe uğunan. Hamuşeni çku <ctaLink>goçinapamt ‘Variants’</ctaLink> in 2022.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Nena muşho eǩevunt̆alare?
 about-playbook-how-add-language-translating-heading = Siteşi tercume
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontooni oxmaru şeni rehberi çkunis otzkedit.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = Golaktalu şeni <pontoonLink>Pontoon</pontoonLink> coxoni ar Mozillaşi doçhironi vixmart. Pontoonis dido nenape renan ama tkvani nena va renna ekhogamtsxvenan.
 about-playbook-how-add-language-collecting-sentences-heading = Cumlepe oǩorobu
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cumle na ǩorobums ǩilavuzis otzǩedit</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Hak <scLinkAdd>ar mtsika cumle ekhogamtsxvenan.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Cumle kholekhsionis otzkhedit</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Siteşi lokaloba muç̌ote içalişams?
+about-playbook-how-localize-content-1 = Common Voice siteşi golaktalu <strong>Pontoon</strong>'s ixenen.
 about-playbook-how-localize-content-4 = %75 oranişa inç̌elasi siye gamaşkvinoni iyasen.
 about-playbook-how-localize-content-5 = Meşvelu şeni video gamognaponi-çkunis otzǩedit.
 
@@ -85,9 +95,6 @@ about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
 
 about-playbook-how-validate = Nena doloç̌areri geptzora vana mot geptzora muç̌o oxovotzonare?
 
-## How to access dataset
-
-
 ## How are decisions made
 
 about-playbook-how-project-governance = Projeşi ǩarari muç̌o eiç̌open?
@@ -101,3 +108,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Muç̌o na mok
 ## How is Common Voice funded
 
 about-playbook-how-funded = Comman Voice muçhe finanse ixenen?
+about-playbook-how-funded-content-1 = Common Voice, vergişen muafi (US 501c3) na ren Mozilla Vakhufişi proje ren. Hatzi ham projeşi tamami-muşi <phalanchromicGrantLink>hibepe</phaliantricGrantLink> do kianaşi iri khaleşen na ixenen oxarsuvupete finanse ixenen.

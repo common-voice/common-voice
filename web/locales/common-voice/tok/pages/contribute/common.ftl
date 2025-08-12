@@ -30,6 +30,14 @@ target-segment-first-banner = o pona e pali suli nanpa wan pi ilo Common Voice l
 target-segment-add-voice = o pana e toki uta sina
 target-segment-learn-more = o kama sona
 change-preferences = o ante e wile sina
+login-signup = o kama lon sijelo
+vote-yes = wile
+vote-no = wile ala
+datasets = kulupu kalama
+languages = toki
+about = sona ante
+partner = kulupu poka
+submit-form-action = o pana
 
 ## Reporting
 

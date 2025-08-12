@@ -12,15 +12,3 @@ how-to-cite = וויאזוי ציטיר איך
 guidelines = פארשריפטן
 contact-us = קאנטאקט אונז
 add-sentence-success = 1 זאץ געזאמלט
-
-## BULK SUBMISSION
-
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

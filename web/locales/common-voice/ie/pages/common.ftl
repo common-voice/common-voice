@@ -49,6 +49,3 @@ email-input =
     .label = E-post
 loading = Cargante…
 indicates-required = Campes marcat con asterisco (*) es besonat.
-
-## Donate banner
-

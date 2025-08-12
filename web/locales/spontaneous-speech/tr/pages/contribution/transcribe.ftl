@@ -4,7 +4,8 @@
 audio-page-instruction = <playIcon></playIcon> düğmesine { $actionType } ve kayıtta söylenenleri metne çevirin
 editbox-header = Metne Çevir
 editbox-placeholder = Kayıtta söylenenleri buraya yazın
-no-audio-message = Şu anda bu dilde metne çevirmek için ses dosyası yok. Lütfen sayfayı yenileyin ya da daha sonra bir daha deneyin.
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message = Şu anda bu dil için çeviri metin üretecek hiçbir ses kaydı yok. Herhangi birini atladıysanız atlanan içerikten devam edebilir ya da çeviri metinleri kontrol edebilir ve daha sonra yeniden deneyebilirsiniz.
 create-transcript-success = Yazı başarıyla gönderildi
 create-transcript-error = Bu yazı gönderilirken bir hata oluştu
 error-playing-audio = Ses dosyası çalma hatası.

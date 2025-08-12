@@ -4,7 +4,8 @@ record-player-header = Spela in ditt svar
 mic-access-error = Du måste tillåta mikrofonåtkomst.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> och svara så naturligt du kan
-no-prompts-message = Det finns för närvarande inga frågor för detta språk. Uppdatera sidan eller försök igen senare.
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Det finns inga fler frågor för detta språk. Om du har hoppat över något, kan du fortsätta med överhoppat innehåll eller gå till transkribera ljud och försök igen senare.
 error-skipping = Ett fel uppstod när den här prompten hoppades över
 error-recording = Ett fel uppstod under inspelningen
 error-fetching-prompts = Något gick fel när prompter skulle hämtas. Försök igen senare.

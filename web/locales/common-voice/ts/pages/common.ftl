@@ -61,7 +61,6 @@ hsb = Xisorbian, xa le Henhla
 ht = Xihaiti
 hu = Xihungary
 hy-AM = Xiarimeniya
-hyw = Xiarmenia xa le Vupela-dyambu
 ia = Interlingua
 id = Xiindonesia
 ie = Interlingue

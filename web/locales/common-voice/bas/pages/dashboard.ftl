@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Sañ likak
 cant-decide = Me ta bé le me yoñ makidik
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] ñgeñ { $totalHours }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                               *[other] ñgeñ { $totalHours }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] ñgeñ { $totalHours }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                               *[other] ñgeñ { $totalHours }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] ñgeñ { $totalHours }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                               *[other] ñgeñ { $totalHours }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] ñgeñ { $totalHours }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                               *[other] ñgeñ { $totalHours }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] ñgeñ { $totalHours }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                               *[other] ñgeñ { $totalHours }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] ñgeñ { $totalHours }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                               *[other] ñgeñ { $totalHours }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] ñgeñ { $totalHours }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                               *[other] ñgeñ { $totalHours }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] ñgeñ { $totalHours }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                               *[other] ñgeñ { $totalHours }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôn { $periodMonths }i nla yon ibol ngimsôñ { $periodMonths }i nla yon ibol ngim
-                            }
-                    }
-            }
-    }
 how-many-per-day = Ntuk! Dikékét di makiñ tjañeñ i ngim kel ?
 how-many-a-week = Ntuk! Dikékét di makiñ tjañen i ngim sondi ?
 which-goal-type = U nsômbôl pot, emble, tole gwobiba ?

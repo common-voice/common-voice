@@ -19,6 +19,8 @@ const reportedSentencesRowToTsvEntry = (row: ReportedSentencesRow): string =>
 const transformSentences = () =>
   new Transform({
     transform(chunk: ReportedSentencesRow, encoding, callback) {
+      chunk.sentence = chunk.sentence.replace(/\s/gi, ' ')
+      chunk.reason = chunk.reason.replace(/\s/gi, ' ')
       this.push(reportedSentencesRowToTsvEntry(chunk), 'utf-8')
 
       callback()

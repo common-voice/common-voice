@@ -78,15 +78,16 @@ read-more-about = Lezi de ciù in sciâ nòstra pagina Informaçioin
 ## NAV ITEMS
 
 answer-questions = Replica a-e domande <small>(disponibile fito)</small>
-answer-questions-coming-soon = Replica a-e domande <small>(disponibile fito)</small>
 review-transcriptions = Verifica e trascriçioin <small>(disponibile fito)</small>
-review-transcriptions-coming-soon = Verifica e trascriçioin <small>(disponibile fito)</small>
 add-questions = Azzonzi de domande <small>(disponibile fito)</small>
-transcribe-audio-coming-soon = Trascrivi audio <small>(disponibile fito)</small>
+review-questions = Amia torna e domande
 transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
 press-and-stories = Stampa e stöie
 community-and-languages = Communitæ e lengue
 coming-soon = Disponibile fito
+about-us = In sce niatri
+scripted-speech = DISCORSO CON TRASCRIÇION
+spontaneous-speech = DISCORSO SPONTANEO
 
 ## MENU ITEMS TOOLTIPS
 
@@ -97,13 +98,9 @@ community-and-languages-menu-item-tooltip = Screuvi lengue, communitæ e Common 
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Menù de opçioin d’informaçioin
 partnerships-menu-item-aria-label = Saccine de ciù in scê collaboraçioin con Common Voice
 press-and-stories-menu-item-aria-label = Ammia i communicati stampa e articoli in sce Common Voice
 community-and-languages-menu-item-aria-label = Esplöra a communitæ e e lengue supportæ da Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -124,6 +121,7 @@ spontaneous-card-header = Descorso spontaneo
 spontaneous-card-content = Replica à de domande pe creâ di dataset relativi à di contesti naturali e colloquiali. Perfetto pe-e lengue prevalentemente orale.
 language-text-card-header = Testo in lengua
 language-text-card-content = Crea ò scompartisci de domande, frase e testi de pubrico dominio pe traduçioin, modelli de lengua de dimenscion picciña e atro ancon.
+coming-soon = Disponibile fito
 add-text = Azzonzi do testo
 
 ## Community section

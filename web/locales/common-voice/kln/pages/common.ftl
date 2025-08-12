@@ -70,7 +70,6 @@ hsb = sorbuan,murot barak
 ht = Bik ab Haiti
 hu = Bik ab Hungary
 hy-AM = Chito nibo Armenia
-hyw = Chito nebo Armenia murot katam
 ia = interlingua
 id = Bik ab Indoneshia
 ie = interlingue

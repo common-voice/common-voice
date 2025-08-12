@@ -407,6 +407,10 @@ class SpeakPage extends React.Component<Props, State> {
 
     this.setState({ clips: [], isSubmitted: true })
 
+    const clip_count = clips.length
+    let uploaded_count = 0
+    let hasDuplicateClip = false
+
     addUploads([
       ...clips.map(({ sentence, recording }) => async () => {
         let retries = 3
@@ -462,17 +466,20 @@ class SpeakPage extends React.Component<Props, State> {
               tallyRecording()
             }
             retries = 0
+            uploaded_count += 1
           } catch (error) {
             let key = 'error-clip-upload'
-
-            if (error.message.includes('save_clip_error')) {
+            if (error.message.includes('ALREADY_EXISTS')) {
+              hasDuplicateClip = true
+              key = 'error-duplicate-clip'
+            } else if (error.message.includes('save_clip_error')) {
               key = 'error-clip-upload-server'
             }
 
             retries--
             await new Promise(resolve => setTimeout(resolve, 1000))
 
-            if (retries == 0 && confirm(getString(key))) {
+            if (retries == 0 && !hasDuplicateClip && confirm(getString(key))) {
               retries = 3
             }
           }
@@ -481,14 +488,30 @@ class SpeakPage extends React.Component<Props, State> {
       async () => {
         trackGtag('submit-clips', { locale })
         refreshUser()
-        addNotification(
-          <>
-            <CheckIcon />{' '}
-            <Localized id="clips-uploaded">
-              <span />
-            </Localized>
-          </>
-        )
+        if (uploaded_count == clip_count) {
+          addNotification(
+            <>
+              <CheckIcon />{' '}
+              <Localized id="clips-uploaded">
+                <span />
+              </Localized>
+            </>
+          )
+        } else if (hasDuplicateClip) {
+          if (uploaded_count === 0) {
+            alert(
+              getString('error-duplicate-clips-all', {
+                total: clip_count,
+              })
+            )
+          } else {
+            alert(
+              getString('error-duplicate-clips-some', {
+                uploaded: uploaded_count,
+              })
+            )
+          }
+        }
       },
     ])
 
@@ -572,6 +595,12 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   private handleAbortConfirm = (onConfirm: () => void) => {
+    onConfirm()
+    this.props.setAbortStatus(AbortContributionModalStatus.CONFIRMED)
+    this.setAbortContributionModalVisiblity(false)
+  }
+
+  private handleContinue = (onConfirm: () => void) => {
     onConfirm()
     this.props.setAbortStatus(AbortContributionModalStatus.CONFIRMED)
     this.setAbortContributionModalVisiblity(false)

@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Sæt et mål
 cant-decide = Kan du ikke beslutte dig?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timekan opnås på bare lidt mere end{ $periodMonths } månedhvis{ $people } personoptager{ $clipsPerDay } klip om dagen.
-                               *[other] { $totalHours } timekan opnås på bare lidt mere end{ $periodMonths } månedhvis{ $people } personoptager{ $clipsPerDay } klip om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timekan opnås på bare lidt mere end{ $periodMonths } månedhvis{ $people } personeroptager{ $clipsPerDay } klip om dagen.
-                               *[other] { $totalHours } timekan opnås på bare lidt mere end{ $periodMonths } månedhvis{ $people } personeroptager{ $clipsPerDay } klip om dagen.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timekan opnås på bare lidt mere end{ $periodMonths } månederhvis{ $people } personoptager{ $clipsPerDay } klip om dagen.
-                               *[other] { $totalHours } timekan opnås på bare lidt mere end{ $periodMonths } månederhvis{ $people } personoptager{ $clipsPerDay } klip om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timekan opnås på bare lidt mere end{ $periodMonths } månederhvis{ $people } personeroptager{ $clipsPerDay } klip om dagen.
-                               *[other] { $totalHours } timekan opnås på bare lidt mere end{ $periodMonths } månederhvis{ $people } personeroptager{ $clipsPerDay } klip om dagen.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timerkan opnås på bare lidt mere end{ $periodMonths } månedhvis{ $people } personoptager{ $clipsPerDay } klip om dagen.
-                               *[other] { $totalHours } timerkan opnås på bare lidt mere end{ $periodMonths } månedhvis{ $people } personoptager{ $clipsPerDay } klip om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timerkan opnås på bare lidt mere end{ $periodMonths } månedhvis{ $people } personeroptager{ $clipsPerDay } klip om dagen.
-                               *[other] { $totalHours } timerkan opnås på bare lidt mere end{ $periodMonths } månedhvis{ $people } personeroptager{ $clipsPerDay } klip om dagen.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timerkan opnås på bare lidt mere end{ $periodMonths } månederhvis{ $people } personoptager{ $clipsPerDay } klip om dagen.
-                               *[other] { $totalHours } timerkan opnås på bare lidt mere end{ $periodMonths } månederhvis{ $people } personoptager{ $clipsPerDay } klip om dagen.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } timerkan opnås på bare lidt mere end{ $periodMonths } månederhvis{ $people } personeroptager{ $clipsPerDay } klip om dagen.
-                               *[other] { $totalHours } timerkan opnås på bare lidt mere end{ $periodMonths } månederhvis{ $people } personeroptager{ $clipsPerDay } klip om dagen.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Godt! Hvor mange optagelser pr. dag?
 how-many-a-week = Godt! Hvor mange optagelser pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?

@@ -1,6 +1,3 @@
-## ABOUT US
-
-
 ## How does it work section
 
 about-speak-text = Халас берген домактар банкызындан номчувушаан, киржикчилер үн бижиктери кылып турар.
@@ -10,16 +7,9 @@ about-nav-how-it-works = Кандыг?
 about-nav-get-involved = Киржир
 about-nav-how-it-works-2 = Common Voice канчаар ажылдаар?
 
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
 about-playbook-how-add-language = Дылды канчаар немээр мен?
-
-## How does localization work
-
 
 ## How to add sentences
 
@@ -51,6 +41,3 @@ about-playbook-how-access-dataset = Медээлер чыындызынче ка
 about-playbook-how-project-governance = Төлевилелдиң шиитпирлерин канчаар хүлээп ап турарыл?
 about-playbook-how-project-governance-content-4 = Бөлүктүң киржилгези болгаш шиитпирлер хүлээри.
 about-playbook-how-project-governance-content-7 = <governanceLink>Башкарылгавыстың канчаар тургустунганын ам-даа билип алыңар</governanceLink>
-
-## How is Common Voice funded
-

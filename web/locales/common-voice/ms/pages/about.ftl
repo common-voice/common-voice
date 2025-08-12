@@ -150,6 +150,3 @@ about-playbook-how-project-governance-content-4 = Penyertaan komuniti dan membua
 about-playbook-how-project-governance-content-5 = Nilai dan pengenalan.
 about-playbook-how-project-governance-content-6 = Kebertanggungjawaban bersama.
 about-playbook-how-project-governance-content-7 = <governanceLink>Baca lebih lanjut tentang cara kami ditadbir</governanceLink>
-
-## How is Common Voice funded
-

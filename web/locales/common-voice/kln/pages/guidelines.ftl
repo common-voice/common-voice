@@ -3,6 +3,9 @@ guidelines-header = tuguk chetoretin eng yumset
 guidelines-header-subtitle = iguiyee oleyumi ak isaisan sentensishek ak klipishek chebo kutit eng sautitab kuti
 voice-collection = yumsetab sauti
 sentence-collection = keyumii ngalalutik
+
+## Voice Collection nav ids
+
 varying-pronunciations = magergei olengololdoi
 misreadings = magisoman komnyei
 offensive-content = tinyei ngalek chemobo konyit
@@ -12,6 +15,9 @@ volume = olegasuu kiy
 reader-effects = olesomandoi chito
 just-unsure = mangen?
 example = ku ni
+
+## Voice collection sidebar content
+
 varying-pronunciations-example = kimatagu routit
 varying-pronunciations-tip-1 = kingeresekab emetab canada komuuch kogos "route" ku "rout"
 varying-pronunciations-tip-2 = kingeresejab emetab Britain kogosuu ku "root"
@@ -30,11 +36,17 @@ background-noise-tip-1 = [mataimin sauti nemiten yoto imite]
 background-voices-tip-1 = tos imi inyoni?(mi kobirchini age)
 still-have-questions = tos itinye tebushek?
 contact-common-voice = ngimache ingalal ago biikap sauti nenaat
+
+## Sentence collection nav ids
+
 public-domain = sentensi chetagu eng biik tugul
 citing-sentences = miten keciteni sentensishek
 adding-sentences = tesyin ngalalutik
 reviewing-sentences = geer sentensishek
 sentence-domain = unee sentensi
+
+## Sentence collection sidebar content
+
 citing-sentences-subheader-offline-sources = ngalek chegiginyoru chemamiten internet
 citation =
     .label = citation

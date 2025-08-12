@@ -1,4 +1,4 @@
-action-click = Kẽlik
+action-click = Kẽlik/ pakhch
 action-tap = T̃ap
 contribute = hisa kat̃
 review = didig̃h
@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }{ $count }</bold> klip
        *[other] <bold>{ $count }</bold> klipisht
     }
-goal-help-recording = tawẽ common Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert! <goalPercentage></goalPercentage> { $goalValue }
+goal-help-recording = tawẽ Kommon Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr medad kert! <goalPercentage></goalPercentage> { $goalValue }
 goal-help-validation = Tawẽ Kommon Voysẽr (Common Voice ẽr) dẽ towsiqẽ maqsad/ menzil g̃hẽtakẽr mẽdad kert <goalPercentage></goalPercentage>{ $goalValue }
 contribute-more =
     { $count ->
@@ -25,7 +25,7 @@ share-title-new = <bold>sakẽr c̃hak owozvẽ g̃hũtnẽr mẽdad/ yormandi 
 keep-track-profile = K̃hũ tẽr pẽrũt rec̃hnẽn k̃hũ profaylẽ (profile-ẽ) bẽ tayin/ rẽdikig̃h car
 login-to-get-started = shẽru k̃hakẽr log in yoy saynap (sign up) car
 target-segment-first-card = Tus̃h spo awalgũni yarkẽr k̃hũ hisa kat̃/ Tus̃h spo awalguni yarkẽr hisadori car
-target-segment-generic-card = tus̃h yi baf maqsadẽ dẽstan hisadori car
+target-segment-generic-card = Tus̃h yi baf maqsadẽ dẽstan hisadori car
 target-segment-first-banner = Dẽ { $locale } Kommon Voysẽ (common Voice) awalgũni maqsadẽ hosilẽr mẽdad car
 target-segment-add-voice = K̃hũ owozẽ qẽti car/ shomil car
 target-segment-learn-more = bes̃h dish/ ziyot dish
@@ -36,24 +36,24 @@ vote-no = ney
 datasets = d̃at̃aset̃isht (datasets)
 languages = Zikisht/ zẽbonisht
 about = Barar
-partner = hisador
+partner = Hisador
 submit-form-action = Jama car/ ta kat̃
 
 ## Reporting
 
-report = rapot̃
-report-title = yi rapot jama car
-report-ask = hadẽm jũmlavnẽs̃h tor chiz mũshkilisht wocẽn?
-report-offensive-language = Jarihona zik
-report-offensive-language-detail = Jumlayi badh tẽmiz yoyi  jarihona zarzik
+report = Rapot̃
+report-title = Yi rapot jama car
+report-ask = Hadẽm jũmlavnẽs̃h tor chiz mũshkilisht wocẽn?
+report-offensive-language = Qarwẽzũmnẽ zik
+report-offensive-language-detail = Jumlayi badh tẽmiz yoyi  jarihona/ qarwẽzũmnẽ zarzik
 report-grammar-or-spelling = Gramar/ hijaẽ nuqs
 report-grammar-or-spelling-detail = Dẽ jũmlayi gẽramar yoy hijaẽ nuqs
 report-different-language = Qisẽm qismẽ zik/ mukhtalif zik
 report-different-language-detail = Yemẽv cẽ z̃hũ zikẽn digar sokht nivishetk
 report-difficult-pronounce = K̃hẽnaki zur
 report-difficult-pronounce-detail = demi zirg lavzẽt jũmlayisht ki yavẽ k̃hẽnaki zur
-report-offensive-speech = Jarihona qẽsa/ taqrir or zẽrũvnẽ qẽsa/ taqrir
-report-offensive-speech-detail = hẽdem kẽlipi badh tẽmiz yoy jarihona zik
+report-offensive-speech = Jarihona qẽsa/ taqrir yoy zẽrũvnẽ qẽsa/ taqrir
+report-offensive-speech-detail = Hẽdem kẽlipi badh tẽmiz yoy jarihona zik
 report-other-comment =
     .placeholder = bẽyon/ barar k̃han, barar nivish
 success = komyobig̃h/ komyibi
@@ -75,7 +75,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = kẽlipẽ dẽbora rikord̃
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = jori rekord̃ingẽ zoya yoy rad car
-shortcut-submit = pẽshin yoy pẽshew
+shortcut-submit = pẽshew
 shortcut-submit-label = kẽlipẽ jama/ rand
 request-language-text = Sẽk Kommon Voysẽs̃h (common voice) ghal k̃hũ zikẽ ne winẽm/ ghalẽbatkẽs̃h k̃hũ zikẽ sẽk Kommon voys ne wina?
 request-language-button = Yi zikẽ arzẽ car
@@ -85,7 +85,7 @@ request-language-button = Yi zikẽ arzẽ car
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = J̃akh, chawũv/oũtrũm, rok (ple/st̃op)
+shortcut-play-toggle-label = J̃akh, chawũv/pũtrũm, rok (ple/st̃op)
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y

@@ -3,6 +3,9 @@ guidelines-header = Pautas de contribución
 guidelines-header-subtitle = Comprender cómo contribuir y validar oraciones y clips de audio al conjunto de datos de Common Voice.
 voice-collection = Colección de voz
 sentence-collection = Recopilación de frases
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronunciaciones variables
 misreadings = Malas interpretaciones
 offensive-content = Contenido ofensivo
@@ -12,6 +15,9 @@ volume = Volumen
 reader-effects = Efectos del lector
 just-unsure = ¿Simplemente no estás seguro?
 example = Ejemplo
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ¡Damos la bienvenida a diferentes acentos! Tenga mucho cuidado antes de rechazar un clip porque cree que el lector ha pronunciado mal una palabra, ha puesto el acento en el lugar equivocado o ha ignorado la puntuación. Existe una amplia variedad de pronunciaciones que se utilizan en todo el mundo, algunas de las cuales es posible que no hayas escuchado en tu comunidad local. Proporcione un generoso margen de agradecimiento para aquellos que puedan hablar de manera diferente a usted.
 varying-pronunciations-explanation-2 = Por otro lado, si cree que el lector nunca antes se ha topado con la palabra y está adivinando incorrectamente la pronunciación, rechácela. Si no está seguro, utilice el botón de saltar.
 varying-pronunciations-example = La ruta no estaba clara.
@@ -47,10 +53,16 @@ reader-effects-explanation = La mayoría de las grabaciones son de personas habl
 just-unsure-explanation = Si encuentra algo que estas pautas no cubren, vote según su mejor criterio. Si realmente no puedes decidirte, usa el botón de saltar y pasa a la siguiente grabación.
 still-have-questions = ¿Todavía tienes preguntas?
 contact-common-voice = Contacta con el equipo de Voz Común
+
+## Sentence collection nav ids
+
 public-domain = Dominio publico
 citing-sentences = Citando oraciones
 adding-sentences = Agregar oraciones
 reviewing-sentences = Revisar oraciones
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Es muy importante que todas las oraciones de texto sean <publicDomain>dominio público</publicDomain> (<cc0>cc0</cc0>), ya que el conjunto de datos de Common Voice se publica bajo una licencia cc0. Sube una oración solo si estás seguro y siempre incluye la cita relevante.
 public-domain-explanation-2 = Las mejores oraciones para construir un motor de reconocimiento de voz útil son el lenguaje coloquial y moderno. Algunas ideas que te ayudarán a generar oraciones son;
 public-domain-explanation-3 = Cree oraciones modernas y coloquiales usted mismo o con sus amigos o su comunidad lingüística, por ejemplo a través de un "maratón de escritura".

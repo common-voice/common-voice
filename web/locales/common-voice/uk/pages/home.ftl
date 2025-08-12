@@ -98,13 +98,9 @@ community-and-languages-menu-item-tooltip = Відкрийте для себе �
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Про меню параметрів
 partnerships-menu-item-aria-label = Дізнайтеся про партнерство з Common Voice
 press-and-stories-menu-item-aria-label = Доступ до пресрелізів та історій, пов’язаних з Common Voice
 community-and-languages-menu-item-aria-label = Дізнайтеся про спільноту та мови, які підтримує Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -119,18 +115,3 @@ get-started = Розпочати <icon><icon>
 
 action-items-section-title = Common Voice — це безплатна платформа з відкритим кодом для створення даних під керівництвом спільноти
 action-items-section-subtitle = Будь-хто може зберегти, відродити і піднести свою мову, ділячись, створюючи і куруючи набори текстових і мовних даних.
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

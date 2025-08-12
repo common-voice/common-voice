@@ -4,27 +4,27 @@ write = Boroi
 write-instruction = Ek 'public domain' vakya <icon></icon> boroi
 write-page-subtitle = Hanga yogdan kel'le vakyo eke cc-0 "No Rights Reserved" 'dataset'-an lokank download korpak zata.
 sentence =
-    .label = Vakya
-sentence-input-placeholder = Tumche 'public-domain' vakya hanga boroi
-small-batch-sentence-input-placeholder = Tumche 'public-domain' vakyo hanga boroi
-citation-input-placeholder = Hem vakya tuka kõi melle? ("zai poddta")
+    .label = Vak'ya
+sentence-input-placeholder = Tumchi 'public-domain' (sarvojonik-xetr) vak'ya hanga boroyat
+small-batch-sentence-input-placeholder = Tumchi 'public-domain' (sarvojonik-xetr) vak'yo hanga boroyat
+citation-input-placeholder = Hem vak`ya tumka khõi melle? (zai)
 citation =
-    .label = 'Citation'
-sc-write-submit-confirm = Hanv puravean siddh korta ki hem vakya <wikipediaLink>'public domain'</wikipediaLink> asa ani maka 'permission' asa tika upload korpak.
-sc-review-write-title = Kôslyo vakyo haven ghalunk zata?
-sc-review-small-batch-title = Koxem toren zaiteo vakyo ghalunk zata?
-new-sentence-rule-1 = <noCopyright>Copyright naslolem</noCopyright> (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Dor ek vakya chǒdan-chǒd 15 utrani asunk zai
-new-sentence-rule-3 = Sarkem veakronn ('grammar') vapor
-new-sentence-rule-4 = Sarkem "spelling" ani "punctuation" vapor
-new-sentence-rule-5 = Nombor ani 'special character' vapor naka!
-new-sentence-rule-6 = No foreign letters
+    .label = Vak'yachem Mhaiti (Citation)
+sc-write-submit-confirm = Hanv puravean siddh korta ki ho vak'ya <wikipediaLink>'public domain'</wikipediaLink> asa ani maka porvangi asa tika upload korpak.
+sc-review-write-title = Kôslio vak'yo mhaka ghalunk melltta?
+sc-review-small-batch-title = Zaiteo vak'yo koxem toren ghalunk zata?
+new-sentence-rule-1 = Koslech <noCopyright>Copyright naslolem</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Chodan-chod 15 utrani asunk zai
+new-sentence-rule-3 = Sarkem vak'yaronn ('grammar') vapor
+new-sentence-rule-4 = Sarke okxoranchi manddnni ani "punctuation" vapor
+new-sentence-rule-5 = Nombr ani 'special character' vapor naka!
+new-sentence-rule-6 = Firguim bhasanchem okxoram boroichem nhoi.
 new-sentence-rule-7 = Credit sarko di
-new-sentence-rule-8 = Chod korun prakrutik ani ulovpak sopi (vakya vachunk sopem asunk zai)
-login-instruction-multiple-sentences = <loginLink>Login</loginLink> va <loginLink>sign up</loginLink> kor zaiteo vakyo ghalpak
-how-to-cite = 'Credit' koshem korum?
-how-to-cite-explanation-bold = Purai 'URL link' divun va kamacho purai nav ghalun.
-how-to-cite-explanation = Tujech utram asa zalyar, <italicizedText>“Self Citation”</italicizedText> mhunn ghal. Amka khobor zavpak zai ki tuka hem kõi mellem. Amka kollpak zai ki hem 'public domain'-nant asa kai na ani teka koslech 'copyright condition' na.  For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
+new-sentence-rule-8 = Chod korun prakrutik ani ulovpak sopi (vak`ya vachunk sopem asunk zai)
+login-instruction-multiple-sentences = Zaiteo vakyo ghalpak <loginLink>login</loginLink> va <loginLink>sign up</loginLink> korat
+how-to-cite = 'Credit' koshem divu?
+how-to-cite-explanation-bold = Purai 'URL link' divun va tea kamache purai nav ghalun.
+how-to-cite-explanation = Aplech svotachem utram boroilear, <italicizedText>“Self Citation”</italicizedText> mhunn ghal. Amka khobor aspak zai ki tuka hi utram kõi melle kityak amka kollpak zai ki hem 'public domain'-ant asa ani teka koslech 'copyright condition' na. 'Citation'-acher anik mhaiti mellpak, amchi <guidelinesLink>'Guidelines' pan</guidelinesLink> polloi.
 guidelines = Guidelines
 contact-us = Amkam sompark kor
 add-sentence-success = 1 vakya puzayle
@@ -101,9 +101,3 @@ small-batch-instruction = Zaiteo 'public-domain' vakyo <icon></icon> boroi
 small-batch-sentences-rule-4 = Chod korun 1000 vakyo ghalunk zata
 small-batch-sentences-rule-5 = Soglleo vakyo těch 'domain'-nant aspak zai
 small-batch-sentences-rule-6 = Sogllea vakyank ekuch 'citation' aspak zai
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

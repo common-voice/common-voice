@@ -3,6 +3,10 @@ guidelines-header = حصہ گھنئنی رہنمائی
 guidelines-header-subtitle = انی بات جھانینڈیو کی  کامن وائسی ڈیٹاسیٹی سنگی مدد او جملئی   ہاویزی کنا تھے  تصدیق تھئیجہ تھنی
 voice-collection = ہاویزیمی مجموعہ
 sentence-collection = جملئی مجموعہ
+question-collection = سُویلیمی مجموعہ
+
+## Voice Collection nav ids
+
 varying-pronunciations = مختلف طریقئی منئنی
 misreadings = غلط منئنی
 offensive-content = کھاچہ مواد
@@ -12,6 +16,9 @@ volume = زور/بھراش
 reader-effects = مناٹی اثر
 just-unsure = بس غیر یقینی
 example = مثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = بے تمام لہجے قبول تھانہ۔ بیڈی احتیاط تھہ،آک ہاواز رد تھئنی مجی انو دڇھہ کی مناٹہ لوز غلط ادا تھیلو ہِنو تھنی، منئنی مجی غلط زھئی وے زور دتی ہینی تھنی یا لوزی غلط زھئی وے زیر زبر لگئیلو ہنو تھنی۔ دُنئیئی وے بیڈہ قسمہ زیر زبری ہنہ، تھیئے کمیونٹی وے تو ڑنام نہ ݜُوݨی ہونسڑ۔
 varying-pronunciations-explanation-2 = دوئی دوشی بہ، اگر تھی خیال کی یڑو لوز ڑا دی مُݜٹو مناٹی مخدوشی وے تھے نہ یھیلی ہنی یا بہ منئنی مجی غلط اندازہ گھنانو ہینتہ ، مہربینی تھے ایڑس رد تھہ۔ تو تھے یقین نئنی بہ ہینتہ اڑیگلئنی بٹنی جہ۔
 varying-pronunciations-example = پاند صفا نہ ہینسلی دے۔
@@ -47,11 +54,17 @@ reader-effects-explanation = ذیات رکاڈنگ ایسے خلکیمی کی س
 just-unsure-explanation = ایسے شئیہ کی سے انیوے تھی رہنمائی دپارہ شامل نئینہ تھی اڇھیم یھولہ ہینتہ تنام تھے بیڈو شوئی انداز کی ووٹ دہ۔اگر تھی گہ فیصلہ نہ تھائی بھولہ ہینتہ تس اڑگلئنی بٹنی جے بہ دھیامہ رکاڈنگ دوشہ بہ۔
 still-have-questions = تپہ بی گہ سُویلی ہنمے؟
 contact-common-voice = کامن وائسو ٹیمی سنگی رابطہ تھہ
+
+## Sentence collection nav ids
+
 public-domain = عوامی دائرہ
 citing-sentences = جملیمی حوالہ دئنی
 adding-sentences = جملے جمع تھئنی
 reviewing-sentences = جملے دوپارہ دڇھئنی
 sentence-domain = جملئی حلقہ
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = انو بیڈو اہم ہنو کی تمام متنی جملے <publicDomain>عوامی ڈومین</publicDomain> (<cc0>cc0</cc0>) ہونسہ کیکی کامن وائس ڈیٹاسیٹ cc0 لائسنسی  تحت جاری تھئجلو ہنو۔ صرف آک جملہ اپ لوڈ تھہ اگر تو تھے یقین یھندی ہینتہ، او ہمیشہ متعلقہ حوالہ شامل تھہ۔
 public-domain-explanation-2 = آک کارآمد تقریری  شناختی  انجنی تعمیر دپارہ  بہترین جملے، جدید بول چال ہنہ۔ جملے سمئنی دپارہ او تھی مددی دپارہ گہ خیالیتی ہنم؛
 public-domain-explanation-3 = پخپُلہ  یا تیݨی دوستوں یا زببینی کمیونٹی سنگی جدید، بول چالی  جملے سمہ - مثال کی 'رائٹ-اے-تھون'  ذریعہ باندی
@@ -91,3 +104,27 @@ reviewing-sentences-explanation-2 = جملہ   ہونڈی ڑے شرط پورہ �
 reviewing-sentences-explanation-3 = اگر جملئی بارئی تھی پورہ یقین نئنی ہینتہ ، تو ڑس اڑیگلی مُݜٹو گرا بائی بھوڑ۔
 reviewing-sentences-explanation-4 = تو دی جملے گھرے دڇھئنی دپارہ ختم بھلہ ہینتہ اسم سنگی دوئی جملے سمٹئنی مدد تھہ ۔
 domain-explanation = دائرہ جملہ پیرا حوالہ دانو۔ تپہ دو دھوئیم مجی آک گھنائی بھوڑ،
+
+## Question collection ids
+
+adding-questions = سُویلی شامل تھئنی
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = آک شوی سوال کنا تھے تھینڈیو؟
+what-makes-a-good-question-explanation = عوامی شراکتی ڈیٹا سیٹی دپارہ آک شوی سُوال
+what-makes-a-good-question-explanation-criteria-1 = بُجئنی او جواب دئنی دپارہ تیار ہونسوئی
+what-makes-a-good-question-explanation-criteria-2 = ہر شئی متعلقہ ہونسہ وڑئی
+what-makes-a-good-question-explanation-criteria-3 = نُقصان دہ یا روݜِجی زبان استعمال نہ تھوئی
+what-makes-a-good-question-tip = تُس  مختلف سیاق و سباق او ڈومینز  پھیلاو تھئنی جُھلی  غور تھانے۔
+easy-to-understand = ہُݜ تھئینی اسکون
+easy-to-understand-explanation = ایتیݨی اسکون سُویلی انتخاب تھوئی کی سے ہر آکی دپارہ ہُݜ تھئنی اسکون ہونسہ تیݨی  ثقافتی مطابقی ہونسہ وڑئی۔
+spelling-and-pronunciation = املا او لہجے
+spelling-and-pronunciation-explanation = صحیح املا او گرامر استعمال تھوئی۔
+length = دھرگار
+length-explanation = سویلی  جواب صرف آک یا  دُو جملیم کی ہانسینڈیو۔
+dont-add-subheader = شامل نہ تھہ۔
+culturally-specific-questions = ثقافتی مطابقی مخصوص سوالات
+culturally-specific-questions-explanation = ایتیݨی سُویلی کی سے  ثقافتی لحاظ کی بیڈی مخصوص ہنم ، یا جواب داٹی بارئی بیڈہ  مفروضے پیدو تھینم۔
+length-avoid-explanation = ایسے سُویلی کی تنی جواب 15 سیکنڈی  دئنی دپارہ  آک مِیش کوشش تھانوۡ (زیات کلپی  لمبائی)
+process-steps = عمل / اقدامات

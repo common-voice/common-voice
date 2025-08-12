@@ -84,36 +84,3 @@ help-contribute = ኮመን ቮይስ ድሕረ ባይታ ኣክውንት ብም
 login-company = ተመዝገብ / እተው ብ{ $company } ኢ- መይል
 profile-not-required = ድሕረ ባይታ (profile) ሓጋዚ እኳ እንተ ዀነ ንኣበርክቶ ኺገብር ግን ግደታ ኣይኮነንን፣ ስለምንታይ ኣብ ታሕቲ ኸም ዘሎ ርአ ።
 read-more-about = ንዝያዳ ኣብ ብዛዕባና ገጽ ኣንብብ
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

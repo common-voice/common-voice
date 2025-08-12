@@ -1,6 +1,8 @@
+speak = o toki uta
+speak-now = o toki lon tenpo ni
 record-cta = o open e ilo kute
 record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
-record-platform-not-supported-desktop = lon ilo sona supa la, sina ken pana tan kama jo pi …
+record-platform-not-supported-desktop = ilo suli la sina ken pali pona tan kama jo…
 record-platform-not-supported-ios-non-safari = o kepeken ilo Safari lon ilo iOS la, ilo li ken kute e sina…
 record-must-allow-microphone = o wile e ken pi ilo kute sina.
 record-no-mic-found = ilo kute li lon ala
@@ -52,9 +54,3 @@ already-have-an-account = sina jo ala jo e sijelo? jo la <login>o kama lon</logi
 create-profile-button = o pali e sijelo
 # IMAGE TAGS
 img-alt-success-checkmark = sitelen pona
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

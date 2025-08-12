@@ -7,8 +7,6 @@ action-tap = زراب
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = ڈیٹاسیٹئی سانتی دیونو کاریو { $language }
-# Label for button on contribution switcher
-change = بدل تھیونو
 coming-soon = لائے باشے اوں ہائیے۔
 media-recorder-api-not-supported = میڈیا ریکارڈر اے۔ پی۔آئی تھو براؤزرانی نے یازیوں۔
 # Toast message that is displayed when an item is skipped

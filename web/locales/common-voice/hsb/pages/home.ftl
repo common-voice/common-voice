@@ -81,34 +81,34 @@ read-more-about = Čitajće wjace wo stronje Wo Common Voice
 
 ## NAV ITEMS
 
-answer-questions = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
-answer-questions-coming-soon = Na prašenja wotmołwić <small>(přińdźe bórze)</small>
-review-transcriptions = Transkripcije přepruwować <small>(příndźe bórze</small>)
-review-transcriptions-coming-soon = Transkripcije přepruwować <small>(příndźe bórze</small>)
-add-questions = Prašenja přidać <small>(přińdźe bórze)</small>
-add-questions-coming-soon = Prašenja přidać <small>(přińdźe bórze)</small>
-transcribe-audio-coming-soon = Awdio transkribować <small>(přińdźe bórze)</small>
-transcribe-audio = Awdijo transkribować <small>(přińdźe bórze)</small>
+answer-questions = Na prašenja wotmołwić
+review-transcriptions = Transkripcije přepruwować
+add-questions = Prašenja přidać
+review-questions = Prašenja přepruwować
+transcribe-audio = Awdijo transkribować
 press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
 coming-soon = Bórze k dispoziciji
+about-us = Wo nas
+scripted-speech = RĚČENJE ZE SKRIPTOM
+spontaneous-speech = SPONTANE RĚČENJE
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerstwa, nowiny a stawiznički, zhromadźenstwo a rěče
+about-us-menu-item-tooltip = Zhońće wjace wo misiji a teamje za Common Voice
 partnerships-menu-item-tooltip = Stańće so z našim partnerom
 press-and-stories-menu-item-tooltip = Wopytajće naš blog abo pisajće wo nas
 community-and-languages-menu-item-tooltip = Wotkryjće rěče, zhromadźenstwa a Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Wo meniju Nastajenja
+about-menu-aria-label = Meni za přistup k partnerstwam, nowinam a stawizničkam, zhromadźenstwu a rěčam
+about-us-menu-aria-label = Wo meniju Nastajenja
+about-us-menu-item-aria-label = Nastajenja menija „Wo nas“
 partnerships-menu-item-aria-label = Zhońće wjace wo partnerstwach z Common Voice
 press-and-stories-menu-item-aria-label = Mějće přistup k wozjewjenjam nowinarstwa a stawizničkam wo Common Voice
 community-and-languages-menu-item-aria-label = Wuslědźće zhromadźenstwo a rěče, kotrež so přez Common Voice podpěruja
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -123,20 +123,22 @@ get-started = Prěnje kroki <icon><icon>
 
 action-items-section-title = Common Voice je darmotna platforma wotewrjeneho žórła za wot zhromadźenstwa nawjedowane wutworjenje datow
 action-items-section-subtitle = Kóždy móže swoju rěč wobchować, zaso wožiwić a polěpšić, hdyž tekst a rěčenske datowe sadźby dźěli, wutworja a rjaduje.
-scripted-card-header = Napisane rěčenje
+scripted-card-header = Rěčenje ze skriptom
 scripted-card-content = Čitajće sady wótře w swojej rěči a přinošujće k najwšelakorišej zjawnej rěčnej datowej sadźbje w swěće.
 spontaneous-card-header = Spontane rěčenje
 spontaneous-card-content = Wotmołwće na namołwy, zo byšće datowe sadźby za organiske, wobchadnorěčne konteksty wutworił. To je perfektne za předewšěm ertne rěče.
 language-text-card-header = Rěčny tekst
 language-text-card-content = Wutworće abo dźělće zjawne namołwy, sady a tekst za přełoženje, małe rěčne modele a wjace.
+coming-soon = Bórze k dispoziciji
 add-text = Tekst přidać
+answer = Wotmołwić
 
 ## Community section
 
 community-section-title = Podpěrane wot globalnych zhromadźenstwow za globalne zhromadźenstwa – 130 rěčow a přiběrace!
 join-discord-community = Přidružće so zhromadźenstwu Discord
 # label for button
-join-discord-community-action = Přidružće so nam na Discord
+join-discord-community-action = &nbsp;Přidružće so nam na Discord
 join-discord-community-content = Wobdźělće so na diskusijach rěčneho zhromadźenstwa, stajće prašenja a zhońće wo přichodnych zarjadowanjach a rozmołwach.
 find-us-on-matrix = Namakajće nas na Matrix
 find-us-on-matrix-content = Matrix je wotewrjeny, lochki protokol za decentralizowanu komunikaciju we woprawdźitym času a wot Mozilla preferowana wotewrjena diskusijna platforma.

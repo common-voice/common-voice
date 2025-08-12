@@ -2,19 +2,29 @@ import * as React from 'react'
 import { Localized } from '@fluent/react'
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 import { Link } from 'react-router-dom'
-import classNames from 'classnames'
 
 import Page from '../../ui/page'
 import PageHeading from '../../ui/page-heading'
 import VoiceSidebarContent from './sidebar-content/voice-sidebar-content'
 import SentenceSidebarContent from './sidebar-content/sentence-sidebar-content'
+import { SpontaneousSpeechContent } from './sidebar-content/spontaneous-speech-content'
 import RoundButton from '../../ui/round-button'
 import { DiscourseIconCode, MailIcon } from '../../ui/icons'
 import VisuallyHidden from '../../visually-hidden/visually-hidden'
 import { DiscourseLink, MatrixLink } from '../../shared/links'
 import { LinkButton } from '../../ui/ui'
+import { SidebarNavSection } from './components/sidebar-nav-section'
 
-import { SENTENCE_NAV_IDS, VOICE_NAV_IDS } from './constants'
+import {
+  ANSWER_QUESTIONS_ITEMS,
+  CODE_SWITCHING_ITEMS,
+  QUESTION_COLLECTION_ITEMS,
+  REPORTING_CONTENT_ITEMS,
+  REVIEW_THE_TRANSCRIPTION_ITEMS,
+  SENTENCE_COLLECTION_ITEMS,
+  TRANSCRIBE_AUDIO_ITEMS,
+  VOICE_COLLECTION_ITEMS,
+} from './constants'
 import { COMMON_VOICE_EMAIL } from '../../../constants'
 import useScrollToGuidelinesSection from './use-scroll-to-guidelines-section'
 import { useToLocaleRoute } from '../../locale-helpers'
@@ -23,18 +33,21 @@ import URLS from '../../../urls'
 import './guidelines.css'
 
 const Guidelines = () => {
-  const defaultVoiceOption = VOICE_NAV_IDS.PRONUNCIATIONS
-  const defaultSentenceOption = SENTENCE_NAV_IDS.PUBLIC_DOMAIN
+  const defaultVoiceOption = 'voice-collection'
 
   const toLocaleRoute = useToLocaleRoute()
 
   const guidelinesRoute = toLocaleRoute(URLS.GUIDELINES)
+
+  const isFeatureCodeSwitching = location.href.includes('feature=code-switch')
 
   const {
     selectedTabIndex,
     setSelectedTabIndex,
     selectedTabOption,
     setSelectedTabOption,
+    selectedSection,
+    setSelectedSection,
   } = useScrollToGuidelinesSection()
 
   const handleOnTabSelect = (index: number, lastIndex: number) => {
@@ -43,7 +56,7 @@ const Guidelines = () => {
       if (index === 0) {
         setSelectedTabOption(defaultVoiceOption)
       } else {
-        setSelectedTabOption(defaultSentenceOption)
+        setSelectedTabOption('question-collection')
       }
     }
 
@@ -68,16 +81,18 @@ const Guidelines = () => {
         <Tabs selectedIndex={selectedTabIndex} onSelect={handleOnTabSelect}>
           <div className="tablist-wrapper">
             <TabList className="tablist">
-              <Tab selectedClassName="selected-tab" className="tab first-tab">
-                <Link to={`${guidelinesRoute}?tab=voice`} className="tab-link">
-                  <Localized id="voice-collection" />
+              <Tab selectedClassName="selected-tab" className="tab">
+                <Link
+                  to={`${guidelinesRoute}?tab=scripted-speech`}
+                  className="tab-link">
+                  <Localized id="scripted-speech" />
                 </Link>
               </Tab>
               <Tab selectedClassName="selected-tab" className="tab">
                 <Link
-                  to={`${guidelinesRoute}?tab=sentence`}
-                  className="tab-link">
-                  <Localized id="sentence-collection" />
+                  to={`${guidelinesRoute}?tab=spontaneous-speech`}
+                  className="tab-link spontaneous-speech">
+                  <Localized id="spontaneous-speech" />
                 </Link>
               </Tab>
             </TabList>
@@ -85,66 +100,72 @@ const Guidelines = () => {
 
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
-              <ul>
-                {(
-                  Object.keys(VOICE_NAV_IDS) as Array<
-                    keyof typeof VOICE_NAV_IDS
-                  >
-                ).map(key => (
-                  <li key={VOICE_NAV_IDS[key]}>
-                    <div className="line" />
-                    <Link
-                      to={{
-                        pathname: location.pathname,
-                        hash: `#${VOICE_NAV_IDS[key]}`,
-                        search: `?tab=voice`,
-                      }}
-                      className={classNames({
-                        'selected-option':
-                          VOICE_NAV_IDS[key] === selectedTabOption,
-                      })}
-                      onClick={() => setSelectedTabOption(VOICE_NAV_IDS[key])}>
-                      <Localized id={VOICE_NAV_IDS[key]} />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <SidebarNavSection
+                sectionId="voice-collection"
+                items={VOICE_COLLECTION_ITEMS}
+                selectedTabOption={selectedTabOption}
+                setSelectedTabOption={setSelectedTabOption}
+                selectedSection={selectedSection}
+                setSelectedSection={setSelectedSection}
+                tabSearchParam="?tab=scripted-speech"
+              />
+              <SidebarNavSection
+                sectionId="sentence-collection"
+                items={SENTENCE_COLLECTION_ITEMS}
+                selectedTabOption={selectedTabOption}
+                setSelectedTabOption={setSelectedTabOption}
+                selectedSection={selectedSection}
+                setSelectedSection={setSelectedSection}
+                tabSearchParam="?tab=scripted-speech"
+              />
             </nav>
             <div className="sections">
               <VoiceSidebarContent />
+              <SentenceSidebarContent />
             </div>
           </TabPanel>
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
-              <ul>
-                {(
-                  Object.keys(SENTENCE_NAV_IDS) as Array<
-                    keyof typeof SENTENCE_NAV_IDS
-                  >
-                ).map(key => (
-                  <li key={SENTENCE_NAV_IDS[key]}>
-                    <div className="line" />
-                    <Link
-                      to={{
-                        pathname: location.pathname,
-                        hash: `#${SENTENCE_NAV_IDS[key]}`,
-                        search: `?tab=sentence`,
-                      }}
-                      className={classNames({
-                        'selected-option':
-                          SENTENCE_NAV_IDS[key] === selectedTabOption,
-                      })}
-                      onClick={() =>
-                        setSelectedTabOption(SENTENCE_NAV_IDS[key])
-                      }>
-                      <Localized id={SENTENCE_NAV_IDS[key]} />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              {[
+                {
+                  sectionId: 'question-collection',
+                  items: QUESTION_COLLECTION_ITEMS,
+                },
+                {
+                  sectionId: 'answer-questions',
+                  items: ANSWER_QUESTIONS_ITEMS,
+                },
+                {
+                  sectionId: 'transcribe-audio',
+                  items: TRANSCRIBE_AUDIO_ITEMS,
+                },
+                {
+                  sectionId: 'review-the-transcription',
+                  items: REVIEW_THE_TRANSCRIPTION_ITEMS,
+                },
+                isFeatureCodeSwitching && {
+                  sectionId: 'code-switching',
+                  items: CODE_SWITCHING_ITEMS,
+                },
+                {
+                  sectionId: 'reporting-content',
+                  items: REPORTING_CONTENT_ITEMS,
+                },
+              ].map(({ sectionId, items }) => (
+                <SidebarNavSection
+                  key={sectionId}
+                  sectionId={sectionId}
+                  items={items}
+                  selectedTabOption={selectedTabOption}
+                  setSelectedTabOption={setSelectedTabOption}
+                  selectedSection={selectedSection}
+                  setSelectedSection={setSelectedSection}
+                  tabSearchParam="?tab=spontaneous-speech"
+                />
+              ))}
             </nav>
             <div className="sections">
-              <SentenceSidebarContent />
+              <SpontaneousSpeechContent />
             </div>
           </TabPanel>
         </Tabs>
@@ -167,6 +188,13 @@ const Guidelines = () => {
                 elems={{
                   discourseLink: <DiscourseLink />,
                   matrixLink: <MatrixLink />,
+                  discordLink: (
+                    <a
+                      href="https://discord.gg/4TjgEdq25Y"
+                      target="_blank"
+                      rel="noreferrer"
+                    />
+                  ),
                 }}>
                 <span />
               </Localized>

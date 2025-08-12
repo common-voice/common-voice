@@ -16,12 +16,3 @@ single-sentence = Wach achiel
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Ket <icon></icon> weche moae aluora ma galamoro
 sc-bulk-submit-confirm = Ayieni wechegi yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwogi ka.
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

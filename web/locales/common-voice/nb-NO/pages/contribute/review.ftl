@@ -44,14 +44,14 @@ sc-criteria-item-2 = Setningen må være grammatisk korrekt.
 sc-criteria-item-3 = Setningen må kunne tales.
 sc-criteria-item-4 = Hvis setningen oppfyller kriteriene, klikker du på "Godkjenn"-knappen til høyre.
 sc-criteria-item-5-2 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Avvis"-knappen til venstre. Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
-sc-criteria-item-6 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
+sc-criteria-item-6 = Hvis du går tom for setninger å vurdere, hjelp oss med å samle inn flere setninger!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Sjekk <icon></icon> er dette en språklig korrekt setning?
 sc-review-rules-title = Oppfyller setningen retningslinjene?
 sc-review-empty-state = Det er for øyeblikket ingen setninger å vurdere på dette språket.
 report-sc-different-language = Annet språk
 report-sc-different-language-detail = Den er skrevet på et annet språk enn det jeg gjennomgår.
-sentences-fetch-error = Det oppsto en feil under henting av setninger
+sentences-fetch-error = Det oppstod en feil under henting av setninger
 review-error = Det oppstod en feil ved gjennomgang av denne setningen
 review-error-rate-limit-exceeded = Du er for rask. Ta deg tid til å se gjennom setningen for å sikre at den er riktig.
 # SENTENCE-COLLECTOR-REDIRECT PAGE

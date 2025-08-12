@@ -16,3 +16,5 @@ partnerships-small-business-description = ما همیشه به دنبال شنی
 partnerships-corporates-header = شرکت‌های با مقیاس بزرگ و شرکت‌های سکو
 partnerships-corporates-description = اگر به دنبال صحبت بیشتر در مورد مجموعه داده‌ها هستید، می‌خواهید در گسترش‌های سکو برنامه‌ریزی شده سرمایه‌گذاری مشترک کنید یا به دنبال فرصت‌های همکاری هستید، <emailFragment>با ما تماس بگیرید.</emailFragment>
 partnerships-our-partners = همکاران ما
+# menu item
+partners = شرکا

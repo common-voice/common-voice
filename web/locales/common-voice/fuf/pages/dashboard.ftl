@@ -52,7 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Taƴ faandaare
 cant-decide = A horiima fellitde?
-activity-needed-calculation-plural = waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
 how-many-per-day = Eyyoo! No foti lefon ñalawma?
 how-many-a-week = Eyyoo! No foti lefon yontere?
 which-goal-type = Aɗa yiɗi haalde, heɗaade walla ɗiɗi fof?

@@ -6,6 +6,7 @@ export type UnvalidatedSentence = {
   source: string
   localeId: number
   variantTag: Option<string>
+  variantName: Option<string>
 }
 
 export type ValidatedSentence = string

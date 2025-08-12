@@ -9,9 +9,3 @@ listen-loading-error = Bi ndji ke kui na bia bi nkobô ya vô'ôlô. Beta'a ve'e
 listen-abort-title = E mane nkañesan medjô?
 listen-abort-cancel = E kee nkañesan ôsu
 listen-abort-confirm = E mane nkañesan
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

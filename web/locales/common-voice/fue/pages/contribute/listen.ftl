@@ -9,9 +9,3 @@ listen-loading-error = em waway heɓugo batu hettinteekol.  waɗitee ɓawo ni
 listen-abort-title = henyitingo
 listen-abort-cancel = jokkee
 listen-abort-confirm = henyitingo
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

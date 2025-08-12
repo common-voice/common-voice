@@ -36,9 +36,3 @@ review-delete-recordings = Phimola dikgatiso tsa me
 review-terms = Ka go dirisa Common Voice, o dumalana le <termsLink>Melawana</termsLink> le <privacyLink>Kitsiso ya Polokodiphiri</privacyLink>
 terms-agree = Ke a dumela
 terms-disagree = Ga ke dumele
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -60,9 +60,3 @@ already-have-an-account = Nɔ baka na nissiŋɛ <login> finɛ</login>
 create-profile-button = Kɔune Idɛntite
 # IMAGE TAGS
 img-alt-success-checkmark = Nɔ nà tɔmbuanè
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

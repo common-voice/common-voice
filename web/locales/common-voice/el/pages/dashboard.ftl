@@ -34,7 +34,7 @@ weekly-goal = Εβδομαδιαίος στόχος
 easy-difficulty = Εύκολο
 average-difficulty = Μέτριο
 difficult-difficulty = Δύσκολο
-pro-difficulty = Επαγγελματικό
+pro-difficulty = Ειδικός
 lose-goal-progress-warning = Με την επεξεργασία του στόχου σας, ενδέχεται να χάσετε την υπάρχουσα πρόοδό σας.
 want-to-continue = Θέλετε να συνεχίσετε;
 finish-editing = Να ολοκληρωθεί πρώτα η επεξεργασία;
@@ -52,67 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνα εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομο καταγράφει { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } απόσπασμα την ημέρα.
-                               *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από { $periodMonths } μήνες εάν { $people } άτομα καταγράφουν { $clipsPerDay } αποσπάσματα την ημέρα.
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = 100 άτομα που ηχογραφούν 100 προτάσεις την ημέρα μπορούν να παράγουν 13 ώρες ήχου. Διατηρώντας αυτήν την απόδοση, η επίτευξη 1.000 ωρών είναι δυνατή σε λιγότερο από 3 μήνες.
 how-many-per-day = Τέλεια! Πόσα αποσπάσματα την ημέρα;
 how-many-a-week = Τέλεια! Πόσα αποσπάσματα την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;
@@ -134,7 +74,7 @@ share-goal-type-speak = Ομιλία
 share-goal-type-listen = Ακρόαση
 share-goal-type-both = Ομιλία και ακρόαση
 # LINK will be replaced with the current URL
-goal-share-text = Δημιούργησα έναν προσωπικό στόχο δωρεάς φωνής στο #CommonVoice - έλα μαζί μου και βοήθησε να διδάξουμε τις μηχανές πώς μιλουν οι πραγματικοί άνθρωποι { $link }
+goal-share-text = Δημιούργησα έναν προσωπικό στόχο δωρεάς φωνής στο #CommonVoice. Ας διδάξουμε μαζί τις μηχανές πώς μιλούν οι πραγματικοί άνθρωποι { $link }
 weekly-goal-created = Ο εβδομαδιαίος στόχος σας έχει δημιουργηθεί
 daily-goal-created = Ο ημερήσιος στόχος σας έχει δημιουργηθεί
 track-progress = Παρακολουθήστε την πρόοδο εδώ και στη σελίδα στατιστικών στοιχείων.

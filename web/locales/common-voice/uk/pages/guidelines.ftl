@@ -3,6 +3,9 @@ guidelines-header = Настанови щодо внесків
 guidelines-header-subtitle = Дізнайтеся, як додати речення до набору даних Common Voice та перевірити аудіозаписи
 voice-collection = Збірка голосів
 sentence-collection = Збірка речень
+
+## Voice Collection nav ids
+
 varying-pronunciations = Різна вимова
 misreadings = Неправильне прочитання
 offensive-content = Образливий вміст
@@ -12,6 +15,9 @@ volume = Гучність
 reader-effects = Штучність вимови
 just-unsure = Просто не впевнені?
 example = Приклад
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Ми цінуємо різні акценти! Будьте уважні, перш ніж відхиляти озвучення через те, що читач неправильно вимовив слово, поставив наголос у неправильному місці або, можливо, проігнорував знак питання. У світі існує безліч різних вимов, які ви, ймовірно, не чули у своїй місцевості. Будь ласка, дозвольте свободу вимови тим, хто може розмовляти інакше.
 varying-pronunciations-explanation-2 = З іншого боку, якщо ви думаєте, що читач ніколи раніше не стикався з цим словом і робить неправильну здогадку щодо вимови, відхиліть кліп. Якщо ви не впевнені, скористайтеся кнопкою пропуску.
 varying-pronunciations-example = The route was unclear.
@@ -47,11 +53,17 @@ reader-effects-explanation = Більшість записів — це люди
 just-unsure-explanation = Якщо ви стикаєтесь із випадком, не описаним у цих настановах, просимо голосувати якнайоб'єктивніше. Якщо ви дійсно не можете визначитися, натисніть кнопку пропуску та переходьте до наступного запису.
 still-have-questions = Залишились запитання?
 contact-common-voice = Зверніться до команди Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Публічний домен
 citing-sentences = Цитування речень
 adding-sentences = Додавання речень
 reviewing-sentences = Розгляд речень
 sentence-domain = Належність речення
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Дуже важливо, щоб усі текстові речення були <publicDomain>суспільним надбанням</publicDomain> (<cc0>cc0</cc0>), оскільки набір даних Common Voice випущено за ліцензією cc0. Вивантажуйте речення, лише якщо ви впевнені, і завжди включайте відповідну цитату.
 public-domain-explanation-2 = Найкращі речення для створення корисного механізму розпізнавання мовлення – це розмовна сучасна мова. Деякі ідеї, які допоможуть вам сформувати речення:
 public-domain-explanation-3 = Створюйте сучасні розмовні речення самостійно або разом із друзями чи мовною спільнотою - наприклад, за допомогою «письменницького марафону»

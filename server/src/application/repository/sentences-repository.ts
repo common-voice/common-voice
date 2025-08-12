@@ -16,6 +16,7 @@ import { UserClientVariant } from '../../core/variants/user-client-variant'
 import { queryDb } from '../../infrastructure/db/mysql'
 import { Variant } from '../../core/variants/variant'
 import { Sentence } from 'common'
+import { cleanText } from '../text-cleaner'
 
 const mysql2 = require('mysql2/promise')
 
@@ -44,6 +45,7 @@ const insertSentenceTransaction = async (
   db: Mysql,
   sentence: SentenceSubmission
 ) => {
+  sentence.sentence = cleanText(sentence.sentence)
   const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id)
   const conn = await mysql2.createConnection(db.getMysqlOptions())
   const variant_id = pipe(
@@ -62,7 +64,7 @@ const insertSentenceTransaction = async (
         INSERT INTO sentences (id, text, source, locale_id)
         VALUES (?, ?, ?, ?);
       `,
-      [sentenceId, sentence.sentence, sentence.source, sentence.locale_id]
+      [sentenceId, sentence.sentence, cleanText(sentence.source), sentence.locale_id]
     )
 
     await conn.query(
@@ -107,6 +109,7 @@ const insertBulkSentencesTransaction = async (
   const sentence_domain_values: [string, number][] = []
 
   sentences.forEach(submission => {
+    submission.sentence = cleanText(submission.sentence)
     const sentenceId = createSentenceId(
       submission.sentence,
       submission.locale_id
@@ -114,7 +117,7 @@ const insertBulkSentencesTransaction = async (
     sentence_values.push([
       sentenceId,
       submission.sentence,
-      submission.source,
+      cleanText(submission.source),
       submission.locale_id,
       options.isUsed ? 1 : 0, // is_used = 1
       options.isValidated ? 1 : 0, // is_validated = 1
@@ -279,6 +282,7 @@ const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
     source: row.source,
     localeId: row.locale_id,
     variantTag: O.fromNullable(row.variant_token),
+    variantName: O.fromNullable(row.variant_name),
   }))
 
 export type FindSentencesForReview = (
@@ -306,39 +310,54 @@ const findSentencesForReview =
       ? `AND variants.id = ${userVariant.variant.id}`
       : ''
 
+    const LIMIT_FROM = 1000 // among a larger set
+    const LIMIT_TO = 100 // select a random subset
+
     return pipe(
       TO.tryCatch(() =>
         db.query(
           `
-          SELECT
-            sentences.id,
-            sentences.text,
-            sentences.source,
-            sentences.locale_id,
-            variants.variant_token,
-            SUM(sentence_votes.vote) as number_of_approving_votes,
-            COUNT(sentence_votes.vote) as number_of_votes
-          FROM sentences
-          LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
-          LEFT JOIN sentence_metadata ON (sentence_metadata.sentence_id=sentences.id)
-          LEFT JOIN variants ON (variants.id=sentence_metadata.variant_id)
-          WHERE
-            sentences.is_validated = FALSE
-            AND sentences.locale_id = ?
-            ${variantCondition}
-            AND NOT EXISTS (
-              SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
-            )
-            AND NOT EXISTS (
-              SELECT 1 FROM sentence_votes sv WHERE sentences.id = sv.sentence_id AND sv.client_id = ?
-            )
-          GROUP BY sentences.id
-          HAVING
-            number_of_votes < 2 OR # not enough votes yet
-            number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
-          LIMIT 100
+          SELECT *
+          FROM (
+            SELECT
+              sentences.id,
+              sentences.text,
+              sentences.source,
+              sentences.locale_id,
+              variants.variant_token,
+              variants.variant_name,
+              SUM(sentence_votes.vote) as number_of_approving_votes,
+              COUNT(sentence_votes.vote) as number_of_votes
+            FROM sentences
+            LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
+            LEFT JOIN sentence_metadata ON (sentence_metadata.sentence_id=sentences.id)
+            LEFT JOIN variants ON (variants.id=sentence_metadata.variant_id)
+            WHERE
+              sentences.is_validated = FALSE
+              AND sentences.locale_id = ?
+              ${variantCondition}
+              AND NOT EXISTS (
+                SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
+              )
+              AND NOT EXISTS (
+                SELECT 1 FROM sentence_votes sv WHERE sentences.id = sv.sentence_id AND sv.client_id = ?
+              )
+            GROUP BY sentences.id
+            HAVING
+              number_of_votes < 2 OR # not enough votes yet
+              number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
+            LIMIT ?
+          ) as temp
+          ORDER BY RAND()
+          LIMIT ?
         `,
-          [params.localeId, params.clientId, params.clientId]
+          [
+            params.localeId,
+            params.clientId,
+            params.clientId,
+            LIMIT_FROM,
+            LIMIT_TO,
+          ]
         )
       ),
       TO.map(toUnvalidatedSentence)
@@ -422,12 +441,13 @@ export const findVariantSentences: FindVariantSentences = (
     queryDb(`
         SELECT *
         FROM (
-          SELECT s.id, text, variant_id
+          SELECT s.id, text, variant_id, variant_name
           FROM sentences s
           LEFT JOIN sentence_metadata sm ON s.id = sm.sentence_id
+          LEFT JOIN variants ON (variants.id=sm.variant_id)
           WHERE
             is_used
-            AND locale_id = (SELECT id FROM locales WHERE name = ?)
+            AND s.locale_id = (SELECT id FROM locales WHERE name = ?)
             AND clips_count <= 15
             AND ${
               sentencesWithVariant
@@ -442,7 +462,7 @@ export const findVariantSentences: FindVariantSentences = (
     `),
     TE.mapLeft((err: Error) =>
       createDatabaseError(
-        `Error retrieving variant sentences for variant "${variant.name}"`,
+        `Error retrieving variant sentences for variant "${variant.name} [${variant.tag}]"`,
         err
       )
     ),

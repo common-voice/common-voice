@@ -83,62 +83,78 @@ read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
 ## NAV ITEMS
 
 answer-questions = Embohovái porandu <small>(Tenondeve)</small>
-answer-questions-coming-soon = Embohovái porandu <small>(Tenondeve)</small>
 review-transcriptions = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
-review-transcriptions-coming-soon = Ehechajey ñe’ẽjehai <small>Tenondeve</small>
 add-questions = Embojuaju porandu <small>(Tenondeve)</small>
-add-questions-coming-soon = Embojuaju porandu <small>(Tenondeve)</small>
-transcribe-audio-coming-soon = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
+review-questions = Porandu apojey
 transcribe-audio = Emoñe’ẽjehai mba’epu <small>Tenondeve</small>
 press-and-stories = Maranduasãiha ha Tembiasakue
 community-and-languages = Tekoha ha ñe’ẽnguéra
 coming-soon = Ag̃aitéma
+about-us = Ore rehegua
+scripted-speech = JE’EPY MBOHAPÉVA
+spontaneous-speech = ÑE’ẼKUAA SYRYRY
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Juaju, Maranduasãiha ha Tembiasakue, Tekoha ha Ñe’ẽita
+about-us-menu-item-tooltip = Eikuaa Common Voice rembipota ha omba’apovakuéra
 partnerships-menu-item-tooltip = Eike orendive
 press-and-stories-menu-item-tooltip = Eike ore blog-pe térã ehai ore rehegua
 community-and-languages-menu-item-tooltip = Ehechakuaa ñe’ẽita ha tekoha ha ayvu opavaveguáva
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Poravokuaa renda rehegua
+about-menu-aria-label = Poravorã eike hag̃ua Atyguasu, Maranduasãiha ha Tembiasakue, Tekoha ha Ñe’ẽita
+about-us-menu-aria-label = Poravoha renda rehegua
+about-us-menu-item-aria-label = Poravoha renda ore rehegua
 partnerships-menu-item-aria-label = Eikuaave opaite juaju Common Voice ndivegua rehe
 press-and-stories-menu-item-aria-label = Eike maranduasãi ha tembiasakue ojuehegua Common Voice ndive
 community-and-languages-menu-item-aria-label = Ehapykueho tekoha ha ñe’ẽnguéra omoneĩva Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Tembiporupyahu oikumbýva ne ñe’ẽ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = ¿Mba’ére IA oku’éta ndahetái ñe’ẽme añónte arapy tuichakuépe?
+hero-subtitle-2 = Ore ñe’ẽ ha’e ore rembiasakue, ore rekoha, ore kuaapy. Roguerovia mba’ekuaarã aty rohechaséva arapy tuichakue.
 # icon is an arrow that points downwards
 get-started = Emoñepyrũ <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ha’e pyendavusu reigua ha software opavavépe g̃uarã ojejapohápe mba’ekuaarã aty ñe’ẽ ha moñe’ẽragua
+action-items-section-subtitle = Oimeraẽva oñongatu, omoakãrapu’ã ha emopu’ã ne ñe’ẽ emoherakuã, emoheñói ha eñongatúvo mba’ekuaarã aty moñe’ẽrã ha ñe’ẽ rehegua.
 scripted-card-header = Ñe’ẽsyry hapéva
+scripted-card-content = Emoñe’ẽ ayvúpe hatã ne ñe’ẽme ha eipytyvõ ñe’ẽsyry mba’ekuaarã aty oĩhápe opavavete arapy tuichakue.
 spontaneous-card-header = Ñe’ẽsyry hape’ỹva
+spontaneous-card-content = Embohovái oñeporandúva heñoikuaa hag̃ua mba’ekuaarã aty taha’e jeregua ha ñe’ẽrei. Iporã añete ñe’ẽnguéra ojeporuvévape.
 language-text-card-header = Moñe’ẽrã peteĩ ñe’ẽme
+language-text-card-content = Emoheñói térã emoherakuã je’epy, ñe’ẽjuaju ha moñe’ẽrã isãsóva ñe’ẽmbohasarã, ñe’ẽte rehegua ha hetave.
+coming-soon = Ag̃aitéma
 add-text = Embojuapy moñe’ẽrã
+answer = Ñembohovái
 
 ## Community section
 
+community-section-title = Ojapóva tekoha tuichaháicha, tekoha tuichaháichape g̃uarã: ¡130 ñe’ẽ ha rokakuaave!
 join-discord-community = Eike Discord atýpe
 # label for button
 join-discord-community-action = Ejuaju orerehe Discord-pe
+join-discord-community-content = Eike tekoha ñe’ẽkuaaty ñomongetahápe, eporandu ha eikuaa hag̃ua mba’e oikótava ha ñomongeta rehegua.
 find-us-on-matrix = Orejuhúta Matrix-pe
+find-us-on-matrix-content = Matrix ha’e peteĩ tapereko ijurujáva, ivevúi, momarandu ñemyasãirã araitépe g̃uarã, ha Mozilla pyendavusu ñomongetarã ijurujáva.
 # label for button
 find-us-on-matrix-action = Orejuhúta Matrix-pe
 ask-mozilla-share = Ejerure Mozilla-pe omoherakuãvo ne rembiapo
+ask-mozilla-share-content = ¿Rerekópa peteĩ evento ymaguare térã oútava? ¡Emoherakuã orendive ha roikuaaukáta ore rekohápe térã rohaita peteĩ blog hesegua!
 # label for button
 ask-mozilla-share-action = Emoherakuã ne rembiapo
 download-contribution-certificate = Emboguejy nde kuatia ñepytyvõ rechaukaha
+download-contribution-certificate-content = Emboguejy peteĩ kuatia’atã ne evento-kuéra térã ndejupe g̃uarã eipytyvõramo Common Voice-pe. ¡Kóva ndaikatumoʼãikuri nde reheʼỹ!
 # label for button
 download-contribution-certificate-action = Erekóke mboajepyre
 contribute-github = Eipytyvõ GitHub-pe
+contribute-github-content = Ko apopyrã ndaikatumo’ãikuri umi tapicha ndeichagua’ỹre. 🎉 Oĩ heta tape eikekuaa hag̃ua Common Voice ndive - ¡natekotevẽi eikuaa ñemboguata rehegua eipytyvõ hag̃ua!
 # label for button
 contribute-github-action = Eipytyvõ GitHub-pe
 
@@ -150,6 +166,8 @@ download-press-pack = Emboguejy ore dossier de prensa <icon></icon>
 
 ## Developers section
 
+developers-section-title = Ñe’ẽkuaa ijurujáva opavavépe g̃uarã mba’ekuaarã aty hetave 130 ñe’ẽmegui
+developers-section-subtitle = Mba’ekuaarã aty ASR-pe g̃uarã, STT, TTS ha ambue PNL jeregua, oñemoheñóiva tekoha ñepytyvõ rupi.
 # icon is an arrow that points to the right
 explore-datasets = Eheka mba’ekuaarã atýpe <icon></icon>
 
@@ -168,6 +186,12 @@ press-and-stories-link = Prensa ha ñemombe’u
 ## Partner section
 
 partner-section-title = Eike orendive
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Mba’apoha tembiporupyahugua</bold>: Peinverti mba’ekuaarã aty moheñóirã IA ñe’ẽita akãrapu’ã rehegua
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Tapicha ha mba’erekahakuéra</bold>: pejapo, pehupi ha pemoherakuã mba’ekuaarã aty reiete
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = Mba’ekuaarã ojeykekóva aty ñemoheñói oñemoakãrapu’ã hag̃ua mba’epyahu ha jekakuaave
 # icon is an arrow that points to the right
 get-in-touch-button = Eñe’ẽ orendive <icon></icon>
 # Partners section

@@ -3,6 +3,9 @@ guidelines-header = Directrices de colaboración
 guidelines-header-subtitle = Comprender cómo contribuyir y validar oracions y clips d'audio a lo conchunto de datos de Common Voice.
 voice-collection = Replega de voces
 sentence-collection = Replega de frases
+
+## Voice Collection nav ids
+
 varying-pronunciations = Pronuncias variables
 misreadings = Malas interpretacions
 offensive-content = Conteniu ofensivo
@@ -12,6 +15,9 @@ volume = Volumen
 reader-effects = Efectos d'o lector
 just-unsure = Tiens dudas?
 example = Eixemplo
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Nos encanta tener eixemplos de diferents acentos! Para cuenta antes de refusar un tallo perque creigas que lo lector ha pronunciau malament una parola, ha meso l'acento en o puesto entivocau u ha ignorau la puntuación. No se pronuncian igual las parolas en totas las variedaz d'a tuya luenga. Da una chenerosa marguin de flexibilidat a los que charren d'una manera diferent a la tuya.
 varying-pronunciations-explanation-2 = D'atra man, si creyes que lo lector no conoixeba ixa parola y la ye pronunciando mal, refusa-la. Si no en ye seguro, fes servir lo botón d'omitir.
 varying-pronunciations-example = Ixe pastor yera ya viello.
@@ -47,11 +53,17 @@ reader-effects-explanation = La mayoría d'as gravacions son de personas charran
 just-unsure-explanation = Si trobas bella cosa que no cubran estas directrices, vota seguntes lo tuyo millor criterio. Si realment no puez decidir-te, fe servir lo botón de brincar y pasa ta la siguient gravación.
 still-have-questions = Encara tiens mas preguntas?
 contact-common-voice = Contacta con l'equipo de Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Dominio publico
 citing-sentences = Citación de frases
 adding-sentences = Adición de frases
 reviewing-sentences = Revisión de frases
 sentence-domain = Dominio d'as frases
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Ye muito important que totas las oracions de texto sían <publicDomain>dominio publico</publicDomain> (<cc0>cc0</cc0>), ya que lo conchunto de datos de Common Voice se publica baixo una licencia cc0. Puya una oración solo si yes seguro y siempre incluye la cita correspondient.
 public-domain-explanation-2 = Las millors oracions pa construyir un motor de reconoixencia de voz útil son lo luengache coloquial y moderno. Cualques ideyas que t'aduyarán a chenerar oracions son;
 public-domain-explanation-3 = Crea frases modernas y coloquials tu mesmo u con os tuyos amigos u la tuya comunidat lingüistica, per eixemplo a traviés d'un "maratón d'escritura".

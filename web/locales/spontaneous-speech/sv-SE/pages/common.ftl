@@ -5,14 +5,12 @@ error = Fel
 action-click = Klicka
 action-tap = Tryck
 # Label for language switcher
-platform-language = Plattformsspråk:
+platform-language = Plattformsspråk
 platform-language-tooltip-text = Ändrar endast text på webbplatsen.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bidrar till datamängd för { $language }
 contribution-picker-tooltip-text = Ändrar språkdatamängden du bidrar till
-# Label for button on contribution switcher
-change = Ändra
 coming-soon = Fler språk kommer snart
 media-recorder-api-not-supported = MediaRecorder API stöds inte i din webbläsare.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,19 @@ skip-button = Hoppa över
 submit-button = Skicka in
 contribute = Bidra
 request-new-language = Begär nytt språk
+# Button text which appears when there are no more resources
+continue-with-skipped = Fortsätt med överhoppat
 
 ## Navbar
 
+question = Fråga
+validate = Validera
 respond-to-prompt = Svara på prompt
+respond-to-prompt-mobile = Svara
 transcribe = Transkribera
 check-transcriptions = Kontrollera transkriptioner
-question = Fråga
+check-transcriptions-mobile = Granska
+tag = Etikett
 
 ## Not Found Page
 
@@ -60,3 +64,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turkiska
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Sök efter ett språk...
+language-search-aria-label = Sök efter ett språk
+language-search-label = Ändrar endast bidragsspråk för datamängd
+language-search-no-results = Inga språk hittades

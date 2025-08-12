@@ -8,9 +8,3 @@ report-button = nipatubeli
 skip-button = lakuwiyten
 submit-button = padungus patahekal
 contribute = milabu paini
-
-## Navbar
-
-
-## Not Found Page
-

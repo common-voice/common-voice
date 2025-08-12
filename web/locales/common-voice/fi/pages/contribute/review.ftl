@@ -3,6 +3,7 @@
 sc-review-lang-not-selected =
     Et ole valinnut yhtään kieltä. Siirry
     <profileLink>profiiliisi</profileLink> valitaksesi kielet.
+sc-review-title = Tarkista lauseita
 sc-review-loading = Ladataan lauseita…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -16,3 +17,6 @@ sc-review-form-button-approve = Hyväksy
 sc-criteria-make-sure = Varmista, että lause täyttää seuraavat kriteerit:
 sc-criteria-item-2 = Lauseen tulee olla kieliopillisesti oikein.
 sc-criteria-item-3 = Lauseen on oltava lausuttavissa ääneen.
+report-sc-different-language = Eri kieli
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Teemme isoja muutoksia

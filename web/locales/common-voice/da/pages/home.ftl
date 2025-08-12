@@ -75,33 +75,43 @@ read-more-about = Læs mere på vores Om-side
 
 ## NAV ITEMS
 
+answer-questions = Besvar spørgsmål
+review-transcriptions = Gennemgå transskriptioner
+add-questions = Tilføj Spørgsmål
+review-questions = Gennemgå spørgsmål
+transcribe-audio = Transskriber lyd
+press-and-stories = Presse og historier
+community-and-languages = Fællesskab og sprog
+coming-soon = Kommer snart
+about-us = Om os
 
 ## MENU ITEMS TOOLTIPS
 
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
+press-and-stories-menu-item-tooltip = Besøg vores blog eller skriv om os
 
 ## Hero section
 
+hero-title = Teknologi, der taler dit sprog
 
 ## Action items section
 
+coming-soon = Kommer snart
+add-text = Tilføj tekst
 
 ## Community section
 
-
-## Featured section
-
-
-## Developers section
-
+find-us-on-matrix = Find os på Matrix
+# label for button
+find-us-on-matrix-action = Find os på Matrix
+ask-mozilla-share = Bed Mozilla om at dele dine begivenheder
+# label for button
+ask-mozilla-share-action = Del din begivenhed
+contribute-github = Bidrag på GitHub
+contribute-github-content = Dette projekt ville ikke være muligt uden mennesker som dig. 🎉 Der er mange måder at blive involveret i Common Voice - du behøver ikke at kunne programmere for at bidrage!
+# label for button
+contribute-github-action = Bidrag på GitHub
 
 ## Get involved section
 
-
-## Partner section
-
+validate-readings-link = Valider oplæsninger
+answer-questions-link = Besvar spørgsmål

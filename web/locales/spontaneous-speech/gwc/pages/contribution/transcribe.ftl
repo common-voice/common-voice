@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType }<playIcon></playIcon> تے اِیں مِیش کٞہ مننت تاٞس چُنڑ
 editbox-header = چُنڑ
 editbox-placeholder = اِیں مِیش کٞہ مننت تاٞس ہِماک چُنڑ
-no-audio-message = اِیں جِبیں کیر اِیں وخ سٞہ چُنڑوگیں کیر آڈیو نات۔ ماٞربینی کاٞ پاݪ تازہ کٞر یا دِگیرکوشیش کٞر
 create-transcript-success = چُنڑیل کامیابی دہ پیش ہی
 create-transcript-error = اِیں چُنڑیل تیار کٞروگ مئ اٞ غلطی ییئ۔
 error-playing-audio = آڈیو فائیل چلاٞگ مئ غلطی ییئ

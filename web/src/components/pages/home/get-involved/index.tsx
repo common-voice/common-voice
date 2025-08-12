@@ -93,39 +93,34 @@ export const GetInvolvedSection: React.FC<Props> = ({
           <div className="card-image spontaneous" />
           <ul>
             <li>
-              <p id="answer-questions-link">
-                {l10n.getString('answer-questions-link')}
-              </p>
-              <div className="arrow-container disabled">
+              <a href={URLs.QUESTION} target="_blank" rel="noreferrer">
+                <Localized id="answer-questions-link">
+                  <span id="answer-questions-link" />
+                </Localized>
+              </a>
+              <div className="arrow-container">
                 <ArrowRight />
               </div>
-              <Tooltip anchorSelect="#answer-questions-link" place="bottom">
-                {l10n.getString('coming-soon')}
-              </Tooltip>
             </li>
             <li>
-              <p id="transcribe-answers-link">
-                {l10n.getString('transcribe-answers-link')}
-              </p>
-              <div className="arrow-container disabled">
+              <a href={URLs.TRANSCRIBE} target="_blank" rel="noreferrer">
+                <Localized id="transcribe-answers-link">
+                  <span id="transcribe-answers-link" />
+                </Localized>
+              </a>
+              <div className="arrow-container">
                 <ArrowRight />
               </div>
-              <Tooltip anchorSelect="#transcribe-answers-link" place="bottom">
-                {l10n.getString('coming-soon')}
-              </Tooltip>
             </li>
             <li>
-              <p id="review-transcriptions-link">
-                {l10n.getString('review-transcriptions-link')}
-              </p>
-              <div className="arrow-container disabled">
+              <a href={URLs.CHECK_TRANSCRIPT} target="_blank" rel="noreferrer">
+                <Localized id="review-transcriptions-link">
+                  <span id="review-transcriptions-link" />
+                </Localized>
+              </a>
+              <div className="arrow-container">
                 <ArrowRight />
               </div>
-              <Tooltip
-                anchorSelect="#review-transcriptions-link"
-                place="bottom">
-                {l10n.getString('coming-soon')}
-              </Tooltip>
             </li>
           </ul>
         </div>
@@ -146,15 +141,14 @@ export const GetInvolvedSection: React.FC<Props> = ({
               </Link>
             </li>
             <li>
-              <p id="review-transcript">
-                {l10n.getString('review-transcriptions-link')}
-              </p>
-              <div className="arrow-container disabled">
+              <a href={URLs.CHECK_TRANSCRIPT} target="_blank" rel="noreferrer">
+                <Localized id="review-transcriptions-link">
+                  <span id="review-transcriptions-link" />
+                </Localized>
+              </a>
+              <div className="arrow-container">
                 <ArrowRight />
               </div>
-              <Tooltip anchorSelect="#review-transcript" place="bottom">
-                {l10n.getString('coming-soon')}
-              </Tooltip>
             </li>
             <li>
               <a

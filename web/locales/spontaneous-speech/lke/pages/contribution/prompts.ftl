@@ -4,7 +4,6 @@ record-player-header = Okwaate ebyoyiramu kukatambi
 mic-access-error = Olina okwikiriria emikurofoni okukwata
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = Oyiremu nga owebiri mubutonde
-no-prompts-message = Esawa jino wabula ebiintu muluntumu luno. oyiremu buyaka oba ogezieku eyira
 error-skipping = Ekizibu kigwirewo nga tutumisia ebibuzo bino
 error-recording = Ekizibu kigwirewo nga tukwaata amalobozi
 error-fetching-prompts = Eriyo ekiyabire okubibi nga tutolayo ebigambo

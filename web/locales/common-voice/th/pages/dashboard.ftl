@@ -50,7 +50,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ตั้งเป้าหมาย
 cant-decide = ตัดสินใจไม่ได้?
-activity-needed-calculation-plural = เราสามารถรวมคลิปเสียงจำนวน { $totalHours } ชั่วโมง ภายใน { $periodMonths } เดือน ได้ไม่ยากเลย หากมีคนจำนวน { $people } คนช่วยอัดเสียงวันละ { $clipsPerDay } คลิป
 how-many-per-day = เยี่ยม! กี่คลิปต่อวัน?
 how-many-a-week = เยี่ยม! กี่คลิปต่อสัปดาห์?
 which-goal-type = คุณต้องการที่จะพูด หรือฟัง หรือทั้งคู่?

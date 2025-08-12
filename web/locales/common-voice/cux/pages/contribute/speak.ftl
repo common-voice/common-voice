@@ -60,9 +60,3 @@ already-have-an-account = ¿A bea ama cuenta ñe'ed? <iniciar sesión>kundod</in
 create-profile-button = Dindad ama perfil
 # IMAGE TAGS
 img-alt-success-checkmark = Kandó chu ñe'ed ti a noo
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

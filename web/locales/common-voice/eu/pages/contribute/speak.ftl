@@ -45,9 +45,3 @@ thanks-for-voice-toast = Eskerrik asko zure ahots-informazioagatik
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Eskerrik asko zure ahotsarekin parte hartzeagatik!
 create-profile-button = Sortu profil bat
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

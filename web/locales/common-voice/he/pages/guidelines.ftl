@@ -3,6 +3,9 @@ guidelines-header = הנחיות לתרומה
 guidelines-header-subtitle = הבינו כיצד לתרום ולאמת משפטים ומקטעי שמע למערך הנתונים של Common Voice
 voice-collection = איסוף קולות
 sentence-collection = איסוף משפטים
+
+## Voice Collection nav ids
+
 varying-pronunciations = הגיות שונות
 misreadings = קריאות שגויות
 offensive-content = תוכן פוגעני
@@ -12,6 +15,9 @@ volume = עוצמת קול
 reader-effects = השפעות הקוראים
 just-unsure = לא בטוחים?
 example = דוגמא
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = אנו מקדמים בברכה מבטאים שונים! שימו לב לפני שאתם דוחים מקטע על־סמך זה שלדעתכם ביטוי המילה שגוי, עם הדגש במקום הלא נכון או שהתעלמו לכאורה מסימני פיסוק. יש מגוון רחב של הגיות ברחבי העולם, שאת חלקן אולי לא שמעתם בקהילה המקומית שלכם. השתדלו לייצר הרבה מרחב גם לאלה שעשויים לדבר אחרת מכם.
 varying-pronunciations-explanation-2 = מצד שני, אם אתם חושבים שהקורא מעולם לא נתקל במילה הזו בעבר, והוא מנחש באופן לא נכון את הגייתה, אנא דחו את המקטע. אם אינכם בטוח, השתמשו בלחצן הדילוג.
 varying-pronunciations-example = וַחֲצַבְתִּיו מִלְּבָבִי.
@@ -47,11 +53,17 @@ reader-effects-explanation = מרבית ההקלטות הן של אנשים המ
 just-unsure-explanation = אם נתקלתם במשהו שההנחיות הללו לא מכסות, אנא פעלו לפי מיטב שיקול דעתכם. אם באמת אינכם יכולים להחליט, השתמשו בלחצן הדילוג והמשיכו להקלטה הבאה.
 still-have-questions = עדיין יש לכם שאלות?
 contact-common-voice = צרו קשר עם צוות Common Voice
+
+## Sentence collection nav ids
+
 public-domain = נחלת הכלל
 citing-sentences = ציטוט משפטים
 adding-sentences = הוספת משפטים
 reviewing-sentences = סקירת משפטים
 sentence-domain = תחום העניין
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = חשוב מאוד שכל המשפטים יהיו <publicDomain>בנחלת הכלל</publicDomain> (<cc0>CC0</cc0>) שכן מערך הנתונים Common Voice משוחרר תחת רישיון CC0. העלו משפט כלשהו רק אם אתם בטוחים, והכלילו תמיד ציטוט רלוונטי.
 public-domain-explanation-2 = המשפטים הטובים ביותר לבניית מנוע לזיהוי דיבור הם אלה הכתובים בדיבור רגיל ומודרני. כמה רעיונות שיעזרו לכם ליצור משפטים הם;
 public-domain-explanation-3 = צרו משפטים בדיבור רגיל ומודרני בעצמכם, עם חברים או עם קהילת השפה שלכם  - למשל תוך הפקת אירוע בסכנון "מסיבת כתיבת משפטים".

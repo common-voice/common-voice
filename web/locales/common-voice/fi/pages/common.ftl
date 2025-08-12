@@ -57,7 +57,6 @@ hsb = yläsorbi
 ht = haiti
 hu = unkari
 hy-AM = armenia
-hyw = länsiarmenia
 ia = interlingua
 id = indonesia
 is = islanti

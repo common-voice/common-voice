@@ -89,6 +89,10 @@ export default class API {
         : undefined,
     })
 
+    if (response.status === 204) {
+      return null
+    }
+
     if (response.status == 401) {
       localStorage.removeItem(USER_KEY)
       location.reload()
@@ -102,6 +106,13 @@ export default class API {
         retryAfter: response.headers.get('retry-after'),
       })
       throw error
+    }
+
+    if (response.status === 409) {
+      if (response.statusText.includes('ALREADY_EXISTS')) {
+        throw new Error(response.statusText)
+      }
+      throw new Error(await response.text())
     }
 
     if (response.status >= 400) {
@@ -126,12 +137,26 @@ export default class API {
     return this.getLocalePath() + '/clips'
   }
 
-  async fetchRandomSentences(count = 1): Promise<Sentence[]> {
-    return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`)
+  async fetchRandomSentences(
+    count = 1,
+    ignoreClientVariant = false
+  ): Promise<Sentence[]> {
+    return this.fetch(
+      `${this.getLocalePath()}/sentences?count=${count}${
+        ignoreClientVariant ? '&ignoreClientVariant=true' : ''
+      }`
+    )
   }
 
-  async fetchRandomClips(count = 1): Promise<Clip[]> {
-    return this.fetch(`${this.getClipPath()}?count=${count}`)
+  async fetchRandomClips(
+    count = 1,
+    ignoreClientVariant = false
+  ): Promise<Clip[]> {
+    return this.fetch(
+      `${this.getClipPath()}?count=${count}${
+        ignoreClientVariant ? '&ignoreClientVariant=true' : ''
+      }`
+    )
   }
 
   uploadClip(
@@ -144,14 +169,13 @@ export default class API {
     showFirstStreakToast?: boolean
     challengeEnded: boolean
   }> {
-    // make sure nginx server has allow_underscore turned on
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
-        sentence_id: sentenceId,
+        'sentence-id': sentenceId,
         challenge: getChallenge(this.user),
-        from_demo: fromDemo ? 'true' : 'false',
+        'from-demo': fromDemo ? 'true' : 'false',
         source: 'web',
       },
       body: blob,
@@ -613,5 +637,22 @@ export default class API {
 
   abortBulkSubmissionRequest() {
     this.abortController.abort()
+  }
+
+  createAPICredentials(description: string) {
+    return this.fetch(`${API_PATH}/profiles/api-credentials`, {
+      method: 'POST',
+      body: { description },
+    })
+  }
+
+  getAPICredentials() {
+    return this.fetch(`${API_PATH}/profiles/api-credentials`)
+  }
+
+  deleteAPICredentials(clientID: string) {
+    return this.fetch(`${API_PATH}/profiles/api-credentials/${clientID}`, {
+      method: 'DELETE',
+    })
   }
 }

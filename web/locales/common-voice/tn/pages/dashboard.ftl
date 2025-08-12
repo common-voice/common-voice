@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Baya Maikaelelo
 cant-decide = Ga o kgone go dira tshwetso?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } motho rekoto { $clipsPerDay } kgatiso ka letsatsi.
-                               *[other] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } motho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } batho rekoto { $clipsPerDay } kgatiso ka letsatsi.
-                               *[other] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } batho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } motho rekoto { $clipsPerDay } kgatiso ka letsatsi.
-                               *[other] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } motho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } batho rekoto { $clipsPerDay } kgatiso ka letsatsi.
-                               *[other] { $totalHours } ura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } batho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } motho rekoto { $clipsPerDay } kgatiso ka letsatsi.
-                               *[other] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } motho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } batho rekoto { $clipsPerDay } kgatiso ka letsatsi.
-                               *[other] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } kgwedi fa { $people } batho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } motho rekoto { $clipsPerDay } kgatiso ka letsatsi.
-                               *[other] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } motho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } batho rekoto { $clipsPerDay } kgatiso ka letsatsi.
-                               *[other] { $totalHours } diura di ka fitlhelelwa mo { $periodMonths } dikgwedi fa { $people } batho rekoto { $clipsPerDay } dikgatiso ka letsatsi.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Go gontle! Dikgatiso di le kae ka letsatsi?
 how-many-a-week = Go gontle! Dikgatiso di le kae ka beke?
 which-goal-type = A o batla go Bua, go Reetsa kgotsa ka bobedi?

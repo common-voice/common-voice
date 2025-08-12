@@ -60,9 +60,3 @@ already-have-an-account = De daŋte mono, ndɔ de kããge ma ko nen joŋre ɓɔn
 create-profile-button = Ndɔ gɔ daŋte ? <login>kalni</login>
 # IMAGE TAGS
 img-alt-success-checkmark = Caage ma baa jag ɓɛ ʼɔ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

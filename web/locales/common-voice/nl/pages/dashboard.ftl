@@ -42,77 +42,17 @@ lose-changes-warning = Door nu af te sluiten verliest u uw wijzigingen
 build-custom-goal = Een aangepast doel bouwen
 help-reach-hours-pluralized =
     { $hours ->
-        [one] Help mee{ $hours } uurin het { $language } te bereiken met een persoonlijke doelstelling
-       *[other] Help mee{ $hours } uurin het { $language } te bereiken met een persoonlijke doelstelling
+        [one] Help mee { $hours } uur in het { $language } te bereiken met een persoonlijke doelstelling
+       *[other] Help mee { $hours } uur in het { $language } te bereiken met een persoonlijke doelstelling
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] Help Common Voice{ $hours } uurin een taal te bereiken met een persoonlijke doelstelling
-       *[other] Help Common Voice{ $hours } uurin een taal te bereiken met een persoonlijke doelstelling
+        [one] Help Common Voice { $hours } uur in een taal te bereiken met een persoonlijke doelstelling
+       *[other] Help Common Voice { $hours } uur in een taal te bereiken met een persoonlijke doelstelling
     }
 set-a-goal = Een doel stellen
 cant-decide = Kunt u geen besluit nemen?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } persoon{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentper dag opnemen
-                               *[other] { $totalHours } uuris bereikbaar in iets meer dan{ $periodMonths } maandenals{ $people } personen{ $clipsPerDay } fragmentenper dag opnemen
-                            }
-                    }
-            }
-    }
+activity-needed-calculation-fixed = 100 mensen die 100 zinnen per dag opnemen kunnen 13 uur aan audio genereren. Als u deze prestatie voortzet, kan er binnen 3 maanden 1000 uur worden bereikt.
 how-many-per-day = Geweldig! Hoeveel fragmenten per dag?
 how-many-a-week = Geweldig! Hoeveel fragmenten per week?
 which-goal-type = Wilt u spreken, luisteren of allebei?

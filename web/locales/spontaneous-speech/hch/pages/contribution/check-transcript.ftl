@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Niuki ʼɨkiyari ke neuʼeni tsiere ke neuʼaʼɨwiya xɨka mɨkɨ ʼutɨariyari hɨkɨtɨni. Xɨka mɨpaɨ yeme kareukuʼuxani, ʼutɨarika ke neupata mɨpaɨ yeme mainenikɨ.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Ke neutaʼixɨari
-no-transcriptions-message = Niuki utɨariyari mɨtiʼixɨariyanikɨ ʼikɨ niukiyarikɨ hikɨ pɨkaʼayehú. Ximɨxi, página tawaarí ke neukatsutɨa yátɨni ʼarikié ke tineutaʼinɨata.
 vote-transcript-success = Niuki ʼutɨariyari ʼaixɨ katiniuyuvotaruani
 vote-transcript-error = Axa katiniuyɨní niuki ʼutɨariyari mɨyuvotaruatsie
 transcript-edited-success = Niuki ʼutɨariyari ʼaixɨ kanayepatsieni/kanayeʼitɨarieni

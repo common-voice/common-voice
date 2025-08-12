@@ -7,8 +7,6 @@ action-tap = tap etin
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = dataset ar emasas
-# Label for button on contribution switcher
-change = badal etas
 coming-soon = butan baaṣiṅ cʰor ẓuc̣i
 media-recorder-api-not-supported = maa browser e kaa MediaRecorder delum api
 # Toast message that is displayed when an item is skipped

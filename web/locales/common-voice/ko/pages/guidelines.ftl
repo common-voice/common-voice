@@ -3,6 +3,9 @@ guidelines-header = 기여 기준
 guidelines-header-subtitle = Common Voice 데이터 세트에 문장과 오디오 클립을 기부하고 검증하는 방법 이해하기
 voice-collection = 음성 모음
 sentence-collection = 문장 모음
+
+## Voice Collection nav ids
+
 varying-pronunciations = 다양한 발음
 misreadings = 오독
 offensive-content = 공격적인 콘텐츠
@@ -12,6 +15,9 @@ volume = 음량
 reader-effects = 리더 효과
 just-unsure = 잘 모르겠다면?
 example = 예
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = 우리는 다양한 억양을 환영합니다! 읽는 사람이 단어를 잘못 발음했거나 강세를 잘못된 곳에 넣었거나 구두점을 무시했다고 생각하여 클립을 거부하기 전에 신중히 판단하세요. 전 세계에는 다양한 발음이 존재하며 일부는 여러분의 지역 사회에서는 들어 보지 못한 것일 수 있습니다. 말하는 방식이 다른 사람들을 위해 유연하게 판단해 주세요.
 varying-pronunciations-explanation-2 = 반면 읽는 사람이 단어를 전에 본 적이 없는 것 같고 발음을 잘못 추측하고 있다고 생각되면 거부하세요. 확실하지 않다면 건너뛰기 버튼을 사용하세요.
 varying-pronunciations-example = 경로가 불분명했습니다.
@@ -47,11 +53,17 @@ reader-effects-explanation = 대부분의 녹음은 사람들의 자연스러운
 just-unsure-explanation = 이 지침에서 언급하지 않은 종류의 녹음을 발견하면 최선의 판단으로 결정하세요. 정말 결정하기 어려우면 건너뛰기 버튼을 누르고 다음 녹음으로 넘어가세요.
 still-have-questions = 궁금한 게 더 있으십니까?
 contact-common-voice = Common Voice 팀에 문의하기
+
+## Sentence collection nav ids
+
 public-domain = 공공 부문
 citing-sentences = 문장 인용
 adding-sentences = 문장 추가
 reviewing-sentences = 문장 검토
 sentence-domain = 문장 도메인
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Common Voice 데이터 세트는 cc0 라이선스 하에 공개되므로 모든 텍스트 문장은 반드시 <publicDomain>공개 도메인</publicDomain>(<cc0>cc0</cc0>)이어야 합니다. 확실한 경우에만 문장을 업로드하고 항상 관련 인용문을 포함하세요.
 public-domain-explanation-2 = 유용한 음성 인식 엔진을 구축하기 위한 가장 좋은 문장은 구어체이고 현대적인 어투로 된 것입니다. 문장을 생성하는 데 도움이 되는 몇 가지 아이디어는 다음과 같습니다.
 public-domain-explanation-3 = 글쓰기 마라톤 등을 통해 혼자서 또는 친구, 언어 커뮤니티와 함께 현대적인 구어체 문장을 만들어 보세요.

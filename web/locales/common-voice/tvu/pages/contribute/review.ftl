@@ -10,7 +10,7 @@ sc-review-form-prompt =
 sc-review-form-usage = Nɔ lɔm ɔmɔkatà bɛnɔm bà ɔlɔmine mɛtile.Nɔ lɔmɔ ɔmɔkatà békal bà nɔ kiné .Nɔ lɔm ɔmɔlo bà nɔ kiné
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source =  Bɛnɔm : { $sentenceSource }
+sc-review-form-source = { " " }Bɛnɔm : { $sentenceSource }
 sc-review-form-button-reject = Wɔbɔk
 sc-review-form-button-skip = Tɔmb
 sc-review-form-button-approve = Lɔminɛ

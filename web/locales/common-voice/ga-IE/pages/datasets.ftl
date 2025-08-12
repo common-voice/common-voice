@@ -20,6 +20,8 @@ recorded-hours = Líon uaireanta an chloig taifeadta
 subscribe = Liostáil
 other-datasets = Tacair Sonraí Gutha Eile
 feedback-q = An bhfuil aiseolas agat?
+# This indicates that there is no data to display
+no-information = Gan Eolas
 data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
 data-other-ted-name = Corpas TED-LIUM
 data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
@@ -33,6 +35,12 @@ close = Dún
 download = Íoslódáil
 dataset-version = Leagan
 clipboard-not-supported = Ní thacaítear leis an ngearrthaisce
+no-information-available = Níl eolas ar fáil
+dataset-metadata-sex = Gnéas
+# dataset metadata - age of contributor
+dataset-metadata-age = Aois
+donate-modal-message = Tá do thacar sonraí á íosluchtú!
+dataset-donate-modal-heading = Arbh eol duit…
 data-download-button = Íoslódáil Sonraí Common Voice
 data-download-yes = Tá
 data-download-deny = Níl
@@ -50,3 +58,5 @@ release-version = Leagan
 dataset-date = Dáta
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
 license-mixed = Measctha
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Íosluchtaigh ár dtacair sonraí

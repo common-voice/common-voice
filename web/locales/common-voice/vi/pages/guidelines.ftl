@@ -3,6 +3,10 @@ guidelines-header = Nguyên tắc cộng tác viên
 guidelines-header-subtitle = Tìm hiểu cách đóng góp và xác thực các câu và đoạn âm thanh cho bộ dữ liệu Common Voice
 voice-collection = Bộ sưu tập giọng nói
 sentence-collection = Bộ sưu tập câu
+question-collection = Bộ sưu tập câu hỏi
+
+## Voice Collection nav ids
+
 varying-pronunciations = Thay đổi cách phát âm
 misreadings = Đọc sai
 offensive-content = Nội dung phản cảm
@@ -12,6 +16,9 @@ volume = Âm lượng
 reader-effects = Hiệu ứng trình đọc
 just-unsure = Không chắc chắn?
 example = Ví dụ
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = Chúng tôi hoan nghênh các điểm nhấn khác nhau! Hãy thật thận trọng trước khi từ chối một đoạn ghi âm mà bạn cho rằng người đọc đã phát âm sai một từ, đặt trọng âm sai chỗ hoặc bỏ qua dấu câu. Có rất nhiều cách phát âm được sử dụng trên khắp thế giới, một số cách phát âm mà bạn có thể chưa từng nghe thấy ở cộng đồng địa phương của mình. Vui lòng đánh giá cao những người có thể nói khác với bạn.
 varying-pronunciations-explanation-2 = Mặt khác, nếu bạn nghĩ rằng người đọc chưa bao giờ bắt gặp từ này trước đây và đang đoán sai cách phát âm, vui lòng từ chối. Nếu bạn không chắc chắn, hãy sử dụng nút bỏ qua.
 varying-pronunciations-example = The route was unclear.
@@ -47,11 +54,17 @@ reader-effects-explanation = Hầu hết các bản ghi âm là của những ng
 just-unsure-explanation = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
 still-have-questions = Vẫn còn câu hỏi?
 contact-common-voice = Liên hệ với nhóm Common Voice
+
+## Sentence collection nav ids
+
 public-domain = Phạm vi công cộng
 citing-sentences = Trích dẫn câu
 adding-sentences = Thêm câu
 reviewing-sentences = Xem lại câu
 sentence-domain = Phạm vi của câu
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Điều rất quan trọng là tất cả các câu văn bản đều là <publicDomain>phạm vi công cộng</publicDomain> (<cc0>cc0</cc0>) vì bộ dữ liệu Common Voice được phát hành theo giấy phép cc0. Chỉ tải lên một câu nếu bạn chắc chắn và luôn bao gồm trích dẫn có liên quan.
 public-domain-explanation-2 = Các câu tốt nhất để xây dựng một công cụ nhận dạng giọng nói hữu ích là cách nói thông tục, hiện đại. Một số ý tưởng để giúp bạn tạo câu là;
 public-domain-explanation-3 = Tạo các câu thông tục, hiện đại của chính bạn hoặc với bạn bè hoặc cộng đồng ngôn ngữ của bạn - ví dụ như thông qua 'write-a-thon'
@@ -91,3 +104,35 @@ reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu ch�
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 domain-explanation = Phạm vi đề cập đến chủ đề của câu. Hiện tại, bạn có thể chọn giữa:
+
+## Question collection ids
+
+adding-questions = Đang thêm câu hỏi
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Thế nào là một câu hỏi tốt?
+what-makes-a-good-question-explanation = Một câu hỏi hay cho các tập dữ liệu tham gia của công chúng nên:
+what-makes-a-good-question-explanation-criteria-1 = Dễ hiểu và dễ phản hồi
+what-makes-a-good-question-explanation-criteria-2 = Có liên quan chung đến chủ đề
+what-makes-a-good-question-explanation-criteria-3 = Không sử dụng hoặc yêu cầu ngôn ngữ gây hại hoặc xúc phạm
+what-makes-a-good-question-tip = Bạn cũng có thể muốn cân nhắc việc mở rộng nhiều bối cảnh và phạm vi khác nhau.
+easy-to-understand = Dễ hiểu
+easy-to-understand-explanation = Chọn những câu hỏi đơn giản mà bất kỳ ai cũng có thể hiểu được, bất kể văn hóa hay bối cảnh.
+spelling-and-pronunciation = Chính tả và dấu câu
+spelling-and-pronunciation-explanation = Sử dụng đúng chính tả và ngữ pháp.
+length = Độ dài
+length-explanation = Câu hỏi này nên trả lời chỉ trong vài câu.
+dont-add-subheader = Không thêm
+culturally-specific-questions = Câu hỏi cụ thể về văn hóa
+culturally-specific-questions-explanation = Những câu hỏi có tính chất văn hóa rất cụ thể hoặc đưa ra nhiều giả định về người trả lời
+length-avoid-explanation = Những câu hỏi khó trả lời trong vòng 15 giây (độ dài tối đa của clip)
+process-steps = Tiến trình / Bước
+process-steps-explanation = Những câu hỏi yêu cầu mô tả các bước để trả lời.  Việc mô tả các bước trong câu trả lời sẽ khiến người dùng phải đọc lại câu trả lời thay vì trả lời tự nhiên.
+offensive-content-sensitive-information = Nội dung xúc phạm hoặc thông tin nhạy cảm
+offensive-content-sensitive-information-explanation-explanation-1 = Những câu hỏi có thể yêu cầu thông tin nhận dạng cá nhân
+offensive-content-sensitive-information-explanation-explanation-2 = Những câu hỏi có thể gây ra lời nói thù địch hoặc những cảm xúc thiên vị hoặc xúc phạm khác
+offensive-content-sensitive-information-explanation-explanation-3 = Những câu hỏi có thể khiến ai đó chia sẻ những câu trả lời nhạy cảm, có khả năng gây kích động
+example-questions-subheader = Ví dụ câu hỏi
+example-questions-explanation-1 = Bạn có thể tìm <examplePromptsLink>120 ví dụ gợi ý trong trang tính này.</examplePromptsLink>
+example-questions-explanation-2 = Nếu bạn muốn gửi một loạt câu hỏi để tiếp nhận, bạn <githubLink>có thể làm như vậy thông qua GitHub của chúng tôi</githubLink> hoặc gửi danh sách của bạn qua email tới <emailFragment>commonvoice@mozilla.com.</emailFragment>

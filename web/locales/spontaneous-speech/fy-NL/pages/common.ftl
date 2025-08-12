@@ -11,8 +11,6 @@ platform-language-tooltip-text = Wiziget allinnich websitetekst.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bydrage oan gegevensset foar { $language }
 contribution-picker-tooltip-text = Wiziget de taalgegevensset wêroan jo bydrage
-# Label for button on contribution switcher
-change = Wizigje
 coming-soon = Mear talen folgje ynkoarten
 media-recorder-api-not-supported = De MediaRecorde-API wurdt net stipe yn jo browser.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,16 @@ skip-button = Oerslaan
 submit-button = Yntsjinje
 contribute = Bydrage
 request-new-language = Nije taal oanfreegje
+# Button text which appears when there are no more resources
+continue-with-skipped = Trochgean mei Oersloegen
 
 ## Navbar
 
-respond-to-prompt = Prompt beäntwurdzje
-transcribe = Transkribearje
-check-transcriptions = Transkripsjes kontrolearje
 question = Fraach
+validate = Falidearje
+respond-to-prompt = Beäntwurdzje
+transcribe = Transkribearje
+check-transcriptions = Beoardiele
 
 ## Not Found Page
 
@@ -60,3 +61,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turksk
 xkl = Keniaansk
+
+## Language search component
+
+language-search-placeholder = Sykje nei in taal…
+language-search-aria-label = Sykje nei in taal
+language-search-label = Wiziget allinnich de bydragetaal fan de gegevensset
+language-search-no-results = Gjin talgen fûn

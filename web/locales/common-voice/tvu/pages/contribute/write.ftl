@@ -87,12 +87,3 @@ file-invalid-type = Induciní  ye le pa luminiato
 file-too-large = Um induciní ye paka mienin inbat
 file-too-small = Um Induciní baka motètè
 too-many-files = Imbata ye bunduciní
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

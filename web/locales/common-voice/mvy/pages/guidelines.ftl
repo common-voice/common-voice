@@ -3,6 +3,10 @@ guidelines-header = حصہ گلئیں پان٘د پشائ (ہدایات)
 guidelines-header-subtitle = کامن وائس ڈیٹا سیٹہ مہ جُملی تے اوازاں کٹرو جمع گِشے کرؤں تُھو آں منظُور کرے صحیح گِشے کرؤں تُھو، ݜسی لا اما پورژا۔
 voice-collection = اَوازَیں کھلٹُو
 sentence-collection = جُملی وَیں کَھلٹُو
+question-collection = سوال جمع کرؤں
+
+## Voice Collection nav ids
+
 varying-pronunciations = رنٚگا رنٚگ ادائیگی
 misreadings = اَوان پَڑژیل
 offensive-content = اڅھکوۡ مواد
@@ -12,6 +16,9 @@ volume = اواز۔
 reader-effects = پڑان٘لو اثر انداز ہُوئ تُھو
 just-unsure = سَم پت نی تھی؟
 example = مِثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = بے رن٘گا رن٘گ لہجیوں خوش ہوگ تھو۔ خبردار! اوان پڑی چھی، یا اَوان زئ لا زُور آڇھی یا سوالیہ نشان پھت کرہ چھی کرے ایک کٹرُو ݜَیں بلیُوں لا کگَیں(رد کرَیں) نہ مُوٹھن سُوچ کری۔ گِنہ چےۡ دُنئ مہ مُختلف قسم خلکہ قسما قِسمَیں لہجیُوں مہ ہر رَن٘گَیں ادائگی کراں تھو، سیوں مہ بیکتُک څیز ݜے ہو تُھو چےۡ سَیں څاں کَچھ اور مُت خلکؤں نہ تُوں نی ݜُون٘یل ہو تُھو۔ کاں خلکہ څؤں نہ ہِلاک کرٹ ژیب دیں تھو کھیں سِوَیں ہُم ہِلاک اہمیت دی۔
 varying-pronunciations-explanation-2 = ہاں کہ څَیں لیل ہُوئ تُھو چے ایک ہٛڑان٘لہ اوک ݜس لفظ نی پُنیائ تُھو آں اٹکلہ لا اسیں ادائیگی یاں کوشیش کیر تُھو کھیں تے کگائے۔ آں کہ تے سم پتہ نی تھی کھیں تے پھت کرَیں یاں بٹنہ لا ٹک کرہ۔
 varying-pronunciations-example = پان٘د صاف کرِگ۔
@@ -47,11 +54,17 @@ reader-effects-explanation = اکثر رکارڈن٘گ خلقؤں تاں قُد�
 just-unsure-explanation = کہ تی مُوٹھیوں ݜے بِگ څیز ایگا چہ ݜیں لنٚگِھل بنیلیۡ/ منِل بلیوں مہ سو نی ہو کھیں تے تاں ہیاں صِدقہ ہِن فیصلہ کرہ۔ کہ تو گتہ ہُم فیصلہ نیرہانٚلُوں کھیں  تے پھت کرَیں یاں بٹنہ لا/ تل ٹک کرے تے مُوٹُھو مُت رکارڈِن٘گے بہ۔
 still-have-questions = ہُویں گتہ سوالہ تھو یی؟
 contact-common-voice = کامَن وائسَیں ڈَلہۡ مِلیۡ بال الاؤ کری
+
+## Sentence collection nav ids
+
 public-domain = عوامی کِھل/میدؤں
 citing-sentences = جُملی وَیں حوالہ
 adding-sentences = جُملی ٹل کرُژاں تھی
 reviewing-sentences = جُملی دُوبارہ نھالُژاں تھی
 sentence-domain = جُملی وَیں ڈومین
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = ݜُو بال چئ اہم تھی چے صرف سَیں جُملی قدر اپلوڈ کری چے کؤں <publicDomain>عوامی ڈومېنَیں</publicDomain> ہوں <cc0> cc0</cc0>) تے چے کامن وائس صرف cc0 لھېن٘سسہ لا جاری ہُوئ تُھو۔ جُملہ صرف ݜے صورتی مہ قدر اپ لوڈ کرہ کلہۡ چے تیں پکوۡ یقین ہو آں اِواں مُون٘ڈ معلوم ہو۔
 public-domain-explanation-2 = من٘ڑنئ اواز پُنیان٘لو انجن٘ڑاں کریا بُٹؤں نہ من٘ڑنئ جُملی سَیں ہوں تھی چے سَیں عام بلیُوں مہ آں نَیں ژِبہۡ مہ استعمال ہوں۔ کم لکھ بلی کاں چے جُملی تیار کرَیں مہ تیں مدد کراتھی سَیں ݜَیں تھی;
 public-domain-explanation-3 = نَیں آں عام مشقُلائیں بلی اماں نہ، تاں مرگلیؤں لا یا ژِباں خلکؤں ملیۡ ملی سن٘دی مثالاں طور ‘لِکَئیں سیالی’
@@ -91,3 +104,27 @@ reviewing-sentences-explanation-2 = کہ جُملہ بُول ݜَیں شرطؤں
 reviewing-sentences-explanation-3 = کہ جُملہ بُو تل ݜَئیں شرطؤں تل پُوئیر نی تھی کھئیں &quot;کگا &quot; کھبُوئ کِھن٘گئیں بٹنہ تل ٹک کری۔ کہ تُو جُملہ پڑی سُگا پورزی/پورژی تُھو نَیں کھئیں تے اس پھت کرے مُوٹُھو لن٘گھہ۔
 reviewing-sentences-explanation-4 = کہ تِگے گتہ نھالَئیں جُملی بارژی تھی کھیں تے زؤں ملی مُتیۡ جُملی ٹول کرَیں مہ مدد کرہ ۔
 domain-explanation = جُملہ مہ‌گی بارہ مہ بحث ہُوئ تُھو ݜسے تس جُملاں ڈومین بناں تھہ۔ اُسکېں تُو ݜیوں مہ ایک خوش کرہاں تُھو:
+
+## Question collection ids
+
+adding-questions = سوال جمع کرُژاں تھو
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = مڑنَیں سوال گِھن٘ل ہُوئ تُھو؟
+what-makes-a-good-question-explanation = عوامی ڈېٹاسیٹاں مڑنَیں سوال ݜے ہو چے:
+what-makes-a-good-question-explanation-criteria-1 = پورژَیں تے جواب دېں ہسان ہو
+what-makes-a-good-question-explanation-criteria-2 = عام خلکاں متعلق ہو
+what-makes-a-good-question-explanation-criteria-3 = تسی مہ اڅھک، فحش آں اوان مشخُلا نی ہو
+what-makes-a-good-question-tip = تُو اسی مہ مختلف موضوعات یی تے عنواناتؤں لا بال بان۔
+easy-to-understand = پورژَیں وڑیا ہو
+easy-to-understand-explanation = ݜے لک سوال خوش کرہ چے سَیں ہر ماݜے پورژَیں وڑیا ہوں چاہے اُو گِھن٘لَیں کلچر یا موضوع نہ گن نی ہو۔
+spelling-and-pronunciation = ہیزی تے کامی
+spelling-and-pronunciation-explanation = صحیح املا تے گرامر استعمال کرہ۔
+length = ڙِگیۡ یار/ہار
+length-explanation = سوال ݜے ہو چے تسیں جواب ایک دُو جملیُوں مہ دِیُوژ۔
+dont-add-subheader = جمع نېرہ
+culturally-specific-questions = صرف ثقافتی یاں متعلق سوالہ
+culturally-specific-questions-explanation = ݜے سوالہ چے سَیں صرف کلچراں متعلق ہوں آں جواب دېں والاں متعلق گمانہ ساند
+length-avoid-explanation = ݜے سوالہ چے سِواں جواب 15 سِن٘گڈؤں مہ دېوں گِران ہو
+process-steps = عمل/ کھڑپی

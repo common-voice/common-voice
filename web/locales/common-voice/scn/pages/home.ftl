@@ -5,7 +5,7 @@ default-tagline = Mozilla Common Voice è na nizziativa pi ajutari a nzignari ê
 home-cta = Parra, cuntribbuisci!
 wall-of-text-start = A vuci è naturali, a vuci è umana. Pi chistu a pussibbilità di criari na tecnuluggìa vucali usàbbili di nostri màchini ni ncanta. Ma pi criari sistemi vucali, abbisugnamu di na granni quantità di dati di vuci diversi.
 wall-of-text-more-mobile = A majurìa dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazzioni. Pi sta scaciuni abbiammu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru pi tutti.
-wall-of-text-more-desktop = Ora ni po' dunari a to vuci pi ajutàrini a criari un database vucali lìbbiru ca po èssiri usatu di cu' è-è pi criari app nnuvativi pâ riti e pî dispusitivi mòbbili. Liggi na frasi p'ajutàrini a nzignàrici ê màchini comu pàrranu i genti nnâ vita vera. Cuntrolla u travagghiu di l'autri cullabburatura p'ammigghiurari a qualità. È sìmplici!
+wall-of-text-more-desktop = Ora ni po’ dunari a to vuci pi ajutàrini a criari na basi di dati vucali lìbbira ca po èssiri usata di cu’ è-è pi criari app nnuvativi pâ riti e pî dispusitivi mòbbili. Liggi na frasi p’ajutàrini a nzignàrici ê màchini comu pàrranu i genti nnâ vita vera. Cuntrolla u travagghiu di l’autri cullabburatura p’ammigghiurari a qualità. È sìmplici!
 wall-of-text-first = A vuci è naturali, a vuci è umana. Pi chistu a pussibbilità di criari na tecnuluggìa vucali usàbbili di nostri màchini ni ncanta. Ma pi criari sistemi vucali, i diviluppatura ànnu bisognu di na granni quantità di dati di vuci diversi.
 wall-of-text-second = A majurìa dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazzioni. Pi sta scaciuni abbiammu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru e accissìbbili pi tutti.
 show-wall-of-text = Cchiù nfurmazziuna
@@ -19,10 +19,10 @@ listen-paragraph = Cuntrullari i riggistrazzioni fatti di autri è macari mpurta
 listen-goal-text = Riggistrazzioni validati
 hours-recorded = Uri riggistrati
 hours-validated = Uri validati
-voices-online = Vuci 'n linia ora
+voices-online = Vuci ’n linia ora
 todays-progress = Prugressu di oji
 help-reach-goal = Ajùtani ad arrivari a { $goal }
-read-terms-q = Liggisti i nostri cunnizzioni d'usu?
+read-terms-q = Liggisti i nostri cunnizzioni d’usu?
 ready-to-record = Sì prontu pi dunari a to vuci?
 all-locales = Tutti
 today = Oji
@@ -41,10 +41,10 @@ x-years-short =
         [one] Annu
        *[other] { $count } anni
     }
-help-make-dataset = Ajùtani a custruiri na basi di dati d'alta qualità e dispunìbbili pubblicamenti
+help-make-dataset = Ajùtani a custruiri na basi di dati d’alta qualità e dispunìbbili pubblicamenti
 sign-up-account = Riggìstrati
-email-subscription-title = Iscrìviti ê nutizzi nnall'e-mail
-email-subscription-title-new = Scrìviti ê littri di nfurmazzioni di Common Voice, ê mimuranni supra l'ubbittivi e ê nutizzi supra i prugressi.
+email-subscription-title = Iscrìviti ê nutizzi nnall’e-mail
+email-subscription-title-new = Scrìviti ê littri di nfurmazzioni di Common Voice, ê mimuranni supra l’ubbittivi e ê nutizzi supra i prugressi.
 
 ## Account Benefits
 
@@ -52,17 +52,17 @@ benefits = Binifici
 rich-data = Fai cchiù ricchi pussìbbili i dati chi manni dànnuni quarchi nfurmazzioni dimugràfica anònima. Sti nfurmazzioni sarannu scancillati prima di pubblicari i dati.
 improve-audio = I nfurmazzioni dû prufilu fannu crìsciri a qualità dî dati usati e a pricisioni dû ricanuscimentu vucali.
 keep-track = Teni trazza dî to prugressi e statìstichi nnê lingui unni cullàbburi.
-compare-progress = Vidi comu è u to prugressu 'n cunfruntu all'autri cullabburatura 'n tuttu u munnu.
-view-goals = Vidi u to prugressu cu l'ubbittivi pirsunali e dû pruggettu.
-join-newsletter = Si voi, ti po' scrìviri â nostra lista e-mail pi ricìviri l'attualizzi e l'ùrtimi nfurmazzioni supra ô pruggettu.
+compare-progress = Vidi comu è u to prugressu ’n cunfruntu all’autri cullabburatura ’n tuttu u munnu.
+view-goals = Vidi u to prugressu cu l’ubbittivi pirsunali e dû pruggettu.
+join-newsletter = Si voi, ti po’ scrìviri â nostra lista e-mail pi ricìviri l’attualizzi e l’ùrtimi nfurmazzioni supra ô pruggettu.
 
 ## What's public
 
-whats-public = Quali dati su' pùbblici?
+whats-public = Quali dati su’ pùbblici?
 email-not-public = Nun pubblicaremu u to nnirizzu e-mail.
 recordings-and-locale-public = U nùmmaru di riggistrazzioni e i lingui unni cullàbburi sarannu pùbblici.
-username-optin-public = Po' scègghiri si pùbblicari u to nomu utenti o arristari anònimu.
-demographic-deidentified-clarity-2 = I dati dimugràfici carricati (pi scempru età, gèniri, lingua e accentu) nun sarannu mai fatti pùbblici ncapu ô to prufilu, e nun sarannu lijati ô to cuntu nnê dati. I riggistrazzioni audiu nnividuali sarannu assuciati ê dati dimugràfici pi aviri n'analisi cchiù pricisa, pi scempru, un ricircaturi putissi vuliri nzignari un mudeḍḍu p'un sigmentu di pupulazzioni spicìficu.
+username-optin-public = Po’ scègghiri si pùbblicari u to nomu utenti o arristari anònimu.
+demographic-deidentified-clarity-2 = I dati dimugràfici carricati (pi scempru età, gèniri, lingua e accentu) nun sarannu mai fatti pùbblici ncapu ô to prufilu, e nun sarannu lijati ô to cuntu nnê dati. I riggistrazzioni audiu nnividuali sarannu assuciati ê dati dimugràfici pi aviri n’analisi cchiù pricisa, pi scempru, un ricircaturi putissi vuliri nzignari un mudeḍḍu p’un sigmentu di pupulazzioni spicìficu.
 username-email-not-demographic = U to nomu utenti e u to nnirizzu e-mail nun sarannu assuciati chî dati pubblicati.
 
 ## Landing
@@ -83,13 +83,6 @@ community-and-languages = Cumunità e lingui
 partnerships-menu-item-tooltip = Cullàbbura cu nuiautri
 press-and-stories-menu-item-tooltip = Vìsita u nostru blog o scrivi ncapu a nuiautri
 community-and-languages-menu-item-tooltip = Scopri lingui, cumunità e Common Voice
-
-## MENU ITEM ARIA LABELS
-
-about-menu-aria-label = Minù dî scartati di nfurmazzioni
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -112,12 +105,6 @@ join-discord-community-action = Jùnciti a nuiautri nne Discord
 find-us-on-matrix = Attròvani nne Matrix
 # label for button
 find-us-on-matrix-action = Attròvani nne Matrix
-
-## Featured section
-
-
-## Developers section
-
 
 ## Get involved section
 

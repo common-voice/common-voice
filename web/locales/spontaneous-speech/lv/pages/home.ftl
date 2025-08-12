@@ -12,11 +12,11 @@ why-card-2-text = Labākai reālās dzīves runas atpazīšanai, piemēram, ja t
 why-card-3-text = Vieglākai datu ievākšanai no steidzīgiem vai veciem cilvēkiem, kam <mark>nav laika</mark>
 how-spontaneous-speech-works = Kā darbojas spontānā runa
 # text wrapped in <mark></mark> will have a blue background
-prompt-bubble-title = <mark>Uzvedne</mark>
-prompt-bubble-subtitle = Mēs parādīsim jums uzvedni vai jautājumu
+prompt-bubble-title = <mark>Jautājums</mark>
+prompt-bubble-subtitle = Mēs parādīsim jums jautājumu
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Atbilde</mark>
-respond-bubble-subtitle = Atbildiet uz jautājumu vai reaģējiet uz uzvedni savā dabiskajā runas veidā
+respond-bubble-subtitle = Atbildiet uz jautājumu savā dabiskajā runas veidā
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Pārrakstīt</mark>
 transcribe-bubble-subtitle = Pārrakstiet ko dzirdat audio ierakstā

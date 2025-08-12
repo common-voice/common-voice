@@ -4,7 +4,6 @@ record-player-header = Tyu'un va'a jin tatyi nu a natyiso nu
 mic-access-error = Kuantiñu nu kaa ka'an ni'ni
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> je natyiso ku'va kanta sa'a nu
-no-prompts-message = Vitan ñu'un na iyo tù'un jika tù'un jiè'è tù'un ya'á. Kunuu nasa'a jiaa nu maaja
 error-skipping = Ntivɨ ni xinoo ni iin tù'un jika tù'un
 error-recording = Ntivɨ ji ntu tyu'u va'a nɨ'ɨ jɨn tatyi
 error-fetching-prompts = Ntuvi nkuvi sa'a dani tù'un jika tù'un. Kune'ya nu xa maa ja kunuu.

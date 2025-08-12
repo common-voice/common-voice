@@ -66,38 +66,16 @@ recordings-and-locale-public = די צאל פון רעקארדירונגען א�
 username-optin-public = איר קענט וועלן צו מאכן אייער באנוצער נאמען עפענטליך אדער אנאנים.
 username-email-not-demographic = אייער באנוצער נאמען און אימעיל וועט נישט זיין פארבינדן מיט די ארויגעגעבענעם דאטא.
 
-## Landing
-
-
 ## NAV ITEMS
 
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
+answer-questions = ענטפערט פראגן
+add-questions = לייגט צו פראגן
+about-us = איבער אונז
 
 ## Hero section
 
+hero-title = טעכנאלאגיע וואס רעדט אייער שפראך
 
 ## Action items section
 
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-
+add-text = לייגט צו ווערטער

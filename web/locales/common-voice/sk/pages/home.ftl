@@ -90,33 +90,33 @@ read-more-about = Prečítajte si viac na stránke O nás
 ## NAV ITEMS
 
 answer-questions = Odpovedajte na otázky <small>(už čoskoro)</small>
-answer-questions-coming-soon = Odpovedajte na otázky <small>(už čoskoro)</small>
 review-transcriptions = Kontrolujte prepisy <small>(už čoskoro)</small>
-review-transcriptions-coming-soon = Kontrolujte prepisy <small>(už čoskoro)</small>
 add-questions = Pridajte otázky <small>(už čoskoro)</small>
-add-questions-coming-soon = Pridajte otázky <small>(už čoskoro)</small>
-transcribe-audio-coming-soon = Prepisujte zvuk <small>(už čoskoro)</small>
+review-questions = Kontrolujte otázky
 transcribe-audio = Prepisujte zvuk <small>(už čoskoro)</small>
 press-and-stories = Tlač a príbehy
 community-and-languages = Komunita a jazyky
 coming-soon = Už čoskoro
+about-us = O nás
+scripted-speech = SKRIPTOVANÁ REČ
+spontaneous-speech = SPONTÁNNA REČ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerstvá, tlač a príbehy, komunita a jazyky
+about-us-menu-item-tooltip = Získajte informácie o poslaní a tíme, ktorý stojí za Common Voice
 partnerships-menu-item-tooltip = Staňte sa našimi partnermi
 press-and-stories-menu-item-tooltip = Navštívte náš blog alebo o nás napíšte
 community-and-languages-menu-item-tooltip = Objavte jazyky, komunity a spoločný hlas
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Možnosti ponuky O nás
+about-menu-aria-label = Ponuka pre prístup k partnerstvám, tlači a príbehom, komunite a Jazykom
+about-us-menu-aria-label = Ponuka možností O nás
+about-us-menu-item-aria-label = Ponuka možností O nás
 partnerships-menu-item-aria-label = Získajte informácie o partnerstvách so službou Common Voice
 press-and-stories-menu-item-aria-label = Získajte prístup k tlačovým správam a príbehom týkajúcim sa Common Voice
 community-and-languages-menu-item-aria-label = Preskúmajte komunitu a jazyky podporované Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -137,7 +137,9 @@ spontaneous-card-header = Spontánna reč
 spontaneous-card-content = Reagujte na výzvy na vytvorenie kolekcií údajov pre organické, hovorové kontexty. Ideálne pre hovorové jazyky.
 language-text-card-header = Text jazyka
 language-text-card-content = Vytvárajte alebo zdieľajte verejné výzvy, vety a text na preklad, malé jazykové modely a ďalšie.
+coming-soon = Už čoskoro
 add-text = Pridajte text
+answer = Odpovedajte
 
 ## Community section
 

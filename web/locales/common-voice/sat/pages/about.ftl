@@ -61,15 +61,9 @@ about-playbook-how-localize = ᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢ
 
 about-playbook-how-add-sentences = ᱤᱧ ᱫᱚ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱪᱮᱞᱠᱟᱛᱮ ᱥᱮᱞᱮᱫ ᱟᱹᱧ ?
 
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-4 = ᱥᱚᱥᱤᱭᱟᱹᱞ ᱢᱮᱰᱤᱭᱟ
-
-## How to validate
-
 
 ## How to access dataset
 
@@ -79,6 +73,3 @@ about-playbook-how-access-dataset = ᱤᱧ ᱫᱚ ᱪᱮᱞᱠᱟᱛᱮ ᱰᱟ�
 
 about-playbook-how-project-governance-content-5 = ᱢᱩᱞ ᱟᱨ ᱪᱤᱱᱦᱟᱹᱯ ᱾
 about-playbook-how-project-governance-content-7 = <governanceLink>ᱟᱞᱮ ᱪᱮᱫ ᱞᱮᱠᱷᱟ ᱞᱮ ᱥᱟᱥᱚᱱᱚᱜ ᱠᱟᱱᱟ ᱚᱱᱟ ᱵᱟᱵᱚᱛ ᱰᱷᱮᱨ ᱯᱟᱲᱦᱟᱣ ᱢᱮ</governanceLink>
-
-## How is Common Voice funded
-

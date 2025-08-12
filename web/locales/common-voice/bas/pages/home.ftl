@@ -71,36 +71,3 @@ help-contribute = Inyu yoñ ñgaba ikédé nduña i njañgi nya-ndi-nya i ma
 login-company = Jôp / Tila jôl ni mél i { $company }
 profile-not-required = Likañ li tabé le mut a bana liyimbne ñwaa a nsañge kiñ yé, to ibale hala a yé nseñ, béñge hana i si inyu nigil inyu ki.
 read-more-about = Kônde añ mam mape i Bés-bo-nje wés lipep
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

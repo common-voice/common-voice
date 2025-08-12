@@ -123,6 +123,3 @@ about-playbook-how-project-governance-content-4 = Komunitatearen parte-hartzea, 
 about-playbook-how-project-governance-content-5 = Balioa eta aitortza.
 about-playbook-how-project-governance-content-6 = Elkarri kontu ematea.
 about-playbook-how-project-governance-content-7 = <governanceLink>Irakurri gehiago gure gobernatzeko moduaz</governanceLink>
-
-## How is Common Voice funded
-

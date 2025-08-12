@@ -10,9 +10,6 @@ listen-abort-confirm = ਪਰਮਾਣਿਤ ਕਰਨਾ ਪੂਰਾ
 # Menu item
 validate-readings = ਪੜ੍ਹਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕਰੋ
 
-## MENU ITEM TOOLTIPS
-
-
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = ਸੁਣਨ ਚੋਣਾਂ ਮੇਨੂ

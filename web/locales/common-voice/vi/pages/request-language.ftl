@@ -33,3 +33,5 @@ request-language-success-list-3 =
 request-language-error =
     Chúng tôi có thể đã không nhận được yêu cầu đó. Vui lòng gửi email trực tiếp cho chúng tôi
     trên <emailLink>{ $email }</emailLink> và chúng tôi sẽ liên hệ lại với bạn!
+need-help-deciding-platform = Bạn cần trợ giúp để quyết định nên chọn cái nào?
+need-help-deciding-platform-explanation-3 = Nếu bạn không thấy ngôn ngữ của mình ở bất kỳ phần nào của nền tảng, hãy chọn cả hai.

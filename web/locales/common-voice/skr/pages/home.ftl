@@ -83,36 +83,3 @@ help-contribute = کامن وائس تے پروفائل بݨا تے آپݨی آ�
 login-company = { $company } ای میل نال لاگ ان/ سائن اپ
 profile-not-required = ونگاراں کیتے پروفائل ضروری کائنی پر مدد گار ہے، وجہ کیتے ہیٹھاں ݙیکھو۔
 read-more-about = ساݙے تعارفی ورقہ تے ٻیا پڑھو
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -58,36 +58,3 @@ help-contribute = Tu gali padėti kurti įvairialypį, atvirą duomenų rinkinį
 login-company = Prisijunk arba užsiregistruok su savo „{ $company }“ el. paštu
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 read-more-about = Išsamesnė informacija – tinklalapyje „Apie mus“
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

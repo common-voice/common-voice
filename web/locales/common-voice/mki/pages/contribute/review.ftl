@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-lang-not-selected = اوهان ڪا به ٻولي ڪوني چونڊي هي. ٻولي ٻلوڻ لاءِ مھرباني ڪري آڀري <profileLink>Profile</profileLink> نا ڃو.
+sc-review-lang-not-selected = اوهان ڪا به ٻولي ڪون چونڊي هي. ٻولي چونڊڻ لاءِ مھرباني ڪري آپري <profileLink>Profile</profileLink> ڏانھن جاو.
 sc-review-title = جملن رو جائزو  ڎ ٺو
 sc-review-loading = جملا لوڊ ٿي ڀيا…
 sc-review-select-language = مھرباني ڪري جملنا رو جائزو ليڻ لاءِ ٻولي چونڊ و.

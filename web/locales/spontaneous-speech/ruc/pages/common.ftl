@@ -7,8 +7,6 @@ action-tap = kwataku
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = okuwayo amawuuro agakwata okululimi
-# Label for button on contribution switcher
-change = kyusa
 coming-soon = endimi ezindi zingi zikwiza
 media-recorder-api-not-supported = Akakwata amaloboozi aka API tikakulosebwa ku kibanja kyamu
 # Toast message that is displayed when an item is skipped

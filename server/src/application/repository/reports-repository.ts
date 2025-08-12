@@ -8,6 +8,7 @@ import {
   ReportKind,
   REPORTED_SENTENCE,
 } from '../reports/use-case/command-handler/command/create-report-command'
+import { cleanText } from '../text-cleaner'
 
 const db = getMySQLInstance()
 
@@ -52,7 +53,7 @@ const insertReport =
             db.query(createQueryForReportKind(report.kind), [
               report.clientId,
               report.id,
-              reason,
+              cleanText(reason),
             ]),
           (err: Error) =>
             createDatabaseError(`Error inserting ${report.kind} report`, err)

@@ -62,9 +62,3 @@ create-profile-button = پروفائل بݨاؤ
 img-alt-success-checkmark = کامیابی دا نشان
 # menu item
 read-sentences = جملے پڑھو
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

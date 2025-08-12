@@ -156,6 +156,7 @@ write-contribute-menu-tooltip = Zinnen toevoegen en beoordelen, Vragen toevoegen
 add-sentences-menu-item-tooltip = Zinnen in uw taal toevoegen
 review-sentences-menu-item-tooltip = Zinnen in uw taal beoordelen
 add-questions-menu-item-tooltip = Vragen in uw taal toevoegen
+review-questions-menu-item-tooltip = Vragen beoordelen
 transcribe-audio-menu-item-tooltip = Audio-opnamen in uw taal transcriberen
 
 ## MENU ITEM ARIA LABELS
@@ -164,4 +165,5 @@ write-contribute-menu-aria-label = Optiesmenu Schrijven
 add-sentences-menu-item-aria-label = Nieuwe zinnen voor de gemeenschap toevoegen om te lezen
 review-sentences-menu-item-aria-label = Bestaande zinnen die door de gemeenschap zijn ingediend beoordelen
 add-questions-menu-item-aria-label = Nieuwe vragen indienen voor de gemeenschap om te lezen en te beantwoorden
+review-questions-menu-item-aria-label = Nieuwe vragen die door de gemeenschap zijn ingediend beoordelen en erop stemmen
 transcribe-audio-menu-item-aria-label = Audio-opnamen omzetten naar tekst

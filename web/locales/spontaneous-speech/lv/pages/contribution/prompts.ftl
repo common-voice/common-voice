@@ -4,10 +4,9 @@ record-player-header = Ierakstīt atbildi
 mic-access-error = Jums ir jāatļauj piekļuve mikrofonam.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> un atbildiet runājot dabiski
-no-prompts-message = Pašlaik šai valodai nav nevienas uzvednes. Lūdzu, pārlādējiet lapu vai mēģiniet vēlreiz nedaudz velāk.
-error-skipping = Izlaižot uzvedni notikusi kļūda
+error-skipping = Izlaižot jautājumu notikusi kļūda
 error-recording = Ierakstīšanas laikā notikusi kļūda
-error-fetching-prompts = Ielādējot uzvednes, radās kļūda. Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
+error-fetching-prompts = Ielādējot jautājumu, radās kļūda. Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
 error-uploading-response = Saglabājot jūsu atbildi, notikusi kļūda
 prompt-submitted-success = Atbilde ir veiksmīgi saglabāta
 prompt-response-deleted-success = Atbilde veiksmīgi izdzēsta
@@ -21,7 +20,7 @@ submit-all-button = Saglabāt visu
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Uzziniet, kā izmantot šo lapu
-learn-how-to-use-prompts-explanation = Pāris teikumos atbildiet uz uzvedni runājot dabiski. Pārliecinieties, ka jūsu atbilde ir cieņpilna un neaizskaroša.
+learn-how-to-use-prompts-explanation = Pāris teikumos atbildiet uz jautājumu runājot dabiski. Pārliecinieties, ka jūsu atbilde ir cieņpilna un neaizskaroša.
 learn-how-to-use-prompts-guidance = Noklikšķiniet <guidanceLink>šeit</guidanceLink>, lai uzzinātu, kā izmantot šo lapu
 learn-how-to-use-transcribe = Uzziniet, kā veikt pārrakstīšanu
 learn-how-to-use-transcribe-explanation = Pierakstiet tieši to, kas dzirdams ierakstā, tostarp vietturus, piemēram, “um”, “āāā”, vai “ēēē”.

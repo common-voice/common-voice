@@ -151,6 +151,3 @@ email-opt-in-info = Common Voice nih tinhmi theihternak, le tuah ciami thawngtha
 email-opt-in-info-title = Common Voice cakuatnak min cazin ah i tel ve
 indicates-required = * aherh mi a um
 not-available-abbreviation = N/A
-
-## Donate banner
-

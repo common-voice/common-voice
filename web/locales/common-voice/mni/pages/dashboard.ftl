@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ꯄꯥꯟꯗꯝ ꯑꯃꯥ ꯊꯝꯃꯨ
 cant-decide = ꯋꯥꯔꯦꯞ ꯂꯧꯕꯥ ꯉꯝꯗ꯭ꯔꯤꯕꯔꯥ?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
-                               *[other] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
-                               *[other] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
-                               *[other] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
-                               *[other] { $totalHours } ꯄꯨꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
-                               *[other] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
-                               *[other] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
-                               *[other] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞ ꯅꯣꯡꯃꯗ ꯫
-                               *[other] { $totalHours } ꯄꯨꯡꯁꯤꯡ ꯐꯪꯕ ꯌꯥꯕ ꯍꯧꯖꯤꯛꯇꯗ { $periodMonths } ꯊꯥꯁꯤꯡ ꯀꯔꯤꯒꯨꯝꯕ { $people } ꯃꯤꯑꯣꯏ record { $clipsPerDay } ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯅꯣꯡꯃꯗ ꯫
-                            }
-                    }
-            }
-    }
 how-many-per-day = ꯌꯥꯝꯅꯥ ꯐꯔꯦ! ꯅꯣꯡꯃꯗꯥ ꯀ꯭ꯂꯤꯞ ꯀꯌꯥ?
 how-many-a-week = ꯌꯥꯝꯅꯥ ꯐꯔꯦ! ꯆꯌꯣꯜꯗꯥ ꯀ꯭ꯂꯤꯞ ꯀꯌꯥ?
 which-goal-type = ꯑꯗꯣꯝꯅꯥ ꯋꯥ ꯉꯥꯡꯕꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ, ꯇꯥꯕꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ ꯅꯠꯇ꯭ꯔꯒꯥ ꯑꯅꯤꯃꯛ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?

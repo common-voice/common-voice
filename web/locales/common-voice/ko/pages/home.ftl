@@ -74,33 +74,10 @@ read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
 
 ## NAV ITEMS
 
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
+answer-questions = 질문 답변하기
+review-transcriptions = 번역 검토
 
 ## Hero section
 
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-
+# icon is an arrow that points downwards
+get-started = 시작하기<icon><icon>

@@ -2,6 +2,9 @@
 guidelines-header = Leiðbeiningar varðandi framlög
 voice-collection = Raddasafn
 sentence-collection = Söfnun setninga
+
+## Voice Collection nav ids
+
 varying-pronunciations = Mismunandi framburður
 misreadings = Mislestur
 offensive-content = Óviðeigandi efni
@@ -11,13 +14,22 @@ volume = Hljóðstyrkur
 reader-effects = Mismunandi upplestur
 just-unsure = Ertu ekki viss?
 example = Dæmi
+
+## Voice collection sidebar content
+
 misreadings-explanation-2 = Mjög algeng mistök eru:
 still-have-questions = Ertu enn með spurningar?
 contact-common-voice = Hafðu samband við Common Voice teymið
+
+## Sentence collection nav ids
+
 public-domain = Opinber gögn
 citing-sentences = Vitna í setningar
 adding-sentences = Bæta við setningum
 reviewing-sentences = Yfirfara setningar
+
+## Sentence collection sidebar content
+
 citing-sentences-subheader-websites = Vefsvæði
 citing-sentences-subheader-websites-explanation = Þú gætir látið vefslóðina fylgja með, t.d. "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Fræðileg tilvísun

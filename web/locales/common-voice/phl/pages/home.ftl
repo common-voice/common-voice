@@ -80,11 +80,8 @@ read-more-about = اسی متعلقہ صفحہ بے دوئی مزید منوئی
 ## NAV ITEMS
 
 answer-questions = سوال جویبی <small>( لپ یھین)</small>
-answer-questions-coming-soon = سوال جویبی <small>( لپ یھین)</small>
 review-transcriptions = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
-review-transcriptions-coming-soon = دوبارہ دڇھئنی عبارت  <small>(لپ یھین )</small>
 add-questions = سویلی جمع تھئنی  <small>(لپ یھین )</small>
-transcribe-audio-coming-soon = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 transcribe-audio = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 press-and-stories = پریس او شلوکہ
 community-and-languages = کمیونٹی او زبینی
@@ -99,13 +96,9 @@ community-and-languages-menu-item-tooltip = زبینی او کمیونٹیز ا�
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = مینوئی بارئی رائے
 partnerships-menu-item-aria-label = کامن وائس سنگی شراکتی بارئی جھونوئی۔
 press-and-stories-menu-item-aria-label = کامن وائسی بارئی پریس ریلیز اور قصیم  تھے رسائی حاصل تھوئی۔
 community-and-languages-menu-item-aria-label = کامن وائسی ذریعہ کی تعاون یافتہ کمیونٹی اور زبینی دریافت تھوئی۔
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -126,6 +119,7 @@ spontaneous-card-header = بے ساختہ تقریر
 spontaneous-card-content = تیݨی زُبانی دپارہ ڈیٹا سیٹ سمئنی دپارہ بیڈو ترو جواب دوئی۔ زُبان کھونڈئنی دپارہ اینو بیڈو زبردست
 language-text-card-header = زُبینی عبارت
 language-text-card-content = عوامی دپارہ آک ڈومین سما یا شئیر تھےۡ عبارت یا جملے ترجمہ تیݨی زپانی دپارہ آک ماڈل سموئی
+coming-soon = لپ یِھین
 add-text = ٹیکسٹ شامل تھہ
 
 ## Community section

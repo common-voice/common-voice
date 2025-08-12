@@ -105,7 +105,6 @@ hsb = górnołużycki
 ht = haitański
 hu = węgierski
 hy-AM = ormiański
-hyw = zachodni ormiański
 ia = interlingua
 ibb = ibibio
 id = indonezyjski
@@ -273,6 +272,7 @@ privacy = Prywatność
 terms = Warunki korzystania
 cookies = Ciasteczka
 faq = Często zadawane pytania
+documentation = Dokumentacja
 content-license-text = Treść dostępna na warunkach <licenseLink>licencji Creative Commons</licenseLink>
 share-title = Zachęć innych do nagrania swojego głosu!
 share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspomóż swoim głosem na { $link }
@@ -295,3 +295,7 @@ not-available-abbreviation = Niedostępne
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Potrzebujemy</mark><br/><mark>Twojej pomocy!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Roczny koszt przechowywania zestawów danych i ulepszania platformy dla ponad 100 społeczności językowych, które polegają na naszej działalności, wynosi prawie milion dolarów. <strong>Jeśli cenisz otwarte, inkluzywne dane – przekaż darowiznę już dziś!</strong>

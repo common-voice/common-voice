@@ -149,6 +149,3 @@ about-playbook-how-project-governance-content-4 = Ukuthatha inxaxheba koluntu ku
 about-playbook-how-project-governance-content-5 = Ixabiso kunye nokuqatshelwa.
 about-playbook-how-project-governance-content-6 = Uxanduva lokuphendula.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda ngakumbi malunga nendlela esilawulwa ngayo</governanceLink>
-
-## How is Common Voice funded
-

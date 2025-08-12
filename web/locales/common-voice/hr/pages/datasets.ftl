@@ -3,11 +3,10 @@
 datasets-heading = Skupovi podataka
 datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
 datasets-positioning =
-    Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju govorne tehnologije, utemeljene na strojnom učenju.
+    Veliki, javno dostupni skupovi glasovnih podataka potaknut će inovacije i zdravu konkurenciju u području tehnologije strojnog učenja govora. Skup podataka Common Voicea najveći je te vrste, ali nije jedini.
     
-    Višejezični skup podataka Common Voicea već je najveći javno dostupan glasovni skup podataka takve vrste, ali nije jedini.
-    
-    Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice raste, bit će izvor za naša buduća izdanja.
+    Ova stranica služi kao referentni centar za druge skupove glasovnih podataka otvorenog koda i kao dom za naša aktualizirana izdanja kako Common Voice raste.
+datasets-speech-bubble-content = Uzbudljive vijesti! Spontani govor će uskoro biti dostupan! Prati novosti i svakako posjeti naš <discordLink>Discord</discordLink> za najnovije informacije.
 language = Jezik
 download-dataset-header = Preuzmi skup podataka
 download-delta-explainer = Učinili smo neke promjene. Delta segmenti sadrže samo najnovije isječke od zadnjeg izdanja. <deltaLink>Pročitaj više o ovom radu</deltaLink>.
@@ -51,7 +50,7 @@ community-playbook = Priručnik zajednice
 resource-playbook-info = <playbookLink>Pronađi korisne smjernice</playbookLink> za sve Common Voice teme, od lokalizacije do korištenja skupa podataka, kao i kako se povezati s našom zajednicom.
 data-other-librispeech-description = LibriSpeech je korpus od oko 1.000 sati engleskog govora pri 16 Khz, izveden iz audio knjiga LibriVox projekta.
 data-other-ted-name = TED-LIUM korpus
-data-other-ted-description = TED-LIUM korpus je izrađen iz audio razgovora i njihovih transkripcija, dostupnih na TED web-stranici.
+data-other-ted-description = TED-LIUM korpus je izrađen iz audio razgovora i njihovih transkripcija, dostupnih na TED web stranici.
 data-other-voxforge-description = VoxForge je izrađen za sakupljanje transkribiranih govora za upotrebu s otvorenim i slobodno dostupnim sustavima za prepoznavanje govora.
 data-other-tatoeba-description = Tatoeba je velika baza podataka s rečenicama, prijevodima i govornim snimkama za učenje jezika. Ovo preuzimanje sadrži govorni engleski jezik, snimljen od njihove zajednice.
 your-feedback = Imaš ideje kako poboljšati Common Voice? Javi nam na Discourse forumu

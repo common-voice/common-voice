@@ -26,3 +26,9 @@ do-not-section-title = Bunları yapmayın
 do-not-section-guideline-1 = Kişisel bilgileri (örn. isim veya finansal bilgiler) istemeyin
 do-not-section-guideline-2 = Önyargılı veya saldırgan duyguları ifade etmeyin ve ifade edilmesini istemeyin
 do-not-section-guideline-3 = Hassas sorular sormayın
+# Code switching Guidelines
+cs-do-section-guideline-1 = İki ayrı dil içeren sorulardan ve bağlamdan kaçının
+cs-do-section-guideline-2 = Uydurma senaryolar, durumlar ve canlandırmalar türetmeyin
+cs-do-not-section-guideline-1 = Kişisel bilgiler (örn. isimler veya finansal bilgiler) veya saldırgan fikirler paylaşılmasını istemeyin
+cs-do-not-section-guideline-2 = Diller arasında geçiş yapmayı veya çeviri yapmayı istemeyin
+cs-do-not-section-guideline-3 = Aşırı resmi bir üslup kullanmayın

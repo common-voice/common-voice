@@ -51,7 +51,7 @@ benefits = 好處
 rich-data = 提供一寡人口統計資料了後，會當予您送出的資料閣加豐富。咱會當佇公開錄音檔進前，共一寡統計資料去識別化。
 improve-audio = 個人資料會當幫助改善進行語言識別準確度訓練時的語音資料。
 keep-track = 紀錄您的進度，佮各種語言的統計指標。
-compare-progress = 看看您的進度佮世界上其他所在的貢獻者比並如何？
+compare-progress = 來看覓您的進度佮世界上其他所在的貢獻者比並如何？
 view-goals = 檢視您的個人佮專案目標進度。
 join-newsletter = 嘛會當加入咱的郵件群組，會當收到專案進度更新佮新資訊。
 
@@ -69,38 +69,38 @@ username-email-not-demographic = 您的使用者名稱佮 E-Mail 袂佮公開發
 welcome-staff = 歡迎 { $company } 的員工！
 help-contribute = 您會當透過注文 Common Voice 資料並貢獻語音，來協助打造一套多樣化、開放原始碼的資料集。
 login-company = 登入 / 使用 { $company } 注文
-profile-not-required = 無需要註冊個人資料就etnag貢獻，毋過若是有的話會閣較有幫助
+profile-not-required = 無需要註冊個人資料就會當貢獻，毋過若是有的話會閣較有幫助
 read-more-about = 到咱的「關於」頁面了解閣較濟資訊
 
 ## NAV ITEMS
 
-answer-questions = 回答問題 <small>(近期推出)</small>
-answer-questions-coming-soon = 回答問題 <small>(咧欲推出)</small>
-review-transcriptions = 審核轉錄 <small>即將推出</small>
-review-transcriptions-coming-soon = 審核轉錄 <small>這欲推出</small>
-add-questions = 新增問題 <small>(近期推出)</small>
-transcribe-audio-coming-soon = 轉錄語音 <small>(咧欲推出)</small>
+answer-questions = 回答問題 <small>(咧欲推出)</small>
+review-transcriptions = 審核轉錄 <small>咧欲推出</small>
+add-questions = 新增問題 <small>(咧欲推出)</small>
+review-questions = 審核問題
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
-press-and-stories = 媒體與故事
-community-and-languages = 社群與語言
+press-and-stories = 媒體佮故事
+community-and-languages = 社群佮語言
 coming-soon = 咧欲推出
+about-us = 關於咱
+scripted-speech = 有記錄的講話內容
+spontaneous-speech = 家己的講話內容
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = 合作夥伴、媒體與故事、社群與語言
+about-menu-tooltip = 合作夥伴、媒體佮故事、社群佮語言
+about-us-menu-item-tooltip = 知影計畫的精神佮 Common Voice 背後的團隊
 partnerships-menu-item-tooltip = 成為夥伴
-press-and-stories-menu-item-tooltip = 前往我們的部落格或撰寫我們的故事
-community-and-languages-menu-item-tooltip = 探索語言、社群以及 Common Voice
+press-and-stories-menu-item-tooltip = 到咱的部落格抑是撰寫咱的故事
+community-and-languages-menu-item-tooltip = 探索語言、社群佮 Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = 關於選項選單
-partnerships-menu-item-aria-label = 了解如何與 Common Voice 成為合作夥伴
-press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿與故事
+about-us-menu-aria-label = 關於選項選單
+about-us-menu-item-aria-label = 關於咱的選單
+partnerships-menu-item-aria-label = 了解如何佮 Common Voic變成夥伴
+press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿佮故事
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -121,7 +121,9 @@ spontaneous-card-header = 家己的講話內容
 spontaneous-card-content = 回答有情境的問題來創作有機、平時講話慣常的資料集。適合予口說為主的語言。
 language-text-card-header = 語言文字
 language-text-card-content = 創作抑是分享公有領域的情境問答、字句、佮文字會當來翻譯、細語言模型、閣較濟應用。
+coming-soon = 咧欲推出
 add-text = 加添文字
+answer = 答案
 
 ## Community section
 

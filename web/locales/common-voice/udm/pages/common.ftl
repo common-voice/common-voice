@@ -12,9 +12,3 @@ mhr = Возьвыл пор
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

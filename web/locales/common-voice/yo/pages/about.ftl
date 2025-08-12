@@ -141,6 +141,3 @@ about-playbook-how-project-governance-content-4 = Ìkópa nínú àwùjọ
 about-playbook-how-project-governance-content-5 = Ìníyelórí àti ìdánimọ̀.
 about-playbook-how-project-governance-content-6 = Ìlágbọ̀yé ojúṣe.
 about-playbook-how-project-governance-content-7 = <governanceLink>Kà si nípa bí a ṣe ń darí</governanceLink>
-
-## How is Common Voice funded
-

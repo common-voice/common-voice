@@ -48,19 +48,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Xo rê hedefêk rone
 cant-decide = Nêeşkenî/a qerar bidê?
-activity-needed-calculation-plural =
-    { $people ->
-       *[other]
-            { $clipsPerDay ->
-               *[other]
-                    { $periodMonths ->
-                       *[other]
-                            { $totalHours ->
-                               *[other] Eke { $people } kesî roje de { $clipsPerDay } qeydanê vengî virazenê { $periodMonths } aşman de { $totalHours } saetî mumkîn ê.
-                            }
-                    }
-            }
-    }
 how-many-per-day = Zaf rind o! Roje de çend qeydî?
 how-many-a-week = Zaf rind o! Hewte de çend qeydî?
 which-goal-type = Ti wazenî/a qisey kerê, goşdarî bikerê yan zî her di?

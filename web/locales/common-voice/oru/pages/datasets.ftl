@@ -3,6 +3,7 @@
 datasets-heading = ډېټا سېټ
 datasets-headline = ماخ يې بُو ݭيے میوک ذریعۀ جوړېن، ته مختلف زبنی ته آوزی، که هرکوکه استعمال اېنچِن ته ژغ پویِنه ته ټرېننګ ته اېپ په ذریعۀ
 datasets-positioning = ترماخ يې او خیال هۀ که سۀ ستر ته آواز ډېټا سېټ يې ته عام خلق پاره جوړ کيېن که او سُو سۀ ته مقابله محول نر ته مشېن بنیاد زر تيېک ته سپیچ ټېکنالوجی ته زدکړه بارۀ نر۔ م سترک آواز يې ته مختلف زبنی اول لاسته ته خوئ قسُم سۀ منفرد ډېټا سېټ هۀ۔ خه او يې ګُشئ نک هۀ۔ آ صفحه ته حوالي ݭيې میوک ذریعۀ هۀ۔ څون توݭکيې يې که ته مشترک وائس او ډېټاسېټ مُخ په ترقي روان بَۀ او يې سو ته خلاص اپ ډېټ ټټوبئ بَۀ
+datasets-speech-bubble-content = ته خوشحالي خبر! ا بغېر ته ديېک سپسيېک ا تقریر یا ا خُلکت اِر روان هۀ! ته اپډېټ پاره لائن زر بی او آ یقیني کېوَن که ترماخ ا ډِسکورډ جیرېوی ته نیووه معلومات پاره
 language = زبان
 download-dataset-header = او ډېټا سېټ ډاؤن لوډ کَۀ
 download-delta-explainer = ماخ دی څه تبدیليے داکِن۔ ډېلټا سېګمنټ تیووه کلِپی دَری آخېري ریلیز لاسته بعد <deltaLink> ته پۀ کر باره نر بيے ګۀ غؤس </deltaLink>
@@ -68,9 +69,9 @@ donate-modal-explanation-1 = ته ډېټآ سېت ا ساتؤ دی بُو ته �
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold> که تُو يې بو ته پۀ شئ قدر کېوی پشومول ته ډېټآ، سن ال ا خوئ حصه نیکِز</bold>
 data-download-singleword-title = ډاؤن لوډ کېون ته سنګل ورډ ټارګېټ ا سېګمنټ
-data-download-singleword-callout-v2 = جی
+data-download-singleword-callout-v2 = ها
 data-download-button = نا
-data-download-yes = جی
+data-download-yes = ها
 data-download-deny = نا
 data-download-license = لائسنس: <licenseLink></licenseLink>CC-0
 data-download-modal = تُو بو پېری ا ډاؤن لوډ ته <size>شوری کېوی GBچیو مخکی { $size }

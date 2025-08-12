@@ -57,7 +57,7 @@ const DatasetInfo: React.FC<PropsFromState> = ({
         ) : (
           <DatasetCorpusDownload
             languagesWithDatasets={languagesWithDatasets}
-            initialLanguage={globalLocale}
+            initialLanguage={languagesWithDatasets.includes(globalLocale) ? globalLocale : 'en'}
             isSubscribedToMailingList={isSubscribedToMailingList}
           />
         )}

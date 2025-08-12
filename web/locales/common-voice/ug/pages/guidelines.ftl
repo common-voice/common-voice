@@ -3,6 +3,12 @@ guidelines-header = تۆھپە يېتەكچىسى
 guidelines-header-subtitle = Common Voice سانلىق مەلۇمات ئامبىرىغا جۈملە ۋە ئاۋاز ئۈزۈندىلىرىنى قانداق قوشۇپ ۋە دەلىللەپ تۆھپە قوشۇشنى چۈشىنىش
 voice-collection = ئاۋاز توپلىمى
 sentence-collection = جۈملە توپلىمى
+question-collection = سوئال توپلىمى
+scripted-speech = قوليازما نۇتقى
+spontaneous-speech = تەبىئىي نۇتۇق
+
+## Voice Collection nav ids
+
 varying-pronunciations = ھەرخىل تەلەپپۇزلار
 misreadings = خاتا ئوقۇلغانلار
 offensive-content = تېرىكتۈرىدىغان مەزمۇن
@@ -12,6 +18,9 @@ volume = ئاۋاز كۈچلۈكلۈكى
 reader-effects = ئوقۇرمەن ئۈنۈمى
 just-unsure = ئانچە ئېنىق ئەمەسمۇ؟
 example = مىسال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = بىز پەرقلىق شىۋىلەرنى قارشى ئالىمىز! ئوقۇرمەننىڭ بىر سۆزنى خاتا تەلەپپۇز قىلغانلىقى، ئۇرغۇنى خاتا ئورۇندا چىقارغانلىقى ياكى سوئال بەلگىسىگە سەل قارىغانلىقى تۈپەيلىدىن ئۈن ئۈزۈندىسىنى رەت قىلىشتىن ئېھتىيات قىلىڭ. كىشىلەر دۇنيانىڭ ھەرقايسى جايلىرىدا ھەر خىل شېۋىدە سۆزلىشىدۇ، بۇلارنىڭ بەزىلىرىنى مەھەللىڭىزدە ئاڭلاپ باقمىغان بولۇشىڭىز مۇمكىن. سىزدىن پەرقلىق سۆزلىيەلەيدىغانلارغا مىننەتدارلىق بىلدۈرۈڭ.
 varying-pronunciations-explanation-2 = يەنە بىر جەھەتتىن، ئەگەر سىز ئوقۇرمەننى بەلكىم بۇ سۆزنى ئۇچرىتىپ باقمىغان، تەلەپپۇزدا خاتا پەرەز قىلىۋاتىدۇ دەپ ئويلىغان بولسىڭىز رەت قىلىڭ. ئەگەر جەزملىيەلمىسىڭىز، ئاتلا توپچىسىنى چېكىڭ.
 varying-pronunciations-example = يول ئېنىق ئەمەس.
@@ -47,11 +56,17 @@ reader-effects-explanation = كۆپىنچە ئۈن خاتىرىلىرى كىشى
 just-unsure-explanation = ئەگەر بۇ كۆرسەتمىلەر ئۆز ئىچىگە ئالمايدىغان بىر ئىشقا يولۇقسىڭىز، ئەڭ ياخشى ھۆكۈمىڭىزگە ئاساسەن بېلەت تاشلاڭ. ئەگەر راستىنلا قارار قىلالمىسىڭىز، ئاتلا كۇنۇپكىسىنى ئىشلىتىپ كېيىنكى خاتىرىگە ئۆتۈڭ.
 still-have-questions = يەنىلا سوئال بارمۇ؟
 contact-common-voice = Common Voice قوشۇنى بىلەن ئالاقىلىشىڭ
+
+## Sentence collection nav ids
+
 public-domain = ئاممىۋى دائىرە
 citing-sentences = نەقىل جۈملىلەر
 adding-sentences = جۈملە قوشۇش
 reviewing-sentences = جۈملىلەرنى تەكشۈرۈش
 sentence-domain = جۈملە دائىرىسى
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = Common Voice ساندان توپلىمى cc0 ئىجازەتنامىسىدە تارقىتىلغانلىقى ئۈچۈن، بارلىق تېكىست جۈملىلىرىنىڭ <publicDomain> ئاممىۋى دائىرە </publicDomain> (<cc0> cc0 </cc0>) ئىجازىتىدە بولۇشى تولىمۇ مۇھىم. ئەگەر جەزملەشتۈرسىڭىز ئاندىن جۈملە يۈكلەڭ، ھەمدە ھەمىشە مۇناسىۋەتلىك نەقىل مەنبەسىنى ئەسكەرتىڭ.
 public-domain-explanation-2 = تىل تونۇش موتورى قۇرۇشقا ئىشلىتىدىغان ئەڭ ياخشى جۈملە شەكلى ئېغىز تىلىدىكى جۈملىلەرنىڭ زامانىمىزدىكى ئىشلىتىلىشىدۇر. تۆۋەندىكىسى جۈملە شەكىللەندۈرۈشنىڭ بەزى ئۇسۇللىرى؛
 public-domain-explanation-3 = ئۆزىڭىز ياكى دوستلىرىڭىز ياكى تىل جامائىتىڭىز بىلەن زامانىۋى، جانلىق تىلدىكى جۈملىلىرىنى تۈزۈڭ - مەسىلەن «كۆزۈڭگە قاراپ ماڭ» دېگەندەك.
@@ -91,3 +106,29 @@ reviewing-sentences-explanation-2 = ئەگەر بۇ جۈملە يۇقىرىدى�
 reviewing-sentences-explanation-3 = ئەگەر سىز بۇ جۈملىنى جەزملىيەلمىسىڭىز، ئۇنىڭدىن ئاتلاپ كېيىنكى جۈملىگە يۆتكەلسىڭىز بولىدۇ.
 reviewing-sentences-explanation-4 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ!
 domain-explanation = دائىرە جۈملە تېمىسىنى كۆرسىتىدۇ. نۆۋەتتە تاللىيالايدىغان دائىرىڭىز:
+
+## Question collection ids
+
+adding-questions = سوئال قوشۇش
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = ياخشى سوئال قانداق بولىدۇ؟
+what-makes-a-good-question-explanation = كۆپچىلىك قاتنىشىدىغان سانلىق مەلۇمات توپلىمىغا نىسبەتەن ياخشى سوئال:
+what-makes-a-good-question-explanation-criteria-1 = چۈشىنىش ئاسان ۋە جاۋاب بېرىشمۇ ئاسان
+what-makes-a-good-question-explanation-criteria-2 = مەنىسى ئېنىق
+what-makes-a-good-question-explanation-criteria-3 = باشقىلارغا زىيان يەتكۈزىدىغان ياكى تېرىكتۈرىدىغان تىل ئىشلىتىشكە ياكى يېتەكلەشكە بولمايدۇ
+easy-to-understand = چۈشىنىش ئاسان
+easy-to-understand-explanation = ھەر خىل مەدەنىيەت ۋە ئارقا كۆرۈنۈشتىكى كىشىلەر ئاسان چۈشىنەلەيدىغان ئاددى جۈملىنى تاللاڭ.
+spelling-and-pronunciation = ئىملا ۋە تىنىش بەلگىلىرى
+spelling-and-pronunciation-explanation = ئىملا ۋە گىرامماتىكىنى توغرا ئىشلىتىڭ.
+length = ئۇزۇنلۇقى
+length-explanation = سوئالغا بىر قانچە جۈملە بىلەن جاۋاب بەرگىلى بولۇشى كېرەك.
+dont-add-subheader = قوشۇشقا بولمايدىغنى
+culturally-specific-questions = مۇئەييەن مەدەنىيەت ئارقا كۆرۈنۈشى بار
+culturally-specific-questions-explanation = مەدەنىيەت پۇرىقى كۈچلۈك ياكى جاۋاب بەرگۈچىنىڭ نۇرغۇن پەرەز قىلىشىغا سەۋەب بولىدىغان سوئال
+length-avoid-explanation = بىرەيلەن 15 سېكۇنت (ئەڭ ئۇزۇن ئۈن ئۈزۈندىسى) تا جاۋاب بېرىش قىيىن بولغان سوئال
+process-steps = جەريان/باسقۇچ
+offensive-content-sensitive-information = كىشىنى بىزار قىلىدىغان مەزمۇن ياكى سەزگۈر ئۇچۇر
+offensive-content-sensitive-information-explanation-explanation-1 = شەخسىي سالاھىيەت ئۇچۇرىنى تەلەپ قىلىشى مۇمكىن بولغان سوئال
+example-questions-subheader = مىسال سوئاللىرى

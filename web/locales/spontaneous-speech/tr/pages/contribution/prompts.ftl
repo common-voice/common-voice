@@ -4,10 +4,11 @@ record-player-header = Yanıtınızı kaydedin
 mic-access-error = Mikrofon erişimine izin vermeniz zorunludur.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = <micIcon></micIcon> düğmesine { $actionType } ve olabildiğince doğal konuşun
-no-prompts-message = Şu anda bu dil için istem yok. Lütfen sayfayı yenileyin ya da daha sonra yeniden deneyin.
-error-skipping = Bu istemi atlarken bir hata oluştu
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Şu anda bu dil hiçbir soru yok. Herhangi birini atladıysanız atlanan içerikten devam edebilir ya da ses kayıtlarını metne dönüştürmeye gidebilir ve daha sonra yeniden deneyebilirsiniz.
+error-skipping = Bu soruyu atlarken bir hata oluştu
 error-recording = Kayıt yaparken bir hata oluştu
-error-fetching-prompts = İstemleri yüklerken bir şey ters gitti, lütfen daha sonra yeniden deneyin.
+error-fetching-prompts = Soruları yüklerken bir şey ters gitti. Lütfen daha sonra yeniden deneyin.
 error-uploading-response = Yanıtınız sunucuya gönderilirken bir hata oluştu
 prompt-submitted-success = Yanıtınız başarı ile gönderildi
 prompt-response-deleted-success = Yanıt başarı ile silindi
@@ -21,7 +22,7 @@ submit-all-button = Tümünü Gönder
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Bu sayfayı nasıl kullanacağınızı öğrenin
-learn-how-to-use-prompts-explanation = Bir iki cümlede olabildiğince doğal konuşmayla isteme yanıt verin. Saygılı, saldırgan olmayan üslup kullandığınıza emin olun.
+learn-how-to-use-prompts-explanation = Bir iki cümlede olabildiğince doğal konuşmayla soruya yanıt verin. Saygılı, saldırgan olmayan üslup kullandığınıza emin olun.
 learn-how-to-use-prompts-guidance = Bu sayfayı nasıl kullanacağınızı öğrenmek için <guidanceLink>burayı</guidanceLink> tıklayın
 learn-how-to-use-transcribe = Metne nasıl çevireceğinizi öğrenin
 learn-how-to-use-transcribe-explanation = Söyleneni söylendiği şekilde, "eee", "aaa" gibi sesler dahil olmak üzere, aynen yazıya dökün.

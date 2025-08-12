@@ -4,7 +4,6 @@
 audio-page-instruction = era wandiika kyowuulire omuntu kyakubaza
 editbox-header = kukoppolola
 editbox-placeholder = Wandiika kyowuliire omuntu nga akubaza ani
-no-audio-message = Ati ndowo katambi kakuindula lulimi luni. Irya buyaka ekibanja kini oba gezesyaku erai.
 create-transcript-success = Ekyandiko kiwebweiyo kusai
 create-transcript-error = Wabairewo ensibi nga ekyandiko kini kikutondebwawo
 error-playing-audio = Ensobi eikireewo nga akatambi kakuzenya

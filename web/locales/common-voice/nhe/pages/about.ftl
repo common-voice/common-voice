@@ -95,6 +95,3 @@ about-playbook-how-project-governance-content-3 = Privacidad, seguridad y transp
 about-playbook-how-project-governance-content-4 = Participación comunitaria y toma de decisiones.
 about-playbook-how-project-governance-content-5 = Valor y reconocimiento.
 about-playbook-how-project-governance-content-6 = Contabilidad mutua.
-
-## How is Common Voice funded
-

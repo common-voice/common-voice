@@ -35,15 +35,14 @@ maximum-file-size = lipu li ken suli ni: 25 MB
 what-needs-to-be-in-file = seme o lon lipu mi?
 upload-progress-text = mi pana...
 bulk-upload-success-toast = sina pana e sitelen mute.
+file-invalid-type = lipu pakala
 file-too-large = lipu li suli ike
 file-too-small = lipu li lili ike
 too-many-files = lipu li mute ike
 
 ## SMALL BATCH SUBMISSION
 
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message = kulupu nimi { $totalSentences } la sina jo e kulupu { $uploadedSentences }. nena <downloadLink>ni</downloadLink> la o jo e kulupu nimi ike.
+# menu item
+add-sentences = o pana e toki

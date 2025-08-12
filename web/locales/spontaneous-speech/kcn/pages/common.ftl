@@ -7,8 +7,6 @@ action-tap = Lemes
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Awunun fi koum ta malumaat ta
-# Label for button on contribution switcher
-change = Geeru
 coming-soon = Ziada rutan geeri gi jaa
 media-recorder-api-not-supported = Musejjil ta teriga ta malumaat API aba fi haja al gi jibu malumaat taki
 # Toast message that is displayed when an item is skipped

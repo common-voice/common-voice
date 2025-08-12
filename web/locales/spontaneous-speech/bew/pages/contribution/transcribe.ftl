@@ -4,7 +4,6 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> dan tulis apé nyang orang ngomong
 editbox-header = Transkrip
 editbox-placeholder = Tulisin apé nyang orang omongin di sini
-no-audio-message = Ora adé audio/suaré nyang perlu ditranskrip padé nih bahasé. Gih muat ulang laman atow coba lagi nanti
 create-transcript-success = Transkrip sukses kekirim!
 create-transcript-error = Adé kesalahan pas ngebuat nih transkrip
 error-playing-audio = Adé kesalahan pas muter berkas suaré

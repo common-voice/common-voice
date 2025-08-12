@@ -52,7 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ہِک ہدف جوڑ
 cant-decide = فیصلہ نئیں کر سڳدا؟
-activity-needed-calculation-plural = { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
 how-many-per-day = چنڳا! ہِک ݙینہؤ تے وِچ کیلے ٹوٹے؟
 how-many-a-week = چنڳا! ہِک ہفتے تے وِچ کیلے ٹوٹے؟
 which-goal-type = چھا تُو ڳاہلݨ چاہن٘دا ہیں، ٻُجھݨ چاہن٘دیں ٻیا ٻِیؤ؟

@@ -11,8 +11,6 @@ platform-language-tooltip-text = Танҳо матни сомонаро тағй
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Саҳмгузорӣ дар маҷмуи маълумот барои { $language }
 contribution-picker-tooltip-text = Тағйир додани маҷмуи маълумоти забонӣ, ки шумо ба он саҳм мегузоред
-# Label for button on contribution switcher
-change = Тағйир додан
 coming-soon = Ба қарибӣ забонҳои нав пайдо мешаванд
 media-recorder-api-not-supported = «MediaRecorder API» дар браузери шумо дастгирӣ намешавад.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,16 @@ skip-button = Нодида гузарондан
 submit-button = Пешниҳод кардан
 contribute = Саҳм гузоштан
 request-new-language = Дархости забони нав
+# Button text which appears when there are no more resources
+continue-with-skipped = Бо «Нодида гузаронидан» идома диҳед
 
 ## Navbar
 
+question = Савол
+validate = Тасдиқ кардан
 respond-to-prompt = Ба дархост ҷавоб додан
 transcribe = Табдил додан
 check-transcriptions = Тафтиш кардани овонависӣ
-question = Савол
 
 ## Not Found Page
 
@@ -60,3 +61,9 @@ sdo = Бидауи Серианӣ
 snv = Саъбан
 tr = Туркӣ
 xkl = Кениягӣ
+
+## Language search component
+
+language-search-placeholder = Ҷустуҷӯи забон...
+language-search-aria-label = Ҷустуҷӯи забон
+language-search-no-results = Ягон забон ёфт нашуд

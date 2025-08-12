@@ -10,9 +10,3 @@ listen-loading-error =
 listen-abort-title = Ljúka við að staðfesta klippur?
 listen-abort-cancel = Halda áfram að staðfesta
 listen-abort-confirm = Ljúka við að staðfesta
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

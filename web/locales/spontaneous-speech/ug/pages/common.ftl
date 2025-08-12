@@ -11,8 +11,6 @@ platform-language-tooltip-text = تور بېكەت تېكىستىنىلا ئۆز
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = { $language } سانلىق مەلۇمات توپلىمىغا تۆھپە قوشۇش
 contribution-picker-tooltip-text = پەقەت سىز تۆھپە قوشقان تىلنىڭ سانلىق مەلۇمات توپلىمىنىلا ئۆزگەرتىدۇ
-# Label for button on contribution switcher
-change = ئۆزگەرت
 coming-soon = پات ئارىدا تېخىمۇ كۆپ تىل تارقىتىلىدۇ
 media-recorder-api-not-supported = توركۆرگۈڭىز MediaRecorder API نى قوللىمايدۇ.
 # Toast message that is displayed when an item is skipped
@@ -29,10 +27,10 @@ request-new-language = يېڭى تىل تەلەپ قىلىڭ
 
 ## Navbar
 
+question = سوئال
 respond-to-prompt = ئىنكاس قايتۇرۇش
 transcribe = خەت پۈت
 check-transcriptions = خەت پۈتۈكنى تەكشۈرۈڭ
-question = سوئال
 
 ## Not Found Page
 
@@ -60,3 +58,9 @@ sdo = سېرىيان بىدايۇخ
 snv = سابان
 tr = تۈركچە
 xkl = كېنىيەچە
+
+## Language search component
+
+language-search-placeholder = تىل ئىزدە…
+language-search-aria-label = تىل ئىزدە
+language-search-no-results = تىل تېپىلمىدى

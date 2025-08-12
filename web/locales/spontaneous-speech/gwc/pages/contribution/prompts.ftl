@@ -4,7 +4,6 @@ record-player-header = تانی جواب ریکارڈ کٞر
 mic-access-error = تو خامخہ مائکروفون ایں اجاذاٞت دہ۔
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon> </micIcon> تے اتیک قدرتی انذاز مئ جواب دہ اُوں کتیک ممکن آش تہ
-no-prompts-message = اِیں جِبیں کیر اِیں وخ سٞہ کٞئ اِشارہ نات۔  ماٞربینی کاٞ پاݪ تازہ کٞر یا اٞساتائ دِگیراں کوشیش کٞر۔
 error-skipping = اِیں اِشارہ چھیری ردہ داٞگ مئ اٞ غلطی ییۓ۔
 error-recording = ریکارڈ کٞروگ مئ اٞ غلطی ییئ۔
 error-fetching-prompts = اِشارہ گھیاٞگ مئ کِشکٞہ غلطی ییئ۔ ماٞربینی کاٞ اٞساتائ کوشیش کٞر۔

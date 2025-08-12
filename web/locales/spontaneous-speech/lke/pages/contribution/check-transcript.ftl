@@ -4,7 +4,6 @@
 transcription-page-instruction = Owulilisie amadobozi ago kaasi owone engeri ejebagawandikire. bitya kakwatagana? nga be oiremu ogawandike kusa
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Womamu
-no-transcriptions-message = wabula amadobozi ege bawandikire mu lutumu luno. oyilemu owonemu buyaka
 vote-transcript-success = Amalobozi gailibwiremu galondeiwe kusa
 vote-transcript-error = Ekizibu kiwonekere nga balonda ebyachusibirwe
 transcript-edited-success = Ebyawandikibirwe babitererie kusa

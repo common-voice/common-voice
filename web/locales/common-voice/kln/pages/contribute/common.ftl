@@ -6,7 +6,7 @@ skip = sogorte
 shortcuts = oret nenwach
 clips-with-count-pluralized =
     { $count ->
-        [one] 	<bold>{ $count }</bold>klipit
+        [one] { "\u0009" }<bold>{ $count }</bold>klipit
        *[other] <bold>{ $count }</bold>klipishek
     }
 goal-help-recording = kwetoret sauti nenaat koit <goalPercentage></goalPercentage>chebo kila betut { $goalValue } kerekoden borset!

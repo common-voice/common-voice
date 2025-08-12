@@ -11,8 +11,6 @@ platform-language-tooltip-text = Wijzigt alleen websitetekst.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Bijdragen aan gegevensset voor { $language }
 contribution-picker-tooltip-text = Wijzigt de taalgegevensset waaraan u bijdraagt
-# Label for button on contribution switcher
-change = Wijzigen
 coming-soon = Meer talen volgen binnenkort
 media-recorder-api-not-supported = De MediaRecorder-API wordt niet ondersteund in uw browser.
 # Toast message that is displayed when an item is skipped
@@ -26,13 +24,16 @@ skip-button = Overslaan
 submit-button = Indienen
 contribute = Bijdragen
 request-new-language = Nieuwe taal aanvragen
+# Button text which appears when there are no more resources
+continue-with-skipped = Doorgaan met Overgeslagen
 
 ## Navbar
 
-respond-to-prompt = Prompt beantwoorden
-transcribe = Transcriberen
-check-transcriptions = Transcripties controleren
 question = Vraag
+validate = Valideren
+respond-to-prompt = Beantwoorden
+transcribe = Transcriberen
+check-transcriptions = Beoordelen
 
 ## Not Found Page
 
@@ -60,3 +61,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turks
 xkl = Keniaans
+
+## Language search component
+
+language-search-placeholder = Zoeken naar een taal…
+language-search-aria-label = Zoeken naar een taal
+language-search-label = Wijzigt alleen de bijdragetaal van de gegevensset
+language-search-no-results = Geen talen gevonden

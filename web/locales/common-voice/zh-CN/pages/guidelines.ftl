@@ -3,6 +3,10 @@ guidelines-header = 贡献准则
 guidelines-header-subtitle = 了解如何向 Common Voice 数据集贡献及验证语句和录音片段
 voice-collection = 收集语音
 sentence-collection = 收集语句
+question-collection = 收集问题
+
+## Voice Collection nav ids
+
 varying-pronunciations = 不同发音
 misreadings = 误读
 offensive-content = 冒犯性内容
@@ -12,6 +16,9 @@ volume = 音量
 reader-effects = 朗读者因素
 just-unsure = 仍有不解之处？
 example = 示例
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = 我们乐于倾听不同的口音！在以朗读者发音错误、将重音放在错误的地方或明显忽略了标点符号为由驳回片段前，请谨慎行事。世界各地有各种各样的发音，其中一些您可能在当地没有听到过。请为那些可能与您发音不同的人留下欣赏的空间。
 varying-pronunciations-explanation-2 = 另一方面，如果您认为朗读者此前从未遇到过这个词，只是在朗读时猜了一个错误的发音，那么请将其驳回。如果您不确定，请点击“跳过”。
 varying-pronunciations-example = 路线还不清楚。
@@ -20,7 +27,7 @@ varying-pronunciations-tip-2 = [有些人可能会把“楚”读作“cǔ”]
 offensive-content-explanation = 语句会通过社区进行审核，不过此过程无法确保万无一失。如果您看到或听到令您不快的的语句（例如觉得其违反了我们的<participationGuidelines>社区参与准则</participationGuidelines>），请务必使用界面中的“旗标”按钮来举报。您也可以通过 <emailFragment>commonvoice@mozilla.com</emailFragment> 来联系我们。
 misreadings-explanation-1 = 完整朗读文字内容十分重要。在聆听录音片段时，请注意录音内容是否与文字内容完全一致，如有添字、漏字，则将其驳回。
 misreadings-explanation-2 = 常见的错误有：
-misreadings-explanation-3 = 录音开头缺少“A”或“The”。（不适用）
+misreadings-explanation-3 = 录音开头有“嗯”“呃”等附加音。
 misreadings-explanation-4 = 省略了某些词缀，例如“桌子上”读成“桌上”。
 misreadings-explanation-5 = 省略了某些字，例如将“录音的注意事项”读成“录音注意事项”，反之亦然。
 misreadings-explanation-6 = 由于过快地结束录音而没有录入最后一个词。
@@ -47,11 +54,17 @@ reader-effects-explanation = 大多数录音都是人们用自然的声音说话
 just-unsure-explanation = 如果遇到了这些准则没有涵盖的内容，请根据您认为恰当的判断来选择。如果仍然无法决定，请使用跳过按钮，继续聆听下一段录音。
 still-have-questions = 仍有疑问？
 contact-common-voice = 联系 Common Voice 团队
+
+## Sentence collection nav ids
+
 public-domain = 公有领域
 citing-sentences = 引用语句
 adding-sentences = 添加语句
 reviewing-sentences = 审核语句
 sentence-domain = 语句领域
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = 请注意，由于 Common Voice 数据集采用 CC0 许可协议发布，因此其所有语句文本都需来自公有领域（按 CC0 许可协议授权）。请在确定语句符合要求后再上传，上传时需要注明出处。
 public-domain-explanation-2 = 用于构建语音识别引擎的最佳语句类型是口语化的现代用语。以下是一些生成语句的方法：
 public-domain-explanation-3 = 自行撰写现代的口语化语句，或与朋友及语言社区一道，通过“造句马拉松”活动等形式去撰写句子。
@@ -91,3 +104,34 @@ reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否�
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 domain-explanation = 领域是指句子的专业主题。目前您可以选择：
+
+## Question collection ids
+
+adding-questions = 添加问题
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = 怎样算是好的问题？
+what-makes-a-good-question-explanation = 对于公众参与的数据集而言，好的问题应该：
+what-makes-a-good-question-explanation-criteria-1 = 易于理解，也易于回答
+what-makes-a-good-question-explanation-criteria-2 = 意义明确
+what-makes-a-good-question-explanation-criteria-3 = 不能使用或引导使用伤害或冒犯性用语
+easy-to-understand = 易于理解
+easy-to-understand-explanation = 选择简单的问题，确保来自各种文化和背景的回答者都能轻松理解。
+spelling-and-pronunciation = 用字与标点符号
+spelling-and-pronunciation-explanation = 确保用字和语法正确。
+length = 长度
+length-explanation = 请提交只用几句话就能完成回答的问题。
+dont-add-subheader = 不要添加：
+culturally-specific-questions = 具有特定文化背景的问题
+culturally-specific-questions-explanation = 仅针对某一文化，或是对回答者的文化背景进行过度假设的问题
+length-avoid-explanation = 难以在 15 秒（录音片段长度上限）内完成回答的问题
+process-steps = 流程/步骤
+process-steps-explanation = 需要通过描述步骤来作答的问题。在回答中描述步骤会将用户引向照本宣科，而难以获得自然的回答。
+offensive-content-sensitive-information = 冒犯性内容或敏感信息
+offensive-content-sensitive-information-explanation-explanation-1 = 可能索取个人身份信息的问题
+offensive-content-sensitive-information-explanation-explanation-2 = 可能引导发表仇恨言论等偏见或冒犯性观点的问题
+offensive-content-sensitive-information-explanation-explanation-3 = 可能引导作出敏感回答，并可能由此引发不良后果的问题
+example-questions-subheader = 问题示例
+example-questions-explanation-1 = 请参阅<examplePromptsLink>这份列出了 120 个问题示例的表格</examplePromptsLink>。
+example-questions-explanation-2 = 若希望批量提交问题以供添加，请<githubLink>通过 GitHub 提交</githubLink>，或将问题列表以邮件方式发送到 <emailFragment>commonvoice@mozilla.com</emailFragment>。

@@ -7,8 +7,6 @@ action-tap = Tap
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Contributing to dataset for { $language }
-# Label for button on contribution switcher
-change = Change
 coming-soon = More languages coming soon
 media-recorder-api-not-supported = The MediaRecorder API is not supported in your browser.
 # Toast message that is displayed when an item is skipped

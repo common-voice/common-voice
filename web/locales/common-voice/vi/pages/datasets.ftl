@@ -8,6 +8,7 @@ datasets-positioning =
     Bộ dữ liệu đa ngôn ngữ của Common Voice đã là bộ dữ liệu giọng nói có sẵn công khai lớn nhất thuộc loại này, nhưng nó không phải là bộ dữ liệu duy nhất.
     
     Hãy xem trang này như một trung tâm tham chiếu cho các bộ dữ liệu giọng nói nguồn mở khác và, khi Common Voice tiếp tục phát triển, một ngôi nhà cho các bản cập nhật phát hành của chúng tôi.
+datasets-speech-bubble-content = Tin tức thú vị đây! Spontaneous Speech sắp ra mắt! Hãy theo dõi để cập nhật và đảm bảo kiểm tra trong <discordLink>Discord</discordLink> của chúng tôi để biết thông tin mới nhất.
 language = Ngôn ngữ
 download-dataset-header = Tải xuống tập dữ liệu
 download-delta-explainer = Chúng tôi đã thực hiện một số thay đổi. Phân đoạn delta chỉ chứa các clip gần đây nhất kể từ lần phát hành cuối cùng. <deltaLink>Đọc thêm về công việc này</deltaLink>.

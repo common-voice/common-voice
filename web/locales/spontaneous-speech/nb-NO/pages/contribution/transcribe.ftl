@@ -4,8 +4,9 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> og skriv ned hva du hører personen si
 editbox-header = Transkriber
 editbox-placeholder = Skriv ned hva du hører personen si her
-no-audio-message = Det er ingen lyd tilgjengelig for transkribering på dette språket. Oppdater siden eller prøv igjen senere.
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message = Det finnes for øyeblikket ingen lyd å transkribere for dette språket. Hvis du har hoppet over noe, kan du fortsette med innholdet som er hoppet over, eller gå til «se gjennom transkripsjoner» og prøve på nytt senere.
 create-transcript-success = Transkripsjon sendt inn
-create-transcript-error = Det oppsto en feil under oppretting av denne transkripsjonen
+create-transcript-error = Det oppstod en feil under oppretting av denne transkripsjonen
 error-playing-audio = Feil under avspilling av lydfil.
-error-fetching-audio = Noe gikk galt under innhenting av lyd for transkrisjoner. Prøv igjen senere.
+error-fetching-audio = Noe gikk galt under innhenting av lyd for transkripsjoner. Prøv igjen senere.

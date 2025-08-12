@@ -128,6 +128,7 @@ write-contribute-menu-tooltip = 添加和审核语句，添加问题，转录音
 add-sentences-menu-item-tooltip = 以您的语言添加语句
 review-sentences-menu-item-tooltip = 审核以您的语言撰写的语句
 add-questions-menu-item-tooltip = 以您的语言添加问题
+review-questions-menu-item-tooltip = 审核问题
 transcribe-audio-menu-item-tooltip = 转录以您的语言录制的音频
 
 ## MENU ITEM ARIA LABELS
@@ -136,4 +137,5 @@ write-contribute-menu-aria-label = “撰写”选项菜单
 add-sentences-menu-item-aria-label = 添加新语句供社区朗读
 review-sentences-menu-item-aria-label = 审核社区提交的语句
 add-questions-menu-item-aria-label = 提交新问题，供社区朗读或回答
+review-questions-menu-item-aria-label = 对社区提交的新问题进行审核和投票
 transcribe-audio-menu-item-aria-label = 将音频录音转录为文本

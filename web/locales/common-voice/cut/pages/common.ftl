@@ -8,9 +8,3 @@ aa = Ye'e
 
 # [/]
 
-
-## Layout
-
-
-## Donate banner
-

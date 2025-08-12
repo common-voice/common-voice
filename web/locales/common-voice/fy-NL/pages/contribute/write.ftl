@@ -75,7 +75,7 @@ sc-bulk-upload-header = Sinnen <icon></icon> út it publike domein oplade
 sc-bulk-upload-instruction = Sleep jo bestân hjir hinne of <uploadButton>klik om op te laden</uploadButton>
 sc-bulk-upload-instruction-drop = Sleep bestân hjir hinne om op te laden
 bulk-upload-additional-information = As jo oanfoljende ynformaasje oer dit bestân jaan wolle, nim dan kontakt op mei <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = As jo oanfoljende ynformaasje oer dit bestân jaan wolle dy’t net yn de sjabloan opnommen is, nim dan kontakt op mei <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = As jo oanfoljende ynformaasje oer dit bestân jaan wolle dy’t net yn it sjabloan opnommen is, nim dan kontakt op mei <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Probearje it opnij troch jo bestân hjir hinne te slepen
 try-upload-again-md = Probearje opnij op te laden
 select-file = Bestân selektearje
@@ -156,6 +156,7 @@ write-contribute-menu-tooltip = Sinnen tafoegje en beoardiele, Fragen tafoegje, 
 add-sentences-menu-item-tooltip = Sinnen yn jo taal tafoegje
 review-sentences-menu-item-tooltip = Sinnen yn jo taal beoardiele
 add-questions-menu-item-tooltip = Fragen yn jo taal tafoegje
+review-questions-menu-item-tooltip = Fragen beoardiele
 transcribe-audio-menu-item-tooltip = Audio-opnamen yn jo taal transkribearje
 
 ## MENU ITEM ARIA LABELS
@@ -164,4 +165,5 @@ write-contribute-menu-aria-label = Opsjesmenu Skriuwe
 add-sentences-menu-item-aria-label = Nije sinnen foar de mienskip tafoegje om te lêzen
 review-sentences-menu-item-aria-label = Besteande sinnen dy’t troch de mienskip yntsjinne binne beoardiele
 add-questions-menu-item-aria-label = Nije fragen yntsjinje foar de mienskip om te lêzen en te beäntwurdzjen
+review-questions-menu-item-aria-label = Nije fragen dy’t troch de mienskip yntsjinne binne beoardiele en derop stimme
 transcribe-audio-menu-item-aria-label = Audio-opnamen omsette nei tekst

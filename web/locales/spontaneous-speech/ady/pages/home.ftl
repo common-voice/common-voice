@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Мыгъэхьазырыгъэ жабзэм шъукъеблагъ
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Къэтыгъэ</mark>
 contact-us = Шъукъытлъыӏэс

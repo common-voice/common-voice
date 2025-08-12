@@ -64,7 +64,6 @@ hsb = Sorbian, Sanfɛla
 ht = Haïtikan na
 hu = Hɔngirikan na
 hy-AM = Armenikan na
-hyw = Armeni Tlebi jamanaw
 ia = Kanw ni ɲɔgɔn cɛ
 id = indonezikan na
 ie = Kanw ni ɲɔgɔn cɛ

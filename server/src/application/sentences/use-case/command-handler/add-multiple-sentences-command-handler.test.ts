@@ -28,7 +28,7 @@ describe('AddMultipleSentencesCommandHandler', () => {
       domains: ['general'],
       variant: O.some('standard'),
       clientId: 'test-client',
-      source: 'user',
+      source: 'user\tprovided',
     }
 
     mockFindLocaleByName.mockReturnValue(TE.right(O.some({ id: 1 })))

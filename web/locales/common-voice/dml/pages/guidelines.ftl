@@ -3,6 +3,9 @@ guidelines-header = شراکت تہ رہنما اُصول
 guidelines-header-subtitle = عام کاڻ ڈیٹا سیٹہ جملہ نم آں آڈیو کلپ نم تہ تعاون آں توثیق کُرن تہ طریقہ زانا
 voice-collection = کاڻ سوتن
 sentence-collection = جملہ سوتن
+
+## Voice Collection nav ids
+
 varying-pronunciations = مختلف تلفظ
 misreadings = غلط مترن
 offensive-content = جارحانہ مواد
@@ -12,6 +15,9 @@ volume = حجم
 reader-effects = مترال تہ تاثرات
 just-unsure = صرف غیر یقینی
 example = مِثل
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = ائی مختلف لہجہ ساں خیر مقدم کُنُمہ، یہ بنیادہ ایک کلپ مسترد مہ کُرا تے مترال لے ایک لفظ تہ غلط تلفظ کُتھے، دباو غلط تھانہ  تھئی تھے، یا بہ اوقاف نظر انداز کُتھے۔ دنیا مختلف قسم تہ تلفظ استعمل بیاں تسومانہ بعض میاں تانوں کمیونٹی نی اُشتُرون تھیبہ۔ مہربانی کُرے تئیں ماݜہ کی زادی بلو ساتا کُرئی میاں ملی مختلف اندازہ مُشکُل بین۔
 varying-pronunciations-explanation-2 = دوئم طرفہ اگر بی ڇمائیہ بہ تے مترال کی یہ پریݜبئیں یہ لفظ نی اُشترُن تھے،آں سے تلفظہ غلط اندازہ لگایا، تہ مہربانی کُری یہ رد کُرا،اگر میاں کی یقین نی درو بہ اسکیپ بٹن استعمل کُرا۔
 varying-pronunciations-example = پھن واضح نی تھا
@@ -47,11 +53,17 @@ reader-effects-explanation = زیت تر ریکارڈنگ ما.ݜ ساں قدر�
 just-unsure-explanation = اگر میاں کی منو کیہ شئی میلو بابہ کیرا مے ہدایاتہ شامل نی درو، تا مہربانی کُری تانوں بہترین سمجھ تہ مطابق فیصلہ کُرا۔ اگر بی پھرکی ایس فیصلہ نی کُرین بئیبہ بہ اسکیب بٹن تہ استعمل کُرا آں مُکھ بئیں تہ ریکارڈنگ کی یا
 still-have-questions = ژا ایس سُول نم درو
 contact-common-voice = عام کاڻ تہ ٹیمہ ملی رابطہ کُرے
+
+## Sentence collection nav ids
+
 public-domain = عوامی ڈومین
 citing-sentences = حوالہ تہ جملہ نم
 adding-sentences = جملہ نم شامل کُرا
 reviewing-sentences = جملہ نم ساں جائزہ گین
 sentence-domain = جملہ تہ ڈومین
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = یہ لے ضروری درو تے سپُن متن تہ جملہ نم درو<publicDomain>عوامی ڈومین</publicDomain> (<cc0>cc0</cc0>) عام کاڻ تی ڈیٹا سیٹ  cc0 تہ لائسنس تہ تحت جاری کُریسن درو۔ صرف یہ صورتہ جملہ اپ لوڈ کُرا تے کیر میاکی مکمل طورہ یقین تھیو تے آں ہمیشہ متعلقہ حوالہ شامل کُرا۔
 public-domain-explanation-2 = تقریر زانال فائدہ من انجن ژوپئیں کی بہترین جملہ نم روزانہ تہ نواں مُشکُلہ مشتمل تِھنا۔ اچھک خیالات تھا بہ میاں جملہ ژوپنہ مدد پرینا
 public-domain-explanation-3 = تانئی یا تانوں ملگری ملی یا بہ کمیونٹی ملی جدید،بول چال تہ جملہ نم ژوپاں ، مثل تہ طورہ ‘write-a-thon’ تہ زریعہ

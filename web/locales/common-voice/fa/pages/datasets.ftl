@@ -8,6 +8,7 @@ datasets-positioning =
     مجموعه داده‌های چندزبانهٔ آواهای مشترک هم‌اکنون بزرگ‌ترین مجموعه داده‌های صوتی قابل دسترس برای عموم در نوع خودش است، اما فقط همین یکی نیست.
     
     به این صفحه به چشم یک مرکز مرجع برای دیگر مجموعه داده‌های صوتی متن‌باز نگاه کنید و چون آواهای مشترک دائماً رشد می‌کند، خانه‌ای برای به‌روزرسانی‌های انتشار ما است.
+datasets-speech-bubble-content = یک خبر هیجان‌انگیز! سخنرانی خودجوش در راه است! برای به‌روزرسانی‌ها با ما همراه باشید و برای آخرین اطلاعات، حتماً <discordLink>دیسکورد</discordLink> ما را بررسی کنید.
 language = زبان
 download-dataset-header = دریافت مجموعه داده
 download-delta-explainer = ما تغییراتی ایجاد کرده‌ایم. بخش‌های دلتا فقط شامل جدیدترین صداها از آخرین انتشار هستند. <deltaLink>بیشتر درباره این کار بخوانید</deltaLink>.
@@ -94,3 +95,7 @@ release-version = نگارش
 dataset-date = تاریخ
 license = مجوز: <licenseLink>{ $license }</licenseLink>
 license-mixed = ترکیبی
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = مجموعهٔ داده‌های صوتی ما را بارگیری کنید
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = گزینه‌های بارگیری برای دسترسی به دادگان آوای مشترک

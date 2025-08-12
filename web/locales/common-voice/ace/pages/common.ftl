@@ -59,7 +59,6 @@ hsb = Bahsa Sorbia Ateueh
 ht = Haiti
 hu = Bahsa Hongaria
 hy-AM = Armenia
-hyw = Armènia Barat
 ia = Bahsa Intèrlingua
 id = Bahsa Indônèsia
 ie = Interlingue
@@ -190,6 +189,3 @@ email-input =
 loading = Pumeuhah...
 email-opt-in-info = Lon galak beujitamöng surat-e lagee peuingat tujuan, seuneubaro progress lon ngon seunurat keu bhaih Su Common.
 indicates-required = * Suwah geupasoe
-
-## Donate banner
-

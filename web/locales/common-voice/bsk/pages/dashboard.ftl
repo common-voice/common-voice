@@ -52,67 +52,6 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = maksad desman
 cant-decide = feesla etas amaamanuma?
-activity-needed-calculation-plural =
-    { $totalHours ->
-        [one]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                            }
-                    }
-            }
-       *[other]
-            { $periodMonths ->
-                [one]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                            }
-                    }
-               *[other]
-                    { $people ->
-                        [one]
-                            { $clipsPerDay ->
-                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                            }
-                       *[other]
-                            { $clipsPerDay ->
-                                [one] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                               *[other] sise agar han clip an han gunc e record etuman ke gantaṅ hik hisa ulo pura meey bican
-                            }
-                    }
-            }
-    }
 how-many-per-day = but shuwa. beeruman clips in han gunculo
 how-many-a-week = but shuwa. beeruman clips in han haftaulo?
 which-goal-type = senase be damaylase ray be ooltalik?

@@ -76,46 +76,116 @@ read-more-about = Les meir på Om oss-sida vår
 ## NAV ITEMS
 
 answer-questions = Svar på spørsmål
+review-transcriptions = Vurder transkripsjonar
 add-questions = Legg til spørsmål
+review-questions = Vurder spørsmål
+transcribe-audio = Transkriber lyd
+press-and-stories = Presse og historier
+community-and-languages = Fellesskap og språk
 coming-soon = Kjem snart
+about-us = Om oss
+scripted-speech = FØREBUDD TALE
+spontaneous-speech = SPONTAN TALE
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnarskap, presse og historier, fellesskap og språk.
+about-us-menu-item-tooltip = Les meir om oppdraget og teamet bak Common Voice
 partnerships-menu-item-tooltip = Bli partnar med oss
+press-and-stories-menu-item-tooltip = Besøk bloggen vår eller skriv om oss
+community-and-languages-menu-item-tooltip = Oppdag språk, fellesskap og Common Voice
 
 ## MENU ITEM ARIA LABELS
 
-
-## NEW HOME PAGE KEYS
-
+about-menu-aria-label = Meny for å få tilgang til partnarskap, presse og historier, fellesskap og språk
+about-us-menu-aria-label = Alternativmeny — Om
+about-us-menu-item-aria-label = Alternativmeny — Om oss
+partnerships-menu-item-aria-label = Lær om partnarskap med Common Voice
+press-and-stories-menu-item-aria-label = Få tilgang til pressemeldingar og historier relatert til Common Voice
+community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språka som blir støtta av Common Voice
 
 ## Hero section
 
+hero-title = Teknologi som snakkar ditt språk
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kvifor skal kunstig intelligens berre fungere for nokre få av språka i verda?</bold>
+hero-subtitle-2 = Språket vårt er historia vår, fellesskapet vårt, kulturen vår. La oss lage datasetta vi ønskjer å sjå i verda.
 # icon is an arrow that points downwards
 get-started = Kom i gang <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd datainnsamling
+action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbetre tekst- og taledatasett.
+scripted-card-header = Opplesen tekst
+scripted-card-content = Les setningar høgt på språket ditt og bidra til det mest mangfaldige taledatasettet i heile verda.
+spontaneous-card-header = Spontan tale
+spontaneous-card-content = Svar på spørsmål for å lage datasett om organiske, daglegdagse kontekstar. Perfekt for munnleg førstespråk.
+language-text-card-header = Tekstspråk
+language-text-card-content = Opprett eller del førespurnadar, setningar og tekst i det offentlege domenet for omsetting, små språkmodellar, og meir.
+coming-soon = Kjem snart
 add-text = Legg til tekst
+answer = Svar
 
 ## Community section
 
+community-section-title = Driven av globale samfunn, for globale samfunn - 130 språk, og det vert stadig fleire!
+join-discord-community = Ver med i Discord-fellesskapet
+# label for button
+join-discord-community-action = Ver med oss på Discord
+join-discord-community-content = Delta i språkdiskusjonar, still spørsmål og lær om komande arrangement og foredrag.
+find-us-on-matrix = Finn oss på Matrix
+find-us-on-matrix-content = Matrix er ein open, lett protokoll for desentralisert sanntidskommunikasjon og Mozillas føretrekte opne diskusjonsplattform.
 # label for button
 find-us-on-matrix-action = Finn oss på Matrix
+ask-mozilla-share = Be Mozilla om å dele hendingane dine
+ask-mozilla-share-content = Har du eit tidlegare eller komande arrangement? Del det med oss, så kunngjer vi det til fellesskapen vår eller skriv ein blogg om det!
+# label for button
+ask-mozilla-share-action = Del arrangementet ditt
+download-contribution-certificate = Last ned bidragsbeviset ditt
+download-contribution-certificate-content = Last ned eit sertifikat for arrangementa dine eller ditt eige dersom du har bidratt til Common Voice — dette ville ikkje ha vore mogleg utan deg!
+# label for button
+download-contribution-certificate-action = Få sertifikatet ditt
+contribute-github = Bidra på Github
+contribute-github-content = Dette prosjektet ville ikkje vore mogleg utan folk som deg. 🎉 Det er mange måtar å engasjere seg med Common Voice - du treng ikkje å kunne kode for å bidra!
 # label for button
 contribute-github-action = Bidra på Github
 
 ## Featured section
 
+featured-section-title = Presentert i…
+# icon is an arrow that points downwards
+download-press-pack = Last ned pressepakken vår <icon></icon>
 
 ## Developers section
 
+developers-section-title = Offentleg tilgjengelege opne taledatasett på over 130 språk
+developers-section-subtitle = Datasett for automatisk talegjenkjenning (ASR), tale-til-tekst (STT), tekst-til-tale (TTs) og andre innan naturleg språkbehandling (NLP) – oppretta gjennom samfunnsdeltaking.
+# icon is an arrow that points to the right
+explore-datasets = Utforsk datasett <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Støtt opne, fellesskapsleidde datasett
 read-sentences-link = Les setningar
+validate-readings-link = Valider innlesingar
+contribute-link = Bidra til tekstkorpus
 answer-questions-link = Svar på spørsmål
+transcribe-answers-link = Transkriber svar
+review-transcriptions-link = Vurder transkripsjonar
 contribute-text-link = Bidra med tekst
+press-and-stories-link = Presse
 
 ## Partner section
 
+partner-section-title = Bli partnar med oss
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Teknologiske selskap</bold> - invester i skiping av opne datasett for eit blomstrande fleirspråkleg AI-økosystem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Sivilsamfunn og forskarar</bold> – lag og del effektive gratis datasett
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> – støtt skiping av datasett for å stimulere lokal innovasjon og utvikling
+# icon is an arrow that points to the right
+get-in-touch-button = Ta kontakt <icon></icon>
+# Partners section
+our-partners-include = Samarbeidspartnarane våre inkluderer...

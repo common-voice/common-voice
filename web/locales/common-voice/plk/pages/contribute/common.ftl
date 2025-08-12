@@ -6,8 +6,8 @@ skip = پھت تِھیا
 shortcuts = شارٹ کٹس
 clips-with-count-pluralized =
     { $count ->
-        [one] 	<bold>{ $count }</bold>  کِلِپ
-       *[other] 	<bold>{ $count }</bold>  کِلِپس
+        [one] { "\u0009" }<bold>{ $count }</bold>  کِلِپ
+       *[other] { "\u0009" }<bold>{ $count }</bold>  کِلِپس
     }
 goal-help-recording =
     څھا کامن وائس بُجَیش اُڇھونڑ تعاون تھیت  
@@ -130,7 +130,7 @@ contribution-misreadings-example-8-title = بھورا جِنیْ گیْ مُڇھ
 contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = مختلف تلفظ
 contribution-varying-pronunciations-description =
-      آ بُنیادِجیْ کھاں گہ کلپ رَد تھونِجیْ مُڇھواحتیاط تِھیا چہ قارِی سہ کھاں لفظے تلفظ غلط تھینوْ، تناؤ غلط 
+    آ بُنیادِجیْ کھاں گہ کلپ رَد تھونِجیْ مُڇھواحتیاط تِھیا چہ قارِی سہ کھاں لفظے تلفظ غلط تھینوْ
     زائی دہ  تھاؤن، یا سوالیہ نکھوْ نظر انداز تھاؤن۔ دُنیے دہ لا قسمو تلفظ استعمال بینَن، کھاں څھوْ توموْ قبیلہ دہ نہ ݜُݨِیلانت بو۔ مہربانی تھے اسہ جگو کِرِیا تعریفے ایک مارجن پھتِیا کھانس څھوْجیْ مُتیْ شانِیؤ موْݜ تھینَن۔
 contribution-varying-pronunciations-description-extended = دوموگیْ طرفَڑ، څھوْڑ آ لیل بِینیْ چہ قاری ئڑ ادِیؤ مُڇھو ادو لفظ  تلفظ دہ نہ ہشِلُن، آں سیْس تلفظ تھونے غلط اندازہ تِھینوْ، تو مہربانی تھے اسہ رَد تِھیا۔ اگر څھوْڑ لیل نانیْ تو اسکیپ بٹن استعمال تِھیا۔
 contribution-varying-pronunciations-example-1-title = سہ سی ݜِݜِجیْ بیرٹ بونِیاؤس۔

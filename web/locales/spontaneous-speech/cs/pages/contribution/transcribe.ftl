@@ -4,7 +4,8 @@
 audio-page-instruction = { $actionType } <playIcon></playIcon> a zapište si, co daná osoba říká
 editbox-header = Přepsat
 editbox-placeholder = Zapište si, co zde daná osoba říká
-no-audio-message = V tomto jazyce není k dispozici žádný zvuk k přepisu. Obnovte prosím stránku nebo to zkuste znovu později.
+# Message which appears when there are no more resources on this page
+no-audio-continue-skipped-message = V tomto jazyce není k dispozici žádný zvuk k přepisu. Pokud jste nějaký přeskočili, můžete pokračovat přeskočeným obsahem nebo přejít na kontrolu přepisu a zkusit to znovu později.
 create-transcript-success = Přepis úspěšně odeslán
 create-transcript-error = Při vytváření tohoto přepisu došlo k chybě
 error-playing-audio = Chyba při přehrávání zvukového souboru.

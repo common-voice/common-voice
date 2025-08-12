@@ -4,8 +4,8 @@
 error = Хата
 action-click = Чиртү
 action-tap = Төймәгә басып алыгыз
-# Label for button on contribution switcher
-change = Үзгәртү
+# Label for language switcher
+platform-language = Платформа теле
 coming-soon = Башка телләр тиздән өстәләчәк
 media-recorder-api-not-supported = MediaRecorder API браузерыгызда тәэмин ителми.
 # Toast message that is displayed when an item is skipped
@@ -21,6 +21,7 @@ contribute = Үз өлешеңне кертү
 
 ## Navbar
 
+question = Сорау
 
 ## Not Found Page
 
@@ -46,3 +47,7 @@ sdo = Сериан бидау
 snv = Сабан
 tr = Төрек
 xkl = Кения
+
+## Language search component
+
+language-search-no-results = Тел табылмады

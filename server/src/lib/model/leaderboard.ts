@@ -6,7 +6,7 @@ import lazyCache from '../lazy-cache'
 import { getMySQLInstance } from './db/mysql'
 import Bucket from '../bucket'
 import Model from '../model'
-import { ChallengeLeaderboardArgument, ChallengeToken } from 'common'
+import { ChallengeLeaderboardArgument, ChallengeToken, TimeUnits } from 'common'
 
 const model = new Model()
 const bucket = new Bucket(model)
@@ -190,7 +190,8 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
   return rows
 }
 
-const CACHE_TIME_MS = 1000 * 60 * 20
+const CACHE_TIME_MS = 1 * TimeUnits.HOUR
+const LOCK_TIME_MS = 10 * TimeUnits.MINUTE
 
 export const getFullClipLeaderboard = lazyCache(
   'clip-leaderboard',
@@ -200,7 +201,8 @@ export const getFullClipLeaderboard = lazyCache(
       ...row,
     }))
   },
-  CACHE_TIME_MS
+  CACHE_TIME_MS,
+  LOCK_TIME_MS
 )
 
 export const getFullVoteLeaderboard = lazyCache(
@@ -211,7 +213,8 @@ export const getFullVoteLeaderboard = lazyCache(
       ...row,
     }))
   },
-  CACHE_TIME_MS
+  CACHE_TIME_MS,
+  LOCK_TIME_MS
 )
 
 export const getTopSpeakersLeaderboard = lazyCache(
@@ -234,7 +237,8 @@ export const getTopSpeakersLeaderboard = lazyCache(
       ...row,
     }))
   },
-  CACHE_TIME_MS
+  CACHE_TIME_MS,
+  LOCK_TIME_MS
 )
 
 export const getTopListenersLeaderboard = lazyCache(
@@ -257,7 +261,8 @@ export const getTopListenersLeaderboard = lazyCache(
       ...row,
     }))
   },
-  CACHE_TIME_MS
+  CACHE_TIME_MS,
+  LOCK_TIME_MS
 )
 
 export const getTopTeamsLeaderboard = lazyCache(
@@ -275,7 +280,8 @@ export const getTopTeamsLeaderboard = lazyCache(
       w3_points: Number(row.w3_points),
     }))
   },
-  CACHE_TIME_MS
+  CACHE_TIME_MS,
+  LOCK_TIME_MS
 )
 
 // use the leaderboard functionality in Stats and Challenge board
@@ -320,21 +326,21 @@ export default async function getLeaderboard({
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
           : getTopListenersLeaderboard)({
-          client_id,
-          challenge,
-          locale,
-          team_only: false,
-        })
+            client_id,
+            challenge,
+            locale,
+            team_only: false,
+          })
         break
       case 'members':
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
           : getTopListenersLeaderboard)({
-          client_id,
-          challenge,
-          locale,
-          team_only: true,
-        })
+            client_id,
+            challenge,
+            locale,
+            team_only: true,
+          })
         break
       case 'teams':
         leaderboard = await getTopTeamsLeaderboard(challenge)

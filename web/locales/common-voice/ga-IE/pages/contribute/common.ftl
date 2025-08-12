@@ -24,12 +24,17 @@ contribute-more =
     }
 speak-empty-state = Níl a thuilleadh abairtí le taifeadadh againn don teanga sin...
 speak-empty-state-cta = Cuir abairtí leis
+speak-loading-error =
+    Níorbh fhéidir aon abairtí a fháil duit.
+    Féach arís ar ball é.
 record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
+keep-track-profile = Cruthaigh próifíl duit féin agus coinnigh lorg ar an dul chun cinn atá á dhéanamh agat
 login-to-get-started = Sínigh isteach nó cláraigh le tosú
 target-segment-add-voice = Cuir Do Ghuth Leis
 target-segment-learn-more = Tuilleadh Eolais
 change-preferences = Athraigh na sainroghanna
+login-signup = Logáil Isteach / Cláraigh
 vote-yes = Tá
 vote-no = Níl
 datasets = Tacair sonraí
@@ -49,6 +54,7 @@ report-grammar-or-spelling = Botún gramadaí / litrithe
 report-grammar-or-spelling-detail = Tá botún gramadaí nó litrithe san abairt.
 report-different-language = Teanga mhícheart
 report-difficult-pronounce = Tá sé deacair é a fhuaimniú
+report-difficult-pronounce-detail = Tá focail nó nathanna ann atá deacair le léamh nó le rá.
 report-offensive-speech = Caint ghránna
 report-offensive-speech-detail = Tá teanga dhímheasúil nó maslach sa ghearrthóg.
 report-other-comment =
@@ -71,6 +77,7 @@ shortcut-record-toggle-label = Taifead/Stad
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Déan an ghearrthóg a thaifeadadh arís
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Cuileáil an taifeadadh atá á dhéanamh anois
 shortcut-submit = Fill
 shortcut-submit-label = Seol isteach na gearrthóga
 request-language-text = Cá bhfuil mo theangasa?

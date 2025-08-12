@@ -92,33 +92,32 @@ read-more-about = Pročitaj više na našoj stranici „Informacije”
 ## NAV ITEMS
 
 answer-questions = Odgovori na pitanja
-answer-questions-coming-soon = Odgovori na pitanja <small>(uskoro stiže)</small>
 review-transcriptions = Pregledaj transkripcije
-review-transcriptions-coming-soon = Pregledaj transkripcije <small>(uskoro stiže)</small>
 add-questions = Dodaj pitanja
-add-questions-coming-soon = Dodaj pitanja <small>(uskoro stiže)</small>
-transcribe-audio-coming-soon = Transkribiraj audio snimke <small>(uskoro stiže)</small>
+review-questions = Pregledaj pitanja
 transcribe-audio = Transkribiraj audio snimke
 press-and-stories = Objave i priče
 community-and-languages = Zajednica i jezici
 coming-soon = Uskoro stiže
+about-us = O nama
+scripted-speech = PRIPREMLJEN GOVOR
+spontaneous-speech = SPONTANI GOVOR
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerstva, objave i priče, zajednica i jezici
+about-us-menu-item-tooltip = Saznaj više o misiji i timu Common Voicea
 partnerships-menu-item-tooltip = Postani partner
 press-and-stories-menu-item-tooltip = Posjeti naš blog ili piši o nama
 community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajednički glas
 
 ## MENU ITEM ARIA LABELS
 
-about-menu-aria-label = Izbornik opcija za informacije
+about-us-menu-aria-label = Izbornik opcija za informacije
+about-us-menu-item-aria-label = Izbornik opcija „O nama”
 partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
 press-and-stories-menu-item-aria-label = Pristupi objavama i pričama o Common Voiceu
 community-and-languages-menu-item-aria-label = Istraži zajednicu i jezike koje podržava Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -139,7 +138,9 @@ spontaneous-card-header = Spontani govor
 spontaneous-card-content = Odgovori na upite za stvaranje skupova podataka za etimološke, kolokvijalne kontekste. Savršeno za usmene prve jezike.
 language-text-card-header = Jezični tekst
 language-text-card-content = Stvori ili dijeli upite, rečenice i tekst za prijevod, male jezične modele u javnom vlasništvu i još mnogo toga.
+coming-soon = Uskoro stiže
 add-text = Dodaj tekst
+answer = Odgovor
 
 ## Community section
 

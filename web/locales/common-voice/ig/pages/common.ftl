@@ -58,7 +58,6 @@ hsb = Ásụ̀sụ́ Sọ́bíànụ̀, Kèélúélú
 ht = Ásụ̀sụ́ Hàítíànụ̀
 hu = Ásụ̀sụ́ Họ̀n̄géríànụ̀ụ̀
 hy-AM = Ásụ̀sụ́ Àméníànụ̀
-hyw = Ásụ̀sụ́ Àméníà Ǹdị̀dà ányánwụ́
 ia = Ásụ̀sụ́ Àgbàtà ásụ̀sụ̀ ábụ̀ọ́
 id = Ásụ̀sụ́ Ị́ndònéshíànụ̀
 ie = Ásụ̀sụ́ á gwàrà ọ́gwá
@@ -190,6 +189,3 @@ email-opt-in-info-sub-with-challenge = Ná-ènwétà ózí íméèlụ̀ (email)
 email-opt-in-privacy-v2 = Ọ bụrụ na i kweta ka e zitere gi ozi íméèlụ̀ (email), ọ putara na i kwetago kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink
 indicates-required = Ákàrà kpákpáǹdò (*) nà-ègósí ébé á chọ̀rọ̀ ka e dee ihe.
 not-available-abbreviation = N/A
-
-## Donate banner
-

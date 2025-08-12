@@ -60,7 +60,6 @@ hsb = naut sorab
 ht = haitian
 hu = ongarés
 hy-AM = armèni
-hyw = armèni occidentau
 ia = interlingua
 id = indonesian
 ie = interlingue

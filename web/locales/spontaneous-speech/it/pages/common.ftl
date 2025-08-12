@@ -11,28 +11,29 @@ platform-language-tooltip-text = Modifica solo il testo del sito web.
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Collaborazione al dataset per { $language }
 contribution-picker-tooltip-text = Cambia il dataset della lingua a cui stai contribuendo
-# Label for button on contribution switcher
-change = Modifica
 coming-soon = Nuove lingue in arrivo
 media-recorder-api-not-supported = L’API MediaRecorder non è supportata nel browser.
 # Toast message that is displayed when an item is skipped
-skipped = Ignorato
+skipped = Saltata
 audioplayer-header = Ascolta
 guidelines = Linee guida
 # For the button to report an item
 report-button = Segnala
 # For the button to skip an item
-skip-button = Ignora
+skip-button = Salta
 submit-button = Invia
 contribute = Collabora
 request-new-language = Richiedi nuova lingua
+# Button text which appears when there are no more resources
+continue-with-skipped = Passa ai contenuti saltati
 
 ## Navbar
 
+question = Domanda
+validate = Convalida
 respond-to-prompt = Rispondi alla domanda
 transcribe = Trascrivi
 check-transcriptions = Verifica trascrizioni
-question = Domanda
 
 ## Not Found Page
 
@@ -60,3 +61,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turco
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Cerca una lingua…
+language-search-aria-label = Cerca una lingua
+language-search-label = Modifica solo la lingua di contribuzione del dataset
+language-search-no-results = Nessuna lingua trovata

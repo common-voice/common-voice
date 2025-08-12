@@ -28,6 +28,7 @@ contact-us = Тамос бо мо
 contact-us-title = Мехоҳед дар ин лоиҳа иштирок кунед ё шарики мо шавед?
 contact-us-email = Нишонии почтаи электронӣ: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Оё шумо аллакай дар гурӯҳи бета-озмоиши лоиҳаи «Spontaneous Speech» аз ҷониби «Common Voice» ҳастед?
+signup-terms = Бо пахш кардани имкони «Фиристодани пайванд ба нишонии почтаи электронии ман», шумо ба <termsLink>Шартҳои хизматрасонӣ</termsLink> ва <privacyLink>Сиёсати махфияти</privacyLink> мо розӣ мешавед ва, аз он ҷумла, «Mozilla» метавонад ба почтаи электронии шумо маълумотеро дар бораи қоидаҳои иштирок дар раванди санҷиши версияи «Beta»-и маҷмуи маълумоти «Spontaneous Speech» дар ҳудуди лоиҳаи «Common Voice» ирсол намояд.
 signup-input-placeholder = Почтаи электронии худро ворид намоед
 signup-button-value = Фиристодани пайванд ба нишонии почтаи электронии ман
 footer-text-privacy = <privacyLink>Махфият</privacyLink>

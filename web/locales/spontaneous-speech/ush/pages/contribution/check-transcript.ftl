@@ -4,7 +4,6 @@
 transcription-page-instruction = { $actionType } <playIcon> </playIcon> آدیو کلپ ݜُونو اؤ ٹرانسکریپشن چیک تھے۔ لا برابر ہنُو؟ آکہ نیِش با دُوبارا برابر تھا۔
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = چیک
-no-transcriptions-message = ا اینی جیِبے چیک تھؤنو کارا ٹرانسکرائبشن نیِش، مہربانی تھا پیج تازا تھا یا بعد در دوبارا کوشش تھا
 vote-transcript-success = ٹرانسکرائب رائے دہی کامیاب بیلو
 vote-transcript-error = ٹرانسکرائب ووٹنگ در ایک غلطی آلی
 transcript-edited-success = ٹرانسکرائب ترمیم کامیاب ہن

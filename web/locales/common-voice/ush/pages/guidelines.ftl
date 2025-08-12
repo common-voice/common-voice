@@ -3,6 +3,9 @@ guidelines-header = امدادی ہدایات
 guidelines-header-subtitle = تو لݜیِلو دیالے جملئی، اؤ آڈیو کلپس کامن وائس در کدا تصدیق بینا
 voice-collection = آواز جمع
 sentence-collection = جملئی جمع تھا
+
+## Voice Collection nav ids
+
 varying-pronunciations = بدل بدل تلفظ
 misreadings = غلط رئیلا
 offensive-content = غلط مواد
@@ -12,6 +15,9 @@ volume = والئیم
 reader-effects = پڑھاؤ تھونُو والا آثرات
 just-unsure = کہ تو تے یقین نیِش؟
 example = مثال
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = آسو مختلف لہجو تی ہرکلے رونا! ایک کلپ مسترد تھونو کئی مݜو احتیاط تھا تھئی خیال در رزونو والا ایک لفظ غلط آدا تھینو، یا غلط دیشا دباؤ تھینی، یا چکو بو دھریلنی، بوٹی دنیا در تلفظ لالی الفاظ استعمال بینو، ہورے ادئی الفاظے ہنی تو تمو کمیونٹی جیب در نی ݜونی۔ مہربانی تھا سا ضلقو قدر تھا ایسی چھو کئی مختلف جیب رئینا۔
 varying-pronunciations-explanation-2 = ہورے طرفتی، تھئی خیال در رزونو والا تی انا لفظ انیس کئی ݜُݜو میلاؤ نی بیلنو، برائے مہربانی مسترد تھا۔ کہ تو تی یقین نیِش تو سکیپ بٹن چوٹ دے۔
 varying-pronunciations-example = پون صفا نیِش۔
@@ -47,11 +53,17 @@ reader-effects-explanation = لالو آواز آدام بینا خلق تمُو
 just-unsure-explanation = کہ تو انا ہدایات کائی خلاف جے پشلا لپھاتی، مہربانی تھا تمو غورا فیصلہ ئی کارا رائے دا۔ تو واقعی فیصلہ نی تھو بئیلا، سکیپ بٹن دباؤ تھا اؤ مݜوتے بجا۔
 still-have-questions = باتھے سوالات ہنی؟
 contact-common-voice = کان وائس ست رابطی تھے
+
+## Sentence collection nav ids
+
 public-domain = پبلک ڈومین
 citing-sentences = جملئی جمع تھونا
 adding-sentences = جملئی جمع تھونا
 reviewing-sentences = جملئی جائزہ گھیننا
 sentence-domain = جملہ او حلقہ
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = انا لالے ضروری ہنی اے بوٹی جملئی متن <publicDomain> عوامی حلقئی مطابق بینا</publicDomain>سی سی<cc0> </cc0> انا کامن وائس ڈیٹاسیٹ سی سی او لائسنس ٹحت جا جاری تھینی۔  کہ تو تی یقین ہنو ایک جملہ اپلوڈ تھی، اؤ حوالہ سأت شامل تھا۔
 public-domain-explanation-2 = اے کورومی تقریر ریکگنیشن انجن سپارونو کارا غورا جملئی، عام ݜوڙی تھونو اؤ نئی موڙی تھونو بہتر ہنو۔ تھئی مدد کارا کچاک خیالات ہنی۔
 public-domain-explanation-3 = آکی یا تمو دوستو ست یا جیبو کمیونٹی ست نئی موڙو جملئی سپارا۔ مثال در ‘رائٹ اے تھون ذریعہ در’

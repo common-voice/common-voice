@@ -39,6 +39,8 @@ review-delete-recordings = Kkes ikalasen-iw
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tanemmirt imi i d-tmuddeḍ ibruyen seg taɣect-ik⋅im!
 why-donate = Ayɣer i testeqsaḍ?
 add-information-button = Rnu talɣut
 continue-speaking-button = Uhu, tanemmirt. Kemmel ameslay
@@ -47,12 +49,16 @@ first-cta-gender-select-help-text =
     .label = Amek ara d-tgelmeḍ tuzzuft-ik neɣ tawsit-ik?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tanemmirt ɣef umuddu n taɣect-ik!
+already-have-an-account = Ɣur-k⋅m yakan amiḍan? <login>Qqen</login>
 create-profile-button = Rnu amaɣnu
 # IMAGE TAGS
 img-alt-success-checkmark = aṛcam n rrbaḥ
+# menu item
+read-sentences = Ɣeṛ tifyar
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Ɣeṛ tifyar <small>(Sya ɣer sdat)</small>
 
 ## MENU ITEM TOOLTIPS
 
-
-## MENU ITEM ARIA LABELS
-
+speak-contribute-menu-tooltip = Ɣeṛ tifyar, err-d ɣef yisteqsiyen
+read-sentences-menu-item-tooltip = Sekles iman-k⋅im mi ara d-teqqareḍ tifyar deg tutlayt-ik⋅im

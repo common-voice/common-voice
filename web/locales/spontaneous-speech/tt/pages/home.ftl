@@ -5,6 +5,8 @@ prompt-bubble-title = <mark>Башлам</mark>
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Җавап бирү</mark>
 # text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Транскрипцияләү</mark>
+# text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Тикшерү</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Мәгълүмат</mark>

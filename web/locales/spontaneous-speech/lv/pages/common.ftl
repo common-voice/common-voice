@@ -4,11 +4,13 @@
 error = Kļūda
 action-click = Klikšķiniet
 action-tap = Pieskarieties
+# Label for language switcher
+platform-language = Platformas valoda
+platform-language-tooltip-text = Maina tikai vietnes tekstu.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Ieguldījums { $language } datu kopā
-# Label for button on contribution switcher
-change = Mainīt
+contribution-picker-tooltip-text = Maina valodu datu kopai, kurā veicat ieguldījumu
 coming-soon = Drīzumā būs pieejamas papildu valodas
 media-recorder-api-not-supported = MediaRecorder API jūsu pārlūkprogrammā netiek atbalstīta.
 # Toast message that is displayed when an item is skipped
@@ -25,7 +27,9 @@ request-new-language = Lūgt jaunu valodu
 
 ## Navbar
 
-respond-to-prompt = Atbildēt uz uzvedni
+question = Jautājums
+respond-to-prompt = Atbildēt uz jautājumu
+transcribe = Pārrakstīt
 check-transcriptions = Pārskatīt transkripcijas
 
 ## Not Found Page
@@ -54,3 +58,10 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Turku
 xkl = Kenyah
+
+## Language search component
+
+language-search-placeholder = Meklēt valodu...
+language-search-aria-label = Meklēt valodu
+language-search-label = Maina tikai datu kopas valodu
+language-search-no-results = Valoda nav atrasta

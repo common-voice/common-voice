@@ -8,6 +8,7 @@ datasets-positioning =
     Set data amlieithog Common Voice eisoes yw'r set data llais mwyaf sydd ar gael o'i fath, ond nid yw'r unig un.
     
     Mae'r dudalen hon yn ganolfan gwybodaeth am setiau data llais cod agored eraill ac wrth i Common Voice barhau i dyfu, yn gartref i'n diweddariadau ryddhau ni.
+datasets-speech-bubble-content = Newyddion cyffrous! Mae llefaru rhydd ar y ffordd! Cadwch yn effro am ddiweddariadau a gwnewch yn siŵr eich bod yn dilyn ein <discordLink>Discord</discordLink> am y wybodaeth ddiweddaraf.
 language = Iaith
 download-dataset-header = Llwytho'r Set Data i lawr
 download-delta-explainer = Rydym wedi gwneud rhai newidiadau. Mae Segmentau Delta'n cynnwys y clipiau mwyaf diweddar ers y rhyddhad diwethaf. <deltaLink>Darllenwch ragor am y gwaith hwn</deltaLink>.
@@ -94,6 +95,9 @@ release-version = Fersiwn
 dataset-date = Dyddiad
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
+# Support old genders in older datasets
+male = Gwryw
+female = Benyw
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Llwytho ein setiau data llais i lawr
 # MENU ITEM ARIA LABELS

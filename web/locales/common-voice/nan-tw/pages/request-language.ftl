@@ -18,3 +18,10 @@ request-language-success-list-1 = 你很快就會收到將語言加入 Common Vo
 request-language-success-list-2 = 我們的社群經理將主動聯絡您，提供各種協助，並且讓您知道是否已有其他社群在貢獻您提出的語言。
 request-language-success-list-3 = 若接下來幾天，您沒有收到來自我們的消息，也歡迎您主動寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
 request-language-error = 我們可能還沒有收到該請求，請直接寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
+request-for-scripted-speech-toggle = 徵求有文字的錄音
+request-for-spontaneous-speech-toggle = 徵求同步的錄音
+need-help-deciding-platform = 敢需要幫贊來決定揀佗一个？
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>有文字的錄音</strong> (一般來講是 Common Voice) 是你會當用你的語言大聲共句仔讀出來。
+need-help-deciding-platform-explanation-2 = <strong>同步的錄音</strong>是 Common Voice 新的功能，予你會當用較自然、對話方式來回答問題。
+need-help-deciding-platform-explanation-3 = 若是你佇平台無看著你的語言，請兩項攏揀。

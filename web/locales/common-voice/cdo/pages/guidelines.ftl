@@ -3,6 +3,9 @@ guidelines-header = 貢獻指南
 guidelines-header-subtitle = 了解如何向 Common Voice 資料庫貢獻語音與協助驗證
 voice-collection = 收集語音
 sentence-collection = 語句集合
+
+## Voice Collection nav ids
+
 varying-pronunciations = 不同發音
 misreadings = 誤讀
 offensive-content = 冒犯性內容
@@ -12,6 +15,9 @@ volume = 音量
 reader-effects = 聲音的表現
 just-unsure = 還是不確定嗎？
 example = 範例
+
+## Voice collection sidebar content
+
 varying-pronunciations-explanation-1 = 我們歡迎不同的腔調！當你認為錄音者發音錯誤、或重音放錯地方時，請務必謹慎決定是否要拒絕一段錄音。世界上有很多不同的腔調，有些在你的地區可能不太習慣。對跟你不同腔調的貢獻者，也請保持客氣。
 varying-pronunciations-explanation-2 = 反過來說，如果你覺得錄音者根本沒看過這個字，不知道正確發音，只是在有邊讀邊、無邊讀中間時，請拒絕這個錄音。如果你無法確定，請按跳過。
 varying-pronunciations-example = 周潤發跟鳳飛飛
@@ -47,11 +53,17 @@ reader-effects-explanation = 大部分的錄音者是以日常說話的方式錄
 just-unsure-explanation = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
 still-have-questions = 還有疑問嗎？
 contact-common-voice = 聯絡 Common Voice 團隊
+
+## Sentence collection nav ids
+
 public-domain = Public Domain
 citing-sentences = 引用句子
 adding-sentences = 新增句子
 reviewing-sentences = 審核句子
 sentence-domain = 語句領域
+
+## Sentence collection sidebar content
+
 public-domain-explanation-1 = 因為 Common Voice 語音資料庫採取 <publicDomain>無版權限制</publicDomain> （<cc0>CC0授權</cc0>）的方式釋出，確保所有的句子都屬於 <publicDomain>公眾授權</publicDomain>（公共領域）萬分重要。請務必指提交你確定無任何版權疑慮的句子，並且標示明確的出處。
 public-domain-explanation-2 = 要打造好用的語音識別引擎，最好的語句是現代口語。以下是一些能幫助您造句的好點子：
 public-domain-explanation-3 = 自己動手，或與朋友或語言社群一起創造現代、口語化句子（例如：舉辦「寫作馬拉松」）

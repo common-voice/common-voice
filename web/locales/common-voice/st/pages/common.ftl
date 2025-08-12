@@ -60,7 +60,6 @@ hsb = Sorbian, Hodimo
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
-hyw = Armenian ya Bophirimela
 ia = Interlingua
 id = Indonesian
 ie = Interlingue

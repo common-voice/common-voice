@@ -1,10 +1,16 @@
 ## ABOUT US
 
 about-title = എന്തുകൊണ്ട് കോമണ്‍ വോയ്സ്?
+about-header-description-v2 =
+    ലോകമെമ്പാടുമുള്ള സന്നദ്ധപ്രവർത്തകരുടെ ശബ്ദങ്ങളാൽ പ്രവർത്തിക്കുന്ന, പൊതുവായി ലഭ്യമായ ഒരു വോയ്‌സ് ഡാറ്റാസെറ്റാണ് കോമൺ വോയ്‌സ്. വോയ്‌സ് ആപ്ലിക്കേഷനുകൾ നിർമ്മിക്കാൻ ആഗ്രഹിക്കുന്ന ആളുകൾക്ക് മെഷീൻ ലേണിംഗ് മോഡലുകളെ പരിശീലിപ്പിക്കാൻ ഡാറ്റാസെറ്റ് ഉപയോഗിക്കാം.</p>
+    <p>നിലവിൽ, മിക്ക വോയ്‌സ് ഡാറ്റാസെറ്റുകളും കമ്പനികളുടെ ഉടമസ്ഥതയിലുള്ളതാണ്, ഇത് നവീകരണത്തെ തടസ്സപ്പെടുത്തുന്നു. വോയ്‌സ് ഡാറ്റാസെറ്റുകളും പ്രാതിനിധ്യം കുറവാണ്: ഇംഗ്ലീഷ് സംസാരിക്കാത്തവർ, വർണ്ണക്കാർ, വികലാംഗർ, സ്ത്രീകൾ, LGBTQIA+ ആളുകൾ. ഇതിനർത്ഥം വോയ്‌സ്-പ്രാപ്‌തമാക്കിയ സാങ്കേതികവിദ്യ പല ഭാഷകളിലും പ്രവർത്തിക്കുന്നില്ല എന്നാണ്, കൂടാതെ അത് പ്രവർത്തിക്കുന്നിടത്ത്, എല്ലാവർക്കും തുല്യമായി നന്നായി പ്രവർത്തിക്കണമെന്നില്ല. എല്ലായിടത്തും ആളുകളെ അവരുടെ ശബ്‌ദം പങ്കിടാൻ സജ്ജമാക്കിക്കൊണ്ട് ഞങ്ങൾ അത് മാറ്റാൻ ആഗ്രഹിക്കുന്നു.
 how-does-it-work-text = നമ്മള്‍ തുറന്ന സ്രോതസ്സിലുള്ള ശബ്ദസഞ്ചയം കൂട്ടായി ഉണ്ടാക്കുന്നു. നിങ്ങളുടെ ശബ്ദം നല്‍കിയും മറ്റുള്ളവരുടെ സംസാരത്തിന്റെ കൃതൃത ഉറപ്പാക്കിയും ശബ്ദസഞ്ചയം എല്ലാവര്‍ക്കും വേണ്ടി മെച്ചപ്പെടുത്തൂ.
 
 ## How does it work section
 
+about-localization-title = വെബിട പ്രാദേശികവൽക്കരണം
+about-localization-subtitle = ആ ഭാഷയിലോട്ടാണു് വെബിടത്തിലുള്ള എഴുത്തെല്ലാം വിവൎത്തനം ചെയ്യപ്പെടുന്നതു്.
+about-new-lang-title = പുതിയ ഭാഷ തുടക്കം
 about-speak = സംസാരിക്കുക
 about-speak-text = സംഭാവനയായി ലഭിച്ച വാചകങ്ങൾ വായിച്ച് ശബ്ദം റെക്കോഡ് ചെയ്യുന്നതിൽ പങ്കു ചേരാം
 about-listen-queue = കേൾക്കാനുള്ള-ക്യൂ
@@ -31,38 +37,18 @@ about-nav-how-it-works = എങ്ങനെ ?
 about-nav-partners = പങ്കാളികള്‍
 about-nav-get-involved = പങ്കെടുക്കുക
 
-## Community Playbook Content
-## What is a language
-
-
 ## How do I add a language
 
+about-playbook-how-add-language = ഒരു ഭാഷ എങ്ങനെ ചേൎക്കാൻ പറ്റും?
 about-playbook-how-add-language-translating-heading = താൾ വിവൎത്തനം
 about-playbook-how-add-language-collecting-sentences-heading = വാക്ക്യങ്ങളെ പിരിക്കുന്നതു്
-
-## How does localization work
-
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = വാക്യങ്ങൾ എങ്ങനെയാണു് ചേൎക്കുന്നതു്?
 
-## How to record quality
-
-
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = പരിപാടികൾ
 about-playbook-how-grow-language-content-4 = സാമൂഹികമാധ്യമം
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-
+about-playbook-how-grow-language-content-6 = പങ്കാളിത്തവും
