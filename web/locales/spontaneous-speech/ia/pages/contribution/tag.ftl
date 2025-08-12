@@ -1,5 +1,7 @@
 ## Tagging Page
 
+tag-page-instruction = Seliger <icon></icon> le texto pro comenciar
+tag-terms-checkbox = Io concorda con conditiones e confidentialitate de Common Voice.
 tag-popover-title = Seliger un etiquetta
 select-a-tag = Seliger un etiquetta
 edit-tag = Rediger un tag
@@ -12,6 +14,7 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 remove-tags = Remover tags
 tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = Activar o disactivar fenestra emergente
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Disfacer
 tag-page-shortcut-select-all = A
