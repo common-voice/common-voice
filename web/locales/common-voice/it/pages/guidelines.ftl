@@ -194,6 +194,7 @@ special-tags-example-2 =
     Be', [noise] [laugh] non era esattamente una vacanza [laugh]
 transcribe-the-audio-subheader-4-explanation-1-example = Si chiama <underline>Gio- Giova-</underline> Giovanni.
 transcribe-the-audio-subheader-4-explanation-2-example = E poi sono andato in <underline>in in in ca- in</underline> camera da letto
+transcribe-the-audio-subheader-5-explanation-1 = Il discorso spontaneo può contenere naturalmente errori grammaticali. Questi non devono essere corretti nella trascrizione, che deve riflettere esattamente il contenuto del parlato.
 
 ## Review the Transcription
 

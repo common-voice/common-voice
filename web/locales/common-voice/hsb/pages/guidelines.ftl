@@ -176,6 +176,7 @@ review-the-transcription-subheader = Powšitkowne pokazki
 
 ## Code-Switching
 
+code-switching = Přepinanje koda
 adding-a-question = Prašenje přidać
 # Adding a Question
 code-switching-adding-question-subheader = Što dobre prašenje twori?
@@ -186,6 +187,7 @@ code-switching-adding-question-criteria-3 = Křiwdźacu abo njepřistojnu rěč 
 code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne konteksty a domeny zapřijeć.
 # What types of questions to add
 code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
+code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
 code-switching-avoid-intro = Prašenja, kotrež:
 code-switching-dont-header = Špatne
 code-switching-dont-1 = Njewužiwajće přeformalnu rěč
@@ -207,6 +209,8 @@ code-switching-transcribe-subheader = Transkribować
 # Use standard spelling for each language
 code-switching-spelling-header = Standardny prawopis za kóždu rěč wužiwać
 code-switching-tagging-error-2 = Pisanske zmylki
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
