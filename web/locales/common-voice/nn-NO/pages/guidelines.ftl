@@ -224,6 +224,8 @@ code-switching-types-subheader = Kva typar spørsmål skal leggjast til?
 code-switching-use-bilingual-prompts-header = Bruk tospråklege spørsmål
 code-switching-use-bilingual-prompts-explanation = Bruk tospråklege spørsmål som inkluderer begge språka i spørsmålet ditt: Døme:
 code-switching-ask-bilingual-contexts-header = Spør om tospråklege kontekstar
+code-switching-informal-scenarios-header = Utforsk uformelle situasjonar
+code-switching-informal-scenarios-explanation = Samtalar med vennar eller tekstmeldingar inkluderer ofte meir naturleg veksling. Døme:
 # What to Avoid
 code-switching-avoid-subheader = Kva du bør unngå
 code-switching-avoid-intro = Spørsmål som kan vere:
@@ -252,3 +254,8 @@ code-switching-answer-bullet-2 = Tenk deg at du sender ei tekstmelding til ein v
 code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, sjølv om dei er lånte eller blanda
 code-switching-answer-bullet-4 = Det finst ingen «perfekt» måte å svare på
 code-switching-authentic-header = Svar naturleg og autentisk
+code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Om du blandar språk i det verkelege livet, gjer det same her. Døme:
+
+## Reporting Content
+
+reporting-content-subheader = Generell rettleiing
