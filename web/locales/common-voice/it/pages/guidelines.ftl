@@ -203,6 +203,7 @@ review-the-transcription-explanation-2 = Consulta le linee guida per la trascriz
 
 ## Code-Switching
 
+code-switching = Cambio di codice (code-switching)
 adding-a-question = Aggiungere una domanda
 # Adding a Question
 code-switching-adding-question-subheader = Quali sono i requisiti per una buona domanda?

@@ -184,3 +184,10 @@ tags-table-header-1 = Tag
 tags-table-header-2 = Ystyr
 tags-laugh = Chwerthin
 tags-disfluency = Anrhuglder
+tags-unclear = Aneglur
+tags-noise = Sŵn
+tags-laugh-explanation = Sŵn chwerthin.
+tags-unclear-explanation = Gair neu ddilyniant o eiriau nad oes modd eu deall.
+tags-noise-explanation =
+    Unrhyw fath arall o sŵn, fel y siaradwr yn pesychu neu'n clirio ei wddf,
+    corn car, sŵn rhywbeth yn taro'r meicroffon, ffôn yn canu, ac ati

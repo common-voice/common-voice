@@ -204,6 +204,8 @@ code-switching-review-no-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne
 code-switching-answer-subheader = Na prašenje wotmołwić
 # Transcribing
 code-switching-transcribe-subheader = Transkribować
+# Use standard spelling for each language
+code-switching-spelling-header = Standardny prawopis za kóždu rěč wužiwać
 code-switching-tagging-error-2 = Pisanske zmylki
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/

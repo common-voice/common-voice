@@ -30,3 +30,4 @@ do-not-section-title = nječińće
 do-not-section-guideline-1 = Wosobinske informacije požadać (kaž mjena abo financne informacije)
 do-not-section-guideline-2 = Předzajate abo njepřistojne nahlady zwuraznić abo požadać
 do-not-section-guideline-3 = Sensibelne prašenja stajić
+cs-do-not-section-guideline-3 = Přeformalnu rěč wužiwać
