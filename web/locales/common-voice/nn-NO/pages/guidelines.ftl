@@ -206,16 +206,22 @@ transcribe-the-audio-subheader-5-explanation-2 = Talarar kan bruke daglegdagse u
 ## Review the Transcription
 
 review-the-transcription = Vurder transkripsjonen
+review-the-transcription-subheader = Generell rettleiing
 
 ## Code-Switching
 
+code-switching = Kodebyte
 adding-a-question = Legg til eit spørsmål
 # Adding a Question
 code-switching-adding-question-subheader = Korleis ser eit godt spørsmål ut?
+code-switching-adding-question-explanation = Eit godt spørsmål for datasett for offentleg deltaking bør:
 code-switching-adding-question-criteria-1 = Vere lett å forstå og svare på
 code-switching-adding-question-criteria-2 = Vere generelt relevant
 code-switching-adding-question-criteria-3 = Ikkje bruke, eller oppfordre til skadeleg eller støytande språk
 code-switching-adding-question-note = Du bør kanskje også vurdere å strekkje deg over ulike kontekstar og domene.
+# What types of questions to add
+code-switching-types-subheader = Kva typar spørsmål skal leggjast til?
+code-switching-use-bilingual-prompts-header = Bruk tospråklege spørsmål
 code-switching-dont-header = Ikkje
 # Reviewing a Question
 code-switching-review-subheader = Vurder eit spørsmål
