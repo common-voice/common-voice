@@ -161,3 +161,40 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Pšawje</correct>
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Wiźimy se w <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Pšawje</correct>: Dajo dwaźasća procentow rabata
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Dajo 20 % rabata
+tags-table-header-1 = Wobznamjenje
+tags-table-header-2 = Wóznam
+tags-laugh = Smjaśe
+tags-disfluency = Njeběžnosć
+tags-unclear = Njejasny
+tags-noise = Šum
+tags-laugh-explanation = Zuk smjaśa.
+
+## Review the Transcription
+
+review-the-transcription = Transkripciju pśeglědowaś
+review-the-transcription-subheader = Powšykne pokazki
+
+## Code-Switching
+
+adding-a-question = Pšašanje pśidaś
+# Adding a Question
+code-switching-adding-question-subheader = Co jo dobre pšašanje?
+code-switching-adding-question-explanation = Dobre pšašanje za datowe sajźby zjawnego wobźělenja měło:
+code-switching-adding-question-criteria-1 = Lažko rozměś byś a na se wótegroniś daś
+code-switching-adding-question-criteria-2 = Powšyknje relewantne byś
+code-switching-adding-question-criteria-3 = Kśiwjecu abo njepśistojnu rěc njewužywaś
+code-switching-adding-question-note = Móžośo teke rozwažowaś, rozdźělne konteksty a domeny zapśimjeś.
+# What types of questions to add
+code-switching-types-subheader = Kótare typy pšašanjow maju se pśidaś?
+code-switching-dont-header = Špatne
+# Reviewing a Question
+code-switching-review-subheader = Pšašanje pśeglědowaś
+code-switching-review-criterion-1 = lažko rozměś byś a na se wótegroniś daś
+code-switching-review-criterion-2 = Powšyknje relewantne byś
+code-switching-review-criterion-3 = Kśiwjecu abo njepśistojnu rěc njewužywaś
+code-switching-review-does-not-header = A <bold>NJE</bold>wopśimujo:
+code-switching-review-offensive-content = <bold>Njepśistojne wopśimjeśe abo sensibelne informacije</bold>
+code-switching-answer-header = Njepśistojne wopśimjeśe abo sensibelne informacije
+code-switching-review-no-1 = Pšašanja, kótarež se informacije wó wósobinskej identiśe wupšosuju
+code-switching-review-no-2 = Pšašanja, kótarež se mógli powědanje gramoty abo druge zacuśa połne pśedsudkow abo njepśistojne zacuśa wupšosowaś
+code-switching-review-no-3 = Pšašanja, kótarež mógli k tomu wjasć, sensibelne, potencielnje wuwołujuce wótegrona źěliś

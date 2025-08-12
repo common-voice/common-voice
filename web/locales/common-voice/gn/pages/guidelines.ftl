@@ -151,6 +151,8 @@ transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
 transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Oiko’ỹva</wrong>: Opyta sa mílla ko’águi
 tags-table-header-1 = Teramoĩ
 tags-table-header-2 = He’iséva
 tags-laugh = Puka
