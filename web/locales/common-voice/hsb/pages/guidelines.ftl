@@ -218,4 +218,5 @@ code-switching-not-tag-interjections-example-4 = „Hm“
 
 ## Reporting Content
 
+reporting-content = Wobsah zdźělić
 reporting-content-subheader = Powšitkowne pokazki

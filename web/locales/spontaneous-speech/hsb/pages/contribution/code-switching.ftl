@@ -1,10 +1,12 @@
 ## Errors
 
+cs-error-fetching-datasets = Při wotwołowanju lisćiny k dispoziciji stejacych datowych sadźbow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 cs-error-fetching-questions = Při wotwołanju prašenjow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 cs-error-fetching-transcriptions = Při wotwołanju transkripcijow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 
 ## Question Page Items
 
+cs-question-page-instruction = Přidajće datowej sadźbje { $currentLocale } hač do 25 prašenjow <icon></icon>, na kotrež maja ludźo wotmołwić
 cs-question-dataset-name = Datowa sadźba: { $datasetName }
 
 ## Validate Page Items
