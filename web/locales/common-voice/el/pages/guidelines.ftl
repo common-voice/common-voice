@@ -162,6 +162,10 @@ tags-laugh = Γέλιο
 tags-unclear = Ασάφεια
 tags-noise = Θόρυβος
 tags-laugh-explanation = Ο ήχος του γέλιου.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Και τότε [θόρυβος] πήγα διακοπές.
+    Βασικά, [θόρυβος] [γέλιο] δεν ήταν ακριβώς διακοπές [γέλιο]
 
 ## Review the Transcription
 
