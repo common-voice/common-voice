@@ -347,3 +347,5 @@ code-switching-not-tag-interjections-example-2 = “No”
 
 reporting-content = Contento de reporto
 reporting-content-subheader = Guida general
+reporting-content-explanation-1 = Tu debe signalar contento que es offensive, malefic o alteremente preoccupante. On non debe alsi includer informationes de identification personal como numeros de telephono o adresses. Illos sera removite de tu experientia usque le equipa de Common Voice pote revider lo e investigar ulteriormente.
+reporting-content-explanation-2 = Pro reportar contento, selige le button “Reportar” e selige un o tote le optiones: Contento offensive, Lingua differente, Informationes de identification personal, altero. De ci, forni altere detalios re perque tu reporta le contento in le area de texto. Pois, invia le reporto cliccante sur le button Reportar.
