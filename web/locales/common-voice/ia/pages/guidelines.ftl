@@ -324,6 +324,9 @@ code-switching-pronunciation-explanation = Alcun parolas poterea parer equal in 
 # Tagging in a Single Token
 code-switching-single-token-header = Etiquettar in un sol token
 code-switching-single-token-explanation = Un sol token separate per spatio debe continer plus que un intervallo etiquettate.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Etiquettar punctuation in base al lingua vicin
+code-switching-punctuation-tagging-explanation = Etiquetta punctuation per le lingua plus proxime a sinistra. Exemplos:
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Attention al sosias
 code-switching-lookalikes-explanation = Alcun parolas pote apparer como un lingua ma es usate pro le altere. Etiquettar in base a significato e uso, non apparentia. Exemplos:
