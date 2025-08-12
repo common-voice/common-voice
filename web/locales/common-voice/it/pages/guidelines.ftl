@@ -147,6 +147,7 @@ answer-questions-explanation-2 = Ricorda: non preoccuparti se balbetti, fai una 
 answer-questions-tip-1 = Registra in un luogo sufficientemente tranquillo
 answer-questions-tip-2 = Scegli un luogo con una buona connessione a Internet
 answer-questions-tip-4 = Evita discorsi che incitano all’odio, provocatori o comunque offensivi
+answer-questions-tip-5 = Parla in modo naturale, come faresti con un amico: utilizza la tua varietà linguistica reale, il tuo dialetto e accento
 answer-questions-tip-6 = Mantieni un volume della voce costante: non urlare o cantare
 # Transcribe the Audio
 transcribe-the-audio = Trascrivi l’audio
@@ -180,6 +181,9 @@ tags-disfluency = Disfluenza
 tags-unclear = Non chiaro
 tags-noise = Rumore
 tags-laugh-explanation = Il suono di una risata.
+tags-disfluency-explanation =
+    Una parola o un suono riempitivo utilizzato come intercalare mentre chi parla decide che cosa dire.
+    In italiano, alcuni suoni di esitazione comuni sono “ehm”, “eh”, “mhm”, ecc.
 tags-unclear-explanation = Una parola o una sequenza di parole incomprensibili.
 
 ## Review the Transcription
