@@ -192,3 +192,6 @@ code-switching-types-subheader = Che tipo di domande aggiungere?
 code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui entrambe le lingue sono comunemente utilizzate (ad es. a casa, a scuola, durante eventi della comunità). Esempio:
 code-switching-focus-emotional-header = Punta su momenti emotivi o cruciali
 code-switching-focus-emotional-explanation = Le persone spesso cambiano codice linguistico per esprimere emozioni o urgenza. Esempio:
+code-switching-direct-quotes-header = Richiedi citazioni dirette o rievocazioni
+code-switching-direct-quotes-explanation = Incoraggia i partecipanti a riportare fedelmente ciò che è stato effettivamente detto. Esempio:
+code-switching-cultural-topics-header = Scegli argomenti culturalmente specifici
