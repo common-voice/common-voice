@@ -199,10 +199,14 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneholder naturlig nok falske starter, der bare en del av et ord blir uttalt. I slike tilfeller, prøv å transkribere ordfragmentet så godt du kan, og legg til en bindestrek (-) på slutten av ordet for å indikere at det er en falsk start. Eksempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et ord eller et ordfragment flere ganger. Dette skal også transkriberes. Eksempel:
+transcribe-the-audio-subheader-5-explanation-1 = Spontantale vil naturlig inneholde grammatiske feil. Disse skal ikke rettes under transkripsjon. Transkripsjonen skal gjenspeile det som faktisk ble sagt, nøyaktig.
 
 ## Review the Transcription
 
+review-the-transcription = Gjennomgå transkripsjonen
 review-the-transcription-subheader = Generell veiledning
+review-the-transcription-explanation-1 = Generelt anbefaler vi at personen som kontrollerer transkripsjonen ikke er den samme som utførte den opprinnelige transkripsjonen. Det er veldig vanskelig å kvalitetssikre eget arbeid! Flere runder med gjennomgang kan bidra til bedre kvalitetssikring og redusere skjevheter og problemer.
+review-the-transcription-explanation-2 = Gå gjennom transkripsjonsretningslinjene ovenfor for å sjekke at en transkripsjon er korrekt. Du kan gjøre endringer og sende dem inn.
 review-the-transcription-explanation-3 = Igjen, du kan flagge innhold som er støtende, skadelig eller på annen måte bekymringsfullt, og det vil bli fjernet fra opplevelsen din inntil Common Voice-teamet kan gjennomgå det og undersøke det videre.
 
 ## Code-Switching
@@ -221,6 +225,14 @@ code-switching-types-subheader = Hvilke typer spørsmål skal legges til?
 code-switching-use-bilingual-prompts-header = Bruk tospråklige spørsmål
 code-switching-use-bilingual-prompts-explanation = Bruk tospråklige spørsmål som inkluderer begge språkene i spørsmålet ditt: Eksempel:
 code-switching-ask-bilingual-contexts-header = Spør om tospråklige kontekster
+code-switching-ask-bilingual-contexts-explanation = Bruk situasjoner der begge språkene er vanlige (f.eks. hjemme, på skolen, ved arrangementer i lokalsamfunnet). Eksempel:
+code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige øyeblikk
+code-switching-focus-emotional-explanation-example = «Fortell meg hva foreldrene dine sa da du fortalte dem den store nyheten — nøyaktig hvordan de sa det.»
+code-switching-direct-quotes-header = Be om direkte sitater eller gjenfortellinger
+code-switching-direct-quotes-explanation = Oppfordre deltakerne til å gjengi hvordan ting faktisk ble sagt. Eksempel:
+code-switching-direct-quotes-explanation-example = «Hva var dine eksakte ord da du fant det ut?»
+code-switching-cultural-topics-header = Velg kulturspesifikke emner
+code-switching-cultural-topics-explanation = Mat, tradisjoner, høytider og familiedynamikk inviterer ofte til kodebytte.
 code-switching-informal-scenarios-header = Utforsk uformelle situasjoner
 code-switching-informal-scenarios-explanation = Samtaler med venner eller tekstmeldinger inkluderer ofte mer naturlig veksling. Eksempel:
 code-switching-informal-scenarios-explanation-example = «Hva er en vits vennene dine alltid drar — og hvordan sier de den?»
@@ -253,6 +265,10 @@ code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, selv om de er 
 code-switching-answer-bullet-4 = Det finnes ingen «perfekt» måte å svare på
 code-switching-authentic-header = Svar naturlig og autentisk
 code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Hvis du blander språk i det virkelige liv, gjør det samme her. Eksempel:
+code-switching-use-both-languages = <bold>Bruk begge språkene hvis det er slik du vanligvis sier det.</bold> Selv det å bytte ut bare ett eller to ord er nyttig. Eksempel:
+code-switching-authentic-direct-quotes = <bold>Inkluder direkte sitater eller dialog.</bold> Si nøyaktig hva noen sa, ikke en oppryddet eller formell versjon. Eksempel:
+code-switching-authentic-reflect = <bold>Reflekter følelser, identitet og kontekst.</bold> Veksling skjer vanligvis når folk uttrykker følelser, hvor viktig det er, eller kulturelle ideer. Ta hensyn til disse når du svarer på spørsmål.
+code-switching-authentic-full-context = <bold>Bruk fullstendige svar med kontekst.</bold> Vær så detaljert som mulig, og gi så mange detaljer som mulig. Del en historie eller et eksempel i svarene dine.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ikke overtenk eller overrediger
 code-switching-answer-dont-correct-language = <bold>«Korriger» språket ditt.</bold> Dette er ikke en test. «Riktig» form spiller ingen rolle her, naturlig språk gjør det.
