@@ -1,5 +1,6 @@
 ## Tagging Page
 
+tag-page-instruction = Vel <icon></icon> teksten for å begynne
 # Shortcuts modal
 tag-page-shortcut-tag-language-1 = 1
 tag-page-shortcut-tag-language-2 = 2

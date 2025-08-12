@@ -24,8 +24,13 @@ cs-add-vote-error-message = Det oppstod ein feil under avstemminga om spørsmål
 
 cs-no-audio-continue-skipped-message = Det finst akkurat no ingen lyd å transkribere for dette datasettet. Om du har hoppa over noko, kan du halde fram med innhaldet som er hoppa over, eller gå til «sjå gjennom transkripsjonar» og prøve på nytt seinare.
 
+## Review Page Items
+
+cs-no-transcriptions-continue-skipped = Det finst akkurat no ingen transkripsjonar å sjekke for dette datasettet. Om du har hoppa over nokre, kan du halde fram med innhaldet som er hoppa over, eller gå til transkribering av lyd og prøve på nytt seinare.
+
 ## Tag Page Items
 
+cs-no-transcriptions-to-tag-continue-skipped = Det finst akkurat no ingen transkripsjonar å merke for dette datasettet. Om du har hoppa over nokre, kan du halde fram med innhaldet som er hoppa over, eller gå til transkribering av lyd og prøve på nytt seinare.
 cs-tag-dataset-name = Datasett [{ $datasetName }]
 
 ## Guidelines
