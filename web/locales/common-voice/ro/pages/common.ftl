@@ -182,6 +182,7 @@ tg = Tadjică
 th = Thailandeză
 tk = Turkmenă
 tl = Tagalog
+tob = Toba Qom
 tr = Turcă
 tt = Tătară
 ty = Tahitiană
@@ -229,7 +230,16 @@ email-input =
 loading = Se încarcă…
 email-opt-in-info = Doresc să primesc mesaje prin e-mail cu evoluția obiectivelor și progresului proprii sau cu buletine informative despre proiectul Common Voice.
 email-opt-in-info-title = Înscrie-te pe lista de corespondență Common Voice
-email-opt-in-info-sub-with-challenge = Primești mesaje pe e-mail, precum memento-uri de provocări și obiective, actualizări legate de progres și buletine de știri despre Common Voice.
-email-opt-in-privacy-v2 = Dacă optezi să primești mesaje pe e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații, conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
-indicates-required = * Indică un câmp obligatoriu
+email-opt-in-info-sub-with-challenge = Primește mesaje prin e-mail cu evoluția obiectivelor și progresului proprii sau cu buletine informative despre proiectul Common Voice.
+email-opt-in-privacy-v2 = Dacă alegi să primești mesaje prin e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații, conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
+indicates-required = Asteriscul (*) indică un câmp obligatoriu.
 not-available-abbreviation = Nu e cazul
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Avem nevoie de</mark><br/><mark>ajutorul tău!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Găzduirea seturilor de date și îmbunătățirea platformei pentru cele peste 100 de comunități lingvistice care se bazează pe ceea ce facem costă aproape un milion de dolari pe an. <strong>Dacă susții datele deschise și incluzive, donează acum!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Folosești proiectul Common Voice</mark><br/><mark>în cercetare?</mark>

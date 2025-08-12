@@ -166,9 +166,12 @@ tags-disfluency = Ñe’ẽpa’ã
 tags-unclear = Hesakã’ỹva
 tags-noise = Tyapu
 tags-laugh-explanation = Jepuka ryapu.
+tags-unclear-explanation = Ñe’ẽ térã ñe’ẽ juaju oñeikumbykuaa’ỹva.
+transcribe-the-audio-subheader-4-explanation-1-example = Ha’e héra <underline>Jo- Jona-</underline> Jonathan.
 
 ## Review the Transcription
 
+review-the-transcription = Ehechajey jehaikue
 review-the-transcription-subheader = Ñembohape guasu
 
 ## Code-Switching
@@ -185,6 +188,7 @@ code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’�
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
 # What to Avoid
 code-switching-avoid-subheader = Mba’éicha emboykéta
