@@ -197,6 +197,7 @@ code-switching-focus-emotional-explanation = Le persone spesso cambiano codice l
 code-switching-direct-quotes-header = Richiedi citazioni dirette o rievocazioni
 code-switching-direct-quotes-explanation = Incoraggia i partecipanti a riportare fedelmente ciò che è stato effettivamente detto. Esempio:
 code-switching-cultural-topics-header = Scegli argomenti culturalmente specifici
+code-switching-cultural-topics-explanation-example = “Come descriveresti il ‘Día de los Muertos’ a qualcuno che parla solo italiano?”
 code-switching-informal-scenarios-header = Esplora scenari informali
 code-switching-informal-scenarios-explanation-example = “Qual è quella battuta che i tuoi amici ripetono sempre e come la raccontano?”
 # What to Avoid
@@ -213,3 +214,6 @@ code-switching-review-no-2 = Domande che potrebbero provocare incitamento all’
 code-switching-answer-subheader = Rispondere a una domanda
 code-switching-answer-bullet-1 = Pensa a momenti o situazioni della vita reale: battute, discussioni, tradizioni
 code-switching-answer-bullet-2 = Immagina di scrivere un messaggio a un amico o di raccontare una storia a qualcuno
+code-switching-answer-bullet-4 = Non esiste un modo “perfetto” per rispondere
+code-switching-authentic-header = Rispondi in modo naturale e autentico
+code-switching-authentic-speak-example = “Well, le ho detto che non potevo andare ma lei mi ha risposto ‘Faresti meglio a presentarti!’”
