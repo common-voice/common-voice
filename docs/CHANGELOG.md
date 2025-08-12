@@ -2,11 +2,13 @@
 
 ## Current release
 
-### [v1.149.0 (2025-08-10)](https://github.com/common-voice/common-voice/releases/tag/release-v1.149.0)
+### [v1.149.0 (2025-08-12)](https://github.com/common-voice/common-voice/releases/tag/release-v1.149.0)
 
 - Feat: Redesign of guidelines and addition of Pontoon keys, by [@moz-rotimib](https://github.com/moz-rotimib) in [#4952](https://github.com/common-voice/common-voice/pull/4952)
 - Feat (in v1.148.3): Add two legal consent checkboxes to API Credentials and re-enable the tab, by [@moz-rotimib](https://github.com/moz-rotimib) in [#5001](https://github.com/common-voice/common-voice/pull/5001)
 - Feat (in v1.148.1): Update profile page to add API Credentials (temporarily disabled) by [@moz-rotimib](https://github.com/moz-rotimib) in [#4961](https://github.com/common-voice/common-voice/pull/4961)
+- Fix: Several issues in new guidelines, by [@moz-bozden](https://github.com/moz-bozden) in [#5034](https://github.com/common-voice/common-voice/pull/5034)
+- Fix: Multiple issues in Downloads/Other Voice Datasets section (dataset size missing, male/female keys for old datasets missing, temporarily disable voxforge download link), by [@moz-bozden](https://github.com/moz-bozden) in [#5035](https://github.com/common-voice/common-voice/pull/5035)
 - Fix: Overflow in long accent lists and adapt style to variant selector [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4849](https://github.com/common-voice/common-voice/pull/4849) fixes [#4378](https://github.com/common-voice/common-voice/issues/4378)
 - Minor fix: Add left-aligned class to contact us button which was causing visual problems in some languages by [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4868](https://github.com/common-voice/common-voice/pull/4868) fixes [#4867](https://github.com/common-voice/common-voice/issues/4867)
 - Minor fix: Add missing Bengali `bn` sub-Discourse list by [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4852](https://github.com/common-voice/common-voice/pull/4852)
