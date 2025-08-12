@@ -201,6 +201,7 @@ transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo
 transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et ord eller et ordfragment flere ganger. Dette skal også transkriberes. Eksempel:
 transcribe-the-audio-subheader-4-explanation-2-example = Og så gikk jeg <underline>til til til sove- til</underline> soverommet
 transcribe-the-audio-subheader-5-explanation-1 = Spontantale vil naturlig inneholde grammatiske feil. Disse skal ikke rettes under transkripsjon. Transkripsjonen skal gjenspeile det som faktisk ble sagt, nøyaktig.
+transcribe-the-audio-subheader-5-explanation-2 = Talere kan bruke slang eller muntlige uttrykk (som for eksempel på norsk «må’kke», «gidder’u» osv.) som kanskje ikke anses som formelt korrekte. Disse skal transkriberes som de er, og ikke endres til mer formelle ekvivalenter.
 
 ## Review the Transcription
 
@@ -311,6 +312,9 @@ code-switching-orthography-header = Bruk av riktig ortografi for hvert språk
 code-switching-orthography-explanation = Skriv hvert ord i henhold til stavemåten til språket det kommer fra. For eksempel:
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+# Tagging in a Single Token
+code-switching-single-token-header = Merking i et enkelt token
+code-switching-single-token-explanation = Et enkelt token atskilt med mellomrom skal inneholde mer enn én nøkkelordseksjon.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Merk tegnsetting basert på språk i nærheten
 code-switching-punctuation-tagging-explanation = Merk tegnsetting med språket nærmest venstre. Eksempler:
