@@ -218,3 +218,4 @@ code-switching-not-tag-interjections-example-4 = „Hm“
 ## Reporting Content
 
 reporting-content = Wopśimjeśe k wěsći daś
+reporting-content-subheader = Powšykne pokazki
