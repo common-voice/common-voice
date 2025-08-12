@@ -198,6 +198,7 @@ transcribe-the-audio-subheader-4-explanation-2-example = E poi sono andato in <u
 ## Review the Transcription
 
 review-the-transcription-subheader = Guida generale
+review-the-transcription-explanation-1 = In generale, è consigliabile che la persona che controlla la trascrizione non sia la stessa persona che ha eseguito la trascrizione originale. È molto difficile controllare il proprio lavoro! Avere più linee di revisione aiuta a rendere più affidabile il controllo della qualità e a mitigare bias e problemi.
 review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. È possibile apportare modifiche e inviarle.
 
 ## Code-Switching
@@ -225,6 +226,7 @@ code-switching-informal-scenarios-explanation-example = “Qual è quella battut
 code-switching-avoid-subheader = Che cosa evitare
 code-switching-avoid-intro = Domande che potrebbero:
 code-switching-avoid-2 = Promuovere incitamento all’odio o ad altri sentimenti faziosi o offensivi
+code-switching-dont-1 = Non utilizzare un linguaggio eccessivamente formale
 code-switching-review-intro = Assicurati che la domanda soddisfi i seguenti criteri:
 code-switching-review-criterion-1 = Sia facile da capire e a cui rispondere
 code-switching-review-criterion-2 = Sia generalmente appropriata
