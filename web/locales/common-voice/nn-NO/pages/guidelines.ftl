@@ -231,6 +231,11 @@ code-switching-ask-bilingual-contexts-explanation = Bruk situasjonar der begge s
 code-switching-ask-bilingual-contexts-explanation-example = «Når du snakkar med søskenbarna dine, blandar de spansk og engelsk?»
 code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige stunder
 code-switching-focus-emotional-explanation-example = «Fortel meg kva foreldra dine sa då du fortalde dei den store nyheita — nøyaktig korleis dei sa det.»
+code-switching-direct-quotes-header = Be om direkte sitat eller attforteljingar
+code-switching-direct-quotes-explanation = Oppmod deltakarane til å gi att korleis ting faktisk vart sagt. Døme:
+code-switching-direct-quotes-explanation-example = «Kva var dei eksakte orda dine då du fann det ut?»
+code-switching-cultural-topics-header = Vel kulturspesifikke emne
+code-switching-cultural-topics-explanation = Mat, tradisjonar, høgtider og familiedynamikk inviterer ofte til kodebyte.
 code-switching-informal-scenarios-header = Utforsk uformelle situasjonar
 code-switching-informal-scenarios-explanation = Samtalar med vennar eller tekstmeldingar inkluderer ofte meir naturleg veksling. Døme:
 # What to Avoid
@@ -262,6 +267,13 @@ code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, sjølv om dei 
 code-switching-answer-bullet-4 = Det finst ingen «perfekt» måte å svare på
 code-switching-authentic-header = Svar naturleg og autentisk
 code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Om du blandar språk i det verkelege livet, gjer det same her. Døme:
+code-switching-use-both-languages = <bold>Bruk begge språka dersom det er slik du vanlegvis seier det.</bold> Sjølv det å byte ut berre eitt eller to ord er nyttig. Døme:
+code-switching-authentic-direct-quotes = <bold>Inkluder direkte sitat eller dialog.</bold> Sei nøyaktig kva nokon sa, ikkje ein opprydda eller formell versjon. Døme:
+code-switching-authentic-reflect = <bold>Reflekter kjensler, identitet og kontekst.</bold> Veksling skjer vanlegvis når folk uttrykkjer kjensler, kor viktig det er, eller kulturelle idear. Ta omsyn til desse når du svarar på spørsmål.
+code-switching-authentic-full-context = <bold>Bruk fullstendige svar med kontekst.</bold> Ver så detaljert som mogleg, og gi så mange detaljar som mogleg. Del ei historie eller eit døme i svara dine.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ikkje overtenk eller overrediger
+code-switching-answer-dont-correct-language = <bold>«Korriger» språket ditt.</bold> Dette er ikkje ein test. «Rett» form spelar inga rolle her, naturleg språk gjer det.
 
 ## Reporting Content
 
