@@ -4,6 +4,7 @@ guidelines-header-subtitle = Κατανοήστε τον τρόπο συνεισ
 voice-collection = Συλλογή φωνών
 sentence-collection = Συλλογή προτάσεων
 question-collection = Συλλογή ερωτήσεων
+spontaneous-speech = Αυθόρμητη ομιλία
 
 ## Voice Collection nav ids
 
@@ -139,4 +140,5 @@ example-questions-explanation-2 = Αν θέλετε να υποβάλετε μι
 
 ## Spontaneous Speech sidebar content
 
+answer-questions-subheader = Γενικές οδηγίες
 tags-table-header-1 = Ετικέτα

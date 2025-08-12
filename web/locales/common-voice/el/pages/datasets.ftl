@@ -95,6 +95,9 @@ release-version = Έκδοση
 dataset-date = Ημερομηνία
 license = Άδεια: <licenseLink>{ $license }</licenseLink>
 license-mixed = Μεικτή
+# Support old genders in older datasets
+male = Άνδρας
+female = Γυναίκα
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Κάντε λήψη των συνόλων δεδομένων φωνής μας
 # MENU ITEM ARIA LABELS
