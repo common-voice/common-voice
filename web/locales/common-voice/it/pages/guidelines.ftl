@@ -189,3 +189,4 @@ code-switching-adding-question-criteria-3 = Non contenere o incoraggiare l’uso
 code-switching-adding-question-note = Considera anche l’inclusione di contesti e domini diversi.
 # What types of questions to add
 code-switching-types-subheader = Che tipo di domande aggiungere?
+code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui entrambe le lingue sono comunemente utilizzate (ad es. a casa, a scuola, durante eventi della comunità). Esempio:
