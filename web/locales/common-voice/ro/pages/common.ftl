@@ -161,6 +161,7 @@ rm-sursilv = Retoromană sursilvană
 rm-vallader = Retoromană valladeră
 ro = Română
 ru = Rusă
+rup = Aromână
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardă
@@ -234,6 +235,12 @@ email-opt-in-info-sub-with-challenge = Primește mesaje prin e-mail cu evoluția
 email-opt-in-privacy-v2 = Dacă alegi să primești mesaje prin e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații, conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
 indicates-required = Asteriscul (*) indică un câmp obligatoriu.
 not-available-abbreviation = Nu e cazul
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Copiază
+# Text shown on a button that can be clicked to cancel an action
+cancel = Anulează
+# Text shown on a button that can be clicked to delete an item
+delete = Șterge
 
 ## Donate banner
 
@@ -243,3 +250,6 @@ donate-banner-cta = <mark>Avem nevoie de</mark><br/><mark>ajutorul tău!</mark>
 donate-banner-cta-explanation = Găzduirea seturilor de date și îmbunătățirea platformei pentru cele peste 100 de comunități lingvistice care se bazează pe ceea ce facem costă aproape un milion de dolari pe an. <strong>Dacă susții datele deschise și incluzive, donează acum!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Folosești proiectul Common Voice</mark><br/><mark>în cercetare?</mark>
+languages-donate-banner-cta-explanation = Proiectul Common Voice este finanțat prin donații și subvenții! Ne place să colaborăm cu societatea civilă, cadrele universitare și cercetătorii din industrie. Common Voice este gratuit, dar ne ajută mult propunerile de proiecte și finanțările ce pot contribui la costurile aferente platformei și găzduirii datelor.
+localization-select =
+    .label = Alege limba

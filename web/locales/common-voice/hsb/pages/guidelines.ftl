@@ -180,7 +180,7 @@ adding-a-question = Prašenje přidać
 # Adding a Question
 code-switching-adding-question-subheader = Što dobre prašenje twori?
 code-switching-adding-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
-code-switching-adding-question-criteria-1 = Lochko rozumić być a na so wotmołwić dać
+code-switching-adding-question-criteria-1 = lochko rozumić być a na so wotmołwić dać
 code-switching-adding-question-criteria-2 = Powšitkownje relewantne być
 code-switching-adding-question-criteria-3 = Křiwdźacu abo njepřistojnu rěč njewužiwać
 code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne konteksty a domeny zapřijeć.

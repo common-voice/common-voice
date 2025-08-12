@@ -180,12 +180,13 @@ adding-a-question = Pšašanje pśidaś
 # Adding a Question
 code-switching-adding-question-subheader = Co jo dobre pšašanje?
 code-switching-adding-question-explanation = Dobre pšašanje za datowe sajźby zjawnego wobźělenja měło:
-code-switching-adding-question-criteria-1 = Lažko rozměś byś a na se wótegroniś daś
+code-switching-adding-question-criteria-1 = lažko rozměś byś a na se wótegroniś daś
 code-switching-adding-question-criteria-2 = Powšyknje relewantne byś
 code-switching-adding-question-criteria-3 = Kśiwjecu abo njepśistojnu rěc njewužywaś
 code-switching-adding-question-note = Móžośo teke rozwažowaś, rozdźělne konteksty a domeny zapśimjeś.
 # What types of questions to add
 code-switching-types-subheader = Kótare typy pšašanjow maju se pśidaś?
+code-switching-avoid-intro = Pšašanja, kótarež:
 code-switching-dont-header = Špatne
 # Reviewing a Question
 code-switching-review-subheader = Pšašanje pśeglědowaś

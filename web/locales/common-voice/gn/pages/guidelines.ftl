@@ -189,6 +189,7 @@ code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
+code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
 # What to Avoid
 code-switching-avoid-subheader = Mba’éicha emboykéta
@@ -202,8 +203,13 @@ code-switching-review-intro = Ehecháke pe porandu taiporãmeme:
 code-switching-review-criterion-1 = Ndahasýi iñeikumby ha imbohovái
 code-switching-review-criterion-2 = Hetave jey hekoporãva’erã
 code-switching-review-criterion-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+code-switching-answer-header = Tetepy oporoko’õva térã marandu oñeñandúva
+code-switching-review-no-1 = Ñeporandu ikatukuaáva ojerure ndéve marandu nde ndeheguaitéva
+code-switching-review-no-2 = Porandu ikatúva omongu’e je’epy ja’e’ỹ térã hetave mba’e omongu’ekuaáva jeikovairã
+code-switching-review-no-3 = Porandu ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
 # Answering a Question
 code-switching-answer-subheader = Embohovaihína Porandu
+code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emombeʼuha tembiasakue nde rapichápe
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
 code-switching-tagging-error-2 = Jejavy taiguáva
