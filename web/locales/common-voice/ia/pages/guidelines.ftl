@@ -330,8 +330,17 @@ code-switching-punctuation-tagging-explanation = Etiquetta punctuation per le li
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Attention al sosias
 code-switching-lookalikes-explanation = Alcun parolas pote apparer como un lingua ma es usate pro le altere. Etiquettar in base a significato e uso, non apparentia. Exemplos:
+code-switching-lookalikes-explanation-example-2 = “No problemo” usate in interlingua > etiquettar como interlingua
+# When Not to Tag Words
+code-switching-not-tag-header = Quando non etiquettar le parolas
+code-switching-not-tag-explanation = Alcun parolas debe <bold>non esser etiquettate</bold> con un etiquetta de lingua, mesmo si illos pare miscite o adaptate. Ecce como tractar alcun exemplos:
+code-switching-not-tag-proper-names = <bold>Nomines proprie.</bold> Nomines de personas, locos, e organisationes non debe esser etiquettate. Exemplos:
 code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
 code-switching-not-tag-proper-names-example-2 = Postos: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marcas/organisationes: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Parolas miscite o morphologicamente adaptate.</bold> Non etiquetta parolas que miscer linguas o ha addite conclusiones ab un altere lingua. Exemplos:
+code-switching-not-tag-mixed-words-example = Ubi un radice es anglese ma le suffixo es espaniol: “parkear”, “printearlo”
+code-switching-not-tag-interjections = <bold>Interjectiones.</bold> Interjectiones e parolas repletor, sin reguardo de lingua, deberea restar <bold>non etiquettate.</bold> Exemplos
 code-switching-not-tag-interjections-example-2 = “No”
 
 ## Reporting Content
