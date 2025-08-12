@@ -195,3 +195,5 @@ code-switching-focus-emotional-explanation = Le persone spesso cambiano codice l
 code-switching-direct-quotes-header = Richiedi citazioni dirette o rievocazioni
 code-switching-direct-quotes-explanation = Incoraggia i partecipanti a riportare fedelmente ciò che è stato effettivamente detto. Esempio:
 code-switching-cultural-topics-header = Scegli argomenti culturalmente specifici
+code-switching-informal-scenarios-header = Esplora scenari informali
+code-switching-informal-scenarios-explanation-example = “Qual è quella battuta che i tuoi amici ripetono sempre e come la raccontano?”
