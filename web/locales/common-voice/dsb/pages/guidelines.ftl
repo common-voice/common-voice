@@ -210,3 +210,11 @@ code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
+code-switching-not-tag-interjections-example-1 = „Eh“
+code-switching-not-tag-interjections-example-2 = „Ně“
+code-switching-not-tag-interjections-example-3 = „Jo“
+code-switching-not-tag-interjections-example-4 = „Hm“
+
+## Reporting Content
+
+reporting-content = Wopśimjeśe k wěsći daś

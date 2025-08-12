@@ -217,6 +217,10 @@ code-switching-authentic-header = Embohovái porã ha ha’etéva
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
+# Include filler words and markers
+code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
 code-switching-tagging-error-2 = Jejavy taiguáva
@@ -224,3 +228,8 @@ code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “Naháriri”
 code-switching-not-tag-interjections-example-3 = “Héẽ”
 code-switching-not-tag-interjections-example-4 = “Er”
+
+## Reporting Content
+
+reporting-content = Emombe’u Tetepy
+reporting-content-subheader = Ñembohape guasu

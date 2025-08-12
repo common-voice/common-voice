@@ -198,7 +198,7 @@ code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
 code-switching-not-tag-interjections-example-1 = „Eh“
 code-switching-not-tag-interjections-example-2 = „Ně“
 code-switching-not-tag-interjections-example-3 = „Haj“
-code-switching-not-tag-interjections-example-4 = „Em“
+code-switching-not-tag-interjections-example-4 = „Hm“
 
 ## Reporting Content
 
