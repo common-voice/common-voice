@@ -274,6 +274,15 @@ code-switching-authentic-full-context = <bold>Bruk fullstendige svar med konteks
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ikkje overtenk eller overrediger
 code-switching-answer-dont-correct-language = <bold>«Korriger» språket ditt.</bold> Dette er ikkje ein test. «Rett» form spelar inga rolle her, naturleg språk gjer det.
+code-switching-answer-dont-avoid-switching = <bold>Unngå å byte om du vanlegvis gjer det.</bold> Det går fint å byte midt i ei setning, midt i ein tanke eller berre for eitt ord.
+code-switching-answer-dont-formal-writing = <bold>Snakk som om du skriv formelt.</bold> Unngå formelle, akademiske svar. Hald det samtaleorientert.
+code-switching-answer-dont-force-switch = <bold>Tving fram byte om det ikkje er naturleg.</bold> Byt berre dersom det er slik du naturleg ville snakka i den situasjonen.
+code-switching-answer-dont-translate-repeat = <bold>Omset eller gjenta alt.</bold> Berre sei det éin gong, slik det ville vorte sagt i ein samtale. Du treng ikkje å seie ein versjon av svaret på kvart språk.
+# Transcribing
+code-switching-transcribe-subheader = Transkribering
+code-switching-transcribe-intro = Når du transkriberer svar som inkluderer kodebyte, skal du gi att språket til talaren slik det vart snakka – utan å korrigere, redigere eller forenkle. Dette gjeld for alle språkbyte, uformell tale og blanda ord.
+code-switching-transcribe-do-1 = Spel korte segment fleire gongar for å fange opp subtile byte
+code-switching-transcribe-do-2 = Pause etter kvar setning for å dobbelsjekke om det er ordvekslingar eller blanda ord.
 
 ## Reporting Content
 

@@ -272,11 +272,41 @@ code-switching-authentic-full-context = <bold>Bruk fullstendige svar med konteks
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ikke overtenk eller overrediger
 code-switching-answer-dont-correct-language = <bold>«Korriger» språket ditt.</bold> Dette er ikke en test. «Riktig» form spiller ingen rolle her, naturlig språk gjør det.
+code-switching-answer-dont-avoid-switching = <bold>Unngå å bytte hvis du vanligvis gjør det.</bold> Det går fint å bytte midt i en setning, midt i en tanke eller bare for ett ord.
+code-switching-answer-dont-formal-writing = <bold>Snakk som om du skriver formelt.</bold> Unngå formelle, akademiske svar. Hold det samtaleorientert.
+code-switching-answer-dont-force-switch = <bold>Tving frem bytte hvis det ikke er naturlig.</bold> Bytt bare hvis det er slik du naturlig ville snakket i den situasjonen.
+code-switching-answer-dont-translate-repeat = <bold>Oversett eller gjenta alt.</bold> Bare si det én gang, slik det ville blitt sagt i en samtale. Du trenger ikke å si en versjon av svaret på hvert språk.
+# Transcribing
+code-switching-transcribe-subheader = Transkribering
+code-switching-transcribe-intro = Når du transkriberer svar som inkluderer kodebytte, skal du gjengi talerens språk slik det ble snakket – uten å korrigere, redigere eller forenkle. Dette gjelder for alle språkbytter, uformell tale og blandede ord.
+code-switching-transcribe-do-1 = Spill korte segmenter flere ganger for å fange opp subtile bytter
+code-switching-transcribe-do-2 = Pause etter hver setning for å dobbeltsjekke om det er ordvekslinger eller blandede ord.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Skriv ned talen nøyaktig som den ble sagt
+code-switching-capture-explanation = Transkriber begge språkene slik de ser ut / høres ut. Ikke «fiks» språket eller endre det til bare ett språk.
+# Include filler words and markers
+code-switching-filler-header = Inkluder fyllord og markører
+# Use standard spelling for each language
+code-switching-spelling-header = Bruk standard stavemåte for hvert språk
+code-switching-spelling-explanation = Prøv å stave ord riktig for hvert språk, med mindre den som snakker tydelig uttaler dem på en ikke-standard måte.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Ikke rydd opp eller forenkle språket
+code-switching-cleanup-1 = Oversett eller omskriv – skriv hva taleren faktisk sa, ikke hva de «mente».
+code-switching-cleanup-2 = «Korrekt» grammatikk eller uttale – behold talerens naturlige bruk.
+code-switching-cleanup-3 = Hopp over bytter som virker små eller ubetydelige – selv lånte ord har betydning.
+code-switching-cleanup-4 = Sett inn tegnsetting som kan endre betydningen – hold flyten naturlig.
+code-switching-cleanup-5 = Anta at du kjenner språket til hvert ord – merk basert på bruk.
+# Tagging
+code-switching-tagging-subheader = Merking
 code-switching-tagging-error-intro =
     Hvis transkripsjonen inneholder en feil, bruk rapporteringsfunksjonen for å markere den.  
     Mulige feil inkluderer:
 code-switching-tagging-error-1 = Feil tegnsetting eller bruk av store/små bokstaver
 code-switching-tagging-error-2 = Skrivefeil
+code-switching-tagging-error-3 = Ord skrevet med feil ortografi
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Bruk av riktig ortografi for hvert språk
+code-switching-orthography-explanation = Skriv hvert ord i henhold til stavemåten til språket det kommer fra. For eksempel:
 code-switching-not-tag-proper-names-example-1 = Personer: Maria, John
 code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida
 
