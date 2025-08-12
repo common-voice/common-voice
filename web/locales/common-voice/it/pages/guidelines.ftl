@@ -4,6 +4,7 @@ guidelines-header-subtitle = Scopri come collaborare e convalidare frasi e regis
 voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
+spontaneous-speech = Discorso spontaneo
 dont-subheader = Non
 
 ## Voice Collection nav ids
@@ -143,6 +144,7 @@ example-questions-explanation-2 = Se desideri inviare una serie di domande per l
 # Answer Questions
 answer-questions = Rispondi alle domande
 answer-questions-subheader = Guida generale
+answer-questions-explanation-1 = Pensa per un momento alla domanda, considera che cosa vorresti dire, ma non prepararti troppo. Fai clic sull’icona “registra”. Una volta completata la registrazione, è possibile ascoltarla, registrarla nuovamente, eliminarla o inviarla.
 answer-questions-explanation-2 = Ricorda: non preoccuparti se balbetti, fai una pausa o ripeti una parola. Questi sono tutti dati utili per gli sviluppatori che cercano di creare strumenti di riconoscimento vocale inclusivi basati sul linguaggio della vita reale.
 answer-questions-tip-1 = Registra in un luogo sufficientemente tranquillo
 answer-questions-tip-2 = Scegli un luogo con una buona connessione a Internet
@@ -185,6 +187,10 @@ tags-disfluency-explanation =
     Una parola o un suono riempitivo utilizzato come intercalare mentre chi parla decide che cosa dire.
     In italiano, alcuni suoni di esitazione comuni sono “ehm”, “eh”, “mhm”, ecc.
 tags-unclear-explanation = Una parola o una sequenza di parole incomprensibili.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    E poi [noise] sono andato in vacanza.
+    Be', [noise] [laugh] non era esattamente una vacanza [laugh]
 
 ## Review the Transcription
 

@@ -1,12 +1,25 @@
 ## REVIEW
 
-sc-review-title = Verifică propozițiile
+sc-review-lang-not-selected = Nu ai ales nicio limbă. Te rugăm să-ți accesezi <profileLink>Profilul</profileLink> pentru a alege limbile cu care vei lucra.
+sc-review-title = Verifică propoziții
+sc-review-loading = Se încarcă propozițiile…
 sc-review-select-language = Alege o limbă pentru a verifica propozițiile.
 sc-review-no-sentences = Nicio propoziție de verificat. <addLink>Adaugă mai multe propoziții acum.</addLink>
 sc-review-form-prompt =
     .message = Propozițiile verificate nu au fost trimise? Chiar așa?
 sc-review-form-usage = Glisează spre dreapta pentru a aproba propoziția. Glisează spre stânga pentru a o respinge. Glisează în sus pentru a sări peste ea. <strong>Nu uita să trimiți și justificările tale!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Sursă: { $sentenceSource }
+sc-review-form-button-reject = Respinge
 sc-review-form-button-skip = Sari peste
+sc-review-form-button-approve = Aprobă
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Poți utiliza și comenzile rapide din tastatură: { sc-review-form-button-approve-shortcut } pentru a Aproba, { sc-review-form-button-reject-shortcut } Respinge, { sc-review-form-button-skip-shortcut } sau Sări peste o înregistrare.
 sc-review-form-button-submit =
     .submitText = Termină verificarea
@@ -26,11 +39,17 @@ sc-review-link = Verificare
 
 sc-criteria-modal = ⓘ Criterii de verificare
 sc-criteria-title = Criterii de verificare
+sc-criteria-make-sure = Asigură-te că propoziția îndeplinește următoarele criterii:
+sc-criteria-item-1 = - este scrisă corect;
+sc-criteria-item-2 = - este corectă și din punct de vedere gramatical;
+sc-criteria-item-3 = - este ușor de pronunțat.
+sc-criteria-item-4 = Dacă propoziția îndeplinește aceste criterii, apasă pe butonul „Aprobă” din dreapta.
 sc-criteria-item-5-2 = Dacă propoziția nu îndeplinește criteriile de mai sus, apasă pe butonul &quot;Respinge&quot; din stânga. Dacă ai dubii legate de propoziție, o poți sări și poți trece la următoarea.
 sc-criteria-item-6 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 sc-review-empty-state = Deocamdată nu există propoziții de verificat în această limbă.
 report-sc-different-language-detail = Propoziția este scrisă într-o limbă diferită față de cea pe care o verific.
 review-error = A apărut o eroare în timpul verificării acestei propoziții
 review-error-rate-limit-exceeded = Avansezi prea repede. Verifică propoziția cu mai multă atenție ca să te asiguri că este corectă.
+sc-redirect-page-subtitle-1 = Colecția de propoziții se mută pe platforma principală Common Voice. Acum poți <writeURL>scrie</writeURL> sau <reviewURL>verifica</reviewURL> propoziții pentru proiectul Common Voice.
 # menu item
-review-sentences = Examinează propozițiile
+review-sentences = Verifică propoziții
