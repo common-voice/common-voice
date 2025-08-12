@@ -161,6 +161,7 @@ transcribe-the-audio-subheader-5 = Errori grammaticali ed espressioni colloquial
 transcribe-the-audio-subheader-1-explanation = In generale, dovresti annotare tutto ciò che senti. Questo include:
 transcribe-the-audio-subheader-1-explanation-example-1 = Annotare le disfluenze, comprese le esitazioni e le ripetizioni
 transcribe-the-audio-subheader-1-explanation-example-3 = Etichettare inquinamenti acustici significativi, come chiacchiere in sottofondo o clacson
+transcribe-the-audio-subheader-1-explanation-example-4 = Le variazioni grammaticali e gergali devono essere annotate esattamente così come sono. Non correggere o modificare il parlato delle persone.
 transcribe-the-audio-subheader-2-explanation-1 = I numeri e i simboli devono essere scritti utilizzando le lettere anziché cifre o caratteri speciali. Esempio:
 transcribe-the-audio-subheader-2-explanation-2 = Gli acronimi devono essere scritti nello stesso modo in cui vengono normalmente scritti nella lingua in questione, seguendo le regole standard per l’utilizzo delle maiuscole. Non devono essere trascritti foneticamente. Esempio:
 # text wrapped in correct will be shown as green text in the UI
@@ -191,6 +192,8 @@ tags-unclear-explanation = Una parola o una sequenza di parole incomprensibili.
 special-tags-example-2 =
     E poi [noise] sono andato in vacanza.
     Be', [noise] [laugh] non era esattamente una vacanza [laugh]
+transcribe-the-audio-subheader-4-explanation-1-example = Si chiama <underline>Gio- Giova-</underline> Giovanni.
+transcribe-the-audio-subheader-4-explanation-2-example = E poi sono andato in <underline>in in in ca- in</underline> camera da letto
 
 ## Review the Transcription
 
@@ -214,12 +217,14 @@ code-switching-focus-emotional-explanation = Le persone spesso cambiano codice l
 code-switching-direct-quotes-header = Richiedi citazioni dirette o rievocazioni
 code-switching-direct-quotes-explanation = Incoraggia i partecipanti a riportare fedelmente ciò che è stato effettivamente detto. Esempio:
 code-switching-cultural-topics-header = Scegli argomenti culturalmente specifici
+code-switching-cultural-topics-explanation = Argomenti come cibo, tradizioni, festività e dinamiche familiari spesso invitano al cambio di codice linguistico.
 code-switching-cultural-topics-explanation-example = “Come descriveresti il ‘Día de los Muertos’ a qualcuno che parla solo italiano?”
 code-switching-informal-scenarios-header = Esplora scenari informali
 code-switching-informal-scenarios-explanation-example = “Qual è quella battuta che i tuoi amici ripetono sempre e come la raccontano?”
 # What to Avoid
 code-switching-avoid-subheader = Che cosa evitare
 code-switching-avoid-intro = Domande che potrebbero:
+code-switching-avoid-2 = Promuovere incitamento all’odio o ad altri sentimenti faziosi o offensivi
 code-switching-review-intro = Assicurati che la domanda soddisfi i seguenti criteri:
 code-switching-review-criterion-1 = Sia facile da capire e a cui rispondere
 code-switching-review-criterion-2 = Sia generalmente appropriata

@@ -46,10 +46,18 @@ sc-criteria-item-3 = - este ușor de pronunțat.
 sc-criteria-item-4 = Dacă propoziția îndeplinește aceste criterii, apasă pe butonul „Aprobă” din dreapta.
 sc-criteria-item-5-2 = Dacă propoziția nu îndeplinește criteriile de mai sus, apasă pe butonul &quot;Respinge&quot; din stânga. Dacă ai dubii legate de propoziție, o poți sări și poți trece la următoarea.
 sc-criteria-item-6 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Verifică  <icon></icon> dacă propoziția aceasta este corectă din punct de vedere lingvistic.
+sc-review-rules-title = Respectă propoziția îndrumările proiectului?
 sc-review-empty-state = Deocamdată nu există propoziții de verificat în această limbă.
+report-sc-different-language = Limbă diferită
 report-sc-different-language-detail = Propoziția este scrisă într-o limbă diferită față de cea pe care o verific.
+sentences-fetch-error = A apărut o eroare în timpul preluării propozițiilor
 review-error = A apărut o eroare în timpul verificării acestei propoziții
 review-error-rate-limit-exceeded = Avansezi prea repede. Verifică propoziția cu mai multă atenție ca să te asiguri că este corectă.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Iată ultima schimbare majoră:
 sc-redirect-page-subtitle-1 = Colecția de propoziții se mută pe platforma principală Common Voice. Acum poți <writeURL>scrie</writeURL> sau <reviewURL>verifica</reviewURL> propoziții pentru proiectul Common Voice.
+sc-redirect-page-subtitle-2 = Întreabă-ne mai multe pe platformele <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink>, sau prin <emailLink>email</emailLink>.
 # menu item
 review-sentences = Verifică propoziții
