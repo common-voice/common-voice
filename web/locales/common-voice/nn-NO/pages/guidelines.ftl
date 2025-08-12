@@ -334,3 +334,5 @@ code-switching-not-tag-mixed-words = <bold>Blanda eller morfologisk tilpassa ord
 
 reporting-content = Rapportering av innhold
 reporting-content-subheader = Generell rettleiing
+reporting-content-explanation-1 = Du må merke innhald som er støytande, skadeleg eller på annan måte urovekkjande. Det må heller ikkje innehalde personopplysningar som telefonnummer eller adresser. Slikt innhald vil bli fjerna frå opplevinga di inntil Common Voice-teamet har gått gjennom det og undersøkt nærare.
+reporting-content-explanation-2 = For å rapportere innhald, vel «Rapportar»-knappen og vel eitt eller fleire alternativ: Støytande innhald, Annet språk, Personopplysninger, Anna. Skriv deretter meir informasjon om kvifor du rapporterer innhaldet i tekstfeltet. Til slutt sender du rapporten ved å klikke på «Rapporter»-knappen.

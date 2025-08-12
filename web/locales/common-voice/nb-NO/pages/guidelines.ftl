@@ -314,7 +314,7 @@ code-switching-pronunciation-header = Bruk uttale for å bestemme språket
 code-switching-punctuation-tagging-header = Merk tegnsetting basert på språk i nærheten
 code-switching-punctuation-tagging-explanation = Merk tegnsetting med språket nærmest venstre. Eksempler:
 # Be Careful with Lookalikes
-code-switching-lookalikes-header = Vær forsiktig med liknende ord
+code-switching-lookalikes-header = Vær forsiktig med ord som ligner på hverandre
 code-switching-lookalikes-explanation = Noen ord kan se ut som på ett språk, men brukes på det andre. Merk basert på betydning og bruk, ikke utseende. Eksempler:
 # When Not to Tag Words
 code-switching-not-tag-header = Når man ikke skal merke ord

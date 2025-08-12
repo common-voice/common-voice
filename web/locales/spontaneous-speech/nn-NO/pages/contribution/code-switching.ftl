@@ -10,11 +10,19 @@ cs-locale-change-modal-subtitle = Du har ulagra endringar på denne sida. Om du 
 
 ## Question Page Items
 
+cs-question-page-instruction = Legg til opptil 25 spørsmål <icon></icon> i { $currentLocale }-datasettet som folk kan svare på
+cs-add-question-textarea-placeholder = Skriv inn spørsmål med kodebyte, eitt per linje. Det er meir sannsynleg at folk svarer med kodebyte når spørsmålet også inneheld kodebyte.
 cs-question-dataset-name = Datasett: { $datasetName }
 
 ## Validate Page Items
 
+cs-validate-page-instruction = Valider <validateIcon></validateIcon> at dette spørsmålet oppfyller retningslinjene.
 cs-no-questions-continue-skipped = Det finst ikkje fleire spørsmål for dette datasettet. Om du har hoppa over nokre, kan du halde fram med innhaldet som er hoppa over, eller gå til transkribering av lyd og prøve på nytt seinare.
+cs-add-vote-error-message = Det oppstod ein feil under avstemminga om spørsmålet
+
+## Transcribe Page Items
+
+cs-no-audio-continue-skipped-message = Det finst akkurat no ingen lyd å transkribere for dette datasettet. Om du har hoppa over noko, kan du halde fram med innhaldet som er hoppa over, eller gå til «sjå gjennom transkripsjonar» og prøve på nytt seinare.
 
 ## Tag Page Items
 
