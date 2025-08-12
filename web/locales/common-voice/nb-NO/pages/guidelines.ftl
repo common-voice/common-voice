@@ -227,6 +227,7 @@ code-switching-use-bilingual-prompts-explanation = Bruk tospråklige spørsmål 
 code-switching-ask-bilingual-contexts-header = Spør om tospråklige kontekster
 code-switching-ask-bilingual-contexts-explanation = Bruk situasjoner der begge språkene er vanlige (f.eks. hjemme, på skolen, ved arrangementer i lokalsamfunnet). Eksempel:
 code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige øyeblikk
+code-switching-focus-emotional-explanation = Folk bytter ofte kode når de uttrykker følelser eller hva som haster. Eksempel:
 code-switching-focus-emotional-explanation-example = «Fortell meg hva foreldrene dine sa da du fortalte dem den store nyheten — nøyaktig hvordan de sa det.»
 code-switching-direct-quotes-header = Be om direkte sitater eller gjenfortellinger
 code-switching-direct-quotes-explanation = Oppfordre deltakerne til å gjengi hvordan ting faktisk ble sagt. Eksempel:
@@ -307,9 +308,27 @@ code-switching-tagging-error-3 = Ord skrevet med feil ortografi
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Bruk av riktig ortografi for hvert språk
 code-switching-orthography-explanation = Skriv hvert ord i henhold til stavemåten til språket det kommer fra. For eksempel:
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Merk tegnsetting basert på språk i nærheten
+code-switching-punctuation-tagging-explanation = Merk tegnsetting med språket nærmest venstre. Eksempler:
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Vær forsiktig med liknende ord
+code-switching-lookalikes-explanation = Noen ord kan se ut som på ett språk, men brukes på det andre. Merk basert på betydning og bruk, ikke utseende. Eksempler:
+# When Not to Tag Words
+code-switching-not-tag-header = Når man ikke skal merke ord
+code-switching-not-tag-explanation = Noen ord skal <bold>ikke merkes</bold> med en språketikett, selv om de virker blandet eller tilpasset. Her er hvordan du bør håndtere noen eksempler:
+code-switching-not-tag-proper-names = <bold>Egennavn.</bold> Navn på personer, steder og organisasjoner skal ikke merkes. Eksempler:
 code-switching-not-tag-proper-names-example-1 = Personer: Maria, John
 code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Merkenavn/organisasjoner:  Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Blandede eller morfologisk tilpassede ord.</bold> Ikke merk ord som blander språk eller har lagt til endelser fra et annet språk. Eksempler:
+code-switching-not-tag-interjections = <bold>Interjeksjoner.</bold> Interjeksjoner og fyllord, uavhengig av språk, skal forbli <bold>umerket.</bold> Eksempler:
 
 ## Reporting Content
 
+reporting-content = Rapportering av innhold
 reporting-content-subheader = Generell veiledning
+reporting-content-explanation-1 = Du må merke innhold som er støtende, skadelig eller på annen måte bekymringsfullt. Det må heller ikke inneholde personopplysninger som telefonnumre eller adresser. Slikt innhold vil bli fjernet fra din opplevelse inntil Common Voice-teamet har gjennomgått det og undersøkt nærmere.
+reporting-content-explanation-2 = For å rapportere innhold, velg «Rapporter»-knappen og velg ett eller flere alternativer: Støtende innhold, Annet språk, Personopplysninger, Annet. Skriv deretter mer informasjon om hvorfor du rapporterer innholdet i tekstfeltet. Til slutt sender du rapporten ved å klikke på «Rapporter»-knappen.

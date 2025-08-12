@@ -208,6 +208,7 @@ lv = Lettone
 lzz = Laz
 mai = Maithili
 mau = Huautla Mazatec
+mbf = Baba malese
 mbo = Mbo
 mcf = Matses
 mcn = Massa

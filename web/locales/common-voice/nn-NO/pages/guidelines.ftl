@@ -283,6 +283,11 @@ code-switching-transcribe-subheader = Transkribering
 code-switching-transcribe-intro = Når du transkriberer svar som inkluderer kodebyte, skal du gi att språket til talaren slik det vart snakka – utan å korrigere, redigere eller forenkle. Dette gjeld for alle språkbyte, uformell tale og blanda ord.
 code-switching-transcribe-do-1 = Spel korte segment fleire gongar for å fange opp subtile byte
 code-switching-transcribe-do-2 = Pause etter kvar setning for å dobbelsjekke om det er ordvekslingar eller blanda ord.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Skriv ned talen nøyaktig som han vart sagt
+code-switching-capture-explanation = Transkriber begge språka slik dei ser ut / høyrest ut. Ikkje «fiks» språket eller endre det til berre eitt språk.
+# Include filler words and markers
+code-switching-filler-header = Inkluder fyllord og markørar
 
 ## Reporting Content
 
