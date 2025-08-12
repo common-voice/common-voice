@@ -318,6 +318,9 @@ code-switching-orthography-header = Usar correcte orthographia pro cata lingua
 code-switching-orthography-explanation = Scriber cata parola secundo le orthographia del lingua pertinente. Per exemplo:
 code-switching-orthography-explanation-example-1 = Si le parola “kitchen” appare pronunciate como in espaniol, il deberea esser scripte como in anglese, non como “quichen.”
 code-switching-orthography-explanation-example-2 = Si le parola quinceaños es pronunciate como in anglese, scribe lo con le ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Usa le pronunciation pro adjutar a definir le linguage
+code-switching-pronunciation-explanation = Alcun parolas poterea parer equal in ambe linguas, ma poterea esser pronunciate differentemente. Ascolta le pronunciation pro adjutar a etiquettar correctemente. Per exemplo: cablo, taco, actor, detective.
 code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
 code-switching-not-tag-proper-names-example-2 = Postos: Los Angeles, Florida
 code-switching-not-tag-interjections-example-2 = “No”

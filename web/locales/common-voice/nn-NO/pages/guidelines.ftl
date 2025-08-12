@@ -317,6 +317,9 @@ code-switching-pronunciation-explanation-example-2 = Spansk: /ˈkable/
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Merk teiknsetjing basert på språk i nærleiken
 code-switching-punctuation-tagging-explanation = Merk teiknsetjing med språket nærast venstre. Døme:
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Ver varsam med ord som liknar på kvarandre
+code-switching-lookalikes-explanation = Nokre ord kan sjå ut som på eitt språk, men brukast på det andre. Merk basert på betydning og bruk, ikkje utsjånad. Døme:
 
 ## Reporting Content
 
