@@ -210,6 +210,13 @@ code-switching-review-no-3 = Porandu ikatúva peteĩvape omoherakuãuka mbohová
 # Answering a Question
 code-switching-answer-subheader = Embohovaihína Porandu
 code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emombeʼuha tembiasakue nde rapichápe
+code-switching-answer-bullet-3 = Eiporu ñe’ẽ añetehápe eiporútava, taha’e porupy térã ojehe’áva
+code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
+code-switching-authentic-header = Embohovái porã ha ha’etéva
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
+# Transcribing
+code-switching-transcribe-subheader = Ñe’ẽnguejehai
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
 code-switching-tagging-error-2 = Jejavy taiguáva
