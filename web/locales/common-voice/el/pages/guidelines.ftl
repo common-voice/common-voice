@@ -136,3 +136,7 @@ offensive-content-sensitive-information-explanation-explanation-3 = Ερωτήσ
 example-questions-subheader = Παραδείγματα ερωτήσεων
 example-questions-explanation-1 = Μπορείτε να βρείτε <examplePromptsLink>120 παραδείγματα προτροπών σε αυτό το φύλλο.</examplePromptsLink>
 example-questions-explanation-2 = Αν θέλετε να υποβάλετε μια σειρά από ερωτήσεις, <githubLink>μπορείτε να το κάνετε μέσω του GitHub μας</githubLink> ή να στείλετε μέσω email τη λίστα σας στο <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
+## Spontaneous Speech sidebar content
+
+tags-table-header-1 = Ετικέτα
