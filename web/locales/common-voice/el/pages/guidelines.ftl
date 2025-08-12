@@ -141,4 +141,28 @@ example-questions-explanation-2 = Αν θέλετε να υποβάλετε μι
 ## Spontaneous Speech sidebar content
 
 answer-questions-subheader = Γενικές οδηγίες
+transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Σωστό</correct>: Απέχει εκατό χιλιόμετρα από εδώ
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Λάθος</wrong>: Απέχει 100 χιλιόμετρα από εδώ
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Σωστό</correct>: Τα λέμε το <underline>δύο χιλιάδες δεκαπέντε</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Λάθος</wrong>: Τα λέμε το <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Σωστό</correct>: Είχε είκοσι τοις εκατό έκπτωση
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Λάθος</wrong>: Είχε 20% έκπτωση
 tags-table-header-1 = Ετικέτα
+
+## Review the Transcription
+
+review-the-transcription-subheader = Γενικές οδηγίες
+
+## Code-Switching
+
+code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
+
+## Reporting Content
+
+reporting-content = Αναφορά περιεχομένου
