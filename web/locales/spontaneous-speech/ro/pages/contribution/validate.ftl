@@ -1,6 +1,6 @@
 ## Validate Page
 
-validate-page-instruction = Validează <validateIcon></validateIcon>. Respectă aceste întrebări instrucțiunile proiectului?
+validate-page-instruction = Validează <validateIcon></validateIcon>. Respectă aceste propoziții instrucțiunile proiectului?
 dataset-label = Set de date
 accept-vote-toast-message = Întrebare acceptată cu succes
 reject-vote-toast-message = Întrebare respinsă cu succes

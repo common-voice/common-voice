@@ -39,4 +39,34 @@ bulk-sentence = Lot mare
 sentence-domain-combobox-label = Domeniul propozițiilor
 sentence-domain-select-placeholder = Alege până la trei domenii (opțional)
 # Sentence Domain dropdown option
-agriculture_food = Agricultură și Alimentație
+agriculture_food = Agricultură și alimentație
+# Sentence Domain dropdown option
+automotive_transport = Auto și transport
+# Sentence Domain dropdown option
+finance = Finanţe
+# Sentence Domain dropdown option
+service_retail = Servicii și comerț cu amănuntul
+# Sentence Domain dropdown option
+general = Generalități
+# Sentence Domain dropdown option
+healthcare = Sănătate
+# Sentence Domain dropdown option
+history_law_government = Istorie, drept și politică
+# Sentence Domain dropdown option
+language_fundamentals = Noțiuni fundamentale de limbaj (de exemplu, cifre, litere, bani)
+# Sentence Domain dropdown option
+media_entertainment = Media și divertisment
+# Sentence Domain dropdown option
+nature_environment = Natură și mediu
+# Sentence Domain dropdown option
+news_current_affairs = Știri și actualități
+# Sentence Domain dropdown option
+technology_robotics = Tehnologie și robotică
+sentence-variant-select-label = Variantă a propoziției
+sentence-variant-select-placeholder = Alege o variantă (opțional)
+sentence-variant-select-multiple-variants = Limbaj general / variante multiple
+
+## BULK SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Încarcă <icon></icon> propoziții din domeniul public
