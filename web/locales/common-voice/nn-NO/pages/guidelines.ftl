@@ -207,6 +207,9 @@ transcribe-the-audio-subheader-5-explanation-2 = Talarar kan bruke daglegdagse u
 
 review-the-transcription = Vurder transkripsjonen
 review-the-transcription-subheader = Generell rettleiing
+review-the-transcription-explanation-1 = Generelt tilrår vi at personen som kontrollerer transkripsjonen ikkje er den same som utførte den opphavlege transkripsjonen. Det er veldig vanskeleg å kvalitetssikre eige arbeid! Fleire rundar med gjennomgang kan bidra til betre kvalitetssikring og redusere skeivskapar og problem.
+review-the-transcription-explanation-2 = Gå gjennom transkripsjonsretningslinjene ovanfor for å sjekke at ein transkripsjon er korrekt. Du kan gjere endringar og sende dei inn.
+review-the-transcription-explanation-3 = Igjen, du kan flagge innhald som er støytande, skadeleg eller på annan måte urovekkjande, og det vil bli fjerna frå opplevinga di inntil Common Voice-teamet kan gå gjennom det og undersøkje det vidare.
 
 ## Code-Switching
 
@@ -224,6 +227,10 @@ code-switching-types-subheader = Kva typar spørsmål skal leggjast til?
 code-switching-use-bilingual-prompts-header = Bruk tospråklege spørsmål
 code-switching-use-bilingual-prompts-explanation = Bruk tospråklege spørsmål som inkluderer begge språka i spørsmålet ditt: Døme:
 code-switching-ask-bilingual-contexts-header = Spør om tospråklege kontekstar
+code-switching-ask-bilingual-contexts-explanation = Bruk situasjonar der begge språka er vanlege (t.d. heime, på skulen, ved arrangement i lokalsamfunnet). Døme:
+code-switching-ask-bilingual-contexts-explanation-example = «Når du snakkar med søskenbarna dine, blandar de spansk og engelsk?»
+code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige stunder
+code-switching-focus-emotional-explanation-example = «Fortel meg kva foreldra dine sa då du fortalde dei den store nyheita — nøyaktig korleis dei sa det.»
 code-switching-informal-scenarios-header = Utforsk uformelle situasjonar
 code-switching-informal-scenarios-explanation = Samtalar med vennar eller tekstmeldingar inkluderer ofte meir naturleg veksling. Døme:
 # What to Avoid
