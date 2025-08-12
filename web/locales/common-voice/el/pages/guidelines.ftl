@@ -152,7 +152,14 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct>Σωστό</correc
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Λάθος</wrong>: Τα λέμε το <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Σωστό</correct>: Είχε είκοσι τοις εκατό έκπτωση
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Λάθος</wrong>: Είχε 20% έκπτωση
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Σωστό</correct>: Συνελήφθησαν από το <underline>FBI</underline> την προηγούμενη Πέμπτη
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Λάθος</wrong>: Συνελήφθησαν από το <underline>εφ μπι άι</underline> την προηγούμενη Πέμπτη
 tags-table-header-1 = Ετικέτα
+tags-table-header-2 = Σημασία
+tags-laugh = Γέλιο
+tags-unclear = Ασάφεια
+tags-noise = Θόρυβος
+tags-laugh-explanation = Ο ήχος του γέλιου.
 
 ## Review the Transcription
 
@@ -160,6 +167,11 @@ review-the-transcription-subheader = Γενικές οδηγίες
 
 ## Code-Switching
 
+code-switching-review-intro = Βεβαιωθείτε ότι η ερώτηση πληροί τα εξής κριτήρια:
+code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
+# Transcribing
+code-switching-transcribe-subheader = Μεταγραφή
+code-switching-tagging-error-2 = Ορθογραφικά λάθη
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
 
