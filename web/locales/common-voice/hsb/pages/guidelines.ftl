@@ -231,6 +231,7 @@ code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
 code-switching-not-tag-interjections-example-1 = „Eh“
 code-switching-not-tag-interjections-example-2 = „Ně“
 code-switching-not-tag-interjections-example-3 = „Haj“
