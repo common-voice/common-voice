@@ -199,6 +199,9 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneheld naturleg nok falske startar, der berre ein del av eit ord blir uttalt. I slike tilfelle, prøv å transkribere ordfragmentet så godt du kan, og legg til ein bindestrek (-) på slutten av ordet for å indikere at det er ein falsk start. Døme:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heiter <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Av og til gjentek talarar eit ord eller eit ordfragment fleire gongar. Dette skal også transkriberast. Døme:
+transcribe-the-audio-subheader-4-explanation-2-example = Og så gjekk eg <underline>til til sove- til</underline> soverommet
+transcribe-the-audio-subheader-5-explanation-1 = Spontan tale vil naturleg innehalde grammatiske feil. Desse bør ikkje korrigerast ved transkribering. Transkripsjonen bør spegle det talte innhaldet nøyaktig.
+transcribe-the-audio-subheader-5-explanation-2 = Talarar kan bruke daglegdagse uttrykk (som på engelsk «gonna», «cuz» osb.) som kanskje ikkje blir rekna som formelt korrekte. Desse bør transkriberast som dei er, og ikkje blir endra til meir formelle ekvivalentar.
 
 ## Review the Transcription
 
