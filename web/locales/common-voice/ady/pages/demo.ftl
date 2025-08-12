@@ -11,12 +11,6 @@ demo-language-select-label = Бзэхэм еплъ
 demo-eofy-header = 2019-рэ илъэсым ыужьрэ хэутыгъэ
 demo-account = Хьисап
 
-## Demo Account
-
-
 ## Demo Contribute
 
 demo-listen-subtitle = Хэлэжьэным ухьазыра?
-
-## Demo Dashboard
-

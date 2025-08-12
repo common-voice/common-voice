@@ -71,36 +71,3 @@ help-contribute = Kuna iya taimakawa ƙirƙirar ɗakunan bayanai daban-daban, ma
 login-company = Shiga ciki/Yi rajista da { $company } imel
 profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
 read-more-about = Kara karantawa game da Mu a shafinmu
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

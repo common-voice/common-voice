@@ -29,11 +29,14 @@ continue-with-skipped = Folytatás a kihagyottakkal
 
 ## Navbar
 
-respond-to-prompt = Válasz a kérdésre
-transcribe = Leiratozás
-check-transcriptions = Leiratok ellenőrzése
 question = Kérdés
 validate = Ellenőrzés
+respond-to-prompt = Válasz a kérdésre
+respond-to-prompt-mobile = Válasz
+transcribe = Leiratozás
+check-transcriptions = Leiratok ellenőrzése
+check-transcriptions-mobile = Ellenőrzés
+tag = Címke
 
 ## Not Found Page
 
@@ -41,8 +44,11 @@ not-found-page-header = Nem található
 not-found-page-content = A keresett oldal nem található
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
+cdo = Fucsou
 en = Angol
 fr = Francia
+hch = Vicsol
+kzi = Kelabit
 meh = Délnyugat-tlaxiacói mizték
 tr = Török
 

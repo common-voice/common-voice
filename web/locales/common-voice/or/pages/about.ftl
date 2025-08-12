@@ -118,6 +118,3 @@ about-playbook-how-project-governance-content-3 = ଗୋପନୀୟତା, ସ�
 about-playbook-how-project-governance-content-4 = ଗୋଷ୍ଠୀର ଅଂଶଗ୍ରହଣ ଏବଂ ନିଷ୍ପତ୍ତି ନେବା ।
 about-playbook-how-project-governance-content-5 = ମୂଲ୍ୟ ଏବଂ ମାନ୍ୟତା।
 about-playbook-how-project-governance-content-6 = ପାରସ୍ପରିକ ଉତ୍ତରଦାୟିତ୍ୱ।
-
-## How is Common Voice funded
-

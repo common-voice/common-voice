@@ -42,13 +42,13 @@ lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
 build-custom-goal = In oanpast doel bouwe
 help-reach-hours-pluralized =
     { $hours ->
-        [one] Help mei{ $hours } oereyn it { $language } te berikken mei in persoanlike doelstelling
-       *[other] Help mei{ $hours } oerenyn it { $language } te berikken mei in persoanlike doelstelling
+        [one] Help mei { $hours } oere yn it { $language } te berikken mei in persoanlike doelstelling
+       *[other] Help mei { $hours } oeren yn it { $language } te berikken mei in persoanlike doelstelling
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] Help Common Voice{ $hours } oereyn in taal te berikken mei in persoanlike doelstelling
-       *[other] Help Common Voice{ $hours } oerenyn in taal te berikken mei in persoanlike doelstelling
+        [one] Help Common Voice { $hours } oere yn in taal te berikken mei in persoanlike doelstelling
+       *[other] Help Common Voice { $hours } oeren yn in taal te berikken mei in persoanlike doelstelling
     }
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?

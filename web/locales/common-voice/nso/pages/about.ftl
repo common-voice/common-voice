@@ -139,6 +139,3 @@ about-playbook-how-project-governance-content-4 = Go tšea karolo ga setšhaba l
 about-playbook-how-project-governance-content-5 = Boleng le temogo.
 about-playbook-how-project-governance-content-6 = Kwešišano ya boikarabelo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala ka mo go oketšegilego mabapi le kamoo re bušwago ka gona</governanceLink>
-
-## How is Common Voice funded
-

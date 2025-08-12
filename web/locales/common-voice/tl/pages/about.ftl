@@ -90,6 +90,3 @@ about-playbook-how-project-governance-content-3 = Pribasiya, seguridad at transp
 about-playbook-how-project-governance-content-4 = Pakikilahok ng komunidad at paggawa ng desisyon.
 about-playbook-how-project-governance-content-5 = Halaga at pagkilala.
 about-playbook-how-project-governance-content-6 = Pananagutan sa kapwa.
-
-## How is Common Voice funded
-

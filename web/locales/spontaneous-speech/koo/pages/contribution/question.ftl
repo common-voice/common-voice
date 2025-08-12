@@ -13,7 +13,7 @@ add-question-error-message = Eritsindika lyamalema, thasya lengesaya.
 add-question-too-many-questions-error = Ebibulyo ebithalhabire oko 25. Wukehaye oko mughanzo w’ebibulyo kandi wuthasalengesaya.
 partial-questions-upload-message =
     { $totalQuestions ->
-        [one] 	{ $uploadedQuestions } kwa kyibulyo kyighuma ekyi sondebirya. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
+        [one] { "\u0009" }{ $uploadedQuestions } kwa kyibulyo kyighuma ekyi sondebirya. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
        *[other] { $uploadedQuestions } kwa { $totalQuestions }  ebibulyo bibiri ebyisondbirya. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
     }
 # Guidelines

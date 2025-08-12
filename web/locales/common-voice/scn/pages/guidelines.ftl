@@ -76,9 +76,3 @@ reviewing-sentences-explanation-1 = Si a frasi sicuta i règuli di supra, ammacc
 reviewing-sentences-explanation-2 = Si a frasi nun sicuta i règuli di supra, ammacca u buttuni "No".
 reviewing-sentences-explanation-3 = Si nun sì sicuru, po’ macari sautari a frasi e passari a chiḍḍa doppu.
 reviewing-sentences-explanation-4 = Si finisti i frasi di validari, ajùtani a ricògghiri novi frasi!
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

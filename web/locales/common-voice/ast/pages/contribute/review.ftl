@@ -1,6 +1,3 @@
-## REVIEW
-
-
 ## REVIEW CRITERIA
 
 sc-criteria-make-sure = Asegúrate de que les frases cumplen los criterios siguientes:

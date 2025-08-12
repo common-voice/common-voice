@@ -102,9 +102,6 @@ partnerships-menu-item-aria-label = Saccine de ciù in scê collaboraçioin con 
 press-and-stories-menu-item-aria-label = Ammia i communicati stampa e articoli in sce Common Voice
 community-and-languages-menu-item-aria-label = Esplöra a communitæ e e lengue supportæ da Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Tecnologia ch’a parla a teu lengua
@@ -124,6 +121,7 @@ spontaneous-card-header = Descorso spontaneo
 spontaneous-card-content = Replica à de domande pe creâ di dataset relativi à di contesti naturali e colloquiali. Perfetto pe-e lengue prevalentemente orale.
 language-text-card-header = Testo in lengua
 language-text-card-content = Crea ò scompartisci de domande, frase e testi de pubrico dominio pe traduçioin, modelli de lengua de dimenscion picciña e atro ancon.
+coming-soon = Disponibile fito
 add-text = Azzonzi do testo
 
 ## Community section

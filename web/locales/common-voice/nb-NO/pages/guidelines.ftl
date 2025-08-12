@@ -4,6 +4,9 @@ guidelines-header-subtitle = Forstå hvordan du kan bidra med å validere setnin
 voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
 question-collection = Spørsmålssamling
+scripted-speech = Opplest tekst
+spontaneous-speech = Spontan tale
+dont-subheader = Ikke
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,196 @@ offensive-content-sensitive-information-explanation-explanation-3 = Spørsmål s
 example-questions-subheader = Eksempelspørsmål
 example-questions-explanation-1 = Du finner <examplePromptsLink>120 eksempelspørsmål i dette arket.</examplePromptsLink>
 example-questions-explanation-2 = Hvis du ønsker å sende inn en rekke spørsmål for inntak, <githubLink>kan du gjøre det via GitHub-en vår</githubLink> eller sende listen din på e-post til <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Besvar spørsmål
+answer-questions-subheader = Generell veiledning
+answer-questions-explanation-1 = Tenk et øyeblikk på oppgaven — vurder hva du vil si, men ikke skriv et manus. Trykk på «opptak»-ikonet. Når du har spilt inn, kan du lytte, ta opp på nytt, slette eller sende inn.
+answer-questions-explanation-2 = Husk – ikke vær redd for å stamme, ta pauser eller gjenta et ord. Alt dette er nyttige data for ingeniører som prøver å lage inkluderende, virkelighetsnære talegjenkjenningsverktøy.
+answer-questions-tip-1 = Spill inn på et rimelig stille sted
+answer-questions-tip-2 = Velg et sted med en god internettforbindelse
+answer-questions-tip-3b = Prøv å holde svartiden på 15–30 sekunder
+answer-questions-tip-4 = Unngå hatefulle, provoserende eller på annen måte støtende ytringer
+answer-questions-tip-5 = Snakk naturlig, slik du ville gjort med en venn – bruk din egen ekte variant, dialekt og aksent.
+answer-questions-tip-6 = Hold volumet jevnt – ikke rop eller syng
+# Transcribe the Audio
+transcribe-the-audio = Transkriber lyden
+transcribe-the-audio-subheader-1 = Generell veiledning
+transcribe-the-audio-subheader-2 = Tall og forkortelser
+transcribe-the-audio-subheader-3 = Spesielle tagger
+transcribe-the-audio-subheader-4 = Ordsegmenter, falske starter, gjentatte ord
+transcribe-the-audio-subheader-5 = Grammatiske feil og muntlige uttrykk
+transcribe-the-audio-subheader-1-explanation = Generelt sett bør du skrive ned alt du hører. Dette inkluderer;
+transcribe-the-audio-subheader-1-explanation-example-1 = Skrive ned talefeil, inkludert nøling og gjentakelser
+transcribe-the-audio-subheader-1-explanation-example-2 = Merking av støyhendelser som hosting eller latter
+transcribe-the-audio-subheader-1-explanation-example-3 = Merking av betydelig støyforurensning, som bakgrunnsprat eller bilhorn
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatisk variasjon og slang skal skrives ned akkurat slik det forekommer. Ikke korriger eller rediger folks tale.
+transcribe-the-audio-subheader-2-explanation-1 = Tall og symboler skal skrives ut med bokstaver i stedet for å bruke sifre eller spesialtegn. Eksempel:
+transcribe-the-audio-subheader-2-explanation-2 = Forkortelser skal skrives som de vanligvis skrives på språket, i henhold til vanlige regler for store og små bokstaver. De skal ikke transkriberes fonetisk. Eksempel:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Riktig</correct>: Det er hundre mil unna her
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Feil</wrong>: Det er 100 mil unna her
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Riktig</correct>: Vi sees i <underline>tjuenfemten</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Feil</wrong>: Vi sees i <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Riktig</correct>: Det var tjue prosent rabatt
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Feil</wrong>: Det var 20 % rabatt
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Riktig</correct>: De ble arrestert av <underline>FBI</underline> sist torsdag
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Feil</wrong>: De ble arrestert av <underline>eff beh i</underline> sist torsdag
+transcribe-the-audio-subheader-3-explanation = Følgende spesialtagger skal brukes for å markere nølingslyder, fyllord og andre typer ikke-verbalt innhold (på engelsk).
+tags-table-header-1 = Etikett
+tags-table-header-2 = Betydning
+tags-laugh = Latter
+tags-disfluency = Talefeil
+tags-unclear = Uklar
+tags-noise = Støy
+tags-laugh-explanation = Lyden av latter.
+tags-disfluency-explanation =
+    Et utfyllingsord eller -lyd som brukes som en midlertidig plassholder mens taleren bestemmer seg for hva han eller hun skal si.
+    På norsk er noen vanlige nølingslyder «øh», «eh», «ehm», «ah» osv.
+tags-unclear-explanation = Et ord eller en ordrekkefølge som ikke kan forstås.
+tags-noise-explanation = Enhver annen type støy, som for eksempel at den som snakker hoster eller kremter, en bil som tuter, lyden av noe som treffer mikrofonen, en telefon som summer osv.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Og så dro jeg [støy] på ferie.
+    Vel, [støy] [latter] det var ikke akkurat en ferie [latter]
+transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneholder naturlig nok falske starter, der bare en del av et ord blir uttalt. I slike tilfeller, prøv å transkribere ordfragmentet så godt du kan, og legg til en bindestrek (-) på slutten av ordet for å indikere at det er en falsk start. Eksempel:
+transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et ord eller et ordfragment flere ganger. Dette skal også transkriberes. Eksempel:
+transcribe-the-audio-subheader-5-explanation-1 = Spontantale vil naturlig inneholde grammatiske feil. Disse skal ikke rettes under transkripsjon. Transkripsjonen skal gjenspeile det som faktisk ble sagt, nøyaktig.
+
+## Review the Transcription
+
+review-the-transcription = Gjennomgå transkripsjonen
+review-the-transcription-subheader = Generell veiledning
+review-the-transcription-explanation-1 = Generelt anbefaler vi at personen som kontrollerer transkripsjonen ikke er den samme som utførte den opprinnelige transkripsjonen. Det er veldig vanskelig å kvalitetssikre eget arbeid! Flere runder med gjennomgang kan bidra til bedre kvalitetssikring og redusere skjevheter og problemer.
+review-the-transcription-explanation-2 = Gå gjennom transkripsjonsretningslinjene ovenfor for å sjekke at en transkripsjon er korrekt. Du kan gjøre endringer og sende dem inn.
+review-the-transcription-explanation-3 = Igjen, du kan flagge innhold som er støtende, skadelig eller på annen måte bekymringsfullt, og det vil bli fjernet fra opplevelsen din inntil Common Voice-teamet kan gjennomgå det og undersøke det videre.
+
+## Code-Switching
+
+code-switching = Kodebytte
+adding-a-question = Legge til et spørsmål
+# Adding a Question
+code-switching-adding-question-subheader = Hvordan ser et godt spørsmål ut?
+code-switching-adding-question-explanation = Et godt spørsmål for datasett for offentlig deltakelse bør:
+code-switching-adding-question-criteria-1 = Vær lett å forstå og svare på
+code-switching-adding-question-criteria-2 = Vær generelt relevant
+code-switching-adding-question-criteria-3 = Ikke bruk eller oppfordre til skadelig eller støtende språk
+code-switching-adding-question-note = Du bør kanskje også vurdere å strekke deg over forskjellige kontekster og domener.
+# What types of questions to add
+code-switching-types-subheader = Hvilke typer spørsmål skal legges til?
+code-switching-use-bilingual-prompts-header = Bruk tospråklige spørsmål
+code-switching-use-bilingual-prompts-explanation = Bruk tospråklige spørsmål som inkluderer begge språkene i spørsmålet ditt: Eksempel:
+code-switching-ask-bilingual-contexts-header = Spør om tospråklige kontekster
+code-switching-ask-bilingual-contexts-explanation = Bruk situasjoner der begge språkene er vanlige (f.eks. hjemme, på skolen, ved arrangementer i lokalsamfunnet). Eksempel:
+code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige øyeblikk
+code-switching-focus-emotional-explanation = Folk bytter ofte kode når de uttrykker følelser eller hva som haster. Eksempel:
+code-switching-focus-emotional-explanation-example = «Fortell meg hva foreldrene dine sa da du fortalte dem den store nyheten — nøyaktig hvordan de sa det.»
+code-switching-direct-quotes-header = Be om direkte sitater eller gjenfortellinger
+code-switching-direct-quotes-explanation = Oppfordre deltakerne til å gjengi hvordan ting faktisk ble sagt. Eksempel:
+code-switching-direct-quotes-explanation-example = «Hva var dine eksakte ord da du fant det ut?»
+code-switching-cultural-topics-header = Velg kulturspesifikke emner
+code-switching-cultural-topics-explanation = Mat, tradisjoner, høytider og familiedynamikk inviterer ofte til kodebytte.
+code-switching-informal-scenarios-header = Utforsk uformelle situasjoner
+code-switching-informal-scenarios-explanation = Samtaler med venner eller tekstmeldinger inkluderer ofte mer naturlig veksling. Eksempel:
+code-switching-informal-scenarios-explanation-example = «Hva er en vits vennene dine alltid drar — og hvordan sier de den?»
+# What to Avoid
+code-switching-avoid-subheader = Hva du bør unngå
+code-switching-avoid-intro = Spørsmål som kan være:
+code-switching-avoid-1 = Be om personlig identifiserbar informasjon
+code-switching-avoid-2 = Oppfordre til hatefulle ytringer eller andre partiske eller støtende følelser
+code-switching-avoid-3 = Få noen til å dele sensitive, potensielt utløsende reaksjoner
+code-switching-dont-header = Ikke
+code-switching-dont-1 = Ikke bruk for formelt språk
+# Reviewing a Question
+code-switching-review-subheader = Gjennomgang av et spørsmål
+code-switching-review-intro = Sørg for at spørsmålet oppfyller kriteriene:
+code-switching-review-criterion-1 = Vær lett å forstå og svare på
+code-switching-review-criterion-2 = Vær generelt relevant
+code-switching-review-criterion-3 = Ikke bruk eller oppfordre til skadelig eller støtende språk
+code-switching-review-does-not-header = Og <bold>INKLUDERER IKKE</bold>:
+code-switching-review-offensive-content = <bold>Støtende innhold eller sensitiv informasjon</bold>
+code-switching-answer-header = Støtende innhold eller sensitiv informasjon
+code-switching-review-no-1 = Spørsmål som kan be om personlig identifiserbar informasjon
+code-switching-review-no-2 = Spørsmål som kan oppfordre til hatefulle ytringer eller andre partiske eller støtende følelser
+code-switching-review-no-3 = Spørsmål som kan føre til at noen deler sensitive, potensielt utløsende svar
+# Answering a Question
+code-switching-answer-subheader = Svare på et spørsmål
+code-switching-answer-intro = Når du svarer på et spørsmål, er målet å svare naturlig – akkurat som du ville gjort i en ekte samtale. Vi ønsker å fange hvordan språk faktisk blandes i dagligtalen.
+code-switching-answer-bullet-1 = Tenk på øyeblikk eller situasjoner fra virkeligheten: vitser, krangler, tradisjoner
+code-switching-answer-bullet-2 = Tenk deg at du sender en tekstmelding til en venn eller forteller noen en historie
+code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, selv om de er lånte eller blandet
+code-switching-answer-bullet-4 = Det finnes ingen «perfekt» måte å svare på
+code-switching-authentic-header = Svar naturlig og autentisk
+code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Hvis du blander språk i det virkelige liv, gjør det samme her. Eksempel:
+code-switching-use-both-languages = <bold>Bruk begge språkene hvis det er slik du vanligvis sier det.</bold> Selv det å bytte ut bare ett eller to ord er nyttig. Eksempel:
+code-switching-authentic-direct-quotes = <bold>Inkluder direkte sitater eller dialog.</bold> Si nøyaktig hva noen sa, ikke en oppryddet eller formell versjon. Eksempel:
+code-switching-authentic-reflect = <bold>Reflekter følelser, identitet og kontekst.</bold> Veksling skjer vanligvis når folk uttrykker følelser, hvor viktig det er, eller kulturelle ideer. Ta hensyn til disse når du svarer på spørsmål.
+code-switching-authentic-full-context = <bold>Bruk fullstendige svar med kontekst.</bold> Vær så detaljert som mulig, og gi så mange detaljer som mulig. Del en historie eller et eksempel i svarene dine.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ikke overtenk eller overrediger
+code-switching-answer-dont-correct-language = <bold>«Korriger» språket ditt.</bold> Dette er ikke en test. «Riktig» form spiller ingen rolle her, naturlig språk gjør det.
+code-switching-answer-dont-avoid-switching = <bold>Unngå å bytte hvis du vanligvis gjør det.</bold> Det går fint å bytte midt i en setning, midt i en tanke eller bare for ett ord.
+code-switching-answer-dont-formal-writing = <bold>Snakk som om du skriver formelt.</bold> Unngå formelle, akademiske svar. Hold det samtaleorientert.
+code-switching-answer-dont-force-switch = <bold>Tving frem bytte hvis det ikke er naturlig.</bold> Bytt bare hvis det er slik du naturlig ville snakket i den situasjonen.
+code-switching-answer-dont-translate-repeat = <bold>Oversett eller gjenta alt.</bold> Bare si det én gang, slik det ville blitt sagt i en samtale. Du trenger ikke å si en versjon av svaret på hvert språk.
+# Transcribing
+code-switching-transcribe-subheader = Transkribering
+code-switching-transcribe-intro = Når du transkriberer svar som inkluderer kodebytte, skal du gjengi talerens språk slik det ble snakket – uten å korrigere, redigere eller forenkle. Dette gjelder for alle språkbytter, uformell tale og blandede ord.
+code-switching-transcribe-do-1 = Spill korte segmenter flere ganger for å fange opp subtile bytter
+code-switching-transcribe-do-2 = Pause etter hver setning for å dobbeltsjekke om det er ordvekslinger eller blandede ord.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Skriv ned talen nøyaktig som den ble sagt
+code-switching-capture-explanation = Transkriber begge språkene slik de ser ut / høres ut. Ikke «fiks» språket eller endre det til bare ett språk.
+# Include filler words and markers
+code-switching-filler-header = Inkluder fyllord og markører
+# Use standard spelling for each language
+code-switching-spelling-header = Bruk standard stavemåte for hvert språk
+code-switching-spelling-explanation = Prøv å stave ord riktig for hvert språk, med mindre den som snakker tydelig uttaler dem på en ikke-standard måte.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Ikke rydd opp eller forenkle språket
+code-switching-cleanup-1 = Oversett eller omskriv – skriv hva taleren faktisk sa, ikke hva de «mente».
+code-switching-cleanup-2 = «Korrekt» grammatikk eller uttale – behold talerens naturlige bruk.
+code-switching-cleanup-3 = Hopp over bytter som virker små eller ubetydelige – selv lånte ord har betydning.
+code-switching-cleanup-4 = Sett inn tegnsetting som kan endre betydningen – hold flyten naturlig.
+code-switching-cleanup-5 = Anta at du kjenner språket til hvert ord – merk basert på bruk.
+# Tagging
+code-switching-tagging-subheader = Merking
+code-switching-tagging-error-intro =
+    Hvis transkripsjonen inneholder en feil, bruk rapporteringsfunksjonen for å markere den.  
+    Mulige feil inkluderer:
+code-switching-tagging-error-1 = Feil tegnsetting eller bruk av store/små bokstaver
+code-switching-tagging-error-2 = Skrivefeil
+code-switching-tagging-error-3 = Ord skrevet med feil ortografi
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Bruk av riktig ortografi for hvert språk
+code-switching-orthography-explanation = Skriv hvert ord i henhold til stavemåten til språket det kommer fra. For eksempel:
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Merk tegnsetting basert på språk i nærheten
+code-switching-punctuation-tagging-explanation = Merk tegnsetting med språket nærmest venstre. Eksempler:
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Vær forsiktig med liknende ord
+code-switching-lookalikes-explanation = Noen ord kan se ut som på ett språk, men brukes på det andre. Merk basert på betydning og bruk, ikke utseende. Eksempler:
+# When Not to Tag Words
+code-switching-not-tag-header = Når man ikke skal merke ord
+code-switching-not-tag-explanation = Noen ord skal <bold>ikke merkes</bold> med en språketikett, selv om de virker blandet eller tilpasset. Her er hvordan du bør håndtere noen eksempler:
+code-switching-not-tag-proper-names = <bold>Egennavn.</bold> Navn på personer, steder og organisasjoner skal ikke merkes. Eksempler:
+code-switching-not-tag-proper-names-example-1 = Personer: Maria, John
+code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Merkenavn/organisasjoner:  Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Blandede eller morfologisk tilpassede ord.</bold> Ikke merk ord som blander språk eller har lagt til endelser fra et annet språk. Eksempler:
+code-switching-not-tag-interjections = <bold>Interjeksjoner.</bold> Interjeksjoner og fyllord, uavhengig av språk, skal forbli <bold>umerket.</bold> Eksempler:
+
+## Reporting Content
+
+reporting-content = Rapportering av innhold
+reporting-content-subheader = Generell veiledning
+reporting-content-explanation-1 = Du må merke innhold som er støtende, skadelig eller på annen måte bekymringsfullt. Det må heller ikke inneholde personopplysninger som telefonnumre eller adresser. Slikt innhold vil bli fjernet fra din opplevelse inntil Common Voice-teamet har gjennomgått det og undersøkt nærmere.
+reporting-content-explanation-2 = For å rapportere innhold, velg «Rapporter»-knappen og velg ett eller flere alternativer: Støtende innhold, Annet språk, Personopplysninger, Annet. Skriv deretter mer informasjon om hvorfor du rapporterer innholdet i tekstfeltet. Til slutt sender du rapporten ved å klikke på «Rapporter»-knappen.

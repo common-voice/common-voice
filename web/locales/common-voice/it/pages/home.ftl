@@ -102,9 +102,6 @@ partnerships-menu-item-aria-label = Scopri le collaborazioni con Common Voice
 press-and-stories-menu-item-aria-label = Accedi a comunicati stampa e articoli relativi a Common Voice
 community-and-languages-menu-item-aria-label = Esplora la comunità e le lingue supportate da Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Una tecnologia che parla la tua lingua
@@ -124,6 +121,7 @@ spontaneous-card-header = Discorso spontaneo
 spontaneous-card-content = Rispondi alle domande per creare dataset relativi a contesti naturali e colloquiali. Perfetto per le lingue prevalentemente orali.
 language-text-card-header = Testo in lingua
 language-text-card-content = Crea o condividi domande, frasi e testi di pubblico dominio per traduzioni, modelli linguistici di piccole dimensioni e altro ancora.
+coming-soon = Disponibile a breve
 add-text = Aggiungi testo
 answer = Rispondi
 
@@ -172,7 +170,6 @@ validate-readings-link = Convalida letture
 contribute-link = Contribuisci al corpus testuale
 answer-questions-link = Rispondi alle domande
 transcribe-answers-link = Trascrivi risposte
-review-transcriptions-link = Verifica trascrizioni
 contribute-text-link = Proponi testi
 press-and-stories-link = Sezione stampa e notizie
 

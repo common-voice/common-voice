@@ -77,3 +77,4 @@ variant-contribution-option-1 = Diskouez din frazennoù hag enrolladennoù e ne 
 variant-contribution-option-2 = Diskouez din hepken frazennoù hag enrolladennoù en adstumm a ra gantañ
 variant-contribution-warning-title = ⓘ N'eus ket bet staget a dikedenn adstumm ouzh an holl frazennoù c'hoazh !
 variant-contribution-warning-subtitle = M'hoc'h eus poan o kemer perzh e c'hallit goulenn gwelet en-dro kement tra embannet en ho yezh pa garot.
+api-key-modal-confirmation-header = Sur oc'h?

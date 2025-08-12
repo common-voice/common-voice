@@ -150,6 +150,3 @@ about-playbook-how-project-governance-content-4 = Community participation and de
 about-playbook-how-project-governance-content-5 = Value and recognition.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
-
-## How is Common Voice funded
-

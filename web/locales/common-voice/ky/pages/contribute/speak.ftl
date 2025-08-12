@@ -33,9 +33,3 @@ review-delete-recordings = Жаздырууларды жок кылуу
 review-terms = Сиз Common Voice'ту колдонуу менен биздин <termsLink>эрежелерибиз</termsLink> жана <privacyLink>купуялуулук эскертмебиз</privacyLink> менен макулдуңузду билдиресиз
 terms-agree = Макулмун
 terms-disagree = Макул эмесмин
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

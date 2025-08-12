@@ -50,9 +50,3 @@ second-cta-header-text = Spas ji bo ku te bi dengê xwe beşdarî kir!
 second-cta-subtitle-text = Bi rêya çêkirina profîlê tu dikarî çalakiyên xwe bişopînî û bi civakaka beşdarên daneya dengî re têkiliyê ava bikî.
 already-have-an-account = Jixwe hesabekî te heye? <login>Têkeve</login>
 create-profile-button = Profîlekê çêbike
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

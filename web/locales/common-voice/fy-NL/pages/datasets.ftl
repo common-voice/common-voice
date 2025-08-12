@@ -75,7 +75,7 @@ donate-modal-message = Jo gegevensset wurdt download!
 dataset-donate-modal-heading = Wisten jo dat…
 donate-modal-explanation-1 = It kostet hast in miljoen dollar yn it jier om de gegevenssets te hosten en it platfoarm te ferbetterjen foar de mear as 100 taalmienskippen dy’t ôfhinklik binne fan wat wy dogge?
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>As jo iepen, ynklusyf gegevens wurdearje – donearje hjoed noch!</bold>
+donate-modal-explanation-2 = <bold>As jo iepen, ynklusive gegevens wurdearje – donearje hjoed noch!</bold>
 data-download-singleword-title = It inkeld-wurd-doelsegmint downloade
 data-download-singleword-callout-v2 = Dit is in gebrûksbasearre segmint dat gegevens befettet om it werkennen fan sprutsen sifers en deteksje fan ja/nee mooglik te meitsjen.
 data-download-button = Common Voice-gegevens downloade
@@ -89,7 +89,7 @@ data-get-started = <speechBlogLink>Start no mei spraakwerkenning</speechBlogLink
 data-other-title = Oare stimgegevenssets…
 data-other-goto = Gean nei { $name }
 data-other-download = Gegevens downloade
-data-bundle-button = Bondel gegevensset downloade
+data-bundle-button = Gegevenssetbondel downloade
 data-bundle-description = Common Voice-gegevens plus alle oare boppesteande stimgegevenssets.
 release-version = Ferzje
 dataset-date = Datum

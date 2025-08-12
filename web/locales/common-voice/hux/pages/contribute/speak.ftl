@@ -8,9 +8,3 @@ review-cancel = Oreka oreñeno
 terms-disagree = Kuemona marañede
 add-information-button = Llogakɨno emodo dane llono
 continue-speaking-button = Mare,ñaɨno ñaɨno
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

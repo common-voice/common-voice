@@ -6,18 +6,3 @@ sentence-collection = کۆکردنەوەی ڕستە
 background-noise = ژاوەژاوی پشتەوە
 background-voices = دەنگی پشتەوە
 example = نموونە
-
-## Voice collection sidebar content
-
-
-## Sentence collection nav ids
-
-
-## Sentence collection sidebar content
-
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

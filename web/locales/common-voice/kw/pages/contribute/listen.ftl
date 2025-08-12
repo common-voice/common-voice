@@ -12,9 +12,3 @@ listen-loading-error =
 listen-abort-title = Gorfenna komposa klyppys?
 listen-abort-cancel = Pesya komposa
 listen-abort-confirm = Gorfenna komposa
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

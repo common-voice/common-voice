@@ -79,15 +79,6 @@ review-transcriptions = 審核轉寫
 transcribe-audio = 轉寫語音
 coming-soon = 即將上線
 
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = 講你隻語言嘅技術
@@ -101,6 +92,7 @@ get-started = 開始 <icon><icon>
 
 action-items-section-title = Common Voice 係一個免費開源嘅，由社羣驅動創造數據集嘅平台。
 language-text-card-header = 語言文本
+coming-soon = 即將上線
 
 ## Community section
 
@@ -113,15 +105,3 @@ find-us-on-matrix-action = 喺 Matrix 度揾我哋
 # label for button
 download-contribution-certificate-action = 取得你嘅證書
 contribute-github = 喺 GitHub 度貢獻
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

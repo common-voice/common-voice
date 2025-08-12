@@ -4,6 +4,8 @@ guidelines-header-subtitle = Kompren penaos kemer perzh hag aprouiñ frazennoù 
 voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumad frazennoù
 question-collection = Dastum goulennoù
+scripted-speech = Lenn skridoù
+spontaneous-speech = Komz naturel
 
 ## Voice Collection nav ids
 
@@ -136,3 +138,24 @@ offensive-content-sensitive-information-explanation-explanation-3 = Goulennoù a
 example-questions-subheader = Skouerioù goulennoù
 example-questions-explanation-1 = Gallout a reot kavout <examplePromptsLink>120 skouer goulennoù er follenn-mañ.</examplePromptsLink>
 example-questions-explanation-2 = Ma fell deoc'h kinnig ur strobad goulennoù da vezañ enframmet e c'hallit <githubLink>en ober dre hor GitHub</githubLink> pe kas ho roll dre bostel da <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Respont da c'houlennoù
+tags-table-header-2 = Ster
+tags-laugh = C'hoarzhin
+tags-noise = Trouz
+
+## Code-Switching
+
+adding-a-question = Ouzhpennañ ur goulenn
+# Adding a Question
+code-switching-adding-question-subheader = Peseurt goulennoù zo mat ?
+code-switching-adding-question-explanation = Ur goulenn a-feson evit ma kemerfe perzh an dud e savidigezh strobadoù roadennoù a zle :
+code-switching-adding-question-criteria-1 = Bezañ aes da gompren ha da respont dezhañ
+code-switching-adding-question-criteria-2 = Bezañ dedennus dre vras
+code-switching-tagging-error-2 = Fazioù reizhskrivañ
+code-switching-not-tag-interjections-example-1 = "Euh"
+code-switching-not-tag-interjections-example-2 = "Nann"
+code-switching-not-tag-interjections-example-3 = "Ya"

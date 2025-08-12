@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = کا جملہ جینی معیار مطابق
 reviewing-sentences-explanation-3 = کہ تو تی جملئی بارا در یقین نیِش نو انا جملہ پھاتے اؤ مُݜو بو۔
 reviewing-sentences-explanation-4 = کہ جائزے کارا تو ست جملہ ئی ختم بیلے، مہربانی تھا ہور جملئی جمع تھوندر اسائی مدد تھے۔
 domain-explanation = ڈومین کئی مراد جملئی موضوع ہنو، فی الھال تو انیس در انتخاب تھو بئیلا۔
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

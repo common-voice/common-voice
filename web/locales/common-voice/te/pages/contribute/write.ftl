@@ -26,12 +26,3 @@ single-sentence = ఒకే వాక్యం
 accepted-files = ఆమోదించబడిన ఫైల్ రకాలు: .tsv మాత్రమే
 file-invalid-type = చెల్లని ఫైల్
 file-too-small = ఫైల్ చాలా చిన్నది
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

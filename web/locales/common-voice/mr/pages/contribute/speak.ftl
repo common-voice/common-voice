@@ -36,9 +36,3 @@ review-delete-recordings = माझे रेकॉर्डिंग काढ
 review-terms = कॉमन व्हॉईस वापरुन, आपण आमच्या <termsLink> अटी </termsLink> आणि </privacyLink>  गोपनीयता सूचनांना </privacyLink>  सहमती देता
 terms-agree = मी सहमत आहे
 terms-disagree = मी सहमत नाही
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

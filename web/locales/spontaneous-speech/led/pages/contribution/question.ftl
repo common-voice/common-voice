@@ -14,7 +14,7 @@ add-question-too-many-questions-error = À dà dhíydha 25 djòluw. Dda mí dhí
 partial-questions-upload-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } of 1 question collected. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
-       *[other] 	{ $uploadedQuestions } of { $totalQuestions } questions collected. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
+       *[other] { "\u0009" }{ $uploadedQuestions } of { $totalQuestions } questions collected. View our <guidelinesLink>Guidelines</guidelinesLink> pages to learn more about how to add questions
     }
 # Guidelines
 add-question-guidelines-title = Ŋá dhíydha ma dho ndrr?

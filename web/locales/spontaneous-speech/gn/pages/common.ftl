@@ -29,11 +29,14 @@ continue-with-skipped = Eku’ejey Ñomimbyre ndive
 
 ## Navbar
 
-respond-to-prompt = Embohovái ñe’ẽmondo
-transcribe = Ñe’ẽjehai
-check-transcriptions = Ehechajey ñe’ẽjehai
 question = Porandu
 validate = Ñemoneĩ
+respond-to-prompt = Embohovái ñe’ẽmondo
+respond-to-prompt-mobile = Ñembohovái
+transcribe = Ñe’ẽjehai
+check-transcriptions = Ehechajey ñe’ẽjehai
+check-transcriptions-mobile = Hechajey
+tag = Teramoĩ
 
 ## Not Found Page
 

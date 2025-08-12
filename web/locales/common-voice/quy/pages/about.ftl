@@ -144,6 +144,3 @@ about-playbook-how-project-governance-content-4 = Participación comunitaria y t
 about-playbook-how-project-governance-content-5 = Valor y reconocimiento.
 about-playbook-how-project-governance-content-6 = Responsabilidad mutua
 about-playbook-how-project-governance-content-7 = <governanceLink>Lea más sobre cómo es nuestra gobernanza</governanceLink>
-
-## How is Common Voice funded
-

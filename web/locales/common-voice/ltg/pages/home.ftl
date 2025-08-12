@@ -81,15 +81,9 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 answer-questions = Atbiļdēt iz vaicuojumim
 coming-soon = Dreiži
 
-## MENU ITEMS TOOLTIPS
-
-
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = Izzynojit vaira par sadarbeibu ar Common Voice
-
-## NEW HOME PAGE KEYS
-
 
 ## Hero section
 
@@ -98,6 +92,7 @@ hero-title = Tehnologeja, kas runoj jiusu volūdā
 ## Action items section
 
 spontaneous-card-header = Spontana runa
+coming-soon = Dreiži
 add-text = Dalikt tekstu
 
 ## Community section
@@ -105,12 +100,6 @@ add-text = Dalikt tekstu
 find-us-on-matrix = Meklej myus Matrix
 # label for button
 find-us-on-matrix-action = Meklej myus Matrix
-
-## Featured section
-
-
-## Developers section
-
 
 ## Get involved section
 

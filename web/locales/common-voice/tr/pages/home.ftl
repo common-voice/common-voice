@@ -107,9 +107,6 @@ partnerships-menu-item-aria-label = Common Voice ile ortaklık hakkında bilgi a
 press-and-stories-menu-item-aria-label = Common Voice ile ilgili basın bültenlerine ve haberlere ulaşın
 community-and-languages-menu-item-aria-label = Common Voice topluluğunu ve desteklenen dilleri keşfedin
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Dilinizi konuşan teknoloji
@@ -129,6 +126,7 @@ spontaneous-card-header = Doğaçlama Konuşma
 spontaneous-card-content = Normal ve günlük konuşma bağlamlarına ait veri kümeleri oluşturmak üzere sorulara yanıt verin. Konuşma öncelikli diller için ideal.
 language-text-card-header = Dilinizde Metinler
 language-text-card-content = Çeviri, küçük dil modelleri ve daha fazlası için kamuya açık bilgi istemleri, cümleler ve metinler oluşturun ya da paylaşın.
+coming-soon = Çok yakında
 add-text = Metin ekle
 answer = Yanıt ver
 

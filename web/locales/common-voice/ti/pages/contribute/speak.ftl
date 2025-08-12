@@ -36,9 +36,3 @@ review-delete-recordings = ኣነ ዝቐረጽክዎ ኩሉ ደምስስዎ
 review-terms = ኮመን ቮይስ ብምጥቃም ነቲ <termsLink>ቃላትና</termsLink> ከምኡውን <privacyLink>ናይ ምስጢር ምልክታ ትሰማምዓሉ ኢኻ</privacyLink>
 terms-agree = ይሰማማዕ እየ።
 terms-disagree = ኣይሰማማዕን እየ።
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

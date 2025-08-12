@@ -8,9 +8,3 @@ listen-loading-error = Ezin izan dugu zuk entzuteko esaldirik lortu. Mesedez sai
 listen-abort-title = Bukatu grabazioak balioztatzen?
 listen-abort-cancel = Jarraitu balioztatzen
 listen-abort-confirm = Bukatu balioztatzen
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

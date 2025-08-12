@@ -12,6 +12,3 @@ delete = Poista
 submitted = Lähetetty
 # For the button on the Respond to prompts page which can be used to submit all responses at once
 submit-all-button = Lähetä kaikki
-
-## Explainer text (Respond to Prompt)
-

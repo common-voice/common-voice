@@ -46,6 +46,3 @@ pne = Penan oeste mieme
 sdo = Serian Bidayuh
 snv = Saʼban
 xkl = Kenyah
-
-## Language search component
-

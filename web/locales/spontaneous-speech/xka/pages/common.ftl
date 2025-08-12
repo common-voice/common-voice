@@ -27,10 +27,10 @@ request-new-language = نم جب کیر درخواست دہ
 
 ## Navbar
 
+question = تپوس تہ۔۔۔۔کھوجہ
 respond-to-prompt = جواب دہ
 transcribe = نقل تھاچونڑ
 check-transcriptions = ترجمہ نال
-question = تپوس تہ۔۔۔۔کھوجہ
 
 ## Not Found Page
 
@@ -58,6 +58,3 @@ sdo = سیرین بدایوہ
 snv = سبان
 tr = ٹرکش
 xkl = کینیا
-
-## Language search component
-

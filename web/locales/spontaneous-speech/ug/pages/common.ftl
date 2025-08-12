@@ -27,10 +27,10 @@ request-new-language = يېڭى تىل تەلەپ قىلىڭ
 
 ## Navbar
 
+question = سوئال
 respond-to-prompt = ئىنكاس قايتۇرۇش
 transcribe = خەت پۈت
 check-transcriptions = خەت پۈتۈكنى تەكشۈرۈڭ
-question = سوئال
 
 ## Not Found Page
 

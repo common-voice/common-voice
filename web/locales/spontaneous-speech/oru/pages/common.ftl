@@ -27,10 +27,10 @@ request-new-language = ته نیوو زبان پاره درخواست
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = پرمپټ کی ځواب
 transcribe = نقل
 check-transcriptions = ا نقل چېک کَۀ
-question = سوال
 
 ## Not Found Page
 

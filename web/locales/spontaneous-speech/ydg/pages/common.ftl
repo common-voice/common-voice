@@ -27,11 +27,11 @@ continue-with-skipped = لے لیغدان دے جفت جاری اویاؤ
 
 ## Navbar
 
+question = سوال/پیستا
+validate = تصدیق کڑا
 respond-to-prompt = جواب
 transcribe = دے نوختا آڤاز
 check-transcriptions = دیبارو اوژر
-question = سوال/پیستا
-validate = تصدیق کڑا
 
 ## Not Found Page
 

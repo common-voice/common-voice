@@ -150,6 +150,3 @@ about-playbook-how-project-governance-content-4 = Ku nghenelela ka vaaki na ku e
 about-playbook-how-project-governance-content-5 = Nkoka ni ku xiximiwa.
 about-playbook-how-project-governance-content-6 = Ku tihlamulelana ka vumbirhi.
 about-playbook-how-project-governance-content-7 = <governanceLink>Hlaya swo tala hi ndlela leyi hi lawuriwaka ha yona</governanceLink>
-
-## How is Common Voice funded
-

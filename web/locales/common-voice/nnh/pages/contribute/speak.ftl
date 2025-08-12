@@ -57,9 +57,3 @@ already-have-an-account = Pi keen ndáʼ ngẅiin gi jʉʼ tsɛ gaŋa gie ngwɔ
 create-profile-button = Gÿo legwɔ́ gie me gyá mmó ndwo ndiŋ ngie aa gu
 # IMAGE TAGS
 img-alt-success-checkmark = Lekʉa lelɔg ngie me gÿo tà á giŋ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

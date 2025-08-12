@@ -6,7 +6,7 @@ skip = alena
 shortcuts = mɔmɔnɔ akɛɛ
 clips-with-count-pluralized =
     { $count ->
-        [one]  nu mɛnkyɔla
+        [one] { " " }nu mɛnkyɔla
        *[other] nu mɛnkyɔla
     }
 goal-help-recording = ri ashu yen, Common Voice mɔɔ kumɔ <goalPercentage></goalPercentage> mɛsala mɛ nyɛ sa janalu { $goalValue } mɛɓagɔlɔ!

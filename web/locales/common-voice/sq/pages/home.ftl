@@ -102,9 +102,6 @@ partnerships-menu-item-aria-label = Mësoni rreth partneritete me Common Voice
 press-and-stories-menu-item-aria-label = Shihni njoftime shtypi dhe shembuj të lidhur me Common Voice
 community-and-languages-menu-item-aria-label = Eksploroni bashkësinë dhe gjuhët e mbuluara nga Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Teknologji që flet gjuhën tuaj
@@ -124,6 +121,7 @@ spontaneous-card-header = E folur Spontane
 spontaneous-card-content = Përgjigjuni pyetjeve për të krijuar grupe të dhënash për kontekste organike, bisedore. E përsosur për gjuhë që së pari janë gojore.
 language-text-card-header = Tekst Gjuhe
 language-text-card-content = Krijoni ose ndani me të tjerë pyetje, togfjalësh dhe tekst në përkatësi publike dhe tekst për përkthim, modele të vegjël gjuhësorë, etj.
+coming-soon = Së Shpejti
 add-text = Shtoni Tekst
 
 ## Community section

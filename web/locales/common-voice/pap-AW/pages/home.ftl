@@ -7,45 +7,6 @@ show-wall-of-text = Lesa Mas
 help-us-title = Yuda nos valida frasenan!
 help-us-explain = Primi play, scucha y conta nos: nan a papia e frase aki bou cu presicion?
 
-## Account Benefits
-
-
 ## What's public
 
 demographic-deidentified-clarity-2 = Opcionalmente, informacion demografico (e.o. edad, genero, idioma, accento) lo nunca ta publico riba bo profiel, y e no lo ta conecta cu bo cuenta den e set di datonan. Notanan di bos individual lo ta asocia cu informacion demografico pa e brinda un analisis mas preciso- por ehempel, un investigado lo kier dirigi e modelo di entrenamento pa un segmento demografico specifico.
-
-## Landing
-
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

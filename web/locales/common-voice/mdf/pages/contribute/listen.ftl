@@ -4,9 +4,3 @@ listen-again-instruction = Пяк цебярь! <playIcon></playIcon> Кулхц
 listen-3rd-time-instruction = 2 тифт, сяда тов! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Мекольцесь!
 listen-empty-state = Шумордавсть сёрматфксне, штоба видеста ваномс вайгяльксонь сёрматфнень тя кяльса
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -60,9 +60,3 @@ already-have-an-account = Yi o bələ ya eyəm? <login> Nyiian </login>
 create-profile-button = Tye eyəmə
 # IMAGE TAGS
 img-alt-success-checkmark = Bana a yəbəgə
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

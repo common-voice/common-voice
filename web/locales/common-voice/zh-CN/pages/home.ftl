@@ -101,9 +101,6 @@ partnerships-menu-item-aria-label = 了解与 Common Voice 的合作
 press-and-stories-menu-item-aria-label = 获取关于 Common Voice 的新闻稿和文章
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支持的社区和语言
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = 让技术也懂您的语言
@@ -123,6 +120,7 @@ spontaneous-card-header = 即兴发言
 spontaneous-card-content = 回答引导语，打造自然的口语语境数据集。非常适合以口语为主的语言。
 language-text-card-header = 语言文本
 language-text-card-content = 为翻译、小型语言模型等项目，创建或分享处于公有领域的引导语、语句、文本。
+coming-soon = 即将推出
 add-text = 添加文本
 answer = 回答
 

@@ -65,36 +65,3 @@ username-email-not-demographic = ތިފަރާތުގެ ނަމާއި އީމެއި�
 ## Landing
 
 profile-not-required = ބައިވެރިވުމަށް ޓަކައި، ވަނަވަރެއް ހަދާފައި ހުރުމަކީ ކޮންމެހެން ލާޒިމު ކަމެއް ނޫން. އެކަމަކު. އެއީ ފައިދާކުރާ ކަމެއް.
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

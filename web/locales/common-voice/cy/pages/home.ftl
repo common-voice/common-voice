@@ -118,9 +118,6 @@ partnerships-menu-item-aria-label = Dysgwch am bartneriaethau gyda Common Voice
 press-and-stories-menu-item-aria-label = Cael mynediad at datganiadau i'r wasg a straeon yn ymwneud â Common Voice
 community-and-languages-menu-item-aria-label = Archwilio'r gymuned a'r ieithoedd sy'n cael eu cefnogi gan Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Technoleg sy'n siarad eich iaith chi
@@ -140,6 +137,7 @@ spontaneous-card-header = Llefaru Rhydd
 spontaneous-card-content = Ymateb i gwestiynau i greu setiau data ar gyfer cyd-destunau llafar, organig. Perffaith ar gyfer ieithoedd llafar yn bennaf.
 language-text-card-header = Testun Iaith
 language-text-card-content = Creu neu rannu cwestiynau, brawddegau, a thestunau i'w cyfieithu parth cyhoeddus, modelau iaith bychan, a mwy.
+coming-soon = Yn Dod yn Cyn Hir
 add-text = Ychwanegu Testun
 answer = Ateb
 

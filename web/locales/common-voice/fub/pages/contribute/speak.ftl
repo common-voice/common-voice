@@ -60,9 +60,3 @@ already-have-an-account = On ɗon mari konte ɓuyma na ?? <login>Connexion</logi
 create-profile-button = mbinnde heɓtinirde mooɗon
 # IMAGE TAGS
 img-alt-success-checkmark = diidaa dow ko a heɓti
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -2,6 +2,50 @@
 
 ## Current release
 
+### [v1.149.0 (2025-08-12)](https://github.com/common-voice/common-voice/releases/tag/release-v1.149.0)
+
+- Feat: Redesign of guidelines and addition of Pontoon keys, by [@moz-rotimib](https://github.com/moz-rotimib) in [#4952](https://github.com/common-voice/common-voice/pull/4952)
+- Feat (in v1.148.3): Add two legal consent checkboxes to API Credentials and re-enable the tab, by [@moz-rotimib](https://github.com/moz-rotimib) in [#5001](https://github.com/common-voice/common-voice/pull/5001)
+- Feat (in v1.148.1): Update profile page to add API Credentials (temporarily disabled) by [@moz-rotimib](https://github.com/moz-rotimib) in [#4961](https://github.com/common-voice/common-voice/pull/4961)
+- Fix: Several issues in new guidelines, by [@moz-bozden](https://github.com/moz-bozden) in [#5034](https://github.com/common-voice/common-voice/pull/5034)
+- Fix: Multiple issues in Downloads/Other Voice Datasets section (dataset size missing, male/female keys for old datasets missing, temporarily disable voxforge download link), by [@moz-bozden](https://github.com/moz-bozden) in [#5035](https://github.com/common-voice/common-voice/pull/5035)
+- Fix: Overflow in long accent lists and adapt style to variant selector [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4849](https://github.com/common-voice/common-voice/pull/4849) fixes [#4378](https://github.com/common-voice/common-voice/issues/4378)
+- Minor fix: Add left-aligned class to contact us button which was causing visual problems in some languages by [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4868](https://github.com/common-voice/common-voice/pull/4868) fixes [#4867](https://github.com/common-voice/common-voice/issues/4867)
+- Minor fix: Add missing Bengali `bn` sub-Discourse list by [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4852](https://github.com/common-voice/common-voice/pull/4852)
+- Minor fix (in v1.148.2): Adjust cache duration of variant-only clips, which was causing lock-release issues in RedLock by [@moz-bozden](https://github.com/moz-bozden) in [#4995](https://github.com/common-voice/common-voice/pull/4995)
+- Minor fix (in v1.148.2): Adjust cache and lock duration of LeaderBoard statistics, which was causing lock-release issues in RedLock by [@moz-bozden](https://github.com/moz-bozden) in [#4994](https://github.com/common-voice/common-voice/pull/4994)
+- Chore (in v1.148.2): Delete unused/remnant files from the repository by [@moz-bozden](https://github.com/moz-bozden) in [#4996](https://github.com/common-voice/common-voice/pull/4996)
+
+#### Data Changes in v1.149.0
+
+- (in v 1.148.4) Add Irish `ga-IE` variants by [@moz-bozden](https://github.com/moz-bozden) in [#5003](https://github.com/common-voice/common-voice/pull/5003)
+
+#### Spontaneous Speech v1.149.0
+
+- Feat (in v1.148.3): Remove age-gender form from code base because after the public release we are collecting that data in MCV profiles, which might also interfare with merging the two systems if they don't match, by [@moz-bozden](https://github.com/moz-bozden) in [#470](https://github.com/common-voice/spontaneous-speech/pull/470)
+- Feat (in v1.148.3): Remove beta-batches visually and extend the component to show any string on a page if needed, by [@moz-bozden](https://github.com/moz-bozden) in [#469](https://github.com/common-voice/spontaneous-speech/pull/469)
+- Feat (in v1.148.2): Implement a replica of user avatar and username on the menu line to replace current behavior which shows the user email, as a first step to merge both webapps visually. By [@moz-bozden](https://github.com/moz-bozden) in [#460](https://github.com/common-voice/spontaneous-speech/pull/460) and CSS fix in [#468](https://github.com/common-voice/spontaneous-speech/pull/468)
+- Fix: Programmatically remove `<small>` tags in buttons which appear for languages who do not fix Pontoon strings, by [@moz-bozden](https://github.com/moz-bozden) in [#474](https://github.com/common-voice/spontaneous-speech/pull/474), reported in [#5012](https://github.com/common-voice/common-voice/issues/5012)
+- Fix: Add migration to fix Manx language code (`glv` => `gv`) which was preventing connection to Pontoon and CV, by [@moz-bozden](https://github.com/moz-bozden) in [#471](https://github.com/common-voice/spontaneous-speech/pull/471)
+
+##### SS Data Changes in v1.149.0
+
+- (in v1.148.4) Add 104 Irish (`ga-IE`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#473](https://github.com/common-voice/spontaneous-speech/pull/473)
+- (in v1.148.4) Add 71 Frisian (`fy-NL`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#472](https://github.com/common-voice/spontaneous-speech/pull/472)
+- (in v1.148.2) Add Bashkir (`bak`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#464](https://github.com/common-voice/spontaneous-speech/pull/464)
+- (in v1.148.2) Add German (`de`) questions by [@bandrandr](https://github.com/bandrandr) in [#462](https://github.com/common-voice/spontaneous-speech/pull/462)
+- (in v1.148.2) Add Basaa (`bas`) questions by [@bandrandr](https://github.com/bandrandr) in [#461](https://github.com/common-voice/spontaneous-speech/pull/461)
+
+### Next release v1.150.0 (TBA)
+
+#### Data Changes in v1.150.0 (TBA)
+
+#### Spontaneous Speech v1.150.0 (TBA)
+
+##### SS Data Changes in v1.150.0 (TBA)
+
+## Past releases
+
 ### [v1.148.0 (2025-07-21)](https://github.com/common-voice/common-voice/releases/tag/release-v1.148.0)
 
 - Feat: Change clip-upload process to handle remaining duplicate-clip errors. In the existing implementation, if there is a duplicate, each upload was giving a separate error, and the error message was generic. It also provided a "retry" option which resulted in the same problem. With this change, the problem will only be provided once at the end, providing only a "continue" option. By [@moz-bozden](https://github.com/moz-bozden) in [#4950](https://github.com/common-voice/common-voice/pull/4950)
@@ -31,34 +75,6 @@
 ##### SS Data Changes in v1.148.0
 
 - Add Bodo (`brx`) prompts by [@bandrandr](https://github.com/bandrandr) in [#455](https://github.com/common-voice/spontaneous-speech/pull/455)
-
-### Next release v1.149.0 (TBA)
-
-- Feat (in v1.148.3): Add two legal consent checkboxes to API Credentials and re-enable the tab, by [@moz-rotimib](https://github.com/moz-rotimib) in [#5001](https://github.com/common-voice/common-voice/pull/5001)
-- Feat (in v1.148.1): Update profile page to add API Credentials (temporarily disabled) by [@moz-rotimib](https://github.com/moz-rotimib) in [#4961](https://github.com/common-voice/common-voice/pull/4961)
-- Minor fix (in v1.148.2): Adjust cache duration of variant-only clips, which was causing lock-release issues in RedLock by [@moz-bozden](https://github.com/moz-bozden) in [#4995](https://github.com/common-voice/common-voice/pull/4995)
-- Minor fix (in v1.148.2): Adjust cache and lock duration of LeaderBoard statistics, which was causing lock-release issues in RedLock by [@moz-bozden](https://github.com/moz-bozden) in [#4994](https://github.com/common-voice/common-voice/pull/4994)
-- Chore (in v1.148.2): Delete unused/remnant files from the repository by [@moz-bozden](https://github.com/moz-bozden) in [#4996](https://github.com/common-voice/common-voice/pull/4996)
-
-#### Data Changes in v1.149.0 (TBA)
-
-- (in v 1.148.4) Add Irish `ga-IE` variants by [@moz-bozden](https://github.com/moz-bozden) in [#5003](https://github.com/common-voice/common-voice/pull/5003)
-
-#### Spontaneous Speech v1.149.0 (TBA)
-
-- Feat (in v1.148.3): Remove age-gender form from code base because after the public release we are collecting that data in MCV profiles, which might also interfare with merging the two systems if they don't match, by [@moz-bozden](https://github.com/moz-bozden) in [#470](https://github.com/common-voice/spontaneous-speech/pull/470)
-- Feat (in v1.148.3): Remove beta-batches visually and extend the component to show any string on a page if needed, by [@moz-bozden](https://github.com/moz-bozden) in [#469](https://github.com/common-voice/spontaneous-speech/pull/469)
-- Feat (in v1.148.2): Implement a replica of user avatar and username on the menu line to replace current behavior which shows the user email, as a first step to merge both webapps visually. By [@moz-bozden](https://github.com/moz-bozden) in [#460](https://github.com/common-voice/spontaneous-speech/pull/460) and CSS fix in [#468](https://github.com/common-voice/spontaneous-speech/pull/468)
-
-##### SS Data Changes in v1.149.0 (TBA)
-
-- (in v1.148.4) Add 104 Irish (`ga-IE`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#473](https://github.com/common-voice/spontaneous-speech/pull/473)
-- (in v1.148.4) Add 71 Frisian (`fy-NL`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#472](https://github.com/common-voice/spontaneous-speech/pull/472)
-- (in v1.148.2) Add Bashkir (`bak`) questions by [@moz-kathyreid](https://github.com/moz-kathyreid) in [#464](https://github.com/common-voice/spontaneous-speech/pull/464)
-- (in v1.148.2) Add German (`de`) questions by [@bandrandr](https://github.com/bandrandr) in [#462](https://github.com/common-voice/spontaneous-speech/pull/462)
-- (in v1.148.2) Add Basaa (`bas`) questions by [@bandrandr](https://github.com/bandrandr) in [#461](https://github.com/common-voice/spontaneous-speech/pull/461)
-
-## Past releases
 
 ### [v1.147.0 (2025-07-08)](https://github.com/common-voice/common-voice/releases/tag/release-v1.147.0)
 

@@ -4,9 +4,3 @@ listen-again-instruction = Пек паро! <playIcon></playIcon> Кунсоло
 listen-3rd-time-instruction = 2 теезь, ней седе тов! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Меельцесь!
 listen-empty-state = Весиясть те кельсэнть ванномс руликенек...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -12,15 +12,3 @@ submit-form-action = sipatjequlja
 ## Reporting
 
 report = padjaljun
-
-## Speak & Listen Shortcuts
-
-
-## Speak Shortcuts
-
-
-## Listen Shortcuts
-
-
-## Validation criteria
-

@@ -7,9 +7,3 @@ listen-empty-state = Ons het nie meer snitte om in hierdie taal te evalueer nie.
 listen-loading-error =
     Ons kon geen klanksnitte kry vir jou om na te luister nie.
     Probeer asseblief later weer.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

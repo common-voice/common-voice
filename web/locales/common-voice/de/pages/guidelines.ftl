@@ -4,6 +4,9 @@ guidelines-header-subtitle = Verstehen Sie, wie Sie Sätze und Audioclips zum Co
 voice-collection = Stimmensammlung
 sentence-collection = Satz-Sammlung
 question-collection = Fragensammlung
+scripted-speech = Geschriebene Sprache
+spontaneous-speech = Spontane Sprache
+dont-subheader = Falsch:
 
 ## Voice Collection nav ids
 
@@ -100,7 +103,7 @@ adding-sentences-subheader-abbreviations = Abkürzungen und Akronyme
 adding-sentences-subheader-abbreviations-explanation = Abkürzungen und Akronyme wie „USA“ oder „ICE“ sollten im Quelltext vermieden werden, da sie möglicherweise nicht mit ihrer Schreibweise übereinstimmen. Darüber hinaus kann es für eine einzelne Abkürzung mehrere korrekte Bedeutungen.
 adding-sentences-subheader-punctuation = Interpunktion
 adding-sentences-subheader-punctuation-explanation =
-     Sonderzeichen und Satzzeichen sollten nur enthalten sein, wenn es unbedingt notwendig ist. Zum Beispiel ist ein Apostroph in englischen Wörtern wie 
+    { " " }Sonderzeichen und Satzzeichen sollten nur enthalten sein, wenn es unbedingt notwendig ist. Zum Beispiel ist ein Apostroph in englischen Wörtern wie 
     „don’t“ und „we’re“ enthalten und sollte in den Quelltext aufgenommen werden, aber es ist unwahrscheinlich, dass Sie jemals ein Sonderzeichen wie „@“ oder „#“ benötigen.
 adding-sentences-subheader-special-characters = Sonderzeichen und ausländische Buchstaben
 adding-sentences-subheader-special-characters-explanation-1 =
@@ -146,3 +149,223 @@ offensive-content-sensitive-information-explanation-explanation-3 = Fragen, die 
 example-questions-subheader = Beispielfragen
 example-questions-explanation-1 = Sie können in dieser Tabelle <examplePromptsLink>120 Beispielfragen finden.</examplePromptsLink>
 example-questions-explanation-2 = Wenn Sie eine Tranche von Fragen zur Aufnahme einreichen möchten, können Sie <githubLink>das über unseren GitHub</githubLink> tun oder Ihre Liste per E-Mail an <emailFragment>commonvoice@mozilla.com</emailFragment> senden
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Beantworten Sie Fragen
+answer-questions-subheader = Allgemeine Hinweise
+answer-questions-explanation-1 = Denken Sie einen Moment über die Aufforderung nach, überlegen Sie, was Sie sagen möchten, aber schreiben Sie sich nicht zu viel. Klicken Sie auf das Aufnahme-Symbol. Sobald Sie aufgenommen haben, können Sie sich selbst anhören, erneut aufnehmen, löschen oder absenden.
+answer-questions-explanation-2 = Denken Sie daran: Machen Sie sich keine Sorgen, wenn Sie stottern, eine Pause einlegen oder ein Wort wiederholen. Dies sind alles hilfreiche Daten für Entwickler, die inklusive Werkzeuge zur Spracherkennung in der realen Welt entwickeln möchten.
+answer-questions-tip-1 = An einem einigermaßen leisen Ort aufnehmen
+answer-questions-tip-2 = Wählen Sie einen Ort mit einer guten Internetverbindung
+answer-questions-tip-3b = Versuchen Sie, Ihre Antwort auf 15-30 Sekunden zu beschränken
+answer-questions-tip-4 = Vermeiden Sie hasserfüllte, aufhetzende oder anderweitig beleidigende Sprache
+answer-questions-tip-5 = Sprechen Sie natürlich, wie Sie es mit einem Freund tun würden – verwenden Sie Ihre eigene Variante, Ihren Dialekt und Ihren Akzent
+answer-questions-tip-6 = Achten Sie auf eine gleichbleibende Lautstärke – schreien oder singen Sie nicht
+# Transcribe the Audio
+transcribe-the-audio = Die Audiodatei transkribieren
+transcribe-the-audio-subheader-1 = Allgemeine Hinweise
+transcribe-the-audio-subheader-2 = Zahlen und Akronyme
+transcribe-the-audio-subheader-3 = Besondere Schlagwörter
+transcribe-the-audio-subheader-4 = Wortsegmente, Fehlstart, Wortwiederholung
+transcribe-the-audio-subheader-5 = Grammatikfehler und umgangssprachliche Ausdrücke
+transcribe-the-audio-subheader-1-explanation = Im Allgemeinen sollten Sie alles aufschreiben, was Sie hören. Dies schließt ein:
+transcribe-the-audio-subheader-1-explanation-example-1 = Aufschreiben von Ungenauigkeiten, einschließlich Zögern und Wiederholungen
+transcribe-the-audio-subheader-1-explanation-example-2 = Kennzeichnen von Geräusche wie Husten oder Lachen
+transcribe-the-audio-subheader-1-explanation-example-3 = Markieren von erheblicher Geräuschbelästigung wie Hintergrundgesprächen oder Autohupen
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatikalisierung und Slang sollten genau so aufgezeichnet werden, wie sie vorkommen. Korrigieren oder bearbeiten Sie keine Reden von Personen.
+transcribe-the-audio-subheader-2-explanation-1 = Zahlen und Symbole sollten in Wörtern geschrieben werden, und nicht aus Ziffern oder Sonderzeichen. Beispiel:
+transcribe-the-audio-subheader-2-explanation-2 = Akronyme sollten so geschrieben werden, wie sie in der Sprache normalerweise geschrieben werden, nach den Standardregeln für die Groß-/Kleinschreibung. Sie sollten nicht phonetisch transkribiert werden. Beispiel:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <korrekt> Richtig</korrekt>: Es sind noch einhundert Kilometer von hier
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Falsch</wrong>: Es sind noch 100 Kilometer von hier
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <korrekt> Richtig</korrekt>: Wir sehen uns im Jahr <underline>Zweitausendfünfzehn</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Falsch</wrong>: Wir sehen uns im Jahr <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <korrekt>Korrekt</korrekt>: Es gab zwanzig Prozent Rabatt
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Falsch</wrong>: Es gab 20 % Rabatt
+transcribe-the-audio-subheader-2-example-4-correct = <korrekt>Korrekt</korrekt>: Sie wurden am letzten Donnerstag vom <underline>BKA</underline> festgenommen
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Falsch</wrong>: Sie wurden am letzten Donnerstag vom <underline>Bee-Kaa-Aaa</underline> festgenommen
+transcribe-the-audio-subheader-3-explanation = Die folgenden speziellen Schlagwörter sollten verwendet werden, um störende Elemente, Füllwörter und andere Arten von nicht-verbalen Inhalten zu kennzeichnen.
+tags-table-header-1 = Schlagwort
+tags-table-header-2 = Bedeutung
+tags-laugh = Lachen
+tags-disfluency = Unflüssig
+tags-unclear = Unklar
+tags-noise = Geräusche
+tags-laugh-explanation = Lachen
+tags-disfluency-explanation =
+    Ein Füllwort oder ein Laut, der als Platzhalter verwendet wird, während ein Sprecher entscheidet, was gesagt wird.
+    Im Deutschen sind einige gängige Laute des Zögerns „ähm“, „ähh“, „öhh“ usw.
+tags-unclear-explanation = Ein Wort oder eine Folge von Wörtern, die nicht verstanden werden kann.
+tags-noise-explanation =
+    Jede andere Art von Geräusch, wie Husten oder sich räuspern,
+    ein hupendes Auto, etwas, das auf das Mikrofon trifft, ein Telefon, das summt usw.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Und dann bin ich [Geräusch] in Urlaub gefahren.
+    Nun, [Geräusch] [Lachen] es war nicht gerade ein Feiertag [Lachen]
+transcribe-the-audio-subheader-4-explanation-1 = Spontane Sprache enthält von Natur aus Fehlstarts, wo nur ein Fragment eines vollständigen Worts erzeugt wird. Für diese Fälle transkribieren Sie bitte das Wortfragment nach bestem Wissen und Gewissen und fügen Sie einen Bindestrich an das Ende des Wortes (-) an, um anzuzeigen, dass das Wort ein Fehlanfang ist. Beispiel:
+transcribe-the-audio-subheader-4-explanation-1-example = Sein Name ist <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Manchmal werden Sprecher ein Wort oder Wortfragment mehrmals wiederholen. Dies sollte auch transkribiert werden. Beispiel:
+transcribe-the-audio-subheader-4-explanation-2-example = Und dann bin ich in das <underline>das das das Schlaf-</underline> Schlafzimmer gegangen
+transcribe-the-audio-subheader-5-explanation-1 = Spontane Sprache enthält natürlich grammatikalische Fehler. Diese sollten bei der Transkription nicht korrigiert werden. Die Transkription sollte den gesprochenen Inhalt genau wiedergeben.
+transcribe-the-audio-subheader-5-explanation-2 = Sprecher werden vielleicht umgangssprachliche Ausdrücke verwenden (wie im Deutschen „wolln“, „wern“, usw.), die möglicherweise nicht als formal korrekt angesehen werden. Diese sollten so abgeschrieben werden, wie sie sind, und nicht in ihre formaleren Entsprechungen geändert werden.
+
+## Review the Transcription
+
+review-the-transcription = Überprüfen Sie die Transkription
+review-the-transcription-subheader = Allgemeine Hinweise
+review-the-transcription-explanation-1 = Im Allgemeinen empfehlen wir, dass die Person, die das Transkript überprüft, nicht dieselbe Person sein sollte, die sie erstellt hat. Es ist sehr schwer, Ihre eigenen Arbeiten zu überprüfen! Mehrere Überprüfungszeilen können dazu beitragen, die Qualitätssicherung robuster zu machen und Vorurteile und Probleme zu mindern.
+review-the-transcription-explanation-2 = Lesen Sie die obigen Richtlinien für die Transkription, um zu überprüfen, ob eine Transkription korrekt ist. Sie können Bearbeitungen angeben und absenden.
+review-the-transcription-explanation-3 = Auch hier können Sie anstößige, schädliche oder anderweitig besorgniserregende Inhalte melden, und diese werden aus Ihrem Zugriff entfernt, bis das Common-Voice-Team sie erneut überprüft und untersucht.
+
+## Code-Switching
+
+code-switching = Sprachwechsel
+adding-a-question = Eine Frage hinzufügen
+# Adding a Question
+code-switching-adding-question-subheader = Wie sieht eine gute Frage aus?
+code-switching-adding-question-explanation = Eine gute Frage für Datensätze zur Öffentlichkeitsarbeit sollte:
+code-switching-adding-question-criteria-1 = Einfach zu verstehen und zu beantworten sein
+code-switching-adding-question-criteria-2 = Allgemein relevant sein
+code-switching-adding-question-criteria-3 = Keine schädliche oder anstößige Sprache verwenden
+code-switching-adding-question-note = Sie können auch erwägen, verschiedene Kontexte und Bereiche zu umfassen.
+# What types of questions to add
+code-switching-types-subheader = Welche Fragentypen sollen hinzugefügt werden?
+code-switching-use-bilingual-prompts-header = Zweisprachige Aufforderungen verwenden
+code-switching-use-bilingual-prompts-explanation = Verwenden Sie zweisprachige Aufforderungen, die beide Sprachen in Ihrer Frage enthalten: Beispiel:
+code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá als Du heute nach Hause kamst?”
+code-switching-ask-bilingual-contexts-header = Fragen Sie nach zweisprachigen Kontexten
+code-switching-ask-bilingual-contexts-explanation = Verwenden Sie Situationen, in denen beide Sprachen häufig verwendet werden (z.B. zu Hause, Schule, Veranstaltungen der Gemeinschaft). Beispiel:
+code-switching-ask-bilingual-contexts-explanation-example = „Wenn Sie mit Ihren Cousinen sprechen, mischen Sie Spanisch und Englisch?“
+code-switching-focus-emotional-header = Konzentrieren Sie sich auf emotionale oder wichtige Momente
+code-switching-focus-emotional-explanation = Nutzer:innen vertauschen die Codes, wenn sie Emotionen oder Dringlichkeit ausdrücken. Beispiel:
+code-switching-focus-emotional-explanation-example = „Sagen Sie mir, was Ihre Eltern gesagt haben, als Sie ihnen die große Neuigkeiten erzählt haben – genau wie sie es gesagt haben.“
+code-switching-direct-quotes-header = Fragen Sie nach direkten Zitaten oder Nachstellungen
+code-switching-direct-quotes-explanation = Ermutigen Sie die Teilnehmer dazu, so zu reproduzieren, wie die Dinge wirklich gesagt wurden. Beispiel:
+code-switching-direct-quotes-explanation-example = „Was haben Sie genau gesagt, als Sie davon erfahren haben?“
+code-switching-cultural-topics-header = Wählen Sie kulturspezifische Themen
+code-switching-cultural-topics-explanation = Essen, Traditionen, Feiertage und Familiendynamik laden oft zum Sprachwechsel ein.
+code-switching-cultural-topics-explanation-example = „Wie beschreiben Sie den Día de los Muertos jemandem, der nur Deutsch spricht?“
+code-switching-informal-scenarios-header = Erkunden Sie informelle Szenarien
+code-switching-informal-scenarios-explanation = Gespräche mit Freunden oder zum Schreiben einer SMS wechseln oft natürlicher. Beispiel:
+code-switching-informal-scenarios-explanation-example = „Was ist ein Witz, den Ihre Freunde immer machen – und wie sagen sie ihn?“
+# What to Avoid
+code-switching-avoid-subheader = Was Sie vermeiden sollten
+code-switching-avoid-intro = Fragen, die:
+code-switching-avoid-1 = personenbezogene Daten anfordern
+code-switching-avoid-2 = Hassreden oder andere voreingenommene oder beleidigende Gefühle ausdrücken
+code-switching-avoid-3 = dazu führen könnten, dass jemand sensible und potenziell auslösende Antworten gibt
+code-switching-dont-header = Falsch:
+code-switching-dont-1 = Verwenden Sie keine zu förmliche Sprache
+# Reviewing a Question
+code-switching-review-subheader = Eine Frage überprüfen
+code-switching-review-intro = Die Frage sollte folgende Kriterien erfüllen:
+code-switching-review-criterion-1 = Einfach zu verstehen und zu beantworten sein
+code-switching-review-criterion-2 = Allgemein relevant sein
+code-switching-review-criterion-3 = Keine schädliche oder anstößige Sprache verwenden
+code-switching-review-does-not-header = Und Folgendes <bold>NICHT</bold> enthalten:
+code-switching-review-offensive-content = <bold>Anstößige Inhalte oder sensible Informationen</bold>
+code-switching-answer-header = Anstößige Inhalte oder sensible Informationen
+code-switching-review-no-1 = Fragen, die möglicherweise personenbezogene Daten enthalten
+code-switching-review-no-2 = Fragen, die Hassreden oder andere voreingenommene oder beleidigende Gefühle entwickeln könnten
+code-switching-review-no-3 = Fragen, die dazu führen könnten, dass jemand sensible und potenziell auslösende Antworten antwortet
+# Answering a Question
+code-switching-answer-subheader = Eine Frage beantworten
+code-switching-answer-intro = Das Ziel der Antwort auf eine Frage ist, dass Sie natürlich antworten – wie in einem echten Gespräch. Wir wollen erfassen, wie sich Sprachen in der Umgangssprache vermischen.
+code-switching-answer-bullet-1 = Denken Sie an Momente oder Situationen aus dem wirklichen Leben: Witze, Diskussionen, Traditionen
+code-switching-answer-bullet-2 = Stellen Sie sich vor, Sie schreiben einem Freund eine SMS oder erzählen jemandem eine Geschichte
+code-switching-answer-bullet-3 = Verwenden Sie Wörter, die Sie wirklich verwenden würden, auch wenn sie entlehnt oder gemischt sind
+code-switching-answer-bullet-4 = Es gibt keine „perfekte“ Möglichkeit für eine Antwort
+code-switching-authentic-header = Natürlich und authentisch antworten
+code-switching-authentic-speak = <bold>Sprechen Sie, wie Sie mit Freunden oder der Familie sprechen würden.</bold> Wenn Sie im wirklichen Leben Sprachen mischen, tun Sie dasselbe hier. Beispiel:
+code-switching-authentic-speak-example = „Pues, ich habe ihr gesagt, dass ich nicht kommen kann, aber sie war so: ‚Wär’ besser, wenn Du kommst!‘“
+code-switching-use-both-languages = <bold>Verwenden Sie beide Sprachen, wenn Sie es normalerweise so ausdrücken würden.</bold> Sogar das Wechseln von nur einem oder zwei Wörtern ist nützlich. Beispiel:
+code-switching-use-both-languages-example = „Sie wurde wirklich wütend, porque ich sie nicht zurückgerufen habe.“
+code-switching-authentic-direct-quotes = <bold>Fügen Sie direkte Zitate oder Dialoge ein.</bold> Sagen Sie genau, was jemand gesagt hat, keine bereinigte oder förmliche Version. Beispiel:
+code-switching-authentic-direct-quotes-example = „Mi mamá dijo, ‚Tú crees que esto es un juego?‘ und ich so: ‚Ok, mach Dich locker!‘“
+code-switching-authentic-reflect = <bold>Stellen Sie Emotionen, Identität und Kontext dar.</bold> Der Wechsel erfolgt normalerweise, wenn Personen Emotionen, Dringlichkeit oder kulturelle Ideen ausdrücken. Nutzen Sie dies, wenn Sie Fragen beantworten.
+code-switching-authentic-full-context = <bold>Verwenden Sie vollständige Antworten mit dem Kontext.</bold> Seien Sie so detailliert wie möglich und geben Sie so viele Details wie möglich an. Erzählen Sie in Ihren Antworten eine Geschichte oder ein Beispiel.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nicht zu viel nachdenken oder bearbeiten
+code-switching-answer-dont-correct-language = <bold>„Korrigieren“ Sie Ihre Sprache nicht.</bold> Dies ist kein Test. Die „richtige“ Form ist hier nicht wichtig, die natürliche Sprache schon.
+code-switching-answer-dont-avoid-switching = <bold>Sprachwechsel vermeiden, wenn Sie es normalerweise tun würden.</bold> Es ist in Ordnung, während des Satzes, des Gedankens oder nur für ein Wort zu wechseln.
+code-switching-answer-dont-formal-writing = <bold>Sprechen Sie, als würden Sie förmlich schreiben.</bold> Vermeiden Sie förmliche, akademische Antworten. Bleiben Sie bei gewohnter Konversationssprache.
+code-switching-answer-dont-force-switch = <bold>Erzwingen Sie den Wechsel, wenn es nicht natürlich ist.</bold> Wechseln Sie nur, wenn Sie in dieser Situation natürlich sprechen würden.
+code-switching-answer-dont-translate-repeat = <bold>Übersetzen oder wiederholen Sie alles.</bold> Sagen Sie es nur einmal, so wie es in einem Gespräch sein würde. Sie müssen nicht in jeder Sprache eine Version der Antwort sagen.
+# Transcribing
+code-switching-transcribe-subheader = Transkription
+code-switching-transcribe-intro = Wenn Sie Antworten transkribieren, die Sprachwechsel enthalten, stellen Sie die Sprache des Sprechers so dar, wie sie gesprochen wurde – ohne zu korrigieren, zu bearbeiten oder zu vereinfachen. Dies gilt für alle Umschaltungen zwischen Sprachen, informeller Sprache und gemischtsprachigen Wörtern.
+code-switching-transcribe-do-1 = Spielen Sie kurze Segmente mehrmals ab, um subtile Wechsel zu erkennen
+code-switching-transcribe-do-2 = Machen Sie nach jedem Satz eine Pause, um auf Wechsel oder gemischte Wörter zu achten
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Sprache genau so aufzeichnen, wie sie gesprochen wird
+code-switching-capture-explanation = Beide Sprachen transkribieren, wie sie erscheinen / klingeln. „Reparieren“ Sie die Sprache nicht oder ändern Sie sie nicht auf nur eine Sprache.
+# Include filler words and markers
+code-switching-filler-header = Füllwörter und Markierungen einschließen
+code-switching-filler-explanation = Wörter wie „ähm“, „wie“, „pues“, „Sie wissen schon“ und „entonces“ sind sinnvoll. Beispiel: „Also, äh, ich habe ihr gesagt: 'Pues no sé, vielleicht später.'“
+# Use standard spelling for each language
+code-switching-spelling-header = Standardschreibweise für jede Sprache verwenden
+code-switching-spelling-explanation = Versuchen Sie, die Wörter für jede Sprache richtig zu buchstabieren, es sei denn, der Sprecher spricht sie eindeutig auf eine nicht standardisierte Art und Weise aus.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nicht aufräumen oder die Sprache vereinfachen
+code-switching-cleanup-1 = Übersetzen oder umschreiben Sie – schreiben Sie auf, was der Sprecher gesagt hat, nicht was er „gemeint“ hat.
+code-switching-cleanup-2 = „Korrekte“ Grammatik oder Aussprache – Behalten Sie den natürlichen Gebrauch des Sprechers bei.
+code-switching-cleanup-3 = Wechsel überspringen, die unwichtig oder klein erscheinen – selbst Lehnwörter sind wichtig.
+code-switching-cleanup-4 = Satzzeichen einfügen, die die Bedeutung ändern könnten – halten Sie den Fluss natürlich.
+code-switching-cleanup-5 = Annehmen, Sie kennen die Sprache jedes Wortes – wählen Sie das Schlagwort nutzungsbasiert aus.
+# Tagging
+code-switching-tagging-subheader = Schlagwörter
+code-switching-tagging-error-intro = Wenn die Transkription einen Fehler enthält, verwenden Sie bitte die Melde-Funktion, um diesen zu melden. Mögliche Fehler sind:
+code-switching-tagging-error-1 = Fehlerhafte Zeichensetzung oder Groß-/Kleinschreibung
+code-switching-tagging-error-2 = Tippfehler
+code-switching-tagging-error-3 = Wörter mit Rechtschreibfehlern
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Die Verwendung der korrekten Rechtschreibung für jede Sprache
+code-switching-orthography-explanation = Schreiben Sie jedes Wort gemäß der Schreibweise der Sprache, aus der es stammt. Zum Beispiel:
+code-switching-orthography-explanation-example-1 = Wenn das Wort „kitchen“ wie auf Spanisch ausgesprochen wird, sollte es wie auf Englisch geschrieben werden, nicht als „quichen“.
+code-switching-orthography-explanation-example-2 = Wenn das Wort quinceaños wie im Englischen ausgesprochen wird, schreiben Sie es mit dem ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Die Aussprache zur Ermittlung der Sprache verwenden
+code-switching-pronunciation-explanation = Einige Wörter können in beiden Sprachen gleich aussehen, aber unterschiedlich ausgesprochen werden.  Hören Sie sich die Aussprache an, um richtige Schlagwörter zu erhalten.  Zum Beispiel: Kabel, Taco, Schauspieler, Detektiv.
+code-switching-pronunciation-explanation-example-1 = Englisch: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spanisch: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Schlagwörter in einem einzigen Token
+code-switching-single-token-explanation = Ein einzelnes durch Leerzeichen getrenntes Token sollte mehr als einen Abschnitt mit Schlagwort enthalten.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Interpunktion basierend auf Sprache in der Nähe mit Schlagwörtern versehen
+code-switching-punctuation-tagging-explanation = Interpunktion mit der Sprache, die am nächsten zur linken Seite liegt mit Schlagwörtern versehen. Beispiele:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>und das einzige Mal, dass</purple> Maria <purple>mich anschrie, war</purple> <blue>porque</blue> <purple>sie wollte</purple> printear<blue>un</blue> <purple>Bestellung.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>aber</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>was auch immer</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Seien Sie vorsichtig mit ähnlich aussehenden Wörtern
+code-switching-lookalikes-explanation = Einige Wörter sehen aus wie eine Sprache, werden aber in der anderen verwendet. Schlagwörter basieren auf Bedeutung und Verwendung, nicht auf Aussehen. Beispiele:
+code-switching-lookalikes-explanation-example-1 = „Footing“ bedeuteten bisher Laufen auf Spanisch > Als Schlagwort wird Spanisch vergeben
+code-switching-lookalikes-explanation-example-2 = „No Problemo“ wird auf Englisch verwendet > Als Schlagwort wird Englisch vergeben
+# When Not to Tag Words
+code-switching-not-tag-header = Wann Wörter nicht mit Schlagwörtern versehen werden sollten
+code-switching-not-tag-explanation = Einige Wörter sollten <bold>keine Sprachbeschriftung als Schlagwort erhalten</bold>, auch wenn sie gemischt oder angepasst erscheinen. Hier einige Beispiele:
+code-switching-not-tag-proper-names = <bold>Eigennamen.</bold> Namen von Personen, Orten und Organisationen sollten nicht mit Schlagwörtern versehen werden. Beispiele:
+code-switching-not-tag-proper-names-example-1 = Personen: Maria, John
+code-switching-not-tag-proper-names-example-2 = Orte: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marken/Organisationen: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Gemischte oder strukturell angepasste Wörter.</bold> Wörter, die Sprachen vermischen oder die Endungen aus einer anderen Sprache haben, erhalten keine Schlagwörter. Beispiele:
+code-switching-not-tag-mixed-words-example = Eine Wurzel ist Englisch, die Endung ist Spanisch: „parkear“, „printearlo“
+code-switching-not-tag-interjections = <bold>Interjektionen.</bold> Interjektionen und Füllwörter sollten unabhängig von der Sprache <bold>ohne Schlagwort</bold> bleiben. Beispiele:
+code-switching-not-tag-interjections-example-1 = „Äh“
+code-switching-not-tag-interjections-example-2 = „Nein“
+code-switching-not-tag-interjections-example-3 = „Ja“
+code-switching-not-tag-interjections-example-4 = „Ähm“
+
+## Reporting Content
+
+reporting-content = Inhalte melden
+reporting-content-subheader = Allgemeine Hinweise
+reporting-content-explanation-1 = Sie müssen Inhalte melden, die anstößig, schädlich oder anderweitig besorgniserregend sind. Die Inhalte dürfen auch keine personenbezogenen Daten wie Telefonnummern oder Adressen enthalten. Sie werden aus Ihrer Umgebung entfernt, bis das Common-Voice-Team sie überprüft und weitere Untersuchungen vorgenommen hat.
+reporting-content-explanation-2 = Um Inhalte zu melden, klicken Sie auf die Schaltfläche „Melden“ und wählen Sie eine oder alle Optionen: Anstößiger Inhalt, andere Sprache, personenbezogene Daten, Sonstiges.  Geben Sie hier weitere Details dazu an, warum Sie den Inhalt im Textfeld melden.  Übermitteln Sie dann den Bericht, indem Sie auf die Schaltfläche „Melden“ klicken.

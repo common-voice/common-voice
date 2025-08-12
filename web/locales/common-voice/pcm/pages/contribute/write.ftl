@@ -89,12 +89,3 @@ file-invalid-type = Invalid fail
 file-too-large = Fail too laj
 file-too-small = Fail too smol
 too-many-files = Too meni fails
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

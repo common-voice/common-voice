@@ -7,9 +7,3 @@ listen-empty-state = Siphelelwe ziikliphu zokuqinisekisa kolu lwimi…
 listen-loading-error =
     Asikwazanga kufumana naziphi na iikliphu zeaudio ukuze umamele.
     Nceda uzame kwakhona mva.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

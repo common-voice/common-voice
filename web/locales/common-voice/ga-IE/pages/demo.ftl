@@ -20,6 +20,3 @@ demo-account-enter-email =
 
 demo-contribute-card-header = An bhfuil tú réidh chun do ghuth a chur leis nó éisteacht le giotaí?
 demo-listen-subtitle = An bhfuil tú réidh chun rannchuidiú leis?
-
-## Demo Dashboard
-

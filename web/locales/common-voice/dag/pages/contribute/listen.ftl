@@ -10,9 +10,3 @@ listen-loading-error = Ti bi tooi nya kukoya ni ti ti a ka a wum. Dim suɣulo, k
 listen-abort-title = A zahim kukoya maa n-naai?
 listen-abort-cancel = Tuɣimi zahimbu maa
 listen-abort-confirm = Naami zahimbu maa
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

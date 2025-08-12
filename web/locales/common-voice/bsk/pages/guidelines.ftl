@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = agar jumla yatum ite criteriate api ke no bu
 reviewing-sentences-explanation-3 = agar ma jumla bara ulo daal xaa baan ke it ke skip netan iciyatum itetar niin.
 reviewing-sentences-explanation-4 = jumlan hik ke bareyar phaṣ manimi ke, daa jumlan gaṭi etas gane miriin ce duunin
 domain-explanation = jumla besan mazmoon ate bila ke iteer domain sey baan. muu haraṅulum damśi etas maamay baan
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

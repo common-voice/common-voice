@@ -27,10 +27,10 @@ request-new-language = اے نیم جیِب نیِما
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = ہیِریِک سی جواب دا
 transcribe = آڈیو لیِگا
 check-transcriptions = آڈیو سی لیِگیل چیک کوا
-question = سوال
 
 ## Not Found Page
 
@@ -58,6 +58,3 @@ sdo = سیری بیداہاؤ
 snv = سعبان
 tr = ترکی
 xkl = کینیاہ
-
-## Language search component
-

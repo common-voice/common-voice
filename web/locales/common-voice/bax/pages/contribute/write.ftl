@@ -87,12 +87,3 @@ file-invalid-type = Pe má mbémi lé
 file-too-large = Lé gha' tutun
 file-too-small = Lé kùeshe tutun
 too-many-files = Lé yam tutun
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

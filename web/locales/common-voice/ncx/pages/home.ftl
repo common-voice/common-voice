@@ -103,9 +103,6 @@ partnerships-menu-item-aria-label = Xikmati ken uelis okachi tikpaleuis Tinochti
 press-and-stories-menu-item-aria-label = Xikita tlen oksekimej kijtoaj itech Tinochtin Titlajtoaj
 community-and-languages-menu-item-aria-label = Xikinmita tlajtolkopaj uan okseki tlen uelis tikajsis itech Tinochtin Titlajtoaj
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Teposmej non tlajtoskej ken te
@@ -125,6 +122,7 @@ spontaneous-card-header = Kualtsin xitlajto
 spontaneous-card-content = Xitlanankili ijkon ken mojmostla tikchiua kanin tichanti. Non sapanoa kinpaleuis akinmej amo okachi tlaixmaj.
 language-text-card-header = Seki xitlajkuilo
 language-text-card-content = Xikijkuilo tlen oksekimej kitlajtoltiskej, kinankiliskej, ika mopaleuiskej uan okseki tlamantli.
+coming-soon = Yikin yetos
 add-text = Xitlajkuilo
 
 ## Community section

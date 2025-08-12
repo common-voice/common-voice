@@ -145,9 +145,3 @@ small-batch-sentences-rule-3 =
 small-batch-sentences-rule-4 = Weiká napé 1.000 naósari
 small-batch-sentences-rule-5 = Yomá pu'ká orasióne waátiame témači inemetaá
 small-batch-sentences-rule-6 = Yomá orasióne iyánia iniwáemičo pirečí akaná iyánia i nenémia akaná tamó yorá
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

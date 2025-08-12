@@ -29,11 +29,14 @@ continue-with-skipped = Atladıklarınla devam et
 
 ## Navbar
 
-respond-to-prompt = Yanıtla
-transcribe = Metne Çevir
-check-transcriptions = Metinleri Denetle
 question = Soru
 validate = Doğrula
+respond-to-prompt = Yanıtla
+respond-to-prompt-mobile = Yanıtla
+transcribe = Metne Çevir
+check-transcriptions = Metinleri Denetle
+check-transcriptions-mobile = İncele
+tag = Etiketle
 
 ## Not Found Page
 

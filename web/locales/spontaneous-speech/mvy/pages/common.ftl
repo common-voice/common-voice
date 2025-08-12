@@ -27,10 +27,10 @@ request-new-language = نَیں ژیب لُکھہ
 
 ## Navbar
 
+question = سوال
 respond-to-prompt = مدتیاں جواب
 transcribe = بنژیل لِکہ (ژیب مرک کرہ)
 check-transcriptions = بنیل لِکیل بدلا
-question = سوال
 
 ## Not Found Page
 
@@ -58,6 +58,3 @@ sdo = سیریَیں بِدایُوہ
 snv = سَعبان
 tr = ترکی
 xkl = کینیا
-
-## Language search component
-

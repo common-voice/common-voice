@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = کے یأ ہامُوڑ نہ ہودُو تھ�
 reviewing-sentences-explanation-3 = کو تھو یے اے جملہ سی بارا می خاص معلوم نُو ہُوو تھلا ایس چھیدے مُوٹھایے بیا۔
 reviewing-sentences-explanation-4 = کو تھے کیش بھی بُو سی کیا جملا نی تھیو توُ مھید مُھن مدد کو دأل جملا سی دیئو سی کیا!
 domain-explanation = ڈومین ما جملہ سی آندرے کوئل بات مراد چھی۔ مھیرے تھو ہأ می کاربھادی:
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

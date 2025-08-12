@@ -6,8 +6,8 @@ skip = Tɔmb̈ɔ
 shortcuts = ɛmɔmɛ́ mɛtètɛ̀
 clips-with-count-pluralized =
     { $count ->
-        [one]  ɛsālɛ
-       *[other]  ɛsālɛ
+        [one] { " " }ɛsālɛ
+       *[other] { " " }ɛsālɛ
     }
 goal-help-recording = ɔwemèlɔ buɛnu , Common Voice  nà ka fana <goalPercentage></goalPercentage> ɔwayè missüki  { $goalValue } mɛ́pömɛ
 goal-help-validation = ɔwemèlɔ buɛnu , Common Voice  nà ka fana <goalPercentage></goalPercentage>  ɔwayè missükide  { $goalValue } ɔluminɛ

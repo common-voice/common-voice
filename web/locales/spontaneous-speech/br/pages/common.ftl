@@ -29,11 +29,13 @@ continue-with-skipped = Kenderc'hel gant ar re bet lezet a-gostez
 
 ## Navbar
 
-respond-to-prompt = Respont d'ar goulenn
-transcribe = Treuzskrivañ
-check-transcriptions = Gwiriañ treuzskrivadurioù
 question = Goulenn
 validate = Aprouiñ
+respond-to-prompt = Respont d'ar goulenn
+respond-to-prompt-mobile = Respont
+transcribe = Treuzskrivañ
+check-transcriptions = Gwiriañ treuzskrivadurioù
+check-transcriptions-mobile = Gwiriañ
 
 ## Not Found Page
 

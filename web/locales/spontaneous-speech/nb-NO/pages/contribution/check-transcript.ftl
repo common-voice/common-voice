@@ -12,7 +12,7 @@ transcript-edited-success = Transkripsjonen er redigert
 transcript-edited-error = Det oppstod en feil under redigering av transkripsjonen
 error-fetching-transcriptions = Noe gikk galt under henting av transkripsjoner. Prøv igjen senere.
 transcript-skipped-success = Transkripsjonen ble hoppet over
-transcript-skipped-error = Det oppstod en feil når du hoppen over transkripsjonen
+transcript-skipped-error = Det oppstod en feil når du hoppet over transkripsjonen
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = Korrekt
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription

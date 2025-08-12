@@ -82,36 +82,3 @@ help-contribute = आप कॉमन वॉयस प्रोफाइल ब�
 login-company = { $company } ईमेल के साथ लॉग इन/साइन अप करें
 profile-not-required = एक प्रोफाइल होने के लिए योगदान करने की आवश्यकता नहीं है, हालांकि यह उपयोगी है, नीचे देखें।
 read-more-about = हमारे परिचय पृष्ठ पर और पढ़ें
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

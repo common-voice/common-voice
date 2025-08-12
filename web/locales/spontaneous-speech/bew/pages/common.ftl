@@ -51,6 +51,3 @@ sdo = Seri Bidayuh
 snv = Sa'ban
 tr = Turkish
 xkl = Kenyah
-
-## Language search component
-

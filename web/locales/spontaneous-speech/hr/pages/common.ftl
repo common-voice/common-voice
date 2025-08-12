@@ -29,10 +29,10 @@ continue-with-skipped = Nastavi s preskočenima
 
 ## Navbar
 
+question = Pitanje
 respond-to-prompt = Odgovori
 transcribe = Transkribiraj
 check-transcriptions = Pregledaj
-question = Pitanje
 
 ## Not Found Page
 

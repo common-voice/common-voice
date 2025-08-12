@@ -52,6 +52,3 @@ sdo = سیریان بدایوہ
 snv = سعبان .
 tr = ترک زبان
 xkl = کینیا
-
-## Language search component
-

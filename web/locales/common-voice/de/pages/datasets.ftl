@@ -95,6 +95,9 @@ release-version = Version
 dataset-date = Datum
 license = Lizenz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Gemischt
+# Support old genders in older datasets
+male = Männlich
+female = Weiblich
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Laden Sie unsere Sprachdatensätze herunter
 # MENU ITEM ARIA LABELS

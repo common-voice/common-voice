@@ -167,9 +167,3 @@ small-batch-sentences-rule-3 = Diberthewgh lavarow yn unn linen dre waska orth "
 small-batch-sentences-rule-4 = Keworrewgh bys dhe 1,000 lavar
 small-batch-sentences-rule-5 = Res yw dhe bub lavar bos y’n keth arlotteth
 small-batch-sentences-rule-6 = Res yw dhe bub kavos an an keth devyn
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

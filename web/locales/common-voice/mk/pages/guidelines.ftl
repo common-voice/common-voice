@@ -45,9 +45,3 @@ adding-sentences-subheader-numbers = Броеви
 adding-sentences-subheader-abbreviations = Кратенки и акроними
 adding-sentences-subheader-punctuation = Интерпункциски знаци
 adding-sentences-subheader-offensive-content = Навредлива содржина
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

@@ -1,6 +1,3 @@
-## DemoLayout
-
-
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice — делегейде хөй дылдыг үн медээлериниң эң улуг чыындызы-дыр.
@@ -10,9 +7,6 @@ demo-language-select-card-header = Common Voice — делегейде хөй д
 demo-account-card-header = Киржирде, аккаунт ажыктыг-даа болза, ооң херектии албан эвес
 demo-account-enter-email =
     .label = Бүрүткел айтылгазын чорударда, электроннуг почтаңар адрезин киириптиңер
-
-## Demo Contribute
-
 
 ## Demo Dashboard
 

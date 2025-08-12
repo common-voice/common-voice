@@ -8,15 +8,3 @@ contact-us = Ubi chedobëd onqueta
 healthcare = Nënenquio
 # Sentence Domain dropdown option
 nature_environment = Nidaidën icquidted nimëducquitedi
-
-## BULK SUBMISSION
-
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

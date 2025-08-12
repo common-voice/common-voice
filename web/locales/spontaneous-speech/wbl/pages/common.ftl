@@ -51,6 +51,3 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Tũrki
 xkl = Kenyoyi
-
-## Language search component
-

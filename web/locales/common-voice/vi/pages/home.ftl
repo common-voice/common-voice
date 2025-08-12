@@ -95,9 +95,6 @@ about-us-menu-item-aria-label = Menu tùy chọn Giới thiệu về chúng tôi
 press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice
 community-and-languages-menu-item-aria-label = Khám phá cộng đồng và ngôn ngữ được hỗ trợ bởi Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Công nghệ nói ngôn ngữ của bạn
@@ -114,6 +111,7 @@ scripted-card-content = Đọc to các câu bằng ngôn ngữ của bạn và �
 spontaneous-card-content = Trả lời lời nhắc để tạo tập dữ liệu cho ngữ cảnh giao tiếp, tự nhiên. Hoàn hảo cho ngôn ngữ nói đầu tiên (oral-first languages).
 language-text-card-header = Ngôn ngữ văn bản
 language-text-card-content = Tạo hoặc chia sẻ lời nhắc, câu và văn bản thuộc phạm vi công cộng để dịch, mô hình ngôn ngữ nhỏ, và nhiều thứ khác.
+coming-soon = Sắp ra mắt
 add-text = Thêm văn bản
 
 ## Community section

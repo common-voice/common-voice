@@ -32,9 +32,3 @@ adding-sentences-subheader-length = Кӏыхьагъ
 adding-sentences-subheader-spelling-punctuation-explanation = Псалъэухар тэмэму тхын хуейщ.
 adding-sentences-subheader-numbers = Бжыгъэхэр
 adding-sentences-subheader-punctuation = Нагъыщэ гъэувыкӏэ
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

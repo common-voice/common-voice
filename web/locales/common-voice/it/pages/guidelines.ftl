@@ -4,6 +4,8 @@ guidelines-header-subtitle = Scopri come collaborare e convalidare frasi e regis
 voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
+spontaneous-speech = Discorso spontaneo
+dont-subheader = Non
 
 ## Voice Collection nav ids
 
@@ -136,3 +138,55 @@ offensive-content-sensitive-information-explanation-explanation-3 = Domande che 
 example-questions-subheader = Esempi di domande
 example-questions-explanation-1 = Puoi trovare <examplePromptsLink>120 esempi di domande in questa pagina.</examplePromptsLink>
 example-questions-explanation-2 = Se desideri inviare una serie di domande per l’importazione, <githubLink>puoi farlo tramite GitHub</githubLink> oppure mandare la lista via email a <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+answer-questions-subheader = Guida generale
+answer-questions-tip-1 = Registra in un luogo sufficientemente tranquillo
+answer-questions-tip-2 = Scegli un luogo con una buona connessione a Internet
+answer-questions-tip-4 = Evita discorsi che incitano all’odio, provocatori o comunque offensivi
+answer-questions-tip-6 = Mantieni un volume della voce costante: non urlare o cantare
+# Transcribe the Audio
+transcribe-the-audio = Trascrivi l’audio
+transcribe-the-audio-subheader-1 = Guida generale
+transcribe-the-audio-subheader-2 = Numeri e acronimi
+transcribe-the-audio-subheader-3 = Etichette speciali
+transcribe-the-audio-subheader-4 = Segmenti di parole, false partenze, parole ripetute
+transcribe-the-audio-subheader-1-explanation-example-1 = Annotare le disfluenze, comprese le esitazioni e le ripetizioni
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Corretto</correct>: dista cento chilometri da qui
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Sbagliato</wrong>: dista 100 chilometri da qui
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Corretto</correct>: ci vediamo nel <underline>duemilaquindici</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Sbagliato</wrong>: ci vediamo nel <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Corretto</correct>: c’era uno sconto del venti per cento
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Sbagliato</wrong>: c’era uno sconto del 20%.
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Corretto</correct>: sono stati arrestati giovedì scorso dall’<underline>FBI</underline>
+tags-table-header-1 = Etichetta
+tags-table-header-2 = Significato
+tags-laugh = Risata
+tags-disfluency = Disfluenza
+tags-unclear = Non chiaro
+tags-noise = Rumore
+tags-laugh-explanation = Il suono di una risata.
+tags-unclear-explanation = Una parola o una sequenza di parole incomprensibili.
+
+## Review the Transcription
+
+review-the-transcription-subheader = Guida generale
+review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. È possibile apportare modifiche e inviarle.
+
+## Code-Switching
+
+# Adding a Question
+code-switching-adding-question-subheader = Quali sono i requisiti per una buona domanda?
+code-switching-adding-question-explanation = Una buona domanda per i dataset di partecipazione pubblica dovrebbe:
+code-switching-adding-question-criteria-1 = Essere sia facile da capire che facile a cui rispondere
+code-switching-adding-question-criteria-2 = Essere generalmente appropriata
+code-switching-adding-question-criteria-3 = Non contenere o incoraggiare l’uso di linguaggio offensivo o oltraggioso
+code-switching-adding-question-note = Considera anche l’inclusione di contesti e domini diversi.
+# What types of questions to add
+code-switching-types-subheader = Che tipo di domande aggiungere?
+code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui entrambe le lingue sono comunemente utilizzate (ad es. a casa, a scuola, durante eventi della comunità). Esempio:

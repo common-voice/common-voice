@@ -29,11 +29,11 @@ continue-with-skipped = ڇوڙوڙي سُون جاري راکا
 
 ## Navbar
 
+question = سوال
+validate = تصدِيق ڪرا
 respond-to-prompt = جواب
 transcribe = نقل ڪرا
 check-transcriptions = نظرثانِي
-question = سوال
-validate = تصدِيق ڪرا
 
 ## Not Found Page
 

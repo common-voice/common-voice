@@ -7,7 +7,7 @@ listen-last-time-instruction = <playIcon></playIcon> E letschtes Mol!
 listen-empty-state = Dàto gìbt’s kenn Ùffnàhme meh — aktüalisiere d’Sitt odder pràwiere’s später noch emol.
 listen-empty-state-variants = Fer Éieri Sprochvàriànt sìn wohrschins kenn Ùffnàhme meh ìwwerisch! Wenn’s fer Éich geht, kenne-n’r d’Instellùnge andere, fer ànderi Satz ìn Éiere Sproch ze sahn
 listen-loading-error =
-     M’r hàn kenn Ùffnàhme fer Éich meh gfùnde zem Horiche/Loose. ¶
+    { " " }M’r hàn kenn Ùffnàhme fer Éich meh gfùnde zem Horiche/Loose. ¶
     Pràwiere’s später noch emol, wenn’s beliebt.
 listen-abort-title = Mìt’m Noochlüeje vùn Ùffnàhme ùffheere?
 listen-abort-cancel = Mìt’m Noochlüeje witterschtmàche

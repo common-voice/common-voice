@@ -150,6 +150,3 @@ about-playbook-how-project-governance-content-4 = Ho kenya letsoho ha setjhaba l
 about-playbook-how-project-governance-content-5 = Boleng le temoho.
 about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala haholwanyane ka moo re buswang ka teng</governanceLink>
-
-## How is Common Voice funded
-

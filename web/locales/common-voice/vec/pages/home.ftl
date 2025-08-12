@@ -69,36 +69,3 @@ help-contribute = Crea on profilo Common Voice e dona la to vose par jutarne a c
 login-company = Asedi / Registrate co ƚ’email de { $company }
 profile-not-required = Registrare on profilo no xe obligatorio par coƚaborare, ma incorajà
 read-more-about = Scopri de pì so ƚa pàgina Informasion
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

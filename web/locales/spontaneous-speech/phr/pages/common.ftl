@@ -22,10 +22,10 @@ continue-with-skipped = چھوڑے نے کنے جاری رکھا
 
 ## Navbar
 
+question = سوال پُچھا
 respond-to-prompt = جواب دیا
 transcribe = نقل کرا
 check-transcriptions = جائزہ ہِنو
-question = سوال پُچھا
 
 ## Not Found Page
 

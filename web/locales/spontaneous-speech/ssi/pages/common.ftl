@@ -27,10 +27,10 @@ request-new-language = نویں بھاشا کی ٻِنتی کر
 
 ## Navbar
 
+question = سُئال
 respond-to-prompt = جباب
 transcribe = نکݪ کر
 check-transcriptions = جانٚچ
-question = سُئال
 
 ## Not Found Page
 

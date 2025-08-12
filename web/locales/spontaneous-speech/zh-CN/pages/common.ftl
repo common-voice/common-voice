@@ -29,11 +29,11 @@ continue-with-skipped = 回顾跳过的项目
 
 ## Navbar
 
+question = 问题
+validate = 验证
 respond-to-prompt = 回答引导语
 transcribe = 转录
 check-transcriptions = 检查转录文本
-question = 问题
-validate = 验证
 
 ## Not Found Page
 

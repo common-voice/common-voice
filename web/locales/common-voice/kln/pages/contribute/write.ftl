@@ -71,12 +71,3 @@ file-invalid-type = masikchi failit ni
 file-too-large = Oo misiing filit
 file-too-small = mining filit mising
 too-many-files = chang filinik chu mising'
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

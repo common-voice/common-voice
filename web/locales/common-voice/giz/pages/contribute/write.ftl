@@ -128,8 +128,8 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one]  1 ɓi mi jumo ar
-       *[other]  ɓehey mi jumohoy ar { $totalSentences }
+        [one] { " " }1 ɓi mi jumo ar
+       *[other] { " " }ɓehey mi jumohoy ar { $totalSentences }
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =

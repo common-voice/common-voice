@@ -101,9 +101,6 @@ partnerships-menu-item-aria-label = کامن وائسو سوم شراکت دار
 press-and-stories-menu-item-aria-label = کامن وائسو بارا خبران وا مضمونان ژاغا بوغے
 community-and-languages-menu-item-aria-label = کامن وائس کیا کمیونیٹیو وا واران  سوم کی مدد کویان تیتان پتہ کو
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٹیکنالوجی کی ہسے تہ وارو کویان
@@ -123,6 +120,7 @@ spontaneous-card-header = جاری لو
 spontaneous-card-content = قدرتی، بولچال دیٹا سیٹ ساوزیکو پچین اشاران جواب دیت۔ اولو زبانی وارو پچین بلک صحیح
 language-text-card-header = وارو نیویشیرو
 language-text-card-content = عام رویان دائرو اشارہ،  جملہ یا ترجمہ کوریکو پچین نیویشیرو، چیق وارو ماڈل یا خور کیاغ ساوزاوے یا بوژے
+coming-soon = شاؤ گویان
 add-text = نیویشیرو شامل کو
 
 ## Community section

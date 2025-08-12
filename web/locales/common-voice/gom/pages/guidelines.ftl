@@ -27,9 +27,6 @@ reader-effects-explanation = Most recordings are of people talking in their natu
 just-unsure-explanation = Zor tuka ek vakya mello zo heo "guidelines"-an spoxtt korunk na, zalyar tumi nirnnoi gheyat "voting" kite divpache te. Tuka nirnnoi ghevpak korench zaina zalyar, 'sodd' button click kor ani dusrem recording-acher voch.
 still-have-questions = Anik dubav asa?
 
-## Sentence collection nav ids
-
-
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-offline-sources = Offline Sources
@@ -39,9 +36,3 @@ self-citation = Aple Citation
 adding-sentences-subheader-length = Lambe
 adding-sentences-subheader-speakable = Uloipa sarke
 adding-sentences-subheader-numbers = Nombor (Numbers)
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

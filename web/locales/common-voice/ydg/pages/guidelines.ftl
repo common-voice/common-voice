@@ -68,9 +68,6 @@ adding-sentences-subheader-speakable = اݰٹان قابل
 adding-sentences-subheader-numbers = نمبرے
 adding-sentences-subheader-abbreviations = کوګ نوختیغو
 
-## Question collection ids
-
-
 ## Question collection sidebar content
 
 example-questions-subheader = مثالن سوالاتے

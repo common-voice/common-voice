@@ -102,9 +102,6 @@ partnerships-menu-item-aria-label = ა̈ხმეჴერ  Common Voice-ცა
 press-and-stories-menu-item-aria-label = Common Voice-ცახა̈ნ დაკაუ̂შირებულ პრესრელიზა̈რთე ი ისტორია̄̈ლთე წუ̂დომა
 community-and-languages-menu-item-aria-label = ჟა̈ხითუ̂რ Common Voice მხარდამჭერ საზოგადოება̄̈ლ ი ნინა̈რ
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ტექნოლოგია̄̈ლ, ხედუ̂ა̄̈ჲ გა̈რგლიხ ისგუ̂ა ნინჟი
@@ -124,6 +121,7 @@ spontaneous-card-header = სპონტანურ გა̈რგლა
 spontaneous-card-content = ქალოხპასუ̂იხუ̂ მოთხოუ̂ნა̄̈ლს, ერე ახსყა ორგანულ ლაგჷრგა̈ლ მონაცემრე ნაკრებ. იდეალურ ლი ზეპირ ლაგჷრგა̈ლდ უცხო ნინჟი.
 language-text-card-header = ტექსტი ნინ
 language-text-card-content = ახა̈სყ ჰედ გააზიარე საჯაროდ ხელმისაწვდომ მინიშნება̄̈ლ, წინადადება̄̈ლ ი ტექსტა̈რ თარგმანიშდ, ხოხუ̂რა-ხოხუ̂რა ნინრე მოდელა̈რ ი იშგენ.
+coming-soon = დო̄სგ
 add-text = ტექსტი ლიქმე
 
 ## Community section

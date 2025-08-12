@@ -28,9 +28,3 @@ citation =
     .label = Цитата
 adding-sentences-subheader-spelling-punctuation-explanation = Гәп дурыс жазылған болыўы керек.
 adding-sentences-subheader-numbers = Санлар
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

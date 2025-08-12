@@ -4,9 +4,3 @@ listen-again-instruction = Hasil yang hebat! <playIcon></playIcon> Dengarkan kem
 listen-3rd-time-instruction = sudah 2 <playIcon></playIcon> , lanjut terus!
 listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
 listen-empty-state = Kami kehabisan klip untuk memvalidasi dalam bahasa ini ...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

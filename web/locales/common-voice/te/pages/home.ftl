@@ -66,36 +66,3 @@ welcome-staff = { $company } సిబ్బందికి స్వాగత�
 login-company = { $company } ఇమెయిల్‌తో లాగిన్ / సైన్ అప్ చేయండి
 profile-not-required = తోడ్పడటానికి ప్రొఫైలు కలివుండటం తప్పనిసరి కాదు కానీ అది ఉపయోగపడుతుంది, ఎందుకో కింద చూడండి.
 read-more-about = మా గురించి పేజీలో మరింత చదవండి
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

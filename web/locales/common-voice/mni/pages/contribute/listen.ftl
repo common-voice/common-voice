@@ -7,9 +7,3 @@ listen-empty-state = ꯑꯩꯈꯣꯏꯅꯥ ꯀ꯭ꯂꯤꯞꯁꯤꯡ ꯂꯣꯏꯁ
 listen-loading-error =
     ꯑꯩꯈꯣꯏꯅꯥ ꯑꯗꯣꯃꯒꯤꯗꯃꯛ ꯑꯣꯗꯤꯑꯣ ꯀ꯭ꯂꯤꯞ ꯑꯃꯍꯑꯛꯇ ꯐꯪꯍꯟꯕꯥ ꯉꯝꯈꯤꯗꯦ꯫
     ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯇꯨꯡꯗꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯠꯅꯕꯤꯌꯨ ꯫
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

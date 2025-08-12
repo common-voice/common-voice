@@ -14,9 +14,6 @@ submit-button = جمع کرواؤ
 contribute = حصہ پاؤ
 request-new-language = نویں زبان دی ارداس کرو
 
-## Navbar
-
-
 ## Not Found Page
 
 not-found-page-header = کائنی لبھیا
@@ -38,6 +35,3 @@ pez = مشرقی پینان
 pne = مغربی پینن
 tr = ترکی
 xkl = کینیاہ
-
-## Language search component
-

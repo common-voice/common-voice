@@ -70,36 +70,3 @@ help-contribute = Вы можете помочь в создании разно�
 login-company = Čirja süäme / Čirjoittassa pruukkimizi { $company } poštika
 profile-not-required = Наличие профиля не обязательно для участия, хотя это полезно
 read-more-about = Узнайте больше на нашей странице «Meiss»
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

@@ -103,9 +103,3 @@ reviewing-sentences-explanation-2 = جملہ کی سورا شرطو پورا ن�
 reviewing-sentences-explanation-3 = اگر جملو بارا تہ یقین کی نیکی، تو ہرو پیڅی پروشٹی بیکو بوس۔
 reviewing-sentences-explanation-4 = تہ سوم جملہ والوڑیکو بچین ختم کی ہونی، اسپہ سوم خور جملہ بڑاڅیکا مدد کو
 domain-explanation = دائرہ جملو موضوع حوالہ دویان۔ ہنیسے تو ہمیتان موژار ای غو گنیکو بوس:
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

@@ -87,12 +87,3 @@ file-invalid-type = Ebɔngɔnedɛ́ tɛ́h yé ehitiwɛ hongomanɛngo
 file-too-large = Ebɔngɔnedɛ́ tɛ́h yé éndi na pivi bohito
 file-too-small = Ebɔngɔnedɛ́ tɛ́h yé epɛveleyindi
 too-many-files = Bebɔngɔnedɛ́ béndini bohito.
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

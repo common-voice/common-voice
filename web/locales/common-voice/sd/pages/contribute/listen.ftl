@@ -10,9 +10,3 @@ listen-loading-error =
 listen-abort-title = ڪلپس جي تصديق ختم ڪريو؟
 listen-abort-cancel = تصديق ڪرڻ جاري رکو
 listen-abort-confirm = تصديق ڪرڻ ختم ڪريو
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

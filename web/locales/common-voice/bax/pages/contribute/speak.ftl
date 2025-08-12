@@ -57,9 +57,3 @@ already-have-an-account = Pu te ngét yun lí' luem yúm me ? <login> Ràre nu
 create-profile-button = Pú' nún mbén kuo'
 # IMAGE TAGS
 img-alt-success-checkmark = Li' yi ndét mi u ya' kpa'ne
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

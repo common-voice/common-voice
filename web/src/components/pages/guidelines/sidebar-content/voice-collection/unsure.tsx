@@ -1,10 +1,10 @@
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
-import * as React from 'react';
+import { Localized } from '@fluent/react'
+import classNames from 'classnames'
+import * as React from 'react'
 
-import { ChevronDown } from '../../../../ui/icons';
-import { TextButton } from '../../../../ui/ui';
-import { SidebarContentProps } from '../../types';
+import { ChevronDown } from '../../../../ui/icons'
+import { TextButton } from '../../../../ui/ui'
+import { SidebarContentProps } from '../../types'
 
 export const Unsure: React.FC<SidebarContentProps> = ({
   id,
@@ -12,7 +12,7 @@ export const Unsure: React.FC<SidebarContentProps> = ({
   toggleVisibleSection,
   isMobileWidth,
 }) => (
-  <div className="sidebar-content no-border" id={id}>
+  <div className="sidebar-content" id={id}>
     <span className="line" />
     <div className="sidebar-content-header">
       <Localized id="just-unsure">
@@ -34,4 +34,4 @@ export const Unsure: React.FC<SidebarContentProps> = ({
       </div>
     )}
   </div>
-);
+)

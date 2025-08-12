@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = ŋwà'ànə̂
-write-instruction = kù'ùsə̂ <icon></icon>ànnǔ ala'à 
+write-instruction = kù'ùsə̂ <icon></icon>ànnǔ ala'à{ " " }
 write-page-subtitle = ɨ̀nnù jìi mə bɨ fi'isə faà aa bɨ̀ ka kù'ùsə̀ a nɨ̂ ɨ̀nnǔ ala'a jìi mɨ ɨ ɨɛ'ɛntswe aà cc-0
 sentence =
     .label = ànnù yî swòŋə̀
@@ -16,7 +16,7 @@ new-sentence-rule-3 = fà'à nɨ bɨ̀ nɨ̀ŋsə̀ bî sɨ̀gɨ̀nə̀ abŋw
 new-sentence-rule-4 = fà'à nɨ mi'i mɨ aŋwà'ànə̀ mî tsinə̀bbo bɨ̀ bɨ̀nɔ̀ŋsə̀ bɨ ŋwà'ànə nɨ̀ghàà bî tsinə̀
 new-sentence-rule-5 = bɨ̀ tsuu bɨ̂nomba a nɨ mânjì yî ǹtsyànə ŋwà'ànə̀
 new-sentence-rule-6 = kaa bɨ sɨ mi'i aŋwà'ànə mɨ ɨtoo daŋ lɔɔ
-new-sentence-rule-7 = kù'ùsə ɨnnù jîbswòŋ jî sɨ̀gɨ̀nə̀ 
+new-sentence-rule-7 = kù'ùsə ɨnnù jîbswòŋ jî sɨ̀gɨ̀nə̀{ " " }
 new-sentence-rule-8 = tâ bɨ̀ zì a ŋwàŋsə (ntwoŋ ɨnnù jyâ)
 how-to-cite = mbə mə̀vnaŋsə̀ ǹzi adɨgə mə akə?
 how-to-cite-explanation-bold = zi nyòŋə URL link kə̀ ɨ̀kǔm afà'à
@@ -55,7 +55,7 @@ nature_environment = ŋwa'ànə̀vgha'a si'i
 news_current_affairs = jìi mə bɨ biintə
 # Sentence Domain dropdown option
 technology_robotics = nsɨgə nlwi'isə a mûm ayoo ntŋ
-sentence-variant-select-label = mɨyà mə òŋkù'ùsə mfa gha'à 
+sentence-variant-select-label = mɨyà mə òŋkù'ùsə mfa gha'à{ " " }
 sentence-variant-select-placeholder = mbòònsə njì jya twoŋ ɨnnù a njweeŋjwèba
 sentence-variant-select-multiple-variants = ɨŋ ɨŋwà'ànə̀ a ŋkù'u/ jyaɨ gha'a
 
@@ -87,12 +87,3 @@ file-invalid-type = kaa àyoo nɨŋ ŋwà'anə jyasɨ̀nku'ùnə̀
 file-too-large = àyoo nɨ ŋwà'ànə ya a gha'a si'i
 file-too-small = à yoo nɨ ŋwà'ànə ya a kə'ə sɨ'ɨ́
 too-many-files = njoo nɨ ŋwa'ànə̀vgha'a si'i
-
-## SMALL BATCH SUBMISSION
-
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

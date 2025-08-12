@@ -19,12 +19,6 @@ x-weeks-short =
 
 benefits = فائدے
 
-## What's public
-
-
-## Landing
-
-
 ## NAV ITEMS
 
 answer-questions = سوالاں نے جواب دیا
@@ -35,18 +29,6 @@ transcribe-audio = آڈیو کی لِخا
 about-us = اساں نے بارے وچ
 scripted-speech = لِخی نی تقریر
 spontaneous-speech = زبانی تقریر
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
 
 ## Action items section
 
@@ -59,18 +41,9 @@ answer = جواب دیا
 # label for button
 download-contribution-certificate-action = اپنا سرٹیفیکیٹ ہِنو
 
-## Featured section
-
-
-## Developers section
-
-
 ## Get involved section
 
 read-sentences-link = جملے پڑھا
 answer-questions-link = سوالاں نے جواب دیا
 transcribe-answers-link = جواباں کی لِخا
 review-transcriptions-link = تحریر ناں جائزہ ہِنو
-
-## Partner section
-

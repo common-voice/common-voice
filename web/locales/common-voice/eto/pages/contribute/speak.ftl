@@ -57,9 +57,3 @@ already-have-an-account = də o gbɛlə iyəm?<login> nyiini </login>
 create-profile-button = atye iyəm
 # IMAGE TAGS
 img-alt-success-checkmark = ban məjəbələ
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

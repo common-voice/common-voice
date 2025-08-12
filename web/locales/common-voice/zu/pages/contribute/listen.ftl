@@ -7,9 +7,3 @@ listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
     Sicela uzame futhi emuva kwesikhathi.
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

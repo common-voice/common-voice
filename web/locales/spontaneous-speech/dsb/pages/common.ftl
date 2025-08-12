@@ -29,11 +29,11 @@ continue-with-skipped = Z Pśeskócony pókšacowaś
 
 ## Navbar
 
+question = Pšašanje
+validate = Pśeglědowaś
 respond-to-prompt = Na naspominanje wótegroniś
 transcribe = Transkriběrowaś
 check-transcriptions = Transkripcije pśeglědowaś
-question = Pšašanje
-validate = Pśeglědowaś
 
 ## Not Found Page
 

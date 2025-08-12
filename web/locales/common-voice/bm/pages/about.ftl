@@ -125,15 +125,3 @@ about-playbook-how-grow-language-content-5 = I bɛ se ka baara kɛ ni sosiyete k
 about-playbook-how-grow-language-content-6 = Jɛɲɔgɔnya ni ɲɔgɔndɛmɛ
 about-playbook-how-grow-language-content-7 = Mɔgɔ wɛrɛw ɲini minnu b’u janto u la. O bɛ se ka kɛ inivɛrisitew ye, kanko kalansow, lafasalitɔnw walima kunnafoniko jɛkuluw. I bolo da a kan k’a ɲɛfɔ ka jɛya u bɛ se ka dɛmɛ cogo min na ani mun na. <outreachTemplates>An ka jatebɔsɛbɛnw lasecogo batakiw lajɛ</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>I ka daɲɛw labɛn !</strong> i ka kanko jɛkulu bɛna kɛ fɛn ye min ɲɔgɔn tɛ , wa ninnu ye daminɛcogo damadɔ dɔrɔn de ye .
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-

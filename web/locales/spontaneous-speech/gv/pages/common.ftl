@@ -34,6 +34,3 @@ accept-privacy-and-terms = Ta mee cordail rish <termsLink>Conaantyn</termsLink> 
 en = Baarle
 fr = Frangish
 tr = Turkish
-
-## Language search component
-

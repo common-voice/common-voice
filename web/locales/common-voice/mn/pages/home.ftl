@@ -70,36 +70,3 @@ help-contribute = Та Common Voice дээр профайл үүсгэх, дуу
 login-company = { $company } имэйлээр нэвтрэх / бүртгүүлэх
 profile-not-required = Хувийн эрхтэй байх шаардлагагүй ч хэрэг болж мэднэ
 read-more-about = Дэлгэрэнгүй мэдээллийг манай About хуудаснаас авна уу
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

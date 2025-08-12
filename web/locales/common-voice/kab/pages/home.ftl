@@ -82,15 +82,6 @@ press-and-stories = Taɣamsa akked yimagraden
 community-and-languages = Timɣiwnin akked tutlayin
 about-us = Fell-aɣ
 
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Takinuljit yettmeslayen tutlayt-nwen·nkent
@@ -111,12 +102,6 @@ find-us-on-matrix-action = Af-aɣ-d deg Matrix
 contribute-github = Ttekki di Github
 # label for button
 contribute-github-action = Ttekki di Github
-
-## Featured section
-
-
-## Developers section
-
 
 ## Get involved section
 

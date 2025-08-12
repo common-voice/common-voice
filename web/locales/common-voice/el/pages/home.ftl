@@ -104,9 +104,6 @@ partnerships-menu-item-aria-label = Μάθετε για τις συνεργασ�
 press-and-stories-menu-item-aria-label = Αποκτήστε πρόσβαση σε δελτία τύπου και άρθρα σχετικά με το Common Voice
 community-and-languages-menu-item-aria-label = Εξερευνήστε την κοινότητα και τις γλώσσες που υποστηρίζει το Common Voice
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = Τεχνολογία που μιλά τη γλώσσα σας
@@ -126,6 +123,7 @@ spontaneous-card-header = Αυθόρμητη ομιλία
 spontaneous-card-content = Απαντήστε σε μηνύματα προτροπής για τη δημιουργία συνόλων δεδομένων για πλαίσια οργανικού λόγου στην καθομιλουμένη. Ιδανικό για γλώσσες με κυρίως προφορικό λόγο.
 language-text-card-header = Κείμενο γλώσσας
 language-text-card-content = Δημιουργήστε ή μοιραστείτε μηνύματα δημόσιου τομέα, προτάσεις και κείμενο για μετάφραση, μικρά γλωσσικά μοντέλα και πολλά άλλα.
+coming-soon = Προσεχώς
 add-text = Προσθήκη κειμένου
 answer = Απάντηση
 

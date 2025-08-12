@@ -128,6 +128,3 @@ about-playbook-how-project-governance-content-4 = Participacion comunitària e p
 about-playbook-how-project-governance-content-5 = Valor e reconeishença.
 about-playbook-how-project-governance-content-6 = Responsabilitat mutuau.
 about-playbook-how-project-governance-content-7 = <governanceLink>Liegetz mès sus com mos governam</governanceLink>
-
-## How is Common Voice funded
-

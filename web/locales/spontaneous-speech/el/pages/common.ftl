@@ -29,11 +29,14 @@ continue-with-skipped = Συνέχεια με παραλειφθέντα
 
 ## Navbar
 
-respond-to-prompt = Απάντηση σε προτροπή
-transcribe = Μεταγραφή
-check-transcriptions = Έλεγχος μεταγραφών
 question = Ερώτηση
 validate = Επικύρωση
+respond-to-prompt = Απάντηση σε προτροπή
+respond-to-prompt-mobile = Απάντηση
+transcribe = Μεταγραφή
+check-transcriptions = Έλεγχος μεταγραφών
+check-transcriptions-mobile = Έλεγχος
+tag = Ετικέτα
 
 ## Not Found Page
 

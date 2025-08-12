@@ -29,11 +29,14 @@ continue-with-skipped = Fortsett med hoppet over
 
 ## Navbar
 
-respond-to-prompt = Svar på spørsmål
-transcribe = Transkribere
-check-transcriptions = Sjekk transkripsjoner
 question = Spørsmål
 validate = Valider
+respond-to-prompt = Svar på spørsmål
+respond-to-prompt-mobile = Svar
+transcribe = Transkribere
+check-transcriptions = Sjekk transkripsjoner
+check-transcriptions-mobile = Gjennomgang
+tag = Etikett
 
 ## Not Found Page
 

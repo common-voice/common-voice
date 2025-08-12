@@ -4,9 +4,3 @@ listen-again-instruction = Buna lavur!<playIcon></playIcon>Taidla amo üna jada 
 listen-3rd-time-instruction = 2 finidas, be dai! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>L'ultima!
 listen-empty-state = Nus nu vain plü frasas per laschar validar in quista lingua...
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

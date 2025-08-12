@@ -4,9 +4,3 @@ listen-again-instruction = Šaunu!<playIcon></playIcon> Kai galėsi, klausyk vė
 listen-3rd-time-instruction = Du įrašai išklausyti, taip ir toliau!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Paskutinis!
 listen-empty-state = Nebeliko šios kalbos įrašų, kuriuos reikėtų patvirtinti…
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

@@ -72,36 +72,3 @@ help-contribute = O ka thuša go aga di dathasete tše di fapanego tša mothopo 
 login-company = Tsena/Hloma akhaonte ya mošomiši ka { $company } e-meile
 profile-not-required = Ga go hlokagale gore o be le profaele le ge e thuša, bona lebaka leo ka lona ka fase.
 read-more-about = Bala ka mo go oketšegilego letlakaleng la wepesaete ka rena.
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

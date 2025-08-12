@@ -7,6 +7,3 @@ delete = مٹاؤ
 submitted = جمع تھئے ہوئے
 # For the button on the Respond to prompts page which can be used to submit all responses at once
 submit-all-button = تمام جمع کراؤ
-
-## Explainer text (Respond to Prompt)
-

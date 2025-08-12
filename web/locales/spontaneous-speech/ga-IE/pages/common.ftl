@@ -27,10 +27,10 @@ request-new-language = Iarr Teanga Nua
 
 ## Navbar
 
+question = Ceist
 respond-to-prompt = Freagair
 transcribe = Trascríobh
 check-transcriptions = Athbhreithnigh
-question = Ceist
 
 ## Not Found Page
 
@@ -58,6 +58,3 @@ sdo = Serian Bidayuh
 snv = Sa'ban
 tr = Tuircis
 xkl = Kenyah
-
-## Language search component
-

@@ -29,11 +29,11 @@ continue-with-skipped = გაგძელით გიშატებათ
 
 ## Navbar
 
+question = ოკითხირე
+validate = გინოჯინა
 respond-to-prompt = ქუგამით მოთხუალას
 transcribe = ნაჭარათ მოჩამა
 check-transcriptions = ნაჭარაში გინოჯინა
-question = ოკითხირე
-validate = გინოჯინა
 
 ## Not Found Page
 

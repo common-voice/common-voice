@@ -27,10 +27,10 @@ request-new-language = ٻولِي رئي ڌرخواست ۮيو
 
 ## Navbar
 
+question = سوئال
 respond-to-prompt = جواڀ
 transcribe = متن ۾ ڀڌلاوو
 check-transcriptions = ڌوهرائِي
-question = سوئال
 
 ## Not Found Page
 

@@ -36,9 +36,3 @@ review-delete-recordings = 刪除我嘅錄音
 review-terms = 使用 Common Voice，即代表閣下同意我哋嘅<termsLink>條款</termsLink>同埋<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我唔同意
-
-## MENU ITEM TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-

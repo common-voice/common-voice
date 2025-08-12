@@ -59,9 +59,3 @@ adding-sentences-subheader-numbers = ǩoretsxape
 adding-sentences-subheader-abbreviations = Zit̆apeşi omǩulanupe do Umçane Boncapeşi Omǩulanupe
 adding-sentences-subheader-punctuation = Ot̆imbu
 reviewing-sentences-explanation-1 = Cumle jini ǩriteri-ǩala oǩuvelams na "Ho" butonis gyobazgit.
-
-## Question collection ids
-
-
-## Question collection sidebar content
-

@@ -72,36 +72,3 @@ help-contribute = Kode irekiko datu-multzo desberdin bat osatzen lagun dezakezu,
 login-company = Hasi saioa / Eman izena { $company }-ko helbide elektronikoarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 read-more-about = Irakurri gehiago guri buruzko web-orrian
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

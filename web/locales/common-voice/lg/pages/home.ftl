@@ -70,36 +70,3 @@ help-contribute = Osobola okuyamba okuzimba dataset erina amaloboozi ag'enjawulo
 login-company = Log in/ sign up ne { $company } email
 profile-not-required = Tekyetagisibwa kuba na profayilo okuyamba wadde kya mugaso, laba lwaki wansi awo.
 read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
-
-## NAV ITEMS
-
-
-## MENU ITEMS TOOLTIPS
-
-
-## MENU ITEM ARIA LABELS
-
-
-## NEW HOME PAGE KEYS
-
-
-## Hero section
-
-
-## Action items section
-
-
-## Community section
-
-
-## Featured section
-
-
-## Developers section
-
-
-## Get involved section
-
-
-## Partner section
-

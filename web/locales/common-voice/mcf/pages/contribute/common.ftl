@@ -6,8 +6,8 @@ skip = Pudun
 shortcuts = Accesos directos
 clips-with-count-pluralized =
     { $count ->
-        [one] 	<bold>{ $count }</bold> fragmento
-       *[other] 	<bold>{ $count }</bold> fragmentos
+        [one] { "\u0009" }<bold>{ $count }</bold> fragmento
+       *[other] { "\u0009" }<bold>{ $count }</bold> fragmentos
     }
 goal-help-recording = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de grabación del { $goalValue }!
 goal-help-validation = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de validación del { $goalValue }!

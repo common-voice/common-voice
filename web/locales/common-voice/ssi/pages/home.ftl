@@ -111,9 +111,6 @@ partnerships-menu-item-aria-label = ایکی دؔیسی اواجا کے بھیݪ
 press-and-stories-menu-item-aria-label = پریس ریلیزز اور سادھارݨ اواجاس جُڑوڑی کُہاݨِیئیں تائیں پُگو
 community-and-languages-menu-item-aria-label = سادھارݨ اواجا کے بھیر والی پڑاو اور ٻولِیئیں کُو کھوجو
 
-## NEW HOME PAGE KEYS
-
-
 ## Hero section
 
 hero-title = ٹیکنالوجی جکو آپ کی بھاشا ٻولتی ہے
@@ -133,6 +130,7 @@ spontaneous-card-header = ٻولݨیں کا سُبھاو
 spontaneous-card-content = جلما کی ، ٻول چالا کے سرے کے نتر ڈیٹا سیٹ ٹھانٚوݨیں کے جھالے کی ورنٚدی دے۔ مُھئانٚس پہلکی ٻولِیئیں نتر سئی.
 language-text-card-header = بھاشا کا لِکھݨا
 language-text-card-content = انواد، لھوڑی ٻولِئِں کے نامُونے، اور گھݨیں کائِیں نتر کھلک ڈومین جھالے، ٻول، اور لِکھت ٹھاؤ یا ٻٹاؤ.
+coming-soon = ٻیگا آݨواڑا
 add-text = لِکھت سیمل کرو
 answer = جباب
 

@@ -10,7 +10,7 @@ import otherDatasets from './other-datasets'
 import getStartedResource from './get-started'
 
 import './resources.css'
-import { useAPI } from '../../../hooks/store-hooks'
+// import { useAPI } from '../../../hooks/store-hooks'
 
 const NAV_IDS = {
   getStarted: 'get-started',
@@ -56,7 +56,7 @@ GetStartedResource.displayName = 'GetStartedResource'
 
 const Dataset = React.memo(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  ({ color, name, id, url, download, license }: any) => {
+  ({ color, name, id, url, download, license, size }: any) => {
     const [collapsed, setCollapsed] = useState(true)
     return (
       <div className="other-dataset box">
@@ -91,7 +91,7 @@ const Dataset = React.memo(
                     <div className="label" />
                   </Localized>
                   <div className="value">
-                    <Localized id="size-gigabyte" />
+                    {size} <Localized id="size-gigabyte" />
                   </div>
                 </li>
               </ul>
@@ -149,22 +149,23 @@ const Resources = () => {
   )[0]
   const discourseURL = useLocalizedDiscourseURL()
 
-  const api = useAPI()
+  // const api = useAPI()
   const [datasets, setDatasets] = useState([])
 
   useEffect(() => {
-    const updateDataset = async () => {
-      const voxforgeDataset = otherDatasets.find(
-        dataset => dataset.id == 'voxforge'
-      )
-      const { url } = await api.getPublicUrl(
-        voxforgeDataset.download,
-        'dataset'
-      )
-      voxforgeDataset.download = url
-      setDatasets(otherDatasets)
-    }
-    updateDataset()
+    // const updateDataset = async () => {
+    //   const voxforgeDataset = otherDatasets.find(
+    //     dataset => dataset.id == 'voxforge'
+    //   )
+    //   const { url } = await api.getPublicUrl(
+    //     voxforgeDataset.download,
+    //     'dataset'
+    //   )
+    //   voxforgeDataset.download = url
+    //   setDatasets(otherDatasets)
+    // }
+    // updateDataset()
+    setDatasets(otherDatasets)
   }, [])
 
   return (

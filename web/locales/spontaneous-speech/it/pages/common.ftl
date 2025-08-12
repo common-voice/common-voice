@@ -29,11 +29,11 @@ continue-with-skipped = Passa ai contenuti saltati
 
 ## Navbar
 
+question = Domanda
+validate = Convalida
 respond-to-prompt = Rispondi alla domanda
 transcribe = Trascrivi
 check-transcriptions = Verifica trascrizioni
-question = Domanda
-validate = Convalida
 
 ## Not Found Page
 
