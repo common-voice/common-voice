@@ -145,7 +145,11 @@ example-questions-explanation-2 = Jeli chceće rjad prašenjow za zapřijeće za
 # Answer Questions
 answer-questions = Wotmołwće na prašenja
 answer-questions-subheader = Powšitkowne pokazki
+answer-questions-tip-1 = Natočće na někak ćichim městnje
 answer-questions-tip-2 = Wubjerće městno z dobrym internetnym zwiskom
+answer-questions-tip-3b = Spytajće, wašu wotmołwu na 15-30 sekundow wobmjezować
+answer-questions-tip-4 = Wobeńdźće hidypołne, našćuwowace  abo hinak křiwdźace rěčenje
+answer-questions-tip-5 = Rěčće přirodnje, kaž byšće to z přećelom činił – wužiwajće swójsku wariantu, swójsku narěč a swójski akcent
 # Transcribe the Audio
 transcribe-the-audio = Awdijo transkribować
 transcribe-the-audio-subheader-1 = Powšitkowne pokazki
