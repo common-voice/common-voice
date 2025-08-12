@@ -222,7 +222,33 @@ code-switching-adding-question-note = Du bør kanskje også vurdere å strekkje 
 # What types of questions to add
 code-switching-types-subheader = Kva typar spørsmål skal leggjast til?
 code-switching-use-bilingual-prompts-header = Bruk tospråklege spørsmål
+code-switching-use-bilingual-prompts-explanation = Bruk tospråklege spørsmål som inkluderer begge språka i spørsmålet ditt: Døme:
+code-switching-ask-bilingual-contexts-header = Spør om tospråklege kontekstar
+# What to Avoid
+code-switching-avoid-subheader = Kva du bør unngå
+code-switching-avoid-intro = Spørsmål som kan vere:
+code-switching-avoid-1 = Be om personleg identifiserbar informasjon
+code-switching-avoid-2 = Oppfordre til hatefulle ytringar eller andre partiske eller støytande kjensler
+code-switching-avoid-3 = Få nokon til å dele sensitive, potensielt utløysande reaksjonar
 code-switching-dont-header = Ikkje
+code-switching-dont-1 = Ikkje bruk for formelt språk
 # Reviewing a Question
 code-switching-review-subheader = Vurder eit spørsmål
+code-switching-review-intro = Sørg for at spørsmålet oppfyller kriteria:
 code-switching-review-criterion-1 = Vere lett å forstå og svare på
+code-switching-review-criterion-2 = Vere generelt relevant
+code-switching-review-criterion-3 = Ikkje bruke, eller oppfordre til skadeleg eller støytande språk
+code-switching-review-does-not-header = Og <bold>INKLUDERER IKKJE</bold>:
+code-switching-review-offensive-content = <bold>Støytande innhald eller sensitiv informasjon</bold>
+code-switching-answer-header = Støytande innhald eller sensitiv informasjon
+code-switching-review-no-1 = Spørsmål som kan be om personleg identifiserbar informasjon
+code-switching-review-no-2 = Spørsmål som kan oppmode til hatefulle ytringar eller andre partiske eller støytande kjensler
+code-switching-review-no-3 = Spørsmål som kan få folk til å dele sensitive, potensielt utløysande svar.
+# Answering a Question
+code-switching-answer-subheader = Svare på et spørsmål
+code-switching-answer-intro = Når du svarar på et spørsmål, er målet å svare naturleg – akkurat som du ville gjort i ein ekte samtale. Vi ønskjer å fange korleis språk faktisk vert blanda i daglegtalen.
+code-switching-answer-bullet-1 = Tenk på augneblink eller situasjonar frå røyndommen: vitsar, kranglar, tradisjonar
+code-switching-answer-bullet-2 = Tenk deg at du sender ei tekstmelding til ein venn eller fortel nokon ei historie
+code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, sjølv om dei er lånte eller blanda
+code-switching-answer-bullet-4 = Det finst ingen «perfekt» måte å svare på
+code-switching-authentic-header = Svar naturleg og autentisk
