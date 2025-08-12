@@ -10,3 +10,10 @@ no-questions-continue-skipped-message = Nu mai există întrebări în această 
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S
+
+## Validation guidelines
+
+validation-guidelines-title = Îndrumări
+validation-guideline-1 = Nu se solicită informații personale (de exemplu, nume, detalii financiare, etc.)
+validation-guideline-2 = Nu se fac remarci jignitoare, cu prejudecăți și nu se pun întrebări delicate.
+validation-guideline-3 = Întrebarea trebuie să fie simplă și ușor de înțeles pentru oricine.

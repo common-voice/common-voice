@@ -29,3 +29,8 @@ cs-tag-dataset-name = Datowa sajźba: [{ $datasetName }]
 ## Guidelines
 
 learn-how-to-use = Zgóńśo, kak móžośo toś ten bok wužywaś
+read-full-guidelines-here = <guidanceLink>Cytajśo how dopołne směrnice</guidanceLink>
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Transkripcija měła kužde słowo abo njeleksikaliski rozgronowy zuk zapśimjeś, kótarež jo wósoba groniła, inkluziwnje wóspjetowanja.

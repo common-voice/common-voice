@@ -30,3 +30,4 @@ do-not-section-title = njecyńśo
 do-not-section-guideline-1 = Wósobinske informacije pominaś (ako mjenja abo financne informacije)
 do-not-section-guideline-2 = Pśedsudkowne abo njepśistojne měnjenja zwurazniś abo pominaś
 do-not-section-guideline-3 = Sensibelne pšašanja stajiś
+cs-do-not-section-guideline-3 = Pśeliš formalnu rěc wužywaś
