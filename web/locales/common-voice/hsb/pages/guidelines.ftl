@@ -181,6 +181,8 @@ tags-unclear = Njejasny
 tags-noise = Šum
 tags-laugh-explanation = Zynk smjeća.
 tags-unclear-explanation = Słowo abo słowna skupina, kotrejž njehodźitej so rozumić.
+transcribe-the-audio-subheader-4-explanation-2 = Druhdy rěčnicy słowo abo słowne fragmenty wjacekróć wospjetuja. To měło so tež transkribować. Přikład:
+transcribe-the-audio-subheader-4-explanation-2-example = A potom sym <underline>do, do, do, spanskeje, do</underline> spanskeje stwy šoł
 
 ## Review the Transcription
 
