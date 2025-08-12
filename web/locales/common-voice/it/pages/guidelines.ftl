@@ -190,3 +190,5 @@ code-switching-adding-question-note = Considera anche l’inclusione di contesti
 # What types of questions to add
 code-switching-types-subheader = Che tipo di domande aggiungere?
 code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui entrambe le lingue sono comunemente utilizzate (ad es. a casa, a scuola, durante eventi della comunità). Esempio:
+code-switching-focus-emotional-header = Punta su momenti emotivi o cruciali
+code-switching-focus-emotional-explanation = Le persone spesso cambiano codice linguistico per esprimere emozioni o urgenza. Esempio:
