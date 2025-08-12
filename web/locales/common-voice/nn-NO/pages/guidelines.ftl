@@ -299,6 +299,7 @@ code-switching-cleanup-1 = Omsetje eller omskrive – skriv det talaren faktisk 
 code-switching-cleanup-2 = «Korrekt» grammatikk eller uttale – behald den naturlege bruken til talaren.
 code-switching-cleanup-3 = Hopp over byter som verkar små eller ubetydelege – sjølv lånte ord har noko å seie.
 code-switching-cleanup-4 = Set inn teiknsetjing som kan endre betydninga – hald flyten naturleg.
+code-switching-cleanup-5 = Rekn med at du kjenner språket til kvart ord – merk basert på bruk.
 # Tagging
 code-switching-tagging-subheader = Merking
 code-switching-tagging-error-intro =
@@ -312,8 +313,12 @@ code-switching-orthography-header = Bruk av rett ortografi for kvart språk
 code-switching-orthography-explanation = Skriv kvart ord i samsvar med stavemåten til språket det kjem frå. Til dømes:
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+code-switching-pronunciation-explanation = Nokre ord kan sjå like ut på begge språk, men kan uttalast ulikt. Lytt til uttalen for å få hjelp med å merke orda rett.  Til dømes: kabel, taco, skodespelar, detektiv.
 code-switching-pronunciation-explanation-example-1 = Engelsk: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Spansk: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Merking i eit enkelt token
+code-switching-single-token-explanation = Eit enkelt token skilt med mellomrom skal innehalde meir enn éin nøkkelordseksjon.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Merk teiknsetjing basert på språk i nærleiken
 code-switching-punctuation-tagging-explanation = Merk teiknsetjing med språket nærast venstre. Døme:
