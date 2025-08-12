@@ -141,6 +141,8 @@ example-questions-explanation-2 = Se desideri inviare una serie di domande per l
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Rispondi alle domande
 answer-questions-subheader = Guida generale
 answer-questions-tip-1 = Registra in un luogo sufficientemente tranquillo
 answer-questions-tip-2 = Scegli un luogo con una buona connessione a Internet
@@ -207,3 +209,7 @@ code-switching-review-criterion-3 = Non contenga o incoraggi l’uso di linguagg
 code-switching-answer-header = Contenuti offensivi o informazioni sensibili
 code-switching-review-no-1 = Domande che potrebbero indurre alla divulgazione di informazioni di identificazione personale
 code-switching-review-no-2 = Domande che potrebbero provocare incitamento all’odio o ad altri sentimenti faziosi o offensivi
+# Answering a Question
+code-switching-answer-subheader = Rispondere a una domanda
+code-switching-answer-bullet-1 = Pensa a momenti o situazioni della vita reale: battute, discussioni, tradizioni
+code-switching-answer-bullet-2 = Immagina di scrivere un messaggio a un amico o di raccontare una storia a qualcuno
