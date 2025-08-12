@@ -144,6 +144,7 @@ example-questions-explanation-2 = Se desideri inviare una serie di domande per l
 # Answer Questions
 answer-questions = Rispondi alle domande
 answer-questions-subheader = Guida generale
+answer-questions-explanation-2 = Ricorda: non preoccuparti se balbetti, fai una pausa o ripeti una parola. Questi sono tutti dati utili per gli sviluppatori che cercano di creare strumenti di riconoscimento vocale inclusivi basati sul linguaggio della vita reale.
 answer-questions-tip-1 = Registra in un luogo sufficientemente tranquillo
 answer-questions-tip-2 = Scegli un luogo con una buona connessione a Internet
 answer-questions-tip-4 = Evita discorsi che incitano all’odio, provocatori o comunque offensivi
@@ -217,3 +218,4 @@ code-switching-answer-bullet-2 = Immagina di scrivere un messaggio a un amico o 
 code-switching-answer-bullet-4 = Non esiste un modo “perfetto” per rispondere
 code-switching-authentic-header = Rispondi in modo naturale e autentico
 code-switching-authentic-speak-example = “Well, le ho detto che non potevo andare ma lei mi ha risposto ‘Faresti meglio a presentarti!’”
+code-switching-use-both-languages-example = “Si è davvero arrabbiata because non l’ho richiamata.”
