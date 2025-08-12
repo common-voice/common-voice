@@ -150,12 +150,17 @@ answer-questions-tip-2 = Wubjerće městno z dobrym internetnym zwiskom
 answer-questions-tip-3b = Spytajće, wašu wotmołwu na 15-30 sekundow wobmjezować
 answer-questions-tip-4 = Wobeńdźće hidypołne, našćuwowace  abo hinak křiwdźace rěčenje
 answer-questions-tip-5 = Rěčće přirodnje, kaž byšće to z přećelom činił – wužiwajće swójsku wariantu, swójsku narěč a swójski akcent
+answer-questions-tip-6 = Dźeržće swoju sylnosć zwuka runoměrnu – njerjejće abo njespěwajće
 # Transcribe the Audio
 transcribe-the-audio = Awdijo transkribować
 transcribe-the-audio-subheader-1 = Powšitkowne pokazki
 transcribe-the-audio-subheader-2 = Ličby a akronymy
 transcribe-the-audio-subheader-3 = Wosebite znački
 transcribe-the-audio-subheader-4 = Słowne segmenty, wopačne spočatki, wospjetowane słowa
+transcribe-the-audio-subheader-5 = Gramatiske zmylki a wobchadnorěčne wurazy
+transcribe-the-audio-subheader-1-explanation = W cyłku měł wy wšitko napisać, štož słyšiće. To zapřijima:
+transcribe-the-audio-subheader-1-explanation-example-1 = Pisanje njeběžnosćow, inkluziwnje dlijenja a wospjetowanja
+transcribe-the-audio-subheader-1-explanation-example-2 = Woznamjenjenje šumow kaž kašel abo smjeće
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawje</correct>: Je sto kilometrow wottud zdalene.
 # text wrapped in wrong will be shown as red text in the UI
