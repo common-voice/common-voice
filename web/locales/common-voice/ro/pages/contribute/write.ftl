@@ -70,3 +70,5 @@ sentence-variant-select-multiple-variants = Limbaj general / variante multiple
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Încarcă <icon></icon> propoziții din domeniul public
+sc-bulk-upload-instruction = Trage fișierul aici sau <uploadButton>apasă pentru a încărca</uploadButton>.
+sc-bulk-upload-instruction-drop = Trage fișierul aici pentru încărcare
