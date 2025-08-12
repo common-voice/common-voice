@@ -198,3 +198,14 @@ code-switching-answer-header = Njepśistojne wopśimjeśe abo sensibelne informa
 code-switching-review-no-1 = Pšašanja, kótarež se informacije wó wósobinskej identiśe wupšosuju
 code-switching-review-no-2 = Pšašanja, kótarež se mógli powědanje gramoty abo druge zacuśa połne pśedsudkow abo njepśistojne zacuśa wupšosowaś
 code-switching-review-no-3 = Pšašanja, kótarež mógli k tomu wjasć, sensibelne, potencielnje wuwołujuce wótegrona źěliś
+# Answering a Question
+code-switching-answer-subheader = Na pšašanje wótegroniś
+# Transcribing
+code-switching-transcribe-subheader = Transkriběrowaś
+# Use standard spelling for each language
+code-switching-spelling-header = Standardny pšawopis za kuždu rěc wužywaś
+code-switching-tagging-error-2 = Pisańske zmólki
+code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
+code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida

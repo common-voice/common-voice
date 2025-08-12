@@ -153,6 +153,12 @@ transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Oiko’ỹva</wrong>: Opyta sa mílla ko’águi
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Oiko</correct>: Jajuecháta <underline>mokõipa papo</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Oiko’ỹva</wrong>: Jajuecháta <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Oiko</correct>: Areko mokõipa savore hepykue guejýva
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Oiko’ỹva</wrong>: Areko mokõipa savore hepykue guejýva
 tags-table-header-1 = Teramoĩ
 tags-table-header-2 = He’iséva
 tags-laugh = Puka
