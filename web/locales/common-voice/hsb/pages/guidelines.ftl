@@ -161,6 +161,7 @@ transcribe-the-audio-subheader-5 = Gramatiske zmylki a wobchadnorěčne wurazy
 transcribe-the-audio-subheader-1-explanation = W cyłku měł wy wšitko napisać, štož słyšiće. To zapřijima:
 transcribe-the-audio-subheader-1-explanation-example-1 = Pisanje njeběžnosćow, inkluziwnje dlijenja a wospjetowanja
 transcribe-the-audio-subheader-1-explanation-example-2 = Woznamjenjenje šumow kaž kašel abo smjeće
+transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiske rozdźěle a slang měli so runje tak natočić kaž wustupuja. Njekorigujće abo njewobdźěłujće rěčenje ludźi.
 transcribe-the-audio-subheader-2-explanation-1 = Ličby a symbole měli so w słowach pisać a nic z ličbnikami abo wosebitymi znamješkami. Přikład:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawje</correct>: Je sto kilometrow wottud zdalene.
