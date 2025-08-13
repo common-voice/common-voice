@@ -219,6 +219,7 @@ code-switching-adding-question-note = Móžośo teke rozwažowaś, rozdźělne k
 # What types of questions to add
 code-switching-types-subheader = Kótare typy pšašanjow maju se pśidaś?
 code-switching-use-bilingual-prompts-header = Dwójorěcne naspominanja wužywaś
+code-switching-use-bilingual-prompts-explanation = Wužywajśo dwójorěcne naspominanja, kótarež wobej rěcy we wašom pšašanju wopśimuju: Pśikład:
 code-switching-ask-bilingual-contexts-header = Pšašajśo se za dwójorěcnymi kontekstami
 code-switching-ask-bilingual-contexts-explanation = Wužywajśo situacije, źož se wobej rěcy zwětšego wužywatej (na pś. doma, w šuli, na tšojenjach zgromaźeństwa). Pśikład:
 code-switching-focus-emotional-explanation = Luźe cesto rěcny kod změnjaju, gaž zacuśa abo nuznosć wugroniju. Pśikład:
@@ -251,6 +252,10 @@ code-switching-review-no-2 = Pšašanja, kótarež se mógli powědanje gramoty 
 code-switching-review-no-3 = Pšašanja, kótarež mógli k tomu wjasć, sensibelne, potencielnje wuwołujuce wótegrona źěliś
 # Answering a Question
 code-switching-answer-subheader = Na pšašanje wótegroniś
+code-switching-answer-bullet-1 = Mysliśo na wokognuśa napšawdnego žywjenja: žorty, argumenty, tradicije
+code-switching-answer-bullet-2 = Pśedstajśo se, až pśijaśeloju SMS pišośo abo tšojeńko wulicujośo
+code-switching-answer-bullet-3 = Wužywajśo słowa, kótarež by wy napšawdu wužywał, samo gaby póžycone abo měšane byli
+code-switching-answer-bullet-4 = Njedajo „perfektnu“ móžnosć za wótegrono
 # Transcribing
 code-switching-transcribe-subheader = Transkriběrowaś
 # Use standard spelling for each language
