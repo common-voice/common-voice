@@ -161,8 +161,10 @@ transcribe-the-audio-subheader-5 = Gramatiske zmylki a wobchadnorěčne wurazy
 transcribe-the-audio-subheader-1-explanation = W cyłku měł wy wšitko napisać, štož słyšiće. To zapřijima:
 transcribe-the-audio-subheader-1-explanation-example-1 = Pisanje njeběžnosćow, inkluziwnje dlijenja a wospjetowanja
 transcribe-the-audio-subheader-1-explanation-example-2 = Woznamjenjenje šumow kaž kašel abo smjeće
+transcribe-the-audio-subheader-1-explanation-example-3 = Njesnadne wobćežowanje přez šumy kaž pozadkowe powědanje abo truby awtow
 transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiske rozdźěle a slang měli so runje tak natočić kaž wustupuja. Njekorigujće abo njewobdźěłujće rěčenje ludźi.
 transcribe-the-audio-subheader-2-explanation-1 = Ličby a symbole měli so w słowach pisać a nic z ličbnikami abo wosebitymi znamješkami. Přikład:
+transcribe-the-audio-subheader-2-explanation-2 = Akronymy měli so pisać, kaž so w normalnym padźe w rěči pisaja, po standardnych prawidłach za wulkopisanje. Njeměli so fonetisce transkribować. Přikład:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawje</correct>: Je sto kilometrow wottud zdalene.
 # text wrapped in wrong will be shown as red text in the UI
@@ -175,6 +177,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Prawje</correct>: 
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Běše 20 % rabata
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Prawje</correct>: Buchu wot <underline>BKA</underline> zańdźeny štwórtk zajeći
 transcribe-the-audio-subheader-2-example-4-wrong = <correct>Wopak</correct>: Buchu wot <underline>be-ka-a</underline> zańdźeny štwórtk zajeći
+transcribe-the-audio-subheader-3-explanation = Slědowace specialne znački měli so wužiwać, zo bychu njeběžnosć, pjelnjace słowa a druhe typy njewerbalneho wobsaha (jendźelsce) markěrowali.
 tags-table-header-1 = Značka
 tags-table-header-2 = Woznam
 tags-laugh = Smjeće
