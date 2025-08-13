@@ -176,6 +176,8 @@ transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Wiźimy
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Pšawje</correct>: Dajo dwaźasća procentow rabata
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Dajo 20 % rabata
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Pšawje</correct>: Su se popajźili wót <underline>BKA</underline> zajźony stwórtk
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Pšawje</wrong>: Su se popajźili wót <underline>be-ka-a</underline> zajźony stwórtk
+transcribe-the-audio-subheader-3-explanation = Slědujuce specialne wobznamjenja měli se wužywaś, aby njeběžnosć, połnjece słowka a druge typy njewerbalnego wopśimjeśa (engelski) markěrowali.
 tags-table-header-1 = Wobznamjenje
 tags-table-header-2 = Wóznam
 tags-laugh = Smjaśe
@@ -183,6 +185,14 @@ tags-disfluency = Njeběžnosć
 tags-unclear = Njejasny
 tags-noise = Šum
 tags-laugh-explanation = Zuk smjaśa.
+tags-disfluency-explanation =
+    Połnjece słowko abo połnjecy zuk, kótarejž se ako zastupnik wužywatej, mjaztym až powědaŕ rozsuźujo, což ma groniś.
+    W dolnoserbšćinje su „em“, „eh“, „hm“ atd. někotare běžne zuki wokomuźenja.
+tags-unclear-explanation = Słowo abo słowna kupka, kótarejž njedatej se rozměś.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    A pótom som [šum] jěł do dowola.
+    No, [šum] [smjaśe] njejo pópšawem był dowol [smjaśe]
 
 ## Review the Transcription
 
