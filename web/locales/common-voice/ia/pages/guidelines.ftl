@@ -348,7 +348,10 @@ code-switching-not-tag-proper-names-example-3 = Marcas/organisationes: Target, B
 code-switching-not-tag-mixed-words = <bold>Parolas miscite o morphologicamente adaptate.</bold> Non etiquetta parolas que miscer linguas o ha addite conclusiones ab un altere lingua. Exemplos:
 code-switching-not-tag-mixed-words-example = Ubi un radice es anglese ma le suffixo es espaniol: “parkear”, “printearlo”
 code-switching-not-tag-interjections = <bold>Interjectiones.</bold> Interjectiones e parolas repletor, sin reguardo de lingua, deberea restar <bold>non etiquettate.</bold> Exemplos
+code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “No”
+code-switching-not-tag-interjections-example-3 = “Si”
+code-switching-not-tag-interjections-example-4 = “Ehm”
 
 ## Reporting Content
 
