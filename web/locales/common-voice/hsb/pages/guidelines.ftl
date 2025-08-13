@@ -278,6 +278,7 @@ code-switching-spelling-header = Standardny prawopis za kóždu rěč wužiwać
 code-switching-cleanup-header = Njerumujće abo njezjednorjejće rěč
 code-switching-cleanup-1 = Přełožće abo přepisajće – pisajće, štož rěčnik je prajił, nic štož je „měnił“.
 code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wurjekowanje – wobchowajće přirodne wužiće rěčnika.
+code-switching-cleanup-3 = Změnjenja přeskočić, kotrež so snadne abo małe zdadźa – samo wupožčene słowa su wažne.
 code-switching-tagging-error-2 = Pisanske zmylki
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
