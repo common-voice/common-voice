@@ -279,6 +279,8 @@ code-switching-cleanup-header = Njerumujśo abo njezjadnorjajśo rěc
 code-switching-cleanup-1 = Pśełožćo abo pśepišćo – pišćo, což powědaŕ jo gronił, nic což jo „měnił“.
 code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wugronjenje – wobchowajśo pśirodne wužyśe powědarja.
 code-switching-cleanup-3 = Změny pśeskócyś, kótarež se snadne abo małe zdaju – samo póžycone słowa su wažne.
+# Tagging
+code-switching-tagging-subheader = Markěrowanje
 code-switching-tagging-error-2 = Pisańske zmólki
 code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/
