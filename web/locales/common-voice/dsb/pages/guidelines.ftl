@@ -269,8 +269,16 @@ code-switching-answer-dont-formal-writing = <bold>Powědajśo, ako by formelnje 
 code-switching-answer-dont-translate-repeat = <bold>Pśełožujśo abo wóspjetujśo wšykno.</bold> Pšosym grońśo to jano jaden raz, tak ako by w rozgronje wustupowało. Njetrjebaśo wersiju wótegrona w kuždej rěcy groniś.
 # Transcribing
 code-switching-transcribe-subheader = Transkriběrowaś
+code-switching-capture-explanation = Transkriběrujśo wobej rěcy ako se pokazujotej / klincytej. Nje„pórěźajśo“ rěc abo njezměnjajśo jej do jano jadneje rěcy.
+# Include filler words and markers
+code-switching-filler-header = Połnjece słowa a marki zapśimjeś
 # Use standard spelling for each language
 code-switching-spelling-header = Standardny pšawopis za kuždu rěc wužywaś
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Njerumujśo abo njezjadnorjajśo rěc
+code-switching-cleanup-1 = Pśełožćo abo pśepišćo – pišćo, což powědaŕ jo gronił, nic což jo „měnił“.
+code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wugronjenje – wobchowajśo pśirodne wužyśe powědarja.
+code-switching-cleanup-3 = Změny pśeskócyś, kótarež se snadne abo małe zdaju – samo póžycone słowa su wažne.
 code-switching-tagging-error-2 = Pisańske zmólki
 code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/

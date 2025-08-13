@@ -5,7 +5,6 @@ voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
 spontaneous-speech = Discorso spontaneo
-dont-subheader = Non
 
 ## Voice Collection nav ids
 
@@ -243,7 +242,6 @@ code-switching-avoid-intro = Domande che potrebbero:
 code-switching-avoid-1 = Indurre alla divulgazione di informazioni di identificazione personale
 code-switching-avoid-2 = Promuovere incitamento all’odio o ad altri sentimenti faziosi o offensivi
 code-switching-avoid-3 = Indurre alla condivisione di risposte di natura riservata o contenenti argomenti delicati
-code-switching-dont-header = Che cosa non fare
 code-switching-dont-1 = Non utilizzare un linguaggio eccessivamente formale
 code-switching-review-intro = Assicurati che la domanda soddisfi i seguenti criteri:
 code-switching-review-criterion-1 = Sia facile da capire e a cui rispondere
