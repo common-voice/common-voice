@@ -273,6 +273,7 @@ code-switching-answer-bullet-3 = Usa parolas que tu amarea realmente usar, mesmo
 code-switching-answer-bullet-4 = Il non ha maniera “perfecte” de responder
 code-switching-authentic-header = Responder naturalmente e authenticamente
 code-switching-authentic-speak = <bold>Parla como tu amarea con amicos o familia.</bold> Si tu misce linguas in le vita real, face lo mesme ci.
+code-switching-authentic-speak-example = “Pues I told her I couldn’t go, but she was like, ‘You better show up!’”
 code-switching-use-both-languages = <bold>Usa ambe linguas si isto es como tu amarea normalmente dicer lo.</bold> Mesmo mutar justo un parola o duo es utile. Exemplo:
 code-switching-use-both-languages-example = “Illa fureva multo porque io non la revocava.”
 code-switching-authentic-direct-quotes = <bold>Includer citationes directe o dialogo.</bold> Dicer exactemente lo que alcuno diceva, nulle version mundate o formal. Exemplo:
@@ -329,6 +330,9 @@ code-switching-single-token-explanation = Un sol token separate per spatio debe 
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Etiquettar punctuation in base al lingua vicin
 code-switching-punctuation-tagging-explanation = Etiquetta punctuation per le lingua plus proxime a sinistra. Exemplos:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purpura>e le sol tempore que</purpura> Maria <purpura>critava a me era</purpura> <blau>porque</blau> <purpura>illa ha tentate a a</purpura> printear <blau>un</blau> <purpura>ordine.</purpura> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purpura>ma</purpura> <blau>tú los puedes comprar rojo, negro, azul</blau>, <purpura>qualcunque.</purpura> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Attention al sosias
 code-switching-lookalikes-explanation = Alcun parolas pote apparer como un lingua ma es usate pro le altere. Etiquettar in base a significato e uso, non apparentia. Exemplos:
