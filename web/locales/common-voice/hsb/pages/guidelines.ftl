@@ -260,6 +260,7 @@ code-switching-authentic-speak = <bold>Rěčće, kaž byšće to z přećelemi a
 code-switching-authentic-speak-example = „Nun, sym jej prajił, zo njemóžu přińć, ale wona praješe ‚By lěpje‘, hdy by přišoł!“
 code-switching-use-both-languages = <bold>Wužiwajće wobě rěči, jeli byšće to w normalnym padźe tak prajił.</bold> Je samo wužitnje, hdyž jenož jedne słowo abo dwě słowje měnjeće. Přikład:
 code-switching-use-both-languages-example = „Je woprawdźe hněwna był, weil njejsym ju wróćo zazwonił.“
+code-switching-authentic-direct-quotes = <bold>Zasadźće direktne citaty abo dialog.</bold> Prajće eksaktnje, štož něchtó praješe, nic porjedźenu abo formelnu wersiju. Přikład:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepřemyslujće abo njewobdźěłujće přewjele
 code-switching-answer-dont-correct-language = <bold>„Njekorigujće“ swoju rěč.</bold> To test njeje. „Prawa“ forma tu wažna njeje, ale přirodna rěč.
