@@ -204,6 +204,8 @@ code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne k
 code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
 code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
 code-switching-use-bilingual-prompts-explanation = Wužiwajće dwurěčne namołwy, kotrež wobě rěči we wašim prašenju wopřijimaja: Přikład:
+# What to Avoid
+code-switching-avoid-subheader = Što dyrbjał wy wobeńć
 code-switching-avoid-intro = Prašenja, kotrež:
 code-switching-dont-header = Špatne
 code-switching-dont-1 = Njewužiwajće přeformalnu rěč
