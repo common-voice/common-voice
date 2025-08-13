@@ -145,6 +145,8 @@ example-questions-explanation-2 = Jolic cośo rěd pšašanjow za zapśimjeśe z
 # Answer Questions
 answer-questions = Wótegrońśo na pšašanja
 answer-questions-subheader = Powšykne pokazki
+answer-questions-tip-1 = Nagrajśo na někak śichem městnje
+answer-questions-tip-2 = Wubjeŕśo městno z dobrym internetnym zwiskom
 # Transcribe the Audio
 transcribe-the-audio = Awdio transkriběrowaś
 transcribe-the-audio-subheader-1 = Powšykne pokazki
