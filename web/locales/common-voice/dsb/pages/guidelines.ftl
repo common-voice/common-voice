@@ -227,10 +227,19 @@ code-switching-direct-quotes-header = Pšašajśo se za direktnymi citatami abo 
 code-switching-direct-quotes-explanation = Pózbuźćo wobźělniki reproducěrowaś, kak wěcy su se napšawdu gronili. Pśikład:
 code-switching-direct-quotes-explanation-example = „Kótare su waše eksaktne słowa, gaž sćo zgónił wó tom?“
 code-switching-cultural-topics-header = Wubjeŕśo za kulturu specifiske temy
+code-switching-cultural-topics-explanation = Jěź, tradicije, swěte dny a swójźbna dynamika cesto k změnje rěcnego koda wjadu.
+code-switching-informal-scenarios-header = Wuslěźćo informelne scenariumy
+code-switching-informal-scenarios-explanation = Rozgrona z pśijaśelami abo pisanje SMS cesto pśirodnjejše změnjanje wopśimuju. Pśikład:
+code-switching-informal-scenarios-explanation-example = „Kótary žort waše pśijaśele pśecej cynje – a kak by wy jen wulicował?“
+# What to Avoid
+code-switching-avoid-subheader = Cogo měł wy se wobinuś
 code-switching-avoid-intro = Pšašanja, kótarež:
+code-switching-avoid-1 = Informacije póžedaś, kótarež wósoby identificěruju
 code-switching-dont-header = Špatne
+code-switching-dont-1 = Njewužywajśo pśeliš formelnu rěc
 # Reviewing a Question
 code-switching-review-subheader = Pšašanje pśeglědowaś
+code-switching-review-intro = Zarucćo, až pšašanje kriterijam wótpowědujo:
 code-switching-review-criterion-1 = lažko rozměś byś a na se wótegroniś daś
 code-switching-review-criterion-2 = Powšyknje relewantne byś
 code-switching-review-criterion-3 = Kśiwjecu abo njepśistojnu rěc njewužywaś
