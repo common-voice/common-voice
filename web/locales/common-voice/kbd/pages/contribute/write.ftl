@@ -29,7 +29,7 @@ guidelines = Гъуазэхэр
 contact-us = Къытхуегъазэ
 add-sentence-success = Псалъэуха 1 къэдгъуэящ
 add-sentence-error = Псалъэуха къиплъхьэ пэтрэ зыгуэрэ илэжащ
-required-field = Кхъыӏэ мыбдейр из щӏы
+required-field = Кхъыӏэ, зыхуей псори ифтхэ
 single-sentence-submission = Псалъэуха закъуэ егъэхьын
 small-batch-sentence-submission = Псалъэуха зыбжьанэ егъэхьын
 bulk-sentence-submission = Псалъэуха куэд егъэхьын
@@ -41,9 +41,13 @@ sentence-domain-select-placeholder = Нэхъыбэ дыдэу домаинищ 
 # Sentence Domain dropdown option
 agriculture_food = Мэкъумэшымрэ шхыныгъуэмрэ
 # Sentence Domain dropdown option
+automotive_transport = Автомобилестроение и транспорт
+# Sentence Domain dropdown option
 finance = Финанс
 # Sentence Domain dropdown option
 service_retail = ӏуэхутхьэбзэ
+# Sentence Domain dropdown option
+general = Зэхэлъу
 # Sentence Domain dropdown option
 healthcare = Узыншагъэ хъумэн
 # Sentence Domain dropdown option
