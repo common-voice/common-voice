@@ -257,6 +257,8 @@ code-switching-answer-bullet-3 = Wužiwajće słowa, kotrež byšće woprawdźe 
 code-switching-answer-bullet-4 = Njeje „perfektna“ móžnosć za wotmołwu
 code-switching-authentic-header = Wotmołwće přirodnje a awtentisce
 code-switching-authentic-speak = <bold>Rěčće, kaž byšće to z přećelemi abo swójbu činił.</bold> Jeli rěče we woprawdźitym žiwjenju měšeće, čińće samsne tu. Přikład:
+code-switching-authentic-speak-example = „Nun, sym jej prajił, zo njemóžu přińć, ale wona praješe ‚By lěpje‘, hdy by přišoł!“
+code-switching-use-both-languages = <bold>Wužiwajće wobě rěči, jeli byšće to w normalnym padźe tak prajił.</bold> Je samo wužitnje, hdyž jenož jedne słowo abo dwě słowje měnjeće. Přikład:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepřemyslujće abo njewobdźěłujće přewjele
 code-switching-answer-dont-correct-language = <bold>„Njekorigujće“ swoju rěč.</bold> To test njeje. „Prawa“ forma tu wažna njeje, ale přirodna rěč.
