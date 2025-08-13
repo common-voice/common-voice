@@ -1,7 +1,21 @@
 ## Tagging Page
 
 tag-page-instruction = Wubjeŕśo <icon></icon> tekst, aby zachopił
+tag-terms-checkbox = Zwólijom do wuměnjenjow a priwatnosći Common Voice.
 tag-popover-title = Wubjeŕśo wobznamjenje
+select-a-tag = Wobznamjenje wubraś
+edit-tag = Wobznamjenje wobźěłaś
+# Shortcuts modal
+tag-page-shortcut-tag-language-1 = 1
+tag-page-shortcut-tag-language-2 = 2
+tag-page-shortcut-tag-language-3 = 3
+tag-page-shortcut-tag-language-4 = 4
+tag-page-shortcut-tag-language-5 = 5
+tag-page-shortcut-remove-tags = 9
+remove-tags = Wobznamjenja wótwónoźeś
+tag-page-shortcut-toogle-mouse-keyboard = 0
+tag-page-shortcut-tag-undo = Strg / CMD + Z
+undo = Anulěrowaś
 tag-error-toast-message = Zmólka pśi zapódawanju wobznamjenjow
 tag-empty-submit-error = Njedajo tekst, kótaryž musy se zapódaś. Pšosym markěrujśo nejpjerwjej tekst.
 # Code switching Guidelines

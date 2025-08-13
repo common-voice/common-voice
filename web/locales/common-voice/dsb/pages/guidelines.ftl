@@ -281,11 +281,17 @@ code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wugronjen
 code-switching-cleanup-3 = Změny pśeskócyś, kótarež se snadne abo małe zdaju – samo póžycone słowa su wažne.
 # Tagging
 code-switching-tagging-subheader = Markěrowanje
+code-switching-tagging-error-intro = Jolic transkripcija zmólku wopśimujo, wužywajśo pšosym pśizjawjeńsku funkciju, aby jen wóznamjenił. Móžne zmólki su:
+code-switching-tagging-error-1 = Wopacna interpunkcija abo wopacne wjelikopisanje
 code-switching-tagging-error-2 = Pisańske zmólki
+code-switching-tagging-error-3 = Słowa z pšawopisnymi zmólkami
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Korektny pšawopis za kuždu rěc wužywaś
 code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
 code-switching-not-tag-interjections-example-1 = „Eh“
 code-switching-not-tag-interjections-example-2 = „Ně“
 code-switching-not-tag-interjections-example-3 = „Jo“

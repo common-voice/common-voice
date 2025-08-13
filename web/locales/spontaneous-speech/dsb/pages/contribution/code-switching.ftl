@@ -6,6 +6,7 @@ cs-error-fetching-transcriptions = Pśi wótwołanju transkripcijow njejo se ně
 
 ## Question Page Items
 
+cs-question-page-instruction = Pśidajśo datowej sajźbje { $currentLocale } až do 25 pšašanjow <icon></icon>, na kótarež maju luźe wótegroniś
 cs-question-dataset-name = Datowa sajźba: { $datasetName }
 
 ## Validate Page Items
