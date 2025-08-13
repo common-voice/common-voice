@@ -281,6 +281,7 @@ code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wurjekowa
 code-switching-cleanup-3 = Změnjenja přeskočić, kotrež so snadne abo małe zdadźa – samo wupožčene słowa su wažne.
 # Tagging
 code-switching-tagging-subheader = Markěrowanje
+code-switching-tagging-error-intro = Jeli transkripcija zmylk wobsahuje, wužiwajće prošu zdźělensku funkciju, zo byšće jón woznamjenił. Móžne zmylki su:
 code-switching-tagging-error-1 = Wopačna interpunkcija abo wopačne wulkopisanje
 code-switching-tagging-error-2 = Pisanske zmylki
 code-switching-tagging-error-3 = Słowa z prawopisnymi zmylkami
