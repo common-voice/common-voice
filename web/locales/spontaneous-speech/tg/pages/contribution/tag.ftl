@@ -16,3 +16,12 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Бекор кардан
 tag-page-shortcut-select-all = А
 select-all = Ҳамаро интихоб кардан
+tag-error-toast-message = Хатогӣ дар ирсоли барчаспҳо
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Орфографияи дурустро истифода баред
+cs-tag-shortcuts-section-title = Истифодаи клавиатура
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Барчасп бо забон
+cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
+cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
+cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
+cs-tag-shortcuts-guideline-5 = <key>{ tag-page-shortcut-tag-undo }</key>{ undo }
