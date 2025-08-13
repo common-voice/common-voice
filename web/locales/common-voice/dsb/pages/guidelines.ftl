@@ -147,12 +147,18 @@ answer-questions = Wótegrońśo na pšašanja
 answer-questions-subheader = Powšykne pokazki
 answer-questions-tip-1 = Nagrajśo na někak śichem městnje
 answer-questions-tip-2 = Wubjeŕśo městno z dobrym internetnym zwiskom
+answer-questions-tip-3b = Wopytajśo, wašo wótegrono na 15-30 sekundow wobgranicowaś
+answer-questions-tip-4 = Wobiniśo se  gramoty połne, šćuwajuce  abo hynac kśiwźece powědanje
+answer-questions-tip-5 = Powědajśo pśirodnje, ako by wy to z pśijaśelom cynił – wužywajśo swójsku wariantu, swójski dialekt a swójski akcent
+answer-questions-tip-6 = Źaržćo swóju głosnosć jadnak – njeźeŕśo abo njespěwajśo
 # Transcribe the Audio
 transcribe-the-audio = Awdio transkriběrowaś
 transcribe-the-audio-subheader-1 = Powšykne pokazki
 transcribe-the-audio-subheader-2 = Licby a akronymy
 transcribe-the-audio-subheader-3 = Specialne wobznamjenja
 transcribe-the-audio-subheader-4 = Słowne segmenty, wopacne zachopjeńki, wóspjetowane słowa
+transcribe-the-audio-subheader-5 = Gramatiske zmólki a wobchadnorěcne wuraze
+transcribe-the-audio-subheader-1-explanation = Generelnje měł wy wšykno napisaś, což słyšyśo. To zapśimujo:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Pšawje</correct>: Jo sto kilometrow wót how zdalone.
 # text wrapped in wrong will be shown as red text in the UI
