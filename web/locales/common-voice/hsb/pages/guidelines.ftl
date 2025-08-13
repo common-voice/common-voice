@@ -274,6 +274,10 @@ code-switching-capture-explanation = Transkribujće wobě rěči kaž so jewitej
 code-switching-filler-header = Pjelnjace słowa a marki zapřijeć
 # Use standard spelling for each language
 code-switching-spelling-header = Standardny prawopis za kóždu rěč wužiwać
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Njerumujće abo njezjednorjejće rěč
+code-switching-cleanup-1 = Přełožće abo přepisajće – pisajće, štož rěčnik je prajił, nic štož je „měnił“.
+code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wurjekowanje – wobchowajće přirodne wužiće rěčnika.
 code-switching-tagging-error-2 = Pisanske zmylki
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
