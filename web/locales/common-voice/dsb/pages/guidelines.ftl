@@ -159,6 +159,12 @@ transcribe-the-audio-subheader-3 = Specialne wobznamjenja
 transcribe-the-audio-subheader-4 = Słowne segmenty, wopacne zachopjeńki, wóspjetowane słowa
 transcribe-the-audio-subheader-5 = Gramatiske zmólki a wobchadnorěcne wuraze
 transcribe-the-audio-subheader-1-explanation = Generelnje měł wy wšykno napisaś, což słyšyśo. To zapśimujo:
+transcribe-the-audio-subheader-1-explanation-example-1 = Pisanje njeběžnosćow, inkluziwnje wokomuźenja a wóspjetowanja
+transcribe-the-audio-subheader-1-explanation-example-2 = Wóznamjenjenje šumow ako kašel abo smjaśe
+transcribe-the-audio-subheader-1-explanation-example-3 = Njesnadne wobuzenje pśez šumy ako slězynowe plapotanje abo tšubadła awtow
+transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiske rozdźěle a slang měli se rowno tak nagraś kaž wustupuju. Njekorigěrujśo abo njewobźěłujśo powědanje luźi.
+transcribe-the-audio-subheader-2-explanation-1 = Licby a symbole měli se w słowach pisaś a nic z cyframi abo wósebnymi znamuškami. Pśikład:
+transcribe-the-audio-subheader-2-explanation-2 = Akronymy měli so pisaś, ako se w normalnem paźe w rěcy pišu, pó standardnych pšawidłach za wjelikopisanje. Njeměli se fonetiski transkriběrowaś. Pśikład:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Pšawje</correct>: Jo sto kilometrow wót how zdalone.
 # text wrapped in wrong will be shown as red text in the UI
@@ -169,6 +175,7 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Pšawje</correct>
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Wiźimy se w <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Pšawje</correct>: Dajo dwaźasća procentow rabata
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Dajo 20 % rabata
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Pšawje</correct>: Su se popajźili wót <underline>BKA</underline> zajźony stwórtk
 tags-table-header-1 = Wobznamjenje
 tags-table-header-2 = Wóznam
 tags-laugh = Smjaśe

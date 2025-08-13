@@ -163,7 +163,7 @@ transcribe-the-audio-subheader-1-explanation-example-1 = Pisanje njeběžnosćow
 transcribe-the-audio-subheader-1-explanation-example-2 = Woznamjenjenje šumow kaž kašel abo smjeće
 transcribe-the-audio-subheader-1-explanation-example-3 = Njesnadne wobćežowanje přez šumy kaž pozadkowe powědanje abo truby awtow
 transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiske rozdźěle a slang měli so runje tak natočić kaž wustupuja. Njekorigujće abo njewobdźěłujće rěčenje ludźi.
-transcribe-the-audio-subheader-2-explanation-1 = Ličby a symbole měli so w słowach pisać a nic z ličbnikami abo wosebitymi znamješkami. Přikład:
+transcribe-the-audio-subheader-2-explanation-1 = Ličby a symbole měli so w słowach pisać a nic z cyframi abo wosebitymi znamješkami. Přikład:
 transcribe-the-audio-subheader-2-explanation-2 = Akronymy měli so pisać, kaž so w normalnym padźe w rěči pisaja, po standardnych prawidłach za wulkopisanje. Njeměli so fonetisce transkribować. Přikład:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawje</correct>: Je sto kilometrow wottud zdalene.
