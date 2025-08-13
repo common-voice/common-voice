@@ -189,6 +189,7 @@ transcribe-the-audio-subheader-4-explanation-1 = Spontane rěčenje po přirodź
 transcribe-the-audio-subheader-4-explanation-1-example = Jeho mjeno je <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Druhdy rěčnicy słowo abo słowne fragmenty wjacekróć wospjetuja. To měło so tež transkribować. Přikład:
 transcribe-the-audio-subheader-4-explanation-2-example = A potom sym <underline>do, do, do, spanskeje, do</underline> spanskeje stwy šoł
+transcribe-the-audio-subheader-5-explanation-1 = Spontane rěčenje wězo gramatiske zmylki wobsahuje. Te njedyrbjeli so korigować, hdyž so transkribuja. Transkripcija měła rěčany wobsah dokładnje wotbłyšćować.
 
 ## Review the Transcription
 
