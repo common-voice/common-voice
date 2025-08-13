@@ -193,6 +193,11 @@ tags-unclear-explanation = Słowo abo słowna kupka, kótarejž njedatej se rozm
 special-tags-example-2 =
     A pótom som [šum] jěł do dowola.
     No, [šum] [smjaśe] njejo pópšawem był dowol [smjaśe]
+transcribe-the-audio-subheader-4-explanation-1 = Spontane powědanje pó pśiroźe njepšawe starty wopśimujo, źož se jano fragment słowa napórajo. Transkriběrujśo pšosym za toś te pady słowny fragment pó wašych nejlěpšych zamóžnosćach a pśidajśo wězawku (-) na kóńcu słowa, aby pódał, až słowo jo njepšawy start. Pśikład:
+transcribe-the-audio-subheader-4-explanation-1-example = Jogo mě jo <underline>Jo- Jona-</underline> Jonatan.
+transcribe-the-audio-subheader-4-explanation-2 = Wótergi powědarje słowo abo słowne fragmenty wěcej raz wóspjetuju. To měło se teke transkriběrowaś. Pśikład:
+transcribe-the-audio-subheader-4-explanation-2-example = A pótom som šeł <underline>do, do, do, spańskeje, do</underline> spańskeje śpy
+transcribe-the-audio-subheader-5-explanation-1 = Spontane powědaje zawěsće gramatiske zmólki wopśimujo. Te njedejali sw korigěrowaś, gaž se transkriběruju. Transkripcija měła powědane wopśimjeśe dokradnje wótbłyšćowaś.
 
 ## Review the Transcription
 

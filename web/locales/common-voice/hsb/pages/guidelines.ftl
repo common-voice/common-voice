@@ -193,7 +193,7 @@ tags-unclear-explanation = Słowo abo słowna skupina, kotrejž njehodźitej so 
 special-tags-example-2 =
     A potom sym [šum] do dowola jěł.
     Nó, [šum] [smjeće] njeje poprawom dowol był [smjeće]
-transcribe-the-audio-subheader-4-explanation-1 = Spontane rěčenje po přirodźe mylne starty wobsahuje, hdźež so jenož fragment słowa płodźi. Transkribujće prošu za tute pady słowny fragment po wašich lěpšich kmanosćach a přidajće wjazawku (-) na kóncu słowa, zo byšće podał, zo słowo je mylny start. Přikład:
+transcribe-the-audio-subheader-4-explanation-1 = Spontane rěčenje po přirodźe mylne starty wobsahuje, hdźež so jenož fragment słowa płodźi. Transkribujće prošu za tute pady słowny fragment po wašich najlěpšich kmanosćach a přidajće wjazawku (-) na kóncu słowa, zo byšće podał, zo słowo je mylny start. Přikład:
 transcribe-the-audio-subheader-4-explanation-1-example = Jeho mjeno je <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Druhdy rěčnicy słowo abo słowne fragmenty wjacekróć wospjetuja. To měło so tež transkribować. Přikład:
 transcribe-the-audio-subheader-4-explanation-2-example = A potom sym <underline>do, do, do, spanskeje, do</underline> spanskeje stwy šoł
