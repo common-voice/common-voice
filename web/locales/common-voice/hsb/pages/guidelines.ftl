@@ -229,6 +229,7 @@ code-switching-direct-quotes-explanation-example = „Kotre su waše eksaktne s�
 code-switching-cultural-topics-header = Wubjerće kulturnospecifiske temy
 code-switching-cultural-topics-explanation = Jědź, tradicije, swjate dny a swójbna dynamika husto k změnje rěčneho koda wjedu.
 code-switching-informal-scenarios-header = Wuslědźće informelne scenarije
+code-switching-informal-scenarios-explanation = Rozmołwy z přećelemi abo pisanje SMS husto přirodniše změnjenje wobsahuja. Přikład:
 code-switching-informal-scenarios-explanation-example = „Kotry žort waši přećeljo  přeco činja – a kak byšće jón powědał?“
 # What to Avoid
 code-switching-avoid-subheader = Što dyrbjał wy wobeńć
@@ -250,6 +251,7 @@ code-switching-review-no-2 = Prašenja, kotrež sej móhli rěčenja hidy abo dr
 code-switching-review-no-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne, potencielnje wuwołowace wotmołwy dźělić
 # Answering a Question
 code-switching-answer-subheader = Na prašenje wotmołwić
+code-switching-answer-bullet-2 = Předstajće sej, zo přećelej SMS pisaće abo stawizničku powědaće
 code-switching-answer-bullet-4 = Njeje „perfektna“ móžnosć za wotmołwu
 code-switching-authentic-header = Wotmołwće přirodnje a awtentisce
 # Don’t Overthink or Overedit
