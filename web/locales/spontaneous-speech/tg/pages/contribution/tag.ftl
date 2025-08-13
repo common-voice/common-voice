@@ -19,6 +19,8 @@ select-all = Ҳамаро интихоб кардан
 tag-error-toast-message = Хатогӣ дар ирсоли барчаспҳо
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Орфографияи дурустро истифода баред
+cs-tag-do-guideline-2 = Барои кумак аз талаффуз истифода баред
+cs-tag-do-not-guideline-1 = Номҳои мувофиқ, калимаҳои омехта ё фосилаҳоро қайд кунед
 cs-tag-shortcuts-section-title = Истифодаи клавиатура
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Барчасп бо забон
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
