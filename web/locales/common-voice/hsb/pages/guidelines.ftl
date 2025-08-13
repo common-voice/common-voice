@@ -198,6 +198,7 @@ transcribe-the-audio-subheader-4-explanation-1-example = Jeho mjeno je <underlin
 transcribe-the-audio-subheader-4-explanation-2 = Druhdy rěčnicy słowo abo słowne fragmenty wjacekróć wospjetuja. To měło so tež transkribować. Přikład:
 transcribe-the-audio-subheader-4-explanation-2-example = A potom sym <underline>do, do, do, spanskeje, do</underline> spanskeje stwy šoł
 transcribe-the-audio-subheader-5-explanation-1 = Spontane rěčenje wězo gramatiske zmylki wobsahuje. Te njedyrbjeli so korigować, hdyž so transkribuja. Transkripcija měła rěčany wobsah dokładnje wotbłyšćować.
+transcribe-the-audio-subheader-5-explanation-2 = Rěčnicy móža wobchadnorěčne wurazy wužiwać (na přikład „žno“, “šće“ atd. w hornjoserbšćinje), kotrež formalnje korektne njejsu. Tute měli so transkribować kaž su a njeměli so do swojich formelnych wotpowědnikow změnić.
 
 ## Review the Transcription
 
@@ -268,6 +269,9 @@ code-switching-answer-dont-formal-writing = <bold>Rěčće, kaž byšće formeln
 code-switching-answer-dont-translate-repeat = <bold>Přełožujće abo wospjetujće wšitko.</bold> Prošu prajće to jenož jónkróć, tak kaž by w rozmołwje wustupowało. Njetrjebaće wersiju wotmołwy w kóždej rěči prajić.
 # Transcribing
 code-switching-transcribe-subheader = Transkribować
+code-switching-capture-explanation = Transkribujće wobě rěči kaž so jewitej / klinčitej. Nje„porjedźejće“ rěč abo njeměnjejće jej do jenož jedneje rěče.
+# Include filler words and markers
+code-switching-filler-header = Pjelnjace słowa a marki zapřijeć
 # Use standard spelling for each language
 code-switching-spelling-header = Standardny prawopis za kóždu rěč wužiwać
 code-switching-tagging-error-2 = Pisanske zmylki
