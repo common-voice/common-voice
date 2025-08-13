@@ -204,13 +204,16 @@ code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne k
 code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
 code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
 code-switching-use-bilingual-prompts-explanation = Wužiwajće dwurěčne namołwy, kotrež wobě rěči we wašim prašenju wopřijimaja: Přikład:
+code-switching-informal-scenarios-explanation-example = „Kotry žort waši přećeljo  přeco činja – a kak byšće jón powědał?“
 # What to Avoid
 code-switching-avoid-subheader = Što dyrbjał wy wobeńć
 code-switching-avoid-intro = Prašenja, kotrež:
+code-switching-avoid-1 = Informacije požadać, kotrež wosoby identifikuja
 code-switching-dont-header = Špatne
 code-switching-dont-1 = Njewužiwajće přeformalnu rěč
 # Reviewing a Question
 code-switching-review-subheader = Prašenje přepruwować
+code-switching-review-intro = Zaručće, zo prašenje kriterijam wotpowěduje:
 code-switching-review-criterion-1 = lochko rozumić być a na so wotmołwić dać
 code-switching-review-criterion-2 = powšitkownje relewantne być
 code-switching-review-criterion-3 = křiwdźacu abo njepřistojnu rěč njewužiwać
