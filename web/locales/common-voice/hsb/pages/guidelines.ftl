@@ -181,6 +181,7 @@ tags-unclear = Njejasny
 tags-noise = Šum
 tags-laugh-explanation = Zynk smjeća.
 tags-unclear-explanation = Słowo abo słowna skupina, kotrejž njehodźitej so rozumić.
+transcribe-the-audio-subheader-4-explanation-1-example = Jeho mjeno je <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Druhdy rěčnicy słowo abo słowne fragmenty wjacekróć wospjetuja. To měło so tež transkribować. Přikład:
 transcribe-the-audio-subheader-4-explanation-2-example = A potom sym <underline>do, do, do, spanskeje, do</underline> spanskeje stwy šoł
 
@@ -204,6 +205,8 @@ code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne k
 code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
 code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
 code-switching-use-bilingual-prompts-explanation = Wužiwajće dwurěčne namołwy, kotrež wobě rěči we wašim prašenju wopřijimaja: Přikład:
+code-switching-ask-bilingual-contexts-header = Prašejće so za dwurěčnymi kontekstami
+code-switching-cultural-topics-header = Wubjerće kulturnospecifiske temy
 code-switching-informal-scenarios-explanation-example = „Kotry žort waši přećeljo  přeco činja – a kak byšće jón powědał?“
 # What to Avoid
 code-switching-avoid-subheader = Što dyrbjał wy wobeńć
