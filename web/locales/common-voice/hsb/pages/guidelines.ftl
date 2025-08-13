@@ -6,7 +6,7 @@ sentence-collection = Zběrka sadow
 question-collection = Zběrka prašenjow
 scripted-speech = Rěčenje ze skriptom
 spontaneous-speech = Spontane rěčenje
-dont-subheader = Špatne
+dont-subheader = Wopak:
 
 ## Voice Collection nav ids
 
@@ -236,7 +236,7 @@ code-switching-informal-scenarios-explanation-example = „Kotry žort waši př
 code-switching-avoid-subheader = Što dyrbjał wy wobeńć
 code-switching-avoid-intro = Prašenja, kotrež:
 code-switching-avoid-1 = Informacije požadać, kotrež wosoby identifikuja
-code-switching-dont-header = Špatne
+code-switching-dont-header = Wopak:
 code-switching-dont-1 = Njewužiwajće přeformalnu rěč
 # Reviewing a Question
 code-switching-review-subheader = Prašenje přepruwować
@@ -279,7 +279,11 @@ code-switching-cleanup-header = Njerumujće abo njezjednorjejće rěč
 code-switching-cleanup-1 = Přełožće abo přepisajće – pisajće, štož rěčnik je prajił, nic štož je „měnił“.
 code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wurjekowanje – wobchowajće přirodne wužiće rěčnika.
 code-switching-cleanup-3 = Změnjenja přeskočić, kotrež so snadne abo małe zdadźa – samo wupožčene słowa su wažne.
+# Tagging
+code-switching-tagging-subheader = Markěrowanje
+code-switching-tagging-error-1 = Wopačna interpunkcija abo wopačne wulkopisanje
 code-switching-tagging-error-2 = Pisanske zmylki
+code-switching-tagging-error-3 = Słowa z prawopisnymi zmylkami
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
