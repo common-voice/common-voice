@@ -26,10 +26,10 @@ request-language-success-list-3 = Se non ricevi una risposta entro un paio di gi
 request-language-error =
     Può darsi che non abbiamo ricevuto la tua richiesta. Invia un’email direttamente all’indirizzo
     <emailLink>{ $email }</emailLink> e ti risponderemo.
-request-for-scripted-speech-toggle = Richiesta di Discorso con trascrizione
+request-for-scripted-speech-toggle = Richiesta di discorso letto
 request-for-spontaneous-speech-toggle = Richiesta di Discorso spontaneo
 need-help-deciding-platform = Hai bisogno di aiuto per decidere quale scegliere?
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-platform-explanation-1 = Con <strong>Discorso con trascrizione</strong> (conosciuto come Common Voice) puoi leggere ad alta voce frasi nella tua lingua.
+need-help-deciding-platform-explanation-1 = Con il <strong>discorso letto</strong> (conosciuto come Common Voice) puoi leggere ad alta voce frasi nella tua lingua.
 need-help-deciding-platform-explanation-2 = <strong>Discorso spontaneo</strong> è una nuova parte di Common Voice in cui puoi rispondere alle domande in modo più organico e colloquiale.
 need-help-deciding-platform-explanation-3 = Se non vedi la tua lingua in nessuna delle due parti della piattaforma, seleziona entrambe.
