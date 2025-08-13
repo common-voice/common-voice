@@ -260,6 +260,10 @@ code-switching-authentic-header = Wótegrońśo pśirodnje a awtentiski
 code-switching-authentic-speak = <bold>Powědajśo, ako by wy to z pśijaśelami abo swójźbu cynił.</bold> Jolic rěcy w napšawdnem žywjenju měšaśo, cyńśo to samske how. Pśikład:
 code-switching-authentic-speak-example = „Nun, som jej gronił, až njamógu pśiś, ale wóna jo groniła ‚By było lěpje‘, gaby pśišeł!“
 code-switching-use-both-languages = <bold>Wužywajśo wobej rěcy, jolic by gronił to tak w normalnem paźe.</bold> Jo samo wužytnje, gaž jano jadno słowo abo dwě słowje změnjaśo. Pśikład:
+code-switching-use-both-languages-example = „Jo se napšawdu sćakliła, weil njejsom ju zazwónił.“
+code-switching-authentic-direct-quotes = <bold>Zasajźćo direktne citaty abo dialog.</bold> Grońśo eksaktnje, což něchten jo gronił, nic pórěźonu abo formelnu wersiju. Pśikład:
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Njepśemyslujśo abo njewobźěłujśo pśewjele
 # Transcribing
 code-switching-transcribe-subheader = Transkriběrowaś
 # Use standard spelling for each language
