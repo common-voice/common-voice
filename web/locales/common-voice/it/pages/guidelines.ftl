@@ -197,6 +197,7 @@ tags-noise-explanation =
 special-tags-example-2 =
     E poi [noise] sono andato in vacanza.
     Be', [noise] [laugh] non era esattamente una vacanza [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Il discorso spontaneo contiene naturalmente false partenze in cui viene prodotta solo una parte di una parola intera. In questi casi, trascrivi al meglio la parte della parola pronunciata e aggiungi un trattino alla fine della parola (-) per indicare che è una falsa partenza. Esempio:
 transcribe-the-audio-subheader-4-explanation-1-example = Si chiama <underline>Gio- Giova-</underline> Giovanni.
 transcribe-the-audio-subheader-4-explanation-2 = A volte le persone potrebbero ripetere più volte una parola o una parte di una parola. Anche questo deve essere trascritto. Esempio:
 transcribe-the-audio-subheader-4-explanation-2-example = E poi sono andato in <underline>in in in ca- in</underline> camera da letto

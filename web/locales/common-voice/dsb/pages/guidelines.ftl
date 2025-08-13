@@ -264,6 +264,9 @@ code-switching-use-both-languages-example = „Jo se napšawdu sćakliła, weil 
 code-switching-authentic-direct-quotes = <bold>Zasajźćo direktne citaty abo dialog.</bold> Grońśo eksaktnje, což něchten jo gronił, nic pórěźonu abo formelnu wersiju. Pśikład:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepśemyslujśo abo njewobźěłujśo pśewjele
+code-switching-answer-dont-correct-language = <bold>„Njekorigěrujśo“ swóju rěc.</bold> To njejo test. „Pšawa“ forma how njejo wažna, ale pśirodna rěc.
+code-switching-answer-dont-formal-writing = <bold>Powědajśo, ako by formelnje pisał.</bold> Wobiniśo se formelnych, akademiskich wótegronow. Wužywajśo rěc, kótaraž jo zwucona za rozgrona.
+code-switching-answer-dont-translate-repeat = <bold>Pśełožujśo abo wóspjetujśo wšykno.</bold> Pšosym grońśo to jano jaden raz, tak ako by w rozgronje wustupowało. Njetrjebaśo wersiju wótegrona w kuždej rěcy groniś.
 # Transcribing
 code-switching-transcribe-subheader = Transkriběrowaś
 # Use standard spelling for each language
