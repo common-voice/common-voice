@@ -207,6 +207,7 @@ code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
 code-switching-use-bilingual-prompts-explanation = Wužiwajće dwurěčne namołwy, kotrež wobě rěči we wašim prašenju wopřijimaja: Přikład:
 code-switching-ask-bilingual-contexts-header = Prašejće so za dwurěčnymi kontekstami
 code-switching-cultural-topics-header = Wubjerće kulturnospecifiske temy
+code-switching-cultural-topics-explanation = Jědź, tradicije, swjate dny a swójbna dynamika husto k změnje rěčneho koda wjedu.
 code-switching-informal-scenarios-explanation-example = „Kotry žort waši přećeljo  přeco činja – a kak byšće jón powědał?“
 # What to Avoid
 code-switching-avoid-subheader = Što dyrbjał wy wobeńć
