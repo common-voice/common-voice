@@ -198,6 +198,7 @@ transcribe-the-audio-subheader-4-explanation-1-example = Jogo mě jo <underline>
 transcribe-the-audio-subheader-4-explanation-2 = Wótergi powědarje słowo abo słowne fragmenty wěcej raz wóspjetuju. To měło se teke transkriběrowaś. Pśikład:
 transcribe-the-audio-subheader-4-explanation-2-example = A pótom som šeł <underline>do, do, do, spańskeje, do</underline> spańskeje śpy
 transcribe-the-audio-subheader-5-explanation-1 = Spontane powědaje zawěsće gramatiske zmólki wopśimujo. Te njedejali sw korigěrowaś, gaž se transkriběruju. Transkripcija měła powědane wopśimjeśe dokradnje wótbłyšćowaś.
+transcribe-the-audio-subheader-5-explanation-2 = Powědarje mógu wobchadnorěcne wuraze wužywaś (na pśikład „žno“, “šće“ atd. w górnoserbšćinje), kótarež formelnje njejsu korektne. Toś te měli se transkriběrowaś ako su a njeměli se do swójich formelnych wótpowědnikow změniś.
 
 ## Review the Transcription
 
@@ -206,6 +207,7 @@ review-the-transcription-subheader = Powšykne pokazki
 
 ## Code-Switching
 
+code-switching = Změnjanje koda
 adding-a-question = Pšašanje pśidaś
 # Adding a Question
 code-switching-adding-question-subheader = Co jo dobre pšašanje?
@@ -216,6 +218,7 @@ code-switching-adding-question-criteria-3 = Kśiwjecu abo njepśistojnu rěc nje
 code-switching-adding-question-note = Móžośo teke rozwažowaś, rozdźělne konteksty a domeny zapśimjeś.
 # What types of questions to add
 code-switching-types-subheader = Kótare typy pšašanjow maju se pśidaś?
+code-switching-use-bilingual-prompts-header = Dwójorěcne naspominanja wužywaś
 code-switching-avoid-intro = Pšašanja, kótarež:
 code-switching-dont-header = Špatne
 # Reviewing a Question
