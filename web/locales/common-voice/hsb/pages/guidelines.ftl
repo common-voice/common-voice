@@ -264,6 +264,8 @@ code-switching-authentic-direct-quotes = <bold>Zasadźće direktne citaty abo di
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepřemyslujće abo njewobdźěłujće přewjele
 code-switching-answer-dont-correct-language = <bold>„Njekorigujće“ swoju rěč.</bold> To test njeje. „Prawa“ forma tu wažna njeje, ale přirodna rěč.
+code-switching-answer-dont-formal-writing = <bold>Rěčće, kaž byšće formelnje pisał.</bold> Wobeńdźće formelne, akademiske wotmołwy. Wužiwajće rěč, kotraž je zwučena za rozmołwy.
+code-switching-answer-dont-translate-repeat = <bold>Přełožujće abo wospjetujće wšitko.</bold> Prošu prajće to jenož jónkróć, tak kaž by w rozmołwje wustupowało. Njetrjebaće wersiju wotmołwy w kóždej rěči prajić.
 # Transcribing
 code-switching-transcribe-subheader = Transkribować
 # Use standard spelling for each language
