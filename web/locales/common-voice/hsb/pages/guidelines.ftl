@@ -185,6 +185,9 @@ tags-disfluency = Njeběžnosć
 tags-unclear = Njejasny
 tags-noise = Šum
 tags-laugh-explanation = Zynk smjeća.
+tags-disfluency-explanation =
+    Pjelnjace słowo abo pjelnjacy zwuk, kotrejž so jako zastupnik wužiwatej, mjeztym zo rěčnik rozsudźa, štož ma prajić.
+    W hornjoserbšćinje su „em“, „eh“, „hm“ atd. někotre běžne zwuki dlijenja.
 tags-unclear-explanation = Słowo abo słowna skupina, kotrejž njehodźitej so rozumić.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
@@ -225,6 +228,7 @@ code-switching-direct-quotes-explanation = Pozbudźće wobdźělnikow reprodukow
 code-switching-direct-quotes-explanation-example = „Kotre su waše eksaktne słowa, hdyž sće něšto won dóstał?“
 code-switching-cultural-topics-header = Wubjerće kulturnospecifiske temy
 code-switching-cultural-topics-explanation = Jědź, tradicije, swjate dny a swójbna dynamika husto k změnje rěčneho koda wjedu.
+code-switching-informal-scenarios-header = Wuslědźće informelne scenarije
 code-switching-informal-scenarios-explanation-example = „Kotry žort waši přećeljo  přeco činja – a kak byšće jón powědał?“
 # What to Avoid
 code-switching-avoid-subheader = Što dyrbjał wy wobeńć
