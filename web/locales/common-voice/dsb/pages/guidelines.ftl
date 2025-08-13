@@ -256,6 +256,10 @@ code-switching-answer-bullet-1 = Mysliśo na wokognuśa napšawdnego žywjenja: 
 code-switching-answer-bullet-2 = Pśedstajśo se, až pśijaśeloju SMS pišośo abo tšojeńko wulicujośo
 code-switching-answer-bullet-3 = Wužywajśo słowa, kótarež by wy napšawdu wužywał, samo gaby póžycone abo měšane byli
 code-switching-answer-bullet-4 = Njedajo „perfektnu“ móžnosć za wótegrono
+code-switching-authentic-header = Wótegrońśo pśirodnje a awtentiski
+code-switching-authentic-speak = <bold>Powědajśo, ako by wy to z pśijaśelami abo swójźbu cynił.</bold> Jolic rěcy w napšawdnem žywjenju měšaśo, cyńśo to samske how. Pśikład:
+code-switching-authentic-speak-example = „Nun, som jej gronił, až njamógu pśiś, ale wóna jo groniła ‚By było lěpje‘, gaby pśišeł!“
+code-switching-use-both-languages = <bold>Wužywajśo wobej rěcy, jolic by gronił to tak w normalnem paźe.</bold> Jo samo wužytnje, gaž jano jadno słowo abo dwě słowje změnjaśo. Pśikład:
 # Transcribing
 code-switching-transcribe-subheader = Transkriběrowaś
 # Use standard spelling for each language
