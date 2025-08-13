@@ -251,9 +251,12 @@ code-switching-review-no-2 = Prašenja, kotrež sej móhli rěčenja hidy abo dr
 code-switching-review-no-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne, potencielnje wuwołowace wotmołwy dźělić
 # Answering a Question
 code-switching-answer-subheader = Na prašenje wotmołwić
+code-switching-answer-bullet-1 = Myslće na wokomiki woprawdźiteho žiwjenja: žorty, argumenty, tradicije
 code-switching-answer-bullet-2 = Předstajće sej, zo přećelej SMS pisaće abo stawizničku powědaće
+code-switching-answer-bullet-3 = Wužiwajće słowa, kotrež byšće woprawdźe wužiwał, byrnjež wupožčene abo měšane byli
 code-switching-answer-bullet-4 = Njeje „perfektna“ móžnosć za wotmołwu
 code-switching-authentic-header = Wotmołwće přirodnje a awtentisce
+code-switching-authentic-speak = <bold>Rěčće, kaž byšće to z přećelemi abo swójbu činił.</bold> Jeli rěče we woprawdźitym žiwjenju měšeće, čińće samsne tu. Přikład:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepřemyslujće abo njewobdźěłujće přewjele
 code-switching-answer-dont-correct-language = <bold>„Njekorigujće“ swoju rěč.</bold> To test njeje. „Prawa“ forma tu wažna njeje, ale přirodna rěč.
