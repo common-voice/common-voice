@@ -221,6 +221,12 @@ code-switching-types-subheader = Kótare typy pšašanjow maju se pśidaś?
 code-switching-use-bilingual-prompts-header = Dwójorěcne naspominanja wužywaś
 code-switching-ask-bilingual-contexts-header = Pšašajśo se za dwójorěcnymi kontekstami
 code-switching-ask-bilingual-contexts-explanation = Wužywajśo situacije, źož se wobej rěcy zwětšego wužywatej (na pś. doma, w šuli, na tšojenjach zgromaźeństwa). Pśikład:
+code-switching-focus-emotional-explanation = Luźe cesto rěcny kod změnjaju, gaž zacuśa abo nuznosć wugroniju. Pśikład:
+code-switching-focus-emotional-explanation-example = „Grońśo mě, což wašej starjejšej stej groniłej, gaž sćo wulicył jima swóje wjelike nowosći – rowno kak stej to groniłej.“
+code-switching-direct-quotes-header = Pšašajśo se za direktnymi citatami abo rekonstrukcijami
+code-switching-direct-quotes-explanation = Pózbuźćo wobźělniki reproducěrowaś, kak wěcy su se napšawdu gronili. Pśikład:
+code-switching-direct-quotes-explanation-example = „Kótare su waše eksaktne słowa, gaž sćo zgónił wó tom?“
+code-switching-cultural-topics-header = Wubjeŕśo za kulturu specifiske temy
 code-switching-avoid-intro = Pšašanja, kótarež:
 code-switching-dont-header = Špatne
 # Reviewing a Question
