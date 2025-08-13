@@ -19,9 +19,11 @@ interface Props {
   onLocaleChange?: (props: string) => void
 }
 
-
-const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Props) => {
-
+const LocalizationSelectComplex = ({
+  locale,
+  userLanguages,
+  onLocaleChange,
+}: Props) => {
   const getAvailableLocalesWithNames = () => {
     const initialAvailableLocalesWithNames = useNativeNameAvailableLocales()
     // Get user languages to top of the list
@@ -104,16 +106,18 @@ const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Pr
               {items.map((item, index) => (
                 <div
                   key={item}
-                  className={
-                    classNames(
-                      'list-item-wrapper', {
-                      'highlighted': index === highlightedIndex,
-                      'userlanguage': userLanguages && userLanguages.length > 0 && index <= userLanguages.length - 1,
-                      'lastuserlanguage': userLanguages && userLanguages.length > 0 && index === userLanguages.length - 1,
-                    }
-                    )
-                  }
-                >
+                  className={classNames('list-item-wrapper', {
+                    highlighted: index === highlightedIndex,
+                    selecteduserlanguage:
+                      userLanguages &&
+                      userLanguages.length > 0 &&
+                      index <= userLanguages.length - 1 &&
+                      item === locale,
+                    lastuserlanguage:
+                      userLanguages &&
+                      userLanguages.length > 0 &&
+                      index === userLanguages.length - 1,
+                  })}>
                   <li {...getItemProps({ item })}>
                     {getLocaleWithName(item).name}
                   </li>
@@ -129,9 +133,9 @@ const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Pr
               ))}
             </ul>
           </div>
-        </div >
+        </div>
       )}
-    </LocalizedGetAttribute >
+    </LocalizedGetAttribute>
   )
 }
 
