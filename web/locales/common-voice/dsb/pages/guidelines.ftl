@@ -219,6 +219,8 @@ code-switching-adding-question-note = Móžośo teke rozwažowaś, rozdźělne k
 # What types of questions to add
 code-switching-types-subheader = Kótare typy pšašanjow maju se pśidaś?
 code-switching-use-bilingual-prompts-header = Dwójorěcne naspominanja wužywaś
+code-switching-ask-bilingual-contexts-header = Pšašajśo se za dwójorěcnymi kontekstami
+code-switching-ask-bilingual-contexts-explanation = Wužywajśo situacije, źož se wobej rěcy zwětšego wužywatej (na pś. doma, w šuli, na tšojenjach zgromaźeństwa). Pśikład:
 code-switching-avoid-intro = Pšašanja, kótarež:
 code-switching-dont-header = Špatne
 # Reviewing a Question
