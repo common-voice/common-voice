@@ -215,6 +215,8 @@ code-switching-ask-bilingual-contexts-header = Prašejće so za dwurěčnymi kon
 code-switching-ask-bilingual-contexts-explanation = Wužiwajće situacije, hdźež so wobě rěči zwjetša wužiwatej (na př. doma, w šuli, na podawkach zhromadźenstwa). Přikład:
 code-switching-focus-emotional-explanation = Ludźo husto rěčny kod měnjeja, hdyž začuća abo nuznosć zwuraznjeja. Přikład:
 code-switching-focus-emotional-explanation-example = „Prajće mi, štož wašej staršej stej prajiłoj, hdyž sće jim swoje wulke nowosće powědał – runje kak stej to prajiłoj.“
+code-switching-direct-quotes-header = Prašejće so za direktnymi citatami abo rekonstrukcijemi
+code-switching-direct-quotes-explanation = Pozbudźće wobdźělnikow reprodukować, kak su so wěcy woprawdźe prajili. Přikład:
 code-switching-direct-quotes-explanation-example = „Kotre su waše eksaktne słowa, hdyž sće něšto won dóstał?“
 code-switching-cultural-topics-header = Wubjerće kulturnospecifiske temy
 code-switching-cultural-topics-explanation = Jědź, tradicije, swjate dny a swójbna dynamika husto k změnje rěčneho koda wjedu.
@@ -239,6 +241,10 @@ code-switching-review-no-2 = Prašenja, kotrež sej móhli rěčenja hidy abo dr
 code-switching-review-no-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne, potencielnje wuwołowace wotmołwy dźělić
 # Answering a Question
 code-switching-answer-subheader = Na prašenje wotmołwić
+code-switching-answer-bullet-4 = Njeje „perfektna“ móžnosć za wotmołwu
+code-switching-authentic-header = Wotmołwće přirodnje a awtentisce
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Njepřemyslujće abo njewobdźěłujće přewjele
 # Transcribing
 code-switching-transcribe-subheader = Transkribować
 # Use standard spelling for each language
