@@ -4,6 +4,7 @@ guidelines-header-subtitle = Scopri come collaborare e convalidare frasi e regis
 voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
+scripted-speech = Discorso letto
 spontaneous-speech = Discorso spontaneo
 
 ## Voice Collection nav ids
