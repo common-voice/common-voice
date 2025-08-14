@@ -89,7 +89,7 @@
         font-size: var(--font-size);
         text-overflow: ellipsis;
         overflow-x: hidden;
-        text-transform: capitalize;
+        /* text-transform: capitalize; */
         cursor: pointer;
         line-height: 24px;
         letter-spacing: 0.8px;
