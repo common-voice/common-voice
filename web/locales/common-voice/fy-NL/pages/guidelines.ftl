@@ -179,6 +179,7 @@ review-the-transcription-subheader = Algemiene rjochtlinen
 
 ## Code-Switching
 
+adding-a-question = In fraach tafoegje
 # Adding a Question
 code-switching-adding-question-subheader = Hoe sjocht in goede fraach derút?
 code-switching-adding-question-explanation = In goede fraach foar gegevenssets foar publykspartisipaasje moat:

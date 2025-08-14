@@ -216,10 +216,14 @@ code-switching-use-bilingual-prompts-explanation-example = « Que t’a dit ta 
 code-switching-ask-bilingual-contexts-header = Posez des questions sur les contextes bilingues
 code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
 code-switching-direct-quotes-header = Demandez des citations directes ou à reproduire une situation
-code-switching-direct-quotes-explanation = Incitez les participant·e·s à restituer fidèlement ce qui a été dit. Par exemple :
+code-switching-direct-quotes-explanation = Incitez les participant·e·s à restituer fidèlement ce qui a été dit. Par exemple :
 code-switching-direct-quotes-explanation-example = « Quels étaient vos mots exacts quand vous l’avez découvert ? »
 code-switching-cultural-topics-header = Choisissez des sujets spécifiques à votre culture
 code-switching-cultural-topics-explanation = La nourriture, les traditions, les fêtes et la dynamique familiale invitent souvent à l’alternance codique.
+code-switching-cultural-topics-explanation-example = « Comment décrivez-vous Día de los Muertos à quelqu’un qui ne parle que le français ? »
+code-switching-informal-scenarios-header = Explorez des scénarios informels
+code-switching-informal-scenarios-explanation = Lors de conversations avec des amis ou de conversations par SMS, l’alternance codique se fait souvent de façon plus naturelle. Par exemple :
+code-switching-informal-scenarios-explanation-example = « Quelle est la blague que vos amis racontent à chaque fois, et comment la disent-ils ? »
 # What to Avoid
 code-switching-avoid-subheader = Ce qu’il faut éviter
 # Reviewing a Question
@@ -235,3 +239,6 @@ code-switching-review-no-2 = Des questions qui pourraient susciter des propos ha
 code-switching-review-no-3 = Des questions qui peuvent amener un·e internaute à partager des informations sensibles et pouvant déclencher des réactions.
 # Answering a Question
 code-switching-answer-subheader = Répondre à une question
+code-switching-answer-bullet-3 = Utilisez des mots que vous utiliseriez réellement, même s’il sont empruntés ou un mélange de différentes langues
+code-switching-answer-bullet-4 = Il n’y a pas de façon « idéale » de répondre
+code-switching-authentic-header = Répondez de façon naturelle et authentique

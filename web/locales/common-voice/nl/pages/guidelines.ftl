@@ -149,7 +149,20 @@ example-questions-explanation-2 = Als u een reeks vragen voor opname wilt indien
 # Answer Questions
 answer-questions = Vragen beantwoorden
 answer-questions-subheader = Algemene richtlijnen
+answer-questions-tip-1 = Neem op een redelijk rustige plek op
+answer-questions-tip-2 = Kies een plek met een goede internetverbinding
+answer-questions-tip-3b = Probeer uw antwoord binnen 15-30 seconden te houden
+answer-questions-tip-4 = Vermijd haatdragende, opruiende of anderszins beledigende taal
+answer-questions-tip-5 = Praat natuurlijk, zoals u zou doen met een vriend – gebruik uw eigen echte variant, dialect en accent
+answer-questions-tip-6 = Houd uw volume consistent - roep of zing niet
+# Transcribe the Audio
+transcribe-the-audio = De audio transcriberen
+transcribe-the-audio-subheader-1 = Algemene richtlijnen
+transcribe-the-audio-subheader-2 = Getallen en acroniemen
 transcribe-the-audio-subheader-3 = Speciale labels
+transcribe-the-audio-subheader-4 = Woordsegmenten, valse starts, herhaalde woorden
+transcribe-the-audio-subheader-5 = Grammaticale fouten en spreektaal
+transcribe-the-audio-subheader-1-explanation = In het algemeen dient u alles wat u hoort op te schrijven. Dit omvat;
 tags-table-header-1 = Label
 tags-table-header-2 = Betekenis
 tags-laugh = Lachen
@@ -175,8 +188,10 @@ code-switching-adding-question-note = U kunt ook overwegen verschillende context
 code-switching-avoid-subheader = Wat te vermijden
 code-switching-avoid-intro = Vragen die mogelijk:
 code-switching-dont-header = Niet doen
+code-switching-dont-1 = Gebruik geen al te formele taal
 # Reviewing a Question
 code-switching-review-subheader = Een vraag beoordelen
+code-switching-review-intro = Zorg ervoor dat de vraag aan de criteria voldoet:
 code-switching-review-criterion-1 = Eenvoudig te begrijpen en te beantwoorden zijn
 code-switching-review-criterion-2 = Algemeen relevant zijn
 code-switching-review-criterion-3 = Geen schadelijke of beledigende taal gebruiken of erom vragen
@@ -186,5 +201,7 @@ code-switching-answer-header = Beledigende inhoud of gevoelige informatie
 code-switching-review-no-1 = Vragen waarbij mogelijk om persoonlijk identificeerbare informatie wordt gevraagd
 code-switching-review-no-2 = Vragen die kunnen aanzetten tot haat of andere bevooroordeelde of beledigende gevoelens
 code-switching-review-no-3 = Vragen die ervoor kunnen zorgen dat iemand gevoelige, mogelijk activerende antwoorden deelt
+# Answering a Question
+code-switching-answer-subheader = Een vraag beantwoorden
 # Transcribing
 code-switching-transcribe-subheader = Transcriberen
