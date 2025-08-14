@@ -2,15 +2,14 @@ const PROFILE = '/profile'
 const DASHBOARD = '/dashboard'
 const DEMO = '/demo'
 const SPONTANEOUS_SPEECH = '/spontaneous-speech/beta'
-const SPONTANEOUS_SPEECH_PROD_ROOT_URL =
-  'https://commonvoice.mozilla.org/spontaneous-speech/beta'
+const SPONTANEOUS_SPEECH_ROOT_URL = `${window.location.origin}${SPONTANEOUS_SPEECH}`
 
 export default Object.freeze({
   ABOUT: '/about',
   AWARDS: '/awards',
   CHALLENGE: '/challenge',
   CHALLENGE_TERMS: '/challenge-terms',
-  CHECK_TRANSCRIPT: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/check-transcript',
+  CHECK_TRANSCRIPT: SPONTANEOUS_SPEECH_ROOT_URL + '/check-transcript',
   CRITERIA: '/criteria',
   DASHBOARD,
   DATA: '/data', // old, here for redirect purposes
@@ -41,13 +40,13 @@ export default Object.freeze({
   PROFILE_INFO: PROFILE + '/info',
   PROFILE_SETTINGS: PROFILE + '/settings',
   PROFILE_API_CREDENTIALS: PROFILE + '/api-credentials',
-  PROMPTS: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/prompts',
-  QUESTION: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/question',
+  PROMPTS: SPONTANEOUS_SPEECH_ROOT_URL + '/prompts',
+  QUESTION: SPONTANEOUS_SPEECH_ROOT_URL + '/question',
   RECORD: '/record', // old, here for redirect purposes
   REVIEW: '/review',
-  REVIEW_QUESTIONS: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/validate',
+  REVIEW_QUESTIONS: SPONTANEOUS_SPEECH_ROOT_URL + '/validate',
   ROOT: '',
-  TRANSCRIBE: SPONTANEOUS_SPEECH_PROD_ROOT_URL + '/transcribe',
+  TRANSCRIBE: SPONTANEOUS_SPEECH_ROOT_URL + '/transcribe',
   S3_CDN: 'https://cdn.commonvoice.mozilla.org',
   SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
   SPEAK: '/speak',
