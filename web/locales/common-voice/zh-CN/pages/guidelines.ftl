@@ -162,3 +162,31 @@ transcribe-the-audio-subheader-1-explanation-example-3 = 标记明显的噪音�
 transcribe-the-audio-subheader-1-explanation-example-4 = 遇到非标准语法和俚语时，应如实记录。不要更正或窜改他人发言。
 transcribe-the-audio-subheader-2-explanation-1 = 数字和符号应以字词形式写出，而不应使用数字和特殊符号。示例：
 transcribe-the-audio-subheader-2-explanation-2 = 缩略语应采用标准的大写规则，以语言中的常规写法写出，而不应按发音转写。示例：
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>正确</correct>：那里离这一百公里
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>错误</wrong>：那里离这 100 公里
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>正确</correct>：二零一五年见
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>错误</wrong>：2015 年见
+transcribe-the-audio-subheader-2-example-3-correct = <correct>正确</correct>：便宜了百分之二十
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>错误</wrong>：便宜了 20%
+transcribe-the-audio-subheader-2-example-4-correct = <correct>正确</correct>：将网线插入 <underline>LAN</underline> 口
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>错误</wrong>：将网线插入<underline>缆</underline>口
+transcribe-the-audio-subheader-3-explanation = 使用以下特殊标签来标记卡顿、垫词，以及其它类型的非言语内容。
+tags-table-header-1 = 标签
+tags-table-header-2 = 含义
+tags-laugh = 笑声
+tags-disfluency = 卡顿
+tags-unclear = 模糊
+tags-noise = 噪音
+tags-laugh-explanation = 笑声
+tags-disfluency-explanation = 说话人在组织语言时，为避免停顿而用的垫词或垫音，常见的迟疑音有“呃”“嗯”“啊”等。
+tags-unclear-explanation = 无法理解的一个或一串字词。
+tags-noise-explanation = 其他所有类型的噪音，例如说话者的咳嗽或清嗓声、汽车鸣笛声、麦克风被敲击的声音、手机震动声等。
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 = 然后我就 [noise] 去度假了。其实 [noise] [laugh] 也不太算是假期 [laugh]
+transcribe-the-audio-subheader-4-explanation-1-example = 他叫<underline>张——张三</underline>。
+transcribe-the-audio-subheader-4-explanation-2 = 有时说话人会多次重复某个字词或字词片段，此部分也应转录。示例：
+transcribe-the-audio-subheader-5-explanation-1 = 即兴发言难免包含语法错误，转录时不应更正这些错误。转录文本应如实记录说话内容。
