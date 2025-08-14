@@ -196,3 +196,19 @@ code-switching-authentic-header = Antwurdzje natuerlik en autentyk
 code-switching-answer-dont-subheader = Net tefolle neitinke of oerbewurkje
 code-switching-tagging-error-1 = Ferkearde ynterpunksje of haadletters
 code-switching-tagging-error-2 = Typflaters
+code-switching-tagging-error-3 = Wurden skreaun yn de ferkearde ortografy
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = De krekte ortografy brûke foar elke taal
+code-switching-pronunciation-explanation-example-1 = Ingelsk: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spaansk: /ˈkable/
+code-switching-not-tag-proper-names-example-2 = Plakken: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Merken/Organisaasjes: Target, Burger King
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = "Nee"
+code-switching-not-tag-interjections-example-3 = "Ja"
+code-switching-not-tag-interjections-example-4 = "Eh"
+
+## Reporting Content
+
+reporting-content = Ynhâld rapportearje
+reporting-content-subheader = Algemiene rjochtlinen

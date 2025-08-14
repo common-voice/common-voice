@@ -197,15 +197,25 @@ transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé d
 review-the-transcription-subheader = Instructions générales
 review-the-transcription-explanation-1 = En général, nous recommandons que la personne responsable de la vérification de la transcription ne soit pas celle qui a réalisé la transcription initiale. Il est très difficile de réviser son propre travail ! Disposer de plusieurs niveaux de révision peut renforcer l’assurance qualité et contribuer à limiter les biais et les problèmes.
 review-the-transcription-explanation-2 = Consultez les consignes relatives aux transcriptions ci-dessus pour vous assurer de l’exactitude d’une transcription. Vous pouvez apporter des modifications et les envoyer.
+review-the-transcription-explanation-3 = Encore une fois, vous pouvez signaler tout contenu choquant, néfaste ou inquiétant, et vous ne le verrez plus jusqu’à ce que l’équipe Common Voice ait pu l’examiner et mener une enquête approfondie.
 
 ## Code-Switching
 
+code-switching = Alternance codique
 adding-a-question = Ajouter une question
 # Adding a Question
 code-switching-adding-question-subheader = Quels sont les critères d’une bonne question ?
 code-switching-adding-question-explanation = Une question pertinente pour les jeux de données à participation publique doit :
 code-switching-adding-question-criteria-1 = Être facile à comprendre et à répondre
 code-switching-adding-question-criteria-2 = Être globalement pertinente
+# What types of questions to add
+code-switching-types-subheader = Quels types de questions ajouter ?
+code-switching-use-bilingual-prompts-header = Posez des questions bilingues
+code-switching-use-bilingual-prompts-explanation = Posez des questions bilingues qui intègrent les deux langues : Par exemple :
+code-switching-use-bilingual-prompts-explanation-example = « Que t’a dit ta mère when you got home that day ? »
+code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
+# What to Avoid
+code-switching-avoid-subheader = Ce qu’il faut éviter
 # Reviewing a Question
 code-switching-review-subheader = Vérifier une question
 code-switching-review-intro = Assurez-vous que la question répond à ces critères :
