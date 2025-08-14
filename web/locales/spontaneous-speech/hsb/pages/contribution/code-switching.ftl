@@ -13,6 +13,7 @@ cs-question-dataset-name = Datowa sadźba: { $datasetName }
 
 cs-validate-page-instruction = Přepruwujće, <validateIcon></validateIcon> hač tute prašenje směrnicam wotpowěduje
 cs-no-questions-continue-skipped = Dalše prašenja za tutu datowu sadźbu njejsu. Jeli sće prašenja přeskočił, móžeće z přeskočenym wobsahom pokročować abo awdio transkribować a pozdźišo znowa spytać.
+cs-add-vote-error-message = Při wothłosowanju wo prašenju je zmylk nastał
 
 ## Transcribe Page Items
 
