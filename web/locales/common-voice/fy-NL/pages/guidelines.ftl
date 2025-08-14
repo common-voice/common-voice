@@ -4,6 +4,9 @@ guidelines-header-subtitle = Lear hoe’t jo sinnen en audiofragminten oan de Co
 voice-collection = Spraakkolleksje
 sentence-collection = Sinnensamling
 question-collection = Fragensamling
+scripted-speech = Scriptspraak
+spontaneous-speech = Spontane spraak
+dont-subheader = Net dwaan
 
 ## Voice Collection nav ids
 
@@ -140,3 +143,12 @@ offensive-content-sensitive-information-explanation-explanation-3 = Fragen dy’
 example-questions-subheader = Foarbyldfragen
 example-questions-explanation-1 = Jo fine <examplePromptsLink>120 foarbyldprompts yn dit blêd.</examplePromptsLink>
 example-questions-explanation-2 = As jo in rige fragen foar opname yntsjinje wolle, kinne jo <githubLink>dit dwaan fia ús GitHub</githubLink> of jo list e-maile nei <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Fragen beäntwurdzje
+answer-questions-subheader = Algemiene rjochtlinen
+answer-questions-tip-1 = Nim op in reedlik rêstich plak op
+answer-questions-tip-2 = Kies in plak mei in goede ynternetferbining
+answer-questions-tip-3b = Probearje jo antwurd binnen 15-30 sekonden te hâlden
