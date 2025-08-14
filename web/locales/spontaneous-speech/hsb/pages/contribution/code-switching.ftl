@@ -7,6 +7,7 @@ cs-error-fetching-transcriptions = Při wotwołanju transkripcijow je so něšto
 ## Question Page Items
 
 cs-question-page-instruction = Přidajće datowej sadźbje { $currentLocale } hač do 25 prašenjow <icon></icon>, na kotrež maja ludźo wotmołwić
+cs-add-question-textarea-placeholder = Zapodajće prašenje ze změnu rěče, jedne na linku. Ludźo najskerje ze změnu rěče wotmołwjeće, hdyž prašenje tež změnu rěče wobsahuje.
 cs-question-dataset-name = Datowa sadźba: { $datasetName }
 
 ## Validate Page Items
@@ -32,3 +33,7 @@ cs-tag-dataset-name = Datowa sadźba: [{ $datasetName }]
 
 learn-how-to-use = Zhońće, kak móžeće tutu stronu wužiwać
 read-full-guidelines-here = <guidanceLink>Čitajće tu dospołne směrnicy</guidanceLink>
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Transkripcija měła kóžde słowo abo njeleksikalny rozmołwny zynk zapřijeć, kotrež je wosoba rjekła, inkluziwnje wospjetowanja.

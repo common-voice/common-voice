@@ -33,5 +33,6 @@ do-not-section-guideline-3 = Sensibelne prašenja stajić
 # Code switching Guidelines
 cs-do-section-guideline-1 = Dwurěčne prašenja abo dwurěčny kontekst wužiwać
 cs-do-section-guideline-2 = Wuslědźće informelne scenarije, situacije abo rekonstrukcije
+cs-do-not-section-guideline-1 = Wosobinske informacije (kaž mjena abo financne informacije) abo křiwdźace nalady požadać
 cs-do-not-section-guideline-2 = Wo změnjenje rěče prosyć abo přełožk požadać
 cs-do-not-section-guideline-3 = Přeformalnu rěč wužiwać
