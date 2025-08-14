@@ -25,6 +25,7 @@ tag-empty-submit-error = Njedajo tekst, kótaryž musy se zapódaś. Pšosym mar
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Korektny pšawopis wužywaś
 cs-tag-do-guideline-2 = Wugronjenje ako pomoc wužywaś
+cs-tag-do-guideline-3 = Glědajśo za pódobnje wuglědajucymi słowami
 cs-tag-do-not-guideline-1 = Swójske mjenja, měšane słowa abo interjekcije markěrowaś
 cs-tag-shortcuts-section-title = Wužywanje tastatury
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Z rěcu wóznamjeniś

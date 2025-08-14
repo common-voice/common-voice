@@ -32,5 +32,6 @@ do-not-section-guideline-2 = Pśedsudkowne abo njepśistojne měnjenja zwurazni�
 do-not-section-guideline-3 = Sensibelne pšašanja stajiś
 # Code switching Guidelines
 cs-do-section-guideline-1 = Dwójorěcne pšašanja abo dwójorěcny kontekst wužywaś
+cs-do-section-guideline-2 = Wuslěźćo informelne scenariumy, situacije abo rekonstrukcije
 cs-do-not-section-guideline-2 = Wó změnjanje rěcy pšosyś abo pśełožk póžedaś
 cs-do-not-section-guideline-3 = Pśeliš formalnu rěc wužywaś

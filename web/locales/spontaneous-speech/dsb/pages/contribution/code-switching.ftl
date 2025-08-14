@@ -13,6 +13,7 @@ cs-question-dataset-name = Datowa sajźba: { $datasetName }
 
 cs-validate-page-instruction = Pśeglědajśo <validateIcon></validateIcon>, lěc toś to pšašanje směrnicam wótpowědujo.
 cs-no-questions-continue-skipped = Njedajo dalšne pšašanja za toś tu datowu sajźbu. Jolic sćo pśeskócył pšašanja, móžośo z pśeskóconym wopśimjeśim pókšacowaś abo awdio transkriběrowaś a pózdźej znowego wopytaś.
+cs-add-vote-error-message = Pśi wótgłosowanju wó pšašanju jo zmólka nastała
 
 ## Transcribe Page Items
 

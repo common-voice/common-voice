@@ -287,6 +287,8 @@ code-switching-tagging-error-2 = Pisańske zmólki
 code-switching-tagging-error-3 = Słowa z pšawopisnymi zmólkami
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny pšawopis za kuždu rěc wužywaś
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Wugronjenje za zwěsćenje rěcy wužywaś
 code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
