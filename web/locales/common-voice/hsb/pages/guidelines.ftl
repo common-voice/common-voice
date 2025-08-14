@@ -287,6 +287,8 @@ code-switching-tagging-error-2 = Pisanske zmylki
 code-switching-tagging-error-3 = Słowa z prawopisnymi zmylkami
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Wurjekowanje za zwěsćenje rěče wužiwać
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
