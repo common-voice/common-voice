@@ -7,6 +7,7 @@ cs-error-fetching-transcriptions = Pśi wótwołanju transkripcijow njejo se ně
 ## Question Page Items
 
 cs-question-page-instruction = Pśidajśo datowej sajźbje { $currentLocale } až do 25 pšašanjow <icon></icon>, na kótarež maju luźe wótegroniś
+cs-add-question-textarea-placeholder = Zapódajśo pšašanje ze změnu rěcy, jadno na smužku. Luźe nejskerjej ze změnu rěcy wótegranjaśo, gaž pšašanje teke změnu rěcy wopśimujo.
 cs-question-dataset-name = Datowa sajźba: { $datasetName }
 
 ## Validate Page Items
