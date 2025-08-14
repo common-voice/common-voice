@@ -166,7 +166,7 @@ review-the-transcription-subheader = Algemene richtlijnen
 adding-a-question = Een vraag toevoegen
 # Adding a Question
 code-switching-adding-question-subheader = Hoe ziet een goede vraag eruit?
-code-switching-adding-question-explanation = Een goede vraag voor datasets voor publieksparticipatie moet:
+code-switching-adding-question-explanation = Een goede vraag voor gegevenssets voor publieksparticipatie moet:
 code-switching-adding-question-criteria-1 = Eenvoudig te begrijpen en te beantwoorden zijn
 code-switching-adding-question-criteria-2 = Algemeen relevant zijn
 code-switching-adding-question-criteria-3 = Geen schadelijke of beledigende taal gebruiken of erom vragen

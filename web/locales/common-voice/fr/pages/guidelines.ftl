@@ -215,6 +215,11 @@ code-switching-use-bilingual-prompts-explanation = Posez des questions bilingues
 code-switching-use-bilingual-prompts-explanation-example = « Que t’a dit ta mère when you got home that day ? »
 code-switching-ask-bilingual-contexts-header = Posez des questions sur les contextes bilingues
 code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
+code-switching-direct-quotes-header = Demandez des citations directes ou à reproduire une situation
+code-switching-direct-quotes-explanation = Incitez les participant·e·s à restituer fidèlement ce qui a été dit. Par exemple :
+code-switching-direct-quotes-explanation-example = « Quels étaient vos mots exacts quand vous l’avez découvert ? »
+code-switching-cultural-topics-header = Choisissez des sujets spécifiques à votre culture
+code-switching-cultural-topics-explanation = La nourriture, les traditions, les fêtes et la dynamique familiale invitent souvent à l’alternance codique.
 # What to Avoid
 code-switching-avoid-subheader = Ce qu’il faut éviter
 # Reviewing a Question

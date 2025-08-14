@@ -181,6 +181,13 @@ review-the-transcription-subheader = Algemiene rjochtlinen
 
 # Adding a Question
 code-switching-adding-question-subheader = Hoe sjocht in goede fraach derút?
+code-switching-adding-question-explanation = In goede fraach foar gegevenssets foar publykspartisipaasje moat:
+code-switching-adding-question-criteria-1 = Ienfâldich te begripen en te beäntwurdzjen wêze
+code-switching-adding-question-criteria-2 = Algemien relevant wêze
+code-switching-adding-question-criteria-3 = Gjin skeadlike of beledigjende taal brûke of derom freegje
+code-switching-adding-question-note = Jo kinne ek beskôgje om ferskate konteksten en domeinen te behanneljen.
+# What types of questions to add
+code-switching-types-subheader = Hokker soarten fragen ta te foegjen?
 # What to Avoid
 code-switching-avoid-subheader = Wat te mijen
 code-switching-avoid-intro = Fragen dy’t mooglik:
@@ -205,6 +212,12 @@ code-switching-answer-subheader = In fraach beäntwurdzje
 code-switching-authentic-header = Antwurdzje natuerlik en autentyk
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Net tefolle neitinke of oerbewurkje
+# Transcribing
+code-switching-transcribe-subheader = Transkribearje
+# Use standard spelling for each language
+code-switching-spelling-header = Brûk standert stavering foar elke taal
+# Tagging
+code-switching-tagging-subheader = Labelje
 code-switching-tagging-error-1 = Ferkearde ynterpunksje of haadletters
 code-switching-tagging-error-2 = Typflaters
 code-switching-tagging-error-3 = Wurden skreaun yn de ferkearde ortografy
@@ -212,6 +225,7 @@ code-switching-tagging-error-3 = Wurden skreaun yn de ferkearde ortografy
 code-switching-orthography-header = De krekte ortografy brûke foar elke taal
 code-switching-pronunciation-explanation-example-1 = Ingelsk: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Spaansk: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Minsken: Marie, Jan
 code-switching-not-tag-proper-names-example-2 = Plakken: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merken/Organisaasjes: Target, Burger King
 code-switching-not-tag-interjections-example-1 = "Eh"

@@ -26,3 +26,4 @@ do-not-section-title = net dwaan
 do-not-section-guideline-1 = Freegje om persoanlik identifisearjende ynformaasje (lykas nammen of finansjele ynformaasje)
 do-not-section-guideline-2 = Foaroardielen of beledigjende gefoelens uterje of dernei freegje
 do-not-section-guideline-3 = Gefoelige fragen stelle
+cs-do-not-section-guideline-3 = Brûk dúdlik formele taal

@@ -1,5 +1,9 @@
 ## Tagging Page
 
+tag-page-instruction = Selektearje <icon></icon> de tekst om te begjinnen
+tag-terms-checkbox = Ik gean akkoard mei de betingsten en privacy fan Common Voice.
+tag-popover-title = Selektearje in label
+select-a-tag = Selektearje in label
 edit-tag = Label bewurkje
 # Shortcuts modal
 tag-page-shortcut-tag-language-1 = 1
@@ -18,6 +22,7 @@ select-all = Alles selektearje
 # Messages
 tag-success-toast-message = Labels mei sukses yntsjinne
 tag-error-toast-message = Flater by it yntsjinjen fan labels
+tag-empty-submit-error = Gjin tekst om yn te tsjinjen. Labelje earst wat tekst.
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Brûk de krekte ortografy
 cs-tag-do-guideline-2 = Brûk útspraak om te helpen
