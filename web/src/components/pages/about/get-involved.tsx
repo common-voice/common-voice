@@ -1,17 +1,17 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import { Link } from 'react-router-dom';
-import { DiscourseLink, MatrixLink } from '../../shared/links';
-import { DiscourseIconCode, MailIcon } from '../../ui/icons';
-import RoundButton from '../../ui/round-button';
-import VisuallyHidden from '../../visually-hidden/visually-hidden';
-import { SECTIONS } from './constants';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import { Link } from 'react-router-dom'
+import { DiscourseLink, MatrixLink } from '../../shared/links'
+import { DiscourseIconCode, MailIcon } from '../../ui/icons'
+import RoundButton from '../../ui/round-button'
+import VisuallyHidden from '../../visually-hidden/visually-hidden'
+import { SECTIONS } from './constants'
 
-import './get-involved.css';
+import './get-involved.css'
 
 type Props = {
-  isSubscribedToMailingList?: boolean;
-};
+  isSubscribedToMailingList?: boolean
+}
 
 const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
   return (
@@ -35,7 +35,7 @@ const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
           </Localized>
 
           {!isSubscribedToMailingList && (
-            <p>
+            <div>
               <RoundButton>
                 <Link
                   to={`#${SECTIONS.SUBSCRIBE}`}
@@ -53,10 +53,10 @@ const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
                 }}>
                 <span />
               </Localized>
-            </p>
+            </div>
           )}
 
-          <p>
+          <div>
             <RoundButton>
               <DiscourseLink data-testid="discourse-button">
                 <VisuallyHidden>Discourse</VisuallyHidden>
@@ -71,11 +71,11 @@ const GetInvolved: React.FC<Props> = ({ isSubscribedToMailingList }) => {
               }}>
               <span />
             </Localized>
-          </p>
+          </div>
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default GetInvolved;
+export default GetInvolved
