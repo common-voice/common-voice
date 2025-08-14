@@ -152,3 +152,47 @@ answer-questions-subheader = Algemiene rjochtlinen
 answer-questions-tip-1 = Nim op in reedlik rêstich plak op
 answer-questions-tip-2 = Kies in plak mei in goede ynternetferbining
 answer-questions-tip-3b = Probearje jo antwurd binnen 15-30 sekonden te hâlden
+answer-questions-tip-4 = Foarkom haatlike, opstokende of oars beledigjende spraak
+answer-questions-tip-5 = Sprek natuerlik, lykas jo dwaan soene mei in freon - brûk jo eigen echte fariant, dialekt en aksint
+answer-questions-tip-6 = Hâld jo folume konsekwint - rop of sjong net
+# Transcribe the Audio
+transcribe-the-audio = Transkribearje de audio
+transcribe-the-audio-subheader-1 = Algemiene rjochtlinen
+transcribe-the-audio-subheader-2 = Sifers en ôfkoartingen
+transcribe-the-audio-subheader-3 = Spesjale labels
+transcribe-the-audio-subheader-4 = Wurdsegminten, falske begjinpunten, werhelle wurden
+transcribe-the-audio-subheader-5 = Grammatikale flaters en sprektaal
+transcribe-the-audio-subheader-1-explanation = Yn it algemien moatte jo alles opskriuwe wat jo hearre. Dit omfettet;
+transcribe-the-audio-subheader-1-explanation-example-1 = It opskriuwen fan fariaasjes, ynklusyf wifkjen en werhellingen
+transcribe-the-audio-subheader-1-explanation-example-2 = Lûden lykas hoastjen of laitsjen labelje
+tags-table-header-1 = Label
+tags-table-header-2 = Betsjutting
+
+## Code-Switching
+
+# What to Avoid
+code-switching-avoid-subheader = Wat te mijen
+code-switching-avoid-intro = Fragen dy’t mooglik:
+code-switching-avoid-1 = Freegje om persoanlik identifisearbere ynformaasje
+code-switching-avoid-2 = Freegje om haatspraak of oare befoaroardiele of beledigjende gefoelens
+code-switching-dont-header = Net dwaan
+code-switching-dont-1 = Brûk gjin te formele taal
+# Reviewing a Question
+code-switching-review-subheader = In fraach beoardiele
+code-switching-review-intro = Soargje derfoar dat de fraach oan de kritearia foldocht:
+code-switching-review-criterion-1 = Ienfâldich te begripen en te beäntwurdzjen wêze
+code-switching-review-criterion-2 = Algemien relevant wêze
+code-switching-review-criterion-3 = Gjin skeadlike of beledigjende taal brûke of derom freegje
+code-switching-review-does-not-header = En <bold>BEFETTET NET</bold>:
+code-switching-review-offensive-content = <bold>Beledigjende ynhâld of gefoelige ynformaasje</bold>
+code-switching-answer-header = Beledigjende ynhâld of gefoelige ynformaasje
+code-switching-review-no-1 = Fragen wêrby mooglik om persoanlik identifisearbere ynformaasje frege wurdt
+code-switching-review-no-2 = Fragen dy’t oansette kinne ta haat of oare befoaroardiele of beledigjende gefoelens
+code-switching-review-no-3 = Fragen dy’t derfoar soargje kinne dat ien gefoelige, mooglik aktivearjende antwurden dielt
+# Answering a Question
+code-switching-answer-subheader = In fraach beäntwurdzje
+code-switching-authentic-header = Antwurdzje natuerlik en autentyk
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Net tefolle neitinke of oerbewurkje
+code-switching-tagging-error-1 = Ferkearde ynterpunksje of haadletters
+code-switching-tagging-error-2 = Typflaters

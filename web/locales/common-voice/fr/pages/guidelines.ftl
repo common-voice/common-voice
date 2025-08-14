@@ -192,6 +192,12 @@ transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underli
 transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
 transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre
 
+## Review the Transcription
+
+review-the-transcription-subheader = Instructions générales
+review-the-transcription-explanation-1 = En général, nous recommandons que la personne responsable de la vérification de la transcription ne soit pas celle qui a réalisé la transcription initiale. Il est très difficile de réviser son propre travail ! Disposer de plusieurs niveaux de révision peut renforcer l’assurance qualité et contribuer à limiter les biais et les problèmes.
+review-the-transcription-explanation-2 = Consultez les consignes relatives aux transcriptions ci-dessus pour vous assurer de l’exactitude d’une transcription. Vous pouvez apporter des modifications et les envoyer.
+
 ## Code-Switching
 
 adding-a-question = Ajouter une question
