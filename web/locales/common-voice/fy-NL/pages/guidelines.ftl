@@ -167,9 +167,20 @@ transcribe-the-audio-subheader-1-explanation-example-1 = It opskriuwen fan faria
 transcribe-the-audio-subheader-1-explanation-example-2 = Lûden lykas hoastjen of laitsjen labelje
 tags-table-header-1 = Label
 tags-table-header-2 = Betsjutting
+tags-laugh = Laitsje
+tags-unclear = Undúdlik
+tags-noise = Rûs
+tags-laugh-explanation = It lûd fan laitsjen.
+
+## Review the Transcription
+
+review-the-transcription = De transkripsje beoardiele
+review-the-transcription-subheader = Algemiene rjochtlinen
 
 ## Code-Switching
 
+# Adding a Question
+code-switching-adding-question-subheader = Hoe sjocht in goede fraach derút?
 # What to Avoid
 code-switching-avoid-subheader = Wat te mijen
 code-switching-avoid-intro = Fragen dy’t mooglik:

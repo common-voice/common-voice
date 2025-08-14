@@ -21,3 +21,8 @@ tag-error-toast-message = Flater by it yntsjinjen fan labels
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Brûk de krekte ortografy
 cs-tag-do-guideline-2 = Brûk útspraak om te helpen
+cs-tag-shortcuts-section-title = Toetseboerdgebrûk
+cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
+cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
+cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
+cs-tag-shortcuts-guideline-5 = <key>{ tag-page-shortcut-tag-undo }</key> { undo }

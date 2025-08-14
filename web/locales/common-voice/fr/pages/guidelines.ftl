@@ -213,6 +213,7 @@ code-switching-types-subheader = Quels types de questions ajouter ?
 code-switching-use-bilingual-prompts-header = Posez des questions bilingues
 code-switching-use-bilingual-prompts-explanation = Posez des questions bilingues qui intègrent les deux langues : Par exemple :
 code-switching-use-bilingual-prompts-explanation-example = « Que t’a dit ta mère when you got home that day ? »
+code-switching-ask-bilingual-contexts-header = Posez des questions sur les contextes bilingues
 code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
 # What to Avoid
 code-switching-avoid-subheader = Ce qu’il faut éviter
