@@ -4,6 +4,7 @@ guidelines-header-subtitle = Κατανοήστε τον τρόπο συνεισ
 voice-collection = Συλλογή φωνών
 sentence-collection = Συλλογή προτάσεων
 question-collection = Συλλογή ερωτήσεων
+scripted-speech = Ομιλία με σενάριο
 spontaneous-speech = Αυθόρμητη ομιλία
 
 ## Voice Collection nav ids
