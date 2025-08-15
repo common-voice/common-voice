@@ -138,3 +138,20 @@ transcribe-the-audio-subheader-2-example-4-correct = <correct>Дуруст</rect
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Нодуруст</wrong>: Онҳоро рӯзи панҷшанбеи гузашта <underline>эф бее ейе</underline> боздошт карданд.
 tags-table-header-2 = Маъно
 tags-laugh = Ханда
+tags-disfluency = Мушкилот
+tags-unclear = Норавшан
+tags-noise = Сарусадо
+tags-laugh-explanation = Садои ханда.
+
+## Review the Transcription
+
+review-the-transcription = Овонависиро баррасӣ намудан
+review-the-transcription-subheader = Роҳнамои умумӣ
+
+## Code-Switching
+
+adding-a-question = Илова кардани саволҳо
+# Adding a Question
+code-switching-adding-question-subheader = Саволи хуб бояд чӣ гуна бошад?
+# What types of questions to add
+code-switching-types-subheader = Кадом намуди саволҳоро илова кардан лозим аст?
