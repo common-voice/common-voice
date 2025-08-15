@@ -266,6 +266,7 @@ code-switching-review-no-2 = Prašenja, kotrež sej móhli rěčenja hidy abo dr
 code-switching-review-no-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne, potencielnje wuwołowace wotmołwy dźělić
 # Answering a Question
 code-switching-answer-subheader = Na prašenje wotmołwić
+code-switching-answer-intro = Cil wotmołwy na prašenje je, zo přirodnje wotmołwjeće – runje tak kaž w rozmołwje we woprawdźitym žiwjenju. Chcemy zwěsćić, kak so rěče poprawom we wšědnym rěčenju měšeja.
 code-switching-answer-bullet-1 = Myslće na wokomiki woprawdźiteho žiwjenja: žorty, argumenty, tradicije
 code-switching-answer-bullet-2 = Předstajće sej, zo přećelej SMS pisaće abo stawizničku powědaće
 code-switching-answer-bullet-3 = Wužiwajće słowa, kotrež byšće woprawdźe wužiwał, byrnjež wupožčene abo měšane byli
