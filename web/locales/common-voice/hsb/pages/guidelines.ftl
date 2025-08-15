@@ -289,6 +289,8 @@ code-switching-answer-dont-force-switch = <bold>Wunuzujće změnjenje rěče, je
 code-switching-answer-dont-translate-repeat = <bold>Přełožujće abo wospjetujće wšitko.</bold> Prošu prajće to jenož jónkróć, tak kaž by w rozmołwje wustupowało. Njetrjebaće wersiju wotmołwy w kóždej rěči prajić.
 # Transcribing
 code-switching-transcribe-subheader = Transkribować
+code-switching-transcribe-intro = Hdyž wotmołwy transkribujeće, kotrež změnu rěče wobsahuja, předstajće rěč rěčnika tak, kaž je so rěčała – bjez korekturow, wobdźěłanjow abo zjednorjenjow. to za wšě změny mjez rěčemi, informelne rěčenje a słowa z rozdźělnych rěčow płaći.
+code-switching-transcribe-do-1 = Wothrajće krótke segmenty wjacekróć, zo byšće subtilne změny spóznał
 code-switching-capture-explanation = Transkribujće wobě rěči kaž so jewitej / klinčitej. Nje„porjedźejće“ rěč abo njeměnjejće jej do jenož jedneje rěče.
 # Include filler words and markers
 code-switching-filler-header = Pjelnjace słowa a marki zapřijeć
