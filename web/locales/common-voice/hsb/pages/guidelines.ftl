@@ -319,6 +319,8 @@ code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
 code-switching-pronunciation-header = Wurjekowanje za zwěsćenje rěče wužiwać
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Markěrowanje w jeničkim tokenje
 code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
