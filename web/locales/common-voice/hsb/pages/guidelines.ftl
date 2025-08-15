@@ -191,6 +191,9 @@ tags-disfluency-explanation =
     Pjelnjace słowo abo pjelnjacy zwuk, kotrejž so jako zastupnik wužiwatej, mjeztym zo rěčnik rozsudźa, štož ma prajić.
     W hornjoserbšćinje su „em“, „eh“, „hm“ atd. někotre běžne zwuki dlijenja.
 tags-unclear-explanation = Słowo abo słowna skupina, kotrejž njehodźitej so rozumić.
+tags-noise-explanation =
+    Kóžda družina šuma, na přikład hdyž rěčnik kašluje abo  zakašluje,
+    awto trubi, něšto mikrofon trjechi, telefon, kotryž zynči atd.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     A potom sym [šum] do dowola jěł.
