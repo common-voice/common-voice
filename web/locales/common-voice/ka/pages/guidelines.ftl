@@ -182,6 +182,7 @@ transcribe-the-audio-subheader-3-explanation = მოცემული სა�
 tags-table-header-1 = ჭდე
 tags-table-header-2 = მნიშვნელობა
 tags-laugh = სიცილი
+tags-unclear = გაუგებარი
 
 ## Code-Switching
 
