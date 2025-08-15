@@ -124,3 +124,17 @@ transcribe-the-audio = Табдил додани аудио ба матн
 transcribe-the-audio-subheader-1 = Роҳнамои умумӣ
 transcribe-the-audio-subheader-2 = Рақамҳо ва ихтисорот
 transcribe-the-audio-subheader-4 = Порчаҳои калима, кӯшиши ноком, калимаҳои такрорӣ
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Дуруст</correct>: Аз ин ҷо сад мил дур аст
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Нодуруст</wrong>: Он аз ин ҷо 100 мил дур аст
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Дуруст</ дуруст>: Соли <underline>ду ҳазору понздаҳ</underline> вомехӯрем
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Нодуруст</wrong>: Соли <underline>2015</underline> вомехурем
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Дуруст</correct>: Он бист дарсад арзон буд
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Нодуруст</wrong>: 20% тахфиф буд
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Дуруст</rect>: Онҳоро рӯзи панҷшанбеи гузашта <underline>«FBI»</underline> боздошт карданд.
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Нодуруст</wrong>: Онҳоро рӯзи панҷшанбеи гузашта <underline>эф бее ейе</underline> боздошт карданд.
+tags-table-header-2 = Маъно
+tags-laugh = Ханда
