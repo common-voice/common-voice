@@ -4,6 +4,8 @@ guidelines-header-subtitle = გაეცანით, როგორ უნდ
 voice-collection = ხმების შეგროვება
 sentence-collection = წინადადების შეგროვება
 question-collection = კითხვების შეგროვება
+scripted-speech = წერითი მეტყველება
+spontaneous-speech = ზეპირი მეტყველება
 
 ## Voice Collection nav ids
 
@@ -136,3 +138,8 @@ offensive-content-sensitive-information-explanation-explanation-3 = კითხ
 example-questions-subheader = შეკითხვის ნიმუშები
 example-questions-explanation-1 = მაგალითისთვის იხილეთ <examplePromptsLink>შეკითხვის 120 ნიმუში მოცემულ ცნობარში.</examplePromptsLink>
 example-questions-explanation-2 = თუ გსურთ კითხვების ერთიანად გადმოგზავნა შეტანისთვის, <githubLink>შეგიძლიათ გამოიყენოთ ჩვენი GitHub</githubLink> ან მოგვაწოდოთ ჩამონათვალი ელფოსტაზე <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = კითხვებზე პასუხი
