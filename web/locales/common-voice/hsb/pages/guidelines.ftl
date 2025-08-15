@@ -227,6 +227,7 @@ code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne k
 code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
 code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
 code-switching-use-bilingual-prompts-explanation = Wužiwajće dwurěčne namołwy, kotrež wobě rěči we wašim prašenju wopřijimaja: Přikład:
+code-switching-use-bilingual-prompts-explanation-example = „Was hat deine Mama gesagt, hdyž sće so tón dźeń domoj wróćił?“
 code-switching-ask-bilingual-contexts-header = Prašejće so za dwurěčnymi kontekstami
 code-switching-ask-bilingual-contexts-explanation = Wužiwajće situacije, hdźež so wobě rěči zwjetša wužiwatej (na př. doma, w šuli, na podawkach zhromadźenstwa). Přikład:
 code-switching-focus-emotional-explanation = Ludźo husto rěčny kod měnjeja, hdyž začuća abo nuznosć zwuraznjeja. Přikład:
