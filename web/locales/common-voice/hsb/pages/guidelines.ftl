@@ -145,6 +145,7 @@ example-questions-explanation-2 = Jeli chceće rjad prašenjow za zapřijeće za
 # Answer Questions
 answer-questions = Wotmołwće na prašenja
 answer-questions-subheader = Powšitkowne pokazki
+answer-questions-explanation-1 = Přemysliće wokomik namołwu,  rozmyslće, štož chceće prajić, ale njepisajće přewjele. Klikńće na symbol ‚natočić‘. Hdyž sće natočił, móžeće na sebje słuchać, znowa natočić abo wotpósłać.
 answer-questions-tip-1 = Natočće na někak ćichim městnje
 answer-questions-tip-2 = Wubjerće městno z dobrym internetnym zwiskom
 answer-questions-tip-3b = Spytajće, wašu wotmołwu na 15-30 sekundow wobmjezować
