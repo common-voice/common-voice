@@ -10,6 +10,7 @@ cs-locale-change-modal-subtitle = Шумо дар ин саҳифа тағйир
 
 ## Question Page Items
 
+cs-question-page-instruction = Ба маҷмуи маълумоти { $currentLocale } то 25 савол <icon></icon> илова кунед, то одамон ҷавоб диҳанд
 cs-question-dataset-name = Маҷмуи маълумот: { $datasetName }
 
 ## Validate Page Items

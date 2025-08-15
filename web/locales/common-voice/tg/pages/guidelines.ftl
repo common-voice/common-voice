@@ -4,6 +4,8 @@ guidelines-header-subtitle = Маълумот гиред, ки шумо чӣ т�
 voice-collection = Маҷмуи овозҳо
 sentence-collection = Ҷамъоварии ҷумлаҳо
 question-collection = Ҷамъоварии саволҳо
+scripted-speech = Нутқи намоишнома
+spontaneous-speech = Лоиҳаи «Spontaneous Speech»
 
 ## Voice Collection nav ids
 
@@ -107,3 +109,11 @@ offensive-content-sensitive-information-explanation-explanation-2 = Саволҳ
 example-questions-subheader = Саволҳои намунавӣ
 example-questions-explanation-1 = Шумо метавонед <examplePromptsLink>120 намунаи саволҳоро дар ин ҷадвал пайдо кунед.</examplePromptsLink>
 example-questions-explanation-2 = Агар шумо хоҳед, ки як қисми саволҳоро барои қабул пешниҳод кунед, шумо <githubLink>метавонед ин корро тавассути «GitHub»</githubLink>-и мо анҷом диҳед ё рӯйхати худро ба почтаи <emailFragment>«commonvoice@mozilla.com»</emailFragment> фиристед.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Ба саволҳо ҷавоб диҳед
+answer-questions-subheader = Роҳнамои умумӣ
+answer-questions-tip-1 = Дар ҷои нисбатан ором сабт кунед
+answer-questions-tip-2 = Ҷойеро бо пайвасти интернети хуб интихоб кунед
