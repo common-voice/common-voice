@@ -117,3 +117,10 @@ answer-questions = Ба саволҳо ҷавоб диҳед
 answer-questions-subheader = Роҳнамои умумӣ
 answer-questions-tip-1 = Дар ҷои нисбатан ором сабт кунед
 answer-questions-tip-2 = Ҷойеро бо пайвасти интернети хуб интихоб кунед
+answer-questions-tip-3b = Кӯшиш кунед, ки ҷавоби худро дар давоми 15-30 сония диҳед
+answer-questions-tip-4 = Аз суханони нафратовар, ташвиқкунанда ё дигар суханони таҳқиромез худдорӣ кунед
+# Transcribe the Audio
+transcribe-the-audio = Табдил додани аудио ба матн
+transcribe-the-audio-subheader-1 = Роҳнамои умумӣ
+transcribe-the-audio-subheader-2 = Рақамҳо ва ихтисорот
+transcribe-the-audio-subheader-4 = Порчаҳои калима, кӯшиши ноком, калимаҳои такрорӣ
