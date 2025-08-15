@@ -38,9 +38,18 @@
 
 ### Next release v1.150.0 (TBA)
 
+- Workaround: Fix picker not showing native language names but language codes, now they will be shown in the selected locale's translation if exists - else English name will be shown (along with language code), by [@moz-bozden](https://github.com/moz-bozden) in [#5042](https://github.com/common-voice/common-voice/pull/5042)
+- Fix: Fix render timing issues in LanguageRoutes with useEffect and setTimeout, by [@moz-bozden](https://github.com/moz-bozden) in [#5041](https://github.com/common-voice/common-voice/pull/5041)
+- Fix: In the language picker apply bold only to selected user language, by [@moz-bozden](https://github.com/moz-bozden) in [#5040](https://github.com/common-voice/common-voice/pull/5040)
+- Fix: HTML nesting problem in About page, by [@moz-bozden](https://github.com/moz-bozden) in [#5039](https://github.com/common-voice/common-voice/pull/5039)
+- Fix: Add migration to remove defunct and empty `hi-IN` locale with remnants as it should be a variant under Hindi `hi`, by [@moz-bozden](https://github.com/moz-bozden) in [#5014](https://github.com/common-voice/common-voice/pull/5014)
+
 #### Data Changes in v1.150.0 (TBA)
 
 #### Spontaneous Speech v1.150.0 (TBA)
+
+- Fix: Nested/double localization for "other" in Report modal preventing localization, by [@moz-bozden](https://github.com/moz-bozden) in [#476](https://github.com/common-voice/spontaneous-speech/pull/476)
+- Fix: The guidelines links to point to new guidelines, replace link/text with Guidelines button, and fix layout issues, by [@moz-bozden](https://github.com/moz-bozden) in [#475](https://github.com/common-voice/spontaneous-speech/pull/475)
 
 ##### SS Data Changes in v1.150.0 (TBA)
 
