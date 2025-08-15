@@ -208,6 +208,13 @@ review-the-transcription-explanation-3 = კიდევ ერთხელ, შ
 ## Code-Switching
 
 code-switching = ენების მონაცვლეობა
+adding-a-question = კითხვის დამატება
+# Adding a Question
+code-switching-adding-question-subheader = როგორი უნდა იყოს კარგი შეკითხვა?
+code-switching-adding-question-explanation = კარგი შეკითხვა საჯარო კრებულისთვის უნდა იყოს:
+code-switching-adding-question-criteria-1 = ადვილად გასაგები და იოლად საპასუხო
+code-switching-adding-question-criteria-2 = მეტად საყოველთაო
+code-switching-adding-question-criteria-3 = არ შეიცავდეს და არ ითხოვდეს მავნე ან შეურაცხმყოფელ სიტყვებს
 code-switching-adding-question-note = აგრეთვე სასურველია, მოიცვათ მრავალი საკითხი და დარგი.
 # What types of questions to add
 code-switching-types-subheader = რა სახის კითხვები უნდა დაემატოს?
