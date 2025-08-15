@@ -11,4 +11,9 @@ cs-locale-change-modal-subtitle = ამ გვერდზე ცვლილ�
 ## Question Page Items
 
 cs-question-page-instruction = დაამატეთ არაუმეტეს 25 შეკითხვა <icon></icon> { $currentLocale } ენის კრებულისთვის, ხალხმა რომ უპასუხოს.
+cs-add-question-textarea-placeholder = შეიყვანეთ შეკითხვები ენების გადართვით თითოეული ცალკე ხაზზე. ხალხი უფრო მეტი ალბათობით უპასუხებს ენების ცვლით, თუ უშუალოდ შეკითხვაშიც წააწყდება ენების ცვლას.
 cs-question-dataset-name = კრებული: { $datasetName }
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = უპასუხეთ მოთხოვნას რაც შეიძლება ბუნებრივად, ნუ მოგერიდებათ ენების ცვლა, თუ ეს თქვენთვის დამახასიათებელია ყოველდღიურობაშიც. ეცადეთ, თქვენი ნალაპარაკევი იყოს მეტად თავაზიანი და უწყინარი.
