@@ -222,6 +222,7 @@ code-switching-use-bilingual-prompts-header = ორენოვანი მო
 code-switching-use-bilingual-prompts-explanation = გამოიყენეთ ორენოვანი მოთხოვნები, რომ კითხვა მოიცავდეს ორივე ენას: მაგალითად:
 code-switching-ask-bilingual-contexts-header = დასვით კითხვები ორენოვანი შინაარსით
 code-switching-ask-bilingual-contexts-explanation = დაიხმარეთ ისეთი გარემოებები, როცა, ჩვეულებრივ, ორივე ენას იყენებენ (თუნდაც სახლში, სკოლაში, ერთობის ღონისძიებებში). მაგალითად:
+code-switching-focus-emotional-explanation = ენების გადართვა ხალხს ახასიათებს გრძნობების გამოხატვისას, მღელვარებისას ან საგანგებო შემთხვევებისას. მაგალითად:
 # What to Avoid
 code-switching-avoid-subheader = უნდა აირიდოთ
 code-switching-avoid-intro = კითხვები, რომლებიც:
