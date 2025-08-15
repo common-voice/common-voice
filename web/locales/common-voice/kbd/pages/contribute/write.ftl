@@ -29,7 +29,7 @@ guidelines = Гъуазэхэр
 contact-us = Къытхуегъазэ
 add-sentence-success = Псалъэуха 1 къэдгъуэящ
 add-sentence-error = Псалъэуха къиплъхьэ пэтрэ зыгуэрэ илэжащ
-required-field = Кхъыӏэ мыбдейр из щӏы
+required-field = Кхъыӏэ, зыхуей псори ифтхэ
 single-sentence-submission = Псалъэуха закъуэ егъэхьын
 small-batch-sentence-submission = Псалъэуха зыбжьанэ егъэхьын
 bulk-sentence-submission = Псалъэуха куэд егъэхьын
@@ -41,9 +41,13 @@ sentence-domain-select-placeholder = Нэхъыбэ дыдэу домаинищ 
 # Sentence Domain dropdown option
 agriculture_food = Мэкъумэшымрэ шхыныгъуэмрэ
 # Sentence Domain dropdown option
+automotive_transport = Автомобилестроение и транспорт
+# Sentence Domain dropdown option
 finance = Финанс
 # Sentence Domain dropdown option
 service_retail = ӏуэхутхьэбзэ
+# Sentence Domain dropdown option
+general = Зэхэлъу
 # Sentence Domain dropdown option
 healthcare = Узыншагъэ хъумэн
 # Sentence Domain dropdown option
@@ -148,6 +152,7 @@ write-contribute-menu-tooltip = Псалъэуха хэлъхьэ икӀи еп�
 add-sentences-menu-item-tooltip = УибзэмкӀэ къритха псалъэухахэр хэлъхьэ
 review-sentences-menu-item-tooltip = УибзэмкӀэ къритха псалъэухахэр яплъыж
 add-questions-menu-item-tooltip = УибзэмкӀэ упщӀэхэр хэлъхьэ
+review-questions-menu-item-tooltip = Рецензирование вопросов
 transcribe-audio-menu-item-tooltip = УибзэмкӀэ ит макъ тетхахэр текст щӀы
 
 ## MENU ITEM ARIA LABELS
@@ -156,4 +161,5 @@ write-contribute-menu-aria-label = Тхэн щапхъэхэм я меню
 add-sentences-menu-item-aria-label = ЦӀыхухэр еджэным щхьэкӀэ псалъэухащӀэхэр хэлъхьэ
 review-sentences-menu-item-aria-label = ЦӀыхубэм яхэлъхьэ псалъэухахэр яплъыж
 add-questions-menu-item-aria-label = ЦӀыхубэм еджэным икӀи жэуап етыным щхьэкӀэ упщӀэщӀэхэр хэлъхьэ
+review-questions-menu-item-aria-label = Проверьте и проголосуйте за новые вопросы, представленные сообществом
 transcribe-audio-menu-item-aria-label = Макъ тетхахэр текст транскриптцие щӀы

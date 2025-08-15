@@ -4,6 +4,9 @@ guidelines-header-subtitle = Lear hoe’t jo sinnen en audiofragminten oan de Co
 voice-collection = Spraakkolleksje
 sentence-collection = Sinnensamling
 question-collection = Fragensamling
+scripted-speech = Scriptspraak
+spontaneous-speech = Spontane spraak
+dont-subheader = Net dwaan
 
 ## Voice Collection nav ids
 
@@ -140,3 +143,98 @@ offensive-content-sensitive-information-explanation-explanation-3 = Fragen dy’
 example-questions-subheader = Foarbyldfragen
 example-questions-explanation-1 = Jo fine <examplePromptsLink>120 foarbyldprompts yn dit blêd.</examplePromptsLink>
 example-questions-explanation-2 = As jo in rige fragen foar opname yntsjinje wolle, kinne jo <githubLink>dit dwaan fia ús GitHub</githubLink> of jo list e-maile nei <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Fragen beäntwurdzje
+answer-questions-subheader = Algemiene rjochtlinen
+answer-questions-tip-1 = Nim op in reedlik rêstich plak op
+answer-questions-tip-2 = Kies in plak mei in goede ynternetferbining
+answer-questions-tip-3b = Probearje jo antwurd binnen 15-30 sekonden te hâlden
+answer-questions-tip-4 = Foarkom haatlike, opstokende of oars beledigjende spraak
+answer-questions-tip-5 = Sprek natuerlik, lykas jo dwaan soene mei in freon - brûk jo eigen echte fariant, dialekt en aksint
+answer-questions-tip-6 = Hâld jo folume konsekwint - rop of sjong net
+# Transcribe the Audio
+transcribe-the-audio = Transkribearje de audio
+transcribe-the-audio-subheader-1 = Algemiene rjochtlinen
+transcribe-the-audio-subheader-2 = Sifers en ôfkoartingen
+transcribe-the-audio-subheader-3 = Spesjale labels
+transcribe-the-audio-subheader-4 = Wurdsegminten, falske begjinpunten, werhelle wurden
+transcribe-the-audio-subheader-5 = Grammatikale flaters en sprektaal
+transcribe-the-audio-subheader-1-explanation = Yn it algemien moatte jo alles opskriuwe wat jo hearre. Dit omfettet;
+transcribe-the-audio-subheader-1-explanation-example-1 = It opskriuwen fan fariaasjes, ynklusyf wifkjen en werhellingen
+transcribe-the-audio-subheader-1-explanation-example-2 = Lûden lykas hoastjen of laitsjen labelje
+tags-table-header-1 = Label
+tags-table-header-2 = Betsjutting
+tags-laugh = Laitsje
+tags-unclear = Undúdlik
+tags-noise = Rûs
+tags-laugh-explanation = It lûd fan laitsjen.
+
+## Review the Transcription
+
+review-the-transcription = De transkripsje beoardiele
+review-the-transcription-subheader = Algemiene rjochtlinen
+
+## Code-Switching
+
+adding-a-question = In fraach tafoegje
+# Adding a Question
+code-switching-adding-question-subheader = Hoe sjocht in goede fraach derút?
+code-switching-adding-question-explanation = In goede fraach foar gegevenssets foar publykspartisipaasje moat:
+code-switching-adding-question-criteria-1 = Ienfâldich te begripen en te beäntwurdzjen wêze
+code-switching-adding-question-criteria-2 = Algemien relevant wêze
+code-switching-adding-question-criteria-3 = Gjin skeadlike of beledigjende taal brûke of derom freegje
+code-switching-adding-question-note = Jo kinne ek beskôgje om ferskate konteksten en domeinen te behanneljen.
+# What types of questions to add
+code-switching-types-subheader = Hokker soarten fragen ta te foegjen?
+# What to Avoid
+code-switching-avoid-subheader = Wat te mijen
+code-switching-avoid-intro = Fragen dy’t mooglik:
+code-switching-avoid-1 = Freegje om persoanlik identifisearbere ynformaasje
+code-switching-avoid-2 = Freegje om haatspraak of oare befoaroardiele of beledigjende gefoelens
+code-switching-dont-header = Net dwaan
+code-switching-dont-1 = Brûk gjin te formele taal
+# Reviewing a Question
+code-switching-review-subheader = In fraach beoardiele
+code-switching-review-intro = Soargje derfoar dat de fraach oan de kritearia foldocht:
+code-switching-review-criterion-1 = Ienfâldich te begripen en te beäntwurdzjen wêze
+code-switching-review-criterion-2 = Algemien relevant wêze
+code-switching-review-criterion-3 = Gjin skeadlike of beledigjende taal brûke of derom freegje
+code-switching-review-does-not-header = En <bold>BEFETTET NET</bold>:
+code-switching-review-offensive-content = <bold>Beledigjende ynhâld of gefoelige ynformaasje</bold>
+code-switching-answer-header = Beledigjende ynhâld of gefoelige ynformaasje
+code-switching-review-no-1 = Fragen wêrby mooglik om persoanlik identifisearbere ynformaasje frege wurdt
+code-switching-review-no-2 = Fragen dy’t oansette kinne ta haat of oare befoaroardiele of beledigjende gefoelens
+code-switching-review-no-3 = Fragen dy’t derfoar soargje kinne dat ien gefoelige, mooglik aktivearjende antwurden dielt
+# Answering a Question
+code-switching-answer-subheader = In fraach beäntwurdzje
+code-switching-authentic-header = Antwurdzje natuerlik en autentyk
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Net tefolle neitinke of oerbewurkje
+# Transcribing
+code-switching-transcribe-subheader = Transkribearje
+# Use standard spelling for each language
+code-switching-spelling-header = Brûk standert stavering foar elke taal
+# Tagging
+code-switching-tagging-subheader = Labelje
+code-switching-tagging-error-1 = Ferkearde ynterpunksje of haadletters
+code-switching-tagging-error-2 = Typflaters
+code-switching-tagging-error-3 = Wurden skreaun yn de ferkearde ortografy
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = De krekte ortografy brûke foar elke taal
+code-switching-pronunciation-explanation-example-1 = Ingelsk: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spaansk: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Minsken: Marie, Jan
+code-switching-not-tag-proper-names-example-2 = Plakken: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Merken/Organisaasjes: Target, Burger King
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = "Nee"
+code-switching-not-tag-interjections-example-3 = "Ja"
+code-switching-not-tag-interjections-example-4 = "Eh"
+
+## Reporting Content
+
+reporting-content = Ynhâld rapportearje
+reporting-content-subheader = Algemiene rjochtlinen

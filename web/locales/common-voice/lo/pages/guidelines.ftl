@@ -4,6 +4,9 @@ guidelines-header-subtitle = ເຂົ້າໃຈວິທີການປະກ
 voice-collection = ການເກັບກໍາສຽງ
 sentence-collection = ການລວບລວມປະໂຫຍກ
 question-collection = ການ​ເກັບ​ກໍາ​ຄໍາ​ຖາມ​
+scripted-speech = ການເວົ້າແບບສະຄຣິບ
+spontaneous-speech = ການເວົ້າໂດຍທໍາມະຊາດ
+dont-subheader = ຢ່າ
 
 ## Voice Collection nav ids
 

@@ -192,19 +192,46 @@ transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underli
 transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
 transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre
 
+## Review the Transcription
+
+review-the-transcription-subheader = Instructions générales
+review-the-transcription-explanation-1 = En général, nous recommandons que la personne responsable de la vérification de la transcription ne soit pas celle qui a réalisé la transcription initiale. Il est très difficile de réviser son propre travail ! Disposer de plusieurs niveaux de révision peut renforcer l’assurance qualité et contribuer à limiter les biais et les problèmes.
+review-the-transcription-explanation-2 = Consultez les consignes relatives aux transcriptions ci-dessus pour vous assurer de l’exactitude d’une transcription. Vous pouvez apporter des modifications et les envoyer.
+review-the-transcription-explanation-3 = Encore une fois, vous pouvez signaler tout contenu choquant, néfaste ou inquiétant, et vous ne le verrez plus jusqu’à ce que l’équipe Common Voice ait pu l’examiner et mener une enquête approfondie.
+
 ## Code-Switching
 
+code-switching = Alternance codique
 adding-a-question = Ajouter une question
 # Adding a Question
 code-switching-adding-question-subheader = Quels sont les critères d’une bonne question ?
 code-switching-adding-question-explanation = Une question pertinente pour les jeux de données à participation publique doit :
 code-switching-adding-question-criteria-1 = Être facile à comprendre et à répondre
 code-switching-adding-question-criteria-2 = Être globalement pertinente
+# What types of questions to add
+code-switching-types-subheader = Quels types de questions ajouter ?
+code-switching-use-bilingual-prompts-header = Posez des questions bilingues
+code-switching-use-bilingual-prompts-explanation = Posez des questions bilingues qui intègrent les deux langues : Par exemple :
+code-switching-use-bilingual-prompts-explanation-example = « Que t’a dit ta mère when you got home that day ? »
+code-switching-ask-bilingual-contexts-header = Posez des questions sur les contextes bilingues
+code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
+code-switching-direct-quotes-header = Demandez des citations directes ou à reproduire une situation
+code-switching-direct-quotes-explanation = Incitez les participant·e·s à restituer fidèlement ce qui a été dit. Par exemple :
+code-switching-direct-quotes-explanation-example = « Quels étaient vos mots exacts quand vous l’avez découvert ? »
+code-switching-cultural-topics-header = Choisissez des sujets spécifiques à votre culture
+code-switching-cultural-topics-explanation = La nourriture, les traditions, les fêtes et la dynamique familiale invitent souvent à l’alternance codique.
+code-switching-cultural-topics-explanation-example = « Comment décrivez-vous Día de los Muertos à quelqu’un qui ne parle que le français ? »
+code-switching-informal-scenarios-header = Explorez des scénarios informels
+code-switching-informal-scenarios-explanation = Lors de conversations avec des amis ou de conversations par SMS, l’alternance codique se fait souvent de façon plus naturelle. Par exemple :
+code-switching-informal-scenarios-explanation-example = « Quelle est la blague que vos amis racontent à chaque fois, et comment la disent-ils ? »
+# What to Avoid
+code-switching-avoid-subheader = Ce qu’il faut éviter
 # Reviewing a Question
 code-switching-review-subheader = Vérifier une question
 code-switching-review-intro = Assurez-vous que la question répond à ces critères :
 code-switching-review-criterion-1 = Être facile à comprendre et à répondre
 code-switching-review-criterion-2 = Être globalement pertinente
+code-switching-review-does-not-header = Et qu’elle <bold>NE CONTIENT PAS</bold> de :
 code-switching-review-offensive-content = <bold>Contenu choquant ou informations sensibles</bold>
 code-switching-answer-header = Contenu choquant ou informations sensibles
 code-switching-review-no-1 = Des questions susceptibles de demander des données personnelles
@@ -212,3 +239,11 @@ code-switching-review-no-2 = Des questions qui pourraient susciter des propos ha
 code-switching-review-no-3 = Des questions qui peuvent amener un·e internaute à partager des informations sensibles et pouvant déclencher des réactions.
 # Answering a Question
 code-switching-answer-subheader = Répondre à une question
+code-switching-answer-bullet-3 = Utilisez des mots que vous utiliseriez réellement, même s’il sont empruntés ou un mélange de différentes langues
+code-switching-answer-bullet-4 = Il n’y a pas de façon « idéale » de répondre
+code-switching-authentic-header = Répondez de façon naturelle et authentique
+code-switching-answer-dont-correct-language = <bold>« Corriger » votre manière de parler.</bold> Ce n’est pas un test. Que la forme soit « correcte » n’a pas d’importance ici, ce qui compte, c’est le langage naturel.
+code-switching-answer-dont-avoid-switching = <bold>Vous retenir d’avoir recours à l’alternance codique si vous le faites normalement.</bold> Vous pouvez très bien alterner au milieu d’une phrase, d’une réflexion ou juste pour un seul mot.
+code-switching-answer-dont-formal-writing = <bold>Parler comme si vous écriviez de façon formelle.</bold> Évitez les réponses trop formelles ou académiques. Privilégiez un ton conversationnel.
+code-switching-answer-dont-force-switch = <bold>Vous forcer à avoir recours à l’alternance codique si cela ne semble pas naturel.</bold> N’alternez que si cela correspond à votre manière naturelle de parler dans cette situation.
+code-switching-answer-dont-translate-repeat = <bold>Tout traduire ou tout répéter.</bold>Dites-le une fois, comme vous le feriez au cours d’une conversation. Vous n’êtes pas obligé·e de répondre dans chaque langue.

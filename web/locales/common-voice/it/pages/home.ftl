@@ -82,7 +82,7 @@ press-and-stories = Stampa e storie
 community-and-languages = Comunità e lingue
 coming-soon = Disponibile a breve
 about-us = Informazioni
-scripted-speech = DISCORSO CON TRASCRIZIONE
+scripted-speech = DISCORSO LETTO
 spontaneous-speech = DISCORSO SPONTANEO
 
 ## MENU ITEMS TOOLTIPS
@@ -115,7 +115,7 @@ get-started = Inizia <icon><icon>
 
 action-items-section-title = Common Voice è una piattaforma gratuita e open source dedicata alla creazione di dati sotto la guida della comunità
 action-items-section-subtitle = Chiunque può preservare, rivitalizzare e valorizzare la propria lingua condividendo, creando e gestendo dataset di testo e voce.
-scripted-card-header = Discorso con trascrizione
+scripted-card-header = Discorso letto
 scripted-card-content = Leggi le frasi ad alta voce nella tua lingua e contribuisci al dataset di riconoscimento vocale a partecipazione pubblica più variegato al mondo.
 spontaneous-card-header = Discorso spontaneo
 spontaneous-card-content = Rispondi alle domande per creare dataset relativi a contesti naturali e colloquiali. Perfetto per le lingue prevalentemente orali.
@@ -170,6 +170,7 @@ validate-readings-link = Convalida letture
 contribute-link = Contribuisci al corpus testuale
 answer-questions-link = Rispondi alle domande
 transcribe-answers-link = Trascrivi risposte
+review-transcriptions-link = Convalida trascrizioni
 contribute-text-link = Proponi testi
 press-and-stories-link = Sezione stampa e notizie
 

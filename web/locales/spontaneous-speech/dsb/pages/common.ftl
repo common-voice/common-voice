@@ -32,8 +32,11 @@ continue-with-skipped = Z Pśeskócony pókšacowaś
 question = Pšašanje
 validate = Pśeglědowaś
 respond-to-prompt = Na naspominanje wótegroniś
+respond-to-prompt-mobile = Wótegrono
 transcribe = Transkriběrowaś
 check-transcriptions = Transkripcije pśeglědowaś
+check-transcriptions-mobile = Pśeglědaś
+tag = Wobznamjenje
 
 ## Not Found Page
 

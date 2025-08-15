@@ -18,6 +18,7 @@ tag-page-shortcut-select-all = T
 select-all = Tümünü seç
 # Messages
 tag-success-toast-message = Etiketler başarıyla gönderildi
+tag-error-toast-message = Etiketler gönderilirken hata oluştu
 cs-tag-shortcuts-section-title = Klavye kullanımı
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }

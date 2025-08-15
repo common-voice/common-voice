@@ -230,6 +230,7 @@ code-switching-ask-bilingual-contexts-header = Spør om tospråklege kontekstar
 code-switching-ask-bilingual-contexts-explanation = Bruk situasjonar der begge språka er vanlege (t.d. heime, på skulen, ved arrangement i lokalsamfunnet). Døme:
 code-switching-ask-bilingual-contexts-explanation-example = «Når du snakkar med søskenbarna dine, blandar de spansk og engelsk?»
 code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige stunder
+code-switching-focus-emotional-explanation = Folk byter ofte kode når dei uttrykkjer kjensler eller noko som hastar. Døme:
 code-switching-focus-emotional-explanation-example = «Fortel meg kva foreldra dine sa då du fortalde dei den store nyheita — nøyaktig korleis dei sa det.»
 code-switching-direct-quotes-header = Be om direkte sitat eller attforteljingar
 code-switching-direct-quotes-explanation = Oppmod deltakarane til å gi att korleis ting faktisk vart sagt. Døme:
@@ -238,6 +239,7 @@ code-switching-cultural-topics-header = Vel kulturspesifikke emne
 code-switching-cultural-topics-explanation = Mat, tradisjonar, høgtider og familiedynamikk inviterer ofte til kodebyte.
 code-switching-informal-scenarios-header = Utforsk uformelle situasjonar
 code-switching-informal-scenarios-explanation = Samtalar med vennar eller tekstmeldingar inkluderer ofte meir naturleg veksling. Døme:
+code-switching-informal-scenarios-explanation-example = «Kva er ein vits vennane dine alltid dreg — og korleis fortel dei han?»
 # What to Avoid
 code-switching-avoid-subheader = Kva du bør unngå
 code-switching-avoid-intro = Spørsmål som kan vere:
@@ -288,7 +290,59 @@ code-switching-capture-header = Skriv ned talen nøyaktig som han vart sagt
 code-switching-capture-explanation = Transkriber begge språka slik dei ser ut / høyrest ut. Ikkje «fiks» språket eller endre det til berre eitt språk.
 # Include filler words and markers
 code-switching-filler-header = Inkluder fyllord og markørar
+# Use standard spelling for each language
+code-switching-spelling-header = Bruk standard stavemåte for kvart språk
+code-switching-spelling-explanation = Prøv å stave ord rett for kvart språk, med mindre den som snakkar tydeleg uttalar dei på ein ikkje-standard måte.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Ikkje rydd opp eller forenkle språket
+code-switching-cleanup-1 = Omsetje eller omskrive – skriv det talaren faktisk sa, ikkje kva han «meinte».
+code-switching-cleanup-2 = «Korrekt» grammatikk eller uttale – behald den naturlege bruken til talaren.
+code-switching-cleanup-3 = Hopp over byter som verkar små eller ubetydelege – sjølv lånte ord har noko å seie.
+code-switching-cleanup-4 = Set inn teiknsetjing som kan endre betydninga – hald flyten naturleg.
+code-switching-cleanup-5 = Rekn med at du kjenner språket til kvart ord – merk basert på bruk.
+# Tagging
+code-switching-tagging-subheader = Merking
+code-switching-tagging-error-intro =
+    Viss transkripsjonen inneheld ein feil, bruk rapporteringsfunksjonen for å markere han.  
+    Moglege feil inkluderer:
+code-switching-tagging-error-1 = Feil teiknsetjing eller bruk av store/små bokstavar
+code-switching-tagging-error-2 = Skrivefeil
+code-switching-tagging-error-3 = Ord skrivne med feil ortografi
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Bruk av rett ortografi for kvart språk
+code-switching-orthography-explanation = Skriv kvart ord i samsvar med stavemåten til språket det kjem frå. Til dømes:
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+code-switching-pronunciation-explanation = Nokre ord kan sjå like ut på begge språk, men kan uttalast ulikt. Lytt til uttalen for å få hjelp med å merke orda rett.  Til dømes: kabel, taco, skodespelar, detektiv.
+code-switching-pronunciation-explanation-example-1 = Engelsk: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spansk: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Merking i eit enkelt token
+code-switching-single-token-explanation = Eit enkelt token skilt med mellomrom skal innehalde meir enn éin nøkkelordseksjon.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Merk teiknsetjing basert på språk i nærleiken
+code-switching-punctuation-tagging-explanation = Merk teiknsetjing med språket nærast venstre. Døme:
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Ver varsam med ord som liknar på kvarandre
+code-switching-lookalikes-explanation = Nokre ord kan sjå ut som på eitt språk, men brukast på det andre. Merk basert på betydning og bruk, ikkje utsjånad. Døme:
+code-switching-lookalikes-explanation-example-2 = «No problemo» brukt på engelsk > merk som engelsk
+# When Not to Tag Words
+code-switching-not-tag-header = Når ein ikkje skal merke ord
+code-switching-not-tag-explanation = Nokre ord skal <bold>ikkje merkast</bold> med ein språketikett, sjølv om dei ser ut til å vere blanda eller tilpassa.  Her er nokre døme på handsaming:
+code-switching-not-tag-proper-names = <bold>Særnamn.</bold> Namn på personar, stader og organisasjonar skal ikkje merkast. Døme:
+code-switching-not-tag-proper-names-example-1 = Personar: Maria, John
+code-switching-not-tag-proper-names-example-2 = Stadar: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Merkenamn/organisasjonar:  Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Blanda eller morfologisk tilpassa ord.</bold> Ikkje merk ord som blandar språk eller har lagt til endingar frå eit anna språk. Døme:
+code-switching-not-tag-interjections = <bold>Interjeksjonar.</bold> Interjeksjonar og fyllord, uavhengig av språk, skal halde fram med å vere <bold> umerkte.</bold> Døme:
+code-switching-not-tag-interjections-example-1 = «Eh»
+code-switching-not-tag-interjections-example-2 = «Nei»
+code-switching-not-tag-interjections-example-3 = «Ja»
+code-switching-not-tag-interjections-example-4 = «Øh»
 
 ## Reporting Content
 
+reporting-content = Rapportering av innhold
 reporting-content-subheader = Generell rettleiing
+reporting-content-explanation-1 = Du må merke innhald som er støytande, skadeleg eller på annan måte urovekkjande. Det må heller ikkje innehalde personopplysningar som telefonnummer eller adresser. Slikt innhald vil bli fjerna frå opplevinga di inntil Common Voice-teamet har gått gjennom det og undersøkt nærare.
+reporting-content-explanation-2 = For å rapportere innhald, vel «Rapportar»-knappen og vel eitt eller fleire alternativ: Støytande innhald, Annet språk, Personopplysninger, Anna. Skriv deretter meir informasjon om kvifor du rapporterer innhaldet i tekstfeltet. Til slutt sender du rapporten ved å klikke på «Rapporter»-knappen.

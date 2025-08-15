@@ -62,6 +62,8 @@ create-profile-button = Напэкӏуэцыщӏэ къызэгъэпэщ
 img-alt-success-checkmark = ӏуэхур зэрытэмамым и нэщанэ
 # menu item
 read-sentences = Псалъэухахэм яджэ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Прочитать предложения <small>(Скоро)</small>
 
 ## MENU ITEM TOOLTIPS
 

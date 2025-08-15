@@ -4,8 +4,8 @@ guidelines-header-subtitle = Scopri come collaborare e convalidare frasi e regis
 voice-collection = Raccolta di voci
 sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
+scripted-speech = Discorso letto
 spontaneous-speech = Discorso spontaneo
-dont-subheader = Non
 
 ## Voice Collection nav ids
 
@@ -133,18 +133,24 @@ process-steps = Procedimento / Passaggi
 process-steps-explanation = Domande che richiedono l’elenco di più passaggi. L’elenco dei passaggi porta l’utente a recitare una risposta invece di formulare una risposta più naturale.
 offensive-content-sensitive-information = Contenuti offensivi o informazioni sensibili
 offensive-content-sensitive-information-explanation-explanation-1 = Domande che potrebbero indurre alla divulgazione di informazioni di identificazione personale
-offensive-content-sensitive-information-explanation-explanation-2 = Domande che potrebbero provocare incitamento all’odio o ad altri sentimenti faziosi o offensivi
-offensive-content-sensitive-information-explanation-explanation-3 = Domande che potrebbero indurre l’interlocutore a condividere risposte di natura riservata o contenenti argomenti delicati
+offensive-content-sensitive-information-explanation-explanation-2 = Domande che potrebbero promuovere incitamento all’odio o ad altri sentimenti faziosi o offensivi
+offensive-content-sensitive-information-explanation-explanation-3 = Domande che potrebbero indurre alla condivisione di risposte di natura riservata o contenenti argomenti delicati
 example-questions-subheader = Esempi di domande
 example-questions-explanation-1 = Puoi trovare <examplePromptsLink>120 esempi di domande in questa pagina.</examplePromptsLink>
 example-questions-explanation-2 = Se desideri inviare una serie di domande per l’importazione, <githubLink>puoi farlo tramite GitHub</githubLink> oppure mandare la lista via email a <emailFragment>commonvoice@mozilla.com.</emailFragment>
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Rispondi alle domande
 answer-questions-subheader = Guida generale
+answer-questions-explanation-1 = Pensa per un momento alla domanda, considera che cosa vorresti dire, ma non prepararti troppo. Fai clic sull’icona “registra”. Una volta completata la registrazione, è possibile ascoltarla, registrarla nuovamente, eliminarla o inviarla.
+answer-questions-explanation-2 = Ricorda: non preoccuparti se balbetti, fai una pausa o ripeti una parola. Questi sono tutti dati utili per gli sviluppatori che cercano di creare strumenti di riconoscimento vocale inclusivi basati sul linguaggio della vita reale.
 answer-questions-tip-1 = Registra in un luogo sufficientemente tranquillo
 answer-questions-tip-2 = Scegli un luogo con una buona connessione a Internet
+answer-questions-tip-3b = Cerca di mantenere la durata della risposta tra i 15 e i 30 secondi
 answer-questions-tip-4 = Evita discorsi che incitano all’odio, provocatori o comunque offensivi
+answer-questions-tip-5 = Parla in modo naturale, come faresti con un amico: utilizza la tua varietà linguistica reale, il tuo dialetto e accento
 answer-questions-tip-6 = Mantieni un volume della voce costante: non urlare o cantare
 # Transcribe the Audio
 transcribe-the-audio = Trascrivi l’audio
@@ -152,7 +158,14 @@ transcribe-the-audio-subheader-1 = Guida generale
 transcribe-the-audio-subheader-2 = Numeri e acronimi
 transcribe-the-audio-subheader-3 = Etichette speciali
 transcribe-the-audio-subheader-4 = Segmenti di parole, false partenze, parole ripetute
+transcribe-the-audio-subheader-5 = Errori grammaticali ed espressioni colloquiali
+transcribe-the-audio-subheader-1-explanation = In generale, dovresti annotare tutto ciò che senti. Questo include:
 transcribe-the-audio-subheader-1-explanation-example-1 = Annotare le disfluenze, comprese le esitazioni e le ripetizioni
+transcribe-the-audio-subheader-1-explanation-example-2 = Etichettare eventi acustici come colpi di tosse o risate
+transcribe-the-audio-subheader-1-explanation-example-3 = Etichettare inquinamenti acustici significativi, come chiacchiere in sottofondo o clacson
+transcribe-the-audio-subheader-1-explanation-example-4 = Le variazioni grammaticali e gergali devono essere annotate esattamente così come sono. Non correggere o modificare il parlato delle persone.
+transcribe-the-audio-subheader-2-explanation-1 = I numeri e i simboli devono essere scritti utilizzando le lettere anziché cifre o caratteri speciali. Esempio:
+transcribe-the-audio-subheader-2-explanation-2 = Gli acronimi devono essere scritti nello stesso modo in cui vengono normalmente scritti nella lingua in questione, seguendo le regole standard per l’utilizzo delle maiuscole. Non devono essere trascritti foneticamente. Esempio:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Corretto</correct>: dista cento chilometri da qui
 # text wrapped in wrong will be shown as red text in the UI
@@ -164,6 +177,8 @@ transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Sbagliato</wrong>: ci 
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Corretto</correct>: c’era uno sconto del venti per cento
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Sbagliato</wrong>: c’era uno sconto del 20%.
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Corretto</correct>: sono stati arrestati giovedì scorso dall’<underline>FBI</underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Sbagliato</wrong>: sono stati arrestati giovedì scorso dall’<underline>ef bi ai</underline>
+transcribe-the-audio-subheader-3-explanation = Le etichette speciali seguenti (in inglese) devono essere utilizzate per contrassegnare disfluenze, riempitivi e altri tipi di contenuti non lessicali.
 tags-table-header-1 = Etichetta
 tags-table-header-2 = Significato
 tags-laugh = Risata
@@ -171,15 +186,36 @@ tags-disfluency = Disfluenza
 tags-unclear = Non chiaro
 tags-noise = Rumore
 tags-laugh-explanation = Il suono di una risata.
+tags-disfluency-explanation =
+    Una parola o un suono riempitivo utilizzato come intercalare mentre chi parla decide che cosa dire.
+    In italiano, alcuni suoni di esitazione comuni sono “ehm”, “eh”, “mhm”, ecc.
 tags-unclear-explanation = Una parola o una sequenza di parole incomprensibili.
+tags-noise-explanation =
+    Qualsiasi altro tipo di rumore, come colpi di tosse o schiarimenti di voce,
+    il clacson di un’auto, il suono di qualcosa che colpisce il microfono, la vibrazione di un telefono, ecc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    E poi [noise] sono andato in vacanza.
+    Be', [noise] [laugh] non era esattamente una vacanza [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Il discorso spontaneo contiene naturalmente false partenze in cui viene prodotta solo una parte di una parola intera. In questi casi, trascrivi al meglio la parte della parola pronunciata e aggiungi un trattino alla fine della parola (-) per indicare che è una falsa partenza. Esempio:
+transcribe-the-audio-subheader-4-explanation-1-example = Si chiama <underline>Gio- Giova-</underline> Giovanni.
+transcribe-the-audio-subheader-4-explanation-2 = A volte le persone potrebbero ripetere più volte una parola o una parte di una parola. Anche questo deve essere trascritto. Esempio:
+transcribe-the-audio-subheader-4-explanation-2-example = E poi sono andato in <underline>in in in ca- in</underline> camera da letto
+transcribe-the-audio-subheader-5-explanation-1 = Il discorso spontaneo può contenere naturalmente errori grammaticali. Questi non devono essere corretti nella trascrizione, che deve riflettere esattamente il contenuto del parlato.
+transcribe-the-audio-subheader-5-explanation-2 = Le persone talvolta utilizzano espressioni colloquiali (ad esempio, “ho fatto una cavolata, “il mi’ babbo”, ecc.) che potrebbero non essere considerate formalmente corrette. Queste espressioni devono essere trascritte così come sono e non sostituite con le loro equivalenti più formali.
 
 ## Review the Transcription
 
+review-the-transcription = Convalida la trascrizione
 review-the-transcription-subheader = Guida generale
+review-the-transcription-explanation-1 = In generale, è consigliabile che la persona che controlla la trascrizione non sia la stessa persona che ha eseguito la trascrizione originale. È molto difficile controllare il proprio lavoro! Avere più linee di revisione aiuta a rendere più affidabile il controllo della qualità e a mitigare bias e problemi.
 review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. È possibile apportare modifiche e inviarle.
+review-the-transcription-explanation-3 = Anche in questo caso puoi segnalare contenuti offensivi, malevoli o comunque problematici; quei contenuti verranno rimossi dalla tua esperienza fino a quando il team di Common Voice non potrà esaminarli e indagare ulteriormente.
 
 ## Code-Switching
 
+code-switching = Cambio di codice (code-switching)
+adding-a-question = Aggiungere una domanda
 # Adding a Question
 code-switching-adding-question-subheader = Quali sono i requisiti per una buona domanda?
 code-switching-adding-question-explanation = Una buona domanda per i dataset di partecipazione pubblica dovrebbe:
@@ -189,4 +225,45 @@ code-switching-adding-question-criteria-3 = Non contenere o incoraggiare l’uso
 code-switching-adding-question-note = Considera anche l’inclusione di contesti e domini diversi.
 # What types of questions to add
 code-switching-types-subheader = Che tipo di domande aggiungere?
+code-switching-use-bilingual-prompts-header = Utilizza domande bilingue
+code-switching-use-bilingual-prompts-explanation-example = “Che cosa ti ha detto tua mamma when you got home that day?”
 code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui entrambe le lingue sono comunemente utilizzate (ad es. a casa, a scuola, durante eventi della comunità). Esempio:
+code-switching-focus-emotional-header = Punta su momenti emotivi o cruciali
+code-switching-focus-emotional-explanation = Le persone spesso cambiano codice linguistico per esprimere emozioni o urgenza. Esempio:
+code-switching-direct-quotes-header = Richiedi citazioni dirette o rievocazioni
+code-switching-direct-quotes-explanation = Incoraggia i partecipanti a riportare fedelmente ciò che è stato effettivamente detto. Esempio:
+code-switching-cultural-topics-header = Scegli argomenti culturalmente specifici
+code-switching-cultural-topics-explanation = Argomenti come cibo, tradizioni, festività e dinamiche familiari spesso invitano al cambio di codice linguistico.
+code-switching-cultural-topics-explanation-example = “Come descriveresti il ‘Día de los Muertos’ a qualcuno che parla solo italiano?”
+code-switching-informal-scenarios-header = Esplora scenari informali
+code-switching-informal-scenarios-explanation-example = “Qual è quella battuta che i tuoi amici ripetono sempre e come la raccontano?”
+# What to Avoid
+code-switching-avoid-subheader = Che cosa evitare
+code-switching-avoid-intro = Domande che potrebbero:
+code-switching-avoid-1 = Indurre alla divulgazione di informazioni di identificazione personale
+code-switching-avoid-2 = Promuovere incitamento all’odio o ad altri sentimenti faziosi o offensivi
+code-switching-avoid-3 = Indurre alla condivisione di risposte di natura riservata o contenenti argomenti delicati
+code-switching-dont-1 = Non utilizzare un linguaggio eccessivamente formale
+code-switching-review-intro = Assicurati che la domanda soddisfi i seguenti criteri:
+code-switching-review-criterion-1 = Sia facile da capire e a cui rispondere
+code-switching-review-criterion-2 = Sia generalmente appropriata
+code-switching-review-criterion-3 = Non contenga o incoraggi l’uso di linguaggio offensivo o oltraggioso
+code-switching-review-does-not-header = E che <bold>NON</bold> includa:
+code-switching-review-offensive-content = <bold>Contenuti offensivi o informazioni sensibili</bold>
+code-switching-answer-header = Contenuti offensivi o informazioni sensibili
+code-switching-review-no-1 = Domande che potrebbero indurre alla divulgazione di informazioni di identificazione personale
+code-switching-review-no-2 = Domande che potrebbero provocare incitamento all’odio o ad altri sentimenti faziosi o offensivi
+code-switching-review-no-3 = Domande che potrebbero indurre alla condivisione di risposte di natura riservata o contenenti argomenti delicati
+# Answering a Question
+code-switching-answer-subheader = Rispondere a una domanda
+code-switching-answer-intro = Quando rispondi a una domanda, l’obiettivo è rispondere in modo naturale, proprio come faresti in una conversazione reale. Vogliamo catturare il modo in cui le lingue si mescolano nel linguaggio quotidiano.
+code-switching-answer-bullet-1 = Pensa a momenti o situazioni della vita reale: battute, discussioni, tradizioni
+code-switching-answer-bullet-2 = Immagina di scrivere un messaggio a un amico o di raccontare una storia a qualcuno
+code-switching-answer-bullet-4 = Non esiste un modo “perfetto” per rispondere
+code-switching-authentic-header = Rispondi in modo naturale e autentico
+code-switching-authentic-speak = <bold>Parla come parleresti con amici o familiari.</bold> Se nella vita reale mescoli più lingue, fai lo stesso anche qui. Esempio:
+code-switching-authentic-speak-example = “Well, le ho detto che non potevo andare ma lei mi ha risposto ‘Faresti meglio a presentarti!’”
+code-switching-use-both-languages-example = “Si è davvero arrabbiata because non l’ho richiamata.”
+code-switching-authentic-direct-quotes = <bold>Includi citazioni dirette o dialoghi.</bold> Ripeti esattamente ciò che è stato detto, non una versione ripulita o formale. Esempio:
+code-switching-authentic-direct-quotes-example = “My mum said, ‘Do you think this is a game?’ e io le ho risposto ‘OK, rilassati!‘”
+code-switching-authentic-reflect = <bold>Rendi emozioni, identità e contesto.</bold> Il cambio di lingua avviene di solito quando le persone esprimono emozioni, urgenza o idee culturali. Sfrutta questi aspetti quando rispondi alle domande.

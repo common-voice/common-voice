@@ -4,6 +4,8 @@ guidelines-header-subtitle = Маълумот гиред, ки шумо чӣ т�
 voice-collection = Маҷмуи овозҳо
 sentence-collection = Ҷамъоварии ҷумлаҳо
 question-collection = Ҷамъоварии саволҳо
+scripted-speech = Нутқи намоишнома
+spontaneous-speech = Лоиҳаи «Spontaneous Speech»
 
 ## Voice Collection nav ids
 
@@ -107,3 +109,49 @@ offensive-content-sensitive-information-explanation-explanation-2 = Саволҳ
 example-questions-subheader = Саволҳои намунавӣ
 example-questions-explanation-1 = Шумо метавонед <examplePromptsLink>120 намунаи саволҳоро дар ин ҷадвал пайдо кунед.</examplePromptsLink>
 example-questions-explanation-2 = Агар шумо хоҳед, ки як қисми саволҳоро барои қабул пешниҳод кунед, шумо <githubLink>метавонед ин корро тавассути «GitHub»</githubLink>-и мо анҷом диҳед ё рӯйхати худро ба почтаи <emailFragment>«commonvoice@mozilla.com»</emailFragment> фиристед.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Ба саволҳо ҷавоб диҳед
+answer-questions-subheader = Роҳнамои умумӣ
+answer-questions-tip-1 = Дар ҷои нисбатан ором сабт кунед
+answer-questions-tip-2 = Ҷойеро бо пайвасти интернети хуб интихоб кунед
+answer-questions-tip-3b = Кӯшиш кунед, ки ҷавоби худро дар давоми 15-30 сония диҳед
+answer-questions-tip-4 = Аз суханони нафратовар, ташвиқкунанда ё дигар суханони таҳқиромез худдорӣ кунед
+# Transcribe the Audio
+transcribe-the-audio = Табдил додани аудио ба матн
+transcribe-the-audio-subheader-1 = Роҳнамои умумӣ
+transcribe-the-audio-subheader-2 = Рақамҳо ва ихтисорот
+transcribe-the-audio-subheader-4 = Порчаҳои калима, кӯшиши ноком, калимаҳои такрорӣ
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Дуруст</correct>: Аз ин ҷо сад мил дур аст
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Нодуруст</wrong>: Он аз ин ҷо 100 мил дур аст
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Дуруст</ дуруст>: Соли <underline>ду ҳазору понздаҳ</underline> вомехӯрем
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Нодуруст</wrong>: Соли <underline>2015</underline> вомехурем
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Дуруст</correct>: Он бист дарсад арзон буд
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Нодуруст</wrong>: 20% тахфиф буд
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Дуруст</rect>: Онҳоро рӯзи панҷшанбеи гузашта <underline>«FBI»</underline> боздошт карданд.
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Нодуруст</wrong>: Онҳоро рӯзи панҷшанбеи гузашта <underline>эф бее ейе</underline> боздошт карданд.
+tags-table-header-2 = Маъно
+tags-laugh = Ханда
+tags-disfluency = Мушкилот
+tags-unclear = Норавшан
+tags-noise = Сарусадо
+tags-laugh-explanation = Садои ханда.
+
+## Review the Transcription
+
+review-the-transcription = Овонависиро баррасӣ намудан
+review-the-transcription-subheader = Роҳнамои умумӣ
+
+## Code-Switching
+
+adding-a-question = Илова кардани саволҳо
+# Adding a Question
+code-switching-adding-question-subheader = Саволи хуб бояд чӣ гуна бошад?
+# What types of questions to add
+code-switching-types-subheader = Кадом намуди саволҳоро илова кардан лозим аст?

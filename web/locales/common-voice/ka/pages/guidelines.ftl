@@ -4,6 +4,8 @@ guidelines-header-subtitle = გაეცანით, როგორ უნდ
 voice-collection = ხმების შეგროვება
 sentence-collection = წინადადების შეგროვება
 question-collection = კითხვების შეგროვება
+scripted-speech = წერითი მეტყველება
+spontaneous-speech = ზეპირი მეტყველება
 
 ## Voice Collection nav ids
 
@@ -130,9 +132,138 @@ length-avoid-explanation = კითხვები, რომელთა ს�
 process-steps = მიმდინარეობა / ნაბიჯები
 process-steps-explanation = კითხვები, რომლებიც მოითხოვს რამდენიმე ნაბიჯის მითითებას.  ნაბიჯების ჩამოთვლისას მომხმარებელს უწევს დაზეპირებული პასუხის გაცემა და იკარგება ბუნებრიობა.
 offensive-content-sensitive-information = შეურაცხმყოფელი ან საფრთხილო ინფორმაცია
-offensive-content-sensitive-information-explanation-explanation-1 = კითხვები, რომლითაც გამჟღავნდება პირის ამოსაცნობი მონაცემები
+offensive-content-sensitive-information-explanation-explanation-1 = კითხვები, რომლებითაც გამჟღავნდება პირის ამოსაცნობი მონაცემები
 offensive-content-sensitive-information-explanation-explanation-2 = კითხვები, რომლებიც შეიძლება იწვევდეს სიძულვილის ენას ან სხვა მიკერძოებულ თუ შეურაცხმყოფელ განწყობებს.
 offensive-content-sensitive-information-explanation-explanation-3 = კითხვები, რომლებიც მოპასუხისთვის შეიძლება აღმოჩნდეს მეტად მგრძნობიარე, ამაღელვებელი და უბიძგოს საფრთხილო მონაცემების გამჟღავნებისკენ.
 example-questions-subheader = შეკითხვის ნიმუშები
 example-questions-explanation-1 = მაგალითისთვის იხილეთ <examplePromptsLink>შეკითხვის 120 ნიმუში მოცემულ ცნობარში.</examplePromptsLink>
 example-questions-explanation-2 = თუ გსურთ კითხვების ერთიანად გადმოგზავნა შეტანისთვის, <githubLink>შეგიძლიათ გამოიყენოთ ჩვენი GitHub</githubLink> ან მოგვაწოდოთ ჩამონათვალი ელფოსტაზე <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = კითხვებზე პასუხი
+answer-questions-subheader = ზოგადი მითითებები
+answer-questions-explanation-1 = ერთ ხანს დაფიქრდით, რისი თქმა გსურთ, მაგრამ წინასწარ მეტისმეტად ნუ მოამზადებთ საკუთარ თავს. დაწკაპეთ „ჩაწერის“ ხატულას. ჩაწერის შემდეგ შეგიძლიათ მოუსმინოთ საკუთარ თავს, ხელახლა ჩაწეროთ, წაშალოთ ან წარადგინოთ.
+answer-questions-explanation-2 = დაიხსომეთ – ნუ იღელვებთ ენის ბორძიკზე, შეყოვნებებზე, გამეორებულ სიტყვებზე. ეს ყველაფერი მეტად გამოსადეგია ხმის ამომცნობი საშუალებების ამწყობთათვის, რომ შეიქმნას საყოველთაო და ყოველდღიური მეტყველების ამომცნობი ხელსაწყოები.
+answer-questions-tip-1 = ჩაწერეთ მეტ-ნაკლებად წყნარ ადგილას
+answer-questions-tip-2 = აირჩიეთ ადგილი ხელმისაწვდომი ინტერნეტკავშირით
+answer-questions-tip-3b = ეცადეთ, პასუხი ჩაატიოთ 15-30 წამში
+answer-questions-tip-4 = მოერიდეთ სიძულვილით სავსე, გამაღიზიანებელ ან სხვაგვარად შეურაცხმყოფელ საუბარს
+answer-questions-tip-5 = ისაუბრეთ ბუნებრივად, როგორც მეგობარს ელაპარაკებით ხოლმე – საკუთარი კილოთი, კუთხური მეტყველებითა თუ სხვა თავისებურებებით.
+answer-questions-tip-6 = შეინარჩუნეთ ხმის თანაბარი სიმაღლე – არ დაიყვიროთ და არ წაიმღეროთ
+# Transcribe the Audio
+transcribe-the-audio = ხმის ნაწერად ქცევა
+transcribe-the-audio-subheader-1 = ზოგადი მითითებები
+transcribe-the-audio-subheader-2 = რიცხვები და შემოკლებები
+transcribe-the-audio-subheader-3 = საგანგებო მონიშვნები
+transcribe-the-audio-subheader-4 = სიტყვების დანაწევრება, მცდარი დაწყება, განმეორებული სიტყვები
+transcribe-the-audio-subheader-5 = გრამატიკული შეცდომები და სასაუბრო ენის გამოთქმები
+transcribe-the-audio-subheader-1-explanation = საერთოდ, ყველაფერი უნდა დაიწეროს, რასაც კი გაიგონებთ. მათ შორის;
+transcribe-the-audio-subheader-1-explanation-example-1 = დაიწეროს დარღვევებიც, მათ შორის ბორძიკი და გამეორებები
+transcribe-the-audio-subheader-1-explanation-example-2 = მოინიშნოს ხმაურის შემთხვევები, როგორიცაა ხველა ან გაცინება
+transcribe-the-audio-subheader-1-explanation-example-3 = მოინიშნოს ხმაურით მნიშვნელოვანი დაზიანების შემთხვევები, როგორიცაა ფონურად ყაყანი ან მანქანის საყვირი
+transcribe-the-audio-subheader-1-explanation-example-4 = გრამატიკული გადახრები და ჟარგონი უნდა დაიწეროს ზუსტად ისე, როგორც ისმის. ნუ შეასწორებთ ან გამართავთ ხალხის მეტყველებას.
+transcribe-the-audio-subheader-2-explanation-1 = რიცხვები და ნიშნები უნდა აღიწეროს სიტყვებით, ნაცვლად ციფრებისა და საგანგებო ნიშნებით ჩაწერისა. მაგალითად:
+transcribe-the-audio-subheader-2-explanation-2 = შემოკლებები უნდა დაიწეროს ისე, როგორც ჩვეულებრივ იწერება მშობლიურ ენაზე, მთავრულის გათვალისიწინებითაც, თუ საჭიროა. გამოთქმის მიხედვით დაწერა არასასურველია. მაგალითად:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> მართებული</correct>: აქედან ასი კილომეტრითაა დაშორებული
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>მცდარი</wrong>: აქედან 100 კილომეტრითაა დაშორებული
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Correct</correct>: შევხვდებით <underline>ორი ათას თხუთმეტში</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>მცდარი</wrong>: შევხვდებით <underline>2015-ში</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>მართებული</correct>: ოცპროცენტიანი ფასდაკლებით იყო
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>მცდარი</wrong>: 20%-იანი ფასდაკლებით იყო
+transcribe-the-audio-subheader-2-example-4-correct = <correct>მართებული</correct>: <underline>შსს-მ</underline> ისინი წინა ხუთშაბათს დააკავა
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>მცდარი</wrong>: ისინი <underline>შე სე სემ</underline> წინა ხუთშაბათს დააკავა
+transcribe-the-audio-subheader-3-explanation = მოცემული საგანგებო ჭდეები უნდა ერთვოდეს უმართებულო, შემავსებელ ან სხვა სახის არასიტყვერ მასალას (ინგლისურად).
+tags-table-header-1 = ჭდე
+tags-table-header-2 = მნიშვნელობა
+tags-laugh = სიცილი
+tags-disfluency = შეფერხება
+tags-unclear = გაუგებარი
+tags-noise = ხმაური
+tags-laugh-explanation = გაცინების ხმა.
+tags-disfluency-explanation =
+    შემავსებელად ჩართული სიტყვა ან ბგერა, სანამ მოსაუბრე წყვეტს, რა უნდა თქვას.
+    ქართულში ყოყმანისას გავრცელებული ბგერებია „ააა“, „ემმ“, „უუჰ“ და ა. შ.
+tags-unclear-explanation = სიტყვა ან სიტყვათა ჯგუფი, ძნელად გასაგები რომ არის.
+tags-noise-explanation =
+    ნებისმიერი სხვა სახის ხმაური, თუნდაც მოსაუბრის მიერ ჩახველება ან ჩახლეჩილი ხმის გასწორება,
+    მანქანის საყვირი, მიკროფონზე დარტყმის ხმა, ტელეფონის ზუზუნი და ა. შ.
+transcribe-the-audio-subheader-4-explanation-2 = ზოგჯერ მოსაუბრე რამდენჯერმე იმეორებს სიტყვას ან მის ნაწილს. ესეც აუცილებლად უნდა დაიწეროს. მაგალითად:
+transcribe-the-audio-subheader-5-explanation-1 = ზეპირი მეტყველებას ჩვეულებრივ ახლავს გრამატიკულ შეცდომები. ჩაწერისას არ უნდა გასწორდეს. ნაწერად ქცეული მასალა ზუსტად უნდა ასახავდეს წარმოთქმულს.
+transcribe-the-audio-subheader-5-explanation-2 = მოსაუბრემ შეიძლება გამოიყენოს სალაპარაკო ენისთვის დამახასიათებელი გამოთქმები (ქართულში ასეთებია „ძაან“, „გაჩე“, „მოიტა“, „მეუთხარი“ და ა. შ.), რომელთაც წესებით არამართებულად მიიჩნევენ. ესენიც ზუსტად უნდა დაიწეროს არ უნდა ჩანაცვლდეს შესაბამისი მართებული ფორმებით.
+
+## Review the Transcription
+
+review-the-transcription = ნაწერად ქცეულის შემოწმება
+review-the-transcription-subheader = ზოგადი მითითებები
+review-the-transcription-explanation-1 = საზოგადოდ, მეტად სასურველია, რომ პირი, რომელიც ნაწერად ქცეულს ამოწმებს, იგივე პირი არ უნდა იყოს, ვინც ნაწერად აქცია. ძალიან ძნელია საკუთარი ნამუშევრის გადამოწმება! რამდენიმე ხაზის შემოწმება შეიძლება დაგეხმაროთ ხარისხის შენარჩუნებასა და მიკერძოებულობისა თუ ხარვეზების აღმოფხვრაში.
+review-the-transcription-explanation-2 = გაეცანით ნაწერის ქცევისთვის ზემოთ მოცემულ მითითებებს, რომ უკეთ შეამოწმოთ ნაწერად ქცეულის სიზუსტე. შეგიძლიათ ჩაასწოროთ და ისე გამოგზავნოთ.
+review-the-transcription-explanation-3 = კიდევ ერთხელ, შეგიძლიათ მონიშნოთ შეურაცხმყოფელი, მავნე ან სხვაგვარად შემაშფოთებელი მასალა და აღარ წააწყდებით, სანამ Common Voice ამგვარ საკითხებზე მომუშავე გუნდით არ გადაამოწმებს და სიღრმისეულად არ გამოიკვლევს.
+
+## Code-Switching
+
+code-switching = ენებს შორის გადართვა
+adding-a-question = კითხვის დამატება
+# Adding a Question
+code-switching-adding-question-subheader = როგორი უნდა იყოს კარგი შეკითხვა?
+code-switching-adding-question-explanation = კარგი შეკითხვა საჯარო კრებულისთვის უნდა იყოს:
+code-switching-adding-question-criteria-1 = ადვილად გასაგები და იოლად საპასუხო
+code-switching-adding-question-criteria-2 = მეტად საყოველთაო
+code-switching-adding-question-criteria-3 = არ შეიცავდეს და არ ითხოვდეს მავნე ან შეურაცხმყოფელ სიტყვებს
+code-switching-adding-question-note = აგრეთვე სასურველია, მოიცვათ მრავალი საკითხი და დარგი.
+# What types of questions to add
+code-switching-types-subheader = რა სახის კითხვები უნდა დაემატოს?
+code-switching-use-bilingual-prompts-header = ორენოვანი მოთხოვნები
+code-switching-use-bilingual-prompts-explanation = გამოიყენეთ ორენოვანი მოთხოვნები, რომ კითხვა მოიცავდეს ორივე ენას: მაგალითად:
+code-switching-ask-bilingual-contexts-header = დასვით კითხვები ორენოვანი შინაარსით
+code-switching-ask-bilingual-contexts-explanation = დაიხმარეთ ისეთი გარემოებები, როცა, ჩვეულებრივ, ორივე ენას იყენებენ (თუნდაც სახლში, სკოლაში, ერთობის ღონისძიებებში). მაგალითად:
+code-switching-focus-emotional-explanation = ენების გადართვა ხალხს ახასიათებს გრძნობების გამოხატვისას, მღელვარებისას ან საგანგებო შემთხვევებისას. მაგალითად:
+code-switching-cultural-topics-explanation = საჭმელი, ჩვეულებები, დღესასწაულები და ოჯახური გარემოებები, აგრეთვე იწვევს ენების გადართვას.
+# What to Avoid
+code-switching-avoid-subheader = უნდა აირიდოთ
+code-switching-avoid-intro = კითხვები, რომლებიც:
+code-switching-avoid-1 = გაამჟღავნებს პირის ამოსაცნობ მონაცემებს
+code-switching-avoid-2 = წარმოშობს სიძულვილით სავსე ან სხვა მიკერძოებულ თუ შეურაცხმყოფელ განწყობილებას
+code-switching-avoid-3 = მოპასუხისთვის შეიძლება აღმოჩნდეს მგრძნობიარე და უბიძგოს მეტად პირადი საკითხების გამჟღავნებისკენ
+code-switching-dont-header = არასასურველია
+code-switching-dont-1 = ნუ გამოიყენებთ ზედმეტად საქმიან ენას
+# Reviewing a Question
+code-switching-review-subheader = კითხვების შემოწმება
+code-switching-review-intro = დარწმუნდით, რომ შეკითხვა აკმაყოფილებს მოთხოვნებს:
+code-switching-review-criterion-1 = ადვილად გასაგები და იოლად საპასუხო
+code-switching-review-criterion-2 = მეტად საყოველთაო
+code-switching-review-criterion-3 = არ შეიცავდეს და არ ითხოვდეს მავნე ან შეურაცხმყოფელ სიტყვებს
+code-switching-review-does-not-header = და <bold>ᲐᲠ</bold> ახლავს:
+code-switching-review-offensive-content = <bold>შეურაცხმყოფელი მასალა ან საფრთხილო მონაცემები</bold>
+code-switching-answer-header = შეურაცხმყოფელი მასალა ან საფრთხილო მონაცემები
+code-switching-review-no-1 = კითხვები, რომლებითაც გამჟღავნდება პირის ამოსაცნობი მონაცემები
+code-switching-review-no-2 = კითხვები, რომლებიც შეიძლება იწვევდეს სიძულვილით სავსე ან სხვა მიკერძოებულ თუ შეურაცხმყოფელ განწყობილებას
+code-switching-review-no-3 = კითხვები, რომლებიც მოპასუხისთვის შეიძლება აღმოჩნდეს მეტად მგრძნობიარე, ამაღელვებელი და უბიძგოს საფრთხილო მონაცემების გამჟღავნებისკენ
+# Answering a Question
+code-switching-answer-subheader = კითხვაზე პასუხი
+code-switching-answer-intro = კითხვაზე პასუხისას მიზანია ბუნებრიობის შენარჩუნება – ნამდვილი საუბრების მსგავსად. ჩვენ გვსურს ავსახოთ, თუ როგორ ერწყმის ენები ერთმანეთს ყოველდღიურ მეტყველებაში.
+code-switching-answer-bullet-1 = გაიხსენეთ სხვადასხვა ცხოვრებისეული შემთხვევა თუ ვითარება: ხუმრობები, კამათი, ჩვეულებები
+code-switching-answer-bullet-2 = წარმოიდგინეთ, თითქოს მეგობარს უგზავით შეტყობინებას ან ვინმეს ამბავს უყვებით
+code-switching-answer-bullet-3 = გამოიყენეთ სიტყვები, რომელთაც ისედაც იყენებთ ხოლმე, თუნდაც ნასესხებს ან უცხო ენისას
+code-switching-answer-bullet-4 = არ არსებობს „სრულყოფილი“ პასუხის გაცემის გზა
+code-switching-authentic-header = უპასუხეთ ბუნებრივად და თქვენებურად
+code-switching-authentic-speak = <bold>ილაპარაკეთ ისე, როგორც მეგობრებთან ან ოჯახის წევრებთან ლაპარაკობთ.</bold> თუ რამდენიმე ენას ურევთ ხოლმე ერთმანეთში, აქაც ასე მოიქეცით. მაგალითად:
+code-switching-transcribe-intro = პასუხების ნაწერად ქცევისას, როცა წააწყდებით ენების გადართვას, მოსაუბრის ენა წარმოადგინეთ ზუსტად ისე, როგორც არის – გამართვის, შესწორების ან გამარტივების გარეშე. ეს ეხება ენების ცვლას, სასაუბრო მეტყველებასა და ენაში გამორეულ უცხო სიტყვებსაც.
+# Tagging
+code-switching-tagging-subheader = ჭდეების დართვა
+code-switching-tagging-error-intro = თუ ნაწერად ქცეული შეცდომებითაა, გთხოვთ მოხსენების მეშვეობით მონიშნოთ. შესაძლო შეცდომებია:
+code-switching-tagging-error-1 = უმართებულოდ გამოყენებული სასვენი ნიშნები ან მთავრული ასოები
+code-switching-tagging-error-2 = მცდარბეჭდილი
+code-switching-tagging-error-3 = სიტყვები გაუმართავი მართლწერით
+
+## Reporting Content
+
+reporting-content = მასალის მოხსენება
+reporting-content-subheader = ზოგადი მითითებები
+reporting-content-explanation-1 = უნდა მონიშნოთ შეურაცხმყოფელი, მავნე ან სხვაგვარად შემაშფოთებელი მასალა. აგრეთვე, არ უნდა შეიცავდეს პირად მონაცემებს, როგორიცაა ტელეფონის ნომერი ან მისამართი. აღარ წააწყდებით, სანამ Common Voice ამგვარ საკითხებზე მომუშავე გუნდით არ გადაამოწმებს და სიღრმისეულად არ გამოიკვლევს.
+reporting-content-explanation-2 = საჩივრისთვის გამოიყენეთ ღილაკი „მოხსენება“ და აირჩიეთ ერთი ან ყველა მოსანიშნი: შეურაცხმყოფელი მასალა, განსხვავებული ენა, პირის ამოსაცნობი მონაცემები თუ სხვა.  იქვე, ჩასაწერი ველის მეშვეობით განგვიმარტეთ დაწვრილებით, თუ რატომ აგზავნით მოხსენებას მასალის შესახებ.  შემდეგ კი გამოგზავნეთ მოხსენების ღილაკზე დაწკაპებით.

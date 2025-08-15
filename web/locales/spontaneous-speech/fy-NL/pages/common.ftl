@@ -32,8 +32,11 @@ continue-with-skipped = Trochgean mei Oersloegen
 question = Fraach
 validate = Falidearje
 respond-to-prompt = Beäntwurdzje
+respond-to-prompt-mobile = Beäntwurdzje
 transcribe = Transkribearje
 check-transcriptions = Beoardiele
+check-transcriptions-mobile = Beoardiele
+tag = Label
 
 ## Not Found Page
 

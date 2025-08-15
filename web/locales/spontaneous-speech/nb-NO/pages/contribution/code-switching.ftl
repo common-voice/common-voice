@@ -18,7 +18,7 @@ cs-question-dataset-name = Datasett: { $datasetName }
 
 cs-validate-page-instruction = Valider <validateIcon></validateIcon> at dette spørsmålet oppfyller retningslinjene.
 cs-no-questions-continue-skipped = Det finnes ingen flere spørsmål for dette datasettet. Hvis du har hoppet over noen, kan du fortsette med innholdet som er hoppet over, eller gå til transkribering av lyd og prøve på nytt senere.
-cs-add-vote-error-message = Det oppstod en feil under avstemningen av spørsmålet
+cs-add-vote-error-message = Det oppstod en feil under avstemningen om spørsmålet
 
 ## Transcribe Page Items
 

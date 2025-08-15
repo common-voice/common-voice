@@ -1,7 +1,7 @@
 ## Tagging Page
 
 tag-page-instruction = Velg <icon></icon> teksten for å begynne
-tag-terms-checkbox = Jeg godtar Common Voice sine bruksvilkår og personvernerklæring.
+tag-terms-checkbox = Jeg godtar vilkårene og personvernet til Common Voice.
 tag-popover-title = Velg en etikett
 select-a-tag = Velg en etikett
 edit-tag = Rediger etikett

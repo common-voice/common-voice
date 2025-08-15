@@ -141,11 +141,24 @@ example-questions-explanation-2 = Remondoséramo peteĩ porandu aty rehegua oñe
 answer-questions = Embohovái Porandu
 answer-questions-subheader = Ñembohape guasu
 answer-questions-tip-1 = Egrava peteĩ tenda hyapu’ỹhápe
+answer-questions-tip-2 = Eiporavo peteĩ tenda eikekuaa hag̃ua internépe
+answer-questions-tip-3b = Erekóke ne ñembohovái 15-30 aravo’ípe
 # Transcribe the Audio
 transcribe-the-audio = Emonguatia Mba’epu
 transcribe-the-audio-subheader-1 = Ñembohape guasu
 transcribe-the-audio-subheader-2 = Papapy ha akrónimo
 transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
+transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Oiko’ỹva</wrong>: Opyta sa mílla ko’águi
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Oiko</correct>: Jajuecháta <underline>mokõipa papo</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Oiko’ỹva</wrong>: Jajuecháta <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Oiko</correct>: Areko mokõipa savore hepykue guejýva
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Oiko’ỹva</wrong>: Areko mokõipa savore hepykue guejýva
 tags-table-header-1 = Teramoĩ
 tags-table-header-2 = He’iséva
 tags-laugh = Puka
@@ -153,9 +166,12 @@ tags-disfluency = Ñe’ẽpa’ã
 tags-unclear = Hesakã’ỹva
 tags-noise = Tyapu
 tags-laugh-explanation = Jepuka ryapu.
+tags-unclear-explanation = Ñe’ẽ térã ñe’ẽ juaju oñeikumbykuaa’ỹva.
+transcribe-the-audio-subheader-4-explanation-1-example = Ha’e héra <underline>Jo- Jona-</underline> Jonathan.
 
 ## Review the Transcription
 
+review-the-transcription = Ehechajey jehaikue
 review-the-transcription-subheader = Ñembohape guasu
 
 ## Code-Switching
@@ -172,6 +188,8 @@ code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’�
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
+code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
 # What to Avoid
 code-switching-avoid-subheader = Mba’éicha emboykéta
@@ -185,8 +203,24 @@ code-switching-review-intro = Ehecháke pe porandu taiporãmeme:
 code-switching-review-criterion-1 = Ndahasýi iñeikumby ha imbohovái
 code-switching-review-criterion-2 = Hetave jey hekoporãva’erã
 code-switching-review-criterion-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+code-switching-answer-header = Tetepy oporoko’õva térã marandu oñeñandúva
+code-switching-review-no-1 = Ñeporandu ikatukuaáva ojerure ndéve marandu nde ndeheguaitéva
+code-switching-review-no-2 = Porandu ikatúva omongu’e je’epy ja’e’ỹ térã hetave mba’e omongu’ekuaáva jeikovairã
+code-switching-review-no-3 = Porandu ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
 # Answering a Question
 code-switching-answer-subheader = Embohovaihína Porandu
+code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emombeʼuha tembiasakue nde rapichápe
+code-switching-answer-bullet-3 = Eiporu ñe’ẽ añetehápe eiporútava, taha’e porupy térã ojehe’áva
+code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
+code-switching-authentic-header = Embohovái porã ha ha’etéva
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
+# Transcribing
+code-switching-transcribe-subheader = Ñe’ẽnguejehai
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
+# Include filler words and markers
+code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
 code-switching-tagging-error-2 = Jejavy taiguáva
@@ -194,3 +228,8 @@ code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “Naháriri”
 code-switching-not-tag-interjections-example-3 = “Héẽ”
 code-switching-not-tag-interjections-example-4 = “Er”
+
+## Reporting Content
+
+reporting-content = Emombe’u Tetepy
+reporting-content-subheader = Ñembohape guasu

@@ -199,7 +199,9 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneholder naturlig nok falske starter, der bare en del av et ord blir uttalt. I slike tilfeller, prøv å transkribere ordfragmentet så godt du kan, og legg til en bindestrek (-) på slutten av ordet for å indikere at det er en falsk start. Eksempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et ord eller et ordfragment flere ganger. Dette skal også transkriberes. Eksempel:
+transcribe-the-audio-subheader-4-explanation-2-example = Og så gikk jeg <underline>til til til sove- til</underline> soverommet
 transcribe-the-audio-subheader-5-explanation-1 = Spontantale vil naturlig inneholde grammatiske feil. Disse skal ikke rettes under transkripsjon. Transkripsjonen skal gjenspeile det som faktisk ble sagt, nøyaktig.
+transcribe-the-audio-subheader-5-explanation-2 = Talere kan bruke slang eller muntlige uttrykk (som for eksempel på norsk «må’kke», «gidder’u» osv.) som kanskje ikke anses som formelt korrekte. Disse skal transkriberes som de er, og ikke endres til mer formelle ekvivalenter.
 
 ## Review the Transcription
 
@@ -310,11 +312,14 @@ code-switching-orthography-header = Bruk av riktig ortografi for hvert språk
 code-switching-orthography-explanation = Skriv hvert ord i henhold til stavemåten til språket det kommer fra. For eksempel:
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+# Tagging in a Single Token
+code-switching-single-token-header = Merking i et enkelt token
+code-switching-single-token-explanation = Et enkelt token atskilt med mellomrom skal inneholde mer enn én nøkkelordseksjon.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Merk tegnsetting basert på språk i nærheten
 code-switching-punctuation-tagging-explanation = Merk tegnsetting med språket nærmest venstre. Eksempler:
 # Be Careful with Lookalikes
-code-switching-lookalikes-header = Vær forsiktig med liknende ord
+code-switching-lookalikes-header = Vær forsiktig med ord som ligner på hverandre
 code-switching-lookalikes-explanation = Noen ord kan se ut som på ett språk, men brukes på det andre. Merk basert på betydning og bruk, ikke utseende. Eksempler:
 # When Not to Tag Words
 code-switching-not-tag-header = Når man ikke skal merke ord
@@ -325,6 +330,10 @@ code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merkenavn/organisasjoner:  Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Blandede eller morfologisk tilpassede ord.</bold> Ikke merk ord som blander språk eller har lagt til endelser fra et annet språk. Eksempler:
 code-switching-not-tag-interjections = <bold>Interjeksjoner.</bold> Interjeksjoner og fyllord, uavhengig av språk, skal forbli <bold>umerket.</bold> Eksempler:
+code-switching-not-tag-interjections-example-1 = «Eh»
+code-switching-not-tag-interjections-example-2 = «Nei»
+code-switching-not-tag-interjections-example-3 = «Ja»
+code-switching-not-tag-interjections-example-4 = «Øh»
 
 ## Reporting Content
 

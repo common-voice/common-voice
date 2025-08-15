@@ -114,7 +114,10 @@ about-playbook-how-record-content-5 = <accuracyLink>Вижте повече от
 ## How to grow language
 
 about-playbook-how-grow-language = Как можем ефективно да развием език в Common Voice?
+about-playbook-how-grow-language-content-1 = Създаването на възможности за принос от различни хора към Common Voice гарантира, че наборът от данни обслужва възможно най-много хора. Създадохме ресурси и шаблони, които можете да използвате!
 about-playbook-how-grow-language-content-2 = Събития
+about-playbook-how-grow-language-content-3 = Можете да организирате събития, за да помагате на хората да допринасят. По-лесно е, отколкото си мислите. Можете да го направите онлайн с инструмент за видео конферентна връзка или лично, ако е безопасно. <eventTemplate>Разгледайте нашите шаблони и ресурси за текущи събития</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Социални медии
 about-playbook-how-grow-language-content-5 = Можете да използвате социалмните мрежи, за да разпространите съобщението. Споделяйте публикации, които обясняват защо има значение, и се свързвайте с други хора, които говорят за проблеми като езикови права, гласов AI или пристрастия в технологиите. Вижте повече съвети за <campaignLink>провеждане на социална кампания, включително съдържание, което можете да използвате повторно</campaignLink>.
 about-playbook-how-grow-language-content-6 = Партньорства и мрежи
 about-playbook-how-grow-language-content-7 = Намерете други със сходни интереси.. Това може да са университети, езикови училища, групи за застъпничество или общности за наука за данни. Протегнете ръка и обяснете ясно как могат да помогнат и защо. <outreachTemplates>Вижте нашите шаблонни имейли за обхват</outreachTemplates>.
@@ -144,3 +147,8 @@ about-playbook-how-project-governance-content-4 = Участие на общно
 about-playbook-how-project-governance-content-5 = Ценност и признание.
 about-playbook-how-project-governance-content-6 = Взаимна отговорност.
 about-playbook-how-project-governance-content-7 = <governanceLink>Прочетете повече за това как се управляваме</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Как се финансира Common Voice?
+about-playbook-how-funded-content-1 = Common Voice е проект на фондация Mozilla, американски 501c3. Понастоящем проектът се финансира изцяло от <philantropicGrantLink>филантропични дарения</philantropicGrantLink> и дарения от хора по целия свят.
