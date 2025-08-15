@@ -144,7 +144,7 @@ example-questions-explanation-2 = 若希望批量提交问题以供添加，请<
 # Answer Questions
 answer-questions = 回答提问
 answer-questions-explanation-1 = 稍微分析引导语，考虑您要说的内容，但不必过分修饰措辞。准备好后，点击“录制”图标。录制完成后，您可以自己听一遍、重新录制、删除，以及提交。
-answer-questions-explanation-2 = 请记住：即使在录音过程中出现口吃、停顿、重复，也不必担心。因为对于希望打造包容性强、能适应真实场景的语音识别工具的工程师而言，这些都是有用的数据。
+answer-questions-explanation-2 = 请记住：即使在录音过程中出现口吃、停顿、重复，也不必担心。许多工程师希望打造包容性强、能适应真实场景的语音识别工具，因此对他们而言，这些都是有用的数据。
 answer-questions-tip-1 = 在较安静的环境下录音
 answer-questions-tip-2 = 选择网络条件较好的位置
 answer-questions-tip-3b = 尽量将回答的时长控制在 15 - 30 秒
@@ -182,7 +182,7 @@ tags-disfluency = 卡顿
 tags-unclear = 模糊
 tags-noise = 噪音
 tags-laugh-explanation = 笑声
-tags-disfluency-explanation = 说话人在组织语言时，为避免停顿而用的垫词或垫音，常见的迟疑音有“呃”“嗯”“啊”等。
+tags-disfluency-explanation = 说话人在组织语言时，为避免停顿而用的垫词或垫音。常见的迟疑音有“呃”“嗯”“啊”等。
 tags-unclear-explanation = 无法理解的一个或一串字词。
 tags-noise-explanation = 其他所有类型的噪音，例如说话者的咳嗽或清嗓声、汽车鸣笛声、麦克风被敲击的声音、手机震动声等。
 # Note: do not translate any tag, like [noise] or [laugh]
