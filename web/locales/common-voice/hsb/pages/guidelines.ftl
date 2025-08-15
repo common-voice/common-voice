@@ -279,10 +279,13 @@ code-switching-use-both-languages-example = „Je woprawdźe hněwna był, weil 
 code-switching-authentic-direct-quotes = <bold>Zasadźće direktne citaty abo dialog.</bold> Prajće eksaktnje, štož něchtó praješe, nic porjedźenu abo formelnu wersiju. Přikład:
 code-switching-authentic-direct-quotes-example = „Meine Mama hat gesagt, ‚glaubst du, dass das ein Spiel ist?‘ a ja prajach, ‚W porjadku, wotreaguj so!‘“
 code-switching-authentic-reflect = <bold>Wotbłyšćujće emocije, identitu a kontekst.</bold> Změna rěče so zwjetša stawa, hdyž ludźo emociju, nuznosć abo kulturelne ideje zwuraznjeja. Wužiwajće to, hdyž na prašenja wotmołwjeće.
+code-switching-authentic-full-context = <bold>Wužiwajće dospołne wotmołwy z kontekstom.</bold> Budźće tak nadrobny kaž móžno a podajće telko podrobnosćow kaž móžeće. Dźělće stawizničku abo přikład w swojich wotmołwach.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepřemyslujće abo njewobdźěłujće přewjele
 code-switching-answer-dont-correct-language = <bold>„Njekorigujće“ swoju rěč.</bold> To test njeje. „Prawa“ forma tu wažna njeje, ale přirodna rěč.
+code-switching-answer-dont-avoid-switching = <bold>Wobeńdźće změnu rěče, jeli to hewak tak činiće.</bold> Je w porjadku, hdyž wosrjedź sady, wosrjedź mysle abo jenož za jedne słowo rěč měnjeće.
 code-switching-answer-dont-formal-writing = <bold>Rěčće, kaž byšće formelnje pisał.</bold> Wobeńdźće formelne, akademiske wotmołwy. Wužiwajće rěč, kotraž je zwučena za rozmołwy.
+code-switching-answer-dont-force-switch = <bold>Wunuzujće změnjenje rěče, jeli přirodne njeje.</bold> Změńće rěč jenož potom, hdyž byšće w tajkej situaciji přirodnje rěčał.
 code-switching-answer-dont-translate-repeat = <bold>Přełožujće abo wospjetujće wšitko.</bold> Prošu prajće to jenož jónkróć, tak kaž by w rozmołwje wustupowało. Njetrjebaće wersiju wotmołwy w kóždej rěči prajić.
 # Transcribing
 code-switching-transcribe-subheader = Transkribować
