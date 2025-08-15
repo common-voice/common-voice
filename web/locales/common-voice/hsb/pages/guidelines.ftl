@@ -248,6 +248,8 @@ code-switching-informal-scenarios-explanation-example = „Kotry žort waši př
 code-switching-avoid-subheader = Što dyrbjał wy wobeńć
 code-switching-avoid-intro = Prašenja, kotrež:
 code-switching-avoid-1 = Informacije požadać, kotrež wosoby identifikuja
+code-switching-avoid-2 = Wo hidypołne rěčenje abo druhe předzajate abo křiwdźace začuća prosyć
+code-switching-avoid-3 = kotrež móhli k tomu wjesć, zo něchtó sensibelne, potencielnje wuwołowace wotmołwy dźěli
 code-switching-dont-header = Wopak:
 code-switching-dont-1 = Njewužiwajće přeformalnu rěč
 # Reviewing a Question
