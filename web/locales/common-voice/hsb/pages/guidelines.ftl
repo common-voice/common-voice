@@ -297,13 +297,16 @@ code-switching-capture-header = Natočće rěčenje eksaktnje kaž so rěči
 code-switching-capture-explanation = Transkribujće wobě rěči kaž so jewitej / klinčitej. Nje„porjedźejće“ rěč abo njeměnjejće jej do jenož jedneje rěče.
 # Include filler words and markers
 code-switching-filler-header = Pjelnjace słowa a marki zapřijeć
+code-switching-filler-explanation = Słowa kaž „em“, „kaž“, „nun“, „wěš“ a „also“ su zmysłapołne. Přikład: „No, em, sym jej prajił, ‚nun ich weiß nicht, snano pozdźišo.‘“
 # Use standard spelling for each language
 code-switching-spelling-header = Standardny prawopis za kóždu rěč wužiwać
+code-switching-spelling-explanation = Spytajće słowa za kóždu rěč korektnje pisać, chibazo rěčnik je jasnje na njestandardizowane wašnje wurjekuje.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Njerumujće abo njezjednorjejće rěč
 code-switching-cleanup-1 = Přełožće abo přepisajće – pisajće, štož rěčnik je prajił, nic štož je „měnił“.
 code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wurjekowanje – wobchowajće přirodne wužiće rěčnika.
 code-switching-cleanup-3 = Změnjenja přeskočić, kotrež so snadne abo małe zdadźa – samo wupožčene słowa su wažne.
+code-switching-cleanup-4 = Zasadźće interpunkciju, kotraž móhła woznam změnić – dźeržće běh přirodny.
 # Tagging
 code-switching-tagging-subheader = Markěrowanje
 code-switching-tagging-error-intro = Jeli transkripcija zmylk wobsahuje, wužiwajće prošu zdźělensku funkciju, zo byšće jón woznamjenił. Móžne zmylki su:
