@@ -221,3 +221,14 @@ code-switching-answer-bullet-3 = გამოიყენეთ სიტყვ�
 code-switching-answer-bullet-4 = არ არსებობს „სრულყოფილი“ პასუხის გაცემის გზა
 code-switching-authentic-header = უპასუხეთ ბუნებრივად და თქვენებურად
 code-switching-authentic-speak = <bold>ილაპარაკეთ ისე, როგორც მეგობრებთან ან ოჯახის წევრებთან ლაპარაკობთ.</bold> თუ რამდენიმე ენას ურევთ ხოლმე ერთმანეთში, აქაც ასე მოიქეცით. მაგალითად:
+# Tagging
+code-switching-tagging-subheader = ჭდეების დართვა
+code-switching-tagging-error-intro = თუ ნაწერად ქცეული შეცდომებითაა, გთხოვთ მოხსენების მეშვეობით მონიშნოთ. შესაძლო შეცდომებია:
+code-switching-tagging-error-1 = უმართებულოდ გამოყენებული სასვენი ნიშნები ან მთავრული ასოები
+code-switching-tagging-error-2 = მცდარბეჭდილი
+code-switching-tagging-error-3 = სიტყვები გაუმართავი მართლწერით
+
+## Reporting Content
+
+reporting-content = მასალის მოხსენება
+reporting-content-subheader = ზოგადი მითითებები
