@@ -178,3 +178,23 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>მართებ
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>მცდარი</wrong>: 20%-იანი ფასდაკლებით იყო
 transcribe-the-audio-subheader-2-example-4-correct = <correct>მართებული</correct>: <underline>შსს-მ</underline> ისინი წინა ხუთშაბათს დააკავა
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>მცდარი</wrong>: ისინი <underline>შე სე სემ</underline> წინა ხუთშაბათს დააკავა
+transcribe-the-audio-subheader-3-explanation = მოცემული საგანგებო ჭდეები უნდა ერთვოდეს უმართებულო, შემავსებელ ან სხვა სახის არასიტყვერ მასალას (ინგლისურად).
+tags-table-header-1 = ჭდე
+tags-table-header-2 = მნიშვნელობა
+tags-laugh = სიცილი
+
+## Code-Switching
+
+code-switching-adding-question-note = აგრეთვე სასურველია, მოიცვათ მრავალი საკითხი და დარგი.
+# What types of questions to add
+code-switching-types-subheader = რა სახის კითხვები უნდა დაემატოს?
+code-switching-use-bilingual-prompts-header = ორენოვანი მოთხოვნები
+code-switching-use-bilingual-prompts-explanation = გამოიყენეთ ორენოვანი მოთხოვნები, რომ კითხვა მოიცავდეს ორივე ენას: მაგალითად:
+code-switching-ask-bilingual-contexts-header = დასვით კითხვები ორენოვანი შინაარსით
+code-switching-ask-bilingual-contexts-explanation = დაიხმარეთ ისეთი გარემოებები, როცა, ჩვეულებრივ, ორივე ენას იყენებენ (თუნდაც სახლში, სკოლაში, ერთობის ღონისძიებებში). მაგალითად:
+# What to Avoid
+code-switching-avoid-subheader = უნდა აირიდოთ
+code-switching-avoid-intro = კითხვები, რომლებიც:
+code-switching-avoid-1 = გაამჟღავნებს პირის ამოსაცნობ მონაცემებს
+code-switching-avoid-2 = ქმნის სიძულვილით სავსე ან სხვა მიკერძოებულ თუ შეურაცხმყოფელი განწყობილებას
+code-switching-avoid-3 = მოპასუხისთვის შეიძლება აღმოჩნდეს მგრძნობიარე და უბიძგოს მეტად საფრთხილო მონაცემების გამჟღავნებისკენ
