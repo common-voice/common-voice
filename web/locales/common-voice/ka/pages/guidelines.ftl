@@ -207,7 +207,7 @@ review-the-transcription-explanation-3 = კიდევ ერთხელ, შ
 
 ## Code-Switching
 
-code-switching = ენების მონაცვლეობა
+code-switching = ენებს შორის გადართვა
 adding-a-question = კითხვის დამატება
 # Adding a Question
 code-switching-adding-question-subheader = როგორი უნდა იყოს კარგი შეკითხვა?
