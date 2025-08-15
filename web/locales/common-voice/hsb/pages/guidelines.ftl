@@ -211,6 +211,7 @@ review-the-transcription = Přepruwujće transkripciju
 review-the-transcription-subheader = Powšitkowne pokazki
 review-the-transcription-explanation-1 = W normalnym padźe poručamy, zo wosoba, kotraž transkripciju přepruwuje, njeměła samsna wosoba być, kotraž je originalnu transkripciju činiła. Je jara ćežko, swójske dźěło přepruwować! Wjacore linki přepruwowanja móža pomhać, zawěsćenje kwality bóle robustne činić a pomhaja, předsudki a problemy wosłabić.
 review-the-transcription-explanation-2 = Čitajće směrnicy transkripcije horjeka, zo byšće přepruwował, hač transkripcija je korektna. Móžeće wobdźěłanja podać a je wotpósłać.
+review-the-transcription-explanation-3 = Hišće raz, móžeće wobsah woznamjenić, kotryž je křiwdźacy, škódny abo hewak někak trašacy, a wotstronja so z wašeho dožiwjenja, doniž team Common Voice njemóže jón přepruwować a přepytować.
 
 ## Code-Switching
 
