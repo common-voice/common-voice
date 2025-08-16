@@ -149,11 +149,11 @@ function ProfileInfoLanguages({
           <span aria-hidden={true}>+</span>
         </Button>
 
-        {!hasUserLanguages && (
+        {/* {!hasUserLanguages && (
           <Localized id="profile-select-language">
-            <span className="no-languages" />
+            <span className="no-languages">HERE</span>
           </Localized>
-        )}
+        )} */}
 
         <div style={{ marginTop: 10 }}>
           <Localized id="request-language-text" />{' '}

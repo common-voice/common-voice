@@ -2,23 +2,23 @@ import {
   Localized,
   WithLocalizationProps,
   withLocalization,
-} from '@fluent/react';
-import * as React from 'react';
-import { HTMLProps, useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import cx from 'classnames';
-import { LocaleLink } from '../locale-helpers';
-import { CheckIcon } from './icons';
-import VisuallyHidden from '../visually-hidden/visually-hidden';
+} from '@fluent/react'
+import * as React from 'react'
+import { HTMLProps, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import cx from 'classnames'
+import { LocaleLink } from '../locale-helpers'
+import { CheckIcon } from './icons'
+import VisuallyHidden from '../visually-hidden/visually-hidden'
 
 export const Avatar = ({
   className,
   url,
   style,
 }: {
-  url?: string;
-  className?: string;
-  style?: object;
+  url?: string
+  className?: string
+  style?: object
 }) => (
   <div className={`avatar-wrap ${className ? className : ''}`} style={style}>
     {url ? (
@@ -31,7 +31,7 @@ export const Avatar = ({
       />
     )}
   </div>
-);
+)
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const Button = (allProps: any) => {
@@ -41,7 +41,7 @@ export const Button = (allProps: any) => {
     rounded = false,
     isBig = false,
     ...props
-  } = allProps;
+  } = allProps
 
   return (
     <button
@@ -49,17 +49,17 @@ export const Button = (allProps: any) => {
       className={cx('button', { outline, rounded, isBig }, className)}
       {...props}
     />
-  );
-};
+  )
+}
 
 export const CardAction = ({ className, ...props }: any) =>
   props.to ? (
     <LocaleLink className={'card-action ' + className} {...props} />
   ) : (
     <Button outline className={'card-action ' + className} {...props} />
-  );
+  )
 
-export const Hr = (props: any) => <hr className="hr" {...props} />;
+export const Hr = (props: any) => <hr className="hr" {...props} />
 
 export const Checkbox = React.forwardRef(
   (
@@ -71,12 +71,12 @@ export const Checkbox = React.forwardRef(
       <CheckIcon className="checkmark" />
     </span>
   )
-);
-Checkbox.displayName = 'Checkbox';
+)
+Checkbox.displayName = 'Checkbox'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const LabeledCheckbox = React.forwardRef((allProps: any, ref) => {
-  const { label, required, style, ...props } = allProps;
+  const { label, required, style, ...props } = allProps
 
   return (
     <label className="labeled-checkbox" style={style}>
@@ -91,9 +91,9 @@ export const LabeledCheckbox = React.forwardRef((allProps: any, ref) => {
         {label}
       </span>
     </label>
-  );
-});
-LabeledCheckbox.displayName = 'LabeledCheckbox';
+  )
+})
+LabeledCheckbox.displayName = 'LabeledCheckbox'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
@@ -106,7 +106,7 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
     isLabelVisuallyHidden,
     dataTestId,
     ...props
-  } = allProps;
+  } = allProps
 
   const child = (
     <Component
@@ -117,14 +117,14 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
       data-testid={dataTestId}
       {...props}
     />
-  );
+  )
 
   const labelClassName = cx(
     'labeled-form-control',
     'for-' + Component,
     className,
     { disabled }
-  );
+  )
 
   return (
     <label className={labelClassName} {...props}>
@@ -142,9 +142,9 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
         child
       )}
     </label>
-  );
-});
-LabeledFormControl.displayName = 'LabeledFormControl';
+  )
+})
+LabeledFormControl.displayName = 'LabeledFormControl'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const LabeledInput = React.forwardRef(
@@ -157,16 +157,16 @@ export const LabeledInput = React.forwardRef(
       {...props}
     />
   )
-);
-LabeledInput.displayName = 'LabeledInput';
+)
+LabeledInput.displayName = 'LabeledInput'
 
 export const LabeledSelect = (props: any) => (
   <LabeledFormControl component="select" {...props} />
-);
+)
 
 export const LabeledTextArea = (props: any) => (
   <LabeledFormControl component="textarea" {...props} />
-);
+)
 
 export const LinkButton = ({
   className = '',
@@ -176,41 +176,41 @@ export const LinkButton = ({
   absolute = false,
   ...props
 }: any) => {
-  const Component = props.to ? (absolute ? Link : LocaleLink) : 'a';
+  const Component = props.to ? (absolute ? Link : LocaleLink) : 'a'
   return (
     <Component
       className={cx('button', { outline, rounded }, className)}
       {...(blank ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
       {...props}
     />
-  );
-};
+  )
+}
 
 interface SpinnerProps {
-  delayMs?: number;
-  isLight?: boolean;
-  isFloating?: boolean;
+  delayMs?: number
+  isLight?: boolean
+  isFloating?: boolean
 }
 export const Spinner = ({
   delayMs,
   isLight,
   isFloating = true,
 }: SpinnerProps) => {
-  const [showSpinner, setShowSpinner] = useState(false);
+  const [showSpinner, setShowSpinner] = useState(false)
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => setShowSpinner(true), delayMs);
-    return () => clearTimeout(timeoutId);
-  }, []);
+    const timeoutId = setTimeout(() => setShowSpinner(true), delayMs)
+    return () => clearTimeout(timeoutId)
+  }, [])
 
   if (!showSpinner) {
-    return null;
+    return null
   }
 
   const spinnerClassName = cx('spinner', {
     'spinner--light': isLight,
     'spinner--floating': isFloating,
-  });
+  })
 
   return (
     <div className={spinnerClassName}>
@@ -220,9 +220,9 @@ export const Spinner = ({
       </VisuallyHidden>
       <span className="spinner__shape" />
     </div>
-  );
-};
-Spinner.defaultProps = { delayMs: 300 };
+  )
+}
+Spinner.defaultProps = { delayMs: 300 }
 
 export const StyledLink = ({
   blank = false,
@@ -232,19 +232,19 @@ export const StyledLink = ({
   | React.HTMLProps<HTMLAnchorElement>
   | React.ComponentProps<typeof LocaleLink>
 ) & { blank?: boolean }) => {
-  const Component = props.href ? 'a' : LocaleLink;
+  const Component = props.href ? 'a' : LocaleLink
   return (
     <Component
       className={'link ' + (className || '')}
       {...(blank ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
       {...props}
     />
-  );
-};
+  )
+}
 
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />
-);
+)
 
 export const Toggle = ({
   offText,
@@ -260,24 +260,24 @@ export const Toggle = ({
       <div />
     </Localized>
   </div>
-);
+)
 
 export const Options = withLocalization(
   ({
     children,
     getString,
   }: {
-    children: { [key: string]: string };
+    children: { [key: string]: string }
   } & WithLocalizationProps) => (
     <>
       {Object.entries(children).map(([key, value]) => (
         <option key={key} value={key}>
-          {getString(key, null, value)}
+          {key === '' ? '' : getString(key, null, value)}
         </option>
       ))}
     </>
   )
-);
+)
 
 export const Radio = ({
   children,
@@ -286,10 +286,10 @@ export const Radio = ({
   contentClass,
   ...props
 }: {
-  children: React.ReactNode;
-  onChecked?: () => any;
-  labelClass?: string;
-  contentClass?: string;
+  children: React.ReactNode
+  onChecked?: () => any
+  labelClass?: string
+  contentClass?: string
 } & React.HTMLProps<HTMLInputElement>) => (
   <label className={labelClass}>
     <input
@@ -299,4 +299,4 @@ export const Radio = ({
     />
     <div className={contentClass}>{children}</div>
   </label>
-);
+)

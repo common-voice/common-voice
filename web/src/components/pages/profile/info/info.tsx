@@ -89,7 +89,6 @@ function ProfileInfo({
     if (!account && userClients.length == 0) {
       history.push('/')
     }
-    console.log({ user })
 
     setUserFields({
       ...userFields,
