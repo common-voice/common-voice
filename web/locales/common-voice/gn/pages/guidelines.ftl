@@ -241,6 +241,10 @@ code-switching-pronunciation-explanation-example-1 = Inglés: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = España ñe’ẽ: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Peteĩ token-pe oñembohérava
+# When Not to Tag Words
+code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
+code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan
+code-switching-not-tag-proper-names-example-2 = Tendakuéra: Los Ángeles, Florida
 code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “Naháriri”
 code-switching-not-tag-interjections-example-3 = “Héẽ”
