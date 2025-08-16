@@ -150,6 +150,7 @@ transcribe-the-audio = Emonguatia Mba’epu
 transcribe-the-audio-subheader-1 = Ñembohape guasu
 transcribe-the-audio-subheader-2 = Papapy ha akrónimo
 transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
+transcribe-the-audio-subheader-4 = Ñe’ẽ vore, eñepyrũ japúpe, ñe’ẽ oje’e jeyjeýva
 transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
@@ -190,8 +191,10 @@ code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’�
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
+code-switching-cultural-topics-header = Eiporavo umi téma arandupyetéva
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
 # What to Avoid
 code-switching-avoid-subheader = Mba’éicha emboykéta
