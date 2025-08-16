@@ -188,6 +188,8 @@ code-switching-answer-header = Rahatsız edici içerik veya hassas bilgiler
 code-switching-review-no-1 = Kişisel kimlik bilgilerini vermekle sonuçlanabilecek sorular
 code-switching-review-no-2 = Nefret söylemi, önyargılı ya da saldırgan ifadeler içerebilecek yanıtları tetikleyebilecek sorular
 code-switching-review-no-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
+# Transcribing
+code-switching-transcribe-subheader = Metne çevirme
 # Tagging
 code-switching-tagging-subheader = Etiketleme
 code-switching-tagging-error-1 = Yanlış noktalama veya büyük harf kullanımı
