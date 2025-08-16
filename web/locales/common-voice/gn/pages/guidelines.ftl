@@ -234,6 +234,13 @@ code-switching-spelling-header = Eiporu haikatuete peteĩteĩva ñe’ẽme g̃u
 code-switching-tagging-subheader = Teramoĩmbyre
 code-switching-tagging-error-1 = Ñemokyta térã taiguasu hendape’ỹva
 code-switching-tagging-error-2 = Jejavy taiguáva
+code-switching-tagging-error-3 = Ñe’ẽ ojehaíva haikatu hendape’ỹva reheve
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Oiporúva hekópe haikatu peteĩteĩva ñe’ẽme
+code-switching-pronunciation-explanation-example-1 = Inglés: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = España ñe’ẽ: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Peteĩ token-pe oñembohérava
 code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “Naháriri”
 code-switching-not-tag-interjections-example-3 = “Héẽ”
