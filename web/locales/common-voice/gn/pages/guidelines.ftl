@@ -208,6 +208,8 @@ code-switching-review-intro = Ehecháke pe porandu taiporãmeme:
 code-switching-review-criterion-1 = Ndahasýi iñeikumby ha imbohovái
 code-switching-review-criterion-2 = Hetave jey hekoporãva’erã
 code-switching-review-criterion-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva
+code-switching-review-does-not-header = Ha <bold>NAHÁNIRI</bold> ogueroike:
+code-switching-review-offensive-content = <bold>Tetepy oporoko’õva térã marandu oñeñandúva</bold>
 code-switching-answer-header = Tetepy oporoko’õva térã marandu oñeñandúva
 code-switching-review-no-1 = Ñeporandu ikatukuaáva ojerure ndéve marandu nde ndeheguaitéva
 code-switching-review-no-2 = Porandu ikatúva omongu’e je’epy ja’e’ỹ térã hetave mba’e omongu’ekuaáva jeikovairã
@@ -226,8 +228,11 @@ code-switching-transcribe-subheader = Ñe’ẽnguejehai
 code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
 # Include filler words and markers
 code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
+# Use standard spelling for each language
+code-switching-spelling-header = Eiporu haikatuete peteĩteĩva ñe’ẽme g̃uarã.
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
+code-switching-tagging-error-1 = Ñemokyta térã taiguasu hendape’ỹva
 code-switching-tagging-error-2 = Jejavy taiguáva
 code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “Naháriri”
