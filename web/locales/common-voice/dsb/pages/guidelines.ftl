@@ -191,6 +191,9 @@ tags-disfluency-explanation =
     Połnjece słowko abo połnjecy zuk, kótarejž se ako zastupnik wužywatej, mjaztym až powědaŕ rozsuźujo, což ma groniś.
     W dolnoserbšćinje su „em“, „eh“, „hm“ atd. někotare běžne zuki wokomuźenja.
 tags-unclear-explanation = Słowo abo słowna kupka, kótarejž njedatej se rozměś.
+tags-noise-explanation =
+    Kužda družyna šuma, na pśikład gaž powědaŕ kašlujo abo  charcha,
+    awto tšubi, něco mikrofon trjefijo, telefon, kótaryž byrcy atd.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     A pótom som [šum] jěł do dowola.

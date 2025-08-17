@@ -28,6 +28,7 @@ do-not-section-guideline-2 = გამოხატავდეს ან მო�
 do-not-section-guideline-3 = მოიცავდეს სათუთ და საფრთხილო ხასიათის კითხვებს
 # Code switching Guidelines
 cs-do-section-guideline-1 = გამოიყენებოდეს ორენოვანი კითხვები ან შინაარსი
+cs-do-section-guideline-2 = განიხილეთ შინაურული მოვლენები, ვითარებები ან წარმოდგენები
 cs-do-not-section-guideline-1 = ითხოვდეს პირის ამოსაცნობ მონაცემებს (თუნდაც სახელს ან შემოსავლებს)
 cs-do-not-section-guideline-2 = ითხოვდეს ენების გადართვას ან საჭიროებდეს თარგმნას
 cs-do-not-section-guideline-3 = გამოიყენებოდეს ზედმეტად საქმიანი ენა
