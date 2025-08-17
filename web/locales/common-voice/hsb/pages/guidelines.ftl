@@ -321,10 +321,12 @@ code-switching-orthography-explanation-example-1 = Jeli so słowo „kitchen“ 
 code-switching-orthography-explanation-example-2 = Jeli so słowo quinceaños kaž w jendźelšćinje wurjekuje, pisajće jo z ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Wurjekowanje za zwěsćenje rěče wužiwać
+code-switching-pronunciation-explanation = Někotre słowa móhli we woběmaj rěčomaj jenak wupadać, ale so rozdźělnje wurjekować. Słuchajće na wurjekowanje, zo byšće korektnje markěrował. Na přikład: kabl, taco, akter, detektiw.
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Markěrowanje w jeničkim tokenje
+code-switching-single-token-explanation = Jednotliwy token, kotryž je přez mjezotu dźěleny, měł wjace hač jedyn markěrowany wobłuk wobsahować.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Interpunkciju na zakładźe rěče w bliskosći markěrować
 # Be Careful with Lookalikes
