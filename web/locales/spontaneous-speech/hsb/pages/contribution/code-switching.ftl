@@ -4,6 +4,10 @@ cs-error-fetching-datasets = Při wotwołowanju lisćiny k dispoziciji stejacych
 cs-error-fetching-questions = Při wotwołanju prašenjow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 cs-error-fetching-transcriptions = Při wotwołanju transkripcijow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 
+## Modals
+
+cs-locale-change-modal-subtitle = Maće njeskładowane změny na tutej stronje. Jeli datowe sadźby wuměnjeće, so waše změny njeskładuja. Chceće woprawdźe tutu datowu sadźbu wuměnić?
+
 ## Question Page Items
 
 cs-question-page-instruction = Přidajće datowej sadźbje { $currentLocale } hač do 25 prašenjow <icon></icon>, na kotrež maja ludźo wotmołwić
