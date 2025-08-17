@@ -248,6 +248,8 @@ code-switching-informal-scenarios-explanation-example = „Kótary žort waše p
 code-switching-avoid-subheader = Cogo měł wy se wobinuś
 code-switching-avoid-intro = Pšašanja, kótarež:
 code-switching-avoid-1 = Informacije póžedaś, kótarež wósoby identificěruju
+code-switching-avoid-2 = Wó gramoty połne gronjenje abo druge kśiwźece zacuśa połne pśedsudkow pšosyś
+code-switching-avoid-3 = kótarež mógli k tomu wjasć, až něchten sensibelne, potencielnje wuwołujuce wótegrona źěli
 code-switching-dont-header = Špatne
 code-switching-dont-1 = Njewužywajśo pśeliš formelnu rěc
 # Reviewing a Question
@@ -264,6 +266,7 @@ code-switching-review-no-2 = Pšašanja, kótarež se mógli powědanje gramoty 
 code-switching-review-no-3 = Pšašanja, kótarež mógli k tomu wjasć, sensibelne, potencielnje wuwołujuce wótegrona źěliś
 # Answering a Question
 code-switching-answer-subheader = Na pšašanje wótegroniś
+code-switching-answer-intro = Cel wótegrona na pšašanje jo, až pśirodnje wótegranjaśo – rowno tak ako w rozgronje w napšawdnem žywjenju. Comy zwěsćiś, kak se rěcy pópšawem we wšednem powědanju měšaju.
 code-switching-answer-bullet-1 = Mysliśo na wokognuśa napšawdnego žywjenja: žorty, argumenty, tradicije
 code-switching-answer-bullet-2 = Pśedstajśo se, až pśijaśeloju SMS pišośo abo tšojeńko wulicujośo
 code-switching-answer-bullet-3 = Wužywajśo słowa, kótarež by wy napšawdu wužywał, samo gaby póžycone abo měšane byli
@@ -274,6 +277,8 @@ code-switching-authentic-speak-example = „Nun, som jej gronił, až njamógu p
 code-switching-use-both-languages = <bold>Wužywajśo wobej rěcy, jolic by gronił to tak w normalnem paźe.</bold> Jo samo wužytnje, gaž jano jadno słowo abo dwě słowje změnjaśo. Pśikład:
 code-switching-use-both-languages-example = „Jo se napšawdu sćakliła, weil njejsom ju zazwónił.“
 code-switching-authentic-direct-quotes = <bold>Zasajźćo direktne citaty abo dialog.</bold> Grońśo eksaktnje, což něchten jo gronił, nic pórěźonu abo formelnu wersiju. Pśikład:
+code-switching-authentic-direct-quotes-example = „Meine Mama hat gesagt, ‚glaubst du, dass das ein Spiel ist?‘ a ja som gronił, ‚W pórědku, změruj se!‘“
+code-switching-authentic-full-context = <bold>Wužywajśo dopołne wótegrona z kontekstom.</bold> Buźćo tak nadrobny ako móžno a pódajśo tak wjele drobnostkow ako móžośo. Źělśo tšojeńko abo pśikład w swójich wótegronach.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepśemyslujśo abo njewobźěłujśo pśewjele
 code-switching-answer-dont-correct-language = <bold>„Njekorigěrujśo“ swóju rěc.</bold> To njejo test. „Pšawa“ forma how njejo wažna, ale pśirodna rěc.
