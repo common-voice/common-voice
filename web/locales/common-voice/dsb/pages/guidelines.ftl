@@ -209,6 +209,8 @@ transcribe-the-audio-subheader-5-explanation-2 = Powědarje mógu wobchadnorěcn
 
 review-the-transcription = Transkripciju pśeglědowaś
 review-the-transcription-subheader = Powšykne pokazki
+review-the-transcription-explanation-1 = W normalnem paźe pórucamy, až wósoba, kótaraž transkripciju pśeglědujo, njeměła samska wósoba byś, kótaraž jo gótowała originalnu transkripciju. Jo wjelgin śěžko, swójske źěło pśeglědowaś! Někotare smužki pśeglědowanja mógu pomagaś, zawěsćenje kwality robustnjejše cyniś a pomagaju, pśedsudki a problemy wósłabiś.
+review-the-transcription-explanation-2 = Cytajśo směrnice transkripcije górjejce, aby pśeglědował, lěc transkripcija jo korektna. Móžośo wobźěłanja pódaś a je wótpósłaś.
 
 ## Code-Switching
 
