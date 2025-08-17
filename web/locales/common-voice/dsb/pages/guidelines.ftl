@@ -291,6 +291,9 @@ code-switching-answer-dont-translate-repeat = <bold>Pśełožujśo abo wóspjetu
 code-switching-transcribe-subheader = Transkriběrowaś
 code-switching-transcribe-intro = Gaž wótegrona transkriběrujośo, kótarež změnjanje rěcy wopśimuju, pśedstajśo rěc powědarja tak, ako jo se powědała – bźez korekturow, wobźěłanjow abo zjadnorjenjow. To za wšykne změny mjazy rěcami, informelne powědanje a słowa z rozdźělnych rěcow płaśi.
 code-switching-transcribe-do-1 = Wótgrajśo krotke segmenty wěcej razow, aby subtilne změny spóznał
+code-switching-transcribe-do-2 = Zastajśo pó kuždej saźe, aby změny rěcy abo měšane słowa dwójcy pśeglědował
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Nagrajśo powědanje eksaktnje ako se powěda
 code-switching-capture-explanation = Transkriběrujśo wobej rěcy ako se pokazujotej / klincytej. Nje„pórěźajśo“ rěc abo njezměnjajśo jej do jano jadneje rěcy.
 # Include filler words and markers
 code-switching-filler-header = Połnjece słowa a marki zapśimjeś
