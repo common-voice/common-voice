@@ -307,6 +307,7 @@ code-switching-cleanup-1 = Přełožće abo přepisajće – pisajće, štož r�
 code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wurjekowanje – wobchowajće přirodne wužiće rěčnika.
 code-switching-cleanup-3 = Změnjenja přeskočić, kotrež so snadne abo małe zdadźa – samo wupožčene słowa su wažne.
 code-switching-cleanup-4 = Zasadźće interpunkciju, kotraž móhła woznam změnić – dźeržće běh přirodny.
+code-switching-cleanup-5 = Měnić, zo rěč kóždeho słowa znajeće – markěrujće po wužiću.
 # Tagging
 code-switching-tagging-subheader = Markěrowanje
 code-switching-tagging-error-intro = Jeli transkripcija zmylk wobsahuje, wužiwajće prošu zdźělensku funkciju, zo byšće jón woznamjenił. Móžne zmylki su:
@@ -316,6 +317,8 @@ code-switching-tagging-error-3 = Słowa z prawopisnymi zmylkami
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
 code-switching-orthography-explanation = Pisajće kóžde słowo w prawopisu rěče, z kotrejež pochadźa. Na přikład:
+code-switching-orthography-explanation-example-1 = Jeli so słowo „kitchen“ kaž w španišćinje wurjekuje, měło so kaž w jendźelšćinje pisać, nic jako „quichen“.
+code-switching-orthography-explanation-example-2 = Jeli so słowo quinceaños kaž w jendźelšćinje wurjekuje, pisajće jo z ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Wurjekowanje za zwěsćenje rěče wužiwać
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
