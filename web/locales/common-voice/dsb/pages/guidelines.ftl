@@ -145,6 +145,7 @@ example-questions-explanation-2 = Jolic cośo rěd pšašanjow za zapśimjeśe z
 # Answer Questions
 answer-questions = Wótegrońśo na pšašanja
 answer-questions-subheader = Powšykne pokazki
+answer-questions-explanation-1 = Pśemysliśo wokognuśe naspominanje,  rozmysliśo, což cośo groniś, ale njepišćo pśewjele. Klikniśo na symbol ‚nagraś‘. Gaž sćo nagrał, móžośo na sebje słuchaś, znowego nagraś abo wótpósłaś.
 answer-questions-tip-1 = Nagrajśo na někak śichem městnje
 answer-questions-tip-2 = Wubjeŕśo městno z dobrym internetnym zwiskom
 answer-questions-tip-3b = Wopytajśo, wašo wótegrono na 15-30 sekundow wobgranicowaś
