@@ -16,7 +16,7 @@ export const ReviewTheTranscription = ({
     <div className="sidebar-content" id={id}>
       <span className="line" />
       <div className="sidebar-content-header">
-        <Localized id="review-the-transcription">
+        <Localized id="review-the-transcription" key="review-the-transcription">
           <TextButton
             onClick={toggleVisibleSection}
             className="guidelines-content-heading"
@@ -29,19 +29,27 @@ export const ReviewTheTranscription = ({
       </div>
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
-          <Localized id="review-the-transcription-subheader">
+          <Localized
+            id="review-the-transcription-subheader"
+            key="review-the-transcription-subheader">
             <h2
               className="guidelines-content-subheader"
               id="review-the-transcription-subheader"
             />
           </Localized>
-          <Localized id="review-the-transcription-explanation-1">
+          <Localized
+            id="review-the-transcription-explanation-1"
+            key="review-the-transcription-explanation-1">
             <p className="guidelines-content-explanation" />
           </Localized>
-          <Localized id="review-the-transcription-explanation-2">
+          <Localized
+            id="review-the-transcription-explanation-2"
+            key="review-the-transcription-explanation-2">
             <p className="guidelines-content-explanation" />
           </Localized>
-          <Localized id="review-the-transcription-explanation-3">
+          <Localized
+            id="review-the-transcription-explanation-3"
+            key="review-the-transcription-explanation-3">
             <p className="guidelines-content-explanation" />
           </Localized>
         </div>
