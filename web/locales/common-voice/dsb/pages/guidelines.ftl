@@ -278,14 +278,19 @@ code-switching-use-both-languages = <bold>Wužywajśo wobej rěcy, jolic by gron
 code-switching-use-both-languages-example = „Jo se napšawdu sćakliła, weil njejsom ju zazwónił.“
 code-switching-authentic-direct-quotes = <bold>Zasajźćo direktne citaty abo dialog.</bold> Grońśo eksaktnje, což něchten jo gronił, nic pórěźonu abo formelnu wersiju. Pśikład:
 code-switching-authentic-direct-quotes-example = „Meine Mama hat gesagt, ‚glaubst du, dass das ein Spiel ist?‘ a ja som gronił, ‚W pórědku, změruj se!‘“
+code-switching-authentic-reflect = <bold>Wótbłyšćujśo emocije, identitu a kontekst.</bold> Změnjanje rěcy se zwětšego stawa, gaž luźe emociju, nuznosć abo kulturelne ideje zwuraznjaju. Wužywajśo to, gaž na pšašanja wótegranjaśo.
 code-switching-authentic-full-context = <bold>Wužywajśo dopołne wótegrona z kontekstom.</bold> Buźćo tak nadrobny ako móžno a pódajśo tak wjele drobnostkow ako móžośo. Źělśo tšojeńko abo pśikład w swójich wótegronach.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepśemyslujśo abo njewobźěłujśo pśewjele
 code-switching-answer-dont-correct-language = <bold>„Njekorigěrujśo“ swóju rěc.</bold> To njejo test. „Pšawa“ forma how njejo wažna, ale pśirodna rěc.
+code-switching-answer-dont-avoid-switching = <bold>Wobiniśo se změnjanja rěcy, jolic to howac tak cyniśo.</bold> Jo w pórědku, gaž wesrjejź sady, wesrjejź mysli abo janož za jadno słowo rěc změnjaśo.
 code-switching-answer-dont-formal-writing = <bold>Powědajśo, ako by formelnje pisał.</bold> Wobiniśo se formelnych, akademiskich wótegronow. Wužywajśo rěc, kótaraž jo zwucona za rozgrona.
+code-switching-answer-dont-force-switch = <bold>Wunuzkajśo změnjanje rěcy, joli njejo pśirodne.</bold> Změńśo rěc jano pótom, gaby w takej situaciji pśirodnje powědał.
 code-switching-answer-dont-translate-repeat = <bold>Pśełožujśo abo wóspjetujśo wšykno.</bold> Pšosym grońśo to jano jaden raz, tak ako by w rozgronje wustupowało. Njetrjebaśo wersiju wótegrona w kuždej rěcy groniś.
 # Transcribing
 code-switching-transcribe-subheader = Transkriběrowaś
+code-switching-transcribe-intro = Gaž wótegrona transkriběrujośo, kótarež změnjanje rěcy wopśimuju, pśedstajśo rěc powědarja tak, ako jo se powědała – bźez korekturow, wobźěłanjow abo zjadnorjenjow. To za wšykne změny mjazy rěcami, informelne powědanje a słowa z rozdźělnych rěcow płaśi.
+code-switching-transcribe-do-1 = Wótgrajśo krotke segmenty wěcej razow, aby subtilne změny spóznał
 code-switching-capture-explanation = Transkriběrujśo wobej rěcy ako se pokazujotej / klincytej. Nje„pórěźajśo“ rěc abo njezměnjajśo jej do jano jadneje rěcy.
 # Include filler words and markers
 code-switching-filler-header = Połnjece słowa a marki zapśimjeś
