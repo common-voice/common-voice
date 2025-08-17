@@ -297,13 +297,16 @@ code-switching-capture-header = Nagrajśo powědanje eksaktnje ako se powěda
 code-switching-capture-explanation = Transkriběrujśo wobej rěcy ako se pokazujotej / klincytej. Nje„pórěźajśo“ rěc abo njezměnjajśo jej do jano jadneje rěcy.
 # Include filler words and markers
 code-switching-filler-header = Połnjece słowa a marki zapśimjeś
+code-switching-filler-explanation = Słowa ako „em“, „kaž“, „nun“, „wěš“ a „also“ su zmysłapołne. Pśikład: „No, em, som jej gronił, ‚nun ich weiß nicht, snaź pózdźej.‘“
 # Use standard spelling for each language
 code-switching-spelling-header = Standardny pšawopis za kuždu rěc wužywaś
+code-switching-spelling-explanation = Wopytajśo słowa za kuždu rěc korektnje pisaś, snaźkuli powědaŕ jo jasnje na njestandardizěrowany nałog wugranja.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Njerumujśo abo njezjadnorjajśo rěc
 code-switching-cleanup-1 = Pśełožćo abo pśepišćo – pišćo, což powědaŕ jo gronił, nic což jo „měnił“.
 code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wugronjenje – wobchowajśo pśirodne wužyśe powědarja.
 code-switching-cleanup-3 = Změny pśeskócyś, kótarež se snadne abo małe zdaju – samo póžycone słowa su wažne.
+code-switching-cleanup-4 = Zasajźćo interpunkciju, kótaraž mógła wóznam změniś – źaržćo běg pśirodny.
 # Tagging
 code-switching-tagging-subheader = Markěrowanje
 code-switching-tagging-error-intro = Jolic transkripcija zmólku wopśimujo, wužywajśo pšosym pśizjawjeńsku funkciju, aby jen wóznamjenił. Móžne zmólki su:
@@ -312,10 +315,19 @@ code-switching-tagging-error-2 = Pisańske zmólki
 code-switching-tagging-error-3 = Słowa z pšawopisnymi zmólkami
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny pšawopis za kuždu rěc wužywaś
+code-switching-orthography-explanation = Pišćo kužde słowo w pšawopisu rěcy, z kótarejež póchada. Na pśikład:
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Wugronjenje za zwěsćenje rěcy wužywaś
 code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Markěrowanje w jadnučkem tokenje
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Interpunkciju na zakłaźe rěcy w bliskosći markěrowaś
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Glědajśo za pódobnje wuglědajucymi słowami
+# When Not to Tag Words
+code-switching-not-tag-header = Gaž njeměli se słowa markěrowaś
 code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
