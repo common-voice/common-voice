@@ -16,7 +16,7 @@ export const ReportingContent = ({
     <div className="sidebar-content no-border" id={id}>
       <span className="line" />
       <div className="sidebar-content-header">
-        <Localized id="reporting-content">
+        <Localized id="reporting-content" key="reporting-content">
           <TextButton
             onClick={toggleVisibleSection}
             className="guidelines-content-heading"
@@ -30,16 +30,22 @@ export const ReportingContent = ({
 
       {(contentVisible || !isMobileWidth) && (
         <div className="content-wrapper">
-          <Localized id="reporting-content-subheader">
+          <Localized
+            id="reporting-content-subheader"
+            key="reporting-content-subheader">
             <h2
               className="guidelines-content-subheader"
               id="reporting-content-subheader"
             />
           </Localized>
-          <Localized id="reporting-content-explanation-1">
+          <Localized
+            id="reporting-content-explanation-1"
+            key="reporting-content-explanation-1">
             <p className="guidelines-content-explanation" />
           </Localized>
-          <Localized id="reporting-content-explanation-2">
+          <Localized
+            id="reporting-content-explanation-2"
+            key="reporting-content-explanation-2">
             <p className="guidelines-content-explanation" />
           </Localized>
         </div>
