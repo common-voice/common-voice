@@ -329,6 +329,7 @@ code-switching-single-token-header = Markěrowanje w jeničkim tokenje
 code-switching-single-token-explanation = Jednotliwy token, kotryž je přez mjezotu dźěleny, měł wjace hač jedyn markěrowany wobłuk wobsahować.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Interpunkciju na zakładźe rěče w bliskosći markěrować
+code-switching-punctuation-tagging-explanation = Interpunkciju markěrować, kotraž rěč wužiwa, kotraž je najdale nalěwo. Přikłady:
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Bjerće na kedźbu ze słowami, kotrež podobnje wupadaja
 # When Not to Tag Words
