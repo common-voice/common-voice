@@ -211,6 +211,7 @@ review-the-transcription = Transkripciju pśeglědowaś
 review-the-transcription-subheader = Powšykne pokazki
 review-the-transcription-explanation-1 = W normalnem paźe pórucamy, až wósoba, kótaraž transkripciju pśeglědujo, njeměła samska wósoba byś, kótaraž jo gótowała originalnu transkripciju. Jo wjelgin śěžko, swójske źěło pśeglědowaś! Někotare smužki pśeglědowanja mógu pomagaś, zawěsćenje kwality robustnjejše cyniś a pomagaju, pśedsudki a problemy wósłabiś.
 review-the-transcription-explanation-2 = Cytajśo směrnice transkripcije górjejce, aby pśeglědował, lěc transkripcija jo korektna. Móžośo wobźěłanja pódaś a je wótpósłaś.
+review-the-transcription-explanation-3 = Hyšći raz, móžośo wopśimjeśe wóznamjeniś, kótaryž jo kśiwźecy, škódny abo howac někak tšachotny, a wótwónoźujo se z wašogo dožywjenja, daniž team Common Voice njamóžo jen pśeglědowaś a pśepytowaś.
 
 ## Code-Switching
 
@@ -227,8 +228,11 @@ code-switching-adding-question-note = Móžośo teke rozwažowaś, rozdźělne k
 code-switching-types-subheader = Kótare typy pšašanjow maju se pśidaś?
 code-switching-use-bilingual-prompts-header = Dwójorěcne naspominanja wužywaś
 code-switching-use-bilingual-prompts-explanation = Wužywajśo dwójorěcne naspominanja, kótarež wobej rěcy we wašom pšašanju wopśimuju: Pśikład:
+code-switching-use-bilingual-prompts-explanation-example = „Was hat deine Mama gesagt, gaž sćo pśišeł ten źeń domoj?“
 code-switching-ask-bilingual-contexts-header = Pšašajśo se za dwójorěcnymi kontekstami
 code-switching-ask-bilingual-contexts-explanation = Wužywajśo situacije, źož se wobej rěcy zwětšego wužywatej (na pś. doma, w šuli, na tšojenjach zgromaźeństwa). Pśikład:
+code-switching-ask-bilingual-contexts-explanation-example = „Gaž ze swójimi śeśenicami powědaśo, měšaśo nimšćinu a dolnoserbšćinu?“
+code-switching-focus-emotional-header = Koncentrěrujśo se na emocionalne abo riskantne momenty
 code-switching-focus-emotional-explanation = Luźe cesto rěcny kod změnjaju, gaž zacuśa abo nuznosć wugroniju. Pśikład:
 code-switching-focus-emotional-explanation-example = „Grońśo mě, což wašej starjejšej stej groniłej, gaž sćo wulicył jima swóje wjelike nowosći – rowno kak stej to groniłej.“
 code-switching-direct-quotes-header = Pšašajśo se za direktnymi citatami abo rekonstrukcijami
@@ -236,6 +240,7 @@ code-switching-direct-quotes-explanation = Pózbuźćo wobźělniki reproducěro
 code-switching-direct-quotes-explanation-example = „Kótare su waše eksaktne słowa, gaž sćo zgónił wó tom?“
 code-switching-cultural-topics-header = Wubjeŕśo za kulturu specifiske temy
 code-switching-cultural-topics-explanation = Jěź, tradicije, swěte dny a swójźbna dynamika cesto k změnje rěcnego koda wjadu.
+code-switching-cultural-topics-explanation-example = „Kak někomu Día de los Muertos wopisujośo, kenž jano dolnoserbski powěda?“
 code-switching-informal-scenarios-header = Wuslěźćo informelne scenariumy
 code-switching-informal-scenarios-explanation = Rozgrona z pśijaśelami abo pisanje SMS cesto pśirodnjejše změnjanje wopśimuju. Pśikład:
 code-switching-informal-scenarios-explanation-example = „Kótary žort waše pśijaśele pśecej cynje – a kak by wy jen wulicował?“
