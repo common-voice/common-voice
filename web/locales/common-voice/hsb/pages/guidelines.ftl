@@ -330,6 +330,8 @@ code-switching-single-token-explanation = Jednotliwy token, kotryž je přez mje
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Interpunkciju na zakładźe rěče w bliskosći markěrować
 code-switching-punctuation-tagging-explanation = Interpunkciju markěrować, kotraž rěč wužiwa, kotraž je najdale nalěwo. Přikłady:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>a jenički raz, zo</purple> Maria <purple> mje zarjeji, běše</purple> <blue>weil</blue> <purple>pospytowaše</purple> <blue>un</blue> <purple>skazanku</purple> drucken. (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Bjerće na kedźbu ze słowami, kotrež podobnje wupadaja
 # When Not to Tag Words
