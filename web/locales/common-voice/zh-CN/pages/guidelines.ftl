@@ -214,3 +214,5 @@ code-switching-types-subheader = 需要添加的问题类型
 code-switching-use-bilingual-prompts-header = 使用双语引导语
 code-switching-use-bilingual-prompts-explanation-example = “你最近做过什么 meaningful 的事情？”
 code-switching-ask-bilingual-contexts-explanation-example = “你在和弟弟说话时会夹杂英语吗？”
+code-switching-cultural-topics-header = 选择有关具体文化的话题
+code-switching-cultural-topics-explanation-example = “你会怎样跟只懂中文的人介绍 Halloween？”
