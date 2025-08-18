@@ -151,6 +151,8 @@ answer-questions-tip-3b = 尽量将回答的时长控制在 15 - 30 秒
 answer-questions-tip-4 = 避免发表仇恨、煽动性言论，以及其他冒犯性言论
 answer-questions-tip-5 = 像面对朋友一样，自然地说话。使用您真实的口音。
 answer-questions-tip-6 = 保持声音大小一致，不要大喊或歌唱
+# Transcribe the Audio
+transcribe-the-audio = 转录音频
 transcribe-the-audio-subheader-2 = 数字和缩略词
 transcribe-the-audio-subheader-3 = 特殊标签
 transcribe-the-audio-subheader-4 = 词语片段、口误、重复字词
