@@ -346,6 +346,7 @@ code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Měšane abo morfologisce přiměrjene słowa.</bold> Njemarkěrujće słowa, kotrež rěče měšeja abo maja přidate kóncowki z druheje rěče. Přikłady:
+code-switching-not-tag-mixed-words-example = Hdźež korjeń je jendźelski, ale sufiks je španiski: „parkear“, „printearlo“
 code-switching-not-tag-interjections = <bold>Interjekcije.</bold> Interjekcije a pjelnjace słowa měli njedźiwajo na rěč <bold>njemarkěrowane</bold> wostać. Přikłady:
 code-switching-not-tag-interjections-example-1 = „Eh“
 code-switching-not-tag-interjections-example-2 = „Ně“
@@ -356,3 +357,4 @@ code-switching-not-tag-interjections-example-4 = „Hm“
 
 reporting-content = Wobsah zdźělić
 reporting-content-subheader = Powšitkowne pokazki
+reporting-content-explanation-1 = Dyrbiće wobsah markěrować, kotryž je křiwdźacy, škódny abo hewak někak trašacy. Njesmě tež  wosobinske informacije kaž na přikład telefonowe čisła abo adresy wobsahować. Wotstroni so z wašeho pola widźenja, doniž team Common Voice njemóže jón přepruwować a přepytować.
