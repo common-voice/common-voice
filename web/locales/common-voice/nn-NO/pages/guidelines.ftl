@@ -295,6 +295,7 @@ code-switching-capture-header = Skriv ned talen nøyaktig som han vart sagt
 code-switching-capture-explanation = Transkriber begge språka slik dei ser ut / høyrest ut. Ikkje «fiks» språket eller endre det til berre eitt språk.
 # Include filler words and markers
 code-switching-filler-header = Inkluder fyllord og markørar
+code-switching-filler-explanation = Ord som «ehm», «liksom», «well», «du veit» og «så» er meiningsfulle. Døme: «Så, ehm, eg sa til henne liksom, "‘Well, I don't know", kanskje seinare.»
 # Use standard spelling for each language
 code-switching-spelling-header = Bruk standard stavemåte for kvart språk
 code-switching-spelling-explanation = Prøv å stave ord rett for kvart språk, med mindre den som snakkar tydeleg uttalar dei på ein ikkje-standard måte.
@@ -316,6 +317,8 @@ code-switching-tagging-error-3 = Ord skrivne med feil ortografi
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Bruk av rett ortografi for kvart språk
 code-switching-orthography-explanation = Skriv kvart ord i samsvar med stavemåten til språket det kjem frå. Til dømes:
+code-switching-orthography-explanation-example-1 = Viss ordet «kitchen» vert uttalt som på norsk, skal det skrivast som på engelsk, ikkje som «kittsjen».
+code-switching-orthography-explanation-example-2 = Viss ordet jalapeño vert uttalt som på norsk, skriv det med ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Bruk uttale for å bestemme språket
 code-switching-pronunciation-explanation = Nokre ord kan sjå like ut på begge språk, men kan uttalast ulikt. Lytt til uttalen for å få hjelp med å merke orda rett.  Til dømes: kabel, taco, skodespelar, detektiv.
@@ -327,9 +330,13 @@ code-switching-single-token-explanation = Eit enkelt token skilt med mellomrom s
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Merk teiknsetjing basert på språk i nærleiken
 code-switching-punctuation-tagging-explanation = Merk teiknsetjing med språket nærast venstre. Døme:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>og den eine gongen</purple> Maria <purple>skreik til meg var</purple> <blue>because</blue> <purple>ho prøvde å</purple> printe ut <blue>an</blue> <purple>ordre.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>men</purple> <blue>you can buy them in red, black, blue</blue>, <purple>uansett.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Ver varsam med ord som liknar på kvarandre
 code-switching-lookalikes-explanation = Nokre ord kan sjå ut som på eitt språk, men brukast på det andre. Merk basert på betydning og bruk, ikkje utsjånad. Døme:
+code-switching-lookalikes-explanation-example-1 = «Barn» brukt for å bety eit bygg for dyr på engelsk > merk som engelsk
 code-switching-lookalikes-explanation-example-2 = «No problemo» brukt på engelsk > merk som engelsk
 # When Not to Tag Words
 code-switching-not-tag-header = Når ein ikkje skal merke ord
@@ -339,6 +346,7 @@ code-switching-not-tag-proper-names-example-1 = Personar: Maria, John
 code-switching-not-tag-proper-names-example-2 = Stadar: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merkenamn/organisasjonar:  Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Blanda eller morfologisk tilpassa ord.</bold> Ikkje merk ord som blandar språk eller har lagt til endingar frå eit anna språk. Døme:
+code-switching-not-tag-mixed-words-example = Der rota er engelsk, men suffikset er norsk: «switche», «printa»
 code-switching-not-tag-interjections = <bold>Interjeksjonar.</bold> Interjeksjonar og fyllord, uavhengig av språk, skal halde fram med å vere <bold> umerkte.</bold> Døme:
 code-switching-not-tag-interjections-example-1 = «Eh»
 code-switching-not-tag-interjections-example-2 = «Nei»
