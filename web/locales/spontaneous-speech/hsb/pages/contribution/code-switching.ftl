@@ -38,6 +38,10 @@ cs-tag-dataset-name = Datowa sadźba: [{ $datasetName }]
 learn-how-to-use = Zhońće, kak móžeće tutu stronu wužiwać
 read-full-guidelines-here = <guidanceLink>Čitajće tu dospołne směrnicy</guidanceLink>
 
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Wotmołwće na namołwu tak přirodnje kaž móžeće,  móžeće tež rěče wuměnić, jeli so přirodne zda. Zawěsćće, zo waša rěč je respektna a přistojna.
+
 ## Review Page Guidelines
 
 cs-learn-how-to-use-check-transcript-explanation = Transkripcija měła kóžde słowo abo njeleksikalny rozmołwny zynk zapřijeć, kotrež je wosoba rjekła, inkluziwnje wospjetowanja.
