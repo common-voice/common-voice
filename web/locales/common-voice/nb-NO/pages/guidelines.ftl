@@ -23,11 +23,11 @@ example = Eksempel
 ## Voice collection sidebar content
 
 varying-pronunciations-explanation-1 = Vi ønsker forskjellige dialekter og aksenter velkommen! Vær veldig forsiktig før du avviser et klipp med den begrunnelse at du tror leseren har uttalt et ord feil, har lagt vekten på feil sted, eller har ignorert tegnsetting. Det er et bredt utvalg av talemåter i bruk rundt om i verden, noen av dem har du kanskje ikke hørt i lokalsamfunnet ditt. Gi en god margin for de som kanskje snakker annerledes enn deg.
-varying-pronunciations-explanation-2 = På den annen side, hvis du tror at leseren aldri har kommet over ordet før, og gjetter feil på uttalen, vennligst avvis. Hvis du er usikker, bruk hopp over-knappen.
+varying-pronunciations-explanation-2 = På den annen side, hvis du tror at leseren aldri har kommet over ordet før, og gjetter feil på uttalen, kan du avvise. Hvis du er usikker, bruk hopp over-knappen.
 varying-pronunciations-example = Ruten var uklar.
 varying-pronunciations-tip-1 = [Canadisk engelsk kan få "route" til å høres ut som "rowt"]
 varying-pronunciations-tip-2 = [Britisk engelsk kan lage "root"]
-offensive-content-explanation = Setninger blir kontrollert gjennom en prosess for fellesskapsmoderering, men denne prosessen er ikke perfekt. Hvis du ser eller hører en setning som støter eller opprører deg - for eksempel fordi den bryter med våre <participationGuidelines>retningslinjer for fellesskapsdeltakelse</participationGuidelines> - vennligst bruk flaggknappen i brukergrensesnittet. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment>.
+offensive-content-explanation = Setninger blir kontrollert gjennom en prosess for fellesskapsmoderering, men denne prosessen er ikke perfekt. Hvis du ser eller hører en setning som støter eller opprører deg - for eksempel fordi den bryter med våre <participationGuidelines>retningslinjer for fellesskapsdeltakelse</participationGuidelines> - bruk flaggknappen i brukergrensesnittet. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Det er viktig å lese alle ordene på siden riktig. Når du lytter, sjekk veldig nøye at det som er tatt opp er nøyaktig det som er skrevet; avvis hvis de har lagt til, trukket sammen eller utelatt ord.
 misreadings-explanation-2 = Svært vanlige feil inkluderer:
 misreadings-explanation-3 = Mangler "En" eller "Den" i starten av opptaket.
@@ -53,7 +53,7 @@ background-voices-explanation = Litt bakgrunnsstøy er greit, men hvis du kan h�
 background-voices-example-1 = De gigantiske dinosaurene i triastiden. [lest av én stemme]
 background-voices-tip-1 = Kommer du? [ropes av en annen]
 volume-explanation = Det vil være naturlige variasjoner i volum på de forskjellige leserne. Avvis kun hvis volumet er så høyt at opptaket brytes opp, eller (vanligere) hvis det er så lavt at du ikke kan høre hva som blir sagt uten å referere til den skrevne teksten.
-reader-effects-explanation = De fleste opptak er av folk som snakker med sin naturlige stemme. Du kan godta en og annen ikke-standard innspilling som blir ropt, hvisket eller åpenbart lest med en "dramatisk" stemme. Vennligst avvis opptak som synges og de som bruker en datamaskinsyntetisert stemme.
+reader-effects-explanation = De fleste opptak er av folk som snakker med sin naturlige stemme. Du kan godta en og annen ikke-standard innspilling som blir ropt, hvisket eller åpenbart lest med en "dramatisk" stemme. Avvis opptak som synges og de som bruker en datamaskinsyntetisert stemme.
 just-unsure-explanation = Hvis du kommer over noe som ikke er dekket av disse retningslinjene, forsøk og velg etter beste skjønn. Hvis du ikke føler det er mulig å bedømme klippet, bruk hopp over-knappen og gå videre til neste klipp.
 still-have-questions = Har du fortsatt spørsmål?
 contact-common-voice = Kontakt Common Voice-teamet
@@ -105,7 +105,7 @@ adding-sentences-subheader-offensive-content-explanation = Hvis setningen er st�
 reviewing-sentences-explanation-1 = Hvis setningen oppfyller kriteriene ovenfor, klikker du på "Ja"-knappen.
 reviewing-sentences-explanation-2 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Nei"-knappen.
 reviewing-sentences-explanation-3 = Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
-reviewing-sentences-explanation-4 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
+reviewing-sentences-explanation-4 = Hvis du går tom for setninger å vurdere, hjelp oss med å samle inn flere setninger!
 domain-explanation = Domene refererer til emnet for setningen. For øyeblikket kan du velge mellom:
 
 ## Question collection ids
