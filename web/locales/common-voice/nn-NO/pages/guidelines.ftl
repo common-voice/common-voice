@@ -226,6 +226,7 @@ code-switching-adding-question-note = Du bør kanskje også vurdere å strekkje 
 code-switching-types-subheader = Kva typar spørsmål skal leggjast til?
 code-switching-use-bilingual-prompts-header = Bruk tospråklege spørsmål
 code-switching-use-bilingual-prompts-explanation = Bruk tospråklege spørsmål som inkluderer begge språka i spørsmålet ditt: Døme:
+code-switching-use-bilingual-prompts-explanation-example = «Well, eg sa til henne at eg ikkje kunne dra, men ho sa berre: "Du må møte opp!"»
 code-switching-ask-bilingual-contexts-header = Spør om tospråklege kontekstar
 code-switching-ask-bilingual-contexts-explanation = Bruk situasjonar der begge språka er vanlege (t.d. heime, på skulen, ved arrangement i lokalsamfunnet). Døme:
 code-switching-ask-bilingual-contexts-explanation-example = «Når du snakkar med søskenbarna dine, blandar de spansk og engelsk?»
