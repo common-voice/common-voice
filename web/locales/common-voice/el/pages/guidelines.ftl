@@ -188,3 +188,4 @@ code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
 ## Reporting Content
 
 reporting-content = Αναφορά περιεχομένου
+reporting-content-subheader = Γενικές οδηγίες

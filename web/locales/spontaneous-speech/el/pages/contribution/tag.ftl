@@ -1,5 +1,8 @@
 ## Tagging Page
 
+tag-terms-checkbox = Αποδέχομαι τους Όρους και την Πολιτική απορρήτου του Common Voice.
+tag-popover-title = Επιλογή ετικέτας
+select-a-tag = Επιλογή ετικέτας
 edit-tag = Επεξεργασία ετικέτας
 # Shortcuts modal
 tag-page-shortcut-tag-language-1 = 1
