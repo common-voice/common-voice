@@ -231,6 +231,7 @@ code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui e
 code-switching-ask-bilingual-contexts-explanation-example = “Quando parli con i tuoi cugini, usi un mix di italiano e inglese?”
 code-switching-focus-emotional-header = Punta su momenti emotivi o cruciali
 code-switching-focus-emotional-explanation = Le persone spesso cambiano codice linguistico per esprimere emozioni o urgenza. Esempio:
+code-switching-focus-emotional-explanation-example = “Raccontami che cosa hanno detto i tuoi genitori quando hai detto loro la grande novità: esattamente come l‘hanno detto.”
 code-switching-direct-quotes-header = Richiedi citazioni dirette o rievocazioni
 code-switching-direct-quotes-explanation = Incoraggia i partecipanti a riportare fedelmente ciò che è stato effettivamente detto. Esempio:
 code-switching-direct-quotes-explanation-example = “Quali sono state le tue parole esatte quando l’hai scoperto?”

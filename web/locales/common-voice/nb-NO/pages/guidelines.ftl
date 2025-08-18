@@ -226,8 +226,10 @@ code-switching-adding-question-note = Du bør kanskje også vurdere å strekke d
 code-switching-types-subheader = Hvilke typer spørsmål skal legges til?
 code-switching-use-bilingual-prompts-header = Bruk tospråklige spørsmål
 code-switching-use-bilingual-prompts-explanation = Bruk tospråklige spørsmål som inkluderer begge språkene i spørsmålet ditt: Eksempel:
+code-switching-use-bilingual-prompts-explanation-example = "What did your mom tell you når du kom hjem den dagen?"
 code-switching-ask-bilingual-contexts-header = Spør om tospråklige kontekster
 code-switching-ask-bilingual-contexts-explanation = Bruk situasjoner der begge språkene er vanlige (f.eks. hjemme, på skolen, ved arrangementer i lokalsamfunnet). Eksempel:
+code-switching-ask-bilingual-contexts-explanation-example = «Når du snakker med søskenbarna dine, blander dere engelsk og norsk?»
 code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige øyeblikk
 code-switching-focus-emotional-explanation = Folk bytter ofte kode når de uttrykker følelser eller hva som haster. Eksempel:
 code-switching-focus-emotional-explanation-example = «Fortell meg hva foreldrene dine sa da du fortalte dem den store nyheten — nøyaktig hvordan de sa det.»
@@ -236,6 +238,7 @@ code-switching-direct-quotes-explanation = Oppfordre deltakerne til å gjengi hv
 code-switching-direct-quotes-explanation-example = «Hva var dine eksakte ord da du fant det ut?»
 code-switching-cultural-topics-header = Velg kulturspesifikke emner
 code-switching-cultural-topics-explanation = Mat, tradisjoner, høytider og familiedynamikk inviterer ofte til kodebytte.
+code-switching-cultural-topics-explanation-example = "Hvordan forklarer du Don't be a stranger til noen som bare snakker norsk?"
 code-switching-informal-scenarios-header = Utforsk uformelle situasjoner
 code-switching-informal-scenarios-explanation = Samtaler med venner eller tekstmeldinger inkluderer ofte mer naturlig veksling. Eksempel:
 code-switching-informal-scenarios-explanation-example = «Hva er en vits vennene dine alltid drar — og hvordan sier de den?»
@@ -268,8 +271,11 @@ code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, selv om de er 
 code-switching-answer-bullet-4 = Det finnes ingen «perfekt» måte å svare på
 code-switching-authentic-header = Svar naturlig og autentisk
 code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Hvis du blander språk i det virkelige liv, gjør det samme her. Eksempel:
+code-switching-authentic-speak-example = «Well, jeg sa til henne at jeg ikke kunne dra, men hun sa bare: "Du må møte opp!"»
 code-switching-use-both-languages = <bold>Bruk begge språkene hvis det er slik du vanligvis sier det.</bold> Selv det å bytte ut bare ett eller to ord er nyttig. Eksempel:
+code-switching-use-both-languages-example = «Hun ble skikkelig sint because jeg ikke ringte henne tilbake.»
 code-switching-authentic-direct-quotes = <bold>Inkluder direkte sitater eller dialog.</bold> Si nøyaktig hva noen sa, ikke en oppryddet eller formell versjon. Eksempel:
+code-switching-authentic-direct-quotes-example = «My mom said, "Do you think this is a game?" og jeg sa: "Ok chill!"»
 code-switching-authentic-reflect = <bold>Reflekter følelser, identitet og kontekst.</bold> Veksling skjer vanligvis når folk uttrykker følelser, hvor viktig det er, eller kulturelle ideer. Ta hensyn til disse når du svarer på spørsmål.
 code-switching-authentic-full-context = <bold>Bruk fullstendige svar med kontekst.</bold> Vær så detaljert som mulig, og gi så mange detaljer som mulig. Del en historie eller et eksempel i svarene dine.
 # Don’t Overthink or Overedit
@@ -289,6 +295,7 @@ code-switching-capture-header = Skriv ned talen nøyaktig som den ble sagt
 code-switching-capture-explanation = Transkriber begge språkene slik de ser ut / høres ut. Ikke «fiks» språket eller endre det til bare ett språk.
 # Include filler words and markers
 code-switching-filler-header = Inkluder fyllord og markører
+code-switching-filler-explanation = Ord som «ehm», «liksom», «well», «du vet» og «så» er meningsfulle. Eksempel: «Så, ehm, jeg sa til henne liksom, "‘Well, I don't know", kanskje senere.»
 # Use standard spelling for each language
 code-switching-spelling-header = Bruk standard stavemåte for hvert språk
 code-switching-spelling-explanation = Prøv å stave ord riktig for hvert språk, med mindre den som snakker tydelig uttaler dem på en ikke-standard måte.
@@ -310,17 +317,27 @@ code-switching-tagging-error-3 = Ord skrevet med feil ortografi
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Bruk av riktig ortografi for hvert språk
 code-switching-orthography-explanation = Skriv hvert ord i henhold til stavemåten til språket det kommer fra. For eksempel:
+code-switching-orthography-explanation-example-1 = Hvis ordet «kitchen» uttales som på norsk, skal det skrives som på engelsk, ikke som «kittsjen».
+code-switching-orthography-explanation-example-2 = Hvis ordet jalapeño uttales som på norsk, skriv det med ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+code-switching-pronunciation-explanation = Noen ord kan se like ut på begge språk, men kan uttales forskjellig. Lytt til uttalen for å få hjelp med å merke ordene riktig. For eksempel: radio, bank, glass, sport.
+code-switching-pronunciation-explanation-example-1 = Engelsk: /ˈɹeɪ.di.əʊ/
+code-switching-pronunciation-explanation-example-2 = Norsk: /ˈrɑ̀ː.djʊ/
 # Tagging in a Single Token
 code-switching-single-token-header = Merking i et enkelt token
 code-switching-single-token-explanation = Et enkelt token atskilt med mellomrom skal inneholde mer enn én nøkkelordseksjon.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Merk tegnsetting basert på språk i nærheten
 code-switching-punctuation-tagging-explanation = Merk tegnsetting med språket nærmest venstre. Eksempler:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>og den ene gangen</purple> Maria <purple>skrek til meg var</purple> <blue>because</blue> <purple>hun prøvde å</purple> printe ut <blue>an</blue> <purple>ordre.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>men</purple> <blue>you can buy them in red, black, blue</blue>, <purple>uansett.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Vær forsiktig med ord som ligner på hverandre
 code-switching-lookalikes-explanation = Noen ord kan se ut som på ett språk, men brukes på det andre. Merk basert på betydning og bruk, ikke utseende. Eksempler:
+code-switching-lookalikes-explanation-example-1 = «Barn» brukt for å bety et bygg for dyr på engelsk > merk som engelsk
+code-switching-lookalikes-explanation-example-2 = «Long time no see» brukt på norsk > merk som norsk
 # When Not to Tag Words
 code-switching-not-tag-header = Når man ikke skal merke ord
 code-switching-not-tag-explanation = Noen ord skal <bold>ikke merkes</bold> med en språketikett, selv om de virker blandet eller tilpasset. Her er hvordan du bør håndtere noen eksempler:
@@ -329,6 +346,7 @@ code-switching-not-tag-proper-names-example-1 = Personer: Maria, John
 code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merkenavn/organisasjoner:  Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Blandede eller morfologisk tilpassede ord.</bold> Ikke merk ord som blander språk eller har lagt til endelser fra et annet språk. Eksempler:
+code-switching-not-tag-mixed-words-example = Der roten er engelsk, men suffikset er norsk: «switche», «printet»
 code-switching-not-tag-interjections = <bold>Interjeksjoner.</bold> Interjeksjoner og fyllord, uavhengig av språk, skal forbli <bold>umerket.</bold> Eksempler:
 code-switching-not-tag-interjections-example-1 = «Eh»
 code-switching-not-tag-interjections-example-2 = «Nei»
