@@ -190,3 +190,27 @@ special-tags-example-2 = 然后我就 [noise] 去度假了。其实 [noise] [lau
 transcribe-the-audio-subheader-4-explanation-1-example = 他叫<underline>张——张三</underline>。
 transcribe-the-audio-subheader-4-explanation-2 = 有时说话人会多次重复某个字词或字词片段，此部分也应转录。示例：
 transcribe-the-audio-subheader-5-explanation-1 = 即兴发言难免包含语法错误，转录时不应更正这些错误。转录文本应如实记录说话内容。
+transcribe-the-audio-subheader-5-explanation-2 = 说话人可能会使用非正式的口语用法（例如“咱”“啥”等），这类用法需要如实转录，不应改为正式用语。
+
+## Review the Transcription
+
+review-the-transcription = 审核转录文本
+review-the-transcription-explanation-1 = 一般而言，不建议审核由自己转录的文本，因为发现自己的问题并不容易。扩充审核人数可以更稳定地保证质量，也有助于减少偏见和问题。
+review-the-transcription-explanation-2 = 按照上方的转录音频准则，检查转录文本是否准确。您可以对其进行编辑并重新提交。
+review-the-transcription-explanation-3 = 再次提醒：您可以举报存在伤害、冒犯性等问题的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步调查。
+
+## Code-Switching
+
+code-switching = 语码切换
+adding-a-question = 添加问题
+# Adding a Question
+code-switching-adding-question-subheader = 怎样算是好的问题？
+code-switching-adding-question-explanation = 对于公众参与的数据集而言，好的问题应该：
+code-switching-adding-question-criteria-1 = 易于理解，也易于回答
+code-switching-adding-question-criteria-2 = 意义明确
+code-switching-adding-question-criteria-3 = 不能使用或引导使用伤害或冒犯性用语
+# What types of questions to add
+code-switching-types-subheader = 需要添加的问题类型
+code-switching-use-bilingual-prompts-header = 使用双语引导语
+code-switching-use-bilingual-prompts-explanation-example = “你最近做过什么 meaningful 的事情？”
+code-switching-ask-bilingual-contexts-explanation-example = “你在和弟弟说话时会夹杂英语吗？”
