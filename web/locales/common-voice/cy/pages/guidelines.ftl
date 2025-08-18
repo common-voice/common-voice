@@ -191,3 +191,7 @@ tags-unclear-explanation = Gair neu ddilyniant o eiriau nad oes modd eu deall.
 tags-noise-explanation =
     Unrhyw fath arall o sŵn, fel y siaradwr yn pesychu neu'n clirio ei wddf,
     corn car, sŵn rhywbeth yn taro'r meicroffon, ffôn yn canu, ac ati
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Ac yna es i [sŵn] ar wyliau.
+    Wel, [sŵn] [chwerthin] doedd e ddim yn wyliau go iawn [chwerthin]
