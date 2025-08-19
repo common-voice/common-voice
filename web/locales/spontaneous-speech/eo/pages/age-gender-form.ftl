@@ -11,6 +11,7 @@ country-of-residence-label = Loĝlando / loĝregiono
 country-of-residence-placeholder =
     .placeholder = Enigu vian loĝlandon aŭ loĝregionon
 why-are-you-asking = Kial vi demandas?
+why-are-you-asking-explanation = Ĉi tiu informo estas laŭvola - vi aldonu ĝin nur se vi sentas vin komforta. Kiam ni publikigas la datumaron, ni pseŭdonimigas ĉiujn personajn informojn, kaj certigas, ke informoj kiel via nomo kaj retpoŝtadreso ne estas ligitaj al demografiaj informoj kiel aĝo aŭ sekso. Por ke teknologio funkciu bone por ĉiuj, la datumoj, kiuj helpas programistojn konstrui teknologion, devas reflekti la diversecon de homoj. Lernu pli pri kial metadatenoj gravas.
 thank-you-for-your-information = Dankon pro viaj informoj
 
 ## Gender dropdown
