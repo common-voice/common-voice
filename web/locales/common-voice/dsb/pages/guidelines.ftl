@@ -341,9 +341,12 @@ code-switching-lookalikes-explanation-example-2 = „No problemo“ se w engelš
 # When Not to Tag Words
 code-switching-not-tag-header = Gaž njeměli se słowa markěrowaś
 code-switching-not-tag-explanation = Někotare słowa <bold>njeměli se z rěcnym pópisanim markěrowaś</bold>, samo gaby se zdało, až su měšane abo pśiměrjone. How su někotare pśikłady:
+code-switching-not-tag-proper-names = <bold>Swójske mjenja.</bold> Mjenja wósobow, městnow a organizacijow njeměli se markěrowaś. Pśikłady:
 code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Měšane abo morfologiski pśiměrjone słowa.</bold> Njemarkěrujśo słowa, kótarež rěcy měšaju abo maju pśidane kóńcowki z drugeje rěcy. Pśikłady:
+code-switching-not-tag-mixed-words-example = Źož kórjeń jo engelski, ale sufiks jo špański: „parkear“, „printearlo“
 code-switching-not-tag-interjections = <bold>Interjekcije.</bold> Interjekcije a połnjece słowka měli njeźiwajucy na rěc <bold>njemarkěrowane</bold> wóstaś. Pśikłady:
 code-switching-not-tag-interjections-example-1 = „Eh“
 code-switching-not-tag-interjections-example-2 = „Ně“
@@ -354,3 +357,4 @@ code-switching-not-tag-interjections-example-4 = „Hm“
 
 reporting-content = Wopśimjeśe k wěsći daś
 reporting-content-subheader = Powšykne pokazki
+reporting-content-explanation-1 = Musyśo wopśimjeśe markěrowaś, kótarež jo kśiwźece, škódne abo howac někak tšachotne. Njesmějo teke  wósobinske informacije ako na pśikład telefonowe numery abo adrese wopśimowaś. Wótonoźijo se z wašogo póla wiźenja, daniž team Common Voice njamóžo jo pśeglědowaś a pśepytowaś.
