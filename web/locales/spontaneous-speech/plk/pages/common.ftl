@@ -34,6 +34,7 @@ validate = توثیق تِھیا
 respond-to-prompt = پرامپٹے جُواب دِیا
 transcribe = نقل تِھیا
 check-transcriptions = ٹرانسکرپشنز چیک تِھیا
+tag = ٹیگ
 
 ## Not Found Page
 
