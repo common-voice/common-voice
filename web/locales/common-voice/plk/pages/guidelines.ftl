@@ -174,3 +174,18 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct> صحیح </correc
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong> غلط </wrong> آسے 20 فیصدے رعایتِس
 transcribe-the-audio-subheader-2-example-4-correct = <correct> صحیح </correct> سیُݨو گرفتار تھیگہ <underline> ایف بی آئی </underline> لگِتھیْ پاشُنمبہ چھک
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong> غلط </wrong> سیݨو گرفتار تھیگاس <underline> اِیف مچِھیؤ اچھیئے </underline> گیئی پاشُمنبہ چھک
+transcribe-the-audio-subheader-3-explanation = ییْہ سڑ مندرجہ ذیل خاص ٹیگیْ ستعمال تھون پکارن کھانس چہ مُتیْ گرانتِیائے گہ غیر زبانی مواد (انگرزی) جیْ نکھوْ تِھیا
+tags-table-header-1 = ٹیگ
+tags-table-header-2 = معنی
+tags-laugh = ہزون
+tags-disfluency = بے ترتیبی
+tags-unclear = غیر واضع
+tags-noise = چیغہ
+tags-laugh-explanation = ہزونے آواز
+tags-disfluency-explanation =
+    فلر لفظ یا آواز پلیس ہولڈر شان گیْ استعمال بِینیْ، آں سپیکر سہ فیصلہ تِھینوْ چہ جو رزونِنیْ
+    انگرزی دہ کوئے عام تِھتَھم بونے آوازہ "Err"، "um"، "huh" وغیرہ
+tags-unclear-explanation = ادو لفظ یا لفظے ترتیب چہ کھاں سِجیْ نہ پرُجیئے
+tags-noise-explanation =
+    مُتیْ قِسمے چیغہ، کاتھ اسپیکر سہ کُھو تِھی یا ݜوٹوْ تازہ تِھی
+    موٹرے ہارن دون، مائیکروفون سے جو چوْٹ دِجونے آواز، ٹیلی فون بشجون
