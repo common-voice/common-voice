@@ -20,8 +20,22 @@ cs-validate-page-instruction = <validateIcon></validateIcon> توثیق تِھی
 cs-no-questions-continue-skipped = آ ڈیٹاسیٹ اےْ کِرِیا مزید سوالات نِش۔ اگر څھا جوک گہ پھتیتَن تو، پھتِیلوْ مواد سے ساتیْ جاری تھوبانَت یا آڈیو ٹرانسکرائب جیْ بوجِی پتو پھری کوشش تھوباتَن۔
 cs-add-vote-error-message = سوالڑ ووٹ دون دہ خرابی پیخ بِلِن
 
+## Transcribe Page Items
+
+cs-no-audio-continue-skipped-message = فی الحال آ ڈیٹا سیٹے کِرِیا نقل تھون جوک گہ آڈیو نِش۔ اگر څھا جو پھتیتَن تو پھتیلو مواد سے ساتیْ کوْم جاری پھتبانَت یا ٹرانسکرپشنزے جائزہ ہرباتَن آں پتو پھری کوشش تھوباتَن۔
+
+## Review Page Items
+
+cs-no-transcriptions-continue-skipped = آ ڈیٹاسیٹ چیک تھونڑ فی الحال جوک گہ مواد یا نقل نِش۔ پھتِیلوْ مواد سے ساتیْ کوْم جاری تھوباتَن یا آڈیو ٹرانسکرائب جیْ بوجِی پتو کوشش تھوباتَن۔
+
+## Tag Page Items
+
+cs-no-transcriptions-to-tag-continue-skipped = فی الحال آ ڈیٹاسیٹ اےْ کِرِیا ٹیگ تھونڑ نقل نِش اگر څھا جو پتیتَن توْ پھتِیلوْ مواد سے کوْم جاری تِھیا یا آڈیو ٹرانسکرائب جیْ گیے پتو ست دُبار کوشش تھوباتَن۔
+cs-tag-dataset-name = ڈیٹاسیٹ{ $datasetName }
+
 ## Guidelines
 
+learn-how-to-use = آ صفحہ استعمال تھون سِڇھہ
 read-full-guidelines-here = <guidanceLink>مکمل راہنما خطوط ادی پڑِیا</guidanceLink>
 
 ## Answer Page Guidelines

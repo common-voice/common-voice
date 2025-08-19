@@ -6,6 +6,7 @@ sentence-collection = جُملو مجموعہ
 question-collection = سوالاتو مجموعہ
 scripted-speech = اسکرپٹڈ تقریر
 spontaneous-speech = بے ساختہ تقریر
+dont-subheader = نہ تِھیا
 
 ## Voice Collection nav ids
 

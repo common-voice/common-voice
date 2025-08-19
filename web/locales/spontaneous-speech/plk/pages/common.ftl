@@ -32,8 +32,10 @@ continue-with-skipped = Skipped سے ساتیْ جاری پھتِیا
 question = سوال
 validate = توثیق تِھیا
 respond-to-prompt = پرامپٹے جُواب دِیا
+respond-to-prompt-mobile = جواب
 transcribe = نقل تِھیا
 check-transcriptions = ٹرانسکرپشنز چیک تِھیا
+check-transcriptions-mobile = ریویو
 tag = ٹیگ
 
 ## Not Found Page

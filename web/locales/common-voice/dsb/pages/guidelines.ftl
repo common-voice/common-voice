@@ -318,16 +318,24 @@ code-switching-tagging-error-3 = Słowa z pšawopisnymi zmólkami
 code-switching-orthography-header = Korektny pšawopis za kuždu rěc wužywaś
 code-switching-orthography-explanation = Pišćo kužde słowo w pšawopisu rěcy, z kótarejež póchada. Na pśikład:
 code-switching-orthography-explanation-example-1 = Jolic se słowo „kitchen“ ako w špańšćinje wugranja, měło se ako w engelšćinje pisaś, nic ako „quichen“.
+code-switching-orthography-explanation-example-2 = Jolic se słowo quinceaños ako w engelšćinje wugranja, pišćo jo z ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Wugronjenje za zwěsćenje rěcy wužywaś
+code-switching-pronunciation-explanation = Někotare słowa mógli we wobyma rěcoma jadnak wuglědaś, ale se rozdźělnje wugroniś. Słuchajśo na wugronjenje, aby korektnje markěrował. Na pśikład: kabl, taco, akter, detektiw.
 code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Markěrowanje w jadnučkem tokenje
+code-switching-single-token-explanation = Jadnotliwy token, kótaryž jo pśez prozne znamje źělony, měł wěcej ako jaden markěrowany wobceŕk wopśimowaś.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Interpunkciju na zakłaźe rěcy w bliskosći markěrowaś
+code-switching-punctuation-tagging-explanation = Interpunkciju markěrowaś, kótaraž rěc wužywa, kótaraž jo nejdalej nalěwo. Pśikłady:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>a jadnučki raz, až</purple> Maria <purple> jo drěła na mnjo, jo był</purple> <blue>weil</blue> <purple>jo wopytała</purple> <blue>un</blue> <purple>skazanku</purple> drucken. (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>ale</purple> <blue>du kannst ein rotes, schwarzes, blaues kaufen</blue>, <purple>cožkuli.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Glědajśo za pódobnje wuglědajucymi słowami
+code-switching-lookalikes-explanation = Někotare słowa ako jadna rěc wuglědaju, ale wužywaju se w drugej. Markěrujśo pó wóznamje a wužyśu, nic pó naglěźe. Pśikłady:
 # When Not to Tag Words
 code-switching-not-tag-header = Gaž njeměli se słowa markěrowaś
 code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
