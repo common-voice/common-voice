@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = حسب ضورڑت نو لہجہ ٹل تِھیا ” { $inputValue }“
 profile-form-submit-save = محفوظ تِھیا
 profile-form-submit-saved = محفوظ بِلوْ
-male_masculine = مُشا
-female_feminine = خاتون
-intersex = انٹر سیکس
-transgender = ٹرانس جنڈر
-non-binary = غیر بائنری
-do_not_wish_to_say = رزون نہ کھوْشنَس
-# Gender
-other = مُتہ
 why-profile-title = ایْک پروفائل کیْہ؟
 why-profile-text = تومیْ بارَد شِناکَک معلومات دِیا، څھوْس کھاں آڈیوڈیٹا کامن وائس جیْ جمع تھیَینَت اسہ اسپیچے کِرِیا لو فائدناک بَو۔
 dashboard = ڈِش بورڈ
@@ -114,3 +106,11 @@ delete-api-key-success-toast-message = API اسناد کامیابی گیْ ڈی
 add-api-key-name-error = API سندے نُوم شامل تِھیا
 max-api-keys-reached = API اسنادو حدِجیْ تجاوز بلِن
 duplicate-api-key-name-error = API کنجی نُوم ڈوبلیکیٹ تِھیا
+# Genders
+male_masculine = مُشا
+female_feminine = خاتون
+intersex = انٹر سیکس
+transgender = ٹرانس جنڈر
+non-binary = غیر بائنری
+do_not_wish_to_say = رزون نہ کھوْشنَس
+other = مُتہ

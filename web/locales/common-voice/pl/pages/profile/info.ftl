@@ -22,8 +22,6 @@ native-language =
     .label = Język ojczysty
 profile-form-submit-save = Zapisz
 profile-form-submit-saved = Zapisane
-# Gender
-other = Inna
 why-profile-title = Po co profil?
 why-profile-text = Podając pewne informacje o sobie, dane dźwiękowe wysyłane do projektu Common Voice będą bardziej przydatne dla mechanizmów rozpoznawania mowy, które korzystają z tych danych do zwiększenia dokładności.
 dashboard = Panel
@@ -51,3 +49,4 @@ skip-submission-description = Informacje zwrotne będą pomijane po kliknięciu 
 skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a słuchaniem, aby zmienić rodzaj pracy.
 off = Wyłączone
 on = Włączone
+other = Inna

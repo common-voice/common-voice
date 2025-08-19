@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Илова кардани лаҳҷаи фармоишии нави «{ $inputValue }»
 profile-form-submit-save = Нигоҳ доштан
 profile-form-submit-saved = Нигоҳ дошта шуд
-male_masculine = Мард/Мардона
-female_feminine = Зан/Занона
-intersex = Байниҷинсӣ
-transgender = Ғайриҷинсӣ
-non-binary = Ғайридуӣ
-do_not_wish_to_say = Гуфтан намехоҳам
-# Gender
-other = Дигар
 why-profile-title = Чаро профил?
 dashboard = Лавҳаи иттилоотӣ
 build-profile = Сохтани профил
@@ -97,3 +89,11 @@ copy-api-credential-error-toast-message = Хатои нусхабардорӣ
 delete-api-key-success-toast-message = Маълумоти корбари «API» бо муваффақият нест карда шуд
 add-api-key-name-error = Илова кардани номи маълумоти корбари «API»
 max-api-keys-reached = Шумораи маълумоти корбари «API» аз меъёри 10 калид зиёд шудааст
+# Genders
+male_masculine = Мард/Мардона
+female_feminine = Зан/Занона
+intersex = Байниҷинсӣ
+transgender = Ғайриҷинсӣ
+non-binary = Ғайридуӣ
+do_not_wish_to_say = Гуфтан намехоҳам
+other = Дигар

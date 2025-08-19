@@ -18,8 +18,6 @@ native-language =
     .label = Эхэ хэлэн
 profile-form-submit-save = Хадгалха
 profile-form-submit-saved = Хадгалагдаа
-# Gender
-other = Ондоо
 why-profile-title = Хэрэглэгшын данса юундэ хэрэгтэйб?
 why-profile-text = Common Voice-той хубаалсаһан өөр тухай зарим мэдээсэлтнай хэлэхы таниха хүдэлгүүртэ танилтаяа улам нягта нямбай болгоходонь туһатай байха.
 dashboard = Нюур самбар
@@ -32,3 +30,4 @@ profile-close = Хааха
 edit = Заһаха
 email-subscriptions = Сахим шууданаар захиха
 download-profile = Үгэгдэлөө татажа абаха
+other = Ондоо

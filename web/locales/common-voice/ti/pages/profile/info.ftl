@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = ሓድሽ ላሃጃ ኣእቱ "{ $inputValue }"
 profile-form-submit-save = ዓቅብ
 profile-form-submit-saved = ተዓቂቡ
-# Gender
-other = ካልእ
 why-profile-title = ድሕረ ባይታይ ንምንታይ ኣድለየ?
 why-profile-text =
     ብዛዕባ ርእስኻ እተወሰነ ሓበሬታ ብምሃብ፡ እቲ ናብ ኮመን ቮይስ  እትህቦ ዝስማዕ ሓበሬታ 
@@ -65,3 +63,4 @@ help-accent = ኣብ ላሃጃ ሓገዝ የድሊ ድዩ?
 help-accent-explanation = ለሃጃኻ ነቲ ቃላት እትጥቀመሉ ኣገባብ እዩ። ኣብ ዝነበርካሉ ቦታ፣ እትዛረበሉ ካልእ ቋንቋታትን ካልእ ብዙሕ ረቛሒታትን ዝተመርኮሰ ክኸውን ይኽእል እዩ። ኣብዚ ኣገዳሲ ኮይኑ ዝስመዓካ ዝኾነ ሓበሬታ ክትካፈል ትኽእል ኢኻ።
 help-variants = ምስ ዝተፈላለዩ ሓገዝ የድሊ ድዩ ፧
 help-variants-explanation = ቅዲ ሓደ ቋንቋ ፍሉይ መልክዕ ኣለዎ - ንኣብነት ኣብ ሓደ ጂኦግራፊ ወይ ኮምዩኒቲ ዝነብሩ ሰባት ዝዛረቡዎ እዩ። ሓድሓደ ግዜ እዞም ቋንቋታት እዚኣቶም ልሳናት ተባሂሎም ይጽውዑ።
+other = ካልእ

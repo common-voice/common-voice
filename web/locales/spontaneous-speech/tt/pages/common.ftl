@@ -32,21 +32,19 @@ accept-privacy-and-terms = Common Voice-ның <termsLink>Шартларын</te
 bsy = Сабах Бисайя
 cdo = Фучжоу
 cpx = Хэн Хуа
-en = Инглиз
-fr = Француз
 hch = Виксарика
 kzi = Келабит
 mbf = Баба Малай
 mel = Үзәк меланау
 mmc = Мичоакан масауа
-ms-MY = Бахаса Малай
 msi = Сабах Малай
 pez = Көнчыгыш Пенан
 pne = Көнбатыш Пенан
 sdo = Сериан бидау
 snv = Сабан
-tr = Төрек
 xkl = Кения
+# Locales-Variants
+ms-MY = Бахаса Малай
 
 ## Language search component
 

@@ -18,8 +18,6 @@ native-language =
     .label = ජන්ම භාෂාව
 profile-form-submit-save = සුරකින්න
 profile-form-submit-saved = සුරකින ලදී
-# Gender
-other = වෙනත්
 why-profile-title = පැතිකඩක් ඇයි?
 build-profile = පැතිකඩ සාදන්න
 goals = ඉලක්ක
@@ -37,3 +35,4 @@ contribution-experience = දායක පළපුරුද්ද
 skip-submission-feedback = ඉදිරිපත් කිරීමේ ප්‍රතිපෝෂණය මඟ හරින්න
 off = අක්‍රිය
 on = සක්‍රීය
+other = වෙනත්

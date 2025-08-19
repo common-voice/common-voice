@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Muhele malavulelo  yooreerela  esya "{ $inputValue }
 profile-form-submit-save = Opweha
 profile-form-submit-saved = Oheleliwa
-# Gender
-other = Mukina
 why-profile-title = Mwaha wa xeene eperifiili?
 dashboard = ePaineli
 build-profile = Ohuwa eperefile
@@ -57,3 +55,4 @@ off = Ottipiha
 on = Okumanela
 help-accent = Mumphavela okhaliheriwa ni malavulelo anyu?
 help-variants = Mumphavela okhaliheriwa ni malavulelo anyu?
+other = Mukina

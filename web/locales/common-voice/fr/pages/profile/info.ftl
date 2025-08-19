@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Ajouter un nouvel accent personnalisé « { $inputValue } »
 profile-form-submit-save = Enregistrer
 profile-form-submit-saved = Enregistré
-male_masculine = Masculin
-female_feminine = Féminin
-intersex = Intersexe
-transgender = Transgenre
-non-binary = Non binaire
-do_not_wish_to_say = Ne préfère pas répondre
-# Gender
-other = Autre
 why-profile-title = Pourquoi créer un profil ?
 why-profile-text = Les informations que vous fournissez à votre sujet rendent plus utiles les données audio que vous envoyez à Common Voice. Les moteurs de reconnaissance vocale utilisent ces données pour améliorer leur précision.
 dashboard = Tableau de bord
@@ -111,3 +103,11 @@ delete-api-key-success-toast-message = Les identifiants d’API ont été suppri
 add-api-key-name-error = Ajouter un nom pour l’identifiant d’API
 max-api-keys-reached = Dépassement de la limite de 10 identifiants d’API
 duplicate-api-key-name-error = Nom de clé d’API en double
+# Genders
+male_masculine = Masculin
+female_feminine = Féminin
+intersex = Intersexe
+transgender = Transgenre
+non-binary = Non binaire
+do_not_wish_to_say = Ne préfère pas répondre
+other = Autre

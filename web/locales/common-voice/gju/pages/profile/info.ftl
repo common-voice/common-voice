@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نووں حسب ضرورت لہجو شامل کرو { $inputValue }
 profile-form-submit-save = سامو
 profile-form-submit-saved = سامے گیو
-male_masculine = جنو/ مذکر
-female_feminine = بیٹکی/ مونث
-intersex = کھسرو
-transgender = کھسرو
-non-binary = غیر بائنری
-do_not_wish_to_say = دسنو پسند نیہہ کرتا
-# Gender
-other = دوجو
 why-profile-title = پروفائل ہی کیوں
 why-profile-text = اپنا بارہ ما کجھ معلومات دیتاں ، تم  جیہڑی  وازاں کی معلومات  کامن اپر جمع کراو۔ ویہ  وازاں کی پہچان(Speech¶ Recognition) کا انجن وسطے  زیادہ کارآمد ہووے گو۔ جیہڑی معلومات  اس ڈیٹا نا اپنی درستگی نا بہتر بنان وسطے استعمال کراں۔
 dashboard = ڈیش بورڈ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = میری زبان کے اندر تمام بکھ 
 variant-contribution-option-2 = منا صرف میرا  بکھ بکھ جملہ تے حصہ دسو
 variant-contribution-warning-title = سارا جملاں تے  کلپس ما ہجاں تک  مختلف ٹیگ نہیں ہیں!
 variant-contribution-warning-subtitle = کدے تمنا تعاون  کرن ما  پریشانی ہووے، تے تم  کسے بھی وخت اپنی زبان وسطے  سارا مواد تم  دیکھن وسطے واپس جا سکو۔
+# Genders
+male_masculine = جنو/ مذکر
+female_feminine = بیٹکی/ مونث
+intersex = کھسرو
+transgender = کھسرو
+non-binary = غیر بائنری
+do_not_wish_to_say = دسنو پسند نیہہ کرتا
+other = دوجو

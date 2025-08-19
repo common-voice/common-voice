@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Új egyéni akcentus hozzáadása: „{ $inputValue }”
 profile-form-submit-save = Mentés
 profile-form-submit-saved = Mentve
-male_masculine = Férfi/férfias
-female_feminine = Női/nőies
-intersex = Interszexuális
-transgender = Transznemű
-non-binary = Nem bináris
-do_not_wish_to_say = Nem szeretném megmondani
-# Gender
-other = Egyéb
 why-profile-title = Miért kell a profil?
 why-profile-text = Az, hogy megad néhány adatot magáról, hozzájárul ahhoz, hogy a hangminták, amelyeket a Common Voice részére beküld, hasznosabbak legyenek a hangfelismerő rendszerek számára, amelyek a pontosságuk növelésére használhatják ezeket az adatokat.
 dashboard = Vezérlőpult
@@ -116,3 +108,11 @@ delete-api-key-success-toast-message = Az API hitelesítési adat sikeresen tör
 add-api-key-name-error = API hitelesítési adat nevének hozzáadása
 max-api-keys-reached = Túllépte az API hitelesítési adatokra vonatkozó 10-es korlátot
 duplicate-api-key-name-error = Ismétlődő API-kulcsnév
+# Genders
+male_masculine = Férfi/férfias
+female_feminine = Női/nőies
+intersex = Interszexuális
+transgender = Transznemű
+non-binary = Nem bináris
+do_not_wish_to_say = Nem szeretném megmondani
+other = Egyéb

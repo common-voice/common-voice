@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = కొత్త అనుకూల యాస "{ $inputValue }"ని జోడించండి
 profile-form-submit-save = భద్రపరచు
 profile-form-submit-saved = భద్రపరచబడింది
-# Gender
-other = ఇతరాలు
 why-profile-title = ప్రొఫైల్ ఎందుకు?
 why-profile-text = మీ గురించి కొంత సమాచారాన్ని ఇవ్వడం వల్ల, కామన్ వాయిస్‌కు మీరు సమర్పించే ఆడియో డేటా, స్పీచ్ రికగ్నిషన్ ఇంజన్లు వాటి ఖచ్చితత్వాన్ని మెరుగుపరచుకోవడంలో బాగా ఉపయోగపడుతుంది.
 dashboard = డాష్‌బోర్డు
@@ -58,3 +56,4 @@ off = ఆఫ్
 on = ఆన్
 help-accent = యాసతో కొంత సహాయం కావాలా?
 help-variants = వేరియంట్‌లతో కొంత సహాయం కావాలా?
+other = ఇతరాలు

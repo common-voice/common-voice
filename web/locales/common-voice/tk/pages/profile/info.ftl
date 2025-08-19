@@ -26,8 +26,6 @@ native-language =
 profile-form-add-accent = Täze ýörite şiwe goş "{ $inputValue }"
 profile-form-submit-save = Ýatda sakla
 profile-form-submit-saved = Ýatda saklandy
-# Gender
-other = Başga
 why-profile-title = Profil nämä gerek?
 why-profile-text = Özüňiz hakda käbir maglumatlary bermek bilen, “Common Voice” -a iberýän ses maglumatlaryňyz bu maglumaty takyklygy gowulandyrmak üçin ulanýan Sözleýiş tanama motorlaryna has peýdaly bolar.
 dashboard = Dolandyryş paneli
@@ -56,3 +54,4 @@ off = Öçürilen
 on = Işledilen
 help-accent = Şiwe boýunça kömek gerekmi?
 help-accent-explanation = Siziň şiwäňiz sözleri aýdyş usulyňyzdyr. Ol ýaşan ýeriňize, başga gepleýän dilleriňize we başga birnäçe faktorlara bagly bolup biler. Degişlidir öýdýän maglumatlaryňyzy bu ýerde paýlaşyp bilersiňiz.
+other = Başga

@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = A' ye ladamukan kura fara "{ $inputValue }" kan.
 profile-form-submit-save = Ka mara
 profile-form-submit-saved = Maralen don
-# Gender
-other = Dɔ wɛrɛ
 why-profile-title = Mun na profil dɔ?
 why-profile-text =
     Ni i ye kunnafoni dɔw di i yɛrɛ kan, i bɛ kunnafoni lamɛntaw minnu ci Common Voice ma, olu nafa bɛna bonya kosɛbɛ Kuma ma
@@ -65,3 +63,4 @@ help-accent = Aw mago bɛ dɛmɛ dɔ la ni accent ye wa?
 help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
 help-variants = Aw mago bɛ dɛmɛ dɔ la ni variants ye wa?
 help-variants-explanation = Variants ye kan sugu kɛrɛnkɛrɛnnen dɔ ye - misali la, mɔgɔ minnu sigilen bɛ dugukoloko walima sigida dɔ la, olu bɛ tila ɲɔgɔn na. Tuma dɔw la, olu bɛ Weele ko kanhakɛw.
+other = Dɔ wɛrɛ

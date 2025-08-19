@@ -23,14 +23,6 @@ native-language =
 profile-form-add-accent = نوؤ روایتی لہجہ شامل"{ $inputValue }"
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ کڑغو ݰوئے
-male_masculine = مڑ
-female_feminine = ژینگو
-intersex = مڑ تا ژینگو
-transgender = مڑ تا ژینگو
-non-binary = مڑ تا ژینگو
-do_not_wish_to_say = گپ ژیا چے' کوسیتے
-# Gender
-other = دیر
 why-profile-title = پروفائل چی؟
 dashboard = ڈیش بورڈ
 build-profile = پروفائل سڤزاؤ
@@ -54,3 +46,11 @@ contribution-experience = حصو غودان تجربو
 off = بود
 on = آن
 help-accent = پے لہجو دیر مددن ضرورت استت
+# Genders
+male_masculine = مڑ
+female_feminine = ژینگو
+intersex = مڑ تا ژینگو
+transgender = مڑ تا ژینگو
+non-binary = مڑ تا ژینگو
+do_not_wish_to_say = گپ ژیا چے' کوسیتے
+other = دیر

@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نَمݳ حَسبِ ضرولَت لہجَہ / بݳشݵنئ اندݳز خرِشݳرݳ ""{ $inputValue }""
 profile-form-submit-save = محفݸظ اِرݳ
 profile-form-submit-saved = محفݸظ ہݸݵݳ
-male_masculine = مَنِشکݳنݳ/مَنِشفُرݸ
-female_feminine = جݸئکݳنݳ/جݸئی گݸل
-intersex = اِنٹرسݵکس
-transgender = خُسرَہ
-non-binary = غݵر ـ بݳئنرݵ
-do_not_wish_to_say = مُنِنݳئی رݳئݺ نݵ رݺ چھݳݺ
-# Gender
-other = اݸرݳ
 why-profile-title = پرݸفݳئل کِجݺ؟
 why-profile-text =
     اَپَنݵئ بݳرݳنݳ کمݵک معلݸمݳتݸݣ دݵئ، تُمݺ کݸنݸ آڈِیݸ ڈݵٹݳ کݳمَن وݳئسَشُݸ جمَع رݳگُچھݸت تݳ ہݵئ اسپِچ
@@ -79,3 +71,11 @@ variant-contribution-option-1 = مݺ باݽَݵئ تمݳم متغݵرݳتݵمݳ 
 variant-contribution-option-2 = مݺ متغݵرݳنݸ صرف جملݳݣݳ نݸ کِلِپسݳ دِکھِلݳئی.
 variant-contribution-warning-title = ⓘتمݳم جملݺ نݸ کِلِپس مݳ مݸتݸشُݸ خݳ متغݵرݳتݵݣݺ ٹݵگ نݳ!
 variant-contribution-warning-subtitle = اگر تمݵچݸ حِصَہ بݳنَنݳ مشکل ہݸگݳ چھݳتݳ، تݸ تُمݺ کݸنݵتݳ وقتݵکِنݳ اَپَنݵئ بݳݽݵئ تمݳم مݸݳد دݸبݳرہ دݵکھِنݳئی کݳرݸ سݸئچ اِرِݵ شکݵگُچھݸت.
+# Genders
+male_masculine = مَنِشکݳنݳ/مَنِشفُرݸ
+female_feminine = جݸئکݳنݳ/جݸئی گݸل
+intersex = اِنٹرسݵکس
+transgender = خُسرَہ
+non-binary = غݵر ـ بݳئنرݵ
+do_not_wish_to_say = مُنِنݳئی رݳئݺ نݵ رݺ چھݳݺ
+other = اݸرݳ

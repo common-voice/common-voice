@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = ضرورت تہ مطابق نواں لہجہ شامل کُرا{ $inputValue }
 profile-form-submit-save = جمع
 profile-form-submit-saved = جمع کوتھین
-male_masculine = مچ/
-female_feminine = ژامی/
-intersex = اکبنہ جنس
-transgender = ہیجڑا
-non-binary = غیر بائنری
-do_not_wish_to_say = کیہ گنن تہ خوہش نی درو
-# Gender
-other = ورے
 why-profile-title = کو ایک پروفائل؟
 why-profile-text = تانوں بار معلومات پرئی، کیرا آڈیو ڈیٹا بی کامن وائس جمع کُنبہ سے سپیچ تہ پرئی لے فائدہ مند تھیو۔ زانال انجن یہ ڈیٹا  تانوں درستگی بہتر کُرئیں کی استعمل کُنا۔
 dashboard = ڈش بورڈ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = موکی   ماباݜا  موجود سپُنں �
 variant-contribution-option-2 = موکی صرف ما ویریئنٹ تہ جملہ نم آں کلپ نم کڅئی
 variant-contribution-warning-title = سپؙنجملہ نم آں کلپ نامہ ویریئنٹ تہ ٹیگ نی درو اژئی!
 variant-contribution-warning-subtitle = اگر میاکی تعاون کُرنہ پریشانی دور بیاں بہ، تا بی کیہ ایس وخ تانوں باݜہ تہ مواد دڇھئیں کی پھرکی ین بئیبہ۔
+# Genders
+male_masculine = مچ/
+female_feminine = ژامی/
+intersex = اکبنہ جنس
+transgender = ہیجڑا
+non-binary = غیر بائنری
+do_not_wish_to_say = کیہ گنن تہ خوہش نی درو
+other = ورے

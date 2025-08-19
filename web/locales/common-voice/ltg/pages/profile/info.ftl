@@ -29,9 +29,6 @@ native-language =
 profile-form-add-accent = Dalikt jaunu akcentu “{ $inputValue }”
 profile-form-submit-save = Saglobuot
 profile-form-submit-saved = Saglobuots
-do_not_wish_to_say = Nagrybu atkluot
-# Gender
-other = Cyts
 why-profile-title = Deļkuo taiseit profilu?
 why-profile-text = Snādzūt nalelu informaceju par sevi, īroksti, kurus īrokstit Common Voice, byus lobuok dereigi runys atpazeišonys algoritmim, kas lītoj itūs datus, lai uzlobuotu tū precizitati.
 dashboard = Dorba golds
@@ -64,3 +61,5 @@ help-accent = Voi vajadzeiga paleidzeiba ar akcentu?
 help-accent-explanation = Jiusu akcents ir veids, kai jius izrunojit vuordus. Tū var ītekmēt jiusu dzeivisvīta, cytys volūdys, kurys runojit, i daudzi cyti faktori. Ite varit pasadaleit ar sevkuru informaceju, kas, jiusupruot, ir svareiga.
 help-variants = Voi vajadzeiga paleidzeiba ar variantim?
 help-variants-explanation = Varianti ir nūsaceita volūdys forma, par pīmāru, tīm, kas dzeivoj kaidā geografiskajā vītā voi kūpīnā. Dažreiz tūs sauc par dialektim.
+do_not_wish_to_say = Nagrybu atkluot
+other = Cyts

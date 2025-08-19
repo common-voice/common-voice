@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = "{ $inputValue }" نووينٚ جروُرتيٚ ڪآ هسآبو دي ورجآڻي شآمل ڪرو
 profile-form-submit-save = جمآ ڪرو
 profile-form-submit-saved = جمآ هُرو
-male_masculine = مڙد/مڙد
-female_feminine = مآئيٚ/مآيونٚ
-intersex = اندوُرنيٚ جنس
-transgender = بدلديٚ جِنس
-non-binary = بِنآ ڪيوآ ڪي
-do_not_wish_to_say = ڪيوآ ڪيٚ کوآهش مت رآکو
-# Gender
-other = دُوسرآ
 why-profile-title = پروڦآئيل ڪآلي؟
 why-profile-text = آپو ڪآ بآرآ مي ڪُج جآڻ ديوآ دي، تِمي جيڪو آڊيو موآد ڪآمن وآئيسو پر جمآ ڪرآرآ، اُهو ٻآتچيتي تآڻي اور بي ڦآيدآزݪو سآبت هوسي۔ اُݪکآڻ انڃڻ جيڪو اُرو ڊيٽآ ڪوُ استمآل ڪردآ هينٚ اُنآ ڪي سئيو ڪوُ وديڪ سئي ڪروآ تآڻيٚ۔
 dashboard = ڊيش بورڊ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = مڪوُ تِمري ٻوليو ڪي سآرآ ن�
 variant-contribution-option-2 = سِرڦ مڪوُميرآ نمونآ دي جملآنٚ اور ڪِلپآ ڪوُ دِکآئو
 variant-contribution-warning-title = سب جُملآ اور ڪِلپآ مي بيآنو ڪآ ٽيگ اڃآ بي موجود ڪونآ!
 variant-contribution-warning-subtitle = جيڪر تِمآ ڪوُ هِسو ديوآ مي ڏُکيآئي ميهسوُس هو رهيري هي، تو تِمي ڪِرو بي ٽيم تِميري ٻوليو تآڻي سب موآد  ديکوآ تآڻي وآپس آ سڪدو هي۔
+# Genders
+male_masculine = مڙد/مڙد
+female_feminine = مآئيٚ/مآيونٚ
+intersex = اندوُرنيٚ جنس
+transgender = بدلديٚ جِنس
+non-binary = بِنآ ڪيوآ ڪي
+do_not_wish_to_say = ڪيوآ ڪيٚ کوآهش مت رآکو
+other = دُوسرآ

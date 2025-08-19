@@ -42,22 +42,20 @@ accept-privacy-and-terms = ຂ້ອຍຍອມຮັບ <termsLink>ເງື�
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = ພາສາອັງກິດ
-fr = ພາ​ສາ​ຝ​ຣັ່ງ
 hch = Wixárika
 kzi = Kelabit
 mbf = Baba Malay
 meh = Southwestern Tlaxiaco Mixtec
 mel = Central Melanau
 mmc = Michoacán Mazahua
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = ເປນານຕາເວັນອອກ
 pne = ຕາເວັນຕົກ Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = ຕວກກີ
 xkl = { "" }
+# Locales-Variants
+ms-MY = Bahasa Malay
 
 ## Language search component
 

@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Ngeta indlela yakho lensha yekukhuluma "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Lokugciniwe
-# Gender
-other = Lokunye
 why-profile-title = Leni likhasi lelichaza kabanti ngawe?
 why-profile-text = Ngekunikela ngencenye yemininingwane ngawe, lolwati ngemsindvo lolitfumele ku Common Voice lutawusita kakhulu enjinini yekuva inkhulumo lesebentisa lolwati kute itfutfukise bucotfo.
 dashboard = i-Dashboard
@@ -65,3 +63,4 @@ help-accent-explanation =
     letinye tilwimi lotikhulumako kantsi futsi naletinye tintfo. Ungasipha lolunye lwati lova ngatsi lomcukwa lana.
 help-variants = Udzinga lusito ngetinhlobo?
 help-variants-explanation = Kuhlukahluka kuyincenye tsite yetilwimi - kufana naleyo leyinikelwe ngulabo baleyo ndzawo noma lowo mphakatsi. Ngalesinye sikhatsi kubitwa ngekutsi ngema dialects
+other = Lokunye

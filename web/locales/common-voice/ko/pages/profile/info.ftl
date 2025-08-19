@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = 새 사용자 지정 억양 "{ $inputValue }" 추가
 profile-form-submit-save = 저장
 profile-form-submit-saved = 저장됨
-male_masculine = 남성
-female_feminine = 여성
-intersex = 간성
-transgender = 트랜스젠더
-non-binary = 논바이너리
-do_not_wish_to_say = 밝히고 싶지 않음
-# Gender
-other = 그외
 why-profile-title = 왜 사용자 정보가 필요한가요?
 why-profile-text = 사용자에 대한 정보를 제공함으로써 Common Voice에 제출하는 오디오 데이터는 이 데이터를 사용하여 정확성을 향상시키는 음성 인식 엔진에 더 유용하게 사용됩니다.
 dashboard = 대시보드
@@ -77,3 +69,11 @@ variant-contribution-option-1 = 나의 언어에 속하는 모든 변형의 문�
 variant-contribution-option-2 = 나의 변형의 문장과 클립만 보기
 variant-contribution-warning-title = ⓘ 아직 변형 태그가 없는 문장과 클립도 있습니다!
 variant-contribution-warning-subtitle = 기여하는 데 문제가 있으면 언제든 해당 언어의 모든 콘텐츠를 다시 볼 수 있습니다.
+# Genders
+male_masculine = 남성
+female_feminine = 여성
+intersex = 간성
+transgender = 트랜스젠더
+non-binary = 논바이너리
+do_not_wish_to_say = 밝히고 싶지 않음
+other = 그외

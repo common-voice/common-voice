@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = 添加新嘅自定義口音 "{ $inputValue }"
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-# Gender
-other = 其他
 why-profile-title = 點解要建立個人檔案？
 why-profile-text = 語音引擎可以使用你提供嘅一啲資訊，令你嘅 Common Voice 語音資料被善用以提升語音識別引擎嘅精確度。
 dashboard = 儀表版
@@ -62,3 +60,4 @@ help-accent = 需要口音方面嘅更多定義？
 help-accent-explanation = 口音係指你對一個詞彙發音嘅方式。口音通常受成長地、講開嘅其它語言以及其它因素影響而成。你可以喺呢度寫低有關詳情。
 help-variants = 喺方音方面使唔使幫手？
 help-variants-explanation = 方音/變體係一種語言嘅具體形式，佢由生活喺某一個地域或者社區嘅人共享，有時被稱之為方言。
+other = 其他

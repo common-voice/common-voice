@@ -32,6 +32,3 @@ not-found-page-header = Ikke fundet
 not-found-page-content = Den side, du leder efter, blev ikke fundet
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Jeg accepterer Common Voices' <termsLink>vilkår</termsLink> og <privacyLink>privatlivserklæring</privacyLink>
-en = Engelsk
-fr = Fransk
-tr = Tyrkisk

@@ -45,22 +45,20 @@ accept-privacy-and-terms = በ ጋራ ድምፅ <termsLink>ደንቦች</termsLi
 bsy = ሳባ ቢሳይ
 cdo = ፉዙ
 cpx = ሄንግ ሁዋ
-en = እንግሊዝኛ
-fr = ፈረንሳይኛ
 hch = ዊክሳሪካ
 kzi = ኬላቢት
 mbf = ባባ ማላይ
 meh = ደቡብ ምዕራባዊ ተላሲያኮ ሚክስቴክ
 mel = ማዕከላዊ ሜላኑ
 mmc = ሚቾቻን ማዛሁዋ
-ms-MY = ባሃሳ ማላይ
 msi = ሳባ ማላይ
 pez = ምስራቃዊ ፔናን
 pne = ምዕራባዊ ፔናን
 sdo = ሴሪያን ቢዳዩህ
 snv = ሳባን
-tr = ቱርክኛ
 xkl = ኬንያ
+# Locales-Variants
+ms-MY = ባሃሳ ማላይ
 
 ## Language search component
 

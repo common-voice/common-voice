@@ -29,13 +29,6 @@ native-language =
 profile-form-add-accent = Agiunghe s'atzentu personalizadu nou "{ $inputValue }"
 profile-form-submit-save = Sarva
 profile-form-submit-saved = Sarvadu
-male_masculine = Òmine/Maschile
-female_feminine = Fèmina/feminile
-intersex = Intersessuale
-transgender = Transgènere
-non-binary = Non binàriu
-# Gender
-other = Àteru
 why-profile-title = Pro ite depo fàghere unu profile?
 why-profile-text = Si frunis informatzione tua, is datos de àudio chi as a imbiare a Common Voice ant a èssere prus ùtiles pro is motores de reconnoschimentu de boghe chi impreant custos datos pro megiorare sa pretzisione.
 dashboard = Pannellu
@@ -66,3 +59,10 @@ on = Ativu
 help-accent = Ti serbit agiudu cun s'atzentu?
 help-accent-explanation = S'atzentu est sa manera comente pronùntzias is faeddos. Podet èssere influidu dae su logu in ue as bìvidu, àteras limbas chi chistionas e meda àteras cosas. Podes cumpartzire cale si siat informatzione chi cunsideras rilevante inoghe.
 help-variants = Ti serbit agiudu cun is variedades?
+# Genders
+male_masculine = Òmine/Maschile
+female_feminine = Fèmina/feminile
+intersex = Intersessuale
+transgender = Transgènere
+non-binary = Non binàriu
+other = Àteru

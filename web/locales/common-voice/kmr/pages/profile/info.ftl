@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Aksana "{ $inputValue }" tevlî bike
 profile-form-submit-save = Tomar bike
 profile-form-submit-saved = Hat tomarkirin
-# Gender
-other = Yên din
 why-profile-title = Çima profîlekê çêbikim?
 why-profile-text =
     Bi peydakirina hin agahiyên derbarê xwe de, daneyên dengî yên ku te ji Common Voiceê re şandine ew ê rastbûna  Axaftinê kêrhatîtir bikin.
@@ -65,3 +63,4 @@ help-accent = Ji bo aksanê ji te re alîkarî divê?
 help-accent-explanation = Devoka te awayê te yê bilêvkirina peyvan e. Ciyê tu lê dijî, zimanên din ku tu pê diaxivî û gelek faktorên din bandorê lê dikin, Tu dikarî wan zanyariyan li virê parve bikî ku li gorî fikra te têkildar in.
 help-variants = Ji bo varyantan pêdiviya te bi hinek alîkariyê heye?
 help-variants-explanation = Varyant formeke spesifîk ê zimanekî ne - wekî nimûne şiklê xeberdanê yê kesên ku li eynî cografya an civakê dijîn. Carinan ev wekî zarava/diyalekt tên binavankirin.
+other = Yên din

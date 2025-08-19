@@ -27,13 +27,6 @@ native-language =
 profile-form-add-accent = Tilføj ny brugerdefineret accent "{ $inputValue }"
 profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
-male_masculine = Mand / maskulin
-female_feminine = Kvinde / feminin
-transgender = Transkønnet
-non-binary = Ikke-binær
-do_not_wish_to_say = Ønsker ikke at oplyse
-# Gender
-other = Andet
 why-profile-title = Hvorfor oprette en profil?
 why-profile-text = Ved at give nogle oplysninger om dig selv, vil de lyddata, du indsender til Common Voice være mere brugbare til talegenkendelses-systemerne, der skal bruge disse data til at forbedre deres nøjagtighed.
 dashboard = Oversigt
@@ -66,3 +59,10 @@ help-accent = Har du brug for hjælp til accent?
 help-accent-explanation = Din accent er den måde, du udtaler ord på. Det kan formes af hvor du har boet, hvilke andre sprog du taler og mange andre faktorer. Du kan dele enhver information, du føler er relevant, her.
 help-variants = Har du brug for hjælp til varianter?
 help-variants-explanation = Varianter er en specifik form for et sprog - som for eksempel deles af dem, der bor i et geografisk område eller et samfund. Nogle gange kaldes disse også dialekter.
+# Genders
+male_masculine = Mand / maskulin
+female_feminine = Kvinde / feminin
+transgender = Transkønnet
+non-binary = Ikke-binær
+do_not_wish_to_say = Ønsker ikke at oplyse
+other = Andet

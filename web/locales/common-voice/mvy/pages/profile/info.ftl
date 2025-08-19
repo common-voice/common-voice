@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = تَیں مرضیں لہجہ ” { $inputValue }“ ٹل کرہ لہ
 profile-form-submit-save = سمٹے چھہ/سیو کرہ
 profile-form-submit-saved = سُگاؤ چھؤژِگا
-male_masculine = میشوال
-female_feminine = گھریۡماݜ
-intersex = مُخنث
-transgender = گھریوں میش
-non-binary = نان بائنری
-do_not_wish_to_say = بنؤں خوش نیرم تُھو/نیرات
-# Gender
-other = مُت بِگ
 why-profile-title = پروفائل گِنہ؟
 why-profile-text = تَیں بابتی مہ تُوں معلومات دتیۡ کھیں، گھِن٘لیۡ اوازَیں معلومات تُو کامن وائس مہ جمع کیریۡ تُھو سو زاں پُنیاک کران٘لہ مشیۡنہ وا کریا ہسانی پیدا کراتھی ݜس معلوم کرَیں یاں کریا چے اُو صحیح تھی گی نَیں۔
 dashboard = ڈیش بورڈ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = مِیں ژِبَیں بُٹیۡ لہجی وَی
 variant-contribution-option-2 = صرف مِیں خاص لہجَیں جُملی تے اوازاں کٹرو مے پشا
 variant-contribution-warning-title = بُٹیۡ جُملیُوں لا لہجی وَیں پرچہ لا نی رِن٘گی تھی!
 variant-contribution-warning-subtitle = کہ تُو حصہ گلَیں مہ بِگ گرانی یاں شِکار تُھو کھیں پاتُو بہ لہ گیں ٹیم تَیں ژِباں بُٹ مواد تُو ایکٹھی نھال۔
+# Genders
+male_masculine = میشوال
+female_feminine = گھریۡماݜ
+intersex = مُخنث
+transgender = گھریوں میش
+non-binary = نان بائنری
+do_not_wish_to_say = بنؤں خوش نیرم تُھو/نیرات
+other = مُت بِگ

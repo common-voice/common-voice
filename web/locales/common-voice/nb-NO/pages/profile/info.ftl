@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Legg til ny tilpasset dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagret
-male_masculine = Mann/Maskulin
-female_feminine = Dame/Feminin
-intersex = Intersex
-transgender = Transkjønnet
-non-binary = Ikke-binær
-do_not_wish_to_say = Ønsker ikke å si
-# Gender
-other = Annet
 why-profile-title = Hvorfor opprette en profil?
 why-profile-text = Ved å bidra med noe informasjon om deg selv, vil lyddataene du bidrar med til Common Voice være enda mer nyttige for talegjengjenningsmotorer, som bruker slike data til å forbedre sin nøyaktighet.
 dashboard = Oversikt
@@ -111,3 +103,11 @@ delete-api-key-success-toast-message = API-innloggingsinfo slettet
 add-api-key-name-error = Legg til et API-innloggingsinformasjonsnavn
 max-api-keys-reached = Grensen på 10 API-innloggingsinformasjoner er overskredet
 duplicate-api-key-name-error = Duplikat API-nøkkelnavn
+# Genders
+male_masculine = Mann/Maskulin
+female_feminine = Dame/Feminin
+intersex = Intersex
+transgender = Transkjønnet
+non-binary = Ikke-binær
+do_not_wish_to_say = Ønsker ikke å si
+other = Annet

@@ -20,8 +20,6 @@ native-language =
     .label = मूळ भाषा
 profile-form-submit-save = जतन करा
 profile-form-submit-saved = जतन केले
-# Gender
-other = इतर
 why-profile-title = प्रोफाइल का?
 why-profile-text =
     आपल्याबद्दल काही माहिती दिली तर, आपण कॉमन व्हॉईसवर सबमिट केलेला ऑडिओ डेटा स्पीचसाठी अधिक उपयुक्त ठरेल
@@ -50,3 +48,4 @@ skip-submission-description = योगदानाच्या वेळी स
 skip-submission-note = टीप: योगदानाचा प्रकार बदलण्यासाठी आपण बोलणे किंवा ऐकणे यांपैकी एका प्रकाराची निवड करणे आवश्यक आहे.
 off = बंद
 on = सुरू
+other = इतर

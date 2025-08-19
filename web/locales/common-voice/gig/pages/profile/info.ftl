@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = { $inputValue } نئون هسب زرور تلڦز بهڙو ڪرو
 profile-form-submit-save = مهڦوز ڪرڻو
 profile-form-submit-saved = مهڦوز هوڙآ
-male_masculine = ڇورآ
-female_feminine = ٻير
-intersex = نآر مآدي
-transgender = کڌڙآ
-non-binary = گير بائنري
-do_not_wish_to_say = ڪهڻ ڪونهي چآهون
-# Gender
-other = ڏوجهي
 why-profile-title = پروڦآئيل ڪآ؟
 why-profile-text = آپيري بآري مين ڪجھ مهلومآت ڏي سون ، تم جيڪو آڊيو ڊيٽآ ڪآمن وآئسي پر جمآ ڪرآئو، او تڪريري سآرو وڌيڪ مڦيد سآبت هووي ۔ اوڙکڻو انجڻ جيڪو اين ڊيٽآ ني استهمآل ڪري ڇي ۔ونوري درستگي ني بهتر ڪري سآرو۔
 dashboard = ڊيش بورڊ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = مآري ٻولي مين سب ڪسمي ري جم
 variant-contribution-option-2 = رڳو مآري ڪسمي مين جملآ آئين ڪلپس ڏيکآئو
 variant-contribution-warning-title = سب جملآ آئين ڪلپي مين آڃآن تآئين ويريئنٽ ٽيگ نآ ڇي۔
 variant-contribution-warning-subtitle = جيڪۮي تم ني هيسو لي مين ڏوکآئي هو ري ڇي تو تم ڪي بي ٽيم آپيري ٻولي سآرو سب موآد ڏيکي سآرو وآپسي سوئچ ڪر سڪو ڇو۔
+# Genders
+male_masculine = ڇورآ
+female_feminine = ٻير
+intersex = نآر مآدي
+transgender = کڌڙآ
+non-binary = گير بائنري
+do_not_wish_to_say = ڪهڻ ڪونهي چآهون
+other = ڏوجهي

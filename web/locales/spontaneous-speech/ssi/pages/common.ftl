@@ -42,22 +42,20 @@ accept-privacy-and-terms = ہُوں سادھارݨ اواجا کِیاں <termsL
 bsy = صباح بسایا
 cdo = فوژو
 cpx = ہینگ ہوا
-en = انگریجی
-fr = فرانسی
 hch = وِکساریکا
 kzi = کیلا بیٹ
 mbf = بابا ملائے
 meh = ڈؔکھݨ اولھاندا ٹلاکسیکو مکسٹیک
 mel = سنٹرل میلاناؤ
 mmc = مچوآکان مزاہوا
-ms-MY = بہاسا ملائی
 msi = صباح ملائی
 pez = اُوبھرندے پینان
 pne = اُولاندے پینان
 sdo = سیریان بیدایو
 snv = سابان
-tr = تُرکی
 xkl = کِینیا
+# Locales-Variants
+ms-MY = بہاسا ملائی
 
 ## Language search component
 

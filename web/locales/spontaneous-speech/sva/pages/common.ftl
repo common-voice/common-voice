@@ -42,22 +42,20 @@ accept-privacy-and-terms = თანახმა ხუ̂ი Common Voice's-შ
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = ინგლისურ
-fr = ფრანგულ
 hch = ვიქსარიკა
 kzi = კელაბიტ
 mbf = ბაბა მალაიზია
 meh = სამხრეთ-დასავლეთ Tlaxiaco Mixtec
 mel = ცენტრალურ Melanau
 mmc = მიჩოაკან მაზახუა
-ms-MY = მალაიური ენა
 msi = მალაიური
 pez = აღმოსავლურ პენან
 pne = დასავლურ პენან
 sdo = Bidayuh-ის ტომი
 snv = მა̈გ
-tr = თურქულ
 xkl = კენიურ
+# Locales-Variants
+ms-MY = მალაიური ენა
 
 ## Language search component
 

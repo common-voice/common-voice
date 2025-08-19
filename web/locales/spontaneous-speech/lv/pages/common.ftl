@@ -42,22 +42,20 @@ accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</ter
 bsy = Sabahs Bisaja
 cdo = Fudžou
 cpx = Hen Hua
-en = Angļu
-fr = Franču
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba malajiešu
 meh = Dienvidrietumu Tlaxiaco Mixtec
 mel = Central Melanau
 mmc = Michoacán Mazahua
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Eastern Penan
 pne = Western Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turku
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa Malay
 
 ## Language search component
 

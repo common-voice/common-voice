@@ -45,22 +45,20 @@ accept-privacy-and-terms = ვოთანხმუქ Common Voice-იშ <term
 bsy = საბაჰ-ბისაია
 cdo = ფუჯოუ
 cpx = ჰენგ-ჰუა
-en = ინგლისური
-fr = ფრანგული
 hch = ვიქსარიკა
 kzi = კელაბიტი
 mbf = ბაბა-მალაური
 meh = თეონურ-დალური ტლახიაკის მისტეკური
 mel = ცენტრალური მელანაუ
 mmc = მიჩოაკან-მაზაჰუა
-ms-MY = ბაჰასა-მალაური
 msi = საბაჰ-მალაური
 pez = ელახონურ პენანი
 pne = გელახონიშ პენანი
 sdo = სერიანული ბიდაუ
 snv = საბანი
-tr = თურქული
 xkl = კენიური
+# Locales-Variants
+ms-MY = ბაჰასა-მალაური
 
 ## Language search component
 

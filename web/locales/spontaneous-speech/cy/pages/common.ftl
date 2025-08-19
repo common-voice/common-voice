@@ -45,22 +45,20 @@ accept-privacy-and-terms = Rwy'n cytuno i <termsLink>Delerau</termsLink> a <Priv
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Saesneg
-fr = Ffrangeg
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba Malay
 meh = Tlaxiaco Mixtec y De Orllewin
 mel = Melanau Canolog
 mmc = Michoacán Mazahua
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Penan Dwyreiniol
 pne = Penan Gorllewinol
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Twrceg
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa Malay
 
 ## Language search component
 

@@ -17,7 +17,4 @@ contribute = Contribui
 ## Not Found Page
 
 not-found-page-header = No agatadu
-en = Inglesu
-fr = Frantzesu
 meh = Mixtecu de su sud-est de Tlaxiaco
-tr = Turcu

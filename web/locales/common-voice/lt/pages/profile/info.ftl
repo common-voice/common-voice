@@ -18,8 +18,6 @@ native-language =
     .label = Gimtoji kalba
 profile-form-submit-save = Įrašyti
 profile-form-submit-saved = Įrašyta
-# Gender
-other = Kita
 why-profile-title = Kokia profilio nauda?
 why-profile-text = Jei pateiksi truputį savo duomenų, Tavo „Common Voice“ projektui pateikti garso įrašai bus naudingesni kalbos atpažinimo varikliams, kurie šiuos duomenis naudoja didesniam tikslumui pasiekti.
 dashboard = Skydelis
@@ -45,3 +43,4 @@ skip-submission-description = Pateikus indėlį (paspaudus mygtuką „Pateikti�
 skip-submission-note = Pastaba: jeigu norėsi pakeisti indėlio tipą, ir toliau galėsi pasinaudoti saitais „Kalbėk“ ir „Klausyk“.
 off = Išjungta
 on = Įjungta
+other = Kita

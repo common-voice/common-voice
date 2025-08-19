@@ -42,22 +42,20 @@ accept-privacy-and-terms = از متفق هوم ته مشترک آواز <termsL
 bsy = صبا بِسایا
 cdo = فُوژُو
 cpx = هېنګ هُوا
-en = انګرېزي
-fr = فرانسئے
 hch = وِخاریکا
 kzi = کېلابِت
 mbf = بابا مَلے
 meh = خورېنڅه بېشتر تلاخیاکو مِخټېک
 mel = مرکزي مېلاناؤ
 mmc = مِچواکان مزاهُوا
-ms-MY = بهاسا مَلے
 msi = صباح مَلے
 pez = ځېستر پېنان
 pne = بېشتر پېنان
 sdo = سېرئن بیدایُوح
 snv = سابن
-tr = تُرکئے
 xkl = کېنیاح
+# Locales-Variants
+ms-MY = بهاسا مَلے
 
 ## Language search component
 

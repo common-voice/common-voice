@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = رانگ بیونگ زیر جوخپو ایڈ بیوس
 profile-form-submit-save = فسوق
 profile-form-submit-saved = فسوق
-male_masculine = بو ژاہ/بو
-female_feminine = بوسترینگ/بونگو
-intersex = فومن مومین
-transgender = ہیجڑا
-non-binary = نان باٸنری
-do_not_wish_to_say = زیربی تونگو مہ یوق
-# Gender
-other = ایونگ
 why-profile-title = فروفایل پو چا رگوسپن؟
 why-profile-text = یری معلومات چی بقچی منسنارے، سکت نوزین بے انجن پے فری یانگی  کامن واٸس لا منفہ یودپی سکتی ڈیٹو کولبی لوکھسینگنو لیگینہ سہ لیخمو گوین، دونگی یا ڈیٹو کھوتی لس کھومی فری کولبا یودپن۔
 dashboard = تخشو
@@ -77,3 +69,11 @@ variant-contribution-option-1 = نلا نی سکت پوی سکت فسور کن  
 variant-contribution-option-2 = نلا نری سکت فسور پونا زومسے یودپی تم سیر کن نا کلپ کن ہلتون۔
 variant-contribution-warning-title = تم سیر گانگمہ نا کلپ گانگمہ لا دقسن سکت فسوری نتینگپو میدننگ۔
 variant-contribution-warning-subtitle = یانگلا روخ بے وخلا چنگ ہرکپلس چی گوین یودنارے، یانگلا نامسہ ینگ لوقسے یری سکتی کنٹینٹ کن لا ہلتا نینید۔
+# Genders
+male_masculine = بو ژاہ/بو
+female_feminine = بوسترینگ/بونگو
+intersex = فومن مومین
+transgender = ہیجڑا
+non-binary = نان باٸنری
+do_not_wish_to_say = زیربی تونگو مہ یوق
+other = ایونگ

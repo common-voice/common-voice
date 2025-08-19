@@ -27,8 +27,6 @@ native-language =
 profile-form-add-accent = ܐܘܣܦ (ܡܙܝܕ) ܠܥܙܐ ܪܫܝܡܐ ܚܕܬܐ { $inputValue }
 profile-form-submit-save = ܐܚܕ
 profile-form-submit-saved = ܐܚܕܢ
-# Gender
-other = ܐܚܪܢܐ
 why-profile-title = ܩܐ ܡܘܕܝ ܟܐ ܒܥܝܢ ܦܐܬܐ ܕܚܒܝܣܬܐ؟
 build-profile = ܒܢܝ ܦܐܬܐ ܕܚܒܝܣܬܐ
 goals = ܢܝ̈ܫܐ
@@ -39,3 +37,4 @@ accept-privacy-title = ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ
 login-identity = ܗܝܝܘܬܐ ܕܥܠܠܐ
 edit = ܫܚܠܦ
 email-subscriptions = ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ
+other = ܐܚܪܢܐ

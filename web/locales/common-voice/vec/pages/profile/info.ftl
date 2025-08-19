@@ -18,8 +18,6 @@ native-language =
     .label = Ƚengua nativa
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salvà
-# Gender
-other = Altro
 why-profile-title = Parché creare on profiƚo?
 why-profile-text = Se te fornisi ste informasioni insieme a ƚe to registrasion vocaƚi, ƚe vegnerà uxa par mijorare ƚa precixion de i motori de riconosimento vocaƚe.
 dashboard = Paneƚo
@@ -45,3 +43,4 @@ skip-submission-description = Dopo aver premù Manda mentre se xe drio inviare e
 skip-submission-note = Nota: bisognerà en ogni caso selesionare Parla o Scolta par modìfegare el tipo de contributo.
 off = Dixativa
 on = Ativa
+other = Altro

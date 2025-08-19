@@ -45,22 +45,20 @@ accept-privacy-and-terms = Accetto le <termsLink>condizioni</termsLink> e l’<p
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Inglese
-fr = Francese
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba malese
 meh = Mixteco del sud-est Tlaxiaco
 mel = Melanau centrale
 mmc = Michoacán Mazahua
-ms-MY = Bahasa malese
 msi = Sabah malese
 pez = Penan orientale
 pne = Penan occidentale
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turco
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa malese
 
 ## Language search component
 

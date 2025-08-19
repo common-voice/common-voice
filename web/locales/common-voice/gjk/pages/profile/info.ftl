@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نوا ڌستور پرماڻي ٻوليا ۿارُو لڦظان نين شامِل ڪرو۔
 profile-form-submit-save = محفوظ ڪرو
 profile-form-submit-saved = محفوظ ٿل
-male_masculine = مرڌ ڪان آۮمِي / مذڪر
-female_feminine = ٻائِي / مونث
-intersex = انٽرسيڪس (آۮمِي انين ٻائيڙِي ٻيئان نيون خاصيتون ھوئي)
-transgender = کۮڙو (جنس تبديل ھوون)
-non-binary = نون بِينري
-do_not_wish_to_say = ڪيوا نٿِي ماڳتو
-# Gender
-other = ٻيزا
 why-profile-title = پروفائيل شوليوا؟
 why-profile-text = پوتا نا ٻارا مان ڪانڪ معلومات مۿيا ڪريا ٿِي۔ تمين زين آڍيو ڍيٽا عام آواز ماٿيَ جمع ڪرو، اِي تقرير ۿارُو ڦائۮا وارو ثاٻت ٿاشي۔ اورکاڻ ني ليڌي زين آ ڍيٽا نين استعمال ڪري سي اينيان نا صحيح ڪريا نين وڌيڪ بھتر ڪريا ۿارُو۔
 dashboard = ڊيش بورڊ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = مارِي ٻولِي نان تمام لھجان
 variant-contribution-option-2 = رُوڳو ماران لھجان مان ٿِي جملا انين ڪلپ ۮيکاڙو۔
 variant-contribution-warning-title = ٻڌائين جملان انين ڪلپان مان ھزِي ۿوڌِي لھجان نان ٽيگ نٿِي۔
 variant-contribution-warning-subtitle = زو تمان نين شرڪت ڪريا مان مُشڪل ٿائي سي رئي، تمين ڪونئين ٽيمين پوتا نِي ٻولِي نا ٻڌائيَ مواۮ نين زويا ۿارُو واپس زئِي ۿڳو سو۔
+# Genders
+male_masculine = مرڌ ڪان آۮمِي / مذڪر
+female_feminine = ٻائِي / مونث
+intersex = انٽرسيڪس (آۮمِي انين ٻائيڙِي ٻيئان نيون خاصيتون ھوئي)
+transgender = کۮڙو (جنس تبديل ھوون)
+non-binary = نون بِينري
+do_not_wish_to_say = ڪيوا نٿِي ماڳتو
+other = ٻيزا

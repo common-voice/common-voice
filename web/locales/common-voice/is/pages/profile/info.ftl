@@ -29,13 +29,6 @@ native-language =
 profile-form-add-accent = Bæta við nýjum sérsniðnum hreimi „{ $inputValue }“
 profile-form-submit-save = Vista
 profile-form-submit-saved = Vistað
-male_masculine = Karl/karlkyns
-female_feminine = Kona/kvenkyns
-intersex = Intersex
-transgender = Trans
-do_not_wish_to_say = Vil ekki segja
-# Gender
-other = Annað
 why-profile-title = Hvers vegna notkunarsnið?
 why-profile-text =
     Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar 
@@ -70,3 +63,10 @@ help-accent = Þarftu hjálp með hreim?
 help-accent-explanation = Hreimurinn þinn er það hvernig þú berð fram orð. Hann getur mótast af því hvar þú hefur búið, hvaða önnur tungumál þú talar, ásamt mörgum öðrum þáttum. Þú getur deilt hér öllum þeim upplýsingum sem þér finnst eiga við.
 help-variants = Þarftu aðstoð við afbrigði?
 help-variants-explanation = Afbrigði eru ákveðin form tungumáls - til dæmis sameiginleg þeim sem búa á ákveðnu svæði eða tilheyra sérstökum samfélagshópi. Stundum er þetta kallað mállýskur.
+# Genders
+male_masculine = Karl/karlkyns
+female_feminine = Kona/kvenkyns
+intersex = Intersex
+transgender = Trans
+do_not_wish_to_say = Vil ekki segja
+other = Annað

@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Gehitu "{ $inputValue }" azentu berria
 profile-form-submit-save = Gorde
 profile-form-submit-saved = Gordeta
-# Gender
-other = Bestelakoa
 why-profile-title = Zergatik profila?
 why-profile-text = Zuri buruzko zenbait informazio emanez, Common Voicera igotzen dituzun audio datuak Hizketaren Ezagutza motorrentzat erabilgarriagoak izango dira, datu gehigarri hauek emaitzaren zehaztasuna hobetzen baitute.
 dashboard = Arbela
@@ -63,3 +61,4 @@ help-accent = Azentuarekin laguntza behar duzu?
 help-accent-explanation = Zure azentua hitzak ahoskatzen dituzun modua da. Beste faktore askoren artean, eragina dute non bizi izan zaren eta zein beste hizkuntza mintzatzen dituzun. Hemen, adierazgarria dela uste duzun edozein informazioa partekatu dezakezu.
 help-variants = Aldaerekin laguntza behar duzu?
 help-variants-explanation = Aldaerak hizkuntza baten forma espezifikoak dira - adibidez leku edo komunitate batean bizi direnek hitz egiten dutena. Batzuetan dialektoak deitzen zaie.
+other = Bestelakoa

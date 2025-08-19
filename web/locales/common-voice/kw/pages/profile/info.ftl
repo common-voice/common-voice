@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Keworra poslev a-vusur nowydh "{ $inputValue }"
 profile-form-submit-save = Gwitha
 profile-form-submit-saved = Gwithys
-# Gender
-other = Aral
 why-profile-title = Praga profil?
 why-profile-text = Dre brovia kedhlow a-dro dhywgh hwi agas honen, y fydh an data son a dhanvenowgh dhe Common Voice moy dhe les dhe jynnow aswon lev a wra usya an data ma rag gwellhe aga hewerder.
 dashboard = Skostell
@@ -61,3 +59,4 @@ help-accent = Yw res dhis gweres gans poslev?
 help-accent-explanation = Dha boslev yw an fordh may hwre'ta leverel geryow. Y hyll bos furvys gans an tyller mayth es ta trigys ynno, yethow erel a wre'ta kewsel ha lies tra aral. Ty a yll kevrenna py kedhlow pynag a dybydh bos gwiw omma.
 help-variants = Yw res dhis gweres gans varyansow?
 help-variants-explanation = Varyansow yw furvow komparek a yeth - rag ensampel kevrennys gans an re ow triga yn ranndir po yn kemeneth. Treweythyow yth yns i gelwys rannyethow.
+other = Aral

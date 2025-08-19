@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Aggiungi nuovo accento personalizzato “{ $inputValue }”
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salva
-male_masculine = Uomo/Maschile
-female_feminine = Donna/Femminile
-intersex = Intersessuale
-transgender = Transgender
-non-binary = Non binario
-do_not_wish_to_say = Preferisco non rispondere
-# Gender
-other = Altro
 why-profile-title = Perché registrare un profilo?
 why-profile-text = Se fornisci queste informazioni insieme alle tue registrazioni vocali, esse verranno usate per migliorare la precisione dei motori di riconoscimento vocali.
 dashboard = Dashboard
@@ -114,3 +106,11 @@ delete-api-key-success-toast-message = La credenziale API è stata eliminata cor
 add-api-key-name-error = Aggiungi un nome per la credenziale API
 max-api-keys-reached = È stato superato il limite di 10 credenziali API
 duplicate-api-key-name-error = Nome della chiave API duplicata
+# Genders
+male_masculine = Uomo/Maschile
+female_feminine = Donna/Femminile
+intersex = Intersessuale
+transgender = Transgender
+non-binary = Non binario
+do_not_wish_to_say = Preferisco non rispondere
+other = Altro

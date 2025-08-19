@@ -20,8 +20,6 @@ native-language =
     .label = Lengua materna
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardado
-# Gender
-other = Otro
 why-profile-title = ¿Por qué un perfil?
 why-profile-text = Al entregarnos un poco de información sobre ti, los datos de audio que envíes a Common Voice serán más útiles para los motores de reconocimiento de voz que los usen mejorando su precisión.
 dashboard = Tablero
@@ -50,3 +48,4 @@ skip-submission-description = El envío de comentarios se desactivará al hacer 
 skip-submission-note = Nota: Deberás seleccionar entre Hablar o Escuchar para cambiar el tipo de colaboración.
 off = Desactivado
 on = Activado
+other = Otro

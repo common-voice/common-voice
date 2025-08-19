@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Aghjunghjiti un novu accentu persunalizatu « { $inputValue } »
 profile-form-submit-save = Arrighjistrà
 profile-form-submit-saved = Arrighjistratu
-# Gender
-other = Altru
 why-profile-title = Parchì creà un prufilu ?
 why-profile-text = Pruvidendu infurmazione appuntu à voi, i dati vucale chì vo inviati à Common Voice sarani più ghjuvevule à i mutori di ricunniscenza vucale chì adoprani issi dati da migliurà a so pricisione.
 dashboard = Tavulone di cumande
@@ -61,3 +59,4 @@ help-accent = Avete bisognu d'aiutu cù l'accentu ?
 help-accent-explanation = U vostru accentu hè a vostra manera di prununcià e parolle. Pò esse cundiziunatu da u vostru locu di vita, da l’altre lingue chì vo parlate è da mori altri fattori. Quì pudete sparte qualsiasi infurmazione chì vò cridite pertinente.
 help-variants = Avete bisognu d'aiutu cù e variante ?
 help-variants-explanation = Variente sò forme specifiche d’una lingua, per esempiu scumpartita da quiddi chì campani in un stessu locu o cummunità. À le volte sò chjamati dialetti.
+other = Altru

@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Med kit duol manyien "{ $inputValue }"
 profile-form-submit-save = Kan
 profile-form-submit-saved = Mosekan
-male_masculine = Dichuo/kido mar dichuo
-female_feminine = Dhako/kido mar dhako
-intersex = Kido mar ngama ok dichuo kata dhako
-transgender = Oti gath
-non-binary = ma ok opogore
-do_not_wish_to_say = Ok adwar wacho
-# Gender
-other = Mamoko
 why-profile-title = Angomomiyo ibed gi kumindike weche mawuoyo kuomi?
 why-profile-text = Bedo ni ichiwo weche miduaro kuomi nyisoni duol mibiromako kod mibiro chiwo e Common Voice bokonyo mangey kuom teknoloji mabiro tiyogi deche go.
 dashboard = Bod
@@ -69,3 +61,11 @@ help-accent-explanation = Kit dhok en ayanga kaka iwuoyo. Onyalo lokore kaluowor
 help-variants = Idwaro kony kod mopogore opogore?
 help-variants-explanation = Kabind duonde gin kit dhok, kuom ranyisi kaka dho joma odak kanyachiel kata e gweng'. Sechemoko iluongo gi ni dhoudi.
 help-sex-or-gender-changes = Idwaro kony loko weche mag kit ngato kaka dichuo kata dhako?
+# Genders
+male_masculine = Dichuo/kido mar dichuo
+female_feminine = Dhako/kido mar dhako
+intersex = Kido mar ngama ok dichuo kata dhako
+transgender = Oti gath
+non-binary = ma ok opogore
+do_not_wish_to_say = Ok adwar wacho
+other = Mamoko

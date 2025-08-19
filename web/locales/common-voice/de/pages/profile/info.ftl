@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Neuen benutzerdefinierten Akzent hinzufügen „{ $inputValue }“
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
-male_masculine = Männlich
-female_feminine = Weiblich
-intersex = Intersexuell
-transgender = Transgender
-non-binary = Nicht-binär
-do_not_wish_to_say = Möchte ich nicht angeben
-# Gender
-other = Sonstiges
 why-profile-title = Warum ein Profil?
 why-profile-text = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil diese mit den Informationen ihre Genauigkeit erhöhen können.
 dashboard = Übersicht
@@ -114,3 +106,11 @@ delete-api-key-success-toast-message = API-Zugangsdaten erfolgreich gelöscht
 add-api-key-name-error = Fügen Sie einen Namen für die API-Zugangsdaten hinzu
 max-api-keys-reached = Limit von 10 API-Zugangsdaten überschritten
 duplicate-api-key-name-error = Doppelter API-Schlüsselname
+# Genders
+male_masculine = Männlich
+female_feminine = Weiblich
+intersex = Intersexuell
+transgender = Transgender
+non-binary = Nicht-binär
+do_not_wish_to_say = Möchte ich nicht angeben
+other = Sonstiges

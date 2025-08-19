@@ -46,9 +46,6 @@ accept-privacy-and-terms = Mi konsentas kun la <termsLink>kondiĉoj</termsLink> 
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Angla
-fr = Franca
-tr = Turka
 
 ## Language search component
 

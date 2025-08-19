@@ -20,8 +20,6 @@ native-language =
     .label = Մայրենի լեզու
 profile-form-submit-save = Պահել
 profile-form-submit-saved = Պահված է
-# Gender
-other = Այլ
 why-profile-title = Ինչի՞ համար է պրոֆիլը
 why-profile-text = Ձեր մասին որոշ տվյալներ տրամադրելով, դուք էլ ավելի օգտակար եք դարձնում ձեր ձայնագրությունները խոսքի ճանաչման համակարգերի համար։
 dashboard = Վահանակ
@@ -48,3 +46,4 @@ skip-submission-description = Ներդրումը ներկայացնելու ըն
 skip-submission-note = Ծանոթագրություն. Աջակեք նախագծին ընտրելով «Ձայնագրել» կամ «Լսել» հնարավորությունների միջև։
 off = Անջատված
 on = Միացված
+other = Այլ

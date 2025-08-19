@@ -35,14 +35,14 @@ accept-privacy-and-terms = Kuvi ka'nu ini ni ku'va satiñu jin <termsLink>A katy
 bsy = Tù'un Sabah Bisaya
 cdo = Tù'un Fuzhou
 cpx = Tù'un Heng Hua
-en = Tù'un ingles
 kzi = Tù'un Kelabit
 mbf = Tù'un Baba Malay
 mel = Tù'un Melanau maa ñuu
-ms-MY = Tù'un Bahasa Malay
 msi = Tù'un Sabah Malay
 pez = Tù'un Penan ityi nuu nkene nkanii
 pne = Tù'un Penan ityi nuu kivɨ nkanii.
 sdo = Tù'un Serian Bidayuh
 snv = Tù'un Sa'ban
 xkl = Tù'un Kenyah
+# Locales-Variants
+ms-MY = Tù'un Bahasa Malay

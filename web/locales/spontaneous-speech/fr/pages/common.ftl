@@ -45,22 +45,20 @@ accept-privacy-and-terms = J’accepte les <termsLink>conditions d’utilisation
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = English
-fr = Français
 hch = Huichol
 kzi = Kelabit
 mbf = Baba Malay
 meh = Mixtèque du sud-ouest de Tlaxiaco
 mel = Central Melanau
 mmc = Mazahua occidental
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Punan oriental
 pne = Western Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turc
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa Malay
 
 ## Language search component
 

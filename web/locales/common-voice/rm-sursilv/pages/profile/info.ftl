@@ -18,8 +18,6 @@ native-language =
     .label = Lungatg matern
 profile-form-submit-save = memorisar
 profile-form-submit-saved = memorisau
-# Gender
-other = auter
 why-profile-title = Pertgei in profil?
 why-profile-text = Sche ti indicheschas enzacontas informaziuns davart tetez/tetezza, gidan las datas da tun che ti inoltreschas en Common Voice las maschinas da reconuschientscha vocala ad augmentar lur exactadad.
 dashboard = Tabla d'armaturas
@@ -45,3 +43,4 @@ skip-submission-description = Duront contribuir vegn il resun sursiglius cura ch
 skip-submission-note = Remarca: ti stos eleger Discuorer ni Tedlar per midar il tip da contribuziun.
 off = deactivau
 on = activau
+other = auter

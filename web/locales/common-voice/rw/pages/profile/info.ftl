@@ -18,8 +18,6 @@ native-language =
     .label = Ururimi kavukire
 profile-form-submit-save = Bika/ Shyingura
 profile-form-submit-saved = Byabitswe/ Byashyinguwe
-# Gender
-other = Undi/ ikindi
 why-profile-title = Kuki isura ndanga ari ngombwa?
 why-profile-text = Mu gutanga amwe mu makuru akwerekeyeho, imbonwa z'amajwi watanze ku Ijwi Rusange (Common Voice) zizaba ingirakamaro cyane ku Mvugo. Imashini zitahura amajwi zikoresha izi mbonwa mu kuziboneza.
 dashboard = Imbonerahamwe ngenzuzi
@@ -44,3 +42,4 @@ skip-submission-description = Mu gutanga umusanzu amakuru ngarukira y'iyohereza 
 skip-submission-note = Ikitonderwa: Muzaba mugikeneye guhitamo hagati yo Kuvuga cyangwa Kumva kugira ngo muhindure ubwoko bw'umusanzu/ ibyo muzatanga.
 off = Ntibyakije/ birajimije
 on = Birakije/ ntibijimije
+other = Undi/ ikindi

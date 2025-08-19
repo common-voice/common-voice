@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نواں اپݨِیں مرجِیا کا لیہکا سیمݪ کر "{ $inputValue }"
 profile-form-submit-save = بھیݪا
 profile-form-submit-saved = بھݪا ہووَڑا
-male_masculine = مِنکھ / مِنکھاڑا
-female_feminine = ٻائِیر / بھتاݨی
-intersex = نسݪ سیمݪ
-transgender = ٻِسر نسݪ
-non-binary = کھدؔڑا
-do_not_wish_to_say = ٻولݨیں کی اِنچھا نائیں تی
-# Gender
-other = دُؔوجے
 why-profile-title = پروپھائل کاکام
 why-profile-text =
     اپݨیں باریم کائھِیں جاݨکاری لی کن ، آڈیو ڈیٹا جکو تھم سادھارݨ اواجا کُو دؔیتے ہے ٻو ٻولݨیں نتر ودِھیک اجرا ہوونگڑا۔
@@ -79,3 +71,11 @@ variant-contribution-option-1 = مِسکُو میری ٻولِیا کے میئھ
 variant-contribution-option-2 = مِسکُو رُگی میرے نامُونے کے ٻول اور ٹُکڑے دِؔکھاوَ
 variant-contribution-warning-title = (i) سارے ٻولیں اور ٹُکڑیم اِٻکے تائِیں دُوجی جاگھا نائِیں تی!
 variant-contribution-warning-subtitle = جے اگر تھم کُو یوگدؔان کرنیم کٹھنائی ہوئی ری ہے تو ، تھم کِسی بھی سمیپ اپݨیں ٻولِیا نتر سارا سیمان دؔیکھݨینٚپ پُوٹھے جائی سِکتے ہے۔
+# Genders
+male_masculine = مِنکھ / مِنکھاڑا
+female_feminine = ٻائِیر / بھتاݨی
+intersex = نسݪ سیمݪ
+transgender = ٻِسر نسݪ
+non-binary = کھدؔڑا
+do_not_wish_to_say = ٻولݨیں کی اِنچھا نائیں تی
+other = دُؔوجے

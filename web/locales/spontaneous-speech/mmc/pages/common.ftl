@@ -35,14 +35,14 @@ accept-privacy-and-terms = Rí kěnto konpjórme k'oyó <termsLink>terminosdeus
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Inglés
 kzi = Kelabit
 mbf = Baba Malay
 mel = Melanau del centro
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Penan del este
 pne = Penan del oeste
 sdo = Serian Bidayuh
 snv = Sa'ban
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa Malay

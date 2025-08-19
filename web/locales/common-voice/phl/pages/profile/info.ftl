@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = ناؤ  ضرورتی مطابقی لہجہ شامل تھوئی "{ $inputValue }"
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ بھلو
-male_masculine = مِیش
-female_feminine = کُڑیۡ
-intersex = نہ تہ کُڑیۡ نہ بہ مِیش
-transgender = ٹرانس جینڈر
-non-binary = غیر بائنری
-do_not_wish_to_say = گہ منئنی نہ دوئیانو
-# Gender
-other = دوئی
 why-profile-title = آک پروفائل کے؟
 why-profile-text =
     تیݨی بارئی گہ معلومات فراہم تھئینی مجی، تو کھئو آڈیو ڈیٹا کامن وائسہ وے جمع تھانو سے کھونڈئنی دپارہ بیڈہ زیات فائدہ مند بھین۔
@@ -79,3 +71,11 @@ variant-contribution-option-1 = ما تھے می  زبانی موجود تمام
 variant-contribution-option-2 = ماتھے صرف می متغیر والہ جملے او کلپس پشوہ۔
 variant-contribution-warning-title = ⓘ تپان تی تمام جملے او کلپس وے متغیر ٹیگ نئینہ!
 variant-contribution-warning-subtitle = اگر تو تھے تعاون تھئنی مجی  پریشانی بھینی ہینتہ، تو گہ گلہ ٹیمی تیݨی زبینی تمام مواد دڇھئنی دپارہ واپس بائی بھوڑ۔
+# Genders
+male_masculine = مِیش
+female_feminine = کُڑیۡ
+intersex = نہ تہ کُڑیۡ نہ بہ مِیش
+transgender = ٹرانس جینڈر
+non-binary = غیر بائنری
+do_not_wish_to_say = گہ منئنی نہ دوئیانو
+other = دوئی

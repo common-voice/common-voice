@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Afegeix un nou accent personalitzat «{ $inputValue }»
 profile-form-submit-save = Desa
 profile-form-submit-saved = S'ha desat
-male_masculine = Home
-female_feminine = Dona
-intersex = Intersexual
-transgender = Transgènere
-non-binary = No binari
-do_not_wish_to_say = Prefereixo no dir-ho
-# Gender
-other = Altre
 why-profile-title = Per què un perfil?
 why-profile-text = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de la veu que utilitzen aquestes dades per millorar la seva precisió.
 dashboard = Tauler
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Mostra'm frases i talls de totes les variants de
 variant-contribution-option-2 = Mostra'm només frases i talls de la meva variant
 variant-contribution-warning-title = ⓘ No totes les frases i talls tenen etiquetes de variant!
 variant-contribution-warning-subtitle = Si teniu problemes per col·laborar, podeu tornar a veure tot el contingut de la vostra llengua en qualsevol moment.
+# Genders
+male_masculine = Home
+female_feminine = Dona
+intersex = Intersexual
+transgender = Transgènere
+non-binary = No binari
+do_not_wish_to_say = Prefereixo no dir-ho
+other = Altre

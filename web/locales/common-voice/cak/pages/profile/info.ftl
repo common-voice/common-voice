@@ -20,8 +20,6 @@ native-language =
     .label = Nab'ey Ch'ab'äl
 profile-form-submit-save = Tiyak
 profile-form-submit-saved = Xyak
-# Gender
-other = Juley chik
 why-profile-title = ¿Achike ruma jun ruwäch b'i'aj?
 why-profile-text = Toq naya' jub'a' awetamab'al chi qe, ri taq rutzij k'oxom xke'atäq pa Common Voice, yalan xkek'atzin chi ke ri kik'wab'al etamanel ch'ab'äl ye'okisan richin ni'utzilaj kij.
 dashboard = Pas
@@ -47,3 +45,4 @@ skip-submission-description = Xtichup ri rutaqik tzij toq xtipitz' pa ruwi' ri '
 skip-submission-note = Ch'utitzijol: K'o chi nacha' Ch'owem o Ak'axanem richin najäl ri ruwäch ato'ik.
 off = Tichup
 on = Titzij
+other = Juley chik
