@@ -316,3 +316,9 @@ code-switching-tagging-error-3 = غلط آرتھوگرافی دہ لِکِیلہ
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = ہر جِبے کِرِیا صحیح آرتھوگرافی استعمال تِھیا
 code-switching-orthography-explanation = ہر لفظ کھاں جِبے نوْ اسہ سے ہجّو مطابق لِکِیا۔ مثالے شان گیْ:
+code-switching-orthography-explanation-example-1 = اگر لفظ ”باورچی خانے“ تلفظ ہسپانوی دہ بِینوْ، توْ اسہ انگرزی دہ لِکَن پکارن نہ "quichen" شان گیْ۔
+code-switching-orthography-explanation-example-2 = انگر زنگرزی دہ لفظ quinceaños بِلوْ توْ اسہ سے تلفظ ñ سے ساتیْ لِکِیا۔
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = جِبے تعین تھون دہ امدادے کِرِیا تلفظے استعمال تِھیا۔
+code-switching-pronunciation-explanation = کوئے الفاظی بیئے جِبو مجی ایْک شانِیؤ لیل بینَن مگر سیْݨے تلفظ مختلف بوبانوْ۔ صحیح طریقہ گیْ  ٹیگ تھون دہ امدادے کِرِیا تلفظ کوْݨ دِیا۔ مثال گیْ: کیبل، ٹیکو، اداکار، جاسوس۔
+code-switching-pronunciation-explanation-example-1 = انگریزی: /ˈkeɪ.bəl/
