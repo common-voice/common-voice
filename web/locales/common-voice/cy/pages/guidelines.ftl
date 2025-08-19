@@ -210,3 +210,26 @@ transcribe-the-audio-subheader-5-explanation-2 = Gall siaradwyr ddefnyddio ymadr
 review-the-transcription = Adolygu'r Trawsgrifiadau
 review-the-transcription-subheader = Arweiniad cyffredinol
 review-the-transcription-explanation-1 = Yn gyffredinol, rydym yn cynghori na ddylai'r person sy'n gwirio'r trawsgrifiad fod yr un person â'r trawsgrifiwr gwreiddiol. Mae'n anodd iawn gwirio'ch gwaith eich hun! Gall cael sawl trywydd adolygu helpu i wneud sicrwydd ansawdd yn fwy cadarn, a helpu i liniaru rhagfarnau a phroblemau.
+review-the-transcription-explanation-2 = Darllenwch y canllawiau trawsgrifio uchod er mwyn sicrhau bod trawsgrifiad yn gywir. Gallwch chi ddarparu golygiadau a'u cyflwyno.
+review-the-transcription-explanation-3 = Unwaith eto, gallwch dynnu sylw at gynnwys sy’n sarhaus, yn niweidiol neu fel arall yn peri pryder, a bydd yn cael ei ddileu o’ch profiad hyd nes y gall tîm Common Voice ei adolygu ac ymchwilio ymhellach.
+
+## Code-Switching
+
+code-switching = Cyfnewid Cod
+adding-a-question = Ychwanegu Cwestiwn
+# Adding a Question
+code-switching-adding-question-subheader = Beth sy'n gwneud cwestiwn da?
+code-switching-adding-question-explanation = Dylai cwestiwn da ar gyfer setiau data cyfranogiad y cyhoedd fod:
+code-switching-adding-question-criteria-1 = Yn hawdd i'w ddeall ac ymateb iddo
+code-switching-adding-question-criteria-2 = Yn berthnasol yn gyffredinol
+code-switching-adding-question-criteria-3 = Yn peidio â defnyddio, na cheisio, iaith niweidiol neu sarhaus
+code-switching-adding-question-note = Efallai yr hoffech chi hefyd ystyried cynnwys gwahanol gyd-destunau a pharthau.
+# What types of questions to add
+code-switching-types-subheader = Pa fathau o gwestiynau i'w hychwanegu?
+code-switching-use-bilingual-prompts-header = Defnyddiwch Anogwyr Dwyieithog
+code-switching-use-bilingual-prompts-explanation = Defnyddiwch anogwyr dwyieithog sy'n ymgorffori'r ddwy iaith yn eich cwestiwn: Enghraifft:
+code-switching-use-bilingual-prompts-explanation-example = “What did you tell mother pan gyrhaeddest ti adref y diwrnod hwnnw?”
+code-switching-ask-bilingual-contexts-header = Gofyn Am Gyd-destunau Dwyieithog
+code-switching-ask-bilingual-contexts-explanation = Defnyddio sefyllfaoedd lle mae’r ddwy iaith yn cael eu defnyddio’n gyffredin (e.e., cartref, ysgol, digwyddiadau cymunedol). Enghraifft:
+code-switching-ask-bilingual-contexts-explanation-example = “Pan fyddi di'n siarad â dy gefndryd, ydych chi'n cymysgu'r Gymraeg a'r Saesneg?”
+code-switching-focus-emotional-header = Canolbwyntiwch ar Ddigwyddiadau Emosiynol neu Gythryblus

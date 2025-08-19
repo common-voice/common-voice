@@ -331,3 +331,7 @@ code-switching-punctuation-tagging-header = ایلہ جِبے بنیادِجیْ
 code-switching-punctuation-tagging-explanation = کھبوتیْ طرفڑ ایلہ جِبے استعمال تھون دہ اوقاف ٹیگ تِھیا۔
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>ایْک چوْٹ تے</purple>ماریہ<purple>موْجیْ چیغہ دِیسیْ،اسہ سیْ</purple>porque</blue><purple> < سہ</purple> پرنٹیئر <blue>un</blue> <purple> آرڈر کرنے کی کوشش کر رہی تھی۔</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>مگر</purple> <blue> tú los puedes comprar rojo, negro, azul</blue>,<purple>جوک گہ،</purple>(BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = لیل بین کوجیْ ہوشیار بِیا
+code-switching-lookalikes-explanation = کوئے الفاظ ایْک جِبے ہا لیل بینَن مگر دوموگیْ جِب دہ استعمال بینَن۔ ٹیگ معنی آں استعمالے بنیادِجیْ، ظاہری شکلِجیْ نیں۔
