@@ -32,8 +32,11 @@ continue-with-skipped = 回顾跳过的项目
 question = 问题
 validate = 验证
 respond-to-prompt = 回答引导语
+respond-to-prompt-mobile = 回答
 transcribe = 转录
 check-transcriptions = 检查转录文本
+check-transcriptions-mobile = 审核
+tag = 标签
 
 ## Not Found Page
 

@@ -161,3 +161,16 @@ transcribe-the-audio-subheader-1-explanation-example-2 = چیغو واقعاتو
 transcribe-the-audio-subheader-1-explanation-example-3 = صوتی ڇھائے لیبل ݜیون کاتھ چہ بیک گراؤنڈ دہ لھارِیؤ ہارن گہ چیغہ
 transcribe-the-audio-subheader-1-explanation-example-4 = گرامرے تغیرات گہ موْݜ کال باکل آتھ ریکارڈ تھون پکارن کاتھ چہ بِینیْ۔ جگو تقریر سُونڇھرِیون یا ترمیم نہ تِھیا
 transcribe-the-audio-subheader-2-explanation-1 = اعداد گہ علامات یا خصوصی حرفو استعمالِجیْ الفاظو مجی ہجّائے تھون پکارن
+transcribe-the-audio-subheader-2-explanation-2 = مخففات آتھ لِکِیا کاتھ چہ عام شان گیْ جِب دہ لِکِجنَن، معیاری حروف تہجی اُصولِجیْ عمل تھے اسݨوْ صوتی شان گیْ نہ تھون پکارن
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> صحیح </correct> ادِیؤ شل میل دُرِن
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong> غلط </wrong> آ ادِیؤ شل میل دُورِن
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> صحیح </correct> څھو پشوݨ <underline> پنزیلے بِی </underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong> غلط </wrong> څھوْ پشوݨ <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct> صحیح </correct> بی فیصدے چُھوٹِس
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong> غلط </wrong> آسے 20 فیصدے رعایتِس
+transcribe-the-audio-subheader-2-example-4-correct = <correct> صحیح </correct> سیُݨو گرفتار تھیگہ <underline> ایف بی آئی </underline> لگِتھیْ پاشُنمبہ چھک
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong> غلط </wrong> سیݨو گرفتار تھیگاس <underline> اِیف مچِھیؤ اچھیئے </underline> گیئی پاشُمنبہ چھک
