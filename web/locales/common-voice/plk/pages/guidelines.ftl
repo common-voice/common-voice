@@ -270,3 +270,9 @@ code-switching-filler-explanation = الفاظ کاتھ چہ um"، "like"، "pue
 # Use standard spelling for each language
 code-switching-spelling-header = ہر جِبَے کِرِیا معیاری لہجہ استعمال تِھیا
 code-switching-spelling-explanation = ہر جِبَے الفاظو صحیح شان گیْ ہجائے تھونے کوشِش تِھیا، اسہ بُجَیش چہ موْݜ تِھیک سہ واضح شان گیْ غیر معیاری طریقہ گیْ اسہ سے تلفظ نہ تِھی۔
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = جِب صاف گہ ہسان نہ سنِیا
+code-switching-cleanup-1 = ترجمہ تِھیا یا بیان تِھیا۔ اسہ لِکِیا کھاں اسپیکری رجاؤ آ نیں چہ اسہ سے مطلب جوکِس۔
+code-switching-cleanup-2 = ”صحیح“ گرامر یا تلفظ ۔ اسپیکرے قدرتی موْݜ کال برقرار پھتِیا۔
+code-switching-cleanup-3 = ادا سوئچز پھتِیا کھاں معمولی یا لیکھہ لیل بینَن۔ ادی بُجَیش چہ قرضِیل الفاظ گہ اہم بینَن۔
+code-switching-cleanup-4 = اوقاف ٹل تِھیا کھاں گیْ معنی بدل بوبانَن ۔ قرتی بہاؤ قائم پھتِیا۔
