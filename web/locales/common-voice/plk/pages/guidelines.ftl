@@ -269,6 +269,7 @@ code-switching-answer-bullet-2 = تصور تِھیا چہ څھوْس کوئے د
 code-switching-answer-bullet-3 = ادا الفاظ استعمال تِھیا کھاں څھوْس اصل موْݜ کال  دہ استعمال تھینَت، اگرچہ قرضِیل بی یا ایْھترِیلوْ بی۔
 code-switching-answer-bullet-4 = جواب دونے جوک گہ ”کامل“ طریقہ نِش۔
 code-switching-authentic-header = قدرتی گہ مستند جواب دِیا۔
+code-switching-authentic-speak = <bold> دوستان یا خاندانے جگو سے څھوْس کاتھ موْݜ کال تھینَت </bold> اگر څھوْس حقیقی جودُن دہ جِبہ ایْکھترینَت توْ ادی گہ اسداتھ تِھیا۔۔
 code-switching-transcribe-do-1 = باریک سوئچز پِیونے کِرِیا لیکھہ لیکھہ حصائے سات سات چلِیا۔
 code-switching-transcribe-do-2 = سوئچز یا مخلوط الفاظو کِرِیا ست دُبار چیک تِھونے کِرِیا جملَو جیْ پتو ہِسار تِھیا۔
 # Capture Speech Exactly as Spoken
