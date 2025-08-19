@@ -33,6 +33,24 @@ Please do not combine sentences from multiple languages in a single bulk sentenc
 |   The cat was sitin on the windowsill.                                            |   Jane Doe (self)                                                                             |   My own submission, copyright waived                |                                                                       |                      |                                         |
 |   The 3 elephants were playing in the mud                                         |   John Doe (self)                                                                             |   My own submission, copyright waived                |                                                                       |                      |                                         |
 |                                                                                   |                                                                                               |                                                      |                                                                       |                      |                                         |
+
+### Valid domains
+
+```
+      ('general'),
+      ('agriculture'),
+      ('automotive'),
+      ('finance'),
+      ('food_service_retail'),
+      ('healthcare'),
+      ('history_law_government'),
+      ('media_entertainment'),
+      ('nature_environment'),
+      ('news_current_affairs'),
+      ('technology_robotics'),
+      ('language_fundamentals')
+```
+
 ## Uploading Your Bulk Sentences
 Please note that currently only **bulk upload files with 1000+ sentences will be processed** due to manual process done by the small team of the Common Voice.
 After logging on, select the Bulk Sentence Submission option from the left hand side of the [Sentence Collection](https://commonvoice.mozilla.org/write) page.
@@ -46,6 +64,7 @@ Now you can either drag and drop your TSV of bulk sentences into the shaded uplo
 ![BULK_SENTENCE_UPLOAD](https://github.com/common-voice/common-voice/assets/4729371/c2e6814e-f16f-4a2d-9305-db6339c29f2f)
 
 After dragging to upload your file, you'll be asked to check a box to confirm that these sentences are in the public domain. Check this box and press 'Submit' to send your bulk sentence upload to the Common Voice team for processing.
+
 
 ## After Submitting Your Bulk Sentences
 
