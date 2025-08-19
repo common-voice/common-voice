@@ -5,3 +5,7 @@ read-full-guidelines-here = <guidanceLink>مکمل راہنما خطوط ادی 
 ## Answer Page Guidelines
 
 cs-learn-how-to-use-answer-explanation = جِنیْ گیْ کچاک گہ بِی جواب دِیا، اگر قدرتی محسوس بی تو جِبو مجی کوڈ سوئچ تھونے کِرِیا آزاد محسوس تِھیا۔ یقینی سن ِیا چہ څھے جِب قابل احرام گہ ناگوار نانیْ۔
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = ٹرانسکرپشن دہ ہر لفظ یا غیر لغوی موْݜ کال گہ آواز گرفت دہ ہرون پکارن، کھاں منُوڙوئے رجاؤس، مذکور سے ساتیْ۔
