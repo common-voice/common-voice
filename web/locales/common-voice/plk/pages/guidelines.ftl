@@ -224,3 +224,6 @@ code-switching-use-bilingual-prompts-header = دو لسانی اشارائے ا�
 code-switching-use-bilingual-prompts-explanation = دو لسانی اشارایۓ ٹل تِھیا کھاں  گیْ څھے سوال گیْ  بیئی جِبہ ٹل بین
 code-switching-use-bilingual-prompts-explanation-example = ”¿اسہ چھک څھوْ گوݜٹھہ کرہ آلِیاسِت؟“
 code-switching-ask-bilingual-contexts-header = دو لسانی سیاق گہ سباقے بارَد کھوجِیا
+code-switching-ask-bilingual-contexts-explanation = ادا واقعات استعمال تِھیا کھاں بیئی جِبو مجی استعال بین (مثلا گوݜ، اسکول، کمیونٹی واقعات)
+code-switching-ask-bilingual-contexts-explanation-example = ”کھاں وخ دہ څھوْس توموْ پِچے پُڇ سے موْݜ تھینَت توْ څھوْس ہسپانوی گہ انگریزی ایْکھتِیارنَت یا؟"
+code-switching-focus-emotional-header = جذباتی گہ اُتھلہ اسٹیک لمحاتُحیْ توجہ دِیا۔
