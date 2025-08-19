@@ -322,3 +322,10 @@ code-switching-orthography-explanation-example-2 = انگر زنگرزی دہ ل
 code-switching-pronunciation-header = جِبے تعین تھون دہ امدادے کِرِیا تلفظے استعمال تِھیا۔
 code-switching-pronunciation-explanation = کوئے الفاظی بیئے جِبو مجی ایْک شانِیؤ لیل بینَن مگر سیْݨے تلفظ مختلف بوبانوْ۔ صحیح طریقہ گیْ  ٹیگ تھون دہ امدادے کِرِیا تلفظ کوْݨ دِیا۔ مثال گیْ: کیبل، ٹیکو، اداکار، جاسوس۔
 code-switching-pronunciation-explanation-example-1 = انگریزی: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = ہسپانوی: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = اکلوْ ٹوکن دہ ٹیگ تھون
+code-switching-single-token-explanation = ایْک واحد (اکلیْ) زائی جیْ جُدا تِھیلوْ ٹوکن دہ ایْکِجیْ بسکہ ٹیگ تھیلہ فاصلائے بون پکارن۔
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = ایلہ جِبے بنیادِجیْ ٹیگ گہ اوقاف
+code-switching-punctuation-tagging-explanation = کھبوتیْ طرفڑ ایلہ جِبے استعمال تھون دہ اوقاف ٹیگ تِھیا۔
