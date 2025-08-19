@@ -273,6 +273,11 @@ code-switching-answer-bullet-4 = جواب دونے جوک گہ ”کامل“ ط
 code-switching-authentic-header = قدرتی گہ مستند جواب دِیا۔
 code-switching-authentic-speak = <bold> دوستان یا خاندانے جگو سے څھوْس کاتھ موْݜ کال تھینَت </bold> اگر څھوْس حقیقی جودُن دہ جِبہ ایْکھترینَت توْ ادی گہ اسداتھ تِھیا۔۔
 code-switching-authentic-speak-example = ”موں سہ سڑ رجاس چہ موْں نہ بوجبامَس، مگر سہ آ تھاسیْ ”څھوْس مِݜٹیْ شان گیْ پسڑِیاǃ“
+code-switching-use-both-languages = <bold> بیئے جِبو استعمال تِھیا آگر څھوْس عام شان گیْ آتھ رزنَت</bold> ادی بُجَیش چہ صرف ایْک یا دُو لفظی تبدیل تھون مِݜٹہ بین۔
+code-switching-use-both-languages-example = ”سہ واقعی دہ جھلِی بِلِس، موں سہ سڑ واپس ہو نہ تھاسُن“۔
+code-switching-authentic-direct-quotes = <bold> براہ راست اقتباسات یا ڈائلاگ ٹل تِھیا۔</bold> بال کل اسہ رزہ کھاں جیئی رجاؤن آں نیں تومیْ طرفِجیْ صاف یا رسمی ورژن۔
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo، 'Tú crees que esto es un juego؟' آں آس دہ ادا سیْ، ٹھیکُن ڇھہُونوْǃ“
+code-switching-authentic-reflect = <bold>جذبات، شناخت گہ سیاق گہ سباقے عکاسی تِھیا۔</bold>سوئچنگ عام شان گیْ اسہ وخ دہ بِینیْ کرہ جک سہ جذبات، تادی یا تقافتی خیالاتو اظہار تھینَن آں سوالاتو جُواب دون دہ اسݨوڑ تصَور بِینیْ۔
 code-switching-transcribe-do-1 = باریک سوئچز پِیونے کِرِیا لیکھہ لیکھہ حصائے سات سات چلِیا۔
 code-switching-transcribe-do-2 = سوئچز یا مخلوط الفاظو کِرِیا ست دُبار چیک تِھونے کِرِیا جملَو جیْ پتو ہِسار تِھیا۔
 # Capture Speech Exactly as Spoken
