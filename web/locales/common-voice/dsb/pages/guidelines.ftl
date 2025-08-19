@@ -307,6 +307,7 @@ code-switching-cleanup-1 = Pśełožćo abo pśepišćo – pišćo, což powěd
 code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wugronjenje – wobchowajśo pśirodne wužyśe powědarja.
 code-switching-cleanup-3 = Změny pśeskócyś, kótarež se snadne abo małe zdaju – samo póžycone słowa su wažne.
 code-switching-cleanup-4 = Zasajźćo interpunkciju, kótaraž mógła wóznam změniś – źaržćo běg pśirodny.
+code-switching-cleanup-5 = Měniś, až rěc kuždego słowa znajośo – markěrujśo pó wužyśu.
 # Tagging
 code-switching-tagging-subheader = Markěrowanje
 code-switching-tagging-error-intro = Jolic transkripcija zmólku wopśimujo, wužywajśo pšosym pśizjawjeńsku funkciju, aby jen wóznamjenił. Móžne zmólki su:
@@ -316,6 +317,7 @@ code-switching-tagging-error-3 = Słowa z pšawopisnymi zmólkami
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny pšawopis za kuždu rěc wužywaś
 code-switching-orthography-explanation = Pišćo kužde słowo w pšawopisu rěcy, z kótarejež póchada. Na pśikład:
+code-switching-orthography-explanation-example-1 = Jolic se słowo „kitchen“ ako w špańšćinje wugranja, měło se ako w engelšćinje pisaś, nic ako „quichen“.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Wugronjenje za zwěsćenje rěcy wužywaś
 code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
