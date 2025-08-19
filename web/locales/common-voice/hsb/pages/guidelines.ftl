@@ -358,4 +358,4 @@ code-switching-not-tag-interjections-example-4 = „Hm“
 reporting-content = Wobsah zdźělić
 reporting-content-subheader = Powšitkowne pokazki
 reporting-content-explanation-1 = Dyrbiće wobsah markěrować, kotryž je křiwdźacy, škódny abo hewak někak trašacy. Njesmě tež  wosobinske informacije kaž na přikład telefonowe čisła abo adresy wobsahować. Wotstroni so z wašeho pola widźenja, doniž team Common Voice njemóže jón přepruwować a přepytować.
-reporting-content-explanation-2 = Zo byšće wobsah zdźělić, wubjerće tłóčatko „Zdźělić“ a potom jedne nastajenje abo wšě nastajenja: Křiwdźacy wobsah, Druha rěč, Informacije, kotrež wosoby identifikuja, Druhe. Podajće wottud dalše podrobnosće wo tym, čehodla wobsah w tekstowym polu zdźěleće. Klikńće potom a tłóčatko Zdźělić, zo byšće rozprawu wotpósłał.
+reporting-content-explanation-2 = Zo byšće wobsah zdźělił, wubjerće tłóčatko „Zdźělić“ a potom jedne nastajenje abo wšě nastajenja: Křiwdźacy wobsah, Druha rěč, Informacije, kotrež wosoby identifikuja, Druhe. Podajće wottud dalše podrobnosće wo tym, čehodla wobsah w tekstowym polu zdźěleće. Klikńće potom a tłóčatko Zdźělić, zo byšće rozprawu wotpósłał.

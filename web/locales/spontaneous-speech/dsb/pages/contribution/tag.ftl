@@ -14,6 +14,7 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 remove-tags = Wobznamjenja wótwónoźeś
 tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = Popover pśešaltowaś
 tag-page-shortcut-tag-undo = Strg / CMD + Z
 undo = Anulěrowaś
 tag-page-shortcut-select-all = A

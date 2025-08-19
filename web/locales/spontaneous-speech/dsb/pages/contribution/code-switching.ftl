@@ -38,6 +38,10 @@ cs-tag-dataset-name = Datowa sajźba: [{ $datasetName }]
 learn-how-to-use = Zgóńśo, kak móžośo toś ten bok wužywaś
 read-full-guidelines-here = <guidanceLink>Cytajśo how dopołne směrnice</guidanceLink>
 
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Wótegrońśo na naspominanje tak pśirodnje ako móžośo,  móžośo teke rěcy wuměniś, jolic se pśirodne zda. Zawěsććo, až waša rěc jo respektna a pśistojna.
+
 ## Review Page Guidelines
 
 cs-learn-how-to-use-check-transcript-explanation = Transkripcija měła kužde słowo abo njeleksikaliski rozgronowy zuk zapśimjeś, kótarež jo wósoba groniła, inkluziwnje wóspjetowanja.

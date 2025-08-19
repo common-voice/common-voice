@@ -358,3 +358,4 @@ code-switching-not-tag-interjections-example-4 = „Hm“
 reporting-content = Wopśimjeśe k wěsći daś
 reporting-content-subheader = Powšykne pokazki
 reporting-content-explanation-1 = Musyśo wopśimjeśe markěrowaś, kótarež jo kśiwźece, škódne abo howac někak tšachotne. Njesmějo teke  wósobinske informacije ako na pśikład telefonowe numery abo adrese wopśimowaś. Wótonoźijo se z wašogo póla wiźenja, daniž team Common Voice njamóžo jo pśeglědowaś a pśepytowaś.
+reporting-content-explanation-2 = Aby wopśimjeśe k wěsći dał, wubjeŕśo tłocašk „K wěsći daś“ a pón jadno nastajenje abo wšykne nastajenja: Kśiwźece wopśimjeśe, Druga rěc, Informacije, kótarež wósoby identificěruju, Druge. Pódajśo wót how dalšne drobnostki wó tom, cogodla wopśimjeśe w tekstowem pólu k wěsći dajośo. Klikniśo pón a tłocašk K wěsći daś, aby rozpšawu wótpósłał.
