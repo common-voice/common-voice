@@ -335,3 +335,12 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>مگر</purpl
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = لیل بین کوجیْ ہوشیار بِیا
 code-switching-lookalikes-explanation = کوئے الفاظ ایْک جِبے ہا لیل بینَن مگر دوموگیْ جِب دہ استعمال بینَن۔ ٹیگ معنی آں استعمالے بنیادِجیْ، ظاہری شکلِجیْ نیں۔
+code-switching-lookalikes-explanation-example-1 = "فوٹنگ"  اےْ مطلب ہسپانوی دہ ہت تھونے نیْ > ہسپانوی اےْ بطور ٹیگ
+code-switching-lookalikes-explanation-example-2 = ”جوک گہ مسئلہ نِش“ انگرزی دہ استعمال بِینیْ> انگرزی دہ بطور ٹیگ
+# When Not to Tag Words
+code-switching-not-tag-header = کرہ الفاظ ٹیگ نہ تھونان
+code-switching-not-tag-explanation = کوئے الفاظ جِبے لیبل سے ساتیْ<bold>ٹیگ نہ تھون پکارن</bold>اگرچہ اسہ ایُک شانیو یا موافق لیل بین۔ ادی  استعمال تھونے کوئے طریقائے:
+code-switching-not-tag-proper-names = <bold>مناسب نُوم،</bold>جگو نُومیْ</bold>، زیئے آں آرگنائزیشنو نُومیْ ٹیگ نہ تھون پکارن۔ مثال:
+code-switching-not-tag-proper-names-example-1 = جک: ماریہ، جون
+code-switching-not-tag-proper-names-example-2 = زائی: لاس اینجلس، فلوریڈا
+code-switching-not-tag-proper-names-example-3 = برینڈ/آرگنائزیشن: Target, Burger King
