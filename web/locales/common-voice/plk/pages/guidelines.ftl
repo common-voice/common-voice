@@ -235,3 +235,23 @@ code-switching-informal-scenarios-explanation = دوستانو سے موْݜ ک�
 code-switching-informal-scenarios-explanation-example = ”څھے دوستان سہ ہمشہ جو مذاق تھینَن۔ آں — سیْس اسہ  سےکاتھ  اظہار تھینَن“
 # What to Avoid
 code-switching-avoid-subheader = جوکِجیْ رڇھون پکارن
+code-switching-avoid-intro = سوالات کھاں بوبانَن:
+code-switching-avoid-1 = ذاتی شان گیْ قابل شناخت معلومات طلب تِھیا
+code-switching-avoid-2 = نفرت انگیز تقریر یا مُتیْ متعصبانہ یا جارحانہ جذباتو درخواست تِھیا۔
+code-switching-avoid-3 = جیئڑ حساس، ممکنہ شان گیْ متحرک تھونے ردعملے اشتراک تھونے وجہ پشِیا
+code-switching-dont-header = نہ تِھیا
+code-switching-dont-1 = لئی رسمی جِب استعمال نہ تِھیا
+# Reviewing a Question
+code-switching-review-subheader = سوالے جائزہ ہر
+code-switching-review-intro = آ یقین تِھیا چہ سوال معیارِڑ اُڇھا:
+code-switching-review-criterion-1 = لڇھون گہ جواب دون دہ ہسان سنِجہ
+code-switching-review-criterion-2 = عام شان گیْ متعلقہ بِیا
+code-switching-review-criterion-3 = نوخصانی یا جارحانہ جِب استعمال نہ تِھیا یا درخواست نہ تِھیا
+code-switching-review-does-not-header = آں <bold>DOES NOT</bold> دہ شاملَن
+code-switching-review-offensive-content = <bold>جارحانہ مواد یا حساس معلومات</bold>
+code-switching-answer-header = ناگوارمواد یا حساس معلومات
+code-switching-review-no-1 = سوالات کھاں ذاتی شان گیْ شناخے قابل معلومات طلب تھوبانَن۔
+code-switching-review-no-2 = ادا سوالات کھاں سہ نفرت انگیز تقریر یا مُتہ متعصبانہ یا جارحانہ جذبات پائدا تھوبانَن۔
+code-switching-review-no-3 = سوالات کھاں جیئر حساس، ممکنہ شان گیْ متحرک جواباتو اشتراک تھونے سوبب بوبانَن۔
+# Answering a Question
+code-switching-answer-subheader = سوالے جواب دِون
