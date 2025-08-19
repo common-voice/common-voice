@@ -187,6 +187,9 @@ tags-disfluency = Anrhuglder
 tags-unclear = Aneglur
 tags-noise = Sŵn
 tags-laugh-explanation = Sŵn chwerthin.
+tags-disfluency-explanation =
+    Gair neu sŵn llenwi sy'n cael ei ddefnyddio fel dalfan wrth i siaradwr feddwl beth i'w ddweud.
+    Yn Gymraeg, rhai synau oedi cyffredin yw “yyy”, “ym”, “mmm”, ac yn y blaen.
 tags-unclear-explanation = Gair neu ddilyniant o eiriau nad oes modd eu deall.
 tags-noise-explanation =
     Unrhyw fath arall o sŵn, fel y siaradwr yn pesychu neu'n clirio ei wddf,
@@ -195,3 +198,15 @@ tags-noise-explanation =
 special-tags-example-2 =
     Ac yna es i [sŵn] ar wyliau.
     Wel, [sŵn] [chwerthin] doedd e ddim yn wyliau go iawn [chwerthin]
+transcribe-the-audio-subheader-4-explanation-1 = Yn naturiol, mae Llefaru Rhydd yn cynnwys dechreuadau ffug a dim ond darn o air llawn sy'n cael ei gynhyrchu. Ar gyfer yr achosion hyn, trosysgrifwch hyd eithaf eich gallu'r darn gair ac atodi cysylltnod ar ddiwedd y gair (-) i ddangos mai cychwyn ffug yw'r gair. Enghraifft:
+transcribe-the-audio-subheader-4-explanation-1-example = Ei enw yw <tanlinellu>Jo-Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Weithiau bydd siaradwyr yn ailadrodd gair neu ddarn gair sawl gwaith. Mae angen trawsgrifio hwn hefyd. Enghraifft:
+transcribe-the-audio-subheader-4-explanation-2-example = Ac yna es i i <tanlinellu>y y llofft- y</underline> llofft
+transcribe-the-audio-subheader-5-explanation-1 = Bydd Llefaru Rhydd yn naturiol yn cynnwys camgymeriadau gramadegol. Peidiwch gywiro'r rhain wrth drawsgrifio. Dylai'r trawsgrifiad adlewyrchu'r cynnwys llafar yn union fel y mae.
+transcribe-the-audio-subheader-5-explanation-2 = Gall siaradwyr ddefnyddio ymadroddion llafar (fel, yn Gymraeg, “ella”, “achos”, ac ati) sydd ddim o bosib yn cael eu hystyried yn ffurfiol gywir. Dylid trawsgrifio'r rhain fel ag y maent, ac ni ddylid eu newid i'w cyfatebiaethau mwy ffurfiol.
+
+## Review the Transcription
+
+review-the-transcription = Adolygu'r Trawsgrifiadau
+review-the-transcription-subheader = Arweiniad cyffredinol
+review-the-transcription-explanation-1 = Yn gyffredinol, rydym yn cynghori na ddylai'r person sy'n gwirio'r trawsgrifiad fod yr un person â'r trawsgrifiwr gwreiddiol. Mae'n anodd iawn gwirio'ch gwaith eich hun! Gall cael sawl trywydd adolygu helpu i wneud sicrwydd ansawdd yn fwy cadarn, a helpu i liniaru rhagfarnau a phroblemau.
