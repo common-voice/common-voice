@@ -218,3 +218,6 @@ code-switching-use-bilingual-prompts-explanation-example = “你最近做过什
 code-switching-ask-bilingual-contexts-explanation-example = “你在和弟弟说话时会夹杂英语吗？”
 code-switching-cultural-topics-header = 选择有关具体文化的话题
 code-switching-cultural-topics-explanation-example = “你会怎样跟只懂中文的人介绍 Halloween？”
+code-switching-tagging-error-intro = 如果转录文本中存在错误，请使用反馈功能进行标记。可能的错误包括：
+code-switching-pronunciation-explanation-example-1 = 汉语：sī
+code-switching-pronunciation-explanation-example-2 = 日语：watashi
