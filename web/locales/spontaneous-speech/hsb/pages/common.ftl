@@ -62,6 +62,7 @@ snv = Sa'ban
 xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay
+el-CY = Cypernska grjekšćina
 
 ## Language search component
 
