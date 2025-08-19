@@ -62,6 +62,7 @@ snv = سابن
 xkl = کینیا
 # Locales-Variants
 ms-MY = بہاسا مالائی
+el-CY = قبرصی یونانی۔
 
 ## Language search component
 
