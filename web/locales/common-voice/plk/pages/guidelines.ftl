@@ -227,3 +227,11 @@ code-switching-ask-bilingual-contexts-header = دو لسانی سیاق گہ س�
 code-switching-ask-bilingual-contexts-explanation = ادا واقعات استعمال تِھیا کھاں بیئی جِبو مجی استعال بین (مثلا گوݜ، اسکول، کمیونٹی واقعات)
 code-switching-ask-bilingual-contexts-explanation-example = ”کھاں وخ دہ څھوْس توموْ پِچے پُڇ سے موْݜ تھینَت توْ څھوْس ہسپانوی گہ انگریزی ایْکھتِیارنَت یا؟"
 code-switching-focus-emotional-header = جذباتی گہ اُتھلہ اسٹیک لمحاتُحیْ توجہ دِیا۔
+code-switching-focus-emotional-explanation = جذبات یا تادی اظہار تھون دہ جک سہ اخسرکوڈ سوئچ تھینَن۔
+code-switching-focus-emotional-explanation-example = ”موْڑ رزہ چہ کھاں وخ دہ څھا سیْݨور تومیْ بڑیْ خبر ݜُݨریت توْ څھے والدینُجیْ جو رجیگہ۔ بالکل سیْݨا آ کاتھ رجیگہ“۔
+code-switching-cultural-topics-explanation-example = ”څھوْسDía de los Muertos کوئے ادو منُوڙوْ سے کاتھ بیان تھینَت کھاں سہ صرف انگریزی لڇِینوْ؟“
+code-switching-informal-scenarios-header = غیر رسمی منظرنامائے معلوم تِھیا
+code-switching-informal-scenarios-explanation = دوستانو سے موْݜ کال یا ٹیکسٹنگ دہ اخسرقدرتی سوئچنگ تل بِینیْ۔
+code-switching-informal-scenarios-explanation-example = ”څھے دوستان سہ ہمشہ جو مذاق تھینَن۔ آں — سیْس اسہ  سےکاتھ  اظہار تھینَن“
+# What to Avoid
+code-switching-avoid-subheader = جوکِجیْ رڇھون پکارن
