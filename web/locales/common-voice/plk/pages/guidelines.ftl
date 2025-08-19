@@ -197,3 +197,10 @@ transcribe-the-audio-subheader-4-explanation-1 = بے ساختہ تقریر فط
 transcribe-the-audio-subheader-4-explanation-1-example = یْہ سے نُومُن <underline> جو۔جونا۔ </underline> جوناتھن
 transcribe-the-audio-subheader-4-explanation-2 = کوئے وخ دہ مقررین سہ ایْک لفظ یا لفظے ٹکڑا لئی چوْٹ مرک تُھوِیی، اسَس گہ نقل تِھیا
 transcribe-the-audio-subheader-4-explanation-2-example = آں تھے موْں گِیاس <underline> تے تے تے کھچٹیْ۔تے</underline> نیڙے کمرہ
+transcribe-the-audio-subheader-5-explanation-1 = بے ساختہ تقریر دہ قدرتی شان گیْ گرامتے غلطی بُوِیی، نقل تھون دہ اسہ سُونڇِھیارہ نیں۔ نقل دہ رزِیلوْ موادے بالکل عکاسی بون پکارن۔
+transcribe-the-audio-subheader-5-explanation-2 = موْݜ کال تِھیک سہ بول چالے استعمال تھوبانوْ (کاتھ چہ انگرزی دہ  "gonna"، "cuz" وغیرہ) کھاں رسمی شان گیْ صحیح نہ کلینَن۔ آئیݨو آتھ نقل تھون پکار کاتھ چہ اسہ ہنہ، آں آئے رسمی  شان گیْ بسکہ تبدیل نہ بون پکان۔
+
+## Review the Transcription
+
+review-the-transcription = ٹرانسکرپشنے جائزہ ہر
+review-the-transcription-explanation-1 = عام شان گیْ بیْس مشورہ دوݨَس چہ نقلے جائزہ ہریک اج اسہ منُوڙوْ بون پکارُن کھاں سیْ اصل نقل تھاؤس۔ توموْ کوْمے جائزہ ہرون لئی گرانِن۔  عبارت دہ بسکی کِھڇِھؤ جإزہ ہرون گیْ معیار دہ مِݜٹِیار گہ سُونڇِھیار دہ مدد ہشِینیْ، آ گیْ تعصبات گہ مسائل کم تھون دہ مدد ہشِینیْ۔
