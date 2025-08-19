@@ -329,3 +329,5 @@ code-switching-single-token-explanation = ایْک واحد (اکلیْ) زائ�
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = ایلہ جِبے بنیادِجیْ ٹیگ گہ اوقاف
 code-switching-punctuation-tagging-explanation = کھبوتیْ طرفڑ ایلہ جِبے استعمال تھون دہ اوقاف ٹیگ تِھیا۔
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>ایْک چوْٹ تے</purple>ماریہ<purple>موْجیْ چیغہ دِیسیْ،اسہ سیْ</purple>porque</blue><purple> < سہ</purple> پرنٹیئر <blue>un</blue> <purple> آرڈر کرنے کی کوشش کر رہی تھی۔</purple> (BangorTalk)
