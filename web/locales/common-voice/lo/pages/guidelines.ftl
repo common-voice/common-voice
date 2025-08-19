@@ -139,3 +139,7 @@ offensive-content-sensitive-information-explanation-explanation-3 = ຄຳຖາ
 example-questions-subheader = ຕົວຢ່າງຄໍາຖາມ
 example-questions-explanation-1 = ທ່ານສາມາດຄົ້ນຫາ <examplePromptsLink>120 ຕົວຢ່າງ prompts ໃນຊີດນີ້.</examplePromptsLink>
 example-questions-explanation-2 = ຖ້າ​ຫາກ​ວ່າ​ທ່ານ​ຕ້ອງ​ການ​ທີ່​ຈະ​ສົ່ງ​ຄໍາ​ຖາມ​ສໍາ​ລັບ​ການ​ນໍາ​ເຂົ້າ​, ທ່ານ <githubLink​> ສາ​ມາດ​ເຮັດ​ໄດ້​ຜ່ານ GitHub ຂອງ​ພວກ​ເຮົາ</githubLink​> ຫຼື ​ອີ​ເມ​ຂອງ​ບັນ​ຊີ​ຂອງ​ທ່ານ​ທີ່​ຈະ <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+transcribe-the-audio-subheader-3 = Tags ພິເສດ

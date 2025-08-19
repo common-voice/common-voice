@@ -136,3 +136,8 @@ offensive-content-sensitive-information-explanation-explanation-3 = سوالات
 example-questions-subheader = مثالے شان گیْ
 example-questions-explanation-1 = څھوْس لہابانَت <examplePromptsLink>  مثالے شان گیْ آ شیٹے طرفڑ اشرت تِھینوْ </examplePromptsLink>
 example-questions-explanation-2 = اگر څھوْس ادخالے کِرِیا سوالاتو ایْک قسط جمع تھون لُکھینَت توْ څھوْ <githubLink> گٹ ہبے ذریعے گیْ آ تِھیا</githubLink> یا تومیْ لسٹ ای میل تِھیا commonvoice@mozilla.com
+
+## Spontaneous Speech sidebar content
+
+answer-questions-subheader = عام ہدایات
+answer-questions-explanation-1 = پرامٹے کِرِیا ایْک ساتے کِرِیا سوچ تِھیا، آ موْڙِیْ غور تِھیا چہ څھوْس کھاں قِسمے موْݜ تھون لُکھینَت۔ اکو لو بسکوْ اسکرپٹ نہ تِھیا۔ ریکارڈ آئیکان جیْ کلک تِھیا۔ ایْک چوْٹ ریکارڈ تھیت توْ څھوْس اکے ݜُݨباتَن۔، ست دُبار ریکارڈ تھوبانَت، حذف یا جمع گہ تھوبانَت۔
