@@ -1,18 +1,18 @@
-import { Localized, withLocalization } from '@fluent/react';
-import * as React from 'react';
-import { useState } from 'react';
-import { CustomGoal, CustomGoalParams } from 'common';
-import { UserClient } from 'common';
-import URLS from '../../../../urls';
-import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks';
-import { useRouter } from '../../../../hooks/use-router';
-import { getManageSubscriptionURL } from '../../../../utility';
+import { Localized, withLocalization } from '@fluent/react'
+import * as React from 'react'
+import { useState } from 'react'
+import { CustomGoal, CustomGoalParams } from 'common'
+import { UserClient } from 'common'
+import URLS from '../../../../urls'
+import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks'
+import { useRouter } from '../../../../hooks/use-router'
+import { getManageSubscriptionURL } from '../../../../utility'
 import {
   LocaleLink,
   useLocale,
   useContributableLocales,
-} from '../../../locale-helpers';
-import ShareModal from '../../../share-modal/share-modal';
+} from '../../../locale-helpers'
+import ShareModal from '../../../share-modal/share-modal'
 import {
   ArrowLeft,
   CheckIcon,
@@ -20,37 +20,37 @@ import {
   PenIcon,
   SettingsIcon,
   ShareIcon,
-} from '../../../ui/icons';
-import { Button, LabeledSelect, LinkButton } from '../../../ui/ui';
-import { CircleProgress, Fraction } from '../ui';
+} from '../../../ui/icons'
+import { Button, LabeledSelect, LinkButton } from '../../../ui/ui'
+import { CircleProgress, Fraction } from '../ui'
 
 const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
   <div className="buttons padded" {...props}>
     {children}
     <div className="filler" />
   </div>
-);
+)
 
 const ArrowButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <button className="arrow-button" type={'button' as any} {...props}>
     <ArrowLeft />
   </button>
-);
+)
 
 const CloseButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <button type={'button' as any} className="close-button" {...props}>
     <CrossIcon />
   </button>
-);
+)
 
 export const ViewGoal = ({
   locale,
   onNext,
   customGoal: { amount, current, days_interval },
 }: {
-  locale: string;
-  onNext: () => any;
-  customGoal: CustomGoal;
+  locale: string
+  onNext: () => any
+  customGoal: CustomGoal
 }) => (
   <div className="padded view-goal">
     <div className="top">
@@ -60,7 +60,7 @@ export const ViewGoal = ({
       </button>
     </div>
     {Object.keys(current).map(key => {
-      const value = (current as any)[key];
+      const value = (current as any)[key]
       return (
         <div key={key} className={'goal-box ' + key}>
           <Fraction numerator={value} denominator={amount} />
@@ -80,36 +80,36 @@ export const ViewGoal = ({
             {key[0].toUpperCase() + key.slice(1)}
           </LinkButton>
         </div>
-      );
+      )
     })}
   </div>
-);
+)
 
 interface CustomGoalStepProps {
-  dashboardLocale: string;
+  dashboardLocale: string
 
-  completedFields: React.ReactNode;
-  currentFields: React.ReactNode;
+  completedFields: React.ReactNode
+  currentFields: React.ReactNode
 
-  closeButtonProps: React.HTMLProps<HTMLButtonElement>;
-  nextButtonProps: React.HTMLProps<HTMLButtonElement>;
+  closeButtonProps: React.HTMLProps<HTMLButtonElement>
+  nextButtonProps: React.HTMLProps<HTMLButtonElement>
 
-  state: CustomGoalParams;
+  state: CustomGoalParams
 
-  subscribed: boolean;
-  setSubscribed: (subscribed: boolean) => void;
+  subscribed: boolean
+  setSubscribed: (subscribed: boolean) => void
 }
 
 interface AccountProps {
-  account: UserClient;
+  account: UserClient
 }
 
 export default [
   withLocalization(({ getString, dashboardLocale, nextButtonProps }: any) => {
-    const contributableLocales = useContributableLocales();
-    const { history } = useRouter();
-    const [, toLocaleRoute] = useLocale();
-    const [locale, setLocale] = useState('');
+    const contributableLocales = useContributableLocales()
+    const { history } = useRouter()
+    const [, toLocaleRoute] = useLocale()
+    const [locale, setLocale] = useState('')
     return (
       <>
         <div className="text">
@@ -124,7 +124,9 @@ export default [
             }
             vars={{
               hours: 10000,
-              language: getString(dashboardLocale),
+              language: dashboardLocale
+                ? getString(dashboardLocale)
+                : dashboardLocale,
             }}>
             <span className="sub-head" />
           </Localized>
@@ -144,7 +146,7 @@ export default [
                 onChange={(event: any) => setLocale(event.target.value)}>
                 <option key="empty" value="" />
                 {contributableLocales.map(l => (
-                  <Localized id={l}>
+                  <Localized id={l} key={'l10n_' + l}>
                     <option key={l} value={l} />
                   </Localized>
                 ))}
@@ -167,13 +169,13 @@ export default [
                       toLocaleRoute(
                         URLS.DASHBOARD + '/' + locale + URLS.GOALS + '?start'
                       )
-                    );
+                    )
                   }
             }
           />
         </Localized>
       </>
-    );
+    )
   }),
 
   ({ closeButtonProps, currentFields, nextButtonProps }) => (
@@ -249,9 +251,9 @@ export default [
     subscribed,
     setSubscribed,
   }: CustomGoalStepProps & AccountProps) => {
-    const account = useAccount();
-    const [privacyAgreed, setPrivacyAgreed] = useState(false);
-    const isSubscribed = useIsSubscribed();
+    const account = useAccount()
+    const [privacyAgreed, setPrivacyAgreed] = useState(false)
+    const isSubscribed = useIsSubscribed()
 
     return (
       <div className="padded">
@@ -327,12 +329,12 @@ export default [
           </Button>
         </Buttons>
       </div>
-    );
+    )
   },
 
   withLocalization(({ getString, nextButtonProps, state }: any) => {
-    const [showShareModal, setShowShareModal] = useState(false);
-    const isWeekly = state.daysInterval == 7;
+    const [showShareModal, setShowShareModal] = useState(false)
+    const isWeekly = state.daysInterval == 7
     return (
       <div className="padded">
         {showShareModal && (
@@ -349,10 +351,10 @@ export default [
             )}
             shareTextId="goal-share-text"
             onRequestClose={() => {
-              setShowShareModal(false);
-              const { onClick } = nextButtonProps as any;
+              setShowShareModal(false)
+              const { onClick } = nextButtonProps as any
               if (onClick) {
-                onClick();
+                onClick()
               }
             }}
           />
@@ -384,6 +386,6 @@ export default [
         </Button>
         <CloseButton {...nextButtonProps} />
       </div>
-    );
+    )
   }),
-] as React.ComponentType<CustomGoalStepProps>[];
+] as React.ComponentType<CustomGoalStepProps>[]
