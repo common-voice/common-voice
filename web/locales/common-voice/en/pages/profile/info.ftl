@@ -29,14 +29,7 @@ native-language =
 profile-form-add-accent = Add new custom accent "{ $inputValue }"
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
-male_masculine = Male/Masculine
-female_feminine = Female/Feminine
-intersex = Intersex
-transgender = Transgender
-non-binary = Non-binary
-do_not_wish_to_say = Don't wish to say
-# Gender
-other = Other
+
 why-profile-title = Why a profile?
 why-profile-text =
     By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
@@ -115,3 +108,23 @@ delete-api-key-success-toast-message = API credential deleted successfully
 add-api-key-name-error = Add an API credential name
 max-api-keys-reached = Exceeded API credentials limit of 10
 duplicate-api-key-name-error = Duplicate API key name
+
+# Genders
+male_masculine = Male/Masculine
+female_feminine = Female/Feminine
+intersex = Intersex
+transgender = Transgender
+non-binary = Non-binary
+do_not_wish_to_say = Don't wish to say
+other = Other
+
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99
