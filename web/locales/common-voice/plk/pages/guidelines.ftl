@@ -189,3 +189,11 @@ tags-unclear-explanation = ادو لفظ یا لفظے ترتیب چہ کھاں 
 tags-noise-explanation =
     مُتیْ قِسمے چیغہ، کاتھ اسپیکر سہ کُھو تِھی یا ݜوٹوْ تازہ تِھی
     موٹرے ہارن دون، مائیکروفون سے جو چوْٹ دِجونے آواز، ٹیلی فون بشجون
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    آں تھے چیغہ بڑِتھیْ
+    مِںٹِنیْ، [شور] [ہازیْ] آ بالکل نہ بڑِیتِھن [ہازی]
+transcribe-the-audio-subheader-4-explanation-1 = بے ساختہ تقریر فطری شان گیْ غلط آغازِجیْ مشتمل بِینیْ کُدی ایْک مکمل لفظے صرف ایْک پُھسرو سنیجانوْ۔ آ سے کِرِیا تومیْ مِݜٹیْ صلاحیتے مطابق لفظے پُھسرو نقل تِھیا آں لفظے آخر دہ ایْک ہائفن (۔) ایْکھتِیارہ توْ آ معلوم بِی چہ آ لفظے آغاز غلط بِلِن۔
+transcribe-the-audio-subheader-4-explanation-1-example = یْہ سے نُومُن <underline> جو۔جونا۔ </underline> جوناتھن
+transcribe-the-audio-subheader-4-explanation-2 = کوئے وخ دہ مقررین سہ ایْک لفظ یا لفظے ٹکڑا لئی چوْٹ مرک تُھوِیی، اسَس گہ نقل تِھیا
+transcribe-the-audio-subheader-4-explanation-2-example = آں تھے موْں گِیاس <underline> تے تے تے کھچٹیْ۔تے</underline> نیڙے کمرہ
