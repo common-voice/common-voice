@@ -344,3 +344,14 @@ code-switching-not-tag-proper-names = <bold>مناسب نُوم،</bold>جگو �
 code-switching-not-tag-proper-names-example-1 = جک: ماریہ، جون
 code-switching-not-tag-proper-names-example-2 = زائی: لاس اینجلس، فلوریڈا
 code-switching-not-tag-proper-names-example-3 = برینڈ/آرگنائزیشن: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>مکسڈ یا مورفولوجیکل شان گیْ موافقت پزیر الفاظ</bold>ادا الفاظیْ ٹیگ نہ تِھیا کھاں سہ جِبہ ایْکھتِیارن یا کوئے مُتیْ جِبو اختتام شامل تھین۔ مثال:
+code-switching-not-tag-mixed-words-example = کُدِی گُوٹ انگرزِی بِی آں لاحقہ ہسپانوی بی: "parkear"، "printearlo"
+code-switching-not-tag-interjections = <bold>انٹرجیکشنز۔</bold> انٹرجیکشنز آں فلر الفاظ، زبان جی قطع نظر، <bold>غیر ٹیگ بون پکارن۔</bold> مثال:
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “No”
+code-switching-not-tag-interjections-example-3 = “Yeah”
+code-switching-not-tag-interjections-example-4 = “Er”
+
+## Reporting Content
+
+reporting-content = رپورٹنگ مواد

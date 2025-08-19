@@ -248,3 +248,14 @@ code-switching-informal-scenarios-explanation-example = “Pa jôcs mae dy ffrin
 code-switching-avoid-subheader = Beth i'w Hosgoi
 code-switching-avoid-intro = Cwestiynau allai:
 code-switching-avoid-1 = Ddenu gwybodaeth bersonol adnabyddadwy
+code-switching-avoid-2 = Ddenu datganiadau casineb neu deimladau rhagfarnllyd neu dramgwyddus eraill
+code-switching-avoid-3 = Achosi rhywun i rannu ymatebion sensitif, a allai achosi adweithiau
+code-switching-dont-header = Peidiwch
+code-switching-dont-1 = Peidiwch â defnyddio iaith rhy ffurfiol
+# Reviewing a Question
+code-switching-review-subheader = Adolygu Cwestiynau
+code-switching-review-intro = Gwnewch yn siŵr fod y cwestiwn yn bodloni’r meini prawf:
+code-switching-review-criterion-1 = Bod yn hawdd i'w ddeall ac ymateb iddo
+code-switching-review-criterion-2 = Bod yn berthnasol yn gyffredinol
+code-switching-cleanup-3 = Hepgor cyfnewid sy'n ymddangos yn fân neu'n fach - mae hyd yn oed geiriau benthyg yn bwysig.
+code-switching-cleanup-4 = Mewnosod atalnodi sy'n gallu newid yr ystyr – cadwch y llif yn naturiol.
