@@ -1,3 +1,6 @@
+# Age and Gender form
+age-gender-form-title = Dankon pro kontribuo al Spontanea Parolado!
+age-gender-form-subtile = Rakontante al ni pri vi mem, vi helpos programistojn konstrui pli inkluzivan teknologion.
 add-information-button = Aldoni informojn
 continue-speaking-button = Daŭrigi paroli
 age-select-label = Kiu estas via aĝo?
