@@ -111,3 +111,13 @@ transgender = Transkjønnet
 non-binary = Ikke-binær
 do_not_wish_to_say = Ønsker ikke å si
 other = Annet
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99
