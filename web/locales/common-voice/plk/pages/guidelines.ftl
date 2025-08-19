@@ -284,6 +284,11 @@ code-switching-answer-dont-subheader = لئی سوچ نہ تِھیا نیں لئ
 code-switching-answer-dont-correct-language = <bold> تومیْ جِب ”صحیح“ تِھیا۔</bold> آ ٹیسٹ نانیْ۔ ادی ”مناسب“ شکل گیْ جو فرق نہ بِینوْ، قدرتی جِبِجیْ فرق بِینوْ۔
 code-switching-answer-dont-avoid-switching = <bold> اگر څھوْس عام شان گیْ آتھ تھینَت توْ تے سوئج تھونِجیْ گریز تِھیا</bold> جملائے ہوریْ دہ، یا صرف ایْک لفظے کِرِیا تبدیل تھون صحیح نیْ۔
 code-switching-answer-dont-formal-writing = <bold>آتھہ موْݜ تِھیا کاتھ څھوْس رسمی شان گیْ لِکینَت۔</bold> رسمی گہ تعلیمی جوابوجیْ گریز تِھیا۔
+code-switching-answer-dont-force-switch = <bold>زورو سوئچنگ تِھیا اگر آ قدرتی نانیْ تو۔</bold> صرف اسہ صورت دہ سوئچ تِھیا کرہ څھوْس ادئی صورتحال دہ قدرتی شان گیْ موْݜ تُھوِیت۔
+code-switching-answer-dont-translate-repeat = <bold>ہر څِیزے ترجمہ تِھیا یا مرک تِھیا۔</bold> بس ایْک چوْٹ رزہ، کاتھ آئۓ موْݜ کال دہ آیوٰ۔ څھوڑ ہر جِب دہ جوابے ایْک ورژن دہ موْݜ رزونے ضرورڑت نانیْ۔
+# Transcribing
+code-switching-transcribe-subheader = ٹرانسکرائب تھون
+code-switching-transcribe-intro = جواب نقل تھون دہ کھاں زائی دہ کوڈ سوئچنگ شاملَن، موْݜ تھینکو جِب ے نمائندگی بی کاتھ چہ اسہ جِب رزجِلِس۔ بیل صحیح تھونِجیْ، بیل ترمیم یا ہسان تھونِجیْ۔ جِبہ، غیر رسمی تقریر گہ مخلوط جِبے الفاظو مجی تمام تبدِیلِیؤ کِرِیا نیْ۔
 code-switching-transcribe-do-1 = باریک سوئچز پِیونے کِرِیا لیکھہ لیکھہ حصائے سات سات چلِیا۔
 code-switching-transcribe-do-2 = سوئچز یا مخلوط الفاظو کِرِیا ست دُبار چیک تِھونے کِرِیا جملَو جیْ پتو ہِسار تِھیا۔
 # Capture Speech Exactly as Spoken
@@ -301,3 +306,6 @@ code-switching-cleanup-1 = ترجمہ تِھیا یا بیان تِھیا۔ اس
 code-switching-cleanup-2 = ”صحیح“ گرامر یا تلفظ ۔ اسپیکرے قدرتی موْݜ کال برقرار پھتِیا۔
 code-switching-cleanup-3 = ادا سوئچز پھتِیا کھاں معمولی یا لیکھہ لیل بینَن۔ ادی بُجَیش چہ قرضِیل الفاظ گہ اہم بینَن۔
 code-switching-cleanup-4 = اوقاف ٹل تِھیا کھاں گیْ معنی بدل بوبانَن ۔ قرتی بہاؤ قائم پھتِیا۔
+code-switching-cleanup-5 = فرض تِھیا چہ څھوْس ہر لفظے جِب لڇھینَت۔ استعمالے بنیادِجیْ ٹیگ۔
+# Tagging
+code-switching-tagging-subheader = ٹیگ تھون
