@@ -111,3 +111,13 @@ transgender = 跨性别者
 non-binary = 非二元性别
 do_not_wish_to_say = 保密
 other = 其他
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99
