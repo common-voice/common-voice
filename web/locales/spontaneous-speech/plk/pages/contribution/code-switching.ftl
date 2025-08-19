@@ -30,7 +30,7 @@ cs-no-transcriptions-continue-skipped = آ ڈیٹاسیٹ چیک تھونڑ فی
 
 ## Tag Page Items
 
-cs-no-transcriptions-to-tag-continue-skipped = فی الحال آ ڈیٹاسیٹ اےْ کِرِیا ٹیگ تھونڑ نقل نِش اگر څھا جو پتیتَن توْ پھتِیلوْ مواد سے کوْم جاری تِھیا یا آڈیو ٹرانسکرائب جیْ گیے پتو ست دُبار کوشش تھوباتَن۔
+cs-no-transcriptions-to-tag-continue-skipped = فی الحال آ ڈیٹاسیٹ اےْ کِرِیا ٹیگ تھونڑ نقل نِش اگر څھا جو پھتیتَن توْ پھتِیلوْ مواد سے کوْم جاری تِھیا یا آڈیو ٹرانسکرائب جیْ گیے پتو ست دُبار کوشش تھوباتَن۔
 cs-tag-dataset-name = ڈیٹاسیٹ{ $datasetName }
 
 ## Guidelines

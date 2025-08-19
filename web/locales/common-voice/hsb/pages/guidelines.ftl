@@ -340,7 +340,7 @@ code-switching-lookalikes-explanation-example-1 = „Footing“ w normalnym pad�
 code-switching-lookalikes-explanation-example-2 = „No problemo“ so w jendźelšćinje wužiwa > markěrujće jo jako jendźelski
 # When Not to Tag Words
 code-switching-not-tag-header = Hdyž njeměli so słowa markěrować
-code-switching-not-tag-explanation = Někotre słowa <bold>njeměli so z rěčnym popisom markěrować</bold>, samo hdyž zda so, zo měšane abo přiměrjene. Tu su někotre přikłady:
+code-switching-not-tag-explanation = Někotre słowa <bold>njeměli so z rěčnym popisom markěrować</bold>, samo hdyž zda so, zo su měšane abo přiměrjene. Tu su někotre přikłady:
 code-switching-not-tag-proper-names = <bold>Swójske mjena.</bold> Mjena wosobow, městnow a organizacijow njeměli so markěrować. Přikłady:
 code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida

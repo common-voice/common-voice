@@ -336,8 +336,11 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>ale</purple> 
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Glědajśo za pódobnje wuglědajucymi słowami
 code-switching-lookalikes-explanation = Někotare słowa ako jadna rěc wuglědaju, ale wužywaju se w drugej. Markěrujśo pó wóznamje a wužyśu, nic pó naglěźe. Pśikłady:
+code-switching-lookalikes-explanation-example-1 = „Footing“ w normalnem paźe w špańšćinje gnaśe wóznamjenijo > markěrujśo jo ako špański
+code-switching-lookalikes-explanation-example-2 = „No problemo“ se w engelšćinje wužywa > markěrujśo jo ako engelski
 # When Not to Tag Words
 code-switching-not-tag-header = Gaž njeměli se słowa markěrowaś
+code-switching-not-tag-explanation = Někotare słowa <bold>njeměli se z rěcnym pópisanim markěrowaś</bold>, samo gaby se zdało, až su měšane abo pśiměrjone. How su někotare pśikłady:
 code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
