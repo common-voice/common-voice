@@ -204,3 +204,20 @@ transcribe-the-audio-subheader-5-explanation-2 = موْݜ کال تِھیک سہ
 
 review-the-transcription = ٹرانسکرپشنے جائزہ ہر
 review-the-transcription-explanation-1 = عام شان گیْ بیْس مشورہ دوݨَس چہ نقلے جائزہ ہریک اج اسہ منُوڙوْ بون پکارُن کھاں سیْ اصل نقل تھاؤس۔ توموْ کوْمے جائزہ ہرون لئی گرانِن۔  عبارت دہ بسکی کِھڇِھؤ جإزہ ہرون گیْ معیار دہ مِݜٹِیار گہ سُونڇِھیار دہ مدد ہشِینیْ، آ گیْ تعصبات گہ مسائل کم تھون دہ مدد ہشِینیْ۔
+review-the-transcription-explanation-2 = ٹرانسکرپشنے صحیح بون ڇکونے کِرِیا اجی نقلے گائیڈ لائنے جائزہ ہرہ۔ څھوْس ترمیم تھوبانَت آں اسݨو جمع تھوبانَت۔
+review-the-transcription-explanation-3 = ایْک چوْٹ پھری، څھوْس ادو موادِجیْ جھنڈا ݜائبانَت کھاں جارحانہ، نوخصان دہ یا مُتیْ صورتو مجیْ تشویشناک بی، آں اسہ څھے تجربہ گیْ پیر تِھجَوٰ کرہ بُجَیش چہ کامن وائس ٹیم سہ اسہ سے جائزہ ہرِی مزید تفتیش نہ تھی۔
+
+## Code-Switching
+
+code-switching = کوڈ سوئچنگ
+adding-a-question = سوال ٹل تھون
+# Adding a Question
+code-switching-adding-question-subheader = ایک مڑنے سوال گیْ جو بِینوْ؟
+code-switching-adding-question-explanation = عوامی ڈیٹاسیٹے کِرِیا ایْک مِݜٹو سوال:
+code-switching-adding-question-criteria-1 = لڇھون گہ جواب دون دہ ہسان سنِجہ
+code-switching-adding-question-criteria-2 = عام شان گیْ متعلقہ بِیا
+code-switching-adding-question-criteria-3 = نوخصانی یا جارحانہ جِب استعمال نہ تِھیا یا درخواست نہ تِھیا
+code-switching-adding-question-note = څھوْس مختلف سیاق گہ سباق گہ ڈومینز خور تھونِجیْ گہ غور تھون لُکھینَت۔
+# What types of questions to add
+code-switching-types-subheader = کدا سوالات ٹل تھونان؟
+code-switching-use-bilingual-prompts-header = دو لسانی اشارائے استعمال تِھیا
