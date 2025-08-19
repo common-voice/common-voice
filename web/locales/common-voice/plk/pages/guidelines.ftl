@@ -221,3 +221,6 @@ code-switching-adding-question-note = څھوْس مختلف سیاق گہ سبا
 # What types of questions to add
 code-switching-types-subheader = کدا سوالات ٹل تھونان؟
 code-switching-use-bilingual-prompts-header = دو لسانی اشارائے استعمال تِھیا
+code-switching-use-bilingual-prompts-explanation = دو لسانی اشارایۓ ٹل تِھیا کھاں  گیْ څھے سوال گیْ  بیئی جِبہ ٹل بین
+code-switching-use-bilingual-prompts-explanation-example = ”¿اسہ چھک څھوْ گوݜٹھہ کرہ آلِیاسِت؟“
+code-switching-ask-bilingual-contexts-header = دو لسانی سیاق گہ سباقے بارَد کھوجِیا
