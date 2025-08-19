@@ -309,3 +309,10 @@ code-switching-cleanup-4 = اوقاف ٹل تِھیا کھاں گیْ معنی �
 code-switching-cleanup-5 = فرض تِھیا چہ څھوْس ہر لفظے جِب لڇھینَت۔ استعمالے بنیادِجیْ ٹیگ۔
 # Tagging
 code-switching-tagging-subheader = ٹیگ تھون
+code-switching-tagging-error-intro = اگر ٹرانسکرپشن دہ جو خاص خامی نیْ، توْ مہربانی تھے رپورٹ فنکشن استعمال تھے جھنڈا ݜیَا، ممکنہ خرابِیؤ مجی شمل تِھیا؛
+code-switching-tagging-error-1 = غلط اوقاف یا کیپٹلائزیشن
+code-switching-tagging-error-2 = ٹائپوز
+code-switching-tagging-error-3 = غلط آرتھوگرافی دہ لِکِیلہ الفاظی
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = ہر جِبے کِرِیا صحیح آرتھوگرافی استعمال تِھیا
+code-switching-orthography-explanation = ہر لفظ کھاں جِبے نوْ اسہ سے ہجّو مطابق لِکِیا۔ مثالے شان گیْ:
