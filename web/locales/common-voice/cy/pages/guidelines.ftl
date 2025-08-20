@@ -320,21 +320,21 @@ code-switching-orthography-explanation = Ysgrifennwch bob gair yn ôl sillafiad 
 code-switching-orthography-explanation-example-1 = Os yw'r gair “kitchen” yn ymddangos fel yn y Saesneg, dylai gael ei ysgrifennu fel yn y Saesneg, nid fel “citchin.”
 code-switching-orthography-explanation-example-2 = Os yw'r gair tâl yn cael ei ynganu fel yn Saesneg, ysgrifennwch ef gyda'r â.
 # Use Pronunciation to Help Determine the Language
-code-switching-pronunciation-header = { "" }
+code-switching-pronunciation-header = Defnyddiwch Ynganiad i Helpu i Benderfynu ar yr Iaith
 code-switching-pronunciation-explanation = Efallai y bydd rhai geiriau yn edrych yr un peth yn y ddwy iaith ond mae modd eu hynganu’n wahanol.  Gwrandewch ar yr ynganiad i helpu i dagio'n gywir.  Er enghraifft: cebl, taco, actor, ditectif.
-code-switching-pronunciation-explanation-example-1 = Saesneg: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-1 = English: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Cymraeg: /ˈkebl/
 # Tagging in a Single Token
 code-switching-single-token-header = Tagio mewn Tocyn Sengl
 code-switching-single-token-explanation = Dylai tocyn sengl wedi'i wahanu gan fwlch gynnwys mwy nag un rhychwant wedi'i dagio.
 # Tag Punctuation Based on Nearby Language
-code-switching-punctuation-tagging-header = Tag Atalnodi Yn Seiliedig ar Iaith Gyfagos
+code-switching-punctuation-tagging-header = Atalnodi Tagiau Yn Seiliedig ar Iaith Gyfagos
 code-switching-punctuation-tagging-explanation = Atalnodi tagiau gan ddefnyddio'r rhychwant iaith sydd agosaf at y chwith. Enghreifftiau:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>a'r un tro y sgrechiodd</purple> Mair <purple> arna i oedd</purple> <blue> because</blue> <purple>roedd hi'n ceisio</purple> printio <blue>un</blue> <purple>>archeb.</purple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>ti'n gallu prynu nhw mewn coch, du a glas</blue>, <purple>whatever.</purple> (BangorTalk)
 # Be Careful with Lookalikes
-code-switching-lookalikes-header = Byddwch yn ofalus gyda'r Rhai sy'n Edrych yn Debyg
+code-switching-lookalikes-header = Byddwch yn Ofalus gyda'r Rhai sy'n Edrych yn Debyg
 code-switching-lookalikes-explanation = Efallai y bydd rhai geiriau yn edrych fel un iaith ond yn cael eu defnyddio yn y llall. Tagiwch nhw'n seiliedig ar ystyr a defnydd, nid ymddangosiad. Enghreifftiau:
 # When Not to Tag Words
 code-switching-not-tag-header = Pryd i Beidio â Thagio Geiriau
