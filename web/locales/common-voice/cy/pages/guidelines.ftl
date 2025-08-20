@@ -272,37 +272,37 @@ code-switching-answer-bullet-2 = Dychmygwch eich bod yn anfon neges destun at ff
 code-switching-answer-bullet-3 = Defnyddiwch eiriau y byddech chi'n eu defnyddio'n naturiol, hyd yn oed ydyn nhw wedi'u benthyca neu'n gymysgedd
 code-switching-answer-bullet-4 = Does dim ffordd “berffaith” o ateb
 code-switching-authentic-header = Atebwch yn Naturiol a Gonest
-code-switching-authentic-speak = <braidd>Siaradwch fel y byddech chi gyda ffrindiau neu deulu.</bold> Os ydych chi'n cymysgu ieithoedd mewn bywyd go iawn, gwnewch yr un peth yma. Enghraifft:
+code-switching-authentic-speak = <bold>Siaradwch fel y byddech chi gyda ffrindiau neu deulu.</bold> Os ydych chi'n cymysgu ieithoedd yn eich bywyd go iawn, gwnewch yr un peth yma. Enghraifft:
 code-switching-authentic-speak-example = “Well, dywedais wrthi mod i ddim yn gallu mynd, ond dwedodd hi,‘ You better show up!’”
 code-switching-use-both-languages = <bold>Defnyddiwch y ddwy iaith os dyna sut byddech chi'n ei ddweud fel arfer.</bold> Mae hyd yn oed newid gair neu ddau yn unig yn ddefnyddiol. Enghraifft:
-code-switching-use-both-languages-example = “Oedd hi wedi mynd yn hurt, so nes i ddim ei galw nôl.”
+code-switching-use-both-languages-example = “Oedd hi wedi mynd yn hurt, so nes i ddim ffonio nôl.”
 code-switching-authentic-direct-quotes = <bold>Cynhwyswch ddyfyniadau uniongyrchol neu ddeialog.</bold> Dywedwch yn union beth ddywedodd rhywun, nid fersiwn wedi'i gywiro neu fersiwn ffurfiol. Enghraifft:
 code-switching-authentic-direct-quotes-example = "Dwedodd mam, 'Ti'n meddwl mai gêm yw hyn?'"’ a dwedes i, ‘Okay chill!’”
-code-switching-authentic-reflect = <bold>Adlewyrchu emosiwn, hunaniaeth, a chyd-destun.</bold> Mae newid fel arfer yn digwydd pan fydd pobl yn mynegi emosiwn, brys, neu syniadau diwylliannol. Pwyswch ar y rhain wrth ateb cwestiynau.
-code-switching-authentic-full-context = <bold>Defnyddiwch ymatebion llawn gyda'i gyd-destun.</bold> Byddwch mor fanwl â phosibl, gan roi cymaint o fanylion ag y gallwch. Rhannwch stori neu enghraifft yn eich atebion.
+code-switching-authentic-reflect = <bold>Adlewyrchu emosiwn, hunaniaeth, a chyd-destun.</bold> Mae newid fel arfer yn digwydd pan fydd pobl yn mynegi emosiwn, brys, neu syniadau diwylliannol. Rhowch bwyslais ar y rhain wrth ateb cwestiynau.
+code-switching-authentic-full-context = <bold>Rhowch ymatebion llawn gyda'i gyd-destun.</bold> Byddwch mor fanwl â phosibl, gan roi cymaint o fanylion ag y gallwch. Rhannwch stori neu enghraifft yn eich atebion.
 # Don’t Overthink or Overedit
-code-switching-answer-dont-subheader = Peidiwch â Gorfeddwl na Gorolygu
-code-switching-answer-dont-correct-language = <bold>“Cywirwch” eich iaith.</bold> Nid prawf yw hwn. Dyw ffurf “briodol” iaith ddim o bwys yma, iaith naturiol sy'n bwysig.
-code-switching-answer-dont-avoid-switching = <bold>Osgoi cyfnewid os ydych yn gwneud hynny fel arfer.</bold> Mae'n iawn newid ar ganol brawddeg, wrth feddwl, neu am un gair.
-code-switching-answer-dont-formal-writing = <braidd>Siarad fel eich bod yn ysgrifennu'n ffurfiol.</bold> Osgowch atebion ffurfiol, academaidd. Cadwch ef yn sgwrsiol.
+code-switching-answer-dont-subheader = Peidiwch â Gorfeddwl na Gyfyngu
+code-switching-answer-dont-correct-language = <bold>“Cywiro” eich iaith.</bold> Dyw hwn ddim yn brawf. Dyw ffurf “briodol” iaith ddim o bwys yma, iaith naturiol sy'n bwysig.
+code-switching-answer-dont-avoid-switching = <bold>Osgoi cyfnewid os ydych yn arfer â gwneud hynny.</bold> Mae'n iawn cyfnewid ar ganol brawddeg, wrth feddwl, neu am un gair.
+code-switching-answer-dont-formal-writing = <bold>Siarad fel eich bod yn ysgrifennu'n ffurfiol.</bold> Osgowch atebion ffurfiol, academaidd. Cadwch yn sgwrsiol.
 code-switching-answer-dont-force-switch = <bold>Gorfodi cyfnewid os nad yw'n naturiol.</bold> Newidiwch dim ond os mai dyna sut y byddech chi'n siarad yn naturiol yn y sefyllfa honno.
-code-switching-answer-dont-translate-repeat = <bold>Cyfieithu neu ailadrodd popeth.</bold> Ei ddweud unwaith, y ffordd y byddai'n dod mewn sgwrs. Does dim rhaid i chi ailadrodd y fersiwn o’r ymateb yn y ddwy iaith.
+code-switching-answer-dont-translate-repeat = <bold>Cyfieithu neu ailadrodd popeth.</bold> Ei ddweud unwaith, y ffordd y byddai'n dod mewn sgwrs. Does dim rhaid i chi ailadrodd y fersiwn o’r ymateb ym mhob iaith.
 # Transcribing
 code-switching-transcribe-subheader = Trawsgrifio
-code-switching-transcribe-intro = Wrth drawsgrifio ymatebion sy’n cynnwys cyfnewid codau, rhaid cofnodi iaith y siaradwr fel mae'n cael ei siarad – heb gywiro, golygu na symleiddio. Mae hyn ar gyfer pob cyfnewid rhwng ieithoedd, lleferydd anffurfiol, a geiriau cymysg eu hiaith.
+code-switching-transcribe-intro = Wrth drawsgrifio ymatebion sy’n cynnwys cyfnewid cod, rhaid cofnodi iaith y siaradwr fel mae'n cael ei siarad – heb gywiro, golygu na symleiddio. Mae hyn ar gyfer pob cyfnewid rhwng ieithoedd, lleferydd anffurfiol, a geiriau cymysg eu hiaith.
 code-switching-transcribe-do-1 = Chwaraewch segmentau byr sawl gwaith i ddal y cyfnewidiadau cod cynnil
 code-switching-transcribe-do-2 = Oedwch ar ôl pob brawddeg i wirio ddwywaith am gyfnewid cod neu eiriau cymysg
 # Capture Speech Exactly as Spoken
-code-switching-capture-header = Cipio Llefaru  yn Union fel Mae'n Cael ei Ddweud
-code-switching-capture-explanation = Trawsgrifio'r ddwy iaith wrth iddyn nhw ymddangos / swnio. Peidiwch â “thrwsio” yr iaith na'i newid i ddim ond un iaith.
+code-switching-capture-header = Cofnodi Llefaru  yn Union fel Mae'n Cael ei Ddweud
+code-switching-capture-explanation = Trawsgrifiwch y ddwy iaith wrth iddyn nhw ymddangos / i'w clywed. Peidiwch â “thrwsio” yr iaith na'i newid i ddim ond un iaith.
 # Include filler words and markers
-code-switching-filler-header = Cynhwyswch eiriau llaw a marcwyr
+code-switching-filler-header = Cynhwyswch eiriau llanw a marcwyr
 code-switching-filler-explanation = Mae geiriau fel “um,” “like,” “well,” “you know,” a “then” yn ystyrlon. Enghraifft: “Felly, um, dwedes wrthi, ‘you know, efallai rhywbryd arall.’”
 # Use standard spelling for each language
 code-switching-spelling-header = Defnyddiwch sillafu safonol ar gyfer pob iaith
 code-switching-spelling-explanation = Ceisiwch sillafu geiriau'n gywir ar gyfer pob iaith, oni bai bod y siaradwr yn eu ynganu'n glir mewn ffordd ansafonol.
 # Don’t Clean Up or Simplify the Language
-code-switching-cleanup-header = Peidiwch â Glanhau na Symleiddio'r Iaith
+code-switching-cleanup-header = Peidiwch â Thwtio na Symleiddio'r Iaith
 code-switching-cleanup-1 = Cyfieithu neu aralleirio – ysgrifennwch beth ddywedodd y siaradwr, nid yr hyn roedd yn ei “olygu.”
 code-switching-cleanup-2 = “Cywiro” y gramadeg neu'r ynganiad – cadwch ddefnydd naturiol y siaradwr.
 code-switching-cleanup-3 = Hepgor cyfnewid sy'n ymddangos yn fân neu'n fach - mae hyd yn oed geiriau benthyg yn bwysig.
