@@ -4,6 +4,8 @@ guidelines-header-subtitle = Comprendre comment ajouter et valider des phrases e
 voice-collection = Collecte de voix
 sentence-collection = Collecte de phrases{ " " }
 question-collection = Collecte de questions
+scripted-speech = Parole lue
+spontaneous-speech = Parole spontanée
 dont-subheader = À proscrire
 
 ## Voice Collection nav ids

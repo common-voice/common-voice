@@ -262,5 +262,12 @@ code-switching-review-does-not-header = Ac <bryf>NAD YW</beidd> yn cynnwys:
 code-switching-review-offensive-content = Cynnwys sarhaus neu wybodaeth sensitif
 code-switching-answer-header = Cynnwys sarhaus neu wybodaeth sensitif
 code-switching-review-no-1 = Cwestiynau a allai ofyn am wybodaeth bersonol adnabyddadwy
+code-switching-review-no-2 = Cwestiynau a allai achosi lleferydd casineb neu deimladau rhagfarnllyd neu dramgwyddus eraill
+code-switching-review-no-3 = Cwestiynau a allai achosi i rywun rannu gwybodaeth sensitif, a allai sbarduno ymatebion
+# Answering a Question
+code-switching-answer-subheader = Ateb Cwestiwn
+code-switching-answer-intro = Wrth ymateb i gwestiwn, y nod yw ymateb yn naturiol - yn union fel y byddech chi mewn sgwrs bywyd go iawn. Rydyn ni eisiau gweld sut mae ieithoedd yn cymysgu mewn lleferydd bob dydd.
+code-switching-answer-bullet-1 = Meddyliwch am eiliadau neu sefyllfaoedd bywyd go iawn: jôcs, dadleuon, traddodiadau
+code-switching-answer-bullet-2 = Dychmygwch eich bod yn anfon neges destun at ffrind neu'n dweud stori wrth rywun
 code-switching-cleanup-3 = Hepgor cyfnewid sy'n ymddangos yn fân neu'n fach - mae hyd yn oed geiriau benthyg yn bwysig.
 code-switching-cleanup-4 = Mewnosod atalnodi sy'n gallu newid yr ystyr – cadwch y llif yn naturiol.
