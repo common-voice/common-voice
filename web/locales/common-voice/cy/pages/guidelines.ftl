@@ -291,5 +291,25 @@ code-switching-answer-dont-translate-repeat = <bold>Cyfieithu neu ailadrodd pope
 code-switching-transcribe-subheader = Trawsgrifio
 code-switching-transcribe-intro = Wrth drawsgrifio ymatebion sy’n cynnwys cyfnewid codau, rhaid cofnodi iaith y siaradwr fel mae'n cael ei siarad – heb gywiro, golygu na symleiddio. Mae hyn ar gyfer pob cyfnewid rhwng ieithoedd, lleferydd anffurfiol, a geiriau cymysg eu hiaith.
 code-switching-transcribe-do-1 = Chwaraewch segmentau byr sawl gwaith i ddal y cyfnewidiadau cod cynnil
+code-switching-transcribe-do-2 = Oedwch ar ôl pob brawddeg i wirio ddwywaith am gyfnewid cod neu eiriau cymysg
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Cipio Llefaru  yn Union fel Mae'n Cael ei Ddweud
+code-switching-capture-explanation = Trawsgrifio'r ddwy iaith wrth iddyn nhw ymddangos / swnio. Peidiwch â “thrwsio” yr iaith na'i newid i ddim ond un iaith.
+# Include filler words and markers
+code-switching-filler-header = Cynhwyswch eiriau llaw a marcwyr
+code-switching-filler-explanation = Mae geiriau fel “um,” “like,” “well,” “you know,” a “then” yn ystyrlon. Enghraifft: “Felly, um, dwedes wrthi, ‘you know, efallai rhywbryd arall.’”
+# Use standard spelling for each language
+code-switching-spelling-header = Defnyddiwch sillafu safonol ar gyfer pob iaith
+code-switching-spelling-explanation = Ceisiwch sillafu geiriau'n gywir ar gyfer pob iaith, oni bai bod y siaradwr yn eu ynganu'n glir mewn ffordd ansafonol.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Peidiwch â Glanhau na Symleiddio'r Iaith
+code-switching-cleanup-1 = Cyfieithu neu aralleirio – ysgrifennwch beth ddywedodd y siaradwr, nid yr hyn roedd yn ei “olygu.”
+code-switching-cleanup-2 = “Cywiro” y gramadeg neu'r ynganiad – cadwch ddefnydd naturiol y siaradwr.
 code-switching-cleanup-3 = Hepgor cyfnewid sy'n ymddangos yn fân neu'n fach - mae hyd yn oed geiriau benthyg yn bwysig.
 code-switching-cleanup-4 = Mewnosod atalnodi sy'n gallu newid yr ystyr – cadwch y llif yn naturiol.
+code-switching-cleanup-5 = Tybio'ch bod chi'n gwybod iaith pob gair - tagiwch ar sail eu defnydd.
+# Tagging
+code-switching-tagging-subheader = Tagio
+code-switching-tagging-error-intro = Os yw'r trawsgrifiad yn cynnwys gwall, defnyddiwch y swyddogaeth adrodd i'w amlygu. Mae gwallau posibl yn cynnwys:
+code-switching-tagging-error-1 = Atalnodi neu briflythrennu anghywir
+code-switching-tagging-error-2 = Gwallau teipio
