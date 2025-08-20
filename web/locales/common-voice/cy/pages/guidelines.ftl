@@ -287,5 +287,9 @@ code-switching-answer-dont-avoid-switching = <bold>Osgoi cyfnewid os ydych yn gw
 code-switching-answer-dont-formal-writing = <braidd>Siarad fel eich bod yn ysgrifennu'n ffurfiol.</bold> Osgowch atebion ffurfiol, academaidd. Cadwch ef yn sgwrsiol.
 code-switching-answer-dont-force-switch = <bold>Gorfodi cyfnewid os nad yw'n naturiol.</bold> Newidiwch dim ond os mai dyna sut y byddech chi'n siarad yn naturiol yn y sefyllfa honno.
 code-switching-answer-dont-translate-repeat = <bold>Cyfieithu neu ailadrodd popeth.</bold> Ei ddweud unwaith, y ffordd y byddai'n dod mewn sgwrs. Does dim rhaid i chi ailadrodd y fersiwn o’r ymateb yn y ddwy iaith.
+# Transcribing
+code-switching-transcribe-subheader = Trawsgrifio
+code-switching-transcribe-intro = Wrth drawsgrifio ymatebion sy’n cynnwys cyfnewid codau, rhaid cofnodi iaith y siaradwr fel mae'n cael ei siarad – heb gywiro, golygu na symleiddio. Mae hyn ar gyfer pob cyfnewid rhwng ieithoedd, lleferydd anffurfiol, a geiriau cymysg eu hiaith.
+code-switching-transcribe-do-1 = Chwaraewch segmentau byr sawl gwaith i ddal y cyfnewidiadau cod cynnil
 code-switching-cleanup-3 = Hepgor cyfnewid sy'n ymddangos yn fân neu'n fach - mae hyd yn oed geiriau benthyg yn bwysig.
 code-switching-cleanup-4 = Mewnosod atalnodi sy'n gallu newid yr ystyr – cadwch y llif yn naturiol.
