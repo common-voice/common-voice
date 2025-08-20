@@ -332,6 +332,9 @@ code-switching-punctuation-tagging-header = Tag Atalnodi Yn Seiliedig ar Iaith G
 code-switching-punctuation-tagging-explanation = Atalnodi tagiau gan ddefnyddio'r rhychwant iaith sydd agosaf at y chwith. Enghreifftiau:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>a'r un tro y sgrechiodd</purple> Mair <purple> arna i oedd</purple> <blue> because</blue> <purple>roedd hi'n ceisio</purple> printio <blue>un</blue> <purple>>archeb.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>ti'n gallu prynu nhw mewn coch, du a glas</blue>, <purple>whatever.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Byddwch yn ofalus gyda'r Rhai sy'n Edrych yn Debyg
 code-switching-not-tag-interjections-example-3 = “Yeah”
 code-switching-not-tag-interjections-example-4 = “Er”
 
