@@ -129,7 +129,7 @@ get-started = Cychwyn arni <icon><icon>
 
 ## Action items section
 
-action-items-section-title = Mae Common Voice yn blatfform cod agored, rhydd ar gyfer creu data sy'n cael ei arwain gan y gymuned
+action-items-section-title = Mae Common Voice yn blatfform cod agored, rhydd ar gyfer creu data gan y gymuned
 action-items-section-subtitle = Gall unrhyw un gadw, adfywio a dyrchafu eu hiaith trwy rannu, creu a churadu setiau data testun a lleferydd.
 scripted-card-header = Lleferydd Testun
 scripted-card-content = Darllen brawddegau'n uchel yn eich iaith a chyfrannu at y set ddata lleferydd cyfranogiad cyhoeddus fwyaf amrywiol yn y byd.

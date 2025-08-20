@@ -319,3 +319,11 @@ code-switching-orthography-header = Defnyddio Sillafu a Threfn Cywir Pob Iaith
 code-switching-orthography-explanation = Ysgrifennwch bob gair yn ôl sillafiad yr iaith y daw ohoni. Er enghraifft:
 code-switching-orthography-explanation-example-1 = Os yw'r gair “kitchen” yn ymddangos fel yn y Saesneg, dylai gael ei ysgrifennu fel yn y Saesneg, nid fel “citchin.”
 code-switching-not-tag-interjections-example-3 = “Ie”
+code-switching-not-tag-interjections-example-4 = “Er”
+
+## Reporting Content
+
+reporting-content = Adrodd ar Gynnwys
+reporting-content-subheader = Canllaw cyffredinol
+reporting-content-explanation-1 = Rhaid i chi amlygu cynnwys sy'n sarhaus, yn niweidiol neu fel arall yn peri pryder. Rhaid iddo hefyd beidio â chynnwys unrhyw wybodaeth bersonol sy'n gallu adnabod rhywun, fel rhifau ffôn neu gyfeiriadau. Bydd yn cael ei dynnu o'ch cyfraniad nes bod tîm Common Voice yn gallu ei adolygu ac ymchwilio ymhellach.
+reporting-content-explanation-2 = I adrodd ar gynnwys, dewiswch y botwm “Adrodd” a dewiswch un neu bob dewis: Cynnwys Tramgwyddus, Iaith Wahanol, Gwybodaeth Adnabod Person, Arall.  O'r fan hon, rhowch ragor o fanylion ynghylch pam rydych chi'n adrodd ar y cynnwys yn yr ardal testun.  Yna, cyflwynwch yr Adroddiad trwy glicio ar y botwm Adroddiad.

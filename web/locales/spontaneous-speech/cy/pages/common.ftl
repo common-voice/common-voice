@@ -32,8 +32,11 @@ continue-with-skipped = Parhau gyda'r rhai sydd wedi'u Hepgor
 question = Cwestiwn
 validate = Dilysu
 respond-to-prompt = Ymateb
+respond-to-prompt-mobile = Ateb
 transcribe = Trawsgrifio
 check-transcriptions = Adolygu
+check-transcriptions-mobile = Adolygu
+tag = Tag
 
 ## Not Found Page
 
@@ -59,6 +62,7 @@ snv = Sa'ban
 xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay
+el-CY = Groeg Chypriad
 
 ## Language search component
 
