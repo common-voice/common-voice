@@ -335,6 +335,18 @@ code-switching-punctuation-tagging-explanation-example-1 = <purple>a'r un tro y 
 code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>ti'n gallu prynu nhw mewn coch, du a glas</blue>, <purple>whatever.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Byddwch yn ofalus gyda'r Rhai sy'n Edrych yn Debyg
+code-switching-lookalikes-explanation = Efallai y bydd rhai geiriau yn edrych fel un iaith ond yn cael eu defnyddio yn y llall. Tagiwch nhw'n seiliedig ar ystyr a defnydd, nid ymddangosiad. Enghreifftiau:
+# When Not to Tag Words
+code-switching-not-tag-header = Pryd i Beidio â Thagio Geiriau
+code-switching-not-tag-explanation = <bold>Peidiwch tagio</bold> rhai geiriau gyda label iaith, hyd yn oed os ydyn nhw'n ymddangos yn gymysg neu wedi'u haddasu.  Dyma sut i drin rhai enghreifftiau:
+code-switching-not-tag-proper-names = <bold>Enwau Priod.</bold> Peidiwch tagio enwau pobl, lleoedd a sefydliadau. Enghreifftiau:
+code-switching-not-tag-proper-names-example-1 = Pobl: Mair, Siôn
+code-switching-not-tag-proper-names-example-2 = Lleoedd: Caerdydd, Llundain
+code-switching-not-tag-proper-names-example-3 = Brandiau/Cyrff: Currys , Burger King
+code-switching-not-tag-mixed-words = <bold>Geiriau Cymysg neu'u Morffoleg Wedi'u Haddasu.</bold> Peidiwch â thagio geiriau sy'n cyfuno ieithoedd neu sydd â therfyniadau ychwanegol o iaith arall. Enghreifftiau:
+code-switching-not-tag-interjections = <bold>Ymyriadau.</bold> Dylai ymyriadau a geiriau llenwi, waeth beth fo'r iaith, aros <bold>heb eu tagio.</bold> Enghreifftiau:
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = “No”
 code-switching-not-tag-interjections-example-3 = “Yeah”
 code-switching-not-tag-interjections-example-4 = “Er”
 
