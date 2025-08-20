@@ -32,8 +32,10 @@ continue-with-skipped = Continuer avec les ressources ignorées
 question = Question
 validate = Valider
 respond-to-prompt = Répondre à la question
+respond-to-prompt-mobile = Répondre
 transcribe = Transcrire
 check-transcriptions = Vérifier les transcriptions
+check-transcriptions-mobile = Vérifier
 
 ## Not Found Page
 
@@ -59,6 +61,7 @@ snv = Sa'ban
 xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay
+el-CY = Grec chypriote
 
 ## Language search component
 
