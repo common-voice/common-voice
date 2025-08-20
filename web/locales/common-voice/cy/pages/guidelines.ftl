@@ -318,6 +318,7 @@ code-switching-tagging-error-3 = Geiriau wedi'u hysgrifennu yn yr orgraff anghyw
 code-switching-orthography-header = Defnyddio Sillafu a Threfn Cywir Pob Iaith
 code-switching-orthography-explanation = Ysgrifennwch bob gair yn ôl sillafiad yr iaith y daw ohoni. Er enghraifft:
 code-switching-orthography-explanation-example-1 = Os yw'r gair “kitchen” yn ymddangos fel yn y Saesneg, dylai gael ei ysgrifennu fel yn y Saesneg, nid fel “citchin.”
+code-switching-orthography-explanation-example-2 = Os yw'r gair tâl yn cael ei ynganu fel yn Saesneg, ysgrifennwch ef gyda'r â.
 code-switching-not-tag-interjections-example-3 = “Yeah”
 code-switching-not-tag-interjections-example-4 = “Er”
 
