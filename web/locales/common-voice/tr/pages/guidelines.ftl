@@ -180,6 +180,8 @@ code-switching-adding-question-criteria-3 = Kötü veya saldırgan bir dil kulla
 code-switching-adding-question-note = Farklı bağlamları ve alanları da kapsamayı düşünebilirsiniz.
 # What types of questions to add
 code-switching-types-subheader = Ne tür sorular eklemelisiniz?
+# Reviewing a Question
+code-switching-review-subheader = Soru inceleme
 code-switching-review-criterion-1 = Anlaşılması ve yanıtlanması kolay olmalı
 code-switching-review-criterion-2 = Genel konularla ilgili olmalı
 code-switching-review-criterion-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
@@ -188,6 +190,8 @@ code-switching-answer-header = Rahatsız edici içerik veya hassas bilgiler
 code-switching-review-no-1 = Kişisel kimlik bilgilerini vermekle sonuçlanabilecek sorular
 code-switching-review-no-2 = Nefret söylemi, önyargılı ya da saldırgan ifadeler içerebilecek yanıtları tetikleyebilecek sorular
 code-switching-review-no-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
+# Answering a Question
+code-switching-answer-subheader = Soru cevaplama
 # Transcribing
 code-switching-transcribe-subheader = Metne çevirme
 # Tagging
@@ -198,4 +202,5 @@ code-switching-not-tag-interjections-example-2 = “Hayır”
 
 ## Reporting Content
 
+reporting-content = İçerik rapolama
 reporting-content-subheader = Genel yönergeler
