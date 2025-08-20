@@ -313,3 +313,9 @@ code-switching-tagging-subheader = Tagio
 code-switching-tagging-error-intro = Os yw'r trawsgrifiad yn cynnwys gwall, defnyddiwch y swyddogaeth adrodd i'w amlygu. Mae gwallau posibl yn cynnwys:
 code-switching-tagging-error-1 = Atalnodi neu briflythrennu anghywir
 code-switching-tagging-error-2 = Gwallau teipio
+code-switching-tagging-error-3 = Geiriau wedi'u hysgrifennu yn yr orgraff anghywir
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Defnyddio Sillafu a Threfn Cywir Pob Iaith
+code-switching-orthography-explanation = Ysgrifennwch bob gair yn ôl sillafiad yr iaith y daw ohoni. Er enghraifft:
+code-switching-orthography-explanation-example-1 = Os yw'r gair “kitchen” yn ymddangos fel yn y Saesneg, dylai gael ei ysgrifennu fel yn y Saesneg, nid fel “citchin.”
+code-switching-not-tag-interjections-example-3 = “Ie”
