@@ -277,5 +277,15 @@ code-switching-authentic-speak-example = “Well, dywedais wrthi mod i ddim yn g
 code-switching-use-both-languages = <bold>Defnyddiwch y ddwy iaith os dyna sut byddech chi'n ei ddweud fel arfer.</bold> Mae hyd yn oed newid gair neu ddau yn unig yn ddefnyddiol. Enghraifft:
 code-switching-use-both-languages-example = “Oedd hi wedi mynd yn hurt, so nes i ddim ei galw nôl.”
 code-switching-authentic-direct-quotes = <bold>Cynhwyswch ddyfyniadau uniongyrchol neu ddeialog.</bold> Dywedwch yn union beth ddywedodd rhywun, nid fersiwn wedi'i gywiro neu fersiwn ffurfiol. Enghraifft:
+code-switching-authentic-direct-quotes-example = "Dwedodd mam, 'Ti'n meddwl mai gêm yw hyn?'"’ a dwedes i, ‘Okay chill!’”
+code-switching-authentic-reflect = <bold>Adlewyrchu emosiwn, hunaniaeth, a chyd-destun.</bold> Mae newid fel arfer yn digwydd pan fydd pobl yn mynegi emosiwn, brys, neu syniadau diwylliannol. Pwyswch ar y rhain wrth ateb cwestiynau.
+code-switching-authentic-full-context = <bold>Defnyddiwch ymatebion llawn gyda'i gyd-destun.</bold> Byddwch mor fanwl â phosibl, gan roi cymaint o fanylion ag y gallwch. Rhannwch stori neu enghraifft yn eich atebion.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Peidiwch â Gorfeddwl na Gorolygu
+code-switching-answer-dont-correct-language = <bold>“Cywirwch” eich iaith.</bold> Nid prawf yw hwn. Dyw ffurf “briodol” iaith ddim o bwys yma, iaith naturiol sy'n bwysig.
+code-switching-answer-dont-avoid-switching = <bold>Osgoi cyfnewid os ydych yn gwneud hynny fel arfer.</bold> Mae'n iawn newid ar ganol brawddeg, wrth feddwl, neu am un gair.
+code-switching-answer-dont-formal-writing = <braidd>Siarad fel eich bod yn ysgrifennu'n ffurfiol.</bold> Osgowch atebion ffurfiol, academaidd. Cadwch ef yn sgwrsiol.
+code-switching-answer-dont-force-switch = <bold>Gorfodi cyfnewid os nad yw'n naturiol.</bold> Newidiwch dim ond os mai dyna sut y byddech chi'n siarad yn naturiol yn y sefyllfa honno.
+code-switching-answer-dont-translate-repeat = <bold>Cyfieithu neu ailadrodd popeth.</bold> Ei ddweud unwaith, y ffordd y byddai'n dod mewn sgwrs. Does dim rhaid i chi ailadrodd y fersiwn o’r ymateb yn y ddwy iaith.
 code-switching-cleanup-3 = Hepgor cyfnewid sy'n ymddangos yn fân neu'n fach - mae hyd yn oed geiriau benthyg yn bwysig.
 code-switching-cleanup-4 = Mewnosod atalnodi sy'n gallu newid yr ystyr – cadwch y llif yn naturiol.
