@@ -222,3 +222,9 @@ code-switching-tagging-error-intro = 如果转录文本中存在错误，请使�
 code-switching-pronunciation-explanation-example-1 = 汉语：sī
 code-switching-pronunciation-explanation-example-2 = 日语：watashi
 code-switching-not-tag-proper-names = <bold>专有名词。</bold>不应标记人名、地名、组织名。示例：
+
+## Reporting Content
+
+reporting-content = 举报内容
+reporting-content-explanation-1 = 请举报存在伤害、冒犯性等问题，以及包含个人身份信息（例如电话号码和地址）的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步处理。
+reporting-content-explanation-2 = 若要举报内容，请选择“反馈”按钮，然后从以下情况中选择一项或多项：冒犯性内容、其他语言、个人身份信息、其他，并在文本框中详述举报理由，最后点击“反馈”按钮即可提交举报。

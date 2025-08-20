@@ -62,6 +62,7 @@ snv = Sa'ban 语
 xkl = 肯雅语
 # Locales-Variants
 ms-MY = 马来语
+el-CY = 希腊语（塞浦路斯）
 
 ## Language search component
 
