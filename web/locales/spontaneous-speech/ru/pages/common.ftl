@@ -62,6 +62,7 @@ snv = Сабан
 xkl = Кенийский
 # Locales-Variants
 ms-MY = Бахаса Малай
+el-CY = Греческий кипрский
 
 ## Language search component
 
