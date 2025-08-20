@@ -37,3 +37,11 @@ cs-tag-dataset-name = Set ddata [ { $datasetName } ] ]
 
 learn-how-to-use = Dysgwch sut i ddefnyddio'r dudalen hon
 read-full-guidelines-here = <guidanceLink>Darllenwch y canllawiau llawn yma</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Ymatebwch i'r anogwr mor naturiol ag y gallwch, mae croeso i chi newid cod rhwng ieithoedd os yw'n teimlo'n naturiol. Gwnewch yn siŵr bod eich iaith yn barchus ac nid yn sarhaus.
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Dylai trawsgrifiad ddal pob gair neu sain sgwrs di-eirfa a ddywedwyd gan y person, gan gynnwys ailadrodd.
