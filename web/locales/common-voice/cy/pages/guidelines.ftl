@@ -329,6 +329,9 @@ code-switching-single-token-header = Tagio mewn Tocyn Sengl
 code-switching-single-token-explanation = Dylai tocyn sengl wedi'i wahanu gan fwlch gynnwys mwy nag un rhychwant wedi'i dagio.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Tag Atalnodi Yn Seiliedig ar Iaith Gyfagos
+code-switching-punctuation-tagging-explanation = Atalnodi tagiau gan ddefnyddio'r rhychwant iaith sydd agosaf at y chwith. Enghreifftiau:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>a'r un tro y sgrechiodd</purple> Mair <purple> arna i oedd</purple> <blue> because</blue> <purple>roedd hi'n ceisio</purple> printio <blue>un</blue> <purple>>archeb.</purple> (BangorTalk)
 code-switching-not-tag-interjections-example-3 = “Yeah”
 code-switching-not-tag-interjections-example-4 = “Er”
 
