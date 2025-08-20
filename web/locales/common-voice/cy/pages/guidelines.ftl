@@ -319,6 +319,16 @@ code-switching-orthography-header = Defnyddio Sillafu a Threfn Cywir Pob Iaith
 code-switching-orthography-explanation = Ysgrifennwch bob gair yn ôl sillafiad yr iaith y daw ohoni. Er enghraifft:
 code-switching-orthography-explanation-example-1 = Os yw'r gair “kitchen” yn ymddangos fel yn y Saesneg, dylai gael ei ysgrifennu fel yn y Saesneg, nid fel “citchin.”
 code-switching-orthography-explanation-example-2 = Os yw'r gair tâl yn cael ei ynganu fel yn Saesneg, ysgrifennwch ef gyda'r â.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = { "" }
+code-switching-pronunciation-explanation = Efallai y bydd rhai geiriau yn edrych yr un peth yn y ddwy iaith ond mae modd eu hynganu’n wahanol.  Gwrandewch ar yr ynganiad i helpu i dagio'n gywir.  Er enghraifft: cebl, taco, actor, ditectif.
+code-switching-pronunciation-explanation-example-1 = Saesneg: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Cymraeg: /ˈkebl/
+# Tagging in a Single Token
+code-switching-single-token-header = Tagio mewn Tocyn Sengl
+code-switching-single-token-explanation = Dylai tocyn sengl wedi'i wahanu gan fwlch gynnwys mwy nag un rhychwant wedi'i dagio.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Tag Atalnodi Yn Seiliedig ar Iaith Gyfagos
 code-switching-not-tag-interjections-example-3 = “Yeah”
 code-switching-not-tag-interjections-example-4 = “Er”
 
