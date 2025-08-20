@@ -310,7 +310,7 @@ code-switching-cleanup-4 = Mewnosod atalnodi sy'n gallu newid yr ystyr – cadwc
 code-switching-cleanup-5 = Tybio'ch bod chi'n gwybod iaith pob gair - tagiwch ar sail eu defnydd.
 # Tagging
 code-switching-tagging-subheader = Tagio
-code-switching-tagging-error-intro = Os yw'r trawsgrifiad yn cynnwys gwall, defnyddiwch y swyddogaeth adrodd i'w amlygu. Mae gwallau posibl yn cynnwys:
+code-switching-tagging-error-intro = Os yw'r trawsgrifiad yn cynnwys gwall, defnyddiwch y drefn adrodd i'w amlygu. Mae gwallau posibl yn cynnwys:
 code-switching-tagging-error-1 = Atalnodi neu briflythrennu anghywir
 code-switching-tagging-error-2 = Gwallau teipio
 code-switching-tagging-error-3 = Geiriau wedi'u hysgrifennu yn yr orgraff anghywir
@@ -318,7 +318,7 @@ code-switching-tagging-error-3 = Geiriau wedi'u hysgrifennu yn yr orgraff anghyw
 code-switching-orthography-header = Defnyddio Sillafu a Threfn Cywir Pob Iaith
 code-switching-orthography-explanation = Ysgrifennwch bob gair yn ôl sillafiad yr iaith y daw ohoni. Er enghraifft:
 code-switching-orthography-explanation-example-1 = Os yw'r gair “kitchen” yn ymddangos fel yn y Saesneg, dylai gael ei ysgrifennu fel yn y Saesneg, nid fel “citchin.”
-code-switching-not-tag-interjections-example-3 = “Ie”
+code-switching-not-tag-interjections-example-3 = “Yeah”
 code-switching-not-tag-interjections-example-4 = “Er”
 
 ## Reporting Content
