@@ -1,7 +1,7 @@
 ## Check Transcriptions page
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-transcription-page-instruction = { $actionType } <playIcon></playIcon> Escolteu el tall d'àudio i comproveu-ne la transcripció. Coincideix? Si no, editeu-lo perquè coincideixi perfectament.
+transcription-page-instruction = { $actionType } <playIcon></playIcon> escolteu el tall d'àudio i comproveu-ne la transcripció. Coincideix? Si no, editeu-la perquè coincideixi perfectament.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Comproveu
 # Message which appears when there are no more resources on this page

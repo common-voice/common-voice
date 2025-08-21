@@ -1,6 +1,6 @@
 ## Question Page
 
-question-page-instruction = Afegeix una pregunta <icon></icon> a { $currentLocale } perquè la gent respongui
+question-page-instruction = Afegiu <icon></icon> una pregunta en { $currentLocale } perquè la gent la respongui
 add-question-textarea-placeholder = p. ex., "Per a què voldríeu utilitzar la tecnologia?"
 add-questions-terms-checkbox = * Confirmo que aquesta pregunta és de <publicDomainLink>domini públic</publicDomainLink> i tinc permís per a pujar-la.
 question-dataset-language = Conjunt de dades: { $datasetLanguage }
