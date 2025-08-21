@@ -171,14 +171,14 @@ transcribe-the-audio-subheader-2-example-1-correct = <correct> მართე�
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>მცდარი</wrong>: აქედან 100 კილომეტრითაა დაშორებული
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-correct = <correct> Correct</correct>: შევხვდებით <underline>ორი ათას თხუთმეტში</underline>
+transcribe-the-audio-subheader-2-example-2-correct = <correct> მართებული</correct>: შევხვდებით <underline>ორი ათას თხუთმეტში</underline>
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>მცდარი</wrong>: შევხვდებით <underline>2015-ში</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>მართებული</correct>: ოცპროცენტიანი ფასდაკლებით იყო
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>მცდარი</wrong>: 20%-იანი ფასდაკლებით იყო
 transcribe-the-audio-subheader-2-example-4-correct = <correct>მართებული</correct>: <underline>შსს-მ</underline> ისინი წინა ხუთშაბათს დააკავა
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>მცდარი</wrong>: <underline>შე სე სემ</underline> ისინი წინა ხუთშაბათს დააკავა
-transcribe-the-audio-subheader-3-explanation = მოცემული საგანგებო ჭდეები უნდა ერთვოდეს უმართებულო, შემავსებელ ან სხვა სახის არასიტყვერ მასალას (ინგლისურად).
+transcribe-the-audio-subheader-3-explanation = მოცემული საგანგებო ჭდეები უნდა ერთვოდეს უმართებულო, შემავსებელ ან სხვა სახის არასიტყვიერ მასალას (ინგლისურად).
 tags-table-header-1 = ჭდე
 tags-table-header-2 = მნიშვნელობა
 tags-laugh = სიცილი
