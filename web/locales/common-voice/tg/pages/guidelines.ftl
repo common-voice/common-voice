@@ -172,3 +172,4 @@ code-switching-review-subheader = Баррасии савол
 # Answering a Question
 code-switching-answer-subheader = Ҷавоб додан ба савол
 code-switching-pronunciation-explanation-example-1 = Англисӣ: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Испанӣ: /ˈkable/
