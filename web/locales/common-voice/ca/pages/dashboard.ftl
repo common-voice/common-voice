@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
+activity-needed-calculation-fixed = Si 100 persones enregistren 100 frases al dia, poden generar 13 hores d'àudio. Mantenint aquest rendiment, es poden assolir 1000 hores en 3 mesos.
 how-many-per-day = Genial! Quants talls per dia?
 how-many-a-week = Genial! Quants talls per setmana?
 which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
