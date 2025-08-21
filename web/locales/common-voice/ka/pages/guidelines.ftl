@@ -236,7 +236,13 @@ code-switching-focus-emotional-explanation = მეტყველების �
 code-switching-focus-emotional-explanation-example = „მითხარი, მშობლებს რა რეაქცია ჰქონდათ, როცა შენი ცხოვრების მნიშვნელოვანი სიახლე აცნობე — გადმოეცი, ზუსტად რა თქვეს.“
 code-switching-direct-quotes-header = მოითხოვეთ ნათქვამის ზუსტი გამეორება ან მიმსგავსებული წარმოდგენა
 code-switching-direct-quotes-explanation = მონაწილეებს უბიძგეთ, ყველაფერი ისე გადმოსცენ, როგორც სინამდვილეში იყო. მაგალითად:
+code-switching-direct-quotes-explanation-example = „ზუსტად რა სიტყვები უთხარით, როცა ეს ამბავი გაიგეთ?“
+code-switching-cultural-topics-header = შეარჩიეთ კითხვები ადგილობრივი ხალხის ან გარემოსა შესახებ
 code-switching-cultural-topics-explanation = საჭმელი, ჩვეულებები, დღესასწაულები და ოჯახური გარემოებები, აგრეთვე იწვევს მეტყველების მონაცვლეობას.
+code-switching-cultural-topics-explanation-example = „როგორ აუხსნით ალაგი ლიხელეს მხოლოდ ქართულად მოლაპარაკეს?“
+code-switching-informal-scenarios-header = გამოიკვლიეთ შინაურული შემთხვევები
+code-switching-informal-scenarios-explanation = მეგობრებთან საუბრისას ან მიმოწერისას მონაცვლეობა უფრო ბუნებრივია ხოლმე. მაგალითად:
+code-switching-informal-scenarios-explanation-example = „რას ხუმრობენ თქვენი მეგობრები ყველაზე ხშირად – და როგორ ამბობენ ხოლმე?“
 # What to Avoid
 code-switching-avoid-subheader = უნდა აირიდოთ
 code-switching-avoid-intro = კითხვები, რომლებიც:

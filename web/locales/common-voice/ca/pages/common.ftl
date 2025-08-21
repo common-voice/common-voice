@@ -243,6 +243,12 @@ email-opt-in-info-sub-with-challenge = Rebreu correus com ara recordatoris d'obj
 email-opt-in-privacy-v2 = En optar per rebre correus electrònics, accepteu que Mozilla gestioni aquesta informació en els termes descrits en la seva <privacyLink>política de privadesa</privacyLink>.
 indicates-required = * Indica un camp necessari
 not-available-abbreviation = N/D
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Copia
+# Text shown on a button that can be clicked to cancel an action
+cancel = Cancel·la
+# Text shown on a button that can be clicked to delete an item
+delete = Suprimeix
 
 ## Donate banner
 
