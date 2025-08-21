@@ -227,8 +227,10 @@ code-switching-adding-question-note = აგრეთვე სასურვ�
 code-switching-types-subheader = რა სახის კითხვები უნდა დაემატოს?
 code-switching-use-bilingual-prompts-header = ორენოვანი მოთხოვნები
 code-switching-use-bilingual-prompts-explanation = გამოიყენეთ ორენოვანი მოთხოვნები, რომ კითხვა მოიცავდეს ორივე ენას: მაგალითად:
+code-switching-use-bilingual-prompts-explanation-example = „სახლში დაბრუნებისას დედაშენს რა უთხარი, მუხბე?“
 code-switching-ask-bilingual-contexts-header = დასვით კითხვები ორენოვანი შინაარსით
 code-switching-ask-bilingual-contexts-explanation = დაიხმარეთ ისეთი გარემოებები, როცა, ჩვეულებრივ, ორივე ენას იყენებენ (თუნდაც სახლში, სკოლაში, ერთობის ღონისძიებებში). მაგალითად:
+code-switching-ask-bilingual-contexts-explanation-example = „ბიძაშვილებს რომ ელაპარაკები, ერთმანეთში ურევ მეგრულსა და ქართულს?“
 code-switching-focus-emotional-explanation = მეტყველების მონაცვლეობა ხალხს ახასიათებს გრძნობების გამოხატვისას, მღელვარებისას ან საგანგებო შემთხვევებისას. მაგალითად:
 code-switching-cultural-topics-explanation = საჭმელი, ჩვეულებები, დღესასწაულები და ოჯახური გარემოებები, აგრეთვე იწვევს მეტყველების მონაცვლეობას.
 # What to Avoid
