@@ -318,6 +318,7 @@ ro = ພາສາໂລມາເນຍ
 rof = Kirombo
 ru = ພາສາລັດເຊຍ
 ruc = Ruuli
+rup = Aromanian
 rw = ພາສາຄິນຢາວັນດາ
 rwm = Amba
 sah = ພາສາຊາກາ
@@ -362,6 +363,7 @@ ti = ພາສາທິກຣິນຢາ
 tig = ພາສາໄທເກຣ
 tk = ພາສາເຕຣິກເມນິສຖານ
 tl = ພາ​ສາ​ຕາ​ກາ​ລັອກ
+tli = Tlingit
 tn = Setswana
 tob = Toba Qom
 tok = Toki Pona
@@ -378,6 +380,7 @@ tw = ພາສາຕະວີ
 ty = ພາສາຕາຮິຕຽນ
 tyv = ຕູວານ
 uby = Ubykh
+udl = Ouldémé
 udm = ພາສາຢູດເມີດ
 ug = ພາສາອຸຍເກີກ
 uk = ພາສາຢູເຄຣນ
@@ -395,11 +398,16 @@ wbl = Wakhi
 wep = Westphalian
 wes = Cameroon Pidgin
 wo = ພາສາໂວລັອບ
+xdq = Kaitag
 xh = ພາສາໂຊຊາ
 xhe = Ketrani
 xka = Kalkoti
+xkl = Kenyah
 xmf = Mingrelian
+xsm = Kasem
 yaq = Yaqui
+yav = Nuasue
+ydg = Yadgha
 yi = ພາສາຢີວ
 yo = ພາສາໂຢຣູບາ
 yue = ພາສາກວາງຕຸ້ງ
@@ -443,6 +451,12 @@ email-opt-in-info-sub-with-challenge = ຮັບອີເມວເຊັ່ນ: 
 email-opt-in-privacy-v2 = ໂດຍການເລືອກຮັບອີເມວແມ່ນທ່ານລະບຸວ່າທ່ານບໍ່ເປັນຫຍັງທີ່ Mozilla ຈັດການຂໍ້ມູນນີ້ຕາມທີ່ອະທິບາຍໄວ້ໃນ <privacyLink>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</privacyLink> ຂອງ Mozilla.
 indicates-required = ຊ່ອງຂໍ້ມູນທີ່ມີເຄື່ອງໝາຍດາວ (*) ແມ່ນຕ້ອງການ.
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = ສຳເນົາ
+# Text shown on a button that can be clicked to cancel an action
+cancel = ຍົກເລີກ
+# Text shown on a button that can be clicked to delete an item
+delete = ລຶບ
 
 ## Donate banner
 
