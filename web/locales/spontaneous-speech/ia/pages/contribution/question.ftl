@@ -28,4 +28,7 @@ do-not-section-guideline-2 = Exprimer o sollicitar sentimentos interessate o off
 do-not-section-guideline-3 = Demandar questiones sensibile
 # Code switching Guidelines
 cs-do-section-guideline-1 = Usar questiones o contexto bilingual
+cs-do-section-guideline-2 = Explora scenarios, situationes, o reinterpretationes informal
+cs-do-not-section-guideline-1 = Sollicitar informationes de identification personal (como nomines o informationes financiari) o sentimentos offensive
+cs-do-not-section-guideline-2 = Querer mutation de codice o peter traduction
 cs-do-not-section-guideline-3 = Usar un linguage troppo formal

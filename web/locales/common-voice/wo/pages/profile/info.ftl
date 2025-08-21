@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Yokk ab waxin "{ $inputValue }"
 profile-form-submit-save = Denc
 profile-form-submit-saved = Denc nañ ko
-male_masculine = Góor
-female_feminine = Jigéen
-intersex = Goorjigéen
-transgender = Géen xéet
-non-binary = Duma goor duma jigèen
-do_not_wish_to_say = Bëgguma wax lii
-# Gender
-other = Yeneen
 why-profile-title = Lutax profil ?
 dashboard = Tablo dalu xam-xam bi
 build-profile = Defar sa profil
@@ -57,3 +49,11 @@ on = Suqali
 help-accent = Soxla nga ñu jàppale la ci maaska bi?
 help-accent-explanation = Sa maaska mooy ningay waxee kàddu yi. Mën na aju ci barab bi nga dëkk, yeneen làkk yi ngay wax ak yeneen mbir yu bari. Mën nga séddoo bépp leeral boo jàpp ni am njariñ fii.
 help-variants = Soxla nga ndimbal ci wuute yi?
+# Genders
+male_masculine = Góor
+female_feminine = Jigéen
+intersex = Goorjigéen
+transgender = Géen xéet
+non-binary = Duma goor duma jigèen
+do_not_wish_to_say = Bëgguma wax lii
+other = Yeneen

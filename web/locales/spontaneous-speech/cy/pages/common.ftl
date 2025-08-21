@@ -32,8 +32,11 @@ continue-with-skipped = Parhau gyda'r rhai sydd wedi'u Hepgor
 question = Cwestiwn
 validate = Dilysu
 respond-to-prompt = Ymateb
+respond-to-prompt-mobile = Ateb
 transcribe = Trawsgrifio
 check-transcriptions = Adolygu
+check-transcriptions-mobile = Adolygu
+tag = Tag
 
 ## Not Found Page
 
@@ -45,22 +48,21 @@ accept-privacy-and-terms = Rwy'n cytuno i <termsLink>Delerau</termsLink> a <Priv
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Saesneg
-fr = Ffrangeg
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba Malay
 meh = Tlaxiaco Mixtec y De Orllewin
 mel = Melanau Canolog
 mmc = Michoacán Mazahua
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Penan Dwyreiniol
 pne = Penan Gorllewinol
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Twrceg
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa Malay
+el-CY = Groeg Chypriad
 
 ## Language search component
 

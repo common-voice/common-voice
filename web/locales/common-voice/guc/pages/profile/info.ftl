@@ -11,8 +11,7 @@ profile-form-age =
 hidden = Anujuluushi
 visible = Jaꞌyaa
 profile-form-submit-save = Anaajawaa
-# Gender
-other = Waneꞌeya
 avatar = Awataarü
 profile-close = Asürülaa
 edit = Anaataa
+other = Waneꞌeya

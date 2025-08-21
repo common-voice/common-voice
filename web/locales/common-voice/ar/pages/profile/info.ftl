@@ -20,8 +20,6 @@ native-language =
     .label = اللغة الأم
 profile-form-submit-save = احفظ
 profile-form-submit-saved = حُفظت
-# Gender
-other = أخرى
 why-profile-title = لماذا أحتاج ملفا شخصيا؟
 why-profile-text = بتقديمك بعض المعلومات الخاصة عنك تكون البيانات الصوتية التي تُرسلها إلى «الصوت للعموم» أكثر فائدة لمحركات التعرف على النطق والتي ستستخدم هذه البيانات لتحسين دقة التعرف.
 dashboard = لوحة التحكم
@@ -48,3 +46,4 @@ skip-submission-description = سيجري تخطّي الانطباع حول إر
 skip-submission-note = اعلم أنك ما زال عليك الاختيار بين ”التحدث“ و”الاستماع“ لتغيير نوع المساهمة التي تُجريها.
 off = معطّل
 on = مفعّل
+other = أخرى

@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نونگہ ضرورَتَنہ مطابق لہجا”{ $inputValue }” شامل کېرِؤ
 profile-form-submit-save = خۡندی کېرِؤ
 profile-form-submit-saved = خُندی کېران گہ
-male_masculine = لَوڑی/ لَوڑی زَن
-female_feminine = شگالی/ شگالی رنگہ
-intersex = نرخَزَئی
-transgender = ٹرانس جېنڈر
-non-binary = غیر بائنری
-do_not_wish_to_say = ژَئیکاں ݭېنݭ نہ بِمان
-# Gender
-other = واری
 why-profile-title = پروفائل کېناں؟
 why-profile-text = تانُو بارا کی معلومات ݪِکے ݪی، مے کریَک آڈیو ڈېٹا کامن وائسہ  جمع کېرَمانېوے سے سپیک رکگنېشن اِنجن نامہ ݭڅی لؤ فائدہ من بِبہ زی تسہ ڈېٹا تانُو سئ کېرِکہ بہتر ݫُپَئیکہ ݭڅی استعمال کېرِمېت۔
 dashboard = ڈېش بورڈ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = ماں مونی باتِیَنہ منزے تھِ
 variant-contribution-option-2 = مو صرف مونہ متغیرَنی کَلاؤ نامہ اؤ کِلپسہ لېڑَؤ
 variant-contribution-warning-title = ⓘ سومّی کلاؤ نامہ اؤ کِلپسہ مختلف تېگ نہ تھنَئیت!
 variant-contribution-warning-subtitle = کېنے زی میاں کی تعاون کېرِمېنے پرېشانی بِمان بہ جو مے کرېک بی وختہ تانُو باتِیہ ݭڅی تمام موادَہ بالِکاں کی پتہ گِرن دی بَمانېؤ۔
+# Genders
+male_masculine = لَوڑی/ لَوڑی زَن
+female_feminine = شگالی/ شگالی رنگہ
+intersex = نرخَزَئی
+transgender = ٹرانس جېنڈر
+non-binary = غیر بائنری
+do_not_wish_to_say = ژَئیکاں ݭېنݭ نہ بِمان
+other = واری

@@ -18,8 +18,6 @@ native-language =
     .label = Chuahkehnak Holh
 profile-form-submit-save = Khumh
 profile-form-submit-saved = Khumh
-# Gender
-other = Adang
 why-profile-title = Zeiruang ah keimah kong cu a herh?
 why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW ttha deuh le hman deuh in a theih khawh lai.
 dashboard = Innpi
@@ -45,3 +43,4 @@ skip-submission-description = Aw tunmi kuat lioah bia halnak cu 'Kuat' ti na hme
 skip-submission-note = Theihternak: Na aw pekchanhnak thlen na duh ahcun Chim silo le Ngaih nak na thim a hau.
 off = Phih
 on = Nunh
+other = Adang

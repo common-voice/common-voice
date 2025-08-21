@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Add new custom accent "{ $inputValue }"
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
-# Gender
-other = Other
 why-profile-title = Why a profile?
 why-profile-text =
     By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
@@ -63,3 +61,4 @@ help-accent = Need some help with accent?
 help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
 help-variants = Need some help with variants?
 help-variants-explanation = Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.
+other = Other

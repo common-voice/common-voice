@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = הוספת מבטא חדש משלך "{ $inputValue }"
 profile-form-submit-save = שמירה
 profile-form-submit-saved = נשמר
-male_masculine = גבר/גברי
-female_feminine = אישה/נשית
-intersex = אינטרסקס
-transgender = טרנסג'נדר
-non-binary = א-בינארי
-do_not_wish_to_say = אעדיף שלא לומר
-# Gender
-other = אחר
 why-profile-title = בשביל מה פרופיל?
 why-profile-text = בכך שאתם משתפים מעט מידע אודותיכם, נתוני השמע שתשלחו אל Common Voice יהיו שימושיים יותר עבור מנועי זיהוי דיבור, שעושים שימוש במידע זה לשם שיפור הדיוק.
 dashboard = לוח בקרה
@@ -77,3 +69,11 @@ variant-contribution-option-1 = הראו לי משפטים ומקטעי קול �
 variant-contribution-option-2 = הראו לי משפטים ומקטעי קול מהניב שלי בלבד
 variant-contribution-warning-title = ⓘ לא כל המשפטים ומקטעי הקול משוייכים לניב מסויים עדיין!
 variant-contribution-warning-subtitle = אם נתקלת בבעיות בתרומת הקול שלך, באפשרותך לחזור למצב המראה את כל התוכן המתאים לשפה שלך בכל עת.
+# Genders
+male_masculine = גבר/גברי
+female_feminine = אישה/נשית
+intersex = אינטרסקס
+transgender = טרנסג'נדר
+non-binary = א-בינארי
+do_not_wish_to_say = אעדיף שלא לומר
+other = אחר

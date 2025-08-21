@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = اؘ نم مینل شامل تھا۔
 profile-form-submit-save = سبال
 profile-form-submit-saved = سبال تھا
-male_masculine = میش۔
-female_feminine = تریر
-intersex = شینال
-transgender = نرخزہ
-non-binary = نان باینری
-do_not_wish_to_say = جولال تہ ایر نہ بھون۔
-# Gender
-other = دی۔
 why-profile-title = پروفائل گاݨڈ ۔
 why-profile-text = تانی بارہ می گوا مولومات دای می کاں اڈیو ڈیٹا جمع تھون ۔سو تقریر می باڑ مدد تھون۔
 dashboard = ڈش بورڈ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = مٹھ اسی جب می سوا قسمہ جولا
 variant-contribution-option-2 = مٹھہ ایلا اورک کلپس تہ جولال مشا۔
 variant-contribution-warning-title = سوا جولال تہ کلپس می اوراک ٹیک نہ اشو
 variant-contribution-warning-subtitle = تو مدد تھال می گو خفگان یون تھ تو ار اؘ ٹائم رل نوٹ بھو۔
+# Genders
+male_masculine = میش۔
+female_feminine = تریر
+intersex = شینال
+transgender = نرخزہ
+non-binary = نان باینری
+do_not_wish_to_say = جولال تہ ایر نہ بھون۔
+other = دی۔

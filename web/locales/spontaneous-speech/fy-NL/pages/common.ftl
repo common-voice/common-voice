@@ -32,8 +32,11 @@ continue-with-skipped = Trochgean mei Oersloegen
 question = Fraach
 validate = Falidearje
 respond-to-prompt = Beäntwurdzje
+respond-to-prompt-mobile = Beäntwurdzje
 transcribe = Transkribearje
 check-transcriptions = Beoardiele
+check-transcriptions-mobile = Beoardiele
+tag = Label
 
 ## Not Found Page
 
@@ -45,22 +48,20 @@ accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLi
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Ingelsk
-fr = Frânsk
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba-Maleis
 meh = Miksteeksk, Súdwestlik Tlaksiako
 mel = Sintraal-Melanau
 mmc = Michoacán Mazahua
-ms-MY = Bahasa-Maleisk
 msi = Sabah-Maleisk
 pez = Eastersk Penan
 pne = Westlik Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turksk
 xkl = Keniaansk
+# Locales-Variants
+ms-MY = Bahasa-Maleisk
 
 ## Language search component
 

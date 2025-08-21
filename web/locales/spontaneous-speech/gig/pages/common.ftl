@@ -42,22 +42,20 @@ accept-privacy-and-terms = ڪآمن وآئس استمال ڪرو تم همآري
 bsy = سابهآ بيسهآ
 cdo = ڦازو
 cpx = هنگ هوآ
-en = انگريزيٚ ٻوٚلي
-fr = ڦرآنسيٚ ٻوٚلي
 hch = ويسآريٚڪآ
 kzi = ڪلابيت
 mbf = بآبآ مآلي
 meh = ڏکڻ اولهه ٽليڪسيآڪو ميڪٽيڪ
 mel = مرڪزي ميلآنو
 mmc = ميٚچوآڪآن مآزآهوآ
-ms-MY = بآسهآ مآلي
 msi = سهبآ مآلي
 pez = ايٚسترن پنن
 pne = ايٚسترن پنن
 sdo = سرين بيدهآ
 snv = سابآن
-tr = ترڪيٚ
 xkl = ڪيٚنئيٚا
+# Locales-Variants
+ms-MY = بآسهآ مآلي
 
 ## Language search component
 

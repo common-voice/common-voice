@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Agghiunci un novu accentu pirsunalizzatu "{ $inputValue }"
 profile-form-submit-save = Sarba
 profile-form-submit-saved = Sarbatu
-male_masculine = Màsculu/Masculinu
-female_feminine = Fìmmina/Fimmininu
-intersex = Ntirsissuali
-transgender = Transissuali
-non-binary = Nun-binariu
-do_not_wish_to_say = Nun u vogghiu diri
-# Gender
-other = Autru
 why-profile-title = Picchì riggistrari un prufilu?
 why-profile-text = Dànnuni nfurmazzioni ncapu di tia, i dati vucali chi manni a Common Voice sunnu cchiù ùtili pî mutura di ricanuscimentu vucali, chi ùsanu sti dati pi èssiri cchiù pricisi.
 dashboard = Panneḍḍu
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Mùstrami i frasi e i riggistrazzioni di tutti i
 variant-contribution-option-2 = Mùstrami i frasi e i riggistrazzioni sulu dâ me varianti
 variant-contribution-warning-title = ⓘ Nun sunnu tutti i frasi chi ànnu tichetti pî varianti!
 variant-contribution-warning-subtitle = Si ài prubblemi a cullabburari, po’ turnari a vìdiri tutti i cuntinuti pâ to lingua quannu voi.
+# Genders
+male_masculine = Màsculu/Masculinu
+female_feminine = Fìmmina/Fimmininu
+intersex = Ntirsissuali
+transgender = Transissuali
+non-binary = Nun-binariu
+do_not_wish_to_say = Nun u vogghiu diri
+other = Autru

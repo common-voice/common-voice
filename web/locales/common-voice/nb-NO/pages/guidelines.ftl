@@ -23,11 +23,11 @@ example = Eksempel
 ## Voice collection sidebar content
 
 varying-pronunciations-explanation-1 = Vi ønsker forskjellige dialekter og aksenter velkommen! Vær veldig forsiktig før du avviser et klipp med den begrunnelse at du tror leseren har uttalt et ord feil, har lagt vekten på feil sted, eller har ignorert tegnsetting. Det er et bredt utvalg av talemåter i bruk rundt om i verden, noen av dem har du kanskje ikke hørt i lokalsamfunnet ditt. Gi en god margin for de som kanskje snakker annerledes enn deg.
-varying-pronunciations-explanation-2 = På den annen side, hvis du tror at leseren aldri har kommet over ordet før, og gjetter feil på uttalen, vennligst avvis. Hvis du er usikker, bruk hopp over-knappen.
+varying-pronunciations-explanation-2 = På den annen side, hvis du tror at leseren aldri har kommet over ordet før, og gjetter feil på uttalen, kan du avvise. Hvis du er usikker, bruk hopp over-knappen.
 varying-pronunciations-example = Ruten var uklar.
 varying-pronunciations-tip-1 = [Canadisk engelsk kan få "route" til å høres ut som "rowt"]
 varying-pronunciations-tip-2 = [Britisk engelsk kan lage "root"]
-offensive-content-explanation = Setninger blir kontrollert gjennom en prosess for fellesskapsmoderering, men denne prosessen er ikke perfekt. Hvis du ser eller hører en setning som støter eller opprører deg - for eksempel fordi den bryter med våre <participationGuidelines>retningslinjer for fellesskapsdeltakelse</participationGuidelines> - vennligst bruk flaggknappen i brukergrensesnittet. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment>.
+offensive-content-explanation = Setninger blir kontrollert gjennom en prosess for fellesskapsmoderering, men denne prosessen er ikke perfekt. Hvis du ser eller hører en setning som støter eller opprører deg - for eksempel fordi den bryter med våre <participationGuidelines>retningslinjer for fellesskapsdeltakelse</participationGuidelines> - bruk flaggknappen i brukergrensesnittet. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Det er viktig å lese alle ordene på siden riktig. Når du lytter, sjekk veldig nøye at det som er tatt opp er nøyaktig det som er skrevet; avvis hvis de har lagt til, trukket sammen eller utelatt ord.
 misreadings-explanation-2 = Svært vanlige feil inkluderer:
 misreadings-explanation-3 = Mangler "En" eller "Den" i starten av opptaket.
@@ -53,7 +53,7 @@ background-voices-explanation = Litt bakgrunnsstøy er greit, men hvis du kan h�
 background-voices-example-1 = De gigantiske dinosaurene i triastiden. [lest av én stemme]
 background-voices-tip-1 = Kommer du? [ropes av en annen]
 volume-explanation = Det vil være naturlige variasjoner i volum på de forskjellige leserne. Avvis kun hvis volumet er så høyt at opptaket brytes opp, eller (vanligere) hvis det er så lavt at du ikke kan høre hva som blir sagt uten å referere til den skrevne teksten.
-reader-effects-explanation = De fleste opptak er av folk som snakker med sin naturlige stemme. Du kan godta en og annen ikke-standard innspilling som blir ropt, hvisket eller åpenbart lest med en "dramatisk" stemme. Vennligst avvis opptak som synges og de som bruker en datamaskinsyntetisert stemme.
+reader-effects-explanation = De fleste opptak er av folk som snakker med sin naturlige stemme. Du kan godta en og annen ikke-standard innspilling som blir ropt, hvisket eller åpenbart lest med en "dramatisk" stemme. Avvis opptak som synges og de som bruker en datamaskinsyntetisert stemme.
 just-unsure-explanation = Hvis du kommer over noe som ikke er dekket av disse retningslinjene, forsøk og velg etter beste skjønn. Hvis du ikke føler det er mulig å bedømme klippet, bruk hopp over-knappen og gå videre til neste klipp.
 still-have-questions = Har du fortsatt spørsmål?
 contact-common-voice = Kontakt Common Voice-teamet
@@ -105,7 +105,7 @@ adding-sentences-subheader-offensive-content-explanation = Hvis setningen er st�
 reviewing-sentences-explanation-1 = Hvis setningen oppfyller kriteriene ovenfor, klikker du på "Ja"-knappen.
 reviewing-sentences-explanation-2 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Nei"-knappen.
 reviewing-sentences-explanation-3 = Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
-reviewing-sentences-explanation-4 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
+reviewing-sentences-explanation-4 = Hvis du går tom for setninger å vurdere, hjelp oss med å samle inn flere setninger!
 domain-explanation = Domene refererer til emnet for setningen. For øyeblikket kan du velge mellom:
 
 ## Question collection ids
@@ -199,7 +199,9 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontantale inneholder naturlig nok falske starter, der bare en del av et ord blir uttalt. I slike tilfeller, prøv å transkribere ordfragmentet så godt du kan, og legg til en bindestrek (-) på slutten av ordet for å indikere at det er en falsk start. Eksempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Noen ganger gjentar talere et ord eller et ordfragment flere ganger. Dette skal også transkriberes. Eksempel:
+transcribe-the-audio-subheader-4-explanation-2-example = Og så gikk jeg <underline>til til til sove- til</underline> soverommet
 transcribe-the-audio-subheader-5-explanation-1 = Spontantale vil naturlig inneholde grammatiske feil. Disse skal ikke rettes under transkripsjon. Transkripsjonen skal gjenspeile det som faktisk ble sagt, nøyaktig.
+transcribe-the-audio-subheader-5-explanation-2 = Talere kan bruke slang eller muntlige uttrykk (som for eksempel på norsk «må’kke», «gidder’u» osv.) som kanskje ikke anses som formelt korrekte. Disse skal transkriberes som de er, og ikke endres til mer formelle ekvivalenter.
 
 ## Review the Transcription
 
@@ -224,8 +226,10 @@ code-switching-adding-question-note = Du bør kanskje også vurdere å strekke d
 code-switching-types-subheader = Hvilke typer spørsmål skal legges til?
 code-switching-use-bilingual-prompts-header = Bruk tospråklige spørsmål
 code-switching-use-bilingual-prompts-explanation = Bruk tospråklige spørsmål som inkluderer begge språkene i spørsmålet ditt: Eksempel:
+code-switching-use-bilingual-prompts-explanation-example = "What did your mom tell you når du kom hjem den dagen?"
 code-switching-ask-bilingual-contexts-header = Spør om tospråklige kontekster
 code-switching-ask-bilingual-contexts-explanation = Bruk situasjoner der begge språkene er vanlige (f.eks. hjemme, på skolen, ved arrangementer i lokalsamfunnet). Eksempel:
+code-switching-ask-bilingual-contexts-explanation-example = «Når du snakker med søskenbarna dine, blander dere engelsk og norsk?»
 code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige øyeblikk
 code-switching-focus-emotional-explanation = Folk bytter ofte kode når de uttrykker følelser eller hva som haster. Eksempel:
 code-switching-focus-emotional-explanation-example = «Fortell meg hva foreldrene dine sa da du fortalte dem den store nyheten — nøyaktig hvordan de sa det.»
@@ -234,6 +238,7 @@ code-switching-direct-quotes-explanation = Oppfordre deltakerne til å gjengi hv
 code-switching-direct-quotes-explanation-example = «Hva var dine eksakte ord da du fant det ut?»
 code-switching-cultural-topics-header = Velg kulturspesifikke emner
 code-switching-cultural-topics-explanation = Mat, tradisjoner, høytider og familiedynamikk inviterer ofte til kodebytte.
+code-switching-cultural-topics-explanation-example = "Hvordan forklarer du Don't be a stranger til noen som bare snakker norsk?"
 code-switching-informal-scenarios-header = Utforsk uformelle situasjoner
 code-switching-informal-scenarios-explanation = Samtaler med venner eller tekstmeldinger inkluderer ofte mer naturlig veksling. Eksempel:
 code-switching-informal-scenarios-explanation-example = «Hva er en vits vennene dine alltid drar — og hvordan sier de den?»
@@ -266,8 +271,11 @@ code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, selv om de er 
 code-switching-answer-bullet-4 = Det finnes ingen «perfekt» måte å svare på
 code-switching-authentic-header = Svar naturlig og autentisk
 code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Hvis du blander språk i det virkelige liv, gjør det samme her. Eksempel:
+code-switching-authentic-speak-example = «Well, jeg sa til henne at jeg ikke kunne dra, men hun sa bare: "Du må møte opp!"»
 code-switching-use-both-languages = <bold>Bruk begge språkene hvis det er slik du vanligvis sier det.</bold> Selv det å bytte ut bare ett eller to ord er nyttig. Eksempel:
+code-switching-use-both-languages-example = «Hun ble skikkelig sint because jeg ikke ringte henne tilbake.»
 code-switching-authentic-direct-quotes = <bold>Inkluder direkte sitater eller dialog.</bold> Si nøyaktig hva noen sa, ikke en oppryddet eller formell versjon. Eksempel:
+code-switching-authentic-direct-quotes-example = «My mom said, "Do you think this is a game?" og jeg sa: "Ok chill!"»
 code-switching-authentic-reflect = <bold>Reflekter følelser, identitet og kontekst.</bold> Veksling skjer vanligvis når folk uttrykker følelser, hvor viktig det er, eller kulturelle ideer. Ta hensyn til disse når du svarer på spørsmål.
 code-switching-authentic-full-context = <bold>Bruk fullstendige svar med kontekst.</bold> Vær så detaljert som mulig, og gi så mange detaljer som mulig. Del en historie eller et eksempel i svarene dine.
 # Don’t Overthink or Overedit
@@ -287,6 +295,7 @@ code-switching-capture-header = Skriv ned talen nøyaktig som den ble sagt
 code-switching-capture-explanation = Transkriber begge språkene slik de ser ut / høres ut. Ikke «fiks» språket eller endre det til bare ett språk.
 # Include filler words and markers
 code-switching-filler-header = Inkluder fyllord og markører
+code-switching-filler-explanation = Ord som «ehm», «liksom», «well», «du vet» og «så» er meningsfulle. Eksempel: «Så, ehm, jeg sa til henne liksom, "‘Well, I don't know", kanskje senere.»
 # Use standard spelling for each language
 code-switching-spelling-header = Bruk standard stavemåte for hvert språk
 code-switching-spelling-explanation = Prøv å stave ord riktig for hvert språk, med mindre den som snakker tydelig uttaler dem på en ikke-standard måte.
@@ -308,14 +317,27 @@ code-switching-tagging-error-3 = Ord skrevet med feil ortografi
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Bruk av riktig ortografi for hvert språk
 code-switching-orthography-explanation = Skriv hvert ord i henhold til stavemåten til språket det kommer fra. For eksempel:
+code-switching-orthography-explanation-example-1 = Hvis ordet «kitchen» uttales som på norsk, skal det skrives som på engelsk, ikke som «kittsjen».
+code-switching-orthography-explanation-example-2 = Hvis ordet jalapeño uttales som på norsk, skriv det med ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+code-switching-pronunciation-explanation = Noen ord kan se like ut på begge språk, men kan uttales forskjellig. Lytt til uttalen for å få hjelp med å merke ordene riktig. For eksempel: radio, bank, glass, sport.
+code-switching-pronunciation-explanation-example-1 = Engelsk: /ˈɹeɪ.di.əʊ/
+code-switching-pronunciation-explanation-example-2 = Norsk: /ˈrɑ̀ː.djʊ/
+# Tagging in a Single Token
+code-switching-single-token-header = Merking i et enkelt token
+code-switching-single-token-explanation = Et enkelt token atskilt med mellomrom skal inneholde mer enn én nøkkelordseksjon.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Merk tegnsetting basert på språk i nærheten
 code-switching-punctuation-tagging-explanation = Merk tegnsetting med språket nærmest venstre. Eksempler:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>og den ene gangen</purple> Maria <purple>skrek til meg var</purple> <blue>because</blue> <purple>hun prøvde å</purple> printe ut <blue>an</blue> <purple>ordre.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>men</purple> <blue>you can buy them in red, black, blue</blue>, <purple>uansett.</purple> (BangorTalk)
 # Be Careful with Lookalikes
-code-switching-lookalikes-header = Vær forsiktig med liknende ord
+code-switching-lookalikes-header = Vær forsiktig med ord som ligner på hverandre
 code-switching-lookalikes-explanation = Noen ord kan se ut som på ett språk, men brukes på det andre. Merk basert på betydning og bruk, ikke utseende. Eksempler:
+code-switching-lookalikes-explanation-example-1 = «Barn» brukt for å bety et bygg for dyr på engelsk > merk som engelsk
+code-switching-lookalikes-explanation-example-2 = «Long time no see» brukt på norsk > merk som norsk
 # When Not to Tag Words
 code-switching-not-tag-header = Når man ikke skal merke ord
 code-switching-not-tag-explanation = Noen ord skal <bold>ikke merkes</bold> med en språketikett, selv om de virker blandet eller tilpasset. Her er hvordan du bør håndtere noen eksempler:
@@ -324,7 +346,12 @@ code-switching-not-tag-proper-names-example-1 = Personer: Maria, John
 code-switching-not-tag-proper-names-example-2 = Steder: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merkenavn/organisasjoner:  Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Blandede eller morfologisk tilpassede ord.</bold> Ikke merk ord som blander språk eller har lagt til endelser fra et annet språk. Eksempler:
+code-switching-not-tag-mixed-words-example = Der roten er engelsk, men suffikset er norsk: «switche», «printet»
 code-switching-not-tag-interjections = <bold>Interjeksjoner.</bold> Interjeksjoner og fyllord, uavhengig av språk, skal forbli <bold>umerket.</bold> Eksempler:
+code-switching-not-tag-interjections-example-1 = «Eh»
+code-switching-not-tag-interjections-example-2 = «Nei»
+code-switching-not-tag-interjections-example-3 = «Ja»
+code-switching-not-tag-interjections-example-4 = «Øh»
 
 ## Reporting Content
 

@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Adde un nove accento personal "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvate
-male_masculine = Masculin
-female_feminine = Feminin
-intersex = Intersexo
-transgender = Transgene
-non-binary = Non binari
-do_not_wish_to_say = Non desira responder
-# Gender
-other = Altere
 why-profile-title = Proque un profilo?
 why-profile-text = Si tu forni alcun informationes sur te, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
 dashboard = Pannello de controlo
@@ -111,3 +103,21 @@ delete-api-key-success-toast-message = Credentiales API delite con successo
 add-api-key-name-error = Adder un nomine de credential API
 max-api-keys-reached = Excedite limite de 10 credentiales API
 duplicate-api-key-name-error = Nomine de clave API duplicate
+# Genders
+male_masculine = Masculin
+female_feminine = Feminin
+intersex = Intersexo
+transgender = Transgene
+non-binary = Non binari
+do_not_wish_to_say = Non desira responder
+other = Altere
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99

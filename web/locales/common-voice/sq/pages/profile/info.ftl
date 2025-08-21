@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Shtoni theks të ri vetjak "{ $inputValue }"
 profile-form-submit-save = Ruaje
 profile-form-submit-saved = U ruajt
-male_masculine = Mashkull/Mashkullore
-female_feminine = Femër/Femërore
-intersex = Interseks
-transgender = Ndërgjinor
-non-binary = Jo-dyor
-do_not_wish_to_say = S’dëshiroj ta them
-# Gender
-other = Tjetër
 why-profile-title = Ç’duhet profili?
 why-profile-text = Duke dhënë ca të dhëna rreth vetes, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për mekanizma Kuptimi të Folure që i përdorin këto të dhëna për përmirësimin e saktësisë së tyre.
 dashboard = Pult
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Shfaqmëni togfjalësha dhe copëza nga krejt va
 variant-contribution-option-2 = Shfaqmëni togfjalësha dhe copëza vetëm nga varianti im
 variant-contribution-warning-title = ⓘ Jo krejt togfjalëshat dhe copëzat kanë tashmë etiketa Variant!
 variant-contribution-warning-subtitle = Nëse keni probleme me dhënie kontributi, mund të ktheheni kurdo te parja e krejt lëndës për gjuhën tuaj.
+# Genders
+male_masculine = Mashkull/Mashkullore
+female_feminine = Femër/Femërore
+intersex = Interseks
+transgender = Ndërgjinor
+non-binary = Jo-dyor
+do_not_wish_to_say = S’dëshiroj ta them
+other = Tjetër

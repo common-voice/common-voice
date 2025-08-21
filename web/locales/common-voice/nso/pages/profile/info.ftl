@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Tlaleletša mokgwa wa go bolela o tlwaelegilego o mpsha "{ $inputValue }"
 profile-form-submit-save = Boloka
 profile-form-submit-saved = Bolokegile
-# Gender
-other = Bjo bongwe
 why-profile-title = Go baneng profaele?
 why-profile-text = Ka go nea boitsebišo bjo bo itšego ka wena, datha ya odio yeo o e romelago go Common Voice e tla thuša kudu go di-entšene tša Tlhathollo ya Mantšu ao a dirišago datha yeo go kaonefatša go nepagala ga tšona.
 dashboard = Dashboard
@@ -61,3 +59,4 @@ help-accent = O hloka thušo ka mokgwa wa go bolela?
 help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona. Seo se ka bopša ke moo o dutšego gona, dipolelo tše dingwe tšeo o di bolelago le dibopego tše dingwe. O ka abelana tsebišo le ge e le efe yeo o naganago gore e bohlokwa mo.
 help-variants = O hloka thušo ka mebolelo?
 help-variants-explanation = Mehuta e fapa-fapanego ke mohuta o itseng wa polelo – ka mohlala hlakanetšwego ke bao ba phelago tikologong goba setšhabeng. Ka dinako tše dingwe di bitšwa mebolelo.
+other = Bjo bongwe

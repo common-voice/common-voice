@@ -42,22 +42,20 @@ accept-privacy-and-terms = مہ راضی تھو عام اواز سو <termsLink>
 bsy = سَباح بِسایہ
 cdo = فوژو
 cpx = ھِنگ ھوا
-en = انگریزی
-fr = فرانسی
 hch = ویکسیریکا
 kzi = کیلابِٹ
 mbf = بابا ما لے
 meh = جنوب مغرب لیزیکو میکس ٹیک
 mel = سنٹرل میلانوا
 mmc = مائکوشئن مزاہوا
-ms-MY = بَحاسہ مالے
 msi = سباح مالے
 pez = مشرقی پینان
 pne = مغربی پینان
 sdo = شامی بِدایو
 snv = سا'بَن
-tr = ترکی
 xkl = کینیا
+# Locales-Variants
+ms-MY = بَحاسہ مالے
 
 ## Language search component
 

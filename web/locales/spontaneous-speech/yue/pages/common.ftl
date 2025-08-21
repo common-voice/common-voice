@@ -29,5 +29,3 @@ check-transcriptions = 檢查轉寫
 not-found-page-header = 揾唔到
 not-found-page-content = 揾唔到你想去嘅頁面
 cdo = 福州
-en = 英語
-fr = 法語

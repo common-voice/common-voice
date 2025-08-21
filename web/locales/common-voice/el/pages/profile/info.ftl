@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Προσθήκη νέας προσαρμοσμένης προφοράς «{ $inputValue }»
 profile-form-submit-save = Αποθήκευση
 profile-form-submit-saved = Έγινε αποθήκευση
-male_masculine = Αρσενικό
-female_feminine = Θηλυκό
-intersex = Διαφυλικός/-ή
-transgender = Διεμφυλικός/-ή
-non-binary = Μη δυαδικό
-do_not_wish_to_say = Δεν επιθυμώ να πω
-# Gender
-other = Άλλο
 why-profile-title = Γιατί να δημιουργήσετε προφίλ;
 why-profile-text =
     Παρέχοντας μερικά στοιχεία για τον εαυτό σας, τα ηχητικά δεδομένα που υποβάλλετε στο Common Voice θα είναι πιο χρήσιμα για τη βελτίωση της ακρίβειας
@@ -116,3 +108,11 @@ delete-api-key-success-toast-message = Επιτυχής διαγραφή δια�
 add-api-key-name-error = Προσθήκη ονόματος διαπιστευτηρίων API
 max-api-keys-reached = Έχετε υπερβεί το όριο των 10 διαπιστευτηρίων API
 duplicate-api-key-name-error = Διπλότυπο όνομα κλειδιού API
+# Genders
+male_masculine = Αρσενικό
+female_feminine = Θηλυκό
+intersex = Διαφυλικός/-ή
+transgender = Διεμφυλικός/-ή
+non-binary = Μη δυαδικό
+do_not_wish_to_say = Δεν επιθυμώ να πω
+other = Άλλο

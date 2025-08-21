@@ -42,22 +42,20 @@ accept-privacy-and-terms = مەن Common Voice نىڭ <termsLink> شەرتلىر
 bsy = ساباھ بىسايا
 cdo = فۇجۇ
 cpx = خىڭخۇا
-en = ئىنگلىزچە
-fr = فىرانسۇزچە
 hch = ۋىكسارىكا
 kzi = كېلابىت
 mbf = بابا مالاي
 meh = مىكستېك (غەربىي جەنۇپ لاكسىياكو)
 mel = مەركىزى مىلانو
 mmc = مىچوكان مازاخو
-ms-MY = باخاسا مالاي
 msi = ساباھ مالاي
 pez = شەرقىي پېنان
 pne = غەربىي پېنان
 sdo = سېرىيان بىدايۇخ
 snv = سابان
-tr = تۈركچە
 xkl = كېنىيەچە
+# Locales-Variants
+ms-MY = باخاسا مالاي
 
 ## Language search component
 

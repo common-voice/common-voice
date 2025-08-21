@@ -18,8 +18,6 @@ native-language =
     .label = Lingua materna
 profile-form-submit-save = Arcunar
 profile-form-submit-saved = Arcunà
-# Gender
-other = Oter
 why-profile-title = Perche ün profil?
 why-profile-text = Cun indichar alch infuormaziuns sur da tai, rendast las datas da tun cha tü inoltreschast a Common Voice plü ütilas a las maschinas dad identificaziun da vusch. Quistas maschinas douvran quistas datas per amegldrar lur precisiun.
 dashboard = Survista
@@ -45,3 +43,4 @@ skip-submission-description = Dürant cha tü contribuischast poust sursiglir il
 skip-submission-note = Remarcha: Tü stoust tscherner tanter Discuorra e Taidla per müdar il tip da contribuziun.
 off = Deactivà
 on = Activà
+other = Oter

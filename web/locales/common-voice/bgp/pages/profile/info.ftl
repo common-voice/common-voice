@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نوکیں وتی مرضی ءِ لہجہ " ءَ ھوار کن اِت"{ $inputValue }" ۔
 profile-form-submit-save = محفوظ کنی
 profile-form-submit-saved = محفوظ کنی انت
-male_masculine = مرد / مرد
-female_feminine = عورت /عورت
-intersex = انٹرسیکس
-transgender = ٹرانس جینڈر
-non-binary = غیر بائنری
-do_not_wish_to_say = گوئشغ ئے واھگ مہ دار
-# Gender
-other = دگہ
 why-profile-title = پروفائل پرچا؟
 why-profile-text =
     وثی باروا چندیں زانتکاری یے دئیغ ئا گوں، آڈیو ڈیٹا کہ تئو کامن وائس ئا جمع کنئے، تقریر ئا پہ گیشتر کارآمد بیث کنت
@@ -79,3 +71,11 @@ variant-contribution-option-1 = من ءَ منی زبان ءِ تہ ءَ ھرچ 
 variant-contribution-option-2 = مناں وثی دروشم ئا شہ جملہ و کلپ پیش دار
 variant-contribution-warning-title = i انگت ءَ درستیں جملہ ءُ کلپانی تہا وارینٹ ٹیگ نیست!
 variant-contribution-warning-subtitle = اگاں ترا شریک بوھگ ءَ جیڑگ ءَ اِنت گڑا تو وتی زبان ءِ ھاترا ھر وھد ءَ سرجمیں مواد ءِ گندگ ءَ پدا بدل کن ئے۔
+# Genders
+male_masculine = مرد / مرد
+female_feminine = عورت /عورت
+intersex = انٹرسیکس
+transgender = ٹرانس جینڈر
+non-binary = غیر بائنری
+do_not_wish_to_say = گوئشغ ئے واھگ مہ دار
+other = دگہ

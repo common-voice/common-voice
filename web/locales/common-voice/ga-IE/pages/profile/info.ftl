@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Cuir blas saincheaptha nua leis "{ $inputValue }"
 profile-form-submit-save = Sábháil
 profile-form-submit-saved = Sábháilte
-male_masculine = Fireann / Firinscneach
-female_feminine = Baineann / Baininscneach
-intersex = Idirghnéasach
-transgender = Trasinscneach
-non-binary = Neamhdhénártha
-do_not_wish_to_say = Ní mian liom é a chur in iúl
-# Gender
-other = Eile
 why-profile-title = Cén fáth a bhfuil gá le próifíl?
 why-profile-text = Má sholáthraíonn tú roinnt eolais fútsa féin, beidh na sonraí fuaime a thugann tú do Common Voice i bhfad níos úsáidí d'innill aitheanta cainte a úsáideann na sonraí seo chun an cruinneas a fheabhsú.
 dashboard = Painéal Eolais
@@ -59,3 +51,11 @@ email-subscriptions = Síntiúis Ríomhphoist
 download-profile = Íoslódáil mo chuid sonraí
 off = As
 on = Ann
+# Genders
+male_masculine = Fireann / Firinscneach
+female_feminine = Baineann / Baininscneach
+intersex = Idirghnéasach
+transgender = Trasinscneach
+non-binary = Neamhdhénártha
+do_not_wish_to_say = Ní mian liom é a chur in iúl
+other = Eile

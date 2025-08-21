@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = o pana e nasin kalama toki sin "{ $inputValue }"
 profile-form-submit-save = o awen e ni
 profile-form-submit-saved = ni li awen
-male_masculine = mije
-female_feminine = meli
-intersex = tonsi sijelo
-transgender = mije tonsi anu meli tonsi
-non-binary = tonsi
-do_not_wish_to_say = mi wile ala pana e sona
-# Gender
-other = ante
 why-profile-title = mi wile e lipu tan seme?
 why-profile-text = sina pana e sona sina la, kalama sina li pona mute tawa pali ni: ilo li ken kute pona e jan ale.
 dashboard = lipu suli
@@ -72,3 +64,11 @@ help-variants-explanation = mi toki e nasin toki lon ni la mi toki e ni: jan mut
 variant-contribution-option-1 = o pana e sitelen e kalama tan nasin ale pi toki mi
 variant-contribution-option-2 = o pana e sitelen e kalama tan nasin toki mi taso
 variant-contribution-warning-title = ⓘ o sona: sitelen en kalama li ken jo ala e sona nasin lon tenpo ni!
+# Genders
+male_masculine = mije
+female_feminine = meli
+intersex = tonsi sijelo
+transgender = mije tonsi anu meli tonsi
+non-binary = tonsi
+do_not_wish_to_say = mi wile ala pana e sona
+other = ante

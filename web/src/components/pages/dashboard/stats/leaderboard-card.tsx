@@ -1,19 +1,19 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { useRef, useState } from 'react';
-import { connect } from 'react-redux';
-import { useAccount, useAction } from '../../../../hooks/store-hooks';
-import API from '../../../../services/api';
-import { trackDashboard } from '../../../../services/tracker';
-import { Locale } from '../../../../stores/locale';
-import StateTree from '../../../../stores/tree';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { useRef, useState } from 'react'
+import { connect } from 'react-redux'
+import { useAccount, useAction } from '../../../../hooks/store-hooks'
+import API from '../../../../services/api'
+import { trackDashboard } from '../../../../services/tracker'
+import { Locale } from '../../../../stores/locale'
+import StateTree from '../../../../stores/tree'
 import {
   User,
   VISIBLE_FOR_NONE,
   VISIBLE_FOR_ALL,
-} from '../../../../stores/user';
-import URLS from '../../../../urls';
-import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers';
+} from '../../../../stores/user'
+import URLS from '../../../../urls'
+import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers'
 
 import {
   BookmarkIcon,
@@ -24,27 +24,27 @@ import {
   MicIcon,
   OldPlayIcon,
   PlayOutlineIcon,
-} from '../../../ui/icons';
-import { Avatar, Toggle } from '../../../ui/ui';
-import StatsCard from './stats-card';
+} from '../../../ui/icons'
+import { Avatar, Toggle } from '../../../ui/ui'
+import StatsCard from './stats-card'
 
-import './leaderboard.css';
+import './leaderboard.css'
 
-const FETCH_SIZE = 20;
+const FETCH_SIZE = 20
 
 function formatNumber(n: number) {
-  return n > 1000 ? Math.floor(n / 1000) + 'k' : n;
+  return n > 1000 ? Math.floor(n / 1000) + 'k' : n
 }
 
 interface PropsFromState {
-  api: API;
-  globalLocale: Locale.State;
+  api: API
+  globalLocale: Locale.State
 }
 
 interface Props extends PropsFromState {
-  ref: { current: any };
-  locale: string;
-  type: 'clip' | 'vote';
+  ref: { current: any }
+  locale: string
+  type: 'clip' | 'vote'
 }
 
 const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
@@ -53,36 +53,58 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
       <div>...</div>
     </button>
   </li>
-);
+)
 
 interface State {
-  rows: { position: number; [key: string]: any }[];
-  isAtEnd: boolean;
+  rows: { position: number; [key: string]: any }[]
+  isAtEnd: boolean
 }
 
 class UnconnectedLeaderboard extends React.Component<Props, State> {
   state: State = {
     rows: [],
     isAtEnd: false,
-  };
+  }
 
-  scroller: { current: HTMLUListElement | null } = React.createRef();
-  youRow: { current: HTMLLIElement | null } = React.createRef();
+  scroller: { current: HTMLUListElement | null } = React.createRef()
+  youRow: { current: HTMLLIElement | null } = React.createRef()
+
+  // added mounted + fetch token tracking
+  private _isMounted = false
+  private _fetchToken: symbol | null = null
 
   async componentDidMount() {
-    const { api, locale, type } = this.props;
-    this.setState(
-      {
-        rows: await api.forLocale(locale).fetchLeaderboard(type),
-      },
-      this.scrollToUser
-    );
+    this._isMounted = true
+    this._fetchToken = Symbol() // unique ID for this fetch
+    const { api, locale, type } = this.props
+    const token = this._fetchToken
+
+    try {
+      const rows = await api.forLocale(locale).fetchLeaderboard(type)
+      // Only set state if still mounted AND fetch token matches
+      if (this._isMounted && token === this._fetchToken) {
+        this.setState({ rows }, this.scrollToUser)
+      }
+    } catch (err) {
+      if (process.env.NODE_ENV !== 'production') {
+        console.warn('Leaderboard fetch failed', err)
+      }
+    }
+  }
+
+  componentWillUnmount() {
+    // mark as unmounted and invalidate fetch token
+    this._isMounted = false
+    this._fetchToken = null
   }
 
   async fetchMore(cursor: [number, number]) {
-    const { api, globalLocale, locale, type } = this.props;
-    trackDashboard('leaderboard-load-more', globalLocale);
-    const newRows = await api.forLocale(locale).fetchLeaderboard(type, cursor);
+    // do not fetch if unmounted
+    if (!this._isMounted) return
+
+    const { api, globalLocale, locale, type } = this.props
+    trackDashboard('leaderboard-load-more', globalLocale)
+    const newRows = await api.forLocale(locale).fetchLeaderboard(type, cursor)
     this.setState(
       ({ rows }) => {
         const allRows = [
@@ -90,49 +112,47 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
           ...rows.filter(
             r1 => !newRows.find((r2: any) => r1.clientHash == r2.clientHash)
           ),
-        ];
-        allRows.sort((r1, r2) => (r1.position > r2.position ? 1 : -1));
+        ]
+        allRows.sort((r1, r2) => (r1.position > r2.position ? 1 : -1))
         return {
           rows: allRows,
           isAtEnd: newRows.length == 0,
-        };
+        }
       },
       () => {
-        this.updateScrollIndicator();
+        this.updateScrollIndicator()
       }
-    );
+    )
   }
 
   scrollToUser = () => {
-    const row = this.youRow.current;
-    if (!row) return;
+    const row = this.youRow.current
+    if (!row) return
 
-    const scroller = this.scroller.current;
-    scroller.scrollTop = row.offsetTop - scroller.offsetTop;
-    this.updateScrollIndicator();
-  };
+    const scroller = this.scroller.current
+    scroller.scrollTop = row.offsetTop - scroller.offsetTop
+    this.updateScrollIndicator()
+  }
 
   updateScrollIndicator = () => {
-    const SIZE = 32;
-    const el = this.scroller.current;
-    el.style.setProperty(
-      '--before-height',
-      Math.min(el.scrollTop, SIZE) + 'px'
-    );
+    const SIZE = 32
+    const el = this.scroller.current
+    if (!el) return // safety check for unmounted scroll container
+    el.style.setProperty('--before-height', Math.min(el.scrollTop, SIZE) + 'px')
     el.style.setProperty(
       '--after-height',
       Math.min(el.scrollHeight - el.scrollTop - el.clientHeight, SIZE) + 'px'
-    );
-  };
+    )
+  }
 
   render() {
-    const { rows, isAtEnd } = this.state;
+    const { rows, isAtEnd } = this.state
 
     // TODO: Render <Fetchrow>s outside of `items` to flatten the list.
     const items = rows.map((row, i) => {
-      const prevPosition = i > 0 ? rows[i - 1].position : null;
+      const prevPosition = i > 0 ? rows[i - 1].position : null
       const nextPosition =
-        i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity;
+        i < rows.length - 1 ? rows[i + 1].position : isAtEnd ? 0 : Infinity
       return [
         prevPosition && prevPosition + 1 < row.position ? (
           <FetchRow
@@ -188,8 +208,8 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             }
           />
         ) : null,
-      ];
-    });
+      ]
+    })
 
     return (
       <ul
@@ -198,9 +218,10 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
         onScroll={this.updateScrollIndicator}>
         {items}
       </ul>
-    );
+    )
   }
 }
+
 const Leaderboard = connect<PropsFromState>(
   ({ api, locale }: StateTree) => ({
     api,
@@ -209,22 +230,22 @@ const Leaderboard = connect<PropsFromState>(
   null,
   null,
   { forwardRef: true }
-)(UnconnectedLeaderboard);
+)(UnconnectedLeaderboard)
 
 export default function LeaderboardCard({
   currentLocale,
 }: {
-  currentLocale?: string;
+  currentLocale?: string
 }) {
-  const account = useAccount();
-  const saveAccount = useAction(User.actions.saveAccount);
+  const account = useAccount()
+  const saveAccount = useAction(User.actions.saveAccount)
 
-  const [showInfo, setShowInfo] = useState(false);
-  const [showOverlay, setShowOverlay] = useState(false);
+  const [showInfo, setShowInfo] = useState(false)
+  const [showOverlay, setShowOverlay] = useState(false)
 
-  const leaderboardRef = useRef(null);
+  const leaderboardRef = useRef(null)
 
-  const isAccountVisible = account?.visible === VISIBLE_FOR_ALL;
+  const isAccountVisible = account?.visible === VISIBLE_FOR_ALL
 
   return (
     <StatsCard
@@ -239,7 +260,7 @@ export default function LeaderboardCard({
               <button
                 type="button"
                 onClick={() => {
-                  leaderboardRef.current.scrollToUser();
+                  leaderboardRef.current.scrollToUser()
                 }}>
                 <BookmarkIcon />{' '}
                 <Localized id="show-ranking">
@@ -317,8 +338,8 @@ export default function LeaderboardCard({
               onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
                 const visible = event.target.checked
                   ? VISIBLE_FOR_ALL
-                  : VISIBLE_FOR_NONE;
-                saveAccount({ ...account, visible });
+                  : VISIBLE_FOR_NONE
+                saveAccount({ ...account, visible })
               }}
             />
             <Localized id="visibility-explainer" vars={{ minutes: 20 }}>
@@ -356,5 +377,5 @@ export default function LeaderboardCard({
         ),
       }}
     />
-  );
+  )
 }

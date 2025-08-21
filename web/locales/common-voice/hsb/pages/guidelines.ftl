@@ -6,7 +6,7 @@ sentence-collection = Zběrka sadow
 question-collection = Zběrka prašenjow
 scripted-speech = Rěčenje ze skriptom
 spontaneous-speech = Spontane rěčenje
-dont-subheader = Špatne
+dont-subheader = Wopak:
 
 ## Voice Collection nav ids
 
@@ -105,7 +105,7 @@ adding-sentences-subheader-offensive-content-explanation = Jeli sada je njepřis
 reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
 reviewing-sentences-explanation-3 = Jeli při sadźe wěsty njejsće, móžeće ju přeskočić a z přichodnej pokročować.
-reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
+reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady hromadźić.
 domain-explanation = Tema so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
 
 ## Question collection ids
@@ -145,12 +145,28 @@ example-questions-explanation-2 = Jeli chceće rjad prašenjow za zapřijeće za
 # Answer Questions
 answer-questions = Wotmołwće na prašenja
 answer-questions-subheader = Powšitkowne pokazki
+answer-questions-explanation-1 = Přemysliće wokomik namołwu,  rozmyslće, štož chceće prajić, ale njepisajće přewjele. Klikńće na symbol ‚natočić‘. Hdyž sće natočił, móžeće na sebje słuchać, znowa natočić abo wotpósłać.
+answer-questions-explanation-2 = Mějće w myslach: Nječińće sej starosće, jeli jakotaće, wjaznjeće abo słowo wospjetujeće. To wšo su wužitne daty za inženjerow, kotřiž pospytuja, inkluziwne nastroje za rěčenske spóznaće we woprawdźitym swěće wuwiwać
+answer-questions-tip-1 = Natočće na někak ćichim městnje
+answer-questions-tip-2 = Wubjerće městno z dobrym internetnym zwiskom
+answer-questions-tip-3b = Spytajće, wašu wotmołwu na 15-30 sekundow wobmjezować
+answer-questions-tip-4 = Wobeńdźće hidypołne, našćuwowace abo hinak křiwdźace rěčenje
+answer-questions-tip-5 = Rěčće přirodnje, kaž byšće to z přećelom činił – wužiwajće swójsku wariantu, swójsku narěč a swójski akcent
+answer-questions-tip-6 = Dźeržće swoju sylnosć zwuka runoměrnu – njerjejće abo njespěwajće
 # Transcribe the Audio
 transcribe-the-audio = Awdijo transkribować
 transcribe-the-audio-subheader-1 = Powšitkowne pokazki
 transcribe-the-audio-subheader-2 = Ličby a akronymy
 transcribe-the-audio-subheader-3 = Wosebite znački
 transcribe-the-audio-subheader-4 = Słowne segmenty, wopačne spočatki, wospjetowane słowa
+transcribe-the-audio-subheader-5 = Gramatiske zmylki a wobchadnorěčne wurazy
+transcribe-the-audio-subheader-1-explanation = W cyłku měł wy wšitko napisać, štož słyšiće. To zapřijima:
+transcribe-the-audio-subheader-1-explanation-example-1 = Pisanje njeběžnosćow, inkluziwnje dlijenja a wospjetowanja
+transcribe-the-audio-subheader-1-explanation-example-2 = Woznamjenjenje šumow kaž kašel abo smjeće
+transcribe-the-audio-subheader-1-explanation-example-3 = Njesnadne wobćežowanje přez šumy kaž pozadkowe powědanje abo truby awtow
+transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiske rozdźěle a slang měli so runje tak natočić kaž wustupuja. Njekorigujće abo njewobdźěłujće rěčenje ludźi.
+transcribe-the-audio-subheader-2-explanation-1 = Ličby a symbole měli so w słowach pisać a nic z cyframi abo wosebitymi znamješkami. Přikład:
+transcribe-the-audio-subheader-2-explanation-2 = Akronymy měli so pisać, kaž so w normalnym padźe w rěči pisaja, po standardnych prawidłach za wulkopisanje. Njeměli so fonetisce transkribować. Přikład:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Prawje</correct>: Je sto kilometrow wottud zdalene.
 # text wrapped in wrong will be shown as red text in the UI
@@ -161,6 +177,9 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Prawje</correct>:
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wopak</wrong>: Widźimy so w <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Prawje</correct>: Běše dwaceći procentow rabata
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Wopak</wrong>: Běše 20 % rabata
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Prawje</correct>: Buchu wot <underline>BKA</underline> zańdźeny štwórtk zajeći
+transcribe-the-audio-subheader-2-example-4-wrong = <correct>Wopak</correct>: Buchu wot <underline>be-ka-a</underline> zańdźeny štwórtk zajeći
+transcribe-the-audio-subheader-3-explanation = Slědowace specialne znački měli so wužiwać, zo bychu njeběžnosć, pjelnjace słowa a druhe typy njewerbalneho wobsaha (jendźelsce) markěrowali.
 tags-table-header-1 = Značka
 tags-table-header-2 = Woznam
 tags-laugh = Smjeće
@@ -168,38 +187,175 @@ tags-disfluency = Njeběžnosć
 tags-unclear = Njejasny
 tags-noise = Šum
 tags-laugh-explanation = Zynk smjeća.
+tags-disfluency-explanation =
+    Pjelnjace słowo abo pjelnjacy zwuk, kotrejž so jako zastupnik wužiwatej, mjeztym zo rěčnik rozsudźa, štož ma prajić.
+    W hornjoserbšćinje su „em“, „eh“, „hm“ atd. někotre běžne zwuki dlijenja.
+tags-unclear-explanation = Słowo abo słowna skupina, kotrejž njehodźitej so rozumić.
+tags-noise-explanation =
+    Kóžda družina šuma, na přikład hdyž rěčnik kašluje abo  zakašluje,
+    awto trubi, něšto mikrofon trjechi, telefon, kotryž zynči atd.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    A potom sym [šum] do dowola jěł.
+    Nó, [šum] [smjeće] njeje poprawom dowol był [smjeće]
+transcribe-the-audio-subheader-4-explanation-1 = Spontane rěčenje po přirodźe mylne starty wobsahuje, hdźež so jenož fragment słowa płodźi. Transkribujće prošu za tute pady słowny fragment po wašich najlěpšich kmanosćach a přidajće wjazawku (-) na kóncu słowa, zo byšće podał, zo słowo je mylny start. Přikład:
+transcribe-the-audio-subheader-4-explanation-1-example = Jeho mjeno je <underline>Jo- Jona-</underline> Jonatan.
+transcribe-the-audio-subheader-4-explanation-2 = Druhdy rěčnicy słowo abo słowne fragmenty wjacekróć wospjetuja. To měło so tež transkribować. Přikład:
+transcribe-the-audio-subheader-4-explanation-2-example = A potom sym <underline>do, do, do, spanskeje, do</underline> spanskeje stwy šoł
+transcribe-the-audio-subheader-5-explanation-1 = Spontane rěčenje wězo gramatiske zmylki wobsahuje. Te njedyrbjeli so korigować, hdyž so transkribuja. Transkripcija měła rěčany wobsah dokładnje wotbłyšćować.
+transcribe-the-audio-subheader-5-explanation-2 = Rěčnicy móža wobchadnorěčne wurazy wužiwać (na přikład „žno“, “šće“ atd. w hornjoserbšćinje), kotrež formalnje korektne njejsu. Tute měli so transkribować kaž su a njeměli so do swojich formelnych wotpowědnikow změnić.
 
 ## Review the Transcription
 
 review-the-transcription = Přepruwujće transkripciju
 review-the-transcription-subheader = Powšitkowne pokazki
+review-the-transcription-explanation-1 = W normalnym padźe poručamy, zo wosoba, kotraž transkripciju přepruwuje, njeměła samsna wosoba być, kotraž je originalnu transkripciju činiła. Je jara ćežko, swójske dźěło přepruwować! Wjacore linki přepruwowanja móža pomhać, zawěsćenje kwality bóle robustne činić a pomhaja, předsudki a problemy wosłabić.
+review-the-transcription-explanation-2 = Čitajće směrnicy transkripcije horjeka, zo byšće přepruwował, hač transkripcija je korektna. Móžeće wobdźěłanja podać a je wotpósłać.
+review-the-transcription-explanation-3 = Hišće raz, móžeće wobsah woznamjenić, kotryž je křiwdźacy, škódny abo hewak někak trašacy, a wotstronja so z wašeho dožiwjenja, doniž team Common Voice njemóže jón přepruwować a přepytować.
 
 ## Code-Switching
 
+code-switching = Přepinanje koda
 adding-a-question = Prašenje přidać
 # Adding a Question
 code-switching-adding-question-subheader = Što dobre prašenje twori?
 code-switching-adding-question-explanation = Dobre prašenje za datowe sadźby zjawneho wobdźělenja měło:
-code-switching-adding-question-criteria-1 = Lochko rozumić być a na so wotmołwić dać
+code-switching-adding-question-criteria-1 = lochko rozumić być a na so wotmołwić dać
 code-switching-adding-question-criteria-2 = Powšitkownje relewantne być
 code-switching-adding-question-criteria-3 = Křiwdźacu abo njepřistojnu rěč njewužiwać
 code-switching-adding-question-note = Móžeće tež rozwažować, rozdźělne konteksty a domeny zapřijeć.
 # What types of questions to add
 code-switching-types-subheader = Kotre typy prašenjow maja so přidać?
-code-switching-dont-header = Špatne
+code-switching-use-bilingual-prompts-header = Dwurěčne namołwy wužiwać
+code-switching-use-bilingual-prompts-explanation = Wužiwajće dwurěčne namołwy, kotrež wobě rěči we wašim prašenju wopřijimaja: Přikład:
+code-switching-use-bilingual-prompts-explanation-example = „Was hat deine Mama gesagt, hdyž sće so tón dźeń domoj wróćił?“
+code-switching-ask-bilingual-contexts-header = Prašejće so za dwurěčnymi kontekstami
+code-switching-ask-bilingual-contexts-explanation = Wužiwajće situacije, hdźež so wobě rěči zwjetša wužiwatej (na př. doma, w šuli, na podawkach zhromadźenstwa). Přikład:
+code-switching-ask-bilingual-contexts-explanation-example = „Hdyž ze swojimi kuzinami rěčiće, měšeće němčinu a hornjoserbšćinu?“
+code-switching-focus-emotional-header = Koncentrujće so na emocionalne abo riskantne momenty
+code-switching-focus-emotional-explanation = Ludźo husto rěčny kod měnjeja, hdyž začuća abo nuznosć zwuraznjeja. Přikład:
+code-switching-focus-emotional-explanation-example = „Prajće mi, štož wašej staršej stej prajiłoj, hdyž sće jimaj swoje wulke nowosće powědał – runje kak stej to prajiłoj.“
+code-switching-direct-quotes-header = Prašejće so za direktnymi citatami abo rekonstrukcijemi
+code-switching-direct-quotes-explanation = Pozbudźće wobdźělnikow reprodukować, kak su so wěcy woprawdźe prajili. Přikład:
+code-switching-direct-quotes-explanation-example = „Kotre su waše eksaktne słowa, hdyž sće wo tym zhonił?“
+code-switching-cultural-topics-header = Wubjerće kulturnospecifiske temy
+code-switching-cultural-topics-explanation = Jědź, tradicije, swjate dny a swójbna dynamika husto k změnje rěčneho koda wjedu.
+code-switching-cultural-topics-explanation-example = „Kak někomu Día de los Muertos wopisujeće, kiž jenož hornjoserbšćinu rěči?“
+code-switching-informal-scenarios-header = Wuslědźće informelne scenarije
+code-switching-informal-scenarios-explanation = Rozmołwy z přećelemi abo pisanje SMS husto přirodniše změnjenje wobsahuja. Přikład:
+code-switching-informal-scenarios-explanation-example = „Kotry žort waši přećeljo  přeco činja – a kak byšće jón powědał?“
+# What to Avoid
+code-switching-avoid-subheader = Što dyrbjał wy wobeńć
+code-switching-avoid-intro = Prašenja, kotrež:
+code-switching-avoid-1 = Informacije požadać, kotrež wosoby identifikuja
+code-switching-avoid-2 = Wo hidypołne rěčenje abo druhe předzajate abo křiwdźace začuća prosyć
+code-switching-avoid-3 = kotrež móhli k tomu wjesć, zo něchtó sensibelne, potencielnje wuwołowace wotmołwy dźěli
+code-switching-dont-header = Wopak:
+code-switching-dont-1 = Njewužiwajće přeformalnu rěč
+# Reviewing a Question
+code-switching-review-subheader = Prašenje přepruwować
+code-switching-review-intro = Zaručće, zo prašenje kriterijam wotpowěduje:
+code-switching-review-criterion-1 = lochko rozumić być a na so wotmołwić dać
+code-switching-review-criterion-2 = powšitkownje relewantne być
+code-switching-review-criterion-3 = křiwdźacu abo njepřistojnu rěč njewužiwać
+code-switching-review-does-not-header = A <bold>NJE</bold>wobsahuje:
+code-switching-review-offensive-content = <bold>Njepřistojny wobsah abo sensibelne informacije</bold>
+code-switching-answer-header = Njepřistojny wobsah abo sensibelne informacije
+code-switching-review-no-1 = Prašenja, kotrež sej informacije wo wosobinskej identiće wuprošuja
+code-switching-review-no-2 = Prašenja, kotrež sej móhli rěčenja hidy abo druhe stroniske abo njepřistojne začuća wuprošować
+code-switching-review-no-3 = Prašenja, kotrež móhli k tomu wjesć, sensibelne, potencielnje wuwołowace wotmołwy dźělić
 # Answering a Question
 code-switching-answer-subheader = Na prašenje wotmołwić
+code-switching-answer-intro = Cil wotmołwy na prašenje je, zo přirodnje wotmołwjeće – runje tak kaž w rozmołwje we woprawdźitym žiwjenju. Chcemy zwěsćić, kak so rěče poprawom we wšědnym rěčenju měšeja.
+code-switching-answer-bullet-1 = Myslće na wokomiki woprawdźiteho žiwjenja: žorty, argumenty, tradicije
+code-switching-answer-bullet-2 = Předstajće sej, zo přećelej SMS pisaće abo stawizničku powědaće
+code-switching-answer-bullet-3 = Wužiwajće słowa, kotrež byšće woprawdźe wužiwał, byrnjež wupožčene abo měšane byli
+code-switching-answer-bullet-4 = Njeje „perfektna“ móžnosć za wotmołwu
+code-switching-authentic-header = Wotmołwće přirodnje a awtentisce
+code-switching-authentic-speak = <bold>Rěčće, kaž byšće to z přećelemi abo swójbu činił.</bold> Jeli rěče we woprawdźitym žiwjenju měšeće, čińće samsne tu. Přikład:
+code-switching-authentic-speak-example = „Nun, sym jej prajił, zo njemóžu přińć, ale wona praješe ‚By lěpje było‘, hdy by přišoł!“
+code-switching-use-both-languages = <bold>Wužiwajće wobě rěči, jeli byšće to w normalnym padźe tak prajił.</bold> Je samo wužitnje, hdyž jenož jedne słowo abo dwě słowje měnjeće. Přikład:
+code-switching-use-both-languages-example = „Je woprawdźe hněwna był, weil njejsym ju wróćo zazwonił.“
+code-switching-authentic-direct-quotes = <bold>Zasadźće direktne citaty abo dialog.</bold> Prajće eksaktnje, štož něchtó praješe, nic porjedźenu abo formelnu wersiju. Přikład:
+code-switching-authentic-direct-quotes-example = „Meine Mama hat gesagt, ‚glaubst du, dass das ein Spiel ist?‘ a ja prajach, ‚W porjadku, wotreaguj so!‘“
+code-switching-authentic-reflect = <bold>Wotbłyšćujće emocije, identitu a kontekst.</bold> Změna rěče so zwjetša stawa, hdyž ludźo emociju, nuznosć abo kulturelne ideje zwuraznjeja. Wužiwajće to, hdyž na prašenja wotmołwjeće.
+code-switching-authentic-full-context = <bold>Wužiwajće dospołne wotmołwy z kontekstom.</bold> Budźće tak nadrobny kaž móžno a podajće telko podrobnosćow kaž móžeće. Dźělće stawizničku abo přikład w swojich wotmołwach.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Njepřemyslujće abo njewobdźěłujće přewjele
+code-switching-answer-dont-correct-language = <bold>„Njekorigujće“ swoju rěč.</bold> To test njeje. „Prawa“ forma tu wažna njeje, ale přirodna rěč.
+code-switching-answer-dont-avoid-switching = <bold>Wobeńdźće změnu rěče, jeli to hewak tak činiće.</bold> Je w porjadku, hdyž wosrjedź sady, wosrjedź mysle abo jenož za jedne słowo rěč měnjeće.
+code-switching-answer-dont-formal-writing = <bold>Rěčće, kaž byšće formelnje pisał.</bold> Wobeńdźće formelne, akademiske wotmołwy. Wužiwajće rěč, kotraž je zwučena za rozmołwy.
+code-switching-answer-dont-force-switch = <bold>Wunuzujće změnjenje rěče, jeli přirodne njeje.</bold> Změńće rěč jenož potom, hdyž byšće w tajkej situaciji přirodnje rěčał.
+code-switching-answer-dont-translate-repeat = <bold>Přełožujće abo wospjetujće wšitko.</bold> Prošu prajće to jenož jónkróć, tak kaž by w rozmołwje wustupowało. Njetrjebaće wersiju wotmołwy w kóždej rěči prajić.
 # Transcribing
 code-switching-transcribe-subheader = Transkribować
+code-switching-transcribe-intro = Hdyž wotmołwy transkribujeće, kotrež změnu rěče wobsahuja, předstajće rěč rěčnika tak, kaž je so rěčała – bjez korekturow, wobdźěłanjow abo zjednorjenjow. To za wšě změny mjez rěčemi, informelne rěčenje a słowa z rozdźělnych rěčow płaći.
+code-switching-transcribe-do-1 = Wothrajće krótke segmenty wjacekróć, zo byšće subtilne změny spóznał
+code-switching-transcribe-do-2 = Zastajće po kóždej sadźe, zo byšće změny rěče abo měšane słowa dwójce přepruwował
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Natočće rěčenje eksaktnje kaž so rěči
+code-switching-capture-explanation = Transkribujće wobě rěči kaž so jewitej / klinčitej. Nje„porjedźejće“ rěč abo njeměnjejće jej do jenož jedneje rěče.
+# Include filler words and markers
+code-switching-filler-header = Pjelnjace słowa a marki zapřijeć
+code-switching-filler-explanation = Słowa kaž „em“, „kaž“, „nun“, „wěš“ a „also“ su zmysłapołne. Přikład: „No, em, sym jej prajił, ‚nun ich weiß nicht, snano pozdźišo.‘“
+# Use standard spelling for each language
+code-switching-spelling-header = Standardny prawopis za kóždu rěč wužiwać
+code-switching-spelling-explanation = Spytajće słowa za kóždu rěč korektnje pisać, chibazo rěčnik je jasnje na njestandardizowane wašnje wurjekuje.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Njerumujće abo njezjednorjejće rěč
+code-switching-cleanup-1 = Přełožće abo přepisajće – pisajće, štož rěčnik je prajił, nic štož je „měnił“.
+code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wurjekowanje – wobchowajće přirodne wužiće rěčnika.
+code-switching-cleanup-3 = Změnjenja přeskočić, kotrež so snadne abo małe zdadźa – samo wupožčene słowa su wažne.
+code-switching-cleanup-4 = Zasadźće interpunkciju, kotraž móhła woznam změnić – dźeržće běh přirodny.
+code-switching-cleanup-5 = Měnić, zo rěč kóždeho słowa znajeće – markěrujće po wužiću.
+# Tagging
+code-switching-tagging-subheader = Markěrowanje
+code-switching-tagging-error-intro = Jeli transkripcija zmylk wobsahuje, wužiwajće prošu zdźělensku funkciju, zo byšće jón woznamjenił. Móžne zmylki su:
+code-switching-tagging-error-1 = Wopačna interpunkcija abo wopačne wulkopisanje
 code-switching-tagging-error-2 = Pisanske zmylki
+code-switching-tagging-error-3 = Słowa z prawopisnymi zmylkami
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Korektny prawopis za kóždu rěč wužiwać
+code-switching-orthography-explanation = Pisajće kóžde słowo w prawopisu rěče, z kotrejež pochadźa. Na přikład:
+code-switching-orthography-explanation-example-1 = Jeli so słowo „kitchen“ kaž w španišćinje wurjekuje, měło so kaž w jendźelšćinje pisać, nic jako „quichen“.
+code-switching-orthography-explanation-example-2 = Jeli so słowo quinceaños kaž w jendźelšćinje wurjekuje, pisajće jo z ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Wurjekowanje za zwěsćenje rěče wužiwać
+code-switching-pronunciation-explanation = Někotre słowa móhli we woběmaj rěčomaj jenak wupadać, ale so rozdźělnje wurjekować. Słuchajće na wurjekowanje, zo byšće korektnje markěrował. Na přikład: kabl, taco, akter, detektiw.
 code-switching-pronunciation-explanation-example-1 = Jendźelsce: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španisce: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Markěrowanje w jeničkim tokenje
+code-switching-single-token-explanation = Jednotliwy token, kotryž je přez mjezotu dźěleny, měł wjace hač jedyn markěrowany wobłuk wobsahować.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Interpunkciju na zakładźe rěče w bliskosći markěrować
+code-switching-punctuation-tagging-explanation = Interpunkciju markěrować, kotraž rěč wužiwa, kotraž je najdale nalěwo. Přikłady:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>a jenički raz, zo</purple> Maria <purple> mje zarjeji, běše</purple> <blue>weil</blue> <purple>pospytowaše</purple> <blue>un</blue> <purple>skazanku</purple> drucken. (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>ale</purple> <blue>du kannst ein rotes, schwarzes, blaues kaufen</blue>, <purple>štožkuli.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Bjerće na kedźbu ze słowami, kotrež podobnje wupadaja
+code-switching-lookalikes-explanation = Někotre słowa kaž jedna rěč wupadaja, ale wužiwaja so w druhej. Markěrujće po woznamje a wužiću, nic po napohledźe. Přikłady:
+code-switching-lookalikes-explanation-example-1 = „Footing“ w normalnym padźe w španišćinje běhanje woznamjenja > markěrujće jo jako španiski
+code-switching-lookalikes-explanation-example-2 = „No problemo“ so w jendźelšćinje wužiwa > markěrujće jo jako jendźelski
+# When Not to Tag Words
+code-switching-not-tag-header = Hdyž njeměli so słowa markěrować
+code-switching-not-tag-explanation = Někotre słowa <bold>njeměli so z rěčnym popisom markěrować</bold>, samo hdyž zda so, zo su měšane abo přiměrjene. Tu su někotre přikłady:
+code-switching-not-tag-proper-names = <bold>Swójske mjena.</bold> Mjena wosobow, městnow a organizacijow njeměli so markěrować. Přikłady:
 code-switching-not-tag-proper-names-example-1 = Wosoby: Maria, John
+code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Měšane abo morfologisce přiměrjene słowa.</bold> Njemarkěrujće słowa, kotrež rěče měšeja abo maja přidate kóncowki z druheje rěče. Přikłady:
+code-switching-not-tag-mixed-words-example = Hdźež korjeń je jendźelski, ale sufiks je španiski: „parkear“, „printearlo“
+code-switching-not-tag-interjections = <bold>Interjekcije.</bold> Interjekcije a pjelnjace słowa měli njedźiwajo na rěč <bold>njemarkěrowane</bold> wostać. Přikłady:
 code-switching-not-tag-interjections-example-1 = „Eh“
 code-switching-not-tag-interjections-example-2 = „Ně“
 code-switching-not-tag-interjections-example-3 = „Haj“
-code-switching-not-tag-interjections-example-4 = „Em“
+code-switching-not-tag-interjections-example-4 = „Hm“
 
 ## Reporting Content
 
+reporting-content = Wobsah zdźělić
 reporting-content-subheader = Powšitkowne pokazki
+reporting-content-explanation-1 = Dyrbiće wobsah markěrować, kotryž je křiwdźacy, škódny abo hewak někak trašacy. Njesmě tež  wosobinske informacije kaž na přikład telefonowe čisła abo adresy wobsahować. Wotstroni so z wašeho pola widźenja, doniž team Common Voice njemóže jón přepruwować a přepytować.
+reporting-content-explanation-2 = Zo byšće wobsah zdźělił, wubjerće tłóčatko „Zdźělić“ a potom jedne nastajenje abo wšě nastajenja: Křiwdźacy wobsah, Druha rěč, Informacije, kotrež wosoby identifikuja, Druhe. Podajće wottud dalše podrobnosće wo tym, čehodla wobsah w tekstowym polu zdźěleće. Klikńće potom a tłóčatko Zdźělić, zo byšće rozprawu wotpósłał.

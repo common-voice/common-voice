@@ -31,10 +31,7 @@ check-transcriptions = Senqed
 not-found-page-header = Ulac-it
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Qebleɣ <termsLink>Tiwtilin</termsLink> d <privacyLink> Tasertit n tbaḍnit </privacyLink> n Common Voice
-en = Taglizit
-fr = Tafransist
 meh = Tlaxiaco Mixtec n unẓul
-tr = Taṭurkit
 
 ## Language search component
 

@@ -226,18 +226,22 @@ code-switching-adding-question-note = Du bør kanskje også vurdere å strekkje 
 code-switching-types-subheader = Kva typar spørsmål skal leggjast til?
 code-switching-use-bilingual-prompts-header = Bruk tospråklege spørsmål
 code-switching-use-bilingual-prompts-explanation = Bruk tospråklege spørsmål som inkluderer begge språka i spørsmålet ditt: Døme:
+code-switching-use-bilingual-prompts-explanation-example = «Well, eg sa til henne at eg ikkje kunne dra, men ho sa berre: "Du må møte opp!"»
 code-switching-ask-bilingual-contexts-header = Spør om tospråklege kontekstar
 code-switching-ask-bilingual-contexts-explanation = Bruk situasjonar der begge språka er vanlege (t.d. heime, på skulen, ved arrangement i lokalsamfunnet). Døme:
 code-switching-ask-bilingual-contexts-explanation-example = «Når du snakkar med søskenbarna dine, blandar de spansk og engelsk?»
 code-switching-focus-emotional-header = Fokuser på emosjonelle eller viktige stunder
+code-switching-focus-emotional-explanation = Folk byter ofte kode når dei uttrykkjer kjensler eller noko som hastar. Døme:
 code-switching-focus-emotional-explanation-example = «Fortel meg kva foreldra dine sa då du fortalde dei den store nyheita — nøyaktig korleis dei sa det.»
 code-switching-direct-quotes-header = Be om direkte sitat eller attforteljingar
 code-switching-direct-quotes-explanation = Oppmod deltakarane til å gi att korleis ting faktisk vart sagt. Døme:
 code-switching-direct-quotes-explanation-example = «Kva var dei eksakte orda dine då du fann det ut?»
 code-switching-cultural-topics-header = Vel kulturspesifikke emne
 code-switching-cultural-topics-explanation = Mat, tradisjonar, høgtider og familiedynamikk inviterer ofte til kodebyte.
+code-switching-cultural-topics-explanation-example = «Korleis forklarar du Don't be a stranger til nokon som berre snakkar norsk?»
 code-switching-informal-scenarios-header = Utforsk uformelle situasjonar
 code-switching-informal-scenarios-explanation = Samtalar med vennar eller tekstmeldingar inkluderer ofte meir naturleg veksling. Døme:
+code-switching-informal-scenarios-explanation-example = «Kva er ein vits vennane dine alltid dreg — og korleis fortel dei han?»
 # What to Avoid
 code-switching-avoid-subheader = Kva du bør unngå
 code-switching-avoid-intro = Spørsmål som kan vere:
@@ -267,8 +271,11 @@ code-switching-answer-bullet-3 = Bruk ord du faktisk ville brukt, sjølv om dei 
 code-switching-answer-bullet-4 = Det finst ingen «perfekt» måte å svare på
 code-switching-authentic-header = Svar naturleg og autentisk
 code-switching-authentic-speak = <strong>Snakk som du ville gjort med venner eller familie.</strong> Om du blandar språk i det verkelege livet, gjer det same her. Døme:
+code-switching-authentic-speak-example = «Well, eg sa til henne at eg ikkje kunne dra, men ho sa berre: "Du må møte opp!"»
 code-switching-use-both-languages = <bold>Bruk begge språka dersom det er slik du vanlegvis seier det.</bold> Sjølv det å byte ut berre eitt eller to ord er nyttig. Døme:
+code-switching-use-both-languages-example = «Ho vart skikkeleg sint because eg ikkje ringde henne tilbake.»
 code-switching-authentic-direct-quotes = <bold>Inkluder direkte sitat eller dialog.</bold> Sei nøyaktig kva nokon sa, ikkje ein opprydda eller formell versjon. Døme:
+code-switching-authentic-direct-quotes-example = «My mom said, "Do you think this is a game?" og eg sa: "Ok chill!"»
 code-switching-authentic-reflect = <bold>Reflekter kjensler, identitet og kontekst.</bold> Veksling skjer vanlegvis når folk uttrykkjer kjensler, kor viktig det er, eller kulturelle idear. Ta omsyn til desse når du svarar på spørsmål.
 code-switching-authentic-full-context = <bold>Bruk fullstendige svar med kontekst.</bold> Ver så detaljert som mogleg, og gi så mange detaljar som mogleg. Del ei historie eller eit døme i svara dine.
 # Don’t Overthink or Overedit
@@ -288,7 +295,67 @@ code-switching-capture-header = Skriv ned talen nøyaktig som han vart sagt
 code-switching-capture-explanation = Transkriber begge språka slik dei ser ut / høyrest ut. Ikkje «fiks» språket eller endre det til berre eitt språk.
 # Include filler words and markers
 code-switching-filler-header = Inkluder fyllord og markørar
+code-switching-filler-explanation = Ord som «ehm», «liksom», «well», «du veit» og «så» er meiningsfulle. Døme: «Så, ehm, eg sa til henne liksom, "‘Well, I don't know", kanskje seinare.»
+# Use standard spelling for each language
+code-switching-spelling-header = Bruk standard stavemåte for kvart språk
+code-switching-spelling-explanation = Prøv å stave ord rett for kvart språk, med mindre den som snakkar tydeleg uttalar dei på ein ikkje-standard måte.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Ikkje rydd opp eller forenkle språket
+code-switching-cleanup-1 = Omsetje eller omskrive – skriv det talaren faktisk sa, ikkje kva han «meinte».
+code-switching-cleanup-2 = «Korrekt» grammatikk eller uttale – behald den naturlege bruken til talaren.
+code-switching-cleanup-3 = Hopp over byter som verkar små eller ubetydelege – sjølv lånte ord har noko å seie.
+code-switching-cleanup-4 = Set inn teiknsetjing som kan endre betydninga – hald flyten naturleg.
+code-switching-cleanup-5 = Rekn med at du kjenner språket til kvart ord – merk basert på bruk.
+# Tagging
+code-switching-tagging-subheader = Merking
+code-switching-tagging-error-intro =
+    Viss transkripsjonen inneheld ein feil, bruk rapporteringsfunksjonen for å markere han.  
+    Moglege feil inkluderer:
+code-switching-tagging-error-1 = Feil teiknsetjing eller bruk av store/små bokstavar
+code-switching-tagging-error-2 = Skrivefeil
+code-switching-tagging-error-3 = Ord skrivne med feil ortografi
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Bruk av rett ortografi for kvart språk
+code-switching-orthography-explanation = Skriv kvart ord i samsvar med stavemåten til språket det kjem frå. Til dømes:
+code-switching-orthography-explanation-example-1 = Viss ordet «kitchen» vert uttalt som på norsk, skal det skrivast som på engelsk, ikkje som «kittsjen».
+code-switching-orthography-explanation-example-2 = Viss ordet jalapeño vert uttalt som på norsk, skriv det med ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Bruk uttale for å bestemme språket
+code-switching-pronunciation-explanation = Nokre ord kan sjå like ut på begge språk, men kan uttalast ulikt. Lytt til uttalen for å få hjelp med å merke orda rett.  Til dømes: kabel, taco, skodespelar, detektiv.
+code-switching-pronunciation-explanation-example-1 = Engelsk: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spansk: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Merking i eit enkelt token
+code-switching-single-token-explanation = Eit enkelt token skilt med mellomrom skal innehalde meir enn éin nøkkelordseksjon.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Merk teiknsetjing basert på språk i nærleiken
+code-switching-punctuation-tagging-explanation = Merk teiknsetjing med språket nærast venstre. Døme:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>og den eine gongen</purple> Maria <purple>skreik til meg var</purple> <blue>because</blue> <purple>ho prøvde å</purple> printe ut <blue>an</blue> <purple>ordre.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>men</purple> <blue>you can buy them in red, black, blue</blue>, <purple>uansett.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Ver varsam med ord som liknar på kvarandre
+code-switching-lookalikes-explanation = Nokre ord kan sjå ut som på eitt språk, men brukast på det andre. Merk basert på betydning og bruk, ikkje utsjånad. Døme:
+code-switching-lookalikes-explanation-example-1 = «Barn» brukt for å bety eit bygg for dyr på engelsk > merk som engelsk
+code-switching-lookalikes-explanation-example-2 = «No problemo» brukt på engelsk > merk som engelsk
+# When Not to Tag Words
+code-switching-not-tag-header = Når ein ikkje skal merke ord
+code-switching-not-tag-explanation = Nokre ord skal <bold>ikkje merkast</bold> med ein språketikett, sjølv om dei ser ut til å vere blanda eller tilpassa.  Her er nokre døme på handsaming:
+code-switching-not-tag-proper-names = <bold>Særnamn.</bold> Namn på personar, stader og organisasjonar skal ikkje merkast. Døme:
+code-switching-not-tag-proper-names-example-1 = Personar: Maria, John
+code-switching-not-tag-proper-names-example-2 = Stadar: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Merkenamn/organisasjonar:  Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Blanda eller morfologisk tilpassa ord.</bold> Ikkje merk ord som blandar språk eller har lagt til endingar frå eit anna språk. Døme:
+code-switching-not-tag-mixed-words-example = Der rota er engelsk, men suffikset er norsk: «switche», «printa»
+code-switching-not-tag-interjections = <bold>Interjeksjonar.</bold> Interjeksjonar og fyllord, uavhengig av språk, skal halde fram med å vere <bold> umerkte.</bold> Døme:
+code-switching-not-tag-interjections-example-1 = «Eh»
+code-switching-not-tag-interjections-example-2 = «Nei»
+code-switching-not-tag-interjections-example-3 = «Ja»
+code-switching-not-tag-interjections-example-4 = «Øh»
 
 ## Reporting Content
 
+reporting-content = Rapportering av innhold
 reporting-content-subheader = Generell rettleiing
+reporting-content-explanation-1 = Du må merke innhald som er støytande, skadeleg eller på annan måte urovekkjande. Det må heller ikkje innehalde personopplysningar som telefonnummer eller adresser. Slikt innhald vil bli fjerna frå opplevinga di inntil Common Voice-teamet har gått gjennom det og undersøkt nærare.
+reporting-content-explanation-2 = For å rapportere innhald, vel «Rapportar»-knappen og vel eitt eller fleire alternativ: Støytande innhald, Annet språk, Personopplysninger, Anna. Skriv deretter meir informasjon om kvifor du rapporterer innhaldet i tekstfeltet. Til slutt sender du rapporten ved å klikke på «Rapporter»-knappen.

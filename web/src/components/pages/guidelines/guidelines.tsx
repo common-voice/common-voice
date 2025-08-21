@@ -101,6 +101,7 @@ const Guidelines = () => {
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
               <SidebarNavSection
+                key={'section-voice-collection'}
                 sectionId="voice-collection"
                 items={VOICE_COLLECTION_ITEMS}
                 selectedTabOption={selectedTabOption}
@@ -110,6 +111,7 @@ const Guidelines = () => {
                 tabSearchParam="?tab=scripted-speech"
               />
               <SidebarNavSection
+                key={'section-sentence-collection'}
                 sectionId="sentence-collection"
                 items={SENTENCE_COLLECTION_ITEMS}
                 selectedTabOption={selectedTabOption}
@@ -153,14 +155,18 @@ const Guidelines = () => {
                 },
               ].map(({ sectionId, items }) => (
                 <SidebarNavSection
-                  key={sectionId}
+                  key={`section-${sectionId}`}
                   sectionId={sectionId}
                   items={items}
                   selectedTabOption={selectedTabOption}
                   setSelectedTabOption={setSelectedTabOption}
                   selectedSection={selectedSection}
                   setSelectedSection={setSelectedSection}
-                  tabSearchParam="?tab=spontaneous-speech"
+                  tabSearchParam={
+                    sectionId === 'code-switching'
+                      ? '?feature=code-switch&tab=spontaneous-speech'
+                      : '?tab=spontaneous-speech'
+                  }
                 />
               ))}
             </nav>
@@ -176,7 +182,7 @@ const Guidelines = () => {
             <h1 />
           </Localized>
           <div className="text-container">
-            <p>
+            <div>
               <RoundButton>
                 <DiscourseLink data-testid="discourse-button">
                   <VisuallyHidden>Discourse</VisuallyHidden>
@@ -198,7 +204,7 @@ const Guidelines = () => {
                 }}>
                 <span />
               </Localized>
-            </p>
+            </div>
 
             <LinkButton rounded blank href={`mailto:${COMMON_VOICE_EMAIL}`}>
               <MailIcon />

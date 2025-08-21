@@ -28,3 +28,9 @@ do-not-section-title = نہ تِھیا
 do-not-section-guideline-1 = ذاتی شان گیْ شناخت تِھجِن معلومات طلب تِھیا (کاتھ نُوم یا مالی معلومات)
 do-not-section-guideline-2 = متعصبانہ یا جارحانہ جذباتو اظہار تِھیا یا اسݨے درخواست تِھیا
 do-not-section-guideline-3 = حساس قِسمے سوالات کھوجِیا
+# Code switching Guidelines
+cs-do-section-guideline-1 = دو لسانی سوالات یا سیاق گہ سباق استعمال تِھیا۔
+cs-do-section-guideline-2 = غیر رسمی منظر نامائے، حالات یا reenactments معلوم تِھیا
+cs-do-not-section-guideline-1 = ذاتی شان گیْ شناخت تِھجَن معلومات (کاتھ نُوم یا مالی معلومات) یا جارحانہ جذبات طلب تِھیا۔
+cs-do-not-section-guideline-2 = کوڈ سوئچنگ تھونے کِرِیا کھوجِیا یا ترجمائے درخواست تِھیا
+cs-do-not-section-guideline-3 = ضورڑتِجیْ بسکی رسمی جِب استعمال تِھیا۔

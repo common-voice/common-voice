@@ -18,8 +18,6 @@ native-language =
     .label = Родной язык
 profile-form-submit-save = Сохранить
 profile-form-submit-saved = Сохранено
-# Gender
-other = Tõin
 why-profile-title = Зачем нужен профиль?
 why-profile-text = Предоставив некоторые данные о себе, вы сделаете аудио данные, отправляемые в Common Voice, более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
 dashboard = Панель
@@ -45,3 +43,4 @@ skip-submission-description = Оценка работы с Common Voice буде
 skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
 off = Выкл.
 on = Вкл.
+other = Tõin

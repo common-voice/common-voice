@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Pangani kuambele kuswa "{ $inputValue }"
 profile-form-submit-save = Seiva
 profile-form-submit-saved = Seivea
-# Gender
-other = Zwiṅwe
 why-profile-title = Ndi ngani profaiḽi?
 why-profile-text =
     Nga u ri vhudza zwiṅwe zwidodombedzwa zwaṋu, data ya odio ine na i rumela kha Common Voice i ḓo kona u shumiswa zwavhuḓi kha mitshini ya u Ḓivha
@@ -63,3 +61,4 @@ help-accent = Ni khou ṱoḓa thuso kha kuambele?
 help-accent-explanation = Kuambele ndi nḓila ine na bula ngayo maipfi. Zwenezwi zwi nga ḓitika nga hune na dzula hone, dziṅwe nyambo dzine na dzi amba na zwiṅwe zwithu zwinzhi. Ni nga ri vhudza zwenezwi zwithu zwine na pfa u nga zwi a tshimbidzana na zwenezwi hafha.
 help-variants = Ni khou ṱoḓa thuso nga dzinwe dzi varienti?
 help-variants-explanation = Dzi Variants ndi mufuda wo khetheaho wa luambo – une sa tsumbo wa ambiwa nga vhathu vha dzulaho fhethu ho khetheaho kana vhupo. Nga tshiṅwe tshifhinga zwenezwi zwi vhidzwa dzi dialect.
+other = Zwiṅwe

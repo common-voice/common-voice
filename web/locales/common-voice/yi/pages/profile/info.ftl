@@ -29,11 +29,6 @@ native-language =
 profile-form-add-accent = לייג צו אן אייגענעם אקצענט "{ $inputValue }"
 profile-form-submit-save = היט אפ
 profile-form-submit-saved = אפגעהיטן
-male_masculine = מאן\מענעריש
-female_feminine = פרוי\פרויעריש
-do_not_wish_to_say = איך וויל נישט זאגן
-# Gender
-other = אנדערע
 why-profile-title = פארוואס א פראפייל?
 dashboard = איבערזיכט
 build-profile = בוי א פראפייל
@@ -64,3 +59,8 @@ help-accent = דארף הילף מיט די אקצענט?
 help-accent-explanation = אייער אקצענט איז דער וועג וויאזוי איר זאגט ארויס די ווערטער. עס קען ווערן געפארעמט ביי די וועג וויאזוי איר געלעבט, וועלכע אנדערע שפרייכן איר רעדט און אסאך אנדערע פאקטארן. איר קענט מיטיילן סיי וועלכע אינפארמאציע איר פילט איז גילטיג דא.
 help-variants = דארפט איר הילף מיט ווערסיעס?
 help-variants-explanation = וועריאנטן זענען א ספעציפישע פארום פון א שפרייך - צום ביישפיל געטיילט מיט מענטשן וואס לעבען אינעם זעלבן ראיאן אדער געמיינדע. אפאר מאל ווערט עס אויך אנגערופן דייעלעקט
+# Genders
+male_masculine = מאן\מענעריש
+female_feminine = פרוי\פרויעריש
+do_not_wish_to_say = איך וויל נישט זאגן
+other = אנדערע

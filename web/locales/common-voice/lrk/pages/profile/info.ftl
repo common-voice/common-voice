@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نئون حسب ضرورت تلفظ ڀيرا ڪريو "{ $inputValue }"
 profile-form-submit-save = محفوظ ڪرو
 profile-form-submit-saved = محفوظ ھويوڙي
-male_masculine = نر/مذڪر
-female_feminine = عورت/مونث
-intersex = انٽرسيڪس
-transgender = ٽرانس جينڌر
-non-binary = غير بائنري
-do_not_wish_to_say = ڪيووُ ڪوئي چاهون.
-# Gender
-other = ٻيجا
 why-profile-title = پروفائل ڪون؟
 why-profile-text =
     آپري باري ۾ ڪوئي معلومات مهيا ڪريا مون، تمي جي آڊيو ڊيٽا ڪامن وائس تي جمع ڪرو، او تقريرھارو وڌيڪ مفيد ثابت ھوئي
@@ -79,3 +71,11 @@ variant-contribution-option-1 = آپري ٻولي ۾ سڀ قسمو را جملا
 variant-contribution-option-2 = ماري ٻولي ۾ سڀ قسمو را جملا ھين ڪلپس مني ڏيکارو.
 variant-contribution-warning-title = ⓘ سڀ جملا ھين ڪلپس ۾ اجي تاڪ ويريئنٽ ٽيگ ڪوئي آھي!
 variant-contribution-warning-subtitle = جيڪڏي تمو ني حصو ليدا ۾ ڏکائي ھوئي رهي هي، تو تمي ڪي ڀي وقت آپري ٻولي ھارو سڀ مواد جويا ھارو واپس سوئچ ڪري سگهو ھون.
+# Genders
+male_masculine = نر/مذڪر
+female_feminine = عورت/مونث
+intersex = انٽرسيڪس
+transgender = ٽرانس جينڌر
+non-binary = غير بائنري
+do_not_wish_to_say = ڪيووُ ڪوئي چاهون.
+other = ٻيجا

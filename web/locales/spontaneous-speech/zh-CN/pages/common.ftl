@@ -32,8 +32,11 @@ continue-with-skipped = 回顾跳过的项目
 question = 问题
 validate = 验证
 respond-to-prompt = 回答引导语
+respond-to-prompt-mobile = 回答
 transcribe = 转录
 check-transcriptions = 检查转录文本
+check-transcriptions-mobile = 审核
+tag = 标签
 
 ## Not Found Page
 
@@ -45,22 +48,21 @@ accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用条款</te
 bsy = 沙巴米沙鄢语
 cdo = 福州话
 cpx = 兴化语
-en = 英语
-fr = 法语
 hch = 惠乔尔语
 kzi = 加拉毕语
 mbf = 马来峇峇语
 meh = 米斯特克语（西南拉克斯亚戈）
 mel = 中部梅拉瑙语
 mmc = 米却肯马萨瓦语
-ms-MY = 马来语
 msi = 沙巴马来语
 pez = 东部本南语
 pne = 西部本南语
 sdo = 西连比达友语
 snv = Sa'ban 语
-tr = 土耳其语
 xkl = 肯雅语
+# Locales-Variants
+ms-MY = 马来语
+el-CY = 希腊语（塞浦路斯）
 
 ## Language search component
 

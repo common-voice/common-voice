@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نیووه لهجۀ ل يې ګډ کَۀ
 profile-form-submit-save = سېوه کَۀ
 profile-form-submit-saved = سېو ݭیوک
-male_masculine = نر
-female_feminine = شِځه/ شِځینۀ
-intersex = انټر سېکس
-transgender = نرشِځ
-non-binary = دیو ګډ
-do_not_wish_to_say = نکه بو غوېک اېنچِم
-# Gender
-other = بيې
 why-profile-title = ا پروفائل کيې؟
 why-profile-text = ته ځان باره نر ال ا جنه معلومت ال که تو ڒېری، ا اډیو ډېټا که تُو مشترک آواز کی که پېش کی ائ سُو ته آواز ته ژغ ته پېݫندګالي پاره زُت فائده مني بېن
 dashboard = ډېش بورډ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = سال جملي یا کلِپی ر دی پئ ا�
 variant-contribution-option-2 = صرف ترمُن ته قسم جملي او کلِپی ر دی شام کَۀ
 variant-contribution-warning-title = اره جملي او کلِپی دی ته قسمی ټېګ مین نک دَرِن
 variant-contribution-warning-subtitle = که پېش کؤ نر دل يې څه مسلۀ بَۀ، تو بو واپس څېک اېنچی که اره کونټېنټ ته خوئ زبان څُونی
+# Genders
+male_masculine = نر
+female_feminine = شِځه/ شِځینۀ
+intersex = انټر سېکس
+transgender = نرشِځ
+non-binary = دیو ګډ
+do_not_wish_to_say = نکه بو غوېک اېنچِم
+other = بيې

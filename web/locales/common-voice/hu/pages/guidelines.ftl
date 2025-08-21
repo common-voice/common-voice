@@ -143,6 +143,7 @@ example-questions-explanation-2 = Ha egy kérdéscsoportot küldene be feldolgoz
 # Answer Questions
 answer-questions = Kérdések megválaszolása
 answer-questions-subheader = Általános útmutatás
+answer-questions-explanation-1 = Gondoljon egy pillanatra a kérdésen, fontolja meg, hogy mit szeretne mondani, de ne gondolja át túlságosan. Kattintson a „rögzítés” ikonra. A rögzítés után meghallgathatja saját magát, felveheti újra, törölheti vagy beküldheti.
 transcribe-the-audio-subheader-1-explanation = Általában le kell írnia mindent, amit hall. Ez ezt takarja:
 
 ## Code-Switching

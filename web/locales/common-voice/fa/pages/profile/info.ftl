@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = افزودن لهجه سفارشی جدید «{ $inputValue }»
 profile-form-submit-save = ذخیره
 profile-form-submit-saved = ذخیره شد
-male_masculine = مذکر/مردانه
-female_feminine = مونث/زنانه
-intersex = بیناجنس
-transgender = تراجنسیتی
-non-binary = نان‌باینری
-do_not_wish_to_say = نمی‌خواهم بگویم
-# Gender
-other = ‏‏سایر
 why-profile-title = چرا یک نمایه؟
 why-profile-text =
     با ارائه برخی اطلاعات در مورد خودتان، داده‌های صوتی که به آواهای مشترک ارسال می‌کنید بیشتر برای گفتار مفید خواهد بود
@@ -79,3 +71,11 @@ variant-contribution-option-1 = جمله‌ها و صداها را از تمام
 variant-contribution-option-2 = فقط جمله‌ها و صداهایی که از گونه من است را بهم نشان دهید
 variant-contribution-warning-title = ⓘ هنوز همه جمله‌ها و صداها دارای برچسب‌های گونه نیستند!
 variant-contribution-warning-subtitle = اگر در اهدا مشکل دارید، می‌توانید در هر زمان به مشاهده تمام محتوای زبان خود بازگردید.
+# Genders
+male_masculine = مذکر/مردانه
+female_feminine = مونث/زنانه
+intersex = بیناجنس
+transgender = تراجنسیتی
+non-binary = نان‌باینری
+do_not_wish_to_say = نمی‌خواهم بگویم
+other = ‏‏سایر

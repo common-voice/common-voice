@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Azzonzi un neuvo açento personalizzou «{ $inputValue }»
 profile-form-submit-save = Alluga
 profile-form-submit-saved = Allugou
-male_masculine = Òmmo/Mascolin
-female_feminine = Dònna/Feminin
-intersex = Intersessuale
-transgender = Transgenere
-non-binary = Non-binäio
-do_not_wish_to_say = No m’é cao dîlo
-# Gender
-other = Atro
 why-profile-title = Percöse registrâ un profî?
 why-profile-text = Se ti dæ ste informaçioin insemme a-e teu registraçioin vocale, saian addeuviæ pe amegioâ a preçixon di motoî de reconoscimento vocale.
 dashboard = Pannello
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Mostra frase e registraçioin de tutte e variant
 variant-contribution-option-2 = Mostra solo frase e registraçioin inta mæ variante
 variant-contribution-warning-title = ⓘ No tutte e frase e e registraçioin an unn’etichetta de variante!
 variant-contribution-warning-subtitle = Se t’æ di problemi à contribuî, ti peu anâ inderê à vedde tutti i contegnui inta teu lengua quande ti veu.
+# Genders
+male_masculine = Òmmo/Mascolin
+female_feminine = Dònna/Feminin
+intersex = Intersessuale
+transgender = Transgenere
+non-binary = Non-binäio
+do_not_wish_to_say = No m’é cao dîlo
+other = Atro

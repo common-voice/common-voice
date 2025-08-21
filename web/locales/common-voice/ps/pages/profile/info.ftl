@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نوی دودیز خجنښه اضافه کړئ "{ $inputValue }"
 profile-form-submit-save = خوندي کړئ
 profile-form-submit-saved = خوندي شو
-male_masculine = مذکر/نارینه
-female_feminine = ښځه/ښځینه
-intersex = انټرسیکس
-transgender = ټرانسجنډر
-non-binary = غیر بائنری
-do_not_wish_to_say = نه غواړم ووایم
-# Gender
-other = نور
 why-profile-title = ولې پېژنیال؟
 why-profile-text =
     د خپل ځان په اړه د مالوماتو په ورکولو سره، هغه غږیږه ډېټا چې تاسو يې عام غږ ته استوئ به د وینا 
@@ -79,3 +71,11 @@ variant-contribution-option-1 = ماته زما په ژبه کې د ټولو ډ�
 variant-contribution-option-2 = یوازې ماته زما د ډول څخه جملې او کلیپونه وښایاست
 variant-contribution-warning-title = ⓘ ټولې جملې او کلیپونه تر اوسه متغیر ټاګونه نلري!
 variant-contribution-warning-subtitle = که تاسو په مرسته کولو کې ستونزه لرئ، تاسو کولی شئ په هر وخت کې د خپلې ژبې لپاره ټول مینځپانګې وګورئ.
+# Genders
+male_masculine = مذکر/نارینه
+female_feminine = ښځه/ښځینه
+intersex = انټرسیکس
+transgender = ټرانسجنډر
+non-binary = غیر بائنری
+do_not_wish_to_say = نه غواړم ووایم
+other = نور

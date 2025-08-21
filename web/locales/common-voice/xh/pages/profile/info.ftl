@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Yongeza i-accent entsha  "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Igciniwe
-# Gender
-other = Enye
 why-profile-title = Kutheni kufuneka iProfayile?
 why-profile-text =
     Ngokubonelela ngolwazi malunga nawe, idatha yesandi oyithumelayo kwi-Common Voice iya kuba luncedo ngakumbi kwiNtetho
@@ -63,3 +61,4 @@ help-accent = Udinga uncedo nge-accent?
 help-accent-explanation = I-accent yakho yindlela owabiza ngayo amagama. Inokubunjwa yindawo obuhlala kuyo, ezinye iilwimi ozithethayo kunye nezinye izinto ezininzi. Ungabelana ngalo naluphi na ulwazi ocinga ukuba lufanelekile apha.
 help-variants = Ingaba ufuna uncedo ngeendlela ezahlukeneyo?
 help-variants-explanation = Ukwahluka-hlukana kulwimi luhlobo oluthile lolwimi- umzekelo ekwabelwana ngawo ngabo bahlala kummandla okanye kwindawo enye. Ngamanye amaxesha ezi zibizwa ngokuba zii-dialects
+other = Enye

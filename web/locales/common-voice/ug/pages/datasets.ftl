@@ -95,6 +95,9 @@ release-version = نەشرى
 dataset-date = چېسلا
 license = ئىجازەتنامە: <licenseLink>{ $license }</licenseLink>
 license-mixed = ئارىلاش
+# Support old genders in older datasets
+male = ئەر
+female = ئايال
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = ئاۋاز سانلىق مەلۇمات توپلىمىمىزنى چۈشۈرىدۇ
 # MENU ITEM ARIA LABELS

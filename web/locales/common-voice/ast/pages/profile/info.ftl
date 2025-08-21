@@ -20,8 +20,6 @@ native-language =
     .label = Llingua nativa
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardóse
-# Gender
-other = Otru
 why-profile-title = ¿Por qué un perfil?
 why-profile-text =
     Apurrir dellos datos tocante a ti va ser perútil pa los motores de reconocencia de voz, darréu que s'usen
@@ -50,3 +48,4 @@ skip-submission-description = Nel unviu de les collaboraciones van saltase los c
 skip-submission-note = Nota: Entá vas tener d'esbillar ente Falar o Sentir pa camudar el tipu de collaboración.
 off = NON
 on = SÍ
+other = Otru

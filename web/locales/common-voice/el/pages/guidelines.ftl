@@ -4,6 +4,7 @@ guidelines-header-subtitle = Κατανοήστε τον τρόπο συνεισ
 voice-collection = Συλλογή φωνών
 sentence-collection = Συλλογή προτάσεων
 question-collection = Συλλογή ερωτήσεων
+scripted-speech = Ομιλία με σενάριο
 spontaneous-speech = Αυθόρμητη ομιλία
 
 ## Voice Collection nav ids
@@ -118,7 +119,7 @@ what-makes-a-good-question-explanation-criteria-1 = Είναι εύκολη στ
 what-makes-a-good-question-explanation-criteria-2 = Είναι γενικά επίκαιρη
 what-makes-a-good-question-explanation-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 what-makes-a-good-question-tip = Σκεφτείτε επίσης να συμπεριλάβετε διαφορετικά συμφραζόμενα και τομείς.
-easy-to-understand = Εύκολη στην κατανόηση
+easy-to-understand = Εύκολες στην κατανόηση
 easy-to-understand-explanation = Επιλέξτε απλές ερωτήσεις που είναι εύκολες στην κατανόηση για οποιονδήποτε, ανεξαρτήτως πολιτισμικού υποβάθρου ή πλαισίου.
 spelling-and-pronunciation = Ορθογραφία και στίξη
 spelling-and-pronunciation-explanation = Χρησιμοποιήστε σωστή ορθογραφία και γραμματική.
@@ -140,7 +141,17 @@ example-questions-explanation-2 = Αν θέλετε να υποβάλετε μι
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Απάντηση ερωτήσεων
 answer-questions-subheader = Γενικές οδηγίες
+answer-questions-explanation-1 = Σκεφτείτε για λίγο το μήνυμα που λάβατε, τι θα θέλατε να πείτε, αλλά μην κοροϊδεύετε τον εαυτό σας. Κάντε κλικ στο εικονίδιο ‘εγγραφή’. Μόλις κάνετε την ηχογράφηση, μπορείτε να ακούσετε τη φωνή σας, να ηχογραφήσετε ξανά, να διαγράψετε ή να υποβάλετε την ηχογράφηση.
+answer-questions-explanation-2 = Θυμηθείτε ότι μην ανησυχείτε αν τραυλίζετε, αν κάνετε παύση ή αν επαναλαμβάνετε μια λέξη. Όλα αυτά είναι χρήσιμα για τους μηχανικούς που προσπαθούν να δημιουργήσουν ολοκληρωμένα, πραγματικά εργαλεία αναγνώρισης ομιλίας.
+answer-questions-tip-1 = Κάντε ηχογράφηση σε ένα σχετικά ήσυχο μέρος
+answer-questions-tip-2 = Επιλέξτε τοποθεσία με καλή σύνδεση στο διαδίκτυο
+answer-questions-tip-3b = Προσπαθήστε να διατηρήσετε την απάντησή σας στα 15-30 δευτερόλεπτα
+answer-questions-tip-4 = Αποφύγετε αρνητική, εμπρηστική ή προσβλητική ομιλία
+answer-questions-tip-5 = Μιλήστε φυσικά όπως θα κάνατε με ένα φίλο, χρησιμοποιήστε το δικό σας πραγματικό τρόπο ομιλίας, τη δική σας διάλεκτο και προφορά
+answer-questions-tip-6 = Διατηρήστε την ένταση του ήχου σας σταθερή, μη φωνάζετε και μην τραγουδάτε
 transcribe-the-audio-subheader-1 = Γενικές οδηγίες
 transcribe-the-audio-subheader-2 = Αριθμοί και ακρωνύμια
 transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
@@ -187,3 +198,4 @@ code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
 ## Reporting Content
 
 reporting-content = Αναφορά περιεχομένου
+reporting-content-subheader = Γενικές οδηγίες

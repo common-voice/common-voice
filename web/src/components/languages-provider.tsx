@@ -1,30 +1,49 @@
-import * as React from 'react';
-import { useEffect, useState } from 'react';
-import { LocalizationProvider } from '@fluent/react';
-import { useHistory, Switch, Route, Redirect } from 'react-router';
-import { useDispatch } from 'react-redux';
-import * as Sentry from '@sentry/react';
+import * as React from 'react'
+import { useEffect, useState, useRef } from 'react'
+import { LocalizationProvider } from '@fluent/react'
+import { useHistory, Switch, Route, Redirect } from 'react-router'
+import { useDispatch } from 'react-redux'
+import * as Sentry from '@sentry/react'
 
-import URLS from '../urls';
+import URLS from '../urls'
 import {
   createLocalization,
   DEFAULT_LOCALE,
   negotiateLocales,
-} from '../services/localization';
-import { useTypedSelector } from '../stores/tree';
-import { replacePathLocale } from '../utility';
-import { useAPI } from '../hooks/store-hooks';
-import { Spinner } from './ui/ui';
-import { Locale } from '../stores/locale';
-import * as Languages from '../stores/languages';
-import { useLocale } from './locale-helpers';
+} from '../services/localization'
+import { useTypedSelector } from '../stores/tree'
+import { replacePathLocale } from '../utility'
+import { useAPI } from '../hooks/store-hooks'
+import { Spinner } from './ui/ui'
+import { Locale } from '../stores/locale'
+import * as Languages from '../stores/languages'
+import { useLocale } from './locale-helpers'
 
-const SentryRoute = Sentry.withSentryRouting(Route);
+const SentryRoute = Sentry.withSentryRouting(Route)
+
+const STORED_LOCALE_KEY = 'current-locale'
+
+// Safe localStorage helper functions
+function getStoredLocale() {
+  try {
+    return localStorage.getItem(STORED_LOCALE_KEY)
+  } catch (e) {
+    return null
+  }
+}
+
+function setStoredLocale(locale: string) {
+  try {
+    localStorage.setItem(STORED_LOCALE_KEY, locale)
+  } catch (e) {
+    // noop
+  }
+}
 
 interface LanguageRoutesProps {
-  userLocales: string[];
-  setUserLocales: (newUserLocales: string[]) => void;
-  children: React.ReactNode;
+  userLocales: string[]
+  setUserLocales: (newUserLocales: string[]) => void
+  children: React.ReactNode
 }
 
 const LanguageRoutes = ({
@@ -32,10 +51,21 @@ const LanguageRoutes = ({
   setUserLocales,
   children,
 }: LanguageRoutesProps) => {
-  const languages = useTypedSelector(({ languages }) => languages);
+  const languages = useTypedSelector(({ languages }) => languages)
 
-  const [primaryUserLocale] = userLocales;
-  const [, toLocaleRoute] = useLocale();
+  const [primaryUserLocale] = userLocales
+  const [, toLocaleRoute] = useLocale()
+
+  // Track previous locale to avoid unnecessary updates
+  const prevLocaleRef = useRef(primaryUserLocale)
+
+  // Handle locale changes in useEffect
+  useEffect(() => {
+    if (primaryUserLocale !== prevLocaleRef.current) {
+      prevLocaleRef.current = primaryUserLocale
+      setStoredLocale(primaryUserLocale) // <== Save to localStorage when locale changes
+    }
+  }, [primaryUserLocale])
 
   return (
     <Switch>
@@ -59,10 +89,13 @@ const LanguageRoutes = ({
             languages.translatedLocales.includes(localeParam)
 
           if (hasTranslatedLocale) {
+            // We'll handle the locale change via useEffect
             if (primaryUserLocale !== localeParam) {
-              setUserLocales([localeParam, ...userLocales])
+              // Schedule the update for after render
+              setTimeout(() => {
+                setUserLocales([localeParam, ...userLocales])
+              }, 0)
             }
-
             return children
           }
 
@@ -106,85 +139,88 @@ const LanguageRoutes = ({
         }}
       />
     </Switch>
-  );
-};
+  )
+}
 
 interface LanguagesProviderProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 const LanguagesProvider = ({ children }: LanguagesProviderProps) => {
-  const api = useAPI();
-  const history = useHistory();
-  const languages = useTypedSelector(({ languages }) => languages);
-  const flags = useTypedSelector(({ flags }) => flags);
-  const dispatch = useDispatch();
+  const api = useAPI()
+  const history = useHistory()
+  const languages = useTypedSelector(({ languages }) => languages)
+  const flags = useTypedSelector(({ flags }) => flags)
+  const dispatch = useDispatch()
 
-  const [userLocales, setUserLocales] = useState([]);
-  const [localization, setLocalization] = useState(null);
+  const [userLocales, setUserLocales] = useState([])
+  const [localization, setLocalization] = useState(null)
 
   const loadLanguages = () => {
-    dispatch(Languages.actions.loadLocalesData());
-  };
+    dispatch(Languages.actions.loadLocalesData())
+  }
 
   const setLocale = (newLocale: string) => {
-    dispatch(Locale.actions.set(newLocale));
-  };
+    dispatch(Locale.actions.set(newLocale))
+  }
 
   async function updateLocalization() {
-    const localizationUserLocales = [...userLocales];
-
-    const pathname = history.location.pathname;
+    const localizationUserLocales = [...userLocales]
+    const pathname = history.location.pathname
 
     if (!languages.translatedLocales.includes(userLocales[0])) {
-      localizationUserLocales[0] = DEFAULT_LOCALE;
-      setUserLocales(localizationUserLocales);
-
-      setLocale(DEFAULT_LOCALE);
-      history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
+      localizationUserLocales[0] = DEFAULT_LOCALE
+      setUserLocales(localizationUserLocales)
+      setLocale(DEFAULT_LOCALE)
+      history.replace(replacePathLocale(pathname, DEFAULT_LOCALE))
     } else {
-      setLocale(localizationUserLocales[0]);
+      setLocale(localizationUserLocales[0])
     }
 
-    const { documentElement } = document;
-    documentElement.setAttribute('lang', localizationUserLocales[0]);
+    const { documentElement } = document
+    documentElement.setAttribute('lang', localizationUserLocales[0])
     documentElement.setAttribute(
       'dir',
       languages.rtlLocales.includes(localizationUserLocales[0]) ? 'rtl' : 'ltr'
-    );
+    )
 
     const newLocalization = await createLocalization(
       api,
       localizationUserLocales,
       flags.messageOverwrites,
       languages.translatedLocales
-    );
+    )
 
-    setLocalization(newLocalization);
+    setLocalization(newLocalization)
   }
 
   useEffect(() => {
-    loadLanguages();
-  }, []);
+    loadLanguages()
+  }, [])
 
   useEffect(() => {
     if (userLocales.length === 0 && !languages?.isLoading) {
-      const newUserLocales = negotiateLocales(
+      let newUserLocales = negotiateLocales(
         navigator.languages,
         languages.translatedLocales
-      );
-      setUserLocales(newUserLocales);
+      )
+      // <== Check for stored locale first
+      const storedLocale = getStoredLocale()
+      if (storedLocale && languages.translatedLocales.includes(storedLocale)) {
+        newUserLocales = [storedLocale, ...newUserLocales]
+      }
+      setUserLocales(newUserLocales)
     }
-  }, [userLocales, languages]);
+  }, [userLocales, languages])
 
   useEffect(() => {
     if (userLocales.length > 0) {
-      updateLocalization();
+      updateLocalization()
     }
-  }, [userLocales]);
+  }, [userLocales])
 
   if (languages?.isLoading || !localization) {
-    return <Spinner />;
+    return <Spinner />
   }
 
   return (
@@ -193,7 +229,7 @@ const LanguagesProvider = ({ children }: LanguagesProviderProps) => {
         {children}
       </LanguageRoutes>
     </LocalizationProvider>
-  );
-};
+  )
+}
 
-export default LanguagesProvider;
+export default LanguagesProvider

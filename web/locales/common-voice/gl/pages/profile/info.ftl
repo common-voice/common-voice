@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Engada un novo acento personalizado "{ $inputValue }"
 profile-form-submit-save = Gardar
 profile-form-submit-saved = Gardado
-male_masculine = Macho/Masculino
-female_feminine = Femia/Feminino
-intersex = Intersexual
-transgender = Transxénero
-non-binary = Non binario
-do_not_wish_to_say = Prefiro non responder
-# Gender
-other = Outro
 why-profile-title = Por que crear un perfil?
 why-profile-text = Ao fornecer algunha información sobre si, os datos de son que vostede envía a Common Voice serán máis adecuados para os motores de recoñecemento da fala que os utilicen co fin de mellorar a súa precisión.
 dashboard = Taboleiro
@@ -85,3 +77,11 @@ api-credentials-use-case-3 = Analizando e mellorando modelos de fala
 api-credentials-description-conclusion = Únete a nós para avanzar na tecnoloxía de voz e potenciar máis contribucións dos usuarios.
 create-api-key-button = Crear credenciais da API
 your-api-keys = As túas credenciais da API
+# Genders
+male_masculine = Macho/Masculino
+female_feminine = Femia/Feminino
+intersex = Intersexual
+transgender = Transxénero
+non-binary = Non binario
+do_not_wish_to_say = Prefiro non responder
+other = Outro

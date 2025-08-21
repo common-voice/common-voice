@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = tʰoṣ ćaġa etas andaazan kaa eti
 profile-form-submit-save = baćat eti
 profile-form-submit-saved = baćat manimi
-male_masculine = hir/hirsis
-female_feminine = gus/gusgiyas
-intersex = intersex
-transgender = hir gus
-non-binary = non-binary
-do_not_wish_to_say = senase ray api
-# Gender
-other = tʰumiṅ
 why-profile-title = profile bes?
 why-profile-text = maymo baaraulo kaman mesuma ke, amit audio data ma common voice ulo jama etuma ke ite speech e but duroar ẓuc̣i. recognition engine e gute data duro ar dusun uymo ac̣curacy daltas ećiye
 dashboard = dashboard
@@ -77,3 +69,11 @@ variant-contribution-option-1 = jaa baaṣe ulum uyoon variants e clips daa juml
 variant-contribution-option-2 = sirif jaa jeymo baaṣe variant e jumlan daa clips aaltir
 variant-contribution-warning-title = uyoon jumlaṅ ke clips ate variant tag darum delum api
 variant-contribution-warning-subtitle = agar mamar contribute ećar masla bila ke maa amit ke kʰenulo maymo baaṣe uyoon mawaad barenas maamay baan
+# Genders
+male_masculine = hir/hirsis
+female_feminine = gus/gusgiyas
+intersex = intersex
+transgender = hir gus
+non-binary = non-binary
+do_not_wish_to_say = senase ray api
+other = tʰumiṅ

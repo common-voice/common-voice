@@ -2,6 +2,46 @@
 
 ## Current release
 
+### [v1.150.0 (2025-08-21)](https://github.com/common-voice/common-voice/releases/tag/release-v1.150.0)
+
+- Feat: Make use of local-storage to pass UI language to Spontaneous Speech, and make the menu links relative to installation, by [@moz-bozden](https://github.com/moz-bozden) in [#5043](https://github.com/common-voice/common-voice/pull/5043)
+- Workaround: Fix picker not showing native language names but language codes, now they will be shown in the selected locale's translation if exists - else English name will be shown (along with language code), by [@moz-bozden](https://github.com/moz-bozden) in [#5042](https://github.com/common-voice/common-voice/pull/5042)
+- Fix: Guidelines page were missing unique react keys and make CS feature flags sticky, by [@moz-bozden](https://github.com/moz-bozden) in [#5046](https://github.com/common-voice/common-voice/pull/5046)
+- Fix: Fix render timing issues in LanguageRoutes with useEffect and setTimeout, by [@moz-bozden](https://github.com/moz-bozden) in [#5041](https://github.com/common-voice/common-voice/pull/5041)
+- Fix: In the language picker apply bold only to selected user language, by [@moz-bozden](https://github.com/moz-bozden) in [#5040](https://github.com/common-voice/common-voice/pull/5040)
+- Fix: HTML nesting problem in About page, by [@moz-bozden](https://github.com/moz-bozden) in [#5039](https://github.com/common-voice/common-voice/pull/5039)
+- Fix: Some fixes to localizations and handling of empty value in select, by [@moz-bozden](https://github.com/moz-bozden) in [#5038](https://github.com/common-voice/common-voice/pull/5038)
+- Fix: For multiple issues on Dashboard page and attached tabs, by [@moz-bozden](https://github.com/moz-bozden) in [#5037](https://github.com/common-voice/common-voice/pull/5037)
+
+#### Data Changes in v1.150.0
+
+- Fix: Add migration to remove defunct and empty `hi-IN` locale with remnants as it should be a variant under Hindi `hi`, by [@moz-bozden](https://github.com/moz-bozden) in [#5014](https://github.com/common-voice/common-voice/pull/5014)
+- Fix: Add migration to remove defunct and empty Western Armenian `hyw` locale with remnants as it should be a variant under Armenian, by [@moz-bozden](https://github.com/moz-bozden) in [#5013](https://github.com/common-voice/common-voice/pull/5013)
+
+#### Spontaneous Speech v1.150.0
+
+- Feat: Make use of local-storage to pass UI language to Common Voice, and make the menu links relative to installation, by [@moz-bozden](https://github.com/moz-bozden) in [#477](https://github.com/common-voice/spontaneous-speech/pull/477)
+- Fix: Nested/double localization for "other" in Report modal preventing localization, by [@moz-bozden](https://github.com/moz-bozden) in [#476](https://github.com/common-voice/spontaneous-speech/pull/476)
+- Fix: The guidelines links to point to new guidelines, replace link/text with Guidelines button, and fix layout issues, by [@moz-bozden](https://github.com/moz-bozden) in [#475](https://github.com/common-voice/spontaneous-speech/pull/475)
+
+##### SS Data Changes in v1.150.0
+
+- Add Spanish (`es`), Russian (`ru`), and Sena (`seh`) questions by [@bandrandr](https://github.com/bandrandr) in [#479](https://github.com/common-voice/spontaneous-speech/pull/479)
+
+---
+
+### Next release v1.151.0 (TBA)
+
+#### Data Changes in v1.151.0 (TBA)
+
+#### Spontaneous Speech v1.151.0 (TBA)
+
+##### SS Data Changes in v1.151.0 (TBA)
+
+---
+
+## Past releases
+
 ### [v1.149.0 (2025-08-12)](https://github.com/common-voice/common-voice/releases/tag/release-v1.149.0)
 
 - Feat: Redesign of guidelines and addition of Pontoon keys, by [@moz-rotimib](https://github.com/moz-rotimib) in [#4952](https://github.com/common-voice/common-voice/pull/4952)
@@ -36,15 +76,7 @@
 - (in v1.148.2) Add German (`de`) questions by [@bandrandr](https://github.com/bandrandr) in [#462](https://github.com/common-voice/spontaneous-speech/pull/462)
 - (in v1.148.2) Add Basaa (`bas`) questions by [@bandrandr](https://github.com/bandrandr) in [#461](https://github.com/common-voice/spontaneous-speech/pull/461)
 
-### Next release v1.150.0 (TBA)
-
-#### Data Changes in v1.150.0 (TBA)
-
-#### Spontaneous Speech v1.150.0 (TBA)
-
-##### SS Data Changes in v1.150.0 (TBA)
-
-## Past releases
+---
 
 ### [v1.148.0 (2025-07-21)](https://github.com/common-voice/common-voice/releases/tag/release-v1.148.0)
 
@@ -75,6 +107,8 @@
 ##### SS Data Changes in v1.148.0
 
 - Add Bodo (`brx`) prompts by [@bandrandr](https://github.com/bandrandr) in [#455](https://github.com/common-voice/spontaneous-speech/pull/455)
+
+---
 
 ### [v1.147.0 (2025-07-08)](https://github.com/common-voice/common-voice/releases/tag/release-v1.147.0)
 
@@ -117,6 +151,8 @@
 - Fix: Two Georgian questions by [@moz-bozden](https://github.com/moz-bozden) in [#452](https://github.com/common-voice/spontaneous-speech/pull/452)
 - Add Mara (`mrh`) questions by [@bandrandr](https://github.com/bandrandr) in [#450](https://github.com/common-voice/spontaneous-speech/pull/450)
 - Add Galician (`gl`) questions by [@bandrandr](https://github.com/bandrandr) in [#449](https://github.com/common-voice/spontaneous-speech/pull/449)
+
+---
 
 ### [v1.141.3 (2025-04-29)](https://github.com/common-voice/common-voice/releases/tag/release-v1.141.3)
 

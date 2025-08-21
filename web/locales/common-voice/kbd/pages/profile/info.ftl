@@ -21,11 +21,6 @@ hidden = Гъэпщкӏуа
 visible = Нахуэ
 native-language =
     .label = Анэдэлъхубзэ
-male_masculine = Хъу
-female_feminine = Бзы
-do_not_wish_to_say = Жысӏэну сыхуейкъым
-# Gender
-other = НэгъуэщӀ
 avatar = Авэтар
 goals = Мурадхэр
 profile-create-success = Профил ухуащӏ
@@ -42,3 +37,8 @@ contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
 skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
+# Genders
+male_masculine = Хъу
+female_feminine = Бзы
+do_not_wish_to_say = Жысӏэну сыхуейкъым
+other = НэгъуэщӀ

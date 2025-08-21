@@ -18,8 +18,6 @@ native-language =
     .label = Төрөлх хэл
 profile-form-submit-save = Хадгалах
 profile-form-submit-saved = Хадгалагдлаа
-# Gender
-other = Бусад
 why-profile-title = Яагаад профайл гэж?
 why-profile-text = Дуу таних системүүдийн нарийвчлалыг сайжруулахад Common Voice руу илгээсэн дууны өгөгдлийг илүү хэрэглэхийн тулд та өөрийн тухай мэдээллээ нийлүүлнэ үү.
 dashboard = Хянах самбар
@@ -45,3 +43,4 @@ skip-submission-description = Хувь нэмэр оруулж байх явца
 skip-submission-note = Тэмдэглэл: Та Ярих эсвэл Сонсох гэсэн сонголтууд цаашид ч гэсэн сонгох хэрэгтэй болно.
 off = унтраах
 on = асаах
+other = Бусад

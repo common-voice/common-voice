@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Aldoni novan personecigitan akĉenton "{ $inputValue }"
 profile-form-submit-save = Konservi
 profile-form-submit-saved = Konservita
-male_masculine = Vira
-female_feminine = Ina
-intersex = Interseksa
-transgender = Transgenra
-non-binary = Neduuma
-do_not_wish_to_say = Mi preferas ne diri
-# Gender
-other = Alia
 why-profile-title = Kial krei profilon?
 why-profile-text = Se vi donas al ni kelkajn informojn pri vi, viaj sonregistraĵoj en Common Voice, estos pli utilaj por parolrekoniloj kiuj uzas tiujn informojn por plibonigi la precizecon.
 dashboard = Panelo
@@ -68,3 +60,11 @@ help-accent = Ĉu vi bezonas helpon pri akĉento?
 help-accent-explanation = Via akĉento estas la maniero kiel vi prononcas vortojn. Ĝin influas la lokoj kie vi iam loĝis, viaj aliaj parolataj lingvoj kaj pluraj diversaj faktoroj. Vi povas dividi ĉi tie iun ajn informon, kiun vi opinias grava.
 help-variants = Ĉu vi bezonas helpon kun variantoj?
 help-variants-explanation = Variantoj estas specifaj formoj de lingvo - ekzemple dividitaj de tiuj kiuj loĝas en regiono aŭ komunumo. Kelkfoje oni nomas ilin dialektoj.
+# Genders
+male_masculine = Vira
+female_feminine = Ina
+intersex = Interseksa
+transgender = Transgenra
+non-binary = Neduuma
+do_not_wish_to_say = Mi preferas ne diri
+other = Alia

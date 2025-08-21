@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useSelect } from 'downshift'
 import classNames from 'classnames'
+import { useLocalization } from '@fluent/react'
 
 import {
   LocalizedGetAttribute,
@@ -19,9 +20,11 @@ interface Props {
   onLocaleChange?: (props: string) => void
 }
 
-
-const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Props) => {
-
+const LocalizationSelectComplex = ({
+  locale,
+  userLanguages,
+  onLocaleChange,
+}: Props) => {
   const getAvailableLocalesWithNames = () => {
     const initialAvailableLocalesWithNames = useNativeNameAvailableLocales()
     // Get user languages to top of the list
@@ -50,6 +53,7 @@ const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Pr
     }
   }
 
+  const { l10n } = useLocalization()
   const availableLocales = useAvailableLocales()
   const availableLocalesWithNames = getAvailableLocalesWithNames()
   const { abortStatus } = useAbortContributionModal()
@@ -101,37 +105,46 @@ const LocalizationSelectComplex = ({ locale, userLanguages, onLocaleChange }: Pr
           </button>
           <div className="list-wrapper">
             <ul {...getMenuProps()}>
-              {items.map((item, index) => (
-                <div
-                  key={item}
-                  className={
-                    classNames(
-                      'list-item-wrapper', {
-                      'highlighted': index === highlightedIndex,
-                      'userlanguage': userLanguages && userLanguages.length > 0 && index <= userLanguages.length - 1,
-                      'lastuserlanguage': userLanguages && userLanguages.length > 0 && index === userLanguages.length - 1,
-                    }
-                    )
-                  }
-                >
-                  <li {...getItemProps({ item })}>
-                    {getLocaleWithName(item).name}
-                  </li>
-                  {item === locale && (
-                    <img
-                      src={require('../../components/ui/icons/checkmark-green.svg')}
-                      alt=""
-                      width={24}
-                      height={24}
-                    />
-                  )}
-                </div>
-              ))}
+              {items.map((item, index) => {
+                const itemWithName = getLocaleWithName(item)
+                return (
+                  <div
+                    key={item}
+                    className={classNames('list-item-wrapper', {
+                      highlighted: index === highlightedIndex,
+                      selecteduserlanguage:
+                        userLanguages &&
+                        userLanguages.length > 0 &&
+                        index <= userLanguages.length - 1 &&
+                        item === locale,
+                      lastuserlanguage:
+                        userLanguages &&
+                        userLanguages.length > 0 &&
+                        index === userLanguages.length - 1,
+                    })}>
+                    <li {...getItemProps({ item })}>
+                      {itemWithName.code === itemWithName.name
+                        ? `${l10n.getString(itemWithName.code)} (${
+                            itemWithName.name
+                          })`
+                        : itemWithName.name}
+                    </li>
+                    {item === locale && (
+                      <img
+                        src={require('../../components/ui/icons/checkmark-green.svg')}
+                        alt=""
+                        width={24}
+                        height={24}
+                      />
+                    )}
+                  </div>
+                )
+              })}
             </ul>
           </div>
-        </div >
+        </div>
       )}
-    </LocalizedGetAttribute >
+    </LocalizedGetAttribute>
   )
 }
 

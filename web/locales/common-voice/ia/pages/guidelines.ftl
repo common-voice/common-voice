@@ -273,6 +273,7 @@ code-switching-answer-bullet-3 = Usa parolas que tu amarea realmente usar, mesmo
 code-switching-answer-bullet-4 = Il non ha maniera “perfecte” de responder
 code-switching-authentic-header = Responder naturalmente e authenticamente
 code-switching-authentic-speak = <bold>Parla como tu amarea con amicos o familia.</bold> Si tu misce linguas in le vita real, face lo mesme ci.
+code-switching-authentic-speak-example = “Pues I told her I couldn’t go, but she was like, ‘You better show up!’”
 code-switching-use-both-languages = <bold>Usa ambe linguas si isto es como tu amarea normalmente dicer lo.</bold> Mesmo mutar justo un parola o duo es utile. Exemplo:
 code-switching-use-both-languages-example = “Illa fureva multo porque io non la revocava.”
 code-switching-authentic-direct-quotes = <bold>Includer citationes directe o dialogo.</bold> Dicer exactemente lo que alcuno diceva, nulle version mundate o formal. Exemplo:
@@ -318,11 +319,43 @@ code-switching-orthography-header = Usar correcte orthographia pro cata lingua
 code-switching-orthography-explanation = Scriber cata parola secundo le orthographia del lingua pertinente. Per exemplo:
 code-switching-orthography-explanation-example-1 = Si le parola “kitchen” appare pronunciate como in espaniol, il deberea esser scripte como in anglese, non como “quichen.”
 code-switching-orthography-explanation-example-2 = Si le parola quinceaños es pronunciate como in anglese, scribe lo con le ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Usa le pronunciation pro adjutar a definir le linguage
+code-switching-pronunciation-explanation = Alcun parolas poterea parer equal in ambe linguas, ma poterea esser pronunciate differentemente. Ascolta le pronunciation pro adjutar a etiquettar correctemente. Per exemplo: cablo, taco, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Anglese: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Espaniol: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Etiquettar in un sol token
+code-switching-single-token-explanation = Un sol token separate per spatio debe continer plus que un intervallo etiquettate.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Etiquettar punctuation in base al lingua vicin
+code-switching-punctuation-tagging-explanation = Etiquetta punctuation per le lingua plus proxime a sinistra. Exemplos:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purpura>e le sol tempore que</purpura> Maria <purpura>critava a me era</purpura> <blau>porque</blau> <purpura>illa ha tentate a a</purpura> printear <blau>un</blau> <purpura>ordine.</purpura> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purpura>ma</purpura> <blau>tú los puedes comprar rojo, negro, azul</blau>, <purpura>qualcunque.</purpura> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Attention al sosias
+code-switching-lookalikes-explanation = Alcun parolas pote apparer como un lingua ma es usate pro le altere. Etiquettar in base a significato e uso, non apparentia. Exemplos:
+code-switching-lookalikes-explanation-example-1 = “Footing” usate pro significar currer in espaniol > etiquettar como espaniol
+code-switching-lookalikes-explanation-example-2 = “No problemo” usate in interlingua > etiquettar como interlingua
+# When Not to Tag Words
+code-switching-not-tag-header = Quando non etiquettar le parolas
+code-switching-not-tag-explanation = Alcun parolas debe <bold>non esser etiquettate</bold> con un etiquetta de lingua, mesmo si illos pare miscite o adaptate. Ecce como tractar alcun exemplos:
+code-switching-not-tag-proper-names = <bold>Nomines proprie.</bold> Nomines de personas, locos, e organisationes non debe esser etiquettate. Exemplos:
 code-switching-not-tag-proper-names-example-1 = Personas: Maria, Johannes
 code-switching-not-tag-proper-names-example-2 = Postos: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marcas/organisationes: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Parolas miscite o morphologicamente adaptate.</bold> Non etiquetta parolas que miscer linguas o ha addite conclusiones ab un altere lingua. Exemplos:
+code-switching-not-tag-mixed-words-example = Ubi un radice es anglese ma le suffixo es espaniol: “parkear”, “printearlo”
+code-switching-not-tag-interjections = <bold>Interjectiones.</bold> Interjectiones e parolas repletor, sin reguardo de lingua, deberea restar <bold>non etiquettate.</bold> Exemplos
+code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “No”
+code-switching-not-tag-interjections-example-3 = “Si”
+code-switching-not-tag-interjections-example-4 = “Ehm”
 
 ## Reporting Content
 
 reporting-content = Contento de reporto
 reporting-content-subheader = Guida general
+reporting-content-explanation-1 = Tu debe signalar contento que es offensive, malefic o alteremente preoccupante. On non debe alsi includer informationes de identification personal como numeros de telephono o adresses. Illos sera removite de tu experientia usque le equipa de Common Voice pote revider lo e investigar ulteriormente.
+reporting-content-explanation-2 = Pro reportar contento, selige le button “Reportar” e selige un o tote le optiones: Contento offensive, Lingua differente, Informationes de identification personal, altero. De ci, forni altere detalios re perque tu reporta le contento in le area de texto. Pois, invia le reporto cliccante sur le button Reportar.

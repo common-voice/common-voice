@@ -26,14 +26,6 @@ native-language =
 profile-form-add-accent = Жаңа акцент қосыў "{ $inputValue }"
 profile-form-submit-save = Сақлаў
 profile-form-submit-saved = Сақланды
-male_masculine = Еркек/Ер жүрек
-female_feminine = Ҳаял/Нәзик
-intersex = Интерсекс
-transgender = Трансгендер
-non-binary = Non-binary
-do_not_wish_to_say = Айтыўды қәлемеймен
-# Gender
-other = Басқа
 why-profile-title = Профил неге керек?
 why-profile-text = Өзиңиз туўралы қосымша мағлыўмат бериў арқалы, Common Voice ға жиберип атырған аудио мағлыўматларды даўысты таныў движоклары ушын пайдалырақ етесиз, олар бул мағлыўматларды өзлериниң анықлығын жақсылаў ушын қолланады.
 dashboard = Басқарыў панели
@@ -56,3 +48,11 @@ on = Қосылған
 help-accent = Акцент пенен жәрдем керек пе?
 help-variants = Вариантлар менен жәрдем керек пе?
 help-sex-or-gender-changes = Жынысты өзгертиў ямаса гендерлик теңлеслик пенен жәрдем керек пе?
+# Genders
+male_masculine = Еркек/Ер жүрек
+female_feminine = Ҳаял/Нәзик
+intersex = Интерсекс
+transgender = Трансгендер
+non-binary = Non-binary
+do_not_wish_to_say = Айтыўды қәлемеймен
+other = Басқа

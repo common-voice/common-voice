@@ -35,14 +35,14 @@ accept-privacy-and-terms = Yanepɨraʼeriwa <termsLink> nehetsié timieme ke mɨ
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Inglés
 kzi = Kelabit
 mbf = Baba Malay
 mel = Melanau centro mieme
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Penan este mieme
 pne = Penan oeste mieme
 sdo = Serian Bidayuh
 snv = Saʼban
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa Malay

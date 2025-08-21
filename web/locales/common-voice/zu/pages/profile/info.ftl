@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Okugciniwe
-# Gender
-other = Okunye
 why-profile-title = Kungani kunephrofayili?
 why-profile-text = Ngokunikezela ngeminye imininingwane ngawe, idatha yomsindo eqoshiwe kuCommon Voice izoba usizo olukhulu kwinkulumo. Izinjini zokuqashelwa ezisebenzisa ledatha zithuthukisa ukuqonda kwazo.
 dashboard = Ideshibhodi
@@ -61,3 +59,4 @@ help-accent = Udinga usizo oluthile ngokuphimisa?
 help-accent-explanation = Indlela yakho yokukhuluma, indlela yokuphimisa amagama. Ingathelelwa indawo lapho ohlale khona, yiziphi ezinye izilimi ozikhulumayo, niminye imithelela eminingi. Ungabelana eminye imininingwane obona ukuthi ifanelekile lana.
 help-variants = Udinga usizo oluthile ngokuhlukile?
 help-variants-explanation = Ulimi lungahluka ngezindlela thizeni - isibonelo, abantu abahlala esigodini esisodwa noma emphakathini owodwa. Lokhu kubizwa ngokuthi ulwimi lwesigodi.
+other = Okunye

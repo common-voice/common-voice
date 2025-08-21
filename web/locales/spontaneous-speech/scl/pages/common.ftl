@@ -35,8 +35,6 @@ accept-privacy-and-terms = موسے کامن وائیسو <termsLink>شراطی<
 bsy = صباح بِصایہ
 cdo = فُوزوح
 cpx = ہینگ ہوا
-en = انگریزی
-fr = فارسی
 hch = وکساریکا
 kzi = کیلابِٹ
 mbf = بابا مالے
@@ -45,11 +43,11 @@ mel = مجینو (وسطی) میلانو
 mmc =
     Michoacán Mazahua
     مِچاؤکن مَزھوا
-ms-MY = بہاسا مالے
 msi = صباح مالے
 pez = ایسٹرن پینن/ Eastern Penan
 pne = مغربی (ویسٹرن) پینن/ Eastern Penan
 sdo = سیرین بدایوہ
 snv = شعبان/ سعبان
-tr = تُرکی
 xkl = کِینیا
+# Locales-Variants
+ms-MY = بہاسا مالے

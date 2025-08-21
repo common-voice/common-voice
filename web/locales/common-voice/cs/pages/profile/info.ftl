@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Přidat nový přízvuk „{ $inputValue }“
 profile-form-submit-save = Uložit
 profile-form-submit-saved = Uloženo
-male_masculine = Muž/mužské
-female_feminine = Žena/ženské
-intersex = Intersex
-transgender = Transgender
-non-binary = Nebinární
-do_not_wish_to_say = Nechci uvést
-# Gender
-other = Ostatní
 why-profile-title = Proč mít profil?
 why-profile-text = Tím, že nám o sobě poskytnete nějaké informace budou data, která odešlete do Common Voice, více užitečná pro systémy pro prozpoznávání řeči, které tato data využívají ke zvýšení přesnosti.
 dashboard = Nástěnka
@@ -91,3 +83,11 @@ copy-api-credential-success-toast-message = Úspěšně zkopírováno
 copy-api-credential-error-toast-message = Chyba při kopírování
 delete-api-key-success-toast-message = Přihlašovací údaje k API byly úspěšně smazány
 duplicate-api-key-name-error = Duplicitní název API klíče
+# Genders
+male_masculine = Muž/mužské
+female_feminine = Žena/ženské
+intersex = Intersex
+transgender = Transgender
+non-binary = Nebinární
+do_not_wish_to_say = Nechci uvést
+other = Ostatní

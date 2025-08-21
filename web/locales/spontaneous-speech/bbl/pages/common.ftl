@@ -45,22 +45,20 @@ accept-privacy-and-terms = დარ ლე́ვდოს Common Voice-ეჼ <t
 bsy = საბაჰ-ბისაია
 cdo = ფუჯოუ
 cpx = ჰენგ-ჰუა
-en = ინგლისურ
-fr = ფრანგულ
 hch = ვიქსარიკა
 kzi = კელაბიტ
 mbf = ბაბა-მალაურ
 meh = სამხრეთდასავლურ ტლახიაკეჼ მისტეკურ
 mel = ცენტრალურ მელანაუ
 mmc = მიჩოაკან მაზაჰუა
-ms-MY = ბაჰასა მალაურ
 msi = საბაჰ-მალაურ
 pez = აღმოსავლურ პენან
 pne = დასავლურ პენან
 sdo = სერიანულ ბიდაუ
 snv = საბანი-მოტტ
-tr = თურქულ
 xkl = კენიურ
+# Locales-Variants
+ms-MY = ბაჰასა მალაურ
 
 ## Language search component
 

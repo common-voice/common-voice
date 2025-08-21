@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = "{ $inputValue }" сарастарымы у акцентӹм уштараш
 profile-form-submit-save = Переген кодаш
 profile-form-submit-saved = Переген кодымы
-# Gender
-other = Весӹ
 why-profile-title = Малан профиль келеш?
 dashboard = Хӓдӹр ханга
 build-profile = Профильӹм ӹштӹмäш
@@ -57,3 +55,4 @@ on = Чӱктӓш
 help-accent = Акцент шотышты палшык келеш?
 help-variants = Вариантвлӓ шотышты палшык келеш?
 help-variants-explanation = Вариантвлӓ — йӹлмӹн пасна формыжы, шамак толшеш, пасна вӓрӹштӹ ӓли тӹшкӓштӹ ӹлӹшӹвлӓлӓн икань. Южнам тӹдӹм диалект маныт.
+other = Весӹ

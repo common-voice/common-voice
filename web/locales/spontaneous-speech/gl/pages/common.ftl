@@ -41,9 +41,6 @@ not-found-page-header = Non se atopou
 not-found-page-content = Non se atopou a páxina que estaba buscando.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Acepto as <termsLink>Condicións</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> de Common Voice
-en = Inglés
-fr = Francés
-tr = Turco
 
 ## Language search component
 

@@ -48,22 +48,21 @@ accept-privacy-and-terms = Jag godkänner Common Voices <termsLink>villkor</term
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Engelska
-fr = Franska
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba malajiska
 meh = Sydvästra Tlaxiaco Mixtec
 mel = Centrala Melanau
 mmc = Michoacán Mazahua
-ms-MY = Malajiska Bahasa
 msi = Sabah malajiska
 pez = Östra Penan
 pne = Västra Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turkiska
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Malajiska Bahasa
+el-CY = cypriotiska grekiska
 
 ## Language search component
 

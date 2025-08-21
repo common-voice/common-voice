@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Ongeza lafudhi mpya maalum "{ $inputValue }"
 profile-form-submit-save = Hifadhi
 profile-form-submit-saved = Imehifadhiwa
-# Gender
-other = mengineyo
 why-profile-title = Kwa niniu kupeana wasifu?
 why-profile-text = Kwa kutoa baadhi ya taarifa zako, data ya sauti unayowasilisha kwa Common Voice itakua ya umuhimu zaidi kwa injini ya utambulizi wa sauti ambayo hutumia data hii kuboresha usahihi wao.
 dashboard = Dashibodi
@@ -61,3 +59,4 @@ help-accent = Je, unahitaji usaidizi kuhusu lafudhi?
 help-accent-explanation = Lafudhi yako ni jinsi unavyotamka maneno. Inaweza kubadilishwa na mahali umeishi, lugha zingine unazungumza na mambo mengine mengi. Unaweza shirikia maelezo yoyote unayohisi yanafaa hapa.
 help-variants = Je, unahitaji usaidizi kuhusu lahaja?
 help-variants-explanation = Lahaja ni aina mahususi ya lugha - kwa mfano inayoshirikiwa na wale wanaoishi katika jiografia au jumuiya. Wakati mwingine hizi huitwa lahaja.
+other = mengineyo

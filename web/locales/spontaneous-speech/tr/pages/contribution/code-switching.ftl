@@ -2,6 +2,7 @@
 
 cs-error-fetching-datasets = Mevcut veri kümelerinin listesi yüklenirken bir şey ters gitti. Lütfen daha sonra yeniden deneyin.
 cs-error-fetching-questions = Sorular yüklenirken bir şey ters gitti. Lütfen daha sonra yeniden deneyin.
+cs-error-fetching-transcriptions = Metinler sunucudan alınırken bir şey yanlış gitti. Lütfen daha sonra yeniden deneyin.
 
 ## Question Page Items
 

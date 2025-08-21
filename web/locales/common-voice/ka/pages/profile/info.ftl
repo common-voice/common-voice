@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = დაამატეთ საკუთარი კილო „{ $inputValue }“
 profile-form-submit-save = შენახვა
 profile-form-submit-saved = შენახულია
-male_masculine = კაცი/მამრობითი
-female_feminine = ქალი/მდედრობითი
-intersex = ორსქესიანი
-transgender = სქესშეცვლილი
-non-binary = კაცის/ქალის გარდა
-do_not_wish_to_say = სქესის გაუმხელად
-# Gender
-other = სხვა
 why-profile-title = რა საჭიროა პროფილი?
 why-profile-text = თქვენ შესახებ გარკვეული ინფორმაციის მოწოდებით თქვენ მიერ წარდგენილი ჩანაწერები, რომელთაც აგროვებს Common Voice, მეტად გამოსადეგი იქნება იმ ხმოვანი ამოცნობის სისტემებისთვის, ამ მონაცემებს სიზუსტის გასაუმჯობესებლად რომ იყენებს.
 dashboard = მაჩვენებლები
@@ -114,3 +106,11 @@ delete-api-key-success-toast-message = API-მოწმობა წარმა
 add-api-key-name-error = API-მოწმობის სახელის დამატება
 max-api-keys-reached = API-მოწმობების ზღვარი, 10 ერთეული, გადაჭარბებულია
 duplicate-api-key-name-error = API-მოწმობის სახელის გაორკეცება
+# Genders
+male_masculine = კაცი/მამრობითი
+female_feminine = ქალი/მდედრობითი
+intersex = ორსქესიანი
+transgender = სქესშეცვლილი
+non-binary = კაცის/ქალის გარდა
+do_not_wish_to_say = სქესის გაუმხელად
+other = სხვა

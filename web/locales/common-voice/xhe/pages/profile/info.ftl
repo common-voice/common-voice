@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نواں آپݨی مرضی تا لہجہ وِڄ "{ $inputValue }"
 profile-form-submit-save = رکھینس
 profile-form-submit-saved = رکھا ڳیا
-male_masculine = نر/مذکر
-female_feminine = مادی/مؤنث
-intersex = ٹرانس جینڈر
-transgender = کُھسرا
-non-binary = نہ-بائنری
-do_not_wish_to_say = نئی آکھݨ چاہندا
-# Gender
-other = ٻیا
 why-profile-title = ہِک پروفائل چھے ݙے؟
 why-profile-text =
     آپݨے باریک کُجھ معلومات ݙین٘دے ہوئے، اَواز تا ڈیٹا جا کام وائس تی وِچ جمع پیا کندا ہیں تقریر واسطے گھݨاں فائدہ مند ہے
@@ -79,3 +71,11 @@ variant-contribution-option-1 = میک منجی ٻولی تی وِچ ساریا�
 variant-contribution-option-2 = خالی منجے لہجے تے ڳالھ وار ٻیا ٹوٹے وڑا
 variant-contribution-warning-title = ⓘ انڄیاں تک سارے ڳالھ وار ٻیا ٹوٹیں تے وِچ ٹیگ نہ تھے!
 variant-contribution-warning-subtitle = اگر تؤک حِصّہ گُھولݨ تی وِچ پریشانی پئی تھین٘دی ہے ٻیال تو کئے وخت بھی آپݨی ٻولی تے سارے موادیک لالݨ واسطے وتا ون٘ڄ سڳدا ہیں۔
+# Genders
+male_masculine = نر/مذکر
+female_feminine = مادی/مؤنث
+intersex = ٹرانس جینڈر
+transgender = کُھسرا
+non-binary = نہ-بائنری
+do_not_wish_to_say = نئی آکھݨ چاہندا
+other = ٻیا

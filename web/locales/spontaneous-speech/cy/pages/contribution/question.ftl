@@ -34,3 +34,9 @@ do-not-section-title = peidiwch â
 do-not-section-guideline-1 = Ceisio gofyn am wybodaeth sy’n adnabod rhywun yn bersonol (fel enwau neu wybodaeth ariannol)
 do-not-section-guideline-2 = Mynegi neu geisio teimladau rhagfarnllyd neu dramgwyddus
 do-not-section-guideline-3 = Gofyn cwestiynau sensitif
+# Code switching Guidelines
+cs-do-section-guideline-1 = Defnyddiwch gwestiynau neu gyd-destun dwyieithog
+cs-do-section-guideline-2 = Archwiliwch senarios anffurfiol, sefyllfaoedd, neu ail-greuadau
+cs-do-not-section-guideline-1 = Ceisio gofyn am wybodaeth sy’n caniatáu adnabod person (fel enwau neu fanylion ariannol)
+cs-do-not-section-guideline-2 = Gofyn am gyfnewid cod neu ofyn am gyfieithiad
+cs-do-not-section-guideline-3 = Defnyddio iaith rhy ffurfiol

@@ -47,22 +47,20 @@ accept-privacy-and-terms = Mat eo din <termsLink>Termenoù</termsLink> Common vo
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Saozneg
-fr = Galleg
 hch = Wixarika
 kzi = Kelabit
 mbf = Malayseg Baba
 meh = Mikstekeg Tlaxiaco ar mervent
 mel = Melanau kreiz
 mmc = Mazahouaeg Michoacán
-ms-MY = Malayseg Bahasa
 msi = Malayseg Sabah
 pez = Penaneg ar reter
 pne = Penaneg ar c'hornôg
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turkeg
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Malayseg Bahasa
 
 ## Language search component
 

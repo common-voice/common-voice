@@ -95,6 +95,9 @@ release-version = Ferzje
 dataset-date = Datum
 license = Lisinsje: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mikst
+# Support old genders in older datasets
+male = Manlik
+female = Froulik
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Us spraakgegevenssets downloade
 # MENU ITEM ARIA LABELS

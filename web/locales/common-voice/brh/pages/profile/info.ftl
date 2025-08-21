@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = پوسکنو حسب ضرورت لہجہ ساڑی کبو "{ $inputValue }"
 profile-form-submit-save = خوندی کبو
 profile-form-submit-saved = خوندی مس
-male_masculine = نرینہ/ نرینہ گری
-female_feminine = نیاڑی/ نیاڑی گری
-intersex = انٹرسیکس
-transgender = کداڑا
-non-binary = غیر بائنری
-do_not_wish_to_say = پاننگ نا اُست خوائی کپابو
-# Gender
-other = ایلو
 why-profile-title = پروفائل انتئے؟
 why-profile-text =
     تینا  باروٹ گڑاس چاہنداری تننگان، نم ہرا آڈیو ڈیٹا کامن وائس آ جمع کریفینورے او اسپیچ کن زیات کاریم اٹ بریرہ۔
@@ -79,3 +71,11 @@ variant-contribution-option-1 = کنا زبان نا بدلی تا مچا جمل
 variant-contribution-option-2 = کنا بدلی تا جملہ و کلپاتے صرف کنے نشان ایتبو
 variant-contribution-warning-title = مچا جملہ غاک و کلپاک بدلی تا تیگس داسکان اف
 variant-contribution-warning-subtitle = اگہ نمے کمک کننگ اٹ فریشانی مننگ اے، گڑا نم امرو ہم وخت سیٹی تینا زبان کن مُچا مواداتے اوننگ کن ولدا اننگ کیسہ۔
+# Genders
+male_masculine = نرینہ/ نرینہ گری
+female_feminine = نیاڑی/ نیاڑی گری
+intersex = انٹرسیکس
+transgender = کداڑا
+non-binary = غیر بائنری
+do_not_wish_to_say = پاننگ نا اُست خوائی کپابو
+other = ایلو

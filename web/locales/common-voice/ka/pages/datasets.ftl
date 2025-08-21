@@ -95,6 +95,9 @@ release-version = გამოშვება
 dataset-date = თარიღი
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = შერეული
+# Support old genders in older datasets
+male = მამრობითი
+female = მდედრობითი
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = ხმოვანი კრებულების ჩამოტვირთვა
 # MENU ITEM ARIA LABELS

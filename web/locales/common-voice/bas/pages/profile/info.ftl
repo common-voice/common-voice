@@ -20,8 +20,6 @@ native-language =
     .label = Hop u libéé
 profile-form-submit-save = Hék
 profile-form-submit-saved = Nhégék
-# Gender
-other = Muda bé ndi to mulôm bé
 why-profile-title = Liyimbne li nhôla kii ?
 why-profile-text = Hiki ñgéda u gayelel yimbne yada i libak joñ, u gahôla le, mayaa ma makiñ u nsañge i Common Voice ma kônde bana mahee inyu lihôlôs minyum mi lisolol makiñ, mi mi mbôñôl mana mayaa inyu ndip i lisoolak li makiñ.
 dashboard = Kumba
@@ -48,3 +46,4 @@ skip-submission-description = Iñgéda lisul njañgi yoñ, ibale u nwot i "Su
 skip-submission-note = Yimbe le : Yabéda we le utep ipôla Pot ni Emble inyu lihéñha nya lisañgge.
 off = Lém
 on = Kwiye
+other = Muda bé ndi to mulôm bé

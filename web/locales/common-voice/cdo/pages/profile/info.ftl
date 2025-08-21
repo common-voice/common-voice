@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = 新增自訂腔調「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-male_masculine = 男性
-female_feminine = 女性
-intersex = 雙性
-transgender = 跨性別
-non-binary = 非二元性別
-do_not_wish_to_say = 我不想說
-# Gender
-other = 其他
 why-profile-title = 為什麼需要帳號？
 why-profile-text = 語音識別引擎將可使用您提供給我們的資訊，讓您送出給 Common Voice 的語音資料被更加善用，改善準確度。
 dashboard = 儀錶板
@@ -71,3 +63,11 @@ help-variants = 需要關於變體的相關說明嗎？
 help-variants-explanation = 變體是一種語言的特定格式，像是由居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
 help-sex-or-gender-changes = 需要更改性別嗎？
 variant-contribution-options-header = 變體貢獻選項
+# Genders
+male_masculine = 男性
+female_feminine = 女性
+intersex = 雙性
+transgender = 跨性別
+non-binary = 非二元性別
+do_not_wish_to_say = 我不想說
+other = 其他

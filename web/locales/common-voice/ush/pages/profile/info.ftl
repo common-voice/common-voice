@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نئی کسٹم لہجہ جمع تھا
 profile-form-submit-save = محفوظ تھا
 profile-form-submit-saved = محفوظ بیلو
-male_masculine = منوڙو/ مذکر
-female_feminine = مؤنث/ جپئی
-intersex = بدک
-transgender = دوہرا جنس
-non-binary = نان بائنری
-do_not_wish_to_say = کونتی نی بئلا
-# Gender
-other = ہورے
 why-profile-title = پروفائل کے؟
 why-profile-text =
     تو تمو بارا در جے معلومات تھونو، تو کامیک آڈیو ڈیتا کامن وائس در جمع تھئیلا، سا وینا ئی کارا لالو سیئی ہنو۔
@@ -81,3 +73,11 @@ variant-contribution-option-1 = آسئی جیِبے لہجہ در بوٹے جم�
 variant-contribution-option-2 = صرف می لہجہ در ما تی جملئی اؤ لہجے پشارے
 variant-contribution-warning-title = چینجا پورے تھئی جیب در بوٹے جملئی اؤ کلپس ٹیگ نی بیلنا!
 variant-contribution-warning-subtitle = کہ تو تے اشتراک در مشکل ہنو، تو ہر وخ تمو جیبے مواد ڇک بئیلا۔
+# Genders
+male_masculine = منوڙو/ مذکر
+female_feminine = مؤنث/ جپئی
+intersex = بدک
+transgender = دوہرا جنس
+non-binary = نان بائنری
+do_not_wish_to_say = کونتی نی بئلا
+other = ہورے

@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Ahig un nau accent personalizat «{ $inputValue }»
 profile-form-submit-save = Sauva
 profile-form-submit-saved = S'a sauvat
-# Gender
-other = Un aute
 why-profile-title = Per qué un perfil?
 why-profile-text = Se balhatz informacion vòsta, es donades d’àudio qu’enviatz tath Common Voice seràn mès utiles entàs motors de reconeishença dera votz que les empleguen entà milhorar era sua precision.
 dashboard = Taulèr
@@ -61,3 +59,4 @@ help-accent = Vos cau ajuda sus es accents?
 help-accent-explanation = Er accent ei era forma en qué prononciatz es paraules. Se pòt crear a crear des lòcs a on auetz viscut, quine autes lengües parlatz e fòrça d’auti factors. Podetz compartir ací era informacion que sigue que consideretz remercabla.
 help-variants = Vos cau ajuda damb es variantes?
 help-variants-explanation = Es variantes son formes especifiques d'ua lengua. Per exemple, compartides per persones que viuen en ua zòna geografica o comunitat. A viatges se’n ditz dialèctes.
+other = Un aute

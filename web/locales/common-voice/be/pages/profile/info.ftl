@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Дадаць новы ўласны акцэнт "{ $inputValue }"
 profile-form-submit-save = Захаваць
 profile-form-submit-saved = Захавана
-male_masculine = Мужчынскі
-female_feminine = Жаночы
-intersex = Інтэрсэксуал
-transgender = Трансгендэр
-non-binary = Небінарны
-do_not_wish_to_say = Не хачу казаць
-# Gender
-other = Іншы
 why-profile-title = Навошта патрэбны профіль?
 why-profile-text = Калі вы прадаставіце пэўную інфармацыю пра сябе, аўдыёзапісы, дададзеныя вамі ў Common Voice, будуць больш карыснымі для рухавікоў распазнавання маўлення, якія абапіраюцца на гэтую інфармацыю для паляпшэння якасці.
 dashboard = Панэль кіравання
@@ -68,3 +60,11 @@ on = Прапусціць
 help-accent = Патрэбна дапамога з акцэнтам?
 help-variants = Патрэбна дапамога з варыянтамі?
 help-variants-explanation = Варыянты - гэта спецыфічная форма мовы, якую, напрыклад, падзяляюць тыя, хто жыве ў пэўнай мясцовасці або супольнасці. Часам іх называюць дыялектамі.
+# Genders
+male_masculine = Мужчынскі
+female_feminine = Жаночы
+intersex = Інтэрсэксуал
+transgender = Трансгендэр
+non-binary = Небінарны
+do_not_wish_to_say = Не хачу казаць
+other = Іншы

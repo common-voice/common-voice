@@ -20,8 +20,6 @@ native-language =
     .label = Bahasa Ibu
 profile-form-submit-save = Simpan
 profile-form-submit-saved = Disimpan
-# Gender
-other = Lainnya
 why-profile-title = Untuk apa profil?
 why-profile-text = Dengan menyediakan informasi mengenai diri Anda, data audio yang Anda kirimkan ke Common Voice akan lebih berguna bagi mesin Pengenal Ucapan yang memanfaatkan data ini untuk meningkatkan akurasinya.
 dashboard = Dasbor
@@ -49,3 +47,4 @@ skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Deng
 off = Nonaktif
 on = Aktif
 help-accent-explanation = Aksen Anda adalah cara Anda mengucapkan kata-kata. Hal ini dapat dibentuk oleh tempat tinggal Anda, bahasa lain yang Anda gunakan dan banyak faktor lainnya. Anda dapat berbagi informasi apa pun yang Anda rasa relevan di sini.
+other = Lainnya

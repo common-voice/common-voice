@@ -26,8 +26,6 @@ native-language =
 profile-form-add-accent = Yangi boshqa "{ $inputValue }" talaffuzini qoʻshing
 profile-form-submit-save = Saqlash
 profile-form-submit-saved = Saqlandi
-# Gender
-other = Boshqa
 why-profile-title = Nega profil?
 why-profile-text = Oʻzingiz haqingizda maʼlumot kiritib, Common Voice loyihasiga audio maʼlumotlarni yuborsangiz, nutqni tanish tizimiga yordamlashgan boʻlasiz. Bu ovozli yozuvlar ovozni tanish aniqligi va sifatini oshirishda yordam beradi.
 dashboard = Boshqaruv paneli
@@ -56,3 +54,4 @@ off = Oʻchiq
 on = Yoniq
 help-accent = Talaffuzga aloqador yordam kerakmi?
 help-accent-explanation = Talaffuzingiz – bu soʻzlarni talaffuz qilish usulingiz. Bu yashagan muhitingiz, boshqa tillarda gaplashishingiz va boshqa koʻplab omillarga bogʻliq. Bu yerdagi istagan maʼlumotingizni ulashishingiz mumkin.
+other = Boshqa

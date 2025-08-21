@@ -24,14 +24,6 @@ native-language =
     .label = Materni jezik
 profile-form-submit-save = Shrani
 profile-form-submit-saved = Shranjeno
-male_masculine = Moški
-female_feminine = Ženski
-intersex = Medspolni
-transgender = Transspolni
-non-binary = Nebinarni
-do_not_wish_to_say = Ne želim povedati
-# Gender
-other = Drugo
 why-profile-title = Zakaj ustvariti profil?
 why-profile-text = S tem, da dodate nekaj podatkov o sebi, bodo glasovni podatki, ki jih pošljete projektu Common Voice, uporabnejši za razpoznavo govora, saj se lahko uporabijo za zagotavljanje večje natančnosti.
 dashboard = Nadzorna plošča
@@ -60,3 +52,11 @@ skip-submission-description = Med oddajo prispevka bodo povratne informacije pre
 skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
 off = Izklopljeno
 on = Vklopljeno
+# Genders
+male_masculine = Moški
+female_feminine = Ženski
+intersex = Medspolni
+transgender = Transspolni
+non-binary = Nebinarni
+do_not_wish_to_say = Ne želim povedati
+other = Drugo

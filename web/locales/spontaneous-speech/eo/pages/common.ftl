@@ -16,6 +16,7 @@ media-recorder-api-not-supported = La MediaRecorder API ne estas subtenata en vi
 # Toast message that is displayed when an item is skipped
 skipped = Preterlasita
 audioplayer-header = Aŭskulti
+guidelines = Gvidlinioj
 # For the button to report an item
 report-button = Raporti
 # For the button to skip an item
@@ -38,15 +39,13 @@ tag = Etikedo
 ## Not Found Page
 
 not-found-page-header = Ne trovita
+not-found-page-content = La paĝo, kiun vi serĉas, ne estis trovebla.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Mi konsentas kun la <termsLink>kondiĉoj</termsLink> kaj la <privacyLink>rimarko pri privateco</privacyLink> de Common Voice
 # Locales
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Angla
-fr = Franca
-tr = Turka
 
 ## Language search component
 

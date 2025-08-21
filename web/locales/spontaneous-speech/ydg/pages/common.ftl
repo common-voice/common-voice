@@ -43,22 +43,20 @@ accept-privacy-and-terms = زو ڤے کامن وائسن <termsLink>شرائطف
 bsy = صباح بیسایا
 cdo = فوژو
 cpx = ہینگ ہوا
-en = انگریزی
-fr = فرنچ
 hch = ویکساریکا
 kzi = کیلابیٹ
 mbf = بابا مالے
 meh = جنوب مشرقی ٹیلکسیاکو میکسٹیک
 mel = وسطی میلانو
 mmc = میچواکن مزاہوا
-ms-MY = بھاسا مالے
 msi = صباح مالے
 pez = مشرقی پینان
 pne = مغربی پینان
 sdo = سیرین بدایوہ
 snv = سابان
-tr = ترکش
 xkl = کینیاہ
+# Locales-Variants
+ms-MY = بھاسا مالے
 
 ## Language search component
 

@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = "{ $inputValue }" نوغ روایتی لہجہ شامل کو
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ کورینو ہوئے
-male_masculine = موش
-female_feminine = کیمیری
-intersex = موش تہ کیمری
-transgender = موش تہ کیمری
-non-binary = موش تہ کمیری
-do_not_wish_to_say = لو دیک نو مݰکیمان
-# Gender
-other = خور
 why-profile-title = پروفائل کو؟
 why-profile-text =
     تان بارا پھوک معلومات دیتی، ہوازو ڈیٹا کامن وائسا شامل کی ارو ریاکو لوان
@@ -79,3 +71,11 @@ variant-contribution-option-1 = مہ وارا تھمام شکلان  جملان 
 variant-contribution-option-2 = مہ لہجو جملان وا ہوازان پشاوے
 variant-contribution-warning-title = تھمام جملان وا ہوازان سوم لہجان نݰان نوچوکی شیر!
 variant-contribution-warning-subtitle = تہ تین مدد کوریکا کی مسلہ گویان تو  کیہ دی وختہ تان وارو تھمام اشناریان لوڑیکو ژاغا واپس گیکو بوس۔
+# Genders
+male_masculine = موش
+female_feminine = کیمیری
+intersex = موش تہ کیمری
+transgender = موش تہ کیمری
+non-binary = موش تہ کمیری
+do_not_wish_to_say = لو دیک نو مݰکیمان
+other = خور

@@ -48,22 +48,20 @@ accept-privacy-and-terms = Common Voice'un <termsLink>Koşullarını</termsLink>
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = İngilizce
-fr = Fransızca
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba Malay
 meh = Güneybatı Tlaxiaco Mixtec
 mel = Orta Melanau
 mmc = Michoacán Mazahua
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Doğu Penan
 pne = Batı Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Türkçe
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa Malay
 
 ## Language search component
 

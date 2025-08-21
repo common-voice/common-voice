@@ -45,22 +45,20 @@ accept-privacy-and-terms = ای Common Voice نا <termsLink>شڑتاتا </term
 bsy = صباح بسایا
 cdo = Fuzhou
 cpx = Heng Hua
-en = انگریزی
-fr = فرانسیسی
 hch = وکساریکا
 kzi = کیلابٹ
 mbf = بابا مالے۔
 meh = جنوب مغربی Tlaxiaco Mixtec
 mel = وسطی میلانو
 mmc = Michoacán Mazahua
-ms-MY = بہاسا مالائی
 msi = صباح مالے
 pez = مشرقی پینان
 pne = مغربی پینان
 sdo = سیرین بدایوہ
 snv = شعبان
-tr = ترکی
 xkl = کینیا
+# Locales-Variants
+ms-MY = بہاسا مالائی
 
 ## Language search component
 

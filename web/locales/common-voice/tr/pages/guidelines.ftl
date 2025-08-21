@@ -145,6 +145,10 @@ example-questions-explanation-2 = Besleme için çok sayıda soru göndermek ist
 # Answer Questions
 answer-questions = Soru yanıtlama
 answer-questions-subheader = Genel yönergeler
+answer-questions-tip-1 = Olabildiğince sessiz bir yerde kayıt yapın
+answer-questions-tip-2 = İnternet bağlantısı iyi olan bir yer seçin
+answer-questions-tip-3b = Yanıtınızı 15-30 saniye arasında tutmaya çalışın
+answer-questions-tip-6 = Ses seviyenizi stabil tutun: Bağırmayın ve şarkı söylemeyin
 # Transcribe the Audio
 transcribe-the-audio = Ses kayıtlarını metne çevirme
 transcribe-the-audio-subheader-1 = Genel yönergeler
@@ -176,6 +180,8 @@ code-switching-adding-question-criteria-3 = Kötü veya saldırgan bir dil kulla
 code-switching-adding-question-note = Farklı bağlamları ve alanları da kapsamayı düşünebilirsiniz.
 # What types of questions to add
 code-switching-types-subheader = Ne tür sorular eklemelisiniz?
+# Reviewing a Question
+code-switching-review-subheader = Soru inceleme
 code-switching-review-criterion-1 = Anlaşılması ve yanıtlanması kolay olmalı
 code-switching-review-criterion-2 = Genel konularla ilgili olmalı
 code-switching-review-criterion-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
@@ -184,6 +190,10 @@ code-switching-answer-header = Rahatsız edici içerik veya hassas bilgiler
 code-switching-review-no-1 = Kişisel kimlik bilgilerini vermekle sonuçlanabilecek sorular
 code-switching-review-no-2 = Nefret söylemi, önyargılı ya da saldırgan ifadeler içerebilecek yanıtları tetikleyebilecek sorular
 code-switching-review-no-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
+# Answering a Question
+code-switching-answer-subheader = Soru cevaplama
+# Transcribing
+code-switching-transcribe-subheader = Metne çevirme
 # Tagging
 code-switching-tagging-subheader = Etiketleme
 code-switching-tagging-error-1 = Yanlış noktalama veya büyük harf kullanımı
@@ -192,4 +202,5 @@ code-switching-not-tag-interjections-example-2 = “Hayır”
 
 ## Reporting Content
 
+reporting-content = İçerik rapolama
 reporting-content-subheader = Genel yönergeler
