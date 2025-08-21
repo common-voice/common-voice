@@ -1,3 +1,8 @@
+## Demo Datasets
+
+card-button-next = Înainte
+card-button-back = Înapoi
+
 ## Demo Account
 
 demo-account-enter-email =
