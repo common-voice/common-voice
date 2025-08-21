@@ -23,8 +23,11 @@ tag-error-toast-message = S'ha produït un error en enviar les etiquetes
 tag-empty-submit-error = No hi ha text per enviar. Primer, etiqueteu el text.
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Utilitzeu una ortografia correcta
-cs-tag-do-guideline-2 = Utilitzeu la pronunciació per ajudar-vos
+cs-tag-do-guideline-2 = Utilitzeu la pronúncia per ajudar-vos
+cs-tag-do-guideline-3 = Aneu amb compte amb les paraules que s'assemblen
+cs-tag-do-not-guideline-1 = Etiqueteu noms propis, paraules mesclades  o interjeccions
 cs-tag-shortcuts-section-title = Ús del teclat
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Etiqueta amb llengua
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
