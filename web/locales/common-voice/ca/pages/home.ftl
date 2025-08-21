@@ -153,12 +153,14 @@ contribute-github-action = Col·laboració a GitHub
 
 ## Featured section
 
+featured-section-title = Se'n parla en…
 # icon is an arrow that points downwards
 download-press-pack = Baixeu el dossier de premsa <icon></icon>
 
 ## Developers section
 
 developers-section-title = Conjunts de dades de parla oberts i d'accés públic en més de 130 idiomes
+developers-section-subtitle = Conjunts de dades per al reconeixement automàtic de la parla (RAP). síntesi de text i altres contextos de processament del llenguatge natural (PLN), creats mitjançant la participació de la comunitat.
 # icon is an arrow that points to the right
 explore-datasets = Exploreu els conjunts de dades <icon></icon>
 
