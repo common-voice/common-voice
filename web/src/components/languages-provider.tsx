@@ -21,6 +21,25 @@ import { useLocale } from './locale-helpers'
 
 const SentryRoute = Sentry.withSentryRouting(Route)
 
+const STORED_LOCALE_KEY = 'current-locale'
+
+// Safe localStorage helper functions
+function getStoredLocale() {
+  try {
+    return localStorage.getItem(STORED_LOCALE_KEY)
+  } catch (e) {
+    return null
+  }
+}
+
+function setStoredLocale(locale: string) {
+  try {
+    localStorage.setItem(STORED_LOCALE_KEY, locale)
+  } catch (e) {
+    // noop
+  }
+}
+
 interface LanguageRoutesProps {
   userLocales: string[]
   setUserLocales: (newUserLocales: string[]) => void
@@ -44,6 +63,7 @@ const LanguageRoutes = ({
   useEffect(() => {
     if (primaryUserLocale !== prevLocaleRef.current) {
       prevLocaleRef.current = primaryUserLocale
+      setStoredLocale(primaryUserLocale) // <== Save to localStorage when locale changes
     }
   }, [primaryUserLocale])
 
@@ -146,13 +166,11 @@ const LanguagesProvider = ({ children }: LanguagesProviderProps) => {
 
   async function updateLocalization() {
     const localizationUserLocales = [...userLocales]
-
     const pathname = history.location.pathname
 
     if (!languages.translatedLocales.includes(userLocales[0])) {
       localizationUserLocales[0] = DEFAULT_LOCALE
       setUserLocales(localizationUserLocales)
-
       setLocale(DEFAULT_LOCALE)
       history.replace(replacePathLocale(pathname, DEFAULT_LOCALE))
     } else {
@@ -182,10 +200,15 @@ const LanguagesProvider = ({ children }: LanguagesProviderProps) => {
 
   useEffect(() => {
     if (userLocales.length === 0 && !languages?.isLoading) {
-      const newUserLocales = negotiateLocales(
+      let newUserLocales = negotiateLocales(
         navigator.languages,
         languages.translatedLocales
       )
+      // <== Check for stored locale first
+      const storedLocale = getStoredLocale()
+      if (storedLocale && languages.translatedLocales.includes(storedLocale)) {
+        newUserLocales = [storedLocale, ...newUserLocales]
+      }
       setUserLocales(newUserLocales)
     }
   }, [userLocales, languages])

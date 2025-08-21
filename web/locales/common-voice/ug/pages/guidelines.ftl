@@ -132,3 +132,12 @@ process-steps = جەريان/باسقۇچ
 offensive-content-sensitive-information = كىشىنى بىزار قىلىدىغان مەزمۇن ياكى سەزگۈر ئۇچۇر
 offensive-content-sensitive-information-explanation-explanation-1 = شەخسىي سالاھىيەت ئۇچۇرىنى تەلەپ قىلىشى مۇمكىن بولغان سوئال
 example-questions-subheader = مىسال سوئاللىرى
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = سوئالغا جاۋاب
+answer-questions-subheader = ئادەتتىكى يېتەكچى
+# Transcribe the Audio
+transcribe-the-audio = ئۈننى خەتكە پۈت
+transcribe-the-audio-subheader-1 = ئادەتتىكى يېتەكچى

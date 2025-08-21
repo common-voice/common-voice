@@ -24,8 +24,6 @@ native-language =
 profile-form-add-accent = Adjunter un nov personal accentu «{ $inputValue }»
 profile-form-submit-save = Gardar
 profile-form-submit-saved = Gardat
-# Gender
-other = Altri
 why-profile-title = Pro quo crear un profil?
 avatar = Avatar
 goals = Scopes
@@ -39,3 +37,4 @@ email-subscriptions = Abonnament per e-post
 download-profile = Descargar mi data
 off = No
 on = Yes
+other = Altri

@@ -48,22 +48,21 @@ accept-privacy-and-terms = Zwólijom do <termsLink>wužywańskich wuměnjenjow</
 bsy = Sabah Bisaja
 cdo = Fuzhou
 cpx = Heng Hua
-en = Engelšćina
-fr = Francojšćina
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba Malay
 meh = Krotkowjacorna tlaksiakska mikstekšćina
 mel = Centralny Melanau
 mmc = Michoacán Mazahua
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Pódzajtšny Penan
 pne = Pódwjacorny Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turkojšćina
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa Malay
+el-CY = Cypriska grichišćina
 
 ## Language search component
 

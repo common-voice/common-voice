@@ -145,6 +145,8 @@ example-questions-explanation-2 = Jolic cośo rěd pšašanjow za zapśimjeśe z
 # Answer Questions
 answer-questions = Wótegrońśo na pšašanja
 answer-questions-subheader = Powšykne pokazki
+answer-questions-explanation-1 = Pśemysliśo wokognuśe naspominanje,  rozmysliśo, což cośo groniś, ale njepišćo pśewjele. Klikniśo na symbol ‚nagraś‘. Gaž sćo nagrał, móžośo na sebje słuchaś, znowego nagraś abo wótpósłaś.
+answer-questions-explanation-2 = Mějśo w mysli: Njestarajśo se, jolic jěkocośo, wustawaśo abo słowo wóspjetujośo. To wšykno su wužytne daty za inženjerow, kótarež wopytuju, inkluziwne rědy za powědańske spóznaśe w napšawdnem swěśe wuwijaś.
 answer-questions-tip-1 = Nagrajśo na někak śichem městnje
 answer-questions-tip-2 = Wubjeŕśo městno z dobrym internetnym zwiskom
 answer-questions-tip-3b = Wopytajśo, wašo wótegrono na 15-30 sekundow wobgranicowaś
@@ -189,6 +191,9 @@ tags-disfluency-explanation =
     Połnjece słowko abo połnjecy zuk, kótarejž se ako zastupnik wužywatej, mjaztym až powědaŕ rozsuźujo, což ma groniś.
     W dolnoserbšćinje su „em“, „eh“, „hm“ atd. někotare běžne zuki wokomuźenja.
 tags-unclear-explanation = Słowo abo słowna kupka, kótarejž njedatej se rozměś.
+tags-noise-explanation =
+    Kužda družyna šuma, na pśikład gaž powědaŕ kašlujo abo  charcha,
+    awto tšubi, něco mikrofon trjefijo, telefon, kótaryž byrcy atd.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     A pótom som [šum] jěł do dowola.
@@ -204,6 +209,9 @@ transcribe-the-audio-subheader-5-explanation-2 = Powědarje mógu wobchadnorěcn
 
 review-the-transcription = Transkripciju pśeglědowaś
 review-the-transcription-subheader = Powšykne pokazki
+review-the-transcription-explanation-1 = W normalnem paźe pórucamy, až wósoba, kótaraž transkripciju pśeglědujo, njeměła samska wósoba byś, kótaraž jo gótowała originalnu transkripciju. Jo wjelgin śěžko, swójske źěło pśeglědowaś! Někotare smužki pśeglědowanja mógu pomagaś, zawěsćenje kwality robustnjejše cyniś a pomagaju, pśedsudki a problemy wósłabiś.
+review-the-transcription-explanation-2 = Cytajśo směrnice transkripcije górjejce, aby pśeglědował, lěc transkripcija jo korektna. Móžośo wobźěłanja pódaś a je wótpósłaś.
+review-the-transcription-explanation-3 = Hyšći raz, móžośo wopśimjeśe wóznamjeniś, kótaryž jo kśiwźecy, škódny abo howac někak tšachotny, a wótwónoźujo se z wašogo dožywjenja, daniž team Common Voice njamóžo jen pśeglědowaś a pśepytowaś.
 
 ## Code-Switching
 
@@ -220,8 +228,11 @@ code-switching-adding-question-note = Móžośo teke rozwažowaś, rozdźělne k
 code-switching-types-subheader = Kótare typy pšašanjow maju se pśidaś?
 code-switching-use-bilingual-prompts-header = Dwójorěcne naspominanja wužywaś
 code-switching-use-bilingual-prompts-explanation = Wužywajśo dwójorěcne naspominanja, kótarež wobej rěcy we wašom pšašanju wopśimuju: Pśikład:
+code-switching-use-bilingual-prompts-explanation-example = „Was hat deine Mama gesagt, gaž sćo pśišeł ten źeń domoj?“
 code-switching-ask-bilingual-contexts-header = Pšašajśo se za dwójorěcnymi kontekstami
 code-switching-ask-bilingual-contexts-explanation = Wužywajśo situacije, źož se wobej rěcy zwětšego wužywatej (na pś. doma, w šuli, na tšojenjach zgromaźeństwa). Pśikład:
+code-switching-ask-bilingual-contexts-explanation-example = „Gaž ze swójimi śeśenicami powědaśo, měšaśo nimšćinu a dolnoserbšćinu?“
+code-switching-focus-emotional-header = Koncentrěrujśo se na emocionalne abo riskantne momenty
 code-switching-focus-emotional-explanation = Luźe cesto rěcny kod změnjaju, gaž zacuśa abo nuznosć wugroniju. Pśikład:
 code-switching-focus-emotional-explanation-example = „Grońśo mě, což wašej starjejšej stej groniłej, gaž sćo wulicył jima swóje wjelike nowosći – rowno kak stej to groniłej.“
 code-switching-direct-quotes-header = Pšašajśo se za direktnymi citatami abo rekonstrukcijami
@@ -229,6 +240,7 @@ code-switching-direct-quotes-explanation = Pózbuźćo wobźělniki reproducěro
 code-switching-direct-quotes-explanation-example = „Kótare su waše eksaktne słowa, gaž sćo zgónił wó tom?“
 code-switching-cultural-topics-header = Wubjeŕśo za kulturu specifiske temy
 code-switching-cultural-topics-explanation = Jěź, tradicije, swěte dny a swójźbna dynamika cesto k změnje rěcnego koda wjadu.
+code-switching-cultural-topics-explanation-example = „Kak někomu Día de los Muertos wopisujośo, kenž jano dolnoserbski powěda?“
 code-switching-informal-scenarios-header = Wuslěźćo informelne scenariumy
 code-switching-informal-scenarios-explanation = Rozgrona z pśijaśelami abo pisanje SMS cesto pśirodnjejše změnjanje wopśimuju. Pśikład:
 code-switching-informal-scenarios-explanation-example = „Kótary žort waše pśijaśele pśecej cynje – a kak by wy jen wulicował?“
@@ -236,6 +248,8 @@ code-switching-informal-scenarios-explanation-example = „Kótary žort waše p
 code-switching-avoid-subheader = Cogo měł wy se wobinuś
 code-switching-avoid-intro = Pšašanja, kótarež:
 code-switching-avoid-1 = Informacije póžedaś, kótarež wósoby identificěruju
+code-switching-avoid-2 = Wó gramoty połne gronjenje abo druge kśiwźece zacuśa połne pśedsudkow pšosyś
+code-switching-avoid-3 = kótarež mógli k tomu wjasć, až něchten sensibelne, potencielnje wuwołujuce wótegrona źěli
 code-switching-dont-header = Špatne
 code-switching-dont-1 = Njewužywajśo pśeliš formelnu rěc
 # Reviewing a Question
@@ -252,6 +266,7 @@ code-switching-review-no-2 = Pšašanja, kótarež se mógli powědanje gramoty 
 code-switching-review-no-3 = Pšašanja, kótarež mógli k tomu wjasć, sensibelne, potencielnje wuwołujuce wótegrona źěliś
 # Answering a Question
 code-switching-answer-subheader = Na pšašanje wótegroniś
+code-switching-answer-intro = Cel wótegrona na pšašanje jo, až pśirodnje wótegranjaśo – rowno tak ako w rozgronje w napšawdnem žywjenju. Comy zwěsćiś, kak se rěcy pópšawem we wšednem powědanju měšaju.
 code-switching-answer-bullet-1 = Mysliśo na wokognuśa napšawdnego žywjenja: žorty, argumenty, tradicije
 code-switching-answer-bullet-2 = Pśedstajśo se, až pśijaśeloju SMS pišośo abo tšojeńko wulicujośo
 code-switching-answer-bullet-3 = Wužywajśo słowa, kótarež by wy napšawdu wužywał, samo gaby póžycone abo měšane byli
@@ -262,23 +277,37 @@ code-switching-authentic-speak-example = „Nun, som jej gronił, až njamógu p
 code-switching-use-both-languages = <bold>Wužywajśo wobej rěcy, jolic by gronił to tak w normalnem paźe.</bold> Jo samo wužytnje, gaž jano jadno słowo abo dwě słowje změnjaśo. Pśikład:
 code-switching-use-both-languages-example = „Jo se napšawdu sćakliła, weil njejsom ju zazwónił.“
 code-switching-authentic-direct-quotes = <bold>Zasajźćo direktne citaty abo dialog.</bold> Grońśo eksaktnje, což něchten jo gronił, nic pórěźonu abo formelnu wersiju. Pśikład:
+code-switching-authentic-direct-quotes-example = „Meine Mama hat gesagt, ‚glaubst du, dass das ein Spiel ist?‘ a ja som gronił, ‚W pórědku, změruj se!‘“
+code-switching-authentic-reflect = <bold>Wótbłyšćujśo emocije, identitu a kontekst.</bold> Změnjanje rěcy se zwětšego stawa, gaž luźe emociju, nuznosć abo kulturelne ideje zwuraznjaju. Wužywajśo to, gaž na pšašanja wótegranjaśo.
+code-switching-authentic-full-context = <bold>Wužywajśo dopołne wótegrona z kontekstom.</bold> Buźćo tak nadrobny ako móžno a pódajśo tak wjele drobnostkow ako móžośo. Źělśo tšojeńko abo pśikład w swójich wótegronach.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Njepśemyslujśo abo njewobźěłujśo pśewjele
 code-switching-answer-dont-correct-language = <bold>„Njekorigěrujśo“ swóju rěc.</bold> To njejo test. „Pšawa“ forma how njejo wažna, ale pśirodna rěc.
+code-switching-answer-dont-avoid-switching = <bold>Wobiniśo se změnjanja rěcy, jolic to howac tak cyniśo.</bold> Jo w pórědku, gaž wesrjejź sady, wesrjejź mysli abo janož za jadno słowo rěc změnjaśo.
 code-switching-answer-dont-formal-writing = <bold>Powědajśo, ako by formelnje pisał.</bold> Wobiniśo se formelnych, akademiskich wótegronow. Wužywajśo rěc, kótaraž jo zwucona za rozgrona.
+code-switching-answer-dont-force-switch = <bold>Wunuzkajśo změnjanje rěcy, joli njejo pśirodne.</bold> Změńśo rěc jano pótom, gaby w takej situaciji pśirodnje powědał.
 code-switching-answer-dont-translate-repeat = <bold>Pśełožujśo abo wóspjetujśo wšykno.</bold> Pšosym grońśo to jano jaden raz, tak ako by w rozgronje wustupowało. Njetrjebaśo wersiju wótegrona w kuždej rěcy groniś.
 # Transcribing
 code-switching-transcribe-subheader = Transkriběrowaś
+code-switching-transcribe-intro = Gaž wótegrona transkriběrujośo, kótarež změnjanje rěcy wopśimuju, pśedstajśo rěc powědarja tak, ako jo se powědała – bźez korekturow, wobźěłanjow abo zjadnorjenjow. To za wšykne změny mjazy rěcami, informelne powědanje a słowa z rozdźělnych rěcow płaśi.
+code-switching-transcribe-do-1 = Wótgrajśo krotke segmenty wěcej razow, aby subtilne změny spóznał
+code-switching-transcribe-do-2 = Zastajśo pó kuždej saźe, aby změny rěcy abo měšane słowa dwójcy pśeglědował
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Nagrajśo powědanje eksaktnje ako se powěda
 code-switching-capture-explanation = Transkriběrujśo wobej rěcy ako se pokazujotej / klincytej. Nje„pórěźajśo“ rěc abo njezměnjajśo jej do jano jadneje rěcy.
 # Include filler words and markers
 code-switching-filler-header = Połnjece słowa a marki zapśimjeś
+code-switching-filler-explanation = Słowa ako „em“, „kaž“, „nun“, „wěš“ a „also“ su zmysłapołne. Pśikład: „No, em, som jej gronił, ‚nun ich weiß nicht, snaź pózdźej.‘“
 # Use standard spelling for each language
 code-switching-spelling-header = Standardny pšawopis za kuždu rěc wužywaś
+code-switching-spelling-explanation = Wopytajśo słowa za kuždu rěc korektnje pisaś, snaźkuli powědaŕ jo jasnje na njestandardizěrowany nałog wugranja.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Njerumujśo abo njezjadnorjajśo rěc
 code-switching-cleanup-1 = Pśełožćo abo pśepišćo – pišćo, což powědaŕ jo gronił, nic což jo „měnił“.
 code-switching-cleanup-2 = „Korektna“ gramatika abo „korektne“ wugronjenje – wobchowajśo pśirodne wužyśe powědarja.
 code-switching-cleanup-3 = Změny pśeskócyś, kótarež se snadne abo małe zdaju – samo póžycone słowa su wažne.
+code-switching-cleanup-4 = Zasajźćo interpunkciju, kótaraž mógła wóznam změniś – źaržćo běg pśirodny.
+code-switching-cleanup-5 = Měniś, až rěc kuždego słowa znajośo – markěrujśo pó wužyśu.
 # Tagging
 code-switching-tagging-subheader = Markěrowanje
 code-switching-tagging-error-intro = Jolic transkripcija zmólku wopśimujo, wužywajśo pšosym pśizjawjeńsku funkciju, aby jen wóznamjenił. Móžne zmólki su:
@@ -287,13 +316,37 @@ code-switching-tagging-error-2 = Pisańske zmólki
 code-switching-tagging-error-3 = Słowa z pšawopisnymi zmólkami
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Korektny pšawopis za kuždu rěc wužywaś
+code-switching-orthography-explanation = Pišćo kužde słowo w pšawopisu rěcy, z kótarejež póchada. Na pśikład:
+code-switching-orthography-explanation-example-1 = Jolic se słowo „kitchen“ ako w špańšćinje wugranja, měło se ako w engelšćinje pisaś, nic ako „quichen“.
+code-switching-orthography-explanation-example-2 = Jolic se słowo quinceaños ako w engelšćinje wugranja, pišćo jo z ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Wugronjenje za zwěsćenje rěcy wužywaś
+code-switching-pronunciation-explanation = Někotare słowa mógli we wobyma rěcoma jadnak wuglědaś, ale se rozdźělnje wugroniś. Słuchajśo na wugronjenje, aby korektnje markěrował. Na pśikład: kabl, taco, akter, detektiw.
 code-switching-pronunciation-explanation-example-1 = Engelski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Špański: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Markěrowanje w jadnučkem tokenje
+code-switching-single-token-explanation = Jadnotliwy token, kótaryž jo pśez prozne znamje źělony, měł wěcej ako jaden markěrowany wobceŕk wopśimowaś.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Interpunkciju na zakłaźe rěcy w bliskosći markěrowaś
+code-switching-punctuation-tagging-explanation = Interpunkciju markěrowaś, kótaraž rěc wužywa, kótaraž jo nejdalej nalěwo. Pśikłady:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>a jadnučki raz, až</purple> Maria <purple> jo drěła na mnjo, jo był</purple> <blue>weil</blue> <purple>jo wopytała</purple> <blue>un</blue> <purple>skazanku</purple> drucken. (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>ale</purple> <blue>du kannst ein rotes, schwarzes, blaues kaufen</blue>, <purple>cožkuli.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Glědajśo za pódobnje wuglědajucymi słowami
+code-switching-lookalikes-explanation = Někotare słowa ako jadna rěc wuglědaju, ale wužywaju se w drugej. Markěrujśo pó wóznamje a wužyśu, nic pó naglěźe. Pśikłady:
+code-switching-lookalikes-explanation-example-1 = „Footing“ w normalnem paźe w špańšćinje gnaśe wóznamjenijo > markěrujśo jo ako špański
+code-switching-lookalikes-explanation-example-2 = „No problemo“ se w engelšćinje wužywa > markěrujśo jo ako engelski
+# When Not to Tag Words
+code-switching-not-tag-header = Gaž njeměli se słowa markěrowaś
+code-switching-not-tag-explanation = Někotare słowa <bold>njeměli se z rěcnym pópisanim markěrowaś</bold>, samo gaby se zdało, až su měšane abo pśiměrjone. How su někotare pśikłady:
+code-switching-not-tag-proper-names = <bold>Swójske mjenja.</bold> Mjenja wósobow, městnow a organizacijow njeměli se markěrowaś. Pśikłady:
 code-switching-not-tag-proper-names-example-1 = Wósoby: Maria, John
 code-switching-not-tag-proper-names-example-2 = Městna: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marki/Organizacije: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Měšane abo morfologiski pśiměrjone słowa.</bold> Njemarkěrujśo słowa, kótarež rěcy měšaju abo maju pśidane kóńcowki z drugeje rěcy. Pśikłady:
+code-switching-not-tag-mixed-words-example = Źož kórjeń jo engelski, ale sufiks jo špański: „parkear“, „printearlo“
 code-switching-not-tag-interjections = <bold>Interjekcije.</bold> Interjekcije a połnjece słowka měli njeźiwajucy na rěc <bold>njemarkěrowane</bold> wóstaś. Pśikłady:
 code-switching-not-tag-interjections-example-1 = „Eh“
 code-switching-not-tag-interjections-example-2 = „Ně“
@@ -304,3 +357,5 @@ code-switching-not-tag-interjections-example-4 = „Hm“
 
 reporting-content = Wopśimjeśe k wěsći daś
 reporting-content-subheader = Powšykne pokazki
+reporting-content-explanation-1 = Musyśo wopśimjeśe markěrowaś, kótarež jo kśiwźece, škódne abo howac někak tšachotne. Njesmějo teke  wósobinske informacije ako na pśikład telefonowe numery abo adrese wopśimowaś. Wótonoźijo se z wašogo póla wiźenja, daniž team Common Voice njamóžo jo pśeglědowaś a pśepytowaś.
+reporting-content-explanation-2 = Aby wopśimjeśe k wěsći dał, wubjeŕśo tłocašk „K wěsći daś“ a pón jadno nastajenje abo wšykne nastajenja: Kśiwźece wopśimjeśe, Druga rěc, Informacije, kótarež wósoby identificěruju, Druge. Pódajśo wót how dalšne drobnostki wó tom, cogodla wopśimjeśe w tekstowem pólu k wěsći dajośo. Klikniśo pón a tłocašk K wěsći daś, aby rozpšawu wótpósłał.

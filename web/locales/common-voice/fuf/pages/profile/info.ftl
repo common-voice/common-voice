@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Ɓeydu ngaddin keertuɗo "{ $inputValue }"
 profile-form-submit-save = Danndu
 profile-form-submit-saved = Danndaama
-# Gender
-other = Goɗɗo
 why-profile-title = Ko saabii heftinirde?
 why-profile-text =
     So a hokkii humpito seeɗa baɗte maa, keɓe ojoo naatnataa e Common Voice maa ɓur kadi nafde masiŋaaji
@@ -66,3 +64,4 @@ help-variants = Aɗa sokli ballal seeɗa e caltuɗe?
 help-variants-explanation =
     Caltuka ko haala keeriika  - wano kaaleteeka e diiwaan keeriiɗo maa renndo.
     Sahaaji ena wiyee ngaddiin.
+other = Goɗɗo

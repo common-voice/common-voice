@@ -26,8 +26,6 @@ native-language =
 profile-form-add-accent = ሓዳስ መኽሱሰት ለክነት ወስኮ "{ $inputValue }"
 profile-form-submit-save = ዓቅብ
 profile-form-submit-saved = ተዓቀባ
-# Gender
-other = ብዕድ
 why-profile-title = መለፍ ናይ ኖስ ገልሚ ኣትሓዛ
 dashboard = ሰሌደት (Dashboard)
 build-profile = መለፍ ናይ ኖስ ውድው
@@ -50,3 +48,4 @@ off = ደቡእ
 on = ፍቱሕ
 help-accent = ናይ ለክነት ሙሳዓደት ታሓዞ?
 help-accent-explanation = ለክነትኩም ማዕነት ከሊማት ኣፎ ትነጥቆ ባህለት ቱ፣ ዎ እሊ ሆዬ ምን ቀደም ኣዘ ላዔሽኩም ዲቡ ምድር ኣው ሉቃት ብዕድ ልትትሃገዋ ዎ ምን ብዙሕ ብዕድ ዓዋምል ገብእ። ላትሓዙ ማዕሉማት ኣካፍሉና።
+other = ብዕድ

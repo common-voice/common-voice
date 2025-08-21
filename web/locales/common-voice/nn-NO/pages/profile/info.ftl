@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Legg til ny tilpassa dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagra
-male_masculine = Mann/Maskulin
-female_feminine = Dame/Feminin
-intersex = Intersex
-transgender = Transkjønna
-non-binary = Ikkje-binær
-do_not_wish_to_say = Ønskjer ikkje å seie det
-# Gender
-other = Anna
 why-profile-title = Kvifor ein profil?
 why-profile-text = Ved å gje nokre opplysingar om deg sjølv, vil dei lyddata, du sender inn til Common Voice verte meir nyttige for talegjenkjennings-systema som brukar desse dataa til å forbetre nøyaktigheita si.
 dashboard = Oversyn
@@ -111,3 +103,21 @@ delete-api-key-success-toast-message = API-innlogingsinfo sletta
 add-api-key-name-error = Legg til eit API-innloggingsinfo-namn
 max-api-keys-reached = Grensa på 10 API-innloggingsinformasjonar er overskriden
 duplicate-api-key-name-error = Duplisert namn på API-nøkkel
+# Genders
+male_masculine = Mann/Maskulin
+female_feminine = Dame/Feminin
+intersex = Intersex
+transgender = Transkjønna
+non-binary = Ikkje-binær
+do_not_wish_to_say = Ønskjer ikkje å seie det
+other = Anna
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99

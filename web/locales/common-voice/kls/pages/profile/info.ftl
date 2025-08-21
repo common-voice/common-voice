@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Jama kai n'oa' sawzala awaz "{ $inputValue }"
 profile-form-submit-save = Th'ek/ Save kak
 profile-form-submit-saved = Bachat kak/ saved
-male_masculine = Purus'/ istrizah
-female_feminine = Istrizah / istrizhon
-intersex = Khusra
-transgender = Khusra
-non-binary = Profile as faram
-do_not_wish_to_say = Maik ne khojis dai e?
-# Gender
-other = Warek
 why-profile-title = Profile ko?
 why-profile-text = Tan bari una pe shemi malumat homa pra haw, kia kia ki homa audio data dai as, jama kai as, te common voice/ sawin awazuna mon dekas bati ajat hiu. Engine to data sahi kai joniu.
 dashboard = Dashboard
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Mai pashai mon ze clip/ variant ani, tan zuban a
 variant-contribution-option-2 = Ek mi clip ani mon pashai variant ani
 variant-contribution-warning-title = Ne sa mon ze clip variant as tags onja
 variant-contribution-warning-subtitle = Tai hatya pe masala hiu dai haw, tu pishtyak pari, warek zuban khoji, kia t'em una asta.
+# Genders
+male_masculine = Purus'/ istrizah
+female_feminine = Istrizah / istrizhon
+intersex = Khusra
+transgender = Khusra
+non-binary = Profile as faram
+do_not_wish_to_say = Maik ne khojis dai e?
+other = Warek

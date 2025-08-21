@@ -42,22 +42,20 @@ accept-privacy-and-terms = মই কমন ভইচৰ <termsLink>চৰ্ত
 bsy = ছাবাহ বিছায়া
 cdo = ফুঝৌ
 cpx = হেং হুৱা
-en = ইংৰাজী
-fr = ফৰাচী
 hch = ওৱাৰাৰিকা
 kzi = কেলাবিট
 mbf = বাবা মালয়
 meh = দক্ষিণ-পশ্চিমীয়া ট্‌লাক্সিয়াক' মিক্সটেক
 mel = কেন্দ্ৰীয় মেলানাউ
 mmc = মিচোৱাকান মাজাহুৱা
-ms-MY = বাহাছা মালয়
 msi = ছাবাঃ মালয়
 pez = পূৰ্বী পেনান
 pne = পশ্চিমীয়া পেনান
 sdo = ছেৰিয়ান বিডায়ুঃ
 snv = ছাবান
-tr = তুৰ্কী
 xkl = কেন্যাঃ
+# Locales-Variants
+ms-MY = বাহাছা মালয়
 
 ## Language search component
 

@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Voeg nuwe pasgemaakte aksent "{ $inputValue }" by
 profile-form-submit-save = Stoor
 profile-form-submit-saved = Gestoor
-# Gender
-other = Ander
 why-profile-title = Hoekom 'n profiel?
 why-profile-text = Deur sekere inligting oor jouself te verskaf, sal die klankdata wat jy aan Common Voice voorlê, nuttiger wees vir spraakherkenningenjins wat hierdie data gebruik om hul akkuraatheid te verbeter.
 dashboard = Paneelbord
@@ -63,3 +61,4 @@ help-accent = Het jy hulp nodig met aksent?
 help-accent-explanation = Jou aksent is die manier waarop jy woorde uitspreek. Dit kan gevorm word deur waar jy gewoon het, watter ander tale jy praat en baie ander faktore. Jy kan enige inligting wat jy voel relevant is hier deel.
 help-variants = Het jy hulp nodig met variëteite?
 help-variants-explanation = Variëteite is 'n spesifieke vorm van 'n taal - byvoorbeeld die taalgebruik wat gedeel word deur diegene wat in dieselfde geografiese gebied of gemeenskap woon. Soms word dit 'n dialekte genoem.
+other = Ander

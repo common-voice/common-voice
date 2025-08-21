@@ -45,22 +45,20 @@ accept-privacy-and-terms = Ik ga akkoord met de <termsLink>Voorwaarden</termsLin
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Engels
-fr = Frans
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba-Maleis
 meh = Mixteeks, Zuidwestelijk Tlaxiaco
 mel = Centraal-Melanau
 mmc = Michoacán Mazahua
-ms-MY = Bahasa-Maleis
 msi = Sabah-Maleis
 pez = Oostelijk Penan
 pne = Westelijk Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turks
 xkl = Keniaans
+# Locales-Variants
+ms-MY = Bahasa-Maleis
 
 ## Language search component
 

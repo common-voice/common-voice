@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Ouzhpennañ ur pouez-mouezh hiniennel nevez "{ $inputValue }"
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
-male_masculine = Paotr
-female_feminine = Plac'h
-intersex = Etrerevel
-transgender = Treuzjener
-non-binary = Andaouel
-do_not_wish_to_say = Gwell eo din na lavaret
-# Gender
-other = All
 why-profile-title = Perak ur profil?
 why-profile-text = Seul dalvoudusoc’h a se e vo ar roadennoù son kaset da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc’h tammoù titouroù diwar ho penn. O skoazellañ a ray d’en em varrekaat.
 dashboard = Taolenn-stur
@@ -78,3 +70,11 @@ variant-contribution-option-2 = Diskouez din hepken frazennoù hag enrolladenno�
 variant-contribution-warning-title = ⓘ N'eus ket bet staget a dikedenn adstumm ouzh an holl frazennoù c'hoazh !
 variant-contribution-warning-subtitle = M'hoc'h eus poan o kemer perzh e c'hallit goulenn gwelet en-dro kement tra embannet en ho yezh pa garot.
 api-key-modal-confirmation-header = Sur oc'h?
+# Genders
+male_masculine = Paotr
+female_feminine = Plac'h
+intersex = Etrerevel
+transgender = Treuzjener
+non-binary = Andaouel
+do_not_wish_to_say = Gwell eo din na lavaret
+other = All

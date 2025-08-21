@@ -4,6 +4,10 @@ cs-error-fetching-datasets = Při wotwołowanju lisćiny k dispoziciji stejacych
 cs-error-fetching-questions = Při wotwołanju prašenjow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 cs-error-fetching-transcriptions = Při wotwołanju transkripcijow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 
+## Modals
+
+cs-locale-change-modal-subtitle = Maće njeskładowane změny na tutej stronje. Jeli datowe sadźby wuměnjeće, so waše změny njeskładuja. Chceće woprawdźe tutu datowu sadźbu wuměnić?
+
 ## Question Page Items
 
 cs-question-page-instruction = Přidajće datowej sadźbje { $currentLocale } hač do 25 prašenjow <icon></icon>, na kotrež maja ludźo wotmołwić
@@ -33,6 +37,10 @@ cs-tag-dataset-name = Datowa sadźba: [{ $datasetName }]
 
 learn-how-to-use = Zhońće, kak móžeće tutu stronu wužiwać
 read-full-guidelines-here = <guidanceLink>Čitajće tu dospołne směrnicy</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Wotmołwće na namołwu tak přirodnje kaž móžeće,  móžeće tež rěče wuměnić, jeli so přirodne zda. Zawěsćće, zo waša rěč je respektna a přistojna.
 
 ## Review Page Guidelines
 

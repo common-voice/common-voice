@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = เพิ่มสำเนียงที่กำหนดเองใหม่ "{ $inputValue }"
 profile-form-submit-save = บันทึก
 profile-form-submit-saved = บันทึกแล้ว
-male_masculine = ชาย
-female_feminine = หญิง
-intersex = เพศกำกวม
-transgender = คนข้ามเพศ
-non-binary = นอนไบนารี
-do_not_wish_to_say = ไม่ต้องการระบุ
-# Gender
-other = อื่น ๆ
 why-profile-title = ทำไมจึงต้องมีโปรไฟล์?
 why-profile-text = การให้ข้อมูลบางอย่างเกี่ยวกับตัวคุณเองจะทำให้ข้อมูลเสียงที่คุณส่งมายัง Common Voice มีประโยชน์ต่อการเพิ่มความแม่นยำของกลไกการรู้จำเสียงพูดซึ่งใช้ข้อมูลนี้มากขึ้น
 dashboard = หน้าปัด
@@ -77,3 +69,11 @@ variant-contribution-option-1 = แสดงประโยคและคลิ
 variant-contribution-option-2 = แสดงเฉพาะประโยคและคลิปจากรูปแบบย่อยของฉันเท่านั้น
 variant-contribution-warning-title = ⓘ ประโยคและคลิปต่างๆ ยังมีป้ายระบุรูปแบบย่อยไม่ครบทั้งหมด!
 variant-contribution-warning-subtitle = ถ้าคุณประสบปัญหาในการมีส่วนร่วม คุณสามารถเปลี่ยนกลับไปดูเนื้อหาทั้งหมดสำหรับภาษาของคุณได้ตลอดเวลา
+# Genders
+male_masculine = ชาย
+female_feminine = หญิง
+intersex = เพศกำกวม
+transgender = คนข้ามเพศ
+non-binary = นอนไบนารี
+do_not_wish_to_say = ไม่ต้องการระบุ
+other = อื่น ๆ

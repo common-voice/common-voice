@@ -42,22 +42,20 @@ accept-privacy-and-terms = Ìch stìmm de <termsLink>Benùtzùngsbedìngùnge</t
 bsy = Sabah-Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Anglisch
-fr = Frànzeesch
 hch = Wixarika
 kzi = Kelàbit
 mbf = Baba-Màlaisisch
 meh = Mixtek vùn Südwescht-Tlaxiaco
 mel = Zentràl-Melanau
 mmc = Michoacán-Mazahua
-ms-MY = Bahasa-Màlaisisch
 msi = Sabah-Màlaisisch
 pez = Oscht-Penan
 pne = Wescht-Penan
 sdo = Serian-Bidayuh
 snv = Sa’ban
-tr = Tìrikisch
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa-Màlaisisch
 
 ## Language search component
 

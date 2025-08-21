@@ -95,6 +95,9 @@ release-version = 版本
 dataset-date = 日期
 license = 许可协议：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
+# Support old genders in older datasets
+male = 男
+female = 女
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = 下载语音数据集
 # MENU ITEM ARIA LABELS

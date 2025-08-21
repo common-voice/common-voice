@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Feko taybetî îlawe bike "{ $inputValue }"
 profile-form-submit-save = Qeyd ke
 profile-form-submit-saved = Qeyd bî
-male_masculine = Camêrd/Nêrî
-female_feminine = Cinî/Makî
-intersex = Hemcinsî
-transgender = Transcinsî
-non-binary = Bêdîyîye
-do_not_wish_to_say = Nêwazena vajî
-# Gender
-other = Ê bînî
 why-profile-title = Çira profîlêk virazî?
 why-profile-text = Ti ke derheqê xo de tenê melumat pêşkêş kenî/a, dayeyanê vengî ke ti rusnenî/a Common Voice, ê seba çîynermanê Naskerdişê Qiseykerdişî benê feydeyin ke bi o hawa tekûzêr bibê.
 dashboard = Panel
@@ -73,3 +65,11 @@ help-sex-or-gender-changes = Vurnayîşê cins yan zî seksualîte de ardim lazi
 variant-contribution-options-header = Opsîyonê Îlawekerdişê Fekan
 variant-contribution-option-1 = Mi rê pêro fekanê ziwanê mi ra qeydanê vengî û cumleyan nîşan bide
 variant-contribution-option-2 = Mi rê tena fekê mi ra qeydanê vengî û cumleyan nîşan bide
+# Genders
+male_masculine = Camêrd/Nêrî
+female_feminine = Cinî/Makî
+intersex = Hemcinsî
+transgender = Transcinsî
+non-binary = Bêdîyîye
+do_not_wish_to_say = Nêwazena vajî
+other = Ê bînî

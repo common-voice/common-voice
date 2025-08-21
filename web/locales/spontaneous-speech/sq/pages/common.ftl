@@ -38,9 +38,6 @@ not-found-page-header = S’u Gjet
 not-found-page-content = Faqja që po kërkoni s’u gjet dot.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Pajtohem me <termsLink>Kushtet</termsLink> dhe <privacyLink>Shënimin mbi Privatësinë</privacyLink> të Common Voice-it
-en = Anglisht
-fr = Frëngjisht
-tr = Turqisht
 
 ## Language search component
 

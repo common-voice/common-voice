@@ -27,7 +27,6 @@ respond-to-prompt = సమాధానం
 
 not-found-page-header = కనబడలేదు
 not-found-page-content = మీరు వెతుకుతున్న పేజీ కనుగొనబడలేదు.
-en = ఆంగ్లం
 
 ## Language search component
 

@@ -16,8 +16,6 @@ native-language =
     .label = Móðurmál
 profile-form-submit-save = Goym
 profile-form-submit-saved = Goymt
-# Gender
-other = Annað
 why-profile-title = Hví hava ein profil?
 dashboard = Tólbretti
 build-profile = Ger profil
@@ -36,3 +34,4 @@ email-subscriptions = Teldupost hald
 contribution-experience = Uppliving av íkasti
 off = Fyri
 on = Frá
+other = Annað

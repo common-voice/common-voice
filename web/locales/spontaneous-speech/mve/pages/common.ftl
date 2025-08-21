@@ -42,22 +42,20 @@ accept-privacy-and-terms = ڪامن وائس ھلاتا، ٿيَ مھورَي <t
 bsy = صباح بسيا
 cdo = فوزو
 cpx = هينگ هو
-en = انگريزي
-fr = فرانسيِسي
 hch = وائيزارِڪا
 kzi = ڪلابت
 mbf = بابا ملائي
 meh = ڏکڻ آٿونڻي ٽليڪسياڪو ميڪٽيڪ
 mel = مرڪزِي ميلانو
 mmc = مِچواڪان مازاھوا
-ms-MY = بهاس ملائي
 msi = صباح ملائي
 pez = مغربِي پنن
 pne = مغربِي پنن
 sdo = سيرين بديو
 snv = شعبان
-tr = تُرڪِش
 xkl = ڪينيا
+# Locales-Variants
+ms-MY = بهاس ملائي
 
 ## Language search component
 

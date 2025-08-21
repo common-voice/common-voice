@@ -42,22 +42,20 @@ accept-privacy-and-terms = Maa ngi nangu sàrtu Common Voice yi <termsLink>Anam<
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Angale
-fr = Faranse
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba Malay
 meh = Southwestern Tlaxiaco Mixtec
 mel = Melanau bu digg bi
 mmc = Michoacán Mazahua
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Eastern Penan
 pne = Western Penan
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Tirk
 xkl = Keniya
+# Locales-Variants
+ms-MY = Bahasa Malay
 
 ## Language search component
 

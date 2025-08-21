@@ -13,7 +13,7 @@ about-language-req-subtitle = Něchtó wo přidawanje rěče prosy.
 about-localization-title = Lokalizacija websydłow
 about-localization-subtitle = Tekst websydła je do teje rěče přełoženy.
 about-sentence-collection-title = Zběrka sadow
-about-sentence-collection-subtitle = Sady so zběraja, zo bychu ludźo je wótře čitali.
+about-sentence-collection-subtitle = Sady so hromadźa, zo bychu ludźo je wótře čitali.
 about-new-lang-title = Wozjewjenje noweje rěče
 about-new-lang-subtitle = Wozjewjamy sydło Common Voice w tutej rěči.
 about-voice-contrib-title = Přinošowanje k hłosam
@@ -65,7 +65,7 @@ about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdź�
 ## How do I add a language
 
 about-playbook-how-add-language = Kak móžu rěč přidać?
-about-playbook-how-add-language-content-1 = Přepruwujće najprjedy, hač waša rěč <languageLink>hižo eksistuje</languageLink>. Jeli nic, dyrbiće <strong>sydło překožować a sady zběrać</strong>.
+about-playbook-how-add-language-content-1 = Přepruwujće najprjedy, hač waša rěč <languageLink>hižo eksistuje</languageLink>. Jeli nic, dyrbiće <strong>sydło přełožować a sady hromadźić</strong>.
 about-playbook-how-add-language-translating-heading = Sydło přełožować
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Čitajće naš přewodnik, kak móžeće Pontoon wužiwać.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =

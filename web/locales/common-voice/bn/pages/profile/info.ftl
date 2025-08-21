@@ -25,8 +25,6 @@ native-language =
     .label = মাতৃভাষা
 profile-form-submit-save = সংরক্ষণ
 profile-form-submit-saved = সংরক্ষিত
-# Gender
-other = অন্যান্য
 why-profile-title = প্রোফাইল কেন তৈরী করবেন?
 why-profile-text = আপনার সম্পর্কে কিছু তথ্য প্রদান করলে সেটি, Common Voice এ জমাকৃত আপনার অডিও ডাটা ব্যবহার করে কণ্ঠস্বর চেনার প্রযুক্তিকে আরও বেশি নির্ভুল করতে, কাজে লাগবে।
 dashboard = ড্যাশবোর্ড
@@ -52,3 +50,4 @@ skip-submission-description = অবদান জমা প্রতিক্র
 skip-submission-note = নোট: আপনাকে এখনও অবদান টাইপ পরিবর্তন বা শুনুন মধ্যে নির্বাচন করতে হবে।
 off = বন্ধ
 on = চালু
+other = অন্যান্য

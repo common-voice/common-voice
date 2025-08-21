@@ -46,7 +46,7 @@ sc-criteria-item-2 = Sada dyrbi gramatisce korektna być.
 sc-criteria-item-3 = Sada dyrbi wurjekujomna być.
 sc-criteria-item-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
 sc-criteria-item-5-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Wotpokazać“. Jeli sej wo sadźe wěsty njejsće, móžeće tež ju přeskočić a k přichodnej přeńć.
-sc-criteria-item-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
+sc-criteria-item-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady hromadźić.
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Přepruwujće <icon></icon>, hač to je linguistisce korektna sada.
 sc-review-rules-title = Wotpowěduje sada směrnicam?

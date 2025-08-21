@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Ghallun dor novi ulovpachi boli "{ $inputValue }"
 profile-form-submit-save = Dovor
 profile-form-submit-saved = Dovorlem
-male_masculine = Purush/Daddlea-bashen
-female_feminine = Stree/Baila-bashen
-intersex = Donui Ling
-transgender = Transgender
-non-binary = Non-binary
-do_not_wish_to_say = Sangpak naka
-# Gender
-other = Ani kite
 why-profile-title = Profile kityak?
 dashboard = Dashboard
 build-profile = Profile Kor
@@ -55,3 +47,11 @@ email-subscriptions = Email Subscriptions
 download-profile = Mhozo Data Download Kor
 contribution-experience = Yogdaan'acho Anubhav
 off = Bond
+# Genders
+male_masculine = Purush/Daddlea-bashen
+female_feminine = Stree/Baila-bashen
+intersex = Donui Ling
+transgender = Transgender
+non-binary = Non-binary
+do_not_wish_to_say = Sangpak naka
+other = Ani kite

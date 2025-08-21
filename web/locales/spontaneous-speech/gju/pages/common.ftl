@@ -42,22 +42,20 @@ accept-privacy-and-terms = ہوں کامن وائس کی <termsLink> شرط</ter
 bsy = صبا بسایا
 cdo = فزھو
 cpx = ہنگ ہوا
-en = انگریزی
-fr = فرانسیسی
 hch = ویکسارکا
 kzi = کیلابت
 mbf = بابا مالے
 meh = شمال مغربی ٹلاکسکو میکسٹیک
 mel = بچکارلی ملاناو
 mmc = مشاوآکان مزاہوا
-ms-MY = بھاسا مالے
 msi = صباح مالے
 pez = مشرقی پینن
 pne = مغربی پنن
 sdo = شامی بیدایوہا
 snv = سبان
-tr = ترکی
 xkl = کینیا
+# Locales-Variants
+ms-MY = بھاسا مالے
 
 ## Language search component
 

@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Kenya mokgwa wa ho bua o motjha o etseditsweng wena"{ $inputValue }"
 profile-form-submit-save = Boloka
 profile-form-submit-saved = E bolokilwe
-# Gender
-other = Tse ding
 why-profile-title = Hobaneng profaele?
 why-profile-text =
     Ka ho fana ka dintlha tse ding ka wena, data ya audio yeo o e romellang ho Common Voice e tla ba molemo haholo ho dienjene tsa Temoho ya Puo 
@@ -63,3 +61,4 @@ help-accent = O hloka thuso ka mokgwa wa ho bua?
 help-accent-explanation = Puo ya hao ke tsela eo o bitsang mantswe ka eona. E ka boptjwa ke moo o kileng wa phela teng, dipuo tse ding tseo o di buang le dintlha tse ding tse ngata. O ka arolelana ka dintlha di feng kapa di feng tseo o utlwang eka di ka ba bohlokwa mona.
 help-variants = O hloka thuso ka mefuta e fapaneng?
 help-variants-explanation = Variants ke mofuta o itseng wa puo - mohlala, e arolelalanwa ke ba phelang tikolohong kapa setjhabeng. Ka dinako tse ding tsena di bitswa maleme.
+other = Tse ding

@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Adaugă un nou accent personalizat „{ $inputValue }”
 profile-form-submit-save = Salvează
 profile-form-submit-saved = Salvate
-male_masculine = Masculin
-female_feminine = Feminin
-intersex = Intersex
-transgender = Transgen
-non-binary = Non-binar
-do_not_wish_to_say = Prefer să nu spun
-# Gender
-other = Altul
 why-profile-title = De ce un profil?
 why-profile-text = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date ca să le îmbunătățim acuratețea.
 dashboard = Tablou de bord
@@ -111,3 +103,11 @@ delete-api-key-success-toast-message = Credențialul API a fost șters cu succes
 add-api-key-name-error = Dă un nume credențialului API.
 max-api-keys-reached = Limita de 10 credențiale pentru API a fost depășită
 duplicate-api-key-name-error = Nume cheie API duplicat
+# Genders
+male_masculine = Masculin
+female_feminine = Feminin
+intersex = Intersex
+transgender = Transgen
+non-binary = Non-binar
+do_not_wish_to_say = Prefer să nu spun
+other = Altul

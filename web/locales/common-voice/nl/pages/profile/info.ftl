@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Nieuw aangepast accent ‘{ $inputValue }’ toevoegen
 profile-form-submit-save = Opslaan
 profile-form-submit-saved = Opgeslagen
-male_masculine = Mannelijk/Mannelijk
-female_feminine = Vrouwelijk/Vrouwelijk
-intersex = Intersekse
-transgender = Transgender
-non-binary = Non-binair
-do_not_wish_to_say = Zeg ik liever niet
-# Gender
-other = Anders
 why-profile-title = Waarom een profiel?
 why-profile-text = Door wat informatie over uzelf te geven, zijn de door u bij Common Voice ingediende audiogegevens nuttiger voor spraakherkenningsengines die deze gegevens gebruiken om hun nauwkeurigheid te verbeteren.
 dashboard = Dashboard
@@ -114,3 +106,11 @@ delete-api-key-success-toast-message = API-referentie met succes verwijderd
 add-api-key-name-error = Een API-referentienaam toevoegen
 max-api-keys-reached = Limiet van API-referenties van 10 overschreden
 duplicate-api-key-name-error = Dubbele API-sleutelnaam
+# Genders
+male_masculine = Mannelijk/Mannelijk
+female_feminine = Vrouwelijk/Vrouwelijk
+intersex = Intersekse
+transgender = Transgender
+non-binary = Non-binair
+do_not_wish_to_say = Zeg ik liever niet
+other = Anders

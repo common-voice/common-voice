@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Anyade un nuevo acento personalizau "{ $inputValue }"
 profile-form-submit-save = Alzar
 profile-form-submit-saved = Alzau
-male_masculine = Hombre
-female_feminine = Muller
-intersex = Intersexo
-transgender = Transchenero
-non-binary = No binario
-do_not_wish_to_say = Prefiero no decir-lo
-# Gender
-other = Atro
 why-profile-title = Per qué un perfil?
 why-profile-text = En entregar-nos un poquet d'información sobre tu, los datos d'audio que ninvies a Common Voice serán mas utils pa los motors de reconoiximiento de voz que los fagan servir amillorando la suya precisión.
 dashboard = Taulero
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Amuestra-me frases y tallos en totas las varieda
 variant-contribution-option-2 = Amuestra-me nomás frases y tallos d'a mía variedat
 variant-contribution-warning-title = ⓘ No totas las frases y tallos tienen etiquetas de variant!
 variant-contribution-warning-subtitle = Si yes tenendo problemas, puez tornar a veyer tot lo conteniu pa la tuya luenga en cualsequier momento.
+# Genders
+male_masculine = Hombre
+female_feminine = Muller
+intersex = Intersexo
+transgender = Transchenero
+non-binary = No binario
+do_not_wish_to_say = Prefiero no decir-lo
+other = Atro

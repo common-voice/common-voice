@@ -48,22 +48,20 @@ accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha C
 bsy = Sabah Bisaya ñe’ẽ
 cdo = Fuzhou
 cpx = Heng Hua
-en = Inglés
-fr = Francés
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba Malay
 meh = Mixteco Tlaxiaco pegua
 mel = Melanau mbytépe
 mmc = Michoacán Mazahua
-ms-MY = Bahasa Malay
 msi = Sabah Malay
 pez = Penan Oriental
 pne = Penan Occidental
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turco
 xkl = Kenia
+# Locales-Variants
+ms-MY = Bahasa Malay
 
 ## Language search component
 

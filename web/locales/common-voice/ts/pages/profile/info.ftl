@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Engetela xitwari lexintshwa xa ntolovelo "{ $inputValue }".
 profile-form-submit-save = Hlayisa
 profile-form-submit-saved = Ku hlayisiwile
-# Gender
-other = Swin'wana
 why-profile-title = Ha yini ku ri ni phurofayili?
 why-profile-text = Hi ku nyika vuxokoxoko byo karhi mayelana na wena, data ya mpfumawulo leyi u yi rhumelaka eka Common Voice yi ta pfuna swinene eka tinjhini to Lemuka Rito leti tirhisaka datha leyi ku antswisa ku pakanisa ka tona.
 dashboard = Dexibodo
@@ -61,3 +59,4 @@ help-accent = Xana u lava mpfuno wo karhi hi mavulavulelo?
 help-accent-explanation = Mavulavulelo ya wena i ndlela leyi u vitana marito hi yona. Yi nga vumbiwa hi laha u tshameke kona, hi tindzimi tin’wana leti u ti vulavulaka ni swilo swin’wana swo tala. U nga avelana rungula leyi u vonaka i ri na nkoka laha.
 help-variants = U lava mpfuno wo karhi hi ku hambana-hambana?
 help-variants-explanation = Swihlawuhlawu i xivumbeko xo karhi xa ririmi - xikombiso lexi avelaniwa hi lava tshamaka eka ntivo-misava kumbe muganga. Minkarhi yin’wana leswi swi vuriwa tindzimi ta ririmi.
+other = Swin'wana

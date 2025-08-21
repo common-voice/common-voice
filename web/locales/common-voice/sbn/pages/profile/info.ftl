@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نئوݩ هسب زرُورت اُوچآر (ليجهو) شامل ڪرو ”{ $inputValue }“
 profile-form-submit-save = مهڦوز ڪرو
 profile-form-submit-saved = مهڦوز ڪئيل
-male_masculine = مڙس جآنٚ مڙد
-female_feminine = مآئيٚ
-intersex = جنٚهنٚ مينٚ ٻئيونٚ (مآئيٚ۔مڙد) ري کآسيٚٽينٚ هوئينٚ۔
-transgender = کڌڙو
-non-binary = گير بآئنريٚ
-do_not_wish_to_say = ڪهآڻ ڪوندو گُهرآنٚ
-# Gender
-other = ٻيآ
 why-profile-title = پُروڦآئيٚل ڪنٚهنٚ لآ؟
 why-profile-text = پنڊري بآري مينٚ ڪجهه مآلوٚمآت ڦرآهم ڪرڻ سآنٚ، اڀآنٚ رو ڪآمن وآئيٚس ڏآنٚهنٚ جمآ ڪئيل آڊيٚو ڊيٽآ تڪريٚر ريٚ سُڃآڻپ وآري انجڻ لآ وڌيٚڪ ڪآرآمد سآبت ٿئي دو جيڪي ايئي ڊيٽآ کي پنڊريٚ دُرستگيٚ کي بهتر ٺآهڻ لآ استمآل ڪرينٚ دآ۔
 dashboard = ڊيش بورڊ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = موݩ کي جملآ ڏيکآرو ائيٚݩ م�
 variant-contribution-option-2 = موݩ کي سرڦ مآݩجي ڪسم رآ جملآ ائيٚݩ ڪليٚپ ڏيکآرو۔
 variant-contribution-warning-title = ⓘ سڀئي جملآݩ ائيٚݩ ڪليٚپآݩ ميݩ اڃآݩ تآئيٚݩ ويريٚئنٽ ٽيگ ڪونهي هوئي!
 variant-contribution-warning-subtitle = جيڪڏهيݩ اڀآݩ کي هيسو وٺڻ ميݩ ڏُکيآئيٚ ٿئي رهي اهي، تا اڀيٚݩ ڪݩهݩ با وکت پنڊريٚ ٻوليٚ لآ سڀ موآد ڏسڻ لآ وآپس سوئيٚچ ڪري سگهو دآ۔
+# Genders
+male_masculine = مڙس جآنٚ مڙد
+female_feminine = مآئيٚ
+intersex = جنٚهنٚ مينٚ ٻئيونٚ (مآئيٚ۔مڙد) ري کآسيٚٽينٚ هوئينٚ۔
+transgender = کڌڙو
+non-binary = گير بآئنريٚ
+do_not_wish_to_say = ڪهآڻ ڪوندو گُهرآنٚ
+other = ٻيآ

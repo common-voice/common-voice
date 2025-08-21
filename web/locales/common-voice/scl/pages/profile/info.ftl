@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = ناؤسنیلو شونگو یو تھے
 profile-form-submit-save = سموٹے
 profile-form-submit-saved = سموٹے ہیننک
-male_masculine = بیرو/مشاؤہ
-female_feminine = سونچی / چئیے
-intersex = بیروگہ سونچی مجا
-transgender = ٹرانسجینڈر
-non-binary = دگونی نوشیک
-do_not_wish_to_say = رجیونو کھوش نہ تھاؤ
-# Gender
-other = موتے
 why-profile-title = پروفائیلک کے؟
 why-profile-text = تومی معلوماتیک دے کا شونگو ڈیٹاک توسے کامن وائیسٹ چےناؤ آ شونگو لیل تھین انجنوکاری کرومی نی ایوں کاسے انو ڈیٹا تومی اصلاحی کاری کرومینی ارینا
 dashboard = ڈیش بورڈ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = می باشینی ہانک بوٹے ویرئین
 variant-contribution-option-2 = مو ویرئینٹو سا موجی گہ کلیپی پشائی
 variant-contribution-warning-title = کوتے بوسم بوٹے موجی گا کلیپو ویرئینٹو ٹیکے نش۔
 variant-contribution-warning-subtitle = توڑے مشک تھیونو ابش بو باؤ تو، کا کھین گا تومی باشیو بوٹے لکھیتے چکیونو توسے پتوڑے پھریون بؤ۔
+# Genders
+male_masculine = بیرو/مشاؤہ
+female_feminine = سونچی / چئیے
+intersex = بیروگہ سونچی مجا
+transgender = ٹرانسجینڈر
+non-binary = دگونی نوشیک
+do_not_wish_to_say = رجیونو کھوش نہ تھاؤ
+other = موتے

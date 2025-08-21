@@ -29,12 +29,6 @@ native-language =
 profile-form-add-accent = Ağani ar aksani "{ $inputValue }" keǩumtsxvi
 profile-form-submit-save = Şinaxi
 profile-form-submit-saved = Kodoliç̌aru
-male_masculine = Mamuli
-female_feminine = Daduli
-intersex = Majura
-transgender = { "" }
-# Gender
-other = Majura
 why-profile-title = Muşeni ar profili?
 why-profile-text = Ti-tkvani daha vorsi domoçinapat-na, Common Voices na oncğonit datapeşi tzorinoba gorapa motorepeşi oxotzonu şeni daha vorsi iyaseren.
 dashboard = Tzirama Paneli
@@ -67,3 +61,9 @@ help-accent = Aksani şeni meşvelu gorum-i?
 help-accent-explanation = Aksanitkvani zit̆ape muç̆o na tkumet iya tkvala ren. Na skidurt sva, na ğarğalapt majura nenape do çkva do çkva  mutxanepeten gitzipxen.Hak, diç̆irs ya na isimadept mtelli mutxani gigadvenan.
 help-variants = Variantepe şeni meşvelu gorum-i?
 help-variants-explanation = Variantepe nenaşi meçkineri ar k̆ata ren. Meçkineri ar svas var na ar ok̆obğalas na skidunanpek na  uk̆uixmarnanpe steri...Yomi, antepes dialekti itkven.
+# Genders
+male_masculine = Mamuli
+female_feminine = Daduli
+intersex = Majura
+transgender = { "" }
+other = Majura

@@ -18,8 +18,6 @@ native-language =
     .label = Lingwa Nattiva
 profile-form-submit-save = Issejvja
 profile-form-submit-saved = Issejvjat
-# Gender
-other = Ieħor
 why-profile-title = Għalfejn toħloq profil?
 why-profile-text = Jekk tipprovdi xi informazzjoni dwarek innifsek, id-data tal-awdjo li tissottometti lil Common Voice tkun iktar utli għall-iżvilupp ta' magni għall-għarfien awtomatiku tat-taħdit, li jużaw din id-data biex itejbu l-preċiżjoni tagħhom.
 dashboard = Dashboard
@@ -45,3 +43,4 @@ skip-submission-description = Waqt li tkun qed tikkontribwixxi, il-feedback dwar
 skip-submission-note = Nota: Xorta se jkollok bżonn tagħżel bejn Tkellem jew Isma biex tibdel it-tip ta' kontribut li tagħti.
 off = Off
 on = On
+other = Ieħor

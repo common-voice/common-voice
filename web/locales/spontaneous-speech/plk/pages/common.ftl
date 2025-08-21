@@ -32,8 +32,11 @@ continue-with-skipped = Skipped سے ساتیْ جاری پھتِیا
 question = سوال
 validate = توثیق تِھیا
 respond-to-prompt = پرامپٹے جُواب دِیا
+respond-to-prompt-mobile = جواب
 transcribe = نقل تِھیا
 check-transcriptions = ٹرانسکرپشنز چیک تِھیا
+check-transcriptions-mobile = ریویو
+tag = ٹیگ
 
 ## Not Found Page
 
@@ -45,22 +48,21 @@ accept-privacy-and-terms = موْس کامن وائس سے اتفاق تھمَس
 bsy = صباح بسایا
 cdo = فوزہو
 cpx = ہینگ ہوا
-en = انگلش
-fr = فرینچ
 hch = وکساریکا
 kzi = کلابِت
 mbf = بابا مالے
 meh = جنوب مغربی تلسیکو میکٹیک
 mel = وسطی میلانو
 mmc = مِچواچَن مزَہُوا
-ms-MY = بہاسا مالائی
 msi = صباح مالے
 pez = مشرقی پینان
 pne = مغربی پینان
 sdo = سیرین بدایوہ
 snv = سابن
-tr = ترکش
 xkl = کینیا
+# Locales-Variants
+ms-MY = بہاسا مالائی
+el-CY = قبرصی یونانی۔
 
 ## Language search component
 

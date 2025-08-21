@@ -4,6 +4,10 @@ cs-error-fetching-datasets = Pśi wótwołanju k dispoziciji stojecych datowych 
 cs-error-fetching-questions = Pśi wótwołowanju pšašanjow njejo se něco raźiło. Pšosym wopytajśo pózdźej hyšći raz.
 cs-error-fetching-transcriptions = Pśi wótwołanju transkripcijow njejo se něco raźiło. Pšosym wopytajśo pózdźej hyšći raz.
 
+## Modals
+
+cs-locale-change-modal-subtitle = Maśo njeskłaźone změny na toś tom boku. Jolic datowe sajźby wuměnjaśo, se waše změny njeskładuju. Cośo datowu sajźbu napšawdu wuměniś?
+
 ## Question Page Items
 
 cs-question-page-instruction = Pśidajśo datowej sajźbje { $currentLocale } až do 25 pšašanjow <icon></icon>, na kótarež maju luźe wótegroniś
@@ -33,6 +37,10 @@ cs-tag-dataset-name = Datowa sajźba: [{ $datasetName }]
 
 learn-how-to-use = Zgóńśo, kak móžośo toś ten bok wužywaś
 read-full-guidelines-here = <guidanceLink>Cytajśo how dopołne směrnice</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Wótegrońśo na naspominanje tak pśirodnje ako móžośo,  móžośo teke rěcy wuměniś, jolic se pśirodne zda. Zawěsććo, až waša rěc jo respektna a pśistojna.
 
 ## Review Page Guidelines
 

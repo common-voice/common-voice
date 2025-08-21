@@ -16,8 +16,6 @@ native-language =
     .label = Ana Dili
 profile-form-submit-save = Saxla
 profile-form-submit-saved = Saxlandı
-# Gender
-other = Digər
 why-profile-title = Niyə profil?
 why-profile-text = Haqqınızda bəzi məlumatları verərək Common Voice üçün göndərdiyiniz səs məlumatlarını Səs Tanıma mühərriyi üçün daha mənalı hala gətirə bilərsiz.
 dashboard = İdarə paneli
@@ -42,3 +40,4 @@ skip-submission-description = Kömək vaxtı "Göndər" düyməsinə kliklədikd
 skip-submission-note = Qeyd: Siz yenə də kömək növünü dəyişmək üçün Danış və ya Qulaq as seçməli olacaqsız.
 off = Sönülü
 on = Açıq
+other = Digər

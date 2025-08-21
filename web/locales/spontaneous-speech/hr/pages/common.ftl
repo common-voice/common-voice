@@ -40,9 +40,6 @@ not-found-page-header = Nije pronađeno
 not-found-page-content = Stranica koju tražiš nije pronađena
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Slažem se s <termsLink>uvjetima</termsLink> i <privacyLink>napomenama o privatnosti</privacyLink> Common Voicea
-en = Engleski
-fr = Francuski
-tr = Turski
 
 ## Language search component
 

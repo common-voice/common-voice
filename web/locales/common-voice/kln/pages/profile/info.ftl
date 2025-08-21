@@ -29,13 +29,6 @@ native-language =
 profile-form-add-accent = tesyii olegingololdoi age" nambet kiit negendene"
 profile-form-submit-save = konoor
 profile-form-submit-saved = kagekonor
-male_masculine = muren
-female_feminine = chepto
-intersex = cheptoo ako werit
-transgender = chito negiwalge koek muren anan ko chepto
-do_not_wish_to_say = mamache amwaa
-# Gender
-other = alak
 why-profile-title = kainee profilit?
 dashboard = dashboardit
 build-profile = teech togengung
@@ -63,3 +56,10 @@ off = ziman
 on = inam
 help-accent = tos imeche toretet eng olengololdoi?
 help-variants = tos imache toretet eng varianishek?
+# Genders
+male_masculine = muren
+female_feminine = chepto
+intersex = cheptoo ako werit
+transgender = chito negiwalge koek muren anan ko chepto
+do_not_wish_to_say = mamache amwaa
+other = alak

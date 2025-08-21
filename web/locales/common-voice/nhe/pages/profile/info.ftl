@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Agregue un nuevo acento personalizado "{ $inputValue }"
 profile-form-submit-save = Ahorrar
 profile-form-submit-saved = Salvado
-# Gender
-other = seyoj
 why-profile-title = ¿Por qué un perfil?
 why-profile-text =
     Al proporcionar cierta información sobre usted, los datos de audio que envíe a Common Voice serán más útiles para Speech
@@ -63,3 +61,4 @@ help-accent = ¿Necesitas ayuda con el acento?
 help-accent-explanation = Tu acento es la forma en que pronuncias las palabras. Puede ser determinado por el lugar donde ha vivido, qué otros idiomas habla y muchos otros factores. Puede compartir cualquier información que considere relevante aquí.
 help-variants = ¿Necesitas ayuda con las variantes?
 help-variants-explanation = Las variantes son una forma específica de un idioma, por ejemplo, compartida por aquellos que viven en una geografía o comunidad. A veces estos se llaman dialectos.
+other = seyoj

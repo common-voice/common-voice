@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = ਨਵਾਂ ਪਸੰਦੀਦਾ ਲਹਿਜ਼ਾ "{ $inputValue }" ਜੋੜੋ
 profile-form-submit-save = ਸੰਭਾਲੋ
 profile-form-submit-saved = ਸੰਭਾਲਿਆ
-male_masculine = ਮਰਦ
-female_feminine = ਜ਼ਨਾਨਾ/ਔਰਤ
-intersex = ਅੰਤਰ-ਲਿੰਗ
-transgender = ਟਰਾਂਸਜੈਂਡਰ
-non-binary = ਨਾਨ-ਬਾਈਨਰੀ
-do_not_wish_to_say = ਦੱਸਣਾ ਨਹੀਂ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ
-# Gender
-other = ਹੋਰ
 why-profile-title = ਪਰੋਫਾਈਲ ਕਾਹਤੋਂ?
 why-profile-text = ਆਪਣੇ ਬਾਰੇ ਕੁਝ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਨ ਨਾਲ, ਤੁਸੀਂ ਜੋ ਆਡੀਓ ਡੇਟਾ ਕਾਮਨ ਵੌਇਸ ਤੇ ਜਮ੍ਹਾ ਕਰਦੇ ਹੋ ਭਾਸ਼ਣ ਪਛਾਣ ਇੰਜਣਾਂ ਲਈ ਵਧੇਰੇ ਲਾਭਦਾਇਕ ਹੋਵੇਗਾ ਜੋ ਉਨ੍ਹਾਂ ਦੀ ਸ਼ੁੱਧਤਾ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ ਇਸ ਡੇਟਾ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਨ।
 dashboard = ਡੈਸ਼ਬੋਰਡ
@@ -64,3 +56,11 @@ off = ਬੰਦ
 on = ਚਾਲੂ
 help-accent = ਲਹਿਜ਼ੇ ਲਈ ਕੁਝ ਮਦਦ ਦੀ ਲੋੜ ਹੈ?
 help-variants = ਬਦਲਾਂ ਲਈ ਕੁਝ ਮਦਦ ਲਈ ਲੋੜ ਹੈ?
+# Genders
+male_masculine = ਮਰਦ
+female_feminine = ਜ਼ਨਾਨਾ/ਔਰਤ
+intersex = ਅੰਤਰ-ਲਿੰਗ
+transgender = ਟਰਾਂਸਜੈਂਡਰ
+non-binary = ਨਾਨ-ਬਾਈਨਰੀ
+do_not_wish_to_say = ਦੱਸਣਾ ਨਹੀਂ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ
+other = ਹੋਰ

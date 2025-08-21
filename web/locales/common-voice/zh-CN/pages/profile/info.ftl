@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = 添加新的自定义口音“{ $inputValue }”
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
-male_masculine = 男
-female_feminine = 女
-intersex = 双性人
-transgender = 跨性别者
-non-binary = 非二元性别
-do_not_wish_to_say = 保密
-# Gender
-other = 其他
 why-profile-title = 为什么要创建用户资料？
 why-profile-text = 语音识别引擎可使用此数据来改进识别准确度。若您能提供一些自己的信息，您向 Common Voice 提交的音频数据将更具实用价值。
 dashboard = 面板
@@ -111,3 +103,21 @@ delete-api-key-success-toast-message = 已成功删除 API 凭据
 add-api-key-name-error = 添加 API 凭据名称
 max-api-keys-reached = 已超出 10 个 API 凭据限制
 duplicate-api-key-name-error = API 密钥名称重复
+# Genders
+male_masculine = 男
+female_feminine = 女
+intersex = 双性人
+transgender = 跨性别者
+non-binary = 非二元性别
+do_not_wish_to_say = 保密
+other = 其他
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99

@@ -22,8 +22,6 @@ hidden = mutlatihtoc
 visible = mutztoc
 profile-form-submit-save = ahcocui
 profile-form-submit-saved = ahcuctoc
-# Gender
-other = Occe
 why-profile-title = ¿queye se perfil?
 why-profile-text = titechtemactis siqui tlanahuatil de tehuatl, tlen amameh tlahtol tlen tiquin titlanis ichin Common Voice techcualtilisqueh cachi para ixmatilis tlahtol  moquincuican ica quin yectlalihtacah queme quin tlahtlania
 build-profile = xicchihchihua se perfil
@@ -46,3 +44,4 @@ on = cualtia
 help-accent = ticniqui nimitspalehuis ican acento?
 help-accent-explanation = moacento yen quemen tiquimihtoa tlahtolmeh. Uilis isqui ohcon porque campa otichanchiuh, uili titlahtoa ocsiqui tlahtol o ica ocse tlanimilil, uilis titechmactis ocsiqui tlanahuatil tlen ticmachilis techcualtias nica
 help-variants = ticniqui nimitspalehuis ican variantes?
+other = Occe

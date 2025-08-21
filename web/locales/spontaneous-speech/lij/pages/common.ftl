@@ -42,22 +42,20 @@ accept-privacy-and-terms = Son d’accòrdio co-e <termsLink>condiçioin</termsL
 bsy = Sabah Bisaya
 cdo = Fuzhou
 cpx = Heng Hua
-en = Ingleise
-fr = Franseise
 hch = Wixarika
 kzi = Kelabit
 mbf = Baba maleise
 meh = Tlaxiaco Mixtec do sud òvest
 mel = Melanau do mezo
 mmc = Mazahua de ponente
-ms-MY = Bahasa maleise
 msi = Sabah maleise
 pez = Penan de levante
 pne = Penan de ponente
 sdo = Serian Bidayuh
 snv = Sa'ban
-tr = Turco
 xkl = Kenyah
+# Locales-Variants
+ms-MY = Bahasa maleise
 
 ## Language search component
 

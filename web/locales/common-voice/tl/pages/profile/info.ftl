@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Magdagdag ng bagong custom accent "{ $inputValue }"
 profile-form-submit-save = i-Save
 profile-form-submit-saved = Naka-Save
-# Gender
-other = Ibang Kasarian
 why-profile-title = Bakit isang profile?
 dashboard = Dashboard
 build-profile = Gumawa ng Profile
@@ -57,3 +55,4 @@ on = On
 help-accent = Kailangan mo ng tulong sa mga variant?
 help-accent-explanation = Ang iyong diin ay kung paano mong binibigkas ang mga salita. Maari itong mabubuo depende kung saan ka na nakatira, aling wika ang sinasalita mo, at maraming iba pang dahilan. Pwede mong ibahagi ang anumang kaalaman na sa tingin mo ay makabuluhan dito.
 help-variants = Kailangan mo ng tulong sa mga variant?
+other = Ibang Kasarian

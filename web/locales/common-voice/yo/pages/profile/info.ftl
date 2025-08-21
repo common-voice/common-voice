@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Ṣe ìfikún àwọn ohùn ìpèdè "{ $inputValue }"
 profile-form-submit-save = Fi pamọ́
 profile-form-submit-saved = Ìwànípamọ́
-# Gender
-other = Òmíràn
 why-profile-title = Ìdí fún púrófáìlì?
 why-profile-text = Nípa pépèsè àwọn ìrìyìn nípan araàrẹ, àwọn ìgbàsílẹ̀ ohùn tí o fi ráńṣẹ́ sí Common Voice yóò wúlò gidigidi fún àwọn Ìmẹ̀ẹ̀rọ adóhùnmọ̀ tí wọ́n ń ṣàmúlò àwọn dátà yí kí ìṣewẹ́kú wọ́n lè tànnà si.
 dashboard = Àte
@@ -61,3 +59,4 @@ help-accent = O nílò ìrànwọ́ pẹ̀̀lú ohùn ìpèdè?
 help-accent-explanation = Ohùn ìpèdè ni bí o ṣe ń pe ọ̀rọ̀. O lè rí bó ti rí latara ibi tí o ti gbé, àwọn èdè mìíràn tí ò ń sọ àti àwọn ohun mìíràn. O lè sọ àwọn ohun to rò bé ó ṣe pàtàkì níbí.
 help-variants = O nílò ìrànwọ́ pẹ̀lú ẹ̀dà èdè?
 help-variants-explanation = Ẹ̀dà èdè jẹ́ irúfẹ́ èdè kan - fún àpẹẹrẹ, èyí tí àwọn ènìyàn agbègbè kán jọ ń sọ. Nígbà míràn, a máa ń per wọ́n ní ẹ̀ka èdè
+other = Òmíràn

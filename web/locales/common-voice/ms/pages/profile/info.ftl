@@ -29,8 +29,6 @@ native-language =
 profile-form-add-accent = Tambah aksen baru { $inputValue }
 profile-form-submit-save = Simpan
 profile-form-submit-saved = Telah disimpan
-# Gender
-other = Lain-lain
 why-profile-title = Mengapa profil?
 why-profile-text =
     Dengan memberikan beberapa maklumat mengenai diri anda, data audio yang anda kirimkan ke Common Voice akan lebih berguna untuk Ucapan
@@ -65,3 +63,4 @@ help-accent = Perlukan bantuan dengan aksen?
 help-accent-explanation = Aksen atau loghat ialah cara anda menyebut perkataan. Ia boleh dibentuk oleh tempat tinggal anda, bahasa lain yang anda tuturkan dan banyak faktor lain. Anda boleh berkongsi sebarang maklumat yang anda rasa relevan di sini.
 help-variants = Perlukan bantuan dengan varian?
 help-variants-explanation = Varian adalah bentuk bahasa tertentu - contohnya dikongsi olej mereka yang tinggal dalam geografi atau komuniti. Kadang-kadang ini dipanggil dialek
+other = Lain-lain

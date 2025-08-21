@@ -1,23 +1,34 @@
-import * as React from 'react';
-import Props from '../props';
-import ContributionActivity from './contribution-activity';
-import LeaderboardCard from './leaderboard-card';
-import ProgressCard, { Props as ProgressCardProps } from './progress-card';
-import StatsCard from './stats-card';
+import * as React from 'react'
+import Props from '../props'
+import ContributionActivity from './contribution-activity'
+import LeaderboardCard from './leaderboard-card'
+import ProgressCard, { Props as ProgressCardProps } from './progress-card'
+import StatsCard from './stats-card'
 
-import './stats.css';
+import './stats.css'
 
 const StatsPage = ({ allGoals, dashboardLocale }: Props) => {
   if (!allGoals) {
-    return null;
+    return null
   }
+
+  const ContributionActivityYou = ({ locale }: { locale: string }) => (
+    <ContributionActivity from="you" locale={locale} key={'you_' + locale} />
+  )
+  const ContributionActivityEveryone = ({ locale }: { locale: string }) => (
+    <ContributionActivity
+      from="everyone"
+      locale={locale}
+      key={'everyone_' + locale}
+    />
+  )
 
   return (
     <div className="stats-page">
       <div className="cards">
         {['speak', 'listen'].map(type => {
           const [current, goals] =
-            allGoals.globalGoals[type == 'speak' ? 'clips' : 'votes'];
+            allGoals.globalGoals[type == 'speak' ? 'clips' : 'votes']
           return (
             <ProgressCard
               key={type + dashboardLocale}
@@ -30,7 +41,7 @@ const StatsPage = ({ allGoals, dashboardLocale }: Props) => {
                   : null
               }
             />
-          );
+          )
         })}
       </div>
 
@@ -41,18 +52,14 @@ const StatsPage = ({ allGoals, dashboardLocale }: Props) => {
           title="contribution-activity"
           currentLocale={dashboardLocale}
           tabs={{
-            you: ({ locale }: { locale: string }) => (
-              <ContributionActivity from="you" locale={locale} />
-            ),
-            everyone: ({ locale }: { locale: string }) => (
-              <ContributionActivity from="everyone" locale={locale} />
-            ),
+            you: ContributionActivityYou,
+            everyone: ContributionActivityEveryone,
           }}
         />
         <LeaderboardCard currentLocale={dashboardLocale} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default StatsPage;
+export default StatsPage

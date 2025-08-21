@@ -29,12 +29,6 @@ native-language =
 profile-form-add-accent = Rnu aɣdebbu udmawan amaynut « { $inputValue } »
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
-male_masculine = Awtem
-female_feminine = Tawtemt
-non-binary = Mačči d imsin
-do_not_wish_to_say = Ur yebɣi ara ad d-yerr
-# Gender
-other = Ayen-nniḍen
 why-profile-title = Acuɣer amaɣnu?
 why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i yiselkimen n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
 dashboard = Tafelwit n usenqed
@@ -67,3 +61,9 @@ help-accent = Tesriḍ tallelt ɣef uɣdebbu?
 help-accent-explanation = Aɣdebbu-ik d tarrayt i tsemraseḍ deg usenṭeq n wawalen, izmer yeṭṭafar imeḍqan anida tettidireḍ, neɣ tutlayin-nniḍen i tettmeslayeḍ d ddeqs n sebbat-nniḍen. Tzemreḍ ad tebḍuḍ yid-neɣ meṛṛa talɣut i twalaḍ telha.
 help-variants = Tesriḍ tallelt ɣef tentaliyin?
 help-variants-explanation = Tintaliyin n tutlayt d anaw n tutlayt anida i d-ḍerru kra n umgired seg tutlayt taneṣlit - amedya d tutlayt i cerken yimdanen yettidiren deg yiwen n umḍiq. Tikwal ttusemmant timeslayin.
+# Genders
+male_masculine = Awtem
+female_feminine = Tawtemt
+non-binary = Mačči d imsin
+do_not_wish_to_say = Ur yebɣi ara ad d-yerr
+other = Ayen-nniḍen

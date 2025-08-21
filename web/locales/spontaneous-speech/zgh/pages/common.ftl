@@ -10,8 +10,3 @@ report-button = ⵎⵍ
 skip-button = ⵙⵙⵉⵏⴼ
 submit-button = ⴰⵣⵏ
 contribute = ⴰⵔⴳ
-
-## Not Found Page
-
-en = ⵜⴰⵏⴳⵍⵉⵣⵜ
-fr = ⵜⴰⴼⵕⴰⵏⵚⵉⵚⵜ

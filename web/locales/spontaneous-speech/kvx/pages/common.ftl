@@ -42,22 +42,20 @@ accept-privacy-and-terms = هُون ڪومنَ وائيس را <termsLink>قائ
 bsy = صڀاح ڀسايا
 cdo = فوزو
 cpx = هينگ هوا
-en = انگريزِي
-fr = فرينچ
 hch = وِيڪاسرِيڪا
 kzi = ڪيلاڀٽ
 mbf = بابا مالائي
 meh = جنوڀيمغرڀ ٽيلڪسيڪو مڪسٽيڪ
 mel = وسطي ميلانو
 mmc = مِڪُوئا ڪيئنَ مزهُوئا
-ms-MY = ڀهاسہ مالائي
 msi = ڀَاڀا مالائي
 pez = اِيسٽرنَ مائِينَ
 pne = اِيسٽرنَ مائِينَ
 sdo = سرڀيائي ڀڌايوه
 snv = سڀان
-tr = تُرڪِش
 xkl = ڪينِي
+# Locales-Variants
+ms-MY = ڀهاسہ مالائي
 
 ## Language search component
 

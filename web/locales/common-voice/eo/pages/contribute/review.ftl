@@ -1,7 +1,13 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Vi ne elektis lingvon. Bonvolu iri al via <profileLink>profilo</profileLink> por elekti lingvojn.
 sc-review-title = Kontroli frazojn
 sc-review-loading = Frazoj ŝargataj…
+sc-review-select-language = Bonvolu elekti lingvon por kontroli frazojn.
+sc-review-no-sentences = Neniuj kontrolenda frazo. <addLink>Aldonu pliajn frazojn nun!</addLink>
+sc-review-form-prompt =
+    .message = Kontrolitaj frazoj ne senditaj, ĉu vi certas?
+sc-review-form-usage = Ŝovu dekstren por aprobi la frazon. Ŝovu maldekstren por rifuzi ĝin. Ŝovu supren por preterlasi ĝin. <strong>Ne forgesu sendi vian decidon!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Fonto: { $sentenceSource }

@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = ქიგუძინი საკუთარი კილო "{ $inputValue }"
 profile-form-submit-save = შენახება
 profile-form-submit-saved = ჩუალირ რე
-male_masculine = კოჩი
-female_feminine = ოსური
-intersex = ჟირსქესიანი
-transgender = სქესთირელი
-non-binary = კოჩიშ/ოსურიშ გარდა
-do_not_wish_to_say = სქესიშ ურაგადუო
-# Gender
-other = შხვა
 why-profile-title = მუშენ პროფილი?
 why-profile-text = თქვან გურშენი ინფორმაციაში მოჭირინაფათ, Common Voice-იშა თქვანი მუნაჯღონა ინნაჭარეფი მანგარო გუმადირთუ ხონარიშ ეშაჩინებელ სისტემეფს, ნამუსუთ თე მუნაჩემეფიშ თინუობაშ გაუჯგუშებელო გიმმირინუანს.
 dashboard = საინფორმაციო დაფა
@@ -76,3 +68,11 @@ variant-contribution-option-1 = ზალამი მიღუ, ზიტყვ
 variant-contribution-option-2 = ზალამი მიღუ, ზიტყვასქვილეფი დო ინნაჭარეფი ხვალე ჩქიმ გიშაგორილ დიალექტიშა ბძირენი.
 variant-contribution-warning-title = არძა ზიტყვასქვილს დო ინნაჭარას დიო ვაუღუ დიალექტიშ აღნიშვნა!
 variant-contribution-warning-subtitle = წილიში მიშაღალაში დროს მუთუნი ბირკულუაქ გაშიის-და, ნებისმიერ ბორჯის შეილებუნა დართინუათ დო მთლიანო ქოძირათ არძა მასალა თქვან ნინაშოთ.
+# Genders
+male_masculine = კოჩი
+female_feminine = ოსური
+intersex = ჟირსქესიანი
+transgender = სქესთირელი
+non-binary = კოჩიშ/ოსურიშ გარდა
+do_not_wish_to_say = სქესიშ ურაგადუო
+other = შხვა

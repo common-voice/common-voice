@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نواں مرضی دا لہجہ شامل کرو "{ $inputValue }"
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ تھیا
-male_masculine = مرد/مذکر
-female_feminine = تریمت/مؤنث
-intersex = ٹرانسجینڈر
-transgender = ہیجڑا
-non-binary = غیر-بائنری
-do_not_wish_to_say = کجھ کائنی ݙساوݨ چاہندا
-# Gender
-other = ٻیا
 why-profile-title = ہک پروفائل کیوں؟
 why-profile-text =
     آپݨے بارے کجھ ڄاݨکاری فراہم کرݨ نال، صوتی ڈیٹا جہڑا تساں کامن وائس وچ جمع کرویسو او تقریر کیتے مزید مفید ہوسن
@@ -79,3 +71,11 @@ variant-contribution-option-1 = میݙی زبان دے سارے لہجیاں د�
 variant-contribution-option-2 = میکوں صرف میݙے لہجے دے جملے تے کلپ ݙکھاؤ
 variant-contribution-warning-title = ⓘ اڄݨ سارے جملیاں تے کلپاں تے لہجے دے ٹیگ کائنی!
 variant-contribution-warning-subtitle = جے تہاکوں ونگارݨ وچ اوکھ ہے تاں تساں کہیں ویلے وی آپݨی زبان دا سارا مواد ݙیکھݨ تے واپس سوئچ کر سڳدے ہو۔
+# Genders
+male_masculine = مرد/مذکر
+female_feminine = تریمت/مؤنث
+intersex = ٹرانسجینڈر
+transgender = ہیجڑا
+non-binary = غیر-بائنری
+do_not_wish_to_say = کجھ کائنی ݙساوݨ چاہندا
+other = ٻیا

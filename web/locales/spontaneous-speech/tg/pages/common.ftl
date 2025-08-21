@@ -45,22 +45,20 @@ accept-privacy-and-terms = Ма бо <termsLink>Шартҳо</termsLink> ва <p
 bsy = Сабах Бисайя
 cdo = Фучжоу
 cpx = Хэн Хуа
-en = Англисӣ
-fr = Фаронсавӣ
 hch = Виксарика
 kzi = Келабит
 mbf = Баба Малай
 meh = Миштекии тлахиакии ҷануби ғарбӣ
 mel = Меланауи марказӣ
 mmc = Масауаи Мичоаканӣ
-ms-MY = Бахаса Малай
 msi = Сабах Малай
 pez = Пенани Шарқӣ
 pne = Пенани Ғарбӣ
 sdo = Бидауи Серианӣ
 snv = Саъбан
-tr = Туркӣ
 xkl = Кениягӣ
+# Locales-Variants
+ms-MY = Бахаса Малай
 
 ## Language search component
 

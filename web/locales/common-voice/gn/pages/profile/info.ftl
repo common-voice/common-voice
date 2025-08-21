@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Embojuaju myanduhe pyahu mba’etepyre "{ $inputValue }"
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
-male_masculine = Kuimba’e/Kuimba’e
-female_feminine = Kuña/Kuña
-intersex = Intersexual
-transgender = Transgénero
-non-binary = Oñeñandu’ỹva kuimba’e térã kuña
-do_not_wish_to_say = Nda’eséi
-# Gender
-other = Ambue
 why-profile-title = Mba’érepa mba’ete
 why-profile-text =
     Emombe’umivéramo nde rehegua oipytyvõkuaáta opaite ñe’ẽryapu ojeporu porãve hag̃ua ko’ẽreíre.
@@ -102,3 +94,11 @@ delete-api-key-success-toast-message = API rerachaukaha oñemboguetéma
 add-api-key-name-error = Embojuaju API réra rechaukaha
 max-api-keys-reached = Ojehasáma 10 API rerachaukaha
 duplicate-api-key-name-error = API réra ñemigua ikõi
+# Genders
+male_masculine = Kuimba’e/Kuimba’e
+female_feminine = Kuña/Kuña
+intersex = Intersexual
+transgender = Transgénero
+non-binary = Oñeñandu’ỹva kuimba’e térã kuña
+do_not_wish_to_say = Nda’eséi
+other = Ambue

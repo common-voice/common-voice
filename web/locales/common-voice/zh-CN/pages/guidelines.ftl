@@ -144,13 +144,15 @@ example-questions-explanation-2 = 若希望批量提交问题以供添加，请<
 # Answer Questions
 answer-questions = 回答提问
 answer-questions-explanation-1 = 稍微分析引导语，考虑您要说的内容，但不必过分修饰措辞。准备好后，点击“录制”图标。录制完成后，您可以自己听一遍、重新录制、删除，以及提交。
-answer-questions-explanation-2 = 请记住：即使在录音过程中出现口吃、停顿、重复，也不必担心。因为对于希望打造包容性强、能适应真实场景的语音识别工具的工程师而言，这些都是有用的数据。
+answer-questions-explanation-2 = 请记住：即使在录音过程中出现口吃、停顿、重复，也不必担心。许多工程师希望打造包容性强、能适应真实场景的语音识别工具，因此对他们而言，这些都是有用的数据。
 answer-questions-tip-1 = 在较安静的环境下录音
 answer-questions-tip-2 = 选择网络条件较好的位置
 answer-questions-tip-3b = 尽量将回答的时长控制在 15 - 30 秒
 answer-questions-tip-4 = 避免发表仇恨、煽动性言论，以及其他冒犯性言论
 answer-questions-tip-5 = 像面对朋友一样，自然地说话。使用您真实的口音。
 answer-questions-tip-6 = 保持声音大小一致，不要大喊或歌唱
+# Transcribe the Audio
+transcribe-the-audio = 转录音频
 transcribe-the-audio-subheader-2 = 数字和缩略词
 transcribe-the-audio-subheader-3 = 特殊标签
 transcribe-the-audio-subheader-4 = 词语片段、口误、重复字词
@@ -182,7 +184,7 @@ tags-disfluency = 卡顿
 tags-unclear = 模糊
 tags-noise = 噪音
 tags-laugh-explanation = 笑声
-tags-disfluency-explanation = 说话人在组织语言时，为避免停顿而用的垫词或垫音，常见的迟疑音有“呃”“嗯”“啊”等。
+tags-disfluency-explanation = 说话人在组织语言时，为避免停顿而用的垫词或垫音。常见的迟疑音有“呃”“嗯”“啊”等。
 tags-unclear-explanation = 无法理解的一个或一串字词。
 tags-noise-explanation = 其他所有类型的噪音，例如说话者的咳嗽或清嗓声、汽车鸣笛声、麦克风被敲击的声音、手机震动声等。
 # Note: do not translate any tag, like [noise] or [laugh]
@@ -190,3 +192,39 @@ special-tags-example-2 = 然后我就 [noise] 去度假了。其实 [noise] [lau
 transcribe-the-audio-subheader-4-explanation-1-example = 他叫<underline>张——张三</underline>。
 transcribe-the-audio-subheader-4-explanation-2 = 有时说话人会多次重复某个字词或字词片段，此部分也应转录。示例：
 transcribe-the-audio-subheader-5-explanation-1 = 即兴发言难免包含语法错误，转录时不应更正这些错误。转录文本应如实记录说话内容。
+transcribe-the-audio-subheader-5-explanation-2 = 说话人可能会使用非正式的口语用法（例如“咱”“啥”等），这类用法需要如实转录，不应改为正式用语。
+
+## Review the Transcription
+
+review-the-transcription = 审核转录文本
+review-the-transcription-explanation-1 = 一般而言，不建议审核由自己转录的文本，因为发现自己的问题并不容易。扩充审核人数可以更稳定地保证质量，也有助于减少偏见和问题。
+review-the-transcription-explanation-2 = 按照上方的转录音频准则，检查转录文本是否准确。您可以对其进行编辑并重新提交。
+review-the-transcription-explanation-3 = 再次提醒：您可以举报存在伤害、冒犯性等问题的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步调查。
+
+## Code-Switching
+
+code-switching = 语码切换
+adding-a-question = 添加问题
+# Adding a Question
+code-switching-adding-question-subheader = 怎样算是好的问题？
+code-switching-adding-question-explanation = 对于公众参与的数据集而言，好的问题应该：
+code-switching-adding-question-criteria-1 = 易于理解，也易于回答
+code-switching-adding-question-criteria-2 = 意义明确
+code-switching-adding-question-criteria-3 = 不能使用或引导使用伤害或冒犯性用语
+# What types of questions to add
+code-switching-types-subheader = 需要添加的问题类型
+code-switching-use-bilingual-prompts-header = 使用双语引导语
+code-switching-use-bilingual-prompts-explanation-example = “你最近做过什么 meaningful 的事情？”
+code-switching-ask-bilingual-contexts-explanation-example = “你在和弟弟说话时会夹杂英语吗？”
+code-switching-cultural-topics-header = 选择有关具体文化的话题
+code-switching-cultural-topics-explanation-example = “你会怎样跟只懂中文的人介绍 Halloween？”
+code-switching-tagging-error-intro = 如果转录文本中存在错误，请使用反馈功能进行标记。可能的错误包括：
+code-switching-pronunciation-explanation-example-1 = 汉语：sī
+code-switching-pronunciation-explanation-example-2 = 日语：watashi
+code-switching-not-tag-proper-names = <bold>专有名词。</bold>不应标记人名、地名、组织名。示例：
+
+## Reporting Content
+
+reporting-content = 举报内容
+reporting-content-explanation-1 = 请举报存在伤害、冒犯性等问题，以及包含个人身份信息（例如电话号码和地址）的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步处理。
+reporting-content-explanation-2 = 若要举报内容，请选择“反馈”按钮，然后从以下情况中选择一项或多项：冒犯性内容、其他语言、个人身份信息、其他，并在文本框中详述举报理由，最后点击“反馈”按钮即可提交举报。

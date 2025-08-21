@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Dodaj novi prilagođeni naglasak „{ $inputValue }”
 profile-form-submit-save = Spremi
 profile-form-submit-saved = Spremljeno
-male_masculine = Muškarac/Muški
-female_feminine = Žena/Ženski
-intersex = Interseksualni
-transgender = Transrodni
-non-binary = Nebinarni
-do_not_wish_to_say = Ne želim reći
-# Gender
-other = Ostalo
 why-profile-title = Zašto profil?
 why-profile-text = Davanjem nekih podataka o sebi, zvučni podaci koje šalješ u Common Voice bit će korisniji mehanizmima za prepoznavanje govora, koji koriste ove podatke za poboljšanje njihove točnosti.
 dashboard = Nadzorna ploča
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Prikaži mi rečenice i isječke iz svih varijan
 variant-contribution-option-2 = Prikaži mi samo rečenice i isječke moje varijante
 variant-contribution-warning-title = ⓘ Sve rečenice i isječci još nemaju oznake „Varijanta”!
 variant-contribution-warning-subtitle = Ako imaš problema s doprinošenjem, u bilo kojem trenutku se možeš vratiti na prikaz svih sadržaja za tvoj jezik.
+# Genders
+male_masculine = Muškarac/Muški
+female_feminine = Žena/Ženski
+intersex = Interseksualni
+transgender = Transrodni
+non-binary = Nebinarni
+do_not_wish_to_say = Ne želim reći
+other = Ostalo

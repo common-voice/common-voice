@@ -18,8 +18,6 @@ native-language =
     .label = Emakeel
 profile-form-submit-save = Salvesta
 profile-form-submit-saved = Salvestatud
-# Gender
-other = muu
 why-profile-title = Milleks profiil?
 why-profile-text = Teades andmeid sinu kohta, saab sinu poolt Common Voice projekti lisatud helifaile paremini kasutada kõnetuvastusprogrammide arendamiseks.
 dashboard = Töölaud
@@ -44,3 +42,4 @@ skip-submission-description = Panuse ära saatmisel jäetakse tagasiside andmine
 skip-submission-note = Märkus: panustamise tüübi muutmiseks tuleb valida "räägi" või "kuula".
 off = Väljas
 on = Sees
+other = muu

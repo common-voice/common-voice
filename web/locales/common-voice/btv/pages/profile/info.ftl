@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = نئ رویتی لہجہ"{ $inputValue }
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ ھوئیل
-male_masculine = موݜ
-female_feminine = دِھبیوں
-intersex = نامیݜ
-transgender = کھدڑا
-non-binary = غیر بائینری
-do_not_wish_to_say = منے سو خواہش نہ گر
-# Gender
-other = پَروں
 why-profile-title = چیں یک پروفائل
 why-profile-text = اپئیں متعلق کیں  معلومات دے سو وجہ رے تیوں عام اواز مہ جمع گریل آڈیو ڈیٹا تقریر سو دَن جَل ھُم فائدی من ھونݜ  پُھنیانک سو انجن چہ سو او ڈیٹا استعمال گرا اپئیں صفائ مڑنئ گرا۔
 dashboard = ڈیش بورڈ
@@ -77,3 +69,11 @@ variant-contribution-option-1 = می زیب مہ  اختلافات سو تمام
 variant-contribution-option-2 = می اختلاف سو صرف جملے زو کلپ میئ پشا
 variant-contribution-warning-title = تمام جملیوں زو کلپوں اوتر تکے مختلف ٹیگ نہ تھہ۔
 variant-contribution-warning-subtitle = کہ تے حصہ گھنیئ مہ مشکلات تھی تو واپس بیزی اپیئں زیب سو دَن تمام مشتملات بھال ھواں
+# Genders
+male_masculine = موݜ
+female_feminine = دِھبیوں
+intersex = نامیݜ
+transgender = کھدڑا
+non-binary = غیر بائینری
+do_not_wish_to_say = منے سو خواہش نہ گر
+other = پَروں

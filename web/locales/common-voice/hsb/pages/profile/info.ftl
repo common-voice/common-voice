@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ přidać
 profile-form-submit-save = Składować
 profile-form-submit-saved = Składowany
-male_masculine = Muski
-female_feminine = Žónski
-intersex = Interseksualny
-transgender = Transgender
-non-binary = Njebinarne
-do_not_wish_to_say = Nochcu podać
-# Gender
-other = Druhe
 why-profile-title = Čehodla profil?
 why-profile-text = Dajće nam někotre informacije wo sebi, zo bychu awdiodaty, kotrež na Common Voice sćeleće, wužitniše byli, zo by so dokładnosć systemow rěčenskeho spóznaća polěpšiła.
 dashboard = Přehlad
@@ -114,3 +106,21 @@ delete-api-key-success-toast-message = Přizjewjenske daty API su so wuspěšnje
 add-api-key-name-error = Přidajće mjeno přizjewjenskich datow API
 max-api-keys-reached = Limit 10 za přizjewjenske daty API je překročeny
 duplicate-api-key-name-error = Dwójne klučowe mjeno API
+# Genders
+male_masculine = Muski
+female_feminine = Žónski
+intersex = Interseksualny
+transgender = Transgender
+non-binary = Njebinarne
+do_not_wish_to_say = Nochcu podać
+other = Druhe
+# Age Values
+teens = < 19
+twenties = 19 – 29
+thirties = 30 – 39
+fourties = 40 – 49
+fifties = 50 – 59
+sixties = 60 – 69
+seventies = 70 – 79
+eighties = 80 – 89
+nineties = 90 – 99

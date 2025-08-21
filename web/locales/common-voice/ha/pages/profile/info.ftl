@@ -20,8 +20,6 @@ native-language =
     .label = Harshen uwa
 profile-form-submit-save = Ajiye
 profile-form-submit-saved = An Ajiye
-# Gender
-other = Saura
 why-profile-title = Meyasa ake buƙatar bayanai na?
 why-profile-text = Idan ka ba da bayanai a kanaka, muryar da ka tura zuwa Common Voice za ta fi amfani da fasahar tantance muryaya kuma zai taimaka matuka don samarda sakamako mai kyau.
 dashboard = Dashboard
@@ -48,3 +46,4 @@ skip-submission-description = Lokacin mika gudumawar ra'ayi za'a tsallake shi ba
 skip-submission-note = Bayanin kula: Zaka so ka yi zaɓi tsakanin Magana ko Saurara domin chanza irin gudumawa.
 off = Kashe
 on = Kunna
+other = Saura

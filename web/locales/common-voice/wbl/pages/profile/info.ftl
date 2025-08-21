@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = s̃heg̃hd riwoj-e lahja kat̃ { $inputValue }
 profile-form-submit-save = G̃hũrt (ley di)
 profile-form-submit-saved = G̃hũrt
-male_masculine = Nar/g̃hes̃h
-female_feminine = Moda/moch
-intersex = Trẽ mulung (Kifch jins-e mulung)
-transgender = Khoja saro
-non-binary = Kifch en trẽ bar
-do_not_wish_to_say = K̃hẽnak zoqi nast
-# Gender
-other = Digar
 why-profile-title = Yi khoka (sũrat) chizer?
 why-profile-text = K̃hũ bobat malũmot rẽdho’r en,  ya owog̃hũ malũmot ki tuwes̃h Umumi Owog̃h rand,  yowep owog̃h ..... shinokht k̃hak enjiner ghafch mufid wost kumdes̃h ki yem malũmotev k̃hũ dũrũstigig̃her yark wũzũmd.
 dashboard = Sozsomon-e takht
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Dẽ z̃hũ zik-e dest, cẽ kũ digargun’v-
 variant-contribution-option-2 = Rost ki  jũmla’v et  vẽndetkev (klipev)  cẽ z̃hũ  digargun’ven disũv.
 variant-contribution-warning-title = Kũ jũmla’v et  vẽndetk’veni ghal kum nis̃hun (tag) nast!
 variant-contribution-warning-subtitle = Agar ki sashtes̃h rẽdho dẽstan dẽ zurig̃h pervit, kum ki ce wakht sashtes̃h pishewit k̃he  ya k̃hũ zik-e dẽstan kkũ mawod’ves̃h wing kecerit.
+# Genders
+male_masculine = Nar/g̃hes̃h
+female_feminine = Moda/moch
+intersex = Trẽ mulung (Kifch jins-e mulung)
+transgender = Khoja saro
+non-binary = Kifch en trẽ bar
+do_not_wish_to_say = K̃hẽnak zoqi nast
+other = Digar

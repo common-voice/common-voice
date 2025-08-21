@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = يېڭى { $inputValue } تەلەپپۇز قوشۇش
 profile-form-submit-save = ساقلا
 profile-form-submit-saved = ساقلاندى
-male_masculine = ئەر
-female_feminine = ئايال
-intersex = جىنس ئۆزگەرتكەن
-transgender = جىنىس ئۆزگەرتكۈچى
-non-binary = ئىككىلىك ئەمەس
-do_not_wish_to_say = دېگۈم يوق
-# Gender
-other = باشقا
 why-profile-title = نېمە ئۈچۈن تەرجىمىھال قۇرۇلىدۇ؟
 why-profile-text =
     ئۆزىڭىز ھەققىدە بەزى ئۇچۇرلارنى تەمىنلەش ئارقىلىق ، Common Voice غا يوللىغان ئاۋازلىق سانلىق مەلۇماتىڭىزنىڭ ئىشلىتىشچانلىقى ئاشىدۇ.
@@ -83,3 +75,11 @@ variant-contribution-warning-subtitle = تۆھپە قوشۇشتا مەسىلىگ
 api-credentials-use-case-1 = ئاۋاز ئەۋرىشكىسىنى يوللاش
 api-credentials-use-case-2 = سانلىق مەلۇمات توپلىمىنى سۈرۈشتۈرۈش
 api-credentials-use-case-3 = ئاۋاز مودېلىنى تەھلىل قىلىش ۋە ياخشىلاش
+# Genders
+male_masculine = ئەر
+female_feminine = ئايال
+intersex = جىنس ئۆزگەرتكەن
+transgender = جىنىس ئۆزگەرتكۈچى
+non-binary = ئىككىلىك ئەمەس
+do_not_wish_to_say = دېگۈم يوق
+other = باشقا

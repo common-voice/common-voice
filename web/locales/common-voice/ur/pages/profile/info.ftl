@@ -26,8 +26,6 @@ native-language =
 profile-form-add-accent = نیا حسب ضرورت لہجہ شامل کریں "{ $inputValue }"
 profile-form-submit-save = محفوظ کریں
 profile-form-submit-saved = محفوظ شدہ
-# Gender
-other = دیگر
 why-profile-title = ایک پروفائل کیوں؟
 why-profile-text = اپنے بارے میں کچھ معلومات فراہم کرنے سے۔، صوتی کوائف جو آُپ Common Voice میں جمع کرائیں گے وہ گویاِی کے لیئے مزید فائدہ مند ہوں گے توثیق کار انجن اس کوائف کو استعمال کرکے اپنی درستکی کریں گے۔
 dashboard = ڈیش بورڈ
@@ -56,3 +54,4 @@ skip-submission-note = نوٹ: شراکت کی قسم بدلنے کے لیے آ�
 off = بند
 on = چالو
 help-accent = لہجے میں کچھ مدد کی ضرورت ہے؟
+other = دیگر

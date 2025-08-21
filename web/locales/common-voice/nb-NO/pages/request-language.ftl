@@ -15,7 +15,7 @@ request-language-form-info-explanation-list-1 = Navn på språket ditt
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> hvis kjent
 request-language-form-info-explanation-list-3 = Lenker til nettsider som kan hjelpe oss å forstå språket
 request-language-google-recaptcha-required = reCAPTCHA kreves hvis du vil fortsette
-request-language-google-recaptcha-error = Noe gikk galt med reCAPTCHA. Vennligst prøv på nytt.
+request-language-google-recaptcha-error = Noe gikk galt med reCAPTCHA. Prøv på nytt.
 # Success page
 request-language-success-heading = Takk skal du ha! Du har sendt en ny språkforespørsel
 request-language-success-list-1 =

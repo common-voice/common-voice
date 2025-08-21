@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Churia madedo maw'ishi "{ $inputValue }"
 profile-form-submit-save = Kira
 profile-form-submit-saved = Yakirwa
-male_masculine = Mndu wa Kiw'omi
-female_feminine = Mndu wa Kiw'aka
-intersex = mundu uko kuw'i
-transgender = Mundu wa kifirika
-non-binary = Si muka si mndwaw'omi
-do_not_wish_to_say = Sikunde kughora
-# Gender
-other = Hinoko
 why-profile-title = Profaili ni ya indoki?
 why-profile-text = Kwa kudighoria maza rimu rako, ihi data esikiria kuingiragha kwa Common Voice ikaiagha ifwane  kuchumba kwa viria vetambukilwa ni madedo.
 dashboard = Dashibodi
@@ -71,3 +63,11 @@ help-variants = Kwakunde wutesia na mbari ya madedo?
 help-variants-explanation = Mbari ya madedo ni fwana imu ya kiteto - sa w'uja idedwagha in w'andu w'a kifumbu chimu, angu w'andu w'ikanye w'ungara. Ngelo rimu ivi viteto vifwane kusighana vaw'angwagha lahaja.
 help-sex-or-gender-changes = Kwakunde w'utesia ghomanya ni mnduki angu maghaluso gha fwana?
 help-sex-or-gender-changes-explanation = Daw'iafunya w'ulalo ghosaghua eri w'andu w'ikaie na w'uhuru ghodighoria seji w'ikutambuagha (w'umi, w'aka, angu kiw'uzima). Dalomba kudieze seji kusikiragha kukaia kidamu chako. <learnMoreLink>Kufundishe zaidi seji diw'onagha iri maza ra jinsia.</learnMoreLink>
+# Genders
+male_masculine = Mndu wa Kiw'omi
+female_feminine = Mndu wa Kiw'aka
+intersex = mundu uko kuw'i
+transgender = Mundu wa kifirika
+non-binary = Si muka si mndwaw'omi
+do_not_wish_to_say = Sikunde kughora
+other = Hinoko

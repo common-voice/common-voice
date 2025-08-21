@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Pievienot jaunu akcentu “{ $inputValue }”
 profile-form-submit-save = Saglabāt
 profile-form-submit-saved = Saglabāts
-male_masculine = Vīrietis/vīrišķīgs
-female_feminine = Sieviete/sievišķīgs
-intersex = Starpdzimumu
-transgender = Transpersona
-non-binary = Nebinārs
-do_not_wish_to_say = Nevēlos atklāt
-# Gender
-other = Cits
 why-profile-title = Kāpēc veidot profilu?
 why-profile-text = Sniedzot nelielu informāciju par sevi, ieraksti, kurus ierakstāt Common Voice, būs labāk noderīgi runas atpazīšanas algoritmiem, kas izmanto šos datus, lai uzlabotu to precizitāti.
 dashboard = Darba galds
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Rādiet man teikumus un klipus no visiem variant
 variant-contribution-option-2 = Rādiet man tikai teikumus un klipus no mana varianta jeb dialekta
 variant-contribution-warning-title = ⓘ Vēl ne visiem teikumiem un klipiem ir varianta jeb dialekta atzīmes!
 variant-contribution-warning-subtitle = Ja ir sarežģījumi ieguldījuma sniegšanā, jebkurā brīdī var pārslēgties atpakaļ uz visa satura skatīšanu savā valodā.
+# Genders
+male_masculine = Vīrietis/vīrišķīgs
+female_feminine = Sieviete/sievišķīgs
+intersex = Starpdzimumu
+transgender = Transpersona
+non-binary = Nebinārs
+do_not_wish_to_say = Nevēlos atklāt
+other = Cits

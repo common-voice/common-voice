@@ -37,9 +37,6 @@ not-found-page-header = Không tìm thấy
 not-found-page-content = Trang bạn đang tìm kiếm không tồn tại
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Tôi đồng ý với <termsLink>điều khoản</termsLink> và <privacyLink>thông báo về quyền riêng tư</privacyLink> của Common Voice
-en = Tiếng Anh
-fr = Tiếng Pháp
-tr = Tiếng Thổ Nhĩ Kỳ
 
 ## Language search component
 

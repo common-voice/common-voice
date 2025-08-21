@@ -4,6 +4,8 @@ guidelines-header-subtitle = Comprendre comment ajouter et valider des phrases e
 voice-collection = Collecte de voix
 sentence-collection = Collecte de phrases{ " " }
 question-collection = Collecte de questions
+scripted-speech = Parole lue
+spontaneous-speech = Parole spontanée
 dont-subheader = À proscrire
 
 ## Voice Collection nav ids
@@ -188,6 +190,7 @@ tags-disfluency-explanation =
     Un mot ou un son de remplissage employé comme marqueur temporaire pendant que le locuteur réfléchit à ce qu’il souhaite exprimer.
     En français, parmi les sons d’hésitation fréquents, on retrouve « hum », « heu », etc.
 tags-unclear-explanation = Un mot ou une suite de mots qui ne peuvent pas être compris.
+tags-noise-explanation = Tout autre type de bruit, par exemple si l’on entend quelqu’un tousser ou se racler la gorge, un klaxon de voiture, quelque chose qui heurte le micro, un téléphone qui vibre, etc.
 transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
 transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre

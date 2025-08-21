@@ -22,9 +22,6 @@ native-language =
     .label = Äidinkieli
 profile-form-submit-save = Tallenna
 profile-form-submit-saved = Tallennettu
-do_not_wish_to_say = En halua sanoa
-# Gender
-other = Muu
 why-profile-title = Minkä takia profiili?
 why-profile-text = Tarjoamalla lisätietoja itsestäsi Common Voiceen lähettämäsi ääninäytteet ovat hyödyllisempiä puheentunnistusmoottoreille, jotka osaavat käyttää lisätietoja tarkkuutensa parantamiseen.
 dashboard = Kojelauta
@@ -52,3 +49,5 @@ skip-submission-description = Palautteen antaminen Lähetä-painikkeen painamise
 skip-submission-note = Huomaa: Sinun täytyy silti valita Puhu tai Kuuntele vaihtaaksesi osallistumisen tapaa.
 off = Pois päältä
 on = Päällä
+do_not_wish_to_say = En halua sanoa
+other = Muu

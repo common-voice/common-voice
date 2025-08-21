@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Adicionar novo sotaque personalizado "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
-male_masculine = Homem/Masculino
-female_feminine = Mulher/Feminino
-intersex = Intersexo
-transgender = Transgênero
-non-binary = Não binário
-do_not_wish_to_say = Não quero dizer
-# Gender
-other = Outro
 why-profile-title = Por que um perfil?
 why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviar ao Common Voice serão mais úteis aos mecanismos de reconhecimento de voz que usam esses dados para aprimorar a precisão.
 dashboard = Painel
@@ -77,3 +69,11 @@ variant-contribution-option-1 = Mostrar frases e clipes de todas as variantes do
 variant-contribution-option-2 = Só mostrar frases e clipes da minha variante
 variant-contribution-warning-title = ⓘ Nem todas as frases e clipes têm etiquetas de variantes ainda!
 variant-contribution-warning-subtitle = Se estiver com dificuldade para colaborar, pode voltar a ver todo o conteúdo de seu idioma quando quiser.
+# Genders
+male_masculine = Homem/Masculino
+female_feminine = Mulher/Feminino
+intersex = Intersexo
+transgender = Transgênero
+non-binary = Não binário
+do_not_wish_to_say = Não quero dizer
+other = Outro

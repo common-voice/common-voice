@@ -29,14 +29,6 @@ native-language =
 profile-form-add-accent = Ychwanegwch acen o fath newydd "{ $inputValue }"
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
-male_masculine = Gwryw/Gwrywaidd
-female_feminine = Benyw/Benywaidd
-intersex = Rhyngryw
-transgender = Trawsrywiol
-non-binary = Anneuaidd
-do_not_wish_to_say = Dim eisiau ddweud
-# Gender
-other = Arall
 why-profile-title = Pam proffil?
 why-profile-text = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i fod yn fwy cywir.
 dashboard = Bwrdd Gwaith
@@ -114,3 +106,21 @@ delete-api-key-success-toast-message = Manylion API wedi'i ddileu yn llwyddiannu
 add-api-key-name-error = Ychwanegu enw manylion API
 max-api-keys-reached = Wedi mynd y tu hwnt i derfyn manylion API o 10
 duplicate-api-key-name-error = Enw allwedd API dyblyg
+# Genders
+male_masculine = Gwryw/Gwrywaidd
+female_feminine = Benyw/Benywaidd
+intersex = Rhyngryw
+transgender = Trawsrywiol
+non-binary = Anneuaidd
+do_not_wish_to_say = Dim eisiau ddweud
+other = Arall
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99
