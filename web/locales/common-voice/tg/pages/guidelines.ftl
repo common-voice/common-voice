@@ -147,6 +147,7 @@ special-tags-example-2 =
     Ва он гоҳ ман [садо]  ба истироҳат рафтам.
     Хуб, [садо] [ханда] ин аслан ид набуд [ханда]
 transcribe-the-audio-subheader-4-explanation-1-example = Номи ӯ <underline>Ҷо - Ҷона-</underline> Ҷонатан аст.
+transcribe-the-audio-subheader-4-explanation-2-example = Ва он гоҳ ман ба <underline> хо-хо-хон</underline>хонаи хоб рафтам
 
 ## Review the Transcription
 
@@ -155,8 +156,19 @@ review-the-transcription-subheader = Роҳнамои умумӣ
 
 ## Code-Switching
 
+code-switching = Иваз кардани рамз
 adding-a-question = Илова кардани саволҳо
 # Adding a Question
 code-switching-adding-question-subheader = Саволи хуб бояд чӣ гуна бошад?
+code-switching-adding-question-criteria-1 = Барои фаҳмидан ва ҷавоб додан осон бошад
 # What types of questions to add
 code-switching-types-subheader = Кадом намуди саволҳоро илова кардан лозим аст?
+# What to Avoid
+code-switching-avoid-subheader = Аз чӣ канорагирӣ кардан лозим аст
+code-switching-avoid-intro = Саволҳое, ки метавонанд:
+code-switching-avoid-1 = Маълумоти шахсии қобили шиносоиро талаб кардан
+# Reviewing a Question
+code-switching-review-subheader = Баррасии савол
+# Answering a Question
+code-switching-answer-subheader = Ҷавоб додан ба савол
+code-switching-pronunciation-explanation-example-1 = Англисӣ: /ˈkeɪ.bəl/
