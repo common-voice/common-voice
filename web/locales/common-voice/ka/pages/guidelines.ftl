@@ -231,7 +231,11 @@ code-switching-use-bilingual-prompts-explanation-example = „სახლში
 code-switching-ask-bilingual-contexts-header = დასვით კითხვები ორენოვანი შინაარსით
 code-switching-ask-bilingual-contexts-explanation = დაიხმარეთ ისეთი გარემოებები, როცა, ჩვეულებრივ, ორივე ენას იყენებენ (თუნდაც სახლში, სკოლაში, ერთობის ღონისძიებებში). მაგალითად:
 code-switching-ask-bilingual-contexts-explanation-example = „ბიძაშვილებს რომ ელაპარაკები, ერთმანეთში ურევ მეგრულსა და ქართულს?“
+code-switching-focus-emotional-header = ყურადღება გაამახვილეთ დაუვიწყარ ან გარდამტეხ მოვლენებზე
 code-switching-focus-emotional-explanation = მეტყველების მონაცვლეობა ხალხს ახასიათებს გრძნობების გამოხატვისას, მღელვარებისას ან საგანგებო შემთხვევებისას. მაგალითად:
+code-switching-focus-emotional-explanation-example = „მითხარი, მშობლებს რა რეაქცია ჰქონდათ, როცა შენი ცხოვრების მნიშვნელოვანი სიახლე აცნობე — გადმოეცი, ზუსტად რა თქვეს.“
+code-switching-direct-quotes-header = მოითხოვეთ ნათქვამის ზუსტი გამეორება ან მიმსგავსებული წარმოდგენა
+code-switching-direct-quotes-explanation = მონაწილეებს უბიძგეთ, ყველაფერი ისე გადმოსცენ, როგორც სინამდვილეში იყო. მაგალითად:
 code-switching-cultural-topics-explanation = საჭმელი, ჩვეულებები, დღესასწაულები და ოჯახური გარემოებები, აგრეთვე იწვევს მეტყველების მონაცვლეობას.
 # What to Avoid
 code-switching-avoid-subheader = უნდა აირიდოთ
