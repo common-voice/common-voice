@@ -332,6 +332,7 @@ const findSentencesForReview =
             LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
             LEFT JOIN sentence_metadata ON (sentence_metadata.sentence_id=sentences.id)
             LEFT JOIN variants ON (variants.id=sentence_metadata.variant_id)
+            LEFT JOIN taxonomy_entries te ON (te.sentence_id=sentences.id)
             WHERE
               sentences.is_validated = FALSE
               AND sentences.locale_id = ?
@@ -342,6 +343,7 @@ const findSentencesForReview =
               AND NOT EXISTS (
                 SELECT 1 FROM sentence_votes sv WHERE sentences.id = sv.sentence_id AND sv.client_id = ?
               )
+              AND te.sentence_id IS NULL
             GROUP BY sentences.id
             HAVING
               number_of_votes < 2 OR # not enough votes yet
