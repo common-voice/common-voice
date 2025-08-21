@@ -142,6 +142,11 @@ tags-disfluency = Мушкилот
 tags-unclear = Норавшан
 tags-noise = Сарусадо
 tags-laugh-explanation = Садои ханда.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Ва он гоҳ ман [садо]  ба истироҳат рафтам.
+    Хуб, [садо] [ханда] ин аслан ид набуд [ханда]
+transcribe-the-audio-subheader-4-explanation-1-example = Номи ӯ <underline>Ҷо - Ҷона-</underline> Ҷонатан аст.
 
 ## Review the Transcription
 
