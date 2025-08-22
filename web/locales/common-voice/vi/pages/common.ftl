@@ -264,6 +264,7 @@ privacy = Riêng tư
 terms = Điều khoản
 cookies = Cookie
 faq = Câu hỏi thường gặp
+documentation = Tài liệu
 content-license-text = Nội dung có sẵn ở <licenseLink>Giấy phép Creative Commons</licenseLink>
 share-title = Giúp chúng tôi tìm những người khác để cung cấp giọng nói!
 share-text = Hãy giúp dạy cho các phần mềm cách nói chuyện của con người, đóng góp giọng nói của bạn tại { $link }
