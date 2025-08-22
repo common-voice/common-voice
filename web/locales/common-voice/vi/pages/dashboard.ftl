@@ -50,6 +50,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Đặt một mục tiêu
 cant-decide = Không thể quyết định?
+activity-needed-calculation-fixed = 100 người thu âm 100 câu mỗi ngày có thể tạo ra 13 giờ âm thanh. Duy trì hiệu suất này, có thể đạt 1000 giờ trong vòng chưa đầy 3 tháng.
 how-many-per-day = Tuyệt quá! Có bao nhiêu đoạn thoại mỗi ngày?
 how-many-a-week = Tuyệt quá! Có bao nhiêu đoạn thoại một tuần?
 which-goal-type = Bạn có muốn nói, nghe hay cả hai?

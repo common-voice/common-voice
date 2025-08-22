@@ -95,6 +95,9 @@ release-version = Phiên bản
 dataset-date = Ngày
 license = Giấy phép: <licenseLink>{ $license }</licenseLink>
 license-mixed = Xáo trộn
+# Support old genders in older datasets
+male = Nam
+female = Nữ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Tải bộ dữ liệu giọng nói của chúng tôi
 # MENU ITEM ARIA LABELS
