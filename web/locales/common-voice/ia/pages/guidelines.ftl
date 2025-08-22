@@ -188,8 +188,8 @@ tags-unclear = Poco clar
 tags-noise = Ruito
 tags-laugh-explanation = Le sono de riso.
 tags-disfluency-explanation =
-    Un parola o sono repletor usate como marca-posto dum un parlator decide que dicer.
-    In anglese, alcun commun sonos de hesitation es “err”, “um”, “huh”, etc.
+    Un parola o sono usate pro plenar le tempore durante que un parlator decide que dicer.
+    Internationalmente, alcun commun sonos de hesitation es “em”, “eh”, “hmm”, etc.
 tags-unclear-explanation = Un parola o un sequentia de parolas que non pote esser comprendite.
 tags-noise-explanation =
     Ulle altere typo de ruito, tal como quando le parlator tussi o clara su gorga,
