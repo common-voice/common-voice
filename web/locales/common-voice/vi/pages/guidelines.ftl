@@ -151,3 +151,6 @@ answer-questions-tip-3b = Cố gắng giữ phản hồi của bạn trong kho�
 answer-questions-tip-4 = Tránh lời nói thù hận, kích động hoặc xúc phạm
 answer-questions-tip-5 = Nói chuyện tự nhiên như khi bạn nói chuyện với một người bạn - sử dụng phiên âm, phương ngữ và giọng thật của riêng bạn
 answer-questions-tip-6 = Giữ âm lượng ổn định - đừng hét hoặc hát
+# Transcribe the Audio
+transcribe-the-audio = Phiên âm âm thanh
+transcribe-the-audio-subheader-1 = Hướng dẫn chung

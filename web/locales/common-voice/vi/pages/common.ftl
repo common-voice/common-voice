@@ -283,6 +283,12 @@ email-opt-in-info-sub-with-challenge = Nhận email như lời nhắc cho thử 
 email-opt-in-privacy-v2 = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật</privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Sao chép
+# Text shown on a button that can be clicked to cancel an action
+cancel = Hủy bỏ
+# Text shown on a button that can be clicked to delete an item
+delete = Xóa
 
 ## Donate banner
 
