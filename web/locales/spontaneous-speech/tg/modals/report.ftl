@@ -8,6 +8,7 @@ different_language = Забони дигар
 different_language-detail = Муҳтаво забонеро дар бар мегирад, ки аз он чизе, ки ман интизор будам, фарқ мекунад.
 personally_identifiable_information = Иттилооти шахсии қобили шиносоӣ
 personally_identifiable_information-detail = Ин муҳтаво дорои маълумоти муайянкунандаи шахс мебошад, ки ба шахсияти шахси воқеӣ алоқаманд аст, аз ҷумла ному насаб, нишонии почтаи электронӣ, маҳалли ҷойгиршавӣ, рақами шиноснома ё рақами телефон.
+personally_identifiable_information-answer-detail = Ин муҳтаво маълумоти муайянкунандаи шахсро талаб мекунад, ки ба шахсияти шахси воқеӣ алоқаманд аст, аз ҷумла ному насаб, нишонии почтаи электронӣ, маҳалли ҷойгиршавӣ, рақами шиноснома ё рақами телефон.
 report-other-comment =
     .placeholder = Шарҳ
 # Label for textarea in report modal
