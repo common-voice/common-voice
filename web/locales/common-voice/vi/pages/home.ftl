@@ -75,6 +75,8 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 answer-questions = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 review-transcriptions = Đánh giá bản ghi
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
+review-questions = Duyệt câu hỏi
+transcribe-audio = Chuyển đổi Âm thanh thành Văn bản <small>(Sắp ra mắt)</small>
 press-and-stories = Báo chí và tin tức
 community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt
@@ -92,6 +94,7 @@ community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng 
 
 about-us-menu-aria-label = Menu tùy chọn Giới thiệu
 about-us-menu-item-aria-label = Menu tùy chọn Giới thiệu về chúng tôi
+partnerships-menu-item-aria-label = Tìm hiểu về quan hệ đối tác với Common Voice
 press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice
 community-and-languages-menu-item-aria-label = Khám phá cộng đồng và ngôn ngữ được hỗ trợ bởi Common Voice
 
