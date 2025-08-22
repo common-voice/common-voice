@@ -67,6 +67,7 @@ cjk = Chokwe
 ckb = Centra kurda
 cnh = Hakaĉina
 co = Korsika
+cpy = Asheninka el la suda Ucayali
 crh = Krime-tatara
 cs = Ĉeĥa
 cut = Ciucatec de Teutila
