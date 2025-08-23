@@ -4,3 +4,12 @@ listen-again-instruction = Ai lucrat bine!<playIcon></playIcon> Ascultă din nou
 listen-3rd-time-instruction = Ai terminat 2. Ține-o tot așa!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ultima!
 listen-empty-state = Nu mai avem clipuri de validat în această limbă...
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Validează înregistrări, verifică transcrieri
+review-transcriptions-menu-item-tooltip = Verifică transcrierile trimise în limba ta de alți utilizatori
+
+## MENU ITEM ARIA LABELS
+
+review-transcriptions-menu-item-aria-label = Verifică acuratețea transcrierilor înregistrărilor audio
