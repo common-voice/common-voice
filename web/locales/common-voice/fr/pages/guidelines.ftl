@@ -191,6 +191,10 @@ tags-disfluency-explanation =
     En français, parmi les sons d’hésitation fréquents, on retrouve « hum », « heu », etc.
 tags-unclear-explanation = Un mot ou une suite de mots qui ne peuvent pas être compris.
 tags-noise-explanation = Tout autre type de bruit, par exemple si l’on entend quelqu’un tousser ou se racler la gorge, un klaxon de voiture, quelque chose qui heurte le micro, un téléphone qui vibre, etc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Et puis je [noise] suis parti en vacances.
+    Eh bien, [noise] [laugh] ce n’était pas vraiment un jour férié [laugh]
 transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
 transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre
