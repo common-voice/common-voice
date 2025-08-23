@@ -323,6 +323,8 @@ code-switching-lookalikes-header = Méfiez-vous des faux amis
 code-switching-lookalikes-explanation = Certains mots peuvent ressembler à une langue mais sont utilisés dans l’autre langue. Identifiez-les en fonction du sens et de leur utilisation, pas uniquement en fonction de leur orthographe. Exemples :
 code-switching-lookalikes-explanation-example-1 = « Footing » utilisé dans le sens « courir » en français  > l’identifier comme étant du français
 code-switching-lookalikes-explanation-example-2 = « No problemo » utilisé en anglais > l’identifier comme étant de l’anglais
+# When Not to Tag Words
+code-switching-not-tag-header = Quand ne faut-il pas identifier des mots
 code-switching-not-tag-interjections-example-1 = « Eh »
 code-switching-not-tag-interjections-example-2 = « Non »
 code-switching-not-tag-interjections-example-3 = « Ouais »

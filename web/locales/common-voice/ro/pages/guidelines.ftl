@@ -72,6 +72,7 @@ public-domain-explanation-1 = Toate propozițiile scrise trebuie să se găseasc
 public-domain-explanation-2 = Pentru a construi un motor de recunoaștere vocală, cele mai potrivite propoziții sunt cele scrise în limbaj colocvial, modern. Iată câteva idei pentru a crea propoziții adecvate:
 public-domain-explanation-3 = Scrie propoziții folosind un limbaj modern, colocvial. Fă-o singur, cu prietenii, sau împreună cu membrii comunității tale lingvistice (de exemplu, prin organizarea unui atelier de scriere de tip „write-a-thon”).
 public-domain-explanation-4 = Ia legătura cu autori, dramaturgi sau scenariști și întreabă-i dacă doresc să doneze domeniului public o mică parte din lucrările lor.
+public-domain-explanation-5 = Caută texte ale căror drepturi de autor au expirat - cum ar fi, de exemplu, majoritatea cărților publicate înainte de 1920.
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 
 ## Review the Transcription
