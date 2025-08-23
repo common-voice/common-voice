@@ -1,12 +1,24 @@
 # GUIDELINES PAGE
 guidelines-header = Îndrumări pentru contribuții
 guidelines-header-subtitle = Cum poți contribui la și cum poți valida setul de date create de proiectul Common Voice
-sentence-collection = Colecție de fraze
+voice-collection = Colecția de voci
+sentence-collection = Colecția de propoziții
+question-collection = Colecția de întrebări
+scripted-speech = Discurs scris
+spontaneous-speech = Discurs spontan
+dont-subheader = Așa nu:
 
 ## Voice Collection nav ids
 
+varying-pronunciations = Pronunții diverse
+misreadings = Cuvinte citite greșit
+offensive-content = Conținut ofensator
 background-noise = Zgomot de fundal
 background-voices = Voci de fundal
+volume = Volum
+reader-effects = Particularități ale vocilor cititorilor
+just-unsure = Eziți?
+example = Exemplu
 
 ## Sentence collection nav ids
 
