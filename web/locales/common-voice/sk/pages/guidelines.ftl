@@ -4,6 +4,8 @@ guidelines-header-subtitle = Prečítajte si, ako prispievať a overovať vety a
 voice-collection = Zbierka hlasov
 sentence-collection = Zber viet
 question-collection = Zbierka otázok
+scripted-speech = Skriptovaná reč
+spontaneous-speech = Spontánna reč
 
 ## Voice Collection nav ids
 
