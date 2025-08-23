@@ -94,3 +94,38 @@ file-invalid-type = Fișier nevalid
 file-too-large = Fișierul este prea mare
 file-too-small = Fișierul este prea mic
 too-many-files = Prea multe fișiere
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Adaugă mai multe propoziții din domeniul public
+multiple-sentences-error = Nu poți adăuga mai multe propoziții când ai ales să încarci doar una singură.
+exceeds-small-batch-limit-error = Nu poți încărca mai mult de 1000 de propoziții
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limita de solicitări a fost depășită. Încearcă din nou peste 1 minut.
+        [few] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } minute.
+       *[other] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } minute.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } secundă.
+        [few] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } secunde.
+       *[other] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } secunde.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, 1 minut înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+        [few] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } minute înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+       *[other] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } minute înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, 1 secundă înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+        [few] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } secunde înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+       *[other] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } secunde înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+    }
