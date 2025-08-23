@@ -142,6 +142,7 @@ example-questions-explanation-2 = Ak chcete odoslať množinu otázok na posúde
 ## Spontaneous Speech sidebar content
 
 answer-questions-subheader = Všeobecné usmernenia
+answer-questions-explanation-1 = Na chvíľu sa zamyslite nad výzvou, zvážte, čo by ste chceli povedať, ale príliš sa nesnažte napísať. Kliknite na ikonu „nahrať“. Po nahratí si môžete vypočuť svoj hlas, znova ho nahrať, vymazať alebo odoslať.
 answer-questions-explanation-2 = Pamätajte – nebojte sa, ak sa zakoktáte, pozastavíte alebo zopakujete slovo. Toto všetko sú užitočné údaje pre inžinierov, ktorí sa snažia vytvoriť inkluzívne nástroje na rozpoznávanie reči pre reálny svet.
 answer-questions-tip-1 = Nahrávajte na primerane tichom mieste
 answer-questions-tip-2 = Vyberte si miesto s dobrým internetovým pripojením
@@ -181,3 +182,16 @@ special-tags-example-2 =
     A potom som [hluk] išiel na dovolenku.
     No, [hluk] [smiech] nebola to práve dovolenka [smiech]
 transcribe-the-audio-subheader-4-explanation-1 = Spontánna reč prirodzene obsahuje falošné začiatky, pri ktorých sa vytvorí iba fragment celého slova. V takýchto prípadoch, prosím, čo najlepšie prepíšte fragment slova a na koniec slova pridajte pomlčku (-), aby ste označili, že slovo je falošný začiatok. Príklad:
+transcribe-the-audio-subheader-4-explanation-1-example = Volá sa <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Niekedy hovoriaci zopakujú slovo alebo fragment slova viackrát. Aj toto by sa malo prepísať. Príklad:
+
+## Code-Switching
+
+code-switching-avoid-intro = Otázky, ktoré by mohli:
+code-switching-avoid-1 = Vyžadovať osobné údaje
+code-switching-avoid-2 = Podnecovať k nenávistným prejavom alebo iným zaujatým či urážlivým pocitom
+code-switching-avoid-3 = Prinútiť niekoho zdieľať citlivé, potenciálne spúšťacie reakcie
+
+## Reporting Content
+
+reporting-content-subheader = Všeobecné usmernenia
