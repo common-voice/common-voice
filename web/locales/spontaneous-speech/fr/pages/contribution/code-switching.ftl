@@ -37,6 +37,10 @@ cs-tag-dataset-name = Jeu de données [{ $datasetName }]
 
 read-full-guidelines-here = <guidanceLink>Consultez l'intégralité des consignes ici</guidanceLink>
 
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Répondez simplement à la question de la manière la plus naturelle possible. N’hésitez pas à passer d’une langue à une autre si cela vous semble naturel. Assurez-vous que votre réponse soit respectueuse et ne blesse personne.
+
 ## Review Page Guidelines
 
 cs-learn-how-to-use-check-transcript-explanation = Une transcription doit capturer chaque mot ou son de conversation non lexical prononcé par la personne, y compris les répétitions.
