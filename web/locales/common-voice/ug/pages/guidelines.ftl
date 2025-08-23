@@ -141,3 +141,10 @@ answer-questions-subheader = ئادەتتىكى يېتەكچى
 # Transcribe the Audio
 transcribe-the-audio = ئۈننى خەتكە پۈت
 transcribe-the-audio-subheader-1 = ئادەتتىكى يېتەكچى
+tags-table-header-1 = بەلگە
+tags-table-header-2 = مەنىسى
+tags-laugh = كۈلكە
+tags-disfluency = كېكەچلەش
+tags-unclear = ئېنىقسىز
+tags-noise = شاۋقۇن
+tags-laugh-explanation = كۈلكە ئاۋازى.
