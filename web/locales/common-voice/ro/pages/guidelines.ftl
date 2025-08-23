@@ -73,6 +73,10 @@ public-domain-explanation-2 = Pentru a construi un motor de recunoaștere vocal�
 public-domain-explanation-3 = Scrie propoziții folosind un limbaj modern, colocvial. Fă-o singur, cu prietenii, sau împreună cu membrii comunității tale lingvistice (de exemplu, prin organizarea unui atelier de scriere de tip „write-a-thon”).
 public-domain-explanation-4 = Ia legătura cu autori, dramaturgi sau scenariști și întreabă-i dacă doresc să doneze domeniului public o mică parte din lucrările lor.
 public-domain-explanation-5 = Caută texte ale căror drepturi de autor au expirat - cum ar fi, de exemplu, majoritatea cărților publicate înainte de 1920.
+public-domain-explanation-6 = Întreabă organizațiile guvernamentale, non-profit sau media dacă vor să doneze domeniului public vreunul din textele lor de pe web, rapoarte sau alte materiale.
+citing-sentences-explanation-1 = Este important să menționezi sursa textelor pentru ca noi să putem verifica dacă propozițiile sunt în domeniul public și nu au vreo restricție privind drepturile de autor.
+citing-sentences-subheader-websites = Site-uri web
+citing-sentences-subheader-websites-explanation = Ai putea menționa site-ul web (de exemplu „Common Voice - https://commonvoice.mozilla.org/”).
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 
 ## Review the Transcription

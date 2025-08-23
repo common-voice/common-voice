@@ -325,6 +325,11 @@ code-switching-lookalikes-explanation-example-1 = « Footing » utilisé dans 
 code-switching-lookalikes-explanation-example-2 = « No problemo » utilisé en anglais > l’identifier comme étant de l’anglais
 # When Not to Tag Words
 code-switching-not-tag-header = Quand ne faut-il pas identifier des mots
+code-switching-not-tag-explanation = Certains mots ne doivent <bold>pas être identifiés</bold> avec un nom de langue, même s’ils semblent provenir de différentes langues ou être adaptés. Voici comment traiter quelques exemples :
+code-switching-not-tag-proper-names = <bold>Noms propres.</bold> Les noms de personnes, de lieux et d’organisations ne doivent pas être étiquetés. Exemples :
+code-switching-not-tag-proper-names-example-1 = Personnes : Maria, John
+code-switching-not-tag-proper-names-example-2 = Lieux : Los Angeles, Floride
+code-switching-not-tag-proper-names-example-3 = Marques/organisations : Target, Burger King
 code-switching-not-tag-interjections-example-1 = « Eh »
 code-switching-not-tag-interjections-example-2 = « Non »
 code-switching-not-tag-interjections-example-3 = « Ouais »
