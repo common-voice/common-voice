@@ -77,6 +77,10 @@ public-domain-explanation-6 = Întreabă organizațiile guvernamentale, non-prof
 citing-sentences-explanation-1 = Este important să menționezi sursa textelor pentru ca noi să putem verifica dacă propozițiile sunt în domeniul public și nu au vreo restricție privind drepturile de autor.
 citing-sentences-subheader-websites = Site-uri web
 citing-sentences-subheader-websites-explanation = Ai putea menționa site-ul web (de exemplu „Common Voice - https://commonvoice.mozilla.org/”).
+citing-sentences-subheader-academic-reference = Sistem științific de referențiere
+citing-sentences-subheader-academic-reference-explanation = Poți indica sursa și folosind un sistem științific de referențiere, cum ar fi stilul Harvard: "Mozilla (2021) Common Voice. Disponibil la https://commonvoice.mozilla.org/ (Accesat la: 15 septembrie 2021)"
+citing-sentences-subheader-offline-sources = Surse offline
+citing-sentences-subheader-offline-sources-explanation = Pentru un text din domeniul public care nu este disponibil online, poți folosi un sistem științific de referențiere, de exemplu, stilul Harvard, astfel: „Jess (2021) Poeziile mele publicate sub licență publică”.
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 
 ## Review the Transcription
