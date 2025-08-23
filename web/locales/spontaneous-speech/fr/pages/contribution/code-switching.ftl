@@ -1,0 +1,14 @@
+## Question Page Items
+
+cs-question-page-instruction = Ajoutez jusqu’à 25 questions <icon></icon> au jeu de données en { $currentLocale } pour que d’autres personnes puissent y répondre
+cs-add-question-textarea-placeholder = Saisissez des questions avec alternance codique, une par ligne. Les gens ont davantage tendance à répondre en utilisant l’alternance codique lorsque la question y a également recours.
+cs-question-dataset-name = Jeu de données : { $datasetName }
+
+## Validate Page Items
+
+cs-no-questions-continue-skipped = Il n’y a plus de questions pour ce jeu de données. Si vous en avez passé, vous pouvez revenir dessus ou faire des transcriptions et réessayer plus tard.
+cs-add-vote-error-message = Une erreur est survenue lors du vote de la question
+
+## Transcribe Page Items
+
+cs-no-audio-continue-skipped-message = Il n’y a actuellement aucun enregistrement audio à retranscrire pour ce jeu de données. Si vous en avez ignoré un, vous pouvez revenir sur le contenu ignoré ou bien vérifier les transcriptions et réessayer plus tard.
