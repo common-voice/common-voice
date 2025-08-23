@@ -278,6 +278,8 @@ code-switching-authentic-direct-quotes = <bold>Insérez des citations ou des dia
 code-switching-authentic-direct-quotes-example = « Ma mère a dit ‘Tu crois que c’est un jeu ?’ and I was like, ‘Okay chill!’ »
 code-switching-authentic-reflect = <bold>Utilisez les émotions, l’identité et le contexte.</bold> L’alternance codique se produit généralement lorsque les personnes expriment des émotions, une situation d’urgence ou des concepts culturels. Appuyez-vous sur ces aspects lorsque vous répondez à des questions.
 code-switching-authentic-full-context = <bold>Faites des réponses complètes en incluant le contexte.</bold> Donnez un maximum de précisions, en fournissant autant d’informations que possible. Illustrez vos réponses par un témoignage ou un exemple.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ne réfléchissez pas trop et ne modifiez pas trop votre réponse
 code-switching-answer-dont-correct-language = <bold>« Corriger » votre manière de parler.</bold> Ce n’est pas un test. Que la forme soit « correcte » n’a pas d’importance ici, ce qui compte, c’est le langage naturel.
 code-switching-answer-dont-avoid-switching = <bold>Vous retenir d’avoir recours à l’alternance codique si vous le faites normalement.</bold> Vous pouvez très bien alterner au milieu d’une phrase, d’une réflexion ou juste pour un seul mot.
 code-switching-answer-dont-formal-writing = <bold>Parler comme si vous écriviez de façon formelle.</bold> Évitez les réponses trop formelles ou académiques. Privilégiez un ton conversationnel.
@@ -312,6 +314,7 @@ code-switching-tagging-error-2 = Des fautes de frappe
 code-switching-tagging-error-3 = Des mots écrits avec la mauvaise orthographe
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Utilisez la bonne orthographe pour chaque langue
+code-switching-orthography-explanation = Écrivez chaque mot en fonction de l’orthographe de la langue dont il est issu. Par exemple :
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Utilisez la prononciation pour déterminer la langue
 code-switching-pronunciation-explanation = Certains mots peuvent s’écrire de la même façon dans les deux langues, mais peuvent être prononcés différemment.  Écoutez la prononciation pour vous aider à l’identifier correctement. Par exemple : camping, jogging, smoking, brushing, shampooing.
