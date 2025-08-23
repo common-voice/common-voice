@@ -129,3 +129,33 @@ rate-limit-message-seconds =
         [few] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } secunde înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
        *[other] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } secunde înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 1 propoziție acceptată din { $uploadedSentences }
+        [few] { $uploadedSentences } propoziții acceptate din { $totalSentences }
+       *[other] { $uploadedSentences } propoziții acceptate din { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 1 propoziție acceptată din { $uploadedSentences }. Descarcă propozițiile respinse <downloadLink>aici</downloadLink>.
+        [few] { $uploadedSentences } propoziții acceptate din { $totalSentences }. Descarcă propozițiile respinse <downloadLink>aici</downloadLink>.
+       *[other] { $uploadedSentences } propoziții acceptate din { $totalSentences }. Descarcă propozițiile respinse <downloadLink>aici</downloadLink>.
+    }
+small-batch-sentences-rule-1 = Urmează instrucțiunile din ghidul nostru numit „Ce propoziții pot adăuga?”
+small-batch-sentences-rule-2 = Adaugă câte o propoziție pe rând.
+small-batch-sentences-rule-3 = Desparte mai multe propoziții într-una pe rând apăsând o dată tasta „Enter” sau „Return” atunci când se termină una și începe alta.
+small-batch-sentences-rule-4 = Adaugă până la 1.000 de propoziții.
+small-batch-sentences-rule-5 = Toate propozițiile trebuie să fie din același domeniu.
+small-batch-sentences-rule-6 = Toate propozițiile trebuie să aibă aceeași sursă.
+# menu item
+add-sentences = Adaugă propoziții
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Adaugă și verifică propoziții, scrie întrebări, transcrie înregistrări audio
+add-sentences-menu-item-tooltip = Adaugă propoziții
+review-sentences-menu-item-tooltip = Verifică propoziții
+add-questions-menu-item-tooltip = Adaugă întrebări
+review-questions-menu-item-tooltip = Verifică întrebări
