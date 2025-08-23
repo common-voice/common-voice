@@ -20,6 +20,17 @@ reader-effects = Particularități ale vocilor cititorilor
 just-unsure = Eziți?
 example = Exemplu
 
+## Voice collection sidebar content
+
+varying-pronunciations-explanation-1 = Avem nevoie de cât mai multe accente posibil! Ai grijă înainte de a respinge o secvență audio pe motiv că cititorul a pronunțat greșit un cuvânt, a pus accentul pe silaba greșită sau a ignorat un semn de punctuație. Chiar dacă nu ai mai auzit o astfel de pronunție sau un astfel de accent în comunitatea ta, nu înseamnă neapărat că sunt automat și incorecte. Gândește-te că unii pot vorbi un pic diferit față de tine.
+varying-pronunciations-explanation-2 = Pe de altă parte, când consideri că persoana care citește nu a mai întâlnit cuvântul respectiv și doar ghicește (incorect, în cazul de față) cum ar trebui pronunțat, te rugăm să respingi acea înregistrare. Dacă nu ești sigur, folosește butonul „Sari peste”.
+varying-pronunciations-example = Sigur va veni la cină.
+varying-pronunciations-tip-1 = [Unii vorbitori de română pun accentul pe prima silabă, „si”, în „sigur”.]
+varying-pronunciations-tip-2 = [Alți vorbitori pun accentul pe a doua silabă, „gur”, în „sigur”.]
+misreadings-explanation-5 = Citirea împreună a cuvintelor atunci când nu sunt scrise cu cratimă, cum ar fi „mare-a fost mirarea lor” în loc de „mare a fost mirarea lor”, sau invers.
+misreadings-explanation-6 = Omiterea sfârșitului ultimului cuvânt prin întreruperea prematură a înregistrării.
+misreadings-explanation-7 = Citirea repetată a aceluiași cuvânt (pentru a corecta pronunția).
+
 ## Sentence collection nav ids
 
 reviewing-sentences = Verificarea propozițiilor
