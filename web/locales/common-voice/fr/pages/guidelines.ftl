@@ -228,6 +228,7 @@ code-switching-ask-bilingual-contexts-header = Posez des questions sur les conte
 code-switching-ask-bilingual-contexts-explanation = Utilisez des situations où les deux langues sont couramment utilisées (par exemple, à la maison, à l’école, lors d’événements communautaires). Par exemple :
 code-switching-ask-bilingual-contexts-explanation-example = « Quand tu parles à tes cousins, est-ce que tu mélanges le français et l’anglais ? »
 code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
+code-switching-focus-emotional-explanation-example = « Dis moi ce que tes parents ont dit quand tu leur as annoncé la grande nouvelle ; exactement ce qu’ils ont dit. »
 code-switching-direct-quotes-header = Demandez des citations directes ou à reproduire une situation
 code-switching-direct-quotes-explanation = Incitez les participant·e·s à restituer fidèlement ce qui a été dit. Par exemple :
 code-switching-direct-quotes-explanation-example = « Quels étaient vos mots exacts quand vous l’avez découvert ? »
@@ -239,11 +240,18 @@ code-switching-informal-scenarios-explanation = Lors de conversations avec des a
 code-switching-informal-scenarios-explanation-example = « Quelle est la blague que vos amis racontent à chaque fois, et comment la disent-ils ? »
 # What to Avoid
 code-switching-avoid-subheader = Ce qu’il faut éviter
+code-switching-avoid-intro = Des questions qui pourraient :
+code-switching-avoid-1 = Demander des données personnelles
+code-switching-avoid-2 = Encourager des propos injurieux, offensants ou faisant appel à des préjugés
+code-switching-avoid-3 = Amener quelqu’un à partager des informations sensibles, susceptibles de déclencher une réaction émotionnelle
+code-switching-dont-header = À éviter
+code-switching-dont-1 = N’employez pas un langage trop soutenu
 # Reviewing a Question
 code-switching-review-subheader = Vérifier une question
 code-switching-review-intro = Assurez-vous que la question répond à ces critères :
 code-switching-review-criterion-1 = Être facile à comprendre et à répondre
 code-switching-review-criterion-2 = Être globalement pertinente
+code-switching-review-criterion-3 = Ne pas faire usage, ni encourager des propos injurieux ou offensants
 code-switching-review-does-not-header = Et qu’elle <bold>NE CONTIENT PAS</bold> de :
 code-switching-review-offensive-content = <bold>Contenu choquant ou informations sensibles</bold>
 code-switching-answer-header = Contenu choquant ou informations sensibles
