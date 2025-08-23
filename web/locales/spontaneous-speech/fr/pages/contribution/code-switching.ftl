@@ -12,3 +12,16 @@ cs-add-vote-error-message = Une erreur est survenue lors du vote de la question
 ## Transcribe Page Items
 
 cs-no-audio-continue-skipped-message = Il n’y a actuellement aucun enregistrement audio à retranscrire pour ce jeu de données. Si vous en avez ignoré un, vous pouvez revenir sur le contenu ignoré ou bien vérifier les transcriptions et réessayer plus tard.
+
+## Review Page Items
+
+cs-no-transcriptions-continue-skipped = Il n’y a aucune transcription à vérifier pour ce jeu de données. Si vous en avez passé, vous pouvez revenir dessus ou faire des transcriptions et réessayer plus tard.
+
+## Tag Page Items
+
+cs-no-transcriptions-to-tag-continue-skipped = Il n’y a aucune transcription à identifier pour ce jeu de données. Si vous en avez passé, vous pouvez revenir dessus ou faire des transcriptions et réessayer plus tard.
+cs-tag-dataset-name = Jeu de données [{ $datasetName }]
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Une transcription doit capturer chaque mot ou son de conversation non lexical prononcé par la personne, y compris les répétitions.
