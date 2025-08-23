@@ -81,6 +81,15 @@ citing-sentences-subheader-academic-reference = Sistem științific de referenț
 citing-sentences-subheader-academic-reference-explanation = Poți indica sursa și folosind un sistem științific de referențiere, cum ar fi stilul Harvard: "Mozilla (2021) Common Voice. Disponibil la https://commonvoice.mozilla.org/ (Accesat la: 15 septembrie 2021)"
 citing-sentences-subheader-offline-sources = Surse offline
 citing-sentences-subheader-offline-sources-explanation = Pentru un text din domeniul public care nu este disponibil online, poți folosi un sistem științific de referențiere, de exemplu, stilul Harvard, astfel: „Jess (2021) Poeziile mele publicate sub licență publică”.
+citation =
+    .label = Citare
+self-citation = Autocitare
+self-citation-explanation = Iată cum te poți cita singur atunci când tu ești autorul textelor.
+adding-sentences-subheader-length = Lungime
+adding-sentences-subheader-length-explanation = Ideal, propoziția nu trebuie să depășească 15 cuvinte.
+adding-sentences-subheader-spelling-punctuation = Ortografie și punctuație
+adding-sentences-subheader-spelling-punctuation-explanation = Propoziția trebuie să fie scrisă corect.
+adding-sentences-subheader-speakable = Ușurința de citire
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 
 ## Review the Transcription
