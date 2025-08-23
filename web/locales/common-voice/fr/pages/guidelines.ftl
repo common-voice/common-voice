@@ -198,6 +198,8 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
 transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre
+transcribe-the-audio-subheader-5-explanation-1 = La parole spontanée peut bien entendu comporter des fautes grammaticales. Celles-ci ne doivent pas être corrigées lors de la transcription. La transcription doit refléter fidèlement ce qui a été prononcé.
+transcribe-the-audio-subheader-5-explanation-2 = Les locuteurs et locutrices peuvent utiliser des expressions familières (comme, en anglais, « gonna », « cuz », etc.) qui peuvent être considérées comme incorrectes. Elles doivent être transcrites telles quelles et non remplacées par leur équivalent plus formel.
 
 ## Review the Transcription
 
@@ -215,12 +217,16 @@ code-switching-adding-question-subheader = Quels sont les critères d’une bonn
 code-switching-adding-question-explanation = Une question pertinente pour les jeux de données à participation publique doit :
 code-switching-adding-question-criteria-1 = Être facile à comprendre et à répondre
 code-switching-adding-question-criteria-2 = Être globalement pertinente
+code-switching-adding-question-criteria-3 = Ne pas faire usage, ni encourager des propos injurieux ou offensants
+code-switching-adding-question-note = Vous pourriez aussi songer à inclure divers contextes et domaines.
 # What types of questions to add
 code-switching-types-subheader = Quels types de questions ajouter ?
 code-switching-use-bilingual-prompts-header = Posez des questions bilingues
 code-switching-use-bilingual-prompts-explanation = Posez des questions bilingues qui intègrent les deux langues : Par exemple :
 code-switching-use-bilingual-prompts-explanation-example = « Que t’a dit ta mère when you got home that day ? »
 code-switching-ask-bilingual-contexts-header = Posez des questions sur les contextes bilingues
+code-switching-ask-bilingual-contexts-explanation = Utilisez des situations où les deux langues sont couramment utilisées (par exemple, à la maison, à l’école, lors d’événements communautaires). Par exemple :
+code-switching-ask-bilingual-contexts-explanation-example = « Quand tu parles à tes cousins, est-ce que tu mélanges le français et l’anglais ? »
 code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
 code-switching-direct-quotes-header = Demandez des citations directes ou à reproduire une situation
 code-switching-direct-quotes-explanation = Incitez les participant·e·s à restituer fidèlement ce qui a été dit. Par exemple :
