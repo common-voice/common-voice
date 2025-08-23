@@ -35,6 +35,7 @@ cs-tag-dataset-name = Jeu de données [{ $datasetName }]
 
 ## Guidelines
 
+learn-how-to-use = Découvrez comment utiliser cette page
 read-full-guidelines-here = <guidanceLink>Consultez l'intégralité des consignes ici</guidanceLink>
 
 ## Answer Page Guidelines

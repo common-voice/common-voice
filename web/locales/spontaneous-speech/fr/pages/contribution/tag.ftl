@@ -1,5 +1,7 @@
 ## Tagging Page
 
+tag-page-instruction = Sélectionnez <icon></icon> le texte pour commencer
+tag-terms-checkbox = J’accepte les conditions d’utilisation et la politique de confidentialité de Common Voice.
 tag-popover-title = Sélectionnez une étiquette
 select-a-tag = Sélectionnez une étiquette
 edit-tag = Modifier l’étiquette
