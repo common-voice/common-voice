@@ -45,3 +45,5 @@ sc-criteria-item-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt &qu
 sc-criteria-item-5-2 = Ma tafyirt ur teddi ara d yisefranen n ufella, sit ɣef tqeffalt &quot;Agi&quot; i yellan deg tama tazelmaḍt. Mayella ur tettḥeqqeḍ ara ɣef tefyirt, tzemreḍ daɣen ad as-tɛeddiḍ akken ad tedduḍ ɣer tin i d-itteddun.
 sc-criteria-item-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 report-sc-different-language = Tutlayt niḍen
+# menu item
+review-sentences = Senqed tifyar

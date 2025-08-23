@@ -3,6 +3,7 @@ guidelines-header = Iwellihen n uttekki
 voice-collection = Alqaḍ n tuɣac
 sentence-collection = Alqaḍ n tefyar
 question-collection = Alqaḍ n yisteqsiyen
+dont-subheader = Ur teg ara:
 
 ## Voice Collection nav ids
 
@@ -28,6 +29,7 @@ misreadings-tip-3 = [Tafyirt-a ur tesɛi ara lmeɛna]
 background-noise-example-1 = Adinuẓur ameqqran n Trias.
 background-noise-tip-2 = [Aḥric seg uḍris ur yettwafham ara]
 still-have-questions = Ɣur-k yakan isteqsiyen?
+contact-common-voice = Nermes tarbaɛt n Common Voice
 
 ## Sentence collection nav ids
 

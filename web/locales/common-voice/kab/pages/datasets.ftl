@@ -83,3 +83,6 @@ release-version = Lqem
 dataset-date = Azemz
 license = Turagt: <licenseLink>{ $license }</licenseLink>
 license-mixed = Uxliḍ
+# Support old genders in older datasets
+male = Awtem
+female = Tawtemt
