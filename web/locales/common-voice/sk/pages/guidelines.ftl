@@ -138,3 +138,46 @@ offensive-content-sensitive-information-explanation-explanation-3 = Otázky, kto
 example-questions-subheader = Príklady otázok
 example-questions-explanation-1 = <examplePromptsLink>120 vzorových výziev nájdete v tomto hárku.</examplePromptsLink>
 example-questions-explanation-2 = Ak chcete odoslať množinu otázok na posúdenie, <githubLink>môžete tak urobiť prostredníctvom nášho GitHubu</githubLink> alebo poslať svoj zoznam e‑mailom na adresu <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+answer-questions-subheader = Všeobecné usmernenia
+answer-questions-explanation-2 = Pamätajte – nebojte sa, ak sa zakoktáte, pozastavíte alebo zopakujete slovo. Toto všetko sú užitočné údaje pre inžinierov, ktorí sa snažia vytvoriť inkluzívne nástroje na rozpoznávanie reči pre reálny svet.
+answer-questions-tip-1 = Nahrávajte na primerane tichom mieste
+answer-questions-tip-2 = Vyberte si miesto s dobrým internetovým pripojením
+answer-questions-tip-3b = Snažte sa odpovedať v trvaní 15 – 30 sekúnd
+answer-questions-tip-4 = Vyhýbajte sa nenávistným, zápalným alebo inak urážlivým prejavom
+answer-questions-tip-5 = Hovorte prirodzene, ako by ste hovorili s priateľom – používajte svoj vlastný skutočný variant, dialekt a prízvuk
+answer-questions-tip-6 = Udržujte si konzistentnú hlasitosť – nekričte ani nespievajte
+# Transcribe the Audio
+transcribe-the-audio = Prepis zvuku
+transcribe-the-audio-subheader-1 = Všeobecné usmernenia
+transcribe-the-audio-subheader-2 = Čísla a skratky
+transcribe-the-audio-subheader-3 = Špeciálne značky
+transcribe-the-audio-subheader-4 = Segmenty slov, falošné začiatky, opakované slová
+transcribe-the-audio-subheader-5 = Gramatické chyby a hovorové výrazy
+transcribe-the-audio-subheader-1-explanation = Vo všeobecnosti by ste si mali zapísať všetko, čo počujete. Patria sem:
+transcribe-the-audio-subheader-1-explanation-example-1 = Zapisovanie neplynulosti, vrátane váhania a opakovania
+transcribe-the-audio-subheader-1-explanation-example-2 = Označovanie hlukových udalostí, ako je kašeľ alebo smiech
+transcribe-the-audio-subheader-1-explanation-example-3 = Označovanie významného hlukového znečistenia, ako je napríklad hluk v pozadí alebo klaksóny áut
+transcribe-the-audio-subheader-1-explanation-example-4 = Gramatické variácie a slang by sa mali zaznamenávať presne tak, ako sa vyskytujú. Neopravujte ani neupravujte reč ľudí.
+transcribe-the-audio-subheader-2-explanation-1 = Čísla a symboly by sa mali písať slovami, a nie číslicami alebo špeciálnymi znakmi. Príklad:
+transcribe-the-audio-subheader-2-explanation-2 = Skratky by sa mali písať tak, ako sa bežne píšu v danom jazyku, podľa štandardných pravidiel používania veľkých písmen. Nemali by sa prepisovať foneticky. Príklad:
+transcribe-the-audio-subheader-3-explanation = Na označenie neplynulosti, výplní a iných typov neverbálneho obsahu (v angličtine) by sa mali používať nasledujúce špeciálne značky.
+tags-table-header-1 = Značka
+tags-table-header-2 = Význam
+tags-laugh = Smiech
+tags-disfluency = Neplynulosť
+tags-unclear = Nejasné
+tags-noise = Hluk
+tags-laugh-explanation = Zvuk smiechu.
+tags-disfluency-explanation =
+    Výplňové slovo alebo zvuk používaný ako zástupný symbol, kým sa hovoriaci rozhoduje, čo povedať.
+    V angličtine sú niektoré bežné váhavé zvuky „err“, „um“, „huh“ atď.
+tags-unclear-explanation = Slovo alebo postupnosť slov, ktorým nie je možné porozumieť.
+tags-noise-explanation = Akýkoľvek iný typ hluku, ako napríklad kašeľ alebo odkašľanie hovoriaceho, trúbenie auta, zvuk niečoho narážajúceho do mikrofónu, zvonenie telefónu atď.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    A potom som [hluk] išiel na dovolenku.
+    No, [hluk] [smiech] nebola to práve dovolenka [smiech]
+transcribe-the-audio-subheader-4-explanation-1 = Spontánna reč prirodzene obsahuje falošné začiatky, pri ktorých sa vytvorí iba fragment celého slova. V takýchto prípadoch, prosím, čo najlepšie prepíšte fragment slova a na koniec slova pridajte pomlčku (-), aby ste označili, že slovo je falošný začiatok. Príklad:
