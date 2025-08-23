@@ -202,7 +202,7 @@ transcribe-the-audio-subheader-4-explanation-1 = Le discurso spontanee naturalme
 transcribe-the-audio-subheader-4-explanation-1-example = Su nomine es <underline>Jo- Jona-</underline> Jonatha.
 transcribe-the-audio-subheader-4-explanation-2 = Aliquando le parlantes repetera un parola o un fragmento de parola plure vices. Isto deberea esser transcribite anque. Exemplo:
 transcribe-the-audio-subheader-4-explanation-2-example = E pois io veniva a <underline>le le le cam- le</underline> camera a dormir
-transcribe-the-audio-subheader-5-explanation-1 = Le discurso spontanee naturalmente continera errores grammatical. Istos non deberea esser corrigite dum on los transcribera. Le transcription debe reflecter le contento parlate exactemente.
+transcribe-the-audio-subheader-5-explanation-1 = Le discurso spontanee naturalmente continera errores grammatical. Istes non deberea esser corrigite durante le transcription. Le transcription debe reflecter exactemente le contento parlate.
 transcribe-the-audio-subheader-5-explanation-2 = Parlantes pote usar colloquialismos (tal como, in anglese, “gonna”, “cuz”, etc.) que pote non esser considerate formalmente correcte. Istos deberea esser transcribite como illos es, e non cambiate a lor equivalentes plus formal.
 
 ## Review the Transcription
