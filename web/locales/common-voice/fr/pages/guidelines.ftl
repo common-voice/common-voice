@@ -196,6 +196,7 @@ tags-noise-explanation = Tout autre type de bruit, par exemple si l’on entend 
 special-tags-example-2 =
     Et puis je [noise] suis parti en vacances.
     Eh bien, [noise] [laugh] ce n’était pas vraiment un jour férié [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = La parole spontanée contient bien sûr des faux départs, lorsque seule une partie d’un mot complet est prononcée. Dans ces cas-là, veuillez retranscrire du mieux que vous pouvez la partie prononcée et ajoutez un trait d’union à la fin du mot (-) pour indiquer que le mot est un faux départ. Par exemple :
 transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
 transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre
@@ -310,6 +311,10 @@ code-switching-orthography-header = Utilisez la bonne orthographe pour chaque la
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Utilisez la prononciation pour déterminer la langue
 code-switching-pronunciation-explanation = Certains mots peuvent s’écrire de la même façon dans les deux langues, mais peuvent être prononcés différemment.  Écoutez la prononciation pour vous aider à l’identifier correctement. Par exemple : camping, jogging, smoking, brushing, shampooing.
+code-switching-pronunciation-explanation-example-1 = Anglais : /'keɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Espagnol : /'kable/
+# Tagging in a Single Token
+code-switching-single-token-header = Identification au sein d’un jeton unique
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Méfiez-vous des faux amis
 code-switching-lookalikes-explanation = Certains mots peuvent ressembler à une langue mais sont utilisés dans l’autre langue. Identifiez-les en fonction du sens et de leur utilisation, pas uniquement en fonction de leur orthographe. Exemples :
