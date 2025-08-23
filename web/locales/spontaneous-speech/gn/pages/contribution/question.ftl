@@ -21,3 +21,5 @@ do-not-section-title = Nahániri
 do-not-section-guideline-1 = Ejerure marandu jehegua kuaaukarã (ikatúva téra térã marandu viru reheguáva)
 do-not-section-guideline-2 = Ere térã ejerure temiandu ivai térã iñañáva.
 do-not-section-guideline-3 = Eporandu eñandúva
+# Code switching Guidelines
+cs-do-section-guideline-1 = Eiporu porandu térã mokõi ñe’ẽguápe

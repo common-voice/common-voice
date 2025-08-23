@@ -281,3 +281,9 @@ code-switching-answer-dont-force-switch = <bold>Vous forcer à avoir recours à 
 code-switching-answer-dont-translate-repeat = <bold>Tout traduire ou tout répéter.</bold> Dites-le une fois, comme vous le feriez au cours d’une conversation. Vous n’êtes pas obligé·e de répondre dans chaque langue.
 code-switching-transcribe-intro = Lorsque vous transcrivez des réponses qui ont recours à l’alternance codique, restituez fidèlement les propos du locuteur ou de la locutrice tels qu’ils ont été prononcés, sans les corriger, les modifier ou les simplifier. Cela s’applique à l’alternance codique au sens large, aux propos informels et aux mots mêlant plusieurs langues.
 code-switching-transcribe-do-1 = Écoutez plusieurs fois les segments courts pour détecter les cas subtils d’alternance codique
+code-switching-transcribe-do-2 = Faites une pause après chaque phrase pour vous assurer qu’il n’y a pas eu d’alternance codique ni de mots mélangeant plusieurs langues
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Retranscrivez fidèlement ce qui a été prononcé
+code-switching-capture-explanation = Transcrivez les deux langues telles qu’elles sont prononcées. Ne « corrigez » rien et ne remplacez pas une langue par une autre.
+# Include filler words and markers
+code-switching-filler-header = Incluez les mots de remplissage et les marqueurs
