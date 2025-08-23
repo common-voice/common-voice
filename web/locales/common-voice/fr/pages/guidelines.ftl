@@ -287,3 +287,9 @@ code-switching-capture-header = Retranscrivez fidèlement ce qui a été prononc
 code-switching-capture-explanation = Transcrivez les deux langues telles qu’elles sont prononcées. Ne « corrigez » rien et ne remplacez pas une langue par une autre.
 # Include filler words and markers
 code-switching-filler-header = Incluez les mots de remplissage et les marqueurs
+code-switching-filler-explanation = Des mots tels que « euh », « genre », « donc »,  « tu vois » ou « alors » ont un sens. Par exemple : « Alors, euh, je lui ai dit genre, ‘bah je ne sais pas, peut-être plus tard.’ »
+# Use standard spelling for each language
+code-switching-spelling-header = Employez l’orthographe standard propre à chaque langue
+code-switching-spelling-explanation = Essayez d’écrire les mots correctement dans chaque langue, sauf si le locuteur ou la locutrice les prononce clairement d’une manière inhabituelle.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = N’épurez ni ne simplifiez aucun propos

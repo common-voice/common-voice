@@ -31,9 +31,11 @@ offensive-content-explanation = Propozițiile sunt aprobate de comunitate, dar p
 misreadings-explanation-1 = Citirea corectă a tuturor cuvintelor de pe pagină este foarte importantă. Când asculți, verifică foarte atent dacă înregistrarea reprezintă exact textul scris. Dacă înregistrarea include cuvinte adăugate, contractate sau omise, respinge-o!
 misreadings-explanation-2 = Printre greșelile foarte frecvente se numără și:
 misreadings-explanation-3 = Lipsa cuvintelor foarte scurte precum „A”, „Un”, sau „O” la începutul înregistrării.
-misreadings-explanation-5 = Citirea împreună a cuvintelor atunci când nu sunt scrise cu cratimă, cum ar fi „mare-a fost mirarea lor” în loc de „mare a fost mirarea lor”, sau invers.
+misreadings-explanation-4 = Lipsa sufixelor scurte sau a ultimei litere la finalul cuvintelor: „copilulu” în loc de „copilului”.
+misreadings-explanation-5 = Citirea împreună a cuvintelor chiar și atunci când nu sunt scrise cu cratimă, cum ar fi „mare-a fost mirarea lor” în loc de „mare a fost mirarea lor”, sau invers.
 misreadings-explanation-6 = Omiterea sfârșitului ultimului cuvânt prin întreruperea prematură a înregistrării.
 misreadings-explanation-7 = Citirea repetată a aceluiași cuvânt (pentru a corecta pronunția).
+misreadings-example-1 = Lucrarea pe care a terminat-o nu a impresionat.
 
 ## Sentence collection nav ids
 
