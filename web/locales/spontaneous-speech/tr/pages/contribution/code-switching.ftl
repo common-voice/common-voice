@@ -4,12 +4,17 @@ cs-error-fetching-datasets = Mevcut veri kümelerinin listesi yüklenirken bir �
 cs-error-fetching-questions = Sorular yüklenirken bir şey ters gitti. Lütfen daha sonra yeniden deneyin.
 cs-error-fetching-transcriptions = Metinler sunucudan alınırken bir şey yanlış gitti. Lütfen daha sonra yeniden deneyin.
 
+## Modals
+
+cs-locale-change-modal-subtitle = Bu sayfada kaydedilmemiş değişiklikleriniz var. Veri kümesini değiştirirseniz değişiklikleriniz kaydedilmeyecektir. Geçiş yapmak istediğinizden emin misiniz?
+
 ## Question Page Items
 
 cs-question-dataset-name = Veri kümesi: { $datasetName }
 
 ## Validate Page Items
 
+cs-validate-page-instruction = Bu sorunun yönergelere uygun olduğunu <validateIcon></validateIcon> doğrulayın.
 cs-no-questions-continue-skipped = Bu veri kümesi için başka soru kalmadı. Herhangi bir soruyu atladıysanız atlanan içerikten devam edebilir ya da ses kayıtlarını metne dönüştürmeye gidebilir ve daha sonra yeniden deneyebilirsiniz.
 cs-add-vote-error-message = Soru oylanırken bir hata oluştu
 
