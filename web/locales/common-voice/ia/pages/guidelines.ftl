@@ -331,8 +331,8 @@ code-switching-single-token-explanation = Un sol token separate per spatio debe 
 code-switching-punctuation-tagging-header = Etiquettar punctuation in base al lingua vicin
 code-switching-punctuation-tagging-explanation = Etiquetta punctuation per le lingua plus proxime a sinistra. Exemplos:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
-code-switching-punctuation-tagging-explanation-example-1 = <purpura>e le sol tempore que</purpura> Maria <purpura>critava a me era</purpura> <blau>porque</blau> <purpura>illa ha tentate a a</purpura> printear <blau>un</blau> <purpura>ordine.</purpura> (BangorTalk)
-code-switching-punctuation-tagging-explanation-example-2 = <purpura>ma</purpura> <blau>tú los puedes comprar rojo, negro, azul</blau>, <purpura>qualcunque.</purpura> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-1 = <purple>e le sol tempore que<</purple> Maria <purple>critava a me era<purple> <blue>porque</blue> <purple>illa ha tentate a </purple> printear <blue>>un</blue> <purple>ordine.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>ma</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple><blue>qualcunque.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Attention al sosias
 code-switching-lookalikes-explanation = Alcun parolas pote apparer como un lingua ma es usate pro le altere. Etiquettar in base a significato e uso, non apparentia. Exemplos:
