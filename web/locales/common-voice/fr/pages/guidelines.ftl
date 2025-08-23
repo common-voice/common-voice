@@ -293,3 +293,10 @@ code-switching-spelling-header = Employez l’orthographe standard propre à cha
 code-switching-spelling-explanation = Essayez d’écrire les mots correctement dans chaque langue, sauf si le locuteur ou la locutrice les prononce clairement d’une manière inhabituelle.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = N’épurez ni ne simplifiez aucun propos
+code-switching-cleanup-1 = Traduire ou paraphraser ; écrivez ce que la personne a dit, pas ce qu’elle « voulait dire ».
+code-switching-cleanup-2 = « Corriger » la grammaire ou la prononciation ; conservez la manière naturelle avec laquelle le locuteur ou la locutrice s’exprime.
+code-switching-cleanup-3 = Ignorer l’alternance codique qui semble peu importante ; même les emprunts ont de l’importance.
+code-switching-cleanup-4 = Insérer un signe de ponctuation qui pourrait changer le sens ; gardez un débit naturel.
+code-switching-cleanup-5 = Penser connaître la langue de chaque mot ; identifiez les mots en fonction de leur utilisation.
+# Tagging
+code-switching-tagging-subheader = Identification

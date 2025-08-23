@@ -36,6 +36,16 @@ misreadings-explanation-5 = Citirea împreună a cuvintelor chiar și atunci câ
 misreadings-explanation-6 = Omiterea sfârșitului ultimului cuvânt prin întreruperea prematură a înregistrării.
 misreadings-explanation-7 = Citirea repetată a aceluiași cuvânt (pentru a corecta pronunția).
 misreadings-example-1 = Lucrarea pe care a terminat-o nu a impresionat.
+misreadings-example-2 = Lucrarea pe care-a terminat-o nu a impresionat.
+misreadings-example-3 = Lucrarea pe care a terminat-o nu m-a impresionat.
+misreadings-example-4 = Bondarul a zburat pe lângă ei cu viteză.
+misreadings-tip-1 = [Ar trebui să fie „pe care a”, nu „pe care-a”]
+misreadings-tip-2 = [Nu există „m-” în textul original]
+misreadings-tip-3 = [Textul citit nu corespunde textului scris]
+background-noise-explanation = Trebuie să poți auzi fiecare cuvânt din înregistrare. Ne dorim ca algoritmii de învățare automată să poată funcționa chiar și atunci când există o varietate de zgomote de fundal. De fapt, chiar și zgomotele relativ puternice pot fi acceptate, cu condiția să nu împiedice auzirea întregului text. Dacă nu poți auzi bine din cauza sunetului de proastă calitate, cu întreruperi și diverse zgomote, atunci trebuie să respingi înregistrarea.
+background-noise-example-1 = Copiii au luat legătura cu autoritățile.
+background-noise-example-2 = [strănut] Copiii au luat legătura cu [tuse] autoritățile.
+background-noise-example-3 = Copii au lu [tuse] cu autoritățile.
 
 ## Sentence collection nav ids
 
