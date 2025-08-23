@@ -4,7 +4,7 @@
 
 ## Languages
 
-aa = afarčina
+aa = Afarčina
 aat = arvanitika
 ab = abcházština
 abb = bankon
