@@ -158,6 +158,7 @@ transcribe-the-audio = Transcriptions audio
 transcribe-the-audio-subheader-1 = Instructions générales
 transcribe-the-audio-subheader-2 = Nombres et acronymes
 transcribe-the-audio-subheader-3 = Balises spéciales
+transcribe-the-audio-subheader-4 = Segments de mots, faux départs, mots répétés
 transcribe-the-audio-subheader-5 = Erreurs grammaticales et expressions familières
 transcribe-the-audio-subheader-1-explanation = En règle générale, notez tout ce que vous entendez. Cela implique :
 transcribe-the-audio-subheader-1-explanation-example-1 = De noter les disfluences, y compris les hésitations et les répétitions
