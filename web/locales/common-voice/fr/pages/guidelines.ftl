@@ -300,3 +300,11 @@ code-switching-cleanup-4 = Insérer un signe de ponctuation qui pourrait changer
 code-switching-cleanup-5 = Penser connaître la langue de chaque mot ; identifiez les mots en fonction de leur utilisation.
 # Tagging
 code-switching-tagging-subheader = Identification
+code-switching-tagging-error-intro = En cas d’erreur dans la transcription, merci d’utiliser la fonction de signalement pour l’indiquer. Les erreurs possibles peuvent inclure :
+code-switching-tagging-error-1 = Des erreurs de ponctuation ou une utilisation incorrecte des majuscules
+code-switching-tagging-error-2 = Des fautes de frappe
+code-switching-tagging-error-3 = Des mots écrits avec la mauvaise orthographe
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Utilisez la bonne orthographe pour chaque langue
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Utilisez la prononciation pour déterminer la langue

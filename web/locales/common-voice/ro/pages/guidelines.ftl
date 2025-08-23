@@ -46,6 +46,9 @@ background-noise-explanation = Trebuie să poți auzi fiecare cuvânt din înreg
 background-noise-example-1 = Copiii au luat legătura cu autoritățile.
 background-noise-example-2 = [strănut] Copiii au luat legătura cu [tuse] autoritățile.
 background-noise-example-3 = Copii au lu [tuse] cu autoritățile.
+background-noise-example-4 = [Fâșâit] -opiii au luat legătura cu [fâșâit] -tățile.
+background-noise-tip-1 = [întrerupere provocată de zgomote de fundal]
+background-noise-tip-2 = [O parte a textului nu se aude]
 
 ## Sentence collection nav ids
 
