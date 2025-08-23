@@ -159,3 +159,13 @@ add-sentences-menu-item-tooltip = Adaugă propoziții
 review-sentences-menu-item-tooltip = Verifică propoziții
 add-questions-menu-item-tooltip = Adaugă întrebări
 review-questions-menu-item-tooltip = Verifică întrebări
+transcribe-audio-menu-item-tooltip = Transcrie înregistrări audio
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Opțiunile meniului Scrie
+add-sentences-menu-item-aria-label = Adaugă propoziții noi pe care să le citească comunitatea
+review-sentences-menu-item-aria-label = Verifică propozițiile trimise de comunitate
+add-questions-menu-item-aria-label = Audaugă întrebări noi pe care comunitatea să le citească și la care să răspundă
+review-questions-menu-item-aria-label = Verifică și votează pentru propozițiile trimise de comunitate
+transcribe-audio-menu-item-aria-label = Transcrie înregistrări audio
