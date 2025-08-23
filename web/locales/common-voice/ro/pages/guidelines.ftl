@@ -54,13 +54,21 @@ background-voices-example-1 = Dinozaurii giganți ai Triasicului. [text citit de
 background-voices-tip-1 = Te mai aștept? [o altă persoană întreabă pe fundal]
 volume-explanation = Este de așteptat să existe variații de volum între înregistrări. Respinge secvența audio doar dacă volumul este atât de ridicat încât înregistrarea se întrerupe sau, mai frecvent, dacă este atât de scăzut încât nu poți auzi și înțelege ce se spune fără să te uiți și la textul scris.
 reader-effects-explanation = Majoritatea înregistrărilor sunt făcute de oameni care citesc cu vocea lor obișnuită. Poți accepta uneori și înregistrări mai neobișnuite care sunt strigate, șoptite, sau declamate ca într-o piesă de teatru. Acestea fiind spuse, trebuie respinse înregistrările cântate, precum și cele care utilizează o voce artificială, sintetizată de calculator.
+just-unsure-explanation = Dacă dai peste un aspect care nu a fost menționat în aceste instrucțiuni, folosește-ți intuiția de vorbitor nativ. Dacă nu te poți hotărî, apasă pe butonul „Sari peste” și treci la următoarea înregistrare.
+still-have-questions = Încă ai neclarități?
+contact-common-voice = Ia legătura cu echipa proiectului Common Voice
 
 ## Sentence collection nav ids
 
+public-domain = Domeniul public
+citing-sentences = Sursa propozițiilor
+adding-sentences = Adăugarea de propoziții
 reviewing-sentences = Verificarea propozițiilor
+sentence-domain = Domeniul propozițiilor
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = Toate propozițiile scrise trebuie să se găsească în <publicDomain>domeniul public</publicDomain> (<cc0>sub licență CC0</cc0>), pentru că setul de date Common Voice este și el publicat sub licență CC0. Încarcă doar propoziții de acest fel și indică-le mereu sursa.
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 
 ## Review the Transcription
