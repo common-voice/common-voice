@@ -1,3 +1,6 @@
+# GUIDELINES PAGE
+guidelines-header = Îndrumări pentru contribuții
+guidelines-header-subtitle = Cum poți contribui la și cum poți valida setul de date create de proiectul Common Voice
 sentence-collection = Colecție de fraze
 
 ## Voice Collection nav ids

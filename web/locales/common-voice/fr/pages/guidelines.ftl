@@ -260,9 +260,16 @@ code-switching-review-no-2 = Des questions qui pourraient susciter des propos ha
 code-switching-review-no-3 = Des questions qui peuvent amener un·e internaute à partager des informations sensibles et pouvant déclencher des réactions.
 # Answering a Question
 code-switching-answer-subheader = Répondre à une question
+code-switching-answer-intro = Lorsque vous répondez à une question, l’objectif est de répondre naturellement, comme vous le feriez dans une conversation réelle. Nous voulons capturer la manière dont les langues se mélangent réellement dans le discours de tous les jours.
+code-switching-answer-bullet-1 = Pensez à des moments ou des situations de la vie réelle : des blagues, des disputes, des traditions
+code-switching-answer-bullet-2 = Imaginez que vous envoyez un SMS à un ami ou que vous racontez une histoire à quelqu’un
 code-switching-answer-bullet-3 = Utilisez des mots que vous utiliseriez réellement, même s’il sont empruntés ou un mélange de différentes langues
 code-switching-answer-bullet-4 = Il n’y a pas de façon « idéale » de répondre
 code-switching-authentic-header = Répondez de façon naturelle et authentique
+code-switching-authentic-speak = <bold>Parlez comme vous le feriez avec vos proches.</bold> Si vous mélangez des langues dans la vraie vie, faites de même ici. Par exemple :
+code-switching-authentic-speak-example = « Well, je lui ai dit que je ne pouvais pas y aller, mais elle m’a dit : tu ferais mieux de te montrer ! »
+code-switching-use-both-languages = <bold>Employez les deux langues si c’est ainsi que vous vous exprimeriez habituellement.</bold> Même remplacer un ou deux mots peut être utile. Par exemple :
+code-switching-use-both-languages-example = « Elle s’est vraiment mise en colère because je ne l’ai pas rappelée. »
 code-switching-answer-dont-correct-language = <bold>« Corriger » votre manière de parler.</bold> Ce n’est pas un test. Que la forme soit « correcte » n’a pas d’importance ici, ce qui compte, c’est le langage naturel.
 code-switching-answer-dont-avoid-switching = <bold>Vous retenir d’avoir recours à l’alternance codique si vous le faites normalement.</bold> Vous pouvez très bien alterner au milieu d’une phrase, d’une réflexion ou juste pour un seul mot.
 code-switching-answer-dont-formal-writing = <bold>Parler comme si vous écriviez de façon formelle.</bold> Évitez les réponses trop formelles ou académiques. Privilégiez un ton conversationnel.
