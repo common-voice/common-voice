@@ -1,3 +1,13 @@
+## Errors
+
+cs-error-fetching-datasets = Une erreur s’est produite lors de la récupération de la liste des jeux de données disponibles. Veuillez réessayer plus tard.
+cs-error-fetching-questions = Une erreur s’est produite lors de la récupération des questions. Veuillez réessayer plus tard.
+cs-error-fetching-transcriptions = Une erreur s’est produite lors de la récupération des transcriptions. Veuillez réessayer plus tard.
+
+## Modals
+
+cs-locale-change-modal-subtitle = Vous avez des modifications non enregistrées sur cette page. Si vous changez de jeu de données, vos modifications ne seront pas enregistrées. Voulez-vous vraiment changer ?
+
 ## Question Page Items
 
 cs-question-page-instruction = Ajoutez jusqu’à 25 questions <icon></icon> au jeu de données en { $currentLocale } pour que d’autres personnes puissent y répondre
@@ -6,6 +16,7 @@ cs-question-dataset-name = Jeu de données : { $datasetName }
 
 ## Validate Page Items
 
+cs-validate-page-instruction = Vérifiez <validateIcon></validateIcon> que cette question respecte les consignes de validation.
 cs-no-questions-continue-skipped = Il n’y a plus de questions pour ce jeu de données. Si vous en avez passé, vous pouvez revenir dessus ou faire des transcriptions et réessayer plus tard.
 cs-add-vote-error-message = Une erreur est survenue lors du vote de la question
 
@@ -21,6 +32,10 @@ cs-no-transcriptions-continue-skipped = Il n’y a aucune transcription à véri
 
 cs-no-transcriptions-to-tag-continue-skipped = Il n’y a aucune transcription à identifier pour ce jeu de données. Si vous en avez passé, vous pouvez revenir dessus ou faire des transcriptions et réessayer plus tard.
 cs-tag-dataset-name = Jeu de données [{ $datasetName }]
+
+## Guidelines
+
+read-full-guidelines-here = <guidanceLink>Consultez l'intégralité des consignes ici</guidanceLink>
 
 ## Review Page Guidelines
 
