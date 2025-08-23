@@ -90,6 +90,10 @@ adding-sentences-subheader-length-explanation = Ideal, propoziția nu trebuie s�
 adding-sentences-subheader-spelling-punctuation = Ortografie și punctuație
 adding-sentences-subheader-spelling-punctuation-explanation = Propoziția trebuie să fie scrisă corect.
 adding-sentences-subheader-speakable = Ușurința de citire
+adding-sentences-subheader-speakable-explanation = Cele mai folositoare propoziții sunt scrise într-un limbaj natural și conversațional pentru a fi ușor de citit. Pe lângă acumularea de texte cât mai diverse fonetic și lexical, încercăm și să facem înregistrarea propozițiilor cât mai interesantă și distractivă pentru comunitatea noastră de voluntari.
+adding-sentences-subheader-numbers = Numere
+adding-sentences-subheader-numbers-explanation = În mod ideal, textul sursă nu trebuie să conțină cifre sau numere, deoarece acestea pot fi dificil de citit. Felul în care poate fi citit un număr depinde de context și ar putea introduce ambiguități în setul de date. De exemplu, numărul „2409” poate fi citit atât ca „doi patru zero nouă”, cât și ca „două mii patru sute nouă”.
+adding-sentences-subheader-abbreviations = Abrevieri și acronime
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 
 ## Review the Transcription

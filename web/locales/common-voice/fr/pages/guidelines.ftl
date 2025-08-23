@@ -205,6 +205,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Les locuteurs et locutrices peu
 
 ## Review the Transcription
 
+review-the-transcription = Vérifier la transcription
 review-the-transcription-subheader = Instructions générales
 review-the-transcription-explanation-1 = En général, nous recommandons que la personne responsable de la vérification de la transcription ne soit pas celle qui a réalisé la transcription initiale. Il est très difficile de réviser son propre travail ! Disposer de plusieurs niveaux de révision peut renforcer l’assurance qualité et contribuer à limiter les biais et les problèmes.
 review-the-transcription-explanation-2 = Consultez les consignes relatives aux transcriptions ci-dessus pour vous assurer de l’exactitude d’une transcription. Vous pouvez apporter des modifications et les envoyer.
@@ -229,6 +230,7 @@ code-switching-use-bilingual-prompts-explanation-example = « Que t’a dit ta 
 code-switching-ask-bilingual-contexts-header = Posez des questions sur les contextes bilingues
 code-switching-ask-bilingual-contexts-explanation = Utilisez des situations où les deux langues sont couramment utilisées (par exemple, à la maison, à l’école, lors d’événements communautaires). Par exemple :
 code-switching-ask-bilingual-contexts-explanation-example = « Quand tu parles à tes cousins, est-ce que tu mélanges le français et l’anglais ? »
+code-switching-focus-emotional-header = Concentrez-vous sur les moments émotionnels ou importants
 code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
 code-switching-focus-emotional-explanation-example = « Dis moi ce que tes parents ont dit quand tu leur as annoncé la grande nouvelle ; exactement ce qu’ils ont dit. »
 code-switching-direct-quotes-header = Demandez des citations directes ou à reproduire une situation
@@ -281,6 +283,8 @@ code-switching-answer-dont-avoid-switching = <bold>Vous retenir d’avoir recour
 code-switching-answer-dont-formal-writing = <bold>Parler comme si vous écriviez de façon formelle.</bold> Évitez les réponses trop formelles ou académiques. Privilégiez un ton conversationnel.
 code-switching-answer-dont-force-switch = <bold>Vous forcer à avoir recours à l’alternance codique si cela ne semble pas naturel.</bold> N’alternez que si cela correspond à votre manière naturelle de parler dans cette situation.
 code-switching-answer-dont-translate-repeat = <bold>Tout traduire ou tout répéter.</bold> Dites-le une fois, comme vous le feriez au cours d’une conversation. Vous n’êtes pas obligé·e de répondre dans chaque langue.
+# Transcribing
+code-switching-transcribe-subheader = Transcription
 code-switching-transcribe-intro = Lorsque vous transcrivez des réponses qui ont recours à l’alternance codique, restituez fidèlement les propos du locuteur ou de la locutrice tels qu’ils ont été prononcés, sans les corriger, les modifier ou les simplifier. Cela s’applique à l’alternance codique au sens large, aux propos informels et aux mots mêlant plusieurs langues.
 code-switching-transcribe-do-1 = Écoutez plusieurs fois les segments courts pour détecter les cas subtils d’alternance codique
 code-switching-transcribe-do-2 = Faites une pause après chaque phrase pour vous assurer qu’il n’y a pas eu d’alternance codique ni de mots mélangeant plusieurs langues
@@ -340,6 +344,7 @@ code-switching-not-tag-interjections-example-4 = « Hum »
 
 ## Reporting Content
 
+reporting-content = Signaler du contenu
 reporting-content-subheader = Instructions générales
 reporting-content-explanation-1 = Vous devez signaler tout contenu choquant, néfaste ou inquiétant. Aucun contenu ne doit non plus comporter d’informations personnelles telles que des numéros de téléphone ou des adresses. Vous ne verrez plus ce contenu jusqu’à ce que l’équipe Common Voice ait pu l'examiner et mener une enquête approfondie.
 reporting-content-explanation-2 = Pour signaler du contenu, cliquez sur le bouton « Signaler » et choisissez une ou plusieurs options : Contenu choquant, Langue différente, Données personnelles, Autre. Ensuite, expliquez dans cette zone de texte pourquoi vous souhaitez signaler ce contenu. Enfin, envoyez votre signalement en cliquant sur le bouton « Signaler ».
