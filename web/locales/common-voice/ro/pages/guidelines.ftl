@@ -49,6 +49,11 @@ background-noise-example-3 = Copii au lu [tuse] cu autoritățile.
 background-noise-example-4 = [Fâșâit] -opiii au luat legătura cu [fâșâit] -tățile.
 background-noise-tip-1 = [întrerupere provocată de zgomote de fundal]
 background-noise-tip-2 = [O parte a textului nu se aude]
+background-voices-explanation = Dacă se aude puțin zgomot de fundal, nu trebuie să respingi înregistrarea. Dacă, însă, poți auzi clar o altă persoană vorbind, înregistrarea trebuie respinsă. De obicei, acest lucru se întâmplă atunci când înregistrarea a fost făcută în apropierea unui televizor deschis sau a unei conversații paralele.
+background-voices-example-1 = Dinozaurii giganți ai Triasicului. [text citit de o voce]
+background-voices-tip-1 = Te mai aștept? [o altă persoană întreabă pe fundal]
+volume-explanation = Este de așteptat să existe variații de volum între înregistrări. Respinge secvența audio doar dacă volumul este atât de ridicat încât înregistrarea se întrerupe sau, mai frecvent, dacă este atât de scăzut încât nu poți auzi și înțelege ce se spune fără să te uiți și la textul scris.
+reader-effects-explanation = Majoritatea înregistrărilor sunt făcute de oameni care citesc cu vocea lor obișnuită. Poți accepta uneori și înregistrări mai neobișnuite care sunt strigate, șoptite, sau declamate ca într-o piesă de teatru. Acestea fiind spuse, trebuie respinse înregistrările cântate, precum și cele care utilizează o voce artificială, sintetizată de calculator.
 
 ## Sentence collection nav ids
 
