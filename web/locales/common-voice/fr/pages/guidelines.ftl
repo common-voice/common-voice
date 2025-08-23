@@ -308,6 +308,7 @@ code-switching-tagging-error-3 = Des mots écrits avec la mauvaise orthographe
 code-switching-orthography-header = Utilisez la bonne orthographe pour chaque langue
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Utilisez la prononciation pour déterminer la langue
+code-switching-pronunciation-explanation = Certains mots peuvent s’écrire de la même façon dans les deux langues, mais peuvent être prononcés différemment.  Écoutez la prononciation pour vous aider à l’identifier correctement. Par exemple : camping, jogging, smoking, brushing, shampooing.
 code-switching-not-tag-interjections-example-1 = « Eh »
 code-switching-not-tag-interjections-example-2 = « Non »
 code-switching-not-tag-interjections-example-3 = « Ouais »
