@@ -308,3 +308,13 @@ code-switching-tagging-error-3 = Des mots écrits avec la mauvaise orthographe
 code-switching-orthography-header = Utilisez la bonne orthographe pour chaque langue
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Utilisez la prononciation pour déterminer la langue
+code-switching-not-tag-interjections-example-1 = « Eh »
+code-switching-not-tag-interjections-example-2 = « Non »
+code-switching-not-tag-interjections-example-3 = « Ouais »
+code-switching-not-tag-interjections-example-4 = « Hum »
+
+## Reporting Content
+
+reporting-content-subheader = Instructions générales
+reporting-content-explanation-1 = Vous devez signaler tout contenu choquant, néfaste ou inquiétant. Aucun contenu ne doit non plus comporter d’informations personnelles telles que des numéros de téléphone ou des adresses. Vous ne verrez plus ce contenu jusqu’à ce que l’équipe Common Voice ait pu l'examiner et mener une enquête approfondie.
+reporting-content-explanation-2 = Pour signaler du contenu, cliquez sur le bouton « Signaler » et choisissez une ou plusieurs options : Contenu choquant, Langue différente, Données personnelles, Autre. Ensuite, expliquez dans cette zone de texte pourquoi vous souhaitez signaler ce contenu. Enfin, envoyez votre signalement en cliquant sur le bouton « Signaler ».
