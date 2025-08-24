@@ -150,3 +150,9 @@ partner-section-title = Kunlaboru kun ni
 partner-section-subtitle-tech-companies = <bold>Teknologiaj kompanioj</bold> - investu en kreadon de malfermaj datumbazoj por prospera plurlingva artefarita inteligenteco-ekosistemo
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Civila socio kaj esploristoj</bold> - kreu, gastigu kaj dividu efikajn datumaron senpage
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropio</bold> - patronu la kreadon de datumbazoj por instigi lokan novaĵkreemon kaj disvolviĝon
+# icon is an arrow that points to the right
+get-in-touch-button = Kontaktu nin <icon></icon>
+# Partners section
+our-partners-include = Niaj partneroj inkludas ...
