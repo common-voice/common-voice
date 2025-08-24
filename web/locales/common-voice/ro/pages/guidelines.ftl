@@ -144,7 +144,13 @@ example-questions-explanation-2 = Dacă vrei să propui întrebări, o poți fac
 
 # Answer Questions
 answer-questions = Răspunde la întrebări
+answer-questions-subheader = Îndrumări generale
 answer-questions-explanation-1 = Gândește-te puțin la întrebare, la ce ai vrea să răspunzi, dar nu îți limita spontaneitatea scriindu-ți răspunsul sau repetându-l de prea multe ori. Apasă pe pictograma „Înregistrează”. După ce te-ai înregistrat, poți asculta rezultatul, te poți reînregistra, poți șterge sau poți trimite înregistrarea.
+answer-questions-explanation-2 = Nu-ți face griji dacă te bâlbâi, faci pauze sau repeți un cuvânt. Toate acestea reprezintă date utile pentru inginerii care încearcă să construiască aplicații incluzive de recunoaștere a vorbirii.
+answer-questions-tip-1 = Înregistrează într-un loc cât se poate de liniștit.
+answer-questions-tip-2 = Alege un loc unde ai o conexiune bună la Internet.
+answer-questions-tip-3b = Încearcă să răspunzi în maxim 15-30 de secunde.
+answer-questions-tip-4 = Nu folosi un limbaj discriminator, ofensator sau care instigă la ură.
 
 ## Review the Transcription
 
