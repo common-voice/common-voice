@@ -87,7 +87,66 @@ about-us = Pri ni
 
 ## Action items section
 
+spontaneous-card-content = Respondu al promptoj por krei datumarojn por organikaj, parollingvaj kuntekstoj. Perfekta por ĉefe buŝaj lingvoj.
 language-text-card-header = Lingva teksto
+language-text-card-content = Kreu aŭ dividu publik-havaĵajn promptojn, frazojn kaj tekston por traduko, malgrandajn lingvomodelojn kaj pli.
 coming-soon = Baldaŭ
 add-text = Aldoni tekston
 answer = Respondo
+
+## Community section
+
+community-section-title = Kreita de tutmondaj komunumoj, por tutmondaj komunumoj — 130 lingvoj kaj kreskante!
+join-discord-community = Aliĝu al la komunumo en Discord
+# label for button
+join-discord-community-action = Aliĝu al nia komunumo en Discord
+join-discord-community-content = Partoprenu en diskutoj de la lingvokomunumo, faru demandojn, kaj eksciu pri venontaj eventoj kaj prelegoj.
+find-us-on-matrix = Trovu nin ĉe Matrix
+find-us-on-matrix-content = Matrix estas malferma, malpeza protokolo por malcentralizita, realtempa komunikado, kaj la preferata malferma diskuta platformo de Mozilla.
+# label for button
+find-us-on-matrix-action = Trovu nin ĉe Matrix
+ask-mozilla-share = Petu al Mozilla disvastigi viajn eventojn
+ask-mozilla-share-content = Ĉu vi havas pasintan aŭ venontan eventon? Dividu ĝin kun ni kaj ni anoncos ĝin al nia komunumo aŭ skribos blogan artikolon pri ĝi!
+# label for button
+ask-mozilla-share-action = Dividu vian eventon
+download-contribution-certificate = Elŝutu vian kontribuan atestilon
+download-contribution-certificate-content = Elŝutu atestilon por viaj eventoj aŭ por vi mem se vi kontribuis al Common Voice — tio ne estus ebla sen vi!
+# label for button
+download-contribution-certificate-action = Akiru vian atestilon
+contribute-github = Kontribuu ĉe GitHub
+contribute-github-content = Ĉi tiu projekto ne estus ebla sen homoj kiel vi. 🎉 Estas multaj manieroj partopreni en Common Voice - vi ne devas scii kiel programi por kontribui!
+# label for button
+contribute-github-action = Kontribuu ĉe GitHub
+
+## Featured section
+
+featured-section-title = Prezentita en...
+# icon is an arrow that points downwards
+download-press-pack = Elŝutu nian gazetaran dosieron <icon></icon>
+
+## Developers section
+
+developers-section-title = Publike alireblaj datumbazoj pri malferma parolo en pli ol 130 lingvoj
+developers-section-subtitle = Datumoj por ASR, STT, TTS, kaj aliaj NLP-kuntekstoj - kreitaj per komunuma partopreno.
+# icon is an arrow that points to the right
+explore-datasets = Esploru datumarojn <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = Subtenu malfermajn, komunume gvidatajn datumbazojn
+read-sentences-link = Legu frazojn
+validate-readings-link = Validigi legadojn
+contribute-link = Kontribuu al la teksta korpuso
+answer-questions-link = Respondu al demandoj
+transcribe-answers-link = Transkribu respondojn
+review-transcriptions-link = Kontrolu transkribojn
+contribute-text-link = Kontribuu tekston
+press-and-stories-link = Gazetaro kaj artikoloj
+
+## Partner section
+
+partner-section-title = Kunlaboru kun ni
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Teknologiaj kompanioj</bold> - investu en kreadon de malfermaj datumbazoj por prospera plurlingva artefarita inteligenteco-ekosistemo
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Civila socio kaj esploristoj</bold> - kreu, gastigu kaj dividu efikajn datumaron senpage
