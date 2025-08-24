@@ -236,7 +236,7 @@ function ProfileInfo({
 
         <Localized id="profile-form-age" attrs={{ label: true }}>
           <LabeledSelect
-            value={age}
+            value={age ?? ''}
             onChange={handleChangeFor('age')}
             name="age">
             <Options>{AGES}</Options>
