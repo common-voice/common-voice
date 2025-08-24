@@ -112,6 +112,11 @@ domain-explanation = „Domeniul” se referă la despre ce se vorbește în pro
 
 adding-questions = Cum să contribui cu întrebări
 
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Ce reprezintă „o întrebare bună”?
+what-makes-a-good-question-explanation = O întrebare potrivită pentru seturile de date create de comunitate ar trebui să întrunească următoarele condiții:
+
 ## Review the Transcription
 
 review-the-transcription = Verifică transcrierea
