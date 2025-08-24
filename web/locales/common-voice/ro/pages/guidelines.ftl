@@ -166,6 +166,16 @@ transcribe-the-audio-subheader-1-explanation-example-2 = etichetarea elementelor
 transcribe-the-audio-subheader-1-explanation-example-3 = etichetarea zgomotelor importante de fundal, precum prezența altor voci sau a claxoanelor;
 transcribe-the-audio-subheader-1-explanation-example-4 = Variațiile gramaticale și argoul trebuie transcrise exact așa cum apar. Nu corecta și nu schimba felul în care se vorbește în înregistrare.
 transcribe-the-audio-subheader-2-explanation-1 = Numerele și simbolurile trebuie transcrise în cuvinte, nu folosind cifre sau caractere speciale. De exemplu:
+transcribe-the-audio-subheader-2-explanation-2 = Acronimele trebuie transcrise așa cum apar ele în mod normal în limbă, respectând regulile de scriere cu majuscule, și nu trebuie transcrise fonetic. De exemplu:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Corect</correct>: Se găsește la o sută de mile de aici.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Greșit</wrong>: Se găsește la 100 de mile de aici.
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Corect</correct>: Ne vedem în anul <underline>două mii cincisprezece</underline>.
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Greșit</wrong>: Ne vedem în anul <underline>2015</underline>.
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Corect</correct>: Era cu douăzeci la sută reducere.
 
 ## Review the Transcription
 
