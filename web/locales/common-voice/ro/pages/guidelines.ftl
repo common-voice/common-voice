@@ -137,7 +137,14 @@ offensive-content-sensitive-information-explanation-explanation-1 = întrebăril
 offensive-content-sensitive-information-explanation-explanation-2 = întrebările care ar putea incita la ură sau la exprimări părtinitoare sau jignitoare;
 offensive-content-sensitive-information-explanation-explanation-3 = întrebările care ar putea extrage informații delicate sau ar putea declanșa reacții neplăcute.
 example-questions-subheader = Exemple de întrebări:
-example-questions-explanation-1 = <examplePromptsLink>În acest document</examplePromptsLink> se găsesc 120 de exemple de întrebări adecvate (dar în august, 2025, documentul nu conține și exemple în limba română).
+example-questions-explanation-1 = <examplePromptsLink>În acest document</examplePromptsLink> se găsesc 120 de exemple de întrebări adecvate.
+example-questions-explanation-2 = Dacă vrei să propui întrebări, o poți face <githubLink>pe spațiul proiectului Common Voice de pe platforma GitHub</githubLink> sau trimițând un e-mail la <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Răspunde la întrebări
+answer-questions-explanation-1 = Gândește-te puțin la întrebare, la ce ai vrea să răspunzi, dar nu îți limita spontaneitatea scriindu-ți răspunsul sau repetându-l de prea multe ori. Apasă pe pictograma „Înregistrează”. După ce te-ai înregistrat, poți asculta rezultatul, te poți reînregistra, poți șterge sau poți trimite înregistrarea.
 
 ## Review the Transcription
 
