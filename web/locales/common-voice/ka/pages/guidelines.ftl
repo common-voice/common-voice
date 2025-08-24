@@ -273,6 +273,7 @@ code-switching-answer-bullet-3 = გამოიყენეთ სიტყვ�
 code-switching-answer-bullet-4 = არ არსებობს „სრულყოფილი“ პასუხის გაცემის გზა
 code-switching-authentic-header = უპასუხეთ ბუნებრივად და თქვენებურად
 code-switching-authentic-speak = <bold>ილაპარაკეთ ისე, როგორც მეგობრებთან ან ოჯახის წევრებთან ლაპარაკობთ.</bold> თუ რამდენიმე ენას ურევთ ხოლმე ერთმანეთში, აქაც ასე მოიქეცით. მაგალითად:
+code-switching-authentic-speak-example = „გომორძგუა, ჯიმა! მხიარულად მივესალმე და დავამატე – „ხვალ გამთენიისას კუჩხაა!“
 code-switching-use-both-languages = <bold>ორივე ენა გამოიყენეთ, თუ თქვენთვის ჩვეულია ეს.</bold> ერთი-ორი სიტყვის მონაცვლეობაც კი მეტად წაგვადგება. მაგალითად:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = ზედმეტად ნუ იფიქრებთ და ნუ შეასწორებთ
