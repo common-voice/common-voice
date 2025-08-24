@@ -175,7 +175,16 @@ transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Greșit</wrong>: Se g�
 transcribe-the-audio-subheader-2-example-2-correct = <correct> Corect</correct>: Ne vedem în anul <underline>două mii cincisprezece</underline>.
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Greșit</wrong>: Ne vedem în anul <underline>2015</underline>.
-transcribe-the-audio-subheader-2-example-3-correct = <correct>Corect</correct>: Era cu douăzeci la sută reducere.
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Corect</correct>: Era redus cu douăzeci la sută.
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Greșit</wrong>: Era redus cu 20%.
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Corect</correct>: Au fost arestați de <underline>FBI</underline> joia trecută.
+transcribe-the-audio-subheader-2-example-4-wrong = <correct>Greșit</correct>: Au fost arestați de <underline>ef bi ai</underline> joia trecută.
+transcribe-the-audio-subheader-3-explanation = Următoarele etichete speciale trebuie utilizate pentru a indica carențele de fluență în exprimare, elementele fără valoare, de umplutură, și alte tipuri de conținut non-verbal. Etichetele trebuie păstrate în limba engleză.
+tags-table-header-1 = Etichetă
+tags-table-header-2 = Înțeles
+tags-laugh = Laugh
+tags-disfluency = Disfluency
+tags-unclear = Unclear
 
 ## Review the Transcription
 
