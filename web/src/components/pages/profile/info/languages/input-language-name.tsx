@@ -1,16 +1,16 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
+import * as React from 'react'
+import { Localized, useLocalization } from '@fluent/react'
 
-import { LabeledSelect } from '../../../../ui/ui';
-import { useContributableNativeNames } from '../../../../locale-helpers';
-import { UserLanguage } from 'common';
-import { AccentsAll } from './languages';
+import { LabeledSelect } from '../../../../ui/ui'
+import { useContributableNativeNames } from '../../../../locale-helpers'
+import { UserLanguage } from 'common'
+import { AccentsAll } from './languages'
 
 interface InputLanguageNameProps {
-  locale: string;
-  accentsAll: AccentsAll;
-  userLanguages: UserLanguage[];
-  setUserLanguages: (userLanguages: UserLanguage[]) => void;
+  locale: string
+  accentsAll: AccentsAll
+  userLanguages: UserLanguage[]
+  setUserLanguages: (userLanguages: UserLanguage[]) => void
 }
 
 const InputLanguageName = ({
@@ -19,36 +19,39 @@ const InputLanguageName = ({
   userLanguages,
   setUserLanguages,
 }: InputLanguageNameProps) => {
-  const nativeNames = useContributableNativeNames();
+  const nativeNames = useContributableNativeNames()
+  const { l10n } = useLocalization()
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    event.preventDefault();
-    event.stopPropagation();
+    event.preventDefault()
+    event.stopPropagation()
 
-    const { value } = event.target;
+    const { value } = event.target
 
-    const newLanguages = userLanguages.slice();
+    const newLanguages = userLanguages.slice()
     const languageIndex = newLanguages.findIndex(language => {
-      return language.locale === locale;
-    });
+      return language.locale === locale
+    })
 
     newLanguages[languageIndex] = {
       locale: value,
       accents: accentsAll[value] ? [accentsAll[value]?.default] : [],
-    } as UserLanguage;
+    } as UserLanguage
 
     if (!value) {
-      newLanguages.splice(languageIndex, 1);
+      newLanguages.splice(languageIndex, 1)
     }
 
     const uniqueNewLanguages = newLanguages.filter(({ locale }, index) => {
-      const isCurrentLanguage = index === languageIndex;
-      const anyOtherLanguage = locale !== value;
-      return isCurrentLanguage || anyOtherLanguage;
-    });
+      const isCurrentLanguage = index === languageIndex
+      const anyOtherLanguage = locale !== value
+      return isCurrentLanguage || anyOtherLanguage
+    })
 
-    setUserLanguages(uniqueNewLanguages);
-  };
+    setUserLanguages(uniqueNewLanguages)
+  }
+
+  console.log(nativeNames)
 
   return (
     <Localized id="profile-form-language" attrs={{ label: true }}>
@@ -56,12 +59,12 @@ const InputLanguageName = ({
         <option value="" />
         {Object.entries(nativeNames).map(([locale, name]) => (
           <option key={locale} value={locale}>
-            {name}
+            {name === locale ? `${l10n.getString(locale)} (${name})` : name}
           </option>
         ))}
       </LabeledSelect>
     </Localized>
-  );
-};
+  )
+}
 
-export default InputLanguageName;
+export default InputLanguageName
