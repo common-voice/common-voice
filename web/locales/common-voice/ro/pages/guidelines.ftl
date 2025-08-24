@@ -101,8 +101,10 @@ adding-sentences-subheader-special-characters = Caractere speciale și litere di
 adding-sentences-subheader-special-characters-explanation-1 = Literele trebuie să aparțină limbii la care se lucrează. De exemplu, „ж” este o literă din alfabetul rus, dar nu este folosită în limba română, deci nu are de ce să apară vreodată în vreun text sursă scris în limba română.
 adding-sentences-subheader-special-characters-explanation-2 = Limbile pot avea propriile reguli de validare, iar atunci când sunt localizate pot apărea cerințe suplimentare. Dacă nu există un fișier de validare specific pentru acea limbă, vor fi afișate regulile din limba engleză.
 adding-sentences-subheader-offensive-content = Conținut ofensator
+adding-sentences-subheader-offensive-content-explanation = Trebuie să respingi propozițiile ofensatoare sau deranjante - de exemplu, datorită conținutului nepotrivit minorilor sau a unei alte încălcări a <communityGuidelines>Ghidului nostru de participare în comunitate</communityGuidelines>. De asemenea, ne poți scrie la <emailFragment>commonvoice@mozilla.com</emailFragment> pentru a ne avertiza personal despre problema respectivă.
 reviewing-sentences-explanation-1 = Dacă propoziția îndeplinește criteriile de mai sus, apasă pe butonul „Da”.
 reviewing-sentences-explanation-2 = Dacă propoziția nu îndeplinește criteriile de mai sus, apasă pe butonul „Nu”.
+reviewing-sentences-explanation-3 = Dacă nu ești sigur de propoziția respectivă, poți sări peste ea și trece la următoarea.
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 
 ## Review the Transcription
