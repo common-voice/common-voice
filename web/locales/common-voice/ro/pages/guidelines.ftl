@@ -161,6 +161,11 @@ transcribe-the-audio-subheader-3 = Etichete speciale
 transcribe-the-audio-subheader-4 = Părți de cuvinte, începuturi greșite, cuvinte repetate
 transcribe-the-audio-subheader-5 = Greșeli gramaticale și expresii colocviale
 transcribe-the-audio-subheader-1-explanation = În general, ar trebui să transcrii tot ce auzi. Aceasta include:
+transcribe-the-audio-subheader-1-explanation-example-1 = transcrierea secvențelor mai puțin fluente, inclusiv a ezitărilor și repetițiilor;
+transcribe-the-audio-subheader-1-explanation-example-2 = etichetarea elementelor sonore precum tusea sau râsul;
+transcribe-the-audio-subheader-1-explanation-example-3 = etichetarea zgomotelor importante de fundal, precum prezența altor voci sau a claxoanelor;
+transcribe-the-audio-subheader-1-explanation-example-4 = Variațiile gramaticale și argoul trebuie transcrise exact așa cum apar. Nu corecta și nu schimba felul în care se vorbește în înregistrare.
+transcribe-the-audio-subheader-2-explanation-1 = Numerele și simbolurile trebuie transcrise în cuvinte, nu folosind cifre sau caractere speciale. De exemplu:
 
 ## Review the Transcription
 
