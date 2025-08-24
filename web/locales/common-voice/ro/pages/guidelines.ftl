@@ -151,6 +151,16 @@ answer-questions-tip-1 = Înregistrează într-un loc cât se poate de liniștit
 answer-questions-tip-2 = Alege un loc unde ai o conexiune bună la Internet.
 answer-questions-tip-3b = Încearcă să răspunzi în maxim 15-30 de secunde.
 answer-questions-tip-4 = Nu folosi un limbaj discriminator, ofensator sau care instigă la ură.
+answer-questions-tip-5 = Vorbește natural, așa cum ai face-o cu un prieten - folosește-ți dialectul și accentul proprii.
+answer-questions-tip-6 = Păstrează un volum constant - nu striga și nu cânta.
+# Transcribe the Audio
+transcribe-the-audio = Transcrierea înregistrărilor audio
+transcribe-the-audio-subheader-1 = Îndrumări generale
+transcribe-the-audio-subheader-2 = Numere și acronime
+transcribe-the-audio-subheader-3 = Etichete speciale
+transcribe-the-audio-subheader-4 = Părți de cuvinte, începuturi greșite, cuvinte repetate
+transcribe-the-audio-subheader-5 = Greșeli gramaticale și expresii colocviale
+transcribe-the-audio-subheader-1-explanation = În general, ar trebui să transcrii tot ce auzi. Aceasta include:
 
 ## Review the Transcription
 
