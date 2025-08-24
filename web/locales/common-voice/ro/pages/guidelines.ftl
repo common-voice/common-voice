@@ -185,6 +185,15 @@ tags-table-header-2 = Înțeles
 tags-laugh = Laugh
 tags-disfluency = Disfluency
 tags-unclear = Unclear
+tags-noise = Noise
+tags-laugh-explanation = „râs” - marchează sunetul unor persoane care râd.
+tags-disfluency-explanation =
+    „lipsă de fluență” - marchează cuvintele sau sunetele de umplutură folosite de vorbitori în timp ce se hotărăsc ce vor să spună de fapt.
+    Exemplele includ: „ăăă”, „hmm”, „deci...”, „păi...”, etc.
+tags-unclear-explanation = „neclar” - marchează unul sau mai multe cuvinte care nu pot fi înțelese.
+tags-noise-explanation =
+    „zgomot” - marchează orice alt fel de zgomot, precum tusea sau dregerea vocii de către vorbitor,
+    claxonul unei mașini, sunetul unui obiect care se lovește de microfon, zgomotul emis de un telefon care vibrează, etc.
 
 ## Review the Transcription
 
