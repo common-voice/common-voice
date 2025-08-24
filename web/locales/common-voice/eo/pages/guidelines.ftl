@@ -1,3 +1,6 @@
+# GUIDELINES PAGE
+guidelines-header = Gvidlinioj por kontribuoj
+voice-collection = Voĉa kolektado
 sentence-collection = Kolekto de frazoj
 
 ## Voice Collection nav ids
