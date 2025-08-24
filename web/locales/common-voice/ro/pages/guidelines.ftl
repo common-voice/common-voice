@@ -106,6 +106,11 @@ reviewing-sentences-explanation-1 = Dacă propoziția îndeplinește criteriile 
 reviewing-sentences-explanation-2 = Dacă propoziția nu îndeplinește criteriile de mai sus, apasă pe butonul „Nu”.
 reviewing-sentences-explanation-3 = Dacă nu ești sigur de propoziția respectivă, poți sări peste ea și trece la următoarea.
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
+domain-explanation = „Domeniul” se referă la despre ce se vorbește în propoziție. Momentan poți alege dintre următoarele domenii:
+
+## Question collection ids
+
+adding-questions = Cum să contribui cu întrebări
 
 ## Review the Transcription
 
