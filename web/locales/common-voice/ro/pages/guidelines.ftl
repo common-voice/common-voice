@@ -135,6 +135,9 @@ process-steps-explanation = Nu pune întrebări la care se răspunde prin enumer
 offensive-content-sensitive-information = Conținut ofensator sau informații personale, precum:
 offensive-content-sensitive-information-explanation-explanation-1 = întrebările care solicită informații de identificare personală;
 offensive-content-sensitive-information-explanation-explanation-2 = întrebările care ar putea incita la ură sau la exprimări părtinitoare sau jignitoare;
+offensive-content-sensitive-information-explanation-explanation-3 = întrebările care ar putea extrage informații delicate sau ar putea declanșa reacții neplăcute.
+example-questions-subheader = Exemple de întrebări:
+example-questions-explanation-1 = <examplePromptsLink>În acest document</examplePromptsLink> se găsesc 120 de exemple de întrebări adecvate (dar în august, 2025, documentul nu conține și exemple în limba română).
 
 ## Review the Transcription
 
