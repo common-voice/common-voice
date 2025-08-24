@@ -244,7 +244,7 @@ code-switching-avoid-intro = Frågor som kan tänkas:
 code-switching-avoid-1 = Be om personlig identifierbar information
 code-switching-avoid-2 = Få hatretorik eller andra partiska eller kränkande känslor
 code-switching-avoid-3 = Få någon att dela känsliga, potentiellt utlösande svar
-code-switching-dont-header = Gör inte det
+code-switching-dont-header = Gör inte
 code-switching-dont-1 = Använd inte ett alltför formellt språk
 # Reviewing a Question
 code-switching-review-subheader = Granska en fråga
