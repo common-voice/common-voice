@@ -116,6 +116,17 @@ adding-questions = Cum să contribui cu întrebări
 
 what-makes-a-good-question-subheader = Ce reprezintă „o întrebare bună”?
 what-makes-a-good-question-explanation = O întrebare potrivită pentru seturile de date create de comunitate ar trebui să întrunească următoarele condiții:
+what-makes-a-good-question-explanation-criteria-1 = să fie ușor de înțeles și să fie și ușor de răspuns la ea;
+what-makes-a-good-question-explanation-criteria-2 = să fie relevantă, de actualitate;
+what-makes-a-good-question-explanation-criteria-3 = să nu folosească și să nu instige la folosirea unui limbaj violent și ofensator.
+what-makes-a-good-question-tip = Ai putea propune întrebări valabile pentru mai multe contexte și domenii diferite.
+easy-to-understand = Ușor de înțeles
+easy-to-understand-explanation = Propune întrebări simple, ușor de înțeles de către oricine, indiferent de cultura din care vine sau de contextul în care trăiește.
+spelling-and-pronunciation = Ortografie și punctuație
+spelling-and-pronunciation-explanation = Folosește corect ortografia și punctuația.
+length = Lungime
+length-explanation = Răspunsul la întrebare nu ar trebui să fie mai lung de câteva propoziții.
+dont-add-subheader = Nu adăuga:
 
 ## Review the Transcription
 
