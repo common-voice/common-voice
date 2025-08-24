@@ -131,6 +131,10 @@ culturally-specific-questions = Întrebări despre aspecte specifice anumitor cu
 culturally-specific-questions-explanation = Nu pune întrebări care sunt foarte specifice din punct de vedere cultural sau care necesită anumite cunoștințe detaliate din partea celor care răspund.
 length-avoid-explanation = Nu pune întrebări la care cu greu s-ar putea răspunde în 15 secunde (aceasta este lungimea maximă a înregistrării audio).
 process-steps = Proces / Pași
+process-steps-explanation = Nu pune întrebări la care se răspunde prin enumerarea mai multor pași dintr-un proces. Aceasta i-ar și le-ar împiedica pe cei și cele care răspund să vorbească cât mai natural și spontan posibil.
+offensive-content-sensitive-information = Conținut ofensator sau informații personale, precum:
+offensive-content-sensitive-information-explanation-explanation-1 = întrebările care solicită informații de identificare personală;
+offensive-content-sensitive-information-explanation-explanation-2 = întrebările care ar putea incita la ură sau la exprimări părtinitoare sau jignitoare;
 
 ## Review the Transcription
 
