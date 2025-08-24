@@ -126,7 +126,11 @@ spelling-and-pronunciation = Ortografie și punctuație
 spelling-and-pronunciation-explanation = Folosește corect ortografia și punctuația.
 length = Lungime
 length-explanation = Răspunsul la întrebare nu ar trebui să fie mai lung de câteva propoziții.
-dont-add-subheader = Nu adăuga:
+dont-add-subheader = Nu propune:
+culturally-specific-questions = Întrebări despre aspecte specifice anumitor culturi
+culturally-specific-questions-explanation = Nu pune întrebări care sunt foarte specifice din punct de vedere cultural sau care necesită anumite cunoștințe detaliate din partea celor care răspund.
+length-avoid-explanation = Nu pune întrebări la care cu greu s-ar putea răspunde în 15 secunde (aceasta este lungimea maximă a înregistrării audio).
+process-steps = Proces / Pași
 
 ## Review the Transcription
 
@@ -143,4 +147,5 @@ code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
 
+reporting-content = Semnalarea conținutului neadecvat
 reporting-content-subheader = Îndrumări generale
