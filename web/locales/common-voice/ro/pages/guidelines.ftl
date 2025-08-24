@@ -94,6 +94,8 @@ adding-sentences-subheader-speakable-explanation = Cele mai folositoare propozi�
 adding-sentences-subheader-numbers = Numere
 adding-sentences-subheader-numbers-explanation = În mod ideal, textul sursă nu trebuie să conțină cifre sau numere, deoarece acestea pot fi dificil de citit. Felul în care poate fi citit un număr depinde de context și ar putea introduce ambiguități în setul de date. De exemplu, numărul „2409” poate fi citit atât ca „doi patru zero nouă”, cât și ca „două mii patru sute nouă”.
 adding-sentences-subheader-abbreviations = Abrevieri și acronime
+adding-sentences-subheader-abbreviations-explanation = Abrevierile, acronimele și inițialismele precum „SUA” sau „ICE” ar trebui evitate în textul sursă, deoarece pot fi citite în alt fel decât se scriu. În plus, pot exista mai multe feluri corecte de a citi aceeași abreviere.
+adding-sentences-subheader-punctuation = Punctuaţie
 reviewing-sentences-explanation-4 = Dacă termini de verificat toate propozițiile, te rugăm să ne ajuți să adunăm mai multe!
 
 ## Review the Transcription
