@@ -28,7 +28,7 @@ const ApiCredentialDisplay = ({
 
   return (
     <div className="api-key-display-wrapper">
-      <span className="api-key-label">{getString(label)}</span>
+      <span className="api-key-label">{label}</span>
 
       <div
         className={classNames('api-key-container', {
