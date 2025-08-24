@@ -77,3 +77,6 @@ process-steps = Procezo / Paŝoj
 process-steps-explanation = Demandoj kiuj postulas, ke iu listigu plurajn paŝojn. Listigi paŝojn instigas la uzanton deklami respondon anstataŭ pli naturan respondon.
 offensive-content-sensitive-information = Ofenda enhavo aŭ delikataj informoj
 offensive-content-sensitive-information-explanation-explanation-1 = Demandoj, kiuj povus peti persone identigeblajn informojn
+offensive-content-sensitive-information-explanation-explanation-2 = Demandoj, kiuj povus instigi abomenigan paroladon aŭ aliajn antaŭjuĝajn aŭ ofendajn sentojn
+example-questions-subheader = Ekzemplaj demandoj
+example-questions-explanation-1 = Vi povas trovi <examplePromptsLink>120 ekzemplajn demandojn en ĉi tiu ligilo.</examplePromptsLink>

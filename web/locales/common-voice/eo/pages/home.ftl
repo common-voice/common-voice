@@ -84,9 +84,40 @@ press-and-stories = Gazetaro kaj artikoloj
 community-and-languages = Komunumoj kaj lingvoj
 coming-soon = Baldaŭ
 about-us = Pri ni
+scripted-speech = SKRIPTITA PAROLADO
+spontaneous-speech = SPONTANEA PAROLADO
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partnerecoj, gazetaro kaj rakontoj, komunumo kaj lingvoj
+about-us-menu-item-tooltip = Lernu pri la misio kaj teamo malantaŭ Common Voice
+partnerships-menu-item-tooltip = Esploru organizaĵojn subtenantajn Common Voice tra la mondo
+press-and-stories-menu-item-tooltip = Legu rakontojn, ĝisdatigojn kaj amaskomunikilajn artikolojn pri Common Voice
+community-and-languages-menu-item-tooltip = Konektiĝu kun nia komunumo kaj vidu subtenatajn lingvojn
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Menuo por aliri partnerecojn, gazetaron kaj artikolojn, komunumon kaj lingvojn
+about-us-menu-aria-label = Ebloj de la menuo "Pri ni"
+about-us-menu-item-aria-label = Ebloj de la menuo "Pri ni"
+partnerships-menu-item-aria-label = Lernu pri kunlaboroj kun Common Voice
+press-and-stories-menu-item-aria-label = Aliru gazetarajn komunikojn kaj rakontojn rilatajn al Common Voice
+community-and-languages-menu-item-aria-label = Esploru la komunumon kaj lingvojn subtenatajn de Common Voice
+
+## Hero section
+
+hero-title = Teknologio kiu parolas vian lingvon
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kial AI funkciu nur por kelkaj lingvoj de la mondo?</bold>
+hero-subtitle-2 = Nia lingvo estas nia rakonto, nia komunumo, nia kulturo. Ni kreu la datumbazojn, kiujn ni volas vidi en la mondo.
+# icon is an arrow that points downwards
+get-started = Eku <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice estas senpaga, malfermfonta platformo por kreado de datumoj gvidataj de komunumoj
+action-items-section-subtitle = Ĉiu povas konservi, revivigi kaj plibonigi sian lingvon per kunhavigo, kreado kaj administrado de tekstaj kaj parolaj datumaroj.
+scripted-card-header = Skriptita parolado
 spontaneous-card-content = Respondu al promptoj por krei datumarojn por organikaj, parollingvaj kuntekstoj. Perfekta por ĉefe buŝaj lingvoj.
 language-text-card-header = Lingva teksto
 language-text-card-content = Kreu aŭ dividu publik-havaĵajn promptojn, frazojn kaj tekston por traduko, malgrandajn lingvomodelojn kaj pli.

@@ -2,6 +2,7 @@
 
 download-profile-title = Profilo
 download-profile-size = Kelkaj oktetoj
+download-recordings-title = Registraĵoj
 download-size = Grando
 download-selected = Elektita
 download-request-button = Elŝuti
