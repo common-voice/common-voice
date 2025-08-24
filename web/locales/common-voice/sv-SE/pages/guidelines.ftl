@@ -163,27 +163,27 @@ transcribe-the-audio-subheader-5 = Grammatiska misstag och vardagliga uttryck
 transcribe-the-audio-subheader-1-explanation = Generellt sett bör du skriva ner allt du hör. Detta inkluderar;
 transcribe-the-audio-subheader-1-explanation-example-1 = Att skriva ner oväsen, inklusive tvekan och upprepningar
 transcribe-the-audio-subheader-1-explanation-example-2 = Märkning av ljudhändelser som hosta eller skratt
-transcribe-the-audio-subheader-1-explanation-example-3 = Märkning av betydande ljudföroreningar, som bakgrundsljud eller signaltur på en bil
-transcribe-the-audio-subheader-1-explanation-example-4 = Grammatisk variation och slang ska spelas in precis som de förekommer. Korrigera eller redigera inte personers tal.
-transcribe-the-audio-subheader-2-explanation-1 = Siffror och symboler bör stavas med ord istället för med siffror eller specialtecken. Exempel:
-transcribe-the-audio-subheader-2-explanation-2 = Akronymer ska skrivas som de normalt är skrivna på språket, enligt reglerna för versaler. De bör inte transkriberas fonetiskt. Exempel:
+transcribe-the-audio-subheader-1-explanation-example-3 = Märkning av betydande bullerföroreningar, som bakgrundsbrus eller bilhorn
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatiska variationer och slang ska registreras exakt som de förekommer. Korrigera eller redigera inte personers tal.
+transcribe-the-audio-subheader-2-explanation-1 = Siffror och symboler bör stavas med ord snarare än med siffror eller specialtecken. Exempel:
+transcribe-the-audio-subheader-2-explanation-2 = Akronymer ska skrivas som de normalt skrivs i språket, enligt standardreglerna för versaler. De ska inte transkriberas fonetiskt. Exempel:
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = <effect> Rätt</effect>: Det är 100 kilometer härifrån
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Korrekt</correct>: Det är hundra mil härifrån
 # text wrapped in wrong will be shown as red text in the UI
-transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Fel</wrong>: Det är 160 kilometer härifrån
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Fel</wrong>: Det är 100 mil härifrån
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-correct = <correct> Rätt</effect>: Vi ses om <underline>tjugofemton</underline>
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Korrekt</correct>: Vi ses <underline>tjugo femton</underline>
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Fel</wrong>: Vi ses i <underline>2015</underline>
-transcribe-the-audio-subheader-2-example-3-correct = <effect>Rätta</effect>: Det var 20 procent rabatt
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Fel</wrong>: Vi ses <underline>20:15</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Korrekt</correct>: Det var tjugo procent rabatt
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Fel</wrong>: Det var 20% rabatt
-transcribe-the-audio-subheader-2-example-4-correct = <effect>Rätta</right>: De greps av <underline>FBI</underline> i torsdags
-transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Fel</wrong>: De greps av <underline>eff bee eye</underline> i torsdags
-transcribe-the-audio-subheader-3-explanation = Följande specialtaggar bör användas för att markera disfluencies, fillers och andra typer av icke-verbalt innehåll.
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Korrekt</correct>: De arresterades av <underline>FBI</underline> förra torsdagen
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Fel</wrong>: De arresterades av <underline>eff bee eye</underline> förra torsdagen
+transcribe-the-audio-subheader-3-explanation = Följande specialtaggar bör användas för att markera oflyt, utfyllnadsord och andra typer av icke-verbalt innehåll (på engelska).
 tags-table-header-1 = Etikett
 tags-table-header-2 = Betydelse
-tags-laugh = Skratta
-tags-disfluency = Oflytande
+tags-laugh = Skratt
+tags-disfluency = Oväsen
 tags-unclear = Otydlig
 tags-noise = Buller
 tags-laugh-explanation = Ljudet av skratt.
