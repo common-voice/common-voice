@@ -2,197 +2,197 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { connect } from 'react-redux';
-import { Tooltip } from 'react-tippy';
-import { Flags } from '../../../stores/flags';
-import { Locale } from '../../../stores/locale';
-import StateTree from '../../../stores/tree';
-import { User } from '../../../stores/user';
-import { Sentence } from 'common';
+} from '@fluent/react'
+import * as React from 'react'
+import { connect } from 'react-redux'
+import { Tooltip } from 'react-tippy'
+import { Flags } from '../../../stores/flags'
+import { Locale } from '../../../stores/locale'
+import StateTree from '../../../stores/tree'
+import { User } from '../../../stores/user'
+import { Sentence } from 'common'
 import {
   trackListening,
   trackRecording,
   getTrackClass,
-} from '../../../services/tracker';
-import URLS from '../../../urls';
-import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
-import Modal from '../../modal/modal';
+} from '../../../services/tracker'
+import URLS from '../../../urls'
+import { LocaleLink, LocaleNavLink } from '../../locale-helpers'
+import Modal from '../../modal/modal'
 import {
   KeyboardIcon,
   SkipIcon,
   ExternalLinkIcon,
   ArrowLeft,
   QuestionIcon,
-} from '../../ui/icons';
-import { Tag } from './tag';
-import { Button, StyledLink, LabeledCheckbox, LinkButton } from '../../ui/ui';
-import { PrimaryButton } from '../../primary-buttons/primary-buttons';
-import ShareModal from '../../share-modal/share-modal';
-import { ReportButton, ReportModal, ReportModalProps } from './report/report';
-import Wave from './wave';
-import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA';
-import { Notifications } from '../../../stores/notifications';
+} from '../../ui/icons'
+import { Tag } from './tag'
+import { Button, StyledLink, LabeledCheckbox, LinkButton } from '../../ui/ui'
+import { PrimaryButton } from '../../primary-buttons/primary-buttons'
+import ShareModal from '../../share-modal/share-modal'
+import { ReportButton, ReportModal, ReportModalProps } from './report/report'
+import Wave from './wave'
+import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA'
+import { Notifications } from '../../../stores/notifications'
 
-import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA';
-import Success from './success';
+import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA'
+import Success from './success'
 
-import './contribution.css';
+import './contribution.css'
 
-export const SET_COUNT = 5;
+export const SET_COUNT = 5
 
 export interface ContributionPillProps {
-  isOpen: boolean;
-  key: any;
-  num: number;
-  onClick: () => any;
-  onShare: () => any;
-  style?: any;
+  isOpen: boolean
+  key: any
+  num: number
+  onClick: () => any
+  onShare: () => any
+  style?: any
 }
 
 interface PropsFromState {
-  flags: Flags.State;
-  locale: Locale.State;
-  user: User.State;
+  flags: Flags.State
+  locale: Locale.State
+  user: User.State
 }
 
 interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.addPill;
+  addNotification: typeof Notifications.actions.addPill
 }
 
 export interface ContributionPageProps
   extends WithLocalizationProps,
     PropsFromState,
     PropsFromDispatch {
-  demoMode: boolean;
-  activeIndex: number;
-  hasErrors: boolean;
-  errorContent?: React.ReactNode;
-  reportModalProps: Omit<ReportModalProps, 'onSubmitted' | 'getString'>;
+  demoMode: boolean
+  activeIndex: number
+  hasErrors: boolean
+  errorContent?: React.ReactNode
+  reportModalProps: Omit<ReportModalProps, 'onSubmitted' | 'getString'>
   instruction: (props: {
-    vars: { actionType: string };
-    children: any;
-  }) => React.ReactNode;
-  isFirstSubmit?: boolean;
-  isPlaying: boolean;
-  isSubmitted: boolean;
-  onReset: () => any;
-  onSkip: () => any;
-  onSubmit?: (evt?: React.SyntheticEvent) => void;
-  onPrivacyAgreedChange?: (privacyAgreed: boolean) => void;
-  privacyAgreedChecked?: boolean;
-  shouldShowFirstCTA?: boolean;
-  shouldShowSecondCTA?: boolean;
-  primaryButtons: React.ReactNode;
-  pills: ((props: ContributionPillProps) => React.ReactNode)[];
-  sentences: Sentence[];
+    vars: { actionType: string }
+    children: any
+  }) => React.ReactNode
+  isFirstSubmit?: boolean
+  isPlaying: boolean
+  isSubmitted: boolean
+  onReset: () => any
+  onSkip: () => any
+  onSubmit?: (evt?: React.SyntheticEvent) => void
+  onPrivacyAgreedChange?: (privacyAgreed: boolean) => void
+  privacyAgreedChecked?: boolean
+  shouldShowFirstCTA?: boolean
+  shouldShowSecondCTA?: boolean
+  primaryButtons: React.ReactNode
+  pills: ((props: ContributionPillProps) => React.ReactNode)[]
+  sentences: Sentence[]
   shortcuts: {
-    key: string;
-    label: string;
-    icon?: React.ReactNode;
-    action: () => any;
-  }[];
-  type: 'speak' | 'listen';
+    key: string
+    label: string
+    icon?: React.ReactNode
+    action: () => any
+  }[]
+  type: 'speak' | 'listen'
 }
 
 interface State {
-  selectedPill: number;
-  showReportModal: boolean;
-  showShareModal: boolean;
-  showShortcutsModal: boolean;
+  selectedPill: number
+  showReportModal: boolean
+  showShareModal: boolean
+  showShortcutsModal: boolean
 }
 
 class ContributionPage extends React.Component<ContributionPageProps, State> {
   static defaultProps = {
     isFirstSubmit: false,
-  };
+  }
 
   state: State = {
     selectedPill: null,
     showReportModal: false,
     showShareModal: false,
     showShortcutsModal: false,
-  };
+  }
 
-  private canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
-  private wave: Wave;
+  private canvasRef: { current: HTMLCanvasElement | null } = React.createRef()
+  private wave: Wave
 
   componentDidMount() {
-    this.startWaving();
-    window.addEventListener('keydown', this.handleKeyDown);
+    this.startWaving()
+    window.addEventListener('keydown', this.handleKeyDown)
   }
 
   componentDidUpdate() {
-    this.startWaving();
+    this.startWaving()
 
-    const { isPlaying } = this.props;
+    const { isPlaying } = this.props
 
     if (this.wave) {
-      isPlaying ? this.wave.play() : this.wave.idle();
+      isPlaying ? this.wave.play() : this.wave.idle()
     }
   }
 
   componentWillUnmount() {
-    window.removeEventListener('keydown', this.handleKeyDown);
-    if (this.wave) this.wave.idle();
+    window.removeEventListener('keydown', this.handleKeyDown)
+    if (this.wave) this.wave.idle()
   }
 
   private get isLoaded() {
-    return this.props.sentences.length > 0;
+    return this.props.sentences && this.props.sentences.length > 0
   }
 
   private get isDone() {
-    return this.isLoaded && this.props.activeIndex === -1;
+    return this.isLoaded && this.props.activeIndex === -1
   }
 
   private get shortcuts() {
-    const { onSkip, shortcuts } = this.props;
+    const { onSkip, shortcuts } = this.props
     return shortcuts.concat({
       key: 'shortcut-skip',
       label: 'skip',
       action: onSkip,
-    });
+    })
   }
 
   private startWaving = () => {
-    const canvas = this.canvasRef.current;
+    const canvas = this.canvasRef.current
 
     if (this.wave) {
       if (!canvas) {
-        this.wave.idle();
-        this.wave = null;
+        this.wave.idle()
+        this.wave = null
       }
-      return;
+      return
     }
 
     if (canvas) {
-      this.wave = new Wave(canvas);
+      this.wave = new Wave(canvas)
     }
-  };
+  }
 
   private selectPill(i: number) {
-    this.setState({ selectedPill: i });
+    this.setState({ selectedPill: i })
   }
 
   private toggleShareModal = () =>
-    this.setState({ showShareModal: !this.state.showShareModal });
+    this.setState({ showShareModal: !this.state.showShareModal })
 
   private toggleShortcutsModal = () => {
-    const showShortcutsModal = !this.state.showShortcutsModal;
+    const showShortcutsModal = !this.state.showShortcutsModal
     if (showShortcutsModal) {
-      const { locale, type } = this.props;
-      (type == 'listen' ? trackListening : (trackRecording as any))(
+      const { locale, type } = this.props
+      ;(type == 'listen' ? trackListening : (trackRecording as any))(
         'view-shortcuts',
         locale
-      );
+      )
     }
-    return this.setState({ showShortcutsModal });
-  };
+    return this.setState({ showShortcutsModal })
+  }
 
   private handleKeyDown = (event: any) => {
     const { getString, isSubmitted, locale, onReset, onSubmit, type } =
-      this.props;
+      this.props
 
     if (
       event.ctrlKey ||
@@ -202,31 +202,31 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       this.state.showReportModal ||
       this.props.shouldShowFirstCTA
     ) {
-      return;
+      return
     }
 
-    const isEnter = event.key === 'Enter';
+    const isEnter = event.key === 'Enter'
     if (isSubmitted && isEnter) {
-      onReset();
-      return;
+      onReset()
+      return
     }
     if (this.isDone) {
-      if (isEnter && onSubmit) onSubmit();
-      return;
+      if (isEnter && onSubmit) onSubmit()
+      return
     }
 
     const shortcut = this.shortcuts.find(
       ({ key }) => getString(key).toLowerCase() === event.key
-    );
-    if (!shortcut) return;
+    )
+    if (!shortcut) return
 
-    shortcut.action();
-    ((type === 'listen' ? trackListening : trackRecording) as any)(
+    shortcut.action()
+    ;((type === 'listen' ? trackListening : trackRecording) as any)(
       'shortcut',
       locale
-    );
-    event.preventDefault();
-  };
+    )
+    event.preventDefault()
+  }
 
   render() {
     const {
@@ -238,9 +238,9 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       shouldShowSecondCTA,
       user,
       demoMode,
-      locale
-    } = this.props;
-    const { showReportModal, showShareModal, showShortcutsModal } = this.state;
+      locale,
+    } = this.props
+    const { showReportModal, showShareModal, showShortcutsModal } = this.state
 
     return (
       <div
@@ -321,14 +321,14 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           {this.renderContent()}
         </div>
       </div>
-    );
+    )
   }
 
   renderClipCount() {
-    const { activeIndex, isSubmitted } = this.props;
+    const { activeIndex, isSubmitted } = this.props
     return (
       (isSubmitted ? SET_COUNT : activeIndex + 1 || SET_COUNT) + '/' + SET_COUNT
-    );
+    )
   }
 
   renderContent() {
@@ -351,30 +351,30 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       shouldShowFirstCTA,
       shouldShowSecondCTA,
       user,
-    } = this.props;
-    const { selectedPill } = this.state;
+    } = this.props
+    const { selectedPill } = this.state
 
-    const noUserAccount = !user.account;
+    const noUserAccount = !user.account
 
     if (isSubmitted && type === 'listen' && noUserAccount) {
-      return <Success onReset={onReset} type={type} />;
+      return <Success onReset={onReset} type={type} />
     }
 
-    const shouldShowCTA = shouldShowFirstCTA || shouldShowSecondCTA;
-    const shouldHideCTA = !shouldShowFirstCTA && !shouldShowSecondCTA;
+    const shouldShowCTA = shouldShowFirstCTA || shouldShowSecondCTA
+    const shouldHideCTA = !shouldShowFirstCTA && !shouldShowSecondCTA
 
     const handlePrivacyAgreedChange = (
       evt: React.ChangeEvent<HTMLInputElement>
     ) => {
-      onPrivacyAgreedChange(evt.target.checked);
-    };
+      onPrivacyAgreedChange(evt.target.checked)
+    }
 
     if (hasErrors) {
-      return errorContent;
+      return errorContent
     }
 
     if (!this.isLoaded) {
-      return null;
+      return null
     }
 
     return (
@@ -400,8 +400,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                 {sentences.map((sentence, i) => {
                   const activeSentenceIndex = this.isDone
                     ? SET_COUNT - 1
-                    : activeIndex;
-                  const isActive = i === activeSentenceIndex;
+                    : activeIndex
+                  const isActive = i === activeSentenceIndex
                   return (
                     <div
                       // don't let Chrome auto-translate
@@ -450,11 +450,13 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                           </div>
                         ) : null}
                         {sentence?.variant && (
-                          <Tag text={`${sentence.variant.name} [${sentence.variant.tag}]`} />
+                          <Tag
+                            text={`${sentence.variant.name} [${sentence.variant.tag}]`}
+                          />
                         )}
                       </div>
                     </div>
-                  );
+                  )
                 })}
               </div>
             </div>
@@ -612,7 +614,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           </div>
         </div>
       </>
-    );
+    )
   }
 }
 
@@ -625,4 +627,4 @@ export default connect<PropsFromState, PropsFromDispatch>(
   {
     addNotification: Notifications.actions.addPill,
   }
-)(withLocalization(ContributionPage));
+)(withLocalization(ContributionPage))
