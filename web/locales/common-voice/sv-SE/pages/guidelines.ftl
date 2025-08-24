@@ -4,9 +4,9 @@ guidelines-header-subtitle = Förstå hur du bidrar med och validerar meningar o
 voice-collection = Insamling av röster
 sentence-collection = Insamling av meningar
 question-collection = Frågesamling
-scripted-speech = Skrivet tal
+scripted-speech = Skriftligt tal
 spontaneous-speech = Spontant tal
-dont-subheader = Gör inte det
+dont-subheader = Gör inte
 
 ## Voice Collection nav ids
 
@@ -152,14 +152,14 @@ answer-questions-tip-2 = Välj någonstans med en bra internetanslutning
 answer-questions-tip-3b = Försök att hålla ditt svar inom 15-30 sekunder
 answer-questions-tip-4 = Undvik hatiskt, upphetsande eller på annat sätt kränkande tal
 answer-questions-tip-5 = Tala naturligt, som du skulle med en vän - använd din egen riktiga variant, dialekt och accent
-answer-questions-tip-6 = Håll din volym konsekvent - skrika eller sjung inte
+answer-questions-tip-6 = Håll din volym konsekvent - skrik eller sjung inte
 # Transcribe the Audio
 transcribe-the-audio = Transkribera ljudet
 transcribe-the-audio-subheader-1 = Allmän vägledning
 transcribe-the-audio-subheader-2 = Siffror och akronymer
 transcribe-the-audio-subheader-3 = Särskilda taggar
 transcribe-the-audio-subheader-4 = Ordsegment, felstarter, upprepade ord
-transcribe-the-audio-subheader-5 = Grammatiska misstag och vardagar
+transcribe-the-audio-subheader-5 = Grammatiska misstag och vardagliga uttryck
 transcribe-the-audio-subheader-1-explanation = Generellt sett bör du skriva ner allt du hör. Detta inkluderar;
 transcribe-the-audio-subheader-1-explanation-example-1 = Att skriva ner influenser, inklusive tvekan och upprepningar
 transcribe-the-audio-subheader-1-explanation-example-2 = Märkning av brushändelser som hostning eller skratt
