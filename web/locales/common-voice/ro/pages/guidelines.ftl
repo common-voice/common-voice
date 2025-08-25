@@ -200,6 +200,9 @@ special-tags-example-2 =
     În fine, [noise] [laugh] nu a fost o vacanță prea grozavă [laugh].
 transcribe-the-audio-subheader-4-explanation-1 = Vorbirea spontană mai include și greșeli la început, când se rostește doar o parte dintr-un cuvânt. În cazurile astea, te rugăm să transcrii cât poți de bine fragmentul de cuvânt care se aude și să pui o cratimă la final (-) prin care vei semnala greșeala. De exemplu:
 transcribe-the-audio-subheader-4-explanation-1-example = Se numește <underline>Io- Ioni-</underline> Ionică.
+transcribe-the-audio-subheader-4-explanation-2 = Uneori, vorbitorii repetă un cuvânt sau un fragment de cuvânt de mai multe ori, iar acest fenomen trebuie și el transcris. De exemplu:
+transcribe-the-audio-subheader-4-explanation-2-example = Iar apoi am apăsat pe <underline>un un un bu- un</underline> buton.
+transcribe-the-audio-subheader-5-explanation-1 = Este de așteptat ca vorbirea spontană să conțină și greșeli gramaticale, iar acestea nu trebuie corectate în timpul transcrierii. Transcrierea trebuie să corespundă exact înregistrării audio.
 
 ## Review the Transcription
 
