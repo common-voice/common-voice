@@ -50,6 +50,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ຕັ້ງເປົ້າໝາຍ
 cant-decide = ບໍ່​ສາ​ມາດ​ຕັດ​ສິນ​ໃຈ​?
+activity-needed-calculation-fixed = 100 ຄົນບັນທຶກ 100 ປະໂຫຍກຕໍ່ມື້ສາມາດສ້າງສຽງ 13 ຊົ່ວໂມງ. ຮັກສາປະສິດທິພາບນີ້, 1000 ຊົ່ວໂມງສາມາດບັນລຸໄດ້ພາຍໃຕ້ 3 ເດືອນ.
 how-many-per-day = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ມື້?
 how-many-a-week = ດີຫຼາຍ! ມີຈັກຄລິບຕໍ່ອາທິດ?
 which-goal-type = ທ່ານຕ້ອງການເວົ້າ, ຟັງຫຼືທັງສອງ?

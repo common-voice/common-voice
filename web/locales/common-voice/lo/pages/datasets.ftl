@@ -95,6 +95,9 @@ release-version = ລູ້ນ​
 dataset-date = ວັນທີ
 license = ໃບອະນຸຍາດ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ປະສົມກັນ
+# Support old genders in older datasets
+male = ຜູ້ຊາຍ
+female = ຜູ້ຍິງ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = ດາວໂຫລດຊຸດຂໍ້ມູນສຽງຂອງພວກເຮົາ
 # MENU ITEM ARIA LABELS

@@ -331,6 +331,7 @@ sco = ສະກັອດ
 sd = ພາສາ Sindhi
 sdh = ຊາວເຄີດໃຕ້
 sdo = Serian Bidayuh
+seh = Sena
 sei = Seri
 shi = ພາສາຊິລຮາ
 shn = Shan
