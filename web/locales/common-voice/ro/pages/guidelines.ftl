@@ -194,6 +194,12 @@ tags-unclear-explanation = „neclar” - marchează unul sau mai multe cuvinte 
 tags-noise-explanation =
     „zgomot” - marchează orice alt fel de zgomot, precum tusea sau dregerea vocii de către vorbitor,
     claxonul unei mașini, sunetul unui obiect care se lovește de microfon, zgomotul emis de un telefon care vibrează, etc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Iar apoi [noise] am plecat în vacanță.
+    În fine, [noise] [laugh] nu a fost o vacanță prea grozavă [laugh].
+transcribe-the-audio-subheader-4-explanation-1 = Vorbirea spontană mai include și greșeli la început, când se rostește doar o parte dintr-un cuvânt. În cazurile astea, te rugăm să transcrii cât poți de bine fragmentul de cuvânt care se aude și să pui o cratimă la final (-) prin care vei semnala greșeala. De exemplu:
+transcribe-the-audio-subheader-4-explanation-1-example = Se numește <underline>Io- Ioni-</underline> Ionică.
 
 ## Review the Transcription
 
