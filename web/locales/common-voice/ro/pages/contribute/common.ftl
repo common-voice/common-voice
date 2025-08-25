@@ -1,7 +1,7 @@
 action-click = Dă clic pe
 action-tap = Atinge
 contribute = Contribuie
-review = Examinează
+review = Verifică
 skip = Sari peste
 shortcuts = Comenzi rapide
 clips-with-count-pluralized =

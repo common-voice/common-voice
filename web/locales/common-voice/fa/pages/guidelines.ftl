@@ -136,3 +136,8 @@ offensive-content-sensitive-information-explanation-explanation-3 = پرسش‌�
 example-questions-subheader = چند مثال برای پرسش‌ها
 example-questions-explanation-1 = شما می‌توانید <examplePromptsLink>۱۲۰ نمونه فرمان را در این برگه</examplePromptsLink> پیدا کنید.
 example-questions-explanation-2 = اگر می‌خواهید مجموعه‌ای از پرسش‌ها را برای دریافت پاسخ بفرستید، می‌توانید <githubLink> این کار را از طریق گیت‌هاب</githubLink> ما انجام دهید یا آن‌ها را در قالب پیامی به <emailFragment>commonvoice@mozilla.com</emailFragment> ارسال کنید.
+
+## Spontaneous Speech sidebar content
+
+tags-table-header-1 = برچسب
+tags-noise = نویز

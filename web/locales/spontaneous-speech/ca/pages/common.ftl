@@ -28,7 +28,9 @@ request-new-language = Sol·licita una llengua
 ## Navbar
 
 question = Pregunta
-respond-to-prompt = Resposta
+validate = Valida
+respond-to-prompt = Respon
+respond-to-prompt-mobile = Respon
 transcribe = Transcriu
 check-transcriptions = Revisa
 

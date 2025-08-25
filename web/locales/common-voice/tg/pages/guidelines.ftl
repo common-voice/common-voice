@@ -171,5 +171,16 @@ code-switching-avoid-1 = Маълумоти шахсии қобили шинос
 code-switching-review-subheader = Баррасии савол
 # Answering a Question
 code-switching-answer-subheader = Ҷавоб додан ба савол
+code-switching-tagging-error-3 = Калимаҳои бо имлои нодуруст навишташуда
 code-switching-pronunciation-explanation-example-1 = Англисӣ: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Испанӣ: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Одамон: Мария, Ҷон
+code-switching-not-tag-proper-names-example-2 = Ҷойҳо: Лос-Анҷелес, Флорида
+code-switching-not-tag-interjections-example-1 = «Эҳ»
+code-switching-not-tag-interjections-example-2 = «Не»
+code-switching-not-tag-interjections-example-3 = «Ҳа»
+code-switching-not-tag-interjections-example-4 = «Эр»
+
+## Reporting Content
+
+reporting-content-subheader = Роҳнамои умумӣ

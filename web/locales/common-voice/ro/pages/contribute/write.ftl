@@ -72,3 +72,100 @@ sentence-variant-select-multiple-variants = Limbaj general / variante multiple
 sc-bulk-upload-header = Încarcă <icon></icon> propoziții din domeniul public
 sc-bulk-upload-instruction = Trage fișierul aici sau <uploadButton>apasă pentru a încărca</uploadButton>.
 sc-bulk-upload-instruction-drop = Trage fișierul aici pentru încărcare
+bulk-upload-additional-information = Dacă vrei să adaugi și alte detalii legate de acest fișier, scrie-ne la <emailFragment>commonvoice@mozilla.com</emailFragment>.
+template-file-additional-information = Dacă vrei să adaugi și alte detalii legate de acest fișier care nu sunt incluse în câmpurile șablonului, scrie-ne la <emailFragment>commonvoice@mozilla.com</emailFragment>.
+try-upload-again = Încearcă din nou, trăgând fișierul aici.
+try-upload-again-md = Încearcă să reîncarci fișierul.
+select-file = Selectează un fișier
+select-file-mobile = Selectează un fișier pentru încărcare
+accepted-files = Tipuri de fișiere acceptate: doar .tsv
+minimum-sentences = Numărul minim de propoziții în fișier: 1000
+maximum-file-size = Mărimea maximă a fișierului: 25 MB
+what-needs-to-be-in-file = Ce trebuie să conțină fișierul meu?
+what-needs-to-be-in-file-explanation = Te rugăm să consulți <templateFileLink>fișierul nostru șablon</templateFileLink>. Propozițiile tale trebuie să fie fără drepturi de autor (cu licență CC0 sau lucrări originale ale tale, cel care le încarcă), clare, corecte gramatical și ușor de citit. Propozițiile încărcate trebui să poată fi citite în aproximativ 10-15 secunde și să nu conțină numere, nume proprii sau caractere speciale.
+upload-progress-text = Fișierul se încarcă...
+sc-bulk-submit-confirm = Confirm că aceste propoziții aparțin <wikipediaLink>domeniului public</wikipediaLink> și că am permisiunea de a le încărca aici.
+bulk-upload-success-toast = Lotul de propoziții a fost încărcat
+bulk-upload-failed-toast = Încărcarea a eșuat. Te rugăm să mai încerci o dată.
+bulk-submission-success-header = Mulțumim pentru lotul de propoziții donate!
+bulk-submission-success-subheader = Ajuți astfel proiectul Common Voice să își atingă obiectivele zilnice de propoziții încărcate!
+upload-more-btn-text = Vrei să încarci mai multe propoziții?
+file-invalid-type = Fișier nevalid
+file-too-large = Fișierul este prea mare
+file-too-small = Fișierul este prea mic
+too-many-files = Prea multe fișiere
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Adaugă mai multe propoziții din domeniul public
+multiple-sentences-error = Nu poți adăuga mai multe propoziții când ai ales să încarci doar una singură.
+exceeds-small-batch-limit-error = Nu poți încărca mai mult de 1000 de propoziții
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limita de solicitări a fost depășită. Încearcă din nou peste 1 minut.
+        [few] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } minute.
+       *[other] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } minute.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } secundă.
+        [few] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } secunde.
+       *[other] Limita de solicitări a fost depășită. Încearcă din nou peste { $retryLimit } secunde.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, 1 minut înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+        [few] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } minute înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+       *[other] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } minute înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, 1 secundă înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+        [few] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } secunde înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+       *[other] Ai atins limita de trimiteri pentru această pagină. Așteaptă, te rugăm, { $retryLimit } secunde înainte să trimiți o altă propoziție. Îți mulțumim pentru răbdare!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 1 propoziție acceptată din { $uploadedSentences }
+        [few] { $uploadedSentences } propoziții acceptate din { $totalSentences }
+       *[other] { $uploadedSentences } propoziții acceptate din { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 1 propoziție acceptată din { $uploadedSentences }. Descarcă propozițiile respinse <downloadLink>aici</downloadLink>.
+        [few] { $uploadedSentences } propoziții acceptate din { $totalSentences }. Descarcă propozițiile respinse <downloadLink>aici</downloadLink>.
+       *[other] { $uploadedSentences } propoziții acceptate din { $totalSentences }. Descarcă propozițiile respinse <downloadLink>aici</downloadLink>.
+    }
+small-batch-sentences-rule-1 = Urmează instrucțiunile din ghidul nostru numit „Ce propoziții pot adăuga?”
+small-batch-sentences-rule-2 = Adaugă câte o propoziție pe rând.
+small-batch-sentences-rule-3 = Desparte mai multe propoziții într-una pe rând apăsând o dată tasta „Enter” sau „Return” atunci când se termină una și începe alta.
+small-batch-sentences-rule-4 = Adaugă până la 1.000 de propoziții.
+small-batch-sentences-rule-5 = Toate propozițiile trebuie să fie din același domeniu.
+small-batch-sentences-rule-6 = Toate propozițiile trebuie să aibă aceeași sursă.
+# menu item
+add-sentences = Adaugă propoziții
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Adaugă și verifică propoziții, scrie întrebări, transcrie înregistrări audio
+add-sentences-menu-item-tooltip = Adaugă propoziții
+review-sentences-menu-item-tooltip = Verifică propoziții
+add-questions-menu-item-tooltip = Adaugă întrebări
+review-questions-menu-item-tooltip = Verifică întrebări
+transcribe-audio-menu-item-tooltip = Transcrie înregistrări audio
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Opțiunile meniului Scrie
+add-sentences-menu-item-aria-label = Adaugă propoziții noi pe care să le citească comunitatea
+review-sentences-menu-item-aria-label = Verifică propozițiile trimise de comunitate
+add-questions-menu-item-aria-label = Audaugă întrebări noi pe care comunitatea să le citească și la care să răspundă
+review-questions-menu-item-aria-label = Verifică și votează pentru propozițiile trimise de comunitate
+transcribe-audio-menu-item-aria-label = Transcrie înregistrări audio

@@ -4,6 +4,8 @@
 transcription-page-instruction = { $actionType } <playIcon></playIcon> Сабти аудиоиро гӯш кунед ва матнро тафтиш кунед. Оё он мувофиқат мекунад? Агар не, онро таҳрир кунед, то комилан мувофиқат кунад.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Тафтиш кардан
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = Ҳоло овонависиҳо барои тафтиши ин забон вуҷуд надоранд. Агар шумо ягон чизро нодида гузаронида бошед, шумо метавонед бо муҳтавои нодида гузаронида идома диҳед ё ба овонависии аудио гузаред ва баъдтар аз нав кӯшиш кунед.
 vote-transcript-success = Ба матни сабт бомуваффақият овоз додед
 vote-transcript-error = Ҳангоми овоздиҳӣ ба матни сабт хато ба миён омад
 transcript-edited-success = Матни сабт бомуваффақият таҳрир карда шуд

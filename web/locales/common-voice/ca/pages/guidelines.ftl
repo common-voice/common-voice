@@ -4,6 +4,8 @@ guidelines-header-subtitle = Enteneu com col·laborar i validar frases i talls d
 voice-collection = Recollida de veus
 sentence-collection = Recollida de frases
 question-collection = Col·lecció de preguntes
+scripted-speech = Parla guionada
+spontaneous-speech = Parla espontània
 
 ## Voice Collection nav ids
 

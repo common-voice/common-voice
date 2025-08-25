@@ -60,6 +60,14 @@ help-accent = Ĉu vi bezonas helpon pri akĉento?
 help-accent-explanation = Via akĉento estas la maniero kiel vi prononcas vortojn. Ĝin influas la lokoj kie vi iam loĝis, viaj aliaj parolataj lingvoj kaj pluraj diversaj faktoroj. Vi povas dividi ĉi tie iun ajn informon, kiun vi opinias grava.
 help-variants = Ĉu vi bezonas helpon kun variantoj?
 help-variants-explanation = Variantoj estas specifaj formoj de lingvo - ekzemple dividitaj de tiuj kiuj loĝas en regiono aŭ komunumo. Kelkfoje oni nomas ilin dialektoj.
+help-sex-or-gender-changes = Ĉu vi bezonas helpon kun la ŝanĝo de sekso aŭ genro?
+help-sex-or-gender-changes-explanation = Ni ofertas pliajn eblojn por doni al homoj pli da elekto pri tio, kion ili diras al ni pri sia sekso aŭ genra identeco. Bonvolu priskribi vin mem laŭ la maniero, kiu ŝajnas plej natura al vi. <learnMoreLink>Lernu pli pri nia aliro al sekso kaj genro.</learnMoreLink>
+variant-contribution-options-header = Ebloj por kontribuo de variantoj
+variant-contribution-help = Iuj variaĵoj kaj dialektoj ene de lingvo aŭ lingvofamilio estas tre malsamaj unu de la alia. Se vi havas problemojn okupiĝi pri aparta varianto, vi povas ŝanĝi viajn preferojn ĉi tie.
+variant-contribution-option-1 = Montru al mi frazojn kaj filmetojn el ĉiuj variaĵoj en mia lingvo
+variant-contribution-option-2 = Montru al mi nur frazojn kaj filmetojn el mia variaĵo
+variant-contribution-warning-title = ⓘ Ankoraŭ ne ĉiuj frazoj kaj filmetoj havas variaĵajn etikedojn!
+variant-contribution-warning-subtitle = Se vi havas problemojn kontribui, vi povas iam ajn reiri al la vido de la tuta enhavo por via lingvo.
 # Genders
 male_masculine = Vira
 female_feminine = Ina

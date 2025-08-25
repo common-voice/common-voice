@@ -4,9 +4,9 @@ guidelines-header-subtitle = Förstå hur du bidrar med och validerar meningar o
 voice-collection = Insamling av röster
 sentence-collection = Insamling av meningar
 question-collection = Frågesamling
-scripted-speech = Skrivet tal
+scripted-speech = Skriftligt tal
 spontaneous-speech = Spontant tal
-dont-subheader = Gör inte det
+dont-subheader = Gör inte
 
 ## Voice Collection nav ids
 
@@ -152,38 +152,38 @@ answer-questions-tip-2 = Välj någonstans med en bra internetanslutning
 answer-questions-tip-3b = Försök att hålla ditt svar inom 15-30 sekunder
 answer-questions-tip-4 = Undvik hatiskt, upphetsande eller på annat sätt kränkande tal
 answer-questions-tip-5 = Tala naturligt, som du skulle med en vän - använd din egen riktiga variant, dialekt och accent
-answer-questions-tip-6 = Håll din volym konsekvent - skrika eller sjung inte
+answer-questions-tip-6 = Håll din volym konsekvent - skrik eller sjung inte
 # Transcribe the Audio
 transcribe-the-audio = Transkribera ljudet
 transcribe-the-audio-subheader-1 = Allmän vägledning
 transcribe-the-audio-subheader-2 = Siffror och akronymer
 transcribe-the-audio-subheader-3 = Särskilda taggar
 transcribe-the-audio-subheader-4 = Ordsegment, felstarter, upprepade ord
-transcribe-the-audio-subheader-5 = Grammatiska misstag och vardagar
+transcribe-the-audio-subheader-5 = Grammatiska misstag och vardagliga uttryck
 transcribe-the-audio-subheader-1-explanation = Generellt sett bör du skriva ner allt du hör. Detta inkluderar;
-transcribe-the-audio-subheader-1-explanation-example-1 = Att skriva ner influenser, inklusive tvekan och upprepningar
-transcribe-the-audio-subheader-1-explanation-example-2 = Märkning av brushändelser som hostning eller skratt
-transcribe-the-audio-subheader-1-explanation-example-3 = Märkning av betydande ljudföroreningar, som bakgrundsljud eller signaltur på en bil
-transcribe-the-audio-subheader-1-explanation-example-4 = Grammatisk variation och slang ska spelas in precis som de förekommer. Korrigera eller redigera inte personers tal.
-transcribe-the-audio-subheader-2-explanation-1 = Siffror och symboler bör stavas med ord istället för med siffror eller specialtecken. Exempel:
-transcribe-the-audio-subheader-2-explanation-2 = Akronymer ska skrivas som de normalt är skrivna på språket, enligt reglerna för versaler. De bör inte transkriberas fonetiskt. Exempel:
+transcribe-the-audio-subheader-1-explanation-example-1 = Att skriva ner oväsen, inklusive tvekan och upprepningar
+transcribe-the-audio-subheader-1-explanation-example-2 = Märkning av ljudhändelser som hosta eller skratt
+transcribe-the-audio-subheader-1-explanation-example-3 = Märkning av betydande bullerföroreningar, som bakgrundsbrus eller bilhorn
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatiska variationer och slang ska registreras exakt som de förekommer. Korrigera eller redigera inte personers tal.
+transcribe-the-audio-subheader-2-explanation-1 = Siffror och symboler bör stavas med ord snarare än med siffror eller specialtecken. Exempel:
+transcribe-the-audio-subheader-2-explanation-2 = Akronymer ska skrivas som de normalt skrivs i språket, enligt standardreglerna för versaler. De ska inte transkriberas fonetiskt. Exempel:
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = <effect> Rätt</effect>: Det är 100 kilometer härifrån
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Korrekt</correct>: Det är hundra mil härifrån
 # text wrapped in wrong will be shown as red text in the UI
-transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Fel</wrong>: Det är 160 kilometer härifrån
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Fel</wrong>: Det är 100 mil härifrån
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-correct = <correct> Rätt</effect>: Vi ses om <underline>tjugofemton</underline>
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Korrekt</correct>: Vi ses <underline>tjugo femton</underline>
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Fel</wrong>: Vi ses i <underline>2015</underline>
-transcribe-the-audio-subheader-2-example-3-correct = <effect>Rätta</effect>: Det var 20 procent rabatt
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Fel</wrong>: Vi ses <underline>20:15</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Korrekt</correct>: Det var tjugo procent rabatt
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Fel</wrong>: Det var 20% rabatt
-transcribe-the-audio-subheader-2-example-4-correct = <effect>Rätta</right>: De greps av <underline>FBI</underline> i torsdags
-transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Fel</wrong>: De greps av <underline>eff bee eye</underline> i torsdags
-transcribe-the-audio-subheader-3-explanation = Följande specialtaggar bör användas för att markera disfluencies, fillers och andra typer av icke-verbalt innehåll.
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Korrekt</correct>: De arresterades av <underline>FBI</underline> förra torsdagen
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Fel</wrong>: De arresterades av <underline>eff bee eye</underline> förra torsdagen
+transcribe-the-audio-subheader-3-explanation = Följande specialtaggar bör användas för att markera oflyt, utfyllnadsord och andra typer av icke-verbalt innehåll (på engelska).
 tags-table-header-1 = Etikett
 tags-table-header-2 = Betydelse
-tags-laugh = Skratta
-tags-disfluency = Oflytande
+tags-laugh = Skratt
+tags-disfluency = Oväsen
 tags-unclear = Otydlig
 tags-noise = Buller
 tags-laugh-explanation = Ljudet av skratt.
@@ -244,7 +244,7 @@ code-switching-avoid-intro = Frågor som kan tänkas:
 code-switching-avoid-1 = Be om personlig identifierbar information
 code-switching-avoid-2 = Få hatretorik eller andra partiska eller kränkande känslor
 code-switching-avoid-3 = Få någon att dela känsliga, potentiellt utlösande svar
-code-switching-dont-header = Gör inte det
+code-switching-dont-header = Gör inte
 code-switching-dont-1 = Använd inte ett alltför formellt språk
 # Reviewing a Question
 code-switching-review-subheader = Granska en fråga

@@ -62,6 +62,7 @@ snv = Σαμπάν
 xkl = Κενιάχ
 # Locales-Variants
 ms-MY = Μαλαϊκά
+el-CY = Ελληνικά (Κύπρος)
 
 ## Language search component
 

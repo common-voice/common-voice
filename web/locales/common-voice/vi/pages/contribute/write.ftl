@@ -124,6 +124,7 @@ add-sentences = Thêm câu
 add-sentences-menu-item-tooltip = Thêm các câu bằng ngôn ngữ của bạn
 review-sentences-menu-item-tooltip = Xem lại các câu trong ngôn ngữ của bạn
 add-questions-menu-item-tooltip = Thêm các câu hỏi bằng ngôn ngữ của bạn
+review-questions-menu-item-tooltip = Duyệt câu hỏi
 
 ## MENU ITEM ARIA LABELS
 
@@ -131,3 +132,4 @@ write-contribute-menu-aria-label = Tuỳ chọn khi viết
 add-sentences-menu-item-aria-label = Thêm các câu mới để cộng đồng cùng đọc
 review-sentences-menu-item-aria-label = Xem lại các câu hiện có đã được cộng đồng đăng lên
 add-questions-menu-item-aria-label = Đăng các câu hỏi mới để cộng đồng cùng đọc và trả lời
+review-questions-menu-item-aria-label = Xem xét và bình chọn cho các câu hỏi mới do cộng đồng gửi đến

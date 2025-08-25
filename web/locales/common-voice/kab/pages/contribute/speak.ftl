@@ -44,6 +44,7 @@ first-cta-header-text = Tanemmirt imi i d-tmuddeḍ ibruyen seg taɣect-ik⋅im!
 why-donate = Ayɣer i testeqsaḍ?
 add-information-button = Rnu talɣut
 continue-speaking-button = Uhu, tanemmirt. Kemmel ameslay
+thanks-for-voice-toast = Tanemmirt ɣef talɣut n taɣect
 first-cta-gender-select-default-option = Fren taxtiṛt
 first-cta-gender-select-help-text =
     .label = Amek ara d-tgelmeḍ tuzzuft-ik neɣ tawsit-ik?

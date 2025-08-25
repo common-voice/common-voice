@@ -4,6 +4,7 @@ guidelines-header-subtitle = Tìm hiểu cách đóng góp và xác thực các 
 voice-collection = Bộ sưu tập giọng nói
 sentence-collection = Bộ sưu tập câu
 question-collection = Bộ sưu tập câu hỏi
+dont-subheader = Không nên
 
 ## Voice Collection nav ids
 
@@ -136,3 +137,20 @@ offensive-content-sensitive-information-explanation-explanation-3 = Những câu
 example-questions-subheader = Ví dụ câu hỏi
 example-questions-explanation-1 = Bạn có thể tìm <examplePromptsLink>120 ví dụ gợi ý trong trang tính này.</examplePromptsLink>
 example-questions-explanation-2 = Nếu bạn muốn gửi một loạt câu hỏi để tiếp nhận, bạn <githubLink>có thể làm như vậy thông qua GitHub của chúng tôi</githubLink> hoặc gửi danh sách của bạn qua email tới <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Trả lời các câu hỏi
+answer-questions-subheader = Hướng dẫn chung
+answer-questions-explanation-1 = Hãy suy nghĩ một chút về lời nhắc, cân nhắc xem bạn muốn nói gì, nhưng đừng tự viết kịch bản quá nhiều. Nhấp vào biểu tượng "Ghi âm". Sau khi ghi âm, bạn có thể nghe lại, ghi âm lại, xóa hoặc gửi.
+answer-questions-explanation-2 = Hãy nhớ - đừng lo lắng nếu bạn nói lắp, ngắt quãng hoặc lặp lại một từ. Đây đều là dữ liệu hữu ích cho các kỹ sư đang cố gắng xây dựng các công cụ nhận dạng giọng nói toàn diện và thực tế.
+answer-questions-tip-1 = Ghi âm ở nơi tương đối yên tĩnh
+answer-questions-tip-2 = Chọn nơi nào đó có kết nối internet tốt
+answer-questions-tip-3b = Cố gắng giữ phản hồi của bạn trong khoảng 15-30 giây
+answer-questions-tip-4 = Tránh lời nói thù hận, kích động hoặc xúc phạm
+answer-questions-tip-5 = Nói chuyện tự nhiên như khi bạn nói chuyện với một người bạn - sử dụng phiên âm, phương ngữ và giọng thật của riêng bạn
+answer-questions-tip-6 = Giữ âm lượng ổn định - đừng hét hoặc hát
+# Transcribe the Audio
+transcribe-the-audio = Phiên âm âm thanh
+transcribe-the-audio-subheader-1 = Hướng dẫn chung

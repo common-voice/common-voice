@@ -27,3 +27,4 @@ download-request-modal-title = Пайвандҳоро боргирӣ кунед
 download-request-modal-description = Барои боргирӣ кардани файлҳои худ дар бойгонии ZIP, аз пайвандҳои зерин истифода баред.
 download-request-link-text = Zip №{ $offset } аз { $total }
 download-request-metadata-link = Матни ҷумлаҳо
+download-request-link-single = Шумо инчунин метавонед «URL»-ҳои мустақимро ба барномаи боргирии дӯстдоштаи худ нусхабардорӣ кунед. Мӯҳлати онҳо пас аз 12 соат ба охир мерасад, аммо шумо метавонед ба ин саҳифа баргардед, то ҳар вақт саҳифаҳои нав эҷод кунед.

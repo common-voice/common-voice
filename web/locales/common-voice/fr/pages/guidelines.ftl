@@ -158,6 +158,7 @@ transcribe-the-audio = Transcriptions audio
 transcribe-the-audio-subheader-1 = Instructions générales
 transcribe-the-audio-subheader-2 = Nombres et acronymes
 transcribe-the-audio-subheader-3 = Balises spéciales
+transcribe-the-audio-subheader-4 = Segments de mots, faux départs, mots répétés
 transcribe-the-audio-subheader-5 = Erreurs grammaticales et expressions familières
 transcribe-the-audio-subheader-1-explanation = En règle générale, notez tout ce que vous entendez. Cela implique :
 transcribe-the-audio-subheader-1-explanation-example-1 = De noter les disfluences, y compris les hésitations et les répétitions
@@ -191,12 +192,20 @@ tags-disfluency-explanation =
     En français, parmi les sons d’hésitation fréquents, on retrouve « hum », « heu », etc.
 tags-unclear-explanation = Un mot ou une suite de mots qui ne peuvent pas être compris.
 tags-noise-explanation = Tout autre type de bruit, par exemple si l’on entend quelqu’un tousser ou se racler la gorge, un klaxon de voiture, quelque chose qui heurte le micro, un téléphone qui vibre, etc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Et puis je [noise] suis parti en vacances.
+    Eh bien, [noise] [laugh] ce n’était pas vraiment un jour férié [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = La parole spontanée contient bien sûr des faux départs, lorsque seule une partie d’un mot complet est prononcée. Dans ces cas-là, veuillez retranscrire du mieux que vous pouvez la partie prononcée et ajoutez un trait d’union à la fin du mot (-) pour indiquer que le mot est un faux départ. Par exemple :
 transcribe-the-audio-subheader-4-explanation-1-example = Il s’appelle <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Il arrive que l’orateur·trice répète un mot ou une partie d’un mot plusieurs fois. Cela doit également être retranscrit. Par exemple :
 transcribe-the-audio-subheader-4-explanation-2-example = Et puis je suis allé dans <underline>la la la cham- la</underline> chambre
+transcribe-the-audio-subheader-5-explanation-1 = La parole spontanée peut bien entendu comporter des fautes grammaticales. Celles-ci ne doivent pas être corrigées lors de la transcription. La transcription doit refléter fidèlement ce qui a été prononcé.
+transcribe-the-audio-subheader-5-explanation-2 = Les locuteurs et locutrices peuvent utiliser des expressions familières (comme, en anglais, « gonna », « cuz », etc.) qui peuvent être considérées comme incorrectes. Elles doivent être transcrites telles quelles et non remplacées par leur équivalent plus formel.
 
 ## Review the Transcription
 
+review-the-transcription = Vérifier la transcription
 review-the-transcription-subheader = Instructions générales
 review-the-transcription-explanation-1 = En général, nous recommandons que la personne responsable de la vérification de la transcription ne soit pas celle qui a réalisé la transcription initiale. Il est très difficile de réviser son propre travail ! Disposer de plusieurs niveaux de révision peut renforcer l’assurance qualité et contribuer à limiter les biais et les problèmes.
 review-the-transcription-explanation-2 = Consultez les consignes relatives aux transcriptions ci-dessus pour vous assurer de l’exactitude d’une transcription. Vous pouvez apporter des modifications et les envoyer.
@@ -211,13 +220,19 @@ code-switching-adding-question-subheader = Quels sont les critères d’une bonn
 code-switching-adding-question-explanation = Une question pertinente pour les jeux de données à participation publique doit :
 code-switching-adding-question-criteria-1 = Être facile à comprendre et à répondre
 code-switching-adding-question-criteria-2 = Être globalement pertinente
+code-switching-adding-question-criteria-3 = Ne pas faire usage, ni encourager des propos injurieux ou offensants
+code-switching-adding-question-note = Vous pourriez aussi songer à inclure divers contextes et domaines.
 # What types of questions to add
 code-switching-types-subheader = Quels types de questions ajouter ?
 code-switching-use-bilingual-prompts-header = Posez des questions bilingues
 code-switching-use-bilingual-prompts-explanation = Posez des questions bilingues qui intègrent les deux langues : Par exemple :
 code-switching-use-bilingual-prompts-explanation-example = « Que t’a dit ta mère when you got home that day ? »
 code-switching-ask-bilingual-contexts-header = Posez des questions sur les contextes bilingues
+code-switching-ask-bilingual-contexts-explanation = Utilisez des situations où les deux langues sont couramment utilisées (par exemple, à la maison, à l’école, lors d’événements communautaires). Par exemple :
+code-switching-ask-bilingual-contexts-explanation-example = « Quand tu parles à tes cousins, est-ce que tu mélanges le français et l’anglais ? »
+code-switching-focus-emotional-header = Concentrez-vous sur les moments émotionnels ou importants
 code-switching-focus-emotional-explanation = Les gens ont fréquemment recours à l’alternance codique lorsqu’ils expriment une émotion ou une situation d’urgence. Par exemple :
+code-switching-focus-emotional-explanation-example = « Dis moi ce que tes parents ont dit quand tu leur as annoncé la grande nouvelle ; exactement ce qu’ils ont dit. »
 code-switching-direct-quotes-header = Demandez des citations directes ou à reproduire une situation
 code-switching-direct-quotes-explanation = Incitez les participant·e·s à restituer fidèlement ce qui a été dit. Par exemple :
 code-switching-direct-quotes-explanation-example = « Quels étaient vos mots exacts quand vous l’avez découvert ? »
@@ -229,11 +244,18 @@ code-switching-informal-scenarios-explanation = Lors de conversations avec des a
 code-switching-informal-scenarios-explanation-example = « Quelle est la blague que vos amis racontent à chaque fois, et comment la disent-ils ? »
 # What to Avoid
 code-switching-avoid-subheader = Ce qu’il faut éviter
+code-switching-avoid-intro = Des questions qui pourraient :
+code-switching-avoid-1 = Demander des données personnelles
+code-switching-avoid-2 = Encourager des propos injurieux, offensants ou faisant appel à des préjugés
+code-switching-avoid-3 = Amener quelqu’un à partager des informations sensibles, susceptibles de déclencher une réaction émotionnelle
+code-switching-dont-header = À éviter
+code-switching-dont-1 = N’employez pas un langage trop soutenu
 # Reviewing a Question
 code-switching-review-subheader = Vérifier une question
 code-switching-review-intro = Assurez-vous que la question répond à ces critères :
 code-switching-review-criterion-1 = Être facile à comprendre et à répondre
 code-switching-review-criterion-2 = Être globalement pertinente
+code-switching-review-criterion-3 = Ne pas faire usage, ni encourager des propos injurieux ou offensants
 code-switching-review-does-not-header = Et qu’elle <bold>NE CONTIENT PAS</bold> de :
 code-switching-review-offensive-content = <bold>Contenu choquant ou informations sensibles</bold>
 code-switching-answer-header = Contenu choquant ou informations sensibles
@@ -242,11 +264,90 @@ code-switching-review-no-2 = Des questions qui pourraient susciter des propos ha
 code-switching-review-no-3 = Des questions qui peuvent amener un·e internaute à partager des informations sensibles et pouvant déclencher des réactions.
 # Answering a Question
 code-switching-answer-subheader = Répondre à une question
+code-switching-answer-intro = Lorsque vous répondez à une question, l’objectif est de répondre naturellement, comme vous le feriez dans une conversation réelle. Nous voulons capturer la manière dont les langues se mélangent réellement dans le discours de tous les jours.
+code-switching-answer-bullet-1 = Pensez à des moments ou des situations de la vie réelle : des blagues, des disputes, des traditions
+code-switching-answer-bullet-2 = Imaginez que vous envoyez un SMS à un ami ou que vous racontez une histoire à quelqu’un
 code-switching-answer-bullet-3 = Utilisez des mots que vous utiliseriez réellement, même s’il sont empruntés ou un mélange de différentes langues
 code-switching-answer-bullet-4 = Il n’y a pas de façon « idéale » de répondre
 code-switching-authentic-header = Répondez de façon naturelle et authentique
+code-switching-authentic-speak = <bold>Parlez comme vous le feriez avec vos proches.</bold> Si vous mélangez des langues dans la vraie vie, faites de même ici. Par exemple :
+code-switching-authentic-speak-example = « Well, je lui ai dit que je ne pouvais pas y aller, mais elle m’a dit : tu ferais mieux de te montrer ! »
+code-switching-use-both-languages = <bold>Employez les deux langues si c’est ainsi que vous vous exprimeriez habituellement.</bold> Même remplacer un ou deux mots peut être utile. Par exemple :
+code-switching-use-both-languages-example = « Elle s’est vraiment mise en colère because je ne l’ai pas rappelée. »
+code-switching-authentic-direct-quotes = <bold>Insérez des citations ou des dialogues.</bold> Dites exactement ce que quelqu’un a dit, pas une version corrigée ou formelle. Par exemple :
+code-switching-authentic-direct-quotes-example = « Ma mère a dit ‘Tu crois que c’est un jeu ?’ and I was like, ‘Okay chill!’ »
+code-switching-authentic-reflect = <bold>Utilisez les émotions, l’identité et le contexte.</bold> L’alternance codique se produit généralement lorsque les personnes expriment des émotions, une situation d’urgence ou des concepts culturels. Appuyez-vous sur ces aspects lorsque vous répondez à des questions.
+code-switching-authentic-full-context = <bold>Faites des réponses complètes en incluant le contexte.</bold> Donnez un maximum de précisions, en fournissant autant d’informations que possible. Illustrez vos réponses par un témoignage ou un exemple.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ne réfléchissez pas trop et ne modifiez pas trop votre réponse
 code-switching-answer-dont-correct-language = <bold>« Corriger » votre manière de parler.</bold> Ce n’est pas un test. Que la forme soit « correcte » n’a pas d’importance ici, ce qui compte, c’est le langage naturel.
 code-switching-answer-dont-avoid-switching = <bold>Vous retenir d’avoir recours à l’alternance codique si vous le faites normalement.</bold> Vous pouvez très bien alterner au milieu d’une phrase, d’une réflexion ou juste pour un seul mot.
 code-switching-answer-dont-formal-writing = <bold>Parler comme si vous écriviez de façon formelle.</bold> Évitez les réponses trop formelles ou académiques. Privilégiez un ton conversationnel.
 code-switching-answer-dont-force-switch = <bold>Vous forcer à avoir recours à l’alternance codique si cela ne semble pas naturel.</bold> N’alternez que si cela correspond à votre manière naturelle de parler dans cette situation.
-code-switching-answer-dont-translate-repeat = <bold>Tout traduire ou tout répéter.</bold>Dites-le une fois, comme vous le feriez au cours d’une conversation. Vous n’êtes pas obligé·e de répondre dans chaque langue.
+code-switching-answer-dont-translate-repeat = <bold>Tout traduire ou tout répéter.</bold> Dites-le une fois, comme vous le feriez au cours d’une conversation. Vous n’êtes pas obligé·e de répondre dans chaque langue.
+# Transcribing
+code-switching-transcribe-subheader = Transcription
+code-switching-transcribe-intro = Lorsque vous transcrivez des réponses qui ont recours à l’alternance codique, restituez fidèlement les propos du locuteur ou de la locutrice tels qu’ils ont été prononcés, sans les corriger, les modifier ou les simplifier. Cela s’applique à l’alternance codique au sens large, aux propos informels et aux mots mêlant plusieurs langues.
+code-switching-transcribe-do-1 = Écoutez plusieurs fois les segments courts pour détecter les cas subtils d’alternance codique
+code-switching-transcribe-do-2 = Faites une pause après chaque phrase pour vous assurer qu’il n’y a pas eu d’alternance codique ni de mots mélangeant plusieurs langues
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Retranscrivez fidèlement ce qui a été prononcé
+code-switching-capture-explanation = Transcrivez les deux langues telles qu’elles sont prononcées. Ne « corrigez » rien et ne remplacez pas une langue par une autre.
+# Include filler words and markers
+code-switching-filler-header = Incluez les mots de remplissage et les marqueurs
+code-switching-filler-explanation = Des mots tels que « euh », « genre », « donc »,  « tu vois » ou « alors » ont un sens. Par exemple : « Alors, euh, je lui ai dit genre, ‘bah je ne sais pas, peut-être plus tard.’ »
+# Use standard spelling for each language
+code-switching-spelling-header = Employez l’orthographe standard propre à chaque langue
+code-switching-spelling-explanation = Essayez d’écrire les mots correctement dans chaque langue, sauf si le locuteur ou la locutrice les prononce clairement d’une manière inhabituelle.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = N’épurez ni ne simplifiez aucun propos
+code-switching-cleanup-1 = Traduire ou paraphraser ; écrivez ce que la personne a dit, pas ce qu’elle « voulait dire ».
+code-switching-cleanup-2 = « Corriger » la grammaire ou la prononciation ; conservez la manière naturelle avec laquelle le locuteur ou la locutrice s’exprime.
+code-switching-cleanup-3 = Ignorer l’alternance codique qui semble peu importante ; même les emprunts ont de l’importance.
+code-switching-cleanup-4 = Insérer un signe de ponctuation qui pourrait changer le sens ; gardez un débit naturel.
+code-switching-cleanup-5 = Penser connaître la langue de chaque mot ; identifiez les mots en fonction de leur utilisation.
+# Tagging
+code-switching-tagging-subheader = Identification
+code-switching-tagging-error-intro = En cas d’erreur dans la transcription, merci d’utiliser la fonction de signalement pour l’indiquer. Les erreurs possibles peuvent inclure :
+code-switching-tagging-error-1 = Des erreurs de ponctuation ou une utilisation incorrecte des majuscules
+code-switching-tagging-error-2 = Des fautes de frappe
+code-switching-tagging-error-3 = Des mots écrits avec la mauvaise orthographe
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Utilisez la bonne orthographe pour chaque langue
+code-switching-orthography-explanation = Écrivez chaque mot en fonction de l’orthographe de la langue dont il est issu. Par exemple :
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Utilisez la prononciation pour déterminer la langue
+code-switching-pronunciation-explanation = Certains mots peuvent s’écrire de la même façon dans les deux langues, mais peuvent être prononcés différemment.  Écoutez la prononciation pour vous aider à l’identifier correctement. Par exemple : camping, jogging, smoking, brushing, shampooing.
+code-switching-pronunciation-explanation-example-1 = Anglais : /'keɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Espagnol : /'kable/
+# Tagging in a Single Token
+code-switching-single-token-header = Identification au sein d’un jeton unique
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Identifiez la ponctuation en fonction de la langue utilisée à proximité
+code-switching-punctuation-tagging-explanation = Identifiez la ponctuation en utilisant la langue la plus proche à gauche de l’intervalle. Exemples :
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Méfiez-vous des faux amis
+code-switching-lookalikes-explanation = Certains mots peuvent ressembler à une langue mais sont utilisés dans l’autre langue. Identifiez-les en fonction du sens et de leur utilisation, pas uniquement en fonction de leur orthographe. Exemples :
+code-switching-lookalikes-explanation-example-1 = « Footing » utilisé dans le sens « courir » en français  > l’identifier comme étant du français
+code-switching-lookalikes-explanation-example-2 = « No problemo » utilisé en anglais > l’identifier comme étant de l’anglais
+# When Not to Tag Words
+code-switching-not-tag-header = Quand ne faut-il pas identifier des mots
+code-switching-not-tag-explanation = Certains mots ne doivent <bold>pas être identifiés</bold> avec un nom de langue, même s’ils semblent provenir de différentes langues ou être adaptés. Voici comment traiter quelques exemples :
+code-switching-not-tag-proper-names = <bold>Noms propres.</bold> Les noms de personnes, de lieux et d’organisations ne doivent pas être étiquetés. Exemples :
+code-switching-not-tag-proper-names-example-1 = Personnes : Maria, John
+code-switching-not-tag-proper-names-example-2 = Lieux : Los Angeles, Floride
+code-switching-not-tag-proper-names-example-3 = Marques/organisations : Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Mots mixtes ou morphologiquement adaptés.</bold> N’identifiez pas les mots qui mélangent différentes langues ou qui ont des terminaisons ajoutées d’une autre langue. Exemples :
+code-switching-not-tag-mixed-words-example = Lorsque la racine est anglaise mais le suffixe est espagnol : « parkear », « printearlo »
+code-switching-not-tag-interjections = <bold>Les interjections.</bold> Les interjections et les mots de remplissage, quelle que soit la langue, ne doivent <bold>pas être identifiés.</bold> Exemples :
+code-switching-not-tag-interjections-example-1 = « Eh »
+code-switching-not-tag-interjections-example-2 = « Non »
+code-switching-not-tag-interjections-example-3 = « Ouais »
+code-switching-not-tag-interjections-example-4 = « Hum »
+
+## Reporting Content
+
+reporting-content = Signaler du contenu
+reporting-content-subheader = Instructions générales
+reporting-content-explanation-1 = Vous devez signaler tout contenu choquant, néfaste ou inquiétant. Aucun contenu ne doit non plus comporter d’informations personnelles telles que des numéros de téléphone ou des adresses. Vous ne verrez plus ce contenu jusqu’à ce que l’équipe Common Voice ait pu l'examiner et mener une enquête approfondie.
+reporting-content-explanation-2 = Pour signaler du contenu, cliquez sur le bouton « Signaler » et choisissez une ou plusieurs options : Contenu choquant, Langue différente, Données personnelles, Autre. Ensuite, expliquez dans cette zone de texte pourquoi vous souhaitez signaler ce contenu. Enfin, envoyez votre signalement en cliquant sur le bouton « Signaler ».

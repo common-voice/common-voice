@@ -97,6 +97,7 @@ community-and-languages-menu-item-tooltip = Connecteu amb la nostra comunitat i 
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Menú per a accedir a Col·laboracions, premsa i articles, comunitat i llengües
 about-us-menu-aria-label = Menú d'opcions de Quant a
 about-us-menu-item-aria-label = Menú d'opcions de Quant a
 partnerships-menu-item-aria-label = Apreneu sobre les col·laboracions amb Common Voice
@@ -147,15 +148,19 @@ download-contribution-certificate-content = Baixeu-vos un certificat per als vos
 download-contribution-certificate-action = Aconseguiu el certificat
 contribute-github = Col·laboració a GitHub
 contribute-github-content = Aquest projecte no seria possible sense gent com vós. 🎉 Hi ha moltes maneres de participar amb Common Voice: no cal saber programar per a contribuir-hi!
+# label for button
+contribute-github-action = Col·laboració a GitHub
 
 ## Featured section
 
+featured-section-title = Se'n parla en…
 # icon is an arrow that points downwards
 download-press-pack = Baixeu el dossier de premsa <icon></icon>
 
 ## Developers section
 
 developers-section-title = Conjunts de dades de parla oberts i d'accés públic en més de 130 idiomes
+developers-section-subtitle = Conjunts de dades per al reconeixement automàtic de la parla (RAP). síntesi de text i altres contextos de processament del llenguatge natural (PLN), creats mitjançant la participació de la comunitat.
 # icon is an arrow that points to the right
 explore-datasets = Exploreu els conjunts de dades <icon></icon>
 
@@ -180,5 +185,7 @@ partner-section-subtitle-tech-companies = <bold>Empreses tecnològiques</bold>: 
 partner-section-subtitle-civil-society = <bold>Societat civil i investigadors</bold>: creeu, allotgeu i compartiu conjunts de dades impactants de manera gratuïta
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Filantropia</bold>: patrocineu la creació de conjunts de dades per a impulsar la innovació i el desenvolupament locals
+# icon is an arrow that points to the right
+get-in-touch-button = Contacte <icon></icon>
 # Partners section
 our-partners-include = Els nostres socis inclouen...

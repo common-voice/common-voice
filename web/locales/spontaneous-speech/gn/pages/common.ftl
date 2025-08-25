@@ -62,6 +62,7 @@ snv = Sa'ban
 xkl = Kenia
 # Locales-Variants
 ms-MY = Bahasa Malay
+el-CY = Griego Chipriota
 
 ## Language search component
 

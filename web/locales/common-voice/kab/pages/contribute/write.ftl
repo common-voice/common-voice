@@ -31,6 +31,8 @@ sentence-domain-select-placeholder = Fren alamma kraḍ n tiɣula
 # Sentence Domain dropdown option
 agriculture_food = Tafellaḥt d wučči
 # Sentence Domain dropdown option
+finance = Tadrimt
+# Sentence Domain dropdown option
 general = Amatu
 # Sentence Domain dropdown option
 healthcare = Annaren n usgunfu

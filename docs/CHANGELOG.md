@@ -2,6 +2,47 @@
 
 ## Current release
 
+### [v1.151.0 (2025-08-25)](https://github.com/common-voice/common-voice/releases/tag/release-v1.151.0)
+
+- Feat: Remove sentences with taxonomy from circulation, by [@moz-dfeller](https://github.com/moz-dfeller) in [#5048](https://github.com/common-voice/common-voice/pull/5048)
+- Feat: Added accent-variant migration code (as part of Irish (`ga-IE`) migrations below), by [@moz-bozden](https://github.com/moz-bozden) in [#5015](https://github.com/common-voice/common-voice/pull/5015)
+- Workaround: In profile add new language, language code was displayed for some languages, and we implemented the same workaround in [#5042](https://github.com/common-voice/common-voice/pull/5042), by [@moz-bozden](https://github.com/moz-bozden) in [#5051](https://github.com/common-voice/common-voice/pull/5051)
+- Fix: In speak (and possibly listen) page, incorrect check of sentences loaded state causing errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5054](https://github.com/common-voice/common-voice/pull/5054)
+- Fix: In dashboard, an early conditional return was causing rule-of-hooks violation for many users, by [@moz-bozden](https://github.com/moz-bozden) in [#5054](https://github.com/common-voice/common-voice/pull/5054)
+- Fix: In profile page empty value in age field was causing errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5053](https://github.com/common-voice/common-voice/pull/5053)
+- Fix: Nested translation in profile page API tab, by [@moz-bozden](https://github.com/moz-bozden) in [#5050](https://github.com/common-voice/common-voice/pull/5050)
+
+#### Data Changes in v1.151.0
+
+- Migrate Catalan (`ca`) accents to new variants, by [@moz-bozden](https://github.com/moz-bozden) in [#5033](https://github.com/common-voice/common-voice/pull/5033)
+- Add new Irish (`ga-IE`) accents, by [@moz-bozden](https://github.com/moz-bozden) in [#5022](https://github.com/common-voice/common-voice/pull/5022)
+- Migrate Irish (`ga-IE`) accents to new variants (with migration-helper code above), by [@moz-bozden](https://github.com/moz-bozden) in [#5015](https://github.com/common-voice/common-voice/pull/5015)
+- Add Dloluo (`luo`) variants by [@ftyers](https://github.com/ftyers) in [#4569](https://github.com/common-voice/common-voice/pull/4969).
+
+#### Spontaneous Speech v1.151.0
+
+- Fix: Missing await in removeSSQuestions in migration-helpers (for migrate:down), by [@moz-bozden](https://github.com/moz-bozden) in [#482](https://github.com/common-voice/spontaneous-speech/pull/482)
+
+##### SS Data Changes in v1.151.0
+
+- Fix: Update language names in locales table to match CV and Pontoon, by [@moz-bozden](https://github.com/moz-bozden) in [#484](https://github.com/common-voice/spontaneous-speech/pull/484)
+- Add Western Sierra Puebla Nahuatl (`nhi`) questions by [@bandrandr](https://github.com/bandrandr) in [#483](https://github.com/common-voice/spontaneous-speech/pull/483)
+- Add Shona (`sn`) prompts by [@bandrandr](https://github.com/bandrandr) in [#481](https://github.com/common-voice/spontaneous-speech/pull/481)
+
+---
+
+### Changes merged after current release
+
+#### Data Changes after current release
+
+#### Spontaneous Speech after current release
+
+##### SS Data Changes after current release
+
+---
+
+## Past releases
+
 ### [v1.150.0 (2025-08-21)](https://github.com/common-voice/common-voice/releases/tag/release-v1.150.0)
 
 - Feat: Make use of local-storage to pass UI language to Spontaneous Speech, and make the menu links relative to installation, by [@moz-bozden](https://github.com/moz-bozden) in [#5043](https://github.com/common-voice/common-voice/pull/5043)
@@ -29,18 +70,6 @@
 - Add Spanish (`es`), Russian (`ru`), and Sena (`seh`) questions by [@bandrandr](https://github.com/bandrandr) in [#479](https://github.com/common-voice/spontaneous-speech/pull/479)
 
 ---
-
-### Next release v1.151.0 (TBA)
-
-#### Data Changes in v1.151.0 (TBA)
-
-#### Spontaneous Speech v1.151.0 (TBA)
-
-##### SS Data Changes in v1.151.0 (TBA)
-
----
-
-## Past releases
 
 ### [v1.149.0 (2025-08-12)](https://github.com/common-voice/common-voice/releases/tag/release-v1.149.0)
 
