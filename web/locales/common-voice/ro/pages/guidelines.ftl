@@ -119,7 +119,7 @@ what-makes-a-good-question-explanation = O întrebare potrivită pentru seturile
 what-makes-a-good-question-explanation-criteria-1 = să fie ușor de înțeles și să fie și ușor de răspuns la ea;
 what-makes-a-good-question-explanation-criteria-2 = să fie relevantă, de actualitate;
 what-makes-a-good-question-explanation-criteria-3 = să nu folosească și să nu instige la folosirea unui limbaj violent și ofensator.
-what-makes-a-good-question-tip = Ai putea propune întrebări valabile pentru mai multe contexte și domenii diferite.
+what-makes-a-good-question-tip = Poți propune întrebări valabile pentru mai multe contexte și domenii diferite.
 easy-to-understand = Ușor de înțeles
 easy-to-understand-explanation = Propune întrebări simple, ușor de înțeles de către oricine, indiferent de cultura din care vine sau de contextul în care trăiește.
 spelling-and-pronunciation = Ortografie și punctuație
@@ -216,6 +216,19 @@ review-the-transcription-explanation-3 = Poți semnala conținutul ofensator, vi
 ## Code-Switching
 
 code-switching = Combinarea mai multor limbi
+adding-a-question = Cum să contribui cu întrebări
+# Adding a Question
+code-switching-adding-question-subheader = Ce reprezintă „o întrebare bună”?
+code-switching-adding-question-explanation = O întrebare potrivită pentru seturile de date create de comunitate ar trebui să întrunească următoarele condiții:
+code-switching-adding-question-criteria-1 = să fie ușor de înțeles și să fie și ușor de răspuns la ea;
+code-switching-adding-question-criteria-2 = să fie relevantă, de actualitate;
+code-switching-adding-question-criteria-3 = să nu folosească și să nu instige la folosirea unui limbaj violent și ofensator.
+code-switching-adding-question-note = Poți propune întrebări valabile pentru mai multe contexte și domenii diferite.
+# What types of questions to add
+code-switching-types-subheader = Ce fel de întrebări poți propune?
+code-switching-use-bilingual-prompts-header = Propune întrebări cu text bilingv
+code-switching-use-bilingual-prompts-explanation = Propune întrebări care includ text în ambele limbi. De exemplu:
+code-switching-use-bilingual-prompts-explanation-example = „Ce ți-a spus mama ta when you got home that day?"
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-tagging-error-2 = Greșeli de ortografie
