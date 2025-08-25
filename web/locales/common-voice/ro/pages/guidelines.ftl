@@ -229,6 +229,7 @@ code-switching-types-subheader = Ce fel de întrebări poți propune?
 code-switching-use-bilingual-prompts-header = Propune întrebări cu text bilingv
 code-switching-use-bilingual-prompts-explanation = Propune întrebări care includ text în ambele limbi. De exemplu:
 code-switching-use-bilingual-prompts-explanation-example = „Ce ți-a spus mama ta when you got home that day?"
+code-switching-ask-bilingual-contexts-header = Pune întrebări referitoare la contextele bilingve
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-tagging-error-2 = Greșeli de ortografie
