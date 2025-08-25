@@ -203,16 +203,19 @@ transcribe-the-audio-subheader-4-explanation-1-example = Se numește <underline>
 transcribe-the-audio-subheader-4-explanation-2 = Uneori, vorbitorii repetă un cuvânt sau un fragment de cuvânt de mai multe ori, iar acest fenomen trebuie și el transcris. De exemplu:
 transcribe-the-audio-subheader-4-explanation-2-example = Iar apoi am apăsat pe <underline>un un un bu- un</underline> buton.
 transcribe-the-audio-subheader-5-explanation-1 = Este de așteptat ca vorbirea spontană să conțină și greșeli gramaticale, iar acestea nu trebuie corectate în timpul transcrierii. Transcrierea trebuie să corespundă exact înregistrării audio.
+transcribe-the-audio-subheader-5-explanation-2 = Vorbitorii pot folosi uneori cuvinte și expresii colocviale (cum ar fi „fază”, „tare", „marfă", etc.) care pot fi considerate incorecte. Acestea însă trebuie transcrise așa cum sunt și nu înlocuite cu variantele mai des întâlnite în limbajul formal (de exemplu, „situație", „foarte", „bine").
 
 ## Review the Transcription
 
-review-the-transcription = Verifică transcrierea
+review-the-transcription = Verificarea transcrierii
+review-the-transcription-subheader = Îndrumări generale
 review-the-transcription-explanation-1 = În general, recomandăm ca persoana care verifică transcrierea să fie alta decât cea care a efectuat-o inițial, deoarece este foarte greu să-ți verifici obiectiv propria transcriere! Cu cât există mai multe persoane diferite care verifică datele proiectului, cu atât este mai robust controlul calității, iar problemele precum conținut părtinitor sau cu prejudecăți vor scădea.
 review-the-transcription-explanation-2 = Citește instrucțiunile de transcriere de mai sus ca să vezi dacă o transcriere este corectă. Dacă nu este, o poți corecta și poți apoi trimite proiectului acele modificări.
 review-the-transcription-explanation-3 = Poți semnala conținutul ofensator, violent, sau care te îngrijorează, iar acesta nu îți va mai apărea pe pagina proiectului până când echipa Common Voice nu îl va verifica în detaliu.
 
 ## Code-Switching
 
+code-switching = Combinarea mai multor limbi
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-tagging-error-2 = Greșeli de ortografie
