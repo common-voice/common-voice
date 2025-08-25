@@ -32,11 +32,24 @@
 
 ### Next release v1.151.0 (TBA)
 
+- Feat: Remove sentences with taxonomy from circulation, by [@moz-dfeller](https://github.com/moz-dfeller) in [#5048](https://github.com/common-voice/common-voice/pull/5048)
+- Workaround: In profile add new language, language code was displayed for some languages, and we implemented the same workaround in [#5042](https://github.com/common-voice/common-voice/pull/5042), by [@moz-bozden](https://github.com/moz-bozden) in [#5051](https://github.com/common-voice/common-voice/pull/5150)
+- Fix: In speak (and possibly listen) page, incorrect check of sentences loaded state causing errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5054](https://github.com/common-voice/common-voice/pull/5054)
+- Fix: In dashboard, an early conditional return was causing rule-of-hooks violation for many users, by [@moz-bozden](https://github.com/moz-bozden) in [#5054](https://github.com/common-voice/common-voice/pull/5054)
+- Fix: In profile page empty value in age field was causing errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5053](https://github.com/common-voice/common-voice/pull/5053)
+- Fix: Nested translation in profile page API tab, by [@moz-bozden](https://github.com/moz-bozden) in [#5050](https://github.com/common-voice/common-voice/pull/5050)
+
 #### Data Changes in v1.151.0 (TBA)
+
+- Add Dloluo (`luo`) variants by [@ftyers](https://github.com/ftyers) in [#4569](https://github.com/common-voice/common-voice/pull/4969).
 
 #### Spontaneous Speech v1.151.0 (TBA)
 
+- Fix: Missing await in removeSSQuestions in migration-helpers (for migrate:down), by [@moz-bozden](https://github.com/moz-bozden) in [#482](https://github.com/common-voice/spontaneous-speech/pull/482)
+
 ##### SS Data Changes in v1.151.0 (TBA)
+
+- Add Shona (`sn`) prompts by [@bandrandr](https://github.com/bandrandr) in [#481](https://github.com/common-voice/spontaneous-speech/pull/481)
 
 ---
 
@@ -94,7 +107,7 @@
 
 #### Data Changes in v1.148.0
 
-- (in v1.147.1) Lowered sentence requirement bands of 43 locales (mostly new ones defaulting to 5000) by [@moz-bozden](https://github.com/moz-bozden) in [#4569](https://github.com/common-voice/common-voice/pull/4969) thank you @ft [@ftyers](https://github.com/ftyers) for his review, and community members flagging the issue.
+- (in v1.147.1) Lowered sentence requirement bands of 43 locales (mostly new ones defaulting to 5000) by [@moz-bozden](https://github.com/moz-bozden) in [#4569](https://github.com/common-voice/common-voice/pull/4969) thank you [@ftyers](https://github.com/ftyers) for his review, and community members flagging the issue.
 
 #### Spontaneous Speech v1.148.0
 
