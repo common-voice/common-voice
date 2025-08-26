@@ -14,6 +14,14 @@ cs-question-page-instruction = დაამატეთ არაუმეტე
 cs-add-question-textarea-placeholder = შეიყვანეთ შეკითხვები ენების გადართვით თითოეული ცალკე ხაზზე. ხალხი უფრო მეტი ალბათობით უპასუხებს ენების ცვლით, თუ უშუალოდ შეკითხვაშიც წააწყდება ენების ცვლას.
 cs-question-dataset-name = კრებული: { $datasetName }
 
+## Tag Page Items
+
+cs-tag-dataset-name = კრებული [{ $datasetName }]
+
+## Guidelines
+
+learn-how-to-use = იხილეთ, როგორ გამოიყენოთ გვერდი
+
 ## Answer Page Guidelines
 
 cs-learn-how-to-use-answer-explanation = უპასუხეთ მოთხოვნას რაც შეიძლება ბუნებრივად, ნუ მოგერიდებათ ენების ცვლა, თუ ეს თქვენთვის დამახასიათებელია ყოველდღიურობაშიც. ეცადეთ, თქვენი ნალაპარაკევი იყოს მეტად თავაზიანი და უწყინარი.

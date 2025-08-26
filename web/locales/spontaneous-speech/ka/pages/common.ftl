@@ -62,6 +62,7 @@ snv = საბანი
 xkl = კენიური
 # Locales-Variants
 ms-MY = ბაჰასა-მალაური
+el-CY = კვიპროსული ბერძნული
 
 ## Language search component
 
