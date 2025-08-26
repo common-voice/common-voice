@@ -2,10 +2,10 @@
 
 ## Current release
 
-### [v1.151.0 (2025-08-25)](https://github.com/common-voice/common-voice/releases/tag/release-v1.151.0)
+### [v1.151.0 (2025-08-26)](https://github.com/common-voice/common-voice/releases/tag/release-v1.151.0)
 
 - Feat: Remove sentences with taxonomy from circulation, by [@moz-dfeller](https://github.com/moz-dfeller) in [#5048](https://github.com/common-voice/common-voice/pull/5048)
-- Feat: Added accent-variant migration code (as part of Irish (`ga-IE`) migrations below), by [@moz-bozden](https://github.com/moz-bozden) in [#5015](https://github.com/common-voice/common-voice/pull/5015)
+- Feat: Added accent-variant migration code (as part of Irish (`ga-IE`) migrations below), by [@moz-bozden](https://github.com/moz-bozden) in [#5015](https://github.com/common-voice/common-voice/pull/5015), many thanks to [@moz-kathyreid](https://github.com/moz-kathyreid) for extensive testing.
 - Workaround: In profile add new language, language code was displayed for some languages, and we implemented the same workaround in [#5042](https://github.com/common-voice/common-voice/pull/5042), by [@moz-bozden](https://github.com/moz-bozden) in [#5051](https://github.com/common-voice/common-voice/pull/5051)
 - Fix: In speak (and possibly listen) page, incorrect check of sentences loaded state causing errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5054](https://github.com/common-voice/common-voice/pull/5054)
 - Fix: In dashboard, an early conditional return was causing rule-of-hooks violation for many users, by [@moz-bozden](https://github.com/moz-bozden) in [#5054](https://github.com/common-voice/common-voice/pull/5054)

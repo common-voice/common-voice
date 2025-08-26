@@ -26,3 +26,9 @@ do-not-section-title = niet doen
 do-not-section-guideline-1 = Vragen om persoonlijk identificeerbare informatie (zoals namen of financiële informatie)
 do-not-section-guideline-2 = Vooroordelen of beledigende gevoelens uiten of ernaar vragen
 do-not-section-guideline-3 = Gevoelige vragen stellen
+# Code switching Guidelines
+cs-do-section-guideline-1 = Tweetalige vragen of context gebruiken
+cs-do-section-guideline-2 = Informele scenario’s, situaties of herbelevingen verkennen
+cs-do-not-section-guideline-1 = Vragen om persoonlijk identificerende gegevens (zoals namen of financiële gegevens) of beledigende gevoelens
+cs-do-not-section-guideline-2 = Vragen om taalwisseling of vertaling
+cs-do-not-section-guideline-3 = Overdreven formele taal gebruiken

@@ -11,3 +11,7 @@ error-content-404 = ບາງທີ <homepageLink>homepage</homepageLink> ຂອ
 error-title-503 = ພວກເຮົາປະສົບກັບເວລາຢຸດເຮັດວຽກທີ່ບໍ່ຄາດຄິດ
 error-content-503 = ເວັບໄຊດັ່ງກ່າວຈະຖືກສຳຮອງຂໍ້ມູນໄວເທົ່າທີ່ຈະໄວໄດ້. ສໍາລັບຂໍ້ມູນຫຼ້າສຸດ, ກະລຸນາເຂົ້າຮ່ວມ <matrixLink>ການສົນທະນາຊຸມຊົນ Matrix</matrixLink> ຫຼືເຂົ້າໄປທີ່ <githubLink>GitHub</githubLink> ຫຼື <discourseLink>ກະດານສົນທະນາຂອງພວກເຮົາ</discourseLink> ເພື່ອສົ່ງ ແລະຕິດຕາມບັນຫາປະສົບການຂອງເວັບໄຊ.
 error-code = ຂໍ້ຜິດພາດ { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all = ພວກເຮົາບໍ່ສາມາດອັບໂຫລດຄລິບ { $total } ໄດ້. ເຂົາເຈົ້າໄດ້ຖືກອັບໂຫຼດແລ້ວກ່ອນ. ມາຕໍ່ຊຸດຕໍ່ໄປ!
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = ພວກ​ເຮົາ​ໄດ້​ອັບ​ໂຫຼດ​ຄລິບ​ຂອງ​ທ່ານ { $uploaded } — ສ່ວນ​ທີ່​ເຫຼືອ​ໄດ້​ຖືກ​ອັບ​ໂຫຼດ​ແລ້ວ. ມາຕໍ່ຊຸດຕໍ່ໄປ!

@@ -4,6 +4,8 @@ guidelines-header-subtitle = Zjistěte, jak přispívat do datasetu Common Voice
 voice-collection = Sbírka hlasů
 sentence-collection = Sbírka vět
 question-collection = Sbírka otázek
+scripted-speech = Skritpovaná řeč
+spontaneous-speech = Spontánní řeč
 
 ## Voice Collection nav ids
 
@@ -136,3 +138,9 @@ offensive-content-sensitive-information-explanation-explanation-3 = Otázky, kte
 example-questions-subheader = Příklady otázek
 example-questions-explanation-1 = <examplePromptsLink>120 příkladů dotazů najdete v tomto listu.</examplePromptsLink>
 example-questions-explanation-2 = Pokud chcete odeslat soubor otázek ke zpracování, <githubLink>můžete tak učinit skrze náš GitHub</githubLink> nebo svůj seznam otázek poslat e-mailem na <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Odpovídat na otázky
+answer-questions-subheader = Obecné pokyny
