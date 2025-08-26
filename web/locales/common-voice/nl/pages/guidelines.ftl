@@ -149,6 +149,8 @@ example-questions-explanation-2 = Als u een reeks vragen voor opname wilt indien
 # Answer Questions
 answer-questions = Vragen beantwoorden
 answer-questions-subheader = Algemene richtlijnen
+answer-questions-explanation-1 = Denk even na over de vraag, bedenk wat u wilt zeggen, maar maak niet te veel scripts voor uzelf. Klik op het pictogram ‘opnemen’. Als u eenmaal hebt opgenomen, kunt u naar uzelf luisteren, opnieuw opnemen, verwijderen of indienen.
+answer-questions-explanation-2 = Onthoud – maak u geen zorgen als u stottert, pauzeert of een woord herhaalt. Dit zijn allemaal nuttige gegevens voor technici die inclusieve, levensechte spraakherkenningshulpmiddelen proberen te bouwen.
 answer-questions-tip-1 = Neem op een redelijk rustige plek op
 answer-questions-tip-2 = Kies een plek met een goede internetverbinding
 answer-questions-tip-3b = Probeer uw antwoord binnen 15-30 seconden te houden
@@ -163,12 +165,35 @@ transcribe-the-audio-subheader-3 = Speciale labels
 transcribe-the-audio-subheader-4 = Woordsegmenten, valse starts, herhaalde woorden
 transcribe-the-audio-subheader-5 = Grammaticale fouten en spreektaal
 transcribe-the-audio-subheader-1-explanation = In het algemeen dient u alles wat u hoort op te schrijven. Dit omvat;
+transcribe-the-audio-subheader-1-explanation-example-1 = Onvloeiendheden opschrijven, waaronder aarzelingen en herhalingen
+transcribe-the-audio-subheader-1-explanation-example-2 = Geluidsgebeurtenissen zoals hoesten of lachen labelen
+transcribe-the-audio-subheader-1-explanation-example-3 = Significante geluidsverstoring, zoals gepraat op de achtergrond of claxons, labelen
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammaticale variatie en straattaal moeten precies zoals ze voorkomen worden opgenomen. Corrigeer of bewerk spraak van mensen niet.
+transcribe-the-audio-subheader-2-explanation-1 = Cijfers en symbolen moeten in woorden worden gespeld in plaats van in cijfers of speciale tekens. Voorbeeld:
+transcribe-the-audio-subheader-2-explanation-2 = Acroniemen moeten worden geschreven zoals ze normaal in de taal worden geschreven, volgens de standaardregels voor hoofdlettergebruik. Ze mogen niet fonetisch worden getranscribeerd. Voorbeeld:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Goed</correct>: het is honderzestig kilometer van hier verwijderd
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Fout</wrong>: het is 160 kilometer van hier verwijderd
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Goed</correct>: tot in <underline>tweeduizendvijftien</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Fout</wrong>: tot in <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Goed</correct>: het was twintig procent afgeprijsd
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Fout</wrong>: het was 20% afgeprijsd
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Goed</correct>: ze zijn afgelopen donderdag door de <underline>AIVD</underline> gearresteerd
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Fout</wrong>: ze zijn afgelopen donderdag door de <underline>aa ie vee dee</underline> gearresteerd
+transcribe-the-audio-subheader-3-explanation = De volgende speciale labels moeten worden gebruikt om onvloeiendheden, opvullingen en andere typen van non-verbale inhoud (in het Engels) te markeren.
 tags-table-header-1 = Label
 tags-table-header-2 = Betekenis
 tags-laugh = Lachen
+tags-disfluency = Onvloeiendheid
 tags-unclear = Onduidelijk
 tags-noise = Ruis
 tags-laugh-explanation = Het geluid van gelach.
+tags-disfluency-explanation =
+    Een opvulwoord of -klank wordt als plaatshouder gebruikt terwijl een spreker bepaalt wat hij gaat zeggen.
+    In het Nederlands zijn enkele veelvoorkomende aarzelingsgeluiden ‘ehh’, ‘uhm’, ‘huh’, enz.
 
 ## Review the Transcription
 
