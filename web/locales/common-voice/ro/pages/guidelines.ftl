@@ -179,11 +179,11 @@ transcribe-the-audio-subheader-2-example-4-wrong = <correct>Greșit</correct>: A
 transcribe-the-audio-subheader-3-explanation = Următoarele etichete speciale trebuie utilizate pentru a indica carențele de fluență în exprimare, elementele fără valoare, de umplutură, și alte tipuri de conținut non-verbal. Etichetele trebuie păstrate în limba engleză.
 tags-table-header-1 = Etichetă
 tags-table-header-2 = Înțeles
-tags-laugh = Râset
+tags-laugh = Laugh
 tags-disfluency = Disfluency
 tags-unclear = Unclear
 tags-noise = Noise
-tags-laugh-explanation = „râs” - marchează sunetul unor persoane care râd.
+tags-laugh-explanation = „râset” - marchează sunetul unor persoane care râd.
 tags-disfluency-explanation =
     „lipsă de fluență” - marchează cuvintele sau sunetele de umplutură folosite de vorbitori în timp ce se hotărăsc ce vor să spună de fapt.
     Exemplele includ: „ăăă”, „hmm”, „deci...”, „păi...”, etc.
