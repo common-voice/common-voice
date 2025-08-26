@@ -289,6 +289,9 @@ code-switching-transcribe-do-1 = მოკლე მონაკვეთებ�
 code-switching-transcribe-do-2 = შეჩერდით ყოველი წინადადების შემდგომ, ხელახლა რომ გადაამოწმოთ მონაცვლეობა ან შერეული სიტყვები
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = ზუსტად გადმოიტანეთ ზეპირი მეტყველებით წარმოთქმული
+code-switching-capture-explanation = ნაწერად გადმოეცით ორივე ისე, როგორც ჩანს / გამოითქმის. ნუ „შეასწორებთ“ ენას ან ნუ გადაცვლით მხოლოდ ერთ ენაზე.
+# Include filler words and markers
+code-switching-filler-header = დაურთეთ შემავსებელი სიტყვები და მონიშვნები
 # Tagging
 code-switching-tagging-subheader = ჭდეების დართვა
 code-switching-tagging-error-intro = თუ ნაწერად ქცეული შეცდომებითაა, გთხოვთ მოხსენების მეშვეობით მონიშნოთ. შესაძლო შეცდომებია:
