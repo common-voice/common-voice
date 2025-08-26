@@ -331,6 +331,7 @@ sco = Lågskotska
 sd = Sindhi
 sdh = Sydkurdiska
 sdo = Serian Bidayuh
+seh = Sena
 sei = Seri
 shi = Shilha
 shn = Shan

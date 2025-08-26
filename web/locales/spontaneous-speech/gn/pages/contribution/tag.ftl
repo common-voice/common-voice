@@ -1,5 +1,7 @@
 ## Tagging Page
 
+tag-page-instruction = Eiporavo <icon></icon> moñe’ẽrã eñepyrũ hag̃ua
+tag-terms-checkbox = Amoneĩ Common Voice Ñemboguata ha Ñemigua.
 tag-popover-title = Eiporavo teramoĩ
 select-a-tag = Eiporavo teramoĩ
 edit-tag = Embosako’i teramoĩ

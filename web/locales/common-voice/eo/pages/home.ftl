@@ -84,10 +84,106 @@ press-and-stories = Gazetaro kaj artikoloj
 community-and-languages = Komunumoj kaj lingvoj
 coming-soon = Baldaŭ
 about-us = Pri ni
+scripted-speech = SKRIPTITA PAROLADO
+spontaneous-speech = SPONTANEA PAROLADO
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partnerecoj, gazetaro kaj rakontoj, komunumo kaj lingvoj
+about-us-menu-item-tooltip = Lernu pri la misio kaj teamo malantaŭ Common Voice
+partnerships-menu-item-tooltip = Esploru organizaĵojn subtenantajn Common Voice tra la mondo
+press-and-stories-menu-item-tooltip = Legu rakontojn, ĝisdatigojn kaj amaskomunikilajn artikolojn pri Common Voice
+community-and-languages-menu-item-tooltip = Konektiĝu kun nia komunumo kaj vidu subtenatajn lingvojn
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Menuo por aliri partnerecojn, gazetaron kaj artikolojn, komunumon kaj lingvojn
+about-us-menu-aria-label = Ebloj de la menuo "Pri ni"
+about-us-menu-item-aria-label = Ebloj de la menuo "Pri ni"
+partnerships-menu-item-aria-label = Lernu pri kunlaboroj kun Common Voice
+press-and-stories-menu-item-aria-label = Aliru gazetarajn komunikojn kaj rakontojn rilatajn al Common Voice
+community-and-languages-menu-item-aria-label = Esploru la komunumon kaj lingvojn subtenatajn de Common Voice
+
+## Hero section
+
+hero-title = Teknologio kiu parolas vian lingvon
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kial AI funkciu nur por kelkaj lingvoj de la mondo?</bold>
+hero-subtitle-2 = Nia lingvo estas nia rakonto, nia komunumo, nia kulturo. Ni kreu la datumbazojn, kiujn ni volas vidi en la mondo.
+# icon is an arrow that points downwards
+get-started = Eku <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice estas senpaga, malfermfonta platformo por kreado de datumoj gvidataj de komunumoj
+action-items-section-subtitle = Ĉiu povas konservi, revivigi kaj plibonigi sian lingvon per kunhavigo, kreado kaj administrado de tekstaj kaj parolaj datumaroj.
+scripted-card-header = Skriptita parolado
+spontaneous-card-content = Respondu al promptoj por krei datumarojn por organikaj, parollingvaj kuntekstoj. Perfekta por ĉefe buŝaj lingvoj.
 language-text-card-header = Lingva teksto
+language-text-card-content = Kreu aŭ dividu publik-havaĵajn promptojn, frazojn kaj tekston por traduko, malgrandajn lingvomodelojn kaj pli.
 coming-soon = Baldaŭ
 add-text = Aldoni tekston
 answer = Respondo
+
+## Community section
+
+community-section-title = Kreita de tutmondaj komunumoj, por tutmondaj komunumoj — 130 lingvoj kaj kreskante!
+join-discord-community = Aliĝu al la komunumo en Discord
+# label for button
+join-discord-community-action = Aliĝu al nia komunumo en Discord
+join-discord-community-content = Partoprenu en diskutoj de la lingvokomunumo, faru demandojn, kaj eksciu pri venontaj eventoj kaj prelegoj.
+find-us-on-matrix = Trovu nin ĉe Matrix
+find-us-on-matrix-content = Matrix estas malferma, malpeza protokolo por malcentralizita, realtempa komunikado, kaj la preferata malferma diskuta platformo de Mozilla.
+# label for button
+find-us-on-matrix-action = Trovu nin ĉe Matrix
+ask-mozilla-share = Petu al Mozilla disvastigi viajn eventojn
+ask-mozilla-share-content = Ĉu vi havas pasintan aŭ venontan eventon? Dividu ĝin kun ni kaj ni anoncos ĝin al nia komunumo aŭ skribos blogan artikolon pri ĝi!
+# label for button
+ask-mozilla-share-action = Dividu vian eventon
+download-contribution-certificate = Elŝutu vian kontribuan atestilon
+download-contribution-certificate-content = Elŝutu atestilon por viaj eventoj aŭ por vi mem se vi kontribuis al Common Voice — tio ne estus ebla sen vi!
+# label for button
+download-contribution-certificate-action = Akiru vian atestilon
+contribute-github = Kontribuu ĉe GitHub
+contribute-github-content = Ĉi tiu projekto ne estus ebla sen homoj kiel vi. 🎉 Estas multaj manieroj partopreni en Common Voice - vi ne devas scii kiel programi por kontribui!
+# label for button
+contribute-github-action = Kontribuu ĉe GitHub
+
+## Featured section
+
+featured-section-title = Prezentita en...
+# icon is an arrow that points downwards
+download-press-pack = Elŝutu nian gazetaran dosieron <icon></icon>
+
+## Developers section
+
+developers-section-title = Publike alireblaj datumbazoj pri malferma parolo en pli ol 130 lingvoj
+developers-section-subtitle = Datumoj por ASR, STT, TTS, kaj aliaj NLP-kuntekstoj - kreitaj per komunuma partopreno.
+# icon is an arrow that points to the right
+explore-datasets = Esploru datumarojn <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = Subtenu malfermajn, komunume gvidatajn datumbazojn
+read-sentences-link = Legu frazojn
+validate-readings-link = Validigi legadojn
+contribute-link = Kontribuu al la teksta korpuso
+answer-questions-link = Respondu al demandoj
+transcribe-answers-link = Transkribu respondojn
+review-transcriptions-link = Kontrolu transkribojn
+contribute-text-link = Kontribuu tekston
+press-and-stories-link = Gazetaro kaj artikoloj
+
+## Partner section
+
+partner-section-title = Kunlaboru kun ni
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Teknologiaj kompanioj</bold> - investu en kreadon de malfermaj datumbazoj por prospera plurlingva artefarita inteligenteco-ekosistemo
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Civila socio kaj esploristoj</bold> - kreu, gastigu kaj dividu efikajn datumaron senpage
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropio</bold> - patronu la kreadon de datumbazoj por instigi lokan novaĵkreemon kaj disvolviĝon
+# icon is an arrow that points to the right
+get-in-touch-button = Kontaktu nin <icon></icon>
+# Partners section
+our-partners-include = Niaj partneroj inkludas ...

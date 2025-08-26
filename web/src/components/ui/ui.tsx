@@ -105,6 +105,7 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
     disabled,
     isLabelVisuallyHidden,
     dataTestId,
+    value,
     ...props
   } = allProps
 
@@ -115,6 +116,7 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
       required={required}
       disabled={disabled}
       data-testid={dataTestId}
+      value={value ?? ''}
       {...props}
     />
   )
@@ -271,7 +273,7 @@ export const Options = withLocalization(
   } & WithLocalizationProps) => (
     <>
       {Object.entries(children).map(([key, value]) => (
-        <option key={key} value={key}>
+        <option key={key ?? ''} value={key ?? ''}>
           {key === '' ? '' : getString(key, null, value)}
         </option>
       ))}

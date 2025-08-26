@@ -101,8 +101,8 @@ about-playbook-how-localize-content-5 = Vizionează videoclipul nostru explicati
 ## How to add sentences
 
 about-playbook-how-add-sentences = Cum adaug propoziții?
-about-playbook-how-add-sentences-content-1 = Poți adăuga propoziții pe <writePageLink>pagina de scriere</writePageLink> sau poți examina propoziții pe <reviewPageLink>pagina de examinare</reviewPageLink>.
-about-playbook-how-add-sentences-content-2 = Propozițiile trebuie revizuite și acceptate de două persoane pentru a fi incluse în resursele Common Voice. <languageGuidelinesLink>Aici</languageGuidelinesLink> poți crea instrucțiuni pentru limba ta. Propozițiile trebuie să se găsească în <licenseLink>domeniul public</licenseLink> și să fie mai scurte de 15 cuvinte. Poți solicita autorului sau proprietarului unui text să îl publice cu licența <waiverLink>Creative Commons CC0 folosind formularul nostru de renunțare la drepturi</waiverLink>, formular pe care trebuie să ni-l trimiți apoi la adresa commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-1 = Poți adăuga propoziții pe <writePageLink>pagina de scriere</writePageLink> sau poți verifica propoziții pe <reviewPageLink>pagina de verificare</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Propozițiile trebuie verificate și acceptate de două persoane pentru a fi incluse în resursele Common Voice. <languageGuidelinesLink>Aici</languageGuidelinesLink> poți crea instrucțiuni pentru limba ta. Propozițiile trebuie să se găsească în <licenseLink>domeniul public</licenseLink> și să fie mai scurte de 15 cuvinte. Poți solicita autorului sau proprietarului unui text să îl publice cu licența Creative Commons CC0 folosind <waiverLink> formularul nostru de renunțare la drepturi</waiverLink>, formular pe care trebuie să ni-l trimiți apoi la adresa commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Poți folosi instrumentul de extragere de propoziții <scraperLink>Sentence extractor</scraperLink> pentru a adăuga propoziții scurte de pe Wikipedia.
 
 ## How to record quality

@@ -246,6 +246,12 @@ email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin a
 email-opt-in-privacy-v2 = Ma tferneḍ armas n yimaylen, ad tqebleḍ ad tesseqdec Mozilla talɣut-a akken i d-tettwasegza deg <privacyLink>Tasertit n tbaḍnit n Mozilla</privacyLink>.
 indicates-required = * Yemmal-d urti ilaqen
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Nɣel
+# Text shown on a button that can be clicked to cancel an action
+cancel = Sefsex
+# Text shown on a button that can be clicked to delete an item
+delete = Kkes
 
 ## Donate banner
 

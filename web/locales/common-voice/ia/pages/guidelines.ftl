@@ -90,7 +90,7 @@ adding-sentences-subheader-length-explanation = Le phrase debe haber minus que 1
 adding-sentences-subheader-spelling-punctuation = Orthographia e punctuation
 adding-sentences-subheader-spelling-punctuation-explanation = Le orthographia del phrase debe esser correcte.
 adding-sentences-subheader-speakable = Pronunciabile
-adding-sentences-subheader-speakable-explanation = Le melior phrases es natural e conversational, illes deberea esser facile a leger pro quicunque. Dum es importante le diversitate phonetic e le parolas differente in le phrases, nos alsi tenta render phrases a registrar tanto involvente e amusante, pro nostre communitate de voluntarios, como possibile.
+adding-sentences-subheader-speakable-explanation = Le melior phrases es natural e conversational; illos deberea esser facile a leger. Ben que es importante haber diversitate phonetic e parolas differente in phrases, nos tamben tenta render le registration de phrases tanto captivante e amusante como possibile pro nostre communitate de voluntarios.
 adding-sentences-subheader-numbers = Numeros
 adding-sentences-subheader-numbers-explanation = Il non debe haber idealmente ulle digitos in le texto fonte perque illos pote causar problemas quando on lege in alte voce. Le maniera que un numero es legite depende del contexto e pote introducer confusion in le collection de datos. Per exemplo, le numero “2409” pote esser correctemente legite como ambe “vinti-quatro zero nove” e “duo milles quatro cento nove”.
 adding-sentences-subheader-abbreviations = Abbreviationes e acronymos
@@ -188,8 +188,8 @@ tags-unclear = Poco clar
 tags-noise = Ruito
 tags-laugh-explanation = Le sono de riso.
 tags-disfluency-explanation =
-    Un parola o sono repletor usate como marca-posto dum un parlator decide que dicer.
-    In anglese, alcun commun sonos de hesitation es “err”, “um”, “huh”, etc.
+    Un parola o sono usate pro plenar le tempore durante que un parlator decide que dicer.
+    Internationalmente, alcun commun sonos de hesitation es “em”, “eh”, “hmm”, etc.
 tags-unclear-explanation = Un parola o un sequentia de parolas que non pote esser comprendite.
 tags-noise-explanation =
     Ulle altere typo de ruito, tal como quando le parlator tussi o clara su gorga,
@@ -202,7 +202,7 @@ transcribe-the-audio-subheader-4-explanation-1 = Le discurso spontanee naturalme
 transcribe-the-audio-subheader-4-explanation-1-example = Su nomine es <underline>Jo- Jona-</underline> Jonatha.
 transcribe-the-audio-subheader-4-explanation-2 = Aliquando le parlantes repetera un parola o un fragmento de parola plure vices. Isto deberea esser transcribite anque. Exemplo:
 transcribe-the-audio-subheader-4-explanation-2-example = E pois io veniva a <underline>le le le cam- le</underline> camera a dormir
-transcribe-the-audio-subheader-5-explanation-1 = Le discurso spontanee naturalmente continera errores grammatical. Istos non deberea esser corrigite dum on los transcribera. Le transcription debe reflecter le contento parlate exactemente.
+transcribe-the-audio-subheader-5-explanation-1 = Le discurso spontanee naturalmente continera errores grammatical. Istes non deberea esser corrigite durante le transcription. Le transcription debe reflecter exactemente le contento parlate.
 transcribe-the-audio-subheader-5-explanation-2 = Parlantes pote usar colloquialismos (tal como, in anglese, “gonna”, “cuz”, etc.) que pote non esser considerate formalmente correcte. Istos deberea esser transcribite como illos es, e non cambiate a lor equivalentes plus formal.
 
 ## Review the Transcription
@@ -331,8 +331,8 @@ code-switching-single-token-explanation = Un sol token separate per spatio debe 
 code-switching-punctuation-tagging-header = Etiquettar punctuation in base al lingua vicin
 code-switching-punctuation-tagging-explanation = Etiquetta punctuation per le lingua plus proxime a sinistra. Exemplos:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
-code-switching-punctuation-tagging-explanation-example-1 = <purpura>e le sol tempore que</purpura> Maria <purpura>critava a me era</purpura> <blau>porque</blau> <purpura>illa ha tentate a a</purpura> printear <blau>un</blau> <purpura>ordine.</purpura> (BangorTalk)
-code-switching-punctuation-tagging-explanation-example-2 = <purpura>ma</purpura> <blau>tú los puedes comprar rojo, negro, azul</blau>, <purpura>qualcunque.</purpura> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-1 = <purple>e le sol tempore que<</purple> Maria <purple>critava a me era<purple> <blue>porque</blue> <purple>illa ha tentate a </purple> printear <blue>>un</blue> <purple>ordine.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>ma</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple><blue>qualcunque.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Attention al sosias
 code-switching-lookalikes-explanation = Alcun parolas pote apparer como un lingua ma es usate pro le altere. Etiquettar in base a significato e uso, non apparentia. Exemplos:

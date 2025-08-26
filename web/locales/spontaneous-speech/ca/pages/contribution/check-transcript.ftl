@@ -1,9 +1,11 @@
 ## Check Transcriptions page
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-transcription-page-instruction = { $actionType } <playIcon></playIcon> Escolteu el tall d'àudio i comproveu-ne la transcripció. Coincideix? Si no, editeu-lo perquè coincideixi perfectament.
+transcription-page-instruction = { $actionType } <playIcon></playIcon> escolteu el tall d'àudio i comproveu-ne la transcripció. Coincideix? Si no, editeu-la perquè coincideixi perfectament.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Comproveu
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = Actualment no hi ha cap transcripció per revisar en aquesta llengua. Si n'heu omès alguna, podeu continuar amb el contingut omès o bé podeu transcriure àudio i tornar-ho a provar més tard.
 vote-transcript-success = La transcripció s'ha votat correctament
 vote-transcript-error = S'ha produït un error en votar la transcripció
 transcript-edited-success = La transcripció s'ha editat correctament

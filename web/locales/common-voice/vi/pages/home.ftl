@@ -75,6 +75,8 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 answer-questions = Trả lời câu hỏi <small>(sắp ra mắt)</small>
 review-transcriptions = Đánh giá bản ghi
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
+review-questions = Duyệt câu hỏi
+transcribe-audio = Phiên âm âm thanh
 press-and-stories = Báo chí và tin tức
 community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt
@@ -90,8 +92,10 @@ community-and-languages-menu-item-tooltip = Khám phá các ngôn ngữ, cộng 
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Menu để truy cập quan hệ đối tác, báo chí và câu chuyện, cộng đồng và ngôn ngữ
 about-us-menu-aria-label = Menu tùy chọn Giới thiệu
 about-us-menu-item-aria-label = Menu tùy chọn Giới thiệu về chúng tôi
+partnerships-menu-item-aria-label = Tìm hiểu về quan hệ đối tác với Common Voice
 press-and-stories-menu-item-aria-label = Tìm kiếm các bản tin và bài viết liên quan đến dự án Common Voice
 community-and-languages-menu-item-aria-label = Khám phá cộng đồng và ngôn ngữ được hỗ trợ bởi Common Voice
 
@@ -107,12 +111,14 @@ get-started = Bắt đầu <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
+action-items-section-subtitle = Bất kỳ ai cũng có thể bảo tồn, phục hồi và nâng cao ngôn ngữ của mình bằng cách chia sẻ, tạo và quản lý các tập dữ liệu văn bản và lời nói.
 scripted-card-content = Đọc to các câu bằng ngôn ngữ của bạn và đóng góp vào bộ dữ liệu bài phát biểu của công chúng đa dạng nhất trên thế giới.
 spontaneous-card-content = Trả lời lời nhắc để tạo tập dữ liệu cho ngữ cảnh giao tiếp, tự nhiên. Hoàn hảo cho ngôn ngữ nói đầu tiên (oral-first languages).
 language-text-card-header = Ngôn ngữ văn bản
 language-text-card-content = Tạo hoặc chia sẻ lời nhắc, câu và văn bản thuộc phạm vi công cộng để dịch, mô hình ngôn ngữ nhỏ, và nhiều thứ khác.
 coming-soon = Sắp ra mắt
 add-text = Thêm văn bản
+answer = Trả lời
 
 ## Community section
 
@@ -141,6 +147,8 @@ contribute-github-action = Đóng góp trên GitHub
 ## Featured section
 
 featured-section-title = Được truyền thông bởi...
+# icon is an arrow that points downwards
+download-press-pack = Tải bộ tài liệu báo chí của chúng tôi <icon></icon>
 
 ## Developers section
 
@@ -156,6 +164,7 @@ read-sentences-link = Đọc câu
 validate-readings-link = Xác thực bài đọc
 contribute-link = Đóng góp vào ngữ liệu văn bản
 answer-questions-link = Trả lời câu hỏi
+transcribe-answers-link = Ghi lại câu trả lời
 review-transcriptions-link = Đánh giá bản ghi
 contribute-text-link = Đóng góp văn bản
 press-and-stories-link = Báo chí và tin tức

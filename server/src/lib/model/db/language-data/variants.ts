@@ -526,4 +526,14 @@ export const VARIANTS: Variant[] = [
     variant_name: 'Gaeilge Chaighdeánach',
     variant_token: 'ga-IE-caighd',
   },
+  {
+    locale_name: 'luo',
+    variant_name: 'Dholuo (Milambo)',
+    variant_token: 'luo-milambo',
+  },
+  {
+    locale_name: 'luo',
+    variant_name: 'Dholuo (Nyanduat)',
+    variant_token: 'luo-nyanduat',
+  },
 ]

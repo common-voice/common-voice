@@ -15,13 +15,21 @@ sc-review-write-title = Kiujn frazojn mi povas aldoni?
 sc-review-small-batch-title = Kiel aldoni plurajn frazojn
 new-sentence-rule-2 = Po malpli ol 15 vortoj en ĉiu frazo
 new-sentence-rule-3 = Uzu ĝustan gramatikon
+new-sentence-rule-4 = Uzu ĝustan ortografion kaj interpunkcion
 new-sentence-rule-5 = Sen ciferoj aŭ specialaj signoj
 new-sentence-rule-6 = Sen fremdaj literoj
+new-sentence-rule-7 = Enmetu taŭgan citaĵon
+new-sentence-rule-8 = Ideale natura kaj konversacia (la frazo estu facile legebla)
 guidelines = Gvidlinioj
 contact-us = Kontakti nin
 add-sentence-success = 1 frazo kolektita
 add-sentence-error = Eraro dum aldono de frazo
 sentence-domain-combobox-label = Temo de la frazo
+sentence-domain-select-placeholder = Elektu ĝis tri nomregnojn (nedeviga)
+# Sentence Domain dropdown option
+agriculture_food = Agrikulturo kaj nutrado
+# Sentence Domain dropdown option
+automotive_transport = Aŭtomobilo kaj transportado
 # Sentence Domain dropdown option
 finance = Financo
 # Sentence Domain dropdown option
@@ -48,6 +56,14 @@ sentence-variant-select-multiple-variants = Ĝenerala lingvo / pluraj variantoj
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Alŝutu <icon></icon> frazojn sen kopirajto (publika regno)
+sc-bulk-upload-instruction = Trenu vian dosieron ĉi tien aŭ <uploadButton>klaku por alŝuti</uploadButton>
+sc-bulk-upload-instruction-drop = Metu dosieron ĉi tien por alŝuti
+bulk-upload-additional-information = Se estas pliaj informoj, kiujn vi volas provizi pri ĉi tiu dosiero, bonvolu kontakti <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Se estas pliaj informoj, kiujn vi volas provizi pri ĉi tiu dosiero, kiuj ne estas inkluzivitaj en la ŝablono, bonvolu kontakti <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Provu denove trenante vian dosieron ĉi tien
+try-upload-again-md = Provu alŝuti denove
 select-file = Elekti dosieron
 select-file-mobile = Elekti dosieron por alŝuti
 accepted-files = Akceptitaj dosiertipoj: nur .tsv
@@ -64,6 +80,7 @@ too-many-files = Tro da dosieroj
 ## SMALL BATCH SUBMISSION
 
 small-batch-sentences-rule-2 = Aldonu po unu frazon en ĉiu linio
+small-batch-sentences-rule-3 = Apartigu frazojn en unu linion premante "Enter" aŭ "eniga klavo" unufoje
 small-batch-sentences-rule-4 = Aldoni ĝis 1000 frazojn
 # menu item
 add-sentences = Aldoni frazojn

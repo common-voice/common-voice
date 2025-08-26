@@ -95,6 +95,9 @@ release-version = Verzia
 dataset-date = Dátum
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Zmiešaná
+# Support old genders in older datasets
+male = Muž
+female = Žena
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Stiahnite si naše hlasové kolekcie údajov
 # MENU ITEM ARIA LABELS

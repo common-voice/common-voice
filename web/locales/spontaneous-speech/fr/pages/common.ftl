@@ -36,6 +36,7 @@ respond-to-prompt-mobile = Répondre
 transcribe = Transcrire
 check-transcriptions = Vérifier les transcriptions
 check-transcriptions-mobile = Vérifier
+tag = Identification
 
 ## Not Found Page
 

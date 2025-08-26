@@ -8,7 +8,7 @@ datasets-positioning =
     Le jeu de données multilingue Common Voice est déjà le plus grand jeu de données vocales disponible de ce type, mais ce n’est pas le seul.
     
     Cette page de référence liste d’autres jeux de données open source et, au fur et à mesure que le projet Common Voice continuera d’évoluer, cette page proposera aussi nos prochaines mises à jour.
-datasets-speech-bubble-content = Bonne nouvelle ! Le discours spontané arrive ! Restez à l’écoute des mises à jour et n’oubliez pas de consulter notre <discordLink>Discord</discordLink> pour obtenir les dernières informations.
+datasets-speech-bubble-content = Bonne nouvelle ! La parole spontanée arrive ! Restez à l’écoute et n’oubliez pas de consulter notre <discordLink>Discord</discordLink> pour obtenir les dernières informations.
 language = Langue
 download-dataset-header = Télécharger le jeu de données
 download-delta-explainer = Nous avons effectué quelques changements. Les segments Delta contiennent uniquement les échantillons les plus récents depuis la dernière version. <deltaLink>En apprendre davantage à ce sujet</deltaLink>.

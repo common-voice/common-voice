@@ -336,6 +336,7 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> 
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Byddwch yn Ofalus gyda'r Rhai sy'n Edrych yn Debyg
 code-switching-lookalikes-explanation = Efallai y bydd rhai geiriau yn edrych fel un iaith ond yn cael eu defnyddio yn y llall. Tagiwch nhw'n seiliedig ar ystyr a defnydd, nid ymddangosiad. Enghreifftiau:
+code-switching-lookalikes-explanation-example-2 = “Careio” yn cael ei ddefnyddio'n Gymraeg > tagio fel Cymraeg
 # When Not to Tag Words
 code-switching-not-tag-header = Pryd i Beidio â Thagio Geiriau
 code-switching-not-tag-explanation = <bold>Peidiwch tagio</bold> rhai geiriau gyda label iaith, hyd yn oed os ydyn nhw'n ymddangos yn gymysg neu wedi'u haddasu.  Dyma sut i drin rhai enghreifftiau:

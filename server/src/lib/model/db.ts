@@ -375,12 +375,14 @@ export default class DB {
       `
         SELECT *
         FROM (
-          SELECT id, text
+          SELECT sentences.id, text
           FROM sentences
+          LEFT JOIN taxonomy_entries te ON te.sentence_id = sentences.id
           WHERE
             is_used
             AND locale_id = ?
             AND clips_count <= 15
+            AND te.sentence_id IS NULL
             AND NOT EXISTS (
               SELECT original_sentence_id
               FROM clips

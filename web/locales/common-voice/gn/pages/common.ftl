@@ -331,6 +331,7 @@ sco = Escocia-gua
 sd = Sindhi
 sdh = Kurdo del sur
 sdo = Serian Bidayuh
+seh = Kóva
 sei = Seri
 shi = Shilha
 shn = Shan

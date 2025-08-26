@@ -56,5 +56,7 @@ review-error = Okazis eraro dum kontrolo de tiu ĉi frazo
 review-error-rate-limit-exceeded = Vi laboras tro rapide. Bonvolu preni momenton por kontroli la frazon por certi, ke ĝi estas ĝusta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ni faras kelkajn gravajn ŝanĝojn
+sc-redirect-page-subtitle-1 = La kolektilo de frazoj translokiĝas al la kerna platformo de Common Voice. Vi nun povas <writeURL>skribi</writeURL> frazon aŭ <reviewURL>kontroli</reviewURL> unuopajn frazojn senditaj al Common Voice.
+sc-redirect-page-subtitle-2 = Demandu aferojn al ni en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> aŭ <emailLink>retpoŝte</emailLink>.
 # menu item
 review-sentences = Kontroli frazojn

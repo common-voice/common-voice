@@ -331,6 +331,7 @@ sco = Šotiska jendźelšćina (Scots)
 sd = Sindišćina, Sindhi
 sdh = Južna kurdišćina
 sdo = Serian Bidajuh
+seh = Sena
 sei = Seri
 shi = Tašelhitšćina
 shn = Šan

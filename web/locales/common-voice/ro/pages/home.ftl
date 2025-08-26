@@ -79,7 +79,7 @@ read-more-about = Află mai multe pe pagina Despre noi
 ## NAV ITEMS
 
 answer-questions = Răspunde la întrebări
-review-transcriptions = Evaluează transcrierile
+review-transcriptions = Verifică transcrieri
 add-questions = Adaugă întrebări
 review-questions = Verifică întrebări
 transcribe-audio = Transcrie înregistrări audio
@@ -175,7 +175,7 @@ validate-readings-link = Validează înregistrările altora
 contribute-link = Contribuie la colecția de texte scrise
 answer-questions-link = Răspunde la întrebări
 transcribe-answers-link = Transcrie răspunsuri
-review-transcriptions-link = Evaluează transcrierile
+review-transcriptions-link = Verifică transcrieri
 contribute-text-link = Contribuie un text
 press-and-stories-link = Presă și relatări
 

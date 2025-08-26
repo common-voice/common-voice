@@ -53,6 +53,7 @@ login = ورود
 edit = ویرایش
 email-subscriptions = اشتراک‌های رایانامه
 download-profile = دریافت داده‌های من
+api-credentials = API
 contribution-experience = تجربه مشارکت
 skip-submission-feedback = پرش از ارسال بازخورد
 skip-submission-description = در حین مشارکت در تکمیل بازخورد، پس از کلیک کردن روی «ارسال» بازخورد حذف خواهد شد. مشارکت به طور مستقیم با مجموعه پنج‌تایی بعدی ضبط شده‌ها یا اعتبارسنجی ادامه خواهد یافت.

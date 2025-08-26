@@ -32,8 +32,11 @@ continue-with-skipped = Pokračovať s preskočenými
 question = Otázka
 validate = Skontrolovať
 respond-to-prompt = Odpovedať na výzvu
+respond-to-prompt-mobile = Odpovedajte
 transcribe = Prepis
 check-transcriptions = Skontrolujte prepisy
+check-transcriptions-mobile = Kontrolujte
+tag = Popisujte
 
 ## Not Found Page
 
@@ -59,6 +62,7 @@ snv = Sa'ban
 xkl = Keňa
 # Locales-Variants
 ms-MY = Bahasa malajčina
+el-CY = Cyperská gréčtina
 
 ## Language search component
 

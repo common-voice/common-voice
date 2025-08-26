@@ -11,3 +11,7 @@ error-content-404 = Có lẽ <homepageLink>trang chủ</homepageLink> của chú
 error-title-503 = Trang web hiện không thể truy cập được
 error-content-503 = Các trang web sẽ quay lại càng sớm càng tốt. Để biết thông tin mới nhất, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink> hoặc truy cập <githubLink>GitHub</githubLink> hoặc <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink> để gửi và theo dõi các vấn đề về trải nghiệm trang web.
 error-code = Lỗi { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all = Chúng tôi không thể tải lên { $total } clip. Chúng đã được tải lên trước đó. Hãy tiếp tục với phần tiếp theo!
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Chúng tôi đã tải lên { $uploaded } clip của bạn — Phần còn lại đã được tải lên. Hãy tiếp tục với phần tiếp theo!

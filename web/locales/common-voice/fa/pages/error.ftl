@@ -11,3 +11,11 @@ error-content-404 = شاید <homepageLink>صفحه اصلی</homepageLink> ما
 error-title-503 = ما خرابی غیرمنتظره را تجربه می‌کنیم
 error-content-503 = وبگاه به زودی دوباره در دسترس خواهد بود. برای دریافت آخرین اطلاعات، لطفا به <matrixLink>گفتگوی اجتماع ماتریکس</matrixLink> بپیوندید یا به <githubLink>گیت‌هاب</githubLink> یا <discourseLink>انجمن‌های دیسکورس ما</discourseLink> مراجعه کنید تا مشکلات مربوط به تجربه وب‌گاه را ارسال و پیگیری کنید.
 error-code = خطا { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] نتوانستیم صدای شما را بارگذاری کنیم. قبلا بارگذاری شده است. بیایید با دسته‌ی بعدی ادامه دهیم!
+       *[other] نتوانستیم { $total } صدای شما را بارگذاری کنیم. اون‌ها قبلا بارگذاری شده‌اند. بیایید با دسته‌ی بعدی ادامه دهیم!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = { $uploaded } صدای شما بارگذاری شد — باقی‌مانده قبلا بارگذاری شده‌اند. بیایید با دسته‌ی بعدی ادامه دهیم!

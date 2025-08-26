@@ -328,6 +328,7 @@ sco = Scots
 sd = Sindhi
 sdh = Southern Kurdish
 sdo = Serian Bidayuh
+seh = Sena
 sei = Seri
 shi = Shilha
 shn = Shan
