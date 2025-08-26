@@ -21,6 +21,7 @@
 
 #### Spontaneous Speech v1.151.0
 
+- Feat: Mark valid/invalid users in users table to process further in CV-SS merge, by [@moz-bozden](https://github.com/moz-bozden) in [#478](https://github.com/common-voice/spontaneous-speech/pull/478)
 - Fix: Missing await in removeSSQuestions in migration-helpers (for migrate:down), by [@moz-bozden](https://github.com/moz-bozden) in [#482](https://github.com/common-voice/spontaneous-speech/pull/482)
 
 ##### SS Data Changes in v1.151.0
