@@ -245,9 +245,15 @@ code-switching-direct-quotes-explanation-example = ‘Wat waren uw exacte woorde
 code-switching-cultural-topics-header = Kies cultureel specifieke onderwerpen
 code-switching-cultural-topics-explanation = Voedsel, tradities, feestdagen en gezinsdynamiek nodigen vaak uit tot taalwisseling.
 code-switching-cultural-topics-explanation-example = ‘Hoe beschrijf je Día de los Muertos aan iemand die alleen Engels spreekt?’
+code-switching-informal-scenarios-header = Verken informele scenario’s
+code-switching-informal-scenarios-explanation = Gesprekken met vrienden of sms’jes bevatten vaak meer natuurlijk wisselen. Voorbeeld:
+code-switching-informal-scenarios-explanation-example = ‘Wat is een grap die uw vrienden altijd maken – en hoe zeggen ze dat?’
 # What to Avoid
 code-switching-avoid-subheader = Wat te vermijden
 code-switching-avoid-intro = Vragen die mogelijk:
+code-switching-avoid-1 = Vragen om persoonlijk identificerende gegevens
+code-switching-avoid-2 = Vragen om haatdragende taal of andere bevooroordeelde of beledigende gevoelens
+code-switching-avoid-3 = Zorgen dat iemand gevoelige, mogelijk activerende antwoorden deelt
 code-switching-dont-header = Niet doen
 code-switching-dont-1 = Gebruik geen al te formele taal
 # Reviewing a Question
@@ -264,8 +270,57 @@ code-switching-review-no-2 = Vragen die kunnen aanzetten tot haat of andere bevo
 code-switching-review-no-3 = Vragen die ervoor kunnen zorgen dat iemand gevoelige, mogelijk activerende antwoorden deelt
 # Answering a Question
 code-switching-answer-subheader = Een vraag beantwoorden
+code-switching-answer-intro = Bij het beantwoorden van een vraag is het doel om natuurlijk te antwoorden – net zoals u zou doen in een echt gesprek. We willen vastleggen hoe talen zich daadwerkelijk vermengen in alledaagse spraak.
+code-switching-answer-bullet-1 = Denk aan momenten of situaties uit het echte leven: grappen, discussies, tradities
+code-switching-answer-bullet-2 = Stel u voor dat u een sms naar een vriend stuurt of iemand een verhaal vertelt
+code-switching-answer-bullet-3 = Gebruik woorden die u ook echt zou gebruiken, zelfs als ze geleend of gemengd zijn
+code-switching-answer-bullet-4 = Er is geen ‘perfecte’ manier om te antwoorden
+code-switching-authentic-header = Antwoord natuurlijk en authentiek
+code-switching-authentic-speak = <bold>Praat zoals u met vrienden of familie u zou willen praten.</bold> Als u in het echte leven talen vermengt, doe dan hier hetzelfde. Voorbeeld:
+code-switching-authentic-speak-example = “Bro, ik zei haar dat ik niet kon gaan, maar ze zei: ‘Je kunt maar beter komen opdagen!’”
+code-switching-use-both-languages = <bold>Gebruik beide talen als dat is hoe u het normaal gesproken zou zeggen.</bold> Zelfs het wisselen van slechts een of twee woorden is nuttig. Voorbeeld:
+code-switching-use-both-languages-example = ‘Ze werd echt kwaad, donc ik heb haar niet teruggebeld.’
+code-switching-authentic-direct-quotes = <bold>Neem directe citaten of dialogen op.</bold> Zeg precies wat iemand heeft gezegd, geen opgeschoonde of formele versie. Voorbeeld:
+code-switching-authentic-direct-quotes-example = “Ma maman a dit, ‘Tu penses que c'est un jeu?’, en ik dacht, ‘Oké, relax!’”
+code-switching-authentic-reflect = <bold>Weerspiegel emotie, identiteit en context.</bold> Wisselen vindt meestal plaats wanneer mensen emoties, urgentie of culturele ideeën uiten. Houd hier rekening mee bij het beantwoorden van vragen.
+code-switching-authentic-full-context = <bold>Gebruik volledige antwoorden met context.</bold> Wees zo gedetailleerd mogelijk en geef zo veel mogelijk details. Deel een verhaal of voorbeeld in uw antwoorden.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Denk niet te veel na of overbewerk het niet
+code-switching-answer-dont-correct-language = <bold>‘Corrigeer’ uw taalgebruik.</bold> Dit is geen test. De ‘juiste’ vorm doet er hier niet toe, natuurlijke taal wel.
+code-switching-answer-dont-avoid-switching = <bold>Omschakelen vermijden als u dat normaal gesproken doet.</bold> Het is prima om halverwege een zin, halfweggedachte of slechts voor een woord te wisselen.
+code-switching-answer-dont-formal-writing = <bold>Praten alsof u formeel schrijft.</bold> Vermijd formele, academische antwoorden. Houd het gemoedelijk.
+code-switching-answer-dont-force-switch = <bold>Wisselen forceren als het niet natuurlijk is.</bold> Wissel alleen als dat is hoe u in die situatie van nature zou praten.
+code-switching-answer-dont-translate-repeat = <bold>Alles vertalen of herhalen.</bold> Zeg het gewoon één keer, zoals het in een gesprek zou gaan. U hoeft niet een versie van het antwoord in elke taal in te spreken.
 # Transcribing
 code-switching-transcribe-subheader = Transcriberen
+code-switching-transcribe-intro = Geef bij het uitschrijven van antwoorden die taalwisseling bevatten de taal van de spreker weer zoals deze werd gesproken – zonder correctie, bewerking of vereenvoudiging. Dit is voor alle omschakelingen tussen talen, informele spraak en woorden in gemengde talen.
+code-switching-transcribe-do-1 = Speel korte segmenten meermaals af om subtiele wisselingen te vangen
+code-switching-transcribe-do-2 = Pauzeer na elke zin om te controleren op wisselingen of gemengde woorden
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Leg spraak exact vast zoals gesproken
+code-switching-capture-explanation = Transcribeer beide talen zoals ze verschijnen / klinken. ‘Repareer’ de taal niet en wijzig deze niet in slechts één taal.
+# Include filler words and markers
+code-switching-filler-header = Neem stopwoorden en markeringen op
+code-switching-filler-explanation = Woorden als ‘ehm’, ‘weet je’, ‘zus’, ‘zoiets van’ en ‘dus’ zijn veelbetekenend. Voorbeeld: ‘Dus, ehm, ik zei dus tegen haar ‘niet nu zus, misschien later.’’
+# Use standard spelling for each language
+code-switching-spelling-header = Gebruik standaardspelling voor elke taal
+code-switching-spelling-explanation = Probeer woorden voor elke taal correct te spellen, tenzij de spreker het duidelijk op een niet-standaard manier uitspreekt.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Schoon de taal niet op en vereenvoudig deze niet
+code-switching-cleanup-1 = Vertalen of parafraseren – schrijf wat de spreker zei, niet wat deze ‘bedoelde’.
+code-switching-cleanup-2 = ‘Corrigeren’ van grammatica of uitspraak – behoud het natuurlijke gebruik van de spreker.
+code-switching-cleanup-3 = Wisselingen die klein lijken overslaan – zelfs geleende woorden zijn belangrijk.
+code-switching-cleanup-4 = Leestekens invoegen die de betekenis zouden kunnen veranderen – houd de flow natuurlijk.
+code-switching-cleanup-5 = Aannemen dat u de taal van elk woord kent – label op basis van gebruik.
+# Tagging
+code-switching-tagging-subheader = Labelen
+code-switching-tagging-error-intro = Als de transcriptie een fout bevat, gebruik dan de rapporteerfunctie om deze te markeren. Mogelijke fouten zijn:
+code-switching-tagging-error-1 = Onjuiste interpunctie of hoofdletters
+code-switching-tagging-error-2 = Typfouten
+code-switching-tagging-error-3 = Woorden in de verkeerde spelling
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Correcte spelling voor elke taal gebruiken
+code-switching-orthography-explanation = Schrijf elk woord volgens de spelling van de taal waarin het afkomstig is. Bijvoorbeeld:
 code-switching-orthography-explanation-example-1 = Als het woord ‘keuken’ wordt uitgesproken als in het Spaans, moet het worden geschreven als in het Nederlands, niet als ‘quechen’.
 code-switching-orthography-explanation-example-2 = Als het woord quinceaños wordt uitgesproken als in het Nederlands, schrijf het dan met de ñ.
 # Use Pronunciation to Help Determine the Language
