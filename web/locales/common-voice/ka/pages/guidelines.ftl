@@ -316,7 +316,7 @@ code-switching-orthography-explanation-example-1 = თუ სიტყვა „
 code-switching-orthography-explanation-example-2 = თუ სიტყვა მეზუ̂ბელ შეგხვდებათ ქართულში, დაწერისას გამოიყენეთ უ̂.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = დაუკვირდით გამოთქმას ენის გამოსაცნობად
-code-switching-pronunciation-explanation = ზოგიერთი სიტყვა ორივე ენაში მსგავსი შეიძლება იყოს, მაგრამ განსხვავებულად წარმოითქვას.  კარგად მოუსმინეთ გამოთქმას ჭდეების სწორად მითითებისთვის.  მაგალითად: ნაბეტანი, სათი, სუმარი, ძალიერი, წყარი.
+code-switching-pronunciation-explanation = ზოგიერთი სიტყვა ორივე ენაში მსგავსი შეიძლება იყოს, მაგრამ განსხვავებულად წარმოითქვას.  კარგად მოუსმინეთ გამოთქმას ჭდეების სწორად მითითებისთვის.  მაგალითად: ნაბეტანი, წვანე, სუმარი, ძალიერი, წყარი.
 
 ## Reporting Content
 
