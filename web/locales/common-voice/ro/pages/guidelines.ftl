@@ -24,6 +24,8 @@ example = Exemplu
 
 varying-pronunciations-explanation-1 = Avem nevoie de cât mai multe accente posibil! Ai grijă înainte de a respinge o secvență audio pe motiv că cititorul a pronunțat greșit un cuvânt, a pus accentul pe silaba greșită sau a ignorat un semn de punctuație. Chiar dacă nu ai mai auzit o astfel de pronunție sau un astfel de accent în comunitatea ta, nu înseamnă neapărat că sunt automat și incorecte. Gândește-te că unii pot vorbi un pic diferit față de tine.
 varying-pronunciations-explanation-2 = Pe de altă parte, când consideri că persoana care citește nu a mai întâlnit cuvântul respectiv și doar ghicește (incorect, în cazul de față) cum ar trebui pronunțat, te rugăm să respingi acea înregistrare. Dacă nu ești sigur, folosește butonul „Sari peste”.
+varying-pronunciations-example = Pe mine m-au întrebat de trei ori ce cred.
+varying-pronunciations-tip-1 = [Majoritatea vorbitorilor de română citesc „pe” și „de” cum se scriu.]
 offensive-content-explanation = Propozițiile sunt aprobate de comunitate, dar procesul aferent nu este perfect. Dacă vezi sau auzi o propoziție care te deranjează – de exemplu, pentru că nu respectă <participationGuidelines>Ghidul nostru de participare în comunitate</participationGuidelines> – te rugăm să folosești butonul de Semnalare din interfață. Ne poți scrie și la <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Citirea corectă a tuturor cuvintelor de pe pagină este foarte importantă. Când asculți, verifică foarte atent dacă înregistrarea reprezintă exact textul scris. Dacă înregistrarea include cuvinte adăugate, contractate sau omise, respinge-o!
 misreadings-explanation-2 = Printre greșelile foarte frecvente se numără și:
