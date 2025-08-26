@@ -32,8 +32,11 @@ continue-with-skipped = Doorgaan met Overgeslagen
 question = Vraag
 validate = Valideren
 respond-to-prompt = Beantwoorden
+respond-to-prompt-mobile = Beantwoorden
 transcribe = Transcriberen
 check-transcriptions = Beoordelen
+check-transcriptions-mobile = Beoordelen
+tag = Labelen
 
 ## Not Found Page
 
@@ -59,6 +62,7 @@ snv = Sa'ban
 xkl = Keniaans
 # Locales-Variants
 ms-MY = Bahasa-Maleis
+el-CY = Cypriotisch Grieks
 
 ## Language search component
 

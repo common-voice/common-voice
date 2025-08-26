@@ -194,13 +194,32 @@ tags-laugh-explanation = Het geluid van gelach.
 tags-disfluency-explanation =
     Een opvulwoord of -klank wordt als plaatshouder gebruikt terwijl een spreker bepaalt wat hij gaat zeggen.
     In het Nederlands zijn enkele veelvoorkomende aarzelingsgeluiden ‘ehh’, ‘uhm’, ‘huh’, enz.
+tags-unclear-explanation = Een woord of reeks woorden die niet kan worden begrepen.
+tags-noise-explanation =
+    Elk ander type geluid, zoals hoesten of keelschrapen van de spreker,
+    een toeterende auto, het geluid van iets dat tegen de microfoon slaat, een trillende telefoon, enz.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    En toen ging ik [noise] op vakantie.
+    Nou ja, [noise] [laugh] het was niet echt een vakantie [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Spontane spraak bevat van nature valse starts, waarbij slechts een fragment van een volledig woord wordt geproduceerd. Schrijf in deze gevallen zo goed mogelijk het woordfragment op en voeg een koppelteken aan het einde van het woord (-) toe om aan te geven dat het een valse start is. Voorbeeld:
+transcribe-the-audio-subheader-4-explanation-1-example = Zijn naam is <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Soms herhalen sprekers een woord of woordfragment meerdere keren. Dit moet ook worden getranscribeerd. Voorbeeld:
+transcribe-the-audio-subheader-4-explanation-2-example = En toen ging ik naar <underline>de de de slaap- de</underline> slaapkamer
+transcribe-the-audio-subheader-5-explanation-1 = Spontane spraak zal van nature grammaticale fouten bevatten. Deze mogen niet worden gecorrigeerd bij het transcriberen. De transcriptie dient de gesproken inhoud exact weer te geven.
+transcribe-the-audio-subheader-5-explanation-2 = Sprekers kunnen spreektaal (zoals ‘wa’, etc.) in het Nederlands), die formeel niet juist is, gebruiken. Deze moeten worden getranscribeerd zoals ze zijn, en niet gewijzigd naar hun meer formele equivalenten.
 
 ## Review the Transcription
 
+review-the-transcription = De transcriptie beoordelen
 review-the-transcription-subheader = Algemene richtlijnen
+review-the-transcription-explanation-1 = In het algemeen raden we aan dat de persoon die de transcriptie controleert niet dezelfde persoon is die de oorspronkelijke transcriptie heeft gedaan. Het is heel moeilijk om uw eigen werk te controleren! Het hebben van meerdere beoordelingslagen kan kwaliteitsborging robuuster maken en vooroordelen en problemen helpen verminderen.
+review-the-transcription-explanation-2 = Lees de transcriptierichtlijnen hierboven om te controleren of een transcriptie juist is. U kunt bewerkingen opgeven en indienen.
+review-the-transcription-explanation-3 = Ook hier kunt u inhoud die beledigend, schadelijk of anderszins verontrustend is labelen, en deze zal uit uw ervaring worden verwijderd totdat het Common Voice-team deze kan beoordelen en verder onderzoeken.
 
 ## Code-Switching
 
+code-switching = Taal wisselen
 adding-a-question = Een vraag toevoegen
 # Adding a Question
 code-switching-adding-question-subheader = Hoe ziet een goede vraag eruit?
@@ -209,6 +228,23 @@ code-switching-adding-question-criteria-1 = Eenvoudig te begrijpen en te beantwo
 code-switching-adding-question-criteria-2 = Algemeen relevant zijn
 code-switching-adding-question-criteria-3 = Geen schadelijke of beledigende taal gebruiken of erom vragen
 code-switching-adding-question-note = U kunt ook overwegen verschillende contexten en domeinen te bestrijken.
+# What types of questions to add
+code-switching-types-subheader = Wat voor vragen toevoegen?
+code-switching-use-bilingual-prompts-header = Tweetalige vragen gebruiken
+code-switching-use-bilingual-prompts-explanation = Gebruik tweetalige vragen die beide talen bevatten. Voorbeeld:
+code-switching-use-bilingual-prompts-explanation-example = “Quesque tu as dit ta maman toen je die dag thuiskwam?”
+code-switching-ask-bilingual-contexts-header = Vragen over tweetalige contexten
+code-switching-ask-bilingual-contexts-explanation = Situaties waarin beide talen vaak worden gebruikt gebruiken (bijvoorbeeld thuis, school, gemeenschapsevenementen). Voorbeeld:
+code-switching-ask-bilingual-contexts-explanation-example = ‘Als u met uw neven en nichten praat, mengt u dan Frans en Nederlands?’
+code-switching-focus-emotional-header = Focus op emotionele of belangrijke momenten
+code-switching-focus-emotional-explanation = Mensen wisselen vaak van taal als ze hun emoties of urgentie uiten. Voorbeeld:
+code-switching-focus-emotional-explanation-example = ‘Vertel me wat je ouders zeiden toen je hun je grote nieuws vertelde – precies hoe ze het zeiden.’
+code-switching-direct-quotes-header = Om directe citaten of herbelevingen vragen
+code-switching-direct-quotes-explanation = Moedig deelnemers aan om te reproduceren hoe de dingen daadwerkelijk zijn gezegd. Voorbeeld:
+code-switching-direct-quotes-explanation-example = ‘Wat waren uw exacte woorden toen u erachter kwam?’
+code-switching-cultural-topics-header = Kies cultureel specifieke onderwerpen
+code-switching-cultural-topics-explanation = Voedsel, tradities, feestdagen en gezinsdynamiek nodigen vaak uit tot taalwisseling.
+code-switching-cultural-topics-explanation-example = ‘Hoe beschrijf je Día de los Muertos aan iemand die alleen Engels spreekt?’
 # What to Avoid
 code-switching-avoid-subheader = Wat te vermijden
 code-switching-avoid-intro = Vragen die mogelijk:
@@ -230,3 +266,45 @@ code-switching-review-no-3 = Vragen die ervoor kunnen zorgen dat iemand gevoelig
 code-switching-answer-subheader = Een vraag beantwoorden
 # Transcribing
 code-switching-transcribe-subheader = Transcriberen
+code-switching-orthography-explanation-example-1 = Als het woord ‘keuken’ wordt uitgesproken als in het Spaans, moet het worden geschreven als in het Nederlands, niet als ‘quechen’.
+code-switching-orthography-explanation-example-2 = Als het woord quinceaños wordt uitgesproken als in het Nederlands, schrijf het dan met de ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Gebruik de uitspraak om de taal te bepalen
+code-switching-pronunciation-explanation = Sommige woorden kunnen er in beide talen hetzelfde uitzien, maar kunnen anders worden uitgesproken. Luister naar de uitspraak om correct te labelen. Bijvoorbeeld: kabel, taco, acteur, rechercheur.
+code-switching-pronunciation-explanation-example-1 = Nederlands: /kabɛl/
+code-switching-pronunciation-explanation-example-2 = Spaans: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Labelen in een enkel token
+code-switching-single-token-explanation = Een enkelvoudig, door spaties gescheiden token moet meer dan één gelabelde span bevatten.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Interpunctie labelen op basis van lokale taal
+code-switching-punctuation-tagging-explanation = Label interpunctie met de taal die zich het meest links bevindt. Voorbeelden:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>en die ene keer dat</purple> Maria <purple>naar me schreeuwde was</purple> <blue>parce que</blue> <purple>ze  <blue>un</blue> opdracht probeerde</purple>te imprimer. (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>maar</purple> <blue>tu peux les acheter en rouge, noir, bleu</blue>, <purple>wat dan ook.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Wees voorzichtig met lookalikes
+code-switching-lookalikes-explanation = Sommige woorden kunnen op de ene taal lijken, maar in de andere worden gebruikt. Label op basis van betekenis en gebruik, niet op uiterlijk. Voorbeelden:
+code-switching-lookalikes-explanation-example-1 = ‘Footing’ betekende vroeger rennen in het Spaans > labelen als Spaans
+code-switching-lookalikes-explanation-example-2 = ‘No problemo’ wordt ook in het Nederlands gebruikt > labelen als Nederlands
+# When Not to Tag Words
+code-switching-not-tag-header = Wanneer woorden niet te labelen
+code-switching-not-tag-explanation = Sommige woorden moeten <bold>niet worden gelabeld</bold> met een taallabel, zelfs als ze gemengd of aangepast lijken. Zo verwerkt u enkele voorbeelden:
+code-switching-not-tag-proper-names = <bold>Eigennamen.</bold> Namen van mensen, plaatsen en organisaties moeten niet worden gelabeld. Voorbeelden:
+code-switching-not-tag-proper-names-example-1 = Mensen: Maria, Jan
+code-switching-not-tag-proper-names-example-2 = Plaatsen: Brussel, Friesland
+code-switching-not-tag-proper-names-example-3 = Merken/organisaties: Jumbo, Burger King
+code-switching-not-tag-mixed-words = <bold>Gemengde of morfologisch aangepaste woorden.</bold> Label geen woorden die talen vermengen of toegevoegde eindes uit een andere taal hebben. Voorbeelden:
+code-switching-not-tag-mixed-words-example = Waar de basis Engels is maar het achtervoegsel Spaans: “parkear”, “printearlo”
+code-switching-not-tag-interjections = <bold>Interjecties.</bold> Interjecties en opvulwoorden, ongeacht de taal, moeten <bold>ongelabeld blijven.</bold> Voorbeelden:
+code-switching-not-tag-interjections-example-1 = ‘Eh’
+code-switching-not-tag-interjections-example-2 = ‘Nee’
+code-switching-not-tag-interjections-example-3 = ‘Ja’
+code-switching-not-tag-interjections-example-4 = ‘Ehm’
+
+## Reporting Content
+
+reporting-content = Inhoud rapporteren
+reporting-content-subheader = Algemene richtlijnen
+reporting-content-explanation-1 = U moet inhoud die beledigend, schadelijk of anderszins zorgwekkend is markeren. De inhoud mag ook geen persoonlijk identificeerbare informatie bevatten, zoals telefoonnummers of adressen. De inhoud wordt uit uw ervaring verwijderd totdat het Common Voice-team deze kan beoordelen en verder onderzoeken.
+reporting-content-explanation-2 = Selecteer om inhoud te rapporteren de knop ‘Melden’ en kies een of alle opties: Beledigende inhoud, Ander taalgebruik, Persoonlijk identificeerbare informatie, Overig. Geef vanaf hier in het tekstgebied meer details over waarom u de inhoud rapporteert. Dien vervolgens het rapport in door op de knop ‘Melden’ te klikken.
