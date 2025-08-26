@@ -52,7 +52,7 @@ edit = Editează
 email-subscriptions = Abonamente e-mail
 download-profile = Descarcă-mi datele
 api-credentials = API
-api-credentials-header = Credențiale
+api-credentials-header = Date de autentificare
 contribution-experience = Experiență de colaborare
 skip-submission-feedback = Trimite fără feedback
 skip-submission-description = În timpul colaborării, se va sări peste feedback-ul de după apăsarea pe Trimite. Colaborarea va continua direct cu următorul set de 5 înregistrări sau validări.
@@ -76,13 +76,16 @@ api-credentials-use-case-1 = trimiterea secvențelor audio;
 api-credentials-use-case-2 = preluarea seturilor de date;
 api-credentials-use-case-3 = analizarea și îmbunătățirea modelelor de limbă.
 api-credentials-description-conclusion = Vino alături de noi pentru a îmbunătăți tehnologia vocală și a-i încuraja pe mai mulți utilizatori să contribuie.
-create-api-key-button = Creează credențiale pentru API
-your-api-keys = Credențialele tale pentru API
-no-api-keys-header = <bold>În prezent, nu există credențiale pentru API asociate contului tău.</bold>
-no-api-keys-description = Pentru a crea prima ta cheie pentru API, dă clic pe „Creează credențiale pentru API”, apoi dă un nume credențialelor pentru API și generează credențiale unice dând clic pe „Generează credențialele”. Apoi, copiază imediat cheia secretă, deoarece va fi afișată o singură dată.
+create-api-key-button = Creează date de autentificare API
+your-api-keys = Datele tale de autentificare API
+no-api-keys-header = <bold>În prezent, nu există date de autentificare API asociate contului tău.</bold>
+no-api-keys-description =
+    Pentru a crea prima ta cheie pentru API, dă clic pe „Creează date de autentificare pentru API”, apoi dă-le o denumire
+    și generează date de autentificare unice dând clic pe „Generează datele de autentificare”. Apoi, copiază imediat cheia secretă, deoarece va fi 
+    afișată o singură dată.
 api-key-name-input =
-    .label = Numele credențialelor pentru API
-create-api-key-header = <bold>Notă importantă: Generarea credențialelor pentru API</bold>
+    .label = Denumire date de autentificare API
+create-api-key-header = <bold>Notă importantă: Generarea datelor de autentificare pentru API</bold>
 create-api-key-description = Dând clic pe „Generează credențialele”, vei crea credențiale unice pentru contul tău. Din motive de securitate, cheia secretă este afișată <bold>o singură dată</bold>. Te rugăm să o copiezi și să o stochezi în siguranță. Dacă se pierde, va trebui să generezi o cheie nouă, deoarece nu poate fi recuperată.
 create-api-key-agreement = Declar că nu voi încerca să identific vorbitorii din setul de date Common Voice.
 generate-api-key-button = Generează credențialele

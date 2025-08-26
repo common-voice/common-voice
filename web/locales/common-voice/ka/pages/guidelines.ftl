@@ -243,7 +243,7 @@ code-switching-cultural-topics-explanation = საჭმელი, ჩვეუ
 code-switching-cultural-topics-explanation-example = „როგორ აუხსნით ალაგი ლიხელეს მხოლოდ ქართულად მოლაპარაკეს?“
 code-switching-informal-scenarios-header = გამოიკვლიეთ შინაურული შემთხვევები
 code-switching-informal-scenarios-explanation = მეგობრებთან საუბრისას ან მიმოწერისას მონაცვლეობა უფრო ბუნებრივია ხოლმე. მაგალითად:
-code-switching-informal-scenarios-explanation-example = „რას ხუმრობენ თქვენი მეგობრები ყველაზე ხშირად – და როგორ ამბობენ ხოლმე?“
+code-switching-informal-scenarios-explanation-example = „როგორ ხუმრობენ თქვენი მეგობრები ყველაზე ხშირად – და ზუსტად რას ამბობენ ხოლმე?“
 # What to Avoid
 code-switching-avoid-subheader = უნდა აირიდოთ
 code-switching-avoid-intro = კითხვები, რომლებიც:
