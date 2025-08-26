@@ -292,6 +292,10 @@ code-switching-capture-header = ზუსტად გადმოიტან�
 code-switching-capture-explanation = ნაწერად გადმოეცით ორივე ისე, როგორც ჩანს / გამოითქმის. ნუ „შეასწორებთ“ ენას ან ნუ გადაცვლით მხოლოდ ერთ ენაზე.
 # Include filler words and markers
 code-switching-filler-header = დაურთეთ შემავსებელი სიტყვები და მონიშვნები
+code-switching-filler-explanation = ისეთი სიტყვები, როგორორიცაა „ამმ“, „აბა“, „ეჰჰ“, „მაშ“, „იფ“, „ბიჭოს“ მეტად მნიშვნელოვანია. მაგალითად: „ანუ, ამმ... მეუთხარი, „მუჭოთ ირონ“, უფრო მოგვიანებით.“
+# Use standard spelling for each language
+code-switching-spelling-header = ისარგებლეთ თითოეული ენისთვის ჩვეული სიტყვების დაწერილობით
+code-switching-spelling-explanation = ეცადეთ სიტყვების დაწერილობა გამართული იყოს თითოეული ენისთვის, გარდა იმ შემთხვევისა, როცა მკაფიოდ ჩანს, რომ მოსაუბრე მეტად განსხვავებულად წარმოთქვამს.
 # Tagging
 code-switching-tagging-subheader = ჭდეების დართვა
 code-switching-tagging-error-intro = თუ ნაწერად ქცეული შეცდომებითაა, გთხოვთ მოხსენების მეშვეობით მონიშნოთ. შესაძლო შეცდომებია:
