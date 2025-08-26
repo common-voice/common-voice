@@ -51,8 +51,6 @@ const InputLanguageName = ({
     setUserLanguages(uniqueNewLanguages)
   }
 
-  console.log(nativeNames)
-
   return (
     <Localized id="profile-form-language" attrs={{ label: true }}>
       <LabeledSelect value={locale} onChange={handleChange} name="language">
