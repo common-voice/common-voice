@@ -26,6 +26,7 @@ varying-pronunciations-explanation-1 = Avem nevoie de cât mai multe accente pos
 varying-pronunciations-explanation-2 = Pe de altă parte, când consideri că persoana care citește nu a mai întâlnit cuvântul respectiv și doar ghicește (incorect, în cazul de față) cum ar trebui pronunțat, te rugăm să respingi acea înregistrare. Dacă nu ești sigur, folosește butonul „Sari peste”.
 varying-pronunciations-example = Pe mine m-au întrebat de trei ori ce cred.
 varying-pronunciations-tip-1 = [Majoritatea vorbitorilor de română citesc „pe” și „de” cum se scriu.]
+varying-pronunciations-tip-2 = [Alți vorbitori de română înlocuiesc „e" cu „ă" în pronunția unor cuvinte, astfel încât „pe" devine „pă” și „de" devine „dă” în exemplul nostru.]
 offensive-content-explanation = Propozițiile sunt aprobate de comunitate, dar procesul aferent nu este perfect. Dacă vezi sau auzi o propoziție care te deranjează – de exemplu, pentru că nu respectă <participationGuidelines>Ghidul nostru de participare în comunitate</participationGuidelines> – te rugăm să folosești butonul de Semnalare din interfață. Ne poți scrie și la <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Citirea corectă a tuturor cuvintelor de pe pagină este foarte importantă. Când asculți, verifică foarte atent dacă înregistrarea reprezintă exact textul scris. Dacă înregistrarea include cuvinte adăugate, contractate sau omise, respinge-o!
 misreadings-explanation-2 = Printre greșelile foarte frecvente se numără și:
