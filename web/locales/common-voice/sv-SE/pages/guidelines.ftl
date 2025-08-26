@@ -216,8 +216,8 @@ code-switching-adding-question-subheader = Vad gör en fråga bra?
 code-switching-adding-question-explanation = En bra fråga för datamängder för allmänheten bör:
 code-switching-adding-question-criteria-1 = Vara lätt att förstå och besvara
 code-switching-adding-question-criteria-2 = Var allmänt relevant
-code-switching-adding-question-criteria-3 = Använd inte eller uppmana till, skadligt eller kränkande språk
-code-switching-adding-question-note = Du kanske också vill överväga att sträcka dig över olika sammanhang och domäner.
+code-switching-adding-question-criteria-3 = Använd inte, eller efterfråga, skadligt eller stötande språk
+code-switching-adding-question-note = Du kanske också vill överväga att spänna över olika sammanhang och domäner.
 # What types of questions to add
 code-switching-types-subheader = Vilka typer av frågor ska läggas till?
 code-switching-use-bilingual-prompts-header = Använd tvåspråkiga frågor
