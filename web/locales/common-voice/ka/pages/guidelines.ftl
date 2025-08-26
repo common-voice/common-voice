@@ -316,11 +316,23 @@ code-switching-orthography-explanation-example-1 = თუ სიტყვა „
 code-switching-orthography-explanation-example-2 = თუ სიტყვა მეზუ̂ბელ შეგხვდებათ ქართულში, დაწერისას გამოიყენეთ უ̂.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = დაუკვირდით გამოთქმას ენის გამოსაცნობად
-code-switching-pronunciation-explanation = ზოგიერთი სიტყვა ორივე ენაში მსგავსი შეიძლება იყოს, მაგრამ განსხვავებულად წარმოითქვას.  კარგად მოუსმინეთ გამოთქმას ჭდეების სწორად მითითებისთვის.  მაგალითად: წვანე, ძალიერი, ნაბეტანი, სუმარი, წყარი.
+code-switching-pronunciation-explanation = ზოგიერთი სიტყვა ორივე ენაში მსგავსი შეიძლება იყოს, მაგრამ განსხვავებულად წარმოითქვას.  კარგად მოუსმინეთ გამოთქმას ჭდეების სწორად მითითებისთვის.  მაგალითად: ყურზენი, წვანე, ძალიერი, ნაბეტანი, სუმარი, წყარი.
+code-switching-pronunciation-explanation-example-1 = ქართული: /χʼuɾd͡zeni/
+code-switching-pronunciation-explanation-example-2 = მეგრული: /ʾurʒeni/
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = ყურადღება გამოიჩინეთ მსგავსი სიტყვების მიმართ
 code-switching-lookalikes-explanation = ზოგიერთი სიტყვა შეიძლება ერთი ენის კუთვნილება ჩანდეს, მაგრამ სხვა ენიდან იყოს გამოყენებული. ჭდეებით მონიშვნა უნდა ითვალისწინებდეს შინაარსს და გარეგნულ სახეს. მაგალითები:
 code-switching-lookalikes-explanation-example-1 = „პაპა“ გამოიყენება მღვდლის მნიშვნელობით მეგრულში > მოსანიშნია მეგრული
+code-switching-lookalikes-explanation-example-2 = „ცინდალი“ გამოიყენება ქართულშიც > მოსანიშნია ქართულად
+# When Not to Tag Words
+code-switching-not-tag-header = როდის არ უნდა მოინიშნოს სიტყვები
+code-switching-not-tag-explanation = ზოგიერთ სიტყვას <bold>არაა მოსანიშნი</bold> ენის ჭდეებით, თუნდაც გამორეული ან ნასესხობა ჩანდეს.  აგერ რამდენიმე მაგალითი, როდი რა უნდა მოიმოქმედოთ:
+code-switching-not-tag-proper-names = <bold>საკუთარი სახელები.</bold> ხალხის, ადგილების და დაწესებულებების სახელები არაა მოსანიშნი. მაგალითები:
+code-switching-not-tag-interjections = <bold>შორისდებულები.</bold> შორისდებული და შემავსებელი სიტყვები, ენისდა მიუხედავად, უნდა დარჩეს <bold>ჭდეების გარეშე.</bold> მაგალითები:
+code-switching-not-tag-interjections-example-1 = „ეჰ“
+code-switching-not-tag-interjections-example-2 = „ნწუ“
+code-switching-not-tag-interjections-example-3 = „ჰო“
+code-switching-not-tag-interjections-example-4 = „ემმ“
 
 ## Reporting Content
 
