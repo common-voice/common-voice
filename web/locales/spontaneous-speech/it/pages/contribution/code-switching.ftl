@@ -34,3 +34,7 @@ cs-tag-dataset-name = Dataset [{ $datasetName }]
 
 learn-how-to-use = Scopri come utilizzare questa pagina
 read-full-guidelines-here = <guidanceLink>Leggi le linee guida complete qui</guidanceLink>
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Una trascrizione dovrebbe catturare ogni parola o suono non lessicale emesso dalla persona, comprese le ripetizioni.
