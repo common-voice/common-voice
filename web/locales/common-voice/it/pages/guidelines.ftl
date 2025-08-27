@@ -6,6 +6,7 @@ sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
 scripted-speech = Discorso letto
 spontaneous-speech = Discorso spontaneo
+dont-subheader = Che cosa non fare:
 
 ## Voice Collection nav ids
 
