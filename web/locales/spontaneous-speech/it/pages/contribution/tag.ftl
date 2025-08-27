@@ -18,3 +18,7 @@ undo = Annulla
 # Messages
 tag-success-toast-message = Etichette inviate correttamente
 tag-error-toast-message = Si è verificato un errore durante l’invio delle etichette
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Utilizza l’ortografia corretta
+cs-tag-do-guideline-3 = Fai attenzione alle parole simili
+cs-tag-shortcuts-section-title = Utilizzo della tastiera
