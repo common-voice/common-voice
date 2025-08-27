@@ -199,8 +199,7 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontant tal innehåller naturligtvis felstarter där endast en del av ett helt ord produceras. I dessa fall, vänligen transkribera efter din förmåga ordfragmentet och bifoga ett bindestreck i slutet av ordet (-) för att indikera att ordet är en falsk start. Exempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Ibland upprepar högtalarna ett ord eller ordfragment flera gånger. Detta bör också transkriberas. Exempel:
-transcribe-the-audio-subheader-4-explanation-2-example = Och sedan gick jag till <underline>sovrummet
-transcribe-the-audio-subheader-5-explanation-1 = Spontant tal kommer naturligtvis att innehålla grammatiska fel. Dessa bör inte korrigeras vid transkription. Transkriptionen ska återspegla det talade innehållet exakt.
+transcribe-the-audio-subheader-5-explanation-1 = Spontant tal kommer naturligtvis att innehålla grammatiska fel. Dessa bör inte korrigeras vid transkribering. Transkriberingen bör återspegla det talade innehållet exakt.
 transcribe-the-audio-subheader-5-explanation-2 = Talare kan använda vardagar (t.ex. på engelska "gonna", "cuz", etc.) som inte kanske anses formellt korrekta. Dessa bör transkriberas som de är, och inte ändras till sina mer formella motsvarigheter.
 
 ## Review the Transcription
@@ -260,8 +259,8 @@ code-switching-review-does-not-header = Och <bold>INGÅR INTE</bold>:
 code-switching-review-offensive-content = <bold>Stötande innehåll eller känslig information</bold>
 code-switching-answer-header = Stötande innehåll eller känslig information
 code-switching-review-no-1 = Frågor som kan begära personlig identifierbar information
-code-switching-review-no-2 = Frågor som kan efterfråga hatretorik eller andra partiska eller kränkande känslor
-code-switching-review-no-3 = Frågor som kan få någon att dela med sig av känsliga, potentiellt utlösande svar
+code-switching-review-no-2 = Frågor som kan väcka hatpropaganda eller andra partiska eller kränkande känslor
+code-switching-review-no-3 = Frågor som kan få någon att dela känsliga, potentiellt utlösande svar
 # Answering a Question
 code-switching-answer-subheader = Besvara en fråga
 code-switching-answer-intro = När du svarar på en fråga är målet att svara naturligt – precis som du skulle göra i en verklig konversation. Vi vill fånga hur språk faktiskt blandas i vardagligt tal.
