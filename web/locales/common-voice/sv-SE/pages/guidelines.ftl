@@ -145,13 +145,13 @@ example-questions-explanation-2 = Om du vill skicka in en del frågor för inmat
 # Answer Questions
 answer-questions = Svara på frågor
 answer-questions-subheader = Allmän vägledning
-answer-questions-explanation-1 = Tänk ett ögonblick på uppmaningen, överväg vad du vill säga, men skriv inte för mycket. Klicka på ikonen ‘inspelning’. När du har spelat in kan du lyssna på dig själv, spela in igen, radera eller skicka in.
-answer-questions-explanation-2 = Kom ihåg - oroa dig inte om du stammar, pausar eller upprepar ett ord. Det här är användbar data för ingenjörer som försöker bygga inklusive, verkliga taligenkänningsverktyg.
+answer-questions-explanation-1 = Tänk en stund på uppmaningen, fundera över vad du vill säga, men skriv inte för mycket i ett manus. Klicka på ikonen "spela in". När du har spelat in kan du lyssna på dig själv, spela in igen, radera eller skicka in.
+answer-questions-explanation-2 = Kom ihåg – oroa dig inte om du stammar, pausar eller upprepar ett ord. Allt detta är användbar data för ingenjörer som försöker bygga inkluderande, verklighetstrogna verktyg för taligenkänning.
 answer-questions-tip-1 = Spela in på en någorlunda tyst plats
 answer-questions-tip-2 = Välj någonstans med en bra internetanslutning
 answer-questions-tip-3b = Försök att hålla ditt svar inom 15-30 sekunder
 answer-questions-tip-4 = Undvik hatiskt, upphetsande eller på annat sätt kränkande tal
-answer-questions-tip-5 = Tala naturligt, som du skulle med en vän - använd din egen riktiga variant, dialekt och accent
+answer-questions-tip-5 = Tala naturligt, som du skulle göra med en vän – använd din egen riktiga variant, dialekt och accent
 answer-questions-tip-6 = Håll din volym konsekvent - skrik eller sjung inte
 # Transcribe the Audio
 transcribe-the-audio = Transkribera ljudet
@@ -187,11 +187,15 @@ tags-disfluency = Oväsen
 tags-unclear = Otydlig
 tags-noise = Buller
 tags-laugh-explanation = Ljudet av skratt.
-tags-disfluency-explanation = Ett utfyllnadsord eller ljud som används som en platshållare medan en talare bestämmer vad den ska säga. På engelska är några vanliga tvekan ljud "err", "um", "huh" etc.
-tags-unclear-explanation = Ett ord eller en sekvens av ord som inte kan förstås.
-tags-noise-explanation = Alla andra typer av ljud, till exempel hostning av högtalaren eller harklar sig, en bil som tutar, ljudet av något som slår i mikrofonen, en surrande telefon etc.
+tags-disfluency-explanation =
+    Ett utfyllnadsord eller ljud som används som platsmarkör medan en talare bestämmer vad de ska säga.
+    På engelska är några vanliga tvekningsljud "err", "um", "huh" etc.
+tags-unclear-explanation = Ett ord eller en ordföljd som inte kan förstås.
+tags-noise-explanation = Alla andra typer av ljud, såsom att talaren hostar eller harklar sig, en bil som tutar, ljudet av något som träffar mikrofonen, en telefon som surrar etc.
 # Note: do not translate any tag, like [noise] or [laugh]
-special-tags-example-2 = Och sedan åkte I [noise] på semester. Tja, [noise] [skratt] det var inte precis en semester [skratt]
+special-tags-example-2 =
+    Och sedan [noise] åkte jag på semester.
+    Tja, [noise] [laugh] det var inte direkt en semester [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Spontant tal innehåller naturligtvis felstarter där endast en del av ett helt ord produceras. I dessa fall, vänligen transkribera efter din förmåga ordfragmentet och bifoga ett bindestreck i slutet av ordet (-) för att indikera att ordet är en falsk start. Exempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Ibland upprepar högtalarna ett ord eller ordfragment flera gånger. Detta bör också transkriberas. Exempel:
