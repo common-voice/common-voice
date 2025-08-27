@@ -142,7 +142,7 @@ example-questions-explanation-2 = Se desideri inviare una serie di domande per l
 ## Spontaneous Speech sidebar content
 
 # Answer Questions
-answer-questions = Rispondi alle domande
+answer-questions = Rispondere alle domande
 answer-questions-subheader = Guida generale
 answer-questions-explanation-1 = Pensa per un momento alla domanda, considera che cosa vorresti dire, ma non prepararti troppo. Fai clic sull’icona “registra”. Una volta completata la registrazione, è possibile ascoltarla, registrarla nuovamente, eliminarla o inviarla.
 answer-questions-explanation-2 = Ricorda: non preoccuparti se balbetti, fai una pausa o ripeti una parola. Questi sono tutti dati utili per gli sviluppatori che cercano di creare strumenti di riconoscimento vocale inclusivi basati sul linguaggio della vita reale.
@@ -163,7 +163,7 @@ transcribe-the-audio-subheader-1-explanation = In generale, dovresti annotare tu
 transcribe-the-audio-subheader-1-explanation-example-1 = Annotare le disfluenze, comprese le esitazioni e le ripetizioni
 transcribe-the-audio-subheader-1-explanation-example-2 = Etichettare eventi acustici come colpi di tosse o risate
 transcribe-the-audio-subheader-1-explanation-example-3 = Etichettare inquinamenti acustici significativi, come chiacchiere in sottofondo o clacson
-transcribe-the-audio-subheader-1-explanation-example-4 = Le variazioni grammaticali e gergali devono essere annotate esattamente così come sono. Non correggere o modificare il parlato delle persone.
+transcribe-the-audio-subheader-1-explanation-example-4 = Annotare le variazioni grammaticali e gergali esattamente così come sono: non correggere o modificare il parlato delle persone.
 transcribe-the-audio-subheader-2-explanation-1 = I numeri e i simboli devono essere scritti utilizzando le lettere anziché cifre o caratteri speciali. Esempio:
 transcribe-the-audio-subheader-2-explanation-2 = Gli acronimi devono essere scritti nello stesso modo in cui vengono normalmente scritti nella lingua in questione, seguendo le regole standard per l’utilizzo delle maiuscole. Non devono essere trascritti foneticamente. Esempio:
 # text wrapped in correct will be shown as green text in the UI
@@ -206,7 +206,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Le persone talvolta utilizzano 
 
 ## Review the Transcription
 
-review-the-transcription = Convalida la trascrizione
+review-the-transcription = Convalidare la trascrizione
 review-the-transcription-subheader = Guida generale
 review-the-transcription-explanation-1 = In generale, è consigliabile che la persona che controlla la trascrizione non sia la stessa persona che ha eseguito la trascrizione originale. È molto difficile controllare il proprio lavoro! Avere più linee di revisione aiuta a rendere più affidabile il controllo della qualità e a mitigare bias e problemi.
 review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. È possibile apportare modifiche e inviarle.
