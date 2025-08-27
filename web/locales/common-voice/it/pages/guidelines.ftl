@@ -282,3 +282,5 @@ code-switching-answer-dont-correct-language = <bold>Non “correggere” la tua 
 code-switching-transcribe-subheader = Trascrizioni
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Riporta il discorso fedelmente così com’è stato detto
+# Use standard spelling for each language
+code-switching-spelling-header = Utilizza l’ortografia standard per ciascuna lingua
