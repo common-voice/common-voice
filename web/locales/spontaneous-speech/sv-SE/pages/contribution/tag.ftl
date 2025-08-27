@@ -25,7 +25,7 @@ tag-error-toast-message = Fel vid inskickning av taggar
 tag-empty-submit-error = Ingen text att skicka in. Tagga lite text först.
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Använd korrekt ortografi
-cs-tag-do-guideline-2 = Använd ett uttal som hjälp
+cs-tag-do-guideline-2 = Använd uttal som hjälp
 cs-tag-do-guideline-3 = Var försiktig med lookalike ord
 cs-tag-do-not-guideline-1 = Tagga egennamn, blandade ord eller interjektioner
 cs-tag-shortcuts-section-title = Tangentbordsanvändning

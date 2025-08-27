@@ -40,7 +40,7 @@ read-full-guidelines-here = <guidanceLink>Läs alla riktlinjer här</guidanceLin
 
 ## Answer Page Guidelines
 
-cs-learn-how-to-use-answer-explanation = Svara på prompten så naturligt du kan, kodväxla gärna mellan språk om det känns naturligt. Se till att ditt språk är respektfullt och ofarligt.
+cs-learn-how-to-use-answer-explanation = Svara på uppmaningen så naturligt som möjligt, känn dig fri att växla mellan språk om det känns naturligt. Se till att ditt språk är respektfullt och oförargligt.
 
 ## Review Page Guidelines
 
