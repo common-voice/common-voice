@@ -277,3 +277,4 @@ code-switching-authentic-direct-quotes = <bold>Includi citazioni dirette o dialo
 code-switching-authentic-direct-quotes-example = “My mum said, ‘Do you think this is a game?’ e io le ho risposto ‘OK, rilassati!‘”
 code-switching-authentic-reflect = <bold>Rendi emozioni, identità e contesto.</bold> Il cambio di lingua avviene di solito quando le persone esprimono emozioni, urgenza o idee culturali. Sfrutta questi aspetti quando rispondi alle domande.
 code-switching-authentic-full-context = <bold>Utilizza risposte complete e contestualizzate.</bold> Cerca di essere il più dettagliato possibile nelle tue risposte, condividendo anche storie o esempi.
+code-switching-answer-dont-correct-language = <bold>Non “correggere” la tua lingua.</bold> Questo non è un test. La forma “corretta” non è importante qui, ciò che conta è il linguaggio naturale.
