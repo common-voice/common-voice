@@ -1,6 +1,7 @@
 action-click = Kliknij
 action-tap = Stuknij
 contribute = Nagraj
+review = Zweryfikuj
 skip = Pomiń
 shortcuts = Skróty
 clips-with-count-pluralized =
@@ -13,7 +14,8 @@ goal-help-recording = Twój udział pomógł projektowi Common Voice osiągnąć
 goal-help-validation = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu weryfikowania ({ $goalValue })!
 contribute-more = Zrobimy jeszcze { $count }?
 speak-empty-state = Skończyły się zdania do nagrania w tym języku…
-speak-empty-state-cta = Dodaj więcej zdań
+no-sentences-for-variants = W Twoim wariancie językowym może brakować zdań! Jeśli chcesz, możesz zmienić ustawienia, aby zobaczyć inne zdania w swoim języku.
+speak-empty-state-cta = Dodaj zdania
 record-button-label = Nagraj swój głos
 share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
 keep-track-profile = Śledź swoje postępy za pomocą profilu
@@ -87,5 +89,8 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-volume-title = Głośność
+contribution-volume-description = Między lektorami występują naturalne różnice w poziomie głośności. Odrzuć nagranie tylko jeśli poziom głośności jest tak wysoki, że przerywa nagranie albo (co częstsze) jeśli jest tak niski, że nie słyszysz, co jest mówione bez odnoszenia się do tekstu.
+contribution-reader-effects-title = Efekty lektora
 see-more = <chevron></chevron>Więcej
 see-less = <chevron></chevron>Mniej
