@@ -161,3 +161,5 @@ transcribe-the-audio-subheader-3 = Tags ພິເສດ
 transcribe-the-audio-subheader-4 = ສ່ວນຄຳສັບ, ການເລີ່ມຕົ້ນທີ່ບໍ່ຖືກຕ້ອງ, ຄຳສັບຊ້ຳໆ
 transcribe-the-audio-subheader-5 = ຄວາມຜິດພາດທາງໄວຍາກອນ ແລະ ຄໍາສັບພາສາລະນາມ
 transcribe-the-audio-subheader-1-explanation = ໂດຍທົ່ວໄປ, ທ່ານຄວນຂຽນທຸກສິ່ງທີ່ໄດ້ຍິນ. ນີ້ປະກອບມີ;
+transcribe-the-audio-subheader-1-explanation-example-1 = ການ​ຂຽນ​ຂໍ້​ຂັດ​ແຍ່ງ, ລວມ​ທັງ​ຄວາມ​ລັງ​ເລ​ໃຈ​ ແລະ​ ການ​ຄ້າງ​ຫ້ອງ
+transcribe-the-audio-subheader-1-explanation-example-2 = ປ້າຍກຳກັບເຫດການລົບກວນ ເຊັ່ນ: ໄອ ຫຼື ຫົວ
