@@ -240,7 +240,7 @@ code-switching-direct-quotes-explanation = მონაწილეებს უ
 code-switching-direct-quotes-explanation-example = „ზუსტად რა სიტყვები უთხარით, როცა ეს ამბავი გაიგეთ?“
 code-switching-cultural-topics-header = შეარჩიეთ კითხვები ადგილობრივი ხალხის ან გარემოსა შესახებ
 code-switching-cultural-topics-explanation = საჭმელი, ჩვეულებები, დღესასწაულები და ოჯახური გარემოებები, აგრეთვე იწვევს მეტყველების მონაცვლეობას.
-code-switching-cultural-topics-explanation-example = „როგორ აუხსნით ალაგი ლიხელეს მხოლოდ ქართულად მოლაპარაკეს?“
+code-switching-cultural-topics-explanation-example = „როგორ აუხსნიდით ალაგი ლიხელეს მხოლოდ ქართული ენის მცოდნეს?“
 code-switching-informal-scenarios-header = გამოიკვლიეთ შინაურული შემთხვევები
 code-switching-informal-scenarios-explanation = მეგობრებთან საუბრისას ან მიმოწერისას მონაცვლეობა უფრო ბუნებრივია ხოლმე. მაგალითად:
 code-switching-informal-scenarios-explanation-example = „როგორ ხუმრობენ თქვენი მეგობრები ყველაზე ხშირად – და ზუსტად რას ამბობენ ხოლმე?“
@@ -272,7 +272,7 @@ code-switching-answer-bullet-2 = წარმოიდგინეთ, თით
 code-switching-answer-bullet-3 = გამოიყენეთ სიტყვები, რომელთაც ისედაც იყენებთ ხოლმე, თუნდაც ნასესხებს ან უცხო ენისას
 code-switching-answer-bullet-4 = არ არსებობს „სრულყოფილი“ პასუხის გაცემის გზა
 code-switching-authentic-header = უპასუხეთ ბუნებრივად და თქვენებურად
-code-switching-authentic-speak = <bold>ილაპარაკეთ ისე, როგორც მეგობრებთან ან ოჯახის წევრებთან ლაპარაკობთ.</bold> თუ რამდენიმე ენას ურევთ ხოლმე ერთმანეთში, აქაც ასე მოიქეცით. მაგალითად:
+code-switching-authentic-speak = <bold>ილაპარაკეთ ისე, როგორც მეგობრებთან ან ოჯახის წევრებთან საუბრობთ ხოლმე.</bold> თუ რამდენიმე ენას ურევთ ხოლმე ერთმანეთში, აქაც ასე მოიქეცით. მაგალითად:
 code-switching-authentic-speak-example = „გომორძგუა, ჯიმა! მხიარულად მივესალმე და დავამატე – „ხვალ გამთენიისას კუჩხაა!“
 code-switching-use-both-languages = <bold>ორივე ენა გამოიყენეთ, თუ თქვენთვის ჩვეულია ეს.</bold> ერთი-ორი სიტყვის მონაცვლეობაც კი მეტად წაგვადგება. მაგალითად:
 # Don’t Overthink or Overedit
