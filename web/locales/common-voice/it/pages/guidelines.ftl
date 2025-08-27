@@ -284,3 +284,7 @@ code-switching-transcribe-subheader = Trascrizioni
 code-switching-capture-header = Riporta il discorso fedelmente così com’è stato detto
 # Use standard spelling for each language
 code-switching-spelling-header = Utilizza l’ortografia standard per ciascuna lingua
+
+## Reporting Content
+
+reporting-content-subheader = Guida generale

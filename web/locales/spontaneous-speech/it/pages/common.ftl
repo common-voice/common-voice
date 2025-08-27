@@ -34,6 +34,7 @@ validate = Convalida
 respond-to-prompt = Rispondi alla domanda
 transcribe = Trascrivi
 check-transcriptions = Verifica trascrizioni
+tag = Etichetta
 
 ## Not Found Page
 
@@ -59,6 +60,7 @@ snv = Sa'ban
 xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa malese
+el-CY = Greco cipriota
 
 ## Language search component
 
