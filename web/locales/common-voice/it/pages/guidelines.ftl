@@ -199,7 +199,7 @@ special-tags-example-2 =
     Be', [noise] [laugh] non era esattamente una vacanza [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Il discorso spontaneo contiene naturalmente false partenze in cui viene prodotta solo una parte di una parola intera. In questi casi, trascrivi al meglio la parte della parola pronunciata e aggiungi un trattino alla fine della parola (-) per indicare che è una falsa partenza. Esempio:
 transcribe-the-audio-subheader-4-explanation-1-example = Si chiama <underline>Gio- Giova-</underline> Giovanni.
-transcribe-the-audio-subheader-4-explanation-2 = A volte le persone potrebbero ripetere più volte una parola o una parte di una parola. Anche questo deve essere trascritto. Esempio:
+transcribe-the-audio-subheader-4-explanation-2 = A volte le persone potrebbero ripetere più volte una parola o un segmento di una parola. Anche questo dev’essere trascritto. Esempio:
 transcribe-the-audio-subheader-4-explanation-2-example = E poi sono andato in <underline>in in in ca- in</underline> camera da letto
 transcribe-the-audio-subheader-5-explanation-1 = Il discorso spontaneo può contenere naturalmente errori grammaticali. Questi non devono essere corretti nella trascrizione, che deve riflettere esattamente il contenuto del parlato.
 transcribe-the-audio-subheader-5-explanation-2 = Le persone talvolta utilizzano espressioni colloquiali (ad esempio, “ho fatto una cavolata, “il mi’ babbo”, ecc.) che potrebbero non essere considerate formalmente corrette. Queste espressioni devono essere trascritte così come sono e non sostituite con le loro equivalenti più formali.
@@ -209,7 +209,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Le persone talvolta utilizzano 
 review-the-transcription = Convalidare la trascrizione
 review-the-transcription-subheader = Guida generale
 review-the-transcription-explanation-1 = In generale, è consigliabile che la persona che controlla la trascrizione non sia la stessa persona che ha eseguito la trascrizione originale. È molto difficile controllare il proprio lavoro! Avere più linee di revisione aiuta a rendere più affidabile il controllo della qualità e a mitigare bias e problemi.
-review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. È possibile apportare modifiche e inviarle.
+review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. Se trovi che sia incorretta, puoi apportare modifiche e inviarle.
 review-the-transcription-explanation-3 = Anche in questo caso puoi segnalare contenuti offensivi, malevoli o comunque problematici; quei contenuti verranno rimossi dalla tua esperienza fino a quando il team di Common Voice non potrà esaminarli e indagare ulteriormente.
 
 ## Code-Switching
