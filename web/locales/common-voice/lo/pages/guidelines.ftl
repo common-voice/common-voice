@@ -163,3 +163,27 @@ transcribe-the-audio-subheader-5 = ຄວາມຜິດພາດທາງໄວ
 transcribe-the-audio-subheader-1-explanation = ໂດຍທົ່ວໄປ, ທ່ານຄວນຂຽນທຸກສິ່ງທີ່ໄດ້ຍິນ. ນີ້ປະກອບມີ;
 transcribe-the-audio-subheader-1-explanation-example-1 = ການ​ຂຽນ​ຂໍ້​ຂັດ​ແຍ່ງ, ລວມ​ທັງ​ຄວາມ​ລັງ​ເລ​ໃຈ​ ແລະ​ ການ​ຄ້າງ​ຫ້ອງ
 transcribe-the-audio-subheader-1-explanation-example-2 = ປ້າຍກຳກັບເຫດການລົບກວນ ເຊັ່ນ: ໄອ ຫຼື ຫົວ
+transcribe-the-audio-subheader-1-explanation-example-3 = ການຕິດປ້າຍກຳກັບມົນລະພິດທາງສຽງຫຼາຍ ເຊັ່ນ: ສຽງລົມໃນພື້ນຫຼັງ ຫຼື ສຽງແກລົດ
+transcribe-the-audio-subheader-1-explanation-example-4 = ການປ່ຽນແປງທາງໄວຍະກອນ ແລະ ຄຳສັບຄວນຖືກບັນທຶກໄວ້ຢ່າງແນ່ນອນເມື່ອມັນເກີດຂຶ້ນ. ຫ້າມແກ້ໄຂ ຫຼື ແກ້ໄຂຄຳເວົ້າຂອງຄົນ.
+transcribe-the-audio-subheader-2-explanation-1 = ຕົວເລກ ແລະ ສັນຍາລັກຄວນຈະຖືກສະກົດອອກເປັນຄໍາສັບແທນທີ່ຈະໃຊ້ຕົວເລກ ຫຼື ຕົວອັກສອນພິເສດ. ຕົວຢ່າງ:
+transcribe-the-audio-subheader-2-explanation-2 = ຕົວຫຍໍ້ຄວນຈະຖືກຂຽນຍ້ອນວ່າພວກມັນຖືກຂຽນຕາມປົກກະຕິໃນພາສາ, ປະຕິບັດຕາມກົດລະບຽບການໃຊ້ຕົວພິມໃຫຍ່ມາດຕະຖານ. ພວກມັນບໍ່ຄວນຖືກຖອດຂໍ້ຄວາມດ້ວຍສຽງ. ຕົວຢ່າງ:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> ຖືກ​ຕ້ອງ</correct>: ມັນ​ຢູ່​ຫ່າງ​ຈາກ​ນີ້​ໜຶ່ງ​ຮ້ອຍ​ໄມ​ລ໌
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>ຜິດ</wrong>: ມັນຫ່າງຈາກນີ້ 100 ໄມລ໌
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> ຖືກ​ຕ້ອງ</correct>: ພົບ​ກັນ​ໃນ <underline>twenty Fifteen</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>ຜິດ</wrong>: ພົບກັນໃນ <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>ຖືກ​ຕ້ອງ</correct>: ມັນ​ຖືກ​ຫຼຸດ​ລົງ​ຊາວ​ເປີ​ເຊັນ
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>ຜິດ</wrong>: ມັນແມ່ນສ່ວນຫຼຸດ 20%.
+transcribe-the-audio-subheader-2-example-4-correct = <correct>ຖືກຕ້ອງ</correct>: ພວກເຂົາເຈົ້າໄດ້ຖືກຈັບໂດຍ <underline>FBI</underline> ໃນວັນພະຫັດທີ່ຜ່ານມາ
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>ຜິດ</wrong>: ພວກເຂົາຖືກຈັບໂດຍ <underline>eff bee eye</underline> ໃນວັນພະຫັດທີ່ຜ່ານມາ
+transcribe-the-audio-subheader-3-explanation = ແທັກພິເສດຕໍ່ໄປນີ້ຄວນຖືກໃຊ້ເພື່ອໝາຍຄວາມບໍ່ຄ່ອງແຄ້ວ, ຕົວຕື່ມຂໍ້ມູນ ແລະ ເນື້ອຫາທີ່ບໍ່ແມ່ນຄໍາເວົ້າ (ໃນພາສາອັງກິດ).
+tags-table-header-1 = ແທັກ
+tags-table-header-2 = ຄວາມຫມາຍ
+tags-laugh = ຫົວ
+tags-disfluency = ຄວາມບໍ່ຄ່ອງແຄ້ວ
+tags-unclear = ບໍ່ຈະແຈ້ງ
+tags-noise = ສິ່ງລົບກວນ
+tags-laugh-explanation = ສຽງຫົວເລາະ.
