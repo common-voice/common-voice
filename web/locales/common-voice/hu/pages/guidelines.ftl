@@ -157,6 +157,7 @@ transcribe-the-audio-subheader-1 = Általános útmutatás
 transcribe-the-audio-subheader-2 = Számok és rövidítések
 transcribe-the-audio-subheader-3 = Speciális címkék
 transcribe-the-audio-subheader-4 = Szórészletek, hamis kezdések, ismétlődő szavak
+transcribe-the-audio-subheader-5 = Nyelvtani hibák és kollokvializmusok
 transcribe-the-audio-subheader-1-explanation = Általában le kell írnia mindent, amit hall. Ez ezt takarja:
 
 ## Code-Switching
