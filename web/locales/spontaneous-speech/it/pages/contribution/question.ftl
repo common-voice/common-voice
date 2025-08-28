@@ -26,4 +26,3 @@ do-not-section-title = Cosa non fare
 do-not-section-guideline-1 = Richiedere informazioni di identificazione personale (come nomi o informazioni finanziarie)
 do-not-section-guideline-2 = Esprimere o alimentare pregiudizi o sentimenti offensivi
 do-not-section-guideline-3 = Fare domande su temi delicati
-cs-do-section-guideline-2 = Esplora scenari, situazioni o rievocazioni informali
