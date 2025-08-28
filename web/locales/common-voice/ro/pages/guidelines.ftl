@@ -233,6 +233,11 @@ code-switching-ask-bilingual-contexts-header = Pune întrebări referitoare la c
 code-switching-ask-bilingual-contexts-explanation = Folosește situații în care ambele limbi sunt des folosite (de exemplu, acasă, la școală, la evenimente ale comunității). De exemplu:
 code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu rudele tale, amesteci vreodată româna cu engleza?”
 code-switching-focus-emotional-header = Concentrează-te pe momente emoționale sau importante.
+code-switching-focus-emotional-explanation = Atunci când relatează episoade emoționante sau în care întâmplările s-au succedat în ritm alert, mulți vorbitori bilingvi vor începe să combine limbile pe care le vorbesc.
+code-switching-focus-emotional-explanation-example = „Spune-mi ce ți-au spus părinții când le-ai dat o veste foarte importantă pentru tine — cuvânt cu cuvânt, chiar, dacă-ți mai amintești.”
+code-switching-direct-quotes-header = Solicită citate sau reconstituiri
+code-switching-direct-quotes-explanation = Încurajează participanții să redea exact ce s-a spus în acea situație. De exemplu:
+code-switching-direct-quotes-explanation-example = „Ce ai spus exact, atunci când ai aflat?”
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-tagging-error-2 = Greșeli de ortografie
