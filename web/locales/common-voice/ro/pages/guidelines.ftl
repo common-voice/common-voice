@@ -230,6 +230,9 @@ code-switching-use-bilingual-prompts-header = Propune întrebări cu text biling
 code-switching-use-bilingual-prompts-explanation = Propune întrebări care includ text în ambele limbi. De exemplu:
 code-switching-use-bilingual-prompts-explanation-example = „Ce ți-a spus mama ta when you got home that day?"
 code-switching-ask-bilingual-contexts-header = Pune întrebări referitoare la contextele bilingve
+code-switching-ask-bilingual-contexts-explanation = Folosește situații în care ambele limbi sunt des folosite (de exemplu, acasă, la școală, la evenimente ale comunității). De exemplu:
+code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu rudele tale, amesteci vreodată româna cu engleza?”
+code-switching-focus-emotional-header = Concentrează-te pe momente emoționale sau importante.
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-tagging-error-2 = Greșeli de ortografie
