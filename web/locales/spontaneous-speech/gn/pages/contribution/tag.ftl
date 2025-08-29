@@ -26,6 +26,7 @@ tag-empty-submit-error = Ndaipóri haipy emondova’erã. Ikatúpa emboheraraẽ
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Eiporu hekopete haikatu
 cs-tag-do-guideline-2 = Eiporu ayvukuaa eipytyvõ hag̃ua
+cs-tag-do-guideline-3 = Eñangareko umi ñe’ẽ ojoguáva rehe
 cs-tag-shortcuts-section-title = Tairenda jeporu
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Teramoĩ  ñe’ẽ ndive
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
