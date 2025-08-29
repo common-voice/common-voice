@@ -200,19 +200,19 @@ transcribe-the-audio-subheader-4-explanation-1 = Spontant tal innehåller naturl
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Ibland upprepar högtalarna ett ord eller ordfragment flera gånger. Detta bör också transkriberas. Exempel:
 transcribe-the-audio-subheader-5-explanation-1 = Spontant tal kommer naturligtvis att innehålla grammatiska fel. Dessa bör inte korrigeras vid transkribering. Transkriberingen bör återspegla det talade innehållet exakt.
-transcribe-the-audio-subheader-5-explanation-2 = Talare kan använda vardagar (t.ex. på engelska "gonna", "cuz", etc.) som inte kanske anses formellt korrekta. Dessa bör transkriberas som de är, och inte ändras till sina mer formella motsvarigheter.
+transcribe-the-audio-subheader-5-explanation-2 = Talare kan använda vardagliga uttryck (som på engelska ”gonna”, ”cuz” etc.) som kanske inte anses formellt korrekta. Dessa bör transkriberas som de är och inte ändras till sina mer formella motsvarigheter.
 
 ## Review the Transcription
 
 review-the-transcription = Granska transkriptionen
 review-the-transcription-subheader = Allmän vägledning
-review-the-transcription-explanation-1 = Generellt sett rekommenderar vi att den som kontrollerar transkriptionen inte bör vara samma person som gjorde den ursprungliga transkriptionen. Det är väldigt svårt att kontrollera sitt eget arbete! Att ha flera granskningsrader kan hjälpa till att göra kvalitetssäkringen mer robust och hjälpa till att mildra partitioner och problem.
+review-the-transcription-explanation-1 = Generellt sett rekommenderar vi att den person som kontrollerar transkriptionen inte bör vara samma person som gjorde den ursprungliga transkriptionen. Det är mycket svårt att kontrollera sitt eget arbete! Att ha flera granskningslinjer kan bidra till att göra kvalitetssäkringen mer robust och bidra till att minska praktiskhet och problem.
 review-the-transcription-explanation-2 = Granska riktlinjerna för transkription ovan för att kontrollera att en transkription är korrekt. Du kan tillhandahålla redigeringar och skicka in dem.
-review-the-transcription-explanation-3 = Återigen, kan du flagga innehåll som är stötande, skadligt eller på annat sätt oroande och det kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska det och undersöka ytterligare.
+review-the-transcription-explanation-3 = Återigen, du kan flagga innehåll som är stötande, skadligt eller på annat sätt oroande, och det kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska det och utrett det vidare.
 
 ## Code-Switching
 
-code-switching = Kodbyte
+code-switching = Språkväxling
 adding-a-question = Lägga till en fråga
 # Adding a Question
 code-switching-adding-question-subheader = Vad gör en fråga bra?
@@ -229,14 +229,14 @@ code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu 
 code-switching-ask-bilingual-contexts-header = Fråga om tvåspråkiga sammanhang
 code-switching-ask-bilingual-contexts-explanation = Använd situationer där båda språken är vanligt förekommande (t.ex. hem, skola, evenemang i gemenskapen). Exempel:
 code-switching-ask-bilingual-contexts-explanation-example = "När du pratar med dina kusiner, blandar du spanska och engelska?"
-code-switching-focus-emotional-header = Fokusera på känslomässiga eller höginsatta ögonblick
-code-switching-focus-emotional-explanation = Personer kodväxlar ofta när de uttrycker känslor eller brådska. Exempel:
-code-switching-focus-emotional-explanation-example = "Berätta vad dina föräldrar sa när du berättade dina stora nyheter för dem - exakt hur de sa det."
-code-switching-direct-quotes-header = Fråga efter citat eller reenactments
-code-switching-direct-quotes-explanation = Uppmuntra deltagarna att återge hur saker faktiskt sades. Exempel:
-code-switching-direct-quotes-explanation-example = "Exakt vilka sade du när du fick veta det?"
+code-switching-focus-emotional-header = Fokusera på känslomässiga eller viktiga ögonblick
+code-switching-focus-emotional-explanation = Människor byter ofta språk när de uttrycker känslor eller brådska. Exempel:
+code-switching-focus-emotional-explanation-example = "Berätta vad dina föräldrar sa när du berättade dina stora nyheter — exakt hur de sa det."
+code-switching-direct-quotes-header = Be om direkta citat eller återskapande
+code-switching-direct-quotes-explanation = Uppmuntra deltagarna att återge hur saker och ting faktiskt sades. Exempel:
+code-switching-direct-quotes-explanation-example = "Vad var dina exakta ord när du fick reda på det?"
 code-switching-cultural-topics-header = Välj kulturspecifika ämnen
-code-switching-cultural-topics-explanation = Mat, traditioner, högtider och familjedamik inbjuder ofta till kodväxling.
+code-switching-cultural-topics-explanation = Mat, traditioner, högtider och familjedynamik inbjuder ofta till språkväxling.
 code-switching-cultural-topics-explanation-example = "Hur beskriver du Día de los Muertos för någon som bara talar engelska?"
 code-switching-informal-scenarios-header = Utforska informella scenarier
 code-switching-informal-scenarios-explanation = Samtal med vänner eller sms innehåller ofta mer naturliga byten. Exempel:
