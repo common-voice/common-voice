@@ -283,7 +283,7 @@ code-switching-answer-dont-correct-language = <bold>”Rätta” ditt språk.</b
 code-switching-answer-dont-avoid-switching = <bold>Undvik att byta om du normalt gör det.</bold> Det går bra att byta mitten av mening, mitten av tanken eller bara för ett ord.
 code-switching-answer-dont-formal-writing = <bold>Tala som om du skriver formellt.</bold> Undvik formella, akademiska svar. Håll det konversationsmässigt.
 code-switching-answer-dont-force-switch = <bold>Tvinga fram växling om det inte är naturligt.</bold> Växla bara om det är så du naturligt skulle prata i den situationen.
-code-switching-answer-dont-translate-repeat = <bold>Översätt eller upprepa allt.</bold> Säg det bara en gång, som det skulle bli i en konversation. Du behöver inte säga en version av svaret på varje språk.
+code-switching-answer-dont-translate-repeat = <bold>Översätt eller upprepa allting.</bold> Säg det bara en gång, som det skulle sägas i en konversation. Du behöver inte säga en version av svaret på varje språk.
 # Transcribing
 code-switching-transcribe-subheader = Transkribering
 code-switching-transcribe-intro = Vid transkribering av svar som inkluderar kodväxling, representera talarens språk som det talades – utan att korrigera, redigera eller förenkla. Detta är för alla växlar mellan språk, informellt tal och språkblandade ord.
