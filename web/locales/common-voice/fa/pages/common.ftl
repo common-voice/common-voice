@@ -4,7 +4,7 @@
 
 ## Languages
 
-aa = عفار
+aa = عفاری
 ab = آبخاز
 abb = بانکون
 ace = آچه‌ای
