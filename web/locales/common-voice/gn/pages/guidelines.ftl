@@ -245,6 +245,10 @@ code-switching-pronunciation-explanation-example-1 = Inglés: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = España ñe’ẽ: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Peteĩ token-pe oñembohérava
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva ñe’ẽ aguĩvare
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Eñangareko umi ojoguávare
 # When Not to Tag Words
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
 code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan
