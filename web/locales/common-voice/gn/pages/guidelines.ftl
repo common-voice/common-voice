@@ -227,6 +227,7 @@ code-switching-authentic-header = Embohovái porã ha ha’etéva
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
+code-switching-transcribe-do-1 = Embopu mbykymimi heta jey ejapyhykuaa hag̃ua moambuepy
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
 # Include filler words and markers
