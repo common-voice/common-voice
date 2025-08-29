@@ -1,19 +1,20 @@
-import * as React from 'react'
-import { Localized, WithLocalizationProps } from '@fluent/react'
-import classNames from 'classnames'
-import { Tooltip } from 'react-tooltip'
+import * as React from 'react';
+import { Localized, WithLocalizationProps } from '@fluent/react';
+import classNames from 'classnames';
+import { Tooltip } from 'react-tooltip';
+import { useParams } from 'react-router-dom'; //  ADDED for locale
 
-import { ContributeMenuItem } from '.'
-import { LocaleLink } from '../../../locale-helpers'
-import URLS from '../../../../urls'
+import { ContributeMenuItem } from '.';
+import { LocaleLink } from '../../../locale-helpers';
+import URLS from '../../../../urls';
 
 type Props = {
-  item: ContributeMenuItem
-  toggleMenu?: () => void
-  isLocaleContributable: boolean
-} & WithLocalizationProps
+  item: ContributeMenuItem;
+  toggleMenu?: () => void;
+  isLocaleContributable: boolean;
+} & WithLocalizationProps;
 
-const smallTagRegex = /\s*<small>.*?<\/small>/g
+const smallTagRegex = /\s*<small>.*?<\/small>/g;
 
 export const MenuItemRenderer = ({
   item,
@@ -21,6 +22,8 @@ export const MenuItemRenderer = ({
   getString,
   toggleMenu,
 }: Props) => {
+  const { locale } = useParams(); //  Extract locale from the URL
+
   const {
     internalHref,
     externalHref,
@@ -28,10 +31,11 @@ export const MenuItemRenderer = ({
     icon: Icon,
     menuItemTooltip,
     menuItemAriaLabel,
-  } = item
-  const isComingSoon = !(internalHref || externalHref)
+  } = item;
+
+  const isComingSoon = !(internalHref || externalHref);
   const isSpeakOrListenUrl =
-    internalHref === URLS.SPEAK || internalHref === URLS.LISTEN
+    internalHref === URLS.SPEAK || internalHref === URLS.LISTEN;
 
   const renderContent = () => {
     if (!isLocaleContributable && isSpeakOrListenUrl) {
@@ -40,23 +44,25 @@ export const MenuItemRenderer = ({
           <Icon />
           <Localized
             id={`${localizedId}-coming-soon`}
-            elems={{ small: <span /> }}>
+            elems={{ small: <span /> }}
+          >
             <p className="coming-soon-text" />
           </Localized>
         </>
-      )
+      );
     }
 
     if (internalHref) {
       return (
         <LocaleLink
-          to={internalHref}
+          to={`/${locale}${internalHref}`} //  FIXED: prepend locale
           className="contribute-link"
-          onClick={toggleMenu}>
+          onClick={toggleMenu}
+        >
           <Icon />
           <Localized id={localizedId} />
         </LocaleLink>
-      )
+      );
     }
 
     if (externalHref) {
@@ -66,13 +72,14 @@ export const MenuItemRenderer = ({
           target="_blank"
           rel="noreferrer"
           className="contribute-link"
-          onClick={toggleMenu}>
+          onClick={toggleMenu}
+        >
           <Icon />
           {getString(localizedId).replace(smallTagRegex, '')}
         </a>
-      )
+      );
     }
-  }
+  };
 
   return (
     <React.Fragment key={localizedId}>
@@ -81,7 +88,8 @@ export const MenuItemRenderer = ({
           className={classNames('content', {
             'coming-soon':
               isComingSoon || (!isLocaleContributable && isSpeakOrListenUrl),
-          })}>
+          })}
+        >
           {renderContent()}
         </div>
       </li>
@@ -94,10 +102,11 @@ export const MenuItemRenderer = ({
             maxWidth: '350px',
             position: 'absolute',
           }}
-          openEvents={{ mouseover: true }}>
+          openEvents={{ mouseover: true }}
+        >
           {getString(menuItemTooltip)}
         </Tooltip>
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
