@@ -22,6 +22,7 @@ select-all = Mbosa’ypa
 # Messages
 tag-success-toast-message = Ohóma teramoĩ hekoitépe
 tag-error-toast-message = Ojavy teramoĩ ñemondo
+tag-empty-submit-error = Ndaipóri haipy emondova’erã. Ikatúpa emboheraraẽ peteĩva moñe’ẽrã.
 cs-tag-shortcuts-section-title = Tairenda jeporu
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Teramoĩ  ñe’ẽ ndive
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
