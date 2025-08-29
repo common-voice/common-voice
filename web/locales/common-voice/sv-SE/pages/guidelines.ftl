@@ -286,9 +286,9 @@ code-switching-answer-dont-force-switch = <bold>Tvinga fram växling om det inte
 code-switching-answer-dont-translate-repeat = <bold>Översätt eller upprepa allting.</bold> Säg det bara en gång, som det skulle sägas i en konversation. Du behöver inte säga en version av svaret på varje språk.
 # Transcribing
 code-switching-transcribe-subheader = Transkribering
-code-switching-transcribe-intro = Vid transkribering av svar som inkluderar kodväxling, representera talarens språk som det talades – utan att korrigera, redigera eller förenkla. Detta är för alla växlar mellan språk, informellt tal och språkblandade ord.
-code-switching-transcribe-do-1 = Spela korta segment flera gånger för att fånga subtila omkopplare
-code-switching-transcribe-do-2 = Pausa efter varje mening för att dubbelkolla efter växlar eller blandade ord
+code-switching-transcribe-intro = När du transkriberar svar som inkluderar språkväxling, representera talarens språk som det talades – utan att korrigera, redigera eller förenkla. Detta gäller för alla växlingar mellan språk, informellt tal och blandspråkiga ord.
+code-switching-transcribe-do-1 = Spela korta segment flera gånger för att fånga upp subtila växlingar
+code-switching-transcribe-do-2 = Pausa efter varje mening för att dubbelkolla om det finns ordbyten eller blandningar
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Fånga tal exakt som det talas
 code-switching-capture-explanation = Transkribera båda språken när de visas / låter. "fixa" inte språket eller ändra det till endast ett språk.
