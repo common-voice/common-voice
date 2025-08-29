@@ -303,7 +303,7 @@ code-switching-cleanup-header = Rensa inte upp eller förenkla inte språket
 code-switching-cleanup-1 = Översätt eller parafrasera – skriv vad talaren sa, inte vad de ”menade”.
 code-switching-cleanup-2 = ”Korrekt” grammatik eller uttal – behåll talarens naturliga språkbruk.
 code-switching-cleanup-3 = Hoppa över växlingar som verkar små eller obetydliga – även lånade ord spelar roll.
-code-switching-cleanup-4 = Infoga skiljetecken som kan ändra innebörden – håll flödet naturligt.
+code-switching-cleanup-4 = Sätt in interpunktion som kan ändra betydelsen – håll flödet naturligt.
 code-switching-cleanup-5 = Anta att du kan språket för varje ord – tagg baserad på användning.
 # Tagging
 code-switching-tagging-subheader = Taggning
