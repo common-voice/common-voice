@@ -187,3 +187,12 @@ tags-disfluency = ຄວາມບໍ່ຄ່ອງແຄ້ວ
 tags-unclear = ບໍ່ຈະແຈ້ງ
 tags-noise = ສິ່ງລົບກວນ
 tags-laugh-explanation = ສຽງຫົວເລາະ.
+tags-disfluency-explanation =
+    ຄຳສັບ ຫຼື ສຽງທີ່ໃຊ້ເປັນຕົວຍຶດໃນຂະນະທີ່ຜູ້ເວົ້າຕັດສິນໃຈວ່າຈະເວົ້າຫຍັງ.
+    ໃນພາສາອັງກິດ, ບາງສຽງທີ່ລັງເລໃຈທົ່ວໄປແມ່ນ "err", "um", "huh", ແລະ ອື່ນໆ.
+tags-unclear-explanation = ຄຳສັບ ຫຼື ລຳດັບຂອງຄຳສັບທີ່ບໍ່ສາມາດເຂົ້າໃຈໄດ້.
+tags-noise-explanation =
+    ສຽງດັງປະເພດອື່ນໆ, ເຊັ່ນ: ລໍາໂພງໄອ ຫຼື ສຽງດັງ,
+    ສຽງດັງລົດ, ສຽງຂອງບາງສິ່ງບາງຢ່າງຕີໄມໂຄຣໂຟນ, ສຽງໂທລະສັບດັງ, ແລະ ອື່ນໆ.
+transcribe-the-audio-subheader-4-explanation-1-example = ຊື່ຂອງລາວແມ່ນ <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = ບາງຄັ້ງຜູ້ເວົ້າຈະເວົ້າຊ້ຳຄຳສັບ ຫຼື ສ່ວນຄຳສັບຫຼາຍເທື່ອ. ອັນນີ້ຄວນຖືກຖອດຂໍ້ຄວາມຄືກັນ. ຕົວຢ່າງ:
