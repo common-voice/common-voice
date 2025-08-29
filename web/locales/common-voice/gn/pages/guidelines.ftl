@@ -249,6 +249,7 @@ code-switching-single-token-header = Peteĩ token-pe oñembohérava
 code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva ñe’ẽ aguĩvare
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Eñangareko umi ojoguávare
+code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojeporúva inglés ñe’ẽme > embohéra inglés ramo
 # When Not to Tag Words
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
 code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan
