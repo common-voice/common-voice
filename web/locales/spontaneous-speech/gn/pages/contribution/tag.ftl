@@ -23,6 +23,9 @@ select-all = Mbosa’ypa
 tag-success-toast-message = Ohóma teramoĩ hekoitépe
 tag-error-toast-message = Ojavy teramoĩ ñemondo
 tag-empty-submit-error = Ndaipóri haipy emondova’erã. Ikatúpa emboheraraẽ peteĩva moñe’ẽrã.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Eiporu hekopete haikatu
+cs-tag-do-guideline-2 = Eiporu ayvukuaa eipytyvõ hag̃ua
 cs-tag-shortcuts-section-title = Tairenda jeporu
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Teramoĩ  ñe’ẽ ndive
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
