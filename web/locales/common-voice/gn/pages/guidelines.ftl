@@ -152,6 +152,8 @@ transcribe-the-audio-subheader-2 = Papapy ha akrónimo
 transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
 transcribe-the-audio-subheader-4 = Ñe’ẽ vore, eñepyrũ japúpe, ñe’ẽ oje’e jeyjeýva
 transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
+transcribe-the-audio-subheader-1-explanation = Tuichaháicha, ehaivaʼerã opaite ehendúva guive. Péva ogueroike:
+transcribe-the-audio-subheader-1-explanation-example-2 = Embohéra umi tyapu oikóva ikatúva hu’u térã jepuka
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
 # text wrapped in wrong will be shown as red text in the UI
