@@ -297,11 +297,11 @@ code-switching-filler-header = Inkludera utfyllnadsord och markörer
 code-switching-filler-explanation = Ord som "um", "gillar", "pues", "du vet" och "entonces" är meningsfulla. Exempel: "Så, um, jag sa till henne som, 'pues no sé, kanske senare'."
 # Use standard spelling for each language
 code-switching-spelling-header = Använd standardstavning för varje språk
-code-switching-spelling-explanation = Försök att stava ord korrekt för varje språk, om inte talaren tydligt uttalar dem på ett icke-standardiserat sätt.
+code-switching-spelling-explanation = Försök att stava ord korrekt för varje språk, såvida inte talaren tydligt uttalar dem på ett ostandardiserat sätt.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Rensa inte upp eller förenkla inte språket
-code-switching-cleanup-1 = Översätt eller omskriva - skriv vad talaren sa, inte vad de "betydde".
-code-switching-cleanup-2 = "Korrekt" grammatik eller uttal - behåll högtalarens naturliga användning.
+code-switching-cleanup-1 = Översätt eller parafrasera – skriv vad talaren sa, inte vad de ”menade”.
+code-switching-cleanup-2 = ”Korrekt” grammatik eller uttal – behåll talarens naturliga språkbruk.
 code-switching-cleanup-3 = Hoppa över byten som verkar små eller små – även lånade ord har betydelse.
 code-switching-cleanup-4 = Infoga skiljetecken som kan ändra innebörden – håll flödet naturligt.
 code-switching-cleanup-5 = Anta att du kan språket för varje ord – tagg baserad på användning.
