@@ -314,26 +314,26 @@ code-switching-tagging-error-3 = Ord skrivna med fel ortografi
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Använda rätt ortografi för varje språk
 code-switching-orthography-explanation = Skriv varje ord enligt stavningen på språket som det kommer ifrån. Till exempel:
-code-switching-orthography-explanation-example-1 = Om ordet "kök" visas på spanska, ska det skrivas som på engelska, inte som "quichen."
+code-switching-orthography-explanation-example-1 = Om ordet ”kitchen” uttalas som på spanska, ska det skrivas som på engelska, inte som ”quichen”.
 code-switching-orthography-explanation-example-2 = Om ordet quinceaños uttalas som på engelska, skriv det med ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Använd uttal för att bestämma språket
-code-switching-pronunciation-explanation = Vissa ord kan se likadana ut på båda språken men kan uttalas olika.  Lyssna på uttalet för att hjälpa till att tagga korrekt.  Till exempel: kabel, taco, skådespelare, detektiv.
-code-switching-pronunciation-explanation-example-1 = Svenska: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation = Vissa ord kan se likadana ut på båda språken men kan uttalas olika. Lyssna på uttalet för att få hjälp med att tagga korrekt. Till exempel: kabel, kö, skådespelare, detektiv.
+code-switching-pronunciation-explanation-example-1 = Engelska: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Spanska: /ˈkable/
 # Tagging in a Single Token
-code-switching-single-token-header = Taggning i en enda token
-code-switching-single-token-explanation = En enda blankstegsseparerad token bör innehålla mer än ett taggat span.
+code-switching-single-token-header = Tagga i ett enda token
+code-switching-single-token-explanation = En enda mellanslagsseparerad token bör innehålla mer än ett taggat spann.
 # Tag Punctuation Based on Nearby Language
-code-switching-punctuation-tagging-header = Tagga skiljetecken baserat på närliggande språk
-code-switching-punctuation-tagging-explanation = Tagga skiljetecken med det språk som är närmast vänster. Exempel:
+code-switching-punctuation-tagging-header = Tagga interpunktion baserat på närliggande språk
+code-switching-punctuation-tagging-explanation = Tagga interpunktion med språket närmast vänster. Exempel:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
-code-switching-punctuation-tagging-explanation-example-1 = <purple>och en gång som</purple> Maria <purple>skrek på mig var</purple> <blue>porque</blue> <purple>hon försökte för att</purple> skriva ut <blue>av< /blue> <purple>ordning.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-1 = <purple>och en gång som</purple> Maria <purple>skrek på mig var</purple> <blue>porque</blue> <purple>hon försökte för att</purple> printear <blue>en</blue> <purple>order.</purple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Var försiktig med liknande ord
 code-switching-lookalikes-explanation = Vissa ord kan se ut som på ett språk men används på ett annat. Tagga baserat på betydelse och användning, inte utseende. Exempel:
-code-switching-lookalikes-explanation-example-1 = "Footing" betydde tidigare körs på spanska > tagga som spanska
+code-switching-lookalikes-explanation-example-1 = "Footing" betydde tidigare joggning på spanska > tagga som spanska
 code-switching-lookalikes-explanation-example-2 = "No problemo" används i engelska > tagga som engelska
 # When Not to Tag Words
 code-switching-not-tag-header = När får man inte tagga ord

@@ -1,6 +1,6 @@
 ## Tagging Page
 
-tag-page-instruction = Välj <icon></icon> texten som ska börja
+tag-page-instruction = Välj <icon></icon> texten för att börja
 tag-terms-checkbox = Jag godkänner Common Voices villkor och sekretesspolicy.
 tag-popover-title = Välj en tagg
 select-a-tag = Välj en tagg
@@ -29,7 +29,7 @@ cs-tag-do-guideline-2 = Använd uttal som hjälp
 cs-tag-do-guideline-3 = Var försiktig med liknande ord
 cs-tag-do-not-guideline-1 = Tagga egennamn, blandade ord eller interjektioner
 cs-tag-shortcuts-section-title = Tangentbordsanvändning
-cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Tagga med språk
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Tagg med språk
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
