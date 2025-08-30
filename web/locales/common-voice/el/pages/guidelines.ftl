@@ -186,6 +186,13 @@ review-the-transcription-subheader = Γενικές οδηγίες
 
 ## Code-Switching
 
+code-switching = Εναλλαγή γλώσσας
+adding-a-question = Προσθήκη ερώτησης
+# Adding a Question
+code-switching-adding-question-subheader = Τι χαρακτηριστικά έχει μια καλή ερώτηση;
+# What to Avoid
+code-switching-avoid-subheader = Τι να αποφύγετε
+code-switching-dont-header = Αποφύγετε τα εξής
 code-switching-review-intro = Βεβαιωθείτε ότι η ερώτηση πληροί τα εξής κριτήρια:
 code-switching-review-does-not-header = Και ότι <bold>ΔΕΝ</bold> περιλαμβάνει:
 code-switching-review-offensive-content = <bold>Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες</bold>
