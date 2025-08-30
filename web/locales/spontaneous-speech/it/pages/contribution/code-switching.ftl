@@ -14,6 +14,7 @@ cs-question-dataset-name = Dataset: { $datasetName }
 
 ## Validate Page Items
 
+cs-validate-page-instruction = Verifica <validateIcon></validateIcon> che questa domanda rispetti le linee guida.
 cs-no-questions-continue-skipped = Al momento non ci sono altre domande per questo dataset. Se ne hai saltate alcune, puoi continuare con quelle, altrimenti puoi trascrivere delle registrazioni audio e ricontrollare più tardi.
 cs-add-vote-error-message = Si è verificato un errore durante la votazione della domanda
 
