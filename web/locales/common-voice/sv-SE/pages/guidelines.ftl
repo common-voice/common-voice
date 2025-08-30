@@ -270,17 +270,17 @@ code-switching-answer-bullet-3 = Använd ord du faktiskt skulle använda, även 
 code-switching-answer-bullet-4 = Det finns inget "perfekt" sätt att svara
 code-switching-authentic-header = Svara naturligt och autentiskt
 code-switching-authentic-speak = <bold>Tala som du skulle göra med vänner eller familj.</bold> Om du blandar språk i verkliga livet, gör detsamma här. Exempel:
-code-switching-authentic-speak-example = ”Pues, jag sa till henne att jag inte kunde gå, men hon var som: ‘Det är bättre att du dyker upp!’”
+code-switching-authentic-speak-example = "Pues, jag sa till henne att jag inte kunde gå, men hon sa: "Du borde dyka upp!""
 code-switching-use-both-languages = <bold>Använd båda språken om det är så du normalt skulle säga det.</bold> Även att byta ut bara ett eller två ord är användbart. Exempel:
-code-switching-use-both-languages-example = "Hon blev riktigt arg eftersom jag inte ringde tillbaka henne."
+code-switching-use-both-languages-example = "Hon blev riktigt arg porque jag inte ringde tillbaka."
 code-switching-authentic-direct-quotes = <bold>Inkludera direkta citat eller dialog.</bold> Säg exakt vad någon sa, inte en upprensad eller formell version. Exempel:
 code-switching-authentic-direct-quotes-example = ”Mi mamá dijo, ‘Tú crees que esto es un juego?’ och jag var som, ‘Okej, chill!’”
 code-switching-authentic-reflect = <bold>Reflektera känslor, identitet och sammanhang.</bold> Växling sker vanligtvis när människor uttrycker känslor, brådska eller kulturella idéer. Luta dig mot dessa när du svarar på frågor.
 code-switching-authentic-full-context = <bold>Använd fullständiga svar med sammanhang.</bold> Var så detaljerad som möjligt och ge så mycket information som möjligt. Dela en berättelse eller ett exempel i dina svar.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Övertänk eller överredigera inte
-code-switching-answer-dont-correct-language = <bold>”Rätta” ditt språk.</bold> Det här är inte ett test. "Riktig" form spelar ingen roll här, gör naturligt språk.
-code-switching-answer-dont-avoid-switching = <bold>Undvik att byta om du normalt gör det.</bold> Det går bra att byta mitten av mening, mitten av tanken eller bara för ett ord.
+code-switching-answer-dont-correct-language = <bold>"Rätta" ditt språk.</bold> Detta är inte ett test. "Korrekt" form spelar ingen roll här, naturligt språk gör det.
+code-switching-answer-dont-avoid-switching = <bold>Undvik att byta ord om du brukar göra det.</bold> Det går bra att byta mitt i en mening, mitt i en tanke eller bara för ett ord.
 code-switching-answer-dont-formal-writing = <bold>Tala som om du skriver formellt.</bold> Undvik formella, akademiska svar. Håll det konversationsmässigt.
 code-switching-answer-dont-force-switch = <bold>Tvinga fram växling om det inte är naturligt.</bold> Växla bara om det är så du naturligt skulle prata i den situationen.
 code-switching-answer-dont-translate-repeat = <bold>Översätt eller upprepa allting.</bold> Säg det bara en gång, som det skulle sägas i en konversation. Du behöver inte säga en version av svaret på varje språk.
@@ -291,10 +291,10 @@ code-switching-transcribe-do-1 = Spela korta segment flera gånger för att fån
 code-switching-transcribe-do-2 = Pausa efter varje mening för att dubbelkolla om det finns ordbyten eller blandningar
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Fånga tal exakt som det talas
-code-switching-capture-explanation = Transkribera båda språken när de visas / låter. "fixa" inte språket eller ändra det till endast ett språk.
+code-switching-capture-explanation = Transkribera båda språken som de framstår / låter. "Fixa" inte språket eller ändra det till endast ett språk.
 # Include filler words and markers
 code-switching-filler-header = Inkludera utfyllnadsord och markörer
-code-switching-filler-explanation = Ord som "um", "gillar", "pues", "du vet" och "entonces" är meningsfulla. Exempel: "Så, um, jag sa till henne som, 'pues no sé, kanske senare'."
+code-switching-filler-explanation = Ord som "äh", "liksom", "och", "du vet" och "så" är meningsfulla. Exempel: "Så, äh, jag sa till henne, 'pues no sé, kanske senare'."
 # Use standard spelling for each language
 code-switching-spelling-header = Använd standardstavning för varje språk
 code-switching-spelling-explanation = Försök att stava ord korrekt för varje språk, såvida inte talaren tydligt uttalar dem på ett ostandardiserat sätt.
@@ -304,7 +304,7 @@ code-switching-cleanup-1 = Översätt eller parafrasera – skriv vad talaren sa
 code-switching-cleanup-2 = ”Korrekt” grammatik eller uttal – behåll talarens naturliga språkbruk.
 code-switching-cleanup-3 = Hoppa över växlingar som verkar små eller obetydliga – även lånade ord spelar roll.
 code-switching-cleanup-4 = Sätt in interpunktion som kan ändra betydelsen – håll flödet naturligt.
-code-switching-cleanup-5 = Anta att du kan språket för varje ord – tagg baserad på användning.
+code-switching-cleanup-5 = Anta att du kan språket för varje ord – tagga baserat på användning.
 # Tagging
 code-switching-tagging-subheader = Taggning
 code-switching-tagging-error-intro = Om transkriptionen innehåller ett fel, använd rapportfunktionen för att flagga det. Potentiella fel inkluderar:
