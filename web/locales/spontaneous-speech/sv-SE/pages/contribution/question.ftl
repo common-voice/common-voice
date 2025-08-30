@@ -30,5 +30,5 @@ do-not-section-guideline-3 = Ställ känsliga frågor
 cs-do-section-guideline-1 = Använd tvåspråkiga frågor eller sammanhang
 cs-do-section-guideline-2 = Utforska informella scenarier, situationer eller reenactments
 cs-do-not-section-guideline-1 = Be om personligt identifierande information (som namn eller ekonomisk information) eller kränkande känslor
-cs-do-not-section-guideline-2 = Be om kodväxling eller begär översättning
-cs-do-not-section-guideline-3 = Använd ett alltför formellt språk
+cs-do-not-section-guideline-2 = Be om språkväxling eller begär översättning
+cs-do-not-section-guideline-3 = Använd inte ett alltför formellt språk
