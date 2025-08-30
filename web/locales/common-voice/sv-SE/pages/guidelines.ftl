@@ -199,6 +199,7 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontant tal innehåller naturligtvis felstarter där endast en del av ett helt ord produceras. I dessa fall, vänligen transkribera efter din förmåga ordfragmentet och bifoga ett bindestreck i slutet av ordet (-) för att indikera att ordet är en falsk start. Exempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Ibland upprepar högtalarna ett ord eller ordfragment flera gånger. Detta bör också transkriberas. Exempel:
+transcribe-the-audio-subheader-4-explanation-2-example = Och sedan gick jag <underline>till till till sov- till</underline> sovrummet
 transcribe-the-audio-subheader-5-explanation-1 = Spontant tal kommer naturligtvis att innehålla grammatiska fel. Dessa bör inte korrigeras vid transkribering. Transkriberingen bör återspegla det talade innehållet exakt.
 transcribe-the-audio-subheader-5-explanation-2 = Talare kan använda vardagliga uttryck (som på engelska ”gonna”, ”cuz” etc.) som kanske inte anses formellt korrekta. Dessa bör transkriberas som de är och inte ändras till sina mer formella motsvarigheter.
 
