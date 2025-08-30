@@ -39,22 +39,9 @@ not-found-page-header = ملاؤ چے ݰوئے
 not-found-page-content = ڤے ګیم صفحہ کو تو کوسیتے وو ملاؤ چے ݰوئے
 # Privacy and Terms checkbox
 accept-privacy-and-terms = زو ڤے کامن وائسن <termsLink>شرائطف</termsLink>اڤن <privacyLink> ڤے رازدارین نوٹس قبول کینیمتے</privacyLink>
-# Locales
-bsy = صباح بیسایا
-cdo = فوژو
-cpx = ہینگ ہوا
-hch = ویکساریکا
-kzi = کیلابیٹ
-mbf = بابا مالے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مشرقی ٹیلکسیاکو میکسٹیک
 mel = وسطی میلانو
-mmc = میچواکن مزاہوا
-msi = صباح مالے
-pez = مشرقی پینان
-pne = مغربی پینان
-sdo = سیرین بدایوہ
-snv = سابان
-xkl = کینیاہ
 # Locales-Variants
 ms-MY = بھاسا مالے
 

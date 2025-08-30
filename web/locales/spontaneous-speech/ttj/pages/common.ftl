@@ -38,21 +38,8 @@ not-found-page-header = Tikizoirwe
 not-found-page-content = Peeji ei orukuserra tezoirwe
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ninyikiriza enteekereza ya Common Voices <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec
 mel = Central Melanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Eastern Penan
-pne = Western Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

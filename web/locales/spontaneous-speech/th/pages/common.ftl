@@ -38,21 +38,8 @@ not-found-page-header = ไม่พบ
 not-found-page-content = ไม่พบหน้าเว็บที่คุณกำลังค้นหา
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ฉันยอมรับ<termsLink>เงื่อนไข</termsLink>และ<privacyLink>ประกาศความเป็นส่วนตัว</privacyLink>ของ Common Voice
-# Locales
-bsy = ซาบาฮ์บีซายา
-cdo = ฝูโจว
-cpx = เฮงฮัว
-hch = วีชารีกา
-kzi = เกลาบิต
-mbf = มลายูบ้าบ๋า
+# Locales (not yet fully resolved in Pontoon)
 meh = มิซเท็กทลาเซียโกตะวันตกเฉียงใต้
 mel = เมลานาอูตอนกลาง
-mmc = มีโชวาฮันมาชาวา
-msi = มลายูซาบะฮ์
-pez = ปนันตะวันออก
-pne = ปนันตะวันตก
-sdo = บิดายุฮ์เซอเรียน
-snv = ซาบัน
-xkl = เคนยาฮ์
 # Locales-Variants
 ms-MY = มลายูมาตรฐาน

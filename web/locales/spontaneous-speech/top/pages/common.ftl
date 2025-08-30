@@ -31,21 +31,8 @@ not-found-page-header = Ni takgeska
 not-found-page-content = Xlakan web nima ixputsapat ni takgeska
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Akit kmatlaní <termsLink>xalistalanit nikulá namaskujuyá</termsLink> chu <privacyLink>latá natamakgtakalha wekg tukú klichiwinalh</privacyLink> nak Common Voice
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Mixteco de Tlaxiaco
 mel = Melanau central
-mmc = Mazahua de Michoacán
-msi = Sabah Malay
-pez = Penan del este
-pne = Penan del oeste
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

@@ -31,21 +31,8 @@ not-found-page-header = ataaġurkam
 not-found-page-content = maa barenas ite page atamaġurśuman
 # Privacy and Terms checkbox
 accept-privacy-and-terms = jaa common voice e terms ke privacy policy cum itifaaq bila
-# Locales
-bsy = Sabah Bisaya
-cdo = fuzhou
-cpx = heng hua
-hch = wixarika
-kzi = kelabit
-mbf = baba malay
+# Locales (not yet fully resolved in Pontoon)
 meh = southwestern tlaxiaco mixtec
 mel = central melanau
-mmc = michoacan mazahua
-msi = sabah malay
-pez = eastern penan
-pne = western penan
-sdo = serian bidayuh
-snv = saban
-xkl = kenyah
 # Locales-Variants
 ms-MY = bahasa malay

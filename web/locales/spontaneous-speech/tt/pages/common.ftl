@@ -28,21 +28,7 @@ question = Сорау
 not-found-page-header = Табылмады
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Common Voice-ның <termsLink>Шартларын</termsLink> һәм <privacyLink>Хосуйсыйлык Сәясәтен</privacyLink> кабул итәм
-# Locales
-bsy = Сабах Бисайя
-cdo = Фучжоу
-cpx = Хэн Хуа
-hch = Виксарика
-kzi = Келабит
-mbf = Баба Малай
 mel = Үзәк меланау
-mmc = Мичоакан масауа
-msi = Сабах Малай
-pez = Көнчыгыш Пенан
-pne = Көнбатыш Пенан
-sdo = Сериан бидау
-snv = Сабан
-xkl = Кения
 # Locales-Variants
 ms-MY = Бахаса Малай
 

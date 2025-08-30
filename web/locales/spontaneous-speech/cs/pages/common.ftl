@@ -41,22 +41,9 @@ not-found-page-header = Nenalezeno
 not-found-page-content = Stránka, kterou hledáte, nebyla nalezena
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Souhlasím s <termsLink>podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink> Common Voice
-# Locales
-bsy = Sabah Bisaya
-cdo = Fu-čou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Jihozápadní Tlaxiaco Mixtec
 mel = Střední Melanau
-mmc = Michoacán Mazahua
-msi = Sabah malajština
-pez = Východní Penan
-pne = Západní Penam
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa malajština
 

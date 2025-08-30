@@ -31,21 +31,8 @@ not-found-page-header = متھوپس
 not-found-page-content = یانگی ژالین یودپی صفحو متھوپس
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ناسی کامن واٸسی شرایط کن نہ خسنگ تم کن لا ان زیرید۔
-# Locales
-bsy = سباہ بسایا
-cdo = فوزہاو
-cpx = ہینگ ہوا
-hch = وکساریکا
-kzi = کلابٹ
-mbf = بابا مالے
+# Locales (not yet fully resolved in Pontoon)
 meh = ساوتھ ویسٹرن لاسیاکو مکس ٹیک
 mel = سنٹرل میلاناو
-mmc = مچاوکن مزاہاو
-msi = سباہ مالے
-pez = ایسٹرن پنان
-pne = ویسٹرن پینان
-sdo = سرین بدایو
-snv = سابن
-xkl = کنیا
 # Locales-Variants
 ms-MY = بہاسہ مالے

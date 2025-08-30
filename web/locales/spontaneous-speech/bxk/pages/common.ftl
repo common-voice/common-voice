@@ -38,21 +38,8 @@ not-found-page-header = Sebinyolekha tah
 not-found-page-content = Epage isii'oli khoenjanga sebinyolekha tah
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ifukilisa kamakono kabuli ngeli<termsLink>Terms</termsLink> nende <privacyLink>Privacy Notice</privacyLink>
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hau
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec
 mel = Akari èMelanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Penan Ebwamanyanga
-pne = Penan Èbukwanyanga
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

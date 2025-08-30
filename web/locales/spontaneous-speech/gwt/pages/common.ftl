@@ -38,21 +38,8 @@ not-found-page-header = نہ لېوان گہ
 not-found-page-content = مے کرېک موخہ زی کوڅِمانېؤ بہ سے نہ لېوان گہ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = آں کامن وائسَنی <termsLink> شرائط</termsLink> اؤ <privacyLink> پرائیوېسی نوٹسَ</privacyLink> مِنزی اِتِفاق کېرِمېم
-# Locales
-bsy = صباح بسایا
-cdo = فوزو
-cpx = لمُوَہ
-hch = وکسارِکا
-kzi = کیلابٹ
-mbf = بابامالے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی ٹیلیکسیاکو مِکسٹَک
 mel = وسطی میلانو
-mmc = مائیکواچن مزاہُوا
-msi = صباح مالے
-pez = مشرقی پېنان
-pne = مغربی پېنان
-sdo = سیرین بدائیوا
-snv = شعبان
-xkl = کېنیا
 # Locales-Variants
 ms-MY = بہاسا مالائی

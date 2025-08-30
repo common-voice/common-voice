@@ -38,21 +38,8 @@ not-found-page-header = Gan Aimsiú
 not-found-page-content = Níorbh fhéidir an leathanach atá á lorg agat a aimsiú
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Glacaim le <termsLink>Téarmaí</termsLink> agus leis an bh<privacyLink>Fógra Príobháideachais</privacyLink> a bhaineann le Common Voice.
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Tlaxiaco Mixtec Iardheisceartach
 mel = Melanau Láir
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Penan Thoir
-pne = Penan Thiar
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

@@ -44,22 +44,9 @@ not-found-page-header = 找不到页面
 not-found-page-content = 找不到您需要的页面
 # Privacy and Terms checkbox
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用条款</termsLink>和<privacyLink>隐私声明</privacyLink>
-# Locales
-bsy = 沙巴米沙鄢语
-cdo = 福州话
-cpx = 兴化语
-hch = 惠乔尔语
-kzi = 加拉毕语
-mbf = 马来峇峇语
+# Locales (not yet fully resolved in Pontoon)
 meh = 米斯特克语（西南拉克斯亚戈）
 mel = 中部梅拉瑙语
-mmc = 米却肯马萨瓦语
-msi = 沙巴马来语
-pez = 东部本南语
-pne = 西部本南语
-sdo = 西连比达友语
-snv = Sa'ban 语
-xkl = 肯雅语
 # Locales-Variants
 ms-MY = 马来语
 el-CY = 希腊语（塞浦路斯）

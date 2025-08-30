@@ -18,21 +18,8 @@ respond-to-prompt = Arrispunni â dumanna
 
 ## Not Found Page
 
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Mixtec di Tlaxiaco di sciroccu-punenti
 mel = Melanau cintrali
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Penan di livanti
-pne = Penan di punenti
-sdo = Serian Bidayuh
-snv = Sa’ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

@@ -31,21 +31,8 @@ not-found-page-header = ملاؤ نہ بھلو
 not-found-page-content = تو کھئیو صفحہ کی تلاش تھانو ایسو ملاؤ نہ بھلو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مہ Common Voice کی <termsLink>شرائط</termsLink> او <privacyLink>پرائیویسی نوٹس</privacyLink> نسگی اتفاق تھانو ہنو
-# Locales
-bsy = صباح بسایا
-cdo = فوزو
-cpx = ہنگ ہُوا
-hch = وکساریکا
-kzi = کیلابٹ
-mbf = بابا مالے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی Tlaxiaco Mixtec
 mel = وسطی میلانو
-mmc = میچونکین میزاہوا
-msi = صباح مالے
-pez = مشرقی پینان
-pne = مغربی پینان
-sdo = سیرین بدایوہ
-snv = سابن
-xkl = کینیا
 # Locales-Variants
 ms-MY = بہاسا مالے

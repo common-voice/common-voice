@@ -38,22 +38,9 @@ not-found-page-header = მა̄მ ა̈ნთხა̄̈ნ
 not-found-page-content = ეჯ გვერდ, სი ერ ხეთხე̄ლი, მა̄მ ა̈ნთხა̄̈ნ.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = თანახმა ხუ̂ი Common Voice's-შ
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = ვიქსარიკა
-kzi = კელაბიტ
-mbf = ბაბა მალაიზია
+# Locales (not yet fully resolved in Pontoon)
 meh = სამხრეთ-დასავლეთ Tlaxiaco Mixtec
 mel = ცენტრალურ Melanau
-mmc = მიჩოაკან მაზახუა
-msi = მალაიური
-pez = აღმოსავლურ პენან
-pne = დასავლურ პენან
-sdo = Bidayuh-ის ტომი
-snv = მა̈გ
-xkl = კენიურ
 # Locales-Variants
 ms-MY = მალაიური ენა
 

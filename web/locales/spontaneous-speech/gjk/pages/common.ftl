@@ -38,22 +38,9 @@ not-found-page-header = نا زڙيون
 not-found-page-content = تمين زين صفع نين ڳوتو سو ريا، اِي نا زڙيو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ھون راضِي سون آم آواز نِي شرطان انين رازڌارِي نا نوٽس ٿِي۔
-# Locales
-bsy = صبع بِسايا
-cdo = فوزو
-cpx = ھينگ ھووا
-hch = ويڪساريڪا
-kzi = ڪلابت
-mbf = بابا ملائي
+# Locales (not yet fully resolved in Pontoon)
 meh = ۮکڻاۮو ٽلاسياڪو ميسٽيڪ
 mel = مرڪزي ميلانو
-mmc = ميچواکان مازاهوا
-msi = سبا مالي
-pez = اُوڳمڻون پنن
-pne = آٿمڻون پنن
-sdo = سيرين بدايو
-snv = سعبان
-xkl = ڪينيا
 # Locales-Variants
 ms-MY = باھاسا مالي
 

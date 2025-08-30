@@ -38,22 +38,9 @@ not-found-page-header = 找不到
 not-found-page-content = 找不到您尋找的頁面。
 # Privacy and Terms checkbox
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
-# Locales
-bsy = Sabah Bisaya 沙巴比沙亞語
-cdo = Fuzhou 福州語
-cpx = Heng Hua 興化語
-hch = Wixarika 語
-kzi = Kelabit 語
-mbf = Baba Malay 語
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec 語
 mel = Central Melanau 語
-mmc = Michoacán Mazahua 語
-msi = Sabah Malay 沙巴馬來語
-pez = Eastern Penan 語
-pne = Western Penan 語
-sdo = Serian Bidayuh 西連比達友語
-snv = Sa'ban 語
-xkl = Kenyah 語
 # Locales-Variants
 ms-MY = Bahasa Melayu 馬來語
 

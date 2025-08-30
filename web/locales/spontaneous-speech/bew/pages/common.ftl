@@ -31,21 +31,8 @@ not-found-page-header = Ora adé/ ga ditemuin
 not-found-page-content = Laman nyang Ente cari ora adé/ga ditemuin
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ayé setuju amé <termsLink>syarat</termsLink> dan <privacyLink>peringetan privasi</privacyLink> dari Common Voice.
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Melayu Baba
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec
 mel = Melanau Tengah
-mmc = Michoacán Mazahua
-msi = Melayu Sabah
-pez = Penan Timur
-pne = Penan Barat
-sdo = Seri Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Melayu (Malaysia)

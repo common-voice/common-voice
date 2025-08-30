@@ -1,20 +1,7 @@
 ## Not Found Page
 
-# Locales
-bsy = Сабах Бисая
-cdo = Фучжоу
-cpx = Хэн Хуа
-hch = Виксарика
-kzi = Келабит
-mbf = Баба Малай
+# Locales (not yet fully resolved in Pontoon)
 meh = Ипщэ-къухьэпӏэ Тлахиако Миштек
 mel = Централь Меланау
-mmc = Мичоакан Масауа
-msi = Сабах Малай
-pez = Къэкӏыпӏэ Пенан
-pne = Централь Меланау
-sdo = Сериан Бидау
-snv = Сабан
-xkl = Кенийбзэ
 # Locales-Variants
 ms-MY = Бахаса Малай

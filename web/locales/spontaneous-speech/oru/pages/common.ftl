@@ -38,22 +38,9 @@ not-found-page-header = نکم ووک
 not-found-page-content = ا څېن پېج بُو که تُو دُش، نک بُو واک سَۀ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = از متفق هوم ته مشترک آواز <termsLink> ݭړطذی </termsLink> او <privacyLink> پرائوېسی نوټ </privacyLink> ګیرډ
-# Locales
-bsy = صبا بِسایا
-cdo = فُوژُو
-cpx = هېنګ هُوا
-hch = وِخاریکا
-kzi = کېلابِت
-mbf = بابا مَلے
+# Locales (not yet fully resolved in Pontoon)
 meh = خورېنڅه بېشتر تلاخیاکو مِخټېک
 mel = مرکزي مېلاناؤ
-mmc = مِچواکان مزاهُوا
-msi = صباح مَلے
-pez = ځېستر پېنان
-pne = بېشتر پېنان
-sdo = سېرئن بیدایُوح
-snv = سابن
-xkl = کېنیاح
 # Locales-Variants
 ms-MY = بهاسا مَلے
 

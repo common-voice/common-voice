@@ -44,22 +44,9 @@ not-found-page-header = ვერ მოიძებნა
 not-found-page-content = მოთხოვნილი გვერდი ვერ მოიძებნა
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ვეთანხმები Common Voice-ის <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
-# Locales
-bsy = საბაჰ-ბისაია
-cdo = ფუჯოუ
-cpx = ჰენგ-ჰუა
-hch = ვიქსარიკა
-kzi = კელაბიტი
-mbf = ბაბა-მალაური
+# Locales (not yet fully resolved in Pontoon)
 meh = სამხრეთდასავლური ტლახიაკის მისტეკური
 mel = ცენტრალური მელანაუ
-mmc = მიჩოაკან-მაზაჰუა
-msi = საბაჰ-მალაური
-pez = აღმოსავლური პენანი
-pne = დასავლეთის პენანი
-sdo = სერიანული ბიდაუ
-snv = საბანი
-xkl = კენიური
 # Locales-Variants
 ms-MY = ბაჰასა-მალაური
 el-CY = კვიპროსული ბერძნული

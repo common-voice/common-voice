@@ -31,21 +31,8 @@ not-found-page-header = 'ban puwö
 not-found-page-content = payit logwon do ga'du nye lo ako puwö
 # Privacy and Terms checkbox
 accept-privacy-and-terms = nan a rugö i Loki na gworolo ka'deka'de ko saresi ako kulyasina na mumukö
-# Locales
-bsy = kutusin ka'deka'de lo jama i Sabah i jur lo Malaysia
-cdo = tawun na jur lo Southeastern China
-cpx = pirit nagwon rutanyan ti Chinese jajama kata
-hch = rutan lo 'gutu ti mexico
-kzi = rutan lo kakuruk kwörön lo sida malayasia
-mbf = rutan lo jama ko 'gutu ti suwöt lo china
+# Locales (not yet fully resolved in Pontoon)
 meh = rutan lo jama ko 'gutu ti southwestern Tlaxiaco
 mel = rutan lo jama ko 'gutu lo si'da i swot lo central malaysia
-mmc = 'gutu lo sida central maxico
-msi = rutan lo jama i jur lo Malaysia
-pez = rutan lo jama ko 'gutu ti Austrians
-pne = rutan lo jama ko 'gutu ti Western Austrians
-sdo = 'gutu lo sida i serian division
-snv = 'gutu lo si'da i jur lo penan
-xkl = 'gutu lo si'da Sarawak
 # Locales-Variants
 ms-MY = rutan lo jur Malaysia

@@ -32,21 +32,8 @@ not-found-page-header = دست نہ کپتگ
 not-found-page-content = ھما تاک کہ شما شوھازگ ءَ اِت دست نہ کپتگ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = من کامن وائس ءِ <termsLink>شرط</termsLink> ءُ </privacyLink>رازداری ءِداری </privacyLink>
-# Locales
-bsy = صباح بیسایا .
-cdo = فوژو
-cpx = ہینگ ہوا
-hch = وکساریکا
-kzi = کلابیت
-mbf = بابا ملائی
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی تلاکسیاکو میکسٹیک
 mel = مرکزی میلاناؤ
-mmc = میچوآکان مازاہوا
-msi = صباح ملائی .
-pez = مشرقی پنان
-pne = مغربی پنان
-sdo = سیریان بدایوہ
-snv = سعبان .
-xkl = کینیا
 # Locales-Variants
 ms-MY = بہاسا مالائی

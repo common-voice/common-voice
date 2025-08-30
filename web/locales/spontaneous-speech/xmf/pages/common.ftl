@@ -41,22 +41,9 @@ not-found-page-header = ვეგორჷ
 not-found-page-content = ხასილა, ნამუსუთ გორჷნთჷნი, ვეძირჷ.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ვოთანხმუქ Common Voice-იშ <termsLink> პირობეფს </termsLink> დო <privacyLink> პირადი მუნაჩემეფიშ თხილუაშ განაცხადის </privacyLink>
-# Locales
-bsy = საბაჰ-ბისაია
-cdo = ფუჯოუ
-cpx = ჰენგ-ჰუა
-hch = ვიქსარიკა
-kzi = კელაბიტი
-mbf = ბაბა-მალაური
+# Locales (not yet fully resolved in Pontoon)
 meh = თეონურ-დალური ტლახიაკის მისტეკური
 mel = ცენტრალური მელანაუ
-mmc = მიჩოაკან-მაზაჰუა
-msi = საბაჰ-მალაური
-pez = ელახონურ პენანი
-pne = გელახონიშ პენანი
-sdo = სერიანული ბიდაუ
-snv = საბანი
-xkl = კენიური
 # Locales-Variants
 ms-MY = ბაჰასა-მალაური
 

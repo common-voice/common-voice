@@ -44,22 +44,9 @@ not-found-page-header = Njenamakany
 not-found-page-content = Strona, kotruž pytaće, njeje so namakała.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Zwolu do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
-# Locales
-bsy = Sabah Bisaja
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Juhozapadna tlaksiakska mikstekšćina
 mel = Centralny Melanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Wuchodny Penan
-pne = Zapadny Penan
-sdo = Serian Bidajuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Cypernska grjekšćina

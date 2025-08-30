@@ -41,22 +41,9 @@ not-found-page-header = Ёфт нашуд
 not-found-page-content = Сафҳае, ки шумо меҷӯед, пайдо нашуд
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ма бо <termsLink>Шартҳо</termsLink> ва <privacyLink>Огоҳномаи махфияти</privacyLink> лоиҳаи «Common Voice» розӣ ҳастам
-# Locales
-bsy = Сабах Бисайя
-cdo = Фучжоу
-cpx = Хэн Хуа
-hch = Виксарика
-kzi = Келабит
-mbf = Баба Малай
+# Locales (not yet fully resolved in Pontoon)
 meh = Миштекии тлахиакии ҷануби ғарбӣ
 mel = Меланауи марказӣ
-mmc = Масауаи Мичоаканӣ
-msi = Сабах Малай
-pez = Пенани Шарқӣ
-pne = Пенани Ғарбӣ
-sdo = Бидауи Серианӣ
-snv = Саъбан
-xkl = Кениягӣ
 # Locales-Variants
 ms-MY = Бахаса Малай
 
