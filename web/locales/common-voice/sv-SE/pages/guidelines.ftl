@@ -343,16 +343,16 @@ code-switching-not-tag-proper-names-example-1 = Människor: Maria, John
 code-switching-not-tag-proper-names-example-2 = Platser: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Varumärken/Organisationer: Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Blandade eller morfologiskt anpassade ord.</bold> Tagga inte ord som blandar språk eller har tillagda ändelser från ett annat språk. Exempel:
-code-switching-not-tag-mixed-words-example = Där en rot är engelska men suffixet är spanska: “parkear”, “printearlo”
-code-switching-not-tag-interjections = <bold>Interjektioner.</bold> Interjektioner och utfyllnadsord, oavsett språk, ska förbli <bold>omärkta.</bold> Exempel:
-code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-mixed-words-example = Där en rot är engelsk men suffixet är spanskt: ”parkear”, ”printearlo”
+code-switching-not-tag-interjections = <bold>Interjektioner.</bold> Interjektioner och utfyllnadsord, oavsett språk, ska förbli <bold>otaggade.</bold> Exempel:
+code-switching-not-tag-interjections-example-1 = "Äh"
 code-switching-not-tag-interjections-example-2 = “Nej”
 code-switching-not-tag-interjections-example-3 = “Ja”
-code-switching-not-tag-interjections-example-4 = "Eh"
+code-switching-not-tag-interjections-example-4 = "Oh"
 
 ## Reporting Content
 
 reporting-content = Rapportera innehåll
 reporting-content-subheader = Allmän vägledning
-reporting-content-explanation-1 = Du måste flagga innehåll som är stötande, skadligt eller på annat sätt oroande. Den får inte heller innehålla någon personligt identifierande information som telefonnummer eller adresser. Den kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska den och undersöka ytterligare.
-reporting-content-explanation-2 = För att rapportera innehåll, välj knappen "Rapportera" och välj ett eller alla alternativ: Kränkande innehåll, Annat språk, Personligt identifierbar information, Annat.  Härifrån ger du mer information om varför du rapporterar innehållet i textområdet.  Skicka sedan rapporten genom att klicka på knappen Rapportera.
+reporting-content-explanation-1 = Du måste flagga innehåll som är stötande, skadligt eller på annat sätt oroande. Det får inte heller innehålla någon personligt identifierbar information som telefonnummer eller adresser. Det kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska det och utrett det vidare.
+reporting-content-explanation-2 = För att rapportera innehåll, välj knappen ”Rapportera” och välj ett eller alla alternativ: Stötande innehåll, Annat språk, Personligt identifierbar information, Annat. Härifrån anger du mer information om varför du rapporterar innehållet i textfältet. Skicka sedan in rapporten genom att klicka på knappen Rapportera.

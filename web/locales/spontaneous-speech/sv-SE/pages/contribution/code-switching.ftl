@@ -11,7 +11,7 @@ cs-locale-change-modal-subtitle = Du har osparade ändringar på den här sidan.
 ## Question Page Items
 
 cs-question-page-instruction = Lägg till upp till 25 frågor <icon></icon> till datamängden { $currentLocale } så att andra kan svara på
-cs-add-question-textarea-placeholder = Lägg in frågor med kod-switch, en per rad. Personer är mer benägna att svara med kod-switch när frågan innehåller kod-switch.
+cs-add-question-textarea-placeholder = Skriv in frågor med språkväxling, en per rad. Det är mer sannolikt att folk svarar med språkväxling när frågan också innehåller språkväxling.
 cs-question-dataset-name = Datamängd: { $datasetName }
 
 ## Validate Page Items
@@ -44,4 +44,4 @@ cs-learn-how-to-use-answer-explanation = Svara på uppmaningen så naturligt som
 
 ## Review Page Guidelines
 
-cs-learn-how-to-use-check-transcript-explanation = En transkription ska fånga upp varje ord eller icke-lexikalt konversationsljud som sades av personen, inklusive upprepningar.
+cs-learn-how-to-use-check-transcript-explanation = En transkription bör fånga varje ord eller icke-lexikalt konversationsljud som personen sa, inklusive upprepningar.
