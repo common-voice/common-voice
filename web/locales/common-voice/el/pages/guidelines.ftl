@@ -158,6 +158,7 @@ transcribe-the-audio-subheader-1 = Γενικές οδηγίες
 transcribe-the-audio-subheader-2 = Αριθμοί και ακρωνύμια
 transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
 transcribe-the-audio-subheader-5 = Γραμματικά λάθη και καθομιλουμένη
+transcribe-the-audio-subheader-1-explanation = Γενικά, θα πρέπει να σημειώνετε όλα όσα ακούτε. Αυτό περιλαμβάνει:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Σωστό</correct>: Απέχει εκατό χιλιόμετρα από εδώ
 # text wrapped in wrong will be shown as red text in the UI
@@ -197,6 +198,9 @@ code-switching-adding-question-criteria-1 = Είναι εύκολη στην κ�
 code-switching-adding-question-criteria-2 = Είναι γενικά επίκαιρη
 code-switching-adding-question-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 code-switching-adding-question-note = Σκεφτείτε επίσης να συμπεριλάβετε διαφορετικά συμφραζόμενα και τομείς.
+code-switching-use-bilingual-prompts-header = Χρήση δίγλωσσων μηνυμάτων προτροπής
+code-switching-use-bilingual-prompts-explanation = Χρησιμοποιήστε δίγλωσσα μηνύματα προτροπής που ενσωματώνουν και τις δύο γλώσσες στην ερώτησή σας. Παράδειγμα:
+code-switching-use-bilingual-prompts-explanation-example = «What did your mom tell you όταν γύρισες σπίτι εκείνη την ημέρα;»
 code-switching-ask-bilingual-contexts-header = Ρωτήστε σχετικά με δίγλωσσα συμφραζόμενα
 code-switching-ask-bilingual-contexts-explanation = Χρησιμοποιήστε καταστάσεις όπου χρησιμοποιούνται συχνά και οι δύο γλώσσες (π.χ. οικογενειακές, σχολικές, κοινωνικές εκδηλώσεις). Παράδειγμα:
 code-switching-ask-bilingual-contexts-explanation-example = «Όταν μιλάτε με τα ξαδέρφια σας, αναμειγνύετε τα ελληνικά με τα αγγλικά;»
@@ -242,7 +246,12 @@ code-switching-answer-bullet-4 = Δεν υπάρχει «τέλειος» τρό
 code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
 code-switching-authentic-speak = <bold>Μιλήστε όπως θα κάνατε με τους φίλους ή την οικογένειά σας.</bold> Αν συνδυάζετε γλώσσες στην πραγματικότητα, κάντε το ίδιο και εδώ. Παράδειγμα:
 code-switching-use-both-languages = <bold>Χρησιμοποιήστε και τις δύο γλώσσες αν θα το λέγατε έτσι κανονικά.</bold> Ακόμη και η εναλλαγή μιας ή δύο λέξεων είναι χρήσιμη. Παράδειγμα:
+code-switching-use-both-languages-example = «Είχε εκνευριστεί πολύ because δεν επέστρεψα την κλήση της.»
 code-switching-authentic-direct-quotes = <bold>Συμπεριλάβετε άμεσες παραθέσεις ή διαλόγους.</bold> Γράψτε ακριβώς τι ειπώθηκε, χωρίς να το επεξεργαστείτε σε πιο επίσημη μορφή. Παράδειγμα:
+code-switching-answer-dont-avoid-switching = <bold>Αποφυγή μιας εναλλαγής που θα κάνατε στην πραγματικότητα.</bold> Δεν πειράζει αν κάνετε εναλλαγή στη μέση της πρότασης, της σκέψης ή μόνο για μια λέξη.
+code-switching-answer-dont-formal-writing = <bold>Ομιλία που θυμίζει επίσημο γραπτό λόγο.</bold> Αποφύγετε τις επίσημες απαντήσεις ακαδημαϊκού επιπέδου. ΟΙ απαντήσεις σας θα πρέπει να θυμίζουν καθημερινούς διαλόγους.
+code-switching-answer-dont-force-switch = <bold>Αναγκαστική εναλλαγή ακόμα κι αν δεν είναι φυσική.</bold> Κάντε εναλλαγή μόνο αν θα μιλούσατε έτσι σε αυτήν την περίπτωση.
+code-switching-answer-dont-translate-repeat = <bold>Μετάφραση ή επανάληψη όλων των λέξεων.</bold> Πείτε τα όλα μόνο μία φορά, όπως θα κάνατε σε μια συνομιλία. Δεν χρειάζεται να πείτε μια εκδοχή της απάντησης για κάθε γλώσσα.
 # Transcribing
 code-switching-transcribe-subheader = Μεταγραφή
 code-switching-transcribe-intro = Κατά τη μεταγραφή απαντήσεων που περιλαμβάνουν εναλλαγή κωδίκων, αναπαραστήστε αυτούσια τη γλώσσα του ομιλητή, χωρίς διορθώσεις, τροποποιήσεις ή απλουστεύσεις. Αυτό ισχύει για όλες τις εναλλαγές μεταξύ γλωσσών, άτυπης ομιλίας και μικτών λέξεων.
@@ -275,6 +284,7 @@ code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bə
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις που μοιάζουν
+code-switching-lookalikes-explanation = Μερικές λέξεις μπορεί να φαίνεται ότι προέρχονται από τη μια γλώσσα, αλλά χρησιμοποιούνται στην άλλη. Προσθέστε την ετικέτα με βάση το νόημα και τη χρήση, όχι την εμφάνιση. Παραδείγματα:
 # When Not to Tag Words
 code-switching-not-tag-header = Περιπτώσεις όπου δεν πρέπει να προσθέτετε ετικέτες σε λέξεις
 code-switching-not-tag-explanation = Μερικές λέξεις <bold>δεν πρέπει να φέρουν</bold> ετικέτα γλώσσας, ακόμα κι αν φαίνονται μεικτές ή προσαρμοσμένες. Δείτε πώς να διαχειριστείτε μερικά παραδείγματα:
