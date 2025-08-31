@@ -7,7 +7,7 @@ why-spontaneous-speech = Γιατί αναπτύξαμε το πρωτότυπο
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Χρήσιμο για <mark>οργανικά συγκείμενα ομιλίας</mark> και περιπτώσεις χρήσης (π.χ. όταν θέλετε η αναγνώριση ομιλίας να λειτουργήσει με άτομα που μιλούν χωρίς σενάριο και στην καθομιλουμένη)
 # text wrapped with <mark></mark> will have a light red background
-why-card-2-text = Καλύτερη υποστήριξη για περιπτώσεις πολύγλωσσων ατόμων και <mark>εναλλαγών γλωσσών</mark>
+why-card-2-text = Καλύτερη υποστήριξη για περιπτώσεις πολύγλωσσων ατόμων και <mark>εναλλαγών κωδίκων</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Καλύτερη υποστήριξη για γλώσσες με μικρό ή <mark>έλλειψη corpus κειμένου</mark> (π.χ. κοινωνιόλεκτοι, παραλλαγές, γλώσσες χωρίς σύστημα γραφής κ.λπ.)
 how-spontaneous-speech-works = Πώς λειτουργεί το Spontaneous Speech

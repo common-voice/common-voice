@@ -11,6 +11,7 @@ cs-locale-change-modal-subtitle = Υπάρχουν μη αποθηκευμένε
 ## Question Page Items
 
 cs-question-page-instruction = Προσθέστε έως και 25 ερωτήσεις <icon></icon> στη βάση δεδομένων για τα { $currentLocale } για να τις απαντήσουν οι χρήστες
+cs-add-question-textarea-placeholder = Εισαγάγετε ερωτήσεις με εναλλαγή κωδίκων, μία ανά γραμμή. Οι χρήστες είναι πιο πιθανό να απαντήσουν με ανάμιξη γλωσσών όταν και η ερώτηση περιέχει εναλλαγή κωδίκων.
 cs-question-dataset-name = Σύνολο δεδομένων: { $datasetName }
 
 ## Validate Page Items

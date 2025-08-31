@@ -187,7 +187,7 @@ review-the-transcription-subheader = Γενικές οδηγίες
 
 ## Code-Switching
 
-code-switching = Εναλλαγή γλώσσας
+code-switching = Εναλλαγή κωδίκων
 adding-a-question = Προσθήκη ερώτησης
 # Adding a Question
 code-switching-adding-question-subheader = Τι χαρακτηριστικά έχει μια καλή ερώτηση;
@@ -201,7 +201,7 @@ code-switching-focus-emotional-explanation-example = «Πείτε μου τι ε
 code-switching-direct-quotes-explanation = Ενθαρρύνετε τους συμμετέχοντες να αναπαραγάγουν πώς πραγματικά ειπώθηκαν τα πράγματα. Παράδειγμα:
 code-switching-direct-quotes-explanation-example = «Ποια ήταν τα ακριβή λόγια σας όταν το ανακαλύψατε;»
 code-switching-cultural-topics-header = Επιλέξτε θέματα που αφορούν συγκεκριμένες κουλτούρες
-code-switching-cultural-topics-explanation = Το φαγητό, οι παραδόσεις, οι γιορτές και η δυναμική της οικογένειας συχνά απαιτούν εναλλαγή γλωσσών.
+code-switching-cultural-topics-explanation = Το φαγητό, οι παραδόσεις, οι γιορτές και η δυναμική της οικογένειας συχνά απαιτούν εναλλαγή κωδίκων.
 code-switching-cultural-topics-explanation-example = «Πώς θα περιγράφατε την Día de los Muertos σε κάποιον που μιλά μόνο ελληνικά;»
 code-switching-informal-scenarios-header = Εξερευνήστε άτυπα σενάρια
 code-switching-informal-scenarios-explanation = Οι συνομιλίες ή τα μηνύματα μεταξύ φίλων συχνά περιλαμβάνουν πιο φυσικές εναλλαγές γλωσσών. Παράδειγμα:
@@ -236,6 +236,7 @@ code-switching-authentic-header = Απαντήστε φυσικά και αυθ�
 code-switching-authentic-speak = <bold>Μιλήστε όπως θα κάνατε με τους φίλους ή την οικογένειά σας.</bold> Αν συνδυάζετε γλώσσες στην πραγματικότητα, κάντε το ίδιο και εδώ. Παράδειγμα:
 # Transcribing
 code-switching-transcribe-subheader = Μεταγραφή
+code-switching-transcribe-intro = Κατά τη μεταγραφή απαντήσεων που περιλαμβάνουν εναλλαγή κωδίκων, αναπαραστήστε αυτούσια τη γλώσσα του ομιλητή, χωρίς διορθώσεις, τροποποιήσεις ή απλουστεύσεις. Αυτό ισχύει για όλες τις εναλλαγές μεταξύ γλωσσών, άτυπης ομιλίας και μικτών λέξεων.
 code-switching-tagging-error-1 = Λάθος σημεία στίξης ή χρήση κεφαλαίων
 code-switching-tagging-error-2 = Ορθογραφικά λάθη
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
