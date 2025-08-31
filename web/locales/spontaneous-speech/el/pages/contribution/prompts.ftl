@@ -6,9 +6,9 @@ mic-access-error = Πρέπει να επιτρέψετε την πρόσβασ�
 prompt-page-instruction = { $actionType } στο <micIcon></micIcon> και απαντήστε όσο πιο φυσικά μπορείτε
 # Message which appears when there are no more resources on this page
 no-prompts-continue-skipped-message = Δεν υπάρχουν άλλες ερωτήσεις για αυτήν τη γλώσσα. Αν έχετε παραλείψει κάποια, μπορείτε να συνεχίσετε με το περιεχόμενο που παραλείψατε ή να μεταβείτε στη μεταγραφή ήχου και να δοκιμάσετε ξανά αργότερα.
-error-skipping = Προέκυψε σφάλμα κατά την παράλειψη αυτής της προτροπής
+error-skipping = Προέκυψε σφάλμα κατά την παράλειψη αυτού του μηνύματος προτροπής
 error-recording = Προέκυψε σφάλμα κατά την ηχογράφηση
-error-fetching-prompts = Κάτι πήγε στραβά κατά τη λήψη προτροπών. Δοκιμάστε ξανά αργότερα.
+error-fetching-prompts = Κάτι πήγε στραβά κατά τη λήψη των μηνυμάτων προτροπής. Δοκιμάστε ξανά αργότερα.
 error-uploading-response = Προέκυψε σφάλμα κατά τη μεταφόρτωση της απάντησής σας
 prompt-submitted-success = Η απάντηση υποβλήθηκε επιτυχώς
 prompt-response-deleted-success = Η απάντηση διαγράφηκε επιτυχώς
@@ -22,7 +22,7 @@ submit-all-button = Υποβολή όλων
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Μάθετε πώς να χρησιμοποιήσετε αυτήν τη σελίδα
-learn-how-to-use-prompts-explanation = Απαντήστε απλώς στην προτροπή, όσο πιο φυσικά μπορείτε, σε μερικές προτάσεις. Βεβαιωθείτε ότι η γλώσσα σας δεν είναι προσβλητική.
+learn-how-to-use-prompts-explanation = Απαντήστε απλώς στο μήνυμα προτροπής όσο το δυνατόν πιο φυσικά, μέσα σε μερικές προτάσεις. Βεβαιωθείτε ότι η γλώσσα σας είναι ευγενική, χωρίς προσβλητικές λέξεις.
 learn-how-to-use-prompts-guidance = Κάντε κλικ <guidanceLink>εδώ</guidanceLink> για να μάθετε πώς να χρησιμοποιείτε αυτήν τη σελίδα
 learn-how-to-use-transcribe = Μάθετε πώς να κάνετε μεταγραφή
 learn-how-to-use-transcribe-explanation = Καταγράψτε ακριβώς αυτό που είπε το άτομο, συμπεριλαμβανομένων των επιφωνημάτων «χμμ» ή «εμ».
