@@ -218,6 +218,12 @@ code-switching-adding-question-criteria-1 = Byť ľahko pochopiteľná a malo by
 code-switching-adding-question-criteria-2 = Byť všeobecne relevantná
 code-switching-adding-question-criteria-3 = Nepoužívať alebo nevyžadovať škodlivé alebo urážlivé výrazy
 code-switching-adding-question-note = Môžete tiež zvážiť použitie rôznych kontextov a domén.
+# What types of questions to add
+code-switching-types-subheader = Aké typy otázok pridať?
+code-switching-use-bilingual-prompts-header = Používajte dvojjazyčné výzvy
+code-switching-use-bilingual-prompts-explanation = Používajte dvojjazyčné otázky, ktoré zahŕňajú oba jazyky: Príklad:
+code-switching-use-bilingual-prompts-explanation-example = "Qué te dijo tu mamá, keď si sa v ten deň vrátila domov?"
+code-switching-ask-bilingual-contexts-header = Opýtajte sa na dvojjazyčné kontexty
 # What to Avoid
 code-switching-avoid-subheader = Čomu sa vyhnúť
 code-switching-avoid-intro = Otázkam, ktoré by mohli:
@@ -258,12 +264,25 @@ code-switching-single-token-explanation = Jeden token oddelený medzerami by mal
 code-switching-lookalikes-header = Dávajte si pozor na podobnosti
 code-switching-lookalikes-explanation = Niektoré slová môžu vyzerať ako v jednom jazyku, ale používajú sa v inom. Značka je založená na význame a použití, nie na vzhľade. Príklady:
 code-switching-lookalikes-explanation-example-1 = „Footing“ kedysi v španielčine znamenalo beh > označte ho ako španielčina
+code-switching-lookalikes-explanation-example-2 = „No problemo“ použité v angličtine > označte ho ako angličtina
+# When Not to Tag Words
+code-switching-not-tag-header = Kedy neoznačovať slová
+code-switching-not-tag-explanation = Niektoré slová by sa nemali <bold>označovať</bold> jazykovým označením, aj keď sa zdajú byť zmiešané alebo adaptované. Tu je návod, ako postupovať s niektorými príkladmi:
+code-switching-not-tag-proper-names = <bold>Vlastné mená.</bold> Mená ľudí, miest a organizácií by sa nemali označovať značkami. Príklady:
 code-switching-not-tag-proper-names-example-1 = Ľudia: Mária, Ján
 code-switching-not-tag-proper-names-example-2 = Miesta: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Značky/organizácie: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Zmiešané alebo morfologicky adaptované slová.</bold> Neoznačujte slová, ktoré miešajú jazyky alebo majú pridané koncovky z iného jazyka. Príklady:
+code-switching-not-tag-mixed-words-example = Ak je koreň anglický, ale prípona je španielska: „parkear“, „printearlo“
+code-switching-not-tag-interjections = <bold>Citoslovcia.</bold> Citoslovcia a výplňové slová by mali zostať <bold>neoznačené.</bold> Príklady:
+code-switching-not-tag-interjections-example-1 = „Eh“
+code-switching-not-tag-interjections-example-2 = „Noo“
+code-switching-not-tag-interjections-example-3 = „Hmm“
+code-switching-not-tag-interjections-example-4 = „Ehm“
 
 ## Reporting Content
 
 reporting-content = Nahlasovanie obsahu
 reporting-content-subheader = Všeobecné usmernenia
+reporting-content-explanation-1 = Musíte nahlásiť obsah, ktorý je urážlivý, škodlivý alebo inak znepokojujúci. Nesmie tiež obsahovať žiadne osobné identifikačné údaje, ako sú telefónne čísla alebo adresy. Bude z vášho rozhrania odstránený, kým ho tím Common Voice nepreverí a ďalej neprešetrí.
 reporting-content-explanation-2 = Ak chcete nahlásiť obsah, použite tlačidlo “Nahlásiť” a vyberte jednu alebo všetky možnosti: Urážlivý obsah, Iný jazyk, Osobne identifikovateľné informácie, Iné. V textovej oblasti uveďte viac podrobností o tom, prečo obsah nahlasujete. Potom odošlite hlásenie kliknutím na tlačidlo Nahlásiť.
