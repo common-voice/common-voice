@@ -1,5 +1,6 @@
 ## Tagging Page
 
+tag-page-instruction = Επιλέξτε <icon></icon> το κείμενο για να ξεκινήσετε
 tag-terms-checkbox = Αποδέχομαι τους Όρους και την Πολιτική απορρήτου του Common Voice.
 tag-popover-title = Επιλογή ετικέτας
 select-a-tag = Επιλογή ετικέτας
@@ -21,6 +22,7 @@ select-all = Επιλογή όλων
 tag-success-toast-message = Επιτυχής υποβολή ετικετών
 tag-error-toast-message = Σφάλμα υποβολής ετικετών
 cs-tag-shortcuts-section-title = Χρήση πληκτρολογίου
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Ετικέτα γλώσσας
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }

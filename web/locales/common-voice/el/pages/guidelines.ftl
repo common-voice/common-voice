@@ -234,6 +234,9 @@ code-switching-transcribe-subheader = Μεταγραφή
 code-switching-tagging-error-2 = Ορθογραφικά λάθη
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Άτομα: Μαρία, Γιάννης
+code-switching-not-tag-proper-names-example-2 = Τοποθεσίες: Λος Άντζελες, Φλόριντα
+code-switching-not-tag-proper-names-example-3 = Επωνυμίες/οργανισμοί: Target, Burger King
 
 ## Reporting Content
 

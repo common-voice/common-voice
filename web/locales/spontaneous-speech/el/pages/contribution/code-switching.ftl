@@ -1,9 +1,21 @@
+## Errors
+
+cs-error-fetching-datasets = Κάτι πήγε στραβά κατά τη λήψη της λίστας με τα διαθέσιμα σύνολα δεδομένων. Δοκιμάστε ξανά αργότερα.
+cs-error-fetching-questions = Κάτι πήγε στραβά κατά τη λήψη προτροπών. Δοκιμάστε ξανά αργότερα.
+cs-error-fetching-transcriptions = Κάτι πήγε στραβά κατά τη λήψη μεταγραφών. Δοκιμάστε ξανά αργότερα.
+
+## Modals
+
+cs-locale-change-modal-subtitle = Υπάρχουν μη αποθηκευμένες αλλαγές σε αυτήν τη σελίδα. Εάν κάνετε εναλλαγή των συνόλων δεδομένων, οι αλλαγές σας δεν θα αποθηκευτούν. Θέλετε σίγουρα να κάνετε εναλλαγή;
+
 ## Question Page Items
 
+cs-question-page-instruction = Προσθέστε έως και 25 ερωτήσεις <icon></icon> στη βάση δεδομένων για τα { $currentLocale } για να τις απαντήσουν οι χρήστες
 cs-question-dataset-name = Σύνολο δεδομένων: { $datasetName }
 
 ## Validate Page Items
 
+cs-no-questions-continue-skipped = Δεν υπάρχουν άλλες ερωτήσεις για αυτό το σύνολο δεδομένων. Αν έχετε παραλείψει κάποια, μπορείτε να συνεχίσετε με το περιεχόμενο που παραλείψατε ή να μεταβείτε στη μεταγραφή ήχου και να δοκιμάσετε ξανά αργότερα.
 cs-add-vote-error-message = Προέκυψε σφάλμα κατά την ψηφοφορία της ερώτησης
 
 ## Transcribe Page Items
@@ -22,6 +34,7 @@ cs-tag-dataset-name = Σύνολο δεδομένων [{ $datasetName }]
 ## Guidelines
 
 learn-how-to-use = Μάθετε πώς να χρησιμοποιήσετε αυτήν τη σελίδα
+read-full-guidelines-here = <guidanceLink>Διαβάστε τις πλήρεις οδηγίες εδώ</guidanceLink>
 
 ## Review Page Guidelines
 
