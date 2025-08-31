@@ -174,6 +174,8 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Správne</correct
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nesprávne</wrong>: Uvidíme sa v roku <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Správne</correct>: Bolo to zľavnené o dvadsať percent
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nesprávne</wrong>: Bolo to zľavnené o 20 %
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Správne</correct>: Minulý štvrtok ich zatkla <underline>FBI</underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Nesprávne</wrong>: Minulý štvrtok ich zatkla <underline>eff bíí ááj</underline>
 transcribe-the-audio-subheader-3-explanation = Na označenie neplynulosti, výplní a iných typov neverbálneho obsahu (v angličtine) by sa mali používať nasledujúce špeciálne značky.
 tags-table-header-1 = Značka
 tags-table-header-2 = Význam
@@ -194,13 +196,44 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontánna reč prirodzene obsahuje falošné začiatky, pri ktorých sa vytvorí iba fragment celého slova. V takýchto prípadoch, prosím, čo najlepšie prepíšte fragment slova a na koniec slova pridajte pomlčku (-), aby ste označili, že slovo je falošný začiatok. Príklad:
 transcribe-the-audio-subheader-4-explanation-1-example = Volá sa <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Niekedy hovoriaci zopakujú slovo alebo fragment slova viackrát. Aj toto by sa malo prepísať. Príklad:
+transcribe-the-audio-subheader-4-explanation-2-example = A potom som išiel <underline>do do doo</underline>spálne
+transcribe-the-audio-subheader-5-explanation-1 = Spontánna reč bude prirodzene obsahovať gramatické chyby. Tie by sa pri prepise nemali opravovať. Prepis by mal presne odrážať hovorený obsah.
+transcribe-the-audio-subheader-5-explanation-2 = Hovoriaci môžu používať hovorové výrazy (ako napríklad v angličtine „gonna“, „cuz“ atď.), ktoré sa nemusia považovať za formálne správne. Tieto výrazy by sa mali prepisovať tak, ako sú, a nemali by sa meniť na ich formálnejšie ekvivalenty.
+
+## Review the Transcription
+
+review-the-transcription = Kontrola prepisu
+review-the-transcription-subheader = Všeobecné usmernenia
+review-the-transcription-explanation-1 = Vo všeobecnosti odporúčame, aby osoba, ktorá kontroluje prepis, nebola tá istá osoba, ktorá vykonala pôvodný prepis. Je veľmi ťažké skontrolovať si vlastnú prácu! Viaceré riadky kontroly môžu pomôcť zvýšiť spoľahlivosť zabezpečenia kvality a zmierniť skreslenia a problémy.
+review-the-transcription-explanation-2 = Prečítajte si vyššie uvedené pokyny na prepis, aby ste skontrolovali, či je prepis presný. Môžete vykonať úpravy a odoslať ich.
+review-the-transcription-explanation-3 = Zdôrazňujeme, že môžete nahlásiť obsah, ktorý je urážlivý, škodlivý alebo inak znepokojujúci, a bude z vášho rozhrania odstránený, kým ho tím Common Voice nepreskúma a ďalej neprešetrí.
 
 ## Code-Switching
 
-code-switching-avoid-intro = Otázky, ktoré by mohli:
+adding-a-question = Pridávanie otázok
+# Adding a Question
+code-switching-adding-question-subheader = Čo robí otázku dobrou?
+code-switching-adding-question-explanation = Dobrá otázka pre verejné kolekcie údajov by mala:
+code-switching-adding-question-criteria-1 = Byť ľahko pochopiteľná a malo by byť jednoduché na ňu reagovať
+code-switching-adding-question-criteria-2 = Byť všeobecne relevantná
+code-switching-adding-question-criteria-3 = Nepoužívať alebo nevyžadovať škodlivé alebo urážlivé výrazy
+code-switching-adding-question-note = Môžete tiež zvážiť použitie rôznych kontextov a domén.
+# What to Avoid
+code-switching-avoid-subheader = Čomu sa vyhnúť
+code-switching-avoid-intro = Otázkam, ktoré by mohli:
 code-switching-avoid-1 = Vyžadovať osobné údaje
 code-switching-avoid-2 = Podnecovať k nenávistným prejavom alebo iným zaujatým či urážlivým pocitom
 code-switching-avoid-3 = Prinútiť niekoho zdieľať citlivé, potenciálne spúšťacie reakcie
+code-switching-dont-header = Nepoužívajte
+code-switching-dont-1 = Nepoužívajte príliš formálny jazyk
+# Reviewing a Question
+code-switching-review-subheader = Kontrola otázok
+code-switching-review-intro = Uistite sa, že otázka spĺňa kritériá:
+code-switching-review-criterion-1 = Je ľahko pochopiteľná a je jednoduché na ňu reagovať
+code-switching-review-criterion-2 = Je všeobecne relevantná
+code-switching-review-criterion-3 = Nepoužíva alebo nevyžaduje škodlivé alebo urážlivé výrazy
+code-switching-review-does-not-header = A <bold>NEOBSAHUJE</bold>:
+code-switching-review-offensive-content = <bold>Urážlivý obsah alebo citlivé informácie</bold>
 
 ## Reporting Content
 
