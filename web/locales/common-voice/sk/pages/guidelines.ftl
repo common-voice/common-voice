@@ -256,6 +256,27 @@ code-switching-review-criterion-3 = Nepoužíva alebo nevyžaduje škodlivé ale
 code-switching-review-does-not-header = A <bold>NEOBSAHUJE</bold>:
 code-switching-review-offensive-content = <bold>Urážlivý obsah alebo citlivé informácie</bold>
 code-switching-answer-header = Urážlivý obsah alebo citlivé informácie
+code-switching-review-no-1 = Otázky, ktoré by mohli vyžadovať osobne identifikovateľné informácie
+code-switching-review-no-2 = Otázky, ktoré by mohli vyvolať nenávistné prejavy alebo iné zaujaté alebo urážlivé pocity
+code-switching-review-no-3 = Otázky, ktoré môžu spôsobiť, že sa niekto podelí o citlivé a potenciálne spúšťacie reakcie
+# Answering a Question
+code-switching-answer-subheader = Odpovedanie na otázku
+code-switching-answer-intro = Pri odpovedi na otázku je cieľom reagovať prirodzene – rovnako ako v reálnom rozhovore. Chceme zachytiť, ako sa jazyky v skutočnosti miešajú v každodennej reči.
+code-switching-answer-bullet-1 = Spomeňte si na skutočné momenty alebo situácie: vtipy, hádky, tradície
+code-switching-answer-bullet-2 = Predstavte si, že píšete SMS priateľovi alebo niekomu rozprávate príbeh
+code-switching-answer-bullet-3 = Používajte slová, ktoré by ste skutočne použili, aj keby boli požičané alebo zmiešané
+code-switching-answer-bullet-4 = Neexistuje žiadny „dokonalý“ spôsob, ako odpovedať
+code-switching-authentic-header = Odpovedajte prirodzene a autenticky
+code-switching-authentic-speak = <bold>Hovorte tak, ako by ste hovorili s priateľmi alebo rodinou.</bold> Ak v reálnom živote miešate jazyky, urobte to isté aj tu. Príklad:
+code-switching-authentic-speak-example = „Povedal som jej, že nemôžem ísť, ale ona na to: ‚Radšej dojdi!‘“
+code-switching-use-both-languages = <bold>Použite oba jazyky, ak to takto bežne hovoríte.</bold> Užitočné je aj vymeniť si jedno alebo dve slová. Príklad:
+code-switching-use-both-languages-example = „Bola veľmi happy, keď som jej zavolal.“
+code-switching-authentic-direct-quotes = <bold>Uveďte priame citácie alebo dialógy.</bold> Povedzte presne to, čo niekto povedal, nie upravenú alebo formálnu verziu. Príklad:
+code-switching-authentic-direct-quotes-example = „Mi mamá dijo, ‚Tú crees que esto es un juego?‘ a ja som povedal: ‚Dobre pokoj!‘“
+code-switching-authentic-reflect = <bold>Zohľadnite emócie, identitu a kontext.</bold> K zmene zvyčajne dochádza, keď ľudia vyjadrujú emócie, naliehavosť alebo kultúrne myšlienky. Pri odpovedaní na otázky sa o ne opierajte.
+code-switching-authentic-full-context = <bold>Používajte úplné odpovede s kontextom.</bold> Buďte čo najpodrobnejší a uveďte čo najviac podrobností. Vo svojich odpovediach uveďte príbeh alebo príklad.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nepremýšľajte príliš veľa ani nepreháňajte úpravy
 code-switching-transcribe-intro = Pri prepisovaní odpovedí, ktoré zahŕňajú prepínanie jazykov, reprezentujte jazyk hovoriaceho tak, ako bol vyslovený – bez opráv, úprav alebo zjednodušovania. Toto platí pre všetky prepínania medzi jazykmi, neformálnu reč a slová zo zmiešaných jazykov.
 # Tagging
 code-switching-tagging-subheader = Označovanie
