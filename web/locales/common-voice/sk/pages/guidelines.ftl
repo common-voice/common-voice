@@ -6,6 +6,7 @@ sentence-collection = Zber viet
 question-collection = Zbierka otázok
 scripted-speech = Skriptovaná reč
 spontaneous-speech = Spontánna reč
+dont-subheader = Snažte sa nerobiť
 
 ## Voice Collection nav ids
 
@@ -141,6 +142,8 @@ example-questions-explanation-2 = Ak chcete odoslať množinu otázok na posúde
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Odpovedanie na otázky
 answer-questions-subheader = Všeobecné usmernenia
 answer-questions-explanation-1 = Na chvíľu sa zamyslite nad výzvou, zvážte, čo by ste chceli povedať, ale príliš sa nesnažte napísať. Kliknite na ikonu „nahrať“. Po nahratí si môžete vypočuť svoj hlas, znova ho nahrať, vymazať alebo odoslať.
 answer-questions-explanation-2 = Pamätajte – nebojte sa, ak sa zakoktáte, pozastavíte alebo zopakujete slovo. Toto všetko sú užitočné údaje pre inžinierov, ktorí sa snažia vytvoriť inkluzívne nástroje na rozpoznávanie reči pre reálny svet.
@@ -277,7 +280,25 @@ code-switching-authentic-reflect = <bold>Zohľadnite emócie, identitu a kontext
 code-switching-authentic-full-context = <bold>Používajte úplné odpovede s kontextom.</bold> Buďte čo najpodrobnejší a uveďte čo najviac podrobností. Vo svojich odpovediach uveďte príbeh alebo príklad.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Nepremýšľajte príliš veľa ani nepreháňajte úpravy
+code-switching-answer-dont-correct-language = <bold>„Neopravujte“ svoj jazyk.</bold> Toto nie je test v škole. „Správny“ tvar tu nehrá rolu, záleží na prirodzenom jazyku.
+code-switching-answer-dont-avoid-switching = <bold>Ak tak bežne robíte, nevyhýbajte sa prepínaniu.</bold> Je v poriadku prepínať uprostred vety, uprostred myšlienky alebo len pre jedno slovo.
+code-switching-answer-dont-formal-writing = <bold>Nehovorte, akoby ste písali formálny obsah.</bold> Vyhýbajte sa formálnym, akademickým odpovediam. Píšte konverzačne.
+code-switching-answer-dont-force-switch = <bold>Nevynucujte prepínanie, ak to nie je prirodzené.</bold> Prepínajte iba vtedy, ak by ste v danej situácii takto prirodzene hovorili.
+code-switching-answer-dont-translate-repeat = <bold>Neprekladajte a neopakujte všetko.</bold> Stačí to povedať raz, tak ako by to bolo v konverzácii. Nemusíte povedať verziu odpovede v každom jazyku.
+# Transcribing
+code-switching-transcribe-subheader = Prepisovanie
 code-switching-transcribe-intro = Pri prepisovaní odpovedí, ktoré zahŕňajú prepínanie jazykov, reprezentujte jazyk hovoriaceho tak, ako bol vyslovený – bez opráv, úprav alebo zjednodušovania. Toto platí pre všetky prepínania medzi jazykmi, neformálnu reč a slová zo zmiešaných jazykov.
+code-switching-transcribe-do-1 = Prehrajte krátke segmenty viackrát, aby ste zachytili jemné zmeny
+code-switching-transcribe-do-2 = Po každej vete urobte pauzu, aby ste skontrolovali, či sa nepoužívajú prepínače alebo zmiešané slová.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Zachyťte reč presne tak, ako ju hovoríte
+code-switching-capture-explanation = Prepíšte oba jazyky tak, ako vyzerajú/znejú. Neopravujte jazyk ani ho nemeňte len na jeden jazyk.
+# Include filler words and markers
+code-switching-filler-header = Zahrňte výplňové slová a značky
+code-switching-filler-explanation = Slová ako „hm“, „ako“, „pues“, „viete“ a „entonces“ majú význam. Príklad: „Takže, hm, povedal som jej niečo ako, ‚pues no sé, možno neskôr‘.“
+# Use standard spelling for each language
+code-switching-spelling-header = Používajte štandardný pravopis pre každý jazyk
+code-switching-spelling-explanation = Snažte sa správne hláskovať slová v každom jazyku, pokiaľ ich hovoriaci jasne nevyslovuje neštandardným spôsobom.
 # Tagging
 code-switching-tagging-subheader = Označovanie
 code-switching-tagging-error-intro = Ak prepis obsahuje chybu, nahláste ju pomocou funkcie nahlásenia. Medzi možné chyby patria:
