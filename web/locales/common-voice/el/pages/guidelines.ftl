@@ -239,8 +239,16 @@ code-switching-transcribe-subheader = Μεταγραφή
 code-switching-transcribe-intro = Κατά τη μεταγραφή απαντήσεων που περιλαμβάνουν εναλλαγή κωδίκων, αναπαραστήστε αυτούσια τη γλώσσα του ομιλητή, χωρίς διορθώσεις, τροποποιήσεις ή απλουστεύσεις. Αυτό ισχύει για όλες τις εναλλαγές μεταξύ γλωσσών, άτυπης ομιλίας και μικτών λέξεων.
 code-switching-tagging-error-1 = Λάθος σημεία στίξης ή χρήση κεφαλαίων
 code-switching-tagging-error-2 = Ορθογραφικά λάθη
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Χρήση της σωστής ορθογραφίας για κάθε γλώσσα
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Χρησιμοποιήστε την προφορά για να προσδιορίσετε τη γλώσσα
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις που μοιάζουν
+# When Not to Tag Words
+code-switching-not-tag-header = Περιπτώσεις όπου δεν πρέπει να προσθέτετε ετικέτες σε λέξεις
 code-switching-not-tag-proper-names-example-1 = Άτομα: Μαρία, Γιάννης
 code-switching-not-tag-proper-names-example-2 = Τοποθεσίες: Λος Άντζελες, Φλόριντα
 code-switching-not-tag-proper-names-example-3 = Επωνυμίες/οργανισμοί: Target, Burger King

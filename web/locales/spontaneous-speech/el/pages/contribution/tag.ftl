@@ -17,10 +17,17 @@ tag-page-shortcut-toogle-mouse-keyboard = 0
 toogle-mouse-keyboard = (Απ)ενεργοποίηση αναδυόμενου
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Αναίρεση
+tag-page-shortcut-select-all = Ο
 select-all = Επιλογή όλων
 # Messages
 tag-success-toast-message = Επιτυχής υποβολή ετικετών
 tag-error-toast-message = Σφάλμα υποβολής ετικετών
+tag-empty-submit-error = Δεν υπάρχει κείμενο προς υποβολή. Προσθέστε πρώτα ετικέτες σε κείμενο.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Χρησιμοποιήστε σωστή ορθογραφία
+cs-tag-do-guideline-2 = Χρησιμοποιήστε την προφορά για βοήθεια
+cs-tag-do-guideline-3 = Δείξτε προσοχή σε λέξεις που μοιάζουν
+cs-tag-do-not-guideline-1 = Προσθήκη ετικετών σε ειδικά ονόματα, ανάμεικτες λέξεις ή επιφωνήματα
 cs-tag-shortcuts-section-title = Χρήση πληκτρολογίου
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Ετικέτα γλώσσας
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }

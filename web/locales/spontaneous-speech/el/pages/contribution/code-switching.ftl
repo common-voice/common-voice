@@ -16,6 +16,7 @@ cs-question-dataset-name = Σύνολο δεδομένων: { $datasetName }
 
 ## Validate Page Items
 
+cs-validate-page-instruction = Επαληθεύστε <validateIcon></validateIcon> ότι αυτή η ερώτηση τηρεί τους κανόνες.
 cs-no-questions-continue-skipped = Δεν υπάρχουν άλλες ερωτήσεις για αυτό το σύνολο δεδομένων. Αν έχετε παραλείψει κάποια, μπορείτε να συνεχίσετε με το περιεχόμενο που παραλείψατε ή να μεταβείτε στη μεταγραφή ήχου και να δοκιμάσετε ξανά αργότερα.
 cs-add-vote-error-message = Προέκυψε σφάλμα κατά την ψηφοφορία της ερώτησης
 
@@ -36,6 +37,10 @@ cs-tag-dataset-name = Σύνολο δεδομένων [{ $datasetName }]
 
 learn-how-to-use = Μάθετε πώς να χρησιμοποιήσετε αυτήν τη σελίδα
 read-full-guidelines-here = <guidanceLink>Διαβάστε τις πλήρεις οδηγίες εδώ</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Απαντήστε όσο το δυνατόν πιο φυσικά στην προτροπή και κάντε εναλλαγή μεταξύ γλωσσών αν σας φαίνεται φυσικό. Βεβαιωθείτε ότι η γλώσσα σας είναι ευγενική, χωρίς προσβλητικές λέξεις.
 
 ## Review Page Guidelines
 
