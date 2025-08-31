@@ -275,6 +275,7 @@ code-switching-authentic-header = უპასუხეთ ბუნებრი
 code-switching-authentic-speak = <bold>ილაპარაკეთ ისე, როგორც მეგობრებთან ან ოჯახის წევრებთან საუბრობთ ხოლმე.</bold> თუ რამდენიმე ენას ურევთ ხოლმე ერთმანეთში, აქაც ასე მოიქეცით. მაგალითად:
 code-switching-authentic-speak-example = „გომორძგუა, ჯიმა! მხიარულად მივესალმე და დავამატე – „ხვალ გამთენიისას კუჩხაა!“
 code-switching-use-both-languages = <bold>ორივე ენა გამოიყენეთ, თუ თქვენთვის ჩვეულია ეს.</bold> ერთი-ორი სიტყვის მონაცვლეობაც კი მეტად წაგვადგება. მაგალითად:
+code-switching-authentic-direct-quotes = <bold>სიტყვასიტყვით მოიყვანეთ ნათქვამი ან მონაკვეთი საუბრიდან.</bold> ზუსტად გაიმეორეთ სხვისი წარმოთქმული და არ ეცადოთ, უფრო მოწესრიგებული ან საქმიანი იერი მისცეთ. მაგალითად:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = ზედმეტად ნუ იფიქრებთ და ნუ შეასწორებთ
 code-switching-answer-dont-correct-language = <bold>„გამართოთ“ თქვენი ენა.</bold> ეს გამოცდა არაა. „სათანადო“ ფორმა არაა მნიშვნელოვანი, ენის ბუნებრიობა – კი.
