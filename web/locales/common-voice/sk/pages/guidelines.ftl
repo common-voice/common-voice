@@ -235,7 +235,35 @@ code-switching-review-criterion-3 = Nepoužíva alebo nevyžaduje škodlivé ale
 code-switching-review-does-not-header = A <bold>NEOBSAHUJE</bold>:
 code-switching-review-offensive-content = <bold>Urážlivý obsah alebo citlivé informácie</bold>
 code-switching-answer-header = Urážlivý obsah alebo citlivé informácie
+# Tagging
+code-switching-tagging-subheader = Označovanie
+code-switching-tagging-error-intro = Ak prepis obsahuje chybu, nahláste ju pomocou funkcie nahlásenia. Medzi možné chyby patria:
+code-switching-tagging-error-1 = Nesprávna interpunkcia alebo veľké písmená
+code-switching-tagging-error-2 = Preklepy
+code-switching-tagging-error-3 = Slová napísané nesprávnym pravopisom
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Používanie správneho pravopisu pre každý jazyk
+code-switching-orthography-explanation = Napíšte každé slovo podľa pravopisu jazyka, z ktorého pochádza. Napríklad:
+code-switching-orthography-explanation-example-1 = Ak sa slovo „kitchen“ v španielčine vyslovuje ako v angličtine, malo by sa písať ako v angličtine, nie ako „quichen“.
+code-switching-orthography-explanation-example-2 = Ak sa slovo quinceaños vyslovuje ako v angličtine, napíšte ho s ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Použite výslovnosť na určenie jazyka
+code-switching-pronunciation-explanation = Niektoré slová môžu v dvoch jazykoch vyzerať rovnako, ale môžu sa vyslovovať odlišne. Vypočujte si výslovnosť, aby ste ich správne označili. Napríklad: cable, taco, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Angličtina: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Španielčina: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Označovanie v jednom tokene
+code-switching-single-token-explanation = Jeden token oddelený medzerami by mal obsahovať viac ako jeden označený rozsah (span).
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Dávajte si pozor na podobnosti
+code-switching-lookalikes-explanation = Niektoré slová môžu vyzerať ako v jednom jazyku, ale používajú sa v inom. Značka je založená na význame a použití, nie na vzhľade. Príklady:
+code-switching-lookalikes-explanation-example-1 = „Footing“ kedysi v španielčine znamenalo beh > označte ho ako španielčina
+code-switching-not-tag-proper-names-example-1 = Ľudia: Mária, Ján
+code-switching-not-tag-proper-names-example-2 = Miesta: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Značky/organizácie: Target, Burger King
 
 ## Reporting Content
 
+reporting-content = Nahlasovanie obsahu
 reporting-content-subheader = Všeobecné usmernenia
+reporting-content-explanation-2 = Ak chcete nahlásiť obsah, použite tlačidlo “Nahlásiť” a vyberte jednu alebo všetky možnosti: Urážlivý obsah, Iný jazyk, Osobne identifikovateľné informácie, Iné. V textovej oblasti uveďte viac podrobností o tom, prečo obsah nahlasujete. Potom odošlite hlásenie kliknutím na tlačidlo Nahlásiť.

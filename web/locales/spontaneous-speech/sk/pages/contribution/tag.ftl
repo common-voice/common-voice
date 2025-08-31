@@ -1,5 +1,6 @@
 ## Tagging Page
 
+tag-terms-checkbox = Súhlasím s podmienkami a ochranou osobných údajov služby Common Voice.
 # Shortcuts modal
 tag-page-shortcut-tag-language-1 = 1
 tag-page-shortcut-tag-language-2 = 2
