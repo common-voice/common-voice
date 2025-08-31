@@ -228,9 +228,15 @@ code-switching-review-no-3 = Ερωτήσεις που ενδέχεται να �
 # Answering a Question
 code-switching-answer-subheader = Απάντηση ερωτήσεων
 code-switching-answer-intro = Όταν απαντάτε σε μια ερώτηση, στόχος σας είναι να απαντήσετε φυσικά, όπως θα κάνατε σε μια πραγματική συνομιλία. Θέλουμε να καταγράψουμε πώς πραγματικά αναμιγνύονται οι γλώσσες στην καθημερινή ομιλία.
+code-switching-answer-bullet-1 = Σκεφτείτε πραγματικές στιγμές ή καταστάσεις: αστεία, λογομαχίες, παραδόσεις
+code-switching-answer-bullet-2 = Φανταστείτε ότι στέλνετε μήνυμα σε έναν φίλο ή ότι λέτε σε κάποιον μια ιστορία
+code-switching-answer-bullet-3 = Συμπεριλάβετε λέξεις που θα χρησιμοποιούσατε στην πραγματικότητα, ακόμα κι αν είναι δανεικές ή μεικτές
+code-switching-answer-bullet-4 = Δεν υπάρχει «τέλειος» τρόπος απάντησης
 code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
+code-switching-authentic-speak = <bold>Μιλήστε όπως θα κάνατε με τους φίλους ή την οικογένειά σας.</bold> Αν συνδυάζετε γλώσσες στην πραγματικότητα, κάντε το ίδιο και εδώ. Παράδειγμα:
 # Transcribing
 code-switching-transcribe-subheader = Μεταγραφή
+code-switching-tagging-error-1 = Λάθος σημεία στίξης ή χρήση κεφαλαίων
 code-switching-tagging-error-2 = Ορθογραφικά λάθη
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
