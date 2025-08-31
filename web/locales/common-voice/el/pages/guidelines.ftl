@@ -196,6 +196,16 @@ code-switching-adding-question-criteria-1 = Είναι εύκολη στην κ�
 code-switching-adding-question-criteria-2 = Είναι γενικά επίκαιρη
 code-switching-adding-question-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 code-switching-adding-question-note = Σκεφτείτε επίσης να συμπεριλάβετε διαφορετικά συμφραζόμενα και τομείς.
+code-switching-focus-emotional-explanation = Οι άνθρωποι συχνά αλλάζουν γλώσσες όταν εκφράζουν συναισθήματα ή ανάγκες. Παράδειγμα:
+code-switching-focus-emotional-explanation-example = «Πείτε μου τι είπαν οι γονείς σας όταν τους είπατε τα σπουδαία νέα σας, ακριβώς όπως το είπαν.»
+code-switching-direct-quotes-explanation = Ενθαρρύνετε τους συμμετέχοντες να αναπαραγάγουν πώς πραγματικά ειπώθηκαν τα πράγματα. Παράδειγμα:
+code-switching-direct-quotes-explanation-example = «Ποια ήταν τα ακριβή λόγια σας όταν το ανακαλύψατε;»
+code-switching-cultural-topics-header = Επιλέξτε θέματα που αφορούν συγκεκριμένες κουλτούρες
+code-switching-cultural-topics-explanation = Το φαγητό, οι παραδόσεις, οι γιορτές και η δυναμική της οικογένειας συχνά απαιτούν εναλλαγή γλωσσών.
+code-switching-cultural-topics-explanation-example = «Πώς θα περιγράφατε την Día de los Muertos σε κάποιον που μιλά μόνο ελληνικά;»
+code-switching-informal-scenarios-header = Εξερευνήστε άτυπα σενάρια
+code-switching-informal-scenarios-explanation = Οι συνομιλίες ή τα μηνύματα μεταξύ φίλων συχνά περιλαμβάνουν πιο φυσικές εναλλαγές γλωσσών. Παράδειγμα:
+code-switching-informal-scenarios-explanation-example = «Ποιο είναι το αστείο που λένε πάντα οι φίλοι σας και πώς το λένε;»
 # What to Avoid
 code-switching-avoid-subheader = Τι να αποφύγετε
 code-switching-avoid-intro = Ερωτήσεις που ενδέχεται να:
@@ -203,13 +213,21 @@ code-switching-avoid-1 = Ζητούν δεδομένα προσωπικού χα
 code-switching-avoid-2 = Προκαλέσουν ρητορική μίσους ή άλλες προκατειλημμένες ή προσβλητικές απόψεις
 code-switching-avoid-3 = Οδηγήσουν κάποιον στο να μοιραστεί ευαίσθητες, ενδεχομένως τραυματικές απαντήσεις
 code-switching-dont-header = Τι να μην κάνετε
+# Reviewing a Question
+code-switching-review-subheader = Έλεγχος ερωτήσεων
 code-switching-review-intro = Βεβαιωθείτε ότι η ερώτηση πληροί τα εξής κριτήρια:
+code-switching-review-criterion-1 = Είναι εύκολη στην κατανόηση και στην απάντηση
+code-switching-review-criterion-2 = Είναι γενικά επίκαιρη
+code-switching-review-criterion-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 code-switching-review-does-not-header = Και ότι <bold>ΔΕΝ</bold> περιλαμβάνει:
 code-switching-review-offensive-content = <bold>Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες</bold>
 code-switching-answer-header = Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες
 code-switching-review-no-1 = Ερωτήσεις που ενδέχεται να ζητήσουν δεδομένα προσωπικού χαρακτήρα
 code-switching-review-no-2 = Ερωτήσεις που ενδέχεται να προκαλέσουν ρητορική μίσους ή άλλες προκατειλημμένες ή προσβλητικές απόψεις
 code-switching-review-no-3 = Ερωτήσεις που ενδέχεται να οδηγήσουν κάποιον στο να μοιραστεί ευαίσθητες, ενδεχομένως τραυματικές απαντήσεις
+# Answering a Question
+code-switching-answer-subheader = Απάντηση ερωτήσεων
+code-switching-answer-intro = Όταν απαντάτε σε μια ερώτηση, στόχος σας είναι να απαντήσετε φυσικά, όπως θα κάνατε σε μια πραγματική συνομιλία. Θέλουμε να καταγράψουμε πώς πραγματικά αναμιγνύονται οι γλώσσες στην καθημερινή ομιλία.
 code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
 # Transcribing
 code-switching-transcribe-subheader = Μεταγραφή
