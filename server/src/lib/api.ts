@@ -629,8 +629,12 @@ export default class API {
   }
 
   createCustomGoal = async (request: Request, response: Response) => {
+    const userId = request?.session?.user?.client_id
+    if (!userId)
+      return response.status(StatusCodes.UNAUTHORIZED).json({ message: 'no user client id' })
+
     await CustomGoal.create(
-      request.session.user.client_id,
+      userId,
       request.params.locale,
       request.body
     )
@@ -641,10 +645,10 @@ export default class API {
   getGoals = async (req: Request, response: Response) => {
     const { client_id } = req?.session?.user || {}
     if (!client_id) {
-      response.sendStatus(StatusCodes.BAD_REQUEST)
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     const { locale } = req.params
-    response.json({ globalGoals: await getGoals(client_id, locale) })
+    return response.json({ globalGoals: await getGoals(client_id, locale) })
   }
 
   claimUserClient = async (
@@ -670,7 +674,7 @@ export default class API {
   seenAwards = async (req: Request, response: Response) => {
     const { client_id } = req?.session?.user || {}
     if (!client_id) {
-      response.sendStatus(StatusCodes.BAD_REQUEST)
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     await Awards.seen(
       client_id,
