@@ -164,6 +164,16 @@ transcribe-the-audio-subheader-1-explanation-example-3 = Označovanie významné
 transcribe-the-audio-subheader-1-explanation-example-4 = Gramatické variácie a slang by sa mali zaznamenávať presne tak, ako sa vyskytujú. Neopravujte ani neupravujte reč ľudí.
 transcribe-the-audio-subheader-2-explanation-1 = Čísla a symboly by sa mali písať slovami, a nie číslicami alebo špeciálnymi znakmi. Príklad:
 transcribe-the-audio-subheader-2-explanation-2 = Skratky by sa mali písať tak, ako sa bežne píšu v danom jazyku, podľa štandardných pravidiel používania veľkých písmen. Nemali by sa prepisovať foneticky. Príklad:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Správne</correct>: Je to odtiaľto vzdialené sto kilometrov
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Nesprávne</wrong>: Je to odtiaľto vzdialené 100 kilometrov
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Správne</correct>: Uvidíme sa v roku <underline>dvetisícpätnásť</untnásťderline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nesprávne</wrong>: Uvidíme sa v roku <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Správne</correct>: Bolo to zľavnené o dvadsať percent
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nesprávne</wrong>: Bolo to zľavnené o 20 %
 transcribe-the-audio-subheader-3-explanation = Na označenie neplynulosti, výplní a iných typov neverbálneho obsahu (v angličtine) by sa mali používať nasledujúce špeciálne značky.
 tags-table-header-1 = Značka
 tags-table-header-2 = Význam
