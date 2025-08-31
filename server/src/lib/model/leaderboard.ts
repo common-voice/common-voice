@@ -14,8 +14,15 @@ const bucket = new Bucket(model)
 const db = getMySQLInstance()
 
 async function getClipLeaderboard(locale?: string): Promise<any[]> {
-  const [rows] = await db.query(
-    `SELECT user_clients.client_id,
+  const params: { locale_id?: number } = {}
+  let localeCondition = ''
+  if (locale) {
+    localeCondition = 'AND clips.locale_id = :locale_id'
+    params.locale_id = await getLocaleId(locale) // Only add param if needed
+  }
+
+  const query = `
+    SELECT user_clients.client_id,
             avatar_url,
             avatar_clip_url,
             username,
@@ -23,36 +30,39 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
       FROM user_clients
       LEFT JOIN clips ON user_clients.client_id = clips.client_id
           WHERE visible = 1
-          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+          ${localeCondition}
       GROUP BY client_id
         HAVING total > 0
       ORDER BY total DESC
-    `,
-    { locale_id: locale ? await getLocaleId(locale) : null }
-  )
+    `
+
+  const [rows] = await db.query(query, params)
   return rows
 }
 
 async function getVoteLeaderboard(locale?: string): Promise<any[]> {
-  const [rows] = await db.query(
-    `
-      SELECT user_clients.client_id,
-             avatar_url,
-             avatar_clip_url,
-             username,
-             count(votes.id) as total
-      FROM user_clients
-      LEFT JOIN votes ON user_clients.client_id = votes.client_id
-      LEFT JOIN clips ON votes.clip_id = clips.id
-          WHERE visible = 1
-          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
-      GROUP BY client_id
-        HAVING total > 0
-      ORDER BY total DESC
-    `,
-    { locale_id: locale ? await getLocaleId(locale) : null }
-  )
-
+  const params: { locale_id?: number } = {}
+  let localeCondition = ''
+  if (locale) {
+    localeCondition = 'AND clips.locale_id = :locale_id'
+    params.locale_id = await getLocaleId(locale) // Only add param if needed
+  }
+  const query = `
+    SELECT user_clients.client_id,
+           avatar_url,
+           avatar_clip_url,
+           username,
+           count(votes.id) as total
+    FROM user_clients
+    LEFT JOIN votes ON user_clients.client_id = votes.client_id
+    LEFT JOIN clips ON votes.clip_id = clips.id
+        WHERE visible = 1
+        ${localeCondition}
+    GROUP BY client_id
+      HAVING total > 0
+    ORDER BY total DESC
+  `
+  const [rows] = await db.query(query, params)
   return rows
 }
 
