@@ -69,7 +69,7 @@ read-sentences-coming-soon = Ανάγνωση προτάσεων <small>(Προ�
 
 speak-contribute-menu-tooltip = Διαβάστε προτάσεις και απαντήστε σε ερωτήσεις
 read-sentences-menu-item-tooltip = Καταγράψτε τον εαυτό σας διαβάζοντας προτάσεις στη γλώσσα σας
-answer-questions-menu-item-tooltip = Καταγράψτε τον εαυτό σας να απαντά σε ερωτήσεις και προτροπές στη γλώσσα σας
+answer-questions-menu-item-tooltip = Καταγράψτε τον εαυτό σας να απαντά σε ερωτήσεις και προτάσεις στη γλώσσα σας
 
 ## MENU ITEM ARIA LABELS
 

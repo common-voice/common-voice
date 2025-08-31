@@ -12,8 +12,8 @@ why-card-2-text = Καλύτερη υποστήριξη για περιπτώσ�
 why-card-3-text = Καλύτερη υποστήριξη για γλώσσες με μικρό ή <mark>έλλειψη corpus κειμένου</mark> (π.χ. κοινωνιόλεκτοι, παραλλαγές, γλώσσες χωρίς σύστημα γραφής κ.λπ.)
 how-spontaneous-speech-works = Πώς λειτουργεί το Spontaneous Speech
 # text wrapped in <mark></mark> will have a blue background
-prompt-bubble-title = <mark>Προτροπή</mark>
-prompt-bubble-subtitle = Θα σας εμφανίσουμε μια προτροπή ή μια ερώτηση
+prompt-bubble-title = <mark>Πρόταση</mark>
+prompt-bubble-subtitle = Θα σας εμφανίσουμε μια πρόταση ή ερώτηση
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Απαντήστε</mark>
 respond-bubble-subtitle = Απαντήστε όσο πιο φυσικά μπορείτε
