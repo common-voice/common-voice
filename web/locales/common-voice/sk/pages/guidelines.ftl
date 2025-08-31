@@ -210,6 +210,7 @@ review-the-transcription-explanation-3 = Zdôrazňujeme, že môžete nahlásiť
 
 ## Code-Switching
 
+code-switching = Prepínanie jazykov
 adding-a-question = Pridávanie otázok
 # Adding a Question
 code-switching-adding-question-subheader = Čo robí otázku dobrou?
@@ -224,6 +225,20 @@ code-switching-use-bilingual-prompts-header = Používajte dvojjazyčné výzvy
 code-switching-use-bilingual-prompts-explanation = Používajte dvojjazyčné otázky, ktoré zahŕňajú oba jazyky: Príklad:
 code-switching-use-bilingual-prompts-explanation-example = "Qué te dijo tu mamá, keď si sa v ten deň vrátila domov?"
 code-switching-ask-bilingual-contexts-header = Opýtajte sa na dvojjazyčné kontexty
+code-switching-ask-bilingual-contexts-explanation = Používajte situácie, kde sa bežne používajú oba jazyky (napr. doma, v škole, na spoločenských podujatiach). Príklad:
+code-switching-ask-bilingual-contexts-explanation-example = „Keď sa rozprávaš so svojimi bratrancami a sesternicami, miešaš španielčinu a angličtinu?“
+code-switching-focus-emotional-header = Zamerajte sa na emocionálne alebo kritické momenty
+code-switching-focus-emotional-explanation = Ľudia často prepínajú jazyky, keď vyjadrujú emócie alebo naliehavosť. Príklad:
+code-switching-focus-emotional-explanation-example = „Povedz mi, čo povedali tvoji rodičia, keď si im oznámil tú veľkú novinku – presne ako to povedali.“
+code-switching-direct-quotes-header = Požiadajte o priame citácie alebo rekonštrukcie
+code-switching-direct-quotes-explanation = Povzbuďte účastníkov, aby zopakovali, ako boli veci v skutočnosti povedané. Príklad:
+code-switching-direct-quotes-explanation-example = „Aké boli tvoje presné slová, keď si sa to dozvedel?“
+code-switching-cultural-topics-header = Vyberte si špecifické kultúrne témy
+code-switching-cultural-topics-explanation = Jedlo, tradície, sviatky a rodinná dynamika často nabádajú k prepínaniu jazykov.
+code-switching-cultural-topics-explanation-example = "Ako opíšeš Día de los Muertos niekomu, kto hovorí len po anglicky?"
+code-switching-informal-scenarios-header = Preskúmajte neformálne scenáre
+code-switching-informal-scenarios-explanation = Rozhovory s priateľmi alebo posielanie textových správ často zahŕňajú prirodzenejšie prepínanie. Príklad:
+code-switching-informal-scenarios-explanation-example = „Aký vtip vždy spomínajú tvoji priatelia – a ako ho hovoria?“
 # What to Avoid
 code-switching-avoid-subheader = Čomu sa vyhnúť
 code-switching-avoid-intro = Otázkam, ktoré by mohli:
@@ -241,6 +256,7 @@ code-switching-review-criterion-3 = Nepoužíva alebo nevyžaduje škodlivé ale
 code-switching-review-does-not-header = A <bold>NEOBSAHUJE</bold>:
 code-switching-review-offensive-content = <bold>Urážlivý obsah alebo citlivé informácie</bold>
 code-switching-answer-header = Urážlivý obsah alebo citlivé informácie
+code-switching-transcribe-intro = Pri prepisovaní odpovedí, ktoré zahŕňajú prepínanie jazykov, reprezentujte jazyk hovoriaceho tak, ako bol vyslovený – bez opráv, úprav alebo zjednodušovania. Toto platí pre všetky prepínania medzi jazykmi, neformálnu reč a slová zo zmiešaných jazykov.
 # Tagging
 code-switching-tagging-subheader = Označovanie
 code-switching-tagging-error-intro = Ak prepis obsahuje chybu, nahláste ju pomocou funkcie nahlásenia. Medzi možné chyby patria:

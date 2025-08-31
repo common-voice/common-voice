@@ -33,3 +33,4 @@ do-not-section-guideline-3 = Nepýtajte sa citlivé otázky
 # Code switching Guidelines
 cs-do-section-guideline-1 = Používajte dvojjazyčné otázky alebo kontext
 cs-do-section-guideline-2 = Preskúmajte neformálne scenáre, situácie alebo konštrukcie
+cs-do-not-section-guideline-2 = Požiadajte o prepínanie jazykov alebo preklad

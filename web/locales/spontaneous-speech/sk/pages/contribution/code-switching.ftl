@@ -10,6 +10,7 @@ cs-locale-change-modal-subtitle = Na tejto stránke máte neuložené zmeny. Ak 
 
 ## Question Page Items
 
+cs-add-question-textarea-placeholder = Zadávajte otázky s prepínaním jazykov, jednu na riadok. Ľudia s väčšou pravdepodobnosťou odpovedia s prepnutím jazyka, ak otázka tiež obsahuje prepnutie jazyka.
 cs-question-dataset-name = Kolekcia údajov: { $datasetName }
 
 ## Validate Page Items
