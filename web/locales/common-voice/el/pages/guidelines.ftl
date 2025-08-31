@@ -184,11 +184,15 @@ tags-unclear-explanation = Μια λέξη ή μια ακολουθία λέξε
 special-tags-example-2 =
     Και τότε [θόρυβος] πήγα διακοπές.
     Βασικά, [θόρυβος] [γέλιο] δεν ήταν ακριβώς διακοπές [γέλιο]
+transcribe-the-audio-subheader-4-explanation-2 = Μερικές φορές, οι ομιλητές επαναλαμβάνουν μια λέξη ή ένα τμήμα λέξης πολλές φορές. Και αυτά θα πρέπει να μεταγράφονται. Παράδειγμα:
+transcribe-the-audio-subheader-4-explanation-2-example = Και μετά, κατευθύνθηκα προς <underline>την την την κρεβα- την</underline> κρεβατοκάμαρα
+transcribe-the-audio-subheader-5-explanation-1 = Είναι φυσιολογικό η αυθόρμητη ομιλία να περιέχει γραμματικά λάθη. Αυτά δεν θα πρέπει να διορθώνονται κατά τη μεταγραφή. Η μεταγραφή θα πρέπει να αντικατοπτρίζει επακριβώς το περιεχόμενο.
 
 ## Review the Transcription
 
 review-the-transcription = Έλεγχος μεταγραφών
 review-the-transcription-subheader = Γενικές οδηγίες
+review-the-transcription-explanation-2 = Διαβάστε τις παραπάνω οδηγίες μεταγραφής για να ελέγξετε την ακρίβεια μιας μεταγραφής. Μπορείτε να κάνετε επεξεργασίες και να τις υποβάλετε.
 
 ## Code-Switching
 
