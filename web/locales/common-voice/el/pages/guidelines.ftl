@@ -159,6 +159,8 @@ transcribe-the-audio-subheader-2 = Αριθμοί και ακρωνύμια
 transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
 transcribe-the-audio-subheader-5 = Γραμματικά λάθη και καθομιλουμένη
 transcribe-the-audio-subheader-1-explanation = Γενικά, θα πρέπει να σημειώνετε όλα όσα ακούτε. Αυτό περιλαμβάνει:
+transcribe-the-audio-subheader-1-explanation-example-4 = Οι γραμματικές παραλλαγές και η αργκό πρέπει να καταγράφονται ακριβώς όπως εμφανίζονται. Δεν θα πρέπει να διορθώνετε ή να επεξεργάζεστε την ομιλία των χρηστών.
+transcribe-the-audio-subheader-2-explanation-1 = Οι αριθμοί και τα σύμβολα θα πρέπει να μεταγράφονται ολογράφως και όχι με αριθμητικούς ή ειδικούς χαρακτήρες. Παράδειγμα:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Σωστό</correct>: Απέχει εκατό χιλιόμετρα από εδώ
 # text wrapped in wrong will be shown as red text in the UI
@@ -177,6 +179,7 @@ tags-laugh = Γέλιο
 tags-unclear = Ασάφεια
 tags-noise = Θόρυβος
 tags-laugh-explanation = Ο ήχος του γέλιου.
+tags-unclear-explanation = Μια λέξη ή μια ακολουθία λέξεων που δεν είναι κατανοητή.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     Και τότε [θόρυβος] πήγα διακοπές.
@@ -248,6 +251,9 @@ code-switching-authentic-speak = <bold>Μιλήστε όπως θα κάνατε
 code-switching-use-both-languages = <bold>Χρησιμοποιήστε και τις δύο γλώσσες αν θα το λέγατε έτσι κανονικά.</bold> Ακόμη και η εναλλαγή μιας ή δύο λέξεων είναι χρήσιμη. Παράδειγμα:
 code-switching-use-both-languages-example = «Είχε εκνευριστεί πολύ because δεν επέστρεψα την κλήση της.»
 code-switching-authentic-direct-quotes = <bold>Συμπεριλάβετε άμεσες παραθέσεις ή διαλόγους.</bold> Γράψτε ακριβώς τι ειπώθηκε, χωρίς να το επεξεργαστείτε σε πιο επίσημη μορφή. Παράδειγμα:
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Μην το σκέφτεστε υπερβολικά και μην κάνετε υπερβολικές διορθώσεις
+code-switching-answer-dont-correct-language = <bold>«Διόρθωση» της γλώσσας.</bold> Δεν εξετάζεστε για τη «σωστή» χρήση της γλώσσας. Σημασία έχει η φυσικότητα.
 code-switching-answer-dont-avoid-switching = <bold>Αποφυγή μιας εναλλαγής που θα κάνατε στην πραγματικότητα.</bold> Δεν πειράζει αν κάνετε εναλλαγή στη μέση της πρότασης, της σκέψης ή μόνο για μια λέξη.
 code-switching-answer-dont-formal-writing = <bold>Ομιλία που θυμίζει επίσημο γραπτό λόγο.</bold> Αποφύγετε τις επίσημες απαντήσεις ακαδημαϊκού επιπέδου. ΟΙ απαντήσεις σας θα πρέπει να θυμίζουν καθημερινούς διαλόγους.
 code-switching-answer-dont-force-switch = <bold>Αναγκαστική εναλλαγή ακόμα κι αν δεν είναι φυσική.</bold> Κάντε εναλλαγή μόνο αν θα μιλούσατε έτσι σε αυτήν την περίπτωση.
@@ -264,6 +270,8 @@ code-switching-filler-header = Συμπεριλάβετε συμπληρωματ
 # Use standard spelling for each language
 code-switching-spelling-header = Χρήση τυπικής ορθογραφίας για κάθε γλώσσα
 code-switching-spelling-explanation = Προσπαθήστε να γράψετε σωστά τις λέξεις για κάθε γλώσσα, εκτός αν ο ομιλητής τις προφέρει ξεκάθαρα με μη τυπικό τρόπο.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Μην απλουστεύετε και μην διορθώνετε τη γλώσσα
 code-switching-cleanup-1 = Μετάφραση ή παράφραση: γράψτε τι είπε ο ομιλητής, όχι τι «εννοούσε».
 code-switching-cleanup-2 = «Διόρθωση» της γραμματικής ή της προφοράς: διατηρήστε τη φυσική χρήση του ομιλητή.
 code-switching-cleanup-3 = Παράλειψη εναλλαγών που φαίνονται ήσσονος σημασίας: ακόμη και οι δανεικές λέξεις έχουν σημασία.
