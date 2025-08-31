@@ -29,12 +29,12 @@ continue-with-skipped = Pokračovať s preskočenými
 
 ## Navbar
 
-question = Otázka
+question = Zadať otázku
 validate = Skontrolovať
 respond-to-prompt = Odpovedať na výzvu
 respond-to-prompt-mobile = Odpovedajte
 transcribe = Prepis
-check-transcriptions = Skontrolujte prepisy
+check-transcriptions = Skontrolovať prepisy
 check-transcriptions-mobile = Kontrolujte
 tag = Popisujte
 
