@@ -10,6 +10,7 @@ cs-locale-change-modal-subtitle = Na tejto stránke máte neuložené zmeny. Ak 
 
 ## Question Page Items
 
+cs-question-page-instruction = Pridajte do kolekcie údajov jazyka { $currentLocale } maximálne 25 otázok <icon></icon>, na ktoré budú ľudia odpovedať
 cs-add-question-textarea-placeholder = Zadávajte otázky s prepínaním jazykov, jednu na riadok. Ľudia s väčšou pravdepodobnosťou odpovedia s prepnutím jazyka, ak otázka tiež obsahuje prepnutie jazyka.
 cs-question-dataset-name = Kolekcia údajov: { $datasetName }
 

@@ -299,6 +299,13 @@ code-switching-filler-explanation = Slová ako „hm“, „ako“, „pues“, 
 # Use standard spelling for each language
 code-switching-spelling-header = Používajte štandardný pravopis pre každý jazyk
 code-switching-spelling-explanation = Snažte sa správne hláskovať slová v každom jazyku, pokiaľ ich hovoriaci jasne nevyslovuje neštandardným spôsobom.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nevylepšujte ani nezjednodušujte jazyk
+code-switching-cleanup-1 = Neprekladajte alebo neparafrázujte – napíšte, čo hovoriaci povedal, nie to, čo „myslel“.
+code-switching-cleanup-2 = „Neopravujte“ gramatiku alebo výslovnosť – zachovajte prirodzený spôsob používania slova hovoriacim.
+code-switching-cleanup-3 = Nepreskakujte prepínače, ktoré sa zdajú byť drobné alebo malé – aj prevzaté slová sú dôležité.
+code-switching-cleanup-4 = Nevkladajte interpunkciu, ktorá by mohla zmeniť význam – zachovajte prirodzený tok textu.
+code-switching-cleanup-5 = Nepredpokladajte, že poznáte jazyk každého slova – označte ho na základe jeho použitia.
 # Tagging
 code-switching-tagging-subheader = Označovanie
 code-switching-tagging-error-intro = Ak prepis obsahuje chybu, nahláste ju pomocou funkcie nahlásenia. Medzi možné chyby patria:
@@ -318,6 +325,12 @@ code-switching-pronunciation-explanation-example-2 = Španielčina: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Označovanie v jednom tokene
 code-switching-single-token-explanation = Jeden token oddelený medzerami by mal obsahovať viac ako jeden označený rozsah (span).
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Označenie interpunkcie na základe blízkeho jazyka
+code-switching-punctuation-tagging-explanation = Označte interpunkciu pomocou najbližšieho rozpätia v danom jazyku vľavo. Príklady:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>a jediný raz, keď</purple> Maria <purple>na mňa kričala</purple> <blue>porque</blue> <purple>sa snažila</purple> printear <blue>un</blue> <purple>poriadok.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>ale</purple> <blue>ú los puedes comprar rojo, negro, azul</blue>, <purple>to je jedno.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Dávajte si pozor na podobnosti
 code-switching-lookalikes-explanation = Niektoré slová môžu vyzerať ako v jednom jazyku, ale používajú sa v inom. Značka je založená na význame a použití, nie na vzhľade. Príklady:

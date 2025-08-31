@@ -1,5 +1,6 @@
 ## Tagging Page
 
+tag-page-instruction = Vyberte <icon></icon> text, ktorým chcete začať
 tag-terms-checkbox = Súhlasím s podmienkami a ochranou osobných údajov služby Common Voice.
 tag-popover-title = Vyberte značku
 select-a-tag = Vyberte značku
@@ -28,6 +29,7 @@ cs-tag-do-guideline-2 = Použite výslovnosť ako pomôcku
 cs-tag-do-guideline-3 = Buďte opatrní s podobnými slovami
 cs-tag-do-not-guideline-1 = Označte vlastné mená, zmiešané slová alebo citoslovcia
 cs-tag-shortcuts-section-title = Používanie klávesnice
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Označiť jazykom
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
