@@ -234,6 +234,7 @@ code-switching-review-criterion-2 = Je všeobecne relevantná
 code-switching-review-criterion-3 = Nepoužíva alebo nevyžaduje škodlivé alebo urážlivé výrazy
 code-switching-review-does-not-header = A <bold>NEOBSAHUJE</bold>:
 code-switching-review-offensive-content = <bold>Urážlivý obsah alebo citlivé informácie</bold>
+code-switching-answer-header = Urážlivý obsah alebo citlivé informácie
 
 ## Reporting Content
 
