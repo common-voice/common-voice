@@ -13,6 +13,7 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 remove-tags = Αφαίρεση ετικετών
 tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = (Απ)ενεργοποίηση αναδυόμενου
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Αναίρεση
 select-all = Επιλογή όλων

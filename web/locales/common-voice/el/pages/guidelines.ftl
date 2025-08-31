@@ -6,7 +6,7 @@ sentence-collection = Συλλογή προτάσεων
 question-collection = Συλλογή ερωτήσεων
 scripted-speech = Ομιλία με σενάριο
 spontaneous-speech = Αυθόρμητη ομιλία
-dont-subheader = Αποφύγετε τα εξής
+dont-subheader = Τι να μην κάνετε
 
 ## Voice Collection nav ids
 
@@ -182,6 +182,7 @@ special-tags-example-2 =
 
 ## Review the Transcription
 
+review-the-transcription = Έλεγχος μεταγραφών
 review-the-transcription-subheader = Γενικές οδηγίες
 
 ## Code-Switching
@@ -190,9 +191,18 @@ code-switching = Εναλλαγή γλώσσας
 adding-a-question = Προσθήκη ερώτησης
 # Adding a Question
 code-switching-adding-question-subheader = Τι χαρακτηριστικά έχει μια καλή ερώτηση;
+code-switching-adding-question-explanation = Μια καλή ερώτηση για σύνολα δεδομένων δημόσιας συμμετοχής θα πρέπει να:
+code-switching-adding-question-criteria-1 = Είναι εύκολη στην κατανόηση και στην απάντηση
+code-switching-adding-question-criteria-2 = Είναι γενικά επίκαιρη
+code-switching-adding-question-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
+code-switching-adding-question-note = Σκεφτείτε επίσης να συμπεριλάβετε διαφορετικά συμφραζόμενα και τομείς.
 # What to Avoid
 code-switching-avoid-subheader = Τι να αποφύγετε
-code-switching-dont-header = Αποφύγετε τα εξής
+code-switching-avoid-intro = Ερωτήσεις που ενδέχεται να:
+code-switching-avoid-1 = Ζητούν δεδομένα προσωπικού χαρακτήρα
+code-switching-avoid-2 = Προκαλέσουν ρητορική μίσους ή άλλες προκατειλημμένες ή προσβλητικές απόψεις
+code-switching-avoid-3 = Οδηγήσουν κάποιον στο να μοιραστεί ευαίσθητες, ενδεχομένως τραυματικές απαντήσεις
+code-switching-dont-header = Τι να μην κάνετε
 code-switching-review-intro = Βεβαιωθείτε ότι η ερώτηση πληροί τα εξής κριτήρια:
 code-switching-review-does-not-header = Και ότι <bold>ΔΕΝ</bold> περιλαμβάνει:
 code-switching-review-offensive-content = <bold>Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες</bold>
