@@ -319,9 +319,10 @@ export default class API {
   }
 
   getAllDatasets = async (request: Request, response: Response) => {
-    const {
-      query: { releaseType },
-    } = request
+    const releaseType = request?.query?.releaseType as string
+    if (!releaseType || !['singleword', 'delta', 'complete'].includes(releaseType)) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     response.json(await this.model.getAllDatasets(releaseType.toString()))
   }
 
