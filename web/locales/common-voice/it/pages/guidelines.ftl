@@ -300,6 +300,25 @@ code-switching-spelling-header = Utilizza l’ortografia standard per ciascuna l
 code-switching-spelling-explanation = Cerca di scrivere correttamente le parole per ciascuna lingua, a meno che chi parla non le pronunci chiaramente in modo diverso.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Non “ripulire” o semplificare la lingua
+code-switching-cleanup-1 = Non tradurre o parafrasare: scrivi ciò che la persona ha detto, non ciò che “voleva dire”.
+code-switching-cleanup-2 = Non “correggere” la grammatica o la pronuncia: mantieni l’uso naturale della lingua di chi sta parlando.
+code-switching-cleanup-3 = Non ignorare i cambi di codice che potrebbero sembrarti minori o trascurabili: anche i singoli prestiti linguistici sono importanti.
+code-switching-cleanup-4 = Non inserire punteggiatura che potrebbe cambiare il significato del discorso: mantieni il flusso naturale.
+# Tagging
+code-switching-tagging-subheader = Etichette
+code-switching-tagging-error-intro = Se la trascrizione contiene un errore, utilizza la funzione di segnalazione per indicarlo. I potenziali errori includono:
+code-switching-tagging-error-1 = Punteggiatura o maiuscole errate
+code-switching-tagging-error-2 = Errori di battitura
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Utilizza l’ortografia corretta per ogni lingua
+code-switching-orthography-explanation = Scrivi ogni parola in base all’ortografia della lingua da cui proviene. Ad esempio:
+code-switching-orthography-explanation-example-1 = Anche se la parola “kitchen” sembra essere pronunciata come fosse in italiano, dev’essere comunque trascritta come verrebbe scritta in inglese (non “chicen”).
+code-switching-orthography-explanation-example-2 = Anche se la parola “smartphone” viene pronunciata come in italiano, dev’essere scritta con “ph”.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Ascolta la pronuncia per determinare la lingua
+code-switching-pronunciation-explanation = Alcune parole sono scritte nello stesso modo in entrambe le lingue, ma vengono pronunciate in modo diverso.  Fai attenzione alla pronuncia per scegliere l’etichetta corretta.  Ad esempio: “finale”, “scenario”, “circa”, “vice versa”.
+code-switching-pronunciation-explanation-example-1 = Inglese: /fɪˈnɑːli/
+code-switching-pronunciation-explanation-example-2 = Italiano: /fi'nale/
 
 ## Reporting Content
 
