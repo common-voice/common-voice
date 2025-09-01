@@ -34,7 +34,18 @@
 
 ### Changes merged after current release
 
+- Feat: Add migration-helpers to remove already migrated accents, by making sure data is intact (this is part of Irish accent removal above), by [@moz-bozden](https://github.com/moz-bozden) in [#5060](https://github.com/common-voice/common-voice/pull/5060) - (in v.1.151.1)
+- Workaround: Some of the database queries related to stats were taking longer than anticipated on active hours, causing Redis lock release issues, so with this workaround we increased the default lock duration from 3 minutes to 5 minutes to cover these, by [@moz-bozden](https://github.com/moz-bozden) in [#5058](https://github.com/common-voice/common-voice/pull/5058) - (in v.1.151.1)
+- Fix: A third fix for the layered rule-of-hooks problem on the Dashboard Stats Page, by [@moz-bozden](https://github.com/moz-bozden) in [#5066](https://github.com/common-voice/common-voice/pull/5066) - (in v.1.151.1)
+- Fix: Server code for dataset downloads was missing proper validation for the "release-type" query parameter causing further errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5064](https://github.com/common-voice/common-voice/pull/5064) - (in v.1.151.1)
+- Fix: Server code was missing userId checks in multiple places causing further errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5063](https://github.com/common-voice/common-voice/pull/5063) - (in v.1.151.1)
+- Fix: Server API code related to Dashboard page goals/awards had two issues, one a return statement was missing after userId check fails causing following code to be executed and cause further errors, and custom goal creation missing proper user checks, by [@moz-bozden](https://github.com/moz-bozden) in [#5062](https://github.com/common-voice/common-voice/pull/5062) - (in v.1.151.1)
+- Fix: Leader-board related SQL queries in Dashboard page were not using correct parameter count in ALL locale case, causing lock release issues, by [@moz-bozden](https://github.com/moz-bozden) in [#5061](https://github.com/common-voice/common-voice/pull/5061) - (in v.1.151.1)
+- Fix: Remove duplicate language code definitions in Spontaneous Speech `.ftl` file, because they are in Pontoon already, by [@moz-bozden](https://github.com/moz-bozden) in [#5059](https://github.com/common-voice/common-voice/pull/5059) - (in v.1.151.1)
+
 #### Data Changes after current release
+
+- Feat: For Irish (`ga-IE`), re-apply accent-variant migrations and totally remove all migrated accents, by [@moz-bozden](https://github.com/moz-bozden) in [#5060](https://github.com/common-voice/common-voice/pull/5060) - (in v.1.151.1)
 
 #### Spontaneous Speech after current release
 
