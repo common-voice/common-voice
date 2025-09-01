@@ -10,6 +10,7 @@ cs-locale-change-modal-subtitle = Sono presenti modifiche non salvate in questa 
 
 ## Question Page Items
 
+cs-question-page-instruction = Aggiungi fino a 25 domande <icon></icon> al dataset in { $currentLocale } a cui le persone possono rispondere
 cs-question-dataset-name = Dataset: { $datasetName }
 
 ## Validate Page Items
@@ -35,6 +36,10 @@ cs-tag-dataset-name = Dataset [{ $datasetName }]
 
 learn-how-to-use = Scopri come utilizzare questa pagina
 read-full-guidelines-here = <guidanceLink>Leggi le linee guida complete qui</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Rispondi alla domanda nel modo più naturale possibile, sentiti libero di passare da una lingua all’altra se ti viene naturale. Assicurati che il tuo linguaggio sia rispettoso e non offensivo.
 
 ## Review Page Guidelines
 
