@@ -227,7 +227,9 @@ code-switching-adding-question-note = Considera anche l’inclusione di contesti
 # What types of questions to add
 code-switching-types-subheader = Che tipo di domande aggiungere?
 code-switching-use-bilingual-prompts-header = Utilizza domande bilingue
+code-switching-use-bilingual-prompts-explanation = Aggiungi domande bilingue in cui entrambe le lingue vengono utilizzate nella stessa domanda. Esempio:
 code-switching-use-bilingual-prompts-explanation-example = “Che cosa ti ha detto tua mamma when you got home that day?”
+code-switching-ask-bilingual-contexts-header = Fai domande sui contesti bilingue
 code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui entrambe le lingue sono comunemente utilizzate (ad es. a casa, a scuola, durante eventi della comunità). Esempio:
 code-switching-ask-bilingual-contexts-explanation-example = “Quando parli con i tuoi cugini, usi un mix di italiano e inglese?”
 code-switching-focus-emotional-header = Punta su momenti emotivi o cruciali
@@ -277,13 +279,27 @@ code-switching-authentic-direct-quotes = <bold>Includi citazioni dirette o dialo
 code-switching-authentic-direct-quotes-example = “My mum said, ‘Do you think this is a game?’ e io le ho risposto ‘OK, rilassati!‘”
 code-switching-authentic-reflect = <bold>Rendi emozioni, identità e contesto.</bold> Il cambio di lingua avviene di solito quando le persone esprimono emozioni, urgenza o idee culturali. Sfrutta questi aspetti quando rispondi alle domande.
 code-switching-authentic-full-context = <bold>Utilizza risposte complete e contestualizzate.</bold> Cerca di essere il più dettagliato possibile nelle tue risposte, condividendo anche storie o esempi.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Non pensare o rielaborare troppo
 code-switching-answer-dont-correct-language = <bold>Non “correggere” la tua lingua.</bold> Questo non è un test. La forma “corretta” non è importante qui, ciò che conta è il linguaggio naturale.
+code-switching-answer-dont-avoid-switching = <bold>Non cercare di evitare il cambio di codice se è una cosa che fai normalmente.</bold> Puoi cambiare a metà frase, a metà pensiero o anche solo per una parola.
+code-switching-answer-dont-formal-writing = <bold>Non parlare come se stessi scrivendo in modo formale.</bold> Evita risposte formali e accademiche. Mantieni un tono colloquiale.
+code-switching-answer-dont-translate-repeat = <bold>Non tradurre o ripetere tutto.</bold> Dillo una volta sola, come si farebbe in una conversazione. Non è necessario dare una versione della risposta per ogni lingua.
 # Transcribing
 code-switching-transcribe-subheader = Trascrizioni
+code-switching-transcribe-intro = Quando trascrivi delle risposte che includono un cambio di codice linguistico, riporta fedelmente il linguaggio di chi parla così come è stato espresso, senza correzioni, modifiche o semplificazioni. Questo vale per tutti i cambi di lingua, le espressioni informali e le parole in lingue diverse.
+code-switching-transcribe-do-2 = Metti in pausa dopo ogni frase per verificare la presenza di cambi di codice o parole appartenenti a lingue diverse
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Riporta il discorso fedelmente così com’è stato detto
+code-switching-capture-explanation = Trascrivi entrambe le lingue esattamente nel modo in cui vengono utilizzate. Non “correggere” la lingua o riscrivere il contenuto in una lingua sola.
+# Include filler words and markers
+code-switching-filler-header = Includi riempitivi e marcatori del discorso
+code-switching-filler-explanation = Anche parole come “ehm”, “tipo”, “well”, “sai” e “so” sono importanti. Ad esempio: “Allora, ehm, le ho detto tipo: ‘Well, I don’t know, forse più tardi’”.
 # Use standard spelling for each language
 code-switching-spelling-header = Utilizza l’ortografia standard per ciascuna lingua
+code-switching-spelling-explanation = Cerca di scrivere correttamente le parole per ciascuna lingua, a meno che chi parla non le pronunci chiaramente in modo diverso.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Non “ripulire” o semplificare la lingua
 
 ## Reporting Content
 
