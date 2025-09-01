@@ -194,5 +194,15 @@ tags-unclear-explanation = ຄຳສັບ ຫຼື ລຳດັບຂອງຄ
 tags-noise-explanation =
     ສຽງດັງປະເພດອື່ນໆ, ເຊັ່ນ: ລໍາໂພງໄອ ຫຼື ສຽງດັງ,
     ສຽງດັງລົດ, ສຽງຂອງບາງສິ່ງບາງຢ່າງຕີໄມໂຄຣໂຟນ, ສຽງໂທລະສັບດັງ, ແລະ ອື່ນໆ.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    ແລະ ຫຼັງຈາກນັ້ນຂ້ອຍ [ສຽງດັງ] ໄດ້ໄປໃນວັນພັກ.
+    ແລ້ວ, [ສຽງດັງ] [ຫົວເລາະ] ມັນບໍ່ແມ່ນວັນພັກແທ້ໆ [ຫົວເລາະ]
+transcribe-the-audio-subheader-4-explanation-1 = ການປາກເວົ້າແບບມີຕົວຕົນຕາມທໍາມະຊາດປະກອບດ້ວຍການເລີ່ມຕົ້ນທີ່ບໍ່ຖືກຕ້ອງທີ່ມີພຽງແຕ່ຊິ້ນສ່ວນຂອງຄໍາສັບເຕັມທີ່ຜະລິດ. ສໍາລັບຕົວຢ່າງເຫຼົ່ານີ້, ກະລຸນາຖອດຂໍ້ຄວາມຕາມຄວາມສາມາດຂອງຄໍາວ່າ fragment ແລະ ແນບໃສ່ຍັບຍັ້ງຢູ່ທ້າຍຂອງຄໍາ (-) ເພື່ອຊີ້ບອກວ່າຄໍານັ້ນເປັນການເລີ່ມຕົ້ນທີ່ບໍ່ຖືກຕ້ອງ. ຕົວຢ່າງ:
 transcribe-the-audio-subheader-4-explanation-1-example = ຊື່ຂອງລາວແມ່ນ <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = ບາງຄັ້ງຜູ້ເວົ້າຈະເວົ້າຊ້ຳຄຳສັບ ຫຼື ສ່ວນຄຳສັບຫຼາຍເທື່ອ. ອັນນີ້ຄວນຖືກຖອດຂໍ້ຄວາມຄືກັນ. ຕົວຢ່າງ:
+transcribe-the-audio-subheader-4-explanation-2-example = ແລະ ຈາກນັ້ນຂ້ອຍໄປ <underline>the the bed- the</underline> bedroom
+
+## Review the Transcription
+
+review-the-transcription = ກວດເບິ່ງການຖອດຂໍ້ຄວາມ
