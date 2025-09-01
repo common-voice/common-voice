@@ -31,21 +31,8 @@ not-found-page-header = میلاؤ نہ بیلو
 not-found-page-content = کوائی صفحا تُو ݜکیلا سا میلاؤ نی بیلو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = کامن وائس پورا تھون در آسئی شرائط منیلا <termsLink> آسے پرائیویسی نوٹس اینی ݜکے۔ </privacyLink>
-# Locales
-bsy = سبا بیسایا
-cdo = فوزھؤ
-cpx = ہنگ ہوا
-hch = ویخاریکا
-kzi = کیلابیٹ
-mbf = بابا ملے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوبی ٹیلاسیکو میشٹیک
 mel = مرکزی میلانؤ
-mmc = میچؤچان مزاہؤ
-msi = سباہ ملے
-pez = مشرقی پینان
-pne = مغری پینان
-sdo = سیرئیائی بیدھاؤ
-snv = سعابان
-xkl = کینیاہ
 # Locales-Variants
 ms-MY = بھاشا ملے

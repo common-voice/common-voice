@@ -17,19 +17,8 @@ request-new-language = نویں زبان دی ارداس کرو
 ## Not Found Page
 
 not-found-page-header = کائنی لبھیا
-# Locales
-bsy = سباہ بسایا
-cdo = فوزو
-cpx = ہینگ ہوا
-hch = وکساریکا
-kzi = کلابٹ
-mbf = بابا مالے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی لیکسی آکو میکسٹیک
 mel = سنٹرل میلاناو
-mmc = مچاوکن مزاہاو
-msi = سباہ مالے
-pez = مشرقی پینان
-pne = مغربی پینن
-xkl = کینیاہ
 # Locales-Variants
 ms-MY = بہاسہ مالے

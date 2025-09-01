@@ -6,6 +6,7 @@ sentence-collection = Συλλογή προτάσεων
 question-collection = Συλλογή ερωτήσεων
 scripted-speech = Ομιλία με σενάριο
 spontaneous-speech = Αυθόρμητη ομιλία
+dont-subheader = Τι να μην κάνετε
 
 ## Voice Collection nav ids
 
@@ -130,13 +131,13 @@ culturally-specific-questions = Ερωτήσεις για συγκεκριμέν
 culturally-specific-questions-explanation = Ερωτήσεις που είναι πολύ συγκεκριμένες πολιτισμικά ή βασίζονται σε πολλές υποθέσεις σχετικά με το άτομο που απαντά.
 length-avoid-explanation = Ερωτήσεις στις οποίες κάποιος θα δυσκολευόταν να απαντήσει μέσα σε 15 δευτερόλεπτα (μέγιστη διάρκεια του αποσπάσματος).
 process-steps = Διαδικασία/Βήματα
-process-steps-explanation = Ερωτήσεις που απαιτούν από κάποιον να παραθέσει αρκετά βήματα. Η παράθεση βημάτων αναγκάζει τον χρήστη να απαγγείλει το κείμενο, αντί να δώσει μια πιο φυσική απάντηση.
+process-steps-explanation = Ερωτήσεις που απαιτούν από κάποιον να παραθέσει αρκετά βήματα. Η παράθεση βημάτων προτρέπει τον χρήστη να απαγγείλει το κείμενο, αντί να δώσει μια πιο φυσική απάντηση.
 offensive-content-sensitive-information = Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες
 offensive-content-sensitive-information-explanation-explanation-1 = Ερωτήσεις που ενδέχεται να ζητήσουν δεδομένα προσωπικού χαρακτήρα
-offensive-content-sensitive-information-explanation-explanation-2 = Ερωτήσεις που ενδέχεται να προκαλέσουν ρητορική μίσους ή άλλες προκατειλημμένες ή προσβλητικές απόψεις.
-offensive-content-sensitive-information-explanation-explanation-3 = Ερωτήσεις που ενδέχεται να οδηγήσουν κάποιον στο να μοιραστεί ευαίσθητες, ενδεχομένως τραυματικές απαντήσεις.
+offensive-content-sensitive-information-explanation-explanation-2 = Ερωτήσεις που ενδέχεται να προκαλέσουν ρητορική μίσους ή άλλες προκατειλημμένες ή προσβλητικές απόψεις
+offensive-content-sensitive-information-explanation-explanation-3 = Ερωτήσεις που ενδέχεται να οδηγήσουν κάποιον στο να μοιραστεί ευαίσθητες, ενδεχομένως τραυματικές απαντήσεις
 example-questions-subheader = Παραδείγματα ερωτήσεων
-example-questions-explanation-1 = Μπορείτε να βρείτε <examplePromptsLink>120 παραδείγματα προτροπών σε αυτό το φύλλο.</examplePromptsLink>
+example-questions-explanation-1 = Μπορείτε να βρείτε <examplePromptsLink>120 παραδείγματα μηνυμάτων προτροπής σε αυτό το φύλλο.</examplePromptsLink>
 example-questions-explanation-2 = Αν θέλετε να υποβάλετε μια σειρά από ερωτήσεις, <githubLink>μπορείτε να το κάνετε μέσω του GitHub μας</githubLink> ή να στείλετε μέσω email τη λίστα σας στο <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Spontaneous Speech sidebar content
@@ -144,17 +145,22 @@ example-questions-explanation-2 = Αν θέλετε να υποβάλετε μι
 # Answer Questions
 answer-questions = Απάντηση ερωτήσεων
 answer-questions-subheader = Γενικές οδηγίες
-answer-questions-explanation-1 = Σκεφτείτε για λίγο το μήνυμα που λάβατε, τι θα θέλατε να πείτε, αλλά μην κοροϊδεύετε τον εαυτό σας. Κάντε κλικ στο εικονίδιο ‘εγγραφή’. Μόλις κάνετε την ηχογράφηση, μπορείτε να ακούσετε τη φωνή σας, να ηχογραφήσετε ξανά, να διαγράψετε ή να υποβάλετε την ηχογράφηση.
-answer-questions-explanation-2 = Θυμηθείτε ότι μην ανησυχείτε αν τραυλίζετε, αν κάνετε παύση ή αν επαναλαμβάνετε μια λέξη. Όλα αυτά είναι χρήσιμα για τους μηχανικούς που προσπαθούν να δημιουργήσουν ολοκληρωμένα, πραγματικά εργαλεία αναγνώρισης ομιλίας.
+answer-questions-explanation-2 = Μην ανησυχείτε αν τραυλίσετε, κάνετε παύση ή επαναλάβετε μια λέξη. Όλα αυτά είναι χρήσιμα δεδομένα για τους μηχανικούς που αναπτύσσουν ολοκληρωμένα, πραγματικά εργαλεία αναγνώρισης ομιλίας.
 answer-questions-tip-1 = Κάντε ηχογράφηση σε ένα σχετικά ήσυχο μέρος
-answer-questions-tip-2 = Επιλέξτε τοποθεσία με καλή σύνδεση στο διαδίκτυο
+answer-questions-tip-2 = Επιλέξτε ένα μέρος με καλή σύνδεση στο διαδίκτυο
 answer-questions-tip-3b = Προσπαθήστε να διατηρήσετε την απάντησή σας στα 15-30 δευτερόλεπτα
 answer-questions-tip-4 = Αποφύγετε αρνητική, εμπρηστική ή προσβλητική ομιλία
 answer-questions-tip-5 = Μιλήστε φυσικά όπως θα κάνατε με ένα φίλο, χρησιμοποιήστε το δικό σας πραγματικό τρόπο ομιλίας, τη δική σας διάλεκτο και προφορά
 answer-questions-tip-6 = Διατηρήστε την ένταση του ήχου σας σταθερή, μη φωνάζετε και μην τραγουδάτε
+# Transcribe the Audio
+transcribe-the-audio = Μεταγραφή ήχου
 transcribe-the-audio-subheader-1 = Γενικές οδηγίες
 transcribe-the-audio-subheader-2 = Αριθμοί και ακρωνύμια
 transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
+transcribe-the-audio-subheader-5 = Γραμματικά λάθη και καθομιλουμένη
+transcribe-the-audio-subheader-1-explanation = Γενικά, θα πρέπει να σημειώνετε όλα όσα ακούτε. Αυτό περιλαμβάνει:
+transcribe-the-audio-subheader-1-explanation-example-4 = Οι γραμματικές παραλλαγές και η αργκό πρέπει να καταγράφονται ακριβώς όπως εμφανίζονται. Δεν θα πρέπει να διορθώνετε ή να επεξεργάζεστε την ομιλία των χρηστών.
+transcribe-the-audio-subheader-2-explanation-1 = Οι αριθμοί και τα σύμβολα θα πρέπει να μεταγράφονται ολογράφως και όχι με αριθμητικούς ή ειδικούς χαρακτήρες. Παράδειγμα:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Σωστό</correct>: Απέχει εκατό χιλιόμετρα από εδώ
 # text wrapped in wrong will be shown as red text in the UI
@@ -173,29 +179,135 @@ tags-laugh = Γέλιο
 tags-unclear = Ασάφεια
 tags-noise = Θόρυβος
 tags-laugh-explanation = Ο ήχος του γέλιου.
+tags-unclear-explanation = Μια λέξη ή μια ακολουθία λέξεων που δεν είναι κατανοητή.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     Και τότε [θόρυβος] πήγα διακοπές.
     Βασικά, [θόρυβος] [γέλιο] δεν ήταν ακριβώς διακοπές [γέλιο]
+transcribe-the-audio-subheader-4-explanation-2 = Μερικές φορές, οι ομιλητές επαναλαμβάνουν μια λέξη ή ένα τμήμα λέξης πολλές φορές. Και αυτά θα πρέπει να μεταγράφονται. Παράδειγμα:
+transcribe-the-audio-subheader-4-explanation-2-example = Και μετά, κατευθύνθηκα προς <underline>την την την κρεβα- την</underline> κρεβατοκάμαρα
+transcribe-the-audio-subheader-5-explanation-1 = Είναι φυσιολογικό η αυθόρμητη ομιλία να περιέχει γραμματικά λάθη. Αυτά δεν θα πρέπει να διορθώνονται κατά τη μεταγραφή. Η μεταγραφή θα πρέπει να αντικατοπτρίζει επακριβώς το περιεχόμενο.
 
 ## Review the Transcription
 
+review-the-transcription = Έλεγχος μεταγραφών
 review-the-transcription-subheader = Γενικές οδηγίες
+review-the-transcription-explanation-2 = Διαβάστε τις παραπάνω οδηγίες μεταγραφής για να ελέγξετε την ακρίβεια μιας μεταγραφής. Μπορείτε να κάνετε επεξεργασίες και να τις υποβάλετε.
 
 ## Code-Switching
 
+code-switching = Εναλλαγή κωδίκων
+adding-a-question = Προσθήκη ερώτησης
+# Adding a Question
+code-switching-adding-question-subheader = Τι χαρακτηριστικά έχει μια καλή ερώτηση;
+code-switching-adding-question-explanation = Μια καλή ερώτηση για σύνολα δεδομένων δημόσιας συμμετοχής θα πρέπει να:
+code-switching-adding-question-criteria-1 = Είναι εύκολη στην κατανόηση και στην απάντηση
+code-switching-adding-question-criteria-2 = Είναι γενικά επίκαιρη
+code-switching-adding-question-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
+code-switching-adding-question-note = Σκεφτείτε επίσης να συμπεριλάβετε διαφορετικά συμφραζόμενα και τομείς.
+code-switching-use-bilingual-prompts-header = Χρήση δίγλωσσων μηνυμάτων προτροπής
+code-switching-use-bilingual-prompts-explanation = Χρησιμοποιήστε δίγλωσσα μηνύματα προτροπής που ενσωματώνουν και τις δύο γλώσσες στην ερώτησή σας. Παράδειγμα:
+code-switching-use-bilingual-prompts-explanation-example = «What did your mom tell you όταν γύρισες σπίτι εκείνη την ημέρα;»
+code-switching-ask-bilingual-contexts-header = Ρωτήστε σχετικά με δίγλωσσα συμφραζόμενα
+code-switching-ask-bilingual-contexts-explanation = Χρησιμοποιήστε καταστάσεις όπου χρησιμοποιούνται συχνά και οι δύο γλώσσες (π.χ. οικογενειακές, σχολικές, κοινωνικές εκδηλώσεις). Παράδειγμα:
+code-switching-ask-bilingual-contexts-explanation-example = «Όταν μιλάτε με τα ξαδέρφια σας, αναμειγνύετε τα ελληνικά με τα αγγλικά;»
+code-switching-focus-emotional-header = Εστιάστε σε συναισθηματικές ή κρίσιμες στιγμές
+code-switching-focus-emotional-explanation = Οι άνθρωποι συχνά αλλάζουν γλώσσες όταν εκφράζουν συναισθήματα ή ανάγκες. Παράδειγμα:
+code-switching-focus-emotional-explanation-example = «Πείτε μου τι είπαν οι γονείς σας όταν τους είπατε τα σπουδαία νέα σας, ακριβώς όπως το είπαν.»
+code-switching-direct-quotes-header = Ζητήστε άμεσες παραθέσεις ή αναπαραστάσεις
+code-switching-direct-quotes-explanation = Ενθαρρύνετε τους συμμετέχοντες να αναπαραγάγουν πώς πραγματικά ειπώθηκαν τα πράγματα. Παράδειγμα:
+code-switching-direct-quotes-explanation-example = «Ποια ήταν τα ακριβή λόγια σας όταν το ανακαλύψατε;»
+code-switching-cultural-topics-header = Επιλέξτε θέματα που αφορούν συγκεκριμένες κουλτούρες
+code-switching-cultural-topics-explanation = Το φαγητό, οι παραδόσεις, οι γιορτές και η δυναμική της οικογένειας συχνά απαιτούν εναλλαγή κωδίκων.
+code-switching-cultural-topics-explanation-example = «Πώς θα περιγράφατε την Día de los Muertos σε κάποιον που μιλά μόνο ελληνικά;»
+code-switching-informal-scenarios-header = Εξερευνήστε άτυπα σενάρια
+code-switching-informal-scenarios-explanation = Οι συνομιλίες ή τα μηνύματα μεταξύ φίλων συχνά περιλαμβάνουν πιο φυσικές εναλλαγές γλωσσών. Παράδειγμα:
+code-switching-informal-scenarios-explanation-example = «Ποιο είναι το αστείο που λένε πάντα οι φίλοι σας και πώς το λένε;»
+# What to Avoid
+code-switching-avoid-subheader = Τι να αποφύγετε
+code-switching-avoid-intro = Ερωτήσεις που ενδέχεται να:
+code-switching-avoid-1 = Ζητούν δεδομένα προσωπικού χαρακτήρα
+code-switching-avoid-2 = Προκαλέσουν ρητορική μίσους ή άλλες προκατειλημμένες ή προσβλητικές απόψεις
+code-switching-avoid-3 = Οδηγήσουν κάποιον στο να μοιραστεί ευαίσθητες, ενδεχομένως τραυματικές απαντήσεις
+code-switching-dont-header = Τι να μην κάνετε
+code-switching-dont-1 = Μην χρησιμοποιείτε υπερβολικά επίσημη γλώσσα
+# Reviewing a Question
+code-switching-review-subheader = Έλεγχος ερωτήσεων
 code-switching-review-intro = Βεβαιωθείτε ότι η ερώτηση πληροί τα εξής κριτήρια:
+code-switching-review-criterion-1 = Είναι εύκολη στην κατανόηση και στην απάντηση
+code-switching-review-criterion-2 = Είναι γενικά επίκαιρη
+code-switching-review-criterion-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 code-switching-review-does-not-header = Και ότι <bold>ΔΕΝ</bold> περιλαμβάνει:
 code-switching-review-offensive-content = <bold>Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες</bold>
 code-switching-answer-header = Προσβλητικό περιεχόμενο ή ευαίσθητες πληροφορίες
+code-switching-review-no-1 = Ερωτήσεις που ενδέχεται να ζητήσουν δεδομένα προσωπικού χαρακτήρα
+code-switching-review-no-2 = Ερωτήσεις που ενδέχεται να προκαλέσουν ρητορική μίσους ή άλλες προκατειλημμένες ή προσβλητικές απόψεις
+code-switching-review-no-3 = Ερωτήσεις που ενδέχεται να οδηγήσουν κάποιον στο να μοιραστεί ευαίσθητες, ενδεχομένως τραυματικές απαντήσεις
+# Answering a Question
+code-switching-answer-subheader = Απάντηση ερωτήσεων
+code-switching-answer-intro = Όταν απαντάτε σε μια ερώτηση, στόχος σας είναι να απαντήσετε φυσικά, όπως θα κάνατε σε μια πραγματική συνομιλία. Θέλουμε να καταγράψουμε πώς πραγματικά αναμιγνύονται οι γλώσσες στην καθημερινή ομιλία.
+code-switching-answer-bullet-1 = Σκεφτείτε πραγματικές στιγμές ή καταστάσεις: αστεία, λογομαχίες, παραδόσεις
+code-switching-answer-bullet-2 = Φανταστείτε ότι στέλνετε μήνυμα σε έναν φίλο ή ότι λέτε σε κάποιον μια ιστορία
+code-switching-answer-bullet-3 = Συμπεριλάβετε λέξεις που θα χρησιμοποιούσατε στην πραγματικότητα, ακόμα κι αν είναι δανεικές ή μεικτές
+code-switching-answer-bullet-4 = Δεν υπάρχει «τέλειος» τρόπος απάντησης
 code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
+code-switching-authentic-speak = <bold>Μιλήστε όπως θα κάνατε με τους φίλους ή την οικογένειά σας.</bold> Αν συνδυάζετε γλώσσες στην πραγματικότητα, κάντε το ίδιο και εδώ. Παράδειγμα:
+code-switching-use-both-languages = <bold>Χρησιμοποιήστε και τις δύο γλώσσες αν θα το λέγατε έτσι κανονικά.</bold> Ακόμη και η εναλλαγή μιας ή δύο λέξεων είναι χρήσιμη. Παράδειγμα:
+code-switching-use-both-languages-example = «Είχε εκνευριστεί πολύ because δεν επέστρεψα την κλήση της.»
+code-switching-authentic-direct-quotes = <bold>Συμπεριλάβετε άμεσες παραθέσεις ή διαλόγους.</bold> Γράψτε ακριβώς τι ειπώθηκε, χωρίς να το επεξεργαστείτε σε πιο επίσημη μορφή. Παράδειγμα:
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Μην το σκέφτεστε υπερβολικά και μην κάνετε υπερβολικές διορθώσεις
+code-switching-answer-dont-correct-language = <bold>«Διόρθωση» της γλώσσας.</bold> Δεν εξετάζεστε για τη «σωστή» χρήση της γλώσσας. Σημασία έχει η φυσικότητα.
+code-switching-answer-dont-avoid-switching = <bold>Αποφυγή μιας εναλλαγής που θα κάνατε στην πραγματικότητα.</bold> Δεν πειράζει αν κάνετε εναλλαγή στη μέση της πρότασης, της σκέψης ή μόνο για μια λέξη.
+code-switching-answer-dont-formal-writing = <bold>Ομιλία που θυμίζει επίσημο γραπτό λόγο.</bold> Αποφύγετε τις επίσημες απαντήσεις ακαδημαϊκού επιπέδου. ΟΙ απαντήσεις σας θα πρέπει να θυμίζουν καθημερινούς διαλόγους.
+code-switching-answer-dont-force-switch = <bold>Αναγκαστική εναλλαγή ακόμα κι αν δεν είναι φυσική.</bold> Κάντε εναλλαγή μόνο αν θα μιλούσατε έτσι σε αυτήν την περίπτωση.
+code-switching-answer-dont-translate-repeat = <bold>Μετάφραση ή επανάληψη όλων των λέξεων.</bold> Πείτε τα όλα μόνο μία φορά, όπως θα κάνατε σε μια συνομιλία. Δεν χρειάζεται να πείτε μια εκδοχή της απάντησης για κάθε γλώσσα.
 # Transcribing
 code-switching-transcribe-subheader = Μεταγραφή
+code-switching-transcribe-intro = Κατά τη μεταγραφή απαντήσεων που περιλαμβάνουν εναλλαγή κωδίκων, αναπαραστήστε αυτούσια τη γλώσσα του ομιλητή, χωρίς διορθώσεις, τροποποιήσεις ή απλουστεύσεις. Αυτό ισχύει για όλες τις εναλλαγές μεταξύ γλωσσών, άτυπης ομιλίας και μικτών λέξεων.
+code-switching-transcribe-do-2 = Κάντε παύση μετά από κάθε πρόταση για να κάνετε έλεγχο για εναλλαγές ή μεικτές λέξεις
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Καταγραφή αυτούσιας της ομιλίας
+code-switching-capture-explanation = Μεταγράψτε και τις δύο γλώσσες όπως εμφανίζονται/ακούγονται. Μην «διορθώνετε» τη γλώσσα και μην αλλάζετε όλες τις λέξεις σε σε μία μόνο γλώσσα.
+# Include filler words and markers
+code-switching-filler-header = Συμπεριλάβετε συμπληρωματικές λέξεις και δείκτες
+# Use standard spelling for each language
+code-switching-spelling-header = Χρήση τυπικής ορθογραφίας για κάθε γλώσσα
+code-switching-spelling-explanation = Προσπαθήστε να γράψετε σωστά τις λέξεις για κάθε γλώσσα, εκτός αν ο ομιλητής τις προφέρει ξεκάθαρα με μη τυπικό τρόπο.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Μην απλουστεύετε και μην διορθώνετε τη γλώσσα
+code-switching-cleanup-1 = Μετάφραση ή παράφραση: γράψτε τι είπε ο ομιλητής, όχι τι «εννοούσε».
+code-switching-cleanup-2 = «Διόρθωση» της γραμματικής ή της προφοράς: διατηρήστε τη φυσική χρήση του ομιλητή.
+code-switching-cleanup-3 = Παράλειψη εναλλαγών που φαίνονται ήσσονος σημασίας: ακόμη και οι δανεικές λέξεις έχουν σημασία.
+code-switching-cleanup-4 = Εισαγωγή σημείων στίξης που θα μπορούσαν να αλλάξουν το νόημα: διατηρήστε τη φυσικότητα της ροής.
+code-switching-cleanup-5 = Υποθέσεις ότι γνωρίζετε τη γλώσσα καθεμιάς από τις λέξεις: προσθέστε ετικέτες βάσει της χρήσης των λέξεων.
+# Tagging
+code-switching-tagging-subheader = Προσθήκη ετικετών
+code-switching-tagging-error-intro = Αν η μεταγραφή περιέχει σφάλμα, χρησιμοποιήστε τη λειτουργία αναφοράς για να το επισημάνετε. Τα πιθανά σφάλματα περιλαμβάνουν:
+code-switching-tagging-error-1 = Λάθος σημεία στίξης ή χρήση κεφαλαίων
 code-switching-tagging-error-2 = Ορθογραφικά λάθη
+code-switching-tagging-error-3 = Λέξεις γραμμένες με λανθασμένη ορθογραφία
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Χρήση της σωστής ορθογραφίας για κάθε γλώσσα
+code-switching-orthography-explanation = Γράψτε κάθε λέξη σύμφωνα με την ορθογραφία της γλώσσας από την οποία προέρχεται. Για παράδειγμα:
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Χρησιμοποιήστε την προφορά για να προσδιορίσετε τη γλώσσα
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις που μοιάζουν
+code-switching-lookalikes-explanation = Μερικές λέξεις μπορεί να φαίνεται ότι προέρχονται από τη μια γλώσσα, αλλά χρησιμοποιούνται στην άλλη. Προσθέστε την ετικέτα με βάση το νόημα και τη χρήση, όχι την εμφάνιση. Παραδείγματα:
+# When Not to Tag Words
+code-switching-not-tag-header = Περιπτώσεις όπου δεν πρέπει να προσθέτετε ετικέτες σε λέξεις
+code-switching-not-tag-explanation = Μερικές λέξεις <bold>δεν πρέπει να φέρουν</bold> ετικέτα γλώσσας, ακόμα κι αν φαίνονται μεικτές ή προσαρμοσμένες. Δείτε πώς να διαχειριστείτε μερικά παραδείγματα:
+code-switching-not-tag-proper-names = <bold>Κύρια ονόματα.</bold> Τα ονόματα ατόμων, τοποθεσιών και οργανισμών δεν θα πρέπει να φέρουν ετικέτες. Παραδείγματα:
+code-switching-not-tag-proper-names-example-1 = Άτομα: Μαρία, Γιάννης
+code-switching-not-tag-proper-names-example-2 = Τοποθεσίες: Λος Άντζελες, Φλόριντα
+code-switching-not-tag-proper-names-example-3 = Επωνυμίες/οργανισμοί: Target, Burger King
 
 ## Reporting Content
 
 reporting-content = Αναφορά περιεχομένου
 reporting-content-subheader = Γενικές οδηγίες
+reporting-content-explanation-1 = Πρέπει να επισημάνετε το περιεχόμενο που είναι προσβλητικό, επιβλαβές ή ανησυχητικό με οποιονδήποτε άλλο τρόπο. Δεν θα πρέπει επίσης να περιέχει δεδομένα προσωπικού χαρακτήρα, όπως αριθμούς τηλεφώνου ή διευθύνσεις. Θα αφαιρεθεί από την εμπειρία σας μέχρι να μπορέσει η ομάδα του Common Voice να το ελέγξει και να το διερευνήσει περαιτέρω.
+reporting-content-explanation-2 = Για να αναφέρετε περιεχόμενο, επιλέξτε το κουμπί «Αναφορά» και επιλέξτε ένα ή όλα τα ακόλουθα: Προσβλητικό περιεχόμενο, Διαφορετική γλώσσα, Δεδομένα προσωπικού χαρακτήρα, Άλλο. Από εδώ, δώστε περισσότερες λεπτομέρειες σχετικά με τον λόγο που αναφέρετε το περιεχόμενο, στην περιοχή κειμένου. Τέλος, υποβάλετε την αναφορά κάνοντας κλικ στο κουμπί «Αναφορά».

@@ -31,18 +31,6 @@ not-found-page-header = Pɨkaʼukaxeiyarie
 not-found-page-content = Página ke ʼaneme pemɨwaune pɨkaʼukaxeiyarie
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Yanepɨraʼeriwa <termsLink> nehetsié timieme ke mɨtiyukumayɨani </termsLink> tsiere <privacyLink>ke mɨtiʼɨwiyarieni</privacyLink> Common Voicetsie
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-kzi = Kelabit
-mbf = Baba Malay
 mel = Melanau centro mieme
-msi = Sabah Malay
-pez = Penan este mieme
-pne = Penan oeste mieme
-sdo = Serian Bidayuh
-snv = Saʼban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

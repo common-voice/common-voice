@@ -31,18 +31,6 @@ not-found-page-header = Dyà gí chö̀tü k'o í jögi
 not-found-page-content = Nú pájina dyà gú chö̀tü k'o jö́ri
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Rí kěnto konpjórme k'oyó <termsLink>terminosdeuso</termsLink> nú <privacyLink>politicaprivacidad</privacyLink> Common Voice
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-kzi = Kelabit
-mbf = Baba Malay
 mel = Melanau del centro
-msi = Sabah Malay
-pez = Penan del este
-pne = Penan del oeste
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

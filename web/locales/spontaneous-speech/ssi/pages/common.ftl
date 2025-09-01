@@ -38,22 +38,9 @@ not-found-page-header = نائِیں مِلا
 not-found-page-content = جِس پنے کُو آپ لوڑی رے ہے ٻو نائِیں مِلا
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ہُوں سادھارݨ اواجا کِیاں <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت سُوچناس</privacyLink> سہمت ہے
-# Locales
-bsy = صباح بسایا
-cdo = فوژو
-cpx = ہینگ ہوا
-hch = وِکساریکا
-kzi = کیلا بیٹ
-mbf = بابا ملائے
+# Locales (not yet fully resolved in Pontoon)
 meh = ڈؔکھݨ اولھاندا ٹلاکسیکو مکسٹیک
 mel = سنٹرل میلاناؤ
-mmc = مچوآکان مزاہوا
-msi = صباح ملائی
-pez = اُوبھرندے پینان
-pne = اُولاندے پینان
-sdo = سیریان بیدایو
-snv = سابان
-xkl = کِینیا
 # Locales-Variants
 ms-MY = بہاسا ملائی
 

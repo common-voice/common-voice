@@ -145,7 +145,7 @@ example-questions-explanation-2 = თუ გსურთ კითხვებ�
 # Answer Questions
 answer-questions = კითხვებზე პასუხი
 answer-questions-subheader = ზოგადი მითითებები
-answer-questions-explanation-1 = ერთ ხანს დაფიქრდით, რისი თქმა გსურთ, მაგრამ წინასწარ მეტისმეტად ნუ მოამზადებთ საკუთარ თავს. დაწკაპეთ „ჩაწერის“ ხატულას. ჩაწერის შემდეგ შეგიძლიათ მოუსმინოთ საკუთარ თავს, ხელახლა ჩაწეროთ, წაშალოთ ან წარადგინოთ.
+answer-questions-explanation-1 = ერთ ხანს დაფიქრდით, რისი თქმა გსურთ, მაგრამ წინასწარ მეტისმეტად ნუ შეამზადებთ საკუთარ თავს. დაწკაპეთ „ჩაწერის“ ხატულას. ჩაწერის შემდეგ შეგიძლიათ მოუსმინოთ საკუთარ თავს, ხელახლა ჩაწეროთ, წაშალოთ ან წარადგინოთ.
 answer-questions-explanation-2 = დაიხსომეთ – ნუ იღელვებთ ენის ბორძიკზე, შეყოვნებებზე, გამეორებულ სიტყვებზე. ეს ყველაფერი მეტად გამოსადეგია ხმის ამომცნობი საშუალებების ამწყობთათვის, რომ შეიქმნას საყოველთაო გამოყენებისა და ყოველდღიური მეტყველების ამომცნობი ხელსაწყოები.
 answer-questions-tip-1 = ჩაწერეთ მეტ-ნაკლებად წყნარ ადგილას
 answer-questions-tip-2 = აირჩიეთ ადგილი ხელმისაწვდომი ინტერნეტკავშირით
@@ -178,7 +178,7 @@ transcribe-the-audio-subheader-2-example-2-wrong = <wrong>მცდარი</wr
 transcribe-the-audio-subheader-2-example-3-correct = <correct>მართებული</correct>: ოცპროცენტიანი ფასდაკლებით იყო
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>მცდარი</wrong>: 20%-იანი ფასდაკლებით იყო
 transcribe-the-audio-subheader-2-example-4-correct = <correct>მართებული</correct>: <underline>შსს-მ</underline> ისინი წინა ხუთშაბათს დააკავა
-transcribe-the-audio-subheader-2-example-4-wrong = <wrong>მცდარი</wrong>: <underline>შე სე სემ</underline> ისინი წინა ხუთშაბათს დააკავა
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>მცდარი</wrong>: <underline>შესესემ</underline> ისინი წინა ხუთშაბათს დააკავა
 transcribe-the-audio-subheader-3-explanation = მოცემული საგანგებო ჭდეები უნდა ერთვოდეს უმართებულო, შემავსებელ ან სხვა სახის არასიტყვიერ მასალას (ინგლისურად).
 tags-table-header-1 = ჭდე
 tags-table-header-2 = მნიშვნელობა
@@ -240,10 +240,10 @@ code-switching-direct-quotes-explanation = მონაწილეებს უ
 code-switching-direct-quotes-explanation-example = „ზუსტად რა სიტყვები უთხარით, როცა ეს ამბავი გაიგეთ?“
 code-switching-cultural-topics-header = შეარჩიეთ კითხვები ადგილობრივი ხალხის ან გარემოსა შესახებ
 code-switching-cultural-topics-explanation = საჭმელი, ჩვეულებები, დღესასწაულები და ოჯახური გარემოებები, აგრეთვე იწვევს მეტყველების მონაცვლეობას.
-code-switching-cultural-topics-explanation-example = „როგორ აუხსნით ალაგი ლიხელეს მხოლოდ ქართულად მოლაპარაკეს?“
+code-switching-cultural-topics-explanation-example = „როგორ აუხსნიდით ალაგი ლიხელეს მხოლოდ ქართული ენის მცოდნეს?“
 code-switching-informal-scenarios-header = გამოიკვლიეთ შინაურული შემთხვევები
 code-switching-informal-scenarios-explanation = მეგობრებთან საუბრისას ან მიმოწერისას მონაცვლეობა უფრო ბუნებრივია ხოლმე. მაგალითად:
-code-switching-informal-scenarios-explanation-example = „რას ხუმრობენ თქვენი მეგობრები ყველაზე ხშირად – და როგორ ამბობენ ხოლმე?“
+code-switching-informal-scenarios-explanation-example = „როგორ ხუმრობენ თქვენი მეგობრები ყველაზე ხშირად – და ზუსტად რას ამბობენ ხოლმე?“
 # What to Avoid
 code-switching-avoid-subheader = უნდა აირიდოთ
 code-switching-avoid-intro = კითხვები, რომლებიც:
@@ -272,25 +272,73 @@ code-switching-answer-bullet-2 = წარმოიდგინეთ, თით
 code-switching-answer-bullet-3 = გამოიყენეთ სიტყვები, რომელთაც ისედაც იყენებთ ხოლმე, თუნდაც ნასესხებს ან უცხო ენისას
 code-switching-answer-bullet-4 = არ არსებობს „სრულყოფილი“ პასუხის გაცემის გზა
 code-switching-authentic-header = უპასუხეთ ბუნებრივად და თქვენებურად
-code-switching-authentic-speak = <bold>ილაპარაკეთ ისე, როგორც მეგობრებთან ან ოჯახის წევრებთან ლაპარაკობთ.</bold> თუ რამდენიმე ენას ურევთ ხოლმე ერთმანეთში, აქაც ასე მოიქეცით. მაგალითად:
+code-switching-authentic-speak = <bold>ილაპარაკეთ ისე, როგორც მეგობრებთან ან ოჯახის წევრებთან საუბრობთ ხოლმე.</bold> თუ რამდენიმე ენას ურევთ ხოლმე ერთმანეთში, აქაც ასე მოიქეცით. მაგალითად:
 code-switching-authentic-speak-example = „გომორძგუა, ჯიმა! მხიარულად მივესალმე და დავამატე – „ხვალ გამთენიისას კუჩხაა!“
 code-switching-use-both-languages = <bold>ორივე ენა გამოიყენეთ, თუ თქვენთვის ჩვეულია ეს.</bold> ერთი-ორი სიტყვის მონაცვლეობაც კი მეტად წაგვადგება. მაგალითად:
+code-switching-authentic-direct-quotes = <bold>სიტყვასიტყვით მოიყვანეთ ნათქვამი ან მონაკვეთი საუბრიდან.</bold> ზუსტად გაიმეორეთ სხვისი წარმოთქმული და არ ეცადოთ, უფრო მოწესრიგებული ან საქმიანი იერი მისცეთ. მაგალითად:
+code-switching-authentic-full-context = <bold>სრული პასუხები გაეცით შინაარსის დართვით.</bold> ეცადეთ პასუხი რაც შეიძლება დაწვრილებითი იყოს. გადმოეცით ამბავი ან მოიყვანეთ მაგალითი პასუხისას.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = ზედმეტად ნუ იფიქრებთ და ნუ შეასწორებთ
 code-switching-answer-dont-correct-language = <bold>„გამართოთ“ თქვენი ენა.</bold> ეს გამოცდა არაა. „სათანადო“ ფორმა არაა მნიშვნელოვანი, ენის ბუნებრიობა – კი.
 code-switching-answer-dont-avoid-switching = <bold>მონაცვლეობის არიდება, თუ დამახასიათებელია თქვენთვის.</bold> არა უშავს, თუ მეტყველებას შეანაცვლებთ შუა წინადადებაში, შუა ფიქრის დროს ან შეცვლით თუნდაც ერთ სიტყვას.
-code-switching-answer-dont-formal-writing = <bold>ილაპარაკოთ ისე, თითქოს საქმიანად წერდეთ.</bold> აირიდეთ საქმიანი, მოწესრიგებული პასუხები. შეინარჩუნეთ ზეპირი მეტყველება.
+code-switching-answer-dont-formal-writing = <bold>ილაპარაკოთ ისე, თითქოს საქმიანად წერდეთ.</bold> აირიდეთ საქმიანი, მოწესრიგებული პასუხები. შეინარჩუნეთ სასაუბრო მეტყველება.
 code-switching-answer-dont-force-switch = <bold>განგებ მონაცვლეობა, თუ არაბუნებრივია.</bold> მხოლოდ იმ შემთხვევაშია მონაცვლეობა მისაღები, თუ ჩვეულებრივ ასე ლაპარაკობთ ხოლმე.
 code-switching-answer-dont-translate-repeat = <bold>ყველაფრის თარგმნა ან გამეორება.</bold> მხოლოდ ერთხელ თქვით ისე, როგორც საუბრისას იტყოდით. არაა საჭირო პასუხის სხვადასხვა სახით ან თითოეულ ენაზე წარმოდგენა.
 # Transcribing
 code-switching-transcribe-subheader = ნაწერად ქცევა
 code-switching-transcribe-intro = პასუხების ნაწერად ქცევისას, როცა წააწყდებით მეტყველების მონაცვლეობას, მოსაუბრის ენა წარმოადგინეთ ზუსტად ისე, როგორც არის – გამართვის, შესწორების ან გამარტივების გარეშე. ეს ეხება ნებისმიერი სახის მონაცვლეობას, შინაურულ მეტყველებაზე გადასვლასა თუ ენაში უცხო სიტყვების გამორევას.
+code-switching-transcribe-do-1 = მოკლე მონაკვეთები რამდენჯერმე მოისმინეთ ხოლმე შეუმჩნეველი მონაცვლეობის აღმოსაჩენად
+code-switching-transcribe-do-2 = შეჩერდით ყოველი წინადადების შემდგომ, ხელახლა რომ გადაამოწმოთ მონაცვლეობა ან შერეული სიტყვები
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = ზუსტად გადმოიტანეთ ზეპირი მეტყველებით წარმოთქმული
+code-switching-capture-explanation = ნაწერად გადმოეცით ორივე ისე, როგორც ჩანს / გამოითქმის. ნუ „შეასწორებთ“ ენას ან ნუ გადაცვლით მხოლოდ ერთ ენაზე.
+# Include filler words and markers
+code-switching-filler-header = დაურთეთ შემავსებელი სიტყვები და მონიშვნები
+code-switching-filler-explanation = ისეთი სიტყვები, როგორორიცაა „ამმ“, „აბა“, „ეჰჰ“, „მაშ“, „იფ“, „ბიჭოს“ მეტად მნიშვნელოვანია. მაგალითად: „ანუ, ამმ... მეუთხარი, „მუჭოთ ირონ“, უფრო მოგვიანებით.“
+# Use standard spelling for each language
+code-switching-spelling-header = ისარგებლეთ თითოეული ენისთვის ჩვეული სიტყვების დაწერილობით
+code-switching-spelling-explanation = ეცადეთ სიტყვების დაწერილობა გამართული იყოს თითოეული ენისთვის, გარდა იმ შემთხვევისა, როცა მკაფიოდ ჩანს, რომ მოსაუბრე მეტად განსხვავებულად წარმოთქვამს.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = არ ეცადოთ ენის დახვეწას ან გამარტივებას
+code-switching-cleanup-1 = თარგმნა ან აღწერა – მხოლოდ ის დაწერეთ, რაც წარმოთქვა მოსაუბრემ და არა ის, თუ რა „იგულისხმა“.
+code-switching-cleanup-2 = „შესწორება“ გრამატიკის ან გამოთქმის – შეინარჩუნეთ მოსაუბრეთა ბუნებრივი თავისებურება.
+code-switching-cleanup-3 = გამოტოვება ენის უმნიშვნელო ან მცირედ მონაცვლეობისა – ნასესხები სიტყვებიც კი მეტად მნიშვნელოვანია.
+code-switching-cleanup-4 = სასვენი ნიშნების ჩასმა, რომელთაც მნიშვნელობის შეცვლა შეუძლია – არ გადაუხვიოთ ბუნებრივი მიმდინარეობას.
+code-switching-cleanup-5 = თავდაჯერებულობა, რომ ყველა სიტყვის ენა იცით – მონიშნეთ გამოყენების მიხედვით.
 # Tagging
 code-switching-tagging-subheader = ჭდეების დართვა
 code-switching-tagging-error-intro = თუ ნაწერად ქცეული შეცდომებითაა, გთხოვთ მოხსენების მეშვეობით მონიშნოთ. შესაძლო შეცდომებია:
 code-switching-tagging-error-1 = უმართებულოდ გამოყენებული სასვენი ნიშნები ან მთავრული ასოები
 code-switching-tagging-error-2 = მცდარბეჭდილი
 code-switching-tagging-error-3 = სიტყვები გაუმართავი მართლწერით
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = გამოიყენეთ თითოეული ენისთვის შესაფერისი მართლწერის წესები
+code-switching-orthography-explanation = დაწერეთ თითოეული სიტყვა იმ ენისდა მიხედვით, რომლიდანაცაა. მაგალითად:
+code-switching-orthography-explanation-example-1 = თუ სიტყვა „ვარდიშფერი“ მეგრულად ისმის, ასევე უნდა დაიწეროს ქართულ წინადადებაში და არა, როგორც „ვარდისფერი“.
+code-switching-orthography-explanation-example-2 = თუ სიტყვა მეზუ̂ბელ შეგხვდებათ ქართულში, დაწერისას გამოიყენეთ უ̂.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = დაუკვირდით გამოთქმას ენის გამოსაცნობად
+code-switching-pronunciation-explanation = ზოგიერთი სიტყვა ორივე ენაში მსგავსი შეიძლება იყოს, მაგრამ განსხვავებულად წარმოითქვას.  კარგად მოუსმინეთ გამოთქმას ჭდეების სწორად მითითებისთვის.  მაგალითად: ყურზენი, წვანე, ძალიერი, ნაბეტანი, სუმარი, წყარი.
+code-switching-pronunciation-explanation-example-1 = ქართული: /χʼuɾd͡zeni/
+code-switching-pronunciation-explanation-example-2 = მეგრული: /ʾurʒeni/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = ყურადღება გამოიჩინეთ მსგავსი სიტყვების მიმართ
+code-switching-lookalikes-explanation = ზოგიერთი სიტყვა შეიძლება ერთი ენის კუთვნილება ჩანდეს, მაგრამ სხვა ენიდან იყოს გამოყენებული. ჭდეებით მონიშვნა უნდა ითვალისწინებდეს შინაარსს და გარეგნულ სახეს. მაგალითები:
+code-switching-lookalikes-explanation-example-1 = „პაპა“ გამოიყენება მღვდლის მნიშვნელობით მეგრულში > მოსანიშნია მეგრული
+code-switching-lookalikes-explanation-example-2 = „ცინდალი“ გამოიყენება ქართულშიც > მოსანიშნია ქართულად
+# When Not to Tag Words
+code-switching-not-tag-header = როდის არ უნდა მოინიშნოს სიტყვები
+code-switching-not-tag-explanation = ზოგიერთ სიტყვას <bold>არაა მოსანიშნი</bold> ენის ჭდეებით, თუნდაც გამორეული ან ნასესხობა ჩანდეს.  აგერ რამდენიმე მაგალითი, როდი რა უნდა მოიმოქმედოთ:
+code-switching-not-tag-proper-names = <bold>საკუთარი სახელები.</bold> ხალხის, ადგილების და დაწესებულებების სახელები არაა მოსანიშნი. მაგალითები:
+code-switching-not-tag-proper-names-example-1 = ხალხი: ნანა, ბექნუ
+code-switching-not-tag-proper-names-example-2 = ადგილები: განმუხური, უშგული
+code-switching-not-tag-proper-names-example-3 = ბრენდები/დაწესებულებები: ლუშნუ, მაკდონალდსი
+code-switching-not-tag-mixed-words = <bold>შერეული ან მორფოლოგიურად შეთვისებული სიტყვები.</bold> არ მონიშნოთ სიტყვები, რომლებიც რამდენიმე ენას აერთიანებს ან სხვა ენის დაბოლოებითაა. მაგალითები:
+code-switching-not-tag-interjections = <bold>შორისდებულები.</bold> შორისდებული და შემავსებელი სიტყვები, ენისდა მიუხედავად, უნდა დარჩეს <bold>ჭდეების გარეშე.</bold> მაგალითები:
+code-switching-not-tag-interjections-example-1 = „ეჰ“
+code-switching-not-tag-interjections-example-2 = „ნწუ“
+code-switching-not-tag-interjections-example-3 = „ჰო“
+code-switching-not-tag-interjections-example-4 = „ემმ“
 
 ## Reporting Content
 

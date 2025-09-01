@@ -31,18 +31,6 @@ not-found-page-header = Ntu nani'in
 not-found-page-content = Ntuvi nani'in na'a tutu nanuku nu
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Kuvi ka'nu ini ni ku'va satiñu jin <termsLink>A katyi</termsLink> Common Voice suni saa ni ku'va <privacyLink>kumi jin da tù'un jiè'è nú</privacyLink>
-# Locales
-bsy = Tù'un Sabah Bisaya
-cdo = Tù'un Fuzhou
-cpx = Tù'un Heng Hua
-kzi = Tù'un Kelabit
-mbf = Tù'un Baba Malay
 mel = Tù'un Melanau maa ñuu
-msi = Tù'un Sabah Malay
-pez = Tù'un Penan ityi nuu nkene nkanii
-pne = Tù'un Penan ityi nuu kivɨ nkanii.
-sdo = Tù'un Serian Bidayuh
-snv = Tù'un Sa'ban
-xkl = Tù'un Kenyah
 # Locales-Variants
 ms-MY = Tù'un Bahasa Malay

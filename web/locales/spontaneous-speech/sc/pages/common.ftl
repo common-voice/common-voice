@@ -17,4 +17,5 @@ contribute = Contribui
 ## Not Found Page
 
 not-found-page-header = No agatadu
+# Locales (not yet fully resolved in Pontoon)
 meh = Mixtecu de su sud-est de Tlaxiaco

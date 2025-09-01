@@ -41,22 +41,9 @@ not-found-page-header = አልተገኘም።
 not-found-page-content = የሚፈልጉት ገጽ ሊገኝ አልቻለም
 # Privacy and Terms checkbox
 accept-privacy-and-terms = በ ጋራ ድምፅ <termsLink>ደንቦች</termsLink> እና <privacyLink>የግላዊነት ማስታወቂያ</privacyLink> እስማማለሁ
-# Locales
-bsy = ሳባ ቢሳይ
-cdo = ፉዙ
-cpx = ሄንግ ሁዋ
-hch = ዊክሳሪካ
-kzi = ኬላቢት
-mbf = ባባ ማላይ
+# Locales (not yet fully resolved in Pontoon)
 meh = ደቡብ ምዕራባዊ ተላሲያኮ ሚክስቴክ
 mel = ማዕከላዊ ሜላኑ
-mmc = ሚቾቻን ማዛሁዋ
-msi = ሳባ ማላይ
-pez = ምስራቃዊ ፔናን
-pne = ምዕራባዊ ፔናን
-sdo = ሴሪያን ቢዳዩህ
-snv = ሳባን
-xkl = ኬንያ
 # Locales-Variants
 ms-MY = ባሃሳ ማላይ
 

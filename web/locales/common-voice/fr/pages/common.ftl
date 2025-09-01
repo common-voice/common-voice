@@ -53,6 +53,7 @@ brx = Bodo
 bs = Bosniaque
 bsh = Kateviri
 bsk = Bourouchaski
+bsy = Sabah Bisaya
 btv = Bateri
 bum = Boulou
 bxk = Bukusu

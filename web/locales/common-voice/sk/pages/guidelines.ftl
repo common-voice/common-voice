@@ -6,6 +6,7 @@ sentence-collection = Zber viet
 question-collection = Zbierka otázok
 scripted-speech = Skriptovaná reč
 spontaneous-speech = Spontánna reč
+dont-subheader = Snažte sa nerobiť
 
 ## Voice Collection nav ids
 
@@ -141,6 +142,8 @@ example-questions-explanation-2 = Ak chcete odoslať množinu otázok na posúde
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Odpovedanie na otázky
 answer-questions-subheader = Všeobecné usmernenia
 answer-questions-explanation-1 = Na chvíľu sa zamyslite nad výzvou, zvážte, čo by ste chceli povedať, ale príliš sa nesnažte napísať. Kliknite na ikonu „nahrať“. Po nahratí si môžete vypočuť svoj hlas, znova ho nahrať, vymazať alebo odoslať.
 answer-questions-explanation-2 = Pamätajte – nebojte sa, ak sa zakoktáte, pozastavíte alebo zopakujete slovo. Toto všetko sú užitočné údaje pre inžinierov, ktorí sa snažia vytvoriť inkluzívne nástroje na rozpoznávanie reči pre reálny svet.
@@ -164,6 +167,18 @@ transcribe-the-audio-subheader-1-explanation-example-3 = Označovanie významné
 transcribe-the-audio-subheader-1-explanation-example-4 = Gramatické variácie a slang by sa mali zaznamenávať presne tak, ako sa vyskytujú. Neopravujte ani neupravujte reč ľudí.
 transcribe-the-audio-subheader-2-explanation-1 = Čísla a symboly by sa mali písať slovami, a nie číslicami alebo špeciálnymi znakmi. Príklad:
 transcribe-the-audio-subheader-2-explanation-2 = Skratky by sa mali písať tak, ako sa bežne píšu v danom jazyku, podľa štandardných pravidiel používania veľkých písmen. Nemali by sa prepisovať foneticky. Príklad:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Správne</correct>: Je to odtiaľto vzdialené sto kilometrov
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Nesprávne</wrong>: Je to odtiaľto vzdialené 100 kilometrov
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Správne</correct>: Uvidíme sa v roku <underline>dvetisícpätnásť</untnásťderline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nesprávne</wrong>: Uvidíme sa v roku <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Správne</correct>: Bolo to zľavnené o dvadsať percent
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nesprávne</wrong>: Bolo to zľavnené o 20 %
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Správne</correct>: Minulý štvrtok ich zatkla <underline>FBI</underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Nesprávne</wrong>: Minulý štvrtok ich zatkla <underline>eff bíí ááj</underline>
 transcribe-the-audio-subheader-3-explanation = Na označenie neplynulosti, výplní a iných typov neverbálneho obsahu (v angličtine) by sa mali používať nasledujúce špeciálne značky.
 tags-table-header-1 = Značka
 tags-table-header-2 = Význam
@@ -184,14 +199,161 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontánna reč prirodzene obsahuje falošné začiatky, pri ktorých sa vytvorí iba fragment celého slova. V takýchto prípadoch, prosím, čo najlepšie prepíšte fragment slova a na koniec slova pridajte pomlčku (-), aby ste označili, že slovo je falošný začiatok. Príklad:
 transcribe-the-audio-subheader-4-explanation-1-example = Volá sa <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Niekedy hovoriaci zopakujú slovo alebo fragment slova viackrát. Aj toto by sa malo prepísať. Príklad:
+transcribe-the-audio-subheader-4-explanation-2-example = A potom som išiel <underline>do do doo</underline>spálne
+transcribe-the-audio-subheader-5-explanation-1 = Spontánna reč bude prirodzene obsahovať gramatické chyby. Tie by sa pri prepise nemali opravovať. Prepis by mal presne odrážať hovorený obsah.
+transcribe-the-audio-subheader-5-explanation-2 = Hovoriaci môžu používať hovorové výrazy (ako napríklad v angličtine „gonna“, „cuz“ atď.), ktoré sa nemusia považovať za formálne správne. Tieto výrazy by sa mali prepisovať tak, ako sú, a nemali by sa meniť na ich formálnejšie ekvivalenty.
+
+## Review the Transcription
+
+review-the-transcription = Kontrola prepisu
+review-the-transcription-subheader = Všeobecné usmernenia
+review-the-transcription-explanation-1 = Vo všeobecnosti odporúčame, aby osoba, ktorá kontroluje prepis, nebola tá istá osoba, ktorá vykonala pôvodný prepis. Je veľmi ťažké skontrolovať si vlastnú prácu! Viaceré riadky kontroly môžu pomôcť zvýšiť spoľahlivosť zabezpečenia kvality a zmierniť skreslenia a problémy.
+review-the-transcription-explanation-2 = Prečítajte si vyššie uvedené pokyny na prepis, aby ste skontrolovali, či je prepis presný. Môžete vykonať úpravy a odoslať ich.
+review-the-transcription-explanation-3 = Zdôrazňujeme, že môžete nahlásiť obsah, ktorý je urážlivý, škodlivý alebo inak znepokojujúci, a bude z vášho rozhrania odstránený, kým ho tím Common Voice nepreskúma a ďalej neprešetrí.
 
 ## Code-Switching
 
-code-switching-avoid-intro = Otázky, ktoré by mohli:
+code-switching = Prepínanie jazykov
+adding-a-question = Pridávanie otázok
+# Adding a Question
+code-switching-adding-question-subheader = Čo robí otázku dobrou?
+code-switching-adding-question-explanation = Dobrá otázka pre verejné kolekcie údajov by mala:
+code-switching-adding-question-criteria-1 = Byť ľahko pochopiteľná a malo by byť jednoduché na ňu reagovať
+code-switching-adding-question-criteria-2 = Byť všeobecne relevantná
+code-switching-adding-question-criteria-3 = Nepoužívať alebo nevyžadovať škodlivé alebo urážlivé výrazy
+code-switching-adding-question-note = Môžete tiež zvážiť použitie rôznych kontextov a domén.
+# What types of questions to add
+code-switching-types-subheader = Aké typy otázok pridať?
+code-switching-use-bilingual-prompts-header = Používajte dvojjazyčné výzvy
+code-switching-use-bilingual-prompts-explanation = Používajte dvojjazyčné otázky, ktoré zahŕňajú oba jazyky: Príklad:
+code-switching-use-bilingual-prompts-explanation-example = "Qué te dijo tu mamá, keď si sa v ten deň vrátila domov?"
+code-switching-ask-bilingual-contexts-header = Opýtajte sa na dvojjazyčné kontexty
+code-switching-ask-bilingual-contexts-explanation = Používajte situácie, kde sa bežne používajú oba jazyky (napr. doma, v škole, na spoločenských podujatiach). Príklad:
+code-switching-ask-bilingual-contexts-explanation-example = „Keď sa rozprávaš so svojimi bratrancami a sesternicami, miešaš španielčinu a angličtinu?“
+code-switching-focus-emotional-header = Zamerajte sa na emocionálne alebo kritické momenty
+code-switching-focus-emotional-explanation = Ľudia často prepínajú jazyky, keď vyjadrujú emócie alebo naliehavosť. Príklad:
+code-switching-focus-emotional-explanation-example = „Povedz mi, čo povedali tvoji rodičia, keď si im oznámil tú veľkú novinku – presne ako to povedali.“
+code-switching-direct-quotes-header = Požiadajte o priame citácie alebo rekonštrukcie
+code-switching-direct-quotes-explanation = Povzbuďte účastníkov, aby zopakovali, ako boli veci v skutočnosti povedané. Príklad:
+code-switching-direct-quotes-explanation-example = „Aké boli tvoje presné slová, keď si sa to dozvedel?“
+code-switching-cultural-topics-header = Vyberte si špecifické kultúrne témy
+code-switching-cultural-topics-explanation = Jedlo, tradície, sviatky a rodinná dynamika často nabádajú k prepínaniu jazykov.
+code-switching-cultural-topics-explanation-example = "Ako opíšeš Día de los Muertos niekomu, kto hovorí len po anglicky?"
+code-switching-informal-scenarios-header = Preskúmajte neformálne scenáre
+code-switching-informal-scenarios-explanation = Rozhovory s priateľmi alebo posielanie textových správ často zahŕňajú prirodzenejšie prepínanie. Príklad:
+code-switching-informal-scenarios-explanation-example = „Aký vtip vždy spomínajú tvoji priatelia – a ako ho hovoria?“
+# What to Avoid
+code-switching-avoid-subheader = Čomu sa vyhnúť
+code-switching-avoid-intro = Otázkam, ktoré by mohli:
 code-switching-avoid-1 = Vyžadovať osobné údaje
 code-switching-avoid-2 = Podnecovať k nenávistným prejavom alebo iným zaujatým či urážlivým pocitom
 code-switching-avoid-3 = Prinútiť niekoho zdieľať citlivé, potenciálne spúšťacie reakcie
+code-switching-dont-header = Nepoužívajte
+code-switching-dont-1 = Nepoužívajte príliš formálny jazyk
+# Reviewing a Question
+code-switching-review-subheader = Kontrola otázok
+code-switching-review-intro = Uistite sa, že otázka spĺňa kritériá:
+code-switching-review-criterion-1 = Je ľahko pochopiteľná a je jednoduché na ňu reagovať
+code-switching-review-criterion-2 = Je všeobecne relevantná
+code-switching-review-criterion-3 = Nepoužíva alebo nevyžaduje škodlivé alebo urážlivé výrazy
+code-switching-review-does-not-header = A <bold>NEOBSAHUJE</bold>:
+code-switching-review-offensive-content = <bold>Urážlivý obsah alebo citlivé informácie</bold>
+code-switching-answer-header = Urážlivý obsah alebo citlivé informácie
+code-switching-review-no-1 = Otázky, ktoré by mohli vyžadovať osobne identifikovateľné informácie
+code-switching-review-no-2 = Otázky, ktoré by mohli vyvolať nenávistné prejavy alebo iné zaujaté alebo urážlivé pocity
+code-switching-review-no-3 = Otázky, ktoré môžu spôsobiť, že sa niekto podelí o citlivé a potenciálne spúšťacie reakcie
+# Answering a Question
+code-switching-answer-subheader = Odpovedanie na otázku
+code-switching-answer-intro = Pri odpovedi na otázku je cieľom reagovať prirodzene – rovnako ako v reálnom rozhovore. Chceme zachytiť, ako sa jazyky v skutočnosti miešajú v každodennej reči.
+code-switching-answer-bullet-1 = Spomeňte si na skutočné momenty alebo situácie: vtipy, hádky, tradície
+code-switching-answer-bullet-2 = Predstavte si, že píšete SMS priateľovi alebo niekomu rozprávate príbeh
+code-switching-answer-bullet-3 = Používajte slová, ktoré by ste skutočne použili, aj keby boli požičané alebo zmiešané
+code-switching-answer-bullet-4 = Neexistuje žiadny „dokonalý“ spôsob, ako odpovedať
+code-switching-authentic-header = Odpovedajte prirodzene a autenticky
+code-switching-authentic-speak = <bold>Hovorte tak, ako by ste hovorili s priateľmi alebo rodinou.</bold> Ak v reálnom živote miešate jazyky, urobte to isté aj tu. Príklad:
+code-switching-authentic-speak-example = „Povedal som jej, že nemôžem ísť, ale ona na to: ‚Radšej dojdi!‘“
+code-switching-use-both-languages = <bold>Použite oba jazyky, ak to takto bežne hovoríte.</bold> Užitočné je aj vymeniť si jedno alebo dve slová. Príklad:
+code-switching-use-both-languages-example = „Bola veľmi happy, keď som jej zavolal.“
+code-switching-authentic-direct-quotes = <bold>Uveďte priame citácie alebo dialógy.</bold> Povedzte presne to, čo niekto povedal, nie upravenú alebo formálnu verziu. Príklad:
+code-switching-authentic-direct-quotes-example = „Mi mamá dijo, ‚Tú crees que esto es un juego?‘ a ja som povedal: ‚Dobre pokoj!‘“
+code-switching-authentic-reflect = <bold>Zohľadnite emócie, identitu a kontext.</bold> K zmene zvyčajne dochádza, keď ľudia vyjadrujú emócie, naliehavosť alebo kultúrne myšlienky. Pri odpovedaní na otázky sa o ne opierajte.
+code-switching-authentic-full-context = <bold>Používajte úplné odpovede s kontextom.</bold> Buďte čo najpodrobnejší a uveďte čo najviac podrobností. Vo svojich odpovediach uveďte príbeh alebo príklad.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nepremýšľajte príliš veľa ani nepreháňajte úpravy
+code-switching-answer-dont-correct-language = <bold>„Neopravujte“ svoj jazyk.</bold> Toto nie je test v škole. „Správny“ tvar tu nehrá rolu, záleží na prirodzenom jazyku.
+code-switching-answer-dont-avoid-switching = <bold>Ak tak bežne robíte, nevyhýbajte sa prepínaniu.</bold> Je v poriadku prepínať uprostred vety, uprostred myšlienky alebo len pre jedno slovo.
+code-switching-answer-dont-formal-writing = <bold>Nehovorte, akoby ste písali formálny obsah.</bold> Vyhýbajte sa formálnym, akademickým odpovediam. Píšte konverzačne.
+code-switching-answer-dont-force-switch = <bold>Nevynucujte prepínanie, ak to nie je prirodzené.</bold> Prepínajte iba vtedy, ak by ste v danej situácii takto prirodzene hovorili.
+code-switching-answer-dont-translate-repeat = <bold>Neprekladajte a neopakujte všetko.</bold> Stačí to povedať raz, tak ako by to bolo v konverzácii. Nemusíte povedať verziu odpovede v každom jazyku.
+# Transcribing
+code-switching-transcribe-subheader = Prepisovanie
+code-switching-transcribe-intro = Pri prepisovaní odpovedí, ktoré zahŕňajú prepínanie jazykov, reprezentujte jazyk hovoriaceho tak, ako bol vyslovený – bez opráv, úprav alebo zjednodušovania. Toto platí pre všetky prepínania medzi jazykmi, neformálnu reč a slová zo zmiešaných jazykov.
+code-switching-transcribe-do-1 = Prehrajte krátke segmenty viackrát, aby ste zachytili jemné zmeny
+code-switching-transcribe-do-2 = Po každej vete urobte pauzu, aby ste skontrolovali, či sa nepoužívajú prepínače alebo zmiešané slová.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Zachyťte reč presne tak, ako ju hovoríte
+code-switching-capture-explanation = Prepíšte oba jazyky tak, ako vyzerajú/znejú. Neopravujte jazyk ani ho nemeňte len na jeden jazyk.
+# Include filler words and markers
+code-switching-filler-header = Zahrňte výplňové slová a značky
+code-switching-filler-explanation = Slová ako „hm“, „ako“, „pues“, „viete“ a „entonces“ majú význam. Príklad: „Takže, hm, povedal som jej niečo ako, ‚pues no sé, možno neskôr‘.“
+# Use standard spelling for each language
+code-switching-spelling-header = Používajte štandardný pravopis pre každý jazyk
+code-switching-spelling-explanation = Snažte sa správne hláskovať slová v každom jazyku, pokiaľ ich hovoriaci jasne nevyslovuje neštandardným spôsobom.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nevylepšujte ani nezjednodušujte jazyk
+code-switching-cleanup-1 = Neprekladajte alebo neparafrázujte – napíšte, čo hovoriaci povedal, nie to, čo „myslel“.
+code-switching-cleanup-2 = „Neopravujte“ gramatiku alebo výslovnosť – zachovajte prirodzený spôsob používania slova hovoriacim.
+code-switching-cleanup-3 = Nepreskakujte prepínače, ktoré sa zdajú byť drobné alebo malé – aj prevzaté slová sú dôležité.
+code-switching-cleanup-4 = Nevkladajte interpunkciu, ktorá by mohla zmeniť význam – zachovajte prirodzený tok textu.
+code-switching-cleanup-5 = Nepredpokladajte, že poznáte jazyk každého slova – označte ho na základe jeho použitia.
+# Tagging
+code-switching-tagging-subheader = Označovanie
+code-switching-tagging-error-intro = Ak prepis obsahuje chybu, nahláste ju pomocou funkcie nahlásenia. Medzi možné chyby patria:
+code-switching-tagging-error-1 = Nesprávna interpunkcia alebo veľké písmená
+code-switching-tagging-error-2 = Preklepy
+code-switching-tagging-error-3 = Slová napísané nesprávnym pravopisom
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Používanie správneho pravopisu pre každý jazyk
+code-switching-orthography-explanation = Napíšte každé slovo podľa pravopisu jazyka, z ktorého pochádza. Napríklad:
+code-switching-orthography-explanation-example-1 = Ak sa slovo „kitchen“ v španielčine vyslovuje ako v angličtine, malo by sa písať ako v angličtine, nie ako „quichen“.
+code-switching-orthography-explanation-example-2 = Ak sa slovo quinceaños vyslovuje ako v angličtine, napíšte ho s ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Použite výslovnosť na určenie jazyka
+code-switching-pronunciation-explanation = Niektoré slová môžu v dvoch jazykoch vyzerať rovnako, ale môžu sa vyslovovať odlišne. Vypočujte si výslovnosť, aby ste ich správne označili. Napríklad: cable, taco, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Angličtina: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Španielčina: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Označovanie v jednom tokene
+code-switching-single-token-explanation = Jeden token oddelený medzerami by mal obsahovať viac ako jeden označený rozsah (span).
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Označenie interpunkcie na základe blízkeho jazyka
+code-switching-punctuation-tagging-explanation = Označte interpunkciu pomocou najbližšieho rozpätia v danom jazyku vľavo. Príklady:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>a jediný raz, keď</purple> Maria <purple>na mňa kričala</purple> <blue>porque</blue> <purple>sa snažila</purple> printear <blue>un</blue> <purple>poriadok.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>ale</purple> <blue>ú los puedes comprar rojo, negro, azul</blue>, <purple>to je jedno.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Dávajte si pozor na podobnosti
+code-switching-lookalikes-explanation = Niektoré slová môžu vyzerať ako v jednom jazyku, ale používajú sa v inom. Značka je založená na význame a použití, nie na vzhľade. Príklady:
+code-switching-lookalikes-explanation-example-1 = „Footing“ kedysi v španielčine znamenalo beh > označte ho ako španielčina
+code-switching-lookalikes-explanation-example-2 = „No problemo“ použité v angličtine > označte ho ako angličtina
+# When Not to Tag Words
+code-switching-not-tag-header = Kedy neoznačovať slová
+code-switching-not-tag-explanation = Niektoré slová by sa nemali <bold>označovať</bold> jazykovým označením, aj keď sa zdajú byť zmiešané alebo adaptované. Tu je návod, ako postupovať s niektorými príkladmi:
+code-switching-not-tag-proper-names = <bold>Vlastné mená.</bold> Mená ľudí, miest a organizácií by sa nemali označovať značkami. Príklady:
+code-switching-not-tag-proper-names-example-1 = Ľudia: Mária, Ján
+code-switching-not-tag-proper-names-example-2 = Miesta: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Značky/organizácie: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Zmiešané alebo morfologicky adaptované slová.</bold> Neoznačujte slová, ktoré miešajú jazyky alebo majú pridané koncovky z iného jazyka. Príklady:
+code-switching-not-tag-mixed-words-example = Ak je koreň anglický, ale prípona je španielska: „parkear“, „printearlo“
+code-switching-not-tag-interjections = <bold>Citoslovcia.</bold> Citoslovcia a výplňové slová by mali zostať <bold>neoznačené.</bold> Príklady:
+code-switching-not-tag-interjections-example-1 = „Eh“
+code-switching-not-tag-interjections-example-2 = „Noo“
+code-switching-not-tag-interjections-example-3 = „Hmm“
+code-switching-not-tag-interjections-example-4 = „Ehm“
 
 ## Reporting Content
 
+reporting-content = Nahlasovanie obsahu
 reporting-content-subheader = Všeobecné usmernenia
+reporting-content-explanation-1 = Musíte nahlásiť obsah, ktorý je urážlivý, škodlivý alebo inak znepokojujúci. Nesmie tiež obsahovať žiadne osobné identifikačné údaje, ako sú telefónne čísla alebo adresy. Bude z vášho rozhrania odstránený, kým ho tím Common Voice nepreverí a ďalej neprešetrí.
+reporting-content-explanation-2 = Ak chcete nahlásiť obsah, použite tlačidlo “Nahlásiť” a vyberte jednu alebo všetky možnosti: Urážlivý obsah, Iný jazyk, Osobne identifikovateľné informácie, Iné. V textovej oblasti uveďte viac podrobností o tom, prečo obsah nahlasujete. Potom odošlite hlásenie kliknutím na tlačidlo Nahlásiť.

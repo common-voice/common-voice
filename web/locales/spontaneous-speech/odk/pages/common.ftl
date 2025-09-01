@@ -41,22 +41,9 @@ not-found-page-header = نهِين لڀَي
 not-found-page-content = تمهِين جڪو صِفحا سوڌا ڇَوا پلي اوهچ نهِين لڀَي ڇَي
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مين ڪامن وائِيسا چِيا <termsLink> شرطا </termsLink> ائُون <privacyLink> پرائِيوسِي نوٽسا سُون راضِي ڇَين </privacyLink>
-# Locales
-bsy = صباح بسايا
-cdo = فوزهُو
-cpx = هينگ هُوئا
-hch = وگزارِيڪا
-kzi = ڪيلابت
-mbf = بيبا ملائي
+# Locales (not yet fully resolved in Pontoon)
 meh = ڏکڻ آنٿوڻي ٽلاگزِيڪو مِگزٽيڪ
 mel = بِچا هاڙِي ميلانو
-mmc = ميچُوڪين مازُوئا
-msi = صباح ملائي
-pez = اوڀرا هاڙِي پينان
-pne = آنٿوڻي هاڙِي پينان
-sdo = سيرِيئَن بِدايُوها
-snv = سائِيبان
-xkl = ڪينياه
 # Locales-Variants
 ms-MY = بَهاسا ملائي
 

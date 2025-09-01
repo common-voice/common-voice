@@ -31,21 +31,8 @@ not-found-page-header = tekisangibwe
 not-found-page-content = byokuswagana tebikusoboka kufunika
 # Privacy and Terms checkbox
 accept-privacy-and-terms = nkwikiriziganya namaloboozi gaamwe
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = omumaserengata gabugwa isana ga Tlaxiaco Mixtec
 mel = Akati wa Melanau
-mmc = Michoacan Mazahua
-msi = Sabah Malay
-pez = Ebuwuluka Isanu bwa Penan
-pne = Gabugwa Isana bwa Penan
-sdo = Serian Bidayuh
-snv = Saban
-xkl = Munakenya
 # Locales-Variants
 ms-MY = Bahasa Malay

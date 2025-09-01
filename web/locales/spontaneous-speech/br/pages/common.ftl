@@ -43,22 +43,9 @@ not-found-page-header = N'eo ket bet kavet
 not-found-page-content = N'eus ket bet gallet kavout ar bajenn emaoc'h o klask
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Mat eo din <termsLink>Termenoù</termsLink> Common voice hag ar <privacyLink>Politikerezh a-fet buhez prevez</privacyLink>
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Malayseg Baba
+# Locales (not yet fully resolved in Pontoon)
 meh = Mikstekeg Tlaxiaco ar mervent
 mel = Melanau kreiz
-mmc = Mazahouaeg Michoacán
-msi = Malayseg Sabah
-pez = Penaneg ar reter
-pne = Penaneg ar c'hornôg
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Malayseg Bahasa
 

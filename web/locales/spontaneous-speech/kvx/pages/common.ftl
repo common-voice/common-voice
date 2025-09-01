@@ -38,22 +38,9 @@ not-found-page-header = نٿي زۯيو
 not-found-page-content = جيو پونيو تمي ڳوتو ريا، اُو نٿِي زۯي هيڪيو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = هُون ڪومنَ وائيس را <termsLink>قائيڌا</termsLink>انَ<privacyLink>پرائيويسي نوٽِس</privacyLink>
-# Locales
-bsy = صڀاح ڀسايا
-cdo = فوزو
-cpx = هينگ هوا
-hch = وِيڪاسرِيڪا
-kzi = ڪيلاڀٽ
-mbf = بابا مالائي
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوڀيمغرڀ ٽيلڪسيڪو مڪسٽيڪ
 mel = وسطي ميلانو
-mmc = مِڪُوئا ڪيئنَ مزهُوئا
-msi = ڀَاڀا مالائي
-pez = اِيسٽرنَ مائِينَ
-pne = اِيسٽرنَ مائِينَ
-sdo = سرڀيائي ڀڌايوه
-snv = سڀان
-xkl = ڪينِي
 # Locales-Variants
 ms-MY = ڀهاسہ مالائي
 

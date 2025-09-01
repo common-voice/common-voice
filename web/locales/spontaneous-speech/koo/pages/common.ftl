@@ -38,21 +38,8 @@ not-found-page-header = Ebithethabanika
 not-found-page-content = Omwatsi owali oko lhupapura olhwawusaonda anginabya isyathabanika
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Wulighe emibuughe Common Voice's <termsLink>Terms</termsLink> kandi<privacyLink>Privacy Notice</privacyLink>
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec
 mel = Central Melanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Eastern Penan
-pne = Western Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

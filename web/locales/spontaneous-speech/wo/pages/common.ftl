@@ -38,22 +38,9 @@ check-transcriptions = Jàngat
 not-found-page-header = Gisu ñu ko
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Maa ngi nangu sàrtu Common Voice yi <termsLink>Anam</termsLink> ak <privacyLink>yëgle yi</privacyLink>
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec
 mel = Melanau bu digg bi
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Eastern Penan
-pne = Western Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Keniya
 # Locales-Variants
 ms-MY = Bahasa Malay
 

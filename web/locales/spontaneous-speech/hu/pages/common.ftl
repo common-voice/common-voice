@@ -44,9 +44,7 @@ not-found-page-header = Nem található
 not-found-page-content = A keresett oldal nem található
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
-cdo = Fucsou
-hch = Vicsol
-kzi = Kelabit
+# Locales (not yet fully resolved in Pontoon)
 meh = Délnyugat-tlaxiacói mizték
 
 ## Language search component

@@ -38,22 +38,9 @@ not-found-page-header = نا زڙيون
 not-found-page-content = زي پنُون تمين ڳوتو را سو اي نا زڙيُون
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مُون ڪامن وائيس ٿي راضي سُون، <termsLink> ٽرم </termsLink> هانَ <privacyLink> پرائيويسي۔</privacyLink>
-# Locales
-bsy = سبا بِسايا
-cdo = فُوزهو
-cpx = هينگ هُوئا
-hch = وڪسرِيڪا
-kzi = ڪيلابِٽ
-mbf = بابا مالي
+# Locales (not yet fully resolved in Pontoon)
 meh = سائوٿ ويسٽرن ٽلاڪسيئاو مِڪسٽيڪ
 mel = سينٽرل ميلانائو
-mmc = مِيچائوڪن مازاهُوئا
-msi = سبا مالي
-pez = ايسٽرن مِنَ
-pne = ويسٽرن مِنَ
-sdo = سيريئن بدايُوه
-snv = سابن
-xkl = ڪينِيا
 # Locales-Variants
 ms-MY = بابا مالي
 

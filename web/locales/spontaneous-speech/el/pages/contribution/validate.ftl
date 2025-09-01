@@ -4,7 +4,7 @@ validate-page-instruction = Επικύρωση <validateIcon></validateIcon>: τ
 dataset-label = Σύνολο δεδομένων
 accept-vote-toast-message = Επιτυχής αποδοχή ερώτησης
 reject-vote-toast-message = Επιτυχής απόρριψη ερώτησης
-add-vote-error-message = Προέκυψε σφάλμα κατά την ψηφοφορία της προτροπής
+add-vote-error-message = Προέκυψε σφάλμα κατά την ψηφοφορία του μηνύματος προτροπής
 # Message which appears when there are no more resources on this page
 no-questions-continue-skipped-message = Δεν υπάρχουν άλλες ερωτήσεις για αυτήν τη γλώσσα. Αν έχετε παραλείψει κάποια, μπορείτε να συνεχίσετε με το περιεχόμενο που παραλείψατε ή να μεταβείτε στη μεταγραφή ήχου και να δοκιμάσετε ξανά αργότερα.
 validate-page-yes-button-shortcut = Ν

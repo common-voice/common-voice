@@ -44,25 +44,12 @@ not-found-page-header = Hittades inte
 not-found-page-content = Sidan du letade efter kunde inte hittas.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Jag godkänner Common Voices <termsLink>villkor</termsLink> och <privacyLink>sekretessmeddelande</privacyLink>
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba malajiska
+# Locales (not yet fully resolved in Pontoon)
 meh = Sydvästra Tlaxiaco Mixtec
 mel = Centrala Melanau
-mmc = Michoacán Mazahua
-msi = Sabah malajiska
-pez = Östra Penan
-pne = Västra Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Malajiska Bahasa
-el-CY = cypriotiska grekiska
+el-CY = Cypriotisk grekiska
 
 ## Language search component
 

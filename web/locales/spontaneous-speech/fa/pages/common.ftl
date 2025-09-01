@@ -26,4 +26,3 @@ not-found-page-header = پیدا نشد
 not-found-page-content = صفحه‌ای که به دنبال آن هستید، یافت نشد.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = من با <termsLink>شرایط</termsLink> و <privacyLink>حط مشی رازداری</privacyLink> آوای مشترک موافقم.
-xkl = کنیا

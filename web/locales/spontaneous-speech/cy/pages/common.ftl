@@ -44,22 +44,9 @@ not-found-page-header = Heb Ganfod
 not-found-page-content = Heb ganfod y dudalen rydych yn chwilio amdani.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Rwy'n cytuno i <termsLink>Delerau</termsLink> a <PrivacyLink>Hysbysiad Preifatrwydd</privacyLink> Common Voice
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Tlaxiaco Mixtec y De Orllewin
 mel = Melanau Canolog
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Penan Dwyreiniol
-pne = Penan Gorllewinol
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Groeg Chypriad

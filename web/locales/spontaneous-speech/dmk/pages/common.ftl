@@ -31,21 +31,8 @@ not-found-page-header = نݵ لݵݸم
 not-found-page-content = وَرَق کونݸشُݸ تُݸ دݵکھݺ چھݳئتݳ نݵ لݵئ شکَم چھݸم
 # Privacy and Terms checkbox
 accept-privacy-and-terms = اُݸ کݳمَن وݳئسݵئ<termsLink> شَرطݸݣ</termsLink> نݸ <privacyLink>پرݳئݸݵسݵ نݸٹِسَس</privacyLink> رݳضݵ چھݵس
-# Locales
-bsy = صبݳح بِسݳݵݳ
-cdo = فُݸزہݳݸ
-cpx = ہݵݣ ہُݸݳ
-hch = وݵکسݳرݵکݳ
-kzi = کݵلݳبِت
-mbf = بݳبݳ مݳلݺ
+# Locales (not yet fully resolved in Pontoon)
 meh = سݳݸتھوݵسٹرن تلݳزݵݳکݸ مکسٹݵک
 mel = سݵنٹرل مݵلݳنݳݸ
-mmc = مݵچھݳݸکَن مݳزݳہُݸݳ
-msi = صبݳح مݳلݺ
-pez = اݵسٹرن پݵنَن
-pne = وݵسٹرن پݵنَن
-sdo = سݵرِݵَن بِدݳݵُݸح
-snv = سآبݳن
-xkl = کݵنݵݳح
 # Locales-Variants
 ms-MY = بَھَݳسݳ مݳلݺ
