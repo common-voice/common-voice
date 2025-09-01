@@ -32,8 +32,10 @@ continue-with-skipped = Passa ai contenuti saltati
 question = Domanda
 validate = Convalida
 respond-to-prompt = Rispondi alla domanda
+respond-to-prompt-mobile = Rispondi
 transcribe = Trascrivi
 check-transcriptions = Verifica trascrizioni
+check-transcriptions-mobile = Convalida
 tag = Etichetta
 
 ## Not Found Page
