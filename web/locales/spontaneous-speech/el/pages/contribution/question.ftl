@@ -26,3 +26,9 @@ do-not-section-title = Τι να μην κάνετε:
 do-not-section-guideline-1 = Απαίτηση δεδομένων προσωπικού χαρακτήρα (όπως ονόματα ή οικονομικά στοιχεία)
 do-not-section-guideline-2 = Έκφραση ή πρόκληση προκαταλήψεων ή προσβλητικών γνωμών
 do-not-section-guideline-3 = Ευαίσθητες ερωτήσεις
+# Code switching Guidelines
+cs-do-section-guideline-1 = Χρησιμοποιήστε δίγλωσσες ερωτήσεις ή περιεχόμενο
+cs-do-section-guideline-2 = Εξερευνήστε άτυπα σενάρια, καταστάσεις ή αναπαραστάσεις
+cs-do-not-section-guideline-1 = Απαίτηση δεδομένων προσωπικού χαρακτήρα (όπως ονόματα ή οικονομικά στοιχεία) ή πρόκληση προσβλητικών συναισθημάτων
+cs-do-not-section-guideline-2 = Ζητήστε εναλλαγή κωδίκων ή μετάφραση
+cs-do-not-section-guideline-3 = Χρήση υπερβολικά επίσημης γλώσσας

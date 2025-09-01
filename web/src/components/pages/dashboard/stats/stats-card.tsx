@@ -1,14 +1,14 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { useState, useEffect } from 'react';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { useState, useEffect } from 'react'
 import LanguageSelect, {
   ALL_LOCALES,
-} from '../../../language-select/language-select';
-import { useLocalStorageState } from '../../../../hooks/store-hooks';
+} from '../../../language-select/language-select'
+import { useLocalStorageState } from '../../../../hooks/store-hooks'
 
-import './stats-card.css';
+import './stats-card.css'
 
-const DEFAULT_LOCALE_OPTION = ALL_LOCALES;
+const DEFAULT_LOCALE_OPTION = ALL_LOCALES
 
 export default function StatsCard({
   id,
@@ -21,29 +21,29 @@ export default function StatsCard({
   scrollable,
   currentLocale,
 }: {
-  id?: string;
-  className?: string;
-  title: string;
-  iconButtons?: React.ReactNode;
-  overlay?: React.ReactNode;
-  tabs?: { [label: string]: (props: { locale?: string }) => any }; // eslint-disable-line @typescript-eslint/no-explicit-any
-  challenge?: boolean;
-  scrollable?: boolean;
-  currentLocale?: string;
+  id?: string
+  className?: string
+  title: string
+  iconButtons?: React.ReactNode
+  overlay?: React.ReactNode
+  tabs?: { [label: string]: (props: { locale?: string }) => any } // eslint-disable-line @typescript-eslint/no-explicit-any
+  challenge?: boolean
+  scrollable?: boolean
+  currentLocale?: string
 }) {
   const [locale, setLocale] = useLocalStorageState(
     DEFAULT_LOCALE_OPTION,
     `${id}${currentLocale}`
-  );
-  const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0]);
-  const isDefaultOptionSelected = locale === DEFAULT_LOCALE_OPTION;
+  )
+  const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0])
+  const isDefaultOptionSelected = locale === DEFAULT_LOCALE_OPTION
 
   // handle when changing language tab towards top of page
   useEffect(() => {
     if (currentLocale) {
-      setLocale(currentLocale);
+      setLocale(currentLocale)
     }
-  }, [currentLocale]);
+  }, [currentLocale])
 
   return (
     <div
@@ -83,7 +83,7 @@ export default function StatsCard({
                     onClick={() => setSelectedTab(label)}
                   />
                 </Localized>
-              );
+              )
             })}
           </div>
           {challenge ? (
@@ -93,11 +93,14 @@ export default function StatsCard({
           )}
         </div>
         <div className="content">
-          {tabs[selectedTab]({
-            locale: isDefaultOptionSelected ? null : locale,
-          })}
+          {(() => {
+            const TabComponent = tabs[selectedTab]
+            return (
+              <TabComponent locale={isDefaultOptionSelected ? null : locale} />
+            )
+          })()}{' '}
         </div>
       </div>
     </div>
-  );
+  )
 }

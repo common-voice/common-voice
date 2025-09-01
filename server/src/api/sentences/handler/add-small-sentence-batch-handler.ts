@@ -16,10 +16,14 @@ import { AddMultipleSentencesCommand } from '../../../application/sentences/use-
 import { ValidationErrorKind } from '../../../application/types/error'
 
 export default async (req: Request, res: Response) => {
+  const userId = req?.session?.user?.client_id
+  if (!userId)
+    return res.status(StatusCodes.UNAUTHORIZED).json({ message: 'no user client id' })
+
   const { sentences, localeName, source, domains, variant } = req.body
 
   const command: AddMultipleSentencesCommand = {
-    clientId: req.session.user.client_id,
+    clientId: userId,
     rawSentenceInput: sentences,
     localeName: localeName,
     source: source,

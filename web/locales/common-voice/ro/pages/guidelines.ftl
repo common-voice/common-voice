@@ -24,6 +24,9 @@ example = Exemplu
 
 varying-pronunciations-explanation-1 = Avem nevoie de cât mai multe accente posibil! Ai grijă înainte de a respinge o secvență audio pe motiv că cititorul a pronunțat greșit un cuvânt, a pus accentul pe silaba greșită sau a ignorat un semn de punctuație. Chiar dacă nu ai mai auzit o astfel de pronunție sau un astfel de accent în comunitatea ta, nu înseamnă neapărat că sunt automat și incorecte. Gândește-te că unii pot vorbi un pic diferit față de tine.
 varying-pronunciations-explanation-2 = Pe de altă parte, când consideri că persoana care citește nu a mai întâlnit cuvântul respectiv și doar ghicește (incorect, în cazul de față) cum ar trebui pronunțat, te rugăm să respingi acea înregistrare. Dacă nu ești sigur, folosește butonul „Sari peste”.
+varying-pronunciations-example = Pe mine m-au întrebat de trei ori ce cred.
+varying-pronunciations-tip-1 = [Majoritatea vorbitorilor de română citesc „pe” și „de” cum se scriu.]
+varying-pronunciations-tip-2 = [Alți vorbitori de română înlocuiesc „e" cu „ă" în pronunția unor cuvinte, astfel încât „pe" devine „pă” și „de" devine „dă” în exemplul nostru.]
 offensive-content-explanation = Propozițiile sunt aprobate de comunitate, dar procesul aferent nu este perfect. Dacă vezi sau auzi o propoziție care te deranjează – de exemplu, pentru că nu respectă <participationGuidelines>Ghidul nostru de participare în comunitate</participationGuidelines> – te rugăm să folosești butonul de Semnalare din interfață. Ne poți scrie și la <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Citirea corectă a tuturor cuvintelor de pe pagină este foarte importantă. Când asculți, verifică foarte atent dacă înregistrarea reprezintă exact textul scris. Dacă înregistrarea include cuvinte adăugate, contractate sau omise, respinge-o!
 misreadings-explanation-2 = Printre greșelile foarte frecvente se numără și:
@@ -179,11 +182,11 @@ transcribe-the-audio-subheader-2-example-4-wrong = <correct>Greșit</correct>: A
 transcribe-the-audio-subheader-3-explanation = Următoarele etichete speciale trebuie utilizate pentru a indica carențele de fluență în exprimare, elementele fără valoare, de umplutură, și alte tipuri de conținut non-verbal. Etichetele trebuie păstrate în limba engleză.
 tags-table-header-1 = Etichetă
 tags-table-header-2 = Înțeles
-tags-laugh = Râset
+tags-laugh = Laugh
 tags-disfluency = Disfluency
 tags-unclear = Unclear
 tags-noise = Noise
-tags-laugh-explanation = „râs” - marchează sunetul unor persoane care râd.
+tags-laugh-explanation = „râset” - marchează sunetul unor persoane care râd.
 tags-disfluency-explanation =
     „lipsă de fluență” - marchează cuvintele sau sunetele de umplutură folosite de vorbitori în timp ce se hotărăsc ce vor să spună de fapt.
     Exemplele includ: „ăăă”, „hmm”, „deci...”, „păi...”, etc.
@@ -227,6 +230,14 @@ code-switching-use-bilingual-prompts-header = Propune întrebări cu text biling
 code-switching-use-bilingual-prompts-explanation = Propune întrebări care includ text în ambele limbi. De exemplu:
 code-switching-use-bilingual-prompts-explanation-example = „Ce ți-a spus mama ta when you got home that day?"
 code-switching-ask-bilingual-contexts-header = Pune întrebări referitoare la contextele bilingve
+code-switching-ask-bilingual-contexts-explanation = Folosește situații în care ambele limbi sunt des folosite (de exemplu, acasă, la școală, la evenimente ale comunității). De exemplu:
+code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu rudele tale, amesteci vreodată româna cu engleza?”
+code-switching-focus-emotional-header = Concentrează-te pe momente emoționale sau importante.
+code-switching-focus-emotional-explanation = Atunci când relatează episoade emoționante sau în care întâmplările s-au succedat în ritm alert, mulți vorbitori bilingvi vor începe să combine limbile pe care le vorbesc.
+code-switching-focus-emotional-explanation-example = „Spune-mi ce ți-au spus părinții când le-ai dat o veste foarte importantă pentru tine — cuvânt cu cuvânt, chiar, dacă-ți mai amintești.”
+code-switching-direct-quotes-header = Solicită citate sau reconstituiri
+code-switching-direct-quotes-explanation = Încurajează participanții să redea exact ce s-a spus în acea situație. De exemplu:
+code-switching-direct-quotes-explanation-example = „Ce ai spus exact, atunci când ai aflat?”
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-tagging-error-2 = Greșeli de ortografie

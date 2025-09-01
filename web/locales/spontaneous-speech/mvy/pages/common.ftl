@@ -38,21 +38,8 @@ not-found-page-header = نی ڇاؤ
 not-found-page-content = تُو چے کؤں پَن٘ڑوۡ نھالیۡ تُھو، سو نی ڇؤژِل۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مہ کامَن‌ وائساں <termsLink>شرطہ</termsLink> قَبلام تُھو آں <privacyLink> رازَاں نوٹس ہُم</privacyLink>
-# Locales
-bsy = صباح بسایا
-cdo = فوزو
-cpx = ہین٘گ ہوا
-hch = وِزارِکا
-kzi = کیلابِٹ
-mbf = بابا ملائ
+# Locales (not yet fully resolved in Pontoon)
 meh = ساوتھ ویسٹرن لاسیاکو مکس ٹیک
 mel = مَژھولَیں مِلانؤ
-mmc = مچاوکن مزاہاو
-msi = سباح مَلائ
-pez = نورخاتہ پینان
-pne = سُریۡ بُڑیۡ پینان
-sdo = سیریَیں بِدایُوہ
-snv = سَعبان
-xkl = کینیا
 # Locales-Variants
 ms-MY = بَہاسا مَلائ

@@ -99,13 +99,13 @@ function redisCache<T, S>(
   }
 }
 
-// TODO: The lock duration of 3 minutes is conservative
-// After measuring per query performance and adding lock durations to calling functions, drop it to 30 sec
+// TODO: The lock duration of 5 minutes is conservative
+// After measuring per query performance & optimizing and adding lock durations to calling functions, drop it
 export default function lazyCache<T, S>(
   cacheKey: string,
   f: Fn<T, S>,
   timeMs: number,
-  lockDurationMs = 3 * TimeUnits.MINUTE // TODO: drop this to 30 sec after finetuning
+  lockDurationMs = 5 * TimeUnits.MINUTE // TODO: Make sure each query calls with parameter, then drop this after finetuning
 ): Fn<T, S> {
   const memCache = memoryCache(f, timeMs)
   return async (...args: S[]) =>

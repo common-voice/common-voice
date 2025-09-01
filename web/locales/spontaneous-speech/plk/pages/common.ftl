@@ -44,22 +44,9 @@ not-found-page-header = نہ ہشِلُن
 not-found-page-content = څھوْس کھاں صفحہ ڇکینَت، اسہ نہ ہشِلُن۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = موْس کامن وائس سے اتفاق تھمَس <termsLink> شرائط </termsLink>  آں<privacyLink> رازداری نوٹس </privacyLink>
-# Locales
-bsy = صباح بسایا
-cdo = فوزہو
-cpx = ہینگ ہوا
-hch = وکساریکا
-kzi = کلابِت
-mbf = بابا مالے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی تلسیکو میکٹیک
 mel = وسطی میلانو
-mmc = مِچواچَن مزَہُوا
-msi = صباح مالے
-pez = مشرقی پینان
-pne = مغربی پینان
-sdo = سیرین بدایوہ
-snv = سابن
-xkl = کینیا
 # Locales-Variants
 ms-MY = بہاسا مالائی
 el-CY = قبرصی یونانی۔

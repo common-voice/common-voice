@@ -38,22 +38,9 @@ not-found-page-header = Nzá à chùw ndèy nì pedj
 not-found-page-content = Nzá à chùw ndèy
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ma ùw ney ndèy nì nì li-chuw <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec
 mel = Central Melanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Eastern Penan
-pne = Western Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay
 

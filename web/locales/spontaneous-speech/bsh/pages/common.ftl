@@ -38,21 +38,8 @@ not-found-page-header = ملا نہ با
 not-found-page-content = تیو کائ صفحہ ایشکوچی بہ استہ ملا نہ بو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = اوݩزی عام کوٹ مع اتفاق کوتوم<termsLink>شرئط</termsLink>دے<privacyLink>ٹکاں نوٹس</privacyLink>
-# Locales
-bsy = صباح بسایا
-cdo = فوزو
-cpx = ہینگ ہوا
-hch = وِکسیریکا
-kzi = کیلابٹ
-mbf = بابا ملای
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی ٹلکیاکو مکسٹیک
 mel = سنٹرل میلانو
-mmc = مچوآکان مازاہوا
-msi = سباہ مالئ
-pez = مشرقی پینان
-pne = مغربی پینان
-sdo = سیریان بیڈایو
-snv = سابان
-xkl = کینیا
 # Locales-Variants
 ms-MY = بہاسا مالے

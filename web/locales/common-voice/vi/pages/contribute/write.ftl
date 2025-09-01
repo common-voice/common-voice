@@ -121,10 +121,12 @@ add-sentences = Thêm câu
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Thêm và xem lại câu, thêm câu hỏi, phiên âm âm thanh
 add-sentences-menu-item-tooltip = Thêm các câu bằng ngôn ngữ của bạn
 review-sentences-menu-item-tooltip = Xem lại các câu trong ngôn ngữ của bạn
 add-questions-menu-item-tooltip = Thêm các câu hỏi bằng ngôn ngữ của bạn
 review-questions-menu-item-tooltip = Duyệt câu hỏi
+transcribe-audio-menu-item-tooltip = Phiên âm các bản ghi âm
 
 ## MENU ITEM ARIA LABELS
 
@@ -133,3 +135,4 @@ add-sentences-menu-item-aria-label = Thêm các câu mới để cộng đồng 
 review-sentences-menu-item-aria-label = Xem lại các câu hiện có đã được cộng đồng đăng lên
 add-questions-menu-item-aria-label = Đăng các câu hỏi mới để cộng đồng cùng đọc và trả lời
 review-questions-menu-item-aria-label = Xem xét và bình chọn cho các câu hỏi mới do cộng đồng gửi đến
+transcribe-audio-menu-item-aria-label = Chuyển các bản ghi âm thành văn bản

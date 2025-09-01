@@ -6,6 +6,7 @@ sentence-collection = Raccolta di frasi
 question-collection = Raccolta di domande
 scripted-speech = Discorso letto
 spontaneous-speech = Discorso spontaneo
+dont-subheader = Che cosa non fare:
 
 ## Voice Collection nav ids
 
@@ -129,7 +130,7 @@ dont-add-subheader = Non aggiungere
 culturally-specific-questions = Domande culturalmente specifiche
 culturally-specific-questions-explanation = Domande molto specifiche dal punto di vista culturale o che fanno molte supposizioni sulla persona che dovrebbe rispondere
 length-avoid-explanation = Domande a cui sarebbe difficile rispondere in 15 secondi (la durata massima della registrazione)
-process-steps = Procedimento / Passaggi
+process-steps = Procedimenti o passaggi
 process-steps-explanation = Domande che richiedono l’elenco di più passaggi. L’elenco dei passaggi porta l’utente a recitare una risposta invece di formulare una risposta più naturale.
 offensive-content-sensitive-information = Contenuti offensivi o informazioni sensibili
 offensive-content-sensitive-information-explanation-explanation-1 = Domande che potrebbero indurre alla divulgazione di informazioni di identificazione personale
@@ -142,7 +143,7 @@ example-questions-explanation-2 = Se desideri inviare una serie di domande per l
 ## Spontaneous Speech sidebar content
 
 # Answer Questions
-answer-questions = Rispondi alle domande
+answer-questions = Rispondere alle domande
 answer-questions-subheader = Guida generale
 answer-questions-explanation-1 = Pensa per un momento alla domanda, considera che cosa vorresti dire, ma non prepararti troppo. Fai clic sull’icona “registra”. Una volta completata la registrazione, è possibile ascoltarla, registrarla nuovamente, eliminarla o inviarla.
 answer-questions-explanation-2 = Ricorda: non preoccuparti se balbetti, fai una pausa o ripeti una parola. Questi sono tutti dati utili per gli sviluppatori che cercano di creare strumenti di riconoscimento vocale inclusivi basati sul linguaggio della vita reale.
@@ -163,7 +164,7 @@ transcribe-the-audio-subheader-1-explanation = In generale, dovresti annotare tu
 transcribe-the-audio-subheader-1-explanation-example-1 = Annotare le disfluenze, comprese le esitazioni e le ripetizioni
 transcribe-the-audio-subheader-1-explanation-example-2 = Etichettare eventi acustici come colpi di tosse o risate
 transcribe-the-audio-subheader-1-explanation-example-3 = Etichettare inquinamenti acustici significativi, come chiacchiere in sottofondo o clacson
-transcribe-the-audio-subheader-1-explanation-example-4 = Le variazioni grammaticali e gergali devono essere annotate esattamente così come sono. Non correggere o modificare il parlato delle persone.
+transcribe-the-audio-subheader-1-explanation-example-4 = Annotare le variazioni grammaticali e gergali esattamente così come sono: non correggere o modificare il parlato delle persone.
 transcribe-the-audio-subheader-2-explanation-1 = I numeri e i simboli devono essere scritti utilizzando le lettere anziché cifre o caratteri speciali. Esempio:
 transcribe-the-audio-subheader-2-explanation-2 = Gli acronimi devono essere scritti nello stesso modo in cui vengono normalmente scritti nella lingua in questione, seguendo le regole standard per l’utilizzo delle maiuscole. Non devono essere trascritti foneticamente. Esempio:
 # text wrapped in correct will be shown as green text in the UI
@@ -199,17 +200,17 @@ special-tags-example-2 =
     Be', [noise] [laugh] non era esattamente una vacanza [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Il discorso spontaneo contiene naturalmente false partenze in cui viene prodotta solo una parte di una parola intera. In questi casi, trascrivi al meglio la parte della parola pronunciata e aggiungi un trattino alla fine della parola (-) per indicare che è una falsa partenza. Esempio:
 transcribe-the-audio-subheader-4-explanation-1-example = Si chiama <underline>Gio- Giova-</underline> Giovanni.
-transcribe-the-audio-subheader-4-explanation-2 = A volte le persone potrebbero ripetere più volte una parola o una parte di una parola. Anche questo deve essere trascritto. Esempio:
+transcribe-the-audio-subheader-4-explanation-2 = A volte le persone potrebbero ripetere più volte una parola o un segmento di una parola. Anche questo dev’essere trascritto. Esempio:
 transcribe-the-audio-subheader-4-explanation-2-example = E poi sono andato in <underline>in in in ca- in</underline> camera da letto
 transcribe-the-audio-subheader-5-explanation-1 = Il discorso spontaneo può contenere naturalmente errori grammaticali. Questi non devono essere corretti nella trascrizione, che deve riflettere esattamente il contenuto del parlato.
 transcribe-the-audio-subheader-5-explanation-2 = Le persone talvolta utilizzano espressioni colloquiali (ad esempio, “ho fatto una cavolata, “il mi’ babbo”, ecc.) che potrebbero non essere considerate formalmente corrette. Queste espressioni devono essere trascritte così come sono e non sostituite con le loro equivalenti più formali.
 
 ## Review the Transcription
 
-review-the-transcription = Convalida la trascrizione
+review-the-transcription = Convalidare la trascrizione
 review-the-transcription-subheader = Guida generale
 review-the-transcription-explanation-1 = In generale, è consigliabile che la persona che controlla la trascrizione non sia la stessa persona che ha eseguito la trascrizione originale. È molto difficile controllare il proprio lavoro! Avere più linee di revisione aiuta a rendere più affidabile il controllo della qualità e a mitigare bias e problemi.
-review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. È possibile apportare modifiche e inviarle.
+review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. Se trovi che sia incorretta, puoi apportare modifiche e inviarle.
 review-the-transcription-explanation-3 = Anche in questo caso puoi segnalare contenuti offensivi, malevoli o comunque problematici; quei contenuti verranno rimossi dalla tua esperienza fino a quando il team di Common Voice non potrà esaminarli e indagare ulteriormente.
 
 ## Code-Switching
@@ -276,3 +277,14 @@ code-switching-authentic-direct-quotes = <bold>Includi citazioni dirette o dialo
 code-switching-authentic-direct-quotes-example = “My mum said, ‘Do you think this is a game?’ e io le ho risposto ‘OK, rilassati!‘”
 code-switching-authentic-reflect = <bold>Rendi emozioni, identità e contesto.</bold> Il cambio di lingua avviene di solito quando le persone esprimono emozioni, urgenza o idee culturali. Sfrutta questi aspetti quando rispondi alle domande.
 code-switching-authentic-full-context = <bold>Utilizza risposte complete e contestualizzate.</bold> Cerca di essere il più dettagliato possibile nelle tue risposte, condividendo anche storie o esempi.
+code-switching-answer-dont-correct-language = <bold>Non “correggere” la tua lingua.</bold> Questo non è un test. La forma “corretta” non è importante qui, ciò che conta è il linguaggio naturale.
+# Transcribing
+code-switching-transcribe-subheader = Trascrizioni
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Riporta il discorso fedelmente così com’è stato detto
+# Use standard spelling for each language
+code-switching-spelling-header = Utilizza l’ortografia standard per ciascuna lingua
+
+## Reporting Content
+
+reporting-content-subheader = Guida generale

@@ -38,21 +38,8 @@ not-found-page-header = نہ لاد
 not-found-page-content = توکاںپیج داوؤن اس نہ بیلڑ بال
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مہ کامن وایس شرطو نی تے پرایویسی قبولون
-# Locales
-bsy = سباح بسایہ
-cdo = فوزہو
-cpx = ہنگ ہوا
-hch = وکساریکا
-kzi = کیلابٹ
-mbf = بابامالے
+# Locales (not yet fully resolved in Pontoon)
 meh = سدرن ٹکسیاسکومکس ٹک
 mel = سنٹرل ملاناو
-mmc = میکیکون مزاہوا
-msi = سباح مالے
-pez = ایسٹرن پنان
-pne = ویسٹرن پینان
-sdo = سیرین بدایوہ
-snv = سبان
-xkl = کینیا
 # Locales-Variants
 ms-MY = بہاسا مالے

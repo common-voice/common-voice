@@ -144,6 +144,20 @@ example-questions-explanation-2 = Ha egy kérdéscsoportot küldene be feldolgoz
 answer-questions = Kérdések megválaszolása
 answer-questions-subheader = Általános útmutatás
 answer-questions-explanation-1 = Gondoljon egy pillanatra a kérdésen, fontolja meg, hogy mit szeretne mondani, de ne gondolja át túlságosan. Kattintson a „rögzítés” ikonra. A rögzítés után meghallgathatja saját magát, felveheti újra, törölheti vagy beküldheti.
+answer-questions-explanation-2 = Ne feledje – ne aggódjon, ha dadog, szünetet tart vagy megismétel egy szót. Ezek mind hasznos adatok a mérnökök számára, akik átfogó, valós beszédfelismerő eszközöket készítenek.
+answer-questions-tip-1 = Rögzítsen egy viszonylag csendes helyen
+answer-questions-tip-2 = Válasszon olyan helyet, ahol jó az internetkapcsolat
+answer-questions-tip-3b = Próbáljon meg 15-30 másodperc alatt válaszolni
+answer-questions-tip-4 = Kerülje a gyűlölködő, uszító vagy más módon sértő beszédet
+answer-questions-tip-5 = Beszéljen természetesen, mintha egy barátjával tenné – használja a saját valódi nyelvváltozatát, dialektusát és akcentusát
+answer-questions-tip-6 = A hangereje legyen állandó – ne kiabáljon vagy énekeljen
+# Transcribe the Audio
+transcribe-the-audio = Hang leiratozása
+transcribe-the-audio-subheader-1 = Általános útmutatás
+transcribe-the-audio-subheader-2 = Számok és rövidítések
+transcribe-the-audio-subheader-3 = Speciális címkék
+transcribe-the-audio-subheader-4 = Szórészletek, hamis kezdések, ismétlődő szavak
+transcribe-the-audio-subheader-5 = Nyelvtani hibák és kollokvializmusok
 transcribe-the-audio-subheader-1-explanation = Általában le kell írnia mindent, amit hall. Ez ezt takarja:
 
 ## Code-Switching

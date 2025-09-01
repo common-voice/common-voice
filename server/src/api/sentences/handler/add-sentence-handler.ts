@@ -20,6 +20,10 @@ import { findVariantByTagInDb } from '../../../application/repository/variant-re
 import { findLocaleByNameInDb } from '../../../application/repository/locale-repository'
 
 export default async (req: Request, res: Response) => {
+  const userId = req?.session?.user?.client_id
+  if (!userId)
+    return res.status(StatusCodes.BAD_REQUEST).json({ message: 'no user client id' })
+
   const { sentence, localeName, source, domains, variant } = req.body
 
   const command: AddSentenceCommand = {

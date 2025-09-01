@@ -31,21 +31,8 @@ not-found-page-header = Ba onwongere
 not-found-page-content = Pot karatac na in ïyënyö ba onwongere
 # Privacy and Terms checkbox
 accept-privacy-and-terms = An aye dwön n'ënaa ïë, cïk ëka müng, ngëc
-# Locales
-bsy = Lëb Sabah Bisaya
-cdo = Lëb Fuzhou
-cpx = Lëb Heng Hua
-hch = Lëb Wixarika
-kzi = Lëb Kelabit
-mbf = Lëb Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Lëb Southwestern Tlaxiaco Mixtec
 mel = Lëb Central Melanau
-mmc = Lëb Michoacan Mazahua
-msi = Lëb Sabah Malay
-pez = Lëb Eastern Penan
-pne = Lëb Western Penan
-sdo = Lëb Serian Bidayuh
-snv = Lëb Sa'ban
-xkl = Lëb Kenyah
 # Locales-Variants
 ms-MY = Lëb Bahasa Malay

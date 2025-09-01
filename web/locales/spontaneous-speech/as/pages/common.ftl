@@ -38,22 +38,9 @@ not-found-page-header = পোৱা নগ’ল
 not-found-page-content = আপুনি বিচাৰি থকা পৃষ্ঠাখন পাব পৰা নগ’ল
 # Privacy and Terms checkbox
 accept-privacy-and-terms = মই কমন ভইচৰ <termsLink>চৰ্তাৱলী</termsLink> আৰু <privacyLink>গোপনীয়তাৰ জাননী</privacyLink>ত সন্মতি জনাইছোঁ
-# Locales
-bsy = ছাবাহ বিছায়া
-cdo = ফুঝৌ
-cpx = হেং হুৱা
-hch = ওৱাৰাৰিকা
-kzi = কেলাবিট
-mbf = বাবা মালয়
+# Locales (not yet fully resolved in Pontoon)
 meh = দক্ষিণ-পশ্চিমীয়া ট্‌লাক্সিয়াক' মিক্সটেক
 mel = কেন্দ্ৰীয় মেলানাউ
-mmc = মিচোৱাকান মাজাহুৱা
-msi = ছাবাঃ মালয়
-pez = পূৰ্বী পেনান
-pne = পশ্চিমীয়া পেনান
-sdo = ছেৰিয়ান বিডায়ুঃ
-snv = ছাবান
-xkl = কেন্যাঃ
 # Locales-Variants
 ms-MY = বাহাছা মালয়
 

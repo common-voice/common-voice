@@ -152,6 +152,8 @@ transcribe-the-audio-subheader-2 = Papapy ha akrónimo
 transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
 transcribe-the-audio-subheader-4 = Ñe’ẽ vore, eñepyrũ japúpe, ñe’ẽ oje’e jeyjeýva
 transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
+transcribe-the-audio-subheader-1-explanation = Tuichaháicha, ehaivaʼerã opaite ehendúva guive. Péva ogueroike:
+transcribe-the-audio-subheader-1-explanation-example-2 = Embohéra umi tyapu oikóva ikatúva hu’u térã jepuka
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
 # text wrapped in wrong will be shown as red text in the UI
@@ -190,6 +192,7 @@ code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’�
 # What types of questions to add
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
+code-switching-use-bilingual-prompts-explanation-example = “¿Mbaʼe heʼi nde sy eg̃uahẽvo nde rógape upe árape?”
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
 code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
@@ -224,6 +227,7 @@ code-switching-authentic-header = Embohovái porã ha ha’etéva
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
+code-switching-transcribe-do-1 = Embopu mbykymimi heta jey ejapyhykuaa hag̃ua moambuepy
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
 # Include filler words and markers
@@ -241,6 +245,11 @@ code-switching-pronunciation-explanation-example-1 = Inglés: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = España ñe’ẽ: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Peteĩ token-pe oñembohérava
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva ñe’ẽ aguĩvare
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Eñangareko umi ojoguávare
+code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojeporúva inglés ñe’ẽme > embohéra inglés ramo
 # When Not to Tag Words
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
 code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan

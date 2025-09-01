@@ -145,13 +145,13 @@ example-questions-explanation-2 = Om du vill skicka in en del frågor för inmat
 # Answer Questions
 answer-questions = Svara på frågor
 answer-questions-subheader = Allmän vägledning
-answer-questions-explanation-1 = Tänk ett ögonblick på uppmaningen, överväg vad du vill säga, men skriv inte för mycket. Klicka på ikonen ‘inspelning’. När du har spelat in kan du lyssna på dig själv, spela in igen, radera eller skicka in.
-answer-questions-explanation-2 = Kom ihåg - oroa dig inte om du stammar, pausar eller upprepar ett ord. Det här är användbar data för ingenjörer som försöker bygga inklusive, verkliga taligenkänningsverktyg.
+answer-questions-explanation-1 = Tänk en stund på uppmaningen, fundera över vad du vill säga, men skriv inte för mycket i ett manus. Klicka på ikonen "spela in". När du har spelat in kan du lyssna på dig själv, spela in igen, radera eller skicka in.
+answer-questions-explanation-2 = Kom ihåg – oroa dig inte om du stammar, pausar eller upprepar ett ord. Allt detta är användbar data för ingenjörer som försöker bygga inkluderande, verklighetstrogna verktyg för taligenkänning.
 answer-questions-tip-1 = Spela in på en någorlunda tyst plats
 answer-questions-tip-2 = Välj någonstans med en bra internetanslutning
 answer-questions-tip-3b = Försök att hålla ditt svar inom 15-30 sekunder
 answer-questions-tip-4 = Undvik hatiskt, upphetsande eller på annat sätt kränkande tal
-answer-questions-tip-5 = Tala naturligt, som du skulle med en vän - använd din egen riktiga variant, dialekt och accent
+answer-questions-tip-5 = Tala naturligt, som du skulle göra med en vän – använd din egen riktiga variant, dialekt och accent
 answer-questions-tip-6 = Håll din volym konsekvent - skrik eller sjung inte
 # Transcribe the Audio
 transcribe-the-audio = Transkribera ljudet
@@ -187,37 +187,41 @@ tags-disfluency = Oväsen
 tags-unclear = Otydlig
 tags-noise = Buller
 tags-laugh-explanation = Ljudet av skratt.
-tags-disfluency-explanation = Ett utfyllnadsord eller ljud som används som en platshållare medan en talare bestämmer vad den ska säga. På engelska är några vanliga tvekan ljud "err", "um", "huh" etc.
-tags-unclear-explanation = Ett ord eller en sekvens av ord som inte kan förstås.
-tags-noise-explanation = Alla andra typer av ljud, till exempel hostning av högtalaren eller harklar sig, en bil som tutar, ljudet av något som slår i mikrofonen, en surrande telefon etc.
+tags-disfluency-explanation =
+    Ett utfyllnadsord eller ljud som används som platsmarkör medan en talare bestämmer vad de ska säga.
+    På engelska är några vanliga tvekningsljud "err", "um", "huh" etc.
+tags-unclear-explanation = Ett ord eller en ordföljd som inte kan förstås.
+tags-noise-explanation = Alla andra typer av ljud, såsom att talaren hostar eller harklar sig, en bil som tutar, ljudet av något som träffar mikrofonen, en telefon som surrar etc.
 # Note: do not translate any tag, like [noise] or [laugh]
-special-tags-example-2 = Och sedan åkte I [noise] på semester. Tja, [noise] [skratt] det var inte precis en semester [skratt]
+special-tags-example-2 =
+    Och sedan [noise] åkte jag på semester.
+    Tja, [noise] [laugh] det var inte direkt en semester [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Spontant tal innehåller naturligtvis felstarter där endast en del av ett helt ord produceras. I dessa fall, vänligen transkribera efter din förmåga ordfragmentet och bifoga ett bindestreck i slutet av ordet (-) för att indikera att ordet är en falsk start. Exempel:
 transcribe-the-audio-subheader-4-explanation-1-example = Han heter <underline>Jo- Jona-</underline> Jonatan.
 transcribe-the-audio-subheader-4-explanation-2 = Ibland upprepar högtalarna ett ord eller ordfragment flera gånger. Detta bör också transkriberas. Exempel:
-transcribe-the-audio-subheader-4-explanation-2-example = Och sedan gick jag till <underline>sovrummet
-transcribe-the-audio-subheader-5-explanation-1 = Spontant tal kommer naturligtvis att innehålla grammatiska fel. Dessa bör inte korrigeras vid transkription. Transkriptionen ska återspegla det talade innehållet exakt.
-transcribe-the-audio-subheader-5-explanation-2 = Talare kan använda vardagar (t.ex. på engelska "gonna", "cuz", etc.) som inte kanske anses formellt korrekta. Dessa bör transkriberas som de är, och inte ändras till sina mer formella motsvarigheter.
+transcribe-the-audio-subheader-4-explanation-2-example = Och sedan gick jag <underline>till till till sov- till</underline> sovrummet
+transcribe-the-audio-subheader-5-explanation-1 = Spontant tal kommer naturligtvis att innehålla grammatiska fel. Dessa bör inte korrigeras vid transkribering. Transkriberingen bör återspegla det talade innehållet exakt.
+transcribe-the-audio-subheader-5-explanation-2 = Talare kan använda vardagliga uttryck (som på engelska ”gonna”, ”cuz” etc.) som kanske inte anses formellt korrekta. Dessa bör transkriberas som de är och inte ändras till sina mer formella motsvarigheter.
 
 ## Review the Transcription
 
 review-the-transcription = Granska transkriptionen
 review-the-transcription-subheader = Allmän vägledning
-review-the-transcription-explanation-1 = Generellt sett rekommenderar vi att den som kontrollerar transkriptionen inte bör vara samma person som gjorde den ursprungliga transkriptionen. Det är väldigt svårt att kontrollera sitt eget arbete! Att ha flera granskningsrader kan hjälpa till att göra kvalitetssäkringen mer robust och hjälpa till att mildra partitioner och problem.
+review-the-transcription-explanation-1 = Generellt sett rekommenderar vi att den person som kontrollerar transkriptionen inte bör vara samma person som gjorde den ursprungliga transkriptionen. Det är mycket svårt att kontrollera sitt eget arbete! Att ha flera granskningslinjer kan bidra till att göra kvalitetssäkringen mer robust och bidra till att minska praktiskhet och problem.
 review-the-transcription-explanation-2 = Granska riktlinjerna för transkription ovan för att kontrollera att en transkription är korrekt. Du kan tillhandahålla redigeringar och skicka in dem.
-review-the-transcription-explanation-3 = Återigen, kan du flagga innehåll som är stötande, skadligt eller på annat sätt oroande och det kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska det och undersöka ytterligare.
+review-the-transcription-explanation-3 = Återigen, du kan flagga innehåll som är stötande, skadligt eller på annat sätt oroande, och det kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska det och utrett det vidare.
 
 ## Code-Switching
 
-code-switching = Kodbyte
+code-switching = Språkväxling
 adding-a-question = Lägga till en fråga
 # Adding a Question
 code-switching-adding-question-subheader = Vad gör en fråga bra?
 code-switching-adding-question-explanation = En bra fråga för datamängder för allmänheten bör:
 code-switching-adding-question-criteria-1 = Vara lätt att förstå och besvara
 code-switching-adding-question-criteria-2 = Var allmänt relevant
-code-switching-adding-question-criteria-3 = Använd inte eller uppmana till, skadligt eller kränkande språk
-code-switching-adding-question-note = Du kanske också vill överväga att sträcka dig över olika sammanhang och domäner.
+code-switching-adding-question-criteria-3 = Använd inte, eller efterfråga, skadligt eller stötande språk
+code-switching-adding-question-note = Du kanske också vill överväga att spänna över olika sammanhang och domäner.
 # What types of questions to add
 code-switching-types-subheader = Vilka typer av frågor ska läggas till?
 code-switching-use-bilingual-prompts-header = Använd tvåspråkiga frågor
@@ -226,18 +230,18 @@ code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu 
 code-switching-ask-bilingual-contexts-header = Fråga om tvåspråkiga sammanhang
 code-switching-ask-bilingual-contexts-explanation = Använd situationer där båda språken är vanligt förekommande (t.ex. hem, skola, evenemang i gemenskapen). Exempel:
 code-switching-ask-bilingual-contexts-explanation-example = "När du pratar med dina kusiner, blandar du spanska och engelska?"
-code-switching-focus-emotional-header = Fokusera på känslomässiga eller höginsatta ögonblick
-code-switching-focus-emotional-explanation = Personer kodväxlar ofta när de uttrycker känslor eller brådska. Exempel:
-code-switching-focus-emotional-explanation-example = "Berätta vad dina föräldrar sa när du berättade dina stora nyheter för dem - exakt hur de sa det."
-code-switching-direct-quotes-header = Fråga efter citat eller reenactments
-code-switching-direct-quotes-explanation = Uppmuntra deltagarna att återge hur saker faktiskt sades. Exempel:
-code-switching-direct-quotes-explanation-example = "Exakt vilka sade du när du fick veta det?"
+code-switching-focus-emotional-header = Fokusera på känslomässiga eller viktiga ögonblick
+code-switching-focus-emotional-explanation = Människor byter ofta språk när de uttrycker känslor eller brådska. Exempel:
+code-switching-focus-emotional-explanation-example = "Berätta vad dina föräldrar sa när du berättade dina stora nyheter — exakt hur de sa det."
+code-switching-direct-quotes-header = Be om direkta citat eller återskapande
+code-switching-direct-quotes-explanation = Uppmuntra deltagarna att återge hur saker och ting faktiskt sades. Exempel:
+code-switching-direct-quotes-explanation-example = "Vad var dina exakta ord när du fick reda på det?"
 code-switching-cultural-topics-header = Välj kulturspecifika ämnen
-code-switching-cultural-topics-explanation = Mat, traditioner, högtider och familjedamik inbjuder ofta till kodväxling.
+code-switching-cultural-topics-explanation = Mat, traditioner, högtider och familjedynamik inbjuder ofta till språkväxling.
 code-switching-cultural-topics-explanation-example = "Hur beskriver du Día de los Muertos för någon som bara talar engelska?"
 code-switching-informal-scenarios-header = Utforska informella scenarier
 code-switching-informal-scenarios-explanation = Samtal med vänner eller sms innehåller ofta mer naturliga byten. Exempel:
-code-switching-informal-scenarios-explanation-example = "Vad är ett skämt dina vänner alltid drar - och hur säger de det?"
+code-switching-informal-scenarios-explanation-example = "Vilket skämt brukar dina vänner alltid dra — och hur säger de det?"
 # What to Avoid
 code-switching-avoid-subheader = Vad du bör undvika
 code-switching-avoid-intro = Frågor som kan tänkas:
@@ -251,105 +255,105 @@ code-switching-review-subheader = Granska en fråga
 code-switching-review-intro = Kontrollera att frågan uppfyller kriterierna:
 code-switching-review-criterion-1 = Vara lätt att förstå och besvara
 code-switching-review-criterion-2 = Var allmänt relevant
-code-switching-review-criterion-3 = Använd inte eller uppmana till, skadligt eller kränkande språk
-code-switching-review-does-not-header = Och <bold>INGÅR INTE</bold>:
+code-switching-review-criterion-3 = Använd inte, eller efterfråga, skadligt eller stötande språk
+code-switching-review-does-not-header = Och inkluderar <bold>INTE</bold>:
 code-switching-review-offensive-content = <bold>Stötande innehåll eller känslig information</bold>
 code-switching-answer-header = Stötande innehåll eller känslig information
 code-switching-review-no-1 = Frågor som kan begära personlig identifierbar information
-code-switching-review-no-2 = Frågor som kan efterfråga hatretorik eller andra partiska eller kränkande känslor
-code-switching-review-no-3 = Frågor som kan få någon att dela med sig av känsliga, potentiellt utlösande svar
+code-switching-review-no-2 = Frågor som kan väcka hatpropaganda eller andra partiska eller kränkande känslor
+code-switching-review-no-3 = Frågor som kan få någon att dela känsliga, potentiellt utlösande svar
 # Answering a Question
 code-switching-answer-subheader = Besvara en fråga
 code-switching-answer-intro = När du svarar på en fråga är målet att svara naturligt – precis som du skulle göra i en verklig konversation. Vi vill fånga hur språk faktiskt blandas i vardagligt tal.
 code-switching-answer-bullet-1 = Tänk på verkliga ögonblick eller situationer: skämt, gräl, traditioner
 code-switching-answer-bullet-2 = Föreställ dig att du sms:ar en vän eller berättar en historia för någon
-code-switching-answer-bullet-3 = Använd ord du faktiskt skulle använda, även om du är lånad eller blandad
+code-switching-answer-bullet-3 = Använd ord du faktiskt skulle använda, även om de är lånade eller blandade
 code-switching-answer-bullet-4 = Det finns inget "perfekt" sätt att svara
 code-switching-authentic-header = Svara naturligt och autentiskt
-code-switching-authentic-speak = <bold>Prata hur du skulle göra med vänner eller familj.</bold> Om du blandar språk i verkliga livet, gör samma sak här. Exempel:
-code-switching-authentic-speak-example = ”Pues, jag sa till henne att jag inte kunde gå, men hon var som: ‘Det är bättre att du dyker upp!’”
-code-switching-use-both-languages = <bold>Använd båda språken om det är hur du normalt skulle säga det.</bold> Även att byta bara ett ord eller två är användbart. Exempel:
-code-switching-use-both-languages-example = "Hon blev riktigt arg eftersom jag inte ringde tillbaka henne."
-code-switching-authentic-direct-quotes = <bold>Inkludera direkta citat eller dialog.</bold> Säg exakt vad någon sa, inte en rensad eller formell version. Exempel:
+code-switching-authentic-speak = <bold>Tala som du skulle göra med vänner eller familj.</bold> Om du blandar språk i verkliga livet, gör detsamma här. Exempel:
+code-switching-authentic-speak-example = "Pues, jag sa till henne att jag inte kunde gå, men hon sa: "Du borde dyka upp!""
+code-switching-use-both-languages = <bold>Använd båda språken om det är så du normalt skulle säga det.</bold> Även att byta ut bara ett eller två ord är användbart. Exempel:
+code-switching-use-both-languages-example = "Hon blev riktigt arg porque jag inte ringde tillbaka."
+code-switching-authentic-direct-quotes = <bold>Inkludera direkta citat eller dialog.</bold> Säg exakt vad någon sa, inte en upprensad eller formell version. Exempel:
 code-switching-authentic-direct-quotes-example = ”Mi mamá dijo, ‘Tú crees que esto es un juego?’ och jag var som, ‘Okej, chill!’”
-code-switching-authentic-reflect = <bold>Reflektera känslor, identitet och sammanhang.</bold> Byte sker vanligtvis när människor uttrycker känslor, brådskande eller kulturella idéer. Luta dig mot dessa när du svarar på frågor.
-code-switching-authentic-full-context = <bold>Använd fullständiga svar med innehåll.</bold> Var så detaljerad som möjligt och ge så mycket detaljer som du kan. Dela en berättelse eller ett exempel i dina svar.
+code-switching-authentic-reflect = <bold>Reflektera känslor, identitet och sammanhang.</bold> Växling sker vanligtvis när människor uttrycker känslor, brådska eller kulturella idéer. Luta dig mot dessa när du svarar på frågor.
+code-switching-authentic-full-context = <bold>Använd fullständiga svar med sammanhang.</bold> Var så detaljerad som möjligt och ge så mycket information som möjligt. Dela en berättelse eller ett exempel i dina svar.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Övertänk eller överredigera inte
-code-switching-answer-dont-correct-language = <bold>”Rätta” ditt språk.</bold> Det här är inte ett test. "Riktig" form spelar ingen roll här, gör naturligt språk.
-code-switching-answer-dont-avoid-switching = <bold>Undvik att byta om du normalt gör det.</bold> Det går bra att byta mitten av mening, mitten av tanken eller bara för ett ord.
-code-switching-answer-dont-formal-writing = <bold>Tala som om du skriver.</bold> Undvik formella, akademiska svar. Håll det konverserande.
-code-switching-answer-dont-force-switch = <bold>Tvinga byte om det inte är naturligt.</bold> Byt bara om det är hur du naturligt skulle prata i den situationen.
-code-switching-answer-dont-translate-repeat = <bold>Översätt eller upprepa allt.</bold> Säg det bara en gång, som det skulle bli i en konversation. Du behöver inte säga en version av svaret på varje språk.
+code-switching-answer-dont-correct-language = <bold>"Rätta" ditt språk.</bold> Detta är inte ett test. "Korrekt" form spelar ingen roll här, naturligt språk gör det.
+code-switching-answer-dont-avoid-switching = <bold>Undvik att byta ord om du brukar göra det.</bold> Det går bra att byta mitt i en mening, mitt i en tanke eller bara för ett ord.
+code-switching-answer-dont-formal-writing = <bold>Tala som om du skriver formellt.</bold> Undvik formella, akademiska svar. Håll det konversationsmässigt.
+code-switching-answer-dont-force-switch = <bold>Tvinga fram växling om det inte är naturligt.</bold> Växla bara om det är så du naturligt skulle prata i den situationen.
+code-switching-answer-dont-translate-repeat = <bold>Översätt eller upprepa allting.</bold> Säg det bara en gång, som det skulle sägas i en konversation. Du behöver inte säga en version av svaret på varje språk.
 # Transcribing
 code-switching-transcribe-subheader = Transkribering
-code-switching-transcribe-intro = Vid transkribering av svar som inkluderar kodväxling, representera talarens språk som det talades – utan att korrigera, redigera eller förenkla. Detta är för alla växlar mellan språk, informellt tal och språkblandade ord.
-code-switching-transcribe-do-1 = Spela korta segment flera gånger för att fånga subtila omkopplare
-code-switching-transcribe-do-2 = Pausa efter varje mening för att dubbelkolla efter växlar eller blandade ord
+code-switching-transcribe-intro = När du transkriberar svar som inkluderar språkväxling, representera talarens språk som det talades – utan att korrigera, redigera eller förenkla. Detta gäller för alla växlingar mellan språk, informellt tal och blandspråkiga ord.
+code-switching-transcribe-do-1 = Spela korta segment flera gånger för att fånga upp subtila växlingar
+code-switching-transcribe-do-2 = Pausa efter varje mening för att dubbelkolla om det finns ordbyten eller blandningar
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Fånga tal exakt som det talas
-code-switching-capture-explanation = Transkribera båda språken när de visas / låter. "fixa" inte språket eller ändra det till endast ett språk.
+code-switching-capture-explanation = Transkribera båda språken som de framstår / låter. "Fixa" inte språket eller ändra det till endast ett språk.
 # Include filler words and markers
 code-switching-filler-header = Inkludera utfyllnadsord och markörer
-code-switching-filler-explanation = Ord som "um", "gillar", "pues", "du vet" och "entonces" är meningsfulla. Exempel: "Så, um, jag sa till henne som, 'pues no sé, kanske senare'."
+code-switching-filler-explanation = Ord som "äh", "liksom", "och", "du vet" och "så" är meningsfulla. Exempel: "Så, äh, jag sa till henne, 'pues no sé, kanske senare'."
 # Use standard spelling for each language
 code-switching-spelling-header = Använd standardstavning för varje språk
-code-switching-spelling-explanation = Försök att stava ord korrekt för varje språk, om inte talaren tydligt uttalar dem på ett icke-standardiserat sätt.
+code-switching-spelling-explanation = Försök att stava ord korrekt för varje språk, såvida inte talaren tydligt uttalar dem på ett ostandardiserat sätt.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Rensa inte upp eller förenkla inte språket
-code-switching-cleanup-1 = Översätt eller omskriva - skriv vad talaren sa, inte vad de "betydde".
-code-switching-cleanup-2 = "Korrekt" grammatik eller uttal - behåll högtalarens naturliga användning.
-code-switching-cleanup-3 = Hoppa över byten som verkar små eller små – även lånade ord har betydelse.
-code-switching-cleanup-4 = Infoga skiljetecken som kan ändra innebörden – håll flödet naturligt.
-code-switching-cleanup-5 = Anta att du kan språket för varje ord – tagg baserad på användning.
+code-switching-cleanup-1 = Översätt eller parafrasera – skriv vad talaren sa, inte vad de ”menade”.
+code-switching-cleanup-2 = ”Korrekt” grammatik eller uttal – behåll talarens naturliga språkbruk.
+code-switching-cleanup-3 = Hoppa över växlingar som verkar små eller obetydliga – även lånade ord spelar roll.
+code-switching-cleanup-4 = Sätt in interpunktion som kan ändra betydelsen – håll flödet naturligt.
+code-switching-cleanup-5 = Anta att du kan språket för varje ord – tagga baserat på användning.
 # Tagging
 code-switching-tagging-subheader = Taggning
 code-switching-tagging-error-intro = Om transkriptionen innehåller ett fel, använd rapportfunktionen för att flagga det. Potentiella fel inkluderar:
 code-switching-tagging-error-1 = Felaktiga skiljetecken eller versaler
 code-switching-tagging-error-2 = Skrivfel
-code-switching-tagging-error-3 = Ord skrivna med fel rättskrivning
+code-switching-tagging-error-3 = Ord skrivna med fel ortografi
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Använda rätt ortografi för varje språk
 code-switching-orthography-explanation = Skriv varje ord enligt stavningen på språket som det kommer ifrån. Till exempel:
-code-switching-orthography-explanation-example-1 = Om ordet "kök" visas på spanska, ska det skrivas som på engelska, inte som "quichen."
+code-switching-orthography-explanation-example-1 = Om ordet ”kitchen” uttalas som på spanska, ska det skrivas som på engelska, inte som ”quichen”.
 code-switching-orthography-explanation-example-2 = Om ordet quinceaños uttalas som på engelska, skriv det med ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Använd uttal för att bestämma språket
-code-switching-pronunciation-explanation = Vissa ord kan se likadana ut på båda språken men kan uttalas olika.  Lyssna på uttalet för att hjälpa till att tagga korrekt.  Till exempel: kabel, taco, skådespelare, detektiv.
-code-switching-pronunciation-explanation-example-1 = Svenska: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation = Vissa ord kan se likadana ut på båda språken men kan uttalas olika. Lyssna på uttalet för att få hjälp med att tagga korrekt. Till exempel: kabel, kö, skådespelare, detektiv.
+code-switching-pronunciation-explanation-example-1 = Engelska: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Spanska: /ˈkable/
 # Tagging in a Single Token
-code-switching-single-token-header = Taggning i en enda token
-code-switching-single-token-explanation = En enda blankstegsseparerad token bör innehålla mer än ett taggat span.
+code-switching-single-token-header = Tagga i ett enda token
+code-switching-single-token-explanation = En enda mellanslagsseparerad token bör innehålla mer än ett taggat spann.
 # Tag Punctuation Based on Nearby Language
-code-switching-punctuation-tagging-header = Tagga skiljetecken baserat på närliggande språk
-code-switching-punctuation-tagging-explanation = Tagga skiljetecken med det språk som är närmast vänster. Exempel:
+code-switching-punctuation-tagging-header = Tagga interpunktion baserat på närliggande språk
+code-switching-punctuation-tagging-explanation = Tagga interpunktion med språket närmast vänster. Exempel:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
-code-switching-punctuation-tagging-explanation-example-1 = <purple>och en gång som</purple> Maria <purple>skrek på mig var</purple> <blue>porque</blue> <purple>hon försökte för att</purple> skriva ut <blue>av< /blue> <purple>ordning.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-1 = <purple>och en gång som</purple> Maria <purple>skrek på mig var</purple> <blue>porque</blue> <purple>hon försökte för att</purple> printear <blue>en</blue> <purple>order.</purple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
 # Be Careful with Lookalikes
-code-switching-lookalikes-header = Var försiktig med Lookalikes
-code-switching-lookalikes-explanation = Vissa ord kan se ut som ett språk men används på det andra. Tagg baserad på innebörd och användning, inte utseende. Exempel:
-code-switching-lookalikes-explanation-example-1 = "Footing" betydde tidigare körs på spanska > tagga som spanska
+code-switching-lookalikes-header = Var försiktig med liknande ord
+code-switching-lookalikes-explanation = Vissa ord kan se ut som på ett språk men används på ett annat. Tagga baserat på betydelse och användning, inte utseende. Exempel:
+code-switching-lookalikes-explanation-example-1 = "Footing" betydde tidigare joggning på spanska > tagga som spanska
 code-switching-lookalikes-explanation-example-2 = "No problemo" används i engelska > tagga som engelska
 # When Not to Tag Words
 code-switching-not-tag-header = När får man inte tagga ord
-code-switching-not-tag-explanation = Vissa ord bör <bold>inte vara taggade</bold> med en språketikett, även om de verkar blandade eller anpassade.  Så här hanterar du några exempel:
+code-switching-not-tag-explanation = Vissa ord bör <bold>inte taggas</bold> med en språketikett, även om de verkar blandade eller anpassade. Så här hanterar du några exempel:
 code-switching-not-tag-proper-names = <bold>Egennamn.</bold> Namn på personer, platser och organisationer bör inte vara taggade. Exempel:
 code-switching-not-tag-proper-names-example-1 = Människor: Maria, John
 code-switching-not-tag-proper-names-example-2 = Platser: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Varumärken/Organisationer: Target, Burger King
-code-switching-not-tag-mixed-words = <bold>Blandade eller morfologiskt anpassade ord.</bold> Tagga inte ord som blandar språk eller har tillagda avslutning från ett annat språk. Exempel:
-code-switching-not-tag-mixed-words-example = Där en rot är engelska men suffixet är spanska: “parkear”, “printearlo”
-code-switching-not-tag-interjections = <bold>Interjektioner.</bold> Interjektioner och utfyllnadsord, oavsett språk, ska förbli <bold>omärkta.</bold> Exempel:
-code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-mixed-words = <bold>Blandade eller morfologiskt anpassade ord.</bold> Tagga inte ord som blandar språk eller har tillagda ändelser från ett annat språk. Exempel:
+code-switching-not-tag-mixed-words-example = Där en rot är engelsk men suffixet är spanskt: ”parkear”, ”printearlo”
+code-switching-not-tag-interjections = <bold>Interjektioner.</bold> Interjektioner och utfyllnadsord, oavsett språk, ska förbli <bold>otaggade.</bold> Exempel:
+code-switching-not-tag-interjections-example-1 = "Äh"
 code-switching-not-tag-interjections-example-2 = “Nej”
 code-switching-not-tag-interjections-example-3 = “Ja”
-code-switching-not-tag-interjections-example-4 = "Eh"
+code-switching-not-tag-interjections-example-4 = "Oh"
 
 ## Reporting Content
 
 reporting-content = Rapportera innehåll
 reporting-content-subheader = Allmän vägledning
-reporting-content-explanation-1 = Du måste flagga innehåll som är stötande, skadligt eller på annat sätt oroande. Den får inte heller innehålla någon personligt identifierande information som telefonnummer eller adresser. Den kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska den och undersöka ytterligare.
-reporting-content-explanation-2 = För att rapportera innehåll, välj knappen "Rapportera" och välj ett eller alla alternativ: Kränkande innehåll, Annat språk, Personligt identifierbar information, Annat.  Härifrån ger du mer information om varför du rapporterar innehållet i textområdet.  Skicka sedan rapporten genom att klicka på knappen Rapportera.
+reporting-content-explanation-1 = Du måste flagga innehåll som är stötande, skadligt eller på annat sätt oroande. Det får inte heller innehålla någon personligt identifierbar information som telefonnummer eller adresser. Det kommer att tas bort från din upplevelse tills Common Voice-teamet kan granska det och utrett det vidare.
+reporting-content-explanation-2 = För att rapportera innehåll, välj knappen ”Rapportera” och välj ett eller alla alternativ: Stötande innehåll, Annat språk, Personligt identifierbar information, Annat. Härifrån anger du mer information om varför du rapporterar innehållet i textfältet. Skicka sedan in rapporten genom att klicka på knappen Rapportera.

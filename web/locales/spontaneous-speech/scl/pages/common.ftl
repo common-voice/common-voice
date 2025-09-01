@@ -31,23 +31,8 @@ not-found-page-header = ہتے نے آلی/ آلو
 not-found-page-content = تُو سے اُڈاریوں ہانک پٹو ہتے نے آلو۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = موسے کامن وائیسو <termsLink>شراطی</termsLink> گہ <privacyLink> سِریئیو موجی منے موس۔
-# Locales
-bsy = صباح بِصایہ
-cdo = فُوزوح
-cpx = ہینگ ہوا
-hch = وکساریکا
-kzi = کیلابِٹ
-mbf = بابا مالے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی  ٹیلیسیاکو مِکسٹیک/ Tlaxiaco Mixtec
 mel = مجینو (وسطی) میلانو
-mmc =
-    Michoacán Mazahua
-    مِچاؤکن مَزھوا
-msi = صباح مالے
-pez = ایسٹرن پینن/ Eastern Penan
-pne = مغربی (ویسٹرن) پینن/ Eastern Penan
-sdo = سیرین بدایوہ
-snv = شعبان/ سعبان
-xkl = کِینیا
 # Locales-Variants
 ms-MY = بہاسا مالے

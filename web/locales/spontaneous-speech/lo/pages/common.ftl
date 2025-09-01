@@ -38,22 +38,9 @@ not-found-page-header = ບໍ່ພົບ
 not-found-page-content = ບໍ່ພົບໜ້າທີ່ທ່ານຊອກຫາ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ຂ້ອຍຍອມຮັບ <termsLink>ເງື່ອນໄຂ</termsLink> ແລະ <privacyLink>ປະກາດຄວາມເປັນສ່ວນຕົວ</privacyLink> ຂອງ Common Voice.
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixárika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec
 mel = Central Melanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = ເປນານຕາເວັນອອກ
-pne = ຕາເວັນຕົກ Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = { "" }
 # Locales-Variants
 ms-MY = Bahasa Malay
 

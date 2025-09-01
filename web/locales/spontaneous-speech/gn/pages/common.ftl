@@ -44,22 +44,9 @@ not-found-page-header = Juhu’ỹva
 not-found-page-content = Ndaikatúi ojejuhu pe kuatiarogue rehekavareína
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
-# Locales
-bsy = Sabah Bisaya ñe’ẽ
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Mixteco Tlaxiaco pegua
 mel = Melanau mbytépe
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Penan Oriental
-pne = Penan Occidental
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenia
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Griego Chipriota

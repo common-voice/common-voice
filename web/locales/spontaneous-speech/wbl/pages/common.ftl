@@ -31,21 +31,8 @@ not-found-page-header = Neyi got
 not-found-page-content = Ya ruy kumdes̃h ki sasht tayin carit, yowes̃h tũtak ne keceren
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Wuzes̃h kũk̃ht-e owog̃hev   mes̃h itifoq carem. <termsLink>Shart’v </termsLink>et<privacyLink>roz’v-e ilon </privacyLink>
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Southwestern Tlaxiaco Mixtec
 mel = Central Melanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Eastern Penan
-pne = Western Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyoyi
 # Locales-Variants
 ms-MY = Bahasa Malay

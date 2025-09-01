@@ -38,21 +38,8 @@ not-found-page-header = نہ لت
 not-found-page-content = تو کیں پیج بیرنت تاٞس نہ لیت
 # Privacy and Terms checkbox
 accept-privacy-and-terms = یہ متفق تھو  کامن وائساٞں<termsLink> شرطونہ</termsLink> تے <privacyLink> پرائویسی نوٹس سٞہ</privacyLink>
-# Locales
-bsy = سباہ بِساٞیا
-cdo = فوجو
-cpx = ہینگ ہُوا
-hch = ویراٞریکا
-kzi = کیلابِٹ
-mbf = بابا مالے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی تلازیاکو میکسٹک
 mel = سینٹرل میلانوا
-mmc = میچواکاٞن مزاحواٞ
-msi = سبا مالے
-pez = مشرقی پینن
-pne = مغربی پینن
-sdo = سرین بِدایو
-snv = سبان
-xkl = کینیا
 # Locales-Variants
 ms-MY = بحاسا مالے

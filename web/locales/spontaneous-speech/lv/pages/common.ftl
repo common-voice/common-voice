@@ -38,22 +38,9 @@ not-found-page-header = Nav atrasts
 not-found-page-content = Lapa, kuru meklējat, netika atrasta
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes politikai</privacyLink>
-# Locales
-bsy = Sabahs Bisaja
-cdo = Fudžou
-cpx = Hen Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba malajiešu
+# Locales (not yet fully resolved in Pontoon)
 meh = Dienvidrietumu Tlaxiaco Mixtec
 mel = Central Melanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Eastern Penan
-pne = Western Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay
 

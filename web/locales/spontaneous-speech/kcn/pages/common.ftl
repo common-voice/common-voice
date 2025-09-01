@@ -31,21 +31,8 @@ not-found-page-header = Maa ligo
 not-found-page-content = Safha al ita gi gusu de maa agder ligo uwo
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ana gi rudu ma sauti wayi
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = South western Tlaxiaco Mixtec
 mel = Central Melanau
-mmc = Michoacan Mazahua
-msi = Sabah Malay
-pez = Eastern Penan
-pne = Western Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa Malay

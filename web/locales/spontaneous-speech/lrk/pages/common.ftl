@@ -38,22 +38,9 @@ not-found-page-header = ڪوئي ملئو
 not-found-page-content = جي صفحو تمو جو هو او ڪوئي ملي سگهيو.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ھون متفق ھون Common Voice ري <termsLink>شرائط</termsLink> ۽ <privacyLink>رازداري نوٽيس</privacyLink>
-# Locales
-bsy = صباح بسيا
-cdo = فوزو
-cpx = گينگ ھوا
-hch = ويڪاريڪا
-kzi = ڪيلابيٽ
-mbf = بابا مالئي
+# Locales (not yet fully resolved in Pontoon)
 meh = ڏکڻ اولهه ٽليڪسياڪو ميڪٽيڪ
 mel = مرڪزي ميلانو
-mmc = ميچواڪان مازاهوا
-msi = سبھا مالئي
-pez = مشرقي پنن
-pne = مغربي پنن
-sdo = سيرين بديو
-snv = سبان
-xkl = ڪينيا
 # Locales-Variants
 ms-MY = بهاس ملائي
 

@@ -44,22 +44,9 @@ not-found-page-header = Net fûn
 not-found-page-content = De troch jo sochte side is koe net fûn wurde.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink> fan Common Voice
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba-Maleis
+# Locales (not yet fully resolved in Pontoon)
 meh = Miksteeksk, Súdwestlik Tlaksiako
 mel = Sintraal-Melanau
-mmc = Michoacán Mazahua
-msi = Sabah-Maleisk
-pez = Eastersk Penan
-pne = Westlik Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Keniaansk
 # Locales-Variants
 ms-MY = Bahasa-Maleisk
 

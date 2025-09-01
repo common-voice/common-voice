@@ -9,8 +9,7 @@ export const createApiCredentialsHandler = async (
   req: Request,
   res: Response
 ) => {
-  const userId = req.session.user.client_id
-
+  const userId = req?.session?.user?.client_id
   if (!userId) {
     console.log('no user id')
     return res

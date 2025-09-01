@@ -41,22 +41,9 @@ not-found-page-header = ملننگ کتو
 not-found-page-content = نم ہرا پنہ ئے پٹنگورے او ملیتو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ای Common Voice نا <termsLink>شڑتاتا </termsLink> و <privacyLink>پرائیویسی نوٹس</privacyLink> تون امنائی کیوہ
-# Locales
-bsy = صباح بسایا
-cdo = Fuzhou
-cpx = Heng Hua
-hch = وکساریکا
-kzi = کیلابٹ
-mbf = بابا مالے۔
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مغربی Tlaxiaco Mixtec
 mel = وسطی میلانو
-mmc = Michoacán Mazahua
-msi = صباح مالے
-pez = مشرقی پینان
-pne = مغربی پینان
-sdo = سیرین بدایوہ
-snv = شعبان
-xkl = کینیا
 # Locales-Variants
 ms-MY = بہاسا مالائی
 

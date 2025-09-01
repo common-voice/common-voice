@@ -44,22 +44,9 @@ not-found-page-header = Ikkje funne
 not-found-page-content = Fann ikkje sida du leitar etter
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernerklæringa</privacyLink> til Common Voice
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba Malay
+# Locales (not yet fully resolved in Pontoon)
 meh = Sørvestleg Tlaxiaco Mixtec
 mel = Central Melanau
-mmc = Michoacán Mazahua
-msi = Sabah Malay
-pez = Austlege Penan
-pne = Vestlege Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Kenyah
 # Locales-Variants
 ms-MY = Bahasa malaysisk
 el-CY = Kypriotisk gresk

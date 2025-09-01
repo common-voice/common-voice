@@ -44,22 +44,9 @@ not-found-page-header = Niet gevonden
 not-found-page-content = De door u gezochte pagina kon niet worden gevonden.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ik ga akkoord met de <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink> van Common Voice
-# Locales
-bsy = Sabah Bisaya
-cdo = Fuzhou
-cpx = Heng Hua
-hch = Wixarika
-kzi = Kelabit
-mbf = Baba-Maleis
+# Locales (not yet fully resolved in Pontoon)
 meh = Mixteeks, Zuidwestelijk Tlaxiaco
 mel = Centraal-Melanau
-mmc = Michoacán Mazahua
-msi = Sabah-Maleis
-pez = Oostelijk Penan
-pne = Westelijk Penan
-sdo = Serian Bidayuh
-snv = Sa'ban
-xkl = Keniaans
 # Locales-Variants
 ms-MY = Bahasa-Maleis
 el-CY = Cypriotisch Grieks

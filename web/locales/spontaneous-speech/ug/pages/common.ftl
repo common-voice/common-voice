@@ -38,22 +38,9 @@ not-found-page-header = تېپىلمىدى
 not-found-page-content = سىز ئىزدەۋاتقان بەت تېپىلمىدى
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مەن Common Voice نىڭ <termsLink> شەرتلىرى </termsLink> ۋە <privacyLink>مەخپىيەتلىك ئۇقتۇرۇشى </privacyLink> غا قوشۇلىمەن.
-# Locales
-bsy = ساباھ بىسايا
-cdo = فۇجۇ
-cpx = خىڭخۇا
-hch = ۋىكسارىكا
-kzi = كېلابىت
-mbf = بابا مالاي
+# Locales (not yet fully resolved in Pontoon)
 meh = مىكستېك (غەربىي جەنۇپ لاكسىياكو)
 mel = مەركىزى مىلانو
-mmc = مىچوكان مازاخو
-msi = ساباھ مالاي
-pez = شەرقىي پېنان
-pne = غەربىي پېنان
-sdo = سېرىيان بىدايۇخ
-snv = سابان
-xkl = كېنىيەچە
 # Locales-Variants
 ms-MY = باخاسا مالاي
 

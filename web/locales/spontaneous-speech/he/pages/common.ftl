@@ -31,21 +31,8 @@ not-found-page-header = לא נמצא
 not-found-page-content = הדף שחיפשתם לא נמצא
 # Privacy and Terms checkbox
 accept-privacy-and-terms = אני מסכימ\ה ל<termsLink>תנאים</termsLink> ול<privacyLink>מדיניות הפרטיות</privacyLink> של Common Voice
-# Locales
-bsy = ביסאיא-סבה
-cdo = פוג'יינית
-cpx = הנג-הואה
-hch = וּוִישַׁריקה
-kzi = קֵלַבִּיטית
-mbf = מלאית-באבא
+# Locales (not yet fully resolved in Pontoon)
 meh = מישטק של דרום־מערב טלקסיאקו
 mel = מלנאו מרכזית
-mmc = מסאהואה מיצ'ואקאנית
-msi = מלאית-סבה
-pez = פנאן מזרחית
-pne = פנאן מערבית
-sdo = בִּידאיה סֵריאנית
-snv = סהבאן
-xkl = קניה
 # Locales-Variants
 ms-MY = מלאית

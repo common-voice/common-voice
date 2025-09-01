@@ -38,21 +38,8 @@ not-found-page-header = مالاؤ نو ہوئے
 not-found-page-content = کیا صفحو کی تو مݰکیسان ہسے ملاو نو ہوئے
 # Privacy and Terms checkbox
 accept-privacy-and-terms = اوا کامن وائسو <termsLink> شرطان</termsLink> وا <privacyLink>راز دریو نوٹیسو </privacyLink> قبول کومان۔
-# Locales
-bsy = صباح بیسایا
-cdo = فوژو
-cpx = ہینگ ہوا
-hch = ویکساریکا
-kzi = کیلابیٹ
-mbf = بابا مالے
+# Locales (not yet fully resolved in Pontoon)
 meh = جنوب مشرقی ٹیلکسیاکو میکسٹیک
 mel = وسطی میلانو
-mmc = میچواکن مزاہوا
-msi = سباہ مالے
-pez = مشرقی پینان
-pne = مغربی پینان
-sdo = سیرین بدایوہ
-snv = سابان
-xkl = کینیاہ
 # Locales-Variants
 ms-MY = بھاسا مالے
