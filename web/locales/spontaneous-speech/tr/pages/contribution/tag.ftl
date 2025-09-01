@@ -23,7 +23,10 @@ select-all = Tümünü seç
 tag-success-toast-message = Etiketler başarıyla gönderildi
 tag-error-toast-message = Etiketler gönderilirken hata oluştu
 tag-empty-submit-error = Gönderilecek metin yok. Lütfen önce metni etiketleyin.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Yazım kurallarına uyun
 cs-tag-shortcuts-section-title = Klavye kullanımı
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Dil ile etiketle
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
