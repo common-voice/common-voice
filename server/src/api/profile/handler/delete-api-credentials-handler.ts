@@ -4,7 +4,7 @@ import { deleteClientCredentialsCommandHandler } from '../../../application/prof
 import { getClientCredentialsQueryHandler } from '../../../application/profile/query-handler/getClientCredentialsQueryHandler'
 
 export const deleteApiCredentialsHandler = async (req: Request, res: Response) => {
-  const userId = req.session.user.client_id
+  const userId = req?.session?.user?.client_id
   if (!userId)
     return res.status(StatusCodes.BAD_REQUEST).json({ message: 'no user client id' })
 
@@ -23,6 +23,6 @@ export const deleteApiCredentialsHandler = async (req: Request, res: Response) =
   await deleteClientCredentialsCommandHandler({
     clientId: clientId,
   })
-  
+
   return res.status(StatusCodes.NO_CONTENT).end()
 }
