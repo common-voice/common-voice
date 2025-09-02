@@ -4,8 +4,7 @@
 
 ## Languages
 
-aa = Ye'e
-cut = Dbaku
+qxp = Punu qhichwa
 
 # [/]
 

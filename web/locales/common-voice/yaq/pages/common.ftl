@@ -4,8 +4,7 @@
 
 ## Languages
 
-aa = Ye'e
-cut = Dbaku
+yaq = Jiak noki
 
 # [/]
 
