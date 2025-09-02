@@ -1,3 +1,6 @@
+speak = רעדט
+speak-now = רעדט יעצט
+speak-subtitle = ביישטייערט אייער שטימע
 record-cta = הויבט אן רעקארדירן
 record-must-allow-microphone = איר מוזט ערלויבן מיקראפאון צוטריט.
 record-no-mic-found = מיר טרעפן נישט קיין מיקראפאון.
