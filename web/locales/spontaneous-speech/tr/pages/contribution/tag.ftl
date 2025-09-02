@@ -25,6 +25,9 @@ tag-error-toast-message = Etiketler gönderilirken hata oluştu
 tag-empty-submit-error = Gönderilecek metin yok. Lütfen önce metni etiketleyin.
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Yazım kurallarına uyun
+cs-tag-do-guideline-2 = Telaffuzu yardımcı olarak kullanın
+cs-tag-do-guideline-3 = Benzer kelimelere dikkat edin
+cs-tag-do-not-guideline-1 = Özel adları, karma (iki dilli) kelimeleri ve ünlemleri etiketleyin
 cs-tag-shortcuts-section-title = Klavye kullanımı
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Dil ile etiketle
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
