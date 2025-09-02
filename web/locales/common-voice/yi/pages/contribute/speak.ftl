@@ -27,6 +27,7 @@ review-recording = איבערגיין
 review-rerecord = איבער-רעקארדיר
 review-keep-recordings = האלט די רעקארדירונגען
 review-delete-recordings = מעקט אויס מיין רעקארדירונגען
+review-terms = דורך נוצן קאמאן וואויס, זענט איר איינשטימיג מיט אונזער <termsLink>טערמינען</termsLink> און <privacyLink>פריוואטקייט נאטיץ</privacyLink>
 terms-agree = איך בין איינשטימיג
 terms-disagree = איך בין נישט איינשטימיג
 # FIRST POST SUBMISSION CTA
@@ -35,5 +36,6 @@ first-cta-subtitle-text = וואלט איר געוואלט מיטטיילן אב
 why-donate = פארוואס פרעגט איר?
 add-information-button = לייג צו אינפארמאציע
 thanks-for-voice-toast = א דאנק פאר אייער שטימע אינפארמאציע
+first-cta-gender-select-default-option = וועלט אויס אן אפציע
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = א דאנק פארן ביישטייערן אייער שטימע!
