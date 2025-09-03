@@ -305,6 +305,7 @@ code-switching-cleanup-1 = Non tradurre o parafrasare: scrivi ciò che la person
 code-switching-cleanup-2 = Non “correggere” la grammatica o la pronuncia: mantieni l’uso naturale della lingua di chi sta parlando.
 code-switching-cleanup-3 = Non ignorare i cambi di codice che potrebbero sembrarti minori o trascurabili: anche i singoli prestiti linguistici sono importanti.
 code-switching-cleanup-4 = Non inserire punteggiatura che potrebbe cambiare il significato del discorso: mantieni il flusso naturale.
+code-switching-cleanup-5 = Non dare per scontato di conoscere la lingua di appartenenza di ogni parola: aggiungi le etichette in base all’utilizzo.
 # Tagging
 code-switching-tagging-subheader = Etichette
 code-switching-tagging-error-intro = Se la trascrizione contiene un errore, utilizza la funzione di segnalazione per indicarlo. I potenziali errori includono:
