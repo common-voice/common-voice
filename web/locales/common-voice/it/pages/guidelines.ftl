@@ -321,12 +321,14 @@ code-switching-pronunciation-header = Ascolta la pronuncia per determinare la li
 code-switching-pronunciation-explanation = Alcune parole sono scritte nello stesso modo in entrambe le lingue, ma vengono pronunciate in modo diverso.  Fai attenzione alla pronuncia per scegliere l’etichetta corretta.  Ad esempio: “finale”, “scenario”, “circa”, “vice versa”.
 code-switching-pronunciation-explanation-example-1 = Inglese: /fɪˈnɑːli/
 code-switching-pronunciation-explanation-example-2 = Italiano: /fi'nale/
+code-switching-punctuation-tagging-explanation = Attribuisci la punteggiatura alla lingua della sequenza più vicina alla sua sinistra. Esempi:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one time that</purple> Maria <purple>screamed at me was</purple> <blue>perché</blue> <purple>she was trying to to</purple> <blue>stampare un</blue> <purple>order.</purple> (adattato da BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tu puoi comprarlo rosso, nero, blu,</blue> <purple>whatever.</purple> (adattato da BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Fai attenzione alle parole simili
 code-switching-lookalikes-explanation-example-1 = “Smart working” significa lavorare da remoto in italiano: etichettalo come italiano
+code-switching-lookalikes-explanation-example-2 = “Confetti” (in italiano: “coriandoli”) utilizzato in inglese: etichettalo come inglese
 code-switching-not-tag-proper-names-example-1 = Persone: Maria, John
 code-switching-not-tag-proper-names-example-2 = Luoghi: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marchi o organizzazioni: Target, Burger King
