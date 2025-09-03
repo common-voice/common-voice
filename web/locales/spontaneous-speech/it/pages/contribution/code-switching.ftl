@@ -11,6 +11,7 @@ cs-locale-change-modal-subtitle = Sono presenti modifiche non salvate in questa 
 ## Question Page Items
 
 cs-question-page-instruction = Aggiungi fino a 25 domande <icon></icon> al dataset in { $currentLocale } a cui le persone possono rispondere
+cs-add-question-textarea-placeholder = Inserisci domande con un cambio di codice linguistico, una per riga. È più probabile che le persone rispondano con un cambio di codice quando anche la domanda lo contiene.
 cs-question-dataset-name = Dataset: { $datasetName }
 
 ## Validate Page Items
