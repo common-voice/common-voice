@@ -211,7 +211,7 @@ review-the-transcription = Convalidare la trascrizione
 review-the-transcription-subheader = Guida generale
 review-the-transcription-explanation-1 = In generale, è consigliabile che la persona che controlla la trascrizione non sia la stessa persona che ha eseguito la trascrizione originale. È molto difficile controllare il proprio lavoro! Avere più linee di revisione aiuta a rendere più affidabile il controllo della qualità e a mitigare bias e problemi.
 review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. Se trovi che sia incorretta, puoi apportare modifiche e inviarle.
-review-the-transcription-explanation-3 = Anche in questo caso puoi segnalare contenuti offensivi, malevoli o comunque problematici; quei contenuti verranno rimossi dalla tua esperienza fino a quando il team di Common Voice non potrà esaminarli e indagare ulteriormente.
+review-the-transcription-explanation-3 = Anche in questo caso puoi segnalare i contenuti offensivi, malevoli o comunque problematici. I contenuti segnalati non ti verranno più mostrati fino a quando il team di Common Voice non li avrà esaminati e verificati ulteriormente.
 
 ## Code-Switching
 
@@ -338,4 +338,5 @@ code-switching-not-tag-interjections-example-4 = “Ehm”
 
 reporting-content = Segnalare contenuti
 reporting-content-subheader = Guida generale
+reporting-content-explanation-1 = I contenuti offensivi, malevoli o comunque problematici devono essere segnalati. Non devono includere inoltre informazioni di identificazione personale come numeri di telefono o indirizzi. I contenuti segnalati non ti verranno più mostrati fino a quando il team di Common Voice non li avrà esaminati e verificati ulteriormente.
 reporting-content-explanation-2 = Per segnalare un contenuto, seleziona il pulsante “Segnala” e scegli una o più opzioni: Contenuti offensivi, Lingua diversa, Informazioni di identificazione personale, Altro.  Fornisci quindi ulteriori dettagli sul motivo per cui stai segnalando il contenuto nell’area di testo.  Infine, invia la segnalazione facendo clic sul pulsante Segnala.
