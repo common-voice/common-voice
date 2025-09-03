@@ -332,6 +332,7 @@ code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one t
 code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tu puoi comprarlo rosso, nero, blu,</blue> <purple>whatever.</purple> (adattato da BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Fai attenzione alle parole simili
+code-switching-lookalikes-explanation = Alcune parole sembrano appartenere a una lingua, ma in realtà sono utilizzate nell’altra. Etichettale in base al significato e all’utilizzo, non all’aspetto. Esempi:
 code-switching-lookalikes-explanation-example-1 = “Smart working” significa lavorare da remoto in italiano: etichettalo come italiano
 code-switching-lookalikes-explanation-example-2 = “Confetti” (in italiano: “coriandoli”) utilizzato in inglese: etichettalo come inglese
 # When Not to Tag Words
