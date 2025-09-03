@@ -323,6 +323,9 @@ code-switching-pronunciation-explanation-example-1 = Inglese: /fɪˈnɑːli/
 code-switching-pronunciation-explanation-example-2 = Italiano: /fi'nale/
 # Tagging in a Single Token
 code-switching-single-token-header = Etichette in un singolo token
+code-switching-single-token-explanation = Un singolo token con caratteri separati da spazi non dovrebbe includere più di una sequenza con etichetta.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Etichetta la punteggiatura in base alla lingua che la precede
 code-switching-punctuation-tagging-explanation = Attribuisci la punteggiatura alla lingua della sequenza più vicina alla sua sinistra. Esempi:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one time that</purple> Maria <purple>screamed at me was</purple> <blue>perché</blue> <purple>she was trying to to</purple> <blue>stampare un</blue> <purple>order.</purple> (adattato da BangorTalk)
@@ -331,10 +334,12 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> 
 code-switching-lookalikes-header = Fai attenzione alle parole simili
 code-switching-lookalikes-explanation-example-1 = “Smart working” significa lavorare da remoto in italiano: etichettalo come italiano
 code-switching-lookalikes-explanation-example-2 = “Confetti” (in italiano: “coriandoli”) utilizzato in inglese: etichettalo come inglese
+code-switching-not-tag-explanation = Alcune parole <bold>non devono essere etichettate</bold> con una lingua, anche se sembrano mescolate con un’altra lingua o adattate.  Di seguito viene spiegato come gestire alcuni casi specifici.
 code-switching-not-tag-proper-names = <bold>Nomi propri.</bold> I nomi di persone, luoghi e organizzazioni non devono essere etichettati. Esempi:
 code-switching-not-tag-proper-names-example-1 = Persone: Maria, John
 code-switching-not-tag-proper-names-example-2 = Luoghi: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marchi o organizzazioni: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Parole mescolate con un’altra lingua o adattate morfologicamente.</bold> Non etichettare parole che mescolano più lingue o che contengono desinenze da una lingua diversa. Esempi:
 code-switching-not-tag-mixed-words-example = Parole in cui la radice è in inglese ma il suffisso è in italiano: “droppare”, “printarlo”
 code-switching-not-tag-interjections = <bold>Interiezioni.</bold> Interiezioni e riempitivi, indipendentemente dalla lingua, devono rimanere <bold>non etichettati</bold>. Esempi:
 code-switching-not-tag-interjections-example-1 = “Eh”

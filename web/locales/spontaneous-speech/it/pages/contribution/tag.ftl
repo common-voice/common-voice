@@ -25,8 +25,10 @@ tag-error-toast-message = Si è verificato un errore durante l’invio delle eti
 tag-empty-submit-error = Nessun testo da inviare. Aggiungi prima delle etichette.
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Utilizza l’ortografia corretta
+cs-tag-do-guideline-2 = Ascolta la pronuncia per determinare la lingua
 cs-tag-do-guideline-3 = Fai attenzione alle parole simili
 cs-tag-shortcuts-section-title = Utilizzo della tastiera
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Etichetta con lingua
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
