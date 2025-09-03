@@ -284,6 +284,7 @@ code-switching-answer-dont-subheader = Non pensare o rielaborare troppo
 code-switching-answer-dont-correct-language = <bold>Non “correggere” la tua lingua.</bold> Questo non è un test. La forma “corretta” non è importante qui, ciò che conta è il linguaggio naturale.
 code-switching-answer-dont-avoid-switching = <bold>Non cercare di evitare il cambio di codice se è una cosa che fai normalmente.</bold> Puoi cambiare a metà frase, a metà pensiero o anche solo per una parola.
 code-switching-answer-dont-formal-writing = <bold>Non parlare come se stessi scrivendo in modo formale.</bold> Evita risposte formali e accademiche. Mantieni un tono colloquiale.
+code-switching-answer-dont-force-switch = <bold>Non forzare il cambio di codice se non ti viene naturale.</bold> Cambia lingua solamente se è così che parleresti spontaneamente in quella situazione.
 code-switching-answer-dont-translate-repeat = <bold>Non tradurre o ripetere tutto.</bold> Dillo una volta sola, come si farebbe in una conversazione. Non è necessario dare una versione della risposta per ogni lingua.
 # Transcribing
 code-switching-transcribe-subheader = Trascrizioni
@@ -325,7 +326,6 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> 
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Fai attenzione alle parole simili
 code-switching-lookalikes-explanation-example-1 = “Smart working” significa lavorare da remoto in italiano: contrassegnalo come italiano
-code-switching-lookalikes-explanation-example-2 = “Confetti” (in italiano: “coriandoli”) utilizzato in inglese: contrassegnalo come inglese
 code-switching-not-tag-proper-names-example-1 = Persone: Maria, John
 code-switching-not-tag-proper-names-example-2 = Luoghi: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Marchi o organizzazioni: Target, Burger King
