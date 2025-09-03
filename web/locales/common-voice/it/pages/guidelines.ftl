@@ -321,6 +321,8 @@ code-switching-pronunciation-header = Ascolta la pronuncia per determinare la li
 code-switching-pronunciation-explanation = Alcune parole sono scritte nello stesso modo in entrambe le lingue, ma vengono pronunciate in modo diverso.  Fai attenzione alla pronuncia per scegliere l’etichetta corretta.  Ad esempio: “finale”, “scenario”, “circa”, “vice versa”.
 code-switching-pronunciation-explanation-example-1 = Inglese: /fɪˈnɑːli/
 code-switching-pronunciation-explanation-example-2 = Italiano: /fi'nale/
+# Tagging in a Single Token
+code-switching-single-token-header = Etichette in un singolo token
 code-switching-punctuation-tagging-explanation = Attribuisci la punteggiatura alla lingua della sequenza più vicina alla sua sinistra. Esempi:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one time that</purple> Maria <purple>screamed at me was</purple> <blue>perché</blue> <purple>she was trying to to</purple> <blue>stampare un</blue> <purple>order.</purple> (adattato da BangorTalk)
