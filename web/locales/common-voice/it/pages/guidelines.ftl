@@ -334,6 +334,8 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> 
 code-switching-lookalikes-header = Fai attenzione alle parole simili
 code-switching-lookalikes-explanation-example-1 = “Smart working” significa lavorare da remoto in italiano: etichettalo come italiano
 code-switching-lookalikes-explanation-example-2 = “Confetti” (in italiano: “coriandoli”) utilizzato in inglese: etichettalo come inglese
+# When Not to Tag Words
+code-switching-not-tag-header = Quando evitare di etichettare delle parole
 code-switching-not-tag-explanation = Alcune parole <bold>non devono essere etichettate</bold> con una lingua, anche se sembrano mescolate con un’altra lingua o adattate.  Di seguito viene spiegato come gestire alcuni casi specifici.
 code-switching-not-tag-proper-names = <bold>Nomi propri.</bold> I nomi di persone, luoghi e organizzazioni non devono essere etichettati. Esempi:
 code-switching-not-tag-proper-names-example-1 = Persone: Maria, John
