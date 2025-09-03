@@ -219,3 +219,7 @@ code-switching = ການປ່ຽນລະຫັດ
 adding-a-question = ເພີ່ມຄຳຖາມ
 # Adding a Question
 code-switching-adding-question-subheader = ສິ່ງທີ່ເຮັດໃຫ້ເປັນຄໍາຖາມທີ່ດີ?
+code-switching-adding-question-explanation = ຄໍາຖາມທີ່ດີສໍາລັບຊຸດຂໍ້ມູນການມີສ່ວນຮ່ວມຂອງປະຊາຊົນຄວນ:
+code-switching-adding-question-criteria-1 = ເຂົ້າໃຈງ່າຍ ແລະ ຕອບສະຫນອງຕໍ່
+code-switching-adding-question-criteria-2 = ມີຄວາມກ່ຽວຂ້ອງໂດຍທົ່ວໄປ
+code-switching-adding-question-criteria-3 = ຫ້າມໃຊ້, ຫຼື ຊັກຊວນ, ເປັນອັນຕະລາຍ ຫຼື ພາສາທີ່ໜ້າລັງກຽດ
