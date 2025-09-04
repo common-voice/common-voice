@@ -6,7 +6,7 @@
   align-items: center;
   padding: 24px var(--page-margin);
   z-index: var(--header-z-index);
-  background-color: #ffc6a0;
+  background-color: var(--light-orange);
   font-family: 'Mozilla Text', 'Open Sans', sans-serif;
 }
 
@@ -104,7 +104,7 @@
 
     .join-button {
       color: var(--black);
-      background: #f88539;
+      background: var(--orange);
       border: none;
       margin: 10px 0 10px 10px;
       text-align: start;
