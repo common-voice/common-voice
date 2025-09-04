@@ -8,7 +8,7 @@ datasets-positioning =
     Il dataset multilingue di Common Voice è già il più grande del suo genere disponibile pubblicamente, ma non è l’unico.
     
     Considera questa pagina come un punto di riferimento per dataset open source e, man mano che Common Voice continua a crescere, una pagina per i nostri aggiornamenti.
-datasets-speech-bubble-content = Grandi notizie: il discorso spontaneo è in arrivo! Non perderti gli ultimi aggiornamenti e tieni d'occhio il nostro <discordLink>Discord</discordLink> per le informazioni più recenti.
+datasets-speech-bubble-content = Grandi notizie: il discorso spontaneo è in arrivo! Non perderti gli ultimi aggiornamenti e tieni d’occhio il nostro <discordLink>Discord</discordLink> per le informazioni più recenti.
 language = Lingua
 download-dataset-header = Scarica il dataset
 download-delta-explainer = Abbiamo apportato alcune modifiche. I segmenti delta contengono solo le registrazioni più recenti dall’ultima versione. <deltaLink>Ulteriori informazioni su queste modifiche</deltaLink>.

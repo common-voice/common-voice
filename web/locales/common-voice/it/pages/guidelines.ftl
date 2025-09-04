@@ -26,7 +26,7 @@ varying-pronunciations-explanation-1 = Accogliamo di buon grado accenti differen
 varying-pronunciations-explanation-2 = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
 varying-pronunciations-example = Sono subito da te.
 varying-pronunciations-tip-1 = [Per la maggior parte dei parlanti italiani, la parola “subito” viene pronunciata come in italiano standard]
-varying-pronunciations-tip-2 = [Nelle regioni del Sud dell'Italia la parola “subito” potrebbe essere pronunciata con una consonante raddoppiata ”subbito”]
+varying-pronunciations-tip-2 = [Nelle regioni del Sud dell’Italia la parola “subito” potrebbe essere pronunciata con una consonante raddoppiata ”subbito”]
 offensive-content-explanation = Le frasi vengono controllate attraverso un processo di moderazione effettuato dalla comunità, tuttavia questo processo non è perfetto. Se vedi o senti una frase che ti offende o ti fa sentire a disagio, ad esempio perché viola le nostre <participationGuidelines>Linee guida per la partecipazione alla comunità</participationGuidelines>, utilizza il pulsante Segnala nell’interfaccia utente. Puoi anche contattarci all’indirizzo <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = È importante leggere correttamente tutte le parole del testo di esempio. Durante l’ascolto, controlla con molta attenzione che quanto registrato corrisponda esattamente a quanto scritto. La registrazione deve essere rifiutata se alcune parole sono state aggiunte, rimosse o contratte.
 misreadings-explanation-2 = Errori molto comuni includono:
@@ -70,7 +70,7 @@ sentence-domain = Dominio della frase
 
 public-domain-explanation-1 = È molto importante che tutte le frasi siano di <publicDomain>pubblico dominio</publicDomain> (<cc0>cc0</cc0>) poiché il dataset di Common Voice è distribuito con licenza cc0. Inserisci una frase solo se ne sei sicuro e includi sempre la citazione.
 public-domain-explanation-2 = Le frasi migliori per costruire un motore di riconoscimento vocale efficace sono quelle in cui viene utilizzato un linguaggio colloquiale e attuale. Ecco alcune idee per aiutarti a generare frasi:
-public-domain-explanation-3 = Crea frasi colloquiali e attuali individualmente, con i tuoi amici o con la tua comunità linguistica, per esempio organizzando una "maratona di scrittura"
+public-domain-explanation-3 = Crea frasi colloquiali e attuali individualmente, con i tuoi amici o con la tua comunità linguistica, per esempio organizzando una “maratona di scrittura”
 public-domain-explanation-4 = Contatta autori, drammaturghi o sceneggiatori e chiedi loro se sono disposti a devolvere al pubblico dominio una piccola parte delle loro opere
 public-domain-explanation-5 = Cerca testi per cui il copyright non è più applicabile, come ad esempio la maggior parte dei libri pubblicati prima del 1920
 public-domain-explanation-6 = Contatta governi, organizzazioni senza fini di lucro oppure organizzazioni dei media per verificare se i loro contenuti web, i loro rapporti o altri contenuti possono essere devoluti al pubblico dominio
@@ -197,7 +197,7 @@ tags-noise-explanation =
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     E poi [noise] sono andato in vacanza.
-    Be', [noise] [laugh] non era esattamente una vacanza [laugh]
+    Be’, [noise] [laugh] non era esattamente una vacanza [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Il discorso spontaneo contiene naturalmente false partenze in cui viene prodotta solo una parte di una parola intera. In questi casi, trascrivi al meglio la parte della parola pronunciata e aggiungi un trattino alla fine della parola (-) per indicare che è una falsa partenza. Esempio:
 transcribe-the-audio-subheader-4-explanation-1-example = Si chiama <underline>Gio- Giova-</underline> Giovanni.
 transcribe-the-audio-subheader-4-explanation-2 = A volte le persone potrebbero ripetere più volte una parola o un segmento di una parola. Anche questo dev’essere trascritto. Esempio:
