@@ -6,7 +6,11 @@ import { LinkButton } from '../ui/ui'
 import SpiralIcon from './spiral-icon/spiral-icon'
 import URLS from '../../urls'
 
-import { CookieSettings, setCookie, getCookie } from '../../services/cookie'
+import { setCookie, getCookie } from '../../services/cookie'
+// TODO: Currently we only check cookie existence
+// In the next iteration we will use multi-value user-preference cookies
+// Then we will need to get/parse the values inside
+// import { CookieSettings } from '../../services/cookie'
 
 import './header-announcement.css'
 import { CloseIcon, ExternalLinkIcon } from '../ui/icons'
@@ -21,9 +25,10 @@ const ANNOUNCEMENT_OFF_DATE = '2025-12-31T23:59:59Z'
 
 type Props = {
   position?: string
+  hide?: boolean
 }
 
-export const Announcement = ({ position = 'header' }: Props) => {
+export const Announcement = ({ position = 'header', hide = false }: Props) => {
   const [isActive, setIsActive] = useState<boolean>(true)
   const cookie = getCookie(COOKIE_NAME)
 
@@ -39,7 +44,13 @@ export const Announcement = ({ position = 'header' }: Props) => {
     now >= new Date(ANNOUNCEMENT_ON_DATE) &&
     now <= new Date(ANNOUNCEMENT_OFF_DATE)
 
-  if (!isInPublishPeriod || !isActive || cookie || position !== 'header') {
+  if (
+    hide ||
+    !isInPublishPeriod ||
+    !isActive ||
+    cookie ||
+    position !== 'header'
+  ) {
     return <></>
   }
 

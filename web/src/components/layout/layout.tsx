@@ -220,7 +220,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           className={cx('header-wrapper', {
             'contribution-page-active': isContributionPageActive,
           })}>
-          <Announcement />
+          <Announcement position="header" hide={this.state.isMenuVisible} />
           <header className={cx('header', { active: hasScrolled })}>
             <div>
               {isContributionPageActive && (
