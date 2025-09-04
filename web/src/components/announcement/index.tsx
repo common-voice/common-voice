@@ -14,6 +14,10 @@ import VisuallyHidden from '../visually-hidden/visually-hidden'
 
 const COOKIE_NAME = 'mcv_user_preferences'
 const COOKIE_VALUE = ['disable_announcement'].join('|')
+const COOKIE_DURATION = 1 / (24 * 60) // 1 minute for tests
+
+const ANNOUNCEMENT_ON_DATE = '2025-09-02T00:00:00Z'
+const ANNOUNCEMENT_OFF_DATE = '2025-12-31T23:59:59Z'
 
 type Props = {
   position?: string
@@ -26,15 +30,19 @@ export const Announcement = ({ position = 'header' }: Props) => {
   const handleClose = () => {
     setIsActive(false)
     setCookie(COOKIE_NAME, COOKIE_VALUE, {
-      // days: 5,
-      days: 1 / (24 * 60), // 1 minute for tests
+      days: COOKIE_DURATION,
       path: '/',
       secure: true,
       sameSite: 'strict',
     })
   }
 
-  if (!isActive || cookie || position !== 'header') {
+  const now = new Date()
+  const isInPublishPeriod =
+    now >= new Date(ANNOUNCEMENT_ON_DATE) &&
+    now <= new Date(ANNOUNCEMENT_OFF_DATE)
+
+  if (!isInPublishPeriod || !isActive || cookie || position !== 'header') {
     return <></>
   }
 
@@ -42,12 +50,9 @@ export const Announcement = ({ position = 'header' }: Props) => {
     <div className="announcement-wrapper">
       <div className="announcement-container">
         <div className="announcement-container-left">
-          <div className="announcement-text">
-            {/* TODO: LOCALIZE */}
-            <b>New Common Voice datasets</b> are now available to download. Join
-            Mozilla Data Collective for access to over 300 high-quality global
-            datasets, built by and for the community.
-          </div>
+          <Localized id="announcement_mdc_text" elems={{ strong: <strong /> }}>
+            <div className="announcement-text" />
+          </Localized>
           <SpiralIcon />
         </div>
         <div className="announcement-container-right">
@@ -59,13 +64,13 @@ export const Announcement = ({ position = 'header' }: Props) => {
             rounded
             blank>
             <span className="join-button__content">
-              {/* TODO: LOCALIZE */}
-              Join Mozilla Data Collective
+              <Localized id="announcement_mdc_button_text" />
               <span className="join-button__icon">{<ExternalLinkIcon />}</span>
             </span>
             <VisuallyHidden>
-              {/* TODO: LOCALIZE */}
-              <span>Opens in a new tab</span>
+              <Localized id="announcement_mdc_button_text">
+                <span />
+              </Localized>
             </VisuallyHidden>
           </LinkButton>
         </div>
