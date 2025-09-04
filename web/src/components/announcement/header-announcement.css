@@ -49,7 +49,7 @@
       gap: 12px;
     }
     @media (--lg-up) {
-      gap: 24px;
+      gap: 48px;
     }
 
     .announcement-text {
@@ -139,6 +139,7 @@
       justify-content: center;
       width: 18px;
       height: 18px;
+      margin-bottom: 4px;
     }
 
     .join-button[dir='rtl'] .join-button__content {
