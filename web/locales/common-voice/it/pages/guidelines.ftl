@@ -269,6 +269,7 @@ code-switching-answer-subheader = Rispondere a una domanda
 code-switching-answer-intro = Quando rispondi a una domanda, l’obiettivo è rispondere in modo naturale, proprio come faresti in una conversazione reale. Vogliamo catturare il modo in cui le lingue si mescolano nel linguaggio quotidiano.
 code-switching-answer-bullet-1 = Pensa a momenti o situazioni della vita reale: battute, discussioni, tradizioni
 code-switching-answer-bullet-2 = Immagina di scrivere un messaggio a un amico o di raccontare una storia a qualcuno
+code-switching-answer-bullet-3 = Scegli parole che useresti davvero, inclusi prestiti linguistici o un mix di lingue diverse.
 code-switching-answer-bullet-4 = Non esiste un modo “perfetto” per rispondere
 code-switching-authentic-header = Rispondi in modo naturale e autentico
 code-switching-authentic-speak = <bold>Parla come parleresti con amici o familiari.</bold> Se nella vita reale mescoli più lingue, fai lo stesso anche qui. Esempio:
@@ -289,6 +290,7 @@ code-switching-answer-dont-translate-repeat = <bold>Non tradurre o ripetere tutt
 # Transcribing
 code-switching-transcribe-subheader = Trascrizioni
 code-switching-transcribe-intro = Quando trascrivi delle risposte che includono un cambio di codice linguistico, riporta fedelmente il linguaggio di chi parla così come è stato espresso, senza correzioni, modifiche o semplificazioni. Questo vale per tutti i cambi di lingua, le espressioni informali e le parole in lingue diverse.
+code-switching-transcribe-do-1 = Riascolta più volte i segmenti brevi per identificare cambi di codice difficili da notare
 code-switching-transcribe-do-2 = Metti in pausa dopo ogni frase per verificare la presenza di cambi di codice o parole appartenenti a lingue diverse
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Riporta il discorso fedelmente così com’è stato detto
@@ -311,6 +313,7 @@ code-switching-tagging-subheader = Etichette
 code-switching-tagging-error-intro = Se la trascrizione contiene un errore, utilizza la funzione di segnalazione per indicarlo. I potenziali errori includono:
 code-switching-tagging-error-1 = Punteggiatura o maiuscole errate
 code-switching-tagging-error-2 = Errori di battitura
+code-switching-tagging-error-3 = Vocaboli con errori ortografici
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Utilizza l’ortografia corretta per ogni lingua
 code-switching-orthography-explanation = Scrivi ogni parola in base all’ortografia della lingua da cui proviene. Ad esempio:

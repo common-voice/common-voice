@@ -27,6 +27,7 @@ tag-empty-submit-error = Nessun testo da inviare. Aggiungi prima delle etichette
 cs-tag-do-guideline-1 = Utilizza l’ortografia corretta
 cs-tag-do-guideline-2 = Ascolta la pronuncia per determinare la lingua
 cs-tag-do-guideline-3 = Fai attenzione alle parole simili
+cs-tag-do-not-guideline-1 = Etichetta nomi propri, parole mescolate con un’altra lingua o interiezioni
 cs-tag-shortcuts-section-title = Utilizzo della tastiera
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Etichetta con lingua
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
