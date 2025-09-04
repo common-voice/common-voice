@@ -6,9 +6,14 @@ import { LinkButton } from '../ui/ui'
 import SpiralIcon from './spiral-icon/spiral-icon'
 import URLS from '../../urls'
 
+import { CookieSettings, setCookie, getCookie } from '../../services/cookie'
+
 import './header-announcement.css'
 import { CloseIcon, ExternalLinkIcon } from '../ui/icons'
 import VisuallyHidden from '../visually-hidden/visually-hidden'
+
+const COOKIE_NAME = 'mcv_user_preferences'
+const COOKIE_VALUE = ['disable_announcement'].join('|')
 
 type Props = {
   position?: string
@@ -16,12 +21,20 @@ type Props = {
 
 export const Announcement = ({ position = 'header' }: Props) => {
   const [isActive, setIsActive] = useState<boolean>(true)
+  const cookie = getCookie(COOKIE_NAME)
 
   const handleClose = () => {
     setIsActive(false)
+    setCookie(COOKIE_NAME, COOKIE_VALUE, {
+      // days: 5,
+      days: 1 / (24 * 60), // 1 minute for tests
+      path: '/',
+      secure: true,
+      sameSite: 'strict',
+    })
   }
 
-  if (!isActive || position !== 'header') {
+  if (!isActive || cookie || position !== 'header') {
     return <></>
   }
 
