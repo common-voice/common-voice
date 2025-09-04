@@ -31,9 +31,6 @@ export const Announcement = ({ position = 'header' }: Props) => {
     setIsActive(false)
     setCookie(COOKIE_NAME, COOKIE_VALUE, {
       days: COOKIE_DURATION,
-      path: '/',
-      secure: true,
-      sameSite: 'strict',
     })
   }
 
