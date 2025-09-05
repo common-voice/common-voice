@@ -329,6 +329,7 @@ code-switching-not-tag-proper-names-example-2 = Τοποθεσίες: Λος Ά�
 code-switching-not-tag-proper-names-example-3 = Επωνυμίες/οργανισμοί: Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Μικτές ή μορφολογικά προσαρμοσμένες λέξεις.</bold> Μην προσθέτετε ετικέτες σε λέξεις που συνδυάζουν γλώσσες ή έχουν καταλήξεις από άλλη γλώσσα. Παραδείγματα:
 code-switching-not-tag-mixed-words-example = Όταν μια ρίζα είναι αγγλική, αλλά η κατάληξη είναι ελληνική: «παρκάρω», «τσιλάρω»
+code-switching-not-tag-interjections = <bold>Επιφωνήματα.</bold> Τα επιφωνήματα και οι λέξεις γεμίσματος, ανεξαρτήτως γλώσσας, θα πρέπει να παραμένουν <bold>χωρίς ετικέτες</bold>. Παραδείγματα:
 code-switching-not-tag-interjections-example-1 = «Ε»
 code-switching-not-tag-interjections-example-2 = «Όχι»
 code-switching-not-tag-interjections-example-3 = «Ναι»
