@@ -242,6 +242,16 @@ code-switching-cultural-topics-header = Alege subiecte cu specific cultural
 code-switching-cultural-topics-explanation = Discuțiile despre mâncare, tradiții, sărbători și familie se pretează adesea la folosirea cuvintelor și expresiilor din mai multe limbi în aceeași intervenție.
 code-switching-cultural-topics-explanation-example = „Cum descrii mersul cu capra la colindat unei persoane care vorbește doar engleză?”
 code-switching-informal-scenarios-header = Alege situații informale
+code-switching-informal-scenarios-explanation = Conversațiile cu prietenii sau mesajele SMS includ adesea cuvinte și expresii în mai multe limbi. De exemplu:
+code-switching-informal-scenarios-explanation-example = „Ce glume fac mereu prietenii tăi sau ce expresii haioase folosesc adesea?”
+# What to Avoid
+code-switching-avoid-subheader = Ce să eviți:
+code-switching-avoid-intro = Evită întrebările care ar putea să:
+code-switching-avoid-1 = solicite informații de identificare personală;
+code-switching-avoid-2 = incite la ură sau la exprimări și sentimente părtinitoare sau jignitoare;
+code-switching-avoid-3 = facă pe cineva să împărtășească informații delicate sau să aibă reacții neplăcute.
+code-switching-dont-header = Ce să nu faci:
+code-switching-dont-1 = Nu folosi un limbaj excesiv de formal.
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-tagging-error-2 = Greșeli de ortografie
