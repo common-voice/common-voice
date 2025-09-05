@@ -318,6 +318,7 @@ code-switching-tagging-error-3 = Λέξεις γραμμένες με λανθα
 code-switching-orthography-header = Χρήση της σωστής ορθογραφίας για κάθε γλώσσα
 code-switching-orthography-explanation = Γράψτε κάθε λέξη σύμφωνα με την ορθογραφία της γλώσσας από την οποία προέρχεται. Για παράδειγμα:
 code-switching-orthography-explanation-example-1 = Ακόμα κι αν η λέξη «kitchen» ειπωθεί με ελληνική προφορά, θα πρέπει να μεταγραφεί όπως θα γραφόταν στα αγγλικά, όχι ως «κίτσεν».
+code-switching-orthography-explanation-example-2 = Ακόμα κι αν η λέξη «quinceaños» προφέρεται όπως στα αγγλικά, γράψτε την με το «ñ».
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Χρησιμοποιήστε την προφορά για να προσδιορίσετε τη γλώσσα
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
@@ -334,7 +335,8 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>αλλά</pur
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις που μοιάζουν
 code-switching-lookalikes-explanation = Μερικές λέξεις μπορεί να φαίνεται ότι προέρχονται από τη μια γλώσσα, αλλά χρησιμοποιούνται στην άλλη. Προσθέστε την ετικέτα με βάση το νόημα και τη χρήση, όχι την εμφάνιση. Παραδείγματα:
-code-switching-lookalikes-explanation-example-1 = Ο όρος «delivery» χρησιμοποιείται συχνά στα ελληνικά αντί της φράσης «παράδοση φαγητού», οπότε επισημάνετέ τον ως ελληνικά
+code-switching-lookalikes-explanation-example-1 = Ο όρος «delivery» χρησιμοποιείται συχνά στα ελληνικά αντί της φράσης «παράδοση φαγητού», οπότε σε μια τέτοια περίπτωση επισημάνετέ τον ως ελληνικά
+code-switching-lookalikes-explanation-example-2 = Η φράση «No problemo» χρησιμοποιείται συχνά στα αγγλικά, οπότε σε μια τέτοια περίπτωση θα την επισημάνετε ως αγγλικά
 # When Not to Tag Words
 code-switching-not-tag-header = Περιπτώσεις όπου δεν πρέπει να προσθέτετε ετικέτες σε λέξεις
 code-switching-not-tag-explanation = Μερικές λέξεις <bold>δεν πρέπει να φέρουν</bold> ετικέτα γλώσσας, ακόμα κι αν φαίνονται μικτές ή προσαρμοσμένες. Δείτε πώς να διαχειριστείτε μερικά παραδείγματα:
