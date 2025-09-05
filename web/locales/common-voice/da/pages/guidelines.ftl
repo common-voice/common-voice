@@ -97,6 +97,7 @@ review-the-transcription-subheader = Generel vejledning
 
 code-switching-review-offensive-content = <bold>Stødende indhold eller følsomme oplysninger</bold>
 code-switching-answer-header = Stødende indhold eller følsomme oplysninger
+code-switching-tagging-error-2 = Stavefejl
 
 ## Reporting Content
 
