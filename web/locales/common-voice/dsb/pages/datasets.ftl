@@ -102,3 +102,5 @@ female = Žeńscyny
 download-contribute-menu-tooltip = Naše głosowe datowe sajźby ześěgnuś
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Ześěgnjeńske nastajenja za pśistup k datam Common Voice
+datasets-show-more = Wšykne datowe sajźby pokazaś
+datasets-show-less = Nejnowše datowe sajźby pokazaś
