@@ -20,7 +20,7 @@ const COOKIE_NAME = 'mcv_user_preferences'
 const COOKIE_VALUE = ['disable_announcement'].join('|')
 const COOKIE_DURATION = 5 // days
 
-const ANNOUNCEMENT_ON_DATE = '2025-09-16T00:00:00Z'
+const ANNOUNCEMENT_ON_DATE = '2025-09-17T00:00:00Z'
 const ANNOUNCEMENT_OFF_DATE = '2025-12-31T23:59:59Z'
 
 type Props = {
@@ -58,7 +58,7 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
     <div className="announcement-wrapper">
       <div className="announcement-container">
         <div className="announcement-container-left">
-          <Localized id="announcement_mdc_text" elems={{ strong: <strong /> }}>
+          <Localized id="announcement-mdc-text" elems={{ strong: <strong /> }}>
             <div className="announcement-text" />
           </Localized>
           <SpiralIcon />
@@ -71,11 +71,11 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
             rounded
             blank>
             <span className="join-button__content">
-              <Localized id="announcement_mdc_button_text" />
+              <Localized id="announcement-mdc-button-text" />
               <span className="join-button__icon">{<ExternalLinkIcon />}</span>
             </span>
             <VisuallyHidden>
-              <Localized id="announcement_mdc_button_text">
+              <Localized id="announcement-mdc-button-text">
                 <span />
               </Localized>
             </VisuallyHidden>
