@@ -334,6 +334,7 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>αλλά</pur
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις που μοιάζουν
 code-switching-lookalikes-explanation = Μερικές λέξεις μπορεί να φαίνεται ότι προέρχονται από τη μια γλώσσα, αλλά χρησιμοποιούνται στην άλλη. Προσθέστε την ετικέτα με βάση το νόημα και τη χρήση, όχι την εμφάνιση. Παραδείγματα:
+code-switching-lookalikes-explanation-example-1 = Ο όρος «delivery» χρησιμοποιείται συχνά στα ελληνικά αντί της φράσης «παράδοση φαγητού», οπότε επισημάνετέ τον ως ελληνικά
 # When Not to Tag Words
 code-switching-not-tag-header = Περιπτώσεις όπου δεν πρέπει να προσθέτετε ετικέτες σε λέξεις
 code-switching-not-tag-explanation = Μερικές λέξεις <bold>δεν πρέπει να φέρουν</bold> ετικέτα γλώσσας, ακόμα κι αν φαίνονται μικτές ή προσαρμοσμένες. Δείτε πώς να διαχειριστείτε μερικά παραδείγματα:
