@@ -321,6 +321,7 @@ code-switching-orthography-explanation-example-1 = Ακόμα κι αν η λέ�
 code-switching-orthography-explanation-example-2 = Ακόμα κι αν η λέξη «quinceaños» προφέρεται όπως στα αγγλικά, γράψτε την με το «ñ».
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Χρησιμοποιήστε την προφορά για να προσδιορίσετε τη γλώσσα
+code-switching-pronunciation-explanation = Μερικές λέξεις μπορεί να έχουν γράφονται το ίδιο και στις δύο γλώσσες, αλλά να προφέρονται διαφορετικά. Ακούστε σωστά την προφορά για να επιλέξετε τη σωστή ετικέτα. Για παράδειγμα: stop, camping, delivery.
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
 # Tagging in a Single Token
