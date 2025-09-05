@@ -102,3 +102,5 @@ female = Kvinne
 download-contribute-menu-tooltip = Last ned våre stemmedatasett
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Nedlastingsalternativer for tilgang til Common Voice-data
+datasets-show-more = Vis alle datasett
+datasets-show-less = Vis siste datasett
