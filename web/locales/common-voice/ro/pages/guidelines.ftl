@@ -238,6 +238,10 @@ code-switching-focus-emotional-explanation-example = „Spune-mi ce ți-au spus 
 code-switching-direct-quotes-header = Solicită citate sau reconstituiri
 code-switching-direct-quotes-explanation = Încurajează participanții să redea exact ce s-a spus în acea situație. De exemplu:
 code-switching-direct-quotes-explanation-example = „Ce ai spus exact, atunci când ai aflat?”
+code-switching-cultural-topics-header = Alege subiecte cu specific cultural
+code-switching-cultural-topics-explanation = Discuțiile despre mâncare, tradiții, sărbători și familie se pretează adesea la folosirea cuvintelor și expresiilor din mai multe limbi în aceeași intervenție.
+code-switching-cultural-topics-explanation-example = „Cum descrii mersul cu capra la colindat unei persoane care vorbește doar engleză?”
+code-switching-informal-scenarios-header = Alege situații informale
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-tagging-error-2 = Greșeli de ortografie
