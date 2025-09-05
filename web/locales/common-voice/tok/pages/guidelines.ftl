@@ -28,6 +28,7 @@ misreadings-example-2 = sina wile e ni anuse?
 misreadings-example-3 = sina wile ala wile e ni?
 misreadings-tip-3 = [sitelen en toki li ante]
 background-noise-explanation = sina o ken kute e nimi ale lon kalama. kalama suli en toki pi jan ante en kalama musi la ilo o awen ken sona e nimi. ijo li pakala e toki la sina ken ala kute e nimi ale la o weka e toki.
+background-noise-example-2 = *kalama uta jaki* akesi suli pi *kalama uta wawa* tenpo pini
 background-voices-tip-1 = sina kama ala kama?
 still-have-questions = sina awen ala awen wile e sona?
 contact-common-voice = o toki tawa kulupu pali pi ilo Common Voice
