@@ -198,6 +198,7 @@ tags-noise-explanation =
 special-tags-example-2 =
     Και τότε [θόρυβος] πήγα διακοπές.
     Βασικά, [θόρυβος] [γέλιο] δεν ήταν ακριβώς διακοπές [γέλιο]
+transcribe-the-audio-subheader-4-explanation-1 = Η αυθόρμητη ομιλία περιέχει εκ φύσεως λανθασμένες εκκινήσεις, όπου παράγεται μόνο ένα τμήμα μιας πλήρους λέξης. Σε αυτές τις περιπτώσεις, παρακαλείστε να καταγράφετε όσο καλύτερα μπορείτε το τμήμα της λέξης και να προσθέτετε μια παύλα (-) στο τέλος της λέξης, ώστε να δηλώσετε ότι πρόκειται για αποτυχημένη αρχή μιας λέξης. Παράδειγμα:
 transcribe-the-audio-subheader-4-explanation-1-example = Τον λένε <underline>Ιω- Ιωά-</underline> Ιωάννη.
 transcribe-the-audio-subheader-4-explanation-2 = Μερικές φορές, οι ομιλητές επαναλαμβάνουν μια λέξη ή ένα τμήμα λέξης πολλές φορές. Και αυτά θα πρέπει να μεταγράφονται. Παράδειγμα:
 transcribe-the-audio-subheader-4-explanation-2-example = Και μετά, κατευθύνθηκα προς <underline>την την την κρεβα- την</underline> κρεβατοκάμαρα
@@ -208,7 +209,9 @@ transcribe-the-audio-subheader-5-explanation-2 = Οι ομιλητές μπορ�
 
 review-the-transcription = Έλεγχος μεταγραφών
 review-the-transcription-subheader = Γενικές οδηγίες
+review-the-transcription-explanation-1 = Γενικά, συμβουλεύουμε το άτομο που ελέγχει τη μεταγραφή να μην είναι το ίδιο άτομο που έκανε την αρχική μεταγραφή. Είναι πολύ δύσκολο να ελέγξετε τη δουλειά σας! Οι πολλαπλές αξιολογήσεις συμβάλλουν στην ενίσχυση της διασφάλισης της ποιότητας και στον μετριασμό των προκαταλήψεων και των προβλημάτων.
 review-the-transcription-explanation-2 = Διαβάστε τις παραπάνω οδηγίες μεταγραφής για να ελέγξετε την ακρίβεια μιας μεταγραφής. Μπορείτε να κάνετε επεξεργασίες και να τις υποβάλετε.
+review-the-transcription-explanation-3 = Μπορείτε πάντα να επισημάνετε περιεχόμενο που είναι προσβλητικό, επιβλαβές ή γενικά ανησυχητικό και αυτό θα αφαιρεθεί από την εμπειρία σας μέχρι η ομάδα του Common Voice να το ελέγξει και να το διερευνήσει περαιτέρω.
 
 ## Code-Switching
 
@@ -221,7 +224,9 @@ code-switching-adding-question-criteria-1 = Είναι εύκολη στην κ�
 code-switching-adding-question-criteria-2 = Είναι γενικά επίκαιρη
 code-switching-adding-question-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 code-switching-adding-question-note = Σκεφτείτε επίσης να συμπεριλάβετε διαφορετικά συμφραζόμενα και τομείς.
-code-switching-use-bilingual-prompts-header = Χρήση δίγλωσσων μηνυμάτων προτροπής
+# What types of questions to add
+code-switching-types-subheader = Ποιους τύπους ερωτήσεων να προσθέσω;
+code-switching-use-bilingual-prompts-header = Χρησιμοποιήστε δίγλωσσα μηνύματα προτροπής
 code-switching-use-bilingual-prompts-explanation = Χρησιμοποιήστε δίγλωσσα μηνύματα προτροπής που ενσωματώνουν και τις δύο γλώσσες στην ερώτησή σας. Παράδειγμα:
 code-switching-use-bilingual-prompts-explanation-example = «What did your mom tell you όταν γύρισες σπίτι εκείνη την ημέρα;»
 code-switching-ask-bilingual-contexts-header = Ρωτήστε σχετικά με δίγλωσσα συμφραζόμενα
