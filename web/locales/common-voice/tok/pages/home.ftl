@@ -82,3 +82,40 @@ help-contribute = sina jo e sijelo ilo pi ilo Common Voice, sina ken pona e ni: 
 login-company = o kama kepeken poki lipu sina tan kulupu { $company }.
 profile-not-required = sina jo e lipu jan la ni li pona mute. taso, sina jo ala la ni li pona.
 read-more-about = o lukin lon lipu sona mi
+
+## NAV ITEMS
+
+community-and-languages = kulupu en toki
+
+## MENU ITEMS TOOLTIPS
+
+partnerships-menu-item-tooltip = o kama lon kulupu mi
+
+## Hero section
+
+# icon is an arrow that points downwards
+get-started = o open <icon><icon>
+
+## Community section
+
+join-discord-community = o kama lon kulupu pi ilo Discord
+# label for button
+join-discord-community-action = o kama lon kulupu pi ilo Discord
+find-us-on-matrix = o kama lon kulupu pi ilo Matrix
+contribute-github = o pana e sona lon ilo GitHub
+# label for button
+contribute-github-action = o pana e sona lon ilo GitHub
+
+## Get involved section
+
+read-sentences-link = o toki uta e toki sitelen
+validate-readings-link = o pona e toki uta
+contribute-link = o suli e kulupu lipu
+answer-questions-link = o pana e sona wile
+transcribe-answers-link = o sitelen e kalama
+review-transcriptions-link = o pona e sitelen
+
+## Partner section
+
+# icon is an arrow that points to the right
+get-in-touch-button = o toki tawa mi <icon></icon>
