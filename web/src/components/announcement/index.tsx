@@ -65,7 +65,6 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
         </div>
         <div className="announcement-container-right">
           <LinkButton
-            absolute
             href={URLS.MDC_ROOT}
             id="join-mdc-button-banner"
             className="join-button"

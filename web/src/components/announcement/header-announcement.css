@@ -1,3 +1,6 @@
+@import url('../vars.css');
+@import url('../media.css');
+
 .announcement-wrapper {
   flex-shrink: 0;
   position: sticky;
@@ -112,6 +115,8 @@
       align-items: center;
       max-width: 20rem;
       cursor: pointer;
+      width: auto;
+      height: auto;
 
       @media (--sm-down) {
         width: 100%;
