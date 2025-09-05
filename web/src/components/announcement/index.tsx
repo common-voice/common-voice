@@ -18,9 +18,9 @@ import VisuallyHidden from '../visually-hidden/visually-hidden'
 
 const COOKIE_NAME = 'mcv_user_preferences'
 const COOKIE_VALUE = ['disable_announcement'].join('|')
-const COOKIE_DURATION = 1 / (24 * 60) // 1 minute for tests
+const COOKIE_DURATION = 5 // days
 
-const ANNOUNCEMENT_ON_DATE = '2025-09-02T00:00:00Z'
+const ANNOUNCEMENT_ON_DATE = '2025-09-16T00:00:00Z'
 const ANNOUNCEMENT_OFF_DATE = '2025-12-31T23:59:59Z'
 
 type Props = {
