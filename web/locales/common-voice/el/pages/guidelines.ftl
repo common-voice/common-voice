@@ -196,8 +196,8 @@ tags-noise-explanation =
     ενός αυτοκινήτου, ο ήχος από κάτι που χτυπάει το μικρόφωνο, ένα τηλέφωνο που δονείται κ.λπ.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
-    Και τότε [θόρυβος] πήγα διακοπές.
-    Βασικά, [θόρυβος] [γέλιο] δεν ήταν ακριβώς διακοπές [γέλιο]
+    Και τότε [noise] πήγα διακοπές.
+    Βασικά, [noise] [laugh] δεν ήταν ακριβώς διακοπές [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Η αυθόρμητη ομιλία περιέχει εκ φύσεως λανθασμένες εκκινήσεις, όπου παράγεται μόνο ένα τμήμα μιας πλήρους λέξης. Σε αυτές τις περιπτώσεις, παρακαλείστε να καταγράφετε όσο καλύτερα μπορείτε το τμήμα της λέξης και να προσθέτετε μια παύλα (-) στο τέλος της λέξης, ώστε να δηλώσετε ότι πρόκειται για αποτυχημένη αρχή μιας λέξης. Παράδειγμα:
 transcribe-the-audio-subheader-4-explanation-1-example = Τον λένε <underline>Ιω- Ιωά-</underline> Ιωάννη.
 transcribe-the-audio-subheader-4-explanation-2 = Μερικές φορές, οι ομιλητές επαναλαμβάνουν μια λέξη ή ένα τμήμα λέξης πολλές φορές. Και αυτά θα πρέπει να μεταγράφονται. Παράδειγμα:
@@ -277,6 +277,7 @@ code-switching-authentic-speak-example = «Well, της είπα ότι δεν �
 code-switching-use-both-languages = <bold>Χρησιμοποιήστε και τις δύο γλώσσες αν θα το λέγατε έτσι κανονικά.</bold> Ακόμη και η εναλλαγή μιας ή δύο λέξεων είναι χρήσιμη. Παράδειγμα:
 code-switching-use-both-languages-example = «Είχε εκνευριστεί πολύ because δεν επέστρεψα την κλήση της.»
 code-switching-authentic-direct-quotes = <bold>Συμπεριλάβετε άμεσες παραθέσεις ή διαλόγους.</bold> Γράψτε ακριβώς τι ειπώθηκε, χωρίς να το επεξεργαστείτε σε πιο επίσημη μορφή. Παράδειγμα:
+code-switching-authentic-direct-quotes-example = «My mom said, "Do you think this is a game?" και εγώ της απάντησα "Καλά, ηρέμησε!"»
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Μην το σκέφτεστε υπερβολικά και μην κάνετε υπερβολικές διορθώσεις
 code-switching-answer-dont-correct-language = <bold>«Διόρθωση» της γλώσσας.</bold> Δεν εξετάζεστε για τη «σωστή» χρήση της γλώσσας. Σημασία έχει η φυσικότητα.
