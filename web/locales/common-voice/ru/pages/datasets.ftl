@@ -102,3 +102,5 @@ female = Женский
 download-contribute-menu-tooltip = Загрузите наши наборы голосовых данных
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Параметры загрузки для доступа к данным Common Voice
+datasets-show-more = Показать все наборы данных
+datasets-show-less = Показать последние наборы данных
