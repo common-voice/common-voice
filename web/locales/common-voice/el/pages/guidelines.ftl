@@ -166,6 +166,7 @@ transcribe-the-audio-subheader-1-explanation-example-2 = Επισήμανση θ
 transcribe-the-audio-subheader-1-explanation-example-3 = Επισήμανση σημαντικής ηχορύπανσης, όπως συνομιλιών στο παρασκήνιο ή κορναρισμάτων αυτοκινήτων
 transcribe-the-audio-subheader-1-explanation-example-4 = Οι γραμματικές παραλλαγές και η αργκό πρέπει να καταγράφονται ακριβώς όπως εμφανίζονται. Δεν θα πρέπει να διορθώνετε ή να επεξεργάζεστε την ομιλία των χρηστών.
 transcribe-the-audio-subheader-2-explanation-1 = Οι αριθμοί και τα σύμβολα θα πρέπει να μεταγράφονται ολογράφως και όχι με αριθμητικούς ή ειδικούς χαρακτήρες. Παράδειγμα:
+transcribe-the-audio-subheader-2-explanation-2 = Τα ακρωνύμια θα πρέπει να γράφονται όπως εμφανίζονται κανονικά στη γλώσσα, σύμφωνα με τους κανόνες χρήσης κεφαλαίων. Δεν θα πρέπει να μεταγράφονται φωνητικά. Παράδειγμα:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Σωστό</correct>: Απέχει εκατό χιλιόμετρα από εδώ
 # text wrapped in wrong will be shown as red text in the UI
@@ -178,6 +179,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Σωστό</correc
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Λάθος</wrong>: Είχε 20% έκπτωση
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Σωστό</correct>: Συνελήφθησαν από το <underline>FBI</underline> την προηγούμενη Πέμπτη
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Λάθος</wrong>: Συνελήφθησαν από το <underline>εφ μπι άι</underline> την προηγούμενη Πέμπτη
+transcribe-the-audio-subheader-3-explanation = Οι παρακάτω ειδικές ετικέτες θα πρέπει να χρησιμοποιούνται για τη σήμανση δυσρυθμιών, γεμισμάτων και άλλων τύπων μη λεκτικού περιεχομένου (στα αγγλικά).
 tags-table-header-1 = Ετικέτα
 tags-table-header-2 = Σημασία
 tags-laugh = Γέλιο
@@ -185,6 +187,9 @@ tags-disfluency = Δυσρυθμία
 tags-unclear = Ασάφεια
 tags-noise = Θόρυβος
 tags-laugh-explanation = Ο ήχος του γέλιου.
+tags-disfluency-explanation =
+    Μια λέξη ή ήχος γεμίσματος που χρησιμοποιείται ως σύμβολο υποκατάστασης, ενώ ο ομιλητής αποφασίζει τι θα πει.
+    Στα ελληνικά, μερικοί συνηθισμένοι ήχοι δισταγμού είναι «εμ», «ε», «μμμ» κ.λπ.
 tags-unclear-explanation = Μια λέξη ή μια ακολουθία λέξεων που δεν είναι κατανοητή.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
