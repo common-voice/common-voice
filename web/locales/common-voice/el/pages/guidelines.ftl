@@ -187,6 +187,7 @@ tags-unclear-explanation = Μια λέξη ή μια ακολουθία λέξε
 special-tags-example-2 =
     Και τότε [θόρυβος] πήγα διακοπές.
     Βασικά, [θόρυβος] [γέλιο] δεν ήταν ακριβώς διακοπές [γέλιο]
+transcribe-the-audio-subheader-4-explanation-1-example = Τον λένε <underline>Ιω- Ιωά-</underline> Ιωάννη.
 transcribe-the-audio-subheader-4-explanation-2 = Μερικές φορές, οι ομιλητές επαναλαμβάνουν μια λέξη ή ένα τμήμα λέξης πολλές φορές. Και αυτά θα πρέπει να μεταγράφονται. Παράδειγμα:
 transcribe-the-audio-subheader-4-explanation-2-example = Και μετά, κατευθύνθηκα προς <underline>την την την κρεβα- την</underline> κρεβατοκάμαρα
 transcribe-the-audio-subheader-5-explanation-1 = Είναι φυσιολογικό η αυθόρμητη ομιλία να περιέχει γραμματικά λάθη. Αυτά δεν θα πρέπει να διορθώνονται κατά τη μεταγραφή. Η μεταγραφή θα πρέπει να αντικατοπτρίζει επακριβώς το περιεχόμενο.
@@ -268,6 +269,7 @@ code-switching-answer-dont-translate-repeat = <bold>Μετάφραση ή επα
 # Transcribing
 code-switching-transcribe-subheader = Μεταγραφή
 code-switching-transcribe-intro = Κατά τη μεταγραφή απαντήσεων που περιλαμβάνουν εναλλαγή κωδίκων, αναπαραστήστε αυτούσια τη γλώσσα του ομιλητή, χωρίς διορθώσεις, τροποποιήσεις ή απλουστεύσεις. Αυτό ισχύει για όλες τις εναλλαγές μεταξύ γλωσσών, άτυπης ομιλίας και μικτών λέξεων.
+code-switching-transcribe-do-1 = Αναπαραγάγετε τα σύντομα τμήματα πολλές φορές για να εντοπίσετε ανεπαίσθητες εναλλαγές.
 code-switching-transcribe-do-2 = Κάντε παύση μετά από κάθε πρόταση για να κάνετε έλεγχο για εναλλαγές ή μεικτές λέξεις
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Καταγραφή αυτούσιας της ομιλίας
