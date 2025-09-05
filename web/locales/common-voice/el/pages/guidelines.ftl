@@ -278,6 +278,8 @@ code-switching-use-both-languages = <bold>Χρησιμοποιήστε και τ
 code-switching-use-both-languages-example = «Είχε εκνευριστεί πολύ because δεν επέστρεψα την κλήση της.»
 code-switching-authentic-direct-quotes = <bold>Συμπεριλάβετε άμεσες παραθέσεις ή διαλόγους.</bold> Γράψτε ακριβώς τι ειπώθηκε, χωρίς να το επεξεργαστείτε σε πιο επίσημη μορφή. Παράδειγμα:
 code-switching-authentic-direct-quotes-example = «My mom said, "Do you think this is a game?" και εγώ της απάντησα "Καλά, ηρέμησε!"»
+code-switching-authentic-reflect = <bold>Αντανακλάστε το συναίσθημα, την ταυτότητα και το πλαίσιο.</bold> Η εναλλαγή κωδίκων συνήθως συμβαίνει όταν οι άνθρωποι εκφράζουν συναισθήματα, ανάγκες ή πολιτιστικές ιδέες. Εστιάστε σε αυτά όταν απαντάτε σε ερωτήσεις.
+code-switching-authentic-full-context = <bold>Χρησιμοποιήστε πλήρεις απαντήσεις με συμφραζόμενα.</bold> Να είστε όσο πιο λεπτομερείς γίνεται, παρέχοντας όσες περισσότερες πληροφορίες μπορείτε. Μοιραστείτε μια ιστορία ή ένα παράδειγμα στις απαντήσεις σας.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Μην το σκέφτεστε υπερβολικά και μην κάνετε υπερβολικές διορθώσεις
 code-switching-answer-dont-correct-language = <bold>«Διόρθωση» της γλώσσας.</bold> Δεν εξετάζεστε για τη «σωστή» χρήση της γλώσσας. Σημασία έχει η φυσικότητα.
@@ -294,7 +296,8 @@ code-switching-transcribe-do-2 = Κάντε παύση μετά από κάθε 
 code-switching-capture-header = Καταγραφή αυτούσιας της ομιλίας
 code-switching-capture-explanation = Μεταγράψτε και τις δύο γλώσσες όπως εμφανίζονται/ακούγονται. Μην «διορθώνετε» τη γλώσσα και μην αλλάζετε όλες τις λέξεις σε σε μία μόνο γλώσσα.
 # Include filler words and markers
-code-switching-filler-header = Συμπεριλάβετε συμπληρωματικές λέξεις και δείκτες
+code-switching-filler-header = Συμπεριλάβετε γεμίσματα και δείκτες
+code-switching-filler-explanation = Λέξεις και εκφράσεις, όπως «εμ», «σε φάση», «well» και «so», είναι σημαντικές. Παράδειγμα: «So, εμ, δεν ξέρω, ίσως αργότερα.»
 # Use standard spelling for each language
 code-switching-spelling-header = Χρήση τυπικής ορθογραφίας για κάθε γλώσσα
 code-switching-spelling-explanation = Προσπαθήστε να γράψετε σωστά τις λέξεις για κάθε γλώσσα, εκτός αν ο ομιλητής τις προφέρει ξεκάθαρα με μη τυπικό τρόπο.
@@ -318,6 +321,9 @@ code-switching-orthography-explanation = Γράψτε κάθε λέξη σύμφ
 code-switching-pronunciation-header = Χρησιμοποιήστε την προφορά για να προσδιορίσετε τη γλώσσα
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Προσθήκη ετικετών σε σημεία στίξης με βάση την κοντινή γλώσσα
+code-switching-punctuation-tagging-explanation = Προσθέστε ετικέτες στα σημεία στίξης χρησιμοποιώντας τη γλώσσα που βρίσκεται πλησιέστερα στα αριστερά. Παραδείγματα:
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις που μοιάζουν
 code-switching-lookalikes-explanation = Μερικές λέξεις μπορεί να φαίνεται ότι προέρχονται από τη μια γλώσσα, αλλά χρησιμοποιούνται στην άλλη. Προσθέστε την ετικέτα με βάση το νόημα και τη χρήση, όχι την εμφάνιση. Παραδείγματα:
