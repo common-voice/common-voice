@@ -161,6 +161,9 @@ transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
 transcribe-the-audio-subheader-4 = Τμήματα λέξεων, λανθασμένες εκκινήσεις, επαναλαμβανόμενες λέξεις
 transcribe-the-audio-subheader-5 = Γραμματικά λάθη και καθομιλουμένη
 transcribe-the-audio-subheader-1-explanation = Γενικά, θα πρέπει να σημειώνετε όλα όσα ακούτε. Αυτό περιλαμβάνει:
+transcribe-the-audio-subheader-1-explanation-example-1 = Καταγραφή δυσρυθμιών, όπως δισταγμών και επαναλήψεων
+transcribe-the-audio-subheader-1-explanation-example-2 = Επισήμανση θορύβων, όπως βήχα ή γέλιου
+transcribe-the-audio-subheader-1-explanation-example-3 = Επισήμανση σημαντικής ηχορύπανσης, όπως συνομιλιών στο παρασκήνιο ή κορναρισμάτων αυτοκινήτων
 transcribe-the-audio-subheader-1-explanation-example-4 = Οι γραμματικές παραλλαγές και η αργκό πρέπει να καταγράφονται ακριβώς όπως εμφανίζονται. Δεν θα πρέπει να διορθώνετε ή να επεξεργάζεστε την ομιλία των χρηστών.
 transcribe-the-audio-subheader-2-explanation-1 = Οι αριθμοί και τα σύμβολα θα πρέπει να μεταγράφονται ολογράφως και όχι με αριθμητικούς ή ειδικούς χαρακτήρες. Παράδειγμα:
 # text wrapped in correct will be shown as green text in the UI
