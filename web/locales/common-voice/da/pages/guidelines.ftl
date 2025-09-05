@@ -82,3 +82,22 @@ dont-add-subheader = Tilføj ikke
 culturally-specific-questions = Kulturspecifikke spørgsmål
 offensive-content-sensitive-information = Stødende indhold eller følsomme oplysninger
 example-questions-subheader = Eksempler på spørgsmål
+
+## Spontaneous Speech sidebar content
+
+answer-questions-subheader = Generel vejledning
+transcribe-the-audio-subheader-1 = Generel vejledning
+transcribe-the-audio-subheader-2 = Tal og akronymer
+
+## Review the Transcription
+
+review-the-transcription-subheader = Generel vejledning
+
+## Code-Switching
+
+code-switching-review-offensive-content = <bold>Stødende indhold eller følsomme oplysninger</bold>
+code-switching-answer-header = Stødende indhold eller følsomme oplysninger
+
+## Reporting Content
+
+reporting-content-subheader = Generel vejledning
