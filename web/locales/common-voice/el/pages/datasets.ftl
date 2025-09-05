@@ -94,7 +94,7 @@ data-bundle-description = Τα δεδομένα του Common Voice, καθώς 
 release-version = Έκδοση
 dataset-date = Ημερομηνία
 license = Άδεια: <licenseLink>{ $license }</licenseLink>
-license-mixed = Μεικτή
+license-mixed = Μικτή
 # Support old genders in older datasets
 male = Άνδρας
 female = Γυναίκα

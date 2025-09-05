@@ -269,10 +269,11 @@ code-switching-answer-subheader = Απάντηση ερωτήσεων
 code-switching-answer-intro = Όταν απαντάτε σε μια ερώτηση, στόχος σας είναι να απαντήσετε φυσικά, όπως θα κάνατε σε μια πραγματική συνομιλία. Θέλουμε να καταγράψουμε πώς πραγματικά αναμιγνύονται οι γλώσσες στην καθημερινή ομιλία.
 code-switching-answer-bullet-1 = Σκεφτείτε πραγματικές στιγμές ή καταστάσεις: αστεία, λογομαχίες, παραδόσεις
 code-switching-answer-bullet-2 = Φανταστείτε ότι στέλνετε μήνυμα σε έναν φίλο ή ότι λέτε σε κάποιον μια ιστορία
-code-switching-answer-bullet-3 = Συμπεριλάβετε λέξεις που θα χρησιμοποιούσατε στην πραγματικότητα, ακόμα κι αν είναι δανεικές ή μεικτές
+code-switching-answer-bullet-3 = Συμπεριλάβετε λέξεις που θα χρησιμοποιούσατε στην πραγματικότητα, ακόμα κι αν είναι δανεικές ή μικτές
 code-switching-answer-bullet-4 = Δεν υπάρχει «τέλειος» τρόπος απάντησης
 code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
 code-switching-authentic-speak = <bold>Μιλήστε όπως θα κάνατε με τους φίλους ή την οικογένειά σας.</bold> Αν συνδυάζετε γλώσσες στην πραγματικότητα, κάντε το ίδιο και εδώ. Παράδειγμα:
+code-switching-authentic-speak-example = «Well, της είπα ότι δεν μπορούσα να πάω, αλλά εκείνη είπε, "Το καλό που σου θέλω να έρθεις!"»
 code-switching-use-both-languages = <bold>Χρησιμοποιήστε και τις δύο γλώσσες αν θα το λέγατε έτσι κανονικά.</bold> Ακόμη και η εναλλαγή μιας ή δύο λέξεων είναι χρήσιμη. Παράδειγμα:
 code-switching-use-both-languages-example = «Είχε εκνευριστεί πολύ because δεν επέστρεψα την κλήση της.»
 code-switching-authentic-direct-quotes = <bold>Συμπεριλάβετε άμεσες παραθέσεις ή διαλόγους.</bold> Γράψτε ακριβώς τι ειπώθηκε, χωρίς να το επεξεργαστείτε σε πιο επίσημη μορφή. Παράδειγμα:
@@ -287,7 +288,7 @@ code-switching-answer-dont-translate-repeat = <bold>Μετάφραση ή επα
 code-switching-transcribe-subheader = Μεταγραφή
 code-switching-transcribe-intro = Κατά τη μεταγραφή απαντήσεων που περιλαμβάνουν εναλλαγή κωδίκων, αναπαραστήστε αυτούσια τη γλώσσα του ομιλητή, χωρίς διορθώσεις, τροποποιήσεις ή απλουστεύσεις. Αυτό ισχύει για όλες τις εναλλαγές μεταξύ γλωσσών, άτυπης ομιλίας και μικτών λέξεων.
 code-switching-transcribe-do-1 = Αναπαραγάγετε τα σύντομα τμήματα πολλές φορές για να εντοπίσετε ανεπαίσθητες εναλλαγές.
-code-switching-transcribe-do-2 = Κάντε παύση μετά από κάθε πρόταση για να κάνετε έλεγχο για εναλλαγές ή μεικτές λέξεις
+code-switching-transcribe-do-2 = Κάντε παύση μετά από κάθε πρόταση για να κάνετε έλεγχο για εναλλαγές ή μικτές λέξεις
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Καταγραφή αυτούσιας της ομιλίας
 code-switching-capture-explanation = Μεταγράψτε και τις δύο γλώσσες όπως εμφανίζονται/ακούγονται. Μην «διορθώνετε» τη γλώσσα και μην αλλάζετε όλες τις λέξεις σε σε μία μόνο γλώσσα.
@@ -321,11 +322,16 @@ code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις
 code-switching-lookalikes-explanation = Μερικές λέξεις μπορεί να φαίνεται ότι προέρχονται από τη μια γλώσσα, αλλά χρησιμοποιούνται στην άλλη. Προσθέστε την ετικέτα με βάση το νόημα και τη χρήση, όχι την εμφάνιση. Παραδείγματα:
 # When Not to Tag Words
 code-switching-not-tag-header = Περιπτώσεις όπου δεν πρέπει να προσθέτετε ετικέτες σε λέξεις
-code-switching-not-tag-explanation = Μερικές λέξεις <bold>δεν πρέπει να φέρουν</bold> ετικέτα γλώσσας, ακόμα κι αν φαίνονται μεικτές ή προσαρμοσμένες. Δείτε πώς να διαχειριστείτε μερικά παραδείγματα:
+code-switching-not-tag-explanation = Μερικές λέξεις <bold>δεν πρέπει να φέρουν</bold> ετικέτα γλώσσας, ακόμα κι αν φαίνονται μικτές ή προσαρμοσμένες. Δείτε πώς να διαχειριστείτε μερικά παραδείγματα:
 code-switching-not-tag-proper-names = <bold>Κύρια ονόματα.</bold> Τα ονόματα ατόμων, τοποθεσιών και οργανισμών δεν θα πρέπει να φέρουν ετικέτες. Παραδείγματα:
 code-switching-not-tag-proper-names-example-1 = Άτομα: Μαρία, Γιάννης
 code-switching-not-tag-proper-names-example-2 = Τοποθεσίες: Λος Άντζελες, Φλόριντα
 code-switching-not-tag-proper-names-example-3 = Επωνυμίες/οργανισμοί: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Μικτές ή μορφολογικά προσαρμοσμένες λέξεις.</bold> Μην προσθέτετε ετικέτες σε λέξεις που συνδυάζουν γλώσσες ή έχουν καταλήξεις από άλλη γλώσσα. Παραδείγματα:
+code-switching-not-tag-interjections-example-1 = «Ε»
+code-switching-not-tag-interjections-example-2 = «Όχι»
+code-switching-not-tag-interjections-example-3 = «Ναι»
+code-switching-not-tag-interjections-example-4 = «Εμ»
 
 ## Reporting Content
 
