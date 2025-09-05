@@ -317,6 +317,7 @@ code-switching-tagging-error-3 = Λέξεις γραμμένες με λανθα
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Χρήση της σωστής ορθογραφίας για κάθε γλώσσα
 code-switching-orthography-explanation = Γράψτε κάθε λέξη σύμφωνα με την ορθογραφία της γλώσσας από την οποία προέρχεται. Για παράδειγμα:
+code-switching-orthography-explanation-example-1 = Ακόμα κι αν η λέξη «kitchen» ειπωθεί με ελληνική προφορά, θα πρέπει να μεταγραφεί όπως θα γραφόταν στα αγγλικά, όχι ως «κίτσεν».
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Χρησιμοποιήστε την προφορά για να προσδιορίσετε τη γλώσσα
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
@@ -327,6 +328,9 @@ code-switching-single-token-explanation = Μια λεκτική μονάδα, χ
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Προσθήκη ετικετών σε σημεία στίξης με βάση την κοντινή γλώσσα
 code-switching-punctuation-tagging-explanation = Προσθέστε ετικέτες στα σημεία στίξης χρησιμοποιώντας τη γλώσσα που βρίσκεται πλησιέστερα στα αριστερά. Παραδείγματα:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>και τη μοναδική φορά που η</purple> Μαρία <purple>μού φώναξε ήταν</purple> <blue>because</blue> <purple>προσπαθούσε να</purple> <blue>print an</blue> <purple>παραγγελία.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>αλλά</purple> <blue>you can buy them in red, black, blue</blue>, <purple>όποιο χρώμα θέλετε.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις που μοιάζουν
 code-switching-lookalikes-explanation = Μερικές λέξεις μπορεί να φαίνεται ότι προέρχονται από τη μια γλώσσα, αλλά χρησιμοποιούνται στην άλλη. Προσθέστε την ετικέτα με βάση το νόημα και τη χρήση, όχι την εμφάνιση. Παραδείγματα:
