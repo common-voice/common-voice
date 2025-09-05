@@ -228,3 +228,5 @@ code-switching-adding-question-note = ທ່ານອາດຈະຕ້ອງກ
 code-switching-types-subheader = ຄຳຖາມປະເພດໃດແດ່ທີ່ຈະເພີ່ມ?
 code-switching-use-bilingual-prompts-header = ໃຊ້ການເຕືອນສອງພາສາ
 code-switching-use-bilingual-prompts-explanation = ໃຊ້ການເຕືອນສອງພາສາທີ່ລວມທັງສອງພາສາໃນຄໍາຖາມຂອງທ່ານ: ຕົວຢ່າງ:
+code-switching-use-bilingual-prompts-explanation-example = "¿Qué te dijo tu mamá ທ່ານກັບບ້ານຕອນໃດໃນມື້ນັ້ນ?"
+code-switching-ask-bilingual-contexts-header = ຖາມກ່ຽວກັບບໍລິບົດສອງພາສາ
