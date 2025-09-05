@@ -321,6 +321,9 @@ code-switching-orthography-explanation = Γράψτε κάθε λέξη σύμφ
 code-switching-pronunciation-header = Χρησιμοποιήστε την προφορά για να προσδιορίσετε τη γλώσσα
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Προσθήκη ετικετών σε μεμονωμένο διακριτικό
+code-switching-single-token-explanation = Ένα διακριτικό, διαχωρισμένο με διαστήματα, δεν θα πρέπει να περιέχει περισσότερα από ένα επισημασμένα τμήματα.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Προσθήκη ετικετών σε σημεία στίξης με βάση την κοντινή γλώσσα
 code-switching-punctuation-tagging-explanation = Προσθέστε ετικέτες στα σημεία στίξης χρησιμοποιώντας τη γλώσσα που βρίσκεται πλησιέστερα στα αριστερά. Παραδείγματα:
