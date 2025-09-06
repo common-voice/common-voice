@@ -102,3 +102,5 @@ female = خاتون
 download-contribute-menu-tooltip = اسے صوتی ڈیٹاسیٹس ڈاؤن لوڈ تِھیا
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = کامن وائس ڈیٹا بُجَیش اُڇھونے اختیارات ڈاؤن لوڈ تِھیا
+datasets-show-more = بُٹہ ڈیٹاسیٹس پشِیا
+datasets-show-less = نوں ڈیٹاسیٹس پشِیا
