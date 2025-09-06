@@ -1,31 +1,31 @@
-import * as React from 'react';
-import { Localized, useLocalization } from '@fluent/react';
-import cx from 'classnames';
+import * as React from 'react'
+import { Localized, useLocalization } from '@fluent/react'
+import cx from 'classnames'
 
-import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
-import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
+import InputLanguageVariant from '../../../profile/info/languages/input-language-variant'
+import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents'
 
-import { useAPI } from '../../../../../hooks/store-hooks';
-import { Notifications } from '../../../../../stores/notifications';
+import { useAPI } from '../../../../../hooks/store-hooks'
+import { Notifications } from '../../../../../stores/notifications'
 
-import ExpandableInformation from '../../../../expandable-information/expandable-information';
-import { QuestionMarkIcon } from '../../../../ui/icons';
-import { Button, LabeledSelect, Options } from '../../../../ui/ui';
+import ExpandableInformation from '../../../../expandable-information/expandable-information'
+import { QuestionMarkIcon } from '../../../../ui/icons'
+import { Button, LabeledSelect, Options } from '../../../../ui/ui'
 
-import { GENDERS } from '../../../../../stores/demographics';
-import { useFirstPostSubmissionCTA } from './hooks/useFirstPostSubmissionCTA';
+import { GENDERS } from '../../../../../stores/demographics'
+import { useFirstPostSubmissionCTA } from './hooks/useFirstPostSubmissionCTA'
 
-import './firstPostSubmissionCTA.css';
+import './firstPostSubmissionCTA.css'
 
-export const USER_LANGUAGES = 'userLanguages';
+export const USER_LANGUAGES = 'userLanguages'
 
 export type FirstPostSubmissionCtaProps = {
-  locale: string;
-  onReset: () => void;
-  addNotification: typeof Notifications.actions.addPill;
-  successUploadMessage: string;
-  errorUploadMessage: string;
-};
+  locale: string
+  onReset: () => void
+  addNotification: typeof Notifications.actions.addPill
+  successUploadMessage: string
+  errorUploadMessage: string
+}
 
 export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   locale,
@@ -54,10 +54,10 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     addNotification,
     successUploadMessage,
     errorUploadMessage,
-  });
+  })
 
-  const api = useAPI();
-  const { l10n } = useLocalization();
+  const api = useAPI()
+  const { l10n } = useLocalization()
 
   React.useEffect(() => {
     if (areLanguagesLoading) {
@@ -65,10 +65,10 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         api.getAccents().then(setAccentsAll),
         api.getVariants().then(setVariantsAll),
       ]).then(() => {
-        setAreLanguagesLoading(false);
-      });
+        setAreLanguagesLoading(false)
+      })
     }
-  }, []);
+  }, [])
 
   return (
     <div className="first-cta-container" data-testid="first-submission-cta">
@@ -116,7 +116,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   value={gender}
                   onChange={handleSelectChange}
                   name="gender">
-                  <option selected value="">
+                  <option value="">
                     {l10n.getString('first-cta-gender-select-default-option')}
                   </option>
                   <Options>{GENDERS}</Options>
@@ -177,5 +177,5 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         <p className="create-profile-text" />
       </Localized>
     </div>
-  );
-};
+  )
+}
