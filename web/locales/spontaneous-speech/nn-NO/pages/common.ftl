@@ -43,7 +43,7 @@ tag = Etikett
 not-found-page-header = Ikkje funne
 not-found-page-content = Fann ikkje sida du leitar etter
 # Privacy and Terms checkbox
-accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernerklæringa</privacyLink> til Common Voice
+accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernfråsegna</privacyLink> til Common Voice
 # Locales (not yet fully resolved in Pontoon)
 meh = Sørvestleg Tlaxiaco Mixtec
 mel = Central Melanau
