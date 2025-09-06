@@ -1,7 +1,7 @@
 ## Error pages
 
-banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se, gràcies per l'interès.
-banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
+banner-error-slow-1 = Lamentablement, el Common Voice està funcionant lentament. Gràcies pel vostre interès.
+banner-error-slow-2 = Estem rebent molt trànsit. Actualment estem investigant els problemes.
 banner-error-slow-link = Estat del projecte
 error-something-went-wrong = Hi ha hagut un problema
 error-clip-upload = La pujada d'aquest tall continua fallant. Voleu reintentar-ho?
