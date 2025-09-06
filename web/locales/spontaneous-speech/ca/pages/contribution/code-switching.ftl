@@ -18,3 +18,25 @@ cs-question-dataset-name = Conjunt de dades: { $datasetName }
 cs-validate-page-instruction = Valideu <validateIcon></validateIcon> que aquesta pregunta compleix les directrius.
 cs-no-questions-continue-skipped = Actualment no hi ha cap més pregunta per a aquest conjunt de dades. Si n'heu omès alguna, podeu continuar amb el contingut omès o bé podeu transcriure àudio i tornar-ho a provar més tard.
 cs-add-vote-error-message = S'ha produït un error en votar la pregunta
+
+## Transcribe Page Items
+
+cs-no-audio-continue-skipped-message = Actualment no hi ha cap àudio per transcriure en aquest conjunt de dades. Si n'heu omès algun, podeu continuar amb el contingut omès o bé podeu revisar transcripcions i tornar-ho a provar més tard.
+
+## Review Page Items
+
+cs-no-transcriptions-continue-skipped = Actualment no hi ha cap transcripció per revisar en aquest conjunt de dates. Si n'heu omès alguna, podeu continuar amb el contingut omès o bé podeu transcriure àudio i tornar-ho a provar més tard.
+
+## Tag Page Items
+
+cs-no-transcriptions-to-tag-continue-skipped = Actualment no hi ha cap transcripció per etiquetar en aquest conjunt de dates. Si n'heu omès alguna, podeu continuar amb el contingut omès o bé podeu transcriure àudio i tornar-ho a provar més tard.
+cs-tag-dataset-name = Conjunt de dades [{ $datasetName }]
+
+## Guidelines
+
+learn-how-to-use = Apreneu a usar aquesta pàgina
+read-full-guidelines-here = <guidanceLink>Llegiu les directrius completes aquí</guidanceLink>
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Una transcripció ha de capturar totes les paraules i els sons no lèxics de conversa que ha dit la persona, incloses les repeticions.
