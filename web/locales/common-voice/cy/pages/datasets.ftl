@@ -102,3 +102,5 @@ female = Benyw
 download-contribute-menu-tooltip = Llwytho ein setiau data llais i lawr
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Dewisiadau llwytho i lawr i gael mynediad at ddata Common Voice
+datasets-show-more = Dangos Pob Set Ddata
+datasets-show-less = Dangos y Setiau Data Diweddaraf
