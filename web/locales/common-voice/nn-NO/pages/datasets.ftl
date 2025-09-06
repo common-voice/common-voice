@@ -103,4 +103,4 @@ download-contribute-menu-tooltip = Last ned stemmedatasetta våre
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Nedlastingsalternativ for tilgang til Common Voice-data
 datasets-show-more = Vis alle datasett
-datasets-show-less = Vis siste datasett
+datasets-show-less = Vis nyaste datasett
