@@ -41,6 +41,7 @@ volume-explanation = Der vil være naturlige variationer i lydstyrken mellem opl
 reader-effects-explanation = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
 just-unsure-explanation = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.
 still-have-questions = Har du stadig spørgsmål?
+contact-common-voice = Kontakt Common Voice-teamet
 
 ## Sentence collection nav ids
 
@@ -85,6 +86,8 @@ example-questions-subheader = Eksempler på spørgsmål
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Besvar spørgsmål
 answer-questions-subheader = Generel vejledning
 transcribe-the-audio-subheader-1 = Generel vejledning
 transcribe-the-audio-subheader-2 = Tal og akronymer
