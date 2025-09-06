@@ -1,29 +1,34 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import Confetti from 'react-confetti';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import Confetti from 'react-confetti'
 
-import useWindowSize from '../../../../../hooks/use-window-size';
+import useWindowSize from '../../../../../hooks/use-window-size'
 
-import './secondSubmissionCTA.css';
-import { Button, LinkButton } from '../../../../ui/ui';
+import './secondSubmissionCTA.css'
+import { Button, LinkButton } from '../../../../ui/ui'
 
 type SecondPostSubmissionCtaProps = {
-  onReset: () => void;
-};
+  onReset: () => void
+}
 
 export const SecondPostSubmissionCTA: React.FC<
   SecondPostSubmissionCtaProps
 > = ({ onReset }) => {
-  const { height, width } = useWindowSize();
+  const { height, width } = useWindowSize()
+
+  if (!height) {
+    return <>...</>
+  }
 
   const confettiSourceObject = {
     w: 10,
     h: 10,
     x: width / 2,
     y: height / 4,
-  };
+  }
 
-  const heightWithoutHeader = height - 75;
+  // FIXME: In case of announcement component is shown this will change. We need to have a ref to take it into account.
+  const heightWithoutHeader = height - 75
 
   return (
     <div data-testid="second-submission-cta">
@@ -89,5 +94,5 @@ export const SecondPostSubmissionCTA: React.FC<
         </Localized>
       </div>
     </div>
-  );
-};
+  )
+}
