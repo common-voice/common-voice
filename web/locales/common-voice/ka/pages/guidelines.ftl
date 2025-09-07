@@ -238,7 +238,7 @@ code-switching-focus-emotional-explanation-example = „მითხარი, �
 code-switching-direct-quotes-header = მოითხოვეთ ნათქვამის ზუსტი გამეორება ან მიმსგავსებული წარმოდგენა
 code-switching-direct-quotes-explanation = მონაწილეებს უბიძგეთ, ყველაფერი ისე გადმოსცენ, როგორც სინამდვილეში იყო. მაგალითად:
 code-switching-direct-quotes-explanation-example = „ზუსტად რა სიტყვები უთხარით, როცა ეს ამბავი გაიგეთ?“
-code-switching-cultural-topics-header = შეარჩიეთ კითხვები ადგილობრივი ხალხის ან გარემოსა შესახებ
+code-switching-cultural-topics-header = შეარჩიეთ კითხვები ადგილობრივი ხალხის ან გარემოს შესახებ
 code-switching-cultural-topics-explanation = საჭმელი, ჩვეულებები, დღესასწაულები და ოჯახური გარემოებები, აგრეთვე იწვევს მეტყველების მონაცვლეობას.
 code-switching-cultural-topics-explanation-example = „როგორ აუხსნიდით ალაგი ლიხელეს მხოლოდ ქართული ენის მცოდნეს?“
 code-switching-informal-scenarios-header = გამოიკვლიეთ შინაურული შემთხვევები
@@ -279,7 +279,7 @@ code-switching-authentic-direct-quotes = <bold>სიტყვასიტყვ
 code-switching-authentic-full-context = <bold>სრული პასუხები გაეცით შინაარსის დართვით.</bold> ეცადეთ პასუხი რაც შეიძლება დაწვრილებითი იყოს. გადმოეცით ამბავი ან მოიყვანეთ მაგალითი პასუხისას.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = ზედმეტად ნუ იფიქრებთ და ნუ შეასწორებთ
-code-switching-answer-dont-correct-language = <bold>„გამართოთ“ თქვენი ენა.</bold> ეს გამოცდა არაა. „სათანადო“ ფორმა არაა მნიშვნელოვანი, ენის ბუნებრიობა – კი.
+code-switching-answer-dont-correct-language = <bold>„გამართოთ“ თქვენი ენა.</bold> ეს გამოცდა არაა. „სათანადო“ ფორმა კი არა, ენის ბუნებრიობაა მნიშვნელოვანი.
 code-switching-answer-dont-avoid-switching = <bold>მონაცვლეობის არიდება, თუ დამახასიათებელია თქვენთვის.</bold> არა უშავს, თუ მეტყველებას შეანაცვლებთ შუა წინადადებაში, შუა ფიქრის დროს ან შეცვლით თუნდაც ერთ სიტყვას.
 code-switching-answer-dont-formal-writing = <bold>ილაპარაკოთ ისე, თითქოს საქმიანად წერდეთ.</bold> აირიდეთ საქმიანი, მოწესრიგებული პასუხები. შეინარჩუნეთ სასაუბრო მეტყველება.
 code-switching-answer-dont-force-switch = <bold>განგებ მონაცვლეობა, თუ არაბუნებრივია.</bold> მხოლოდ იმ შემთხვევაშია მონაცვლეობა მისაღები, თუ ჩვეულებრივ ასე ლაპარაკობთ ხოლმე.
@@ -315,7 +315,7 @@ code-switching-tagging-error-3 = სიტყვები გაუმართ�
 code-switching-orthography-header = გამოიყენეთ თითოეული ენისთვის შესაფერისი მართლწერის წესები
 code-switching-orthography-explanation = დაწერეთ თითოეული სიტყვა იმ ენისდა მიხედვით, რომლიდანაცაა. მაგალითად:
 code-switching-orthography-explanation-example-1 = თუ სიტყვა „ვარდიშფერი“ მეგრულად ისმის, ასევე უნდა დაიწეროს ქართულ წინადადებაში და არა, როგორც „ვარდისფერი“.
-code-switching-orthography-explanation-example-2 = თუ სიტყვა მეზუ̂ბელ შეგხვდებათ ქართულში, დაწერისას გამოიყენეთ უ̂.
+code-switching-orthography-explanation-example-2 = თუ სიტყვა მეზუ̂ბელ გამორეული შეგხვდებათ ქართულში, დაწერისას გამოიყენეთ უ̂.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = დაუკვირდით გამოთქმას ენის გამოსაცნობად
 code-switching-pronunciation-explanation = ზოგიერთი სიტყვა ორივე ენაში მსგავსი შეიძლება იყოს, მაგრამ განსხვავებულად წარმოითქვას.  კარგად მოუსმინეთ გამოთქმას ჭდეების სწორად მითითებისთვის.  მაგალითად: ყურზენი, წვანე, ძალიერი, ნაბეტანი, სუმარი, წყარი.
@@ -328,8 +328,8 @@ code-switching-lookalikes-explanation-example-1 = „პაპა“ გამ�
 code-switching-lookalikes-explanation-example-2 = „ცინდალი“ გამოიყენება ქართულშიც > მოსანიშნია ქართულად
 # When Not to Tag Words
 code-switching-not-tag-header = როდის არ უნდა მოინიშნოს სიტყვები
-code-switching-not-tag-explanation = ზოგიერთ სიტყვას <bold>არაა მოსანიშნი</bold> ენის ჭდეებით, თუნდაც გამორეული ან ნასესხობა ჩანდეს.  აგერ რამდენიმე მაგალითი, როდი რა უნდა მოიმოქმედოთ:
-code-switching-not-tag-proper-names = <bold>საკუთარი სახელები.</bold> ხალხის, ადგილების და დაწესებულებების სახელები არაა მოსანიშნი. მაგალითები:
+code-switching-not-tag-explanation = ზოგიერთი სიტყვა <bold>არაა მოსანიშნი</bold> ენის ჭდეებით, თუნდაც გამორეული ან ნასესხობა ჩანდეს.  აგერ რამდენიმე მაგალითი, როდი რა უნდა მოიმოქმედოთ:
+code-switching-not-tag-proper-names = <bold>საკუთარი სახელები.</bold> ხალხის, ადგილებისა და დაწესებულებების სახელები არ საჭიროებს მონიშვნას. მაგალითები:
 code-switching-not-tag-proper-names-example-1 = ხალხი: ნანა, ბექნუ
 code-switching-not-tag-proper-names-example-2 = ადგილები: განმუხური, უშგული
 code-switching-not-tag-proper-names-example-3 = ბრენდები/დაწესებულებები: ლუშნუ, მაკდონალდსი
