@@ -470,3 +470,8 @@ languages-donate-banner-cta = <mark>Wužiwaće Common Voice za</mark><br/><mark>
 languages-donate-banner-cta-explanation = Common Voice so z darami a přiražki financuje! Dźěłamy rady hromadźe z akademikarjemi, ciwilnej towaršnosću a slědźerjemi industrije. Common Voice je darmotny, ale je woprawdźe pomocliwje, so z přiražkowymi namjetami na kóštach platformy a za hosting wobdźělić.
 localization-select =
     .label = Rěč/Lokalizaciju wubrać
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Wočinja w nowym rajtarku
