@@ -473,5 +473,9 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Nowe datowe sajźby Common Voice</strong> su něnto k dispoziciji, kótarež móžośo jano pśez našu sotšojsku platformu Mozilla Data Collective ześěgnuś. Pśizamkniśo se za pśistup k wěcej ako 300 globalnym datowym sajźbam, kótarež su se napórali wót zgromaźeństwa a za zgromaźeństwo.
+# Button text for MDC announcement
+announcement-mdc-button-text = Pśizamkniśo se k Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Wócynja w nowem rejtariku
