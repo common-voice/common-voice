@@ -224,11 +224,56 @@ code-switching-focus-emotional-explanation = 人们在表达情感或紧迫感�
 code-switching-focus-emotional-explanation-example = “告诉我，当你向父母宣布重大消息时，他们具体是怎么回应的——一字不差地复述他们的话。”
 code-switching-direct-quotes-explanation-example = “当你发现这个事情时你具体说了些什么？”
 code-switching-cultural-topics-header = 选择有关具体文化的话题
+code-switching-cultural-topics-explanation = 食物、传统、假期和家庭动态经常会引发语码转换。
 code-switching-cultural-topics-explanation-example = “你会怎样跟只懂中文的人介绍 Halloween？”
+code-switching-informal-scenarios-header = 探索非正式场景
+code-switching-informal-scenarios-explanation = 在与朋友对话或发短信时切换会更自然。示例：
+# What to Avoid
+code-switching-avoid-subheader = 应避免什么
+code-switching-avoid-1 = 索取个人身份信息
+code-switching-avoid-2 = 引发仇恨言论或其他偏见或冒犯性情感
+code-switching-avoid-3 = 可能引导作出敏感回答，并可能由此引发不良后果
+code-switching-dont-1 = 不要使用过于正式的用语
+# Reviewing a Question
+code-switching-review-subheader = 审核问题
+code-switching-review-criterion-1 = 易于理解，也易于回答
+code-switching-review-criterion-3 = 不能使用或引导使用伤害或冒犯性用语
+code-switching-review-does-not-header = 并且<bold>没有</bold>包括：
+code-switching-review-offensive-content = <bold>冒犯性内容或敏感信息</bold>
+code-switching-answer-header = 冒犯性内容或敏感信息
+code-switching-review-no-1 = 可能索取个人身份信息的问题
+code-switching-review-no-2 = 可能引导发表仇恨言论等偏见或冒犯性观点的问题
+code-switching-review-no-3 = 可能引导作出敏感回答，并可能由此引发不良后果的问题
+# Answering a Question
+code-switching-answer-subheader = 回答提问
+code-switching-answer-bullet-2 = 想象您正在给朋友发短信或者给某人讲故事
+code-switching-answer-bullet-3 = 使用您实际会使用的词语，即使是借用或混用
+code-switching-answer-bullet-4 = 没有“完美”的答案
+code-switching-authentic-header = 自然真实地回答
 code-switching-tagging-error-intro = 如果转录文本中存在错误，请使用反馈功能进行标记。可能的错误包括：
+code-switching-tagging-error-1 = 标点符号不正确或大小写不正确
+code-switching-tagging-error-2 = 错别字
+code-switching-tagging-error-3 = 单词拼写错误
+code-switching-orthography-explanation = 请根据该词来源语言的拼写书写文字。例如：
+code-switching-orthography-explanation-example-1 = 如果单词“kitchen”是以西班牙语发音出现的，应该按英语拼写为“kitchen”，而不是“quichen”。
+code-switching-orthography-explanation-example-2 = 如果单词 quinceañera 是以英语发音念出的，书写时仍需保留 ñ 字母。
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = 根据发音帮助判断语言
+code-switching-pronunciation-explanation = 有些词在两种语言中拼写相同，但发音可能不同。注意听发音以正确标注，例如：cable、taco、actor、detective。
 code-switching-pronunciation-explanation-example-1 = 汉语：sī
 code-switching-pronunciation-explanation-example-2 = 日语：watashi
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = 当心相似词混淆
+code-switching-lookalikes-explanation = 有些词可能看起来像一种语言，实则用于另一种语言。需根据含义和用法而非表面形式进行标注。例如：
+code-switching-lookalikes-explanation-example-1 = “Footing”在西班牙语中曾表示跑步 > 应标注为西班牙语
+# When Not to Tag Words
+code-switching-not-tag-header = 何时不应该为词语添加标签
+code-switching-not-tag-explanation = 有些词语<bold>不应被标注</bold>语言标签，即使它们看起来像混合或改编形式。以下是一些处理示例的方法：
 code-switching-not-tag-proper-names = <bold>专有名词。</bold>不应标记人名、地名、组织名。示例：
+code-switching-not-tag-proper-names-example-1 = 人物：张三、李四
+code-switching-not-tag-proper-names-example-2 = 地点：北京、上海
+code-switching-not-tag-proper-names-example-3 = 品牌/组织：比亚迪、麦当劳
+code-switching-not-tag-mixed-words-example = 若词根为英语但后缀为西班牙语："parkear"（停车）、"printearlo"（打印它）
 
 ## Reporting Content
 
