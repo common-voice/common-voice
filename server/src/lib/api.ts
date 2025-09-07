@@ -38,6 +38,7 @@ import validate, {
   sentenceSchema,
   sendLanguageRequestSchema,
   datasetSchema,
+  anonUserMetadataSchema,
 } from './validation'
 import Statistics from './statistics'
 import SentencesRouter from '../api/sentences'
@@ -98,7 +99,13 @@ export default class API {
     router.post('/user_clients/:client_id/claim', this.claimUserClient)
     router.get('/user_client', this.getAccount)
     router.patch('/user_client', this.saveAccount)
-    router.patch('/anonymous_user', this.saveAnonymousAccountLanguages)
+    router.patch(
+      '/anonymous_user',
+      validate({ body: anonUserMetadataSchema }),
+      // 1 requests per minute per IP address
+      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
+      this.saveAnonymousAccountLanguages
+    )
     router.post(
       '/user_client/avatar/:type',
       bodyParser.raw({ type: 'image/*', limit: '300kb' }),
@@ -320,7 +327,10 @@ export default class API {
 
   getAllDatasets = async (request: Request, response: Response) => {
     const releaseType = request?.query?.releaseType as string
-    if (!releaseType || !['singleword', 'delta', 'complete'].includes(releaseType)) {
+    if (
+      !releaseType ||
+      !['singleword', 'delta', 'complete'].includes(releaseType)
+    ) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     response.json(await this.model.getAllDatasets(releaseType.toString()))
@@ -377,16 +387,15 @@ export default class API {
     request: Request,
     response: Response
   ) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      body: { languages },
-    } = request
+    const client_id = request?.session?.user?.client_id
     if (!client_id) {
-      throw new ClientParameterError()
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    response.json(
+    const languages = request?.body?.languages
+    if (!languages) {
+      return response.json('no data')
+    }
+    response.status(StatusCodes.CREATED).json(
       await UserClient.saveAnonymousAccountLanguages(client_id, languages)
     )
   }
@@ -632,13 +641,11 @@ export default class API {
   createCustomGoal = async (request: Request, response: Response) => {
     const userId = request?.session?.user?.client_id
     if (!userId)
-      return response.status(StatusCodes.UNAUTHORIZED).json({ message: 'no user client id' })
+      return response
+        .status(StatusCodes.UNAUTHORIZED)
+        .json({ message: 'no user client id' })
 
-    await CustomGoal.create(
-      userId,
-      request.params.locale,
-      request.body
-    )
+    await CustomGoal.create(userId, request.params.locale, request.body)
     response.json({})
     Basket.sync(request.session.user.client_id).catch(e => console.error(e))
   }
