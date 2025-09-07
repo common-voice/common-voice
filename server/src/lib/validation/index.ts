@@ -23,5 +23,6 @@ export * from './sentences';
 export * from './datasets';
 export * from './statistics';
 export * from './clips';
+export * from './languages';
 
 export default validate;
