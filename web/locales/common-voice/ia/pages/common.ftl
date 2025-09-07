@@ -470,3 +470,8 @@ languages-donate-banner-cta = <mark>Usa vos CV pro</mark><br/><mark>vostre recer
 languages-donate-banner-cta-explanation = Common Voice es financiate per donationes e subventiones! Nos ama collaborar con academicos, recercatores de societate civil e industria. Le uso de Common Voice es gratuite, ma contribuer al platteforma e al costos de allogiamento proponente subventiones es realmente utile.
 localization-select =
     .label = Eliger lingua/localisation
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Se aperi in un nove scheda
