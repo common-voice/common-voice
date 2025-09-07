@@ -274,9 +274,13 @@ code-switching-not-tag-proper-names-example-1 = 人物：张三、李四
 code-switching-not-tag-proper-names-example-2 = 地点：北京、上海
 code-switching-not-tag-proper-names-example-3 = 品牌/组织：比亚迪、麦当劳
 code-switching-not-tag-mixed-words-example = 若词根为英语但后缀为西班牙语："parkear"（停车）、"printearlo"（打印它）
+code-switching-not-tag-interjections-example-1 = “呃”
+code-switching-not-tag-interjections-example-3 = “好的”
+code-switching-not-tag-interjections-example-4 = “呃”
 
 ## Reporting Content
 
 reporting-content = 举报内容
+reporting-content-subheader = 通用指南
 reporting-content-explanation-1 = 请举报存在伤害、冒犯性等问题，以及包含个人身份信息（例如电话号码和地址）的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步处理。
 reporting-content-explanation-2 = 若要举报内容，请选择“反馈”按钮，然后从以下情况中选择一项或多项：冒犯性内容、其他语言、个人身份信息、其他，并在文本框中详述举报理由，最后点击“反馈”按钮即可提交举报。
