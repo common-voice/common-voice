@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = Pisz
+guidelines = Wytyczne
 contact-us = Skontaktuj się z nami
 
 ## BULK SUBMISSION
