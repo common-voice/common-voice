@@ -325,7 +325,7 @@ code-switching-pronunciation-explanation-example-2 = მეგრული: /ʾu
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = ყურადღება გამოიჩინეთ მსგავსი სიტყვების მიმართ
 code-switching-lookalikes-explanation = ზოგიერთი სიტყვა შეიძლება ერთი ენის კუთვნილება ჩანდეს, მაგრამ სხვა ენიდან იყოს გამოყენებული. ჭდეებით მონიშვნა უნდა ითვალისწინებდეს შინაარსს და გარეგნულ სახეს. მაგალითები:
-code-switching-lookalikes-explanation-example-1 = „პაპა“ გამოიყენება მღვდლის მნიშვნელობით მეგრულში > მოსანიშნია მეგრული
+code-switching-lookalikes-explanation-example-1 = „თუთა“ მეგრულში თვეს ნიშნავს, ამ მნიშვნელობით გამოყენებისას > მოსანიშნია მეგრული
 code-switching-lookalikes-explanation-example-2 = „ცინდალი“ გამოიყენება ქართულშიც > მოსანიშნია ქართულად
 # When Not to Tag Words
 code-switching-not-tag-header = როდის არ უნდა მოინიშნოს სიტყვები
