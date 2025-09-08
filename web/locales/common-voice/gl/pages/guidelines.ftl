@@ -144,6 +144,7 @@ example-questions-explanation-2 = Se desexa enviar un conxunto de preguntas para
 # Answer Questions
 answer-questions = Responder preguntas
 answer-questions-subheader = Orientacións xerais
+answer-questions-explanation-1 = En primeiro lugar, pense na pregunta que aparece na pantalla e nas ideas principais que quere expresar, pero non é necesario preparar un guión detallado. A continuación, prema na icona “gravar” e comece a falar con naturalidade. Unha vez feita a gravación, pode escoitar, repetir, eliminar ou enviar a súa resposta.
 answer-questions-explanation-2 = Lembre, non se preocupe se fai pausas ou repite algunha palabra. Todos estes datos son útiles para que os/as enxeñeiros/as poidan crear ferramentas de recoñecemento de voz inclusivas e realistas.
 answer-questions-tip-1 = Grave nun espazo tranquilo.
 answer-questions-tip-2 = Asegúrese de estar nun lugar con boa conexión á rede.
@@ -159,6 +160,10 @@ transcribe-the-audio-subheader-3 = Etiquetas especiais
 transcribe-the-audio-subheader-4 = Segmentos de palabras, falsos comezos e palabras repetidas
 transcribe-the-audio-subheader-5 = Erros gramaticais e coloquialismos
 transcribe-the-audio-subheader-1-explanation = En xeral, debe escribir todo o que escoite. Isto inclúe;
+transcribe-the-audio-subheader-1-explanation-example-1 = Recoller as palabras tal e como se pronuncian, incluído os posibles erros e repeticións.
+transcribe-the-audio-subheader-1-explanation-example-2 = Anotar todas as manifestacións de ruído producidas polo propio falante, como rir ou tusir.
+transcribe-the-audio-subheader-1-explanation-example-3 = Etiquetar sons relevantes do contorno, por exemplo, ruídos de fondo ou a bucina dun coche.
+transcribe-the-audio-subheader-1-explanation-example-4 = Transcribir exactamente como se producen na fala variacións gramaticais, dialectais ou o uso de xirias, sen realizar ningunha alteración. En ningún caso se deben corrixir nin editar os discursos para adaptalos á variedade estándar.
 transcribe-the-audio-subheader-2-explanation-1 = Os números e os símbolos deben transcribirse en palabras en lugar de empregar cifras ou caracteres especiais. Exemplo:
 transcribe-the-audio-subheader-2-explanation-2 = Os acrónimos deben escribirse tal e como aparecen habitualmente na lingua, respectando as regras estándar de uso de maiúsculas e minúsculas. Non se deben transcribir foneticamente. Exemplo:
 # text wrapped in correct will be shown as green text in the UI
@@ -213,4 +218,6 @@ code-switching-adding-question-note = Tamén pode ser boa idea incluír pregunta
 ## Reporting Content
 
 reporting-content = Informar
+reporting-content-subheader = Orientacións xerais
 reporting-content-explanation-1 = Debe sinalar contido que sexa ofensivo ou prexudicial. Tampouco se debe incluír información persoal identificable, como números de teléfono ou enderezos. Ese contido será eliminado da súa experiencia ata que o equipo de Common Voice poida revisalo e investigar máis a fondo.
+reporting-content-explanation-2 = Para informar sobre este tipo de contido, prema na icona “Informar” e escolla unha ou todas as opcións: Contido ofensivo, Outra lingua, Información persoal identificable, Outro. A continuación, proporcione máis detalles no recadro de texto sobre por que está a informar do contido. Por último, envíe o informe premendo de novo na icona “Informar”.
