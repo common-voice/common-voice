@@ -274,6 +274,18 @@ code-switching-tagging-error-intro = Se a transcrición contén un erro, empregu
 code-switching-tagging-error-1 = Puntuación ou uso das maiúsculas incorrecto.
 code-switching-tagging-error-2 = Erros tipográficos.
 code-switching-tagging-error-3 = Palabras escritas con ortografía incorrecta.
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Use a ortografía correcta para cada lingua
+code-switching-orthography-explanation = Escriba cada palabra segundo a ortografía da lingua da que procede. Por exemplo:
+code-switching-orthography-explanation-example-1 = Se a palabra "kitchen" se pronuncia así en galego, debe escribirse respectando a ortografía do galego, e non como "quichen".
+code-switching-orthography-explanation-example-2 = Se a palabra "jabalí" se pronuncia así en galego, respecte a ortografía do castelán e non transcriba "xabarín".
+# When Not to Tag Words
+code-switching-not-tag-header = Cando non etiquetar palabras
+code-switching-not-tag-proper-names = <bold> Nomes propios. </bold> Non se debe etiquetar nomes de persoas, lugares e organizacións. Exemplos:
+code-switching-not-tag-proper-names-example-1 = Persoas: María, Xoán
+code-switching-not-tag-proper-names-example-2 = Lugares: Ourense, Ferrol.
+code-switching-not-tag-proper-names-example-3 = Marcas/Organizacións: Gadisa, Inditex
+code-switching-not-tag-mixed-words = <bold>Palabras adaptadas morfoloxicamente. </bold> Non etiquete palabras que combinen varias linguas ou que teñan terminación doutra lingua. Por exemplo “tuitear”, “guai”, etc.
 
 ## Reporting Content
 
