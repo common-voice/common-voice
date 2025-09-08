@@ -391,3 +391,8 @@ languages-donate-banner-cta = <mark>Common Voice’u araştırmalarınızda</mar
 languages-donate-banner-cta-explanation = Common Voice bağış ve yardımlarla finanse ediliyor. Akademisyenler, sivil toplum ve sektör araştırmacılarıyla işbirliği yapmayı seviyoruz. Common Voice’u kullanmak ücretsiz ama bağış ve yardımlarla platform ve barındırma maliyetlerine katkıda bulunmanız çok faydalı olabilir.
 localization-select =
     .label = Dil seçin
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla Data Collective'e Katılın
