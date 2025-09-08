@@ -195,3 +195,22 @@ transcribe-the-audio-subheader-5-explanation-2 = Os falantes poden empregar tam�
 review-the-transcription = Revisar a transcrición
 review-the-transcription-subheader = Orientacións xerais
 review-the-transcription-explanation-1 = Polo xeral, aconséllase que a persoa que revise a transcrición non sexa a mesma que fixo a transcrición orixinal. É moi difícil revisar o traballo propio! Ter varias liñas de revisión pode axudar a que  o control de calidade sexa máis sólido e a mitigar problemas.
+review-the-transcription-explanation-2 = Revise as directrices de transcrición anteriores para comprobar a súa precisión. Pode realizar modificacións e envialas.
+review-the-transcription-explanation-3 = Ademais, pode sinalar contido ofensivo ou prexudicial, e eliminarase da experiencia dos usuarios ata que o equipo de Common Voice poida revisalo detidamente.
+
+## Code-Switching
+
+code-switching = Cambio de código
+adding-a-question = Engadir unha pregunta
+# Adding a Question
+code-switching-adding-question-subheader = Como debería ser unha boa pregunta?
+code-switching-adding-question-explanation = Unha boa pregunta para este proxecto colectivo debería:
+code-switching-adding-question-criteria-1 = Ser doada de entender e responder
+code-switching-adding-question-criteria-2 = Ter relevancia xeral
+code-switching-adding-question-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
+code-switching-adding-question-note = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+
+## Reporting Content
+
+reporting-content = Informar
+reporting-content-explanation-1 = Debe sinalar contido que sexa ofensivo ou prexudicial. Tampouco se debe incluír información persoal identificable, como números de teléfono ou enderezos. Ese contido será eliminado da súa experiencia ata que o equipo de Common Voice poida revisalo e investigar máis a fondo.
