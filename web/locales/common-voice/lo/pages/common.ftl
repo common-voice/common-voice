@@ -470,3 +470,8 @@ languages-donate-banner-cta = <mark>ໃຊ້ CV ສໍາລັບ</mark><br/><
 languages-donate-banner-cta-explanation = Common Voice ໄດ້ຮັບທຶນຈາກການບໍລິຈາກ ແລະ ການຊ່ວຍເຫຼືອລ້າ! ພວກເຮົາມັກຮ່ວມມືກັບນັກວິຊາການ, ສັງຄົມພົນລະເຮືອນ ແລະ ນັກຄົ້ນຄວ້າອຸດສາຫະກໍາ. Common Voice ແມ່ນບໍ່ເສຍຄ່າເພື່ອໃຊ້, ແຕ່ການປະກອບສ່ວນໃນເວທີ ແລະ ຄ່າໃຊ້ຈ່າຍໃນການເກັບຊຸດຂໍ້ມູນໂດຍຜ່ານການສະເຫນີການຊ່ວຍເຫຼືອແມ່ນເປັນປະໂຫຍດຫຼາຍ.
 localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = ເປີດໃນແຖບໃໝ່
