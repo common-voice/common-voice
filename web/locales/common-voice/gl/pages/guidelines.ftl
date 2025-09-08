@@ -141,4 +141,21 @@ example-questions-explanation-2 = Se desexa enviar un conxunto de preguntas para
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Responder preguntas
+answer-questions-subheader = Orientacións xerais
+answer-questions-explanation-2 = Lembre, non se preocupe se fai pausas ou repite algunha palabra. Todos estes datos son útiles para que os/as enxeñeiros/as poidan crear ferramentas de recoñecemento de voz inclusivas e realistas.
+answer-questions-tip-1 = Grave nun espazo tranquilo.
+answer-questions-tip-2 = Asegúrese de estar nun lugar con boa conexión á rede.
+answer-questions-tip-3b = Procure que a súa resposta teña unha duración aproximada de entre 15 e 30 segundos.
+answer-questions-tip-4 = Evite o uso dunha linguaxe ofensiva ou discurso de odio.
+answer-questions-tip-5 = Fale con naturalidade, como faría coas amizades, é dicir, empregue a súa propia variante, dialecto e acento reais.
+answer-questions-tip-6 = Manteña un volume constante, non debe gritar nin cantar.
+# Transcribe the Audio
+transcribe-the-audio = Transcribir gravacións
+transcribe-the-audio-subheader-1 = Orientacións xerais
+transcribe-the-audio-subheader-2 = Números e acrónimos
+transcribe-the-audio-subheader-3 = Etiquetas especiais
+transcribe-the-audio-subheader-4 = Segmentos de palabras, falsos comezos e palabras repetidas
+transcribe-the-audio-subheader-5 = Erros gramaticais e coloquialismos
 tags-noise = Ruído
