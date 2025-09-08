@@ -140,12 +140,13 @@
             border: none;
             color: var(--black);
             font-size: var(--font-size);
-            justify-content: space-evenly;
+            justify-content: flex-start;
+            gap: 8px;
             height: 50px;
             width: fit-content;
             display: inline-flex;
             margin: 4px;
-            min-width: 13rem;
+            min-width: 12rem;
 
             @media (--lg-down) {
               align-self: flex-start;
