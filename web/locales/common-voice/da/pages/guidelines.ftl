@@ -92,6 +92,8 @@ answer-questions-subheader = Generel vejledning
 answer-questions-tip-1 = Optag på et forholdsvis roligt sted
 answer-questions-tip-2 = Vælg et sted med en god internetforbindelse
 answer-questions-tip-6 = Hold din lydstyrke ensartet - råb eller syng ikke
+# Transcribe the Audio
+transcribe-the-audio = Transskriber lyden
 transcribe-the-audio-subheader-1 = Generel vejledning
 transcribe-the-audio-subheader-2 = Tal og akronymer
 
