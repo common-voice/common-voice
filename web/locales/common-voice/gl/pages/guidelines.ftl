@@ -138,3 +138,7 @@ offensive-content-sensitive-information-explanation-explanation-3 = Preguntas qu
 example-questions-subheader = Exemplos de preguntas
 example-questions-explanation-1 = Pode atopar <examplePromptsLink>120 exemplos de preguntas nesta folla</examplePromptsLink>.
 example-questions-explanation-2 = Se desexa enviar un conxunto de preguntas para que as incorporemos, pode facelo a través do noso <githubLink>GitHub</githubLink> ou enviar a súa lista por correo a <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+tags-noise = Ruído
