@@ -162,7 +162,15 @@ transcribe-the-audio-subheader-1-explanation = En xeral, debe escribir todo o qu
 transcribe-the-audio-subheader-2-explanation-1 = Os números e os símbolos deben transcribirse en palabras en lugar de empregar cifras ou caracteres especiais. Exemplo:
 transcribe-the-audio-subheader-2-explanation-2 = Os acrónimos deben escribirse tal e como aparecen habitualmente na lingua, respectando as regras estándar de uso de maiúsculas e minúsculas. Non se deben transcribir foneticamente. Exemplo:
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = Correcto: Está a cen quilómetros de aquí.
+transcribe-the-audio-subheader-2-example-1-correct = <correcto> Correcto</correcto>: Está a cen quilómetros de aquí.
 # text wrapped in wrong will be shown as red text in the UI
-transcribe-the-audio-subheader-2-example-1-wrong = Incorrecto: Está a 100 quilómetros de aquí.
+transcribe-the-audio-subheader-2-example-1-wrong = <incorrecto> Incorrecto </incorrecto>: Está a 100 quilómetros de aquí.
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correcto> Correcto</correcto>: Vémonos no  <underline>dous mil quince</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto>: Vémonos no <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do vinte por cento.
+transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do 20%.
+transcribe-the-audio-subheader-2-example-4-correct = <correcto>Correcto</correcto>: É xornalista na <underline>RTVG </underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <incorrecto>Incorrecto</incorrecto>: É xornalista na <underline> erre te uve gue </underline>
 tags-noise = Ruído
