@@ -188,3 +188,10 @@ transcribe-the-audio-subheader-4-explanation-1-example = Chámanlle <underline>X
 transcribe-the-audio-subheader-4-explanation-2 = En ocasións, os falantes repiten varias veces unha palabra ou un fragmento. Isto tamén se debe transcribir. Exemplo:
 transcribe-the-audio-subheader-4-explanation-2-example = E despois fun <underline>pra pra pra hab- pra</underline> habitación.
 transcribe-the-audio-subheader-5-explanation-1 = O discurso espontáneo pode incluír erros gramaticais. Estes non deben ser corrixidos cando se transcribe, pois a transcrición debe reflectir exactamente o contido do discurso oral.
+transcribe-the-audio-subheader-5-explanation-2 = Os falantes poden empregar tamén coloquialismos e formas reducidas (por exemplo, en galego, "pra min", "taba facer", etc.) que poderían non considerarse formalmente correctas. Estas expresións deben transcribirse como se pronuncian, sen modificalas polos seus equivalentes máis formais.
+
+## Review the Transcription
+
+review-the-transcription = Revisar a transcrición
+review-the-transcription-subheader = Orientacións xerais
+review-the-transcription-explanation-1 = Polo xeral, aconséllase que a persoa que revise a transcrición non sexa a mesma que fixo a transcrición orixinal. É moi difícil revisar o traballo propio! Ter varias liñas de revisión pode axudar a que  o control de calidade sexa máis sólido e a mitigar problemas.
