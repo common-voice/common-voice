@@ -249,6 +249,23 @@ code-switching-answer-dont-force-switch = <bold>Force o cambio se non é natural
 code-switching-answer-dont-translate-repeat = <bold>Traduza ou repite todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
 # Transcribing
 code-switching-transcribe-subheader = Transcribir
+code-switching-transcribe-intro = Ao transcribir as respostas que inclúen alternancias de código, represente o idioma do falante tal e como se pronunciou - sen corrixir, editar ou simplificar. Isto aplica a todos os cambios entre linguas, á fala informal, aos castelanismos, etc.
+code-switching-transcribe-do-1 = Reproduza segmentos curtos varias veces para detectar cambios sutís.
+code-switching-transcribe-do-2 = Faga pausas despois de cada oración para verificar se hai cambios ou palabras mesturadas.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Rexistre o discurso exactamente tal e como se pronunciou
+code-switching-capture-explanation = Transcriba ambas linguas tal e como aparecen/soan. Non "corrixa" a lingua nin cambie o discurso a un só idioma.
+# Include filler words and markers
+code-switching-filler-header = Inclúa as palabras de recheo e os marcadores
+code-switching-filler-explanation = Palabras como “mm”, “eh”, “pois”, “si”, “claro”, “entón”, son significativas. Exemplo: "Entón, eh, díxenlle algo así como ‘pois non sei, podemos miralo’ e non me dixo nada máis".
+# Use standard spelling for each language
+code-switching-spelling-header = Use a ortografía estándar para cada lingua
+code-switching-spelling-explanation = Intente escribir as palabras correctamente para cada lingua, a menos que o/a falante as pronuncie claramente dunha maneira non estándar.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Non limpe nin simplifique a linguaxe
+code-switching-cleanup-1 = Traduza ou parafrasee - escriba o que dixo o falante, non o que "quixo dicir".
+code-switching-cleanup-2 = "Corrixa" a gramática ou a pronuncia - manteña o uso natural do falante.
+code-switching-cleanup-3 = Evite cambios que parezan menores ou insignificantes - incluso os préstamos lingüísticos son importantes.
 
 ## Reporting Content
 
