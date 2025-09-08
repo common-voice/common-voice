@@ -214,6 +214,13 @@ code-switching-adding-question-criteria-1 = Ser doada de entender e responder
 code-switching-adding-question-criteria-2 = Ter relevancia xeral
 code-switching-adding-question-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
 code-switching-adding-question-note = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+# What to Avoid
+code-switching-avoid-subheader = Que se debe evitar
+code-switching-avoid-intro = Preguntas que poden:
+code-switching-avoid-1 = Solicitar información de identificación persoal.
+code-switching-avoid-2 = Incitar discursos de odio ou outros sentimentos tendenciosos ou ofensivos.
+code-switching-avoid-3 = Favorecer que alguén comparta información sensible ou potencialmente provocadora.
+code-switching-dont-header = Non
 # Reviewing a Question
 code-switching-review-subheader = Revisar unha pregunta
 code-switching-review-intro = Asegúrese de que a pregunta respecte os seguintes criterios:
