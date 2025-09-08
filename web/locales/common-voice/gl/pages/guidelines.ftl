@@ -230,6 +230,14 @@ code-switching-review-no-3 = Preguntas que poidan provocar respostas sensibles e
 code-switching-answer-subheader = Responder unha pregunta
 code-switching-answer-intro = Ao responder unha pregunta, o obxectivo é facelo de maneira natural, como se faría nunha conversa na vida real. Queremos ver como se mesturan as linguas na fala cotiá.
 code-switching-answer-bullet-1 = Pense en momentos ou situacións da vida real: chistes, conversas, costumes, etc.
+code-switching-answer-bullet-2 = Imaxine que está falando coas amizades ou contándolle unha historia a algún coñecido.
+code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, incluso castelanismos, préstamos doutras linguas, etc.
+code-switching-answer-bullet-4 = Non existe unha forma "perfecta" de responder.
+code-switching-authentic-header = Responda con naturalidade e autenticidade.
+code-switching-authentic-speak = <bold> Fale como o faría coas amizades ou coa familia. </bold> Se mestura linguas na vida real, faga o mesmo. Exemplo:
+code-switching-authentic-direct-quotes = <bold> Inclúa citas directas ou diálogos. </bold> Reproduza as palabras tal e como foron ditas, non as reformule nin ofreza unha versión máis formal. Exemplo:
+code-switching-authentic-direct-quotes-example = "Miña nai dixo 'Tú crees que esto es un juego?' e eu estaba como, 'Bueno, calma'"
+code-switching-authentic-reflect = <bold>Reflicta emocións, identidade e contexto.</bold> Os cambios de código e as influencias doutras linguas adoitan aparecer ao expresar emocións, ideas culturais, humor, etc. Apóiese nestes factores ao responder as preguntas.
 
 ## Reporting Content
 
