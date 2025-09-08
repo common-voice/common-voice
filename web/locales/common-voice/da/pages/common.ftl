@@ -251,6 +251,12 @@ email-opt-in-info-sub-with-challenge = Modtag e-mails med påmindelser om udford
 email-opt-in-privacy-v2 = Ved at tilmelde dig e-mails accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 not-available-abbreviation = Ikke tilgængelig
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopier
+# Text shown on a button that can be clicked to cancel an action
+cancel = Annuller
+# Text shown on a button that can be clicked to delete an item
+delete = Slet
 
 ## Donate banner
 
