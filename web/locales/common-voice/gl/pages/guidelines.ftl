@@ -214,6 +214,22 @@ code-switching-adding-question-criteria-1 = Ser doada de entender e responder
 code-switching-adding-question-criteria-2 = Ter relevancia xeral
 code-switching-adding-question-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
 code-switching-adding-question-note = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+# Reviewing a Question
+code-switching-review-subheader = Revisar unha pregunta
+code-switching-review-intro = Asegúrese de que a pregunta respecte os seguintes criterios:
+code-switching-review-criterion-1 = Ser doada de entender e responder.
+code-switching-review-criterion-2 = Ter relevancia xeral.
+code-switching-review-criterion-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva.
+code-switching-review-does-not-header = E isto <bold>NON</bold> inclúe:
+code-switching-review-offensive-content = <bold> Contido ofensivo ou información sensible </bold>
+code-switching-answer-header = Contido ofensivo ou información sensible
+code-switching-review-no-1 = Preguntas que poidan solicitar información que identifique a unha persoa.
+code-switching-review-no-2 = Preguntas que poidan dar lugar a discurso de odio ou expresións ofensivas ou tendenciosas.
+code-switching-review-no-3 = Preguntas que poidan provocar respostas sensibles e potencialmente provocadoras.
+# Answering a Question
+code-switching-answer-subheader = Responder unha pregunta
+code-switching-answer-intro = Ao responder unha pregunta, o obxectivo é facelo de maneira natural, como se faría nunha conversa na vida real. Queremos ver como se mesturan as linguas na fala cotiá.
+code-switching-answer-bullet-1 = Pense en momentos ou situacións da vida real: chistes, conversas, costumes, etc.
 
 ## Reporting Content
 
