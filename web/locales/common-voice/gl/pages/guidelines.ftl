@@ -221,6 +221,7 @@ code-switching-avoid-1 = Solicitar información de identificación persoal.
 code-switching-avoid-2 = Incitar discursos de odio ou outros sentimentos tendenciosos ou ofensivos.
 code-switching-avoid-3 = Favorecer que alguén comparta información sensible ou potencialmente provocadora.
 code-switching-dont-header = Non
+code-switching-dont-1 = Non utilice unha linguaxe demasiado formal.
 # Reviewing a Question
 code-switching-review-subheader = Revisar unha pregunta
 code-switching-review-intro = Asegúrese de que a pregunta respecte os seguintes criterios:
