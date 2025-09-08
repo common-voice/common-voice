@@ -266,6 +266,14 @@ code-switching-cleanup-header = Non limpe nin simplifique a linguaxe
 code-switching-cleanup-1 = Traduza ou parafrasee - escriba o que dixo o falante, non o que "quixo dicir".
 code-switching-cleanup-2 = "Corrixa" a gramática ou a pronuncia - manteña o uso natural do falante.
 code-switching-cleanup-3 = Evite cambios que parezan menores ou insignificantes - incluso os préstamos lingüísticos son importantes.
+code-switching-cleanup-4 = Insira signos de puntuación que poidan cambiar o significado - manteña a fluidez.
+code-switching-cleanup-5 = Supoña que coñece a lingua de cada palabra - etiquete segundo o uso.
+# Tagging
+code-switching-tagging-subheader = Etiquetaxe
+code-switching-tagging-error-intro = Se a transcrición contén un erro, empregue a función de reportar para comunicalo. Os posibles erros inclúen:
+code-switching-tagging-error-1 = Puntuación ou uso das maiúsculas incorrecto.
+code-switching-tagging-error-2 = Erros tipográficos.
+code-switching-tagging-error-3 = Palabras escritas con ortografía incorrecta.
 
 ## Reporting Content
 
