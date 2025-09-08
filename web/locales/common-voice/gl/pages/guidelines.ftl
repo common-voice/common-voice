@@ -281,11 +281,17 @@ code-switching-orthography-explanation-example-1 = Se a palabra "kitchen" se pro
 code-switching-orthography-explanation-example-2 = Se a palabra "jabalí" se pronuncia así en galego, respecte a ortografía do castelán e non transcriba "xabarín".
 # When Not to Tag Words
 code-switching-not-tag-header = Cando non etiquetar palabras
+code-switching-not-tag-explanation = Algunhas palabras <bold> non debe etiquetarse</bold> coa etiqueta de lingua aínda que parezan mesturadas ou adaptadas. A continuación, explícase como abordar algúns exemplos:
 code-switching-not-tag-proper-names = <bold> Nomes propios. </bold> Non se debe etiquetar nomes de persoas, lugares e organizacións. Exemplos:
 code-switching-not-tag-proper-names-example-1 = Persoas: María, Xoán
 code-switching-not-tag-proper-names-example-2 = Lugares: Ourense, Ferrol.
 code-switching-not-tag-proper-names-example-3 = Marcas/Organizacións: Gadisa, Inditex
-code-switching-not-tag-mixed-words = <bold>Palabras adaptadas morfoloxicamente. </bold> Non etiquete palabras que combinen varias linguas ou que teñan terminación doutra lingua. Por exemplo “tuitear”, “guai”, etc.
+code-switching-not-tag-mixed-words = <bold>Palabras adaptadas morfoloxicamente. </bold> Non etiquete palabras que combinen varias linguas ou que teñan terminación doutra lingua. Exemplos:
+code-switching-not-tag-mixed-words-example = “tuitear”, “guai”, etc.
+code-switching-not-tag-interjections = <bold>Interxeccións.</bold> As interxeccións e as palabras de recheo, independentemente da lingua, deben permanecer <bold>sen etiquetar</bold>. Exemplos:
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = "Non"
+code-switching-not-tag-interjections-example-3 = "Claro"
 
 ## Reporting Content
 
