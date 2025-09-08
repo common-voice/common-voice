@@ -158,4 +158,11 @@ transcribe-the-audio-subheader-2 = Números e acrónimos
 transcribe-the-audio-subheader-3 = Etiquetas especiais
 transcribe-the-audio-subheader-4 = Segmentos de palabras, falsos comezos e palabras repetidas
 transcribe-the-audio-subheader-5 = Erros gramaticais e coloquialismos
+transcribe-the-audio-subheader-1-explanation = En xeral, debe escribir todo o que escoite. Isto inclúe;
+transcribe-the-audio-subheader-2-explanation-1 = Os números e os símbolos deben transcribirse en palabras en lugar de empregar cifras ou caracteres especiais. Exemplo:
+transcribe-the-audio-subheader-2-explanation-2 = Os acrónimos deben escribirse tal e como aparecen habitualmente na lingua, respectando as regras estándar de uso de maiúsculas e minúsculas. Non se deben transcribir foneticamente. Exemplo:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = Correcto: Está a cen quilómetros de aquí.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = Incorrecto: Está a 100 quilómetros de aquí.
 tags-noise = Ruído
