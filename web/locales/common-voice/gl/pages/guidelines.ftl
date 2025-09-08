@@ -235,9 +235,20 @@ code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, inclus
 code-switching-answer-bullet-4 = Non existe unha forma "perfecta" de responder.
 code-switching-authentic-header = Responda con naturalidade e autenticidade.
 code-switching-authentic-speak = <bold> Fale como o faría coas amizades ou coa familia. </bold> Se mestura linguas na vida real, faga o mesmo. Exemplo:
+code-switching-use-both-languages = <bold>Empregue ambas linguas se así o diría normalmente. </bold> Incluso cambiar unha ou dúas palabras é útil. Exemplo:
 code-switching-authentic-direct-quotes = <bold> Inclúa citas directas ou diálogos. </bold> Reproduza as palabras tal e como foron ditas, non as reformule nin ofreza unha versión máis formal. Exemplo:
 code-switching-authentic-direct-quotes-example = "Miña nai dixo 'Tú crees que esto es un juego?' e eu estaba como, 'Bueno, calma'"
 code-switching-authentic-reflect = <bold>Reflicta emocións, identidade e contexto.</bold> Os cambios de código e as influencias doutras linguas adoitan aparecer ao expresar emocións, ideas culturais, humor, etc. Apóiese nestes factores ao responder as preguntas.
+code-switching-authentic-full-context = <bold>Use respostas completas e contextualizadas.</bold> Proporcione a maior cantidade de detalles posible e engada información sobre as circunstancias para que as respostas teñan sentido e sexan comprendidas. Comparta unha anécdota ou un exemplo nas súas respostas.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Non pense nin edite demasiado.
+code-switching-answer-dont-correct-language = <bold> "Corrixa" a súa linguaxe. </bold> Isto non é un exame. Aquí non importa a forma "correcta", o que interesa é a linguaxe natural.
+code-switching-answer-dont-avoid-switching = <bold>Evite cambiar de lingua se o fai normalmente.</bold> Está ben cambiar na metade dunha frase, na metade dun pensamento ou mesmo empregar só unha palabra noutra lingua.
+code-switching-answer-dont-formal-writing = <bold> Fale como se estivera escribindo formalmente.</bold> Evite as respostas formais e académicas. Manteña un ton conversacional.
+code-switching-answer-dont-force-switch = <bold>Force o cambio se non é natural.</bold> Alterne só se así é como falaría naturalmente nesa situación.
+code-switching-answer-dont-translate-repeat = <bold>Traduza ou repite todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
+# Transcribing
+code-switching-transcribe-subheader = Transcribir
 
 ## Reporting Content
 
