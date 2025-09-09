@@ -387,13 +387,10 @@ export default class API {
     request: Request,
     response: Response
   ) => {
-    const client_id = request?.session?.user?.client_id
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
     const languages = request?.body?.languages
-    if (!languages) {
-      return response.json('no data')
+    const client_id = request?.session?.user?.client_id
+    if (!client_id || !languages || languages.length === 0) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     response.status(StatusCodes.CREATED).json(
       await UserClient.saveAnonymousAccountLanguages(client_id, languages)
