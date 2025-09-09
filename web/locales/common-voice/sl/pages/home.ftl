@@ -86,6 +86,7 @@ read-more-about = Preberite več na naši strani O nas
 ## NAV ITEMS
 
 answer-questions = Odgovarjajte na vprašanja
+review-transcriptions = Preglejte prepise
 add-questions = Dodajte vprašanja
 press-and-stories = Novice in zgodbe
 community-and-languages = Skupnost in jeziki
@@ -96,10 +97,13 @@ spontaneous-speech = SPONTANI GOVOR
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Partnerstva, novice in zgodbe, skupnost in jeziki
 about-us-menu-item-tooltip = Spoznajte poslanstvo in ekipo, ki stoji za projektom Common Voice
+press-and-stories-menu-item-tooltip = Preberite zgodbe, novice in medijska poročila o projektu Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Meni za dostop do partnerstev, novic in zgodb, skupnosti in jezikov
 partnerships-menu-item-aria-label = Več o partnerstvih s Common Voice
 
 ## Hero section
@@ -133,6 +137,7 @@ contribute-github-action = Prispevajte na GitHubu
 ## Get involved section
 
 answer-questions-link = Odgovarjajte na vprašanja
+review-transcriptions-link = Preglejte prepise
 contribute-text-link = Prispevajte besedilo
 press-and-stories-link = Novice in zgodbe
 
