@@ -18,4 +18,4 @@ report-error = Προέκυψε σφάλμα κατά την υποβολή τη
 continue = Συνέχεια
 # Header for report modal after successful reporting
 success = Επιτυχία
-report-success-message = Η αναφορά υποβλήθηκε επιτυχώς!
+report-success-message = Η αναφορά υποβλήθηκε επιτυχώς
