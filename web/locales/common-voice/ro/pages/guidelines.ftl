@@ -255,6 +255,9 @@ code-switching-dont-1 = Nu folosi un limbaj excesiv de formal.
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
 code-switching-review-intro = Asigură-te că întrebarea îndeplinește următoarele criterii:
+code-switching-review-criterion-1 = este ușor de înțeles și de răspuns la ea;
+code-switching-review-criterion-2 = este relevantă, de actualitate;
+code-switching-review-criterion-3 = nu folosește și nu instigă la folosirea unui limbaj violent și ofensator.
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
