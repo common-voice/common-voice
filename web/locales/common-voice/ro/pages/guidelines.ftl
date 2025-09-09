@@ -258,6 +258,15 @@ code-switching-review-intro = Asigură-te că întrebarea îndeplinește următo
 code-switching-review-criterion-1 = este ușor de înțeles și de răspuns la ea;
 code-switching-review-criterion-2 = este relevantă, de actualitate;
 code-switching-review-criterion-3 = nu folosește și nu instigă la folosirea unui limbaj violent și ofensator.
+code-switching-review-does-not-header = Pe lângă acestea, întrebarea <bold>NU TREBUIE SĂ CONȚINĂ</bold> următoarele:
+code-switching-review-offensive-content = <bold>Conținut ofensator sau informații personale</bold>
+code-switching-answer-header = Conținut ofensator sau informații personale
+code-switching-review-no-1 = întrebările nu trebuie să solicite informații de identificare personală;
+code-switching-review-no-2 = întrebările nu trebuie să incite la ură sau la exprimări părtinitoare sau jignitoare;
+code-switching-review-no-3 = întrebările nu trebuie să solicite informații delicate sau să declanșeze reacții neplăcute.
+# Answering a Question
+code-switching-answer-subheader = Cum să răspunzi la o întrebare
+code-switching-answer-intro = Când răspunzi la o întrebare, scopul este să răspunzi natural, exact așa cum ai face-o într-o conversație obișnuită. Vrem să înregistrăm cum se îmbină limbile diverse în vorbirea de zi cu zi.
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
