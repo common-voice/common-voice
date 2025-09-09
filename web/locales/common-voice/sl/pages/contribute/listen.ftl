@@ -16,9 +16,11 @@ validate-readings-coming-soon = Preverite izgovore <small>(kmalu)</small>
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Preverite izgovore, preglejte prepise
+validate-readings-menu-item-tooltip = Preverite prebrane izgovore, ki so jih posneli uporabniki v vašem jeziku
 review-transcriptions-menu-item-tooltip = Preglejte prepise, ki so jih predložili uporabniki v vašem jeziku
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Meni možnosti poslušanja
+validate-readings-menu-item-aria-label = Preverite izgovore, ki so jih prispevali člani skupnosti
 review-transcriptions-menu-item-aria-label = Preverite točnost prepisov posnetih stavkov

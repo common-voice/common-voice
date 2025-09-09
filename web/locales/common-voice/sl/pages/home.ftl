@@ -136,6 +136,7 @@ contribute-github-action = Prispevajte na GitHubu
 
 ## Get involved section
 
+validate-readings-link = Preverite izgovore
 answer-questions-link = Odgovarjajte na vprašanja
 review-transcriptions-link = Preglejte prepise
 contribute-text-link = Prispevajte besedilo
