@@ -473,5 +473,7 @@ localization-select =
 
 ## MDC Announcement
 
+# Button text for MDC announcement
+announcement-mdc-button-text = ເຂົ້າຮ່ວມ Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = ເປີດໃນແຖບໃໝ່
