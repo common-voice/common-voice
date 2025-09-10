@@ -3,6 +3,7 @@
 card-button-next = Înainte
 card-button-back = Înapoi
 demo-eofy-header = Versiunea de final de 2019
+demo-account = Cont
 
 ## Demo Account
 
