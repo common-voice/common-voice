@@ -331,6 +331,7 @@ sco = Skotsk
 sd = Sindhi
 sdh = Súd-Koerdysk
 sdo = Serian Bidayuh
+seh = Sena
 sei = Seri
 shi = Tashelhiyt (Shilha)
 shn = Shan
