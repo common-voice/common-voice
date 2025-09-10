@@ -102,3 +102,5 @@ female = Froulik
 download-contribute-menu-tooltip = Us spraakgegevenssets downloade
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Downloadopties foar tagong ta Common Voice-gegevens
+datasets-show-more = Alle gegevenssets toane
+datasets-show-less = Nijste gegevenssets toane
