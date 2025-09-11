@@ -135,9 +135,6 @@ join-discord-community = Aliĝu al la komunumo en Discord
 join-discord-community-action = Aliĝu al nia komunumo en Discord
 join-discord-community-content = Partoprenu en diskutoj de la lingvokomunumo, faru demandojn, kaj eksciu pri venontaj eventoj kaj prelegoj.
 find-us-on-matrix = Trovu nin ĉe Matrix
-find-us-on-matrix-content = Matrix estas malferma, malpeza protokolo por malcentralizita, realtempa komunikado, kaj la preferata malferma diskuta platformo de Mozilla.
-# label for button
-find-us-on-matrix-action = Trovu nin ĉe Matrix
 ask-mozilla-share = Petu al Mozilla disvastigi viajn eventojn
 ask-mozilla-share-content = Ĉu vi havas pasintan aŭ venontan eventon? Dividu ĝin kun ni kaj ni anoncos ĝin al nia komunumo aŭ skribos blogan artikolon pri ĝi!
 # label for button

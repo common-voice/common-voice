@@ -143,9 +143,6 @@ join-discord-community = Kemer perzh e kumuniezh Discord
 join-discord-community-action = Kit e darempred ganeomp war Discord
 join-discord-community-content = Kemer perzh e kaozeadennoù ar gumuniezh yezhel, sevel goulennoù ha bezañ kelaouet eus ar prezegennoù ha darvoudoù.
 find-us-on-matrix = Adkavout ac'hanomp war Matrix
-find-us-on-matrix-content = Matrix zo anezhañ ur protokol skañv ha digor evit kaozeadennoù war-eeun digreizennet. Bez' eo ivez savenn flapañ karetañ Mozilla.
-# label for button
-find-us-on-matrix-action = Adkavout ac'hanomp war Matrix
 ask-mozilla-share = Goulennit digant Mozilla rannañ ho tarvoudoù
 ask-mozilla-share-content = Ur darvoud hoc'h eus bet pe a vo aozet ganeoc'h ? Rannit anezhañ ganeomp ha kemennet e vo ganeomp d'hor c'humuniezh, pe skrivit ur pennad blog diwar e benn !
 # label for button

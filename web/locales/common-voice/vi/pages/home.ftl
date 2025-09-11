@@ -128,9 +128,6 @@ join-discord-community = Tham gia cộng đồng Discord
 join-discord-community-action = Tham gia cùng chúng tôi trên Discord
 join-discord-community-content = Tham gia vào các cuộc thảo luận về cộng đồng ngôn ngữ, đặt câu hỏi, tìm hiểu về các sự kiện và cuộc nói chuyện sắp tới.
 find-us-on-matrix = Tìm chúng tôi trên Matrix
-find-us-on-matrix-content = Matrix là một giao thức mở, nhẹ để phân cấp, giao tiếp thời gian thực và nền tảng thảo luận mở ưa thích của Mozilla.
-# label for button
-find-us-on-matrix-action = Tìm chúng tôi trên Matrix
 ask-mozilla-share = Yêu cầu Mozilla chia sẻ sự kiện của bạn
 ask-mozilla-share-content = Có sự kiện trước đó hoặc sắp tới? Chia sẻ nó với chúng tôi và chúng tôi sẽ thông báo nó cho cộng đồng hoặc viết một blog về nó!
 # label for button

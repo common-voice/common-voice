@@ -137,9 +137,6 @@ join-discord-community = Discord সমাজত যোগদান কৰক
 join-discord-community-action = Discord-ত আমাৰ সৈতে যোগদান কৰক
 join-discord-community-content = ভাষিক সমাজৰ আলোচনাত অংশগ্ৰহণ কৰক, প্ৰশ্ন কৰক আৰু আগন্তুক অনুষ্ঠান আৰু কথোপকথনৰ বিষয়ে জানি লওক।
 find-us-on-matrix = আমাক Matrix-ত পাওক
-find-us-on-matrix-content = Matrix হৈছে বিকেন্দ্ৰিত, বাস্তৱ-সময়ৰ যোগাযোগৰ বাবে এক মুক্ত, লঘু প্ৰ’টকল আৰু Mozilla-ৰ পছন্দৰ মুক্ত আলোচনাৰ মঞ্চ।
-# label for button
-find-us-on-matrix-action = আমাক Matrix-ত পাওক
 ask-mozilla-share = Mozilla-ক আপোনাৰ অনুষ্ঠান ভাগ-বতৰা কৰিবলৈ কওক
 ask-mozilla-share-content = পূৰ্বৰ বা আগন্তুক কোনো অনুষ্ঠান আছেনে? আমাৰ লগত ভাগ-বতৰা কৰক আৰু আমি আমাৰ সমাজৰ আগত ঘোষণা কৰিম বা ইয়াৰ বিষয়ে এটা ব্লগ লিখিম!
 # label for button

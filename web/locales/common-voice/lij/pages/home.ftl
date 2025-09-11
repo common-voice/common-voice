@@ -132,9 +132,6 @@ join-discord-community = Intra inta communitæ in sce Discord
 join-discord-community-action = Piggia parte in sce Discord
 join-discord-community-content = Parteçipa a-e discuscioin da communitæ linguistica, fanni de domande e descreuvi i pròscimi eventi e presentaçioin.
 find-us-on-matrix = Vëgni à trovâne in sce Matrix
-find-us-on-matrix-content = Matrix o l’é un protocòllo averto e legio pe-a communicaçion deçentralizzâ in tempo reale, e a ciattaforma ch’à l’é ciù caa à Mozilla.
-# label for button
-find-us-on-matrix-action = Vëgni à trovâne in sce Matrix
 ask-mozilla-share = Domanda à Mozilla de scompartî i teu eventi
 ask-mozilla-share-content = T’æ organizzou un evento in passou ò ti n’æ un in programma? Scompartiscilo con niatri e l’annonçiemo a-a nòstra communitæ, ò scriviemo un articolo in sciô blog.
 # label for button

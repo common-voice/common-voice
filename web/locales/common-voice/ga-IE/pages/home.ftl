@@ -125,9 +125,6 @@ join-discord-community = Bí linn i Discord Community
 join-discord-community-action = Bí linn ar Discord
 join-discord-community-content = Glac páirt i bplé pobail teanga, cuir ceisteanna, agus cuir eolas ar imeachtaí agus cainteanna atá ar na bacáin.
 find-us-on-matrix = Aimsigh ar Matrix sinn
-find-us-on-matrix-content = Is ardán oscailte éadrom é Matrix le haghaidh cumarsáide díláraithe, fíor-ama, agus an t-ardán is fearr le Mozilla chun nithe a phlé go hoscailte.
-# label for button
-find-us-on-matrix-action = Aimsigh ar Matrix sinn
 ask-mozilla-share = Iarr ar Mozilla d'imeachtaí a roinnt
 ask-mozilla-share-content = An bhfuil imeacht agat roimhe seo nó ag teacht aníos? Roinn linn é agus fógróimid dár bpobal é nó scríobhfaimid mír ar bhlag faoi!
 # label for button

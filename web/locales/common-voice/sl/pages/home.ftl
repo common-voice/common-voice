@@ -128,8 +128,6 @@ add-text = Dodaj besedilo
 # label for button
 join-discord-community-action = Pridružite se nam na Discordu
 find-us-on-matrix = Poiščite nas na Matrixu
-# label for button
-find-us-on-matrix-action = Poiščite nas na Matrixu
 contribute-github = Prispevajte na GitHubu
 # label for button
 contribute-github-action = Prispevajte na GitHubu

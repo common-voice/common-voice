@@ -98,8 +98,6 @@ add-text = Dalikt tekstu
 ## Community section
 
 find-us-on-matrix = Meklej myus Matrix
-# label for button
-find-us-on-matrix-action = Meklej myus Matrix
 
 ## Get involved section
 

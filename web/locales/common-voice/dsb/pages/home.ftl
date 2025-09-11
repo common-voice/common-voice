@@ -141,9 +141,6 @@ join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
 join-discord-community-action = &nbsp;Pśizamkniśo se nam na Discord
 join-discord-community-content = Wobźělśo se na diskusijach rěcnego zgromaźeństwa, stajśo pšašanja a zgóńśo wó pśichodnych zarědowanjach a rozgronach.
 find-us-on-matrix = Namakajśo nas na Matrix
-find-us-on-matrix-content = Matrix jo wótwórjony, lažki protokol za decentralizěrowanu komunikaciju w napšawdnem casu a wót Mozilla preferěrowana wótwórjona diskusijna platforma.
-# label for button
-find-us-on-matrix-action = Namakajśo nas na Matrix
 ask-mozilla-share = Pšosćo Mozilla, aby waše zarědowanja źělił
 ask-mozilla-share-content = Maśo zajźone abo pśichodne zarědowanje? Źělśo jo z nami a my buźomy jo našomu zgromaźeństwoju pśipowěźiś abo blog wó tom pisaś.
 # label for button
