@@ -5,6 +5,7 @@ import { Localized } from '@fluent/react'
 import { LinkButton } from '../ui/ui'
 import SpiralIcon from './spiral-icon/spiral-icon'
 import URLS from '../../urls'
+import { trackGtag } from '../../services/tracker-ga4'
 
 import { setCookie, getCookie } from '../../services/cookie'
 // TODO: Currently we only check cookie existence
@@ -37,6 +38,7 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
     setCookie(COOKIE_NAME, COOKIE_VALUE, {
       days: COOKIE_DURATION,
     })
+    trackGtag('close-mdc-announcement-button', { position: position })
   }
 
   const now = new Date()
@@ -66,10 +68,12 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
         <div className="announcement-container-right">
           <LinkButton
             href={URLS.MDC_ROOT}
-            id="join-mdc-button-banner"
+            id="join-mdc-announcement-button"
             className="join-button"
             rounded
-            blank>
+            blank
+            onClick={() => trackGtag('join-mdc-announcement-button', { position: position })}
+            >
             <span className="join-button__content">
               <Localized id="announcement-mdc-button-text" />
               <span className="join-button__icon">{<ExternalLinkIcon />}</span>
@@ -83,7 +87,7 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
         </div>
       </div>
       <div className="announcement-close-button">
-        <CloseIcon black onClick={handleClose} />
+        <CloseIcon black onClick={handleClose} id="close-mdc-announcement-button" />
       </div>
     </div>
   )
