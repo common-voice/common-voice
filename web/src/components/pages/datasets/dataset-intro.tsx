@@ -5,7 +5,7 @@ import PageHeading from '../../ui/page-heading'
 
 import './dataset-intro.css'
 
-const ANNOUNCEMENT_ON_DATE = '2025-09-10T00:00:00Z'
+const ANNOUNCEMENT_ON_DATE = '2025-09-17T00:00:00Z'
 const now = new Date()
 const isMdcPublished = now >= new Date(ANNOUNCEMENT_ON_DATE)
 
