@@ -28,7 +28,7 @@ bal = Beluci
 bas = Basaa
 bax = Bamun
 bba = Bariba
-bbj = Ghomala'
+bbj = Ghomala’
 bbl = Tush
 bce = Mengambo
 bci = Baulé
@@ -470,3 +470,12 @@ languages-donate-banner-cta = <mark>Utilizzi Common Voice per</mark><br/><mark>l
 languages-donate-banner-cta-explanation = Common Voice è finanziato da donazioni e sovvenzioni. Amiamo collaborare con accademici, società civile e ricercatori del settore. Common Voice è gratuito, ma sostenere parte dei costi della piattaforma e dell’hosting attraverso proposte di sovvenzione è davvero utile.
 localization-select =
     .label = Scegli lingua/localizzazione
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>I nuovi dataset di Common Voice</strong> sono ora disponibili per il download esclusivamente attraverso la nostra piattaforma gemella, Mozilla Data Collective. Iscriviti per accedere a oltre 300 dataset globali, realizzati da e per la comunità.
+# Button text for MDC announcement
+announcement-mdc-button-text = Unisciti a Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Si apre in una nuova scheda

@@ -147,9 +147,6 @@ join-discord-community = ڈسکارڈ کمیونٹی ٹی ساڑی مبو۔
 join-discord-community-action = ڈسکارڈ آ نن تون اوار مبو
 join-discord-community-content = زبانی کمیونٹی نا بحث تیٹی بشخ البو، سوج ارفبو، بروکا واقعہ غاک و ہیت و گپ نا باروٹ چابو۔
 find-us-on-matrix = میٹرکس آ ننے پٹبو
-find-us-on-matrix-content = میٹرکس وکندریقرت، ریئل ٹائم کمیونیکیشن، و موزیلا نا ترجیحی اوپن ڈسکشن پلیٹ فارم کن اسہ ملوکو، سوبکو پروٹول ئس اے۔
-# label for button
-find-us-on-matrix-action = میٹرکس آ ننے پٹبو
 ask-mozilla-share = موزیلا ئے پابو نما پروگراماتے شیئر کے
 ask-mozilla-share-content = انت گڈیکو یا بروکو پروگرام ئس ارے؟ اودے ننے آ رادہ کبو و نن اونا پڑو ئے تینا مخلوق تون کینہ یا اونا باروٹ بلاگ نوشتہ کینہ!
 # label for button

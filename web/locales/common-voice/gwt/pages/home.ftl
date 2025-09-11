@@ -126,9 +126,6 @@ join-discord-community = ڈِسکارڈ برادَرِیہ لُبُسِؤ
 join-discord-community-action = ڈِسکارڈہ امہ مِنزی لُبُسِؤ
 join-discord-community-content = کمیؤنِٹِیَنی ہانسی لادَہ حصہ گوؤ، کھد گوؤ، اؤ ژِݪہ واقعات اؤ باتِیَنہ بارا پرُوزِؤ۔
 find-us-on-matrix = امہ قالُِپہ کوڅِؤ
-find-us-on-matrix-content = مېٹرکس اؤ ڈی سینٹیلائزڈ ریئل ٹائم کمیونِکېشن اؤ موزیلانہ ترجیحی اوپن دِسکشن پلېٹفارَمہ ݭڅی یَک ووڑاتہ، لؤ اوبہ پروٹوکول تھنہ۔
-# label for button
-find-us-on-matrix-action = امہ قالُِپہ کوڅِؤ
 ask-mozilla-share = تانُو واقعاتہ لُبُسَئیکہ ݭڅی موزیلاں ژَؤ
 ask-mozilla-share-content = کی پتاپی یا ژِݪہ واقَیا تھنا؟ تسہ امہ مِنزی شِئر کېرِؤ اؤ امہ تسَنی اعلانہ تانُو برادَرِیہ کېرِکہ یا تسَنہ بارا بلاک لِکِکہ!
 # label for button

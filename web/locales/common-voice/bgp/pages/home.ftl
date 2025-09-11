@@ -141,9 +141,6 @@ join-discord-community = ڈسکارڈ کمیونٹی ئا ہوار بی
 join-discord-community-action = ڈسکارڈ سرا مارا ہوار بئے
 join-discord-community-content = زبان ءِ چاگرد ءِ گپ ءُ تران ءَ بہر زور اِت، جُست بہ کن اِت ءُ آیوکیں مراگش ءُ گپ ءُ ترانانی بابت ءَ سرپد بہ بئے۔
 find-us-on-matrix = مارا میٹرکس سرا پول
-find-us-on-matrix-content = میٹرکس وکندریقرت، ریئل ٹائم کمیونیکیشن، ءُ موزیلا ءِ پسندیدہ پچیں بحث ءِ پلیٹ فارم ءِ ھاتر ءَ یک پچیں، ہلکا وزن ءِ پروٹوکول اِنت۔
-# label for button
-find-us-on-matrix-action = مارا میٹرکس سرا پول
 ask-mozilla-share = موزیلا ئا گوئش کہ وثی مراگشاں بہر بہ کنت
 ask-mozilla-share-content = چہ پیسریگیں یا آیوکیں مراگشے ھست؟ مئے گوما شیئر کن اِت ءُ ما وتی چاگرد ءَ جار جنیں یا ایشی ءِ بابت ءَ بلاگ نبشتہ کنیں!
 # label for button

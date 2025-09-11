@@ -102,3 +102,5 @@ female = Weiblich
 download-contribute-menu-tooltip = Laden Sie unsere Sprachdatensätze herunter
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Download-Optionen für den Zugriff auf Common-Voice-Daten
+datasets-show-more = Alle Datensätze anzeigen
+datasets-show-less = Neueste Datensätze anzeigen

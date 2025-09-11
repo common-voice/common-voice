@@ -134,9 +134,6 @@ join-discord-community = نا موافق برادري مان شامل ٿاوون
 join-discord-community-action = ناموافق مان شامل
 join-discord-community-content = برادري ني ٻولي هاري شراڪت دار وات سينچ ڪري۔ سوال پُوسو هانَ آيا واۯا پروگرام نا ڀارا مان وات ڪرو۔
 find-us-on-matrix = ميٽرڪس مان تلاش ڪرو
-find-us-on-matrix-content = ميٽرڪس سئي وکت مان وات سينچ هارو هانَ ماتي وات ڪريا هارو ايڪ پليٽ فارم کلل سي،
-# label for button
-find-us-on-matrix-action = امان نين ميٽرڪس مان تلاش ڪرو
 ask-mozilla-share = موزيلا ٿي تمار پروگرام نا بارا مان پُوسو
 ask-mozilla-share-content = ڪوئي گذرل يان آيا واۯو ڪوئي پروگرام سي۔ اي امان ٿِي شير ڪرو هانَ اين ڀارا مان برادري نين ڪيشان يان بلوگ لکو۔
 # label for button

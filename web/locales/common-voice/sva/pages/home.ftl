@@ -132,9 +132,6 @@ join-discord-community = სგ'ა̄̈ხტყუბა̄̈ნ Discord სა�
 join-discord-community-action = სგ'ა̄̈ნტყუბა̄̈ნ ნა̈ჲ Discord-ჟი
 join-discord-community-content = მონაწილეობა ა̈ხი̄კ ნინი თემრე დისკუსიაისგა, ლა̈ხჭუ̂ედ ი ა̈ხმეჴერ მოვლენა̄ლე ი მოლაპარაკება̄ლე ბედჟი.
 find-us-on-matrix = ჟა̄̈ნითხ Matrix-ჟი
-find-us-on-matrix-content = Matrix ლი ღია, ჰა̈ში პროტოკოლ დევენტრალიზებულ კომუნიკაცია̄̈შდ რეალურ დუ̂რეუ̂ისგა ი Mozilla-ა̈შ ღია დისკუსია̄̈ლეშდ.
-# label for button
-find-us-on-matrix-action = ჟა̄̈ნითხ Matrix-ჟი
 ask-mozilla-share = ხა̈ჰრ  Mozilla-ს ისგუ მოვლენა̄ლე გაზიარება
 ask-mozilla-share-content = ჯუღუ̂აჲა ღონისძიება? გაგუ̂იზიარე ი ნა̈ჲ ქა ხო̄მბუ̂იდ ნიშგუ̂ეჲ საზოგადოებას ჰედ ჩუ ხუ̂ა̈ჲრიდ ამი̄ ბედჟი ბლოგჟი!
 # label for button

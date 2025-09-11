@@ -135,9 +135,6 @@ join-discord-community = Uniu-vos a la comunitat Discord
 join-discord-community-action = Uniu-vos a nosaltres a Discord
 join-discord-community-content = Participeu en debats de la comunitat lingüística, feu preguntes i informeu-vos sobre els propers esdeveniments i xerrades.
 find-us-on-matrix = Trobeu-nos a Matrix
-find-us-on-matrix-content = Matrix és un protocol obert i lleuger per a la comunicació descentralitzada en temps real i la plataforma de discussió oberta preferida de Mozilla.
-# label for button
-find-us-on-matrix-action = Trobeu-nos a Matrix
 ask-mozilla-share = Demaneu a Mozilla que comparteixi els vostres esdeveniments
 ask-mozilla-share-content = Teniu algun esdeveniment passat o proper? Compartiu-lo amb nosaltres i l'anunciarem a la nostra comunitat o en farem una entrada al blog!
 # label for button

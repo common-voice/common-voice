@@ -135,9 +135,6 @@ join-discord-community = ქაკათით Discord-ართობას
 join-discord-community-action = მოზოჯით Discord-შა
 join-discord-community-content = მიღით მონაწილეობა ნინაში მუკი-მუკი აკოშაყარელი ართობაში დისკუსიაშა, ქიკითხით დო ქიგეგით უმოსი მუმალი ღონისძიებეფიში ვარდა შეხვალამეფიში გურშენი.
 find-us-on-matrix = დობგორით Matrix-ის
-find-us-on-matrix-content = Matrix რე გონჯამილი, ლექინი ოქმი უღუნ ფერი საშუალება რეალურ ბორჯის ბონას ოკონტაქტებელო, ნამუსუთ Mozilla ოსხუნუანს გონჯამილი დისკუსიეფიშოთ.
-# label for button
-find-us-on-matrix-action = ქობძირით Matrix-ის
 ask-mozilla-share = ქოთხით Mozilla-ს თქვანი ღონისძიება შხვას გურთასჷნი
 ask-mozilla-share-content = გიღუდესო ვარდა გეგმუნთო მუთუნი ღონისძიებას? გომირთით დო ჩქი გუვოჩინებაფუანთ საზოგადოებას დო გაგმუაქიანენთ სვეტის!
 # label for button

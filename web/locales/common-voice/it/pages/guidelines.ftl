@@ -26,7 +26,7 @@ varying-pronunciations-explanation-1 = Accogliamo di buon grado accenti differen
 varying-pronunciations-explanation-2 = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
 varying-pronunciations-example = Sono subito da te.
 varying-pronunciations-tip-1 = [Per la maggior parte dei parlanti italiani, la parola “subito” viene pronunciata come in italiano standard]
-varying-pronunciations-tip-2 = [Nelle regioni del Sud dell'Italia la parola “subito” potrebbe essere pronunciata con una consonante raddoppiata ”subbito”]
+varying-pronunciations-tip-2 = [Nelle regioni del Sud dell’Italia la parola “subito” potrebbe essere pronunciata con una consonante raddoppiata ”subbito”]
 offensive-content-explanation = Le frasi vengono controllate attraverso un processo di moderazione effettuato dalla comunità, tuttavia questo processo non è perfetto. Se vedi o senti una frase che ti offende o ti fa sentire a disagio, ad esempio perché viola le nostre <participationGuidelines>Linee guida per la partecipazione alla comunità</participationGuidelines>, utilizza il pulsante Segnala nell’interfaccia utente. Puoi anche contattarci all’indirizzo <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = È importante leggere correttamente tutte le parole del testo di esempio. Durante l’ascolto, controlla con molta attenzione che quanto registrato corrisponda esattamente a quanto scritto. La registrazione deve essere rifiutata se alcune parole sono state aggiunte, rimosse o contratte.
 misreadings-explanation-2 = Errori molto comuni includono:
@@ -70,7 +70,7 @@ sentence-domain = Dominio della frase
 
 public-domain-explanation-1 = È molto importante che tutte le frasi siano di <publicDomain>pubblico dominio</publicDomain> (<cc0>cc0</cc0>) poiché il dataset di Common Voice è distribuito con licenza cc0. Inserisci una frase solo se ne sei sicuro e includi sempre la citazione.
 public-domain-explanation-2 = Le frasi migliori per costruire un motore di riconoscimento vocale efficace sono quelle in cui viene utilizzato un linguaggio colloquiale e attuale. Ecco alcune idee per aiutarti a generare frasi:
-public-domain-explanation-3 = Crea frasi colloquiali e attuali individualmente, con i tuoi amici o con la tua comunità linguistica, per esempio organizzando una "maratona di scrittura"
+public-domain-explanation-3 = Crea frasi colloquiali e attuali individualmente, con i tuoi amici o con la tua comunità linguistica, per esempio organizzando una “maratona di scrittura”
 public-domain-explanation-4 = Contatta autori, drammaturghi o sceneggiatori e chiedi loro se sono disposti a devolvere al pubblico dominio una piccola parte delle loro opere
 public-domain-explanation-5 = Cerca testi per cui il copyright non è più applicabile, come ad esempio la maggior parte dei libri pubblicati prima del 1920
 public-domain-explanation-6 = Contatta governi, organizzazioni senza fini di lucro oppure organizzazioni dei media per verificare se i loro contenuti web, i loro rapporti o altri contenuti possono essere devoluti al pubblico dominio
@@ -197,7 +197,7 @@ tags-noise-explanation =
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     E poi [noise] sono andato in vacanza.
-    Be', [noise] [laugh] non era esattamente una vacanza [laugh]
+    Be’, [noise] [laugh] non era esattamente una vacanza [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Il discorso spontaneo contiene naturalmente false partenze in cui viene prodotta solo una parte di una parola intera. In questi casi, trascrivi al meglio la parte della parola pronunciata e aggiungi un trattino alla fine della parola (-) per indicare che è una falsa partenza. Esempio:
 transcribe-the-audio-subheader-4-explanation-1-example = Si chiama <underline>Gio- Giova-</underline> Giovanni.
 transcribe-the-audio-subheader-4-explanation-2 = A volte le persone potrebbero ripetere più volte una parola o un segmento di una parola. Anche questo dev’essere trascritto. Esempio:
@@ -211,7 +211,7 @@ review-the-transcription = Convalidare la trascrizione
 review-the-transcription-subheader = Guida generale
 review-the-transcription-explanation-1 = In generale, è consigliabile che la persona che controlla la trascrizione non sia la stessa persona che ha eseguito la trascrizione originale. È molto difficile controllare il proprio lavoro! Avere più linee di revisione aiuta a rendere più affidabile il controllo della qualità e a mitigare bias e problemi.
 review-the-transcription-explanation-2 = Consulta le linee guida per la trascrizione descritte precedentemente per verificare che una trascrizione sia corretta. Se trovi che sia incorretta, puoi apportare modifiche e inviarle.
-review-the-transcription-explanation-3 = Anche in questo caso puoi segnalare contenuti offensivi, malevoli o comunque problematici; quei contenuti verranno rimossi dalla tua esperienza fino a quando il team di Common Voice non potrà esaminarli e indagare ulteriormente.
+review-the-transcription-explanation-3 = Anche in questo caso puoi segnalare i contenuti offensivi, malevoli o comunque problematici. I contenuti segnalati non ti verranno più mostrati fino a quando il team di Common Voice non li avrà esaminati e verificati ulteriormente.
 
 ## Code-Switching
 
@@ -227,7 +227,9 @@ code-switching-adding-question-note = Considera anche l’inclusione di contesti
 # What types of questions to add
 code-switching-types-subheader = Che tipo di domande aggiungere?
 code-switching-use-bilingual-prompts-header = Utilizza domande bilingue
+code-switching-use-bilingual-prompts-explanation = Aggiungi domande bilingue in cui entrambe le lingue vengono utilizzate nella stessa domanda. Esempio:
 code-switching-use-bilingual-prompts-explanation-example = “Che cosa ti ha detto tua mamma when you got home that day?”
+code-switching-ask-bilingual-contexts-header = Fai domande sui contesti bilingue
 code-switching-ask-bilingual-contexts-explanation = Utilizza situazioni in cui entrambe le lingue sono comunemente utilizzate (ad es. a casa, a scuola, durante eventi della comunità). Esempio:
 code-switching-ask-bilingual-contexts-explanation-example = “Quando parli con i tuoi cugini, usi un mix di italiano e inglese?”
 code-switching-focus-emotional-header = Punta su momenti emotivi o cruciali
@@ -267,6 +269,7 @@ code-switching-answer-subheader = Rispondere a una domanda
 code-switching-answer-intro = Quando rispondi a una domanda, l’obiettivo è rispondere in modo naturale, proprio come faresti in una conversazione reale. Vogliamo catturare il modo in cui le lingue si mescolano nel linguaggio quotidiano.
 code-switching-answer-bullet-1 = Pensa a momenti o situazioni della vita reale: battute, discussioni, tradizioni
 code-switching-answer-bullet-2 = Immagina di scrivere un messaggio a un amico o di raccontare una storia a qualcuno
+code-switching-answer-bullet-3 = Scegli parole che useresti davvero, inclusi prestiti linguistici o un mix di lingue diverse.
 code-switching-answer-bullet-4 = Non esiste un modo “perfetto” per rispondere
 code-switching-authentic-header = Rispondi in modo naturale e autentico
 code-switching-authentic-speak = <bold>Parla come parleresti con amici o familiari.</bold> Se nella vita reale mescoli più lingue, fai lo stesso anche qui. Esempio:
@@ -277,14 +280,82 @@ code-switching-authentic-direct-quotes = <bold>Includi citazioni dirette o dialo
 code-switching-authentic-direct-quotes-example = “My mum said, ‘Do you think this is a game?’ e io le ho risposto ‘OK, rilassati!‘”
 code-switching-authentic-reflect = <bold>Rendi emozioni, identità e contesto.</bold> Il cambio di lingua avviene di solito quando le persone esprimono emozioni, urgenza o idee culturali. Sfrutta questi aspetti quando rispondi alle domande.
 code-switching-authentic-full-context = <bold>Utilizza risposte complete e contestualizzate.</bold> Cerca di essere il più dettagliato possibile nelle tue risposte, condividendo anche storie o esempi.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Non pensare o rielaborare troppo
 code-switching-answer-dont-correct-language = <bold>Non “correggere” la tua lingua.</bold> Questo non è un test. La forma “corretta” non è importante qui, ciò che conta è il linguaggio naturale.
+code-switching-answer-dont-avoid-switching = <bold>Non cercare di evitare il cambio di codice se è una cosa che fai normalmente.</bold> Puoi cambiare a metà frase, a metà pensiero o anche solo per una parola.
+code-switching-answer-dont-formal-writing = <bold>Non parlare come se stessi scrivendo in modo formale.</bold> Evita risposte formali e accademiche. Mantieni un tono colloquiale.
+code-switching-answer-dont-force-switch = <bold>Non forzare il cambio di codice se non ti viene naturale.</bold> Cambia lingua solamente se è così che parleresti spontaneamente in quella situazione.
+code-switching-answer-dont-translate-repeat = <bold>Non tradurre o ripetere tutto.</bold> Dillo una volta sola, come si farebbe in una conversazione. Non è necessario dare una versione della risposta per ogni lingua.
 # Transcribing
 code-switching-transcribe-subheader = Trascrizioni
+code-switching-transcribe-intro = Quando trascrivi delle risposte che includono un cambio di codice linguistico, riporta fedelmente il linguaggio di chi parla così come è stato espresso, senza correzioni, modifiche o semplificazioni. Questo vale per tutti i cambi di lingua, le espressioni informali e le parole in lingue diverse.
+code-switching-transcribe-do-1 = Riascolta più volte i segmenti brevi per identificare cambi di codice difficili da notare
+code-switching-transcribe-do-2 = Metti in pausa dopo ogni frase per verificare la presenza di cambi di codice o parole appartenenti a lingue diverse
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Riporta il discorso fedelmente così com’è stato detto
+code-switching-capture-explanation = Trascrivi entrambe le lingue esattamente nel modo in cui vengono utilizzate. Non “correggere” la lingua o riscrivere il contenuto in una lingua sola.
+# Include filler words and markers
+code-switching-filler-header = Includi riempitivi e marcatori del discorso
+code-switching-filler-explanation = Anche parole come “ehm”, “tipo”, “well”, “sai” e “so” sono importanti. Ad esempio: “Allora, ehm, le ho detto tipo: ‘Well, I don’t know, forse più tardi’”.
 # Use standard spelling for each language
 code-switching-spelling-header = Utilizza l’ortografia standard per ciascuna lingua
+code-switching-spelling-explanation = Cerca di scrivere correttamente le parole per ciascuna lingua, a meno che chi parla non le pronunci chiaramente in modo diverso.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Non “ripulire” o semplificare la lingua
+code-switching-cleanup-1 = Non tradurre o parafrasare: scrivi ciò che la persona ha detto, non ciò che “voleva dire”.
+code-switching-cleanup-2 = Non “correggere” la grammatica o la pronuncia: mantieni l’uso naturale della lingua di chi sta parlando.
+code-switching-cleanup-3 = Non ignorare i cambi di codice che potrebbero sembrarti minori o trascurabili: anche i singoli prestiti linguistici sono importanti.
+code-switching-cleanup-4 = Non inserire punteggiatura che potrebbe cambiare il significato del discorso: mantieni il flusso naturale.
+code-switching-cleanup-5 = Non dare per scontato di conoscere la lingua di appartenenza di ogni parola: aggiungi le etichette in base all’utilizzo.
+# Tagging
+code-switching-tagging-subheader = Etichette
+code-switching-tagging-error-intro = Se la trascrizione contiene un errore, utilizza la funzione di segnalazione per indicarlo. I potenziali errori includono:
+code-switching-tagging-error-1 = Punteggiatura o maiuscole errate
+code-switching-tagging-error-2 = Errori di battitura
+code-switching-tagging-error-3 = Vocaboli con errori ortografici
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Utilizza l’ortografia corretta per ogni lingua
+code-switching-orthography-explanation = Scrivi ogni parola in base all’ortografia della lingua da cui proviene. Ad esempio:
+code-switching-orthography-explanation-example-1 = Anche se la parola “kitchen” sembra essere pronunciata come fosse in italiano, dev’essere comunque trascritta come verrebbe scritta in inglese (non “chicen”).
+code-switching-orthography-explanation-example-2 = Anche se la parola “smartphone” viene pronunciata come in italiano, dev’essere scritta con “ph”.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Ascolta la pronuncia per determinare la lingua
+code-switching-pronunciation-explanation = Alcune parole sono scritte nello stesso modo in entrambe le lingue, ma vengono pronunciate in modo diverso.  Fai attenzione alla pronuncia per scegliere l’etichetta corretta.  Ad esempio: “finale”, “scenario”, “circa”, “vice versa”.
+code-switching-pronunciation-explanation-example-1 = Inglese: /fɪˈnɑːli/
+code-switching-pronunciation-explanation-example-2 = Italiano: /fi'nale/
+# Tagging in a Single Token
+code-switching-single-token-header = Etichette in un singolo token
+code-switching-single-token-explanation = Un singolo token con caratteri separati da spazi non dovrebbe includere più di una sequenza con etichetta.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Etichetta la punteggiatura in base alla lingua che la precede
+code-switching-punctuation-tagging-explanation = Attribuisci la punteggiatura alla lingua della sequenza più vicina alla sua sinistra. Esempi:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one time that</purple> Maria <purple>screamed at me was</purple> <blue>perché</blue> <purple>she was trying to to</purple> <blue>stampare un</blue> <purple>order.</purple> (adattato da BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tu puoi comprarlo rosso, nero, blu,</blue> <purple>whatever.</purple> (adattato da BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Fai attenzione alle parole simili
+code-switching-lookalikes-explanation = Alcune parole sembrano appartenere a una lingua, ma in realtà sono utilizzate nell’altra. Etichettale in base al significato e all’utilizzo, non all’aspetto. Esempi:
+code-switching-lookalikes-explanation-example-1 = “Smart working” significa lavorare da remoto in italiano: etichettalo come italiano
+code-switching-lookalikes-explanation-example-2 = “Confetti” (in italiano: “coriandoli”) utilizzato in inglese: etichettalo come inglese
+# When Not to Tag Words
+code-switching-not-tag-header = Quando evitare di etichettare delle parole
+code-switching-not-tag-explanation = Alcune parole <bold>non devono essere etichettate</bold> con una lingua, anche se sembrano mescolate con un’altra lingua o adattate.  Di seguito viene spiegato come gestire alcuni casi specifici.
+code-switching-not-tag-proper-names = <bold>Nomi propri.</bold> I nomi di persone, luoghi e organizzazioni non devono essere etichettati. Esempi:
+code-switching-not-tag-proper-names-example-1 = Persone: Maria, John
+code-switching-not-tag-proper-names-example-2 = Luoghi: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Marchi o organizzazioni: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Parole mescolate con un’altra lingua o adattate morfologicamente.</bold> Non etichettare parole che mescolano più lingue o che contengono desinenze da una lingua diversa. Esempi:
+code-switching-not-tag-mixed-words-example = Parole in cui la radice è in inglese ma il suffisso è in italiano: “droppare”, “printarlo”
+code-switching-not-tag-interjections = <bold>Interiezioni.</bold> Interiezioni e riempitivi, indipendentemente dalla lingua, devono rimanere <bold>non etichettati</bold>. Esempi:
+code-switching-not-tag-interjections-example-1 = “Eh”
+code-switching-not-tag-interjections-example-2 = “No”
+code-switching-not-tag-interjections-example-3 = “Sì”
+code-switching-not-tag-interjections-example-4 = “Ehm”
 
 ## Reporting Content
 
+reporting-content = Segnalare contenuti
 reporting-content-subheader = Guida generale
+reporting-content-explanation-1 = I contenuti offensivi, malevoli o comunque problematici devono essere segnalati. Non devono includere inoltre informazioni di identificazione personale come numeri di telefono o indirizzi. I contenuti segnalati non ti verranno più mostrati fino a quando il team di Common Voice non li avrà esaminati e verificati ulteriormente.
+reporting-content-explanation-2 = Per segnalare un contenuto, seleziona il pulsante “Segnala” e scegli una o più opzioni: Contenuti offensivi, Lingua diversa, Informazioni di identificazione personale, Altro.  Fornisci quindi ulteriori dettagli sul motivo per cui stai segnalando il contenuto nell’area di testo.  Infine, invia la segnalazione facendo clic sul pulsante Segnala.

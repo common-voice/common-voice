@@ -126,9 +126,6 @@ join-discord-community = ڈِسکاڑڈ کَمیونِیٹی نی یو بو
 join-discord-community-action = ڈِسکارڈینی اسو ساتی یو بو
 join-discord-community-content = باشو موش کل تھین کمیونٹی نی یو بو، جیک کھُوجے، آنوپیرتے بونے ہانک موجی گہ کِیسائے سِیچ۔
 find-us-on-matrix = میٹرکسینی اسو اُڑارے
-find-us-on-matrix-content = میٹرکس ایک کھُلا، لوکو پروٹوکولیک ہوں موش کَل تھیونو کاری۔ موزیلو موش کَل تھیونو پلیٹ فارم ہُوں
-# label for button
-find-us-on-matrix-action = میٹرکسینی اسو اُڑارے
 ask-mozilla-share = موزیلیڑے واقعائے چین تھے۔
 ask-mozilla-share-content = مُچھوڑے کوئی موقعاک اَسِیلو دا یا کوئی موقعاک اونو ہُوں دا؟ ہُوں تو اَسوڑے چین تو بیسے کمیونیٹیڑے رزون یا بلاگ لِکھون۔
 # label for button

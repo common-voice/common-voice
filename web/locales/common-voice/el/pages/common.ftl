@@ -278,7 +278,7 @@ os = Οσσετικά
 pa-IN = Παντζάμπι
 pap = Παπιαμέντο
 pap-AW = Παπιαμέντο (Αρούμπα)
-pcd = Πικάρ
+pcd = Πικάρντ
 pcm = Αγγλικά Pidgin (Νιγηρία)
 pez = Πενάν (Ανατολικά)
 phl = Παλούλα
@@ -470,3 +470,12 @@ languages-donate-banner-cta = <mark>Χρησιμοποιείτε το βιογρ
 languages-donate-banner-cta-explanation = Το Common Voice χρηματοδοτείται από δωρεές και επιχορηγήσεις! Μας αρέσει να συνεργαζόμαστε με ακαδημαϊκούς, την κοινωνία των πολιτών και ερευνητές του κλάδου. Η χρήση του Common Voice είναι δωρεάν, αλλά η συνεισφορά στο κόστος της πλατφόρμας και της φιλοξενίας μέσω επιχορηγήσεων είναι πολύ χρήσιμη.
 localization-select =
     .label = Επιλογή γλώσσας/μετάφρασης
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Νέα σύνολα δεδομένων του Common Voice</strong> είναι πλέον διαθέσιμα για λήψη αποκλειστικά μέσω της πλατφόρμας Mozilla Data Collective. Εγγραφείτε για να αποκτήσετε πρόσβαση σε 300+ καθολικά σύνολα δεδομένων, που αναπτύσσονται από και για την κοινότητα.
+# Button text for MDC announcement
+announcement-mdc-button-text = Συμμετοχή στο Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Ανοίγει σε νέα καρτέλα

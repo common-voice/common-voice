@@ -47,7 +47,11 @@ export const CommunitySection: React.FC = () => {
                 {activeSection === index && (
                   <div className="section-content">
                     <p>{l10n.getString(section.content)}</p>
-                    <section.action />
+                    <div>
+                      {section.actions.map((SectionAction, inx) => (
+                        <SectionAction key={inx} />
+                      ))}
+                    </div>
                     <img
                       src={sections[activeSection].image}
                       alt=""

@@ -470,3 +470,12 @@ languages-donate-banner-cta = <mark>Wužiwaće Common Voice za</mark><br/><mark>
 languages-donate-banner-cta-explanation = Common Voice so z darami a přiražki financuje! Dźěłamy rady hromadźe z akademikarjemi, ciwilnej towaršnosću a slědźerjemi industrije. Common Voice je darmotny, ale je woprawdźe pomocliwje, so z přiražkowymi namjetami na kóštach platformy a za hosting wobdźělić.
 localization-select =
     .label = Rěč/Lokalizaciju wubrać
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Nowe datowe sadźby Common Voice</strong> su nětko k dispoziciji, kotrež móžeće jenož přez našu sotrowsku platformu Mozilla Data Collective sćahnyć. Přidružće so za přistup k wjace hač 300 globalnym datowym sadźbam, kotrež su so wot zhromadźenstwa a za zhromadźenstwo wutworili.
+# Button text for MDC announcement
+announcement-mdc-button-text = Přidružće so k Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Wočinja w nowym rajtarku

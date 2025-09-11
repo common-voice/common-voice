@@ -103,8 +103,6 @@ join-discord-community = Jùnciti â cumunità nne Discord
 # label for button
 join-discord-community-action = Jùnciti a nuiautri nne Discord
 find-us-on-matrix = Attròvani nne Matrix
-# label for button
-find-us-on-matrix-action = Attròvani nne Matrix
 
 ## Get involved section
 

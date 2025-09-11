@@ -84,6 +84,12 @@ about-playbook-how-localize-content-4 = Strona będzie gotowa do uruchomienia, g
 
 about-playbook-how-add-sentences = Jak dodawać zdania?
 
+## How to record quality
+
+about-playbook-how-record-content-3 = Przeczytaj zdanie uważnie – nie pomijaj, nie zmieniaj i nie dodawaj słów.
+about-playbook-how-record-content-4 = Zanim zaczniesz mówić, upewnij się, że platforma nagrywa i że przestaje nagrywać dopiero po tym, jak skończysz.
+about-playbook-how-record-content-5 = <accuracyLink>Więcej informacji na temat kryteriów dokładności.</accuracyLink>
+
 ## How to grow language
 
 about-playbook-how-grow-language-content-4 = Serwisy społecznościowe

@@ -4,6 +4,8 @@ guidelines-header-subtitle = Comprender como engadir e validar frases e fragment
 voice-collection = Recollida de voces
 sentence-collection = Recollida de frases
 question-collection = Recollida de preguntas
+spontaneous-speech = Fala espontánea
+dont-subheader = Non
 
 ## Voice Collection nav ids
 
@@ -138,3 +140,172 @@ offensive-content-sensitive-information-explanation-explanation-3 = Preguntas qu
 example-questions-subheader = Exemplos de preguntas
 example-questions-explanation-1 = Pode atopar <examplePromptsLink>120 exemplos de preguntas nesta folla</examplePromptsLink>.
 example-questions-explanation-2 = Se desexa enviar un conxunto de preguntas para que as incorporemos, pode facelo a través do noso <githubLink>GitHub</githubLink> ou enviar a súa lista por correo a <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Responder preguntas
+answer-questions-subheader = Orientacións xerais
+answer-questions-explanation-1 = En primeiro lugar, pense na pregunta que aparece na pantalla e nas ideas principais que quere expresar, pero non é necesario preparar un guión detallado. A continuación, prema na icona “gravar” e comece a falar con naturalidade. Unha vez feita a gravación, pode escoitar, repetir, eliminar ou enviar a súa resposta.
+answer-questions-explanation-2 = Lembre, non se preocupe se fai pausas ou repite algunha palabra. Todos estes datos son útiles para que os/as enxeñeiros/as poidan crear ferramentas de recoñecemento de voz inclusivas e realistas.
+answer-questions-tip-1 = Grave nun espazo tranquilo.
+answer-questions-tip-2 = Asegúrese de estar nun lugar con boa conexión á rede.
+answer-questions-tip-3b = Procure que a súa resposta teña unha duración aproximada de entre 15 e 30 segundos.
+answer-questions-tip-4 = Evite o uso dunha linguaxe ofensiva ou discurso de odio.
+answer-questions-tip-5 = Fale con naturalidade, como faría coas amizades, é dicir, empregue a súa propia variante, dialecto e acento reais.
+answer-questions-tip-6 = Manteña un volume constante, non debe gritar nin cantar.
+# Transcribe the Audio
+transcribe-the-audio = Transcribir gravacións
+transcribe-the-audio-subheader-1 = Orientacións xerais
+transcribe-the-audio-subheader-2 = Números e acrónimos
+transcribe-the-audio-subheader-3 = Etiquetas especiais
+transcribe-the-audio-subheader-4 = Segmentos de palabras, falsos comezos e palabras repetidas
+transcribe-the-audio-subheader-5 = Erros gramaticais e coloquialismos
+transcribe-the-audio-subheader-1-explanation = En xeral, debe escribir todo o que escoite. Isto inclúe;
+transcribe-the-audio-subheader-1-explanation-example-1 = Recoller as palabras tal e como se pronuncian, incluído os posibles erros e repeticións.
+transcribe-the-audio-subheader-1-explanation-example-2 = Anotar todas as manifestacións de ruído producidas polo propio falante, como rir ou tusir.
+transcribe-the-audio-subheader-1-explanation-example-3 = Etiquetar sons relevantes do contorno, por exemplo, ruídos de fondo ou a bucina dun coche.
+transcribe-the-audio-subheader-1-explanation-example-4 = Transcribir exactamente como se producen na fala variacións gramaticais, dialectais ou o uso de xirias, sen realizar ningunha alteración. En ningún caso se deben corrixir nin editar os discursos para adaptalos á variedade estándar.
+transcribe-the-audio-subheader-2-explanation-1 = Os números e os símbolos deben transcribirse en palabras en lugar de empregar cifras ou caracteres especiais. Exemplo:
+transcribe-the-audio-subheader-2-explanation-2 = Os acrónimos deben escribirse tal e como aparecen habitualmente na lingua, respectando as regras estándar de uso de maiúsculas e minúsculas. Non se deben transcribir foneticamente. Exemplo:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correcto> Correcto</correcto>: Está a cen quilómetros de aquí.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <incorrecto> Incorrecto </incorrecto>: Está a 100 quilómetros de aquí.
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correcto> Correcto</correcto>: Vémonos no  <underline>dous mil quince</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto>: Vémonos no <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do vinte por cento.
+transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do 20%.
+transcribe-the-audio-subheader-2-example-4-correct = <correcto>Correcto</correcto>: É xornalista na <underline>RTVG </underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <incorrecto>Incorrecto</incorrecto>: É xornalista na <underline> erre te uve gá </underline>
+transcribe-the-audio-subheader-3-explanation = As seguintes etiquetas especiais deben empregarse para marcar contidos non verbais que forma parte dos discursos orais.
+tags-table-header-1 = Etiqueta
+tags-table-header-2 = Significado
+tags-laugh = Risa
+tags-disfluency = Dúbida
+tags-unclear = Incerto
+tags-noise = Ruído
+tags-laugh-explanation = O son da risa.
+tags-unclear-explanation = Unha palabra ou unha secuencia que non se entende con claridade.
+tags-noise-explanation = Calquera outro tipo de ruído, como a tose do falante, a bucina dun coche, o son de algo golpeando o micrófono, un teléfono vibrando, etc.
+transcribe-the-audio-subheader-4-explanation-1 = A fala espontánea contén, de xeito natural, falsos comezos nos que só se reproduce un fragmento dunha palabra completa. Nestes casos, debe transcribir a parte pronunciada da palabra e engadir un guión ao final do fragmento que se repite (-) para indicar que se trata dun falso comezo. Exemplo:
+transcribe-the-audio-subheader-4-explanation-1-example = Chámanlle <underline>Xo- Xoán-</underline> Xoanciño.
+transcribe-the-audio-subheader-4-explanation-2 = En ocasións, os falantes repiten varias veces unha palabra ou un fragmento. Isto tamén se debe transcribir. Exemplo:
+transcribe-the-audio-subheader-4-explanation-2-example = E despois fun <underline>pra pra pra hab- pra</underline> habitación.
+transcribe-the-audio-subheader-5-explanation-1 = O discurso espontáneo pode incluír erros gramaticais. Estes non deben ser corrixidos cando se transcribe, pois a transcrición debe reflectir exactamente o contido do discurso oral.
+transcribe-the-audio-subheader-5-explanation-2 = Os falantes poden empregar tamén coloquialismos e formas reducidas (por exemplo, en galego, "pra min", "taba facer", etc.) que poderían non considerarse formalmente correctas. Estas expresións deben transcribirse como se pronuncian, sen modificalas polos seus equivalentes máis formais.
+
+## Review the Transcription
+
+review-the-transcription = Revisar a transcrición
+review-the-transcription-subheader = Orientacións xerais
+review-the-transcription-explanation-1 = Polo xeral, aconséllase que a persoa que revise a transcrición non sexa a mesma que fixo a transcrición orixinal. É moi difícil revisar o traballo propio! Ter varias liñas de revisión pode axudar a que  o control de calidade sexa máis sólido e a mitigar problemas.
+review-the-transcription-explanation-2 = Revise as directrices de transcrición anteriores para comprobar a súa precisión. Pode realizar modificacións e envialas.
+review-the-transcription-explanation-3 = Ademais, pode sinalar contido ofensivo ou prexudicial, e eliminarase da experiencia dos usuarios ata que o equipo de Common Voice poida revisalo detidamente.
+
+## Code-Switching
+
+code-switching = Cambio de código
+adding-a-question = Engadir unha pregunta
+# Adding a Question
+code-switching-adding-question-subheader = Como debería ser unha boa pregunta?
+code-switching-adding-question-explanation = Unha boa pregunta para este proxecto colectivo debería:
+code-switching-adding-question-criteria-1 = Ser doada de entender e responder
+code-switching-adding-question-criteria-2 = Ter relevancia xeral
+code-switching-adding-question-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
+code-switching-adding-question-note = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+# What to Avoid
+code-switching-avoid-subheader = Que se debe evitar
+code-switching-avoid-intro = Preguntas que poden:
+code-switching-avoid-1 = Solicitar información de identificación persoal.
+code-switching-avoid-2 = Incitar discursos de odio ou outros sentimentos tendenciosos ou ofensivos.
+code-switching-avoid-3 = Favorecer que alguén comparta información sensible ou potencialmente provocadora.
+code-switching-dont-header = Non
+code-switching-dont-1 = Non utilice unha linguaxe demasiado formal.
+# Reviewing a Question
+code-switching-review-subheader = Revisar unha pregunta
+code-switching-review-intro = Asegúrese de que a pregunta respecte os seguintes criterios:
+code-switching-review-criterion-1 = Ser doada de entender e responder.
+code-switching-review-criterion-2 = Ter relevancia xeral.
+code-switching-review-criterion-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva.
+code-switching-review-does-not-header = E isto <bold>NON</bold> inclúe:
+code-switching-review-offensive-content = <bold> Contido ofensivo ou información sensible </bold>
+code-switching-answer-header = Contido ofensivo ou información sensible
+code-switching-review-no-1 = Preguntas que poidan solicitar información que identifique a unha persoa.
+code-switching-review-no-2 = Preguntas que poidan dar lugar a discurso de odio ou expresións ofensivas ou tendenciosas.
+code-switching-review-no-3 = Preguntas que poidan provocar respostas sensibles e potencialmente provocadoras.
+# Answering a Question
+code-switching-answer-subheader = Responder unha pregunta
+code-switching-answer-intro = Ao responder unha pregunta, o obxectivo é facelo de maneira natural, como se faría nunha conversa na vida real. Queremos ver como se mesturan as linguas na fala cotiá.
+code-switching-answer-bullet-1 = Pense en momentos ou situacións da vida real: chistes, conversas, costumes, etc.
+code-switching-answer-bullet-2 = Imaxine que está falando coas amizades ou contándolle unha historia a algún coñecido.
+code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, incluso castelanismos, préstamos doutras linguas, etc.
+code-switching-answer-bullet-4 = Non existe unha forma "perfecta" de responder.
+code-switching-authentic-header = Responda con naturalidade e autenticidade.
+code-switching-authentic-speak = <bold> Fale como o faría coas amizades ou coa familia. </bold> Se mestura linguas na vida real, faga o mesmo. Exemplo:
+code-switching-use-both-languages = <bold>Empregue ambas linguas se así o diría normalmente. </bold> Incluso cambiar unha ou dúas palabras é útil. Exemplo:
+code-switching-authentic-direct-quotes = <bold> Inclúa citas directas ou diálogos. </bold> Reproduza as palabras tal e como foron ditas, non as reformule nin ofreza unha versión máis formal. Exemplo:
+code-switching-authentic-direct-quotes-example = "Miña nai dixo 'Tú crees que esto es un juego?' e eu estaba como, 'Bueno, calma'"
+code-switching-authentic-reflect = <bold>Reflicta emocións, identidade e contexto.</bold> Os cambios de código e as influencias doutras linguas adoitan aparecer ao expresar emocións, ideas culturais, humor, etc. Apóiese nestes factores ao responder as preguntas.
+code-switching-authentic-full-context = <bold>Use respostas completas e contextualizadas.</bold> Proporcione a maior cantidade de detalles posible e engada información sobre as circunstancias para que as respostas teñan sentido e sexan comprendidas. Comparta unha anécdota ou un exemplo nas súas respostas.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Non pense nin edite demasiado.
+code-switching-answer-dont-correct-language = <bold> "Corrixa" a súa linguaxe. </bold> Isto non é un exame. Aquí non importa a forma "correcta", o que interesa é a linguaxe natural.
+code-switching-answer-dont-avoid-switching = <bold>Evite cambiar de lingua se o fai normalmente.</bold> Está ben cambiar na metade dunha frase, na metade dun pensamento ou mesmo empregar só unha palabra noutra lingua.
+code-switching-answer-dont-formal-writing = <bold> Fale como se estivera escribindo formalmente.</bold> Evite as respostas formais e académicas. Manteña un ton conversacional.
+code-switching-answer-dont-force-switch = <bold>Force o cambio se non é natural.</bold> Alterne só se así é como falaría naturalmente nesa situación.
+code-switching-answer-dont-translate-repeat = <bold>Traduza ou repite todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
+# Transcribing
+code-switching-transcribe-subheader = Transcribir
+code-switching-transcribe-intro = Ao transcribir as respostas que inclúen alternancias de código, represente o idioma do falante tal e como se pronunciou - sen corrixir, editar ou simplificar. Isto aplica a todos os cambios entre linguas, á fala informal, aos castelanismos, etc.
+code-switching-transcribe-do-1 = Reproduza segmentos curtos varias veces para detectar cambios sutís.
+code-switching-transcribe-do-2 = Faga pausas despois de cada oración para verificar se hai cambios ou palabras mesturadas.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Rexistre o discurso exactamente tal e como se pronunciou
+code-switching-capture-explanation = Transcriba ambas linguas tal e como aparecen/soan. Non "corrixa" a lingua nin cambie o discurso a un só idioma.
+# Include filler words and markers
+code-switching-filler-header = Inclúa as palabras de recheo e os marcadores
+code-switching-filler-explanation = Palabras como “mm”, “eh”, “pois”, “si”, “claro”, “entón”, son significativas. Exemplo: "Entón, eh, díxenlle algo así como ‘pois non sei, podemos miralo’ e non me dixo nada máis".
+# Use standard spelling for each language
+code-switching-spelling-header = Use a ortografía estándar para cada lingua
+code-switching-spelling-explanation = Intente escribir as palabras correctamente para cada lingua, a menos que o/a falante as pronuncie claramente dunha maneira non estándar.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Non limpe nin simplifique a linguaxe
+code-switching-cleanup-1 = Traduza ou parafrasee - escriba o que dixo o falante, non o que "quixo dicir".
+code-switching-cleanup-2 = "Corrixa" a gramática ou a pronuncia - manteña o uso natural do falante.
+code-switching-cleanup-3 = Evite cambios que parezan menores ou insignificantes - incluso os préstamos lingüísticos son importantes.
+code-switching-cleanup-4 = Insira signos de puntuación que poidan cambiar o significado - manteña a fluidez.
+code-switching-cleanup-5 = Supoña que coñece a lingua de cada palabra - etiquete segundo o uso.
+# Tagging
+code-switching-tagging-subheader = Etiquetaxe
+code-switching-tagging-error-intro = Se a transcrición contén un erro, empregue a función de reportar para comunicalo. Os posibles erros inclúen:
+code-switching-tagging-error-1 = Puntuación ou uso das maiúsculas incorrecto.
+code-switching-tagging-error-2 = Erros tipográficos.
+code-switching-tagging-error-3 = Palabras escritas con ortografía incorrecta.
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Use a ortografía correcta para cada lingua
+code-switching-orthography-explanation = Escriba cada palabra segundo a ortografía da lingua da que procede. Por exemplo:
+code-switching-orthography-explanation-example-1 = Se a palabra "kitchen" se pronuncia así en galego, debe escribirse respectando a ortografía do galego, e non como "quichen".
+code-switching-orthography-explanation-example-2 = Se a palabra "jabalí" se pronuncia así en galego, respecte a ortografía do castelán e non transcriba "xabarín".
+# When Not to Tag Words
+code-switching-not-tag-header = Cando non etiquetar palabras
+code-switching-not-tag-explanation = Algunhas palabras <bold> non debe etiquetarse</bold> coa etiqueta de lingua aínda que parezan mesturadas ou adaptadas. A continuación, explícase como abordar algúns exemplos:
+code-switching-not-tag-proper-names = <bold> Nomes propios. </bold> Non se debe etiquetar nomes de persoas, lugares e organizacións. Exemplos:
+code-switching-not-tag-proper-names-example-1 = Persoas: María, Xoán
+code-switching-not-tag-proper-names-example-2 = Lugares: Ourense, Ferrol.
+code-switching-not-tag-proper-names-example-3 = Marcas/Organizacións: Gadisa, Inditex
+code-switching-not-tag-mixed-words = <bold>Palabras adaptadas morfoloxicamente. </bold> Non etiquete palabras que combinen varias linguas ou que teñan terminación doutra lingua. Exemplos:
+code-switching-not-tag-mixed-words-example = “tuitear”, “guai”, etc.
+code-switching-not-tag-interjections = <bold>Interxeccións.</bold> As interxeccións e as palabras de recheo, independentemente da lingua, deben permanecer <bold>sen etiquetar</bold>. Exemplos:
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = "Non"
+code-switching-not-tag-interjections-example-3 = "Claro"
+
+## Reporting Content
+
+reporting-content = Informar
+reporting-content-subheader = Orientacións xerais
+reporting-content-explanation-1 = Debe sinalar contido que sexa ofensivo ou prexudicial. Tampouco se debe incluír información persoal identificable, como números de teléfono ou enderezos. Ese contido será eliminado da súa experiencia ata que o equipo de Common Voice poida revisalo e investigar máis a fondo.
+reporting-content-explanation-2 = Para informar sobre este tipo de contido, prema na icona “Informar” e escolla unha ou todas as opcións: Contido ofensivo, Outra lingua, Información persoal identificable, Outro. A continuación, proporcione máis detalles no recadro de texto sobre por que está a informar do contido. Por último, envíe o informe premendo de novo na icona “Informar”.

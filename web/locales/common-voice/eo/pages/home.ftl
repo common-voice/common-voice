@@ -118,6 +118,8 @@ get-started = Eku <icon><icon>
 action-items-section-title = Common Voice estas senpaga, malfermfonta platformo por kreado de datumoj gvidataj de komunumoj
 action-items-section-subtitle = Ĉiu povas konservi, revivigi kaj plibonigi sian lingvon per kunhavigo, kreado kaj administrado de tekstaj kaj parolaj datumaroj.
 scripted-card-header = Skriptita parolado
+scripted-card-content = Legu frazojn laŭte en via lingvo kaj kontribuu al la plej diversa datumbazo pri publika partoprenado en la mondo.
+spontaneous-card-header = Spontanea parolado
 spontaneous-card-content = Respondu al promptoj por krei datumarojn por organikaj, parollingvaj kuntekstoj. Perfekta por ĉefe buŝaj lingvoj.
 language-text-card-header = Lingva teksto
 language-text-card-content = Kreu aŭ dividu publik-havaĵajn promptojn, frazojn kaj tekston por traduko, malgrandajn lingvomodelojn kaj pli.
@@ -133,9 +135,6 @@ join-discord-community = Aliĝu al la komunumo en Discord
 join-discord-community-action = Aliĝu al nia komunumo en Discord
 join-discord-community-content = Partoprenu en diskutoj de la lingvokomunumo, faru demandojn, kaj eksciu pri venontaj eventoj kaj prelegoj.
 find-us-on-matrix = Trovu nin ĉe Matrix
-find-us-on-matrix-content = Matrix estas malferma, malpeza protokolo por malcentralizita, realtempa komunikado, kaj la preferata malferma diskuta platformo de Mozilla.
-# label for button
-find-us-on-matrix-action = Trovu nin ĉe Matrix
 ask-mozilla-share = Petu al Mozilla disvastigi viajn eventojn
 ask-mozilla-share-content = Ĉu vi havas pasintan aŭ venontan eventon? Dividu ĝin kun ni kaj ni anoncos ĝin al nia komunumo aŭ skribos blogan artikolon pri ĝi!
 # label for button

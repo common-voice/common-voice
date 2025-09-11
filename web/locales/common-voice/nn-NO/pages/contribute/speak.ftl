@@ -36,7 +36,7 @@ review-rerecord = Spel inn på nytt
 review-cancel = Avbryt innsending
 review-keep-recordings = Behald opptaka
 review-delete-recordings = Slett opptaka mine
-review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernpraksisen</privacyLink> vår
+review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernfråsegna</privacyLink> vår
 terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
 # FIRST POST SUBMISSION CTA

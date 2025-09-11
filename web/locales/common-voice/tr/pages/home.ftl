@@ -138,9 +138,6 @@ join-discord-community = Discord topluluğumuza katılın
 join-discord-community-action = Discord’da bize katılın
 join-discord-community-content = Dil topluluğu tartışmalarına katılın, soru sorun, yaklaşan etkinlikler ve toplantılar hakkında bilgi edinin.
 find-us-on-matrix = Matrix’te bize katılın
-find-us-on-matrix-content = Matrix, merkeziyetsiz ve gerçek zamanlı iletişim için açık ve hafif bir protokoldür ve Mozilla’nın tercih ettiği açık tartışma platformudur.
-# label for button
-find-us-on-matrix-action = Matrix’te bize katılın
 ask-mozilla-share = Mozilla’dan etkinliklerinizi paylaşmasını isteyin
 ask-mozilla-share-content = Geçmiş ya da yaklaşan bir etkinliğiniz mi var? Bizimle paylaşın, topluluğumuza duyuralım ya da hakkında bir blog gönderisi yazalım!
 # label for button

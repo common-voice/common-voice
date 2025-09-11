@@ -5,6 +5,7 @@
 ## Languages
 
 aa = Afar
+tar = Rarámuri
 
 # [/]
 

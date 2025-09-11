@@ -133,9 +133,6 @@ join-discord-community = 加入 Discord 社群
 join-discord-community-action = 佇 Discord 加入咱的討論區
 join-discord-community-content = 加入語言社群討論、問問題，佮知影未來的活動佮演講。
 find-us-on-matrix = 咱的 Matrix
-find-us-on-matrix-content = Matrix 是開放、輕量予去中心化、即時的通訊協定，嘛是 Mozilla 較佮意的開放討論平台。
-# label for button
-find-us-on-matrix-action = 咱的 Matrix
 ask-mozilla-share = 問 Mozilla 來分享你的活動
 ask-mozilla-share-content = 進前抑是欲辦活動無？佮咱分享，咱會當公告予社群的朋友知影，嘛會當寫部落格文章推捒！
 # label for button

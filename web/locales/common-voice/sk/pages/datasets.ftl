@@ -102,3 +102,5 @@ female = Žena
 download-contribute-menu-tooltip = Stiahnite si naše hlasové kolekcie údajov
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Možnosti sťahovania pre prístup k údajom Common Voice
+datasets-show-more = Zobraziť všetky kolekcie údajov
+datasets-show-less = Zobraziť najnovšie kolekcie údajov

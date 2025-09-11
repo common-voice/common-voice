@@ -143,6 +143,7 @@ example-questions-explanation-2 = 若希望批量提交问题以供添加，请<
 
 # Answer Questions
 answer-questions = 回答提问
+answer-questions-subheader = 通用指南
 answer-questions-explanation-1 = 稍微分析引导语，考虑您要说的内容，但不必过分修饰措辞。准备好后，点击“录制”图标。录制完成后，您可以自己听一遍、重新录制、删除，以及提交。
 answer-questions-explanation-2 = 请记住：即使在录音过程中出现口吃、停顿、重复，也不必担心。许多工程师希望打造包容性强、能适应真实场景的语音识别工具，因此对他们而言，这些都是有用的数据。
 answer-questions-tip-1 = 在较安静的环境下录音
@@ -153,6 +154,7 @@ answer-questions-tip-5 = 像面对朋友一样，自然地说话。使用您真�
 answer-questions-tip-6 = 保持声音大小一致，不要大喊或歌唱
 # Transcribe the Audio
 transcribe-the-audio = 转录音频
+transcribe-the-audio-subheader-1 = 通用指南
 transcribe-the-audio-subheader-2 = 数字和缩略词
 transcribe-the-audio-subheader-3 = 特殊标签
 transcribe-the-audio-subheader-4 = 词语片段、口误、重复字词
@@ -197,6 +199,7 @@ transcribe-the-audio-subheader-5-explanation-2 = 说话人可能会使用非正�
 ## Review the Transcription
 
 review-the-transcription = 审核转录文本
+review-the-transcription-subheader = 通用指南
 review-the-transcription-explanation-1 = 一般而言，不建议审核由自己转录的文本，因为发现自己的问题并不容易。扩充审核人数可以更稳定地保证质量，也有助于减少偏见和问题。
 review-the-transcription-explanation-2 = 按照上方的转录音频准则，检查转录文本是否准确。您可以对其进行编辑并重新提交。
 review-the-transcription-explanation-3 = 再次提醒：您可以举报存在伤害、冒犯性等问题的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步调查。
@@ -214,17 +217,70 @@ code-switching-adding-question-criteria-3 = 不能使用或引导使用伤害或
 # What types of questions to add
 code-switching-types-subheader = 需要添加的问题类型
 code-switching-use-bilingual-prompts-header = 使用双语引导语
+code-switching-use-bilingual-prompts-explanation = 在您的问题中使用包含两种语言的双语提示：例如：
 code-switching-use-bilingual-prompts-explanation-example = “你最近做过什么 meaningful 的事情？”
 code-switching-ask-bilingual-contexts-explanation-example = “你在和弟弟说话时会夹杂英语吗？”
+code-switching-focus-emotional-explanation = 人们在表达情感或紧迫感时经常会发生语码转换。示例：
+code-switching-focus-emotional-explanation-example = “告诉我，当你向父母宣布重大消息时，他们具体是怎么回应的——一字不差地复述他们的话。”
+code-switching-direct-quotes-explanation-example = “当你发现这个事情时你具体说了些什么？”
 code-switching-cultural-topics-header = 选择有关具体文化的话题
+code-switching-cultural-topics-explanation = 食物、传统、假期和家庭动态经常会引发语码转换。
 code-switching-cultural-topics-explanation-example = “你会怎样跟只懂中文的人介绍 Halloween？”
+code-switching-informal-scenarios-header = 探索非正式场景
+code-switching-informal-scenarios-explanation = 在与朋友对话或发短信时切换会更自然。示例：
+# What to Avoid
+code-switching-avoid-subheader = 应避免什么
+code-switching-avoid-1 = 索取个人身份信息
+code-switching-avoid-2 = 引发仇恨言论或其他偏见或冒犯性情感
+code-switching-avoid-3 = 可能引导作出敏感回答，并可能由此引发不良后果
+code-switching-dont-1 = 不要使用过于正式的用语
+# Reviewing a Question
+code-switching-review-subheader = 审核问题
+code-switching-review-criterion-1 = 易于理解，也易于回答
+code-switching-review-criterion-3 = 不能使用或引导使用伤害或冒犯性用语
+code-switching-review-does-not-header = 并且<bold>没有</bold>包括：
+code-switching-review-offensive-content = <bold>冒犯性内容或敏感信息</bold>
+code-switching-answer-header = 冒犯性内容或敏感信息
+code-switching-review-no-1 = 可能索取个人身份信息的问题
+code-switching-review-no-2 = 可能引导发表仇恨言论等偏见或冒犯性观点的问题
+code-switching-review-no-3 = 可能引导作出敏感回答，并可能由此引发不良后果的问题
+# Answering a Question
+code-switching-answer-subheader = 回答提问
+code-switching-answer-bullet-2 = 想象您正在给朋友发短信或者给某人讲故事
+code-switching-answer-bullet-3 = 使用您实际会使用的词语，即使是借用或混用
+code-switching-answer-bullet-4 = 没有“完美”的答案
+code-switching-authentic-header = 自然真实地回答
 code-switching-tagging-error-intro = 如果转录文本中存在错误，请使用反馈功能进行标记。可能的错误包括：
+code-switching-tagging-error-1 = 标点符号不正确或大小写不正确
+code-switching-tagging-error-2 = 错别字
+code-switching-tagging-error-3 = 单词拼写错误
+code-switching-orthography-explanation = 请根据该词来源语言的拼写书写文字。例如：
+code-switching-orthography-explanation-example-1 = 如果单词“kitchen”是以西班牙语发音出现的，应该按英语拼写为“kitchen”，而不是“quichen”。
+code-switching-orthography-explanation-example-2 = 如果单词 quinceañera 是以英语发音念出的，书写时仍需保留 ñ 字母。
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = 根据发音帮助判断语言
+code-switching-pronunciation-explanation = 有些词在两种语言中拼写相同，但发音可能不同。注意听发音以正确标注，例如：cable、taco、actor、detective。
 code-switching-pronunciation-explanation-example-1 = 汉语：sī
 code-switching-pronunciation-explanation-example-2 = 日语：watashi
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = 当心相似词混淆
+code-switching-lookalikes-explanation = 有些词可能看起来像一种语言，实则用于另一种语言。需根据含义和用法而非表面形式进行标注。例如：
+code-switching-lookalikes-explanation-example-1 = “Footing”在西班牙语中曾表示跑步 > 应标注为西班牙语
+# When Not to Tag Words
+code-switching-not-tag-header = 何时不应该为词语添加标签
+code-switching-not-tag-explanation = 有些词语<bold>不应被标注</bold>语言标签，即使它们看起来像混合或改编形式。以下是一些处理示例的方法：
 code-switching-not-tag-proper-names = <bold>专有名词。</bold>不应标记人名、地名、组织名。示例：
+code-switching-not-tag-proper-names-example-1 = 人物：张三、李四
+code-switching-not-tag-proper-names-example-2 = 地点：北京、上海
+code-switching-not-tag-proper-names-example-3 = 品牌/组织：比亚迪、麦当劳
+code-switching-not-tag-mixed-words-example = 若词根为英语但后缀为西班牙语："parkear"（停车）、"printearlo"（打印它）
+code-switching-not-tag-interjections-example-1 = “呃”
+code-switching-not-tag-interjections-example-3 = “好的”
+code-switching-not-tag-interjections-example-4 = “呃”
 
 ## Reporting Content
 
 reporting-content = 举报内容
+reporting-content-subheader = 通用指南
 reporting-content-explanation-1 = 请举报存在伤害、冒犯性等问题，以及包含个人身份信息（例如电话号码和地址）的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步处理。
 reporting-content-explanation-2 = 若要举报内容，请选择“反馈”按钮，然后从以下情况中选择一项或多项：冒犯性内容、其他语言、个人身份信息、其他，并在文本框中详述举报理由，最后点击“反馈”按钮即可提交举报。

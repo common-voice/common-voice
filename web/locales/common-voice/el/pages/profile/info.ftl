@@ -35,7 +35,7 @@ why-profile-text =
     των μηχανών αναγνώρισης ομιλίας που τα χρησιμοποιούν.
 dashboard = Πίνακας
 build-profile = Δημιουργία προφίλ
-avatar = Avatar
+avatar = Εικόνα χρήστη
 goals = Στόχοι
 settings = Ρυθμίσεις
 edit-profile = Επεξεργασία προφίλ

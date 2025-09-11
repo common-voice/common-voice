@@ -101,7 +101,5 @@ join-discord-community = 加入 Discord 社羣
 join-discord-community-action = 入嚟 Discord 傾
 find-us-on-matrix = 喺 Matrix 度揾我哋
 # label for button
-find-us-on-matrix-action = 喺 Matrix 度揾我哋
-# label for button
 download-contribution-certificate-action = 取得你嘅證書
 contribute-github = 喺 GitHub 度貢獻
