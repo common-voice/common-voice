@@ -141,7 +141,7 @@ join-discord-community = Přidružće so zhromadźenstwu Discord
 join-discord-community-action = &nbsp;Přidružće so nam na Discord
 join-discord-community-content = Wobdźělće so na diskusijach rěčneho zhromadźenstwa, stajće prašenja a zhońće wo přichodnych zarjadowanjach a rozmołwach.
 find-us-on-matrix = Namakajće nas na Matrix
-find-us-on-matrix-content-v2 = Matrix je wotewrjeny, lochki protokol za decentralizowanu komunikaciju we woprawdźitym času a wot Mozilla preferowana wotewrjena diskusijna platforma. Smy w rumje „commonvoice:mozilla.org“.
+find-us-on-matrix-content-v2 = Matrix je wotewrjeny, lochki protokol za decentralizowanu komunikaciju we woprawdźitym času a wot Mozilla preferowana wotewrjena diskusijna platforma. Smy w rumje „common-voice:mozilla.org“.
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Druhe klienty
