@@ -4,6 +4,8 @@ guidelines-header-subtitle = Comprender como engadir e validar frases e fragment
 voice-collection = Recollida de voces
 sentence-collection = Recollida de frases
 question-collection = Recollida de preguntas
+spontaneous-speech = Fala espontánea
+dont-subheader = Non
 
 ## Voice Collection nav ids
 
@@ -177,7 +179,7 @@ transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto
 transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do vinte por cento.
 transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do 20%.
 transcribe-the-audio-subheader-2-example-4-correct = <correcto>Correcto</correcto>: É xornalista na <underline>RTVG </underline>
-transcribe-the-audio-subheader-2-example-4-wrong = <incorrecto>Incorrecto</incorrecto>: É xornalista na <underline> erre te uve gue </underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <incorrecto>Incorrecto</incorrecto>: É xornalista na <underline> erre te uve gá </underline>
 transcribe-the-audio-subheader-3-explanation = As seguintes etiquetas especiais deben empregarse para marcar contidos non verbais que forma parte dos discursos orais.
 tags-table-header-1 = Etiqueta
 tags-table-header-2 = Significado
@@ -221,6 +223,7 @@ code-switching-avoid-1 = Solicitar información de identificación persoal.
 code-switching-avoid-2 = Incitar discursos de odio ou outros sentimentos tendenciosos ou ofensivos.
 code-switching-avoid-3 = Favorecer que alguén comparta información sensible ou potencialmente provocadora.
 code-switching-dont-header = Non
+code-switching-dont-1 = Non utilice unha linguaxe demasiado formal.
 # Reviewing a Question
 code-switching-review-subheader = Revisar unha pregunta
 code-switching-review-intro = Asegúrese de que a pregunta respecte os seguintes criterios:

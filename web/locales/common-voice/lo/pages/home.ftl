@@ -145,9 +145,6 @@ join-discord-community = ເຂົ້າຮ່ວມຊຸມຊົນ Discord
 join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord
 join-discord-community-content = ເຂົ້າຮ່ວມການສົນທະນາຊຸມຊົນພາສາ, ຖາມຄໍາຖາມ, ແລະ ຮຽນຮູ້ກ່ຽວກັບເຫດການ ແລະ ການສົນທະນາທີ່ຈະມາເຖິງ.
 find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
-find-us-on-matrix-content = Matrix ເປັນໂປໂຕຄອນແບບເປີດ, ມີນ້ຳໜັກເບົາສຳລັບການສື່ສານແບບແບ່ງຂັ້ນ, ໃນເວລາຈິງ, ແລະ ເວທີສົນທະນາແບບເປີດທີ່ຕ້ອງການຂອງ Mozilla.
-# label for button
-find-us-on-matrix-action = ພົບກັບພວກເຮົາໃນ Matrix
 ask-mozilla-share = ໃຫ້ Mozilla ແບ່ງປັນເຫດການຂອງເຈົ້າ
 ask-mozilla-share-content = ມີເຫດການກ່ອນຫນ້າ ຫຼື ທີ່ຈະມາເຖິງ? ແບ່ງປັນມັນກັບພວກເຮົາ ແລະ ພວກເຮົາຈະປະກາດມັນກັບຊຸມຊົນຂອງພວກເຮົາ ຫຼື ຂຽນບົດຄວາມກ່ຽວກັບມັນ!
 # label for button

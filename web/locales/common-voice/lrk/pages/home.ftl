@@ -148,9 +148,6 @@ join-discord-community = Discord ڪميونٽي ۾ ڀيرا ھون
 join-discord-community-action = ڊسڪارڊ تي امو مون ڀيرا ھون
 join-discord-community-content = ٻولي برادري ي بحثن ۾ حصو ليو، سوال پوسو، ھين آياوارا واقعيو ھين ٻوليا بابت ھيکو.
 find-us-on-matrix = امو ري Matrix تي جو
-find-us-on-matrix-content = ميٽرڪس ايڪ کليوڙو، هلڪو وزن وارو پروٽوڪول هي جي غير مرڪزي، حقيقي وقت ري رابطا  ھارو هي، ھين موزيلا رو ترجيحي کليوڙو بحث پليٽ فارم هي.
-# label for button
-find-us-on-matrix-action = امو ري Matrix تي جو
 ask-mozilla-share = موزيلا ني آپرا واقعا شيئر ڪريا ھارو ڪيو.
 ask-mozilla-share-content = ڪاو تمو ڪني ڪوئي اڳوڻي يا آوياواري پروگرام هي؟ او ني امو مون شيئر ڪرو ھين امي او رو اعلان آپري برادري ۾ ڪريو يا او بابت ايڪ بلاگ لکيون!
 # label for button

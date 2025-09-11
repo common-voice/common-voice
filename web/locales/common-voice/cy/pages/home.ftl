@@ -149,9 +149,6 @@ join-discord-community = Ymunwch â'r Gymuned Discord
 join-discord-community-action = Ymunwch â ni ar Discord
 join-discord-community-content = Cyfrannwch at drafodaethau cymunedau ieithyddol, gofynnwch gwestiynau, a dysgwch am ddigwyddiadau a sgyrsiau sydd i ddod.
 find-us-on-matrix = Dewch o hyd i ni ar Matrix
-find-us-on-matrix-content = Mae Matrix yn brotocol agored, ysgafn ar gyfer cyfathrebu datganoledig, byw, a llwyfan trafod agored dewisol Mozilla.
-# label for button
-find-us-on-matrix-action = Dewch o hyd i ni ar Matrix
 ask-mozilla-share = Gofynnwch i Mozilla rannu eich digwyddiadau
 ask-mozilla-share-content = Oes gennych chi ddigwyddiad blaenorol neu yn y dyfodol agos? Rhannwch ef gyda ni a byddwn yn ei gyhoeddi i'n cymuned neu'n ysgrifennu blog amdano!
 # label for button

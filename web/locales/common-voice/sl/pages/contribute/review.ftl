@@ -5,6 +5,8 @@ sc-review-title = Pregled stavkov
 sc-review-loading = Nalaganje stavkov …
 sc-review-select-language = Izberite jezik za pregledovanje stavkov.
 sc-review-no-sentences = Ni stavkov, ki bi jih bilo treba pregledati. <addLink>Dodajte nove stavke!</addLink>
+sc-review-form-prompt =
+    .message = Pregledani stavki niso bili oddani – ali ste prepričani?
 sc-review-form-usage = Podrsajte desno, da stavek odobrite. Podrsajte levo, da ga zavrnete. Podrsajte navzgor, da ga preskočite. <strong>Pregleda ne pozabite poslati!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence

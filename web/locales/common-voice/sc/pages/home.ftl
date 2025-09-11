@@ -129,9 +129,6 @@ join-discord-community = Intra a sa comunidade Discord
 join-discord-community-action = Agata·nos in Discord
 join-discord-community-content = Piga parte a is discussiones de comunidades linguìsticas, faghe preguntas e impara in pitzus de eventos e cunferèntzias de su benidore.
 find-us-on-matrix = Agata·nos in Matrix
-find-us-on-matrix-content = Matrix est unu protocollu abertu e lèbiu pro sa comunicatzione detzentralizada in tempus reale. Est puru sa prataforma de cuntierra preferida dae Mozilla.
-# label for button
-find-us-on-matrix-action = Agata·nos in Matrix
 ask-mozilla-share = Pregunta a Mozilla chi cumpartzat is eventos tuos
 # label for button
 ask-mozilla-share-action = Cumpartzi un’eventu

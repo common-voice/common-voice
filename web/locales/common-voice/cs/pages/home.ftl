@@ -138,9 +138,6 @@ join-discord-community = Připojte se ke komunitě Discord
 join-discord-community-action = Přidejte si nás na Discordu
 join-discord-community-content = Zapojte se do diskusí jazykové komunity, pokládejte dotazy a dozvíte se o nadcházejících akcích a přednáškách.
 find-us-on-matrix = Najdete nás na Matrixu
-find-us-on-matrix-content = Matrix je otevřený, odlehčený protokol pro decentralizovanou komunikaci v reálném čase a preferovaná otevřená diskusní platforma Mozilly.
-# label for button
-find-us-on-matrix-action = Najdete nás na Matrixu
 ask-mozilla-share = Požádejte Mozillu o sdílení vašich událostí
 ask-mozilla-share-content = Máte předchozí nebo nadcházející událost? Podělte se s námi o ni a my ji oznámíme naší komunitě nebo o ní napíšeme blog!
 # label for button

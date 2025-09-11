@@ -34,8 +34,12 @@
 
 ### Changes merged after current release
 
+- Feat: Add announcement component, by [@moz-bozden](https://github.com/moz-bozden) in [#5067](https://github.com/common-voice/common-voice/pull/5067) - (in v.1.151.2)
+- Feat: Add less-more to datasets pages for better UX, by [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4843](https://github.com/common-voice/common-voice/pull/4843) - (in v.1.151.2)
 - Feat: Add migration-helpers to remove already migrated accents, by making sure data is intact (this is part of Irish accent removal above), by [@moz-bozden](https://github.com/moz-bozden) in [#5060](https://github.com/common-voice/common-voice/pull/5060) - (in v.1.151.1)
 - Workaround: Some of the database queries related to stats were taking longer than anticipated on active hours, causing Redis lock release issues, so with this workaround we increased the default lock duration from 3 minutes to 5 minutes to cover these, by [@moz-bozden](https://github.com/moz-bozden) in [#5058](https://github.com/common-voice/common-voice/pull/5058) - (in v.1.151.1)
+- Fix: Minor issues in CTA forms for non-logged-in users, by [@moz-bozden](https://github.com/moz-bozden) in [#5070](https://github.com/common-voice/common-voice/pull/5070) - (in v.1.151.2)
+- Fix: Add migration to remove links to old/leftover amazonaws profile images, by [@moz-bozden](https://github.com/moz-bozden) in [#5069](https://github.com/common-voice/common-voice/pull/5069) - (in v.1.151.2)
 - Fix: A third fix for the layered rule-of-hooks problem on the Dashboard Stats Page, by [@moz-bozden](https://github.com/moz-bozden) in [#5066](https://github.com/common-voice/common-voice/pull/5066) - (in v.1.151.1)
 - Fix: Server code for dataset downloads was missing proper validation for the "release-type" query parameter causing further errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5064](https://github.com/common-voice/common-voice/pull/5064) - (in v.1.151.1)
 - Fix: Server code was missing userId checks in multiple places causing further errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5063](https://github.com/common-voice/common-voice/pull/5063) - (in v.1.151.1)
@@ -48,6 +52,8 @@
 - Feat: For Irish (`ga-IE`), re-apply accent-variant migrations and totally remove all migrated accents, by [@moz-bozden](https://github.com/moz-bozden) in [#5060](https://github.com/common-voice/common-voice/pull/5060) - (in v.1.151.1)
 
 #### Spontaneous Speech after current release
+
+- Feat: Add announcement component, by [@moz-bozden](https://github.com/moz-bozden) in [#485](https://github.com/common-voice/spontaneous-speech/pull/485) - (in v.1.151.2)
 
 ##### SS Data Changes after current release
 

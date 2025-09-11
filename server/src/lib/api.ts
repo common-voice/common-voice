@@ -38,6 +38,7 @@ import validate, {
   sentenceSchema,
   sendLanguageRequestSchema,
   datasetSchema,
+  anonUserMetadataSchema,
 } from './validation'
 import Statistics from './statistics'
 import SentencesRouter from '../api/sentences'
@@ -98,7 +99,13 @@ export default class API {
     router.post('/user_clients/:client_id/claim', this.claimUserClient)
     router.get('/user_client', this.getAccount)
     router.patch('/user_client', this.saveAccount)
-    router.patch('/anonymous_user', this.saveAnonymousAccountLanguages)
+    router.patch(
+      '/anonymous_user',
+      validate({ body: anonUserMetadataSchema }),
+      // 1 requests per minute per IP address
+      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
+      this.saveAnonymousAccountLanguages
+    )
     router.post(
       '/user_client/avatar/:type',
       bodyParser.raw({ type: 'image/*', limit: '300kb' }),
@@ -372,16 +379,12 @@ export default class API {
     request: Request,
     response: Response
   ) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      body: { languages },
-    } = request
-    if (!client_id) {
-      throw new ClientParameterError()
+    const languages = request?.body?.languages
+    const client_id = request?.session?.user?.client_id
+    if (!client_id || !languages || languages.length === 0) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    response.json(
+    response.status(StatusCodes.CREATED).json(
       await UserClient.saveAnonymousAccountLanguages(client_id, languages)
     )
   }
@@ -647,6 +650,7 @@ export default class API {
     }
 
     await CustomGoal.create(client_id, locale, body)
+
     response.json({})
     Basket.sync(client_id).catch(e => console.error(e))
   }

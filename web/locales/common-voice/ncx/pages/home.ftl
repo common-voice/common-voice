@@ -133,9 +133,6 @@ join-discord-community = Touan xipoui itech Discord
 join-discord-community-action = Xipoui Discord
 join-discord-community-content = Ximotlapoui inuan oksekimej, xitlanankili, uan xikmati tlen tlamochiuas noso tlen itech tlajtoskej.
 find-us-on-matrix = Techonajsi itech Matrix
-find-us-on-matrix-content = Matrix itech uelis nochtin kalakiskej uan motlapouiskej san tlen ora. Nikan Mozilla okachi tiktekitiltiaj non tlamantli.
-# label for button
-find-us-on-matrix-action = Techonajsi itech Matrix
 ask-mozilla-share = Xikilui Moxilla makitematilti tlen tikchiuas
 ask-mozilla-share-content = ¿Itlaj otikchi noso tikchiuas ika motlajtolkopa? ¡Techilui uan tikinmatiltiskej oksekimej tlen uan ken tikchiua!
 # label for button

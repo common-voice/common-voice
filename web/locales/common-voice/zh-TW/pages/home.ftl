@@ -123,9 +123,6 @@ join-discord-community = 加入 Discord 社群
 join-discord-community-action = 在 Discord 上加入我們
 join-discord-community-content = 參與語言社群的討論、詢問問題，並了解即將舉辦的活動與會談。
 find-us-on-matrix = 在 Matrix 上尋找我們
-find-us-on-matrix-content = Matrix 是一套開放、輕量級的分散式即時通訊通訊協定，也是 Mozilla 推薦的開放討論平台。
-# label for button
-find-us-on-matrix-action = 在 Matrix 上尋找我們
 ask-mozilla-share = 通知 Mozilla 分享你的活動
 ask-mozilla-share-content = 舉辦了什麼活動，或者有計劃中的活動嗎？請告訴我們，我們會通知社群，或者寫篇部落格來與分享給大家！
 # label for button

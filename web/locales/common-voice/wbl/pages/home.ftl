@@ -126,9 +126,6 @@ join-discord-community = Dẽ D̃iscord̃ shomil woc
 join-discord-community-action = Sẽ D̃iskard dẽ sakẽn shomil woc.
 join-discord-community-content = Dẽ zikvẽ jẽmoatẽ qẽsa shomil woc, sowol car, woz wezaynẽ muqaẽt qẽsav shomil woc
 find-us-on-matrix = Sẽk Mat̃riks sakẽ (Matrix) got
-find-us-on-matrix-content = Wẽrkhũvnẽri Mat̃riksi (matrix) yi het̃, ranjẽg, prot̃kol (protocol) . bẽrwokht rabitakori, woz Mozillaẽ tarjihi het̃ qẽsa pẽlet̃forẽm
-# label for button
-find-us-on-matrix-action = Sẽk Mat̃riks sakẽ (Matrix) got
 ask-mozilla-share = Muzilaẽr k̃han ti waqiaẽ pẽjẽhon gok̃ht.
 ask-mozilla-share-content = Rek̃hkũng yoy wẽzaynẽ waqia dũrz, dẽs̃ken yo shomil car, sakẽb yo k̃hũ jẽmoatẽr ilonẽn yoyeb yo barar yi blog nivishẽn
 # label for button

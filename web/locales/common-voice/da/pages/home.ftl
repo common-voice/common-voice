@@ -101,8 +101,6 @@ add-text = Tilføj tekst
 ## Community section
 
 find-us-on-matrix = Find os på Matrix
-# label for button
-find-us-on-matrix-action = Find os på Matrix
 ask-mozilla-share = Bed Mozilla om at dele dine begivenheder
 # label for button
 ask-mozilla-share-action = Del din begivenhed

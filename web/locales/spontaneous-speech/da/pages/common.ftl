@@ -22,6 +22,7 @@ request-new-language = Anmod om nyt sprog
 ## Navbar
 
 question = Spørgsmål
+validate = Valider
 respond-to-prompt = Svar
 transcribe = Transskriber
 check-transcriptions = Gennemgå

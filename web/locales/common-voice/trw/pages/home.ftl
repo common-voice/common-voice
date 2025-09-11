@@ -126,9 +126,6 @@ join-discord-community = دیسکارڈ کمیونیٹی می آمن میِلا
 join-discord-community-action = مھو سیت دیسکاڑد می میِل
 join-discord-community-content = جیِبا سی خلگا سیت بأت کؤ سی، سوالا سی توَس سی آں پأشا یل بأدا سی آں واقعات سی کیا شریک ہُوا۔
 find-us-on-matrix = مھو میٹرکس زید پا
-find-us-on-matrix-content = میٹرکس موزیلا سی اے پدا کوئیل، بأت مأدا سی کیا بُوڑ خلگا سی کیا پلیٹ فارم تھو۔
-# label for button
-find-us-on-matrix-action = مھو میٹرکس زید پا
 ask-mozilla-share = موزیلا ما تُنو واقعات شریک کؤ سی کیا توَس کوا
 ask-mozilla-share-content = کو تھو یے کی مُوش ما سرگرمی کی یی تیس مھو سیت مھید موزیلا زید شریک کوا یا تیسی بارا می بلاگ لیِگا۔
 # label for button

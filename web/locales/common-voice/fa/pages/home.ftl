@@ -118,9 +118,6 @@ join-discord-community = به اجتماع دیسکورد بپیوندید
 # label for button
 join-discord-community-action = در دیسکورد به ما بپیوندید
 find-us-on-matrix = ما را در ماتریکس پیدا کنید
-find-us-on-matrix-content = ماتریکس یک شیوه‌نامهٔ آزاد و سبک برای ارتباطات غیرمتمرکز و بلادرنگ، و سکوی مورد علاقهٔ موزیلا برای  گفتگوی آزاد است.
-# label for button
-find-us-on-matrix-action = ما را در ماتریکس پیدا کنید
 ask-mozilla-share = از موزیلا بخواهید رویدادهای شما را هم‌رسانی کند
 
 ## Get involved section

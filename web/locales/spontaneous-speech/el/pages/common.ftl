@@ -10,7 +10,7 @@ platform-language-tooltip-text = Αλλάζει μόνο το κείμενο τ�
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Συνεισφορά στο σύνολο δεδομένων για τα { $language }
-contribution-picker-tooltip-text = Αλλάζει το σύνολο των δεδομένων γλώσσας στο οποίο συνεισφέρετε
+contribution-picker-tooltip-text = Αλλάζει το σύνολο γλωσσικών δεδομένων στο οποίο συνεισφέρετε
 coming-soon = Σύντομα σε περισσότερες γλώσσες
 media-recorder-api-not-supported = Το MediaRecorder API δεν υποστηρίζεται από το πρόγραμμα περιήγησής σας.
 # Toast message that is displayed when an item is skipped

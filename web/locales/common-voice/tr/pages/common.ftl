@@ -394,5 +394,9 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Yeni Common Voice veri kümeleri</strong> artık kardeş platformumuz Mozilla Data Collective üzerinden indirilebilir. Topluluk için geliştirilen 300’den fazla küresel veri kümesine erişmek için katılın.
 # Button text for MDC announcement
 announcement-mdc-button-text = Mozilla Data Collective'e Katılın
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Yeni sekmede açılır

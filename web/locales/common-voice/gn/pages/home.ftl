@@ -142,9 +142,6 @@ join-discord-community = Eike Discord atýpe
 join-discord-community-action = Ejuaju orerehe Discord-pe
 join-discord-community-content = Eike tekoha ñe’ẽkuaaty ñomongetahápe, eporandu ha eikuaa hag̃ua mba’e oikótava ha ñomongeta rehegua.
 find-us-on-matrix = Orejuhúta Matrix-pe
-find-us-on-matrix-content = Matrix ha’e peteĩ tapereko ijurujáva, ivevúi, momarandu ñemyasãirã araitépe g̃uarã, ha Mozilla pyendavusu ñomongetarã ijurujáva.
-# label for button
-find-us-on-matrix-action = Orejuhúta Matrix-pe
 ask-mozilla-share = Ejerure Mozilla-pe omoherakuãvo ne rembiapo
 ask-mozilla-share-content = ¿Rerekópa peteĩ evento ymaguare térã oútava? ¡Emoherakuã orendive ha roikuaaukáta ore rekohápe térã rohaita peteĩ blog hesegua!
 # label for button

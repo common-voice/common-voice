@@ -6,7 +6,7 @@ sc-review-loading = Načítavajú sa vety…
 sc-review-select-language = Vyberte jazyk na kontrolu viet.
 sc-review-no-sentences = Žiadne vety na kontrolu. <addLink>Pridajte teraz ďalšie vety!</addLink>
 sc-review-form-prompt =
-    .message = Skontrolované vety neboli odoslané, ste si istý?
+    .message = Skontrolované vety neboli odoslané, ste si istí?
 sc-review-form-usage = Potiahnutím doprava vetu schválite. Potiahnutím doľava ho odmietnete. Potiahnutím nahor ho preskočíte. <strong>Nezabudnite odoslať svoju kontrolu!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence

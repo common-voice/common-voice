@@ -104,8 +104,6 @@ add-text = Añadir texto
 ## Community section
 
 find-us-on-matrix = Encontrarnos en Matrix
-# label for button
-find-us-on-matrix-action = Encontrarnos en Matrix
 
 ## Get involved section
 
