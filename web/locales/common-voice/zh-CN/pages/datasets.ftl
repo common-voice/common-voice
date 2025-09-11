@@ -102,3 +102,5 @@ female = 女
 download-contribute-menu-tooltip = 下载语音数据集
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = 用于获取 Common Voice 数据的下载选项
+datasets-show-more = 显示所有数据集
+datasets-show-less = 显示最新数据集

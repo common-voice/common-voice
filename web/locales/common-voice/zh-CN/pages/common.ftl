@@ -324,3 +324,12 @@ languages-donate-banner-cta = <mark>在用 Common Voice</mark><br/><mark>来做�
 languages-donate-banner-cta-explanation = Common Voice 的资金来自捐款和基金！我们热爱与学术界、民间社会和行业研究人员的合作。 Common Voice 可以免费使用，但通过基金支付平台改善和托管费用也会非常有帮助。
 localization-select =
     .label = 选择语言 / 本地化
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>全新的 Common Voice 数据集</strong>现在在我们的姊妹平台，Mozilla Data Collective 上独家下载。加入以获取 300 多个全球数据集，由社区创建，服务于社区。
+# Button text for MDC announcement
+announcement-mdc-button-text = 加入 Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = 新建标签页打开

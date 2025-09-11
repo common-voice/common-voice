@@ -37,6 +37,10 @@ cs-tag-dataset-name = 数据集 [{ $datasetName }]
 learn-how-to-use = 了解如何使用此页面
 read-full-guidelines-here = <guidanceLink>在此阅读完整准则</guidanceLink>
 
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = 请尽可能自然地回应提示，如果感觉自然，可以自由地在语言之间进行语码转换。确保你的语言尊重且无冒犯性。
+
 ## Review Page Guidelines
 
 cs-learn-how-to-use-check-transcript-explanation = 转录文本应记录说话人说出的所有内容，语气词和重复的部分亦然。
