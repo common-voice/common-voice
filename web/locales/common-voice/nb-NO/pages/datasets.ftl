@@ -10,6 +10,11 @@ datasets-positioning =
     Se på denne siden som et referansehub for andre stemmesett med åpen kildekode, og etterhvert som Common Voice fortsetter å vokse, et hjem for våre datasettoppdateringer.
 # New/upcoming datasets page headline
 datasets-headline-mdc = Mozilla Common Voice-datasett er nå utelukkende tilgjengelige på Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Fra og med Common Voice 23.0 er alle Common Voice-datasett utelukkende tilgjengelige for nedlasting via Mozilla Data Collective!
+    
+    Denne siden fungerer som et historisk arkiv for tidligere versjoner av Mozilla Common Voice-datasett. Arkivutgivelser bør kun brukes i spesifikke forskningsscenarioer, ikke til trening, for å respektere ønskene til de som har bedt om at bidragene deres skal utelates.
 datasets-speech-bubble-content = Spennende nyheter! Spontan tale er på vei! Følg med for oppdateringer, og sørg for å sjekke <discordLink>Discord</discordLink> vår for den nyeste informasjonen.
 language = Språk
 download-dataset-header = Last ned datasettet

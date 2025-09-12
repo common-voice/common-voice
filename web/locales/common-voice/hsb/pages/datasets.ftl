@@ -8,6 +8,8 @@ datasets-positioning =
     Wjacerěčna datowa sadźba Common Voice je hižo najwjetša zjawnje k dispoziciji stejaca datowa sadźba swojeje družiny, ale njeje jenička.
     
     Mějće tutu stronu jako referencny dypk za druhe hłosowe datowe sadźy wotewrjeneho žórła a, dokelž Common Voice dale rosće, jako startowy dypk za naše najnowše aktualizacije.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Datowe sadźby Mozilla Common Voice su nětko jenož na Mozilla Data Collective k dispoziciji.
 datasets-speech-bubble-content = Zahorjace nowinki! Spontane rěčenje je po puću! Slědujće aktualizacije a čitajće naše najnowše informacije wo tym na <discordLink>Discord</discordLink>.
 language = Rěč
 download-dataset-header = Datowu sadźbu sćahnyć
