@@ -6,7 +6,7 @@ datasets-positioning = ათხ დაკლივა́თხ, მე იშა
 # New/upcoming datasets page headline
 datasets-headline-mdc = Mozilla Common Voice კრე́ბული ინც ატტაჲში̆ ქოჴა́ბტლაჲნი̆ და Mozilla Data Collective-მაქ.
 # New/upcoming datasets page headline text
-datasets-positioning-mdc = Common Voice 23.0 ვერსიელეჼ ვომაჸ Common Voice-ეჼ კრებული ატტაჲში ქოჴაბტლაჲნი და აჰო დჵოფანაჲნო Mozilla Data Collective-ევ!
+datasets-positioning-mdc = Common Voice 23.0 ვე́რსიელეჼ ვო́მაჸ Common Voice-ეჼ კრე́ბული ატტაჲში̆ ქოჴა́ბტლაჲნი̆ და აჰ̦ო̆ დჵო́ფანაჲნო̆ Mozilla Data Collective-ევ!  ე სა́იტ და Mozilla Common Voice-ეჼ კრე́ბულაჼ თიშიჩო̆ ვე́რსიიშნაჼ ისტო́რიულ ა́რქივ. ა́რქივეჼ მონაცე́მი დაჩოკ კონკრეტულ კვლევა́ხ ჴმა́რბადარ შაძლე́ბალა, ტრე́ნინგინაჲნო̆ მა - ცო, და́ხაჸ მე́ ა́ნგრიშ ჲე́წე̆ ო́წჲალაჼ ო ნა́ხნ, მე́ნხუჲჩუჲშვა́ჲ ლო́ჸდიეჼ შუიჼ ჩუდაჰ̦რი გამორიცხოდარ.
 datasets-speech-bubble-content = ბეკხე́თლაჲნი̆ წი́ნ ა́მბუჲ ჲა! ქა́შშეჸ მაქ ლაჲტო̆  დი́ნი̆ (მუჲლნე́ჴელბა) ა́მბუჲ ჲარ. ბჵარკ ლე́ლბებათ წინჩო̆ ამბოხე́ ჴშირუშ გიბათ თხეჼ<discordLink> Discord </discordLink> წინიჭ ინფორმა́ციიშ ხაჸანაჲნო̆
 language = მოტტ
 download-dataset-header = კრე́ბული აჰ̦დჵო́ფარ
