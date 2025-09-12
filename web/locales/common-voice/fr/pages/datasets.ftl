@@ -8,6 +8,13 @@ datasets-positioning =
     Le jeu de données multilingue Common Voice est déjà le plus grand jeu de données vocales disponible de ce type, mais ce n’est pas le seul.
     
     Cette page de référence liste d’autres jeux de données open source et, au fur et à mesure que le projet Common Voice continuera d’évoluer, cette page proposera aussi nos prochaines mises à jour.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Les jeux de données Common Voice de Mozilla sont désormais exclusivement disponibles sur Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    À partir de la version 23.0 de Common Voice, tous les jeux de données de Common Voice sont disponibles au téléchargement exclusivement via Mozilla Data Collective.
+    
+    Cette page permet d’archiver l’historique des versions précédentes des jeux de données Mozilla Common Voice. Les versions archivées ne doivent être utilisées que pour des scénarios de recherche spécifiques, et non pour l’entraînement, afin de respecter la volonté des personnes qui ont demandé à ce que leurs contributions soient exclues.
 datasets-speech-bubble-content = Bonne nouvelle ! La parole spontanée arrive ! Restez à l’écoute et n’oubliez pas de consulter notre <discordLink>Discord</discordLink> pour obtenir les dernières informations.
 language = Langue
 download-dataset-header = Télécharger le jeu de données

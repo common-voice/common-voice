@@ -120,12 +120,12 @@ action-items-section-subtitle = Calquera persoa pode preservar, revitalizar e pr
 scripted-card-header = Fala guiada
 scripted-card-content = Lea frases en voz alta no seu idioma e contribúa ao conxunto de datos de voz de creación comunitaria máis diverso do mundo.
 spontaneous-card-header = Fala espontánea
-spontaneous-card-content = Responde a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
+spontaneous-card-content = Responda a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
 language-text-card-header = Texto na súa lingua
 language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
 coming-soon = Proximamente
 add-text = Achegar texto
-answer = Resposta
+answer = Responda
 
 ## Community section
 

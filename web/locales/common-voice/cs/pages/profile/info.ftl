@@ -75,13 +75,36 @@ api-credentials-description = Přistupujte ke globálnímu datasetu hlasových n
 api-credentials-use-case-1 = Odesílání zvukových ukázek
 api-credentials-use-case-2 = Získávání datových sad
 api-credentials-use-case-3 = Analýza a vylepšování modelů řeči
+api-credentials-description-conclusion = Připojte se k nám, abychom posunuli hlasové technologie a umožnili více příspěvků uživatelů.
 create-api-key-button = Vytvoření přihlašovacích údajů k API
 your-api-keys = Vaše přihlašovací údaje k API
 no-api-keys-header = <bold>V tuto chvíli nejsou k vašemu účtu přiřazeny žádné přihlašovací údaje k API.</bold>
+no-api-keys-description =
+    Chcete-li vytvořit svůj první klíč API, klepněte na tlačítko "Vytvořit přihlašovacích údajů k API" a poté pojmenujte.
+    a vygenerujte jedinečné pověření API klepnutím na "Generovat pověření". Poté ihned zkopírujte tajný klíč, protože bude pouze
+    zobrazen pouze jednou.
+api-key-name-input =
+    .label = Název pověření k API
+create-api-key-header = <bold>Důležité upozornění: Generování pověření k API</bold>
+create-api-key-description = Klepnutím na tlačítko "Generovat pověření" vytvoříte jedinečné pověření pro svůj účet. Z bezpečnostních důvodů se tajný klíč zobrazí <tučně>jen jednou</bold>. Zkopírujte si jej a bezpečně uložte. V případě ztráty si musíte vygenerovat nový klíč, protože jej nelze získat zpět.
+create-api-key-agreement = Souhlasím, že se nebudu pokoušet identifikovat mluvčí v datovém souboru Common Voice.
+generate-api-key-button = Generovat pověření
+save-api-key-info = <bold>Uchovejte si klíče bezpečně</bold>
+save-api-key-info-description = Své klíče bezpečně ukládejte a nevystavujte je na veřejných úložištích. TAJNÝ klič je přístupný pouze nyní a již nebude zobrazen.
+api-key-name-display-label = Název pověření k API
+api-client-secret-display-label = Tajný kód klienta API
+api-client-id-display-label = ID klienta API
 api-key-modal-confirmation-header = Jste si jisti?
+cancel-api-key-confirmation-description = Opravdu chcete zrušit generování pověření k API?
+delete-api-key-confirmation-description = Opravdu chcete odstranit pověření k API <bold>{ $apiKeyName }</bold>? Tuto akci nelze vrátit zpět
+create-api-key-error-toast-message = Chyba při vytváření pověření k API
+delete-api-key-error-toast-message = Chyba při odstraňování pověření k API
+fetching-api-keys-error-toast-message = Chyba při načítání pověření k API
 copy-api-credential-success-toast-message = Úspěšně zkopírováno
 copy-api-credential-error-toast-message = Chyba při kopírování
 delete-api-key-success-toast-message = Přihlašovací údaje k API byly úspěšně smazány
+add-api-key-name-error = Přidání názvu pověření k API
+max-api-keys-reached = Překročení limitu 10 pověření k API
 duplicate-api-key-name-error = Duplicitní název API klíče
 # Genders
 male_masculine = Muž/mužské
@@ -91,3 +114,13 @@ transgender = Transgender
 non-binary = Nebinární
 do_not_wish_to_say = Nechci uvést
 other = Ostatní
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99

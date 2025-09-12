@@ -5,6 +5,10 @@ import PageHeading from '../../ui/page-heading'
 
 import './dataset-intro.css'
 
+const ANNOUNCEMENT_ON_DATE = '2025-09-17T00:00:00Z'
+const now = new Date()
+const isMdcPublished = now >= new Date(ANNOUNCEMENT_ON_DATE)
+
 const DatasetIntro = () => {
   return (
     <div className="dataset-intro">
@@ -14,13 +18,13 @@ const DatasetIntro = () => {
             <PageHeading isLight>
               <Localized id="datasets-heading" />
               <p className="intro-summary">
-                <Localized id="datasets-headline" />
+                <Localized id={isMdcPublished ? "datasets-headline-mdc" : "datasets-headline"} />
               </p>
             </PageHeading>
           </div>
 
           <div>
-            <Localized id="datasets-positioning">
+            <Localized id={isMdcPublished ? "datasets-positioning-mdc" : "datasets-positioning"}>
               <p />
             </Localized>
           </div>

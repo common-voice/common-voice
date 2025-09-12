@@ -32,8 +32,11 @@ continue-with-skipped = Pokračovat s přeskočenými
 question = Otázka
 validate = Zkontrolovat
 respond-to-prompt = Odpovědět na výzvu
+respond-to-prompt-mobile = Odpovídejte
 transcribe = Přepis
 check-transcriptions = Zkontrolovat přepisy
+check-transcriptions-mobile = Kontrolujte
+tag = Popisujte
 
 ## Not Found Page
 
@@ -46,6 +49,7 @@ meh = Jihozápadní Tlaxiaco Mixtec
 mel = Střední Melanau
 # Locales-Variants
 ms-MY = Bahasa malajština
+el-CY = Kyperská řečtina
 
 ## Language search component
 
