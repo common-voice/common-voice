@@ -2,13 +2,14 @@
 
 ## Current release
 
-### [v1.152.0 (2025-08-12)](https://github.com/common-voice/common-voice/releases/tag/release-v1.152.0)
+### [v1.152.0 (2025-08-13)](https://github.com/common-voice/common-voice/releases/tag/release-v1.152.0)
 
 - Feat: Provide support for multiple Matrix clients by adding a second button on the homepage, by [@moz-bozden](https://github.com/moz-bozden) in [#5068](https://github.com/common-voice/common-voice/pull/5068)
 - Feat: Add announcement component, by [@moz-bozden](https://github.com/moz-bozden) in [#5067](https://github.com/common-voice/common-voice/pull/5067)
 - Feat: Add less-more to datasets pages for better UX, by [@HarikalarKutusu](https://github.com/HarikalarKutusu) in [#4843](https://github.com/common-voice/common-voice/pull/4843)
 - Feat: Add migration-helpers to remove already migrated accents, by making sure data is intact (this is part of Irish accent removal above), by [@moz-bozden](https://github.com/moz-bozden) in [#5060](https://github.com/common-voice/common-voice/pull/5060) - (in v.1.151.1)
 - Workaround: Some of the database queries related to stats were taking longer than anticipated on active hours, causing Redis lock release issues, so with this workaround we increased the default lock duration from 3 minutes to 5 minutes to cover these, by [@moz-bozden](https://github.com/moz-bozden) in [#5058](https://github.com/common-voice/common-voice/pull/5058) - (in v.1.151.1)
+- Fix: Update text on download page header, by [@moz-bozden](https://github.com/moz-bozden) in [#5078](https://github.com/common-voice/common-voice/pull/5078)
 - Fix: Add validation to anonymous_user endpoint with language related schemata, by [@moz-bozden](https://github.com/moz-bozden) in [#5071](https://github.com/common-voice/common-voice/pull/5071)
 - Fix: Minor issues in CTA forms for non-logged-in users, by [@moz-bozden](https://github.com/moz-bozden) in [#5070](https://github.com/common-voice/common-voice/pull/5070)
 - Fix: Add migration to remove links to old/leftover amazonaws profile images, by [@moz-bozden](https://github.com/moz-bozden) in [#5069](https://github.com/common-voice/common-voice/pull/5069)
@@ -18,6 +19,7 @@
 - Fix: Server API code related to Dashboard page goals/awards had two issues, one a return statement was missing after userId check fails causing following code to be executed and cause further errors, and custom goal creation missing proper user checks, by [@moz-bozden](https://github.com/moz-bozden) in [#5062](https://github.com/common-voice/common-voice/pull/5062) - (in v.1.151.1)
 - Fix: Leader-board related SQL queries in Dashboard page were not using correct parameter count in ALL locale case, causing lock release issues, by [@moz-bozden](https://github.com/moz-bozden) in [#5061](https://github.com/common-voice/common-voice/pull/5061) - (in v.1.151.1)
 - Fix: Remove duplicate language code definitions in Spontaneous Speech `.ftl` file, because they are in Pontoon already, by [@moz-bozden](https://github.com/moz-bozden) in [#5059](https://github.com/common-voice/common-voice/pull/5059) - (in v.1.151.1)
+- Chore: Updates to [COMMUNITIES.md](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)
 
 #### Data Changes in v1.152.0
 
@@ -34,7 +36,6 @@
 ---
 
 ### Changes merged after current release
-
 
 #### Data Changes after current release
 
