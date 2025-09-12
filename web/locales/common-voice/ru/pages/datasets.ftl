@@ -8,6 +8,13 @@ datasets-positioning =
     Мультиязычный набор данных Common Voice уже является крупнейшим общедоступным набором голосовых данных, но он не единственный в своем роде.
     
     На этой странице вы можете найти ссылки на другие открытые наборы голосовых данных и, с развитием Common Voice, обновления наших выпусков.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Наборы данных Mozilla Common Voice теперь доступны эксклюзивно на Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Начиная с Common Voice 23.0, все наборы данных Common Voice доступны для загрузки эксклюзивно через Mozilla Data Collective!
+    
+    Эта страница является архивом прошлых версий наборов данных Mozilla Common Voice. Выпуски архивов следует использовать только в специфичных исследовательских сценариях, а не в целях обучения, чтобы уважать пожелания тех, кто попросил, чтобы их вклад был исключён.
 datasets-speech-bubble-content = Отличные новости! Скоро появится Spontaneous Speech! Следите за обновлениями и обязательно загляните на наш <discordLink>Discord</discordLink> для получения последних новостей.
 language = Язык
 download-dataset-header = Загрузить набор данных
