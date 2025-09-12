@@ -125,7 +125,7 @@ language-text-card-header = Texto na súa lingua
 language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
 coming-soon = Proximamente
 add-text = Achegar texto
-answer = Resposta
+answer = Responda
 
 ## Community section
 
