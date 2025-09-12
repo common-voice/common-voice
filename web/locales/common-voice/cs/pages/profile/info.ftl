@@ -75,9 +75,18 @@ api-credentials-description = Přistupujte ke globálnímu datasetu hlasových n
 api-credentials-use-case-1 = Odesílání zvukových ukázek
 api-credentials-use-case-2 = Získávání datových sad
 api-credentials-use-case-3 = Analýza a vylepšování modelů řeči
+api-credentials-description-conclusion = Připojte se k nám, abychom posunuli hlasové technologie a umožnili více příspěvků uživatelů.
 create-api-key-button = Vytvoření přihlašovacích údajů k API
 your-api-keys = Vaše přihlašovací údaje k API
 no-api-keys-header = <bold>V tuto chvíli nejsou k vašemu účtu přiřazeny žádné přihlašovací údaje k API.</bold>
+no-api-keys-description =
+    Chcete-li vytvořit svůj první klíč API, klepněte na tlačítko "Vytvořit přihlašovacích údajů k API" a poté pojmenujte.
+    a vygenerujte jedinečné pověření API klepnutím na "Generovat pověření". Poté ihned zkopírujte tajný klíč, protože bude pouze
+    zobrazen pouze jednou.
+api-key-name-input =
+    .label = Název pověření k API
+create-api-key-header = <bold>Důležité upozornění: Generování pověření k API</bold>
+create-api-key-description = Klepnutím na tlačítko "Generovat pověření" vytvoříte jedinečné pověření pro svůj účet. Z bezpečnostních důvodů se tajný klíč zobrazí <tučně>jen jednou</bold>. Zkopírujte si jej a bezpečně uložte. V případě ztráty si musíte vygenerovat nový klíč, protože jej nelze získat zpět.
 api-key-modal-confirmation-header = Jste si jisti?
 copy-api-credential-success-toast-message = Úspěšně zkopírováno
 copy-api-credential-error-toast-message = Chyba při kopírování
