@@ -98,9 +98,13 @@ api-key-modal-confirmation-header = Jste si jisti?
 cancel-api-key-confirmation-description = Opravdu chcete zrušit generování pověření k API?
 delete-api-key-confirmation-description = Opravdu chcete odstranit pověření k API <bold>{ $apiKeyName }</bold>? Tuto akci nelze vrátit zpět
 create-api-key-error-toast-message = Chyba při vytváření pověření k API
+delete-api-key-error-toast-message = Chyba při odstraňování pověření k API
+fetching-api-keys-error-toast-message = Chyba při načítání pověření k API
 copy-api-credential-success-toast-message = Úspěšně zkopírováno
 copy-api-credential-error-toast-message = Chyba při kopírování
 delete-api-key-success-toast-message = Přihlašovací údaje k API byly úspěšně smazány
+add-api-key-name-error = Přidání názvu pověření k API
+max-api-keys-reached = Překročení limitu 10 pověření k API
 duplicate-api-key-name-error = Duplicitní název API klíče
 # Genders
 male_masculine = Muž/mužské
@@ -110,3 +114,13 @@ transgender = Transgender
 non-binary = Nebinární
 do_not_wish_to_say = Nechci uvést
 other = Ostatní
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99

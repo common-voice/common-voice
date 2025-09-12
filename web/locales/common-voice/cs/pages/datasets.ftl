@@ -8,6 +8,13 @@ datasets-positioning =
     Vícejazyčný dataset Common Voice je již největší veřejně dostupným souborem svého druhu, ale není jediným.
     
     Podívejte se na tuto stránku, tento centrální rozcestník, který obsahuje další otevřené soubory, ale i aktualizace a nové verze datasetu Common Voice, který stále roste.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Datové sady Mozilla Common Voice jsou nyní exkluzivně k dispozici na Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Od verze Common Voice 23.0 jsou všechny datové sady Common Voice k dispozici ke stažení výhradně prostřednictvím Mozilla Data Collective!
+    
+    Tato stránka slouží jako historický archiv minulých verzí datových sad Mozilla Common Voice. Archivní verze by měly být používány pouze ve specifických výzkumných scénářích, nikoli pro školení, aby bylo respektováno přání těch, kteří požádali o vyloučení svých příspěvků.
 datasets-speech-bubble-content = Vzrušující zprávy! Spontánní řeč je na cestě! Sledujte aktualizace a nezapomeňte se podívat na náš <discordLink>Discord</discordLink>, kde najdete nejnovější informace.
 language = Jazyk
 download-dataset-header = Stáhnout dataset
@@ -102,3 +109,5 @@ female = Žena
 download-contribute-menu-tooltip = Stáhněte si naše soubory hlasových dat
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Možnosti stahování pro přístup k údajům Common Voice
+datasets-show-more = Zobrazit všechny datové sady
+datasets-show-less = Zobrazit nejnovější datové sady
