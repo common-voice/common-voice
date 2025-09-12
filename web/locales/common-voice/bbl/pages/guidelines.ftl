@@ -174,3 +174,5 @@ transcribe-the-audio-subheader-2-example-1-wrong = <wrong>ცონიფსი�
 transcribe-the-audio-subheader-2-example-2-correct = <correct> ნიფსიჼ </correct>: ბჵარღოვაჲ ში ა́ზარ ფხიიტტ შარე.
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>ცონიფსიჼ</wrong>: ბჵარღოვაჲ<underline>2015 შარე </underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct> ნიფსიჼ </correct>: ტყა პრო́ცენტევ მახე́შენო̆ დარ.
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong> ცონიფსიჼ </wrong>: 20 %-ევ მახე́შენო̆ დარ.
