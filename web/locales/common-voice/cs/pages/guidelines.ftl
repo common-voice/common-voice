@@ -6,6 +6,7 @@ sentence-collection = Sbírka vět
 question-collection = Sbírka otázek
 scripted-speech = Skritpovaná řeč
 spontaneous-speech = Spontánní řeč
+dont-subheader = Snažte se nedělat
 
 ## Voice Collection nav ids
 
@@ -144,3 +145,19 @@ example-questions-explanation-2 = Pokud chcete odeslat soubor otázek ke zpracov
 # Answer Questions
 answer-questions = Odpovídat na otázky
 answer-questions-subheader = Obecné pokyny
+answer-questions-explanation-1 = Chvíli přemýšlejte o výzvě, zvažte, co byste chtěli říct, ale nepište si příliš scénáře. Klepněte na ikonu "nahrát". Po nahrání se můžete poslechnout, znovu nahrát, smazat nebo odeslat.
+answer-questions-explanation-2 = Nezapomeňte, že se nemusíte bát, když se zadrhnete, uděláte pauzu nebo zopakujete slovo. To vše jsou užitečné údaje pro inženýry, kteří se snaží vytvořit inkluzivní nástroje pro rozpoznávání řeči v reálném světě.
+answer-questions-tip-1 = Nahrávejte na přiměřeně klidném místě
+answer-questions-tip-2 = Vyberte si místo s dobrým internetovým připojením
+answer-questions-tip-3b = Snažte se, aby vaše odpověď trvala 15-30 sekund.
+answer-questions-tip-4 = Vyhněte se nenávistným, pobuřujícím nebo jinak urážlivým projevům.
+answer-questions-tip-5 = Mluvte přirozeně, jako byste mluvili s přítelem - používejte svou vlastní variantu, dialekt a přízvuk.
+answer-questions-tip-6 = Udržujte stálou hlasitost - nekřičte ani nezpívejte.
+# Transcribe the Audio
+transcribe-the-audio = Přepis zvuku
+transcribe-the-audio-subheader-1 = Obecné pokyny
+transcribe-the-audio-subheader-2 = Čísla a zkratky
+transcribe-the-audio-subheader-3 = Speciální značky
+transcribe-the-audio-subheader-4 = Segmenty slov, falešné začátky, opakovaná slova
+transcribe-the-audio-subheader-5 = Gramatické chyby a hovorové výrazy
+transcribe-the-audio-subheader-1-explanation = Obecně byste si měli zapisovat vše, co slyšíte. To zahrnuje;
