@@ -470,3 +470,12 @@ languages-donate-banner-cta = <mark>CV ჴმა́რბადუიჲა́</ma
 languages-donate-banner-cta-explanation = Common Voice ფინა́ნსბალა ფლო́ქოღ ლა́ტრივაჲ, საქველმოქმე́დო̆ ტათბუვა́ჲ. თხონა́ჲნო̆ ზორა́ჲში̆ ღოსხე́თლაჲნი̆  და მეცნიერიციჼ, ჴენჴენაჸ საზო́გადოებიცი-ნე́  ეჴ და́რგუჼ ჴე́თნიშიციჼ ცჰ̦ა́ღ ქესადალარ. ბაყეჸ და, Common Voice უფასო̆ და, მა, მომსა́ხურებ ღაზარჲაჼ ნე́ მონაცემი ჩუ განლა́გბადჲაჼ ხა́რჯი ჲე́ჴრელო ლა́ტარ ზორა́ჲში̆ გამოდგო́მალა თხოჼ
 localization-select =
     .label = მოტტ/(არეალ) ჰ̦ალო̆ ჩა́ვარბებათ
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Common Voice-ეჼ წი́ნ კრე́ბული </strong> აჰ̦დჵო́ფრეჼ საშუა́ლებ ი́ნცლუჲნი̆  მაკალათ შუჼ თხეჼ დო́ბილ პლატფო́რმელეჼ, მე́ნხუჲჩოხა́ წე: Mozilla Data Collective. ჩუ დოლა́ეთ, ჴა́პტათ 300+ საერთაშო́რისო̆ კრე́ბულახ, მე́ნხუჲა́ჲ ნა́ხვ და თაგდიენო̆ ნა́ხნაჲნო̆.
+# Button text for MDC announcement
+announcement-mdc-button-text = სო ლა́ტათ თხოჼ
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = დაჰ̦ და́სტო̆ წინი̆ ჩანართელო
