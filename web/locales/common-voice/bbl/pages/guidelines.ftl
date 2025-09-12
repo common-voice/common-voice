@@ -165,3 +165,12 @@ transcribe-the-audio-subheader-1-explanation-example-2 = ლიშაჼ დე�
 transcribe-the-audio-subheader-1-explanation-example-3 = ლიშაჼ დე́წე̆ დილლდალაჼ ჭაღჭა́ღოჩო̆ თათნა́ხ: ჴე́ჩუჲშგო ყოყ ჲა́ლლოშ, ლე მა́შინა́ ჲუღჲოშ.
 transcribe-the-audio-subheader-1-explanation-example-4 = გრამა́ტიკეჼ ცონიფსხოლაე́ ჟარგონა́ უჲშტი̆ დე́წ̆ე დაწე́რადალაჼ, მოჰე́ ხაწი́ცი̆. მა ნიფსჲოთ ნა́ხვ ჲუჲნი̆ ა́მბუჲ.
 transcribe-the-audio-subheader-2-explanation-1 = რიცხვია́ ლიშნია́ დეწე̆ დაწე́როდალაჼ დაშნივ, ციფრინაე́ ჴე́ჩო̆ ლიშნინ და́ყე̆, მუჲლნე́ დაჲცი̆:
+transcribe-the-audio-subheader-2-explanation-2 = დოშ დაცდარ დე́წე̆ დაწე́რადალაჼ, მოჰე́ წე́სუვ წე́რადუჲცი̆ ეჴ მატტმაქ, ჲაჴჴაჼ ა́სუჲ ჴმა́რბადოშა́ჲ.  მა́გალითი იშტუჼ ხილ'ო̆:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> ნიფსიჼ </correct>: ესერნა́ ფხაუზტყ კილომეტრ ხილ'ო̆.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>ცონიფსიჼ</wrong>: ესერნა́ 100 კილომეტრ ხილ'ო̆
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> ნიფსიჼ </correct>: ბჵარღოვაჲ ში ა́ზარ ფხიიტტ შარე.
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>ცონიფსიჼ</wrong>: ბჵარღოვაჲ<underline>2015 შარე </underline>
