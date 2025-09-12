@@ -161,3 +161,13 @@ transcribe-the-audio-subheader-3 = Speciální značky
 transcribe-the-audio-subheader-4 = Segmenty slov, falešné začátky, opakovaná slova
 transcribe-the-audio-subheader-5 = Gramatické chyby a hovorové výrazy
 transcribe-the-audio-subheader-1-explanation = Obecně byste si měli zapisovat vše, co slyšíte. To zahrnuje;
+transcribe-the-audio-subheader-1-explanation-example-1 = Zapisování nesouvislostí, včetně váhání a opakování.
+transcribe-the-audio-subheader-1-explanation-example-2 = Označování hlukových událostí, jako je kašel nebo smích.
+transcribe-the-audio-subheader-1-explanation-example-3 = Označování významného hluku, jako je hluk v pozadí nebo klaksony aut.
+transcribe-the-audio-subheader-1-explanation-example-4 = Gramatické odchylky a slang by měly být zaznamenány přesně tak, jak se vyskytují. Neopravujte ani neupravujte řeč lidí.
+transcribe-the-audio-subheader-2-explanation-1 = Čísla a symboly by se měly psát slovy, nikoli číslicemi nebo speciálními znaky. Příklad:
+transcribe-the-audio-subheader-2-explanation-2 = Zkratky by se měly psát tak, jak se běžně píší v daném jazyce, a to podle standardních pravidel psaní velkých písmen. Neměly by být přepisovány foneticky. Příklad:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <správně> Správně</správně>: Je to sto kilometrů odsud.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <špatně>Špatně</špatně>: Je to 100 kilometrů odsud.
