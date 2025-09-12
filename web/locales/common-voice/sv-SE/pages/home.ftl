@@ -138,7 +138,7 @@ join-discord-community = Gå med i Discord-gemenskapen
 join-discord-community-action = Gå med oss på Discord
 join-discord-community-content = Delta i diskussioner i språkgemenskapen, ställ frågor och lär dig om kommande evenemang och föredrag.
 find-us-on-matrix = Hitta oss på Matrix
-find-us-on-matrix-content-v2 = Matrix är ett öppet, lätt protokoll för decentraliserad realtidskommunikation och Mozillas föredragna öppna diskussionsplattform. Vi är i rum "common-voice:mozilla.org".
+find-us-on-matrix-content-v2 = Matrix är ett öppet, lätt protokoll för decentraliserad realtidskommunikation och Mozillas föredragna öppna diskussionsplattform. Vi finns i rummet "common-voice:mozilla.org".
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Andra klienter
