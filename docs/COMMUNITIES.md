@@ -28,12 +28,15 @@ Many language communities are self organising and have their contact channels on
   - [Telegram](https://t.me/softcatala_tecnologiesparla)
   - [Element](https://matrix.to/#/#cvcatala:matrix.org)
 - Circassian Languages/Variants (`ady`, `kbd`):
-  - [Telegram-Turkey (IM & Support) / in Turkish](https://bit.ly/cv_circassian_telegram_turkey)
-  - [Telegram-International (IM & Support) / in EN-ru-ady-kbd](https://bit.ly/cv_circassian_telegram_global)
-  - [Youtube (Video Guides)](https://www.youtube.com/@CommonVoice.Circassian)
-  - [Facebook Page](https://www.facebook.com/commonvoice.circassian)
-  - [X/Twitter](https://x.com/CV_Circassian)
-  - [Landing Page](https://bit.ly/cv_circassian_start_here)
+  - [Landing Page & Documentation](https://bit.ly/cv_circassian_start_here)
+  - Telegram Groups (IM & Support)
+    - [International / in EN-tr-ru-ady-kbd](https://bit.ly/cv_circassian_telegram_global)
+    - [Russia / in RU/ady/kbd](https://bit.ly/cv_circassian_telegram_russia)
+    - [Turkey / in Turkish](https://bit.ly/cv_circassian_telegram_turkey)
+  - Social Media
+    - [Youtube (Video Guides)](https://www.youtube.com/@CommonVoice.Circassian)
+    - [Facebook Page](https://www.facebook.com/commonvoice.circassian)
+    - [X/Twitter](https://x.com/CV_Circassian)
 - Czech (`cs`):
   - [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
 - Dargwa (`dar`):
