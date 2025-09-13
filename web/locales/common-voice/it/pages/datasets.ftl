@@ -8,6 +8,13 @@ datasets-positioning =
     Il dataset multilingue di Common Voice è già il più grande del suo genere disponibile pubblicamente, ma non è l’unico.
     
     Considera questa pagina come un punto di riferimento per dataset open source e, man mano che Common Voice continua a crescere, una pagina per i nostri aggiornamenti.
+# New/upcoming datasets page headline
+datasets-headline-mdc = I dataset di Mozilla Common Voice sono ora disponibili esclusivamente su Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    A partire dalla versione 23.0 di Common Voice, tutti i dataset di Common Voice possono essere scaricati esclusivamente da Mozilla Data Collective.
+    
+    Questa pagina è un archivio storico delle versioni precedenti dei dataset di Mozilla Common Voice. Le versioni archiviate dovrebbero essere utilizzate solo in particolari contesti di ricerca, non per addestramento, per rispettare la volontà di coloro che hanno chiesto che i loro contributi siano esclusi.
 datasets-speech-bubble-content = Grandi notizie: il discorso spontaneo è in arrivo! Non perderti gli ultimi aggiornamenti e tieni d’occhio il nostro <discordLink>Discord</discordLink> per le informazioni più recenti.
 language = Lingua
 download-dataset-header = Scarica il dataset
