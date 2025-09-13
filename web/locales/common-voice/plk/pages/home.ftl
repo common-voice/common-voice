@@ -149,6 +149,10 @@ join-discord-community = ڈسکارڈ کمیونٹی سے ٹل بِیا
 join-discord-community-action = Discord جیْ اسو سے ٹل بِیا
 join-discord-community-content = زبانی کمیونٹی مباحثو مجیْ حصہ ہرہ، سوالات تِھیا، آں آیونے واقعات گہ موْݜ کالِجیْ اکو پرجارہ۔
 find-us-on-matrix = اسو میٹرکس جیْ اورڑِیا
+find-us-on-matrix-content-v2 = میٹکس گہ کندریقرت، ریئل ٹائم کمیونیکیشن، گہ موزیلا اےْ ترجیحی اوپن ڈسکشن پلیٹ فارمےکِرِیا ایْک پتوڑگہ لہُوکو پروٹوکولُن۔ بیْہ کام وائس موزیلا اےْ کمرہ "common-voice:mozilla.org" داسَن۔
+# label for button
+find-us-on-element-action-1 = عنصر
+find-us-on-matrix-action-2 = مُتہ کلائنٹ
 ask-mozilla-share = موزیلاڑ تومہ واقعاتو اشتراکے رزہ۔
 ask-mozilla-share-content = جوْ لگِتھوْ یا اِیک واقعہ؟ آئے اسو سے شیئر تِھیا آں بیْس آسہ سے اعلان تومیْ کمیونٹی دہ تُھوِیس یا اسہ سے بارَد بلاگ لِکُویس ǃ
 # label for button
