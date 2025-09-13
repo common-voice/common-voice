@@ -126,9 +126,6 @@ join-discord-community = ڈسکورڈدراوال سہ ٹل بہ۔
 join-discord-community-action = ڈسکورذ رل اساں سہ ٹل بہ۔
 join-discord-community-content = جیب جولال ام می ٹل بہ۔یندر۔جولال  جان تے تپوس تہ
 find-us-on-matrix = مٹرکس رل اساں پش۔
-find-us-on-matrix-content = مٹرکس موزیلا اے جولال کیر ازاد ا پلیٹ فارم
-# label for button
-find-us-on-matrix-action = مٹرکس رل اساں پش۔
 ask-mozilla-share = موزیلا تہ من تی واقعات  میݭٹ تہ لاڑہ  تہ۔
 ask-mozilla-share-content = زیر یا یندر  ا ایونٹ اساں دی لاڑہ۔بہ تانی کمیونٹی سہ شیئر تھیئ یا تسے بارا می ا بلاگ چونڑے
 # label for button

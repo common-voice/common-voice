@@ -102,3 +102,5 @@ female = Kadın
 download-contribute-menu-tooltip = Ses verisi kümelerimizi indirin
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Common Voice verilerine erişebilmeniz için indirme seçenekleri
+datasets-show-more = Tüm veri kümelerini göster
+datasets-show-less = Son veri kümelerini göster

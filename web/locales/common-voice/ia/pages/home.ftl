@@ -135,9 +135,10 @@ join-discord-community = Junge te al communitate de Discord
 join-discord-community-action = Junge te a nos sur Discord
 join-discord-community-content = Participa in le discussiones del communitate linguistic, face demandas e apprende plus re le proxime eventos e discursos.
 find-us-on-matrix = Trova nos in Matrix
-find-us-on-matrix-content = Matrix es un protocollo aperte e legier pro communicationes decentralisate in tempore real, e le platteforma preferite de Mozilla pro discussiones aperte.
+find-us-on-matrix-content-v2 = Matrix es un protocollo aperte e legier pro communicationes decentralisate in tempore real, e le platteforma preferite de Mozilla pro discussiones aperte. Nos es in sala "common-voice:mozilla.org".
 # label for button
-find-us-on-matrix-action = Trova nos in Matrix
+find-us-on-element-action-1 = Elemento
+find-us-on-matrix-action-2 = Altere clientes
 ask-mozilla-share = Demanda a Mozilla que illo comparti tu eventos
 ask-mozilla-share-content = Ha tu un evento previe o imminente? Comparti lo con nos e nos lo annunciara a nostre communitate o scribera un blog re illo!
 # label for button

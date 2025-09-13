@@ -124,9 +124,6 @@ join-discord-community = Discord comete una join kari
 join-discord-community-action = Discord una homa som join kari
 join-discord-community-content = Hisa gri saw zuban an pe, zuban jonikas bati, sawal phuchi, jonis kia hin dai ya o mondr pe pron haw
 find-us-on-matrix = Matrix una homa sapres
-find-us-on-matrix-content = Matrix kholaw sawin hatya, esa protocol sawin hatya sawzai shiau, ruaw mon dikas bati, rabita as bati, mozilla una eta saw thi mon dek baha
-# label for button
-find-us-on-matrix-action = Matrix una homa sapres
 ask-mozilla-share = Mozilla as kai mas, se tai te krom phaziu
 ask-mozilla-share-content = Shumber aw ya o no'a pe kia shian haw/ hin  dai haw, homa som phaz'a. abi tasa bariuna newishik
 # label for button

@@ -108,7 +108,7 @@ community-and-languages-menu-item-aria-label = Εξερευνήστε την κ�
 
 hero-title = Τεχνολογία που μιλά τη γλώσσα σας
 # Text wrapped in <bold></bold> will be shown in bold font
-hero-subtitle-1 = <bold>Γιατί η τεχνητή νοημοσύνη να μπορει να λειτουργεί μόνο για μερικές από τις γλώσσες του κόσμου;</bold>
+hero-subtitle-1 = <bold>Γιατί η τεχνητή νοημοσύνη να μπορεί να λειτουργεί μόνο για μερικές από τις γλώσσες του κόσμου;</bold>
 hero-subtitle-2 = Η γλώσσα μας είναι η ιστορία μας, η κοινότητά μας, ο πολιτισμός μας. Ας δημιουργήσουμε τα σύνολα δεδομένων που θέλουμε να δούμε στον κόσμο.
 # icon is an arrow that points downwards
 get-started = Έναρξη <icon><icon>
@@ -135,9 +135,10 @@ join-discord-community = Συμμετοχή στην κοινότητα στο D
 join-discord-community-action = Βρείτε μας στο Discord
 join-discord-community-content = Λάβετε μέρος σε συζητήσεις της γλωσσικής κοινότητας, κάντε ερωτήσεις και μάθετε για επερχόμενες εκδηλώσεις και συνομιλίες.
 find-us-on-matrix = Βρείτε μας στο Matrix
-find-us-on-matrix-content = Το Matrix είναι ένα ανοικτό, «ελαφρύ» πρωτόκολλο για αποκεντρωμένη επικοινωνία σε πραγματικό χρόνο και αποτελεί την προτιμώμενη πλατφόρμα ανοικτών συζητήσεων της Mozilla.
+find-us-on-matrix-content-v2 = Το Matrix είναι ένα ανοικτό, «ελαφρύ» πρωτόκολλο για αποκεντρωμένη επικοινωνία σε πραγματικό χρόνο και αποτελεί την προτιμώμενη πλατφόρμα ανοικτών συζητήσεων της Mozilla. Βρισκόμαστε στο δωμάτιο «common-voice:mozilla.org».
 # label for button
-find-us-on-matrix-action = Βρείτε μας στο Matrix
+find-us-on-element-action-1 = Στοιχείο
+find-us-on-matrix-action-2 = Άλλα προγράμματα-πελάτες
 ask-mozilla-share = Ζητήστε από τη Mozilla να μοιραστεί τις εκδηλώσεις σας
 ask-mozilla-share-content = Έχετε κάποια προηγούμενη ή επερχόμενη εκδήλωση; Μοιραστείτε το μαζί μας και θα το ανακοινώσουμε στην κοινότητά μας ή θα γράψουμε μια ανάρτηση blog για αυτην!
 # label for button

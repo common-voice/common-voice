@@ -28,6 +28,8 @@ type GA4Events =
   | 'what-needs-to-be-in-file-toggle'
   | 'write-menu-label-click'
   | 'write-sentence-submit'
+  | 'join-mdc-announcement-button'
+  | 'close-mdc-announcement-button'
 
 export const trackGtag = (
   eventName: GA4Events,

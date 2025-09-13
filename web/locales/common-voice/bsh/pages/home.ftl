@@ -126,9 +126,6 @@ join-discord-community = ڑیسکارٹ کمیونٹی تہ شامل با
 join-discord-community-action = ایمو مع ڈیسکارٹ تہ شامل با
 join-discord-community-content = وری ستہاوگعماں مع بحث تہ بٹہ اݣع سوالات کشݩع اڅلہ پروگرام دے وری اوجوگاستہ بارہ تہ زعݩع۔
 find-us-on-matrix = ایمومٹریکس تہ وݩع
-find-us-on-matrix-content = میٹرکس او لوکہ پروٹوکول اسہ چہ ستہ غیر مرکزی رئل ٹائم اپار بوستہ کہ ایپے سہ سورہ موزیلا ݜاتیک کعستہ پعوان وری اوجوگاستہ فارم اسہ ۔
-# label for button
-find-us-on-matrix-action = ایمومٹریکس تہ وݩع
 ask-mozilla-share = موزیلا تہ تیو پروگرام شیئر کوستہ کہ درخواست کشی
 ask-mozilla-share-content = ایا توستہ پنوی وای یا اڅلی پروگرام اہ یہ ؟ ایمو مع سناع سورہ ایمو امکیاں یوستہ اوگعماں ݜیݣا مو یا ایکے دیوکں اہ بلاگ سترامو ۔
 # label for button

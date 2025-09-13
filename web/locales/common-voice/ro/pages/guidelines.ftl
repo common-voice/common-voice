@@ -238,8 +238,35 @@ code-switching-focus-emotional-explanation-example = „Spune-mi ce ți-au spus 
 code-switching-direct-quotes-header = Solicită citate sau reconstituiri
 code-switching-direct-quotes-explanation = Încurajează participanții să redea exact ce s-a spus în acea situație. De exemplu:
 code-switching-direct-quotes-explanation-example = „Ce ai spus exact, atunci când ai aflat?”
+code-switching-cultural-topics-header = Alege subiecte cu specific cultural
+code-switching-cultural-topics-explanation = Discuțiile despre mâncare, tradiții, sărbători și familie se pretează adesea la folosirea cuvintelor și expresiilor din mai multe limbi în aceeași intervenție.
+code-switching-cultural-topics-explanation-example = „Cum descrii mersul cu capra la colindat unei persoane care vorbește doar engleză?”
+code-switching-informal-scenarios-header = Alege situații informale
+code-switching-informal-scenarios-explanation = Conversațiile cu prietenii sau mesajele SMS includ adesea cuvinte și expresii în mai multe limbi. De exemplu:
+code-switching-informal-scenarios-explanation-example = „Ce glume fac mereu prietenii tăi sau ce expresii haioase folosesc adesea?”
+# What to Avoid
+code-switching-avoid-subheader = Ce să eviți:
+code-switching-avoid-intro = Evită întrebările care ar putea să:
+code-switching-avoid-1 = solicite informații de identificare personală;
+code-switching-avoid-2 = incite la ură sau la exprimări și sentimente părtinitoare sau jignitoare;
+code-switching-avoid-3 = facă pe cineva să împărtășească informații delicate sau să aibă reacții neplăcute.
+code-switching-dont-header = Ce să nu faci:
+code-switching-dont-1 = Nu folosi un limbaj excesiv de formal.
 # Reviewing a Question
 code-switching-review-subheader = Cum să verifici o întrebare
+code-switching-review-intro = Asigură-te că întrebarea îndeplinește următoarele criterii:
+code-switching-review-criterion-1 = este ușor de înțeles și de răspuns la ea;
+code-switching-review-criterion-2 = este relevantă, de actualitate;
+code-switching-review-criterion-3 = nu folosește și nu instigă la folosirea unui limbaj violent și ofensator.
+code-switching-review-does-not-header = Pe lângă acestea, întrebarea <bold>NU TREBUIE SĂ CONȚINĂ</bold> următoarele:
+code-switching-review-offensive-content = <bold>Conținut ofensator sau informații personale</bold>
+code-switching-answer-header = Conținut ofensator sau informații personale
+code-switching-review-no-1 = întrebările nu trebuie să solicite informații de identificare personală;
+code-switching-review-no-2 = întrebările nu trebuie să incite la ură sau la exprimări părtinitoare sau jignitoare;
+code-switching-review-no-3 = întrebările nu trebuie să solicite informații delicate sau să declanșeze reacții neplăcute.
+# Answering a Question
+code-switching-answer-subheader = Cum să răspunzi la o întrebare
+code-switching-answer-intro = Când răspunzi la o întrebare, scopul este să răspunzi natural, exact așa cum ai face-o într-o conversație obișnuită. Vrem să înregistrăm cum se îmbină limbile diverse în vorbirea de zi cu zi.
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content

@@ -150,9 +150,6 @@ join-discord-community = Pridruži se Discord zajednici
 join-discord-community-action = Pridruži nam se na Discordu
 join-discord-community-content = Sudjeluj u raspravama jezične zajednice, postavljaj pitanja i saznaj više o nadolazećim događajima i predavanjima.
 find-us-on-matrix = Pronađi nas na Matrixu
-find-us-on-matrix-content = Matrix je otvoreni, mali protokol za decentraliziranu komunikaciju uživo i Mozillina preferirana platforma za otvorene rasprave.
-# label for button
-find-us-on-matrix-action = Pronađi nas na Matrixu
 ask-mozilla-share = Zamoli Mozillu da dijeli tvoje događaje
 ask-mozilla-share-content = Imaš prethodni ili nadolazeći događaj? Dijeli ga s nama i mi ćemo to objaviti našoj zajednici ili napisati blog o tome!
 # label for button

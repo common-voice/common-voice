@@ -8,80 +8,82 @@ Many language communities are self organising and have their contact channels on
 
 ## Channels
 
-* General:
-  * Common Voice on [Matrix](https://app.element.io/#/room/#common-voice:mozilla.org) [Official]
-  * Common Voice on [Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) [Official] learn more about how you can request a language specific sub-discourse thread on our readme.
-  * Common Voice on [Discord](https://discord.gg/9ZCVQarN) [Official]
-  * Common Voice on [Telegram](https://t.me/mozilla_common_voice)
-* Bashqort (`ba`):
-  * [Telegram](https://t.me/bashkort_voice)
-* Belarusian (`be`):
-  * [Website](https://mova.pro)
-  * [Telegram](https://t.me/voice_by)
-* Bengali (`bn`): 
-  * [Matrix](https://app.element.io/#/room/#bn-common-voice:mozilla.org)
-  * [Discord](https://discord.gg/uacmNh6KQj)
-* Cantonese (`yue`):
-  * [Telegram](https://t.me/commonvoiceyue)
-  * [Instagram](https://www.instagram.com/commonvoice.yue/)
-* Catalan (`ca`):
-  * [Telegram](https://t.me/softcatala_tecnologiesparla)
-  * [Element](https://matrix.to/#/#cvcatala:matrix.org)
-* Circassian Languages/Variants (`ady`, `kbd`):
-  * [Telegram-Turkey (IM & Support) / in Turkish](https://bit.ly/cv_circassian_telegram_turkey)
-  * [Telegram-International (IM & Support) / in EN-ru-ady-kbd](https://bit.ly/cv_circassian_telegram_global)
-  * [Youtube (Video Guides)](https://www.youtube.com/@CommonVoice.Circassian)
-  * [Facebook Page](https://www.facebook.com/commonvoice.circassian)
-  * [X/Twitter](https://x.com/CV_Circassian)
-  * [Landing Page](https://bit.ly/cv_circassian_start_here)
-* Czech (`cs`):
-  * [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
-* Dargwa (`dar`):
-  * [Telegram](https://t.me/+ILBnBMEo-Bc3ODky) 
-* Dhivehi (`dv`):
-  * [Web](https://dhivehi.ai/)
-  * [Discord](https://discord.com/invite/5ZdTHsN8Mn)
-  * [Matrix](https://app.element.io/#/room/!WNiJFJTBpvYqMrDWir:matrix.org)
-* Esperanto (`eo`):
-  * [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
-  * [GitHub](https://github.com/parolrekonado)
-  * [Website](https://parolrekonado.github.io/)
-* Farsi/Persian (`fa`):
-  * [Telegram](https://t.me/Common_Voice)
-* French (`fr`):
-  * [Matrix](https://chat.mozilla.org/#/room/#common-voice-fr:mozilla.org)
-* German (`de`):
-  * [Matrix](https://chat.mozilla.org/#/room/#common-voice-de:mozilla.org)
-  * [Discourse](https://discourse.mozilla.org/c/voice/de/289)
-* Georgian (`ka`)
-  * [Facebook](https://www.facebook.com/groups/145786040762028)
-* Guaraní (`gn`):
-  * [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
-* Italian (`it`):
-  * [Telegram](https://t.me/mozitabot)
-* Kiswahili (`sw`):
-  * [Discourse](https://discourse.mozilla.org/c/voice/sw/603)
-* Korean (`ko`):
-  * [Telegram](https://t.me/cv_korean)
-* Persian (`fa`):
-  * [Telegram](https://t.me/Common_Voice)
-* Traditional Chinese (Mandarin) (`zh-TW`) & Taiwanese (`nan-TW`):
-  * [Matrix](https://chat.mozilla.org/#/room/#common-voice-tw:mozilla.org)
-  * [Telegram](https://t.me/moztwcv)
-  * [Line](https://cvline.moztw.space)
-* Turkic Interlingua (`cv`, `tt`, `ky`, `kk`, `tr`, `sah`):
-  * [Telegram](https://t.me/joinchat/WRFz62nYdmJ1uo1L)
-* Turkic++ LR for Common Voice (`ab`, `alt`, `az`, `ba`, `tr`, `sah`, `ug`, `uz`):
-  * [Telegram](https://t.me/+4Rlr3cfhhig1NWM8)
-* Turkish (`tr`)
-  * [Discourse](https://discourse.mozilla.org/c/voice/tr/610)
-  * [Facebook (Community & Support & Guides)](https://bit.ly/3C6oOgQ)
-  * [Telegram (IM / Support)](https://bit.ly/3basUbX)
-  * [Youtube (Video Guides)](https://bit.ly/3FYsJi1)
-  * [X/Twitter](https://bit.ly/3jmq08a)
-  * [Instagram](https://bit.ly/3G0RUAB)
-  * [LinkedIn Page](https://bit.ly/3GeX6Rp)
-* Uzbek (`uz`):
-  * [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi)
-* Wolof (`wo`):
-  * [WhatsApp](https://chat.whatsapp.com/CqgmqagpljJA8F1TiNK203)  
+- General:
+  - Common Voice on [Matrix](https://chat.mozilla.org/#/room/#common-voice:mozilla.org) [Official] or in room `common-voice:mozilla.org` of [other Matrix clients](https://matrix.to/#/#common-voice:mozilla.org)
+  - Common Voice on [Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) [Official] learn more about how you can request a language specific sub-discourse thread on our readme.
+  - Common Voice on [Discord](https://discord.gg/9ZCVQarN) [Official]
+  - Common Voice on [Telegram](https://t.me/mozilla_common_voice)
+- Bashqort (`ba`):
+  - [Telegram](https://t.me/bashkort_voice)
+- Belarusian (`be`):
+  - [Website](https://mova.pro)
+  - [Telegram](https://t.me/voice_by)
+- Bengali (`bn`):
+  - [Matrix](https://app.element.io/#/room/#bn-common-voice:mozilla.org)
+  - [Discord](https://discord.gg/uacmNh6KQj)
+- Cantonese (`yue`):
+  - [Telegram](https://t.me/commonvoiceyue)
+  - [Instagram](https://www.instagram.com/commonvoice.yue/)
+- Catalan (`ca`):
+  - [Telegram](https://t.me/softcatala_tecnologiesparla)
+  - [Element](https://matrix.to/#/#cvcatala:matrix.org)
+- Circassian Languages/Variants (`ady`, `kbd`):
+  - [Landing Page & Documentation](https://bit.ly/cv_circassian_start_here)
+  - Telegram Groups (IM & Support)
+    - [International / in EN-tr-ru-ady-kbd](https://bit.ly/cv_circassian_telegram_global)
+    - [Russia / in RU/ady/kbd](https://bit.ly/cv_circassian_telegram_russia)
+    - [Turkey / in Turkish](https://bit.ly/cv_circassian_telegram_turkey)
+  - Social Media
+    - [Youtube (Video Guides)](https://www.youtube.com/@CommonVoice.Circassian)
+    - [Facebook Page](https://www.facebook.com/commonvoice.circassian)
+    - [X/Twitter](https://x.com/CV_Circassian)
+- Czech (`cs`):
+  - [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
+- Dargwa (`dar`):
+  - [Telegram](https://t.me/+ILBnBMEo-Bc3ODky)
+- Dhivehi (`dv`):
+  - [Web](https://dhivehi.ai/)
+  - [Discord](https://discord.com/invite/5ZdTHsN8Mn)
+  - [Matrix](https://app.element.io/#/room/!WNiJFJTBpvYqMrDWir:matrix.org)
+- Esperanto (`eo`):
+  - [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
+  - [GitHub](https://github.com/parolrekonado)
+  - [Website](https://parolrekonado.github.io/)
+- Farsi/Persian (`fa`):
+  - [Telegram](https://t.me/Common_Voice)
+- French (`fr`):
+  - [Matrix](https://chat.mozilla.org/#/room/#common-voice-fr:mozilla.org)
+- German (`de`):
+  - [Matrix](https://chat.mozilla.org/#/room/#common-voice-de:mozilla.org)
+  - [Discourse](https://discourse.mozilla.org/c/voice/de/289)
+- Georgian (`ka`)
+  - [Facebook](https://www.facebook.com/groups/145786040762028)
+- Guaraní (`gn`):
+  - [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
+- Italian (`it`):
+  - [Telegram](https://t.me/mozitabot)
+- Kiswahili (`sw`):
+  - [Discourse](https://discourse.mozilla.org/c/voice/sw/603)
+- Korean (`ko`):
+  - [Telegram](https://t.me/cv_korean)
+- Persian (`fa`):
+  - [Telegram](https://t.me/Common_Voice)
+- Mandarin (Traditional Chinese) (`zh-TW`), Taiwanese (`nan-TW`) and Formosan Languages (`bnn`, `pwn`, `dru`, `tay`, `trv`, `szy`):
+  - [Telegram](https://t.me/moztwcv)
+  - [Line](https://cvline.moztw.space)
+- Turkic Interlingua (`cv`, `tt`, `ky`, `kk`, `tr`, `sah`):
+  - [Telegram](https://t.me/joinchat/WRFz62nYdmJ1uo1L)
+- Turkic++ LR for Common Voice (`ab`, `alt`, `az`, `ba`, `tr`, `sah`, `ug`, `uz`):
+  - [Telegram](https://t.me/+4Rlr3cfhhig1NWM8)
+- Turkish (`tr`)
+  - [Discourse](https://discourse.mozilla.org/c/voice/tr/610)
+  - [Facebook (Community & Support & Guides)](https://bit.ly/3C6oOgQ)
+  - [Telegram (IM / Support)](https://bit.ly/3basUbX)
+  - [Youtube (Video Guides)](https://bit.ly/3FYsJi1)
+  - [X/Twitter](https://bit.ly/3jmq08a)
+  - [Instagram](https://bit.ly/3G0RUAB)
+  - [LinkedIn Page](https://bit.ly/3GeX6Rp)
+- Uzbek (`uz`):
+  - [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi)
+- Wolof (`wo`):
+  - [WhatsApp](https://chat.whatsapp.com/CqgmqagpljJA8F1TiNK203)

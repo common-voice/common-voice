@@ -132,9 +132,6 @@ join-discord-community = 加入 Discord 社区
 join-discord-community-action = 通过 Discord 加入我们
 join-discord-community-content = 参与语言社区讨论、提问、掌握活动与研讨动态。
 find-us-on-matrix = 在 Matrix 上找到我们
-find-us-on-matrix-content = Matrix 是开源且轻量的去中心化实时通信协议，也是 Mozilla 的首选公开讨论平台。
-# label for button
-find-us-on-matrix-action = 在 Matrix 上找到我们
 ask-mozilla-share = 让 Mozilla 分享您举办的活动
 ask-mozilla-share-content = 举办过活动，或者将要举办活动？请与我们分享，而后我们会通告社区，也可以为活动撰写博文！
 # label for button

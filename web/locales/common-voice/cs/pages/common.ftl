@@ -470,3 +470,12 @@ languages-donate-banner-cta = <mark>Používáte Common Voice </mark><br/><mark>
 languages-donate-banner-cta-explanation = Common Voice je financován z darů a grantů! Rádi spolupracujeme s akademiky, výzkumníky z občanské společnosti a průmyslu. Používání služby Common Voice je zdarma, ale přispívat na náklady na platformu a hosting prostřednictvím návrhů na granty je opravdu užitečné.
 localization-select =
     .label = Zvolte jazyk/lokalizaci
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Nové datové sady Common Voice</strong> jsou nyní k dispozici ke stažení výhradně prostřednictvím naší sesterské platformy Mozilla Data Collective. Připojte se a získejte přístup k více než 300 globálním datovým sadám vytvořeným komunitou a pro komunitu.
+# Button text for MDC announcement
+announcement-mdc-button-text = Připojte se k Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Otevře se v novém panelu

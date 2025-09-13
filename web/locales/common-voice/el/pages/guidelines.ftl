@@ -145,6 +145,7 @@ example-questions-explanation-2 = Αν θέλετε να υποβάλετε μι
 # Answer Questions
 answer-questions = Απάντηση ερωτήσεων
 answer-questions-subheader = Γενικές οδηγίες
+answer-questions-explanation-1 = Σκεφτείτε για λίγο το μήνυμα προτροπής και τι θα θέλατε να πείτε, αλλά μην το προετοιμάσετε υπερβολικά. Κάντε κλικ στο εικονίδιο «Εγγραφή». Μόλις κάνετε την ηχογράφηση, μπορείτε να την ακούσετε, να την επαναλάβετε, να τη διαγράψετε ή να την υποβάλετε.
 answer-questions-explanation-2 = Μην ανησυχείτε αν τραυλίσετε, κάνετε παύση ή επαναλάβετε μια λέξη. Όλα αυτά είναι χρήσιμα δεδομένα για τους μηχανικούς που αναπτύσσουν ολοκληρωμένα, πραγματικά εργαλεία αναγνώρισης ομιλίας.
 answer-questions-tip-1 = Κάντε ηχογράφηση σε ένα σχετικά ήσυχο μέρος
 answer-questions-tip-2 = Επιλέξτε ένα μέρος με καλή σύνδεση στο διαδίκτυο
@@ -157,10 +158,15 @@ transcribe-the-audio = Μεταγραφή ήχου
 transcribe-the-audio-subheader-1 = Γενικές οδηγίες
 transcribe-the-audio-subheader-2 = Αριθμοί και ακρωνύμια
 transcribe-the-audio-subheader-3 = Ειδικές ετικέτες
+transcribe-the-audio-subheader-4 = Τμήματα λέξεων, λανθασμένες εκκινήσεις, επαναλαμβανόμενες λέξεις
 transcribe-the-audio-subheader-5 = Γραμματικά λάθη και καθομιλουμένη
 transcribe-the-audio-subheader-1-explanation = Γενικά, θα πρέπει να σημειώνετε όλα όσα ακούτε. Αυτό περιλαμβάνει:
+transcribe-the-audio-subheader-1-explanation-example-1 = Καταγραφή δυσρυθμιών, όπως δισταγμών και επαναλήψεων
+transcribe-the-audio-subheader-1-explanation-example-2 = Επισήμανση θορύβων, όπως βήχα ή γέλιου
+transcribe-the-audio-subheader-1-explanation-example-3 = Επισήμανση σημαντικής ηχορύπανσης, όπως συνομιλιών στο παρασκήνιο ή κορναρισμάτων αυτοκινήτων
 transcribe-the-audio-subheader-1-explanation-example-4 = Οι γραμματικές παραλλαγές και η αργκό πρέπει να καταγράφονται ακριβώς όπως εμφανίζονται. Δεν θα πρέπει να διορθώνετε ή να επεξεργάζεστε την ομιλία των χρηστών.
 transcribe-the-audio-subheader-2-explanation-1 = Οι αριθμοί και τα σύμβολα θα πρέπει να μεταγράφονται ολογράφως και όχι με αριθμητικούς ή ειδικούς χαρακτήρες. Παράδειγμα:
+transcribe-the-audio-subheader-2-explanation-2 = Τα ακρωνύμια θα πρέπει να γράφονται όπως εμφανίζονται κανονικά στη γλώσσα, σύμφωνα με τους κανόνες χρήσης κεφαλαίων. Δεν θα πρέπει να μεταγράφονται φωνητικά. Παράδειγμα:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Σωστό</correct>: Απέχει εκατό χιλιόμετρα από εδώ
 # text wrapped in wrong will be shown as red text in the UI
@@ -173,26 +179,39 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Σωστό</correc
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Λάθος</wrong>: Είχε 20% έκπτωση
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Σωστό</correct>: Συνελήφθησαν από το <underline>FBI</underline> την προηγούμενη Πέμπτη
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Λάθος</wrong>: Συνελήφθησαν από το <underline>εφ μπι άι</underline> την προηγούμενη Πέμπτη
+transcribe-the-audio-subheader-3-explanation = Οι παρακάτω ειδικές ετικέτες θα πρέπει να χρησιμοποιούνται για τη σήμανση δυσρυθμιών, γεμισμάτων και άλλων τύπων μη λεκτικού περιεχομένου (στα αγγλικά).
 tags-table-header-1 = Ετικέτα
 tags-table-header-2 = Σημασία
 tags-laugh = Γέλιο
+tags-disfluency = Δυσρυθμία
 tags-unclear = Ασάφεια
 tags-noise = Θόρυβος
 tags-laugh-explanation = Ο ήχος του γέλιου.
+tags-disfluency-explanation =
+    Μια λέξη ή ήχος γεμίσματος που χρησιμοποιείται ως σύμβολο υποκατάστασης, ενώ ο ομιλητής αποφασίζει τι θα πει.
+    Στα ελληνικά, μερικοί συνηθισμένοι ήχοι δισταγμού είναι «εμ», «ε», «μμμ» κ.λπ.
 tags-unclear-explanation = Μια λέξη ή μια ακολουθία λέξεων που δεν είναι κατανοητή.
+tags-noise-explanation =
+    Κάθε άλλο είδος θορύβου, όπως το να βήχει ή να καθαρίζει τον λαιμό του ομιλητής, το κορνάρισμα
+    ενός αυτοκινήτου, ο ήχος από κάτι που χτυπάει το μικρόφωνο, ένα τηλέφωνο που δονείται κ.λπ.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
-    Και τότε [θόρυβος] πήγα διακοπές.
-    Βασικά, [θόρυβος] [γέλιο] δεν ήταν ακριβώς διακοπές [γέλιο]
+    Και τότε [noise] πήγα διακοπές.
+    Βασικά, [noise] [laugh] δεν ήταν ακριβώς διακοπές [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Η αυθόρμητη ομιλία περιέχει εκ φύσεως λανθασμένες εκκινήσεις, όπου παράγεται μόνο ένα τμήμα μιας πλήρους λέξης. Σε αυτές τις περιπτώσεις, παρακαλείστε να καταγράφετε όσο καλύτερα μπορείτε το τμήμα της λέξης και να προσθέτετε μια παύλα (-) στο τέλος της λέξης, ώστε να δηλώσετε ότι πρόκειται για αποτυχημένη αρχή μιας λέξης. Παράδειγμα:
+transcribe-the-audio-subheader-4-explanation-1-example = Τον λένε <underline>Ιω- Ιωά-</underline> Ιωάννη.
 transcribe-the-audio-subheader-4-explanation-2 = Μερικές φορές, οι ομιλητές επαναλαμβάνουν μια λέξη ή ένα τμήμα λέξης πολλές φορές. Και αυτά θα πρέπει να μεταγράφονται. Παράδειγμα:
 transcribe-the-audio-subheader-4-explanation-2-example = Και μετά, κατευθύνθηκα προς <underline>την την την κρεβα- την</underline> κρεβατοκάμαρα
 transcribe-the-audio-subheader-5-explanation-1 = Είναι φυσιολογικό η αυθόρμητη ομιλία να περιέχει γραμματικά λάθη. Αυτά δεν θα πρέπει να διορθώνονται κατά τη μεταγραφή. Η μεταγραφή θα πρέπει να αντικατοπτρίζει επακριβώς το περιεχόμενο.
+transcribe-the-audio-subheader-5-explanation-2 = Οι ομιλητές μπορεί να χρησιμοποιούν εκφράσεις της καθομιλουμένης (όπως «καλή φάση», «την έβαψα» κ.λπ.), οι οποίες μπορεί να μην θεωρούνται τυπικά σωστές. Αυτές θα πρέπει να καταγράφονται όπως είναι και όχι να αλλάζονται στα πιο επίσημα ισοδύναμά τους.
 
 ## Review the Transcription
 
 review-the-transcription = Έλεγχος μεταγραφών
 review-the-transcription-subheader = Γενικές οδηγίες
+review-the-transcription-explanation-1 = Γενικά, συμβουλεύουμε το άτομο που ελέγχει τη μεταγραφή να μην είναι το ίδιο άτομο που έκανε την αρχική μεταγραφή. Είναι πολύ δύσκολο να ελέγξετε τη δουλειά σας! Οι πολλαπλές αξιολογήσεις συμβάλλουν στην ενίσχυση της διασφάλισης της ποιότητας και στον μετριασμό των προκαταλήψεων και των προβλημάτων.
 review-the-transcription-explanation-2 = Διαβάστε τις παραπάνω οδηγίες μεταγραφής για να ελέγξετε την ακρίβεια μιας μεταγραφής. Μπορείτε να κάνετε επεξεργασίες και να τις υποβάλετε.
+review-the-transcription-explanation-3 = Μπορείτε πάντα να επισημάνετε περιεχόμενο που είναι προσβλητικό, επιβλαβές ή γενικά ανησυχητικό και αυτό θα αφαιρεθεί από την εμπειρία σας μέχρι η ομάδα του Common Voice να το ελέγξει και να το διερευνήσει περαιτέρω.
 
 ## Code-Switching
 
@@ -205,7 +224,9 @@ code-switching-adding-question-criteria-1 = Είναι εύκολη στην κ�
 code-switching-adding-question-criteria-2 = Είναι γενικά επίκαιρη
 code-switching-adding-question-criteria-3 = Μην κάνει (ή να παρακινεί στη) χρήση προσβλητικού λόγου
 code-switching-adding-question-note = Σκεφτείτε επίσης να συμπεριλάβετε διαφορετικά συμφραζόμενα και τομείς.
-code-switching-use-bilingual-prompts-header = Χρήση δίγλωσσων μηνυμάτων προτροπής
+# What types of questions to add
+code-switching-types-subheader = Ποιους τύπους ερωτήσεων να προσθέσω;
+code-switching-use-bilingual-prompts-header = Χρησιμοποιήστε δίγλωσσα μηνύματα προτροπής
 code-switching-use-bilingual-prompts-explanation = Χρησιμοποιήστε δίγλωσσα μηνύματα προτροπής που ενσωματώνουν και τις δύο γλώσσες στην ερώτησή σας. Παράδειγμα:
 code-switching-use-bilingual-prompts-explanation-example = «What did your mom tell you όταν γύρισες σπίτι εκείνη την ημέρα;»
 code-switching-ask-bilingual-contexts-header = Ρωτήστε σχετικά με δίγλωσσα συμφραζόμενα
@@ -248,13 +269,17 @@ code-switching-answer-subheader = Απάντηση ερωτήσεων
 code-switching-answer-intro = Όταν απαντάτε σε μια ερώτηση, στόχος σας είναι να απαντήσετε φυσικά, όπως θα κάνατε σε μια πραγματική συνομιλία. Θέλουμε να καταγράψουμε πώς πραγματικά αναμιγνύονται οι γλώσσες στην καθημερινή ομιλία.
 code-switching-answer-bullet-1 = Σκεφτείτε πραγματικές στιγμές ή καταστάσεις: αστεία, λογομαχίες, παραδόσεις
 code-switching-answer-bullet-2 = Φανταστείτε ότι στέλνετε μήνυμα σε έναν φίλο ή ότι λέτε σε κάποιον μια ιστορία
-code-switching-answer-bullet-3 = Συμπεριλάβετε λέξεις που θα χρησιμοποιούσατε στην πραγματικότητα, ακόμα κι αν είναι δανεικές ή μεικτές
+code-switching-answer-bullet-3 = Συμπεριλάβετε λέξεις που θα χρησιμοποιούσατε στην πραγματικότητα, ακόμα κι αν είναι δανεικές ή μικτές
 code-switching-answer-bullet-4 = Δεν υπάρχει «τέλειος» τρόπος απάντησης
 code-switching-authentic-header = Απαντήστε φυσικά και αυθεντικά
 code-switching-authentic-speak = <bold>Μιλήστε όπως θα κάνατε με τους φίλους ή την οικογένειά σας.</bold> Αν συνδυάζετε γλώσσες στην πραγματικότητα, κάντε το ίδιο και εδώ. Παράδειγμα:
+code-switching-authentic-speak-example = «Well, της είπα ότι δεν μπορούσα να πάω, αλλά εκείνη είπε, "Το καλό που σου θέλω να έρθεις!"»
 code-switching-use-both-languages = <bold>Χρησιμοποιήστε και τις δύο γλώσσες αν θα το λέγατε έτσι κανονικά.</bold> Ακόμη και η εναλλαγή μιας ή δύο λέξεων είναι χρήσιμη. Παράδειγμα:
 code-switching-use-both-languages-example = «Είχε εκνευριστεί πολύ because δεν επέστρεψα την κλήση της.»
 code-switching-authentic-direct-quotes = <bold>Συμπεριλάβετε άμεσες παραθέσεις ή διαλόγους.</bold> Γράψτε ακριβώς τι ειπώθηκε, χωρίς να το επεξεργαστείτε σε πιο επίσημη μορφή. Παράδειγμα:
+code-switching-authentic-direct-quotes-example = «My mom said, "Do you think this is a game?" και εγώ της απάντησα "Καλά, ηρέμησε!"»
+code-switching-authentic-reflect = <bold>Αντανακλάστε το συναίσθημα, την ταυτότητα και το πλαίσιο.</bold> Η εναλλαγή κωδίκων συνήθως συμβαίνει όταν οι άνθρωποι εκφράζουν συναισθήματα, ανάγκες ή πολιτιστικές ιδέες. Εστιάστε σε αυτά όταν απαντάτε σε ερωτήσεις.
+code-switching-authentic-full-context = <bold>Χρησιμοποιήστε πλήρεις απαντήσεις με συμφραζόμενα.</bold> Να είστε όσο πιο λεπτομερείς γίνεται, παρέχοντας όσες περισσότερες πληροφορίες μπορείτε. Μοιραστείτε μια ιστορία ή ένα παράδειγμα στις απαντήσεις σας.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Μην το σκέφτεστε υπερβολικά και μην κάνετε υπερβολικές διορθώσεις
 code-switching-answer-dont-correct-language = <bold>«Διόρθωση» της γλώσσας.</bold> Δεν εξετάζεστε για τη «σωστή» χρήση της γλώσσας. Σημασία έχει η φυσικότητα.
@@ -265,12 +290,14 @@ code-switching-answer-dont-translate-repeat = <bold>Μετάφραση ή επα
 # Transcribing
 code-switching-transcribe-subheader = Μεταγραφή
 code-switching-transcribe-intro = Κατά τη μεταγραφή απαντήσεων που περιλαμβάνουν εναλλαγή κωδίκων, αναπαραστήστε αυτούσια τη γλώσσα του ομιλητή, χωρίς διορθώσεις, τροποποιήσεις ή απλουστεύσεις. Αυτό ισχύει για όλες τις εναλλαγές μεταξύ γλωσσών, άτυπης ομιλίας και μικτών λέξεων.
-code-switching-transcribe-do-2 = Κάντε παύση μετά από κάθε πρόταση για να κάνετε έλεγχο για εναλλαγές ή μεικτές λέξεις
+code-switching-transcribe-do-1 = Αναπαραγάγετε τα σύντομα τμήματα πολλές φορές για να εντοπίσετε ανεπαίσθητες εναλλαγές.
+code-switching-transcribe-do-2 = Κάντε παύση μετά από κάθε πρόταση για να κάνετε έλεγχο για εναλλαγές ή μικτές λέξεις
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Καταγραφή αυτούσιας της ομιλίας
 code-switching-capture-explanation = Μεταγράψτε και τις δύο γλώσσες όπως εμφανίζονται/ακούγονται. Μην «διορθώνετε» τη γλώσσα και μην αλλάζετε όλες τις λέξεις σε σε μία μόνο γλώσσα.
 # Include filler words and markers
-code-switching-filler-header = Συμπεριλάβετε συμπληρωματικές λέξεις και δείκτες
+code-switching-filler-header = Συμπεριλάβετε γεμίσματα και δείκτες
+code-switching-filler-explanation = Λέξεις και εκφράσεις, όπως «εμ», «σε φάση», «well» και «so», είναι σημαντικές. Παράδειγμα: «So, εμ, δεν ξέρω, ίσως αργότερα.»
 # Use standard spelling for each language
 code-switching-spelling-header = Χρήση τυπικής ορθογραφίας για κάθε γλώσσα
 code-switching-spelling-explanation = Προσπαθήστε να γράψετε σωστά τις λέξεις για κάθε γλώσσα, εκτός αν ο ομιλητής τις προφέρει ξεκάθαρα με μη τυπικό τρόπο.
@@ -290,20 +317,41 @@ code-switching-tagging-error-3 = Λέξεις γραμμένες με λανθα
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Χρήση της σωστής ορθογραφίας για κάθε γλώσσα
 code-switching-orthography-explanation = Γράψτε κάθε λέξη σύμφωνα με την ορθογραφία της γλώσσας από την οποία προέρχεται. Για παράδειγμα:
+code-switching-orthography-explanation-example-1 = Ακόμα κι αν η λέξη «kitchen» ειπωθεί με ελληνική προφορά, θα πρέπει να μεταγραφεί όπως θα γραφόταν στα αγγλικά, όχι ως «κίτσεν».
+code-switching-orthography-explanation-example-2 = Ακόμα κι αν η λέξη «quinceaños» προφέρεται όπως στα αγγλικά, γράψτε την με το «ñ».
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Χρησιμοποιήστε την προφορά για να προσδιορίσετε τη γλώσσα
+code-switching-pronunciation-explanation = Μερικές λέξεις μπορεί να έχουν γράφονται το ίδιο και στις δύο γλώσσες, αλλά να προφέρονται διαφορετικά. Ακούστε σωστά την προφορά για να επιλέξετε τη σωστή ετικέτα. Για παράδειγμα: stop, camping, delivery.
 code-switching-pronunciation-explanation-example-1 = Αγγλικά: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Ισπανικά: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Προσθήκη ετικετών σε μια λεκτική μονάδα
+code-switching-single-token-explanation = Μια λεκτική μονάδα, χωρισμένη με κενά, θα πρέπει να περιέχει περισσότερα από ένα διαστήματα με ετικέτες.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Προσθήκη ετικετών σε σημεία στίξης με βάση την κοντινή γλώσσα
+code-switching-punctuation-tagging-explanation = Προσθέστε ετικέτες στα σημεία στίξης χρησιμοποιώντας τη γλώσσα που βρίσκεται πλησιέστερα στα αριστερά. Παραδείγματα:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>και τη μοναδική φορά που η</purple> Μαρία <purple>μού φώναξε ήταν</purple> <blue>because</blue> <purple>προσπαθούσε να</purple> <blue>print an</blue> <purple>παραγγελία.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>αλλά</purple> <blue>you can buy them in red, black, blue</blue>, <purple>όποιο χρώμα θέλετε.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Δείξτε προσοχή σε λέξεις που μοιάζουν
 code-switching-lookalikes-explanation = Μερικές λέξεις μπορεί να φαίνεται ότι προέρχονται από τη μια γλώσσα, αλλά χρησιμοποιούνται στην άλλη. Προσθέστε την ετικέτα με βάση το νόημα και τη χρήση, όχι την εμφάνιση. Παραδείγματα:
+code-switching-lookalikes-explanation-example-1 = Ο όρος «delivery» χρησιμοποιείται συχνά στα ελληνικά αντί της φράσης «παράδοση φαγητού», οπότε σε μια τέτοια περίπτωση επισημάνετέ τον ως ελληνικά
+code-switching-lookalikes-explanation-example-2 = Η φράση «No problemo» χρησιμοποιείται συχνά στα αγγλικά, οπότε σε μια τέτοια περίπτωση θα την επισημάνετε ως αγγλικά
 # When Not to Tag Words
 code-switching-not-tag-header = Περιπτώσεις όπου δεν πρέπει να προσθέτετε ετικέτες σε λέξεις
-code-switching-not-tag-explanation = Μερικές λέξεις <bold>δεν πρέπει να φέρουν</bold> ετικέτα γλώσσας, ακόμα κι αν φαίνονται μεικτές ή προσαρμοσμένες. Δείτε πώς να διαχειριστείτε μερικά παραδείγματα:
+code-switching-not-tag-explanation = Μερικές λέξεις <bold>δεν πρέπει να φέρουν</bold> ετικέτα γλώσσας, ακόμα κι αν φαίνονται μικτές ή προσαρμοσμένες. Δείτε πώς να διαχειριστείτε μερικά παραδείγματα:
 code-switching-not-tag-proper-names = <bold>Κύρια ονόματα.</bold> Τα ονόματα ατόμων, τοποθεσιών και οργανισμών δεν θα πρέπει να φέρουν ετικέτες. Παραδείγματα:
 code-switching-not-tag-proper-names-example-1 = Άτομα: Μαρία, Γιάννης
 code-switching-not-tag-proper-names-example-2 = Τοποθεσίες: Λος Άντζελες, Φλόριντα
 code-switching-not-tag-proper-names-example-3 = Επωνυμίες/οργανισμοί: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Μικτές ή μορφολογικά προσαρμοσμένες λέξεις.</bold> Μην προσθέτετε ετικέτες σε λέξεις που συνδυάζουν γλώσσες ή έχουν καταλήξεις από άλλη γλώσσα. Παραδείγματα:
+code-switching-not-tag-mixed-words-example = Όταν μια ρίζα είναι αγγλική, αλλά η κατάληξη είναι ελληνική: «παρκάρω», «τσιλάρω»
+code-switching-not-tag-interjections = <bold>Επιφωνήματα.</bold> Τα επιφωνήματα και οι λέξεις γεμίσματος, ανεξαρτήτως γλώσσας, θα πρέπει να παραμένουν <bold>χωρίς ετικέτες</bold>. Παραδείγματα:
+code-switching-not-tag-interjections-example-1 = «Ε»
+code-switching-not-tag-interjections-example-2 = «Όχι»
+code-switching-not-tag-interjections-example-3 = «Ναι»
+code-switching-not-tag-interjections-example-4 = «Εμ»
 
 ## Reporting Content
 

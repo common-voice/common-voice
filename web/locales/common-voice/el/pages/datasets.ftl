@@ -50,7 +50,7 @@ resource-deepspeech-info = Το Deep Speech, η ανοικτού κώδικα μ
 resource-coqui-info = Το <coquiLink>Coqui</coquiLink> είναι αφοσιωμένο στην ανοικτή τεχνολογία ομιλίας. Τα έργα τους περιλαμβάνουν βαθιά εκμάθηση σε μηχανές STT και TTS.
 community-playbook = Βιβλίο κανόνων κοινότητας
 resource-playbook-info = <playbookLink>Βρείτε χρήσιμες οδηγίες</playbookLink> για όλη την πορεία του Common Voice, από τη μετάφραση μέχρι τη χρήση συνόλων δεδομένων, καθώς και τη σύνδεση με την κοινότητά μας.
-data-other-librispeech-description = Το LibriSpeech είναι ένα σύνολο στοιχείων με περίπου 1000 ώρες από 16Khz αναγνωσμένων ομιλιών στα Αγγλικά, που προέρχονται από τα ηχητικά βιβλία του έργου LibriVox.
+data-other-librispeech-description = Το LibriSpeech είναι ένα σύνολο στοιχείων με περίπου 1.000 ώρες από 16Khz αναγνωσμένων ομιλιών στα Αγγλικά, που προέρχονται από τα ηχητικά βιβλία του έργου LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Το corpus «TED-LIUM» δημιουργήθηκε από ηχητικές ομιλίες και τις μεταγραφές τους που είναι διαθέσιμες στον ιστότοπο του TED.
 data-other-voxforge-description = Το VoxForge δημιουργήθηκε με σκοπό τη συλλογή μεταγραμμένων ομιλιών, για χρήση με μηχανές αναγνώρισης ομιλίας ελεύθερου και ανοικτού κώδικα.
@@ -94,7 +94,7 @@ data-bundle-description = Τα δεδομένα του Common Voice, καθώς 
 release-version = Έκδοση
 dataset-date = Ημερομηνία
 license = Άδεια: <licenseLink>{ $license }</licenseLink>
-license-mixed = Μεικτή
+license-mixed = Μικτή
 # Support old genders in older datasets
 male = Άνδρας
 female = Γυναίκα
@@ -102,3 +102,5 @@ female = Γυναίκα
 download-contribute-menu-tooltip = Κάντε λήψη των συνόλων δεδομένων φωνής μας
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Επιλογές λήψης για την πρόσβαση στα δεδομένα του Common Voice
+datasets-show-more = Εμφάνιση όλων των συνόλων δεδομένων
+datasets-show-less = Εμφάνιση τελευταίων συνόλων δεδομένων

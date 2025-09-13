@@ -150,6 +150,7 @@ lv = 拉脱维亚语
 lzz = 拉兹语
 mai = 迈蒂利语
 mau = 高地马萨特克语
+mbf = 马来峇峇语
 mbo = Mbo 语
 mdf = 莫克沙语
 mg = 马尔加什语
@@ -324,3 +325,12 @@ languages-donate-banner-cta = <mark>在用 Common Voice</mark><br/><mark>来做�
 languages-donate-banner-cta-explanation = Common Voice 的资金来自捐款和基金！我们热爱与学术界、民间社会和行业研究人员的合作。 Common Voice 可以免费使用，但通过基金支付平台改善和托管费用也会非常有帮助。
 localization-select =
     .label = 选择语言 / 本地化
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>新的 Common Voice 数据集</strong>现由我们的姊妹平台 Mozilla Data Collective 专门提供下载。立即加入，获取 300+ 个全球数据集，均是由社区打造，供社区运用。
+# Button text for MDC announcement
+announcement-mdc-button-text = 加入 Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = 新建标签页打开

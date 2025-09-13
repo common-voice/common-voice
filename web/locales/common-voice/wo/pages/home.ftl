@@ -89,8 +89,6 @@ answer = Tontu
 
 find-us-on-matrix = Jokko ak nun ci Matrix
 # label for button
-find-us-on-matrix-action = Jokko ak nun ci Matrix
-# label for button
 ask-mozilla-share-action = Yëgleel sa xew-xew
 
 ## Featured section

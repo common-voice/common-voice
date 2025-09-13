@@ -8,3 +8,7 @@ adding-sentences-subheader-length-explanation = Zdanie powinno zawierać mniej n
 ## Question collection sidebar content
 
 example-questions-subheader = Przykładowe pytania
+
+## Code-Switching
+
+code-switching-tagging-error-2 = Literówki

@@ -97,7 +97,12 @@ release-version = Versión
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesturados
+# Support old genders in older datasets
+male = Masculino
+female = Feminino
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Descargar os conxuntos de datos de voz
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Opcións de descarga para acceder aos datos de Common Voice
+datasets-show-more = Amosar todos os conxuntos de datos
+datasets-show-less = Amosar os conxuntos de datos máis recentes

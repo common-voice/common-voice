@@ -10,3 +10,5 @@ partnerships-academia-header = Universitatoj, akademiuloj kaj esploristoj
 partnerships-small-business-header = Malgrandaj entreprenoj, inkluzive de teknologiaj kaj AI-ekfirmaoj
 partnerships-corporates-header = Grandskalaj kompanioj kaj platformaj kompanioj
 partnerships-our-partners = Niaj partneroj
+# menu item
+partners = Partneroj

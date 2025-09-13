@@ -8,6 +8,13 @@ datasets-positioning =
     Der mehrsprachige Datensatz von Common Voice ist bereits der größte öffentlich verfügbare Sprachdatensatz seiner Art, jedoch nicht das einzige.
     
     Betrachten Sie diese Seite als Referenzpunkt für andere quelloffene Sprachdatensätze. Wenn Common Voice weiter wächst, finden Sie hier die neuesten Updates.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla-Common-Voice-Datensätze sind jetzt ausschließlich über Mozilla Data Collective verfügbar.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Ab Common Voice 23.0 stehen alle Common-Voice-Datensätze ausschließlich über Mozilla Data Collective zum Download bereit!
+    
+    Diese Seite dient als historisches Archiv für vergangene Versionen von Mozilla-Common-Voice-Datensätzen. Veröffentlichungen aus Archiven sollten nur in bestimmten Rechercheszenarien verwendet werden, nicht zu Schulungen, um den Wunsch derer zu respektieren, die darum gebeten haben, ihre Beiträge auszuschließen.
 datasets-speech-bubble-content = Aufregende Nachrichten! Spontane Sprache ist bald verfügbar! Bleiben Sie dran für Neuigkeiten und besuchen Sie unseren <discordLink>Discord</discordLink>, um die neuesten Informationen zu erhalten.
 language = Sprache
 download-dataset-header = Datensatz herunterladen
@@ -102,3 +109,5 @@ female = Weiblich
 download-contribute-menu-tooltip = Laden Sie unsere Sprachdatensätze herunter
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Download-Optionen für den Zugriff auf Common-Voice-Daten
+datasets-show-more = Alle Datensätze anzeigen
+datasets-show-less = Neueste Datensätze anzeigen

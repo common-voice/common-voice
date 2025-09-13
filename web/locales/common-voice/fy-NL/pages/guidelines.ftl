@@ -149,6 +149,7 @@ example-questions-explanation-2 = As jo in rige fragen foar opname yntsjinje wol
 # Answer Questions
 answer-questions = Fragen beäntwurdzje
 answer-questions-subheader = Algemiene rjochtlinen
+answer-questions-explanation-1 = Tink efkes nei oer de fraach, beskôgje wat jo sizze wolle, mar skriuw josels net tefolle yn in skript. Klik op it piktogram ‘opnimme’. As jo ienris opnommen hawwe, kinne jo nei josels harkje, opnij opnimme, wiskje of yntsjinje.
 answer-questions-tip-1 = Nim op in reedlik rêstich plak op
 answer-questions-tip-2 = Kies in plak mei in goede ynternetferbining
 answer-questions-tip-3b = Probearje jo antwurd binnen 15-30 sekonden te hâlden

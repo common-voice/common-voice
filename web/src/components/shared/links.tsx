@@ -1,22 +1,22 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import * as React from 'react';
-import { useState } from 'react';
-import { TextButton } from '../ui/ui';
-import URLS from '../../urls';
-import { trackGlobal } from '../../services/tracker';
-import ContactModal from '../contact-modal/contact-modal';
-import { useLocale, useLocalizedDiscourseURL } from '../locale-helpers';
+import * as React from 'react'
+import { useState } from 'react'
+import { TextButton } from '../ui/ui'
+import URLS from '../../urls'
+import { trackGlobal } from '../../services/tracker'
+import ContactModal from '../contact-modal/contact-modal'
+import { useLocale, useLocalizedDiscourseURL } from '../locale-helpers'
 
 interface SharedLinkProps {
-  id?: string;
-  children?: React.ReactNode;
-  className?: string;
-  dispatch?: any;
-  style?: any;
+  id?: string
+  children?: React.ReactNode
+  className?: string
+  dispatch?: any
+  style?: any
 }
 
 export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
-  const [locale] = useLocale();
+  const [locale] = useLocale()
   return (
     <a
       target="_blank"
@@ -25,8 +25,8 @@ export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
       onClick={() => trackGlobal('github', locale)}
       {...props}
     />
-  );
-};
+  )
+}
 
 export const DeltaReadMoreLink = ({
   dispatch,
@@ -34,7 +34,7 @@ export const DeltaReadMoreLink = ({
   className,
   ...props
 }: SharedLinkProps) => {
-  const [locale] = useLocale();
+  const [locale] = useLocale()
   return (
     <a
       className={className}
@@ -45,12 +45,12 @@ export const DeltaReadMoreLink = ({
       onClick={() => trackGlobal('blog', locale)}
       {...props}
     />
-  );
-};
+  )
+}
 
 export const DiscourseLink = ({ dispatch, ...props }: SharedLinkProps) => {
-  const [locale] = useLocale();
-  const discourseURL = useLocalizedDiscourseURL();
+  const [locale] = useLocale()
+  const discourseURL = useLocalizedDiscourseURL()
   return (
     <a
       target="blank"
@@ -58,11 +58,11 @@ export const DiscourseLink = ({ dispatch, ...props }: SharedLinkProps) => {
       onClick={() => trackGlobal('discourse', locale)}
       {...props}
     />
-  );
-};
+  )
+}
 
 export const MatrixLink = ({ dispatch, ...props }: SharedLinkProps) => {
-  const [locale] = useLocale();
+  const [locale] = useLocale()
   return (
     <a
       target="blank"
@@ -70,12 +70,24 @@ export const MatrixLink = ({ dispatch, ...props }: SharedLinkProps) => {
       onClick={() => trackGlobal('matrix', locale)}
       {...props}
     />
-  );
-};
+  )
+}
+
+export const MatrixToLink = ({ dispatch, ...props }: SharedLinkProps) => {
+  const [locale] = useLocale()
+  return (
+    <a
+      target="blank"
+      href="https://matrix.to/#/#common-voice:mozilla.org"
+      onClick={() => trackGlobal('matrix', locale)}
+      {...props}
+    />
+  )
+}
 
 export const ContactLink = ({ dispatch, ...props }: SharedLinkProps) => {
-  const [locale] = useLocale();
-  const [showContactModal, setShowContactModal] = useState(false);
+  const [locale] = useLocale()
+  const [showContactModal, setShowContactModal] = useState(false)
 
   return (
     <>
@@ -86,13 +98,13 @@ export const ContactLink = ({ dispatch, ...props }: SharedLinkProps) => {
       <TextButton
         {...props}
         onClick={() => {
-          trackGlobal('contact', locale);
-          setShowContactModal(true);
+          trackGlobal('contact', locale)
+          setShowContactModal(true)
         }}
       />
     </>
-  );
-};
+  )
+}
 
 export const EmailLink = ({ ...props }: SharedLinkProps) => {
   return (

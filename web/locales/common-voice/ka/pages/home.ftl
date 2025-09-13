@@ -137,9 +137,6 @@ join-discord-community = შემოუერთდით Discord-ერთო�
 join-discord-community-action = გვეწვიეთ Discord-ზე
 join-discord-community-content = მიიღეთ მონაწილეობა ენობრივ განხილვებში, დასვით კითხვები და გაეცანით მომავალ ღონისძიებებსა თუ შეხვედრებს.
 find-us-on-matrix = გვიპოვეთ Matrix-ზე
-find-us-on-matrix-content = Matrix არის ღია, სწრაფმოქმედი ოქმის მქონე საშუალება ზედამხედველების გარეშე პირდაპირ საურთიერთობოდ და რომელსაც Mozilla ამჯობინებს ღია განხილვების გასამართად.
-# label for button
-find-us-on-matrix-action = გვიპოვეთ Matrix-ზე
 ask-mozilla-share = დაიხმარეთ Mozilla შეკრებებში
 ask-mozilla-share-content = გქონდათ ან გეგმავთ რამე ღონისძიებას? გაგვიზიარეთ და ჩვენ გავაცნობთ საზოგადოებას ან გამოვაქვეყნებთ სვეტს!
 # label for button

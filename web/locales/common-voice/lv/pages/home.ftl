@@ -138,9 +138,6 @@ join-discord-community = Pievienojieties Discord kopienai
 join-discord-community-action = Pievienoties Discord
 join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
 find-us-on-matrix = Atrodiet mūs Matrix
-find-us-on-matrix-content = Matrix ir atvērts, viegls protokols decentralizētai, reāllaika saziņai, un Mozilla izvēlētā atvērto diskusiju platforma.
-# label for button
-find-us-on-matrix-action = Atrodiet mūs Matrix
 ask-mozilla-share = Lūdziet Mozilla pastāstīt citiem par jūsu notikumu
 ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastāstiet mums par to, un mēs par šo notikumu paziņosim citiem, kam tas varētu interesēt!
 # label for button

@@ -8,6 +8,13 @@ datasets-positioning =
     Wěcejrěcna datowa sajźba Common Voice jo južo nejwětša zjawnje k dispoziciji stojeca datowa sajźba swójeje družyny, ale njejo jadnučka.
     
     Mějśo toś ten bok ako referencny dypk za druge głosowe datowe sajbźy wótwórjonego žrědła a, dokulaž Common Voice dalej rosćo, ako startowy dypk za naše nejnowše aktualizacije.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Datowe sajźby Mozilla Common Voice su něnto jano na Mozilla Data Collective k dispoziciji.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Wót Common Voice 23.0 su wšykne datowe sajźby Common Voice jano pśez Mozilla Data Collective za ześěgnjenje k dispoziciji!
+    
+    Toś ten bok ako historiski archiw za zajźone wersije datowych sajźbow Mozilla Common Voice słužy. Archiwowe wersije měli se jano we wěstych slěźeńskich scenarijach wužywaś, nic za trening, aby se žycenja tych respektěrowali, kótarež su pšosyli wó to, až jich pśinoski maju se wuzamknuś.
 datasets-speech-bubble-content = Zagórjujuce nowosći! Spontane powědanje jo pó droze! Slědujśo aktualizacije a cytajśo naše nejnowše informacije wó tom na <discordLink>Discord</discordLink>.
 language = Rěc
 download-dataset-header = Datowu sajźbu ześěgnuś
@@ -102,3 +109,5 @@ female = Žeńscyny
 download-contribute-menu-tooltip = Naše głosowe datowe sajźby ześěgnuś
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Ześěgnjeńske nastajenja za pśistup k datam Common Voice
+datasets-show-more = Wšykne datowe sajźby pokazaś
+datasets-show-less = Nejnowše datowe sajźby pokazaś

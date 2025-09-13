@@ -6,6 +6,13 @@ datasets-positioning =
     Large, publicly available voice datasets will foster innovation and healthy competition in machine-learning speech technology. Common Voice’s dataset is the largest of its kind, but not the only one.
     
     This page serves as a reference hub for other open-source voice datasets and a home for our release updates as Common Voice grows.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice datasets are now exclusively available on Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    As of Common Voice 23.0, all Common Voice datasets are exclusively available for download through Mozilla Data Collective!
+    
+    This page serves as a historical archive for past versions of Mozilla Common Voice datasets. Archive releases should only be used in specific research scenarios, not for training, to respect the wishes of those who have requested that their contributions be excluded.
 datasets-speech-bubble-content = Exciting news! Spontaneous Speech is on the way! Stay tuned for updates and make sure to check our <discordLink>Discord</discordLink> for the latest information.
 language = Language
 download-dataset-header = Download the Dataset
@@ -103,3 +110,6 @@ download-contribute-menu-tooltip = Download our voice datasets
 
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Download options for accessing Common Voice data
+
+datasets-show-more = Show All Datasets
+datasets-show-less = Show Latest Datasets

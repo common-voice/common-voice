@@ -132,9 +132,6 @@ join-discord-community = Discord جامائىتىگە قوشۇلۇڭ
 join-discord-community-action = Discord تا بىزگە قوشۇلۇڭ
 join-discord-community-content = تىل جامائىتى سۆھبىتىگە قاتنىشىپ، سوئال سوراڭ، كەلگۈسىدىكى پائالىيەت ۋە سۆھبەتلەر ھەققىدىكى ئۇچۇرلارنى ئىگىلەڭ.
 find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
-find-us-on-matrix-content = Matrix ئوچۇق كودلۇق، يېنىك، تارقاقلاشتۇرۇلغان، شۇئان ئالاقە كېلىشىمى بولۇپ، Mozilla تەۋسىيە قىلىدىغان ئوچۇق سۆھبەت سۇپىسى.
-# label for button
-find-us-on-matrix-action = بىزنى Matrix تىن ئىزدەڭ
 ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
 ask-mozilla-share-content = ئالدىنقى ياكى پات يېقىندا ئۆتكۈزۈلىدىغان پائالىيەت بارمۇ؟ بىزگە ھەمبەھىرلەڭ، ئۇنى جامائىتىمىزگە ئۇقتۇرىمىز ياكى شۇ توغرۇلۇق بىلوگ يازىمىز!
 # label for button

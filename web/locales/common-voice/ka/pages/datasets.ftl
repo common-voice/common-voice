@@ -102,3 +102,5 @@ female = მდედრობითი
 download-contribute-menu-tooltip = ხმოვანი კრებულების ჩამოტვირთვა
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = ჩამოტვირთვის პარამეტრები Common Voice-ის კრებულთან წვდომისთვის
+datasets-show-more = ყველა კრებულის ჩვენება
+datasets-show-less = უახლესი კრებულების ჩვენება

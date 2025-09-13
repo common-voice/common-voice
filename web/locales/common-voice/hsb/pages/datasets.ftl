@@ -8,6 +8,13 @@ datasets-positioning =
     Wjacerěčna datowa sadźba Common Voice je hižo najwjetša zjawnje k dispoziciji stejaca datowa sadźba swojeje družiny, ale njeje jenička.
     
     Mějće tutu stronu jako referencny dypk za druhe hłosowe datowe sadźy wotewrjeneho žórła a, dokelž Common Voice dale rosće, jako startowy dypk za naše najnowše aktualizacije.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Datowe sadźby Mozilla Common Voice su nětko jenož na Mozilla Data Collective k dispoziciji.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Wot Common Voice 23.0 su wšě datowe sadźby Common Voice jenož přez Mozilla Data Collective za sćehnjenje k dispoziciji!
+    
+    Tuta strona jako historiski archiw za zańdźene wersije datowych sadźbow Mozilla Common Voice słuži. Archiwowe wersije měli so jenož we wěstych slědźenskich scenarijach wužiwać, nic za trening, zo bychu so přeća tych respektowali, kotřiž su wo to prosyli, zo jich přinoški maja so wuzamknyć.
 datasets-speech-bubble-content = Zahorjace nowinki! Spontane rěčenje je po puću! Slědujće aktualizacije a čitajće naše najnowše informacije wo tym na <discordLink>Discord</discordLink>.
 language = Rěč
 download-dataset-header = Datowu sadźbu sćahnyć
@@ -102,3 +109,5 @@ female = Žónski
 download-contribute-menu-tooltip = Naše hłosowe datowe sadźby sćahnyć
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Sćehnjenske nastajenja za přistup k datam Common Voice
+datasets-show-more = Wšě datowe sadźby pokazać
+datasets-show-less = Najnowše datowe sadźby pokazać

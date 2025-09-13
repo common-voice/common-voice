@@ -126,9 +126,6 @@ join-discord-community = Discord Community lo kaa maneyin.
 join-discord-community-action = Discordulo me kaa kaa meneyin
 join-discord-community-content = Han baaṣ etaśo sis ćaġa barulo kaa maneyin, sawaalin duġarusin daa miyar ẓuwas yoorkumiṅulo kaa maneyin.
 find-us-on-matrix = Matrixate dimusin.
-find-us-on-matrix-content = Matrix uyoone gane ćaġa bar etase diśan bila daa mozilla akiljuko diśmiṅ damśi eći bi.
-# label for button
-find-us-on-matrix-action = Matrixate dimusin.
 ask-mozilla-share = Maymo yoorkumiṅ sisar ośar Mozila cum dugarusin.
 ask-mozilla-share-content = Manum yaa ẓuwas yoorkuwan bila? Mimar mesuyin ke mi koyooćar taxpa oorćan yaa blog girmiyan.
 # label for button

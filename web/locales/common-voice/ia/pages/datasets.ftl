@@ -102,3 +102,5 @@ female = Feminin
 download-contribute-menu-tooltip = Discargar le collection de datos de tu voce
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Optiones de discargamento pro acceder al datos de Common Voice
+datasets-show-more = Monstrar tote le collectiones de datos
+datasets-show-less = Monstrar le ultime collectiones de datos

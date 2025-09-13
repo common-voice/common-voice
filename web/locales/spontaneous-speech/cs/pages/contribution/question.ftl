@@ -30,3 +30,5 @@ do-not-section-title = ne:
 do-not-section-guideline-1 = Nežádejte osobní identifikační údaje (např. jména nebo finanční informace).
 do-not-section-guideline-2 = Nevyjadřujte nebo nevyvolávejte předsudky nebo urážlivé pocity
 do-not-section-guideline-3 = Neklaďte citlivé otázky
+# Code switching Guidelines
+cs-do-section-guideline-1 = Používejte dvojjazyčné otázky nebo kontext

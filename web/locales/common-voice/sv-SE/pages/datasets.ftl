@@ -8,6 +8,10 @@ datasets-positioning =
     Common Voices flerspråkiga datamängd är redan den största offentligt tillgängliga röstdatamängden av sitt slag, men den är inte den enda.
     
     Titta på den här sidan som referensnav för andra datakällor med öppen källkod och eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice datamängder är nu exklusivt tillgängliga på Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc = Från och med Common Voice 23.0 är alla Common Voice-datamängder exklusivt tillgängliga för nedladdning via Mozilla Data Collective!  Den här sidan fungerar som ett historiskt arkiv för tidigare versioner av Mozilla Common Voice-datamängder. Arkivsläpp bör endast användas i specifika forskningsscenarier, inte för utbildning, för att respektera önskemålen från de som har begärt att deras bidrag ska exkluderas.
 datasets-speech-bubble-content = Spännande nyheter! Spontant tal är på väg! Håll ögonen öppna efter uppdateringar och se till att kolla vår <discordLink>Discord</discordLink> för den senaste informationen.
 language = Språk
 download-dataset-header = Ladda ner datamängden
@@ -102,3 +106,5 @@ female = Kvinna
 download-contribute-menu-tooltip = Ladda ner våra röstdatamängder
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Nedladdningsalternativ för att komma åt Common Voice-data
+datasets-show-more = Visa alla datamängder
+datasets-show-less = Visa senaste datamängder

@@ -50,3 +50,13 @@ skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a
 off = Wyłączone
 on = Włączone
 other = Inna
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99

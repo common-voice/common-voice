@@ -41,6 +41,7 @@ volume-explanation = Der vil være naturlige variationer i lydstyrken mellem opl
 reader-effects-explanation = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
 just-unsure-explanation = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.
 still-have-questions = Har du stadig spørgsmål?
+contact-common-voice = Kontakt Common Voice-teamet
 
 ## Sentence collection nav ids
 
@@ -82,3 +83,30 @@ dont-add-subheader = Tilføj ikke
 culturally-specific-questions = Kulturspecifikke spørgsmål
 offensive-content-sensitive-information = Stødende indhold eller følsomme oplysninger
 example-questions-subheader = Eksempler på spørgsmål
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Besvar spørgsmål
+answer-questions-subheader = Generel vejledning
+answer-questions-tip-1 = Optag på et forholdsvis roligt sted
+answer-questions-tip-2 = Vælg et sted med en god internetforbindelse
+answer-questions-tip-6 = Hold din lydstyrke ensartet - råb eller syng ikke
+# Transcribe the Audio
+transcribe-the-audio = Transskriber lyden
+transcribe-the-audio-subheader-1 = Generel vejledning
+transcribe-the-audio-subheader-2 = Tal og akronymer
+
+## Review the Transcription
+
+review-the-transcription-subheader = Generel vejledning
+
+## Code-Switching
+
+code-switching-review-offensive-content = <bold>Stødende indhold eller følsomme oplysninger</bold>
+code-switching-answer-header = Stødende indhold eller følsomme oplysninger
+code-switching-tagging-error-2 = Stavefejl
+
+## Reporting Content
+
+reporting-content-subheader = Generel vejledning

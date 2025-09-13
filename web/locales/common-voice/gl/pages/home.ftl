@@ -120,12 +120,12 @@ action-items-section-subtitle = Calquera persoa pode preservar, revitalizar e pr
 scripted-card-header = Fala guiada
 scripted-card-content = Lea frases en voz alta no seu idioma e contribúa ao conxunto de datos de voz de creación comunitaria máis diverso do mundo.
 spontaneous-card-header = Fala espontánea
-spontaneous-card-content = Responde a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
+spontaneous-card-content = Responda a estímulos para crear conxuntos de datos en contextos orgánicos e coloquiais. Ideal para linguas cunha forte tradición oral.
 language-text-card-header = Texto na súa lingua
 language-text-card-content = Cree ou comparta indicacións, frases e textos con licenza aberta para tradución, pequenos modelos de linguaxe etc.
 coming-soon = Proximamente
 add-text = Achegar texto
-answer = Resposta
+answer = Responda
 
 ## Community section
 
@@ -135,9 +135,6 @@ join-discord-community = Únase á nosa comunidade en Discord!
 join-discord-community-action = Unirse a Discord
 join-discord-community-content = Participe nos debates da súa comunidade lingüística, faga preguntas e infórmese sobre os próximos eventos e charlas.
 find-us-on-matrix = Estamos en Matrix
-find-us-on-matrix-content = Matrix é un protocolo aberto e lixeiro para comunicacións descentralizadas en tempo real e a plataforma de debate aberto preferida por Mozilla.
-# label for button
-find-us-on-matrix-action = Atoparnos en Matrix
 ask-mozilla-share = Comparta os seus eventos con Mozilla
 ask-mozilla-share-content = Ten un evento próximo ou xa celebrado? Compártao connosco e anunciámolo á nosa comunidade ou escribiremos sobre el no noso  blog.
 # label for button

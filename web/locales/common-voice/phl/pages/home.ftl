@@ -130,9 +130,6 @@ join-discord-community = ڈسکارڈ کمیونٹی وے شامل بھہ۔
 join-discord-community-action = ڈسکارڈی وے اسام سنگی شامل بھہ
 join-discord-community-content = لسانی کمیونٹی مباحثہ وے حصہ گِھن، سویلی کھوجہ، او یھاتہ واندہ واقعاتی بارئی بیڈو گہ ازدہ تھہ۔
 find-us-on-matrix = اسام میٹرکس وے بُلاڈ
-find-us-on-matrix-content = میٹرکس آک آزاد پروٹوکول کی ڑو موزیلائی پلیٹ فارم کی بُٹھے کھونڈئی یا تانم مجی کھونڈئنی بیتیمی حفاظت تھانو
-# label for button
-find-us-on-matrix-action = اسام میٹرکس وے بُلاڈ
 ask-mozilla-share = تیݨی واقعات شئیر تھئنی دپارہ موزیلا دی کھوجہ
 ask-mozilla-share-content = مُݜٹوکو یا یھاندہ واقعات ہنئے؟ اسام سنگی شئیر تھہ بے ڑسی بارئی تیݨی کمیونٹی وے اعلان تھیہ یا ڑسی بارئی چونٹئنی دپارہ منیہ
 # label for button

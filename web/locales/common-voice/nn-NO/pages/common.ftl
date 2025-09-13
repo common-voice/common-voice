@@ -441,7 +441,7 @@ back-top = Tilbake til toppen av sida
 logout = Logg ut
 donate = Doner
 stayintouch = Vi på Mozilla byggjer ein fellesskap rundt stemmeteknologi, og vi vil gjerne halde kontakten med oppdateringar, nye datakjelder og høyre meir om korleis du brukar denne informasjonen.
-privacy-info = Vi lovar å handtere informasjonen din på ein trygg måte. Les meir i <privacyLink>personvernpraksisen</ privacyLink> vår.
+privacy-info = Vi lovar å handtere informasjonen din på ein trygg måte. Les meir i <privacyLink>personvernfråsegna</ privacyLink> vår.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
@@ -470,3 +470,12 @@ languages-donate-banner-cta = <mark>Brukar du CV for</mark><br/><mark>forskinga 
 languages-donate-banner-cta-explanation = Common Voice er finansiert av donasjonar og tilskot! Vi likar å samarbeide med akademikarar, sivilsamfunn og industriforskarar. Common Voice er gratis å bruke, men å bidra til plattform- og vertskostnadar gjennom tilskotsforslag er veldig nyttig.
 localization-select =
     .label = Vel språk/lokalisering
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Nye Common Voice-datasett</strong> er no tilgjengelege for nedlasting eksklusivt gjennom søsterplattforma vår, Mozilla Data Collective. Bli med for å få tilgang til over 300 globale datasett, bygd av og for fellesskapet.
+# Button text for MDC announcement
+announcement-mdc-button-text = Ver med i Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Blir opna i ei ny fane

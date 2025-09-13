@@ -137,9 +137,10 @@ join-discord-community = Rejoindre la communauté Discord
 join-discord-community-action = Rejoignez-nous sur Discord
 join-discord-community-content = { "" }
 find-us-on-matrix = Retrouvez-nous sur Matrix
-find-us-on-matrix-content = Matrix est un protocole ouvert et léger pour une communication décentralisée en temps réel, et la plateforme de discussion ouverte préférée de Mozilla.
+find-us-on-matrix-content-v2 = Matrix est un protocole ouvert et léger pour une communication décentralisée en temps réel, et la plateforme de discussion ouverte préférée de Mozilla. Nous sommes dans le canal « common-voice:mozilla.org ».
 # label for button
-find-us-on-matrix-action = Retrouvez-nous sur Matrix
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Autres clients
 ask-mozilla-share = Demandez à Mozilla de partager vos évènements
 ask-mozilla-share-content = Vous avez un évènement déjà organisé ou à venir ? Partagez-le avec nous et nous l’annoncerons à notre communauté ou nous publierons un article à ce sujet !
 # label for button
