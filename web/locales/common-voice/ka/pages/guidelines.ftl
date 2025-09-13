@@ -232,7 +232,7 @@ code-switching-use-bilingual-prompts-explanation-example = „სახლში
 code-switching-ask-bilingual-contexts-header = დასვით კითხვები ორენოვანი შინაარსით
 code-switching-ask-bilingual-contexts-explanation = დაიხმარეთ ისეთი გარემოებები, როცა, ჩვეულებრივ, ორივე ენას იყენებენ (თუნდაც სახლში, სკოლაში, ერთობის ღონისძიებებში). მაგალითად:
 code-switching-ask-bilingual-contexts-explanation-example = „ბიძაშვილებს რომ ელაპარაკები, ერთმანეთში ურევ მეგრულსა და ქართულს?“
-code-switching-focus-emotional-header = ყურადღება გაამახვილეთ დაუვიწყარ ან გარდამტეხ მოვლენებზე
+code-switching-focus-emotional-header = ყურადღება გაამახვილეთ დაუვიწყარ ან მნიშვნელოვნად გარდამტეხ მოვლენებზე
 code-switching-focus-emotional-explanation = მეტყველების მონაცვლეობა ხალხს ახასიათებს გრძნობების გამოხატვისას, მღელვარებისას ან საგანგებო შემთხვევებისას. მაგალითად:
 code-switching-focus-emotional-explanation-example = „მითხარი, მშობლებს რა რეაქცია ჰქონდათ, როცა შენი ცხოვრების მნიშვნელოვანი სიახლე აცნობე — გადმოეცი, ზუსტად რა თქვეს.“
 code-switching-direct-quotes-header = მოითხოვეთ ნათქვამის ზუსტი გამეორება ან მიმსგავსებული წარმოდგენა
@@ -282,7 +282,7 @@ code-switching-authentic-full-context = <bold>სრული პასუხე
 code-switching-answer-dont-subheader = ზედმეტად ნუ იფიქრებთ და ნუ შეასწორებთ
 code-switching-answer-dont-correct-language = <bold>„გამართოთ“ თქვენი ენა.</bold> ეს გამოცდა არაა. „სათანადო“ ფორმა კი არა, ენის ბუნებრიობაა მნიშვნელოვანი.
 code-switching-answer-dont-avoid-switching = <bold>მონაცვლეობის არიდება, თუ დამახასიათებელია თქვენთვის.</bold> არა უშავს, თუ მეტყველებას შეანაცვლებთ შუა წინადადებაში, შუა ფიქრის დროს ან შეცვლით თუნდაც ერთ სიტყვას.
-code-switching-answer-dont-formal-writing = <bold>ილაპარაკოთ ისე, თითქოს საქმიანად წერდეთ.</bold> აირიდეთ საქმიანი, მოწესრიგებული პასუხები. შეინარჩუნეთ სასაუბრო მეტყველება.
+code-switching-answer-dont-formal-writing = <bold>ილაპარაკოთ ისე, თითქოს საქმიანად წერდეთ.</bold> აირიდეთ საქმიანი, მოწესრიგებული პასუხები. შეინარჩუნეთ სასაუბრო, შინაურული სახის მეტყველება.
 code-switching-answer-dont-force-switch = <bold>განგებ მონაცვლეობა, თუ არაბუნებრივია.</bold> მხოლოდ იმ შემთხვევაშია მონაცვლეობა მისაღები, თუ ჩვეულებრივ ასე ლაპარაკობთ ხოლმე.
 code-switching-answer-dont-translate-repeat = <bold>ყველაფრის თარგმნა ან გამეორება.</bold> მხოლოდ ერთხელ თქვით ისე, როგორც საუბრისას იტყოდით. არაა საჭირო პასუხის სხვადასხვა სახით ან თითოეულ ენაზე წარმოდგენა.
 # Transcribing
