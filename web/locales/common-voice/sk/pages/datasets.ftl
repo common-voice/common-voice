@@ -8,6 +8,13 @@ datasets-positioning =
     Viacjazyčná kolekcia údajov Common Voice je najväčším verejne dostupným hlasovým súborom svojho druhu, ale nie je jediným.
     
     Na tejto stránke nájdete odkazy iné otvorené kolekcie hlasových údajov a, ako bude Common Voice naďalej rásť, aj domov pre naše novinky.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Kolekcie údajov Mozilla Common Voice sú teraz exkluzívne dostupné na Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Od verzie Common Voice 23.0 sú všetky kolekcií údajov Common Voice k dispozícii na stiahnutie exkluzívne prostredníctvom Mozilla Data Collective!
+    
+    Táto stránka slúži ako historický archív pre predchádzajúce verzie kolekcií údajov Mozilla Common Voice. Archívne vydania by sa mali používať iba v špecifických výskumných scenároch, nie na školenia, aby sa rešpektovali želania tých, ktorí požiadali o vylúčenie svojich príspevkov.
 datasets-speech-bubble-content = Vzrušujúce správy! Spontánna reč je na ceste! Viac už čoskoro. Nezabudnite si pozrieť náš <discordLink>Discord</discordLink>, kde nájdete najnovšie informácie.
 language = Jazyk
 download-dataset-header = Stiahnutie kolekcie údajov
