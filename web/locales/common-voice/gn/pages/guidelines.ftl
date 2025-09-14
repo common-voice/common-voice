@@ -200,6 +200,7 @@ code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
 code-switching-cultural-topics-header = Eiporavo umi téma arandupyetéva
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
+code-switching-informal-scenarios-explanation-example = “Mba’e pukarãpa omombe’újepi ne angirũnguéra — mba’éichapa he’i?”
 # What to Avoid
 code-switching-avoid-subheader = Mba’éicha emboykéta
 code-switching-avoid-intro = Porandu ikatúva:
@@ -235,6 +236,8 @@ code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
 code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 # Use standard spelling for each language
 code-switching-spelling-header = Eiporu haikatuete peteĩteĩva ñe’ẽme g̃uarã.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Aníke emopotĩ térã emombyky pe ñe’ẽkuaa
 code-switching-cleanup-5 = Eimo’ã eikuaaha ñe’ẽ peteĩteĩva rehegua: embohéra ijeporu rupi.
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
