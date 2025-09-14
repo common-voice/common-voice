@@ -267,6 +267,12 @@ code-switching-review-no-3 = întrebările nu trebuie să solicite informații d
 # Answering a Question
 code-switching-answer-subheader = Cum să răspunzi la o întrebare
 code-switching-answer-intro = Când răspunzi la o întrebare, scopul este să răspunzi natural, exact așa cum ai face-o într-o conversație obișnuită. Vrem să înregistrăm cum se îmbină limbile diverse în vorbirea de zi cu zi.
+code-switching-answer-bullet-1 = Gândește-te la momente sau situații din viața reală: glume, certuri, tradiții.
+code-switching-answer-bullet-2 = Imaginează-ți că îi trimiți un mesaj unui prieten sau că îi relatezi cuiva o întâmplare.
+code-switching-answer-bullet-3 = Folosește cuvintele pe care le-ai folosi și în realitate, chiar dacă sunt împrumutate din sau amestecate cu alte limbi.
+code-switching-answer-bullet-4 = Nu există un fel „perfect” de a răspunde.
+code-switching-authentic-header = Răspunde într-un mod natural și autentic
+code-switching-authentic-speak = <bold>Vorbește așa cum ai face-o cu prietenii sau familia.</bold> Dacă amesteci mai multe limbi în viața reală, fă la fel și aici. De exemplu:
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
