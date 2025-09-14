@@ -101,3 +101,5 @@ female = Kuña
 download-contribute-menu-tooltip = Emboguejy ore ayvu mba’ekuaarã aty
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Mba’éicha emboguejykuaa eike hag̃ua Common Voice mba’ekuaarãme
+datasets-show-more = Ehechaukapa mba’ekuaarã aty
+datasets-show-less = Ehechauka mba’ekuaarã aty paha
