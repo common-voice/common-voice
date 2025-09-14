@@ -255,6 +255,7 @@ code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojep
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
 code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan
 code-switching-not-tag-proper-names-example-2 = Tendakuéra: Los Ángeles, Florida
+code-switching-not-tag-proper-names-example-3 = Márka/Tendaguasu:  Target, Burger King
 code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “Naháriri”
 code-switching-not-tag-interjections-example-3 = “Héẽ”
