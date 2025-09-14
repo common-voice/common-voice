@@ -46,6 +46,7 @@ why-demographic-explanation-2 = 已匿名化的使用者資料，如年齡、性
 accept-privacy = 我同意你依照 Mozilla 嘅<privacyLink>私隱保護政策</privacyLink>中描述嘅方式嚟處理呢啲資料
 accept-privacy-title = 隱私權政策
 login-identity = 登入身份
+login = 登入
 edit = 編輯
 email-subscriptions = 電郵訂閱
 download-profile = 下載我的數據
