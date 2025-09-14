@@ -273,6 +273,11 @@ code-switching-answer-bullet-3 = Folosește cuvintele pe care le-ai folosi și �
 code-switching-answer-bullet-4 = Nu există un fel „perfect” de a răspunde.
 code-switching-authentic-header = Răspunde într-un mod natural și autentic
 code-switching-authentic-speak = <bold>Vorbește așa cum ai face-o cu prietenii sau familia.</bold> Dacă amesteci mai multe limbi în viața reală, fă la fel și aici. De exemplu:
+code-switching-authentic-speak-example = „Next i-am spus că nu mai pot merge, dar ea mi-a zis: «You'd better show up, frate!»”
+code-switching-use-both-languages = <bold>Folosește ambele limbi dacă așa ai face-o în mod normal.</bold> Chiar și doar unul sau două cuvinte într-o altă limbă sunt utile. De exemplu:
+code-switching-use-both-languages-example = „S-a supărat grozav because nu am sunat-o.”
+code-switching-authentic-direct-quotes = <bold>Folosește ghilimelele sau liniile de dialog.</bold> Redă exact ce a spus cineva, nu o versiune modificată sau formală. De exemplu:
+code-switching-authentic-direct-quotes-example = „Mi-a spus boyfriendul, ‘Do you think this is a game?’ și eu i-am răspuns: ‘Ok, chill!’”
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
