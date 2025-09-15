@@ -173,11 +173,11 @@ transcribe-the-audio-subheader-2-example-1-correct = <correcto> Correcto</correc
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <incorrecto> Incorrecto </incorrecto>: Está a 100 quilómetros de aquí.
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-correct = <correcto> Correcto</correcto>: Vémonos no  <underline>dous mil quince</underline>
+transcribe-the-audio-subheader-2-example-2-correct = <correcto> Correcto</correcto>: Vémonos no  <underline>dous mil quince</underline>.
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto>: Vémonos no <underline>2015</underline>
-transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do vinte por cento.
-transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do 20%.
+transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto>: Vémonos no <underline>2015</underline>.
+transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do <underline>vinte por cento</underline>.
+transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do <underline>20%</underline>.
 transcribe-the-audio-subheader-2-example-4-correct = <correcto>Correcto</correcto>: É xornalista na <underline>RTVG </underline>
 transcribe-the-audio-subheader-2-example-4-wrong = <incorrecto>Incorrecto</incorrecto>: É xornalista na <underline> erre te uve gá </underline>
 transcribe-the-audio-subheader-3-explanation = As seguintes etiquetas especiais deben empregarse para marcar contidos non verbais que forma parte dos discursos orais.
@@ -207,7 +207,7 @@ review-the-transcription = Revisar a transcrición
 review-the-transcription-subheader = Orientacións xerais
 review-the-transcription-explanation-1 = Polo xeral, aconséllase que a persoa que revise a transcrición non sexa a mesma que fixo a transcrición orixinal. É moi difícil revisar o traballo propio! Ter varias persoas revisando pode axudar a que o control de calidade sexa máis sólido e a mitigar problemas.
 review-the-transcription-explanation-2 = Revise as directrices de transcrición anteriores para comprobar a súa precisión. Pode realizar modificacións e envialas.
-review-the-transcription-explanation-3 = Ademais, pode sinalar contido ofensivo ou prexudicial, e eliminarase da experiencia dos usuarios ata que o equipo de Common Voice poida revisalo detidamente.
+review-the-transcription-explanation-3 = Ademais, pode sinalar contido ofensivo ou prexudicial, e este non volverá aparecerlle ata que o equipo de Common Voice poida revisalo detidamente.
 
 ## Code-Switching
 
@@ -263,7 +263,7 @@ code-switching-answer-dont-force-switch = <bold>Force o cambio se non é natural
 code-switching-answer-dont-translate-repeat = <bold>Traduza ou repite todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
 # Transcribing
 code-switching-transcribe-subheader = Transcribir
-code-switching-transcribe-intro = Ao transcribir as respostas que inclúen alternancias de código, represente o idioma do falante tal e como se pronunciou - sen corrixir, editar ou simplificar. Isto aplica a todos os cambios entre linguas, á fala informal, aos castelanismos, etc.
+code-switching-transcribe-intro = Ao transcribir as respostas que inclúen alternancias de código, represente o idioma do falante tal e como se pronunciou - sen corrixir, editar ou simplificar. Isto aplica a todos os cambios entre linguas, á fala informal, aos castelanismos etc.
 code-switching-transcribe-do-1 = Reproduza segmentos curtos varias veces para detectar cambios sutís.
 code-switching-transcribe-do-2 = Faga pausas despois de cada oración para verificar se hai cambios ou palabras mesturadas.
 # Capture Speech Exactly as Spoken
