@@ -8,6 +8,13 @@ datasets-positioning =
     De meertalige gegevensset van Common Voice is nu al de grootste openbare spraakgegevensset in zijn soort, maar het is niet de enige.
     
     Beschouw deze pagina als een lijst met referenties naar andere opensource-spraakgegevenssets en, terwijl Common Voice doorgroeit, de startpagina voor onze nieuwe uitgaven.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice-gegevenssets zijn nu exclusief beschikbaar bij Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Vanaf Common Voice 23.0 kunnen alle Common Voice-gegevenssets exclusief worden gedownload via Mozilla Data Collective!
+    
+    Deze pagina dient als een historisch archief voor eerdere versies van Mozilla Common Voice-gegevenssets. Archiefversies mogen alleen in specifieke onderzoeksscenario’s worden gebruikt, niet voor training, om de wensen te respecteren van diegenen die hebben gevraagd om hun bijdragen uit te sluiten.
 datasets-speech-bubble-content = Opwindend nieuws! Spontane Spraak komt eraan! Blijf op de hoogte voor updates en zorg ervoor dat u onze <discordLink>Discord</discordLink> in de gaten houdt voor de nieuwste informatie.
 language = Taal
 download-dataset-header = De gegevensset downloaden
