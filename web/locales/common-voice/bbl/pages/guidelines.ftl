@@ -176,3 +176,6 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> ნიფსი�
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>ცონიფსიჼ</wrong>: ბჵარღოვაჲ<underline>2015 შარე </underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct> ნიფსიჼ </correct>: ტყა პრო́ცენტევ მახე́შენო̆ დარ.
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong> ცონიფსიჼ </wrong>: 20 %-ევ მახე́შენო̆ დარ.
+transcribe-the-audio-subheader-2-example-4-correct = <correct>ნიფსიჼ</correct>:<underline>შსს-ს </underline>ო́ბი დახეჩო̆ ხუთშა́ბთინე ლაცდიეჼ
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>ცონიფსიჼ</wrong>:<underline>შესესეს</underline>ო́ბი დახეჩო̆ ხუთშა́ბთინე ლაცდიეჼ
+tags-table-header-1 = ჭად
