@@ -190,6 +190,10 @@ tags-noise = Ruído
 tags-laugh-explanation = O son da risa.
 tags-unclear-explanation = Unha palabra ou unha secuencia que non se entende con claridade.
 tags-noise-explanation = Calquera outro tipo de ruído, como a tose do falante, a bucina dun coche, o son de algo golpeando o micrófono, un teléfono vibrando, etc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    E entón [ruído] fun de vacacións.
+    Ben, [ruído] [risa] non foron precisamente vacacións [risa]
 transcribe-the-audio-subheader-4-explanation-1 = A fala espontánea contén, de xeito natural, falsos comezos nos que só se reproduce un fragmento dunha palabra completa. Nestes casos, debe transcribir a parte pronunciada da palabra e engadir un guión ao final do fragmento que se repite (-) para indicar que se trata dun falso comezo. Exemplo:
 transcribe-the-audio-subheader-4-explanation-1-example = Chámanlle <underline>Xo- Xoán-</underline> Xoanciño.
 transcribe-the-audio-subheader-4-explanation-2 = En ocasións, os falantes repiten varias veces unha palabra ou un fragmento. Isto tamén se debe transcribir. Exemplo:
@@ -201,7 +205,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Os falantes poden empregar tam�
 
 review-the-transcription = Revisar a transcrición
 review-the-transcription-subheader = Orientacións xerais
-review-the-transcription-explanation-1 = Polo xeral, aconséllase que a persoa que revise a transcrición non sexa a mesma que fixo a transcrición orixinal. É moi difícil revisar o traballo propio! Ter varias liñas de revisión pode axudar a que  o control de calidade sexa máis sólido e a mitigar problemas.
+review-the-transcription-explanation-1 = Polo xeral, aconséllase que a persoa que revise a transcrición non sexa a mesma que fixo a transcrición orixinal. É moi difícil revisar o traballo propio! Ter varias persoas revisando pode axudar a que o control de calidade sexa máis sólido e a mitigar problemas.
 review-the-transcription-explanation-2 = Revise as directrices de transcrición anteriores para comprobar a súa precisión. Pode realizar modificacións e envialas.
 review-the-transcription-explanation-3 = Ademais, pode sinalar contido ofensivo ou prexudicial, e eliminarase da experiencia dos usuarios ata que o equipo de Common Voice poida revisalo detidamente.
 
