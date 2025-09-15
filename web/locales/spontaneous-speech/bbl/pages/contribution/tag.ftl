@@ -19,3 +19,6 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = დუხდე́რწარ
 tag-page-shortcut-select-all = A
 select-all = ვო́მაჸ მონიშნოდარ
+# Messages
+tag-success-toast-message = მაქ ხო́ტტინო̆ ჭადნი დაქიშ  და დაჰ̦ითენო̆
+tag-error-toast-message = ხარცხილ'არ ჭადნი ჴე́ჰ̦ითოშ
