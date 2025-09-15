@@ -95,6 +95,14 @@ api-key-modal-confirmation-header = თე́შინუჲ დაჲშო̆?
 cancel-api-key-confirmation-description = ბაყეჸი ლე́ჸ შუჼ API-მო́წმობ შედგე́ნადარ გაუქმადაჼ?
 delete-api-key-confirmation-description = ბაყეჸი ლე́ჸ შუჼ  API-მო́წმობ წა́შლადაჼ <bold>{ $apiKeyName }</bold>? ე დუხ ცო დე́რწიგ.
 create-api-key-error-toast-message = შეცდო́მ ხილ'ეჼ API-მო́წმობ შედგე́ნადოშ.
+delete-api-key-error-toast-message = შეცდო́მ ხილ'ეჼ API-მო́წმობ წა́შლადოშ
+fetching-api-keys-error-toast-message = შეცდო́მ ხილ'ეჼ API-მო́წმობ მიღე́ბადოშ
+copy-api-credential-success-toast-message = ასლ დაქიშ ჲა ე́ცინო̆
+copy-api-credential-error-toast-message = შეცდო́მ ასლ ე́ვჲოშ
+delete-api-key-success-toast-message = API-მო́წმობ დაქიშ წა́შლადალიჼ
+add-api-key-name-error = API-მო́წმობეჼ წე ლა́ტჲარ
+max-api-keys-reached = API-მოწმობაჼ ზღვარ, 10 ცალ, საუბო̆ და.
+duplicate-api-key-name-error = API-მოწმობეჼ წე ორკეც დარ
 # Genders
 male_masculine = სტაკ (ქომუჼ)
 female_feminine = ფსტუ (ფსტუჲნოჼ)
@@ -103,3 +111,5 @@ transgender = სქესხა́რცჲიენო̆
 non-binary = სტაკოხ/ფსტუჲნჩოხ გა́რდ
 do_not_wish_to_say = სქეს ცო გუჲა́ჴოშ
 other = ჴე́ნი
+# Age Values
+teens = <19
