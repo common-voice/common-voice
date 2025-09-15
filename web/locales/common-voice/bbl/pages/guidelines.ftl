@@ -186,3 +186,6 @@ tags-disfluency = შეფე́რხებ
 tags-unclear = ცოხაწი́ნი̆
 tags-noise = თათნი
 tags-laugh-explanation = დე́ლანდო́ლრეჼ იშ
+tags-disfluency-explanation = უ̂მ ა́ლ'ლო́მციჼ  ჩუ ხო́ტტინო̆ ლე უ̂მ დოშ, ლე უ̂მ იშ.  (ააა, ჲე, ჰაჸაჲე... )
+tags-unclear-explanation = ჴენაჸ დოშ ლე დაშნი, მენხუ́ ატტაჲშ ცო რჩე́ვალა.
+tags-noise-explanation = ვო́მაჸ ჴე́ნი თათნი, ლეჸე́ ა́მბუჲ ჲო́ჩოვ ოჰ̦დარ, იშ ნიფსჲარ, მა́შინეჼ ჲუღარ, მიკროფო́ნეხ უ̂მ დიშდალრეჼ თათაჼ...
