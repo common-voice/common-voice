@@ -5,9 +5,12 @@
 ## Languages
 
 ab = Abaza
+abq = Abaza
 ace = Adiğe
 ady = Atzuğe
 af = Afriǩanuri
+ajg = Ajda
+aln = Gheg Albanian
 am = Aramikuri
 an = Aragonuri
 ar = Arap'uri
@@ -16,7 +19,13 @@ as = Assamesuri
 ast = Asturianuri
 az = Azeruri
 ba = Başkiruri
+bag = Tuki
+bal = Balochi
 bas = Basaruri
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
+bci = Baoule
 be = Belarusuri
 bg = Bulgaruri
 bm = Bambaruri
