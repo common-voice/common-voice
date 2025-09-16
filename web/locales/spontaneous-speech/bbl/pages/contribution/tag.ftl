@@ -1,6 +1,6 @@
 ## Tagging Page
 
-tag-page-instruction = მითითბადჲებათ <icon></icon>ტექსტ ჰ̦ალო̆ დო́ლდალაჼ
+tag-page-instruction = მითითბადჲებათ <icon></icon>ტექსტეხ ჰ̦ალო̆ დო́ლდალაჼ
 tag-terms-checkbox = დარა́ლ'არ პირბახა́ პირადულობ დე́ბულებეხა́, მენხუ́ Common Voice-ს დგე́ნადჲო.
 tag-popover-title = ჩა́ვარჲებათ ჭად.
 select-a-tag = ჩა́ვარჲებათ ჭად.
