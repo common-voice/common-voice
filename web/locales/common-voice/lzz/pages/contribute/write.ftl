@@ -9,7 +9,7 @@ sentence-input-placeholder = ǩamuşi mali na ren (monduni) cumle-tkvani hak ç�
 small-batch-sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit.
 citation-input-placeholder = Ç̌araskani so žiri hako nç̌ari.
 citation =
-    .label = Cici
+    .label = Cireǩi
 sc-write-submit-confirm = Ham ç̌ara <wikipediaLink>public domain</wikipediaLink>  tzori ren do hako na dgitasen miçkin.
 sc-review-write-title = Nam cumlepe gedvaten?
 sc-review-small-batch-title = Arişen dido cumle muç̌ote geidven?
@@ -62,7 +62,7 @@ nature_environment = Natura do Gomtume
 news_current_affairs = Ambaepe do Ndğaluri Olayepe
 # Sentence Domain dropdown option
 technology_robotics = Teknoloji do Robotiksi
-sentence-variant-select-label = Cumleşi lehçepe
+sentence-variant-select-label = Cumleşi şivepe
 sentence-variant-select-placeholder = Ar şive goşuğit (ginonan-na)
 sentence-variant-select-multiple-variants = Nenaşi geneli/ arişen dido şive
 
@@ -80,7 +80,7 @@ select-file = Dosya goşuğit.
 select-file-mobile = Eiğaten dosya goşuğit
 accepted-files = ǩebuli na ixenen dosyaşi çeşitepe: xvala .tsv
 minimum-sentences = Dosyas na ren eni mtsika cumleşi svara:1000
-maximum-file-size = Eni didi dosyaşi didoba:25MB
+maximum-file-size = Eni didi dosyaşi didoba: 25MB
 what-needs-to-be-in-file = Dosya çkimis mupe ort̆asen?
 what-needs-to-be-in-file-explanation = <templateFileLink>şablon dosya çkuni</templateFileLink> kontrol it/ vit. Cumlepe tkvanis telifi mot uğut̆as. Cumlepe tkvani tzori ort̆as do ǩolai goliyoninas/ içǩitxinas. İǩitxinasen cumlepe 10 do 15 saniye ǩonari ort̆asen do svara, doxmeli yoxo do doxmeli ǩarakteri var uğut̆asen.
 upload-progress-text = Eiğmalinen
