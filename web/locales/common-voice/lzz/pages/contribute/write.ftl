@@ -77,8 +77,30 @@ accepted-files = ǩebuli na ixenen dosyaşi çeşitepe: xvala .tsv
 minimum-sentences = Dosyas na ren eni mtsika cumleşi svara:1000
 maximum-file-size = Eni didi dosyaşi didoba:25MB
 what-needs-to-be-in-file = Dosya çkimis mupe ort̆asen?
+what-needs-to-be-in-file-explanation = <templateFileLink>şablon dosya çkuni</templateFileLink> kontrol it/ vit. Cumlepe tkvanis telifi mot uğut̆as. Cumlepe tkvani tzori ort̆as do ǩolai goliyoninas/ içǩitxinas. İǩitxinasen cumlepe 10 do 15 saniye ǩonari ort̆asen do svara, doxmeli yoxo do doxmeli ǩarakteri var uğut̆asen.
+upload-progress-text = Eiğmalinen
+sc-bulk-submit-confirm = Ham cumlepe <wikipediaLink>monduli</wikipediaLink> ren do hantepe eğmalus izni na miğunişi onayi mepçam.
+bulk-upload-success-toast = Oǩolveri cumlepe keiğmalinu
+bulk-upload-failed-toast = Va eiğmalinu. Xolo geitsadit.
+bulk-submission-success-header = Ntsaşa extit.
+bulk-submission-success-subheader = Comman Voices dido nuşvelamt.
+upload-more-btn-text = Daha cumlepe gedvaten-i/ cedvaten-i?
+file-invalid-type = Var ixmaren dosya
+file-too-large = Dosya dido didi ren
+file-too-small = Dosya dido tzulu ren
+too-many-files = Dido dosya ren
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>monduni (kamuşi mali na ren) cumlepe gedvi.
+multiple-sentences-error = Ar oncğonus arişen dido cumle var geidven/ cidven.
+exceeds-small-batch-limit-error = 1000 cumleşen dido var incğonen
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Dido manişa ulut. { $retryLimit } t̆eǩeǩe şkule xolo geitsadit.
+       *[other] Tamo tamo...
+    }
 # menu item
 add-sentences = Cumle eǩudvi
