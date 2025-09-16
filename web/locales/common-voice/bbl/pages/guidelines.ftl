@@ -157,6 +157,7 @@ answer-questions-tip-6 = იშეჼ ლაჴოლ ცჰ̦აჲნნაჲ
 transcribe-the-audio = იშ ნაწე́რეღ ჲე́რწჲარ
 transcribe-the-audio-subheader-1 = ზო́გად მითითბი
 transcribe-the-audio-subheader-2 = რიცხვია́ და́ცუშა́ლ'რია́
+transcribe-the-audio-subheader-3 = საგანგე́ბო̆ მონიშვნი
 transcribe-the-audio-subheader-4 = დაშნი ხე́ტდოშ ალ'არ, ნიფს ცო დო́ლდალარ, შაწლოღეშ დოშ ა́ლ'არ
 transcribe-the-audio-subheader-5 = ცონიფსიჼ გრამატიკაე́, სასაუბრო̆ მატტიჼ ა́ლ'რი.
 transcribe-the-audio-subheader-1-explanation = მოჰ̦ე́ ჴელ ბა, ვო́მაჸ ჩუ დე́წე̆ დაწე́რადალაჼ, უ̂ნე́კ ხაწიც შუჼ, მუჲლნე́ დაჲცი̆:
