@@ -28,3 +28,4 @@ do-not-section-guideline-2 = ცო ლე́ვდოლო̆ ლე კლე́
 do-not-section-guideline-3 = ცო ჲე́წე̆ ხილ'აჼ ჰა́მენაჲნო̆ ჭირვენ́ე́ თხილლაჲნი̆ ხაჲსათ ჲაჲნი̆ შეკითხვი
 # Code switching Guidelines
 cs-do-section-guideline-1 = ცო ჲე́წე̆ ხილ'აჼ შინმატტლიჼ შეკითხვია́ შინაარსა́
+cs-do-section-guideline-2 = ა́მბუჲ ჲებათ ჩურეჩო̆ სტე́მინმაქ, მო́ჰ̦ უ̂ხ ხილ'ეჼ, უ̂ხაჲნო̆ დაკლევი́შ, შუჼ მო́ჰ̦ მო́თთ.
