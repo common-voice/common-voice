@@ -221,3 +221,5 @@ code-switching-adding-question-note = უჲშტნეჸ, დაქიჼ ხ
 # What types of questions to add
 code-switching-types-subheader = მო́ლუჼ შეკითხვი ჲე́წე ლა́ტჲალაჼ?
 code-switching-use-bilingual-prompts-header = შინმატტლიჼ მოთხო́ვნი
+code-switching-use-bilingual-prompts-explanation = { "" }
+code-switching-use-bilingual-prompts-explanation-example = "ჩუ ვი́რწჩე უ̂ხ აჲლ'ნა ნა́ნეგო̆, ძმო́ბილო̆?"
