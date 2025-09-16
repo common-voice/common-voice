@@ -304,3 +304,7 @@ code-switching-cleanup-4 = მა ხა́ბჟდოთ ოშტუჼ სა
 code-switching-cleanup-5 = ცოღაზეჼ ხილ'ო̆ დაკლავარ, მე́ ვო́მაჸ დოშ ხაწ შუჼ - მოჰ̦ე́ ჴმარბალაჲცი̆, უჲშტი̆ მონიშნოდებათ.
 # Tagging
 code-switching-tagging-subheader = ჭადნი ლა́ტჲარ
+code-switching-tagging-error-intro = ნაწე́რეღ დე́რწინჩო შეცდო́მი ჲაჰ̦, დეხო́თხ მე́ მონიშნოდოლუჲში̆. სტე́ხუჲნი̆ შეცდო́მი ჲა:
+code-switching-tagging-error-1 = ხარც ჴმა́რბადიენო̆ სასვეჼ ნიშნი ლე ჲაჴჴაჼ ა́სუჲ.
+code-switching-tagging-error-2 = ხარცწე́რადინუჲ
+code-switching-tagging-error-3 = დაშნი მოსიჩო̆ მართლწე́რევ
