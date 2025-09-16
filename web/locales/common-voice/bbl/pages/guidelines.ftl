@@ -213,3 +213,11 @@ code-switching = ამბუჲჲარ ხე́რცჲარ
 adding-a-question = შეკითხვ ლა́ტჲარ
 # Adding a Question
 code-switching-adding-question-subheader = მო́ლუჼ ჲე́წ ხილ'აჼ ღაზეჼ შეკითხვ?
+code-switching-adding-question-explanation = ღაზეჼ შეკითხვ საჯა́რო̆ კრე́ბულენაჲნო̆ ჲეწ ხილ'აჼ იშტუჼ:
+code-switching-adding-question-criteria-1 = შა́რეშ ხაჸლაჲნი̆ე́ ატტაჲში̆ პა́სუხ ლუჲნი̆
+code-switching-adding-question-criteria-2 = ზორაჲში̆ ჰ̦ამინაჲნოჸ
+code-switching-adding-question-criteria-3 = მე ცო და́გულე́ ცო კლე́ვადო́ლო̆ მო́სსიჼ ლე ხალაჼხეთლაჲნი̆ დაშნი
+code-switching-adding-question-note = უჲშტნეჸ, დაქიჼ ხილ'ო̆ დუჴ საკითხია́ დარგა́ მე ხილ'ულო̆.
+# What types of questions to add
+code-switching-types-subheader = მო́ლუჼ შეკითხვი ჲე́წე ლა́ტჲალაჼ?
+code-switching-use-bilingual-prompts-header = შინმატტლიჼ მოთხო́ვნი
