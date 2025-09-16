@@ -2,6 +2,7 @@
 
 write = ç̌ari
 write-instruction = Monduli ar cumle kekumtsxvit <icon></icon>
+write-page-subtitle = Hakolen na incğonen cumlepe halkik na dzirasen steri cc-0 lisansi na uğun ar datamarç̌as eǩiç̌arasen.
 sentence =
     .label = Cumle
 sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
@@ -24,6 +25,14 @@ contact-us = Çkuni-ǩala ǩontaǩt̆i dodvit
 add-sentence-success = 1 cumle diǩorobu
 add-sentence-error = Cumle eǩidvet̆uşani xeta gamaxtu
 required-field = Ham svani opşit.
+single-sentence-submission = Xvala ar cumle oncğonu
+small-batch-sentence-submission = Mtsika ama aroğorda cumle oncğonu
+bulk-sentence-submission = Aroğorda cumle oncğonu
+single-sentence = Xvala
+small-batch-sentence = Mtsika
+bulk-sentence = Dido
+sentence-domain-combobox-label = Cumleşi dobira
+sentence-domain-select-placeholder = Eni fazla sum dobira goşuğit
 # Sentence Domain dropdown option
 finance = Finansi
 # Sentence Domain dropdown option

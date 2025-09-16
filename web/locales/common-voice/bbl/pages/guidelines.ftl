@@ -229,3 +229,4 @@ code-switching-ask-bilingual-contexts-explanation-example = "გა́ნყო�
 code-switching-focus-emotional-header = ცადლიბათ ა́მბუჲ ხილ'ა́ლ ცოდიცდოჩო̆, და́ხრელო უ̂მ ხე́რცდოჩო̆ სტე́მინმაქ
 code-switching-focus-emotional-explanation = ა́მბუჲ ჲოშ მოტტ ხე́რცობო̆ ნა́ხვ მაცმე́ განცდილო და, მაცმე́ უ̂მ ჴდე́ნალა, მუჲლნე დაჲცი:
 code-switching-focus-emotional-explanation-example = "ა́ლ'ალე̆, ჰ̦ე ნა́ნ-და́დას უ̂ხ დიეჼ, უ̂ხ ა́ლ'იჼ მაცმე́ ჰ̦ეჼ წი́ნ ა́მბუჲ ხაჸიჼ, ნიფსაჭ ა́ლ' თხო́გო̆"
+code-switching-direct-quotes-header = დაკლე́ვადებათ ალ'ინო̆ შაწლოღეშ უჲშტაჸ ა́ლ'არ, ლე ო́ჴუხ თარლ'უშ ა́ლ'არ
