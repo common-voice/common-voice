@@ -1,21 +1,24 @@
 ## WRITE PAGE
 
 write = ç̌ari
-write-instruction = Monduli ar cumle kekumtsxvit <icon></icon>
-write-page-subtitle = Hakolen na incğonen cumlepe halkik na dzirasen steri cc-0 lisansi na uğun ar datamarç̌as eǩiç̌arasen.
+write-instruction = Monduli (kamuşi mali na ren) ar cumle kekumtsxvit <icon></icon>
+write-page-subtitle = Hakolen na incğonen cumlepe xalkik na dzirasen steri cc-0 lisansi na uğun ar datamarç̌as eǩiç̌arasen.
 sentence =
-    .label = Cumle
-sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
-small-batch-sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
+    .label = Lazuri cumle
+sentence-input-placeholder = ǩamuşi mali na ren (monduni) cumle-tkvani hak ç̌arit
+small-batch-sentence-input-placeholder = ǩamuşi mali na ren cumle-tkvani hak ç̌arit.
+citation-input-placeholder = Ç̌araskani so žiri hako nç̌ari.
 citation =
-    .label = Eşaç̌opu
-sc-review-write-title = Nam cumlepe ekhomamtsxven?
-sc-review-small-batch-title = Arişen dido cumle muçhote ekhimtsxven?
-new-sentence-rule-1 = <noCopyright>Telifişi xarǩi va ren</noCopyright>ozdapa (<cc0>cc-0</cc0>)
-new-sentence-rule-3 = Tzori nenaçkina ixmarit
-new-sentence-rule-4 = Tzori oç̌aru do ot̆imbu işaret̆epe ixmarit
-new-sentence-rule-5 = ǩoretsxa do doxmeli ǩarakteri va oren
-new-sentence-rule-6 = Galeni bonca va oren
+    .label = Cici
+sc-write-submit-confirm = Ham ç̌ara <wikipediaLink>public domain</wikipediaLink>  tzori ren do hako na dgitasen miçkin.
+sc-review-write-title = Nam cumlepe gedvaten?
+sc-review-small-batch-title = Arişen dido cumle muç̌ote geidven?
+new-sentence-rule-1 = <noCopyright>Telifişi xaǩǩi va ren</noCopyright>ozdapa (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Ǩata ç̌araşeni 15-şen mtsika zit̆a
+new-sentence-rule-3 = Grameri şeni tzori ren
+new-sentence-rule-4 = Oç̌aruşi ǩuralepes eluvelun ren do ot̆imbuşi işaret̆epe tzori ren
+new-sentence-rule-5 = ǩoretsxa do doxmeli ǩarakteri var unt̆alun
+new-sentence-rule-6 = Alfabes na va ren ǩarakteri na var unt̆alun
 new-sentence-rule-7 = Eluvelun eşaç̌opu keǩunt̆ali
 new-sentence-rule-8 = İdeali-muşi natureli do msinapu (cumle oǩitxu ǩolai iyasen)
 how-to-cite = Muç̌o eşomaç̌opasen?
