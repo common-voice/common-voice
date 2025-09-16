@@ -276,3 +276,5 @@ code-switching-authentic-reflect = <bold>ცადლიბათ, მე ხი
 code-switching-authentic-full-context = <bold>სრულ პა́სუხ ბალ'ათ მაქ შინაარს ლა́ტჲოშ.</bold> ცადლიბათ პა́სუხ უ̂ნმაკ დოსტო́ღრივ ხილ'ულო̆. ლე ა́მბუჲ ჲე́ბცათ, ლე მა́გალით ჲაჸათ პა́სუხ თე́ლ'ოშ.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = წყეგეჸ დუჴ მა დაკლე́ვდოთე́ მა ნიფსდოთ.
+code-switching-answer-dont-correct-language = <bold>მა ცადდოთ შუჼ მოტტ "ნიფსბაჼ". </bold> ე გამო́ცდ ცო ჲა, საჭირო̆ დოშაკ ცო დე́წე̆ ხილ'აჼ, ბუნებრივ ა́მბუჲ ჲარ და საჭირო̆.
+code-switching-answer-dont-avoid-switching = <bold>ცო დე́წე̆ მატტიშ ხე́რცარ არიდბადალაჼ იშტ ჲოჰ̦ი́შ ა́მბუჲ.</bold> ცო́მ შა́ბალა ა́მბუჲ ჲოშ წინადა́დებ ჲუყე შილღეჩო̆ მატტავ ლე დაშნივ დაჰ̦ დო́ლდელჩეჰ̦აჲში̆.
