@@ -272,3 +272,7 @@ code-switching-use-both-languages = <bold>შიკეჸ მოტტ ჴმა
 code-switching-use-both-languages-example = "ო́ჴუჲნ ზორაჲშ დოკ დე́ჸე ას მე ცო გადარე́კოდინას."
 code-switching-authentic-direct-quotes = <bold>დოშ დაშახ და́წუშ ა́ლ'ათ ჴე́ჩუ́ჲშვ ა́ლ'ინო̆.</bold>ნიფს უჲშტი̆ ა́ლ'ათე́ მა ცადლათ მე́ ჰ̦ალო̆ ნიფსდოლუ́ჲში̆, მუჲლნე́ დაჲცი̆:
 code-switching-authentic-direct-quotes-example = "დე, ცოტა ხნით ეზოში ჩავალ" - ალ'იჼ სო́გო̆ ჲაჰ̦ოვე́ ასა́ აჲლნა́ს: "Okay , შვილო! "
+code-switching-authentic-reflect = <bold>ცადლიბათ, მე ხილ'ულო̆ გა́ნცდი, ე ნახიჼ და́ხილა, გრძნო́ბი.</bold> მატტიშ ვაშა́ხ ე́გდარ ხშირუჼ და მაცმე́ ეროვნულ ამბო́ხ დე́ფცუჲცი̆ უნა́ხში. იშტუჼ თე́მი დუჴ ხილ'ალ პაჲსხი თე́ლ'ოშ.
+code-switching-authentic-full-context = <bold>სრულ პა́სუხ ბალ'ათ მაქ შინაარს ლა́ტჲოშ.</bold> ცადლიბათ პა́სუხ უ̂ნმაკ დოსტო́ღრივ ხილ'ულო̆. ლე ა́მბუჲ ჲე́ბცათ, ლე მა́გალით ჲაჸათ პა́სუხ თე́ლ'ოშ.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = წყეგეჸ დუჴ მა დაკლე́ვდოთე́ მა ნიფსდოთ.
