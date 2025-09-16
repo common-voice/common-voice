@@ -76,6 +76,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Siteşi lokaloba muç̌ote içalişams?
 about-playbook-how-localize-content-1 = Common Voice siteşi golaktalu <strong>Pontoon</strong>'s ixenen.
 about-playbook-how-localize-content-2 = Xesabi var giğun-na <pontoonAccountLink>xesabi gontzi</pontoonAccountLink>. Ukhaçxe nena tkvani <strong>("takhimi")</strong> goşuğit do ukhule <pontoonCvLink>Common Voice</pontoonCvLink> proje goşuğit.
+about-playbook-how-localize-content-3 = Golaktalu İngilizurişen ixenern ama majura nenapeşen <strong>oneripe</strong> dziraten. <strong>Profilişi</strong> sembolis do ukhule <strong>Getzopxupe</strong> linkis gyobazgit do nenape gedvit.
 about-playbook-how-localize-content-4 = %75 oranişa inç̌elasi siye gamaşkvinoni iyasen.
 about-playbook-how-localize-content-5 = Meşvelu şeni video gamognaponi-çkunis otzǩedit.
 
