@@ -36,3 +36,8 @@ cs-tag-dataset-name = კრე́ბული{ $datasetName }
 ## Guidelines
 
 learn-how-to-use = გიბათ მო́ჰ̦ მაკ შუჼ საიტ ჴმა́რბადჲაჼ
+read-full-guidelines-here = <guidanceLink>გიბათ დი́ნ სახელმძღვა́ნელო̆ ესე</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = უ̂ნმაკ ბუნებრივ პა́სუხ ლიბათ მოთხო́ვნეს, დუხ მა ო́თთუთ მოტტ ხა́რცბარეხ, ე ყო́ველდინლუჼ და́ჰ̦ შუნაჲნო̆. ცადლიბათ  ზრდილბა́რენე́ ხალაჼცოხე́თლაჲნი̆ ა́ლ'არ ხილ'ულო̆ შუგო
