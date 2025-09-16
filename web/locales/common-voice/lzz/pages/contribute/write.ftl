@@ -34,6 +34,10 @@ bulk-sentence = Dido
 sentence-domain-combobox-label = Cumleşi dobira
 sentence-domain-select-placeholder = Eni fazla sum dobira goşuğit
 # Sentence Domain dropdown option
+agriculture_food = Xaçkua do Mgvana
+# Sentence Domain dropdown option
+automotive_transport = Otomotivi do Oxtimu
+# Sentence Domain dropdown option
 finance = Finansi
 # Sentence Domain dropdown option
 service_retail = Hizmeti do perakende
@@ -45,7 +49,25 @@ healthcare = Şurkaoba
 history_law_government = Tarixi, Hukuki do Maktaloba
 # Sentence Domain dropdown option
 language_fundamentals = Nenapeşi Temeli (evuli: koretsxape, boncape, geçareli)
+# Sentence Domain dropdown option
+media_entertainment = Medya do Oxoktala
+# Sentence Domain dropdown option
+nature_environment = Natura do Gomtume
+# Sentence Domain dropdown option
+news_current_affairs = Ambaepe do Ndğaluri Olayepe
+# Sentence Domain dropdown option
+technology_robotics = Teknoloji do Robotiksi
 sentence-variant-select-label = Cumleşi lehçepe
+sentence-variant-select-placeholder = Ar şive goşuğit (ginonan-na)
+sentence-variant-select-multiple-variants = Nenaşi geneli/ arişen dido şive
+
+## BULK SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Kamuşi mali na ren cumlepe eǩumtsxvit <icon></icon>
+sc-bulk-upload-instruction = Dosya tkvani eğmalu şeni nokosit vana <uploadButton>hak not̆aǩulit</uploadButton>
+sc-bulk-upload-instruction-drop = Eğmalu şeni dosya hak naşkvit
+bulk-upload-additional-information = Ham dosyas ekhomtsxvalu gorumt-na  <emailFragment>commonvoice@mozilla.com</emailFragment> şkala isinapit.
 
 ## SMALL BATCH SUBMISSION
 
