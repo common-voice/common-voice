@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = ჩუჰ̦და́ჩოჼ (მონაწილა́ჼ) ნიყბა́ხუჲნი̆
+guidelines-header = მონაწილა́ჼ ნიყბა́ხუჲნი̆
 guidelines-header-subtitle = გიბათ, მო́ჰ̦ დეწი́შ მაქ ლა́ტდანე́ დაყყდაჼ ჩანაწე́რი, მენხუჲა́ Common Voice-ს ვაშარ ჴე́ჰ̦ო̆ კრე́ბულე
 voice-collection = ა́შირ ვაშა́რჲარ (შეგრო́ვბადჲარ)
 sentence-collection = წინადა́დბი ვაშა́რჲარ (შეგრო́ვბადარ)
