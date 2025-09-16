@@ -130,8 +130,19 @@ add-small-batch-success =
 small-batch-response-message =
     { $totalSentences ->
         [one] { $totalSentences } cumleşi { $uploadedSentences } tane muşi kogeidu. ǩebuli na var iyu cumlepe geğmalu şeni  <downloadLink>hak</downloadLink> gyobazgit.
-       *[other] Hak gyobazgit.
+       *[other] <downloadLink>hak</downloadLink> geğmalu şeni gyobazgit.
     }
-small-batch-sentences-rule-1 = Jin na ren cumlepeşi nam muşi gemadven.
+small-batch-sentences-rule-1 = Jin na ren cumlepeşi "nam muşi" gemadven.
+small-batch-sentences-rule-2 = ǩat̆a satiris ar cumle kogedvit.
+small-batch-sentences-rule-3 = Xvala na ren cumlepe “Enter” vana “Return” tuşis gyobazgit do gamaǩatit.
+small-batch-sentences-rule-4 = Eni dido 1000 cumle gegadvenan.
+small-batch-sentences-rule-5 = Mtel cumlepe ar mondunişen ort̆asen.
+small-batch-sentences-rule-6 = Mtel cumlepe ar cicişen ort̆asen.
 # menu item
 add-sentences = Cumle eǩudvi
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Cumle gedvi do otzedi, khitxala gedvi, xoma ç̌araşa golakti.
+add-sentences-menu-item-tooltip = Nena tkvanişi cumlepe gedvit.
+review-sentences-menu-item-tooltip = Cumlepe tkvanis ar daha otzǩedit
