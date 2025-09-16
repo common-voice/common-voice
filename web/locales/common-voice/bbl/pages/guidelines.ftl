@@ -230,3 +230,5 @@ code-switching-focus-emotional-header = ცადლიბათ ა́მბუ�
 code-switching-focus-emotional-explanation = ა́მბუჲ ჲოშ მოტტ ხე́რცობო̆ ნა́ხვ მაცმე́ განცდილო და, მაცმე́ უ̂მ ჴდე́ნალა, მუჲლნე დაჲცი:
 code-switching-focus-emotional-explanation-example = "ა́ლ'ალე̆, ჰ̦ე ნა́ნ-და́დას უ̂ხ დიეჼ, უ̂ხ ა́ლ'იჼ მაცმე́ ჰ̦ეჼ წი́ნ ა́მბუჲ ხაჸიჼ, ნიფსაჭ ა́ლ' თხო́გო̆"
 code-switching-direct-quotes-header = დაკლე́ვადებათ ალ'ინო̆ შაწლოღეშ უჲშტაჸ ა́ლ'არ, ლე ო́ჴუხ თარლ'უშ ა́ლ'არ
+code-switching-direct-quotes-explanation = მონაწილინ ქო ლიბათ, მე́ ვო́მაჸ ნიფს უჲშტი̆ დე́ფცოლო̆, მოჰე́ ბაყეჸ დარ, მუჲლნე́ დაჲცი̆:
+code-switching-direct-quotes-explanation-example = "ნიფსაჭ უ̂ხ დაშნი აჲლ'ნაჰ̦, მაცმე́ ე ა́მბუჲ ხაჸირ ჰ̦ოჼ?"

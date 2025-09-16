@@ -68,6 +68,15 @@ sc-bulk-upload-header = Kamuşi mali na ren cumlepe eǩumtsxvit <icon></icon>
 sc-bulk-upload-instruction = Dosya tkvani eğmalu şeni nokosit vana <uploadButton>hak not̆aǩulit</uploadButton>
 sc-bulk-upload-instruction-drop = Eğmalu şeni dosya hak naşkvit
 bulk-upload-additional-information = Ham dosyas ekhomtsxvalu gorumt-na  <emailFragment>commonvoice@mozilla.com</emailFragment> şkala isinapit.
+template-file-additional-information = Ham dosyas ekhomtsxvalu gorumt-na ama şablonis na va ren-na <emailFragment>commonvoice@mozilla.com</emailFragment> şkala isinapit.
+try-upload-again = Dosya tkvani hak nokosit do xolo geitsadit.
+try-upload-again-md = Xolo eğmalu geitsadit.
+select-file = Dosya goşuğit.
+select-file-mobile = Eiğaten dosya goşuğit
+accepted-files = ǩebuli na ixenen dosyaşi çeşitepe: xvala .tsv
+minimum-sentences = Dosyas na ren eni mtsika cumleşi svara:1000
+maximum-file-size = Eni didi dosyaşi didoba:25MB
+what-needs-to-be-in-file = Dosya çkimis mupe ort̆asen?
 
 ## SMALL BATCH SUBMISSION
 
