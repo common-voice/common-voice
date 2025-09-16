@@ -32,3 +32,7 @@ cs-no-transcriptions-continue-skipped = ინც ეჴ კრე́ბულე
 
 cs-no-transcriptions-to-tag-continue-skipped = ინც ეჴ კრე́ბულენაჲნო̆ მონიშნოდუჲნი̆ ჩანაწე́რი ცო ჲაგე̆. უ̂მ დაჰ̦ დითენო̆ და́ჰ̦ შუგო, მაკ შუჼ დუხაჸ დე́რწაჼ, ლე მა́ იშა́რეჩო̆ ჩანაწე́რეღ დე́რწდარ დო́ლდანე́ ჴე́ნკა́ჸ ცადდალაჼ.
 cs-tag-dataset-name = კრე́ბული{ $datasetName }
+
+## Guidelines
+
+learn-how-to-use = გიბათ მო́ჰ̦ მაკ შუჼ საიტ ჴმა́რბადჲაჼ
