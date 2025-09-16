@@ -9,7 +9,7 @@ Many language communities are self organising and have their contact channels on
 ## Channels
 
 - General:
-  - Common Voice on [Matrix](https://chat.mozilla.org/#/room/#common-voice:mozilla.org) [Official] or in room `common-voice:mozilla.org` of [other Matrix clients](https://matrix.to/#/#common-voice:mozilla.org)
+  - Common Voice on [Matrix](https://matrix.to/#/#common-voice:mozilla.org) [Official] or in room `common-voice:mozilla.org` of [other Matrix clients](https://matrix.to/#/#common-voice:mozilla.org)
   - Common Voice on [Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) [Official] learn more about how you can request a language specific sub-discourse thread on our readme.
   - Common Voice on [Discord](https://discord.gg/9ZCVQarN) [Official]
   - Common Voice on [Telegram](https://t.me/mozilla_common_voice)
@@ -46,15 +46,15 @@ Many language communities are self organising and have their contact channels on
   - [Discord](https://discord.com/invite/5ZdTHsN8Mn)
   - [Matrix](https://app.element.io/#/room/!WNiJFJTBpvYqMrDWir:matrix.org)
 - Esperanto (`eo`):
-  - [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
+  - [Matrix](https://matrix.to/#/#common-voice:mozilla.org)
   - [GitHub](https://github.com/parolrekonado)
   - [Website](https://parolrekonado.github.io/)
 - Farsi/Persian (`fa`):
   - [Telegram](https://t.me/Common_Voice)
 - French (`fr`):
-  - [Matrix](https://chat.mozilla.org/#/room/#common-voice-fr:mozilla.org)
+  - [Matrix](https://matrix.to/#/#common-voice:mozilla.org)
 - German (`de`):
-  - [Matrix](https://chat.mozilla.org/#/room/#common-voice-de:mozilla.org)
+  - [Matrix](https://matrix.to/#/#common-voice:mozilla.org)
   - [Discourse](https://discourse.mozilla.org/c/voice/de/289)
 - Georgian (`ka`)
   - [Facebook](https://www.facebook.com/groups/145786040762028)
