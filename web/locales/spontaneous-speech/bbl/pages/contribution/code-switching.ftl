@@ -11,3 +11,9 @@ cs-locale-change-modal-subtitle = ეჴ სა́იტენმაქ ცვლ
 ## Question Page Items
 
 cs-question-page-instruction = მაქ ლა́ტჲებათ 25-გომციჼ შეკითხვ<icon></icon>{ $currentLocale }მატტიჼ კრე́ბულენაჲნო̆, მე ნა́ხვ პა́სუხ ლო́ლო̆.
+cs-add-question-textarea-placeholder = შუ ჰ̦ობათ შეკითხვი მოტტ ხე́რცბოშ ცჰ̦აცჰ̦აჲნი̆ ხა́ზენმაქ. ნა́ხვ იშტ მოტტ ხე́რცბოშ საბუხ პა́სუხ ლო ჴეჩჴე́ჩო̆ მატტავ ხე́ტტოშ.
+cs-question-dataset-name = კრე́ბული:{ $datasetName }
+
+## Validate Page Items
+
+cs-validate-page-instruction = დაყყდებათ, <validateIcon></validateIcon>ე შეკითხვევ პა́სუხ თე́ლ'უჲ მოთხო́ვნინ?
