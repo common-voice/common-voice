@@ -146,3 +146,15 @@ add-sentences = Cumle eǩudvi
 write-contribute-menu-tooltip = Cumle gedvi do otzedi, khitxala gedvi, xoma ç̌araşa golakti.
 add-sentences-menu-item-tooltip = Nena tkvanişi cumlepe gedvit.
 review-sentences-menu-item-tooltip = Cumlepe tkvanis ar daha otzǩedit
+add-questions-menu-item-tooltip = Nena tkvanişi ǩitxalape gedvit
+review-questions-menu-item-tooltip = ǩitxalapes otzǩedi
+transcribe-audio-menu-item-tooltip = Nena tkvanis na ren xomaşi doloç̌arape ç̌araşa golaktit
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Oç̌aru goşatsxunaşi menu
+add-sentences-menu-item-aria-label = Mtelişi oǩitxu şeni ağani cumlepe gedvit
+review-sentences-menu-item-aria-label = Mtelik na moncğonu cumlepes otzǩedit
+add-questions-menu-item-aria-label = Mtelişi oǩitxu do cuğap̌i meçamu şeni ağani ǩitxalape moncğonit
+review-questions-menu-item-aria-label = Mtelik na moncğonu ağani ǩitxalapes otzkhedit do goşatsxunit
+transcribe-audio-menu-item-aria-label = Xomaşi doloç̌arape ç̌araşa golaktit

@@ -237,3 +237,8 @@ code-switching-cultural-topics-explanation = და́ყარ, ჴელ-წე
 code-switching-cultural-topics-explanation-example = "მოჰ̦ ა́ხსნადორეჲშ დაჩოკ ბუჲნღეჼ ჴე́თინჩონ: პაპ ფსტუნავ თე́გბიენო̆ ნიყ?"
 code-switching-informal-scenarios-header = ხა́ტტათ უ̂ნა́ხში ჩურეჩო̆ ამბო́ხ
 code-switching-informal-scenarios-explanation = ნა́ყბისტიციჼ ა́მბუჲ ჲოშ ლე წი́რლი ჴე́ჰითოშ მოტტ ხე́რცბარ ცო და ბეკხე́თლაჲნი̆, მუჲლნე́ დაჲცი̆:
+code-switching-informal-scenarios-explanation-example = "მო́ჰ̦ ბო ბე́კი შუ ნა́ყბისტივ ჰ̦ამა́ხეჸ ჴშირუშ - ჲე მო́ჰ̦ ლი́ვ ხოლმე, ნიფსაჭ ა́ლ'ალე̆"
+# What to Avoid
+code-switching-avoid-subheader = ქუჲრთხიჼ და́სტდებათ
+code-switching-avoid-intro = ო́შტუჼ შეკითხვი, მე́ნხუჲჩჲშვა́ჲ:
+code-switching-avoid-1 = დაგითო̆ ა́დმიეჼ ჰალო̆ და́ბწუჲნი̆ მონაცე́მი
