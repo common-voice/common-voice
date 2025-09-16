@@ -278,3 +278,4 @@ code-switching-authentic-full-context = <bold>სრულ პა́სუხ ბ
 code-switching-answer-dont-subheader = წყეგეჸ დუჴ მა დაკლე́ვდოთე́ მა ნიფსდოთ.
 code-switching-answer-dont-correct-language = <bold>მა ცადდოთ შუჼ მოტტ "ნიფსბაჼ". </bold> ე გამო́ცდ ცო ჲა, საჭირო̆ დოშაკ ცო დე́წე̆ ხილ'აჼ, ბუნებრივ ა́მბუჲ ჲარ და საჭირო̆.
 code-switching-answer-dont-avoid-switching = <bold>ცო დე́წე̆ მატტიშ ხე́რცარ არიდბადალაჼ იშტ ჲოჰ̦ი́შ ა́მბუჲ.</bold> ცო́მ შა́ბალა ა́მბუჲ ჲოშ წინადა́დებ ჲუყე შილღეჩო̆ მატტავ ლე დაშნივ დაჰ̦ დო́ლდელჩეჰ̦აჲში̆.
+code-switching-answer-dont-formal-writing = <bold>მა ჲოთ ა́მბუჲ უჲშტი̆, მოჰ̦ე́ საქმო́ხ წე́რილ წე́რადოშ</bold>ქუჲრთხიჼ და́სტდებათ სტანდარტულ, ხელო́ვნურ, ნიფსდიენო̆ პაჲსხი, ჩურეჼ ა́მბუჲ ჲარ თო́ლდებათ.
