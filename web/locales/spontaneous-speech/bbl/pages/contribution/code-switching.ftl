@@ -17,3 +17,4 @@ cs-question-dataset-name = კრე́ბული:{ $datasetName }
 ## Validate Page Items
 
 cs-validate-page-instruction = დაყყდებათ, <validateIcon></validateIcon>ე შეკითხვევ პა́სუხ თე́ლ'უჲ მოთხო́ვნინ?
+cs-no-questions-continue-skipped = ინც ეჴ მატტანაჲნო̆ შეკითხვი ცო ჲაგე̆. დაჰ̦ დითენო̆ და́ჰ̦ შუგო  უ̂მ, მაკ შუჼ დუხაჸ დე́რწაჼ, ლე მა́ იშა́რეჩო̆ ჩანაწე́რეღ დე́რწდანე́ ჴე́ნკა́ჸ ცადდალაჼ.
