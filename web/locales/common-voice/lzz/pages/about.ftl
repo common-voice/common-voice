@@ -62,6 +62,7 @@ about-playbook-what-is-language-content-3 = Bazi nenapes çkva do çkva variante
 ## How do I add a language
 
 about-playbook-how-add-language = Nena muşho eǩevunt̆alare?
+about-playbook-how-add-language-content-1 = İpti nena tkvani <languageLink>ren-i</languageLink> otzkhedit. Vana <strong>site golaktalu do cumle okhorobu </strong> diçhirs.
 about-playbook-how-add-language-translating-heading = Siteşi tercume
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontooni oxmaru şeni rehberi çkunis otzkedit.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = Golaktalu şeni <pontoonLink>Pontoon</pontoonLink> coxoni ar Mozillaşi doçhironi vixmart. Pontoonis dido nenape renan ama tkvani nena va renna ekhogamtsxvenan.
@@ -74,6 +75,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Siteşi lokaloba muç̌ote içalişams?
 about-playbook-how-localize-content-1 = Common Voice siteşi golaktalu <strong>Pontoon</strong>'s ixenen.
+about-playbook-how-localize-content-2 = Xesabi var giğun-na <pontoonAccountLink>xesabi gontzi</pontoonAccountLink>. Ukhaçxe nena tkvani <strong>("takhimi")</strong> goşuğit do ukhule <pontoonCvLink>Common Voice</pontoonCvLink> proje goşuğit.
 about-playbook-how-localize-content-4 = %75 oranişa inç̌elasi siye gamaşkvinoni iyasen.
 about-playbook-how-localize-content-5 = Meşvelu şeni video gamognaponi-çkunis otzǩedit.
 

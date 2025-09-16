@@ -16,11 +16,20 @@ prompt-bubble-title = <mark>Prompti</mark>
 prompt-bubble-subtitle = Ar khitxala megincğonaten
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Cuğaphi meçi</mark>
+respond-bubble-subtitle = Gaxenenan şukhuri natureli isinapit
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Transkripti</mark>
+transcribe-bubble-subtitle = Nenaşi doloçharapes na ognamtpe çharit
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Notsadi</mark>
+check-bubble-subtitle = Golaktit çhara nenaşi doloçhara şkala ar oren-i otzkhedit
 # text wrapped in <mark></mark> will have a blue background
-data-bubble-title = <mark>Marçha</mark>
+data-bubble-title = <mark>Datamarç̌a</mark>
+data-bubble-subtitle = Data març̌ape periodikhuri gamavoşkumt
 contact-us = Çkuni-ǩala ǩontaǩt̆i dodvit
+contact-us-title = Ham proje doloxe oyapu vana çkuni khala ortaği oyapu ginonan-i/ gorum-ti?
+contact-us-email = <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Hatzi Comman Voiceşi Spontane Osinapu Projeşi beta testi gurubişi doloxe oret-i?
 signup-terms = <mark>Çkar çharaşi khorphusi</mark> na var uğun vana mtsika na uğun nenape şeni daha vorsi meşvelu (evuli. phothe na var içharu nenape vana mtsika çhara na uğun nenape)
 signup-input-placeholder = E maili tkvani doç̌arit.
 signup-button-value = Maili çkimis ar linki komoncğoni
