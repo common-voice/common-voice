@@ -22,3 +22,10 @@ select-all = ვო́მაჸ მონიშნოდარ
 # Messages
 tag-success-toast-message = მაქ ხო́ტტინო̆ ჭადნი დაქიშ  და დაჰ̦ითენო̆
 tag-error-toast-message = ხარცხილ'არ ჭადნი ჴე́ჰ̦ითოშ
+tag-empty-submit-error = ტექსტ ჲაჰ̦ითუჲნი̆  ცო ჲა. დეხო́თხ ჯერ მაქ ჭად ლა́ტჲებათ.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = ნიფსიჼ ა́სუჲ ჴმა́რბადჲებათ
+cs-tag-do-guideline-2 = მოჰ̦ ლევლა, ოჴუჲგო̆  ჰ̦აფსათ
+cs-tag-do-guideline-3 = დაკრეშ დაყყდებათ იშტუჼ დაშნი
+cs-tag-do-not-guideline-1 = მონიშნოდებათ წარიშ, რე́ვალაჲნი̆ დაშნიე́ შო́რისდე́ბული.
+cs-tag-shortcuts-section-title = კლავიატურა ჴმა́რბადჲარ
