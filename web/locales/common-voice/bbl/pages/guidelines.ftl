@@ -285,3 +285,6 @@ code-switching-answer-dont-translate-repeat = <bold>ცო დე́წე ვო
 code-switching-transcribe-subheader = ნაწე́რეღ დე́რწდარ
 code-switching-transcribe-intro = პაჲსხი ნაწე́რეღ დე́რწდოშ, მაცმე́ ბჵარღუჲშ მოტტ ხა́რცბარეხ, პა́სუხ თელ'ჩო́ჼ ა́მბუჲ ჲარ ნიფს უჲშტი̆ დაწე́რადჲებათ, - ჰ̦ალო̆ ნიფსჲაწიჼ, წანარჲაწიჼ. მიჩხმაჸ იშტ დებათ, ლეჸე́ ჩურეჼ ა́მბუჲ ჲოშ, ლეჸე́ მატტლო ჴენაჸ მატტიჼ დაშნი რე́ვადოშ.
 code-switching-transcribe-do-1 = კაწკუჲჩო̆ მონაკვე́თინ მელ'წა́ხ ლარკ ჵო́ფათ ატტაჲში̆ ცოგუჲნი̆ რე́ვადალრი გუდა́ხაჼ
+code-switching-transcribe-do-2 = ო́თთხოლ დებათ ცჰ̦აცჰ̦აჲნი̆ წინადა́დებეგოდო́ლიჼ, ტყო́ჸ მე́ დაყყდო́ლუჲში̆ რე́ვადალინო̆ დაშნი
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = ნიფსაჭ დაჸათ სო ზე́პირათ ა́ლ'ინო̆
