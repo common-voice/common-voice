@@ -102,5 +102,36 @@ rate-limit-toast-message-minutes =
         [one] Dido manişa ulut. { $retryLimit } t̆eǩeǩe şkule xolo geitsadit.
        *[other] Tamo tamo...
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Dido manişa ulut. { $retryLimit } saniye şkule xolo geitsadit.
+       *[other] Xolo geitsadit.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ham butka şeni haǩu dubağun.
+       *[other] Başka/ çkva cumle oncğonu şeni amtsika iyondrit/ çvit.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ham butka şeni haǩu dubağun.
+       *[other] Başka/ çkva cumle oncğonu şeni amtsika iyondrit/ çvit.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $totalSentences } cumleşi { $uploadedSentences } tane kogeidu.
+       *[other] Cumlepe kogeidu.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $totalSentences } cumleşi { $uploadedSentences } tane muşi kogeidu. ǩebuli na var iyu cumlepe geğmalu şeni  <downloadLink>hak</downloadLink> gyobazgit.
+       *[other] Hak gyobazgit.
+    }
+small-batch-sentences-rule-1 = Jin na ren cumlepeşi nam muşi gemadven.
 # menu item
 add-sentences = Cumle eǩudvi

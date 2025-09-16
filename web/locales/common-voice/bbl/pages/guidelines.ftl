@@ -233,3 +233,4 @@ code-switching-direct-quotes-header = დაკლე́ვადებათ ა
 code-switching-direct-quotes-explanation = მონაწილინ ქო ლიბათ, მე́ ვო́მაჸ ნიფს უჲშტი̆ დე́ფცოლო̆, მოჰე́ ბაყეჸ დარ, მუჲლნე́ დაჲცი̆:
 code-switching-direct-quotes-explanation-example = "ნიფსაჭ უ̂ხ დაშნი აჲლ'ნაჰ̦, მაცმე́ ე ა́მბუჲ ხაჸირ ჰ̦ოჼ?"
 code-switching-cultural-topics-header = ჩა́ვარჲებათ შეკითხვი, მენხუჲა́ გა́რგე და ე ნა́ხცინე́ ეჴარ და́ხილაჲციჼ.
+code-switching-cultural-topics-explanation = და́ყარ, ჴელ-წე́სი, დღე́ვბიე́ ოჯხაჼ ა́მბუჲ, - ეჴარა́ კლე́ვადო მატტიშ ხე́რცდარ
