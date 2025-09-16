@@ -26,3 +26,5 @@ do-not-section-title = ცო დე́წე̆ ხილ'აჼ
 do-not-section-guideline-1 = მე ცო კლე́ვადოლო̆ ადმეჼ ჰ̦ალო̆  და́ბწლაჲნი̆ მონაცე́მი
 do-not-section-guideline-2 = ცო ლე́ვდოლო̆ ლე კლე́ვადოლო̆ მოსსიჼნი́ ლე მურდალ წინადა́დბი
 do-not-section-guideline-3 = ცო ჲე́წე̆ ხილ'აჼ ჰა́მენაჲნო̆ ჭირვენ́ე́ თხილლაჲნი̆ ხაჲსათ ჲაჲნი̆ შეკითხვი
+# Code switching Guidelines
+cs-do-section-guideline-1 = ცო ჲე́წე̆ ხილ'აჼ შინმატტლიჼ შეკითხვია́ შინაარსა́
