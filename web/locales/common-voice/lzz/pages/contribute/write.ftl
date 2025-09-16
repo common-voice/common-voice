@@ -28,32 +28,32 @@ how-to-cite-explanation = Hantepe tkani zit̆ape ren na, <italicizedText>“Çki
 guidelines = Maktalupe
 contact-us = Domimçinit
 add-sentence-success = 1 cumle diǩorobu doren
-add-sentence-error = Cumle eǩidvet̆uşani xeta gamaxtu
-required-field = Ham svani opşit.
-single-sentence-submission = Xvala ar cumle oncğonu
-small-batch-sentence-submission = Mtsika ama aroğorda cumle oncğonu
-bulk-sentence-submission = Aroğorda cumle oncğonu
-single-sentence = Xvala
-small-batch-sentence = Mtsika
-bulk-sentence = Dido
-sentence-domain-combobox-label = Cumleşi dobira
-sentence-domain-select-placeholder = Eni fazla sum dobira goşuğit
+add-sentence-error = Cumle geidvet̆uşani xeta gamaxtu
+required-field = Lutfen hamsvani opşit.
+single-sentence-submission = Ar cumle xvala oncğonu
+small-batch-sentence-submission = Mtsika mtsika do aroğorda cumle oncğonu
+bulk-sentence-submission = Aroğorda cumle oncğonu şeni
+single-sentence = Xvala cumle
+small-batch-sentence = Opşa mtsika
+bulk-sentence = Dido dido
+sentence-domain-combobox-label = Cumleşi dobira muşi
+sentence-domain-select-placeholder = Eni fazla sum dobira goşatsxunit
 # Sentence Domain dropdown option
-agriculture_food = Xaçkua do Mgvana
+agriculture_food = Xaçka do Mgvana
 # Sentence Domain dropdown option
-automotive_transport = Otomotivi do Oxtimu
+automotive_transport = Otomotivi do Oxtimuşi
 # Sentence Domain dropdown option
-finance = Finansi
+finance = Finansişi
 # Sentence Domain dropdown option
-service_retail = Hizmeti do perakende
+service_retail = Hizmeti do perakendeşi
 # Sentence Domain dropdown option
-general = İrixolo
+general = Geneli
 # Sentence Domain dropdown option
-healthcare = Şurkaoba
+healthcare = Şurǩaoba
 # Sentence Domain dropdown option
-history_law_government = Tarixi, Hukuki do Maktaloba
+history_law_government = Tarixi, Hukuki do Maktaloba şeni
 # Sentence Domain dropdown option
-language_fundamentals = Nenapeşi Temeli (evuli: koretsxape, boncape, geçareli)
+language_fundamentals = Nenapeşi Temeli (evuli: koretsxape, boncape, geç̌areli)
 # Sentence Domain dropdown option
 media_entertainment = Medya do Oxoktala
 # Sentence Domain dropdown option
