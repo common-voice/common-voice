@@ -169,6 +169,7 @@ transcribe-the-audio-subheader-1-explanation-example-2 = Lûden lykas hoastjen o
 tags-table-header-1 = Label
 tags-table-header-2 = Betsjutting
 tags-laugh = Laitsje
+tags-disfluency = Net floeiend
 tags-unclear = Undúdlik
 tags-noise = Rûs
 tags-laugh-explanation = It lûd fan laitsjen.
@@ -180,6 +181,7 @@ review-the-transcription-subheader = Algemiene rjochtlinen
 
 ## Code-Switching
 
+code-switching = Taal wikselje
 adding-a-question = In fraach tafoegje
 # Adding a Question
 code-switching-adding-question-subheader = Hoe sjocht in goede fraach derút?
@@ -190,6 +192,10 @@ code-switching-adding-question-criteria-3 = Gjin skeadlike of beledigjende taal 
 code-switching-adding-question-note = Jo kinne ek beskôgje om ferskate konteksten en domeinen te behanneljen.
 # What types of questions to add
 code-switching-types-subheader = Hokker soarten fragen ta te foegjen?
+code-switching-use-bilingual-prompts-header = Twatalige fragen brûke
+code-switching-use-bilingual-prompts-explanation = Brûk twatalige fragen dy’t beide talen befetsje. Bygelyks:
+code-switching-use-bilingual-prompts-explanation-example = “Wat zei je tegen je moeder doe’tsto dy dei thús kaamst?”
+code-switching-ask-bilingual-contexts-header = Fragen oer twatalige konteksten
 # What to Avoid
 code-switching-avoid-subheader = Wat te mijen
 code-switching-avoid-intro = Fragen dy’t mooglik:
