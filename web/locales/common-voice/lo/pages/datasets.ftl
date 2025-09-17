@@ -10,6 +10,11 @@ datasets-positioning =
     ເບິ່ງໜ້ານີ້ເປັນສູນອ້າງອີງສຳລັບຊຸດຂໍ້ມູນສຽງແຫຼ່ງເປີດອື່ນໆ ແລະ, ເນື່ອງຈາກ Common Voice ສືບຕໍ່ຂະຫຍາຍຕົວ, ເປັນບ້ານສຳລັບການອັບເດດການປ່ອຍຕົວຂອງພວກເຮົາ.
 # New/upcoming datasets page headline
 datasets-headline-mdc = ຊຸດຂໍ້ມູນ Mozilla Common Voice ດຽວນີ້ມີໃຫ້ສະເພາະໃນ Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    ໃນຖານະຂອງ Common Voice 23.0, ຊຸດຂໍ້ມູນ Common Voice ທັງໝົດແມ່ນມີໃຫ້ດາວໂຫຼດຜ່ານ Mozilla Data Collective!
+    
+    ໜ້ານີ້ໃຊ້ເປັນບ່ອນເກັບຂໍ້ມູນປະຫວັດສາດສຳລັບຊຸດຂໍ້ມູນ Mozilla Common Voice ລຸ້ນທີ່ຜ່ານມາ. ການປ່ອຍແຟ້ມຈັດເກັບຄວນຈະຖືກນໍາໃຊ້ໃນສະຖານະການຄົ້ນຄ້ວາສະເພາະ, ບໍ່ແມ່ນສໍາລັບການຝຶກອົບຮົມ, ເພື່ອເຄົາລົບຄວາມປາດຖະຫນາຂອງຜູ້ທີ່ໄດ້ຮ້ອງຂໍໃຫ້ມີການຍົກເວັ້ນການປະກອບສ່ວນຂອງເຂົາເຈົ້າ.
 datasets-speech-bubble-content = ຂ່າວດີ! ການປາກເວົ້າແບບບໍ່ມີຕົວຕົນແມ່ນຢູ່ໃນທາງ! ຕິດຕາມການອັບເດດ ແລະ ໃຫ້ແນ່ໃຈວ່າກວດເບິ່ງ <discordLink>Discord</discordLink> ຂອງພວກເຮົາສໍາລັບຂໍ້ມູນຫຼ້າສຸດ.
 language = ພາສາ
 download-dataset-header = ດາວໂຫລດຊຸດຂໍ້ມູນ
