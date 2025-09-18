@@ -41,13 +41,32 @@ terms-agree = Oǩovuvelut
 terms-disagree = Khebuli var vikum/ bikom
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Xoma ǩlibepe-tkvani mixarsuvit şeni ntsaşa extit!
+first-cta-subtitle-text = Ti skanişi ar  mtsika mimeselit. Haşopete ham dulyaşi maktalepes nuşvelare.
 why-donate = Muşeni iǩitxam?
 add-information-button = Çkinapa eǩudvi
 continue-speaking-button = Var,  ntsaşa exti, osinapus nayoni
+create-profile-text = Çkinapape doloçharu ginonan-i/ gorumt-i? <createProfile>Profili getzopxi</createProfile>”
 thanks-for-voice-toast = Xoma çkinapape-tkvani şeni ntsaşa extit
 thanks-for-voice-toast-error = Xoma çkinapa-tkvani incğonet̆uşa xeta iyu
+first-cta-gender-select-default-option = Ar opsioni goşuği
+first-cta-gender-select-help-text =
+    .label = Cinsiyethi tkvani muçho oçinapamt?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Xoma skanite na mxuci momçit şeni mardit/ ntsaşa extit!
+already-have-an-account = Ar xesabi giğun-i? <login>Kamaxti</login>”
 create-profile-button = Profili getzopxi
 # IMAGE TAGS
 img-alt-success-checkmark = ot̆işu onayişi ğara
 # menu item
 read-sentences = Cumle golionit
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Cumlepe ikhitxi/ goliyoni <small>(Ordoşe mulun)</small>
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Cumlepe ikhitxit/ goliyonit, khitxalapes cuğaphi meçit
+read-sentences-menu-item-tooltip = Nena skanite çhareri cumlepe ikhitxi/ goliyoni/ tkvi doloçhari.
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Osinapu goşatsxunapeşi menu
