@@ -9,6 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> xoma doloçhara
        *[other] <bold>{ $count }</bold> xoma doloçharape
     }
+goal-help-recording = Common Voiceşi ndğaluri { $goalValue } doloçharu hedefis <goalPercentage></goalPercentage> mexolus memişvelit.
 contribute-more =
     { $count ->
         [one] { $count } daha dido-muşi oxenus xadziri ore-i?
@@ -113,6 +114,8 @@ contribution-varying-pronunciations-title = Goimturu otkupe
 contribution-varying-pronunciations-example-1-title = Tis kudi gyutut̆u.
 contribution-varying-pronunciations-example-2-title = Xe keǩozdu.
 contribution-background-noise-title = ǩap̌ulani nağarya
+contribution-background-noise-description-extended = Doloçhara okhixvas-na vana çhiçhilas-na, çhara oxitzonen vana ignapen-na khebuli doyit, vana mot ikumt.
+contribution-background-noise-example-1-fixed-title = <strong>[OÇİNDU]</strong> Ham xarmelobapek <strong>[OXVALU]</strong> koxonkhanu dorthu.
 contribution-background-noise-example-2-explanation = [ç̌araşi ar notzile var diguren]
 contribution-background-voices-title = ǩap̌ulani xomape
 contribution-volume-title = Hacimi
