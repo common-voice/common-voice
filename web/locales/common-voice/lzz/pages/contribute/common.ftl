@@ -114,6 +114,7 @@ contribution-misreadings-example-7-explanation = [Orijinali ç̌aras 'a' va ren]
 contribution-misreadings-example-8-title = mtuti p̌ut̆uci manişa kogolaxtu.
 contribution-misreadings-example-8-explanation = [Var eluvelun kontenti]
 contribution-varying-pronunciations-title = Goimturu otkupe
+contribution-varying-pronunciations-description = Ar doloçhra reddi ikumthaşa vorsi iduşuni. Dunya çkunis çkva do çkva telefuzepe renan; hantepeşi (hanişi) bazepe muşi mondo si var gignun. Skani steri na var isinapams şurepeti na renan giçkithas.
 contribution-varying-pronunciations-example-1-title = Tis kudi gyutut̆u.
 contribution-varying-pronunciations-example-2-title = Xe keǩozdu.
 contribution-background-noise-title = ǩap̌ulani nağarya
