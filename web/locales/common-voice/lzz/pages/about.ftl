@@ -21,20 +21,20 @@ about-voice-validation-subtitle = ǩoçepek ham nenaşi ǩlibepe tzorinuman.
 about-dataset-release-title = Datamarç̌aşi gamaşkvinu
 about-dataset-release-subtitle = Datamarç̌a sum tutaşe ar gamavoşkumt.
 about-subscribe-text = Common Voice-ǩala ǩont̆aǩt̆i giğut̆an gorumt-i?
-about-speak = İsinapi
+about-speak = İsinapi | Ğarğali | İxap̌ari
 about-speak-text = Memşvelupek, xarsuveri cumlepete pşeri ar bankaşen iǩitxaman do ǩlibepe doloç̌aruman.
-about-listen-queue = Oşǩinuşi Sira
+about-listen-queue = Oşǩinuşi ǩudeli | Osiminuşi ǩudeli
 about-listen-queue-text = Xomaşi ǩlibepe, hentepe oşǩinu şeni na xadzirums ar nocğone ǩudelis amilven.
 about-listen = İşǩini (İuci/ İsimini)
 about-listen-text = Maxmarepe, msinapuk cumle tzori iǩitxu-i ya do kontroli ikums do xarsuveri ǩlibepeşi tzorinoba tzorinums.
-about-is-it-valid = ǩlibi oxmaroni oren-i?
+about-is-it-valid = ǩlibi oxmaroni ren-i?
 about-is-it-valid-text = Maxmarek "Ho" ya do rei meçasi 'oxmaroni" ya do niğaren.
 about-yes-votes = ≥ 2 Ho rei
 about-yes-votes-text = Ar xoma ǩlibi Common Voice datamarç̌as dolocharu şeni, jur maxmareşi "ixmarinen" otku diç̌irs.
 about-no-votes = ≥ 2 Var rei
 about-no-votes-text = Maxmare ar ǩlibis "var" rei meçaşi, xoma Xoma ǩudelişa guikten. Jur fara "var" rei niçu na xomaşi ǩlibi Vasaglaxtişa ulun.
 about-dataset-new = Common Voice Datamarç̌a
-about-dataset-new-text = Comman Voice Datamarçhaşi doloxe matzopxepeşi xoma na içinems oxmaraşepe getzopxus na axmaranen oşişilyate xomaşi evuli ren.
+about-dataset-new-text = Comman Voice Datamarç̌aşi doloxe matzopxepeşi xoma na içinems oxmaraşepe getzopxus na axmaranen oşişilyate xomaşi evuli ren.
 about-clip-graveyard = ǩilibişi Doxvume
 about-clip-graveyard-text = Vasaglaxtis, Common Voice datamarç̌as na varen xomaşi ǩlibepe ren. Muç̌o datamarç̌a steri, Vasaglaxti-ti giğen.
 about-get-involved = Eǩomant̆alit
@@ -43,11 +43,12 @@ about-get-involved-text-2 =
      Ntsaşa Yextat! E-posta var na <discourseLink>Discourse</discourseLink>iten koniǩirit, forumepes amaxtit, sites na ren problemepe <git̆ubLink>Git̆ub</git̆ubLink> iten kommemotsadapit var na   <matrixLink>Matrix</matrixLink>işen ǩatas oğarğaluşa amaxtit."
 about-stay-in-touch = Muç̌o oǩovimçinaten?
 about-stay-in-touch-button = Uye iyi (Uye ivi/ iqvi)
-about-stay-in-touch-text-2 = Majurape içinit.
+about-stay-in-touch-text-1 = Common Voiceşi khampanyape ognapu şeni e-posta liste çkunis  <emailFragment>diç̌arit</emailFragment>.
+about-stay-in-touch-text-2 = ǩat̆a ndğeri oǩoç̌arupe şeni<discourseLink>Discourse</discourseLink>'s iç̌arit do Mozillaşi Nena Oǩopinas na ren majurape içinit.
 about-nav-why-common-voice = Muşeni?
 about-nav-how-it-works = Muç̌o?
-about-nav-partners = Maǩatape
-about-nav-get-involved = Eǩomant̆alit
+about-nav-partners = Maǩatepe
+about-nav-get-involved = Tkva-ti moxtit
 about-nav-how-it-works-2 = Common Voice muç̌o itsadeburs/ içalişams?
 about-nav-playbook = Muç̌o na eǩvant̆alaten digurit
 
@@ -61,14 +62,13 @@ about-playbook-what-is-language-content-3 = Bazi nenapes çkva do çkva variante
 
 ## How do I add a language
 
-about-playbook-how-add-language = Nena muşho eǩevunt̆alare?
-about-playbook-how-add-language-content-1 = İpti nena tkvani <languageLink>ren-i</languageLink> otzkhedit. Vana <strong>site golaktalu do cumle okhorobu </strong> diçhirs.
+about-playbook-how-add-language = Nena muç̌o eǩevunt̆alare?
+about-playbook-how-add-language-content-1 = İpti nena tkvani <languageLink>ren-i</languageLink> otzǩedit. Vana <strong>site golaktalu do cumle oǩorobu </strong> diç̌irs.
 about-playbook-how-add-language-translating-heading = Siteşi tercume
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontooni oxmaru şeni rehberi çkunis otzkedit.</translateVideoLink>
-about-playbook-how-add-language-translating-content-2 = Golaktalu şeni <pontoonLink>Pontoon</pontoonLink> coxoni ar Mozillaşi doçhironi vixmart. Pontoonis dido nenape renan ama tkvani nena va renna ekhogamtsxvenan.
+about-playbook-how-add-language-translating-content-2 = Golaktalu şeni <pontoonLink>Pontoon</pontoonLink> coxoni ar Mozillaşi doç̌ironi vixmart. Pontoonis dido nenape renan ama tkvani nena va renna eǩogamtsxvenan.
 about-playbook-how-add-language-collecting-sentences-heading = Cumlepe oǩorobu
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cumle na ǩorobums ǩilavuzis otzǩedit</sentenceCollectorVideo>.
-about-playbook-how-add-language-collecting-sentences-content-2 = Hak <scLinkAdd>ar mtsika cumle ekhogamtsxvenan.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Cumle kholekhsionis otzkhedit</sentenceCollectorFragment>.
 
 ## How does localization work
