@@ -274,3 +274,7 @@ code-switching-answer-bullet-4 = ບໍ່ມີວິທີ "ທີ່ສົມ
 code-switching-authentic-header = ຕອບຕາມທໍາມະຊາດ ແລະ ແທ້ຈິງ
 code-switching-authentic-speak = <bold>ເວົ້າວິທີທີ່ທ່ານມັກກັບໝູ່ເພື່ອນ ຫຼື ຄອບຄົວ.</bold> ຖ້າທ່ານປະສົມພາສາໃນຊີວິດຈິງ, ໃຫ້ເຮັດແບບດຽວກັນຢູ່ບ່ອນນີ້. ຕົວຢ່າງ:
 code-switching-authentic-speak-example = "Pues ຂ້ອຍບອກນາງວ່າຂ້ອຍໄປບໍ່ໄດ້, ແຕ່ນາງຄື, 'ເຈົ້າສະແດງດີກວ່າ!"
+code-switching-use-both-languages = <bold>ໃຊ້​ທັງ​ສອງ​ພາ​ສາ​ຖ້າ​ຫາກ​ວ່າ​ນັ້ນ​ເປັນ​ແບບ​ປົກ​ກະ​ຕິ​ທີ່​ທ່ານ​ຈະ​ເວົ້າ​ມັນ.</bold> ເຖິງ​ແມ່ນ​ວ່າ​ການ​ສະ​ຫຼັບ​ພຽງ​ແຕ່​ຄໍາ​ສັບ​ຫຼື​ສອງ​ຄໍາ​ແມ່ນ​ເປັນ​ປະ​ໂຫຍດ. ຕົວຢ່າງ:
+code-switching-use-both-languages-example = "ນາງເປັນບ້າ porque ແທ້ໆທີ່ຂ້ອຍບໍ່ໄດ້ໂທຫານາງຄືນ."
+# Tagging
+code-switching-tagging-subheader = ແທັກ
