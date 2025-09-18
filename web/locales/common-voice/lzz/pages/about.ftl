@@ -93,6 +93,7 @@ about-playbook-how-record-quality = Mağali ǩalitete ar xoma ǩlibi muç̌o dol
 
 ## How to grow language
 
+about-playbook-how-grow-language = Vikipedis na ren cumlepe şeni <scraperLink>Cumle mxenu</scraperLink>oxmarit.
 about-playbook-how-grow-language-content-2 = Vaǩape
 about-playbook-how-grow-language-content-4 = Sosyaluri Medya
 about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
