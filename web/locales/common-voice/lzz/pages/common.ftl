@@ -4,7 +4,10 @@
 
 ## Languages
 
+aa = Afaruri
+aat = Arvanituri
 ab = Abaza
+abb = Bantunuri
 abq = Abaza
 ace = Adiğe
 ady = Atzuğe
@@ -18,6 +21,7 @@ arn = Mapudunguri
 as = Assamesuri
 ast = Asturianuri
 az = Azeruri
+azz = Highland Puebla Nahuatl
 ba = Başkiruri
 bag = Tuki
 bal = Balochi
@@ -25,9 +29,14 @@ bas = Basaruri
 bax = Bamun
 bba = Baatonum
 bbj = Ghomala
+bbl = Tush
+bce = Mengambo
 bci = Baoule
 be = Belarusuri
+beb = Bamvele
+bfd = Bafut
 bg = Bulgaruri
+bkm = Kom
 bm = Bambaruri
 bn = Bengaluri
 bo = Tibet̆uri

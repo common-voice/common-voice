@@ -66,6 +66,9 @@ shortcut-skip = i
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Doloç̌ari/ Dodgiti
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ǩilibi meyoç̌ari
@@ -100,6 +103,7 @@ contribution-misreadings-title = Yanlişi oǩitxupe
 contribution-misreadings-description-extended-list-4 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
 contribution-misreadings-description-extended-list-5 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.
 contribution-misreadings-example-1-title = Triyasişi divi dinazorepe.
+contribution-misreadings-example-2-title = Bu hastalık vücudunu sarsmıştı.
 contribution-misreadings-example-6-explanation = [“çku” iyasen]
 contribution-misreadings-example-7-title = ǩave eç̌opumu şeni gale gamavulurt.
 contribution-misreadings-example-7-explanation = [Orijinali ç̌aras 'a' va ren]
