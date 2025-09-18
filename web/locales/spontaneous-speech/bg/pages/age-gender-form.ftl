@@ -1,1 +1,9 @@
 continue-speaking-button = Продължете да говорите
+age-select-label = На колко години сте?
+select-your-age = Изберете възрастта си
+gender-select-label = Какъв е вашият пол?
+select-your-gender = Изберете вашия пол
+country-of-residence-label = Държава/регион на пребиваване
+country-of-residence-placeholder =
+    .placeholder = Въведете държавата/региона на пребиваване
+why-are-you-asking = Защо задавате тези въпроси?
