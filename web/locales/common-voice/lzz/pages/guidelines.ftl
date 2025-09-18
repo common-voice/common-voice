@@ -2,6 +2,7 @@
 guidelines-header = Meşveluşi ǩuralepe
 voice-collection = Xomaşi ǩoleǩsioni
 sentence-collection = Cumleşi ǩoleǩsiyoni
+dont-subheader = Hantepe/ hani mot ikumt
 
 ## Voice Collection nav ids
 
