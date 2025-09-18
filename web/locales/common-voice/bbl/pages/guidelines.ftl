@@ -324,3 +324,8 @@ code-switching-lookalikes-explanation = და ო́შტუჼ დაშნი
 code-switching-lookalikes-explanation-example-1 = "ტოტი" ბუჲნღეჩო̆ მატტავ ტაჲვნ და. ეჴ მნიშვნელობევ ჴმა́რბალა́ჰ̦, ეჰ̦ა́თ დე́წე̆ >მონიშნოდალაჼ მე ბუჲნღეჼ და.
 # When Not to Tag Words
 code-switching-not-tag-header = მაცაჼ ცო დე́წე̆ მონიშნოდალაჼ დაშნი
+code-switching-not-tag-explanation = და დაშნი, მე́ნხუჲა́ <bold> ცო და მონიშნოდუჲნი̆</bold> მატტა́ ჭადნივ, ლეჸე́ ჴეჩო̆  მატტრეჼ სე́სხბადიენო̆ მო́თთელო̆ ვაჲნი̆, მუჲლნე́ დაჲცი̆:
+code-switching-not-tag-proper-names = <bold>ა́დმენაჼ წარიშ</bold>ნა́ხიჼ, აჲდგლა́ჼ, დაწესებულება́ჼ წარიშ ცო დე́წე̆ მონიშნოდალაჼ. მუჲლნე́ დაჲცი̆:
+code-switching-not-tag-proper-names-example-1 = ნახ: ნანა, მა́რო́
+code-switching-not-tag-proper-names-example-2 = აჲდგლი: ინდურთა, ომლო́
+code-switching-not-tag-proper-names-example-3 = ბრენდი/დაწესებულები: მაკდონალდს, იკეა
