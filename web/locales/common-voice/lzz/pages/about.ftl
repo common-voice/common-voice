@@ -69,20 +69,23 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pont
 about-playbook-how-add-language-translating-content-2 = Golaktalu şeni <pontoonLink>Pontoon</pontoonLink> coxoni ar Mozillaşi doç̌ironi vixmart. Pontoonis dido nenape renan ama tkvani nena va renna eǩogamtsxvenan.
 about-playbook-how-add-language-collecting-sentences-heading = Cumlepe oǩorobu
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cumle na ǩorobums ǩilavuzis otzǩedit</sentenceCollectorVideo>.
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Cumle kholekhsionis otzkhedit</sentenceCollectorFragment>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Hak <scLinkAdd>ar mtsika cumle eǩogamtsxvenan.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Cumle ǩoleksionis otzǩedit</sentenceCollectorFragment>.
 
 ## How does localization work
 
-about-playbook-how-localize = Siteşi lokaloba muç̌ote içalişams?
-about-playbook-how-localize-content-1 = Common Voice siteşi golaktalu <strong>Pontoon</strong>'s ixenen.
-about-playbook-how-localize-content-2 = Xesabi var giğun-na <pontoonAccountLink>xesabi gontzi</pontoonAccountLink>. Ukhaçxe nena tkvani <strong>("takhimi")</strong> goşuğit do ukhule <pontoonCvLink>Common Voice</pontoonCvLink> proje goşuğit.
-about-playbook-how-localize-content-3 = Golaktalu İngilizurişen ixenern ama majura nenapeşen <strong>oneripe</strong> dziraten. <strong>Profilişi</strong> sembolis do ukhule <strong>Getzopxupe</strong> linkis gyobazgit do nenape gedvit.
+about-playbook-how-localize = Siteşi doxorua muç̌o ixenen?
+about-playbook-how-localize-content-1 = Common Voice siteşi golaktalu <strong>Pontoon</strong>s ixenen.
+about-playbook-how-localize-content-2 = Xesabi var giğun-na <pontoonAccountLink>xesabi gontzi</pontoonAccountLink>. Ukhaçxe nena tkvani <strong>("takhimi")</strong> goşuğit do uǩule <pontoonCvLink>Common Voice</pontoonCvLink> proje goşuğit.
+about-playbook-how-localize-content-3 = Golaktalu İngilizurişen ixenern ama majura nenapeşen <strong>oneripe</strong> dziraten. <strong>Profilişi</strong> sembolis do uǩule <strong>Getzopxupe</strong> linkis gyobazgit do nenape gedvit.
 about-playbook-how-localize-content-4 = %75 oranişa inç̌elasi siye gamaşkvinoni iyasen.
 about-playbook-how-localize-content-5 = Meşvelu şeni video gamognaponi-çkunis otzǩedit.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Cumlepe muç̌o eǩevuç̌arare?
+about-playbook-how-add-sentences-content-1 = <strong>Cumle Mǩorobu</strong>, monduli cumlepe oǩorobu do otzuranu şeni ixmaren. İpti <scAccountLink>ar xesabi gontzaten</scAccountLink>. Uǩule nena tkvani <strong>profili tkvanis</strong> keǩumtsxvit.
+about-playbook-how-add-sentences-content-2 = Cumlepe Common Voice's eǩodvalu gorumt-na jur şurik tzori ren ya do ǩebuli asen.
 
 ## How to record quality
 
