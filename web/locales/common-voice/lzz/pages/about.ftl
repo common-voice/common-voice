@@ -2,13 +2,13 @@
 
 about-title = Muşeni Common Voice?
 about-header-description-v2 = Comman Voice, mtel kianuri guronepeşi meşvelute na irden, iri şeni monduli xomaşi datamarçha ren. Xomaşi aplikasyonepe getzopxu na unon şurepek makinaşi doguru modeli oslophu şeni ham datamarçha oxmaraman.
-how-does-it-work-title-v2 = Common Voice muç̌o itsadeburs/ içalişams?
-how-does-it-work-text = Monduli ar xomaşi datamarçha okhoviğamt. Xoma tkvani domixarsuvit, majurapeşi xoma doloçharape nişi doisanit, mteli şeni datamarçha dokhaimit.
+how-does-it-work-title-v2 = Common Voice-k muç̌o itsadeburs/ içalişams?
+how-does-it-work-text = Monduli ar xomaşi datamarç̌a oǩoviğamt. Xoma tkvani domixarsuvit, majurapeşi xoma doloç̌arape nişi doisanit, mteli şeni datamarç̌a doǩaimit.
 
 ## How does it work section
 
 about-language-req-subtitle = A mitxak ar nena eǩomtsxvalu gorums.
-about-localization-title = Website Sva meçamu
+about-localization-title = Webişi sites sva meçamu
 about-localization-subtitle = Web siteşi ç̌ara hem nenaşe golakti.
 about-sentence-collection-title = Cumleşi ǩoleǩsiyoni
 about-sentence-collection-subtitle = Cumlepe ǩoçepeşi mağali xomate oǩitxu şeni iǩoroben.
