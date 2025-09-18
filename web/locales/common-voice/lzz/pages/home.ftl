@@ -28,7 +28,7 @@ all-locales = İri/ Mteli
 today = Andğa
 x-weeks-short =
     { $count ->
-        [one] Xaft̆a
+        [one] Xafta
        *[other] { $count }wk
     }
 x-months-short =

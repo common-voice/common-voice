@@ -53,6 +53,7 @@ first-cta-gender-select-help-text =
     .label = Cinsiyethi tkvani muçho oçinapamt?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Xoma skanite na mxuci momçit şeni mardit/ ntsaşa extit!
+second-cta-subtitle-text = Ar profilite aktivitepes gatsaden do nena na doloçharamspe şkala khonthakhthi gegadgen.
 already-have-an-account = Ar xesabi giğun-i? <login>Kamaxti</login>”
 create-profile-button = Profili getzopxi
 # IMAGE TAGS
@@ -66,7 +67,10 @@ read-sentences-coming-soon = Cumlepe ikhitxi/ goliyoni <small>(Ordoşe mulun)</s
 
 speak-contribute-menu-tooltip = Cumlepe ikhitxit/ goliyonit, khitxalapes cuğaphi meçit
 read-sentences-menu-item-tooltip = Nena skanite çhareri cumlepe ikhitxi/ goliyoni/ tkvi doloçhari.
+answer-questions-menu-item-tooltip = Nena skanis khitxala do maktale cuğaphi meçi do nena skani doloçhari.
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Osinapu goşatsxunapeşi menu
+read-sentences-menu-item-aria-label = Khomunitek na moncğonu cumlepe teni nenapes ikhitxi/ goliyoni.
+answer-questions-menu-item-aria-label = Khomuniteşi okhitxu do cuğaphi meçamu şeni ar khitxala daha komoncğoni.
