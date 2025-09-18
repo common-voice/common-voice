@@ -26,6 +26,7 @@ validate = Valider
 respond-to-prompt = Svar
 transcribe = Transskriber
 check-transcriptions = Gennemgå
+tag = Tag
 
 ## Not Found Page
 
