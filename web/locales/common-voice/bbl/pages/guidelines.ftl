@@ -331,6 +331,12 @@ code-switching-not-tag-proper-names-example-2 = აჲდგლი: ინდუ
 code-switching-not-tag-proper-names-example-3 = ბრენდი/დაწესებულები: მაკდონალდს, იკეა
 code-switching-not-tag-mixed-words = <bold>მატტლო ჩუ დახენო̆ დაშნი</bold> მა მონიშნოდოთ მელ'მი მატტლო დაჲნი̆ დაშნი, ლე ჴეჩო́ მატტიჼ  ბო́ლო̆ ბაჰ̦, მუჲლნე́ დაჲცი̆:
 code-switching-not-tag-mixed-words-example = შო́რისდე́ბული"
-code-switching-not-tag-interjections = "იჰ"
-code-switching-not-tag-interjections-example-1 = "ჺაჶ!"
-code-switching-not-tag-interjections-example-2 = "ჲოჰ̦"
+code-switching-not-tag-interjections = <bold>შორისდებული.</bold>შორისდებულია́ ნაწილაკია́ დე́წე̆ დისაჼ მატტაგ ცო ჰა́ჭუშ<bold>ჭადნიწიჼ. </bold>მუჲლნე́ დაჲცი̆:
+code-switching-not-tag-interjections-example-1 = "ჺაუჶ!"
+code-switching-not-tag-interjections-example-2 = "ნწუ!"
+code-switching-not-tag-interjections-example-3 = "ჰაჸ"
+code-switching-not-tag-interjections-example-4 = "ამმ"
+
+## Reporting Content
+
+reporting-content = მა́სალეხ ქატარ
