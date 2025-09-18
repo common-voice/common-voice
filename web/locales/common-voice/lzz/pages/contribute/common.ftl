@@ -10,12 +10,14 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> xoma doloçharape
     }
 goal-help-recording = Common Voiceşi ndğaluri { $goalValue } doloçharu hedefis <goalPercentage></goalPercentage> mexolus memişvelit.
+goal-help-validation = Common Voiceşi ndğaluri { $goalValue } otzuranuşi hedefis <goalPercentage></goalPercentage> şukhuri mexolus memişvelit.
 contribute-more =
     { $count ->
         [one] { $count } daha dido-muşi oxenus xadziri ore-i?
        *[other] { $count } daha dido-muşi oxenus xadziri ore-i?
     }
 speak-empty-state = Ham nenas doliç̌arasen cumle var madzires.
+no-sentences-for-variants = Nena tkvanişi variantis cumle var doskidu doren. Ginonan-na (gorumt-na) nena tkvanis na ren majura cumlepe oziru şeni getzopxape gokturit.
 speak-empty-state-cta = Cumlepe şeni eǩuşvelit
 speak-loading-error =
     Dologaçharanen cumle var madzires. 
@@ -101,6 +103,7 @@ contribution-criteria-page-title = Meşveluşi kriterepe
 contribution-criteria-page-description = Ses kayıtlarını dinlerken nelere dikkat etmeniz gerektiğini öğrenin. Böylece kendi ses kayıtlarınızı da zenginleştirebilirsiniz.
 contribution-for-example = evuli
 contribution-misreadings-title = Yanlişi oǩitxupe
+contribution-misreadings-description = İucamthatşani, noçgarepe muçho na ren goliyoninu-i vorsi otzkhedi; enni tzulu xeta koren-na khebuli mot ikum. <br />Dido na ixenen xetape hantepe renan:”
 contribution-misreadings-description-extended-list-4 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
 contribution-misreadings-description-extended-list-5 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.
 contribution-misreadings-example-1-title = Triyasişi divi dinazorepe.
