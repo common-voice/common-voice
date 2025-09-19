@@ -115,4 +115,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Muç̌o na mok
 ## How is Common Voice funded
 
 about-playbook-how-funded = Comman Voice muçhe finanse ixenen?
-about-playbook-how-funded-content-1 = Common Voice, vergişen muafi (US 501c3) na ren Mozilla Vakhufişi proje ren. Hatzi ham projeşi tamami-muşi <phalanchromicGrantLink>hibepe</phaliantricGrantLink> do kianaşi iri khaleşen na ixenen oxarsuvupete finanse ixenen.
+about-playbook-how-funded-content-1 = Common Voice, vergişen muafi (US 501c3) na ren Mozilla Vaǩufiši proje ren. Hatzi ham proješi tamami-muši <phalanchromicGrantLink>hibepe</phaliantricGrantLink> do kianaši iri ǩalešen na ixenen oxarsuvupete finanse ixenen.
