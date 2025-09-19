@@ -7,6 +7,6 @@ check = Къэпщытэ
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = Транскрипцэ щӏын
 loading = Къох...
-login-signup = Ихьэн / Зыхэтхэн
+login-signup = Ихьэн / Зыхегъэтхэн
 login = Ихьэ
 logout = ИкI
