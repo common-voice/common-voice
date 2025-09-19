@@ -61,7 +61,7 @@ create-profile-button = Напэкӏуэцыщӏэ къызэгъэпэщ
 # IMAGE TAGS
 img-alt-success-checkmark = ӏуэхур зэрытэмамым и нэщанэ
 # menu item
-read-sentences = Псалъэухахэм яджэ
+read-sentences = Псалъэухахэм къеджэ
 # text wrapped in <small></small> will be shown in a smaller font size
 read-sentences-coming-soon = Прочитать предложения <small>(Скоро)</small>
 
