@@ -15,9 +15,9 @@ thank-you-for-your-information = Уи щӏэныгъэм щхьэкӏэ упсэ
 
 ## Gender dropdown
 
-male_masculine = Цӏыхухъу
-female_feminine = Цӏыхубз
-intersex = Intersex
-transgender = Transgender
+male_masculine = Хъулъхугъэ
+female_feminine = Бзылъхугъэ
+intersex = Интерсекс
+transgender = Трансгендер
 non-binary = Non-binary
 do_not_wish_to_say = Жысӏэну сыхуейкъым
