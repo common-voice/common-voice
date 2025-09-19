@@ -12,7 +12,7 @@ datasets-positioning =
 datasets-headline-mdc = Dim ond ar y Mozilla Data Collective y mae setiau data Common Voice, Mozilla ar gael bellach.
 # New/upcoming datasets page headline text
 datasets-positioning-mdc =
-    O Common Voice 23.0, mae holl setiau data Common Voice ar gael i'w llwytho i lawr dim ond drwy'r Mozilla Data Collective!
+    O Common Voice 23.0, dim ond drwy'r Mozilla Data Collective y mae holl setiau data Common Voice ar gael i'w llwytho i lawr!
     
     Mae'r dudalen hon yn gwasanaethu fel archif hanesyddol ar gyfer fersiynau blaenorol o setiau data Mozilla Common Voice. Dim ond mewn sefyllfaoedd ymchwil penodol y dylid defnyddio datganiadau archif, nid ar gyfer hyfforddiant, i barchu dymuniadau'r rhai sydd wedi gofyn i'w cyfraniadau gael eu heithrio.
 datasets-speech-bubble-content = Newyddion cyffrous! Mae llefaru rhydd ar y ffordd! Cadwch yn effro am ddiweddariadau a gwnewch yn siŵr eich bod yn dilyn ein <discordLink>Discord</discordLink> am y wybodaeth ddiweddaraf.
