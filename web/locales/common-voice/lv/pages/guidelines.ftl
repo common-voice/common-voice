@@ -262,3 +262,30 @@ code-switching-authentic-speak-example = "Es viņai teicu, ka nevaru iet, bet vi
 code-switching-use-both-languages = <bold>Izmantojiet abas valodas, ja jūs to parasti tā teiktu.</bold> Pat tikai viena vai divu vārdu maiņa ir noderīga. Piemērs:
 code-switching-use-both-languages-example = "Viņa ļoti sadusmojās, potomu što es viņai neatzvanīju."
 code-switching-authentic-direct-quotes = <bold>Iekļaujiet tiešus citātus vai dialogu.</bold> Sakiet tieši to, ko kāds teica, nevis sakoptu vai formālu versiju. Piemērs:
+code-switching-authentic-direct-quotes-example = “Mamma teica: ‘Tu ko?’ un es tādā nu čiliņā atbildēju lai ‘Kamon, nestreso’”
+code-switching-authentic-reflect = <bold>Atspoguļojiet emocijas, identitāti un kontekstu.</bold> Pārslēgšanās parasti notiek, kad cilvēki pauž emocijas, steidzamību vai kultūras idejas. Atbildot uz jautājumiem, ņemiet vērā šos aspektus.
+code-switching-authentic-full-context = <bold>Izmantojiet pilnīgas atbildes ar kontekstu.</bold> Esiet pēc iespējas detalizētāka, sniedzot pēc iespējas vairāk detaļu. Savās atbildēs dalieties ar stāstu vai piemēru.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nepārdomājiet un nepārrediģējiet
+code-switching-answer-dont-correct-language = <bold>“Izlabojiet” savu valodu.</bold> Šis nav tests. Šeit nav svarīga “pareiza” forma, svarīga ir dabiskā valoda.
+code-switching-answer-dont-avoid-switching = <bold>Izvairieties no vārdu maiņas, ja parasti to darāt.</bold> Ir pilnīgi pareizi mainīt vārdus teikuma vidū, domas vidū vai tikai viena vārda ietvaros.
+code-switching-answer-dont-formal-writing = <bold>Runājiet tā, it kā rakstītu formāli.</bold> Izvairieties no formālām, akadēmiskām atbildēm. Saglabājiet sarunvalodas stilu.
+code-switching-answer-dont-force-switch = <bold>Piespiedu kārtā pārslēdzieties, ja tas nav dabiski.</bold> Pārslēdzieties tikai tad, ja šādā situācijā jūs tā runātu dabiski.
+code-switching-answer-dont-translate-repeat = <bold>Tulkot vai atkārtot visu.</bold> Vienkārši pasakiet to vienreiz, tā, kā tas skanētu sarunā. Jums nav jāatkārto atbildes versija katrā valodā.
+# Transcribing
+code-switching-transcribe-subheader = Transkribēšana
+code-switching-transcribe-intro = Transkribējot atbildes, kurās iekļauta kodu maiņa, attēlojiet runātāja valodu tā, kā tā tika runāta — bez labojumiem, rediģēšanas vai vienkāršošanas. Tas attiecas uz visām valodu maiņām, neformālu runu un jauktu valodu vārdiem.
+code-switching-transcribe-do-1 = Atskaņojiet īsus segmentus vairākas reizes, lai uztvertu runas ninases
+code-switching-transcribe-do-2 = Pēc katra teikuma ieturiet pauzi, lai vēlreiz pārbaudītu, vai nav vārdu salikumu vai jauktu vārdu.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Pierakstiet runu precīzi tā, kā tā tiek runāta
+code-switching-capture-explanation = Transkribējiet abas valodas tā, kā tās parādās/izklausās. Nelabojiet valodu un nemainiet to tikai vienā valodā.
+# Include filler words and markers
+code-switching-filler-header = Iekļaujiet aizpildošos vārdus un marķierus
+code-switching-filler-explanation = Tādi vārdi kā “ē”, “nu”, “ā” vai “ziniet” ir nozīmīgi. Piemērs: “Tātad, ē, es viņai teicu: “nu varbūt vēlāk.””
+# Use standard spelling for each language
+code-switching-spelling-header = Izmantojiet katras valodas standarta pareizrakstību
+code-switching-spelling-explanation = Centieties pareizi uzrakstīt vārdus katrā valodā, ja vien runātājs tos neizrunā skaidri un nestandarta veidā.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nevajag sakopt vai vienkāršot valodu
+code-switching-cleanup-1 = Tulkojiet vai pārfrāzējiet – rakstiet to, ko runātājs teica, nevis to, ko viņš "domāja".
