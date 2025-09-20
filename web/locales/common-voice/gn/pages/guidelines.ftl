@@ -200,6 +200,7 @@ code-switching-use-bilingual-prompts-explanation-example = “¿Mbaʼe heʼi nde
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
 code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi ne prímo ndive, ¿embojehe’a español ha inglés?”
 code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
+code-switching-focus-emotional-explanation = Tapichakuéra omoabue jepi ayvu he’ívo oñandu térã oikotevẽva. Techapyrã:
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
 code-switching-cultural-topics-header = Eiporavo umi téma arandupyetéva
