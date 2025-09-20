@@ -327,6 +327,28 @@ code-switching-pronunciation-explanation-example-2 = Spāņu: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Atzīmēšana vienā marķierī
 code-switching-single-token-explanation = Vienam ar atstarpi atdalītam marķierim jāsatur vairāk nekā viens atzīmēts posms.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Atzīmējiet pieturzīmes, balstoties uz valodu ap tām
+code-switching-punctuation-tagging-explanation = Atzīmējiet pieturzīmes, izmantojot valodas diapazonu, kas ir tuvākais pa kreisi. Piemēri:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>un vienīgo reizi, kad</purple> Marija <purple>uz mani kliedza,</purple> <blue>tika</blue> <purple>mēģināta</purple> izdrukāt <blue>nevienu</blue> <purple>pasūtījumu.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>bet</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>viss.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Esiet uzmanīgi ar līdziniekiem
+code-switching-lookalikes-explanation = Daži vārdi var izskatīties līdzīgi kā vienā valodā, bet tiek lietoti citā. Atzīmējiet, pamatojoties uz nozīmi un lietojumu, nevis izskatu. Piemēri:
+code-switching-lookalikes-explanation-example-1 = “Footing” spāņu valodā agrāk nozīmēja skriešanu > atzīmēt kā spāņu
+code-switching-lookalikes-explanation-example-2 = “No problemo” lietots angļu valodā > atzīmēt kā angļu valodu
+# When Not to Tag Words
+code-switching-not-tag-header = Kad vārdus nevajag atzīmēt
+code-switching-not-tag-explanation = Dažus vārdus <bold>nevajadzētu atzīmēt</bold> ar valodas etiķeti, pat ja tie šķiet jaukti vai pielāgoti. Lūk, kā rīkoties dažos piemēros:
+code-switching-not-tag-proper-names = <bold>Īpašvārdi.</bold> Cilvēku, vietu un organizāciju nosaukumiem nevajadzētu pievienot atzīmes. Piemēri:
+code-switching-not-tag-proper-names-example-1 = Cilvēki: Marija, Jānis
+code-switching-not-tag-proper-names-example-2 = Vietas: Losandželosa, Florida
+code-switching-not-tag-proper-names-example-3 = Zīmoli/organizācijas: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Jaukti vai morfoloģiski pielāgoti vārdi.</bold> Neatzīmējiet vārdus, kas sajauc valodas vai kuriem ir pievienotas galotnes no citas valodas. Piemēri:
+code-switching-not-tag-mixed-words-example = Ja sakne ir angļu, bet sufikss ir spāņu: “parkear”, “printearlo”
+code-switching-not-tag-interjections = <bold>Iestarpinājumi.</bold> Iestarpinājumi un aizpildošie vārdi neatkarīgi no valodas jāpaliek <bold>neatzīmētiem</bold>. Piemēri:
+code-switching-not-tag-interjections-example-1 = "Ē"
 code-switching-not-tag-interjections-example-2 = "Nē"
 code-switching-not-tag-interjections-example-3 = "Jā"
 code-switching-not-tag-interjections-example-4 = "Ēē"
