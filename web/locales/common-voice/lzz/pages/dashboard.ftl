@@ -22,6 +22,7 @@ show-ranking = Gesvaru-çkimi motzirit
 ## Custom Goals
 
 get-started-goals = Hedefepes gyoç̌ǩit
+create-custom-goal = Doxmeli ar Noğire Konisimadi
 goal-type = Muperi hedefi getzopxu ginonan?
 both-speak-and-listen = Juri aroğorda
 both-speak-and-listen-long = Juri-ti (isinapi do işǩini)
@@ -36,8 +37,19 @@ want-to-continue = Meyonu ginonan-i?
 finish-editing = İpti osturesru oçodinu ginonan-i?
 lose-changes-warning = Hatzi kogamaxtit-na, osturesarupe tkvani gogindunanen
 build-custom-goal = Doxmeli hedefi getzopxit
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] Muşebura ar noğire konitsadit  { $language } nenas { $hours } saatis hek oyapu şeni memişvelit.
+       *[other] Muşebura ar noğire konitsadit  { $language } nenas { $hours } saatis hek oyapu şeni memişvelit.
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] Muşeburi ar noğirete Comman Voiceşi ar nenas  { $hours } saatis oxtimus nuşvelit
+       *[other] Muşeburi ar noğirete Comman Voiceşi ar nenas  { $hours } saatis oxtimus nuşvelit
+    }
 set-a-goal = Ar noğire nisimadi
 cant-decide = ǩarari var megaçenan-i?
+activity-needed-calculation-fixed = Ar ndğas 100 cumle na doloç̌arasen 100 şurik 13 saati şukuri xoma kogetzop̌ums. Ham performansit̆e konayonu-na 3 tuta doloxe 1000 saati şukuri xoma dvaxenen.
 how-many-per-day = Dido ǩai! Ar ndğas naǩo klibi?
 how-many-a-week = Dido ǩai! Ar xaftas naǩo klibi?
 confirm-goal = Hedefi dotzurani.
@@ -54,3 +66,18 @@ share-goal = Hedefi-çkimi gurti
 ## Goals
 
 streaks = Golağarape
+days =
+    { $count ->
+        [one] Ndğa
+       *[other] Ndğalepe
+    }
+recordings =
+    { $count ->
+        [one] Doloç̌ara
+       *[other] Doloç̌arape
+    }
+validations =
+    { $count ->
+        [one] Otzuranu
+       *[other] Otzuranupe
+    }

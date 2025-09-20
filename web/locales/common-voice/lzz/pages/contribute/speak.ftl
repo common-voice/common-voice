@@ -1,4 +1,4 @@
-speak = İsinapi
+speak = İsinapi (ilaǩirdi, ixap̌ari, ip̌aramiti, ğarğali)
 speak-now = Hatzi - hus - huy isinapi
 speak-subtitle = Nena-tkvani mixarsuvit
 record-cta = Doloç̌arus kogyoç̌ǩi
