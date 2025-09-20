@@ -17,6 +17,9 @@ recorded-clips = Doliç̌aru ǩlibepe
 validated-clips = t̆uraneri ǩlibepe
 total-approved = Mteli Ditzuranu
 overall-accuracy = Geneli tzuranoba
+set-visibility = Otziramu çkimi kogetzopxi
+visibility-explainer = Ham getzopxuk, liderobaşi tablos na ren otziramu tkvani kontroli ikums. Dimpulasi, oxtimu tkvani doxmeli diyen (diqven). Yani, resimi, maxmare yoxo do oxtimu, liderobaşi tablos var idziren. Mot gogoç̌ǩondan: Lideroba tabloşi goimturasi { $minutes } t̆eǩeǩe şuǩale ignapen.
+visibility-overlay-note = Not: 'İdziren' ya do geitzopxasi, ham getzopxu<profileLink>Profilişi butkaşen</profileLink> goikturen.
 show-ranking = Gesvaru-çkimi motzirit
 
 ## Custom Goals

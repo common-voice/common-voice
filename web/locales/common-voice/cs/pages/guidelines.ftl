@@ -189,3 +189,11 @@ code-switching = Přepínání jazyků
 adding-a-question = Přidávání otázek
 # Adding a Question
 code-switching-adding-question-subheader = Co je dobrá otázka?
+# What types of questions to add
+code-switching-types-subheader = Jaké typy otázek přidat?
+code-switching-use-bilingual-prompts-header = Používejte dvojjazyčné výzvy
+code-switching-use-bilingual-prompts-explanation = Použijte dvojjazyčné dotazy, které do vaší otázky začlení oba jazyky: Příklad:
+# What to Avoid
+code-switching-avoid-subheader = Čeho se vyvarovat
+# Reviewing a Question
+code-switching-review-subheader = Kontrola otázek
