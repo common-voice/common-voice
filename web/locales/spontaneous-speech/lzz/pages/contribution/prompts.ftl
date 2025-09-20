@@ -24,3 +24,5 @@ learn-how-to-use-transcribe = Nç̌araşa muç̌o golaktaten digurit.
 learn-how-to-use-transcribe-explanation = Na izt̆enpe na izit̆u steri, ''eee'', ''aaa'' steri xomape-ti elunt̆alit do muç̌o na ren donç̌arit.
 learn-how-to-use-transcribe-guidance = Ham sayfa muç̌o ixmarinen diguru şeni <guidanceLink>hay</guidanceLink> cobazgit
 learn-how-to-use-check-transcript = Nç̌ara muç̌o geitsadaten, digurit
+learn-how-to-use-check-transcript-explanation = Ar doloç̌aras, ǩoçik na tku ǩat̆a zit̆a vana zit̆aşi gale na doskidun xomape, meyizit̆uǩo-ti uğut̆asen.
+learn-how-to-use-check-transcript-guidance = Ham butka muç̌o ixmaren doguru şeni <guidanceLink>hay</guidanceLink> gyobazgit (cobazgit)

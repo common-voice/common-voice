@@ -1,12 +1,12 @@
 ## REVIEW
 
 sc-review-lang-not-selected = Çkar nena var tsxunit. nena otsxunu şeni <profileLink>profili tkvanişa</profileLink> idit.
-sc-review-title = Cumlepes tsadiCumlepes tsadi
+sc-review-title = Cumlepes tsadi
 sc-review-loading = Cumlepe eiğmalinen...
-sc-review-select-language = ç̆arapes otzk̆omilu şeni ar nena tsxunit.
-sc-review-no-sentences = otziramuşi ç̆ara varen. Çkva do çkva ç̆arape atzi doloç̆arit!
+sc-review-select-language = Goga, cumlepe muşi otzk̆omilu na gorumt ar nena goşuğit.
+sc-review-no-sentences = Getsadoni cumle va ren. <addLink>Hatzi daha fazla cumle gedvit!</addLink>
 sc-review-form-prompt =
-    .message = otzuraneri ç̆arape var memincğonit, eşo-i?
+    .message = Tzuraneri cumlepe var incğonu, heşo-i?
 sc-review-form-usage = ç̆ara k̆abuli şeni mardzgvani k̆ele gulinkinit. Var ginonan na k̆vazali k̆ele gulinkinit.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
