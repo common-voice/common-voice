@@ -102,6 +102,7 @@ community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kop�
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Izvēlne, lai piekļūtu sadaļām Partnerības, Prese un stāsti, Kopiena un Valodas
 about-us-menu-aria-label = Par iespēju izvēlni
 about-us-menu-item-aria-label = Par mums izvēlne
 partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common Voice
@@ -139,6 +140,10 @@ join-discord-community = Pievienojieties Discord kopienai
 join-discord-community-action = Pievienoties Discord
 join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
 find-us-on-matrix = Atrodiet mūs Matrix
+find-us-on-matrix-content-v2 = Matrix ir atvērts, viegls protokols decentralizētai reāllaika saziņai un Mozilla iecienītākā atvērto diskusiju platforma. Mēs atrodamies telpā "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Citi klienti
 ask-mozilla-share = Lūdziet Mozilla pastāstīt citiem par jūsu notikumu
 ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastāstiet mums par to, un mēs par šo notikumu paziņosim citiem, kam tas varētu interesēt!
 # label for button

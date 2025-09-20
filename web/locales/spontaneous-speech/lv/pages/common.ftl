@@ -32,8 +32,11 @@ continue-with-skipped = Turpināt ar izlaistajiem
 question = Jautājums
 validate = Apstiprināt
 respond-to-prompt = Atbildēt uz jautājumu
+respond-to-prompt-mobile = Atbilde
 transcribe = Pārrakstīt
 check-transcriptions = Pārskatīt transkripcijas
+check-transcriptions-mobile = Pārbaudiet
+tag = Birka
 
 ## Not Found Page
 
@@ -46,6 +49,7 @@ meh = Dienvidrietumu Tlaxiaco Mixtec
 mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
+el-CY = Kipras grieķu
 
 ## Language search component
 

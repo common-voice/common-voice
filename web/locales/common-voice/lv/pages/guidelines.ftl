@@ -240,6 +240,12 @@ code-switching-direct-quotes-explanation = Mudiniet dalībniekus atkārtot, kā 
 code-switching-direct-quotes-explanation-example = "Kādi bija tavi precīzi vārdi, kad to uzzināji?"
 code-switching-cultural-topics-header = Izvēlieties kultūras ziņā specifiskas tēmas
 code-switching-cultural-topics-explanation = Ēdiens, tradīcijas, svētki un ģimenes dinamika bieži vien mudina mainīt kodus.
+code-switching-cultural-topics-explanation-example = "Kā jūs raksturojat Dia de los Muertos kādam, kurš runā tikai angliski?"
+code-switching-informal-scenarios-header = Izpētiet neformālus scenārijus
+code-switching-informal-scenarios-explanation = Sarunās ar draugiem vai īsziņu sūtīšanā bieži vien notiek dabiskāka pārslēgšanās. Piemērs:
+code-switching-informal-scenarios-explanation-example = "Kādu joku tavi draugi vienmēr izsaka — un kā viņi to saka?"
+# What to Avoid
+code-switching-avoid-subheader = No kā izvairīties
 code-switching-avoid-intro = Jautājumi, kas varētu:
 code-switching-avoid-1 = Pieprasīt personu identificējošu informāciju
 code-switching-avoid-2 = Izraisīt naida runu vai citus neobjektīvus vai aizskarošus uzskatus
@@ -298,5 +304,36 @@ code-switching-spelling-explanation = Centieties pareizi uzrakstīt vārdus katr
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Nevajag sakopt vai vienkāršot valodu
 code-switching-cleanup-1 = Tulkojiet vai pārfrāzējiet – rakstiet to, ko runātājs teica, nevis to, ko viņš "domāja".
+code-switching-cleanup-2 = “Pareiza” gramatika vai izruna — saglabājiet runātāja dabisko lietojumu.
+code-switching-cleanup-3 = Izlaidiet sīkumus, kas šķiet mazsvarīgi vai mazsvarīgi — pat aizgūtiem vārdiem ir nozīme.
+code-switching-cleanup-4 = Ievietojiet pieturzīmes, kas varētu mainīt nozīmi, — saglabājiet dabisku plūdumu.
+code-switching-cleanup-5 = Pieņemsim, ka jūs zināt katra vārda valodu – atzīmējiet atbilstoši lietojumam.
+# Tagging
+code-switching-tagging-subheader = Atzīmēšana
+code-switching-tagging-error-intro = Ja transkripcijā ir kļūda, lūdzu, izmantojiet ziņošanas funkciju, lai to atzīmētu. Iespējamās kļūdas ir šādas:
+code-switching-tagging-error-1 = Nepareiza pieturzīmju vai lielo burtu lietošana
+code-switching-tagging-error-2 = Drukas kļūdas
+code-switching-tagging-error-3 = Vārdi, kas uzrakstīti nepareizā ortogrāfijā
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Pareizas ortogrāfijas izmantošana katrā valodā
+code-switching-orthography-explanation = Uzrakstiet katru vārdu atbilstoši valodas, no kuras tas cēlies, pareizrakstībai. Piemēram:
+code-switching-orthography-explanation-example-1 = Ja vārds “kitchen” (virtuve) tiek izrunāts kā spāņu valodā, tas jāraksta kā angļu valodā, nevis kā “quichen”.
+code-switching-orthography-explanation-example-2 = Ja vārds "quinceaños" tiek izrunāts kā angļu valodā, rakstiet to ar "ñ".
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Izmantojiet izrunu, lai palīdzētu noteikt valodu
+code-switching-pronunciation-explanation = Daži vārdi abās valodās var izskatīties vienādi, bet tos var izrunāt atšķirīgi. Ieklausieties izrunā, lai palīdzētu pareizi atzīmēt. Piemēram: kabelis, tako, aktieris, detektīvs.
+code-switching-pronunciation-explanation-example-1 = Angļu: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spāņu: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Atzīmēšana vienā marķierī
+code-switching-single-token-explanation = Vienam ar atstarpi atdalītam marķierim jāsatur vairāk nekā viens atzīmēts posms.
 code-switching-not-tag-interjections-example-2 = "Nē"
 code-switching-not-tag-interjections-example-3 = "Jā"
+code-switching-not-tag-interjections-example-4 = "Ēē"
+
+## Reporting Content
+
+reporting-content = Ziņošana par saturu
+reporting-content-subheader = Vispārīgi norādījumi
+reporting-content-explanation-1 = Jums jāatzīmē saturs, kas ir aizskarošs, kaitīgs vai citādi satraucošs. Tajā nedrīkst būt iekļauta arī personu identificējoša informācija, piemēram, tālruņu numuri vai adreses. Tas tiks noņemts no jūsu pieredzes, līdz Common Voice komanda to pārskatīs un veiks tālāku izmeklēšanu.
+reporting-content-explanation-2 = Lai ziņotu par saturu, atlasiet pogu “Ziņot” un izvēlieties vienu vai visas opcijas: Aizskarošs saturs, Atšķirīga valoda, Personu identificējoša informācija, Cits. Šeit teksta apgabalā sniedziet sīkāku informāciju par to, kāpēc ziņojat par saturu. Pēc tam iesniedziet ziņojumu, noklikšķinot uz pogas “Ziņot”.
