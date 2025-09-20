@@ -9,7 +9,7 @@ Many language communities are self organising and have their contact channels on
 ## Channels
 
 - General:
-  - Common Voice on [Matrix](https://matrix.to/#/#common-voice:mozilla.org) [Official] or in room `common-voice:mozilla.org` of [other Matrix clients](https://matrix.to/#/#common-voice:mozilla.org)
+  - Common Voice on [Matrix (Official)](https://chat.mozilla.org/#/room/#common-voice:mozilla.org) — or open room `#common-voice:mozilla.org` in [other Matrix clients](https://matrix.to/#/#common-voice:mozilla.org)
   - Common Voice on [Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) [Official] learn more about how you can request a language specific sub-discourse thread on our readme.
   - Common Voice on [Discord](https://discord.gg/9ZCVQarN) [Official]
   - Common Voice on [Telegram](https://t.me/mozilla_common_voice)
@@ -19,7 +19,7 @@ Many language communities are self organising and have their contact channels on
   - [Website](https://mova.pro)
   - [Telegram](https://t.me/voice_by)
 - Bengali (`bn`):
-  - [Matrix](https://app.element.io/#/room/#bn-common-voice:mozilla.org)
+  - [Matrix (Official)](https://chat.mozilla.org/#/room/#bn-common-voice:mozilla.org) — or open room `#bn-common-voice:mozilla.org` in [other Matrix clients](https://matrix.to/#/#bn-common-voice:mozilla.org)
   - [Discord](https://discord.gg/uacmNh6KQj)
 - Cantonese (`yue`):
   - [Telegram](https://t.me/commonvoiceyue)
@@ -44,7 +44,7 @@ Many language communities are self organising and have their contact channels on
 - Dhivehi (`dv`):
   - [Web](https://dhivehi.ai/)
   - [Discord](https://discord.com/invite/5ZdTHsN8Mn)
-  - [Matrix](https://app.element.io/#/room/!WNiJFJTBpvYqMrDWir:matrix.org)
+  - Matrix: room `!WNiJFJTBpvYqMrDWir:matrix.org` — open in [other Matrix clients](https://matrix.to/#/!WNiJFJTBpvYqMrDWir:matrix.org)
 - Esperanto (`eo`):
   - [Matrix](https://matrix.to/#/#common-voice:mozilla.org)
   - [GitHub](https://github.com/parolrekonado)

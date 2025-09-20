@@ -79,7 +79,9 @@ I see rocks on the ground
 <!--- How can you start a community ?
 - We have created a [community building template](https://docs.google.com/document/d/15Kyf3g47HjUCJ55c3aLpvxf96R2cUti2mcRyiyXej90/edit?usp=sharing) to help you think about the goals, objectives and literature to inspire you.
 - Establishing [communication platforms](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md) for your language can help to connect volunteers and mobilise people for community campaigns.
-- You can request a language specific channel on [discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) and or make your own [language Matrix channel](https://matrix.to/#/#common-voice:mozilla.org) on the Mozilla instance.
+- You can request a language specific channel on [discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) and/or make your own language Matrix channel on the Mozilla instance:
+  [Matrix (Official)](https://chat.mozilla.org/#/room/#<your-language>-common-voice:mozilla.org)
+  — or open room `#<your-language>-common-voice:mozilla.org` in [other Matrix clients](https://matrix.to/#/#<your-language>-common-voice:mozilla.org).
 - [Mozilla Resources Reps](https://community.mozilla.org/en/groups/mozilla-reps-resources/) and [Reward, Enablement and Recognition](https://discourse.mozilla.org/t/recognition-rewards-and-contribution-pathways/84408) Schemes are an avenue for getting support.
 - We also have a [community support desk](https://discourse.mozilla.org/t/introducing-community-support-desk/88158) that happens bi-weekly on Thursday. -->
 
