@@ -18,3 +18,9 @@ submit-all-button = Mteli Oncğoni
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Ham butka muç̌o ixmaraten digurit
+learn-how-to-use-prompts-explanation = Ham jur cumles gaxenenan şukuri natureli osinapute ǩitxalepes cuğap̌i meçit. Şineri do agresifi na va ren uslubi ixmarit.
+learn-how-to-use-prompts-guidance = Ham sayfa muç̌o ixmarinen diguru şeni <guidanceLink>hay</guidanceLink> cobazgit.
+learn-how-to-use-transcribe = Nç̌araşa muç̌o golaktaten digurit.
+learn-how-to-use-transcribe-explanation = Na izt̆enpe na izit̆u steri, ''eee'', ''aaa'' steri xomape-ti elunt̆alit do muç̌o na ren donç̌arit.
+learn-how-to-use-transcribe-guidance = Ham sayfa muç̌o ixmarinen diguru şeni <guidanceLink>hay</guidanceLink> cobazgit
+learn-how-to-use-check-transcript = Nç̌ara muç̌o geitsadaten, digurit
