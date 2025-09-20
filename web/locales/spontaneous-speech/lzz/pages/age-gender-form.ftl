@@ -11,6 +11,7 @@ country-of-residence-label = Skidurt Sva, dobadona/Gomti
 country-of-residence-placeholder =
     .placeholder = Skidurt dobadona/ gomti/ sva goşuğit
 why-are-you-asking = Muşeni iǩitxam?
+why-are-you-asking-explanation = Ham ç̌kinapape meç̌amu opsiyoneli ren. Ti t̆kvani ǩai gatzonenan-na muşeburi ç̌kinapape t̆kvani gedvit. Datamarç̌a gamavupinatis, mtel şurişi datape elarç̌ama yoxopete dovompulaten. Yoxo/ coxo t̆kvani, e-posta adresi t̆kvani, tzana t̆kvani vana cinsiyet̆i t̆kvani steri demografiǩuri ç̌kinapape ǩala alakha na var giğunan vorsi oxotzonit. Tekhnolojişi ǩai, vorsi oç̌alişu şeni ç̌kva do ç̌kva datape diç̌irs. Meta datape muşeni becit̆i ren digurit.
 thank-you-for-your-information = Çkinapapa tkvani şeni mardit
 
 ## Gender dropdown

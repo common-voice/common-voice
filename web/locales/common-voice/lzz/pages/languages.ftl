@@ -2,6 +2,8 @@
 
 language-section-in-progress = Nayonen
 language-section-launched = Kogeiç̌ǩu
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Soni ondğaluru: { $lastUpdatedTimeStamp }
 languages-show-more = Daha fazla dziri
 languages-show-less = Daha mtsika dziri
 language-meter-in-progress = Ogzalaman
