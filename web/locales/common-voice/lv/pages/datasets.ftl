@@ -8,6 +8,13 @@ datasets-positioning =
     Kopējā balss daudzvalodu datu bāze jau ir lielākā šāda veida publiski pieejama balss datu kopa, bet tā nav vienīgā.
     
     Paskatieties uz šo lapu kā informācijas centru par citām atvērtā pirmkoda balss datu kopām un, tā kā kopējā balss turpina augt, mājās mūsu nākotnes atjauninājumiem.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice datu kopas tagad ir pieejamas tikai vietnē Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Sākot ar Common Voice 23.0 versiju, visas Common Voice datu kopas ir pieejami lejupielādei tikai no Mozilla Data Collective!
+    
+    Šī lapa kalpo kā vēsturisks arhīvs ar iepriekšējām Mozilla Common Voice datu kopu versijām. Arhīva izlaidumi jāizmanto tikai īpašos pētniecības scenārijos, nevis apmācībām, lai respektētu to personu vēlmes, kuras ir pieprasījušas, lai viņu ieguldījums netiktu iekļauts.
 datasets-speech-bubble-content = Aizraujoši jaunumi! Spontāna runa ir ceļā! Sekojiet līdzi jaunumiem un noteikti pārbaudiet mūsu <discordLink>Discord</discordLink> jaunāko informāciju.
 language = Valoda
 download-dataset-header = Lejupielādējiet datu kopu
