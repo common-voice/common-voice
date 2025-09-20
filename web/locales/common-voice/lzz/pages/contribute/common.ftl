@@ -1,4 +1,3 @@
-action-click = not̆aǩulit
 action-tap = nantzit
 contribute = Nuşvelit
 review = Notsadi
@@ -147,5 +146,6 @@ contribution-volume-description = Maǩit̆xepeši doloxe xomaşi seviyeşi farke
 contribution-reader-effects-title = Maǩitxeşi Efektepe
 contribution-reader-effects-description = Doloç̌arapeşi pşapa muşi, ǩoçepeşi natureli xomanişite osinapute oǩulun. Bazi orapes standart̆i do gale; ǩriineri do mepurçineri kort̆uǩoti ǩebuli doyit. Lutfen, ibirt̆aşa na ixenen doloç̌arape do okuneşi noxene sent̆etiği xomaşi doloç̌arape ǩebuli mot ikumt.
 contribution-just-unsure-title = Vorsi var giçkinan-i?
+contribution-just-unsure-description = Ham ǩuralepeşi gale ar mutu şkala oǩvagi-na, nosi skanite ǩarari meçi. Var megaç̌en-na ǩarari, ‘skip’ tuşis gyobazgi (comşari) do majura doloç̌araşa konuǩap̌i.
 see-more = <chevron></chevron> Daha fazlamuşi dzirit
 see-less = <chevron></chevron>Daha mtsikamuşi otziri
