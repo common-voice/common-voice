@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = Meşveluşi ǩuralepe
+guidelines-header = Meşveluşi kriterepe
 voice-collection = Xomaşi ǩoleǩsioni
 sentence-collection = Cumleşi ǩoleǩsiyoni
 question-collection = Khitxala oǩorobu
