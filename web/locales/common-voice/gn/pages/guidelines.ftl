@@ -192,6 +192,7 @@ code-switching-adding-question-explanation = Porandu iporãva mba’ekuaarãme g
 code-switching-adding-question-criteria-1 = Ndahasýi iñeikumby ha iñembohovái
 code-switching-adding-question-criteria-2 = Hetave jey hekoporãva’erã
 code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva.
+code-switching-adding-question-note = Ikatuete ejagarrasehína ojehecháva jeregua ha tendatee rehe.
 # What types of questions to add
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
