@@ -145,19 +145,41 @@ example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kop
 # Answer Questions
 answer-questions = Atbildēt uz jautājumiem
 answer-questions-subheader = Vispārīgi norādījumi
+answer-questions-explanation-1 = Padomājiet mirkli par uzdevumu, apsveriet, ko vēlaties pateikt, bet nepārspīlējiet ar scenāriju. Noklikšķiniet uz ikonas “ierakstīt”. Kad esat ierakstījis, varat sevi noklausīties, ierakstīt atkārtoti, dzēst vai iesniegt.
+answer-questions-explanation-2 = Atcerieties — neuztraucieties, ja stostāties, pārtraucat vai atkārtojat vārdu. Šie visi ir noderīgi dati inženieriem, kuri cenšas izveidot iekļaujošus, reālās pasaules runas atpazīšanas rīkus.
 answer-questions-tip-1 = Ieraksti pietiekami klusā vietā
 answer-questions-tip-2 = Izvēlies vietu ar labu interneta pieslēgumu
 answer-questions-tip-3b = Mēģini savu atbildi ierobežot 15-30 sekundes ilgu
 answer-questions-tip-4 = Izvairies no naidīgas, musinošas vai citādi aizskarošas runas
 answer-questions-tip-5 = Runā dabiski, kā ar draugu - izmanto savu īsto valodas variantu, dialektu un akcentu
 answer-questions-tip-6 = Noturi savu skaļumu vienmērīgu - nebļauj vai nedziedi
+# Transcribe the Audio
+transcribe-the-audio = Pārrakstīt audio
 transcribe-the-audio-subheader-1 = Vispārīgi norādījumi
+transcribe-the-audio-subheader-2 = Skaitļi un saīsinājumi
 transcribe-the-audio-subheader-3 = Īpašas birkas
+transcribe-the-audio-subheader-4 = Vārdu segmenti, kļūdaini sākti vārdi, atkārtoti vārdi
+transcribe-the-audio-subheader-5 = Gramatiskās kļūdas un sarunvalodas vārdi
 transcribe-the-audio-subheader-1-explanation = Kopumā vajadzētu pierakstīt visu, ko dzirdi. Tas ietver:
+transcribe-the-audio-subheader-1-explanation-example-1 = Sarežģītu vārdu, tostarp vilcināšanās un atkārtojumu, pierakstīšana
+transcribe-the-audio-subheader-1-explanation-example-2 = Trokšņu, piemēram, klepus vai smiešanās, marķēšana
+transcribe-the-audio-subheader-1-explanation-example-3 = Būtiska trokšņa piesārņojuma, piemēram, fona pļāpāšanas vai automašīnu signālu, marķēšana
+transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiskās variācijas un slengs jāreģistrē tieši tā, kā tie parādās. Nelabojiet un nerediģējiet cilvēku runu.
+transcribe-the-audio-subheader-2-explanation-1 = Skaitļi un simboli jāraksta vārdos, nevis izmantojot ciparus vai speciālās rakstzīmes. Piemērs:
+transcribe-the-audio-subheader-2-explanation-2 = Saīsinājumi jāraksta tā, kā tie parasti tiek rakstīti attiecīgajā valodā, ievērojot standarta lielo burtu lietošanas noteikumus. Tie nav jātranskribē fonētiski. Piemērs:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Pareizi</correct>: Tas no šejienes ir simts kilometru attālumā
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Nepareizi</wrong>: Tas no šejienes ir 100 kilometru attālumā
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Pareizi</correct>: Tiekamies pēc <underline>deviņiem trīsdesmit</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nepareizi</wrong>: Tiekamies <underline>2015. gadā</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Pareizi</correct>: Tā bija divdesmit procentu atlaide
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nepareizi</wrong>: Tam bija 20% atlaide
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Pareizi</correct>: Viņus pagājušajā ceturtdienā arestēja <underline>FIB</underline>.
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Nepareizi</wrong>: Viņus pagājušajā ceturtdienā arestēja <underline>ef bē ī</underline>.
+transcribe-the-audio-subheader-3-explanation = Lai atzīmētu saraustītu valodu, aizpildītājus un cita veida neverbālu saturu (angļu valodā), jāizmanto šādas īpašas atzīmes.
 tags-table-header-1 = Birka
 tags-table-header-2 = Nozīme
 tags-laugh = Smiekli
@@ -165,14 +187,40 @@ tags-disfluency = Neskaidra izruna
 tags-unclear = Neskaidri
 tags-noise = Troksnis
 tags-laugh-explanation = Smieklu skaņa.
+tags-disfluency-explanation =
+    Aizpildvārds vai skaņa, ko lieto kā aizvietotāju, kamēr runātājs izlemj, ko teikt.
+    
+    Angļu valodā dažas izplatītas vilcināšanās skaņas ir “err”, “um”, “huh” utt.
 tags-unclear-explanation = Vārds vai vārdu virkne, ko nevar saprast.
+tags-noise-explanation = Jebkāds cits troksnis, piemēram, runātāja klepus vai kakla noklepošanās, automašīnas taurēšana, kaut kā sitiena skaņa pa mikrofonu, telefona dūkšana utt.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Un tad es [troksnis] devos atvaļinājumā.
+    
+    Nu, [troksnis] [smejas] tās nebija gluži atvaļinājums [smejas]
+transcribe-the-audio-subheader-4-explanation-1 = Spontānā runā dabiski ir sastopami nepareizi iesākti vārdi, kuros tiek radīts tikai pilna vārda fragments. Šādos gadījumos, lūdzu, pēc iespējas labāk pārrakstiet vārda fragmentu un vārda beigās pievienojiet defisi (-), lai norādītu, ka vārds ir nepareizi iesākts. Piemērs:
+transcribe-the-audio-subheader-4-explanation-1-example = Viņa vārds ir <underline>Džo- Džona-</underline> Džonatans.
+transcribe-the-audio-subheader-4-explanation-2 = Dažreiz runātāji atkārto vārdu vai vārda fragmentu vairākas reizes. Arī tas ir jātranskribē. Piemērs:
+transcribe-the-audio-subheader-4-explanation-2-example = Un tad es devos uz <underline>guļ-</underline> guļamistabu
+transcribe-the-audio-subheader-5-explanation-1 = Spontānā runā dabiski būs gramatiskas kļūdas. Tās nav jālabo transkripcijas laikā. Transkripcijai precīzi jāatspoguļo runātais saturs.
+transcribe-the-audio-subheader-5-explanation-2 = Runātāji var lietot sarunvalodas vārdus (piemēram, “forši”, “kūlīgi” utt.), kas var nebūt formāli pareizi. Tie jāpārraksta tādā veidā, kā tie ir, nevis jāmaina uz to formālākajiem ekvivalentiem.
 
 ## Review the Transcription
 
+review-the-transcription = Pārskatiet transkripciju
 review-the-transcription-subheader = Vispārīgi norādījumi
+review-the-transcription-explanation-1 = Kopumā mēs iesakām, lai persona, kas pārbauda transkripciju, nebūtu tā pati persona, kas veica oriģinālo transkripciju. Ir ļoti grūti pašam pārbaudīt savu darbu! Vairāku recenzēšanas līniju esamība var palīdzēt uzlabot kvalitātes nodrošināšanu un mazināt aizspriedumus un problēmas.
+review-the-transcription-explanation-2 = Lai pārbaudītu transkripcijas precizitāti, pārskatiet iepriekš minētās transkripcijas vadlīnijas. Varat veikt labojumus un iesniegt tos.
+review-the-transcription-explanation-3 = Atkal jūs varat atzīmēt saturu, kas ir aizskarošs, kaitīgs vai citādi satraucošs, un tas tiks noņemts no jūsu pieredzes, līdz Common Voice komanda to pārskatīs un veiks tālāku izmeklēšanu.
 
 ## Code-Switching
 
+code-switching = Koda pārslēgšana
 adding-a-question = Jautājuma pievienošana
 # Adding a Question
 code-switching-adding-question-subheader = Kā veidot labu jautājumu?
+code-switching-adding-question-explanation = Labs jautājums par sabiedrības līdzdalības datu kopām būtu:
+code-switching-adding-question-criteria-1 = Būt viegli saprotamam un atbildamam
+code-switching-adding-question-criteria-2 = Būt aktuālam jebkuram cilvēkam
+code-switching-adding-question-criteria-3 = Nelietot un nemudināt uz aizskarošu valodu
+code-switching-adding-question-note = Apsveriet vai jautājums varētu attiekties uz vairākiem kontekstiem vai jomām.

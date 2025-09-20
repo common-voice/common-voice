@@ -11,3 +11,12 @@ error-content-404 = Varbūt mūsu <homepageLink>mājaslapa</homepageLink> palīd
 error-title-503 = Mēs piedzīvojam negaidītu dīkstāvi
 error-content-503 = Vietne tiks atjaunota, cik drīz vien iespējams. Lai iegūtu jaunāko informāciju, lūdzu, pievienojieties <matrixLink>Matrix kopienas tērzētavai</matrixLink> vai apmeklējiet <githubLink>GitHub</githubLink> vai <discourseLink>mūsu diskusiju forumus</discourseLink>, lai ziņotu par vietnes problēmām un uzzinātu par aktuālo problēmu risināšanas statusu.
 error-code = Kļūda { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [zero] Neizdevās augšupielādēt { $total } klipus. Tie jau ir augšupielādēti iepriekš. Turpināsim ar nākamo partiju!
+        [one] Neizdevās augšupielādēt 1 klipu. Tas jau ir augšupielādēts iepriekš. Turpināsim ar nākamo partiju!
+       *[other] Neizdevās augšupielādēt { $total } klipus. Tie jau ir augšupielādēti iepriekš. Turpināsim ar nākamo partiju!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Mēs augšupielādējām { $uploaded } no jūsu klipiem — Pārējie jau ir augšupielādēti. Turpināsim ar nākamo partiju!
