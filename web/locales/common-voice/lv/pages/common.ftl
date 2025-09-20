@@ -238,6 +238,7 @@ mrh = Mara
 mrj = Hill Mari
 ms = Maljiešu
 mse = Moussey
+msi = Sabah Malay
 mt = Maltiešu
 mua = Mundang
 mug = Musgum

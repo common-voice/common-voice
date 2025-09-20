@@ -95,7 +95,12 @@ release-version = Versija
 dataset-date = Datums
 license = Licence: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+# Support old genders in older datasets
+male = Vīrietis
+female = Sieviete
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Lejupielādējiet mūsu balss datu kopas
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Lejupielādes iespējas, lai piekļūtu Common Voice datiem
+datasets-show-more = Rādīt visas datu kopas
+datasets-show-less = Rādīt jaunākās datu kopas
