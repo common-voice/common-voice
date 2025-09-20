@@ -171,3 +171,21 @@ transcribe-the-audio-subheader-2-explanation-2 = Zkratky by se měly psát tak, 
 transcribe-the-audio-subheader-2-example-1-correct = <správně> Správně</správně>: Je to sto kilometrů odsud.
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <špatně>Špatně</špatně>: Je to 100 kilometrů odsud.
+tags-table-header-1 = Značka
+tags-table-header-2 = Význam
+tags-laugh = Smích
+tags-disfluency = Neplynulost
+tags-unclear = Nejasné
+tags-noise = Hluk
+tags-laugh-explanation = Zvuk smíchu.
+tags-unclear-explanation = Slovo nebo sled slov, kterému nelze rozumět.
+tags-noise-explanation =
+    Jakýkoli jiný typ hluku, například kašlání nebo odkašlávání řečníka,
+    troubení auta, zvuk něčeho, co naráží do mikrofonu, bzučení telefonu atd.
+
+## Code-Switching
+
+code-switching = Přepínání jazyků
+adding-a-question = Přidávání otázek
+# Adding a Question
+code-switching-adding-question-subheader = Co je dobrá otázka?
