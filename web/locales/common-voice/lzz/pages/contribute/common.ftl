@@ -1,3 +1,4 @@
+action-click = not̆aǩulit
 action-tap = nantzit
 contribute = Nuşvelit
 review = Notsadi
@@ -132,7 +133,7 @@ contribution-varying-pronunciations-example-2-explanation = Bazi zit̆ape ç̌ar
 contribution-background-noise-title = ǩap̌ulani nağarya
 contribution-background-noise-description = Makina doguruşi algoritmapek ǩap̌ulani curuntepe axmaras bgorumt. Mtel ç̌ara ognamt-na didi curunti ǩebuli ixenen. Amtsika fonişi muziği-ti problemi va ren. Ama ǩat̆a zit̆a neti ognapu diç̌irs do opşa curunti heşeni vorsi var on.
 contribution-background-noise-description-extended = Doloç̌ara oǩixvas-na vana ç̌iç̌ilas-na, ç̌ara oxitzonen vana ignapen-na ǩebuli doyit, vana mot ikumt.
-contribution-background-noise-example-1-fixed-title = <strong>[OÇİNDU]</strong> Ham xarmelobapek <strong>[OXVALU]</strong> koxonkhanu dorthu.
+contribution-background-noise-example-1-fixed-title = <strong>[OÇİNDU]</strong> Ham xarmelobapek <strong>[OXVALU]</strong> koxonǩanu dort̆u.
 contribution-background-noise-example-2-fixed-title = Ham xarmelobak <strong>[OXVALU]</strong> koxomtores.
 contribution-background-noise-example-2-explanation = [ç̌araşi ar notzile var diguren]
 contribution-background-noise-example-3-fixed-title = <strong>[OÇ̌AÇ̌ALU]</strong> xarmelobapek xura <strong>[OÇ̌AÇ̌ALU]</strong> -dort̆u.
