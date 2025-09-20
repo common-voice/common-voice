@@ -144,3 +144,35 @@ example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kop
 
 # Answer Questions
 answer-questions = Atbildēt uz jautājumiem
+answer-questions-subheader = Vispārīgi norādījumi
+answer-questions-tip-1 = Ieraksti pietiekami klusā vietā
+answer-questions-tip-2 = Izvēlies vietu ar labu interneta pieslēgumu
+answer-questions-tip-3b = Mēģini savu atbildi ierobežot 15-30 sekundes ilgu
+answer-questions-tip-4 = Izvairies no naidīgas, musinošas vai citādi aizskarošas runas
+answer-questions-tip-5 = Runā dabiski, kā ar draugu - izmanto savu īsto valodas variantu, dialektu un akcentu
+answer-questions-tip-6 = Noturi savu skaļumu vienmērīgu - nebļauj vai nedziedi
+transcribe-the-audio-subheader-1 = Vispārīgi norādījumi
+transcribe-the-audio-subheader-3 = Īpašas birkas
+transcribe-the-audio-subheader-1-explanation = Kopumā vajadzētu pierakstīt visu, ko dzirdi. Tas ietver:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Pareizi</correct>: Tas no šejienes ir simts kilometru attālumā
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Nepareizi</wrong>: Tas no šejienes ir 100 kilometru attālumā
+tags-table-header-1 = Birka
+tags-table-header-2 = Nozīme
+tags-laugh = Smiekli
+tags-disfluency = Neskaidra izruna
+tags-unclear = Neskaidri
+tags-noise = Troksnis
+tags-laugh-explanation = Smieklu skaņa.
+tags-unclear-explanation = Vārds vai vārdu virkne, ko nevar saprast.
+
+## Review the Transcription
+
+review-the-transcription-subheader = Vispārīgi norādījumi
+
+## Code-Switching
+
+adding-a-question = Jautājuma pievienošana
+# Adding a Question
+code-switching-adding-question-subheader = Kā veidot labu jautājumu?

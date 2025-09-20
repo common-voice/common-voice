@@ -83,6 +83,7 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 answer-questions = Atbildēt uz jautājumiem
 review-transcriptions = Pārskatiet transkripcijas
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
+review-questions = Pārskatīt jautājumus
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
 community-and-languages = Kopiena un valodas
