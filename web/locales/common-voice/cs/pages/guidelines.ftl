@@ -173,6 +173,8 @@ transcribe-the-audio-subheader-2-example-1-correct = <správně> Správně</spr�
 transcribe-the-audio-subheader-2-example-1-wrong = <špatně>Špatně</špatně>: Je to 100 kilometrů odsud.
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Špatně</wrong>: Bylo to zlevněno o 20 %.
 transcribe-the-audio-subheader-2-example-4-correct = <správně>Správně</správně>: Minulý čtvrtek je zatkla <podtrženo>FBI</podtrženo>.
+transcribe-the-audio-subheader-2-example-4-wrong = <špatně>Špatně</špatně>: Minulý čtvrtek je zatklo <podtrženo>eff bee eye</podtrženo>.
+transcribe-the-audio-subheader-3-explanation = Následující speciální značky by měly být použity k označení nesouvislostí, výplňových slov a dalších typů neverbálního obsahu (v angličtině).
 tags-table-header-1 = Značka
 tags-table-header-2 = Význam
 tags-laugh = Smích
@@ -184,6 +186,13 @@ tags-unclear-explanation = Slovo nebo sled slov, kterému nelze rozumět.
 tags-noise-explanation =
     Jakýkoli jiný typ hluku, například kašlání nebo odkašlávání řečníka,
     troubení auta, zvuk něčeho, co naráží do mikrofonu, bzučení telefonu atd.
+transcribe-the-audio-subheader-4-explanation-1-example = Jeho jméno je <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Někdy mluvčí opakují slovo nebo jeho část vícekrát. I to je třeba přepsat. Příklad:
+
+## Review the Transcription
+
+review-the-transcription = Kontrola přepisu
+review-the-transcription-subheader = Obecné pokyny
 
 ## Code-Switching
 
@@ -191,6 +200,11 @@ code-switching = Přepínání jazyků
 adding-a-question = Přidávání otázek
 # Adding a Question
 code-switching-adding-question-subheader = Co je dobrá otázka?
+code-switching-adding-question-explanation = Dobrá otázka pro datasety o zapojení veřejnosti by měla:
+code-switching-adding-question-criteria-1 = Být lehko pochopitelná a mělo by být jednoduché na ni reagovat
+code-switching-adding-question-criteria-2 = Být všeobecně relevantní
+code-switching-adding-question-criteria-3 = Nepoužívat nebo nevyžadovat škodlivé nebo urážlivé výrazy
+code-switching-adding-question-note = Můžete též zvážit použití různých kontextů a domén.
 # What types of questions to add
 code-switching-types-subheader = Jaké typy otázek přidat?
 code-switching-use-bilingual-prompts-header = Používejte dvojjazyčné výzvy
