@@ -176,6 +176,7 @@ tags-noise = Tyapu
 tags-laugh-explanation = Jepuka ryapu.
 tags-unclear-explanation = Ñe’ẽ térã ñe’ẽ juaju oñeikumbykuaa’ỹva.
 transcribe-the-audio-subheader-4-explanation-1-example = Ha’e héra <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2-example = Upéi ahákuri <underline>kotýpe</underline> upe jekehápe
 
 ## Review the Transcription
 
