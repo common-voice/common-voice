@@ -171,6 +171,8 @@ transcribe-the-audio-subheader-2-explanation-2 = Zkratky by se měly psát tak, 
 transcribe-the-audio-subheader-2-example-1-correct = <správně> Správně</správně>: Je to sto kilometrů odsud.
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <špatně>Špatně</špatně>: Je to 100 kilometrů odsud.
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Špatně</wrong>: Bylo to zlevněno o 20 %.
+transcribe-the-audio-subheader-2-example-4-correct = <správně>Správně</správně>: Minulý čtvrtek je zatkla <podtrženo>FBI</podtrženo>.
 tags-table-header-1 = Značka
 tags-table-header-2 = Význam
 tags-laugh = Smích
