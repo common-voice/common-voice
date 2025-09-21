@@ -156,6 +156,7 @@ leu = คารา
 lg = กันดา
 lij = ลีคูเลียน
 lke = เคนยี
+lld = ลาดิน
 ln = ลิงกาลา
 lo = ลาว
 lss = ลาสซี
@@ -368,3 +369,10 @@ languages-donate-banner-cta = <mark>ต้องการใช้ Common Voice<
 languages-donate-banner-cta-explanation = Common Voice ได้รับการสนับสนุนจากเงินบริจาคและทุนสนับสนุน! เรายินดีร่วมมือกับนักวิชาการ ภาคประชาสังคม และนักวิจัยในอุตสาหกรรม Common Voice นั้นใช้งานได้ฟรี แต่การมีส่วนร่วมสนับสนุนด้านแพลตฟอร์มและค่าใช้จ่ายในการโฮสต์ผ่านข้อเสนอขอทุนนั้นมีประโยชน์อย่างมาก
 localization-select =
     .label = เลือกภาษา/การแปลภาษา
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = เข้าร่วม Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = เปิดในแท็บใหม่
