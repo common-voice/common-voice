@@ -31,17 +31,21 @@
 
 ##### SS Data Changes in v1.152.0
 
-- N/A
-
 ---
 
 ### Changes merged after current release
 
+- Fix: For update query for user-variant is_preferred_option sometimes failing due to undefined/null values, by [@moz-bozden](https://github.com/moz-bozden) in [#5078](https://github.com/common-voice/common-voice/pull/5083) (in v1.152.1)
+
 #### Data Changes after current release
+
+- Changes to locale names for some languages in Pontoon propogated (`mve` -> Marwari, `sbn` -> Sindhi Bhil, `xhe` -> Khetrani)
 
 #### Spontaneous Speech after current release
 
 ##### SS Data Changes after current release
+
+- Add Thai (`th`) questions by [@bandrandr](https://github.com/bandrandr) in [#487](https://github.com/common-voice/spontaneous-speech/pull/487) (in v1.152.1)
 
 ---
 
