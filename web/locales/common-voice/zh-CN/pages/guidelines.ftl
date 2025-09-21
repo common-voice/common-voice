@@ -250,6 +250,7 @@ code-switching-answer-bullet-2 = 想象您正在给朋友发短信或者给某�
 code-switching-answer-bullet-3 = 使用您实际会使用的词语，即使是借用或混用
 code-switching-answer-bullet-4 = 没有“完美”的答案
 code-switching-authentic-header = 自然真实地回答
+code-switching-authentic-speak = <bold>说出您会如何与朋友和家人交流。</bold>如果您在现实生活中会混用不同语言，在这儿也这么干。例如：
 code-switching-tagging-error-intro = 如果转录文本中存在错误，请使用反馈功能进行标记。可能的错误包括：
 code-switching-tagging-error-1 = 标点符号不正确或大小写不正确
 code-switching-tagging-error-2 = 错别字

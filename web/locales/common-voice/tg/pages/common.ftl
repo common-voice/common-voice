@@ -384,3 +384,8 @@ donate-banner-cta-explanation = Нархи нигоҳ доштани маҷму�
 languages-donate-banner-cta = <mark>Барои таҳқиқоти худ аз</mark><br/><mark>«CV» истифода мебаред?</mark>
 localization-select =
     .label = Интихоби забон/маҳаллисозӣ
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Дар варақаи нав кушода мешавад

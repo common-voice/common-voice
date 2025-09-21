@@ -4,6 +4,9 @@ guidelines-header-subtitle = Izprotiet, kā pievienot un apstiprināt teikumus u
 voice-collection = Ierakstu vākšana
 sentence-collection = Teikumu kolekcija
 question-collection = Jautājumu kolekcija
+scripted-speech = Sagatavota runa
+spontaneous-speech = Nesagatavota runa
+dont-subheader = Nedarīt
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,223 @@ offensive-content-sensitive-information-explanation-explanation-3 = Jautājumi, 
 example-questions-subheader = Jautājumu piemēri
 example-questions-explanation-1 = Šajā lapā varat atrast <examplePromptsLink>120 jautājumu piemērus.</examplePromptsLink>
 example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kopu, to var <githubLink>izdarīt mūsu GitHub</githubLink> vai sūtot epastu uz <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Atbildēt uz jautājumiem
+answer-questions-subheader = Vispārīgi norādījumi
+answer-questions-explanation-1 = Padomājiet mirkli par uzdevumu, apsveriet, ko vēlaties pateikt, bet nepārspīlējiet ar scenāriju. Noklikšķiniet uz ikonas “ierakstīt”. Kad esat ierakstījis, varat sevi noklausīties, ierakstīt atkārtoti, dzēst vai iesniegt.
+answer-questions-explanation-2 = Atcerieties — neuztraucieties, ja stostāties, pārtraucat vai atkārtojat vārdu. Šie visi ir noderīgi dati inženieriem, kuri cenšas izveidot iekļaujošus, reālās pasaules runas atpazīšanas rīkus.
+answer-questions-tip-1 = Ieraksti pietiekami klusā vietā
+answer-questions-tip-2 = Izvēlies vietu ar labu interneta pieslēgumu
+answer-questions-tip-3b = Mēģini savu atbildi ierobežot 15-30 sekundes ilgu
+answer-questions-tip-4 = Izvairies no naidīgas, musinošas vai citādi aizskarošas runas
+answer-questions-tip-5 = Runā dabiski, kā ar draugu - izmanto savu īsto valodas variantu, dialektu un akcentu
+answer-questions-tip-6 = Noturi savu skaļumu vienmērīgu - nebļauj vai nedziedi
+# Transcribe the Audio
+transcribe-the-audio = Pārrakstīt audio
+transcribe-the-audio-subheader-1 = Vispārīgi norādījumi
+transcribe-the-audio-subheader-2 = Skaitļi un saīsinājumi
+transcribe-the-audio-subheader-3 = Īpašas birkas
+transcribe-the-audio-subheader-4 = Vārdu segmenti, kļūdaini sākti vārdi, atkārtoti vārdi
+transcribe-the-audio-subheader-5 = Gramatiskās kļūdas un sarunvalodas vārdi
+transcribe-the-audio-subheader-1-explanation = Kopumā vajadzētu pierakstīt visu, ko dzirdi. Tas ietver:
+transcribe-the-audio-subheader-1-explanation-example-1 = Sarežģītu vārdu, tostarp vilcināšanās un atkārtojumu, pierakstīšana
+transcribe-the-audio-subheader-1-explanation-example-2 = Trokšņu, piemēram, klepus vai smiešanās, marķēšana
+transcribe-the-audio-subheader-1-explanation-example-3 = Būtiska trokšņa piesārņojuma, piemēram, fona pļāpāšanas vai automašīnu signālu, marķēšana
+transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiskās variācijas un slengs jāreģistrē tieši tā, kā tie parādās. Nelabojiet un nerediģējiet cilvēku runu.
+transcribe-the-audio-subheader-2-explanation-1 = Skaitļi un simboli jāraksta vārdos, nevis izmantojot ciparus vai speciālās rakstzīmes. Piemērs:
+transcribe-the-audio-subheader-2-explanation-2 = Saīsinājumi jāraksta tā, kā tie parasti tiek rakstīti attiecīgajā valodā, ievērojot standarta lielo burtu lietošanas noteikumus. Tie nav jātranskribē fonētiski. Piemērs:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Pareizi</correct>: Tas no šejienes ir simts kilometru attālumā
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Nepareizi</wrong>: Tas no šejienes ir 100 kilometru attālumā
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Pareizi</correct>: Tiekamies pēc <underline>deviņiem trīsdesmit</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nepareizi</wrong>: Tiekamies <underline>2015. gadā</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Pareizi</correct>: Tā bija divdesmit procentu atlaide
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nepareizi</wrong>: Tam bija 20% atlaide
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Pareizi</correct>: Viņus pagājušajā ceturtdienā arestēja <underline>FIB</underline>.
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Nepareizi</wrong>: Viņus pagājušajā ceturtdienā arestēja <underline>ef bē ī</underline>.
+transcribe-the-audio-subheader-3-explanation = Lai atzīmētu saraustītu valodu, aizpildītājus un cita veida neverbālu saturu (angļu valodā), jāizmanto šādas īpašas atzīmes.
+tags-table-header-1 = Birka
+tags-table-header-2 = Nozīme
+tags-laugh = Smiekli
+tags-disfluency = Neskaidra izruna
+tags-unclear = Neskaidri
+tags-noise = Troksnis
+tags-laugh-explanation = Smieklu skaņa.
+tags-disfluency-explanation =
+    Aizpildvārds vai skaņa, ko lieto kā aizvietotāju, kamēr runātājs izlemj, ko teikt.
+    
+    Angļu valodā dažas izplatītas vilcināšanās skaņas ir “err”, “um”, “huh” utt.
+tags-unclear-explanation = Vārds vai vārdu virkne, ko nevar saprast.
+tags-noise-explanation = Jebkāds cits troksnis, piemēram, runātāja klepus vai kakla noklepošanās, automašīnas taurēšana, kaut kā sitiena skaņa pa mikrofonu, telefona dūkšana utt.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Un tad es [troksnis] devos atvaļinājumā.
+    
+    Nu, [troksnis] [smejas] tās nebija gluži atvaļinājums [smejas]
+transcribe-the-audio-subheader-4-explanation-1 = Spontānā runā dabiski ir sastopami nepareizi iesākti vārdi, kuros tiek radīts tikai pilna vārda fragments. Šādos gadījumos, lūdzu, pēc iespējas labāk pārrakstiet vārda fragmentu un vārda beigās pievienojiet defisi (-), lai norādītu, ka vārds ir nepareizi iesākts. Piemērs:
+transcribe-the-audio-subheader-4-explanation-1-example = Viņa vārds ir <underline>Džo- Džona-</underline> Džonatans.
+transcribe-the-audio-subheader-4-explanation-2 = Dažreiz runātāji atkārto vārdu vai vārda fragmentu vairākas reizes. Arī tas ir jātranskribē. Piemērs:
+transcribe-the-audio-subheader-4-explanation-2-example = Un tad es devos uz <underline>guļ-</underline> guļamistabu
+transcribe-the-audio-subheader-5-explanation-1 = Spontānā runā dabiski būs gramatiskas kļūdas. Tās nav jālabo transkripcijas laikā. Transkripcijai precīzi jāatspoguļo runātais saturs.
+transcribe-the-audio-subheader-5-explanation-2 = Runātāji var lietot sarunvalodas vārdus (piemēram, “forši”, “kūlīgi” utt.), kas var nebūt formāli pareizi. Tie jāpārraksta tādā veidā, kā tie ir, nevis jāmaina uz to formālākajiem ekvivalentiem.
+
+## Review the Transcription
+
+review-the-transcription = Pārskatiet transkripciju
+review-the-transcription-subheader = Vispārīgi norādījumi
+review-the-transcription-explanation-1 = Kopumā mēs iesakām, lai persona, kas pārbauda transkripciju, nebūtu tā pati persona, kas veica oriģinālo transkripciju. Ir ļoti grūti pašam pārbaudīt savu darbu! Vairāku recenzēšanas līniju esamība var palīdzēt uzlabot kvalitātes nodrošināšanu un mazināt aizspriedumus un problēmas.
+review-the-transcription-explanation-2 = Lai pārbaudītu transkripcijas precizitāti, pārskatiet iepriekš minētās transkripcijas vadlīnijas. Varat veikt labojumus un iesniegt tos.
+review-the-transcription-explanation-3 = Atkal jūs varat atzīmēt saturu, kas ir aizskarošs, kaitīgs vai citādi satraucošs, un tas tiks noņemts no jūsu pieredzes, līdz Common Voice komanda to pārskatīs un veiks tālāku izmeklēšanu.
+
+## Code-Switching
+
+code-switching = Koda pārslēgšana
+adding-a-question = Jautājuma pievienošana
+# Adding a Question
+code-switching-adding-question-subheader = Kā veidot labu jautājumu?
+code-switching-adding-question-explanation = Labs jautājums par sabiedrības līdzdalības datu kopām būtu:
+code-switching-adding-question-criteria-1 = Būt viegli saprotamam un atbildamam
+code-switching-adding-question-criteria-2 = Būt aktuālam jebkuram cilvēkam
+code-switching-adding-question-criteria-3 = Nelietot un nemudināt uz aizskarošu valodu
+code-switching-adding-question-note = Apsveriet vai jautājums varētu attiekties uz vairākiem kontekstiem vai jomām.
+# What types of questions to add
+code-switching-types-subheader = Kāda veida jautājumus pievienot?
+code-switching-use-bilingual-prompts-header = Izmantojiet divvalodu uzvednes
+code-switching-use-bilingual-prompts-explanation = Izmantojiet divvalodu uzdevumus, iekļaujot abas valodas savā jautājumā: Piemērs:
+code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá when you got home that day?”
+code-switching-ask-bilingual-contexts-header = Jautājiet par divvalodu kontekstiem
+code-switching-ask-bilingual-contexts-explanation = Izmantojiet situācijas, kurās bieži tiek lietotas abas valodas (piemēram, mājās, skolā, kopienas pasākumos). Piemērs:
+code-switching-ask-bilingual-contexts-explanation-example = "Kad jūs runājat ar saviem brālēniem un māsīcām, vai jūs jaucat spāņu un angļu valodu?"
+code-switching-focus-emotional-header = Koncentrējieties uz emocionāliem vai svarīgiem brīžiem
+code-switching-focus-emotional-explanation = Cilvēki bieži maina kodus, paužot emocijas vai steidzamību. Piemērs:
+code-switching-focus-emotional-explanation-example = "Pastāsti man, ko tavi vecāki teica, kad tu viņiem pastāstīji savu lielo jaunumu — tieši tā, kā viņi to teica."
+code-switching-direct-quotes-header = Pieprasiet tiešus citātus vai atkārtojumus
+code-switching-direct-quotes-explanation = Mudiniet dalībniekus atkārtot, kā lietas patiesībā tika pateiktas. Piemērs:
+code-switching-direct-quotes-explanation-example = "Kādi bija tavi precīzi vārdi, kad to uzzināji?"
+code-switching-cultural-topics-header = Izvēlieties kultūras ziņā specifiskas tēmas
+code-switching-cultural-topics-explanation = Ēdiens, tradīcijas, svētki un ģimenes dinamika bieži vien mudina mainīt kodus.
+code-switching-cultural-topics-explanation-example = "Kā jūs raksturojat Dia de los Muertos kādam, kurš runā tikai angliski?"
+code-switching-informal-scenarios-header = Izpētiet neformālus scenārijus
+code-switching-informal-scenarios-explanation = Sarunās ar draugiem vai īsziņu sūtīšanā bieži vien notiek dabiskāka pārslēgšanās. Piemērs:
+code-switching-informal-scenarios-explanation-example = "Kādu joku tavi draugi vienmēr izsaka — un kā viņi to saka?"
+# What to Avoid
+code-switching-avoid-subheader = No kā izvairīties
+code-switching-avoid-intro = Jautājumi, kas varētu:
+code-switching-avoid-1 = Pieprasīt personu identificējošu informāciju
+code-switching-avoid-2 = Izraisīt naida runu vai citus neobjektīvus vai aizskarošus uzskatus
+code-switching-avoid-3 = Likt kādam dalīties ar jutīgām, potenciāli izraisošām reakcijām
+code-switching-dont-header = Nedariet
+code-switching-dont-1 = Nelietojiet pārāk formālu valodu
+# Reviewing a Question
+code-switching-review-subheader = Jautājuma pārskatīšana
+code-switching-review-intro = Pārliecinieties, vai jautājums atbilst kritērijiem:
+code-switching-review-criterion-1 = Būt viegli saprotamam un atbildamam
+code-switching-review-criterion-2 = Būt aktuālam jebkuram cilvēkam
+code-switching-review-criterion-3 = Nelietot un nemudināt uz aizskarošu valodu
+code-switching-review-does-not-header = Un <bold>NEIETVER</bold>:
+code-switching-review-offensive-content = <bold>Aizskarošs saturs vai sensitīva informācija</bold>
+code-switching-answer-header = Aizvainojošs saturs vai sensitīva informācija
+code-switching-review-no-1 = Jautājumi, kas varētu izvilināt personu identificējošu informāciju
+code-switching-review-no-2 = Jautājumi, kas var mudināt uz naida runu vai citiem aizspriedumiem vai aizvainojošiem uzskatiem
+code-switching-review-no-3 = Jautājumi, kas kādam varētu likt izpaust sensitīvu informāciju vai aizkaitinošu atbildi
+# Answering a Question
+code-switching-answer-subheader = Uzdod uz jautājumu
+code-switching-answer-intro = Atbildot uz jautājumu, mērķis ir atbildēt dabiski — tāpat kā reālās dzīves sarunā. Mēs vēlamies aptvert, kā valodas faktiski sajaucas ikdienas runā.
+code-switching-answer-bullet-1 = Padomājiet par reālās dzīves mirkļiem vai situācijām: jokiem, strīdiem, tradīcijām
+code-switching-answer-bullet-2 = Iedomājieties, ka rakstāt īsziņu draugam vai stāstāt kādam stāstu.
+code-switching-answer-bullet-3 = Izmantojiet vārdus, kurus jūs faktiski lietotu, pat ja tie ir aizgūti vai jaukti
+code-switching-answer-bullet-4 = Nav viena “ideāla” veida, kā atbildēt
+code-switching-authentic-header = Atbildiet dabiski un autentiski
+code-switching-authentic-speak = <bold>Runājiet tā, kā jūs runātu ar draugiem vai ģimeni.</bold> Ja reālajā dzīvē jaucat valodas, dariet to pašu šeit. Piemērs:
+code-switching-authentic-speak-example = "Es viņai teicu, ka nevaru iet, bet viņa atbildēja: "Labāk nāc!""
+code-switching-use-both-languages = <bold>Izmantojiet abas valodas, ja jūs to parasti tā teiktu.</bold> Pat tikai viena vai divu vārdu maiņa ir noderīga. Piemērs:
+code-switching-use-both-languages-example = "Viņa ļoti sadusmojās, potomu što es viņai neatzvanīju."
+code-switching-authentic-direct-quotes = <bold>Iekļaujiet tiešus citātus vai dialogu.</bold> Sakiet tieši to, ko kāds teica, nevis sakoptu vai formālu versiju. Piemērs:
+code-switching-authentic-direct-quotes-example = “Mamma teica: ‘Tu ko?’ un es tādā nu čiliņā atbildēju lai ‘Kamon, nestreso’”
+code-switching-authentic-reflect = <bold>Atspoguļojiet emocijas, identitāti un kontekstu.</bold> Pārslēgšanās parasti notiek, kad cilvēki pauž emocijas, steidzamību vai kultūras idejas. Atbildot uz jautājumiem, ņemiet vērā šos aspektus.
+code-switching-authentic-full-context = <bold>Izmantojiet pilnīgas atbildes ar kontekstu.</bold> Esiet pēc iespējas detalizētāka, sniedzot pēc iespējas vairāk detaļu. Savās atbildēs dalieties ar stāstu vai piemēru.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nepārdomājiet un nepārrediģējiet
+code-switching-answer-dont-correct-language = <bold>“Izlabojiet” savu valodu.</bold> Šis nav tests. Šeit nav svarīga “pareiza” forma, svarīga ir dabiskā valoda.
+code-switching-answer-dont-avoid-switching = <bold>Izvairieties no vārdu maiņas, ja parasti to darāt.</bold> Ir pilnīgi pareizi mainīt vārdus teikuma vidū, domas vidū vai tikai viena vārda ietvaros.
+code-switching-answer-dont-formal-writing = <bold>Runājiet tā, it kā rakstītu formāli.</bold> Izvairieties no formālām, akadēmiskām atbildēm. Saglabājiet sarunvalodas stilu.
+code-switching-answer-dont-force-switch = <bold>Piespiedu kārtā pārslēdzieties, ja tas nav dabiski.</bold> Pārslēdzieties tikai tad, ja šādā situācijā jūs tā runātu dabiski.
+code-switching-answer-dont-translate-repeat = <bold>Tulkot vai atkārtot visu.</bold> Vienkārši pasakiet to vienreiz, tā, kā tas skanētu sarunā. Jums nav jāatkārto atbildes versija katrā valodā.
+# Transcribing
+code-switching-transcribe-subheader = Transkribēšana
+code-switching-transcribe-intro = Transkribējot atbildes, kurās iekļauta kodu maiņa, attēlojiet runātāja valodu tā, kā tā tika runāta — bez labojumiem, rediģēšanas vai vienkāršošanas. Tas attiecas uz visām valodu maiņām, neformālu runu un jauktu valodu vārdiem.
+code-switching-transcribe-do-1 = Atskaņojiet īsus segmentus vairākas reizes, lai uztvertu runas ninases
+code-switching-transcribe-do-2 = Pēc katra teikuma ieturiet pauzi, lai vēlreiz pārbaudītu, vai nav vārdu salikumu vai jauktu vārdu.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Pierakstiet runu precīzi tā, kā tā tiek runāta
+code-switching-capture-explanation = Transkribējiet abas valodas tā, kā tās parādās/izklausās. Nelabojiet valodu un nemainiet to tikai vienā valodā.
+# Include filler words and markers
+code-switching-filler-header = Iekļaujiet aizpildošos vārdus un marķierus
+code-switching-filler-explanation = Tādi vārdi kā “ē”, “nu”, “ā” vai “ziniet” ir nozīmīgi. Piemērs: “Tātad, ē, es viņai teicu: “nu varbūt vēlāk.””
+# Use standard spelling for each language
+code-switching-spelling-header = Izmantojiet katras valodas standarta pareizrakstību
+code-switching-spelling-explanation = Centieties pareizi uzrakstīt vārdus katrā valodā, ja vien runātājs tos neizrunā skaidri un nestandarta veidā.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nevajag sakopt vai vienkāršot valodu
+code-switching-cleanup-1 = Tulkojiet vai pārfrāzējiet – rakstiet to, ko runātājs teica, nevis to, ko viņš "domāja".
+code-switching-cleanup-2 = “Pareiza” gramatika vai izruna — saglabājiet runātāja dabisko lietojumu.
+code-switching-cleanup-3 = Izlaidiet sīkumus, kas šķiet mazsvarīgi vai mazsvarīgi — pat aizgūtiem vārdiem ir nozīme.
+code-switching-cleanup-4 = Ievietojiet pieturzīmes, kas varētu mainīt nozīmi, — saglabājiet dabisku plūdumu.
+code-switching-cleanup-5 = Pieņemsim, ka jūs zināt katra vārda valodu – atzīmējiet atbilstoši lietojumam.
+# Tagging
+code-switching-tagging-subheader = Atzīmēšana
+code-switching-tagging-error-intro = Ja transkripcijā ir kļūda, lūdzu, izmantojiet ziņošanas funkciju, lai to atzīmētu. Iespējamās kļūdas ir šādas:
+code-switching-tagging-error-1 = Nepareiza pieturzīmju vai lielo burtu lietošana
+code-switching-tagging-error-2 = Drukas kļūdas
+code-switching-tagging-error-3 = Vārdi, kas uzrakstīti nepareizā ortogrāfijā
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Pareizas ortogrāfijas izmantošana katrā valodā
+code-switching-orthography-explanation = Uzrakstiet katru vārdu atbilstoši valodas, no kuras tas cēlies, pareizrakstībai. Piemēram:
+code-switching-orthography-explanation-example-1 = Ja vārds “kitchen” (virtuve) tiek izrunāts kā spāņu valodā, tas jāraksta kā angļu valodā, nevis kā “quichen”.
+code-switching-orthography-explanation-example-2 = Ja vārds "quinceaños" tiek izrunāts kā angļu valodā, rakstiet to ar "ñ".
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Izmantojiet izrunu, lai palīdzētu noteikt valodu
+code-switching-pronunciation-explanation = Daži vārdi abās valodās var izskatīties vienādi, bet tos var izrunāt atšķirīgi. Ieklausieties izrunā, lai palīdzētu pareizi atzīmēt. Piemēram: kabelis, tako, aktieris, detektīvs.
+code-switching-pronunciation-explanation-example-1 = Angļu: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spāņu: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Atzīmēšana vienā marķierī
+code-switching-single-token-explanation = Vienam ar atstarpi atdalītam marķierim jāsatur vairāk nekā viens atzīmēts posms.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Atzīmējiet pieturzīmes, balstoties uz valodu ap tām
+code-switching-punctuation-tagging-explanation = Atzīmējiet pieturzīmes, izmantojot valodas diapazonu, kas ir tuvākais pa kreisi. Piemēri:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>un vienīgo reizi, kad</purple> Marija <purple>uz mani kliedza,</purple> <blue>tika</blue> <purple>mēģināta</purple> izdrukāt <blue>nevienu</blue> <purple>pasūtījumu.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>bet</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>viss.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Esiet uzmanīgi ar līdziniekiem
+code-switching-lookalikes-explanation = Daži vārdi var izskatīties līdzīgi kā vienā valodā, bet tiek lietoti citā. Atzīmējiet, pamatojoties uz nozīmi un lietojumu, nevis izskatu. Piemēri:
+code-switching-lookalikes-explanation-example-1 = “Footing” spāņu valodā agrāk nozīmēja skriešanu > atzīmēt kā spāņu
+code-switching-lookalikes-explanation-example-2 = “No problemo” lietots angļu valodā > atzīmēt kā angļu valodu
+# When Not to Tag Words
+code-switching-not-tag-header = Kad vārdus nevajag atzīmēt
+code-switching-not-tag-explanation = Dažus vārdus <bold>nevajadzētu atzīmēt</bold> ar valodas etiķeti, pat ja tie šķiet jaukti vai pielāgoti. Lūk, kā rīkoties dažos piemēros:
+code-switching-not-tag-proper-names = <bold>Īpašvārdi.</bold> Cilvēku, vietu un organizāciju nosaukumiem nevajadzētu pievienot atzīmes. Piemēri:
+code-switching-not-tag-proper-names-example-1 = Cilvēki: Marija, Jānis
+code-switching-not-tag-proper-names-example-2 = Vietas: Losandželosa, Florida
+code-switching-not-tag-proper-names-example-3 = Zīmoli/organizācijas: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Jaukti vai morfoloģiski pielāgoti vārdi.</bold> Neatzīmējiet vārdus, kas sajauc valodas vai kuriem ir pievienotas galotnes no citas valodas. Piemēri:
+code-switching-not-tag-mixed-words-example = Ja sakne ir angļu, bet sufikss ir spāņu: “parkear”, “printearlo”
+code-switching-not-tag-interjections = <bold>Iestarpinājumi.</bold> Iestarpinājumi un aizpildošie vārdi neatkarīgi no valodas jāpaliek <bold>neatzīmētiem</bold>. Piemēri:
+code-switching-not-tag-interjections-example-1 = "Ē"
+code-switching-not-tag-interjections-example-2 = "Nē"
+code-switching-not-tag-interjections-example-3 = "Jā"
+code-switching-not-tag-interjections-example-4 = "Ēē"
+
+## Reporting Content
+
+reporting-content = Ziņošana par saturu
+reporting-content-subheader = Vispārīgi norādījumi
+reporting-content-explanation-1 = Jums jāatzīmē saturs, kas ir aizskarošs, kaitīgs vai citādi satraucošs. Tajā nedrīkst būt iekļauta arī personu identificējoša informācija, piemēram, tālruņu numuri vai adreses. Tas tiks noņemts no jūsu pieredzes, līdz Common Voice komanda to pārskatīs un veiks tālāku izmeklēšanu.
+reporting-content-explanation-2 = Lai ziņotu par saturu, atlasiet pogu “Ziņot” un izvēlieties vienu vai visas opcijas: Aizskarošs saturs, Atšķirīga valoda, Personu identificējoša informācija, Cits. Šeit teksta apgabalā sniedziet sīkāku informāciju par to, kāpēc ziņojat par saturu. Pēc tam iesniedziet ziņojumu, noklikšķinot uz pogas “Ziņot”.

@@ -7,6 +7,7 @@ adding-sentences-subheader-length-explanation = Zdanie powinno zawierać mniej n
 
 ## Question collection sidebar content
 
+length = Długość
 example-questions-subheader = Przykładowe pytania
 
 ## Code-Switching

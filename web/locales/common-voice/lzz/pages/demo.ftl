@@ -1,5 +1,6 @@
 ## DemoLayout
 
+demo-get-started = Hayde kogeboç̌ǩat (kocevoç̌at)
 demo-welcome = Common Voice'şa ǩaite moxtit
 
 ## Demo Datasets

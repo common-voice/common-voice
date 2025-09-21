@@ -169,15 +169,15 @@ transcribe-the-audio-subheader-1-explanation-example-4 = Transcribir exactamente
 transcribe-the-audio-subheader-2-explanation-1 = Os números e os símbolos deben transcribirse en palabras en lugar de empregar cifras ou caracteres especiais. Exemplo:
 transcribe-the-audio-subheader-2-explanation-2 = Os acrónimos deben escribirse tal e como aparecen habitualmente na lingua, respectando as regras estándar de uso de maiúsculas e minúsculas. Non se deben transcribir foneticamente. Exemplo:
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = <correcto> Correcto</correcto>: Está a cen quilómetros de aquí.
+transcribe-the-audio-subheader-2-example-1-correct = <correcto> Correcto</correcto>: Está a <underline>cen quilómetros</underline> de aquí.
 # text wrapped in wrong will be shown as red text in the UI
-transcribe-the-audio-subheader-2-example-1-wrong = <incorrecto> Incorrecto </incorrecto>: Está a 100 quilómetros de aquí.
+transcribe-the-audio-subheader-2-example-1-wrong = <incorrecto> Incorrecto </incorrecto>: Está a <underline>100 quilómetros</underline> de aquí.
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-correct = <correcto> Correcto</correcto>: Vémonos no  <underline>dous mil quince</underline>
+transcribe-the-audio-subheader-2-example-2-correct = <correcto> Correcto</correcto>: Vémonos no  <underline>dous mil quince</underline>.
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto>: Vémonos no <underline>2015</underline>
-transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do vinte por cento.
-transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do 20%.
+transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto>: Vémonos no <underline>2015</underline>.
+transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do <underline>vinte por cento</underline>.
+transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do <underline>20%</underline>.
 transcribe-the-audio-subheader-2-example-4-correct = <correcto>Correcto</correcto>: É xornalista na <underline>RTVG </underline>
 transcribe-the-audio-subheader-2-example-4-wrong = <incorrecto>Incorrecto</incorrecto>: É xornalista na <underline> erre te uve gá </underline>
 transcribe-the-audio-subheader-3-explanation = As seguintes etiquetas especiais deben empregarse para marcar contidos non verbais que forma parte dos discursos orais.
@@ -190,6 +190,10 @@ tags-noise = Ruído
 tags-laugh-explanation = O son da risa.
 tags-unclear-explanation = Unha palabra ou unha secuencia que non se entende con claridade.
 tags-noise-explanation = Calquera outro tipo de ruído, como a tose do falante, a bucina dun coche, o son de algo golpeando o micrófono, un teléfono vibrando, etc.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    E entón [ruído] fun de vacacións.
+    Ben, [ruído] [risa] non foron precisamente vacacións [risa]
 transcribe-the-audio-subheader-4-explanation-1 = A fala espontánea contén, de xeito natural, falsos comezos nos que só se reproduce un fragmento dunha palabra completa. Nestes casos, debe transcribir a parte pronunciada da palabra e engadir un guión ao final do fragmento que se repite (-) para indicar que se trata dun falso comezo. Exemplo:
 transcribe-the-audio-subheader-4-explanation-1-example = Chámanlle <underline>Xo- Xoán-</underline> Xoanciño.
 transcribe-the-audio-subheader-4-explanation-2 = En ocasións, os falantes repiten varias veces unha palabra ou un fragmento. Isto tamén se debe transcribir. Exemplo:
@@ -201,9 +205,9 @@ transcribe-the-audio-subheader-5-explanation-2 = Os falantes poden empregar tam�
 
 review-the-transcription = Revisar a transcrición
 review-the-transcription-subheader = Orientacións xerais
-review-the-transcription-explanation-1 = Polo xeral, aconséllase que a persoa que revise a transcrición non sexa a mesma que fixo a transcrición orixinal. É moi difícil revisar o traballo propio! Ter varias liñas de revisión pode axudar a que  o control de calidade sexa máis sólido e a mitigar problemas.
+review-the-transcription-explanation-1 = Polo xeral, aconséllase que a persoa que revise a transcrición non sexa a mesma que fixo a transcrición orixinal. É moi difícil revisar o traballo propio! Ter varias persoas revisando pode axudar a que o control de calidade sexa máis sólido e a mitigar problemas.
 review-the-transcription-explanation-2 = Revise as directrices de transcrición anteriores para comprobar a súa precisión. Pode realizar modificacións e envialas.
-review-the-transcription-explanation-3 = Ademais, pode sinalar contido ofensivo ou prexudicial, e eliminarase da experiencia dos usuarios ata que o equipo de Common Voice poida revisalo detidamente.
+review-the-transcription-explanation-3 = Ademais, pode sinalar contido ofensivo ou prexudicial, e este non volverá aparecerlle ata que o equipo de Common Voice poida revisalo detidamente.
 
 ## Code-Switching
 
@@ -259,7 +263,7 @@ code-switching-answer-dont-force-switch = <bold>Force o cambio se non é natural
 code-switching-answer-dont-translate-repeat = <bold>Traduza ou repite todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
 # Transcribing
 code-switching-transcribe-subheader = Transcribir
-code-switching-transcribe-intro = Ao transcribir as respostas que inclúen alternancias de código, represente o idioma do falante tal e como se pronunciou - sen corrixir, editar ou simplificar. Isto aplica a todos os cambios entre linguas, á fala informal, aos castelanismos, etc.
+code-switching-transcribe-intro = Ao transcribir as respostas que inclúen alternancias de código, represente o idioma do falante tal e como se pronunciou - sen corrixir, editar ou simplificar. Isto aplica a todos os cambios entre linguas, á fala informal, aos castelanismos etc.
 code-switching-transcribe-do-1 = Reproduza segmentos curtos varias veces para detectar cambios sutís.
 code-switching-transcribe-do-2 = Faga pausas despois de cada oración para verificar se hai cambios ou palabras mesturadas.
 # Capture Speech Exactly as Spoken

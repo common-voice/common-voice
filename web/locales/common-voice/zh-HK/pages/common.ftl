@@ -4,6 +4,7 @@
 
 ## Languages
 
+aat = 阿爾瓦尼蒂卡
 ab = 阿布哈茲文
 ace = 亞齊文
 ady = 阿第蓋文
@@ -212,5 +213,7 @@ not-available-abbreviation = 唔適用
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>我哋需要</mark><br/><mark>你幫手！</mark>
 localization-select =
     .label = 選擇語言/地區

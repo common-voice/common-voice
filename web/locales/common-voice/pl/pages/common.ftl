@@ -292,6 +292,12 @@ email-opt-in-info-sub-with-challenge = Otrzymuj wiadomości e-mail, takie jak pr
 email-opt-in-privacy-v2 = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink>.
 indicates-required = * wskazuje pole obowiązkowe
 not-available-abbreviation = Niedostępne
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopiuj
+# Text shown on a button that can be clicked to cancel an action
+cancel = Anuluj
+# Text shown on a button that can be clicked to delete an item
+delete = Usuń
 
 ## Donate banner
 
@@ -299,3 +305,8 @@ not-available-abbreviation = Niedostępne
 donate-banner-cta = <mark>Potrzebujemy</mark><br/><mark>Twojej pomocy!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Roczny koszt przechowywania zestawów danych i ulepszania platformy dla ponad 100 społeczności językowych, które polegają na naszej działalności, wynosi prawie milion dolarów. <strong>Jeśli cenisz otwarte, inkluzywne dane – przekaż darowiznę już dziś!</strong>
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Otwiera w nowej karcie

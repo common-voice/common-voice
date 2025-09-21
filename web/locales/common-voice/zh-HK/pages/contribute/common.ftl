@@ -24,6 +24,13 @@ target-segment-generic-card = 你現正貢獻緊畀一個目標群體分項
 target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一個目標群體分項
 target-segment-add-voice = 添加您的聲音
 target-segment-learn-more = 瞭解更多
+change-preferences = 修改偏好設定
+login-signup = 登入 / 註冊
+datasets = 數據集
+languages = 所有語言
+about = 關於我哋
+partner = 合作夥伴
+submit-form-action = 提交
 
 ## Reporting
 

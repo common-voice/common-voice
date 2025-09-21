@@ -77,6 +77,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = 網站本地化點樣做㗎？
 about-playbook-how-localize-content-1 = Common Voice 網站嘅翻譯喺 <strong>Pontoon</strong> 平台上面進行。
+about-playbook-how-localize-content-4 = 網站完成度達到75%時，即可準備上線。
 
 ## How to add sentences
 

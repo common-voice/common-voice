@@ -154,6 +154,7 @@ transcribe-the-audio-subheader-4 = Ñe’ẽ vore, eñepyrũ japúpe, ñe’ẽ 
 transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
 transcribe-the-audio-subheader-1-explanation = Tuichaháicha, ehaivaʼerã opaite ehendúva guive. Péva ogueroike:
 transcribe-the-audio-subheader-1-explanation-example-2 = Embohéra umi tyapu oikóva ikatúva hu’u térã jepuka
+transcribe-the-audio-subheader-1-explanation-example-3 = Embohéra ipu hatãitereígui, tyapu oñehendúva tugua gotyo térã kamiõ vosína
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
 # text wrapped in wrong will be shown as red text in the UI
@@ -164,6 +165,8 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Oiko</correct>: J
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Oiko’ỹva</wrong>: Jajuecháta <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Oiko</correct>: Areko mokõipa savore hepykue guejýva
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Oiko’ỹva</wrong>: Areko mokõipa savore hepykue guejýva
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Oĩporã</correct>: Ojagarra chupekuéra FBI pe arapo ohasaramóvape.
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Noĩporãi</wrong>: Ojejagarrapa <underline>eff bee eye</underline> pe arapo ohasaramóvape.
 tags-table-header-1 = Teramoĩ
 tags-table-header-2 = He’iséva
 tags-laugh = Puka
@@ -189,16 +192,20 @@ code-switching-adding-question-explanation = Porandu iporãva mba’ekuaarãme g
 code-switching-adding-question-criteria-1 = Ndahasýi iñeikumby ha iñembohovái
 code-switching-adding-question-criteria-2 = Hetave jey hekoporãva’erã
 code-switching-adding-question-criteria-3 = Aníke eiporu térã ejerure ñe’ẽ vai térã imarãva.
+code-switching-adding-question-note = Ikatuete ejagarrasehína ojehecháva jeregua ha tendatee rehe.
 # What types of questions to add
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
 code-switching-use-bilingual-prompts-explanation-example = “¿Mbaʼe heʼi nde sy eg̃uahẽvo nde rógape upe árape?”
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi ne prímo ndive, ¿embojehe’a español ha inglés?”
 code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
+code-switching-focus-emotional-explanation = Tapichakuéra omoabue jepi ayvu he’ívo oñandu térã oikotevẽva. Techapyrã:
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
 code-switching-cultural-topics-header = Eiporavo umi téma arandupyetéva
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
+code-switching-informal-scenarios-explanation-example = “Mba’e pukarãpa omombe’újepi ne angirũnguéra — mba’éichapa he’i?”
 # What to Avoid
 code-switching-avoid-subheader = Mba’éicha emboykéta
 code-switching-avoid-intro = Porandu ikatúva:
@@ -234,6 +241,9 @@ code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
 code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 # Use standard spelling for each language
 code-switching-spelling-header = Eiporu haikatuete peteĩteĩva ñe’ẽme g̃uarã.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Aníke emopotĩ térã emombyky pe ñe’ẽkuaa
+code-switching-cleanup-5 = Eimo’ã eikuaaha ñe’ẽ peteĩteĩva rehegua: embohéra ijeporu rupi.
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
 code-switching-tagging-error-1 = Ñemokyta térã taiguasu hendape’ỹva
@@ -241,12 +251,15 @@ code-switching-tagging-error-2 = Jejavy taiguáva
 code-switching-tagging-error-3 = Ñe’ẽ ojehaíva haikatu hendape’ỹva reheve
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Oiporúva hekópe haikatu peteĩteĩva ñe’ẽme
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Eiporu ñe’ẽpu eipytyvõkuaa hag̃ua ñe’ẽ jeporavorã
 code-switching-pronunciation-explanation-example-1 = Inglés: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = España ñe’ẽ: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Peteĩ token-pe oñembohérava
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva ñe’ẽ aguĩvare
+code-switching-punctuation-tagging-explanation = Emokyta ñe’ẽ ipa’ũva oĩva ijyketére asu gotyogua ndive. Techapyrã:
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Eñangareko umi ojoguávare
 code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojeporúva inglés ñe’ẽme > embohéra inglés ramo
@@ -254,6 +267,7 @@ code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojep
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
 code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan
 code-switching-not-tag-proper-names-example-2 = Tendakuéra: Los Ángeles, Florida
+code-switching-not-tag-proper-names-example-3 = Márka/Tendaguasu:  Target, Burger King
 code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “Naháriri”
 code-switching-not-tag-interjections-example-3 = “Héẽ”

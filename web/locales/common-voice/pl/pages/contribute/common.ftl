@@ -32,6 +32,7 @@ vote-no = Nie
 datasets = Zbiory danych
 languages = Języki
 about = Informacje
+submit-form-action = Wyślij
 
 ## Reporting
 
@@ -89,6 +90,7 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Kryteria
 contribution-volume-title = Głośność
 contribution-volume-description = Między lektorami występują naturalne różnice w poziomie głośności. Odrzuć nagranie tylko jeśli poziom głośności jest tak wysoki, że przerywa nagranie albo (co częstsze) jeśli jest tak niski, że nie słyszysz, co jest mówione bez odnoszenia się do tekstu.
 contribution-reader-effects-title = Efekty lektora
