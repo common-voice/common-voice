@@ -210,6 +210,7 @@ code-switching-informal-scenarios-explanation-example = “Mba’e pukarãpa omo
 code-switching-avoid-subheader = Mba’éicha emboykéta
 code-switching-avoid-intro = Porandu ikatúva:
 code-switching-avoid-1 = Ejerure marandu tapicha mba’eteéva rehegua
+code-switching-avoid-2 = Ojejerure je’epy py’aróva térã ambue mba’e ñaña térã oporoko’õva.
 code-switching-dont-header = Nahániri
 code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
 # Reviewing a Question
@@ -226,10 +227,12 @@ code-switching-review-no-2 = Porandu ikatúva omongu’e je’epy ja’e’ỹ t
 code-switching-review-no-3 = Porandu ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
 # Answering a Question
 code-switching-answer-subheader = Embohovaihína Porandu
+code-switching-answer-bullet-1 = Añepy’amongeta oikóva añetehápe rehe: pukarã, ñomongeta, jepokuaa.
 code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emombeʼuha tembiasakue nde rapichápe
 code-switching-answer-bullet-3 = Eiporu ñe’ẽ añetehápe eiporútava, taha’e porupy térã ojehe’áva
 code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
 code-switching-authentic-header = Embohovái porã ha ha’etéva
+code-switching-authentic-speak-example = “Upévare ha’e chupe ndahamo’ãiha, ha he’i chéve: ‘¡Iporãvéta rehórõ!’”.
 code-switching-use-both-languages-example = “Ipochyeterei nahenoijey haguére chupe”.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
