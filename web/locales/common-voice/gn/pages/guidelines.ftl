@@ -230,6 +230,7 @@ code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emomb
 code-switching-answer-bullet-3 = Eiporu ñe’ẽ añetehápe eiporútava, taha’e porupy térã ojehe’áva
 code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
 code-switching-authentic-header = Embohovái porã ha ha’etéva
+code-switching-use-both-languages-example = “Ipochyeterei nahenoijey haguére chupe”.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
 # Transcribing
