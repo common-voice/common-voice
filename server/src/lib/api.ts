@@ -392,11 +392,9 @@ export default class API {
     if (!client_id || !languages || languages.length === 0) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    response
-      .status(StatusCodes.CREATED)
-      .json(
-        await UserClient.saveAnonymousAccountLanguages(client_id, languages)
-      )
+    response.status(StatusCodes.CREATED).json(
+      await UserClient.saveAnonymousAccountLanguages(client_id, languages)
+    )
   }
 
   saveAccount = async (request: Request, response: Response) => {
@@ -415,13 +413,12 @@ export default class API {
     if (user) {
       userData = await UserClient.findAccount(user.email)
     }
-
+    const userData = (await UserClient.findAccount(user.email)) || null
     if (userData !== null && userData.avatar_clip_url !== null) {
       userData.avatar_clip_url = await this.bucket.getAvatarClipsUrl(
         userData.avatar_clip_url
       )
     }
-
     response.json(user ? userData : null)
   }
 
