@@ -93,10 +93,14 @@ about-playbook-how-add-sentences-content-3 = Vikipedis na ren mǩule cumlepe oxm
 about-playbook-how-record-quality = Mağali ǩalitete ar xoma ǩlibi muç̌o dolovoç̌arare?
 about-playbook-how-record-content-1 = Normali nena tkvanite isinapit! Ǩat̆a ç̌eşit̆i osinapu momarç̌ilenan. Aksani tkvani muç̌o na ren ognapu bgorumt (minonan). P̌andaneri xoma seviye, tarzi do toni tkvanite isinapit.
 about-playbook-how-record-content-2 = Curultişa mendra dogutit. Nena tkvani ǩolai diguras (ignas).
+about-playbook-how-record-content-3 = Cumle iǩit̆xamt̆atşa fikiri meçit (dikatli goliyonit). Zit̆apes mot moyoǩap̌amt, mot gokturamt do zit̆a mo eǩudumt.
+about-playbook-how-record-content-4 = İsinapamt̆atşa doliç̌aren-i otzǩedit. Osinapu tkvani iç̌odasi doloç̌aru kododgitinit.
+about-playbook-how-record-content-5 = <accuracyLink>Tzorinobaşi mezumape şeni daha dido digurit.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Vikipedis na ren cumlepe şeni <scraperLink>Cumle mxenu</scraperLink>oxmarit.
+about-playbook-how-grow-language-content-1 = Common Voices konuşvelat-na daha dido ǩoçis apelasen. İris na axmarasere steri cireǩepe do tablope itzopxasen.
 about-playbook-how-grow-language-content-2 = Vaǩape
 about-playbook-how-grow-language-content-4 = Sosyaluri Medya
 about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
