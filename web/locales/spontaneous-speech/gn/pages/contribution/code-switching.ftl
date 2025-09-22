@@ -13,3 +13,4 @@ cs-tag-dataset-name = Mba’ekuaarã aty: { $datasetName }
 ## Guidelines
 
 learn-how-to-use = Mba’éicha eiporukuaáta ko kuatiarogue
+read-full-guidelines-here = <guidanceLink>Emoñe’ẽ jeguatarã ko’ápe</guidanceLink>
