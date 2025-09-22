@@ -34,18 +34,31 @@ bce = Mengambo
 bci = Baoule
 be = Belarusuri
 beb = Bamvele
+bew = Betawi
 bfd = Bafut
+bft = Balti
 bg = Bulgaruri
+bgp = Eastern Balochi
+bkh = Bakoko
 bkm = Kom
 bm = Bambaruri
 bn = Bengaluri
+bnm = Batanga
+bnn = Bunun
 bo = Tibet̆uri
 br = Bretonuri
+brh = Brahui
+bri = Mokpwe
+brx = Bodo
 bs = Bosnanuri
+bsh = Kateviri
+bsk = Brushaski
+bum = Bulu
 bxr = Buryaturi
 byv = Medumburi
 ca = Katalanuri
 cak = Kakçikeluri
+cdo = Eastern Min
 ckb = Şkaguri Kyurduri
 cnh = Haxa Çinuri
 co = Korsikanuri
@@ -55,6 +68,7 @@ cv = Çuvaşuri
 cy = Galuri
 da = Danişuri
 dag = Dağbanuri
+dar = Dargwa
 de = Alamanuri
 dsb = Tzaleni Sorbinuri
 dv = Divexuri
@@ -156,6 +170,7 @@ os = Oset̆uri
 pa-IN = Pencap̌uri
 pap-AW = Papiamenturi (Aruburi)
 pl = Lexuri
+prq = Asheninka Perene
 ps = Paşturi
 pt = Porteǩizuri
 quc = Kiçuri
@@ -217,6 +232,7 @@ vot = Votiǩuri
 wep = Xosauri
 wo = Volofuri
 xh = Xosauri
+xmf = Mergeluri
 yi = Çifut̆uri
 yo = Yoruburi
 yue = Kantonesuri
@@ -258,8 +274,21 @@ email-opt-in-info-sub-with-challenge = Common Voiceşi omondunu do noğire goşi
 email-opt-in-privacy-v2 = E-post̆ape ǩebuli doyat-na Mozillaşi ham çkinapape na tku steri oxmaru-muşis izini na meçameri iyet <privacyLink>Privacy Policy</privacyLink>.
 indicates-required = Ar murutsxite (*) meğareri svalepe opşalu diç̌irs.
 not-available-abbreviation = H/V
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopya doyi
+# Text shown on a button that can be clicked to cancel an action
+cancel = Ok̆oxvi
+# Text shown on a button that can be clicked to delete an item
+delete = Gejili/ Ceşiri
 
 ## Donate banner
 
 localization-select =
     .label = Nena/ svamuşi goşuğit
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla Data Collective's naǩatit
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Ağani tabi gontzit

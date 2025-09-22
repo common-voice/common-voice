@@ -53,8 +53,12 @@ dataset-version = Versioni
 sha256-checksum-copied = SHA256 Checksum ǩop̌ya dixenu!
 sha256-checksum-copied-error = SHA256 Checksum ǩop̌ya var ixenu!
 clipboard-not-supported = Panok var numxacams
+no-information-available = Çkinapa  ren
+dataset-metadata-sex = Seksi
 # dataset metadata - age of contributor
 dataset-metadata-age = Tzana
+donate-modal-message = Dataseti tkvani gyulun (culun)
+dataset-donate-modal-heading = Giçkit̆es-i...
 data-download-singleword-title = Ar Zit̆a Noğire Boligina Kogeiğit
 data-download-button = Common Voiceşi Datape kogeiğit
 data-download-yes = Ho
@@ -73,3 +77,5 @@ release-version = Versioni
 dataset-date = Tarixi
 license = Lisansi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Oǩont̆aleri
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Xomaşi dataseti çkunis geiğit (ciğit)

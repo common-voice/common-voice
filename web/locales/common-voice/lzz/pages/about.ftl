@@ -106,6 +106,8 @@ about-playbook-how-grow-language-content-3 = Ǩoçepeşi meşvelu şeni etiket̆
 about-playbook-how-grow-language-content-4 = Sosyaluri Medya
 about-playbook-how-grow-language-content-5 = Mesaji oncğonu şeni sosyaluri medyaşi platformepe gaxmarenan. Ham dulya naǩo becit̆i na on iris ognapit. Nenaşi xaǩepe do tzopxeri nosi steri meselepeşi jin na ç̌arums ǩoç̌epe ǩala isinapit. <campaignLink>p̌anda na gaxmaranen steri ǩampanyape getzopxu şeni</campaignLink> oneripe ç̌kunis otzǩedit.
 about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
+about-playbook-how-grow-language-content-7 = Ham mesele şkala alaǩa na uğun ç̌kvape (linguistepe, nenaşi mektebepe steri) dzirit. Hentepeşe (hinişe) idit do muç̌ote na naşvelanen ognapit. <outreachTemplates>Daha dido ǩoç̌i şkala oǩosinapu şeni şabloni çkuni</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Mç̌adule iyit!</strong> Zade ǩai dulyape aten. Daha ağani coç̌amt.
 
 ## How to validate
 
