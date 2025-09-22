@@ -1,5 +1,6 @@
 ## Question Page Items
 
+cs-question-page-instruction = Embojuaju 25 porandu peve opavave tapicha ombohováivo mba’ekuaarã atýpe { $currentLocale }
 cs-question-dataset-name = Mba’ekuaarã aty: { $datasetName }
 
 ## Validate Page Items
