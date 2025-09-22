@@ -449,7 +449,7 @@ loading = Lastar…
 email-opt-in-info = Eg vil gjerne få tilsendt e-postmeldingar med målpåminningar, mine framdriftsoppdateringar og nyheitsbrev om Common Voice.
 email-opt-in-info-title = Abonner på Common Voice-e-postlista
 email-opt-in-info-sub-with-challenge = Få e-post om utfordrings- og målpåminningar, oppdateringar om progresjon og nyheitsbrev om Common Voice.
-email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla handterar denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
+email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla handterar denne informasjonen som forklart i Mozillas <privacyLink>personvernfråsegn</privacyLink>.
 indicates-required = * Viser påkravd felt
 not-available-abbreviation = Ikkje tilgjengeleg
 # Text shown on a button that can be clicked to copy text to the clipboard

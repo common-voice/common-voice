@@ -8,6 +8,13 @@ datasets-positioning =
     Common Voice 的多语言数据集已经成为最大的公开语音数据集，但不是唯一的一组。
     
     您可在此页面找到其他的开源语音数据集。随着 Common Voice 不断成长，我们也会在此处发布更新信息。
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice 数据集现由 Mozilla Data Collective 专门提供下载。
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    自 Common Voice 23.0 起，所有 Common Voice 数据集于 Mozilla Data Collective 专门提供下载。
+    
+    此页面用作 Mozilla Common Voice 数据集过往版本的历史存档处。由于部分用户已请求不再使用由他们贡献的数据，为尊重其意愿，存档版本只可用于特定的研究场景，而不应用于训练。
 datasets-speech-bubble-content = 好消息！“即兴发言”功能即将推出！请持续关注，并通过我们的 <discordLink>Discord</discordLink> 了解最新消息。
 language = 语言
 download-dataset-header = 下载数据集

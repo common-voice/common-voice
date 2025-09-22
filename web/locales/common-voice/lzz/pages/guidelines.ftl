@@ -1,12 +1,16 @@
 # GUIDELINES PAGE
-guidelines-header = Meşveluşi ǩuralepe
+guidelines-header = Meşveluşi kriterepe
 voice-collection = Xomaşi ǩoleǩsioni
 sentence-collection = Cumleşi ǩoleǩsiyoni
+question-collection = Khitxala oǩorobu
+scripted-speech = Ç̌arapes xoma meçamu
+dont-subheader = Hantepe/ hani mot ikumt
 
 ## Voice Collection nav ids
 
 varying-pronunciations = Goimturu otkupe
 misreadings = Yanlişi oǩitxupe
+offensive-content = Noǩap̌ule uslubi
 background-noise = ǩap̌ulani nağarya
 background-voices = ǩap̌ulani xomape
 volume = Hacimi
@@ -32,6 +36,7 @@ misreadings-tip-3 = [Var eluvelun kontenti]
 background-noise-explanation = Doloç̌arit ǩat̆a zit̆a vognaten. Makina doguruşi algoritmapeşi çeşit̆oni moǩo-pilani nağaryape axerxas minonan. Nispeten mağali xomape vana uneneli moǩo-pilani muziği-ti, ç̌araşi tamami-muşişi oxotzonus var nağa-şkule ǩebuli dixenen. ç̌ara dogurus na memağanen xareri ǩlibepe reddi oxenu diç̌irasen.
 background-noise-example-1 = Triyasişi divi dinazorepe.
 background-noise-tip-2 = [ç̌araşi ar notzile var diguren]
+background-voices-tip-1 = Mulurt-i? [teni mitik icoxams, iyoxams]
 still-have-questions = Xolo ǩitxalape giğunan-i?
 contact-common-voice = Common Voiceşi ekibi şkala ikontaktit
 

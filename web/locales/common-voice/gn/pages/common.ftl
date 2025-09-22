@@ -469,3 +469,10 @@ donate-banner-cta-explanation = Ohupytymo'ã peteĩ súa dólar ary pukukue mba�
 languages-donate-banner-cta = <mark>¿Eiporu CV </mark><br/><mark>nde jeporekarã?</mark>
 localization-select =
     .label = Eiporavo ñe’ẽ/moñe’ẽasa
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Ejuaju Mozilla Mba’ekuaarã Aty ndive
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Ijuruja ovetã pyahúpe

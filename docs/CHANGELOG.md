@@ -2,7 +2,7 @@
 
 ## Current release
 
-### [v1.152.0 (2025-08-13)](https://github.com/common-voice/common-voice/releases/tag/release-v1.152.0)
+### [v1.152.0 (2025-09-13)](https://github.com/common-voice/common-voice/releases/tag/release-v1.152.0)
 
 - Feat: Provide support for multiple Matrix clients by adding a second button on the homepage, by [@moz-bozden](https://github.com/moz-bozden) in [#5068](https://github.com/common-voice/common-voice/pull/5068)
 - Feat: Add announcement component, by [@moz-bozden](https://github.com/moz-bozden) in [#5067](https://github.com/common-voice/common-voice/pull/5067)
@@ -31,17 +31,21 @@
 
 ##### SS Data Changes in v1.152.0
 
-- N/A
-
 ---
 
 ### Changes merged after current release
 
+- Fix: For update query for user-variant is_preferred_option sometimes failing due to undefined/null values, by [@moz-bozden](https://github.com/moz-bozden) in [#5078](https://github.com/common-voice/common-voice/pull/5083) (in v1.152.1)
+
 #### Data Changes after current release
+
+- Changes to locale names for some languages in Pontoon propogated (`mve` -> Marwari, `sbn` -> Sindhi Bhil, `xhe` -> Khetrani)
 
 #### Spontaneous Speech after current release
 
 ##### SS Data Changes after current release
+
+- Add Thai (`th`) questions by [@bandrandr](https://github.com/bandrandr) in [#487](https://github.com/common-voice/spontaneous-speech/pull/487) (in v1.152.1)
 
 ---
 

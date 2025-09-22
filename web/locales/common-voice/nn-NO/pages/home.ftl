@@ -135,6 +135,9 @@ join-discord-community = Ver med i Discord-fellesskapet
 join-discord-community-action = Ver med oss på Discord
 join-discord-community-content = Delta i språkdiskusjonar, still spørsmål og lær om komande arrangement og foredrag.
 find-us-on-matrix = Finn oss på Matrix
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Andre klientar
 ask-mozilla-share = Be Mozilla om å dele hendingane dine
 ask-mozilla-share-content = Har du eit tidlegare eller komande arrangement? Del det med oss, så kunngjer vi det til fellesskapen vår eller skriv ein blogg om det!
 # label for button

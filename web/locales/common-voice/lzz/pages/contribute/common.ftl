@@ -9,16 +9,19 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> xoma doloçhara
        *[other] <bold>{ $count }</bold> xoma doloçharape
     }
+goal-help-recording = Common Voiceşi ndğaluri { $goalValue } doloç̌aru hedefis <goalPercentage></goalPercentage> mexolus memişvelit.
+goal-help-validation = Common Voiceşi ndğaluri { $goalValue } otzuranuşi hedefis <goalPercentage></goalPercentage> şuǩuri mexolus memişvelit.
 contribute-more =
     { $count ->
         [one] { $count } daha dido-muşi oxenus xadziri ore-i?
        *[other] { $count } daha dido-muşi oxenus xadziri ore-i?
     }
 speak-empty-state = Ham nenas doliç̌arasen cumle var madzires.
+no-sentences-for-variants = Nena tkvanişi variantis cumle var doskidu doren. Ginonan-na (gorumt-na) nena tkvanis na ren majura cumlepe oziru şeni getzopxape gokturit.
 speak-empty-state-cta = Cumlepe şeni eǩuşvelit
 speak-loading-error =
-    Dologaçharanen cumle var madzires. 
-    Goga, ukhule xolo geitsadit.
+    Dologaç̌aranen cumle var madzires. 
+    Goga, uǩule xolo geitsadit.
 record-button-label = Nena-skani doloç̌ari
 share-title-new = Daha dido xoma odzirus <bold>memişvelit</bold>
 keep-track-profile = Ar profilite ogzalu-tkvani nayonit
@@ -66,6 +69,9 @@ shortcut-skip = i
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Doloç̌ari/ Dodgiti
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ǩilibi meyoç̌ari
@@ -94,25 +100,53 @@ shortcut-vote-no = v
 contribution-criteria-nav = ǩriterepe
 contribution-criteria-link = Meşveluşi kriterepe oxotzonit
 contribution-criteria-page-title = Meşveluşi kriterepe
-contribution-criteria-page-description = Ses kayıtlarını dinlerken nelere dikkat etmeniz gerektiğini öğrenin. Böylece kendi ses kayıtlarınızı da zenginleştirebilirsiniz.
-contribution-for-example = evuli
+contribution-criteria-page-description = Xomaşi doloç̌arape t̆kvani iucamt̆atşa mupes fikiri meç̌aten digurit. Haşopete t̆kvani xomaşi doloç̌arape-ti gaǩampanen.
+contribution-for-example = ar evuli
 contribution-misreadings-title = Yanlişi oǩitxupe
+contribution-misreadings-description = İucamt̆atşani, noç̌garepe muç̌o na ren goliyoninu-i vorsi otzǩedi; enni tzulu xeta koren-na ǩebuli mot ikum. <br />Dido na ixenen xetape hant̆epe renan.
+contribution-misreadings-description-extended-list-1 = Doloç̌araşi geç̌ǩapas dorǩineri na ren <strong>‘A’</strong> vana <strong>‘The’</strong> va ren.
+contribution-misreadings-description-extended-list-2 = Ar zitaşi eç̌ouris <strong>‘s’</strong> bonca dorǩineri ren.
+contribution-misreadings-description-extended-list-3 = Ç̌aras na ren domǩulape oǩit̆xu/golayonu; ‘Ma vore’ -şi svas ‘Ma ore’ otku steri vana tersi muşi.
 contribution-misreadings-description-extended-list-4 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
 contribution-misreadings-description-extended-list-5 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.
 contribution-misreadings-example-1-title = Triyasişi divi dinazorepe.
+contribution-misreadings-example-2-title = Xarmeloba vorsi domşu dort̆u.
+contribution-misreadings-example-2-explanation = ["Xarmeloba" ort̆aset̆u]
+contribution-misreadings-example-3-title = Ham xarmelobapek xura ontzi-
+contribution-misreadings-example-3-explanation = [Doloç̌ara, soni zit̆a var iççodaşe niǩvatu]
+contribution-misreadings-example-4-title = Ham xarmelobapek hemuşi xura doxominu. Ho.
+contribution-misreadings-example-4-explanation = [Ç̌aras na renşe daha dido doliç̌aru]
+contribution-misreadings-example-5-title = Ǩave eç̌opumuşe gale gamavulurt.
+contribution-misreadings-example-6-title = Ǩave eç̌opumute gale gamulurt.
 contribution-misreadings-example-6-explanation = [“çku” iyasen]
-contribution-misreadings-example-7-title = ǩave eç̌opumu şeni gale gamavulurt.
+contribution-misreadings-example-7-title = Ǩave eç̌opumu şeni gale gamavulurt.
 contribution-misreadings-example-7-explanation = [Orijinali ç̌aras 'a' va ren]
 contribution-misreadings-example-8-title = mtuti p̌ut̆uci manişa kogolaxtu.
 contribution-misreadings-example-8-explanation = [Var eluvelun kontenti]
 contribution-varying-pronunciations-title = Goimturu otkupe
+contribution-varying-pronunciations-description = Ar doloç̌ra reddi ikumt̆aşa vorsi iduşuni. Dunya ç̌kunis ç̌kva do ç̌kva telefuzepe renan; hant̆epeşi (hanişi) bazepe muşi mondo si var gignun. Skani steri na var isinapams şurepeti na renan giç̌kit̆as.
+contribution-varying-pronunciations-description-extended = Arti, maǩit̆xes he zit̆a daha oği var dugurun do xolo-ti telefuzi oxenu şeni inç̌it̆en na lutfen reddi doyit/ ǩebuli mot ikumt.
 contribution-varying-pronunciations-example-1-title = Tis kudi gyutut̆u.
+contribution-varying-pronunciations-example-1-explanation = [Mulurt̆u vana Mulut̆u ya do iǩit̆xinen.]
 contribution-varying-pronunciations-example-2-title = Xe keǩozdu.
+contribution-varying-pronunciations-example-2-explanation = Bazi zit̆ape ç̌arun steri var goliyonaşa var iyen.
 contribution-background-noise-title = ǩap̌ulani nağarya
+contribution-background-noise-description = Makina doguruşi algoritmapek ǩap̌ulani curuntepe axmaras bgorumt. Mtel ç̌ara ognamt-na didi curunti ǩebuli ixenen. Amtsika fonişi muziği-ti problemi va ren. Ama ǩat̆a zit̆a neti ognapu diç̌irs do opşa curunti heşeni vorsi var on.
+contribution-background-noise-description-extended = Doloç̌ara oǩixvas-na vana ç̌iç̌ilas-na, ç̌ara oxitzonen vana ignapen-na ǩebuli doyit, vana mot ikumt.
+contribution-background-noise-example-1-fixed-title = <strong>[OÇİNDU]</strong> Ham xarmelobapek <strong>[OXVALU]</strong> koxonǩanu dort̆u.
+contribution-background-noise-example-2-fixed-title = Ham xarmelobak <strong>[OXVALU]</strong> koxomtores.
 contribution-background-noise-example-2-explanation = [ç̌araşi ar notzile var diguren]
+contribution-background-noise-example-3-fixed-title = <strong>[OÇ̌AÇ̌ALU]</strong> xarmelobapek xura <strong>[OÇ̌AÇ̌ALU]</strong> -dort̆u.
 contribution-background-voices-title = ǩap̌ulani xomape
+contribution-background-voices-description = Ǩap̌ulas amtsika curunti ort̆uǩo ǩebuli ixenen. Ama ç̌arapeşi doloxe na va ren zit̆ape makinak ognas var minonan. Ecere, ç̌arapeşi doloxe na ren zit̆apeşe made zit̆ape renan-na redi ixenasen. Haşo dulya, televuzi gontzkheri ort̆aşa vana mexolapes isinapinet̆aşa iyen.
+contribution-background-voices-description-extended = Doloç̌ara oǩixvas-na vana ç̌iç̌ilas-na, ç̌ara oxitzonen vana ignapen-na ǩebuli doyit, vana mot ikumt.
+contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation = Mulur-i? <strong>[majurak gicoxams]</strong>
 contribution-volume-title = Hacimi
+contribution-volume-description = Maǩit̆xepeši doloxe xomaşi seviyeşi farkepe gamaxtasen. Ar xvala, xomaşi doloç̌ara na oǩixvasen ǩonari/ şuǩuri mağali koren-na vana (daha dido na iziren steri) var ignapasen şuǩuri t̆abala iǩit̆xinen-na ǩebuli mot ikumt.
 contribution-reader-effects-title = Maǩitxeşi Efektepe
+contribution-reader-effects-description = Doloç̌arapeşi pşapa muşi, ǩoçepeşi natureli xomanişite osinapute oǩulun. Bazi orapes standart̆i do gale; ǩriineri do mepurçineri kort̆uǩoti ǩebuli doyit. Lutfen, ibirt̆aşa na ixenen doloç̌arape do okuneşi noxene sent̆etiği xomaşi doloç̌arape ǩebuli mot ikumt.
 contribution-just-unsure-title = Vorsi var giçkinan-i?
+contribution-just-unsure-description = Ham ǩuralepeşi gale ar mutu şkala oǩvagi-na, nosi skanite ǩarari meçi. Var megaç̌en-na ǩarari, ‘skip’ tuşis gyobazgi (comşari) do majura doloç̌araşa konuǩap̌i.
 see-more = <chevron></chevron> Daha fazlamuşi dzirit
 see-less = <chevron></chevron>Daha mtsikamuşi otziri

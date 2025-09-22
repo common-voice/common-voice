@@ -75,6 +75,9 @@ release-version = Силсила
 dataset-date = Сана
 license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
 license-mixed = Омехта
+# Support old genders in older datasets
+male = Мард
+female = Зан
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Маҷмуи маълумоти овозии моро боргирӣ кунед
 # MENU ITEM ARIA LABELS

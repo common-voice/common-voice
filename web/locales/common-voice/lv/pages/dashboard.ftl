@@ -54,6 +54,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Izvirziet mērķi
 cant-decide = Nevar izlemt?
+activity-needed-calculation-fixed = 100 cilvēku, kas ieraksta 100 teikumu dienā, var izveidot 13 stundu skaņu ierakstu. Uzturot šādu sniegumu, 1000 stundas var sasniegt mazāk kā 3 mēnešos.
 how-many-per-day = Lieliski! Cik ierakstu dienā?
 how-many-a-week = Lieliski! Cik ierakstu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?

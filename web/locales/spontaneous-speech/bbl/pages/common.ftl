@@ -32,8 +32,11 @@ continue-with-skipped = დაჰ̦ დითენჩომაქ დო́ტ�
 question = შეკითხვ
 validate = დაყყდარ
 respond-to-prompt = დაკლე́ვადბარეჼ (მოთხო́ვნეჼ) პა́სუხ
+respond-to-prompt-mobile = პა́სუხ
 transcribe = ნაწე́რეღ დე́რწდარ (გადმოცე́მადარ)
 check-transcriptions = ნაწე́რეღ დე́რწინო̆  დაყყდარ
+check-transcriptions-mobile = დაყყდარ
+tag = ჭად
 
 ## Not Found Page
 
@@ -46,6 +49,7 @@ meh = სამხრეთდასავლურ ტლახიაკეჼ 
 mel = ცენტრალურ მელანაუ
 # Locales-Variants
 ms-MY = ბაჰასა მალაურ
+el-CY = პვიპროსბაჼ ბე́რძნულ
 
 ## Language search component
 
