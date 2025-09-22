@@ -1,3 +1,6 @@
+speak = Говорете
+speak-now = Говорете сега
+speak-subtitle = Дарете гласа си
 record-cta = Начало на записа
 record-platform-not-supported = Съжаляваме, но в момента вашата платформа не се поддържа.
 record-platform-not-supported-desktop = На настолните компютри можете да изтеглите последната:
@@ -36,3 +39,5 @@ review-delete-recordings = Изтриване на моите записи
 review-terms = С използването на Common Voice приемате нашите <termsLink>Условия за ползване</ termsLink> и <privacyLink>поверителност</ privacyLink>
 terms-agree = Съгласен/съгласна съм
 terms-disagree = Не съм съгласен/съгласна.
+first-cta-subtitle-text = Разказвайки за себе си, ще помогнете на разработчиците да изградят по-приобщаваща технология
+why-donate = Защо задавате тези въпроси?
