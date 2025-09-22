@@ -23,7 +23,7 @@ about-dataset-release-subtitle = Datamarç̌a sum tutaşe ar gamavoşkumt.
 about-subscribe-text = Common Voice-ǩala ǩont̆aǩt̆i giğut̆an gorumt-i?
 about-speak = İsinapi | Ğarğali | İxap̌ari
 about-speak-text = Memşvelupek, xarsuveri cumlepete pşeri ar bankaşen iǩitxaman do ǩlibepe doloç̌aruman.
-about-listen-queue = Oşǩinuşi ǩudeli | Osiminuşi ǩudeli
+about-listen-queue = Oucuşi ǩudeli | Oşǩinuşi ǩudeli | Osiminuşi ǩudeli
 about-listen-queue-text = Xomaşi ǩlibepe, hentepe oşǩinu şeni na xadzirums ar nocğone ǩudelis amilven.
 about-listen = İşǩini (İuci/ İsimini)
 about-listen-text = Maxmarepe, msinapuk cumle tzori iǩitxu-i ya do kontroli ikums do xarsuveri ǩlibepeşi tzorinoba tzorinums.
@@ -56,7 +56,7 @@ about-nav-playbook = Muç̌o na eǩvant̆alaten digurit
 ## What is a language
 
 about-playbook-what-is-language = Common Voices nena mu oren?
-about-playbook-what-is-language-content-1 = Nena omsifonu şeni çkva do çkva gzalepe renan.
+about-playbook-what-is-language-content-1 = Nena omsifonu şeni çkva do çkva gzalepe renan. Common Voice “artiǩati oxotzonu” vana “Ham nena na isinamanpek p̌anda artiǩatişi oxotzonaman-i?” ya do nizmonaman.
 about-playbook-what-is-language-content-2 = Nenape şeni vorsi dulyape oxenu minonan.
 about-playbook-what-is-language-content-3 = Bazi nenapes çkva do çkva variantepe uğunan. Hamuşeni çku <ctaLink>goçinapamt ‘Variants’</ctaLink> in 2022.
 
