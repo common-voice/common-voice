@@ -102,7 +102,9 @@ about-playbook-how-record-content-5 = <accuracyLink>Tzorinobaşi mezumape şeni 
 about-playbook-how-grow-language = Vikipedis na ren cumlepe şeni <scraperLink>Cumle mxenu</scraperLink>oxmarit.
 about-playbook-how-grow-language-content-1 = Common Voices konuşvelat-na daha dido ǩoçis apelasen. İris na axmarasere steri cireǩepe do tablope itzopxasen.
 about-playbook-how-grow-language-content-2 = Vaǩape
+about-playbook-how-grow-language-content-3 = Ǩoçepeşi meşvelu şeni etiket̆epe getzopxit. Ham dulya video ǩonferansite vana p̌ici do p̌ici dixenen. <eventTemplate>Aktivite getzopxu şeni şablonepe do cireǩepe çkunis otzǩedit.</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sosyaluri Medya
+about-playbook-how-grow-language-content-5 = Mesaji oncğonu şeni sosyaluri medyaşi platformepe gaxmarenan. Ham dulya naǩo becit̆i na on iris ognapit. Nenaşi xaǩepe do tzopxeri nosi steri meselepeşi jin na ç̌arums ǩoç̌epe ǩala isinapit. <campaignLink>p̌anda na gaxmaranen steri ǩampanyape getzopxu şeni</campaignLink> oneripe ç̌kunis otzǩedit.
 about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
 
 ## How to validate
