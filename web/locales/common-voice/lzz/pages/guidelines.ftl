@@ -4,6 +4,7 @@ voice-collection = Xomaşi ǩoleǩsioni
 sentence-collection = Cumleşi ǩoleǩsiyoni
 question-collection = Khitxala oǩorobu
 scripted-speech = Ç̌arapes xoma meçamu
+spontaneous-speech = Spontane Osinapu
 dont-subheader = Hantepe/ hani mot ikumt
 
 ## Voice Collection nav ids
@@ -25,8 +26,10 @@ varying-pronunciations-tip-1 = [ǩanadaşi İngilizurik "rota" zit̆a "rowt" ya 
 varying-pronunciations-tip-2 = Britişuri İngilizuris "cici" axenen
 misreadings-explanation-2 = Dido gontaxileri xeta hantepe renan:
 misreadings-explanation-4 = Zit̆a eçouris "s" eǩsuği oren.
+misreadings-explanation-5 = Ç̌aras na ren domǩulape oǩit̆xu/golayonu; ‘Ma vore’ -şi svas ‘Ma ore’ otku steri vana tersi muşi.
 misreadings-explanation-6 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
 misreadings-explanation-7 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.
+misreadings-example-1 = Ǩave eç̌opumuşe gale gamavulurt.
 misreadings-example-2 = ǩave eç̌opumu şeni gale gamaptaten.
 misreadings-example-3 = ǩave eç̌opumu şeni gale gamavulurt
 misreadings-example-4 = mtuti p̌ut̆uci manişa kogolaxtu.
@@ -64,3 +67,18 @@ adding-sentences-subheader-numbers = ǩoretsxape
 adding-sentences-subheader-abbreviations = Zit̆apeşi omǩulanupe do Umçane Boncapeşi Omǩulanupe
 adding-sentences-subheader-punctuation = Ot̆imbu
 reviewing-sentences-explanation-1 = Cumle jini ǩriteri-ǩala oǩuvelams na "Ho" butonis gyobazgit.
+
+## Code-Switching
+
+code-switching-dont-header = Hantepe/ hani mot ikumt
+# Reviewing a Question
+code-switching-review-subheader = ǩitxalapes otzǩedi
+# Answering a Question
+code-switching-answer-subheader = ǩitxalapes cuğap̌i meçit
+# Transcribing
+code-switching-transcribe-subheader = Ç̌araşa golakti
+code-switching-pronunciation-explanation-example-1 = English: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spanish: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = People: Maria, John
+code-switching-not-tag-proper-names-example-2 = Places: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Brands/Organisations:  Target, Burger King

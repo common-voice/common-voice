@@ -77,5 +77,12 @@ release-version = Versioni
 dataset-date = Tarixi
 license = Lisansi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Oǩont̆aleri
+# Support old genders in older datasets
+male = Mamuli
+female = Daduli
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Xomaşi dataseti çkunis geiğit (ciğit)
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voiceşi datape odziru şeni geğmaluşi goşatsxunape
+datasets-show-more = Mtel Dataseti otziri
+datasets-show-less = En soni Dataseti otziri
