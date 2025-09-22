@@ -66,6 +66,11 @@ about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 about-playbook-how-add-language-content-1 = wan la, o lukin: toki sina li <languageLink>lon ala lon</languageLink>? ona li lon ala la, <strong>o ante toki e lipu, o kama jo e sitelen</strong>.
 about-playbook-how-add-language-translating-heading = nasin pi ante toki
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>o lukin e nasin kepeken pi ilo Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    jan li ante e toki ilo kepeken ilo <pontoonLink>Pontoon</pontoonLink> tan kulupu Mozilla. toki mute li lon ilo Pontoon.
+    toki sina li lon ala ilo Pontoon la,  <pontoonRequestLink>o pana e wile sina</pontoonRequestLink>.
+    toki sina lon ala pali Common Voice la,
+    <githubRepoLink>o pana e wile sina lon ilo GitHub</githubRepoLink>. <localizationFragment>ante toki lipu la o suli e sona sina</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = nasin pi toki jo
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>o lukin e nasin kepeken pi ilo Sentence Collector</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>o lukin e nasin jo</sentenceCollectorFragment>.

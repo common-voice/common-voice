@@ -22,6 +22,12 @@ required-field = o pana tawa poki ni.
 single-sentence-submission = o pana e sitelen wan
 bulk-sentence-submission = o pana e sitelen mute
 single-sentence = sitelen wan
+# Sentence Domain dropdown option
+service_retail = pana en esun
+# Sentence Domain dropdown option
+healthcare = pona sijelo
+# Sentence Domain dropdown option
+history_law_government = lawa en sona pini
 
 ## BULK SUBMISSION
 
