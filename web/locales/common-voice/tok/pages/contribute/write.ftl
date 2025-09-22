@@ -28,9 +28,16 @@ service_retail = pana en esun
 healthcare = pona sijelo
 # Sentence Domain dropdown option
 history_law_government = lawa en sona pini
+# Sentence Domain dropdown option
+media_entertainment = musi
+# Sentence Domain dropdown option
+news_current_affairs = sona sin
+# Sentence Domain dropdown option
+technology_robotics = ilo nanpa
 
 ## BULK SUBMISSION
 
+sc-bulk-upload-instruction = o pana e lipu sina anu <uploadButton>o pana kepeken nena </uploadButton>
 sc-bulk-upload-instruction-drop = o pana e lipu lon ni
 try-upload-again = o pana sin e lipu tawa ni
 try-upload-again-md = o pana sin
@@ -41,6 +48,7 @@ maximum-file-size = lipu li ken suli ni: 25 MB
 what-needs-to-be-in-file = seme o lon lipu mi?
 upload-progress-text = mi pana...
 bulk-upload-success-toast = sina pana e sitelen mute.
+upload-more-btn-text = sina wile ala wile pana e toki sitelen mute?
 file-invalid-type = lipu pakala
 file-too-large = lipu li suli ike
 file-too-small = lipu li lili ike
@@ -52,3 +60,8 @@ too-many-files = lipu li mute ike
 small-batch-response-message = kulupu nimi { $totalSentences } la sina jo e kulupu { $uploadedSentences }. nena <downloadLink>ni</downloadLink> la o jo e kulupu nimi ike.
 # menu item
 add-sentences = o pana e toki
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = o pana e toki sitelen
+review-sentences-menu-item-tooltip = o lukin e toki sitelen

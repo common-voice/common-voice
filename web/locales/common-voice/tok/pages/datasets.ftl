@@ -87,3 +87,8 @@ release-version = nanpa
 dataset-date = tenpo
 license = lipu ken: <licenseLink>{ $license }</licenseLink>
 license-mixed = mute
+# Support old genders in older datasets
+male = mije
+female = meli
+datasets-show-more = o lukin e sona ale
+datasets-show-less = o lukin e sona sin
