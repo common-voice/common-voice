@@ -1,3 +1,12 @@
+## Errors
+
+cs-error-fetching-questions = Oiko peteĩ jejavy emba’eporandukuévo. Ikatukuaa eha’ãjey ag̃amieve.
+cs-error-fetching-transcriptions = Oiko peteĩ jejavy embokuatikuévo. Ikatukuaa eha’ãjey ag̃amieve.
+
+## Modals
+
+cs-locale-change-modal-subtitle = Ereko moambuepyre eñongatu’ỹva ko kuatiaroguépe. Emoambuérõ mba’ekuaarã aty, añetehápe noñeñongatumo’ãi. ¿Emoambuese añetehápe?
+
 ## Question Page Items
 
 cs-question-page-instruction = Embojuaju 25 porandu peve opavave tapicha ombohováivo mba’ekuaarã atýpe { $currentLocale }
