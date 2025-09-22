@@ -86,10 +86,13 @@ about-playbook-how-localize-content-5 = Meşvelu şeni video gamognaponi-çkunis
 about-playbook-how-add-sentences = Cumlepe muç̌o eǩevuç̌arare?
 about-playbook-how-add-sentences-content-1 = <strong>Cumle Mǩorobu</strong>, monduli cumlepe oǩorobu do otzuranu şeni ixmaren. İpti <scAccountLink>ar xesabi gontzaten</scAccountLink>. Uǩule nena tkvani <strong>profili tkvanis</strong> keǩumtsxvit.
 about-playbook-how-add-sentences-content-2 = Cumlepe Common Voice's eǩodvalu gorumt-na jur şurik tzori ren ya do ǩebuli asen.
+about-playbook-how-add-sentences-content-3 = Vikipedis na ren mǩule cumlepe oxmaru şeni <scraperLink>Cumle mozdaşe</scraperLink> ixmarit.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Mağali ǩalitete ar xoma ǩlibi muç̌o dolovoç̌arare?
+about-playbook-how-record-content-1 = Normali nena tkvanite isinapit! Ǩat̆a ç̌eşit̆i osinapu momarç̌ilenan. Aksani tkvani muç̌o na ren ognapu bgorumt (minonan). P̌andaneri xoma seviye, tarzi do toni tkvanite isinapit.
+about-playbook-how-record-content-2 = Curultişa mendra dogutit. Nena tkvani ǩolai diguras (ignas).
 
 ## How to grow language
 
