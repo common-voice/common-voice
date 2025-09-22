@@ -243,6 +243,7 @@ code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 code-switching-spelling-header = Eiporu haikatuete peteĩteĩva ñe’ẽme g̃uarã.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Aníke emopotĩ térã emombyky pe ñe’ẽkuaa
+code-switching-cleanup-1 = Emoñe’ẽasa térã emoambue: ehai pe he’íva ambue tapicha, ndaha’éi “pe he’iséva”.
 code-switching-cleanup-2 = Ñe’ẽtekuaa térã ñe’ẽayvu “oĩporãva”: eiporu osẽ porã hag̃uáicha.
 code-switching-cleanup-3 = Ani emoambue araka’eve jepémo michĩmi: taha’e umi ñe’ẽ porupyre jepe.
 code-switching-cleanup-5 = Eimo’ã eikuaaha ñe’ẽ peteĩteĩva rehegua: embohéra ijeporu rupi.
