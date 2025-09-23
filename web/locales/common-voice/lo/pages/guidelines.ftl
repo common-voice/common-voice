@@ -291,6 +291,7 @@ code-switching-answer-dont-translate-repeat = <bold>ແປ ຫຼື ເຮັ�
 code-switching-transcribe-subheader = ການຖອດຂໍ້ຄວາມ
 # Tagging
 code-switching-tagging-subheader = ແທັກ
+code-switching-tagging-error-2 = ພິມຜິດ
 # When Not to Tag Words
 code-switching-not-tag-header = ເມື່ອບໍ່ແທັກຄຳສັບ
 
