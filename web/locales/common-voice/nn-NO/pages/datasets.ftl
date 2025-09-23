@@ -8,6 +8,8 @@ datasets-positioning =
     Common Voices fleirspråklege datasett er allereie det største offentleg tilgjengelege stemmedatasettet av sitt slag, men det er ikkje det einaste.
     
     Sjå på denne sida som eit referansemidtpunkt for andre datasett med open kjeldekode, og etterkvart som Common Voice fortset å vekse, ein heim for oppdateringane våre.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice-datasettet er no berre tilgjengelege på Mozilla Data Collective.
 datasets-speech-bubble-content = Spennande nyheiter! Spontantale er på veg! Følg med for oppdateringar, og sørg for å sjekke <discordLink>Discord</discordLink> for den nyaste informasjonen.
 language = Språk
 download-dataset-header = Last ned datasettet
