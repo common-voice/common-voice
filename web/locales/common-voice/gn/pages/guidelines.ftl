@@ -144,6 +144,7 @@ answer-questions-tip-1 = Egrava peteĩ tenda hyapu’ỹhápe
 answer-questions-tip-2 = Eiporavo peteĩ tenda eikekuaa hag̃ua internépe
 answer-questions-tip-3b = Erekóke ne ñembohovái 15-30 aravo’ípe
 answer-questions-tip-4 = Emboyke ñe’ẽ vai, pohýi térã ambue oporombopochykuaáva.
+answer-questions-tip-5 = Eñe’ẽ osẽreiháicha, eñe’ẽramoguáicha ne angirũndi; eiporu ne ñe’ẽte, iñambue ha hekoteéva.
 answer-questions-tip-6 = Aníkena eñe’ẽ hatãite: esapukái térã epurahéi.
 # Transcribe the Audio
 transcribe-the-audio = Emonguatia Mba’epu
