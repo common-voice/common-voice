@@ -372,6 +372,8 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>ชุดข้อมูล Common Voice ใหม่</strong> พร้อมให้ดาวน์โหลดแล้ว เฉพาะทางแพลตฟอร์มเครือข่ายของเรา Mozilla Data Collective สมัครเพื่อเข้าถึงชุดข้อมูลมากกว่า 300 ชุดจากทั่วโลก ที่สร้างขึ้นโดยชุมชน และเพื่อชุมชน
 # Button text for MDC announcement
 announcement-mdc-button-text = เข้าร่วม Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
