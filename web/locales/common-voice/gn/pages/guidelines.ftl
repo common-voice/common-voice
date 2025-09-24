@@ -182,6 +182,8 @@ special-tags-example-2 =
     Ha upéi aha jepytu’urãme.
     Upéicha, [tyapu] [puka] ndaha’éikuri ja’eporãrõ jepytu’urã [puka].
 transcribe-the-audio-subheader-4-explanation-1-example = Ha’e héra <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Sapyʼánte, umi ñeʼẽkuaahára he’i jey peteĩ ñe’ẽ térã ñe’ẽpehẽ heta jey. Kóva ohehaiva’erã avei. Tembiecharã:
+transcribe-the-audio-subheader-4-explanation-2-example = Upéi ahákuri <underline>kotýpe</underline> upe jekehápe
 
 ## Review the Transcription
 
