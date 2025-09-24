@@ -96,3 +96,5 @@ license-mixed = Mista
 download-contribute-menu-tooltip = Iscàrriga is pachetes de datos de boghe nostros
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Optziones de iscarrigamentu pro s’atzessu a is datos de Common Voice
+datasets-show-more = Ammustra totu is pachetes de datos
+datasets-show-less = Ammustra is pachetes de datos prus reghentes
