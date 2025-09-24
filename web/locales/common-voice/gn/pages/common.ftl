@@ -467,6 +467,7 @@ donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
 donate-banner-cta-explanation = Ohupytymo'ã peteĩ súa dólar ary pukukue mba’ekuaarã aty ñeñongatu ha pyendasusu moakãrapu’ã hetave 100 tekoha ñe’ẽgua oku’éva rojapóva rupi. <strong>Emomba’érõ mba’ekuaarã ijuruja ha oporogueroikéva, ¡embojopói ko’ág̃a!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>¿Eiporu CV </mark><br/><mark>nde jeporekarã?</mark>
+languages-donate-banner-cta-explanation = Común Voice oikove jopói ha jeykeko rupive. Roykeko ohapykuehoséva arandupy, tekogua Estado-gua’ỹva ha mba’apohaguasu ndive. Common Voice ojeporu rei, ha pendejopói orepytyvõ orepua’aka hag̃ua opaite tekotavẽrã ha ko pyendavusu hekoresãi hag̃ua.
 localization-select =
     .label = Eiporavo ñe’ẽ/moñe’ẽasa
 
