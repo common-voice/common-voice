@@ -2,6 +2,7 @@
 
 answer-questions = Ùff Fröje Àntwùrt gann
 review-transcriptions = Trànschkriptione noochlüeje
+transcribe-audio = Trànschkribiere
 
 ## Get involved section
 
