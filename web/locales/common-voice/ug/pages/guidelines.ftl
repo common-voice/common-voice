@@ -148,3 +148,7 @@ tags-disfluency = كېكەچلەش
 tags-unclear = ئېنىقسىز
 tags-noise = شاۋقۇن
 tags-laugh-explanation = كۈلكە ئاۋازى.
+
+## Reporting Content
+
+reporting-content-subheader = ئادەتتىكى يېتەكچى
