@@ -28,9 +28,13 @@ request-new-language = يېڭى تىل تەلەپ قىلىڭ
 ## Navbar
 
 question = سوئال
+validate = دەلىللە
 respond-to-prompt = ئىنكاس قايتۇرۇش
+respond-to-prompt-mobile = جاۋاب
 transcribe = خەت پۈت
 check-transcriptions = خەت پۈتۈكنى تەكشۈرۈڭ
+check-transcriptions-mobile = تەكشۈرەي
+tag = بەلگە
 
 ## Not Found Page
 
