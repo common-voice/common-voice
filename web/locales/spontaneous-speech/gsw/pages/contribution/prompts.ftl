@@ -3,7 +3,7 @@
 record-player-header = Namme Éieri Àntwùrt ùff
 mic-access-error = Ìhr mien de Zügrìff ùff ’s Mikro zülonn.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-prompt-page-instruction = <micIcon></micIcon> { $actionType } ùn Àntwùrt gann, eso nàdirlich wie méjlich
+prompt-page-instruction = <micIcon></micIcon> { $actionType } ùn gann Àntwùrt, eso nàdirlich wie méjlich
 # Message which appears when there are no more resources on this page
 no-prompts-continue-skipped-message = Dàto gìbt’s kenn Fröje fer die Sproch. Aktüalisiere d’Sitt odder pràwiere’s später noch emol.
 error-skipping = Bim Ìwwerhüpse vùn dere Fröj het ebs nìtt geklàppt
