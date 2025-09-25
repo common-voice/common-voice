@@ -2,6 +2,8 @@
 
 datasets-heading = Datamarç̌a
 datasets-headline = { "" }
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voiceşi data set̆epeşa açkva ar xvala Mozilla Data Collectiveşen ixtimen.
 language = Nena
 download-dataset-header = datamarç̌a Kogeiğit
 download-delta-explainer = { "" }
@@ -12,6 +14,7 @@ validated-hr-total = Tzuraneri saatişi ǩoroba
 overall-hr-total = Geneluri saatişi ǩoroba
 cv-license = Lisansi
 audio-format = Xomaşi Format̆i
+dataset-splits = Bogepe (Tzana do Cinsiyet̆i)
 number-of-voices = Xomaşi ǩoretsxa
 splits = Boginape
 email-to-download = { "" }
@@ -20,6 +23,7 @@ confirm-size = { "" }
 size-gigabyte = Didi Biritanya
 size-megabyte = MB
 confirm-no-identify = Common Voiceşi datamarç̌as na ren msinapupeşi noçinepe odziru şeni var inç̌itaten<b>ǩebuli atna</b>
+confirm-join-mailing-list = Common Voiceşi e-posta list̆eşa amaxtimu ginon (gorum)
 download-language = { $language } doya geiğit
 validated-hours = İtzuranu Saatepe
 recorded-hours = Doliç̌aru Saatepe

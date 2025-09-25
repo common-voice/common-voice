@@ -67,6 +67,8 @@ cjk = Chokwe
 ckb = Şkaguri Kyurduri
 cnh = Haxa Çinuri
 co = Korsikanuri
+cpx = Heng Hua
+cpy = Asheninka South Ucayali
 crh = Ǩirimuri Tataruri
 cs = Çeǩuri
 cut = Teutila Cuicatec
@@ -79,6 +81,8 @@ dar = Dargwa
 dav = Kidaw'ida
 de = Alamanuri
 dmk = Dawoodi
+dml = Dameli
+dru = Rukai
 dsb = Tzaleni Sorbinuri
 dua = Duala
 dv = Divexuri
@@ -90,6 +94,7 @@ en = İngilizuri
 eo = Esperanturi
 es = Isp̌anyoluri
 et = Est̆onuri
+eto = Eton
 eu = Basǩuri
 ewo = Evonduri
 fa = Farsuri
@@ -223,6 +228,7 @@ tig = Tigruri
 tk = Turkmenuri
 tl = Tagaloguri
 tn = Sestvanuri
+tob = Toba Qom
 tok = Toki Ponauri
 tr = Turkuri
 ts = Xitsonguri
@@ -295,6 +301,8 @@ delete = Gejili/ Ceşiri
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Domaç̌inan</mark><br/><mark>meşvelu tkvani!</mark>
 localization-select =
     .label = Nena/ svamuşi goşuğit
 
