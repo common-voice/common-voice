@@ -28,6 +28,7 @@ request-new-language = Néji Sproch vorschlaawe
 ## Navbar
 
 question = Fröje
+validate = Validiere
 respond-to-prompt = Ùff Fröje Àntwùrt gann
 transcribe = Trànschkribiere
 check-transcriptions = Trànschkriptione noochlüeje
