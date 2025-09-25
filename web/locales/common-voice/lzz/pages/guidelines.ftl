@@ -49,6 +49,7 @@ public-domain = ǩamuşi Monduni
 citing-sentences = Cumlepeşen ar muti eç̌opinu
 adding-sentences = Cumle Oǩatu
 reviewing-sentences = Cumlepe Otsadu
+sentence-domain = Cumleşi dobira muşi
 
 ## Sentence collection sidebar content
 
@@ -66,6 +67,7 @@ adding-sentences-subheader-speakable = Osinaponi
 adding-sentences-subheader-numbers = ǩoretsxape
 adding-sentences-subheader-abbreviations = Zit̆apeşi omǩulanupe do Umçane Boncapeşi Omǩulanupe
 adding-sentences-subheader-punctuation = Ot̆imbu
+adding-sentences-subheader-special-characters = Doxmeli Ǩarakterepe do Galeni Boncape
 reviewing-sentences-explanation-1 = Cumle jini ǩriteri-ǩala oǩuvelams na "Ho" butonis gyobazgit.
 
 ## Code-Switching
