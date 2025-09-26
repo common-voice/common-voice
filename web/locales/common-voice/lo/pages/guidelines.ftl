@@ -304,9 +304,12 @@ code-switching-spelling-explanation = ພະຍາຍາມສະກົດຄໍ
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = ຢ່າທຳຄວາມສະອາດ ຫຼື ເຮັດໃຫ້ພາສາງ່າຍຂຶ້ນ
 code-switching-cleanup-1 = ແປ ຫຼື ແປ - ຂຽນສິ່ງທີ່ຜູ້ເວົ້າເວົ້າ, ບໍ່ແມ່ນສິ່ງທີ່ພວກເຂົາ "ຫມາຍຄວາມວ່າ."
+code-switching-cleanup-2 = ໄວຍະກອນ ຫຼື ການອອກສຽງ "ຖືກຕ້ອງ" - ຮັກສາການນໍາໃຊ້ທໍາມະຊາດຂອງຜູ້ເວົ້າ.
 # Tagging
 code-switching-tagging-subheader = ແທັກ
 code-switching-tagging-error-2 = ພິມຜິດ
+code-switching-pronunciation-explanation-example-1 = ພາສາອັງກິດ: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = ແອສປາໂຍນ: /ˈkable/
 # When Not to Tag Words
 code-switching-not-tag-header = ເມື່ອບໍ່ແທັກຄຳສັບ
 
