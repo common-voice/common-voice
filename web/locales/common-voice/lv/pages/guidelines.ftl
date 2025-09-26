@@ -174,11 +174,11 @@ transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Nepareizi</wrong>: Tas
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-correct = <correct> Pareizi</correct>: Tiekamies pēc <underline>deviņiem trīsdesmit</underline>
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nepareizi</wrong>: Tiekamies <underline>2015. gadā</underline>
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nepareizi</wrong>: Tiekamies pēc <underline>9:30</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Pareizi</correct>: Tā bija divdesmit procentu atlaide
-transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nepareizi</wrong>: Tam bija 20% atlaide
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nepareizi</wrong>: Tā bija 20% atlaide
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Pareizi</correct>: Viņus pagājušajā ceturtdienā arestēja <underline>FIB</underline>.
-transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Nepareizi</wrong>: Viņus pagājušajā ceturtdienā arestēja <underline>ef bē ī</underline>.
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Nepareizi</wrong>: Viņus pagājušajā ceturtdienā arestēja <underline>ef ī bē</underline>.
 transcribe-the-audio-subheader-3-explanation = Lai atzīmētu saraustītu valodu, aizpildītājus un cita veida neverbālu saturu (angļu valodā), jāizmanto šādas īpašas atzīmes.
 tags-table-header-1 = Birka
 tags-table-header-2 = Nozīme
