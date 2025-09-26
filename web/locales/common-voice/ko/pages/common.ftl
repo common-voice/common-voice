@@ -5,6 +5,7 @@
 ## Languages
 
 aa = 아파르어
+aat = 아르바니티카어
 ab = 압하지야
 abb = 방콘어
 ace = 아체어

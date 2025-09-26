@@ -212,6 +212,8 @@ transcribe-the-audio-subheader-5-explanation-2 = Sprekkers kinne sprektaal brûk
 review-the-transcription = De transkripsje beoardiele
 review-the-transcription-subheader = Algemiene rjochtlinen
 review-the-transcription-explanation-1 = Yn it algemien advisearje wy dat de persoan dy’t de transkripsje kontrolearret net deselde persoan is dy’t de orizjinele transkripsje dien hat. It is tige lestich om jo eigen wurk te kontrolearjen! It hawwen fan meardere kontrôlelinen kin helpe om kwaliteitsfersekering robúster te meitsjen en foaroardielen en problemen te ferminderjen.
+review-the-transcription-explanation-2 = Lês de transkripsjerjochtlinen hjirboppe om te kontrolearjen dat in transkripsje akkuraat is. Jo kinne bewurkingen meitsje en yntsjinje.
+review-the-transcription-explanation-3 = Nochris, jo kinne ynhâld dy’t beledigjend, skealik of oarswat soarchlik is labelje, en it sil út jo ûnderfining fuortsmiten wurde oant it Common Voice-team it besjen en fierder ûndersykje kin.
 
 ## Code-Switching
 
@@ -230,6 +232,19 @@ code-switching-use-bilingual-prompts-header = Twatalige fragen brûke
 code-switching-use-bilingual-prompts-explanation = Brûk twatalige fragen dy’t beide talen befetsje. Bygelyks:
 code-switching-use-bilingual-prompts-explanation-example = “Wat zei je tegen je moeder doe’tsto dy dei thús kaamst?”
 code-switching-ask-bilingual-contexts-header = Fragen oer twatalige konteksten
+code-switching-ask-bilingual-contexts-explanation = Brûk situaasjes dêr’t beide talen faak brûkt wurde (bygelyks thús, op skoalle, by mienskipseveneminten). Foarbyld:
+code-switching-ask-bilingual-contexts-explanation-example = ‘As jo mei jo neven en nichten prate, minge jo dan Frysk en Nederlânsk?’
+code-switching-focus-emotional-header = Fokus op emosjonele of wichtige mominten
+code-switching-focus-emotional-explanation = Minsken wikselje faak fan taal as se harren emoasje of urginsje útdrukke. Foarbyld:
+code-switching-focus-emotional-explanation-example = ‘Fertel my wat dyn âlden seine doe’tsto harren dyn grutte nijs ferteldest – krekt hoe’t se it seinen.’
+code-switching-direct-quotes-header = Freegje om direkte sitaten of opnij belibbingen
+code-switching-direct-quotes-explanation = Stimulearje dielnimmers om te reprodusearjen hoe’t dingen echt sein binne. Foarbyld:
+code-switching-direct-quotes-explanation-example = ‘Wat wiene jo eksakte wurden doe’t jo it ûntdutsen?’
+code-switching-cultural-topics-header = Kies kultureel spesifike ûnderwerpen
+code-switching-cultural-topics-explanation = Iten, tradysjes, feestdagen en famyljedynamyk nûgje faak út ta taalwikseling.
+code-switching-cultural-topics-explanation-example = ‘Hoe beskriuwe jo Grutte Pier oan ien dy’t allinnich Ingelsk praat?’
+code-switching-informal-scenarios-header = Undersykje ynformele senario’s
+code-switching-informal-scenarios-explanation = Petearen mei freonen of sms’kes befetsje faak mear natuerlike wikselingen. Foarbyld:
 # What to Avoid
 code-switching-avoid-subheader = Wat te mijen
 code-switching-avoid-intro = Fragen dy’t mooglik:
