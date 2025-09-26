@@ -168,6 +168,22 @@ transcribe-the-audio-subheader-1-explanation = Yn it algemien moatte jo alles op
 transcribe-the-audio-subheader-1-explanation-example-1 = It opskriuwen fan fariaasjes, ynklusyf wifkjen en werhellingen
 transcribe-the-audio-subheader-1-explanation-example-2 = Lûden lykas hoastjen of laitsjen labelje
 transcribe-the-audio-subheader-1-explanation-example-3 = Signifikante lûdsfersmoarging, lykas praat op de eftergrûn of klaksons, labelje
+transcribe-the-audio-subheader-1-explanation-example-4 = Grammatikale fariaasje en strjittetaal moatte krekt sa’t se foarkomme opnommen wurde. Korrizjearje of bewurkje de spraak fan minsken net.
+transcribe-the-audio-subheader-2-explanation-1 = Sifers en symboalen moatte yn wurden stavere wurde yn stee fan sifers of spesjale tekens te brûken. Foarbyld:
+transcribe-the-audio-subheader-2-explanation-2 = Akronimen moatte skreaun wurde sa’t se normaal yn de taal skreaun wurde, neffens de standert haadletterregels. Se moatte net fonetysk transkribearre wurde. Foarbyld:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Korrekt</correct>: it is hûndertsechstich kilometer fan hjir
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Ynkorrekt</wrong>: it is 160 kilometer fan hjir
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Korrekt</correct>: oant sjen yn <underline>twatûzenfyftjin</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Ynkorrekt</wrong>: oant sjen yn <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Korrekt</correct>: it wie tweintich prosint koarting
+transcribe-the-audio-subheader-2-example-3-wrong = <ferkeard>Ynkorrekt</ferkeard>: it wie 20% koarting
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Korrekt</correct>: se waarden ôfrûne tongersdei troch de <underline>AIVD</underline> identifisearre
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Ynkorrekt</wrong>: se waarden ôfrûne tongersdei troch de <underline>aa ie vee dee</underline> identifisearre
+transcribe-the-audio-subheader-3-explanation = De folgjende spesjale labels moatte brûkt wurde om ûnfloeiendheden, opfollingen en oare soarten fan non-ferbale ynhâld (yn it Ingelsk) te markearjen.
 tags-table-header-1 = Label
 tags-table-header-2 = Betsjutting
 tags-laugh = Laitsje
