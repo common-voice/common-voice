@@ -191,11 +191,27 @@ tags-disfluency = Net floeiend
 tags-unclear = Undúdlik
 tags-noise = Rûs
 tags-laugh-explanation = It lûd fan laitsjen.
+tags-disfluency-explanation =
+    In opfolwurd of -lûd dat brûkt wurdt as in tydlike oanwizing wylst in sprekker beslút wat der sizze wurde moat.
+    Yn it Frysk binne inkelde gewoane wifkjende lûden ‘eh’, ‘uhm’, ‘huh’, ‘hè’, ensfh.
+tags-unclear-explanation = In wurd of in rige wurden dy’t net begrepen wurde kin.
+tags-noise-explanation = Elk oar soarte lûd, lykas de sprekker dy’t hoastet of de kiel skrabbet, in auto dy’t toeteret, it lûd fan eat dat tsjin de mikrofoan rekket, in telefoan dy’t bromt, ensfh.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    En doe gie ik [noise] op fakânsje.
+    No ja, [noise] [laugh] it wie net echt in fakânsje [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Spontane spraak befettet fan natuere falske begjinpunten, wêrby’t mar in fragmint fan in folslein wurd produsearre wurdt. Yn dizze gefallen, transkribearje sa goed as jo kinne it wurdfragmint en foegje in streekje ta oan it ein fan it wurd (-) om oan te jaan dat it wurd in falsk begjin is. Foarbyld:
+transcribe-the-audio-subheader-4-explanation-1-example = Syn namme is <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Somtiden sille sprekkers in wurd of wurdfragmint meardere kearen werhelje. Dit moat ek transkribearre wurde. Foarbyld:
+transcribe-the-audio-subheader-4-explanation-2-example = En doe gie ik nei <underline>de de de sliep- de</underline> sliepkeamer
+transcribe-the-audio-subheader-5-explanation-1 = Spontane spraak sil fansels grammatikale flaters befetsje. Dizze moatte net korrizjearre wurde by it transkribearjen. De transkripsje moat de sprutsen ynhâld krekt werjaan.
+transcribe-the-audio-subheader-5-explanation-2 = Sprekkers kinne sprektaal brûke (lykas ‘wa’, ‘oar’, ensfh. yn it Frysk) dy't miskien net as formeel korrekt beskôge wurde. Dizze moatte transkribearre wurde sa’t se binne, en net wizige wurde nei harren formeler ekwifalinten.
 
 ## Review the Transcription
 
 review-the-transcription = De transkripsje beoardiele
 review-the-transcription-subheader = Algemiene rjochtlinen
+review-the-transcription-explanation-1 = Yn it algemien advisearje wy dat de persoan dy’t de transkripsje kontrolearret net deselde persoan is dy’t de orizjinele transkripsje dien hat. It is tige lestich om jo eigen wurk te kontrolearjen! It hawwen fan meardere kontrôlelinen kin helpe om kwaliteitsfersekering robúster te meitsjen en foaroardielen en problemen te ferminderjen.
 
 ## Code-Switching
 
