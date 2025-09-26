@@ -49,6 +49,7 @@ meh = Miksteeksk, Súdwestlik Tlaksiako
 mel = Sintraal-Melanau
 # Locales-Variants
 ms-MY = Bahasa-Maleisk
+el-CY = Syprioatysk Gryksk
 
 ## Language search component
 

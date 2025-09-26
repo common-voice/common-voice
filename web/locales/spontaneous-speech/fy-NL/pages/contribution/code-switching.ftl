@@ -1,9 +1,16 @@
 ## Errors
 
+cs-error-fetching-datasets = Der is wat misgien by it opheljen fan de list mei beskikbere gegevenssets. Probearje it letter opnij.
+cs-error-fetching-questions = Der is wat misgien by it opheljen fan fragen. Probearje it letter opnij.
 cs-error-fetching-transcriptions = Der is wat misgien by it opheljen fan transkripsjes. Probearje it letter opnij.
+
+## Modals
+
+cs-locale-change-modal-subtitle = Jo hawwe net-bewarre wizigingen op dizze side. As jo fan gegevensset wikselje, wurde jo wizigingen net bewarre. Binne jo wis dat jo wikselje wolle?
 
 ## Question Page Items
 
+cs-question-page-instruction = Foegje maksimaal 25 fragen <icon></icon> ta oan de gegevensset foar { $currentLocale } ta dy’t oaren beäntwurdzje kinne
 cs-question-dataset-name = Gegevensset: { $datasetName }
 
 ## Validate Page Items

@@ -145,6 +145,9 @@ join-discord-community = Doch mei mei de Discord-mienskip
 join-discord-community-action = Doch mei ús mei op Discord
 join-discord-community-content = Doch mei oan taalmienskipsdiskusjes, stel fragen en lês oer oankommende eveneminten en petearen.
 find-us-on-matrix = Fyn ús op Matrix
+# label for button
+find-us-on-element-action-1 = Elemint
+find-us-on-matrix-action-2 = Oare clients
 ask-mozilla-share = Freegje Mozilla om jo eveneminten te dielen
 ask-mozilla-share-content = Hawwe jo in foarige of oankommend evenemint? Diel it mei ús en wy sille it oankundigje oan ús mienskip of der in blog oer skriuwe!
 # label for button

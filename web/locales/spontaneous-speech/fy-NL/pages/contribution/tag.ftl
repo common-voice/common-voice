@@ -27,6 +27,7 @@ tag-empty-submit-error = Gjin tekst om yn te tsjinjen. Labelje earst wat tekst.
 cs-tag-do-guideline-1 = Brûk de krekte ortografy
 cs-tag-do-guideline-2 = Brûk útspraak om te helpen
 cs-tag-shortcuts-section-title = Toetseboerdgebrûk
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Label mei taal
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }

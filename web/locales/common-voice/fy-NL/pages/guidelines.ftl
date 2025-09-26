@@ -244,12 +244,14 @@ code-switching-cultural-topics-header = Kies kultureel spesifike ûnderwerpen
 code-switching-cultural-topics-explanation = Iten, tradysjes, feestdagen en famyljedynamyk nûgje faak út ta taalwikseling.
 code-switching-cultural-topics-explanation-example = ‘Hoe beskriuwe jo Grutte Pier oan ien dy’t allinnich Ingelsk praat?’
 code-switching-informal-scenarios-header = Undersykje ynformele senario’s
-code-switching-informal-scenarios-explanation = Petearen mei freonen of sms’kes befetsje faak mear natuerlike wikselingen. Foarbyld:
+code-switching-informal-scenarios-explanation = Petearen mei freonen of appkes befetsje faak mear natuerlike wikselingen. Foarbyld:
+code-switching-informal-scenarios-explanation-example = ‘Hokker grap meitsje jo freonen altyd – en hoe sizze se dat?’
 # What to Avoid
 code-switching-avoid-subheader = Wat te mijen
 code-switching-avoid-intro = Fragen dy’t mooglik:
 code-switching-avoid-1 = Freegje om persoanlik identifisearbere ynformaasje
 code-switching-avoid-2 = Freegje om haatspraak of oare befoaroardiele of beledigjende gefoelens
+code-switching-avoid-3 = Soargje dat ien gefoelige, mooglik aktivearjende antwurden dielt
 code-switching-dont-header = Net dwaan
 code-switching-dont-1 = Brûk gjin te formele taal
 # Reviewing a Question
@@ -266,6 +268,8 @@ code-switching-review-no-2 = Fragen dy’t oansette kinne ta haat of oare befoar
 code-switching-review-no-3 = Fragen dy’t derfoar soargje kinne dat ien gefoelige, mooglik aktivearjende antwurden dielt
 # Answering a Question
 code-switching-answer-subheader = In fraach beäntwurdzje
+code-switching-answer-intro = By it beäntwurdzjen fan in fraach is it doel om natuerlik te reagearjen – krekt lykas jo dwaan soene yn in echt petear. Wy wolle fêstlizze hoe’t talen eins minge yn deistige spraak.
+code-switching-answer-bullet-1 = Tink oan mominten of situaasjes út it echte libben: grappen, diskusjes, tradysjes
 code-switching-authentic-header = Antwurdzje natuerlik en autentyk
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Net tefolle neitinke of oerbewurkje
