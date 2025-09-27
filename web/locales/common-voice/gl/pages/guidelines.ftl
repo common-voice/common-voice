@@ -252,6 +252,7 @@ code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, inclus
 code-switching-answer-bullet-4 = Non existe unha forma "perfecta" de responder.
 code-switching-authentic-header = Responda con naturalidade e autenticidade.
 code-switching-authentic-speak = <bold> Fale como o faría coas amizades ou coa familia. </bold> Se mestura linguas na vida real, faga o mesmo. Exemplo:
+code-switching-authentic-speak-example = "Entonces... díxenlle que non podía ir, e contestoume ela, 'Pero qué me dices!'"
 code-switching-use-both-languages = <bold>Empregue ambas linguas se así o diría normalmente. </bold>, incluso se se trata só de cambiar unha ou dúas palabras. Exemplo:
 code-switching-use-both-languages-example = "Bueno, e usted, que tal vai?"
 code-switching-authentic-direct-quotes = <bold> Inclúa citas directas ou diálogos. </bold> Reproduza as palabras tal e como foron ditas, non as reformule nin ofreza unha versión máis formal. Exemplo:
