@@ -249,6 +249,12 @@ email-opt-in-info-sub-with-challenge = Recibir correos electrónicos como record
 email-opt-in-privacy-v2 = Ao optar por recibir correos, declara que está conforme  con que Mozilla xestione esta información consonte está explicado na <privacyLink>Política de privacidade</privacyLink> de Mozilla.
 indicates-required = * Indica un campo requirido
 not-available-abbreviation = N/D
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Copiar
+# Text shown on a button that can be clicked to cancel an action
+cancel = Cancelar
+# Text shown on a button that can be clicked to delete an item
+delete = Eliminar
 
 ## Donate banner
 
