@@ -34,6 +34,7 @@ validate = Valide
 respond-to-prompt = Responda
 transcribe = Transcriba
 check-transcriptions = Revise transcricións
+tag = Etiqueta
 
 ## Not Found Page
 
