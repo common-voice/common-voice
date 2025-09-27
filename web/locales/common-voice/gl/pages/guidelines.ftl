@@ -6,7 +6,7 @@ sentence-collection = Recollida de frases
 question-collection = Recollida de preguntas
 scripted-speech = Fala guiada
 spontaneous-speech = Fala espontánea
-dont-subheader = Non
+dont-subheader = Evite tamén:
 
 ## Voice Collection nav ids
 
@@ -176,9 +176,9 @@ transcribe-the-audio-subheader-2-example-1-wrong = <incorrecto> Incorrecto </inc
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-correct = <correcto> Correcto</correcto>: Vémonos no  <underline>dous mil quince</underline>.
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto>: Vémonos no <underline>2015</underline>.
+transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Incorrecto</Incorrecto>: Vémonos no <underline>2015</underline>.
 transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do <underline>vinte por cento</underline>.
-transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do <underline>20%</underline>.
+transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Incorrecto</incorrecto>: Tiña un desconto do <underline>20%</underline>.
 transcribe-the-audio-subheader-2-example-4-correct = <correcto>Correcto</correcto>: É xornalista na <underline>RTVG </underline>
 transcribe-the-audio-subheader-2-example-4-wrong = <incorrecto>Incorrecto</incorrecto>: É xornalista na <underline> erre te uve gá </underline>
 transcribe-the-audio-subheader-3-explanation = As seguintes etiquetas especiais deben empregarse para marcar contidos non verbais que forma parte dos discursos orais.
@@ -228,7 +228,7 @@ code-switching-avoid-1 = Solicitar información de identificación persoal.
 code-switching-avoid-2 = Incitar discursos de odio ou outros sentimentos tendenciosos ou ofensivos.
 code-switching-avoid-3 = Favorecer que alguén comparta información sensible ou potencialmente provocadora.
 code-switching-dont-header = Non
-code-switching-dont-1 = Non utilice unha linguaxe demasiado formal.
+code-switching-dont-1 = Utilizar unha linguaxe demasiado formal.
 # Reviewing a Question
 code-switching-review-subheader = Revisar unha pregunta
 code-switching-review-intro = Asegúrese de que a pregunta respecte os seguintes criterios:
