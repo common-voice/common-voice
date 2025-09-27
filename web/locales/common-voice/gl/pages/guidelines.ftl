@@ -229,7 +229,7 @@ code-switching-avoid-intro = Preguntas que poden:
 code-switching-avoid-1 = Solicitar información de identificación persoal.
 code-switching-avoid-2 = Incitar discursos de odio ou outros sentimentos tendenciosos ou ofensivos.
 code-switching-avoid-3 = Favorecer que alguén comparta información sensible ou potencialmente provocadora.
-code-switching-dont-header = Non
+code-switching-dont-header = Que non debe facer:
 code-switching-dont-1 = Utilizar unha linguaxe demasiado formal.
 # Reviewing a Question
 code-switching-review-subheader = Revisar unha pregunta
@@ -259,11 +259,11 @@ code-switching-authentic-reflect = <bold>Reflicta emocións, identidade e contex
 code-switching-authentic-full-context = <bold>Use respostas completas e contextualizadas.</bold> Proporcione a maior cantidade de detalles posible e engada información sobre as circunstancias para que as respostas teñan sentido e sexan comprendidas. Comparta unha anécdota ou un exemplo nas súas respostas.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Non pense nin edite demasiado.
-code-switching-answer-dont-correct-language = <bold> "Corrixa" a súa linguaxe. </bold> Isto non é un exame. Aquí non importa a forma "correcta", o que interesa é a linguaxe natural.
-code-switching-answer-dont-avoid-switching = <bold>Evite cambiar de lingua se o fai normalmente.</bold> Está ben cambiar na metade dunha frase, na metade dun pensamento ou mesmo empregar só unha palabra noutra lingua.
-code-switching-answer-dont-formal-writing = <bold> Fale como se estivera escribindo formalmente.</bold> Evite as respostas formais e académicas. Manteña un ton conversacional.
-code-switching-answer-dont-force-switch = <bold>Force o cambio se non é natural.</bold> Alterne só se así é como falaría naturalmente nesa situación.
-code-switching-answer-dont-translate-repeat = <bold>Traduza ou repite todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
+code-switching-answer-dont-correct-language = <bold> Non "corrixa" a súa linguaxe. </bold> Isto non é un exame. Aquí non importa a forma "correcta", o que interesa é a linguaxe natural.
+code-switching-answer-dont-avoid-switching = <bold>Non evite cambiar de lingua se o fai normalmente.</bold> Está ben cambiar na metade dunha frase, na metade dun pensamento ou mesmo empregar só unha palabra noutra lingua.
+code-switching-answer-dont-formal-writing = <bold> Non fale como se estivese escribindo formalmente.</bold> É dicir, evite as respostas formais e académicas. Manteña un ton conversacional.
+code-switching-answer-dont-force-switch = <bold>Non force o cambio se non é natural.</bold> Alterne só se así é como falaría naturalmente nesa situación.
+code-switching-answer-dont-translate-repeat = <bold>Non traduza ou repita todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
 # Transcribing
 code-switching-transcribe-subheader = Transcribir
 code-switching-transcribe-intro = Ao transcribir as respostas que inclúen alternancias de código, represente o idioma do falante tal e como se pronunciou - sen corrixir, editar ou simplificar. Isto aplica a todos os cambios entre linguas, á fala informal, aos castelanismos etc.
