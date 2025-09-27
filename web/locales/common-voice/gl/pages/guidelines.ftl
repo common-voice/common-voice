@@ -221,6 +221,8 @@ code-switching-adding-question-criteria-1 = Ser doada de entender e responder
 code-switching-adding-question-criteria-2 = Ter relevancia xeral
 code-switching-adding-question-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
 code-switching-adding-question-note = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+# What types of questions to add
+code-switching-types-subheader = Que tipo de preguntas engadir?
 # What to Avoid
 code-switching-avoid-subheader = Que se debe evitar
 code-switching-avoid-intro = Preguntas que poden:
@@ -235,7 +237,7 @@ code-switching-review-intro = Asegúrese de que a pregunta respecte os seguintes
 code-switching-review-criterion-1 = Ser doada de entender e responder.
 code-switching-review-criterion-2 = Ter relevancia xeral.
 code-switching-review-criterion-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva.
-code-switching-review-does-not-header = E isto <bold>NON</bold> inclúe:
+code-switching-review-does-not-header = Asegúrese, ademais, de que <bold>NON</bold> inclúe:
 code-switching-review-offensive-content = <bold> Contido ofensivo ou información sensible </bold>
 code-switching-answer-header = Contido ofensivo ou información sensible
 code-switching-review-no-1 = Preguntas que poidan solicitar información que identifique a unha persoa.
@@ -244,9 +246,9 @@ code-switching-review-no-3 = Preguntas que poidan provocar respostas sensibles e
 # Answering a Question
 code-switching-answer-subheader = Responder unha pregunta
 code-switching-answer-intro = Ao responder unha pregunta, o obxectivo é facelo de maneira natural, como se faría nunha conversa na vida real. Queremos ver como se mesturan as linguas na fala cotiá.
-code-switching-answer-bullet-1 = Pense en momentos ou situacións da vida real: chistes, conversas, costumes, etc.
+code-switching-answer-bullet-1 = Pense en momentos ou situacións da vida real: chistes, conversas, costumes etc.
 code-switching-answer-bullet-2 = Imaxine que está falando coas amizades ou contándolle unha historia a algún coñecido.
-code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, incluso castelanismos, préstamos doutras linguas, etc.
+code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, incluso castelanismos, préstamos doutras linguas etc.
 code-switching-answer-bullet-4 = Non existe unha forma "perfecta" de responder.
 code-switching-authentic-header = Responda con naturalidade e autenticidade.
 code-switching-authentic-speak = <bold> Fale como o faría coas amizades ou coa familia. </bold> Se mestura linguas na vida real, faga o mesmo. Exemplo:
