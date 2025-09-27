@@ -252,7 +252,7 @@ code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, inclus
 code-switching-answer-bullet-4 = Non existe unha forma "perfecta" de responder.
 code-switching-authentic-header = Responda con naturalidade e autenticidade.
 code-switching-authentic-speak = <bold> Fale como o faría coas amizades ou coa familia. </bold> Se mestura linguas na vida real, faga o mesmo. Exemplo:
-code-switching-use-both-languages = <bold>Empregue ambas linguas se así o diría normalmente. </bold> Incluso cambiar unha ou dúas palabras é útil. Exemplo:
+code-switching-use-both-languages = <bold>Empregue ambas linguas se así o diría normalmente. </bold>, incluso se se trata só de cambiar unha ou dúas palabras. Exemplo:
 code-switching-authentic-direct-quotes = <bold> Inclúa citas directas ou diálogos. </bold> Reproduza as palabras tal e como foron ditas, non as reformule nin ofreza unha versión máis formal. Exemplo:
 code-switching-authentic-direct-quotes-example = "Miña nai dixo 'Tú crees que esto es un juego?' e eu estaba como, 'Bueno, calma'"
 code-switching-authentic-reflect = <bold>Reflicta emocións, identidade e contexto.</bold> Os cambios de código e as influencias doutras linguas adoitan aparecer ao expresar emocións, ideas culturais, humor, etc. Apóiese nestes factores ao responder as preguntas.
@@ -280,11 +280,11 @@ code-switching-spelling-header = Use a ortografía estándar para cada lingua
 code-switching-spelling-explanation = Intente escribir as palabras correctamente para cada lingua, a menos que o/a falante as pronuncie claramente dunha maneira non estándar.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Non limpe nin simplifique a linguaxe
-code-switching-cleanup-1 = Traduza ou parafrasee - escriba o que dixo o falante, non o que "quixo dicir".
-code-switching-cleanup-2 = "Corrixa" a gramática ou a pronuncia - manteña o uso natural do falante.
+code-switching-cleanup-1 = Non traduza nin parafrasee - escriba o que dixo o falante, non o que "quixo dicir".
+code-switching-cleanup-2 = Non "corrixa" a gramática ou a pronuncia - manteña o uso natural do falante.
 code-switching-cleanup-3 = Evite cambios que parezan menores ou insignificantes - incluso os préstamos lingüísticos son importantes.
-code-switching-cleanup-4 = Insira signos de puntuación que poidan cambiar o significado - manteña a fluidez.
-code-switching-cleanup-5 = Supoña que coñece a lingua de cada palabra - etiquete segundo o uso.
+code-switching-cleanup-4 = Non insira signos de puntuación que poidan cambiar o significado - manteña a fluidez.
+code-switching-cleanup-5 = Non supoña que coñece a lingua de cada palabra - etiquete segundo o uso.
 # Tagging
 code-switching-tagging-subheader = Etiquetaxe
 code-switching-tagging-error-intro = Se a transcrición contén un erro, empregue a función de reportar para comunicalo. Os posibles erros inclúen:
@@ -294,7 +294,7 @@ code-switching-tagging-error-3 = Palabras escritas con ortografía incorrecta.
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Use a ortografía correcta para cada lingua
 code-switching-orthography-explanation = Escriba cada palabra segundo a ortografía da lingua da que procede. Por exemplo:
-code-switching-orthography-explanation-example-1 = Se a palabra "kitchen" se pronuncia así en galego, debe escribirse respectando a ortografía do galego, e non como "quichen".
+code-switching-orthography-explanation-example-1 = Se a palabra inglesa "kitchen" se pronuncia con fonética galega, debe transcribirse respectando a ortografía do inglés, e non como "quichen".
 code-switching-orthography-explanation-example-2 = Se a palabra "jabalí" se pronuncia así en galego, respecte a ortografía do castelán e non transcriba "xabarín".
 # When Not to Tag Words
 code-switching-not-tag-header = Cando non etiquetar palabras
