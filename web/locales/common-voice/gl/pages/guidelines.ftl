@@ -4,6 +4,7 @@ guidelines-header-subtitle = Comprender como engadir e validar frases e fragment
 voice-collection = Recollida de voces
 sentence-collection = Recollida de frases
 question-collection = Recollida de preguntas
+scripted-speech = Fala guiada
 spontaneous-speech = Fala espontánea
 dont-subheader = Non
 
