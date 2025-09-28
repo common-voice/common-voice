@@ -308,19 +308,46 @@ code-switching-cleanup-header = Skjinje de taal net op en ferienfâldigje dizze 
 code-switching-cleanup-1 = Oersette of parafrasearje – skriuw wat de sprekker sei, net wat dizze ‘bedoelde’.
 code-switching-cleanup-2 = ‘Korrizjearjen’ fan grammatika of útspraak – behâld it natuerlike gebrûk fan de sprekker.
 code-switching-cleanup-3 = Wikselingen dy’t lyts of ûnbelangryk lykje – sels liende wurden binne wichtich.
-code-switching-cleanup-4 = Foegje ynterpunksje yn dy't de betsjutting feroarje kin - hâld de stream natuerlik.
+code-switching-cleanup-4 = Lêstekens ynfoegje dy’t de betsjutting wizigje soene kinne – hâld de flow natuerlik.
+code-switching-cleanup-5 = Oannimme dat jo de taal fan elk wurd kenne – labelje basearre op gebrûk.
 # Tagging
 code-switching-tagging-subheader = Labelje
+code-switching-tagging-error-intro = As de transkripsje in flater befettet, brûk dan de rapportfunksje om it te markearjen. Mooglike flaters binne ûnder oaren:
 code-switching-tagging-error-1 = Ferkearde ynterpunksje of haadletters
 code-switching-tagging-error-2 = Typflaters
 code-switching-tagging-error-3 = Wurden skreaun yn de ferkearde ortografy
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = De krekte ortografy brûke foar elke taal
+code-switching-orthography-explanation = Skriuw elk wurd neffens de stavering fan de taal dêr’t it út komt. Bygelyks:
+code-switching-orthography-explanation-example-1 = As it wurd ‘keuken’ útsprutsen wurdt lykas yn it Spaansk, moat it skreaun wurde as yn it Frysk, net as ‘quichen’.
+code-switching-orthography-explanation-example-2 = As it wurd quinceaños útsprutsen wurdt as yn it Frysk, skriuw it dan mei de ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Brûk de útspraak om de taal te bepalen
+code-switching-pronunciation-explanation = Guon wurden kinne der yn beide talen itselde útsjen, mar kinne oars útsprutsen wurde. Harkje nei de útspraak om de labels korrekt te markearjen. Bygelyks: kabel, taco, akteur, detektive.
 code-switching-pronunciation-explanation-example-1 = Ingelsk: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Spaansk: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Labelje yn in inkeld token
+code-switching-single-token-explanation = In inkelfâldich, troch spaasjes skieden token, moat mear as ien labele span befetsje.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Ynterpunksje labelje op basis fan lokale taal
+code-switching-punctuation-tagging-explanation = Labelje ynterpunksje mei de taal dy’t it meast lofts leit. Foarbylden:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>en de iene kear dat</purple> Maria <purple>tsjin my raasde wie</purple> <blue>omdat</blue> <purple>se besocht om</purple> in <blue>bestelling</blue> te printen.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>mar</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>wat dan ek.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Wês foarsichtich mei lookalikes
+code-switching-lookalikes-explanation = Guon wurden lykje miskien op de iene taal, mar wurde brûkt yn de oare. Labelje basearre op betsjutting en gebrûk, net op uterlik. Foarbylden:
+code-switching-lookalikes-explanation-example-1 = ‘Footing’ betsjutte eartiids rinnen yn it Spaansk > labelje as Spaansk
+code-switching-lookalikes-explanation-example-2 = ‘No problemo’ brûkt yn it Frysk > labelje as Frysk
+# When Not to Tag Words
+code-switching-not-tag-header = Wannear wurden net labelje
+code-switching-not-tag-explanation = Guon wurden moatte <bold>net labele wurde</bold> mei in taallabel, sels as se mingd of oanpast lykje. Hjir is hoe’t jo mei guon foarbylden omgean kinne:
+code-switching-not-tag-proper-names = <bold>Eigennammen.</bold> Nammen fan minsken, plakken en organisaasjes moatte net labele wurde. Foarbylden:
 code-switching-not-tag-proper-names-example-1 = Minsken: Marie, Jan
 code-switching-not-tag-proper-names-example-2 = Plakken: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merken/Organisaasjes: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Mingde of morfologysk oanpaste wurden.</bold> Labelje gjin wurden dy’t talen mingje of útgongen út in oare taal hawwe. Foarbylden:
 code-switching-not-tag-interjections-example-1 = "Eh"
 code-switching-not-tag-interjections-example-2 = "Nee"
 code-switching-not-tag-interjections-example-3 = "Ja"
