@@ -270,7 +270,15 @@ code-switching-review-no-3 = Fragen dy’t derfoar soargje kinne dat ien gefoeli
 code-switching-answer-subheader = In fraach beäntwurdzje
 code-switching-answer-intro = By it beäntwurdzjen fan in fraach is it doel om natuerlik te reagearjen – krekt lykas jo dwaan soene yn in echt petear. Wy wolle fêstlizze hoe’t talen eins minge yn deistige spraak.
 code-switching-answer-bullet-1 = Tink oan mominten of situaasjes út it echte libben: grappen, diskusjes, tradysjes
+code-switching-answer-bullet-2 = Stel jo foar dat jo in berjocht nei in freon stjoere of immen in ferhaal fertelle
+code-switching-answer-bullet-3 = Brûk wurden dy’t jo ek echt brûke soene, sels as se liend of mingd binne
+code-switching-answer-bullet-4 = Der is gjin ‘perfekte’ manier om te antwurdzjen
 code-switching-authentic-header = Antwurdzje natuerlik en autentyk
+code-switching-authentic-speak = <bold>Praat lykas jo mei freonen of famylje prate soene.</bold> As jo yn it echte libben talen mingje, doch dan hjir itselde. Foarbyld:
+code-switching-authentic-speak-example = "Bro, ik sei har lykwols dat ik net gean koe, mar se sei: ‘Do kinst mar better wol komme!’"
+code-switching-use-both-languages = <bold>Brûk beide talen as dat is hoe’t jo it normaal sa sizze soene.</bold> Sels it wikseljen fan mar in wurd of twa is nuttich. Foarbyld:
+code-switching-use-both-languages-example = "Se waard echt lilk, want ik hie har net werombelle."
+code-switching-authentic-direct-quotes = <bold>Foegje direkte sitaten of dialogen ta.</bold> Sis krekt wat immen sein hat, net in opskjinne of formele ferzje. Foarbyld:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Net tefolle neitinke of oerbewurkje
 # Transcribing
