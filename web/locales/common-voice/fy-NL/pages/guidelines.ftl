@@ -294,8 +294,21 @@ code-switching-transcribe-subheader = Transkribearje
 code-switching-transcribe-intro = By it transkribearjen fan antwurden dy’t koadewikseling omfetsje, fertsjintwurdigje de taal fan de sprekker sa’t dy sprutsen waard – sûnder korreksje, bewurking of ferienfâldiging. Dit jildt foar alle wikselingen tusken talen, ynformele spraak en mingde taalwurden.
 code-switching-transcribe-do-1 = Spiel koarte segminten meardere kearen ôf om subtile wikselingen te fangen
 code-switching-transcribe-do-2 = Pauzearje nei elke sin om te kontrolearjen op wikselingen of mingde wurden
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Lis spraak krekt sa fêst as sprutsen
+code-switching-capture-explanation = Transkribearje beide talen sa’t se ferskine / klinke. ‘Reparearje’ de taal net of wizigje it net nei mar ien taal.
+# Include filler words and markers
+code-switching-filler-header = Nim stopwurden en markearringen op
+code-switching-filler-explanation = Wurden lykas ‘um’, ‘witsto’, ‘hè’, ‘sawat fan’ en ‘dus’ binne betsjuttingsfol. Foarbyld: “Dus, eh, ik sei tsjin har ‘no net sus, miskien letter.’”
 # Use standard spelling for each language
 code-switching-spelling-header = Brûk standert stavering foar elke taal
+code-switching-spelling-explanation = Probearje wurden foar elke taal korrekt te staverjen, útsein as de sprekker se dúdlik op in net-standert manier útsprekt.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Skjinje de taal net op en ferienfâldigje dizze net
+code-switching-cleanup-1 = Oersette of parafrasearje – skriuw wat de sprekker sei, net wat dizze ‘bedoelde’.
+code-switching-cleanup-2 = ‘Korrizjearjen’ fan grammatika of útspraak – behâld it natuerlike gebrûk fan de sprekker.
+code-switching-cleanup-3 = Wikselingen dy’t lyts of ûnbelangryk lykje – sels liende wurden binne wichtich.
+code-switching-cleanup-4 = Foegje ynterpunksje yn dy't de betsjutting feroarje kin - hâld de stream natuerlik.
 # Tagging
 code-switching-tagging-subheader = Labelje
 code-switching-tagging-error-1 = Ferkearde ynterpunksje of haadletters
