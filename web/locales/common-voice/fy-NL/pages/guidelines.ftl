@@ -279,10 +279,21 @@ code-switching-authentic-speak-example = "Bro, ik sei har lykwols dat ik net gea
 code-switching-use-both-languages = <bold>Brûk beide talen as dat is hoe’t jo it normaal sa sizze soene.</bold> Sels it wikseljen fan mar in wurd of twa is nuttich. Foarbyld:
 code-switching-use-both-languages-example = "Se waard echt lilk, want ik hie har net werombelle."
 code-switching-authentic-direct-quotes = <bold>Foegje direkte sitaten of dialogen ta.</bold> Sis krekt wat immen sein hat, net in opskjinne of formele ferzje. Foarbyld:
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tú crees que esto es un juego?' en ik tocht, ‘Oké chill!’"
+code-switching-authentic-reflect = <bold>Reflektearje emoasje, identiteit en kontekst.</bold> Wikseljen bart meastal as minsken emoasje, urginsje of kulturele ideeën útdrukke. Hâld hjir rekkening mei by it beäntwurdzjen fan fragen.
+code-switching-authentic-full-context = <bold>Brûk folsleine antwurden mei kontekst.</bold> Wês sa detaillearre mooglik, en jou safolle mooglik details. Diel in ferhaal of foarbyld yn jo antwurden.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Net tefolle neitinke of oerbewurkje
+code-switching-answer-dont-correct-language = <bold>‘Korrizjearje’ jo taalgebrûk.</bold> Dit is gjin test. De ‘Krekte’ foarm makket hjir net út, natuerlike taal wol.
+code-switching-answer-dont-avoid-switching = <bold>Foarkom it wikseljen as jo dat normaal dogge.</bold> It is prima om midden yn in sin, midden yn in gedachte of mar foar ien wurd te wikseljen.
+code-switching-answer-dont-formal-writing = <bold>Sprekke as oft jo formeel skriuwe.</bold> Foarkom formele, akademyske antwurden. Hâld it gemoedlik.
+code-switching-answer-dont-force-switch = <bold>Forsearje wikseljen as it net natuerlik is.</bold> Wikselje allinnich as dat is hoe’t jo yn dy situaasje natuerlik prate soene.
+code-switching-answer-dont-translate-repeat = <bold>Oerset of werhelje alles.</bold> Sis it gewoan ien kear, sa’t it yn in petear komme soe. Jo hoege net in ferzje fan it antwurd yn elke taal te sizzen.
 # Transcribing
 code-switching-transcribe-subheader = Transkribearje
+code-switching-transcribe-intro = By it transkribearjen fan antwurden dy’t koadewikseling omfetsje, fertsjintwurdigje de taal fan de sprekker sa’t dy sprutsen waard – sûnder korreksje, bewurking of ferienfâldiging. Dit jildt foar alle wikselingen tusken talen, ynformele spraak en mingde taalwurden.
+code-switching-transcribe-do-1 = Spiel koarte segminten meardere kearen ôf om subtile wikselingen te fangen
+code-switching-transcribe-do-2 = Pauzearje nei elke sin om te kontrolearjen op wikselingen of mingde wurden
 # Use standard spelling for each language
 code-switching-spelling-header = Brûk standert stavering foar elke taal
 # Tagging
