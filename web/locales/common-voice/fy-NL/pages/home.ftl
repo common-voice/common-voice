@@ -145,6 +145,7 @@ join-discord-community = Doch mei mei de Discord-mienskip
 join-discord-community-action = Doch mei ús mei op Discord
 join-discord-community-content = Doch mei oan taalmienskipsdiskusjes, stel fragen en lês oer oankommende eveneminten en petearen.
 find-us-on-matrix = Fyn ús op Matrix
+find-us-on-matrix-content-v2 = Matrix is in iepen, ljochtgewicht protokol foar desintralisearre kommunikaasje yn realtime, en Mozilla’s favorite iepen diskusjeplatfoarm. Wy binne yn keamer ‘common-voice:mozilla.org’.
 # label for button
 find-us-on-element-action-1 = Elemint
 find-us-on-matrix-action-2 = Oare clients

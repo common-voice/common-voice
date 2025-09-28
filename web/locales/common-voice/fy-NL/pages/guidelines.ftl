@@ -348,6 +348,8 @@ code-switching-not-tag-proper-names-example-1 = Minsken: Marie, Jan
 code-switching-not-tag-proper-names-example-2 = Plakken: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Merken/Organisaasjes: Target, Burger King
 code-switching-not-tag-mixed-words = <bold>Mingde of morfologysk oanpaste wurden.</bold> Labelje gjin wurden dy’t talen mingje of útgongen út in oare taal hawwe. Foarbylden:
+code-switching-not-tag-mixed-words-example = Wêr’t de basis Ingelsk is, mar it efterheaksel Spaansk: "parkear", "printearlo"
+code-switching-not-tag-interjections = <bold>Ynterjeksjes.</bold> Ynterjeksjes en opfolwurden, nettsjinsteande de taal, moatte <bold>net labele bliuwe.</bold> Foarbylden:
 code-switching-not-tag-interjections-example-1 = "Eh"
 code-switching-not-tag-interjections-example-2 = "Nee"
 code-switching-not-tag-interjections-example-3 = "Ja"
@@ -357,3 +359,5 @@ code-switching-not-tag-interjections-example-4 = "Eh"
 
 reporting-content = Ynhâld rapportearje
 reporting-content-subheader = Algemiene rjochtlinen
+reporting-content-explanation-1 = Jo moatte ynhâld markearje dy’t beledigjend, skealik of oars soarchwekkend is. It mei ek gjin persoanlik identifisearjende ynformaasje befetsje lykas telefoannûmers of adressen. It sil út jo ûnderfining fuortsmiten wurde oant it Common Voice-team it kin besjen en fierder ûndersykje.
+reporting-content-explanation-2 = Om ynhâld te melden, selektearje de knop ‘Melde’ en kies ien of alle opsjes: Beledigjende ynhâld, Oar taalgebrûk, Persoanlik identifisearbere ynformaasje, Oars. Jou hjirwei mear details oer wêrom’t jo de ynhâld melde yn it tekstgebiet. Tsjinje dan de melding yn troch te klikken op de knop ‘Melde’.

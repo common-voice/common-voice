@@ -11,15 +11,26 @@ cs-locale-change-modal-subtitle = Jo hawwe net-bewarre wizigingen op dizze side.
 ## Question Page Items
 
 cs-question-page-instruction = Foegje maksimaal 25 fragen <icon></icon> ta oan de gegevensset foar { $currentLocale } ta dy’t oaren beäntwurdzje kinne
+cs-add-question-textarea-placeholder = Fier fragen yn mei taalwikseling, ien per rigel. Minsken sille wierskynliker reagearje mei taalwikseling as de fraach ek taalwikseling befettet.
 cs-question-dataset-name = Gegevensset: { $datasetName }
 
 ## Validate Page Items
 
 cs-validate-page-instruction = Falidearje <validateIcon></validateIcon> dat dizze fraach oan de rjochtlinen foldocht.
 cs-no-questions-continue-skipped = Der binne op dit stuit gjin fragen mear foar dizze gegevensset. As jo ien oerslein hawwe, kinne jo trochgean mei oersleine ynhâld of of audiotranskripsje útfiere en it letter opnij probearje.
+cs-add-vote-error-message = Der is in flater bard by it stimmen op de fraach
+
+## Transcribe Page Items
+
+cs-no-audio-continue-skipped-message = Der is op it stuit gjin audio om te transkribearjen foar dizze gegevensset. As jo ien oerslein hawwe, kinne jo trochgean mei oersleine ynhâld of nei transkripsjes kontrolearje gean en it letter opnij probearje.
+
+## Review Page Items
+
+cs-no-transcriptions-continue-skipped = Der binne op dit stuit gjin transkripsjes foar dizze gegevensset om te kontrolearjen. As jo ien oerslein hawwe, kinne jo trochgean mei oersleine ynhâld of of audiotranskripsje útfiere en it letter opnij probearje.
 
 ## Tag Page Items
 
+cs-no-transcriptions-to-tag-continue-skipped = Der binne op dit stuit gjin transkripsjes foar dizze gegevensset om te labeljen. As jo ien oerslein hawwe, kinne jo trochgean mei oersleine ynhâld of of audiotranskripsje útfiere en it letter opnij probearje.
 cs-tag-dataset-name = Gegevensset [{ $datasetName }]
 
 ## Guidelines
