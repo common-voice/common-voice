@@ -102,3 +102,5 @@ female = زن
 download-contribute-menu-tooltip = مجموعهٔ داده‌های صوتی ما را بارگیری کنید
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = گزینه‌های بارگیری برای دسترسی به دادگان آوای مشترک
+datasets-show-more = نمایش همه مجموعه‌داده‌ها
+datasets-show-less = نمایش جدیدترین مجموعه‌داده‌ها
