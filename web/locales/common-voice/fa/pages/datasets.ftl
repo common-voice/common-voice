@@ -95,6 +95,9 @@ release-version = نگارش
 dataset-date = تاریخ
 license = مجوز: <licenseLink>{ $license }</licenseLink>
 license-mixed = ترکیبی
+# Support old genders in older datasets
+male = مرد
+female = زن
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = مجموعهٔ داده‌های صوتی ما را بارگیری کنید
 # MENU ITEM ARIA LABELS
