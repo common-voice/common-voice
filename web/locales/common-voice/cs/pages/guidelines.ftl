@@ -212,7 +212,23 @@ code-switching-types-subheader = Jaké typy otázek přidat?
 code-switching-use-bilingual-prompts-header = Používejte dvojjazyčné výzvy
 code-switching-use-bilingual-prompts-explanation = Použijte dvojjazyčné dotazy, které do vaší otázky začlení oba jazyky: Příklad:
 code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
+code-switching-cultural-topics-header = Zvolte kulturně specifická témata
+code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
+code-switching-informal-scenarios-header = Prozkoumejte neformální scénáře
+code-switching-informal-scenarios-explanation = Konverzace s přáteli nebo psaní textových zpráv často zahrnuje přirozenější přepínání. Příklad:
 # What to Avoid
 code-switching-avoid-subheader = Čeho se vyvarovat
+code-switching-avoid-intro = Otázky, které by mohly:
+code-switching-dont-header = Snažte se nedělat
+code-switching-dont-1 = Nepoužívejte příliš formální jazyk
 # Reviewing a Question
 code-switching-review-subheader = Kontrola otázek
+code-switching-review-intro = Ujistěte se, že otázka splňuje tato kritéria:
+# Transcribing
+code-switching-transcribe-subheader = Přepis
+code-switching-tagging-error-intro = Pokud přepis obsahuje chybu, použijte prosím funkci nahlásit a nahlaste ji prosím. Mezi možné chyby patří:
+code-switching-tagging-error-1 = Nesprávná interpunkce nebo velikost písmen
+code-switching-tagging-error-2 = Překlepy
+code-switching-tagging-error-3 = Slova napsaná v nesprávném pravopise
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Používání správného pravopisu pro každý jazyk
