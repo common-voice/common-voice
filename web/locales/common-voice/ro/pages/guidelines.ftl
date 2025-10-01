@@ -324,6 +324,8 @@ code-switching-pronunciation-header = Identifică limba vorbită cu ajutorul pro
 code-switching-pronunciation-explanation = Unele cuvinte sunt scrise la fel în ambele limbi, dar sunt pronunțate diferit.   Fii atent(ă) la pronunție pentru a putea eticheta corect limba.   De exemplu: „brand”, „playlist”, „cash”.
 code-switching-pronunciation-explanation-example-1 = în engleză: /brænd/
 code-switching-pronunciation-explanation-example-2 = în română: /brand/
+# Tagging in a Single Token
+code-switching-single-token-header = Etichetarea cuvintelor individuale
 
 ## Reporting Content
 
