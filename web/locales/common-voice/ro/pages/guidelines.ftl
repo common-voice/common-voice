@@ -297,6 +297,9 @@ code-switching-capture-header = Transcrie secvența audio exact așa cum a fost 
 code-switching-capture-explanation = Transcrie ambele limbi exact așa cum apar/sună. Nu „corecta” exprimarea și nu o tradu în română.
 # Include filler words and markers
 code-switching-filler-header = Include cuvintele de umplutură și ezitările
+code-switching-filler-explanation = Cuvine precum „păi”, „deci”, „știi”, „înțelegi”, „ăăă”, „you know”, „like”, „um” sunt utile. De exemplu: „Deci, ăăă, i-am zis, 'like I don't know, maybe later.'"
+# Use standard spelling for each language
+code-switching-spelling-header = Folosește ortografia oficială pentru fiecare limbă
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
