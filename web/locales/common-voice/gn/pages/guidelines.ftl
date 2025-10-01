@@ -144,6 +144,7 @@ answer-questions-tip-1 = Egrava peteĩ tenda hyapu’ỹhápe
 answer-questions-tip-2 = Eiporavo peteĩ tenda eikekuaa hag̃ua internépe
 answer-questions-tip-3b = Erekóke ne ñembohovái 15-30 aravo’ípe
 answer-questions-tip-4 = Emboyke ñe’ẽ vai, pohýi térã ambue oporombopochykuaáva.
+answer-questions-tip-5 = Eñe’ẽ osẽreiháicha, eñe’ẽramoguáicha ne angirũndi; eiporu ne ñe’ẽte, iñambue ha hekoteéva.
 answer-questions-tip-6 = Aníkena eñe’ẽ hatãite: esapukái térã epurahéi.
 # Transcribe the Audio
 transcribe-the-audio = Emonguatia Mba’epu
@@ -153,6 +154,7 @@ transcribe-the-audio-subheader-3 = Teramoĩ iporãvéva
 transcribe-the-audio-subheader-4 = Ñe’ẽ vore, eñepyrũ japúpe, ñe’ẽ oje’e jeyjeýva
 transcribe-the-audio-subheader-5 = Jejajvy ñe’ẽtekuaa ha gueroayvu rehegua
 transcribe-the-audio-subheader-1-explanation = Tuichaháicha, ehaivaʼerã opaite ehendúva guive. Péva ogueroike:
+transcribe-the-audio-subheader-1-explanation-example-1 = Ehai umi ñe’ẽpa’ãpa’ã, oĩkuaahápe jepyta ha je’ejeyjey
 transcribe-the-audio-subheader-1-explanation-example-2 = Embohéra umi tyapu oikóva ikatúva hu’u térã jepuka
 transcribe-the-audio-subheader-1-explanation-example-3 = Embohéra ipu hatãitereígui, tyapu oñehendúva tugua gotyo térã kamiõ vosína
 # text wrapped in correct will be shown as green text in the UI
@@ -175,7 +177,13 @@ tags-unclear = Hesakã’ỹva
 tags-noise = Tyapu
 tags-laugh-explanation = Jepuka ryapu.
 tags-unclear-explanation = Ñe’ẽ térã ñe’ẽ juaju oñeikumbykuaa’ỹva.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Ha upéi aha jepytu’urãme.
+    Upéicha, [tyapu] [puka] ndaha’éikuri ja’eporãrõ jepytu’urã [puka].
 transcribe-the-audio-subheader-4-explanation-1-example = Ha’e héra <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Sapyʼánte, umi ñeʼẽkuaahára he’i jey peteĩ ñe’ẽ térã ñe’ẽpehẽ heta jey. Kóva ohehaiva’erã avei. Tembiecharã:
+transcribe-the-audio-subheader-4-explanation-2-example = Upéi ahákuri <underline>kotýpe</underline> upe jekehápe
 
 ## Review the Transcription
 
@@ -243,6 +251,9 @@ code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 code-switching-spelling-header = Eiporu haikatuete peteĩteĩva ñe’ẽme g̃uarã.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Aníke emopotĩ térã emombyky pe ñe’ẽkuaa
+code-switching-cleanup-1 = Emoñe’ẽasa térã emoambue: ehai pe he’íva ambue tapicha, ndaha’éi “pe he’iséva”.
+code-switching-cleanup-2 = Ñe’ẽtekuaa térã ñe’ẽayvu “oĩporãva”: eiporu osẽ porã hag̃uáicha.
+code-switching-cleanup-3 = Ani emoambue araka’eve jepémo michĩmi: taha’e umi ñe’ẽ porupyre jepe.
 code-switching-cleanup-5 = Eimo’ã eikuaaha ñe’ẽ peteĩteĩva rehegua: embohéra ijeporu rupi.
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre

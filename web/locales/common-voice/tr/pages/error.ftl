@@ -11,3 +11,5 @@ error-content-404 = <homepageLink>Ana sayfamız</homepageLink> işinize yarayabi
 error-title-503 = Beklenmedik bir kesinti yaşıyoruz
 error-content-503 = Site en kısa sürede yeniden açılacaktır. En güncel bilgiler için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, site deneyimiyle ilgili sorunları bildirmek ve izlemek için <githubLink>GitHub</githubLink> veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-code = Hata { $code }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = { $uploaded } kaydınız yüklendi. Diğerleri daha önceden yüklenmiş. Sıradaki partiden devam edebilirsiniz.

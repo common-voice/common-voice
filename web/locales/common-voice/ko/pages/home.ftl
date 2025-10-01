@@ -76,6 +76,9 @@ read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
 
 answer-questions = 질문 답변하기
 review-transcriptions = 번역 검토
+add-questions = 질문 추가
+community-and-languages = 커뮤니티와 언어
+about-us = 소개
 
 ## Hero section
 

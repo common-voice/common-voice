@@ -77,6 +77,9 @@ api-credentials-use-case-3 = Analizando e mellorando modelos de fala
 api-credentials-description-conclusion = Únete a nós para avanzar na tecnoloxía de voz e potenciar máis contribucións dos usuarios.
 create-api-key-button = Crear credenciais da API
 your-api-keys = As túas credenciais da API
+api-key-modal-confirmation-header = Está segura/o?
+copy-api-credential-success-toast-message = Copiouse correctamente
+copy-api-credential-error-toast-message = Erro ao copiar
 # Genders
 male_masculine = Macho/Masculino
 female_feminine = Femia/Feminino
@@ -85,3 +88,13 @@ transgender = Transxénero
 non-binary = Non binario
 do_not_wish_to_say = Prefiro non responder
 other = Outro
+# Age Values
+teens = < 19
+twenties = 19 - 29
+thirties = 30 - 39
+fourties = 40 - 49
+fifties = 50 - 59
+sixties = 60 - 69
+seventies = 70 - 79
+eighties = 80 - 89
+nineties = 90 - 99

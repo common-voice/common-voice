@@ -171,6 +171,9 @@ transcribe-the-audio-subheader-2-explanation-2 = Zkratky by se měly psát tak, 
 transcribe-the-audio-subheader-2-example-1-correct = <správně> Správně</správně>: Je to sto kilometrů odsud.
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <špatně>Špatně</špatně>: Je to 100 kilometrů odsud.
+transcribe-the-audio-subheader-2-example-4-correct = <správně>Správně</správně>: Minulý čtvrtek je zatkla <podtrženo>FBI</podtrženo>.
+transcribe-the-audio-subheader-2-example-4-wrong = <špatně>Špatně</špatně>: Minulý čtvrtek je zatklo <podtrženo>eff bee eye</podtrženo>.
+transcribe-the-audio-subheader-3-explanation = Následující speciální značky by měly být použity k označení nesouvislostí, výplňových slov a dalších typů neverbálního obsahu (v angličtině).
 tags-table-header-1 = Značka
 tags-table-header-2 = Význam
 tags-laugh = Smích
@@ -182,6 +185,16 @@ tags-unclear-explanation = Slovo nebo sled slov, kterému nelze rozumět.
 tags-noise-explanation =
     Jakýkoli jiný typ hluku, například kašlání nebo odkašlávání řečníka,
     troubení auta, zvuk něčeho, co naráží do mikrofonu, bzučení telefonu atd.
+transcribe-the-audio-subheader-4-explanation-1-example = Jeho jméno je <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-5-explanation-1 = Spontánní řeč bude přirozeně obsahovat gramatické chyby. Ty by neměly být při přepisu opravovány. Přepis by měl přesně odrážet mluvený obsah.
+transcribe-the-audio-subheader-5-explanation-2 = Mluvčí může použít hovorové výrazy (například „gonna“, „cuz“ atd.), které nemusí být formálně správné. Ty by měly být přepsány tak, jak jsou, a ne měněny za jejich formálnější ekvivalenty.
+
+## Review the Transcription
+
+review-the-transcription = Kontrola přepisu
+review-the-transcription-subheader = Obecné pokyny
+review-the-transcription-explanation-2 = Přečtěte si pokyny pro přepis výše a zkontrolujte, že je přepis správný. Můžete přidat úpravy a odeslat je.
+review-the-transcription-explanation-3 = Opět platí, že můžete nahlásit obsah, který je urážlivý, škodlivý nebo jinak znepokojující, a ten bude z vaší stránky odstraněn, dokud ho tým Common Voice nezkontroluje a dále neprošetří.
 
 ## Code-Switching
 
@@ -189,11 +202,33 @@ code-switching = Přepínání jazyků
 adding-a-question = Přidávání otázek
 # Adding a Question
 code-switching-adding-question-subheader = Co je dobrá otázka?
+code-switching-adding-question-explanation = Dobrá otázka pro datasety o zapojení veřejnosti by měla:
+code-switching-adding-question-criteria-1 = Být lehko pochopitelná a mělo by být jednoduché na ni reagovat
+code-switching-adding-question-criteria-2 = Být všeobecně relevantní
+code-switching-adding-question-criteria-3 = Nepoužívat nebo nevyžadovat škodlivé nebo urážlivé výrazy
+code-switching-adding-question-note = Můžete též zvážit použití různých kontextů a domén.
 # What types of questions to add
 code-switching-types-subheader = Jaké typy otázek přidat?
 code-switching-use-bilingual-prompts-header = Používejte dvojjazyčné výzvy
 code-switching-use-bilingual-prompts-explanation = Použijte dvojjazyčné dotazy, které do vaší otázky začlení oba jazyky: Příklad:
+code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
+code-switching-cultural-topics-header = Zvolte kulturně specifická témata
+code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
+code-switching-informal-scenarios-header = Prozkoumejte neformální scénáře
+code-switching-informal-scenarios-explanation = Konverzace s přáteli nebo psaní textových zpráv často zahrnuje přirozenější přepínání. Příklad:
 # What to Avoid
 code-switching-avoid-subheader = Čeho se vyvarovat
+code-switching-avoid-intro = Otázky, které by mohly:
+code-switching-dont-header = Snažte se nedělat
+code-switching-dont-1 = Nepoužívejte příliš formální jazyk
 # Reviewing a Question
 code-switching-review-subheader = Kontrola otázek
+code-switching-review-intro = Ujistěte se, že otázka splňuje tato kritéria:
+# Transcribing
+code-switching-transcribe-subheader = Přepis
+code-switching-tagging-error-intro = Pokud přepis obsahuje chybu, použijte prosím funkci nahlásit a nahlaste ji prosím. Mezi možné chyby patří:
+code-switching-tagging-error-1 = Nesprávná interpunkce nebo velikost písmen
+code-switching-tagging-error-2 = Překlepy
+code-switching-tagging-error-3 = Slova napsaná v nesprávném pravopise
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Používání správného pravopisu pro každý jazyk

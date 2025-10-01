@@ -26,4 +26,9 @@ do-not-section-title = net dwaan
 do-not-section-guideline-1 = Freegje om persoanlik identifisearjende ynformaasje (lykas nammen of finansjele ynformaasje)
 do-not-section-guideline-2 = Foaroardielen of beledigjende gefoelens uterje of dernei freegje
 do-not-section-guideline-3 = Gefoelige fragen stelle
+# Code switching Guidelines
+cs-do-section-guideline-1 = Twatalige fragen of kontekst brûke
+cs-do-section-guideline-2 = Ynformele senario’s, situaasjes of opnij belibbingen ferkenne
+cs-do-not-section-guideline-1 = Freegje om persoanlik identifisearjende gegevens (lykas nammen of finansjele ynformaasje) of beledigjende gefoelens
+cs-do-not-section-guideline-2 = Freegje om taalwikseling of oersetting
 cs-do-not-section-guideline-3 = Brûk dúdlik formele taal

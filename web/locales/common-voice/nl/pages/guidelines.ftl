@@ -207,7 +207,7 @@ transcribe-the-audio-subheader-4-explanation-1-example = Zijn naam is <underline
 transcribe-the-audio-subheader-4-explanation-2 = Soms herhalen sprekers een woord of woordfragment meerdere keren. Dit moet ook worden getranscribeerd. Voorbeeld:
 transcribe-the-audio-subheader-4-explanation-2-example = En toen ging ik naar <underline>de de de slaap- de</underline> slaapkamer
 transcribe-the-audio-subheader-5-explanation-1 = Spontane spraak zal van nature grammaticale fouten bevatten. Deze mogen niet worden gecorrigeerd bij het transcriberen. De transcriptie dient de gesproken inhoud exact weer te geven.
-transcribe-the-audio-subheader-5-explanation-2 = Sprekers kunnen spreektaal (zoals ‘wa’, etc.) in het Nederlands), die formeel niet juist is, gebruiken. Deze moeten worden getranscribeerd zoals ze zijn, en niet gewijzigd naar hun meer formele equivalenten.
+transcribe-the-audio-subheader-5-explanation-2 = Sprekers kunnen spreektaal (zoals ‘wa’, ‘me’, etc. in het Nederlands), die formeel niet juist is, gebruiken. Deze moeten worden getranscribeerd zoals ze zijn, en niet gewijzigd naar hun meer formele equivalenten.
 
 ## Review the Transcription
 

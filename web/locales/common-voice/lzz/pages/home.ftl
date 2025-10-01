@@ -70,3 +70,14 @@ username-email-not-demographic = Xmaroceşi Coxo do e-posta-tkvani gamişku data
 welcome-staff = { $company } personelişe ǩaite moxtit!
 login-company = { $company } e-posta adresite Amaxtit / Doliç̌arit
 read-more-about = Çkunişeni butkaşe dido-muşi iǩitxit
+
+## NAV ITEMS
+
+about-us = Çku Mi Boret (Şǩu Mi voret)
+
+## Community section
+
+# label for button
+find-us-on-element-action-1 = Elementi
+# label for button
+download-contribution-certificate-action = Sertifiǩa tkvani keç̌opit

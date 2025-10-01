@@ -11,3 +11,11 @@ error-content-404 = Se cadra a nosa<homepageLink>páxina principal</homepageLink
 error-title-503 = Neste intre sufrimos unha caída do servizo inesperada
 error-content-503 = A páxina volverá a estar activa tan pronto como sexa posible. Para ter as últimas novas, únase ao <matrixLink>chat da comunidade Matrix</matrixLink> ou visite <githubLink>GitHub</githubLink> ou <discourseLink>os nosos foros Discourse </discourseLink> para enviar e monitorizar as incidencias na experiencia de utilización da páxina.
 error-code = Erro { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] O fragmento non se puido subir porque xa fora subido. Imos co seguinte lote!
+       *[other] Non se puideron subir { $total } fragmentos porque xa foran subidos. Imos co seguinte lote!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Subimos { $uploaded } dos seus fragmentos. O resto xa foran subidos. Imos co seguinte lote!

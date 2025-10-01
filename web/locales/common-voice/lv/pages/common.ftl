@@ -456,6 +456,8 @@ not-available-abbreviation = N/A
 copy = Ievietot starpliktuvē
 # Text shown on a button that can be clicked to cancel an action
 cancel = Atcelt
+# Text shown on a button that can be clicked to delete an item
+delete = Dzēst
 
 ## Donate banner
 

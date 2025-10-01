@@ -34,36 +34,67 @@ bce = Mengambo
 bci = Baoule
 be = Belarusuri
 beb = Bamvele
+bew = Betawi
 bfd = Bafut
+bft = Balti
 bg = Bulgaruri
+bgp = Eastern Balochi
+bkh = Bakoko
 bkm = Kom
 bm = Bambaruri
 bn = Bengaluri
+bnm = Batanga
+bnn = Bunun
 bo = Tibet̆uri
 br = Bretonuri
+brh = Brahui
+bri = Mokpwe
+brx = Bodo
 bs = Bosnanuri
+bsh = Kateviri
+bsk = Brushaski
+bsy = Sabah Bisaya
+btv = Bateri
+bum = Bulu
+bxk = Bukusu
 bxr = Buryaturi
 byv = Medumburi
 ca = Katalanuri
 cak = Kakçikeluri
+cdo = Eastern Min
+cgg = Chiga
+cjk = Chokwe
 ckb = Şkaguri Kyurduri
 cnh = Haxa Çinuri
 co = Korsikanuri
+cpx = Heng Hua
+cpy = Asheninka South Ucayali
 crh = Ǩirimuri Tataruri
 cs = Çeǩuri
+cut = Teutila Cuicatec
+cux = Tepeuxila Cuicatec
 cv = Çuvaşuri
 cy = Galuri
 da = Danişuri
 dag = Dağbanuri
+dar = Dargwa
+dav = Kidaw'ida
 de = Alamanuri
+dmk = Dawoodi
+dml = Dameli
+dru = Rukai
 dsb = Tzaleni Sorbinuri
+dua = Duala
 dv = Divexuri
 dyu = Dioluri
+ebr = Ebrie
+ee = Ewe
 el = Xorumuri
 en = İngilizuri
 eo = Esperanturi
 es = Isp̌anyoluri
 et = Est̆onuri
+eto = Eton
 eu = Basǩuri
 ewo = Evonduri
 fa = Farsuri
@@ -156,6 +187,7 @@ os = Oset̆uri
 pa-IN = Pencap̌uri
 pap-AW = Papiamenturi (Aruburi)
 pl = Lexuri
+prq = Asheninka Perene
 ps = Paşturi
 pt = Porteǩizuri
 quc = Kiçuri
@@ -196,6 +228,7 @@ tig = Tigruri
 tk = Turkmenuri
 tl = Tagaloguri
 tn = Sestvanuri
+tob = Toba Qom
 tok = Toki Ponauri
 tr = Turkuri
 ts = Xitsonguri
@@ -217,6 +250,7 @@ vot = Votiǩuri
 wep = Xosauri
 wo = Volofuri
 xh = Xosauri
+xmf = Mergeluri
 yi = Çifut̆uri
 yo = Yoruburi
 yue = Kantonesuri
@@ -258,8 +292,23 @@ email-opt-in-info-sub-with-challenge = Common Voiceşi omondunu do noğire goşi
 email-opt-in-privacy-v2 = E-post̆ape ǩebuli doyat-na Mozillaşi ham çkinapape na tku steri oxmaru-muşis izini na meçameri iyet <privacyLink>Privacy Policy</privacyLink>.
 indicates-required = Ar murutsxite (*) meğareri svalepe opşalu diç̌irs.
 not-available-abbreviation = H/V
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopya doyi
+# Text shown on a button that can be clicked to cancel an action
+cancel = Ok̆oxvi
+# Text shown on a button that can be clicked to delete an item
+delete = Gejili/ Ceşiri
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Domaç̌inan</mark><br/><mark>meşvelu tkvani!</mark>
 localization-select =
     .label = Nena/ svamuşi goşuğit
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla Data Collective's naǩatit
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Ağani tabi gontzit

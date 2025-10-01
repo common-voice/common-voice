@@ -102,6 +102,8 @@ join-discord-community = o kama lon kulupu pi ilo Discord
 # label for button
 join-discord-community-action = o kama lon kulupu pi ilo Discord
 find-us-on-matrix = o kama lon kulupu pi ilo Matrix
+# label for button
+download-contribution-certificate-action = o jo e lipu ni: ona li toki e pona sina
 contribute-github = o pana e sona lon ilo GitHub
 # label for button
 contribute-github-action = o pana e sona lon ilo GitHub

@@ -11,3 +11,5 @@ error-content-404 = Možná vám pomůže naše <homepageLink>domovská stránka
 error-title-503 = Stránka je neočekávaně dočasně nedostupná
 error-content-503 = Budeme zpět jak nejdříve to půjde. Pro nahlášení problému se prosím připojte do naší <matrixLink>skupiny na Matrix serveru</matrixLink>. Nahlášené chyby můžete sledovat také na <githubLink>GitHubu</githubLink> nebo na <discourseLink>fóru Discourse</discourseLink>.
 error-code = Chyba { $code }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Nahráli jsme vaše záznamy ({ $uploaded } ) — Zbytek již nahrán byl. Pojďme pokračovat s další várkou!
