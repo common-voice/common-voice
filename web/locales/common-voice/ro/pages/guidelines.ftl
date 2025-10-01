@@ -310,7 +310,14 @@ code-switching-cleanup-4 = Nu adăuga semne de punctuație care schimbă înțel
 code-switching-cleanup-5 = Nu presupune că poți identifica mereu limba căreia îi aparține fiecare cuvânt! Adaugă etichete în funcție de utilizarea cuvintelor.
 # Tagging
 code-switching-tagging-subheader = Folosirea etichetelor
+code-switching-tagging-error-intro = Atunci când transcrierea conține o greșeală, folosește funcția de Semnalare pentru a evidenția problema. Greșelile pot include:
+code-switching-tagging-error-1 = Folosirea incurectă a semnelor de punctuație și a majusculei
 code-switching-tagging-error-2 = Greșeli de ortografie
+code-switching-tagging-error-3 = Cuvinte scrise cu o ortografie greșită
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Folosirea ortografiei corecte pentru fiecare limbă
+code-switching-orthography-explanation = Transcrie fiecare cuvânt folosind ortografia limbii căreia îi aparține. De exemplu:
+code-switching-orthography-explanation-example-1 = Dacă este folosit cuvântul englezesc „kitchen”, acesta trebuie transcris potrivit ortografiei engleze, nu române (deci nu scrie „chicen”)!
 
 ## Reporting Content
 
