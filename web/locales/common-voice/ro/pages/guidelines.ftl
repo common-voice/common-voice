@@ -279,6 +279,9 @@ code-switching-use-both-languages-example = „S-a supărat grozav because nu am
 code-switching-authentic-direct-quotes = <bold>Folosește ghilimelele sau liniile de dialog.</bold> Redă exact ce a spus cineva, nu o versiune modificată sau formală. De exemplu:
 code-switching-authentic-direct-quotes-example = „Mi-a spus boyfriendul, ‘Do you think this is a game?’ și eu i-am răspuns: ‘Ok, chill!’”
 code-switching-authentic-reflect = <bold>Păstrează emoția, identitatea și contextul.</bold> Întrepătrunderea de limbi se întâmplă atunci când cineva exprimă emoții puternice, sau povestește situații de criză, sau relatează aspecte cu specific cultural. Lasă-te inspirat de aceste practici atunci când răspunzi la întrebări.
+code-switching-authentic-full-context = <bold>Răspunde complet, detaliat, oferind cât mai mult context.</bold> Poți să incluzi și o întâmplare sau un exemplu în răspunsul tău.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nu-ți edita prea mult răspunsul și nu te gândi prea mult la cum sună.
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
