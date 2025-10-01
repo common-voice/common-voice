@@ -340,6 +340,11 @@ code-switching-lookalikes-explanation-example-1 = „footing” pare a fi un cuv
 code-switching-lookalikes-explanation-example-2 = italianul „no problemo” folosit în engleză > etichetează ca engleză
 # When Not to Tag Words
 code-switching-not-tag-header = Cuvinte care nu trebuie etichetate
+code-switching-not-tag-explanation = Unele cuvinte <bold>nu trebuie etichetate</bold> pentru a le indica limba, chiar dacă par combinate sau adaptate. Iată câteva exemple:
+code-switching-not-tag-proper-names = <bold>Substantivele proprii.</bold> Numele de persoane, locuri și organizații nu trebuie etichetate. De exemplu:
+code-switching-not-tag-proper-names-example-1 = Persoane: Maria, John
+code-switching-not-tag-proper-names-example-2 = Locuri: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Mărci/firme/organizații:   Target, Burger King, Flanco
 
 ## Reporting Content
 
