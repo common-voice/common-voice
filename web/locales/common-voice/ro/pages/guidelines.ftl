@@ -287,6 +287,10 @@ code-switching-answer-dont-avoid-switching = <bold>Nu înceta să combini mai mu
 code-switching-answer-dont-formal-writing = <bold>Nu vorbi de parcă ai redacta o scrisoare oficială!</bold> Evită răspunsurile academice, formale! Păstrează un ton conversațional!
 code-switching-answer-dont-force-switch = <bold>Nu folosi cuvinte din alte limbi dacă de obicei nu o faci!</bold> Combină limbile doar dacă așa ai face-o în mod obișnuit!
 code-switching-answer-dont-translate-repeat = <bold>Nu tradu și nu repeta tot ce spui într-o limbă și în cealaltă!</bold> Spune ce ai de spus o singură dată, folosing cuvintele tale obișnuite, așa cum ai face-o într-o conversație! Nu este nevoie să înregistrezi în fiecare limbă o versiune separată a răspunsului.
+# Transcribing
+code-switching-transcribe-subheader = Cum să transcrii înregistrările existente
+code-switching-transcribe-intro = Când transcrii răspunsuri în care vorbitorul folosește mai multe limbi, sarcina ta este de a reprezenta felul autentic în care s-a vorbit: nu corecta, schimba, sau simplifica ce auzi! Aceasta include toate combinațiile de cuvinte din diverse limbi, precum și construcțiile colocviale.
+code-switching-transcribe-do-1 = Ascultă înregistrarea de mai multe ori pentru a nu scăpa astfel de particularități!
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
