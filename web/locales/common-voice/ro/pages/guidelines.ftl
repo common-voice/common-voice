@@ -330,6 +330,11 @@ code-switching-single-token-explanation = Un singur cuvânt nu trebuie să conț
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Etichetează punctuația în funcție de limba folosită până atunci
 code-switching-punctuation-tagging-explanation = Folosește aceeași etichetă de limbă pentru semnul de punctuație ca și pentru cuvintele imediat precedente. De exemplu:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>singura dată când</purple> Maria <purple>a strigat la mine a fost</purple> <blue>porque</blue> <purple>încerca</purple> printear <blue>un</blue> <purple>comandă.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>dar</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>în fine.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Atenție la „pasageri clandestini”!
 
 ## Reporting Content
 
