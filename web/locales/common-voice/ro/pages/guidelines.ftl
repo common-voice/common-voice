@@ -282,6 +282,11 @@ code-switching-authentic-reflect = <bold>Păstrează emoția, identitatea și co
 code-switching-authentic-full-context = <bold>Răspunde complet, detaliat, oferind cât mai mult context.</bold> Poți să incluzi și o întâmplare sau un exemplu în răspunsul tău.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Nu-ți edita prea mult răspunsul și nu te gândi prea mult la cum sună.
+code-switching-answer-dont-correct-language = <bold>Nu îți corecta exprimarea!</bold> Când te înregistrezi pentru Common Voice, nu dai un examen. Forma „corectă” sau „elevată” de a vorbi nu este esențială. Ceea ce contează este felul cum vorbești de obicei.
+code-switching-answer-dont-avoid-switching = <bold>Nu înceta să combini mai multe limbi dacă așa vorbești tu de obicei!</bold> Nu este nici o problemă dacă introduci unul sau mai multe cuvinte din altă limbă la un moment dat.
+code-switching-answer-dont-formal-writing = <bold>Nu vorbi de parcă ai redacta o scrisoare oficială!</bold> Evită răspunsurile academice, formale! Păstrează un ton conversațional!
+code-switching-answer-dont-force-switch = <bold>Nu folosi cuvinte din alte limbi dacă de obicei nu o faci!</bold> Combină limbile doar dacă așa ai face-o în mod obișnuit!
+code-switching-answer-dont-translate-repeat = <bold>Nu tradu și nu repeta tot ce spui într-o limbă și în cealaltă!</bold> Spune ce ai de spus o singură dată, folosing cuvintele tale obișnuite, așa cum ai face-o într-o conversație! Nu este nevoie să înregistrezi în fiecare limbă o versiune separată a răspunsului.
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
