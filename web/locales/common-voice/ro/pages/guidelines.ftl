@@ -305,6 +305,11 @@ code-switching-spelling-explanation = Scrie corect în fiecare limbă cuvintele 
 code-switching-cleanup-header = Nu corecta și nu simplifica limba!
 code-switching-cleanup-1 = Nu tradu și nu parafraza! Scrie ce chiar a spus vorbitorul, nu ce „a vrut să spună”.
 code-switching-cleanup-2 = Nu „corecta” gramatica sau pronunția vorbitorului! Păstrează exprimarea sa originală!
+code-switching-cleanup-3 = Nu sări peste și nu ignora mici schimbări de limbă care pare nesemnificative! Fiecare cuvânt împrumutat din altă limbă contează.
+code-switching-cleanup-4 = Nu adăuga semne de punctuație care schimbă înțelesul propozițiilor! Păstrează naturalețea și cursivitatea exprimării inițiale!
+code-switching-cleanup-5 = Nu presupune că poți identifica mereu limba căreia îi aparține fiecare cuvânt! Adaugă etichete în funcție de utilizarea cuvintelor.
+# Tagging
+code-switching-tagging-subheader = Folosirea etichetelor
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
