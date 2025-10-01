@@ -327,6 +327,9 @@ code-switching-pronunciation-explanation-example-2 = în română: /brand/
 # Tagging in a Single Token
 code-switching-single-token-header = Etichetarea cuvintelor individuale
 code-switching-single-token-explanation = Un singur cuvânt nu trebuie să conțină mai multe etichete.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Etichetează punctuația în funcție de limba folosită până atunci
+code-switching-punctuation-tagging-explanation = Folosește aceeași etichetă de limbă pentru semnul de punctuație ca și pentru cuvintele imediat precedente. De exemplu:
 
 ## Reporting Content
 
