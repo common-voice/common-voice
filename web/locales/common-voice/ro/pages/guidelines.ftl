@@ -300,6 +300,11 @@ code-switching-filler-header = Include cuvintele de umplutură și ezitările
 code-switching-filler-explanation = Cuvine precum „păi”, „deci”, „știi”, „înțelegi”, „ăăă”, „you know”, „like”, „um” sunt utile. De exemplu: „Deci, ăăă, i-am zis, 'like I don't know, maybe later.'"
 # Use standard spelling for each language
 code-switching-spelling-header = Folosește ortografia oficială pentru fiecare limbă
+code-switching-spelling-explanation = Scrie corect în fiecare limbă cuvintele pe care le auzi, cu excepția situațiilor în care vorbitorul le pronunță într-un mod clar neobișnuit.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nu corecta și nu simplifica limba!
+code-switching-cleanup-1 = Nu tradu și nu parafraza! Scrie ce chiar a spus vorbitorul, nu ce „a vrut să spună”.
+code-switching-cleanup-2 = Nu „corecta” gramatica sau pronunția vorbitorului! Păstrează exprimarea sa originală!
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
