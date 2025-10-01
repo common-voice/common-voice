@@ -326,6 +326,7 @@ code-switching-pronunciation-explanation-example-1 = în engleză: /brænd/
 code-switching-pronunciation-explanation-example-2 = în română: /brand/
 # Tagging in a Single Token
 code-switching-single-token-header = Etichetarea cuvintelor individuale
+code-switching-single-token-explanation = Un singur cuvânt nu trebuie să conțină mai multe etichete.
 
 ## Reporting Content
 
