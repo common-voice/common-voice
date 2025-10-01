@@ -291,6 +291,12 @@ code-switching-answer-dont-translate-repeat = <bold>Nu tradu și nu repeta tot c
 code-switching-transcribe-subheader = Cum să transcrii înregistrările existente
 code-switching-transcribe-intro = Când transcrii răspunsuri în care vorbitorul folosește mai multe limbi, sarcina ta este de a reprezenta felul autentic în care s-a vorbit: nu corecta, schimba, sau simplifica ce auzi! Aceasta include toate combinațiile de cuvinte din diverse limbi, precum și construcțiile colocviale.
 code-switching-transcribe-do-1 = Ascultă înregistrarea de mai multe ori pentru a nu scăpa astfel de particularități!
+code-switching-transcribe-do-2 = Pune pauză după fiecare propoziție și verifică în caz că vorbitorul a folosit în vreun fel subtil și alte limbi în răspunsul său.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Transcrie secvența audio exact așa cum a fost înregistrată
+code-switching-capture-explanation = Transcrie ambele limbi exact așa cum apar/sună. Nu „corecta” exprimarea și nu o tradu în română.
+# Include filler words and markers
+code-switching-filler-header = Include cuvintele de umplutură și ezitările
 code-switching-tagging-error-2 = Greșeli de ortografie
 
 ## Reporting Content
