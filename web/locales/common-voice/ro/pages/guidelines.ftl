@@ -318,6 +318,9 @@ code-switching-tagging-error-3 = Cuvinte scrise cu o ortografie greșită
 code-switching-orthography-header = Folosirea ortografiei corecte pentru fiecare limbă
 code-switching-orthography-explanation = Transcrie fiecare cuvânt folosind ortografia limbii căreia îi aparține. De exemplu:
 code-switching-orthography-explanation-example-1 = Dacă este folosit cuvântul englezesc „kitchen”, acesta trebuie transcris potrivit ortografiei engleze, nu române (deci nu scrie „chicen”)!
+code-switching-orthography-explanation-example-2 = Dacă este folosit cuvântul „smartphone”, chiar dacă se pronunță cu „f” și în română și în engleză, el trebuie scris folosind ortografia engleză, cu „ph”. IMPORTANT: în transcrierea română trebuie folosite corect toate semnele diacritice.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Identifică limba vorbită cu ajutorul pronunției
 
 ## Reporting Content
 
