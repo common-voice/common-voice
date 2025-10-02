@@ -82,3 +82,5 @@ release-version = Wersja
 dataset-date = Data
 license = Licencja: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mieszana
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Pobierz nasze zbiory danych głosowych
