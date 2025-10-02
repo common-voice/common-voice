@@ -348,6 +348,7 @@ sr = Serbisk
 ss = Svati
 ssi = Sansi
 st = Sotho
+su = Sundanesisk
 sv-SE = Svensk
 sva = Svan
 sw = Swahili
