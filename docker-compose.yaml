@@ -20,6 +20,8 @@ services:
     restart: unless-stopped
     networks:
       - voice-web
+    ports:
+      - 6379:6379
   storage:
     image: fsouza/fake-gcs-server
     container_name: storage
