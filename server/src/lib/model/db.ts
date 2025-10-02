@@ -24,7 +24,6 @@ import {
 } from '../../application/repository/variant-repository'
 import { TimeUnits } from 'common'
 
-
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500
@@ -325,11 +324,11 @@ export default class DB {
       taxonomySentences.length >= count
         ? []
         : await this.findSentencesWithFewClips(
-          client_id,
-          locale_id,
-          count + EXTRA_COUNT - taxonomySentences.length,
-          exemptFromSSRL
-        )
+            client_id,
+            locale_id,
+            count + EXTRA_COUNT - taxonomySentences.length,
+            exemptFromSSRL
+          )
 
     // exclude recently recorded sentences by the user (from Redis cache) to overcome race conditions
     const redisSet = await redisSetMembers(
@@ -490,11 +489,11 @@ export default class DB {
       taxonomySentences.length >= count
         ? []
         : await this.findClipsWithFewVotes(
-          client_id,
-          locale_id,
-          count - taxonomySentences.length,
-          exemptFromSSRL
-        )
+            client_id,
+            locale_id,
+            count - taxonomySentences.length,
+            exemptFromSSRL
+          )
 
     return taxonomySentences.concat(regularSentences)
   }
@@ -914,7 +913,8 @@ export default class DB {
             `
               SELECT COUNT(*) AS total, ${to} AS date
               FROM clips
-              WHERE created_at BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''
+              WHERE created_at BETWEEN ${from} AND ${to} ${
+              locale ? 'AND locale_id = ?' : ''
             }
             `,
             [localeId]
@@ -987,8 +987,8 @@ export default class DB {
           FROM (
             SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
             FROM (${hours
-        .map(i => `SELECT ${i} AS hour`)
-        .join(' UNION ')}) hours
+              .map(i => `SELECT ${i} AS hour`)
+              .join(' UNION ')}) hours
           ) date_alias
           LEFT JOIN (
             SELECT created_at
@@ -1317,6 +1317,29 @@ export default class DB {
     }, {})
 
     return mappedVariants
+  }
+
+  async getAllPredefinedAccents() {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT id,
+          accent_token AS token,
+          accent_name  AS name,
+          locale_id
+        FROM accents
+        WHERE NOT user_submitted
+          AND accent_token != 'unspecified'
+      `
+    )
+    if (!rows || (rows as any[]).length === 0) {
+      return []
+    }
+    return (rows as any[]).map(r => ({
+      id: r.id,
+      token: r.token,
+      name: r.name,
+      locale_id: r.locale_id,
+    }))
   }
 
   async getAccents(client_id: string, locale?: string) {

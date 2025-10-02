@@ -279,7 +279,72 @@ code-switching-use-both-languages-example = „S-a supărat grozav because nu am
 code-switching-authentic-direct-quotes = <bold>Folosește ghilimelele sau liniile de dialog.</bold> Redă exact ce a spus cineva, nu o versiune modificată sau formală. De exemplu:
 code-switching-authentic-direct-quotes-example = „Mi-a spus boyfriendul, ‘Do you think this is a game?’ și eu i-am răspuns: ‘Ok, chill!’”
 code-switching-authentic-reflect = <bold>Păstrează emoția, identitatea și contextul.</bold> Întrepătrunderea de limbi se întâmplă atunci când cineva exprimă emoții puternice, sau povestește situații de criză, sau relatează aspecte cu specific cultural. Lasă-te inspirat de aceste practici atunci când răspunzi la întrebări.
+code-switching-authentic-full-context = <bold>Răspunde complet, detaliat, oferind cât mai mult context.</bold> Poți să incluzi și o întâmplare sau un exemplu în răspunsul tău.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nu-ți edita prea mult răspunsul și nu te gândi prea mult la cum sună.
+code-switching-answer-dont-correct-language = <bold>Nu îți corecta exprimarea!</bold> Când te înregistrezi pentru Common Voice, nu dai un examen. Forma „corectă” sau „elevată” de a vorbi nu este esențială. Ceea ce contează este felul cum vorbești de obicei.
+code-switching-answer-dont-avoid-switching = <bold>Nu înceta să combini mai multe limbi dacă așa vorbești tu de obicei!</bold> Nu este nici o problemă dacă introduci unul sau mai multe cuvinte din altă limbă la un moment dat.
+code-switching-answer-dont-formal-writing = <bold>Nu vorbi de parcă ai redacta o scrisoare oficială!</bold> Evită răspunsurile academice, formale! Păstrează un ton conversațional!
+code-switching-answer-dont-force-switch = <bold>Nu folosi cuvinte din alte limbi dacă de obicei nu o faci!</bold> Combină limbile doar dacă așa ai face-o în mod obișnuit!
+code-switching-answer-dont-translate-repeat = <bold>Nu tradu și nu repeta tot ce spui într-o limbă și în cealaltă!</bold> Spune ce ai de spus o singură dată, folosing cuvintele tale obișnuite, așa cum ai face-o într-o conversație! Nu este nevoie să înregistrezi în fiecare limbă o versiune separată a răspunsului.
+# Transcribing
+code-switching-transcribe-subheader = Cum să transcrii înregistrările existente
+code-switching-transcribe-intro = Când transcrii răspunsuri în care vorbitorul folosește mai multe limbi, sarcina ta este de a reprezenta felul autentic în care s-a vorbit: nu corecta, schimba, sau simplifica ce auzi! Aceasta include toate combinațiile de cuvinte din diverse limbi, precum și construcțiile colocviale.
+code-switching-transcribe-do-1 = Ascultă înregistrarea de mai multe ori pentru a nu scăpa astfel de particularități!
+code-switching-transcribe-do-2 = Pune pauză după fiecare propoziție și verifică în caz că vorbitorul a folosit în vreun fel subtil și alte limbi în răspunsul său.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Transcrie secvența audio exact așa cum a fost înregistrată
+code-switching-capture-explanation = Transcrie ambele limbi exact așa cum apar/sună. Nu „corecta” exprimarea și nu o tradu în română.
+# Include filler words and markers
+code-switching-filler-header = Include cuvintele de umplutură și ezitările
+code-switching-filler-explanation = Cuvine precum „păi”, „deci”, „știi”, „înțelegi”, „ăăă”, „you know”, „like”, „um” sunt utile. De exemplu: „Deci, ăăă, i-am zis, 'like I don't know, maybe later.'"
+# Use standard spelling for each language
+code-switching-spelling-header = Folosește ortografia oficială pentru fiecare limbă
+code-switching-spelling-explanation = Scrie corect în fiecare limbă cuvintele pe care le auzi, cu excepția situațiilor în care vorbitorul le pronunță într-un mod clar neobișnuit.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nu corecta și nu simplifica limba!
+code-switching-cleanup-1 = Nu tradu și nu parafraza! Scrie ce chiar a spus vorbitorul, nu ce „a vrut să spună”.
+code-switching-cleanup-2 = Nu „corecta” gramatica sau pronunția vorbitorului! Păstrează exprimarea sa originală!
+code-switching-cleanup-3 = Nu sări peste și nu ignora mici schimbări de limbă care pare nesemnificative! Fiecare cuvânt împrumutat din altă limbă contează.
+code-switching-cleanup-4 = Nu adăuga semne de punctuație care schimbă înțelesul propozițiilor! Păstrează naturalețea și cursivitatea exprimării inițiale!
+code-switching-cleanup-5 = Nu presupune că poți identifica mereu limba căreia îi aparține fiecare cuvânt! Adaugă etichete în funcție de utilizarea cuvintelor.
+# Tagging
+code-switching-tagging-subheader = Folosirea etichetelor
+code-switching-tagging-error-intro = Atunci când transcrierea conține o greșeală, folosește funcția de Semnalare pentru a evidenția problema. Greșelile pot include:
+code-switching-tagging-error-1 = Folosirea incurectă a semnelor de punctuație și a majusculei
 code-switching-tagging-error-2 = Greșeli de ortografie
+code-switching-tagging-error-3 = Cuvinte scrise cu o ortografie greșită
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Folosirea ortografiei corecte pentru fiecare limbă
+code-switching-orthography-explanation = Transcrie fiecare cuvânt folosind ortografia limbii căreia îi aparține. De exemplu:
+code-switching-orthography-explanation-example-1 = Dacă este folosit cuvântul englezesc „kitchen”, acesta trebuie transcris potrivit ortografiei engleze, nu române (deci nu scrie „chicen”)!
+code-switching-orthography-explanation-example-2 = Dacă este folosit cuvântul „smartphone”, chiar dacă se pronunță cu „f” și în română și în engleză, el trebuie scris folosind ortografia engleză, cu „ph”. IMPORTANT: în transcrierea română trebuie folosite corect toate semnele diacritice.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Identifică limba vorbită cu ajutorul pronunției
+code-switching-pronunciation-explanation = Unele cuvinte sunt scrise la fel în ambele limbi, dar sunt pronunțate diferit.   Fii atent(ă) la pronunție pentru a putea eticheta corect limba.   De exemplu: „brand”, „playlist”, „cash”.
+code-switching-pronunciation-explanation-example-1 = în engleză: /brænd/
+code-switching-pronunciation-explanation-example-2 = în română: /brand/
+# Tagging in a Single Token
+code-switching-single-token-header = Etichetarea cuvintelor individuale
+code-switching-single-token-explanation = Un singur cuvânt nu trebuie să conțină mai multe etichete.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Etichetează punctuația în funcție de limba folosită până atunci
+code-switching-punctuation-tagging-explanation = Folosește aceeași etichetă de limbă pentru semnul de punctuație ca și pentru cuvintele imediat precedente. De exemplu:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>singura dată când</purple> Maria <purple>a strigat la mine a fost</purple> <blue>porque</blue> <purple>încerca</purple> printear <blue>un</blue> <purple>comandă.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>dar</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>în fine.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Atenție la „pasageri clandestini”!
+code-switching-lookalikes-explanation = Unele cuvinte pot apărea ca aparținând unei limbi, dar de fapt sunt folosite într-o alta. Etichetează-le în funcție de înțelesul și uzul lor și nu în funcție de cum apar. De exemplu:
+code-switching-lookalikes-explanation-example-1 = „footing” pare a fi un cuvânt englezesc, dar s-a folosit în spaniolă cu sensul de „a alerga”. El trebuie deci etichetat ca fiind un cuvânt aparținând limbii spaniole.
+code-switching-lookalikes-explanation-example-2 = italianul „no problemo” folosit în engleză > etichetează ca engleză
+# When Not to Tag Words
+code-switching-not-tag-header = Cuvinte care nu trebuie etichetate
+code-switching-not-tag-explanation = Unele cuvinte <bold>nu trebuie etichetate</bold> pentru a le indica limba, chiar dacă par combinate sau adaptate. Iată câteva exemple:
+code-switching-not-tag-proper-names = <bold>Substantivele proprii.</bold> Numele de persoane, locuri și organizații nu trebuie etichetate. De exemplu:
+code-switching-not-tag-proper-names-example-1 = Persoane: Maria, John
+code-switching-not-tag-proper-names-example-2 = Locuri: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Mărci/firme/organizații:   Target, Burger King, Flanco
 
 ## Reporting Content
 
