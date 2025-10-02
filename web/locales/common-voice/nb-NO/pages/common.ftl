@@ -133,6 +133,7 @@ gwt = Gawarbaiti
 gya = Nordvest Gbaya
 ha = Hausa
 hac = Gorani
+hak = Hakka
 haz = Hazargi
 hch = Wixárika
 he = Hebraisk
