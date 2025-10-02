@@ -20,4 +20,5 @@ do-not-section-guideline-2 = 发表或引导发表偏见及冒犯性观点
 do-not-section-guideline-3 = 询问敏感信息
 cs-do-section-guideline-2 = 探索非正式场景、情境或重现场景。
 cs-do-not-section-guideline-1 = 索取个人身份信息（例如姓名和财务信息）或带有冒犯性的言论
+cs-do-not-section-guideline-2 = 请求语码转换或翻译
 cs-do-not-section-guideline-3 = 使用过于正式的用语
