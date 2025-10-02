@@ -122,6 +122,7 @@ export default class API {
     router.post('/user_client/takeout/request', this.requestTakeout)
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
 
+    router.get('/language/accents/predefined', this.getAllPredefinedAccents)
     router.get('/language/accents/:locale?', this.getAccents)
     router.get('/language/variants/:locale?', this.getVariants)
     router.post(
@@ -729,6 +730,11 @@ export default class API {
   getServerDate = (request: Request, response: Response) => {
     // prevents contributors manipulating dates in client
     response.json(new Date())
+  }
+
+  getAllPredefinedAccents = async (req: Request, response: Response) => {
+    console.log('=== getAllPredefinedAccents ===')
+    response.json(await this.model.db.getAllPredefinedAccents())
   }
 
   getAccents = async (req: Request, response: Response) => {
