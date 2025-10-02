@@ -305,6 +305,9 @@ code-switching-spelling-explanation = ພະຍາຍາມສະກົດຄໍ
 code-switching-cleanup-header = ຢ່າທຳຄວາມສະອາດ ຫຼື ເຮັດໃຫ້ພາສາງ່າຍຂຶ້ນ
 code-switching-cleanup-1 = ແປ ຫຼື ແປ - ຂຽນສິ່ງທີ່ຜູ້ເວົ້າເວົ້າ, ບໍ່ແມ່ນສິ່ງທີ່ພວກເຂົາ "ຫມາຍຄວາມວ່າ."
 code-switching-cleanup-2 = ໄວຍະກອນ ຫຼື ການອອກສຽງ "ຖືກຕ້ອງ" - ຮັກສາການນໍາໃຊ້ທໍາມະຊາດຂອງຜູ້ເວົ້າ.
+code-switching-cleanup-3 = ຂ້າມປຸ່ມທີ່ເບິ່ງຄືວ່າເລັກນ້ອຍຫຼືນ້ອຍ - ເຖິງແມ່ນວ່າຄໍາທີ່ຢືມກໍ່ມີຄວາມສໍາຄັນ.
+code-switching-cleanup-4 = ໃສ່ເຄື່ອງໝາຍວັກຕອນທີ່ສາມາດປ່ຽນຄວາມໝາຍ - ຮັກສາການໄຫຼເຂົ້າຕາມທຳມະຊາດ.
+code-switching-cleanup-5 = ສົມມຸດວ່າທ່ານຮູ້ພາສາຂອງທຸກຄໍາ - tag ໂດຍອີງໃສ່ການນໍາໃຊ້.
 # Tagging
 code-switching-tagging-subheader = ແທັກ
 code-switching-tagging-error-2 = ພິມຜິດ
