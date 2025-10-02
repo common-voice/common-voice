@@ -21,6 +21,8 @@ Many language communities are self organising and have their contact channels on
 - Bengali (`bn`):
   - [Matrix](https://app.element.io/#/room/#bn-common-voice:mozilla.org)
   - [Discord](https://discord.gg/uacmNh6KQj)
+- Bandari, Achomi and other languages of Hormozan and its neighborhood:
+  - [Telegram](https://t.me/hormozganCV)
 - Cantonese (`yue`):
   - [Telegram](https://t.me/commonvoiceyue)
   - [Instagram](https://www.instagram.com/commonvoice.yue/)
