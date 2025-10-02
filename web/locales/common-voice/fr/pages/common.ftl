@@ -133,6 +133,7 @@ gwt = Gawar-bati
 gya = Gbaya du Nord-Ouest
 ha = Haoussa
 hac = Gurani
+hak = Hakka
 haz = Hazaragi
 hch = Huichol
 he = Hébreu
