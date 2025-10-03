@@ -3,6 +3,8 @@
 write = Skriv
 sentence =
     .label = Sætning
+citation =
+    .label = Kildehenvisning
 sc-write-submit-confirm = Jeg bekræfter, at denne sætning er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade den.
 sc-review-write-title = Hvilke sætninger kan jeg tilføje?
 sc-review-small-batch-title = Sådan tilføjer du flere sætninger
@@ -34,6 +36,8 @@ service_retail = Service og detailhandel
 general = Generelt
 # Sentence Domain dropdown option
 healthcare = Sundhed
+# Sentence Domain dropdown option
+history_law_government = Historie, lov og ledelse
 # Sentence Domain dropdown option
 media_entertainment = Medier og underholdning
 # Sentence Domain dropdown option
