@@ -6765,10 +6765,10 @@ dotenv@^5.0.1:
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-5.0.1.tgz"
   integrity sha512-4As8uPrjfwb7VXC+WnLCbXK7y+Ueb2B3zgNCePYfhxS1PYeaO1YTeplffTEcbfLhvFNGLAz90VvJs9yomG7bow==
 
-downshift@9.0.8:
-  version "9.0.8"
-  resolved "https://registry.npmjs.org/downshift/-/downshift-9.0.8.tgz"
-  integrity sha512-59BWD7+hSUQIM1DeNPLirNNnZIO9qMdIK5GQ/Uo8q34gT4B78RBlb9dhzgnh0HfQTJj4T/JKYD8KoLAlMWnTsA==
+downshift@9.0.10:
+  version "9.0.10"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-9.0.10.tgz#44e4d34bba63c1b7cd5a41ea4bead1b569ae061c"
+  integrity sha512-TP/iqV6bBok6eGD5tZ8boM8Xt7/+DZvnVNr8cNIhbAm2oUBd79Tudiccs2hbcV9p7xAgS/ozE7Hxy3a9QqS6Mw==
   dependencies:
     "@babel/runtime" "^7.24.5"
     compute-scroll-into-view "^3.1.0"
