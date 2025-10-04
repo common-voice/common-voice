@@ -224,6 +224,7 @@ code-switching-types-subheader = Jaké typy otázek přidat?
 code-switching-use-bilingual-prompts-header = Používejte dvojjazyčné výzvy
 code-switching-use-bilingual-prompts-explanation = Použijte dvojjazyčné dotazy, které do vaší otázky začlení oba jazyky: Příklad:
 code-switching-ask-bilingual-contexts-header = Ptejte se na dvojjazyčné kontexty
+code-switching-ask-bilingual-contexts-explanation = Používejte v situacích, kdy se oba jazyky běžně používají (např. doma, ve škole, na akcích ve společnosti). Příklad:
 code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
 code-switching-cultural-topics-header = Zvolte kulturně specifická témata
 code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
@@ -237,8 +238,20 @@ code-switching-dont-1 = Nepoužívejte příliš formální jazyk
 # Reviewing a Question
 code-switching-review-subheader = Kontrola otázek
 code-switching-review-intro = Ujistěte se, že otázka splňuje tato kritéria:
+# Answering a Question
+code-switching-answer-subheader = Odpovídání na otázku
+code-switching-answer-intro = Při odpovídání na otázku je cílem reagovat přirozeně – stejně jako v reálném rozhovoru. Chceme zachytit, jak se jazyky skutečně mísí v každodenní řeči.
+code-switching-answer-bullet-1 = Vzpomeňte si na skutečné okamžiky nebo situace: vtipy, hádky, zvyky
+code-switching-answer-bullet-2 = Představte si, že píšete zprávu příteli nebo někomu vyprávíte příběh
+code-switching-answer-bullet-3 = Používejte slova, která byste skutečně použili, i když vypůjčená nebo smíšená
+code-switching-answer-bullet-4 = Neexistuje žádný „dokonalý“ způsob, jak odpovědět
+code-switching-authentic-header = Odpovídejte přirozeně a autenticky
+code-switching-authentic-speak = <bold>Mluvte s přáteli nebo rodinou obvyklým způsobem.</bold> Pokud používáte různé jazyky i ve skutečnosti, udělejte totéž. Příklad:
 # Transcribing
 code-switching-transcribe-subheader = Přepis
+# Use standard spelling for each language
+code-switching-spelling-header = Používejte standardní pravopis pro každý jazyk
+code-switching-spelling-explanation = Snažte se slova v každém jazyce psát správně, pokud je mluvčí nevyslovuje zřetelně nestandardním způsobem.
 code-switching-tagging-error-intro = Pokud přepis obsahuje chybu, použijte prosím funkci nahlásit a nahlaste ji prosím. Mezi možné chyby patří:
 code-switching-tagging-error-1 = Nesprávná interpunkce nebo velikost písmen
 code-switching-tagging-error-2 = Překlepy
