@@ -79,6 +79,7 @@ create-api-key-button = Emoheñói API rerachaukaha
 your-api-keys = Herachaukaha API rehegua
 api-key-name-input =
     .label = API réra ohechaukáva
+create-api-key-header = <bold>Marandu’i iporãrasáva: API réra ñemoheñói</bold>
 generate-api-key-button = Emoheñói terachaukaha
 save-api-key-info = <bold>Eñongatu nde pe’aha tekorosãme</bold>
 api-key-name-display-label = API réra ohechaukáva

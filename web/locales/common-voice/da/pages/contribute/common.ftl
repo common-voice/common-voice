@@ -33,6 +33,7 @@ vote-no = Nej
 datasets = Datasæt
 languages = Sprog
 about = Om
+partner = Partner
 submit-form-action = Indsend
 
 ## Reporting

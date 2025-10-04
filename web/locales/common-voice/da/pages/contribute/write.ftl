@@ -1,8 +1,12 @@
 ## WRITE PAGE
 
 write = Skriv
+write-instruction = Tilføj <icon></icon> en sætning uden ophavsret
+write-page-subtitle = Sætninger, som tilføjes her, bliver en del af et offentligt tilgængeligt datasæt med licensen cc-0.
 sentence =
     .label = Sætning
+citation =
+    .label = Kildehenvisning
 sc-write-submit-confirm = Jeg bekræfter, at denne sætning er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade den.
 sc-review-write-title = Hvilke sætninger kan jeg tilføje?
 sc-review-small-batch-title = Sådan tilføjer du flere sætninger
@@ -35,11 +39,15 @@ general = Generelt
 # Sentence Domain dropdown option
 healthcare = Sundhed
 # Sentence Domain dropdown option
+history_law_government = Historie, lov og ledelse
+# Sentence Domain dropdown option
 media_entertainment = Medier og underholdning
 # Sentence Domain dropdown option
 nature_environment = Natur og miljø
 # Sentence Domain dropdown option
 news_current_affairs = Nyheder og aktuelt
+# Sentence Domain dropdown option
+technology_robotics = Teknologi og robotter
 sentence-variant-select-label = Sætningsvariant
 sentence-variant-select-placeholder = Vælg en variant (valgfrit)
 sentence-variant-select-multiple-variants = Generelt sprog / flere varianter
@@ -51,6 +59,7 @@ sc-bulk-upload-header = Upload <icon></icon> sætninger i det offentlige domæne
 sc-bulk-upload-instruction = Træk din fil hertil eller <uploadButton>klik for at uploade</uploadButton>
 sc-bulk-upload-instruction-drop = Slip filen her for at uploade
 bulk-upload-additional-information = Hvis der er yderligere oplysninger, du vil give om denne fil, så kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Hvis der er yderligere oplysninger, du vil tilføje om denne fil, som ikke er inkluderet i skabelonen, så kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Prøv igen ved at trække din fil hertil
 try-upload-again-md = Prøv at uploade igen
 select-file = Vælg fil
