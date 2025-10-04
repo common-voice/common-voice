@@ -194,7 +194,9 @@ tags-unclear-explanation = Slovo nebo sled slov, kterému nelze rozumět.
 tags-noise-explanation =
     Jakýkoli jiný typ hluku, například kašlání nebo odkašlávání řečníka,
     troubení auta, zvuk něčeho, co naráží do mikrofonu, bzučení telefonu atd.
+transcribe-the-audio-subheader-4-explanation-1 = Spontánní řeč přirozeně obsahuje falešné starty, při kterých je z celého slova tvořen pouze zlomek. V těchto případech prosím přepište dle svých nejlepších schopností daný fragment slova a připojte slovo na konec slova pomlčkou (-), abyste označili, že slovo není chybný začátek. Příklad:
 transcribe-the-audio-subheader-4-explanation-1-example = Jeho jméno je <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Někdy mluvčí opakují slovo nebo jeho část vícekrát. I to je třeba přepsat. Příklad:
 transcribe-the-audio-subheader-5-explanation-1 = Spontánní řeč bude přirozeně obsahovat gramatické chyby. Ty by neměly být při přepisu opravovány. Přepis by měl přesně odrážet mluvený obsah.
 transcribe-the-audio-subheader-5-explanation-2 = Mluvčí může použít hovorové výrazy (například „gonna“, „cuz“ atd.), které nemusí být formálně správné. Ty by měly být přepsány tak, jak jsou, a ne měněny za jejich formálnější ekvivalenty.
 
@@ -202,6 +204,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Mluvčí může použít hovoro
 
 review-the-transcription = Kontrola přepisu
 review-the-transcription-subheader = Obecné pokyny
+review-the-transcription-explanation-1 = Obecně doporučujeme, že osoba, která kontroluje přepis, by neměla být stejná jako původní přepis. Je velmi těžké zkontrolovat vlastní práci! Více kontrol může pomoci vylepšit kontrolu kvality a pomoci zmírnit předsudky a problémy.
 review-the-transcription-explanation-2 = Přečtěte si pokyny pro přepis výše a zkontrolujte, že je přepis správný. Můžete přidat úpravy a odeslat je.
 review-the-transcription-explanation-3 = Opět platí, že můžete nahlásit obsah, který je urážlivý, škodlivý nebo jinak znepokojující, a ten bude z vaší stránky odstraněn, dokud ho tým Common Voice nezkontroluje a dále neprošetří.
 
