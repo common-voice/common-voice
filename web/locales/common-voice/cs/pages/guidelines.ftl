@@ -171,6 +171,12 @@ transcribe-the-audio-subheader-2-explanation-2 = Zkratky by se měly psát tak, 
 transcribe-the-audio-subheader-2-example-1-correct = <správně> Správně</správně>: Je to sto kilometrů odsud.
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <špatně>Špatně</špatně>: Je to 100 kilometrů odsud.
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <správně> Správně</správně>: Uvidíme se v roce <podtrženo>dvatisícepatnáct</podtrženo>.
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Chybně</wrong>: Uvidíme se v roce <underline>2015</underline>.
+transcribe-the-audio-subheader-2-example-3-correct = <správně>Správně</správně>: Bylo to zlevněno o dvacet procent
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Špatně</wrong>: Bylo to zlevněno o 20 %.
 transcribe-the-audio-subheader-2-example-4-correct = <správně>Správně</správně>: Minulý čtvrtek je zatkla <podtrženo>FBI</podtrženo>.
 transcribe-the-audio-subheader-2-example-4-wrong = <špatně>Špatně</špatně>: Minulý čtvrtek je zatklo <podtrženo>eff bee eye</podtrženo>.
 transcribe-the-audio-subheader-3-explanation = Následující speciální značky by měly být použity k označení nesouvislostí, výplňových slov a dalších typů neverbálního obsahu (v angličtině).
@@ -181,6 +187,9 @@ tags-disfluency = Neplynulost
 tags-unclear = Nejasné
 tags-noise = Hluk
 tags-laugh-explanation = Zvuk smíchu.
+tags-disfluency-explanation =
+    Výplňové slovo nebo zvuk, který slouží jako zástupný znak, zatímco se mluvčí rozhoduje, co říct.
+    V angličtině jsou běžné váhavé zvuky jako “err”, “um“, “huh” atd.
 tags-unclear-explanation = Slovo nebo sled slov, kterému nelze rozumět.
 tags-noise-explanation =
     Jakýkoli jiný typ hluku, například kašlání nebo odkašlávání řečníka,
