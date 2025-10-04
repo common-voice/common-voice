@@ -78,6 +78,7 @@ read-more-about = تەپسىلاتنى بىزنىڭ توغرىسىدا بېتى�
 answer-questions = سوئالغا جاۋاب <small>(پات يېقىندا قوشۇلىدۇ)</small>
 review-transcriptions = تېكىست خاتىرىسىنى تەكشۈر<small>(پات يېقىندا قوشۇلىدۇ)</small>
 add-questions = سوئال قوش<small>(پات يېقىندا قوشۇلىدۇ)</small>
+review-questions = سوئالنى تەكشۈر
 transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 press-and-stories = خەۋەر ۋە ماقالە
 community-and-languages = جامائەت ۋە تىل
@@ -132,6 +133,8 @@ join-discord-community = Discord جامائىتىگە قوشۇلۇڭ
 join-discord-community-action = Discord تا بىزگە قوشۇلۇڭ
 join-discord-community-content = تىل جامائىتى سۆھبىتىگە قاتنىشىپ، سوئال سوراڭ، كەلگۈسىدىكى پائالىيەت ۋە سۆھبەتلەر ھەققىدىكى ئۇچۇرلارنى ئىگىلەڭ.
 find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
+# label for button
+find-us-on-element-action-1 = ئېلېمېنت
 ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
 ask-mozilla-share-content = ئالدىنقى ياكى پات يېقىندا ئۆتكۈزۈلىدىغان پائالىيەت بارمۇ؟ بىزگە ھەمبەھىرلەڭ، ئۇنى جامائىتىمىزگە ئۇقتۇرىمىز ياكى شۇ توغرۇلۇق بىلوگ يازىمىز!
 # label for button

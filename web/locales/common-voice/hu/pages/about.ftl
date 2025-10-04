@@ -54,7 +54,7 @@ about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek
 about-nav-get-involved = Csatlakozzon
 about-nav-how-it-works-2 = Hogyan működik a Common Voice?
-about-nav-playbook = Tudja meg, hogyan vehetsz részt
+about-nav-playbook = Tudja meg, hogyan vehet részt
 
 ## Community Playbook Content
 ## What is a language

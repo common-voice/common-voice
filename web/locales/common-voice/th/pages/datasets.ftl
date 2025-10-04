@@ -95,7 +95,12 @@ release-version = รุ่น
 dataset-date = วันที่
 license = สัญญาอนุญาต: <licenseLink>{ $license }</licenseLink>
 license-mixed = ผสม
+# Support old genders in older datasets
+male = ชาย
+female = หญิง
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = ดาวน์โหลดชุดข้อมูลเสียงของเรา
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = ตัวเลือกการดาวน์โหลดสำหรับการเข้าถึงข้อมูล Common Voice
+datasets-show-more = แสดงชุดข้อมูลทั้งหมด
+datasets-show-less = แสดงชุดข้อมูลล่าสุด

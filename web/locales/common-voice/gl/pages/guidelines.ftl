@@ -4,8 +4,9 @@ guidelines-header-subtitle = Comprender como engadir e validar frases e fragment
 voice-collection = Recollida de voces
 sentence-collection = Recollida de frases
 question-collection = Recollida de preguntas
+scripted-speech = Fala guiada
 spontaneous-speech = Fala espontánea
-dont-subheader = Non
+dont-subheader = Evite tamén:
 
 ## Voice Collection nav ids
 
@@ -175,9 +176,9 @@ transcribe-the-audio-subheader-2-example-1-wrong = <incorrecto> Incorrecto </inc
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-correct = <correcto> Correcto</correcto>: Vémonos no  <underline>dous mil quince</underline>.
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Wrong</Incorrecto>: Vémonos no <underline>2015</underline>.
+transcribe-the-audio-subheader-2-example-2-wrong = <Incorrecto>Incorrecto</Incorrecto>: Vémonos no <underline>2015</underline>.
 transcribe-the-audio-subheader-2-example-3-correct = <correcto>Correcto</correcto>: Tiña un desconto do <underline>vinte por cento</underline>.
-transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Wrong</incorrecto>: Tiña un desconto do <underline>20%</underline>.
+transcribe-the-audio-subheader-2-example-3-wrong = <incorrecto>Incorrecto</incorrecto>: Tiña un desconto do <underline>20%</underline>.
 transcribe-the-audio-subheader-2-example-4-correct = <correcto>Correcto</correcto>: É xornalista na <underline>RTVG </underline>
 transcribe-the-audio-subheader-2-example-4-wrong = <incorrecto>Incorrecto</incorrecto>: É xornalista na <underline> erre te uve gá </underline>
 transcribe-the-audio-subheader-3-explanation = As seguintes etiquetas especiais deben empregarse para marcar contidos non verbais que forma parte dos discursos orais.
@@ -220,21 +221,23 @@ code-switching-adding-question-criteria-1 = Ser doada de entender e responder
 code-switching-adding-question-criteria-2 = Ter relevancia xeral
 code-switching-adding-question-criteria-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva
 code-switching-adding-question-note = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
+# What types of questions to add
+code-switching-types-subheader = Que tipo de preguntas engadir?
 # What to Avoid
 code-switching-avoid-subheader = Que se debe evitar
 code-switching-avoid-intro = Preguntas que poden:
 code-switching-avoid-1 = Solicitar información de identificación persoal.
 code-switching-avoid-2 = Incitar discursos de odio ou outros sentimentos tendenciosos ou ofensivos.
 code-switching-avoid-3 = Favorecer que alguén comparta información sensible ou potencialmente provocadora.
-code-switching-dont-header = Non
-code-switching-dont-1 = Non utilice unha linguaxe demasiado formal.
+code-switching-dont-header = Que non debe facer:
+code-switching-dont-1 = Utilizar unha linguaxe demasiado formal.
 # Reviewing a Question
 code-switching-review-subheader = Revisar unha pregunta
 code-switching-review-intro = Asegúrese de que a pregunta respecte os seguintes criterios:
 code-switching-review-criterion-1 = Ser doada de entender e responder.
 code-switching-review-criterion-2 = Ter relevancia xeral.
 code-switching-review-criterion-3 = Non empregar nin fomentar linguaxe prexudicial ou ofensiva.
-code-switching-review-does-not-header = E isto <bold>NON</bold> inclúe:
+code-switching-review-does-not-header = Asegúrese, ademais, de que <bold>NON</bold> inclúe:
 code-switching-review-offensive-content = <bold> Contido ofensivo ou información sensible </bold>
 code-switching-answer-header = Contido ofensivo ou información sensible
 code-switching-review-no-1 = Preguntas que poidan solicitar información que identifique a unha persoa.
@@ -243,24 +246,26 @@ code-switching-review-no-3 = Preguntas que poidan provocar respostas sensibles e
 # Answering a Question
 code-switching-answer-subheader = Responder unha pregunta
 code-switching-answer-intro = Ao responder unha pregunta, o obxectivo é facelo de maneira natural, como se faría nunha conversa na vida real. Queremos ver como se mesturan as linguas na fala cotiá.
-code-switching-answer-bullet-1 = Pense en momentos ou situacións da vida real: chistes, conversas, costumes, etc.
+code-switching-answer-bullet-1 = Pense en momentos ou situacións da vida real: chistes, conversas, costumes etc.
 code-switching-answer-bullet-2 = Imaxine que está falando coas amizades ou contándolle unha historia a algún coñecido.
-code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, incluso castelanismos, préstamos doutras linguas, etc.
+code-switching-answer-bullet-3 = Empregue palabras que realmente usaría, incluso castelanismos, préstamos doutras linguas etc.
 code-switching-answer-bullet-4 = Non existe unha forma "perfecta" de responder.
 code-switching-authentic-header = Responda con naturalidade e autenticidade.
 code-switching-authentic-speak = <bold> Fale como o faría coas amizades ou coa familia. </bold> Se mestura linguas na vida real, faga o mesmo. Exemplo:
-code-switching-use-both-languages = <bold>Empregue ambas linguas se así o diría normalmente. </bold> Incluso cambiar unha ou dúas palabras é útil. Exemplo:
+code-switching-authentic-speak-example = "Entonces... díxenlle que non podía ir, e contestoume ela, 'Pero qué me dices!'"
+code-switching-use-both-languages = <bold>Empregue ambas linguas se así o diría normalmente. </bold>, incluso se se trata só de cambiar unha ou dúas palabras. Exemplo:
+code-switching-use-both-languages-example = "Bueno, e usted, que tal vai?"
 code-switching-authentic-direct-quotes = <bold> Inclúa citas directas ou diálogos. </bold> Reproduza as palabras tal e como foron ditas, non as reformule nin ofreza unha versión máis formal. Exemplo:
 code-switching-authentic-direct-quotes-example = "Miña nai dixo 'Tú crees que esto es un juego?' e eu estaba como, 'Bueno, calma'"
 code-switching-authentic-reflect = <bold>Reflicta emocións, identidade e contexto.</bold> Os cambios de código e as influencias doutras linguas adoitan aparecer ao expresar emocións, ideas culturais, humor, etc. Apóiese nestes factores ao responder as preguntas.
 code-switching-authentic-full-context = <bold>Use respostas completas e contextualizadas.</bold> Proporcione a maior cantidade de detalles posible e engada información sobre as circunstancias para que as respostas teñan sentido e sexan comprendidas. Comparta unha anécdota ou un exemplo nas súas respostas.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Non pense nin edite demasiado.
-code-switching-answer-dont-correct-language = <bold> "Corrixa" a súa linguaxe. </bold> Isto non é un exame. Aquí non importa a forma "correcta", o que interesa é a linguaxe natural.
-code-switching-answer-dont-avoid-switching = <bold>Evite cambiar de lingua se o fai normalmente.</bold> Está ben cambiar na metade dunha frase, na metade dun pensamento ou mesmo empregar só unha palabra noutra lingua.
-code-switching-answer-dont-formal-writing = <bold> Fale como se estivera escribindo formalmente.</bold> Evite as respostas formais e académicas. Manteña un ton conversacional.
-code-switching-answer-dont-force-switch = <bold>Force o cambio se non é natural.</bold> Alterne só se así é como falaría naturalmente nesa situación.
-code-switching-answer-dont-translate-repeat = <bold>Traduza ou repite todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
+code-switching-answer-dont-correct-language = <bold> Non "corrixa" a súa linguaxe. </bold> Isto non é un exame. Aquí non importa a forma "correcta", o que interesa é a linguaxe natural.
+code-switching-answer-dont-avoid-switching = <bold>Non evite cambiar de lingua se o fai normalmente.</bold> Está ben cambiar na metade dunha frase, na metade dun pensamento ou mesmo empregar só unha palabra noutra lingua.
+code-switching-answer-dont-formal-writing = <bold> Non fale como se estivese escribindo formalmente.</bold> É dicir, evite as respostas formais e académicas. Manteña un ton conversacional.
+code-switching-answer-dont-force-switch = <bold>Non force o cambio se non é natural.</bold> Alterne só se así é como falaría naturalmente nesa situación.
+code-switching-answer-dont-translate-repeat = <bold>Non traduza ou repita todo.</bold> Dígao só unha vez, como se diría nunha conversa. Non é necesario dar a mesma resposta nas dúas linguas.
 # Transcribing
 code-switching-transcribe-subheader = Transcribir
 code-switching-transcribe-intro = Ao transcribir as respostas que inclúen alternancias de código, represente o idioma do falante tal e como se pronunciou - sen corrixir, editar ou simplificar. Isto aplica a todos os cambios entre linguas, á fala informal, aos castelanismos etc.
@@ -277,11 +282,11 @@ code-switching-spelling-header = Use a ortografía estándar para cada lingua
 code-switching-spelling-explanation = Intente escribir as palabras correctamente para cada lingua, a menos que o/a falante as pronuncie claramente dunha maneira non estándar.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Non limpe nin simplifique a linguaxe
-code-switching-cleanup-1 = Traduza ou parafrasee - escriba o que dixo o falante, non o que "quixo dicir".
-code-switching-cleanup-2 = "Corrixa" a gramática ou a pronuncia - manteña o uso natural do falante.
+code-switching-cleanup-1 = Non traduza nin parafrasee - escriba o que dixo o falante, non o que "quixo dicir".
+code-switching-cleanup-2 = Non "corrixa" a gramática ou a pronuncia - manteña o uso natural do falante.
 code-switching-cleanup-3 = Evite cambios que parezan menores ou insignificantes - incluso os préstamos lingüísticos son importantes.
-code-switching-cleanup-4 = Insira signos de puntuación que poidan cambiar o significado - manteña a fluidez.
-code-switching-cleanup-5 = Supoña que coñece a lingua de cada palabra - etiquete segundo o uso.
+code-switching-cleanup-4 = Non insira signos de puntuación que poidan cambiar o significado - manteña a fluidez.
+code-switching-cleanup-5 = Non supoña que coñece a lingua de cada palabra - etiquete segundo o uso.
 # Tagging
 code-switching-tagging-subheader = Etiquetaxe
 code-switching-tagging-error-intro = Se a transcrición contén un erro, empregue a función de reportar para comunicalo. Os posibles erros inclúen:
@@ -291,7 +296,7 @@ code-switching-tagging-error-3 = Palabras escritas con ortografía incorrecta.
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Use a ortografía correcta para cada lingua
 code-switching-orthography-explanation = Escriba cada palabra segundo a ortografía da lingua da que procede. Por exemplo:
-code-switching-orthography-explanation-example-1 = Se a palabra "kitchen" se pronuncia así en galego, debe escribirse respectando a ortografía do galego, e non como "quichen".
+code-switching-orthography-explanation-example-1 = Se a palabra inglesa "kitchen" se pronuncia con fonética galega, debe transcribirse respectando a ortografía do inglés, e non como "quichen".
 code-switching-orthography-explanation-example-2 = Se a palabra "jabalí" se pronuncia así en galego, respecte a ortografía do castelán e non transcriba "xabarín".
 # When Not to Tag Words
 code-switching-not-tag-header = Cando non etiquetar palabras

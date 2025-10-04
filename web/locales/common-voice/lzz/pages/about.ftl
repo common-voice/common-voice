@@ -23,7 +23,7 @@ about-dataset-release-subtitle = Datamarç̌a sum tutaşe ar gamavoşkumt.
 about-subscribe-text = Common Voice-ǩala ǩont̆aǩt̆i giğut̆an gorumt-i?
 about-speak = İsinapi | Ğarğali | İxap̌ari
 about-speak-text = Memşvelupek, xarsuveri cumlepete pşeri ar bankaşen iǩitxaman do ǩlibepe doloç̌aruman.
-about-listen-queue = Oşǩinuşi ǩudeli | Osiminuşi ǩudeli
+about-listen-queue = Oucuşi ǩudeli | Oşǩinuşi ǩudeli | Osiminuşi ǩudeli
 about-listen-queue-text = Xomaşi ǩlibepe, hentepe oşǩinu şeni na xadzirums ar nocğone ǩudelis amilven.
 about-listen = İşǩini (İuci/ İsimini)
 about-listen-text = Maxmarepe, msinapuk cumle tzori iǩitxu-i ya do kontroli ikums do xarsuveri ǩlibepeşi tzorinoba tzorinums.
@@ -56,7 +56,7 @@ about-nav-playbook = Muç̌o na eǩvant̆alaten digurit
 ## What is a language
 
 about-playbook-what-is-language = Common Voices nena mu oren?
-about-playbook-what-is-language-content-1 = Nena omsifonu şeni çkva do çkva gzalepe renan.
+about-playbook-what-is-language-content-1 = Nena omsifonu şeni çkva do çkva gzalepe renan. Common Voice “artiǩati oxotzonu” vana “Ham nena na isinamanpek p̌anda artiǩatişi oxotzonaman-i?” ya do nizmonaman.
 about-playbook-what-is-language-content-2 = Nenape şeni vorsi dulyape oxenu minonan.
 about-playbook-what-is-language-content-3 = Bazi nenapes çkva do çkva variantepe uğunan. Hamuşeni çku <ctaLink>goçinapamt ‘Variants’</ctaLink> in 2022.
 
@@ -86,21 +86,36 @@ about-playbook-how-localize-content-5 = Meşvelu şeni video gamognaponi-çkunis
 about-playbook-how-add-sentences = Cumlepe muç̌o eǩevuç̌arare?
 about-playbook-how-add-sentences-content-1 = <strong>Cumle Mǩorobu</strong>, monduli cumlepe oǩorobu do otzuranu şeni ixmaren. İpti <scAccountLink>ar xesabi gontzaten</scAccountLink>. Uǩule nena tkvani <strong>profili tkvanis</strong> keǩumtsxvit.
 about-playbook-how-add-sentences-content-2 = Cumlepe Common Voice's eǩodvalu gorumt-na jur şurik tzori ren ya do ǩebuli asen.
+about-playbook-how-add-sentences-content-3 = Vikipedis na ren mǩule cumlepe oxmaru şeni <scraperLink>Cumle mozdaşe</scraperLink> ixmarit.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Mağali ǩalitete ar xoma ǩlibi muç̌o dolovoç̌arare?
+about-playbook-how-record-content-1 = Normali nena tkvanite isinapit! Ǩat̆a ç̌eşit̆i osinapu momarç̌ilenan. Aksani tkvani muç̌o na ren ognapu bgorumt (minonan). P̌andaneri xoma seviye, tarzi do toni tkvanite isinapit.
+about-playbook-how-record-content-2 = Curultişa mendra dogutit. Nena tkvani ǩolai diguras (ignas).
+about-playbook-how-record-content-3 = Cumle iǩit̆xamt̆atşa fikiri meçit (dikatli goliyonit). Zit̆apes mot moyoǩap̌amt, mot gokturamt do zit̆a mo eǩudumt.
+about-playbook-how-record-content-4 = İsinapamt̆atşa doliç̌aren-i otzǩedit. Osinapu tkvani iç̌odasi doloç̌aru kododgitinit.
+about-playbook-how-record-content-5 = <accuracyLink>Tzorinobaşi mezumape şeni daha dido digurit.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Vikipedis na ren cumlepe şeni <scraperLink>Cumle mxenu</scraperLink>oxmarit.
+about-playbook-how-grow-language-content-1 = Common Voices konuşvelat-na daha dido ǩoçis apelasen. İris na axmarasere steri cireǩepe do tablope itzopxasen.
 about-playbook-how-grow-language-content-2 = Vaǩape
+about-playbook-how-grow-language-content-3 = Ǩoçepeşi meşvelu şeni etiket̆epe getzopxit. Ham dulya video ǩonferansite vana p̌ici do p̌ici dixenen. <eventTemplate>Aktivite getzopxu şeni şablonepe do cireǩepe çkunis otzǩedit.</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sosyaluri Medya
+about-playbook-how-grow-language-content-5 = Mesaji oncğonu şeni sosyaluri medyaşi platformepe gaxmarenan. Ham dulya naǩo becit̆i na on iris ognapit. Nenaşi xaǩepe do tzopxeri nosi steri meselepeşi jin na ç̌arums ǩoç̌epe ǩala isinapit. <campaignLink>p̌anda na gaxmaranen steri ǩampanyape getzopxu şeni</campaignLink> oneripe ç̌kunis otzǩedit.
 about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
+about-playbook-how-grow-language-content-7 = Ham mesele şkala alaǩa na uğun ç̌kvape (linguistepe, nenaşi mektebepe steri) dzirit. Hentepeşe (hinişe) idit do muç̌ote na naşvelanen ognapit. <outreachTemplates>Daha dido ǩoç̌i şkala oǩosinapu şeni şabloni çkuni</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Mç̌adule iyit!</strong> Zade ǩai dulyape aten. Daha ağani coç̌amt.
 
 ## How to validate
 
 about-playbook-how-validate = Nena doloç̌areri geptzora vana mot geptzora muç̌o oxovotzonare?
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Datasetişa muç̌o amamalen do maxmaren?
 
 ## How are decisions made
 

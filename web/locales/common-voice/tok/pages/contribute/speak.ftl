@@ -1,5 +1,6 @@
 speak = o toki uta
 speak-now = o toki lon tenpo ni
+speak-subtitle = o pana e toki uta sina
 record-cta = o open e ilo kute
 record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
 record-platform-not-supported-desktop = ilo suli la sina ken pali pona tan kama jo…
@@ -54,3 +55,9 @@ already-have-an-account = sina jo ala jo e sijelo? jo la <login>o kama lon</logi
 create-profile-button = o pali e sijelo
 # IMAGE TAGS
 img-alt-success-checkmark = sitelen pona
+# menu item
+read-sentences = o toki uta e toki sitelen
+
+## MENU ITEM TOOLTIPS
+
+read-sentences-menu-item-tooltip = o toki uta e toki sitelen kepeken toki sina

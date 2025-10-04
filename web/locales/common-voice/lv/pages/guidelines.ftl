@@ -174,11 +174,11 @@ transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Nepareizi</wrong>: Tas
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-correct = <correct> Pareizi</correct>: Tiekamies pēc <underline>deviņiem trīsdesmit</underline>
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nepareizi</wrong>: Tiekamies <underline>2015. gadā</underline>
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Nepareizi</wrong>: Tiekamies pēc <underline>9:30</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Pareizi</correct>: Tā bija divdesmit procentu atlaide
-transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nepareizi</wrong>: Tam bija 20% atlaide
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Nepareizi</wrong>: Tā bija 20% atlaide
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Pareizi</correct>: Viņus pagājušajā ceturtdienā arestēja <underline>FIB</underline>.
-transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Nepareizi</wrong>: Viņus pagājušajā ceturtdienā arestēja <underline>ef bē ī</underline>.
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Nepareizi</wrong>: Viņus pagājušajā ceturtdienā arestēja <underline>ef ī bē</underline>.
 transcribe-the-audio-subheader-3-explanation = Lai atzīmētu saraustītu valodu, aizpildītājus un cita veida neverbālu saturu (angļu valodā), jāizmanto šādas īpašas atzīmes.
 tags-table-header-1 = Birka
 tags-table-header-2 = Nozīme
@@ -195,13 +195,13 @@ tags-unclear-explanation = Vārds vai vārdu virkne, ko nevar saprast.
 tags-noise-explanation = Jebkāds cits troksnis, piemēram, runātāja klepus vai kakla noklepošanās, automašīnas taurēšana, kaut kā sitiena skaņa pa mikrofonu, telefona dūkšana utt.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
-    Un tad es [troksnis] devos atvaļinājumā.
+    Un tad es [noise] devos atvaļinājumā.
     
-    Nu, [troksnis] [smejas] tās nebija gluži atvaļinājums [smejas]
+    Nu, [noise] [laugh] tās nebija gluži atvaļinājums [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = Spontānā runā dabiski ir sastopami nepareizi iesākti vārdi, kuros tiek radīts tikai pilna vārda fragments. Šādos gadījumos, lūdzu, pēc iespējas labāk pārrakstiet vārda fragmentu un vārda beigās pievienojiet defisi (-), lai norādītu, ka vārds ir nepareizi iesākts. Piemērs:
 transcribe-the-audio-subheader-4-explanation-1-example = Viņa vārds ir <underline>Džo- Džona-</underline> Džonatans.
 transcribe-the-audio-subheader-4-explanation-2 = Dažreiz runātāji atkārto vārdu vai vārda fragmentu vairākas reizes. Arī tas ir jātranskribē. Piemērs:
-transcribe-the-audio-subheader-4-explanation-2-example = Un tad es devos uz <underline>guļ-</underline> guļamistabu
+transcribe-the-audio-subheader-4-explanation-2-example = Mums ļoti garšo saldējums <underline>un un- un</underline> konfektes
 transcribe-the-audio-subheader-5-explanation-1 = Spontānā runā dabiski būs gramatiskas kļūdas. Tās nav jālabo transkripcijas laikā. Transkripcijai precīzi jāatspoguļo runātais saturs.
 transcribe-the-audio-subheader-5-explanation-2 = Runātāji var lietot sarunvalodas vārdus (piemēram, “forši”, “kūlīgi” utt.), kas var nebūt formāli pareizi. Tie jāpārraksta tādā veidā, kā tie ir, nevis jāmaina uz to formālākajiem ekvivalentiem.
 

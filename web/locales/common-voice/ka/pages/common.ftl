@@ -133,6 +133,7 @@ gwt = გავაირბაიტი
 gya = ჩრდილო-დასავლეთი გბაია
 ha = ჰაუსა
 hac = გორანი
+hak = ჰაკა
 haz = ჰაზარგი
 hch = ვირარიკა
 he = ებრაული
@@ -348,6 +349,7 @@ sr = სერბული
 ss = სისვატი
 ssi = სანსი
 st = სამხრეთული სოთო
+su = სუნდანური
 sv-SE = შვედური
 sva = სვანური
 sw = სუაჰილი
@@ -474,8 +476,8 @@ localization-select =
 ## MDC Announcement
 
 # Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
-announcement-mdc-text = <strong>Common Voice ახალი კრებულების</strong> ჩამოტვირთვის საშუალებას ახლა უკვე გაძლევთ საგანგებოდ შექმნილი ჩვენი დობილი პლატფორმიდან, სახელწოდებით, Mozilla Data Collective. შემოუერთდით და მიიღეთ წვდომა 300+ საერთაშორისო კრებულთან, შექმნილი საზოგადოების მიერ საზოგადოებისთვის.
+announcement-mdc-text = <strong>Common Voice ახალი კრებულების</strong> ჩამოტვირთვის საშუალებას ახლა უკვე გაძლევთ საგანგებოდ შექმნილი ჩვენი დობილი პლატფორმიდან, სახელწოდებით, Mozilla Data Collective. შემოუერთდით და მიიღეთ წვდომა 300+ საერთაშორისო კრებულთან, რომლებიც იქმნება საზოგადოების მიერ საზოგადოებისთვის.
 # Button text for MDC announcement
-announcement-mdc-button-text = შემოგვიერთდით – Mozilla Data Collective
+announcement-mdc-button-text = გვეწვიეთ – Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = გახსნის ახალ ჩანართში

@@ -8,6 +8,13 @@ datasets-positioning =
     O conxunto de datos multilingüe de Common Voice xa é o maior conxunto de datos de voz do seu tipo que está dispoñible publicamente, mais non é o único.
     
     Empregue esta páxina como centro de referencia para outros conxuntos de datos de voz de código aberto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Os conxuntos de datos de Mozilla Common Voice están agora dispoñibles exclusivamente en Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    A partir de Common Voice 23.0, todos os conxuntos de datos de Common Voice están dispoñibles para descarga exclusivamente a través de Mozilla Data Collective!
+    
+    Esta páxina funciona como arquivo histórico das versións anteriores dos conxuntos de datos de Mozilla Common Voice. As publicacións do arquivo só deben empregarse en contextos de investigación específicos, non para adestramento, a fin de respectar a vontade das persoas que solicitaron que as súas contribucións fosen excluídas.
 datasets-speech-bubble-content =
     Temos boas novas! Estamos a preparar unha nova funcionalidade: a fala espontánea!
     Moi pronto estará dispoñible — permaneza atento/a ás novidades no noso <discordLink>Discord</discordLink>.

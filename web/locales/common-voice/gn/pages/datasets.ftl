@@ -8,6 +8,8 @@ datasets-positioning =
     Common Voice-niko ha’emavoi kuaapy’aty tuichavéva oĩva heta ñe’ẽme, katu naha’eñói.
     
     Eikemi ko toguépe eikuaasevérõ ambue kuaapy’aty ãichagua oĩva opavavépe g̃uarã ha avei okakuaa ohóvo Common Voice, reikuaáta ápe mba’epyahu.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice mba’ekuaarã aty ojeporukuaa ko’ág̃a Mozilla Data Collective-pe añoite.
 datasets-speech-bubble-content = ¡Marandu tetia’erã! ¡Ñe’ẽ tee oĩma tapére! Eikuaapa tekopyahu rehegua ha katuete eporandu nde <discord Link>Discord</discord Link> eikuaa hag̃ua oikóva guive.
 language = Ñe’ẽ
 download-dataset-header = Emboguejy mba’ekuaarã aty

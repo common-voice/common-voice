@@ -266,5 +266,6 @@ donate-banner-cta = <mark>Vi har brug for</mark><br/><mark>din hjælp!</mark>
 donate-banner-cta-explanation = Det koster næsten en million dollars om året at hoste datasættene og forbedre platformen for de over 100 sprogfællesskaber, der er afhængige af det, vi laver. <strong>Hvis du værdsætter åbne, inkluderende data - så donér i dag!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Bruger du CV til</mark><br/><mark>din forskning?</mark>
+languages-donate-banner-cta-explanation = Common Voice er finansieret af donationer og tilskud! Vi elsker at samarbejde med akademikere, civilsamfundet og forskere. Common Voice er gratis at bruge, men at bidrage til platforms- og hostingomkostninger gennem tilskudsforslag er virkelig nyttigt.
 localization-select =
     .label = Vælg sprog/oversættelse

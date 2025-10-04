@@ -171,6 +171,7 @@ code-switching-avoid-1 = Маълумоти шахсии қобили шинос
 code-switching-review-subheader = Баррасии савол
 # Answering a Question
 code-switching-answer-subheader = Ҷавоб додан ба савол
+code-switching-tagging-error-2 = Хатоҳои чопӣ
 code-switching-tagging-error-3 = Калимаҳои бо имлои нодуруст навишташуда
 code-switching-pronunciation-explanation-example-1 = Англисӣ: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Испанӣ: /ˈkable/

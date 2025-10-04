@@ -6,6 +6,7 @@ sentence-collection = Mondatok gyűjtése
 question-collection = Kérdésgyűjtemény
 scripted-speech = Előre megírt beszéd
 spontaneous-speech = Spontán beszéd
+dont-subheader = Ne
 
 ## Voice Collection nav ids
 

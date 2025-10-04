@@ -24,10 +24,13 @@ skip-button = Ìwwerhüpse
 submit-button = Fùrtschìcke
 contribute = Mìtmàche
 request-new-language = Néji Sproch vorschlaawe
+# Button text which appears when there are no more resources
+continue-with-skipped = Widderscht, mit dem, wàs ìwwerhüpst worre ìsch
 
 ## Navbar
 
 question = Fröje
+validate = Validiere
 respond-to-prompt = Ùff Fröje Àntwùrt gann
 transcribe = Trànschkribiere
 check-transcriptions = Trànschkriptione noochlüeje

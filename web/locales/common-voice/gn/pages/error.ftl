@@ -11,3 +11,5 @@ error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũh
 error-title-503 = Ore apañuái ko’ag̃aite, ho’ávaicha mohendahavusu
 error-content-503 = Ñandutirogue oĩjeýta vokoieténte. Eikuaasevéramo, eikemi <matrixLink>Atyrusu ñemongeta renda</matrixLink>-pe térã <githubLink>GitHub</githubLink> ỹramo katu <discourseLink>Ñomongetaguasu renda</discourseLink>pe eñeñandukami hag̃ua rejuhúramo apañuái.
 error-code = Javy { $code }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Rohupiroína { $uploaded } peteĩva umi nde clip. Umi hembýva katu ojehupipaitéma. ¡Ko’ág̃a jahasáta ambueguávape!

@@ -53,6 +53,7 @@ login = ເຂົ້າສູ່ລະບົບ
 edit = ແກ້ໄຂ
 email-subscriptions = ການບອກຮັບຂ່າວສານຜ່ານອີເມວ
 download-profile = ດາວໂຫລດຂໍ້ມູນຂອງຂ້ອຍ
+api-credentials = API
 contribution-experience = ປະສົບການການມີສ່ວນຮ່ວມ
 skip-submission-feedback = ຂ້າມ​ການ​ສົ່ງ​ຄໍາ​ຄຶດ​ຄໍາ​ເຫັນ​
 skip-submission-description = ໃນລະຫວ່າງການສົ່ງຄໍາຕິຊົມການປະກອບສ່ວນຈະຖືກຂ້າມຫຼັງຈາກຄລິກ 'ສົ່ງ'. ການປະກອບສ່ວນຈະສືບຕໍ່ໂດຍກົງກັບຊຸດຕໍ່ໄປຂອງ 5 ການບັນທຶກ ຫຼືການກວດສອບ.
@@ -76,6 +77,7 @@ api-credentials-use-case-2 = ກຳລັງດຶງຂໍ້ມູນຊຸດ
 api-credentials-use-case-3 = ການວິເຄາະ ແລະ ປັບປຸງແບບຈໍາລອງການປາກເວົ້າ
 create-api-key-button = ສ້າງຂໍ້ມູນປະຈໍາຕົວ API
 your-api-keys = ຂໍ້ມູນປະຈໍາຕົວ API ຂອງທ່ານ
+generate-api-key-button = ສ້າງຂໍ້ມູນປະຈໍາຕົວ
 # Genders
 male_masculine = ເພດຊາຍ/ເພດຊາຍ
 female_feminine = ເພດຍິງ/ເພດຍິງ

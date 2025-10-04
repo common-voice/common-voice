@@ -35,13 +35,18 @@
 
 ### Changes merged after current release
 
-- Fix: For update query for user-variant is_preferred_option sometimes failing due to undefined/null values, by [@moz-bozden](https://github.com/moz-bozden) in [#5078](https://github.com/common-voice/common-voice/pull/5083) (in v1.152.1)
+- Fix: For update query for user-variant is_preferred_option sometimes failing due to undefined/null values, by [@moz-bozden](https://github.com/moz-bozden) in [#5083](https://github.com/common-voice/common-voice/pull/5083) (in v1.152.1)
+- Chore: Update Discourse invite link in [COMMUNITIES.md](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md) (in v1.152.2)
 
 #### Data Changes after current release
 
-- Changes to locale names for some languages in Pontoon propogated (`mve` -> Marwari, `sbn` -> Sindhi Bhil, `xhe` -> Khetrani)
+- Added Hakka (`hak`) and Sundanese (`su`) as starting locales (in v1.152.2)
+- Changes to locale names for some languages in Pontoon propogated (`mve` -> Marwari, `sbn` -> Sindhi Bhil, `xhe` -> Khetrani) (in v1.152.1)
 
 #### Spontaneous Speech after current release
+
+- Fix: Comma could not be entered into Russian dataset because of a bad regex, by [@moz-bozden](https://github.com/moz-bozden) in [#489](https://github.com/common-voice/spontaneous-speech/pull/489) (in v1.152.2)
+- Fix: For player issues on recent iPhones in Answer page, by [@moz-bozden](https://github.com/moz-bozden) in [#488](https://github.com/common-voice/spontaneous-speech/pull/488), [#490](https://github.com/common-voice/spontaneous-speech/pull/490) (in v1.152.2)
 
 ##### SS Data Changes after current release
 
