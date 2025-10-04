@@ -223,6 +223,7 @@ code-switching-adding-question-note = Můžete též zvážit použití různýc
 code-switching-types-subheader = Jaké typy otázek přidat?
 code-switching-use-bilingual-prompts-header = Používejte dvojjazyčné výzvy
 code-switching-use-bilingual-prompts-explanation = Použijte dvojjazyčné dotazy, které do vaší otázky začlení oba jazyky: Příklad:
+code-switching-ask-bilingual-contexts-header = Ptejte se na dvojjazyčné kontexty
 code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
 code-switching-cultural-topics-header = Zvolte kulturně specifická témata
 code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
