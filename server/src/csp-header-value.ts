@@ -71,7 +71,7 @@ const SOURCES = {
   'connect-src': [
     "'self'",
     'blob:',
-    'https://pontoon.mozilla.org/graphql',
+    'https://pontoon.mozilla.org/api/v2',
     'https://*.amazonaws.com',
     'https://*.amazon.com',
     'https://*.googleapis.com',
