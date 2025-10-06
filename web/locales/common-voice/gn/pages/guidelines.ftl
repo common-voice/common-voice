@@ -223,6 +223,7 @@ code-switching-avoid-subheader = Mba’éicha emboykéta
 code-switching-avoid-intro = Porandu ikatúva:
 code-switching-avoid-1 = Ejerure marandu tapicha mba’eteéva rehegua
 code-switching-avoid-2 = Ejerure je’epy py’aróva térã ambue mba’e ñaña térã oporoko’õva.
+code-switching-avoid-3 = Ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
 code-switching-dont-header = Nahániri
 code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
 # Reviewing a Question
@@ -252,8 +253,10 @@ code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
 code-switching-transcribe-do-1 = Embopu mbykymimi heta jey ejapyhykuaa hag̃ua moambuepy
+code-switching-transcribe-do-2 = Epyta ñe’ẽjuaju oparire ehecha hag̃ua oĩpa ambuepy térã ñe’ẽ ojeheʼáva.
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
+code-switching-capture-explanation = Ehai mokõive ñe’ẽ ojehecha térã ipuhaichaite. Aníke emyatyrõ pe ñe’ẽ ha avei ani eheja peteĩva ñe’ẽmente.
 # Include filler words and markers
 code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 # Use standard spelling for each language
