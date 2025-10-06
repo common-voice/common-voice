@@ -210,8 +210,10 @@ code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi 
 code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
 code-switching-focus-emotional-explanation = Tapichakuéra omoabue jepi ayvu he’ívo oñandu térã oikotevẽva. Techapyrã:
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
+code-switching-direct-quotes-explanation = Emyakãrakúke oĩva tapichápe tahe’i pe mba’e oiko hagueichaite. Techapyrã:
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
 code-switching-cultural-topics-header = Eiporavo umi téma arandupyetéva
+code-switching-cultural-topics-explanation = Tembi’u, jepokuaa, vy’arã ha oikóva ogapýpe imbarete iñambue hag̃ua tekopy.
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
 code-switching-informal-scenarios-explanation-example = “Mba’e pukarãpa omombe’újepi ne angirũnguéra — mba’éichapa he’i?”
 # What to Avoid
