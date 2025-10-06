@@ -266,6 +266,7 @@ code-switching-cleanup-header = Aníke emopotĩ térã emombyky pe ñe’ẽkuaa
 code-switching-cleanup-1 = Emoñe’ẽasa térã emoambue: ehai pe he’íva ambue tapicha, ndaha’éi “pe he’iséva”.
 code-switching-cleanup-2 = Ñe’ẽtekuaa térã ñe’ẽayvu “oĩporãva”: eiporu osẽ porã hag̃uáicha.
 code-switching-cleanup-3 = Ani emoambue araka’eve jepémo michĩmi: taha’e umi ñe’ẽ porupyre jepe.
+code-switching-cleanup-4 = Emoinge kyta omoambuekuaáva he’iséva: tosẽ ijeheguieténte.
 code-switching-cleanup-5 = Eimo’ã eikuaaha ñe’ẽ peteĩteĩva rehegua: embohéra ijeporu rupi.
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
@@ -274,6 +275,7 @@ code-switching-tagging-error-2 = Jejavy taiguáva
 code-switching-tagging-error-3 = Ñe’ẽ ojehaíva haikatu hendape’ỹva reheve
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Oiporúva hekópe haikatu peteĩteĩva ñe’ẽme
+code-switching-orthography-explanation = Ehai peteĩteĩva ñe’ẽ he’iháicha pe haikatu ñe’ẽ oúvagui ombohekoháicha. Techapyrã:
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Eiporu ñe’ẽpu eipytyvõkuaa hag̃ua ñe’ẽ jeporavorã
 code-switching-pronunciation-explanation-example-1 = Inglés: /ˈkeɪ.bəl/
@@ -285,6 +287,7 @@ code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva �
 code-switching-punctuation-tagging-explanation = Emokyta ñe’ẽ ipa’ũva oĩva ijyketére asu gotyogua ndive. Techapyrã:
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Eñangareko umi ojoguávare
+code-switching-lookalikes-explanation-example-1 = “Footing” he’iseva ñeñani España ñe’ẽme > embohéra español-ramo
 code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojeporúva inglés ñe’ẽme > embohéra inglés ramo
 # When Not to Tag Words
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
