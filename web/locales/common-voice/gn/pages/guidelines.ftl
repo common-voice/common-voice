@@ -214,12 +214,15 @@ code-switching-direct-quotes-explanation = Emyakãrakúke oĩva tapichápe tahe�
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
 code-switching-cultural-topics-header = Eiporavo umi téma arandupyetéva
 code-switching-cultural-topics-explanation = Tembi’u, jepokuaa, vy’arã ha oikóva ogapýpe imbarete iñambue hag̃ua tekopy.
+code-switching-cultural-topics-explanation-example = “¿Mba’éichapa ojehai Omanóva Ára rehegua peteĩ ava oñe’ẽva inglés añoitépe?”
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
+code-switching-informal-scenarios-explanation = Umi ñomongeta angirũnguéra ndive térã ñe’ẽmondo ogueroike jepi ñemoambue. Techapyrã:
 code-switching-informal-scenarios-explanation-example = “Mba’e pukarãpa omombe’újepi ne angirũnguéra — mba’éichapa he’i?”
 # What to Avoid
 code-switching-avoid-subheader = Mba’éicha emboykéta
 code-switching-avoid-intro = Porandu ikatúva:
 code-switching-avoid-1 = Ejerure marandu tapicha mba’eteéva rehegua
+code-switching-avoid-2 = Ejerure je’epy py’aróva térã ambue mba’e ñaña térã oporoko’õva.
 code-switching-dont-header = Nahániri
 code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
 # Reviewing a Question
@@ -241,6 +244,7 @@ code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emomb
 code-switching-answer-bullet-3 = Eiporu ñe’ẽ añetehápe eiporútava, taha’e porupy térã ojehe’áva
 code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
 code-switching-authentic-header = Embohovái porã ha ha’etéva
+code-switching-authentic-speak-example = “Upévare ha’e chupe ndahamo’ãiha, ha he’i chéve: ‘¡Iporãvéta rejúrõ!’”.
 code-switching-use-both-languages-example = “Ipochyeterei chendive nahenói jey haguére chupe”.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
