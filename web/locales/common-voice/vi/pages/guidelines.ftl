@@ -227,6 +227,7 @@ code-switching-ask-bilingual-contexts-header = Hỏi về bối cảnh song ng�
 code-switching-ask-bilingual-contexts-explanation = Sử dụng các tình huống mà cả hai ngôn ngữ đều được sử dụng phổ biến (ví dụ: ở nhà, ở trường, các sự kiện cộng đồng). Ví dụ:
 code-switching-ask-bilingual-contexts-explanation-example = “Khi bạn nói chuyện với anh em họ của bạn, bạn có kết hợp tiếng Tây Ban Nha và Tiếng Anh không?”
 code-switching-focus-emotional-header = Tập trung vào những khoảnh khắc cảm xúc hoặc có rủi ro cao
+code-switching-focus-emotional-explanation = Mọi người thường sử dụng đa ngôn ngữ khi thể hiện cảm xúc hoặc sự cấp bách. Ví dụ:
 code-switching-focus-emotional-explanation-example = “Hãy kể cho tôi nghe bố mẹ bạn đã nói gì khi bạn báo tin quan trọng này cho họ — chính xác là họ đã nói như thế nào.”
 code-switching-direct-quotes-header = Yêu cầu trích dẫn trực tiếp hoặc tái hiện
 code-switching-direct-quotes-explanation = Khuyến khích người tham gia tái hiện lại cách diễn đạt thực tế. Ví dụ:
@@ -292,3 +293,13 @@ code-switching-filler-explanation = Những từ như “um,” “like,” “p
 # Use standard spelling for each language
 code-switching-spelling-header = Sử dụng chính tả chuẩn cho từng ngôn ngữ
 code-switching-spelling-explanation = Cố gắng đánh vần chính xác các từ cho từng ngôn ngữ, trừ khi người nói phát âm chúng theo cách không chuẩn.
+code-switching-cleanup-5 = Giả sử bạn biết ngôn ngữ của từng từ – gắn tag dựa trên cách sử dụng.
+# Tagging
+code-switching-tagging-subheader = Tag
+code-switching-tagging-error-intro = Nếu bản chép lời có lỗi, vui lòng sử dụng chức năng báo cáo để đánh dấu lỗi. Các lỗi tiềm ẩn bao gồm:
+code-switching-tagging-error-1 = Dấu câu hoặc chữ viết hoa không đúng
+code-switching-tagging-error-2 = Lỗi đánh máy
+code-switching-tagging-error-3 = Từ được viết sai chính tả
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Sử dụng chính tả đúng cho từng ngôn ngữ
+code-switching-orthography-explanation = Viết mỗi từ theo đúng chính tả của ngôn ngữ gốc. Ví dụ:
