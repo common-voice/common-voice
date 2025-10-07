@@ -29,6 +29,7 @@ bax = 巴姆穆语
 bba = Baatonum 语
 bbj = 戈马拉语
 bbl = 图施语
+bce = 门干博语
 bci = 巴乌莱语
 be = 白俄罗斯语
 beb = Bamvele 语

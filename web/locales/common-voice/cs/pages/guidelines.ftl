@@ -171,6 +171,12 @@ transcribe-the-audio-subheader-2-explanation-2 = Zkratky by se měly psát tak, 
 transcribe-the-audio-subheader-2-example-1-correct = <správně> Správně</správně>: Je to sto kilometrů odsud.
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <špatně>Špatně</špatně>: Je to 100 kilometrů odsud.
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <správně> Správně</správně>: Uvidíme se v roce <podtrženo>dvatisícepatnáct</podtrženo>.
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Chybně</wrong>: Uvidíme se v roce <underline>2015</underline>.
+transcribe-the-audio-subheader-2-example-3-correct = <správně>Správně</správně>: Bylo to zlevněno o dvacet procent
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Špatně</wrong>: Bylo to zlevněno o 20 %.
 transcribe-the-audio-subheader-2-example-4-correct = <správně>Správně</správně>: Minulý čtvrtek je zatkla <podtrženo>FBI</podtrženo>.
 transcribe-the-audio-subheader-2-example-4-wrong = <špatně>Špatně</špatně>: Minulý čtvrtek je zatklo <podtrženo>eff bee eye</podtrženo>.
 transcribe-the-audio-subheader-3-explanation = Následující speciální značky by měly být použity k označení nesouvislostí, výplňových slov a dalších typů neverbálního obsahu (v angličtině).
@@ -181,11 +187,16 @@ tags-disfluency = Neplynulost
 tags-unclear = Nejasné
 tags-noise = Hluk
 tags-laugh-explanation = Zvuk smíchu.
+tags-disfluency-explanation =
+    Výplňové slovo nebo zvuk, který slouží jako zástupný znak, zatímco se mluvčí rozhoduje, co říct.
+    V angličtině jsou běžné váhavé zvuky jako “err”, “um“, “huh” atd.
 tags-unclear-explanation = Slovo nebo sled slov, kterému nelze rozumět.
 tags-noise-explanation =
     Jakýkoli jiný typ hluku, například kašlání nebo odkašlávání řečníka,
     troubení auta, zvuk něčeho, co naráží do mikrofonu, bzučení telefonu atd.
+transcribe-the-audio-subheader-4-explanation-1 = Spontánní řeč přirozeně obsahuje falešné starty, při kterých je z celého slova tvořen pouze zlomek. V těchto případech prosím přepište dle svých nejlepších schopností daný fragment slova a připojte slovo na konec slova pomlčkou (-), abyste označili, že slovo není chybný začátek. Příklad:
 transcribe-the-audio-subheader-4-explanation-1-example = Jeho jméno je <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Někdy mluvčí opakují slovo nebo jeho část vícekrát. I to je třeba přepsat. Příklad:
 transcribe-the-audio-subheader-5-explanation-1 = Spontánní řeč bude přirozeně obsahovat gramatické chyby. Ty by neměly být při přepisu opravovány. Přepis by měl přesně odrážet mluvený obsah.
 transcribe-the-audio-subheader-5-explanation-2 = Mluvčí může použít hovorové výrazy (například „gonna“, „cuz“ atd.), které nemusí být formálně správné. Ty by měly být přepsány tak, jak jsou, a ne měněny za jejich formálnější ekvivalenty.
 
@@ -193,6 +204,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Mluvčí může použít hovoro
 
 review-the-transcription = Kontrola přepisu
 review-the-transcription-subheader = Obecné pokyny
+review-the-transcription-explanation-1 = Obecně doporučujeme, že osoba, která kontroluje přepis, by neměla být stejná jako původní přepis. Je velmi těžké zkontrolovat vlastní práci! Více kontrol může pomoci vylepšit kontrolu kvality a pomoci zmírnit předsudky a problémy.
 review-the-transcription-explanation-2 = Přečtěte si pokyny pro přepis výše a zkontrolujte, že je přepis správný. Můžete přidat úpravy a odeslat je.
 review-the-transcription-explanation-3 = Opět platí, že můžete nahlásit obsah, který je urážlivý, škodlivý nebo jinak znepokojující, a ten bude z vaší stránky odstraněn, dokud ho tým Common Voice nezkontroluje a dále neprošetří.
 
@@ -211,6 +223,8 @@ code-switching-adding-question-note = Můžete též zvážit použití různýc
 code-switching-types-subheader = Jaké typy otázek přidat?
 code-switching-use-bilingual-prompts-header = Používejte dvojjazyčné výzvy
 code-switching-use-bilingual-prompts-explanation = Použijte dvojjazyčné dotazy, které do vaší otázky začlení oba jazyky: Příklad:
+code-switching-ask-bilingual-contexts-header = Ptejte se na dvojjazyčné kontexty
+code-switching-ask-bilingual-contexts-explanation = Používejte v situacích, kdy se oba jazyky běžně používají (např. doma, ve škole, na akcích ve společnosti). Příklad:
 code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
 code-switching-cultural-topics-header = Zvolte kulturně specifická témata
 code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
@@ -224,8 +238,20 @@ code-switching-dont-1 = Nepoužívejte příliš formální jazyk
 # Reviewing a Question
 code-switching-review-subheader = Kontrola otázek
 code-switching-review-intro = Ujistěte se, že otázka splňuje tato kritéria:
+# Answering a Question
+code-switching-answer-subheader = Odpovídání na otázku
+code-switching-answer-intro = Při odpovídání na otázku je cílem reagovat přirozeně – stejně jako v reálném rozhovoru. Chceme zachytit, jak se jazyky skutečně mísí v každodenní řeči.
+code-switching-answer-bullet-1 = Vzpomeňte si na skutečné okamžiky nebo situace: vtipy, hádky, zvyky
+code-switching-answer-bullet-2 = Představte si, že píšete zprávu příteli nebo někomu vyprávíte příběh
+code-switching-answer-bullet-3 = Používejte slova, která byste skutečně použili, i když vypůjčená nebo smíšená
+code-switching-answer-bullet-4 = Neexistuje žádný „dokonalý“ způsob, jak odpovědět
+code-switching-authentic-header = Odpovídejte přirozeně a autenticky
+code-switching-authentic-speak = <bold>Mluvte s přáteli nebo rodinou obvyklým způsobem.</bold> Pokud používáte různé jazyky i ve skutečnosti, udělejte totéž. Příklad:
 # Transcribing
 code-switching-transcribe-subheader = Přepis
+# Use standard spelling for each language
+code-switching-spelling-header = Používejte standardní pravopis pro každý jazyk
+code-switching-spelling-explanation = Snažte se slova v každém jazyce psát správně, pokud je mluvčí nevyslovuje zřetelně nestandardním způsobem.
 code-switching-tagging-error-intro = Pokud přepis obsahuje chybu, použijte prosím funkci nahlásit a nahlaste ji prosím. Mezi možné chyby patří:
 code-switching-tagging-error-1 = Nesprávná interpunkce nebo velikost písmen
 code-switching-tagging-error-2 = Překlepy

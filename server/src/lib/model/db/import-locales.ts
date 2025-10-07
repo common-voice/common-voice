@@ -17,20 +17,24 @@ const LOCALE_MESSAGES_PATH = path.join(
   'common-voice'
 )
 
-type Locale = {
-  code: string
-  direction: string
-  name: string
-  translated: boolean
-}
-interface PontoonData {
-  locale: Locale
-  totalStrings: number
-  approvedStrings: number
+type PontoonLocale = {
+  locale: {
+    code: string
+    name: string
+  }
+  total_strings: number
+  approved_strings: number
+  pretranslated_strings: number
+  strings_with_warnings: number
+  strings_with_errors: number
+  missing_strings: number
+  unreviewed_strings: number
+  complete: boolean
 }
 
 const db = getMySQLInstance()
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const saveToMessages = (languages: any) => {
   const messagesPath = path.join(
     LOCALE_MESSAGES_PATH,
@@ -45,6 +49,7 @@ const saveToMessages = (languages: any) => {
     [
       '# [Languages]',
       '## Languages',
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       languages.map(({ code, name }: any) => `${code} = ${name}`).join('\n'),
       '# [/]',
     ].join('\n')
@@ -52,6 +57,7 @@ const saveToMessages = (languages: any) => {
   fs.writeFileSync(messagesPath, newMessages)
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const buildLocaleNativeNameMapping: any = () => {
   const locales = fs.readdirSync(LOCALE_MESSAGES_PATH)
   const nativeNames: {
@@ -69,8 +75,10 @@ const buildLocaleNativeNameMapping: any = () => {
       continue
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const messages: any = parse(fs.readFileSync(messagesPath, 'utf-8'), {})
     const message = messages.body.find(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (message: any) => message.id && message.id.name === locale
     )
 
@@ -137,31 +145,92 @@ const minimalTranslation = (locale: string) => {
   return refContributePageCount === targetContributePageCount
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const fetchPontoonLanguages = async (): Promise<any[]> => {
-  const url =
-    'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code,name,direction}}}}&raw'
-  const response = await fetch(url)
-  const { data } = await response.json()
-  const localizations: PontoonData[] = data.project.localizations
+  try {
+    // Fetch project data to get locale codes and translation stats
+    const projectUrl =
+      'https://pontoon.mozilla.org/api/v2/projects/common-voice/'
+    const projectResponse = await fetch(projectUrl)
 
-  return localizations
-    .map(({ totalStrings, approvedStrings, locale }) => {
-      return {
-        code: locale.code,
-        name: locale.name,
-        translated: approvedStrings / totalStrings,
-        hasRequiredTranslations: minimalTranslation(locale.code),
-        direction: locale.direction,
-      }
+    if (!projectResponse.ok) {
+      console.error(
+        `Pontoon API responded with status: ${projectResponse.status}`
+      )
+      return []
+    }
+
+    const projectData = await projectResponse.json()
+    const projectLocales: PontoonLocale[] = projectData.localizations
+
+    // Fetch all locales with pagination to get direction information
+    const allLocales = await fetchAllLocalesWithPagination()
+
+    // Create a map for quick locale detail lookup
+    const localeDetailsMap = new Map()
+    allLocales.forEach(locale => {
+      localeDetailsMap.set(locale.code, locale)
     })
-    .concat({
-      code: 'en',
-      name: 'English',
-      translated: 1,
-      hasRequiredTranslations: true,
-      direction: 'LTR',
-    })
-    .sort((l1, l2) => l1.code.localeCompare(l2.code))
+
+    // Combine project data with locale details
+    return projectLocales
+      .map(projectLocale => {
+        const localeDetails = localeDetailsMap.get(projectLocale.locale.code)
+        return {
+          code: projectLocale.locale.code,
+          name: projectLocale.locale.name,
+          translated: projectLocale.total_strings
+            ? projectLocale.approved_strings / projectLocale.total_strings
+            : 0,
+          hasRequiredTranslations: minimalTranslation(
+            projectLocale.locale.code
+          ),
+          direction: localeDetails
+            ? (localeDetails.direction as string).toUpperCase()
+            : 'LTR', // Fallback to 'LTR' if not found
+        }
+      })
+      .concat({
+        code: 'en',
+        name: 'English',
+        translated: 1,
+        hasRequiredTranslations: true,
+        direction: 'ltr',
+      })
+      .sort((l1, l2) => l1.code.localeCompare(l2.code))
+  } catch (error) {
+    console.error('Error fetching Pontoon languages:', error)
+  }
+}
+
+// Helper function to handle pagination for locales endpoint
+async function fetchAllLocalesWithPagination() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let allExtracted: any[] = []
+  let nextUrl = 'https://pontoon.mozilla.org/api/v2/locales/'
+
+  while (nextUrl) {
+    const response = await fetch(nextUrl)
+
+    if (!response.ok) {
+      console.error(
+        `Pontoon Locales API endpoint responded with status: ${response.status}`
+      )
+      return []
+    }
+
+    const pageData = await response.json()
+
+    // Add the current page's results to our collection
+    if (pageData.results && Array.isArray(pageData.results)) {
+      allExtracted = allExtracted.concat(pageData.results)
+    }
+
+    // Move to the next page
+    nextUrl = pageData.next
+  }
+
+  return allExtracted
 }
 
 const fetchExistingLanguages = async () => {

@@ -145,7 +145,7 @@ async function importLocaleSentences(
   });
 }
 
-export async function importSentences(pool: any, import_languages: string) {
+export async function importSentences(pool: any, import_languages: string[]) {
   // Decide on which locales to import.
   // If no IMPORT_LANGUAGES specified, all from the file system, else the intersection.
   function getImportableLanguages(
@@ -179,10 +179,7 @@ export async function importSentences(pool: any, import_languages: string) {
   )
 
   // filter them with IMPORT_LANGUAGES config value if specified
-  const importable_locales = getImportableLanguages(
-    fsLocales,
-    import_languages.trim().split(',')
-  )
+  const importable_locales = getImportableLanguages(fsLocales, import_languages)
   print(
     `Final import list: ${importable_locales.length} [${importable_locales.join(
       ','

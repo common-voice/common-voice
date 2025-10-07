@@ -1,5 +1,5 @@
 import * as request from 'request-promise-native'
-import { GenericStatistic, Sentence, TimeUnits } from 'common'
+import { GenericStatistic, LanguageData, Sentence, TimeUnits } from 'common'
 import DB, { getLocaleId } from './model/db'
 import { DBClip } from './model/db/tables/clip-table'
 import lazyCache from './lazy-cache'
@@ -18,25 +18,47 @@ import {
 
 const AVG_CLIP_SECONDS = 4.694
 
-// TODO: Update startup script to save % and retreive from database
-function fetchLocalizedPercentagesByLocale(): Promise<any> {
-  return request({
-    uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code}}}}',
-    method: 'GET',
-    json: true,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  }).then(({ data }: any) =>
-    data.project.localizations.reduce(
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (obj: { [locale: string]: number }, l: any) => {
-        obj[l.locale.code] = Math.round(
-          (100 * l.approvedStrings) / l.totalStrings
+type PontoonLocale = {
+  locale: {
+    code: string
+    name: string
+  }
+  total_strings: number
+  approved_strings: number
+  pretranslated_strings: number
+  strings_with_warnings: number
+  strings_with_errors: number
+  missing_strings: number
+  unreviewed_strings: number
+  complete: boolean
+}
+
+async function fetchLocalizedPercentagesByLocale(): Promise<any> {
+  try {
+    const projectData = await request({
+      uri: 'https://pontoon.mozilla.org/api/v2/projects/common-voice/',
+      method: 'GET',
+      json: true,
+    })
+
+    const localeData: PontoonLocale[] = projectData.localizations
+
+    return localeData.reduce(
+      (obj: { [locale: string]: number }, localization: PontoonLocale) => {
+        obj[localization.locale.code] = Math.round(
+          (100 * localization.approved_strings) / localization.total_strings
         )
         return obj
       },
       {}
     )
-  )
+  } catch (error) {
+    console.error(
+      'Error fetching from Pontoon for localized percentages:',
+      error
+    )
+    return {}
+  }
 }
 
 /**
@@ -52,19 +74,21 @@ export default class Model {
     client_id: string,
     locale: string,
     count: number,
-    ignoreClientVariant: boolean,
+    ignoreClientVariant: boolean
   ): Promise<DBClip[]> {
     const localeId = await getLocaleId(locale)
 
-    const clientPrefersVariant = !ignoreClientVariant && await pipe(
-      client_id,
-      fetchUserClientVariants,
-      TE.map(ucvs => isVariantPreferredOption(localeId)(ucvs)),
-      TE.match(
-        () => false,
-        res => res
-      )
-    )()
+    const clientPrefersVariant =
+      !ignoreClientVariant &&
+      (await pipe(
+        client_id,
+        fetchUserClientVariants,
+        TE.map(ucvs => isVariantPreferredOption(localeId)(ucvs)),
+        TE.match(
+          () => false,
+          res => res
+        )
+      )())
 
     if (clientPrefersVariant) {
       const getUserClientVariantClips = pipe(
@@ -135,6 +159,15 @@ export default class Model {
     await this.db.saveClip(clipData)
   }
 
+  getCombinedLanguageData = lazyCache(
+    'get-combined-language-data',
+    async (): Promise<LanguageData[]> => {
+      return await this.db.getCombinedLanguageData()
+    },
+    6 * TimeUnits.HOUR,
+    3 * TimeUnits.MINUTE
+  )
+
   getAllLanguages = lazyCache(
     'get-all-languages-with-metadata',
     async (): Promise<any[]> => {
@@ -142,7 +175,7 @@ export default class Model {
       return languages
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE,
+    3 * TimeUnits.MINUTE
   )
 
   getAllDatasets = lazyCache(
@@ -151,7 +184,7 @@ export default class Model {
       return await this.db.getAllDatasets(releaseType)
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE,
+    3 * TimeUnits.MINUTE
   )
 
   getLanguageDatasetStats = lazyCache(
@@ -160,7 +193,7 @@ export default class Model {
       return await this.db.getLanguageDatasetStats(languageCode)
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE,
+    3 * TimeUnits.MINUTE
   )
 
   getAllLanguagesWithDatasets = lazyCache(
@@ -169,14 +202,14 @@ export default class Model {
       return await this.db.getAllLanguagesWithDatasets()
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE,
+    3 * TimeUnits.MINUTE
   )
 
   getLocalizedPercentages = lazyCache(
     'get-localized-percentages',
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE,
+    3 * TimeUnits.MINUTE
   )
 
   getAverageSecondsPerClip = lazyCache(
