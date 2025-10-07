@@ -19,9 +19,9 @@ validate-readings-coming-soon = Xác thực bài đọc <small>(sắp ra mắt)<
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = Xác thực bài đọc, xem lại bản ghi
+listen-contribute-menu-tooltip = Xác thực bài đọc, xem lại bản chép lời
 validate-readings-menu-item-tooltip = Xác thực các bài đọc do người dùng ghi lại bằng ngôn ngữ của bạn
-review-transcriptions-menu-item-tooltip = Xem lại các bản ghi do người dùng gửi bằng ngôn ngữ của bạn
+review-transcriptions-menu-item-tooltip = Xem lại các bản chép lời do người dùng gửi bằng ngôn ngữ của bạn
 
 ## MENU ITEM ARIA LABELS
 
