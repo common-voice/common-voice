@@ -154,3 +154,141 @@ answer-questions-tip-6 = Giữ âm lượng ổn định - đừng hét hoặc h
 # Transcribe the Audio
 transcribe-the-audio = Phiên âm âm thanh
 transcribe-the-audio-subheader-1 = Hướng dẫn chung
+transcribe-the-audio-subheader-2 = Số và từ viết tắt
+transcribe-the-audio-subheader-3 = Tag đặc biệt
+transcribe-the-audio-subheader-4 = Phân đoạn từ, bắt đầu sai, từ lặp lại
+transcribe-the-audio-subheader-5 = Lỗi ngữ pháp và thành ngữ
+transcribe-the-audio-subheader-1-explanation = Nhìn chung, bạn nên ghi lại mọi thứ bạn nghe được. Bao gồm:
+transcribe-the-audio-subheader-1-explanation-example-1 = Viết ra những chỗ không lưu loát, bao gồm cả sự ngập ngừng và lặp lại
+transcribe-the-audio-subheader-1-explanation-example-2 = Ghi nhãn các sự kiện tiếng ồn như ho hoặc cười
+transcribe-the-audio-subheader-1-explanation-example-3 = Ghi nhãn ô nhiễm tiếng ồn đáng kể, như tiếng ồn nền hoặc tiếng còi xe
+transcribe-the-audio-subheader-1-explanation-example-4 = Cần ghi lại chính xác sự khác biệt về ngữ pháp và tiếng lóng. Không sửa hoặc biên tập lời nói của người khác.
+transcribe-the-audio-subheader-2-explanation-1 = Các con số và ký hiệu phải được viết bằng chữ thay vì sử dụng chữ số hoặc ký tự đặc biệt. Ví dụ:
+transcribe-the-audio-subheader-2-explanation-2 = Các từ viết tắt nên được viết theo cách viết thông thường trong ngôn ngữ, tuân thủ các quy tắc viết hoa tiêu chuẩn. Không nên phiên âm chúng theo mặt ngữ âm. Ví dụ:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Đúng</correct>: Nó cách ở đây một trăm dặm
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Sai</wrong>: Nó cách ở đây 100 dặm
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Đúng</correct>: Hẹn gặp bạn sau <underline>hai nghìn mười lăm</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Sai</wrong>: Hẹn gặp bạn sau <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Đúng</correct>: Nó đã giảm giá hai mươi phần trăm
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Sai</wrong>: Nó đã giảm giá 20%
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Đúng</correct>: Họ đã bị bắt giữ bởi <underline>FBI</underline> vào thứ năm tuần trước
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Wrong</wrong> Họ đã bị bắt giữ bởi <underline>ép bi ai</underline> vào thứ năm tuần trước
+transcribe-the-audio-subheader-3-explanation = Các tag đặc biệt sau đây nên được sử dụng để đánh dấu sự thiếu lưu loát, từ đệm và các loại nội dung phi ngôn ngữ khác (bằng tiếng Anh).
+tags-table-header-1 = Tag
+tags-table-header-2 = Nghĩa
+tags-laugh = Cười
+tags-disfluency = Sự thiếu lưu loát
+tags-unclear = Không rõ ràng
+tags-noise = Tiếng ồn
+tags-laugh-explanation = Tiếng cười.
+tags-disfluency-explanation =
+    Một từ hoặc âm thanh đệm được dùng để thay thế trong khi người nói quyết định sẽ nói gì.
+    Trong tiếng Anh, một số âm do dự thường gặp là “err”, “um”, “huh”, v.v.
+tags-unclear-explanation = Một từ hoặc chuỗi từ không thể hiểu được.
+tags-noise-explanation =
+    Bất kỳ loại tiếng ồn nào khác, chẳng hạn như tiếng người nói ho hoặc hắng giọng,
+    tiếng còi xe, tiếng vật gì đó va vào micrô, tiếng chuông điện thoại, v.v...
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Và sau đó tôi [tiếng ồn] đã đi nghỉ.
+    À, [tiếng ồn] [cười] nó không hẳn là một kỳ nghỉ [cười]
+transcribe-the-audio-subheader-4-explanation-1-example = Tên anh ấy là <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Đôi khi người nói sẽ lặp lại một từ hoặc một cụm từ nhiều lần. Điều này cũng cần được ghi chép lại. Ví dụ:
+transcribe-the-audio-subheader-4-explanation-2-example = Và sau đó tôi đã đi đến <underline>chỗ chỗ chỗ giường- chỗ</underline> giường ngủ
+transcribe-the-audio-subheader-5-explanation-2 = Người nói có thể sử dụng những từ ngữ thông tục (chẳng hạn như trong tiếng Anh, "gonna", "cuz", v.v.) mà có thể không được coi là chính xác về mặt hình thức. Những từ ngữ này nên được phiên âm nguyên văn, và không được thay đổi sang các từ tương đương trang trọng hơn.
+
+## Review the Transcription
+
+review-the-transcription = Xem lại bản ghi chép
+review-the-transcription-subheader = Hướng dẫn chung
+review-the-transcription-explanation-1 = Nhìn chung, chúng tôi khuyên bạn nên chọn người kiểm tra bản ghi chép không nên là người đã thực hiện bản ghi chép gốc. Việc tự mình kiểm tra bài viết rất khó khăn! Việc có nhiều dòng đánh giá có thể giúp đảm bảo chất lượng chặt chẽ hơn, đồng thời giảm thiểu các thành kiến ​​và vấn đề phát sinh.
+review-the-transcription-explanation-2 = Xem lại hướng dẫn bản chép lời ở trên để kiểm tra xem nó có chính xác không. Bạn có thể chỉnh sửa và gửi bản dịch.
+review-the-transcription-explanation-3 = Một lần nữa, bạn có thể đánh dấu nội dung mang tính xúc phạm, có hại hoặc gây lo ngại và nội dung đó sẽ bị xóa khỏi trải nghiệm của bạn cho đến khi nhóm Common Voice có thể xem xét và điều tra thêm.
+
+## Code-Switching
+
+adding-a-question = Đang thêm câu hỏi
+# Adding a Question
+code-switching-adding-question-subheader = Thế nào là một câu hỏi tốt?
+code-switching-adding-question-explanation = Một câu hỏi hay cho các tập dữ liệu tham gia của công chúng nên:
+code-switching-adding-question-criteria-1 = Dễ hiểu và dễ phản hồi
+code-switching-adding-question-criteria-2 = Có liên quan chung đến chủ đề
+code-switching-adding-question-criteria-3 = Không sử dụng hoặc yêu cầu ngôn ngữ gây hại hoặc xúc phạm
+code-switching-adding-question-note = Bạn cũng có thể muốn cân nhắc việc mở rộng nhiều bối cảnh và phạm vi khác nhau.
+# What types of questions to add
+code-switching-types-subheader = Những loại câu hỏi nào cần thêm vào?
+code-switching-use-bilingual-prompts-header = Sử dụng lời nhắc song ngữ
+code-switching-use-bilingual-prompts-explanation = Sử dụng lời nhắc song ngữ, kết hợp cả hai ngôn ngữ trong câu hỏi của bạn: Ví dụ:
+code-switching-ask-bilingual-contexts-header = Hỏi về bối cảnh song ngữ
+code-switching-ask-bilingual-contexts-explanation = Sử dụng các tình huống mà cả hai ngôn ngữ đều được sử dụng phổ biến (ví dụ: ở nhà, ở trường, các sự kiện cộng đồng). Ví dụ:
+code-switching-ask-bilingual-contexts-explanation-example = “Khi bạn nói chuyện với anh em họ của bạn, bạn có kết hợp tiếng Tây Ban Nha và Tiếng Anh không?”
+code-switching-focus-emotional-header = Tập trung vào những khoảnh khắc cảm xúc hoặc có rủi ro cao
+code-switching-focus-emotional-explanation-example = “Hãy kể cho tôi nghe bố mẹ bạn đã nói gì khi bạn báo tin quan trọng này cho họ — chính xác là họ đã nói như thế nào.”
+code-switching-direct-quotes-header = Yêu cầu trích dẫn trực tiếp hoặc tái hiện
+code-switching-direct-quotes-explanation = Khuyến khích người tham gia tái hiện lại cách diễn đạt thực tế. Ví dụ:
+code-switching-direct-quotes-explanation-example = “Bạn đã nói chính xác những gì khi bạn phát hiện ra?”
+code-switching-cultural-topics-header = Chọn chủ đề cụ thể về văn hóa
+code-switching-cultural-topics-explanation = Thức ăn, truyền thống, ngày lễ và mối quan hệ gia đình thường dẫn đến sự thay đổi ngôn ngữ.
+code-switching-cultural-topics-explanation-example = “Bạn mô tả thế nào về Día de los Muertos với một người chỉ nói Tiếng Anh?”
+code-switching-informal-scenarios-header = Khám phá các tình huống không chính thức
+code-switching-informal-scenarios-explanation = Các cuộc trò chuyện với bạn bè hoặc nhắn tin thường bao gồm việc chuyển đổi tự nhiên hơn. Ví dụ:
+code-switching-informal-scenarios-explanation-example = “Bạn bè của bạn thường nói đùa điều gì — và họ nói thế nào?”
+# What to Avoid
+code-switching-avoid-subheader = Những điều cần tránh
+code-switching-avoid-intro = Những câu hỏi có thể:
+code-switching-avoid-1 = Yêu cầu thông tin nhận dạng cá nhân
+code-switching-avoid-2 = Khơi gợi lời nói thù hận hoặc những cảm xúc thiên vị hoặc xúc phạm khác
+code-switching-avoid-3 = Có thể khiến ai đó chia sẻ những câu trả lời nhạy cảm, có khả năng gây kích động
+code-switching-dont-header = Không nên
+code-switching-dont-1 = Đừng sử dụng ngôn ngữ quá trang trọng
+# Reviewing a Question
+code-switching-review-subheader = Xem lại một câu hỏi
+code-switching-review-intro = Đảm bảo câu hỏi đáp ứng các tiêu chí:
+code-switching-review-criterion-1 = Dễ hiểu và dễ phản hồi
+code-switching-review-criterion-2 = Có liên quan chung đến chủ đề
+code-switching-review-criterion-3 = Không sử dụng hoặc yêu cầu ngôn ngữ gây hại hoặc xúc phạm
+code-switching-review-does-not-header = Và <bold>ĐỪNG</bold> bao gồm:
+code-switching-review-offensive-content = <bold>Nội dung xúc phạm hoặc thông tin nhạy cảm</bold>
+code-switching-answer-header = Nội dung xúc phạm hoặc thông tin nhạy cảm
+code-switching-review-no-1 = Những câu hỏi có thể yêu cầu thông tin nhận dạng cá nhân
+code-switching-review-no-2 = Những câu hỏi có thể gây ra lời nói thù địch hoặc những cảm xúc thiên vị hoặc xúc phạm khác
+code-switching-review-no-3 = Những câu hỏi có thể khiến ai đó chia sẻ những câu trả lời nhạy cảm, có khả năng gây kích động
+# Answering a Question
+code-switching-answer-subheader = Trả lời một câu hỏi
+code-switching-answer-intro = Khi trả lời một câu hỏi, mục tiêu là trả lời một cách tự nhiên – giống như bạn sẽ làm trong một cuộc trò chuyện thực tế. Chúng tôi muốn ghi lại cách ngôn ngữ thực sự hòa quyện vào lời nói hàng ngày.
+code-switching-answer-bullet-1 = Nghĩ về những khoảnh khắc hoặc tình huống thực tế: trò đùa, tranh luận, truyền thống
+code-switching-answer-bullet-2 = Tưởng tượng rằng bạn đang nhắn tin cho một người bạn hoặc kể cho ai đó một câu chuyện
+code-switching-answer-bullet-3 = Sử dụng những từ bạn thực sự sử dụng, ngay cả khi được mượn hoặc trộn lẫn
+code-switching-answer-bullet-4 = Không có cách nào "hoàn hảo" để trả lời
+code-switching-authentic-header = Trả lời một cách tự nhiên và chân thực
+code-switching-authentic-speak = <bold>Nói chuyện như bạn muốn với bạn bè hoặc gia đình.</bold> Nếu bạn kết hợp các ngôn ngữ trong cuộc sống thực, hãy làm tương tự ở đây. Ví dụ:
+code-switching-authentic-speak-example = “Pues tôi đã nói với cô ấy rằng tôi không thể đi, nhưng cô ấy vẫn nói, ‘You better show up!’”
+code-switching-use-both-languages = <bold>Sử dụng cả hai ngôn ngữ nếu đó là cách bạn thường nói.</bold> Ngay cả việc thay đổi chỉ một hoặc hai từ cũng hữu ích. Ví dụ:
+code-switching-authentic-direct-quotes = <bold>Bao gồm trích dẫn trực tiếp hoặc đối thoại.</bold> Nói chính xác những gì người khác đã nói, không phải phiên bản trau chuốt hoặc trang trọng. Ví dụ:
+code-switching-authentic-reflect = <bold>Phản ánh cảm xúc, bản sắc và bối cảnh.</bold> Việc chuyển đổi thường xảy ra khi mọi người thể hiện cảm xúc, sự cấp bách hoặc ý tưởng văn hóa. Hãy dựa vào những yếu tố này khi trả lời câu hỏi.
+code-switching-authentic-full-context = <bold>Sử dụng câu trả lời đầy đủ với ngữ cảnh.</bold> Hãy trình bày càng chi tiết càng tốt. Chia sẻ một câu chuyện hoặc ví dụ trong câu trả lời của bạn.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Đừng suy nghĩ hoặc chỉnh sửa quá nhiều
+code-switching-answer-dont-correct-language = <bold>“Sửa” ngôn ngữ của bạn.</bold> Đây không phải là một bài kiểm tra. Hình thức “đúng” không quan trọng ở đây, ngôn ngữ tự nhiên mới quan trọng.
+code-switching-answer-dont-avoid-switching = <bold>Tránh chuyển đổi nếu bạn thường làm điều đó.</bold> Bạn có thể chuyển đổi giữa câu, giữa suy nghĩ hoặc chỉ một từ.
+code-switching-answer-dont-formal-writing = <bold>Nói như thể bạn đang viết một cách trang trọng.</bold> Tránh trả lời theo kiểu học thuật, trang trọng. Hãy giữ thái độ trò chuyện.
+code-switching-answer-dont-force-switch = <bold>Buộc chuyển đổi nếu nó không tự nhiên.</bold> Chỉ chuyển đổi nếu đó là cách bạn thường nói chuyện trong tình huống đó.
+code-switching-answer-dont-translate-repeat = <bold>Dịch hoặc lặp lại mọi thứ.</bold> Chỉ cần nói một lần, theo cách diễn đạt thông thường trong một cuộc trò chuyện. Bạn không cần phải nói lại câu trả lời bằng từng ngôn ngữ.
+# Transcribing
+code-switching-transcribe-subheader = Phiên âm
+code-switching-transcribe-intro = Khi phiên âm các câu trả lời có đa ngôn ngữ, hãy thể hiện ngôn ngữ của người nói như khi nó được nói ra – không sửa, biên tập hoặc đơn giản hóa. Điều này áp dụng cho tất cả các trường hợp đa ngôn ngữ, lời nói không trang trọng và các từ hỗn hợp ngôn ngữ.
+code-switching-transcribe-do-1 = Phát đoạn ngắn nhiều lần để nắm bắt những chuyển đổi tinh tế
+code-switching-transcribe-do-2 = Tạm dừng sau mỗi câu để kiểm tra lại các từ chuyển đổi hoặc từ hỗn hợp
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Ghi lại giọng nói chính xác như đã nói
+code-switching-capture-explanation = Phiên âm cả hai ngôn ngữ khi chúng xuất hiện / phát âm. Đừng “sửa” ngôn ngữ hoặc thay đổi nó thành chỉ một ngôn ngữ.
+# Include filler words and markers
+code-switching-filler-header = Bao gồm các từ đệm và dấu hiệu
+code-switching-filler-explanation = Những từ như “um,” “like,” “pues,” “you know,” và “entonces” có ý nghĩa. Ví dụ: “Vì thế, um, tôi đã nói với cô ấy như thế này, ‘pues no sé, để sau đi.’”
+# Use standard spelling for each language
+code-switching-spelling-header = Sử dụng chính tả chuẩn cho từng ngôn ngữ
+code-switching-spelling-explanation = Cố gắng đánh vần chính xác các từ cho từng ngôn ngữ, trừ khi người nói phát âm chúng theo cách không chuẩn.
