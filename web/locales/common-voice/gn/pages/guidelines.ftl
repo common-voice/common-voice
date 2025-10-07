@@ -210,14 +210,20 @@ code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi 
 code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
 code-switching-focus-emotional-explanation = Tapichakuéra omoabue jepi ayvu he’ívo oñandu térã oikotevẽva. Techapyrã:
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
+code-switching-direct-quotes-explanation = Emyakãrakúke oĩva tapichápe tahe’i pe mba’e oiko hagueichaite. Techapyrã:
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
 code-switching-cultural-topics-header = Eiporavo umi téma arandupyetéva
+code-switching-cultural-topics-explanation = Tembi’u, jepokuaa, vy’arã ha oikóva ogapýpe imbarete iñambue hag̃ua tekopy.
+code-switching-cultural-topics-explanation-example = “¿Mba’éichapa ojehai Omanóva Ára rehegua peteĩ ava oñe’ẽva inglés añoitépe?”
 code-switching-informal-scenarios-header = Ejeporeka mba’e okayguávare
+code-switching-informal-scenarios-explanation = Umi ñomongeta angirũnguéra ndive térã ñe’ẽmondo ogueroike jepi ñemoambue. Techapyrã:
 code-switching-informal-scenarios-explanation-example = “Mba’e pukarãpa omombe’újepi ne angirũnguéra — mba’éichapa he’i?”
 # What to Avoid
 code-switching-avoid-subheader = Mba’éicha emboykéta
 code-switching-avoid-intro = Porandu ikatúva:
 code-switching-avoid-1 = Ejerure marandu tapicha mba’eteéva rehegua
+code-switching-avoid-2 = Ejerure je’epy py’aróva térã ambue mba’e ñaña térã oporoko’õva.
+code-switching-avoid-3 = Ikatúva peteĩvape omoherakuãuka mbohovái ñeñandugua ha omongu’ekuaáva ambuépe
 code-switching-dont-header = Nahániri
 code-switching-dont-1 = Anietéke eiporu ñe’ẽ ikatetereíva
 # Reviewing a Question
@@ -239,14 +245,18 @@ code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emomb
 code-switching-answer-bullet-3 = Eiporu ñe’ẽ añetehápe eiporútava, taha’e porupy térã ojehe’áva
 code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
 code-switching-authentic-header = Embohovái porã ha ha’etéva
+code-switching-authentic-speak-example = “Upévare ha’e chupe ndahamo’ãiha, ha he’i chéve: ‘¡Iporãvéta rejúrõ!’”.
 code-switching-use-both-languages-example = “Ipochyeterei chendive nahenói jey haguére chupe”.
+code-switching-authentic-direct-quotes-example = “Che sy oporandu: ‘¿Reimo’ã kóva ñembosarainte?’. Ha’e chupe: ‘¡Py'aguapy!’”.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
 code-switching-transcribe-do-1 = Embopu mbykymimi heta jey ejapyhykuaa hag̃ua moambuepy
+code-switching-transcribe-do-2 = Epyta ñe’ẽjuaju oparire ehecha hag̃ua oĩpa ambuepy térã ñe’ẽ ojeheʼáva.
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Ejapyhy ñe’ẽsyry ojeporuhaguéicha
+code-switching-capture-explanation = Ehai mokõive ñe’ẽ ojehecha térã ipuhaichaite. Aníke emyatyrõ pe ñe’ẽ ha avei ani eheja peteĩva ñe’ẽmente.
 # Include filler words and markers
 code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 # Use standard spelling for each language
@@ -256,6 +266,7 @@ code-switching-cleanup-header = Aníke emopotĩ térã emombyky pe ñe’ẽkuaa
 code-switching-cleanup-1 = Emoñe’ẽasa térã emoambue: ehai pe he’íva ambue tapicha, ndaha’éi “pe he’iséva”.
 code-switching-cleanup-2 = Ñe’ẽtekuaa térã ñe’ẽayvu “oĩporãva”: eiporu osẽ porã hag̃uáicha.
 code-switching-cleanup-3 = Ani emoambue araka’eve jepémo michĩmi: taha’e umi ñe’ẽ porupyre jepe.
+code-switching-cleanup-4 = Emoinge kyta omoambuekuaáva he’iséva: tosẽ ijeheguieténte.
 code-switching-cleanup-5 = Eimo’ã eikuaaha ñe’ẽ peteĩteĩva rehegua: embohéra ijeporu rupi.
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
@@ -264,6 +275,7 @@ code-switching-tagging-error-2 = Jejavy taiguáva
 code-switching-tagging-error-3 = Ñe’ẽ ojehaíva haikatu hendape’ỹva reheve
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Oiporúva hekópe haikatu peteĩteĩva ñe’ẽme
+code-switching-orthography-explanation = Ehai peteĩteĩva ñe’ẽ he’iháicha pe haikatu ñe’ẽ oúvagui ombohekoháicha. Techapyrã:
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Eiporu ñe’ẽpu eipytyvõkuaa hag̃ua ñe’ẽ jeporavorã
 code-switching-pronunciation-explanation-example-1 = Inglés: /ˈkeɪ.bəl/
@@ -275,6 +287,7 @@ code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva �
 code-switching-punctuation-tagging-explanation = Emokyta ñe’ẽ ipa’ũva oĩva ijyketére asu gotyogua ndive. Techapyrã:
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Eñangareko umi ojoguávare
+code-switching-lookalikes-explanation-example-1 = “Footing” he’iseva ñeñani España ñe’ẽme > embohéra español-ramo
 code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojeporúva inglés ñe’ẽme > embohéra inglés ramo
 # When Not to Tag Words
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta

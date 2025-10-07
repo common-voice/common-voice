@@ -231,7 +231,7 @@ code-switching-use-bilingual-prompts-explanation = Propune întrebări care incl
 code-switching-use-bilingual-prompts-explanation-example = „Ce ți-a spus mama ta when you got home that day?"
 code-switching-ask-bilingual-contexts-header = Pune întrebări referitoare la contextele bilingve
 code-switching-ask-bilingual-contexts-explanation = Folosește situații în care ambele limbi sunt des folosite (de exemplu, acasă, la școală, la evenimente ale comunității). De exemplu:
-code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu rudele tale, amesteci vreodată româna cu engleza?”
+code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu verii tăi, amesteci vreodată româna cu engleza?”
 code-switching-focus-emotional-header = Concentrează-te pe momente emoționale sau importante.
 code-switching-focus-emotional-explanation = Atunci când relatează episoade emoționante sau în care întâmplările s-au succedat în ritm alert, mulți vorbitori bilingvi vor începe să combine limbile pe care le vorbesc.
 code-switching-focus-emotional-explanation-example = „Spune-mi ce ți-au spus părinții când le-ai dat o veste foarte importantă pentru tine — cuvânt cu cuvânt, chiar, dacă-ți mai amintești.”
@@ -317,7 +317,7 @@ code-switching-tagging-error-3 = Cuvinte scrise cu o ortografie greșită
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Folosirea ortografiei corecte pentru fiecare limbă
 code-switching-orthography-explanation = Transcrie fiecare cuvânt folosind ortografia limbii căreia îi aparține. De exemplu:
-code-switching-orthography-explanation-example-1 = Dacă este folosit cuvântul englezesc „kitchen”, acesta trebuie transcris potrivit ortografiei engleze, nu române (deci nu scrie „chicen”)!
+code-switching-orthography-explanation-example-1 = În cazul în care cuvântul „office” pare pronunțat ca și când ar fi în română, trebuie scris ca în engleză, nu „ofis”
 code-switching-orthography-explanation-example-2 = Dacă este folosit cuvântul „smartphone”, chiar dacă se pronunță cu „f” și în română și în engleză, el trebuie scris folosind ortografia engleză, cu „ph”. IMPORTANT: în transcrierea română trebuie folosite corect toate semnele diacritice.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Identifică limba vorbită cu ajutorul pronunției
@@ -329,14 +329,14 @@ code-switching-single-token-header = Etichetarea cuvintelor individuale
 code-switching-single-token-explanation = Un singur cuvânt nu trebuie să conțină mai multe etichete.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Etichetează punctuația în funcție de limba folosită până atunci
-code-switching-punctuation-tagging-explanation = Folosește aceeași etichetă de limbă pentru semnul de punctuație ca și pentru cuvintele imediat precedente. De exemplu:
+code-switching-punctuation-tagging-explanation = Etichetează punctuația folosind intervalul cel mai apropiat al limbii de la stânga. Exemple:
 # text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
 code-switching-punctuation-tagging-explanation-example-1 = <purple>singura dată când</purple> Maria <purple>a strigat la mine a fost</purple> <blue>porque</blue> <purple>încerca</purple> printear <blue>un</blue> <purple>comandă.</purple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>dar</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>în fine.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Atenție la „pasageri clandestini”!
 code-switching-lookalikes-explanation = Unele cuvinte pot apărea ca aparținând unei limbi, dar de fapt sunt folosite într-o alta. Etichetează-le în funcție de înțelesul și uzul lor și nu în funcție de cum apar. De exemplu:
-code-switching-lookalikes-explanation-example-1 = „footing” pare a fi un cuvânt englezesc, dar s-a folosit în spaniolă cu sensul de „a alerga”. El trebuie deci etichetat ca fiind un cuvânt aparținând limbii spaniole.
+code-switching-lookalikes-explanation-example-1 = „Footing” folosit cu sensul de „a alerga” în română > etichetează-l drept cuvânt în spaniolă
 code-switching-lookalikes-explanation-example-2 = italianul „no problemo” folosit în engleză > etichetează ca engleză
 # When Not to Tag Words
 code-switching-not-tag-header = Cuvinte care nu trebuie etichetate
@@ -345,8 +345,17 @@ code-switching-not-tag-proper-names = <bold>Substantivele proprii.</bold> Numele
 code-switching-not-tag-proper-names-example-1 = Persoane: Maria, John
 code-switching-not-tag-proper-names-example-2 = Locuri: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Mărci/firme/organizații:   Target, Burger King, Flanco
+code-switching-not-tag-mixed-words = <bold>Cuvinte combinate sau adaptate morfologic.</bold> Nu eticheta cuvinte care combină limbi sau care au terminații adăugate din altă limbă. De exemplu:
+code-switching-not-tag-mixed-words-example = - rădăcina este din engleză, dar sufixul este românesc: „a drinkui”, „a printui”.
+code-switching-not-tag-interjections = <bold>Interjecții.</bold> Interjecțiile și cuvintele de umplutură, indiferent de limba de origine, <bold>nu trebuie etichetate!</bold> De exemplu:
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “Mda”
+code-switching-not-tag-interjections-example-3 = “Yeah”
+code-switching-not-tag-interjections-example-4 = “Hmm”
 
 ## Reporting Content
 
 reporting-content = Semnalarea conținutului neadecvat
 reporting-content-subheader = Îndrumări generale
+reporting-content-explanation-1 = Trebuie să ne semnalezi conținutul scris sau vorbit care este ofensator, care dăunează în vreun fel, sau care poate îngrijora pe cineva. Mai mult, conținutul nu trebuie să includă informații personale, cum ar fi numerele de telefon sau adrese. După ce îl semnalezi, nu îl vei mai vedea până la finalul verificării desfășurate de echipa Common Voice.
+reporting-content-explanation-2 = Pentru a semnala un astfel de conținut necorespunzător, apasă pe butonul „Semnalează” și alege una sau mai multe opțiuni dintre: Discurs ofensator, Greșeală gramaticală / ortografică, Limbă diferită, și Altceva. Dacă alegi și ultima opțiune vei putea explica în detaliu de ce semnalezi textul respectiv. La final, trimite semnalarea apăsând pe butonul Semnalează.

@@ -108,6 +108,10 @@ class ListenPage extends React.Component<Props, State> {
   state: State = initialState
   demoMode = this.props.location.pathname.includes(URLS.DEMO)
 
+  // try to disable double clicks/taps
+  private playLockDurationMs = 600 // mobile devices already introduce ~300 ms lag
+  private isPlayLocked = false
+
   static getDerivedStateFromProps(props: Props, state: State) {
     const unvalidatedClips = state.clips.filter(
       clip => clip.isValid === null
@@ -140,19 +144,49 @@ class ListenPage extends React.Component<Props, State> {
     return this.state.clips.findIndex(clip => clip.isValid === null)
   }
 
-  private play = () => {
+  private play = async () => {
+    if (this.isPlayLocked) return // Prevent during lock period
+    // if really playing, stop
     if (this.state.isPlaying) {
       this.stop()
       return
     }
 
-    this.audioRef.current.play()
-    this.setState({ isPlaying: true })
-    clearInterval(this.playedSomeInterval)
-    this.playedSomeInterval = setInterval(
-      () => this.setState({ hasPlayedSome: true }),
-      VOTE_NO_PLAY_MS
-    )
+    // No attached audio or failing audio (bad file/codec?)
+    const audio = this.audioRef.current
+    if (!audio) return
+
+    // Set lock for 500ms
+    this.isPlayLocked = true
+    setTimeout(() => {
+      this.isPlayLocked = false
+    }, this.playLockDurationMs)
+
+    try {
+      // Reset current time if at the end
+      if (audio.currentTime >= audio.duration) {
+        audio.currentTime = 0
+      }
+
+      // Make sure the promise returns (playing starts)
+      await audio.play()
+
+      // Only update state if play() succeeded
+      this.setState({ isPlaying: true })
+
+      clearInterval(this.playedSomeInterval)
+      this.playedSomeInterval = setInterval(
+        () => this.setState({ hasPlayedSome: true }),
+        VOTE_NO_PLAY_MS
+      )
+    } catch (error) {
+      // Handle specific abort error silently, log others
+      if (error.name !== 'AbortError') {
+        console.error('Error playing audio:', error)
+      }
+      // Ensure state reflects actual playing status
+      this.setState({ isPlaying: false })
+    }
   }
 
   private stop = () => {
@@ -162,6 +196,7 @@ class ListenPage extends React.Component<Props, State> {
       audio.currentTime = 0
       clearInterval(this.playedSomeInterval)
       this.setState({ isPlaying: false })
+      this.isPlayLocked = false
     }
   }
 

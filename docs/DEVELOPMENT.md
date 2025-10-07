@@ -306,14 +306,6 @@ This will execute the most recently added migration in the migrations folder.
 
 We're using [Fluent](http://projectfluent.org/) to localize strings. You can find examples all over the frontend code. Strings that appear in the [english message files](https://github.com/mozilla/common-voice/tree/main/web/locales/common-voice), can then be translated on [Pontoon](https://pontoon.mozilla.org/projects/common-voice/en). Some things to note regarding string changes are documented on [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_content_best_practices#Changing_existing_strings).
 
-## Updating languages
-
-To update the list of locales run:
-
-```sh
-> yarn import-locales
-```
-
 ## Testing using Jest 
 
 We write unit tests using [Jest](https://jestjs.io/). Test files should be named `function_or_service.test.ts` where `function_or_service.ts` is the name of the Typescript file. 

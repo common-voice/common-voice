@@ -10,6 +10,9 @@ import {
   taxonomies,
   Language,
   Datasets,
+  VariantData,
+  AccentData,
+  LanguageData,
 } from 'common'
 import lazyCache, {
   redisSetAddWithExpiry,
@@ -1289,6 +1292,80 @@ export default class DB {
     )[0][0].count
   }
 
+  //
+  // Support for Language Record Arrays
+  //
+
+  async getCombinedLanguageData(): Promise<LanguageData[]> {
+    // LookUp Maps
+    const variantMap = new Map<number, VariantData[]>()
+    const accentMap = new Map<number, AccentData[]>()
+    // Variants
+    const [variant_rows] = await this.mysql.query(
+      `
+        SELECT
+          id,
+          variant_token AS code,
+          variant_name  AS name,
+          type,
+          locale_id
+        FROM variants
+      `
+    )
+    if (variant_rows && Array.isArray(variant_rows)) {
+      for (const variant of variant_rows as VariantData[]) {
+        const localeId = variant.locale_id
+        if (!variantMap.has(localeId)) {
+          variantMap.set(localeId, [])
+        }
+        variantMap.get(localeId).push(variant)
+      }
+    }
+    // Predefined Accents
+    const [accent_rows] = await this.mysql.query(
+      `
+        SELECT
+          id,
+          accent_token AS code,
+          accent_name  AS name,
+          locale_id
+        FROM accents
+        WHERE NOT user_submitted
+          AND accent_token != 'unspecified'
+      `
+    )
+    if (accent_rows && Array.isArray(accent_rows)) {
+      for (const accent of accent_rows as AccentData[]) {
+        const localeId = accent.locale_id // or whatever foreign key you use
+        if (!accentMap.has(localeId)) {
+          accentMap.set(localeId, [])
+        }
+        accentMap.get(localeId).push(accent)
+      }
+    }
+
+    // Language records
+    const language_rows = await this.getAllLanguages()
+    const language_data: LanguageData[] =
+      !language_rows || language_rows.length === 0
+        ? []
+        : language_rows.map(language => ({
+            id: language.id,
+            code: language.name,
+            target_sentence_count: language.target_sentence_count,
+            native_name: language.native_name,
+            is_contributable: Number(language.is_contributable),
+            is_translated: Number(language.is_translated),
+            text_direction: language.text_direction,
+            variants: variantMap.get(language.id) || [],
+            predefined_accents: accentMap.get(language.id) || [],
+          }))
+
+    return language_data
+  }
+
+  // Regular/existing
+
   async getVariants(locale?: string) {
     const [variants] = await this.mysql.query(
       `
@@ -1317,29 +1394,6 @@ export default class DB {
     }, {})
 
     return mappedVariants
-  }
-
-  async getAllPredefinedAccents() {
-    const [rows] = await this.mysql.query(
-      `
-        SELECT id,
-          accent_token AS token,
-          accent_name  AS name,
-          locale_id
-        FROM accents
-        WHERE NOT user_submitted
-          AND accent_token != 'unspecified'
-      `
-    )
-    if (!rows || (rows as any[]).length === 0) {
-      return []
-    }
-    return (rows as any[]).map(r => ({
-      id: r.id,
-      token: r.token,
-      name: r.name,
-      locale_id: r.locale_id,
-    }))
   }
 
   async getAccents(client_id: string, locale?: string) {

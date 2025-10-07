@@ -249,9 +249,10 @@ export default class Server {
       // directly add sentences on the CV platform. However, it is still
       // valuable to set up a local development environment.
       if ('local' == getConfig().ENVIRONMENT && getConfig().IMPORT_SENTENCES) {
+        const import_languages = getConfig().IMPORT_LANGUAGES;
         await importSentences(
           await this.model.db.mysql.createPool(),
-          getConfig().IMPORT_LANGUAGES
+          import_languages ? import_languages.trim().split(',') : [],
         )
       }
 

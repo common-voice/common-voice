@@ -122,7 +122,6 @@ export default class API {
     router.post('/user_client/takeout/request', this.requestTakeout)
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
 
-    router.get('/language/accents/predefined', this.getAllPredefinedAccents)
     router.get('/language/accents/:locale?', this.getAccents)
     router.get('/language/variants/:locale?', this.getVariants)
     router.post(
@@ -156,6 +155,7 @@ export default class API {
       validate({ query: projectSchema }),
       this.getAvailableLanguages
     )
+    router.get('/languagedata', this.getCombinedLanguageData)
     router.get('/languages', this.getAllLanguages)
     router.use('/languages/:locale', languagesRouter)
     router.get('/stats/languages/', this.getLanguageStats)
@@ -307,6 +307,10 @@ export default class API {
     } = request
     await this.model.db.createSkippedClip(id, client_id)
     response.json({})
+  }
+
+  getCombinedLanguageData = async (_request: Request, response: Response) => {
+    response.json(await this.model.getCombinedLanguageData())
   }
 
   getAllLanguages = async (_request: Request, response: Response) => {
@@ -730,11 +734,6 @@ export default class API {
   getServerDate = (request: Request, response: Response) => {
     // prevents contributors manipulating dates in client
     response.json(new Date())
-  }
-
-  getAllPredefinedAccents = async (req: Request, response: Response) => {
-    console.log('=== getAllPredefinedAccents ===')
-    response.json(await this.model.db.getAllPredefinedAccents())
   }
 
   getAccents = async (req: Request, response: Response) => {
