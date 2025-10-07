@@ -20,7 +20,7 @@ transcribe-bubble-title = <mark>Phiên âm</mark>
 transcribe-bubble-subtitle = Bạn viết lại những gì bạn nghe được trong đoạn âm thanh
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Kiểm tra</mark>
-check-bubble-subtitle = Bạn kiểm tra xem bản phiên âm có khớp với âm thanh không
+check-bubble-subtitle = Bạn kiểm tra xem bản chép lời có khớp với âm thanh không
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Dữ liệu</mark>
 data-bubble-subtitle = Chúng tôi phát hành tập dữ liệu định kỳ

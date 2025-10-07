@@ -27,4 +27,4 @@ review-transcriptions-menu-item-tooltip = Xem lại các bản chép lời do ng
 
 listen-contribute-menu-aria-label = Tuỳ chọn khi nghe
 validate-readings-menu-item-aria-label = Xác thực các bài đọc được gửi bởi thành viên cộng đồng
-review-transcriptions-menu-item-aria-label = Đánh giá bản ghi các câu đã được ghi âm để đảm bảo độ chính xác
+review-transcriptions-menu-item-aria-label = Đánh giá bản chép lời các câu đã được ghi âm để đảm bảo độ chính xác

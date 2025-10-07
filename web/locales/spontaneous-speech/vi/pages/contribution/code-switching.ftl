@@ -2,7 +2,7 @@
 
 cs-error-fetching-datasets = Có lỗi xảy ra khi tải danh sách các tập dữ liệu khả dụng. Vui lòng thử lại sau.
 cs-error-fetching-questions = Có lỗi xảy ra khi tải câu hỏi. Vui lòng thử lại sau.
-cs-error-fetching-transcriptions = Có lỗi xảy ra trong khi lấy bản ghi. Vui lòng thử lại sau.
+cs-error-fetching-transcriptions = Có lỗi xảy ra trong khi tải bản chép lời. Vui lòng thử lại sau.
 
 ## Modals
 
@@ -26,11 +26,11 @@ cs-no-audio-continue-skipped-message = Hiện tại không có âm thanh nào đ
 
 ## Review Page Items
 
-cs-no-transcriptions-continue-skipped = Hiện tại không có bản ghi chép nào để kiểm tra cho tập dữ liệu này. Nếu bạn đã bỏ qua bất kỳ nội dung nào, bạn có thể tiếp tục với nội dung đã bỏ qua hoặc chuyển đến bản ghi âm thanh và thử lại sau.
+cs-no-transcriptions-continue-skipped = Hiện tại không có bản chép lời nào để kiểm tra cho tập dữ liệu này. Nếu bạn đã bỏ qua bất kỳ nội dung nào, bạn có thể tiếp tục với nội dung đã bỏ qua hoặc chuyển đến bản ghi âm thanh và thử lại sau.
 
 ## Tag Page Items
 
-cs-no-transcriptions-to-tag-continue-skipped = Hiện tại không có bản ghi chép nào để gắn tag cho tập dữ liệu này. Nếu bạn đã bỏ qua bất kỳ bản ghi nào, bạn có thể tiếp tục với nội dung đã bỏ qua hoặc chuyển đến bản ghi âm thanh và thử lại sau.
+cs-no-transcriptions-to-tag-continue-skipped = Hiện tại không có bản chép lời nào để gắn tag cho tập dữ liệu này. Nếu bạn đã bỏ qua bất kỳ bản ghi nào, bạn có thể tiếp tục với nội dung đã bỏ qua hoặc chuyển đến bản ghi âm thanh và thử lại sau.
 cs-tag-dataset-name = Tập dữ liệu [{ $datasetName }]
 
 ## Guidelines
@@ -44,4 +44,4 @@ cs-learn-how-to-use-answer-explanation = Hãy trả lời câu hỏi một cách
 
 ## Review Page Guidelines
 
-cs-learn-how-to-use-check-transcript-explanation = Bản ghi chép phải ghi lại mọi từ hoặc âm thanh hội thoại không phải từ vựng mà người đó nói ra, bao gồm cả những từ lặp lại.
+cs-learn-how-to-use-check-transcript-explanation = Bản chép lời phải ghi lại mọi từ hoặc âm thanh hội thoại không phải từ vựng mà người đó nói ra, bao gồm cả những từ lặp lại.

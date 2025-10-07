@@ -73,7 +73,7 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 ## NAV ITEMS
 
 answer-questions = Trả lời câu hỏi <small>(sắp ra mắt)</small>
-review-transcriptions = Đánh giá bản ghi
+review-transcriptions = Đánh giá bản chép lời
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
 review-questions = Duyệt câu hỏi
 transcribe-audio = Phiên âm âm thanh
@@ -162,7 +162,7 @@ validate-readings-link = Xác thực bài đọc
 contribute-link = Đóng góp vào ngữ liệu văn bản
 answer-questions-link = Trả lời câu hỏi
 transcribe-answers-link = Ghi lại câu trả lời
-review-transcriptions-link = Đánh giá bản ghi
+review-transcriptions-link = Đánh giá bản chép lời
 contribute-text-link = Đóng góp văn bản
 press-and-stories-link = Báo chí và tin tức
 
