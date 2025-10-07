@@ -18,25 +18,47 @@ import {
 
 const AVG_CLIP_SECONDS = 4.694
 
-// TODO: Update startup script to save % and retreive from database
-function fetchLocalizedPercentagesByLocale(): Promise<any> {
-  return request({
-    uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code}}}}',
-    method: 'GET',
-    json: true,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  }).then(({ data }: any) =>
-    data.project.localizations.reduce(
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (obj: { [locale: string]: number }, l: any) => {
-        obj[l.locale.code] = Math.round(
-          (100 * l.approvedStrings) / l.totalStrings
+type PontoonLocale = {
+  locale: {
+    code: string
+    name: string
+  }
+  total_strings: number
+  approved_strings: number
+  pretranslated_strings: number
+  strings_with_warnings: number
+  strings_with_errors: number
+  missing_strings: number
+  unreviewed_strings: number
+  complete: boolean
+}
+
+async function fetchLocalizedPercentagesByLocale(): Promise<any> {
+  try {
+    const projectData = await request({
+      uri: 'https://pontoon.mozilla.org/api/v2/projects/common-voice/',
+      method: 'GET',
+      json: true,
+    })
+
+    const localeData: PontoonLocale[] = projectData.localizations
+
+    return localeData.reduce(
+      (obj: { [locale: string]: number }, localization: PontoonLocale) => {
+        obj[localization.locale.code] = Math.round(
+          (100 * localization.approved_strings) / localization.total_strings
         )
         return obj
       },
       {}
     )
-  )
+  } catch (error) {
+    console.error(
+      'Error fetching from Pontoon for localized percentages:',
+      error
+    )
+    return {}
+  }
 }
 
 /**
