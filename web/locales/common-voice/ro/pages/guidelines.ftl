@@ -317,7 +317,7 @@ code-switching-tagging-error-3 = Cuvinte scrise cu o ortografie greșită
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Folosirea ortografiei corecte pentru fiecare limbă
 code-switching-orthography-explanation = Transcrie fiecare cuvânt folosind ortografia limbii căreia îi aparține. De exemplu:
-code-switching-orthography-explanation-example-1 = În cazul în care cuvântul „kitchen” pare pronunțat ca și când ar fi în română, trebuie scris ca în engleză, nu „chiciăn”
+code-switching-orthography-explanation-example-1 = În cazul în care cuvântul „office” pare pronunțat ca și când ar fi în română, trebuie scris ca în engleză, nu „ofis”
 code-switching-orthography-explanation-example-2 = Dacă este folosit cuvântul „smartphone”, chiar dacă se pronunță cu „f” și în română și în engleză, el trebuie scris folosind ortografia engleză, cu „ph”. IMPORTANT: în transcrierea română trebuie folosite corect toate semnele diacritice.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Identifică limba vorbită cu ajutorul pronunției
@@ -345,6 +345,7 @@ code-switching-not-tag-proper-names = <bold>Substantivele proprii.</bold> Numele
 code-switching-not-tag-proper-names-example-1 = Persoane: Maria, John
 code-switching-not-tag-proper-names-example-2 = Locuri: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Mărci/firme/organizații:   Target, Burger King, Flanco
+code-switching-not-tag-mixed-words = <bold>Cuvinte combinate sau adaptate morfologic.</bold> Nu eticheta cuvinte care combină limbi sau care au terminații adăugate din altă limbă. De exemplu:
 
 ## Reporting Content
 
