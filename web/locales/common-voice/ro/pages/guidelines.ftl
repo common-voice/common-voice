@@ -358,3 +358,4 @@ code-switching-not-tag-interjections-example-4 = “Hmm”
 reporting-content = Semnalarea conținutului neadecvat
 reporting-content-subheader = Îndrumări generale
 reporting-content-explanation-1 = Trebuie să ne semnalezi conținutul scris sau vorbit care este ofensator, care dăunează în vreun fel, sau care poate îngrijora pe cineva. Mai mult, conținutul nu trebuie să includă informații personale, cum ar fi numerele de telefon sau adrese. După ce îl semnalezi, nu îl vei mai vedea până la finalul verificării desfășurate de echipa Common Voice.
+reporting-content-explanation-2 = Pentru a semnala un astfel de conținut necorespunzător, apasă pe butonul „Semnalează” și alege una sau mai multe opțiuni dintre: Discurs ofensator, Greșeală gramaticală / ortografică, Limbă diferită, și Altceva. Dacă alegi și ultima opțiune vei putea explica în detaliu de ce semnalezi textul respectiv. La final, trimite semnalarea apăsând pe butonul Semnalează.
