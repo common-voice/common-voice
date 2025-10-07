@@ -346,6 +346,12 @@ code-switching-not-tag-proper-names-example-1 = Persoane: Maria, John
 code-switching-not-tag-proper-names-example-2 = Locuri: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Mărci/firme/organizații:   Target, Burger King, Flanco
 code-switching-not-tag-mixed-words = <bold>Cuvinte combinate sau adaptate morfologic.</bold> Nu eticheta cuvinte care combină limbi sau care au terminații adăugate din altă limbă. De exemplu:
+code-switching-not-tag-mixed-words-example = - rădăcina este din engleză, dar sufixul este românesc: „a drinkui”, „a printui”.
+code-switching-not-tag-interjections = <bold>Interjecții.</bold> Interjecțiile și cuvintele de umplutură, indiferent de limba de origine, <bold>nu trebuie etichetate!</bold> De exemplu:
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “Mda”
+code-switching-not-tag-interjections-example-3 = “Yeah”
+code-switching-not-tag-interjections-example-4 = “Hmm”
 
 ## Reporting Content
 
