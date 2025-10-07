@@ -231,7 +231,7 @@ code-switching-use-bilingual-prompts-explanation = Propune întrebări care incl
 code-switching-use-bilingual-prompts-explanation-example = „Ce ți-a spus mama ta when you got home that day?"
 code-switching-ask-bilingual-contexts-header = Pune întrebări referitoare la contextele bilingve
 code-switching-ask-bilingual-contexts-explanation = Folosește situații în care ambele limbi sunt des folosite (de exemplu, acasă, la școală, la evenimente ale comunității). De exemplu:
-code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu rudele tale, amesteci vreodată româna cu engleza?”
+code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu verii tăi, amesteci vreodată româna cu engleza?”
 code-switching-focus-emotional-header = Concentrează-te pe momente emoționale sau importante.
 code-switching-focus-emotional-explanation = Atunci când relatează episoade emoționante sau în care întâmplările s-au succedat în ritm alert, mulți vorbitori bilingvi vor începe să combine limbile pe care le vorbesc.
 code-switching-focus-emotional-explanation-example = „Spune-mi ce ți-au spus părinții când le-ai dat o veste foarte importantă pentru tine — cuvânt cu cuvânt, chiar, dacă-ți mai amintești.”
@@ -317,7 +317,7 @@ code-switching-tagging-error-3 = Cuvinte scrise cu o ortografie greșită
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Folosirea ortografiei corecte pentru fiecare limbă
 code-switching-orthography-explanation = Transcrie fiecare cuvânt folosind ortografia limbii căreia îi aparține. De exemplu:
-code-switching-orthography-explanation-example-1 = Dacă este folosit cuvântul englezesc „kitchen”, acesta trebuie transcris potrivit ortografiei engleze, nu române (deci nu scrie „chicen”)!
+code-switching-orthography-explanation-example-1 = În cazul în care cuvântul „kitchen” pare pronunțat ca și când ar fi în română, trebuie scris ca în engleză, nu „chiciăn”
 code-switching-orthography-explanation-example-2 = Dacă este folosit cuvântul „smartphone”, chiar dacă se pronunță cu „f” și în română și în engleză, el trebuie scris folosind ortografia engleză, cu „ph”. IMPORTANT: în transcrierea română trebuie folosite corect toate semnele diacritice.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Identifică limba vorbită cu ajutorul pronunției
