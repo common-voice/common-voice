@@ -11,7 +11,7 @@ cs-locale-change-modal-subtitle = Bạn chưa lưu thay đổi trên trang này.
 ## Question Page Items
 
 cs-question-page-instruction = Thêm tối đa 25 câu hỏi <icon></icon> vào tập dữ liệu { $currentLocale } để mọi người trả lời
-cs-add-question-textarea-placeholder = Nhập câu hỏi có trộn ngôn ngữ, mỗi câu một dòng. Mọi người có nhiều khả năng trả lời bằng trộn ngôn ngữ hơn khi câu hỏi cũng có trộn ngôn ngữ.
+cs-add-question-textarea-placeholder = Nhập câu hỏi có đa ngôn ngữ, mỗi câu một dòng. Mọi người có nhiều khả năng trả lời bằng đa ngôn ngữ hơn khi câu hỏi cũng có đa ngôn ngữ.
 cs-question-dataset-name = Tập dữ liệu: { $datasetName }
 
 ## Validate Page Items
@@ -40,7 +40,7 @@ read-full-guidelines-here = <guidanceLink>Đọc hướng dẫn đầy đủ t�
 
 ## Answer Page Guidelines
 
-cs-learn-how-to-use-answer-explanation = Hãy trả lời câu hỏi một cách tự nhiên nhất có thể, thoải mái trộn ngôn ngữ nếu bạn thấy tự nhiên. Hãy đảm bảo ngôn ngữ của bạn tôn trọng và không gây khó chịu.
+cs-learn-how-to-use-answer-explanation = Hãy trả lời câu hỏi một cách tự nhiên nhất có thể, thoải mái trả lời đa ngôn ngữ nếu bạn thấy tự nhiên. Hãy đảm bảo ngôn ngữ của bạn tôn trọng và không gây khó chịu.
 
 ## Review Page Guidelines
 
