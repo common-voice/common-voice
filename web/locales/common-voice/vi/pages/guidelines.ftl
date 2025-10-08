@@ -305,6 +305,11 @@ code-switching-tagging-error-3 = Từ được viết sai chính tả
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Sử dụng chính tả đúng cho từng ngôn ngữ
 code-switching-orthography-explanation = Viết mỗi từ theo đúng chính tả của ngôn ngữ gốc. Ví dụ:
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Sử dụng cách phát âm để giúp xác định ngôn ngữ
+code-switching-pronunciation-explanation = Một số từ có thể trông giống nhau ở cả hai ngôn ngữ nhưng lại được phát âm khác nhau. Hãy nghe cách phát âm để giúp gắn tag chính xác. Ví dụ: cable, taco, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Tiếng Anh: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Tiếng Tây Ban Nha: /ˈkable/
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Hãy cẩn thận với những từ ngữ có thể giống nhau
 code-switching-lookalikes-explanation = Một số từ có thể trông giống ngôn ngữ này nhưng lại được sử dụng ở ngôn ngữ khác. Thẻ được phân loại dựa trên ý nghĩa và cách sử dụng, chứ không phải hình thức. Ví dụ:
