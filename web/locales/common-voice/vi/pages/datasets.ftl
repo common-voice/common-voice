@@ -8,6 +8,13 @@ datasets-positioning =
     Bộ dữ liệu đa ngôn ngữ của Common Voice đã là bộ dữ liệu giọng nói có sẵn công khai lớn nhất thuộc loại này, nhưng nó không phải là bộ dữ liệu duy nhất.
     
     Hãy xem trang này như một trung tâm tham chiếu cho các bộ dữ liệu giọng nói nguồn mở khác và, khi Common Voice tiếp tục phát triển, một ngôi nhà cho các bản cập nhật phát hành của chúng tôi.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Bộ dữ liệu Mozilla Common Voice hiện chỉ có sẵn trên Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Kể từ phiên bản Common Voice 23.0, tất cả các tập dữ liệu Common Voice đều chỉ có thể tải xuống thông qua Mozilla Data Collective!
+    
+    Trang này đóng vai trò là kho lưu trữ lịch sử các phiên bản trước của bộ dữ liệu Mozilla Common Voice. Các phiên bản lưu trữ chỉ nên được sử dụng trong các tình huống nghiên cứu cụ thể, không phải cho mục đích đào tạo, để tôn trọng mong muốn của những người đã yêu cầu loại trừ đóng góp của họ.
 datasets-speech-bubble-content = Tin tức thú vị đây! Spontaneous Speech sắp ra mắt! Hãy theo dõi để cập nhật và đảm bảo kiểm tra trong <discordLink>Discord</discordLink> của chúng tôi để biết thông tin mới nhất.
 language = Ngôn ngữ
 download-dataset-header = Tải xuống tập dữ liệu
@@ -102,3 +109,5 @@ female = Nữ
 download-contribute-menu-tooltip = Tải bộ dữ liệu giọng nói của chúng tôi
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Các tuỳ chọn tải xuống để truy cập dữ liệu dự án Common Voice
+datasets-show-more = Hiển thị tất cả tập dữ liệu
+datasets-show-less = Hiển thị tập dữ liệu mới nhất

@@ -14,6 +14,7 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 remove-tags = Xoá tag
 tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = Bật/tắt cửa sổ bật lên
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Hoàn tác
 tag-page-shortcut-select-all = A
