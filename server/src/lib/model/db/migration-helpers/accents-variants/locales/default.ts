@@ -23,7 +23,7 @@ export const migrateAccentsToVariants_default = async (
   }
 
   // Loop through the mapping
-  for (const [accent_token, variant_token] of mapping) {
+  for (const [accent_token, variant_token, doDelete = true] of mapping) {
     // get accent_id and variant_id - fail if not found
     const accent_id = await findAccentIdFromToken(db, locale_id, accent_token)
     const variant_id = await findVariantIdFromToken(
@@ -41,28 +41,36 @@ export const migrateAccentsToVariants_default = async (
     }
 
     // Get all client_id's where the user has no variant defined, has a single predefined accent and that accent is accent_id
-    const eligible_users = await findEligibleUsersForAccentVariantMigration(db, locale_id, accent_id)
+    const eligible_users = await findEligibleUsersForAccentVariantMigration(
+      db,
+      locale_id,
+      accent_id
+    )
     if (!eligible_users || eligible_users.length === 0) continue
 
     // Batched/Bulk process for large datasets
     for (let i = 0; i < eligible_users.length; i += BATCH_SIZE) {
       const batch = eligible_users.slice(i, i + BATCH_SIZE)
       await bulkInsertUserVariants(db, locale_id, variant_id, batch)
-      await bulkDeleteUserAccents(db, locale_id, accent_id, batch)
+      if (doDelete) {
+        await bulkDeleteUserAccents(db, locale_id, accent_id, batch)
+      }
     }
 
     // Remove the old accent if no one uses it anymore
-    const [{ count }] = await db.runSql(
-      `
+    if (doDelete) {
+      const [{ count }] = await db.runSql(
+        `
         SELECT COUNT(*) as count
         FROM user_client_accents
         WHERE locale_id=? AND accent_id=?
       `,
-      [locale_id, accent_id]
-    )
+        [locale_id, accent_id]
+      )
 
-    if (Number(count) === 0) {
-      await db.runSql(`DELETE FROM accents WHERE id=? LIMIT 1`, [accent_id])
+      if (Number(count) === 0) {
+        await db.runSql(`DELETE FROM accents WHERE id=? LIMIT 1`, [accent_id])
+      }
     }
   }
 }
