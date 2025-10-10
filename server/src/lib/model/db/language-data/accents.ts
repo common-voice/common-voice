@@ -390,4 +390,24 @@ export const ACCENTS: Accent[] = [
     accent_name: 'Foghlaimeoir fásta, ó theanga eile',
     accent_token: 'foghlaimeoir_fásta_ó_theanga_eile',
   },
+  {
+    locale_name: 'fr',
+    accent_name: 'Français du nord de la France',
+    accent_token: 'fr-france-north',
+  },
+  {
+    locale_name: 'fr',
+    accent_name: 'Français du sud de la France',
+    accent_token: 'fr-france-south',
+  },
+  {
+    locale_name: 'fr',
+    accent_name: "Français de l'ouest de la France",
+    accent_token: 'fr-france-west',
+  },
+  {
+    locale_name: 'fr',
+    accent_name: "Français de l'est de la France",
+    accent_token: 'fr-france-east',
+  },
 ]
