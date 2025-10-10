@@ -1,4 +1,6 @@
 import { redis, redlock, useRedis } from './redis'
+import * as Sentry from '@sentry/node'
+
 import { TimeUnits } from 'common'
 
 type Fn<T, S> = (...args: S[]) => Promise<T>
@@ -9,8 +11,13 @@ type Fn<T, S> = (...args: S[]) => Promise<T>
 
 let cacheStrategy: 'redis' | 'memory' = 'memory'
 let lastHealthCheck = 0
+let lastErrorReport = 0
+let errorCount = 0 // Track error count for rate limiting
+let healthCheckInterval: NodeJS.Timeout | null = null
+
 const HEALTH_CHECK_INTERVAL = 30 * TimeUnits.SECOND // 30 seconds if Redis has been in use
 const RETRY_INTERVAL = 5 * TimeUnits.SECOND // 5 seconds when Redis was previously down
+const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per minute
 
 // Initialize cache strategy once at module load and start health monitoring
 useRedis.then(hasRedis => {
@@ -23,10 +30,30 @@ useRedis.then(hasRedis => {
   }
 })
 
+function reportError(error: Error, context: string): void {
+  const now = Date.now()
+  errorCount++
+
+  // Only report first error each minute, or if we haven't reported in a while
+  if (now - lastErrorReport >= ERROR_REPORT_INTERVAL || errorCount === 1) {
+    Sentry.captureException(error, {
+      tags: { context },
+      extra: { errorCount, cacheStrategy },
+    })
+    lastErrorReport = now
+    errorCount = 0 // Reset counter after reporting
+  }
+}
+
 // Background health monitoring
 function startHealthMonitoring() {
+  // Clear existing interval if any
+  if (healthCheckInterval) {
+    clearInterval(healthCheckInterval)
+  }
+
   // Check every 30 seconds if healthy, every 5 seconds if trying to recover
-  setInterval(async () => {
+  healthCheckInterval = setInterval(async () => {
     const checkInterval =
       cacheStrategy === 'redis' ? HEALTH_CHECK_INTERVAL : RETRY_INTERVAL
     const now = Date.now()
@@ -37,6 +64,13 @@ function startHealthMonitoring() {
   }, RETRY_INTERVAL) // Check every 5 seconds minimum
 }
 
+export function stopHealthMonitoring(): void {
+  if (healthCheckInterval) {
+    clearInterval(healthCheckInterval)
+    healthCheckInterval = null
+  }
+}
+
 async function performHealthCheck(): Promise<void> {
   const previousStrategy = cacheStrategy
   try {
@@ -44,11 +78,18 @@ async function performHealthCheck(): Promise<void> {
     cacheStrategy = 'redis'
     if (previousStrategy === 'memory') {
       console.log('Redis recovered, switching to Redis cache')
+      // Report recovery to Sentry - this will happen once in a year
+      Sentry.captureMessage('Redis cache recovered', {
+        level: 'info',
+        tags: { context: 'cache-recovery' },
+      })
     }
   } catch (error) {
     cacheStrategy = 'memory'
     if (previousStrategy === 'redis') {
       console.log('Redis health check failed, switching to memory cache')
+      // Use rate-limited error reporting
+      reportError(error as Error, 'health-check-failure')
     }
   }
   lastHealthCheck = Date.now()
@@ -83,7 +124,8 @@ export async function redisSetAddWithExpiry(
     await redis.sadd(key, value)
     await redis.expire(key, Math.floor(ttlMs / 1000))
   } catch (error) {
-    console.error('Redis set add failed:', error)
+    // Use rate-limited error reporting
+    reportError(error as Error, 'redis-set-add')
     cacheStrategy = 'memory'
   }
 }
@@ -95,7 +137,8 @@ export async function redisSetMembers(key: string): Promise<string[]> {
   try {
     return (await redis.smembers(key)) || []
   } catch (error) {
-    console.error('Redis set members failed:', error)
+    // Use rate-limited error reporting
+    reportError(error as Error, 'redis-set-members')
     cacheStrategy = 'memory'
     return []
   }
@@ -167,7 +210,8 @@ function redisCache<T, S>(
           value = cached.value
           renewCache = isExpired(cached.at, timeMs)
         } catch (error) {
-          console.error('Failed to parse cached value:', error)
+          // Use rate-limited error reporting
+          reportError(error as Error, 'cache-parse')
           renewCache = true
         }
       }
@@ -194,13 +238,12 @@ function redisCache<T, S>(
             }
           } catch (error) {
             // Continue to function execution if double-check fails
-            console.error('Redis double-check failed:', error)
+            // Use rate-limited error reporting
+            reportError(error as Error, 'cache-double-check')
           }
         } catch (lockError) {
-          console.error(
-            'Failed to acquire lock, executing without cache protection:',
-            lockError
-          )
+          // Use rate-limited error reporting
+          reportError(lockError as Error, 'cache-lock-acquisition')
           // Continue without lock
         }
 
@@ -213,7 +256,8 @@ function redisCache<T, S>(
             try {
               await redis.set(key, JSON.stringify({ at: Date.now(), value }))
             } catch (setError) {
-              console.error('Failed to set cache:', setError)
+              // Use rate-limited error reporting
+              reportError(setError as Error, 'cache-set')
               cacheStrategy = 'memory'
             }
           }
@@ -225,14 +269,16 @@ function redisCache<T, S>(
             try {
               await lock.unlock()
             } catch (unlockError) {
-              console.error('Failed to unlock:', unlockError)
+              // Use rate-limited error reporting
+              reportError(unlockError as Error, 'cache-unlock')
               cacheStrategy = 'memory'
             }
           }
         }
       })
     } catch (error) {
-      console.error('Redis operation failed, using memory fallback:', error)
+      // Use rate-limited error reporting
+      reportError(error as Error, 'redis-operation')
       cacheStrategy = 'memory'
       // Use memory cache fallback when Redis fails
       return await memoryFallback(...args)
@@ -253,4 +299,38 @@ export default function lazyCache<T, S>(
     const strategy = await getCacheStrategy()
     return strategy === 'redis' ? redisCacheImpl(...args) : memCache(...args)
   }
+}
+
+//
+// Support/Testing functions
+//
+
+// Export for testing and monitoring
+export function getCurrentCacheStrategy(): 'redis' | 'memory' {
+  return cacheStrategy
+}
+
+export function forceCacheStrategy(strategy: 'redis' | 'memory'): void {
+  cacheStrategy = strategy
+  lastHealthCheck = Date.now()
+
+  // Start background monitoring if switching to Redis
+  if (strategy === 'redis') {
+    startHealthMonitoring()
+  }
+}
+
+export function getErrorStats(): {
+  errorCount: number
+  lastErrorReport: number
+} {
+  return { errorCount, lastErrorReport }
+}
+
+export function resetCacheState(): void {
+  cacheStrategy = 'memory'
+  lastHealthCheck = 0
+  lastErrorReport = 0
+  errorCount = 0
+  stopHealthMonitoring()
 }
