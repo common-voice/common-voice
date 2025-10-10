@@ -31,7 +31,14 @@ target-segment-generic-card = تاسو یوې په نښه شوي برخې کې �
 target-segment-first-banner = په { $locale } کې د ګډ غږ لومړي هدفي برخې رامینځته کولو کې مرسته وکړئ.
 target-segment-add-voice = خپل غږ اضافه کړئ
 target-segment-learn-more = نور زده کړئ
+change-preferences = غوره‌توبونه بدلول
+login-signup = ننوتنه/ نوملیکنه
+vote-yes = هو
+vote-no = نه
+datasets = اومتوک‌ټولگې
+languages = ژبې
 about = په اړه
+partner = ملگری
 
 ## Reporting
 
