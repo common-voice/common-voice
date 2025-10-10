@@ -157,6 +157,7 @@ transcribe-the-audio-subheader-1-explanation = Tuichaháicha, ehaivaʼerã opait
 transcribe-the-audio-subheader-1-explanation-example-1 = Ehai umi ñe’ẽpa’ãpa’ã, oĩkuaahápe jepyta ha je’ejeyjey
 transcribe-the-audio-subheader-1-explanation-example-2 = Embohéra umi tyapu oikóva ikatúva hu’u térã jepuka
 transcribe-the-audio-subheader-1-explanation-example-3 = Embohéra ipu hatãitereígui, tyapu oñehendúva tugua gotyo térã kamiõ vosína
+transcribe-the-audio-subheader-1-explanation-example-4 = Umi ambue’i ñe’ẽtekuaagua ha ñe’ẽambuéva ojehaiva’erã osẽháicha. Ani emoĩporã ha embosako’i tapichakuéra he’íva.
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Oiko</correct>: Opyta sa mílla ko’águi
 # text wrapped in wrong will be shown as red text in the UI
