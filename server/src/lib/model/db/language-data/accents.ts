@@ -393,21 +393,21 @@ export const ACCENTS: Accent[] = [
   {
     locale_name: 'fr',
     accent_name: 'Français du nord de la France',
-    accent_token: 'fr-france-north',
+    accent_token: 'fr-metro-north',
   },
   {
     locale_name: 'fr',
     accent_name: 'Français du sud de la France',
-    accent_token: 'fr-france-south',
+    accent_token: 'fr-metro-south',
   },
   {
     locale_name: 'fr',
     accent_name: "Français de l'ouest de la France",
-    accent_token: 'fr-france-west',
+    accent_token: 'fr-metro-west',
   },
   {
     locale_name: 'fr',
     accent_name: "Français de l'est de la France",
-    accent_token: 'fr-france-east',
+    accent_token: 'fr-metro-east',
   },
 ]
