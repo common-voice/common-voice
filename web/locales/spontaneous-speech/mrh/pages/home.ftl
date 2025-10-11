@@ -6,3 +6,5 @@ wall-of-text = Common Voice cha awkenie, anotatapa, châtlâh leipa biereipazy p
 why-spontaneous-speech = He Spontaneous Speech Prototype eima taona chhâpa
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = <mark>Awkenie biereipa kyhzy</mark> nata hmâna kyhzy châta hmâdao a tla (pamosana, nâma ta châ ahlao leipa biereipa hmâna ta bie a reihpazy nata biereipa pahnokheina taopa a châ tita)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Reihpaleipa nata <mark>code-thlana</mark> hawhpa reihchâ châna dopazy châta pha viapa deichhyna
