@@ -29,6 +29,7 @@ const MAPPING: AV_MAPPING_TYPE = [
   ['wallis_et_futuna', 'fr-droum', false],
   ['st_barthelemy', 'fr-droum', false],
   ['st_pierre_et_miquelon', 'fr-droum', false],
+  ['guinea', 'fr-droum', false],
   // Europe
   ['germany', 'fr-europe', false],
   ['united_kingdom', 'fr-europe', false],
@@ -38,15 +39,15 @@ const MAPPING: AV_MAPPING_TYPE = [
   ['romania', 'fr-europe', false],
   ['switzerland', 'fr-europe', false],
   ['portugal', 'fr-europe', false],
-  ['greece', 'fr-europe', true], // remove
+  ['greece', 'fr-europe', true], // remove if possible
   ['austria', 'fr-europe', false],
   ['ireland', 'fr-europe', false],
   ['luxembourg', 'fr-europe', false],
-  ['hungary', 'fr-europe', true], // remove
-  ['cyprus', 'fr-europe', true], // remove
-  ['malta', 'fr-europe', true], // remove
+  ['hungary', 'fr-europe', true], // remove if possible
+  ['cyprus', 'fr-europe', true], // remove if possible
+  ['malta', 'fr-europe', true], // remove if possible
   ['monaco', 'fr-europe', false],
-  ['andorra', 'fr-europe', true], // remove
+  ['andorra', 'fr-europe', true], // remove if possible
   // North Africa
   ['tunisia', 'fr-nafrica', false],
   ['algeria', 'fr-nafrica', false],
@@ -65,7 +66,6 @@ const MAPPING: AV_MAPPING_TYPE = [
   ['congo_brazzaville', 'fr-safrica', false],
   ['congo_kinshasa', 'fr-safrica', false],
   ['benin', 'fr-safrica', false],
-  ['guinea', 'fr-safrica', false],
   ['chad', 'fr-safrica', false],
   ['central_african_republic', 'fr-safrica', false],
   ['gabon', 'fr-safrica', false],
