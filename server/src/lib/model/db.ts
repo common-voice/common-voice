@@ -1353,6 +1353,7 @@ export default class DB {
             id: language.id,
             code: language.name,
             target_sentence_count: language.target_sentence_count,
+            english_name: language.english_name ?? undefined,
             native_name: language.native_name,
             is_contributable: Number(language.is_contributable),
             is_translated: Number(language.is_translated),
