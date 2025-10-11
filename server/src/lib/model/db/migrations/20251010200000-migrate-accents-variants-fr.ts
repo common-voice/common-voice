@@ -8,6 +8,7 @@
 // The default is "true"
 import {
   AV_MAPPING_TYPE,
+  bulkDeleteAccentsWithReferences,
   migrateAccentsToVariants_default,
 } from '../migration-helpers'
 
@@ -17,8 +18,8 @@ const LOCALE_CODE = 'fr'
 // These are 1-to-1 mappings in the order they are defined in DB, but grouped in regions
 const MAPPING: AV_MAPPING_TYPE = [
   // Metro
-  ['france', 'fr-metro', true], // remove
-  // droum
+  ['france', 'fr-metro'], // will be also force removed
+  // droum - keep
   ['reunion', 'fr-droum', false],
   ['martinique', 'fr-droum', false],
   ['guadeloupe', 'fr-droum', false],
@@ -29,8 +30,8 @@ const MAPPING: AV_MAPPING_TYPE = [
   ['wallis_et_futuna', 'fr-droum', false],
   ['st_barthelemy', 'fr-droum', false],
   ['st_pierre_et_miquelon', 'fr-droum', false],
-  ['guinea', 'fr-droum', false],
-  // Europe
+  ['french_guiana', 'fr-droum', false],
+  // Europe - keep
   ['germany', 'fr-europe', false],
   ['united_kingdom', 'fr-europe', false],
   ['netherlands', 'fr-europe', false],
@@ -38,60 +39,69 @@ const MAPPING: AV_MAPPING_TYPE = [
   ['italy', 'fr-europe', false],
   ['romania', 'fr-europe', false],
   ['switzerland', 'fr-europe', false],
-  ['portugal', 'fr-europe', false],
-  ['greece', 'fr-europe', true], // remove if possible
-  ['austria', 'fr-europe', false],
-  ['ireland', 'fr-europe', false],
   ['luxembourg', 'fr-europe', false],
-  ['hungary', 'fr-europe', true], // remove if possible
-  ['cyprus', 'fr-europe', true], // remove if possible
-  ['malta', 'fr-europe', true], // remove if possible
   ['monaco', 'fr-europe', false],
-  ['andorra', 'fr-europe', true], // remove if possible
-  // North Africa
+  // Europe - remove if possible
+  ['portugal', 'fr-europe'],
+  ['greece', 'fr-europe'],
+  ['austria', 'fr-europe'],
+  ['ireland', 'fr-europe'],
+  ['hungary', 'fr-europe'],
+  ['cyprus', 'fr-europe'],
+  ['malta', 'fr-europe'],
+  ['andorra', 'fr-europe'],
+  // North Africa - keep
   ['tunisia', 'fr-nafrica', false],
   ['algeria', 'fr-nafrica', false],
   ['morocco', 'fr-nafrica', false],
   ['mauritania', 'fr-nafrica', false],
-  // South Africa
+  // South Africa - keep
   ['madagascar', 'fr-safrica', false],
   ['cameroon', 'fr-safrica', false],
   ['cote_d_ivoire', 'fr-safrica', false],
   ['mali', 'fr-safrica', false],
-  ['burundi', 'fr-safrica', false],
   ['senegal', 'fr-safrica', false],
   ['niger', 'fr-safrica', false],
   ['togo', 'fr-safrica', false],
-  ['burkina_faso', 'fr-safrica', false],
-  ['congo_brazzaville', 'fr-safrica', false],
   ['congo_kinshasa', 'fr-safrica', false],
   ['benin', 'fr-safrica', false],
-  ['chad', 'fr-safrica', false],
-  ['central_african_republic', 'fr-safrica', false],
-  ['gabon', 'fr-safrica', false],
   ['comoros', 'fr-safrica', false],
-  ['equatorial_guinea', 'fr-safrica', false],
   ['seychelles', 'fr-safrica', false],
   ['mauritius', 'fr-safrica', false],
-  ['djibouti', 'fr-safrica', false],
-  ['rwanda', 'fr-safrica', false],
-  // North America
+  // South Africa - remove if possible
+  ['burundi', 'fr-safrica'],
+  ['burkina_faso', 'fr-safrica'],
+  ['central_african_republic', 'fr-safrica'],
+  ['congo_brazzaville', 'fr-safrica'],
+  ['guinea', 'fr-safrica'],
+  ['chad', 'fr-safrica'],
+  ['gabon', 'fr-safrica'],
+  ['equatorial_guinea', 'fr-safrica'],
+  ['djibouti', 'fr-safrica'],
+  ['rwanda', 'fr-safrica'],
+  // North America - keep
   ['canada', 'fr-namerica', false],
   ['united_states', 'fr-namerica', false],
-  // South America
+  // South America - keep
   ['haiti', 'fr-samerica', false],
-  ['french_guiana', 'fr-samerica', false],
-  // Asia
-  ['syria', 'fr-asia', true],
-  ['vanuatu', 'fr-asia', false],
-  ['lebanon', 'fr-asia', false],
+  // Asia - remove if possible
+  ['syria', 'fr-asia'],
+  ['vanuatu', 'fr-asia'],
+  ['lebanon', 'fr-asia'],
 ]
+
+// List of accents which should be removed as they will be duplicated/mixed with variants
+const FORCE_REMOVE_ACCENTS = ['france'] // 58 users should re-select variant and one of the 4 new fr-metro-* accents
 
 //
 // Do not change the code below unless database structure has been changed
 //
 export const up = async function (db: any): Promise<any> {
-  return await migrateAccentsToVariants_default(db, LOCALE_CODE, MAPPING)
+  await migrateAccentsToVariants_default(db, LOCALE_CODE, MAPPING)
+  if (FORCE_REMOVE_ACCENTS && FORCE_REMOVE_ACCENTS.length > 0) {
+    await bulkDeleteAccentsWithReferences(db, LOCALE_CODE, FORCE_REMOVE_ACCENTS)
+  }
+  return true
 }
 
 export const down = async function (): Promise<any> {
