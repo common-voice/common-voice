@@ -16,3 +16,7 @@ prompt-bubble-title = <mark>Hiahri</mark>
 prompt-bubble-subtitle = Keimo ta nâma hnohta pathyuna châ vei khiah hiahrina sâ kha eima vaw palâsa aw
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Palie</mark>
+respond-bubble-subtitle = Na theina chhôhta ualuapa hawhta palie chvk achhy mah y
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Chapai</mark>
+transcribe-bubble-subtitle = Ao clip-zy liata na theipa kha roh mah y
