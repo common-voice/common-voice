@@ -493,12 +493,14 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'gsw',
-    variant_name: 'Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, usw.)',
+    variant_name:
+      'Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, usw.)',
     variant_token: 'gsw-FR-nordalem',
   },
   {
     locale_name: 'gsw',
-    variant_name: 'Südniederàlemmànisch (Kolmer, Gawìller, Mìlhüüsa, Àltkìrich, usw.)',
+    variant_name:
+      'Südniederàlemmànisch (Kolmer, Gawìller, Mìlhüüsa, Àltkìrich, usw.)',
     variant_token: 'gsw-FR-sudnalem',
   },
   {
@@ -535,5 +537,45 @@ export const VARIANTS: Variant[] = [
     locale_name: 'luo',
     variant_name: 'Dholuo (Nyanduat)',
     variant_token: 'luo-nyanduat',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: 'Français de métropole',
+    variant_token: 'fr-metro',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français des départements et régions d'outre-mer",
+    variant_token: 'fr-droum',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Europe",
+    variant_token: 'fr-europe',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français du nord de l'Afrique",
+    variant_token: 'fr-nafrica',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Afrique subsaharienne et des îles africaines",
+    variant_token: 'fr-safrica',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Amérique du Nord",
+    variant_token: 'fr-namerica',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Amérique du Sud et des Caraïbes",
+    variant_token: 'fr-samerica',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Asie et des îles du Pacifique",
+    variant_token: 'fr-asia',
   },
 ]
