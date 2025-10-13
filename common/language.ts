@@ -19,6 +19,7 @@ export type Language = {
   target_sentence_count?: number
   is_contributable?: boolean
   is_translated?: boolean
+  english_name?: string
   native_name: string
   text_direction: string
 }
@@ -63,6 +64,7 @@ export type LanguageData = {
   id: number
   code: string
   target_sentence_count?: number
+  english_name?: string
   native_name: string
   is_contributable?: number
   is_translated?: number
