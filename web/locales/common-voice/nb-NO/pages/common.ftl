@@ -121,6 +121,7 @@ giz = Guiziga
 gjk = Kachhi
 gju = Gujarati
 gl = Galisisk
+glk = Gileki
 gn = Guarani
 gom = Goan Konkani
 gos = Gronings
