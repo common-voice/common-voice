@@ -280,6 +280,7 @@ os = Ossetisk
 pa-IN = Panjabi
 pap = Papiamento
 pap-AW = Papiamento (Aruba)
+pau = Palauisk
 pcd = Pikardisk
 pcm = Nigeriansk Pidgin Engelsk
 pez = Østlige Penan
