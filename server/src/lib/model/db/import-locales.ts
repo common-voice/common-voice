@@ -58,6 +58,42 @@ const saveToMessages = (languages: any) => {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
+const buildLocaleEnglishNameMapping = (): Record<string, string> => {
+  const englishNames: Record<string, string> = {}
+
+  const messagesPath = path.join(
+    LOCALE_MESSAGES_PATH,
+    'en', // Read from English file - it contains the reference names
+    'pages',
+    'common.ftl'
+  )
+
+  if (!fs.existsSync(messagesPath)) {
+    return englishNames
+  }
+
+  const content = fs.readFileSync(messagesPath, 'utf-8')
+
+  // Extract the Languages section using regex
+  const languagesMatch = content.match(/#\s\[Languages\]([\s\S]*?)#\s\[\/]/)
+
+  if (languagesMatch) {
+    const languagesSection = languagesMatch[1]
+    const languageLines = languagesSection.split('\n')
+
+    for (const line of languageLines) {
+      const match = line.match(/^(\w+)\s*=\s*(.+)$/)
+      if (match) {
+        const [, code, name] = match
+        englishNames[code] = name.trim()
+      }
+    }
+  }
+
+  return englishNames
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const buildLocaleNativeNameMapping: any = () => {
   const locales = fs.readdirSync(LOCALE_MESSAGES_PATH)
   const nativeNames: {
@@ -255,6 +291,8 @@ export async function importLocales() {
   console.log('Importing languages...')
   const locales = await fetchPontoonLanguages()
   console.log('Got Pontoon Languages')
+  const englishNames = buildLocaleEnglishNameMapping()
+  console.log('Got English names')
   const nativeNames = buildLocaleNativeNameMapping()
   console.log('Built native names')
   saveToMessages(locales)
@@ -321,20 +359,26 @@ export async function importLocales() {
 
     console.log('Saving language data to database')
 
-    await Promise.all(
+    let count_inserts = 0
+    let count_updates = 0
+
+    await Promise.allSettled(
       locales.map(async lang => {
         if (allLanguages[lang.code]) {
           // this language exists in db, just update
+          count_updates++
           return await db.query(
             `
             UPDATE locales
-            SET native_name = ?,
+            SET english_name = ?,
+            native_name = ?,
             is_contributable = ?,
             is_translated = ?,
             text_direction = ?
             WHERE id = ?
             `,
             [
+              englishNames[lang.code] ? englishNames[lang.code] : lang.code,
               nativeNames[lang.code] ? nativeNames[lang.code] : lang.code,
               newLanguageData[lang.code].is_contributable,
               newLanguageData[lang.code].is_translated,
@@ -344,12 +388,14 @@ export async function importLocales() {
           )
         } else {
           // this is a new language, insert
+          count_inserts++
           return await db.query(
-            `INSERT IGNORE INTO locales(name, target_sentence_count, native_name, is_contributable, is_translated, text_direction) VALUES (?)`,
+            `INSERT IGNORE INTO locales(name, target_sentence_count, english_name, native_name, is_contributable, is_translated, text_direction) VALUES (?)`,
             [
               [
                 lang.code,
                 newLanguageData[lang.code].target_sentence_count,
+                englishNames[lang.code] ? englishNames[lang.code] : lang.code,
                 lang.name,
                 newLanguageData[lang.code].is_contributable,
                 newLanguageData[lang.code].is_translated,
@@ -360,6 +406,7 @@ export async function importLocales() {
         }
       })
     )
+    console.log(`Languages added: ${count_inserts}, updated: ${count_updates}`)
     console.log('Saving accents to database')
 
     // Make sure each language has at minimum an "unspecified" accent
