@@ -35,11 +35,21 @@
 
 ### Changes merged after current release
 
+- Feat: Add migration to to add `english_name` to locale table, which will also be available in API endpoints, to provide a fallback language where `native_name` field is not yet populated and showing the language code, by [@moz-bozden](https://github.com/moz-bozden) in [#5113](https://github.com/common-voice/common-voice/pull/5113) (in v1.152.4)
+- Feat: Update the accent-variant migration helper to add optional (do not-)delete parameter to also handle specific grouping case in French, by [@moz-bozden](https://github.com/moz-bozden) in [#5110](https://github.com/common-voice/common-voice/pull/5110), to handle part of [#5087](https://github.com/common-voice/common-voice/issues/5087) (in v1.152.4)
+- Feat: Added `/languagedata` endpoint to back-end, which provides detailed language data with related variants and pre-defined accents, which will be used in CV-SS integration and Public API, also simplifying use in other clients using the API, by [@moz-bozden](https://github.com/moz-bozden) in [#5103](https://github.com/common-voice/common-voice/pull/5103) (in v1.152.3)
+- Feat: Migrate to Pontoon API v2 to get language/locale information, by [@moz-bozden](https://github.com/moz-bozden) in [#5099](https://github.com/common-voice/common-voice/pull/5099) to handle [#5010](https://github.com/common-voice/common-voice/issues/5010) (in v1.152.3)
+- Workaround: Increase the cache duration to get less duplicate clip errors happening in low-text-corpus languages, by [@moz-bozden](https://github.com/moz-bozden) in [#5119](https://github.com/common-voice/common-voice/pull/5119) (in v1.152.4)
+- Fix: For errors in Listen page play functionality, mostly happening in Android Chrome Mobile, when people double-tap the play icon. We added some delay and proper error handling, by [@moz-bozden](https://github.com/moz-bozden) in [#5101](https://github.com/common-voice/common-voice/pull/5101) (in v1.152.3)
+- Fix: For DEV environment, when IMPORT_LANGUAGES is not set, it does not work as intended, by [@polyfloyd](https://github.com/polyfloyd) in [#5100](https://github.com/common-voice/common-voice/pull/5100) (in v1.152.3)
 - Fix: For update query for user-variant is_preferred_option sometimes failing due to undefined/null values, by [@moz-bozden](https://github.com/moz-bozden) in [#5083](https://github.com/common-voice/common-voice/pull/5083) (in v1.152.1)
+- Chore: Remove defunct "Updating Languages" section, by [@polyfloyd](https://github.com/polyfloyd) in [#5102](https://github.com/common-voice/common-voice/pull/5102) (in v1.152.3)
 - Chore: Update Discourse invite link in [COMMUNITIES.md](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md) (in v1.152.2)
 
 #### Data Changes after current release
 
+- Add new French (`fr`) accents and variants, by [@moz-bozden](https://github.com/moz-bozden) in [#5111](https://github.com/common-voice/common-voice/pull/5111) with guidence of [@ESBigeard](https://github.com/ESBigeard), to handle part of [#5087](https://github.com/common-voice/common-voice/issues/5087), (in v1.152.4)
+- Added Gilaki (`glk`) and Palauan (`pau`) as starting locales (in v1.152.4)
 - Added Hakka (`hak`) and Sundanese (`su`) as starting locales (in v1.152.2)
 - Changes to locale names for some languages in Pontoon propogated (`mve` -> Marwari, `sbn` -> Sindhi Bhil, `xhe` -> Khetrani) (in v1.152.1)
 

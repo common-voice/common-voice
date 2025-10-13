@@ -302,3 +302,12 @@ languages-donate-banner-cta = <mark>Sử dụng CV</mark><br/><mark>cho nghiên 
 languages-donate-banner-cta-explanation = Common Voice được tài trợ bởi quyên góp và tài trợ! Chúng tôi thích hợp tác với các học giả, xã hội dân sự và các nhà nghiên cứu trong ngành. Common Voice được sử dụng miễn phí nhưng việc quyên góp vào chi phí nền tảng và lưu trữ thông qua các đề xuất tài trợ thực sự hữu ích.
 localization-select =
     .label = Chọn ngôn ngữ/bản địa hóa
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Bộ dữ liệu Common Voice mới</strong> hiện có thể tải xuống độc quyền thông qua nền tảng liên kết của chúng tôi, Mozilla Data Collective. Tham gia để truy cập hơn 300 bộ dữ liệu toàn cầu, được xây dựng bởi và dành cho cộng đồng..
+# Button text for MDC announcement
+announcement-mdc-button-text = Tham gia Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Mở trong một thẻ mới

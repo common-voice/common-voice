@@ -206,7 +206,7 @@ review-the-transcription-explanation-3 = 再次提醒：您可以举报存在伤
 
 ## Code-Switching
 
-code-switching = 语码切换
+code-switching = 语码转换
 adding-a-question = 添加问题
 # Adding a Question
 code-switching-adding-question-subheader = 怎样算是好的问题？

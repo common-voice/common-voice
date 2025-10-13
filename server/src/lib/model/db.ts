@@ -32,7 +32,9 @@ import { TimeUnits } from 'common'
 const SHUFFLE_SIZE = 500
 
 // We select this much extra because some might be removed later
+// And we increased cache duration to cover multiple postings
 const EXTRA_COUNT = 5
+const EXTRA_COUNT_MULTIPLIER = 10
 
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
@@ -313,12 +315,13 @@ export default class DB {
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
 
     const prioritySegments = this.getPrioritySegments(locale)
+    const countWithExtras = count + EXTRA_COUNT_MULTIPLIER * EXTRA_COUNT
 
     if (prioritySegments.length) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
         locale_id,
-        count + EXTRA_COUNT,
+        countWithExtras,
         prioritySegments
       )
     }
@@ -329,7 +332,7 @@ export default class DB {
         : await this.findSentencesWithFewClips(
             client_id,
             locale_id,
-            count + EXTRA_COUNT - taxonomySentences.length,
+            countWithExtras - taxonomySentences.length,
             exemptFromSSRL
           )
 
@@ -339,7 +342,7 @@ export default class DB {
     )
     const totalSentences = (taxonomySentences.concat(regularSentences) || [])
       .filter((s: Sentence) => !redisSet.includes(s.id))
-      .slice(0, count)
+      .slice(0, count) // only return requested amount
 
     return this.appendMetadataToSentence(totalSentences)
   }
@@ -799,11 +802,11 @@ export default class DB {
     sentence: string
     duration: number
   }): Promise<void> {
-    // save in Redis regardless of mysql results - they can come back 1 hour later in case of failure
+    // save in Redis regardless of mysql results - they can come back 6 hour later
     await redisSetAddWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       original_sentence_id,
-      TimeUnits.HOUR
+      6 * TimeUnits.HOUR
     )
     // Do the insert/updates
     try {
