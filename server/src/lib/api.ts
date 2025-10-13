@@ -201,9 +201,9 @@ export default class API {
     const localeId = await getLocaleId(locale)
 
     // the validator coerces count into a number but doesn't update the type
-    const count: number = (request.query.count as never) || 1
+    const count: number = parseInt(request?.query?.count as string) || 25
     const ignoreClientVariant: boolean =
-      Boolean(request.query.ignoreClientVariant) || false
+      Boolean(request?.query?.ignoreClientVariant) || false
 
     const userClientVariant = await pipe(
       client_id,
