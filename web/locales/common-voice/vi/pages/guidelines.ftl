@@ -293,6 +293,8 @@ code-switching-filler-explanation = Những từ như “um,” “like,” “p
 # Use standard spelling for each language
 code-switching-spelling-header = Sử dụng chính tả chuẩn cho từng ngôn ngữ
 code-switching-spelling-explanation = Cố gắng đánh vần chính xác các từ cho từng ngôn ngữ, trừ khi người nói phát âm chúng theo cách không chuẩn.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Đừng dọn dẹp hoặc đơn giản hóa ngôn ngữ
 code-switching-cleanup-5 = Giả sử bạn biết ngôn ngữ của từng từ – gắn tag dựa trên cách sử dụng.
 # Tagging
 code-switching-tagging-subheader = Tag
@@ -303,3 +305,34 @@ code-switching-tagging-error-3 = Từ được viết sai chính tả
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Sử dụng chính tả đúng cho từng ngôn ngữ
 code-switching-orthography-explanation = Viết mỗi từ theo đúng chính tả của ngôn ngữ gốc. Ví dụ:
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Sử dụng cách phát âm để giúp xác định ngôn ngữ
+code-switching-pronunciation-explanation = Một số từ có thể trông giống nhau ở cả hai ngôn ngữ nhưng lại được phát âm khác nhau. Hãy nghe cách phát âm để giúp gắn tag chính xác. Ví dụ: cable, taco, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Tiếng Anh: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Tiếng Tây Ban Nha: /ˈkable/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Hãy cẩn thận với những từ ngữ có thể giống nhau
+code-switching-lookalikes-explanation = Một số từ có thể trông giống ngôn ngữ này nhưng lại được sử dụng ở ngôn ngữ khác. Thẻ được phân loại dựa trên ý nghĩa và cách sử dụng, chứ không phải hình thức. Ví dụ:
+code-switching-lookalikes-explanation-example-1 = “Footing” được sử dụng để chỉ việc chạy trong tiếng Tây Ban Nha > gắn tag là tiếng Tây Ban Nha
+code-switching-lookalikes-explanation-example-2 = “No problemo” được sử dụng trong tiếng Anh > gắn tag là tiếng Anh
+# When Not to Tag Words
+code-switching-not-tag-header = Khi nào không nên gắn tag từ
+code-switching-not-tag-explanation = Một số từ không nên <bold>gắn tag</bold> với nhãn ngôn ngữ, ngay cả khi chúng có vẻ hỗn tạp hoặc được điều chỉnh. Sau đây là cách xử lý một số ví dụ:
+code-switching-not-tag-proper-names = <bold>Tên riêng.</bold> Không nên gắn tag tên người, địa điểm và tổ chức. Ví dụ:
+code-switching-not-tag-proper-names-example-1 = Mọi người: Maria, John
+code-switching-not-tag-proper-names-example-2 = Địa điểm: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Thương hiệu/Tổ chức: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Từ hỗn hợp hoặc từ chuyển thể hình thái.</bold> Không gắn tag các từ pha trộn ngôn ngữ hoặc có đuôi từ ngôn ngữ khác. Ví dụ:
+code-switching-not-tag-mixed-words-example = Trong đó gốc là tiếng Anh nhưng hậu tố là tiếng Tây Ban Nha: “parkear”, “printearlo”
+code-switching-not-tag-interjections = <bold>Thán từ.</bold> Các từ cảm thán và từ đệm, bất kể ngôn ngữ nào, <bold>không nên gắn tag</bold>. Ví dụ:
+code-switching-not-tag-interjections-example-1 = “Eh”
+code-switching-not-tag-interjections-example-2 = “Không”
+code-switching-not-tag-interjections-example-3 = “Yeah”
+code-switching-not-tag-interjections-example-4 = “Hmm”
+
+## Reporting Content
+
+reporting-content = Báo cáo nội dung
+reporting-content-subheader = Hướng dẫn chung
+reporting-content-explanation-1 = Bạn phải gắn cờ nội dung mang tính xúc phạm, gây hại hoặc gây lo ngại. Nội dung đó cũng không được chứa thông tin nhận dạng cá nhân như số điện thoại hoặc địa chỉ. Nội dung đó sẽ bị xóa khỏi trải nghiệm của bạn cho đến khi nhóm Common Voice xem xét và điều tra thêm.
+reporting-content-explanation-2 = Để báo cáo nội dung, hãy chọn nút "Báo cáo" và chọn một hoặc tất cả các tùy chọn: Nội dung phản cảm, Ngôn ngữ khác, Thông tin nhận dạng cá nhân, Khác. Từ đây, hãy cung cấp thêm chi tiết về lý do bạn báo cáo nội dung trong phần văn bản. Sau đó, gửi báo cáo bằng cách nhấp vào nút Báo cáo.

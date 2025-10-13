@@ -12,9 +12,9 @@ request-language-form-info =
     .label = د ژبې په اړه معلومات
 request-language-form-info-explanation = د ژبې په اړه څومره چې تاسو کولی شئ معلومات اضافه کړئ. د ‏‎کېدای شي شامل وي:
 request-language-form-info-explanation-list-1 = ستاسو د ژبې نومونه
-request-language-form-info-explanation-list-2 = <isoCodeLink>ISO کوډونه</isoCodeLink> که معلوم وي
-request-language-form-info-explanation-list-3 = د ویب پاڼو لینکونه چې زموږ سره د ژبې په پوهیدو کې مرسته کولی شي
-request-language-google-recaptcha-required = reCAPTCHA ته اړتیا ده که تاسو غواړئ پرمخ لاړشئ
+request-language-form-info-explanation-list-2 = <isoCodeLink>آيسو کوډونه</isoCodeLink> که څرگند وي
+request-language-form-info-explanation-list-3 = د وېبپاڼو تړوني چې له موږ سره د ژبې پوهېدو کې مرسته کولی شي
+request-language-google-recaptcha-required = پرمخ تللو لپاره بياځلي کپچا ته اړتيا ده
 request-language-google-recaptcha-error = په reCAPTCHA کې یو څه غلط شوي. مهرباني وکړئ بیا هڅه وکړئ.
 # Success page
 request-language-success-heading = مننه! تاسو د نوې ژبې پوښتنې لیږلي دي
