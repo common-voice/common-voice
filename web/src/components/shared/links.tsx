@@ -66,7 +66,7 @@ export const MatrixLink = ({ dispatch, ...props }: SharedLinkProps) => {
   return (
     <a
       target="blank"
-      href="https://chat.mozilla.org/#/room/#common-voice:mozilla.org"
+      href="https://matrix.to/#/#common-voice:mozilla.org"
       onClick={() => trackGlobal('matrix', locale)}
       {...props}
     />
