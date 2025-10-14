@@ -149,3 +149,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Безне н�
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice ничек финанслана?
+about-playbook-how-funded-content-1 = Common Voice — салымнардан азат, коммерцияле булмаган (US 501c3) Mozilla фондының проекты. Хәзерге вакытта проект тулысынча <philantropicGrantLink>филантроп грантлары</philantropicGrantLink> һәм кешеләр бөтен дөньядан җибәргән акчалата хәйрияләр хисабына финанслана.
