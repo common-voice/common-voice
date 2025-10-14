@@ -57,13 +57,13 @@ const saveToMessages = (languages: any) => {
   fs.writeFileSync(messagesPath, newMessages)
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const buildLocaleEnglishNameMapping = (): Record<string, string> => {
   const englishNames: Record<string, string> = {}
 
+  // Read from English file - it contains the reference names
   const messagesPath = path.join(
     LOCALE_MESSAGES_PATH,
-    'en', // Read from English file - it contains the reference names
+    'en',
     'pages',
     'common.ftl'
   )
@@ -72,22 +72,28 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
     return englishNames
   }
 
-  const content = fs.readFileSync(messagesPath, 'utf-8')
+  try {
+    const content = fs.readFileSync(messagesPath, 'utf-8')
 
-  // Extract the Languages section using regex
-  const languagesMatch = content.match(/#\s\[Languages\]([\s\S]*?)#\s\[\/]/)
+    // Extract the Languages section
+    const languagesMatch = content.match(/#\s\[Languages\]([\s\S]*?)#\s\[\/]/)
 
-  if (languagesMatch) {
-    const languagesSection = languagesMatch[1]
-    const languageLines = languagesSection.split('\n')
+    if (languagesMatch) {
+      const languagesSection = languagesMatch[1]
+      const languageLines = languagesSection.split('\n')
 
-    for (const line of languageLines) {
-      const match = line.match(/^(\w+)\s*=\s*(.+)$/)
-      if (match) {
-        const [, code, name] = match
-        englishNames[code] = name.trim()
+      for (const line of languageLines) {
+        // Use regex that also handles special characters in codes
+        const match = line.match(/^([a-zA-Z0-9-]+)\s*=\s*(.+)$/)
+        if (match) {
+          const [, code, name] = match
+          // Use trim() to clean up whitespace
+          englishNames[code] = name.trim()
+        }
       }
     }
+  } catch (error) {
+    console.error('Failed to parse English language list:', error)
   }
 
   return englishNames
