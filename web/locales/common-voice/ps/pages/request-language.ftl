@@ -7,10 +7,10 @@ request-language-explanation-1 =
     که نه، دا فورمه ډکه کړئ او موږ به <strong>تاسو ته یو اسانه برېښليک درولېږو
     چې څنگه کولی شئ تاسو خپله ژبه واوڼئ</strong>.
 request-language-form-email =
-    .label = ستاسو بریښنالیک آدرس
+    .label = ستاسو برېښليک پته
 request-language-form-info =
-    .label = د ژبې په اړه معلومات
-request-language-form-info-explanation = د ژبې په اړه څومره چې تاسو کولی شئ معلومات اضافه کړئ. د ‏‎کېدای شي شامل وي:
+    .label = د ژبې په اړه مالومات
+request-language-form-info-explanation = د ژبې په اړه چې تاسو هر څومره مالومات کولی شئ ورگډ کړئ. دا کېدای شي لاندې مالومات ولري:
 request-language-form-info-explanation-list-1 = ستاسو د ژبې نومونه
 request-language-form-info-explanation-list-2 = <isoCodeLink>آيسو کوډونه</isoCodeLink> که څرگند وي
 request-language-form-info-explanation-list-3 = د وېبپاڼو تړوني چې له موږ سره د ژبې پوهېدو کې مرسته کولی شي
