@@ -128,6 +128,7 @@ my = Burmai
 myv = Erza
 nan-tw = Tajvani (minnan)
 nb-NO = Norvég bokmål
+ncx = Közép-pueblai navatl
 nd = Ndebele (északi)
 ne-NP = Nepáli
 nhe = Keleti huastecai nahuatl
@@ -150,6 +151,7 @@ pl = Lengyel
 ps = Pastu
 pt = Portugál
 quc = K'iche'
+qup = Déli pastazai kecsua
 quy = Kecsua chanka
 qvi = Kecsua
 qxp = Puno kecsua
@@ -270,3 +272,12 @@ languages-donate-banner-cta = <mark>Kutatáshoz használja</mark><br/><mark>a CV
 languages-donate-banner-cta-explanation = A Common Voice-ot adományokból és támogatásokból finanszírozzuk! Szeretünk együttműködni akadémikusokkal, civil társadalmi és ipari kutatókkal. A Common Voice használata ingyenes, de pályázatok útján történő hozzájárulás a platform és a tárhely költségeihez nagyon hasznos.
 localization-select =
     .label = Válasszon nyelvet/honosítást
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = Az <strong>új Common Voice adatkészletek</strong> már kizárólag testvérplatformunkon, a Mozilla Data Collective-en keresztül érhetők el. Csatlakozzon, hogy hozzáférjen több mint 300 globális adatkészlethez. A közösség által és a közösség számára készítve.
+# Button text for MDC announcement
+announcement-mdc-button-text = Csatlakozás a Mozilla Data Collective-hez
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Új lapon nyílik meg

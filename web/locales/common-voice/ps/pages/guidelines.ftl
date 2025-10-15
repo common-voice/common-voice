@@ -157,3 +157,8 @@ adding-a-question = د پوښتنې اضافه کول
 # Adding a Question
 code-switching-adding-question-subheader = څه شی ښه پوښتنه جوړوي؟
 code-switching-adding-question-criteria-1 = په اسانۍ سره پوه شئ او ځواب ورکړئ
+code-switching-adding-question-criteria-2 = په عمومي ډول اړونده اوسئ
+code-switching-adding-question-criteria-3 = زیان رسوونکې یا سپکونکې ژبه مه کاروئ، یا یې غوښتنه مه کوئ
+# What types of questions to add
+code-switching-types-subheader = کوم ډول پوښتنې باید اضافه شي؟
+code-switching-focus-emotional-header = په احساساتي یا لوړو شیبو تمرکز وکړئ

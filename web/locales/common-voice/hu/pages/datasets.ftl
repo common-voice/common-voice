@@ -8,6 +8,8 @@ datasets-positioning =
     A Common Voice többnyelvű adatkészlete már most a legnagyobb nyilvánosan hozzáférhető hangadat-készlet, de ez nem az egyetlen.
     
     Tekintsen erre az oldalra, mint egy referencia-központra, amely más nyílt forráskódú hangadat-készleteket tartalmaz, és ahogy a Common Voice tovább növekszik, ez lesz a frissített kiadások otthona is.
+# New/upcoming datasets page headline
+datasets-headline-mdc = A Mozilla Common Voice adatkészletek mostantól kizárólag a Mozilla Data Collective-en érhetők el.
 datasets-speech-bubble-content = Izgalmas hírek! A Spontán beszéd úton van! Kövesse a híreket, és a legfrissebb információkért nézze meg a <discordLink>Discordunkat</discordLink>.
 language = Nyelv
 download-dataset-header = Az adatkészlet letöltése
