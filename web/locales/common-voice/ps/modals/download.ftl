@@ -1,6 +1,6 @@
 ## Download Modal
 
-download-title = ستاسو ډاونلوډ پیل شوی دی.
+download-title = ستاسو راکښته‌کول پیل شوي دي.
 download-helpus = زموږ سره د غږ ټیکنالوژۍ پر شاوخوا ټولنې جوړولو کې مرسته وکړئ، د بریښنالیک له لارې اړیکه کې اوسئ.
 download-form-email =
     .label = خپل برېښنالیک دننه کړئ

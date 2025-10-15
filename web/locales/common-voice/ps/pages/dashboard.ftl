@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = یوه موخه وټاکئ
 cant-decide = پریکړه نشئ کولئ؟
+activity-needed-calculation-fixed = ۱۰۰ کسان چې په ورځ کې ۱۰۰ غونډلې جوړې کړي، کولی شي ۱۳ گړۍ اډيو توليد کړي، د دې چارې په دوام سره ۱۰۰ گړۍ په ۳ مياشتو کې ترلاسه کېدای شي.
 how-many-per-day = غوره! په ورځ کې څو کلیپونه؟
 how-many-a-week = غوره! په اونۍ کې څو کلیپونه؟
 which-goal-type = ایا تاسو غواړئ چې وغږیږئ، واورئ یا دواړه؟

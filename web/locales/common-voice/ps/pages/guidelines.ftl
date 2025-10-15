@@ -135,3 +135,25 @@ offensive-content-sensitive-information-explanation-explanation-3 = هغه پو�
 example-questions-subheader = د مثال پوښتنې
 example-questions-explanation-1 = تاسو کولی شئ په دې پاڼه کې د <examplePromptsLink>۱۲۰ مثال لارښوونې ومومئ.</examplePromptsLink>
 example-questions-explanation-2 = که تاسو غواړئ د پوښتنو یوه برخه د شاملولو لپاره وسپارئ، تاسو کولی شئ دا زموږ د GitHub له لارې ترسره کړئ</githubLink> یا خپل لیست <emailFragment>commonvoice@mozilla.com ته بریښنالیک واستوئ.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = پوښتنو ته ځواب ورکړئ
+transcribe-the-audio-subheader-2 = شمېرې او لنډیزونه
+tags-table-header-2 = معنی
+tags-laugh = خندا
+tags-unclear = ناڅرګند
+tags-noise = شور
+tags-laugh-explanation = د خندا غږ.
+
+## Review the Transcription
+
+review-the-transcription-subheader = عمومي لارښوونه
+
+## Code-Switching
+
+adding-a-question = د پوښتنې اضافه کول
+# Adding a Question
+code-switching-adding-question-subheader = څه شی ښه پوښتنه جوړوي؟
+code-switching-adding-question-criteria-1 = په اسانۍ سره پوه شئ او ځواب ورکړئ
