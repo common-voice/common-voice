@@ -10,6 +10,11 @@ datasets-positioning =
     Tekintsen erre az oldalra, mint egy referencia-központra, amely más nyílt forráskódú hangadat-készleteket tartalmaz, és ahogy a Common Voice tovább növekszik, ez lesz a frissített kiadások otthona is.
 # New/upcoming datasets page headline
 datasets-headline-mdc = A Mozilla Common Voice adatkészletek mostantól kizárólag a Mozilla Data Collective-en érhetők el.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    A Common Voice 23.0-s verziójától kezdve minden Common Voice adatkészlet kizárólag a Mozilla Data Collective-en keresztül érhető el, és tölthető le!
+    
+    Ez az oldal a Mozilla Common Voice adatkészletek korábbi verzióinak archívuma. Az archivált kiadásokat csak speciális kutatási forgatókönyvekhez szabad felhasználni, betanításra nem, tiszteletben tartva azok kívánságát, akik hozzájárulásuk kizárását kérték.
 datasets-speech-bubble-content = Izgalmas hírek! A Spontán beszéd úton van! Kövesse a híreket, és a legfrissebb információkért nézze meg a <discordLink>Discordunkat</discordLink>.
 language = Nyelv
 download-dataset-header = Az adatkészlet letöltése
@@ -104,3 +109,5 @@ female = Nő
 download-contribute-menu-tooltip = Töltse le a hangadatkészleteinket
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Letöltési lehetőségek a Common Voice adatokhoz
+datasets-show-more = Összes adatkészlet megjelenítése
+datasets-show-less = Legfrissebb adatkészletek megjelenítése

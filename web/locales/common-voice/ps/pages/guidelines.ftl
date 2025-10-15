@@ -162,3 +162,25 @@ code-switching-adding-question-criteria-3 = زیان رسوونکې یا سپک�
 # What types of questions to add
 code-switching-types-subheader = کوم ډول پوښتنې باید اضافه شي؟
 code-switching-focus-emotional-header = په احساساتي یا لوړو شیبو تمرکز وکړئ
+# What to Avoid
+code-switching-avoid-subheader = د څه څخه باید مخنیوی وشي
+code-switching-avoid-intro = هغه پوښتنې چې ممکن وي:
+code-switching-dont-header = مه کوه
+code-switching-dont-1 = ډېره رسمي ژبه مه کاروئ
+# Reviewing a Question
+code-switching-review-subheader = د یوې پوښتنې بیاکتنه
+code-switching-review-intro = ډاډ ترلاسه کړئ چې پوښتنه لاندې معیارونه پوره کوي:
+code-switching-review-criterion-1 = په اسانۍ سره پوه شئ او ځواب ورکړئ
+code-switching-review-criterion-3 = زیان رسوونکې یا سپکونکې ژبه مه کاروئ، یا یې غوښتنه مه کوئ
+code-switching-answer-header = سپکاوی کوونکی مواد یا حساس معلومات
+code-switching-review-no-1 = هغه پوښتنې چې ممکن د شخصي پیژندنې وړ معلوماتو غوښتنه وکړي
+# Answering a Question
+code-switching-answer-subheader = د یوې پوښتنې ځواب ورکول
+code-switching-answer-bullet-1 = د حقیقي ژوند شیبو یا حالاتو په اړه فکر وکړئ: ټوکې، دلیلونه، دودونه
+code-switching-answer-bullet-4 = د ځواب ورکولو لپاره کومه "بشپړه" لاره نشته
+# Use standard spelling for each language
+code-switching-spelling-header = د هرې ژبې لپاره معیاري املا وکاروئ
+code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = د ژبې د ټاکلو لپاره د تلفظ څخه کار واخلئ
+code-switching-not-tag-interjections-example-2 = "نه"

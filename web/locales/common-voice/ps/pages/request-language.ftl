@@ -2,10 +2,10 @@
 
 request-language-heading = د نوې ژبې په اړه پوښتنه وکړئ
 request-language-explanation-1 =
-    وګورئ چې ستاسو ژبه په کې لیست شوې ده
-    <languagesPageLink>د عام غږ ژبې پاڼه</languagesPageLink>.
-    که نه، دا فورمه ډکه کړئ او موږ به <strong>تاسو ته یو اسانه بریښنالیک واستوو
-    تشریح کول چې څنګه خپله ژبه جوړه کړئ</strong>.
+    وگورئ چې ستاسو ژبه د 
+    <languagesPageLink>د عام غږ ژبې پاڼه</languagesPageLink> کې ورگډه شوې ده.
+    که نه، دا فورمه ډکه کړئ او موږ به <strong>تاسو ته یو اسانه برېښليک درولېږو
+    چې څنگه کولی شئ تاسو خپله ژبه واوڼئ</strong>.
 request-language-form-email =
     .label = ستاسو بریښنالیک آدرس
 request-language-form-info =
