@@ -39,6 +39,9 @@
 
 ### Changes merged after current release
 
+- Feat/Fix: Redis connection loss problems in LazyCache and make it resilient to connection losses by health monitoring and switching to memory-cache, by [@moz-bozden](https://github.com/moz-bozden) in [#5107](https://github.com/common-voice/common-voice/pull/5107) (in v1.153.1)
+- Fix: Parsing of some language codes failing, which were populating the new english_name field in the new endpoint, by [@moz-bozden](https://github.com/moz-bozden) in [#5123](https://github.com/common-voice/common-voice/pull/5123) (in v1.153.1)
+
 #### Data Changes after current release
 
 #### Spontaneous Speech after current release
