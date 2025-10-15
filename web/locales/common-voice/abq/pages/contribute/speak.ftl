@@ -55,6 +55,7 @@ first-cta-gender-select-help-text =
     .label = Швхъацlума момкlва швпхlвысума?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Хlшвзыразпl швбжьы гlашвыргауа!
+second-cta-subtitle-text = Упрофильла ауыс уызлу уырхъвых уахвитпl, ауи акlвымкlвагьи абжьы анцlагlвчва урачважварныс уылшитl.
 already-have-an-account = Аккаунт швымахьума? <login>Швтал</login>
 create-profile-button = Профиль гlаныршара
 # IMAGE TAGS
