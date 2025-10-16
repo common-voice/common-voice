@@ -67,6 +67,7 @@ cjk = چوکوې
 ckb = منځنۍ کوردي
 cnh = هاکه چن
 co = کورسیکني
+cpx = هینګ هو
 cpy = اشېنينکا سوېلي يوکايالي
 crh = د کریمیا تاتار
 cs = چکسلواکي
@@ -120,6 +121,7 @@ giz = گويزيگا
 gjk = کاچي
 gju = گوجري
 gl = ګالیسي
+glk = ګیلاکي
 gn = ګوراني
 gom = ګوان کونکاني
 gos = گرونينگز
@@ -188,6 +190,7 @@ kvx = پارکاري کولي
 kw = کارنشي
 kxp = واديارا کولي
 ky = قرغیزي
+kzi = کېلابیت
 lb = لوګزامبورګي
 led = لېندويي
 leu = کارا
@@ -208,6 +211,7 @@ lv = لاتویني
 lzz = لاز
 mai = میتیلي
 mau = هواوتلا مازاتېک
+mbf = بابا مالی
 mbo = مبو
 mcf = ماتسېسي
 mcn = ماسا
@@ -215,6 +219,7 @@ mcx = مپيمو
 mdd = مبومي
 mdf = موکشايي
 meh = ميکتېکو يوکوهيتي
+mel = میلاناو
 mfe = کرېول موريسيني
 mg = مالاګسي
 mgg = کونابېمبې
@@ -450,3 +455,12 @@ languages-donate-banner-cta = <mark>ستاسو د څیړنې لپاره د CV ک
 languages-donate-banner-cta-explanation = عام غږ د بسپنه او بسپنې له لارې تمویل کیږي! موږ د اکادمیکانو، مدني ټولنې او صنعت څیړونکو سره همکاري خوښوو. عام غږ د کارولو لپاره وړیا دی، مګر د وړیا وړاندیزونو له لارې د پلیټ فارم او کوربه کولو لګښتونو کې مرسته کول واقعیا ګټور دي.
 localization-select =
     .label = ژبه/سیمه ایز کول غوره کړئ
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>نوي کامن وائس ډیټاسیټونه</strong> اوس زموږ د خور پلیټ فارم، موزیلا ډیټا کلیکټیو له لارې په ځانګړي ډول د ډاونلوډ لپاره شتون لري. د 300+ نړیوالو ډیټاسیټونو ته د لاسرسي لپاره ګډون وکړئ، چې د ټولنې لخوا او د ټولنې لپاره جوړ شوي دي.
+# Button text for MDC announcement
+announcement-mdc-button-text = د موزیلا ډیټا کلیکټیو سره یوځای شئ
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = په نوي ټېب کې پرانیستل کیږي
