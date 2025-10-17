@@ -470,3 +470,10 @@ languages-donate-banner-cta = <mark>Common Voice نى ئىشلىتىپ</mark><br
 languages-donate-banner-cta-explanation = Common Voice خەير-ساخاۋەت ۋە ئىئانىگە تايىنىدۇ! بىز ئاكادېمىيە، پۇقرالار جەمئىيىتى ۋە كەسپىي تەتقىقاتچىلار بىلەن ھەمكارلىشىشنى ياقتۇرىمىز. Common Voice نى ھەقسىز ئىشلەتكىلى بولىدۇ ئەمما سۇپا ۋە مۇلازىمېتىر چىقىمىغا ھەسسە قوشۇشىڭىزغا ھەقىقەتەن ئېھتىياجلىق.
 localization-select =
     .label = تىل/يەرلىكلەشتۈرۈش تاللىنىدۇ
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla سانلىق مەلۇمات كوللېكتىپىغا قوشۇلۇڭ
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = يېڭى بەتكۈچتە ئاچ
