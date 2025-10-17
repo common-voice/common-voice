@@ -10,6 +10,11 @@ datasets-positioning =
     باشقا ئوچۇق مەنبەلىك ئاۋاز ئامبارلىرى توغرىسىدا Common Voice نىڭ ئۈزلۈكسىز تەرەققىياتىغا ئەگىشىپ بىزنىڭ يېڭىلاش مەركىزىمىز بولۇپ قالغان بۇ بېتىمىزدىن پايدىلىنىڭ.
 # New/upcoming datasets page headline
 datasets-headline-mdc = Mozilla Common Voice سانلىق مەلۇمات توپلىمىغا Mozilla سانلىق مەلۇمات كوللېكتىپى مەخسۇس چۈشۈرۈش تەمىنلەيدۇ.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Common Voice 23.0 دىن باشلاپ، بارلىق Common Voice سانلىق مەلۇمات توپلىمىنى Mozilla سانلىق مەلۇمات كوللېكتىپى مەخسۇس چۈشۈرۈش بىلەن تەمىنلەيدۇ.
+    
+    بۇ بەت Common Voice سانلىق مەلۇمات توپلىمىنىڭ ئىلگىرىكى نەشرىنىڭ تارىخى ئارخىپى سۈپىتىدە تەمىنلىنىدۇ. قىسمەن ئىشلەتكۈچى ئۇلار تەمىنلىگەن سانلىق مەلۇماتنى ئىشلەتمەسلىكنى ئىلتىماس قىلدى، ئۇلارنىڭ ئارزۇسىغا ھۆرمەت قىلىش يۈزىسىدىن، ئارخىپلاشتۇرۇلغان نەشرى پەقەت مۇئەييەن تەتقىقات ساھەسىدە ئىشلىتىلىدۇ، مەشق قىلدۇرۇش ئۈچۈن ئىشلىتىلمەيدۇ.
 datasets-speech-bubble-content = ھاياجانلىق خەۋەر! تەبىئىي نۇتۇق پات يېقىندا تارقىتىلىدۇ! يېڭىلاش ئۇچۇرىنى كۆزىتىپ، ئەڭ يېڭى ئۇچۇرنى  <discordLink>Discord</discordLink> دىن تەكشۈرۈڭ.
 language = تىل
 download-dataset-header = سانلىق مەلۇمات توپلىمىنى چۈشۈرۈش
@@ -104,3 +109,5 @@ female = ئايال
 download-contribute-menu-tooltip = ئاۋاز سانلىق مەلۇمات توپلىمىمىزنى چۈشۈرىدۇ
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Common Voice سانلىق مەلۇماتىغا ئېرىشىشنىڭ چۈشۈرۈش تاللانمىسى
+datasets-show-more = ھەممە سانلىق مەلۇمات توپلىمىنى كۆرسەت
+datasets-show-less = ئاخىرقى سانلىق مەلۇمات توپلىمىنى كۆرسەت

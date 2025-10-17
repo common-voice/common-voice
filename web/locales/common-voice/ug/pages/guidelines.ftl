@@ -138,6 +138,8 @@ example-questions-subheader = مىسال سوئاللىرى
 # Answer Questions
 answer-questions = سوئالغا جاۋاب
 answer-questions-subheader = ئادەتتىكى يېتەكچى
+answer-questions-tip-1 = نىسبەتەن تىنچ مۇھىتتا ئۈنگە خاتىرىلەڭ
+answer-questions-tip-2 = ئىنتېرنېت باغلىنىشى ياخشى ئورۇننى تاللاڭ
 # Transcribe the Audio
 transcribe-the-audio = ئۈننى خەتكە پۈت
 transcribe-the-audio-subheader-1 = ئادەتتىكى يېتەكچى
