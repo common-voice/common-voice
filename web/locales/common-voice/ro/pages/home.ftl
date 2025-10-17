@@ -138,6 +138,7 @@ join-discord-community = Intră în comunitatea noastră de pe Discord
 join-discord-community-action = Contactează-ne pe Discord
 join-discord-community-content = Participă la discuții în comunitatea ta lingvistică, pune întrebări și află despre evenimentele și discuțiile viitoare.
 find-us-on-matrix = Contactează-ne pe Matrix
+find-us-on-matrix-content-v2 = Matrix reprezintă un protocol deschis pentru comunicare descentralizată în timp real. La ora actuală este platforma preferată de Mozilla pentru discuții deschise. Ne găsești în "common-voice:mozilla.org".
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Alți clienți
