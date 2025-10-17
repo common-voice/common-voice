@@ -160,6 +160,17 @@ tags-unclear = ئېنىقسىز
 tags-noise = شاۋقۇن
 tags-laugh-explanation = كۈلكە ئاۋازى.
 
+## Review the Transcription
+
+review-the-transcription-subheader = ئادەتتىكى يېتەكچى
+
+## Code-Switching
+
+code-switching = كود ئالماشتۇرۇش
+adding-a-question = سوئال قوشۇش
+# Adding a Question
+code-switching-adding-question-subheader = ياخشى سوئال قانداق بولىدۇ؟
+
 ## Reporting Content
 
 reporting-content-subheader = ئادەتتىكى يېتەكچى
