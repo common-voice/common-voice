@@ -477,6 +477,8 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>يېڭى Common Voice سانلىق مەلۇمات توپلىمى</strong>نى ھازىر قېرىنداش سۇپىمىز Mozilla سانلىق مەلۇمات كوللېكتىپى چۈشۈرۈش بىلەن تەمىنلەيدۇ. قوشۇلۇپ 300+ دۇنياۋى سانلىق مەلۇمات توپلىمىغا ئېرىشىڭ، ئۇلارنىڭ ھەممىسىنى جامائەت قۇرۇپ جامائەت يۈرگۈزىدۇ.
 # Button text for MDC announcement
 announcement-mdc-button-text = Mozilla سانلىق مەلۇمات كوللېكتىپىغا قوشۇلۇڭ
 # Aria text for button which opens MDC on a new page
