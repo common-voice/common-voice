@@ -233,6 +233,7 @@ code-switching-ask-bilingual-contexts-header = Ptejte se na dvojjazyčné kontex
 code-switching-ask-bilingual-contexts-explanation = Používejte v situacích, kdy se oba jazyky běžně používají (např. doma, ve škole, na akcích ve společnosti). Příklad:
 code-switching-ask-bilingual-contexts-explanation-example = "Když mluvíš se svými bratranci, mícháš španělštinu a angličtinu?"
 code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
+code-switching-focus-emotional-explanation = Lidé často kódově přepínají, když vyjadřují emoce nebo naléhavost. Příklad:
 code-switching-cultural-topics-header = Zvolte kulturně specifická témata
 code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
 code-switching-informal-scenarios-header = Prozkoumejte neformální scénáře
