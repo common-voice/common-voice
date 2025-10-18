@@ -194,6 +194,10 @@ tags-unclear-explanation = Slovo nebo sled slov, kterému nelze rozumět.
 tags-noise-explanation =
     Jakýkoli jiný typ hluku, například kašlání nebo odkašlávání řečníka,
     troubení auta, zvuk něčeho, co naráží do mikrofonu, bzučení telefonu atd.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    A pak jsem [noise] jel na dovolenou.
+    No, [hluk] [smích] nebyly to zrovna prázdniny [smích]
 transcribe-the-audio-subheader-4-explanation-1 = Spontánní řeč přirozeně obsahuje falešné starty, při kterých je z celého slova tvořen pouze zlomek. V těchto případech prosím přepište dle svých nejlepších schopností daný fragment slova a připojte slovo na konec slova pomlčkou (-), abyste označili, že slovo není chybný začátek. Příklad:
 transcribe-the-audio-subheader-4-explanation-1-example = Jeho jméno je <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Někdy mluvčí opakují slovo nebo jeho část vícekrát. I to je třeba přepsat. Příklad:
