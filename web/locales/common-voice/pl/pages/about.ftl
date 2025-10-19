@@ -96,7 +96,10 @@ about-playbook-how-record-content-5 = <accuracyLink>Więcej informacji na temat 
 about-playbook-how-grow-language-content-2 = Wydarzenia
 about-playbook-how-grow-language-content-3 = Możesz organizować wydarzenia, aby pomóc ludziom w zaangażowaniu się. To prostsze niż myślisz. Możesz to zrobić online za pomocą narzędzia do wideokonferencji lub osobiście, jeśli jest to bezpieczne. <eventTemplate>Sprawdź nasze szablony i zasoby do organizacji wydarzeń</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
+about-playbook-how-grow-language-content-5 = Możesz wykorzystać media społecznościowe, aby rozpowszechnić tę wiadomość. Udostępniaj posty, które wyjaśniają, dlaczego to ważne, i nawiąż kontakt z innymi osobami poruszającymi takie tematy, jak prawa językowe, sztuczna inteligencja głosowa czy stronniczość w technologii. Przeczytaj więcej porad na temat <campaignLink>prowadzenia kampanii w mediach społecznościowych, w tym treści, które można ponownie wykorzystać</campaignLink>.
 about-playbook-how-grow-language-content-6 = Współpraca i sieci
+about-playbook-how-grow-language-content-7 = Znajdź osoby, którym zależy. Mogą to być uniwersytety, szkoły językowe, grupy wsparcia lub społeczności zajmujące się nauką o danych. Skontaktuj się z nimi i jasno wyjaśnij, jak mogą pomóc i dlaczego. <outreachTemplates>Zobacz nasze szablony e-maili informacyjnych</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Bądź kreatywny!</strong> Twoja społeczność językowa będzie wyjątkowa, a to tylko kilka sposobów na początek.
 
 ## How are decisions made
 
