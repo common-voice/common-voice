@@ -1,6 +1,8 @@
-import { isProduction } from '../utility';
+import { isProduction } from '../utility'
+import { HandledErrorCode } from './app-error'
 
-declare const ga: any;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+declare const ga: any
 
 export function track(
   category:
@@ -24,13 +26,13 @@ export function track(
   locale?: string
 ) {
   if (isProduction() && typeof ga === 'function') {
-    ga('send', 'event', category, action, locale);
+    ga('send', 'event', category, action, locale)
   } else {
     console.debug('analytics event (not tracked here)', {
       category,
       action,
       locale,
-    });
+    })
   }
 }
 
@@ -45,11 +47,11 @@ export function trackGlobal(
     | 'blog',
   locale: string
 ) {
-  track('Global', action, locale);
+  track('Global', action, locale)
 }
 
 export function trackNav(route: string, locale: string) {
-  track('Nav', route, locale);
+  track('Nav', route, locale)
 }
 
 export function trackHome(
@@ -65,7 +67,7 @@ export function trackHome(
     | 'click-benefits-register',
   locale: string
 ) {
-  track('Home-New', action, locale);
+  track('Home-New', action, locale)
 }
 
 export function trackRecording(
@@ -80,7 +82,7 @@ export function trackRecording(
     | 'listen',
   locale: string
 ) {
-  track('Recording', action, locale);
+  track('Recording', action, locale)
 }
 
 export function trackListening(
@@ -94,7 +96,7 @@ export function trackListening(
     | 'skip',
   locale: string
 ) {
-  track('Listening', action, locale);
+  track('Listening', action, locale)
 }
 
 export function trackProfile(
@@ -110,18 +112,18 @@ export function trackProfile(
     | 'contribution-conversion-modal',
   locale: string
 ) {
-  track('Profile', action, locale);
+  track('Profile', action, locale)
 }
 
 export function trackDataset(action: string, locale: string) {
-  track('Data', action, locale);
+  track('Data', action, locale)
 }
 
 export function trackSharing(
   channel: 'facebook' | 'twitter' | 'link',
   locale: string
 ) {
-  track('Sharing', channel, locale);
+  track('Sharing', channel, locale)
 }
 
 export function trackDashboard(
@@ -132,11 +134,11 @@ export function trackDashboard(
     | 'leaderboard-load-more',
   locale: string
 ) {
-  track('Dashboard', action, locale);
+  track('Dashboard', action, locale)
 }
 
 export function trackLanding(action: 'speak' | 'profile' | 'about') {
-  track('Landing', action);
+  track('Landing', action)
 }
 
 export function trackChallenge(
@@ -146,18 +148,18 @@ export function trackChallenge(
     | 'modal-onboarding'
     | 'modal-welcome'
 ) {
-  track('Challenge', action);
+  track('Challenge', action)
 }
 
 export const trackSingleReview = (
   action: 'vote-yes' | 'vote-no' | 'skip' | 'report-button-click',
   locale: string
-) => track('SingleReview', action, locale);
+) => track('SingleReview', action, locale)
 
 export const trackSingleSubmission = (
   action: 'toggle-button-click' | 'submit',
   locale: string
-) => track('SingleSubmission', action, locale);
+) => track('SingleSubmission', action, locale)
 
 export const trackBulkSubmission = (
   action:
@@ -167,14 +169,14 @@ export const trackBulkSubmission = (
     | 'expandable-information-click-open'
     | 'expandable-information-click-close',
   locale: string
-) => track('BulkSubmission', action, locale);
+) => track('BulkSubmission', action, locale)
 
 // Error pages send the full previous route as a third argument, which is
 // typically reserved for locale.
-export function trackError(action: '404' | '503' | '500', route: string) {
-  track('Error', action, route);
+export function trackError(action: HandledErrorCode, route: string) {
+  track('Error', action, route)
 }
 
 export function getTrackClass(service: 'amp' | 'fs', name: string) {
-  return `track-${service}-${name}`;
+  return `track-${service}-${name}`
 }
