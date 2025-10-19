@@ -38,6 +38,41 @@ export function countSyllables(text: string): number {
 }
 
 /**
+ * Test whether this is an in-app-browser.
+ * This is not a solid check for all possiblee cases, but should cover most.
+ */
+export function isWebView(): boolean {
+  // Check for WebView based on user agent and properties
+  const userAgent = navigator.userAgent.toLowerCase() // Use lowercase for consistent checking
+
+  const isIOSWebView = /(iphone|ipod|ipad).*applewebkit(?!.*safari)/i.test(
+    navigator.userAgent
+  )
+  const isAndroidWebView =
+    /; wv\)/.test(userAgent) || typeof window._webview !== 'undefined'
+
+  // Common social media in-app browser signatures
+  const webViewSignatures = {
+    isFacebook: /fbav|fban|fb_iab\/|fb4a|fb1a|facebook/.test(userAgent),
+    isInstagram: /instagram/.test(userAgent),
+    isTwitter: /twitter/.test(userAgent),
+    isSnapchat: /snapchat/.test(userAgent),
+    isLinkedIn: /linkedinapp/.test(userAgent),
+    isTikTok: /tiktok/.test(userAgent),
+    isWeChat: /micromessenger/.test(userAgent),
+    isLine: /line/.test(userAgent),
+    isPinterest: /pinterest/.test(userAgent),
+  }
+
+  // Check if any WebView indicator is true
+  return (
+    isIOSWebView ||
+    isAndroidWebView ||
+    Object.values(webViewSignatures).some(value => value === true)
+  )
+}
+
+/**
  * Test whether this is a browser on iOS.
  *
  * NOTE: As of early 2020 this is not reliable on iPad for some privacy-minded
