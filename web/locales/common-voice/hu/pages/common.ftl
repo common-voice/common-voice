@@ -10,6 +10,7 @@ abb = Bankon
 ace = Acehi
 ady = Adige
 af = Afrikaans
+aln = Gheg albán
 am = Amhara
 an = Aragóniai
 ar = Arab
