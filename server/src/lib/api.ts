@@ -20,7 +20,7 @@ import * as Basket from './basket'
 import Bucket from './bucket'
 import Clip from './clip'
 import Model from './model'
-import { APIError, ClientParameterError } from './utility'
+import { APIError } from './utility'
 import Email from './email'
 import Challenge from './challenge'
 import Takeout from './takeout'
@@ -95,6 +95,11 @@ export default class API {
     })
 
     router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob)
+
+    //
+    // User & Profile
+    //
+
     router.get('/user_clients', this.getUserClients)
     router.post('/user_clients/:client_id/claim', this.claimUserClient)
     router.get('/user_client', this.getAccount)
@@ -122,6 +127,10 @@ export default class API {
     router.post('/user_client/takeout/request', this.requestTakeout)
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
 
+    //
+    // Language
+    //
+
     router.get('/language/accents/:locale?', this.getAccents)
     router.get('/language/variants/:locale?', this.getVariants)
     router.post(
@@ -131,22 +140,6 @@ export default class API {
       validate({ body: sendLanguageRequestSchema }),
       this.sendLanguageRequest
     )
-    router.use('/statistics', this.statistics.getRouter())
-    router.use('/sentences', SentencesRouter)
-
-    router.get(
-      '/:locale/sentences',
-      validate({ query: sentenceSchema }),
-      this.getRandomSentences
-    )
-    router.post('/skipped_sentences/:id', this.createSkippedSentence)
-    router.post('/skipped_clips/:id', this.createSkippedClip)
-
-    router.use('/:locale?/clips', this.clip.getRouter())
-
-    router.get('/contribution_activity', this.getContributionActivity)
-    router.get('/:locale/contribution_activity', this.getContributionActivity)
-
     router.get('/requested_languages', this.getRequestedLanguages)
     router.post('/requested_languages', this.createLanguageRequest)
 
@@ -158,7 +151,38 @@ export default class API {
     router.get('/languagedata', this.getCombinedLanguageData)
     router.get('/languages', this.getAllLanguages)
     router.use('/languages/:locale', languagesRouter)
+
+    //
+    // Sentences
+    //
+    router.use('/sentences', SentencesRouter)
+
+    router.get(
+      '/:locale/sentences',
+      validate({ query: sentenceSchema }),
+      this.getRandomSentences
+    )
+    router.post('/skipped_sentences/:id', this.createSkippedSentence)
+    router.post('/skipped_clips/:id', this.createSkippedClip)
+
+    //
+    // Clips
+    //
+    router.use('/:locale?/clips', this.clip.getRouter())
+
+    //
+    // Statistics & Contribution
+    //
+    router.use('/statistics', this.statistics.getRouter())
+
+    router.get('/contribution_activity', this.getContributionActivity)
+    router.get('/:locale/contribution_activity', this.getContributionActivity)
+
     router.get('/stats/languages/', this.getLanguageStats)
+
+    //
+    // Datasets
+    //
 
     router.get(
       '/datasets',
@@ -190,14 +214,108 @@ export default class API {
     return router
   }
 
-  getRandomSentences = async (request: Request, response: Response) => {
-    const { client_id } = request?.session?.user || {}
+  //
+  // Language
+  //
 
+  getRequestedLanguages = async (request: Request, response: Response) => {
+    response.json(await this.model.db.getRequestedLanguages())
+  }
+
+  createLanguageRequest = async (request: Request, response: Response) => {
+    const { client_id } = request?.session?.user || {}
+    const language = request?.body?.language
+    if (!client_id || !language) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    await this.model.db.createLanguageRequest(language, client_id)
+    response.json({})
+  }
+
+  getCombinedLanguageData = async (_request: Request, response: Response) => {
+    response.json(await this.model.getCombinedLanguageData())
+  }
+
+  getAllLanguages = async (_request: Request, response: Response) => {
+    response.json(await this.model.getAllLanguages())
+  }
+
+  getAvailableLanguages = async (request: Request, response: Response) => {
+    const project = isProject(request?.query?.project)
+      ? request.query.project
+      : 'common-voice'
+    const availableLanguages = getFolderNames(
+      path.join(LOCALES_PATH, project)
+    )()
+    response.json({
+      project,
+      availableLanguages,
+    })
+  }
+
+  getAccents = async (request: Request, response: Response) => {
+    const client_id = request?.session?.user?.client_id
     if (!client_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
+    const locale = request?.params?.locale
+    response.json(await this.model.db.getAccents(client_id, locale || null))
+  }
 
-    const { locale } = request.params
+  getVariants = async ({ params }: Request, response: Response) => {
+    response.json(await this.model.db.getVariants(params?.locale || null))
+  }
+
+  sendLanguageRequest = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    const body = request?.body
+    const { email, languageInfo, languageLocale, platforms } = body
+    if (!body || !email || !languageInfo || languageLocale || !platforms) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
+    try {
+      const info = await this.email.sendLanguageRequestEmail({
+        email,
+        platforms,
+        languageInfo,
+        languageLocale,
+      })
+
+      const json = {
+        id: info?.messageId,
+        email,
+        platforms,
+        languageInfo,
+        languageLocale,
+      } as any // eslint-disable-line @typescript-eslint/no-explicit-any
+
+      if (info?.emailPreviewURL) {
+        json.emailPreviewURL = info?.emailPreviewURL
+      }
+
+      response.json(json)
+    } catch (e) {
+      console.error(e)
+      next(new Error('Something went wrong sending language request email'))
+    }
+  }
+
+  //
+  // Sentences
+  //
+
+  getRandomSentences = async (request: Request, response: Response) => {
+    const client_id = request?.session?.user?.client_id
+    const locale = request?.params?.locale
+
+    if (!client_id || !locale) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
     const localeId = await getLocaleId(locale)
 
     // the validator coerces count into a number but doesn't update the type
@@ -271,64 +389,33 @@ export default class API {
     response.json(sentences)
   }
 
-  getRequestedLanguages = async (request: Request, response: Response) => {
-    response.json(await this.model.db.getRequestedLanguages())
-  }
-
-  createLanguageRequest = async (request: Request, response: Response) => {
-    const { client_id } = request?.session?.user || {}
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
-    await this.model.db.createLanguageRequest(request.body.language, client_id)
-    response.json({})
-  }
-
   createSkippedSentence = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params: { id },
-    } = request
-    if (!client_id) {
+    const client_id = request?.session?.user?.client_id
+    const sentence_id = request?.params?.id
+    if (!client_id || !sentence_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    await this.model.db.createSkippedSentence(id, client_id)
+    await this.model.db.createSkippedSentence(sentence_id, client_id)
     response.json({})
   }
+
+  //
+  // Clips
+  //
 
   createSkippedClip = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params: { id },
-    } = request
-    await this.model.db.createSkippedClip(id, client_id)
+    const client_id = request?.session?.user?.client_id
+    const clip_id = request?.params?.id
+    if (!client_id || !clip_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    await this.model.db.createSkippedClip(clip_id, client_id)
     response.json({})
   }
 
-  getCombinedLanguageData = async (_request: Request, response: Response) => {
-    response.json(await this.model.getCombinedLanguageData())
-  }
-
-  getAllLanguages = async (_request: Request, response: Response) => {
-    response.json(await this.model.getAllLanguages())
-  }
-
-  getAvailableLanguages = async (req: Request, res: Response) => {
-    const project = isProject(req.query?.project)
-      ? req.query.project
-      : 'common-voice'
-    const availableLanguages = getFolderNames(
-      path.join(LOCALES_PATH, project)
-    )()
-    res.json({
-      project,
-      availableLanguages,
-    })
-  }
+  //
+  // Datasets
+  //
 
   getAllDatasets = async (request: Request, response: Response) => {
     const releaseType = request?.query?.releaseType as string
@@ -342,9 +429,10 @@ export default class API {
   }
 
   getLanguageDatasetStats = async (request: Request, response: Response) => {
-    const {
-      params: { languageCode },
-    } = request
+    const languageCode = request?.params?.languageCode
+    if (!languageCode) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     response.json(await this.model.getLanguageDatasetStats(languageCode))
   }
 
@@ -355,14 +443,20 @@ export default class API {
     response.json(await this.model.getAllLanguagesWithDatasets())
   }
 
+  //
+  // Statistics
+  //
+
   getLanguageStats = async (request: Request, response: Response) => {
     response.json(await this.model.getLanguageStats())
   }
 
-  getUserClients = async (
-    { session: { user } }: Request,
-    response: Response
-  ) => {
+  //
+  // Users
+  //
+
+  getUserClients = async (request: Request, response: Response) => {
+    const user = request?.session?.user
     if (!user) {
       response.json([])
       return
@@ -405,17 +499,16 @@ export default class API {
   }
 
   saveAccount = async (request: Request, response: Response) => {
-    const {
-      body,
-      session: { user },
-    } = request
-    if (!user) {
-      throw new ClientParameterError()
+    const body = request?.body
+    const user = request?.session?.user
+    if (!body || !user) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     response.json(await UserClient.saveAccount(user.email, body))
   }
 
-  getAccount = async ({ session: { user } }: Request, response: Response) => {
+  getAccount = async (request: Request, response: Response) => {
+    const user = request?.session?.user
     let userData = null
     if (user) {
       userData = await UserClient.findAccount(user.email)
@@ -441,7 +534,10 @@ export default class API {
       next(basketError)
     }
 
-    const { email } = request.params
+    const email = request?.params?.email
+    if (!email) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     const basketResponse = await sendRequest({
       uri: Basket.BASKET_API_URL + '/news/subscribe/',
       method: 'POST',
@@ -465,17 +561,17 @@ export default class API {
   }
 
   saveAvatar = async (
-    {
-      body,
-      params,
-      session: { user },
-      session: {
-        user: { client_id },
-      },
-    }: Request,
+    request: Request,
     response: Response,
     next: NextFunction
   ) => {
+    const body = request?.body
+    const params = request?.params
+    const user = request?.session?.user
+    const client_id = request?.session?.user?.client_id
+    if (!body || !params || !user || !client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     let avatarURL
     let error
     const { type: imageUploadType } = params
@@ -529,11 +625,14 @@ export default class API {
 
   // TODO: Check for empty or silent clips before uploading.
   saveAvatarClip = async (request: Request, response: Response) => {
-    const { session, headers } = request
-    const {
-      user,
-      user: { client_id },
-    } = session
+    const session = request?.session
+    const headers = request?.headers
+    const user = request?.session?.user
+    const client_id = request?.session?.user?.client_id
+    if (!session || !headers || !user || !client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
     console.log(`VOICE_AVATAR: saveAvatarClip() called, ${client_id}`)
     const folder = client_id
     const clipFileName = folder + '.mp3'
@@ -580,7 +679,7 @@ export default class API {
 
   getAvatarClip = async (request: Request, response: Response) => {
     try {
-      const { user } = request.session
+      const user = request?.session?.user
       let path = await UserClient.getAvatarClipURL(user.email)
       path = path[0][0].avatar_clip_url
 
@@ -592,24 +691,31 @@ export default class API {
   }
 
   deleteAvatarClip = async (request: Request, response: Response) => {
-    const { user } = request.session
+    const user = request?.session?.user
+    if (!user) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     await UserClient.deleteAvatarClipURL(user.email)
     response.json('deleted')
   }
 
   getTakeouts = async (request: Request, response: Response) => {
-    const takeouts = await this.takeout.getClientTakeouts(
-      request.session.user.client_id
-    )
+    const client_id = request?.session?.user?.client_id
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    const takeouts = await this.takeout.getClientTakeouts(client_id)
     response.json(takeouts)
   }
 
   requestTakeout = async (request: Request, response: Response) => {
+    const client_id = request?.session?.user?.client_id
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     try {
       // Throws if there is a pending takeout.
-      const takeout_id = await this.takeout.startTakeout(
-        request.session.user.client_id
-      )
+      const takeout_id = await this.takeout.startTakeout(client_id)
       response.json({ takeout_id })
     } catch (err) {
       response.status(StatusCodes.BAD_REQUEST).json(err.message)
@@ -617,12 +723,11 @@ export default class API {
   }
 
   getTakeoutLinks = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params: { id },
-    } = request
+    const client_id = request?.session?.user?.client_id
+    const id = request?.params?.id
+    if (!client_id || !id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     const links = await this.takeout.generateDownloadLinks(
       client_id,
       parseInt(id)
@@ -631,6 +736,7 @@ export default class API {
   }
 
   getContributionActivity = async (req: Request, response: Response) => {
+    // all params are optional
     const { locale } = req.params
     const { client_id } = req?.session?.user || {}
     const { from } = req.query
@@ -654,53 +760,60 @@ export default class API {
     Basket.sync(request.session.user.client_id).catch(e => console.error(e))
   }
 
-  getGoals = async (req: Request, response: Response) => {
-    const { client_id } = req?.session?.user || {}
+  getGoals = async (request: Request, response: Response) => {
+    const client_id = request?.session?.user?.client_id
     if (!client_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    const { locale } = req.params
+    // locale is optional
+    const locale = request?.params?.locale
     return response.json({ globalGoals: await getGoals(client_id, locale) })
   }
 
-  claimUserClient = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params,
-    }: Request,
-    response: Response
-  ) => {
+  claimUserClient = async (request: Request, response: Response) => {
+    const client_id = request?.session?.user?.client_id
+    const params = request?.params
     if (!(await UserClient.hasSSO(params.client_id)) && client_id) {
       await UserClient.claimContributions(client_id, [params.client_id])
     }
     response.json({})
   }
 
-  insertDownloader = async ({ body }: Request, response: Response) => {
-    await this.model.db.insertDownloader(body.locale, body.email, body.dataset)
+  insertDownloader = async (request: Request, response: Response) => {
+    const locale = request?.body?.locale
+    const email = request?.body?.email
+    const dataset = request?.body?.dataset
+    if (!locale || !email || !dataset) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    await this.model.db.insertDownloader(locale, email, dataset)
     response.json({})
   }
 
-  seenAwards = async (req: Request, response: Response) => {
-    const { client_id } = req?.session?.user || {}
+  seenAwards = async (request: Request, response: Response) => {
+    const client_id = request?.session?.user?.client_id
     if (!client_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     await Awards.seen(
       client_id,
-      Object.prototype.hasOwnProperty.call(req.query, 'notification')
+      Object.prototype.hasOwnProperty.call(request.query, 'notification')
         ? 'notification'
         : 'award'
     )
     response.json({})
   }
 
-  getPublicUrl = async (
-    { params: { bucket_type, path } }: Request,
-    response: Response
-  ) => {
+  //
+  // Utilities
+  //
+
+  getPublicUrl = async (request: Request, response: Response) => {
+    const path = request?.params?.path
+    if (!path) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    const bucket_type = request?.params?.bucket_type
     const url = await this.bucket.getPublicUrl(
       decodeURIComponent(path),
       bucket_type
@@ -708,18 +821,14 @@ export default class API {
     response.json({ url })
   }
 
-  getJob = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params: { jobId },
-    }: Request,
-    response: Response,
-    next: NextFunction
-  ) => {
+  getJob = async (request: Request, response: Response, next: NextFunction) => {
+    const client_id = request?.session?.user?.client_id
+    const job_id = request?.params?.job_id
+    if (!client_id || !job_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     try {
-      const job = await NotificationQueue.getJob(jobId)
+      const job = await NotificationQueue.getJob(job_id)
       //job is owned by current client
       if (job && client_id === job.data.client_id) {
         const { finishedOn } = job
@@ -734,52 +843,5 @@ export default class API {
   getServerDate = (request: Request, response: Response) => {
     // prevents contributors manipulating dates in client
     response.json(new Date())
-  }
-
-  getAccents = async (req: Request, response: Response) => {
-    const { client_id } = req?.session?.user || {}
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
-    const { locale } = req.params
-    response.json(await this.model.db.getAccents(client_id, locale || null))
-  }
-
-  getVariants = async ({ params }: Request, response: Response) => {
-    response.json(await this.model.db.getVariants(params?.locale || null))
-  }
-
-  sendLanguageRequest = async (
-    request: Request,
-    response: Response,
-    next: NextFunction
-  ) => {
-    const { email, languageInfo, languageLocale, platforms } = request.body
-
-    try {
-      const info = await this.email.sendLanguageRequestEmail({
-        email,
-        platforms,
-        languageInfo,
-        languageLocale,
-      })
-
-      const json = {
-        id: info?.messageId,
-        email,
-        platforms,
-        languageInfo,
-        languageLocale,
-      } as any // eslint-disable-line @typescript-eslint/no-explicit-any
-
-      if (info?.emailPreviewURL) {
-        json.emailPreviewURL = info?.emailPreviewURL
-      }
-
-      response.json(json)
-    } catch (e) {
-      console.error(e)
-      next(new Error('Something went wrong sending language request email'))
-    }
   }
 }
