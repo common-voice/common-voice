@@ -77,6 +77,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Zbieranie zdań
 
 ## How does localization work
 
+about-playbook-how-localize = Jak wygląda lokalizacja witryny?
 about-playbook-how-localize-content-1 = Tłumaczenie witryny Common Voice odbywa się na <strong>Pontoon</strong>.
 about-playbook-how-localize-content-4 = Strona będzie gotowa do uruchomienia, gdy jej tłumaczenie osiągnie 75%.
 

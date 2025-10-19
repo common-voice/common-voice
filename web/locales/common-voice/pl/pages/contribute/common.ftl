@@ -91,6 +91,8 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Kryteria
+contribution-background-voices-title = Głosy w tle
+contribution-background-voices-description = Cichy gwar w tle jest w porządku, ale nie chcemy dodatkowych głosów, które mogłyby spowodować, że algorytm maszynowy zidentyfikuje słowa, których nie ma w tekście. Jeśli słyszysz odrębne słowa poza tekstem, klip powinien zostać odrzucony. Zazwyczaj dzieje się tak, gdy telewizor jest włączony lub w pobliżu trwa rozmowa.
 contribution-volume-title = Głośność
 contribution-volume-description = Między lektorami występują naturalne różnice w poziomie głośności. Odrzuć nagranie tylko jeśli poziom głośności jest tak wysoki, że przerywa nagranie albo (co częstsze) jeśli jest tak niski, że nie słyszysz, co jest mówione bez odnoszenia się do tekstu.
 contribution-reader-effects-title = Efekty lektora
