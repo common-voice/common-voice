@@ -93,6 +93,8 @@ about-playbook-how-record-content-5 = <accuracyLink>Więcej informacji na temat 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Wydarzenia
+about-playbook-how-grow-language-content-3 = Możesz organizować wydarzenia, aby pomóc ludziom w zaangażowaniu się. To prostsze niż myślisz. Możesz to zrobić online za pomocą narzędzia do wideokonferencji lub osobiście, jeśli jest to bezpieczne. <eventTemplate>Sprawdź nasze szablony i zasoby do organizacji wydarzeń</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
 about-playbook-how-grow-language-content-6 = Współpraca i sieci
 
