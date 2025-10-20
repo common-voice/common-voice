@@ -8,8 +8,14 @@ error-clip-upload = Не удается выгрузить этот клип. П
 error-clip-upload-server = Ни одна попытка выгрузки этого клипа на сервер не удалась. Перезагрузите страницу или повторите попытку позже.
 error-title-404 = Мы не смогли найти эту страницу
 error-content-404 = Возможно, поможет наша <homepageLink>домашняя страница</homepageLink>? Чтобы задать вопрос, пожалуйста, присоединитесь к <matrixLink>чату сообщества в Matrix</matrixLink>, отслеживайте проблемы на сайте через <githubLink>GitHub</githubLink> или посетите <discourseLink>наши Discourse-форумы</discourseLink>.
+error-title-500 = Ой, что-то пошло не так
+error-content-500 = Произошла непредвиденная ошибка. Подождите некоторое время и попробуйте снова. Для получения помощи, пожалуйста, присоединитесь к <matrixLink>чату сообщества в Matrix</matrixLink>, отслеживайте проблемы на сайте через <githubLink>GitHub</githubLink> или посетите <discourseLink>наши Discourse-форумы</discourseLink>.
+error-title-502 = Соединение прервано
+error-content-502 = Сейчас вы не можете установить стабильное соединение с нашими серверами. Подождите некоторое время и попробуйте снова. Для получения помощи, пожалуйста, присоединитесь к <matrixLink>чату сообщества в Matrix</matrixLink>, отслеживайте проблемы на сайте через <githubLink>GitHub</githubLink> или посетите <discourseLink>наши Discourse-форумы</discourseLink>.
 error-title-503 = У нас неожиданный простой
 error-content-503 = Работа сайта будет возобновлена в ближайшее время. Для получения последней информации присоединяйтесь к <matrixLink>чату сообщества в Matrix</matrixLink>, посетите <githubLink>GitHub</githubLink> или <discourseLink>наши Discourse-форумы</discourseLink>, чтобы сообщать о проблемах и отслеживать их.
+error-title-504 = Время ожидания запроса истекло
+error-content-504 = Запрос занял слишком много времени. Обычно это временно. Повторите попытку. Для получения помощи, пожалуйста, присоединитесь к <matrixLink>чату сообщества в Matrix</matrixLink>, отслеживайте проблемы на сайте через <githubLink>GitHub</githubLink> или посетите <discourseLink>наши Discourse-форумы</discourseLink>.
 error-code = Код ошибки: { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =

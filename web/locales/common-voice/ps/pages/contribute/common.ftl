@@ -39,6 +39,7 @@ datasets = اومتوک‌ټولگې
 languages = ژبې
 about = په اړه
 partner = ملگری
+submit-form-action = سپارل
 
 ## Reporting
 

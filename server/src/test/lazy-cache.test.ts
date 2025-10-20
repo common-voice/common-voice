@@ -195,6 +195,78 @@ describe('lazyCache with Memory', () => {
   })
 })
 
+// Sentry error reporting tests
+describe('Sentry reporting', () => {
+  const { redis } = require('../lib/redis')
+  const Sentry = require('@sentry/node')
+
+  beforeEach(() => {
+    resetCacheState()
+    jest.clearAllMocks()
+    // Reset error stats
+    const { getErrorStats } = require('../lib/lazy-cache')
+    const stats = getErrorStats()
+  })
+
+  test('Sentry captureException is called on Redis errors', async () => {
+    forceCacheStrategy('redis')
+
+    // Mock Redis to fail
+    redis.smembers.mockRejectedValue(new Error('Redis connection failed'))
+
+    const { redisSetMembers } = require('../lib/lazy-cache')
+    await redisSetMembers('test-key')
+
+    // Wait a bit for the error reporting to complete
+    await new Promise(resolve => setImmediate(resolve))
+
+    expect(Sentry.captureException).toHaveBeenCalled()
+  })
+
+  test('health check recovery sends message to Sentry', async () => {
+    // Import after reset to get fresh module
+    const {
+      performHealthCheck,
+      forceCacheStrategy,
+    } = require('../lib/lazy-cache')
+
+    // Start in memory mode (simulating Redis was previously down)
+    forceCacheStrategy('memory')
+
+    // Mock Redis to be available now
+    const { redis } = require('../lib/redis')
+    redis.ping.mockResolvedValue('PONG')
+
+    await performHealthCheck()
+
+    expect(Sentry.captureMessage).toHaveBeenCalledWith(
+      'Redis cache recovered',
+      expect.objectContaining({
+        level: 'info',
+        tags: { context: 'cache-recovery' },
+      })
+    )
+  })
+
+  // Add a simpler test for error reporting rate limiting
+  test('error reporting respects rate limiting', async () => {
+    forceCacheStrategy('redis')
+
+    // First error should be reported
+    redis.get.mockRejectedValueOnce(new Error('First error'))
+    const f = jest.fn().mockResolvedValue('value')
+    const cachedF = lazyCache(randomString(), f, 1000)
+
+    await cachedF()
+    expect(Sentry.captureException).toHaveBeenCalledTimes(1)
+
+    // Second error immediately after should not be reported (rate limited)
+    redis.get.mockRejectedValueOnce(new Error('Second error'))
+    await cachedF()
+    expect(Sentry.captureException).toHaveBeenCalledTimes(1) // Still 1
+  })
+})
+
 // Simple tests for utilities
 describe('Cache utilities', () => {
   beforeEach(() => {

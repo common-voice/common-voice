@@ -14,6 +14,16 @@ import {
   SentenceVote,
   TakeoutResponse,
 } from 'common'
+import {
+  createBadGatewayError,
+  createServiceUnavailableError,
+  createGatewayTimeoutError,
+  createInternalServerError,
+  NotFoundError,
+  RateLimitError,
+  ConflictError,
+  BusinessLogicError,
+} from '../services/app-error'
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
 import { USER_KEY } from '../stores/root'
@@ -54,6 +64,11 @@ export default class API {
     this.abortController = new AbortController()
   }
 
+  /**
+   * Enhanced fetch method with more comprehensive error handling
+   * - System errors (5xx) trigger Error Boundary
+   * - Client errors (4xx) are handled gracefully in components
+   */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
@@ -78,51 +93,120 @@ export default class API {
         'Basic ' + btoa(user.userId + ':' + user.authToken)
     }
 
-    const response = await fetch(path, {
-      method: method || 'GET',
-      headers: finalHeaders,
-      credentials: 'same-origin',
-      body: body
-        ? body instanceof Blob
-          ? body
-          : JSON.stringify(body)
-        : undefined,
-    })
-
-    if (response.status === 204) {
-      return null
-    }
-
-    if (response.status == 401) {
-      localStorage.removeItem(USER_KEY)
-      location.reload()
-      return
-    }
-
-    if (response.status === 429) {
-      const error = new Error(response.statusText)
-      Object.assign(error, {
-        message: 'Too Many Requests',
-        retryAfter: response.headers.get('retry-after'),
+    try {
+      const response = await fetch(path, {
+        method: method || 'GET',
+        headers: finalHeaders,
+        credentials: 'same-origin',
+        body: body
+          ? body instanceof Blob
+            ? body
+            : JSON.stringify(body)
+          : undefined,
       })
-      throw error
-    }
 
-    if (response.status === 409) {
-      if (response.statusText.includes('ALREADY_EXISTS')) {
-        throw new Error(response.statusText)
+      // Handle special case for success
+      if (response.status === 204) {
+        return null
       }
-      throw new Error(await response.text())
-    }
 
-    if (response.status >= 400) {
-      if (response.statusText.includes('save_clip_error')) {
-        throw new Error(response.statusText)
+      // Handle 401 immediately and separately
+      if (response.status === 401) {
+        localStorage.removeItem(USER_KEY)
+        location.reload()
+        return // Stop execution here
       }
-      throw new Error(await response.text())
+
+      // Handle system errors (5xx) - these trigger Error Boundary
+      if (response.status >= 500) {
+        return await this.handleSystemError(response)
+      }
+
+      // Handle client errors (4xx) - these are handled in components
+      if (response.status >= 400) {
+        return await this.handleClientError(response)
+      }
+
+      // Success case - parse response
+      return isJSON ? response.json() : response.text()
+    } catch (error) {
+      // Network failures, timeouts, etc. - treat as system errors
+      return this.handleNetworkError(error)
+    }
+  }
+
+  /**
+   * Handle system errors (5xx) that indicate infrastructure failures
+   * These will trigger the Error Boundary and show system error pages
+   */
+  private async handleSystemError(response: Response): Promise<never> {
+    const errorText = await response.text()
+
+    switch (response.status) {
+      case 502:
+        throw createBadGatewayError(`Bad Gateway: ${errorText}`)
+      case 503:
+        throw createServiceUnavailableError(`Service Unavailable: ${errorText}`)
+      case 504:
+        throw createGatewayTimeoutError(`Gateway Timeout: ${errorText}`)
+      default:
+        throw createInternalServerError(
+          `Server Error ${response.status}: ${errorText}`
+        )
+    }
+  }
+
+  /**
+   * Handle client errors (4xx) that represent expected application states
+   * These are caught and handled gracefully in React components
+   * Exception: 401 errors which are handled above specially
+   */
+  private async handleClientError(response: Response): Promise<never> {
+    const errorText = await response.text()
+
+    switch (response.status) {
+      case 404:
+        throw new NotFoundError(errorText)
+
+      case 409:
+        if (response.statusText.includes('ALREADY_EXISTS')) {
+          throw new ConflictError(response.statusText)
+        }
+        throw new ConflictError(errorText)
+
+      case 429:
+        throw new RateLimitError(
+          response.headers.get('retry-after') || undefined
+        )
+
+      default:
+        // Generic 4xx error - special case clip saving related
+        if (response.statusText.includes('save_clip_error')) {
+          throw new BusinessLogicError(response.statusText, response.status)
+        }
+        // Generic 4xx errors
+        throw new BusinessLogicError(errorText, response.status)
+    }
+  }
+
+  /**
+   * Handle network-level failures (no response received)
+   * These are treated as system errors and trigger Error Boundary
+   */
+  private handleNetworkError(error: Error): never {
+    if (error.name === 'AbortError') {
+      throw createGatewayTimeoutError('Request timeout')
     }
 
-    return isJSON ? response.json() : response.text()
+    if (
+      error.message.includes('Failed to fetch') ||
+      error.message.includes('Network Error')
+    ) {
+      throw createBadGatewayError(`Network failure: ${error.message}`)
+    }
+
+    // Unknown network error
+    throw createBadGatewayError(`Connection error: ${error.message}`)
   }
 
   forLocale(locale: string) {
@@ -181,6 +265,7 @@ export default class API {
       body: blob,
     })
   }
+
   saveVote(id: string, isValid: boolean): Promise<Vote> {
     return this.fetch(`${this.getClipPath()}/${id}/votes`, {
       method: 'POST',
@@ -311,8 +396,8 @@ export default class API {
     return this.fetch(API_PATH + '/newsletter/' + email, { method: 'POST' })
   }
 
-  saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
-    return this.fetch(API_PATH + '/user_client/avatar/' + type, {
+  async saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
+    const body = await this.fetch(API_PATH + '/user_client/avatar/' + type, {
       method: 'POST',
       isJSON: false,
       ...(file
@@ -320,23 +405,27 @@ export default class API {
             body: file,
           }
         : {}),
-    }).then(body => JSON.parse(body))
+    })
+    return JSON.parse(body)
   }
 
   getJob(jobId: number) {
     return this.fetch(`${API_PATH}/job/${jobId}`)
   }
 
-  saveAvatarClip(blob: Blob): Promise<void> {
-    return this.fetch(API_PATH + '/user_client/avatar_clip', {
-      method: 'POST',
-      headers: {
-        'Content-Type': blob.type,
-      },
-      body: blob,
-    })
-      .then(body => body)
-      .catch(err => err)
+  async saveAvatarClip(blob: Blob): Promise<void> {
+    try {
+      const body = await this.fetch(API_PATH + '/user_client/avatar_clip', {
+        method: 'POST',
+        headers: {
+          'Content-Type': blob.type,
+        },
+        body: blob,
+      })
+      return body
+    } catch (err) {
+      return err
+    }
   }
 
   fetchAvatarClip() {
@@ -492,6 +581,7 @@ export default class API {
     }
     return null
   }
+
   // check whether or not is the first invite
   fetchInviteStatus(): Promise<{
     showInviteSendToast: boolean
@@ -550,6 +640,7 @@ export default class API {
   getLanguageDatasetStats(languageCode: string) {
     return this.fetch(`${API_PATH}/datasets/languages/${languageCode}`)
   }
+
   async sendLanguageRequest({
     email,
     languageInfo,

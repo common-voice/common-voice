@@ -8,6 +8,8 @@ datasets-positioning =
     د عام غږ ګڼ-ژبې ډېټاسیټ لا دمخه د خپل ډول ترټولو لوی عام موجود غږیز ډېټاسیټ دی، خو دا یوازینی ندی.
     
     دې پاڼې ته د نورو آزاد کوډ غږیز ډېټاسیټونو لپاره د ماخذ مرکز په توګه وګورئ او لکه څنګه چې عام غږ وده کوي، دا زموږ د خپراوي په اړه تازه مالوماتو لپاره کور دي.
+# New/upcoming datasets page headline
+datasets-headline-mdc = د موزیلا کامن وائس ډیټاسیټونه اوس په ځانګړي ډول په موزیلا ډیټا کلیکټیو کې شتون لري.
 datasets-speech-bubble-content = ه زړه پورې خبرونه! په خپله خوښه وینا په لاره ده! د تازه معلوماتو لپاره زموږ سره پاتې شئ او ډاډ ترلاسه کړئ چې د وروستي معلوماتو لپاره خپل <discord Link>Discord</discord Link> وګورئ.
 language = ژبه
 download-dataset-header = ډیټاسیټ ډاونلوډ کړئ
@@ -95,7 +97,12 @@ release-version = نسخه
 dataset-date = نیټه
 license = لایسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ګډ
+# Support old genders in older datasets
+male = نارینه
+female = ښځينه
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = زموږ د غږ ډیټاسیټونه ډاونلوډ کړئ
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = د عام غږ معلوماتو ته د لاسرسي لپاره د ډاونلوډ اختیارونه
+datasets-show-more = ټول ډیټا سیټونه وښایاست
+datasets-show-less = وروستي ډیټاسیټونه وښایاست

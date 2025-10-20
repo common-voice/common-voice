@@ -3,6 +3,7 @@ speak-now = წარმოთქვით
 speak-subtitle = შემოგვწირეთ თქვენი ხმა
 record-cta = ჩაწერის დაწყება
 record-platform-not-supported = სამწუხაროდ, თქვენი სისტემა ამჟამად არაა მხარდაჭერილი.
+record-platform-webview = აქ შეიძლება სოცქსელის ბმულზე დაწკაპებით მოხვდით. თქვენ იყენებთ პროგრამის შიდა ბრაუზერს, რომლიდანაც ხმის ჩაწერა ვერ იმუშავებს.
 record-platform-not-supported-desktop = სამაგიდო კომპიუტერებზე, შეგიძლიათ ჩამოტვირთოთ უახლესი:
 record-platform-not-supported-ios-non-safari = iOS-ზე, გთხოვთ გამოიყენოთ Safari ჩაწერისთვის…
 record-must-allow-microphone = საჭიროა მიკროფონთან წვდომის დაშვება.

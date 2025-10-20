@@ -194,9 +194,14 @@ tags-unclear-explanation = Slovo nebo sled slov, kterému nelze rozumět.
 tags-noise-explanation =
     Jakýkoli jiný typ hluku, například kašlání nebo odkašlávání řečníka,
     troubení auta, zvuk něčeho, co naráží do mikrofonu, bzučení telefonu atd.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    A pak jsem [noise] jel na dovolenou.
+    No, [hluk] [smích] nebyly to zrovna prázdniny [smích]
 transcribe-the-audio-subheader-4-explanation-1 = Spontánní řeč přirozeně obsahuje falešné starty, při kterých je z celého slova tvořen pouze zlomek. V těchto případech prosím přepište dle svých nejlepších schopností daný fragment slova a připojte slovo na konec slova pomlčkou (-), abyste označili, že slovo není chybný začátek. Příklad:
 transcribe-the-audio-subheader-4-explanation-1-example = Jeho jméno je <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Někdy mluvčí opakují slovo nebo jeho část vícekrát. I to je třeba přepsat. Příklad:
+transcribe-the-audio-subheader-4-explanation-2-example = A pak jsem šel do <underline>do do doo</underline>ložnice
 transcribe-the-audio-subheader-5-explanation-1 = Spontánní řeč bude přirozeně obsahovat gramatické chyby. Ty by neměly být při přepisu opravovány. Přepis by měl přesně odrážet mluvený obsah.
 transcribe-the-audio-subheader-5-explanation-2 = Mluvčí může použít hovorové výrazy (například „gonna“, „cuz“ atd.), které nemusí být formálně správné. Ty by měly být přepsány tak, jak jsou, a ne měněny za jejich formálnější ekvivalenty.
 
@@ -223,9 +228,13 @@ code-switching-adding-question-note = Můžete též zvážit použití různýc
 code-switching-types-subheader = Jaké typy otázek přidat?
 code-switching-use-bilingual-prompts-header = Používejte dvojjazyčné výzvy
 code-switching-use-bilingual-prompts-explanation = Použijte dvojjazyčné dotazy, které do vaší otázky začlení oba jazyky: Příklad:
+code-switching-use-bilingual-prompts-explanation-example = "Qué te dijo tu mamá, když jsi ten den přišel domů?"
 code-switching-ask-bilingual-contexts-header = Ptejte se na dvojjazyčné kontexty
 code-switching-ask-bilingual-contexts-explanation = Používejte v situacích, kdy se oba jazyky běžně používají (např. doma, ve škole, na akcích ve společnosti). Příklad:
+code-switching-ask-bilingual-contexts-explanation-example = "Když mluvíš se svými bratranci, mícháš španělštinu a angličtinu?"
 code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
+code-switching-focus-emotional-explanation = Lidé často kódově přepínají, když vyjadřují emoce nebo naléhavost. Příklad:
+code-switching-focus-emotional-explanation-example = "Řekni mi, co řekli tvoji rodiče, když jsi jim oznámil svou velkou novinu — přesně tak, jak to řekli."
 code-switching-cultural-topics-header = Zvolte kulturně specifická témata
 code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
 code-switching-informal-scenarios-header = Prozkoumejte neformální scénáře

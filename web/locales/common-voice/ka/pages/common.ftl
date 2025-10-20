@@ -453,7 +453,7 @@ loading = იტვირთება...
 email-opt-in-info = მსურს, მივიღო ელფოსტაზე შეხსენებები შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და მეცნობოს, რა სიახლეებითაა Common Voice.
 email-opt-in-info-title = შემოუერთდით ელფოსტის ჯგუფს – Common Voice
 email-opt-in-info-sub-with-challenge = მიიღეთ ელფოსტაზე შეხსენებები გამოწვევების, შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და ცნობები, თუ რა სიახლეებითაა Common Voice.
-email-opt-in-privacy-v2 = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არ ხართ წინააღმდეგი, Mozilla-მ ეს მონაცემები დაამუშაოს <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად.
+email-opt-in-privacy-v2 = ელფოსტით წერილების მიღებაზე თანხმობით აცხადებთ, რომ არ ხართ წინააღმდეგი, თუ Mozilla ამ მონაცემებს დაამუშავებს <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად.
 indicates-required = * აღნიშნავს აუცილებელ ველს
 not-available-abbreviation = მიუწვდომელია
 # Text shown on a button that can be clicked to copy text to the clipboard

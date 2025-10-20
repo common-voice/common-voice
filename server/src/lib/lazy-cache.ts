@@ -36,12 +36,69 @@ function reportError(error: Error, context: string): void {
 
   // Only report first error each minute, or if we haven't reported in a while
   if (now - lastErrorReport >= ERROR_REPORT_INTERVAL || errorCount === 1) {
-    Sentry.captureException(error, {
-      tags: { context },
-      extra: { errorCount, cacheStrategy },
-    })
+    try {
+      // Capture the exception with full context - this will group properly by error type
+      Sentry.captureException(error, {
+        tags: {
+          context,
+          cache_strategy: cacheStrategy,
+          module: 'lazy-cache',
+        },
+        extra: {
+          errorCount,
+          cacheStrategy,
+          lastErrorReport: new Date(lastErrorReport).toISOString(),
+          timeSinceLastReport: now - lastErrorReport,
+        },
+      })
+
+      // ALSO capture a message with static fingerprint for proper grouping
+      Sentry.captureMessage(
+        `Redis cache error occurred`, // Static message for grouping
+        {
+          level: 'warning',
+          tags: {
+            context,
+            cache_strategy: cacheStrategy,
+            error_type: error.name,
+            module: 'lazy-cache',
+          },
+          extra: {
+            errorMessage: error.message, // Dynamic details in extra
+            errorStack: error.stack,
+            errorCount,
+            cacheStrategy,
+            healthCheckStatus: `Last health check: ${new Date(
+              lastHealthCheck
+            ).toISOString()}`,
+          },
+          // Use fingerprint for better grouping control
+          fingerprint: ['redis-cache-error', context],
+        }
+      )
+
+      console.log('Redis cache error reported to Sentry:', {
+        context,
+        error: error.message,
+        errorCount,
+        cacheStrategy,
+      })
+    } catch (sentryError) {
+      // Fallback if Sentry fails
+      console.error('Failed to report to Sentry:', sentryError)
+      console.error('Original error:', error)
+    }
+
     lastErrorReport = now
     errorCount = 0 // Reset counter after reporting
+  } else {
+    // Log suppressed errors for debugging / implements Sentry rate-limiting
+    console.log('Redis cache error suppressed (rate limited):', {
+      context,
+      error: error.message,
+      errorCount,
+      timeUntilNextReport: ERROR_REPORT_INTERVAL - (now - lastErrorReport),
+    })
   }
 }
 
@@ -71,7 +128,7 @@ export function stopHealthMonitoring(): void {
   }
 }
 
-async function performHealthCheck(): Promise<void> {
+export async function performHealthCheck(): Promise<void> {
   const previousStrategy = cacheStrategy
   try {
     await redis.ping()

@@ -143,7 +143,7 @@ about-playbook-how-project-governance-content-1 = د موزیلا کامن غږ 
 about-playbook-how-project-governance-content-2 = زموږ حکومتوالۍ په لاندې ستنو ولاړه ده:
 about-playbook-how-project-governance-content-3 = پټنتيا، امنیت او روڼتيا
 about-playbook-how-project-governance-content-4 = د ټولنې ګډون او پریکړې کول.
-about-playbook-how-project-governance-content-5 = ارزښت او پیژندنه.
+about-playbook-how-project-governance-content-5 = ارزښت او پېژندنه.
 about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
 about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړه نور ولولئ چې موږ څنګه اداره کوو</governanceLink>
 
@@ -151,5 +151,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړ
 
 about-playbook-how-funded = عام غږ څنګه کار کوي؟
 about-playbook-how-funded-content-1 = Common Voice د موزیلا بنسټ یوه پروژه ده، چې د امریکا 501c3 ده. دا پروژه اوس مهال په بشپړه توګه د <philantropicGrantLink>خلکو مرستو</philantropicGrantLink> لخوا تمویل کیږي، او د نړۍ د وګړو په بسپنې چلېږې.
-about-playbook-how-funded-content-2 = دا په دوامداره توګه د ډیټاسیټونو کوربه کولو او خوشې کولو، پلیټ فارم ته وده ورکولو او د <africaMradiLink> د ټولنې پروګرامونو</africaMradiLink> چلولو لپاره ډیرې پیسې لګوي.
+about-playbook-how-funded-content-2 = دا په دوامداره توگه د اومتوک‌ټولوگو کوربه کولو او خوشې کولو، پلیټ فارم ته وده ورکولو او د <africaMradiLink> د ټولنې پروگرامونو</africaMradiLink> چلولو لپاره ډېرې پیسې لگوي.
 about-playbook-how-funded-content-3 = که تاسو یا ستاسو سازمان غواړي چې په دې پروژه کې بیرته مرسته وکړئ، تاسو کولی شئ یو <donateLink>بسپنه</donateLink> وکړئ یا په <emailFragment>commonvoice@mozilla.com</emailFragment> کې زموږ د ونډواله ډلې سره اړیکه ونیسئ.

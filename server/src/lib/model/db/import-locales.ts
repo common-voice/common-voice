@@ -32,6 +32,16 @@ type PontoonLocale = {
   complete: boolean
 }
 
+// Have proper typing for Fluent messages and Abstract Syntax Tree
+interface FluentMessage {
+  id?: { name: string }
+  value?: { elements: Array<{ value?: string }> }
+}
+
+interface FluentAST {
+  body: FluentMessage[]
+}
+
 const db = getMySQLInstance()
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -57,9 +67,21 @@ const saveToMessages = (languages: any) => {
   fs.writeFileSync(messagesPath, newMessages)
 }
 
+// Helper function to extract text from Fluent message
+const getFluentValue = (message: FluentMessage): string | null => {
+  if (!message.value?.elements?.length) return null
+
+  // For simple messages, take the first text element
+  const firstElement = message.value.elements[0]
+  if ('value' in firstElement && typeof firstElement.value === 'string') {
+    return firstElement.value
+  }
+
+  return null
+}
+
 const buildLocaleEnglishNameMapping = (): Record<string, string> => {
   const englishNames: Record<string, string> = {}
-
   // Read from English file - it contains the reference names
   const messagesPath = path.join(
     LOCALE_MESSAGES_PATH,
@@ -67,7 +89,6 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
     'pages',
     'common.ftl'
   )
-
   if (!fs.existsSync(messagesPath)) {
     return englishNames
   }
@@ -78,18 +99,23 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
     // Extract the Languages section
     const languagesMatch = content.match(/#\s\[Languages\]([\s\S]*?)#\s\[\/]/)
 
-    if (languagesMatch) {
-      const languagesSection = languagesMatch[1]
-      const languageLines = languagesSection.split('\n')
+    if (!languagesMatch) {
+      console.warn('Languages section not found in English messages file')
+      return englishNames
+    }
 
-      for (const line of languageLines) {
-        // Use regex that also handles special characters in codes
-        const match = line.match(/^([a-zA-Z0-9-]+)\s*=\s*(.+)$/)
-        if (match) {
-          const [, code, name] = match
-          // Use trim() to clean up whitespace
-          englishNames[code] = name.trim()
-        }
+    const languagesSection = languagesMatch[1]
+
+    // Parse ONLY the languages section with Fluent parser
+    const languagesAST = parse(languagesSection, {}) as FluentAST
+
+    // Extract language codes and names from the parsed section
+    for (const message of languagesAST.body) {
+      const code = message.id?.name
+      const name = getFluentValue(message)
+
+      if (code && name) {
+        englishNames[code] = name
       }
     }
   } catch (error) {
@@ -117,11 +143,12 @@ const buildLocaleNativeNameMapping: any = () => {
       continue
     }
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const messages: any = parse(fs.readFileSync(messagesPath, 'utf-8'), {})
+    const messages: FluentAST = parse(
+      fs.readFileSync(messagesPath, 'utf-8'),
+      {}
+    ) as FluentAST
     const message = messages.body.find(
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (message: any) => message.id && message.id.name === locale
+      message => message.id && message.id.name === locale
     )
 
     nativeNames[locale] = message ? message.value.elements[0].value : locale

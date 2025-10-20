@@ -121,6 +121,7 @@ giz = گۇيزىگا
 gjk = كاچخى
 gju = گۇجارى
 gl = گالىتسىيانچە
+glk = گىلاكى
 gn = گۇئارانىچە
 gom = كونكانىچە
 gos = گرونىڭس
@@ -133,6 +134,7 @@ gwt = گاۋاربائىتى
 gya = غەربىي شىمال گبايا
 ha = خائۇساچە
 hac = گورانى
+hak = خاككا
 haz = خازارگى
 hch = ۋىكسارىكا
 he = ئىبرانىچە
@@ -278,6 +280,7 @@ os = ئوسسېتىنچە
 pa-IN = پەنجابچە
 pap = پاپىئامېنتو
 pap-AW = پاپىيامەنتۇچە
+pau = پالائۇئان
 pcd = پىكارد
 pcm = نىگېرىيە پىدگىن ئىنگلىزچە
 pez = شەرقىي پېنان
@@ -348,6 +351,7 @@ sr = سېربچە
 ss = سىۋاتىچە
 ssi = سانسى
 st = جەنۇبىي سوتوچە
+su = سۇندانېس
 sv-SE = شۋېدچە
 sva = سۋان
 sw = سىۋالىچە
@@ -470,3 +474,12 @@ languages-donate-banner-cta = <mark>Common Voice نى ئىشلىتىپ</mark><br
 languages-donate-banner-cta-explanation = Common Voice خەير-ساخاۋەت ۋە ئىئانىگە تايىنىدۇ! بىز ئاكادېمىيە، پۇقرالار جەمئىيىتى ۋە كەسپىي تەتقىقاتچىلار بىلەن ھەمكارلىشىشنى ياقتۇرىمىز. Common Voice نى ھەقسىز ئىشلەتكىلى بولىدۇ ئەمما سۇپا ۋە مۇلازىمېتىر چىقىمىغا ھەسسە قوشۇشىڭىزغا ھەقىقەتەن ئېھتىياجلىق.
 localization-select =
     .label = تىل/يەرلىكلەشتۈرۈش تاللىنىدۇ
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>يېڭى Common Voice سانلىق مەلۇمات توپلىمى</strong>نى ھازىر قېرىنداش سۇپىمىز Mozilla سانلىق مەلۇمات كوللېكتىپى چۈشۈرۈش بىلەن تەمىنلەيدۇ. قوشۇلۇپ 300+ دۇنياۋى سانلىق مەلۇمات توپلىمىغا ئېرىشىڭ، ئۇلارنىڭ ھەممىسىنى جامائەت قۇرۇپ جامائەت يۈرگۈزىدۇ.
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla سانلىق مەلۇمات كوللېكتىپىغا قوشۇلۇڭ
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = يېڭى بەتكۈچتە ئاچ

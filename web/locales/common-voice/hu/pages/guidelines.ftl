@@ -160,6 +160,7 @@ transcribe-the-audio-subheader-3 = Speciális címkék
 transcribe-the-audio-subheader-4 = Szórészletek, hamis kezdések, ismétlődő szavak
 transcribe-the-audio-subheader-5 = Nyelvtani hibák és kollokvializmusok
 transcribe-the-audio-subheader-1-explanation = Általában le kell írnia mindent, amit hall. Ez ezt takarja:
+transcribe-the-audio-subheader-1-explanation-example-1 = A nehézségek leírása, beleértve a habozásokat és az ismétlődéseket is
 
 ## Code-Switching
 
