@@ -19,6 +19,11 @@ interface State {
   errorCode?: string
 }
 
+// Previously we were getting a generic "Something is wrong" message, now we try to give some indication about what is happening.
+// This `error-boundry` component is there for cases where even the user locale was not set (at very entry).
+// We might get rid of this as a whole, and use localized-error-boundry with default `en`.
+// TODO: Consider removal with the introduction of `react-error-boundry` (which needs to be used to handle async errors from promises)
+
 class ErrorBoundary extends React.Component<Props, State> {
   state: State = { hasError: false }
 

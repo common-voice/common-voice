@@ -105,6 +105,18 @@ export default class API {
           : undefined,
       })
 
+      // Handle special case for success
+      if (response.status === 204) {
+        return null
+      }
+
+      // Handle 401 immediately and separately
+      if (response.status === 401) {
+        localStorage.removeItem(USER_KEY)
+        location.reload()
+        return // Stop execution here
+      }
+
       // Handle system errors (5xx) - these trigger Error Boundary
       if (response.status >= 500) {
         return await this.handleSystemError(response)
@@ -147,17 +159,12 @@ export default class API {
   /**
    * Handle client errors (4xx) that represent expected application states
    * These are caught and handled gracefully in React components
+   * Exception: 401 errors which are handled above specially
    */
   private async handleClientError(response: Response): Promise<never> {
     const errorText = await response.text()
 
     switch (response.status) {
-      case 401:
-        // Special case: authentication error handled completely client-side
-        localStorage.removeItem(USER_KEY)
-        location.reload()
-        return // No error thrown - flow stops here
-
       case 404:
         throw new NotFoundError(errorText)
 
@@ -173,10 +180,11 @@ export default class API {
         )
 
       default:
-        // Generic 4xx errors
+        // Generic 4xx error - special case clip saving related
         if (response.statusText.includes('save_clip_error')) {
           throw new BusinessLogicError(response.statusText, response.status)
         }
+        // Generic 4xx errors
         throw new BusinessLogicError(errorText, response.status)
     }
   }
