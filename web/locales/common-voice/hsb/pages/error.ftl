@@ -8,8 +8,14 @@ error-clip-upload = Nahrawanje tutoho klipa so přeco zaso njeradźi, dale pospy
 error-clip-upload-server = Nahrawanje tutoho klipa so přeco zaso na serwerje njeradźi. Začitajće stronu znowa abo spytajće pozdźišo hišće raz.
 error-title-404 = Njemóžachmy tu stronu za was namakać
 error-content-404 = Snano budźe naša <homepageLink>startowa strona</homepageLink> pomhać? Zo byšće prašenje stajił, wobdźělće so prošu na <matrixLink>chaće Matrix zhromadźenstwa</matrixLink>, wobkedźbujće sydłowe problemy přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy Discourse</discourseLink>.
+error-title-500 = Hopla, něšto je so nimokuliło
+error-content-500 = Njewočakowany zmylk je nastał. Prošu spytajće pozdźišo hišće raz. Wobdźělće so prošu za pomoc na <matrixLink>chaće Matrix zhromadźenstwa</matrixLink>, wobkedźbujće sydłowe problemy přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy Discourse</discourseLink>.
+error-title-502 = Zwisk přetorhnjeny
+error-content-502 = Njemóžeće stabilny zwisk z našimi serwerami direktnje nawjazać. Prošu spytajće pozdźišo hišće raz. Wobdźělće so prošu za pomoc na <matrixLink>chaće Matrix zhromadźenstwa</matrixLink>, wobkedźbujće sydłowe problemy přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy Discourse</discourseLink>.
 error-title-503 = Mamy njewočakowany čas staća
 error-content-503 = Sydło budźe tak bórze kaž móžno zaso k dispoziciji być. Najnowše informacije dóstanjeće w  <matrixLink>chaće Matrix zhromadźenstwa</matrixLink> abo wopytajće <githubLink>GitHub</githubLink> abo <discourseLink>naše forumy Discourse</discourseLink>, zo byšće problemy ze sydłom zdźělił abo wobkedźbował.
+error-title-504 = Čas za naprašowanje překročeny
+error-content-504 = Naprašowanje je předołho trało, zo by so skónčiło. To je zwjetša na chwilu. Prošu spytajće hišće raz. Wobdźělće so prošu za pomoc na <matrixLink>chaće Matrix zhromadźenstwa</matrixLink>, wobkedźbujće sydłowe problemy přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy Discourse</discourseLink>.
 error-code = Zmylk { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
