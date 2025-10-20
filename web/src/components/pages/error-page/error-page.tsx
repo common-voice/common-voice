@@ -2,7 +2,7 @@ import * as React from 'react'
 import { useEffect } from 'react'
 import { Localized } from '@fluent/react'
 
-import { HandledErrorCode } from '../../../services/app-error'
+import { ErrorBoundaryErrorCode } from '../../../services/app-error'
 import { trackError } from '../../../services/tracker'
 import { LocaleLink } from '../../locale-helpers'
 import { GitHubLink, DiscourseLink, MatrixLink } from '../../shared/links'
@@ -18,7 +18,7 @@ import './error-page.css'
 
 interface Props {
   children?: React.ReactNode
-  errorCode: HandledErrorCode
+  errorCode: ErrorBoundaryErrorCode | '404'
   prevPath?: string
 }
 

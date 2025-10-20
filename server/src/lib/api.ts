@@ -273,7 +273,7 @@ export default class API {
   ) => {
     const body = request?.body
     const { email, languageInfo, languageLocale, platforms } = body
-    if (!body || !email || !languageInfo || languageLocale || !platforms) {
+    if (!body || !email || !languageInfo || !languageLocale || !platforms) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
 
@@ -823,12 +823,12 @@ export default class API {
 
   getJob = async (request: Request, response: Response, next: NextFunction) => {
     const client_id = request?.session?.user?.client_id
-    const job_id = request?.params?.job_id
-    if (!client_id || !job_id) {
+    const jobId = request?.params?.jobId
+    if (!client_id || !jobId) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     try {
-      const job = await NotificationQueue.getJob(job_id)
+      const job = await NotificationQueue.getJob(jobId)
       //job is owned by current client
       if (job && client_id === job.data.client_id) {
         const { finishedOn } = job
