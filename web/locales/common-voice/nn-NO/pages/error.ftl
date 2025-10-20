@@ -8,6 +8,7 @@ error-clip-upload = Opplasting av dette klippet fungerer framleis ikkje, ønskje
 error-clip-upload-server = Opplasting av dette klippet feilar stadig på serveren. Last inn sida på nytt, eller prøv på nytt seinare.
 error-title-404 = Denne sida klarte vi ikkje å finne
 error-content-404 = Kanskje vil <homepageLink>startsida</homepageLink> hjelpe? For å stille et spørsmål, kan du bli med på <matrixLink>Matrix fellesskapsprat</matrixLink> eller besøke <githubLink>GitHub</githubLink> eller <discourseLink>Discourse-foruma våre</discourseLink>.
+error-title-500 = Noko gjekk gale
 error-title-503 = Vi opplever uventa driftsstans
 error-content-503 = Sida vil vere tilbake så snart som råd. For den siste informasjonen, bli med på <matrixLink>Matrix fellesskapsprat</matrixLink> eller besøk <githubLink>GitHub</githubLink> eller <discourseLink>Discourse-foruma våre</discourseLink> for å sende inn og overvake problem med nettstaden.
 error-code = Feil { $code }
