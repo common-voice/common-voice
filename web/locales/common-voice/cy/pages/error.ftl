@@ -8,8 +8,14 @@ error-clip-upload = Mae llwytho'r clip hwn yn dal i fethu, parhau i roi cynnig a
 error-clip-upload-server = Mae llwytho'r clip hwn yn parhau i fethu ar y gweinydd. Ail-lwythwch y dudalen neu ceisiwch eto yn nes ymlaen.
 error-title-404 = Nid oedd modd i ni ddod o hyd i'r dudalen honno i chi
 error-content-404 = Efallai y bydd ein <homepageLink>tudalen cartref</homepageLink> yn gallu eich helpu? I ofyn cwestiwn, ymunwch â'n sgwrs gymunedol yn <matrixLink>Matrix</matrixLink>, monitro materion gwefan trwy <githubLink>GitHub</githubLink> neu ewch i'n <discourseLink>fforymau Discours</discourseLink>.
+error-title-500 = Ymddiheuriadau, aeth rhywbeth o'i le
+error-content-500 = Digwyddodd gwall annisgwyl. Ceisiwch eto yn nes ymlaen. I gael cymorth, ymunwch â <matrixLink>sgwrs gymunedol Matrix</matrixLink>, monitro materion safle trwy <githubLink>GitHub</githubLink> neu ewch i'n <discourseLink>fforymau Discourse</discourseLink>.
+error-title-502 = Cysylltiad wedi'i darfu
+error-content-502 = Ar hyn o bryd, rydych wedi methu creu cysylltiad sefydlog â'n gweinyddion. Ceisiwch eto yn nes ymlaen. I gael cymorth, ymunwch â <matrixLink>sgwrs gymunedol Matrix</matrixLink>, monitro materion safle trwy <githubLink>GitHub</githubLink> neu ewch i'n <discourseLink>fforymau Discourse</discourseLink>.
 error-title-503 = Rydym yn profi toriad darpariaeth annisgwyl
 error-content-503 = Bydd y wefan yn ôl at ei gilydd cyn gynted â phosibl. Am y wybodaeth ddiweddaraf, ymunwch â'n  sgwrs gymunedol yn <matrixLink>Matrix</matrixLink> neu ewch i <githubLink>GitHub</githubLink> neu'n <discourseLink>fforymau Discourse</discourseLink> i gyflwyno a monitro materion profiad gwefan.
+error-title-504 = Daeth cyfnod y cais i ben
+error-content-504 = Cymerodd y cais ormod o amser i'w gwblhau. Mae hyn fel arfer dros dro. Ceisiwch eto. I gael cymorth, ymunwch â <matrixLink>sgwrs gymunedol Matrix</matrixLink>, monitro materion safle trwy <githubLink>GitHub</githubLink> neu ewch i'n <discourseLink>fforymau Discourse</discourseLink>.
 error-code = Gwall { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
