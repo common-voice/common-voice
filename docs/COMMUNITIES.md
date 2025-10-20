@@ -43,6 +43,7 @@ Many language communities are self organising and have their contact channels on
   * [Discord](https://discord.com/invite/5ZdTHsN8Mn)
   * [Matrix](https://app.element.io/#/room/!WNiJFJTBpvYqMrDWir:matrix.org)
 * Esperanto (`eo`):
+  * [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
   * [GitHub](https://github.com/parolteknologio)
   * [Website](https://parolrekonado.github.io/)
   * [Telegram](https://t.me/joinchat/rkl0bSUR0jQxNzY0)
