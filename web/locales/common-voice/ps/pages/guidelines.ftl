@@ -166,6 +166,7 @@ review-the-transcription-subheader = عمومي لارښوونه
 
 ## Code-Switching
 
+code-switching = د کوډ بدلول
 adding-a-question = د پوښتنې اضافه کول
 # Adding a Question
 code-switching-adding-question-subheader = څه شی ښه پوښتنه جوړوي؟
