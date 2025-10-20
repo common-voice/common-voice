@@ -4,6 +4,9 @@ guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسی
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
 question-collection = د پوښتنو ټولګه
+scripted-speech = لیکل شوې وینا
+spontaneous-speech = په خپله خوښه وينا
+dont-subheader = مه کوه
 
 ## Voice Collection nav ids
 
@@ -140,7 +143,17 @@ example-questions-explanation-2 = که تاسو غواړئ د پوښتنو یو�
 
 # Answer Questions
 answer-questions = پوښتنو ته ځواب ورکړئ
+answer-questions-subheader = عمومي لارښوونه
+answer-questions-tip-1 = په یوه ارامه ځای کې ثبت کړئ
+answer-questions-tip-2 = داسې ځای غوره کړئ چې ښه انټرنیټ اتصال ولري
+answer-questions-tip-3b = هڅه وکړئ چې خپل ځواب ۱۵-۳۰ ثانیو ته وساتئ.
+answer-questions-tip-4 = له کرکې، پاروونکي یا بل ډول سپکاوي ډکو خبرو څخه ډډه وکړئ
+answer-questions-tip-5 = په طبیعي ډول خبرې وکړئ، لکه څنګه چې تاسو د یو ملګري سره کوئ - خپل اصلي ډول لهجه وکاروئ.
+answer-questions-tip-6 = خپل غږ په دوامداره توګه وساتئ - چیغې مه وهئ یا سندرې مه وایاست
+transcribe-the-audio-subheader-1 = عمومي لارښوونه
 transcribe-the-audio-subheader-2 = شمېرې او لنډیزونه
+transcribe-the-audio-subheader-3 = ځانګړي ټګونه
+transcribe-the-audio-subheader-4 = د کلمو برخې، غلط پیلونه، تکراري کلمې
 tags-table-header-2 = معنی
 tags-laugh = خندا
 tags-unclear = ناڅرګند
