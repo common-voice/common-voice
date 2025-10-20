@@ -27,19 +27,25 @@ class LocalizedErrorBoundary extends React.Component<Props, State> {
 
   static getDerivedStateFromError(error: Error) {
     const errorCode = LocalizedErrorBoundary.getErrorCodeFromError(error)
-    return { hasError: true, errorCode }
+    if (errorCode) {
+      return { hasError: true, errorCode }
+    }
+    // For client-handled errors, do not set hasError
+    return null
   }
 
   /**
    * Determines which system errors should trigger the Error Boundary
    * Client-handled errors are ignored and handled by components
    */
-  private static getErrorCodeFromError(error: Error): ErrorBoundaryErrorCode {
+  private static getErrorCodeFromError(
+    error: Error
+  ): ErrorBoundaryErrorCode | undefined {
     // Never trigger error boundary for expected client-handled errors
     if (error instanceof ClientHandledError) {
       // These should be handled gracefully by components
       // Log to Sentry but don't show system error page
-      return '500' // Fallback, won't be used since we don't render for client errors
+      return undefined
     }
 
     // Use the specific code from SystemError instances
