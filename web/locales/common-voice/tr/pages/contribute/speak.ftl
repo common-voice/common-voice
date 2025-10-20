@@ -3,6 +3,7 @@ speak-now = Şimdi konuşun
 speak-subtitle = Sesinizi bağışlayın
 record-cta = Kaydı başlatın
 record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
+record-platform-not-supported-webview = Mobil cihazlarda sistem tarayıcınızı kullanarak katkıda bulunabilirsiniz…
 record-platform-not-supported-desktop = Bilgisayarınızda şu tarayıcıların son sürümlerini kullanabilirsiniz:
 record-platform-not-supported-ios-non-safari = iOS'te kaydı etkinleştirmek için lütfen Safari ile devam edin…
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.

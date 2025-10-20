@@ -138,9 +138,20 @@ example-questions-subheader = مىسال سوئاللىرى
 # Answer Questions
 answer-questions = سوئالغا جاۋاب
 answer-questions-subheader = ئادەتتىكى يېتەكچى
+answer-questions-tip-1 = نىسبەتەن تىنچ مۇھىتتا ئۈنگە خاتىرىلەڭ
+answer-questions-tip-2 = ئىنتېرنېت باغلىنىشى ياخشى ئورۇننى تاللاڭ
+answer-questions-tip-3b = جاۋاب بېرىش ۋاقتىنى 15-30 سېكۇنت ئىچىدە تىزگىنلەشكە تىرىشىڭ
+answer-questions-tip-4 = ئۆچمەنلىك، قۇتراتقۇلۇق ياكى باشقىلارنىڭ زىتىغا تېگىدىغان سۆزدىن ساقلىنىڭ
+answer-questions-tip-5 = دوستىڭىز بىلەن پاراڭلىشىۋاتقاندەك تەبىئىي سۆزلەڭ - ئۆزىڭىزنىڭ ھەقىقىي ئاۋازى، شېۋىسى، ئۇرغۇسى بىلەن سۆزلەڭ
+answer-questions-tip-6 = بىر خىل ئاۋازدا سۆزلەڭ - ۋارقىرىماڭ ياكى غىڭشىماڭ
 # Transcribe the Audio
 transcribe-the-audio = ئۈننى خەتكە پۈت
 transcribe-the-audio-subheader-1 = ئادەتتىكى يېتەكچى
+transcribe-the-audio-subheader-2 = سان ۋە قىسقارتىلغان سۆزلەر
+transcribe-the-audio-subheader-3 = ئالاھىدە بەلگە
+transcribe-the-audio-subheader-4 = سۆز بوغۇمى، ئېغىز خاتالىقى، تەكرارلانغان سۆز
+transcribe-the-audio-subheader-5 = تىلقۇرما خاتالىقى ۋە ئېغىز تىلى
+transcribe-the-audio-subheader-1-explanation = ئادەتتە، ئاڭلىغاننىڭ ھەممىسىنى يېزىپ كىرگۈزىسىز. ئۇلار:
 tags-table-header-1 = بەلگە
 tags-table-header-2 = مەنىسى
 tags-laugh = كۈلكە
@@ -148,6 +159,17 @@ tags-disfluency = كېكەچلەش
 tags-unclear = ئېنىقسىز
 tags-noise = شاۋقۇن
 tags-laugh-explanation = كۈلكە ئاۋازى.
+
+## Review the Transcription
+
+review-the-transcription-subheader = ئادەتتىكى يېتەكچى
+
+## Code-Switching
+
+code-switching = كود ئالماشتۇرۇش
+adding-a-question = سوئال قوشۇش
+# Adding a Question
+code-switching-adding-question-subheader = ياخشى سوئال قانداق بولىدۇ؟
 
 ## Reporting Content
 

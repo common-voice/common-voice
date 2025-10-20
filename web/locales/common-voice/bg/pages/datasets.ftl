@@ -8,6 +8,8 @@ datasets-positioning =
     Многоезичният набор от данни за Voice вече е най-големият обществено достъпен гласов набор от данни, но не е единственият.
     
     Вижте тази страница като референтен център за други набори от гласови данни с отворен код. Common Voice продължава да расте и е дом за нашите нови издания.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Наборите от данни на Mozilla Common Voice вече са достъпни изключително в Mozilla Data Collective.
 language = Език
 download-dataset-header = Изтегляне на набор от данни
 download-delta-explainer = Направихме някои промени. Делта сегментите съдържат само най-новите клипове след последното издание. <deltaLink>Прочетете повече за тази промяна</deltaLink>.
@@ -64,9 +66,12 @@ dataset-version = Версия
 sha256-checksum-copied = Контролната сума на SHA256 е копирана!
 sha256-checksum-copied-error = Неуспешно копиране на контролна сума SHA256
 clipboard-not-supported = Системният буфер не се поддържа
+no-information-available = Няма налична информация
 dataset-metadata-sex = Пол
 # dataset metadata - age of contributor
 dataset-metadata-age = Възраст
+donate-modal-message = Вашият набор от данни се изтегля!
+dataset-donate-modal-heading = Знаете ли, че…
 data-download-singleword-title = Изтеглете целевия сегмент от една дума
 data-download-singleword-callout-v2 = Това е сегмент, насочен към случаи на употреба, съдържащ данни, позволяващи разпознаване на изговорени цифри и долавяне на фразите „да“ и „не“.
 data-download-button = Изтегляне на данните от Common Voice

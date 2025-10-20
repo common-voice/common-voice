@@ -11,3 +11,11 @@ error-content-404 = ښايي زموږ <homepageLink> کور پاڼه </homepageL
 error-title-503 = موږ د ناڅاپه توی مهال سره مخ یو
 error-content-503 = سایټ به ژر تر ژره بیرته راشي. د وروستي مالوماتو لپاره، مهرباني وکړئ د <matrixLink> میټریکس ټولنې چټ</matrixLink> کې ګډون وکړئ یا <githubLink>> ګیټ هب </ GithubLink> یا <discourseLink> زموږ د خبرو اترو فورم </discourseLink> ته مراجعه وکړئ ترڅو د سایټ تجربې ستونزې وسپارئ.
 error-code = تېروتنه { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] موږ ستاسو کليپ نشو راپورته کولی. دا لادمخه راپورته شوی دی. راځئ چې د يوې بلې ډلې سره دوام ورکړو!
+       *[other] موږ ستاسو { $total } کليپونه نشو راپورته کولی، ځکه چې دوی لادمخه راپورته شوې دي. راځئ چې د يوې بلې ډلې سره دوام ورکړو!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = موږ ستاسو کليپونه راپورته کړل{ $uploaded } — پاتې نور لادمخه راپورته شوي وو. راځئ چې د يوې بلې ډلې سره دوام ورکړو!

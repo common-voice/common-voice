@@ -39,7 +39,7 @@ import RecordingPill from './recording-pill'
 import { SentenceRecording } from './sentence-recording'
 import SpeakErrorContent from './speak-error-content'
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
-import { castTrueString } from '../../../../utility'
+import { castTrueString, isWebView } from '../../../../utility'
 import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './speak.css'
@@ -123,6 +123,7 @@ class SpeakPage extends React.Component<Props, State> {
   demoMode = this.props.location.pathname.includes(URLS.DEMO)
 
   audio: AudioWeb
+  isWebView = false
   isUnsupportedPlatform = false
   maxVolume = -1
   recordingStartTime = 0
@@ -170,11 +171,19 @@ class SpeakPage extends React.Component<Props, State> {
     document.addEventListener('visibilitychange', this.releaseMicrophone)
     document.addEventListener('keyup', this.handleKeyUp)
 
-    if (
+    this.isWebView = isWebView()
+    this.isUnsupportedPlatform =
       !this.audio.isMicrophoneSupported() ||
       !this.audio.isAudioRecordingSupported()
-    ) {
-      this.isUnsupportedPlatform = true
+
+    // If unsupported, log and tag
+    if (this.isWebView) {
+      trackGtag('recording-in-webview', { locale: this.props.locale })
+      console.log(`In-app-browser detected - recording may not work!`)
+    }
+    if (this.isUnsupportedPlatform) {
+      trackGtag('recording-not-supported', { locale: this.props.locale })
+      console.log(`Recording is not supported!`)
     }
   }
 
@@ -715,6 +724,7 @@ class SpeakPage extends React.Component<Props, State> {
               <SpeakErrorContent
                 isLoading={isLoading}
                 hasLoadingError={hasLoadingError}
+                isWebView={this.isWebView}
                 isUnsupportedPlatform={this.isUnsupportedPlatform}
                 isMissingClips={isMissingClips}
                 isMissingClipsForVariant={

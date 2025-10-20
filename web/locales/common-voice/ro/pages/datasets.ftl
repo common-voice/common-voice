@@ -8,6 +8,13 @@ datasets-positioning =
     Setul multilingv de date Common Voice este deja cel mai mare set de date vocale de acest gen pus la dispoziția publicului, dar nu este și singurul.
     
     Consideră această pagină ca un centru de referință pentru alte seturi de date vocale cu sursă deschisă și, pe măsură ce Common Voice continuă să crească, ca pe o pagină de start pentru actualizările noastre.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Seturile de date Mozilla Common Voice sunt acum disponibile exclusiv pe Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Începând cu versiunea Common Voice 23.0, toate seturile de date Common Voice sunt disponibile pentru descărcare exclusiv prin intermediul Mozilla Data Collective!
+    
+    Această pagină servește drept arhivă a versiunilor anterioare ale seturilor de date Mozilla Common Voice. Versiunile din arhivă trebuie utilizate doar în scenarii specifice de cercetare și nu pentru antrenarea modelelor generale, pentru a respecta dorințele celor care au solicitat excluderea contribuțiilor lor.
 datasets-speech-bubble-content = Avem vești! Pagina pentru Vorbire spontană este aproape gata! Reveniți pentru noutăți și abonați-vă la canalul nostru <discordLink>Discord</discordLink> pentru cele mai recente informații.
 language = Limbă
 download-dataset-header = Descarcă setul de date
@@ -102,3 +109,5 @@ female = Feminin
 download-contribute-menu-tooltip = Descarcă seturile noastre de date vocale
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Opțiuni de descărcare pentru accesarea datelor Common Voice
+datasets-show-more = Afișează toate seturile de date
+datasets-show-less = Afișează cele mai recente seturi de date
