@@ -335,6 +335,7 @@ code-switching-not-tag-proper-names-example-1 = ხალხი: ნანა, �
 code-switching-not-tag-proper-names-example-2 = ადგილები: განმუხური, უშგული
 code-switching-not-tag-proper-names-example-3 = ბრენდები/დაწესებულებები: ლუშნუ, მაკდონალდსი
 code-switching-not-tag-mixed-words = <bold>შერეული ან მორფოლოგიურად შეთვისებული სიტყვები.</bold> არ მონიშნოთ სიტყვები, რომლებიც რამდენიმე ენას აერთიანებს ან სხვა ენის დაბოლოებითაა. მაგალითები:
+code-switching-not-tag-mixed-words-example = სადაც ძირი ქართულია, ბოლოსართი მეგრული: „დაძაბულობარე“, „ერთობაშ“
 code-switching-not-tag-interjections = <bold>შორისდებულები.</bold> შორისდებული და შემავსებელი სიტყვები, ენისდა მიუხედავად, უნდა დარჩეს <bold>ჭდეების გარეშე.</bold> მაგალითები:
 code-switching-not-tag-interjections-example-1 = „ეჰ“
 code-switching-not-tag-interjections-example-2 = „ნწუ“
