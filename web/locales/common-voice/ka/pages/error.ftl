@@ -15,6 +15,7 @@ error-content-502 = ვერ ხერხდება მდგრადი კ
 error-title-503 = საიტის მუშაობა შეწყვეტილია დაუგეგმავად
 error-content-503 = საიტი აღდგება უმოკლეს დროში. უახლესი ინფორმაციისთვის, გთხოვთ შემოუერთდეთ <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink> ან იხილოთ <githubLink>GitHub</githubLink>, ხარვეზების მოსახსენებლად კი ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
 error-title-504 = მოთხოვნის დრო ამოიწურა
+error-content-504 = მოთხოვნის შესრულებამ დიდ ხანს გასტანა. ეს, ჩვეულებრივ, დროებითია ხოლმე. კვლავ სცადეთ მოგვიანებით. დახმარების მისაღებად შემოუერთდით <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, საიტის ხარვეზების შესახებ იხილეთ <githubLink>GitHub</githubLink> ან ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
 error-code = შეცდომა { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
