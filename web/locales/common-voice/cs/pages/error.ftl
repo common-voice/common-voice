@@ -8,8 +8,12 @@ error-clip-upload = Stále se nedaří nahrát záznam. Pokoušet se i nadále?
 error-clip-upload-server = Nahrávání záznamu na serveru se stále nedaří. Znovu načtěte stránku nebo to zkuste později.
 error-title-404 = Tuto stránku se nám nepodařilo najít
 error-content-404 = Možná vám pomůže naše <homepageLink>domovská stránka</homepageLink>. Pro případné položení dotazu se prosím připojte do naší <matrixLink>skupiny na Matrix serveru</matrixLink>. Nahlášené chyby můžete sledovat na <githubLink>GitHubu</githubLink> nebo na <discourseLink>fóru Discourse</discourseLink>.
+error-title-500 = Nastala chyba. Omlouváme se.
+error-content-500 = Došlo k neočekávané chybě. Zkuste to prosím znovu později. Pro pomoc se prosím připojte do <matrixLink>komunitního chatu na Matrixu</matrixLink>, monitorujte problémy na webu skrze <githubLink>GitHub</githubLink> nebo navštivte <discourseLink>naše fórum Discourse</discourseLink>.
+error-title-502 = Spojení přerušeno
 error-title-503 = Stránka je neočekávaně dočasně nedostupná
 error-content-503 = Budeme zpět jak nejdříve to půjde. Pro nahlášení problému se prosím připojte do naší <matrixLink>skupiny na Matrix serveru</matrixLink>. Nahlášené chyby můžete sledovat také na <githubLink>GitHubu</githubLink> nebo na <discourseLink>fóru Discourse</discourseLink>.
+error-title-504 = Vypršel časový limit požadavku
 error-code = Chyba { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
