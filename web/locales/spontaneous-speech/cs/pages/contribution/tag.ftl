@@ -9,3 +9,7 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 tag-page-shortcut-toogle-mouse-keyboard = 0
 toogle-mouse-keyboard = Přepnout vyskakovací okno
+tag-page-shortcut-tag-undo = Ctrl / CMD + Z
+undo = Zpět
+tag-page-shortcut-select-all = A
+select-all = Vybrat vše
