@@ -3,6 +3,7 @@ speak-now = Nyní mluvte
 speak-subtitle = Darujte svůj hlas
 record-cta = Spustit nahrávání
 record-platform-not-supported = Je nám líto, ale vaše platforma zatím není podporovaná.
+record-platform-not-supported-webview = Na mobilních zařízeních můžete přispívat pomocí systémového prohlížeče…
 record-platform-not-supported-desktop = Na počítačích si můžete stáhnout nejnovější:
 record-platform-not-supported-ios-non-safari = V systému iOS použijte pro nahrávání prohlížeč Safari…
 record-must-allow-microphone = Musíte povolit přístup k mikrofonu.
