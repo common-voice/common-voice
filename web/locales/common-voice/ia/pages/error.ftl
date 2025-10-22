@@ -11,9 +11,11 @@ error-content-404 = Forsan nostre <homepageLink>pagina initial</homepageLink> po
 error-title-500 = Desolate, alco errate eveniva
 error-content-500 = Un error impreviste occurreva. Retenta plus tarde. Pro adjuta, junge te al <matrixLink>chat del communitate Matrix</matrixLink>, survelia le problemas per <githubLink>GitHub</githubLink> o visita <discourseLink>nostre foros Discourse</discourseLink>.
 error-title-502 = Connexion interrupte
+error-content-502 = Tu non pote stabilir un connexion a nostre servitores justo ora. Retenta plus tarde. Pro adjuta, junge te al <matrixLink>chat del communitate Matrix</matrixLink>, survelia le problemas per <githubLink>GitHub</githubLink> o visita <discourseLink>nostre foros Discourse</discourseLink>.
 error-title-503 = Nos pati un inactivitate inexpectate
 error-content-503 = Le sito sera restabilite al plus tosto possibile. Pro le ultime informationes junge te al <matrixLink>chat del communitate Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink>nostre foros Discourse</discourseLink> pro inviar e surveliar problemas experimentate del sito.
 error-title-504 = Tempore de requesta expirate
+error-content-504 = Le requesta prendeva troppo tempore pro completar. Isto sole esser temporari. Retenta plus tarde. Pro adjuta, junge te al <matrixLink>chat del communitate Matrix</matrixLink>, survelia le problemas per <githubLink>GitHub</githubLink> o visita <discourseLink>nostre foros Discourse</discourseLink>.
 error-code = Error { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
