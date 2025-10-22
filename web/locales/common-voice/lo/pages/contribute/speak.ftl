@@ -3,6 +3,7 @@ speak-now = ເວົ້າຕອນນີ້
 speak-subtitle = ບໍລິຈາກສຽງຂອງທ່ານ
 record-cta = ເລີ່ມການບັນທຶກ
 record-platform-not-supported = ພວກເຮົາຂໍອະໄພ, ແພລດຟອມຂອງທ່ານບໍ່ຮອງຮັບໃນຂະນະນີ້.
+record-platform-webview = ທ່ານອາດຈະມາຮອດທີ່ນີ້ໂດຍການຄລິກໃສ່ການເຊື່ອມຕໍ່ໃນ app ສື່ມວນຊົນສັງຄົມ. ທ່ານກຳລັງໃຊ້ໂປຣແກຣມທ່ອງເວັບໃນແອັບທີ່ບໍ່ຮອງຮັບການບັນທຶກສຽງ.
 record-platform-not-supported-desktop = ໃນອຸປະກອນເດັສທັອບທ່ານສາມາດປະກອບສ່ວນໂດຍການດາວໂຫຼດ…
 record-platform-not-supported-ios-non-safari = ໃນ iOS ກະລຸນາສືບຕໍ່ດ້ວຍ Safari ເພື່ອເປີດໃຊ້ການບັນທຶກ...
 record-must-allow-microphone = ທ່ານຕ້ອງອະນຸຍາດໃຫ້ເຂົ້າເຖິງໄມໂຄຣໂຟນ.

@@ -216,6 +216,12 @@ email-opt-in-info-sub-with-challenge = Merrni email-e të tillë si kujtues obje
 email-opt-in-privacy-v2 = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopjoje
+# Text shown on a button that can be clicked to cancel an action
+cancel = Anuloje
+# Text shown on a button that can be clicked to delete an item
+delete = Fshije
 
 ## Donate banner
 
@@ -228,3 +234,8 @@ languages-donate-banner-cta = <mark>E përdorni CV-në për</mark><br/><mark>pun
 languages-donate-banner-cta-explanation = Common Voice financohet nga dhurime dhe grante! E duam fort bashkëpunimin me akademikët, shoqërinë civile dhe kërkues të industrisë. Common Voice është falas për t’u përdorur, por dhënia e ndihmesës te platforma dhe kostot e strehimit përmes propozimesh për grante janë vërtet të dobishme.
 localization-select =
     .label = Zgjidhni gjuhë/përkthim
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Hapet në skedë të re

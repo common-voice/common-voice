@@ -2,7 +2,7 @@
 
 language-section-in-progress = د پرمختګ په حال کې
 language-section-in-progress-new-description = دا ژبې دا مهال د ټولنې لخوا تر پراختیا لاندې دي. د پرمختګ پټې په ګوته کوي چې هره ژبه څومره ليری د <localizationGlossaryLink> ویب سایټ ځایي ژبې ته ژباړلو </localizationGlossaryLink> او <sentenceCollectionGlossaryLink> د جملو ټولګه </sentenceCollectionGlossaryLink> په پروسه کې ده.
-language-section-launched = په لاره اچول شوی
+language-section-launched = پېل شوې ژبې
 language-section-launched-description = د دې پیل شوي ژبو لپاره ویب پاڼه په بریالیتوب سره <localizationGlossaryLink> ځایي ژبې ته ژباړل </localizationGlossaryLink> شوې، او کافي <sentenceCollectionGlossaryLink> جملې راټولې شوې دي </sentenceCollectionGlossaryLink> ترڅو د <speakLink> غږیدلو </speakLink> او <listenLink> اوریدلو </listenLink> رواني ونډې لپاره اجازه ورکړل شي.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = وروستی تازه شوی: { $lastUpdatedTimeStamp }

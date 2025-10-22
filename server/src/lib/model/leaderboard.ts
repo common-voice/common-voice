@@ -200,32 +200,43 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
   return rows
 }
 
-const CACHE_TIME_MS = 1 * TimeUnits.HOUR
-const LOCK_TIME_MS = 10 * TimeUnits.MINUTE
+const getFullClipLeaderboard = (locale?: string) => {
+  const lockTtl = locale
+    ? 80 * TimeUnits.SECOND // With locale - avg. measured 5 sec - worst 1.1 min!!!
+    : 5 * TimeUnits.MINUTE // Without locale - avg. measured 2.1 min - worst 4.7!!!
+  const cacheTtl = locale
+    ? 1 * TimeUnits.HOUR // With locale
+    : 2 * TimeUnits.HOUR // Without locale
 
-export const getFullClipLeaderboard = lazyCache(
-  'clip-leaderboard',
-  async (locale?: string) => {
-    return (await getClipLeaderboard(locale)).map((row, i) => ({
-      position: i,
-      ...row,
-    }))
-  },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
-)
+  return lazyCache(
+    `clip-leaderboard-${locale || 'global'}`,
+    async () => {
+      const leaderboard = await getClipLeaderboard(locale)
+      return leaderboard.map((row, i) => ({ position: i, ...row }))
+    },
+    cacheTtl,
+    lockTtl
+  )()
+}
 
-export const getFullVoteLeaderboard = lazyCache(
-  'vote-leaderboard',
-  async (locale?: string) => {
-    return (await getVoteLeaderboard(locale)).map((row, i) => ({
-      position: i,
-      ...row,
-    }))
-  },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
-)
+const getFullVoteLeaderboard = (locale?: string) => {
+  const lockTtl = locale
+    ? 4 * TimeUnits.MINUTE // With locale - avg. measured 21.2 sec - worst 3.5 min!!!
+    : 20 * TimeUnits.MINUTE // Without locale - avg. measured 8.4 min - worst 17.1 min!!!
+  const cacheTtl = locale
+    ? 1 * TimeUnits.HOUR // With locale
+    : 2 * TimeUnits.HOUR // Without locale
+
+  return lazyCache(
+    `vote-leaderboard-${locale || 'global'}`,
+    async () => {
+      const leaderboard = await getVoteLeaderboard(locale)
+      return leaderboard.map((row, i) => ({ position: i, ...row }))
+    },
+    cacheTtl,
+    lockTtl
+  )()
+}
 
 export const getTopSpeakersLeaderboard = lazyCache(
   'top-speaker-leaderboard',
@@ -247,8 +258,8 @@ export const getTopSpeakersLeaderboard = lazyCache(
       ...row,
     }))
   },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
+  1 * TimeUnits.HOUR,
+  10 * TimeUnits.MINUTE
 )
 
 export const getTopListenersLeaderboard = lazyCache(
@@ -271,8 +282,8 @@ export const getTopListenersLeaderboard = lazyCache(
       ...row,
     }))
   },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
+  1 * TimeUnits.HOUR,
+  10 * TimeUnits.MINUTE
 )
 
 export const getTopTeamsLeaderboard = lazyCache(
@@ -290,8 +301,8 @@ export const getTopTeamsLeaderboard = lazyCache(
       w3_points: Number(row.w3_points),
     }))
   },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
+  1 * TimeUnits.HOUR,
+  10 * TimeUnits.MINUTE
 )
 
 // use the leaderboard functionality in Stats and Challenge board
@@ -336,21 +347,21 @@ export default async function getLeaderboard({
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
           : getTopListenersLeaderboard)({
-            client_id,
-            challenge,
-            locale,
-            team_only: false,
-          })
+          client_id,
+          challenge,
+          locale,
+          team_only: false,
+        })
         break
       case 'members':
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
           : getTopListenersLeaderboard)({
-            client_id,
-            challenge,
-            locale,
-            team_only: true,
-          })
+          client_id,
+          challenge,
+          locale,
+          team_only: true,
+        })
         break
       case 'teams':
         leaderboard = await getTopTeamsLeaderboard(challenge)
