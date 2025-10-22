@@ -9,6 +9,7 @@ error-clip-upload-server = Le cargamento de ce clip falle ancora al servitor, re
 error-title-404 = Impossibile trovar iste pagina pro te.
 error-content-404 = Forsan nostre <homepageLink>pagina initial</homepageLink> pote adjutar? Pro poner un question, junge te al <matrixLink>chat del communitate Matrix</matrixLink>, survelia le problemas per <githubLink>GitHub</githubLink> o visita <discourseLink>nostre foros Discourse</discourseLink>.
 error-title-500 = Desolate, alco errate eveniva
+error-content-500 = Un error impreviste occurreva. Retenta plus tarde. Pro adjuta, junge te al <matrixLink>chat del communitate Matrix</matrixLink>, survelia le problemas per <githubLink>GitHub</githubLink> o visita <discourseLink>nostre foros Discourse</discourseLink>.
 error-title-502 = Connexion interrupte
 error-title-503 = Nos pati un inactivitate inexpectate
 error-content-503 = Le sito sera restabilite al plus tosto possibile. Pro le ultime informationes junge te al <matrixLink>chat del communitate Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink>nostre foros Discourse</discourseLink> pro inviar e surveliar problemas experimentate del sito.
