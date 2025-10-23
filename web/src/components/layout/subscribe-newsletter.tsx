@@ -1,50 +1,46 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { useState } from 'react';
-import { useAPI } from '../../hooks/store-hooks';
-import { trackGlobal } from '../../services/tracker';
-import URLS from '../../urls';
-import {
-  LocaleLink,
-  LocalizedGetAttribute,
-  useLocale,
-} from '../locale-helpers';
-import { CautionIcon, CheckIcon, OldPlayIcon } from '../ui/icons';
-import { LabeledCheckbox } from '../ui/ui';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { useState } from 'react'
+import { useAPI } from '../../hooks/store-hooks'
+import { trackGlobal } from '../../services/tracker'
+import URLS from '../../urls'
+import { LocaleLink, LocalizedGetAttribute, useLocale } from '../locale-helpers'
+import { CautionIcon, CheckIcon, OldPlayIcon } from '../ui/icons'
+import { LabeledCheckbox } from '../ui/ui'
 
-import './subscribe-newsletter.css';
+import './subscribe-newsletter.css'
 
 export default function SubscribeNewsletter() {
-  const api = useAPI();
-  const [locale] = useLocale();
-  const [email, setEmail] = useState('');
-  const [privacyAgreed, setPrivacyAgreed] = useState(false);
+  const api = useAPI()
+  const [locale] = useLocale()
+  const [email, setEmail] = useState('')
+  const [privacyAgreed, setPrivacyAgreed] = useState(false)
   const [status, setStatus] = useState<
     null | 'submitting' | 'submitted' | 'error'
-  >(null);
+  >(null)
 
   return (
     <form
       className="subscribe-newsletter"
       onSubmit={async e => {
-        e.preventDefault();
+        e.preventDefault()
 
         if (!privacyAgreed) {
-          setStatus('error');
-          return;
+          setStatus('error')
+          return
         }
 
-        setStatus('submitting');
+        setStatus('submitting')
         try {
-          await api.subscribeToNewsletter(email);
-          trackGlobal('footer-newsletter', locale);
-          setStatus('submitted');
+          await api.subscribeToNewsletter(email)
+          trackGlobal('footer-newsletter', locale)
+          setStatus('submitted')
         } catch (e) {
-          setStatus('error');
-          console.error(e);
+          setStatus('error')
+          console.error(e)
         }
       }}>
-      <Localized id="email-subscription-title-new">
+      <Localized id="email-subscription-title-v3">
         <div className="goal-title" />
       </Localized>
       <div className="submittable-field">
@@ -56,8 +52,8 @@ export default function SubscribeNewsletter() {
               name="email"
               value={email}
               onChange={event => {
-                setEmail(event.target.value);
-                setStatus(null);
+                setEmail(event.target.value)
+                setStatus(null)
               }}
               placeholder={label}
               required
@@ -92,11 +88,12 @@ export default function SubscribeNewsletter() {
           </Localized>
         }
         checked={privacyAgreed}
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         onChange={(event: any) => {
-          setStatus(null);
-          setPrivacyAgreed(event.target.checked);
+          setStatus(null)
+          setPrivacyAgreed(event.target.checked)
         }}
       />
     </form>
-  );
+  )
 }
