@@ -13,3 +13,5 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Zpět
 tag-page-shortcut-select-all = A
 select-all = Vybrat vše
+cs-tag-shortcuts-section-title = Využití klávesnice
+cs-tag-shortcuts-guideline-5 = <key>{ tag-page-shortcut-tag-undo }</key> { undo }
