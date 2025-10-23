@@ -555,8 +555,6 @@ export default class API {
         }),
       })
 
-      console.log(listResponse)
-
       response.json({ success: true })
     } catch (error) {
       console.error('Newsletter subscription failed:', error)
