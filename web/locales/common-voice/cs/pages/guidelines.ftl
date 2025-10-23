@@ -247,6 +247,10 @@ code-switching-dont-1 = Nepoužívejte příliš formální jazyk
 # Reviewing a Question
 code-switching-review-subheader = Kontrola otázek
 code-switching-review-intro = Ujistěte se, že otázka splňuje tato kritéria:
+code-switching-answer-header = Urážlivý obsah nebo citlivé informace
+code-switching-review-no-1 = Otázky, které mohou vyžadovat poskytnutí osobních údajů
+code-switching-review-no-2 = Dotazy, které by mohly obsahovat nenávistné či jinak zaujaté či urážlivé nálady
+code-switching-review-no-3 = Otázky, které mohou vést k tomu, že něčí sdílení napoví, že je velmi choulostivé
 # Answering a Question
 code-switching-answer-subheader = Odpovídání na otázku
 code-switching-answer-intro = Při odpovídání na otázku je cílem reagovat přirozeně – stejně jako v reálném rozhovoru. Chceme zachytit, jak se jazyky skutečně mísí v každodenní řeči.
