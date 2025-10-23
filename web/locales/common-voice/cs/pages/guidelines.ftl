@@ -271,3 +271,14 @@ code-switching-tagging-error-2 = Překlepy
 code-switching-tagging-error-3 = Slova napsaná v nesprávném pravopise
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Používání správného pravopisu pro každý jazyk
+code-switching-not-tag-proper-names-example-1 = Lidé: Maria, John
+code-switching-not-tag-proper-names-example-2 = Místa: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Značky/Organizace: Target, Burger King
+code-switching-not-tag-interjections-example-1 = „Eh“
+code-switching-not-tag-interjections-example-2 = „Noo“
+code-switching-not-tag-interjections-example-3 = „Hmm“
+code-switching-not-tag-interjections-example-4 = „Ehm“
+
+## Reporting Content
+
+reporting-content-subheader = Obecné pokyny
