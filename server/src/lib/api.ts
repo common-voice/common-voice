@@ -528,36 +528,53 @@ export default class API {
     response: Response,
     next: NextFunction
   ) => {
-    const { BASKET_API_KEY } = getConfig()
-    if (!BASKET_API_KEY) {
-      const basketError = new APIError('Unable to process request')
-      next(basketError)
-    }
+    try {
+      const email = request?.params?.email
+      if (!email) {
+        return response.sendStatus(StatusCodes.BAD_REQUEST)
+      }
 
-    const email = request?.params?.email
-    if (!email) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
-    const basketResponse = await sendRequest({
-      uri: Basket.BASKET_API_URL + '/news/subscribe/',
-      method: 'POST',
-      form: {
-        'api-key': BASKET_API_KEY,
-        newsletters: 'common-voice',
-        format: 'H',
-        lang: 'en',
-        email,
-        source_url: request.header('Referer'),
-        sync: 'Y',
-      },
-    })
-    const clientId = await UserClient.updateBasketToken(
-      email,
-      JSON.parse(basketResponse).token
-    )
-    await Basket.sync(clientId, true)
+      const sourceUrl = request.header('Referer')
+      const listUrl =
+        process.env.NODE_ENV === 'production'
+          ? 'https://abdri3ttkb.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
+          : 'https://kmq73rfvbh.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
 
-    response.json({})
+      // Make request to new API
+      const listResponse = await fetch(listUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          name: email, // Email because we don't collect
+          country: '', // Empty string because we don't collect
+          lang: 'en',
+          source_url: sourceUrl,
+        }),
+      })
+
+      console.log(listResponse)
+
+      response.json({ success: true })
+    } catch (error) {
+      console.error('Newsletter subscription failed:', error)
+
+      // Handle specific error cases
+      if (error.statusCode === 400) {
+        return response.status(StatusCodes.BAD_REQUEST).json({
+          error: 'Invalid email address or missing required fields',
+        })
+      } else if (error.statusCode === 429) {
+        return response.status(StatusCodes.TOO_MANY_REQUESTS).json({
+          error: 'Too many subscription attempts',
+        })
+      } else {
+        const apiError = new APIError('Failed to subscribe to newsletter')
+        next(apiError)
+      }
+    }
   }
 
   saveAvatar = async (
