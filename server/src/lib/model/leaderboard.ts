@@ -581,7 +581,7 @@ export default async function getLeaderboard({
     return prepareRows(leaderboard.slice(cursor[0], cursor[1]))
   }
 
-  if (leaderboard.length < 5) leaderboard = []
+  if (!leaderboard || leaderboard?.length < 5) leaderboard = []
 
   const userIndex = leaderboard.findIndex(row => row.client_id == client_id)
   const userRegion =
