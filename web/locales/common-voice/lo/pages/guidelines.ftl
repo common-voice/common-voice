@@ -310,7 +310,9 @@ code-switching-cleanup-4 = ໃສ່ເຄື່ອງໝາຍວັກຕອ�
 code-switching-cleanup-5 = ສົມມຸດວ່າທ່ານຮູ້ພາສາຂອງທຸກຄໍາ - tag ໂດຍອີງໃສ່ການນໍາໃຊ້.
 # Tagging
 code-switching-tagging-subheader = ແທັກ
+code-switching-tagging-error-1 = ເຄື່ອງໝາຍວັກຕອນ ຫຼື ຕົວພິມໃຫຍ່ບໍ່ຖືກຕ້ອງ
 code-switching-tagging-error-2 = ພິມຜິດ
+code-switching-tagging-error-3 = ຄໍາສັບທີ່ຂຽນໃນ orthography ທີ່ບໍ່ຖືກຕ້ອງ
 code-switching-pronunciation-explanation-example-1 = ພາສາອັງກິດ: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = ແອສປາໂຍນ: /ˈkable/
 # When Not to Tag Words
