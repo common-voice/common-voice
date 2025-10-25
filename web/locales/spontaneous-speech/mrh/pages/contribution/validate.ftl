@@ -15,3 +15,8 @@ validate-page-skip-button-shortcut = K
 
 validation-guidelines-title = Chhihthana
 validation-guideline-1 = Pôhpa nata azaopa kyh (e.g., mohzy, sôh a hneipazy) he hiah ma pi
+validation-guideline-2 =
+    No offensive, prejudiced remarks or sensitive questions
+    Ahryuchhiana, ahaomana palâsana tly ma  cvk amana naopa hiahrinazy y vei
+validation-guideline-3 = A thlâzi kaw ta mito châta novâhna a nao kaw,
+validation-guideline-4 = Châtlâh chyhtazy ta achhy theipa a châ
