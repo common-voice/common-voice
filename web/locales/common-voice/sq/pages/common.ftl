@@ -237,5 +237,7 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Grupe të reja të dhënash Common Voice</strong> tani mund të shkarkohen përjashtimisht përmes platformës tonë motër, Mozilla Data Collective. Ejani të përdorni mbi 300 grupe globale të dhënash, krijuar nga bashkësia, krijuar për bashkësinë.
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Hapet në skedë të re
