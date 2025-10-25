@@ -1,12 +1,13 @@
 ---
-name: New Language Localisation Request
+name: Add a language to Scripted Speech
 about: Request a language for localisation on Common Voice that is currently not available on Pontoon
 title: 'LOCALISATION REQUEST: '
-labels: 'Type: localisation'
-assignees: 'ftyers'
+labels: 'Localisation'
+type: task
+assignees: 'ftyers,bandrandr'
 ---
 
-# Welcome to the Common Voice Community !
+# Welcome to the Common Voice Community!
 
 > Common Voice aims to make speech technology accessible to everyone by building an open sourced dataset of labelled voice data that is representative of languages, variants and accents spoken across the world. This template helps us to know how your language could participate in the Common Voice Project. There are three sections of this form, once you have filled out a section please click the checkbox. If you have any issues please contact <commonvoice@mozilla.org>.
 
@@ -20,7 +21,7 @@ assignees: 'ftyers'
 
 **Language code**
 
-<!--- Please provide the ISO-639 code-->
+<!--- Please provide the ISO-639 codes (ISO-639-1 (if available) and/or ISO-639-3) -->
 
 **Language size**
 
@@ -28,7 +29,8 @@ assignees: 'ftyers'
 
 **Plural forms**
 
-<!--- How would you translate the following in this language?
+<!--- This info is necessary for setting up Pontoon for your language.
+How would you translate the following in this language?
 
 0 rocks
 1 rock
@@ -48,7 +50,9 @@ I see rocks on the ground
 
 **Pontoon manager**
 
-<!--- Please link to the Pontoon account of the person who should be listed as the community manager of this language. -->
+<!--- 
+Please link to the Pontoon account of the person who should be listed as the community manager of this language (it can be yourself).
+-->
 
 **Language Script**
 
@@ -83,6 +87,6 @@ I see rocks on the ground
 - [Mozilla Resources Reps](https://community.mozilla.org/en/groups/mozilla-reps-resources/) and [Reward, Enablement and Recognition](https://discourse.mozilla.org/t/recognition-rewards-and-contribution-pathways/84408) Schemes are an avenue for getting support.
 - We also have a [community support desk](https://discourse.mozilla.org/t/introducing-community-support-desk/88158) that happens bi-weekly on Thursday. -->
 
-1. [optional to share] Why do you want to take part in Common Voice ?
+1. [optional to share] Why do you want to take part in Common Voice?
 
-2. [optional to share] Would you like to have a follow-up conversation regarding community building ?
+2. [optional to share] Would you like to have a follow-up conversation regarding community building?
