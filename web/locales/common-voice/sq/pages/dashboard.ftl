@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
+activity-needed-calculation-fixed = 100 vetë, që regjistrojnë 100 togfjalësha në ditë, mund të prodhojnë 13 orë audio. Duke ruajtur këtë ritëm, 1000 orë mund të arrihen brenda 3 muajsh.
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?

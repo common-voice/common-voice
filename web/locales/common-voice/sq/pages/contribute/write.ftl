@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = Shtoni dhe Shqyrtoni Togfjalësh, Shtoni Pyetje,
 add-sentences-menu-item-tooltip = Shtoni togfjalësha në gjuhën tuaj
 review-sentences-menu-item-tooltip = Shqyrtoni togfjalësha në gjuhën tuaj
 add-questions-menu-item-tooltip = Shtoni pyetje në gjuhën tuaj
+review-questions-menu-item-tooltip = Shqyrtoni pyetje
 transcribe-audio-menu-item-tooltip = Transkriptoni incizime audio në gjuhën tuaj
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = Menu mundësish shkrimi
 add-sentences-menu-item-aria-label = Shtoni togfjalësha të rinj t’i lexojë bashkësie
 review-sentences-menu-item-aria-label = Shqyrtoni togfjalësh ekzistues të parashtruar nga bashkësia
 add-questions-menu-item-aria-label = Parashtroni pyetje të reja për t’i lexuar dhe përgjigjur bashkësia
+review-questions-menu-item-aria-label = Shqyrtoni dhe votoni për pyetje të reja të parashtruara nga bashkësia
 transcribe-audio-menu-item-aria-label = Transkriptoni si tekst incizime audio
