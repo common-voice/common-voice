@@ -578,4 +578,14 @@ export const VARIANTS: Variant[] = [
     variant_name: "Français d'Asie et des îles du Pacifique",
     variant_token: 'fr-asia',
   },
+  {
+    locale_name: 'abq',
+    variant_name: "Тlапlанта (ашвыуа)",
+    variant_token: 'abq-tapanta',
+  },
+  {
+    locale_name: 'abq',
+    variant_name: "Ащхъарауа",
+    variant_token: 'abq-ashkhara',
+  },
 ]
