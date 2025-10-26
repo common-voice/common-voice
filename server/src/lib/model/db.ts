@@ -517,17 +517,17 @@ export default class DB {
     // get cached clips for given language
     /*
     Real world measures over 7 days (for 10k records, 1 min cache dur, 3 min lock dur - which was causing trouble):
-    - Avg. query time: 2.98 secs - Worst case: 2 min 56 secs
+    - Avg. query time: 2.98 secs - Worst case: 2 min 56 secs (a later measure was 4.3 min)
     - Avg rows scanned: 434,741 - Avg rows returned: 9,243
     => Worst case is caused by large number of records which are not used at all (happens in prominent languages)...
     */
     const cachedClips: DBClip[] = await lazyCache(
       `new-clips-per-language-${locale_id}`,
       async () => {
-        return await this.getClipsToBeValidated(locale_id, 5000) // drop count from 10k to handle large variance
+        return await this.getClipsToBeValidated(locale_id, 10_000) // keep count at 10k
       },
-      2 * TimeUnits.MINUTE, // Increase cache duration from 1 min
-      45 * TimeUnits.SECOND // drop to a reasonable value, it was 3 min
+      10 * TimeUnits.MINUTE, // Increase cache duration considerably from 1 min
+      5 * TimeUnits.MINUTE // increase to handle worst case
     )()
 
     //filter out users own clips
