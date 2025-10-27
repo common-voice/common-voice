@@ -52,7 +52,7 @@
 
 #### Data Changes after current release
 
-- Add Abaza (`abq`) variants (Tapanta, Ashkhara) by [@bandrandr](https://github.com/bandrandr), thank you [@Gedumurat](https://github.com/Gedumurat) for the contributions. In [#5138](https://github.com/common-voice/common-voice/pull/5138) (in v1.153.4)
+- Add Abaza (`abq`) variants (Tapanta, Ashkhara) by [@bandrandr](https://github.com/bandrandr), thank you [@Gedumurat](https://github.com/Gedumurat) for the contributions. In [#5138](https://github.com/common-voice/common-voice/pull/5138) (in v1.153.5)
 
 #### Spontaneous Speech after current release
 

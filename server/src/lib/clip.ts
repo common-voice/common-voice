@@ -166,23 +166,23 @@ export default class Clip {
     Basket.sync(client_id).catch(e => console.error(e))
     const ret = challengeTokens.includes(challenge)
       ? {
-        glob: glob,
-        showFirstContributionToast: await earnBonus('first_contribution', [
-          challenge,
-          client_id,
-        ]),
-        hasEarnedSessionToast: await hasEarnedBonus(
-          'invite_contribute_same_session',
-          client_id,
-          challenge
-        ),
-        showFirstStreakToast: await earnBonus('three_day_streak', [
-          client_id,
-          client_id,
-          challenge,
-        ]),
-        challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-      }
+          glob: glob,
+          showFirstContributionToast: await earnBonus('first_contribution', [
+            challenge,
+            client_id,
+          ]),
+          hasEarnedSessionToast: await hasEarnedBonus(
+            'invite_contribute_same_session',
+            client_id,
+            challenge
+          ),
+          showFirstStreakToast: await earnBonus('three_day_streak', [
+            client_id,
+            client_id,
+            challenge,
+          ]),
+          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+        }
       : { glob }
     response.json(ret)
   }
@@ -197,7 +197,8 @@ export default class Clip {
     // so that a 400 is returned below
     const { headers } = request
     const client_id = request?.session?.user?.client_id
-    const sentenceId = headers['sentence-id'] as string || headers.sentence_id as string // TODO: Remove the second case in August 2025
+    const sentenceId =
+      (headers['sentence-id'] as string) || (headers.sentence_id as string) // TODO: Remove the second case in August 2025
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
@@ -208,6 +209,20 @@ export default class Clip {
         response,
         400,
         `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`,
+        ERRORS.MISSING_PARAM,
+        'clip'
+      )
+      return
+    }
+
+    // Audio content length validation
+    const contentLength = parseInt(headers['content-length'] || '0', 10)
+    if (!contentLength || contentLength === 0) {
+      this.clipSaveError(
+        headers,
+        response,
+        400,
+        'Empty audio data: content-length is 0',
         ERRORS.MISSING_PARAM,
         'clip'
       )
@@ -303,25 +318,25 @@ export default class Clip {
         const challenge = headers.challenge as ChallengeToken
         const ret = challengeTokens.includes(challenge)
           ? {
-            filePrefix: filePrefix,
-            showFirstContributionToast: await earnBonus(
-              'first_contribution',
-              [challenge, client_id]
-            ),
-            hasEarnedSessionToast: await hasEarnedBonus(
-              'invite_contribute_same_session',
-              client_id,
-              challenge
-            ),
-            // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-            // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-            showFirstStreakToast: await earnBonus('three_day_streak', [
-              client_id,
-              client_id,
-              challenge,
-            ]),
-            challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-          }
+              filePrefix: filePrefix,
+              showFirstContributionToast: await earnBonus(
+                'first_contribution',
+                [challenge, client_id]
+              ),
+              hasEarnedSessionToast: await hasEarnedBonus(
+                'invite_contribute_same_session',
+                client_id,
+                challenge
+              ),
+              // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
+              // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
+              showFirstStreakToast: await earnBonus('three_day_streak', [
+                client_id,
+                client_id,
+                challenge,
+              ]),
+              challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+            }
           : { filePrefix }
         response.json(ret)
       })
@@ -355,7 +370,8 @@ export default class Clip {
     if (!client_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    const ignoreClientVariant = Boolean(request.query.ignoreClientVariant) || false
+    const ignoreClientVariant =
+      Boolean(request.query.ignoreClientVariant) || false
     const count = Number(request.query.count) || 1
     const clips = await this.bucket
       .getRandomClips(client_id, locale, count, ignoreClientVariant)
