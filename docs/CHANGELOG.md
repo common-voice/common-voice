@@ -46,13 +46,20 @@
 - Feat/Fix: Refactor API endpoints and add some validation - Step-1, by [@moz-bozden](https://github.com/moz-bozden) in [#5129](https://github.com/common-voice/common-voice/pull/5129) (in v1.153.2)
 - Feat/Fix: Redis connection loss problems in LazyCache and make it resilient to connection losses by health monitoring and switching to memory-cache, by [@moz-bozden](https://github.com/moz-bozden) in [#5107](https://github.com/common-voice/common-voice/pull/5107) (in v1.153.1)
 - Feat/Fix: Redis connection loss problems in LazyCache and make it resilient to connection losses by health monitoring and switching to memory-cache, by [@moz-bozden](https://github.com/moz-bozden) in [#5107](https://github.com/common-voice/common-voice/pull/5107) (in v1.153.1)
+- Fix: Re-adjust clip selection durations to prevent cache lock release issues, by [@moz-bozden](https://github.com/moz-bozden) in [#5142](https://github.com/common-voice/common-voice/pull/5142) (in v1.153.4)
+- Fix: Add typing for parsing fluent elements, by [@moz-bozden](https://github.com/moz-bozden) in [#5126](https://github.com/common-voice/common-voice/pull/5126) (in v1.153.4)
 - Fix: Parsing of some language codes failing, which were populating the new english_name field in the new endpoint, by [@moz-bozden](https://github.com/moz-bozden) in [#5123](https://github.com/common-voice/common-voice/pull/5123) (in v1.153.1)
 
 #### Data Changes after current release
 
+- Add Abaza (`abq`) variants (Tapanta, Ashkhara) by [@bandrandr](https://github.com/bandrandr), thank you [@Gedumurat](https://github.com/Gedumurat) for the contributions. In [#5138](https://github.com/common-voice/common-voice/pull/5138) (in v1.153.4)
+
 #### Spontaneous Speech after current release
 
 ##### SS Data Changes after current release
+
+- Add 145 Tatar (`tt`) questions by [@bandrandr](https://github.com/bandrandr) in [#492](https://github.com/common-voice/spontaneous-speech/pull/492) (in v1.153.4)
+- Add 60 Tachelhit (`shi`) questions by [@bandrandr](https://github.com/bandrandr) in [#491](https://github.com/common-voice/spontaneous-speech/pull/491) (in v1.153.4)
 
 ---
 

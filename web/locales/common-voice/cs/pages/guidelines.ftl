@@ -247,6 +247,10 @@ code-switching-dont-1 = Nepoužívejte příliš formální jazyk
 # Reviewing a Question
 code-switching-review-subheader = Kontrola otázek
 code-switching-review-intro = Ujistěte se, že otázka splňuje tato kritéria:
+code-switching-answer-header = Urážlivý obsah nebo citlivé informace
+code-switching-review-no-1 = Otázky, které mohou vyžadovat poskytnutí osobních údajů
+code-switching-review-no-2 = Dotazy, které by mohly obsahovat nenávistné či jinak zaujaté či urážlivé nálady
+code-switching-review-no-3 = Otázky, které mohou vést k tomu, že něčí sdílení napoví, že je velmi choulostivé
 # Answering a Question
 code-switching-answer-subheader = Odpovídání na otázku
 code-switching-answer-intro = Při odpovídání na otázku je cílem reagovat přirozeně – stejně jako v reálném rozhovoru. Chceme zachytit, jak se jazyky skutečně mísí v každodenní řeči.
@@ -267,3 +271,14 @@ code-switching-tagging-error-2 = Překlepy
 code-switching-tagging-error-3 = Slova napsaná v nesprávném pravopise
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Používání správného pravopisu pro každý jazyk
+code-switching-not-tag-proper-names-example-1 = Lidé: Maria, John
+code-switching-not-tag-proper-names-example-2 = Místa: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Značky/Organizace: Target, Burger King
+code-switching-not-tag-interjections-example-1 = „Eh“
+code-switching-not-tag-interjections-example-2 = „Noo“
+code-switching-not-tag-interjections-example-3 = „Hmm“
+code-switching-not-tag-interjections-example-4 = „Ehm“
+
+## Reporting Content
+
+reporting-content-subheader = Obecné pokyny
