@@ -13,3 +13,5 @@ contribution-picker-label = Принос за набора от данни на 
 contribution-picker-tooltip-text = Променя езиковия набор от данни, за който допринасяте
 coming-soon = Очаквайте още езици скоро
 media-recorder-api-not-supported = Приложният програмен интерфейс (API) на MediaRecorder не се поддържа от вашия четец.
+# Toast message that is displayed when an item is skipped
+skipped = Пропуснат
