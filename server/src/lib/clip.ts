@@ -166,23 +166,23 @@ export default class Clip {
     Basket.sync(client_id).catch(e => console.error(e))
     const ret = challengeTokens.includes(challenge)
       ? {
-        glob: glob,
-        showFirstContributionToast: await earnBonus('first_contribution', [
-          challenge,
-          client_id,
-        ]),
-        hasEarnedSessionToast: await hasEarnedBonus(
-          'invite_contribute_same_session',
-          client_id,
-          challenge
-        ),
-        showFirstStreakToast: await earnBonus('three_day_streak', [
-          client_id,
-          client_id,
-          challenge,
-        ]),
-        challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-      }
+          glob: glob,
+          showFirstContributionToast: await earnBonus('first_contribution', [
+            challenge,
+            client_id,
+          ]),
+          hasEarnedSessionToast: await hasEarnedBonus(
+            'invite_contribute_same_session',
+            client_id,
+            challenge
+          ),
+          showFirstStreakToast: await earnBonus('three_day_streak', [
+            client_id,
+            client_id,
+            challenge,
+          ]),
+          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+        }
       : { glob }
     response.json(ret)
   }
@@ -197,7 +197,8 @@ export default class Clip {
     // so that a 400 is returned below
     const { headers } = request
     const client_id = request?.session?.user?.client_id
-    const sentenceId = headers['sentence-id'] as string || headers.sentence_id as string // TODO: Remove the second case in August 2025
+    const sentenceId =
+      (headers['sentence-id'] as string) || (headers.sentence_id as string) // TODO: Remove the second case in August 2025
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
@@ -245,6 +246,41 @@ export default class Clip {
       return
     } else {
       let audioInput = request
+      let hasErrored = false
+      let transcoderStream: any = null
+      let timeoutHandle: NodeJS.Timeout
+
+      // Set up a timeout for the entire operation
+      timeoutHandle = setTimeout(() => {
+        if (!hasErrored && !response.headersSent) {
+          hasErrored = true
+          console.error('Clip processing timeout after 30 seconds')
+
+          // Clean up streams
+          if (transcoderStream) {
+            transcoderStream.destroy()
+          }
+          if (pass && !pass.destroyed) {
+            pass.destroy()
+          }
+          if (
+            audioInput &&
+            audioInput !== request &&
+            typeof audioInput.destroy === 'function'
+          ) {
+            audioInput.destroy()
+          }
+
+          this.clipSaveError(
+            headers,
+            response,
+            504,
+            'Processing timeout',
+            'TIMEOUT',
+            'clip'
+          )
+        }
+      }, 30000) // 30 second timeout
 
       if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
         // aac data comes wrapped in an mpeg container, which is incompatible with
@@ -257,93 +293,270 @@ export default class Clip {
         const audioStream = Readable.from(request)
 
         audioInput = converter.createBufferedInputStream()
+
+        // Handle potential errors in the buffered input stream
+        audioInput.on('error', (err: Error) => {
+          if (!hasErrored) {
+            hasErrored = true
+            clearTimeout(timeoutHandle)
+            console.error('Buffered input stream error:', err)
+
+            if (transcoderStream) {
+              transcoderStream.destroy()
+            }
+            if (pass && !pass.destroyed) {
+              pass.destroy()
+            }
+
+            if (!response.headersSent) {
+              this.clipSaveError(
+                headers,
+                response,
+                500,
+                'Stream buffer error',
+                err.message || 'BUFFER_ERROR',
+                'clip'
+              )
+            }
+          }
+        })
+
         audioStream.pipe(audioInput)
       }
 
       const pass = new PassThrough()
-
       let chunks: any = []
 
-      pass.on('error', (error: string) => {
-        this.clipSaveError(
-          headers,
-          response,
-          500,
-          `${error}`,
-          `ffmpeg ${error}`,
-          'clip'
-        )
-        return
+      pass.on('error', (error: Error) => {
+        if (!hasErrored) {
+          hasErrored = true
+          clearTimeout(timeoutHandle)
+          console.error('PassThrough stream error:', error)
+
+          // Clean up other streams
+          if (transcoderStream) {
+            transcoderStream.destroy()
+          }
+          if (
+            audioInput &&
+            audioInput !== request &&
+            typeof audioInput.destroy === 'function'
+          ) {
+            audioInput.destroy()
+          }
+
+          if (!response.headersSent) {
+            this.clipSaveError(
+              headers,
+              response,
+              500,
+              `${error}`,
+              `ffmpeg ${error}`,
+              'clip'
+            )
+          }
+        }
       })
+
       pass.on('data', function (chunk: any) {
         chunks.push(chunk)
       })
+
       pass.on('finish', async () => {
-        const buffer = Buffer.concat(chunks)
-        const durationInSec = await calcMp3Duration(buffer)
+        clearTimeout(timeoutHandle)
 
-        console.log(`clip written to s3 ${metadata}`)
+        // Don't process if we've already errored
+        if (hasErrored) {
+          console.log('Skipping finish handler due to previous error')
+          return
+        }
 
-        await this.model.saveClip({
-          client_id: client_id,
-          localeId: sentence.locale_id,
-          original_sentence_id: sentenceId,
-          path: clipFileName,
-          sentence: sentence.text,
-          duration: durationInSec * 1000,
-        })
-        await Awards.checkProgress(client_id, { id: sentence.locale_id })
+        try {
+          const buffer = Buffer.concat(chunks)
+          const durationInSec = await calcMp3Duration(buffer)
 
-        await checkGoalsAfterContribution(client_id, {
-          id: sentence.locale_id,
-        })
+          console.log(`clip written to s3 ${metadata}`)
 
-        Basket.sync(client_id).catch(e => console.error(e))
+          await this.model.saveClip({
+            client_id: client_id,
+            localeId: sentence.locale_id,
+            original_sentence_id: sentenceId,
+            path: clipFileName,
+            sentence: sentence.text,
+            duration: durationInSec * 1000,
+          })
+          await Awards.checkProgress(client_id, { id: sentence.locale_id })
 
-        const challenge = headers.challenge as ChallengeToken
-        const ret = challengeTokens.includes(challenge)
-          ? {
-            filePrefix: filePrefix,
-            showFirstContributionToast: await earnBonus(
-              'first_contribution',
-              [challenge, client_id]
-            ),
-            hasEarnedSessionToast: await hasEarnedBonus(
-              'invite_contribute_same_session',
-              client_id,
-              challenge
-            ),
-            // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-            // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-            showFirstStreakToast: await earnBonus('three_day_streak', [
-              client_id,
-              client_id,
-              challenge,
-            ]),
-            challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+          await checkGoalsAfterContribution(client_id, {
+            id: sentence.locale_id,
+          })
+
+          Basket.sync(client_id).catch(e => console.error(e))
+
+          const challenge = headers.challenge as ChallengeToken
+          const ret = challengeTokens.includes(challenge)
+            ? {
+                filePrefix: filePrefix,
+                showFirstContributionToast: await earnBonus(
+                  'first_contribution',
+                  [challenge, client_id]
+                ),
+                hasEarnedSessionToast: await hasEarnedBonus(
+                  'invite_contribute_same_session',
+                  client_id,
+                  challenge
+                ),
+                // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
+                // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
+                showFirstStreakToast: await earnBonus('three_day_streak', [
+                  client_id,
+                  client_id,
+                  challenge,
+                ]),
+                challengeEnded: await this.model.db.hasChallengeEnded(
+                  challenge
+                ),
+              }
+            : { filePrefix }
+
+          if (!response.headersSent) {
+            response.json(ret)
           }
-          : { filePrefix }
-        response.json(ret)
+        } catch (err) {
+          console.error('Error in finish handler:', err)
+          if (!hasErrored && !response.headersSent) {
+            hasErrored = true
+            this.clipSaveError(
+              headers,
+              response,
+              500,
+              'Processing error',
+              err.message || 'FINISH_ERROR',
+              'clip'
+            )
+          }
+        }
       })
 
       try {
-        const audioOutput = new Transcoder(audioInput)
+        // Create the transcoder but don't pipe yet
+        const transcoder = new Transcoder(audioInput)
           .audioCodec('mp3')
           .format('mp3')
           .channels(1)
           .sampleRate(32000)
-          .stream()
-          .pipe(pass)
+
+        transcoderStream = transcoder.stream()
+
+        // Handle transcoder stream errors
+        transcoderStream.on('error', (err: Error) => {
+          if (!hasErrored) {
+            hasErrored = true
+            clearTimeout(timeoutHandle)
+            console.error('Transcoder stream error:', err)
+
+            // Destroy the PassThrough stream to propagate the error
+            if (pass && !pass.destroyed) {
+              pass.destroy(err)
+            }
+
+            // Clean up input stream if needed
+            if (
+              audioInput &&
+              audioInput !== request &&
+              typeof audioInput.destroy === 'function'
+            ) {
+              audioInput.destroy()
+            }
+
+            if (!response.headersSent) {
+              this.clipSaveError(
+                headers,
+                response,
+                500,
+                'Transcoding failed',
+                err.message || 'TRANSCODE_ERROR',
+                'clip'
+              )
+            }
+          }
+        })
+
+        // Now pipe the transcoder stream to pass
+        const audioOutput = transcoderStream.pipe(pass)
 
         await pipe(
           streamUploadToBucket,
           Id.ap(getConfig().CLIP_BUCKET_NAME),
           Id.ap(clipFileName),
           Id.ap(audioOutput),
-          TE.getOrElse((err: Error) => T.of(console.log(err)))
+          TE.getOrElse((err: Error) => {
+            if (!hasErrored) {
+              hasErrored = true
+              clearTimeout(timeoutHandle)
+              console.error('S3 upload error:', err)
+
+              // Clean up streams
+              if (transcoderStream) {
+                transcoderStream.destroy()
+              }
+              if (pass && !pass.destroyed) {
+                pass.destroy()
+              }
+              if (
+                audioInput &&
+                audioInput !== request &&
+                typeof audioInput.destroy === 'function'
+              ) {
+                audioInput.destroy()
+              }
+
+              if (!response.headersSent) {
+                this.clipSaveError(
+                  headers,
+                  response,
+                  500,
+                  'Upload failed',
+                  err.message || 'UPLOAD_ERROR',
+                  'clip'
+                )
+              }
+            }
+            return T.of(undefined)
+          })
         )()
       } catch (err) {
-        console.error('Failed transcoding step with error:', err)
+        if (!hasErrored) {
+          hasErrored = true
+          clearTimeout(timeoutHandle)
+          console.error('Failed transcoding step with error:', err)
+
+          // Clean up streams
+          if (transcoderStream) {
+            transcoderStream.destroy()
+          }
+          if (pass && !pass.destroyed) {
+            pass.destroy()
+          }
+          if (
+            audioInput &&
+            audioInput !== request &&
+            typeof audioInput.destroy === 'function'
+          ) {
+            audioInput.destroy()
+          }
+
+          if (!response.headersSent) {
+            this.clipSaveError(
+              headers,
+              response,
+              500,
+              'Transcoding initialization failed',
+              err.message || 'INIT_ERROR',
+              'clip'
+            )
+          }
+        }
       }
     }
   }
@@ -355,7 +568,8 @@ export default class Clip {
     if (!client_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    const ignoreClientVariant = Boolean(request.query.ignoreClientVariant) || false
+    const ignoreClientVariant =
+      Boolean(request.query.ignoreClientVariant) || false
     const count = Number(request.query.count) || 1
     const clips = await this.bucket
       .getRandomClips(client_id, locale, count, ignoreClientVariant)
