@@ -16,6 +16,7 @@ import { streamUploadToBucket } from '../infrastructure/storage/storage'
 import { pipe } from 'fp-ts/lib/function'
 import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts'
 import { Clip as ClientClip } from 'common'
+import { transcodeToMp3 } from './ffmpeg-transcoder'
 import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
@@ -23,7 +24,6 @@ import {
 import { StatusCodes } from 'http-status-codes'
 
 const { promisify } = require('util')
-const Transcoder = require('stream-transcoder')
 const { Converter } = require('ffmpeg-stream')
 const { Readable, PassThrough } = require('stream')
 const mp3Duration = require('mp3-duration')
@@ -338,25 +338,49 @@ export default class Clip {
               challengeEnded: await this.model.db.hasChallengeEnded(challenge),
             }
           : { filePrefix }
+        if (response.headersSent) {
+          return
+        }
         response.json(ret)
       })
 
       try {
-        const audioOutput = new Transcoder(audioInput)
-          .audioCodec('mp3')
-          .format('mp3')
-          .channels(1)
-          .sampleRate(32000)
-          .stream()
-          .pipe(pass)
+        const {
+          stream: transcodedStream,
+          completed: transcodeCompleted,
+          childProcess: ffmpegProcess,
+        } = transcodeToMp3(audioInput)
 
-        await pipe(
+        const abortHandler = () => {
+          if (!ffmpegProcess.killed) {
+            ffmpegProcess.kill('SIGKILL')
+          }
+          request.removeListener('aborted', abortHandler)
+        }
+
+        request.on('aborted', abortHandler)
+        ffmpegProcess.once('close', () => {
+          request.removeListener('aborted', abortHandler)
+        })
+        ffmpegProcess.once('error', () => {
+          request.removeListener('aborted', abortHandler)
+        })
+
+        transcodedStream.on('error', error => {
+          pass.emit('error', error)
+        })
+
+        transcodedStream.pipe(pass)
+
+        const uploadTask = pipe(
           streamUploadToBucket,
           Id.ap(getConfig().CLIP_BUCKET_NAME),
           Id.ap(clipFileName),
-          Id.ap(audioOutput),
+          Id.ap(pass),
           TE.getOrElse((err: Error) => T.of(console.log(err)))
         )()
+
+        await Promise.all([uploadTask, transcodeCompleted])
       } catch (err) {
         console.error('Failed transcoding step with error:', err)
       }
