@@ -62,6 +62,10 @@ on = Ativu
 help-accent = Ti serbit agiudu cun s'atzentu?
 help-accent-explanation = S'atzentu est sa manera comente pronùntzias is faeddos. Podet èssere influidu dae su logu in ue as bìvidu, àteras limbas chi chistionas e meda àteras cosas. Podes cumpartzire cale si siat informatzione chi cunsideras rilevante inoghe.
 help-variants = Ti serbit agiudu cun is variedades?
+help-variants-explanation = Is variedades sunt formas ispetzìficas de una limba. A esempru, cumpartzidas intre chie bivet in una comunidade o localidade. A bortas, ddi narant dialetos.
+help-sex-or-gender-changes = Ti serbit agiudu cun is modìficas de sessu o gènere?
+variant-contribution-option-1 = Ammustra·mi fràsias e registratziones dae cale si siat variedade de sa limba mia
+variant-contribution-option-2 = Ammustra·mi fràsias e registratziones dae sa variedade mia isceti
 # Genders
 male_masculine = Òmine/Maschile
 female_feminine = Fèmina/feminile
