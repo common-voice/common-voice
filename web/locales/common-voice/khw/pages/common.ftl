@@ -201,6 +201,8 @@ lke = کینائی
 lld = لادِن
 ln = لنگالا
 lo = لاو
+lrk = لووارکی
+lrl = اچومی
 lss = لاسی
 lt = لیتھوینئین
 ltg = لاتگالئین
@@ -356,6 +358,7 @@ xhe = کترانی
 xka = کلکوٹی
 xmf = منگریلین
 yaq = یاقوی
+ydg = یدغا
 yi = یدیش
 yo = یوروبا
 yue = کنتونیسی
@@ -399,6 +402,12 @@ email-opt-in-info-sub-with-challenge = مہ تین ہݰ ای میل گیانی �
 email-opt-in-privacy-v2 = ای میل جاری ستو قبول کوریکو ہیہ لوو واضح ہوئے کہ موزیلا ہمی معلوماتان سنبال کی اریر تہ تین قبول کیچہ کی موزیلو <privacyLink> راز دریو پالیسیا</privacyLink> تفصیل شیر۔
 indicates-required = کیا ژاغا کی (*) اوشوئے ہسے ضروری
 not-available-abbreviation = لاگو نو
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = کاپی
+# Text shown on a button that can be clicked to cancel an action
+cancel = منسوخ
+# Text shown on a button that can be clicked to delete an item
+delete = بوغاوے
 
 ## Donate banner
 
