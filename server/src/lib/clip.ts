@@ -16,18 +16,15 @@ import { streamUploadToBucket } from '../infrastructure/storage/storage'
 import { pipe } from 'fp-ts/lib/function'
 import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts'
 import { Clip as ClientClip } from 'common'
-import { transcodeToMp3 } from './ffmpeg-transcoder'
+import { createMp3TranscodeJob } from './ffmpeg-transcoder'
 import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
 } from '../application/repository/variant-repository'
 import { StatusCodes } from 'http-status-codes'
 
-const { promisify } = require('util')
 const { Converter } = require('ffmpeg-stream')
-const { Readable, PassThrough } = require('stream')
-const mp3Duration = require('mp3-duration')
-const calcMp3Duration = promisify(mp3Duration)
+const { Readable } = require('stream')
 
 enum ERRORS {
   MISSING_PARAM = 'MISSING_PARAM',
@@ -275,27 +272,39 @@ export default class Clip {
         audioStream.pipe(audioInput)
       }
 
-      const pass = new PassThrough()
+      const transcodeJob = createMp3TranscodeJob(audioInput)
 
-      let chunks: any = []
+      const abortHandler = () => {
+        transcodeJob.abort()
+        request.removeListener('aborted', abortHandler)
+      }
 
-      pass.on('error', (error: string) => {
-        this.clipSaveError(
-          headers,
-          response,
-          500,
-          `${error}`,
-          `ffmpeg ${error}`,
-          'clip'
-        )
-        return
-      })
-      pass.on('data', function (chunk: any) {
-        chunks.push(chunk)
-      })
-      pass.on('finish', async () => {
-        const buffer = Buffer.concat(chunks)
-        const durationInSec = await calcMp3Duration(buffer)
+      request.on('aborted', abortHandler)
+
+      try {
+        const uploadTask = pipe(
+          streamUploadToBucket,
+          Id.ap(getConfig().CLIP_BUCKET_NAME),
+          Id.ap(clipFileName),
+          Id.ap(transcodeJob.outputStream),
+          TE.getOrElse((err: Error) => T.of(console.log(err)))
+        )()
+
+        const durationPromise = transcodeJob.durationSeconds.catch(err => {
+          console.error('Failed to determine clip duration with ffprobe:', err)
+          return null
+        })
+
+        const [, , durationInSec] = await Promise.all([
+          uploadTask,
+          transcodeJob.transcodeCompleted,
+          durationPromise,
+        ])
+
+        const durationInMs =
+          durationInSec != null && Number.isFinite(durationInSec)
+            ? Math.round(durationInSec * 1000)
+            : 0
 
         console.log(`clip written to s3 ${metadata}`)
 
@@ -305,7 +314,7 @@ export default class Clip {
           original_sentence_id: sentenceId,
           path: clipFileName,
           sentence: sentence.text,
-          duration: durationInSec * 1000,
+          duration: durationInMs,
         })
         await Awards.checkProgress(client_id, { id: sentence.locale_id })
 
@@ -338,51 +347,26 @@ export default class Clip {
               challengeEnded: await this.model.db.hasChallengeEnded(challenge),
             }
           : { filePrefix }
-        if (response.headersSent) {
-          return
+        if (!response.headersSent) {
+          response.json(ret)
         }
-        response.json(ret)
-      })
-
-      try {
-        const {
-          stream: transcodedStream,
-          completed: transcodeCompleted,
-          childProcess: ffmpegProcess,
-        } = transcodeToMp3(audioInput)
-
-        const abortHandler = () => {
-          if (!ffmpegProcess.killed) {
-            ffmpegProcess.kill('SIGKILL')
-          }
-          request.removeListener('aborted', abortHandler)
-        }
-
-        request.on('aborted', abortHandler)
-        ffmpegProcess.once('close', () => {
-          request.removeListener('aborted', abortHandler)
-        })
-        ffmpegProcess.once('error', () => {
-          request.removeListener('aborted', abortHandler)
-        })
-
-        transcodedStream.on('error', error => {
-          pass.emit('error', error)
-        })
-
-        transcodedStream.pipe(pass)
-
-        const uploadTask = pipe(
-          streamUploadToBucket,
-          Id.ap(getConfig().CLIP_BUCKET_NAME),
-          Id.ap(clipFileName),
-          Id.ap(pass),
-          TE.getOrElse((err: Error) => T.of(console.log(err)))
-        )()
-
-        await Promise.all([uploadTask, transcodeCompleted])
       } catch (err) {
+        transcodeJob.abort(err instanceof Error ? err : undefined)
         console.error('Failed transcoding step with error:', err)
+        if (!response.headersSent) {
+          const message =
+            err instanceof Error ? err.message : String(err ?? 'Unknown error')
+          this.clipSaveError(
+            headers,
+            response,
+            500,
+            `${message}`,
+            `ffmpeg ${message}`,
+            'clip'
+          )
+        }
+      } finally {
+        request.removeListener('aborted', abortHandler)
       }
     }
   }
