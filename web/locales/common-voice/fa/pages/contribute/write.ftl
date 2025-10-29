@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جملات افزوده و بازبینی کنی
 add-sentences-menu-item-tooltip = جملاتی به زبان خود اضافه کنید
 review-sentences-menu-item-tooltip = جملاتی در زبان خود را بررسی کنید
 add-questions-menu-item-tooltip = پرسش‌هایی را به زبان خود اضافه کنید
+review-questions-menu-item-tooltip = پرسش‌های زبان خود را بررسی کنید
 transcribe-audio-menu-item-tooltip = صداهای ضبط‌شده‌ای به زبان خود را به متن درآورید
 
 ## MENU ITEM ARIA LABELS

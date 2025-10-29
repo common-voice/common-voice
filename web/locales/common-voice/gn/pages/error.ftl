@@ -8,6 +8,7 @@ error-clip-upload = Eikutúvo ndoikoporãi, ¿ejapojeýnte ag̃amieve?
 error-clip-upload-server = Eikutúvo ndoikopái mba’e’okápe, ¿Emyanyhẽjey kuatiarogue térã eha’ãjey ag̃amieve?
 error-title-404 = Ndorojuhúi upe togue rehekáva.
 error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũha</homepageLink>-pe reikotevẽva. Eporandu hag̃ua, eikemína <matrixLink>Pytyvõhára Aty Ñemongetarenda’i</matrixLink>-pe, ehechami ehóvo apañuái oikóva <githubLink>GitHub</githubLink>-pe térã eikemi <discourseLink>ore Ñemongetaguasu rendakuéra</discourseLink>-pe.
+error-title-500 = Che ñyrõmína, oĩhína osẽvaíva
 error-title-502 = Jeike oñemondohóva
 error-title-503 = Ore apañuái ko’ag̃aite, ho’ávaicha mohendahavusu
 error-content-503 = Ñandutirogue oĩjeýta vokoieténte. Eikuaasevéramo, eikemi <matrixLink>Atyrusu ñemongeta renda</matrixLink>-pe térã <githubLink>GitHub</githubLink> ỹramo katu <discourseLink>Ñomongetaguasu renda</discourseLink>pe eñeñandukami hag̃ua rejuhúramo apañuái.
