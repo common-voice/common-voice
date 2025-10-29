@@ -350,6 +350,8 @@ export default class API {
       )
 
     if (clientPrefersVariant) {
+      // we select max 500 sentences among max 1000 random ones
+      // Then drop what the user interacted with
       const getVariantSentences = pipe(
         getVariantSentencesToRecordQueryHandler,
         Id.ap(fetchSentenceIdsThatUserInteractedWith),
@@ -377,7 +379,8 @@ export default class API {
         )
       )()
 
-      return response.json(sentences)
+      // Finally return what is requested by count
+      return response.json(sentences.slice(0, count))
     }
 
     const sentences = await this.model.findEligibleSentences(

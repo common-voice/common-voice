@@ -114,6 +114,7 @@ gl = Galicia
 gn = Guarani
 gom = Goan Konkani
 gos = Gronings
+gsw = Alsatian
 gu-IN = Gujarati
 guc = Wayuunaiki
 gv = Manx
