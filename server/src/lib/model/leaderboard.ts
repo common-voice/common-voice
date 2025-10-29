@@ -19,7 +19,7 @@ const db = getMySQLInstance()
  * We are getting all data with language attached and cache
  * Then extract locale based data in code on demand
  * The main bottleneck was number of scanned rows and attached IO time
- * With the added indexes, this will drop coonsiderably
+ * With the added indexes, this will drop considerably
  *
  * - On FE by default ALL will be shown, language based ones are on demand
  * - We can know fetch duration of ALL, but per language they differ too much
@@ -46,6 +46,7 @@ async function getAllClipLeaderboardData(): Promise<any[]> {
   `
 
   const [rows] = await db.query(query)
+  // TODO - remove this after some time
   console.log(`Clip Leaderboard rows = ${rows.length}`)
   return rows
 }
@@ -69,6 +70,7 @@ async function getAllVoteLeaderboardData(): Promise<any[]> {
   `
 
   const [rows] = await db.query(query)
+  // TODO - remove this after some time
   console.log(`Vote Leaderboard rows = ${rows.length}`)
   return rows
 }
@@ -212,99 +214,6 @@ const getLocaleVoteLeaderboard = (locale: string) => {
     5 * TimeUnits.SECOND
   )()
 }
-
-// KEEP OLD IMPLEMENTATION FOR NOW
-
-// async function getClipLeaderboard(locale?: string): Promise<any[]> {
-//   const params: { locale_id?: number } = {}
-//   let localeCondition = ''
-//   if (locale) {
-//     localeCondition = 'AND clips.locale_id = :locale_id'
-//     params.locale_id = await getLocaleId(locale) // Only add param if needed
-//   }
-
-//   const query = `
-//     SELECT user_clients.client_id,
-//             avatar_url,
-//             avatar_clip_url,
-//             username,
-//             COUNT(clips.id) AS total
-//       FROM user_clients
-//       LEFT JOIN clips ON user_clients.client_id = clips.client_id
-//           WHERE visible = 1
-//           ${localeCondition}
-//       GROUP BY client_id
-//         HAVING total > 0
-//       ORDER BY total DESC
-//     `
-
-//   const [rows] = await db.query(query, params)
-//   return rows
-// }
-
-// async function getVoteLeaderboard(locale?: string): Promise<any[]> {
-//   const params: { locale_id?: number } = {}
-//   let localeCondition = ''
-//   if (locale) {
-//     localeCondition = 'AND clips.locale_id = :locale_id'
-//     params.locale_id = await getLocaleId(locale) // Only add param if needed
-//   }
-//   const query = `
-//     SELECT user_clients.client_id,
-//            avatar_url,
-//            avatar_clip_url,
-//            username,
-//            count(votes.id) as total
-//     FROM user_clients
-//     LEFT JOIN votes ON user_clients.client_id = votes.client_id
-//     LEFT JOIN clips ON votes.clip_id = clips.id
-//         WHERE visible = 1
-//         ${localeCondition}
-//     GROUP BY client_id
-//       HAVING total > 0
-//     ORDER BY total DESC
-//   `
-//   const [rows] = await db.query(query, params)
-//   return rows
-// }
-
-// const getFullClipLeaderboard = (locale?: string) => {
-//   const lockTtl = locale
-//     ? 60 * TimeUnits.SECOND // With locale - avg. measured 5 sec - worst 1.1 min!!! => dropped from 80 with added indexes
-//     : 3 * TimeUnits.MINUTE // Without locale - avg. measured 2.1 min - worst 4.7!!! => dropped from 5 with added indexes
-//   const cacheTtl = locale
-//     ? 1 * TimeUnits.HOUR // With locale
-//     : 2 * TimeUnits.HOUR // Without locale
-
-//   return lazyCache(
-//     `clip-leaderboard-${locale || 'global'}`,
-//     async () => {
-//       const leaderboard = await getClipLeaderboard(locale)
-//       return leaderboard.map((row, i) => ({ position: i, ...row }))
-//     },
-//     cacheTtl,
-//     lockTtl
-//   )()
-// }
-
-// const getFullVoteLeaderboard = (locale?: string) => {
-//   const lockTtl = locale
-//     ? 3 * TimeUnits.MINUTE // With locale - avg. measured 21.2 sec - worst 3.5 min!!! => dropped from 4 with added indexes
-//     : 6 * TimeUnits.MINUTE // Without locale - avg. measured 8.4 min - worst 17.1 min!!! => dropped from 20 with added indexes
-//   const cacheTtl = locale
-//     ? 1 * TimeUnits.HOUR // With locale
-//     : 2 * TimeUnits.HOUR // Without locale
-
-//   return lazyCache(
-//     `vote-leaderboard-${locale || 'global'}`,
-//     async () => {
-//       const leaderboard = await getVoteLeaderboard(locale)
-//       return leaderboard.map((row, i) => ({ position: i, ...row }))
-//     },
-//     cacheTtl,
-//     lockTtl
-//   )()
-// }
 
 // NOTE: The top-related SQLs
 // 1) think the huge SQL as a process of adding aggregated attributes to user_clients rows:
@@ -539,10 +448,6 @@ export default async function getLeaderboard({
 
   let leaderboard = []
   if (dashboard == 'stats') {
-    // OLD VERSION - KEEP FOR NOW
-    // leaderboard = await (type == 'clip'
-    //   ? getFullClipLeaderboard
-    //   : getFullVoteLeaderboard)(locale)
     leaderboard = await (type == 'clip'
       ? locale
         ? getLocaleClipLeaderboard(locale)

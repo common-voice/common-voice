@@ -14,7 +14,7 @@ export const up = async function (db: any): Promise<any> {
 
 export const down = async function (db: any): Promise<any> {
   return db.runSql(`
-    ALTER TABLE user_clients DROP INDEX idx_visible;
+    ALTER TABLE user_clients DROP INDEX idx_visible_client;
     ALTER TABLE clips DROP INDEX idx_client_id_locale;
   `)
 }
