@@ -46,6 +46,7 @@ async function getAllClipLeaderboardData(): Promise<any[]> {
   `
 
   const [rows] = await db.query(query)
+  console.log(`Clip Leaderboard rows = ${rows.length}`)
   return rows
 }
 
@@ -68,6 +69,7 @@ async function getAllVoteLeaderboardData(): Promise<any[]> {
   `
 
   const [rows] = await db.query(query)
+  console.log(`Vote Leaderboard rows = ${rows.length}`)
   return rows
 }
 
@@ -157,7 +159,7 @@ const getLocaleClipLeaderboard = (locale: string) => {
 // Extract global vote leaderboard from cached data
 const getGlobalVoteLeaderboard = () => {
   return lazyCache(
-    'global-vote-leaderboard',
+    'cv:leaderboard:vote-global',
     async () => {
       const { voteData } = await getAllLeaderboardData()
 
@@ -184,7 +186,7 @@ const getGlobalVoteLeaderboard = () => {
 // Extract per-locale vote leaderboard from cached data
 const getLocaleVoteLeaderboard = (locale: string) => {
   return lazyCache(
-    `locale-vote-leaderboard-${locale}`,
+    `cv:leaderboard:vote-${locale}`,
     async () => {
       const { voteData } = await getAllLeaderboardData()
       const localeId = await getLocaleId(locale)
@@ -207,7 +209,7 @@ const getLocaleVoteLeaderboard = (locale: string) => {
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
     2 * TimeUnits.HOUR,
-    2 * TimeUnits.SECOND
+    5 * TimeUnits.SECOND
   )()
 }
 
