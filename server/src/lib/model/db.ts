@@ -541,10 +541,13 @@ export default class DB {
   ): Promise<DBClip[]> {
     // get cached clips for given language
     /*
+    In the previous implementation where RAND() was in the SQL:
     Real world measures over 7 days (for 10k records, 1 min cache dur, 3 min lock dur - which was causing trouble):
     - Avg. query time: 2.98 secs - Worst case: 2 min 56 secs (a later measure was 4.3 min)
     - Avg rows scanned: 434,741 - Avg rows returned: 9,243
     => Worst case is caused by large number of records which are not used at all (happens in prominent languages)...
+    Most of the time use of RAND() in SQL result in too many row scanns, thus IO delays - if the LIMIT is large.
+    Thus, in this implementation we moved randomization to code.
     */
     const cachedClips: DBClip[] = await lazyCache(
       `new-clips-per-language-${locale_id}`,
@@ -591,7 +594,7 @@ export default class DB {
     )
 
     // Return random selection from eligible clips
-    if (eligibleClips.size <= count) {
+    if (eligibleClips.size > 0 && eligibleClips.size <= count) {
       // less than requested, so shuffle and return
       return this.shuffleArray(Array.from(eligibleClips))
     } else if (eligibleClips.size > count) {
@@ -599,7 +602,7 @@ export default class DB {
       return this.getRandomSelection(Array.from(eligibleClips), count)
     }
 
-    // zero case - try to re-seleect
+    // zero case - try to re-select
     const [clips] = await this.mysql.query(
       `
       SELECT *
