@@ -6,7 +6,10 @@ import { NextFunction, Request, Response, Router } from 'express'
 import * as sendRequest from 'request-promise-native'
 import { StatusCodes } from 'http-status-codes'
 import PromiseRouter from 'express-promise-router'
-const Transcoder = require('stream-transcoder')
+import {
+  createMp3TranscodeJob,
+  type Mp3TranscodeJob,
+} from './ffmpeg-transcoder'
 
 import { Sentence, UserClient as UserClientType } from 'common'
 import rateLimiter from './rate-limiter-middleware'
@@ -639,9 +642,18 @@ export default class API {
     console.log(`VOICE_AVATAR: saveAvatarClip() called, ${client_id}`)
     const folder = client_id
     const clipFileName = folder + '.mp3'
+
+    let inputStream: NodeJS.ReadableStream | null = null
+    let transcodeJob: Mp3TranscodeJob | null = null
+    let shouldAttachAbortHandler = false
+
+    const abortHandler = () => {
+      transcodeJob?.abort()
+      request.removeListener('aborted', abortHandler)
+    }
+
     try {
       // If upload was base64, make sure we decode it first.
-      let transcoder
       if ((headers['content-type'] as string).includes('base64')) {
         // If we were given base64, we'll need to concat it all first
         // So we can decode it in the next step.
@@ -655,28 +667,57 @@ export default class API {
         })
         const passThrough = new PassThrough()
         passThrough.end(Buffer.from(Buffer.concat(chunks).toString(), 'base64'))
-        transcoder = new Transcoder(passThrough)
+        inputStream = passThrough
       } else {
         // For non-base64 uploads, we can just stream data.
-        transcoder = new Transcoder(request)
+        inputStream = request
+        shouldAttachAbortHandler = true
+        request.on('aborted', abortHandler)
       }
 
-      await pipe(
+      if (!inputStream) {
+        throw new Error('Missing avatar clip input stream')
+      }
+
+      if (request.aborted) {
+        throw new Error('Request aborted before transcoding started')
+      }
+
+      transcodeJob = await createMp3TranscodeJob(inputStream)
+
+      if (request.aborted) {
+        transcodeJob.abort()
+        throw new Error('Request aborted before transcoding started')
+      }
+
+      const uploadTask = pipe(
         streamUploadToBucket,
         Id.ap(getConfig().CLIP_BUCKET_NAME),
         Id.ap(clipFileName),
-        Id.ap(transcoder.audioCodec('mp3').format('mp3').stream()),
+        Id.ap(transcodeJob.outputStream),
         TE.getOrElse((e: Error) => T.of(console.log(e)))
       )()
+
+      await Promise.all([uploadTask, transcodeJob.transcodeCompleted])
+      transcodeJob = null
 
       await UserClient.updateAvatarClipURL(user.email, clipFileName)
 
       response.json(clipFileName)
     } catch (error) {
+      transcodeJob?.abort(error instanceof Error ? error : undefined)
       console.error(error)
-      response.statusCode = error.statusCode || 500
+      const statusCode =
+        error && typeof error === 'object' && 'statusCode' in error
+          ? Number((error as { statusCode?: number }).statusCode)
+          : undefined
+      response.statusCode = statusCode || 500
       response.statusMessage = 'save avatar clip error'
       response.json(error)
+    } finally {
+      if (shouldAttachAbortHandler) {
+        request.removeListener('aborted', abortHandler)
+      }
     }
   }
 

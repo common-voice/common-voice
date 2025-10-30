@@ -1,5 +1,7 @@
 import { spawn, ChildProcessWithoutNullStreams } from 'child_process'
 import { PassThrough } from 'stream'
+import { Semaphore } from 'async-mutex'
+import { getConfig } from '../config-helper'
 
 interface TranscodeOptions {
   ffmpegPath?: string
@@ -27,6 +29,15 @@ const DEFAULT_FFMPEG_ARGS = [
   'mp3',
   'pipe:1',
 ]
+
+const DEFAULT_CONCURRENCY_LIMIT = 4
+
+const configuredConcurrency =
+  getConfig().CLIP_TRANSCODE_CONCURRENCY_LIMIT || DEFAULT_CONCURRENCY_LIMIT
+
+const transcodeSemaphore = new Semaphore(
+  Math.max(1, configuredConcurrency)
+)
 
 export const transcodeToMp3 = (
   input: NodeJS.ReadableStream,
@@ -249,7 +260,7 @@ export const probeDurationFromStream = (
 
 type Mp3TranscodeOptions = TranscodeOptions & ProbeOptions
 
-interface Mp3TranscodeJob {
+export interface Mp3TranscodeJob {
   outputStream: PassThrough
   transcodeCompleted: Promise<void>
   durationSeconds: Promise<number | null>
@@ -257,73 +268,90 @@ interface Mp3TranscodeJob {
   getTotalBytes: () => number
 }
 
-export const createMp3TranscodeJob = (
+export const createMp3TranscodeJob = async (
   input: NodeJS.ReadableStream,
   options: Mp3TranscodeOptions = {}
-): Mp3TranscodeJob => {
-  const {
-    stream: transcodedStream,
-    completed: transcodeCompleted,
-    childProcess: ffmpegProcess,
-  } = transcodeToMp3(input, { ffmpegPath: options.ffmpegPath })
-
-  const countingStream = new PassThrough()
-  const outputStream = new PassThrough()
-  const probeStream = new PassThrough()
-  let totalBytes = 0
-
-  const { completed: probeCompleted, childProcess: ffprobeProcess } =
-    probeDurationFromStream(probeStream, { ffprobePath: options.ffprobePath })
-
-  let aborted = false
-
-  const abort = (reason?: Error) => {
-    if (aborted) return
-    aborted = true
-
-    const error = reason ?? new Error('Transcode job aborted')
-
-    if (!transcodedStream.destroyed) {
-      transcodedStream.destroy(error)
-    }
-    if (!outputStream.destroyed) {
-      outputStream.destroy(error)
-    }
-    if (!probeStream.destroyed) {
-      probeStream.destroy(error)
-    }
-    if (!countingStream.destroyed) {
-      countingStream.destroy(error)
-    }
-
-    if (!ffmpegProcess.killed) {
-      ffmpegProcess.kill('SIGKILL')
-    }
-    if (!ffprobeProcess.killed) {
-      ffprobeProcess.kill('SIGKILL')
-    }
+): Promise<Mp3TranscodeJob> => {
+  const [, releasePermit] = await transcodeSemaphore.acquire()
+  let permitReleased = false
+  const releaseOnce = () => {
+    if (permitReleased) return
+    permitReleased = true
+    releasePermit()
   }
 
-  const forwardError = (err: Error) => {
-    abort(err)
-  }
+  try {
+    const {
+      stream: transcodedStream,
+      completed: transcodeCompleted,
+      childProcess: ffmpegProcess,
+    } = transcodeToMp3(input, { ffmpegPath: options.ffmpegPath })
 
-  transcodedStream.on('error', forwardError)
-  countingStream.on('error', forwardError)
-  outputStream.on('error', forwardError)
-  probeStream.on('error', forwardError)
+    const countingStream = new PassThrough()
+    const outputStream = new PassThrough()
+    const probeStream = new PassThrough()
+    let totalBytes = 0
 
-  transcodedStream.pipe(countingStream)
+    const { completed: probeCompleted, childProcess: ffprobeProcess } =
+      probeDurationFromStream(probeStream, { ffprobePath: options.ffprobePath })
 
-  countingStream.on('data', chunk => {
-    totalBytes += (chunk as Buffer).length
-  })
+    let aborted = false
 
-  countingStream.pipe(outputStream)
-  countingStream.pipe(probeStream)
+    const abort = (reason?: Error) => {
+      if (aborted) return
+      aborted = true
 
-  const durationSeconds = probeCompleted
-    .then(({ duration, bitRate }) => {
+      const error = reason ?? new Error('Transcode job aborted')
+
+      if (!transcodedStream.destroyed) {
+        transcodedStream.destroy(error)
+      }
+      if (!outputStream.destroyed) {
+        outputStream.destroy(error)
+      }
+      if (!probeStream.destroyed) {
+        probeStream.destroy(error)
+      }
+      if (!countingStream.destroyed) {
+        countingStream.destroy(error)
+      }
+
+      if (!ffmpegProcess.killed) {
+        ffmpegProcess.kill('SIGKILL')
+      }
+      if (!ffprobeProcess.killed) {
+        ffprobeProcess.kill('SIGKILL')
+      }
+    }
+
+    const forwardError = (err: Error) => {
+      abort(err)
+    }
+
+    transcodedStream.on('error', forwardError)
+    countingStream.on('error', forwardError)
+    outputStream.on('error', forwardError)
+    probeStream.on('error', forwardError)
+
+    transcodedStream.pipe(countingStream)
+
+    countingStream.on('data', chunk => {
+      totalBytes += (chunk as Buffer).length
+    })
+
+    countingStream.pipe(outputStream)
+    countingStream.pipe(probeStream)
+
+    const wrappedTranscodeCompleted = transcodeCompleted
+      .then(() => {
+        releaseOnce()
+      })
+      .catch(err => {
+        releaseOnce()
+        throw err
+      })
+
+    const durationSeconds = probeCompleted.then(({ duration, bitRate }) => {
       if (duration != null) return duration
       if (bitRate && totalBytes > 0) {
         return (totalBytes * 8) / bitRate
@@ -331,11 +359,20 @@ export const createMp3TranscodeJob = (
       return null
     })
 
-  return {
-    outputStream,
-    transcodeCompleted,
-    durationSeconds,
-    abort,
-    getTotalBytes: () => totalBytes,
+    const abortWithRelease = (reason?: Error) => {
+      abort(reason)
+      releaseOnce()
+    }
+
+    return {
+      outputStream,
+      transcodeCompleted: wrappedTranscodeCompleted,
+      durationSeconds,
+      abort: abortWithRelease,
+      getTotalBytes: () => totalBytes,
+    }
+  } catch (error) {
+    releaseOnce()
+    throw error instanceof Error ? error : new Error(String(error))
   }
 }
