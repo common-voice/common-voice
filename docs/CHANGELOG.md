@@ -2,6 +2,49 @@
 
 ## Current release
 
+### [v1.154.0 (2025-10-30)](https://github.com/common-voice/common-voice/releases/tag/release-v1.154.0)
+
+- Feat: Refactor audio transcoding pipeline and move it to subprocess to handle prevent crashes caused by bad audio data to crash the main process, by [@moz-dfeller](https://github.com/moz-dfeller) in [#5145](https://github.com/common-voice/common-voice/pull/5145) and [#5147](https://github.com/common-voice/common-voice/pull/5147) (in v1.153.4 and v1.153.6)
+- Feat: Refactor front-end error handling logic with customized error class, add more descriptive errors, especially handling 5xx error, by [@moz-bozden](https://github.com/moz-bozden) in [#5131](https://github.com/common-voice/common-voice/pull/5131) and [#5133](https://github.com/common-voice/common-voice/pull/5133) (in v1.153.2)
+- Feat: Add WebView detection and warning to give more descriptive feedback to users who cannot record from social media apps, by [@moz-bozden](https://github.com/moz-bozden) in [#5115](https://github.com/common-voice/common-voice/pull/5115) (in v1.153.2)
+- Feat/Fix: Refactor variant sentence selection workflow to perform much better and prevent timeouts, by [@moz-bozden](https://github.com/moz-bozden) in [#5146](https://github.com/common-voice/common-voice/pull/5146)
+- Feat/Fix: Update clip selection logic and cache durations to perform much better and prevent timeouts, by [@moz-bozden](https://github.com/moz-bozden) in [#5142](https://github.com/common-voice/common-voice/pull/5142)
+- Feat/Fix: Create extra indexes and optimize query for top contributors (leaderboard) to perform much better and prevent timeouts, by [@moz-bozden](https://github.com/moz-bozden) in [#5137](https://github.com/common-voice/common-voice/pull/5137)
+- Feat/Fix: Fine-tune cache and lock durations in two endpoints (get clips to validate, leader boards in Dashboard), by [@moz-bozden](https://github.com/moz-bozden) in [#5135](https://github.com/common-voice/common-voice/pull/5135) (in v1.153.3)
+- Feat/Fix: Extend reporting Redis/LazyCache, by [@moz-bozden](https://github.com/moz-bozden) in [#5130](https://github.com/common-voice/common-voice/pull/5130) (in v1.153.2)
+- Feat/Fix: Refactor API endpoints and add some validation - Step-1, by [@moz-bozden](https://github.com/moz-bozden) in [#5129](https://github.com/common-voice/common-voice/pull/5129) (in v1.153.2)
+- Feat/Fix: Redis connection loss problems in LazyCache and make it resilient to connection losses by health monitoring and switching to memory-cache, by [@moz-bozden](https://github.com/moz-bozden) in [#5107](https://github.com/common-voice/common-voice/pull/5107) (in v1.153.1)
+- Feat/Fix: Redis connection loss problems in LazyCache and make it resilient to connection losses by health monitoring and switching to memory-cache, by [@moz-bozden](https://github.com/moz-bozden) in [#5107](https://github.com/common-voice/common-voice/pull/5107) (in v1.153.1)
+- Fix: Re-adjust clip selection durations to prevent cache lock release issues, by [@moz-bozden](https://github.com/moz-bozden) in [#5142](https://github.com/common-voice/common-voice/pull/5142) (in v1.153.4)
+- Fix: Add typing for parsing fluent elements, by [@moz-bozden](https://github.com/moz-bozden) in [#5126](https://github.com/common-voice/common-voice/pull/5126) (in v1.153.4)
+- Fix: Parsing of some language codes failing, which were populating the new english_name field in the new endpoint, by [@moz-bozden](https://github.com/moz-bozden) in [#5123](https://github.com/common-voice/common-voice/pull/5123) (in v1.153.1)
+- Chore: Updates to [COMMUNITIES.md](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)
+
+#### Data Changes in v1.154.0
+
+- Add Abaza (`abq`) variants (Tapanta, Ashkhara) by [@bandrandr](https://github.com/bandrandr), thank you [@Gedumurat](https://github.com/Gedumurat) for the contributions. In [#5138](https://github.com/common-voice/common-voice/pull/5138) (in v1.153.5)
+
+#### Spontaneous Speech v1.154.0
+
+##### SS Data Changes in v1.154.0
+
+- Add 145 Tatar (`tt`) questions by [@bandrandr](https://github.com/bandrandr) in [#492](https://github.com/common-voice/spontaneous-speech/pull/492) (in v1.153.4)
+- Add 60 Tachelhit (`shi`) questions by [@bandrandr](https://github.com/bandrandr) in [#491](https://github.com/common-voice/spontaneous-speech/pull/491) (in v1.153.4)
+
+---
+
+### Changes merged after current release
+
+#### Data Changes after current release
+
+#### Spontaneous Speech after current release
+
+##### SS Data Changes after current release
+
+---
+
+## Past releases
+
 ### [v1.153.0 (2025-10-13)](https://github.com/common-voice/common-voice/releases/tag/release-v1.153.0)
 
 - Feat: Update language flow to fill in `english_name` in the locale table, and provide them in API endpoints, by [@moz-bozden](https://github.com/moz-bozden) in [#5114](https://github.com/common-voice/common-voice/pull/5114)
@@ -36,34 +79,6 @@
 - Add Thai (`th`) questions by [@bandrandr](https://github.com/bandrandr) in [#487](https://github.com/common-voice/spontaneous-speech/pull/487) (in v1.152.1)
 
 ---
-
-### Changes merged after current release
-
-- Feat: Refactor front-end error handling logic with customized error class, add more descriptive errors, especially handling 5xx error, by [@moz-bozden](https://github.com/moz-bozden) in [#5131](https://github.com/common-voice/common-voice/pull/5131) and [#5133](https://github.com/common-voice/common-voice/pull/5133) (in v1.153.2)
-- Feat: Add WebView detection and warning to give more descriptive feedback to users who cannot record from social media apps, by [@moz-bozden](https://github.com/moz-bozden) in [#5115](https://github.com/common-voice/common-voice/pull/5115) (in v1.153.2)
-- Feat/Fix: Fine-tune cache and lock durations in two endpoints (get clips to validate, leader boards in Dashboard), by [@moz-bozden](https://github.com/moz-bozden) in [#5135](https://github.com/common-voice/common-voice/pull/5135) (in v1.153.3)
-- Feat/Fix: Extend reporting Redis/LazyCache, by [@moz-bozden](https://github.com/moz-bozden) in [#5130](https://github.com/common-voice/common-voice/pull/5130) (in v1.153.2)
-- Feat/Fix: Refactor API endpoints and add some validation - Step-1, by [@moz-bozden](https://github.com/moz-bozden) in [#5129](https://github.com/common-voice/common-voice/pull/5129) (in v1.153.2)
-- Feat/Fix: Redis connection loss problems in LazyCache and make it resilient to connection losses by health monitoring and switching to memory-cache, by [@moz-bozden](https://github.com/moz-bozden) in [#5107](https://github.com/common-voice/common-voice/pull/5107) (in v1.153.1)
-- Feat/Fix: Redis connection loss problems in LazyCache and make it resilient to connection losses by health monitoring and switching to memory-cache, by [@moz-bozden](https://github.com/moz-bozden) in [#5107](https://github.com/common-voice/common-voice/pull/5107) (in v1.153.1)
-- Fix: Re-adjust clip selection durations to prevent cache lock release issues, by [@moz-bozden](https://github.com/moz-bozden) in [#5142](https://github.com/common-voice/common-voice/pull/5142) (in v1.153.4)
-- Fix: Add typing for parsing fluent elements, by [@moz-bozden](https://github.com/moz-bozden) in [#5126](https://github.com/common-voice/common-voice/pull/5126) (in v1.153.4)
-- Fix: Parsing of some language codes failing, which were populating the new english_name field in the new endpoint, by [@moz-bozden](https://github.com/moz-bozden) in [#5123](https://github.com/common-voice/common-voice/pull/5123) (in v1.153.1)
-
-#### Data Changes after current release
-
-- Add Abaza (`abq`) variants (Tapanta, Ashkhara) by [@bandrandr](https://github.com/bandrandr), thank you [@Gedumurat](https://github.com/Gedumurat) for the contributions. In [#5138](https://github.com/common-voice/common-voice/pull/5138) (in v1.153.5)
-
-#### Spontaneous Speech after current release
-
-##### SS Data Changes after current release
-
-- Add 145 Tatar (`tt`) questions by [@bandrandr](https://github.com/bandrandr) in [#492](https://github.com/common-voice/spontaneous-speech/pull/492) (in v1.153.4)
-- Add 60 Tachelhit (`shi`) questions by [@bandrandr](https://github.com/bandrandr) in [#491](https://github.com/common-voice/spontaneous-speech/pull/491) (in v1.153.4)
-
----
-
-## Past releases
 
 ### [v1.152.0 (2025-09-13)](https://github.com/common-voice/common-voice/releases/tag/release-v1.152.0)
 
