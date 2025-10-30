@@ -198,6 +198,33 @@ export default class DB {
     }
   }
 
+  /**
+   * Get random selection from array
+   */
+  private getRandomSelection<T>(array: T[], count: number): T[] {
+    const shuffled = [...array]
+
+    // Fisher-Yates shuffle
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+    }
+
+    return shuffled.slice(0, count)
+  }
+
+  /**
+   * Shuffle entire array (for when we need all elements randomized)
+   */
+  private shuffleArray<T>(array: T[]): T[] {
+    const shuffled = [...array]
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+    }
+    return shuffled
+  }
+
   async getSentenceCountByLocale(): Promise<
     {
       locale_id: number
@@ -221,7 +248,7 @@ export default class DB {
   }
 
   /**
-   * Get valid and random clips per language
+   * Get valid clips per language (not random anymore, we randomize in code per user)
    * @param languageId
    * @param limit
    * @returns
@@ -240,12 +267,10 @@ export default class DB {
           s.text as sentence,
           c.original_sentence_id as original_sentence_id
         FROM clips c
-        INNER JOIN
-          sentences s ON s.id = c.original_sentence_id
-          AND c.locale_id = ?
-        WHERE
-          c.is_valid IS NULL
-        ORDER BY RAND()
+        INNER JOIN sentences s ON s.id = c.original_sentence_id
+        WHERE c.locale_id = ?
+          AND c.is_valid IS NULL
+        ORDER BY c.id DESC -- consistent ordering, prefer recently recordings first
         LIMIT ?
       `,
       [languageId, limit]
@@ -516,40 +541,39 @@ export default class DB {
   ): Promise<DBClip[]> {
     // get cached clips for given language
     /*
+    In the previous implementation where RAND() was in the SQL:
     Real world measures over 7 days (for 10k records, 1 min cache dur, 3 min lock dur - which was causing trouble):
-    - Avg. query time: 2.98 secs - Worst case: 2 min 56 secs
+    - Avg. query time: 2.98 secs - Worst case: 2 min 56 secs (a later measure was 4.3 min)
     - Avg rows scanned: 434,741 - Avg rows returned: 9,243
     => Worst case is caused by large number of records which are not used at all (happens in prominent languages)...
+    Most of the time use of RAND() in SQL result in too many row scanns, thus IO delays - if the LIMIT is large.
+    Thus, in this implementation we moved randomization to code.
     */
     const cachedClips: DBClip[] = await lazyCache(
       `new-clips-per-language-${locale_id}`,
       async () => {
-        return await this.getClipsToBeValidated(locale_id, 5000) // drop count from 10k to handle large variance
+        // The returned values are now NOT RANDOMIZED
+        // We prefer newer recordings, they will have less validated ones
+        return await this.getClipsToBeValidated(locale_id, 20_000) // Increase count from 10k
       },
-      2 * TimeUnits.MINUTE, // Increase cache duration from 1 min
-      45 * TimeUnits.SECOND // drop to a reasonable value, it was 3 min
+      10 * TimeUnits.MINUTE, // Increase cache duration considerably from 1 min
+      30 * TimeUnits.SECOND // Now we have much much better fetch time as we removed RAND(), measured <1 sec
     )()
 
     //filter out users own clips
-    const validUserClips: DBClip[] = cachedClips.filter(
+    const otherUserClips: DBClip[] = cachedClips.filter(
       (row: DBClip) => row.client_id != client_id
     )
 
-    // potentially cache-able
+    // potentially cache-able (does not cause much load as of today)
     // get users previously interacted clip ids
     const [submittedUserClipIds] = await this.mysql.query(
       `
-      SELECT clip_id
-        FROM votes
-        WHERE client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM reported_clips reported
-        WHERE client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM skipped_clips skipped
-        WHERE client_id = ?
+      SELECT clip_id FROM votes WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id FROM reported_clips reported WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id FROM skipped_clips skipped WHERE client_id = ?
       `,
       [client_id, client_id, client_id]
     )
@@ -560,18 +584,25 @@ export default class DB {
     )
 
     //get clips that a user hasn't already seen
-    const validClips = new Set(
-      validUserClips.filter((clip: DBClip) => {
-        if (exemptFromSSRL) return !skipClipIds.has(clip.id)
+    const eligibleClips = new Set(
+      otherUserClips.filter((clip: DBClip) => {
+        const notSeenBefore = !skipClipIds.has(clip.id)
+        if (exemptFromSSRL) return notSeenBefore
         //only return clips that have not been validated before
-        return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0
+        return notSeenBefore && clip.has_valid_clip === 0
       })
     )
 
-    if (validClips.size > count) {
-      return Array.from(validClips)
+    // Return random selection from eligible clips
+    if (eligibleClips.size > 0 && eligibleClips.size <= count) {
+      // less than requested, so shuffle and return
+      return this.shuffleArray(Array.from(eligibleClips))
+    } else if (eligibleClips.size > count) {
+      // more than requested, so return requested count from randomized array
+      return this.getRandomSelection(Array.from(eligibleClips), count)
     }
 
+    // zero case - try to re-select
     const [clips] = await this.mysql.query(
       `
       SELECT *
