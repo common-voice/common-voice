@@ -16,7 +16,10 @@ import { streamUploadToBucket } from '../infrastructure/storage/storage'
 import { pipe } from 'fp-ts/lib/function'
 import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts'
 import { Clip as ClientClip } from 'common'
-import { createMp3TranscodeJob } from './ffmpeg-transcoder'
+import {
+  createMp3TranscodeJob,
+  type Mp3TranscodeJob,
+} from './ffmpeg-transcoder'
 import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
@@ -272,16 +275,19 @@ export default class Clip {
         audioStream.pipe(audioInput)
       }
 
-      const transcodeJob = createMp3TranscodeJob(audioInput)
+      let transcodeJob: Mp3TranscodeJob | null = null
+      let durationInMs = 0
 
       const abortHandler = () => {
-        transcodeJob.abort()
+        transcodeJob?.abort()
         request.removeListener('aborted', abortHandler)
       }
 
       request.on('aborted', abortHandler)
 
       try {
+        transcodeJob = await createMp3TranscodeJob(audioInput)
+
         const uploadTask = pipe(
           streamUploadToBucket,
           Id.ap(getConfig().CLIP_BUCKET_NAME),
@@ -301,10 +307,12 @@ export default class Clip {
           durationPromise,
         ])
 
-        const durationInMs =
+        durationInMs =
           durationInSec != null && Number.isFinite(durationInSec)
             ? Math.round(durationInSec * 1000)
             : 0
+
+        transcodeJob = null
 
         console.log(`clip written to s3 ${metadata}`)
 
@@ -351,7 +359,7 @@ export default class Clip {
           response.json(ret)
         }
       } catch (err) {
-        transcodeJob.abort(err instanceof Error ? err : undefined)
+        transcodeJob?.abort(err instanceof Error ? err : undefined)
         console.error('Failed transcoding step with error:', err)
         if (!response.headersSent) {
           const message =
