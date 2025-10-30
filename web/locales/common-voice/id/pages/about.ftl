@@ -6,6 +6,8 @@ how-does-it-work-text = Kami mengurundayakan penghimpunan data suara sumber terb
 
 ## How does it work section
 
+about-new-lang-subtitle = Kami meluncurkan situs Common Voice dalam bahasa ini.
+about-voice-contrib-title = Kontribusi Suara
 about-speak = Bicara
 about-speak-text = Kontributor merekam klip suara dengan membaca dari bank donasi kalimat.
 about-listen-queue = Antrean-Dengar
