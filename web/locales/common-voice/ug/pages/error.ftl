@@ -8,6 +8,7 @@ error-clip-upload = بۇ قىسقۇچنى يۈكلەش مەغلۇپ بولدى �
 error-clip-upload-server = بۇ ئاۋاز خاتىرىسىنى مۇلازىمېتىرغا يۈكلىگىلى بولمايۋاتىدۇ. بەتنى يېڭىلاڭ ياكى كېيىن قايتا سىناپ بېقىڭ.
 error-title-404 = ئىزدىگەن بېتىڭىز تېپىلمىدى
 error-content-404 = بەلكىم بىزنىڭ  <homepageLink>تور بېتىمىز</homepageLink> نىڭ ياردىمى بولۇشى مۇمكىن؟  <matrixLink>Matrix</matrixLink> قا كىرىپ سوئال سوراڭ، <githubLink>GitHub</githubLink> دىن تور بەتتىكى مەسىلىلەرنى كۆرۈڭ ياكى  <discourseLink>مۇنازىرە مۇنبىرى</discourseLink> نى زىيارەت قىلىڭ.
+error-title-500 = كەچۈرۈڭ، ئازراق چاتاق چىقتى
 error-title-503 = كۈتۈلمىگەن مەسىلە كۆرۈلدى
 error-content-503 = بۇ تور بېكەت ئامالنىڭ بارىچە تېزلىكتە زاپاسلىنىدۇ. ئەڭ يېڭى ئۇچۇرغا ئېرىشمەكچى بولسىڭىز، <matrixLink>Matrix</matrixLink> گە قاتنىشىڭ ياكى <githubLink>GitHub</githubLink> نى زىيارەت قىلىڭ ۋە ياكى <discourseLink> مۇنازىرە مۇنبىرىمىز </discourseLink> گە ئۇچرىغان مەسىلىلەرنى يوللاڭ.
 error-code = خاتالىق { $code }
