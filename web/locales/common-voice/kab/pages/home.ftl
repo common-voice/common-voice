@@ -76,11 +76,15 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 ## NAV ITEMS
 
 answer-questions = Err-d ɣef isteqsiyen
+review-transcriptions = Senqed tira
 add-questions = Rnu isteqsiyen
+review-questions = Senqed isteqsiyen
 transcribe-audio = Aru aḍris n umeslaw
 press-and-stories = Taɣamsa akked yimagraden
 community-and-languages = Timɣiwnin akked tutlayin
+coming-soon = Ad yili
 about-us = Fell-aɣ
+scripted-speech = AWAL YETTWARUN
 
 ## Hero section
 
@@ -94,17 +98,32 @@ get-started = Aha bdu <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice d tiɣeṛɣeṛt tilellit, n uɣbalu yeldin i usnulfu n yisefka s tmuɣli n temɣiwant
+scripted-card-header = Awal yettwarun
 language-text-card-header = Aḍris
+language-text-card-content = Snulfu-d neɣ bḍu ineftaɣen i yellan deg taɣult tazayezt, tifyar, d uḍris i tsuqilt, timudmiwin n tutlayt timecṭaḥ, d wayen nniḍen.
+coming-soon = Ad yili
 add-text = Rnu aḍris
 answer = Tiririt
 
 ## Community section
 
 community-section-title = S lmendad n temɣiwanin timaḍlanin i temɣiwanin n umaḍal — 130 n tutlayin yerna ttennernayent!
+join-discord-community = Ttekki deg temɣiwant n Discord
+# label for button
+join-discord-community-action = Ttekki yid-neɣ ɣef Discord
 find-us-on-matrix = Af-aɣ-d deg Matrix
+# label for button
+find-us-on-element-action-1 = Element
+# label for button
+download-contribution-certificate-action = Awi aselkin-ik·im
 contribute-github = Ttekki di Github
 # label for button
 contribute-github-action = Ttekki di Github
+
+## Developers section
+
+# icon is an arrow that points to the right
+explore-datasets = Snirem tigrummiwin n yisefka <icon></icon>
 
 ## Get involved section
 
@@ -112,6 +131,7 @@ read-sentences-link = Ɣeṛ tifyar
 validate-readings-link = Sentem n tɣuri
 contribute-link = Ttekki deg wammud n yiḍrisen
 answer-questions-link = Err-d ɣef isteqsiyen
+transcribe-answers-link = Aru tiririyin
 review-transcriptions-link = Senqed tira
 contribute-text-link = Azen aḍris
 press-and-stories-link = Taɣamsa akked yimagraden
