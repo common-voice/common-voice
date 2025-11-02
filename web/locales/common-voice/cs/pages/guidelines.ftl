@@ -279,6 +279,7 @@ code-switching-authentic-direct-quotes = <bold>Vložte přímé uvozovky nebo di
 code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tu crees queesto es un juego?' a já si říkal: 'Okay klid!'"
 code-switching-authentic-reflect = <bold>Reflexe emocí, identity a kontextu.</bold> Ke změně obvykle dochází, když lidé vyjadřují emoce, naléhavost nebo kulturní myšlenky. Opřete se o ně při odpovídání na otázky.
 code-switching-authentic-full-context = <bold>Používejte plné odpovědi s kontextem.</bold> Buďte co nejpodrobnější a co možná nejpodrobnější. Sdílejte ve svých odpovědích příběh nebo příklad.
+code-switching-answer-dont-correct-language = <bold>„Opravte“ svůj jazyk.</bold> Toto není test. Na „správné“ formě nezáleží, záleží na přirozeném jazyce.
 code-switching-answer-dont-avoid-switching = <bold>Nepřepínejte je, pokud to obvykle děláte.</bold> Je dobré přepínat uprostřed vět, uprostřed myšlenky nebo jen pro jedno slovo.
 code-switching-answer-dont-formal-writing = <bold>Mluvte, jako když píšete.</bold> Vyhněte se formálním, akademickým odpovědím. Nechte to konverzační.
 code-switching-answer-dont-force-switch = <bold>Vynucte si přepínání hovorů, pokud to není přirozené.</bold> Mějte na paměti, pouze pokud je to tak, jak byste v takové situaci přirozeně mluvili.
