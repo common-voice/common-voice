@@ -114,6 +114,10 @@ join-discord-community-action = Ttekki yid-neɣ ɣef Discord
 find-us-on-matrix = Af-aɣ-d deg Matrix
 # label for button
 find-us-on-element-action-1 = Element
+ask-mozilla-share = Suter-as i Mozilla ad tebḍu tidyanin-nwen·nkent
+# label for button
+ask-mozilla-share-action = Bḍu tadyant-ik·im
+download-contribution-certificate = Zdem-d aselkin-ik·im n uttekki
 # label for button
 download-contribution-certificate-action = Awi aselkin-ik·im
 contribute-github = Ttekki di Github
