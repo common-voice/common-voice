@@ -300,12 +300,28 @@ code-switching-spelling-explanation = Snažte se slova v každém jazyce psát s
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Nečistit a nezjednodušovat jazyk
 code-switching-cleanup-1 = Přeložte nebo parafrázujte – pište, co mluvčí řekl, ne co „měl na mysli“.
+code-switching-cleanup-2 = „Správná“ gramatika či výslovnost – zachovejte přirozené použití mluvčího.
+code-switching-cleanup-3 = Vynechte přepínače, které se zdají být nevýznamné nebo malé – i na přejatých slovech záleží.
+code-switching-cleanup-4 = Vložte interpunkční znaménka, která by mohla změnit význam - zachovejte přirozený tok.
+code-switching-cleanup-5 = Předpokládejme, že znáte jazyk každého slova – označte podle používání.
+# Tagging
+code-switching-tagging-subheader = Označování
 code-switching-tagging-error-intro = Pokud přepis obsahuje chybu, použijte prosím funkci nahlásit a nahlaste ji prosím. Mezi možné chyby patří:
 code-switching-tagging-error-1 = Nesprávná interpunkce nebo velikost písmen
 code-switching-tagging-error-2 = Překlepy
 code-switching-tagging-error-3 = Slova napsaná v nesprávném pravopise
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Používání správného pravopisu pro každý jazyk
+code-switching-orthography-explanation = Každé slovo pište pravopisem v jazyce, ze kterého pochází. Například:
+code-switching-orthography-explanation-example-1 = Pokud se slovo „kitchen“ objeví ve španělštině vyslovované stejně, jako v angličtině, ne jako „quichen“.
+code-switching-orthography-explanation-example-2 = Pokud se slovo quinceaños vyslovuje jako v angličtině, pište ho s ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Používejte výslovnost při výběru jazyka
+code-switching-pronunciation-explanation = Některá slova mohou vypadat v obou jazycích stejně, ale mohou se vyslovovat odlišně.  Poslechněte si výslovnost, abyste mohli značku správně označit.  Např.: telegram, taco, herec, detektiv.
+code-switching-pronunciation-explanation-example-1 = Angličtina: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Španělština: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Označování v jednom tokenu
 code-switching-not-tag-proper-names-example-1 = Lidé: Maria, John
 code-switching-not-tag-proper-names-example-2 = Místa: Los Angeles, Florida
 code-switching-not-tag-proper-names-example-3 = Značky/Organizace: Target, Burger King
