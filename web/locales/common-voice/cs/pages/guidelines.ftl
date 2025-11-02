@@ -277,6 +277,9 @@ code-switching-use-both-languages = <bold>Použijte oba jazyky, pokud je to tak,
 code-switching-use-both-languages-example = "Ona se opravdu naštvala, už jsem jí nezavolal."
 code-switching-authentic-direct-quotes = <bold>Vložte přímé uvozovky nebo dialogy.</bold> Vyjádřete přesně to, co někdo řekl, ne explicitní či formální verzi. Příklad:
 code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tu crees queesto es un juego?' a já si říkal: 'Okay klid!'"
+code-switching-authentic-reflect = <bold>Reflexe emocí, identity a kontextu.</bold> Ke změně obvykle dochází, když lidé vyjadřují emoce, naléhavost nebo kulturní myšlenky. Opřete se o ně při odpovídání na otázky.
+code-switching-authentic-full-context = <bold>Používejte plné odpovědi s kontextem.</bold> Buďte co nejpodrobnější a co možná nejpodrobnější. Sdílejte ve svých odpovědích příběh nebo příklad.
+code-switching-answer-dont-avoid-switching = <bold>Nepřepínejte je, pokud to obvykle děláte.</bold> Je dobré přepínat uprostřed vět, uprostřed myšlenky nebo jen pro jedno slovo.
 # Transcribing
 code-switching-transcribe-subheader = Přepis
 # Use standard spelling for each language
