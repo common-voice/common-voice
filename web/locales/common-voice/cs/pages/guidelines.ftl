@@ -275,6 +275,8 @@ code-switching-authentic-speak = <bold>Mluvte s přáteli nebo rodinou obvyklým
 code-switching-authentic-speak-example = "Řekl jsem jí, že nemůžu jít, ale ona řekla: 'Radši se ukaž!'"
 code-switching-use-both-languages = <bold>Použijte oba jazyky, pokud je to tak, jak byste normálně říkali.</bold> I přepnutí jednoho či dvou slov je užitečné. Příklad:
 code-switching-use-both-languages-example = "Ona se opravdu naštvala, už jsem jí nezavolal."
+code-switching-authentic-direct-quotes = <bold>Vložte přímé uvozovky nebo dialogy.</bold> Vyjádřete přesně to, co někdo řekl, ne explicitní či formální verzi. Příklad:
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tu crees queesto es un juego?' a já si říkal: 'Okay klid!'"
 # Transcribing
 code-switching-transcribe-subheader = Přepis
 # Use standard spelling for each language
