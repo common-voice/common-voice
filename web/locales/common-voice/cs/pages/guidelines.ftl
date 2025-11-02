@@ -235,6 +235,7 @@ code-switching-ask-bilingual-contexts-explanation-example = "Když mluvíš se s
 code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
 code-switching-focus-emotional-explanation = Lidé často kódově přepínají, když vyjadřují emoce nebo naléhavost. Příklad:
 code-switching-focus-emotional-explanation-example = "Řekni mi, co řekli tvoji rodiče, když jsi jim oznámil svou velkou novinu — přesně tak, jak to řekli."
+code-switching-direct-quotes-explanation = Vyzvěte účastníky, aby reprodukovali, jak byly věci skutečně řečeny. Příklad:
 code-switching-cultural-topics-header = Zvolte kulturně specifická témata
 code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
 code-switching-informal-scenarios-header = Prozkoumejte neformální scénáře

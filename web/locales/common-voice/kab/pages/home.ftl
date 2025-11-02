@@ -85,6 +85,8 @@ about-us = Fell-aɣ
 ## Hero section
 
 hero-title = Takinuljit yettmeslayen tutlayt-nwen·nkent
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Ayɣer akka AI ad tt-teddu kan ɣef kra n tutlayin n umaḍal?</bold>
 # icon is an arrow that points downwards
 get-started = Aha bdu <icon><icon>
 

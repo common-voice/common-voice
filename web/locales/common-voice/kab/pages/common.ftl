@@ -264,6 +264,8 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Tigrummiwin n yisefka timaynutin n Common Voice</strong> ha-t-an llant tura i usider s ttawil n tɣeṛɣeṛt n weltma-tneɣ, Mozilla Data Collective. Ttekki i wakken ad tesɛuḍ addaf ɣer nnig n 300+ n tegrummiwin n yisefka timuta, i d-tebna temɣiwant i temɣiwant.
 # Button text for MDC announcement
 announcement-mdc-button-text = Ttekki deg Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
