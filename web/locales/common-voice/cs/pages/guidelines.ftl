@@ -280,11 +280,26 @@ code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tu crees quees
 code-switching-authentic-reflect = <bold>Reflexe emocí, identity a kontextu.</bold> Ke změně obvykle dochází, když lidé vyjadřují emoce, naléhavost nebo kulturní myšlenky. Opřete se o ně při odpovídání na otázky.
 code-switching-authentic-full-context = <bold>Používejte plné odpovědi s kontextem.</bold> Buďte co nejpodrobnější a co možná nejpodrobnější. Sdílejte ve svých odpovědích příběh nebo příklad.
 code-switching-answer-dont-avoid-switching = <bold>Nepřepínejte je, pokud to obvykle děláte.</bold> Je dobré přepínat uprostřed vět, uprostřed myšlenky nebo jen pro jedno slovo.
+code-switching-answer-dont-formal-writing = <bold>Mluvte, jako když píšete.</bold> Vyhněte se formálním, akademickým odpovědím. Nechte to konverzační.
+code-switching-answer-dont-force-switch = <bold>Vynucte si přepínání hovorů, pokud to není přirozené.</bold> Mějte na paměti, pouze pokud je to tak, jak byste v takové situaci přirozeně mluvili.
+code-switching-answer-dont-translate-repeat = <bold>Všechno přeložte nebo zopakujte.</bold> Řekněte to jednou, tak jak to bude vypadat v konverzaci. Nemusíte říkat verzi odpovědi v každém jazyce.
 # Transcribing
 code-switching-transcribe-subheader = Přepis
+code-switching-transcribe-intro = Při přepisu odpovědí, které obsahují kódovou změnu, reprezentujte jazyk mluvčího tak, jak byl mluven – bez oprav, úprav nebo zjednodušení. Týká se to všech přepínání jazyků, neformální řeči a jazykově smíšených slov.
+code-switching-transcribe-do-1 = Krátké úseky si přehrajte vícekrát, abyste zachytili jemné změny
+code-switching-transcribe-do-2 = Zastavte každou větu pro kontrolu záměn nebo smíšených slov
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Zachyťte řeč přesně tak, jak ji vyslovíte
+code-switching-capture-explanation = Přepis obou jazyků, jak se tváří / zní. Jazyk „neopravujte“ ani jej neměňte pouze na jeden jazyk.
+# Include filler words and markers
+code-switching-filler-header = Včetně výplňových slov a značek
+code-switching-filler-explanation = Slova jako „ehm“, „like“, „pues“, „you know“ a „entences“ jsou významná. Příklad: „Řekl jsem jí „pues no sé, možná později.“
 # Use standard spelling for each language
 code-switching-spelling-header = Používejte standardní pravopis pro každý jazyk
 code-switching-spelling-explanation = Snažte se slova v každém jazyce psát správně, pokud je mluvčí nevyslovuje zřetelně nestandardním způsobem.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nečistit a nezjednodušovat jazyk
+code-switching-cleanup-1 = Přeložte nebo parafrázujte – pište, co mluvčí řekl, ne co „měl na mysli“.
 code-switching-tagging-error-intro = Pokud přepis obsahuje chybu, použijte prosím funkci nahlásit a nahlaste ji prosím. Mezi možné chyby patří:
 code-switching-tagging-error-1 = Nesprávná interpunkce nebo velikost písmen
 code-switching-tagging-error-2 = Překlepy
