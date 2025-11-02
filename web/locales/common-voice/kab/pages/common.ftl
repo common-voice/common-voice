@@ -261,3 +261,10 @@ donate-banner-cta = <mark>Nesra</mark><br/><mark>tallalt-ik!</mark>
 languages-donate-banner-cta = <mark>Aseqdec n CV i</mark><br/><mark>yinadiyen-ik?</mark>
 localization-select =
     .label = Fren tutlayt/tasuqqilt
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Ttekki deg Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Ldi deg yiccer amaynut
