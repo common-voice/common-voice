@@ -390,6 +390,8 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = Акнун <strong>маҷмуи маълумоти нави «Common Voice»</strong> барои боргирии алоҳида тавассути платформаи ҳамкории мо оид ба лоиҳаи «Mozilla Data Collective» дастрас аст. Барои пайдо кардани дастрасӣ ба зиёда аз 300 маҷмуи маълумот аз саросари ҷаҳон, ки бо ҷамъияти мо сохта шудаанд, ба лоиҳаи мо ҳамроҳ шавед.
 # Button text for MDC announcement
 announcement-mdc-button-text = Ба лоиҳаи «Mozilla Data Collective» ҳамроҳ шавед
 # Aria text for button which opens MDC on a new page
