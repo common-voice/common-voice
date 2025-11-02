@@ -390,5 +390,7 @@ localization-select =
 
 ## MDC Announcement
 
+# Button text for MDC announcement
+announcement-mdc-button-text = Ба лоиҳаи «Mozilla Data Collective» ҳамроҳ шавед
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Дар варақаи нав кушода мешавад
