@@ -236,18 +236,29 @@ code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležit
 code-switching-focus-emotional-explanation = Lidé často kódově přepínají, když vyjadřují emoce nebo naléhavost. Příklad:
 code-switching-focus-emotional-explanation-example = "Řekni mi, co řekli tvoji rodiče, když jsi jim oznámil svou velkou novinu — přesně tak, jak to řekli."
 code-switching-direct-quotes-explanation = Vyzvěte účastníky, aby reprodukovali, jak byly věci skutečně řečeny. Příklad:
+code-switching-direct-quotes-explanation-example = "Jaká byla vaše přesná slova, když jste to zjistil?"
 code-switching-cultural-topics-header = Zvolte kulturně specifická témata
 code-switching-cultural-topics-explanation = Jídlo, tradice, svátky a rodinné prostředí často vybízí ke změně kódu.
+code-switching-cultural-topics-explanation-example = "Jak byste popsali Día de los Muertos někomu, kdo mluví pouze anglicky?"
 code-switching-informal-scenarios-header = Prozkoumejte neformální scénáře
 code-switching-informal-scenarios-explanation = Konverzace s přáteli nebo psaní textových zpráv často zahrnuje přirozenější přepínání. Příklad:
+code-switching-informal-scenarios-explanation-example = "Jaký vtip vždycky říkají vaši přátelé - a jak ho říkají?"
 # What to Avoid
 code-switching-avoid-subheader = Čeho se vyvarovat
 code-switching-avoid-intro = Otázky, které by mohly:
+code-switching-avoid-1 = Vyžadovat osobní údaje
+code-switching-avoid-2 = Nabádat k nenávistným projevům nebo jiným předpojatým či urážlivým názorům.
+code-switching-avoid-3 = Přinutit někoho k sdílení citlivých a potenciálně náročných reakcí
 code-switching-dont-header = Snažte se nedělat
 code-switching-dont-1 = Nepoužívejte příliš formální jazyk
 # Reviewing a Question
 code-switching-review-subheader = Kontrola otázek
 code-switching-review-intro = Ujistěte se, že otázka splňuje tato kritéria:
+code-switching-review-criterion-1 = Být lehko pochopitelná a mělo by být jednoduché na ni reagovat
+code-switching-review-criterion-2 = Být všeobecně relevantní
+code-switching-review-criterion-3 = Nepoužívat nebo nevyžadovat škodlivé nebo urážlivé výrazy
+code-switching-review-does-not-header = A <bold>NEOBSAHUJE</bold>:
+code-switching-review-offensive-content = <bold>Urážlivý obsah nebo citlivé informace</bold>
 code-switching-answer-header = Urážlivý obsah nebo citlivé informace
 code-switching-review-no-1 = Otázky, které mohou vyžadovat poskytnutí osobních údajů
 code-switching-review-no-2 = Dotazy, které by mohly obsahovat nenávistné či jinak zaujaté či urážlivé nálady
@@ -261,6 +272,9 @@ code-switching-answer-bullet-3 = Používejte slova, která byste skutečně pou
 code-switching-answer-bullet-4 = Neexistuje žádný „dokonalý“ způsob, jak odpovědět
 code-switching-authentic-header = Odpovídejte přirozeně a autenticky
 code-switching-authentic-speak = <bold>Mluvte s přáteli nebo rodinou obvyklým způsobem.</bold> Pokud používáte různé jazyky i ve skutečnosti, udělejte totéž. Příklad:
+code-switching-authentic-speak-example = "Řekl jsem jí, že nemůžu jít, ale ona řekla: 'Radši se ukaž!'"
+code-switching-use-both-languages = <bold>Použijte oba jazyky, pokud je to tak, jak byste normálně říkali.</bold> I přepnutí jednoho či dvou slov je užitečné. Příklad:
+code-switching-use-both-languages-example = "Ona se opravdu naštvala, už jsem jí nezavolal."
 # Transcribing
 code-switching-transcribe-subheader = Přepis
 # Use standard spelling for each language

@@ -87,17 +87,20 @@ about-us = Fell-aɣ
 hero-title = Takinuljit yettmeslayen tutlayt-nwen·nkent
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>Ayɣer akka AI ad tt-teddu kan ɣef kra n tutlayin n umaḍal?</bold>
+hero-subtitle-2 = Tutlayt-nneɣ d taqṣiṭ-nneɣ, d timetti-nneɣ, d idles-nneɣ. Yyaw ad d-nesnulfut tigrummiwin n yisefka i nebɣa ad nwali deg umaḍal.
 # icon is an arrow that points downwards
 get-started = Aha bdu <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice d tiɣeṛɣeṛt tilellit, n uɣbalu yeldin i usnulfu n yisefka s tmuɣli n temɣiwant
 language-text-card-header = Aḍris
 add-text = Rnu aḍris
 answer = Tiririt
 
 ## Community section
 
+community-section-title = S lmendad n temɣiwanin timaḍlanin i temɣiwanin n umaḍal — 130 n tutlayin yerna ttennernayent!
 find-us-on-matrix = Af-aɣ-d deg Matrix
 contribute-github = Ttekki di Github
 # label for button
