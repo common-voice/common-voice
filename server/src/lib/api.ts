@@ -204,7 +204,8 @@ export default class API {
 
     router.use('/challenge', this.challenge.getRouter())
 
-    router.get('/bucket/:bucket_type/:path', this.getPublicUrl)
+    // Please visit https://datacollective.mozillafoundation.org/ to download datasets
+    // router.get('/bucket/:bucket_type/:path', this.getPublicUrl)
     router.get('/server_date', this.getServerDate)
 
     router.use('/:locale/bulk_submissions', bulkSubmissionsRouter)
