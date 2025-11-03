@@ -316,14 +316,16 @@ header {
             }
 
             &.datasets {
-                @media (width > 576px) and (width < 1200px) {
-                    margin-block-start: 0;
-                }
+                padding-bottom: 8px;
 
                 a {
                     @media (--lg-down) {
                         margin-inline-start: 30px;
                     }
+                }
+                
+                svg {
+                    height: 1em;
                 }
             }
         }
@@ -563,10 +565,6 @@ header {
             font-size: var(--font-size);
             font-weight: 400;
             text-transform: capitalize;
-        }
-
-        @media (--sm-up) {
-            padding: 20px 0;
         }
     }
 
