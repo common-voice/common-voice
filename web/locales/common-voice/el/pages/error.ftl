@@ -15,6 +15,7 @@ error-content-502 = Δεν είναι δυνατή η δημιουργία στ�
 error-title-503 = Αντιμετωπίζουμε μη αναμενόμενο χρόνο διακοπής λειτουργίας
 error-content-503 = Ο ιστότοπος θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, γίνετε μέλος της <matrixLink>κοινότητάς μας στο Matrix</matrixLink> ή επισκεφτείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλετε και να παρακολουθήσετε ζητήματα σχετικά με τον ιστότοπο.
 error-title-504 = Το χρονικό όριο αιτήματος έληξε
+error-content-504 = Η διεκπεραίωση του αιτήματος διήρκησε πολλή ώρα. Αυτό είναι συνήθως προσωρινό. Δοκιμάστε ξανά. Για βοήθεια, γίνετε μέλος της <matrixLink>συνομιλίας της κοινότητας στο Matrix</matrixLink>, παρακολουθήστε τα ζητήματα του ιστοτόπου μέσω του <githubLink>GitHub</githubLink> ή επισκεφθείτε το <discourseLink>φόρουμ στο Discourse</discourseLink>.
 error-code = Σφάλμα { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
