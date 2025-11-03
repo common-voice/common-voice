@@ -30,6 +30,7 @@ export default Object.freeze({
   LANGUAGE_REQUEST_SUCCESS: '/language/request/success',
   LISTEN: '/listen',
   MDC_ROOT: 'https://datacollective.mozillafoundation.org',
+  MDC_DATASETS: 'https://datacollective.mozillafoundation.org/datasets',
   MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
   PARTNER: '/partner',
   PRIVACY: '/privacy',
