@@ -377,6 +377,7 @@ ts = Xitsonga
 tt = Tatar
 ttj = Rutoro
 tui = Tupuri
+tum = Tumbuka
 tvu = Tunen
 tw = Twi
 ty = Tahitian
