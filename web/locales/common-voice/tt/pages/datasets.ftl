@@ -92,5 +92,8 @@ release-version = Версия
 dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Кушма
+# Support old genders in older datasets
+male = Ир-ат
+female = Хатын-кыз
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Тавыш мәгълүматы тупланмаларыбызны иңдерү

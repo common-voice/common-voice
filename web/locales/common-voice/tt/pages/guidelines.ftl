@@ -2,6 +2,8 @@
 guidelines-header = Катнашу күрсәтмәләре
 voice-collection = Тавыш туплау
 sentence-collection = Җөмләләр тупланмасы
+question-collection = Сораулар тупланмасы
+scripted-speech = Сценарий буенча сөйләү
 
 ## Voice Collection nav ids
 
