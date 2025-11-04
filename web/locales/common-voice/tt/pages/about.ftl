@@ -10,7 +10,7 @@ how-does-it-work-text = Без ачык аудиоязма тупланмасы�
 ## How does it work section
 
 about-language-req-subtitle = Кемдер тел өстәлүен сорый.
-about-localization-title = Вебсайтны тәрҗемә итү
+about-localization-title = Вебсайтны локальләштерү
 about-localization-subtitle = Вебсайт тексты бу телгә тәрҗемә ителә.
 about-sentence-collection-title = Җөмләләр тупланмасы
 about-sentence-collection-subtitle = Кешеләр кычкырып укысын өчен җөмләләр җыела.
