@@ -380,6 +380,7 @@ ts = Tsonga
 tt = Tatariska
 ttj = Rutoro
 tui = Tupuri
+tum = Tumbuka
 tvu = Tunen
 tw = Twi
 ty = Tahitiska
