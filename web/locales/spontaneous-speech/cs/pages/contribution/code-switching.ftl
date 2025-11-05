@@ -1,10 +1,16 @@
 ## Errors
 
+cs-error-fetching-datasets = Při načítání seznamu dostupných datových sad se něco pokazilo. Zkuste to prosím později.
 cs-error-fetching-questions = Při načítání otázek se něco pokazilo. Zkuste to prosím znovu později.
 cs-error-fetching-transcriptions = Při načítání přepisů se něco pokazilo. Zkuste to prosím znovu později.
 
+## Modals
+
+cs-locale-change-modal-subtitle = Na této stránce máte neuložené změny. Pokud změníte datovou sadu, vaše změny se neuloží. Jste si jisti, že chcete přepnout?
+
 ## Question Page Items
 
+cs-question-page-instruction = Přidání až 25 otázek <icon></icon> do datové sady jazyka { $currentLocale }, na které mohou lidé odpovídat.
 cs-question-dataset-name = Datová sada: { $datasetName }
 
 ## Validate Page Items
