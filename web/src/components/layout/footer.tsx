@@ -41,7 +41,7 @@ const Footer = React.memo(() => {
         <div className="divider-bottom" />
         <div className="links">
           <div>
-            <ContactLink className='left-aligned'>
+            <ContactLink className="left-aligned">
               <Localized id="contact-us">
                 <p />
               </Localized>
@@ -79,7 +79,11 @@ const Footer = React.memo(() => {
               <Link to={toLocaleRoute(URLS.FAQ)} />
             </Localized>
             <Localized id="download">
-              <Link to={toLocaleRoute(URLS.DATASETS)} />
+              <a
+                target="_blank"
+                href={URLS.MDC_DATASETS}
+                rel="noopener noreferrer"
+              />
             </Localized>
           </div>
         </div>
