@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout Application Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Retrieve Git Commit SHA
         id: vars
