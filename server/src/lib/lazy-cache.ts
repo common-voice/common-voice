@@ -343,10 +343,21 @@ function redisCache<T, S>(
           if (lock) {
             try {
               await lock.unlock()
-            } catch (unlockError) {
-              // Use rate-limited error reporting
-              reportError(unlockError as Error, 'cache-unlock')
-              cacheStrategy = 'memory'
+            } catch (unlockError: any) {
+              // Redlock unlock can fail harmlessly if TTL expired or lock already released
+              const msg = unlockError?.message || ''
+              if (
+                msg.includes('Unable to fully release the lock') ||
+                msg.includes('missing value') ||
+                msg.includes('does not exist')
+              ) {
+                // Just warn locally, do NOT switch to memory cache or report to Sentry
+                console.warn(`[lazy-cache] Non-critical unlock issue: ${msg}`)
+              } else {
+                // Unexpected or real Redis failure
+                reportError(unlockError as Error, 'cache-unlock')
+                cacheStrategy = 'memory'
+              }
             }
           }
         }
