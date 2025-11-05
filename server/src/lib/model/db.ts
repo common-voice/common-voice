@@ -14,10 +14,7 @@ import {
   AccentData,
   LanguageData,
 } from 'common'
-import lazyCache, {
-  redisSetAddWithExpiry,
-  redisSetMembers,
-} from '../lazy-cache'
+import lazyCache, { fillManyWithExpiry, redisSetMembers } from '../lazy-cache'
 import { option as O, task as T, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { DatasetStatistics } from '../../core/datasets/types/dataset'
@@ -55,7 +52,7 @@ const participantConditions = {
 }
 
 const redisKeyPerUserSentenceIdSet = (client_id: string) => {
-  return `recorded-sentences-by-${client_id}`
+  return `sentences:to-speak-by-${client_id}`
 }
 
 export const getParticipantSubquery = (
@@ -384,6 +381,12 @@ export default class DB {
       taxonomySentences.concat(regularSentences) || []
     ).slice(0, count) // make sure to only return the requested amount
 
+    // these sentences have been given to this user - save in Redis for 24 hours to prevent re-selection
+    await fillManyWithExpiry(
+      redisKeyPerUserSentenceIdSet(client_id),
+      totalSentences.map(s => s.id),
+      24 * TimeUnits.HOUR
+    )
     return this.appendMetadataToSentence(totalSentences)
   }
 
@@ -857,12 +860,6 @@ export default class DB {
     sentence: string
     duration: number
   }): Promise<void> {
-    // save in Redis regardless of mysql results - they can come back 6 hour later
-    await redisSetAddWithExpiry(
-      redisKeyPerUserSentenceIdSet(client_id),
-      original_sentence_id,
-      1 * TimeUnits.MINUTE
-    )
     // Do the insert/updates
     try {
       const [{ insertId }] = await this.mysql.query(
