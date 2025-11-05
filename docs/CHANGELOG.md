@@ -35,7 +35,7 @@
 
 ### Changes merged after current release
 
-- Fix: Refactor sentence selection for Listen page for better randomization, performance and fixing the duplicate-clip problem, by [@moz-bozden](https://github.com/moz-bozden) in [#5153](https://github.com/common-voice/common-voice/pull/5153) (in v1.154.3)
+- Fix: Refactor sentence selection for Speak page for better randomization, performance and fixing the duplicate-clip problem, by [@moz-bozden](https://github.com/moz-bozden) in [#5153](https://github.com/common-voice/common-voice/pull/5153) (in v1.154.3) and [#5157](https://github.com/common-voice/common-voice/pull/5157) (in v1.154.4)
 - Chore: Change the downloads menu to point to MDC downloads area, by [@moz-dfeller](https://github.com/moz-dfeller) In [#5151](https://github.com/common-voice/common-voice/pull/5151) (in v1.154.1 and v1.154.2)
 - CI: Add accents/variants issue templates and make changes to sripted and spontaneous speech templates, by [@bandrandr](https://github.com/bandrandr) in [#5140](https://github.com/common-voice/common-voice/pull/5140) (in v1.153.4)
 
