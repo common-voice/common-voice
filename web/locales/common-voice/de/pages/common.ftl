@@ -380,6 +380,7 @@ ts = Xitsonga
 tt = Tatarisch
 ttj = Tooro
 tui = Tupuri
+tum = Tumbuka
 tvu = Tunen
 tw = Twi
 ty = Tahitisch

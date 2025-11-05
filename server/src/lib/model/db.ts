@@ -336,12 +336,20 @@ export default class DB {
     count: number
   ): Promise<Sentence[]> {
     let taxonomySentences: Sentence[] = []
+    let regularSentences: Sentence[] = []
     const locale_id = await getLocaleId(locale)
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
 
     const prioritySegments = this.getPrioritySegments(locale)
     const countWithExtras = count + EXTRA_COUNT_MULTIPLIER * EXTRA_COUNT
 
+    // Make sure to exclude recently recorded sentences by the user (from Redis cache)
+    // to overcome race condition caused by INSERT being slower than SELECT
+    const redisSet = await redisSetMembers(
+      redisKeyPerUserSentenceIdSet(client_id)
+    )
+
+    // If there are any, get some taxonomy ones first (priority)
     if (prioritySegments.length) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
@@ -350,24 +358,31 @@ export default class DB {
         prioritySegments
       )
     }
-
-    const regularSentences =
-      taxonomySentences.length >= count
-        ? []
-        : await this.findSentencesWithFewClips(
-            client_id,
-            locale_id,
-            countWithExtras - taxonomySentences.length,
-            exemptFromSSRL
-          )
-
-    // exclude recently recorded sentences by the user (from Redis cache) to overcome race conditions
-    const redisSet = await redisSetMembers(
-      redisKeyPerUserSentenceIdSet(client_id)
+    // still prevent race condition
+    taxonomySentences = taxonomySentences.filter(
+      (s: Sentence) => !redisSet.includes(s.id)
     )
-    const totalSentences = (taxonomySentences.concat(regularSentences) || [])
-      .filter((s: Sentence) => !redisSet.includes(s.id))
-      .slice(0, count) // only return requested amount
+
+    // If not enough collected (or none) from taxonomy, fill with regular ones
+    if (taxonomySentences.length < count) {
+      // This now gets 500 (SHUFFLE_SIZE) sentences
+      // We might like to CACHE these for a while
+      regularSentences = await this.findSentencesWithFewClips(
+        client_id,
+        locale_id,
+        SHUFFLE_SIZE,
+        exemptFromSSRL
+      )
+      const nonTaxonomyCount = count - taxonomySentences.length // must be positive, this much we need more
+      regularSentences = this.getRandomSelection(
+        regularSentences.filter((s: Sentence) => !redisSet.includes(s.id)), // filter out redis ones
+        nonTaxonomyCount // get a random subset, only what we need
+      )
+    }
+
+    const totalSentences = (
+      taxonomySentences.concat(regularSentences) || []
+    ).slice(0, count) // make sure to only return the requested amount
 
     return this.appendMetadataToSentence(totalSentences)
   }
@@ -395,50 +410,49 @@ export default class DB {
     return sentences
   }
 
+  // Note: no RAND() here anymore — deterministic slice for performance, randomization done in app
   async findSentencesWithFewClips(
     client_id: string,
     locale_id: number,
-    count: number,
+    limit: number,
     exemptFromSSRL?: boolean
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT *
-        FROM (
-          SELECT sentences.id, text
-          FROM sentences
-          LEFT JOIN taxonomy_entries te ON te.sentence_id = sentences.id
-          WHERE
-            is_used
-            AND locale_id = ?
-            AND clips_count <= 15
-            AND te.sentence_id IS NULL
-            AND NOT EXISTS (
-              SELECT original_sentence_id
-              FROM clips
-              WHERE clips.original_sentence_id = sentences.id AND
-                clips.client_id = ?
-              UNION ALL
-              SELECT sentence_id
-              FROM skipped_sentences skipped
-              WHERE skipped.sentence_id = sentences.id AND
-                skipped.client_id = ?
-              UNION ALL
-              SELECT sentence_id
-              FROM reported_sentences reported
-              WHERE reported.sentence_id = sentences.id AND
-                reported.client_id = ?
-            )
-          ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
-          ORDER BY clips_count ASC
-          LIMIT ?
-        ) t
-        ORDER BY RAND()
-        LIMIT ?
-      `,
-      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
+      SELECT s.id, s.text
+      FROM sentences AS s
+      WHERE s.is_used
+        AND s.locale_id = ?
+        AND s.clips_count < 15
+        AND NOT EXISTS (
+          SELECT 1 FROM taxonomy_entries te WHERE te.sentence_id = s.id
+        )
+        ${
+          exemptFromSSRL
+            ? ''
+            : 'AND (s.clips_count = 0 OR s.has_valid_clip = 0)'
+        }
+        AND NOT EXISTS (
+          SELECT 1 FROM clips c
+          WHERE c.original_sentence_id = s.id AND c.client_id = ?
+        )
+        AND NOT EXISTS (
+          SELECT 1 FROM skipped_sentences ss
+          WHERE ss.sentence_id = s.id AND ss.client_id = ?
+        )
+        AND NOT EXISTS (
+          SELECT 1 FROM reported_sentences rs
+          WHERE rs.sentence_id = s.id AND rs.client_id = ?
+        )
+      ORDER BY s.clips_count ASC, s.id ASC
+      LIMIT ?
+    `,
+      [locale_id, client_id, client_id, client_id, limit]
     )
-    return (rows || []).map(({ id, text }: any) => ({ id, text }))
+    return (rows || []).map(({ id, text }: Sentence) => ({
+      id,
+      text,
+    }))
   }
 
   async findSentencesMatchingTaxonomy(
@@ -847,7 +861,7 @@ export default class DB {
     await redisSetAddWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       original_sentence_id,
-      6 * TimeUnits.HOUR
+      1 * TimeUnits.MINUTE
     )
     // Do the insert/updates
     try {

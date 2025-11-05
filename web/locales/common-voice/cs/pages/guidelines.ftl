@@ -333,4 +333,5 @@ code-switching-not-tag-interjections-example-4 = „Ehm“
 
 ## Reporting Content
 
+reporting-content = Nahlašování obsahu
 reporting-content-subheader = Obecné pokyny

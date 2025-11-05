@@ -35,7 +35,15 @@
 
 ### Changes merged after current release
 
+- Fix: Refactor sentence selection for Listen page for better randomization, performance and fixing the duplicate-clip problem, by [@moz-bozden](https://github.com/moz-bozden) in [#5153](https://github.com/common-voice/common-voice/pull/5153) (in v1.154.3)
+- Chore: Change the downloads menu to point to MDC downloads area, by [@moz-dfeller](https://github.com/moz-dfeller) In [#5151](https://github.com/common-voice/common-voice/pull/5151) (in v1.154.1 and v1.154.2)
+- CI: Add accents/variants issue templates and make changes to sripted and spontaneous speech templates, by [@bandrandr](https://github.com/bandrandr) in [#5140](https://github.com/common-voice/common-voice/pull/5140) (in v1.153.4)
+
 #### Data Changes after current release
+
+- Added new Tumbuke (tum) language as a starting language (in v1.154.3)
+- Update English name of `shi` from Shilha to Tachelhit (in v1.154.1)
+- Update sentence bands of 21 locales , by [@moz-bozden](https://github.com/moz-bozden) in [#5148](https://github.com/common-voice/common-voice/pull/5148) (in v1.154.1)
 
 #### Spontaneous Speech after current release
 

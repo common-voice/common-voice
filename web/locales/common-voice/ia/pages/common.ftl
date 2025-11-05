@@ -380,6 +380,7 @@ ts = xitsonga
 tt = Tataro
 ttj = Rutoro
 tui = Tupuri
+tum = Tumbuka
 tvu = Tunen
 tw = Twi
 ty = Tahitiano

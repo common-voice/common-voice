@@ -380,6 +380,7 @@ ts = Tsonga
 tt = Tatarsk
 ttj = Rutoro
 tui = Tupuri
+tum = Tumbuka
 tvu = Tunen
 tw = Twi
 ty = Tahitiaansk

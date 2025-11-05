@@ -15,6 +15,7 @@ error-content-502 = ھازىر مۇلازىمېتىرىمىز بىلەن مۇق�
 error-title-503 = كۈتۈلمىگەن مەسىلە كۆرۈلدى
 error-content-503 = بۇ تور بېكەت ئامالنىڭ بارىچە تېزلىكتە زاپاسلىنىدۇ. ئەڭ يېڭى ئۇچۇرغا ئېرىشمەكچى بولسىڭىز، <matrixLink>Matrix</matrixLink> گە قاتنىشىڭ ياكى <githubLink>GitHub</githubLink> نى زىيارەت قىلىڭ ۋە ياكى <discourseLink> مۇنازىرە مۇنبىرىمىز </discourseLink> گە ئۇچرىغان مەسىلىلەرنى يوللاڭ.
 error-title-504 = ئىلتىماس ۋاقتى ئۆتتى
+error-content-504 = ئىلتىماسنى بىر تەرەپ قىلىشقا بەك ئۇزۇن ۋاقىت كەتتى. بۇ ئادەتتە ۋاقىتلىق. سەل تۇرۇپ قايتا سىناڭ. ياردەمگە ئېرىشىش ئۈچۈن، <matrixLink>Matrix جامائەت سۆھبىتى</matrixLink>گە قوشۇلۇڭ، <githubLink>GitHub</githubLink> دىن تور بېكەت مەسىلىسىنى كۆزىتىڭ ياكى  <discourseLink>Discourse مۇنازىرە مۇنبىرى</discourseLink> مىزنى زىيارەت قىلىڭ.
 error-code = خاتالىق { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =

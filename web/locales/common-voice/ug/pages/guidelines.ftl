@@ -6,6 +6,7 @@ sentence-collection = جۈملە توپلىمى
 question-collection = سوئال توپلىمى
 scripted-speech = قوليازما نۇتقى
 spontaneous-speech = تەبىئىي نۇتۇق
+dont-subheader = قىلمايدىغىنى
 
 ## Voice Collection nav ids
 
@@ -118,6 +119,7 @@ what-makes-a-good-question-explanation = كۆپچىلىك قاتنىشىدىغا
 what-makes-a-good-question-explanation-criteria-1 = چۈشىنىش ئاسان ۋە جاۋاب بېرىشمۇ ئاسان
 what-makes-a-good-question-explanation-criteria-2 = مەنىسى ئېنىق
 what-makes-a-good-question-explanation-criteria-3 = باشقىلارغا زىيان يەتكۈزىدىغان ياكى تېرىكتۈرىدىغان تىل ئىشلىتىشكە ياكى يېتەكلەشكە بولمايدۇ
+what-makes-a-good-question-tip = سىز يەنە ئوخشىمىغان مەزمۇن ۋە دائىرىدىن ھالقىشنى ئويلىشىڭىز كېرەك بولۇشى مۇمكىن.
 easy-to-understand = چۈشىنىش ئاسان
 easy-to-understand-explanation = ھەر خىل مەدەنىيەت ۋە ئارقا كۆرۈنۈشتىكى كىشىلەر ئاسان چۈشىنەلەيدىغان ئاددى جۈملىنى تاللاڭ.
 spelling-and-pronunciation = ئىملا ۋە تىنىش بەلگىلىرى
