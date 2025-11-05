@@ -32,3 +32,4 @@ do-not-section-guideline-2 = Nevyjadřujte nebo nevyvolávejte předsudky nebo u
 do-not-section-guideline-3 = Neklaďte citlivé otázky
 # Code switching Guidelines
 cs-do-section-guideline-1 = Používejte dvojjazyčné otázky nebo kontext
+cs-do-not-section-guideline-3 = Používejte příliš formální jazyk
