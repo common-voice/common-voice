@@ -187,6 +187,24 @@ export async function redisSetAddWithExpiry(
   }
 }
 
+// Replace Redis SET with new values (deletes old, sets new, sets TTL)
+export async function fillManyWithExpiry(
+  key: string,
+  values: (number | string)[],
+  cacheDurationMs: number
+): Promise<void> {
+  if (values.length === 0 || (await getCacheStrategy()) !== 'redis') return
+
+  try {
+    await redis.sadd(key, ...values.map(String))
+    await redis.expire(key, Math.floor(cacheDurationMs / 1000))
+  } catch (error) {
+    // Use rate-limited error reporting
+    reportError(error as Error, 'redis-set-add')
+    cacheStrategy = 'memory'
+  }
+}
+
 // Gets values from a Redis SET (if exists)
 export async function redisSetMembers(key: string): Promise<string[]> {
   if ((await getCacheStrategy()) !== 'redis') return []
