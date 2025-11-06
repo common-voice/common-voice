@@ -67,6 +67,8 @@ Many language communities are self organising and have their contact channels on
   - [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
 - Hmong (`hmn`):
   - [Discord](https://discord.gg/bFwWvH85RY)
+- Igbo (`ig`):
+  - [WhatsApp Group](https://chat.whatsapp.com/Cgw9yD2Xt1XFm6RiJe1bwb?mode=wwt)
 - Italian (`it`):
   - [Telegram](https://t.me/mozitabot)
 - Kiswahili (`sw`):
