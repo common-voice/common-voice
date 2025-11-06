@@ -235,6 +235,7 @@ code-switching-ask-bilingual-contexts-explanation-example = "Když mluvíš se s
 code-switching-focus-emotional-header = Zaměřte se na emotivní nebo důležité věci
 code-switching-focus-emotional-explanation = Lidé často kódově přepínají, když vyjadřují emoce nebo naléhavost. Příklad:
 code-switching-focus-emotional-explanation-example = "Řekni mi, co řekli tvoji rodiče, když jsi jim oznámil svou velkou novinu — přesně tak, jak to řekli."
+code-switching-direct-quotes-header = Požádejte o přímé citace nebo rekonstrukce
 code-switching-direct-quotes-explanation = Vyzvěte účastníky, aby reprodukovali, jak byly věci skutečně řečeny. Příklad:
 code-switching-direct-quotes-explanation-example = "Jaká byla vaše přesná slova, když jste to zjistil?"
 code-switching-cultural-topics-header = Zvolte kulturně specifická témata
@@ -279,6 +280,8 @@ code-switching-authentic-direct-quotes = <bold>Vložte přímé uvozovky nebo di
 code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tu crees queesto es un juego?' a já si říkal: 'Okay klid!'"
 code-switching-authentic-reflect = <bold>Reflexe emocí, identity a kontextu.</bold> Ke změně obvykle dochází, když lidé vyjadřují emoce, naléhavost nebo kulturní myšlenky. Opřete se o ně při odpovídání na otázky.
 code-switching-authentic-full-context = <bold>Používejte plné odpovědi s kontextem.</bold> Buďte co nejpodrobnější a co možná nejpodrobnější. Sdílejte ve svých odpovědích příběh nebo příklad.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nepřemýšlejte příliš a nepřehánějte úpravy
 code-switching-answer-dont-correct-language = <bold>„Opravte“ svůj jazyk.</bold> Toto není test. Na „správné“ formě nezáleží, záleží na přirozeném jazyce.
 code-switching-answer-dont-avoid-switching = <bold>Nepřepínejte je, pokud to obvykle děláte.</bold> Je dobré přepínat uprostřed vět, uprostřed myšlenky nebo jen pro jedno slovo.
 code-switching-answer-dont-formal-writing = <bold>Mluvte, jako když píšete.</bold> Vyhněte se formálním, akademickým odpovědím. Nechte to konverzační.
@@ -323,6 +326,7 @@ code-switching-pronunciation-explanation-example-1 = Angličtina: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španělština: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Označování v jednom tokenu
+code-switching-single-token-explanation = Jeden token oddělený mezerami by měl obsahovat více než jeden označený rozsah (span).
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Dávejte si pozor na podobnosti
 code-switching-lookalikes-explanation = Některá slova mohou vypadat jako v jednom jazyce, ale jsou používána v jiném jazyce. Označení podle významu a způsobu použití, ne podle vzhledu. Příklady:
