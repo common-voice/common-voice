@@ -327,6 +327,9 @@ code-switching-pronunciation-explanation-example-2 = Španělština: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Označování v jednom tokenu
 code-switching-single-token-explanation = Jeden token oddělený mezerami by měl obsahovat více než jeden označený rozsah (span).
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Označení interpunkce na základě blízkého jazyka
+code-switching-punctuation-tagging-explanation = Označte interpunkci pomocí jazyka, který je nejblíže zleva. Příklady:
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Dávejte si pozor na podobnosti
 code-switching-lookalikes-explanation = Některá slova mohou vypadat jako v jednom jazyce, ale jsou používána v jiném jazyce. Označení podle významu a způsobu použití, ne podle vzhledu. Příklady:
