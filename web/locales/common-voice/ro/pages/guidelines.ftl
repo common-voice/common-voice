@@ -60,21 +60,21 @@ contact-common-voice = Ia legătura cu echipa proiectului Common Voice
 
 ## Sentence collection nav ids
 
-public-domain = Domeniul public
+public-domain = Domeniu public
 citing-sentences = Sursa propozițiilor
-adding-sentences = Adăugarea de propoziții
-reviewing-sentences = Verificarea propozițiilor
-sentence-domain = Domeniul propozițiilor
+adding-sentences = Adăugare de propoziții
+reviewing-sentences = Verificare propoziții
+sentence-domain = Domeniul propoziției
 
 ## Sentence collection sidebar content
 
-public-domain-explanation-1 = Toate propozițiile scrise trebuie să se găsească în <publicDomain>domeniul public</publicDomain> (<cc0>sub licență CC0</cc0>), pentru că setul de date Common Voice este și el publicat sub licență CC0. Încarcă doar propoziții de acest fel și indică-le mereu sursa.
+public-domain-explanation-1 = Toate propozițiile scrise trebuie să fie de <publicDomain>domeniul public</publicDomain> (<cc0>sub licență CC0</cc0>), pentru că setul de date Common Voice este și el publicat sub licență CC0. Încarcă doar propoziții de acest fel și indică-le mereu sursa.
 public-domain-explanation-2 = Pentru a construi un motor de recunoaștere vocală, cele mai potrivite propoziții sunt cele scrise în limbaj colocvial, modern. Iată câteva idei pentru a crea propoziții adecvate:
 public-domain-explanation-3 = Scrie propoziții folosind un limbaj modern, colocvial. Fă-o singur, cu prietenii, sau împreună cu membrii comunității tale lingvistice (de exemplu, prin organizarea unui atelier de scriere de tip „write-a-thon”).
-public-domain-explanation-4 = Ia legătura cu autori, dramaturgi sau scenariști și întreabă-i dacă doresc să doneze domeniului public o mică parte din lucrările lor.
-public-domain-explanation-5 = Caută texte ale căror drepturi de autor au expirat - cum ar fi, de exemplu, majoritatea cărților publicate înainte de 1920.
-public-domain-explanation-6 = Întreabă organizațiile guvernamentale, non-profit sau media dacă vor să doneze domeniului public vreunul din textele lor de pe web, rapoarte sau alte materiale.
-citing-sentences-explanation-1 = Este important să menționezi sursa textelor pentru ca noi să putem verifica dacă propozițiile sunt în domeniul public și nu au vreo restricție privind drepturile de autor.
+public-domain-explanation-4 = Ia legătura cu autori, dramaturgi sau scenariști și întreabă-i dacă doresc să introducă în domeniul public o mică parte din lucrările lor.
+public-domain-explanation-5 = Caută texte cu drepturi de reproducere expirate - cum ar fi, de exemplu, majoritatea cărților publicate înainte de 1920
+public-domain-explanation-6 = Întreabă organizațiile guvernamentale, non-profit sau media dacă vor introducă în domeniul public o parte din textele lor de pe web, rapoarte sau alte materiale.
+citing-sentences-explanation-1 = Este important să menționezi sursa textelor ca să putem verifica dacă sunt de domeniul public și nu au vreo restricție privind drepturile de reproducere.
 citing-sentences-subheader-websites = Site-uri web
 citing-sentences-subheader-websites-explanation = Ai putea menționa site-ul web (de exemplu „Common Voice - https://commonvoice.mozilla.org/”).
 citing-sentences-subheader-academic-reference = Sistem științific de referențiere
@@ -182,6 +182,7 @@ transcribe-the-audio-subheader-2-example-4-wrong = <correct>Greșit</correct>: A
 transcribe-the-audio-subheader-3-explanation = Următoarele etichete speciale trebuie utilizate pentru a indica carențele de fluență în exprimare, elementele fără valoare, de umplutură, și alte tipuri de conținut non-verbal. Etichetele trebuie păstrate în limba engleză.
 tags-table-header-1 = Etichetă
 tags-table-header-2 = Înțeles
+tags-laugh = Laugh
 tags-disfluency = Disfluency
 tags-unclear = Unclear
 tags-noise = Noise
