@@ -182,7 +182,6 @@ transcribe-the-audio-subheader-2-example-4-wrong = <correct>Greșit</correct>: A
 transcribe-the-audio-subheader-3-explanation = Următoarele etichete speciale trebuie utilizate pentru a indica carențele de fluență în exprimare, elementele fără valoare, de umplutură, și alte tipuri de conținut non-verbal. Etichetele trebuie păstrate în limba engleză.
 tags-table-header-1 = Etichetă
 tags-table-header-2 = Înțeles
-tags-laugh = Laugh
 tags-disfluency = Disfluency
 tags-unclear = Unclear
 tags-noise = Noise
