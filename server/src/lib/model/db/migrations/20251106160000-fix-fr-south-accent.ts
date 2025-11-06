@@ -1,6 +1,22 @@
 // This is only production specific migration
 // Fixes missing French South accent
 // It was caused because there is a user-defined accent with the same name
+//
+// The accent table has UNIQUE KEY `accent_key` (`locale_id`,`accent_name`)
+// In 2024, somebody added a user-defined accent "Français du sud de la France"
+// which blocked the creation of the predefined accent "fr-metro-south" with the same name
+// during our 20251010200000-migrate-accents-variants-fr.ts migration
+//
+// We cannot directly delete the old user-defined one, because there may be users assigned to it (there are actually two of them in production)
+//
+// So the steps are:
+// - Rename the old user-defined accent to "[DEPRECATED] Français du sud de la France"
+// - Create the predefined accent "fr-metro-south"
+// - Re-assign all users from the deprecated accent to the new predefined accent
+// - Delete the deprecated accent
+//
+// We had to wrap everything in a transaction for safety
+//
 const LOCALE_CODE = 'fr'
 
 const OLD_USER_ACCENT_CODE = 'français-du-sud-de-la-france'
