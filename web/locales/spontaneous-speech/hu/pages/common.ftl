@@ -46,6 +46,9 @@ not-found-page-content = A keresett oldal nem található
 accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
 # Locales (not yet fully resolved in Pontoon)
 meh = Délnyugat-tlaxiacói mizték
+# Locales-Variants
+ms-MY = Maláj
+el-CY = Ciprióta görög
 
 ## Language search component
 
