@@ -164,6 +164,21 @@ transcribe-the-audio-subheader-4 = Szórészletek, hamis kezdések, ismétlődő
 transcribe-the-audio-subheader-5 = Nyelvtani hibák és kollokvializmusok
 transcribe-the-audio-subheader-1-explanation = Általában le kell írnia mindent, amit hall. Ez ezt takarja:
 transcribe-the-audio-subheader-1-explanation-example-1 = A nehézségek leírása, beleértve a habozásokat és az ismétlődéseket is
+transcribe-the-audio-subheader-1-explanation-example-2 = Zajesemények címkézése, mint a köhögés vagy a nevetés
+transcribe-the-audio-subheader-1-explanation-example-3 = Jelentős zajszennyezés címkézése, mint a háttérben zajló csevegés vagy autódudák
+transcribe-the-audio-subheader-1-explanation-example-4 = A nyelvtani változatokat és a szlengeket előfordulásuk szerint kell rögzíteni. Ne javítsa vagy szerkessze mások beszédét.
+transcribe-the-audio-subheader-2-explanation-1 = A számokat és szimbólumokat szavakkal kell kiírni, nem számokkal vagy speciális karakterekkel. Példa:
+transcribe-the-audio-subheader-2-explanation-2 = A mozaikszavakat az adott nyelven szokásos módon kell írni, a nagybetűkre vonatkozó szokásos szabályok szerint. Ezeket nem szabad fonetikusan átírni. Példa:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Helyes</correct>: száz kilométerre van innen
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Hibás</wrong>: 100 kilométerre van innen
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Helyes</correct>: Viszlát <underline>kétezer-tizenötben</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Hibás</wrong>: Viszlát <underline>2015-ben</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Helyes</correct>: húsz százalékos kedvezmény volt rá
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>HIbás</wrong>: 20%-os kedvezmény volt rá
 
 ## Code-Switching
 
