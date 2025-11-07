@@ -25,7 +25,9 @@ tag-error-toast-message = Hiba történt a címkék beküldésekor
 tag-empty-submit-error = Nincs beküldendő szöveg. Előbb címkézzen valamilyen szöveget.
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Használjon helyes írásmódot
+cs-tag-do-guideline-2 = Segítsen a kiejtéssel
 cs-tag-do-guideline-3 = Legyen óvatos az azonos alakú szavakkal
+cs-tag-do-not-guideline-1 = Címkézzen tulajdonneveket, kevert szavakat vagy indulatszavakat
 cs-tag-shortcuts-section-title = Billentyűzethasználat
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> címkézés a nyelvvel
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
