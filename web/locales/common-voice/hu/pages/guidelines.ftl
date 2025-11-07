@@ -189,6 +189,13 @@ tags-disfluency = Megszakadás
 tags-unclear = Nem egyértelmű
 tags-noise = Zaj
 tags-laugh-explanation = A nevetés hangja.
+tags-disfluency-explanation =
+    Töltelékszó vagy helykitöltőként használt hang, miközben a beszélő eldönti, hogy mit akar mondani.
+    A magyarban néhány gyakori tétovázási hangok a „hát”, „hmm”, „ööö” stb.
+tags-unclear-explanation = Egy szó vagy szósorozat, amely nem érthető.
+tags-noise-explanation =
+    Bármilyen más típusú zaj, például a beszélő köhög vagy köszörüli a torkát,
+    egy autó dudál, valami megüti a mikrofont, csörög egy telefon, stb.
 
 ## Code-Switching
 
