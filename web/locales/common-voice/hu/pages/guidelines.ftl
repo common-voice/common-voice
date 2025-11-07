@@ -179,6 +179,16 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Helyes</correct>:
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Hibás</wrong>: Viszlát <underline>2015-ben</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Helyes</correct>: húsz százalékos kedvezmény volt rá
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>HIbás</wrong>: 20%-os kedvezmény volt rá
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Helyes</correct>: Az <underline>FBI</underline> letartóztatta őket múlt csütörtökön
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>HIbás</wrong>: Az <underline>ef bí áj</underline> letartóztatta őket múlt csütörtökön
+transcribe-the-audio-subheader-3-explanation = A következő speciális címkéket kell használni az eltérések, töltelékszavak és más nem verbális tartalmak jelölésére (angolul).
+tags-table-header-1 = Címke
+tags-table-header-2 = Jelentés
+tags-laugh = Nevetés
+tags-disfluency = Megszakadás
+tags-unclear = Nem egyértelmű
+tags-noise = Zaj
+tags-laugh-explanation = A nevetés hangja.
 
 ## Code-Switching
 
