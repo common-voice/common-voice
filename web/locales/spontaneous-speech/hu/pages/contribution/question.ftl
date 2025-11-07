@@ -28,3 +28,7 @@ do-not-section-guideline-2 = Fejezzen ki előítéletes vagy sértő érzéseket
 do-not-section-guideline-3 = Tegyen fel kényes kérdéseket
 # Code switching Guidelines
 cs-do-section-guideline-1 = Használjon kétnyelvű kérdéseket vagy szövegkörnyezetet
+cs-do-section-guideline-2 = Fedezzen fel informális helyzeteket vagy rekonstrukciókat
+cs-do-not-section-guideline-1 = Kérjen személyazonosításra alkalmas adatokat (például neveket vagy pénzügyi információkat) vagy sértő gondolatokat
+cs-do-not-section-guideline-2 = Kérjen kódváltást vagy kérjen fordítást
+cs-do-not-section-guideline-3 = Használjon túl formális nyelvezetet
