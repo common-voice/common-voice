@@ -330,6 +330,9 @@ code-switching-single-token-explanation = Jeden token oddělený mezerami by mě
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Označení interpunkce na základě blízkého jazyka
 code-switching-punctuation-tagging-explanation = Označte interpunkci pomocí jazyka, který je nejblíže zleva. Příklady:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>a jednou na mě</purple> Maria <purple>křičela</purple> <blue>porque</blue> <purple>snažila se</purple> printear <blue>un</blue> <purple>pořádek.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>ale</purple> <blue>ú los puedes comprar rojo, negro, azul</blue>, <purple>to je jedno.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Dávejte si pozor na podobnosti
 code-switching-lookalikes-explanation = Některá slova mohou vypadat jako v jednom jazyce, ale jsou používána v jiném jazyce. Označení podle významu a způsobu použití, ne podle vzhledu. Příklady:
