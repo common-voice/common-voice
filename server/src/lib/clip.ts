@@ -215,20 +215,6 @@ export default class Clip {
       return
     }
 
-    // Audio content length validation
-    const contentLength = parseInt(headers['content-length'] || '0', 10)
-    if (!contentLength || contentLength === 0) {
-      this.clipSaveError(
-        headers,
-        response,
-        400,
-        'Empty audio data: content-length is 0',
-        ERRORS.MISSING_PARAM,
-        'clip'
-      )
-      return
-    }
-
     const sentence = await this.model.db.findSentence(sentenceId)
     if (!sentence) {
       this.clipSaveError(
