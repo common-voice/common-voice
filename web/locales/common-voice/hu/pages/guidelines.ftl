@@ -200,6 +200,13 @@ transcribe-the-audio-subheader-4-explanation-2 = Néha a beszélők többször m
 transcribe-the-audio-subheader-4-explanation-2-example = Aztán átmentem <underline>a háló- a</underline> hálószobába
 transcribe-the-audio-subheader-5-explanation-1 = A spontán beszéd természetesen tartalmaz nyelvtani hibákat. Ezeket nem szabad a leiratozáskor javítani. A leiratnak pontosan tükröznie kell az elhangzott tartalmat.
 
+## Review the Transcription
+
+review-the-transcription = Leirat ellenőrzése
+review-the-transcription-subheader = Általános útmutatás
+review-the-transcription-explanation-1 = Általánosságban azt tanácsoljuk, hogy ne ugyanaz a személy ellenőrizze a leiratot, aki az eredeti leiratozást végezte. Nagyon nehéz ellenőrizni a saját munkát! A többszintű ellenőrzés robusztusabbá teheti a minőségbiztosítást, és csökkentheti a torzításokat és a hibákat.
+review-the-transcription-explanation-2 = Tekintse át a fenti leiratozási irányelveket, hogy ellenőrizze, hogy a leirat pontos-e. Szerkesztéseket végezhet és beküldheti.
+
 ## Code-Switching
 
 code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
