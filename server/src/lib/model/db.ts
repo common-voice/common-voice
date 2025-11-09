@@ -14,7 +14,10 @@ import {
   AccentData,
   LanguageData,
 } from 'common'
-import lazyCache, { fillManyWithExpiry, redisSetMembers } from '../lazy-cache'
+import lazyCache, {
+  redisSetFillManyWithExpiry,
+  redisSetMembers,
+} from '../lazy-cache'
 import { option as O, task as T, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { DatasetStatistics } from '../../core/datasets/types/dataset'
@@ -386,7 +389,7 @@ export default class DB {
     ).slice(0, count) // make sure to only return the requested amount
 
     // these sentences have been given to this user - save in Redis for 24 hours to prevent re-selection
-    await fillManyWithExpiry(
+    await redisSetFillManyWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       totalSentences.map(s => s.id),
       24 * TimeUnits.HOUR
