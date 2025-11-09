@@ -4,8 +4,8 @@ import * as Sentry from '@sentry/node'
 import { TimeUnits } from 'common'
 
 // Monitor Redis state specifically for lazy-cache
-redis.on('connect', () => console.debug('[LazyCache-Redis] Connecting...'))
-redis.on('ready', () => console.debug('[LazyCache-Redis] Ready'))
+// redis.on('connect', () => console.debug('[LazyCache-Redis] Connecting...'))
+redis.on('ready', () => console.info('[LazyCache-Redis] Ready'))
 redis.on('error', err => console.error('[LazyCache-Redis] Error:', err.message))
 redis.on('close', () => console.warn('[LazyCache-Redis] Connection closed'))
 redis.on('reconnecting', delay =>
@@ -93,9 +93,9 @@ export function stopHealthMonitoring(): void {
 
 export async function performHealthCheck(): Promise<void> {
   const previousStrategy = cacheStrategy
-  console.debug(
-    `[LazyCache] Health check starting. Previous: ${previousStrategy}, Consecutive failures: ${consecutiveFailures}`
-  )
+  // console.debug(
+  //   `[LazyCache] Health check starting. Previous: ${previousStrategy}, Consecutive failures: ${consecutiveFailures}`
+  // )
 
   try {
     // Add timeout to prevent hanging on queued commands
@@ -105,18 +105,18 @@ export async function performHealthCheck(): Promise<void> {
     )
 
     await Promise.race([pingPromise, timeoutPromise])
-    console.debug(`[LazyCache] Redis ping successful`)
+    // console.debug(`[LazyCache] Redis ping successful`)
     consecutiveFailures = 0
 
     if (previousStrategy === 'memory') {
-      console.log('[LazyCache] Redis recovered, switching to Redis cache')
+      console.warn('[LazyCache] Redis recovered, switching to Redis cache')
       cacheStrategy = 'redis'
       Sentry.captureMessage('[LazyCache] Redis cache recovered', {
         level: 'info',
         tags: { context: 'cache-recovery' },
       })
     } else {
-      console.debug('[LazyCache] Redis healthy, staying in Redis mode')
+      // console.debug('[LazyCache] Redis healthy, staying in Redis mode')
     }
   } catch (error) {
     console.warn(`[LazyCache] Redis ping failed: ${error.message}`)
@@ -132,15 +132,15 @@ export async function performHealthCheck(): Promise<void> {
       cacheStrategy = 'memory'
       reportError(error as Error, 'health-check-failure')
     } else {
-      console.debug(
+      console.warn(
         `[LazyCache] Failure ${consecutiveFailures}, not switching yet`
       )
     }
   }
   lastHealthCheck = Date.now()
-  console.debug(
-    `[LazyCache] Health check completed. Strategy: ${cacheStrategy}`
-  )
+  // console.debug(
+  //   `[LazyCache] Health check completed. Strategy: ${cacheStrategy}`
+  // )
 }
 
 async function getCacheStrategy(): Promise<'redis' | 'memory'> {

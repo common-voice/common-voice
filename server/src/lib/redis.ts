@@ -22,11 +22,11 @@ export const redis = new Redis(getConfig().REDIS_URL, {
 
 // Connection event logging
 redis.on('connect', () => console.debug('[Redis] Connecting...'))
-redis.on('ready', () => console.log('[Redis] Ready and connected'))
+redis.on('ready', () => console.info('[Redis] Ready and connected'))
 redis.on('error', err => console.error('[Redis] Error:', err.message))
 redis.on('close', () => console.warn('[Redis] Connection closed'))
 redis.on('reconnecting', delay =>
-  console.log(`[Redis] Reconnecting in ${delay}ms`)
+  console.warn(`[Redis] Reconnecting in ${delay}ms`)
 )
 redis.on('end', () => console.warn('[Redis] Connection ended'))
 
@@ -39,14 +39,14 @@ export const redlock = new Redlock([redis], {
 export const useRedis = new Promise(resolve => {
   // If already connected, resolve immediately
   if (redis.status === 'ready') {
-    console.debug('[Redis] Already connected')
+    // console.debug('[Redis] Already connected')
     resolve(true)
     return
   }
 
   // Otherwise wait for ready event
   const onReady = () => {
-    console.debug('[Redis] Connected via useRedis promise')
+    // console.debug('[Redis] Connected via useRedis promise')
     cleanup()
     resolve(true)
   }
@@ -68,6 +68,6 @@ export const useRedis = new Promise(resolve => {
   redis.once('ready', onReady)
   redis.once('error', onError)
 }).then(val => {
-  console.log('[Redis] Cache strategy:', val ? 'redis' : 'in-memory')
+  console.info('[Redis] Cache strategy:', val ? 'redis' : 'in-memory')
   return val
 })
