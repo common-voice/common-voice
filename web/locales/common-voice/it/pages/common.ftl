@@ -192,6 +192,7 @@ kw = Cornico
 kxp = Wadiyara Koli
 ky = Kirghiso
 kzi = Kelabit
+laj = Lango
 lb = Lussemburghese
 led = Lendu
 leu = Kara

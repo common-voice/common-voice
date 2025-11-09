@@ -87,7 +87,7 @@ const getAllLeaderboardData = () => {
       return { clipData, voteData }
     },
     1 * TimeUnits.HOUR,
-    10 * TimeUnits.MINUTE // One big computation every hour
+    15 * TimeUnits.MINUTE // One big computation every hour
   )()
 }
 
@@ -180,7 +180,7 @@ const getGlobalVoteLeaderboard = () => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    2 * TimeUnits.HOUR,
+    1 * TimeUnits.HOUR,
     5 * TimeUnits.SECOND
   )()
 }
@@ -210,7 +210,7 @@ const getLocaleVoteLeaderboard = (locale: string) => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    2 * TimeUnits.HOUR,
+    1 * TimeUnits.HOUR,
     5 * TimeUnits.SECOND
   )()
 }

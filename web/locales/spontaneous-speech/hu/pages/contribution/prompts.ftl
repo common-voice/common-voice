@@ -28,5 +28,5 @@ learn-how-to-use-transcribe = Ismerje meg a leiratozás menetét
 learn-how-to-use-transcribe-explanation = Pontosan azt írja le, amit a beszélő mondott, beleértve az olyan helykitöltő szavakat is, mint az „öhm” vagy az „aaa”.
 learn-how-to-use-transcribe-guidance = Az oldal használatának megismeréséhez kattintson <guidanceLink>ide</guidanceLink>
 learn-how-to-use-check-transcript = Ismerje meg a leiratok ellenőrzését
-learn-how-to-use-check-transcript-explanation = A leiratnak rögzítenie kell a beszélő összes szavát vagy nem lexikális hangjait, beleértve az ismétléseket is.
+learn-how-to-use-check-transcript-explanation = A leiratnak rögzítenie kell a beszélő összes szavát vagy nem lexikális hangját, beleértve az ismétléseket is.
 learn-how-to-use-check-transcript-guidance = Az oldal használatának megismeréséhez kattintson <guidanceLink>ide</guidanceLink>

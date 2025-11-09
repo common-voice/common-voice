@@ -15,7 +15,7 @@ import {
   LanguageData,
 } from 'common'
 import lazyCache, {
-  redisSetAddWithExpiry,
+  redisSetFillManyWithExpiry,
   redisSetMembers,
 } from '../lazy-cache'
 import { option as O, task as T, taskEither as TE } from 'fp-ts'
@@ -26,6 +26,9 @@ import {
   findVariantsBySentenceIdsInDb,
 } from '../../application/repository/variant-repository'
 import { TimeUnits } from 'common'
+
+// Flag to disable taxonomy prioritization
+const DISABLE_TAXONOMY_PRIORITY = true
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -55,7 +58,7 @@ const participantConditions = {
 }
 
 const redisKeyPerUserSentenceIdSet = (client_id: string) => {
-  return `recorded-sentences-by-${client_id}`
+  return `sentences:to-speak-by-${client_id}`
 }
 
 export const getParticipantSubquery = (
@@ -339,8 +342,6 @@ export default class DB {
     let regularSentences: Sentence[] = []
     const locale_id = await getLocaleId(locale)
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
-
-    const prioritySegments = this.getPrioritySegments(locale)
     const countWithExtras = count + EXTRA_COUNT_MULTIPLIER * EXTRA_COUNT
 
     // Make sure to exclude recently recorded sentences by the user (from Redis cache)
@@ -349,19 +350,22 @@ export default class DB {
       redisKeyPerUserSentenceIdSet(client_id)
     )
 
-    // If there are any, get some taxonomy ones first (priority)
-    if (prioritySegments.length) {
-      taxonomySentences = await this.findSentencesMatchingTaxonomy(
-        client_id,
-        locale_id,
-        countWithExtras,
-        prioritySegments
+    if (!DISABLE_TAXONOMY_PRIORITY) {
+      const prioritySegments = this.getPrioritySegments(locale)
+      // If there are any, get some taxonomy ones first (priority)
+      if (prioritySegments.length) {
+        taxonomySentences = await this.findSentencesMatchingTaxonomy(
+          client_id,
+          locale_id,
+          countWithExtras,
+          prioritySegments
+        )
+      }
+      // still prevent race condition
+      taxonomySentences = taxonomySentences.filter(
+        (s: Sentence) => !redisSet.includes(s.id)
       )
     }
-    // still prevent race condition
-    taxonomySentences = taxonomySentences.filter(
-      (s: Sentence) => !redisSet.includes(s.id)
-    )
 
     // If not enough collected (or none) from taxonomy, fill with regular ones
     if (taxonomySentences.length < count) {
@@ -384,6 +388,12 @@ export default class DB {
       taxonomySentences.concat(regularSentences) || []
     ).slice(0, count) // make sure to only return the requested amount
 
+    // these sentences have been given to this user - save in Redis for 24 hours to prevent re-selection
+    await redisSetFillManyWithExpiry(
+      redisKeyPerUserSentenceIdSet(client_id),
+      totalSentences.map(s => s.id),
+      24 * TimeUnits.HOUR
+    )
     return this.appendMetadataToSentence(totalSentences)
   }
 
@@ -857,12 +867,6 @@ export default class DB {
     sentence: string
     duration: number
   }): Promise<void> {
-    // save in Redis regardless of mysql results - they can come back 6 hour later
-    await redisSetAddWithExpiry(
-      redisKeyPerUserSentenceIdSet(client_id),
-      original_sentence_id,
-      1 * TimeUnits.MINUTE
-    )
     // Do the insert/updates
     try {
       const [{ insertId }] = await this.mysql.query(

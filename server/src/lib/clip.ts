@@ -215,20 +215,6 @@ export default class Clip {
       return
     }
 
-    // Audio content length validation
-    const contentLength = parseInt(headers['content-length'] || '0', 10)
-    if (!contentLength || contentLength === 0) {
-      this.clipSaveError(
-        headers,
-        response,
-        400,
-        'Empty audio data: content-length is 0',
-        ERRORS.MISSING_PARAM,
-        'clip'
-      )
-      return
-    }
-
     const sentence = await this.model.db.findSentence(sentenceId)
     if (!sentence) {
       this.clipSaveError(
@@ -364,12 +350,19 @@ export default class Clip {
         if (!response.headersSent) {
           const message =
             err instanceof Error ? err.message : String(err ?? 'Unknown error')
+          const fingerprint = message
+            .replace(/0x[0-9a-f]+/gi, '<addr>')
+            .replace(
+              /in stream (\d+):\s*\d+\s*>=\s*\d+/g,
+              'in stream $1: <var>'
+            )
+            .trim()
           this.clipSaveError(
             headers,
             response,
             500,
             `${message}`,
-            `ffmpeg ${message}`,
+            `[ffmpeg] ${fingerprint}`,
             'clip'
           )
         }

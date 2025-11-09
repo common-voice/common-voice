@@ -24,6 +24,9 @@ example = Példa
 
 varying-pronunciations-explanation-1 = Minden akcentust szívesen várunk! Legyen nagyon óvatos, mielőtt azért utasít el egy klipet, mert az olvasó hibásan ejtett ki egy szót, rossz helyre tette a hangsúlyt, vagy figyelmen kívül hagyta a központozást. Sokféle kiejtést használnak, és nem biztos, hogy mindet hallotta a helyi közösségében. Erősen vegye figyelembe, hogy mások másképpen beszélnek.
 varying-pronunciations-explanation-2 = Másrészt, ha úgy gondolja, hogy az olvasó még sosem találkozott a szóval, és tévesen tippelt a kiejtésére, akkor utasítsa el. Ha bizonytalan, használja a kihagyás gombot.
+varying-pronunciations-example = A posta zárva volt.
+varying-pronunciations-tip-1 = [A sztenderd nyelvváltozatban rövid o-val mondjuk]
+varying-pronunciations-tip-2 = [Viszont egyes nyelvjárásokban hosszú ó-val ejtik]
 offensive-content-explanation = A mondatok egy közösségi moderálási folyamat során kerülnek átvizsgálásra, azonban ez a folyamat nem tökéletes. Ha olyan mondatot lát vagy hall, amely sérti Önt – például mert sérti a <participationGuidelines>közösségi részvételi irányelveinket</participationGuidelines> –, akkor használja a jelentés gombot a felületen. Felkereshet minket a <emailFragment>commonvoice@mozilla.com</emailFragment> címen is.
 misreadings-explanation-1 = Számít, hogy az oldalon lévő összes szót helyesen olvassa-e fel. Hallgatáskor nagyon gondosan ellenőrizze, hogy pontosan az lett rögzítve, ami le lett írva; elutasítsa el, ha hozzáadott, összevont vagy kihagyott szavakat.
 misreadings-explanation-2 = A gyakori hibák közé tartoznak a következők:
@@ -161,9 +164,67 @@ transcribe-the-audio-subheader-4 = Szórészletek, hamis kezdések, ismétlődő
 transcribe-the-audio-subheader-5 = Nyelvtani hibák és kollokvializmusok
 transcribe-the-audio-subheader-1-explanation = Általában le kell írnia mindent, amit hall. Ez ezt takarja:
 transcribe-the-audio-subheader-1-explanation-example-1 = A nehézségek leírása, beleértve a habozásokat és az ismétlődéseket is
+transcribe-the-audio-subheader-1-explanation-example-2 = Zajesemények címkézése, mint a köhögés vagy a nevetés
+transcribe-the-audio-subheader-1-explanation-example-3 = Jelentős zajszennyezés címkézése, mint a háttérben zajló csevegés vagy autódudák
+transcribe-the-audio-subheader-1-explanation-example-4 = A nyelvtani változatokat és a szlengeket előfordulásuk szerint kell rögzíteni. Ne javítsa vagy szerkessze mások beszédét.
+transcribe-the-audio-subheader-2-explanation-1 = A számokat és szimbólumokat szavakkal kell kiírni, nem számokkal vagy speciális karakterekkel. Példa:
+transcribe-the-audio-subheader-2-explanation-2 = A mozaikszavakat az adott nyelven szokásos módon kell írni, a nagybetűkre vonatkozó szokásos szabályok szerint. Ezeket nem szabad fonetikusan átírni. Példa:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Helyes</correct>: száz kilométerre van innen
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Hibás</wrong>: 100 kilométerre van innen
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Helyes</correct>: Viszlát <underline>kétezer-tizenötben</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Hibás</wrong>: Viszlát <underline>2015-ben</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Helyes</correct>: húsz százalékos kedvezmény volt rá
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>HIbás</wrong>: 20%-os kedvezmény volt rá
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Helyes</correct>: Az <underline>FBI</underline> letartóztatta őket múlt csütörtökön
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>HIbás</wrong>: Az <underline>ef bí áj</underline> letartóztatta őket múlt csütörtökön
+transcribe-the-audio-subheader-3-explanation = A következő speciális címkéket kell használni az eltérések, töltelékszavak és más nem verbális tartalmak jelölésére (angolul).
+tags-table-header-1 = Címke
+tags-table-header-2 = Jelentés
+tags-laugh = Nevetés
+tags-disfluency = Megszakadás
+tags-unclear = Nem egyértelmű
+tags-noise = Zaj
+tags-laugh-explanation = A nevetés hangja.
+tags-disfluency-explanation =
+    Töltelékszó vagy helykitöltőként használt hang, miközben a beszélő eldönti, hogy mit akar mondani.
+    A magyarban néhány gyakori tétovázási hangok a „hát”, „hmm”, „ööö” stb.
+tags-unclear-explanation = Egy szó vagy szósorozat, amely nem érthető.
+tags-noise-explanation =
+    Bármilyen más típusú zaj, például a beszélő köhög vagy köszörüli a torkát,
+    egy autó dudál, valami megüti a mikrofont, csörög egy telefon, stb.
+transcribe-the-audio-subheader-4-explanation-2 = Néha a beszélők többször megismételnek egy szót vagy szótöredéket. Ezt is át le kell iratozni. Példa:
+transcribe-the-audio-subheader-4-explanation-2-example = Aztán átmentem <underline>a háló- a</underline> hálószobába
+transcribe-the-audio-subheader-5-explanation-1 = A spontán beszéd természetesen tartalmaz nyelvtani hibákat. Ezeket nem szabad a leiratozáskor javítani. A leiratnak pontosan tükröznie kell az elhangzott tartalmat.
+
+## Review the Transcription
+
+review-the-transcription = Leirat ellenőrzése
+review-the-transcription-subheader = Általános útmutatás
+review-the-transcription-explanation-1 = Általánosságban azt tanácsoljuk, hogy ne ugyanaz a személy ellenőrizze a leiratot, aki az eredeti leiratozást végezte. Nagyon nehéz ellenőrizni a saját munkát! A többszintű ellenőrzés robusztusabbá teheti a minőségbiztosítást, és csökkentheti a torzításokat és a hibákat.
+review-the-transcription-explanation-2 = Tekintse át a fenti leiratozási irányelveket, hogy ellenőrizze, hogy a leirat pontos-e. Szerkesztéseket végezhet és beküldheti.
+review-the-transcription-explanation-3 = Továbbá itt is megjelölheti a sértő, káros vagy más módon aggasztó tartalmakat, és azok eltávolításra kerülnek addig, amíg a Common Voice csapata nem ellenőrzi azokat, és nem vizsgálódik tovább.
 
 ## Code-Switching
 
+code-switching = Kódváltás
+adding-a-question = Kérdés hozzáadása
+# Adding a Question
+code-switching-adding-question-subheader = Mitől jó egy kérdés?
+code-switching-adding-question-explanation = Egy jó kérdés a nyilvános részvételű adatkészletben:
+code-switching-adding-question-criteria-1 = Legyen könnyen érthető és megválaszolható
+code-switching-adding-question-criteria-2 = Legyen általánosságban releváns
+code-switching-adding-question-criteria-3 = Ne használjon vagy várjon el ártalmas vagy sértő kifejezéseket
+code-switching-adding-question-note = Azt is megfontolhatja, hogy különböző kontextusokon és doméneken íveljen át.
+# What types of questions to add
+code-switching-types-subheader = Milyen típusú kérdéseket adjon hozzá?
+code-switching-use-bilingual-prompts-header = Használjon kétnyelvű kérdéseket
+code-switching-use-bilingual-prompts-explanation = Használjon olyan kétnyelvű kérdéseket, amelyek mindkét nyelvet tartalmazzák: Példa:
+code-switching-ask-bilingual-contexts-explanation = Használjon olyan helyzeteket, ahol mindkét nyelvet gyakran használják (például otthon, iskola, közösségi események). Példa:
+code-switching-focus-emotional-explanation = Az emberek gyakran váltanak kódot, amikor érzelmeket vagy sürgősséget fejeznek ki. Példa:
 code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
 code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a helyesírása szerint, amelyből származnak. Például:
 code-switching-orthography-explanation-example-2 = Ha a quinceaños szót úgy ejtik ki, ahogy angolul mondják, akkor írja ñ betűvel.
