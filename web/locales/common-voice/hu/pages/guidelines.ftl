@@ -196,6 +196,8 @@ tags-unclear-explanation = Egy szó vagy szósorozat, amely nem érthető.
 tags-noise-explanation =
     Bármilyen más típusú zaj, például a beszélő köhög vagy köszörüli a torkát,
     egy autó dudál, valami megüti a mikrofont, csörög egy telefon, stb.
+transcribe-the-audio-subheader-4-explanation-2 = Néha a beszélők többször megismételnek egy szót vagy szótöredéket. Ezt is át le kell iratozni. Példa:
+transcribe-the-audio-subheader-4-explanation-2-example = Aztán átmentem <underline>a háló- a</underline> hálószobába
 
 ## Code-Switching
 
