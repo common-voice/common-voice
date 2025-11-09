@@ -350,12 +350,19 @@ export default class Clip {
         if (!response.headersSent) {
           const message =
             err instanceof Error ? err.message : String(err ?? 'Unknown error')
+          const fingerprint = message
+            .replace(/0x[0-9a-f]+/gi, '<addr>')
+            .replace(
+              /in stream (\d+):\s*\d+\s*>=\s*\d+/g,
+              'in stream $1: <var>'
+            )
+            .trim()
           this.clipSaveError(
             headers,
             response,
             500,
             `${message}`,
-            `ffmpeg ${message}`,
+            `[ffmpeg] ${fingerprint}`,
             'clip'
           )
         }
