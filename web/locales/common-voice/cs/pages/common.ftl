@@ -192,6 +192,7 @@ kw = Kornština
 kxp = Wadiyara Koli
 ky = Kyrgyzština
 kzi = Kelabit
+laj = Lango
 lb = Lucemburština
 led = Lendu
 leu = Kara
