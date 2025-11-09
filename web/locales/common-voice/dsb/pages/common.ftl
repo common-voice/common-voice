@@ -192,6 +192,7 @@ kw = Kornišćina
 kxp = Wadiyara Koli
 ky = Kirgišćina
 kzi = Kelabit
+laj = Lango
 lb = Luksemburgšćina
 led = Lendu
 leu = Kara

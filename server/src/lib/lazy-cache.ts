@@ -3,6 +3,15 @@ import * as Sentry from '@sentry/node'
 
 import { TimeUnits } from 'common'
 
+// Monitor Redis state specifically for lazy-cache
+// redis.on('connect', () => console.debug('[LazyCache-Redis] Connecting...'))
+redis.on('ready', () => console.info('[LazyCache-Redis] Ready'))
+redis.on('error', err => console.error('[LazyCache-Redis] Error:', err.message))
+redis.on('close', () => console.warn('[LazyCache-Redis] Connection closed'))
+redis.on('reconnecting', delay =>
+  console.warn(`[LazyCache-Redis] Reconnecting in ${delay}ms`)
+)
+
 type Fn<T, S> = (...args: S[]) => Promise<T>
 
 //
@@ -15,89 +24,50 @@ let lastErrorReport = 0
 let errorCount = 0 // Track error count for rate limiting
 let healthCheckInterval: NodeJS.Timeout | null = null
 
-const HEALTH_CHECK_INTERVAL = 30 * TimeUnits.SECOND // 30 seconds if Redis has been in use
-const RETRY_INTERVAL = 5 * TimeUnits.SECOND // 5 seconds when Redis was previously down
+const HEALTH_CHECK_INTERVAL = 5 * TimeUnits.SECOND // 5 seconds always
 const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per minute
+
+let consecutiveFailures = 0
+const FAILURE_THRESHOLD = 2 // Require 2 consecutive failures before switching
 
 // Initialize cache strategy once at module load and start health monitoring
 useRedis.then(hasRedis => {
   cacheStrategy = hasRedis ? 'redis' : 'memory'
-  console.log('Initial cache strategy:', cacheStrategy)
+  console.log('[LazyCache] Initial cache strategy:', cacheStrategy)
 
-  // Start background health monitoring if Redis is initially available
-  if (hasRedis) {
-    startHealthMonitoring()
-  }
+  // Always start health monitoring to detect when Redis becomes available
+  startHealthMonitoring()
 })
 
 function reportError(error: Error, context: string): void {
   const now = Date.now()
   errorCount++
 
-  // Only report first error each minute, or if we haven't reported in a while
-  if (now - lastErrorReport >= ERROR_REPORT_INTERVAL || errorCount === 1) {
+  // Only report first error each minute
+  if (now - lastErrorReport >= ERROR_REPORT_INTERVAL) {
     try {
-      // Capture the exception with full context - this will group properly by error type
       Sentry.captureException(error, {
-        tags: {
-          context,
-          cache_strategy: cacheStrategy,
-          module: 'lazy-cache',
-        },
-        extra: {
-          errorCount,
-          cacheStrategy,
-          lastErrorReport: new Date(lastErrorReport).toISOString(),
-          timeSinceLastReport: now - lastErrorReport,
-        },
+        tags: { context },
+        fingerprint: ['lazy-cache', context],
       })
 
-      // ALSO capture a message with static fingerprint for proper grouping
-      Sentry.captureMessage(
-        `Redis cache error occurred`, // Static message for grouping
-        {
-          level: 'warning',
-          tags: {
-            context,
-            cache_strategy: cacheStrategy,
-            error_type: error.name,
-            module: 'lazy-cache',
-          },
-          extra: {
-            errorMessage: error.message, // Dynamic details in extra
-            errorStack: error.stack,
-            errorCount,
-            cacheStrategy,
-            healthCheckStatus: `Last health check: ${new Date(
-              lastHealthCheck
-            ).toISOString()}`,
-          },
-          // Use fingerprint for better grouping control
-          fingerprint: ['redis-cache-error', context],
-        }
-      )
-
-      console.log('Redis cache error reported to Sentry:', {
+      console.error(`[LazyCache] Error reported to Sentry:`, {
         context,
         error: error.message,
-        errorCount,
-        cacheStrategy,
+        totalErrors: errorCount,
       })
-    } catch (sentryError) {
-      // Fallback if Sentry fails
-      console.error('Failed to report to Sentry:', sentryError)
-      console.error('Original error:', error)
-    }
 
-    lastErrorReport = now
-    errorCount = 0 // Reset counter after reporting
+      lastErrorReport = now
+      errorCount = 0
+    } catch (sentryError) {
+      console.error('[LazyCache] Failed to report to Sentry:', sentryError)
+    }
   } else {
-    // Log suppressed errors for debugging / implements Sentry rate-limiting
-    console.log('Redis cache error suppressed (rate limited):', {
+    console.warn(`[LazyCache] Error suppressed (rate limited):`, {
       context,
       error: error.message,
       errorCount,
-      timeUntilNextReport: ERROR_REPORT_INTERVAL - (now - lastErrorReport),
+      nextReportIn: ERROR_REPORT_INTERVAL - (now - lastErrorReport),
     })
   }
 }
@@ -108,17 +78,10 @@ function startHealthMonitoring() {
   if (healthCheckInterval) {
     clearInterval(healthCheckInterval)
   }
-
-  // Check every 30 seconds if healthy, every 5 seconds if trying to recover
+  // Check every 5 seconds if healthy
   healthCheckInterval = setInterval(async () => {
-    const checkInterval =
-      cacheStrategy === 'redis' ? HEALTH_CHECK_INTERVAL : RETRY_INTERVAL
-    const now = Date.now()
-
-    if (now - lastHealthCheck >= checkInterval) {
-      await performHealthCheck()
-    }
-  }, RETRY_INTERVAL) // Check every 5 seconds minimum
+    await performHealthCheck()
+  }, HEALTH_CHECK_INTERVAL) // Always check every 5 seconds
 }
 
 export function stopHealthMonitoring(): void {
@@ -130,35 +93,61 @@ export function stopHealthMonitoring(): void {
 
 export async function performHealthCheck(): Promise<void> {
   const previousStrategy = cacheStrategy
+  // console.debug(
+  //   `[LazyCache] Health check starting. Previous: ${previousStrategy}, Consecutive failures: ${consecutiveFailures}`
+  // )
+
   try {
-    await redis.ping()
-    cacheStrategy = 'redis'
+    // Add timeout to prevent hanging on queued commands
+    const pingPromise = redis.ping()
+    const timeoutPromise = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error('Redis health check timeout')), 3000)
+    )
+
+    await Promise.race([pingPromise, timeoutPromise])
+    // console.debug(`[LazyCache] Redis ping successful`)
+    consecutiveFailures = 0
+
     if (previousStrategy === 'memory') {
-      console.log('Redis recovered, switching to Redis cache')
-      // Report recovery to Sentry - this will happen once in a year
-      Sentry.captureMessage('Redis cache recovered', {
+      console.warn('[LazyCache] Redis recovered, switching to Redis cache')
+      cacheStrategy = 'redis'
+      Sentry.captureMessage('[LazyCache] Redis cache recovered', {
         level: 'info',
         tags: { context: 'cache-recovery' },
       })
+    } else {
+      // console.debug('[LazyCache] Redis healthy, staying in Redis mode')
     }
   } catch (error) {
-    cacheStrategy = 'memory'
-    if (previousStrategy === 'redis') {
-      console.log('Redis health check failed, switching to memory cache')
-      // Use rate-limited error reporting
+    console.warn(`[LazyCache] Redis ping failed: ${error.message}`)
+    consecutiveFailures++
+
+    if (
+      previousStrategy === 'redis' &&
+      consecutiveFailures >= FAILURE_THRESHOLD
+    ) {
+      console.warn(
+        `[LazyCache] Switching to memory after ${consecutiveFailures} failures`
+      )
+      cacheStrategy = 'memory'
       reportError(error as Error, 'health-check-failure')
+    } else {
+      console.warn(
+        `[LazyCache] Failure ${consecutiveFailures}, not switching yet`
+      )
     }
   }
   lastHealthCheck = Date.now()
+  // console.debug(
+  //   `[LazyCache] Health check completed. Strategy: ${cacheStrategy}`
+  // )
 }
 
 async function getCacheStrategy(): Promise<'redis' | 'memory'> {
-  // If we're in memory mode and it's time to check for recovery, do a health check
+  // <=== CHANGED: Always check health if interval elapsed, regardless of current strategy
   const now = Date.now()
-  const checkInterval =
-    cacheStrategy === 'redis' ? HEALTH_CHECK_INTERVAL : RETRY_INTERVAL
 
-  if (now - lastHealthCheck > checkInterval) {
+  if (now - lastHealthCheck > HEALTH_CHECK_INTERVAL) {
     await performHealthCheck()
   }
 
@@ -172,7 +161,7 @@ async function getCacheStrategy(): Promise<'redis' | 'memory'> {
 // Adds a value to a Redis SET with expiry
 export async function redisSetAddWithExpiry(
   key: string,
-  value: string,
+  value: string | number,
   ttlMs: number
 ) {
   if ((await getCacheStrategy()) !== 'redis') return
@@ -183,7 +172,39 @@ export async function redisSetAddWithExpiry(
   } catch (error) {
     // Use rate-limited error reporting
     reportError(error as Error, 'redis-set-add')
-    cacheStrategy = 'memory'
+  }
+}
+
+export async function redisSetAddManyWithExpiry(
+  key: string,
+  values: (number | string)[],
+  ttlMs: number
+) {
+  if (values.length === 0 || (await getCacheStrategy()) !== 'redis') return
+
+  try {
+    await redis.sadd(key, ...values.map(String))
+    await redis.expire(key, Math.floor(ttlMs / 1000))
+  } catch (error) {
+    // Use rate-limited error reporting
+    reportError(error as Error, 'redis-set-add-many')
+  }
+}
+
+// Replace Redis SET with new values (deletes old, sets new, sets TTL)
+export async function redisSetFillManyWithExpiry(
+  key: string,
+  values: (number | string)[],
+  ttlMs: number
+): Promise<void> {
+  if (values.length === 0 || (await getCacheStrategy()) !== 'redis') return
+
+  try {
+    await redis.del(key)
+    await redisSetAddManyWithExpiry(key, values, ttlMs)
+  } catch (error) {
+    // Use rate-limited error reporting
+    reportError(error as Error, 'redis-set-fill-many')
   }
 }
 
@@ -196,7 +217,6 @@ export async function redisSetMembers(key: string): Promise<string[]> {
   } catch (error) {
     // Use rate-limited error reporting
     reportError(error as Error, 'redis-set-members')
-    cacheStrategy = 'memory'
     return []
   }
 }
@@ -315,7 +335,6 @@ function redisCache<T, S>(
             } catch (setError) {
               // Use rate-limited error reporting
               reportError(setError as Error, 'cache-set')
-              cacheStrategy = 'memory'
             }
           }
 
@@ -325,10 +344,20 @@ function redisCache<T, S>(
           if (lock) {
             try {
               await lock.unlock()
-            } catch (unlockError) {
-              // Use rate-limited error reporting
-              reportError(unlockError as Error, 'cache-unlock')
-              cacheStrategy = 'memory'
+            } catch (unlockError: any) {
+              // Redlock unlock can fail harmlessly if TTL expired or lock already released
+              const msg = unlockError?.message || ''
+              if (
+                msg.includes('Unable to fully release the lock') ||
+                msg.includes('missing value') ||
+                msg.includes('does not exist')
+              ) {
+                // Just warn locally, do NOT switch to memory cache or report to Sentry
+                console.warn(`[LazyCache] Non-critical unlock issue: ${msg}`)
+              } else {
+                // Unexpected or real Redis failure
+                reportError(unlockError as Error, 'cache-unlock')
+              }
             }
           }
         }
@@ -336,7 +365,6 @@ function redisCache<T, S>(
     } catch (error) {
       // Use rate-limited error reporting
       reportError(error as Error, 'redis-operation')
-      cacheStrategy = 'memory'
       // Use memory cache fallback when Redis fails
       return await memoryFallback(...args)
     }

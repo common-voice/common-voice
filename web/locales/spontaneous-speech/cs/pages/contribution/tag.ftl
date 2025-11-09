@@ -1,5 +1,7 @@
 ## Tagging Page
 
+tag-page-instruction = Vyberte <icon></icon> text, kterým chcete začít
+tag-terms-checkbox = Souhlasím s podmínkami Common Voice a ochranou soukromí.
 tag-popover-title = Vyberte značku
 select-a-tag = Vyberte značku
 edit-tag = Upravit značku

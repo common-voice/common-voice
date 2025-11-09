@@ -192,6 +192,7 @@ kw = Cornisk
 kxp = Wadiyara Koli
 ky = Kirgisisk
 kzi = Kelabit
+laj = Lango
 lb = Luxembourgsk
 led = Lendu
 leu = Kara

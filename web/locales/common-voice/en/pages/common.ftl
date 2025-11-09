@@ -189,6 +189,7 @@ kw = Cornish
 kxp = Wadiyara Koli
 ky = Kyrgyz
 kzi = Kelabit
+laj = Lango
 lb = Luxembourgish
 led = Lendu
 leu = Kara
