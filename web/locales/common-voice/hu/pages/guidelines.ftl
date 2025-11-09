@@ -206,9 +206,25 @@ review-the-transcription = Leirat ellenőrzése
 review-the-transcription-subheader = Általános útmutatás
 review-the-transcription-explanation-1 = Általánosságban azt tanácsoljuk, hogy ne ugyanaz a személy ellenőrizze a leiratot, aki az eredeti leiratozást végezte. Nagyon nehéz ellenőrizni a saját munkát! A többszintű ellenőrzés robusztusabbá teheti a minőségbiztosítást, és csökkentheti a torzításokat és a hibákat.
 review-the-transcription-explanation-2 = Tekintse át a fenti leiratozási irányelveket, hogy ellenőrizze, hogy a leirat pontos-e. Szerkesztéseket végezhet és beküldheti.
+review-the-transcription-explanation-3 = Továbbá itt is megjelölheti a sértő, káros vagy más módon aggasztó tartalmakat, és azok eltávolításra kerülnek addig, amíg a Common Voice csapata nem ellenőrzi azokat, és nem vizsgálódik tovább.
 
 ## Code-Switching
 
+code-switching = Kódváltás
+adding-a-question = Kérdés hozzáadása
+# Adding a Question
+code-switching-adding-question-subheader = Mitől jó egy kérdés?
+code-switching-adding-question-explanation = Egy jó kérdés a nyilvános részvételű adatkészletben:
+code-switching-adding-question-criteria-1 = Legyen könnyen érthető és megválaszolható
+code-switching-adding-question-criteria-2 = Legyen általánosságban releváns
+code-switching-adding-question-criteria-3 = Ne használjon vagy várjon el ártalmas vagy sértő kifejezéseket
+code-switching-adding-question-note = Azt is megfontolhatja, hogy különböző kontextusokon és doméneken íveljen át.
+# What types of questions to add
+code-switching-types-subheader = Milyen típusú kérdéseket adjon hozzá?
+code-switching-use-bilingual-prompts-header = Használjon kétnyelvű kérdéseket
+code-switching-use-bilingual-prompts-explanation = Használjon olyan kétnyelvű kérdéseket, amelyek mindkét nyelvet tartalmazzák: Példa:
+code-switching-ask-bilingual-contexts-explanation = Használjon olyan helyzeteket, ahol mindkét nyelvet gyakran használják (például otthon, iskola, közösségi események). Példa:
+code-switching-focus-emotional-explanation = Az emberek gyakran váltanak kódot, amikor érzelmeket vagy sürgősséget fejeznek ki. Példa:
 code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
 code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a helyesírása szerint, amelyből származnak. Például:
 code-switching-orthography-explanation-example-2 = Ha a quinceaños szót úgy ejtik ki, ahogy angolul mondják, akkor írja ñ betűvel.
