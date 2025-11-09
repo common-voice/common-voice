@@ -198,6 +198,7 @@ tags-noise-explanation =
     egy autó dudál, valami megüti a mikrofont, csörög egy telefon, stb.
 transcribe-the-audio-subheader-4-explanation-2 = Néha a beszélők többször megismételnek egy szót vagy szótöredéket. Ezt is át le kell iratozni. Példa:
 transcribe-the-audio-subheader-4-explanation-2-example = Aztán átmentem <underline>a háló- a</underline> hálószobába
+transcribe-the-audio-subheader-5-explanation-1 = A spontán beszéd természetesen tartalmaz nyelvtani hibákat. Ezeket nem szabad a leiratozáskor javítani. A leiratnak pontosan tükröznie kell az elhangzott tartalmat.
 
 ## Code-Switching
 
