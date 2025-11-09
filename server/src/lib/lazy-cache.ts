@@ -172,7 +172,7 @@ async function getCacheStrategy(): Promise<'redis' | 'memory'> {
 // Adds a value to a Redis SET with expiry
 export async function redisSetAddWithExpiry(
   key: string,
-  value: string,
+  value: string | number,
   ttlMs: number
 ) {
   if ((await getCacheStrategy()) !== 'redis') return
@@ -187,20 +187,37 @@ export async function redisSetAddWithExpiry(
   }
 }
 
-// Replace Redis SET with new values (deletes old, sets new, sets TTL)
-export async function fillManyWithExpiry(
+export async function redisSetAddManyWithExpiry(
   key: string,
   values: (number | string)[],
-  cacheDurationMs: number
-): Promise<void> {
+  ttlMs: number
+) {
   if (values.length === 0 || (await getCacheStrategy()) !== 'redis') return
 
   try {
     await redis.sadd(key, ...values.map(String))
-    await redis.expire(key, Math.floor(cacheDurationMs / 1000))
+    await redis.expire(key, Math.floor(ttlMs / 1000))
   } catch (error) {
     // Use rate-limited error reporting
-    reportError(error as Error, 'redis-set-add')
+    reportError(error as Error, 'redis-set-add-many')
+    cacheStrategy = 'memory'
+  }
+}
+
+// Replace Redis SET with new values (deletes old, sets new, sets TTL)
+export async function redisSetFillManyWithExpiry(
+  key: string,
+  values: (number | string)[],
+  ttlMs: number
+): Promise<void> {
+  if (values.length === 0 || (await getCacheStrategy()) !== 'redis') return
+
+  try {
+    await redis.del(key)
+    await redisSetAddManyWithExpiry(key, values, ttlMs)
+  } catch (error) {
+    // Use rate-limited error reporting
+    reportError(error as Error, 'redis-set-fill-many')
     cacheStrategy = 'memory'
   }
 }
