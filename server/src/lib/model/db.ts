@@ -24,6 +24,9 @@ import {
 } from '../../application/repository/variant-repository'
 import { TimeUnits } from 'common'
 
+// Flag to disable taxonomy prioritization
+const DISABLE_TAXONOMY_PRIORITY = true
+
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500
@@ -336,8 +339,6 @@ export default class DB {
     let regularSentences: Sentence[] = []
     const locale_id = await getLocaleId(locale)
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
-
-    const prioritySegments = this.getPrioritySegments(locale)
     const countWithExtras = count + EXTRA_COUNT_MULTIPLIER * EXTRA_COUNT
 
     // Make sure to exclude recently recorded sentences by the user (from Redis cache)
@@ -346,19 +347,22 @@ export default class DB {
       redisKeyPerUserSentenceIdSet(client_id)
     )
 
-    // If there are any, get some taxonomy ones first (priority)
-    if (prioritySegments.length) {
-      taxonomySentences = await this.findSentencesMatchingTaxonomy(
-        client_id,
-        locale_id,
-        countWithExtras,
-        prioritySegments
+    if (!DISABLE_TAXONOMY_PRIORITY) {
+      const prioritySegments = this.getPrioritySegments(locale)
+      // If there are any, get some taxonomy ones first (priority)
+      if (prioritySegments.length) {
+        taxonomySentences = await this.findSentencesMatchingTaxonomy(
+          client_id,
+          locale_id,
+          countWithExtras,
+          prioritySegments
+        )
+      }
+      // still prevent race condition
+      taxonomySentences = taxonomySentences.filter(
+        (s: Sentence) => !redisSet.includes(s.id)
       )
     }
-    // still prevent race condition
-    taxonomySentences = taxonomySentences.filter(
-      (s: Sentence) => !redisSet.includes(s.id)
-    )
 
     // If not enough collected (or none) from taxonomy, fill with regular ones
     if (taxonomySentences.length < count) {
