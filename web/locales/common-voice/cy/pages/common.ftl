@@ -192,6 +192,7 @@ kw = Cernyweg
 kxp = Wadiyara Koli
 ky = Kyrgyz
 kzi = Kelabit
+laj = Lango
 lb = Lwcsembwrgeg
 led = Lendu
 leu = Kara
