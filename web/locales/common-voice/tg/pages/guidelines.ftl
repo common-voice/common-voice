@@ -126,6 +126,8 @@ transcribe-the-audio-subheader-1 = Роҳнамои умумӣ
 transcribe-the-audio-subheader-2 = Рақамҳо ва ихтисорот
 transcribe-the-audio-subheader-3 = Тегҳои махсус
 transcribe-the-audio-subheader-4 = Порчаҳои калима, кӯшиши ноком, калимаҳои такрорӣ
+transcribe-the-audio-subheader-5 = Хатогиҳои грамматикӣ ва ибораҳои гуфторӣ
+transcribe-the-audio-subheader-1-explanation = Умуман, шумо бояд ҳар чизеро, ки мешунавед, нависед. Ин дар бар мегирад:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Дуруст</correct>: Аз ин ҷо сад мил дур аст
 # text wrapped in wrong will be shown as red text in the UI
@@ -165,12 +167,19 @@ code-switching-adding-question-subheader = Саволи хуб бояд чӣ г�
 code-switching-adding-question-criteria-1 = Барои фаҳмидан ва ҷавоб додан осон бошад
 # What types of questions to add
 code-switching-types-subheader = Кадом намуди саволҳоро илова кардан лозим аст?
+code-switching-ask-bilingual-contexts-header = Дар бораи контекстҳои дузабона пурсидан
+code-switching-focus-emotional-header = Таваҷҷӯҳ ба лаҳзаҳои эҳсосотӣ ё муҳим
+code-switching-direct-quotes-explanation-example = "Вақте ки шумо фаҳмидед, суханони дақиқи шумо чӣ буд?"
+code-switching-cultural-topics-header = Мавзӯҳои хоси фарҳангиро интихоб кунед
+code-switching-informal-scenarios-header = Сенарияҳои ғайрирасмӣ омӯзед
 # What to Avoid
 code-switching-avoid-subheader = Аз чӣ канорагирӣ кардан лозим аст
 code-switching-avoid-intro = Саволҳое, ки метавонанд:
 code-switching-avoid-1 = Маълумоти шахсии қобили шиносоиро талаб кардан
 # Reviewing a Question
 code-switching-review-subheader = Баррасии савол
+code-switching-review-intro = Боварӣ ҳосил кунед, ки савол ба меъёрҳо мувофиқат мекунад:
+code-switching-review-criterion-1 = Барои фаҳмидан ва ҷавоб додан осон бошад
 # Answering a Question
 code-switching-answer-subheader = Ҷавоб додан ба савол
 code-switching-tagging-error-2 = Хатоҳои чопӣ
