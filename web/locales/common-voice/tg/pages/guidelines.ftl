@@ -92,6 +92,7 @@ adding-questions = Илова кардани саволҳо
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Саволи хуб бояд чӣ гуна бошад?
+what-makes-a-good-question-explanation = Саволи хуб барои маҷмуи маълумоти иштироки ҷамъиятӣ бояд:
 what-makes-a-good-question-explanation-criteria-1 = Барои фаҳмидан ва ҷавоб додан осон бошад
 easy-to-understand = Осонфаҳм
 easy-to-understand-explanation = Саволҳои оддиеро интихоб кунед, ки барои ҳама, новобаста аз фарҳанг ё қарина, фаҳмо бошанд.
@@ -123,6 +124,7 @@ answer-questions-tip-4 = Аз суханони нафратовар, ташви�
 transcribe-the-audio = Табдил додани аудио ба матн
 transcribe-the-audio-subheader-1 = Роҳнамои умумӣ
 transcribe-the-audio-subheader-2 = Рақамҳо ва ихтисорот
+transcribe-the-audio-subheader-3 = Тегҳои махсус
 transcribe-the-audio-subheader-4 = Порчаҳои калима, кӯшиши ноком, калимаҳои такрорӣ
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Дуруст</correct>: Аз ин ҷо сад мил дур аст
