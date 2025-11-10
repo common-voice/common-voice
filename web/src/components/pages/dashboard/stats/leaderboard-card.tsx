@@ -80,7 +80,8 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     const token = this._fetchToken
 
     try {
-      const rows = await api.forLocale(locale).fetchLeaderboard(type)
+      // const rows = await api.forLocale(locale).fetchLeaderboard(type)
+      const rows = [] as any[] // --- IGNORE ---
       // Only set state if still mounted AND fetch token matches
       if (this._isMounted && token === this._fetchToken) {
         this.setState({ rows }, this.scrollToUser)
