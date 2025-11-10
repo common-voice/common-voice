@@ -170,7 +170,6 @@ export async function redisSetAddWithExpiry(
     await redis.sadd(key, value)
     await redis.expire(key, Math.floor(ttlMs / 1000))
   } catch (error) {
-    // Use rate-limited error reporting
     reportError(error as Error, 'redis-set-add')
   }
 }
@@ -186,7 +185,6 @@ export async function redisSetAddManyWithExpiry(
     await redis.sadd(key, ...values.map(String))
     await redis.expire(key, Math.floor(ttlMs / 1000))
   } catch (error) {
-    // Use rate-limited error reporting
     reportError(error as Error, 'redis-set-add-many')
   }
 }
@@ -203,7 +201,6 @@ export async function redisSetFillManyWithExpiry(
     await redis.del(key)
     await redisSetAddManyWithExpiry(key, values, ttlMs)
   } catch (error) {
-    // Use rate-limited error reporting
     reportError(error as Error, 'redis-set-fill-many')
   }
 }
@@ -215,7 +212,6 @@ export async function redisSetMembers(key: string): Promise<string[]> {
   try {
     return (await redis.smembers(key)) || []
   } catch (error) {
-    // Use rate-limited error reporting
     reportError(error as Error, 'redis-set-members')
     return []
   }
@@ -269,104 +265,119 @@ function redisCache<T, S>(
 ): Fn<T, S> {
   // Create a memory cache fallback for when Redis fails
   const memoryFallback = memoryCache(cachedFunction, timeMs)
+  const lockKey = `${cacheKey}-lock`
 
-  return async (...args) => {
+  return async (...args): Promise<T> => {
     const key = cacheKey + JSON.stringify(args)
 
     try {
-      // Try to get from cache first
+      // First: Try to get from cache first
       const result = await redis.get(key)
-
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      let value: any
-      let renewCache = true
-
       if (result) {
         try {
           const cached = JSON.parse(result)
-          value = cached.value
-          renewCache = isExpired(cached.at, timeMs)
+          if (!isExpired(cached.at, timeMs)) {
+            return cached.value
+          }
         } catch (error) {
-          // Use rate-limited error reporting
           reportError(error as Error, 'cache-parse')
-          renewCache = true
         }
       }
 
-      if (!renewCache) return value
+      // Second: quick lock acquisition attempt
+      let lock = null
+      try {
+        lock = await redlock.lock(lockKey, lockDurationMs)
+      } catch (lockError) {
+        // Couldn't get lock - use fallback strategy
+        return await handleLockFailure(key, args, memoryFallback)
+      }
 
-      // Cache miss or expired - need to fetch new data
-      return new Promise(async resolve => {
-        let lock = null
-
-        // Try to acquire lock for cache stampede protection
-        try {
-          lock = await redlock.lock(key + '-lock', lockDurationMs)
-
-          // Double-check cache after acquiring lock
-          try {
-            const doubleCheckResult = await redis.get(key)
-            if (doubleCheckResult) {
-              const cached = JSON.parse(doubleCheckResult)
-              if (!isExpired(cached.at, timeMs)) {
-                resolve(cached.value)
-                return
-              }
-            }
-          } catch (error) {
-            // Continue to function execution if double-check fails
-            // Use rate-limited error reporting
-            reportError(error as Error, 'cache-double-check')
-          }
-        } catch (lockError) {
-          // Use rate-limited error reporting
-          reportError(lockError as Error, 'cache-lock-acquisition')
-          // Continue without lock
-        }
-
-        try {
-          // Execute the original function
-          value = await cachedFunction(...args)
-
-          // Try to cache the result if we have a lock
-          if (lock) {
-            try {
-              await redis.set(key, JSON.stringify({ at: Date.now(), value }))
-            } catch (setError) {
-              // Use rate-limited error reporting
-              reportError(setError as Error, 'cache-set')
-            }
-          }
-
-          resolve(value)
-        } finally {
-          // Always try to release lock if we acquired it
-          if (lock) {
-            try {
-              await lock.unlock()
-            } catch (unlockError: any) {
-              // Redlock unlock can fail harmlessly if TTL expired or lock already released
-              const msg = unlockError?.message || ''
-              if (
-                msg.includes('Unable to fully release the lock') ||
-                msg.includes('missing value') ||
-                msg.includes('does not exist')
-              ) {
-                // Just warn locally, do NOT switch to memory cache or report to Sentry
-                console.warn(`[LazyCache] Non-critical unlock issue: ${msg}`)
-              } else {
-                // Unexpected or real Redis failure
-                reportError(unlockError as Error, 'cache-unlock')
-              }
-            }
+      // We have the lock - double check cache
+      try {
+        const doubleCheckResult = await redis.get(key)
+        if (doubleCheckResult) {
+          const cached = JSON.parse(doubleCheckResult)
+          if (!isExpired(cached.at, timeMs)) {
+            return cached.value
           }
         }
-      })
+      } catch (error) {
+        reportError(error as Error, 'cache-double-check')
+      }
+
+      // Compute and cache the result
+      return await computeAndCache(key, lock, cachedFunction, args)
     } catch (error) {
-      // Use rate-limited error reporting
       reportError(error as Error, 'redis-operation')
-      // Use memory cache fallback when Redis fails
-      return await memoryFallback(...args)
+      return await memoryFallback(...(args as S[]))
+    }
+  }
+
+  async function handleLockFailure(
+    key: string,
+    args: S[],
+    memoryFallback: Fn<T, S>
+  ): Promise<T> {
+    reportError(new Error('Lock acquisition failed'), 'cache-lock-acquisition')
+
+    // Wait briefly for lock holder to populate cache
+    const backoffMs = 150 + Math.floor(Math.random() * 200)
+    await new Promise(res => setTimeout(res, backoffMs))
+
+    try {
+      const doubleAfter = await redis.get(key)
+      if (doubleAfter) {
+        const cached = JSON.parse(doubleAfter)
+        if (!isExpired(cached.at, timeMs)) {
+          return cached.value
+        }
+      }
+    } catch (err) {
+      reportError(err as Error, 'cache-double-check-after-lock-fail')
+    }
+
+    // Final fallback
+    return await memoryFallback(...(args as S[]))
+  }
+
+  async function computeAndCache(
+    key: string,
+    lock: any,
+    cachedFunction: Fn<T, S>,
+    args: S[]
+  ): Promise<T> {
+    try {
+      const value = await cachedFunction(...args)
+
+      try {
+        await redis.set(key, JSON.stringify({ at: Date.now(), value }))
+      } catch (setError) {
+        reportError(setError as Error, 'cache-set')
+      }
+
+      return value
+    } finally {
+      await releaseLock(lock)
+    }
+  }
+
+  async function releaseLock(lock: any): Promise<void> {
+    if (!lock) return
+
+    try {
+      await lock.unlock()
+    } catch (unlockError: any) {
+      const msg = unlockError?.message || ''
+      if (
+        msg.includes('Unable to fully release the lock') ||
+        msg.includes('missing value') ||
+        msg.includes('does not exist')
+      ) {
+        console.warn(`[LazyCache] Non-critical unlock issue: ${msg}`)
+      } else {
+        reportError(unlockError as Error, 'cache-unlock')
+      }
     }
   }
 }
