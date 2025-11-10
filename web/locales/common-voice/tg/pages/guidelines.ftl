@@ -188,6 +188,7 @@ code-switching-pronunciation-explanation-example-1 = Англисӣ: /ˈkeɪ.bə
 code-switching-pronunciation-explanation-example-2 = Испанӣ: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Одамон: Мария, Ҷон
 code-switching-not-tag-proper-names-example-2 = Ҷойҳо: Лос-Анҷелес, Флорида
+code-switching-not-tag-proper-names-example-3 = Брендҳо/Ташкилотҳо: «Target», «Burger King»
 code-switching-not-tag-interjections-example-1 = «Эҳ»
 code-switching-not-tag-interjections-example-2 = «Не»
 code-switching-not-tag-interjections-example-3 = «Ҳа»
@@ -195,4 +196,5 @@ code-switching-not-tag-interjections-example-4 = «Эр»
 
 ## Reporting Content
 
+reporting-content = Шикоят аз муҳтаво
 reporting-content-subheader = Роҳнамои умумӣ
