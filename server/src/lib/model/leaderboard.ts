@@ -76,6 +76,9 @@ async function getAllVoteLeaderboardData(): Promise<any[]> {
 }
 
 const getAllLeaderboardData = () => {
+  const clipData: any[] = []
+  const voteData: any[] = []
+  return { clipData, voteData } // --- IGNORE ---
   return lazyCache(
     'cv:leaderboard:all',
     async () => {
