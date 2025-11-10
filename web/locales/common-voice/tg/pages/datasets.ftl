@@ -84,3 +84,5 @@ female = Зан
 download-contribute-menu-tooltip = Маҷмуи маълумоти овозии моро боргирӣ кунед
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Имконоти боргирӣ барои пайдо кардани дастрасӣ ба маълумоти «Common Voice»
+datasets-show-more = Ҳама маҷмуи маълумотро нишон додан
+datasets-show-less = Маҷмуи маълумоти охиринро нишон додан
