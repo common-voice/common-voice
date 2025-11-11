@@ -1,5 +1,6 @@
 import { redis, redlock, useRedis } from './redis'
 import * as Sentry from '@sentry/node'
+import type { Lock } from 'redlock'
 
 import { TimeUnits } from 'common'
 
@@ -309,7 +310,7 @@ function redisCache<T, S>(
         }
 
         // Lock held by another instance - use stale data strategy
-        return await handleLockFailure(key, args, memoryFallback)
+        return await handleLockFailure(key)
       }
 
       // We have the lock - double check cache
@@ -336,74 +337,85 @@ function redisCache<T, S>(
     }
   }
 
-  async function handleLockFailure(
-    key: string,
-    args: S[],
-    memoryFallback: Fn<T, S>
-  ): Promise<T> {
+  async function handleLockFailure(key: string): Promise<T> {
     console.warn(
-      `[LazyCache] Lock acquisition failed for ${cacheKey}, checking for stale data`
+      `[LazyCache] Lock acquisition failed for ${cacheKey}. Attempting recovery strategy.`
     )
 
-    // Check if we should return stale data or wait for fresh data
     if (allowStaleOnLockFailure) {
-      // STRATEGY: Prefer ANY cached data (even if expired) over executing the query
-      // Use for: Leaderboards, stats, non-critical data where performance > freshness
+      // Prefer stale or fresh data before doing anything else
       try {
-        const staleCheck = await redis.get(key)
-        if (staleCheck) {
-          const cached = JSON.parse(staleCheck)
+        const raw = await redis.get(key)
+        if (raw) {
+          const cached = JSON.parse(raw)
 
-          // If fresh data somehow appeared, use it
+          // Fresh data happened to appear
           if (!isExpired(cached.at, timeMs)) {
-            console.log(`[LazyCache] Found fresh data for ${cacheKey}`)
+            console.log(
+              `[LazyCache] Fresh data became available for ${cacheKey}`
+            )
             return cached.value
           }
 
-          // RETURN STALE DATA to prevent DB stampede (no backoff needed)
+          // Return stale if allowed
           if (cached.value) {
             const ageSeconds = Math.floor((Date.now() - cached.at) / 1000)
             console.warn(
-              `[LazyCache] Returning stale data for ${cacheKey} (age: ${ageSeconds}s) to prevent DB stampede`
+              `[LazyCache] Returning STALE data for ${cacheKey} (age: ${ageSeconds}s).`
             )
             return cached.value
           }
         }
       } catch (err) {
-        reportError(err as Error, 'cache-stale-check-after-lock-fail')
+        reportError(err as Error, 'stale-check-after-lock-failure')
       }
-    } else {
-      // STRATEGY: Only check for fresh data (no backoff - Redlock retry already did that)
-      // Use for: Sentence selection, clip availability, data where freshness is critical
-      console.warn(
-        `[LazyCache] Lock held, checking for fresh data for ${cacheKey}`
-      )
 
-      try {
-        const freshCheck = await redis.get(key)
-        if (freshCheck) {
-          const cached = JSON.parse(freshCheck)
-          if (!isExpired(cached.at, timeMs)) {
-            console.log(`[LazyCache] Found fresh data for ${cacheKey}`)
-            return cached.value
-          }
-        }
-      } catch (err) {
-        reportError(err as Error, 'cache-fresh-check-after-lock-fail')
-      }
+      // No stale or fresh data
+      const internal = new Error(
+        `No stale or fresh data available for ${cacheKey}; lock acquisition failed.`
+      )
+      reportError(internal, 'cache-lock-fail-no-stale')
+
+      // User-safe output
+      throw new Error(`Temporary data issue. Please try again shortly.`)
     }
 
-    // LAST RESORT: No acceptable data in Redis, try memory fallback
-    // Memory cache might have stale data too, and will only execute query if truly empty
-    console.error(
-      `[LazyCache] No acceptable data in Redis for ${cacheKey}, trying memory fallback`
+    // Fresh data REQUIRED
+    console.warn(
+      `[LazyCache] Lock held for ${cacheKey}. Fresh data required, checking if another instance already computed it.`
     )
-    return await memoryFallback(...(args as S[]))
+
+    try {
+      const raw = await redis.get(key)
+      if (raw) {
+        const cached = JSON.parse(raw)
+        if (!isExpired(cached.at, timeMs)) {
+          console.log(
+            `[LazyCache] Fresh data now available for ${cacheKey}. Another instance computed it.`
+          )
+          return cached.value
+        }
+      }
+    } catch (err) {
+      reportError(err as Error, 'fresh-check-after-lock-failure')
+    }
+
+    // Fresh required but unavailable
+    const internal = new Error(
+      `Fresh data required for ${cacheKey}, but lock is held and no new data appeared.`
+    )
+    console.error(`[LazyCache] ${internal.message}`)
+    reportError(internal, 'cache-lock-fail-no-fresh')
+
+    // User-safe message
+    throw new Error(
+      `The requested data is still being prepared. Please retry a minute later.`
+    )
   }
 
   async function computeAndCache(
     key: string,
-    lock: any,
+    lock: Lock | null,
     cachedFunction: Fn<T, S>,
     args: S[]
   ): Promise<T> {
@@ -422,21 +434,24 @@ function redisCache<T, S>(
     }
   }
 
-  async function releaseLock(lock: any): Promise<void> {
+  async function releaseLock(lock: Lock | null): Promise<void> {
     if (!lock) return
 
     try {
       await lock.unlock()
-    } catch (unlockError: any) {
-      const msg = unlockError?.message || ''
+    } catch (unlockError: unknown) {
+      const msg =
+        unlockError instanceof Error ? unlockError.message : String(unlockError)
       if (
         msg.includes('Unable to fully release the lock') ||
         msg.includes('missing value') ||
         msg.includes('does not exist')
       ) {
         console.warn(`[LazyCache] Non-critical unlock issue: ${msg}`)
+      } else if (unlockError instanceof Error) {
+        reportError(unlockError, 'cache-unlock')
       } else {
-        reportError(unlockError as Error, 'cache-unlock')
+        reportError(new Error(String(unlockError)), 'cache-unlock')
       }
     }
   }
