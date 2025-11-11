@@ -550,11 +550,11 @@ export default class API {
     const lang = request?.query?.language || 'en'
 
     const sourceUrl = request.header('Referer')
+    const env = getConfig().ENVIRONMENT
     const listUrl =
-      process.env.NODE_ENV === 'production'
+      env === 'prod'
         ? 'https://abdri3ttkb.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
-        : process.env.NODE_ENV === 'sandbox' ||
-          process.env.NODE_ENV === 'staging'
+        : ['sandbox', 'stage'].includes(env)
         ? 'https://kmq73rfvbh.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
         : ''
 
