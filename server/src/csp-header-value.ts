@@ -78,6 +78,8 @@ const SOURCES = {
     'https://www.gstatic.com',
     'https://*.google-analytics.com',
     'https://*.sentry.io',
+    'https://basket.mozilla.org',
+    'https://basket-dev.allizom.org',
     'https://rs.fullstory.com',
     'https://edge.fullstory.com',
     'https://fonts.gstatic.com',
