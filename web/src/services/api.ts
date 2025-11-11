@@ -393,7 +393,10 @@ export default class API {
   }
 
   subscribeToNewsletter(email: string): Promise<void> {
-    return this.fetch(API_PATH + '/newsletter/' + email, { method: 'POST' })
+    return this.fetch(
+      `${API_PATH}/newsletter/${email}?language=${this.locale}`,
+      { method: 'POST' }
+    )
   }
 
   async saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {

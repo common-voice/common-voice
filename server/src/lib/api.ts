@@ -65,6 +65,14 @@ import { isProject } from '../core/types/project'
 import { projectSchema } from '../api/languages/validation/project-schema'
 import webhooksRouter from '../api/webhooks/routes'
 
+type NewNewsletterResponse = {
+  message: string
+  data: {
+    email: string
+    newsletters: string[]
+  }
+}
+
 export default class API {
   model: Model
   clip: Clip
@@ -535,36 +543,92 @@ export default class API {
     response: Response,
     next: NextFunction
   ) => {
-    const { BASKET_API_KEY } = getConfig()
-    if (!BASKET_API_KEY) {
-      const basketError = new APIError('Unable to process request')
-      next(basketError)
-    }
-
     const email = request?.params?.email
     if (!email) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    const basketResponse = await sendRequest({
-      uri: Basket.BASKET_API_URL + '/news/subscribe/',
-      method: 'POST',
-      form: {
-        'api-key': BASKET_API_KEY,
-        newsletters: 'common-voice',
-        format: 'H',
-        lang: 'en',
-        email,
-        source_url: request.header('Referer'),
-        sync: 'Y',
-      },
-    })
-    const clientId = await UserClient.updateBasketToken(
-      email,
-      JSON.parse(basketResponse).token
-    )
-    await Basket.sync(clientId, true)
+    const lang = request?.query?.language || 'en'
 
-    response.json({})
+    const sourceUrl = request.header('Referer')
+    const listUrl =
+      process.env.NODE_ENV === 'production'
+        ? 'https://abdri3ttkb.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
+        : process.env.NODE_ENV === 'sandbox' ||
+          process.env.NODE_ENV === 'staging'
+        ? 'https://kmq73rfvbh.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
+        : ''
+
+    if (listUrl === '') {
+      console.error(
+        'Newsletter subscription is not supported in local development.'
+      )
+      return response.status(StatusCodes.METHOD_NOT_ALLOWED).json({
+        error: 'Newsletter subscription is not supported in local development.',
+      })
+    }
+
+    try {
+      // Make request to new API
+      // We don't collect name and country, so we don't pass them
+      // We get language from FE API call, 7-8 translated templates exist, with fallback to "en"
+      const listResponse = await fetch(listUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          lang: lang,
+          source_url: sourceUrl,
+        }),
+      })
+
+      // Parse the response body
+      const responseData: NewNewsletterResponse = await listResponse.json()
+      console.log(responseData)
+
+      if (!listResponse.ok) {
+        // HTTP error (4xx, 5xx)
+        console.error('API HTTP error:', listResponse.status, responseData)
+
+        if (listResponse.status === 400) {
+          return response.status(StatusCodes.BAD_REQUEST).json({
+            error: responseData.message || 'Invalid request data',
+          })
+        } else if (listResponse.status === 429) {
+          return response.status(StatusCodes.TOO_MANY_REQUESTS).json({
+            error: responseData.message || 'Too many subscription attempts',
+          })
+        } else {
+          return response.status(listResponse.status).json({
+            error: responseData.message || 'Subscription failed',
+          })
+        }
+      }
+      // Still handle it through our old basket system
+      // We temporarily have to use hash of the email returned from the newsletter API as token
+      // We check it everywhere in the codebase
+      const clientId = await UserClient.updateBasketToken(
+        email,
+        responseData.data.email.slice(0, 36) // basket token is 36 chars long, we hope for no collisions :D
+      )
+      await Basket.sync(clientId, true)
+
+      // HTTP success (2xx)
+      response.json({})
+    } catch (error) {
+      console.error('Newsletter subscription failed:', error)
+
+      if (error instanceof Error) {
+        const apiError = new APIError(
+          `Failed to subscribe to newsletter: ${error.message}`
+        )
+        next(apiError)
+      } else {
+        const apiError = new APIError('Failed to subscribe to newsletter')
+        next(apiError)
+      }
+    }
   }
 
   saveAvatar = async (
