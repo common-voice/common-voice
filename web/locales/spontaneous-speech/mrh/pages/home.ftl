@@ -20,3 +20,19 @@ respond-bubble-subtitle = Na theina chhôhta ualuapa hawhta palie chvk achhy mah
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Chapai</mark>
 transcribe-bubble-subtitle = Ao clip-zy liata na theipa kha roh mah y
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Pasia</mark>
+check-bubble-subtitle = Châ a rohpa cha aoreih nata â lyu ma tahpa mohpasia mah y,
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>Data</mark>
+data-bubble-subtitle = Keimo cha databyh he a daihti âdo kawpa ta eima pathlie.
+contact-us = Miah azao la
+contact-us-title = He parawche liata ahlao awpa, cvk rahria khoh awpa na khoh ma?
+contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Common Voice’s Spontaneous Speech parawche châta Beta simona py liata nâ hlao haw ma?
+signup-terms = "Keima email lâta link paphao la" he na hmiena chôta, nâma cha <termsLink>Chakaona Ryhpazy</termsLink>, nata  <privacyLink>Pôhkha Thlalôhna Pawlisi</privacyLink> he a pyh chih ta, Common Voice’s Spontaneous Speech châta Beta Simona Parawche liata ahlaona dâh he Mozilla ta a cha vaw email thei tahpa chhao he nâ pyh.
+signup-input-placeholder = Na email roh la
+signup-button-value = Keima email lâta link paphao la
+footer-text-privacy = <privacyLink>Pôhkha Thalôhna</privacyLink>
+footer-text-terms = <termsLink>Ryhpazy</termsLink>
+footer-text-cookies = <cookiesLink>Cookies<cookiesLink>

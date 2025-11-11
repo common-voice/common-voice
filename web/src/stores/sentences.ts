@@ -128,7 +128,7 @@ export namespace Sentences {
           }
 
           if (
-            Object.keys(localeSentences(state).sentences).length >=
+            Object.keys(localeSentences(state).sentences).length >
             MIN_CACHE_COUNT
           ) {
             return

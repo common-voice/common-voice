@@ -13,6 +13,7 @@ language-search-input =
 language-speakers = Penutur
 localized = Telah dilokalkan
 sentences = Kalimat
+language-validation-hours = Jam
 contribute = Berkontribusi
 get-involved-button = Mari Berperan
 get-involved-title = Berkontribusi dalam { $lang }

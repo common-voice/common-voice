@@ -65,6 +65,7 @@ export type CommonVoiceConfig = {
   MAINTENANCE_MODE: boolean
   DEBUG: boolean
   FLAG_BUFFER_STREAM_ENABLED: boolean
+  CLIP_TRANSCODE_CONCURRENCY_LIMIT: number
   EMAIL_USERNAME_FROM: string
   EMAIL_USERNAME_TO: string
   AUTH_SERVICE_URL: string
@@ -130,6 +131,11 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_FLAG_BUFFER_STREAM_ENABLED',
     false,
     castBoolean
+  ),
+  CLIP_TRANSCODE_CONCURRENCY_LIMIT: configEntry(
+    'CV_CLIP_TRANSCODE_CONCURRENCY_LIMIT',
+    4,
+    castInt
   ),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),

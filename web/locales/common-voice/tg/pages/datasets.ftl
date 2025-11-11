@@ -2,6 +2,8 @@
 
 datasets-heading = Маҷмуи маълумот
 datasets-headline = Мо маҷмуи маълумоти овозии бисёрзабониро дар асоси манбаи кушод эҷод карда истодаем, ки ҳар як кас метавонад онро барои омӯзиши барномаҳо бо технологияи нyтқи фаъолшуда истифода барад.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Маҷмуи маълумоти «Mozilla Common Voice» ҳоло танҳо дар «Mozilla Data Collective» дастрасанд.
 datasets-speech-bubble-content = Хабарҳои ҷолиб! «Spontaneous Speech» ба зудӣ дастрас мешавад! Навигариҳоро пайгирӣ кунед ва ҳатман ба <discordLink>«Discord»</discordLink>-и мо ташриф оваред, то аз хабарҳои охирин огоҳ бошед.
 language = Забон
 download-dataset-header = Боргирӣ кардани маҷмуи маълумот
@@ -82,3 +84,5 @@ female = Зан
 download-contribute-menu-tooltip = Маҷмуи маълумоти овозии моро боргирӣ кунед
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Имконоти боргирӣ барои пайдо кардани дастрасӣ ба маълумоти «Common Voice»
+datasets-show-more = Ҳама маҷмуи маълумотро нишон додан
+datasets-show-less = Маҷмуи маълумоти охиринро нишон додан

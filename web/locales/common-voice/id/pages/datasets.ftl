@@ -49,6 +49,9 @@ more = Lainnya
 close = Tutup
 download = Unduh
 dataset-version = Versi
+# dataset metadata - age of contributor
+dataset-metadata-age = Usia
+dataset-donate-modal-heading = Tahukah Anda…
 data-download-singleword-title = Unduh Segmen Target Kata Tunggal
 data-download-singleword-callout-v2 = Ini adalah segmen berbasis kasus penggunaan yang berisi data untuk mengaktifkan pengenalan digit yang diucapkan dan pendeteksian ya / tidak.
 data-download-button = Unduh Data Common Voice

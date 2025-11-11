@@ -17,17 +17,17 @@ import { pipe } from 'fp-ts/lib/function'
 import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts'
 import { Clip as ClientClip } from 'common'
 import {
+  createMp3TranscodeJob,
+  type Mp3TranscodeJob,
+} from './ffmpeg-transcoder'
+import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
 } from '../application/repository/variant-repository'
 import { StatusCodes } from 'http-status-codes'
 
-const { promisify } = require('util')
-const Transcoder = require('stream-transcoder')
 const { Converter } = require('ffmpeg-stream')
-const { Readable, PassThrough } = require('stream')
-const mp3Duration = require('mp3-duration')
-const calcMp3Duration = promisify(mp3Duration)
+const { Readable } = require('stream')
 
 enum ERRORS {
   MISSING_PARAM = 'MISSING_PARAM',
@@ -166,23 +166,23 @@ export default class Clip {
     Basket.sync(client_id).catch(e => console.error(e))
     const ret = challengeTokens.includes(challenge)
       ? {
-        glob: glob,
-        showFirstContributionToast: await earnBonus('first_contribution', [
-          challenge,
-          client_id,
-        ]),
-        hasEarnedSessionToast: await hasEarnedBonus(
-          'invite_contribute_same_session',
-          client_id,
-          challenge
-        ),
-        showFirstStreakToast: await earnBonus('three_day_streak', [
-          client_id,
-          client_id,
-          challenge,
-        ]),
-        challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-      }
+          glob: glob,
+          showFirstContributionToast: await earnBonus('first_contribution', [
+            challenge,
+            client_id,
+          ]),
+          hasEarnedSessionToast: await hasEarnedBonus(
+            'invite_contribute_same_session',
+            client_id,
+            challenge
+          ),
+          showFirstStreakToast: await earnBonus('three_day_streak', [
+            client_id,
+            client_id,
+            challenge,
+          ]),
+          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+        }
       : { glob }
     response.json(ret)
   }
@@ -197,7 +197,8 @@ export default class Clip {
     // so that a 400 is returned below
     const { headers } = request
     const client_id = request?.session?.user?.client_id
-    const sentenceId = headers['sentence-id'] as string || headers.sentence_id as string // TODO: Remove the second case in August 2025
+    const sentenceId =
+      (headers['sentence-id'] as string) || (headers.sentence_id as string) // TODO: Remove the second case in August 2025
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
@@ -260,27 +261,44 @@ export default class Clip {
         audioStream.pipe(audioInput)
       }
 
-      const pass = new PassThrough()
+      let transcodeJob: Mp3TranscodeJob | null = null
+      let durationInMs = 0
 
-      let chunks: any = []
+      const abortHandler = () => {
+        transcodeJob?.abort()
+        request.removeListener('aborted', abortHandler)
+      }
 
-      pass.on('error', (error: string) => {
-        this.clipSaveError(
-          headers,
-          response,
-          500,
-          `${error}`,
-          `ffmpeg ${error}`,
-          'clip'
-        )
-        return
-      })
-      pass.on('data', function (chunk: any) {
-        chunks.push(chunk)
-      })
-      pass.on('finish', async () => {
-        const buffer = Buffer.concat(chunks)
-        const durationInSec = await calcMp3Duration(buffer)
+      request.on('aborted', abortHandler)
+
+      try {
+        transcodeJob = await createMp3TranscodeJob(audioInput)
+
+        const uploadTask = pipe(
+          streamUploadToBucket,
+          Id.ap(getConfig().CLIP_BUCKET_NAME),
+          Id.ap(clipFileName),
+          Id.ap(transcodeJob.outputStream),
+          TE.getOrElse((err: Error) => T.of(console.log(err)))
+        )()
+
+        const durationPromise = transcodeJob.durationSeconds.catch(err => {
+          console.error('Failed to determine clip duration with ffprobe:', err)
+          return null
+        })
+
+        const [, , durationInSec] = await Promise.all([
+          uploadTask,
+          transcodeJob.transcodeCompleted,
+          durationPromise,
+        ])
+
+        durationInMs =
+          durationInSec != null && Number.isFinite(durationInSec)
+            ? Math.round(durationInSec * 1000)
+            : 0
+
+        transcodeJob = null
 
         console.log(`clip written to s3 ${metadata}`)
 
@@ -290,7 +308,7 @@ export default class Clip {
           original_sentence_id: sentenceId,
           path: clipFileName,
           sentence: sentence.text,
-          duration: durationInSec * 1000,
+          duration: durationInMs,
         })
         await Awards.checkProgress(client_id, { id: sentence.locale_id })
 
@@ -303,47 +321,53 @@ export default class Clip {
         const challenge = headers.challenge as ChallengeToken
         const ret = challengeTokens.includes(challenge)
           ? {
-            filePrefix: filePrefix,
-            showFirstContributionToast: await earnBonus(
-              'first_contribution',
-              [challenge, client_id]
-            ),
-            hasEarnedSessionToast: await hasEarnedBonus(
-              'invite_contribute_same_session',
-              client_id,
-              challenge
-            ),
-            // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-            // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-            showFirstStreakToast: await earnBonus('three_day_streak', [
-              client_id,
-              client_id,
-              challenge,
-            ]),
-            challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-          }
+              filePrefix: filePrefix,
+              showFirstContributionToast: await earnBonus(
+                'first_contribution',
+                [challenge, client_id]
+              ),
+              hasEarnedSessionToast: await hasEarnedBonus(
+                'invite_contribute_same_session',
+                client_id,
+                challenge
+              ),
+              // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
+              // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
+              showFirstStreakToast: await earnBonus('three_day_streak', [
+                client_id,
+                client_id,
+                challenge,
+              ]),
+              challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+            }
           : { filePrefix }
-        response.json(ret)
-      })
-
-      try {
-        const audioOutput = new Transcoder(audioInput)
-          .audioCodec('mp3')
-          .format('mp3')
-          .channels(1)
-          .sampleRate(32000)
-          .stream()
-          .pipe(pass)
-
-        await pipe(
-          streamUploadToBucket,
-          Id.ap(getConfig().CLIP_BUCKET_NAME),
-          Id.ap(clipFileName),
-          Id.ap(audioOutput),
-          TE.getOrElse((err: Error) => T.of(console.log(err)))
-        )()
+        if (!response.headersSent) {
+          response.json(ret)
+        }
       } catch (err) {
+        transcodeJob?.abort(err instanceof Error ? err : undefined)
         console.error('Failed transcoding step with error:', err)
+        if (!response.headersSent) {
+          const message =
+            err instanceof Error ? err.message : String(err ?? 'Unknown error')
+          const fingerprint = message
+            .replace(/0x[0-9a-f]+/gi, '<addr>')
+            .replace(
+              /in stream (\d+):\s*\d+\s*>=\s*\d+/g,
+              'in stream $1: <var>'
+            )
+            .trim()
+          this.clipSaveError(
+            headers,
+            response,
+            500,
+            `${message}`,
+            `[ffmpeg] ${fingerprint}`,
+            'clip'
+          )
+        }
+      } finally {
+        request.removeListener('aborted', abortHandler)
       }
     }
   }
@@ -355,7 +379,8 @@ export default class Clip {
     if (!client_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    const ignoreClientVariant = Boolean(request.query.ignoreClientVariant) || false
+    const ignoreClientVariant =
+      Boolean(request.query.ignoreClientVariant) || false
     const count = Number(request.query.count) || 1
     const clips = await this.bucket
       .getRandomClips(client_id, locale, count, ignoreClientVariant)

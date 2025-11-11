@@ -32,8 +32,10 @@ continue-with-skipped = Бо «Нодида гузаронидан» идома 
 question = Савол
 validate = Тасдиқ кардан
 respond-to-prompt = Ба дархост ҷавоб додан
+respond-to-prompt-mobile = Ҷавоб додан
 transcribe = Табдил додан
 check-transcriptions = Тафтиш кардани овонависӣ
+check-transcriptions-mobile = Бознигарӣ
 
 ## Not Found Page
 
@@ -46,6 +48,7 @@ meh = Миштекии тлахиакии ҷануби ғарбӣ
 mel = Меланауи марказӣ
 # Locales-Variants
 ms-MY = Бахаса Малай
+el-CY = Юнони кипрӣ
 
 ## Language search component
 

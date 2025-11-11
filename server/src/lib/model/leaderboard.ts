@@ -8,62 +8,267 @@ import Bucket from '../bucket'
 import Model from '../model'
 import { ChallengeLeaderboardArgument, ChallengeToken, TimeUnits } from 'common'
 
+const MIN_USERS_THRESHOLD = 5
+
 const model = new Model()
 const bucket = new Bucket(model)
 
 const db = getMySQLInstance()
 
-async function getClipLeaderboard(locale?: string): Promise<any[]> {
-  const params: { locale_id?: number } = {}
-  let localeCondition = ''
-  if (locale) {
-    localeCondition = 'AND clips.locale_id = :locale_id'
-    params.locale_id = await getLocaleId(locale) // Only add param if needed
-  }
+/**
+ * NEW IMPLEMENTATION
+ *
+ * We are getting all data with language attached and cache
+ * Then extract locale based data in code on demand
+ * The main bottleneck was number of scanned rows and attached IO time
+ * With the added indexes, this will drop considerably
+ *
+ * - On FE by default ALL will be shown, language based ones are on demand
+ * - We can know fetch duration of ALL, but per language they differ too much
+ * - With missing DB table indexes added, the query will be faster (to be measured)
+ * - As of now we have 3.8M user records, with 51k visible, so it is a much smaller subset
+ *
+ */
 
-  const query = `
-    SELECT user_clients.client_id,
-            avatar_url,
-            avatar_clip_url,
-            username,
-            COUNT(clips.id) AS total
-      FROM user_clients
-      LEFT JOIN clips ON user_clients.client_id = clips.client_id
-          WHERE visible = 1
-          ${localeCondition}
-      GROUP BY client_id
-        HAVING total > 0
-      ORDER BY total DESC
-    `
-
-  const [rows] = await db.query(query, params)
-  return rows
+interface LeaderboardDataRow {
+  client_id: string
+  avatar_url: string | null
+  avatar_clip_url: string | null
+  username: string
+  locale_id: number
+  total: number
 }
 
-async function getVoteLeaderboard(locale?: string): Promise<any[]> {
-  const params: { locale_id?: number } = {}
-  let localeCondition = ''
-  if (locale) {
-    localeCondition = 'AND clips.locale_id = :locale_id'
-    params.locale_id = await getLocaleId(locale) // Only add param if needed
+interface LeaderboardRow extends Omit<LeaderboardDataRow, 'locale_id'> {
+  position: number
+}
+
+// double check here with a circuit breaker
+let fetchingClipLeaderboard = false
+let fetchingVoteLeaderboard = false
+
+// Get ALL clip leaderboard data with locales in one query
+async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
+  if (fetchingClipLeaderboard) {
+    return []
   }
-  const query = `
-    SELECT user_clients.client_id,
-           avatar_url,
-           avatar_clip_url,
-           username,
-           count(votes.id) as total
-    FROM user_clients
-    LEFT JOIN votes ON user_clients.client_id = votes.client_id
-    LEFT JOIN clips ON votes.clip_id = clips.id
-        WHERE visible = 1
-        ${localeCondition}
-    GROUP BY client_id
+  try {
+    fetchingClipLeaderboard = true
+    const query = `
+      SELECT 
+        uc.client_id,
+        uc.avatar_url,
+        uc.avatar_clip_url,
+        uc.username,
+        c.locale_id,
+        COUNT(c.id) AS total
+      FROM user_clients uc
+      INNER JOIN clips c ON uc.client_id = c.client_id
+      WHERE uc.visible = 1
+      GROUP BY uc.client_id, c.locale_id
       HAVING total > 0
-    ORDER BY total DESC
-  `
-  const [rows] = await db.query(query, params)
-  return rows
+    `
+
+    const [rows] = await db.query(query)
+    // TODO - remove this after some time
+    console.log(`Clip Leaderboard rows = ${rows.length}`)
+    return rows as LeaderboardDataRow[]
+  } finally {
+    fetchingClipLeaderboard = false
+  }
+}
+
+// Get ALL vote leaderboard data with locales in one query
+async function getAllVoteLeaderboardData(): Promise<LeaderboardDataRow[]> {
+  if (fetchingVoteLeaderboard) {
+    return []
+  }
+  try {
+    fetchingVoteLeaderboard = true
+    const query = `
+      SELECT 
+        uc.client_id,
+        uc.avatar_url,
+        uc.avatar_clip_url,
+        uc.username,
+        c.locale_id,
+        COUNT(v.id) AS total
+      FROM user_clients uc
+      INNER JOIN votes v ON uc.client_id = v.client_id
+      INNER JOIN clips c ON v.clip_id = c.id
+      WHERE uc.visible = 1
+      GROUP BY uc.client_id, c.locale_id
+      HAVING total > 0
+    `
+
+    const [rows] = await db.query(query)
+    // TODO - remove this after some time
+    console.log(`Vote Leaderboard rows = ${rows.length}`)
+    return rows as LeaderboardDataRow[]
+  } finally {
+    fetchingVoteLeaderboard = false
+  }
+}
+
+// Separate cache functions for individual data types with pre-fetching
+const getCachedClipLeaderboardData = () => {
+  return lazyCache(
+    'cv:leaderboard:clip-data',
+    getAllClipLeaderboardData,
+    1 * TimeUnits.HOUR,
+    15 * TimeUnits.MINUTE
+  )()
+}
+
+const getCachedVoteLeaderboardData = () => {
+  return lazyCache(
+    'cv:leaderboard:vote-data',
+    getAllVoteLeaderboardData,
+    1 * TimeUnits.HOUR,
+    15 * TimeUnits.MINUTE
+  )()
+}
+
+//
+// Clips
+//
+
+// Extract global clip leaderboard from cached data
+const getGlobalClipLeaderboard = () => {
+  return lazyCache(
+    'cv:leaderboard:clip-global',
+    async (): Promise<LeaderboardRow[]> => {
+      const clipData = await getCachedClipLeaderboardData()
+
+      const userTotals = new Map<
+        string,
+        LeaderboardDataRow & { total: number }
+      >()
+      for (const row of clipData) {
+        const key = row.client_id
+        const existing = userTotals.get(key)
+        if (existing) {
+          existing.total += row.total
+        } else {
+          userTotals.set(key, { ...row, total: row.total })
+        }
+      }
+
+      const leaderboard = Array.from(userTotals.values()).sort(
+        (a, b) => b.total - a.total
+      )
+
+      return leaderboard.map((row, i) => ({ position: i, ...row }))
+    },
+    1 * TimeUnits.HOUR,
+    5 * TimeUnits.SECOND
+  )()
+}
+
+// Extract per-locale from cached data
+const getLocaleClipLeaderboard = (locale: string) => {
+  return lazyCache(
+    `cv:leaderboard:clip-${locale}`,
+    async (): Promise<LeaderboardRow[]> => {
+      const clipData = await getCachedClipLeaderboardData()
+      const localeId = await getLocaleId(locale)
+
+      const userTotals = new Map<
+        string,
+        LeaderboardDataRow & { total: number }
+      >()
+      for (const row of clipData) {
+        if (row.locale_id !== localeId) continue
+
+        const key = row.client_id
+        const existing = userTotals.get(key)
+        if (existing) {
+          existing.total += row.total
+        } else {
+          userTotals.set(key, { ...row, total: row.total })
+        }
+      }
+
+      const leaderboard = Array.from(userTotals.values()).sort(
+        (a, b) => b.total - a.total
+      )
+
+      return leaderboard.map((row, i) => ({ position: i, ...row }))
+    },
+    1 * TimeUnits.HOUR,
+    5 * TimeUnits.SECOND
+  )()
+}
+
+//
+// Votes
+//
+
+// Extract global vote leaderboard from cached data
+const getGlobalVoteLeaderboard = () => {
+  return lazyCache(
+    'cv:leaderboard:vote-global',
+    async (): Promise<LeaderboardRow[]> => {
+      const voteData = await getCachedVoteLeaderboardData()
+
+      const userTotals = new Map<
+        string,
+        LeaderboardDataRow & { total: number }
+      >()
+      for (const row of voteData) {
+        const key = row.client_id
+        const existing = userTotals.get(key)
+        if (existing) {
+          existing.total += row.total
+        } else {
+          userTotals.set(key, { ...row, total: row.total })
+        }
+      }
+
+      const leaderboard = Array.from(userTotals.values()).sort(
+        (a, b) => b.total - a.total
+      )
+
+      return leaderboard.map((row, i) => ({ position: i, ...row }))
+    },
+    2 * TimeUnits.HOUR,
+    5 * TimeUnits.SECOND
+  )()
+}
+
+// Extract per-locale vote leaderboard from cached data
+const getLocaleVoteLeaderboard = (locale: string) => {
+  return lazyCache(
+    `cv:leaderboard:vote-${locale}`,
+    async (): Promise<LeaderboardRow[]> => {
+      const voteData = await getCachedVoteLeaderboardData()
+      const localeId = await getLocaleId(locale)
+
+      const userTotals = new Map<
+        string,
+        LeaderboardDataRow & { total: number }
+      >()
+      for (const row of voteData) {
+        if (row.locale_id !== localeId) continue
+
+        const key = row.client_id
+        const existing = userTotals.get(key)
+        if (existing) {
+          existing.total += row.total
+        } else {
+          userTotals.set(key, { ...row, total: row.total })
+        }
+      }
+
+      const leaderboard = Array.from(userTotals.values()).sort(
+        (a, b) => b.total - a.total
+      )
+
+      return leaderboard.map((row, i) => ({ position: i, ...row }))
+    },
+    2 * TimeUnits.HOUR,
+    5 * TimeUnits.SECOND
+  )()
 }
 
 // NOTE: The top-related SQLs
@@ -200,44 +405,6 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
   return rows
 }
 
-const getFullClipLeaderboard = (locale?: string) => {
-  const lockTtl = locale
-    ? 80 * TimeUnits.SECOND // With locale - avg. measured 5 sec - worst 1.1 min!!!
-    : 5 * TimeUnits.MINUTE // Without locale - avg. measured 2.1 min - worst 4.7!!!
-  const cacheTtl = locale
-    ? 1 * TimeUnits.HOUR // With locale
-    : 2 * TimeUnits.HOUR // Without locale
-
-  return lazyCache(
-    `clip-leaderboard-${locale || 'global'}`,
-    async () => {
-      const leaderboard = await getClipLeaderboard(locale)
-      return leaderboard.map((row, i) => ({ position: i, ...row }))
-    },
-    cacheTtl,
-    lockTtl
-  )()
-}
-
-const getFullVoteLeaderboard = (locale?: string) => {
-  const lockTtl = locale
-    ? 4 * TimeUnits.MINUTE // With locale - avg. measured 21.2 sec - worst 3.5 min!!!
-    : 20 * TimeUnits.MINUTE // Without locale - avg. measured 8.4 min - worst 17.1 min!!!
-  const cacheTtl = locale
-    ? 1 * TimeUnits.HOUR // With locale
-    : 2 * TimeUnits.HOUR // Without locale
-
-  return lazyCache(
-    `vote-leaderboard-${locale || 'global'}`,
-    async () => {
-      const leaderboard = await getVoteLeaderboard(locale)
-      return leaderboard.map((row, i) => ({ position: i, ...row }))
-    },
-    cacheTtl,
-    lockTtl
-  )()
-}
-
 export const getTopSpeakersLeaderboard = lazyCache(
   'top-speaker-leaderboard',
   async ({
@@ -338,8 +505,12 @@ export default async function getLeaderboard({
   let leaderboard = []
   if (dashboard == 'stats') {
     leaderboard = await (type == 'clip'
-      ? getFullClipLeaderboard
-      : getFullVoteLeaderboard)(locale)
+      ? locale
+        ? getLocaleClipLeaderboard(locale)
+        : getGlobalClipLeaderboard()
+      : locale
+      ? getLocaleVoteLeaderboard(locale)
+      : getGlobalVoteLeaderboard())
   } else if (dashboard == 'challenge') {
     const { scope, challenge } = arg
     switch (scope) {
@@ -373,7 +544,8 @@ export default async function getLeaderboard({
     return prepareRows(leaderboard.slice(cursor[0], cursor[1]))
   }
 
-  if (leaderboard.length < 5) leaderboard = []
+  if (!leaderboard || leaderboard?.length < MIN_USERS_THRESHOLD)
+    leaderboard = []
 
   const userIndex = leaderboard.findIndex(row => row.client_id == client_id)
   const userRegion =

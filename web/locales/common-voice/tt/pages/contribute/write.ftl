@@ -83,3 +83,8 @@ small-batch-instruction = <icon></icon> Берничә иҗтимагый мил
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
 # menu item
 add-sentences = Җөмләләр өстәү
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Җөмләләр өстәү
+review-sentences-menu-item-tooltip = Җөмләләрне тикшерү
