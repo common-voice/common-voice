@@ -138,3 +138,12 @@ offensive-content-sensitive-information-explanation-explanation-2 = שאלות �
 offensive-content-sensitive-information-explanation-explanation-3 = שאלות שהתשובה אליהן עשויה לגרום למשיב או המשיבה לחלוק פרטים אינטימיים מידי או לגרום לטריגר פסיכולוג
 example-questions-subheader = שאלות לדוגמא
 example-questions-explanation-1 = ניתן למצוא <examplePromptsLink>120 דוגמאות לשאלות בגיליון זה.</examplePromptsLink>
+example-questions-explanation-2 = אם ברצונכם להגיש אסופה של שאלות לקליטה יחדיו, <githubLink>תוכלו לעשות זאת דרך ה-GitHub שלנו</githubLink> או על-ידי שליחת הרשימה באי-מייל ל-<emailFragment>commonvoice@mozilla.com</emailFragment>.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = לענות על שאלות
+answer-questions-subheader = הנחיות כלליות
+answer-questions-explanation-1 = קחו רגע לחשוב על השאלה ועל מה ברצונכם לומר, אבל אל תהיו מתוכננים מידי. לחצו על כפתור 'הקלטה'. כאשר תסיימו את ההקלטה, תוכלו לשמוע את עצמכם, להקליט מחדש, למחוק או להגיש אותה.
+answer-questions-explanation-2 = זכרו - לא צריך לדאוג מגמגומים, שהיות או חזרות על מילה. כל אלה שימושיים עבור מהנדסים ששוקדים על בניית כלים לזיהוי דיבור כך שיהיו רלוונטים למשימות כלליות בעולם האמיתי.
