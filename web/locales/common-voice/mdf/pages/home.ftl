@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = Лезтт тейнек тиемс кялень коряс цебярь кочкафкс, кона улель сембонди сатовикс и панжадокс
 sign-up-account = Тиемс эстейть сувама васта
-email-subscription-title = Сёрматфтомс пря «мезе однясь» кулянь-пачфтемань ширде
-email-subscription-title-new = Сёрматфтомс пря «Common Voice»-нь сатфксонзон содамань коряс кулянь-пачфтемань ширде
 
 ## Account Benefits
 

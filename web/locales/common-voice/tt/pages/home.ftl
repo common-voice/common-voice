@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = Безгә югары сыйфатлы, һәркемгә ачык мәгълүмат тупланмасын булдырырга ярдәм итегез
 sign-up-account = Аккаунт булдырыр өчен теркәлегез
-email-subscription-title = Электрон почта аша килүче яңалыкларга язылу
-email-subscription-title-new = Common Voice гәҗитенә, куелган максатлар һәм эшләнгән эшләр турындагы хәбәрләргә язылыгыз
 
 ## Account Benefits
 

@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = به ما در ایجاد یک مجموعه داده با کیفیت بالا و باز برای عموم کمک کنید
 sign-up-account = برای یک حساب‌کاربری نام‌نویسی کنید
-email-subscription-title = ثبت نام برای به روز رسانی ایمیل
-email-subscription-title-new = در خبرنامه، يادآورِ هدف و اخبار پیشرفت پروژهٔ آواهای مشترک ثبت‌نام کنید
 
 ## Account Benefits
 

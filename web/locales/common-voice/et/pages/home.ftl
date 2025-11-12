@@ -42,7 +42,6 @@ x-years-short =
     }
 help-make-dataset = Aita meil luua kvaliteetne ja kõigile avalik andmestik
 sign-up-account = Loo konto
-email-subscription-title = telli endale uuendused e-postiga
 
 ## Account Benefits
 

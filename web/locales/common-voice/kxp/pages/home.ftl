@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = سٺي معيار هارو مدد۔ عوامي اوپن ديٽا سيٽ
 sign-up-account = اڪائونٽ هارو سائن اپ ڪرو
-email-subscription-title = اي ميل اپديٽ هارو سائن اپ ڪروون
-email-subscription-title-new = ڪامن وائيس ني خٻير چار هارو سائن اپ ڪروون۔ حدف نين ياد الاوون هارو ترقي ڪروي
 
 ## Account Benefits
 

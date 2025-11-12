@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel sy'n agored i'r cyhoedd
 sign-up-account = Cofrestru am gyfrif
-email-subscription-title = cofrestrwch am ddiweddariadau e-bost
-email-subscription-title-new = Cofrestrwch er mwyn derbyn cylchlythyron, hysbysiadau targedau a diweddariadau cynnydd Common Voice.
 
 ## Account Benefits
 

@@ -52,8 +52,6 @@ x-years-short =
     }
 help-make-dataset = Cabhraigh linn tacar sonraí oscailte den chéad scoth a thógáil
 sign-up-account = Cláraigh
-email-subscription-title = cláraigh le haghaidh nuashonruithe ríomhphoist
-email-subscription-title-new = Cláraigh le haghaidh nuachtlitreacha Common Voice, meabhrúcháin spriocanna, agus nuashonruithe ar dhul chun cinn
 
 ## Account Benefits
 

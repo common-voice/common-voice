@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = Помозите нам да изградимо високо квалитетан, јаван и отворен скуп података
 sign-up-account = Региструјте налог
-email-subscription-title = пријавите се на новости преко е-поште
-email-subscription-title-new = Претплатите се на билтене о Common Voice-у, подсетнике за циљеве и новости о напретку
 
 ## Account Benefits
 

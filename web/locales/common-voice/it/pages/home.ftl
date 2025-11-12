@@ -41,8 +41,6 @@ x-years-short =
     }
 help-make-dataset = Aiutaci a realizzare un dataset di alta qualità e aperto
 sign-up-account = Registrati
-email-subscription-title = Iscriviti agli aggiornamenti via email
-email-subscription-title-new = Iscriviti alle newsletter di Common Voice, ai promemoria degli obiettivi e agli aggiornamenti dei progressi
 
 ## Account Benefits
 

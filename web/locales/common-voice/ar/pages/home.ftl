@@ -56,8 +56,6 @@ x-years-short =
     }
 help-make-dataset = ساعِدنا لبناء قاعدة بيانات عالية الجودة ومفتوحة للعموم
 sign-up-account = سجّل حسابا
-email-subscription-title = سجّل لاستلام التحديثات على البريد
-email-subscription-title-new = اشترك واستلم البريد مثل التذكير بالأهداف والتحديثات عن مسيرك وأخبار «الصوت للعموم»
 
 ## Account Benefits
 

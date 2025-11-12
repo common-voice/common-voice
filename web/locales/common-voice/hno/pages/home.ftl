@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = ہک ہچھے میعار دا، عوامی اوپن ڈیٹا سیٹ بڑانڑ بچ اسدی مدد کرو
 sign-up-account = اکاؤنٹ واسطے سائن اپ کرو
-email-subscription-title = ای میل اپڈیٹاں آستے سائن اپ کرو
-email-subscription-title-new = کامن وائس نیوزلیڑز، مقصد دی یاد دہانیاں تے پیش رفت اپڈیٹاں واسطے سائن اپ کرو
 
 ## Account Benefits
 

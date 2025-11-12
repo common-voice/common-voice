@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Mẽrdũmẽr yi d̃at̃aset̃ k̃hakẽr, sakẽr mẽdad woc.
 sign-up-account = Yi akownt̃ẽr (account) saynap (sasing up) car
-email-subscription-title = Emailẽ apd̃et̃ẽr (for update) saynap (sign up) car
-email-subscription-title-new = Kommon voysẽ khẽbarẽ khatẽ (newsletter) saynap car, maqsadẽ sẽk yod wẽzmukẽ kuzg woz tẽrẽqiyẽ apd̃et̃isht
 
 ## Account Benefits
 

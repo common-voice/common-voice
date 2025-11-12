@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Ajudatz-mos a crear un conjunt de donades de nauta qualitat dubèrt e disponible publicaments
 sign-up-account = Crea un compde
-email-subscription-title = registratz-vos entà recéber actualizacions per corrèu
-email-subscription-title-new = Creatz un compde entà recéber es notícies de Common Voice, rebrembes des objectius e actualizacions de progrès
 
 ## Account Benefits
 

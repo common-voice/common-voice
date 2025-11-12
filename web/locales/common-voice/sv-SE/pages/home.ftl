@@ -46,8 +46,7 @@ x-years-short =
     }
 help-make-dataset = Hjälp oss bygga en högkvalitativ, öppen datamängd
 sign-up-account = Registrera dig för ett konto
-email-subscription-title = registrera dig för uppdateringar via e-post
-email-subscription-title-new = Registrera dig för Common Voice nyhetsbrev, målpåminnelser och framstegsuppdateringar
+email-subscription-title-v3 = Registrera dig för uppdateringar av Common Voice och Mozilla Foundation
 
 ## Account Benefits
 

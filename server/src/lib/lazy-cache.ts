@@ -1,5 +1,6 @@
 import { redis, redlock, useRedis } from './redis'
 import * as Sentry from '@sentry/node'
+import type { Lock } from 'redlock'
 
 import { TimeUnits } from 'common'
 
@@ -261,7 +262,8 @@ function redisCache<T, S>(
   cacheKey: string,
   cachedFunction: Fn<T, S>,
   timeMs: number,
-  lockDurationMs: number
+  lockDurationMs: number,
+  allowStaleOnLockFailure: boolean
 ): Fn<T, S> {
   // Create a memory cache fallback for when Redis fails
   const memoryFallback = memoryCache(cachedFunction, timeMs)
@@ -269,6 +271,7 @@ function redisCache<T, S>(
 
   return async (...args): Promise<T> => {
     const key = cacheKey + JSON.stringify(args)
+    let lock = null
 
     try {
       // First: Try to get from cache first
@@ -285,12 +288,29 @@ function redisCache<T, S>(
       }
 
       // Second: quick lock acquisition attempt
-      let lock = null
       try {
         lock = await redlock.lock(lockKey, lockDurationMs)
       } catch (lockError) {
-        // Couldn't get lock - use fallback strategy
-        return await handleLockFailure(key, args, memoryFallback)
+        // Distinguish between "lock held" vs "Redis down"
+        const isRedisDown =
+          lockError.message?.includes('exceeded') ||
+          lockError.message?.includes('quorum') ||
+          lockError.message?.includes('timeout') ||
+          lockError.message?.includes('ECONNREFUSED') ||
+          lockError.message?.includes('Connection') ||
+          consecutiveFailures >= FAILURE_THRESHOLD
+
+        if (isRedisDown) {
+          // Redis likely down - fail fast to memory cache
+          console.error(
+            `[LazyCache] Redis appears down for ${cacheKey}, using memory fallback`
+          )
+          reportError(lockError as Error, 'cache-lock-redis-down')
+          return await memoryFallback(...(args as S[]))
+        }
+
+        // Lock held by another instance - use stale data strategy
+        return await handleLockFailure(key)
       }
 
       // We have the lock - double check cache
@@ -304,46 +324,98 @@ function redisCache<T, S>(
         }
       } catch (error) {
         reportError(error as Error, 'cache-double-check')
+        // Still continue to compute if double-check fails
       }
 
       // Compute and cache the result
       return await computeAndCache(key, lock, cachedFunction, args)
     } catch (error) {
+      // Release lock if we acquired it but an error occurred
+      await releaseLock(lock)
       reportError(error as Error, 'redis-operation')
       return await memoryFallback(...(args as S[]))
     }
   }
 
-  async function handleLockFailure(
-    key: string,
-    args: S[],
-    memoryFallback: Fn<T, S>
-  ): Promise<T> {
-    reportError(new Error('Lock acquisition failed'), 'cache-lock-acquisition')
+  async function handleLockFailure(key: string): Promise<T> {
+    console.warn(
+      `[LazyCache] Lock acquisition failed for ${cacheKey}. Attempting recovery strategy.`
+    )
 
-    // Wait briefly for lock holder to populate cache
-    const backoffMs = 150 + Math.floor(Math.random() * 200)
-    await new Promise(res => setTimeout(res, backoffMs))
+    if (allowStaleOnLockFailure) {
+      // Prefer stale or fresh data before doing anything else
+      try {
+        const raw = await redis.get(key)
+        if (raw) {
+          const cached = JSON.parse(raw)
+
+          // Fresh data happened to appear
+          if (!isExpired(cached.at, timeMs)) {
+            console.log(
+              `[LazyCache] Fresh data became available for ${cacheKey}`
+            )
+            return cached.value
+          }
+
+          // Return stale if allowed
+          if (cached.value) {
+            const ageSeconds = Math.floor((Date.now() - cached.at) / 1000)
+            console.warn(
+              `[LazyCache] Returning STALE data for ${cacheKey} (age: ${ageSeconds}s).`
+            )
+            return cached.value
+          }
+        }
+      } catch (err) {
+        reportError(err as Error, 'stale-check-after-lock-failure')
+      }
+
+      // No stale or fresh data
+      const internal = new Error(
+        `No stale or fresh data available for ${cacheKey}; lock acquisition failed.`
+      )
+      reportError(internal, 'cache-lock-fail-no-stale')
+
+      // User-safe output
+      throw new Error(`Temporary data issue. Please try again shortly.`)
+    }
+
+    // Fresh data REQUIRED
+    console.warn(
+      `[LazyCache] Lock held for ${cacheKey}. Fresh data required, checking if another instance already computed it.`
+    )
 
     try {
-      const doubleAfter = await redis.get(key)
-      if (doubleAfter) {
-        const cached = JSON.parse(doubleAfter)
+      const raw = await redis.get(key)
+      if (raw) {
+        const cached = JSON.parse(raw)
         if (!isExpired(cached.at, timeMs)) {
+          console.log(
+            `[LazyCache] Fresh data now available for ${cacheKey}. Another instance computed it.`
+          )
           return cached.value
         }
       }
     } catch (err) {
-      reportError(err as Error, 'cache-double-check-after-lock-fail')
+      reportError(err as Error, 'fresh-check-after-lock-failure')
     }
 
-    // Final fallback
-    return await memoryFallback(...(args as S[]))
+    // Fresh required but unavailable
+    const internal = new Error(
+      `Fresh data required for ${cacheKey}, but lock is held and no new data appeared.`
+    )
+    console.error(`[LazyCache] ${internal.message}`)
+    reportError(internal, 'cache-lock-fail-no-fresh')
+
+    // User-safe message
+    throw new Error(
+      `The requested data is still being prepared. Please retry a minute later.`
+    )
   }
 
   async function computeAndCache(
     key: string,
-    lock: any,
+    lock: Lock | null,
     cachedFunction: Fn<T, S>,
     args: S[]
   ): Promise<T> {
@@ -362,21 +434,24 @@ function redisCache<T, S>(
     }
   }
 
-  async function releaseLock(lock: any): Promise<void> {
+  async function releaseLock(lock: Lock | null): Promise<void> {
     if (!lock) return
 
     try {
       await lock.unlock()
-    } catch (unlockError: any) {
-      const msg = unlockError?.message || ''
+    } catch (unlockError: unknown) {
+      const msg =
+        unlockError instanceof Error ? unlockError.message : String(unlockError)
       if (
         msg.includes('Unable to fully release the lock') ||
         msg.includes('missing value') ||
         msg.includes('does not exist')
       ) {
         console.warn(`[LazyCache] Non-critical unlock issue: ${msg}`)
+      } else if (unlockError instanceof Error) {
+        reportError(unlockError, 'cache-unlock')
       } else {
-        reportError(unlockError as Error, 'cache-unlock')
+        reportError(new Error(String(unlockError)), 'cache-unlock')
       }
     }
   }
@@ -386,10 +461,17 @@ export default function lazyCache<T, S>(
   cacheKey: string,
   f: Fn<T, S>,
   timeMs: number,
-  lockDurationMs = 5 * TimeUnits.MINUTE
+  lockDurationMs = 5 * TimeUnits.MINUTE,
+  allowStaleOnLockFailure = false // Default: DO NOT return stale data
 ): Fn<T, S> {
   const memCache = memoryCache(f, timeMs)
-  const redisCacheImpl = redisCache(cacheKey, f, timeMs, lockDurationMs)
+  const redisCacheImpl = redisCache(
+    cacheKey,
+    f,
+    timeMs,
+    lockDurationMs,
+    allowStaleOnLockFailure
+  )
 
   return async (...args: S[]) => {
     const strategy = await getCacheStrategy()

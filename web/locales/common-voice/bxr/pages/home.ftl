@@ -26,7 +26,6 @@ x-years-short =
        *[other] { $count }жэл
     }
 sign-up-account = Хэрэглэгшэ бүридхүүлхэ
-email-subscription-title = сахим шууданаар шэнэ мэдээ абаха
 
 ## Account Benefits
 

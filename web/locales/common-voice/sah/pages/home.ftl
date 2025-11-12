@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Үрдүк хаачыстыбалаах аһаҕас дааннай наборун оҥорорго көмөлөс
 sign-up-account = Бэлиэтэнии
-email-subscription-title = саҥардыллыы туһунан email-га суруттарарга
-email-subscription-title-new = Common Voice сонуннарын, сыалы санатар уонна сайдыы туһунан тутарга суруттар
 
 ## Account Benefits
 

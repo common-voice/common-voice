@@ -55,8 +55,6 @@ x-years-short =
     }
 help-make-dataset = ช่วยเราสร้างชุดข้อมูลที่เปิดกว้างและเปิดเผยต่อสาธารณะ
 sign-up-account = ลงทะเบียนบัญชี
-email-subscription-title = ลงทะเบียนเพื่อรับข่าวสารทางอีเมล
-email-subscription-title-new = ลงทะเบียนรับจดหมายข่าว Common Voice เพื่อแจ้งเตือนเป้าหมายและอัปเดตความคืบหน้า
 
 ## Account Benefits
 

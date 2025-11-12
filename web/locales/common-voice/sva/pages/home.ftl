@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ლა̈ნმა̈რჯუ̂ ხარისხია̈ნ ჩია̈შდ ხელმისაწუ̂დომ ხმოუ̂ან მონაცემრე ლასყე̄ნას.
 sign-up-account = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ ანგარიშჟი
-email-subscription-title = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ ელ. ფოსტა̄̈ განახლება̈შდ
-email-subscription-title-new = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ Common Voice-ჟი მიზნარე ჟი ლა̈შყდუნად ი პროგრესი განახლება̄̈შდ
 
 ## Account Benefits
 

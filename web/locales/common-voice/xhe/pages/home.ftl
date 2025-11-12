@@ -58,8 +58,6 @@ x-years-short =
     }
 help-make-dataset = گھݨاں چَنڳا، عوامی طور تی کُھلّا ڈیٹا سیٹ جوڑݨ وِچ اَساں جی مدد کر
 sign-up-account = ہِک اکاؤنٹ واسطے سائن اپ کر
-email-subscription-title = ای میل تی تازہ کاریں واسطے سائن اپ کر
-email-subscription-title-new = کامن وائس خبریاں، ہدف یاد دہانیاں ٻیا ترقی تی تازہ کاریاں واسطے سائن اپ کر
 
 ## Account Benefits
 

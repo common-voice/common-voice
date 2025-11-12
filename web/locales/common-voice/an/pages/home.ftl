@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Aduya-nos a fer una base de datos d'alta calidad y accesible pa toz
 sign-up-account = Rechistra-te y crea una cuenta
-email-subscription-title = rechistra-te pa recibir información per correu
-email-subscription-title-new = Suscríbete a lo boletín de noticias, a los recordatorios y actualizacions de progreso de Common Voice
 
 ## Account Benefits
 

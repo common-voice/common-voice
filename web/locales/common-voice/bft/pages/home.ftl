@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = چوقلا تھوبہ نینمی چوقپہ لیاخو ڈیتا سیٹ فچوا فری نیی روخ بیوس۔
 sign-up-account = اکاونٹ چک فچوا فری جوکھ لم پو سونگ
-email-subscription-title = ای میلی خبر اتار لا جوکھ لم لا سونگ
-email-subscription-title-new = کامن وایسی خبر اتار کنی فری، لس کھومی لوکھسینگ، دیکھنہ تونگونگ ایتوفیونگما فری جوکھ لم لا شوقس،
 
 ## Account Benefits
 

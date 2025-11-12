@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = عوامی کھلاو ڈیٹا سیٹ  اوچت معیار سو سندے مہ اسئیں مدد گر
 sign-up-account = اکاونٹ سو دَن سائن اپ گر
-email-subscription-title = ای میل اپ ڈیٹ گرے سو دَن سائن اپ گر
-email-subscription-title-new = عام اواز سو خبریوں سو خط،مقصد سو یاداشت آ کار کردگی اپ ڈیٹ گرے سو دَن سائن اپ  گر
 
 ## Account Benefits
 

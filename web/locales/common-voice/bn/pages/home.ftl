@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = একটি উচ্চ মানসম্পন্ন, সর্বজনীনভাবে উন্মুক্ত ডেটাসেট তৈরীতে আমাদের সহায়তা করুন
 sign-up-account = একাউন্টের জন্য সাইন আপ করুন
-email-subscription-title = ইমেল আপডেটের জন্য সাইন আপ করুন
-email-subscription-title-new = কমন ভয়েসের নিউজলেটার, অনুস্মারক এবং অগ্রগতি নিয়ে হালনাগাদ পেতে সাইন আপ করুন
 
 ## Account Benefits
 

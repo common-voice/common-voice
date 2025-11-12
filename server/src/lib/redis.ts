@@ -21,7 +21,7 @@ export const redis = new Redis(getConfig().REDIS_URL, {
 } as Redis.RedisOptions)
 
 // Connection event logging
-redis.on('connect', () => console.debug('[Redis] Connecting...'))
+// redis.on('connect', () => console.debug('[Redis] Connecting...'))
 redis.on('ready', () => console.info('[Redis] Ready and connected'))
 redis.on('error', err => console.error('[Redis] Error:', err.message))
 redis.on('close', () => console.warn('[Redis] Connection closed'))
@@ -31,8 +31,14 @@ redis.on('reconnecting', delay =>
 redis.on('end', () => console.warn('[Redis] Connection ended'))
 
 export const redlock = new Redlock([redis], {
-  retryCount: 2, // Allow some retries for locks
-  retryDelay: 100,
+  // Strategy: Quick retry to handle transient Redis issues
+  // If Redis is briefly slow/recovering, retries can prevent unnecessary memory fallback
+  // If lock is truly held by another instance, we'll fail fast and use stale data
+  retryCount: 3, // Try a few times to handle network hiccups (300-600ms total)
+  retryDelay: 100, // Base delay between retries
+  retryJitter: 100, // Add randomness to prevent synchronicity (100-200ms per retry)
+  // Drift factor for clock skew across Redis instances
+  driftFactor: 0.01,
 })
 
 // Never call redis.quit() - let ioredis handle reconnection automatically

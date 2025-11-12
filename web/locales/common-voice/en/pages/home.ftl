@@ -56,8 +56,7 @@ x-years-short =
     }
 help-make-dataset = Help us build a high quality, publicly open dataset
 sign-up-account = Sign up for an account
-email-subscription-title = sign up for email updates
-email-subscription-title-new = Sign up for Common Voice newsletters, goal reminders and progress updates
+email-subscription-title-v3 = Sign up for Common Voice and Mozilla Foundation updates
 
 ## Account Benefits
 

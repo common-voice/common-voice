@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ران تےگان ڈیٹا سیٹ ترال می اسی مدد تھا
 sign-up-account = اؘ اکونٹ کولاو تھ
-email-subscription-title = ای میلاپڈیٹس کیر  دسخط تہ
-email-subscription-title-new = کامن وایس اے  خطونی ام،ریماینڈر تے پراگرس نوم بال کیر دسخط تہ
 
 ## Account Benefits
 

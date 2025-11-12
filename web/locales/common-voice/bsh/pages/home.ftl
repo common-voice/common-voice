@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = لستہ معیاری، عوامہ دیوکہ آزاد ڈیٹا سیٹ ایپاستہ تہ ایموستہ مدد کشعں۔
 sign-up-account = اہ اکاونٹہ دیوکہ سائین اپ کشی۔
-email-subscription-title = ای میل نوئی کوستہ کہ سائن اپ کشی
-email-subscription-title-new = عام کوٹ، ݜو، مقصد یاددہانی کرلے دے پیش رفت دیوکہ سائن اپ کشی۔
 
 ## Account Benefits
 

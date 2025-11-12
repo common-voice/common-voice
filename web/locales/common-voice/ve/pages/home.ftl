@@ -51,8 +51,6 @@ x-years-short =
     }
 help-make-dataset = Ri thuseni uri ri ite datasete ya vhuimo ha nṱha ya nnyi na nnyi
 sign-up-account = Itani Akhantu
-email-subscription-title = Ḓiṅwaliseni uri ni wane dzi apudeiti nga email
-email-subscription-title-new = Ḓiṅwaliseni uri ni wane maswa maswa a Common Voice, khumbudzo ya zwipikwa na apudeiti dza mvela phanḓa.
 
 ## Account Benefits
 

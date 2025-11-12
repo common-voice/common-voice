@@ -30,8 +30,6 @@ x-months-short = { $count } mėn.
 x-years-short = { $count } m.
 help-make-dataset = Padėk mums sukurti kokybišką ir visiems atvirą balso duomenų rinkinį
 sign-up-account = Užsiregistruok ir susikurk paskyrą
-email-subscription-title = Gauk naujienas el. paštu
-email-subscription-title-new = Prisiregistruok „Common Voice“ naujienlaiškiams, tikslų priminimams ir pažangos pranešimams
 
 ## Account Benefits
 

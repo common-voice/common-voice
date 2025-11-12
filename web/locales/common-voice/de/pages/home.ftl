@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Helfen Sie uns, einen qualitativ hochwertigen, öffentlich zugänglichen Datensatz zu erstellen
 sign-up-account = Ein Konto erstellen
-email-subscription-title = Abonnieren Sie Neuigkeiten per E-Mail
-email-subscription-title-new = Abonnieren Sie Common-Voice-Newsletter, Zielerinnerungen und Fortschrittsmeldungen
 
 ## Account Benefits
 

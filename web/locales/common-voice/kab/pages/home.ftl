@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Mudd-aɣ-d ad nebnu tagrumma n yisefka n tɣara ifazen, yeldin i medden meṛṛa
 sign-up-account = Jerred akken ad tesɛuḍ amiḍan amiḍan
-email-subscription-title = jerred akken ak-id-aweḍ telɣut s yimayl
-email-subscription-title-new = Jerred qer tebrat n yisallen n Common Voice, asmekti n yiswiyen akked ileqman n usfari
 
 ## Account Benefits
 

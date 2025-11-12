@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = مھونيَ ھيڪ اونچيَ معيار، عوامي طور تيَ اوپن مواد رو سيٽ ٺاڻ ۾ مدد ڪرو۔
 sign-up-account = اڪائونٽ ھارو سائن اپ ڪرو
-email-subscription-title = ايل اپ ڊيٽ ھارو سائن اپ ڪرو
-email-subscription-title-new = ڪامن وائس نيوز ليٽر،مقصد رِي ياد ڏيراڻ ھان پيش رفت رِي تازھ خبر ھارو سائن اپ ڪرو۔
 
 ## Account Benefits
 

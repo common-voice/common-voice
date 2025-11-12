@@ -43,71 +43,83 @@ interface LeaderboardRow extends Omit<LeaderboardDataRow, 'locale_id'> {
   position: number
 }
 
-// double check here with a circuit breaker
-let fetchingClipLeaderboard = false
-let fetchingVoteLeaderboard = false
-
 // Get ALL clip leaderboard data with locales in one query
 async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
-  if (fetchingClipLeaderboard) {
-    return []
-  }
-  try {
-    fetchingClipLeaderboard = true
-    const query = `
-      SELECT 
-        uc.client_id,
-        uc.avatar_url,
-        uc.avatar_clip_url,
-        uc.username,
-        c.locale_id,
-        COUNT(c.id) AS total
-      FROM user_clients uc
-      INNER JOIN clips c ON uc.client_id = c.client_id
-      WHERE uc.visible = 1
-      GROUP BY uc.client_id, c.locale_id
-      HAVING total > 0
-    `
+  const startTime = Date.now()
 
-    const [rows] = await db.query(query)
-    // TODO - remove this after some time
-    console.log(`Clip Leaderboard rows = ${rows.length}`)
-    return rows as LeaderboardDataRow[]
-  } finally {
-    fetchingClipLeaderboard = false
+  const query = `
+    SELECT 
+      uc.client_id,
+      uc.avatar_url,
+      uc.avatar_clip_url,
+      uc.username,
+      c.locale_id,
+      COUNT(c.id) AS total
+    FROM user_clients uc
+    INNER JOIN clips c ON uc.client_id = c.client_id
+    WHERE uc.visible = 1
+    GROUP BY uc.client_id, c.locale_id
+    HAVING total > 0
+  `
+
+  const [rows] = await db.query(query)
+  const duration = Date.now() - startTime
+
+  console.log(
+    `[Leaderboard] Clip query completed: ${
+      rows.length
+    } rows in ${duration}ms (${(duration / 1000).toFixed(2)}s)`
+  )
+
+  if (duration > 60000) {
+    console.warn(
+      `[Leaderboard] SLOW QUERY WARNING: Clip leaderboard took ${(
+        duration / 1000
+      ).toFixed(2)}s`
+    )
   }
+
+  return rows as LeaderboardDataRow[]
 }
 
 // Get ALL vote leaderboard data with locales in one query
 async function getAllVoteLeaderboardData(): Promise<LeaderboardDataRow[]> {
-  if (fetchingVoteLeaderboard) {
-    return []
-  }
-  try {
-    fetchingVoteLeaderboard = true
-    const query = `
-      SELECT 
-        uc.client_id,
-        uc.avatar_url,
-        uc.avatar_clip_url,
-        uc.username,
-        c.locale_id,
-        COUNT(v.id) AS total
-      FROM user_clients uc
-      INNER JOIN votes v ON uc.client_id = v.client_id
-      INNER JOIN clips c ON v.clip_id = c.id
-      WHERE uc.visible = 1
-      GROUP BY uc.client_id, c.locale_id
-      HAVING total > 0
-    `
+  const startTime = Date.now()
 
-    const [rows] = await db.query(query)
-    // TODO - remove this after some time
-    console.log(`Vote Leaderboard rows = ${rows.length}`)
-    return rows as LeaderboardDataRow[]
-  } finally {
-    fetchingVoteLeaderboard = false
+  const query = `
+    SELECT 
+      uc.client_id,
+      uc.avatar_url,
+      uc.avatar_clip_url,
+      uc.username,
+      c.locale_id,
+      COUNT(v.id) AS total
+    FROM user_clients uc
+    INNER JOIN votes v ON uc.client_id = v.client_id
+    INNER JOIN clips c ON v.clip_id = c.id
+    WHERE uc.visible = 1
+    GROUP BY uc.client_id, c.locale_id
+    HAVING total > 0
+  `
+
+  const [rows] = await db.query(query)
+  const duration = Date.now() - startTime
+
+  console.log(
+    `[Leaderboard] Vote query completed: ${
+      rows.length
+    } rows in ${duration}ms (${(duration / 1000).toFixed(2)}s)`
+  )
+
+  if (duration > 60000) {
+    console.warn(
+      `[Leaderboard] SLOW QUERY WARNING: Vote leaderboard took ${(
+        duration / 1000
+      ).toFixed(2)}s`
+    )
   }
+
+  return rows as LeaderboardDataRow[]
 }
 
 // Separate cache functions for individual data types with pre-fetching
@@ -116,7 +128,8 @@ const getCachedClipLeaderboardData = () => {
     'cv:leaderboard:clip-data',
     getAllClipLeaderboardData,
     1 * TimeUnits.HOUR,
-    15 * TimeUnits.MINUTE
+    15 * TimeUnits.MINUTE,
+    true // Allow stale data - leaderboards can be slightly old to prevent DB stampede
   )()
 }
 
@@ -125,7 +138,8 @@ const getCachedVoteLeaderboardData = () => {
     'cv:leaderboard:vote-data',
     getAllVoteLeaderboardData,
     1 * TimeUnits.HOUR,
-    15 * TimeUnits.MINUTE
+    15 * TimeUnits.MINUTE,
+    true // Allow stale data - leaderboards can be slightly old to prevent DB stampede
   )()
 }
 

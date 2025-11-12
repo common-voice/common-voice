@@ -42,7 +42,6 @@ x-years-short =
     }
 help-make-dataset = Жогорку сапаттагы, ачык жеткиликтүү үн корун курууга жардам бериңиз
 sign-up-account = Эсеп түзүү
-email-subscription-title = эмейл жаңылыктарына жазылуу
 
 ## Account Benefits
 

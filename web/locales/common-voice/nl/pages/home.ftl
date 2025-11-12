@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Help ons een openbaar toegankelijke gegevensset van hoge kwaliteit te bouwen
 sign-up-account = Een account aanmaken
-email-subscription-title = schrijf u in voor e-mailupdates
-email-subscription-title-new = Registreer voor nieuwsbrieven van Common Voice, herinneringen aan uw doelstellingen en updates over uw voortgang.
 
 ## Account Benefits
 

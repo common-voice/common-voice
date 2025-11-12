@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = Ede nou konstwi yon seri done ki gen bon jan kalite, ki louvri piblikman
 sign-up-account = Enskri pou yon kont
-email-subscription-title = enskri pou jwen imel pwogrè
-email-subscription-title-new = Enskri pou bilten Common Voice, rapèl objektif ak pwogrè
 
 ## Account Benefits
 

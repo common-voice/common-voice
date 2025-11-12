@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = اسوڑے جکوکاری ہوں لیگی لاؤ سم ڈیٹا سیٹ سنیونو ساتی بو
 sign-up-account = اکاؤنڈیک وشیا
-email-subscription-title = ای میل نئی تھیونو سائن اپ تھے
-email-subscription-title-new = تھیئیے کروم گہ سانچو مشے ،کامن وائس کاری سائن اپ تھے
 
 ## Account Benefits
 
