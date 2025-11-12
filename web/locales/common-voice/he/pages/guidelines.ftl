@@ -249,3 +249,13 @@ code-switching-answer-bullet-4 = אין דרך אחת "מושלמת" לענות
 code-switching-authentic-header = ענו באופן טבעי וכן
 code-switching-authentic-speak = <bold>דברו כפי שהייתם מדברים עם חברים או משפחה.</bold> אם אתם מערבבים בין שפות בחיים הרגיילים, עשו זאת גם כאן. דוגמה:
 code-switching-authentic-speak-example = "אמרתי לה שאני לא יכול ללכת ל-movies, ואז היא עונה לי כאילו ווילי כפרה למה שלא תבואי"
+code-switching-use-both-languages = <bold>השתמשו ביותר משפה אחת אם זו הדרך שבה אתם מדברים  בדרך כלל.</bold> גם החלפה של מילה אחת או שתיים היא שימושית. דוגמה:
+code-switching-use-both-languages-example = "היא ממש היתה weird כי לא התקשרתי אליה בחזרה."
+code-switching-authentic-direct-quotes = <bold>הכלילו ציטוטים ישירים או דיאלוגים.</bold> אמרו בדיוק משהו שמישהו אחר אמר, ולא גרסה ערוכה או רשמית. לדוגמא:
+code-switching-authentic-direct-quotes-example = "היא שאלה אותי ‘מאמי שלי, ווינ אינתי?‘ ואני כזה ‘תיכף there’"
+code-switching-authentic-reflect = <bold>בטאו רגש, זהות והקשר.</bold> מעברי קוד קורים לא מעט כאשר אנשים חשים רגש או דחיפות, או כאשר רוצים לתווך מושגים תרבותיים. השתמשו בעובדות אלה כשאתם עונים על שאלות.
+code-switching-authentic-full-context = <bold>השתמשו בתשובות מלאות עם הקשר.</bold> היו מפורטים ככל האפשר, ותפרטו כמה שיותר. שתפו סיפור או דוגמה בתשובותיכם.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = אל תחשבו או תתקנו את עצמכם יותר מידי
+code-switching-answer-dont-correct-language = <bold>"תתקנו" את השפה שלכם.</bold> זה לא מבחן. להיות "בסדר" לא משנה לנו - זה שתדברו באופן טבעי, כן.
+code-switching-answer-dont-avoid-switching = <bold>אל תימנעו מהחלפת קוד.</bold> זה בסדר להחליף קוד באמצע משפט, באמצע מחשבה, או רק עבור מילה אחת.
