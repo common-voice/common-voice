@@ -130,7 +130,7 @@ dont-add-subheader = לא להוסיף
 culturally-specific-questions = שאלות שהן ספציפיות לתרבות מסויימת
 culturally-specific-questions-explanation = שאלות שהן ספציפיות מאוד לתרבות מסויימת, או מניחות הנחות רבות לגבי המשיב או המשיבה
 length-avoid-explanation = שאלות שיהיה קשה לענות עליהן בתוך 15 שניות בלבד (אורך המקטע המירבי להקלטה)
-process-steps = תהליך \ שלבים
+process-steps = תהליך / שלבים
 process-steps-explanation = שאלות הדורשות ממישהו לפרט מספר שלבים. זה עשוי לגרום למשתמשים לדקלם תשובה, במקום לענות באופן יותר טבעי.
 offensive-content-sensitive-information = תוכן פוגעני או מידע רגיש
 offensive-content-sensitive-information-explanation-explanation-1 = שאלות שהתשובה אליהן עשויה לכלול מידע פרטי או כזה המאפשר זיהוי אישי (למשל שם או כתובת מגורים)
@@ -257,5 +257,24 @@ code-switching-authentic-reflect = <bold>בטאו רגש, זהות והקשר.</
 code-switching-authentic-full-context = <bold>השתמשו בתשובות מלאות עם הקשר.</bold> היו מפורטים ככל האפשר, ותפרטו כמה שיותר. שתפו סיפור או דוגמה בתשובותיכם.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = אל תחשבו או תתקנו את עצמכם יותר מידי
-code-switching-answer-dont-correct-language = <bold>"תתקנו" את השפה שלכם.</bold> זה לא מבחן. להיות "בסדר" לא משנה לנו - זה שתדברו באופן טבעי, כן.
+code-switching-answer-dont-correct-language = <bold>אל "תתקנו" את השפה שלכם.</bold> זה לא מבחן. להיות "בסדר" לא משנה לנו - זה שתדברו באופן טבעי, כן.
 code-switching-answer-dont-avoid-switching = <bold>אל תימנעו מהחלפת קוד.</bold> זה בסדר להחליף קוד באמצע משפט, באמצע מחשבה, או רק עבור מילה אחת.
+code-switching-answer-dont-formal-writing = <bold>אל תדברו כאילו אתם כותבים.</bold> הימנע מתשובות רשמיות ואקדמיות. שמרו על אופי דיבורי, של שיחה.
+code-switching-answer-dont-force-switch = <bold>אל תכפו את מעבר לשפה אחרת אם זה לא טבעי.</bold> החליפו קוד רק אם כך הייתם מדברים באופן טבעי באותו מצב.
+code-switching-answer-dont-translate-repeat = <bold>אל תתרגמו, או תחזרו על הכל.</bold> תגידו מה שיש לכם לומר פעם אחת, כפי שזה היה נשמע בשיחה. אתם לא צריכים להגיב בכל השפות, אלא רק באופן שטבעי לכם לענות.
+# Transcribing
+code-switching-transcribe-subheader = תמלול
+code-switching-transcribe-intro = כאשר מתמללים תשובות הכוללות החלפת קוד, יש לייצג את הדברים שאמר הדובר או הדוברת בדיוק כפי שנאמרו - ללא תיקון, עריכה או פישוט. זה נכון לכל המעברים בין שפות, דיבור לא פורמלי ומילים מעורבות בין שפות.
+code-switching-transcribe-do-1 = הקשיבו לקטעים קצרים מספר פעמים כדי לקלוט החלפות קוד עדינות
+code-switching-transcribe-do-2 = עצרו אחרי כל משפט ובדקו את עצמכם שוב, האם יש החלפות או מילים מעורבות
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = רישום הדיבור בדיוק כפי שנאמר
+code-switching-capture-explanation = תמללו את שתי השפות כפי שהן מופיעות / נשמעות. אל "תתקנו" את השפה או תשנו אותה לשפה אחת בלבד.
+# Include filler words and markers
+code-switching-filler-header = הכלילו מילות מילוי וסמני שיח
+code-switching-filler-explanation = מילים כמו "אממ", "כזה", "ובכן", "אתה יודע" ו-"ו..." הן בעלות משמעות. דוגמה: "אז, אממ, אמרתי לה כזה, כאילו, לא ברצינות, ו... טוב, נו, לא משנה."
+# Use standard spelling for each language
+code-switching-spelling-header = השתמשו באיות תקני לכל שפה
+code-switching-spelling-explanation = נסו לאיית מילים בצורה נכונה בכל שפה, אלא אם כן הדוברים מבטאים אותן בבירור בצורה לא סטנדרטית.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = אל תתקנו או תפשטו דיבור
