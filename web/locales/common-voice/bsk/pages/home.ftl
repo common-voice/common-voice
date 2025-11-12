@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = śuwa quality daa sisar open dataset desmayar mii miriin ce duunin
 sign-up-account = ac̣count e gane sign up etin
-email-subscription-title = email updates e gane sign up etin
-email-subscription-title-new = common voice e newsletter, goal reminder daa progress updates e gane sign up etin
 
 ## Account Benefits
 

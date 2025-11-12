@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Mipi nih hman awktlak pumhmi data ser kan bawm
 sign-up-account = Account sernak
-email-subscription-title = Thawngpang thanhnak dingah cun account ser
-email-subscription-title-new = Common Voice thawngpang, tinhmi theihternak le tuah ciami theihternak dingah na min pe ve.
 
 ## Account Benefits
 

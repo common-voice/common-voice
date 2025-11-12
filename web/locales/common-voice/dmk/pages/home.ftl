@@ -58,8 +58,6 @@ x-years-short =
     }
 help-make-dataset = اُتھُلݳ معݳرݵئ عݸݳمَشُݸ کھُلݳ ڈݵٹݳ سݵٹݵک دُرݳلِنݺ بلݸ ݳمݳ مدد اِرݳ
 sign-up-account = اݵکݳݸنٹݵئ کݳرݸ سݳئن اَپ اِرݳ
-email-subscription-title = اِݵ مݵل اپڈݵٹݵݣݺ کݳرݸ سݳئن اَپ اِرݳ
-email-subscription-title-new = کݳمََن وݳئسݵئ نِݵݸز لݵٹرز، مقصَتݵݣݺ ݵݳددہݳنݵݣ نݸ پݵشرفتئ اَپڈݵٹݵݣݺ کݳرݸ سݳئن اَپ اِرݳ.
 
 ## Account Benefits
 

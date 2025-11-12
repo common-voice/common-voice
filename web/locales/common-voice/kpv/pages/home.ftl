@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Отсалӧй миянлы вӧчны бур, восьса мыччӧдъяс
 sign-up-account = Вӧчны аккаунт
-email-subscription-title = Гижӧдчыны электрон поштаӧ выльторъяс ысталӧм вылӧ
-email-subscription-title-new = Гижӧдчӧй тіян уджмогъяс йылысь казьтыштӧмъяс, асланыд удж серти прогресс выльмӧдӧмъяс да Common Voice йылысь юӧра бюллетеньяс вылӧ
 
 ## Account Benefits
 

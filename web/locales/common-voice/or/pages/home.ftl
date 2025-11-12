@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = ଆମକୁ ଏକ ଉଚ୍ଚ ମାନର ଓ ସାଧାରଣଙ୍କ ପାଇଁ ମୁକ୍ତ ଡାଟାସେଟ ତିଆରି କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ
 sign-up-account = ଖାତାଟିଏ ଖୋଲନ୍ତୁ
-email-subscription-title = ଇମେଲରେ ଖବର ପାଆନ୍ତୁ
-email-subscription-title-new = Common Voice ସମ୍ବାଦପତ୍ର, ଲକ୍ଷ୍ୟ ମନେପକାଇବା ଏବଂ ପ୍ରଗତି ଅଦ୍ୟତନ ପାଇଁ ଖାତାଟିଏ ଖୋଲନ୍ତୁ
 
 ## Account Benefits
 

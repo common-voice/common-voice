@@ -48,8 +48,6 @@ x-years-short =
     }
 help-make-dataset = ہنیسے اسپہ سوم جام معیارو سفو بچین ڈیٹاسیٹ ساوزیکا حصہ دراوے
 sign-up-account = اکاونٹو بچین سائن اب کو
-email-subscription-title = ای میلا نوغ لو گیکو بچین سائن اب کو
-email-subscription-title-new = کامن وائسو نیوز لیٹرو، حدافو یاد کوریکو وا کندوری کوروم ہوئے رے معلوماتان بچین سائن اب کو
 
 ## Account Benefits
 

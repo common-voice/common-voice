@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Çku mağala ǩalitete, iris goncameri ar dataset̆i getzopxu şeni memişvelit.
 sign-up-account = Ar xesap̌i kogetzopxit
-email-subscription-title = E-posta oağanu şeni kodoliç̌arit.
-email-subscription-title-new = Common Voiceşi ambai bultenepes, gonoşinupes do ogzaloni ondğalurepes doliç̌arit.
 
 ## Account Benefits
 

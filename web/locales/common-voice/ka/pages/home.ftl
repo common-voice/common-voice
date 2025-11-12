@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = დაგვეხმარეთ მაღალი ხარისხის, საჯაროდ ხელმისაწვდომი კრებულის შექმნაში
 sign-up-account = ანგარიშის შექმნა
-email-subscription-title = გამოიწერეთ ელფოსტაზე სიახლეები
-email-subscription-title-new = გამოიწერეთ Common Voice და გაეცანით ახალ ამბებს, მიზნის შეხსენებებსა და მიმდინარე წინსვლის შესახებ ცნობებს
 
 ## Account Benefits
 

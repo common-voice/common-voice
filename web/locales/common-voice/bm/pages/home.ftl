@@ -46,8 +46,6 @@ x-months-short = mo{ $count }
 x-years-short = san{ $count }
 help-make-dataset = An dɛmɛ ka datasɛti  ɲumanba dɔ dankɛnɛmaya, min dabɔra foroba mago kama
 sign-up-account = I tɔgɔ sɛbɛn ka kɔnti dɔ sɔrɔ
-email-subscription-title = i tɔgɔ sɛbɛn walasa ka kunnafoni kuraw sɔrɔ imɛyi la
-email-subscription-title-new = I tɔgɔ sɛbɛn Common Voice kunnafonidisɛbɛnw na, kuntilenna hakilijiginw ani ɲɛtaa kunnafoniw
 
 ## Account Benefits
 

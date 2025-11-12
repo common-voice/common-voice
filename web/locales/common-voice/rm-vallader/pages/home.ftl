@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Güda'ns a s-chaffir üna collecziun da datas dad ota qualità ed accessibla al public
 sign-up-account = Registrescha't per ün conto
-email-subscription-title = Abunescha novitats per e-mail
-email-subscription-title-new = Annunzcha't per novitats da Common Voice, chi't tiran adimmaint teis böts e cun actualisaziuns da teis progress
 
 ## Account Benefits
 

@@ -51,8 +51,6 @@ x-years-short =
     }
 help-make-dataset = Sisize sakhe idathasethi elezinga eliphezulu, nevulelekile esidlangalaleni
 sign-up-account = Bhalisela i-akhawunti
-email-subscription-title = bhalisela izibuyekezo ze-imeyili
-email-subscription-title-new = Bhalisela izincwadi zezindaba zeCommon Voice, izikhumbuzi zemigomo nezibuyekezo zenqubekelaphambili
 
 ## Account Benefits
 

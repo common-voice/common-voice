@@ -49,8 +49,6 @@ x-years-short =
     }
 help-make-dataset = ਸਾਨੂੰ ਉੱਚ ਕੁਆਲਟੀ, ਲੋਕਾਂ ਲਈ ਆਜ਼ਾਦ ਡਾਟਾ-ਸਮੂਹ ਬਣਾਉਣ ਲਈ ਮਦਦ ਕਰੋ
 sign-up-account = ਖਾਤੇ ਲਈ ਸਾਈਨ ਅਪ ਕਰੋ
-email-subscription-title = ਈਮੇਲ ਅਪਡੇਟਾਂ ਲਈ ਸਾਈਨ ਅਪ ਕਰੋ
-email-subscription-title-new = ਆਮ ਆਵਾਜ਼ ਖ਼ਬਰਸਾਰ, ਟੀਚਿਆਂ ਬਾਰੇ ਯਾਦ ਕਰਵਾਉਣ ਅਤੇ ਤਰੱਕੀ ਬਾਰੇ ਅੱਪਡੇਟ ਲੈਣ ਲਈ ਸਾਈਨ ਅੱਪ ਕਰੋ
 
 ## Account Benefits
 

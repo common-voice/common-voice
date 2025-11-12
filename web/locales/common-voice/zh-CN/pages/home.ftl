@@ -40,8 +40,6 @@ x-years-short =
     }
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
 sign-up-account = 注册账户
-email-subscription-title = 订阅更新邮件
-email-subscription-title-new = 订阅 Common Voice 新闻通讯、目标提醒和进度更新
 
 ## Account Benefits
 

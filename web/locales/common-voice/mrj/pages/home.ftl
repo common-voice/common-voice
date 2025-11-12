@@ -52,7 +52,6 @@ x-years-short =
     }
 help-make-dataset = Яжо качестван, цилӓлӓн кычылташ лишӹ датасетӹм мӓлӓннӓ ӹштӓш палшы
 sign-up-account = Аккаунт
-email-subscription-title = электрон почта гач уэммӓшвлӓлӓн сирӓлт
 
 ## Account Benefits
 

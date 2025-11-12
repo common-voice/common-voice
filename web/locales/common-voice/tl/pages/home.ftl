@@ -41,8 +41,6 @@ x-years-short =
     }
 help-make-dataset = Tulungan kaming bumuo ng mataas na kalidad, bukas sa publikong dataset
 sign-up-account = Mag-sign up para sa account
-email-subscription-title = Mag-sign up para sa mga email updates
-email-subscription-title-new = Mag-sign up para sa mga balita, pagpapaalala ng mga layunin at pag-update ng mga progreso ng Common Voice
 
 ## Account Benefits
 

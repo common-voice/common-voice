@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ქიდმეხვარით მაღალ ხარისხიშ, საჯაროთ ხეშმიოჭირინაფალი კათელიშ აკოქიმინუას
 sign-up-account = ანგარიშიშ აკოქიმინუა
-email-subscription-title = გეგშიჭარით სიახალეეფი ელფოსტაშა
-email-subscription-title-new = გეგშიჭარით Common Voice-იშ ამბეეფიშ ბიულეტენეფი, ღანკიშ გასაშინეეფი დო პროგრესიშ გაახალებეფი
 
 ## Account Benefits
 

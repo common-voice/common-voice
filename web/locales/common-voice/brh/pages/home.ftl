@@ -56,8 +56,6 @@ x-years-short =
     }
 help-make-dataset = گیچن و السی اوپن ڈیٹا سیٹ جوڑ کننگ اٹ ننا کمک کبو
 sign-up-account = اسہ اکاؤنٹ سیکن سائن اپ کبو
-email-subscription-title = ای میل نا اپڈیٹ کن سائن اپ کبو
-email-subscription-title-new = کامن وائس نیوز لیٹرز، مزل نا یات تننگ و کاریم نا مون مستی کن سائن اپ کبو۔
 
 ## Account Benefits
 

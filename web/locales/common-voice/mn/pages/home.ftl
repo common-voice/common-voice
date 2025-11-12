@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Өндөр чанартай, нийтэд нээлттэй  өгөгдлийн цогц бүтээхэд бидэнд туслна уу
 sign-up-account = Хэрэглэгчээр бүртгүүлэх
-email-subscription-title = И-мэйл мэдээнд бүртгүүлэх
-email-subscription-title-new = зорилт сануулах, ахицын талаархи шинэчлэлтүүд, Common Voice-ийн мэдээг авахаар бүртгүүлэх
 
 ## Account Benefits
 

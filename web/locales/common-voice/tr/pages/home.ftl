@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = Kaliteli, herkese açık bir veri kümesi oluşturmamıza yardım edin
 sign-up-account = Hesap açın
-email-subscription-title = e-posta haberlerine kaydolun
-email-subscription-title-new = Common Voice haber bültenleri, hedef hatırlatmaları ve ilerleme durumu için kaydolun
 
 ## Account Benefits
 

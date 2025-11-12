@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú kolekciu údajov
 sign-up-account = Vytvorte si účet
-email-subscription-title = prihláste sa k odberu noviniek
-email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, pripomenutí na ciele a informácií o pokroku.
 
 ## Account Benefits
 

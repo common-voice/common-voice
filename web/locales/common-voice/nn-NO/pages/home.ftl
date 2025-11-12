@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Hjelp oss å byggje eit offentleg, ope datasett med høg kvalitet
 sign-up-account = Be om konto
-email-subscription-title = registrer deg for oppdateringar via e-post
-email-subscription-title-new = Registrer deg for Common Voice-nyheitsbrevet, målpåminningar og framdriftsoppdateringar
 
 ## Account Benefits
 

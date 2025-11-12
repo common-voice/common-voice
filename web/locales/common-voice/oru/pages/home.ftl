@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ترماخ مدد کوئ که معیاري او ته پبلک پاره میوک ډېټا سېټ يې جوړ کيېن
 sign-up-account = ته اکاؤنټ ته جوړؤ پاره يې دستڅط کېون
-email-subscription-title = ته ای مېل ته اپ ډېټ پاره يې دستڅط کېون
-email-subscription-title-new = ته مشترک آواز ته نیوز لېټر پاره، مقصد ریمائنډر، او ته مُخکی څېک ته اپ ډېت پاره يې ګۀ دستخط کېون
 
 ## Account Benefits
 

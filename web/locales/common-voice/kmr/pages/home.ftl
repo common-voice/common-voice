@@ -61,8 +61,6 @@ x-years-short =
     }
 help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
 sign-up-account = Hesabekî veke
-email-subscription-title = li nûçeyên emaîlê tomar bibe
-email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêşveçûna projeyê xwe tomar bike
 
 ## Account Benefits
 

@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, disponibil tuturor.
 sign-up-account = Înscrie-te pentru un cont.
-email-subscription-title = Primește noutăți despre proiect prin e-mail
-email-subscription-title-new = Abonează-te pentru a primi buletine informative Common Voice, mementouri de obiective și actualizări despre progres.
 
 ## Account Benefits
 

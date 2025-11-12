@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Help ons om 'n hoë gehalte, openbare oopbrondatastel te bou
 sign-up-account = Meld aan vir 'n rekening
-email-subscription-title = meld aan vir e-pos terugvoer
-email-subscription-title-new = Meld aan vir Common Voice nuusbriewe, herinneringe aan doelwitte en vorderingsverslae
 
 ## Account Benefits
 

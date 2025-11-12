@@ -50,8 +50,6 @@ x-years-short =
     }
 help-make-dataset = امارِي ايڪ آلا معيار عوامِي طور ماٿيَ کُلل ڍيٽاسيٽ ٺاۿيا مان مۮت ڪرو
 sign-up-account = اڪائونٽ ۿارُو سائينَ اپ ڪرو
-email-subscription-title = اِي ميل اپ ڍيٽ ۿارُو سائينَ اپ ڪرو
-email-subscription-title-new = ڪامنَ وائيس نا نيوز ليٽر ۿارُو، گول نِي ياڌگيرِي ۿارُو انين ترقِي نِي اپ ڍيٽ ۿارُو سائينَ اپ ڪرو
 
 ## Account Benefits
 

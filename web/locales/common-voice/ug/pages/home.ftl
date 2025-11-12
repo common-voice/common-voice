@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = يۇقىرى سۈپەتلىك، ئوچۇق سانلىق مەلۇمات توپلىمى قۇرۇشىمىزغا ياردەم قىلىڭ.
 sign-up-account = تىزىملىتىڭ
-email-subscription-title = ئېلخەت يېڭىلاشقا تىزىملىتىڭ
-email-subscription-title-new = Common Voice نىڭ خەۋەرلىرىگە، نىشان ئەسكەرتىشىگە ۋە ئىلگىرىلەش يېڭىلانمىلىرىغا تىزىملىتىڭ
 
 ## Account Benefits
 

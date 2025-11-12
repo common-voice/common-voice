@@ -55,8 +55,6 @@ x-years-short =
     }
 help-make-dataset = ایْک مڑنے معیار گہ عوامی شان گیْ اوزگار ڈیٹاسیٹ سنون دہ اسے امداد تِھیا
 sign-up-account = اکاؤنٹ سنون سائن اپ تِھیا
-email-subscription-title = ای میل اپ ڈیٹ تھونے کِرِیا سائن اپ
-email-subscription-title-new = کامن وائس خبری خطو ہدفی کائی تھون گہ  مُڇھوڑ ڙَس بونے کِرِیا تازہ موڙوْ بارَد سائن اپ تِھیا۔
 
 ## Account Benefits
 

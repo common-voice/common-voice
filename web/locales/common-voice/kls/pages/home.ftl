@@ -41,8 +41,6 @@ x-years-short =
     }
 help-make-dataset = Homa madad kari, sawin pi prus't dataset kholaw karikas bati
 sign-up-account = Kholaw kari, Account sawzai
-email-subscription-title = Kholaw kari, sawzai, email update kari
-email-subscription-title-new = Kholaw kari Common Voice khabar an bati, yat dehani as bati, update an bati
 
 ## Account Benefits
 

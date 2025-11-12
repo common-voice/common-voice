@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = یَک ڈل معیار، عوامی طورے ووڑاتہ ڈېٹاسیٹ ݫُپَئیکہ امَنی مدد کېرِؤ
 sign-up-account = یَک اکاونٹہ ݭڅی سائن اپ کېرِؤ
-email-subscription-title = اِی مېل اپڈېٹسَہ ݭڅی سائن اپ کېرِؤ
-email-subscription-title-new = کامن وائس نیوز لیٹرز، حدفَنہ کائے گِرَئیک اؤ پُر دِکَنہ تازہ ݪَمہ ݭڅی سائن اپ کېرِؤ
 
 ## Account Benefits
 

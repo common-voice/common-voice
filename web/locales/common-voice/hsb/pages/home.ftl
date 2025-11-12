@@ -49,8 +49,6 @@ x-years-short =
     }
 help-make-dataset = Pomhajće nam, zjawnje přistupnu wotewrjenu datowu sadźbu wysokeje kwality wutworić
 sign-up-account = Konto załožić
-email-subscription-title = Registrujće so za e-mejlowe aktualizacije
-email-subscription-title-new = Registrujće so za powěsćowe listy Common Voice, cilowe dopomnjeća a postupowe aktualizacije
 
 ## Account Benefits
 

@@ -36,8 +36,6 @@ x-years-short =
     }
 help-make-dataset = ስደውና ላወቀላ ኖዕ ዓም ው ፍቱሕ በያናት እግል ንብነ
 sign-up-account = ሕሳብ ፍትሖ
-email-subscription-title = ሸጅሎ ናይ ኢማል ታሕዲስ ኤግል ትርከቦ
-email-subscription-title-new = ምስል ክርን ሕበር ሳጃሎ ኣኽባር መዝከሪ ናይ ሓደፍ ው ታጣውር ኤግል ትርከቦ
 
 ## Account Benefits
 

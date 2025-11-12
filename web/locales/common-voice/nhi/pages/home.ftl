@@ -39,8 +39,6 @@ x-years-short =
     }
 help-make-dataset = xitechpalehui maticchihuacah tlapalehuil amatl de  huehcapan cuahcual huan mucahsi para nuchin tlalticpac
 sign-up-account = ximoihcuilo para tic silis se cuenta
-email-subscription-title = ximoihcuilo para tic silis yancuic tlahtol ichin mu correo
-email-subscription-title-new = ximuihcuilo ichin boletin de tlanahuatil, ichin ilnamiquilis huan yancuic nemilis de Common Voice
 
 ## Account Benefits
 

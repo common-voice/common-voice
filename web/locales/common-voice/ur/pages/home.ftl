@@ -51,8 +51,6 @@ x-years-short =
     }
 help-make-dataset = اعلٰی معیار کی ، عوامی طور پر کھلا ڈیٹاسیٹ بنانے میں ہماری مدد کریں
 sign-up-account = ایک اکاؤنٹ کے لئے سائن اپ کریں
-email-subscription-title = ای میل کی تازہ کاریوں کے لئے سائن اپ کریں
-email-subscription-title-new = کامن وائس نیوز لیٹرز ، گول یاد دہانیوں اور پیشرفت کی تازہ کاریوں کیلئے سائن اپ کریں
 
 ## Account Benefits
 

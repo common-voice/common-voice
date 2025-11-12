@@ -52,8 +52,6 @@ x-years-short =
     }
 help-make-dataset = Hor skoazellit da sevel ur strobad roadennoù foran, digor, hag uhel e galite.
 sign-up-account = Krouiñ ur gont
-email-subscription-title = Lakait hoc'h anv evit resev keleier dre bostel
-email-subscription-title-new = Koumanantit evit resev lizheroù-kelaouiñ Common Voice, ar palioù, hag hizivadurioù war an araokadennoù.
 
 ## Account Benefits
 

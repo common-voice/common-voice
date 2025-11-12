@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = Aggiuttine à creâ unna base de dæti de boña qualitæ e averta
 sign-up-account = Scrivite
-email-subscription-title = Scrivite a-e notiçie pe pòsta elettrònica
-email-subscription-title-new = Scrivite a-e newsletter de Common Voice, a-i arregòrdi di obiettivi e a-e notiçie in sciô progresso
 
 ## Account Benefits
 

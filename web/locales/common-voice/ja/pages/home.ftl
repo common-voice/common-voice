@@ -40,8 +40,6 @@ x-years-short =
     }
 help-make-dataset = 誰でも利用できる高品質なデータセットの構築にご協力ください
 sign-up-account = アカウント登録
-email-subscription-title = 最新情報をメールで受け取る
-email-subscription-title-new = Common Voice ニュースレター受け取り、目標リマインダー、進行状況の更新のためにアカウント登録する
 
 ## Account Benefits
 

@@ -53,8 +53,6 @@ x-years-short =
     }
 help-make-dataset = o pona e ni: mi mute li pali e sona open pona.
 sign-up-account = o pali e sijelo ilo
-email-subscription-title = o kama jo e lipu sin
-email-subscription-title-new = o kama jo e lipu ni: sona sin en pali sin en wile pali sina
 
 ## Account Benefits
 

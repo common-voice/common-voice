@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Юғары сифатлы, һәр кемгә асыҡ мәғлүмәттәр йыйылмаһын булдырырға ярҙам итегеҙ
 sign-up-account = Аккаунт булдырыр өсөн теркәлегеҙ
-email-subscription-title = Яңылыҡтар ебәреүгә яҙылырға
-email-subscription-title-new = Common Voice-ның яңылыҡтарына, маҡсаттарын иҫкә төшөрөүгә  һәм алға китештең яңырыуҙарына  яҙылығыҙ
 
 ## Account Benefits
 

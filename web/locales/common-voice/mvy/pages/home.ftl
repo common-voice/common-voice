@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = زَیں مدد کری لہ بے من٘ڑنئ کوالٹی یاں، بُٹ خلکہ واں ہتے اے ڈیٹاسیٹ سن٘دِگ
 sign-up-account = کھاتہ سن٘دَیں یاں کریا زؤں ملہ ٹل ہو
-email-subscription-title = بجلی خطی لا اما خبر رڇھَیں یاں کریا اما ٹل کرہ
-email-subscription-title-new = کامن وائس خبرخطی، نخ یاد کرہۡ، آں کماں بارہ مہ نَیں خبری واں کریا زؤں ملی ٹل ہو
 
 ## Account Benefits
 
