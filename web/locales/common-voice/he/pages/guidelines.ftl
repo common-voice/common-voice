@@ -191,3 +191,24 @@ review-the-transcription-explanation-3 = כמו כן, באפשרותכם לסמ�
 ## Code-Switching
 
 code-switching = החלפת קוד
+adding-a-question = הוספת שאלות
+# Adding a Question
+code-switching-adding-question-subheader = מה הופך שאלה לטובה?
+code-switching-adding-question-explanation = כדי שהשאלה תתאים עבור מאגרים שיתופיים:
+code-switching-adding-question-criteria-1 = צריך להיות קל להבין ולענות עליה
+code-switching-adding-question-criteria-2 = עליה להיות רלוונטית לכל סוג של קהל
+code-switching-adding-question-criteria-3 = לא לכלול תוכן פוגעני או מזיק
+code-switching-adding-question-note = כמו-כן, שקלו להתייחס לתחומים והקשרים מגוונים.
+# What types of questions to add
+code-switching-types-subheader = אילו סוגי שאלות להוסיף?
+code-switching-use-bilingual-prompts-header = שאלות דו-לשוניות
+code-switching-use-bilingual-prompts-explanation = צרו שאלה דו-לשונית המשלבת את שתי השפות יחד. לדוגמא:
+code-switching-use-bilingual-prompts-explanation-example = “מה עשית mama כשהגעת ל-gym אתמול בבוקר?”
+code-switching-ask-bilingual-contexts-header = שאלו לגבי הקשרים דו-לשוניים
+code-switching-ask-bilingual-contexts-explanation = השתמש במצבים בהם שתי השפות נמצאות בשימוש נפוץ (למשל, בבית, בבית הספר, באירועים קהילתיים). לדוגמא:
+code-switching-ask-bilingual-contexts-explanation-example = "כשאתה מדברים עם ההורים שלכם, האם אתם מערבבים עברית עם שפה אחרת?"
+code-switching-focus-emotional-header = התמקדו ברגעים רגשיים או טעונים
+code-switching-focus-emotional-explanation = אנשים נוטים להחליף קוד כשהם מביעים רגש או דחיפות. לדוגמא:
+code-switching-focus-emotional-explanation-example = "ספרו איך ענו ההורים שלכם כשסיפרתם להם דבר מרגש - בדיוק איך שהם אמרו את זה."
+code-switching-direct-quotes-header = בקשו ציטוטים מדוייקים או המחזה
+code-switching-direct-quotes-explanation = עודדו את המשתתפים להמחיז ולשחזר בדיוק כיצד נאמר דבר. לדוגמא:
