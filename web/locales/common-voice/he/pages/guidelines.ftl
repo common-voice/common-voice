@@ -4,6 +4,9 @@ guidelines-header-subtitle = הבינו כיצד לתרום ולאמת משפט�
 voice-collection = איסוף קולות
 sentence-collection = איסוף משפטים
 question-collection = איסוף שאלות
+scripted-speech = הקראה
+spontaneous-speech = דיבור ספונטני
+dont-subheader = לא לעשות
 
 ## Voice Collection nav ids
 
@@ -104,3 +107,14 @@ reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים �
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 domain-explanation = תחום העניין נוגע לנושא המשפט. באפשרותך לבחור מבין:
+
+## Question collection ids
+
+adding-questions = הוספת שאלות
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = מה הופך שאלה לטובה?
+what-makes-a-good-question-explanation = כדי שהשאלה תתאים עבור מאגרים שיתופיים:
+what-makes-a-good-question-explanation-criteria-1 = צריך להיות קל להבין ולענות עליה
+what-makes-a-good-question-explanation-criteria-2 = עליה להיות רלוונטית לכל סוג של קהל
