@@ -159,3 +159,14 @@ transcribe-the-audio-subheader-1 = הנחיות כלליות
 transcribe-the-audio-subheader-2 = מספרים וראשי תיבות
 transcribe-the-audio-subheader-3 = תגיות מיוחדות
 transcribe-the-audio-subheader-4 = חלקי מילה ומילים חוזרות
+transcribe-the-audio-subheader-5 = שגיאות דקדוק ומשלב דיבורי
+transcribe-the-audio-subheader-1-explanation = באופן כללי, עליכם לרשום את כל מה שאתם שומעים. זה כולל;
+transcribe-the-audio-subheader-1-explanation-example-1 = רישום הפרעות בשטף הדיבור, כולל היסוס וחזרות
+transcribe-the-audio-subheader-1-explanation-example-2 = ציון רעש כמו שיעול או צחוק
+transcribe-the-audio-subheader-1-explanation-example-3 = ציון רעש רקע משמעותי, כמו דיבורים או צופרים
+transcribe-the-audio-subheader-1-explanation-example-4 = דקדוק שונה מהמקובל וסלנג צריכים להיות רשומים בדיוק באופן בו הם נאמרים. אל תתקנו או תערכו את הדיבור ששמעתם.
+transcribe-the-audio-subheader-2-explanation-1 = מספרים וסימנים צריכים להיות רשומים כמילים שלמות, במקום להשתמש בסימני מספר או תוים מיוחדים. לדוגמא:
+transcribe-the-audio-subheader-2-explanation-2 = יש לרשום ראשי תיבות כפי שהם רשומים בדרך-כלל בשפה, ולא להרחיבם. למשל:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>נכון</correct>: המרחק של זה מכאן הוא מאה קילומטר
+tags-unclear-explanation = מילה או רצף מילים שאי אפשר להבין.
