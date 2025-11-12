@@ -278,3 +278,17 @@ code-switching-spelling-header = השתמשו באיות תקני לכל שפה
 code-switching-spelling-explanation = נסו לאיית מילים בצורה נכונה בכל שפה, אלא אם כן הדוברים מבטאים אותן בבירור בצורה לא סטנדרטית.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = אל תתקנו או תפשטו דיבור
+code-switching-cleanup-1 = אל תתרגמו או תנסחו מחדש – רשמו את מה שהדוברים אומרים, לא מה אתם חושבים שהם "מתכוונים".
+code-switching-cleanup-2 = אל "תתקנו" דקדוק או הגייה – שמרו על המשלב הטבעי של הדוברים.
+code-switching-cleanup-3 = אל תדלגו על החלפות קוד שנראות קטנות או חסרי חשיבות - אפילו מילים שאולות חשובות.
+code-switching-cleanup-4 = אל תוסיפו סימני פיסוק שעשויים לשנות את המשמעות – שמרו על הזרימה הטבעית.
+# Tagging
+code-switching-tagging-subheader = דיווח
+code-switching-tagging-error-intro = אם התמלול מכיל שגיאה, השתמשו בפונקציית הדיווח כדי לציין זאת. שגיאות אפשריות כוללות:
+code-switching-tagging-error-1 = פיסוק שגוי
+code-switching-tagging-error-2 = שגיאות כתיב
+code-switching-tagging-error-3 = איות שגוי
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = שימוש באיות תקין לכל שפה
+code-switching-orthography-explanation = כתבו כל מילה לפי האיות של השפה שממנה היא מגיעה. לדוגמה:
+code-switching-orthography-explanation-example-1 = אם המילה "gym" מבוטאת כמו באנגלית, יש לכתוב אותה כמו באנגלית, ולא כ-"ג'ים".
