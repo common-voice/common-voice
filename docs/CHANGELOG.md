@@ -35,6 +35,9 @@
 
 ### Changes merged after current release
 
+- Fix/Refactor: Rework variant only clip selection and caching, by [@moz-bozden](https://github.com/moz-bozden) in [#5165](https://github.com/common-voice/common-voice/pull/5165) (in v1.154.7)
+- Fix/Refactor: Switch to new newsletter sign-up, by [@moz-bozden](https://github.com/moz-bozden) in [#5136](https://github.com/common-voice/common-voice/pull/5136) (in v1.154.7)
+- Fix/Refactor: Optimize long running queries and their caching, by [@moz-bozden](https://github.com/moz-bozden) in [#5163](https://github.com/common-voice/common-voice/pull/5163) (in v1.154.6)
 - Fix/Refactor: Refactor redis and lazy-cache to drop sensitivity to redis -> mem-cache strategy changes and make more resilient, by [@moz-bozden](https://github.com/moz-bozden) in [#5162](https://github.com/common-voice/common-voice/pull/5162) (in v1.154.5)
 - Fix: Add migration to fix "predefined French South accent cannot be added" problem, which was caused by a user defined accent, by [@moz-bozden](https://github.com/moz-bozden) in [#5158](https://github.com/common-voice/common-voice/pull/5158) (in v1.154.5)
 - Fix/Refactor: Refactor redis set cache to save provided sentences - not the recorded ones to prevent some duplicates, by [@moz-bozden](https://github.com/moz-bozden) in [#5157](https://github.com/common-voice/common-voice/pull/5157) (in v1.154.5)
