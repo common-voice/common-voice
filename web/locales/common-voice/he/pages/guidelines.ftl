@@ -170,3 +170,11 @@ transcribe-the-audio-subheader-2-explanation-2 = יש לרשום ראשי תיב
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>נכון</correct>: המרחק של זה מכאן הוא מאה קילומטר
 tags-unclear-explanation = מילה או רצף מילים שאי אפשר להבין.
+tags-noise-explanation = כל סוג אחר של רעש, כמו כאשר הדוברים מכחכחים בגרונם, משתעלים, רכב צופר, קול של משהו נוגע במיקרופון, טלפון רוטט וכיוצא-בזה.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 = ואז אני [רעש] יצאתי לחופשה. טוב, [רעש] [צחוק] זו לא היתה בדיוק חופשה [צחוק]
+transcribe-the-audio-subheader-4-explanation-1 = דיבור ספונטני מכיל באופן טבעי 'התחלות כוזבות', כלומר דיבור חלקי של המילה. במקרים אלה, תמללו כמיטב יכולתכם את חלק המילה שנשמע, והוסיפו מקף בסופה (-) כדי לציין שמדובר בחלק-מילה. לדוגמא:
+transcribe-the-audio-subheader-4-explanation-1-example = שמו הוא <underline>יו- יונ-</underline> יונתן.
+transcribe-the-audio-subheader-4-explanation-2 = לפעמים הדוברים חוזרים על מילה או על חלק-מילה כמה פעמים. גם במקרים אלה, יש לרשום את הכל. לדוגמא:
+transcribe-the-audio-subheader-4-explanation-2-example = ואז <underline>ב- ב- בעצם זה זה</underline> פשוט נגמר
+transcribe-the-audio-subheader-5-explanation-1 = דיבור ספונטני מכיל באופן טבעי שגיאות דקדוק. אין לתקן אותן - התמלול צריך להיות רישום מדויק של מה שנאמר.
