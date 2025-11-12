@@ -247,3 +247,5 @@ code-switching-answer-bullet-2 = דמיינו שאתם שולחים מסרון �
 code-switching-answer-bullet-3 = השתמשו בכל מילה שהייתם משתמשים בה בפועל, גם אם היא לא פורמלית, שאולה או מעורבבת בין שפות
 code-switching-answer-bullet-4 = אין דרך אחת "מושלמת" לענות
 code-switching-authentic-header = ענו באופן טבעי וכן
+code-switching-authentic-speak = <bold>דברו כפי שהייתם מדברים עם חברים או משפחה.</bold> אם אתם מערבבים בין שפות בחיים הרגיילים, עשו זאת גם כאן. דוגמה:
+code-switching-authentic-speak-example = "אמרתי לה שאני לא יכול ללכת ל-movies, ואז היא עונה לי כאילו ווילי כפרה למה שלא תבואי"
