@@ -292,3 +292,5 @@ code-switching-tagging-error-3 = איות שגוי
 code-switching-orthography-header = שימוש באיות תקין לכל שפה
 code-switching-orthography-explanation = כתבו כל מילה לפי האיות של השפה שממנה היא מגיעה. לדוגמה:
 code-switching-orthography-explanation-example-1 = אם המילה "gym" מבוטאת כמו באנגלית, יש לכתוב אותה כמו באנגלית, ולא כ-"ג'ים".
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = השתמש בהגייה כדי לעזור לקבוע איזו שפה מדוברת
