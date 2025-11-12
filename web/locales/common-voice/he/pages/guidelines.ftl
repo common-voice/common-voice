@@ -178,3 +178,16 @@ transcribe-the-audio-subheader-4-explanation-1-example = שמו הוא <underlin
 transcribe-the-audio-subheader-4-explanation-2 = לפעמים הדוברים חוזרים על מילה או על חלק-מילה כמה פעמים. גם במקרים אלה, יש לרשום את הכל. לדוגמא:
 transcribe-the-audio-subheader-4-explanation-2-example = ואז <underline>ב- ב- בעצם זה זה</underline> פשוט נגמר
 transcribe-the-audio-subheader-5-explanation-1 = דיבור ספונטני מכיל באופן טבעי שגיאות דקדוק. אין לתקן אותן - התמלול צריך להיות רישום מדויק של מה שנאמר.
+transcribe-the-audio-subheader-5-explanation-2 = הדוברים עשויים להשתמש במשלב דיבורי, למשל - "סבבה", "יאללה", "נו" וכיוצא-בזאת, שלא תמיד נחשב תקין. יש לתמלל את המילים האלה כפי שהן, מבלי לשנותן או לערוך את מה שנשמע.
+
+## Review the Transcription
+
+review-the-transcription = סקירת התמלול
+review-the-transcription-subheader = הנחיות כלליות
+review-the-transcription-explanation-1 = אנו מבקשים שבודקי התמלול לא יהיו מי שביצעו את התמלול המקורי. לבדוק את העבודה של עצמכם זאת משימה קשה לבצע בנאמנות! קיום מספר אופני ביקורת מסייע לנו בהגברת אבטחת האיכות, ובמניעת הטיות ובעיות בתוכן.
+review-the-transcription-explanation-2 = עברו על ההנחיות לתמלול הרשומות לעיל לבדוק שהתמלול הוא מדויק. תוכלו לערוך ולשלוח את התיקונים שלכם.
+review-the-transcription-explanation-3 = כמו כן, באפשרותכם לסמן תוכן כפוגעני, מזיק או מדאיג, והוא יוסר מחווית השימוש שלכם עד שצוות Common Voice יבדוק אותו.
+
+## Code-Switching
+
+code-switching = החלפת קוד
