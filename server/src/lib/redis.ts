@@ -36,7 +36,7 @@ export const redlock = new Redlock([redis], {
   // If lock is truly held by another instance, we'll fail fast and use stale data
   retryCount: 3, // Try a few times to handle network hiccups (300-600ms total)
   retryDelay: 100, // Base delay between retries
-  retryJitter: 100, // Add randomness to prevent syncronicity (100-200ms per retry)
+  retryJitter: 100, // Add randomness to prevent synchronicity (100-200ms per retry)
   // Drift factor for clock skew across Redis instances
   driftFactor: 0.01,
 })
