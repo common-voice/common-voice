@@ -589,19 +589,29 @@ export default class API {
 
       if (!listResponse.ok) {
         // HTTP error (4xx, 5xx)
-        console.error('API HTTP error:', listResponse.status, responseData)
+        console.error(
+          '[Newsletter] API HTTP error:',
+          listResponse.status,
+          responseData
+        )
 
         if (listResponse.status === 400) {
           return response.status(StatusCodes.BAD_REQUEST).json({
-            error: responseData.message || 'Invalid request data',
+            error: `[Newsletter] Invalid request data: ${
+              responseData.message || ''
+            }`,
           })
         } else if (listResponse.status === 429) {
           return response.status(StatusCodes.TOO_MANY_REQUESTS).json({
-            error: responseData.message || 'Too many subscription attempts',
+            error: `[Newsletter] Too many subscription attempts: ${
+              responseData.message || ''
+            }`,
           })
         } else {
           return response.status(listResponse.status).json({
-            error: responseData.message || 'Subscription failed',
+            error: `[Newsletter] Subscription failed: ${
+              responseData.message || ''
+            }`,
           })
         }
       }
@@ -617,17 +627,12 @@ export default class API {
       // HTTP success (2xx)
       response.json({})
     } catch (error) {
-      console.error('Newsletter subscription failed:', error)
+      console.error('[Newsletter] Subscription failed:', error)
 
-      if (error instanceof Error) {
-        const apiError = new APIError(
-          `Failed to subscribe to newsletter: ${error.message}`
-        )
-        next(apiError)
-      } else {
-        const apiError = new APIError('Failed to subscribe to newsletter')
-        next(apiError)
-      }
+      const apiError = new APIError(
+        '[Newsletter] Failed to subscribe to newsletter'
+      )
+      next(apiError)
     }
   }
 
