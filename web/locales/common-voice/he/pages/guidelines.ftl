@@ -147,3 +147,15 @@ answer-questions = לענות על שאלות
 answer-questions-subheader = הנחיות כלליות
 answer-questions-explanation-1 = קחו רגע לחשוב על השאלה ועל מה ברצונכם לומר, אבל אל תהיו מתוכננים מידי. לחצו על כפתור 'הקלטה'. כאשר תסיימו את ההקלטה, תוכלו לשמוע את עצמכם, להקליט מחדש, למחוק או להגיש אותה.
 answer-questions-explanation-2 = זכרו - לא צריך לדאוג מגמגומים, שהיות או חזרות על מילה. כל אלה שימושיים עבור מהנדסים ששוקדים על בניית כלים לזיהוי דיבור כך שיהיו רלוונטים למשימות כלליות בעולם האמיתי.
+answer-questions-tip-1 = הקליטו עצמכם במקום שקט למדי
+answer-questions-tip-2 = בחרו מקום עם חיבור אינטרנט באיכות טובה
+answer-questions-tip-3b = נסו שהשתשובה תהיה בין 15 עד 30 שניות
+answer-questions-tip-4 = הימנעו מדברי שטנה, שיח מעורר התלהמות או פוגעני באיזושהי צורה
+answer-questions-tip-5 = דברו באופן טבעי, כפי שהייתם עושים עם מכר או חבר - השתמשו במבטא או הדיאלקט הטבעי שלכם
+answer-questions-tip-6 = שמרו על עוצמת קול עקבית - אל תצעקו או תשירו
+# Transcribe the Audio
+transcribe-the-audio = תמלול השמע
+transcribe-the-audio-subheader-1 = הנחיות כלליות
+transcribe-the-audio-subheader-2 = מספרים וראשי תיבות
+transcribe-the-audio-subheader-3 = תגיות מיוחדות
+transcribe-the-audio-subheader-4 = חלקי מילה ומילים חוזרות

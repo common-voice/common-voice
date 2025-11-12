@@ -53,6 +53,7 @@ x-years-short =
     }
 help-make-dataset = Help ús in iepenbier tagonklike gegevensset fan hege kwaliteit te bouwen
 sign-up-account = In account oanmeitsje
+email-subscription-title-v3 = Oanmelde foar updates oer Common Voice en Mozilla Foundation
 
 ## Account Benefits
 
