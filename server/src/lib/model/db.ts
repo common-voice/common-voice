@@ -273,7 +273,6 @@ export default class DB {
         INNER JOIN sentences s ON s.id = c.original_sentence_id
         WHERE c.locale_id = ?
           AND c.is_valid IS NULL
-        ORDER BY c.id DESC -- consistent ordering, prefer recently recordings first
         LIMIT ?
       `,
       [languageId, limit]
