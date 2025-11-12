@@ -64,6 +64,7 @@ import { LOCALES_PATH } from '../application/locales/use-case/query-handler/get-
 import { isProject } from '../core/types/project'
 import { projectSchema } from '../api/languages/validation/project-schema'
 import webhooksRouter from '../api/webhooks/routes'
+import { createMd5Hash } from '../infrastructure/crypto/crypto'
 
 type NewNewsletterResponse = {
   message: string
@@ -585,7 +586,6 @@ export default class API {
 
       // Parse the response body
       const responseData: NewNewsletterResponse = await listResponse.json()
-      console.log(responseData)
 
       if (!listResponse.ok) {
         // HTTP error (4xx, 5xx)
@@ -618,9 +618,13 @@ export default class API {
       // Still handle it through our old basket system
       // We temporarily have to use hash of the email returned from the newsletter API as token
       // We check it everywhere in the codebase
+      // We dont get any token from the newsletter API directly, so we create a hash from the email
+      // It is 32 char, so we pad it with "mcv-"" to reach 36 char length of our basket tokens, also indicating its origin
+      const hash = createMd5Hash(email)
+
       const clientId = await UserClient.updateBasketToken(
         email,
-        responseData.data.email.slice(0, 36) // basket token is 36 chars long, we hope for no collisions :D
+        hash.padStart(36, 'mcv-')
       )
       await Basket.sync(clientId, true)
 

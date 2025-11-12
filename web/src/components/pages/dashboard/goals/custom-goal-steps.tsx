@@ -257,7 +257,7 @@ export default [
     // We cannot check subscription status currently, because unsubscribing will be done through emails.
     // We assume, if the token exists, the user is subscribed. But this can change in the future
     // const isSubscribed = useIsSubscribed()
-    const isSubscribed = account.basket_token !== null
+    const isSubscribed = account.basket_token != null
 
     return (
       <div className="padded">
