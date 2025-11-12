@@ -7,7 +7,9 @@
 aa = Àfar
 aat = Arvanitika
 ab = abkhaz
-ace = atjeh
+abb = Bankon
+abq = Abaza
+ace = Acehnès
 ady = adigué
 af = afrikaans
 am = amhàric
