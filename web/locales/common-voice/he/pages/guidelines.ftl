@@ -3,6 +3,7 @@ guidelines-header = הנחיות לתרומה
 guidelines-header-subtitle = הבינו כיצד לתרום ולאמת משפטים ומקטעי שמע למערך הנתונים של Common Voice
 voice-collection = איסוף קולות
 sentence-collection = איסוף משפטים
+question-collection = איסוף שאלות
 
 ## Voice Collection nav ids
 
