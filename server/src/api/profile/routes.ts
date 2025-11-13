@@ -1,5 +1,5 @@
 import PromiseRouter from 'express-promise-router'
-import rateLimiter from '../../lib/rate-limiter-middleware'
+import rateLimiter from '../../lib/middleware/rate-limiter-middleware'
 import { validateStrict } from '../../lib/validation'
 import { CreateApiCredentialsRequest } from './validation/create-api-credentials-request'
 import { createApiCredentialsHandler } from './handler/create-api-credentials-handler'
