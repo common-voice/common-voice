@@ -179,6 +179,7 @@ code-switching-adding-question-criteria-3 = باشقىلارغا زىيان يە
 code-switching-adding-question-note = سىز يەنە ئوخشىمىغان مەزمۇن ۋە دائىرىدىن ھالقىشنى ئويلىشىڭىز كېرەك بولۇشى مۇمكىن.
 # What types of questions to add
 code-switching-types-subheader = قانداق تۈردىكى سوئال قوشىسىز؟
+code-switching-use-bilingual-prompts-header = كۆپ تىللىق تەكلىپ
 
 ## Reporting Content
 
