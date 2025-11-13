@@ -5,7 +5,7 @@
 - [Setting up a local development environment](#setting-up-a-local-development-environment)
   - [Contents](#contents)
   - [Who this guide is for](#who-this-guide-is-for)
-  - [Prerequistes](#prerequistes)
+  - [Prerequisites](#prerequisites)
   - [Summary to get up and running](#summary-to-get-up-and-running)
   - [Forking and cloning the `common-voice` repository](#forking-and-cloning-the-common-voice-repository)
   - [Project organization](#project-organization)
@@ -33,7 +33,7 @@ This guide is intended for:
 * Developers who would like to work on patching bugs or adding new features to the `common-voice` code base via pull requests
 * Developers who would like to self-host `common-voice` on their own infrastructure, or re-purpose it to their own needs. _NOTE:_ unfortunately due to resourcing constraints, we are unable to assist you in self-hosting outside of a commercial support arrangement, beyond what is given in this document. Please [make contact](mailto:commonvoice@mozilla.com?Subject=Inquiry about commercial hosting arrangements for Common Voice) if you would like further information regarding a commercial arrangement.  
 
-## Prerequistes 
+## Prerequisites 
 
 * `git` is installed on your local computer. [More information on installing `git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 * You are familiar with common `git` commands like `git commit` and `git push`. 
