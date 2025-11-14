@@ -1145,6 +1145,78 @@ export default class DB {
     }
   }
 
+  // TODO: This is possibly cacheable
+  // Can be used to speed-up findSentencesForReview in application/repository/sentences-repository.ts
+  async getVotableLanguageSentenceCounts(
+    localeId: number
+  ): Promise<{ locale_id: number; count: number }> {
+    const [[row]] = await this.mysql.query(
+      `
+      SELECT COUNT(*) AS votable_sentence_count
+      FROM sentences s
+      WHERE s.locale_id = ?
+        AND s.is_validated = FALSE
+        AND NOT (
+          s.is_validated = TRUE AND s.is_used = FALSE
+        )
+        AND NOT EXISTS (
+          SELECT 1
+          FROM sentence_votes sv
+          WHERE sv.sentence_id = s.id
+          GROUP BY sv.sentence_id
+          HAVING
+            COUNT(*) >= 2 AND (
+              SUM(sv.vote = 1) >= 2
+              OR SUM(sv.vote = 0) >= 2
+              OR (SUM(sv.vote = 1) = 2 AND SUM(sv.vote = 0) = 1)
+            )
+        )
+      `,
+      [localeId]
+    )
+
+    return {
+      locale_id: localeId,
+      count: row?.votable_sentence_count || 0,
+    }
+  }
+
+  // Not in use yet, but ready for next phase (with caching)
+  // TODO: Needs performance measures on real data first
+  async getVotableSentenceCounts(): Promise<
+    { locale_id: number; count: number }[]
+  > {
+    const rows = await this.mysql.query(
+      `
+      SELECT s.locale_id, COUNT(*) AS votable_sentence_count
+      FROM sentences s
+      WHERE s.is_validated = FALSE
+        AND NOT (
+          s.is_validated = TRUE AND s.is_used = FALSE
+        )
+        AND NOT EXISTS (
+          SELECT 1
+          FROM sentence_votes sv
+          WHERE sv.sentence_id = s.id
+          GROUP BY sv.sentence_id
+          HAVING
+            COUNT(*) >= 2 AND (
+              SUM(sv.vote = 1) >= 2
+              OR SUM(sv.vote = 0) >= 2
+              OR (SUM(sv.vote = 1) = 2 AND SUM(sv.vote = 0) = 1)
+            )
+        )
+      GROUP BY s.locale_id
+      ORDER BY s.locale_id
+      `
+    )
+
+    return rows?.map((row: any) => ({
+      locale_id: row.locale_id,
+      count: row.votable_sentence_count,
+    }))
+  }
+
   async getLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
       `

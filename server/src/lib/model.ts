@@ -250,6 +250,13 @@ export default class Model {
       )
       const languageSentenceCountsMap = statsReducer(languageSentenceCounts)
 
+      const languageVotableSentenceCounts = await Promise.all(
+        allLanguageIds.map(async id => {
+          return await this.db.getVotableLanguageSentenceCounts(id)
+        })
+      )
+      const languageVotableSentenceCountsMap = statsReducer(languageVotableSentenceCounts)
+
       const [
         localizedPercentages,
         validClipsCounts,
@@ -297,6 +304,7 @@ export default class Model {
           sentencesCount: {
             targetSentenceCount: lang.target_sentence_count,
             currentCount: languageSentenceCountsMap[lang.id],
+            votableCount: languageVotableSentenceCountsMap[lang.id],
           },
           locale: lang.name,
           lastFetched,
