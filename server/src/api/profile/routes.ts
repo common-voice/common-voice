@@ -8,6 +8,11 @@ import { deleteApiCredentialsHandler } from './handler/delete-api-credentials-ha
 import { RequireUserMiddleware } from '../../lib/middleware/requireUserMiddleware'
 import { RequireFeatureMiddleware } from '../../lib/middleware/requireFeatureMiddleware'
 
+// Create middleware instances once to avoid repeated instantiation
+const requireUserMiddleware = new RequireUserMiddleware()
+const requireFeatureMiddleware =
+  RequireFeatureMiddleware.handle('papi-credentials')
+
 export const profilesRouter = PromiseRouter({ mergeParams: true })
   .post(
     '/api-credentials',
@@ -16,19 +21,19 @@ export const profilesRouter = PromiseRouter({ mergeParams: true })
       duration: 60,
     }),
     validateStrict({ body: CreateApiCredentialsRequest }),
-    new RequireUserMiddleware().handle,
-    RequireFeatureMiddleware.handle('papi-credentials'),
+    requireUserMiddleware.handle,
+    requireFeatureMiddleware,
     createApiCredentialsHandler
   )
   .get(
     '/api-credentials',
-    new RequireUserMiddleware().handle,
-    RequireFeatureMiddleware.handle('papi-credentials'),
+    requireUserMiddleware.handle,
+    requireFeatureMiddleware,
     getApiCredentialsHandler
   )
   .delete(
     '/api-credentials/:client_id',
-    new RequireUserMiddleware().handle,
-    RequireFeatureMiddleware.handle('papi-credentials'),
+    requireUserMiddleware.handle,
+    requireFeatureMiddleware,
     deleteApiCredentialsHandler
   )
