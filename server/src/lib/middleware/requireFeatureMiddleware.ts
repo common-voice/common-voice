@@ -11,11 +11,15 @@ export class RequireFeatureMiddleware {
       const features = features_cookie?.split(',') || []
       if (
         features.includes(required_feature) ||
-        (feature && FEATURES.includes(feature as string))
+        (feature &&
+          feature === required_feature &&
+          FEATURES.includes(feature as string))
       ) {
         next()
       } else {
-        return res.status(401).json({ message: 'Unauthorized!' })
+        return res
+          .status(401)
+          .json({ message: 'Access to this feature is restricted:!' })
       }
     }
   }
