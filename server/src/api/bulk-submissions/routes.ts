@@ -1,5 +1,5 @@
 import PromiseRouter from 'express-promise-router'
-import rateLimiter from '../../lib/rate-limiter-middleware'
+import rateLimiter from '../../lib/middleware/rate-limiter-middleware'
 import { addBulkSubmissionHandler } from './handler/add-bulk-submission-handler'
 
 export const bulkSubmissionsRouter = PromiseRouter({ mergeParams: true }).post(

@@ -12,8 +12,11 @@ import {
 } from './ffmpeg-transcoder'
 
 import { Sentence, UserClient as UserClientType } from 'common'
-import rateLimiter from './rate-limiter-middleware'
+import rateLimiter from './middleware/rate-limiter-middleware'
 import { authMiddleware } from '../auth-router'
+import { RequireUserMiddleware } from './middleware/requireUserMiddleware'
+import { HandleFeatureMiddleware } from './middleware/handleFeatureMiddleware'
+import { RequireFeatureMiddleware } from './middleware/requireFeatureMiddleware'
 import { getConfig } from '../config-helper'
 import Awards from './model/awards'
 import CustomGoal from './model/custom-goal'
@@ -82,6 +85,9 @@ export default class API {
   statistics: Statistics
   private readonly bucket: Bucket
   readonly takeout: Takeout
+  private readonly requireUserMiddleware: RequireUserMiddleware
+  private readonly handleFeatureMiddleware: HandleFeatureMiddleware
+  private readonly requireFeatureMiddleware: RequireFeatureMiddleware
 
   constructor(model: Model) {
     this.model = model
@@ -91,17 +97,30 @@ export default class API {
     this.email = new Email()
     this.bucket = new Bucket(this.model)
     this.takeout = new Takeout(this.model.db.mysql, this.bucket)
+    this.requireUserMiddleware = new RequireUserMiddleware()
+    this.handleFeatureMiddleware = new HandleFeatureMiddleware()
+    this.requireFeatureMiddleware = new RequireFeatureMiddleware()
   }
 
   getRouter(): Router {
     const router = PromiseRouter()
 
     router.use(authMiddleware)
+
+    // Feature flag handling - should come early to set cookies
+    router.use(this.handleFeatureMiddleware.handle)
+
+    // Ping endpoint for FE to set features
+    router.get('/ping', (request: Request, response: Response) => {
+      response.send('pong')
+    })
+    // Please visit https://datacollective.mozillafoundation.org/ to download datasets
+    // router.get('/bucket/:bucket_type/:path', this.getPublicUrl)
+
     router.use('/webhooks', webhooksRouter)
     router.get('/metrics', (request: Request, response: Response) => {
       response.redirect('/')
     })
-
     router.get('/golem', (request: Request, response: Response) => {
       response.redirect('/')
     })
@@ -138,6 +157,8 @@ export default class API {
     router.get('/user_client/takeout', this.getTakeouts)
     router.post('/user_client/takeout/request', this.requestTakeout)
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
+
+    router.use('/profiles', profilesRouter)
 
     //
     // Language
@@ -213,12 +234,9 @@ export default class API {
 
     router.use('/challenge', this.challenge.getRouter())
 
-    // Please visit https://datacollective.mozillafoundation.org/ to download datasets
-    // router.get('/bucket/:bucket_type/:path', this.getPublicUrl)
     router.get('/server_date', this.getServerDate)
 
     router.use('/:locale/bulk_submissions', bulkSubmissionsRouter)
-    router.use('/profiles', profilesRouter)
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404)
