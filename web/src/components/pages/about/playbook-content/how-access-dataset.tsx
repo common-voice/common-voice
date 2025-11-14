@@ -1,17 +1,22 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import { LocaleNavLink } from '../../../locale-helpers';
-import URLS from '../../../../urls';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import URLS from '../../../../urls'
 
 const HowAddLanguage = React.memo(() => {
-  const strong = <strong />;
+  const strong = <strong />
 
   return (
     <>
       <Localized
         id="about-playbook-how-access-dataset-content-1"
         elems={{
-          datasetsPage: <LocaleNavLink to={URLS.DATASETS} />,
+          datasetsPage: (
+            <a
+              href={URLS.MDC_DATASETS}
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+          ),
           metadataLink: (
             <a
               href="https://github.com/common-voice/cv-dataset"
@@ -36,7 +41,7 @@ const HowAddLanguage = React.memo(() => {
         <p />
       </Localized>
     </>
-  );
-});
+  )
+})
 
-export default HowAddLanguage;
+export default HowAddLanguage
