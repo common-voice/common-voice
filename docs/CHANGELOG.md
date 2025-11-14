@@ -35,6 +35,8 @@
 
 ### Changes merged after current release
 
+- Feat: Implement feature flag to test alpha/beta level features and use in API credentials, by [@moz-bozden](https://github.com/moz-bozden) in [#5171](https://github.com/common-voice/common-voice/pull/5171) (in v1.154.7)
+- Minor Fix: React key was not unique in API credential list, by [@moz-bozden](https://github.com/moz-bozden) in [#5172](https://github.com/common-voice/common-voice/pull/5172) (in v1.154.7)
 - Fix/Refactor: Rework variant only clip selection and caching, by [@moz-bozden](https://github.com/moz-bozden) in [#5165](https://github.com/common-voice/common-voice/pull/5165) (in v1.154.7)
 - Fix/Refactor: Switch to new newsletter sign-up, by [@moz-bozden](https://github.com/moz-bozden) in [#5136](https://github.com/common-voice/common-voice/pull/5136) (in v1.154.7)
 - Fix/Refactor: Optimize long running queries and their caching, by [@moz-bozden](https://github.com/moz-bozden) in [#5163](https://github.com/common-voice/common-voice/pull/5163) (in v1.154.6)
@@ -59,7 +61,11 @@
 
 #### Spontaneous Speech after current release
 
+- Chore: Point to MDC datasets from the main menu, by [@moz-bozden](https://github.com/moz-bozden) in [#495](https://github.com/common-voice/spontaneous-speech/pull/495) (in v1.152.7)
+
 ##### SS Data Changes after current release
+
+- Add Lango (`laj`) questions by [@bandrandr](https://github.com/bandrandr) in [#494](https://github.com/common-voice/spontaneous-speech/pull/494) (in v1.154.7)
 
 ---
 
