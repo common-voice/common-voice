@@ -8,7 +8,8 @@ import { FEATURES_COOKIE, FEATURES, FEATURE_DAYS } from 'common'
 // ?feature=feat1 - Single feature
 
 export class HandleFeatureMiddleware {
-  public handle(req: Request, res: Response, next: NextFunction) {
+  // Use arrow function not to lose binding
+  public handle = (req: Request, res: Response, next: NextFunction) => {
     const features = this.getValidFeaturesFromQuery(req.query.feature)
 
     if (features.length > 0) {
@@ -44,7 +45,7 @@ export class HandleFeatureMiddleware {
   private updateFeaturesCookie(res: Response, features: string[]): void {
     res.cookie(FEATURES_COOKIE, features.join(','), {
       maxAge: 1000 * 60 * 60 * 24 * FEATURE_DAYS,
-      httpOnly: false, // So JS can read it if needed
+      httpOnly: false,
       sameSite: 'lax',
     })
   }
