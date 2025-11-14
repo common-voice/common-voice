@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Helfen Sie uns, einen qualitativ hochwertigen, öffentlich zugänglichen Datensatz zu erstellen
 sign-up-account = Ein Konto erstellen
-email-subscription-title = Abonnieren Sie Neuigkeiten per E-Mail
-email-subscription-title-new = Abonnieren Sie Common-Voice-Newsletter, Zielerinnerungen und Fortschrittsmeldungen
+email-subscription-title-v3 = Abonnieren Sie Neuigkeiten zu Common Voice und der Mozilla Foundation
 
 ## Account Benefits
 

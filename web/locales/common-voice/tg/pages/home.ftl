@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Ба мо барои бунёди маҷмуи маълумоти босифат ва оммавӣ кумак расонед
 sign-up-account = Ҳисоберо ба қайд гиред
-email-subscription-title = Бақайдгирӣ барои навигариҳо тавассути почтаи электронӣ
-email-subscription-title-new = Барои хабарномаҳои «Common Voice», ёдрас аз ҳадафҳо ва навгониҳо дар пешрафт сабти ном кунед
 
 ## Account Benefits
 

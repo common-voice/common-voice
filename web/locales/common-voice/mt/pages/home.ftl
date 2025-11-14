@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = Għinna nibnu ġabra ta' data ta' kwalità għolja, miftuħa għal kulħadd
 sign-up-account = Oħloq kont
-email-subscription-title = Ibda rċievi aġġonrnamenti bl-email
-email-subscription-title-new = Ibda rċievi l-ittra-aħbar ta' Common Voice, tfakkira dwar l-għanijiet tiegħek u aġġornamenti dwar il-progress li qed isir
 
 ## Account Benefits
 

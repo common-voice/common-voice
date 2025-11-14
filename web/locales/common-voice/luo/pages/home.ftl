@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Konywa loso deche maberie moloyo, mar oganda moyaore
 sign-up-account = Yaw akaont mamari iwuon
-email-subscription-title = yaw barup mbui ma mari iwuon
-email-subscription-title-new = Donjie Common Voice mondi iyud otegi mag oboke, inyal parni chenro mari mar tiyo kod kit dongruok.
 
 ## Account Benefits
 

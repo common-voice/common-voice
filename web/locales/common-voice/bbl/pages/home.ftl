@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ლა́ტათ თხოჼ ჰ̦ა́მინაჲნოჸ ქოჴა́ბტლაჲნი̆ კრე́ბულ შე́ქმნადარელო
 sign-up-account = ა́ნგრიშ შე́ქმნოდჲარ
-email-subscription-title = სო გამოწე́რადჲებათ წინიწინი́ ა́მბუჲ ელფო́სტენმაქ
-email-subscription-title-new = გამოწე́რადჲებათ  Common Voice,  ჲე გიბათ წინ ა́მბუჲ, მიზნეჼ დაჯჴე́ლრიე́ ინფორმა́ციიშ ინცლუჩო̆ ჰ̦ა́თხიხრა́ხ.
 
 ## Account Benefits
 

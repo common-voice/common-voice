@@ -53,8 +53,6 @@ x-years-short =
     }
 help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
 sign-up-account = Regisztráljon egy fiókot
-email-subscription-title = iratkozzon fel a hírlevélre
-email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a célokkal kapcsolatos emlékeztetőkre és az előhaladásról szóló hírekre
 
 ## Account Benefits
 

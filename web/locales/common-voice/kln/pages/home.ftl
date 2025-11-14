@@ -36,8 +36,6 @@ x-years-short =
     }
 help-make-dataset = toretech keteech ngalek chebo barak ago chetagu eng chitugul
 sign-up-account = sirgei asinyoru akount nengung
-email-subscription-title = sirgei asigeupdatenin eng emailingung
-email-subscription-title-new = sirgei asinyoru tuguk chenoyotin cheu sautitab logoywekab barueshej,kabwatutikab borset  ago oleitesetai
 
 ## Account Benefits
 

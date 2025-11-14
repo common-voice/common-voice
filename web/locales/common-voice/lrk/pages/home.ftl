@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = امو ري مدد ڪرو ايڪ اعليٰ معيار، عوامي طور تي کليوڙي ڊيٽا سيٽ ٺايا ۾
 sign-up-account = ايڪ اڪائونٽ ھارو سائن اپ ڪرو
-email-subscription-title = اي ميل تازه ڪاري ھارو سائن اپ ڪرو
-email-subscription-title-new = ڪامن وائس نيوز ليٽرز، مقصد ياد ڏيرايا وارا ھين ترقي ري تازه ڪاري ھارو سائن اپ ڪرو
 
 ## Account Benefits
 

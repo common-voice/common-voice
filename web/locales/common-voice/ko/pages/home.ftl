@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = 고품질의 공개 데이터 세트 만드는 일을 도와주세요.
 sign-up-account = 새 계정 생성
-email-subscription-title = 이메일 업데이트 수신 등록
-email-subscription-title-new = Common Voice 뉴스 레터와 목표 알림, 진행 상황 알림 메일링 리스트 가입
 
 ## Account Benefits
 

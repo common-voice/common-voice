@@ -48,8 +48,6 @@ x-years-short =
     }
 help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski pieejamu datu kopu
 sign-up-account = Reģistrē savu kontu
-email-subscription-title = Piesakieties jaunumiem e-pastā
-email-subscription-title-new = Reģistrējieties Common Voice ziņām, atgādinājumiem par mērķiem un progresa atjauninājumiem
 
 ## Account Benefits
 

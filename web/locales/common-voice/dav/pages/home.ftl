@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Ditesie kuagha mafungu gha data ghiko mwari sena gha mana.
 sign-up-account = Fungua Akaunti
-email-subscription-title = Ara kungire eri kupate imeili ra kafwani
-email-subscription-title-new = Ara kungire eri kudumilo magazeti gha Common Voice na kukumbusho lengo na ihi misele kwavikia
 
 ## Account Benefits
 

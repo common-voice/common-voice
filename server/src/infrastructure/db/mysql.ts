@@ -12,6 +12,7 @@ const lazyQuery =
   (db: Mysql) =>
   (cachePrefix: string) =>
   (expiresMs: number) =>
+  (lockDurationMs: number) =>
   (query: string) =>
   (parameters: QueryParams): TE.TaskEither<Error, unknown> => {
     const lazyQuery = lazyCache<unknown, QueryParams>(
@@ -19,7 +20,8 @@ const lazyQuery =
       async parameters => {
         return db.query(query, parameters)
       },
-      expiresMs
+      expiresMs,
+      lockDurationMs
     )
 
     return TE.tryCatch(

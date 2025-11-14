@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate, publicamente aperte
 sign-up-account = Inscribe te pro un conto
-email-subscription-title = inscribe te pro reciper actualitates via e-mail
-email-subscription-title-new = Inscribe te al bulletines de novas, rememorationes de objectivos e actualitates sur le progresso de Common Voice
+email-subscription-title-v3 = Inscribe te pro le actualisationes de Common Voice e Mozilla Foundation
 
 ## Account Benefits
 

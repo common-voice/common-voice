@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = An dɛmɛ ka kunnafonidilan ɲumanba dɔ jɔ, min dabɔra foroba la
 sign-up-account = I tɔgɔ sɛbɛn ka kɛ jatebɔsɛbɛn dɔ ye
-email-subscription-title = i tɔgɔ sɛbɛn walasa ka kunnafoni kuraw sɔrɔ imɛri la
-email-subscription-title-new = I tɔgɔ sɛbɛn Common Voice kunnafonidisɛbɛnw na, kuntilenna hakilijiginw ani ɲɛtaa kunnafoniw
 
 ## Account Benefits
 

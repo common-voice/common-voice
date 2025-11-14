@@ -55,8 +55,6 @@ x-years-short =
     }
 help-make-dataset = ብሉጽን ኣብ ቅድሚ ህዝቢ ኽፉት ዝዀነን ሓበሬታ ንኽንሰርሕ ሓግዘና
 sign-up-account = ንሕሳብ ምኽፋት ተመዝገብ
-email-subscription-title = ን ኢ-መይል  ተመዝገብ
-email-subscription-title-new = ሓባራዊ ጋዜጣታት ድምጺ መዘኻኸሪታት ሸቶ ከምኡውን እዋናዊ ምዕባለ ንምርካብ ክታም ኣእቱ
 
 ## Account Benefits
 

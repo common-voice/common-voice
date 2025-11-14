@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = 共咱鬥相工打造高品質、會當公開使用的資料集
 sign-up-account = 開新口座
-email-subscription-title = 注文上新消息的電子報
-email-subscription-title-new = 注文 Common Voice 電子報、目標提醒佮進度更新
 
 ## Account Benefits
 

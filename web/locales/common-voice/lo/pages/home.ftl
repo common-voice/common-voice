@@ -56,8 +56,6 @@ x-years-short =
     }
 help-make-dataset = ຊ່ວຍພວກເຮົາສ້າງຊຸດຂໍ້ມູນທີ່ມີຄຸນນະພາບສູງ, ເປີດສາທາລະນະ
 sign-up-account = ລົງທະບຽນສໍາລັບບັນຊີ
-email-subscription-title = ລົງທະບຽນສໍາລັບການອັບເດດອີເມລ໌
-email-subscription-title-new = ສະໝັກຮັບຈົດໝາຍຂ່າວ Common Voice, ການແຈ້ງເຕືອນເປົ້າໝາຍ ແລະອັບເດດຄວາມຄືບໜ້າ
 
 ## Account Benefits
 

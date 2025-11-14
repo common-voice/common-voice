@@ -11,29 +11,38 @@ import { TimeUnits } from 'common'
 const VARIANT_CLIPS_LIMIT = 10000
 
 export type FetchVariantClips = (
-  variant: Variant
+  variant: Variant,
+  localeId: number
 ) => TE.TaskEither<ApplicationError, DBClip[]>
-export const fetchVariantClipsFromDB: FetchVariantClips = (variant: Variant) =>
+export const fetchVariantClipsFromDB: FetchVariantClips = (
+  variant: Variant,
+  localeId: number
+) =>
   pipe(
-    [variant.id, variant.id, VARIANT_CLIPS_LIMIT],
-    lazyQueryDb(`fetch-variant-clips-${variant.tag}`)(10 * TimeUnits.MINUTE)(
+    [localeId, variant.id, localeId, variant.id, VARIANT_CLIPS_LIMIT],
+    lazyQueryDb(`fetch-variant-clips-${variant.tag}`)(15 * TimeUnits.MINUTE)(
+      10 * TimeUnits.MINUTE
+    )(
       `
         SELECT c.id, c.client_id, c.path, c.sentence, c.original_sentence_id
         FROM clips c
-        LEFT JOIN sentence_metadata sm
-        ON sm.sentence_id = c.original_sentence_id
-        LEFT JOIN (
-          SELECT
-            ucv.client_id,
-            ucv.locale_id,
-            ucv.variant_id,
-            v.variant_name as variant
-          FROM user_client_variants ucv
-          JOIN variants v ON v.id = ucv.variant_id
-        ) client_variant ON client_variant.client_id = c.client_id AND c.locale_id = client_variant.locale_id
-        WHERE
-          sm.variant_id = ?
-          OR client_variant.variant_id = ?
+        WHERE c.is_valid IS NULL
+          AND c.locale_id = ?
+          AND (
+            EXISTS (
+              SELECT 1 
+              FROM sentence_metadata sm 
+              WHERE sm.sentence_id = c.original_sentence_id 
+                AND sm.variant_id = ?
+            )
+            OR EXISTS (
+              SELECT 1
+              FROM user_client_variants ucv
+              WHERE ucv.client_id = c.client_id 
+                AND ucv.locale_id = ?
+                AND ucv.variant_id = ?
+            )
+          )
         LIMIT ?
       `
     ),

@@ -172,6 +172,14 @@ code-switching = كود ئالماشتۇرۇش
 adding-a-question = سوئال قوشۇش
 # Adding a Question
 code-switching-adding-question-subheader = ياخشى سوئال قانداق بولىدۇ؟
+code-switching-adding-question-explanation = كۆپچىلىك قاتنىشىدىغان سانلىق مەلۇمات توپلىمىغا نىسبەتەن ياخشى سوئال:
+code-switching-adding-question-criteria-1 = چۈشىنىش ئاسان ۋە جاۋاب بېرىشمۇ ئاسان
+code-switching-adding-question-criteria-2 = مەنىسى ئېنىق
+code-switching-adding-question-criteria-3 = باشقىلارغا زىيان يەتكۈزىدىغان ياكى تېرىكتۈرىدىغان تىل ئىشلىتىشكە ياكى يېتەكلەشكە بولمايدۇ
+code-switching-adding-question-note = سىز يەنە ئوخشىمىغان مەزمۇن ۋە دائىرىدىن ھالقىشنى ئويلىشىڭىز كېرەك بولۇشى مۇمكىن.
+# What types of questions to add
+code-switching-types-subheader = قانداق تۈردىكى سوئال قوشىسىز؟
+code-switching-use-bilingual-prompts-header = كۆپ تىللىق تەكلىپ
 
 ## Reporting Content
 

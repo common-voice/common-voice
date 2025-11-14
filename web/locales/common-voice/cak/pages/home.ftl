@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Kojato' chutz'ukik jun rucholxe'el tzij yalan ütz chuqa' okel chi kiwäch konojel
 sign-up-account = Tatz'ib'aj ab'i' richin nak'ül jun rub'i' ataqoya'l
-email-subscription-title = tatz'ib'aj ab'i' richin ye'ak'ül taq k'exoj pa taqoya'l
-email-subscription-title-new = Tatz'ib'aj awi' pa ri ko'öl ruwuj rutzijol, natab'äl chuqa' taq ruk'exoj b'anon pa Common Voice
 
 ## Account Benefits
 

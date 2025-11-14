@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Boa yen sie dataset a ye abue na papa
 sign-up-account = Sign up for an account
-email-subscription-title = Sign up for email updates
-email-subscription-title-new = Sign up for Common Voice newsletters, goal reminders and progress updates
 
 ## Account Benefits
 

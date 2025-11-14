@@ -55,8 +55,6 @@ x-years-short =
     }
 help-make-dataset = ጥራት ያለው እና ለህዝብ ክፍት የሆነ የመረጃ ስብስብ እንድንገነባ ይርዱን
 sign-up-account = መለያ ለማግኘት ይመዝገቡ
-email-subscription-title = ለኢሜይል ማሳወቂያ ይመዝገቡ
-email-subscription-title-new = ለተለመዱ የድምፅ ዜና መጽሔቶች ፣ ለግብ ማስታወሻዎች እና ለሂደት ዝመናዎች ይመዝገቡ
 
 ## Account Benefits
 

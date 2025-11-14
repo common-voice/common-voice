@@ -4,9 +4,10 @@ import { useState } from 'react'
 import { CustomGoal, CustomGoalParams } from 'common'
 import { UserClient } from 'common'
 import URLS from '../../../../urls'
-import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks'
+//import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks'
+// import { getManageSubscriptionURL } from '../../../../utility'
+import { useAccount } from '../../../../hooks/store-hooks'
 import { useRouter } from '../../../../hooks/use-router'
-import { getManageSubscriptionURL } from '../../../../utility'
 import {
   LocaleLink,
   useLocale,
@@ -18,7 +19,7 @@ import {
   CheckIcon,
   CrossIcon,
   PenIcon,
-  SettingsIcon,
+  // SettingsIcon,
   ShareIcon,
 } from '../../../ui/icons'
 import { Button, LabeledSelect, LinkButton } from '../../../ui/ui'
@@ -253,7 +254,10 @@ export default [
   }: CustomGoalStepProps & AccountProps) => {
     const account = useAccount()
     const [privacyAgreed, setPrivacyAgreed] = useState(false)
-    const isSubscribed = useIsSubscribed()
+    // We cannot check subscription status currently, because unsubscribing will be done through emails.
+    // We assume, if the token exists, the user is subscribed. But this can change in the future
+    // const isSubscribed = useIsSubscribed()
+    const isSubscribed = account.basket_token != null
 
     return (
       <div className="padded">
@@ -261,7 +265,7 @@ export default [
         {account.basket_token ? (
           isSubscribed !== null && (
             <>
-              <Localized
+              {/* <Localized
                 id={
                   isSubscribed
                     ? 'receiving-emails-info'
@@ -279,7 +283,7 @@ export default [
                   <span />
                 </Localized>
                 <SettingsIcon />
-              </a>
+              </a> */}
             </>
           )
         ) : (

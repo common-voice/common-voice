@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = Ndihmonani të krijojmë një grup të dhënash të cilësisë së lartë, të hapur publikisht
 sign-up-account = Regjistrohuni për një llogari
-email-subscription-title = regjistrohuni për përditësime me email
-email-subscription-title-new = Regjistrohuni për buletine, kujtues objektivash dhe përditësime ecurie për Common Voice-in
 
 ## Account Benefits
 

@@ -51,8 +51,6 @@ x-years-short =
     }
 help-make-dataset = Agiuda·nos a creare unu pachete de datos abertu e pùblicu de arta calidade
 sign-up-account = Crea unu contu
-email-subscription-title = registra·ti pro retzire atualizatziones tràmite posta eletrònica
-email-subscription-title-new = Iscrie·ti pro retzire su bolletinu de Common Voice, apuntos de obietivos e atualizatziones de progressu
 
 ## Account Benefits
 

@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = Ayúdanos a construyir un conxuntu de datos abiertu, públicu y calidable
 sign-up-account = Rexistrar una cuenta
-email-subscription-title = rexistrase pa recibir anovamientos per corréu
-email-subscription-title-new = Rexístrate pa recibir boletinos, recordatorios, retos y anovamientos de progresu
 
 ## Account Benefits
 

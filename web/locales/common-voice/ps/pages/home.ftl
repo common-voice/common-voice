@@ -53,8 +53,6 @@ x-years-short =
     }
 help-make-dataset = له موږ سره د لوړ کیفیت، عامه آزاد ډېټاسیټ جوړولو کې مرسته وکړئ
 sign-up-account = ګڼون لپاره نوملیکنه وکړئ
-email-subscription-title = د برېښنالیک تازه مالوماتو لپاره نوملیکنه وکړئ
-email-subscription-title-new = د عام غږ خبرلیکونو، موخو یادونو او پرمختګ تازه مالوماتو لپاره نوملیکنه وکړئ
 
 ## Account Benefits
 

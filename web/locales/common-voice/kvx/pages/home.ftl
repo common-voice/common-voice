@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = امون نئہ هيڪ ٺائ﻿ُوڪِي معيار واۯو، ٻڌون ۿارُو موجوڌ ڊيٽاسيٽ تيار ڪريا ۾ مڌت ۮيو۔
 sign-up-account = هيڪ اڪائونٽ ٺايا ۿارُو سائن اپ ڪرو
-email-subscription-title = اِيميل را اپڊيٽ ۿارُو سائن اپ ڪرو
-email-subscription-title-new = ڪومنَ وائيس ري خٻرون،مقصڌ ياڌ ۮيوَراوو انَ ڪوم رئي اپڊيٽ ۮِيڌا ۿارُو مڌت ڪرو
 
 ## Account Benefits
 

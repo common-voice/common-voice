@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Βοηθήστε μας να συλλέξουμε υψηλής ποιότητας, δημόσια δεδομένα
 sign-up-account = Δημιουργία λογαριασμού
-email-subscription-title = Εγγραφή για ενημερώσεις μέσω email
-email-subscription-title-new = Λάβετε ενημερωτικά δελτία του Common Voice, υπενθυμίσεις στόχων και ενημερώσεις προόδου
+email-subscription-title-v3 = Εγγραφή για ενημερώσεις του Common Voice και του Mozilla Foundation
 
 ## Account Benefits
 

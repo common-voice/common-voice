@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Иаарту, зхаҭабзиара ҳараку абызшәатә дыррақәа рбаза аԥҵара уҳацхраа
 sign-up-account = Аҽҭагалара аҳасабрбатә нҵамҭазы
-email-subscription-title = Аҽҭагалара аԥошьҭала аиҭакрақәа рдырразы
-email-subscription-title-new = Уҽанҵа Common Voice аизҳара ахықәки аҿыцрақәеи ртәы зҳәо ашьҭымҭа ҿыц аҟны
 
 ## Account Benefits
 

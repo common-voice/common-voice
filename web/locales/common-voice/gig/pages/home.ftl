@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = همآري مدد ڪرو ايڪ موٽي مهيآر ،آوآمي توري پر کولوڙآ ڊيٽآ سيٽ ٺآئي مينٚ
 sign-up-account = ايڪ اڪآئونٽ سآرو سآئن اپ ڪرو
-email-subscription-title = اي ميل تآزه ڪآري سآرو سآئن اپڪرو
-email-subscription-title-new = ڪآمن وآئس نيوز ليٽرز ،مڪسد يآد ڏرآئيٚوآڙو آئينٚ ترڪي ري تآزآ ڪآري سآرو سآئن اپ ڪرو
 
 ## Account Benefits
 

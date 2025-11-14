@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Gida nus a crear in'unitad da datas aviarta, publica e d'aulta qualitad
 sign-up-account = Seregistrar
-email-subscription-title = Abonnar novitads per e-mail
-email-subscription-title-new = Seregistrar per las newsletters da Common Voice, regurdientschas da las finamiras ed actualisaziuns dil progress.
 
 ## Account Benefits
 

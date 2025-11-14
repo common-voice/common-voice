@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Bizga yuqori sifatli ommaviy maʼlumotlar bazasini yaratishga yordam bering
 sign-up-account = Akkauntni roʻyxatdan oʻtkazish
-email-subscription-title = Yangiliklardan xabardor boʻlib turish uchun e-pochta orqali obuna boʻling
-email-subscription-title-new = Common Voice yangiliklari va shaxsiy yutuqlaringizni kuzatib boring
 
 ## Account Benefits
 

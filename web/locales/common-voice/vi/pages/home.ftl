@@ -40,8 +40,6 @@ x-years-short =
     }
 help-make-dataset = Hãy giúp chúng tôi xây dựng một bộ dữ liệu công khai, chất lượng cao
 sign-up-account = Đăng kí một tài khoản
-email-subscription-title = đăng ký nhận email cập nhật
-email-subscription-title-new = Đăng ký nhận bản tin Common Voice, nhắc nhở mục tiêu và cập nhật tiến độ
 
 ## Account Benefits
 

@@ -9,7 +9,7 @@ import {
   Switch,
   withRouter,
 } from 'react-router'
-import { Router, useHistory } from 'react-router-dom'
+import { Router } from 'react-router-dom'
 import * as Sentry from '@sentry/react'
 import { createBrowserHistory } from 'history'
 
@@ -34,6 +34,7 @@ import LanguagesProvider from './languages-provider'
 import ErrorBoundary from './error-boundary/error-boundary'
 import LocalizedErrorBoundary from './error-boundary/localized-error-boundary'
 import { AB_TESTING_SPLIT_KEY, SPLIT_A, SPLIT_B } from '../constants'
+import { FeatureProvider } from '../contexts/feature-context'
 
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
@@ -307,13 +308,15 @@ const App = () => {
     <Suspense fallback={<Spinner />}>
       <ErrorBoundary>
         <ReduxProvider store={store}>
-          <Router history={history}>
-            <LanguagesProvider>
-              <LocalizedErrorBoundary>
-                <LocalizedPage />
-              </LocalizedErrorBoundary>
-            </LanguagesProvider>
-          </Router>
+          <FeatureProvider>
+            <Router history={history}>
+              <LanguagesProvider>
+                <LocalizedErrorBoundary>
+                  <LocalizedPage />
+                </LocalizedErrorBoundary>
+              </LanguagesProvider>
+            </Router>
+          </FeatureProvider>
         </ReduxProvider>
       </ErrorBoundary>
     </Suspense>

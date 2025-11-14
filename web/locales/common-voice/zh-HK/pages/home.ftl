@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = 幫我哋打造一個高品質、開放畀公眾使用嘅數據集
 sign-up-account = 註冊帳戶
-email-subscription-title = 訂閱最新消息電子報
-email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
 
 ## Account Benefits
 

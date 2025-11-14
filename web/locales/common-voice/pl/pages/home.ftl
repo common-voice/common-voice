@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
 sign-up-account = Zarejestruj konto
-email-subscription-title = subskrybuj aktualizacje przez e-mail
-email-subscription-title-new = Subskrybuj biuletyny Common Voice, przypomnienia o celach i aktualizacje postępu
 
 ## Account Benefits
 
