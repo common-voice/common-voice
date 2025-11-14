@@ -113,7 +113,10 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
             { route: downloadRoute, Component: DownloadProfile },
-            { route: apiCredentialsRoute, Component: ApiCredentials },
+            isFeaturePapi && {
+              route: apiCredentialsRoute,
+              Component: ApiCredentials,
+            },
           ]
             .filter(Boolean)
             .map(({ route, Component }) => (
