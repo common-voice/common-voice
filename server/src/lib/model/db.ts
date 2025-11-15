@@ -15,7 +15,7 @@ import {
   LanguageData,
 } from 'common'
 import lazyCache, {
-  redisSetFillManyWithExpiry,
+  redisSetAddManyWithExpiry,
   redisSetMembers,
 } from '../lazy-cache'
 import { option as O, task as T, taskEither as TE } from 'fp-ts'
@@ -387,11 +387,13 @@ export default class DB {
       taxonomySentences.concat(regularSentences) || []
     ).slice(0, count) // make sure to only return the requested amount
 
-    // these sentences have been given to this user - save in Redis for 24 hours to prevent re-selection
-    await redisSetFillManyWithExpiry(
+    // these sentences have been given to this user - ADD to Redis for 24 hours to prevent re-selection
+    // We now use redisSetAddManyWithExpiry instead of redisSetFillManyWithExpiry to accumulate
+    // previously recorded sentences, not replace them
+    await redisSetAddManyWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       totalSentences.map(s => s.id),
-      24 * TimeUnits.HOUR
+      12 * TimeUnits.HOUR
     )
     return this.appendMetadataToSentence(totalSentences)
   }
