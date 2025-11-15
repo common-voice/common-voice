@@ -5,7 +5,6 @@ import type { Lock } from 'redlock'
 import { TimeUnits } from 'common'
 
 // Monitor Redis state specifically for lazy-cache
-// redis.on('connect', () => console.debug('[LazyCache-Redis] Connecting...'))
 redis.on('ready', () => console.info('[LazyCache-Redis] Ready'))
 redis.on('error', err => console.error('[LazyCache-Redis] Error:', err.message))
 redis.on('close', () => console.warn('[LazyCache-Redis] Connection closed'))
@@ -52,11 +51,9 @@ function reportError(error: Error, context: string): void {
         fingerprint: ['lazy-cache', context],
       })
 
-      console.error(`[LazyCache] Error reported to Sentry:`, {
-        context,
-        error: error.message,
-        totalErrors: errorCount,
-      })
+      console.error(
+        `[LazyCache] Error reported to Sentry: context=${context}, error=${error.message}, totalErrors=${errorCount}`
+      )
 
       lastErrorReport = now
       errorCount = 0
@@ -64,12 +61,13 @@ function reportError(error: Error, context: string): void {
       console.error('[LazyCache] Failed to report to Sentry:', sentryError)
     }
   } else {
-    console.warn(`[LazyCache] Error suppressed (rate limited):`, {
-      context,
-      error: error.message,
-      errorCount,
-      nextReportIn: ERROR_REPORT_INTERVAL - (now - lastErrorReport),
-    })
+    console.warn(
+      `[LazyCache] Error suppressed (rate limited): context=${context}, error=${
+        error.message
+      }, errorCount=${errorCount}, nextReportIn=${Math.floor(
+        (ERROR_REPORT_INTERVAL - (now - lastErrorReport)) / 1000
+      ).toFixed(2)}s`
+    )
   }
 }
 
@@ -94,9 +92,6 @@ export function stopHealthMonitoring(): void {
 
 export async function performHealthCheck(): Promise<void> {
   const previousStrategy = cacheStrategy
-  // console.debug(
-  //   `[LazyCache] Health check starting. Previous: ${previousStrategy}, Consecutive failures: ${consecutiveFailures}`
-  // )
 
   try {
     // Add timeout to prevent hanging on queued commands
@@ -106,7 +101,6 @@ export async function performHealthCheck(): Promise<void> {
     )
 
     await Promise.race([pingPromise, timeoutPromise])
-    // console.debug(`[LazyCache] Redis ping successful`)
     consecutiveFailures = 0
 
     if (previousStrategy === 'memory') {
@@ -116,8 +110,6 @@ export async function performHealthCheck(): Promise<void> {
         level: 'info',
         tags: { context: 'cache-recovery' },
       })
-    } else {
-      // console.debug('[LazyCache] Redis healthy, staying in Redis mode')
     }
   } catch (error) {
     console.warn(`[LazyCache] Redis ping failed: ${error.message}`)
@@ -139,13 +131,10 @@ export async function performHealthCheck(): Promise<void> {
     }
   }
   lastHealthCheck = Date.now()
-  // console.debug(
-  //   `[LazyCache] Health check completed. Strategy: ${cacheStrategy}`
-  // )
 }
 
 async function getCacheStrategy(): Promise<'redis' | 'memory'> {
-  // <=== CHANGED: Always check health if interval elapsed, regardless of current strategy
+  // Always check health if interval elapsed, regardless of current strategy
   const now = Date.now()
 
   if (now - lastHealthCheck > HEALTH_CHECK_INTERVAL) {
@@ -359,9 +348,11 @@ function redisCache<T, S>(
 
           // Return stale if allowed
           if (cached.value) {
-            const ageSeconds = Math.floor((Date.now() - cached.at) / 1000)
+            const ageMinutes = Math.floor(
+              (Date.now() - cached.at) / TimeUnits.MINUTE
+            ).toFixed(2)
             console.warn(
-              `[LazyCache] Returning STALE data for ${cacheKey} (age: ${ageSeconds}s).`
+              `[LazyCache] Returning STALE data for ${cacheKey} (age: ${ageMinutes} minutes).`
             )
             return cached.value
           }

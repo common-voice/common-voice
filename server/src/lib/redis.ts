@@ -59,8 +59,7 @@ export const useRedis = new Promise(resolve => {
 
   const onError = (err: Error) => {
     console.error(
-      '[Redis] Connection failed via useRedis promise:',
-      err.message
+      `[Redis] Connection failed via useRedis promise: ${err.message}`
     )
     cleanup()
     resolve(false)

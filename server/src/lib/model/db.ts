@@ -582,7 +582,7 @@ export default class DB {
         return await this.getClipsToBeValidated(locale_id, 20_000) // Increase count from 10k
       },
       10 * TimeUnits.MINUTE, // Increase cache duration considerably from 1 min
-      5 * TimeUnits.MINUTE // Now we have much much better fetch time as we removed RAND(), measured <1 sec
+      5 * TimeUnits.MINUTE // Now we have much much better fetch time as we removed RAND(), measured <1 sec, but let's cover concurrency
     )()
 
     //filter out users own clips
