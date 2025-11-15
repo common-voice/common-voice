@@ -171,6 +171,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Oiko</correct>: Ar
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Oiko’ỹva</wrong>: Areko mokõipa savore hepykue guejýva
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Oĩporã</correct>: Ojagarra chupekuéra FBI pe arapo ohasaramóvape.
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Noĩporãi</wrong>: Ojejagarrapa <underline>eff bee eye</underline> pe arapo ohasaramóvape.
+transcribe-the-audio-subheader-3-explanation = Ko’ã teramoĩ iporãva eiporuva’erã ehechakuaa ha umi ñe’ẽvai, je’ememe ha ambue ha’e’ỹva ñe’ẽ rehegua (inglés ñe’ẽme).
 tags-table-header-1 = Teramoĩ
 tags-table-header-2 = He’iséva
 tags-laugh = Puka
@@ -206,6 +207,7 @@ code-switching-adding-question-note = Ikatuete ejagarrasehína ojehecháva jereg
 # What types of questions to add
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
+code-switching-use-bilingual-prompts-explanation = Eiporuva’erã umi porandu ñe’ẽkõimegua oikehápe mokõi ñe’ẽ: Techapyrã:
 code-switching-use-bilingual-prompts-explanation-example = “¿Mbaʼe heʼi nde sy eg̃uahẽvo nde rógape upe árape?”
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
 code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi ne prímo ndive, ¿embojehe’a español ha inglés?”
