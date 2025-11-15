@@ -348,8 +348,9 @@ function redisCache<T, S>(
 
           // Return stale if allowed
           if (cached.value) {
-            const ageMinutes = Math.floor(
-              (Date.now() - cached.at) / TimeUnits.MINUTE
+            const ageMinutes = (
+              (Date.now() - cached.at) /
+              TimeUnits.MINUTE
             ).toFixed(2)
             console.warn(
               `[LazyCache] Returning STALE data for ${cacheKey} (age: ${ageMinutes} minutes).`

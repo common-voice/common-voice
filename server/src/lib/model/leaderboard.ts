@@ -30,10 +30,10 @@ const db = getMySQLInstance()
  *
  */
 
-const LEADERBOARD_CLIP_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hours
+const LEADERBOARD_CLIP_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour(s)
 const LEADERBOARD_CLIP_LOCK_DURATION = 20 * TimeUnits.MINUTE // 20 minutes
 
-const LEADERBOARD_VOTE_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hours
+const LEADERBOARD_VOTE_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour(s)
 const LEADERBOARD_VOTE_LOCK_DURATION = 20 * TimeUnits.MINUTE // 20 minutes
 
 const SLOW_QUERY_THRESHOLD = 10 * TimeUnits.MINUTE // 10 minutes
