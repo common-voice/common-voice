@@ -647,6 +647,7 @@ export default class API {
       await Basket.sync(clientId, true)
 
       // HTTP success (2xx)
+      console.debug('[Newsletter] Subscription successful.')
       response.json({})
     } catch (error) {
       console.error('[Newsletter] Subscription failed:', error)
