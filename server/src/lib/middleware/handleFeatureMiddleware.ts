@@ -6,47 +6,57 @@ import { FEATURES_COOKIE, FEATURES, FEATURE_DAYS } from 'common'
 // ?feature=feat1&feature=feat2 - Express array format
 // ?feature=feat1,feat2 - Comma-separated string format
 // ?feature=feat1 - Single feature
+// ?feature=-feat1 - remove feature
 
 export class HandleFeatureMiddleware {
-  // Use arrow function not to lose binding
   public handle = (req: Request, res: Response, next: NextFunction) => {
-    const features = this.getValidFeaturesFromQuery(req.query.feature)
+    const queryFeatures = req.query.feature
 
-    if (features.length > 0) {
-      const currentFeatures = this.getCurrentFeatures(req)
-      const newFeatures = features.filter(f => !currentFeatures.includes(f))
+    // Always get array of non-empty strings
+    const requested: string[] = (
+      typeof queryFeatures === 'string'
+        ? [queryFeatures]
+        : Array.isArray(queryFeatures)
+        ? queryFeatures.filter((f): f is string => typeof f === 'string')
+        : []
+    ).filter(f => f.length > 0)
 
-      if (newFeatures.length > 0) {
-        this.updateFeaturesCookie(res, [...currentFeatures, ...newFeatures])
-      }
+    // Filter valid additions
+    const additions = requested
+      .filter(f => !f.startsWith('-'))
+      .filter(f => FEATURES.includes(f))
+
+    // Filter valid removals
+    const removals = requested
+      .filter(f => f.startsWith('-'))
+      .map(f => f.slice(1))
+      .filter(f => FEATURES.includes(f))
+
+    // Read current cookie
+    const cookieValue = req.cookies?.[FEATURES_COOKIE]
+    const current: string[] =
+      typeof cookieValue === 'string' && cookieValue.length > 0
+        ? cookieValue.split(',')
+        : []
+
+    // Remove items
+    let merged = current.filter(f => !removals.includes(f))
+
+    // Add new items (avoid duplicates)
+    merged = [...merged, ...additions.filter(f => !merged.includes(f))]
+
+    // If nothing to change, next
+    if (additions.length === 0 && removals.length === 0) {
+      return next()
     }
 
-    next()
-  }
-
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  private getValidFeaturesFromQuery(feature: any): string[] {
-    if (!feature) return []
-
-    const features = Array.isArray(feature)
-      ? feature.filter(f => typeof f === 'string')
-      : String(feature)
-          .split(',')
-          .map(f => f.trim())
-
-    return features.filter(f => FEATURES.includes(f))
-  }
-
-  private getCurrentFeatures(req: Request): string[] {
-    const cookie = req.cookies[FEATURES_COOKIE]
-    return cookie ? cookie.split(',').filter(Boolean) : []
-  }
-
-  private updateFeaturesCookie(res: Response, features: string[]): void {
-    res.cookie(FEATURES_COOKIE, features.join(','), {
+    // Write updated cookie
+    res.cookie(FEATURES_COOKIE, merged.join(','), {
       maxAge: 1000 * 60 * 60 * 24 * FEATURE_DAYS,
       httpOnly: false,
       sameSite: 'lax',
     })
+
+    next()
   }
 }

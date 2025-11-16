@@ -171,6 +171,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Oiko</correct>: Ar
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Oiko’ỹva</wrong>: Areko mokõipa savore hepykue guejýva
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Oĩporã</correct>: Ojagarra chupekuéra FBI pe arapo ohasaramóvape.
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Noĩporãi</wrong>: Ojejagarrapa <underline>eff bee eye</underline> pe arapo ohasaramóvape.
+transcribe-the-audio-subheader-3-explanation = Ko’ã teramoĩ iporãva eiporuva’erã ehechakuaa ha umi ñe’ẽvai, je’ememe ha ambue ha’e’ỹva ñe’ẽ rehegua (inglés ñe’ẽme).
 tags-table-header-1 = Teramoĩ
 tags-table-header-2 = He’iséva
 tags-laugh = Puka
@@ -206,6 +207,7 @@ code-switching-adding-question-note = Ikatuete ejagarrasehína ojehecháva jereg
 # What types of questions to add
 code-switching-types-subheader = ¿Mba’éichagua porandu embojuajúta?
 code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
+code-switching-use-bilingual-prompts-explanation = Eiporuva’erã umi porandu ñe’ẽkõimegua oikehápe mokõi ñe’ẽ: Techapyrã:
 code-switching-use-bilingual-prompts-explanation-example = “¿Mbaʼe heʼi nde sy eg̃uahẽvo nde rógape upe árape?”
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
 code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi ne prímo ndive, ¿embojehe’a español ha inglés?”
@@ -278,12 +280,14 @@ code-switching-tagging-error-3 = Ñe’ẽ ojehaíva haikatu hendape’ỹva reh
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Oiporúva hekópe haikatu peteĩteĩva ñe’ẽme
 code-switching-orthography-explanation = Ehai peteĩteĩva ñe’ẽ he’iháicha pe haikatu ñe’ẽ oúvagui ombohekoháicha. Techapyrã:
+code-switching-orthography-explanation-example-2 = Pe ñe’ẽ quinceaño embo’ayvúrõ inglés ipuháicha, ehaiva’erã tai ñ ndive.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Eiporu ñe’ẽpu eipytyvõkuaa hag̃ua ñe’ẽ jeporavorã
 code-switching-pronunciation-explanation-example-1 = Inglés: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = España ñe’ẽ: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = Peteĩ token-pe oñembohérava
+code-switching-single-token-explanation = Peteĩmi token oĩ’ỹva ojoykerete oreko’arã mokõi térã hetave span hérava.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva ñe’ẽ aguĩvare
 code-switching-punctuation-tagging-explanation = Emokyta ñe’ẽ ipa’ũva oĩva ijyketére asu gotyogua ndive. Techapyrã:

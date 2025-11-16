@@ -221,7 +221,8 @@ export default class Model {
       return avg_seconds_per_clip || AVG_CLIP_SECONDS
     },
     12 * TimeUnits.HOUR,
-    10 * TimeUnits.MINUTE
+    30 * TimeUnits.MINUTE,
+    true // allow stale data
   )
 
   getLanguageStats = lazyCache(
@@ -312,7 +313,7 @@ export default class Model {
       return languageStats
     },
     12 * TimeUnits.HOUR,
-    10 * TimeUnits.MINUTE
+    30 * TimeUnits.MINUTE
   )
 
   getClipsStats = lazyCache(
@@ -339,13 +340,13 @@ export default class Model {
     'voice-stats',
     (locale: string) => this.db.getVoicesStats(locale),
     20 * TimeUnits.MINUTE,
-    3 * TimeUnits.MINUTE
+    5 * TimeUnits.MINUTE
   )
 
   getContributionStats = lazyCache(
     'contribution-stats',
     (locale?: string) => this.db.getContributionStats(locale),
     20 * TimeUnits.MINUTE,
-    3 * TimeUnits.MINUTE
+    5 * TimeUnits.MINUTE
   )
 }

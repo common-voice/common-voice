@@ -32,6 +32,14 @@ const SentenceCollectorRedirectPage = React.lazy(
 
 const SentryRoute = Sentry.withSentryRouting(Route)
 
+const ExternalRedirect: React.FC<{ to: string }> = ({ to }) => {
+  React.useEffect(() => {
+    window.location.assign(to)
+  }, [to])
+
+  return null
+}
+
 export default function Content({ location }: { location: any }) {
   const [locale, toLocaleRoute] = useLocale()
   return (
@@ -76,11 +84,16 @@ export default function Content({ location }: { location: any }) {
         <SentryRoute
           exact
           path={toLocaleRoute(URLS.DATA)}
-          render={() => <Redirect to={toLocaleRoute(URLS.DATASETS)} />}
+          render={() => <ExternalRedirect to={URLS.MDC_DATASETS} />}
         />
         <SentryRoute
           exact
           path={toLocaleRoute(URLS.DATASETS)}
+          render={() => <ExternalRedirect to={URLS.MDC_DATASETS} />}
+        />
+        <SentryRoute
+          exact
+          path={toLocaleRoute(URLS.OLDDATASETS)}
           component={DatasetsPage}
         />
         <SentryRoute

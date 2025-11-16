@@ -2,6 +2,57 @@
 
 ## Current release
 
+### [v1.155.0 (2025-11-16)](https://github.com/common-voice/common-voice/releases/tag/release-v1.155.0)
+
+- Feat: Implement feature flag to test alpha/beta level features and use in API credentials, by [@moz-bozden](https://github.com/moz-bozden) in [#5171](https://github.com/common-voice/common-voice/pull/5171) (in v1.154.7)
+- Minor Fix: React key was not unique in API credential list, by [@moz-bozden](https://github.com/moz-bozden) in [#5172](https://github.com/common-voice/common-voice/pull/5172) (in v1.154.7)
+- Fix/Refactor: Handle not found errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5174](https://github.com/common-voice/common-voice/pull/5174)
+- Fix/Refactor: Adjustments for race condition, durations, and logging, by [@moz-bozden](https://github.com/moz-bozden) in [#5173](https://github.com/common-voice/common-voice/pull/5173)
+- Fix/Refactor: Rework variant only clip selection and caching, by [@moz-bozden](https://github.com/moz-bozden) in [#5165](https://github.com/common-voice/common-voice/pull/5165) (in v1.154.7)
+- Fix/Refactor: Switch to new newsletter sign-up, by [@moz-bozden](https://github.com/moz-bozden) in [#5136](https://github.com/common-voice/common-voice/pull/5136) (in v1.154.7)
+- Fix/Refactor: Optimize long running queries and their caching, by [@moz-bozden](https://github.com/moz-bozden) in [#5163](https://github.com/common-voice/common-voice/pull/5163) (in v1.154.6)
+- Fix/Refactor: Refactor redis and lazy-cache to drop sensitivity to redis -> mem-cache strategy changes and make more resilient, by [@moz-bozden](https://github.com/moz-bozden) in [#5162](https://github.com/common-voice/common-voice/pull/5162) (in v1.154.5)
+- Fix: Add migration to fix "predefined French South accent cannot be added" problem, which was caused by a user defined accent, by [@moz-bozden](https://github.com/moz-bozden) in [#5158](https://github.com/common-voice/common-voice/pull/5158) (in v1.154.5)
+- Fix/Refactor: Refactor redis set cache to save provided sentences - not the recorded ones to prevent some duplicates, by [@moz-bozden](https://github.com/moz-bozden) in [#5157](https://github.com/common-voice/common-voice/pull/5157) (in v1.154.5)
+- Fix: Refactor sentence selection for Speak page for better randomization, performance and fixing the duplicate-clip problem, by [@moz-bozden](https://github.com/moz-bozden) in [#5153](https://github.com/common-voice/common-voice/pull/5153) (in v1.154.3) and [#5157](https://github.com/common-voice/common-voice/pull/5157) (in v1.154.4)
+- Chore: Generalize ffmpeg error fingerprint for better observalibity, by [@moz-bozden](https://github.com/moz-bozden) in commit [a47722d](https://github.com/common-voice/common-voice/commit/a47722d4fe83a26764990e521ae236a6299561af) (in v1.154.5)
+- Chore: Remove content-length validation which was causing problems with data coming from proxied networks and some mobile devices, by [@moz-bozden](https://github.com/moz-bozden) in commit [209def2](https://github.com/common-voice/common-voice/commit/209def26a5ccf83a155f9f2deb5dcbe29fc8debd) (in v1.154.5)
+- Chore: add Igbo WhatsApp group to [COMMUNITIES.md](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md) (in v1.154.5)
+- Chore: Add flag and disable recordings for taxonomy sentences (they were already taken out of circulation), by [@moz-bozden](https://github.com/moz-bozden) in [#5161](https://github.com/common-voice/common-voice/pull/5161) (in v1.154.5)
+- Chore: Change legal docs repo uri, by [@moz-bozden](https://github.com/moz-bozden) in [#5159](https://github.com/common-voice/common-voice/pull/5159) (in v1.154.5)
+- Chore: Change the downloads menu to point to MDC downloads area, by [@moz-dfeller](https://github.com/moz-dfeller) In [#5151](https://github.com/common-voice/common-voice/pull/5151) (in v1.154.1 and v1.154.2)
+- CI: Add accents/variants issue templates and make changes to sripted and spontaneous speech templates, by [@bandrandr](https://github.com/bandrandr) in [#5140](https://github.com/common-voice/common-voice/pull/5140) (in v1.153.4)
+
+#### Data Changes in v1.155.0
+
+- Added new Lango (laj) language as a starting language (in v1.154.5)
+- Added new Tumbuke (tum) language as a starting language (in v1.154.3)
+- Update English name of `shi` from Shilha to Tachelhit (in v1.154.1)
+- Update sentence bands of 21 locales , by [@moz-bozden](https://github.com/moz-bozden) in [#5148](https://github.com/common-voice/common-voice/pull/5148) (in v1.154.1)
+
+#### Spontaneous Speech v1.155.0
+
+- Feat: Add code-switching extension to spontaneous speech for alpha tests (gated), by [@moz-bozden](https://github.com/moz-bozden) and [@moz-rotimib](https://github.com/moz-rotimib) in [#493](https://github.com/common-voice/spontaneous-speech/pull/493) (follow up to [#480](https://github.com/common-voice/spontaneous-speech/pull/480) [#451](https://github.com/common-voice/spontaneous-speech/pull/451), [#414](https://github.com/common-voice/spontaneous-speech/pull/414), [#404](https://github.com/common-voice/spontaneous-speech/pull/404), and others)
+- Chore: Point to MDC datasets from the main menu, by [@moz-bozden](https://github.com/moz-bozden) in [#495](https://github.com/common-voice/spontaneous-speech/pull/495) (in v1.152.7)
+
+##### SS Data Changes in v1.155.0
+
+- Add Lango (`laj`) questions by [@bandrandr](https://github.com/bandrandr) in [#494](https://github.com/common-voice/spontaneous-speech/pull/494) (in v1.154.7)
+
+---
+
+### Changes merged after current release
+
+#### Data Changes after current release
+
+#### Spontaneous Speech after current release
+
+##### SS Data Changes after current release
+
+---
+
+## Past releases
+
 ### [v1.154.0 (2025-10-30)](https://github.com/common-voice/common-voice/releases/tag/release-v1.154.0)
 
 - Feat: Refactor audio transcoding pipeline and move it to subprocess to handle prevent crashes caused by bad audio data to crash the main process, by [@moz-dfeller](https://github.com/moz-dfeller) in [#5145](https://github.com/common-voice/common-voice/pull/5145) and [#5147](https://github.com/common-voice/common-voice/pull/5147) (in v1.153.4 and v1.153.6)
@@ -32,44 +83,6 @@
 - Add 60 Tachelhit (`shi`) questions by [@bandrandr](https://github.com/bandrandr) in [#491](https://github.com/common-voice/spontaneous-speech/pull/491) (in v1.153.4)
 
 ---
-
-### Changes merged after current release
-
-- Feat: Implement feature flag to test alpha/beta level features and use in API credentials, by [@moz-bozden](https://github.com/moz-bozden) in [#5171](https://github.com/common-voice/common-voice/pull/5171) (in v1.154.7)
-- Minor Fix: React key was not unique in API credential list, by [@moz-bozden](https://github.com/moz-bozden) in [#5172](https://github.com/common-voice/common-voice/pull/5172) (in v1.154.7)
-- Fix/Refactor: Rework variant only clip selection and caching, by [@moz-bozden](https://github.com/moz-bozden) in [#5165](https://github.com/common-voice/common-voice/pull/5165) (in v1.154.7)
-- Fix/Refactor: Switch to new newsletter sign-up, by [@moz-bozden](https://github.com/moz-bozden) in [#5136](https://github.com/common-voice/common-voice/pull/5136) (in v1.154.7)
-- Fix/Refactor: Optimize long running queries and their caching, by [@moz-bozden](https://github.com/moz-bozden) in [#5163](https://github.com/common-voice/common-voice/pull/5163) (in v1.154.6)
-- Fix/Refactor: Refactor redis and lazy-cache to drop sensitivity to redis -> mem-cache strategy changes and make more resilient, by [@moz-bozden](https://github.com/moz-bozden) in [#5162](https://github.com/common-voice/common-voice/pull/5162) (in v1.154.5)
-- Fix: Add migration to fix "predefined French South accent cannot be added" problem, which was caused by a user defined accent, by [@moz-bozden](https://github.com/moz-bozden) in [#5158](https://github.com/common-voice/common-voice/pull/5158) (in v1.154.5)
-- Fix/Refactor: Refactor redis set cache to save provided sentences - not the recorded ones to prevent some duplicates, by [@moz-bozden](https://github.com/moz-bozden) in [#5157](https://github.com/common-voice/common-voice/pull/5157) (in v1.154.5)
-- Fix: Refactor sentence selection for Speak page for better randomization, performance and fixing the duplicate-clip problem, by [@moz-bozden](https://github.com/moz-bozden) in [#5153](https://github.com/common-voice/common-voice/pull/5153) (in v1.154.3) and [#5157](https://github.com/common-voice/common-voice/pull/5157) (in v1.154.4)
-- Chore: Generalize ffmpeg error fingerprint for better observalibity, by [@moz-bozden](https://github.com/moz-bozden) in commit [a47722d](https://github.com/common-voice/common-voice/commit/a47722d4fe83a26764990e521ae236a6299561af) (in v1.154.5)
-- Chore: Remove content-length validation which was causing problems with data coming from proxied networks and some mobile devices, by [@moz-bozden](https://github.com/moz-bozden) in commit [209def2](https://github.com/common-voice/common-voice/commit/209def26a5ccf83a155f9f2deb5dcbe29fc8debd) (in v1.154.5)
-- Chore: add Igbo WhatsApp group to [COMMUNITIES.md](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md) (in v1.154.5)
-- Chore: Add flag and disable recordings for taxonomy sentences (they were already taken out of circulation), by [@moz-bozden](https://github.com/moz-bozden) in [#5161](https://github.com/common-voice/common-voice/pull/5161) (in v1.154.5)
-- Chore: Change legal docs repo uri, by [@moz-bozden](https://github.com/moz-bozden) in [#5159](https://github.com/common-voice/common-voice/pull/5159) (in v1.154.5)
-- Chore: Change the downloads menu to point to MDC downloads area, by [@moz-dfeller](https://github.com/moz-dfeller) In [#5151](https://github.com/common-voice/common-voice/pull/5151) (in v1.154.1 and v1.154.2)
-- CI: Add accents/variants issue templates and make changes to sripted and spontaneous speech templates, by [@bandrandr](https://github.com/bandrandr) in [#5140](https://github.com/common-voice/common-voice/pull/5140) (in v1.153.4)
-
-#### Data Changes after current release
-
-- Added new Lango (laj) language as a starting language (in v1.154.5)
-- Added new Tumbuke (tum) language as a starting language (in v1.154.3)
-- Update English name of `shi` from Shilha to Tachelhit (in v1.154.1)
-- Update sentence bands of 21 locales , by [@moz-bozden](https://github.com/moz-bozden) in [#5148](https://github.com/common-voice/common-voice/pull/5148) (in v1.154.1)
-
-#### Spontaneous Speech after current release
-
-- Chore: Point to MDC datasets from the main menu, by [@moz-bozden](https://github.com/moz-bozden) in [#495](https://github.com/common-voice/spontaneous-speech/pull/495) (in v1.152.7)
-
-##### SS Data Changes after current release
-
-- Add Lango (`laj`) questions by [@bandrandr](https://github.com/bandrandr) in [#494](https://github.com/common-voice/spontaneous-speech/pull/494) (in v1.154.7)
-
----
-
-## Past releases
 
 ### [v1.153.0 (2025-10-13)](https://github.com/common-voice/common-voice/releases/tag/release-v1.153.0)
 
