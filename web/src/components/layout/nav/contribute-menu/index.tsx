@@ -72,7 +72,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   if (!menuItems) {
     return (
       <div className="contribute-wrapper datasets">
-        <a href={URLS.MDC_DATASETS} target="_blank" rel="noreferrer">
+        <a href={URLS.MDC_DATASETS} target="_blank" rel="noopener noreferrer">
           {l10n.getString(menuLabel)}
           <ExternalLinkIcon />
         </a>
