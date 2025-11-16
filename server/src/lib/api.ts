@@ -11,7 +11,7 @@ import {
   type Mp3TranscodeJob,
 } from './ffmpeg-transcoder'
 
-import { Sentence, UserClient as UserClientType } from 'common'
+import { FEATURES_COOKIE, Sentence, UserClient as UserClientType } from 'common'
 import rateLimiter from './middleware/rate-limiter-middleware'
 import { authMiddleware } from '../auth-router'
 import { RequireUserMiddleware } from './middleware/requireUserMiddleware'
@@ -114,8 +114,14 @@ export default class API {
     router.get('/ping', (request: Request, response: Response) => {
       response.send('pong')
     })
-    // Please visit https://datacollective.mozillafoundation.org/ to download datasets
-    // router.get('/bucket/:bucket_type/:path', this.getPublicUrl)
+
+    // Old datasets bucket access (feature-flagged, rate limited)
+    router.get(
+      '/bucket/:bucket_type/:path',
+      // 10 requests per minute per IP address
+      rateLimiter('/bucket', { points: 10, duration: 60 }),
+      this.getPublicUrl
+    )
 
     router.use('/webhooks', webhooksRouter)
     router.get('/metrics', (request: Request, response: Response) => {
@@ -949,6 +955,57 @@ export default class API {
     if (!path) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
+
+    // Check for datasets-old feature flag
+    const { feature } = request.query
+    const features_cookie = request.cookies[FEATURES_COOKIE]
+    const features = features_cookie?.split(',') || []
+
+    const hasFeature =
+      features.includes('datasets-old') ||
+      (feature && feature === 'datasets-old')
+
+    if (!hasFeature) {
+      // Check if request is from a web browser (has Accept header with text/html)
+      const acceptHeader = request.get('Accept') || ''
+      const isWebBrowser = acceptHeader.includes('text/html')
+
+      if (isWebBrowser) {
+        // Redirect web browsers to MDC datasets
+        return response.redirect(
+          'https://datacollective.mozillafoundation.org/datasets'
+        )
+      } else {
+        // Return error for scripts/API clients
+        return response.status(403).json({
+          message:
+            'This endpoint is no longer available. Please visit https://datacollective.mozillafoundation.org/datasets to download datasets.',
+          error: 'Access restricted',
+        })
+      }
+    }
+
+    // Validate request origin to prevent unauthorized access
+    const referer = request.get('Referer') || request.get('Origin') || ''
+    const allowedOrigins = [
+      'https://commonvoice.mozilla.org', // production
+      'https://commonvoice.allizom.org', // staging + sandbox
+      'http://localhost',
+      'https://localhost',
+    ]
+
+    const isLegitimateOrigin = allowedOrigins.some(origin =>
+      referer.startsWith(origin)
+    )
+
+    if (!isLegitimateOrigin && referer) {
+      // If there's a referer but it's not from an allowed origin, reject the request
+      return response.status(403).json({
+        message: 'Access denied: Invalid origin',
+        error: 'Origin validation failed',
+      })
+    }
+
     const bucket_type = request?.params?.bucket_type
     const url = await this.bucket.getPublicUrl(
       decodeURIComponent(path),
