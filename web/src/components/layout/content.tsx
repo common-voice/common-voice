@@ -76,11 +76,11 @@ export default function Content({ location }: { location: any }) {
         <SentryRoute
           exact
           path={toLocaleRoute(URLS.DATA)}
-          render={() => <Redirect to={toLocaleRoute(URLS.DATASETS)} />}
+          render={() => <Redirect to={toLocaleRoute(URLS.OLDDATASETS)} />}
         />
         <SentryRoute
           exact
-          path={toLocaleRoute(URLS.DATASETS)}
+          path={toLocaleRoute(URLS.OLDDATASETS)}
           component={DatasetsPage}
         />
         <SentryRoute

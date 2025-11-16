@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
 
 import {
   MicIcon,
@@ -7,21 +7,21 @@ import {
   CloseIcon,
   CloudIcon,
   UserIcon,
-} from '../../ui/icons';
-import { Link } from 'react-router-dom';
-import { useLocale } from '../../locale-helpers';
-import urls from '../../../urls';
-import grid from './assets/grid.svg';
-import home from './assets/home.svg';
-import upload from './assets/upload.svg';
-import { PageContentType } from './types';
-import NotSupported from '../not-supported';
+} from '../../ui/icons'
+import { Link } from 'react-router-dom'
+import { useLocale } from '../../locale-helpers'
+import urls from '../../../urls'
+import grid from './assets/grid.svg'
+import home from './assets/home.svg'
+import upload from './assets/upload.svg'
+import { PageContentType } from './types'
+import NotSupported from '../not-supported'
 
-import './kiosk.css';
+import './kiosk.css'
 
 const BottomRightPane = () => {
-  const [expanded, setExpanded] = React.useState(false);
-  const [_, toLocaleRoute] = useLocale();
+  const [expanded, setExpanded] = React.useState(false)
+  const [_, toLocaleRoute] = useLocale()
   return (
     <nav id="kiosk-bottom-right-pane">
       {expanded ? (
@@ -46,7 +46,7 @@ const BottomRightPane = () => {
           </li>
           <ul id="middle">
             <li>
-              <Link to={toLocaleRoute(urls.DATASETS)}>
+              <Link to={urls.MDC_DATASETS}>
                 <CloudIcon />
                 <Localized id="datasets">
                   <span />
@@ -106,15 +106,15 @@ const BottomRightPane = () => {
         </ul>
       )}
     </nav>
-  );
-};
+  )
+}
 
 interface KioskProps {
-  pageContent: PageContentType;
+  pageContent: PageContentType
 }
 
 function Kiosk(props: KioskProps) {
-  const { pageContent } = props;
+  const { pageContent } = props
 
   return (
     <>
@@ -133,7 +133,7 @@ function Kiosk(props: KioskProps) {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Kiosk;
+export default Kiosk
