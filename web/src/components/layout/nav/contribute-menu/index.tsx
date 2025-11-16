@@ -8,7 +8,7 @@ import { TextButton } from '../../../ui/ui'
 import { BoldChevron, ChevronDown, ExternalLinkIcon } from '../../../ui/icons'
 import ContributeMenuContent from '../contribute-menu-content'
 
-import { LocalizedNavLink, NavItem } from '../nav'
+import { NavItem } from '../nav'
 import URLS from '../../../../urls'
 import { isContributable, useLocale } from '../../../locale-helpers'
 import { trackGtag } from '../../../../services/tracker-ga4'
@@ -72,9 +72,9 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   if (!menuItems) {
     return (
       <div className="contribute-wrapper datasets">
-        <a href={URLS.MDC_DATASETS} target='_blank'>
+        <a href={URLS.MDC_DATASETS} target="_blank" rel="noopener noreferrer">
           {l10n.getString(menuLabel)}
-          <ExternalLinkIcon/>
+          <ExternalLinkIcon />
         </a>
         <Tooltip
           anchorSelect={`#${menuLabel}`}

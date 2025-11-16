@@ -180,6 +180,15 @@ code-switching-adding-question-note = سىز يەنە ئوخشىمىغان مە�
 # What types of questions to add
 code-switching-types-subheader = قانداق تۈردىكى سوئال قوشىسىز؟
 code-switching-use-bilingual-prompts-header = كۆپ تىللىق تەكلىپ
+code-switching-informal-scenarios-header = غەيرىي رەسمىي ئەھۋال ئۈستىدە ئىزدىنىدۇ
+code-switching-informal-scenarios-explanation = دوستلار بىلەن پاراڭلاشقان ياكى ئۇچۇرلاشقاندا ئالماشتۇرسا تېخىمۇ تەبىئىي بولىدۇ. مەسىلەن:
+code-switching-informal-scenarios-explanation-example = “دوستىڭىز دائىم قانداق چاقچاق قىلىدۇ — نېمە دەيدۇ؟”
+# What to Avoid
+code-switching-avoid-subheader = نېمىدىن ساقلىنىدۇ
+code-switching-dont-header = قىلمايدىغىنى
+code-switching-dont-1 = ھەددىدىن زىيادە رەسمىي تىل ئىشلەتمەڭ
+# Reviewing a Question
+code-switching-review-subheader = سوئال تەكشۈرۇش
 
 ## Reporting Content
 

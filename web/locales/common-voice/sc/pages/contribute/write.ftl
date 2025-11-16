@@ -34,6 +34,8 @@ single-sentence = Fràsia ùnica
 sentence-domain-combobox-label = Domìniu de sa fràsia
 sentence-domain-select-placeholder = Sèbera finas a tres domìnios (optzionale)
 # Sentence Domain dropdown option
+finance = Finàntzias
+# Sentence Domain dropdown option
 general = Generale
 # Sentence Domain dropdown option
 healthcare = Salude

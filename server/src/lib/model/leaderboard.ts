@@ -30,6 +30,14 @@ const db = getMySQLInstance()
  *
  */
 
+const LEADERBOARD_CLIP_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour(s)
+const LEADERBOARD_CLIP_LOCK_DURATION = 20 * TimeUnits.MINUTE // 20 minutes
+
+const LEADERBOARD_VOTE_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour(s)
+const LEADERBOARD_VOTE_LOCK_DURATION = 20 * TimeUnits.MINUTE // 20 minutes
+
+const SLOW_QUERY_THRESHOLD = 10 * TimeUnits.MINUTE // 10 minutes
+
 interface LeaderboardDataRow {
   client_id: string
   avatar_url: string | null
@@ -68,14 +76,14 @@ async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
   console.log(
     `[Leaderboard] Clip query completed: ${
       rows.length
-    } rows in ${duration}ms (${(duration / 1000).toFixed(2)}s)`
+    } rows in ${duration}ms (${(duration / TimeUnits.MINUTE).toFixed(2)}min)`
   )
 
-  if (duration > 60000) {
+  if (duration > SLOW_QUERY_THRESHOLD) {
     console.warn(
       `[Leaderboard] SLOW QUERY WARNING: Clip leaderboard took ${(
-        duration / 1000
-      ).toFixed(2)}s`
+        duration / TimeUnits.MINUTE
+      ).toFixed(2)}min`
     )
   }
 
@@ -108,14 +116,14 @@ async function getAllVoteLeaderboardData(): Promise<LeaderboardDataRow[]> {
   console.log(
     `[Leaderboard] Vote query completed: ${
       rows.length
-    } rows in ${duration}ms (${(duration / 1000).toFixed(2)}s)`
+    } rows in ${duration}ms (${(duration / TimeUnits.MINUTE).toFixed(2)}min)`
   )
 
-  if (duration > 60000) {
+  if (duration > SLOW_QUERY_THRESHOLD) {
     console.warn(
       `[Leaderboard] SLOW QUERY WARNING: Vote leaderboard took ${(
-        duration / 1000
-      ).toFixed(2)}s`
+        duration / TimeUnits.MINUTE
+      ).toFixed(2)}min`
     )
   }
 
@@ -127,8 +135,8 @@ const getCachedClipLeaderboardData = () => {
   return lazyCache(
     'cv:leaderboard:clip-data',
     getAllClipLeaderboardData,
-    1 * TimeUnits.HOUR,
-    15 * TimeUnits.MINUTE,
+    LEADERBOARD_CLIP_CACHE_DURATION,
+    LEADERBOARD_CLIP_LOCK_DURATION,
     true // Allow stale data - leaderboards can be slightly old to prevent DB stampede
   )()
 }
@@ -137,8 +145,8 @@ const getCachedVoteLeaderboardData = () => {
   return lazyCache(
     'cv:leaderboard:vote-data',
     getAllVoteLeaderboardData,
-    1 * TimeUnits.HOUR,
-    15 * TimeUnits.MINUTE,
+    LEADERBOARD_VOTE_CACHE_DURATION,
+    LEADERBOARD_VOTE_LOCK_DURATION,
     true // Allow stale data - leaderboards can be slightly old to prevent DB stampede
   )()
 }
@@ -174,8 +182,9 @@ const getGlobalClipLeaderboard = () => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    1 * TimeUnits.HOUR,
-    5 * TimeUnits.SECOND
+    LEADERBOARD_CLIP_CACHE_DURATION,
+    5 * TimeUnits.SECOND,
+    true // Allow stale data
   )()
 }
 
@@ -209,8 +218,9 @@ const getLocaleClipLeaderboard = (locale: string) => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    1 * TimeUnits.HOUR,
-    5 * TimeUnits.SECOND
+    LEADERBOARD_CLIP_CACHE_DURATION,
+    5 * TimeUnits.SECOND,
+    true // Allow stale data
   )()
 }
 
@@ -245,8 +255,9 @@ const getGlobalVoteLeaderboard = () => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    2 * TimeUnits.HOUR,
-    5 * TimeUnits.SECOND
+    LEADERBOARD_VOTE_CACHE_DURATION,
+    5 * TimeUnits.SECOND,
+    true // Allow stale data
   )()
 }
 
@@ -280,8 +291,9 @@ const getLocaleVoteLeaderboard = (locale: string) => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    2 * TimeUnits.HOUR,
-    5 * TimeUnits.SECOND
+    LEADERBOARD_VOTE_CACHE_DURATION,
+    5 * TimeUnits.SECOND,
+    true // Allow stale data
   )()
 }
 
