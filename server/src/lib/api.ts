@@ -964,7 +964,10 @@ export default class API {
 
     const hasFeature =
       features.includes('datasets-old') ||
-      (feature && feature === 'datasets-old')
+      (feature &&
+        (Array.isArray(feature)
+          ? (feature as string[]).includes('datasets-old')
+          : feature === 'datasets-old'))
 
     if (!hasFeature) {
       // Check if request is from a web browser (has Accept header with text/html)

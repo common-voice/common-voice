@@ -43,7 +43,7 @@ export class HandleFeatureMiddleware {
     let merged = current.filter(f => !removals.includes(f))
 
     // Add new items (avoid duplicates)
-    merged = Array.from(new Set([...merged, ...additions]))
+    merged = [...merged, ...additions.filter(f => !merged.includes(f))]
 
     // If nothing to change, next
     if (additions.length === 0 && removals.length === 0) {
