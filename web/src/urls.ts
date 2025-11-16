@@ -13,7 +13,8 @@ export default Object.freeze({
   CRITERIA: '/criteria',
   DASHBOARD,
   DATA: '/data', // old, here for redirect purposes
-  DATASETS: '/datasets',
+  DATASETS: 'https://datacollective.mozillafoundation.org/datasets',
+  OLDDATASETS: '/olddatasets',
   DEMO,
   DEMO_ACCOUNT: DEMO + '/create-profile',
   DEMO_CONTRIBUTE: DEMO + '/contribute',
