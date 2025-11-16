@@ -9,6 +9,7 @@ import { LocaleLink, useLocale } from '../locale-helpers'
 import Logo from './logo'
 import SubscribeNewsletter from './subscribe-newsletter'
 import { ContactLink, GitHubLink } from '../shared/links'
+import { ExternalLinkIcon } from '../ui/icons'
 
 import './footer.css'
 
@@ -41,7 +42,7 @@ const Footer = React.memo(() => {
         <div className="divider-bottom" />
         <div className="links">
           <div>
-            <ContactLink className='left-aligned'>
+            <ContactLink className="left-aligned">
               <Localized id="contact-us">
                 <p />
               </Localized>
@@ -79,7 +80,10 @@ const Footer = React.memo(() => {
               <Link to={toLocaleRoute(URLS.FAQ)} />
             </Localized>
             <Localized id="download">
-              <Link to={toLocaleRoute(URLS.DATASETS)} />
+              <a href={URLS.MDC_DATASETS} target="_blank" rel="noreferrer">
+                <span />
+                <ExternalLinkIcon />
+              </a>
             </Localized>
           </div>
         </div>
