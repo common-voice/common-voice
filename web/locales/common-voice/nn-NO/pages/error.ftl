@@ -9,8 +9,10 @@ error-clip-upload-server = Opplasting av dette klippet feilar stadig på servere
 error-title-404 = Denne sida klarte vi ikkje å finne
 error-content-404 = Kanskje vil <homepageLink>startsida</homepageLink> hjelpe? For å stille et spørsmål, kan du bli med på <matrixLink>Matrix fellesskapsprat</matrixLink> eller besøke <githubLink>GitHub</githubLink> eller <discourseLink>Discourse-foruma våre</discourseLink>.
 error-title-500 = Noko gjekk gale
+error-title-502 = Tilkopling avbroten
 error-title-503 = Vi opplever uventa driftsstans
 error-content-503 = Sida vil vere tilbake så snart som råd. For den siste informasjonen, bli med på <matrixLink>Matrix fellesskapsprat</matrixLink> eller besøk <githubLink>GitHub</githubLink> eller <discourseLink>Discourse-foruma våre</discourseLink> for å sende inn og overvake problem med nettstaden.
+error-title-504 = Førespurnad tidsavbroten
 error-code = Feil { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
