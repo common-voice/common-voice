@@ -15,6 +15,7 @@ error-content-502 = Du kan ikkje opprette eit stabilt samband til serverane vår
 error-title-503 = Vi opplever uventa driftsstans
 error-content-503 = Sida vil vere tilbake så snart som råd. For den siste informasjonen, bli med på <matrixLink>Matrix fellesskapsprat</matrixLink> eller besøk <githubLink>GitHub</githubLink> eller <discourseLink>Discourse-foruma våre</discourseLink> for å sende inn og overvake problem med nettstaden.
 error-title-504 = Førespurnad tidsavbroten
+error-content-504 = Førespurnaden tok for lang tid å fullføre. Dette er vanlegvis mellombels. Prøv igjen. For hjelp kan du bli med i <matrixLink>Matrix-fellesskapschatten</matrixLink>, følgje med på nettstadproblem via <githubLink>GitHub</githubLink> eller besøkje <discourseLink>Discourse-forumet</discourseLink> vårt.
 error-code = Feil { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
