@@ -96,9 +96,13 @@ cancel-api-key-confirmation-description = Seguro que quere cancelar a xeración 
 delete-api-key-confirmation-description = Seguro que quere borrar a credencial de API <bold>{ $apiKeyName }</bold>? Esta acción non se pode desfacer
 create-api-key-error-toast-message = Produciuse un erro ao crear as credenciais de API
 delete-api-key-error-toast-message = Produciuse un erro ao eliminar as credenciais de API
-fetching-api-keys-error-toast-message = Produciuse un erro ao recuperar as credenciais da API
+fetching-api-keys-error-toast-message = Produciuse un erro ao recuperar as credenciais de API
 copy-api-credential-success-toast-message = Copiouse correctamente
 copy-api-credential-error-toast-message = Erro ao copiar
+delete-api-key-success-toast-message = As credenciais de API elimináronse correctamente
+add-api-key-name-error = Engada un nome de credencial de API
+max-api-keys-reached = Excedeuse o límite de 10 credenciais de API
+duplicate-api-key-name-error = Nome de chave de API duplicado
 # Genders
 male_masculine = Macho/Masculino
 female_feminine = Femia/Feminino

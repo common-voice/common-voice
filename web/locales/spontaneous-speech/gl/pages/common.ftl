@@ -32,8 +32,10 @@ continue-with-skipped = Continuar co contido omitido
 question = Engada preguntas
 validate = Valide
 respond-to-prompt = Responda
+respond-to-prompt-mobile = Responder
 transcribe = Transcriba
 check-transcriptions = Revise transcricións
+check-transcriptions-mobile = Revisar
 tag = Etiqueta
 
 ## Not Found Page
