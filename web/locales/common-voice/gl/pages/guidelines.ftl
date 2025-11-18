@@ -319,6 +319,15 @@ code-switching-orthography-explanation-example-1 = Se a palabra inglesa "kitchen
 code-switching-orthography-explanation-example-2 = Se a palabra "jabalí" se pronuncia así en galego, respecte a ortografía do castelán e non transcriba "xabarín".
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Use a pronuncia para determinar o idioma
+code-switching-pronunciation-explanation = Algúns termos poden parecer iguais en ambos idiomas pero pronúncianse distinto. Escoite a pronunciación para etiquetar correctamente.  Por exemplo: hotel, café.
+code-switching-pronunciation-explanation-example-1 = Galego: /oˈtɛl/
+code-switching-pronunciation-explanation-example-2 = Castelán: /oˈtel/
+# Tagging in a Single Token
+code-switching-single-token-header = Etiquetado nunha única peza
+code-switching-single-token-explanation = Unha única peza separada por espazos pode conter máis dun segmento etiquetado.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Etiquete a puntuación segundo o idioma máis próximo
+code-switching-punctuation-tagging-explanation = Etiquete a puntuación segundo o idioma do segmento máis próximo á esquerda. Por exemplo:
 # When Not to Tag Words
 code-switching-not-tag-header = Cando non etiquetar palabras
 code-switching-not-tag-explanation = Algunhas palabras <bold> non debe etiquetarse</bold> coa etiqueta de lingua aínda que parezan mesturadas ou adaptadas. A continuación, explícase como abordar algúns exemplos:
