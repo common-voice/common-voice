@@ -328,6 +328,10 @@ code-switching-single-token-explanation = Unha única peza separada por espazos 
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Etiquete a puntuación segundo o idioma máis próximo
 code-switching-punctuation-tagging-explanation = Etiquete a puntuación segundo o idioma do segmento máis próximo á esquerda. Por exemplo:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>e a única vez que</purple> María <blue>me llamó la atención</blue> <purple>foi porque ela estaba</purple> chollando <purple>e interrumpina.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Teña coidado cos falsos amigos
 # When Not to Tag Words
 code-switching-not-tag-header = Cando non etiquetar palabras
 code-switching-not-tag-explanation = Algunhas palabras <bold> non debe etiquetarse</bold> coa etiqueta de lingua aínda que parezan mesturadas ou adaptadas. A continuación, explícase como abordar algúns exemplos:
