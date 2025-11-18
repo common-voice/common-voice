@@ -189,6 +189,7 @@ tags-disfluency = Dúbida
 tags-unclear = Incerto
 tags-noise = Ruído
 tags-laugh-explanation = O son da risa.
+tags-disfluency-explanation = Unha palabra ou son de recheo usado como marcador mentres o falante decide que dicir. En galego, algúns sons comúns de vacilación son “eh”, “um”, “hmm”, etc.
 tags-unclear-explanation = Unha palabra ou unha secuencia que non se entende con claridade.
 tags-noise-explanation = Calquera outro tipo de ruído, como a tose do falante, a bucina dun coche, o son de algo golpeando o micrófono, un teléfono vibrando, etc.
 # Note: do not translate any tag, like [noise] or [laugh]
