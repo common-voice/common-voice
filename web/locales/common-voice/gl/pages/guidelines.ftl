@@ -224,6 +224,24 @@ code-switching-adding-question-criteria-3 = Non empregar nin fomentar linguaxe p
 code-switching-adding-question-note = Tamén pode ser boa idea incluír preguntas que abranguen diferentes contextos e ámbitos.
 # What types of questions to add
 code-switching-types-subheader = Que tipo de preguntas engadir?
+code-switching-use-bilingual-prompts-header = Use indicacións bilingües
+code-switching-use-bilingual-prompts-explanation = Use indicacións bilingües que incorporen os dous idiomas na mesma pregunta. Por exemplo:
+code-switching-use-bilingual-prompts-explanation-example = «Que che dixo túa nai when you got home that day?»
+code-switching-ask-bilingual-contexts-header = Pregunte sobre contextos bilingües
+code-switching-ask-bilingual-contexts-explanation = Use situacións nas que se usen habitualmente os dous idiomas (p. ex. na casa, na escola, en eventos comunitarios). Por exemplo:
+code-switching-ask-bilingual-contexts-explanation-example = «Cando falas cos teus curmáns, mesturas castelán e inglés?»
+code-switching-focus-emotional-header = Céntrese en momentos emocionais ou importantes
+code-switching-focus-emotional-explanation = As persoas adoitan alternar idiomas cando expresan emocións ou urxencia. Por exemplo:
+code-switching-focus-emotional-explanation-example = «Cóntame o que che dixeron teus pais cando lles contaches a gran nova — exactamente como cho dixeron.»
+code-switching-direct-quotes-header = Pida citas directas ou recreacións
+code-switching-direct-quotes-explanation = Anime os participantes a reproducir como se dixo realmente. Por exemplo:
+code-switching-direct-quotes-explanation-example = «Cales foron as túas palabras exactas cando o soubeches?»
+code-switching-cultural-topics-header = Escolla temas culturalmente específicos
+code-switching-cultural-topics-explanation = A comida, as tradicións, as festas e a dinámica familiar adoitan invitar ao cambio de código.
+code-switching-cultural-topics-explanation-example = «Como describes o Samaín a alguén que só fala inglés?»
+code-switching-informal-scenarios-header = Explore situacións informais
+code-switching-informal-scenarios-explanation = As conversas entre amizades ou por mensaxes de texto adoitan incluír un cambio de idioma máis natural. Por exemplo:
+code-switching-informal-scenarios-explanation-example = «Cal é a broma que sempre fan as túas amizades — e como a din?»
 # What to Avoid
 code-switching-avoid-subheader = Que se debe evitar
 code-switching-avoid-intro = Preguntas que poden:
@@ -299,6 +317,8 @@ code-switching-orthography-header = Use a ortografía correcta para cada lingua
 code-switching-orthography-explanation = Escriba cada palabra segundo a ortografía da lingua da que procede. Por exemplo:
 code-switching-orthography-explanation-example-1 = Se a palabra inglesa "kitchen" se pronuncia con fonética galega, debe transcribirse respectando a ortografía do inglés, e non como "quichen".
 code-switching-orthography-explanation-example-2 = Se a palabra "jabalí" se pronuncia así en galego, respecte a ortografía do castelán e non transcriba "xabarín".
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Use a pronuncia para determinar o idioma
 # When Not to Tag Words
 code-switching-not-tag-header = Cando non etiquetar palabras
 code-switching-not-tag-explanation = Algunhas palabras <bold> non debe etiquetarse</bold> coa etiqueta de lingua aínda que parezan mesturadas ou adaptadas. A continuación, explícase como abordar algúns exemplos:
