@@ -12,6 +12,7 @@ abq = Abasinisch
 ace = Acehnesisch
 ady = Adygejisch
 af = Afrikaans
+aii = Suret
 ajg = Aja
 aln = Gegisches Albanisch
 am = Amharisch
