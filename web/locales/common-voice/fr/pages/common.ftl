@@ -12,6 +12,7 @@ abq = Abaza
 ace = Aceh
 ady = Adyguéen
 af = Afrikaans
+aii = Soureth
 ajg = Aja
 aln = Guègue
 am = Amharique
