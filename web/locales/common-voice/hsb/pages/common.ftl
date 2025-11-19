@@ -12,6 +12,7 @@ abq = Abaza
 ace = Ačehšćina
 ady = Adygišćina
 af = Afrikanšćina
+aii = Suretšćina
 ajg = Adja
 aln = Gegiska albanšćina
 am = Amharšćina
