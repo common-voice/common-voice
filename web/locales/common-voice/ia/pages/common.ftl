@@ -12,6 +12,7 @@ abq = Afar
 ace = Acehnese
 ady = Adigue
 af = Afrikaans
+aii = Suret
 ajg = Adja
 aln = Gheg albanese
 am = Amharico
