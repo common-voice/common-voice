@@ -143,9 +143,13 @@ download-press-pack = Baixe nosso pacote de imprensa <icon></icon>
 ## Developers section
 
 developers-section-title = Conjuntos de dados vocais abertos, acessíveis ao público em mais de 130 idiomas
+# icon is an arrow that points to the right
+explore-datasets = Explorar conjuntos de dados <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Apoie conjuntos de dados abertos, gerenciados pela comunidade
+read-sentences-link = Ler frases
 validate-readings-link = Validar leituras
 answer-questions-link = Responder perguntas
 transcribe-answers-link = Transcrever respostas
