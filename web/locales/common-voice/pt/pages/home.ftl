@@ -119,9 +119,12 @@ add-text = Adicionar texto
 ## Community section
 
 community-section-title = Desenvolvidos por comunidades globais, para comunidades globais — 130 idiomas e crescendo!
-join-discord-community = Junte-se à comunidade Discord
+join-discord-community = Junte-se à comunidade no Discord
 # label for button
 join-discord-community-action = Participe no Discord
+join-discord-community-content = Participe de discussões na comunidade linguística, faça perguntas e saiba mais sobre os próximos eventos e palestras.
+find-us-on-matrix = Encontre-nos no Matrix
+ask-mozilla-share = Peça para a Mozilla compartilhar seus eventos
 # label for button
 ask-mozilla-share-action = Compartilhe seu evento
 download-contribution-certificate = Baixe seu certificado de contribuição
@@ -134,6 +137,8 @@ contribute-github-action = Contribua no GitHub
 ## Featured section
 
 featured-section-title = Em destaque em...
+# icon is an arrow that points downwards
+download-press-pack = Baixe nosso pacote de imprensa <icon></icon>
 
 ## Partner section
 
