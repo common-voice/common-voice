@@ -8,9 +8,6 @@ interface PrefetchOptions {
   prefetch?: boolean
   thresholdRatio?: number // Default 0.8 (refresh at 80% of TTL)
   safetyMultiplier?: number // Default 2.0 (use 2x avgFetchTime as safety margin)
-  // Use the keepAlive option with care! Only for global caches like leader-board!
-  keepAlive?: boolean // Keep refreshing even with no requests (prevents cold start)
-  keepAliveMaxFailures?: number // Stop keep-alive after N consecutive failures (default: 3)
 }
 
 // Monitor Redis state specifically for lazy-cache
@@ -38,9 +35,6 @@ const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per mi
 
 let consecutiveFailures = 0
 const FAILURE_THRESHOLD = 2 // Require 2 consecutive failures before switching
-
-// Track all active keep-alive intervals for cleanup
-const activeKeepAliveIntervals = new Map<string, NodeJS.Timeout>()
 
 // Initialize cache strategy once at module load and start health monitoring
 useRedis.then(hasRedis => {
@@ -101,28 +95,6 @@ export function stopHealthMonitoring(): void {
     healthCheckInterval = null
   }
 }
-
-export function stopAllKeepAlive(): void {
-  console.log(
-    `[LazyCache] Stopping ${activeKeepAliveIntervals.size} keep-alive intervals`
-  )
-  activeKeepAliveIntervals.forEach((interval, key) => {
-    clearInterval(interval)
-    console.log(`[LazyCache] Stopped keep-alive for ${key}`)
-  })
-  activeKeepAliveIntervals.clear()
-}
-
-// Cleanup on process termination
-process.on('SIGTERM', () => {
-  console.log('[LazyCache] SIGTERM received, cleaning up keep-alive intervals')
-  stopAllKeepAlive()
-})
-
-process.on('SIGINT', () => {
-  console.log('[LazyCache] SIGINT received, cleaning up keep-alive intervals')
-  stopAllKeepAlive()
-})
 
 export async function performHealthCheck(): Promise<void> {
   const previousStrategy = cacheStrategy
@@ -297,108 +269,7 @@ function redisCache<T, S>(
     prefetch: prefetchEnabled = false,
     thresholdRatio = 0.8,
     safetyMultiplier = 2.0,
-    keepAlive = false,
-    keepAliveMaxFailures = 3,
   } = prefetchOptions
-
-  // Keep-alive mechanism to prevent cold start
-  let keepAliveInterval: NodeJS.Timeout | null = null
-  let lastArgs: S[] | null = null
-  let consecutiveKeepAliveFailures = 0
-
-  // Schedule periodic refresh if keepAlive is enabled
-  const scheduleKeepAlive = (
-    cacheKeyFull: string,
-    args: S[],
-    fetchTime: number
-  ) => {
-    if (!keepAlive || keepAliveInterval) return
-
-    lastArgs = args
-    // Calculate refresh interval: refresh at 80% of TTL or TTL - 2*fetchTime, whichever is earlier
-    const interval = Math.min(
-      timeMs * thresholdRatio,
-      Math.max(timeMs - fetchTime * safetyMultiplier, timeMs * 0.5)
-    )
-
-    console.info(
-      `[LazyCache] KeepAlive scheduled for ${cacheKey}: interval=${interval}ms (${(
-        interval / TimeUnits.MINUTE
-      ).toFixed(1)}min), maxFailures=${keepAliveMaxFailures}`
-    )
-
-    keepAliveInterval = setInterval(() => {
-      // Wrap in IIFE to catch all async errors
-      ;(async () => {
-        try {
-          console.debug(
-            `[LazyCache] KeepAlive refresh triggered for ${cacheKey}`
-          )
-          const startTime = Date.now()
-          const freshValue = await cachedFunction(...(lastArgs as S[]))
-          const newFetchTime = Date.now() - startTime
-
-          await redis.set(
-            cacheKeyFull,
-            JSON.stringify({
-              at: Date.now(),
-              value: freshValue,
-              fetchTime: newFetchTime,
-            }),
-            'PX',
-            timeMs
-          )
-
-          // Reset failure counter on success
-          consecutiveKeepAliveFailures = 0
-
-          console.debug(
-            `[LazyCache] KeepAlive refresh completed for ${cacheKey}: fetchTime=${newFetchTime}ms`
-          )
-        } catch (error) {
-          consecutiveKeepAliveFailures++
-          console.warn(
-            `[LazyCache] KeepAlive refresh failed for ${cacheKey} (failure ${consecutiveKeepAliveFailures}/${keepAliveMaxFailures}):`,
-            error instanceof Error ? error.message : error
-          )
-
-          // Stop keep-alive after max consecutive failures
-          if (consecutiveKeepAliveFailures >= keepAliveMaxFailures) {
-            console.error(
-              `[LazyCache] KeepAlive stopped for ${cacheKey} after ${consecutiveKeepAliveFailures} consecutive failures`
-            )
-            if (keepAliveInterval) {
-              clearInterval(keepAliveInterval)
-              activeKeepAliveIntervals.delete(cacheKey)
-              keepAliveInterval = null
-            }
-          }
-        }
-      })().catch(error => {
-        // Catch any errors thrown before the inner try-catch
-        consecutiveKeepAliveFailures++
-        console.warn(
-          `[LazyCache] KeepAlive (outer) failed for ${cacheKey} (failure ${consecutiveKeepAliveFailures}/${keepAliveMaxFailures}):`,
-          error instanceof Error ? error.message : error
-        )
-
-        // Stop keep-alive after max consecutive failures
-        if (consecutiveKeepAliveFailures >= keepAliveMaxFailures) {
-          console.error(
-            `[LazyCache] KeepAlive stopped for ${cacheKey} after ${consecutiveKeepAliveFailures} consecutive failures`
-          )
-          if (keepAliveInterval) {
-            clearInterval(keepAliveInterval)
-            activeKeepAliveIntervals.delete(cacheKey)
-            keepAliveInterval = null
-          }
-        }
-      })
-    }, interval)
-
-    // Track interval for cleanup
-    activeKeepAliveIntervals.set(cacheKey, keepAliveInterval)
-  }
 
   return async (...args): Promise<T> => {
     const key = cacheKey + JSON.stringify(args)
@@ -605,9 +476,6 @@ function redisCache<T, S>(
         console.debug(
           `[LazyCache] Cached ${cacheKey} with fetchTime=${fetchTime}ms, TTL=${timeMs}ms`
         )
-
-        // Schedule keepAlive if enabled
-        scheduleKeepAlive(key, args, fetchTime)
       } catch (setError) {
         reportError(setError as Error, 'cache-set')
       }
@@ -801,5 +669,4 @@ export function resetCacheState(): void {
   lastErrorReport = 0
   errorCount = 0
   stopHealthMonitoring()
-  stopAllKeepAlive()
 }
