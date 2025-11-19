@@ -9,6 +9,7 @@ abq = Abaza
 ace = Acehnese
 ady = Adyghe
 af = Afrikaans
+aii = Suret
 ajg = Adja
 aln = Gheg Albanian
 am = Amharic
