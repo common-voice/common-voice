@@ -161,3 +161,6 @@ transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Incorrecte</wrong>: Va
 tags-table-header-1 = Etiqueta
 tags-table-header-2 = Significat
 tags-laugh = Riure
+tags-unclear = Poc clar
+tags-noise = Soroll
+tags-laugh-explanation = El so del riure.
