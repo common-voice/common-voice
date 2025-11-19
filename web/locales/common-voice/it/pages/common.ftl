@@ -12,6 +12,7 @@ abq = Abaza
 ace = Aceh
 ady = Adighè
 af = Afrikaans
+aii = Suret (neo-aramaico)
 ajg = Adja
 aln = Gheg albanese
 am = Amarico
