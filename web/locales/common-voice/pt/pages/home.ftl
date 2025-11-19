@@ -110,11 +110,16 @@ action-items-section-subtitle = Qualquer pessoa pode preservar, revitalizar e va
 scripted-card-header = Fala com roteiro
 scripted-card-content = Leia frases em voz alta no seu idioma e contribua para o conjunto de dados de voz de participação pública mais diversificado do mundo.
 spontaneous-card-header = Fala espontânea
+spontaneous-card-content = Responda a consultas para criar conjuntos de dados para contextos orgânicos e coloquiais. Perfeito para idiomas predominantemente orais.
+language-text-card-header = Texto no idioma
+language-text-card-content = Crie ou compartilhe consultas, frases e textos de domínio público para tradução, pequenos modelos de linguagem e outras coisas.
 coming-soon = Em breve
 add-text = Adicionar texto
 
 ## Community section
 
+community-section-title = Desenvolvidos por comunidades globais, para comunidades globais — 130 idiomas e crescendo!
+join-discord-community = Junte-se à comunidade Discord
 # label for button
 join-discord-community-action = Participe no Discord
 # label for button
