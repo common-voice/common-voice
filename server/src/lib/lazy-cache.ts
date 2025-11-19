@@ -8,7 +8,9 @@ interface PrefetchOptions {
   prefetch?: boolean
   thresholdRatio?: number // Default 0.8 (refresh at 80% of TTL)
   safetyMultiplier?: number // Default 2.0 (use 2x avgFetchTime as safety margin)
+  // Use the keepAlive option with care! Only for global caches like leader-board!
   keepAlive?: boolean // Keep refreshing even with no requests (prevents cold start)
+  keepAliveMaxFailures?: number // Stop keep-alive after N consecutive failures (default: 3)
 }
 
 // Monitor Redis state specifically for lazy-cache
@@ -36,6 +38,9 @@ const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per mi
 
 let consecutiveFailures = 0
 const FAILURE_THRESHOLD = 2 // Require 2 consecutive failures before switching
+
+// Track all active keep-alive intervals for cleanup
+const activeKeepAliveIntervals = new Map<string, NodeJS.Timeout>()
 
 // Initialize cache strategy once at module load and start health monitoring
 useRedis.then(hasRedis => {
@@ -96,6 +101,28 @@ export function stopHealthMonitoring(): void {
     healthCheckInterval = null
   }
 }
+
+export function stopAllKeepAlive(): void {
+  console.log(
+    `[LazyCache] Stopping ${activeKeepAliveIntervals.size} keep-alive intervals`
+  )
+  activeKeepAliveIntervals.forEach((interval, key) => {
+    clearInterval(interval)
+    console.log(`[LazyCache] Stopped keep-alive for ${key}`)
+  })
+  activeKeepAliveIntervals.clear()
+}
+
+// Cleanup on process termination
+process.on('SIGTERM', () => {
+  console.log('[LazyCache] SIGTERM received, cleaning up keep-alive intervals')
+  stopAllKeepAlive()
+})
+
+process.on('SIGINT', () => {
+  console.log('[LazyCache] SIGINT received, cleaning up keep-alive intervals')
+  stopAllKeepAlive()
+})
 
 export async function performHealthCheck(): Promise<void> {
   const previousStrategy = cacheStrategy
@@ -271,11 +298,13 @@ function redisCache<T, S>(
     thresholdRatio = 0.8,
     safetyMultiplier = 2.0,
     keepAlive = false,
+    keepAliveMaxFailures = 3,
   } = prefetchOptions
 
   // Keep-alive mechanism to prevent cold start
   let keepAliveInterval: NodeJS.Timeout | null = null
   let lastArgs: S[] | null = null
+  let consecutiveKeepAliveFailures = 0
 
   // Schedule periodic refresh if keepAlive is enabled
   const scheduleKeepAlive = (
@@ -295,37 +324,80 @@ function redisCache<T, S>(
     console.info(
       `[LazyCache] KeepAlive scheduled for ${cacheKey}: interval=${interval}ms (${(
         interval / TimeUnits.MINUTE
-      ).toFixed(1)}min)`
+      ).toFixed(1)}min), maxFailures=${keepAliveMaxFailures}`
     )
 
-    keepAliveInterval = setInterval(async () => {
-      try {
-        console.debug(`[LazyCache] KeepAlive refresh triggered for ${cacheKey}`)
-        const startTime = Date.now()
-        const freshValue = await cachedFunction(...(lastArgs as S[]))
-        const newFetchTime = Date.now() - startTime
+    keepAliveInterval = setInterval(() => {
+      // Wrap in IIFE to catch all async errors
+      ;(async () => {
+        try {
+          console.debug(
+            `[LazyCache] KeepAlive refresh triggered for ${cacheKey}`
+          )
+          const startTime = Date.now()
+          const freshValue = await cachedFunction(...(lastArgs as S[]))
+          const newFetchTime = Date.now() - startTime
 
-        await redis.set(
-          cacheKeyFull,
-          JSON.stringify({
-            at: Date.now(),
-            value: freshValue,
-            fetchTime: newFetchTime,
-          }),
-          'PX',
-          timeMs
-        )
+          await redis.set(
+            cacheKeyFull,
+            JSON.stringify({
+              at: Date.now(),
+              value: freshValue,
+              fetchTime: newFetchTime,
+            }),
+            'PX',
+            timeMs
+          )
 
-        console.debug(
-          `[LazyCache] KeepAlive refresh completed for ${cacheKey}: fetchTime=${newFetchTime}ms`
-        )
-      } catch (error) {
+          // Reset failure counter on success
+          consecutiveKeepAliveFailures = 0
+
+          console.debug(
+            `[LazyCache] KeepAlive refresh completed for ${cacheKey}: fetchTime=${newFetchTime}ms`
+          )
+        } catch (error) {
+          consecutiveKeepAliveFailures++
+          console.warn(
+            `[LazyCache] KeepAlive refresh failed for ${cacheKey} (failure ${consecutiveKeepAliveFailures}/${keepAliveMaxFailures}):`,
+            error instanceof Error ? error.message : error
+          )
+
+          // Stop keep-alive after max consecutive failures
+          if (consecutiveKeepAliveFailures >= keepAliveMaxFailures) {
+            console.error(
+              `[LazyCache] KeepAlive stopped for ${cacheKey} after ${consecutiveKeepAliveFailures} consecutive failures`
+            )
+            if (keepAliveInterval) {
+              clearInterval(keepAliveInterval)
+              activeKeepAliveIntervals.delete(cacheKey)
+              keepAliveInterval = null
+            }
+          }
+        }
+      })().catch(error => {
+        // Catch any errors thrown before the inner try-catch
+        consecutiveKeepAliveFailures++
         console.warn(
-          `[LazyCache] KeepAlive refresh failed for ${cacheKey}:`,
+          `[LazyCache] KeepAlive (outer) failed for ${cacheKey} (failure ${consecutiveKeepAliveFailures}/${keepAliveMaxFailures}):`,
           error instanceof Error ? error.message : error
         )
-      }
+
+        // Stop keep-alive after max consecutive failures
+        if (consecutiveKeepAliveFailures >= keepAliveMaxFailures) {
+          console.error(
+            `[LazyCache] KeepAlive stopped for ${cacheKey} after ${consecutiveKeepAliveFailures} consecutive failures`
+          )
+          if (keepAliveInterval) {
+            clearInterval(keepAliveInterval)
+            activeKeepAliveIntervals.delete(cacheKey)
+            keepAliveInterval = null
+          }
+        }
+      })
     }, interval)
+
+    // Track interval for cleanup
+    activeKeepAliveIntervals.set(cacheKey, keepAliveInterval)
   }
 
   return async (...args): Promise<T> => {
@@ -577,64 +649,75 @@ function redisCache<T, S>(
       )
 
       // Trigger async refresh without blocking current request
-      setImmediate(async () => {
-        let prefetchLock: Lock | null = null
-        try {
-          // Try to acquire lock with short timeout (don't wait if another instance is already refreshing)
-          const lockTimeout = Math.max(avgFetchTime * safetyMultiplier, 30000)
-          prefetchLock = await redlock.lock(
-            `${key}-prefetch`,
-            Math.ceil(lockTimeout)
-          )
+      // Wrap in IIFE to catch all async errors
+      setImmediate(() => {
+        ;(async () => {
+          let prefetchLock: Lock | null = null
+          try {
+            // Try to acquire lock with short timeout (don't wait if another instance is already refreshing)
+            const lockTimeout = Math.max(avgFetchTime * safetyMultiplier, 30000)
+            prefetchLock = await redlock.lock(
+              `${key}-prefetch`,
+              Math.ceil(lockTimeout)
+            )
 
-          // Double-check if still needed (another instance might have refreshed)
-          const current = await redis.get(key)
-          if (current) {
-            const currentCached = JSON.parse(current)
-            const currentAge = Date.now() - currentCached.at
-            if (currentAge < refreshThreshold) {
-              console.debug(
-                `[LazyCache] Prefetch skipped for ${cacheKey}: already refreshed by another instance`
-              )
-              return
+            // Double-check if still needed (another instance might have refreshed)
+            const current = await redis.get(key)
+            if (current) {
+              const currentCached = JSON.parse(current)
+              const currentAge = Date.now() - currentCached.at
+              if (currentAge < refreshThreshold) {
+                console.debug(
+                  `[LazyCache] Prefetch skipped for ${cacheKey}: already refreshed by another instance`
+                )
+                return
+              }
+            }
+
+            // Execute refresh
+            const startTime = Date.now()
+            const freshValue = await cachedFunction(...args)
+            const fetchTime = Date.now() - startTime
+
+            // Update cache with new data and timing
+            await redis.set(
+              key,
+              JSON.stringify({ at: Date.now(), value: freshValue, fetchTime }),
+              'PX',
+              timeMs
+            )
+
+            console.debug(
+              `[LazyCache] Prefetch completed for ${cacheKey}: fetchTime=${fetchTime}ms`
+            )
+          } catch (error) {
+            // Log but don't throw - prefetch failures are non-critical
+            // User will get stale data until next successful fetch
+            console.warn(
+              `[LazyCache] Prefetch failed for ${cacheKey}:`,
+              error instanceof Error ? error.message : error
+            )
+          } finally {
+            if (prefetchLock) {
+              try {
+                await prefetchLock.unlock()
+              } catch (unlockError) {
+                console.warn(
+                  `[LazyCache] Prefetch unlock warning for ${cacheKey}:`,
+                  unlockError instanceof Error
+                    ? unlockError.message
+                    : unlockError
+                )
+              }
             }
           }
-
-          // Execute refresh
-          const startTime = Date.now()
-          const freshValue = await cachedFunction(...args)
-          const fetchTime = Date.now() - startTime
-
-          // Update cache with new data and timing
-          await redis.set(
-            key,
-            JSON.stringify({ at: Date.now(), value: freshValue, fetchTime }),
-            'PX',
-            timeMs
-          )
-
-          console.debug(
-            `[LazyCache] Prefetch completed for ${cacheKey}: fetchTime=${fetchTime}ms`
-          )
-        } catch (error) {
-          // Log but don't throw - prefetch failures are non-critical
-          // User will get stale data until next successful fetch
+        })().catch(error => {
+          // Catch any errors thrown before the inner try-catch
           console.warn(
-            `[LazyCache] Prefetch failed for ${cacheKey}:`,
+            `[LazyCache] Prefetch (outer) failed for ${cacheKey}:`,
             error instanceof Error ? error.message : error
           )
-        } finally {
-          if (prefetchLock) {
-            try {
-              await prefetchLock.unlock()
-            } catch (unlockError) {
-              console.warn(
-                `[LazyCache] Prefetch unlock warning for ${cacheKey}:`,
-                unlockError instanceof Error ? unlockError.message : unlockError
-              )
-            }
-          }
-        }
+        })
       })
     }
   }
@@ -718,4 +801,5 @@ export function resetCacheState(): void {
   lastErrorReport = 0
   errorCount = 0
   stopHealthMonitoring()
+  stopAllKeepAlive()
 }

@@ -151,7 +151,7 @@ const getCachedVoteLeaderboardData = () => {
     getAllVoteLeaderboardData,
     LEADERBOARD_VOTE_CACHE_DURATION,
     LEADERBOARD_VOTE_LOCK_DURATION,
-    true, // Allow stale data if prefetch did not work- leaderboards can be slightly old to prevent DB stampede
+    true, // Allow stale data if prefetch did not work - leaderboards can be slightly old to prevent DB stampede
     {
       prefetch: true, // Enable prefetch with defaults
       keepAlive: true, // Keep refreshing to prevent cold start
