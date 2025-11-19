@@ -12,6 +12,7 @@ abq = Abaza
 ace = Atsenesisk
 ady = Adygeisk
 af = Afrikaans
+aii = Suret
 ajg = Adja
 aln = Gheg albansk
 am = Amharisk

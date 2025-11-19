@@ -51,6 +51,8 @@ login = Inicia la sessió
 edit = Edita
 email-subscriptions = Subscripcions per correu electrònic
 download-profile = Baixa les meves dades
+api-credentials = API
+api-credentials-header = Credencials
 contribution-experience = Experiència de la col·laboració
 skip-submission-feedback = Omet l'enviament de comentaris
 skip-submission-description = L'enviament de comentaris es desactivarà en fer clic a «Envia». La col·laboració passarà directament al següent grup de 5 enregistraments o validacions.
@@ -69,6 +71,20 @@ variant-contribution-option-1 = Mostra'm frases i talls de totes les variants de
 variant-contribution-option-2 = Mostra'm només frases i talls de la meva variant
 variant-contribution-warning-title = ⓘ No totes les frases i talls tenen etiquetes de variant!
 variant-contribution-warning-subtitle = Si teniu problemes per col·laborar, podeu tornar a veure tot el contingut de la vostra llengua en qualsevol moment.
+api-credentials-description = Accediu a un conjunt de dades global d'enregistraments de veu aportats per usuaris amb l'API del Common Voice. Milloreu les vostres aplicacions amb reconeixement de veu d'alta qualitat a través de punts finals per a:
+api-credentials-use-case-1 = Enviament de mostres d'àudio
+api-credentials-use-case-2 = Recuperació dels conjunts de dades
+api-credentials-use-case-3 = Anàlisi i millora dels models de parla
+api-credentials-description-conclusion = Uneix-vos a nosaltres per avançar en la tecnologia de la veu i potenciar més contribucions dels usuaris.
+create-api-key-button = Creació de credencials API
+your-api-keys = Les vostres credencials API
+no-api-keys-header = <bold>Actualment, no hi ha credencials API associades amb el vostre compte.</bold>
+no-api-keys-description =
+    Per a crear la primera clau API, feu clic a  «Crea credencials API» i després doneu un nom a
+    les vostres credencials API i genereu credencials API úniques fent clic a «Generació de credencials.» Llavors, copieu immediatament la clau secreta, ja que només es mostra una vegada.
+api-key-name-input =
+    .label = Nom de credencial de l'API
+create-api-key-header = <bold>Avís important: Generació de credencials d'API</bold>
 # Genders
 male_masculine = Home
 female_feminine = Dona

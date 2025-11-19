@@ -6,6 +6,7 @@ sentence-collection = Recollida de frases
 question-collection = Col·lecció de preguntes
 scripted-speech = Parla guionada
 spontaneous-speech = Parla espontània
+dont-subheader = No
 
 ## Voice Collection nav ids
 
@@ -138,3 +139,25 @@ offensive-content-sensitive-information-explanation-explanation-3 = Preguntes qu
 example-questions-subheader = Preguntes d'exemple
 example-questions-explanation-1 = Podeu trobar <examplePromptsLink>120 preguntes d'exemple en aquest full.</examplePromptsLink>
 example-questions-explanation-2 = Si voleu enviar una sèrie de preguntes per a afegir-les, <githubLink>podeu fer-ho a través del nostre GitHub</githubLink> o enviar la llista per correu electrònic a <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Responeu preguntes
+answer-questions-subheader = Orientació general
+answer-questions-explanation-1 = Penseu per un moment en l'indicatiu, considereu quin tipus de coses que voleu dir, però no escriviu massa. Feu clic a la icona «registra». Un cop hagueu gravat podeu escoltar-vos, tornar a enregistrar, eliminar o enviar.
+answer-questions-explanation-2 = Recordeu - no us amoïneu si quequegeu, feu una pausa o repetiu una paraula. Tot això són dades útils per als enginyers que intenten construir eines inclusives de reconeixement de la parla en el món real.
+answer-questions-tip-1 = Enregistreu en un lloc raonablement tranquil
+answer-questions-tip-2 = Trieu un lloc amb una bona connexió a Internet
+transcribe-the-audio-subheader-1 = Orientació general
+transcribe-the-audio-subheader-2 = Nombres i acrònims
+transcribe-the-audio-subheader-3 = Etiquetes especials
+transcribe-the-audio-subheader-4 = Segments de paraules, inicis falsos, paraules repetides
+transcribe-the-audio-subheader-5 = Errors gramaticals i col·loquialismes
+transcribe-the-audio-subheader-1-explanation = En general, heu d'escriure tot el que sentiu. Això inclou;
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Correcte</correct>: Tenia un vint per cent de descompte
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Correcte</correct>: Van ser arrestats per l'<underline>FBI</underline> dijous passat
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Incorrecte</wrong>: Van ser arrestats per l'<underline>efa be i</underline> dijous passat
+tags-table-header-1 = Etiqueta
+tags-table-header-2 = Significat
+tags-laugh = Riure
