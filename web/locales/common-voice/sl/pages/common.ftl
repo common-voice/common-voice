@@ -22,6 +22,7 @@ ba = baškirščina
 bas = basa
 be = beloruščina
 bg = bolgarščina
+bm = Bambara
 bn = bengalščina
 bnn = bununščina
 bo = tibetanščina
