@@ -9,6 +9,7 @@ error-clip-upload-server = La pujada d'aquest tall continua fallant en el servid
 error-title-404 = No s’ha trobat aquesta pàgina
 error-content-404 = Potser us pot ajudar la nostra <homepageLink>pàgina d'inici</homepageLink>? Si teniu alguna pregunta, uniu-vos al <matrixLink>xat de la comunitat a Matrix</matrixLink>, superviseu els problemes del lloc mitjançant el <githubLink>GitHub</githubLink> o visiteu els nostres <discourseLink>fòrums del Discourse</discourseLink>.
 error-title-500 = Ho sento, hi ha hagut un problema
+error-content-500 = Potser us pot ajudar la nostra <homepageLink>pàgina d'inici</homepageLink>? Si teniu alguna pregunta, uniu-vos al <matrixLink>xat de la comunitat a Matrix</matrixLink>, superviseu els problemes del lloc mitjançant el <githubLink>GitHub</githubLink> o visiteu els nostres <discourseLink>fòrums del Discourse</discourseLink>.
 error-title-502 = S'ha interromput la connexió
 error-content-502 = Ara mateix no podeu establir una connexió estable amb els nostres servidors. Torneu-ho a intentar més tard. Per obtenir ajuda, uniu-vos al <matrixLink>xat de la comunitat Matrix</matrixLink>, superviseu els problemes del lloc a través de <githubLink>GitHub</githubLink> o visiteu <discourseLink>els nostres fòrums de Discourse</discourseLink>.
 error-title-503 = El lloc web no està disponible temporalment
