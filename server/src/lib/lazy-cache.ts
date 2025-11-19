@@ -8,6 +8,7 @@ interface PrefetchOptions {
   prefetch?: boolean
   thresholdRatio?: number // Default 0.8 (refresh at 80% of TTL)
   safetyMultiplier?: number // Default 2.0 (use 2x avgFetchTime as safety margin)
+  keepAlive?: boolean // Keep refreshing even with no requests (prevents cold start)
 }
 
 // Monitor Redis state specifically for lazy-cache
@@ -269,7 +270,63 @@ function redisCache<T, S>(
     prefetch: prefetchEnabled = false,
     thresholdRatio = 0.8,
     safetyMultiplier = 2.0,
+    keepAlive = false,
   } = prefetchOptions
+
+  // Keep-alive mechanism to prevent cold start
+  let keepAliveInterval: NodeJS.Timeout | null = null
+  let lastArgs: S[] | null = null
+
+  // Schedule periodic refresh if keepAlive is enabled
+  const scheduleKeepAlive = (
+    cacheKeyFull: string,
+    args: S[],
+    fetchTime: number
+  ) => {
+    if (!keepAlive || keepAliveInterval) return
+
+    lastArgs = args
+    // Calculate refresh interval: refresh at 80% of TTL or TTL - 2*fetchTime, whichever is earlier
+    const interval = Math.min(
+      timeMs * thresholdRatio,
+      Math.max(timeMs - fetchTime * safetyMultiplier, timeMs * 0.5)
+    )
+
+    console.info(
+      `[LazyCache] KeepAlive scheduled for ${cacheKey}: interval=${interval}ms (${(
+        interval / TimeUnits.MINUTE
+      ).toFixed(1)}min)`
+    )
+
+    keepAliveInterval = setInterval(async () => {
+      try {
+        console.debug(`[LazyCache] KeepAlive refresh triggered for ${cacheKey}`)
+        const startTime = Date.now()
+        const freshValue = await cachedFunction(...(lastArgs as S[]))
+        const newFetchTime = Date.now() - startTime
+
+        await redis.set(
+          cacheKeyFull,
+          JSON.stringify({
+            at: Date.now(),
+            value: freshValue,
+            fetchTime: newFetchTime,
+          }),
+          'PX',
+          timeMs
+        )
+
+        console.debug(
+          `[LazyCache] KeepAlive refresh completed for ${cacheKey}: fetchTime=${newFetchTime}ms`
+        )
+      } catch (error) {
+        console.warn(
+          `[LazyCache] KeepAlive refresh failed for ${cacheKey}:`,
+          error instanceof Error ? error.message : error
+        )
+      }
+    }, interval)
+  }
 
   return async (...args): Promise<T> => {
     const key = cacheKey + JSON.stringify(args)
@@ -281,12 +338,30 @@ function redisCache<T, S>(
       if (result) {
         try {
           const cached = JSON.parse(result)
-          if (!isExpired(cached.at, timeMs)) {
+
+          // Backward compatibility: handle old cache format
+          // Old format: just the value OR { value: T }
+          // New format: { at: number, value: T, fetchTime?: number }
+          let normalizedCache: { at: number; value: T; fetchTime?: number }
+
+          if (cached.at !== undefined && cached.value !== undefined) {
+            // New format - use as is
+            normalizedCache = cached
+          } else if (cached.value !== undefined) {
+            // Old format with { value: T } but no 'at' field
+            // Treat as expired to force refresh with new format
+            normalizedCache = { at: 0, value: cached.value }
+          } else {
+            // just the raw value
+            normalizedCache = { at: 0, value: cached }
+          }
+
+          if (!isExpired(normalizedCache.at, timeMs)) {
             // Cache is still fresh - check if we should prefetch
             if (prefetchEnabled) {
               triggerPrefetchIfNeeded(
                 key,
-                cached,
+                normalizedCache,
                 timeMs,
                 thresholdRatio,
                 safetyMultiplier,
@@ -294,7 +369,7 @@ function redisCache<T, S>(
                 args
               )
             }
-            return cached.value
+            return normalizedCache.value
           }
         } catch (error) {
           reportError(error as Error, 'cache-parse')
@@ -332,8 +407,11 @@ function redisCache<T, S>(
         const doubleCheckResult = await redis.get(key)
         if (doubleCheckResult) {
           const cached = JSON.parse(doubleCheckResult)
-          if (!isExpired(cached.at, timeMs)) {
-            return cached.value
+          const value = cached.value !== undefined ? cached.value : cached
+          const at = cached.at || 0
+
+          if (!isExpired(at, timeMs)) {
+            return value
           }
         }
       } catch (error) {
@@ -363,24 +441,25 @@ function redisCache<T, S>(
         if (raw) {
           const cached = JSON.parse(raw)
 
+          // Backward compatibility: normalize cache format
+          const value = cached.value !== undefined ? cached.value : cached
+          const at = cached.at || 0
+
           // Fresh data happened to appear
-          if (!isExpired(cached.at, timeMs)) {
-            console.log(
+          if (!isExpired(at, timeMs)) {
+            console.debug(
               `[LazyCache] Fresh data became available for ${cacheKey}`
             )
-            return cached.value
+            return value
           }
 
           // Return stale if allowed
-          if (cached.value) {
-            const ageMinutes = (
-              (Date.now() - cached.at) /
-              TimeUnits.MINUTE
-            ).toFixed(2)
+          if (value) {
+            const ageMinutes = ((Date.now() - at) / TimeUnits.MINUTE).toFixed(2)
             console.warn(
               `[LazyCache] Returning STALE data for ${cacheKey} (age: ${ageMinutes} minutes).`
             )
-            return cached.value
+            return value
           }
         }
       } catch (err) {
@@ -406,11 +485,14 @@ function redisCache<T, S>(
       const raw = await redis.get(key)
       if (raw) {
         const cached = JSON.parse(raw)
-        if (!isExpired(cached.at, timeMs)) {
-          console.log(
+        const value = cached.value !== undefined ? cached.value : cached
+        const at = cached.at || 0
+
+        if (!isExpired(at, timeMs)) {
+          console.debug(
             `[LazyCache] Fresh data now available for ${cacheKey}. Another instance computed it.`
           )
-          return cached.value
+          return value
         }
       }
     } catch (err) {
@@ -448,9 +530,12 @@ function redisCache<T, S>(
           'PX',
           timeMs
         )
-        console.log(
+        console.debug(
           `[LazyCache] Cached ${cacheKey} with fetchTime=${fetchTime}ms, TTL=${timeMs}ms`
         )
+
+        // Schedule keepAlive if enabled
+        scheduleKeepAlive(key, args, fetchTime)
       } catch (setError) {
         reportError(setError as Error, 'cache-set')
       }
@@ -487,7 +572,7 @@ function redisCache<T, S>(
     }
 
     if (age >= refreshThreshold) {
-      console.log(
+      console.debug(
         `[LazyCache] Prefetch triggered for ${cacheKey}: age=${age}ms, threshold=${refreshThreshold}ms, avgFetch=${avgFetchTime}ms`
       )
 
@@ -508,7 +593,7 @@ function redisCache<T, S>(
             const currentCached = JSON.parse(current)
             const currentAge = Date.now() - currentCached.at
             if (currentAge < refreshThreshold) {
-              console.log(
+              console.debug(
                 `[LazyCache] Prefetch skipped for ${cacheKey}: already refreshed by another instance`
               )
               return
@@ -528,7 +613,7 @@ function redisCache<T, S>(
             timeMs
           )
 
-          console.log(
+          console.debug(
             `[LazyCache] Prefetch completed for ${cacheKey}: fetchTime=${fetchTime}ms`
           )
         } catch (error) {
