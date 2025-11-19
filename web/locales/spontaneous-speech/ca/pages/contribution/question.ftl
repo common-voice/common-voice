@@ -11,6 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = Ha fallat la pujada, torneu-ho a provar.
 add-question-too-many-questions-error = S'han excedit les 25 preguntes. Reduïu el nombre de preguntes i torneu-ho a intentar.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } d'1 pregunta recollida. Consulteu les nostres pàgines de <guidelinesLink>Directrius</guidelinesLink> per a obtenir més informació sobre com afegir preguntes
+       *[other] { $uploadedQuestions } de { $totalQuestions } preguntes recollides. Consulteu les nostres pàgines de<guidelinesLink>Directrius</guidelinesLink> per a obtenir més informació sobre com afegir preguntes
+    }
 # Guidelines
 add-question-guidelines-title = Quines preguntes puc afegir-hi?
 do-section-title = feu
@@ -25,4 +30,5 @@ do-not-section-guideline-3 = Feu preguntes sensibles
 cs-do-section-guideline-1 = Feu preguntes o contextos bilingües
 cs-do-section-guideline-2 = Exploreu escenaris, situacions o representacions informals
 cs-do-not-section-guideline-1 = Sol·liciteu informació d'identificació personal (com noms o informació financera) o sentiments ofensius
+cs-do-not-section-guideline-2 = Demaneu canviar de codi ni sol·licitar una traducció
 cs-do-not-section-guideline-3 = Useu un llenguatge massa formal
