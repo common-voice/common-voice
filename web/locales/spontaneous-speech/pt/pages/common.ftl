@@ -19,10 +19,13 @@ report-button = Reportar
 skip-button = Saltar
 submit-button = Enviar
 contribute = Contribuir
+request-new-language = Solicitar novo idioma
 
 ## Navbar
 
+question = Pergunta
 respond-to-prompt = Responder à consulta
+transcribe = Transcrever
 check-transcriptions = Verificar transcrições
 
 ## Not Found Page

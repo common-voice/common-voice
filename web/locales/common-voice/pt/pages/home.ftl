@@ -140,6 +140,19 @@ featured-section-title = Em destaque em...
 # icon is an arrow that points downwards
 download-press-pack = Baixe nosso pacote de imprensa <icon></icon>
 
+## Developers section
+
+developers-section-title = Conjuntos de dados vocais abertos, acessíveis ao público em mais de 130 idiomas
+
+## Get involved section
+
+validate-readings-link = Validar leituras
+answer-questions-link = Responder perguntas
+transcribe-answers-link = Transcrever respostas
+review-transcriptions-link = Revisar transcrições
+contribute-text-link = Contribuir com texto
+press-and-stories-link = Imprensa e histórias
+
 ## Partner section
 
 partner-section-title = Seja nosso parceiro
