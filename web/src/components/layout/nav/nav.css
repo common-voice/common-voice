@@ -148,7 +148,7 @@ header {
         }
     }
 
-    @media (--lg-up) {
+    @media (--md-up) {
         position: relative;
         margin: 0 auto;
         background: none;
@@ -158,7 +158,7 @@ header {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        pointer-events: none;
+        pointer-events: visible;
     }
 
     & .menu-icon {
@@ -228,13 +228,13 @@ header {
     }
 
     & .language-select-container {
-        @media (--xs-down) {
+        @media (--sm-down) {
             display: none;
         }
     }
 
     & .user-menu {
-        @media (--xs-down) {
+        @media (--sm-down) {
             display: none;
         }
     }
@@ -270,7 +270,7 @@ header {
     }
 }
 
-@media (--lg-up) {
+@media (--md-up) {
     header > * {
         pointer-events: auto;
     }
