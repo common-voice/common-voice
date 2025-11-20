@@ -12,6 +12,7 @@ abq = Abaza
 ace = Acehčina
 ady = Adygejčina
 af = Afrikánčina
+aii = Suret
 ajg = Adja
 aln = Gheg albánsky
 am = Amharčina
