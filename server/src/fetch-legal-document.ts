@@ -43,7 +43,7 @@ export default async function fetchLegalDocument(
     return (
       await Promise.all(
         // Fallback Languages
-        ['en', 'es', 'fr', 'zh-TW'].map(locale =>
+        ['en', 'es', 'fr', 'zh-CN'].map(locale =>
           fetchLegalDocument(name, locale)
         )
       )
