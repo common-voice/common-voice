@@ -160,6 +160,7 @@ transcribe-the-audio-subheader-3 = Etiquetes especials
 transcribe-the-audio-subheader-4 = Segments de paraules, inicis falsos, paraules repetides
 transcribe-the-audio-subheader-5 = Errors gramaticals i col·loquialismes
 transcribe-the-audio-subheader-1-explanation = En general, heu d'escriure tot el que sentiu. Això inclou;
+transcribe-the-audio-subheader-1-explanation-example-1 = Escriviu les disfluències, incloses les vacil·lacions i les repeticions
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Correcte</correct>: Tenia un vint per cent de descompte
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Correcte</correct>: Van ser arrestats per l'<underline>FBI</underline> dijous passat
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Incorrecte</wrong>: Van ser arrestats per l'<underline>efa be i</underline> dijous passat
