@@ -1,7 +1,7 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useMemo, useState } from 'react'
-import { useSelect } from 'downshift'
 import { useLocalization } from '@fluent/react'
+import { useSelect } from 'downshift'
+import classNames from 'classnames'
 import Fuse from 'fuse.js'
 
 import { CheckMarkGreenIcon } from '../ui/icons'
@@ -23,6 +23,7 @@ interface DropDownProps {
   searchBoxAriaLabel?: string
   notFoundMessage?: string
   bottomComponent?: React.ReactNode
+  isMobile?: boolean
   onChange: (value: string) => void
 }
 
@@ -35,6 +36,7 @@ const DropDown = ({
   searchBoxAriaLabel,
   notFoundMessage,
   bottomComponent,
+  isMobile = false,
   onChange,
 }: DropDownProps) => {
   const { l10n } = useLocalization()
@@ -103,13 +105,20 @@ const DropDown = ({
   return (
     <>
       {isOpen && (
-        // eslint-disable-next-line jsx-a11y/click-events-have-key-events
         <div
           className="dropdown-overlay"
           data-testid="dropdown-overlay"
+          role="button"
+          tabIndex={-1}
           onClick={() => {
             closeMenu()
             setSearchValue('')
+          }}
+          onKeyDown={e => {
+            if (e.key === 'Escape' || e.key === 'Enter') {
+              closeMenu()
+              setSearchValue('')
+            }
           }}
         />
       )}
@@ -123,7 +132,10 @@ const DropDown = ({
           <p className="language-label">{currentValue}</p>
         </button>
         <div
-          className={isOpen ? 'menu-container isopen' : 'menu-container'}
+          className={classNames('menu-container', {
+            'is-open': isOpen,
+            'is-mobile': isMobile,
+          })}
           data-testid="menu-container">
           <SearchBox
             searchBoxLabel={searchBoxLabel}
