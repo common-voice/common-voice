@@ -8,10 +8,6 @@
     box-shadow: var(--cv-box-shadow);
 
     &.contribution-page-active {
-        @media (--xl-up) {
-            height: 130px;
-        }
-
         header {
             @media (--lg-up) {
                 height: 80px;
