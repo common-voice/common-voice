@@ -47,10 +47,6 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-
-            @media (--xs-down) {
-                display: none;
-            }
         }
 
         & svg {

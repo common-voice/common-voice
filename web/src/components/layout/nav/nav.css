@@ -139,16 +139,12 @@ header {
     top: 0;
     display: flex;
     align-items: center;
-    height: var(--header-height);
+    height: 77px;
     transition: background-color var(--transition-duration) linear,
         box-shadow var(--transition-duration) linear;
     padding: var(--page-margin);
     background: var(--white);
     z-index: var(--header-z-index);
-
-    @media (--md-down) {
-        overflow-x: hidden;
-    }
 
     & .Logo {
         @media (--md-up) {
@@ -235,17 +231,15 @@ header {
         text-overflow: ellipsis;
     }
 
-    & .user-menu {
-        @media (--md-down) {
+    & .language-select-container {
+        @media (--xs-down) {
             display: none;
         }
     }
 
-    & .localization-select {
-        display: none;
-
-        @media (--lg-up) {
-            display: initial;
+    & .user-menu {
+        @media (--xs-down) {
+            display: none;
         }
     }
 
@@ -323,7 +317,7 @@ header {
                         margin-inline-start: 30px;
                     }
                 }
-                
+
                 svg {
                     height: 1em;
                 }
@@ -360,39 +354,6 @@ header {
                 margin-block-end: 0;
             }
         }
-    }
-}
-
-#hamburger-menu {
-    width: 120px;
-    border: none;
-    padding: 0;
-
-    &.logged-in {
-        width: 80px;
-    }
-
-    @media (--lg-up) {
-        display: none;
-    }
-
-    &:hover {
-        background-color: transparent;
-    }
-
-    & a.button {
-        text-transform: uppercase;
-        min-width: 100px;
-        padding: 15px;
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-    }
-
-    & a.button.avatar {
-        background: none;
-        border: none;
     }
 }
 
