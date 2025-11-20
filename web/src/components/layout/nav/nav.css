@@ -8,10 +8,6 @@
     box-shadow: var(--cv-box-shadow);
 
     &.contribution-page-active {
-        @media (--xl-up) {
-            height: 130px;
-        }
-
         header {
             @media (--lg-up) {
                 height: 80px;
@@ -139,16 +135,12 @@ header {
     top: 0;
     display: flex;
     align-items: center;
-    height: var(--header-height);
+    height: 77px;
     transition: background-color var(--transition-duration) linear,
         box-shadow var(--transition-duration) linear;
     padding: var(--page-margin);
     background: var(--white);
     z-index: var(--header-z-index);
-
-    @media (--md-down) {
-        overflow-x: hidden;
-    }
 
     & .Logo {
         @media (--md-up) {
@@ -156,7 +148,7 @@ header {
         }
     }
 
-    @media (--lg-up) {
+    @media (--md-up) {
         position: relative;
         margin: 0 auto;
         background: none;
@@ -166,7 +158,7 @@ header {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        pointer-events: none;
+        pointer-events: visible;
     }
 
     & .menu-icon {
@@ -235,17 +227,15 @@ header {
         text-overflow: ellipsis;
     }
 
-    & .user-menu {
-        @media (--md-down) {
+    & .language-select-container {
+        @media (--sm-down) {
             display: none;
         }
     }
 
-    & .localization-select {
-        display: none;
-
-        @media (--lg-up) {
-            display: initial;
+    & .user-menu {
+        @media (--sm-down) {
+            display: none;
         }
     }
 
@@ -269,7 +259,7 @@ header {
             height: 2.5rem;
         }
 
-        @media (--md-down) {
+        @media (--sm-down) {
             display: none;
         }
 
@@ -280,7 +270,7 @@ header {
     }
 }
 
-@media (--lg-up) {
+@media (--md-up) {
     header > * {
         pointer-events: auto;
     }
@@ -323,7 +313,7 @@ header {
                         margin-inline-start: 30px;
                     }
                 }
-                
+
                 svg {
                     height: 1em;
                 }
@@ -360,39 +350,6 @@ header {
                 margin-block-end: 0;
             }
         }
-    }
-}
-
-#hamburger-menu {
-    width: 120px;
-    border: none;
-    padding: 0;
-
-    &.logged-in {
-        width: 80px;
-    }
-
-    @media (--lg-up) {
-        display: none;
-    }
-
-    &:hover {
-        background-color: transparent;
-    }
-
-    & a.button {
-        text-transform: uppercase;
-        min-width: 100px;
-        padding: 15px;
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-    }
-
-    & a.button.avatar {
-        background: none;
-        border: none;
     }
 }
 

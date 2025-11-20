@@ -13,7 +13,7 @@
 .user-menu {
     margin: 0 16px;
 
-    @media (--sm-up) {
+    @media (--md-up) {
         max-width: 200px;
     }
 
@@ -47,10 +47,6 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-
-            @media (--xs-down) {
-                display: none;
-            }
         }
 
         & svg {

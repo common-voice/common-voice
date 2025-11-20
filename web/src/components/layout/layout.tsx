@@ -16,11 +16,10 @@ import URLS from '../../urls'
 import { replacePathLocale } from '../../utility'
 import { LocaleNavLink } from '../locale-helpers'
 import { CogIcon, DashboardIcon, MenuIcon } from '../ui/icons'
-import { Avatar, LinkButton } from '../ui/ui'
+import { LinkButton } from '../ui/ui'
 import Content from './content'
 import Footer from './footer'
-import LocalizationSelect from '../localization-select/localization-select'
-import LocalizationSelectComplex from '../localization-select/localization-select-complex'
+import LanguageSelect from '../localization-select/language-select'
 import Logo from './logo'
 import Nav from './nav/nav'
 import UserMenu from './user-menu'
@@ -273,7 +272,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                   </Tooltip>
                 </>
               )}
-              <LocalizationSelectComplex
+              <LanguageSelect
                 locale={locale}
                 userLanguages={
                   user.account && user.account.languages
@@ -282,22 +281,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                 }
                 onLocaleChange={this.handleLocaleChange}
               />
-              <button
-                id="hamburger-menu"
-                className={classNames({
-                  active: isMenuVisible,
-                  'logged-in': user.account,
-                })}>
-                {user.account ? (
-                  <LinkButton href="/profile" className="avatar">
-                    <Avatar url={user.account.avatar_url} />
-                  </LinkButton>
-                ) : (
-                  <Localized id="login">
-                    <LinkButton href="/login" rounded outline />
-                  </Localized>
-                )}
-              </button>
             </div>
           </header>
           {isContributionPageActive && (
@@ -328,11 +311,16 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             isContributionPageActive={isContributionPageActive}
             toggleMenu={this.toggleMenu}>
             <div className="user-nav">
-              <LocalizationSelect
+              <LanguageSelect
                 locale={locale}
+                userLanguages={
+                  user.account && user.account.languages
+                    ? user.account.languages.map(lang => lang.locale)
+                    : []
+                }
+                isMobile={true}
                 onLocaleChange={this.handleLocaleChange}
               />
-
               {user.account && (
                 <div>
                   <LocaleNavLink className="user-nav-link" to={URLS.DASHBOARD}>
