@@ -337,3 +337,10 @@ languages-donate-banner-cta = <mark>Feu servir CV per</mark><br/><mark>a la rece
 languages-donate-banner-cta-explanation = El Common Voice es finança amb donatius i subvencions! Ens encanta col·laborar amb investigadors acadèmics, de la societat civil i de la indústria. El Common Voice és d'ús gratuït, però ens serà molt útil si podeu ajudar amb els costos de la plataforma i de l'allotjament mitjançant propostes de subvencions.
 localization-select =
     .label = Trieu una llengua/localització
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Uneix-te a Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = S'obre en una pestanya nova
