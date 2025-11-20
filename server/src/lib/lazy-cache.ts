@@ -4,6 +4,12 @@ import type { Lock } from 'redlock'
 
 import { TimeUnits } from 'common'
 
+interface PrefetchOptions {
+  prefetch?: boolean
+  thresholdRatio?: number // Default 0.8 (refresh at 80% of TTL)
+  safetyMultiplier?: number // Default 2.0 (use 2x avgFetchTime as safety margin)
+}
+
 // Monitor Redis state specifically for lazy-cache
 redis.on('ready', () => console.info('[LazyCache-Redis] Ready'))
 redis.on('error', err => console.error('[LazyCache-Redis] Error:', err.message))
@@ -252,11 +258,18 @@ function redisCache<T, S>(
   cachedFunction: Fn<T, S>,
   timeMs: number,
   lockDurationMs: number,
-  allowStaleOnLockFailure: boolean
+  allowStaleOnLockFailure: boolean,
+  prefetchOptions: PrefetchOptions = {}
 ): Fn<T, S> {
   // Create a memory cache fallback for when Redis fails
   const memoryFallback = memoryCache(cachedFunction, timeMs)
   const lockKey = `${cacheKey}-lock`
+
+  const {
+    prefetch: prefetchEnabled = false,
+    thresholdRatio = 0.8,
+    safetyMultiplier = 2.0,
+  } = prefetchOptions
 
   return async (...args): Promise<T> => {
     const key = cacheKey + JSON.stringify(args)
@@ -268,8 +281,38 @@ function redisCache<T, S>(
       if (result) {
         try {
           const cached = JSON.parse(result)
-          if (!isExpired(cached.at, timeMs)) {
-            return cached.value
+
+          // Backward compatibility: handle old cache format
+          // Old format: just the value OR { value: T }
+          // New format: { at: number, value: T, fetchTime?: number }
+          let normalizedCache: { at: number; value: T; fetchTime?: number }
+
+          if (cached.at !== undefined && cached.value !== undefined) {
+            // New format - use as is
+            normalizedCache = cached
+          } else if (cached.value !== undefined) {
+            // Old format with { value: T } but no 'at' field
+            // Treat as expired to force refresh with new format
+            normalizedCache = { at: 0, value: cached.value }
+          } else {
+            // just the raw value
+            normalizedCache = { at: 0, value: cached }
+          }
+
+          if (!isExpired(normalizedCache.at, timeMs)) {
+            // Cache is still fresh - check if we should prefetch
+            if (prefetchEnabled) {
+              triggerPrefetchIfNeeded(
+                key,
+                normalizedCache,
+                timeMs,
+                thresholdRatio,
+                safetyMultiplier,
+                cachedFunction,
+                args
+              )
+            }
+            return normalizedCache.value
           }
         } catch (error) {
           reportError(error as Error, 'cache-parse')
@@ -307,8 +350,11 @@ function redisCache<T, S>(
         const doubleCheckResult = await redis.get(key)
         if (doubleCheckResult) {
           const cached = JSON.parse(doubleCheckResult)
-          if (!isExpired(cached.at, timeMs)) {
-            return cached.value
+          const value = cached.value !== undefined ? cached.value : cached
+          const at = cached.at || 0
+
+          if (!isExpired(at, timeMs)) {
+            return value
           }
         }
       } catch (error) {
@@ -338,24 +384,25 @@ function redisCache<T, S>(
         if (raw) {
           const cached = JSON.parse(raw)
 
+          // Backward compatibility: normalize cache format
+          const value = cached.value !== undefined ? cached.value : cached
+          const at = cached.at || 0
+
           // Fresh data happened to appear
-          if (!isExpired(cached.at, timeMs)) {
-            console.log(
+          if (!isExpired(at, timeMs)) {
+            console.debug(
               `[LazyCache] Fresh data became available for ${cacheKey}`
             )
-            return cached.value
+            return value
           }
 
           // Return stale if allowed
-          if (cached.value) {
-            const ageMinutes = (
-              (Date.now() - cached.at) /
-              TimeUnits.MINUTE
-            ).toFixed(2)
+          if (value) {
+            const ageMinutes = ((Date.now() - at) / TimeUnits.MINUTE).toFixed(2)
             console.warn(
               `[LazyCache] Returning STALE data for ${cacheKey} (age: ${ageMinutes} minutes).`
             )
-            return cached.value
+            return value
           }
         }
       } catch (err) {
@@ -381,11 +428,14 @@ function redisCache<T, S>(
       const raw = await redis.get(key)
       if (raw) {
         const cached = JSON.parse(raw)
-        if (!isExpired(cached.at, timeMs)) {
-          console.log(
+        const value = cached.value !== undefined ? cached.value : cached
+        const at = cached.at || 0
+
+        if (!isExpired(at, timeMs)) {
+          console.debug(
             `[LazyCache] Fresh data now available for ${cacheKey}. Another instance computed it.`
           )
-          return cached.value
+          return value
         }
       }
     } catch (err) {
@@ -412,10 +462,20 @@ function redisCache<T, S>(
     args: S[]
   ): Promise<T> {
     try {
+      const startTime = Date.now()
       const value = await cachedFunction(...args)
+      const fetchTime = Date.now() - startTime
 
       try {
-        await redis.set(key, JSON.stringify({ at: Date.now(), value }))
+        await redis.set(
+          key,
+          JSON.stringify({ at: Date.now(), value, fetchTime }),
+          'PX',
+          timeMs
+        )
+        console.debug(
+          `[LazyCache] Cached ${cacheKey} with fetchTime=${fetchTime}ms, TTL=${timeMs}ms`
+        )
       } catch (setError) {
         reportError(setError as Error, 'cache-set')
       }
@@ -423,6 +483,110 @@ function redisCache<T, S>(
       return value
     } finally {
       await releaseLock(lock)
+    }
+  }
+
+  function triggerPrefetchIfNeeded(
+    key: string,
+    cached: { at: number; value: T; fetchTime?: number },
+    timeMs: number,
+    thresholdRatio: number,
+    safetyMultiplier: number,
+    cachedFunction: Fn<T, S>,
+    args: S[]
+  ): void {
+    const age = Date.now() - cached.at
+    const avgFetchTime = cached.fetchTime || 0
+
+    // Calculate refresh threshold adaptively
+    let refreshThreshold: number
+    if (avgFetchTime > 0) {
+      // Use safety margin: TTL - (avgFetchTime * safetyMultiplier)
+      // This ensures we start refreshing early enough to complete before expiry
+      refreshThreshold = timeMs - avgFetchTime * safetyMultiplier
+      // But don't refresh too early (at least 50% of TTL)
+      refreshThreshold = Math.max(refreshThreshold, timeMs * 0.5)
+    } else {
+      // No timing data - use default threshold ratio
+      refreshThreshold = timeMs * thresholdRatio
+    }
+
+    if (age >= refreshThreshold) {
+      console.debug(
+        `[LazyCache] Prefetch triggered for ${cacheKey}: age=${age}ms, threshold=${refreshThreshold}ms, avgFetch=${avgFetchTime}ms`
+      )
+
+      // Trigger async refresh without blocking current request
+      // Wrap in IIFE to catch all async errors
+      setImmediate(() => {
+        ;(async () => {
+          let prefetchLock: Lock | null = null
+          try {
+            // Try to acquire lock with short timeout (don't wait if another instance is already refreshing)
+            const lockTimeout = Math.max(avgFetchTime * safetyMultiplier, 30000)
+            prefetchLock = await redlock.lock(
+              `${key}-prefetch`,
+              Math.ceil(lockTimeout)
+            )
+
+            // Double-check if still needed (another instance might have refreshed)
+            const current = await redis.get(key)
+            if (current) {
+              const currentCached = JSON.parse(current)
+              const currentAge = Date.now() - currentCached.at
+              if (currentAge < refreshThreshold) {
+                console.debug(
+                  `[LazyCache] Prefetch skipped for ${cacheKey}: already refreshed by another instance`
+                )
+                return
+              }
+            }
+
+            // Execute refresh
+            const startTime = Date.now()
+            const freshValue = await cachedFunction(...args)
+            const fetchTime = Date.now() - startTime
+
+            // Update cache with new data and timing
+            await redis.set(
+              key,
+              JSON.stringify({ at: Date.now(), value: freshValue, fetchTime }),
+              'PX',
+              timeMs
+            )
+
+            console.debug(
+              `[LazyCache] Prefetch completed for ${cacheKey}: fetchTime=${fetchTime}ms`
+            )
+          } catch (error) {
+            // Log but don't throw - prefetch failures are non-critical
+            // User will get stale data until next successful fetch
+            console.warn(
+              `[LazyCache] Prefetch failed for ${cacheKey}:`,
+              error instanceof Error ? error.message : error
+            )
+          } finally {
+            if (prefetchLock) {
+              try {
+                await prefetchLock.unlock()
+              } catch (unlockError) {
+                console.warn(
+                  `[LazyCache] Prefetch unlock warning for ${cacheKey}:`,
+                  unlockError instanceof Error
+                    ? unlockError.message
+                    : unlockError
+                )
+              }
+            }
+          }
+        })().catch(error => {
+          // Catch any errors thrown before the inner try-catch
+          console.warn(
+            `[LazyCache] Prefetch (outer) failed for ${cacheKey}:`,
+            error instanceof Error ? error.message : error
+          )
+        })
+      })
     }
   }
 
@@ -454,7 +618,8 @@ export default function lazyCache<T, S>(
   f: Fn<T, S>,
   timeMs: number,
   lockDurationMs = 5 * TimeUnits.MINUTE,
-  allowStaleOnLockFailure = false // Default: DO NOT return stale data
+  allowStaleOnLockFailure = false, // Default: DO NOT return stale data
+  prefetchOptions: PrefetchOptions = {} // Prefetch configuration
 ): Fn<T, S> {
   const memCache = memoryCache(f, timeMs)
   const redisCacheImpl = redisCache(
@@ -462,7 +627,8 @@ export default function lazyCache<T, S>(
     f,
     timeMs,
     lockDurationMs,
-    allowStaleOnLockFailure
+    allowStaleOnLockFailure,
+    prefetchOptions
   )
 
   return async (...args: S[]) => {
