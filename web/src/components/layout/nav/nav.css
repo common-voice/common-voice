@@ -259,7 +259,7 @@ header {
             height: 2.5rem;
         }
 
-        @media (--md-down) {
+        @media (--sm-down) {
             display: none;
         }
 
