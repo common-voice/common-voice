@@ -75,28 +75,37 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
   private _isMounted = false
   private _fetchToken: symbol | null = null
 
-  async componentDidMount() {
-    this._isMounted = true
-    this._fetchToken = Symbol() // unique ID for this fetch
+  private _fetchLeaderboardData() {
+    this._fetchToken = Symbol()
     const { api, locale, type } = this.props
     const token = this._fetchToken
 
     this.setState({ isLoading: true })
 
-    try {
-      const rows = await api.forLocale(locale).fetchLeaderboard(type)
-      // Only set state if still mounted AND fetch token matches
-      if (this._isMounted && token === this._fetchToken) {
-        this.setState({ rows, isLoading: false }, this.scrollToUser)
-      }
-    } catch (err) {
-      if (this._isMounted && token === this._fetchToken) {
-        this.setState({ isLoading: false })
-      }
-      if (process.env.NODE_ENV !== 'production') {
-        console.warn('Leaderboard fetch failed', err)
-      }
-    }
+    api
+      .forLocale(locale)
+      .fetchLeaderboard(type)
+      .then(rows => {
+        if (this._isMounted && token === this._fetchToken) {
+          this.setState(
+            { rows, isAtEnd: false, isLoading: false },
+            this.scrollToUser
+          )
+        }
+      })
+      .catch(err => {
+        if (this._isMounted && token === this._fetchToken) {
+          this.setState({ isLoading: false })
+        }
+        if (process.env.NODE_ENV !== 'production') {
+          console.warn('Leaderboard fetch failed', err)
+        }
+      })
+  }
+
+  async componentDidMount() {
+    this._isMounted = true
+    this._fetchLeaderboardData()
   }
 
   // If locale or type changes, refetch leaderboard data
@@ -106,31 +115,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
       prevProps.locale !== this.props.locale ||
       prevProps.type !== this.props.type
     ) {
-      this._fetchToken = Symbol()
-      const { api, locale, type } = this.props
-      const token = this._fetchToken
-
-      this.setState({ isLoading: true })
-
-      api
-        .forLocale(locale)
-        .fetchLeaderboard(type)
-        .then(rows => {
-          if (this._isMounted && token === this._fetchToken) {
-            this.setState(
-              { rows, isAtEnd: false, isLoading: false },
-              this.scrollToUser
-            )
-          }
-        })
-        .catch(err => {
-          if (this._isMounted && token === this._fetchToken) {
-            this.setState({ isLoading: false })
-          }
-          if (process.env.NODE_ENV !== 'production') {
-            console.warn('Leaderboard fetch failed', err)
-          }
-        })
+      this._fetchLeaderboardData()
     }
   }
 
