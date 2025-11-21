@@ -25,7 +25,7 @@ import {
   OldPlayIcon,
   PlayOutlineIcon,
 } from '../../../ui/icons'
-import { Avatar, Toggle } from '../../../ui/ui'
+import { Avatar, Spinner, Toggle } from '../../../ui/ui'
 import StatsCard from './stats-card'
 
 import './leaderboard.css'
@@ -58,12 +58,14 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
 interface State {
   rows: { position: number; [key: string]: any }[]
   isAtEnd: boolean
+  isLoading: boolean
 }
 
 class UnconnectedLeaderboard extends React.Component<Props, State> {
   state: State = {
     rows: [],
     isAtEnd: false,
+    isLoading: true,
   }
 
   scroller: { current: HTMLUListElement | null } = React.createRef()
@@ -79,16 +81,56 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     const { api, locale, type } = this.props
     const token = this._fetchToken
 
+    this.setState({ isLoading: true })
+
     try {
       const rows = await api.forLocale(locale).fetchLeaderboard(type)
       // Only set state if still mounted AND fetch token matches
       if (this._isMounted && token === this._fetchToken) {
-        this.setState({ rows }, this.scrollToUser)
+        this.setState({ rows, isLoading: false }, this.scrollToUser)
       }
     } catch (err) {
+      if (this._isMounted && token === this._fetchToken) {
+        this.setState({ isLoading: false })
+      }
       if (process.env.NODE_ENV !== 'production') {
         console.warn('Leaderboard fetch failed', err)
       }
+    }
+  }
+
+  // If locale or type changes, refetch leaderboard data
+  // Note: This is a safety check; normally the key prop should cause remounting
+  componentDidUpdate(prevProps: Props) {
+    if (
+      prevProps.locale !== this.props.locale ||
+      prevProps.type !== this.props.type
+    ) {
+      this._fetchToken = Symbol()
+      const { api, locale, type } = this.props
+      const token = this._fetchToken
+
+      this.setState({ isLoading: true })
+
+      api
+        .forLocale(locale)
+        .fetchLeaderboard(type)
+        .then(rows => {
+          if (this._isMounted && token === this._fetchToken) {
+            this.setState(
+              { rows, isAtEnd: false, isLoading: false },
+              this.scrollToUser
+            )
+          }
+        })
+        .catch(err => {
+          if (this._isMounted && token === this._fetchToken) {
+            this.setState({ isLoading: false })
+          }
+          if (process.env.NODE_ENV !== 'production') {
+            console.warn('Leaderboard fetch failed', err)
+          }
+        })
     }
   }
 
@@ -146,7 +188,15 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
   }
 
   render() {
-    const { rows, isAtEnd } = this.state
+    const { rows, isAtEnd, isLoading } = this.state
+
+    if (isLoading && rows.length === 0) {
+      return (
+        <div className="leaderboard-loading">
+          <Spinner />
+        </div>
+      )
+    }
 
     // TODO: Render <Fetchrow>s outside of `items` to flatten the list.
     const items = rows.map((row, i) => {
