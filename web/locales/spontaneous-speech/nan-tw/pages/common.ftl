@@ -23,7 +23,6 @@ report-button = 回報
 skip-button = 略過
 submit-button = 送出
 contribute = 貢獻
-request-new-language = 要求新語言
 
 ## Navbar
 

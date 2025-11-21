@@ -23,7 +23,6 @@ report-button = Endondekania
 skip-button = Kiruka
 submit-button = Lebeka
 contribute = Sokera
-request-new-language = Saba omubuughe omuhyaka
 
 ## Navbar
 

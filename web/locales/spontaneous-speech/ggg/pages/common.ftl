@@ -23,7 +23,6 @@ report-button = رِپوٽَ
 skip-button = ڇوڙوو
 submit-button = ديئو
 contribute = مِل ڪي سآهِتآ ڪرو
-request-new-language = نويٚنٚ ڀوليو ڪيٚ درکآس
 
 ## Navbar
 

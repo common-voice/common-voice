@@ -23,7 +23,6 @@ report-button = አሳውቅ
 skip-button = ዝለል
 submit-button = አስገባ
 contribute = ያበርክቱ
-request-new-language = አዲስ ቋንቋ ይጠይቁ
 # Button text which appears when there are no more resources
 continue-with-skipped = በተዘለለ ይቀጥሉ
 

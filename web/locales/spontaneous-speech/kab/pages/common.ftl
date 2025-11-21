@@ -17,7 +17,6 @@ report-button = Aneqqis
 skip-button = Zgel
 submit-button = Azen
 contribute = Ttekki
-request-new-language = Sumer tutlayt niḍen
 
 ## Navbar
 

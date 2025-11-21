@@ -19,7 +19,6 @@ report-button = رپورٹ
 skip-button = بِل اِنت
 submit-button = جمع کنینی
 contribute = ھمراہ داری کنیں
-request-new-language = نوکیں زبان ءِ نیمگ ءَ روگ
 
 ## Navbar
 

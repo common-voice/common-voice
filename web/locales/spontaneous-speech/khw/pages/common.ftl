@@ -23,7 +23,6 @@ report-button = رپورٹ کو
 skip-button = پیڅیک
 submit-button = جمع کو
 contribute = حصہ دراوو
-request-new-language = نوغ وارو درخواست کو
 
 ## Navbar
 

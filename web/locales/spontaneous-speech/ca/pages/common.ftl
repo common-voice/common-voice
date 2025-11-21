@@ -23,7 +23,6 @@ report-button = Informa
 skip-button = Omet
 submit-button = Envia
 contribute = Col·laboreu‑hi
-request-new-language = Sol·licita una llengua
 # Button text which appears when there are no more resources
 continue-with-skipped = Continua amb el contingut omès
 

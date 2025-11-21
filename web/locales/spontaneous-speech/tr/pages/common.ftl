@@ -23,7 +23,6 @@ report-button = Raporla
 skip-button = Atla
 submit-button = Gönder
 contribute = Katkı ver
-request-new-language = Yeni dil iste
 # Button text which appears when there are no more resources
 continue-with-skipped = Atladıklarınla devam et
 

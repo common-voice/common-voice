@@ -23,7 +23,6 @@ report-button = Ripoota
 skip-button = Guruka
 submit-button = Hayo
 contribute = Taho/hayo
-request-new-language = Shaba Orurimi Rusya
 
 ## Navbar
 

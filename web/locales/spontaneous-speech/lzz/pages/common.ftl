@@ -14,7 +14,6 @@ report-button = Lapori
 skip-button = Moyoǩap̌i
 submit-button = Mendancğoni
 contribute = Eǩoşvelu
-request-new-language = Ar Nena Gori
 
 ## Navbar
 
