@@ -32,18 +32,19 @@ export default function StatsCard({
   currentLocale?: string
 }) {
   const [locale, setLocale] = useLocalStorageState(
-    DEFAULT_LOCALE_OPTION,
-    `${id}${currentLocale}`
+    `${id}`,
+    currentLocale || DEFAULT_LOCALE_OPTION
   )
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0])
-  const isDefaultOptionSelected = locale === DEFAULT_LOCALE_OPTION
 
-  // handle when changing language tab towards top of page
+  // Sync locale with currentLocale from top bar
   useEffect(() => {
-    if (currentLocale) {
-      setLocale(currentLocale)
+    if (currentLocale !== undefined) {
+      setLocale(currentLocale || DEFAULT_LOCALE_OPTION)
     }
-  }, [currentLocale])
+  }, [currentLocale, setLocale])
+
+  const isDefaultOptionSelected = locale === DEFAULT_LOCALE_OPTION
 
   return (
     <div
@@ -95,9 +96,8 @@ export default function StatsCard({
         <div className="content">
           {(() => {
             const TabComponent = tabs[selectedTab]
-            return (
-              <TabComponent locale={isDefaultOptionSelected ? null : locale} />
-            )
+            const localeToPass = isDefaultOptionSelected ? null : locale
+            return <TabComponent locale={localeToPass} />
           })()}{' '}
         </div>
       </div>
