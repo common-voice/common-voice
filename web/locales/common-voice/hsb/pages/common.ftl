@@ -486,3 +486,17 @@ announcement-mdc-text = <strong>Nowe datowe sadźby Common Voice</strong> su ně
 announcement-mdc-button-text = Přidružće so k Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Wočinja w nowym rajtarku
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Započńće pisać, zo byšće pytał
+searchbox-default-placeholder = Pytać…
+searchbox-default-aria-label = Pytać
+dropdown-no-results = Žadyn wotpowědnik namakany
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Změni pokazowansku rěč kaž tež rěč datoweho wobstatka
+dataset-searchbox-placeholder = Rěč pytać…
+dataset-searchbox-aria-label = Rěč pytać
+dataset-search-no-results = Žanu wotpowědnu rěč namakane.
+request-new-language = Nowu rěč požadać
