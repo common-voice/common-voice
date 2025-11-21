@@ -32,8 +32,8 @@ export default function StatsCard({
   currentLocale?: string
 }) {
   const [locale, setLocale] = useLocalStorageState(
-    currentLocale || DEFAULT_LOCALE_OPTION,
-    `${id}`
+    `${id}`,
+    currentLocale || DEFAULT_LOCALE_OPTION
   )
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0])
 
