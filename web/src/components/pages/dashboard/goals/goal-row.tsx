@@ -76,7 +76,10 @@ export default function GoalRow({
       <div className="goal-boxes">
         {goals.map((goal, i) => (
           <GoalBox
-            key={goal.date || `${type}-${goal.goal}-${i}`}
+            key={
+              goal.date ||
+              `${type}-${goal.goal}-${Math.floor(10000 * Math.random())}`
+            }
             {...goal}
             type={type}
             isNext={(goals[i - 1] || ({} as any)).date}
