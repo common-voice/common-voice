@@ -33,13 +33,20 @@ export const handler =
     ) => TE.TaskEither<ApplicationError, boolean>
   ) =>
   async (req: Request, res: Response) => {
-    const client_id = req.session.user.client_id // Guaranteed by middleware
     const {
+      session: {
+        user: { client_id },
+      },
       headers,
       params: { locale },
     } = req
 
     const size = Number(headers['content-length'])
+
+    if (!client_id)
+      return res
+        .status(StatusCodes.BAD_REQUEST)
+        .json({ message: 'no client id' })
 
     if (size >= SIZE_LIMIT_IN_BYTES)
       return res

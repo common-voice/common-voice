@@ -117,19 +117,25 @@ export default class Clip {
   }
 
   saveClipVote = async (
-    { session: { user }, body, params, headers }: Request,
+    {
+      session: {
+        user: { client_id },
+      },
+      body,
+      params,
+      headers,
+    }: Request,
     response: Response
   ) => {
-    const client_id = user.client_id // Guaranteed by middleware
     const id = params.clipId as string
     const { isValid, challenge } = body
 
-    if (!id) {
+    if (!id || !client_id) {
       this.clipSaveError(
         headers,
         response,
         400,
-        'missing parameter: clip_id',
+        `missing parameter: ${id ? 'client_id' : 'clip_id'}`,
         ERRORS.MISSING_PARAM,
         'vote'
       )
@@ -187,20 +193,22 @@ export default class Clip {
    * to be easily parsed from other errors
    */
   saveClip = async (request: Request, response: Response) => {
+    // default the client_id to null if it is not present in the session.user object
+    // so that a 400 is returned below
     const { headers } = request
-    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const client_id = request?.session?.user?.client_id
     const sentenceId =
       (headers['sentence-id'] as string) || (headers.sentence_id as string) // TODO: Remove the second case in August 2025
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
 
-    if (!sentenceId) {
+    if (!sentenceId || !client_id) {
       this.clipSaveError(
         headers,
         response,
         400,
-        'missing parameter: sentence_id',
+        `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`,
         ERRORS.MISSING_PARAM,
         'clip'
       )
@@ -365,8 +373,12 @@ export default class Clip {
   }
 
   serveRandomClips = async (request: Request, response: Response) => {
-    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const { client_id } = request?.session?.user || {}
     const { locale } = request.params
+
+    if (!client_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     const ignoreClientVariant =
       Boolean(request.query.ignoreClientVariant) || false
     const count = Number(request.query.count) || 1
