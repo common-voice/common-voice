@@ -177,3 +177,10 @@ code-switching-ask-bilingual-contexts-explanation = Feu servir situacions on s'u
 code-switching-ask-bilingual-contexts-explanation-example = «Quan parles amb els teus cosins, barreges el castellà i català?»
 code-switching-informal-scenarios-header = Exploreu escenaris informals
 code-switching-informal-scenarios-explanation = Les converses amb amics o els missatges de text sovint inclouen canvis més naturals. Exemple:
+# What to Avoid
+code-switching-avoid-subheader = Què s'ha d'evitar
+code-switching-avoid-1 = Sol·licitar informació personal identificable
+code-switching-avoid-2 = Sol·licitar discursos d'odi o altres sentiments esbiaixats o ofensius
+code-switching-avoid-3 = Fer que algú comparteixi respostes sensibles o potencialment provocadora
+code-switching-dont-header = Eviteu
+code-switching-dont-1 = No useu un llenguatge massa formal
