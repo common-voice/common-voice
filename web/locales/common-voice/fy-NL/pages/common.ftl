@@ -498,3 +498,5 @@ dropdown-no-results = Gjin oerienkomst fûn
 dataset-searchbox-label = Wiziget sawol de werjefte- as de gegevenssettaal
 dataset-searchbox-placeholder = Sykje nei in taal…
 dataset-searchbox-aria-label = Sykje nei in taal
+dataset-search-no-results = Gjin oerienkommende taal fûn.
+request-new-language = Nije taal oanfreegje
