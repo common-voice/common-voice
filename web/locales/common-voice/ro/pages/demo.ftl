@@ -1,3 +1,8 @@
+## DemoLayout
+
+demo-get-started = Să începem
+demo-welcome = Bine ai venit la Common Voice
+
 ## Demo Datasets
 
 card-button-next = Înainte
