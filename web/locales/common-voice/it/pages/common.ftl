@@ -489,6 +489,8 @@ announcement-mdc-button-aria-text = Si apre in una nuova scheda
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = Inizia a digitare per cercare
 searchbox-default-placeholder = Cerca…
 searchbox-default-aria-label = Cerca
 dropdown-no-results = Nessuna corrispondenza trovata
