@@ -85,6 +85,7 @@ no-api-keys-description =
 api-key-name-input =
     .label = Nom de credencial de l'API
 create-api-key-header = <bold>Avís important: Generació de credencials d'API</bold>
+create-api-key-description = En fer clic a «Genera credencials» es crearan unes credencials úniques per al vostre compte. Per raons de seguretat, la clau secreta es mostra <bold>només una vegada</bold>. Copieu-la i emmagatzemeu-la de forma segura. Si es perd, heu de generar una clau nova, ja que no es pot recuperar.
 create-api-key-agreement = Estic d'acord que no intentaré identificar als oradors en el conjunt de dades del Common Voice.
 generate-api-key-button = Genera credencials
 save-api-key-info = <bold>Deseu les claus amb seguretat</bold>

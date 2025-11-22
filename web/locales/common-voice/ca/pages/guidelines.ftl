@@ -170,3 +170,10 @@ tags-laugh = Riure
 tags-unclear = Poc clar
 tags-noise = Soroll
 tags-laugh-explanation = El so del riure.
+
+## Code-Switching
+
+code-switching-ask-bilingual-contexts-explanation = Feu servir situacions on s'utilitzen habitualment ambdues llengües (per exemple, a casa, a l'escola, en esdeveniments comunitaris). Exemple:
+code-switching-ask-bilingual-contexts-explanation-example = «Quan parles amb els teus cosins, barreges el castellà i català?»
+code-switching-informal-scenarios-header = Exploreu escenaris informals
+code-switching-informal-scenarios-explanation = Les converses amb amics o els missatges de text sovint inclouen canvis més naturals. Exemple:
