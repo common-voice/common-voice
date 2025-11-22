@@ -7,9 +7,7 @@ import { createReportCommandHandler } from '../../../application/reports/use-cas
 import { createPresentableError } from '../../../application/helper/error-helper'
 
 export const createReportHandler = async (req: Request, res: Response) => {
-  const userId = req?.session?.user?.client_id
-  if (!userId)
-    return res.status(StatusCodes.BAD_REQUEST).json({ message: 'no user client id' })
+  const userId = req.session.user.client_id // Guaranteed by middleware
 
   const cmd: CreateReportCommand = {
     clientId: userId,
