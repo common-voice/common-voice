@@ -12,6 +12,7 @@ abq = Abaza
 ace = Acehnès
 ady = adigué
 af = afrikaans
+aii = suret
 ajg = adja
 aln = gheg albanès
 am = amhàric
@@ -51,6 +52,7 @@ bxr = buriat
 byv = medumba
 ca = català
 cak = kaqtxikel
+cdo = min oriental
 ckb = kurd central
 cnh = hakha chin
 co = cors
@@ -84,6 +86,7 @@ gn = guaraní
 gom = konkani
 gu-IN = gujarati
 guc = wayuunaiki
+gv = manx
 ha = haussa
 he = hebreu
 hi = hindi
@@ -275,6 +278,7 @@ vi = vietnamita
 vmw = makhuwa
 vot = vòtic
 wep = westfalià
+wes = pidgin del Camerun
 wo = wòlof
 xh = xhosa
 yi = ídix
@@ -340,6 +344,8 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = Ja estan disponibles <strong>nous conjunts de dades de Common Voice</strong> per a baixar, de manera exclusiva, a través de la nostra plataforma germana, Mozilla Data Collective. Uniu-vos-hi per a accedir a més de 300 conjunts de dades globals, creats per i per a la comunitat.
 # Button text for MDC announcement
 announcement-mdc-button-text = Uneix-te a Mozilla Data Collective
 # Aria text for button which opens MDC on a new page

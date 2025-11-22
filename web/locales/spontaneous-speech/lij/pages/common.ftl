@@ -23,7 +23,6 @@ report-button = Denonçia
 skip-button = Passa
 submit-button = Manda
 contribute = Contribuisci
-request-new-language = Domanda unna neuva lengua
 
 ## Navbar
 

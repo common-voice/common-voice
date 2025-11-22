@@ -23,7 +23,6 @@ report-button = Lò-dziydjò ngùdha
 skip-button = Da fúnì djòluw
 submit-button = Chwó
 contribute = I nì ndèy ró lò ndiy nì ddiy
-request-new-language = Kwo Lò-tsò Tdey
 
 ## Navbar
 

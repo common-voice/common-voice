@@ -23,7 +23,6 @@ report-button = رپورٹ کرو
 skip-button = چھوڑو
 submit-button = جمع کرالو
 contribute = حصہ باؤ
-request-new-language = نوّی زبان دی درخواست کرو
 
 ## Navbar
 

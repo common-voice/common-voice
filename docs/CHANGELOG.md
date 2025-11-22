@@ -43,9 +43,19 @@
 
 ### Changes merged after current release
 
+- Feat: Refactor API and add require-user-middleware, by [@moz-bozden](https://github.com/moz-bozden) in [#5180](https://github.com/common-voice/common-voice/pull/5180) (in v1.155.1)
+- Feat: Introduce fuzzy search and apply in CV language selector, by [@moz-bozden](https://github.com/moz-bozden) in [#5176](https://github.com/common-voice/common-voice/pull/5176) (in v1.155.1)
+- Feat: Implement pre-fetch in lazy cache and apply to leader-board queries, by [@moz-bozden](https://github.com/moz-bozden) in [#5175](https://github.com/common-voice/common-voice/pull/5175) (in v1.155.1)
+- Fix: Multiple fixes in dashboard page stats and goals sections, by [@moz-bozden](https://github.com/moz-bozden) in [#5178](https://github.com/common-voice/common-voice/pull/5178) (in v1.155.1)
+- Chore: Change zh-TW into zh-CN in legal doc links, by [@moz-bozden](https://github.com/moz-bozden) in [#5177](https://github.com/common-voice/common-voice/pull/5177) (in v1.155.1)
+
 #### Data Changes after current release
 
+- Chore: Change name of (`shi`) from Tachelhit to Tashlhiyt (in v1.155.1)
+
 #### Spontaneous Speech after current release
+
+- Refactor: Move the UI language selector to the menu area, by [@moz-bozden](https://github.com/moz-bozden) in [#496](https://github.com/common-voice/spontaneous-speech/pull/497) and [#497](https://github.com/common-voice/spontaneous-speech/pull/496) (in v1.155.1)
 
 ##### SS Data Changes after current release
 

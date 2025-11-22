@@ -23,7 +23,6 @@ report-button = Hlášení
 skip-button = Přeskočit
 submit-button = Odeslat
 contribute = Přispět
-request-new-language = Požádat o nový jazyk
 # Button text which appears when there are no more resources
 continue-with-skipped = Pokračovat s přeskočenými
 

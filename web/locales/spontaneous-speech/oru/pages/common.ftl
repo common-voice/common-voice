@@ -23,7 +23,6 @@ report-button = رپورټ
 skip-button = نغوک/سکِپ
 submit-button = شند
 contribute = شند
-request-new-language = ته نیوو زبان پاره درخواست
 
 ## Navbar
 

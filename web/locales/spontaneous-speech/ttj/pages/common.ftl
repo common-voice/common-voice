@@ -23,7 +23,6 @@ report-button = lipoota
 skip-button = Guruka
 submit-button = Hayo
 contribute = Hayo ebyawe
-request-new-language = Saba orulimi oruhyaka
 
 ## Navbar
 

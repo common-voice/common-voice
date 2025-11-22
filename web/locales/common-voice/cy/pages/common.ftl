@@ -486,3 +486,17 @@ announcement-mdc-text = Mae <strong>setiau data Common Voice newydd</strong> bel
 announcement-mdc-button-text = Ymunwch â'r Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Yn agor mewn tab newydd
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Cychwynnwch deipio i chwilio
+searchbox-default-placeholder = Chwilio…
+searchbox-default-aria-label = Chwilio
+dropdown-no-results = Heb ganfod cydweddiad
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Yn newid yr iaith dangos a'r set ddata
+dataset-searchbox-placeholder = Chwilio am iaith...
+dataset-searchbox-aria-label = Chwilio am iaith
+dataset-search-no-results = Heb ganfod iaith sy'n cyfateb.
+request-new-language = Gofyn am Iaith Newydd

@@ -23,7 +23,6 @@ report-button = Raporti
 skip-button = Preterlasi
 submit-button = Sendi
 contribute = Kontribui
-request-new-language = Peti novan lingvon
 
 ## Navbar
 

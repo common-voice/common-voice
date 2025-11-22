@@ -23,7 +23,6 @@ report-button = ანგარიშ
 skip-button = ქა ლიცუ̂რე
 submit-button = ქა ლიზზი
 contribute = ლიმურჯუ̂ი
-request-new-language = ხიჰრ მახე ნინ
 
 ## Navbar
 

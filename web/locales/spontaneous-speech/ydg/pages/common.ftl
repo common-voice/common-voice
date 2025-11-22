@@ -21,7 +21,6 @@ report-button = رپورٹ
 skip-button = لیغان
 submit-button = جمع کن
 contribute = حصو دریا
-request-new-language = نوؤ زبانن درخواست کن
 # Button text which appears when there are no more resources
 continue-with-skipped = لے لیغدان دے جفت جاری اویاؤ
 

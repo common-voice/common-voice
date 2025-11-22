@@ -23,7 +23,6 @@ report-button = Jelentés
 skip-button = Kihagyás
 submit-button = Elküldés
 contribute = Közreműködés
-request-new-language = Új nyelv kérése
 # Button text which appears when there are no more resources
 continue-with-skipped = Folytatás a kihagyottakkal
 

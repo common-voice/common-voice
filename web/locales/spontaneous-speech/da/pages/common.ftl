@@ -20,7 +20,6 @@ report-button = Rapportér
 skip-button = Spring over
 submit-button = Indsend
 contribute = Bidrag
-request-new-language = Anmod om nyt sprog
 
 ## Navbar
 

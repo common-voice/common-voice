@@ -165,7 +165,9 @@ export default class Model {
       return await this.db.getCombinedLanguageData()
     },
     6 * TimeUnits.HOUR,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getAllLanguages = lazyCache(
@@ -175,7 +177,9 @@ export default class Model {
       return languages
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getAllDatasets = lazyCache(
@@ -184,7 +188,9 @@ export default class Model {
       return await this.db.getAllDatasets(releaseType)
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getLanguageDatasetStats = lazyCache(
@@ -193,7 +199,9 @@ export default class Model {
       return await this.db.getLanguageDatasetStats(languageCode)
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getAllLanguagesWithDatasets = lazyCache(
@@ -202,14 +210,18 @@ export default class Model {
       return await this.db.getAllLanguagesWithDatasets()
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getLocalizedPercentages = lazyCache(
     'get-localized-percentages',
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getAverageSecondsPerClip = lazyCache(
@@ -222,7 +234,8 @@ export default class Model {
     },
     12 * TimeUnits.HOUR,
     30 * TimeUnits.MINUTE,
-    true // allow stale data
+    true, // allow stale data
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getLanguageStats = lazyCache(

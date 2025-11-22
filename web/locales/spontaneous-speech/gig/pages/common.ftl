@@ -23,7 +23,6 @@ report-button = خير خبر
 skip-button = چهوڙ ڌي
 submit-button = جمح ڪرڻو
 contribute = رآبتو ڪريس
-request-new-language = ڀولي ري درخواس ڪرو
 
 ## Navbar
 

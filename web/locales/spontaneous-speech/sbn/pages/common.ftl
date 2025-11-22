@@ -23,7 +23,6 @@ report-button = رپورٽ
 skip-button = ڇڏڻ
 submit-button = جمآ ڪرو
 contribute = شرآڪت ڪرڻ
-request-new-language = رپوٽ نئيٚ ٻوليٚ ريٚ
 
 ## Navbar
 

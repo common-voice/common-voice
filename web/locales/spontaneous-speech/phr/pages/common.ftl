@@ -16,7 +16,6 @@ report-button = رپورٹ کرا
 skip-button = چھوڑو
 submit-button = جمع کرا
 contribute = شرکت کرا
-request-new-language = نویں زبان نی درخواست کرا
 # Button text which appears when there are no more resources
 continue-with-skipped = چھوڑے نے کنے جاری رکھا
 

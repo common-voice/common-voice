@@ -23,7 +23,6 @@ report-button = მოხსენება
 skip-button = გიშატება
 submit-button = ჯღონა
 contribute = წილიში მიშაღალა
-request-new-language = მითხით ახალი ნინა
 # Button text which appears when there are no more resources
 continue-with-skipped = გაგძელით გიშატებათ
 

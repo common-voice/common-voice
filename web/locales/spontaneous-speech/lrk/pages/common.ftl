@@ -23,7 +23,6 @@ report-button = رپورٽ
 skip-button = سوڙوہ
 submit-button = جما جر
 contribute = ويراوہ
-request-new-language = نوي ٻولي ري درخواست ڪرو
 
 ## Navbar
 

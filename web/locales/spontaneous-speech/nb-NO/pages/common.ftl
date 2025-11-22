@@ -23,7 +23,6 @@ report-button = Rapporter
 skip-button = Hopp over
 submit-button = Send
 contribute = Bidra
-request-new-language = Be om nytt språk
 # Button text which appears when there are no more resources
 continue-with-skipped = Fortsett med hoppet over
 

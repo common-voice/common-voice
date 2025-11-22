@@ -23,7 +23,6 @@ report-button = ثو پعستہ
 skip-button = پوتیاستہ
 submit-button = اپار کوستہ
 contribute = سنہ ستہ
-request-new-language = نوئ وری کہ درخواست کشی
 
 ## Navbar
 

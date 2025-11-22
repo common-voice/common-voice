@@ -1,0 +1,29 @@
+.language-select-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font-size: 16px;
+    font-family: var(--base-font-family);
+    padding-inline-start: 4px;
+    position: relative;
+
+    @media (--xl-up) {
+        justify-content: space-around;
+    }
+
+    & .mobile {
+        display: none;
+        @media (--lg-down) {
+            display: flex;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--white);
+            border: 1px solid var(--black);
+            border-radius: 5px;
+            padding: 4px 8px;
+            box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+            z-index: var(--top-z-index);
+        }
+    }
+}
