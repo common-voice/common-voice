@@ -486,3 +486,15 @@ announcement-mdc-text = <strong>Nije Common Voice-datasets</strong> binne no eks
 announcement-mdc-button-text = Doch mei oan Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Iepenet yn in nij ljepblêd
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Typ hjir om te sykjen
+searchbox-default-placeholder = Sykje…
+searchbox-default-aria-label = Sykje
+dropdown-no-results = Gjin oerienkomst fûn
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Wiziget sawol de werjefte- as de gegevenssettaal
+dataset-searchbox-placeholder = Sykje nei in taal…
+dataset-searchbox-aria-label = Sykje nei in taal
