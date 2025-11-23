@@ -191,6 +191,17 @@ export namespace Sentences {
         getState: () => StateTree
       ) => {
         const state = getState()
+        const currentLocaleState = state.sentences[state.locale]
+
+        // Check if we have enough unvalidated pending sentences
+        const unvalidatedCount =
+          currentLocaleState?.pendingSentences?.filter(s => s.isValid === null)
+            .length || 0
+
+        // Only fetch if we have less than MIN_CACHE_COUNT unvalidated sentences
+        if (unvalidatedCount >= MIN_CACHE_COUNT) {
+          return
+        }
 
         dispatch({
           type: ActionType.REFILL_PENDING_SENTENCES_LOADING,
@@ -206,7 +217,14 @@ export namespace Sentences {
 
     voteSentence:
       (sentenceVote: SentenceVote) =>
-      async (dispatch: Dispatch<VoteSentence>, getState: () => StateTree) => {
+      async (
+        dispatch: Dispatch<
+          | VoteSentence
+          | RefillPendingSentencesAction
+          | RefillPendingSentencesLoadingAction
+        >,
+        getState: () => StateTree
+      ) => {
         const state = getState()
 
         await state.api.voteSentence({ ...sentenceVote })
@@ -217,12 +235,27 @@ export namespace Sentences {
           isValid: sentenceVote.vote,
           sentenceIndex: sentenceVote.sentenceIndex,
         })
+
+        // Get the localeId from the pending sentences
+        const currentLocaleState = state.sentences[state.locale]
+        const pendingSentence =
+          currentLocaleState?.pendingSentences?.[sentenceVote.sentenceIndex]
+        if (pendingSentence?.localeId) {
+          actions.refillPendingSentences(pendingSentence.localeId)(
+            dispatch,
+            getState
+          )
+        }
       },
 
     skipSentence:
       (sentenceId: string) =>
       async (
-        dispatch: Dispatch<ShowNextSentence>,
+        dispatch: Dispatch<
+          | ShowNextSentence
+          | RefillPendingSentencesAction
+          | RefillPendingSentencesLoadingAction
+        >,
         getState: () => StateTree
       ) => {
         const state = getState()
@@ -233,6 +266,18 @@ export namespace Sentences {
           type: ActionType.SHOW_NEXT_SENTENCE,
           sentenceId,
         })
+
+        // Get the localeId from the pending sentences
+        const currentLocaleState = state.sentences[state.locale]
+        const pendingSentence = currentLocaleState?.pendingSentences?.find(
+          s => s.sentenceId === sentenceId
+        )
+        if (pendingSentence?.localeId) {
+          actions.refillPendingSentences(pendingSentence.localeId)(
+            dispatch,
+            getState
+          )
+        }
       },
 
     showNextSentence: (sentenceId: string) => ({
