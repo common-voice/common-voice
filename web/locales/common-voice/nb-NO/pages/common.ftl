@@ -486,3 +486,17 @@ announcement-mdc-text = <strong>Nye Common Voice-datasett</strong> er nå tilgje
 announcement-mdc-button-text = Bli med i Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Åpnes i en ny fane
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Begynn å skrive for å søke
+searchbox-default-placeholder = Søk…
+searchbox-default-aria-label = Søk
+dropdown-no-results = Ingen treff funnet
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Endrer både visnings- og datasettspråk
+dataset-searchbox-placeholder = Søk etter et språk…
+dataset-searchbox-aria-label = Søk etter et språk
+dataset-search-no-results = Ingen samsvarende språk funnet
+request-new-language = Be om nytt språk
