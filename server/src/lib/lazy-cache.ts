@@ -10,6 +10,17 @@ interface PrefetchOptions {
   safetyMultiplier?: number // Default 2.0 (use 2x avgFetchTime as safety margin)
 }
 
+// Log level control (set LOG_LEVEL=debug for verbose logging)
+const LOG_LEVEL = process.env.LOG_LEVEL || 'info'
+const isDebugEnabled = LOG_LEVEL === 'debug'
+
+// Cold-start detection: track first N minutes after startup
+const startupTime = Date.now()
+const COLD_START_PERIOD = 2 * TimeUnits.MINUTE // First 2 minutes are "cold start"
+function isColdStart(): boolean {
+  return Date.now() - startupTime < COLD_START_PERIOD
+}
+
 // Monitor Redis state specifically for lazy-cache
 redis.on('ready', () => console.info('[LazyCache-Redis] Ready'))
 redis.on('error', err => console.error('[LazyCache-Redis] Error:', err.message))
@@ -30,6 +41,9 @@ let lastErrorReport = 0
 let errorCount = 0 // Track error count for rate limiting
 let healthCheckInterval: NodeJS.Timeout | null = null
 
+// Track which error contexts we've already reported during cold-start
+const coldStartErrorsReported = new Set<string>()
+
 const HEALTH_CHECK_INTERVAL = 5 * TimeUnits.SECOND // 5 seconds always
 const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per minute
 
@@ -49,6 +63,23 @@ function reportError(error: Error, context: string): void {
   const now = Date.now()
   errorCount++
 
+  // During cold-start, suppress expected lock contention errors entirely
+  if (isColdStart()) {
+    if (
+      context === 'cache-lock-fail-no-stale' ||
+      context === 'redis-operation'
+    ) {
+      // Only log the first occurrence of each type during cold-start
+      if (!coldStartErrorsReported.has(context)) {
+        console.warn(
+          `[LazyCache] Cold-start: ${context} (subsequent similar errors suppressed during startup)`
+        )
+        coldStartErrorsReported.add(context)
+      }
+      return
+    }
+  }
+
   // Only report first error each minute
   if (now - lastErrorReport >= ERROR_REPORT_INTERVAL) {
     try {
@@ -58,7 +89,7 @@ function reportError(error: Error, context: string): void {
       })
 
       console.error(
-        `[LazyCache] Error reported to Sentry: context=${context}, error=${error.message}, totalErrors=${errorCount}`
+        `[LazyCache] Error: ${context} - ${error.message} (${errorCount} occurrences)`
       )
 
       lastErrorReport = now
@@ -66,15 +97,8 @@ function reportError(error: Error, context: string): void {
     } catch (sentryError) {
       console.error('[LazyCache] Failed to report to Sentry:', sentryError)
     }
-  } else {
-    console.warn(
-      `[LazyCache] Error suppressed (rate limited): context=${context}, error=${
-        error.message
-      }, errorCount=${errorCount}, nextReportIn=${Math.floor(
-        (ERROR_REPORT_INTERVAL - (now - lastErrorReport)) / 1000
-      ).toFixed(2)}s`
-    )
   }
+  // Silently increment counter for rate-limited errors (no console spam)
 }
 
 // Background health monitoring
@@ -240,15 +264,17 @@ function memoryCache<T, S>(cachedFunction: Fn<T, S>, timeMs: number): Fn<T, S> {
       caches[key] = cached = {}
     }
 
-    return (cached.promise = new Promise(async resolve => {
-      const hasOldCache = cached && cached.value
-      if (hasOldCache) resolve(cached.value)
-      Object.assign(cached, {
-        at: Date.now(),
-        value: await cachedFunction(...args),
-        promise: null,
-      })
-      if (!hasOldCache) resolve(cached.value)
+    return (cached.promise = new Promise(resolve => {
+      ;(async () => {
+        const hasOldCache = cached && cached.value
+        if (hasOldCache) resolve(cached.value)
+        Object.assign(cached, {
+          at: Date.now(),
+          value: await cachedFunction(...args),
+          promise: null,
+        })
+        if (!hasOldCache) resolve(cached.value)
+      })()
     }))
   }
 }
@@ -373,9 +399,12 @@ function redisCache<T, S>(
   }
 
   async function handleLockFailure(key: string): Promise<T> {
-    console.warn(
-      `[LazyCache] Lock acquisition failed for ${cacheKey}. Attempting recovery strategy.`
-    )
+    // During cold-start or high concurrency, lock contention is expected
+    if (isDebugEnabled) {
+      console.debug(
+        `[LazyCache] Lock held for ${cacheKey}, using recovery strategy`
+      )
+    }
 
     if (allowStaleOnLockFailure) {
       // Prefer stale or fresh data before doing anything else
@@ -390,18 +419,19 @@ function redisCache<T, S>(
 
           // Fresh data happened to appear
           if (!isExpired(at, timeMs)) {
-            console.debug(
-              `[LazyCache] Fresh data became available for ${cacheKey}`
-            )
             return value
           }
 
           // Return stale if allowed
           if (value) {
-            const ageMinutes = ((Date.now() - at) / TimeUnits.MINUTE).toFixed(2)
-            console.warn(
-              `[LazyCache] Returning STALE data for ${cacheKey} (age: ${ageMinutes} minutes).`
-            )
+            if (isDebugEnabled || !isColdStart()) {
+              const ageMinutes = ((Date.now() - at) / TimeUnits.MINUTE).toFixed(
+                2
+              )
+              console.warn(
+                `[LazyCache] Returning stale data for ${cacheKey} (age: ${ageMinutes}m)`
+              )
+            }
             return value
           }
         }
@@ -420,9 +450,11 @@ function redisCache<T, S>(
     }
 
     // Fresh data REQUIRED
-    console.warn(
-      `[LazyCache] Lock held for ${cacheKey}. Fresh data required, checking if another instance already computed it.`
-    )
+    if (isDebugEnabled) {
+      console.debug(
+        `[LazyCache] Lock held for ${cacheKey}, checking for fresh data`
+      )
+    }
 
     try {
       const raw = await redis.get(key)
@@ -432,9 +464,6 @@ function redisCache<T, S>(
         const at = cached.at || 0
 
         if (!isExpired(at, timeMs)) {
-          console.debug(
-            `[LazyCache] Fresh data now available for ${cacheKey}. Another instance computed it.`
-          )
           return value
         }
       }
@@ -473,9 +502,13 @@ function redisCache<T, S>(
           'PX',
           timeMs
         )
-        console.debug(
-          `[LazyCache] Cached ${cacheKey} with fetchTime=${fetchTime}ms, TTL=${timeMs}ms`
-        )
+        if (isDebugEnabled) {
+          console.debug(
+            `[LazyCache] Cached ${cacheKey} with fetchTime=${fetchTime}ms, TTL=${Math.floor(
+              timeMs / 1000
+            )}s`
+          )
+        }
       } catch (setError) {
         reportError(setError as Error, 'cache-set')
       }
@@ -512,9 +545,11 @@ function redisCache<T, S>(
     }
 
     if (age >= refreshThreshold) {
-      console.debug(
-        `[LazyCache] Prefetch triggered for ${cacheKey}: age=${age}ms, threshold=${refreshThreshold}ms, avgFetch=${avgFetchTime}ms`
-      )
+      if (isDebugEnabled) {
+        console.debug(
+          `[LazyCache] Prefetch triggered for ${cacheKey}: age=${age}ms, threshold=${refreshThreshold}ms`
+        )
+      }
 
       // Trigger async refresh without blocking current request
       // Wrap in IIFE to catch all async errors
@@ -535,9 +570,6 @@ function redisCache<T, S>(
               const currentCached = JSON.parse(current)
               const currentAge = Date.now() - currentCached.at
               if (currentAge < refreshThreshold) {
-                console.debug(
-                  `[LazyCache] Prefetch skipped for ${cacheKey}: already refreshed by another instance`
-                )
                 return
               }
             }
@@ -554,37 +586,39 @@ function redisCache<T, S>(
               'PX',
               timeMs
             )
-
-            console.debug(
-              `[LazyCache] Prefetch completed for ${cacheKey}: fetchTime=${fetchTime}ms`
-            )
           } catch (error) {
             // Log but don't throw - prefetch failures are non-critical
-            // User will get stale data until next successful fetch
-            console.warn(
-              `[LazyCache] Prefetch failed for ${cacheKey}:`,
-              error instanceof Error ? error.message : error
-            )
+            if (isDebugEnabled) {
+              console.warn(
+                `[LazyCache] Prefetch failed for ${cacheKey}:`,
+                error instanceof Error ? error.message : error
+              )
+            }
           } finally {
             if (prefetchLock) {
               try {
                 await prefetchLock.unlock()
               } catch (unlockError) {
-                console.warn(
-                  `[LazyCache] Prefetch unlock warning for ${cacheKey}:`,
-                  unlockError instanceof Error
-                    ? unlockError.message
-                    : unlockError
-                )
+                // Silently ignore prefetch unlock errors in production
+                if (isDebugEnabled) {
+                  console.warn(
+                    `[LazyCache] Prefetch unlock warning for ${cacheKey}:`,
+                    unlockError instanceof Error
+                      ? unlockError.message
+                      : unlockError
+                  )
+                }
               }
             }
           }
         })().catch(error => {
           // Catch any errors thrown before the inner try-catch
-          console.warn(
-            `[LazyCache] Prefetch (outer) failed for ${cacheKey}:`,
-            error instanceof Error ? error.message : error
-          )
+          if (isDebugEnabled) {
+            console.warn(
+              `[LazyCache] Prefetch error for ${cacheKey}:`,
+              error instanceof Error ? error.message : error
+            )
+          }
         })
       })
     }
