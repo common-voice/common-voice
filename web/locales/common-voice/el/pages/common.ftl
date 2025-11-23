@@ -486,3 +486,14 @@ announcement-mdc-text = <strong>Νέα σύνολα δεδομένων του Co
 announcement-mdc-button-text = Συμμετοχή στο Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Ανοίγει σε νέα καρτέλα
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Ξεκινήστε να πληκτρολογείτε για αναζήτηση
+searchbox-default-placeholder = Αναζήτηση...
+searchbox-default-aria-label = Αναζήτηση
+dropdown-no-results = Δεν βρέθηκε αντιστοιχία
+dataset-searchbox-placeholder = Αναζήτηση για γλώσσα...
+dataset-searchbox-aria-label = Αναζήτηση για γλώσσα
+request-new-language = Αίτημα για νέα γλώσσα
