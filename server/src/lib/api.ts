@@ -152,6 +152,13 @@ export default class API {
     router.use('/webhooks', webhooksRouter)
 
     //
+    // User Account - login, signup, profile
+    //
+
+    // Get current user account details - or null if not logged in
+    router.get('/user_client', this.getAccount)
+
+    //
     // Storage & File Access
     //
 
@@ -287,9 +294,6 @@ export default class API {
     // Claim contributions from another client_id
     // Params: client_id
     router.post('/user_clients/:client_id/claim', this.claimUserClient)
-
-    // Get current user account details
-    router.get('/user_client', this.getAccount)
 
     // Update user account settings (email, username, visibility, etc.)
     router.patch('/user_client', this.saveAccount)
@@ -709,8 +713,12 @@ export default class API {
   }
 
   getAccount = async (request: Request, response: Response) => {
-    const user = request.session.user // Guaranteed by middleware
-    const userData = await UserClient.findAccount(user.email)
+    // This can be called without user in session
+    const user = request?.session?.user
+    let userData = null
+    if (user) {
+      userData = await UserClient.findAccount(user.email)
+    }
 
     if (userData !== null && userData.avatar_clip_url !== null) {
       userData.avatar_clip_url = await this.bucket.getAvatarClipsUrl(
@@ -718,7 +726,7 @@ export default class API {
       )
     }
 
-    response.json(userData)
+    response.json(user ? userData : null)
   }
 
   subscribeToNewsletter = async (
