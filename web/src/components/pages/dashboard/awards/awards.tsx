@@ -1,13 +1,12 @@
-import * as React from 'react';
-import { useEffect } from 'react';
-import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
-import { User } from '../../../../stores/user';
-import URLS from '../../../../urls';
-import { MicIcon, PlayOutlineIcon } from '../../../ui/icons';
-import { LinkButton } from '../../../ui/ui';
-import Props from '../props';
+import * as React from 'react'
+import { useEffect, useRef } from 'react'
+import { useAccount, useAPI } from '../../../../hooks/store-hooks'
+import URLS from '../../../../urls'
+import { MicIcon, PlayOutlineIcon } from '../../../ui/icons'
+import { LinkButton } from '../../../ui/ui'
+import Props from '../props'
 
-import './awards.css';
+import './awards.css'
 
 const NoAwardsPage = ({ dashboardLocale }: { dashboardLocale: string }) => (
   <div className="no-awards-page">
@@ -24,12 +23,12 @@ const NoAwardsPage = ({ dashboardLocale }: { dashboardLocale: string }) => (
     </LinkButton>
     <p>When you complete a personal goal, your awards will show up here.</p>
   </div>
-);
+)
 
 const INTERVAL_LABELS: { [key: number]: string } = {
   1: 'Daily',
   7: 'Weekly',
-};
+}
 
 const Wave = () => (
   <svg className="wave" width="172" height="70" viewBox="0 0 172 70">
@@ -51,7 +50,7 @@ const Wave = () => (
       xlinkHref="#wave-a"
     />
   </svg>
-);
+)
 
 const AwardBox = ({ award }: any) => (
   <li className={'award-box ' + award.type}>
@@ -69,36 +68,39 @@ const AwardBox = ({ award }: any) => (
       {({ speak: <MicIcon />, listen: <PlayOutlineIcon /> } as any)[award.type]}
     </div>
   </li>
-);
+)
 
 export default function AwardsPage({ dashboardLocale }: Props) {
-  const account = useAccount();
-  const api = useAPI();
-  const refreshUser = useAction(User.actions.refresh);
+  const account = useAccount()
+  const api = useAPI()
+  const hasSeenAwards = useRef(false)
 
   useEffect(() => {
-    api.seenAwards().then(() => {
-      refreshUser();
-    });
-  }, []);
+    if (!hasSeenAwards.current) {
+      hasSeenAwards.current = true
+      api.seenAwards().catch(err => {
+        console.error('Failed to mark awards as seen:', err)
+      })
+    }
+  }, [])
 
   if (!account) {
-    return null;
+    return null
   }
 
   const awards = account.awards.filter(
     a => !dashboardLocale || a.locale == dashboardLocale
-  );
+  )
 
   if (awards.length == 0) {
-    return <NoAwardsPage {...{ dashboardLocale }} />;
+    return <NoAwardsPage {...{ dashboardLocale }} />
   }
 
   const buckets = awards.reduce((buckets, award) => {
-    const bucket = buckets[award.days_interval];
-    buckets[award.days_interval] = bucket ? [...bucket, award] : [award];
-    return buckets;
-  }, []);
+    const bucket = buckets[award.days_interval]
+    buckets[award.days_interval] = bucket ? [...bucket, award] : [award]
+    return buckets
+  }, [])
 
   return (
     <div className="award-lists">
@@ -115,5 +117,5 @@ export default function AwardsPage({ dashboardLocale }: Props) {
         ) : null
       )}
     </div>
-  );
+  )
 }
