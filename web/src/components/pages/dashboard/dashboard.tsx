@@ -238,8 +238,7 @@ function DashboardContent({
     return () => {
       isMounted = false
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dashboardLocale])
+  }, [api, dashboardLocale])
 
   return <Page {...{ allGoals, dashboardLocale }} />
 }
@@ -270,8 +269,7 @@ const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
     return () => {
       isMounted = false
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [api])
   return (
     <div className="challenge-bar">
       {isChallengeLive(pilotDates) && (
