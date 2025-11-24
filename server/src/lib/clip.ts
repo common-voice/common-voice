@@ -4,7 +4,8 @@ import { getConfig } from '../config-helper'
 import Model from './model'
 import getLeaderboard from './model/leaderboard'
 import { earnBonus, hasEarnedBonus } from './model/achievements'
-import * as Basket from './basket'
+// Basket import removed: currently bulk-mail facility is not supported
+// import * as Basket from './basket'
 import * as Sentry from '@sentry/node'
 import Bucket from './bucket'
 import Awards from './model/awards'
@@ -157,7 +158,7 @@ export default class Clip {
     // move it to the last line and leave a trace here in case of serious performance issues
     // response.json(ret);
 
-    Basket.sync(client_id).catch(e => console.error(e))
+    // Basket.sync(client_id).catch(e => console.error(e)) // Commented out: currently bulk-mail facility is not supported
     const ret = challengeTokens.includes(challenge)
       ? {
           glob: glob,
@@ -308,7 +309,7 @@ export default class Clip {
           id: sentence.locale_id,
         })
 
-        Basket.sync(client_id).catch(e => console.error(e))
+        // Basket.sync(client_id).catch(e => console.error(e)) // Commented out: currently bulk-mail facility is not supported
 
         const challenge = headers.challenge as ChallengeToken
         const ret = challengeTokens.includes(challenge)

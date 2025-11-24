@@ -22,7 +22,7 @@ import Awards from './model/awards'
 import CustomGoal from './model/custom-goal'
 import getGoals from './model/goals'
 import UserClient from './model/user-client'
-import * as Basket from './basket'
+// Basket import removed: bulk-mail facility not supported
 import Bucket from './bucket'
 import Clip from './clip'
 import Model from './model'
@@ -812,11 +812,11 @@ export default class API {
       // It is 32 char, so we pad it with "mcv-"" to reach 36 char length of our basket tokens, also indicating its origin
       const hash = createMd5Hash(email)
 
-      const clientId = await UserClient.updateBasketToken(
+      void (await UserClient.updateBasketToken(
         email,
         hash.padStart(36, 'mcv-')
-      )
-      await Basket.sync(clientId, true)
+      ))
+      // await Basket.sync(clientId, true) // Commented out: bulk-mail facility not supported
 
       // HTTP success (2xx)
       console.debug('[Newsletter] Subscription successful.')
@@ -1052,7 +1052,7 @@ export default class API {
 
     await CustomGoal.create(userId, request.params.locale, request.body)
     response.json({})
-    Basket.sync(userId).catch(e => console.error(e))
+    // Basket.sync(userId).catch(e => console.error(e)) // Commented out: bulk-mail facility not supported
   }
 
   getGoals = async (request: Request, response: Response) => {
