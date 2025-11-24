@@ -4,7 +4,8 @@ import { getConfig } from '../config-helper'
 import Model from './model'
 import getLeaderboard from './model/leaderboard'
 import { earnBonus, hasEarnedBonus } from './model/achievements'
-import * as Basket from './basket'
+// Basket import removed: currently bulk-mail facility is not supported
+// import * as Basket from './basket'
 import * as Sentry from '@sentry/node'
 import Bucket from './bucket'
 import Awards from './model/awards'
@@ -117,25 +118,19 @@ export default class Clip {
   }
 
   saveClipVote = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      body,
-      params,
-      headers,
-    }: Request,
+    { session: { user }, body, params, headers }: Request,
     response: Response
   ) => {
+    const client_id = user.client_id // Guaranteed by middleware
     const id = params.clipId as string
     const { isValid, challenge } = body
 
-    if (!id || !client_id) {
+    if (!id) {
       this.clipSaveError(
         headers,
         response,
         400,
-        `missing parameter: ${id ? 'client_id' : 'clip_id'}`,
+        'missing parameter: clip_id',
         ERRORS.MISSING_PARAM,
         'vote'
       )
@@ -163,7 +158,7 @@ export default class Clip {
     // move it to the last line and leave a trace here in case of serious performance issues
     // response.json(ret);
 
-    Basket.sync(client_id).catch(e => console.error(e))
+    // Basket.sync(client_id).catch(e => console.error(e)) // Commented out: currently bulk-mail facility is not supported
     const ret = challengeTokens.includes(challenge)
       ? {
           glob: glob,
@@ -193,22 +188,20 @@ export default class Clip {
    * to be easily parsed from other errors
    */
   saveClip = async (request: Request, response: Response) => {
-    // default the client_id to null if it is not present in the session.user object
-    // so that a 400 is returned below
     const { headers } = request
-    const client_id = request?.session?.user?.client_id
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const sentenceId =
       (headers['sentence-id'] as string) || (headers.sentence_id as string) // TODO: Remove the second case in August 2025
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
 
-    if (!sentenceId || !client_id) {
+    if (!sentenceId) {
       this.clipSaveError(
         headers,
         response,
         400,
-        `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`,
+        'missing parameter: sentence_id',
         ERRORS.MISSING_PARAM,
         'clip'
       )
@@ -316,7 +309,7 @@ export default class Clip {
           id: sentence.locale_id,
         })
 
-        Basket.sync(client_id).catch(e => console.error(e))
+        // Basket.sync(client_id).catch(e => console.error(e)) // Commented out: currently bulk-mail facility is not supported
 
         const challenge = headers.challenge as ChallengeToken
         const ret = challengeTokens.includes(challenge)
@@ -373,12 +366,8 @@ export default class Clip {
   }
 
   serveRandomClips = async (request: Request, response: Response) => {
-    const { client_id } = request?.session?.user || {}
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const { locale } = request.params
-
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
     const ignoreClientVariant =
       Boolean(request.query.ignoreClientVariant) || false
     const count = Number(request.query.count) || 1

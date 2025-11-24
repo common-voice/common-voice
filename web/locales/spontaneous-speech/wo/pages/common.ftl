@@ -21,7 +21,6 @@ report-button = Nettali
 skip-button = Tëb
 submit-button = Yónnée
 contribute = Jàpp ci
-request-new-language = Laaj benn làkk
 # Button text which appears when there are no more resources
 continue-with-skipped = Wéyal ak Jàll
 

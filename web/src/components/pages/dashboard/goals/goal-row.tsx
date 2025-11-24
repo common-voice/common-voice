@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import { GlobalGoal } from 'common';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import { GlobalGoal } from 'common'
 
-import './goal-row.css';
+import './goal-row.css'
 
 const Wave = () => (
   <svg width="160" height="70" viewBox="0 0 160 70">
@@ -25,7 +25,7 @@ const Wave = () => (
       xlinkHref="#wave-a"
     />
   </svg>
-);
+)
 
 const GoalBox = ({
   date,
@@ -39,11 +39,13 @@ const GoalBox = ({
     <hr />
     <Localized
       id={
-        ({
-          streaks: 'days',
-          clips: 'recordings',
-          votes: 'validations',
-        } as any)[type]
+        (
+          {
+            streaks: 'days',
+            clips: 'recordings',
+            votes: 'validations',
+          } as any
+        )[type]
       }
       vars={{ count: goal }}>
       <div className="unit" />
@@ -58,12 +60,12 @@ const GoalBox = ({
       </div>
     )}
   </div>
-);
+)
 
 export default function GoalRow({
   goalInfo: [type, [current, goals]],
 }: {
-  goalInfo: [string, [number, GlobalGoal[]]];
+  goalInfo: [string, [number, GlobalGoal[]]]
 }) {
   return (
     <div className="goal-row">
@@ -74,7 +76,10 @@ export default function GoalRow({
       <div className="goal-boxes">
         {goals.map((goal, i) => (
           <GoalBox
-            key={i}
+            key={
+              goal.date ||
+              `${type}-${goal.goal}-${Math.floor(10000 * Math.random())}`
+            }
             {...goal}
             type={type}
             isNext={(goals[i - 1] || ({} as any)).date}
@@ -82,5 +87,5 @@ export default function GoalRow({
         ))}
       </div>
     </div>
-  );
+  )
 }

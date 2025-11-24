@@ -23,7 +23,6 @@ report-button = رپورٹ
 skip-button = سکپ
 submit-button = جمہ گرو
 contribute = حصہ گھِنو
-request-new-language = نیئ زیب سو درخواست
 
 ## Navbar
 

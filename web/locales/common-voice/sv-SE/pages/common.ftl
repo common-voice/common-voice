@@ -12,6 +12,7 @@ abq = Abaza
 ace = Acehnesiska
 ady = Adygeiska
 af = Afrikaans
+aii = Suret
 ajg = Adja
 aln = Gheg albanska
 am = Amhariska
@@ -485,3 +486,17 @@ announcement-mdc-text = <strong>Nya Common Voice-datamängder</strong> finns nu 
 announcement-mdc-button-text = Gå med i Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Öppnas i en ny flik
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Börja skriva för att söka
+searchbox-default-placeholder = Sök...
+searchbox-default-aria-label = Sök
+dropdown-no-results = Ingen matchning hittades
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Ändrar både visning och datamängdsspråk
+dataset-searchbox-placeholder = Sök efter ett språk...
+dataset-searchbox-aria-label = Sök efter ett språk
+dataset-search-no-results = Inget matchande språk hittades
+request-new-language = Begär nytt språk

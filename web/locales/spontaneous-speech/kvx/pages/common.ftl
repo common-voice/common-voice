@@ -23,7 +23,6 @@ report-button = رپورٽ
 skip-button = ساڏوو
 submit-button = جمع
 contribute = ڀاڳ ليوو
-request-new-language = ٻولِي رئي ڌرخواست ۮيو
 
 ## Navbar
 

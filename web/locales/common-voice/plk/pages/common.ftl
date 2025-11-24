@@ -12,6 +12,7 @@ abq = ابازا
 ace = اچینیز
 ady = ادیگھے
 af = افریکی
+aii = سُریت
 ajg = ادجہ
 aln = گیگ البانیائی
 am = امہارک
@@ -485,3 +486,17 @@ announcement-mdc-text = <strong>نوں کامن وائس ڈیٹاسیٹس</stron
 announcement-mdc-button-text = موزیلا ڈیٹا کولیکٹیو دہ ٹل بِیا
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = نوں ٹیب دہ پتوڑ تِھیا
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = اورڑونے کِرِیا سرچ تِھیا/ٹائپ تِھیا
+searchbox-default-placeholder = اورڑِیا/سرچ تِھیا
+searchbox-default-aria-label = اوروڑ تھون
+dropdown-no-results = آئے سے ساتیْ میشِیک نہ ہشِلُن/ہشِلِن
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = ڈسپلے گہ ڈیٹا بیئی بدل تِھیا
+dataset-searchbox-placeholder = جِبے کِرِیا اوروڑ تِھیا
+dataset-searchbox-aria-label = جِبے کِرِیا اوروڑ تِھیا
+dataset-search-no-results = آئے سے ایْکھتِی جِِب نہ ہشِلن
+request-new-language = نئی جِبے  کِرِیا درخواست تِھیا

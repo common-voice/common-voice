@@ -22,7 +22,7 @@ import Awards from './model/awards'
 import CustomGoal from './model/custom-goal'
 import getGoals from './model/goals'
 import UserClient from './model/user-client'
-import * as Basket from './basket'
+// Basket import removed: bulk-mail facility not supported
 import Bucket from './bucket'
 import Clip from './clip'
 import Model from './model'
@@ -110,143 +110,315 @@ export default class API {
     // Feature flag handling - should come early to set cookies
     router.use(this.handleFeatureMiddleware.handle)
 
-    // Ping endpoint for FE to set features
+    // Public endpoints (no authentication required)
+    router.use('/', this.getPublicRouter())
+
+    // Protected endpoints (authentication required)
+    router.use('/', this.getProtectedRouter())
+
+    router.use('*', (request: Request, response: Response) => {
+      response.sendStatus(404)
+    })
+
+    return router
+  }
+
+  private getPublicRouter(): Router {
+    const router = PromiseRouter()
+
+    //
+    // System & Health Check
+    //
+
+    // Health check endpoint for frontend feature flag detection
     router.get('/ping', (request: Request, response: Response) => {
       response.send('pong')
     })
 
-    // Old datasets bucket access (feature-flagged, rate limited)
-    router.get(
-      '/bucket/:bucket_type/:path',
-      // 10 requests per minute per IP address
-      rateLimiter('/bucket', { points: 10, duration: 60 }),
-      this.getPublicUrl
-    )
-
-    router.use('/webhooks', webhooksRouter)
+    // Legacy redirect endpoints
     router.get('/metrics', (request: Request, response: Response) => {
       response.redirect('/')
     })
+
     router.get('/golem', (request: Request, response: Response) => {
       response.redirect('/')
     })
 
-    router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob)
-
     //
-    // User & Profile
+    // Webhooks (External Service Integrations)
     //
 
-    router.get('/user_clients', this.getUserClients)
-    router.post('/user_clients/:client_id/claim', this.claimUserClient)
+    // Firefox Accounts event webhooks
+    router.use('/webhooks', webhooksRouter)
+
+    //
+    // User Account - login, signup, profile
+    //
+
+    // Get current user account details - or null if not logged in
     router.get('/user_client', this.getAccount)
-    router.patch('/user_client', this.saveAccount)
-    router.patch(
-      '/anonymous_user',
-      validate({ body: anonUserMetadataSchema }),
-      // 1 requests per minute per IP address
-      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
-      this.saveAnonymousAccountLanguages
-    )
-    router.post(
-      '/user_client/avatar/:type',
-      bodyParser.raw({ type: 'image/*', limit: '300kb' }),
-      this.saveAvatar
-    )
-    router.post('/user_client/avatar_clip', this.saveAvatarClip)
-    router.get('/user_client/avatar_clip', this.getAvatarClip)
-    router.get('/user_client/delete_avatar_clip', this.deleteAvatarClip)
-    router.post('/user_client/:locale/goals', this.createCustomGoal)
-    router.get('/user_client/goals', this.getGoals)
-    router.get('/user_client/:locale/goals', this.getGoals)
-    router.post('/user_client/awards/seen', this.seenAwards)
-    router.get('/user_client/takeout', this.getTakeouts)
-    router.post('/user_client/takeout/request', this.requestTakeout)
-    router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
-
-    router.use('/profiles', profilesRouter)
 
     //
-    // Language
+    // Storage & File Access
     //
 
-    router.get('/language/accents/:locale?', this.getAccents)
+    // Get public URL for legacy dataset bucket files (feature-flagged)
+    // Params: bucket_type, path
+    // TODO: Consider to move this to protected router and add under user profile
+    router.get(
+      '/bucket/:bucket_type/:path',
+      rateLimiter('/bucket', { points: 10, duration: 60 }),
+      this.getPublicUrl
+    )
+
+    //
+    // Languages
+    //
+
+    // Get available language variants for a locale
+    // Params: locale (optional)
     router.get('/language/variants/:locale?', this.getVariants)
+
+    // Submit request to add a new language to Common Voice
+    // Body: email, languageInfo, languageLocale, platforms
     router.post(
       '/language/request',
-      // 10 requests per minute
       rateLimiter('/language/request', { points: 10, duration: 60 }),
       validate({ body: sendLanguageRequestSchema }),
       this.sendLanguageRequest
     )
-    router.get('/requested_languages', this.getRequestedLanguages)
-    router.post('/requested_languages', this.createLanguageRequest)
 
+    // Get list of all language requests
+    router.get('/requested_languages', this.getRequestedLanguages)
+
+    // Get available languages for a project (common-voice or spontaneous-speech)
+    // Query: project
     router.get(
       '/available_languages',
       validate({ query: projectSchema }),
       this.getAvailableLanguages
     )
+
+    // Get combined language data (All coming from Pontoon, CV/SS/CS - active or not, with variants and predefined accents combined)
     router.get('/languagedata', this.getCombinedLanguageData)
+
+    // Get all available languages
     router.get('/languages', this.getAllLanguages)
+
+    // Language-specific endpoints (translations, etc.)
     router.use('/languages/:locale', languagesRouter)
 
     //
-    // Sentences
+    // Statistics & Analytics
     //
-    router.use('/sentences', SentencesRouter)
 
-    router.get(
-      '/:locale/sentences',
-      validate({ query: sentenceSchema }),
-      this.getRandomSentences
-    )
-    router.post('/skipped_sentences/:id', this.createSkippedSentence)
-    router.post('/skipped_clips/:id', this.createSkippedClip)
-
-    //
-    // Clips
-    //
-    router.use('/:locale?/clips', this.clip.getRouter())
-
-    //
-    // Statistics & Contribution
-    //
+    // Statistics endpoints (clips, speakers, downloads, etc.)
     router.use('/statistics', this.statistics.getRouter())
 
+    // Get contribution activity statistics
+    // Query: from (optional - 'you' for user-specific)
     router.get('/contribution_activity', this.getContributionActivity)
     router.get('/:locale/contribution_activity', this.getContributionActivity)
 
+    // Get language-specific statistics
     router.get('/stats/languages/', this.getLanguageStats)
 
     //
     // Datasets
     //
 
+    // Get all datasets by release type
+    // Query: releaseType (singleword|delta|complete)
     router.get(
       '/datasets',
       validate({ query: datasetSchema }),
       this.getAllDatasets
     )
+
+    // Get all languages that have published datasets
     router.get('/datasets/languages', this.getAllLanguagesWithDatasets)
 
+    // Get dataset statistics for specific language
     router.use('/datasets/languages', datasetRouter)
 
+    //
+    // Newsletter & Communication
+    //
+
+    // Subscribe email to Common Voice newsletter
+    // Params: email, Query: language
     router.post('/newsletter/:email', this.subscribeToNewsletter)
 
+    // Track dataset downloads by locale
+    // Body: locale, email, dataset
     router.post('/:locale/downloaders', this.insertDownloader)
 
-    router.use('/reports', reportsRouter)
+    //
+    // Challenges & Gamification
+    //
 
+    // Challenge-related endpoints (points, progress, leaderboards)
     router.use('/challenge', this.challenge.getRouter())
 
+    //
+    // Utilities
+    //
+
+    // Get current server date/time (prevents client-side date manipulation)
     router.get('/server_date', this.getServerDate)
 
+    return router
+  }
+
+  private getProtectedRouter(): Router {
+    const router = PromiseRouter()
+
+    // Apply authentication middleware once for all protected routes
+    router.use(this.requireUserMiddleware.handle)
+
+    //
+    // Background Jobs
+    //
+
+    // Get status of background job (e.g., avatar image upload)
+    // Params: jobId
+    router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob)
+
+    //
+    // User Account Management
+    //
+
+    // Get all user client accounts (for SSO users with multiple clients)
+    router.get('/user_clients', this.getUserClients)
+
+    // Claim contributions from another client_id
+    // Params: client_id
+    router.post('/user_clients/:client_id/claim', this.claimUserClient)
+
+    // Update user account settings (email, username, visibility, etc.)
+    router.patch('/user_client', this.saveAccount)
+
+    // Save language metadata for anonymous users (accent, variant)
+    // Body: languages array
+    router.patch(
+      '/anonymous_user',
+      validate({ body: anonUserMetadataSchema }),
+      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
+      this.saveAnonymousAccountLanguages
+    )
+
+    //
+    // User Profile - Avatars
+    //
+
+    // Upload user avatar (file, gravatar, or default)
+    // Params: type (file|gravatar|default)
+    router.post(
+      '/user_client/avatar/:type',
+      bodyParser.raw({ type: 'image/*', limit: '300kb' }),
+      this.saveAvatar
+    )
+
+    // Upload voice avatar clip
+    router.post('/user_client/avatar_clip', this.saveAvatarClip)
+
+    // Get voice avatar clip URL
+    router.get('/user_client/avatar_clip', this.getAvatarClip)
+
+    // Delete voice avatar clip
+    router.get('/user_client/delete_avatar_clip', this.deleteAvatarClip)
+
+    //
+    // User Profile - Goals & Achievements
+    //
+
+    // Create custom contribution goal for a locale
+    // Params: locale, Body: goal details
+    router.post('/user_client/:locale/goals', this.createCustomGoal)
+
+    // Get user's global goals
+    router.get('/user_client/goals', this.getGoals)
+
+    // Get user's goals for specific locale
+    // Params: locale
+    router.get('/user_client/:locale/goals', this.getGoals)
+
+    // Mark awards/notifications as seen
+    // Query: notification (optional)
+    router.post('/user_client/awards/seen', this.seenAwards)
+
+    //
+    // User Profile - Data Takeout (GDPR)
+    //
+
+    // Get list of user's data takeout requests
+    router.get('/user_client/takeout', this.getTakeouts)
+
+    // Request new data takeout (limited to prevent abuse)
+    router.post('/user_client/takeout/request', this.requestTakeout)
+
+    // Get download links for completed takeout
+    // Params: id (takeout request ID)
+    router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
+
+    //
+    // User Profile - API Credentials
+    //
+
+    // API credentials management (under feature flag)
+    router.use('/profiles', profilesRouter)
+
+    //
+    // Languages (User-Specific)
+    //
+
+    // Get user's accent preferences for a locale
+    // Params: locale (optional)
+    router.get('/language/accents/:locale?', this.getAccents)
+
+    // Create a new language request
+    // Body: language
+    router.post('/requested_languages', this.createLanguageRequest)
+
+    //
+    // Sentences - Contribution
+    //
+
+    // Sentence submission and voting (rate-limited in sub-router)
+    router.use('/sentences', SentencesRouter)
+
+    // Bulk sentence submission (rate-limited in sub-router)
     router.use('/:locale/bulk_submissions', bulkSubmissionsRouter)
 
-    router.use('*', (request: Request, response: Response) => {
-      response.sendStatus(404)
-    })
+    // Get random sentences to record for a locale
+    // Params: locale, Query: count, ignoreClientVariant
+    router.get(
+      '/:locale/sentences',
+      validate({ query: sentenceSchema }),
+      this.getRandomSentences
+    )
+
+    // Mark sentence as skipped
+    // Params: id (sentence_id)
+    router.post('/skipped_sentences/:id', this.createSkippedSentence)
+
+    //
+    // Clips - Contribution & Validation
+    //
+
+    // Clip recording, validation, and statistics
+    router.use('/:locale?/clips', this.clip.getRouter())
+
+    // Mark clip as skipped during validation
+    // Params: id (clip_id)
+    router.post('/skipped_clips/:id', this.createSkippedClip)
+
+    //
+    // Content Moderation
+    //
+
+    // Report inappropriate content (clips, sentences)
+    router.use('/reports', reportsRouter)
 
     return router
   }
@@ -260,9 +432,9 @@ export default class API {
   }
 
   createLanguageRequest = async (request: Request, response: Response) => {
-    const { client_id } = request?.session?.user || {}
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const language = request?.body?.language
-    if (!client_id || !language) {
+    if (!language) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     await this.model.db.createLanguageRequest(language, client_id)
@@ -291,10 +463,7 @@ export default class API {
   }
 
   getAccents = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const locale = request?.params?.locale
     response.json(await this.model.db.getAccents(client_id, locale || null))
   }
@@ -346,10 +515,10 @@ export default class API {
   //
 
   getRandomSentences = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const locale = request?.params?.locale
 
-    if (!client_id || !locale) {
+    if (!locale) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
 
@@ -430,9 +599,9 @@ export default class API {
   }
 
   createSkippedSentence = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const sentence_id = request?.params?.id
-    if (!client_id || !sentence_id) {
+    if (!sentence_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     await this.model.db.createSkippedSentence(sentence_id, client_id)
@@ -444,9 +613,9 @@ export default class API {
   //
 
   createSkippedClip = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const clip_id = request?.params?.id
-    if (!client_id || !clip_id) {
+    if (!clip_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     await this.model.db.createSkippedClip(clip_id, client_id)
@@ -496,11 +665,7 @@ export default class API {
   //
 
   getUserClients = async (request: Request, response: Response) => {
-    const user = request?.session?.user
-    if (!user) {
-      response.json([])
-      return
-    }
+    const user = request.session.user // Guaranteed by middleware
     const email = user.email
     const client_id = user.client_id
     const enrollment = user.enrollment
@@ -527,8 +692,8 @@ export default class API {
     response: Response
   ) => {
     const languages = request?.body?.languages
-    const client_id = request?.session?.user?.client_id
-    if (!client_id || !languages || languages.length === 0) {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    if (!languages || languages.length === 0) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     response
@@ -540,14 +705,15 @@ export default class API {
 
   saveAccount = async (request: Request, response: Response) => {
     const body = request?.body
-    const user = request?.session?.user
-    if (!body || !user) {
+    const user = request.session.user // Guaranteed by middleware
+    if (!body) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     response.json(await UserClient.saveAccount(user.email, body))
   }
 
   getAccount = async (request: Request, response: Response) => {
+    // This can be called without user in session
     const user = request?.session?.user
     let userData = null
     if (user) {
@@ -646,11 +812,11 @@ export default class API {
       // It is 32 char, so we pad it with "mcv-"" to reach 36 char length of our basket tokens, also indicating its origin
       const hash = createMd5Hash(email)
 
-      const clientId = await UserClient.updateBasketToken(
+      void (await UserClient.updateBasketToken(
         email,
         hash.padStart(36, 'mcv-')
-      )
-      await Basket.sync(clientId, true)
+      ))
+      // await Basket.sync(clientId, true) // Commented out: bulk-mail facility not supported
 
       // HTTP success (2xx)
       console.debug('[Newsletter] Subscription successful.')
@@ -672,9 +838,9 @@ export default class API {
   ) => {
     const body = request?.body
     const params = request?.params
-    const user = request?.session?.user
-    const client_id = request?.session?.user?.client_id
-    if (!body || !params || !user || !client_id) {
+    const user = request.session.user // Guaranteed by middleware
+    const client_id = user.client_id
+    if (!body || !params) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     let avatarURL
@@ -730,11 +896,10 @@ export default class API {
 
   // TODO: Check for empty or silent clips before uploading.
   saveAvatarClip = async (request: Request, response: Response) => {
-    const session = request?.session
     const headers = request?.headers
-    const user = request?.session?.user
-    const client_id = request?.session?.user?.client_id
-    if (!session || !headers || !user || !client_id) {
+    const user = request.session.user // Guaranteed by middleware
+    const client_id = user.client_id
+    if (!headers) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
 
@@ -822,7 +987,7 @@ export default class API {
 
   getAvatarClip = async (request: Request, response: Response) => {
     try {
-      const user = request?.session?.user
+      const user = request.session.user // Guaranteed by middleware
       let path = await UserClient.getAvatarClipURL(user.email)
       path = path[0][0].avatar_clip_url
 
@@ -834,28 +999,19 @@ export default class API {
   }
 
   deleteAvatarClip = async (request: Request, response: Response) => {
-    const user = request?.session?.user
-    if (!user) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
+    const user = request.session.user // Guaranteed by middleware
     await UserClient.deleteAvatarClipURL(user.email)
     response.json('deleted')
   }
 
   getTakeouts = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const takeouts = await this.takeout.getClientTakeouts(client_id)
     response.json(takeouts)
   }
 
   requestTakeout = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     try {
       // Throws if there is a pending takeout.
       const takeout_id = await this.takeout.startTakeout(client_id)
@@ -866,9 +1022,9 @@ export default class API {
   }
 
   getTakeoutLinks = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const id = request?.params?.id
-    if (!client_id || !id) {
+    if (!id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     const links = await this.takeout.generateDownloadLinks(
@@ -892,31 +1048,24 @@ export default class API {
   }
 
   createCustomGoal = async (request: Request, response: Response) => {
-    const userId = request?.session?.user?.client_id
-    if (!userId)
-      return response
-        .status(StatusCodes.UNAUTHORIZED)
-        .json({ message: 'no user client id' })
+    const userId = request.session.user.client_id // Guaranteed by middleware
 
     await CustomGoal.create(userId, request.params.locale, request.body)
     response.json({})
-    Basket.sync(request.session.user.client_id).catch(e => console.error(e))
+    // Basket.sync(userId).catch(e => console.error(e)) // Commented out: bulk-mail facility not supported
   }
 
   getGoals = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     // locale is optional
     const locale = request?.params?.locale
     return response.json({ globalGoals: await getGoals(client_id, locale) })
   }
 
   claimUserClient = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const params = request?.params
-    if (!(await UserClient.hasSSO(params.client_id)) && client_id) {
+    if (!(await UserClient.hasSSO(params.client_id))) {
       await UserClient.claimContributions(client_id, [params.client_id])
     }
     response.json({})
@@ -934,10 +1083,7 @@ export default class API {
   }
 
   seenAwards = async (request: Request, response: Response) => {
-    const client_id = request?.session?.user?.client_id
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     await Awards.seen(
       client_id,
       Object.prototype.hasOwnProperty.call(request.query, 'notification')
@@ -1019,9 +1165,9 @@ export default class API {
   }
 
   getJob = async (request: Request, response: Response, next: NextFunction) => {
-    const client_id = request?.session?.user?.client_id
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const jobId = request?.params?.jobId
-    if (!client_id || !jobId) {
+    if (!jobId) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     try {

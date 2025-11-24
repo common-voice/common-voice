@@ -23,7 +23,6 @@ report-button = Danevelliñ
 skip-button = Lezel a-gostez
 submit-button = Kas
 contribute = Kemer perzh
-request-new-language = Goulenn ur yezh nevez
 # Button text which appears when there are no more resources
 continue-with-skipped = Kenderc'hel gant ar re bet lezet a-gostez
 

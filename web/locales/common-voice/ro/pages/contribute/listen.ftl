@@ -12,12 +12,19 @@ listen-loading-error =
 listen-abort-title = Ai terminat validarea clipurilor?
 listen-abort-cancel = Continuă să validezi
 listen-abort-confirm = Finalizează validarea
+# Menu item
+validate-readings = Validează lecturile
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Validare lecturi <small>(În curând)</small>
 
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Validează înregistrări, verifică transcrieri
+validate-readings-menu-item-tooltip = Validează lecturile înregistrate de utilizatori în limba ta
 review-transcriptions-menu-item-tooltip = Verifică transcrierile trimise în limba ta de alți utilizatori
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Meniu opțiuni de ascultare
+validate-readings-menu-item-aria-label = Validează lecturi trimise de membrii comunității
 review-transcriptions-menu-item-aria-label = Verifică acuratețea transcrierilor înregistrărilor audio

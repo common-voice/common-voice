@@ -110,13 +110,21 @@ action-items-section-subtitle = Qualquer pessoa pode preservar, revitalizar e va
 scripted-card-header = Fala com roteiro
 scripted-card-content = Leia frases em voz alta no seu idioma e contribua para o conjunto de dados de voz de participação pública mais diversificado do mundo.
 spontaneous-card-header = Fala espontânea
+spontaneous-card-content = Responda a consultas para criar conjuntos de dados para contextos orgânicos e coloquiais. Perfeito para idiomas predominantemente orais.
+language-text-card-header = Texto no idioma
+language-text-card-content = Crie ou compartilhe consultas, frases e textos de domínio público para tradução, pequenos modelos de linguagem e outras coisas.
 coming-soon = Em breve
 add-text = Adicionar texto
 
 ## Community section
 
+community-section-title = Desenvolvidos por comunidades globais, para comunidades globais — 130 idiomas e crescendo!
+join-discord-community = Junte-se à comunidade no Discord
 # label for button
 join-discord-community-action = Participe no Discord
+join-discord-community-content = Participe de discussões na comunidade linguística, faça perguntas e saiba mais sobre os próximos eventos e palestras.
+find-us-on-matrix = Encontre-nos no Matrix
+ask-mozilla-share = Peça para a Mozilla compartilhar seus eventos
 # label for button
 ask-mozilla-share-action = Compartilhe seu evento
 download-contribution-certificate = Baixe seu certificado de contribuição
@@ -129,6 +137,25 @@ contribute-github-action = Contribua no GitHub
 ## Featured section
 
 featured-section-title = Em destaque em...
+# icon is an arrow that points downwards
+download-press-pack = Baixe nosso pacote de imprensa <icon></icon>
+
+## Developers section
+
+developers-section-title = Conjuntos de dados vocais abertos, acessíveis ao público em mais de 130 idiomas
+# icon is an arrow that points to the right
+explore-datasets = Explorar conjuntos de dados <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = Apoie conjuntos de dados abertos, gerenciados pela comunidade
+read-sentences-link = Ler frases
+validate-readings-link = Validar leituras
+answer-questions-link = Responder perguntas
+transcribe-answers-link = Transcrever respostas
+review-transcriptions-link = Revisar transcrições
+contribute-text-link = Contribuir com texto
+press-and-stories-link = Imprensa e histórias
 
 ## Partner section
 

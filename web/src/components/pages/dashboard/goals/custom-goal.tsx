@@ -1,6 +1,6 @@
 import { Localized } from '@fluent/react'
 import * as React from 'react'
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { CustomGoalParams } from 'common'
 import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks'
 import { User } from '../../../../stores/user'
@@ -207,9 +207,13 @@ export default function CustomGoal({
   const [stepIndex, setStepIndex] = useState(
     !customGoal && hasStartParam ? STEPS.EDIT_START : STEPS.INTRO
   )
-  if (hasStartParam) {
-    history.replace(location.pathname)
-  }
+
+  // Remove 'start' param from URL after component mounts
+  useEffect(() => {
+    if (hasStartParam) {
+      history.replace(location.pathname)
+    }
+  }, [hasStartParam, history, location.pathname])
 
   const [touchedStepIndex, setTouchedStepIndex] = useState(STEPS.INTRO)
   const [subscribed, setSubscribed] = useState(false)

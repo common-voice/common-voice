@@ -12,6 +12,7 @@ abq = Abaza
 ace = Ačehšćina
 ady = Adygišćina
 af = Afrikanšćina
+aii = Suretšćina
 ajg = Adja
 aln = Gegiska albanšćina
 am = Amharšćina
@@ -485,3 +486,17 @@ announcement-mdc-text = <strong>Nowe datowe sajźby Common Voice</strong> su ně
 announcement-mdc-button-text = Pśizamkniśo se k Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Wócynja w nowem rejtariku
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Zachopśo pisaś, aby pytał
+searchbox-default-placeholder = Pytaś…
+searchbox-default-aria-label = Pytaś
+dropdown-no-results = Žeden wótpowědnik namakany
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Změnijo pokazowańsku rěc ako teke rěc datowego wobstatka
+dataset-searchbox-placeholder = Rěc pytaś…
+dataset-searchbox-aria-label = Rěc pytaś
+dataset-search-no-results = Žedna wótpowědna rěc namakana.
+request-new-language = Nowu rěc pominaś

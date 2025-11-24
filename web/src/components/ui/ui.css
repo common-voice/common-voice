@@ -391,3 +391,19 @@ button.card-action:focus.focus-visible path {
         margin: 0 25px;
     }
 }
+
+.dropdown-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: var(--header-z-index);
+    cursor: pointer;
+}
+@media (--sm-down) {
+    .dropdown-overlay {
+        background-color: transparent;
+    }
+}

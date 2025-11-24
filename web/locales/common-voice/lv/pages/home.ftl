@@ -48,6 +48,7 @@ x-years-short =
     }
 help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski pieejamu datu kopu
 sign-up-account = Reģistrē savu kontu
+email-subscription-title-v3 = Reģistrējieties Common Voice un Mozilla Foundation atjauninājumiem
 
 ## Account Benefits
 

@@ -12,6 +12,7 @@ abq = Abaza
 ace = Aceh
 ady = Adyguéen
 af = Afrikaans
+aii = Soureth
 ajg = Aja
 aln = Guègue
 am = Amharique
@@ -485,3 +486,17 @@ announcement-mdc-text = <strong>De nouveaux jeux de données Common Voice</stron
 announcement-mdc-button-text = Rejoindre le Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = S’ouvre dans un nouvel onglet
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Commencez à écrire pour rechercher
+searchbox-default-placeholder = Rechercher…
+searchbox-default-aria-label = Rechercher
+dropdown-no-results = Aucune correspondance
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Changer la langue d’affichage et la langue du jeu de données
+dataset-searchbox-placeholder = Rechercher une langue…
+dataset-searchbox-aria-label = Rechercher une langue
+dataset-search-no-results = Aucune langue correspondante n’a été trouvée
+request-new-language = Proposer une nouvelle langue

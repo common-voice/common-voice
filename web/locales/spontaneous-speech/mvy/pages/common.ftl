@@ -23,7 +23,6 @@ report-button = خبر کرہ
 skip-button = پَھت کرہ۔
 submit-button = جمع کرہ
 contribute = تاں حصہ گلہ۔
-request-new-language = نَیں ژیب لُکھہ
 
 ## Navbar
 

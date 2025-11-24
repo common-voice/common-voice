@@ -178,8 +178,13 @@ nb-NO = Norvegiană Bokmål
 nd = Ndebele de nord
 ne-NP = Nepaleză
 nl = Olandeză
+nlv = Orizaba Nahuatl
+nmg = Kwasio
+nmz = Losso
 nn-NO = Norvegiană Nynorsk
+nyu = Nyungwe
 oc = Occitană
+odk = Oadki
 or = Odia
 pa-IN = Punjabă
 pl = Poloneză
@@ -203,9 +208,12 @@ sl = Slovenă
 sq = Albaneză
 sr = Sârbă
 sv-SE = Suedeză
+sva = Svan
 sw = Swahili
 syr = Siriacă
+szy = Sakizaya
 ta = Tamilă
+tay = Atayal
 te = Telugu
 tg = Tadjică
 th = Thailandeză
@@ -281,3 +289,10 @@ languages-donate-banner-cta = <mark>Folosești proiectul Common Voice</mark><br/
 languages-donate-banner-cta-explanation = Proiectul Common Voice este finanțat prin donații și subvenții! Ne place să colaborăm cu societatea civilă, cadrele universitare și cercetătorii din industrie. Common Voice este gratuit, dar ne ajută mult propunerile de proiecte și finanțările ce pot contribui la costurile aferente platformei și găzduirii datelor.
 localization-select =
     .label = Alege limba
+
+## Common Language/Dataset Selector & SearchBox Related
+
+dataset-searchbox-placeholder = Caută o limbă...
+dataset-searchbox-aria-label = Caută o limbă
+dataset-search-no-results = Nu s-a găsit o limbă care să se potrivească
+request-new-language = Solicită o limbă nouă

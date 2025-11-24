@@ -12,6 +12,7 @@ abq = Αμπάζα
 ace = Ατσενικά
 ady = Αντύγκε
 af = Αφρικάανς
+aii = Σούριθ
 ajg = Άτζα
 aln = Αλβανικά (Γκέγκικα)
 am = Αμχαρικά
@@ -485,3 +486,17 @@ announcement-mdc-text = <strong>Νέα σύνολα δεδομένων του Co
 announcement-mdc-button-text = Συμμετοχή στο Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Ανοίγει σε νέα καρτέλα
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Ξεκινήστε να πληκτρολογείτε για αναζήτηση
+searchbox-default-placeholder = Αναζήτηση...
+searchbox-default-aria-label = Αναζήτηση
+dropdown-no-results = Δεν βρέθηκε αντιστοιχία
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Αλλάζει τη γλώσσα προβολής και του συνόλου δεδομένων
+dataset-searchbox-placeholder = Αναζήτηση για γλώσσα...
+dataset-searchbox-aria-label = Αναζήτηση για γλώσσα
+dataset-search-no-results = Δεν βρέθηκε αντιστοιχία γλώσσας
+request-new-language = Αίτημα για νέα γλώσσα

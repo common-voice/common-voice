@@ -23,7 +23,6 @@ report-button = Сообщить
 skip-button = Пропустить
 submit-button = Отправить
 contribute = Внести вклад
-request-new-language = Запросить новый язык
 # Button text which appears when there are no more resources
 continue-with-skipped = Продолжить с пропущенным
 

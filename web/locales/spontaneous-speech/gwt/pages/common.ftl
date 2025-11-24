@@ -23,7 +23,6 @@ report-button = رپوٹ
 skip-button = اِٹِکِک
 submit-button = سِپاراوَہ
 contribute = لُبُسِک
-request-new-language = نُنگی باتِیَنی درخاس کېرِؤ
 
 ## Navbar
 

@@ -201,7 +201,7 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = Spontānā runā dabiski ir sastopami nepareizi iesākti vārdi, kuros tiek radīts tikai pilna vārda fragments. Šādos gadījumos, lūdzu, pēc iespējas labāk pārrakstiet vārda fragmentu un vārda beigās pievienojiet defisi (-), lai norādītu, ka vārds ir nepareizi iesākts. Piemērs:
 transcribe-the-audio-subheader-4-explanation-1-example = Viņa vārds ir <underline>Džo- Džona-</underline> Džonatans.
 transcribe-the-audio-subheader-4-explanation-2 = Dažreiz runātāji atkārto vārdu vai vārda fragmentu vairākas reizes. Arī tas ir jātranskribē. Piemērs:
-transcribe-the-audio-subheader-4-explanation-2-example = Mums ļoti garšo saldējums <underline>un un- un</underline> konfektes
+transcribe-the-audio-subheader-4-explanation-2-example = Mums ļoti garšo saldējums <underline>un- un- un</underline> konfektes
 transcribe-the-audio-subheader-5-explanation-1 = Spontānā runā dabiski būs gramatiskas kļūdas. Tās nav jālabo transkripcijas laikā. Transkripcijai precīzi jāatspoguļo runātais saturs.
 transcribe-the-audio-subheader-5-explanation-2 = Runātāji var lietot sarunvalodas vārdus (piemēram, “forši”, “kūlīgi” utt.), kas var nebūt formāli pareizi. Tie jāpārraksta tādā veidā, kā tie ir, nevis jāmaina uz to formālākajiem ekvivalentiem.
 

@@ -1,87 +1,92 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { useEffect, useState } from 'react';
-import { Redirect, Route, Switch } from 'react-router';
-import * as Sentry from '@sentry/react';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { Redirect, Route, Switch } from 'react-router'
+import * as Sentry from '@sentry/react'
 
-import { useAccount, useAPI, useAction } from '../../../hooks/store-hooks';
-import { useRouter } from '../../../hooks/use-router';
-import URLS from '../../../urls';
-import { ALL_LOCALES } from '../../language-select/language-select';
+import { useAccount, useAPI, useAction } from '../../../hooks/store-hooks'
+import { useRouter } from '../../../hooks/use-router'
+import { useTypedSelector } from '../../../stores/tree'
+import URLS from '../../../urls'
+import { ALL_LOCALES } from '../../language-select/language-select'
 import {
   isContributable,
   LocaleNavLink,
   useLocale,
   useNativeLocaleNames,
-} from '../../locale-helpers';
-import { Notifications } from '../../../stores/notifications';
-import StatsPage from './stats/stats';
-import GoalsPage from './goals/goals';
-import AwardsPage from './awards/awards';
-import ChallengePage from './challenge/challenge';
-import { Button } from '../../ui/ui';
-import InviteModal from '../../invite-modal/invite-modal';
-import { isChallengeLive, pilotDates, isEnrolled } from './challenge/constants';
+} from '../../locale-helpers'
+import { Notifications } from '../../../stores/notifications'
+import StatsPage from './stats/stats'
+import GoalsPage from './goals/goals'
+import AwardsPage from './awards/awards'
+import ChallengePage from './challenge/challenge'
+import { Button, Spinner } from '../../ui/ui'
+import InviteModal from '../../invite-modal/invite-modal'
+import { isChallengeLive, pilotDates, isEnrolled } from './challenge/constants'
 
-import './dashboard.css';
+import './dashboard.css'
 
-const SentryRoute = Sentry.withSentryRouting(Route);
+const SentryRoute = Sentry.withSentryRouting(Route)
 
-const TITLE_BAR_LOCALE_COUNT = 3;
+const TITLE_BAR_LOCALE_COUNT = 3
 
 const TopBar = ({
   dashboardLocale,
   setShowInviteModal,
 }: {
-  dashboardLocale: string;
-  setShowInviteModal(arg: any): void;
+  dashboardLocale: string
+  setShowInviteModal(arg: any): void
 }) => {
-  const nativeNames = useNativeLocaleNames();
-  const { history, location } = useRouter();
-  const [, toLocaleRoute] = useLocale();
-  const account = useAccount();
-  const [isAboveMdWidth, setIsAboveMdWidth] = useState(true);
-  const isChallengeEnrolled = isEnrolled(account);
+  const nativeNames = useNativeLocaleNames()
+  const { history, location } = useRouter()
+  const [, toLocaleRoute] = useLocale()
+  const account = useAccount()
+  const [isAboveMdWidth, setIsAboveMdWidth] = useState(true)
+  const isChallengeEnrolled = isEnrolled(account)
   const isChallengeTabSelected =
-    location.pathname.endsWith('/challenge') && isChallengeEnrolled;
+    location.pathname.endsWith('/challenge') && isChallengeEnrolled
 
   function setLocale(value: string) {
-    const pathParts = location.pathname.split('/');
+    const pathParts = location.pathname.split('/')
     history.push(
       [toLocaleRoute(URLS.DASHBOARD), value, pathParts[pathParts.length - 1]]
         .filter(Boolean)
         .join('/')
-    );
+    )
   }
 
   const unseenAwards = account
     ? account.awards.filter(a => !a.seen_at).length
-    : 0;
+    : 0
 
   const locales = [''].concat(
     (account ? account.languages : [])
       .map(({ locale }) => locale)
       .filter(l => isContributable(l))
-  );
+  )
   const titleBarLocales = isAboveMdWidth
     ? locales.slice(0, TITLE_BAR_LOCALE_COUNT)
-    : [];
+    : []
   const dropdownLocales = isAboveMdWidth
     ? locales.slice(TITLE_BAR_LOCALE_COUNT)
-    : locales;
+    : locales
 
   useEffect(() => {
+    let isMounted = true
     const checkSize = () => {
-      const { innerWidth } = window;
-      setIsAboveMdWidth(innerWidth >= 768);
-    };
-    checkSize();
-    window.addEventListener('resize', checkSize);
+      const { innerWidth } = window
+      if (isMounted) {
+        setIsAboveMdWidth(innerWidth >= 768)
+      }
+    }
+    checkSize()
+    window.addEventListener('resize', checkSize)
 
     return () => {
-      window.removeEventListener('resize', checkSize);
-    };
-  }, [isChallengeTabSelected]);
+      isMounted = false
+      window.removeEventListener('resize', checkSize)
+    }
+  }, [])
 
   return (
     <div className={`top-bar${isChallengeEnrolled ? ' with-challenge' : ''}`}>
@@ -173,7 +178,7 @@ const TopBar = ({
                 value={dashboardLocale}
                 onChange={({ target: { value } }) => {
                   if (value) {
-                    setLocale(value);
+                    setLocale(value)
                   }
                 }}>
                 {titleBarLocales.length > 0 && <option value="" />}
@@ -197,8 +202,8 @@ const TopBar = ({
         <ChallengeBar setShowInviteModal={setShowInviteModal} />
       )}
     </div>
-  );
-};
+  )
+}
 
 function DashboardContent({
   Page,
@@ -208,30 +213,63 @@ function DashboardContent({
     | typeof ChallengePage
     | typeof StatsPage
     | typeof GoalsPage
-    | typeof AwardsPage;
-  dashboardLocale: string;
+    | typeof AwardsPage
+  dashboardLocale: string
 }) {
-  const api = useAPI();
-  const [allGoals, setAllGoals] = useState(null);
+  const api = useAPI()
+  const [allGoals, setAllGoals] = useState(null)
 
   useEffect(() => {
-    api.fetchGoals(dashboardLocale || null).then(setAllGoals);
-  }, [dashboardLocale]);
+    let isMounted = true
 
-  return <Page {...{ allGoals, dashboardLocale }} />;
+    api
+      .fetchGoals(dashboardLocale || null)
+      .then(goals => {
+        if (isMounted) {
+          setAllGoals(goals)
+        }
+      })
+      .catch(err => {
+        if (process.env.NODE_ENV !== 'production') {
+          console.warn('Failed to fetch goals:', err)
+        }
+      })
+
+    return () => {
+      isMounted = false
+    }
+  }, [api, dashboardLocale])
+
+  return <Page {...{ allGoals, dashboardLocale }} />
 }
 
 interface ChallengeBarProps {
-  setShowInviteModal(arg: any): void;
+  setShowInviteModal(arg: any): void
 }
 const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
-  const api = useAPI();
-  const [points, setAllPoints] = useState({ user: 0, team: 0 });
+  const api = useAPI()
+  const [points, setAllPoints] = useState({ user: 0, team: 0 })
 
   useEffect(() => {
-    api.fetchChallengePoints().then(value => value && setAllPoints(value));
-    // TODO: investigate how this interacts with asynchronous user loading
-  }, []);
+    let isMounted = true
+
+    api
+      .fetchChallengePoints()
+      .then(value => {
+        if (isMounted && value) {
+          setAllPoints(value)
+        }
+      })
+      .catch(err => {
+        if (process.env.NODE_ENV !== 'production') {
+          console.warn('Failed to fetch challenge points:', err)
+        }
+      })
+
+    return () => {
+      isMounted = false
+    }
+  }, [api])
   return (
     <div className="challenge-bar">
       {isChallengeLive(pilotDates) && (
@@ -250,42 +288,64 @@ const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
         <span className="plus-icon"></span>
       </Button>
     </div>
-  );
-};
+  )
+}
 
 export default function Dashboard() {
-  const { match } = useRouter();
-  const account = useAccount();
-  const api = useAPI();
-  const [, toLocaleRoute] = useLocale();
-  const [showInviteModal, setShowInviteModal] = useState<boolean>(false);
-  const addAchievement = useAction(Notifications.actions.addAchievement);
-  const isChallengeEnrolled = isEnrolled(account);
+  const { match, location } = useRouter()
+  const account = useAccount()
+  const isFetchingAccount = useTypedSelector(
+    ({ user }) => user.isFetchingAccount
+  )
+  const api = useAPI()
+  const [, toLocaleRoute] = useLocale()
+  const [showInviteModal, setShowInviteModal] = useState<boolean>(false)
+  const addAchievement = useAction(Notifications.actions.addAchievement)
+  const hasRedirected = useRef(false)
+
+  useEffect(() => {
+    // Only redirect if we're sure the user is not logged in AND not fetching
+    if (!isFetchingAccount && account === null && !hasRedirected.current) {
+      hasRedirected.current = true
+      try {
+        sessionStorage.setItem('redirectURL', location.pathname)
+      } catch (e) {
+        console.warn(`A sessionStorage error occurred ${e.message}`)
+      }
+
+      window.location.href = '/login'
+    }
+  }, [account, isFetchingAccount, location.pathname])
+
+  // Show spinner while account is loading
+  if (isFetchingAccount || account === undefined) {
+    return (
+      <div className="dashboard-loading">
+        <Spinner />
+      </div>
+    )
+  }
+
+  // Don't render anything if redirecting to login
+  if (account === null) {
+    return null
+  }
+
+  // Now we're sure account exists, safe to compute derived values
+  const isChallengeEnrolled = isEnrolled(account)
   const pages = [
     { subPath: URLS.STATS, Page: StatsPage },
     { subPath: URLS.GOALS, Page: GoalsPage },
     { subPath: URLS.AWARDS, Page: AwardsPage },
-  ];
-  let defaultPage = URLS.STATS as string;
+  ]
+  let defaultPage = URLS.STATS as string
   if (isChallengeEnrolled) {
     // @ts-ignore
-    pages.unshift({ subPath: URLS.CHALLENGE, Page: ChallengePage });
+    pages.unshift({ subPath: URLS.CHALLENGE, Page: ChallengePage })
     if (isChallengeLive(pilotDates)) {
-      defaultPage = URLS.CHALLENGE;
+      defaultPage = URLS.CHALLENGE
     }
   }
-
-  useEffect(() => {
-    if (!account) {
-      try {
-        sessionStorage.setItem('redirectURL', location.pathname);
-      } catch (e) {
-        console.warn(`A sessionStorage error occurred ${e.message}`);
-      }
-
-      window.location.href = '/login';
-    }
-  }, []);
 
   return (
     <div
@@ -296,14 +356,14 @@ export default function Dashboard() {
             : 'challenge-offline'
           : ''
       }>
-      {showInviteModal && (
+      {showInviteModal && account && (
         <InviteModal
           enrollment={account.enrollment}
           onRequestClose={() => {
-            setShowInviteModal(false);
+            setShowInviteModal(false)
             if (JSON.parse(sessionStorage.getItem('showInviteSendToast'))) {
-              addAchievement(50, 'You sent your first invite!');
-              sessionStorage.removeItem('showInviteSendToast');
+              addAchievement(50, 'You sent your first invite!')
+              sessionStorage.removeItem('showInviteSendToast')
             }
             if (
               !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
@@ -313,12 +373,12 @@ export default function Dashboard() {
               addAchievement(
                 50,
                 "You're on a roll! You sent an invite and contributed in the same session."
-              );
-              sessionStorage.removeItem('hasEarnedSessionToast');
-              sessionStorage.removeItem('hasContributed');
+              )
+              sessionStorage.removeItem('hasEarnedSessionToast')
+              sessionStorage.removeItem('hasContributed')
               // Tell back-end user get unexpected achievement: invite + contribute in the same session
               // Each user can only get once.
-              api.setInviteContributeAchievement();
+              api.setInviteContributeAchievement()
             }
           }}
         />
@@ -383,5 +443,5 @@ export default function Dashboard() {
         </Switch>
       </div>
     </div>
-  );
+  )
 }

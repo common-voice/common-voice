@@ -23,7 +23,6 @@ report-button = Tolya
 skip-button = Gulukya
 submit-button = Pesyaku
 contribute = Pesyaiku
-request-new-language = Kunga dhaka myaka
 
 ## Navbar
 
