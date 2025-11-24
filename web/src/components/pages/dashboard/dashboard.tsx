@@ -1,11 +1,12 @@
 import { Localized } from '@fluent/react'
 import * as React from 'react'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Redirect, Route, Switch } from 'react-router'
 import * as Sentry from '@sentry/react'
 
 import { useAccount, useAPI, useAction } from '../../../hooks/store-hooks'
 import { useRouter } from '../../../hooks/use-router'
+import { useTypedSelector } from '../../../stores/tree'
 import URLS from '../../../urls'
 import { ALL_LOCALES } from '../../language-select/language-select'
 import {
@@ -19,7 +20,7 @@ import StatsPage from './stats/stats'
 import GoalsPage from './goals/goals'
 import AwardsPage from './awards/awards'
 import ChallengePage from './challenge/challenge'
-import { Button } from '../../ui/ui'
+import { Button, Spinner } from '../../ui/ui'
 import InviteModal from '../../invite-modal/invite-modal'
 import { isChallengeLive, pilotDates, isEnrolled } from './challenge/constants'
 
@@ -71,17 +72,21 @@ const TopBar = ({
     : locales
 
   useEffect(() => {
+    let isMounted = true
     const checkSize = () => {
       const { innerWidth } = window
-      setIsAboveMdWidth(innerWidth >= 768)
+      if (isMounted) {
+        setIsAboveMdWidth(innerWidth >= 768)
+      }
     }
     checkSize()
     window.addEventListener('resize', checkSize)
 
     return () => {
+      isMounted = false
       window.removeEventListener('resize', checkSize)
     }
-  }, [isChallengeTabSelected])
+  }, [])
 
   return (
     <div className={`top-bar${isChallengeEnrolled ? ' with-challenge' : ''}`}>
@@ -215,8 +220,25 @@ function DashboardContent({
   const [allGoals, setAllGoals] = useState(null)
 
   useEffect(() => {
-    api.fetchGoals(dashboardLocale || null).then(setAllGoals)
-  }, [dashboardLocale])
+    let isMounted = true
+
+    api
+      .fetchGoals(dashboardLocale || null)
+      .then(goals => {
+        if (isMounted) {
+          setAllGoals(goals)
+        }
+      })
+      .catch(err => {
+        if (process.env.NODE_ENV !== 'production') {
+          console.warn('Failed to fetch goals:', err)
+        }
+      })
+
+    return () => {
+      isMounted = false
+    }
+  }, [api, dashboardLocale])
 
   return <Page {...{ allGoals, dashboardLocale }} />
 }
@@ -229,9 +251,25 @@ const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
   const [points, setAllPoints] = useState({ user: 0, team: 0 })
 
   useEffect(() => {
-    api.fetchChallengePoints().then(value => value && setAllPoints(value))
-    // TODO: investigate how this interacts with asynchronous user loading
-  }, [])
+    let isMounted = true
+
+    api
+      .fetchChallengePoints()
+      .then(value => {
+        if (isMounted && value) {
+          setAllPoints(value)
+        }
+      })
+      .catch(err => {
+        if (process.env.NODE_ENV !== 'production') {
+          console.warn('Failed to fetch challenge points:', err)
+        }
+      })
+
+    return () => {
+      isMounted = false
+    }
+  }, [api])
   return (
     <div className="challenge-bar">
       {isChallengeLive(pilotDates) && (
@@ -256,10 +294,44 @@ const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
 export default function Dashboard() {
   const { match, location } = useRouter()
   const account = useAccount()
+  const isFetchingAccount = useTypedSelector(
+    ({ user }) => user.isFetchingAccount
+  )
   const api = useAPI()
   const [, toLocaleRoute] = useLocale()
   const [showInviteModal, setShowInviteModal] = useState<boolean>(false)
   const addAchievement = useAction(Notifications.actions.addAchievement)
+  const hasRedirected = useRef(false)
+
+  useEffect(() => {
+    // Only redirect if we're sure the user is not logged in AND not fetching
+    if (!isFetchingAccount && account === null && !hasRedirected.current) {
+      hasRedirected.current = true
+      try {
+        sessionStorage.setItem('redirectURL', location.pathname)
+      } catch (e) {
+        console.warn(`A sessionStorage error occurred ${e.message}`)
+      }
+
+      window.location.href = '/login'
+    }
+  }, [account, isFetchingAccount, location.pathname])
+
+  // Show spinner while account is loading
+  if (isFetchingAccount || account === undefined) {
+    return (
+      <div className="dashboard-loading">
+        <Spinner />
+      </div>
+    )
+  }
+
+  // Don't render anything if redirecting to login
+  if (account === null) {
+    return null
+  }
+
+  // Now we're sure account exists, safe to compute derived values
   const isChallengeEnrolled = isEnrolled(account)
   const pages = [
     { subPath: URLS.STATS, Page: StatsPage },
@@ -275,19 +347,6 @@ export default function Dashboard() {
     }
   }
 
-  useEffect(() => {
-    // Wait for account to be checked (undefined means loading, null means not logged in)
-    if (account !== undefined && !account) {
-      try {
-        sessionStorage.setItem('redirectURL', location.pathname)
-      } catch (e) {
-        console.warn(`A sessionStorage error occurred ${e.message}`)
-      }
-
-      window.location.href = '/login'
-    }
-  }, [account, location.pathname])
-
   return (
     <div
       className={
@@ -297,7 +356,7 @@ export default function Dashboard() {
             : 'challenge-offline'
           : ''
       }>
-      {showInviteModal && (
+      {showInviteModal && account && (
         <InviteModal
           enrollment={account.enrollment}
           onRequestClose={() => {

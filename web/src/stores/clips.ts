@@ -1,74 +1,75 @@
-import { Action as ReduxAction, Dispatch } from 'redux';
-import StateTree from './tree';
-import { User } from './user';
-import { Clip } from 'common';
+import { Action as ReduxAction, Dispatch } from 'redux'
+import StateTree from './tree'
+import { User } from './user'
+import { Clip } from 'common'
 
 async function getCanPlayAudio(audioSrc: string) {
   return new Promise(resolve => {
-    const audio = new Audio(audioSrc);
+    const audio = new Audio(audioSrc)
 
     audio.addEventListener('error', () => {
-      resolve(false);
-    });
+      resolve(false)
+    })
 
     audio.addEventListener('canplay', () => {
-      resolve(true);
-    });
+      resolve(true)
+    })
 
-    audio.load();
-  });
+    audio.load()
+  })
 }
 
 async function checkClipsForErrors(clips: Clip[]) {
   return await Promise.all(
     clips.map(async clip => {
-      let hasError = false;
+      let hasError = false
 
       try {
         // can play clip
-        const canPlayAudio = await getCanPlayAudio(clip.audioSrc);
+        const canPlayAudio = await getCanPlayAudio(clip.audioSrc)
         if (!canPlayAudio) {
-          throw new Error(`Couldn't play clip "${clip.audioSrc}"`);
+          throw new Error(`Couldn't play clip "${clip.audioSrc}"`)
         }
 
         // attempt to decode sentence
         clip.sentence = {
           ...clip.sentence,
           text: decodeURIComponent(clip.sentence.text),
-        };
+        }
       } catch (e) {
-        console.error('Clip error', e);
-        hasError = true;
+        console.error('Clip error', e)
+        hasError = true
       }
 
-      return { hasError, clip };
+      return { hasError, clip }
     })
-  );
+  )
 }
 
 async function removeClipsWithErrors(clips: Clip[]) {
-  const clipsWithErrors = await checkClipsForErrors(clips);
+  const clipsWithErrors = await checkClipsForErrors(clips)
 
   // filter out errored clips
   return clipsWithErrors
     .filter(clipWithErrors => !clipWithErrors.hasError)
-    .map(clipWithErrors => clipWithErrors.clip);
+    .map(clipWithErrors => clipWithErrors.clip)
 }
 
-const MIN_CACHE_SIZE = 50;
+const CACHE_SET_COUNT = 50
+const MIN_CACHE_COUNT = 5
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace Clips {
   export interface State {
     [locale: string]: {
-      clips: Clip[];
-      isLoading: boolean;
-      hasLoadingError: boolean;
-      showFirstContributionToast: boolean;
-      showFirstStreakToast: boolean;
-      hasEarnedSessionToast: boolean;
-      challengeEnded: boolean;
-    };
+      clips: Clip[]
+      isLoading: boolean
+      hasLoadingError: boolean
+      showFirstContributionToast: boolean
+      showFirstStreakToast: boolean
+      hasEarnedSessionToast: boolean
+      challengeEnded: boolean
+    }
   }
 
   enum ActionType {
@@ -80,28 +81,28 @@ export namespace Clips {
   }
 
   interface LoadAction extends ReduxAction {
-    type: ActionType.LOAD;
+    type: ActionType.LOAD
   }
   interface LoadErrorAction extends ReduxAction {
-    type: ActionType.LOAD_ERROR;
+    type: ActionType.LOAD_ERROR
   }
 
   interface AchievementAction extends ReduxAction {
-    type: ActionType.ACHIEVEMENT;
-    showFirstContributionToast?: boolean;
-    hasEarnedSessionToast?: boolean;
-    showFirstStreakToast?: boolean;
-    challengeEnded?: boolean;
+    type: ActionType.ACHIEVEMENT
+    showFirstContributionToast?: boolean
+    hasEarnedSessionToast?: boolean
+    showFirstStreakToast?: boolean
+    challengeEnded?: boolean
   }
 
   interface RefillCacheAction extends ReduxAction {
-    type: ActionType.REFILL_CACHE;
-    clips?: Clip[];
+    type: ActionType.REFILL_CACHE
+    clips?: Clip[]
   }
 
   interface RemoveClipAction extends ReduxAction {
-    type: ActionType.REMOVE_CLIP;
-    clipId: string;
+    type: ActionType.REMOVE_CLIP
+    clipId: string
   }
 
   export type Action =
@@ -109,7 +110,7 @@ export namespace Clips {
     | LoadErrorAction
     | RefillCacheAction
     | RemoveClipAction
-    | AchievementAction;
+    | AchievementAction
 
   export const actions = {
     refillCache:
@@ -118,33 +119,31 @@ export namespace Clips {
         dispatch: Dispatch<RefillCacheAction | LoadAction | LoadErrorAction>,
         getState: () => StateTree
       ) => {
-        const state = getState();
+        const state = getState()
 
         // don't load if no contributable locale
         if (
           state.languages &&
           !state.languages.contributableLocales.includes(state.locale)
         ) {
-          return;
+          return
         }
 
-        if (localeClips(state).clips.length >= MIN_CACHE_SIZE) {
-          return;
+        if (localeClips(state).clips.length >= MIN_CACHE_COUNT) {
+          return
         }
 
         try {
-          dispatch({ type: ActionType.LOAD });
+          dispatch({ type: ActionType.LOAD })
 
-          const randomClips = await state.api.fetchRandomClips(
-            MIN_CACHE_SIZE - localeClips(state).clips.length
-          );
+          const randomClips = await state.api.fetchRandomClips(CACHE_SET_COUNT)
 
-          const clips = await removeClipsWithErrors(randomClips);
+          const clips = await removeClipsWithErrors(randomClips)
 
-          dispatch({ type: ActionType.REFILL_CACHE, clips });
+          dispatch({ type: ActionType.REFILL_CACHE, clips })
         } catch (err) {
-          dispatch({ type: ActionType.LOAD_ERROR });
-          throw err;
+          dispatch({ type: ActionType.LOAD_ERROR })
+          throw err
         }
       },
 
@@ -154,18 +153,18 @@ export namespace Clips {
         dispatch: Dispatch<Action | User.Action>,
         getState: () => StateTree
       ) => {
-        const state = getState();
-        const id = clipId;
+        const state = getState()
+        const id = clipId
 
-        dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
+        dispatch({ type: ActionType.REMOVE_CLIP, clipId: id })
         const {
           showFirstContributionToast,
           hasEarnedSessionToast,
           showFirstStreakToast,
           challengeEnded,
-        } = await state.api.saveVote(id, isValid);
+        } = await state.api.saveVote(id, isValid)
         if (!state.user.account) {
-          dispatch(User.actions.tallyVerification());
+          dispatch(User.actions.tallyVerification())
         }
         if (state.user?.account?.enrollment?.challenge) {
           dispatch({
@@ -174,19 +173,19 @@ export namespace Clips {
             hasEarnedSessionToast,
             showFirstStreakToast,
             challengeEnded,
-          });
+          })
         }
-        User.actions.refresh()(dispatch, getState);
-        actions.refillCache()(dispatch, getState);
+        User.actions.refresh()(dispatch, getState)
+        actions.refillCache()(dispatch, getState)
       },
 
     remove:
       (clipId: string) =>
       async (dispatch: Dispatch<Action>, getState: () => StateTree) => {
-        dispatch({ type: ActionType.REMOVE_CLIP, clipId });
-        actions.refillCache()(dispatch, getState);
+        dispatch({ type: ActionType.REMOVE_CLIP, clipId })
+        actions.refillCache()(dispatch, getState)
       },
-  };
+  }
 
   const DEFAULT_LOCALE_STATE = {
     clips: [] as Clip[],
@@ -196,18 +195,18 @@ export namespace Clips {
     showFirstStreakToast: false,
     hasEarnedSessionToast: false,
     challengeEnded: false,
-  };
+  }
 
   export function reducer(
     locale: string,
     state: State = {},
     action: Action
   ): State {
-    const currentLocaleState = state[locale];
+    const currentLocaleState = state[locale]
     const localeState = {
       ...DEFAULT_LOCALE_STATE,
       ...currentLocaleState,
-    };
+    }
 
     switch (action.type) {
       case ActionType.LOAD:
@@ -217,7 +216,7 @@ export namespace Clips {
             ...localeState,
             isLoading: true,
           },
-        };
+        }
 
       case ActionType.LOAD_ERROR:
         return {
@@ -227,18 +226,18 @@ export namespace Clips {
             isLoading: false,
             hasLoadingError: true,
           },
-        };
+        }
 
       case ActionType.REFILL_CACHE: {
         const clips = localeState
           ? action.clips
             ? localeState.clips.concat(action.clips)
             : localeState.clips
-          : [];
+          : []
 
         const filtered = clips.filter(
           (clip1, i) => clips.findIndex(clip2 => clip2.id === clip1.id) === i
-        );
+        )
 
         return {
           ...state,
@@ -251,12 +250,12 @@ export namespace Clips {
             showFirstStreakToast: false,
             challengeEnded: true,
           },
-        };
+        }
       }
 
       case ActionType.REMOVE_CLIP: {
-        const clips = localeState.clips.filter(c => c.id !== action.clipId);
-        return { ...state, [locale]: { ...localeState, clips } };
+        const clips = localeState.clips.filter(c => c.id !== action.clipId)
+        return { ...state, [locale]: { ...localeState, clips } }
       }
 
       case ActionType.ACHIEVEMENT: {
@@ -269,23 +268,23 @@ export namespace Clips {
             showFirstStreakToast: action.showFirstStreakToast,
             challengeEnded: action.challengeEnded,
           },
-        };
+        }
       }
 
       default:
-        return state;
+        return state
     }
   }
 
   const localeClips = ({ locale, clips }: StateTree) => {
     if (!clips[locale]) {
-      return DEFAULT_LOCALE_STATE;
+      return DEFAULT_LOCALE_STATE
     }
 
-    return clips[locale];
-  };
+    return clips[locale]
+  }
 
   export const selectors = {
     localeClips,
-  };
+  }
 }
