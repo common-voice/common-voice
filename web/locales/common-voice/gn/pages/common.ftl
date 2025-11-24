@@ -492,3 +492,5 @@ searchbox-default-label = Ehai ñepyrũ eheka hag̃ua
 searchbox-default-placeholder = Heka...
 searchbox-default-aria-label = Heka
 dropdown-no-results = Ndojejuhúi ojojoguáva
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Emoambue upe jehechaha ha ñe’ẽ mba’ekuaarã atygua
