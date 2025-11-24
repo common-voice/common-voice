@@ -487,5 +487,8 @@ announcement-mdc-button-aria-text = Ijuruja ovetã pyahúpe
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = Ehai ñepyrũ eheka hag̃ua
 searchbox-default-placeholder = Heka...
 searchbox-default-aria-label = Heka
+dropdown-no-results = Ndojejuhúi ojojoguáva
