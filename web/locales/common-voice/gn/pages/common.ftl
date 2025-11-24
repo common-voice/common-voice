@@ -494,3 +494,7 @@ searchbox-default-aria-label = Heka
 dropdown-no-results = Ndojejuhúi ojojoguáva
 # Common Voice Dataset=Language search box
 dataset-searchbox-label = Emoambue upe jehechaha ha ñe’ẽ mba’ekuaarã atygua
+dataset-searchbox-placeholder = Eheka peteĩ ñe’ẽ...
+dataset-searchbox-aria-label = Eheka peteĩ ñe’ẽ
+dataset-search-no-results = Ndojejuhúi ñe’ẽ ojueheguáva
+request-new-language = Ejerure peteĩ ñe’ẽ pyahu
