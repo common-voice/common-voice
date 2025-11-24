@@ -12,6 +12,7 @@ abq = Abaza
 ace = Acehnese
 ady = Adyghe
 af = Afrikaans
+aii = Suret
 ajg = Adja
 aln = Albanés gheg
 am = Amharic
@@ -483,3 +484,8 @@ localization-select =
 announcement-mdc-button-text = Ejuaju Mozilla Mba’ekuaarã Aty ndive
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Ijuruja ovetã pyahúpe
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = Heka...
+searchbox-default-aria-label = Heka
