@@ -55,8 +55,8 @@ interface LeaderboardRow extends Omit<LeaderboardDataRow, 'locale_id'> {
 
 // Tier 1: Cache RAW DATA (shared lock, single query across all views)
 // This is the expensive DB query that we want to run only ONCE
-const getCachedClipLeaderboardData = () => {
-  return lazyCache(
+const getCachedClipLeaderboardData = async () => {
+  return await lazyCache(
     'cv:leaderboard:clip-data-raw', // Raw data cache
     getAllClipLeaderboardData,
     LEADERBOARD_CACHE_DURATION,
@@ -112,8 +112,8 @@ async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
 
 // Tier 1: Cache RAW DATA (shared lock, single query across all views)
 // This is the expensive DB query that we want to run only ONCE
-const getCachedVoteLeaderboardData = () => {
-  return lazyCache(
+const getCachedVoteLeaderboardData = async () => {
+  return await lazyCache(
     'cv:leaderboard:vote-data-raw', // Raw data cache
     getAllVoteLeaderboardData,
     LEADERBOARD_CACHE_DURATION,
@@ -202,8 +202,8 @@ function aggregateLeaderboard(
 //
 
 // Global clip leaderboard - Tier 2: aggregates from cached raw data
-const getGlobalClipLeaderboard = () => {
-  return lazyCache(
+const getGlobalClipLeaderboard = async () => {
+  return await lazyCache(
     'cv:leaderboard:clip-global',
     async (): Promise<LeaderboardRow[]> => {
       const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
@@ -216,8 +216,8 @@ const getGlobalClipLeaderboard = () => {
 }
 
 // Per-locale clip leaderboard - Tier 2: aggregates from cached raw data
-const getLocaleClipLeaderboard = (locale: string) => {
-  return lazyCache(
+const getLocaleClipLeaderboard = async (locale: string) => {
+  return await lazyCache(
     `cv:leaderboard:clip-${locale}`,
     async (): Promise<LeaderboardRow[]> => {
       const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
@@ -235,8 +235,8 @@ const getLocaleClipLeaderboard = (locale: string) => {
 //
 
 // Global vote leaderboard - Tier 2: aggregates from cached raw data
-const getGlobalVoteLeaderboard = () => {
-  return lazyCache(
+const getGlobalVoteLeaderboard = async () => {
+  return await lazyCache(
     'cv:leaderboard:vote-global',
     async (): Promise<LeaderboardRow[]> => {
       const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
@@ -249,8 +249,8 @@ const getGlobalVoteLeaderboard = () => {
 }
 
 // Per-locale vote leaderboard - Tier 2: aggregates from cached raw data
-const getLocaleVoteLeaderboard = (locale: string) => {
-  return lazyCache(
+const getLocaleVoteLeaderboard = async (locale: string) => {
+  return await lazyCache(
     `cv:leaderboard:vote-${locale}`,
     async (): Promise<LeaderboardRow[]> => {
       const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
