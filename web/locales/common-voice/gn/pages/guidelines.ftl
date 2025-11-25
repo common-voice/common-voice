@@ -192,6 +192,7 @@ transcribe-the-audio-subheader-4-explanation-2-example = Upéi ahákuri <underli
 
 review-the-transcription = Ehechajey jehaikue
 review-the-transcription-subheader = Ñembohape guasu
+review-the-transcription-explanation-2 = Ehecha jey umi jehaipyre ymaveguávaa rekoguata eikuaa hag̃ua oĩ porãpa. Ikatukuaa emoambue ha emondo uperire.
 
 ## Code-Switching
 
