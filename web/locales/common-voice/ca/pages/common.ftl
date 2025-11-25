@@ -63,6 +63,7 @@ byv = medumba
 ca = català
 cak = kaqtxikel
 cdo = min oriental
+cgg = chiga
 cjk = chokwe
 ckb = kurd central
 cnh = hakha chin
@@ -472,3 +473,17 @@ announcement-mdc-text = Ja estan disponibles <strong>nous conjunts de dades de C
 announcement-mdc-button-text = Uneix-te a Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = S'obre en una pestanya nova
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Escriviu per a cercar
+searchbox-default-placeholder = Cerca...
+searchbox-default-aria-label = Cerca
+dropdown-no-results = No s'ha trobat cap coincidència
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Canvia la llengua de visualització i del conjunt de dades
+dataset-searchbox-placeholder = Cerca una llengua...
+dataset-searchbox-aria-label = Cerqueu una llengua
+dataset-search-no-results = No s'ha trobat cap llengua coincident
+request-new-language = Sol·licita una llengua
