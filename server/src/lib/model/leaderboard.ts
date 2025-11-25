@@ -30,11 +30,13 @@ const db = getMySQLInstance()
  *
  */
 
-const LEADERBOARD_CLIP_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour(s)
-const LEADERBOARD_CLIP_LOCK_DURATION = 20 * TimeUnits.MINUTE // 20 minutes
+// Inner cache (base data): Handles expensive queries (7-15 min)
+const LEADERBOARD_DATA_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour - users need freshness
+const LEADERBOARD_DATA_LOCK_DURATION = 30 * TimeUnits.MINUTE // 30 min - covers 15min query + contention
 
-const LEADERBOARD_VOTE_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour(s)
-const LEADERBOARD_VOTE_LOCK_DURATION = 20 * TimeUnits.MINUTE // 20 minutes
+// Outer cache (aggregations): Fast computation from cached data
+const LEADERBOARD_VIEW_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour - match inner for consistency
+const LEADERBOARD_VIEW_LOCK_DURATION = 35 * TimeUnits.MINUTE // 35 min - covers worst case: inner refresh (30min) + aggregation + safety
 
 const SLOW_QUERY_THRESHOLD = 10 * TimeUnits.MINUTE // 10 minutes
 
@@ -135,10 +137,14 @@ const getCachedClipLeaderboardData = () => {
   return lazyCache(
     'cv:leaderboard:clip-data',
     getAllClipLeaderboardData,
-    LEADERBOARD_CLIP_CACHE_DURATION,
-    LEADERBOARD_CLIP_LOCK_DURATION,
-    true, // Allow stale data if prefetch did not work - leaderboards can be slightly old to prevent DB stampede
-    { prefetch: true } // Enable prefetch with defaults
+    LEADERBOARD_DATA_CACHE_DURATION, // 1 hour
+    LEADERBOARD_DATA_LOCK_DURATION, // 30 min - must cover 9-min query
+    true, // Allow stale data during refresh
+    {
+      prefetch: true,
+      thresholdRatio: 0.6, // Start prefetch at 36 minutes (60% of 1h)
+      safetyMultiplier: 2.5, // 9min × 2.5 = 22.5min safety window
+    }
   )()
 }
 
@@ -146,10 +152,14 @@ const getCachedVoteLeaderboardData = () => {
   return lazyCache(
     'cv:leaderboard:vote-data',
     getAllVoteLeaderboardData,
-    LEADERBOARD_VOTE_CACHE_DURATION,
-    LEADERBOARD_VOTE_LOCK_DURATION,
-    true, // Allow stale data if prefetch did not work - leaderboards can be slightly old to prevent DB stampede
-    { prefetch: true } // Enable prefetch with defaults
+    LEADERBOARD_DATA_CACHE_DURATION, // 1 hour
+    LEADERBOARD_DATA_LOCK_DURATION, // 30 min - must cover 15-min query
+    true, // Allow stale data during refresh
+    {
+      prefetch: true,
+      thresholdRatio: 0.5, // Start prefetch at 30 minutes (50% of 1h)
+      safetyMultiplier: 2.0, // 15min × 2.0 = 30min safety window
+    }
   )()
 }
 
@@ -184,9 +194,14 @@ const getGlobalClipLeaderboard = () => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    LEADERBOARD_CLIP_CACHE_DURATION,
-    40 * TimeUnits.MINUTE, // 2x inner lock duration to cover cache refresh
-    true // Allow stale data
+    LEADERBOARD_VIEW_CACHE_DURATION, // 1 hour
+    LEADERBOARD_VIEW_LOCK_DURATION, // 35 min - shorter than TTL, covers nested refresh
+    true, // Allow stale during refresh
+    {
+      prefetch: true,
+      thresholdRatio: 0.7, // Refresh at 42 minutes
+      safetyMultiplier: 1.5, // Aggregation is fast, minimal safety needed
+    }
   )()
 }
 
@@ -220,9 +235,10 @@ const getLocaleClipLeaderboard = (locale: string) => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    LEADERBOARD_CLIP_CACHE_DURATION,
-    40 * TimeUnits.MINUTE, // 2x inner lock duration to cover cache refresh
-    true // Allow stale data
+    LEADERBOARD_VIEW_CACHE_DURATION, // 1 hour
+    LEADERBOARD_VIEW_LOCK_DURATION, // 35 min - shorter than TTL, covers nested refresh
+    true // Allow stale - active locales stay warm from traffic, compute is fast
+    // NO prefetch - only cache what's accessed, avoid 300 × prefetch overhead
   )()
 }
 
@@ -257,9 +273,14 @@ const getGlobalVoteLeaderboard = () => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    LEADERBOARD_VOTE_CACHE_DURATION,
-    40 * TimeUnits.MINUTE, // 2x inner lock duration to cover cache refresh
-    true // Allow stale data
+    LEADERBOARD_VIEW_CACHE_DURATION, // 1 hour
+    LEADERBOARD_VIEW_LOCK_DURATION, // 35 min - shorter than TTL, covers nested refresh
+    true, // Allow stale during refresh
+    {
+      prefetch: true,
+      thresholdRatio: 0.7, // Refresh at 42 minutes
+      safetyMultiplier: 1.5, // Aggregation is fast, minimal safety needed
+    }
   )()
 }
 
@@ -293,9 +314,10 @@ const getLocaleVoteLeaderboard = (locale: string) => {
 
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
-    LEADERBOARD_VOTE_CACHE_DURATION,
-    40 * TimeUnits.MINUTE, // 2x inner lock duration to cover cache refresh
-    true // Allow stale data
+    LEADERBOARD_VIEW_CACHE_DURATION, // 1 hour
+    LEADERBOARD_VIEW_LOCK_DURATION, // 35 min - shorter than TTL, covers nested refresh
+    true // Allow stale - active locales stay warm from traffic, compute is fast
+    // NO prefetch - only cache what's accessed, avoid 300 × prefetch overhead
   )()
 }
 
