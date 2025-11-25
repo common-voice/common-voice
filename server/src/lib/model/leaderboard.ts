@@ -185,7 +185,7 @@ const getGlobalClipLeaderboard = () => {
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
     LEADERBOARD_CLIP_CACHE_DURATION,
-    5 * TimeUnits.SECOND,
+    40 * TimeUnits.MINUTE, // 2x inner lock duration to cover cache refresh
     true // Allow stale data
   )()
 }
@@ -221,7 +221,7 @@ const getLocaleClipLeaderboard = (locale: string) => {
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
     LEADERBOARD_CLIP_CACHE_DURATION,
-    5 * TimeUnits.SECOND,
+    40 * TimeUnits.MINUTE, // 2x inner lock duration to cover cache refresh
     true // Allow stale data
   )()
 }
@@ -258,7 +258,7 @@ const getGlobalVoteLeaderboard = () => {
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
     LEADERBOARD_VOTE_CACHE_DURATION,
-    5 * TimeUnits.SECOND,
+    40 * TimeUnits.MINUTE, // 2x inner lock duration to cover cache refresh
     true // Allow stale data
   )()
 }
@@ -294,7 +294,7 @@ const getLocaleVoteLeaderboard = (locale: string) => {
       return leaderboard.map((row, i) => ({ position: i, ...row }))
     },
     LEADERBOARD_VOTE_CACHE_DURATION,
-    5 * TimeUnits.SECOND,
+    40 * TimeUnits.MINUTE, // 2x inner lock duration to cover cache refresh
     true // Allow stale data
   )()
 }
