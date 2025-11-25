@@ -28,15 +28,15 @@ const db = getMySQLInstance()
  * - With missing DB table indexes added, the query will be faster (to be measured)
  * - As of now we have 3.8M user records, with 51k visible, so it is a much smaller subset
  *
+ * CACHE VERSION: Increment this to invalidate all leaderboard caches on deployment
+ * This provides cache invalidation without needing redis-cli access
  */
+const CACHE_VERSION = 'v2' // v2: Single-layer architecture with DB protection
 
-// Inner cache (base data): Handles expensive queries (7-15 min)
-const LEADERBOARD_DATA_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour - users need freshness
-const LEADERBOARD_DATA_LOCK_DURATION = 30 * TimeUnits.MINUTE // 30 min - covers 15min query + contention
-
-// Outer cache (aggregations): Fast computation from cached data
-const LEADERBOARD_VIEW_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour - match inner for consistency
-const LEADERBOARD_VIEW_LOCK_DURATION = 35 * TimeUnits.MINUTE // 35 min - covers worst case: inner refresh (30min) + aggregation + safety
+// Single-layer cache strategy: Direct caching for each view
+// This eliminates nested lock cascades entirely
+const LEADERBOARD_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour - user freshness requirement
+const LEADERBOARD_LOCK_DURATION = 20 * TimeUnits.MINUTE // 20 min - covers 15min query + safety
 
 const SLOW_QUERY_THRESHOLD = 10 * TimeUnits.MINUTE // 10 minutes
 
@@ -54,6 +54,7 @@ interface LeaderboardRow extends Omit<LeaderboardDataRow, 'locale_id'> {
 }
 
 // Get ALL clip leaderboard data with locales in one query
+// Protection against concurrent queries is handled by Redis distributed lock
 async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
   const startTime = Date.now()
 
@@ -93,6 +94,7 @@ async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
 }
 
 // Get ALL vote leaderboard data with locales in one query
+// Protection against concurrent queries is handled by Redis distributed lock
 async function getAllVoteLeaderboardData(): Promise<LeaderboardDataRow[]> {
   const startTime = Date.now()
 
@@ -132,192 +134,110 @@ async function getAllVoteLeaderboardData(): Promise<LeaderboardDataRow[]> {
   return rows as LeaderboardDataRow[]
 }
 
-// Separate cache functions for individual data types with pre-fetching
-const getCachedClipLeaderboardData = () => {
-  return lazyCache(
-    'cv:leaderboard:clip-data',
-    getAllClipLeaderboardData,
-    LEADERBOARD_DATA_CACHE_DURATION, // 1 hour
-    LEADERBOARD_DATA_LOCK_DURATION, // 30 min - must cover 9-min query
-    true, // Allow stale data during refresh
-    {
-      prefetch: true,
-      thresholdRatio: 0.6, // Start prefetch at 36 minutes (60% of 1h)
-      safetyMultiplier: 2.5, // 9min × 2.5 = 22.5min safety window
-    }
-  )()
-}
+//
+// Helper to aggregate leaderboard data
+//
+function aggregateLeaderboard(
+  data: LeaderboardDataRow[],
+  localeId?: number
+): LeaderboardRow[] {
+  const userTotals = new Map<string, LeaderboardDataRow & { total: number }>()
 
-const getCachedVoteLeaderboardData = () => {
-  return lazyCache(
-    'cv:leaderboard:vote-data',
-    getAllVoteLeaderboardData,
-    LEADERBOARD_DATA_CACHE_DURATION, // 1 hour
-    LEADERBOARD_DATA_LOCK_DURATION, // 30 min - must cover 15-min query
-    true, // Allow stale data during refresh
-    {
-      prefetch: true,
-      thresholdRatio: 0.5, // Start prefetch at 30 minutes (50% of 1h)
-      safetyMultiplier: 2.0, // 15min × 2.0 = 30min safety window
+  for (const row of data) {
+    // Filter by locale if specified
+    if (localeId !== undefined && row.locale_id !== localeId) continue
+
+    const key = row.client_id
+    const existing = userTotals.get(key)
+    if (existing) {
+      existing.total += row.total
+    } else {
+      userTotals.set(key, { ...row, total: row.total })
     }
-  )()
+  }
+
+  const leaderboard = Array.from(userTotals.values()).sort(
+    (a, b) => b.total - a.total
+  )
+
+  return leaderboard.map((row, i) => ({ position: i, ...row }))
 }
 
 //
-// Clips
+// Clips - SINGLE LAYER: Each cache runs its own query directly
 //
 
-// Extract global clip leaderboard from cached data
+// Global clip leaderboard - runs full query, no nesting
 const getGlobalClipLeaderboard = () => {
   return lazyCache(
-    'cv:leaderboard:clip-global',
+    `cv:leaderboard:${CACHE_VERSION}:clip-data`, // SHARED CACHE KEY for all clip queries
     async (): Promise<LeaderboardRow[]> => {
-      const clipData = await getCachedClipLeaderboardData()
-
-      const userTotals = new Map<
-        string,
-        LeaderboardDataRow & { total: number }
-      >()
-      for (const row of clipData) {
-        const key = row.client_id
-        const existing = userTotals.get(key)
-        if (existing) {
-          existing.total += row.total
-        } else {
-          userTotals.set(key, { ...row, total: row.total })
-        }
-      }
-
-      const leaderboard = Array.from(userTotals.values()).sort(
-        (a, b) => b.total - a.total
-      )
-
-      return leaderboard.map((row, i) => ({ position: i, ...row }))
+      const clipData = await getAllClipLeaderboardData()
+      return aggregateLeaderboard(clipData)
     },
-    LEADERBOARD_VIEW_CACHE_DURATION, // 1 hour
-    LEADERBOARD_VIEW_LOCK_DURATION, // 35 min - shorter than TTL, covers nested refresh
+    LEADERBOARD_CACHE_DURATION,
+    LEADERBOARD_LOCK_DURATION,
     true, // Allow stale during refresh
     {
       prefetch: true,
-      thresholdRatio: 0.7, // Refresh at 42 minutes
-      safetyMultiplier: 1.5, // Aggregation is fast, minimal safety needed
+      thresholdRatio: 0.6, // Start prefetch at 36 min
+      safetyMultiplier: 2.5, // 9min × 2.5 = 22.5min buffer
     }
   )()
 }
 
-// Extract per-locale from cached data
+// Per-locale clip leaderboard - runs full query, no nesting
 const getLocaleClipLeaderboard = (locale: string) => {
   return lazyCache(
-    `cv:leaderboard:clip-${locale}`,
+    `cv:leaderboard:${CACHE_VERSION}:clip-data`, // SHARED CACHE KEY for all clip queries
     async (): Promise<LeaderboardRow[]> => {
-      const clipData = await getCachedClipLeaderboardData()
+      const clipData = await getAllClipLeaderboardData()
       const localeId = await getLocaleId(locale)
-
-      const userTotals = new Map<
-        string,
-        LeaderboardDataRow & { total: number }
-      >()
-      for (const row of clipData) {
-        if (row.locale_id !== localeId) continue
-
-        const key = row.client_id
-        const existing = userTotals.get(key)
-        if (existing) {
-          existing.total += row.total
-        } else {
-          userTotals.set(key, { ...row, total: row.total })
-        }
-      }
-
-      const leaderboard = Array.from(userTotals.values()).sort(
-        (a, b) => b.total - a.total
-      )
-
-      return leaderboard.map((row, i) => ({ position: i, ...row }))
+      return aggregateLeaderboard(clipData, localeId)
     },
-    LEADERBOARD_VIEW_CACHE_DURATION, // 1 hour
-    LEADERBOARD_VIEW_LOCK_DURATION, // 35 min - shorter than TTL, covers nested refresh
-    true // Allow stale - active locales stay warm from traffic, compute is fast
-    // NO prefetch - only cache what's accessed, avoid 300 × prefetch overhead
+    LEADERBOARD_CACHE_DURATION,
+    LEADERBOARD_LOCK_DURATION,
+    true // Allow stale during refresh
+    // NO prefetch - only cache accessed locales
   )()
 }
 
 //
-// Votes
+// Votes - SINGLE LAYER: Each cache runs its own query directly
 //
 
-// Extract global vote leaderboard from cached data
+// Global vote leaderboard - runs full query, no nesting
 const getGlobalVoteLeaderboard = () => {
   return lazyCache(
-    'cv:leaderboard:vote-global',
+    `cv:leaderboard:${CACHE_VERSION}:vote-data`, // SHARED CACHE KEY for all vote queries
     async (): Promise<LeaderboardRow[]> => {
-      const voteData = await getCachedVoteLeaderboardData()
-
-      const userTotals = new Map<
-        string,
-        LeaderboardDataRow & { total: number }
-      >()
-      for (const row of voteData) {
-        const key = row.client_id
-        const existing = userTotals.get(key)
-        if (existing) {
-          existing.total += row.total
-        } else {
-          userTotals.set(key, { ...row, total: row.total })
-        }
-      }
-
-      const leaderboard = Array.from(userTotals.values()).sort(
-        (a, b) => b.total - a.total
-      )
-
-      return leaderboard.map((row, i) => ({ position: i, ...row }))
+      const voteData = await getAllVoteLeaderboardData()
+      return aggregateLeaderboard(voteData)
     },
-    LEADERBOARD_VIEW_CACHE_DURATION, // 1 hour
-    LEADERBOARD_VIEW_LOCK_DURATION, // 35 min - shorter than TTL, covers nested refresh
+    LEADERBOARD_CACHE_DURATION,
+    LEADERBOARD_LOCK_DURATION,
     true, // Allow stale during refresh
     {
       prefetch: true,
-      thresholdRatio: 0.7, // Refresh at 42 minutes
-      safetyMultiplier: 1.5, // Aggregation is fast, minimal safety needed
+      thresholdRatio: 0.5, // Start prefetch at 30 min
+      safetyMultiplier: 2.0, // 15min × 2.0 = 30min buffer
     }
   )()
 }
 
-// Extract per-locale vote leaderboard from cached data
+// Per-locale vote leaderboard - runs full query, no nesting
 const getLocaleVoteLeaderboard = (locale: string) => {
   return lazyCache(
-    `cv:leaderboard:vote-${locale}`,
+    `cv:leaderboard:${CACHE_VERSION}:vote-data`, // SHARED CACHE KEY for all vote queries
     async (): Promise<LeaderboardRow[]> => {
-      const voteData = await getCachedVoteLeaderboardData()
+      const voteData = await getAllVoteLeaderboardData()
       const localeId = await getLocaleId(locale)
-
-      const userTotals = new Map<
-        string,
-        LeaderboardDataRow & { total: number }
-      >()
-      for (const row of voteData) {
-        if (row.locale_id !== localeId) continue
-
-        const key = row.client_id
-        const existing = userTotals.get(key)
-        if (existing) {
-          existing.total += row.total
-        } else {
-          userTotals.set(key, { ...row, total: row.total })
-        }
-      }
-
-      const leaderboard = Array.from(userTotals.values()).sort(
-        (a, b) => b.total - a.total
-      )
-
-      return leaderboard.map((row, i) => ({ position: i, ...row }))
+      return aggregateLeaderboard(voteData, localeId)
     },
-    LEADERBOARD_VIEW_CACHE_DURATION, // 1 hour
-    LEADERBOARD_VIEW_LOCK_DURATION, // 35 min - shorter than TTL, covers nested refresh
-    true // Allow stale - active locales stay warm from traffic, compute is fast
-    // NO prefetch - only cache what's accessed, avoid 300 × prefetch overhead
+    LEADERBOARD_CACHE_DURATION,
+    LEADERBOARD_LOCK_DURATION,
+    true // Allow stale during refresh
+    // NO prefetch - only cache accessed locales
   )()
 }
 
