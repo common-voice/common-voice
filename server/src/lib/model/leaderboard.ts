@@ -27,16 +27,16 @@ const db = getMySQLInstance()
  * - We can know fetch duration of ALL, but per language they differ too much
  * - With missing DB table indexes added, the query will be faster (to be measured)
  * - As of now we have 3.8M user records, with 51k visible, so it is a much smaller subset
- *
- * CACHE VERSION: Increment this to invalidate all leaderboard caches on deployment
- * This provides cache invalidation without needing redis-cli access
  */
-const CACHE_VERSION = 'v2' // v2: Single-layer architecture with DB protection
 
-// Single-layer cache strategy: Direct caching for each view
-// This eliminates nested lock cascades entirely
+// Two-tier cache strategy:
+// Tier 1 (raw data): Expensive DB query, shared across all views
+// Tier 2 (aggregated views): Fast in-memory aggregation, per-view caching
 const LEADERBOARD_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour - user freshness requirement
-const LEADERBOARD_LOCK_DURATION = 20 * TimeUnits.MINUTE // 20 min - covers 15min query + safety
+
+// CRITICAL: Tier 2 lock MUST be longer than Tier 1 lock to avoid expiry during nested call
+const TIER1_LOCK_DURATION = 30 * TimeUnits.MINUTE // 30 min - covers 15min query + safety
+const TIER2_LOCK_DURATION = 35 * TimeUnits.MINUTE // 35 min - covers Tier 1 lock + aggregation
 
 const SLOW_QUERY_THRESHOLD = 10 * TimeUnits.MINUTE // 10 minutes
 
@@ -51,6 +51,23 @@ interface LeaderboardDataRow {
 
 interface LeaderboardRow extends Omit<LeaderboardDataRow, 'locale_id'> {
   position: number
+}
+
+// Tier 1: Cache RAW DATA (shared lock, single query across all views)
+// This is the expensive DB query that we want to run only ONCE
+const getCachedClipLeaderboardData = () => {
+  return lazyCache(
+    'cv:leaderboard:clip-data-raw', // Raw data cache
+    getAllClipLeaderboardData,
+    LEADERBOARD_CACHE_DURATION,
+    TIER1_LOCK_DURATION,
+    true, // Allow stale during refresh
+    {
+      prefetch: true,
+      thresholdRatio: 0.6,
+      safetyMultiplier: 2.5,
+    }
+  )()
 }
 
 // Get ALL clip leaderboard data with locales in one query
@@ -91,6 +108,23 @@ async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
   }
 
   return rows as LeaderboardDataRow[]
+}
+
+// Tier 1: Cache RAW DATA (shared lock, single query across all views)
+// This is the expensive DB query that we want to run only ONCE
+const getCachedVoteLeaderboardData = () => {
+  return lazyCache(
+    'cv:leaderboard:vote-data-raw', // Raw data cache
+    getAllVoteLeaderboardData,
+    LEADERBOARD_CACHE_DURATION,
+    TIER1_LOCK_DURATION,
+    true, // Allow stale during refresh
+    {
+      prefetch: true,
+      thresholdRatio: 0.6, // Same as clips - trigger at 36 min remaining
+      safetyMultiplier: 2.5, // 15min × 2.5 = 37.5min buffer (safer for slower query)
+    }
+  )()
 }
 
 // Get ALL vote leaderboard data with locales in one query
@@ -164,80 +198,68 @@ function aggregateLeaderboard(
 }
 
 //
-// Clips - SINGLE LAYER: Each cache runs its own query directly
+// Clips - TWO TIER: Tier 1 caches raw data, Tier 2 caches aggregated views
 //
 
-// Global clip leaderboard - runs full query, no nesting
+// Global clip leaderboard - Tier 2: aggregates from cached raw data
 const getGlobalClipLeaderboard = () => {
   return lazyCache(
-    `cv:leaderboard:${CACHE_VERSION}:clip-data`, // SHARED CACHE KEY for all clip queries
+    'cv:leaderboard:clip-global',
     async (): Promise<LeaderboardRow[]> => {
-      const clipData = await getAllClipLeaderboardData()
+      const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
       return aggregateLeaderboard(clipData)
     },
     LEADERBOARD_CACHE_DURATION,
-    LEADERBOARD_LOCK_DURATION,
-    true, // Allow stale during refresh
-    {
-      prefetch: true,
-      thresholdRatio: 0.6, // Start prefetch at 36 min
-      safetyMultiplier: 2.5, // 9min × 2.5 = 22.5min buffer
-    }
+    TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
+    true // Allow stale during refresh
   )()
 }
 
-// Per-locale clip leaderboard - runs full query, no nesting
+// Per-locale clip leaderboard - Tier 2: aggregates from cached raw data
 const getLocaleClipLeaderboard = (locale: string) => {
   return lazyCache(
-    `cv:leaderboard:${CACHE_VERSION}:clip-data`, // SHARED CACHE KEY for all clip queries
+    `cv:leaderboard:clip-${locale}`,
     async (): Promise<LeaderboardRow[]> => {
-      const clipData = await getAllClipLeaderboardData()
+      const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
       const localeId = await getLocaleId(locale)
       return aggregateLeaderboard(clipData, localeId)
     },
     LEADERBOARD_CACHE_DURATION,
-    LEADERBOARD_LOCK_DURATION,
+    TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
     true // Allow stale during refresh
-    // NO prefetch - only cache accessed locales
   )()
 }
 
 //
-// Votes - SINGLE LAYER: Each cache runs its own query directly
+// Votes - TWO TIER: Tier 1 caches raw data, Tier 2 caches aggregated views
 //
 
-// Global vote leaderboard - runs full query, no nesting
+// Global vote leaderboard - Tier 2: aggregates from cached raw data
 const getGlobalVoteLeaderboard = () => {
   return lazyCache(
-    `cv:leaderboard:${CACHE_VERSION}:vote-data`, // SHARED CACHE KEY for all vote queries
+    'cv:leaderboard:vote-global',
     async (): Promise<LeaderboardRow[]> => {
-      const voteData = await getAllVoteLeaderboardData()
+      const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
       return aggregateLeaderboard(voteData)
     },
     LEADERBOARD_CACHE_DURATION,
-    LEADERBOARD_LOCK_DURATION,
-    true, // Allow stale during refresh
-    {
-      prefetch: true,
-      thresholdRatio: 0.5, // Start prefetch at 30 min
-      safetyMultiplier: 2.0, // 15min × 2.0 = 30min buffer
-    }
+    TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
+    true // Allow stale during refresh
   )()
 }
 
-// Per-locale vote leaderboard - runs full query, no nesting
+// Per-locale vote leaderboard - Tier 2: aggregates from cached raw data
 const getLocaleVoteLeaderboard = (locale: string) => {
   return lazyCache(
-    `cv:leaderboard:${CACHE_VERSION}:vote-data`, // SHARED CACHE KEY for all vote queries
+    `cv:leaderboard:vote-${locale}`,
     async (): Promise<LeaderboardRow[]> => {
-      const voteData = await getAllVoteLeaderboardData()
+      const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
       const localeId = await getLocaleId(locale)
       return aggregateLeaderboard(voteData, localeId)
     },
     LEADERBOARD_CACHE_DURATION,
-    LEADERBOARD_LOCK_DURATION,
+    TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
     true // Allow stale during refresh
-    // NO prefetch - only cache accessed locales
   )()
 }
 
