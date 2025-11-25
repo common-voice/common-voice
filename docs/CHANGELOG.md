@@ -43,10 +43,12 @@
 
 ### Changes merged after current release
 
-- Fix: Multiple fixes and optimizations, by [@moz-bozden](https://github.com/moz-bozden) in [#5184](https://github.com/common-voice/common-voice/pull/5184) (in v1.155.1)
 - Feat: Refactor API and add require-user-middleware, by [@moz-bozden](https://github.com/moz-bozden) in [#5180](https://github.com/common-voice/common-voice/pull/5180) (in v1.155.1)
 - Feat: Introduce fuzzy search and apply in CV language selector, by [@moz-bozden](https://github.com/moz-bozden) in [#5176](https://github.com/common-voice/common-voice/pull/5176) (in v1.155.1)
-- Feat: Implement pre-fetch in lazy cache and apply to leader-board queries, by [@moz-bozden](https://github.com/moz-bozden) in [#5175](https://github.com/common-voice/common-voice/pull/5175) (in v1.155.1)
+- Feat: Implement pre-fetch in lazy cache and apply to leader-board queries, by [@moz-bozden](https://github.com/moz-bozden) in [#5175](https://github.com/common-voice/common-voice/pull/5175) and optimized in [#5185](https://github.com/common-voice/common-voice/pull/5185) (in v1.155.1), adjusted in [#5187](https://github.com/common-voice/common-voice/pull/5187) (in v1.155.3)
+- Fix: Remove single recording/sentence limitations from `en`, `es`, and `kab` locales, by [@moz-bozden](https://github.com/moz-bozden) in [#5188](https://github.com/common-voice/common-voice/pull/5188) (in v1.155.3)
+- Fix: Move two endpoints to unprotected, by [@moz-bozden](https://github.com/moz-bozden) in [#5186](https://github.com/common-voice/common-voice/pull/5186) (in v1.155.2)
+- Fix: Multiple fixes and optimizations, by [@moz-bozden](https://github.com/moz-bozden) in [#5184](https://github.com/common-voice/common-voice/pull/5184) (in v1.155.1)
 - Fix: Multiple fixes in dashboard page stats and goals sections, by [@moz-bozden](https://github.com/moz-bozden) in [#5178](https://github.com/common-voice/common-voice/pull/5178) (in v1.155.1)
 - Chore: Change zh-TW into zh-CN in legal doc links, by [@moz-bozden](https://github.com/moz-bozden) in [#5177](https://github.com/common-voice/common-voice/pull/5177) (in v1.155.1)
 

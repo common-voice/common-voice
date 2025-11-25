@@ -152,11 +152,25 @@ export default class API {
     router.use('/webhooks', webhooksRouter)
 
     //
-    // User Account - login, signup, profile
+    // User Account - login, signup, profil
+    // These are both for logged-in and not logged in users
+    // Protection is handled inside the handlers as needed
     //
 
     // Get current user account details - or null if not logged in
     router.get('/user_client', this.getAccount)
+
+    // Get all user client accounts (for SSO users with multiple clients - return [] if not logged in)
+    router.get('/user_clients', this.getUserClients)
+
+    // Save language metadata for anonymous users (accent, variant)
+    // Body: languages array
+    router.patch(
+      '/anonymous_user',
+      validate({ body: anonUserMetadataSchema }),
+      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
+      this.saveAnonymousAccountLanguages
+    )
 
     //
     // Storage & File Access
@@ -288,24 +302,12 @@ export default class API {
     // User Account Management
     //
 
-    // Get all user client accounts (for SSO users with multiple clients)
-    router.get('/user_clients', this.getUserClients)
-
     // Claim contributions from another client_id
     // Params: client_id
     router.post('/user_clients/:client_id/claim', this.claimUserClient)
 
     // Update user account settings (email, username, visibility, etc.)
     router.patch('/user_client', this.saveAccount)
-
-    // Save language metadata for anonymous users (accent, variant)
-    // Body: languages array
-    router.patch(
-      '/anonymous_user',
-      validate({ body: anonUserMetadataSchema }),
-      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
-      this.saveAnonymousAccountLanguages
-    )
 
     //
     // User Profile - Avatars
@@ -665,7 +667,11 @@ export default class API {
   //
 
   getUserClients = async (request: Request, response: Response) => {
-    const user = request.session.user // Guaranteed by middleware
+    const user = request?.session?.user
+    if (!user) {
+      response.json([])
+      return
+    }
     const email = user.email
     const client_id = user.client_id
     const enrollment = user.enrollment
