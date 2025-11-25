@@ -70,7 +70,7 @@ username-email-not-demographic = Numele tău de utilizator și adresa de e-mail 
 
 welcome-staff = Bun venit echipei companiei { $company }!
 help-contribute = Poți ajuta la crearea unui set de date divers, cu sursă deschisă, făcându-ți un profil Common Voice și înregistrând mai multe secvențe vocale.
-login-company = Autentifică-te / Înscrie-te cu adresa de e-mail a companiei { $company }
+login-company = Intră în cont / fă-ți un cont cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util. Îți explicăm mai jos de ce.
 read-more-about = Află mai multe pe pagina Despre noi
 

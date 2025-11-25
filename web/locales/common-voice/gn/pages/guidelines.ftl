@@ -192,6 +192,7 @@ transcribe-the-audio-subheader-4-explanation-2-example = Upéi ahákuri <underli
 
 review-the-transcription = Ehechajey jehaikue
 review-the-transcription-subheader = Ñembohape guasu
+review-the-transcription-explanation-2 = Ehecha jey umi jehaipyre ymaveguávaa rekoguata eikuaa hag̃ua oĩ porãpa. Ikatukuaa emoambue ha emondo uperire.
 
 ## Code-Switching
 
@@ -210,9 +211,11 @@ code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
 code-switching-use-bilingual-prompts-explanation = Eiporuva’erã umi porandu ñe’ẽkõimegua oikehápe mokõi ñe’ẽ: Techapyrã:
 code-switching-use-bilingual-prompts-explanation-example = “¿Mbaʼe heʼi nde sy eg̃uahẽvo nde rógape upe árape?”
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-ask-bilingual-contexts-explanation = Eiporu umi mba’e mokõivéva ñe’ẽ oguatahápe oñondive (techapyrã, ógape, mbo’ehaópe, mba’e oikóva). Jehecharã:
 code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi ne prímo ndive, ¿embojehe’a español ha inglés?”
 code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
 code-switching-focus-emotional-explanation = Tapichakuéra omoabue jepi ayvu he’ívo oñandu térã oikotevẽva. Techapyrã:
+code-switching-focus-emotional-explanation-example = “Eremína mba’épa he’i nde rukuéra emombe’urõguare marandu; pe oñemombe’u hagueichaite ndéve”.
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
 code-switching-direct-quotes-explanation = Emyakãrakúke oĩva tapichápe tahe’i pe mba’e oiko hagueichaite. Techapyrã:
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
@@ -254,6 +257,7 @@ code-switching-use-both-languages-example = “Ipochyeterei chendive nahenói je
 code-switching-authentic-direct-quotes-example = “Che sy oporandu: ‘¿Reimo’ã kóva ñembosarainte?’. Ha’e chupe: ‘¡Py'aguapy!’”.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
+code-switching-answer-dont-avoid-switching = <bold>Emboyke ñemoambue ejapomemérõ.</bold> Emoambue pe ñe’ẽjuaju mbyte rupi, ñamindu’u mbyte rupi térã ñe’ẽ añoite ndive.
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
 code-switching-transcribe-do-1 = Embopu mbykymimi heta jey ejapyhykuaa hag̃ua moambuepy

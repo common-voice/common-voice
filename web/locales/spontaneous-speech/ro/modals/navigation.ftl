@@ -9,4 +9,4 @@ transcribe = Transcrie
 loading = Se încarcă…
 login-signup = Intră în cont / Fă-ți un cont
 login = Autentificare
-logout = Deconectare
+logout = Ieși din cont
