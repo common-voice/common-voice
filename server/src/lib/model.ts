@@ -16,7 +16,7 @@ import {
   fetchVariantClipsFromDB,
 } from '../application/repository/clips-repository'
 
-const AVG_CLIP_SECONDS = 4.694
+const AVG_CLIP_SECONDS = 4.835 // average seconds per clip across all languages - as of 2025-11-23
 
 type PontoonLocale = {
   locale: {
@@ -165,7 +165,9 @@ export default class Model {
       return await this.db.getCombinedLanguageData()
     },
     6 * TimeUnits.HOUR,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getAllLanguages = lazyCache(
@@ -175,7 +177,9 @@ export default class Model {
       return languages
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getAllDatasets = lazyCache(
@@ -184,7 +188,9 @@ export default class Model {
       return await this.db.getAllDatasets(releaseType)
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getLanguageDatasetStats = lazyCache(
@@ -193,7 +199,9 @@ export default class Model {
       return await this.db.getLanguageDatasetStats(languageCode)
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getAllLanguagesWithDatasets = lazyCache(
@@ -202,14 +210,18 @@ export default class Model {
       return await this.db.getAllLanguagesWithDatasets()
     },
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getLocalizedPercentages = lazyCache(
     'get-localized-percentages',
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
     TimeUnits.DAY,
-    3 * TimeUnits.MINUTE
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getAverageSecondsPerClip = lazyCache(
@@ -222,7 +234,8 @@ export default class Model {
     },
     12 * TimeUnits.HOUR,
     30 * TimeUnits.MINUTE,
-    true // allow stale data
+    true, // allow stale data - acceptable for statistics for 12 hours
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getLanguageStats = lazyCache(
@@ -230,12 +243,6 @@ export default class Model {
     async (): Promise<any> => {
       const languages = await this.db.getAllLanguages()
       const allLanguageIds = languages.map(language => language.id)
-      const allAverageDurations = await Promise.all(
-        languages.map(async lang => {
-          const avg_seconds = await this.getAverageSecondsPerClip(lang.id)
-          return { ...lang, avg_seconds }
-        })
-      )
 
       const statsReducer = (langStats: GenericStatistic[]) => {
         return langStats.reduce((obj: any, stat: GenericStatistic) => {
@@ -244,21 +251,16 @@ export default class Model {
         }, {})
       }
 
-      const languageSentenceCounts = await Promise.all(
-        allLanguageIds.map(async id => {
-          return await this.db.getLanguageSentenceCounts(id)
-        })
-      )
-      const languageSentenceCountsMap = statsReducer(languageSentenceCounts)
-
+      // Fetch clip counts first to sort languages by size
       const [
         localizedPercentages,
         validClipsCounts,
         invalidClipsCounts,
         speakerCounts,
         allClipsCount,
+        languageSentenceCounts,
       ] = await Promise.all([
-        this.getLocalizedPercentages(), //translation %, no en
+        this.getLocalizedPercentages(),
         this.db
           .getValidClipCount(allLanguageIds)
           .then(data => statsReducer(data)),
@@ -271,7 +273,41 @@ export default class Model {
         this.db
           .getAllClipCount(allLanguageIds)
           .then(data => statsReducer(data)),
+        Promise.all(
+          allLanguageIds.map(async id => {
+            return await this.db.getLanguageSentenceCounts(id)
+          })
+        ),
       ])
+
+      const languageSentenceCountsMap = statsReducer(languageSentenceCounts)
+
+      // Sort languages by clip count (smallest first)
+      // Small languages process faster, so they complete early
+      // Large languages batch together at the end
+      const sortedLanguages = [...languages].sort((a, b) => {
+        const aCount = allClipsCount[a.id] || 0
+        const bCount = allClipsCount[b.id] || 0
+        return aCount - bCount
+      })
+
+      // Process in batches to avoid overwhelming connection pool
+      const BATCH_SIZE = 20
+      const allAverageDurations: Array<{
+        avg_seconds: number
+        [key: string]: unknown
+      }> = []
+
+      for (let i = 0; i < sortedLanguages.length; i += BATCH_SIZE) {
+        const batch = sortedLanguages.slice(i, i + BATCH_SIZE)
+        const batchResults = await Promise.all(
+          batch.map(async lang => {
+            const avg_seconds = await this.getAverageSecondsPerClip(lang.id)
+            return { ...lang, avg_seconds }
+          })
+        )
+        allAverageDurations.push(...batchResults)
+      }
 
       const lastFetched = new Date().toISOString()
 
@@ -313,7 +349,9 @@ export default class Model {
       return languageStats
     },
     12 * TimeUnits.HOUR,
-    30 * TimeUnits.MINUTE
+    30 * TimeUnits.MINUTE,
+    true, // allow stale data
+    { prefetch: true } // Enable prefetch with defaults
   )
 
   getClipsStats = lazyCache(

@@ -43,6 +43,7 @@ x-years-short =
     }
 help-make-dataset = Hjelp oss å byggje eit offentleg, ope datasett med høg kvalitet
 sign-up-account = Be om konto
+email-subscription-title-v3 = Registrer deg for å få oppdateringar frå Common Voice og Mozilla Foundation
 
 ## Account Benefits
 

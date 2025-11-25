@@ -23,7 +23,6 @@ report-button = 反馈
 skip-button = 跳过
 submit-button = 提交
 contribute = 贡献
-request-new-language = 请求新语言
 # Button text which appears when there are no more resources
 continue-with-skipped = 回顾跳过的项目
 

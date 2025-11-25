@@ -23,7 +23,6 @@ report-button = Informar
 skip-button = Saltar
 submit-button = Enviar
 contribute = Colabore
-request-new-language = Solicitar un novo idioma
 # Button text which appears when there are no more resources
 continue-with-skipped = Continuar co contido omitido
 
@@ -32,8 +31,10 @@ continue-with-skipped = Continuar co contido omitido
 question = Engada preguntas
 validate = Valide
 respond-to-prompt = Responda
+respond-to-prompt-mobile = Responder
 transcribe = Transcriba
 check-transcriptions = Revise transcricións
+check-transcriptions-mobile = Revisar
 tag = Etiqueta
 
 ## Not Found Page

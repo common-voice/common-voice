@@ -23,7 +23,6 @@ report-button = Ziņot
 skip-button = Izlaist
 submit-button = Iesniegt
 contribute = Veic ieguldījumu
-request-new-language = Lūgt jaunu valodu
 # Button text which appears when there are no more resources
 continue-with-skipped = Turpināt ar izlaistajiem
 

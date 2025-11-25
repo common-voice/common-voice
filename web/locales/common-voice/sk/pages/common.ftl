@@ -12,6 +12,7 @@ abq = Abaza
 ace = Acehčina
 ady = Adygejčina
 af = Afrikánčina
+aii = Suret
 ajg = Adja
 aln = Gheg albánsky
 am = Amharčina
@@ -485,3 +486,17 @@ announcement-mdc-text = <strong>Nové kolekcie údajov Common Voice</strong> sú
 announcement-mdc-button-text = Pridajte sa k Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Otvorí sa na novej karte
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Začať vyhľadávanie
+searchbox-default-placeholder = Hľadať...
+searchbox-default-aria-label = Hľadať
+dropdown-no-results = Nenašla sa žiadna zhoda
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Zmení jazyk zobrazenia aj kolekcie údajov
+dataset-searchbox-placeholder = Hľadať jazyk...
+dataset-searchbox-aria-label = Vyhľadať jazyk
+dataset-search-no-results = Hľadanému výrazu nezodpovedá žiadny jazyk
+request-new-language = Požiadať o nový jazyk

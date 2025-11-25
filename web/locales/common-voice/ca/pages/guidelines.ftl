@@ -6,6 +6,7 @@ sentence-collection = Recollida de frases
 question-collection = Col·lecció de preguntes
 scripted-speech = Parla guionada
 spontaneous-speech = Parla espontània
+dont-subheader = No
 
 ## Voice Collection nav ids
 
@@ -138,3 +139,48 @@ offensive-content-sensitive-information-explanation-explanation-3 = Preguntes qu
 example-questions-subheader = Preguntes d'exemple
 example-questions-explanation-1 = Podeu trobar <examplePromptsLink>120 preguntes d'exemple en aquest full.</examplePromptsLink>
 example-questions-explanation-2 = Si voleu enviar una sèrie de preguntes per a afegir-les, <githubLink>podeu fer-ho a través del nostre GitHub</githubLink> o enviar la llista per correu electrònic a <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Responeu preguntes
+answer-questions-subheader = Orientació general
+answer-questions-explanation-1 = Penseu per un moment en l'indicatiu, considereu quin tipus de coses que voleu dir, però no escriviu massa. Feu clic a la icona «registra». Un cop hagueu gravat podeu escoltar-vos, tornar a enregistrar, eliminar o enviar.
+answer-questions-explanation-2 = Recordeu - no us amoïneu si quequegeu, feu una pausa o repetiu una paraula. Tot això són dades útils per als enginyers que intenten construir eines inclusives de reconeixement de la parla en el món real.
+answer-questions-tip-1 = Enregistreu en un lloc raonablement tranquil
+answer-questions-tip-2 = Trieu un lloc amb una bona connexió a Internet
+answer-questions-tip-3b = Intenteu que la vostra resposta duri entre 15 i 30 segons.
+answer-questions-tip-5 = Parleu de forma natural, com ho faria amb un amic - utilitzeu els vostres variant dialecte i accent reals
+answer-questions-tip-6 = Mantingueu un volum constant: no crideu ni canteu
+# Transcribe the Audio
+transcribe-the-audio = Transcriviu l'àudio
+transcribe-the-audio-subheader-1 = Orientació general
+transcribe-the-audio-subheader-2 = Nombres i acrònims
+transcribe-the-audio-subheader-3 = Etiquetes especials
+transcribe-the-audio-subheader-4 = Segments de paraules, inicis falsos, paraules repetides
+transcribe-the-audio-subheader-5 = Errors gramaticals i col·loquialismes
+transcribe-the-audio-subheader-1-explanation = En general, heu d'escriure tot el que sentiu. Això inclou;
+transcribe-the-audio-subheader-1-explanation-example-1 = Escriviu les disfluències, incloses les vacil·lacions i les repeticions
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Correcte</correct>: Tenia un vint per cent de descompte
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Correcte</correct>: Van ser arrestats per l'<underline>FBI</underline> dijous passat
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Incorrecte</wrong>: Van ser arrestats per l'<underline>efa be i</underline> dijous passat
+tags-table-header-1 = Etiqueta
+tags-table-header-2 = Significat
+tags-laugh = Riure
+tags-unclear = Poc clar
+tags-noise = Soroll
+tags-laugh-explanation = El so del riure.
+
+## Code-Switching
+
+code-switching-ask-bilingual-contexts-explanation = Feu servir situacions on s'utilitzen habitualment ambdues llengües (per exemple, a casa, a l'escola, en esdeveniments comunitaris). Exemple:
+code-switching-ask-bilingual-contexts-explanation-example = «Quan parles amb els teus cosins, barreges el castellà i català?»
+code-switching-informal-scenarios-header = Exploreu escenaris informals
+code-switching-informal-scenarios-explanation = Les converses amb amics o els missatges de text sovint inclouen canvis més naturals. Exemple:
+# What to Avoid
+code-switching-avoid-subheader = Què s'ha d'evitar
+code-switching-avoid-1 = Sol·licitar informació personal identificable
+code-switching-avoid-2 = Sol·licitar discursos d'odi o altres sentiments esbiaixats o ofensius
+code-switching-avoid-3 = Fer que algú comparteixi respostes sensibles o potencialment provocadora
+code-switching-dont-header = Eviteu
+code-switching-dont-1 = No useu un llenguatge massa formal

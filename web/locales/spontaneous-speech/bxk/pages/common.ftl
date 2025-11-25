@@ -23,7 +23,6 @@ report-button = Reportah
 skip-button = ruka
 submit-button = Èlesha
 contribute = Rungah
-request-new-language = Saaba Ènganikha èmbya
 
 ## Navbar
 

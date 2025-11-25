@@ -9,6 +9,7 @@ abq = Abaza
 ace = Acehnese
 ady = Adyghe
 af = Afrikaans
+aii = Suret
 ajg = Adja
 aln = Gheg Albanian
 am = Amharic
@@ -334,7 +335,7 @@ sdh = Southern Kurdish
 sdo = Serian Bidayuh
 seh = Sena
 sei = Seri
-shi = Tachelhit
+shi = Tashlhiyt
 shn = Shan
 si = Sinhala
 sk = Slovak
@@ -483,3 +484,19 @@ announcement-mdc-text = <strong>New Common Voice datasets</strong> are now avail
 announcement-mdc-button-text = Join Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Opens in a new tab
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Start typing to search
+searchbox-default-placeholder = Search...
+searchbox-default-aria-label = Search
+dropdown-no-results = No match found
+
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Changes both display and dataset language
+dataset-searchbox-placeholder = Search for a language...
+dataset-searchbox-aria-label = Search for a language
+dataset-search-no-results = No matching language found
+
+request-new-language = Request New Language

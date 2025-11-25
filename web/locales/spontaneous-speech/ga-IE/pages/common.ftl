@@ -23,7 +23,6 @@ report-button = Tuairiscigh
 skip-button = Léim Thar Seo
 submit-button = Seol é
 contribute = Rannchuidigh
-request-new-language = Iarr Teanga Nua
 
 ## Navbar
 

@@ -23,7 +23,6 @@ report-button = رپورٽ
 skip-button = ڇوڙڻ
 submit-button = جما ڪرڻ
 contribute = حصو ڏيڻ
-request-new-language = نئِي ٻولِي هارو درخواست ڏيو
 
 ## Navbar
 

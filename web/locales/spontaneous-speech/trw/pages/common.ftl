@@ -23,7 +23,6 @@ report-button = رپورٹ کوا
 skip-button = چھوا
 submit-button = تھلا
 contribute = تُنُو ڈأھارا دا
-request-new-language = اے نیم جیِب نیِما
 
 ## Navbar
 

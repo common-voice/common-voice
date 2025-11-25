@@ -23,7 +23,6 @@ report-button = Reportar
 skip-button = Saltar
 submit-button = Inviar
 contribute = Contribuer
-request-new-language = Require nove lingua.
 # Button text which appears when there are no more resources
 continue-with-skipped = Continuar con contento saltate
 

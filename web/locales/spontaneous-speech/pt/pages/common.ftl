@@ -22,7 +22,9 @@ contribute = Contribuir
 
 ## Navbar
 
+question = Pergunta
 respond-to-prompt = Responder à consulta
+transcribe = Transcrever
 check-transcriptions = Verificar transcrições
 
 ## Not Found Page

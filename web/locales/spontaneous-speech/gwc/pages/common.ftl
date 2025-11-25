@@ -23,7 +23,6 @@ report-button = رپوٹ
 skip-button = چھوروگ
 submit-button = جمع کٞر
 contribute = حصّہ گِھنوگ
-request-new-language = نِیم جِبیں کیر درخاس دہ
 
 ## Navbar
 

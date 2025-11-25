@@ -23,7 +23,6 @@ report-button = Гузориш додан
 skip-button = Нодида гузарондан
 submit-button = Пешниҳод кардан
 contribute = Саҳм гузоштан
-request-new-language = Дархости забони нав
 # Button text which appears when there are no more resources
 continue-with-skipped = Бо «Нодида гузаронидан» идома диҳед
 

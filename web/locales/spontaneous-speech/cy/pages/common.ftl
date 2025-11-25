@@ -23,7 +23,6 @@ report-button = Adrodd
 skip-button = Hepgor
 submit-button = Cyflwyno
 contribute = Cyfrannu
-request-new-language = Gofyn am Iaith Newydd
 # Button text which appears when there are no more resources
 continue-with-skipped = Parhau gyda'r rhai sydd wedi'u Hepgor
 

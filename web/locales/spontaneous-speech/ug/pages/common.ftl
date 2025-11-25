@@ -23,7 +23,6 @@ report-button = دوكلات
 skip-button = ئاتلا
 submit-button = يوللا
 contribute = تۆھپە قوشاي
-request-new-language = يېڭى تىل تەلەپ قىلىڭ
 
 ## Navbar
 

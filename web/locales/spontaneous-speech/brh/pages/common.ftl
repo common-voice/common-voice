@@ -23,7 +23,6 @@ report-button = رپورٹ
 skip-button = یلہ کبوتے
 submit-button = جمع کبو
 contribute = کمک کبو
-request-new-language = پوسکنو زبان سیکن خواست کبو
 # Button text which appears when there are no more resources
 continue-with-skipped = Skipped تون اوار برجا تخبو
 

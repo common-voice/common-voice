@@ -23,7 +23,6 @@ report-button = ລາຍງານ
 skip-button = ຂ້າມ
 submit-button = ສົ່ງ
 contribute = ມີສ່ວນຮ່ວມ
-request-new-language = ຂໍພາສາໃໝ່
 
 ## Navbar
 

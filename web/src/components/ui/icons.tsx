@@ -1,12 +1,15 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import * as React from 'react'
 
 const Icon =
   (path: string, title = '') =>
+  // eslint-disable-next-line react/display-name
   ({ children, ...props }: any) =>
     <img src={path} title={title} {...props} alt="icon" />
 
 let idCounter = 0
 function uniqueIcon(component: (id: number, props: any) => React.ReactNode) {
+  // eslint-disable-next-line react/display-name
   return class extends React.Component<any> {
     id = idCounter++
 
@@ -172,6 +175,9 @@ export const CheckIcon = uniqueIcon((id, props) => (
     </g>
   </svg>
 ))
+
+import checkMarkGreenSvg from './icons/checkmark-green.svg'
+export const CheckMarkGreenIcon = Icon(checkMarkGreenSvg)
 
 export const CheckMark = () => (
   <svg
@@ -444,8 +450,10 @@ export const UsersIcon = () => (
   </svg>
 )
 
+import closeSvg from './icons/close.svg'
+import closeBlackSvg from './icons/close-black.svg'
 export const CloseIcon = ({ black, ...props }: any) => {
-  const RealIcon = Icon(require(`./icons/close${black ? '-black' : ''}.svg`))
+  const RealIcon = Icon(black ? closeBlackSvg : closeSvg)
   return <RealIcon alt="" {...props} />
 }
 
@@ -488,7 +496,8 @@ export const CogIcon = uniqueIcon(id => (
   </svg>
 ))
 
-export const ContactIcon = Icon(require('./icons/contact.svg'))
+import contactSvg from './icons/contact.svg'
+export const ContactIcon = Icon(contactSvg)
 
 export const ContactIconCode = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -530,7 +539,7 @@ export const MailIcon = () => (
   </svg>
 )
 
-export const CrossIcon = (props: any) => (
+export const CrossIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
       <path
@@ -568,7 +577,8 @@ export const DashboardIcon = uniqueIcon(id => (
   </svg>
 ))
 
-export const DiscourseIcon = Icon(require('./icons/discourse.svg'))
+import discourseSvg from './icons/discourse.svg'
+export const DiscourseIcon = Icon(discourseSvg)
 
 export const DiscourseIconCode = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -580,7 +590,7 @@ export const DiscourseIconCode = () => (
   </svg>
 )
 
-export const DownloadIcon = (props: any) => (
+export const DownloadIcon = () => (
   <svg width="15px" height="16px" viewBox="0 0 15 16">
     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
       <g fill="#000000">
@@ -614,7 +624,8 @@ export const FullCircleIcon = () => (
   </svg>
 )
 
-export const GithubIcon = Icon(require('./icons/github.svg'))
+import githubSvg from './icons/github.svg'
+export const GithubIcon = Icon(githubSvg)
 
 export const GithubIconCode = () => (
   <svg width="22" height="23" viewBox="0 0 22 23">
@@ -675,7 +686,8 @@ export const InfoIcon = uniqueIcon(id => (
   </svg>
 ))
 
-export const KeyboardIcon = Icon(require('./icons/keyboard.svg'))
+import keyboardSvg from './icons/keyboard.svg'
+export const KeyboardIcon = Icon(keyboardSvg)
 
 export const LinkIcon = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -791,7 +803,7 @@ export const OldPlayIcon = (props: any) => (
   </svg>
 )
 
-export const OldRedoIcon = (props: any) => (
+export const OldRedoIcon = () => (
   <svg>
     <g strokeWidth="1" fill="none" fillRule="evenodd">
       <g fill="#000000">
@@ -859,8 +871,10 @@ export const PlayOutlineGreenIcon = uniqueIcon(id => (
   </svg>
 ))
 
-export const PlayIcon = Icon(require('./icons/play.svg'), 'play')
+import playSvg from './icons/play.svg'
+export const PlayIcon = Icon(playSvg, 'play')
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const PlusCircleIcon = uniqueIcon(id => (
   <svg
     width="16"
@@ -908,7 +922,8 @@ export const RedoIcon = uniqueIcon(id => (
   </svg>
 ))
 
-export const SearchIcon = Icon(require('./icons/search.svg'), 'search')
+import searchSvg from './icons/search.svg'
+export const SearchIcon = Icon(searchSvg, 'search')
 
 export const SearchIconCode = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -1048,11 +1063,13 @@ export const StopIcon = uniqueIcon(id => (
   </svg>
 ))
 
-export const SuccessIcon = Icon(require('./icons/success.svg'), 'success')
+import successSvg from './icons/success.svg'
+export const SuccessIcon = Icon(successSvg, 'success')
 
-export const SupportIcon = Icon(require('./icons/support.svg'), 'support')
+import supportSvg from './icons/support.svg'
+export const SupportIcon = Icon(supportSvg, 'support')
 
-export const ThumbsDownIcon = (props: any) => (
+export const ThumbsDownIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
       <path
@@ -1071,7 +1088,7 @@ export const ThumbsDownIcon = (props: any) => (
   </svg>
 )
 
-export const ThumbsUpIcon = (props: any) => (
+export const ThumbsUpIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
       <path
@@ -1132,7 +1149,7 @@ export const TrashIconRed = () => (
   </svg>
 )
 
-export const VolumeIcon = (props: any) => (
+export const VolumeIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
       <path
@@ -1544,6 +1561,9 @@ export const ChatBubbleIcon = () => (
   </svg>
 )
 
+import chatBubblePlusGreySvg from './icons/chat_bubble_plus_grey.svg'
+export const ChatBubblePlusGreyIcon = Icon(chatBubblePlusGreySvg)
+
 export const CheckCircle = () => (
   <svg
     width="16"
@@ -1701,6 +1721,12 @@ export const Globe = () => (
   </svg>
 )
 
+import globeBlackSvg from './icons/globe_black.svg'
+export const GlobeBlackIcon = Icon(globeBlackSvg)
+
+import globeWhiteSvg from './icons/globe_white.svg'
+export const GlobeWhiteIcon = Icon(globeWhiteSvg)
+
 export const FilledStarIcon = () => (
   <svg
     width="16"
@@ -1746,31 +1772,26 @@ export const XCircleIcon = () => (
   </svg>
 )
 
-export const FirefoxColor = Icon(
-  require('./icons/ff-color.svg'),
-  'firefox-color'
-)
+import ffColorSvg from './icons/ff-color.svg'
+export const FirefoxColor = Icon(ffColorSvg, 'firefox-color')
 
-export const ChromeColor = Icon(
-  require('./icons/chrome-color.svg'),
-  'chrome-color'
-)
+import chromeColorSvg from './icons/chrome-color.svg'
+export const ChromeColor = Icon(chromeColorSvg, 'chrome-color')
 
-export const SafariColor = Icon(
-  require('./icons/safari-color.svg'),
-  'safari-color'
-)
+import safariColorSvg from './icons/safari-color.svg'
+export const SafariColor = Icon(safariColorSvg, 'safari-color')
 
-export const CautionIcon = Icon(
-  require('./icons/exclamation.svg'),
-  'exclamation'
-)
+import exclamationSvg from './icons/exclamation.svg'
+export const CautionIcon = Icon(exclamationSvg, 'exclamation')
 
-export const MarsSolo = Icon(require('./icons/mars-solo.svg'), 'mars-solo')
+import marsSoloSvg from './icons/mars-solo.svg'
+export const MarsSolo = Icon(marsSoloSvg, 'mars-solo')
 
-export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'))
+import questionMarkSvg from './icons/question-mark.svg'
+export const QuestionMarkIcon = Icon(questionMarkSvg, 'question-mark')
 
-export const DropdownArrowIcon = Icon(require('./icons/dropdown-arrow.svg'))
+import dropdownArrowSvg from './icons/dropdown-arrow.svg'
+export const DropdownArrowIcon = Icon(dropdownArrowSvg, 'dropdown-arrow')
 
 const FONT_ICONS = {
   chrome: '',
@@ -1808,5 +1829,4 @@ export const XIcon = () => {
 }
 
 import starSvg from './icons/star.svg'
-
 export const StarIcon = Icon(starSvg)

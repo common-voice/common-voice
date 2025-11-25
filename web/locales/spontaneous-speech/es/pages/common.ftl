@@ -23,7 +23,6 @@ report-button = Informe
 skip-button = Omitir
 submit-button = Enviar
 contribute = Colaborar
-request-new-language = Solicitar nuevo idioma
 
 ## Navbar
 

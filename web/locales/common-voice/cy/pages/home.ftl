@@ -57,6 +57,7 @@ x-years-short =
     }
 help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel sy'n agored i'r cyhoedd
 sign-up-account = Cofrestru am gyfrif
+email-subscription-title-v3 = Cofrestrwch ar gyfer diweddariadau Common Voice a'r Mozilla Foundation
 
 ## Account Benefits
 

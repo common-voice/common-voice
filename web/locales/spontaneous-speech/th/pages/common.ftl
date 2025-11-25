@@ -23,7 +23,6 @@ report-button = รายงาน
 skip-button = ข้าม
 submit-button = ส่ง
 contribute = มีส่วนร่วม
-request-new-language = ขอภาษาใหม่
 
 ## Navbar
 

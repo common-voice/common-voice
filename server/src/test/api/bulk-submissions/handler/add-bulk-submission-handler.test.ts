@@ -35,29 +35,8 @@ describe('AddBulkSubmissionHandler', () => {
     })
   })
 
-  it('should return bad request 400 when client_id is not present', async () => {
-    const reqMock: any = {
-      session: {
-        user: {
-        },
-      },
-      headers: {
-        'content-length': 100,
-      },
-      params: {
-        locale: 'en',
-      },
-    }
-    const resMock: any = {}
-    resMock.status = jest.fn().mockReturnValue(resMock)
-    resMock.json = jest.fn().mockReturnValue(resMock)
-
-    await addBulkSubmissionHandler(reqMock, resMock)
-    expect(resMock.status).toHaveBeenCalledWith(StatusCodes.BAD_REQUEST)
-    expect(resMock.json).toHaveBeenCalledWith({
-      message: 'no client id',
-    })
-  })
+  // Note: client_id validation is now handled by requireUserMiddleware at the router level
+  // The handler assumes client_id is always present due to middleware protection
 
   it('should return bad request 400 when content-length and filesize are not matching', async () => {
     const contentLengthSize = 1024

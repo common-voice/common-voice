@@ -23,7 +23,6 @@ report-button = সদৰি কৰক
 skip-button = এৰক
 submit-button = দাখিল কৰক
 contribute = অৱদান দিয়ক
-request-new-language = নতুন ভাষাৰ অনুৰোধ কৰক
 
 ## Navbar
 

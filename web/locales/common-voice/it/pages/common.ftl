@@ -12,6 +12,7 @@ abq = Abaza
 ace = Aceh
 ady = Adighè
 af = Afrikaans
+aii = Suret (neo-aramaico)
 ajg = Adja
 aln = Gheg albanese
 am = Amarico
@@ -485,3 +486,17 @@ announcement-mdc-text = <strong>I nuovi dataset di Common Voice</strong> sono or
 announcement-mdc-button-text = Unisciti a Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Si apre in una nuova scheda
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Inizia a digitare per cercare
+searchbox-default-placeholder = Cerca…
+searchbox-default-aria-label = Cerca
+dropdown-no-results = Nessuna corrispondenza trovata
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Cambia sia la lingua di visualizzazione che quella del dataset
+dataset-searchbox-placeholder = Cerca una lingua…
+dataset-searchbox-aria-label = Cerca una lingua
+dataset-search-no-results = Nessuna lingua corrispondente trovata
+request-new-language = Richiedi nuova lingua

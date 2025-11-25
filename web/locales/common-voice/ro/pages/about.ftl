@@ -65,7 +65,7 @@ about-nav-playbook = Află cum te poți implica
 about-playbook-what-is-language = Ce reprezintă o limbă în proiectul Common Voice?
 about-playbook-what-is-language-content-1 = Ne putem gândi în diverse feluri la limba pe care o vorbim. În ceea ce privește modelele de recunoaștere a vorbirii, însă, proiectul Common Voice se concentrează asupra „inteligibilității, a înțelegerii reciproce”. Cu alte cuvinte: „pot vorbitorii acestei limbi să se înțeleagă între ei dacă încearcă?”
 about-playbook-what-is-language-content-2 = Urmărim ca modelele de limbă să recunoască mai bine o gamă variată de vorbitori. Pentru aceasta, însă, este nevoie ca aceștia să fie mai bine reprezentați în seturile de date vocale.
-about-playbook-what-is-language-content-3 = Unele limbi prezintă variații considerabile în ceea ce privește gramatica, vocabularul și pronunția. Din acest motiv, în 2022 <ctaLink>am lansat „Variantele de limbă”</ctaLink>, care le oferă comunităților posibilitatea de a-și diferenția limbile în cadrul setului de date general.
+about-playbook-what-is-language-content-3 = Unele limbi prezintă variații considerabile în ceea ce privește gramatica, vocabularul și pronunția. Din acest motiv, în 2022 <ctaLink>am lansat „variantele lingvistice”</ctaLink>, care le oferă comunităților posibilitatea de a-și diferenția limbile în cadrul setului de date general.
 
 ## How do I add a language
 
