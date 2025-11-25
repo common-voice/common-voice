@@ -211,6 +211,7 @@ code-switching-use-bilingual-prompts-header = Eiporu ñe’ẽkõi rehegua
 code-switching-use-bilingual-prompts-explanation = Eiporuva’erã umi porandu ñe’ẽkõimegua oikehápe mokõi ñe’ẽ: Techapyrã:
 code-switching-use-bilingual-prompts-explanation-example = “¿Mbaʼe heʼi nde sy eg̃uahẽvo nde rógape upe árape?”
 code-switching-ask-bilingual-contexts-header = Eiporandu ñe’ẽkõi jere rehegua
+code-switching-ask-bilingual-contexts-explanation = Eiporu umi mba’e mokõivéva ñe’ẽ oguatahápe oñondive (techapyrã, ógape, mbo’ehaópe, mba’e oikóva). Jehecharã:
 code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi ne prímo ndive, ¿embojehe’a español ha inglés?”
 code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
 code-switching-focus-emotional-explanation = Tapichakuéra omoabue jepi ayvu he’ívo oñandu térã oikotevẽva. Techapyrã:
