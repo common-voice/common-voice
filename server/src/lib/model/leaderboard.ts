@@ -121,7 +121,7 @@ const getCachedVoteLeaderboardData = () => {
     true, // Allow stale during refresh
     {
       prefetch: true,
-      thresholdRatio: 0.6, // Same as clips - trigger at 36 min remaining
+      thresholdRatio: 0.6, // Same as clips - trigger at 36 min elapsed (24 min remaining)
       safetyMultiplier: 2.5, // 15min × 2.5 = 37.5min buffer (safer for slower query)
     }
   )()
