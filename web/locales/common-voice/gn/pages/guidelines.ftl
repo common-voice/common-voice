@@ -215,6 +215,7 @@ code-switching-ask-bilingual-contexts-explanation = Eiporu umi mba’e mokõivé
 code-switching-ask-bilingual-contexts-explanation-example = “Eñe’ẽvo umi ne prímo ndive, ¿embojehe’a español ha inglés?”
 code-switching-focus-emotional-header = Ehecha umi aravo evy’aha térã ivaikuaáva
 code-switching-focus-emotional-explanation = Tapichakuéra omoabue jepi ayvu he’ívo oñandu térã oikotevẽva. Techapyrã:
+code-switching-focus-emotional-explanation-example = “Eremína mba’épa he’i nde rukuéra emombe’urõguare marandu; pe oñemombe’u hagueichaite ndéve”.
 code-switching-direct-quotes-header = Ejerure mboýpa ovale pya’e téra ykegua
 code-switching-direct-quotes-explanation = Emyakãrakúke oĩva tapichápe tahe’i pe mba’e oiko hagueichaite. Techapyrã:
 code-switching-direct-quotes-explanation-example = “¿Mba’etépa umi ñe’ẽ eiporúva eikuaaramoguare?”
