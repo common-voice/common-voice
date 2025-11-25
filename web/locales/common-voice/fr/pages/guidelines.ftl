@@ -325,6 +325,7 @@ code-switching-single-token-header = Identification au sein d’un jeton unique
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Identifiez la ponctuation en fonction de la langue utilisée à proximité
 code-switching-punctuation-tagging-explanation = Identifiez la ponctuation en utilisant la langue la plus proche à gauche de l’intervalle. Exemples :
+code-switching-punctuation-tagging-explanation-example-2 = <purple>mais</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>de toute façon.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Méfiez-vous des faux amis
 code-switching-lookalikes-explanation = Certains mots peuvent ressembler à une langue mais sont utilisés dans l’autre langue. Identifiez-les en fonction du sens et de leur utilisation, pas uniquement en fonction de leur orthographe. Exemples :
