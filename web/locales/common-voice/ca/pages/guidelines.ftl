@@ -202,3 +202,7 @@ code-switching-review-no-1 = Preguntes que podrien sol·licitar informació pers
 code-switching-review-no-2 = Preguntes que puguin incitar a l'odi o altres sentiments esbiaixats o ofensius
 code-switching-answer-intro = Quan responem a una pregunta, l'objectiu és respondre de manera natural, tal com ho faríem en una conversa real. Volem capturar com es barregen realment les llengües en la parla quotidiana.
 code-switching-answer-bullet-1 = Penseu en moments o situacions de la vida real: acudits, discussions, tradicions
+code-switching-answer-bullet-2 = Imagineu-vos que esteu enviant un missatge de text a un amic o explicant una història a algú
+code-switching-answer-bullet-3 = Feu servir paraules que realment faríeu servir, fins i tot si fossin manllevades o barrejades.
+code-switching-answer-bullet-4 = No hi ha una manera «perfecta» de respondre
+code-switching-authentic-header = Responeu de manera natural i autèntica
