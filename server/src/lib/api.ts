@@ -1129,13 +1129,13 @@ export default class API {
       if (isWebBrowser) {
         // Redirect web browsers to MDC datasets
         return response.redirect(
-          'https://datacollective.mozillafoundation.org/datasets'
+          'https://datacollective.mozillafoundation.org/datasets?q=common+voice'
         )
       } else {
         // Return error for scripts/API clients
         return response.status(403).json({
           message:
-            'This endpoint is no longer available. Please visit https://datacollective.mozillafoundation.org/datasets to download datasets.',
+            'This endpoint is no longer available. Please visit https://datacollective.mozillafoundation.org/datasets?q=common+voice to download datasets.',
           error: 'Access restricted',
         })
       }
