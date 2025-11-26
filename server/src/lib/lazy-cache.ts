@@ -48,7 +48,7 @@ const HEALTH_CHECK_INTERVAL = 5 * TimeUnits.SECOND // 5 seconds always
 const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per minute
 
 let consecutiveFailures = 0
-const FAILURE_THRESHOLD = 2 // Require 2 consecutive failures before switching
+const FAILURE_THRESHOLD = 5 // Require 5 consecutive failures before switching
 
 // Initialize cache strategy once at module load and start health monitoring
 useRedis.then(hasRedis => {
@@ -349,17 +349,22 @@ function redisCache<T, S>(
       try {
         lock = await redlock.lock(lockKey, lockDurationMs)
       } catch (lockError) {
-        // Distinguish between "lock held" vs "Redis down"
+        // Be more conservative about detecting "Redis down"
+        // Only fall back to memory if Redis is TRULY unreachable
+        // If lock is just held by another pod, use stale data instead
+
+        const errorMsg = lockError.message || ''
+
+        // Very specific conditions for "Redis actually down"
         const isRedisDown =
-          lockError.message?.includes('exceeded') ||
-          lockError.message?.includes('quorum') ||
-          lockError.message?.includes('timeout') ||
-          lockError.message?.includes('ECONNREFUSED') ||
-          lockError.message?.includes('Connection') ||
+          errorMsg.includes('ECONNREFUSED') ||
+          errorMsg.includes('ENOTFOUND') ||
+          errorMsg.includes('ETIMEDOUT') ||
+          (errorMsg.includes('Connection') && errorMsg.includes('closed')) ||
           consecutiveFailures >= FAILURE_THRESHOLD
 
         if (isRedisDown) {
-          // Redis likely down - fail fast to memory cache
+          // Redis is truly down - use memory fallback as last resort
           console.error(
             `[LazyCache] Redis appears down for ${cacheKey}, using memory fallback`
           )
@@ -367,7 +372,8 @@ function redisCache<T, S>(
           return await memoryFallback(...(args as S[]))
         }
 
-        // Lock held by another instance - use stale data strategy
+        // Lock is held by another instance OR Redis is just slow
+        // Use stale data strategy - DO NOT run query
         return await handleLockFailure(key)
       }
 
