@@ -411,7 +411,7 @@ function redisCache<T, S>(
         )
         // Return empty result or throw to caller - do NOT run query again
         throw new Error(
-          `The leaderboard is being refreshed. Please try again in a moment.`
+          `The requested data is being refreshed. Please try again in a moment.`
         )
       }
 
