@@ -228,14 +228,18 @@ header {
     }
 
     & .language-select-container {
-        @media (--sm-down) {
+        @media (--xs-down) {
             display: none;
+        }
+
+        @media (--sm-up) {
+            display: flex;
         }
     }
 
     & .user-menu {
         @media (--sm-down) {
-            display: none;
+            display: flex;
         }
     }
 
@@ -252,16 +256,27 @@ header {
         width: max-content;
         text-overflow: ellipsis;
         overflow: hidden;
-        display: inline-block;
         white-space: nowrap;
 
         @media (--md-up) {
             height: 2.5rem;
         }
 
-        @media (--sm-down) {
+        @media (--xs2-down) {
             display: none;
         }
+
+        @media (--xs-down) {
+            /* display: inline-block; */
+            /* margin: 0 10px;*/
+            font-size: var(--font-size-xs);
+            /* overflow-wrap: normal;
+            vertical-align: middle; */
+        }
+
+        /* @media (--md-only) {
+            display: inline-block;
+        } */
 
         &::after {
             content: '';
