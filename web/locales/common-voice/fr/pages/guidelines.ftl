@@ -315,6 +315,8 @@ code-switching-tagging-error-3 = Des mots écrits avec la mauvaise orthographe
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Utilisez la bonne orthographe pour chaque langue
 code-switching-orthography-explanation = Écrivez chaque mot en fonction de l’orthographe de la langue dont il est issu. Par exemple :
+code-switching-orthography-explanation-example-1 = Même si le mot « cuisine » apparaît prononcé comme en espagnol, il doit être transcrit comme en français, et non « couissine ».
+code-switching-orthography-explanation-example-2 = Si le mot quinceaños est prononcé comme en français, écrivez-le avec le ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Utilisez la prononciation pour déterminer la langue
 code-switching-pronunciation-explanation = Certains mots peuvent s’écrire de la même façon dans les deux langues, mais peuvent être prononcés différemment.  Écoutez la prononciation pour vous aider à l’identifier correctement. Par exemple : camping, jogging, smoking, brushing, shampooing.
