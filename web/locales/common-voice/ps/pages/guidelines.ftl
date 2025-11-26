@@ -164,6 +164,7 @@ transcribe-the-audio-subheader-1-explanation = په عمومي توګه، تاس
 transcribe-the-audio-subheader-1-explanation-example-1 = د ناڅرګندتیاوو لیکل، په شمول د ځنډ او تکرار
 transcribe-the-audio-subheader-1-explanation-example-2 = د ټوخي یا خندا په څیر د شور پیښو لیبل کول
 transcribe-the-audio-subheader-1-explanation-example-3 = د مهمې غږیزې ککړتیا پیژندل، لکه د شالید خبرې اترې یا د موټرو هارنونه
+transcribe-the-audio-subheader-1-explanation-example-4 = ګرامري بدلونونه او سلېنګ باید هماغسې ثبت شي لکه څنګه چې کارول کېږي. د خلکو خبرې مه اصلاح کوئ یا مه بدلوئ
 tags-table-header-2 = معنی
 tags-laugh = خندا
 tags-unclear = ناڅرګند
