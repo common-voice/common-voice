@@ -191,7 +191,10 @@ code-switching-review-no-1 = هغه پوښتنې چې ممکن د شخصي پی�
 # Answering a Question
 code-switching-answer-subheader = د یوې پوښتنې ځواب ورکول
 code-switching-answer-bullet-1 = د حقیقي ژوند شیبو یا حالاتو په اړه فکر وکړئ: ټوکې، دلیلونه، دودونه
+code-switching-answer-bullet-2 = فکر وکړئ چې تاسو يو ملگري ته بيغام لېږئ يا چاته کيسه کوئ
+code-switching-answer-bullet-3 = هغه کلمې وکاروئ چې تاسو به یې په حقیقت کې وکاروئ، حتی که پور اخیستل شوي یا گډشوي وي
 code-switching-answer-bullet-4 = د ځواب ورکولو لپاره کومه "بشپړه" لاره نشته
+code-switching-authentic-header = طبيعي او مستنده ځواب ورکړئ
 # Use standard spelling for each language
 code-switching-spelling-header = د هرې ژبې لپاره معیاري املا وکاروئ
 code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
