@@ -175,12 +175,34 @@ tags-laugh-explanation = El so del riure.
 
 code-switching-ask-bilingual-contexts-explanation = Feu servir situacions on s'utilitzen habitualment ambdues llengües (per exemple, a casa, a l'escola, en esdeveniments comunitaris). Exemple:
 code-switching-ask-bilingual-contexts-explanation-example = «Quan parles amb els teus cosins, barreges el castellà i català?»
+code-switching-cultural-topics-header = Trieu temes culturalment específics
+code-switching-cultural-topics-explanation = El menjar, les tradicions, les festes i les dinàmiques familiars sovint conviden al canvi de codi.
+code-switching-cultural-topics-explanation-example = «Com descriuríeu el Tió de Nadal a algú que només parla anglès?»
 code-switching-informal-scenarios-header = Exploreu escenaris informals
 code-switching-informal-scenarios-explanation = Les converses amb amics o els missatges de text sovint inclouen canvis més naturals. Exemple:
+code-switching-informal-scenarios-explanation-example = «Quina broma fan sempre els vostres amics, i com s'hi refereixen?"
 # What to Avoid
 code-switching-avoid-subheader = Què s'ha d'evitar
+code-switching-avoid-intro = Preguntes que podrien:
 code-switching-avoid-1 = Sol·licitar informació personal identificable
 code-switching-avoid-2 = Sol·licitar discursos d'odi o altres sentiments esbiaixats o ofensius
 code-switching-avoid-3 = Fer que algú comparteixi respostes sensibles o potencialment provocadora
 code-switching-dont-header = Eviteu
 code-switching-dont-1 = No useu un llenguatge massa formal
+# Reviewing a Question
+code-switching-review-subheader = Revisió d'una pregunta
+code-switching-review-intro = Assegureu-vos que la pregunta compleix els criteris:
+code-switching-review-criterion-1 = És fàcil d'entendre i de respondre
+code-switching-review-criterion-2 = És rellevant en general
+code-switching-review-criterion-3 = No usa ni sol·licita llenguatge perjudicial o ofensiu
+code-switching-review-does-not-header = I <bold>NO</bold> inclou:
+code-switching-review-offensive-content = <bold>Contingut ofensiu o informació sensible</bold>
+code-switching-answer-header = Contingut ofensiu o informació sensible
+code-switching-review-no-1 = Preguntes que podrien sol·licitar informació personal identificable
+code-switching-review-no-2 = Preguntes que puguin incitar a l'odi o altres sentiments esbiaixats o ofensius
+code-switching-answer-intro = Quan responem a una pregunta, l'objectiu és respondre de manera natural, tal com ho faríem en una conversa real. Volem capturar com es barregen realment les llengües en la parla quotidiana.
+code-switching-answer-bullet-1 = Penseu en moments o situacions de la vida real: acudits, discussions, tradicions
+code-switching-answer-bullet-2 = Imagineu-vos que esteu enviant un missatge de text a un amic o explicant una història a algú
+code-switching-answer-bullet-3 = Feu servir paraules que realment faríeu servir, fins i tot si fossin manllevades o barrejades.
+code-switching-answer-bullet-4 = No hi ha una manera «perfecta» de respondre
+code-switching-authentic-header = Responeu de manera natural i autèntica
