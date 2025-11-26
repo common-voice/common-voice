@@ -4,10 +4,10 @@ import { getConfig } from '../config-helper'
 
 // <=== Configure for automatic recovery and resilience
 export const redis = new Redis(getConfig().REDIS_URL, {
-  // Connection settings for resilience
-  connectTimeout: 5_000, // Timeout for slow connections (default 10_000)
-  commandTimeout: 5_000, // Timeout for commands (default 10_000)
-  maxRetriesPerRequest: 3, // Allow retries for temporary issues (default flushes after 20 retries)
+  // Connection settings for resilience - use defaults for stability
+  connectTimeout: 10_000, // Default 10s - allow time for slow networks
+  commandTimeout: 10_000, // Default 10s - GCP Cloud SQL can be slow
+  maxRetriesPerRequest: null, // Default null - unlimited retries for transient issues
   retryDelayOnFailover: 100,
   retryDelayOnTryAgain: 100,
   // Enable queuing for resilience during brief outages
@@ -16,7 +16,6 @@ export const redis = new Redis(getConfig().REDIS_URL, {
   autoResendUnfulfilledCommands: true, // Resend commands after reconnect
 
   // Auto-reconnection settings
-  // lazyConnect: true, // Connect immediately!
   keepAlive: 30_000, // Standard keepalive
 } as Redis.RedisOptions)
 
@@ -31,12 +30,12 @@ redis.on('reconnecting', delay =>
 redis.on('end', () => console.warn('[Redis] Connection ended'))
 
 export const redlock = new Redlock([redis], {
-  // Strategy: Quick retry to handle transient Redis issues
-  // If Redis is briefly slow/recovering, retries can prevent unnecessary memory fallback
-  // If lock is truly held by another instance, we'll fail fast and use stale data
-  retryCount: 3, // Try a few times to handle network hiccups (300-600ms total)
-  retryDelay: 100, // Base delay between retries
-  retryJitter: 100, // Add randomness to prevent synchronicity (100-200ms per retry)
+  // More conservative retry strategy to distinguish "lock held" from "Redis down"
+  // Lock acquisition should retry long enough to handle Redis slowness
+  // but fail quickly if another pod truly holds the lock
+  retryCount: 10, // Try harder - 10 retries over ~5-10 seconds
+  retryDelay: 500, // Wait longer between retries (500ms base)
+  retryJitter: 200, // Randomize 500-700ms to prevent thundering herd
   // Drift factor for clock skew across Redis instances
   driftFactor: 0.01,
 })

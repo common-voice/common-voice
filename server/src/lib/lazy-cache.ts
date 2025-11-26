@@ -3,6 +3,7 @@ import * as Sentry from '@sentry/node'
 import type { Lock } from 'redlock'
 
 import { TimeUnits } from 'common'
+import { getConfig } from '../config-helper'
 
 interface PrefetchOptions {
   prefetch?: boolean
@@ -10,9 +11,8 @@ interface PrefetchOptions {
   safetyMultiplier?: number // Default 2.0 (use 2x avgFetchTime as safety margin)
 }
 
-// Log level control (set LOG_LEVEL=debug for verbose logging)
-const LOG_LEVEL = process.env.LOG_LEVEL || 'info'
-const isDebugEnabled = LOG_LEVEL === 'debug'
+// Logging control
+const isDebugEnabled = ['local', 'sandbox'].includes(getConfig().ENVIRONMENT)
 
 // Cold-start detection: track first N minutes after startup
 const startupTime = Date.now()
@@ -48,7 +48,7 @@ const HEALTH_CHECK_INTERVAL = 5 * TimeUnits.SECOND // 5 seconds always
 const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per minute
 
 let consecutiveFailures = 0
-const FAILURE_THRESHOLD = 2 // Require 2 consecutive failures before switching
+const FAILURE_THRESHOLD = 5 // Require 5 consecutive failures before switching
 
 // Initialize cache strategy once at module load and start health monitoring
 useRedis.then(hasRedis => {
@@ -349,17 +349,22 @@ function redisCache<T, S>(
       try {
         lock = await redlock.lock(lockKey, lockDurationMs)
       } catch (lockError) {
-        // Distinguish between "lock held" vs "Redis down"
+        // Be more conservative about detecting "Redis down"
+        // Only fall back to memory if Redis is TRULY unreachable
+        // If lock is just held by another pod, use stale data instead
+
+        const errorMsg = lockError.message || ''
+
+        // Very specific conditions for "Redis actually down"
         const isRedisDown =
-          lockError.message?.includes('exceeded') ||
-          lockError.message?.includes('quorum') ||
-          lockError.message?.includes('timeout') ||
-          lockError.message?.includes('ECONNREFUSED') ||
-          lockError.message?.includes('Connection') ||
+          errorMsg.includes('ECONNREFUSED') ||
+          errorMsg.includes('ENOTFOUND') ||
+          errorMsg.includes('ETIMEDOUT') ||
+          (errorMsg.includes('Connection') && errorMsg.includes('closed')) ||
           consecutiveFailures >= FAILURE_THRESHOLD
 
         if (isRedisDown) {
-          // Redis likely down - fail fast to memory cache
+          // Redis is truly down - use memory fallback as last resort
           console.error(
             `[LazyCache] Redis appears down for ${cacheKey}, using memory fallback`
           )
@@ -367,7 +372,8 @@ function redisCache<T, S>(
           return await memoryFallback(...(args as S[]))
         }
 
-        // Lock held by another instance - use stale data strategy
+        // Lock is held by another instance OR Redis is just slow
+        // Use stale data strategy - DO NOT run query
         return await handleLockFailure(key)
       }
 
@@ -393,6 +399,22 @@ function redisCache<T, S>(
     } catch (error) {
       // Release lock if we acquired it but an error occurred
       await releaseLock(lock)
+
+      // Distinguish between timeout waiting for data vs actual Redis failures
+      // If we timed out waiting, DO NOT fall back to memory (would run duplicate query)
+      if (
+        error instanceof Error &&
+        error.message.includes('Timeout waiting for')
+      ) {
+        console.error(
+          `[LazyCache] ${error.message} - NOT running duplicate query`
+        )
+        // Return empty result or throw to caller - do NOT run query again
+        throw new Error(
+          `The requested data is being refreshed. Please try again in a moment.`
+        )
+      }
+
       reportError(error as Error, 'redis-operation')
       return await memoryFallback(...(args as S[]))
     }
@@ -439,49 +461,78 @@ function redisCache<T, S>(
         reportError(err as Error, 'stale-check-after-lock-failure')
       }
 
-      // No stale or fresh data
-      const internal = new Error(
-        `No stale or fresh data available for ${cacheKey}; lock acquisition failed.`
-      )
-      reportError(internal, 'cache-lock-fail-no-stale')
-
-      // User-safe output
-      throw new Error(`Temporary data issue. Please try again shortly.`)
+      // No stale or fresh data - wait for it to appear since another instance is computing
+      if (isDebugEnabled) {
+        console.debug(
+          `[LazyCache] No data available for ${cacheKey}, waiting for refresh to complete`
+        )
+      }
+      return await waitForFreshData(key)
     }
 
-    // Fresh data REQUIRED
+    // Fresh data REQUIRED - wait for it to appear
     if (isDebugEnabled) {
       console.debug(
-        `[LazyCache] Lock held for ${cacheKey}, checking for fresh data`
+        `[LazyCache] Fresh data required for ${cacheKey}, waiting for refresh`
+      )
+    }
+    return await waitForFreshData(key)
+  }
+
+  async function waitForFreshData(key: string): Promise<T> {
+    // Another pod/request holds the lock and is computing the data
+    // Poll Redis until data appears or we timeout
+    const maxWaitTime = Math.min(lockDurationMs, 60000) // Wait up to lock duration or 60s
+    const pollInterval = 500 // Check every 500ms
+    const maxAttempts = Math.floor(maxWaitTime / pollInterval)
+
+    if (isDebugEnabled) {
+      console.debug(
+        `[LazyCache] Waiting for fresh data for ${cacheKey} (max ${(
+          maxWaitTime / 1000
+        ).toFixed(0)}s)`
       )
     }
 
-    try {
-      const raw = await redis.get(key)
-      if (raw) {
-        const cached = JSON.parse(raw)
-        const value = cached.value !== undefined ? cached.value : cached
-        const at = cached.at || 0
+    for (let attempt = 0; attempt < maxAttempts; attempt++) {
+      try {
+        const raw = await redis.get(key)
+        if (raw) {
+          const cached = JSON.parse(raw)
+          const value = cached.value !== undefined ? cached.value : cached
+          const at = cached.at || 0
 
-        if (!isExpired(at, timeMs)) {
-          return value
+          if (!isExpired(at, timeMs)) {
+            if (isDebugEnabled) {
+              console.debug(
+                `[LazyCache] Fresh data appeared for ${cacheKey} after ${(
+                  (attempt * pollInterval) /
+                  1000
+                ).toFixed(1)}s`
+              )
+            }
+            return value
+          }
         }
+      } catch (err) {
+        reportError(err as Error, 'wait-for-fresh-poll')
       }
-    } catch (err) {
-      reportError(err as Error, 'fresh-check-after-lock-failure')
+
+      // Wait before next poll
+      await new Promise(resolve => setTimeout(resolve, pollInterval))
     }
 
-    // Fresh required but unavailable
-    const internal = new Error(
-      `Fresh data required for ${cacheKey}, but lock is held and no new data appeared.`
+    // Timeout - data didn't appear, throw error to trigger memory fallback
+    const error = new Error(
+      `Timeout waiting for ${cacheKey} after ${(maxWaitTime / 1000).toFixed(
+        0
+      )}s - falling back to direct query`
     )
-    console.error(`[LazyCache] ${internal.message}`)
-    reportError(internal, 'cache-lock-fail-no-fresh')
+    console.warn(`[LazyCache] ${error.message}`)
+    reportError(error, 'wait-for-fresh-timeout')
 
-    // User-safe message
-    throw new Error(
-      `The requested data is still being prepared. Please retry a minute later.`
-    )
+    // Throw error - will be caught by outer catch and fall back to memory
+    throw error
   }
 
   async function computeAndCache(
