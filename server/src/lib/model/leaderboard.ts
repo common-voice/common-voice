@@ -60,12 +60,8 @@ const getCachedClipLeaderboardData = lazyCache(
   getAllClipLeaderboardData,
   LEADERBOARD_CACHE_DURATION,
   TIER1_LOCK_DURATION,
-  true, // Allow stale during refresh
-  {
-    prefetch: true,
-    thresholdRatio: 0.6,
-    safetyMultiplier: 2.5,
-  }
+  true // Allow stale during refresh
+  // No prefetch - Tier 2 caches will trigger refresh when they prefetch
 )
 
 // Get ALL clip leaderboard data with locales in one query
@@ -115,12 +111,8 @@ const getCachedVoteLeaderboardData = lazyCache(
   getAllVoteLeaderboardData,
   LEADERBOARD_CACHE_DURATION,
   TIER1_LOCK_DURATION,
-  true, // Allow stale during refresh
-  {
-    prefetch: true,
-    thresholdRatio: 0.6, // Same as clips - trigger at 36 min remaining
-    safetyMultiplier: 2.5, // 15min × 2.5 = 37.5min buffer (safer for slower query)
-  }
+  true // Allow stale during refresh
+  // No prefetch - Tier 2 caches will trigger refresh when they prefetch
 )
 
 // Get ALL vote leaderboard data with locales in one query
@@ -206,7 +198,12 @@ const getGlobalClipLeaderboard = lazyCache(
   },
   LEADERBOARD_CACHE_DURATION,
   TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
-  true // Allow stale during refresh
+  true, // Allow stale during refresh
+  {
+    prefetch: true, // This will trigger Tier 1 refresh when needed
+    thresholdRatio: 0.6,
+    safetyMultiplier: 2.5,
+  }
 )
 
 // Per-locale clip leaderboard - Tier 2: aggregates from cached raw data
@@ -221,6 +218,7 @@ const getLocaleClipLeaderboard = (locale: string) => {
     LEADERBOARD_CACHE_DURATION,
     TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
     true // Allow stale during refresh
+    // No prefetch - only global view prefetches to avoid thundering herd
   )
 }
 
@@ -237,7 +235,12 @@ const getGlobalVoteLeaderboard = lazyCache(
   },
   LEADERBOARD_CACHE_DURATION,
   TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
-  true // Allow stale during refresh
+  true, // Allow stale during refresh
+  {
+    prefetch: true, // This will trigger Tier 1 refresh when needed
+    thresholdRatio: 0.6,
+    safetyMultiplier: 2.5,
+  }
 )
 
 // Per-locale vote leaderboard - Tier 2: aggregates from cached raw data
@@ -252,6 +255,7 @@ const getLocaleVoteLeaderboard = (locale: string) => {
     LEADERBOARD_CACHE_DURATION,
     TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
     true // Allow stale during refresh
+    // No prefetch - only global view prefetches to avoid thundering herd
   )
 }
 
