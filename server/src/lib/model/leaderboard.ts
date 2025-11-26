@@ -55,20 +55,14 @@ interface LeaderboardRow extends Omit<LeaderboardDataRow, 'locale_id'> {
 
 // Tier 1: Cache RAW DATA (shared lock, single query across all views)
 // This is the expensive DB query that we want to run only ONCE
-const getCachedClipLeaderboardData = async () => {
-  return await lazyCache(
-    'cv:leaderboard:clip-data-raw', // Raw data cache
-    getAllClipLeaderboardData,
-    LEADERBOARD_CACHE_DURATION,
-    TIER1_LOCK_DURATION,
-    true, // Allow stale during refresh
-    {
-      prefetch: true,
-      thresholdRatio: 0.6,
-      safetyMultiplier: 2.5,
-    }
-  )()
-}
+const getCachedClipLeaderboardData = lazyCache(
+  'cv:leaderboard:clip-data-raw', // Raw data cache
+  getAllClipLeaderboardData,
+  LEADERBOARD_CACHE_DURATION,
+  TIER1_LOCK_DURATION,
+  true // Allow stale during refresh
+  // No prefetch - Tier 2 caches will trigger refresh when they prefetch
+)
 
 // Get ALL clip leaderboard data with locales in one query
 // Protection against concurrent queries is handled by Redis distributed lock
@@ -112,20 +106,14 @@ async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
 
 // Tier 1: Cache RAW DATA (shared lock, single query across all views)
 // This is the expensive DB query that we want to run only ONCE
-const getCachedVoteLeaderboardData = async () => {
-  return await lazyCache(
-    'cv:leaderboard:vote-data-raw', // Raw data cache
-    getAllVoteLeaderboardData,
-    LEADERBOARD_CACHE_DURATION,
-    TIER1_LOCK_DURATION,
-    true, // Allow stale during refresh
-    {
-      prefetch: true,
-      thresholdRatio: 0.6, // Same as clips - trigger at 36 min elapsed (24 min remaining)
-      safetyMultiplier: 2.5, // 15min × 2.5 = 37.5min buffer (safer for slower query)
-    }
-  )()
-}
+const getCachedVoteLeaderboardData = lazyCache(
+  'cv:leaderboard:vote-data-raw', // Raw data cache
+  getAllVoteLeaderboardData,
+  LEADERBOARD_CACHE_DURATION,
+  TIER1_LOCK_DURATION,
+  true // Allow stale during refresh
+  // No prefetch - Tier 2 caches will trigger refresh when they prefetch
+)
 
 // Get ALL vote leaderboard data with locales in one query
 // Protection against concurrent queries is handled by Redis distributed lock
@@ -202,22 +190,25 @@ function aggregateLeaderboard(
 //
 
 // Global clip leaderboard - Tier 2: aggregates from cached raw data
-const getGlobalClipLeaderboard = async () => {
-  return await lazyCache(
-    'cv:leaderboard:clip-global',
-    async (): Promise<LeaderboardRow[]> => {
-      const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
-      return aggregateLeaderboard(clipData)
-    },
-    LEADERBOARD_CACHE_DURATION,
-    TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
-    true // Allow stale during refresh
-  )()
-}
+const getGlobalClipLeaderboard = lazyCache(
+  'cv:leaderboard:clip-global',
+  async (): Promise<LeaderboardRow[]> => {
+    const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
+    return aggregateLeaderboard(clipData)
+  },
+  LEADERBOARD_CACHE_DURATION,
+  TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
+  true, // Allow stale during refresh
+  {
+    prefetch: true, // This will trigger Tier 1 refresh when needed
+    thresholdRatio: 0.6,
+    safetyMultiplier: 2.5,
+  }
+)
 
 // Per-locale clip leaderboard - Tier 2: aggregates from cached raw data
-const getLocaleClipLeaderboard = async (locale: string) => {
-  return await lazyCache(
+const getLocaleClipLeaderboard = (locale: string) => {
+  return lazyCache(
     `cv:leaderboard:clip-${locale}`,
     async (): Promise<LeaderboardRow[]> => {
       const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
@@ -227,7 +218,8 @@ const getLocaleClipLeaderboard = async (locale: string) => {
     LEADERBOARD_CACHE_DURATION,
     TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
     true // Allow stale during refresh
-  )()
+    // No prefetch - only global view prefetches to avoid thundering herd
+  )
 }
 
 //
@@ -235,22 +227,25 @@ const getLocaleClipLeaderboard = async (locale: string) => {
 //
 
 // Global vote leaderboard - Tier 2: aggregates from cached raw data
-const getGlobalVoteLeaderboard = async () => {
-  return await lazyCache(
-    'cv:leaderboard:vote-global',
-    async (): Promise<LeaderboardRow[]> => {
-      const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
-      return aggregateLeaderboard(voteData)
-    },
-    LEADERBOARD_CACHE_DURATION,
-    TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
-    true // Allow stale during refresh
-  )()
-}
+const getGlobalVoteLeaderboard = lazyCache(
+  'cv:leaderboard:vote-global',
+  async (): Promise<LeaderboardRow[]> => {
+    const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
+    return aggregateLeaderboard(voteData)
+  },
+  LEADERBOARD_CACHE_DURATION,
+  TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
+  true, // Allow stale during refresh
+  {
+    prefetch: true, // This will trigger Tier 1 refresh when needed
+    thresholdRatio: 0.6,
+    safetyMultiplier: 2.5,
+  }
+)
 
 // Per-locale vote leaderboard - Tier 2: aggregates from cached raw data
-const getLocaleVoteLeaderboard = async (locale: string) => {
-  return await lazyCache(
+const getLocaleVoteLeaderboard = (locale: string) => {
+  return lazyCache(
     `cv:leaderboard:vote-${locale}`,
     async (): Promise<LeaderboardRow[]> => {
       const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
@@ -260,7 +255,8 @@ const getLocaleVoteLeaderboard = async (locale: string) => {
     LEADERBOARD_CACHE_DURATION,
     TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
     true // Allow stale during refresh
-  )()
+    // No prefetch - only global view prefetches to avoid thundering herd
+  )
 }
 
 // NOTE: The top-related SQLs
@@ -498,10 +494,10 @@ export default async function getLeaderboard({
   if (dashboard == 'stats') {
     leaderboard = await (type == 'clip'
       ? locale
-        ? getLocaleClipLeaderboard(locale)
+        ? getLocaleClipLeaderboard(locale)()
         : getGlobalClipLeaderboard()
       : locale
-      ? getLocaleVoteLeaderboard(locale)
+      ? getLocaleVoteLeaderboard(locale)()
       : getGlobalVoteLeaderboard())
   } else if (dashboard == 'challenge') {
     const { scope, challenge } = arg
