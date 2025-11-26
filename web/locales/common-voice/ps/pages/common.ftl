@@ -483,3 +483,13 @@ announcement-mdc-text = <strong>نوي کامن وائس ډیټاسیټونه</s
 announcement-mdc-button-text = د موزیلا ډیټا کلیکټیو سره یوځای شئ
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = په نوي ټېب کې پرانیستل کیږي
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = لټون...
+searchbox-default-aria-label = لټون
+dropdown-no-results = هیڅ سمون ونه موندل شو
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = د ښودنې او ډیټاسیټ ژبه دواړه بدلوي
+dataset-searchbox-placeholder = د ژبې لټون وکړئ...
+dataset-searchbox-aria-label = د ژبې لټون وکړئ...

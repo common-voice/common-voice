@@ -25,7 +25,16 @@ check-bubble-title = <mark>کتنه</mark>
 check-bubble-subtitle = تاسو ګورئ چې ایا نقل له آډیو سره سمون لري که نه.
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>ډاټا</mark>
+data-bubble-subtitle = موږ وخت په وخت ډیټاسیټ خپروو.
+contact-us = له موږ سره اړیکه ونیسئ
+contact-us-title = ایا غواړئ له دې پروژې سره مرسته وکړئ یا له موږ سره شراکت وکړئ؟
+contact-us-email =
+    برېښنالیک: <emailFragment>commonvoice@mozilla.com
+    </emailFragment>
+signup-form-title = ایا تاسو د کامن وائس د طبیعي خبرو د پروژې د بیټا ازمېښت ډلې برخه یاست؟
+signup-terms = د “یو لینک مې بریښنالیک ته واستوه” په کلیک کولو سره، تاسو زموږ  <termsLink>د خدمت شرایطو</termsLink> او <privacyLink>د محرمیت تګلارې</privacyLink> سره موافقه کوئ، او همدارنګه منئ چې Mozilla به تاسو ته د کامن وائس د طبیعي خبرو د پروژې د بیټا ازمېښت کې د ګډون څرنګوالي په اړه برېښنالیک واستوي.
 signup-input-placeholder = خپل برېښليک دننه کړئ
-signup-button-value = يو تړونی زما برېښليک ه ولېږئ
+signup-button-value = زما برېښنالیک ته لینک واستوئ
 footer-text-privacy = <privacyLink>پتنتيا</privacyLink>
 footer-text-terms = <termsLink>منښتونه</termsLink>
+footer-text-cookies = <cookiesLink>کوکيز</cookiesLink>
