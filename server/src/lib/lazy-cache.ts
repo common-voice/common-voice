@@ -399,6 +399,22 @@ function redisCache<T, S>(
     } catch (error) {
       // Release lock if we acquired it but an error occurred
       await releaseLock(lock)
+
+      // Distinguish between timeout waiting for data vs actual Redis failures
+      // If we timed out waiting, DO NOT fall back to memory (would run duplicate query)
+      if (
+        error instanceof Error &&
+        error.message.includes('Timeout waiting for')
+      ) {
+        console.error(
+          `[LazyCache] ${error.message} - NOT running duplicate query`
+        )
+        // Return empty result or throw to caller - do NOT run query again
+        throw new Error(
+          `The leaderboard is being refreshed. Please try again in a moment.`
+        )
+      }
+
       reportError(error as Error, 'redis-operation')
       return await memoryFallback(...(args as S[]))
     }
@@ -445,49 +461,78 @@ function redisCache<T, S>(
         reportError(err as Error, 'stale-check-after-lock-failure')
       }
 
-      // No stale or fresh data
-      const internal = new Error(
-        `No stale or fresh data available for ${cacheKey}; lock acquisition failed.`
-      )
-      reportError(internal, 'cache-lock-fail-no-stale')
-
-      // User-safe output
-      throw new Error(`Temporary data issue. Please try again shortly.`)
+      // No stale or fresh data - wait for it to appear since another instance is computing
+      if (isDebugEnabled) {
+        console.debug(
+          `[LazyCache] No data available for ${cacheKey}, waiting for refresh to complete`
+        )
+      }
+      return await waitForFreshData(key)
     }
 
-    // Fresh data REQUIRED
+    // Fresh data REQUIRED - wait for it to appear
     if (isDebugEnabled) {
       console.debug(
-        `[LazyCache] Lock held for ${cacheKey}, checking for fresh data`
+        `[LazyCache] Fresh data required for ${cacheKey}, waiting for refresh`
+      )
+    }
+    return await waitForFreshData(key)
+  }
+
+  async function waitForFreshData(key: string): Promise<T> {
+    // Another pod/request holds the lock and is computing the data
+    // Poll Redis until data appears or we timeout
+    const maxWaitTime = Math.min(lockDurationMs, 60000) // Wait up to lock duration or 60s
+    const pollInterval = 500 // Check every 500ms
+    const maxAttempts = Math.floor(maxWaitTime / pollInterval)
+
+    if (isDebugEnabled) {
+      console.debug(
+        `[LazyCache] Waiting for fresh data for ${cacheKey} (max ${(
+          maxWaitTime / 1000
+        ).toFixed(0)}s)`
       )
     }
 
-    try {
-      const raw = await redis.get(key)
-      if (raw) {
-        const cached = JSON.parse(raw)
-        const value = cached.value !== undefined ? cached.value : cached
-        const at = cached.at || 0
+    for (let attempt = 0; attempt < maxAttempts; attempt++) {
+      try {
+        const raw = await redis.get(key)
+        if (raw) {
+          const cached = JSON.parse(raw)
+          const value = cached.value !== undefined ? cached.value : cached
+          const at = cached.at || 0
 
-        if (!isExpired(at, timeMs)) {
-          return value
+          if (!isExpired(at, timeMs)) {
+            if (isDebugEnabled) {
+              console.debug(
+                `[LazyCache] Fresh data appeared for ${cacheKey} after ${(
+                  (attempt * pollInterval) /
+                  1000
+                ).toFixed(1)}s`
+              )
+            }
+            return value
+          }
         }
+      } catch (err) {
+        reportError(err as Error, 'wait-for-fresh-poll')
       }
-    } catch (err) {
-      reportError(err as Error, 'fresh-check-after-lock-failure')
+
+      // Wait before next poll
+      await new Promise(resolve => setTimeout(resolve, pollInterval))
     }
 
-    // Fresh required but unavailable
-    const internal = new Error(
-      `Fresh data required for ${cacheKey}, but lock is held and no new data appeared.`
+    // Timeout - data didn't appear, throw error to trigger memory fallback
+    const error = new Error(
+      `Timeout waiting for ${cacheKey} after ${(maxWaitTime / 1000).toFixed(
+        0
+      )}s - falling back to direct query`
     )
-    console.error(`[LazyCache] ${internal.message}`)
-    reportError(internal, 'cache-lock-fail-no-fresh')
+    console.warn(`[LazyCache] ${error.message}`)
+    reportError(error, 'wait-for-fresh-timeout')
 
-    // User-safe message
-    throw new Error(
-      `The requested data is still being prepared. Please retry a minute later.`
-    )
+    // Throw error - will be caught by outer catch and fall back to memory
+    throw error
   }
 
   async function computeAndCache(
