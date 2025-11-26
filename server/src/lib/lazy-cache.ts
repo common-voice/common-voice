@@ -3,6 +3,7 @@ import * as Sentry from '@sentry/node'
 import type { Lock } from 'redlock'
 
 import { TimeUnits } from 'common'
+import { getConfig } from '../config-helper'
 
 interface PrefetchOptions {
   prefetch?: boolean
@@ -10,9 +11,8 @@ interface PrefetchOptions {
   safetyMultiplier?: number // Default 2.0 (use 2x avgFetchTime as safety margin)
 }
 
-// Log level control (set LOG_LEVEL=debug for verbose logging)
-const LOG_LEVEL = process.env.LOG_LEVEL || 'info'
-const isDebugEnabled = LOG_LEVEL === 'debug'
+// Logging control
+const isDebugEnabled = ['local', 'sandbox'].includes(getConfig().ENVIRONMENT)
 
 // Cold-start detection: track first N minutes after startup
 const startupTime = Date.now()
