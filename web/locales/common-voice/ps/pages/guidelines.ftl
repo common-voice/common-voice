@@ -199,6 +199,7 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1 = په خپلسري وینا کې په طبیعي ډول غلط پیلونه شامل دي چیرې چې یوازې د بشپړې کلمې یوه ټوټه تولید کیږي. د دې مواردو لپاره، مهرباني وکړئ د خپلې وړتیا سره سم د کلمې ټوټه ولیکئ او د کلمې په پای کې (-) یو هایفین ضمیمه کړئ ترڅو وښيي چې کلمه غلط پیل دی. مثال:
 transcribe-the-audio-subheader-4-explanation-1-example = د هغه نوم جو- جونا- جوناتن دی.
 transcribe-the-audio-subheader-4-explanation-2 = ځینې وختونه ویناوال به یوه کلمه یا د کلمې ټوټه څو ځله تکرار کړي. دا باید هم ولیکل شي. مثال:
+transcribe-the-audio-subheader-4-explanation-2-example = او بیا زه<underline> بستر ته ته</underline> لاړم - د خوب خونه
 
 ## Review the Transcription
 
