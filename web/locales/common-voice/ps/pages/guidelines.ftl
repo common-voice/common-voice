@@ -185,6 +185,20 @@ tags-disfluency = بې نظمي
 tags-unclear = ناڅرګند
 tags-noise = شور
 tags-laugh-explanation = د خندا غږ.
+tags-disfluency-explanation =
+    د ډکونکي کلمه یا غږ چې د ځای ساتونکي په توګه کارول کیږي پداسې حال کې چې ویناوال پریکړه کوي چې څه ووایی.
+    په انګلیسي کې، ځینې عام د شک غږونه "err"، "um"، "huh"، او نور دي.
+tags-unclear-explanation = یوه کلمه یا د کلمو لړۍ چې پوهېدل يې ګران وي.
+tags-noise-explanation =
+    هر ډول بل غږ، لکه د سپیکر ټوخی کول یا خپل ستونی پاکول، 
+    د موټر هارن وهل، د مایکروفون سره د یو څه د ټکر غږ، د تلیفون غږ، او داسې نور.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    او بیا زه [شور] رخصتۍ ته لاړم.
+    ښه، [شور] [خندا] دا په سمه توګه رخصتي نه وه [خندا]
+transcribe-the-audio-subheader-4-explanation-1 = په خپلسري وینا کې په طبیعي ډول غلط پیلونه شامل دي چیرې چې یوازې د بشپړې کلمې یوه ټوټه تولید کیږي. د دې مواردو لپاره، مهرباني وکړئ د خپلې وړتیا سره سم د کلمې ټوټه ولیکئ او د کلمې په پای کې (-) یو هایفین ضمیمه کړئ ترڅو وښيي چې کلمه غلط پیل دی. مثال:
+transcribe-the-audio-subheader-4-explanation-1-example = د هغه نوم جو- جونا- جوناتن دی.
+transcribe-the-audio-subheader-4-explanation-2 = ځینې وختونه ویناوال به یوه کلمه یا د کلمې ټوټه څو ځله تکرار کړي. دا باید هم ولیکل شي. مثال:
 
 ## Review the Transcription
 
