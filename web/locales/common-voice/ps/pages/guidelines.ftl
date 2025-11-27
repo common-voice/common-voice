@@ -200,10 +200,16 @@ transcribe-the-audio-subheader-4-explanation-1 = په خپلسري وینا کې
 transcribe-the-audio-subheader-4-explanation-1-example = د هغه نوم جو- جونا- جوناتن دی.
 transcribe-the-audio-subheader-4-explanation-2 = ځینې وختونه ویناوال به یوه کلمه یا د کلمې ټوټه څو ځله تکرار کړي. دا باید هم ولیکل شي. مثال:
 transcribe-the-audio-subheader-4-explanation-2-example = او بیا زه<underline> بستر ته ته</underline> لاړم - د خوب خونه
+transcribe-the-audio-subheader-5-explanation-1 = په خپلسري وینا کې به طبیعي ګرامري غلطۍ وي. دا باید د لیکلو پرمهال اصلاح نشي. لیکنه باید د ویل شوي محتوا په سمه توګه منعکس کړي.
+transcribe-the-audio-subheader-5-explanation-2 = ویناوال ممکن د خبرو اترو کلمې (لکه په انګلیسي کې، "gona"، "cuz"، او داسې نور) وکاروي کوم چې ممکن په رسمي ډول سم نه ګڼل کیږي. دا باید لکه څنګه چې دي لیکل شي، او د دوی نورو رسمي معادلاتو ته بدل نشي.
 
 ## Review the Transcription
 
+review-the-transcription = د نقل بیاکتنه
 review-the-transcription-subheader = عمومي لارښوونه
+review-the-transcription-explanation-1 = په عمومي توګه، موږ مشوره ورکوو چې هغه څوک چې نقل ګوري باید هغه کس نه وي چې اصلي نقل یې کړی وي. دا ډیره سخته ده چې خپل کار وګورئ! د بیاکتنې ډیری کرښې درلودل کولی شي د کیفیت تضمین ډیر پیاوړی کړي، او د تعصبونو او مسلو کمولو کې مرسته وکړي.
+review-the-transcription-explanation-2 = پورته د نقل لارښوونې بیاکتنه وکړئ ترڅو وګورئ چې نقل دقیق دی. تاسو کولی شئ سمونونه چمتو کړئ او هغه وسپارئ.
+review-the-transcription-explanation-3 = یو ځل بیا، تاسو کولی شئ هغه مواد په نښه کړئ چې توهینونکي، زیانمنونکي یا بل ډول اندیښمنونکي وي، او دا به ستاسو له تجربې څخه لرې شي تر هغه چې د کامن وائس ټیم یې بیاکتنه وکړي او نور تحقیق وکړي.
 
 ## Code-Switching
 
@@ -211,11 +217,17 @@ code-switching = د کوډ بدلول
 adding-a-question = د پوښتنې اضافه کول
 # Adding a Question
 code-switching-adding-question-subheader = څه شی ښه پوښتنه جوړوي؟
+code-switching-adding-question-explanation = د عامه ګډون ډیټاسیټونو لپاره یوه ښه پوښتنه باید:
 code-switching-adding-question-criteria-1 = په اسانۍ سره پوه شئ او ځواب ورکړئ
 code-switching-adding-question-criteria-2 = په عمومي ډول اړونده اوسئ
 code-switching-adding-question-criteria-3 = زیان رسوونکې یا سپکونکې ژبه مه کاروئ، یا یې غوښتنه مه کوئ
+code-switching-adding-question-note = تاسو ممکن د مختلفو شرایطو او ساحو پراخولو په اړه هم فکر وکړئ.
 # What types of questions to add
 code-switching-types-subheader = کوم ډول پوښتنې باید اضافه شي؟
+code-switching-use-bilingual-prompts-header = د دوه ژبو اشارو څخه کار واخلئ
+code-switching-use-bilingual-prompts-explanation = ستاسو په پوښتنه کې د دواړو ژبو لپاره دوه ژبې لارښوونې وکاروئ: مثال:
+code-switching-use-bilingual-prompts-explanation-example = " ¿Qué te dijo tu mamá کله چې ته هغه ورځ کور ته راغلې وې؟"
+code-switching-ask-bilingual-contexts-header = د دوه ژبو شرایطو په اړه پوښتنه وکړئ
 code-switching-focus-emotional-header = په احساساتي یا لوړو شیبو تمرکز وکړئ
 # What to Avoid
 code-switching-avoid-subheader = د څه څخه باید مخنیوی وشي
