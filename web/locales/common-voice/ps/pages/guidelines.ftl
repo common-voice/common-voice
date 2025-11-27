@@ -165,6 +165,12 @@ transcribe-the-audio-subheader-1-explanation-example-1 = د ناڅرګندتیا
 transcribe-the-audio-subheader-1-explanation-example-2 = د ټوخي یا خندا په څیر د شور پیښو لیبل کول
 transcribe-the-audio-subheader-1-explanation-example-3 = د مهمې غږیزې ککړتیا پیژندل، لکه د شالید خبرې اترې یا د موټرو هارنونه
 transcribe-the-audio-subheader-1-explanation-example-4 = ګرامري بدلونونه او سلېنګ باید هماغسې ثبت شي لکه څنګه چې کارول کېږي. د خلکو خبرې مه اصلاح کوئ یا مه بدلوئ
+transcribe-the-audio-subheader-2-explanation-1 = شمېرې او سمبولونه باید د شمېرو یا ځانګړو حروفو کارولو پرځای په کلمو کې ولیکل شي. مثال:
+transcribe-the-audio-subheader-2-explanation-2 = لنډیزونه باید په هغه ډول ولیکل شي لکه څنګه چې معمولا په ژبه کې لیکل کیږي، د معیاري لوی کولو قواعدو په تعقیب. دوی باید په فونیټیک ډول لیکل نشي. مثال:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <سمه> سمه</سمه>: دا له دې ځایه سل میله لرې ده
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <غلط>غلط</غلط>: دا له دې ځایه سل میله واټن لري
 tags-table-header-2 = معنی
 tags-laugh = خندا
 tags-unclear = ناڅرګند
