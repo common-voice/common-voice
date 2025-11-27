@@ -171,8 +171,17 @@ transcribe-the-audio-subheader-2-explanation-2 = لنډیزونه باید په 
 transcribe-the-audio-subheader-2-example-1-correct = <سمه> سمه</سمه>: دا له دې ځایه سل میله لرې ده
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <غلط>غلط</غلط>: دا له دې ځایه سل میله واټن لري
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <سمه> سمه</سمه>: په <underline>پنځلسم کال</underline> کې به سره ګورو
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <غلط>غلط</غلط>: په <underline>۲۰۱۵<underline/> کې به بیا سره ووینو
+transcribe-the-audio-subheader-2-example-3-correct = <سمه> سمه</سمه>: دا شل سلنه تخفیف وه
+transcribe-the-audio-subheader-2-example-4-correct = <سمه> سمه</سمه>: دوی د تیرې پنجشنبې په ورځ د FBI لخوا ونیول شول
+transcribe-the-audio-subheader-3-explanation = لاندې ځانګړي ټګونه باید د ناڅرګندتیاوو، ډکونکو او نورو غیر لفظي منځپانګو ډولونو (په انګلیسي کې) د نښه کولو لپاره وکارول شي.
+tags-table-header-1 = ټګ
 tags-table-header-2 = معنی
 tags-laugh = خندا
+tags-disfluency = بې نظمي
 tags-unclear = ناڅرګند
 tags-noise = شور
 tags-laugh-explanation = د خندا غږ.
