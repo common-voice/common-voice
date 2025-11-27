@@ -12,6 +12,7 @@ abq = ئابازا
 ace = ئاچېھچە
 ady = ئادىگېيچە
 af = جەنۇبىي ئافرىقا تىلى
+aii = سۈرەت
 ajg = ئادجا
 aln = گېگچە ئالبانىيە
 am = ئامخاراچە
@@ -485,3 +486,9 @@ announcement-mdc-text = <strong>يېڭى Common Voice سانلىق مەلۇما�
 announcement-mdc-button-text = Mozilla سانلىق مەلۇمات كوللېكتىپىغا قوشۇلۇڭ
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = يېڭى بەتكۈچتە ئاچ
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = ئىزدە…
+searchbox-default-aria-label = ئىزدە
+dropdown-no-results = ماس كەلگىنى تېپىلمىدى
