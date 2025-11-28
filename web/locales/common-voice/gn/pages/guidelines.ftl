@@ -261,6 +261,7 @@ code-switching-authentic-direct-quotes-example = “Che sy oporandu: ‘¿Reimo�
 code-switching-authentic-reflect = Ohechauka temiandu, teraite ha jeregua. Py’ỹi oiko ñemoambue tapichakuéra oikuaaukávo hemiandu, jejapura térã temiandu arandugua. Ehecha ko’ã mba’e embohovái jave porandu.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
+code-switching-answer-dont-correct-language = <bold>Emyatyrõ ne ñe’ẽ.</bold> Kóva ndaha’éi peteĩ kuaachauka. Ndaha’éi oĩporãnteva’era, osẽnteva’erã ijehegui.
 code-switching-answer-dont-avoid-switching = <bold>Emboyke ñemoambue ejapomemérõ.</bold> Emoambue pe ñe’ẽjuaju mbyte rupi, ñamindu’u mbyte rupi térã ñe’ẽ añoite ndive.
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
