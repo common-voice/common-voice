@@ -232,9 +232,20 @@ code-switching-ask-bilingual-contexts-explanation = هغه حالتونه وکا
 code-switching-ask-bilingual-contexts-explanation-example = "کله چې تاسو د خپلو تره زامنو سره خبرې کوئ، ایا تاسو هسپانوي او انګلیسي ګډوئ؟"
 code-switching-focus-emotional-header = په احساساتي یا لوړو شیبو تمرکز وکړئ
 code-switching-focus-emotional-explanation = خلک ډیری وخت د احساساتو یا بیړني حالت د څرګندولو پر مهال کوډ سویچ کوي. مثال:
+code-switching-focus-emotional-explanation-example = "ما ته ووایه چې ستاسو مور او پلار څه وویل کله چې تاسو دوی ته خپل لوی خبرونه وویل - په سمه توګه دوی دا څنګه وویل."
+code-switching-direct-quotes-header = د مستقیمو نرخونو یا بیاکتنو غوښتنه وکړئ
+code-switching-direct-quotes-explanation = ګډونوال وهڅوئ چې هغه ډول تکرار کړي چې په حقیقت کې ویل شوي وو. مثال:
+code-switching-direct-quotes-explanation-example = "کله چې تاسو وموندل نو ستاسو دقیق الفاظ څه وو؟"
+code-switching-cultural-topics-header = د کلتوري پلوه ځانګړي موضوعات غوره کړئ
+code-switching-cultural-topics-explanation = خواړه، دودونه، رخصتۍ، او د کورنۍ متحرکات ډیری وختونه کوډ بدلولو ته بلنه ورکوي.
+code-switching-cultural-topics-explanation-example = "تاسو د ډیا دی لاس مورتوس هغه چا ته څنګه تشریح کوئ چې یوازې انګلیسي خبرې کوي؟"
+code-switching-informal-scenarios-header = غیر رسمي سناریوګانې وپلټئ
+code-switching-informal-scenarios-explanation = د ملګرو سره په خبرو اترو یا د متن لیږلو کې ډیری وختونه طبیعي بدلون شامل وي. مثال:
+code-switching-informal-scenarios-explanation-example = "ستاسو ملګري تل کومه ټوکه کوي - او دوی دا څنګه وايي؟"
 # What to Avoid
 code-switching-avoid-subheader = د څه څخه باید مخنیوی وشي
 code-switching-avoid-intro = هغه پوښتنې چې ممکن وي:
+code-switching-avoid-1 = د شخصي پیژندنې وړ معلوماتو غوښتنه وکړئ
 code-switching-dont-header = مه کوه
 code-switching-dont-1 = ډېره رسمي ژبه مه کاروئ
 # Reviewing a Question
