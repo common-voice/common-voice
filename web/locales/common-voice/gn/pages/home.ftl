@@ -50,6 +50,7 @@ x-years-short =
     }
 help-make-dataset = Orepytyvõ romoheñóivo mba’ekuaarã ijurujáva ha opaitépe g̃uarã
 sign-up-account = Eñemboheraguapy ne mba’eterã
+email-subscription-title-v3 = Eñemboheraguapy tog̃uahẽ ndéve Common Voice ha Mozilla Foundation rekopyahu
 
 ## Account Benefits
 
