@@ -246,15 +246,21 @@ code-switching-informal-scenarios-explanation-example = "ستاسو ملګري �
 code-switching-avoid-subheader = د څه څخه باید مخنیوی وشي
 code-switching-avoid-intro = هغه پوښتنې چې ممکن وي:
 code-switching-avoid-1 = د شخصي پیژندنې وړ معلوماتو غوښتنه وکړئ
+code-switching-avoid-3 = یو څوک دې ته وهڅوئ چې حساس، احتمالي محرک غبرګونونه شریک کړي
 code-switching-dont-header = مه کوه
 code-switching-dont-1 = ډېره رسمي ژبه مه کاروئ
 # Reviewing a Question
 code-switching-review-subheader = د یوې پوښتنې بیاکتنه
 code-switching-review-intro = ډاډ ترلاسه کړئ چې پوښتنه لاندې معیارونه پوره کوي:
 code-switching-review-criterion-1 = په اسانۍ سره پوه شئ او ځواب ورکړئ
+code-switching-review-criterion-2 = په عمومي ډول اړونده اوسئ
 code-switching-review-criterion-3 = زیان رسوونکې یا سپکونکې ژبه مه کاروئ، یا یې غوښتنه مه کوئ
+code-switching-review-does-not-header = او <bold> نه</bold> پکې شامل دي:
+code-switching-review-offensive-content = <bold>توهین کوونکی مواد یا حساس معلومات</bold>
 code-switching-answer-header = سپکاوی کوونکی مواد یا حساس معلومات
 code-switching-review-no-1 = هغه پوښتنې چې ممکن د شخصي پیژندنې وړ معلوماتو غوښتنه وکړي
+code-switching-review-no-2 = هغه پوښتنې چې ممکن د کرکې وینا یا نور تعصب لرونکي یا توهینونکي احساسات راپاروي
+code-switching-review-no-3 = هغه پوښتنې چې ممکن یو څوک د حساسو او احتمالي محرک ځوابونو شریکولو لامل شي
 # Answering a Question
 code-switching-answer-subheader = د یوې پوښتنې ځواب ورکول
 code-switching-answer-bullet-1 = د حقیقي ژوند شیبو یا حالاتو په اړه فکر وکړئ: ټوکې، دلیلونه، دودونه
