@@ -254,7 +254,9 @@ code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
 code-switching-authentic-header = Embohovái porã ha ha’etéva
 code-switching-authentic-speak = Eñe’ẽ ejapotaháicha ne angirũ térã ne pehẽngue ndive. Embojehe’áramo ñe’ẽita eikohárupi, ejapo ápe avei. Techapyrã:
 code-switching-authentic-speak-example = “Upévare ha’e chupe ndahamo’ãiha, ha he’i chéve: ‘¡Iporãvéta rejúrõ!’”.
+code-switching-use-both-languages = Eiporu mokõivéva ñe’ẽ upéicha ereramovoi opaite hendápe. Emoambuéramo jepe peteĩ térã mokõi ñe’ẽ ndaivaíri. Tembiecharã:
 code-switching-use-both-languages-example = “Ipochyeterei chendive nahenói jey haguére chupe”.
+code-switching-authentic-direct-quotes = <bold>Emoinge je’epyre térã ñomongeta.</bold> Emombe’u hekopete tapicha he’iva’ekue, ndaha’éi je’eporã katuete. Tembiecharã:
 code-switching-authentic-direct-quotes-example = “Che sy oporandu: ‘¿Reimo’ã kóva ñembosarainte?’. Ha’e chupe: ‘¡Py'aguapy!’”.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
