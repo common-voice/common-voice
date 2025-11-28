@@ -228,7 +228,10 @@ code-switching-use-bilingual-prompts-header = د دوه ژبو اشارو څخه
 code-switching-use-bilingual-prompts-explanation = ستاسو په پوښتنه کې د دواړو ژبو لپاره دوه ژبې لارښوونې وکاروئ: مثال:
 code-switching-use-bilingual-prompts-explanation-example = " ¿Qué te dijo tu mamá کله چې ته هغه ورځ کور ته راغلې وې؟"
 code-switching-ask-bilingual-contexts-header = د دوه ژبو شرایطو په اړه پوښتنه وکړئ
+code-switching-ask-bilingual-contexts-explanation = هغه حالتونه وکاروئ چیرې چې دواړه ژبې عموما کارول کیږي (د مثال په توګه، کور، ښوونځی، ټولنیز پیښې). مثال:
+code-switching-ask-bilingual-contexts-explanation-example = "کله چې تاسو د خپلو تره زامنو سره خبرې کوئ، ایا تاسو هسپانوي او انګلیسي ګډوئ؟"
 code-switching-focus-emotional-header = په احساساتي یا لوړو شیبو تمرکز وکړئ
+code-switching-focus-emotional-explanation = خلک ډیری وخت د احساساتو یا بیړني حالت د څرګندولو پر مهال کوډ سویچ کوي. مثال:
 # What to Avoid
 code-switching-avoid-subheader = د څه څخه باید مخنیوی وشي
 code-switching-avoid-intro = هغه پوښتنې چې ممکن وي:
