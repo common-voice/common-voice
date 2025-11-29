@@ -50,6 +50,16 @@ const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per mi
 let consecutiveFailures = 0
 const FAILURE_THRESHOLD = 5 // Require 5 consecutive failures before switching
 
+const MIN_SAMPLES_FOR_P95 = 5
+
+// Custom error class for when data is being refreshed by another instance
+export class DataRefreshInProgressError extends Error {
+  constructor(message: string) {
+    super(message)
+    this.name = 'DataRefreshInProgressError'
+  }
+}
+
 // Initialize cache strategy once at module load and start health monitoring
 useRedis.then(hasRedis => {
   cacheStrategy = hasRedis ? 'redis' : 'memory'
@@ -309,9 +319,9 @@ function redisCache<T, S>(
           const cached = JSON.parse(result)
 
           // Backward compatibility: handle old cache format
-          // Production format: { at: number, value: T, fetchTime?: number }
-          // New format: { at: number, value: T, fetchTimes?: number[] }
-          // Very old format: just the value OR { value: T }
+          // New/Current format (v2): { at: number, value: T, fetchTimes?: number[] }
+          // Legacy format (v1): { at: number, value: T, fetchTime?: number }
+          // Ancient format (v0): just the value OR { value: T }
           let normalizedCache: { at: number; value: T; fetchTimes?: number[] }
 
           if (cached.at !== undefined && cached.value !== undefined) {
@@ -319,23 +329,23 @@ function redisCache<T, S>(
             let fetchTimes: number[]
 
             if (Array.isArray(cached.fetchTimes)) {
-              // New format - already has array
+              // New/v2 format - already has array
               fetchTimes = cached.fetchTimes
             } else if (typeof cached.fetchTime === 'number') {
-              // Production format - single fetchTime, migrate to array
+              // Legacy/v1 format - single fetchTime, migrate to array
               fetchTimes = [cached.fetchTime]
             } else {
-              // No timing data
+              // No timing data/v0 format
               fetchTimes = []
             }
 
             normalizedCache = { at: cached.at, value: cached.value, fetchTimes }
           } else if (cached.value !== undefined) {
-            // Very old format with { value: T } but no 'at' field
+            // Very old/v0 format with { value: T } but no 'at' field
             // Treat as expired to force refresh with new format
             normalizedCache = { at: 0, value: cached.value, fetchTimes: [] }
           } else {
-            // Ancient format: just the raw value
+            // Ancient format (v0): just the raw value
             normalizedCache = { at: 0, value: cached, fetchTimes: [] }
           }
 
@@ -427,14 +437,6 @@ function redisCache<T, S>(
     }
   }
 
-  // Custom error class for when data is being refreshed by another instance
-  class DataRefreshInProgressError extends Error {
-    constructor(message: string) {
-      super(message)
-      this.name = 'DataRefreshInProgressError'
-    }
-  }
-
   async function handleLockFailure(key: string): Promise<T> {
     // During cold-start or high concurrency, lock contention is expected
     if (isDebugEnabled) {
@@ -497,8 +499,8 @@ function redisCache<T, S>(
   async function waitForFreshData(key: string): Promise<T> {
     // Another pod/request holds the lock and is computing the data
     // Poll Redis until data appears or we timeout
-    // Wait for most of the lock duration (allows time for long queries like vote leaderboard ~14min)
-    const maxWaitTime = Math.min(lockDurationMs * 0.9, 20 * TimeUnits.MINUTE) // Up to 90% of lock or 20min
+    // Wait up to 90% of lock duration or 20min, whichever is less (allows time for long queries like vote leaderboard ~14-15min)
+    const maxWaitTime = Math.min(lockDurationMs * 0.9, 20 * TimeUnits.MINUTE)
     const pollInterval = 1000 // Check every 1s (reduced frequency for long waits)
     const maxAttempts = Math.floor(maxWaitTime / pollInterval)
 
@@ -627,9 +629,14 @@ function redisCache<T, S>(
 
     if (trimmed.length === 0) return sorted[sorted.length - 1] // Fallback to max
 
-    // P95 index in trimmed array
-    const p95Index = Math.ceil(trimmed.length * 0.95) - 1
-    return trimmed[Math.max(0, p95Index)]
+    // P95 index in trimmed array (Math.floor is standard for percentile calculation)
+    // For n=8: floor(8 * 0.95) = floor(7.6) = 7 (max index)
+    // Bounded by array length for safety
+    const p95Index = Math.min(
+      Math.floor(trimmed.length * 0.95),
+      trimmed.length - 1
+    )
+    return trimmed[p95Index]
   }
 
   function triggerPrefetchIfNeeded(
@@ -650,7 +657,7 @@ function redisCache<T, S>(
     // BUT never trigger during lock period (prevents thundering herd)
     let refreshThreshold: number
 
-    if (fetchTimes.length >= 5) {
+    if (fetchTimes.length >= MIN_SAMPLES_FOR_P95) {
       // Have enough samples - use P95 from rolling window
       const p95QueryTime = calculateP95FromWindow(fetchTimes)
       const calculatedThreshold = timeMs - p95QueryTime * safetyMultiplier
