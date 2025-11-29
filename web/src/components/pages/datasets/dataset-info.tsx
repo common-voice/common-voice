@@ -34,27 +34,23 @@ const DatasetInfo: React.FC<PropsFromState> = ({
   useEffect(() => {
     setIsLoading(true)
 
-    //get all languages w/ dataset releases
-    api
-      .getLanguagesWithDatasets()
-      .then(data => {
-        setLanguagesWithDatasets(data)
-      })
-      .catch(err => {
+    // Use Promise.all to ensure loading state is properly managed
+    Promise.all([
+      api.getLanguagesWithDatasets().catch((err): string[] => {
         console.error('could not fetch languages with datasets', err)
-        setLanguagesWithDatasets([])
-      })
-
-    //get stats for latest full release
-    api
-      .getDatasets('complete')
-      .then(data => {
-        setCurrentDataset(data[0])
-        setIsLoading(false)
-      })
-      .catch(err => {
+        return [] // Return empty array on error
+      }),
+      api.getDatasets('complete').catch((err): Dataset[] => {
         console.error('could not fetch datasets', err)
-        setIsLoading(false)
+        return [] // Return empty array on error
+      }),
+    ])
+      .then(([languagesData, datasetsData]) => {
+        setLanguagesWithDatasets(languagesData)
+        setCurrentDataset(datasetsData[0])
+      })
+      .finally(() => {
+        setIsLoading(false) // Always set loading to false
       })
   }, [])
 

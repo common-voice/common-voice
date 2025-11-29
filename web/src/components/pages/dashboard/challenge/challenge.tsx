@@ -114,6 +114,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
       .then(value => value && setWeekly(value))
       .catch(err => {
         console.error('could not fetch weekly progress', err)
+        setWeekly({}) // Set empty object to indicate fetch completed with error
       })
   }, [])
   useEffect(() => trackChallenge('dashboard-view'), [])
