@@ -214,7 +214,7 @@ export default class API {
     )
 
     // Get combined language data (All coming from Pontoon, CV/SS/CS - active or not, with variants and predefined accents combined)
-    router.get('/languagedata', this.getCombinedLanguageData)
+    router.get('/languagedata/:locale?', this.getCombinedLanguageData)
 
     // Get all available languages
     router.get('/languages', this.getAllLanguages)
@@ -444,7 +444,16 @@ export default class API {
   }
 
   getCombinedLanguageData = async (_request: Request, response: Response) => {
-    response.json(await this.model.getCombinedLanguageData())
+    const locale = _request?.params?.locale
+    const allData = await this.model.getCombinedLanguageData()
+    if (!locale) {
+      return response.json(allData)
+    }
+    const languageData = allData.filter(ld => ld.code === locale)
+    if (languageData?.length === 1) {
+      return response.json(languageData[0])
+    }
+    response.sendStatus(StatusCodes.NOT_FOUND)
   }
 
   getAllLanguages = async (_request: Request, response: Response) => {
