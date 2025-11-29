@@ -178,8 +178,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
-    false,
-    { prefetch: true } // Enable prefetch with defaults
+    false
+    // No prefetch - called by getLanguageStats and getClipsStats which have prefetch
   )
 
   getAllDatasets = lazyCache(
@@ -220,8 +220,8 @@ export default class Model {
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
-    false,
-    { prefetch: true } // Enable prefetch with defaults
+    false
+    // No prefetch - called by getLanguageStats which has prefetch
   )
 
   getAverageSecondsPerClip = lazyCache(
@@ -234,8 +234,8 @@ export default class Model {
     },
     12 * TimeUnits.HOUR,
     30 * TimeUnits.MINUTE,
-    true, // allow stale data - acceptable for statistics for 12 hours
-    { prefetch: true } // Enable prefetch with defaults
+    true // allow stale data - acceptable for statistics for 12 hours
+    // No prefetch - called 300+ times by getLanguageStats which has prefetch
   )
 
   getLanguageStats = lazyCache(

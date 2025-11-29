@@ -426,14 +426,30 @@ export default class Clip {
     }
     const { locale } = request.params
     const cursor = this.getCursorFromQuery(request)
-    const leaderboard = await getLeaderboard({
-      dashboard: 'stats',
-      type: 'clip',
-      client_id,
-      cursor,
-      locale: locale,
-    })
-    response.json(leaderboard)
+
+    try {
+      const leaderboard = await getLeaderboard({
+        dashboard: 'stats',
+        type: 'clip',
+        client_id,
+        cursor,
+        locale: locale,
+      })
+      response.json(leaderboard)
+    } catch (error) {
+      // Handle case where data is being refreshed by another pod
+      if (
+        error instanceof Error &&
+        error.name === 'DataRefreshInProgressError'
+      ) {
+        return response.status(StatusCodes.SERVICE_UNAVAILABLE).json({
+          error: 'REFRESH_IN_PROGRESS',
+          message: error.message,
+        })
+      }
+      // Re-throw other errors to be handled by Express error handler
+      throw error
+    }
   }
 
   serveVoteLeaderboard = async (request: Request, response: Response) => {
@@ -446,14 +462,30 @@ export default class Clip {
     const { locale } = request.params
 
     const cursor = this.getCursorFromQuery(request)
-    const leaderboard = await getLeaderboard({
-      dashboard: 'stats',
-      type: 'vote',
-      client_id,
-      cursor,
-      locale: locale,
-    })
-    response.json(leaderboard)
+
+    try {
+      const leaderboard = await getLeaderboard({
+        dashboard: 'stats',
+        type: 'vote',
+        client_id,
+        cursor,
+        locale: locale,
+      })
+      response.json(leaderboard)
+    } catch (error) {
+      // Handle case where data is being refreshed by another pod
+      if (
+        error instanceof Error &&
+        error.name === 'DataRefreshInProgressError'
+      ) {
+        return response.status(StatusCodes.SERVICE_UNAVAILABLE).json({
+          error: 'REFRESH_IN_PROGRESS',
+          message: error.message,
+        })
+      }
+      // Re-throw other errors to be handled by Express error handler
+      throw error
+    }
   }
 
   private getCursorFromQuery(request: Request) {

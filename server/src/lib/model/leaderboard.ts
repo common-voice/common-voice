@@ -61,7 +61,7 @@ const getCachedClipLeaderboardData = lazyCache(
   LEADERBOARD_CACHE_DURATION,
   TIER1_LOCK_DURATION,
   true // Allow stale during refresh
-  // No prefetch - Tier 2 caches will trigger refresh when they prefetch
+  // No prefetch - Tier 2 global cache triggers refresh to prevent thundering herd
 )
 
 // Get ALL clip leaderboard data with locales in one query
@@ -112,7 +112,7 @@ const getCachedVoteLeaderboardData = lazyCache(
   LEADERBOARD_CACHE_DURATION,
   TIER1_LOCK_DURATION,
   true // Allow stale during refresh
-  // No prefetch - Tier 2 caches will trigger refresh when they prefetch
+  // No prefetch - Tier 2 global cache triggers refresh to prevent thundering herd
 )
 
 // Get ALL vote leaderboard data with locales in one query
@@ -200,9 +200,9 @@ const getGlobalClipLeaderboard = lazyCache(
   TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
   true, // Allow stale during refresh
   {
-    prefetch: true, // This will trigger Tier 1 refresh when needed
-    thresholdRatio: 0.6,
-    safetyMultiplier: 2.5,
+    prefetch: true, // ONLY global triggers prefetch to prevent thundering herd
+    windowSize: 24, // Track last 24 query times for P95 calculation
+    safetyMultiplier: 1.5, // Trigger at TTL - (P95QueryTime × 1.5)
   }
 )
 
@@ -237,9 +237,9 @@ const getGlobalVoteLeaderboard = lazyCache(
   TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
   true, // Allow stale during refresh
   {
-    prefetch: true, // This will trigger Tier 1 refresh when needed
-    thresholdRatio: 0.6,
-    safetyMultiplier: 2.5,
+    prefetch: true, // ONLY global triggers prefetch to prevent thundering herd
+    windowSize: 24, // Track last 24 query times for P95 calculation
+    safetyMultiplier: 1.5, // Trigger at TTL - (P95QueryTime × 1.5)
   }
 )
 
