@@ -44,7 +44,7 @@ const getContributionIcon = ({
 const SentenceCollectorToggle: React.FC<Props> = ({
   onToggle,
   activeOption,
-  hasBulkUploadFeature = true,
+  hasBulkUploadFeature = false,
 }) => {
   const toggleOptions = getToggleOptions(hasBulkUploadFeature)
 
