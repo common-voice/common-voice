@@ -268,19 +268,25 @@ export default function CustomGoal({
     setTouchedStepIndex(Math.max(touchedStepIndex, nextIndex))
     if (nextIndex == STEPS.COMPLETED) {
       setTouchedStepIndex(STEPS.INTRO)
-      await api.createGoal(dashboardLocale, state)
-      if (!account.languages.some(l => l.locale == dashboardLocale)) {
-        await saveAccount({
-          ...account,
-          languages: account.languages.concat({
-            locale: dashboardLocale,
-          }),
-        })
+      try {
+        await api.createGoal(dashboardLocale, state)
+        if (!account.languages.some(l => l.locale == dashboardLocale)) {
+          await saveAccount({
+            ...account,
+            languages: account.languages.concat({
+              locale: dashboardLocale,
+            }),
+          })
+        }
+        if (subscribed) {
+          await api.subscribeToNewsletter(email)
+        }
+        refreshUser()
+      } catch (err) {
+        console.error('could not create goal', err)
+        // Let error propagate to show error boundary or notification
+        throw err
       }
-      if (subscribed) {
-        await api.subscribeToNewsletter(email)
-      }
-      refreshUser()
     }
   }
 

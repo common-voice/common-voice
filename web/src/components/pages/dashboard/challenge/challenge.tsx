@@ -1,40 +1,40 @@
-import * as React from 'react';
-import { useState, useEffect, useRef } from 'react';
-import { Redirect, RouteComponentProps, withRouter } from 'react-router';
-import { challengeTeams } from 'common';
-import WeeklyChallenge from './weekly-challenge';
-import LeaderBoardCard from './leaderboard-card';
-import TeamBoardCard from './team-card';
-import ChallengeOffline from './challenge-offline';
-import URLS from '../../../../urls';
-import { LocaleLink } from '../../../locale-helpers';
-import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
+import * as React from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { Redirect, RouteComponentProps, withRouter } from 'react-router'
+import { challengeTeams } from 'common'
+import WeeklyChallenge from './weekly-challenge'
+import LeaderBoardCard from './leaderboard-card'
+import TeamBoardCard from './team-card'
+import ChallengeOffline from './challenge-offline'
+import URLS from '../../../../urls'
+import { LocaleLink } from '../../../locale-helpers'
+import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks'
 import {
   User,
   VISIBLE_FOR_NONE,
   VISIBLE_FOR_ALL,
   VISIBLE_FOR_TEAM,
-} from '../../../../stores/user';
-import { CrossIcon, InfoIcon } from '../../../ui/icons';
-import { LabeledCheckbox } from '../../../ui/ui';
-import { Notifications } from '../../../../stores/notifications';
-import { trackChallenge } from '../../../../services/tracker';
-import OnboardingModal from '../../../onboarding-modal/onboarding-modal';
-import { isChallengeLive, pilotDates } from './constants';
-import Props from '../props';
+} from '../../../../stores/user'
+import { CrossIcon, InfoIcon } from '../../../ui/icons'
+import { LabeledCheckbox } from '../../../ui/ui'
+import { Notifications } from '../../../../stores/notifications'
+import { trackChallenge } from '../../../../services/tracker'
+import OnboardingModal from '../../../onboarding-modal/onboarding-modal'
+import { isChallengeLive, pilotDates } from './constants'
+import Props from '../props'
 
-import './challenge.css';
+import './challenge.css'
 
 const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
-  const account = useAccount();
-  const saveAccount = useAction(User.actions.saveAccount);
+  const account = useAccount()
+  const saveAccount = useAction(User.actions.saveAccount)
   const [areVisibleOptionsShown, setAreVisibleOptionsShown] = useState(
     account.visible !== VISIBLE_FOR_NONE
-  );
-  const visibleForTeam = useRef(null);
-  const visibleForAll = useRef(null);
+  )
+  const visibleForTeam = useRef(null)
+  const visibleForAll = useRef(null)
 
-  const isAccountVisible = account?.visible === VISIBLE_FOR_ALL;
+  const isAccountVisible = account?.visible === VISIBLE_FOR_ALL
 
   return (
     <div className="leaderboard-overlay">
@@ -47,9 +47,9 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
           type="checkbox"
           defaultChecked={isAccountVisible}
           onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
-            setAreVisibleOptionsShown(event.target.checked);
+            setAreVisibleOptionsShown(event.target.checked)
             if (!event.target.checked) {
-              saveAccount({ visible: VISIBLE_FOR_NONE });
+              saveAccount({ visible: VISIBLE_FOR_NONE })
             }
           }}
         />
@@ -64,8 +64,8 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
             ref={visibleForAll}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
               if (event.target.checked) {
-                saveAccount({ visible: VISIBLE_FOR_ALL });
-                visibleForTeam.current.checked = false;
+                saveAccount({ visible: VISIBLE_FOR_ALL })
+                visibleForTeam.current.checked = false
               }
             }}
           />
@@ -75,8 +75,8 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
             ref={visibleForTeam}
             onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
               if (event.target.checked) {
-                saveAccount({ visible: VISIBLE_FOR_TEAM });
-                visibleForAll.current.checked = false;
+                saveAccount({ visible: VISIBLE_FOR_TEAM })
+                visibleForAll.current.checked = false
               }
             }}
           />
@@ -95,25 +95,30 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
         </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
 function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
-  const [showOverlay, setShowOverlay] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(false)
   // [TODO]: Hook this up to the DB so we only see it once.
-  const addAchievement = useAction(Notifications.actions.addAchievement);
+  const addAchievement = useAction(Notifications.actions.addAchievement)
   const [showOnboardingModal, setShowOnboardingModal] = useState(
     props.location.state?.showOnboardingModal
-  );
-  const [weekly, setWeekly] = useState(null);
-  const account = useAccount();
-  const api = useAPI();
+  )
+  const [weekly, setWeekly] = useState(null)
+  const account = useAccount()
+  const api = useAPI()
   useEffect(() => {
-    api.fetchWeeklyProgress().then(value => value && setWeekly(value));
-  }, []);
-  useEffect(() => trackChallenge('dashboard-view'), []);
+    api
+      .fetchWeeklyProgress()
+      .then(value => value && setWeekly(value))
+      .catch(err => {
+        console.error('could not fetch weekly progress', err)
+      })
+  }, [])
+  useEffect(() => trackChallenge('dashboard-view'), [])
 
-  const isEnrolled = account?.enrollment?.team && account.enrollment.challenge;
+  const isEnrolled = account?.enrollment?.team && account.enrollment.challenge
 
   return !isEnrolled ? (
     <Redirect to={URLS.DASHBOARD} /> // TODO: it shouldn't even try to fetch any challenge data in useEffect if not enrolled
@@ -122,12 +127,12 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
       {showOnboardingModal && (
         <OnboardingModal
           onRequestClose={() => {
-            setShowOnboardingModal(false);
+            setShowOnboardingModal(false)
             if (props.location.state?.earlyEnroll) {
               addAchievement(
                 50,
                 'Bonus! You signed up in time for some extra points.'
-              );
+              )
             }
           }}
         />
@@ -160,11 +165,11 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
               title="Overall Challenge Top Contributors"
               showVisibleIcon
               showOverlay={() => {
-                setShowOverlay(true);
+                setShowOverlay(true)
                 window.scrollTo({
                   top: 0,
                   behavior: 'smooth',
-                });
+                })
               }}
               service="top-contributors"
             />
@@ -174,7 +179,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
     </div>
   ) : (
     <ChallengeOffline duration={pilotDates} />
-  );
+  )
 }
 
-export default withRouter(ChallengePage);
+export default withRouter(ChallengePage)

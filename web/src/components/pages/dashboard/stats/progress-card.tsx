@@ -1,26 +1,26 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { useEffect, useState } from 'react';
-import { DAILY_GOALS } from '../../../../constants';
-import { useAccount, useAPI } from '../../../../hooks/store-hooks';
-import { trackDashboard } from '../../../../services/tracker';
-import URLS from '../../../../urls';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { useEffect, useState } from 'react'
+import { DAILY_GOALS } from '../../../../constants'
+import { useAccount, useAPI } from '../../../../hooks/store-hooks'
+import { trackDashboard } from '../../../../services/tracker'
+import URLS from '../../../../urls'
 import {
   LocaleLink,
   toLocaleRouteBuilder,
   useLocale,
-} from '../../../locale-helpers';
-import { MicIcon, OldPlayIcon } from '../../../ui/icons';
-import { LinkButton } from '../../../ui/ui';
-import { CircleProgress, Fraction } from '../ui';
+} from '../../../locale-helpers'
+import { MicIcon, OldPlayIcon } from '../../../ui/icons'
+import { LinkButton } from '../../../ui/ui'
+import { CircleProgress, Fraction } from '../ui'
 
-import './progress-card.css';
+import './progress-card.css'
 
 export interface Props {
-  type: 'speak' | 'listen';
-  locale: string;
-  personalCurrent?: number;
-  personalGoal?: number;
+  type: 'speak' | 'listen'
+  locale: string
+  personalCurrent?: number
+  personalGoal?: number
 }
 
 export default function ProgressCard({
@@ -29,33 +29,38 @@ export default function ProgressCard({
   personalGoal,
   type,
 }: Props) {
-  const [globalLocale] = useLocale();
-  const { custom_goals: customGoals } = useAccount() || {};
-  let api = useAPI();
-  const [overallCurrent, setOverallCurrent] = useState(null);
+  const [globalLocale] = useLocale()
+  const { custom_goals: customGoals } = useAccount() || {}
+  let api = useAPI()
+  const [overallCurrent, setOverallCurrent] = useState(null)
 
   async function fetchAndSetOverallCount() {
     if (!locale) {
-      trackDashboard('change-language', globalLocale);
+      trackDashboard('change-language', globalLocale)
     }
-    api = api.forLocale(locale || null);
-    setOverallCurrent(
-      await (type === 'speak'
-        ? api.fetchDailyClipsCount()
-        : api.fetchDailyVotesCount())
-    );
+    api = api.forLocale(locale || null)
+    try {
+      setOverallCurrent(
+        await (type === 'speak'
+          ? api.fetchDailyClipsCount()
+          : api.fetchDailyVotesCount())
+      )
+    } catch (err) {
+      console.error('could not fetch daily count for progress card', err)
+      setOverallCurrent(0)
+    }
   }
 
   useEffect(() => {
-    fetchAndSetOverallCount();
-  }, []);
+    fetchAndSetOverallCount()
+  }, [])
 
-  const overallGoal = DAILY_GOALS[type][0];
-  const isSpeak = type == 'speak';
-  const customGoal = customGoals?.find(g => g.locale == locale);
-  const currentCustomGoal = customGoal ? customGoal.current[type] : undefined;
-  const hasCustomGoalForThis = currentCustomGoal !== undefined;
-  const goalsPath = URLS.DASHBOARD + (locale ? '/' + locale : '') + URLS.GOALS;
+  const overallGoal = DAILY_GOALS[type][0]
+  const isSpeak = type == 'speak'
+  const customGoal = customGoals?.find(g => g.locale == locale)
+  const currentCustomGoal = customGoal ? customGoal.current[type] : undefined
+  const hasCustomGoalForThis = currentCustomGoal !== undefined
+  const goalsPath = URLS.DASHBOARD + (locale ? '/' + locale : '') + URLS.GOALS
 
   return (
     <div className={'progress-card ' + type}>
@@ -145,5 +150,5 @@ export default function ProgressCard({
         </Localized>
       </div>
     </div>
-  );
+  )
 }

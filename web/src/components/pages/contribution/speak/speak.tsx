@@ -376,7 +376,12 @@ class SpeakPage extends React.Component<Props, State> {
     await this.discardRecording()
     const current = this.getRecordingIndex()
     const id = this.state.clips[current]?.sentence?.id
-    api.skipSentence(id)
+    try {
+      await api.skipSentence(id)
+    } catch (err) {
+      console.error('could not skip sentence', err)
+      // Continue with UI update even if API call fails
+    }
     removeSentences([id])
     trackGtag('skip-sentence', { locale: this.props.locale })
     this.setState(({ clips }) => {

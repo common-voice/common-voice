@@ -71,13 +71,19 @@ const DatasetCorpusDownload = ({
   useEffect(() => {
     setIsLoading(true)
 
-    api.getLanguageDatasetStats(locale).then(data => {
-      setLanguageDatasets(
-        data.filter((dataset: LanguageDataset) => !!dataset.download_path)
-      )
-      setSelectedDataset(data[0])
-      setIsLoading(false)
-    })
+    api
+      .getLanguageDatasetStats(locale)
+      .then(data => {
+        setLanguageDatasets(
+          data.filter((dataset: LanguageDataset) => !!dataset.download_path)
+        )
+        setSelectedDataset(data[0])
+        setIsLoading(false)
+      })
+      .catch(err => {
+        console.error('could not fetch language dataset stats', err)
+        setIsLoading(false)
+      })
   }, [locale])
 
   return (

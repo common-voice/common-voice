@@ -289,7 +289,10 @@ class ListenPage extends React.Component<Props, State> {
     const { removeClip, api } = this.props
     const { clips } = this.state
     this.stop()
-    api.skipClip(clips[this.getClipIndex()].id)
+    api.skipClip(clips[this.getClipIndex()].id).catch(err => {
+      console.error('could not skip clip', err)
+      // Continue with UI update even if API call fails
+    })
     removeClip(clips[this.getClipIndex()].id)
 
     trackGtag('skip-clip', { locale: this.props.locale })

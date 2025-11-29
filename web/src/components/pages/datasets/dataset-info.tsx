@@ -1,50 +1,62 @@
-import * as React from 'react';
-import { useEffect, useState } from 'react';
-import { connect } from 'react-redux';
-import { Spinner } from '../../ui/ui';
+import * as React from 'react'
+import { useEffect, useState } from 'react'
+import { connect } from 'react-redux'
+import { Spinner } from '../../ui/ui'
 
-import DatasetIntro from './dataset-intro';
-import DatasetCorpusDownload from './dataset-corpus-download';
-import DatasetSegmentDownload from './dataset-segment-download';
-import { DonateBanner } from '../../donate-banner';
-import { useAPI } from '../../../hooks/store-hooks';
-import StateTree from '../../../stores/tree';
+import DatasetIntro from './dataset-intro'
+import DatasetCorpusDownload from './dataset-corpus-download'
+import DatasetSegmentDownload from './dataset-segment-download'
+import { DonateBanner } from '../../donate-banner'
+import { useAPI } from '../../../hooks/store-hooks'
+import StateTree from '../../../stores/tree'
 
-import { useLocale } from '../../locale-helpers';
-import DatasetDescription from './dataset-description';
-import { Dataset } from 'common';
+import { useLocale } from '../../locale-helpers'
+import DatasetDescription from './dataset-description'
+import { Dataset } from 'common'
 
-import './dataset-info.css';
+import './dataset-info.css'
 
 interface PropsFromState {
-  isSubscribedToMailingList: boolean;
+  isSubscribedToMailingList: boolean
 }
 
 const DatasetInfo: React.FC<PropsFromState> = ({
   isSubscribedToMailingList,
 }) => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true)
 
-  const [languagesWithDatasets, setLanguagesWithDatasets] = useState([]);
-  const [currentDataset, setCurrentDataset] = useState<Dataset>();
+  const [languagesWithDatasets, setLanguagesWithDatasets] = useState([])
+  const [currentDataset, setCurrentDataset] = useState<Dataset>()
 
-  const api = useAPI();
-  const [globalLocale] = useLocale();
+  const api = useAPI()
+  const [globalLocale] = useLocale()
 
   useEffect(() => {
-    setIsLoading(true);
+    setIsLoading(true)
 
     //get all languages w/ dataset releases
-    api.getLanguagesWithDatasets().then(data => {
-      setLanguagesWithDatasets(data);
-    });
+    api
+      .getLanguagesWithDatasets()
+      .then(data => {
+        setLanguagesWithDatasets(data)
+      })
+      .catch(err => {
+        console.error('could not fetch languages with datasets', err)
+        setLanguagesWithDatasets([])
+      })
 
     //get stats for latest full release
-    api.getDatasets('complete').then(data => {
-      setCurrentDataset(data[0]);
-      setIsLoading(false);
-    });
-  }, []);
+    api
+      .getDatasets('complete')
+      .then(data => {
+        setCurrentDataset(data[0])
+        setIsLoading(false)
+      })
+      .catch(err => {
+        console.error('could not fetch datasets', err)
+        setIsLoading(false)
+      })
+  }, [])
 
   return (
     <div className="dataset-info">
@@ -57,7 +69,9 @@ const DatasetInfo: React.FC<PropsFromState> = ({
         ) : (
           <DatasetCorpusDownload
             languagesWithDatasets={languagesWithDatasets}
-            initialLanguage={languagesWithDatasets.includes(globalLocale) ? globalLocale : 'en'}
+            initialLanguage={
+              languagesWithDatasets.includes(globalLocale) ? globalLocale : 'en'
+            }
             isSubscribedToMailingList={isSubscribedToMailingList}
           />
         )}
@@ -77,9 +91,9 @@ const DatasetInfo: React.FC<PropsFromState> = ({
         isSubscribedToMailingList={isSubscribedToMailingList}
       />
     </div>
-  );
-};
+  )
+}
 
 export default connect<PropsFromState>(({ user }: StateTree) => ({
   isSubscribedToMailingList: user.isSubscribedToMailingList,
-}))(DatasetInfo);
+}))(DatasetInfo)

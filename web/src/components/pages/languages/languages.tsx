@@ -125,14 +125,19 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
   } = state
 
   const loadData = async () => {
-    const [localeMessages, languageStats] = await Promise.all([
-      api.fetchCrossLocaleMessages(),
-      api.fetchLanguageStats(),
-    ])
+    try {
+      const [localeMessages, languageStats] = await Promise.all([
+        api.fetchCrossLocaleMessages(),
+        api.fetchLanguageStats(),
+      ])
 
-    const languageStatistics = languageStats ?? []
+      const languageStatistics = languageStats ?? []
 
-    return { localeMessages, languageStatistics }
+      return { localeMessages, languageStatistics }
+    } catch (err) {
+      console.error('could not load language data', err)
+      return { localeMessages: [] as string[][], languageStatistics: [] }
+    }
   }
 
   const sortLocales = () => {
