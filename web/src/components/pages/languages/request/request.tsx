@@ -346,7 +346,7 @@ const LanguagesRequestFormPage = () => {
                     </div>
                 )
             ) :
-            (query !== '' ? (
+            (query !== '' && languagesFiltered.length == 0 ? (
               <span>
               <Localized id="request-language-form-info" attrs={{ label: true }}>
                 <LabeledTextArea
