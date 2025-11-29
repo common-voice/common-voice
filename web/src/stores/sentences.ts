@@ -169,17 +169,22 @@ export namespace Sentences {
         isSmallBatch?: boolean
       }) =>
       async (dispatch: Dispatch<CreateAction>, getState: () => StateTree) => {
-        const state = getState()
+        try {
+          const state = getState()
 
-        dispatch({
-          type: ActionType.CREATE,
-          newSentenceSubmission: sentenceSubmission,
-        })
+          dispatch({
+            type: ActionType.CREATE,
+            newSentenceSubmission: sentenceSubmission,
+          })
 
-        return await state.api.createSentence({
-          sentenceSubmission,
-          isSmallBatch,
-        })
+          return await state.api.createSentence({
+            sentenceSubmission,
+            isSmallBatch,
+          })
+        } catch (err) {
+          console.error('could not create sentence', err)
+          throw err
+        }
       },
 
     refillPendingSentences:
@@ -190,29 +195,35 @@ export namespace Sentences {
         >,
         getState: () => StateTree
       ) => {
-        const state = getState()
-        const currentLocaleState = state.sentences[state.locale]
+        try {
+          const state = getState()
+          const currentLocaleState = state.sentences[state.locale]
 
-        // Check if we have enough unvalidated pending sentences
-        const unvalidatedCount =
-          currentLocaleState?.pendingSentences?.filter(s => s.isValid === null)
-            .length || 0
+          // Check if we have enough unvalidated pending sentences
+          const unvalidatedCount =
+            currentLocaleState?.pendingSentences?.filter(
+              s => s.isValid === null
+            ).length || 0
 
-        // Only fetch if we have less than MIN_CACHE_COUNT unvalidated sentences
-        if (unvalidatedCount >= MIN_CACHE_COUNT) {
-          return
+          // Only fetch if we have less than MIN_CACHE_COUNT unvalidated sentences
+          if (unvalidatedCount >= MIN_CACHE_COUNT) {
+            return
+          }
+
+          dispatch({
+            type: ActionType.REFILL_PENDING_SENTENCES_LOADING,
+          })
+
+          const data = await state.api.fetchPendingSentences(localeId)
+
+          dispatch({
+            type: ActionType.REFILL_PENDING_SENTENCES,
+            pendingSentences: data.pendingSentences,
+          })
+        } catch (err) {
+          console.error('could not fetch pending sentences', err)
+          throw err
         }
-
-        dispatch({
-          type: ActionType.REFILL_PENDING_SENTENCES_LOADING,
-        })
-
-        const data = await state.api.fetchPendingSentences(localeId)
-
-        dispatch({
-          type: ActionType.REFILL_PENDING_SENTENCES,
-          pendingSentences: data.pendingSentences,
-        })
       },
 
     voteSentence:
@@ -225,26 +236,31 @@ export namespace Sentences {
         >,
         getState: () => StateTree
       ) => {
-        const state = getState()
+        try {
+          const state = getState()
 
-        await state.api.voteSentence({ ...sentenceVote })
+          await state.api.voteSentence({ ...sentenceVote })
 
-        dispatch({
-          type: ActionType.VOTE_SENTENCE,
-          sentenceId: sentenceVote.sentence_id,
-          isValid: sentenceVote.vote,
-          sentenceIndex: sentenceVote.sentenceIndex,
-        })
+          dispatch({
+            type: ActionType.VOTE_SENTENCE,
+            sentenceId: sentenceVote.sentence_id,
+            isValid: sentenceVote.vote,
+            sentenceIndex: sentenceVote.sentenceIndex,
+          })
 
-        // Get the localeId from the pending sentences
-        const currentLocaleState = state.sentences[state.locale]
-        const pendingSentence =
-          currentLocaleState?.pendingSentences?.[sentenceVote.sentenceIndex]
-        if (pendingSentence?.localeId) {
-          actions.refillPendingSentences(pendingSentence.localeId)(
-            dispatch,
-            getState
-          )
+          // Get the localeId from the pending sentences
+          const currentLocaleState = state.sentences[state.locale]
+          const pendingSentence =
+            currentLocaleState?.pendingSentences?.[sentenceVote.sentenceIndex]
+          if (pendingSentence?.localeId) {
+            actions.refillPendingSentences(pendingSentence.localeId)(
+              dispatch,
+              getState
+            )
+          }
+        } catch (err) {
+          console.error('could not vote on sentence', err)
+          throw err
         }
       },
 
@@ -258,25 +274,30 @@ export namespace Sentences {
         >,
         getState: () => StateTree
       ) => {
-        const state = getState()
+        try {
+          const state = getState()
 
-        await state.api.skipSentence(sentenceId)
+          await state.api.skipSentence(sentenceId)
 
-        dispatch({
-          type: ActionType.SHOW_NEXT_SENTENCE,
-          sentenceId,
-        })
+          dispatch({
+            type: ActionType.SHOW_NEXT_SENTENCE,
+            sentenceId,
+          })
 
-        // Get the localeId from the pending sentences
-        const currentLocaleState = state.sentences[state.locale]
-        const pendingSentence = currentLocaleState?.pendingSentences?.find(
-          s => s.sentenceId === sentenceId
-        )
-        if (pendingSentence?.localeId) {
-          actions.refillPendingSentences(pendingSentence.localeId)(
-            dispatch,
-            getState
+          // Get the localeId from the pending sentences
+          const currentLocaleState = state.sentences[state.locale]
+          const pendingSentence = currentLocaleState?.pendingSentences?.find(
+            s => s.sentenceId === sentenceId
           )
+          if (pendingSentence?.localeId) {
+            actions.refillPendingSentences(pendingSentence.localeId)(
+              dispatch,
+              getState
+            )
+          }
+        } catch (err) {
+          console.error('could not skip sentence', err)
+          throw err
         }
       },
 
@@ -299,18 +320,27 @@ export namespace Sentences {
         dispatch: Dispatch<SetBulkUploadStatus>,
         getState: () => StateTree
       ) => {
-        const state = getState()
+        try {
+          const state = getState()
 
-        dispatch({
-          type: ActionType.SET_BULK_UPLOAD_STATUS,
-          bulkUploadStatus: 'uploading',
-        })
+          dispatch({
+            type: ActionType.SET_BULK_UPLOAD_STATUS,
+            bulkUploadStatus: 'uploading',
+          })
 
-        return await state.api.bulkSubmissionRequest({
-          file,
-          locale,
-          fileName,
-        })
+          return await state.api.bulkSubmissionRequest({
+            file,
+            locale,
+            fileName,
+          })
+        } catch (err) {
+          console.error('could not submit bulk sentences', err)
+          dispatch({
+            type: ActionType.SET_BULK_UPLOAD_STATUS,
+            bulkUploadStatus: 'error',
+          })
+          throw err
+        }
       },
 
     abortBulkSubmissionRequest:

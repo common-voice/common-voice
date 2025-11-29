@@ -153,30 +153,35 @@ export namespace Clips {
         dispatch: Dispatch<Action | User.Action>,
         getState: () => StateTree
       ) => {
-        const state = getState()
-        const id = clipId
+        try {
+          const state = getState()
+          const id = clipId
 
-        dispatch({ type: ActionType.REMOVE_CLIP, clipId: id })
-        const {
-          showFirstContributionToast,
-          hasEarnedSessionToast,
-          showFirstStreakToast,
-          challengeEnded,
-        } = await state.api.saveVote(id, isValid)
-        if (!state.user.account) {
-          dispatch(User.actions.tallyVerification())
-        }
-        if (state.user?.account?.enrollment?.challenge) {
-          dispatch({
-            type: ActionType.ACHIEVEMENT,
+          dispatch({ type: ActionType.REMOVE_CLIP, clipId: id })
+          const {
             showFirstContributionToast,
             hasEarnedSessionToast,
             showFirstStreakToast,
             challengeEnded,
-          })
+          } = await state.api.saveVote(id, isValid)
+          if (!state.user.account) {
+            dispatch(User.actions.tallyVerification())
+          }
+          if (state.user?.account?.enrollment?.challenge) {
+            dispatch({
+              type: ActionType.ACHIEVEMENT,
+              showFirstContributionToast,
+              hasEarnedSessionToast,
+              showFirstStreakToast,
+              challengeEnded,
+            })
+          }
+          User.actions.refresh()(dispatch, getState)
+          actions.refillCache()(dispatch, getState)
+        } catch (err) {
+          console.error('could not save vote', err)
+          throw err
         }
-        User.actions.refresh()(dispatch, getState)
-        actions.refillCache()(dispatch, getState)
       },
 
     remove:

@@ -1,10 +1,11 @@
-import { Dispatch } from 'redux';
-import StateTree from './tree';
+/* eslint-disable @typescript-eslint/no-namespace */
+import { Dispatch } from 'redux'
+import StateTree from './tree'
 
 export namespace RequestedLanguages {
   export interface State {
-    isLoading: boolean;
-    languages: string[];
+    isLoading: boolean
+    languages: string[]
   }
 
   enum ActionType {
@@ -14,46 +15,57 @@ export namespace RequestedLanguages {
   }
 
   interface FetchAction {
-    type: ActionType.FETCH;
+    type: ActionType.FETCH
   }
 
   interface SetAction {
-    type: ActionType.SET;
-    languages: string[];
+    type: ActionType.SET
+    languages: string[]
   }
 
-  export type Action = FetchAction | SetAction;
+  export type Action = FetchAction | SetAction
 
   export const actions = {
-    fetch: () => async (
-      dispatch: Dispatch<FetchAction | SetAction>,
-      getState: () => StateTree
-    ) => {
-      const {
-        api,
-        requestedLanguages: { isLoading, languages },
-      } = getState();
-      if (isLoading || languages) return;
+    fetch:
+      () =>
+      async (
+        dispatch: Dispatch<FetchAction | SetAction>,
+        getState: () => StateTree
+      ) => {
+        try {
+          const {
+            api,
+            requestedLanguages: { isLoading, languages },
+          } = getState()
+          if (isLoading || languages) return
 
-      dispatch({
-        type: ActionType.FETCH,
-      });
-      dispatch(actions.set(await api.fetchRequestedLanguages()));
-    },
+          dispatch({
+            type: ActionType.FETCH,
+          })
+          dispatch(actions.set(await api.fetchRequestedLanguages()))
+        } catch (err) {
+          console.error('could not fetch requested languages', err)
+          throw err
+        }
+      },
 
     set: (languages: string[]): SetAction => ({
       type: ActionType.SET,
       languages,
     }),
 
-    create: (language: string) => async (
-      dispatch: Dispatch<Action>,
-      getState: () => StateTree
-    ) => {
-      await getState().api.requestLanguage(language);
-      actions.fetch()(dispatch, getState);
-    },
-  };
+    create:
+      (language: string) =>
+      async (dispatch: Dispatch<Action>, getState: () => StateTree) => {
+        try {
+          await getState().api.requestLanguage(language)
+          actions.fetch()(dispatch, getState)
+        } catch (err) {
+          console.error('could not create language request', err)
+          throw err
+        }
+      },
+  }
 
   export function reducer(
     state: State = { languages: null, isLoading: false },
@@ -61,13 +73,13 @@ export namespace RequestedLanguages {
   ): State {
     switch (action.type) {
       case ActionType.FETCH:
-        return { ...state, isLoading: true };
+        return { ...state, isLoading: true }
 
       case ActionType.SET:
-        return { ...state, languages: action.languages };
+        return { ...state, languages: action.languages }
 
       default:
-        return state;
+        return state
     }
   }
 }

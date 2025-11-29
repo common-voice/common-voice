@@ -48,72 +48,80 @@ export const actions = {
       dispatch: Dispatch<LoadedAction>,
       getState: () => StateTree
     ) => {
-      const { api } = getState()
-      const allLanguages = await api.fetchAllLanguages()
+      try {
+        const { api } = getState()
+        const allLanguages = await api.fetchAllLanguages()
 
-      //get obj of native names, default to language code
-      const nativeNames = allLanguages.reduce((names: any, language) => {
-        names[language.name] =
-          language.native_name && language.native_name !== language.name
-            ? language.native_name
-            : language.english_name
-            ? `${language.english_name} [${language.name}]`
-            : language.name
-        return names
-      }, {})
+        //get obj of native names, default to language code
+        const nativeNames = allLanguages.reduce((names: any, language) => {
+          names[language.name] =
+            language.native_name && language.native_name !== language.name
+              ? language.native_name
+              : language.english_name
+              ? `${language.english_name} [${language.name}]`
+              : language.name
+          return names
+        }, {})
 
-      const contributableNativeNames = allLanguages.reduce(
-        (names: Record<string, string>, language) => {
-          if (language.is_contributable) {
-            names[language.name] =
-              language.native_name && language.native_name !== language.name
-                ? language.native_name
-                : language.english_name
-                ? `${language.english_name} [${language.name}]`
-                : language.name
+        const contributableNativeNames = allLanguages.reduce(
+          (names: Record<string, string>, language) => {
+            if (language.is_contributable) {
+              names[language.name] =
+                language.native_name && language.native_name !== language.name
+                  ? language.native_name
+                  : language.english_name
+                  ? `${language.english_name} [${language.name}]`
+                  : language.name
+            }
+            return names
+          },
+          {}
+        )
+
+        //get array of rtl languages
+        const rtlLocales = allLanguages.reduce((names: any, language) => {
+          if (language.text_direction === 'RTL') {
+            names.push(language.name)
           }
           return names
-        },
-        {}
-      )
+        }, [])
 
-      //get array of rtl languages
-      const rtlLocales = allLanguages.reduce((names: any, language) => {
-        if (language.text_direction === 'RTL') {
-          names.push(language.name)
-        }
-        return names
-      }, [])
+        const translatedLocales = allLanguages.reduce(
+          (names: any, language) => {
+            if (language.is_translated) {
+              names.push(language.name)
+            }
+            return names
+          },
+          []
+        )
 
-      const translatedLocales = allLanguages.reduce((names: any, language) => {
-        if (language.is_translated) {
-          names.push(language.name)
-        }
-        return names
-      }, [])
+        const allLocales = allLanguages.map(language => language.name)
+        const contributableLocales = allLanguages
+          .filter(language => language.is_contributable)
+          .map(language => language.name)
 
-      const allLocales = allLanguages.map(language => language.name)
-      const contributableLocales = allLanguages
-        .filter(language => language.is_contributable)
-        .map(language => language.name)
+        const localeNameAndIDMapping = allLanguages.map(language => ({
+          id: language.id,
+          name: language.name,
+        }))
 
-      const localeNameAndIDMapping = allLanguages.map(language => ({
-        id: language.id,
-        name: language.name,
-      }))
-
-      dispatch({
-        type: ActionType.LOADED,
-        payload: {
-          allLocales,
-          contributableLocales,
-          nativeNames,
-          rtlLocales,
-          translatedLocales,
-          contributableNativeNames,
-          localeNameAndIDMapping,
-        },
-      })
+        dispatch({
+          type: ActionType.LOADED,
+          payload: {
+            allLocales,
+            contributableLocales,
+            nativeNames,
+            rtlLocales,
+            translatedLocales,
+            contributableNativeNames,
+            localeNameAndIDMapping,
+          },
+        })
+      } catch (err) {
+        console.error('could not load languages data', err)
+        throw err
+      }
     }
   },
 }

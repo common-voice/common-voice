@@ -84,80 +84,112 @@ export namespace User {
     refresh:
       () =>
       async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
-        const { api } = getState()
-        dispatch({
-          type: ActionType.UPDATE,
-          state: { isFetchingAccount: true },
-        })
-        const [account, userClients] = await Promise.all([
-          api.fetchAccount(),
-          api.fetchUserClients(),
-        ])
-        dispatch({
-          type: ActionType.UPDATE,
-          state: {
-            account,
-            userClients,
-            isFetchingAccount: false,
-            isSubscribedToMailingList: Boolean(account?.basket_token),
-          },
-        })
-        await actions.claimLocalUser(dispatch, getState)
+        try {
+          const { api } = getState()
+          dispatch({
+            type: ActionType.UPDATE,
+            state: { isFetchingAccount: true },
+          })
+          const [account, userClients] = await Promise.all([
+            api.fetchAccount(),
+            api.fetchUserClients(),
+          ])
+          dispatch({
+            type: ActionType.UPDATE,
+            state: {
+              account,
+              userClients,
+              isFetchingAccount: false,
+              isSubscribedToMailingList: Boolean(account?.basket_token),
+            },
+          })
+          await actions.claimLocalUser(dispatch, getState)
+        } catch (err) {
+          console.error('could not refresh user account', err)
+          dispatch({
+            type: ActionType.UPDATE,
+            state: { isFetchingAccount: false },
+          })
+          throw err
+        }
       },
 
     saveAccount:
       (data: UserClient) =>
       async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
-        const { api } = getState()
-        dispatch({
-          type: ActionType.UPDATE,
-          state: { isFetchingAccount: true },
-        })
-        dispatch({
-          type: ActionType.UPDATE,
-          state: {
-            account: await api.saveAccount(data),
-            isFetchingAccount: false,
-          },
-        })
-        await actions.claimLocalUser(dispatch, getState)
+        try {
+          const { api } = getState()
+          dispatch({
+            type: ActionType.UPDATE,
+            state: { isFetchingAccount: true },
+          })
+          dispatch({
+            type: ActionType.UPDATE,
+            state: {
+              account: await api.saveAccount(data),
+              isFetchingAccount: false,
+            },
+          })
+          await actions.claimLocalUser(dispatch, getState)
+        } catch (err) {
+          console.error('could not save account', err)
+          dispatch({
+            type: ActionType.UPDATE,
+            state: { isFetchingAccount: false },
+          })
+          throw err
+        }
       },
 
     saveAnonymousAccountLanguages:
       (data: { languages: UserLanguage[] }) =>
       async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
-        const { api } = getState()
-        dispatch({
-          type: ActionType.UPDATE,
-          state: { isFetchingAccount: true },
-        })
+        try {
+          const { api } = getState()
+          dispatch({
+            type: ActionType.UPDATE,
+            state: { isFetchingAccount: true },
+          })
 
-        dispatch({
-          type: ActionType.UPDATE,
-          state: {
-            account: await api.saveAnonymousAccountLanguages(data),
-            isFetchingAccount: false,
-          },
-        })
-        await actions.claimLocalUser(dispatch, getState)
+          dispatch({
+            type: ActionType.UPDATE,
+            state: {
+              account: await api.saveAnonymousAccountLanguages(data),
+              isFetchingAccount: false,
+            },
+          })
+          await actions.claimLocalUser(dispatch, getState)
+        } catch (err) {
+          console.error('could not save anonymous account languages', err)
+          dispatch({
+            type: ActionType.UPDATE,
+            state: { isFetchingAccount: false },
+          })
+          throw err
+        }
       },
 
     claimLocalUser: async (
       dispatch: Dispatch<UpdateAction>,
       getState: () => StateTree
     ) => {
-      const { api, user } = getState()
-      if (user.account && user.userId) {
-        await api.claimAccount()
-        dispatch({
-          type: ActionType.UPDATE,
-          state: {
-            userId: null,
-            recordTally: 0,
-            validateTally: 0,
-          },
-        })
-        actions.refresh()(dispatch, getState)
+      try {
+        const { api, user } = getState()
+        if (user.account && user.userId) {
+          await api.claimAccount()
+          dispatch({
+            type: ActionType.UPDATE,
+            state: {
+              userId: null,
+              recordTally: 0,
+              validateTally: 0,
+            },
+          })
+          actions.refresh()(dispatch, getState)
+        }
+      } catch (err) {
+        console.error('could not claim local user', err)
+        throw err
       }
     },
   }
