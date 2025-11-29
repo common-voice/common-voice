@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express'
 
-import { FEATURES_COOKIE, FEATURES } from 'common'
+import { FEATURES_COOKIE, FEATURES, Feature } from 'common'
 
 // Checks feature flags from query string (first visit) and from cookie (successive visits)
 export class RequireFeatureMiddleware {
@@ -13,7 +13,7 @@ export class RequireFeatureMiddleware {
         features.includes(required_feature) ||
         (feature &&
           feature === required_feature &&
-          FEATURES.includes(feature as string))
+          FEATURES.includes(feature as Feature))
       ) {
         next()
       } else {
