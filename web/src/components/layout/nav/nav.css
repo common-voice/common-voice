@@ -254,29 +254,18 @@ header {
 
         max-width: 250px;
         width: max-content;
+        height: 2.5rem;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-
-        @media (--md-up) {
-            height: 2.5rem;
-        }
 
         @media (--xs2-down) {
             display: none;
         }
 
         @media (--xs-down) {
-            /* display: inline-block; */
-            /* margin: 0 10px;*/
             font-size: var(--font-size-xs);
-            /* overflow-wrap: normal;
-            vertical-align: middle; */
         }
-
-        /* @media (--md-only) {
-            display: inline-block;
-        } */
 
         &::after {
             content: '';
