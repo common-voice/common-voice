@@ -271,6 +271,15 @@ code-switching-answer-bullet-4 = د ځواب ورکولو لپاره کومه "�
 code-switching-authentic-header = طبيعي او مستنده ځواب ورکړئ
 code-switching-authentic-speak = <bold>هغه ډول خبرې وکړئ لکه څنګه چې تاسو غواړئ له ملګرو یا کورنۍ سره یې وکړئ.</bold> که تاسو په حقیقي ژوند کې ژبې سره ګډې کړئ، دلته هم همداسې وکړئ. مثال:
 code-switching-authentic-speak-example = "یو ځل ما ورته وویل چې زه نشم تللی، خو هغې وویل، 'ته ښه ده چې راشه!'"
+code-switching-use-both-languages = <bold>که تاسو معمولا دا ډول وایئ نو دواړه ژبې وکاروئ.</bold> حتی یوازې د یوې یا دوو کلمو بدلول ګټور دي. مثال:
+code-switching-use-both-languages-example = "هغه ډېره غوسه شوه ځکه چې ما بیرته زنګ ونه وهه."
+code-switching-authentic-direct-quotes = <bold>مستقیم اقتباسات یا ډیالوګ شامل کړئ.</bold> په سمه توګه هغه څه ووایاست چې چا ویلي، نه پاک شوی یا رسمي نسخه. مثال:
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo، 'Tú crees que esto es un juego؟' او زه ورته وم، 'ښه ده!'
+code-switching-authentic-reflect = <bold>احساس، هویت، او شرایط منعکس کړئ.</bold> بدلون معمولا هغه وخت پیښیږي کله چې خلک احساسات، بیړني حالت، یا کلتوري نظرونه څرګندوي. د پوښتنو ځوابولو پر مهال دې ته پام وکړئ.
+code-switching-authentic-full-context = <bold>د شرایطو سره سم بشپړ ځوابونه وکاروئ.</bold> څومره چې امکان ولري مفصل اوسئ، څومره چې امکان ولري ډیر توضیحات ورکړئ. په خپلو ځوابونو کې یوه کیسه یا مثال شریک کړئ.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = نه ډېر سوچ وکړئ او نه هم ډېر سمون پکې راوړئ
+code-switching-answer-dont-correct-language = <bold> خپله ژبه "سمه کړئ".</bold> دا ازموینه نه ده. دلته "مناسبه" بڼه مهمه نه ده، طبیعي ژبه مهمه ده.
 # Use standard spelling for each language
 code-switching-spelling-header = د هرې ژبې لپاره معیاري املا وکاروئ
 code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
