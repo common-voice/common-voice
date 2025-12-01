@@ -43,9 +43,11 @@
 
 ### Changes merged after current release
 
+- Feat: Upgrade languagedata endpoint with optional single locale data, by [@moz-bozden](https://github.com/moz-bozden) in [#5197](https://github.com/common-voice/common-voice/pull/5197) (in v1.155.5)
+- Feat: Gate bulk sentence uploads by putting it behind feature flag, by [@moz-bozden](https://github.com/moz-bozden) in [#5196](https://github.com/common-voice/common-voice/pull/5196) (in v1.155.5)
 - Feat: Refactor API and add require-user-middleware, by [@moz-bozden](https://github.com/moz-bozden) in [#5180](https://github.com/common-voice/common-voice/pull/5180) (in v1.155.1)
 - Feat: Introduce fuzzy search and apply in CV language selector, by [@moz-bozden](https://github.com/moz-bozden) in [#5176](https://github.com/common-voice/common-voice/pull/5176) (in v1.155.1)
-- Feat: Implement pre-fetch in lazy cache and apply to leader-board queries, by [@moz-bozden](https://github.com/moz-bozden) in [#5175](https://github.com/common-voice/common-voice/pull/5175) and optimized in [#5185](https://github.com/common-voice/common-voice/pull/5185) (in v1.155.1), adjusted in [#5187](https://github.com/common-voice/common-voice/pull/5187) (in v1.155.3) and [#5194](https://github.com/common-voice/common-voice/pull/5194) (in v1.155.5)
+- Feat: Implement pre-fetch in lazy cache and apply to leader-board queries and statistics, by [@moz-bozden](https://github.com/moz-bozden) in [#5175](https://github.com/common-voice/common-voice/pull/5175), [#5185](https://github.com/common-voice/common-voice/pull/5185) (v1.155.1), [#5187](https://github.com/common-voice/common-voice/pull/5187) (v1.155.3), [#5194](https://github.com/common-voice/common-voice/pull/5194) (v1.155.5)
 - Fix: Remove single recording/sentence limitations from `en`, `es`, and `kab` locales, by [@moz-bozden](https://github.com/moz-bozden) in [#5188](https://github.com/common-voice/common-voice/pull/5188) (in v1.155.3)
 - Fix: Move two endpoints to unprotected, by [@moz-bozden](https://github.com/moz-bozden) in [#5186](https://github.com/common-voice/common-voice/pull/5186) (in v1.155.2)
 - Fix: Multiple fixes and optimizations, by [@moz-bozden](https://github.com/moz-bozden) in [#5184](https://github.com/common-voice/common-voice/pull/5184) (in v1.155.1)
@@ -55,6 +57,7 @@
 
 #### Data Changes after current release
 
+- Chore: Add migration to retire some Catalan sentences, by [@moz-bozden](https://github.com/moz-bozden) in [#5195](https://github.com/common-voice/common-voice/pull/5195) (in v1.155.5)
 - Chore: Change name of (`shi`) from Tachelhit to Tashlhiyt (in v1.155.1)
 
 #### Spontaneous Speech after current release
