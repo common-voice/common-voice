@@ -179,6 +179,9 @@ tags-disfluency = Ñe’ẽpa’ã
 tags-unclear = Hesakã’ỹva
 tags-noise = Tyapu
 tags-laugh-explanation = Jepuka ryapu.
+tags-disfluency-explanation =
+    Peteĩ ñe’ẽ térã mba’epu myanyhẽha ojeporúva myengoviarã pe oñe’ẽva oñamindu’u aja mba’épa he’íta.
+    Inglés ñe’ẽme, oĩ mba’epu oje’eméva ha’e «err», «um», «huh», oĩve.
 tags-unclear-explanation = Ñe’ẽ térã ñe’ẽ juaju oñeikumbykuaa’ỹva.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
