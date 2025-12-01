@@ -263,11 +263,14 @@ code-switching-review-no-2 = هغه پوښتنې چې ممکن د کرکې وی�
 code-switching-review-no-3 = هغه پوښتنې چې ممکن یو څوک د حساسو او احتمالي محرک ځوابونو شریکولو لامل شي
 # Answering a Question
 code-switching-answer-subheader = د یوې پوښتنې ځواب ورکول
+code-switching-answer-intro = کله چې یوې پوښتنې ته ځواب ورکوئ، هدف دا دی چې په طبیعي ډول ځواب ورکړئ - لکه څنګه چې تاسو په حقیقي ژوند کې په خبرو اترو کې کوئ. موږ غواړو چې په ورځني وینا کې ژبې څنګه یوځای کیږي، په ګوته کړو.
 code-switching-answer-bullet-1 = د حقیقي ژوند شیبو یا حالاتو په اړه فکر وکړئ: ټوکې، دلیلونه، دودونه
 code-switching-answer-bullet-2 = فکر وکړئ چې تاسو يو ملگري ته بيغام لېږئ يا چاته کيسه کوئ
 code-switching-answer-bullet-3 = هغه کلمې وکاروئ چې تاسو به یې په حقیقت کې وکاروئ، حتی که پور اخیستل شوي یا گډشوي وي
 code-switching-answer-bullet-4 = د ځواب ورکولو لپاره کومه "بشپړه" لاره نشته
 code-switching-authentic-header = طبيعي او مستنده ځواب ورکړئ
+code-switching-authentic-speak = <bold>هغه ډول خبرې وکړئ لکه څنګه چې تاسو غواړئ له ملګرو یا کورنۍ سره یې وکړئ.</bold> که تاسو په حقیقي ژوند کې ژبې سره ګډې کړئ، دلته هم همداسې وکړئ. مثال:
+code-switching-authentic-speak-example = "یو ځل ما ورته وویل چې زه نشم تللی، خو هغې وویل، 'ته ښه ده چې راشه!'"
 # Use standard spelling for each language
 code-switching-spelling-header = د هرې ژبې لپاره معیاري املا وکاروئ
 code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
