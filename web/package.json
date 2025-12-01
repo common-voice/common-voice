@@ -40,8 +40,8 @@
     "webpack": "5.94.0"
   },
   "devDependencies": {
-    "@babel/core": "7.28.4",
-    "@babel/preset-env": "7.28.3",
+    "@babel/core": "7.28.5",
+    "@babel/preset-env": "7.28.5",
     "@faker-js/faker": "8.4.1",
     "@peculiar/webcrypto": "1.5.0",
     "@testing-library/react": "12.1.5",

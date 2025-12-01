@@ -43,6 +43,11 @@ jest.mock('../../../../locale-helpers', () => ({
   LocaleNavLink: () => <div>Mock locale Nav Link</div>,
 }))
 
+jest.mock('../../../../../contexts/feature-context', () => ({
+  useFeature: () => true,
+  useFeatureContextLoaded: () => true,
+}))
+
 afterEach(() => {
   jest.clearAllMocks()
 })

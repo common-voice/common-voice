@@ -214,7 +214,7 @@ export default class API {
     )
 
     // Get combined language data (All coming from Pontoon, CV/SS/CS - active or not, with variants and predefined accents combined)
-    router.get('/languagedata', this.getCombinedLanguageData)
+    router.get('/languagedata/:locale?', this.getCombinedLanguageData)
 
     // Get all available languages
     router.get('/languages', this.getAllLanguages)
@@ -444,7 +444,16 @@ export default class API {
   }
 
   getCombinedLanguageData = async (_request: Request, response: Response) => {
-    response.json(await this.model.getCombinedLanguageData())
+    const locale = _request?.params?.locale
+    const allData = await this.model.getCombinedLanguageData()
+    if (!locale) {
+      return response.json(allData)
+    }
+    const languageData = allData.filter(ld => ld.code === locale)
+    if (languageData?.length === 1) {
+      return response.json(languageData[0])
+    }
+    response.sendStatus(StatusCodes.NOT_FOUND)
   }
 
   getAllLanguages = async (_request: Request, response: Response) => {
@@ -1129,13 +1138,13 @@ export default class API {
       if (isWebBrowser) {
         // Redirect web browsers to MDC datasets
         return response.redirect(
-          'https://datacollective.mozillafoundation.org/datasets'
+          'https://datacollective.mozillafoundation.org/datasets?q=common+voice'
         )
       } else {
         // Return error for scripts/API clients
         return response.status(403).json({
           message:
-            'This endpoint is no longer available. Please visit https://datacollective.mozillafoundation.org/datasets to download datasets.',
+            'This endpoint is no longer available. Please visit https://datacollective.mozillafoundation.org/datasets?q=common+voice to download datasets.',
           error: 'Access restricted',
         })
       }

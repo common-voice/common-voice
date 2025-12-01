@@ -252,11 +252,16 @@ code-switching-answer-bullet-2 = Eikuaa eñe’ẽmondoha angirũme térã emomb
 code-switching-answer-bullet-3 = Eiporu ñe’ẽ añetehápe eiporútava, taha’e porupy térã ojehe’áva
 code-switching-answer-bullet-4 = Ndaipóri “iporãvéva” embohovái hag̃ua
 code-switching-authentic-header = Embohovái porã ha ha’etéva
+code-switching-authentic-speak = Eñe’ẽ ejapotaháicha ne angirũ térã ne pehẽngue ndive. Embojehe’áramo ñe’ẽita eikohárupi, ejapo ápe avei. Techapyrã:
 code-switching-authentic-speak-example = “Upévare ha’e chupe ndahamo’ãiha, ha he’i chéve: ‘¡Iporãvéta rejúrõ!’”.
+code-switching-use-both-languages = Eiporu mokõivéva ñe’ẽ upéicha ereramovoi opaite hendápe. Emoambuéramo jepe peteĩ térã mokõi ñe’ẽ ndaivaíri. Tembiecharã:
 code-switching-use-both-languages-example = “Ipochyeterei chendive nahenói jey haguére chupe”.
+code-switching-authentic-direct-quotes = <bold>Emoinge je’epyre térã ñomongeta.</bold> Emombe’u hekopete tapicha he’iva’ekue, ndaha’éi je’eporã katuete. Tembiecharã:
 code-switching-authentic-direct-quotes-example = “Che sy oporandu: ‘¿Reimo’ã kóva ñembosarainte?’. Ha’e chupe: ‘¡Py'aguapy!’”.
+code-switching-authentic-reflect = Ohechauka temiandu, teraite ha jeregua. Py’ỹi oiko ñemoambue tapichakuéra oikuaaukávo hemiandu, jejapura térã temiandu arandugua. Ehecha ko’ã mba’e embohovái jave porandu.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
+code-switching-answer-dont-correct-language = <bold>Emyatyrõ ne ñe’ẽ.</bold> Kóva ndaha’éi peteĩ kuaachauka. Ndaha’éi oĩporãnteva’era, osẽnteva’erã ijehegui.
 code-switching-answer-dont-avoid-switching = <bold>Emboyke ñemoambue ejapomemérõ.</bold> Emoambue pe ñe’ẽjuaju mbyte rupi, ñamindu’u mbyte rupi térã ñe’ẽ añoite ndive.
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai

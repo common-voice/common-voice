@@ -10,7 +10,7 @@ sc-review-form-prompt =
 sc-review-form-usage = د جملې تصویب کولو لپاره ښي خوا ته سوايپ کړئ. د ردولو لپاره یې کیڼ لور ته سوايپ کړئ. د پریښودو لپاره پورته سوايپ کړئ. <strong>خپل نظر وړاندې کول مه هیروئ!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = سرچینه: { $source }
+sc-review-form-source = سرچینه: { $sentenceSource }
 sc-review-form-button-reject = رد کړه
 sc-review-form-button-skip = پرېږدئ
 sc-review-form-button-approve = تصویب کړه
