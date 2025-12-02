@@ -349,7 +349,7 @@ export default class Model {
       return languageStats
     },
     12 * TimeUnits.HOUR,
-    30 * TimeUnits.MINUTE,
+    120 * TimeUnits.MINUTE,
     true, // allow stale data
     { prefetch: true } // Enable prefetch with defaults
   )
