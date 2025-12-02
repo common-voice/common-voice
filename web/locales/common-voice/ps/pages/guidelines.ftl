@@ -246,6 +246,7 @@ code-switching-informal-scenarios-explanation-example = "ستاسو ملګري �
 code-switching-avoid-subheader = د څه څخه باید مخنیوی وشي
 code-switching-avoid-intro = هغه پوښتنې چې ممکن وي:
 code-switching-avoid-1 = د شخصي پیژندنې وړ معلوماتو غوښتنه وکړئ
+code-switching-avoid-2 = د کرکې وینا یا نور تعصب لرونکي یا توهینونکي احساسات وغواړئ
 code-switching-avoid-3 = یو څوک دې ته وهڅوئ چې حساس، احتمالي محرک غبرګونونه شریک کړي
 code-switching-dont-header = مه کوه
 code-switching-dont-1 = ډېره رسمي ژبه مه کاروئ
@@ -280,6 +281,9 @@ code-switching-authentic-full-context = <bold>د شرایطو سره سم بشپ
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = نه ډېر سوچ وکړئ او نه هم ډېر سمون پکې راوړئ
 code-switching-answer-dont-correct-language = <bold> خپله ژبه "سمه کړئ".</bold> دا ازموینه نه ده. دلته "مناسبه" بڼه مهمه نه ده، طبیعي ژبه مهمه ده.
+code-switching-answer-dont-avoid-switching = <bold>که تاسو معمولا دا کار کوئ نو د بدلولو څخه ډډه وکړئ.</bold> دا ښه ده چې د جملې په مینځ کې، د فکر په مینځ کې، یا یوازې د یوې کلمې لپاره بدل کړئ.
+code-switching-answer-dont-formal-writing = <bold>داسې خبرې وکړئ لکه څنګه چې تاسو په رسمي ډول لیکئ.</bold> له رسمي، اکاډمیک ځوابونو څخه ډډه وکړئ. دا د خبرو اترو په څیر وساتئ.
+code-switching-answer-dont-force-switch = <bold>که طبیعي نه وي نو په زور یې بدل کړئ.</bold> یوازې هغه وخت بدل کړئ که تاسو په طبیعي ډول پدې حالت کې خبرې کوئ.
 # Use standard spelling for each language
 code-switching-spelling-header = د هرې ژبې لپاره معیاري املا وکاروئ
 code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
