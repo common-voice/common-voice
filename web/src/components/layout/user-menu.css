@@ -65,7 +65,7 @@
         max-width: fit-content;
 
         & .toggle {
-            & .name {
+            & .username-btn .name {
                 display: none;
             }
 
