@@ -16,7 +16,7 @@ import URLS from '../../urls'
 import { replacePathLocale } from '../../utility'
 import { LocaleNavLink } from '../locale-helpers'
 import { CogIcon, DashboardIcon, MenuIcon } from '../ui/icons'
-import { LinkButton } from '../ui/ui'
+import { Avatar, LinkButton } from '../ui/ui'
 import Content from './content'
 import Footer from './footer'
 import LanguageSelect from '../localization-select/language-select'
@@ -264,6 +264,13 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                       id="login-button"
                     />
                   </Localized>
+                  <a
+                    href="/login"
+                    className="mars-login-icon"
+                    aria-label={getString('login-signup')}
+                    data-testid="login-icon-button">
+                    <Avatar />
+                  </a>
                   <Tooltip
                     anchorSelect="#login-button"
                     place="bottom"
