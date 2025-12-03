@@ -290,8 +290,18 @@ code-switching-transcribe-do-1 = لنډې برخې څو ځله واورئ څو �
 code-switching-transcribe-do-2 = د ژبنیو بدلونونو یا ګډو کلمو د بیا کتنې لپاره، د هرې جملې وروسته غږ ودروی.
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = وینا هماغسې ثبت کړئ لکه څنګه چې ویل شوې وي
+code-switching-capture-explanation = دواړه ژبې لکه څنګه چې ښکاري / غږیږي ولیکئ. ژبه مه «سموئ» او هڅه مه کوئ چې یوازې یوې ژبې ته یې واړوئ.
+# Include filler words and markers
+code-switching-filler-header = د تشو ځايو ډکوونکې کلمې او نښې هم شاملې کړئ
+code-switching-filler-explanation =
+    د “um”، “like”، “pues”، “you know”، او “entonces” په څېر کلمې مانا لري.
+    بېلګه: “نو، um، ما هغې ته like وویل: ‘pues no sé، ښایي وروسته.’”
 # Use standard spelling for each language
 code-switching-spelling-header = د هرې ژبې لپاره معیاري املا وکاروئ
+code-switching-spelling-explanation = هڅه وکړئ چې د هرې ژبې کلمې په سمه املا ولیکئ، مګر که ویونکی یې څرګند ډول په غیرمعیاري بڼه تلفظ کړي وي، هماغسې یې ولیکئ لکه څنګه چې اورئ.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = ژبه مه صفا کوئ او مه یې ساده کوئ
+code-switching-cleanup-1 = ژباړه یا لنډیز - هغه څه ولیکئ چې ویناوال وویل، نه هغه څه چې دوی یې "مطلب" درلود.
 code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = د ژبې د ټاکلو لپاره د تلفظ څخه کار واخلئ
