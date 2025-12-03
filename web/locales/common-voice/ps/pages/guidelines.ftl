@@ -302,7 +302,19 @@ code-switching-spelling-explanation = هڅه وکړئ چې د هرې ژبې کل
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = ژبه مه صفا کوئ او مه یې ساده کوئ
 code-switching-cleanup-1 = ژباړه یا لنډیز - هغه څه ولیکئ چې ویناوال وویل، نه هغه څه چې دوی یې "مطلب" درلود.
-code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
+code-switching-cleanup-2 = "سم" ګرامر یا تلفظ - د ویناوال طبیعي استعمال وساتئ.
+code-switching-cleanup-4 = داسې نښې نښانې مه ورزیاتوئ چې مانا بدله کړي — د وینا طبيعي روان هماغسې وساتئ.
+code-switching-cleanup-5 = فرض کړئ چې تاسو د هرې کلمې ژبه پوهیږئ - د کارونې پر بنسټ يې ټګ کړئ.
+# Tagging
+code-switching-tagging-subheader = ټګ کول
+code-switching-tagging-error-intro = که چیرې په لیکنه کې کومه تېروتنه وي، نو مهرباني وکړئ د راپور ورکولو فعالیت وکاروئ ترڅو یې په نښه کړئ. احتمالي تېروتنې په لاندې ډول دي:
+code-switching-tagging-error-1 = ناسمې نښې نښانې یا ناسم د لویو تورو کارول
+code-switching-tagging-error-2 = املايي تېروتنې
+code-switching-tagging-error-3 = په ناسمه املا لیکل شوې کلمې
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = د هرې ژبې لپاره د سمې املا کارول
+code-switching-orthography-explanation = هره کلمه د هغې د اړوندې ژبې د املا له مخې ولیکئ. بېلګه:
+code-switching-orthography-explanation-example-1 = که د “kitchen” کلمه په هسپانوي لهجې تلفظ شوې وي، باید په انګلیسي املا ولیکل شي، نه د “quichen” په بڼه.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = د ژبې د ټاکلو لپاره د تلفظ څخه کار واخلئ
 code-switching-not-tag-interjections-example-2 = "نه"
