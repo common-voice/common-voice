@@ -284,6 +284,12 @@ code-switching-answer-dont-correct-language = <bold> خپله ژبه "سمه ک�
 code-switching-answer-dont-avoid-switching = <bold>که تاسو معمولا دا کار کوئ نو د بدلولو څخه ډډه وکړئ.</bold> دا ښه ده چې د جملې په مینځ کې، د فکر په مینځ کې، یا یوازې د یوې کلمې لپاره بدل کړئ.
 code-switching-answer-dont-formal-writing = <bold>داسې خبرې وکړئ لکه څنګه چې تاسو په رسمي ډول لیکئ.</bold> له رسمي، اکاډمیک ځوابونو څخه ډډه وکړئ. دا د خبرو اترو په څیر وساتئ.
 code-switching-answer-dont-force-switch = <bold>که طبیعي نه وي نو په زور یې بدل کړئ.</bold> یوازې هغه وخت بدل کړئ که تاسو په طبیعي ډول پدې حالت کې خبرې کوئ.
+code-switching-answer-dont-translate-repeat = <bold>هر څه وژباړئ یا تکرار کړئ.</bold> یوازې یو ځل یې ووایاست، لکه څنګه چې دا به په خبرو اترو کې راشي. تاسو اړتیا نلرئ چې په هره ژبه کې د ځواب یوه نسخه ووایاست.
+code-switching-transcribe-intro = کله چې داسې ځوابونه نقل‌لیکوئ چې پکې د ژبو بدلول (کوډسوېچنګ) شامل وي، د ویونکي ژبه هماغسې ولیکئ لکه څنګه چې ویل شوې ده — بې له دې چې سمون، سمون‌ورکول، یا ساده کول پکې وکړئ. دا لارښوونه د ټولو ژبنیو بدلونونو، غیررسمي وینا، او ګډو ژبو کلمو لپاره ده.
+code-switching-transcribe-do-1 = لنډې برخې څو ځله واورئ څو واړه ژبني بدلونونه په سمه توګه ونیسئ.
+code-switching-transcribe-do-2 = د ژبنیو بدلونونو یا ګډو کلمو د بیا کتنې لپاره، د هرې جملې وروسته غږ ودروی.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = وینا هماغسې ثبت کړئ لکه څنګه چې ویل شوې وي
 # Use standard spelling for each language
 code-switching-spelling-header = د هرې ژبې لپاره معیاري املا وکاروئ
 code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
