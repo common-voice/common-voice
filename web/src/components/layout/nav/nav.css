@@ -164,6 +164,10 @@ header {
     & .menu-icon {
         margin-inline-end: 35px;
         cursor: pointer;
+
+        @media (--xs-down) {
+            margin-inline-end: 20px;
+        }
     }
 
     & .menu-icon.desktop-menu-icon {
@@ -228,14 +232,18 @@ header {
     }
 
     & .language-select-container {
-        @media (--sm-down) {
+        @media (--xs-down) {
             display: none;
+        }
+
+        @media (--sm-up) {
+            display: flex;
         }
     }
 
     & .user-menu {
         @media (--sm-down) {
-            display: none;
+            display: flex;
         }
     }
 
@@ -250,22 +258,39 @@ header {
 
         max-width: 250px;
         width: max-content;
+        height: 2.5rem;
         text-overflow: ellipsis;
         overflow: hidden;
-        display: inline-block;
         white-space: nowrap;
 
-        @media (--md-up) {
-            height: 2.5rem;
-        }
-
-        @media (--sm-down) {
+        @media (--xs-down) {
             display: none;
         }
 
         &::after {
             content: '';
             display: block;
+        }
+    }
+
+    & .mars-login-icon {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 0 10px;
+
+        @media (--xs-down) {
+            display: flex;
+        }
+
+        & svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        &:hover svg path {
+            fill: var(--blue);
         }
     }
 }

@@ -13,7 +13,8 @@ export default Object.freeze({
   CRITERIA: '/criteria',
   DASHBOARD,
   DATA: '/data', // old, here for redirect purposes
-  DATASETS: 'https://datacollective.mozillafoundation.org/datasets',
+  DATASETS:
+    'https://datacollective.mozillafoundation.org/datasets?q=common+voice',
   OLDDATASETS: '/olddatasets',
   DEMO,
   DEMO_ACCOUNT: DEMO + '/create-profile',
@@ -31,7 +32,8 @@ export default Object.freeze({
   LANGUAGE_REQUEST_SUCCESS: '/language/request/success',
   LISTEN: '/listen',
   MDC_ROOT: 'https://datacollective.mozillafoundation.org',
-  MDC_DATASETS: 'https://datacollective.mozillafoundation.org/datasets',
+  MDC_DATASETS:
+    'https://datacollective.mozillafoundation.org/datasets?q=common+voice',
   MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
   PARTNER: '/partner',
   PRIVACY: '/privacy',

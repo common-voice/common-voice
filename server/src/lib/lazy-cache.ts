@@ -7,8 +7,8 @@ import { getConfig } from '../config-helper'
 
 interface PrefetchOptions {
   prefetch?: boolean
-  thresholdRatio?: number // Default 0.8 (refresh at 80% of TTL)
-  safetyMultiplier?: number // Default 2.0 (use 2x avgFetchTime as safety margin)
+  windowSize?: number // Default 10 (rolling window of query times)
+  safetyMultiplier?: number // Default 1.5 (multiply max query time)
 }
 
 // Logging control
@@ -49,6 +49,16 @@ const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once per mi
 
 let consecutiveFailures = 0
 const FAILURE_THRESHOLD = 5 // Require 5 consecutive failures before switching
+
+const MIN_SAMPLES_FOR_P95 = 5
+
+// Custom error class for when data is being refreshed by another instance
+export class DataRefreshInProgressError extends Error {
+  constructor(message: string) {
+    super(message)
+    this.name = 'DataRefreshInProgressError'
+  }
+}
 
 // Initialize cache strategy once at module load and start health monitoring
 useRedis.then(hasRedis => {
@@ -293,8 +303,8 @@ function redisCache<T, S>(
 
   const {
     prefetch: prefetchEnabled = false,
-    thresholdRatio = 0.8,
-    safetyMultiplier = 2.0,
+    windowSize = 10,
+    safetyMultiplier = 1.5,
   } = prefetchOptions
 
   return async (...args): Promise<T> => {
@@ -309,20 +319,34 @@ function redisCache<T, S>(
           const cached = JSON.parse(result)
 
           // Backward compatibility: handle old cache format
-          // Old format: just the value OR { value: T }
-          // New format: { at: number, value: T, fetchTime?: number }
-          let normalizedCache: { at: number; value: T; fetchTime?: number }
+          // New/Current format (v2): { at: number, value: T, fetchTimes?: number[] }
+          // Legacy format (v1): { at: number, value: T, fetchTime?: number }
+          // Ancient format (v0): just the value OR { value: T }
+          let normalizedCache: { at: number; value: T; fetchTimes?: number[] }
 
           if (cached.at !== undefined && cached.value !== undefined) {
-            // New format - use as is
-            normalizedCache = cached
+            // Has timestamp and value - determine if old or new format
+            let fetchTimes: number[]
+
+            if (Array.isArray(cached.fetchTimes)) {
+              // New/v2 format - already has array
+              fetchTimes = cached.fetchTimes
+            } else if (typeof cached.fetchTime === 'number') {
+              // Legacy/v1 format - single fetchTime, migrate to array
+              fetchTimes = [cached.fetchTime]
+            } else {
+              // No timing data/v0 format
+              fetchTimes = []
+            }
+
+            normalizedCache = { at: cached.at, value: cached.value, fetchTimes }
           } else if (cached.value !== undefined) {
-            // Old format with { value: T } but no 'at' field
+            // Very old/v0 format with { value: T } but no 'at' field
             // Treat as expired to force refresh with new format
-            normalizedCache = { at: 0, value: cached.value }
+            normalizedCache = { at: 0, value: cached.value, fetchTimes: [] }
           } else {
-            // just the raw value
-            normalizedCache = { at: 0, value: cached }
+            // Ancient format (v0): just the raw value
+            normalizedCache = { at: 0, value: cached, fetchTimes: [] }
           }
 
           if (!isExpired(normalizedCache.at, timeMs)) {
@@ -332,7 +356,8 @@ function redisCache<T, S>(
                 key,
                 normalizedCache,
                 timeMs,
-                thresholdRatio,
+                lockDurationMs,
+                windowSize,
                 safetyMultiplier,
                 cachedFunction,
                 args
@@ -402,17 +427,9 @@ function redisCache<T, S>(
 
       // Distinguish between timeout waiting for data vs actual Redis failures
       // If we timed out waiting, DO NOT fall back to memory (would run duplicate query)
-      if (
-        error instanceof Error &&
-        error.message.includes('Timeout waiting for')
-      ) {
-        console.error(
-          `[LazyCache] ${error.message} - NOT running duplicate query`
-        )
-        // Return empty result or throw to caller - do NOT run query again
-        throw new Error(
-          `The requested data is being refreshed. Please try again in a moment.`
-        )
+      if (error instanceof DataRefreshInProgressError) {
+        // Another pod is still computing - propagate to caller without running duplicate query
+        throw error
       }
 
       reportError(error as Error, 'redis-operation')
@@ -482,8 +499,9 @@ function redisCache<T, S>(
   async function waitForFreshData(key: string): Promise<T> {
     // Another pod/request holds the lock and is computing the data
     // Poll Redis until data appears or we timeout
-    const maxWaitTime = Math.min(lockDurationMs, 60000) // Wait up to lock duration or 60s
-    const pollInterval = 500 // Check every 500ms
+    // Wait up to 90% of lock duration or 20min, whichever is less (allows time for long queries like vote leaderboard ~14-15min)
+    const maxWaitTime = Math.min(lockDurationMs * 0.9, 20 * TimeUnits.MINUTE)
+    const pollInterval = 1000 // Check every 1s (reduced frequency for long waits)
     const maxAttempts = Math.floor(maxWaitTime / pollInterval)
 
     if (isDebugEnabled) {
@@ -522,17 +540,20 @@ function redisCache<T, S>(
       await new Promise(resolve => setTimeout(resolve, pollInterval))
     }
 
-    // Timeout - data didn't appear, throw error to trigger memory fallback
-    const error = new Error(
-      `Timeout waiting for ${cacheKey} after ${(maxWaitTime / 1000).toFixed(
-        0
-      )}s - falling back to direct query`
+    // Timeout - data didn't appear within wait period
+    const timeoutSeconds = (maxWaitTime / 1000).toFixed(0)
+    console.warn(
+      `[LazyCache] Timeout waiting for ${cacheKey} after ${timeoutSeconds}s (another pod still computing)`
     )
-    console.warn(`[LazyCache] ${error.message}`)
-    reportError(error, 'wait-for-fresh-timeout')
+    reportError(
+      new Error(`Timeout waiting for ${cacheKey} after ${timeoutSeconds}s`),
+      'wait-for-fresh-timeout'
+    )
 
-    // Throw error - will be caught by outer catch and fall back to memory
-    throw error
+    // Throw special error that won't trigger memory fallback
+    throw new DataRefreshInProgressError(
+      `Data is being refreshed by another server. Please try again in a moment.`
+    )
   }
 
   async function computeAndCache(
@@ -546,18 +567,41 @@ function redisCache<T, S>(
       const value = await cachedFunction(...args)
       const fetchTime = Date.now() - startTime
 
+      // Get existing fetch times and update rolling window
+      let fetchTimes: number[] = []
+      try {
+        const existing = await redis.get(key)
+        if (existing) {
+          const parsed = JSON.parse(existing)
+          if (Array.isArray(parsed.fetchTimes)) {
+            fetchTimes = parsed.fetchTimes
+          } else if (typeof parsed.fetchTime === 'number') {
+            // Migrate from old single fetchTime format
+            fetchTimes = [parsed.fetchTime]
+          }
+        }
+      } catch (error) {
+        // Ignore - will start fresh window
+      }
+
+      // Add new fetch time and maintain window size
+      fetchTimes.push(fetchTime)
+      if (fetchTimes.length > windowSize) {
+        fetchTimes = fetchTimes.slice(-windowSize) // Keep last N samples
+      }
+
       try {
         await redis.set(
           key,
-          JSON.stringify({ at: Date.now(), value, fetchTime }),
+          JSON.stringify({ at: Date.now(), value, fetchTimes }),
           'PX',
           timeMs
         )
         if (isDebugEnabled) {
           console.debug(
-            `[LazyCache] Cached ${cacheKey} with fetchTime=${fetchTime}ms, TTL=${Math.floor(
-              timeMs / 1000
-            )}s`
+            `[LazyCache] Cached ${cacheKey} with fetchTime=${fetchTime}ms, window=${
+              fetchTimes.length
+            }, TTL=${Math.floor(timeMs / 1000)}s`
           )
         }
       } catch (setError) {
@@ -570,35 +614,81 @@ function redisCache<T, S>(
     }
   }
 
+  /**
+   * Calculate P95 from rolling window, dropping min and max values
+   * This provides resilience against outliers while using recent performance data
+   */
+  function calculateP95FromWindow(fetchTimes: number[]): number {
+    if (fetchTimes.length === 0) return 0
+    if (fetchTimes.length === 1) return fetchTimes[0]
+    if (fetchTimes.length === 2) return Math.max(...fetchTimes)
+
+    // Drop min and max, then calculate P95 from remaining values
+    const sorted = [...fetchTimes].sort((a, b) => a - b)
+    const trimmed = sorted.slice(1, -1) // Remove min (first) and max (last)
+
+    if (trimmed.length === 0) return sorted[sorted.length - 1] // Fallback to max
+
+    // P95 index in trimmed array (Math.floor is standard for percentile calculation)
+    // For n=8: floor(8 * 0.95) = floor(7.6) = 7 (max index)
+    // Bounded by array length for safety
+    const p95Index = Math.min(
+      Math.floor(trimmed.length * 0.95),
+      trimmed.length - 1
+    )
+    return trimmed[p95Index]
+  }
+
   function triggerPrefetchIfNeeded(
     key: string,
-    cached: { at: number; value: T; fetchTime?: number },
+    cached: { at: number; value: T; fetchTimes?: number[] },
     timeMs: number,
-    thresholdRatio: number,
+    lockDurationMs: number,
+    windowSize: number,
     safetyMultiplier: number,
     cachedFunction: Fn<T, S>,
     args: S[]
   ): void {
     const age = Date.now() - cached.at
-    const avgFetchTime = cached.fetchTime || 0
+    const fetchTimes = cached.fetchTimes || []
 
-    // Calculate refresh threshold adaptively
+    // Calculate refresh threshold using simplified logic:
+    // refreshThreshold = TTL - (P95QueryTime × safetyMultiplier)
+    // BUT never trigger during lock period (prevents thundering herd)
     let refreshThreshold: number
-    if (avgFetchTime > 0) {
-      // Use safety margin: TTL - (avgFetchTime * safetyMultiplier)
-      // This ensures we start refreshing early enough to complete before expiry
-      refreshThreshold = timeMs - avgFetchTime * safetyMultiplier
-      // But don't refresh too early (at least 50% of TTL)
-      refreshThreshold = Math.max(refreshThreshold, timeMs * 0.5)
+
+    if (fetchTimes.length >= MIN_SAMPLES_FOR_P95) {
+      // Have enough samples - use P95 from rolling window
+      const p95QueryTime = calculateP95FromWindow(fetchTimes)
+      const calculatedThreshold = timeMs - p95QueryTime * safetyMultiplier
+
+      // Ensure we never trigger during lock period (add 1min buffer)
+      const lockFloor = lockDurationMs + TimeUnits.MINUTE
+      refreshThreshold = Math.max(calculatedThreshold, lockFloor)
+
+      if (isDebugEnabled) {
+        console.debug(
+          `[LazyCache] Prefetch threshold for ${cacheKey}: P95=${p95QueryTime}ms, calculated=${calculatedThreshold}ms, final=${refreshThreshold}ms (lock floor=${lockFloor}ms)`
+        )
+      }
     } else {
-      // No timing data - use default threshold ratio
-      refreshThreshold = timeMs * thresholdRatio
+      // Cold start - not enough samples yet (need ≥5)
+      // Use 50% of TTL as safe default, but respect lock floor
+      const coldStartThreshold = timeMs * 0.5
+      const lockFloor = lockDurationMs + TimeUnits.MINUTE
+      refreshThreshold = Math.max(coldStartThreshold, lockFloor)
+
+      if (isDebugEnabled) {
+        console.debug(
+          `[LazyCache] Prefetch cold-start for ${cacheKey}: samples=${fetchTimes.length}, using 50% TTL, threshold=${refreshThreshold}ms`
+        )
+      }
     }
 
     if (age >= refreshThreshold) {
       if (isDebugEnabled) {
         console.debug(
-          `[LazyCache] Prefetch triggered for ${cacheKey}: age=${age}ms, threshold=${refreshThreshold}ms`
+          `[LazyCache] Prefetch triggered for ${cacheKey}: age=${age}ms >= threshold=${refreshThreshold}ms`
         )
       }
 
@@ -608,8 +698,12 @@ function redisCache<T, S>(
         ;(async () => {
           let prefetchLock: Lock | null = null
           try {
-            // Try to acquire lock with short timeout (don't wait if another instance is already refreshing)
-            const lockTimeout = Math.max(avgFetchTime * safetyMultiplier, 30000)
+            // Calculate lock timeout based on historical data or default to 30s
+            const p95QueryTime =
+              fetchTimes.length > 0 ? calculateP95FromWindow(fetchTimes) : 0
+            const lockTimeout = Math.max(p95QueryTime * safetyMultiplier, 30000)
+
+            // Try to acquire lock - if someone else is refreshing, we can skip
             prefetchLock = await redlock.lock(
               `${key}-prefetch`,
               Math.ceil(lockTimeout)
@@ -621,22 +715,41 @@ function redisCache<T, S>(
               const currentCached = JSON.parse(current)
               const currentAge = Date.now() - currentCached.at
               if (currentAge < refreshThreshold) {
+                if (isDebugEnabled) {
+                  console.debug(
+                    `[LazyCache] Prefetch skipped for ${cacheKey}: already refreshed by another instance`
+                  )
+                }
                 return
               }
             }
 
-            // Execute refresh
+            // Execute refresh and measure time
             const startTime = Date.now()
             const freshValue = await cachedFunction(...args)
             const fetchTime = Date.now() - startTime
 
-            // Update cache with new data and timing
+            // Update rolling window with new fetch time
+            const updatedFetchTimes = [...fetchTimes, fetchTime]
+            const trimmedFetchTimes = updatedFetchTimes.slice(-windowSize) // Keep last N
+
+            // Update cache with new data and timing window
             await redis.set(
               key,
-              JSON.stringify({ at: Date.now(), value: freshValue, fetchTime }),
+              JSON.stringify({
+                at: Date.now(),
+                value: freshValue,
+                fetchTimes: trimmedFetchTimes,
+              }),
               'PX',
               timeMs
             )
+
+            if (isDebugEnabled) {
+              console.debug(
+                `[LazyCache] Prefetch completed for ${cacheKey}: fetchTime=${fetchTime}ms, window size=${trimmedFetchTimes.length}`
+              )
+            }
           } catch (error) {
             // Log but don't throw - prefetch failures are non-critical
             if (isDebugEnabled) {

@@ -235,6 +235,13 @@ button {
 }
 
 .Logo {
+    @media (--sm-down) {
+        transform: scale(0.7);
+        transform-origin: left center;
+        display: flex;
+        align-items: center;
+    }
+
     @media (--md-up) {
         margin-inline-end: var(--standard-margin);
         width: 10rem;

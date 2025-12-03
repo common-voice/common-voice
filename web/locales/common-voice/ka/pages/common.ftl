@@ -486,3 +486,17 @@ announcement-mdc-text = <strong>Common Voice ახალი კრებულ�
 announcement-mdc-button-text = გვეწვიეთ – Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = გახსნის ახალ ჩანართში
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = დაიწყეთ აკრეფა საძიებოდ
+searchbox-default-placeholder = ძიება…
+searchbox-default-aria-label = ძიება
+dropdown-no-results = შესატყვისი ვერ მოიძებნა
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = ცვლის ორივეს, ჩვენებისას და მონაცემთა კრებულის ენას
+dataset-searchbox-placeholder = ენის მოძებნა...
+dataset-searchbox-aria-label = ენის მოძებნა
+dataset-search-no-results = შესაბამისი ენა ვერ მოიძებნა
+request-new-language = მოითხოვეთ ახალი ენა

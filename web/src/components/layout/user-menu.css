@@ -21,6 +21,7 @@
         display: flex;
         align-items: center;
     }
+
     & .toggle {
         outline: none;
         border: none;
@@ -59,6 +60,25 @@
         }
     }
 
+    @media (--xs-down) {
+        margin: 0 8px;
+        max-width: fit-content;
+
+        & .toggle .username-btn {
+            & .name {
+                display: none;
+            }
+
+            & .avatar-wrap {
+                margin-inline-end: 4px;
+            }
+
+            & svg {
+                margin: 0 4px 0 0;
+            }
+        }
+    }
+
     & .menu-wrap {
         position: relative;
     }
@@ -70,6 +90,11 @@
 
         flex-direction: column;
         display: none;
+
+        @media (--sm-down) {
+            top: 100%;
+            right: 0;
+        }
 
         & .triangle {
             padding-top: 15px;
