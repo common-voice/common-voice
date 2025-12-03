@@ -299,7 +299,6 @@ function redisCache<T, S>(
 ): Fn<T, S> {
   // Create a memory cache fallback for when Redis fails
   const memoryFallback = memoryCache(cachedFunction, timeMs)
-  const lockKey = `${cacheKey}-lock`
 
   const {
     prefetch: prefetchEnabled = false,
@@ -309,6 +308,7 @@ function redisCache<T, S>(
 
   return async (...args): Promise<T> => {
     const key = cacheKey + JSON.stringify(args)
+    const lockKey = `${key}-lock`
     let lock = null
 
     try {
