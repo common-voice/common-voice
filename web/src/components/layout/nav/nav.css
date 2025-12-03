@@ -164,6 +164,10 @@ header {
     & .menu-icon {
         margin-inline-end: 35px;
         cursor: pointer;
+
+        @media (--xs-down) {
+            margin-inline-end: 20px;
+        }
     }
 
     & .menu-icon.desktop-menu-icon {
@@ -259,17 +263,34 @@ header {
         overflow: hidden;
         white-space: nowrap;
 
-        @media (--xs2-down) {
-            display: none;
-        }
-
         @media (--xs-down) {
-            font-size: var(--font-size-xs);
+            display: none;
         }
 
         &::after {
             content: '';
             display: block;
+        }
+    }
+
+    & .mars-login-icon {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 0 10px;
+
+        @media (--xs-down) {
+            display: flex;
+        }
+
+        & svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        &:hover svg path {
+            fill: var(--blue);
         }
     }
 }

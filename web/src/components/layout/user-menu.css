@@ -60,12 +60,12 @@
         }
     }
 
-    @media (--sm-down) {
+    @media (--xs-down) {
         margin: 0 8px;
         max-width: fit-content;
 
-        & .toggle {
-            & .username-btn .name {
+        & .toggle .username-btn {
+            & .name {
                 display: none;
             }
 
