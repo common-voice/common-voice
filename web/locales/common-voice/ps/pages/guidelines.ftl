@@ -307,6 +307,7 @@ code-switching-spelling-explanation = هڅه وکړئ چې د هرې ژبې کل
 code-switching-cleanup-header = ژبه مه صفا کوئ او مه یې ساده کوئ
 code-switching-cleanup-1 = ژباړه یا لنډیز - هغه څه ولیکئ چې ویناوال وویل، نه هغه څه چې دوی یې "مطلب" درلود.
 code-switching-cleanup-2 = "سم" ګرامر یا تلفظ - د ویناوال طبیعي استعمال وساتئ.
+code-switching-cleanup-3 = هغه ژبني بدلونونه مه پرېږدئ چې واړه یا غیر مهم ښکاري — حتٰی پور شوې (اخیستل شوې) کلمې هم ارزښت لري.
 code-switching-cleanup-4 = داسې نښې نښانې مه ورزیاتوئ چې مانا بدله کړي — د وینا طبيعي روان هماغسې وساتئ.
 code-switching-cleanup-5 = فرض کړئ چې تاسو د هرې کلمې ژبه پوهیږئ - د کارونې پر بنسټ يې ټګ کړئ.
 # Tagging
@@ -319,6 +320,16 @@ code-switching-tagging-error-3 = په ناسمه املا لیکل شوې کلم
 code-switching-orthography-header = د هرې ژبې لپاره د سمې املا کارول
 code-switching-orthography-explanation = هره کلمه د هغې د اړوندې ژبې د املا له مخې ولیکئ. بېلګه:
 code-switching-orthography-explanation-example-1 = که د “kitchen” کلمه په هسپانوي لهجې تلفظ شوې وي، باید په انګلیسي املا ولیکل شي، نه د “quichen” په بڼه.
+code-switching-orthography-explanation-example-2 = که د quinceaños کلمه د انګلیسي په تلفظ ووییل شي، نو هم یې د ñ سره ولیکئ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = د ژبې د ټاکلو لپاره د تلفظ څخه کار واخلئ
+code-switching-pronunciation-explanation = ځینې کلمې ښايي په دواړو ژبو کې یو شان ښکاري، خو په مختلف ډول تلفظ کېدای شي. د سم ټاګ کولو لپاره تلفظ ته غوږ ونیسئ. د بېلګې په توګه: cable، taco، actor، detective.
+code-switching-pronunciation-explanation-example-1 = انګلیسي: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = هسپانوي: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = په یو واحد ټوکن کې ټاګ کول
+code-switching-single-token-explanation = یو واحد ټوکن چې د تشې (space) له لارې بېل شوی وي، باید له یو څخه زیات ټاګ شوي برخې ولري.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = د نږدې ژبې پر بنسټ د ټګ ليکنښې
+code-switching-punctuation-tagging-explanation = د کیڼ اړخ ته نږدې ژبې په کارولو سره د ليکنښو ټاګ کول. بېلګې:
 code-switching-not-tag-interjections-example-2 = "نه"
