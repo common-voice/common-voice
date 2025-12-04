@@ -218,11 +218,19 @@ mau = ہیوتلا مازیٹیک
 mbf = بابا مالے
 mbo = مبو
 mcf = میٹسیس
+mcn = مسا
+mcx = پیمو
+mdd = بُوم
 mdf = موکشا
 meh = مکسٹیکو یوکوہیٹی
+mel = میلانئیو
+mfe = کرئیول موریسین
 mg = ملیگسی
+mgg = کنابیمبے
+mhk = مونگکا
 mhr = میڈو ماری
 mk = میسڈونین
+mki = ڈھٹکی
 ml = ملایلم
 mmc = میچونکین میزاہوا
 mn = منگولین
@@ -230,9 +238,12 @@ mni = میتی لون
 mos = موسی
 mqh = ٹلوزوئک مسٹیک
 mr = مراتھی
+mrh = مارا
 mrj = ہِل ماری
 ms = مالے
+mse = میوسئے
 mt = ملتسی
+mua = مُونڈنگ
 mvy = اباسندھ کوہستانی
 mxu = مدا
 my = بورمیسی
@@ -444,3 +455,10 @@ localization-select =
 announcement-mdc-button-text = موزیلا ڈیٹا کلیکٹیو جائن تھوئی
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = ناؤ ٹیب کھولاؤ تھوئی
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = سرچ تھئنی دپارہ ٹائپنگ تھوئی
+searchbox-default-placeholder = سرچ تھوئی
+searchbox-default-aria-label = تلاش
