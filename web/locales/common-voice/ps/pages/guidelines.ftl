@@ -176,7 +176,9 @@ transcribe-the-audio-subheader-2-example-2-correct = <سمه> سمه</سمه>: �
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <غلط>غلط</غلط>: په <underline>۲۰۱۵<underline/> کې به بیا سره ووینو
 transcribe-the-audio-subheader-2-example-3-correct = <سمه> سمه</سمه>: دا شل سلنه تخفیف وه
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>ناسم</wrong>: دا ۲۰٪ تخفیف درلود
 transcribe-the-audio-subheader-2-example-4-correct = <سمه> سمه</سمه>: دوی د تیرې پنجشنبې په ورځ د FBI لخوا ونیول شول
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>ناسم</wrong>: هغوی تېره پنجشنبه د <underline>اېف بي آی</underline> له‌خوا ونیول شول.
 transcribe-the-audio-subheader-3-explanation = لاندې ځانګړي ټګونه باید د ناڅرګندتیاوو، ډکونکو او نورو غیر لفظي منځپانګو ډولونو (په انګلیسي کې) د نښه کولو لپاره وکارول شي.
 tags-table-header-1 = ټګ
 tags-table-header-2 = معنی
@@ -285,6 +287,8 @@ code-switching-answer-dont-avoid-switching = <bold>که تاسو معمولا د
 code-switching-answer-dont-formal-writing = <bold>داسې خبرې وکړئ لکه څنګه چې تاسو په رسمي ډول لیکئ.</bold> له رسمي، اکاډمیک ځوابونو څخه ډډه وکړئ. دا د خبرو اترو په څیر وساتئ.
 code-switching-answer-dont-force-switch = <bold>که طبیعي نه وي نو په زور یې بدل کړئ.</bold> یوازې هغه وخت بدل کړئ که تاسو په طبیعي ډول پدې حالت کې خبرې کوئ.
 code-switching-answer-dont-translate-repeat = <bold>هر څه وژباړئ یا تکرار کړئ.</bold> یوازې یو ځل یې ووایاست، لکه څنګه چې دا به په خبرو اترو کې راشي. تاسو اړتیا نلرئ چې په هره ژبه کې د ځواب یوه نسخه ووایاست.
+# Transcribing
+code-switching-transcribe-subheader = غږ په متن بدلول
 code-switching-transcribe-intro = کله چې داسې ځوابونه نقل‌لیکوئ چې پکې د ژبو بدلول (کوډسوېچنګ) شامل وي، د ویونکي ژبه هماغسې ولیکئ لکه څنګه چې ویل شوې ده — بې له دې چې سمون، سمون‌ورکول، یا ساده کول پکې وکړئ. دا لارښوونه د ټولو ژبنیو بدلونونو، غیررسمي وینا، او ګډو ژبو کلمو لپاره ده.
 code-switching-transcribe-do-1 = لنډې برخې څو ځله واورئ څو واړه ژبني بدلونونه په سمه توګه ونیسئ.
 code-switching-transcribe-do-2 = د ژبنیو بدلونونو یا ګډو کلمو د بیا کتنې لپاره، د هرې جملې وروسته غږ ودروی.
