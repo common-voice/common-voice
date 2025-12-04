@@ -16,6 +16,6 @@ transcript-skipped-error = د لیکلي متن د تېرولو پر مهال ی
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = صحیح
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
-done = بشپړ شو.
+done = بشپړ شو
 # For the button on the Check Transcriptions page to edit a transcription
 edit = سمول
