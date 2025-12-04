@@ -7,6 +7,9 @@ action-tap = ټپ کړئ
 # Label for language switcher
 platform-language = د پلیټ‌فارم ژبه
 platform-language-tooltip-text = يوازې د ویبسایټ ليک بدلول
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = په <bold>{ $language }</bold> ډاټاسېټ کې ونډه اخیستل
 contribution-picker-tooltip-text = د ژبې د معلوماتو هغه ټولګه بدلوي چې تاسو پکې برخه اخلئ.
 coming-soon = نورې ژبې به ژر راځي
 media-recorder-api-not-supported = ستاسو براوزر د MediaRecorder API نه شي چلولی.
