@@ -131,19 +131,26 @@ scripted-card-content = په خپله ژبه کې غونډلې په لوړ غږ 
 spontaneous-card-header = په خپله خوښه وينا
 spontaneous-card-content = د پوښتنو ځواب ورکړئ تر څو د طبیعي او ولسي چاپېریالونو لپاره ډاټاسېټونه جوړ شي. دا د هغو ژبو لپاره خورا مناسب دي چې وینا پکې له لیکلو مخکې راځي.
 language-text-card-header = د ژبې متن
+language-text-card-content = د عامه ملکیت پوښتنې، جملې، او متن ولیکئ یا شریک کړئ چې د ژباړې، وړو ژبنیو ماډلونو، او نورو موخو لپاره ترې ګټه واخیستل شي.
 coming-soon = ژر راځي
 add-text = متن اضافه کړئ
 answer = ځواب
 
 ## Community section
 
+community-section-title = د نړیوالو ټولنو لخوا پر مخ بېول کېږي، د نړیوالو ټولنو لپاره — ۱۳۰ ژبې او لا زیاتې روانې دي!
 join-discord-community = د ډیسکارډ ټولنې سره یوځای شئ
 # label for button
 join-discord-community-action = په ډیسکارډ کې له موږ سره یوځای شئ
+join-discord-community-content = د ژبې د ټولنې په بحثونو کې ګډون وکړئ، پوښتنې وکړئ، او د راتلونکو پروګرامونو او ویناوو په اړه معلومات ترلاسه کړئ.
 find-us-on-matrix = موږ په میټریکس کې ومومئ
 # label for button
 find-us-on-element-action-1 = عنصر
+find-us-on-matrix-action-2 = نور مراجعین
 ask-mozilla-share = له موزیلا څخه وغواړئ چې خپلې پیښې شریکې کړي
+ask-mozilla-share-content = ایا کوم تېر شوی یا راتلونکی پروګرام/مراسم لرئ؟ له موږ سره یې شریک کړئ، موږ به یې خپلې ټولنې ته اعلان کړو او یا به یې په اړه بلاګ ولیکو!
+# label for button
+ask-mozilla-share-action = خپل پروګرام/ايونټ شریک کړئ
 download-contribution-certificate = خپل د ونډې سند ډاونلوډ کړئ
 # label for button
 download-contribution-certificate-action = خپل سند ترلاسه کړئ
@@ -161,6 +168,8 @@ download-press-pack = زموږ د پریس پیک ډاونلوډ کړئ <icon></
 
 developers-section-title = په ۱۳۰+ ژبو کې د عامه لاسرسي وړ خلاصې وینا ډیټاسیټونه
 developers-section-subtitle = د ASR، STT، TTS، او نورو NLP شرایطو لپاره ډیټاسیټونه - د ټولنې د ګډون له لارې رامینځته شوي.
+# icon is an arrow that points to the right
+explore-datasets = د ډیټاسیټونو سپړنه  <icon></icon>
 
 ## Get involved section
 
@@ -170,9 +179,12 @@ validate-readings-link = لوستل تایید کړئ
 contribute-link = د متن په ټولګه کې ونډه واخلئ
 answer-questions-link = پوښتنو ته ځواب ورکړئ
 transcribe-answers-link = ځوابونه ولیکئ
+review-transcriptions-link = د لیکل شويو متنونو بیاکتنه وکړئ
 contribute-text-link = متن شریک کړئ
 press-and-stories-link = مطبوعات او کیسې
 
 ## Partner section
 
 partner-section-title = زموږ سره ملګرتیا وکړئ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>د ټېکنالوژۍ شرکتونه</bold> – د پرانیستو ډاټاسېټونو په جوړولو کې پانګونه وکړئ تر څو د څوژبني مصنوعي ځیرکتیا یو بريالی ایکوسیستم رامنځته شي
