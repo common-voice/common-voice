@@ -188,3 +188,11 @@ press-and-stories-link = مطبوعات او کیسې
 partner-section-title = زموږ سره ملګرتیا وکړئ
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>د ټېکنالوژۍ شرکتونه</bold> – د پرانیستو ډاټاسېټونو په جوړولو کې پانګونه وکړئ تر څو د څوژبني مصنوعي ځیرکتیا یو بريالی ایکوسیستم رامنځته شي
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>مدني ټولنې او څېړونکي</bold> – اغېزمن ډاټاسېټونه وړیا جوړ کړئ، کوربه یې کړئ، او شریک یې کړئ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>خیریه کارونه</bold> – د ډاټاسېټونو جوړولو ملاتړ وکړئ تر څو سیمه‌ییز نوښت او پراختیا پیاوړې شي
+# icon is an arrow that points to the right
+get-in-touch-button = اړیکه ونیسئ <icon></icon>
+# Partners section
+our-partners-include = زموږ شريکان پکې شامل دي…
