@@ -20,3 +20,4 @@ male_masculine = نر/نارینه
 female_feminine = ښځه/ښځینه
 intersex = نرښځی
 transgender = نرښځی
+non-binary = غیر بائنری
