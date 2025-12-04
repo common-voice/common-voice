@@ -141,6 +141,7 @@ about-playbook-how-access-dataset-content-2 = که تاسو د ASR موډلون�
 about-playbook-how-project-governance = د پروژې پریکړې څنګه کیږي؟
 about-playbook-how-project-governance-content-1 = د موزیلا کامن غږ د نړۍ له ګوټ ګوټ څخه د فعالینو، ژبپوهانو، ډیټا ساینس پوهانو، اکادمیکانو او سافټویر انجینرانو د متنوع ټولنې لخوا ممکنه شوی. دا پروژه د موزیلا فاونډیشن لخوا اداره کیږي.
 about-playbook-how-project-governance-content-2 = زموږ حکومتوالۍ په لاندې ستنو ولاړه ده:
+about-playbook-how-project-governance-content-3 = محرميت، امنیت او روڼتيا
 about-playbook-how-project-governance-content-4 = د ټولنې ګډون او پریکړې کول.
 about-playbook-how-project-governance-content-5 = ارزښت او پېژندنه.
 about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
