@@ -129,6 +129,7 @@ action-items-section-subtitle = هرڅوک کولی شي د متن او وینا
 scripted-card-header = ليکل‌شوې وينا
 scripted-card-content = په خپله ژبه کې غونډلې په لوړ غږ ولولئ او په نړۍ کې د ټولگړي گډون د غږ تر ټولو توپيرلرونکي اومتوگ ټولگه کې ونډه واخلئ.
 spontaneous-card-header = په خپله خوښه وينا
+spontaneous-card-content = د پوښتنو ځواب ورکړئ تر څو د طبیعي او ولسي چاپېریالونو لپاره ډاټاسېټونه جوړ شي. دا د هغو ژبو لپاره خورا مناسب دي چې وینا پکې له لیکلو مخکې راځي.
 language-text-card-header = د ژبې متن
 coming-soon = ژر راځي
 add-text = متن اضافه کړئ
