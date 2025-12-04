@@ -144,6 +144,7 @@ join-discord-community = د ډیسکارډ ټولنې سره یوځای شئ
 join-discord-community-action = په ډیسکارډ کې له موږ سره یوځای شئ
 join-discord-community-content = د ژبې د ټولنې په بحثونو کې ګډون وکړئ، پوښتنې وکړئ، او د راتلونکو پروګرامونو او ویناوو په اړه معلومات ترلاسه کړئ.
 find-us-on-matrix = موږ په میټریکس کې ومومئ
+find-us-on-matrix-content-v2 = ميټرېکس یو پرانیستی، کوچنی پروتوکول دی چې د غیرمتمرکز او ریښتیني‌-وخت اړیکو لپاره کارېږي، او د موزيلا د پرانیستو خبرو اترو غوره پلیټفارم دی. موږ د "common-voice:mozilla.org" خونې کې یو.
 # label for button
 find-us-on-element-action-1 = عنصر
 find-us-on-matrix-action-2 = نور مراجعین

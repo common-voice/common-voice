@@ -347,7 +347,12 @@ code-switching-not-tag-proper-names = <bold>خاص نومونه.</bold> د اش�
 code-switching-not-tag-proper-names-example-1 = خلک: ماریا، جان
 code-switching-not-tag-proper-names-example-2 = ځایونه: لاس انجلس، فلوریډا
 code-switching-not-tag-proper-names-example-3 = برانډونه/سازمانونه: هدف، برګر کنگ
+code-switching-not-tag-mixed-words-example = په هغو مواردو کې چې د کلمې ریښه انګلیسي وي خو وروستاړی یې اسپانوي وي، لکه “parkear” او “printearlo”.
+code-switching-not-tag-interjections = <bold>ندايي اوازونه.</bold> د ندايي اوازونو او ډکوونکو کلیمو (filler words)، که په هره ژبه وي، باید <bold>بې‌ نښې پاتې شي.</bold> بېلګې:
+code-switching-not-tag-interjections-example-1 = "اې"
 code-switching-not-tag-interjections-example-2 = "نه"
+code-switching-not-tag-interjections-example-3 = "ييېې"
+code-switching-not-tag-interjections-example-4 = "اېر"
 
 ## Reporting Content
 
