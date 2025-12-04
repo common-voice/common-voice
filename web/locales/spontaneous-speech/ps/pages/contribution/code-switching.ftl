@@ -17,3 +17,5 @@ cs-question-dataset-name = ډېټاسیټ: { $datasetLanguage }
 ## Validate Page Items
 
 cs-validate-page-instruction = تایید کړئ <validateIcon></validateIcon> کړئ چې دا پوښتنه د لارښوونو سره برابره ده.
+cs-no-questions-continue-skipped = د دې ډېټاسټ لپاره نورې پوښتنې نشته. که تاسو کومې پوښتنې پرې ایښې وي، کولی شئ له پرېښودل شوي منځپانګې سره ادامه ورکړئ، یا د غږ د ټرانسکرېب برخې ته لاړ شئ او وروسته بیا هڅه وکړئ.
+cs-add-vote-error-message = د پوښتنې د رایې ورکولو پر مهال یوه تېروتنه رامنځته شوه.
