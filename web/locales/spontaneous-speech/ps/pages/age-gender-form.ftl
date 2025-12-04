@@ -21,3 +21,4 @@ female_feminine = ښځه/ښځینه
 intersex = نرښځی
 transgender = نرښځی
 non-binary = غیر بائنری
+do_not_wish_to_say = نه غواړم ووایم
