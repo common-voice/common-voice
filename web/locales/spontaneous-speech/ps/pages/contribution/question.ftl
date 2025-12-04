@@ -2,6 +2,7 @@
 
 question-page-instruction = د خلکو د ځواب لپاره <icon></icon>په { $currentLocale } کې يوه پوښتنه ور زياته کړئ.
 add-question-textarea-placeholder = د بېلګې په ډول، "تاسو غواړی چې ټیکنالوژي د څه لپاره وکاروۍ؟"
+add-questions-terms-checkbox = زه تاییدوم چې دا پوښتنه <wikipediaLink> عامه ډومین</wikipediaLink> ده او زه یې د پورته کولو اجازه لرم.
 question-dataset-language = ډېټاسیټ: { $datasetLanguage }
 add-question-too-many-questions-error = له ۲۵ پوښتنو زیات شو. د پوښتنو شمېر کم کړئ او بیا هڅه وکړئ.
 # Guidelines
