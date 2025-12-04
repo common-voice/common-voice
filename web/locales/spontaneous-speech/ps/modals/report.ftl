@@ -1,7 +1,7 @@
 ## Report Modal
 
 report-modal-title = یو راپور وسپارئ
-report-modal-subtitle = تړونی لمېسل
+report-modal-subtitle = له دې منځپانګې سره کومې ستونزې لرئ؟
 offensive_speech = توهينوونکې منځپانگه
 offensive_speech-detail = منځپانگې بې ادبه او د سپکاوي ډکه ژبه لري.
 different_language = بېله ژبه
@@ -12,7 +12,7 @@ personally_identifiable_information-answer-detail = دا منځپانگه د ي�
 report-other-comment =
     .placeholder = څرگندونه
 # Label for textarea in report modal
-other = نورنور
+other = نور
 report-error = د راپور سپارلو پرمهال يوه تېروتنه رامنځته شوه
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = دوام ورکړئ

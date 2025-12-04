@@ -6,7 +6,7 @@ action-click = کلیک
 action-tap = ټپ کړئ
 # Label for language switcher
 platform-language = د پلیټ‌فارم ژبه
-platform-language-tooltip-text = يوازې د ویبسایټ ليک بدلول
+platform-language-tooltip-text = يوازې د وېب پاڼې ليک بدلول
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = په <bold>{ $language }</bold> ډاټاسېټ کې ونډه اخیستل
