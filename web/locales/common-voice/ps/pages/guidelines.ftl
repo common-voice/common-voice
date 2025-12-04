@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = د ونډې لارښوونې
+guidelines-header = ✅ د ونډې اخیستنې لارښوونې
 guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسیټ ته د جملو او آډیو کلیپونو مرسته او اعتبار ورکړئ
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
@@ -180,8 +180,8 @@ transcribe-the-audio-subheader-2-example-3-wrong = <wrong>ناسم</wrong>: دا
 transcribe-the-audio-subheader-2-example-4-correct = <سمه> سمه</سمه>: دوی د تیرې پنجشنبې په ورځ د FBI لخوا ونیول شول
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>ناسم</wrong>: هغوی تېره پنجشنبه د <underline>اېف بي آی</underline> له‌خوا ونیول شول.
 transcribe-the-audio-subheader-3-explanation = لاندې ځانګړي ټګونه باید د ناڅرګندتیاوو، ډکونکو او نورو غیر لفظي منځپانګو ډولونو (په انګلیسي کې) د نښه کولو لپاره وکارول شي.
-tags-table-header-1 = ټګ
-tags-table-header-2 = معنی
+tags-table-header-1 = ټاګ
+tags-table-header-2 = مانا
 tags-laugh = خندا
 tags-disfluency = بې نظمي
 tags-unclear = ناڅرګند
