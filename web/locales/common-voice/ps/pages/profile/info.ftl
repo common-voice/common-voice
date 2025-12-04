@@ -88,3 +88,4 @@ fifties = ۵۰ - ۵۹
 sixties = ۶۰ - ۶۹
 seventies = ۷۰ - ۷۹
 eighties = ۸۰ - ۸۹
+nineties = ۹۰ - ۹۹

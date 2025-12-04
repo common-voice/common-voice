@@ -17,6 +17,7 @@ tag-page-shortcut-toogle-mouse-keyboard = 0
 toogle-mouse-keyboard = پاپ‌اوور ښکاره یا پټ کړئ
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = بېرته راوستل
+tag-page-shortcut-select-all = الف
 select-all = ټول وټاکئ
 # Messages
 tag-success-toast-message = ټګونه په بریالیتوب سره وسپارل شول

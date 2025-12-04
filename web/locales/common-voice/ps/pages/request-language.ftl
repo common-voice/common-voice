@@ -32,6 +32,7 @@ request-language-success-list-3 =
 request-language-error =
     موږ ممکن دا غوښتنه نه وي ترلاسه کړې. مهرباني وکړئ موږ ته مستقیم بریښنالیک وکړئ
     په <emailLink>{ $email }</emailLink> کې او موږ به بیرته تاسو ته ورسیږو!
+request-for-scripted-speech-toggle = د مخکې نه ليکل شوې وينا (سکرېپټ) غوښتنه وکړئ
 request-for-spontaneous-speech-toggle = د خپلسري وینا غوښتنه
 need-help-deciding-platform = د کوم یو غوره کولو په اړه پریکړه کولو کې مرستې ته اړتیا لرئ؟
 # text wrapped in <strong></strong> will be shown as bold
