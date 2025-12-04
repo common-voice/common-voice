@@ -99,6 +99,11 @@ create-api-key-error-toast-message = د API اسنادو په جوړولو کې 
 delete-api-key-error-toast-message = د API اسنادو په ړنګولو کې تېروتنه
 fetching-api-keys-error-toast-message = د API اسنادو په ترلاسه کولو کې تېروتنه
 copy-api-credential-success-toast-message = په بریالیتوب سره کاپي شو
+copy-api-credential-error-toast-message = د کاپي کولو تېروتنه
+delete-api-key-success-toast-message = د API اسناد په بریالیتوب سره ړنګ شول
+add-api-key-name-error = د API اعتبار نوم اضافه کړئ
+max-api-keys-reached = د API اعتبار حد ۱۰ څخه زیات شو
+duplicate-api-key-name-error = د API کیلي نوم تکراري دی
 # Genders
 male_masculine = مذکر/نارینه
 female_feminine = ښځه/ښځینه
