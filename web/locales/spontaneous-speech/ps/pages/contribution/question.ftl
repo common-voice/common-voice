@@ -1,6 +1,7 @@
 ## Question Page
 
-question-page-instruction = د خلکو د ځواب لپاره <icon></icon>په { $currentLocale } کې يوه پوښتنه ورګډه کړئ.
+question-page-instruction = د خلکو د ځواب لپاره <icon></icon>په { $currentLocale } کې يوه پوښتنه ور زياته کړئ.
+add-question-textarea-placeholder = د بېلګې په ډول، "تاسو غواړی چې ټیکنالوژي د څه لپاره وکاروۍ؟"
 question-dataset-language = ډېټاسیټ: { $datasetLanguage }
 add-question-too-many-questions-error = له ۲۵ پوښتنو زیات شو. د پوښتنو شمېر کم کړئ او بیا هڅه وکړئ.
 # Guidelines
