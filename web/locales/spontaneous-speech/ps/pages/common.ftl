@@ -11,7 +11,7 @@ platform-language-tooltip-text = يوازې د ویبسایټ ليک بدلول
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = په <bold>{ $language }</bold> ډاټاسېټ کې ونډه اخیستل
 contribution-picker-tooltip-text = د ژبې د معلوماتو هغه ټولګه بدلوي چې تاسو پکې برخه اخلئ.
-coming-soon = نورې ژبې به ژر راځي
+coming-soon = نورې ژبې ډېر ژر راتلونکې دي
 media-recorder-api-not-supported = ستاسو براوزر د MediaRecorder API نه شي چلولی.
 # Toast message that is displayed when an item is skipped
 skipped = پرېښودل شوی
@@ -35,14 +35,14 @@ respond-to-prompt-mobile = ځواب
 transcribe = غږ په ليک بدلول
 check-transcriptions = بیاکتنه
 check-transcriptions-mobile = بیاکتنه
-tag = ټګ
+tag = ټاګ
 
 ## Not Found Page
 
 not-found-page-header = ونه موندل شو
 not-found-page-content = هغه پاڼه چې تاسو یې لټوئ ونه موندل شوه
 # Privacy and Terms checkbox
-accept-privacy-and-terms = زه د عام غږ د<termsLink> شرائط</termsLink> او <privacyLink>د محرمیت خبرتیا</privacyLink> سره موافق یم
+accept-privacy-and-terms = زه د کامن وايس د<termsLink> شرایطو </termsLink> او <privacyLink>د محرمیت خبرتیا</privacyLink> سره موافق یم
 # Locales (not yet fully resolved in Pontoon)
 meh = سويلي لوېديځ ټلکیاکو مکسټيک
 mel = مرکزي میلانو

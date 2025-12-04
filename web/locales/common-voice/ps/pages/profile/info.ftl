@@ -79,3 +79,12 @@ transgender = ټرانسجنډر
 non-binary = غیر بائنری
 do_not_wish_to_say = نه غواړم ووایم
 other = نور
+# Age Values
+teens = < ۱۹
+twenties = ۱۹ - ۲۹
+thirties = ۳۰ - ۳۹
+fourties = ۴۰ - ۴۹
+fifties = ۵۰ - ۵۹
+sixties = ۶۰ - ۶۹
+seventies = ۷۰ - ۷۹
+eighties = ۸۰ - ۸۹
