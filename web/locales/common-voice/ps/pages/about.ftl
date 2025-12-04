@@ -1,10 +1,10 @@
 ## ABOUT US
 
-about-title = ولې عام غږ
+about-title = ولې کامن وايس؟
 about-header-description-v2 =
     <p>مشترک غږ په عامه توګه موجود غږیز ډیټاسیټ دی، چې په ټوله نړۍ کې د رضاکارو مرسته کونکو غږونو لخوا ځواکمن کیږي. هغه خلک چې غواړي غږیز اپلیکیشنونه جوړ کړي د ماشین زده کړې موډلونو روزلو لپاره ډیټاسیټ کاروي.</p>
     <p>اوس مهال، ډیری غږیز ډیټاسیټونه د شرکتونو ملکیت دی، کوم چې د نوښت مخه نیسي. د غږ ډیټا سیټونه هم لږ استازیتوب کوي: غیر انګلیسي ویونکي، رنګ لرونکي خلک، معیوبین، ښځې او د LGBTQIA+ خلک. دا پدې مانا ده چې د غږ فعاله ټیکنالوژي د ډیری ژبو لپاره کار نه کوي، او چیرې چې دا کار کوي، دا ممکن د هرچا لپاره مساوي ښه کار ونکړي. موږ غواړو چې په هر ځای کې د خلکو په راټولولو سره دا بدل کړو چې د دوی غږ شریک کړي.</p>
-how-does-it-work-title-v2 = عام غږ څنګه کار کوي؟
+how-does-it-work-title-v2 = کامن وايس څنګه کار کوي؟
 how-does-it-work-text = موږ د غږونو آزادې سرچینې ډېټاسیټ په اشر جوړ وو. خپل غږ ډالۍ کړئ، د نورو خلکو کلیپونو دقت سم کړئ، ډېټاسیټ د هرچا لپاره ښه کړئ.
 
 ## How does it work section
@@ -13,10 +13,10 @@ about-language-req-subtitle = یو څوک د يوې ژبې د اضافه کول�
 about-localization-title = د ویب سایټ سیمه ایز کول
 about-localization-subtitle = د ویب سایټ متن په دې ژبه ژباړل شوی.
 about-sentence-collection-title = د جملې ټولګه
-about-sentence-collection-subtitle = جملې د خلکو لپاره راټول شوي ترڅو په لوړ غږ ولوستل شي.
+about-sentence-collection-subtitle = جملې د خلکو لپاره راټولې شوي دي، ترڅو په لوړ غږ ولوستل شي.
 about-new-lang-title = د نوې ژبې پیل
 about-new-lang-subtitle = موږ په دې ژبه کې د عام غږ سایټ پیل کوو.
-about-voice-contrib-title = د غږ مرسته
+about-voice-contrib-title = غږيزه ونډه
 about-voice-contrib-subtitle = خلک راځي او خپل غږونه شریکوي.
 about-voice-validation-title = د غږ تایید
 about-voice-validation-subtitle = نور خلک هغه غږیز کلیپونه تاییدوي.
@@ -45,7 +45,7 @@ about-get-involved-text-2 =
     ډېرښه! د برېښنالیک یا <discourseLink> بحث </discourseLink> فورمونو له لارې اړیکه ونیسئ، د <githubLink>GitHub</githubLink> له لارې د سایټ ستونزې وسپارئ، یا د
     <matrixLink> میټریکس </matrixLink> د ټولنې چټ غړیتوب ترلاسه کړئ.
 about-stay-in-touch = زه څنګه په اړيکه کې پاتې شم؟
-about-stay-in-touch-button = ګډون کول
+about-stay-in-touch-button = نوی حساب جوړول
 about-stay-in-touch-text-1 = زموږ د بریښنالیک لیست <emailFragment>لپاره نوم لیکنه وکړئ</emailFragment> د دې زده کولو لپاره چې تاسو څنګه ګډون کولی شئ  په عام غږ کې په کمپاینونو، پیښو او ګډ ډیزاین ځانګړتیاو کې.
 about-stay-in-touch-text-2 = تاسو کولی شئ د موزیلا ژبو ټولنو کې د موضوعي خبرو اترو لپاره د <discourseLink>Discourse</discourseLink> سره یوځای کیدو سره، یا د چټک مشورې لپاره <matrixLink>Matrix</matrixLink> سره لیدنه وکړئ.
 about-nav-why-common-voice = ولې؟
@@ -141,7 +141,6 @@ about-playbook-how-access-dataset-content-2 = که تاسو د ASR موډلون�
 about-playbook-how-project-governance = د پروژې پریکړې څنګه کیږي؟
 about-playbook-how-project-governance-content-1 = د موزیلا کامن غږ د نړۍ له ګوټ ګوټ څخه د فعالینو، ژبپوهانو، ډیټا ساینس پوهانو، اکادمیکانو او سافټویر انجینرانو د متنوع ټولنې لخوا ممکنه شوی. دا پروژه د موزیلا فاونډیشن لخوا اداره کیږي.
 about-playbook-how-project-governance-content-2 = زموږ حکومتوالۍ په لاندې ستنو ولاړه ده:
-about-playbook-how-project-governance-content-3 = پټنتيا، امنیت او روڼتيا
 about-playbook-how-project-governance-content-4 = د ټولنې ګډون او پریکړې کول.
 about-playbook-how-project-governance-content-5 = ارزښت او پېژندنه.
 about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
