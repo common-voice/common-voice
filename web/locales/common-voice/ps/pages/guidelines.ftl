@@ -332,4 +332,19 @@ code-switching-single-token-explanation = یو واحد ټوکن چې د تشې 
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = د نږدې ژبې پر بنسټ د ټګ ليکنښې
 code-switching-punctuation-tagging-explanation = د کیڼ اړخ ته نږدې ژبې په کارولو سره د ليکنښو ټاګ کول. بېلګې:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>او هغه یو ځل چې</purple> ماریا <purple>پر ما چیغه ووهله دا ځکه و</purple> <blue>porque</blue> <purple>هغې هڅه کوله چې</purple> printear <blue>un</blue> <purple>سفارش ثبت کړي.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>خو</purple> <blue>ته کولی شې هغه په سور، تور او شین واخلې</blue>، <purple>هر څه چې وي.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = له يو بل سره ورته  کليمو سره محتاط اوسئ
+code-switching-lookalikes-explanation = ځینې کلمې ممکن د یوې ژبې په څیر ښکاري مګر په بله ژبه کې کارول کیږي. ټاګ کول د مانا او کارونې پر بنسټ وکړئ، نه د ظاهري بڼې له مخې. بېلګې:
+code-switching-lookalikes-explanation-example-1 = «Footing» چې په هسپانوي کې د منډې وهلو په معنا کارېږي > د هسپانوي په توګه یې ټاګ کړئ.
+code-switching-lookalikes-explanation-example-2 = «No problemo» چې په انګلیسي کې کارول کېږي > د انګلیسي په توګه یې ټاګ کړئ.
+# When Not to Tag Words
+code-switching-not-tag-header = کله بايد کلمې ټاګ نه کړو
+code-switching-not-tag-explanation = ځینې کلمې باید <bold>د ژبې په لېبل ټاګ نه شي</bold>، حتا که ګډې یا بدلې شوې هم ښکاري. دلته د ځینو بېلګو د سم چلند څرنګوالی دی:
+code-switching-not-tag-proper-names = <bold>خاص نومونه.</bold> د اشخاصو، ځایونو او بنسټونو نومونه باید ټاګ نه شي. بېلګې:
+code-switching-not-tag-proper-names-example-1 = خلک: ماریا، جان
+code-switching-not-tag-proper-names-example-2 = ځایونه: لاس انجلس، فلوریډا
+code-switching-not-tag-proper-names-example-3 = برانډونه/سازمانونه: هدف، برګر کنگ
 code-switching-not-tag-interjections-example-2 = "نه"
