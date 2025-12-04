@@ -156,6 +156,11 @@ contribute-github-action = په ګیټ هب کې ونډه واخلئ
 # icon is an arrow that points downwards
 download-press-pack = زموږ د پریس پیک ډاونلوډ کړئ <icon></icon>
 
+## Developers section
+
+developers-section-title = په ۱۳۰+ ژبو کې د عامه لاسرسي وړ خلاصې وینا ډیټاسیټونه
+developers-section-subtitle = د ASR، STT، TTS، او نورو NLP شرایطو لپاره ډیټاسیټونه - د ټولنې د ګډون له لارې رامینځته شوي.
+
 ## Get involved section
 
 get-involved-section-title = د خلاصو، ټولنې په مشرۍ ډیټاسیټونو ملاتړ وکړئ
