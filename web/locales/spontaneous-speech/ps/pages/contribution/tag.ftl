@@ -20,7 +20,7 @@ undo = بېرته راوستل
 tag-page-shortcut-select-all = الف
 select-all = ټول وټاکئ
 # Messages
-tag-success-toast-message = ټګونه په بریالیتوب سره وسپارل شول
+tag-success-toast-message = ټاګونه په بریالیتوب سره وسپارل شول
 tag-error-toast-message = د ټګونو په سپارلو کې تېروتنه
 tag-empty-submit-error = د سپارلو لپاره هیڅ متن نشته. مهرباني وکړئ لومړی یو څه متن ټګ کړئ.
 # Code switching Guidelines
