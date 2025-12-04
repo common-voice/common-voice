@@ -1,6 +1,5 @@
 ## Contact Modal
 
-contact-title = Аимадара аформа
 contact-form-name =
     .label = Ахьӡ
 contact-form-message =
