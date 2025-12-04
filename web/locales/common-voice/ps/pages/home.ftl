@@ -153,6 +153,7 @@ ask-mozilla-share-content = ایا کوم تېر شوی یا راتلونکی پ
 # label for button
 ask-mozilla-share-action = خپل پروګرام/ايونټ شریک کړئ
 download-contribution-certificate = خپل د ونډې سند ډاونلوډ کړئ
+download-contribution-certificate-content = د خپلو غونډو یا د خپل ځان لپاره سند ښکته کړئ که تاسو د کامن وايس  له پروژې سره همکاري کړې وي — دا ستاسو د ملاتړ پرته ناشوني وو!
 # label for button
 download-contribution-certificate-action = خپل سند ترلاسه کړئ
 contribute-github = په ګیټ هب کې ونډه واخلئ
