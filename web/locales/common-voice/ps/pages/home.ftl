@@ -53,6 +53,7 @@ x-years-short =
     }
 help-make-dataset = له موږ سره د لوړ کیفیت، عامه آزاد ډېټاسیټ جوړولو کې مرسته وکړئ
 sign-up-account = ګڼون لپاره نوملیکنه وکړئ
+email-subscription-title-v3 = د کامن وائس او موزیلا فاونډیشن تازه معلوماتو لپاره لاسلیک وکړئ
 
 ## Account Benefits
 
@@ -90,6 +91,7 @@ review-questions = د پوښتنو بیاکتنه
 transcribe-audio = آډیو نقل کړئ <small>(ډیر ژر راځي)</small>
 press-and-stories = مطبوعات او کیسې
 community-and-languages = ټولنه او ژبې
+coming-soon = ژر راځي
 about-us = زموږ په اړه
 scripted-speech = لیکل شوې وینا
 spontaneous-speech = په خپله خوښه وینا
@@ -104,6 +106,7 @@ community-and-languages-menu-item-tooltip = زموږ ټولنې سره وصل ش
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = د ملګرتیا، مطبوعاتو او کیسو، ټولنې او ژبو ته د لاسرسي لپاره مینو
 about-us-menu-aria-label = د اختیارونو مینو په اړه
 about-us-menu-item-aria-label = د اختیارونو مینو په اړه
 partnerships-menu-item-aria-label = د ګډ غږ سره د شراکت په اړه زده کړه
@@ -126,3 +129,44 @@ action-items-section-subtitle = هرڅوک کولی شي د متن او وینا
 scripted-card-header = ليکل‌شوې وينا
 scripted-card-content = په خپله ژبه کې غونډلې په لوړ غږ ولولئ او په نړۍ کې د ټولگړي گډون د غږ تر ټولو توپيرلرونکي اومتوگ ټولگه کې ونډه واخلئ.
 spontaneous-card-header = په خپله خوښه وينا
+language-text-card-header = د ژبې متن
+coming-soon = ژر راځي
+add-text = متن اضافه کړئ
+answer = ځواب
+
+## Community section
+
+join-discord-community = د ډیسکارډ ټولنې سره یوځای شئ
+# label for button
+join-discord-community-action = په ډیسکارډ کې له موږ سره یوځای شئ
+find-us-on-matrix = موږ په میټریکس کې ومومئ
+# label for button
+find-us-on-element-action-1 = عنصر
+ask-mozilla-share = له موزیلا څخه وغواړئ چې خپلې پیښې شریکې کړي
+download-contribution-certificate = خپل د ونډې سند ډاونلوډ کړئ
+# label for button
+download-contribution-certificate-action = خپل سند ترلاسه کړئ
+contribute-github = په ګیټ هب کې ونډه واخلئ
+contribute-github-content = دا پروژه به ستاسو په څېر خلکو پرته ممکنه نه وي. 🎉 د کامن وائس سره د ښکیلتیا لپاره ډیری لارې شتون لري - تاسو اړتیا نلرئ چې د ونډې اخیستلو لپاره کوډ وکړئ!
+# label for button
+contribute-github-action = په ګیټ هب کې ونډه واخلئ
+
+## Featured section
+
+# icon is an arrow that points downwards
+download-press-pack = زموږ د پریس پیک ډاونلوډ کړئ <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = د خلاصو، ټولنې په مشرۍ ډیټاسیټونو ملاتړ وکړئ
+read-sentences-link = جملې ولولئ
+validate-readings-link = لوستل تایید کړئ
+contribute-link = د متن په ټولګه کې ونډه واخلئ
+answer-questions-link = پوښتنو ته ځواب ورکړئ
+transcribe-answers-link = ځوابونه ولیکئ
+contribute-text-link = متن شریک کړئ
+press-and-stories-link = مطبوعات او کیسې
+
+## Partner section
+
+partner-section-title = زموږ سره ملګرتیا وکړئ

@@ -348,3 +348,7 @@ code-switching-not-tag-proper-names-example-1 = خلک: ماریا، جان
 code-switching-not-tag-proper-names-example-2 = ځایونه: لاس انجلس، فلوریډا
 code-switching-not-tag-proper-names-example-3 = برانډونه/سازمانونه: هدف، برګر کنگ
 code-switching-not-tag-interjections-example-2 = "نه"
+
+## Reporting Content
+
+reporting-content-subheader = عمومي لارښوونه
