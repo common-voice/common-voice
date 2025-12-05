@@ -139,9 +139,9 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } из 1 предложения собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
-        [few] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
-       *[many] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
+        [one] { $uploadedSentences } из 1 предложения собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы скачать отклонённые предложения.
+        [few] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы скачать отклонённые предложения.
+       *[many] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы скачать отклонённые предложения.
     }
 small-batch-sentences-rule-1 = Следуйте инструкциям из раздела «Какие предложения я могу добавить?»
 small-batch-sentences-rule-2 = Добавлять по одному предложению на строку

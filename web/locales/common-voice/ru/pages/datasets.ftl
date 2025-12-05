@@ -12,14 +12,14 @@ datasets-positioning =
 datasets-headline-mdc = Наборы данных Mozilla Common Voice теперь доступны эксклюзивно на Mozilla Data Collective.
 # New/upcoming datasets page headline text
 datasets-positioning-mdc =
-    Начиная с Common Voice 23.0, все наборы данных Common Voice доступны для загрузки эксклюзивно через Mozilla Data Collective!
+    Начиная с Common Voice 23.0, все наборы данных Common Voice доступны для скачивания эксклюзивно через Mozilla Data Collective!
     
     Эта страница является архивом прошлых версий наборов данных Mozilla Common Voice. Выпуски архивов следует использовать только в специфичных исследовательских сценариях, а не в целях обучения, чтобы уважать пожелания тех, кто попросил, чтобы их вклад был исключён.
 datasets-speech-bubble-content = Отличные новости! Скоро появится Spontaneous Speech! Следите за обновлениями и обязательно загляните на наш <discordLink>Discord</discordLink> для получения последних новостей.
 language = Язык
-download-dataset-header = Загрузить набор данных
+download-dataset-header = Скачать набор данных
 download-delta-explainer = Мы внесли некоторые изменения. Дельта-сегменты содержат самые последние клипы с момента последнего выпуска. <deltaLink>Подробнее об этой работе</deltaLink>.
-download-dataset-tag = Выберите нужный набор языковых данных и выберите версию, которую хотите загрузить.
+download-dataset-tag = Выберите нужный набор языковых данных и выберите версию, которую хотите скачать.
 # File size in gigabytes
 size = Размер
 validated-hr-total = Всего часов проверено
@@ -29,15 +29,15 @@ audio-format = Аудиоформат
 dataset-splits = Разделение (возраст и пол)
 number-of-voices = Количество голосов
 splits = Разделение
-email-to-download = Введите адрес электронной почты для загрузки
+email-to-download = Введите адрес электронной почты для скачивания
 why-email = <b>Зачем нужен ваш адрес?</b> В будущем нам может понадобиться связаться с вами по поводу изменений в наборе данных, и электронная почта позволит нам сделать это.
 why-donate-datasets-page = Mozilla Common Voice — это самый разнообразный в мире открытый краудсорсинговый набор голосовых данных, и мы существуем полностью за счёт пожертвований. Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год. Если вы цените открытые, инклюзивные данные - <b>сделайте пожертвование сегодня!</b>
-confirm-size = Вы собираетесь совершить загрузку <b>{ $size }</b>
+confirm-size = Вы собираетесь совершить скачивание <b>{ $size }</b>
 size-gigabyte = ГБ
 size-megabyte = МБ
 confirm-no-identify = <b>Вы соглашаетесь</b> не пытаться определять личность дикторов в наборе данных Common Voice
 confirm-join-mailing-list = Я хочу присоединиться к списку рассылки Common Voice
-download-language = Загрузить { $language }
+download-language = Скачать: { $language }
 validated-hours = Часов проверено
 recorded-hours = Часов записано
 whats-inside = Что находится внутри набора данных Common Voice?
@@ -61,7 +61,7 @@ data-other-librispeech-description = LibriSpeech представляет соб
 data-other-ted-name = Собрание TED-LIUM
 data-other-ted-description = Собрание TED-LIUM было создано из аудио переговоров и их транскрипций, доступных на сайте TED.
 data-other-voxforge-description = VoxForge был создан для сбора транскрибированной речи для использования со свободными и открытыми механизмами распознавания речи.
-data-other-tatoeba-description = Tatoeba — это большая база данных предложений, переводов и разговорного аудио для использования в изучении языка. Эта загрузка содержит разговорный английский язык, записанный их сообществом.
+data-other-tatoeba-description = Tatoeba — это большая база данных предложений, переводов и разговорного аудио для использования в изучении языка. Это скачивание содержит разговорный английский язык, записанный их сообществом.
 your-feedback = Есть идеи, как улучшить Common Voice? Расскажите нам на форуме Discourse
 go-discourse = Перейти на Discourse
 missing-language = Вашего языка нет в наборе? Запросите его на странице Языки.
@@ -69,7 +69,7 @@ go-languages-page = Перейти на страницу Языки
 ready-to-validate = Готовы помочь с проверкой предложений?
 more = Ещё
 close = Закрыть
-download = Загрузить
+download = Скачать
 dataset-version = Версия
 sha256-checksum-copied = Контрольная сумма SHA256 скопирована!
 sha256-checksum-copied-error = Не удалось скопировать контрольную сумму SHA256.
@@ -78,25 +78,25 @@ no-information-available = Нет доступной информации
 dataset-metadata-sex = Пол
 # dataset metadata - age of contributor
 dataset-metadata-age = Возраст
-donate-modal-message = Ваш набор данных загружается!
+donate-modal-message = Ваш набор данных скачивается!
 dataset-donate-modal-heading = Знаете ли вы, что…
 donate-modal-explanation-1 = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Если вы цените открытые, инклюзивные данные - пожертвуйте сегодня!</bold>
-data-download-singleword-title = Загрузите целевой сегмент «Одно слово»
+data-download-singleword-title = Скачать целевой сегмент «Одно слово»
 data-download-singleword-callout-v2 = Этот сегмент нацелен на определённые случаи использования, содержит данные для улучшения распознавания цифр и «да»/«нет».
-data-download-button = Загрузить данные Common Voice
+data-download-button = Скачать данные Common Voice
 data-download-yes = Да
 data-download-deny = Нет
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
-data-download-modal = Вы собираетесь совершить загрузку <size>{ $size } ГБ</size>, продолжить?
+data-download-modal = Вы собираетесь совершить скачивание <size>{ $size } ГБ</size>, продолжить?
 data-subtitle = Мы создаём открытый и общедоступный набор голосовых данных, чтобы любой человек мог использовать его для обучения программ с распознаванием речи.
 data-explanatory-text = Мы верим, что большой общедоступный набор голосовых данных стимулирует инновации и нормальную коммерческую конкуренцию в машинно-обучаемой технологии распознавания голоса. Это глобальная инициатива, и мы приглашаем всех принять участие. Наша цель - помочь голосовым технологиям быть более всесторонними и распознавать разнообразные голоса со всего мира.
 data-get-started = <speechBlogLink>Начать работу с распознаванием речи</speechBlogLink>
 data-other-title = Другие голосовые наборы данных...
 data-other-goto = Перейти на { $name }
-data-other-download = Загрузить данные
-data-bundle-button = Загрузить пакет наборов данных
+data-other-download = Скачать данные
+data-bundle-button = Скачать пакет наборов данных
 data-bundle-description = Данные Common Voice плюс данные всех голосовых наборов данных ниже.
 release-version = Версия
 dataset-date = Дата
@@ -106,8 +106,8 @@ license-mixed = Смешанная
 male = Мужской
 female = Женский
 # MENU ITEM TOOLTIPS
-download-contribute-menu-tooltip = Загрузите наши наборы голосовых данных
+download-contribute-menu-tooltip = Скачайте наши наборы голосовых данных
 # MENU ITEM ARIA LABELS
-download-contribute-menu-aria-label = Параметры загрузки для доступа к данным Common Voice
+download-contribute-menu-aria-label = Параметры скачивания для доступа к данным Common Voice
 datasets-show-more = Показать все наборы данных
 datasets-show-less = Показать последние наборы данных
