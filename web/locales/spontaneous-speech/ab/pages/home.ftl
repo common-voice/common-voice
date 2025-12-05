@@ -21,6 +21,7 @@ respond-bubble-subtitle = Шәара уи ақәҿышәҭуеит иаҳа иԥ
 transcribe-bubble-title = <mark>Атранскрипциа азура</mark>
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Агәаҭара</mark>
+check-bubble-subtitle = Шәара игәашәҭоит атранскрипциа аудио иақәшәо-иақәымшәо
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Адыррақәа</mark>
 data-bubble-subtitle = Ҳара аамҭа-аамҭала адыррақәа реизга ҭҳажьуеит
