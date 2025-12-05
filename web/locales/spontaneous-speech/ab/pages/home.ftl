@@ -4,6 +4,8 @@ welcome-to-spontaneous-speech = Бзиала шәаабеит Spontaneous Speech
 # <br></br> represents a newline break
 wall-of-text = Common Voice аус анаруеит испонтантәу, ирмаӡам ажәаҳәа аизгара иадҳәалоу аҩбатәи аплатформа. Ари аилазаарақәа иаҳа ирласны адыррақәа реизгараҿы ацхыраара рнаҭоит, иара убас адыррақәа разҟазацәеи аус адулаҩцәеи рзы ихәарҭахоит.
 why-spontaneous-speech = Изаԥаҳҵеи Spontaneous Speech ари апрототип
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = Хәарҭара алоуп <mark> иорганикатәу ажәаҳәатә контексти</mark> ахархәара асценариақәеи рзы(ҿырԥштәыс иаагозар, ажәаҳәа аилкаара аҭаҩрада ианцәажәо, иара убас ацәажәаратә жәаҳәаҿы аус ауларц анышәҭаху)
 how-spontaneous-speech-works = Аус шԥауеи Spontaneous Speech
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Азҵаатәхәы</mark>
