@@ -14,3 +14,6 @@ check-bubble-title = <mark>Агәаҭара</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Адыррақәа</mark>
 data-bubble-subtitle = Ҳара аамҭа-аамҭала адыррақәа реизга ҭҳажьуеит
+signup-input-placeholder = Шәелектронтә ԥошьҭа ҭажәгал
+signup-button-value = Селектронтә ԥошьҭахь азхьарԥш анашьҭра
+footer-text-cookies = <cookiesLink>Акукқәа<cookiesLink>
