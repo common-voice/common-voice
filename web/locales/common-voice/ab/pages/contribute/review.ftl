@@ -61,3 +61,5 @@ review-error-rate-limit-exceeded = Уара мыцхәы уццакуеит. А�
 sc-redirect-page-title = Аиҭакра дуқәа ҳамоуп
 sc-redirect-page-subtitle-1 = Ауалҳәаҩы Common Voice аплатформа хада ахь диасуеит. Уажәшьҭа шәара ишәылшоит <writeURL>шәҩырц</writeURL> жәаҳәа мамзаргьы <reviewURL>ахәаԥш</reviewURL> жәаҳәарак Азеиԥш бжьы аҟны.
 sc-redirect-page-subtitle-2 = Азҵаарақәа ҳаҭ <matrixLink>Матрица</matrixLink>, <discourseLink>Дискурс</discourseLink>мамзаргьы <emailLink>email</emailLink> ала.
+# menu item
+review-sentences = Аҳәоуқәа ргәаҭара

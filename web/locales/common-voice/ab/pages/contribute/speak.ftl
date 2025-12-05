@@ -60,3 +60,5 @@ already-have-an-account = Аконт шәымоума? <login>Аҭалара</lo
 create-profile-button = Апрофиль аԥҵара
 # IMAGE TAGS
 img-alt-success-checkmark = ақәҿиара аҵәаӷәа
+# menu item
+read-sentences = Аҳәоуқәа рыԥхьара
