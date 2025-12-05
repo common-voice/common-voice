@@ -145,8 +145,8 @@ ask-mozilla-share = Попросите Mozilla поделиться вашими
 ask-mozilla-share-content = У вас есть предыдущая или предстоящая встреча? Поделитесь с нами и мы сообщим об этом нашему сообществу или напишите об этом в блоге!
 # label for button
 ask-mozilla-share-action = Поделитесь своей встречей
-download-contribution-certificate = Загрузить ваш сертификат участия
-download-contribution-certificate-content = Загрузите сертификат для ваших мероприятий или для себя, если вы внесли вклад в Common Voice — без вас это было бы невозможно!
+download-contribution-certificate = Скачать ваш сертификат участия
+download-contribution-certificate-content = Скачайте сертификат для ваших мероприятий или для себя, если вы внесли вклад в Common Voice — без вас это было бы невозможно!
 # label for button
 download-contribution-certificate-action = Получите ваш сертификат
 contribute-github = Внести вклад на GitHub
@@ -158,7 +158,7 @@ contribute-github-action = Внести вклад на GitHub
 
 featured-section-title = Рекомендуемые...
 # icon is an arrow that points downwards
-download-press-pack = Загрузите наш пресс-пакет <icon></icon>
+download-press-pack = Скачайте наш пресс-пакет <icon></icon>
 
 ## Developers section
 
