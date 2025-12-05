@@ -8,6 +8,8 @@ why-spontaneous-speech = Изаԥаҳҵеи Spontaneous Speech ари апрот
 why-card-1-text = Хәарҭара алоуп <mark> иорганикатәу ажәаҳәатә контексти</mark> ахархәара асценариақәеи рзы(ҿырԥштәыс иаагозар, ажәаҳәа аилкаара аҭаҩрада ианцәажәо, иара убас ацәажәаратә жәаҳәаҿы аус ауларц анышәҭаху)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Даҽа бызшәак<mark> ахь аиасреи акодқәа </mark> риагареи реиԥш иҟоу абызшәатә реалрақәа рзы еиӷьны иҟаҵоу адгылара
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Зтексттә массивра</mark> маҷу, ма <mark> зынӡа измам абызшәақәа рзы еиӷьны иҟаҵоу адгылара (ҿырԥштәыс иаагозар, асоциолектқәа, авариантқәа, ҭоурыхла аҩыра змамыз абызшәақәа уҳәа.)
 how-spontaneous-speech-works = Аус шԥауеи Spontaneous Speech
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Азҵаатәхәы</mark>
