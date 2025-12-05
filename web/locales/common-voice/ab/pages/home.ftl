@@ -70,3 +70,7 @@ help-contribute = Уара иулшоит ацхыраара ҟауҵарц иа
 login-company = Аҭалара/Аҽҭагалара { $company } ԥошьҭала
 profile-not-required = Ахалархәразы ахатә ҷыдахәра амазаара хымԥадатәӡом, уи шхәарҭоугьы.
 read-more-about = Нарҭбааны Иазкны ҳдаҟьаҿы
+
+## NAV ITEMS
+
+press-and-stories = Апрессеи аҭоурыхқәеи
