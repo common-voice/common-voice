@@ -18,4 +18,4 @@ report-error = د راپور سپارلو پرمهال يوه تېروتنه ر�
 continue = دوام ورکړئ
 # Header for report modal after successful reporting
 success = بریا
-report-success-message = راپور په برياليتوب سره تېر شو
+report-success-message = راپور په بریالیتوب سره واستول شو.
