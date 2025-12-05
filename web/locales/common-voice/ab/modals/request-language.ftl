@@ -1,6 +1,6 @@
 ## Request Language Modal
 
-request-language-title = Абызшәазы азҵаатәхәы
+request-language-title = Абызшәа азҵаатәхәы
 request-language-form-language =
     .label = Абызшәа
 request-language-success-title = Абызшәа ацҵаразы аҳәара қәҿиарала инашьҭуп, иҭабуп.
