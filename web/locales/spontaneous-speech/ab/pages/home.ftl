@@ -26,6 +26,10 @@ check-bubble-subtitle = Шәара игәашәҭоит атранскрипци
 data-bubble-title = <mark>Адыррақәа</mark>
 data-bubble-subtitle = Ҳара аамҭа-аамҭала адыррақәа реизга ҭҳажьуеит
 contact-us-title = Ари апроект шәҽалашәырхәырц ма лахәылаҩны шәҟаларц шәҭахума?
+contact-us-email =
+    Аелектронтә ԥошьҭа:
+    <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Common Voice иатәу апроект Spontaneous Speech бета-тест мҩаԥгара иазку ҳгәыԥ шәалоума?
 signup-input-placeholder = Шәелектронтә ԥошьҭа ҭажәгал
 signup-button-value = Селектронтә ԥошьҭахь азхьарԥш анашьҭра
 footer-text-cookies = <cookiesLink>Акукқәа<cookiesLink>
