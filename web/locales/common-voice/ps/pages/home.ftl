@@ -163,6 +163,7 @@ contribute-github-action = په ګیټ هب کې ونډه واخلئ
 
 ## Featured section
 
+featured-section-title = په... کې ښودل شوی
 # icon is an arrow that points downwards
 download-press-pack = زموږ د پریس پیک ډاونلوډ کړئ <icon></icon>
 
