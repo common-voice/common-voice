@@ -30,3 +30,4 @@ cs-tag-do-guideline-3 = له يو بل سره ورته  کليمو سره محت
 cs-tag-do-not-guideline-1 = خاص نومونه، ګډې کلمې، یا ندايي کلمې ټاګ کړئ (نښه کړئ)
 cs-tag-shortcuts-section-title = د کیبورډ کارول
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> د ژبې سره ټګ کړئ
+cs-tag-shortcuts-guideline-5 = { tag-page-shortcut-tag-undo }
