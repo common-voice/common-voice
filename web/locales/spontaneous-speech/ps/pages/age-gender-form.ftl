@@ -2,7 +2,7 @@
 age-gender-form-title = په خپله خوښه وینا کې د ونډې اخیستو لپاره مننه!
 age-gender-form-subtile = د ځان په اړه معلومات ورکولو سره به تاسو پراختیا ورکوونکو سره د لا جامع ټکنالوژۍ په جوړولو کې مرسته وکړئ.
 add-information-button = معلومات اضافه کړئ
-continue-speaking-button = خبرو ته دوام ورکړئ
+continue-speaking-button = خبرو کولو ته دوام ورکړئ
 age-select-label = ستا عمر څومره دی؟
 select-your-age = خپل عمر وټاکئ
 gender-select-label = ستاسو جنسيت څه دی؟
