@@ -3,6 +3,8 @@ guidelines-header = Аҽалархәразы амҩақәҵага
 guidelines-header-subtitle = Иҵа Common Voice адатасет аҿы ажәеинраалақәеи аудиоклипқәеи рылахәхара, рыхәаԥшра.
 voice-collection = Абжьқәа реизга
 sentence-collection = Аҳәоуқәа реизга
+scripted-speech = Асценариатә жәаҳәа
+spontaneous-speech = Аспонтантә жәаҳәа
 
 ## Voice Collection nav ids
 
@@ -103,3 +105,23 @@ reviewing-sentences-explanation-2 = Аҳәара хыхь иаагоу акри�
 reviewing-sentences-explanation-3 = Ажәеинраала агәра ганы уҟамзар, уи узхыԥаны анаҩстәи ажәаҳәахь уиасыр улшоит.
 reviewing-sentences-explanation-4 = Ахәаԥшразы алабжьарақәа нҵәазар, егьырҭ алабжьарақәа реизгараҿы ҳацхраа!
 domain-explanation = Адомен аҳәоу атема иаҵанакуеит. Уажәазы ​​шәара ишәылшоит иалышәхыр:
+
+## Question collection sidebar content
+
+spelling-and-pronunciation = Аорфографиеи апунктуациеи
+spelling-and-pronunciation-explanation = Ииашоу аорфографиеи аграмматикеи  шәхы иашәырхәа.
+length = Аура
+process-steps = Апроцесс / Ашьаҿақәа
+example-questions-subheader = Азҵаарақәа рҿырԥштәқәа
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Азҵаарақәа рҭак аҟаҵара
+
+## Code-Switching
+
+# Answering a Question
+code-switching-answer-subheader = Азҵаара аҭак
+code-switching-not-tag-proper-names-example-1 = Ауаа:  Мариа, Џон
+code-switching-not-tag-interjections-example-2 = «Мап»
