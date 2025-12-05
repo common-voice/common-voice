@@ -30,6 +30,9 @@ contact-us-email =
     Аелектронтә ԥошьҭа:
     <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Common Voice иатәу апроект Spontaneous Speech бета-тест мҩаԥгара иазку ҳгәыԥ шәалоума?
+signup-terms = «Селектронтә ԥошьҭахь азхьарԥш анашьҭра» шәанақәыӷәӷәо, <termsLink> Ахархәаразы ҳаибыҳәареи </termsLink> Ахазхатәы политикеи</privacyLink>, иара убас Common Voice иатәу апроект Spontaneous Speech бета-тест амҩаԥгара ахалархәра шаҭаху атәы зҳәо ашәҟәы анашьҭра Mozilla азин шамоу шәақәшаҳаҭхоит.
 signup-input-placeholder = Шәелектронтә ԥошьҭа ҭажәгал
 signup-button-value = Селектронтә ԥошьҭахь азхьарԥш анашьҭра
+footer-text-privacy = <privacyLink>Ахазхатәра</privacyLink>
+footer-text-terms = <termsLink>Аибыҳәарақәа</termsLink>
 footer-text-cookies = <cookiesLink>Акукқәа<cookiesLink>
