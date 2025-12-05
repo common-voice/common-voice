@@ -51,7 +51,7 @@ about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
 about-nav-partners = Алахәылацәа
 about-nav-get-involved = Аҽалархәра
-about-nav-how-it-works-2 = Аус шԥауеи Азеиԥш бжьы?
+about-nav-how-it-works-2 = Аус шԥауеи Common Voice?
 about-nav-playbook = Еилышәкаа аҽалархәра
 
 ## Community Playbook Content
@@ -73,26 +73,26 @@ about-playbook-how-add-language-translating-content-2 =
     аха шәара шәтәы ыҟамзар, шәара ишәылшоит <pontoonRequestLink>бызшәак ацҵаразы аҳәара</pontoonRequestLink>.
     Анаҩс, абз апроект Common Voice аҟны иҟазарц азы,
     <githubRepoLink>ГитХаб аҟны бызшәа ҿыц азыҳәара</githubRepoLink>. <localizationFragment>Асаит аиҭагара иазкны еиҳаны адыррақәа</localizationFragment>.
-about-playbook-how-add-language-collecting-sentences-heading = Ажәалагалақәа реизгара
+about-playbook-how-add-language-collecting-sentences-heading = Аҳәоуқәа реизгара
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ажәеинраалақәа реизгаҩ</sentenceCollectorVideo> ахархәара иазку ҳҵаратә видео шәахәаԥш.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Уара иулшоит <sentenceCollectorLinkAdd>жәаҳәарақәа рыԥхьаӡа маҷк ацҵара</sentenceCollectorLinkAdd>,
     мамзаргьы анагӡара <bulkImportDocsLink> Github ахархәарала еизакны аимпорт</булкИмпортДоксЛинк>.
     Ишәхашәмыршҭлан, ажәалагалақәа <licenseLink>CC0 (мамзаргьы зегьы рзы)</licenseLink>, мамзаргьы шәара шәхатәы шәҩыр шәылшоит.
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ажәаҳәақәа реизгара иазкны еиҳаны еилышәкаа</sentenceCollectorFragment>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Аҳәоуқәа реизгара иазкны еиҳаны аилкаара</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Аус шԥауеи асаит алокализациа?
-about-playbook-how-localize-content-1 = Азеиԥш бжьы асаит аиҭагара мҩаԥысуеит <strong>Понтон</strong> ала.
+about-playbook-how-localize-content-1 = Асаит Common Voice аиҭагара мҩаԥысуеит <strong>Pontoon</strong> ала.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Ахыԥхьаӡара аԥҵара</pontoonAccountLink> уажәнатә уи шәымамзар. Анаҩс иалышәх <strong>('Team')</strong> абз нас апроект (‘Project‘), <pontoonCvLink>Азеиԥш бжьы</pontoonCvLink> ахь шәца. Иҟалоит еиҭагатәу афаилқәа. Урҭ руак уақәыӷәӷәар, хыхь англыз бызшәала иҟоу аоригинал убоит, ҵаҟа аиҭага ахьҭауҵаша аԥенџьыр.
 about-playbook-how-localize-content-3 = Аиҭага англыз бызшәа аҟынтәи ауп, аха даҽа бызшәақәак рыла иҟоу <strong>аҳәоуқәа</strong> убар улшоит. <strong>Апрофиль</strong> аҵакы ақәыӷәӷәара, анаҩс <strong>Аиқәыршәарақәа</strong> ҳәа ахьӡ змоу аҵаҩра ақәыӷәӷәара, насгьы узыцәажәо абызшәақәа зегьы рыцҵара. Ҵаҟа арыӷьарахьтәи акәакь аҿы иҟалоит <strong>Абызшәақәа</strong> ҳәа хьӡыс измоу аиҭагақәа рсиа. Аиҭагақәа ҽнак ала асаит аҿы иаабоит.
-about-playbook-how-localize-content-4 = Асаит аусура иазхиоуп 75% инареиҳаны еиҭагахазар.
+about-playbook-how-localize-content-4 = Асаит аусура иазхиоуп 75% инареиҳаны еиҭагазар.
 about-playbook-how-localize-content-5 = Ацхыраара азы еилзыркаауа ҳвидео шәахәаԥш
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = Ишԥасылшо алабжьарақәа рыцҵара?
+about-playbook-how-add-sentences = Аҳәоу шԥацысҵо?
 about-playbook-how-add-sentences-content-1 = А<strong>Ажәалагалақәа реизгаҩ</strong> – ари амыруга ауп, зегьы рзы иҟоу ажәалагалақәа реизгара алзыршо. Алахәхаразы, шәара <scAccountLink>ахыԥхьаӡара</scAccountLink> аԥҵара аҭахуп, насгьы шә<strong>Профиль</strong> аҿы абз шәҳәароуп. Абраҟа шәара ишәылшоит<strong>ацҵара</strong> аҳәара ҿыцқәа ма <strong>игәашәҭар</strong> уаанӡа иацҵаз.
 about-playbook-how-add-sentences-content-2 = Апроект Азеиԥш бжьы иацҵахарц азы, урҭ ҩыџьа алахәылацәа рыла ирыхәаԥшны ирыдыркылароуп. <languageGuidelinesLink>Абраҟа</languageGuidelinesLink> шәбызшәазы абжьгарақәа реизга аԥҵара шәылшоит. Ажәаҳәақәа <licenseLink> зегьы рзы</licenseLink> ажәақәа 15 раҵкыс икьаҿзароуп. Иара убасгьы шәара ишәылшоит иарбанзаалак атекст автор шәиҳәар шәылшоит ҳкопиратә зинқәа рыҭара амеханизм ҳхы иархәаны <waiverLink>CC0 алицензиа аҵаҟа алицензиа аиҭаразы,</waiverLink> насгьы е-маилла иаҳзышәышьҭырц: commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Уара иухы иаурхәар улшоит <scraperLink>Ажәаҳәа Аҭгага</scraperLink> Википедиа аҟынтәи ажәаҳәа кьаҿқәа рхархәаразы.
