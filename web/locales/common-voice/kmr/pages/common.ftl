@@ -480,6 +480,8 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Komdaneyên nû yên Common Voiceê</strong> êdî bi tenê bi rêya platforma me ya xweh a bi navê Kolektîfa Daneyên Mozillayê dikare bê daxistin. Beşdar bibe da ku xwe bigihînî zêdetirî +300 komdaneyên cîhanî yên ku ji aliyê civakê ve û ji bo civakê hatine avakirin.
 # Button text for MDC announcement
 announcement-mdc-button-text = Beşdarî Kolektîfa Daneyên Mozillayê bibe
 # Aria text for button which opens MDC on a new page

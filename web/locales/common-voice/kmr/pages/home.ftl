@@ -61,6 +61,7 @@ x-years-short =
     }
 help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
 sign-up-account = Hesabekî veke
+email-subscription-title-v3 = Ji bo venûkirinên Common Voice û Weqfa Mozillayê xwe qeyd bike.
 
 ## Account Benefits
 
@@ -88,3 +89,18 @@ help-contribute = Ji bo avakirina komdaneyeke çavkanî vekirî, tu dikarî bi r
 login-company = Bi emaîla { $company } re têkeve / tomar bibe
 profile-not-required = Ji bo beşdarbûnê hewce nake tu profîlekê çêbikî lê çêkirina hesêb ew ê baştir be.
 read-more-about = Li ser rûpela me ya "Derbar"ê zêdetir bixwîne
+
+## NAV ITEMS
+
+answer-questions = Pirsan bibersivîne
+review-transcriptions = Metnên wergerê binirxîne
+add-questions = Pirsan lê zêde bike
+review-questions = Pirsan binirxîne
+transcribe-audio = Dengan bike nivîs
+press-and-stories = Çapemenî û Nûçe
+community-and-languages = Civak û Ziman
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Hevkarî, Çapemenî û Nûçe, Civak û Ziman
+partnerships-menu-item-tooltip = Rêxistinên ku li sanserê cîhanê piştgiriyê didin Common Voiceê keşf bike
