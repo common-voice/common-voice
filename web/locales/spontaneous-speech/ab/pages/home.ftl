@@ -26,7 +26,8 @@ check-bubble-subtitle = Шәара игәашәҭоит атранскрипци
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Адыррақәа</mark>
 data-bubble-subtitle = Ҳара аамҭа-аамҭала адыррақәа реизга ҭҳажьуеит
-contact-us-title = Ари апроект шәҽалашәырхәырц ма лахәылаҩны шәҟаларц шәҭахума?
+contact-us = Шәыҽҳамажәда
+contact-us-title = Ари апроект шәҽалашәырхәырц ма лахәыланы шәҟаларц шәҭахума?
 contact-us-email =
     Аелектронтә ԥошьҭа:
     <emailFragment>commonvoice@mozilla.com</emailFragment>
