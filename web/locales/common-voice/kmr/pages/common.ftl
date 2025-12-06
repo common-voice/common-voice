@@ -4,6 +4,8 @@
 
 ## Languages
 
+aa = Afarî
+aat = Arvanitikayî
 ab = Abxazî
 ace = Açenêzî
 ady = Adîgeyî
