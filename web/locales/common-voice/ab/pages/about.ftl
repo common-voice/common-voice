@@ -44,7 +44,7 @@ about-get-involved-text-2 =
     Common Voice еиҳа еиӷьхарц азы шәҳацхраар шәҭахума? 
     Ибзиаӡоуп! Шәыҽҳамажәда аелектронтә ԥошьҭала, мамзаргьы <discourseLink>Discourse</discourseLink> ала, асаит иадҳәалоу апроблемақәа рзы адырра ҟашәҵала <githubLink>GitHub</githubLink> ала, мам ауаажәларра ачат шәалал <matrixLink>Matrix</matrixLink> аҿы.
 about-stay-in-touch-button = Аҽҭаҩра
-about-stay-in-touch-text-1 = <emailFragment>Шәҽалашәҵа</emailFragment> ҳбюллетень, акампаниақәа, аусмҩаԥгатәқәа, насгьы Common Voice аҿы акоавтортә ҟазшьақәа шәхы шрылашәырхәыр шәылшо аилкааразы.
+about-stay-in-touch-text-1 = <emailFragment>Шәҽаҵажәҩы</emailFragment>ҳрассылка Common Voice аҿы иаԥырҵо акампаниақәа, аусмҩаԥгатәқәа, афункциақәа шәыҽрылашәырхәарц шшәылшо атәы еилышәкаарц азы.
 about-stay-in-touch-text-2 = Шәара ишәылшоит егьырҭ Мозилла абызшәатә еилазаарақәа рылахәылацәа шәрықәшәар <discourseLink>Дискурс</discourseLink> шәалахәны атемақәа рылацәажәаразы мамзаргьы <matrixLink>Матрица</matrixLink> ирццаку абжьгарақәа рзы.
 about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
