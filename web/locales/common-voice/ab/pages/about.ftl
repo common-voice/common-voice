@@ -40,9 +40,6 @@ about-dataset-new-text = Common Voice адыррақәа реизга шәныз
 about-clip-graveyard = «Аҭаҩымҭақәа рнышәынҭра»
 about-clip-graveyard-text = «Аҭаҩымҭақәа рнышәынҭра» шьақәгылоуп Common Voice абжьытә еизгахь иаламлаз абжьытә ҭаҩымҭақәа рыла. Ихадоу аизга еиԥш, «Аҭаҩымҭақәа рнышәынҭрагьы» аҭыгаразы алшара ыҟоуп.
 about-get-involved = Аҽалархәра
-about-get-involved-text-2 =
-    Азеиԥш бжьы еиҳагьы еиӷьтәраҿы ацхыраара ҟашәҵарц шәҭахума?
-    Идуӡӡоуп! Ҳара иҳацәажәа е-маил ала мамзаргьы <discourseLink>Дискурс</discourseLink> ала, асаит азҵаарақәа рзы адырра ҟашәҵа <githubLink>GitHub</githubLink> ала, мамзаргьы ауаажәларратә чат шәалахәыз <matrixLink>Матрица</matrixLink>.
 about-stay-in-touch = Ишԥасылшо сара шәеицәажәалар?
 about-stay-in-touch-button = Аҽҭаҩра
 about-stay-in-touch-text-1 = <emailFragment>Шәҽалашәҵа</emailFragment> ҳбюллетень, акампаниақәа, аусмҩаԥгатәқәа, насгьы Common Voice аҿы акоавтортә ҟазшьақәа шәхы шрылашәырхәыр шәылшо аилкааразы.
