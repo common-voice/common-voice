@@ -372,6 +372,7 @@ tk = Tirkmenî
 tl = Tagalogî
 tli = Tlingit
 tn = Setswanayî
+tob = Toba Qom
 tok = Tokî Pona
 top = Papantla Totonac
 tr = Tirkî
@@ -469,6 +470,10 @@ delete = Jê bibe
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Pêdiviya me bi</mark><br/><mark>alîkariya te heye!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Vehewandina komdaneyên daneyan û baştirkirina platformê ji bo zêdetirî +100 civakên zimanî yên ku pişta xwe bi karê me girê didin, bi qasî nêzîkî milyonek dolar li ser me rûdinê. <strong>Heke tu qîmet didî daneyên çavkanî vekirî û berfireh, îro bexşê bike!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>CV'yê ji bo</mark><br/><mark>lêkolîna xwe bi kar tînî?</mark>
 localization-select =
     .label = Zimên hilbijêre
 
