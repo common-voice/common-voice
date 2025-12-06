@@ -45,7 +45,7 @@ about-get-involved-text-2 =
     Ибзиаӡоуп! Шәыҽҳамажәда аелектронтә ԥошьҭала, мамзаргьы <discourseLink>Discourse</discourseLink> ала, асаит иадҳәалоу апроблемақәа рзы адырра ҟашәҵала <githubLink>GitHub</githubLink> ала, мам ауаажәларра ачат шәалал <matrixLink>Matrix</matrixLink> аҿы.
 about-stay-in-touch-button = Аҽҭаҩра
 about-stay-in-touch-text-1 = <emailFragment>Шәҽаҵажәҩы</emailFragment>ҳрассылка Common Voice аҿы иаԥырҵо акампаниақәа, аусмҩаԥгатәқәа, афункциақәа шәыҽрылашәырхәарц шшәылшо атәы еилышәкаарц азы.
-about-stay-in-touch-text-2 = Шәара ишәылшоит егьырҭ Мозилла абызшәатә еилазаарақәа рылахәылацәа шәрықәшәар <discourseLink>Дискурс</discourseLink> шәалахәны атемақәа рылацәажәаразы мамзаргьы <matrixLink>Матрица</matrixLink> ирццаку абжьгарақәа рзы.
+about-stay-in-touch-text-2 = Mozilla иатәу абызшәатә еилазаарақәа рлахәылацәеи шәареи шәеибадырыр шәылшоит <discourseLink>Discourse </discourseLink>шәаналало атемақәа рыхцәажәаразы, ма <matrixLink> Matrix </matrixLink> ирласны аҭак аҟаҵаразы.
 about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
 about-nav-partners = Алахәылацәа
