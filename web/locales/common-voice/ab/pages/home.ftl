@@ -74,3 +74,8 @@ read-more-about = Нарҭбааны Иазкны ҳдаҟьаҿы
 ## NAV ITEMS
 
 press-and-stories = Апрессеи аҭоурыхқәеи
+community-and-languages = Аилазаареи абызшәақәеи
+
+## Action items section
+
+action-items-section-title = Common Voice — ари ауаажәларра рнапхгарала адыррақәа раԥҵаразы иаарту алагарҭатә код змоу хәыда-ԥсада иҟоу платформоуп
