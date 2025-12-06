@@ -478,3 +478,11 @@ localization-select =
 announcement-mdc-button-text = Beşdarî Kolektîfa Daneyên Mozillayê bibe
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Di hilpekîna nû de veke
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Ji bo lêgerînê dest bi nivîsînê bike
+searchbox-default-placeholder = Lêgerîn...
+searchbox-default-aria-label = Lê bigere
+dropdown-no-results = Lêhatin nehat dîtin
