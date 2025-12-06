@@ -19,6 +19,7 @@ respond-bubble-title = <mark>Аҭак аҟаҵара</mark>
 respond-bubble-subtitle = Шәара уи ақәҿышәҭуеит иаҳа иԥсабаратәны
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Атранскрипциа азура</mark>
+transcribe-bubble-subtitle = Аудиоклипқәа рҿы ишәаҳауа ауп иҭажәыҩуа
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Агәаҭара</mark>
 check-bubble-subtitle = Шәара игәашәҭоит атранскрипциа аудио иақәшәо-иақәымшәо
