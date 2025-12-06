@@ -474,6 +474,7 @@ donate-banner-cta = <mark>Pêdiviya me bi</mark><br/><mark>alîkariya te heye!</
 donate-banner-cta-explanation = Vehewandina komdaneyên daneyan û baştirkirina platformê ji bo zêdetirî +100 civakên zimanî yên ku pişta xwe bi karê me girê didin, bi qasî nêzîkî milyonek dolar li ser me rûdinê. <strong>Heke tu qîmet didî daneyên çavkanî vekirî û berfireh, îro bexşê bike!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>CV'yê ji bo</mark><br/><mark>lêkolîna xwe bi kar tînî?</mark>
+languages-donate-banner-cta-explanation = Common Voice bi bexş û hîbeyan tê fînansekirin! Em pir dixwazin bi akademîsyen, civaka sivîl û lêkolînerên pîşesaziyê re hevkariyê bikin. Bikaranîna Common Voice belaş e, lêbelê piştgiriya ji bo lêçûnên platformê û vehewandina bi rêya pêşniyarên hîbeyan gelekî dibe alîkar.
 localization-select =
     .label = Zimên hilbijêre
 
