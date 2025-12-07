@@ -68,12 +68,12 @@ about-playbook-how-add-language-content-1 = Зегь раԥхьаӡа иргыл
 about-playbook-how-add-language-translating-heading = Асаит аиҭагара
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon ахархәашьа иазку ҳарҵагатә видео шәахәаԥш.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
-    Аиҭагаразы, ҳара ҳхы иаҳархәоит Мозилла амыруга ахьӡу <pontoonLink>Понтоон</pontoonLink>. Понтон бызшәа рацәаны иамоуп,
-    аха шәара шәтәы ыҟамзар, шәара ишәылшоит <pontoonRequestLink>бызшәак ацҵаразы аҳәара</pontoonRequestLink>.
-    Анаҩс, абз апроект Common Voice аҟны иҟазарц азы,
-    <githubRepoLink>ГитХаб аҟны бызшәа ҿыц азыҳәара</githubRepoLink>. <localizationFragment>Асаит аиҭагара иазкны еиҳаны адыррақәа</localizationFragment>.
+    Аиҭагаразы ҳара ҳхы иаҳархәоит Mozilla амыруга <pontoonLink>Pontoon</pontoonLink> захьӡу. Pontoon абызшәақәа рацәаны иамоуп,
+    аха шәара шәтәы ыҟамзар, шәара ишәылшоит <pontoonRequestLink>абызшәа ацҵаразы аҳәара ҟашәҵарц</pontoonRequestLink>.
+    Анаҩс, апроект Common Voice аҟны абызшәа шәхы иашәырхәалартә иҟазарц азы,
+    <githubRepoLink>GitHub аҟны абызшәа ҿыц азы аҳәара ҟашәҵа </githubRepoLink>. <localizationFragment>Асаитқәа реиҭагара иазкны еиҳа инарҭбааны</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Аҳәоуқәа реизгара
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ажәеинраалақәа реизгаҩ</sentenceCollectorVideo> ахархәара иазку ҳҵаратә видео шәахәаԥш.
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>«Аҳәоуқәа рколлектор»</sentenceCollectorVideo> ахархәашьа иазку ҳҵарҵагатә видео шәахәаԥш.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Уара иулшоит <sentenceCollectorLinkAdd>жәаҳәарақәа рыԥхьаӡа маҷк ацҵара</sentenceCollectorLinkAdd>,
     мамзаргьы анагӡара <bulkImportDocsLink> Github ахархәарала еизакны аимпорт</булкИмпортДоксЛинк>.
