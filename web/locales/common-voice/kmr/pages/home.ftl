@@ -104,3 +104,9 @@ community-and-languages = Civak û Ziman
 
 about-menu-tooltip = Hevkarî, Çapemenî û Nûçe, Civak û Ziman
 partnerships-menu-item-tooltip = Rêxistinên ku li sanserê cîhanê piştgiriyê didin Common Voiceê keşf bike
+press-and-stories-menu-item-tooltip = Çîrok, venûkirin û ragihandina medyayê ya Common Voiceê bixwîne
+community-and-languages-menu-item-tooltip = Bi civaka me re bikeve têkiliyê û zimanên piştgirîkirî bibîne
+
+## MENU ITEM ARIA LABELS
+
+partnerships-menu-item-aria-label = Derbarê hevkariyên bi Common Voice re bizane
