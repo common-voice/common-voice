@@ -75,7 +75,7 @@ about-playbook-how-add-language-translating-content-2 =
 about-playbook-how-add-language-collecting-sentences-heading = Аҳәоуқәа реизгара
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>«Аҳәоуқәа рколлектор»</sentenceCollectorVideo> ахархәашьа иазку ҳҵарҵагатә видео шәахәаԥш.
 about-playbook-how-add-language-collecting-sentences-content-2 =
-    Шәара ишәылшоит <sentenceCollectorLinkAdd>аҳәоуқәа рыԥхьаӡара маҷк ацҵара</sentenceCollectorLinkAdd>,
+    Шәара ишәылшоит <sentenceCollectorLinkAdd>аҳәоуқәа рхыԥхьаӡара маҷк ацҵара</sentenceCollectorLinkAdd>,
     мамзаргьы <bulkImportDocsLink> Github ахархәарала аимпортҟаҵара</булкИмпортДоксЛинк>.
     Ишәхашәмыршҭлан, аҳәоуқәа <licenseLink>CC0 (ма ауаажәларратә мазараны иҟазароуп )</licenseLink>, ма шәара шәхатәы ижәҩыр шәылшоит.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Аҳәоуқәа реизгара иазкны еиҳаны аилкаара</sentenceCollectorFragment>.
@@ -110,7 +110,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Еиҳа инарҭбаау 
 about-playbook-how-grow-language = Ишԥаҳалшо Common Voice аҿы абызшәа еиӷьны арҿиара?
 about-playbook-how-grow-language-content-1 = Еиуеиԥшым ауаа Common Voice рҽаладырхәырц азы алшарақәа раԥҵара ахәдықәҵара ауеит адыррақәа реизга ауаа рацәа рзы ишхәарҭахо. Ҳара иаԥаҳҵеит шәхы иашәырхәар шәылшо алшарақәеи ахыԥшылақәеи!
 about-playbook-how-grow-language-content-2 = Ахҭысқәа
-about-playbook-how-grow-language-content-3 = Ауаа рхы аладырхәырц азы аусмҩаԥгатәқәа мҩаԥыжәгар шәылшоит. Уара угәы ишаанамго еиҳа имариоуп. Уи ҟашәҵар шәылшоит онлаин видеоконференциа амыруга шәхы иархәаны, мамзаргьы шәхаҭа шәааины, уи аҟаҵара шәарҭамзар. <eventTemplate>Ҳаҟалара ахсаалақәеи аресурсқәеи шәрыхәаԥш</eventTemplate>.
+about-playbook-how-grow-language-content-3 = Ауаа рлагала ҟарҵаратәы ацхыраара рышәҭарц азы аусмҩаԥгатәқәа мҩаԥыжәгар шәылшоит. Уи шәгәы ишаанаго аасҭа имариоуп. Уи ҟашәҵар шәылшоит онлаин видеоконференциазы амыруга шәхы иархәаны, мамзаргьы хаҭала,  уи шәарҭамзар. <eventTemplate>Аусмҩаԥгатә амҩаԥгара иазку ҳалшарақәеи ҳхыԥшылақәеи шәрыхәаԥш</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Асоциалтә медиақәа
 about-playbook-how-grow-language-content-5 = Ажәабжь анагаразы асоциалтә еимадарақәа рплатформақәа шәхы иашәырхәар шәылшоит. Ари зхадоу еилзыркаауа апостқәа рылацәажәара, насгьы егьырҭ ауаа рыҽрыдҳәалара, бызшәа азинқәа, абжьы АИ, мамзаргьы атехнологиаҿы еилых ҟаҵара реиԥш иҟоу азҵаарақәа ирылацәажәо. Еиҳаны еилышәкаа <campaignLink>асоциалтә кампаниа амҩаԥгаразы абжьгарақәа, еиҭа шәхы иашәырхәар шәылшо аҵакы нарылаҵаны</campaignLink>.
 about-playbook-how-grow-language-content-6 = Апартнерцәеи аҳақәеи
