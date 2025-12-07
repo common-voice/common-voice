@@ -76,6 +76,14 @@ read-more-about = Нарҭбааны Иазкны ҳдаҟьаҿы
 press-and-stories = Апрессеи аҭоурыхқәеи
 community-and-languages = Аилазаареи абызшәақәеи
 
+## Hero section
+
+hero-title = Шәара шәбызшәала ицәажәо атехнологиақәа
+
 ## Action items section
 
 action-items-section-title = Common Voice — ари ауаажәларра рнапхгарала адыррақәа раԥҵаразы иаарту алагарҭатә код змоу хәыда-ԥсада иҟоу платформоуп
+scripted-card-header = Асценариатә жәаҳәа
+scripted-card-content = Шәбызшәала аҳәоу шәҳәа, шәлагала ҟашәҵа еиуеиԥшым ацәажәаратә жәаҳәақәа реизгақәа рзы.
+spontaneous-card-header = Аспонтантә жәаҳәа
+language-text-card-header = Атекст абызшәала
