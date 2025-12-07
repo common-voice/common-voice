@@ -108,6 +108,7 @@ domain-explanation = Адомен аҳәоу атема иаҵанакуеит. 
 
 ## Question collection sidebar content
 
+easy-to-understand = Аилкаара мариоуп
 spelling-and-pronunciation = Аорфографиеи апунктуациеи
 spelling-and-pronunciation-explanation = Ииашоу аорфографиеи аграмматикеи  шәхы иашәырхәа.
 length = Аура
