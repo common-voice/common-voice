@@ -46,6 +46,7 @@ bri = موکپوی
 bs = بوسنیَیں
 bsh = کتہ ویری
 bsk = بروشاسکی
+btv = بھٹېڑی
 bum = بُلُو
 bxr = بُریات
 byv = میدُمبا
@@ -148,6 +149,7 @@ kn = کَناڈا
 knn = کونکانی (دیوانگری)
 ko = کُوریَیں
 kpv = کومی-زیرین
+ks = کشمیری
 ksf = بافیا
 kw = کورنِش
 ky = کِرغِزی
@@ -368,3 +370,20 @@ languages-donate-banner-cta = </mark>تاں تحقیقاں دَن<mark><br/></ma
 languages-donate-banner-cta-explanation = کامن وائس صدقیُوں تے تحفیُوں لا چلُژ تُھو! بے تحقیق کران٘لؤں، عام خلکہ آں لکان٘لہ پڑان٘لؤں ملی ایکٹھی کام کرَیں خوش ہوگ تھو۔ کامن وائس لہ بالکل مفت تُھو خو اسیں پلیٹ فارمہ ملی مدد کیرُوں آں صدقہ خیرات ہِن خرچہ برداشت کیرُوں زاں ملی گھَیں مِٹھیۡ ہوتھی۔
 localization-select =
     .label = ژیب / علاقہ خوش کرہ
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = نؤیۡ خانہ مہ پاتُو ہُوئ تُھو
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = بِلاڑَیں یاں کریا لِکہ
+searchbox-default-placeholder = بِلاڑہ
+searchbox-default-aria-label = بِلاڑہ
+dropdown-no-results = ݜُو رَن٘گاں نیْ ڇا چھی
+dataset-searchbox-placeholder = ژیب بِلاڑہ۔۔۔
+dataset-searchbox-aria-label = ژیب بِلاڑہ
+dataset-search-no-results = ݜُو رَن٘گَیں ژیب نیْ ڇا چھی
+request-new-language = نَیں ژیب لُکھہ

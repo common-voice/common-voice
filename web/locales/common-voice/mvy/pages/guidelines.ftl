@@ -4,6 +4,9 @@ guidelines-header-subtitle = کامن وائس ڈیٹا سیٹہ مہ جُملی
 voice-collection = اَوازَیں کھلٹُو
 sentence-collection = جُملی وَیں کَھلٹُو
 question-collection = سوال جمع کرؤں
+scripted-speech = لِکېل تقریر
+spontaneous-speech = فی البدیہہ تقریر
+dont-subheader = نېر
 
 ## Voice Collection nav ids
 
@@ -128,3 +131,8 @@ culturally-specific-questions = صرف ثقافتی یاں متعلق سوالہ
 culturally-specific-questions-explanation = ݜے سوالہ چے سَیں صرف کلچراں متعلق ہوں آں جواب دېں والاں متعلق گمانہ ساند
 length-avoid-explanation = ݜے سوالہ چے سِواں جواب 15 سِن٘گڈؤں مہ دېوں گِران ہو
 process-steps = عمل/ کھڑپی
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = سوالہ واں جواب دے

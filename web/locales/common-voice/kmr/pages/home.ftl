@@ -111,3 +111,4 @@ community-and-languages-menu-item-tooltip = Bi civaka me re bikeve têkiliyê û
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = Derbarê hevkariyên bi Common Voice re bizane
+press-and-stories-menu-item-aria-label = Xwe bigihîne weşanên çapemeniyê û nûçeyên têkildarî Common Voiceê
