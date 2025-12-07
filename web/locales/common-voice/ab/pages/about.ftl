@@ -93,8 +93,8 @@ about-playbook-how-localize-content-5 = Ацхыраара азы ҳаилырк
 
 about-playbook-how-add-sentences = Аҳәоуқәа шԥацысҵо?
 about-playbook-how-add-sentences-content-1 = <strong>Аҳәоуқәа рколлектор</strong> – ари ауаажәларратә мазараны иҟоу аҳәоуқәа реизгара ҳалзыршо мыругоуп. Шәҽалашәырхәырц азы <scAccountLink>аккаунт</scAccountLink>аԥышәҵароуп, насгьы <strong>шәыпрофиль</strong> аҿы абызшәа ашәырбароуп. Ара шәара ишәылшоит<strong>иацышәҵар</strong> аҳәоу ҿыцқәа ма <strong>игәашәҭар</strong> уаанӡа иацҵаз.
-about-playbook-how-add-sentences-content-2 = Аҳәоуқәа апроект Common Voice иацҵахарц азы, уҩыџьа алахәылацәа ирыдыркылароуп. <languageGuidelinesLink>Абраҟа</languageGuidelinesLink> шәбызшәазы абжьгарақәа реизга аԥҵара шәылшоит. Ажәаҳәақәа <licenseLink> зегьы рзы</licenseLink> ажәақәа 15 раҵкыс икьаҿзароуп. Иара убасгьы шәара ишәылшоит иарбанзаалак атекст автор шәиҳәар шәылшоит ҳкопиратә зинқәа рыҭара амеханизм ҳхы иархәаны <waiverLink>CC0 алицензиа аҵаҟа алицензиа аиҭаразы,</waiverLink> насгьы е-маилла иаҳзышәышьҭырц: commonvoice@mozilla.com
-about-playbook-how-add-sentences-content-3 = Уара иухы иаурхәар улшоит <scraperLink>Ажәаҳәа Аҭгага</scraperLink> Википедиа аҟынтәи ажәаҳәа кьаҿқәа рхархәаразы.
+about-playbook-how-add-sentences-content-2 = Аҳәоуқәа апроект Common Voice иацҵахарц азы, ҩыџьа алахәылацәа урҭ гәарҭароуп, насгьы ирыдыркылароуп. <languageGuidelinesLink>Абраҟа</languageGuidelinesLink> шәбызшәазы абжьгарақәа реизга аԥҵара шәылшоит. Аҳәоуқәа<licenseLink> уаажәларратә мазараны иҟазароуп</licenseLink> насгьы 15 ажәа иреиҵазароуп. Иара убас иарбанзаалак атекст автор шәиҳәар шәылшоит алицензиа аҭаны ишәиҭарц автортә зинқәа мап рыцәкра иазку ҳмеханизм ахархәарала <waiverLink>CC0 </waiverLink> насгьы ҳԥошьҭахь анашьҭра: commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Шәхы иашәырхәалар шәылшоит <scraperLink>Аҳәоуқәа ргәылхга</scraperLink> Википедиа аҟынтәи аҳәоу кьаҿқәа рхархәаразы.
 
 ## How to record quality
 
