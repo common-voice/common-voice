@@ -75,9 +75,9 @@ about-playbook-how-add-language-translating-content-2 =
 about-playbook-how-add-language-collecting-sentences-heading = Аҳәоуқәа реизгара
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>«Аҳәоуқәа рколлектор»</sentenceCollectorVideo> ахархәашьа иазку ҳҵарҵагатә видео шәахәаԥш.
 about-playbook-how-add-language-collecting-sentences-content-2 =
-    Уара иулшоит <sentenceCollectorLinkAdd>жәаҳәарақәа рыԥхьаӡа маҷк ацҵара</sentenceCollectorLinkAdd>,
-    мамзаргьы анагӡара <bulkImportDocsLink> Github ахархәарала еизакны аимпорт</булкИмпортДоксЛинк>.
-    Ишәхашәмыршҭлан, ажәалагалақәа <licenseLink>CC0 (мамзаргьы зегьы рзы)</licenseLink>, мамзаргьы шәара шәхатәы шәҩыр шәылшоит.
+    Шәара ишәылшоит <sentenceCollectorLinkAdd>аҳәоуқәа рыԥхьаӡара маҷк ацҵара</sentenceCollectorLinkAdd>,
+    мамзаргьы <bulkImportDocsLink> Github ахархәарала аимпортҟаҵара</булкИмпортДоксЛинк>.
+    Ишәхашәмыршҭлан, аҳәоуқәа <licenseLink>CC0 (ма ауаажәларратә мазараны иҟазароуп )</licenseLink>, ма шәара шәхатәы ижәҩыр шәылшоит.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Аҳәоуқәа реизгара иазкны еиҳаны аилкаара</sentenceCollectorFragment>.
 
 ## How does localization work
