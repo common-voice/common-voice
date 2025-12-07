@@ -22,7 +22,7 @@ report-button = راپور
 # For the button to skip an item
 skip-button = پرېږدئ
 submit-button = وسپارئ
-contribute = مرسته وکړئ
+contribute = ونډه واخلئ
 # Button text which appears when there are no more resources
 continue-with-skipped = له پرېښودل شويو څخه دوام ورکړه
 
@@ -44,7 +44,7 @@ not-found-page-content = هغه پاڼه چې تاسو یې لټوئ ونه مو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = زه د کامن وايس د<termsLink> شرایطو </termsLink> او <privacyLink>د محرمیت خبرتیا</privacyLink> سره موافق یم
 # Locales (not yet fully resolved in Pontoon)
-meh = سويلي لوېديځ ټلکیاکو مکسټيک
+meh = سويل لوېديځ ټلکیاکو مکسټيک
 mel = مرکزي میلانو
 # Locales-Variants
 ms-MY = باهسا مالې (د مالیزیا ژبه)
@@ -54,5 +54,5 @@ el-CY = سايپروټ يوناني  (د قبرس يوناني لهجه)
 
 language-search-placeholder = د ژبې لټون وکړئ...
 language-search-aria-label = د ژبې لټون وکړئ...
-language-search-label = یوازې د ډیټاسیټ د ونډې ژبه بدلوي
+language-search-label = یوازې د ډېټاسیټ د ونډې ژبه بدلوي
 language-search-no-results = هیڅ ژبه و نه موندل شوه
