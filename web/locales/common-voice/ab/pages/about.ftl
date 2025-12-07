@@ -85,7 +85,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Аус шԥауеи асаит алокализациа?
 about-playbook-how-localize-content-1 = Асаит Common Voice аиҭагара мҩаԥысуеит <strong>Pontoon</strong> ала.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Аккаунт аԥышәҵа</pontoonAccountLink> макьана ишәымамзар. Анаҩс иалышәх абызшәа<strong>('Team')</strong> нас апроект (‘Project‘) ахь шәиас, <pontoonCvLink>Common Voice</pontoonCvLink> Уа иҟалоит еиҭагатәу афаилқәа. Урҭ руак шәақәыӷәӷәар, хыхь англыз бызшәала иҟоу аоригинал жәбоит, ҵаҟа аиҭага ахьҭажәҩыша аԥенџьыр.
-about-playbook-how-localize-content-3 = Аиҭага англыз бызшәа аҟынтәи ауп, аха даҽа бызшәақәак рыла иҟоу <strong>аҳәоуқәа</strong> убар улшоит. <strong>Апрофиль</strong> аҵакы ақәыӷәӷәара, анаҩс <strong>Аиқәыршәарақәа</strong> ҳәа ахьӡ змоу аҵаҩра ақәыӷәӷәара, насгьы узыцәажәо абызшәақәа зегьы рыцҵара. Ҵаҟа арыӷьарахьтәи акәакь аҿы иҟалоит <strong>Абызшәақәа</strong> ҳәа хьӡыс измоу аиҭагақәа рсиа. Аиҭагақәа ҽнак ала асаит аҿы иаабоит.
+about-playbook-how-localize-content-3 = Англыз бызшәаҟынтәи еиҭагоуп, аха даҽа бызшәақәак рыла иҟоу <strong>аҳәоуқәа</strong> жәбар шәылшоит. Адырга<strong>Апрофиль</strong>, анаҩс <strong>Архиарақәа</strong> захьӡу азхьарԥш, шәақәыӷәӷәа, нас шәызлацәажәо абызшәақәа зегьы ацышәҵа. Ҵаҟатәи арыӷьарахьтә кәакь аҿы иҟалоит <strong>Абызшәақәа</strong> ҳәа хьӡыс измоу аиҭагақәа рсиа. Аиҭагақәа ҽнак ашьҭахь асаит аҿы ицәырҵуеит.
 about-playbook-how-localize-content-4 = Асаит аусура иазхиоуп 75% инареиҳаны еиҭагазар.
 about-playbook-how-localize-content-5 = Ацхыраара азы еилзыркаауа ҳвидео шәахәаԥш
 
