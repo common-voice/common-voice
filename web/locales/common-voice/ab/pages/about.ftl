@@ -66,7 +66,7 @@ about-playbook-what-is-language-content-3 = Бызшәақәак аграмма�
 about-playbook-how-add-language = Ишԥасылшо абызшәа ацҵара?
 about-playbook-how-add-language-content-1 = Зегь раԥхьаӡа иргыланы, игәашәҭ <languageLink>шәбызшәа иацҵоума</languageLink>. Макьана иҟамзар, уара <strong>асаит еиҭагатәуп, насгьы ажәалагалақәа еизгатәуп</strong>.
 about-playbook-how-add-language-translating-heading = Асаит аиҭагара
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Понтоон ахархәашьа иазку ҳвидео арҵагатә видео шәахәаԥш.</translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon ахархәашьа иазку ҳарҵагатә видео шәахәаԥш.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Аиҭагаразы, ҳара ҳхы иаҳархәоит Мозилла амыруга ахьӡу <pontoonLink>Понтоон</pontoonLink>. Понтон бызшәа рацәаны иамоуп,
     аха шәара шәтәы ыҟамзар, шәара ишәылшоит <pontoonRequestLink>бызшәак ацҵаразы аҳәара</pontoonRequestLink>.
