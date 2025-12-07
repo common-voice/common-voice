@@ -99,6 +99,7 @@ review-questions = Pirsan binirxîne
 transcribe-audio = Dengan bike nivîs
 press-and-stories = Çapemenî û Nûçe
 community-and-languages = Civak û Ziman
+about-us = Derbarê me
 
 ## MENU ITEMS TOOLTIPS
 
