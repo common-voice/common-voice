@@ -265,6 +265,7 @@ sr = Сырпски
 ss = Свати
 st = Сесото
 sv-SE = Свенска
+sva = Ашәануа
 sw = Қысуаҳили
 syr = Суриаиа
 ta = Ҭамыл
@@ -343,6 +344,8 @@ email-opt-in-info-sub-with-challenge = Common Voice иуадаҩу ахықәк�
 email-opt-in-privacy-v2 = Ае-маилқәа раагара уақәшаҳаҭны, уара иаанарԥшуеит Mozilla <privacyLink>Амаӡаратә Политика</privacyLink> инақәыршәаны Mozilla абри адыррақәа рхархәара уақәшаҳаҭуп ҳәа.
 indicates-required = *Хымԥада ихарҭәаатәуп аҭыԥ
 not-available-abbreviation = Анеишьа Амам
+# Text shown on a button that can be clicked to delete an item
+delete = Аныхра
 
 ## Donate banner
 

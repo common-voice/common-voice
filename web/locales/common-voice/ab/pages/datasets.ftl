@@ -94,3 +94,4 @@ release-version = Аверсиа
 dataset-date = Арыцхә
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
+female = Аҳәса ртәы

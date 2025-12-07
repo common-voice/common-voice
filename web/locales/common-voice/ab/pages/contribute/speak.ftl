@@ -62,3 +62,7 @@ create-profile-button = Апрофиль аԥҵара
 img-alt-success-checkmark = ақәҿиара аҵәаӷәа
 # menu item
 read-sentences = Аҳәоуқәа рыԥхьара
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Аҳәоуқәа рыԥхьара, азҵаарақәа рҭак аҟаҵара
