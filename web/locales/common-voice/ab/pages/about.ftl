@@ -108,7 +108,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Еиҳа инарҭбаау 
 ## How to grow language
 
 about-playbook-how-grow-language = Ишԥаҳалшо Common Voice аҿы абызшәа еиӷьны арҿиара?
-about-playbook-how-grow-language-content-1 = Еиуеиԥшым ауаа Common Voice алахәхаразы алшарақәа раԥҵара абзоурала, еизгоу адыррақәа иахьынӡазалшо ауаа рацәа рзы ихәарҭаны иҟалоит. Ҳара иаԥаҳҵеит шәхы иашәырхәар шәылшо аресурсқәеи ашаблонқәеи!
+about-playbook-how-grow-language-content-1 = Еиуеиԥшым ауаа Common Voice рҽаладырхәырц азы алшарақәа раԥҵара ахәдықәҵара ауеит адыррақәа реизга ауаа рацәа рзы ишхәарҭахо. Ҳара иаԥаҳҵеит шәхы иашәырхәар шәылшо алшарақәеи ахыԥшылақәеи!
 about-playbook-how-grow-language-content-2 = Ахҭысқәа
 about-playbook-how-grow-language-content-3 = Ауаа рхы аладырхәырц азы аусмҩаԥгатәқәа мҩаԥыжәгар шәылшоит. Уара угәы ишаанамго еиҳа имариоуп. Уи ҟашәҵар шәылшоит онлаин видеоконференциа амыруга шәхы иархәаны, мамзаргьы шәхаҭа шәааины, уи аҟаҵара шәарҭамзар. <eventTemplate>Ҳаҟалара ахсаалақәеи аресурсқәеи шәрыхәаԥш</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Асоциалтә медиақәа
