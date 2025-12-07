@@ -51,12 +51,11 @@ about-nav-how-it-works = Ишԥа?
 about-nav-partners = Алахәылацәа
 about-nav-get-involved = Аҽалархәра
 about-nav-how-it-works-2 = Аус шԥауеи Common Voice?
-about-nav-playbook = Еилышәкаа аҽалархәра
+about-nav-playbook = Шәҽалашәырхәырц шшәылшо аилкаара
 
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = Иарбан бызшәоу Азеиԥш бжьы аҟны иҟоу?
 about-playbook-what-is-language-content-1 = Абызшәа азхәыцразы амҩақәа рацәоуп. Ажәаҳәа аилкаара амодельқәа рхықәкқәа рзы Common Voice адгалара ҟанаҵоит «наҟ-ааҟтәи аилыккара» мамзаргьы  «ари абызшәала ицәажәо рҽазыршәар, еилибакаар рылшома?» азҵаарақәа ахшыҩ рзышьҭра
 about-playbook-what-is-language-content-2 = Ҳара иаҳҭахуп ацәажәаратә модельқәа еиҳа еиӷьны хыԥхьаӡара рацәала ацәажәаҩцәа ирҳәо еилыркааларц. Уи азы, абжьытә дыррақәа реизга еиуеиԥшым ауаа цәырнагозароуп.
 about-playbook-what-is-language-content-3 = Бызшәақәак аграмматика, ажәар, аҳәашьа рҿы аиԥшымзаара дуқәа рымоуп. Убри аҟнытә, 2022 шықәсазы ҳара <ctaLink>«Авариантқәа»</ctaLink> рцәыргара ҳаҿуп. Уи аилазаарақәа ирылнаршоит ирацәоу адыррақәа реизгаҿы рбызшәақәа реилкаара.
