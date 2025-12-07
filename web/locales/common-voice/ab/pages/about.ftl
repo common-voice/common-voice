@@ -10,7 +10,7 @@ how-does-it-work-text =
 ## How does it work section
 
 about-language-req-subtitle = Аӡәы бызшәак ацҵара даҳәоит.
-about-localization-title = Асаит алокализациа
+about-localization-title = Асаит аҭыԥыркра
 about-localization-subtitle = Авеб-саит атекст ари абызшәахьы еиҭагоуп.
 about-sentence-collection-title = Аҳәоуқәа реизгара
 about-sentence-collection-subtitle = Абжьы ҭганы аԥхьаразы аҳәоуқәа реизгара иаҿуп.
