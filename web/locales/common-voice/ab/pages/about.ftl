@@ -138,13 +138,13 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice еиуе�
 about-playbook-how-project-governance-content-2 = Ҳара ҳнапхгара шьаҭас иамоуп анаҩстәи апринципқәа:
 about-playbook-how-project-governance-content-3 = Амаӡара, ашәарҭадара, аартра.
 about-playbook-how-project-governance-content-4 = Аилазаара алахәхареи аӡбарақәа рыдкылареи.
-about-playbook-how-project-governance-content-5 = Ахә ашьареи ахдырреи.
-about-playbook-how-project-governance-content-6 = Аҩганктәи аҭакԥхықәра.
-about-playbook-how-project-governance-content-7 = <governanceLink>Еиҳаны еилышәкаа анапхгара шыҟаҳҵо</governanceLink>
+about-playbook-how-project-governance-content-5 = Аҵакдуреи азхаҵареи.
+about-playbook-how-project-governance-content-6 = Наҟ-ааҟтәи аҭакԥхықәра.
+about-playbook-how-project-governance-content-7 = <governanceLink>Ҳнапгхара шеиҿкаау атәы еиҳаны еилышәкаа</governanceLink>
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = Ишԥаҟаҵоу аԥаратә цхыраара Common Voice?
-about-playbook-how-funded-content-1 = Азеиԥш бжьы Мозилла Афонд апроект ауп, US 501c3. Уажәазы ​​апроект зегьы ахәҭаа ала имҩаԥысуеит <philanthropicGrantLink>филантропиатә грантқәа</philanthropicGrantLink>, иара убасгьы адунеи зегьы аҟынтәи ауаа рҟынтәи ацхыраара.
+about-playbook-how-funded = Common Voice афинансқәа рзошьҭра шԥамҩаԥысуеи?
+about-playbook-how-funded-content-1 = Common Voice — ари Mozilla Foundation, US 501 c 3 апроект ауп. Иахьатәи аамҭазы ​​апроект афинансқәа рзоушьҭра зегьы мҩаԥысуеит <philanthropicGrantLink>агәыҳалалратә грантқәеи</philanthropicGrantLink>, иара убас адунеи зегьы аҟынтәи ауаа рԥаратә цхыраареи рыла.
 about-playbook-how-funded-content-2 = Аԥара рацәаны иаҭахуп еиԥмырҟьаӡакәа адатасетқәа рыҭара, рҭыжьра, аплатформа аиӷьтәра, насгьы <americaMradiLink>ауаажәларратә программақәа</americaMradiLink> рымҩаԥгара.
 about-playbook-how-funded-content-3 = Шәара ма шәеиҿкаара апроект аҿы шәхы алашәырхәырц шәҭахызар, шәара ишәылшоит <donateLink>donateLink> мамзаргьы ҳпартниортә гәыԥ шәрызҵаар <emailFragment>commonvoice@mozilla.com</emailFragment>.
