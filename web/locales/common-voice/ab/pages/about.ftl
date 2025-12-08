@@ -122,7 +122,7 @@ about-playbook-how-grow-language-content-8 = <strong>Аҟазаратә знеи
 about-playbook-how-validate = Излаздыруазеи аҭаҩымҭа ақәшаҳаҭхара шалшо?
 about-playbook-how-validate-content-1 = <strong>ажәақәа еилышәкаартә иҟазар</strong>, насгьы аҭаҩымҭа <strong>агхақәа амамзар</strong>, абжьааԥны <strong> уи шәақәшаҳаҭхар шәылшоит</strong> ҳәа иаанагоит.
 about-playbook-how-validate-content-2 = Ацәажәаҩ ицәажәашьеи шәара шәцәажәашьеи ахьеиқәымшәо аҭаҩымҭақәа мап рцәышәымкын. Ҳапроект аиӷьтәразы, аиԥшымзаара ҳара ҳзы акырӡа аҵанакуеит.
-about-playbook-how-validate-content-3 = <strong>ажәа аидырра залшом ҳәа угәы иаанагозар</strong>, аҭаҩраҿы <strong>дәныҟатәи абжьы</strong> ыҟазар, мамзаргьы даҽаӡәы иажәа</strong> уаҳазар, усҟан уи <strong>мап ацәукыр ауп</ ӷәӷәоуп>. <accuracyLink>Еиҳаны адыррақәа шәыԥшаар шәылшоит еилыкка иҟоу акритериақәа рҿы</accuracyLink>.
+about-playbook-how-validate-content-3 = <strong>ажәа аилкаара залшаӡом ҳәа шәгәы иаанагозар</strong>, аҭаҩраҿы <strong>адәныҟатәи ашьҭыбжьқәа рыбжьы дуны</strong> ыҟазар, мамзаргьы даҽаӡәы иажәаҳәа</strong> шәаҳауазар, усҟан уи <strong>мап ацәышәкыроуп</ ӷәӷәоуп>. <accuracyLink>Еиҳаны адыррақәа шәыԥшаар шәылшоит еилыкка иҟоу акритериақәа рҿы</accuracyLink>.
 about-playbook-how-validate-content-4 = Апост 2 уаҩы мап ацәыркыр, уи адатасет аҟны иҷыдоу аҟәшаҿы икьыԥхьхоит.
 
 ## How to access dataset
