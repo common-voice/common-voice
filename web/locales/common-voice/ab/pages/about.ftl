@@ -134,10 +134,10 @@ about-playbook-how-access-dataset-content-2 = ASR амоделқәа раԥҵа�
 ## How are decisions made
 
 about-playbook-how-project-governance = Ишԥарыдыркыло аӡбарақәа апроект аганахьала?
-about-playbook-how-project-governance-content-1 = Mozilla Common Voice еиуеиԥшым активистцәа, абызшәадырҩцәа, адатаҭҵааҩцәа, аҵарауаа, апрограмматә еиқәыршәара анџьнырцәа рыла ишьақәгылоуп. Апроект ахылаԥшра азнауеит Мозилла Афонд.
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice еиуеиԥшым активистцәа, абызшәадырҩцәа, адыррақәа разҟазацәа, аҵарауаа, анџьныр-программистцәа ирыбзоурахеит. Апроект ахылаԥшра азнауеит Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Ҳара ҳнапхгара шьаҭас иамоуп анаҩстәи апринципқәа:
-about-playbook-how-project-governance-content-3 = Амаӡара, ашәарҭадара, агәаартра.
-about-playbook-how-project-governance-content-4 = Ауаажәларра рылахәреи аӡбарақәа рыдкылареи.
+about-playbook-how-project-governance-content-3 = Амаӡара, ашәарҭадара, аартра.
+about-playbook-how-project-governance-content-4 = Аилазаара алахәхареи аӡбарақәа рыдкылареи.
 about-playbook-how-project-governance-content-5 = Ахә ашьареи ахдырреи.
 about-playbook-how-project-governance-content-6 = Аҩганктәи аҭакԥхықәра.
 about-playbook-how-project-governance-content-7 = <governanceLink>Еиҳаны еилышәкаа анапхгара шыҟаҳҵо</governanceLink>
