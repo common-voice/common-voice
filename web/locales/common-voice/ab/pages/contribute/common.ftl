@@ -1,9 +1,9 @@
 action-click = Ақәқшара
-action-tap = Акьысра
+action-tap = Шәақәыӷәӷәа
 contribute = Аҽалархәара
 review = Агәаҭара
 skip = Абжьажьра
-shortcuts = Арыд ласқәа
+shortcuts = Арыдқәа реицааира
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> аҭаҩра
