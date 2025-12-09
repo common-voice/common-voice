@@ -43,6 +43,7 @@ x-years-short =
     }
 help-make-dataset = Axúdenos a construír un conxunto de datos públicos abertos de alta calidade
 sign-up-account = Rexístrese para obter unha conta
+email-subscription-title-v3 = Rexístrese para recibir actualizacións de Common Voice e Mozilla Foundation
 
 ## Account Benefits
 
