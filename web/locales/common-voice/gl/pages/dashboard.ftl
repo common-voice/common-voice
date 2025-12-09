@@ -18,7 +18,7 @@ validated-clips = Fragmentos aprobados
 total-approved = Total de aprobados
 overall-accuracy = Precisión global
 set-visibility = Definir a súa visibilidade
-visibility-explainer = Esta configuración controla a súa visibilidade no panel de líderes. De estar oculta, o seu avance gardarase en privado. Isto significa que a súa imaxe, nome de usuario e avance non van aparecer no panel de líderes. Saiba que o panel demora ~{ $minutes }min en actualizarse.
+visibility-explainer = Esta configuración controla a súa visibilidade no panel de contribucións. De estar oculta, o seu avance gardarase en privado. Isto significa que a súa imaxe, nome de usuario e avance non van aparecer no panel de contribucións. Saiba que o panel demora ~{ $minutes }min en actualizarse.
 visibility-overlay-note = Nota: Cando se define como 'Visible', esta configuración pode modificarse na <profileLink>pestana de perfil</profileLink>
 show-ranking = Amosar a súa clasificación
 
@@ -38,12 +38,12 @@ pro-difficulty = Profesional
 lose-goal-progress-warning = Ao editar o seu obxectivo, pode perder o seu avance actual.
 want-to-continue = Quere continuar?
 finish-editing = Rematar primeiro a edición?
-lose-changes-warning = Saír agora significa que perderá os teus cambios
+lose-changes-warning = Saír agora significa que perderá os cambios feitos
 build-custom-goal = Fixar un obxectivo personalizado
 help-reach-hours-pluralized =
     { $hours ->
-        [one] Axuda para chegar a{ $hours } horaen { $language } cun obxectivo persoal
-       *[other] Axuda para chegar a{ $hours } horasen { $language } cun obxectivo persoal
+        [one] Axúdenos a chegar a { $hours } hora en { $language } fixando un obxectivo persoal
+       *[other] Axúdenos a chegar a { $hours } horas en { $language } fixando un obxectivo persoal
     }
 help-reach-hours-general-pluralized =
     { $hours ->
