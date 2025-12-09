@@ -12,7 +12,7 @@ demo-account = Cont
 
 ## Demo Account
 
-demo-account-card-header = Nu este necesar să ai un profil ca să contribui, deși ar fi de ajutor.
+demo-account-card-header = Nu-ți trebuie neapărat un profil ca să contribui, deși n-ar strica.
 demo-account-enter-email =
     .label = Introdu adresa de e-mail pentru a trimite un link de înscriere
 demo-account-sign-up = Trimite linkul de înscriere
