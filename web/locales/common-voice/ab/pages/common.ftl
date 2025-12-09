@@ -318,14 +318,14 @@ zza = Азазак
 
 ## Layout
 
-profile = Аҷыдахәра
-help = Аилыркаа
-contact = Аидҳәалара
-privacy = Амырӡара
-terms = Аиқәшаҳаҭра
-cookies = Кукиз
-faq = ЛУЗ
-content-license-text = Аҵакы ахархәара ауеит абри ала <licenseLink>алицензиа Арҿиаратә Зеиԥшқәа</licenseLink>
+profile = Ахырхарҭа хада
+help = Аилыркаага
+contact = Аимадарақәа
+privacy = Амаӡара
+terms = Аилаӡарақәа
+cookies = Акукқәа
+faq = ЧЗВ
+content-license-text = Аҵакы ахархәара ауеит <licenseLink>Creative Commons</licenseLink> алицензиала
 share-title = Уҳацхраа, зыбжьы ҭазҩыр зҭаху рыԥшаара аҟны!
 share-text = Урыцхраа амашьынақәа хықәакыла ауаа реилкаашьа дырҵараҿы, убжьы ақәырга абра { $link }
 link-copied = Азхьарԥш ахҩыла ҟаҵоуп
