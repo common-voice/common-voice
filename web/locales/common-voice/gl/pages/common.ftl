@@ -276,3 +276,17 @@ announcement-mdc-text = <strong>Hai novos conxuntos de datos de Common Voice</st
 announcement-mdc-button-text = Únase a Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Ábrese nunha nova pestana
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Comeza a escribir para buscar
+searchbox-default-placeholder = Buscar
+searchbox-default-aria-label = Buscar
+dropdown-no-results = Non se atoparon coincidencias
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Cambia o idioma da visualización e do conxunto de datos
+dataset-searchbox-placeholder = Busque un idioma
+dataset-searchbox-aria-label = Busque un idioma
+dataset-search-no-results = Non se atopou ningún idioma que coincida coa busca
+request-new-language = Solicitar un novo idioma
