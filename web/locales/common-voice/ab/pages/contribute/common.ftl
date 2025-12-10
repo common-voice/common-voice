@@ -46,16 +46,16 @@ submit-form-action = Анашьҭра
 report = Ашшра
 report-title = Ашшԥхьӡы анашьҭра
 report-ask = Иарбан уадаҩрақәоу ари аҳәоу аҿы ишәызцәырҵуа?
-report-offensive-language = Угәы нзырхо аҳәамҭақәа
-report-offensive-language-detail = Ауаа еилызхуа, ма ргәы нзырхо аҳәамҭақәа.
+report-offensive-language = Ихьымӡӷыргаго ажәаҳәахьақәа
+report-offensive-language-detail = Аҳәоу иалоуп азинеиҟарамратә, ма ихьымӡӷыргаго ажәаҳәахьақәа.
 report-grammar-or-spelling = Аграмматикатә / аорфографиатә гха.
 report-grammar-or-spelling-detail = Аҳәоу аҟны иуԥылоит аорфографиатә, мамзаргьы аграмматикатә гха.
 report-different-language = Даҽа бызшәак
 report-different-language-detail = Сызлацәажәо абызшәа еиԥшымкәа иҩуп.
 report-difficult-pronounce = Аҳәаразы ицәгьоуп
 report-difficult-pronounce-detail = Зыԥхьара, ма зҳәара уадаҩу ажәақәеи афразақәеи алоуп.
-report-offensive-speech = Угәы нзырхо ажәақәа алоуп.
-report-offensive-speech-detail = Анҵамҭа ауаа еилызхо, ма ргәы нзырхо аҳәамҭақәа алоуп.
+report-offensive-speech = Ихьымӡӷыргаго ажәаҳәахьақәа
+report-offensive-speech-detail = Аҭаҩымҭа иалоуп азинеиҟарамратә, ма ихьымӡӷыргаго ажәаҳәахьақәа.
 report-other-comment =
     .placeholder = Ахцәажәара
 success = Ихиоуп
@@ -78,9 +78,9 @@ shortcut-rerecord-toggle-label = Аклип аиҭаҭаҩра
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Уажәтәи аҭаҩра аԥыхра
 shortcut-submit = Return
-shortcut-submit-label = Анҵамҭақәа шьҭтәуп
+shortcut-submit-label = Аклипқәа рынашьҭра
 request-language-text = Common Voice аҟны шәбызшәа макьана ишәымбаӡои?
-request-language-button = Абызшәа уазҵаа
+request-language-button = Абызшәа азҵаара
 
 ## Listen Shortcuts
 
