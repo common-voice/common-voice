@@ -136,3 +136,17 @@ process-steps = عمل/ کھڑپی
 
 # Answer Questions
 answer-questions = سوالہ واں جواب دے
+tags-table-header-2 = مطلب
+tags-laugh = ہاسیۡ
+tags-noise = شُور
+tags-laugh-explanation = ہاسیۡ یاں اواز
+tags-unclear-explanation = لفظ یا الفاظ وَیں ݜے سلسلہ چے تسیْ نہ مطلب نیْ ہرُژ
+
+## Code-Switching
+
+adding-a-question = سوال ٹل کرؤں
+# Adding a Question
+code-switching-adding-question-subheader = مڑنَیں سوال گِھن٘ل ہُوئ تُھو؟
+# What to Avoid
+code-switching-avoid-subheader = گِن نہ اما رڇھی
+code-switching-dont-header = نېر
