@@ -27,8 +27,8 @@ share-title-new = <bold>Шәҳацхраа</bold> иҵегьы абыжьқәа 
 keep-track-profile = Шәыпрофиль шәыцырхырааны шәыпрогресс  шәашьклаԥшла
 login-to-get-started = Шәҭал, ма шәыҽҭажәгал алагаразы
 target-segment-first-card = Шәара раԥхьатәи ҳхықәкытә сегмент азы алагала ҟашәҵоит
-target-segment-generic-card = Уара ахықәкытә сегмент уалахәуп
-target-segment-first-banner = Ацхыраара аԥҵараҿы раԥхьатәи Азеиԥш Бжьы ахықәкытә сегмент { $locale } аҟны
+target-segment-generic-card = Шәара шәлагала ҟашәҵоит ахықәкытә сегмент азы
+target-segment-first-banner = Шәацхраа Common Voice раԥхьатәи ахықәкытә сегмент аԥҵара { $locale } аҟны
 target-segment-add-voice = Шәыбжьы ацҵара
 target-segment-learn-more = Инарҭбааны
 change-preferences = Архиарақәа рыԥсахра
@@ -44,8 +44,8 @@ submit-form-action = Анашьҭра
 ## Reporting
 
 report = Ашшра
-report-title = Ашшра анашьҭра
-report-ask = Ари абжьгараҟны проблемақәас иузцәырҵуазеи?
+report-title = Ашшԥхьӡы анашьҭра
+report-ask = Иарбан уадаҩрақәоу ари аҳәоу аҿы ишәызцәырҵуа?
 report-offensive-language = Угәы нзырхо аҳәамҭақәа
 report-offensive-language-detail = Ауаа еилызхуа, ма ргәы нзырхо аҳәамҭақәа.
 report-grammar-or-spelling = Аграмматикатә / аорфографиатә гха.
