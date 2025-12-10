@@ -10,5 +10,5 @@ listen-loading-error =
     Ҳара ҳазыӡырҩырц азы аудиоклипқәа ҳзыԥшаауамызт.
     Ҳаҳәоит, нас даҽазнык шәҽазышәшәа.
 listen-abort-title = Аклипқәа рыгәаҭара алгама?
-listen-abort-cancel = Агәаҭара иацҵатәуп
-listen-abort-confirm = Агәаҭара анагӡара
+listen-abort-cancel = Агәаҭара ацҵара
+listen-abort-confirm = Агәаҭара ахыркәшара
