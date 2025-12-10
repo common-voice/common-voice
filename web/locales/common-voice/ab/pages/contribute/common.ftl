@@ -20,8 +20,8 @@ speak-empty-state = Ари абызшәала иҭааҩыша аҳәоуқәа 
 no-sentences-for-variants = Шәбызшәатә вариант аҿы аҳәоуқәа ыҟамзар ҟалоит! Ишәзыманшәалазар, шәбызшәала даҽа ҳәоуқәа жәбарц азы, шәырхиарақәа шәыԥсахыр шәылшоит.
 speak-empty-state-cta = Аҳәоуқәа рыдгалара
 speak-loading-error =
-    Уара иуҳәашаз жәаҳәаракгьы ҳзыԥшаауамызт.
-    Ҳшәыҳәоит, нас даҽазнык шәҽазышәшәа.
+    Шәара ишәҳәаша ҳәоукгьы ҳзымԥшааит.¶
+    Ҳшәыҳәоит, ԥыҭрак ашьҭахь даҽазнык шәҽазышәшәа.
 record-button-label = Шәыбжьы ҭажәҩы
 share-title-new = <bold>Шәҳацхраа</bold> иҵегьы абыжьқәа рыԥшаараҿы
 keep-track-profile = Шәыпрофиль шәыцырхырааны шәыпрогресс  шәашьклаԥшла
@@ -127,7 +127,7 @@ contribution-varying-pronunciations-title = Еиуеиԥшым Аҳәашьа
 contribution-varying-pronunciations-description = Аԥхьаҩ ажәак ииашамкәа иҳәеит, ақәыӷәӷәара ииашам аҭыԥ аҿы иқәиргылеит, мамзаргьы азҵааратә дырга бжьаижьит ҳәа аклип мап ацәышәкаанӡа, шәгәышәҽаныз. Адунеи аҿы еиуеиԥшым аҳәашьақәа ыҟоуп, урҭ рҟынтә ҳәашьақәак шәахьынхо аҭыԥ аҿы ишәмаҳацзаргьы ҟалоит. Ҳшәыҳәоит, шәара ишәеиԥшымкәа ицәажәо ауаа мап рцәышәымкын.
 contribution-varying-pronunciations-description-extended = Даҽа ганкахьалагьы, аԥхьаҩ уи ажәа ахаангьы иԥымлаӡац, насгьы уи аҳәашьа иазкны аԥхьаҩ ииашам агәаанагара имоуп ҳәа шәгәы иаанагозар, ҳшәыҳәоит, мап ацәышәк. Агәра ганы шәыҟамзар, шәхы иашәырхәа абжьажьра адырга.
 contribution-varying-pronunciations-example-1-title = Аберет ихан.
-contribution-varying-pronunciations-example-1-explanation = ["Береҭ" иақәшаҳаҭуп актәи абжьыҟа (Британиа) мамзаргьы аҩбатәи абжьыҟа (Америка) ақәыӷәӷәара аманы]]
+contribution-varying-pronunciations-example-1-explanation = [ «Аберет» ақәыӷәӷәара ма актәи ацыра, (Британиа) ма аҩбатәи ацыра иақәшәозар ҟалоит (Америка)]
 contribution-varying-pronunciations-example-2-title = Инапы ҩышьҭихит.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ англыз бызшәаҿы еснагь ҩба акәымкәа, бжьыҟак еиԥш иҳәоуп]
 contribution-background-noise-title = Афонтә бжьы
