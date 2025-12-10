@@ -1,4 +1,4 @@
-listen = Азыӡырҩра
+listen = Шәӡырҩы
 listen-subtitle = Аҭаҩрақәа рыгәаҭараҿы шәҳацхраа
 listen-instruction = { $actionType }<playIcon></playIcon> ииаиганы иаԥхьоума аҳәоуқәа?
 listen-again-instruction = Аус бзиоуп! <playIcon></playIcon> Уаназошоу даҽазнык уазыӡырҩы.
