@@ -23,15 +23,15 @@ speak-loading-error =
     Уара иуҳәашаз жәаҳәаракгьы ҳзыԥшаауамызт.
     Ҳаҳәоит, нас даҽазнык шәҽазышәшәа.
 record-button-label = Шәыбжьы ҭажәҩы
-share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны рыԥшаараҿы.
-keep-track-profile = Уҷыдахәра уцырхрааны упрогресс уашьклаԥшла.
-login-to-get-started = Уҭала мамзаргьы уҽҭагала алагаразы
+share-title-new = <bold>Шәҳацхраа</bold> иҵегьы абыжьқәа рыԥшаараҿы
+keep-track-profile = Шәыпрофиль шәыцырхырааны шәыпрогресс  шәашьклаԥшла
+login-to-get-started = Шәҭал, ма шәыҽҭажәгал алагаразы
 target-segment-first-card = Уара ҳхықәкыратә сегмент актәи уалахәуп
 target-segment-generic-card = Уара ахықәкытә сегмент уалахәуп
 target-segment-first-banner = Ацхыраара аԥҵараҿы раԥхьатәи Азеиԥш Бжьы ахықәкытә сегмент { $locale } аҟны
-target-segment-add-voice = Убжьы ацҵа
-target-segment-learn-more = Еиҳаны
-change-preferences = Аиқәыршәарақәа ԥсахтәуп
+target-segment-add-voice = Шәыбжьы ацҵара
+target-segment-learn-more = Инарҭбааны
+change-preferences = Архиарақәа рыԥсахра
 login-signup = Аҭалара / Аҽҭаҩра
 vote-yes = Ааи
 vote-no = Мап
