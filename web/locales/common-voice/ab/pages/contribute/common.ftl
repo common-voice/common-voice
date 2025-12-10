@@ -38,13 +38,13 @@ vote-no = Мап
 datasets = Адыррақәа реизга
 languages = Абызшәақәа
 about = Иҳазкны
-partner = Апартнерра
-submit-form-action = Ашьҭра
+partner = Алахәылара
+submit-form-action = Анашьҭра
 
 ## Reporting
 
-report = Ирдыртәуп
-report-title = Ардырра шьҭтәуп
+report = Ашшра
+report-title = Ашшра анашьҭра
 report-ask = Ари абжьгараҟны проблемақәас иузцәырҵуазеи?
 report-offensive-language = Угәы нзырхо аҳәамҭақәа
 report-offensive-language-detail = Ауаа еилызхуа, ма ргәы нзырхо аҳәамҭақәа.
