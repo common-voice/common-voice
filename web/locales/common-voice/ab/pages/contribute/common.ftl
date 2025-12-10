@@ -49,44 +49,44 @@ report-ask = Ари абжьгараҟны проблемақәас иузцәы
 report-offensive-language = Угәы нзырхо аҳәамҭақәа
 report-offensive-language-detail = Ауаа еилызхуа, ма ргәы нзырхо аҳәамҭақәа.
 report-grammar-or-spelling = Аграмматикатә / аорфографиатә гха.
-report-grammar-or-spelling-detail = Аҳәоуқәа рыҟны иуԥылоит аорфографиатәи, мамзаргьы аграмматикатә гхақәа.
-report-different-language = Даҽа бызшәоуп
+report-grammar-or-spelling-detail = Аҳәоу аҟны иуԥылоит аорфографиатә, мамзаргьы аграмматикатә гха.
+report-different-language = Даҽа бызшәак
 report-different-language-detail = Сызлацәажәо абызшәа еиԥшымкәа иҩуп.
 report-difficult-pronounce = Аҳәаразы ицәгьоуп
-report-difficult-pronounce-detail = Зҳәара, ма зыԥхьара уадаҩу ажәақәеи афразақәеи алоуп.
+report-difficult-pronounce-detail = Зыԥхьара, ма зҳәара уадаҩу ажәақәеи афразақәеи алоуп.
 report-offensive-speech = Угәы нзырхо ажәақәа алоуп.
 report-offensive-speech-detail = Анҵамҭа ауаа еилызхо, ма ргәы нзырхо аҳәамҭақәа алоуп.
 report-other-comment =
     .placeholder = Аҿыхәҿаа
-success = Қәҿиа­рала
-continue = Иацҵатәуп
+success = Ихиоуп
+continue = Ацҵара
 report-success = Уцҳамҭа қәҿиа­рала идәықәҵоуп
 
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = б
+shortcut-skip = с
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ҵ
-shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
+shortcut-record-toggle = и
+shortcut-record-toggle-label = Аҭаҩра/Аанкылара
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Анҵамҭақәа еиҭа-ианҵатәуп
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Уажәтәи анҵамҭа аԥыхтәуп
 shortcut-submit = Return
 shortcut-submit-label = Анҵамҭақәа шьҭтәуп
-request-language-text = Common Voice аҟны уара убызшәа макьана иумбаӡои?
+request-language-text = Common Voice аҟны шәбызшәа макьана ишәымбаӡои?
 request-language-button = Абызшәа уазҵаа
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = ҳә
+shortcut-play-toggle = о
 shortcut-play-toggle-label = Иарҳәатәуп/Иаанкылатәуп
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
