@@ -1,8 +1,8 @@
 listen = Шәӡырҩы
-listen-subtitle = Аҭаҩрақәа рыгәаҭараҿы шәҳацхраа
+listen-subtitle = Аҭаҩрақәа ргәаҭараҿы шәҳацхраа
 listen-instruction = { $actionType }<playIcon></playIcon> ииаиганы иаԥхьоума аҳәоуқәа?
 listen-again-instruction = Аус бзиоуп! <playIcon></playIcon> Уаназошоу даҽазнык уазыӡырҩы.
-listen-3rd-time-instruction = Ҩба мазеиуп <playIcon></playIcon> иацуҵа!
+listen-3rd-time-instruction = Ҩба мазеиуп <playIcon></playIcon> иацышәҵала!
 listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
 listen-empty-state = Ари абызшәала ахәаԥшразы анҵамҭақәа зегьы нҵәеит...
 listen-empty-state-variants = Убызшәа авариант азы аклипқәа ыҟамзар ҟалоит! Уара угәы иақәшәозар, убызшәала егьырҭ аҳәарақәа убарц азы, уеиқәыршәарақәа уԥсахыр улшоит.
