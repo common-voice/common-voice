@@ -90,19 +90,19 @@ shortcut-play-toggle = о
 shortcut-play-toggle-label = Иарҳәатәуп/Иаанкылатәуп
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = е
+shortcut-vote-yes = а
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = м
+shortcut-vote-no = е
 
 ## Validation criteria
 
 contribution-criteria-nav = Акритериа
-contribution-criteria-link = Аԥҟара аилкаара
+contribution-criteria-link = Аԥҟарақәа реилкаара
 contribution-criteria-page-title = Аҽалархәра акритериақәа
 contribution-criteria-page-description = Аҭаҩрақәа шәанрызӡырҩуа ишәзыԥшызар акәу еилышәкаала, насгьы шәҭаҩрақәа еиҳа ибеианы иҟашәҵа!
-contribution-for-example = ҿырԥштәыс иаагоуп
-contribution-misreadings-title = Ииашамкәа аԥхьара
+contribution-for-example = ҿырԥштәыс иаагозар
+contribution-misreadings-title = Ииашамкәа иаԥхьоуп
 contribution-misreadings-description = Уанӡырҩуа, ибзианы игәаҭала иану ииашаҵәҟьаны ианума; агха хәыҷқәагьы мап рыцәктәуп. <br /> Даара ирацәаны иуԥыло агхақәа:
 contribution-misreadings-description-extended-list-1 = Аҭаҩра алагамҭазы ажәа ахәҭак ааныжьра. Иаҳҳәап, "салам" аҭыԥан "алам" ҳәа уҳәозар.
 contribution-misreadings-description-extended-list-2 = Ажәа аҵыхәан <strong>«s»</strong> анбан ыҟаӡам (англыз бызшәазы).
@@ -111,14 +111,14 @@ contribution-misreadings-description-extended-list-4 = Аҭаҩра заа иа�
 contribution-misreadings-description-extended-list-5 = Ажәа аԥхьара зныкымкәа иҽазишәеит.
 contribution-misreadings-example-1-title = Триас адинозавр дуқәа иҟаз.
 contribution-misreadings-example-2-title = Триастәи аамҭазы иҟаз адинозавр ду.
-contribution-misreadings-example-2-explanation = ["Адинозаврқәа" ракәзароуп]
+contribution-misreadings-example-2-explanation = [«Адинозаврқәа» ыҟазароуп]
 contribution-misreadings-example-3-title = Адинозавр дуқәа Триассо-.
 contribution-misreadings-example-3-explanation = [Аҵыхәтәантәи ажәа нҵәаанӡа аҭаҩра нҵәоит]
 contribution-misreadings-example-4-title = Триастәи адинозавр дуқәа. Ааи.
 contribution-misreadings-example-4-explanation = [Иаҭахыз атекст еиҳаны иҭаҩуп]
 contribution-misreadings-example-5-title = Ҳара акаҳуа аажәра ҳдәылҵуеит.
 contribution-misreadings-example-6-title = Ҳара акаҳуа аажәра ҳцоит.
-contribution-misreadings-example-6-explanation = [«Ҳара» акәзароуп]
+contribution-misreadings-example-6-explanation = [«Ҳара» ыҟазароуп]
 contribution-misreadings-example-7-title = Ҳара акаҳуа аажәра ҳдәылҵуеит.
 contribution-misreadings-example-7-explanation = [Атекст ахыҵхырҭаҿы анбан "а" ыҟам]
 contribution-misreadings-example-8-title = Ашьхыц ԥырны ицеит.
