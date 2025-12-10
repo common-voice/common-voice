@@ -1,10 +1,10 @@
 ## REVIEW
 
 sc-review-lang-not-selected = Уара бызшәак уҳәаӡом. Урҭ ралхразы, шәца <profileLink>Профиль</profileLink> ахь.
-sc-review-title = Аҳәарақәа гәашәҭ
-sc-review-loading = Аҳәарақәа рҭагалара...
+sc-review-title = Аҳәоуқәа ргәаҭара
+sc-review-loading = Аҳәоуқәа рҭагалара...
 sc-review-select-language = Игәашәҭо аҳәоуқәа рбызшәа алышәх.
-sc-review-no-sentences = Уажәазы ​​игәаҭатәу ажәалагалақәа ыҟаӡам, аха <addLink>ҿыцқәак ацҵара ҟалоит!</addlink>
+sc-review-no-sentences = Уажәазы ​​игәаҭатәу аҳәоуқәа ыҟаӡам, аха <addLink>ҿыцқәак ацышәҵар шәылшоит!</addlink>
 sc-review-form-prompt =
     .message = Аиҩызцәа рыла ахәаԥшра змоу ажәалагалақәа ҟаҵамызт, агәра ганы уҟоума?
 sc-review-form-usage = Ажәалагала шәыдышәкыларц азы арӷьарахь шәнаскьа. Мап ацәкразы иаанхеит. Ахыԥара аҟынӡа. <strong>Ишәхашәмыршҭын шәреитинг ашьақәырӷәӷәара!</strong>
@@ -22,7 +22,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Уара иара убасгьы иухы иаурхәар улшоит ацаԥха: { sc-review-form-button-approve-shortcut } ақәшаҳаҭхаразы, { sc-review-form-button-reject-shortcut } мап ацәкразы, { sc-review-form-button-skip-shortcut } ахыԥара
 sc-review-form-button-submit =
-    .submitText = Агәаҭара анагӡара
+    .submitText = Агәаҭара ахыркәшара
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
