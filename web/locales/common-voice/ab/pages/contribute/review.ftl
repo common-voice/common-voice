@@ -27,10 +27,10 @@ sc-review-form-button-submit =
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] Макьана ажәалагалақәа гәаҭаӡам.
-        [one] Уара игәоуҭеит { $sentences } аҳәоу. Иҭабуп!
-        [few] Уара игәоуҭеит { $sentences } аҳәоуқәа. Иҭабуп!
-       *[many] Уара игәоуҭеит { $sentences } аҳәоуқәа. Иҭабуп!
+        [0] Шәара макьана ҳәоукгьы гәашәымҭац.
+        [one] Шәара игәашәҭеит { $sentences } аҳәоу. Иҭабуп!
+        [few] Шәара игәашәҭеит { $sentences } аҳәоуқәа. Иҭабуп!
+       *[many] Шәара игәашәҭеит { $sentences } ҳәоу. Иҭабуп!
     }
 sc-review-form-review-failure = Ахҳәаа аиқәырхара алымшеит. Ҳаҳәоит, нас даҽазнык шәҽазышәшәа.
 sc-review-link = Агәаҭара
@@ -40,9 +40,9 @@ sc-review-link = Агәаҭара
 sc-criteria-modal = ⓘ Агәаҭаратә критериақәа
 sc-criteria-title = Агәаҭаратә критериақәа
 sc-criteria-make-sure = Апропозициақәа абарҭ аҭахрақәа ирықәшәоит ҳәа агәра ганы шәыҟаз:
-sc-criteria-item-1 = Ажәаҳәа аҩышьа иашазароуп.
-sc-criteria-item-2 = Ажәаҳәа грамматикала ииашазароуп.
-sc-criteria-item-3 = Ажәаҳәа убас иҟазароуп, ажәала иуҳәартә еиԥш.
+sc-criteria-item-1 = Аҳәоу аҩышьа иашазароуп.
+sc-criteria-item-2 = Аҳәоу грамматикала ииашазароуп.
+sc-criteria-item-3 = Аҳәоу иузҳәаратәы ыҟазароуп.
 sc-criteria-item-4 = Ажәалагала акритериақәа ирықәшәозар, &quot;Ақәшаҳаҭхара&quot; ақәыӷәӷәара.
 sc-criteria-item-5-2 =
     Аҳәара акритериақәа ирықәымшәозар, ақәыӷәӷәара
