@@ -9,19 +9,19 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> аҭаҩра
        *[other] <bold>{ $count }</bold> аҭаҩрақәа
     }
-goal-help-recording = Ҳара есымшатәи ҳанҵамҭақәа аҩаӡара { $goalValue }! Common Voice ахықәкы аҟынӡа ашьҭыхраҿы, уара <goalPercentage></goalPercentage> ацхыраара ҳауҭеит.
-goal-help-validation = Ҳара есымшатәи ҳхықәкы { $goalValue } <goalPercentage></goalPercentage> аҩаӡара Common Voice аҟынӡа агәаҭараҿы уара ацхыраара ҳауҭеит.
+goal-help-recording = Шәара Common Voice шәацхрааит анаӡара <goalPercentage></goalPercentage> есыҽнытәи аҭаҩрақәа рхықәкқәа рҟынтәи{ $goalValue } аҿы!
+goal-help-validation = Шәара Common Voice шәацхрааит анаӡара <goalPercentage></goalPercentage> есыҽнытәи агәаҭарақәа рхықәкқәа рҟынтәи{ $goalValue } аҿы!
 contribute-more =
     { $count ->
         [one] Шәыхиоума иҵегьы { $count } аҟаҵара?
        *[other] Шәыхиоума иҵегьы { $count } аҟаҵара?
     }
 speak-empty-state = Ари абызшәала иҭааҩыша аҳәоуқәа нҵәеит...
-no-sentences-for-variants = Шәбызшәа авариант аҿы жәаҳәатәқәак ыҟамзар ҟалоит! Уара угәы иақәшәозар, убызшәала даҽа аҳамҭақәа убарц азы, уеиқәыршәарақәа уԥсахыр улшоит.
+no-sentences-for-variants = Шәбызшәатә вариант аҿы аҳәоуқәа ыҟамзар ҟалоит! Ишәзыманшәалазар, шәбызшәала даҽа ҳәоуқәа жәбарц азы, шәырхиарақәа шәыԥсахыр шәылшоит.
 speak-empty-state-cta = Аҳәоуқәа рыдгалара
 speak-loading-error =
     Уара иуҳәашаз жәаҳәаракгьы ҳзыԥшаауамызт.
-    Ҳаҳәоит, нас даҽазнык шәҽазышәшәа.
+    Ҳшәыҳәоит, нас даҽазнык шәҽазышәшәа.
 record-button-label = Шәыбжьы ҭажәҩы
 share-title-new = <bold>Шәҳацхраа</bold> иҵегьы абыжьқәа рыԥшаараҿы
 keep-track-profile = Шәыпрофиль шәыцырхырааны шәыпрогресс  шәашьклаԥшла
