@@ -1,9 +1,9 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Уара бызшәак уҳәаӡом. Урҭ ралхразы, шәца <profileLink>Профиль</profileLink> ахь.
+sc-review-lang-not-selected = Шәара бызшәазаалак акгьы иашәмырбаӡеит. Урҭ ралхразы, шәиас <profileLink>Апрофиль</profileLink> ахь.
 sc-review-title = Аҳәоуқәа ргәаҭара
 sc-review-loading = Аҳәоуқәа рҭагалара...
-sc-review-select-language = Игәашәҭо аҳәоуқәа рбызшәа алышәх.
+sc-review-select-language = Ҳшәыҳәоит, игәашәҭо аҳәоуқәа рбызшәа алышәх.
 sc-review-no-sentences = Уажәазы ​​игәаҭатәу аҳәоуқәа ыҟаӡам, аха <addLink>ҿыцқәак ацышәҵар шәылшоит!</addlink>
 sc-review-form-prompt =
     .message = Аиҩызцәа рыла ахәаԥшра змоу ажәалагалақәа ҟаҵамызт, агәра ганы уҟоума?
