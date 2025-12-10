@@ -1,13 +1,13 @@
 speak = Ацәажәара
 speak-now = Уажәы уцәажәа
-speak-subtitle = Шәыбжьы ҭажәгал
-record-cta = Абжьы ҭаҩра иалагоит
+speak-subtitle = Шәыбжьы ҭажәҩы
+record-cta = Абжьы аҭаҩра шәалага
 record-platform-not-supported = Ҳгәы иалоуп уажәазы уара уплатформа ацхыраара ахьамам.
 record-platform-not-supported-desktop = Астол иқәдыргыло акомпиутерқәа ирҭаугалар улшоит аҵыхәтәантәи:
 record-platform-not-supported-ios-non-safari = IOS аҿы аҭаҩра аус аруразы, шәхы иашәырхәа Safari...
 record-must-allow-microphone = Уара азин ҟауҵароуп амикрафон ахархәара.
 record-no-mic-found = Амикрофон ԥшаам
-record-error-too-short = Абжьы ҭаҩра кьаҿуп
+record-error-too-short = Аҭаҩымҭа кьаҿӡоуп.
 record-error-too-long = Абжьы ҭаҩра аууп
 record-error-too-quiet = Абжьы ҭаҩра мыцхәы илаҟәуп
 record-cancel = Абжьы еиҭаҭаҩра мап ацәктәуп
