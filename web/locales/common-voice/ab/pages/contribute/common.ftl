@@ -1,4 +1,4 @@
-action-click = Ақәқшара
+action-click = Аиқәқшара
 action-tap = Шәақәыӷәӷәа
 contribute = Аҽалархәара
 review = Агәаҭара
