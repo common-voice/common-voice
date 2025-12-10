@@ -26,7 +26,7 @@ record-button-label = Шәыбжьы ҭажәҩы
 share-title-new = <bold>Шәҳацхраа</bold> иҵегьы абыжьқәа рыԥшаараҿы
 keep-track-profile = Шәыпрофиль шәыцырхырааны шәыпрогресс  шәашьклаԥшла
 login-to-get-started = Шәҭал, ма шәыҽҭажәгал алагаразы
-target-segment-first-card = Уара ҳхықәкыратә сегмент актәи уалахәуп
+target-segment-first-card = Шәара раԥхьатәи ҳхықәкытә сегмент азы алагала ҟашәҵоит
 target-segment-generic-card = Уара ахықәкытә сегмент уалахәуп
 target-segment-first-banner = Ацхыраара аԥҵараҿы раԥхьатәи Азеиԥш Бжьы ахықәкытә сегмент { $locale } аҟны
 target-segment-add-voice = Шәыбжьы ацҵара
@@ -60,7 +60,7 @@ report-other-comment =
     .placeholder = Ахцәажәара
 success = Ихиоуп
 continue = Ацҵара
-report-success = Уцҳамҭа қәҿиа­рала идәықәҵоуп
+report-success = Ашшԥхьыӡ қәҿиа­рала инашьҭын
 
 ## Speak & Listen Shortcuts
 
@@ -74,9 +74,9 @@ shortcut-skip = с
 shortcut-record-toggle = и
 shortcut-record-toggle-label = Аҭаҩра/Аанкылара
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Анҵамҭақәа еиҭа-ианҵатәуп
+shortcut-rerecord-toggle-label = Аклип аиҭаҭаҩра
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Уажәтәи анҵамҭа аԥыхтәуп
+shortcut-discard-ongoing-recording-label = Уажәтәи аҭаҩра аԥыхра
 shortcut-submit = Return
 shortcut-submit-label = Анҵамҭақәа шьҭтәуп
 request-language-text = Common Voice аҟны шәбызшәа макьана ишәымбаӡои?
