@@ -83,6 +83,7 @@ dav = Kidaw'ida
 de = Jerman
 dmk = Dawoodi
 dml = Dameli
+dru = Rukai
 dsb = Sorbian, Ngisor
 dua = Duala
 dv = Dhivehi
@@ -97,6 +98,10 @@ et = Estonia
 eto = Eton
 eu = Basque
 ewo = Ewondo
+fa = Persia
+fan = Fang
+ff = Fulah
+fi = Finlandia
 
 # [/]
 
