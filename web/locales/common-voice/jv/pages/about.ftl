@@ -42,6 +42,16 @@ about-clip-graveyard-text =
     Juglangan Klip kuwi isine klip swara sing ora mlebu ning kumpulan data Common Voice. Koyok kumpulan data, Juglangan Klip terus ono menawa butuh diundhuh.
     
     Suwun gawe wong-wong lan para organisasi ing ngisor iki kanggo bantuan karo proyek:
+about-get-involved = Melu
+about-get-involved-text-2 =
+    Pengin mbantu nggawe Common Voice luwih apik?
+    apik tenan! Hubungi liwat email utawa <discourseLink>DiscourseLink</discourseLink>
+    forum, kirim masalah situs liwat <githubLink>GitHub</githubLink>, utawa gabung karo
+    <matrixLink>Matrix</matrixLink> obrolan komunitas.
+about-stay-in-touch = Kepiye carane aku tetep sesambungan?
+about-stay-in-touch-button = Daftar
+about-stay-in-touch-text-1 = <emailFragment>Daftar</emailFragment> menyang mailing list kita kanggo mangerteni carane sampeyan bisa melu kampanye, acara lan fitur co-design ing Common Voice.
+about-stay-in-touch-text-2 = Sampeyan bisa ketemu wong liya ing komunitas bahasa Mozilla, carane gabung karo <discordLink>Discord</discordLink> utawa <discourseLink>DiscourseLink> kanggo obrolan seng nduwe topik, utawa <matrixLink>Matrix</matrixLink> kanggo saran cepet.
 about-nav-why-common-voice = kenapa?
 about-nav-how-it-works = kepiye?
 about-nav-partners = kanca
@@ -144,3 +154,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Waca liyane ba
 ## How is Common Voice funded
 
 about-playbook-how-funded = Kepiye carane Common Voice dibiayai?
+about-playbook-how-funded-content-1 = Common Voice minangka proyek saka Mozilla Foundation, US 501c3. Proyek iki saiki dibiayai kabeh dening <philantropicGrantLink>hibah filantropis</philantropicGrantLink>, lan sumbangan saka wong ing saindenging ndonya.
+about-playbook-how-funded-content-2 = Mbutuhake dhuwit akeh kanggo terus-terusan dadi host lan ngasilke kumpulan data, nambah platform lan mbukak <africaMradiLink>program komunitas</africaMradiLink>.
+about-playbook-how-funded-content-3 = Yen sampeyan utawa organisasi sampeyan pengin nyumbang maneh kanggo proyek iki, sampeyan bisa nggawe <donateLink>sumbangan</donateLink> utawa hubungi tim kekancan kita ing <emailFragment>commonvoice@mozilla.com</emailFragment>.

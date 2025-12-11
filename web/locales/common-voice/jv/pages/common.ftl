@@ -1,0 +1,102 @@
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
+
+
+## Languages
+
+aa = Afar
+aat = Arvanitika
+ab = Abkhaz
+abb = Bankon
+abq = Abaza
+ace = Aceh
+ady = Adyghe
+af = afrika
+aii = Suret
+ajg = Adja
+aln = Gheg Albanian
+am = Amharic
+an = Aragon
+ar = Arab
+arn = Mapudungun
+as = Assamese
+ast = Asturian
+az = Azerbaijan
+azz = Highland Puebla Nahuatl
+ba = Bashkir
+bag = Tuki
+bal = Balochi
+bas = Basaa
+bax = Bamun
+bba = Batonum
+bbj = Ghomala
+bbl = Tush
+bce = Ngambo
+bci = Baoule
+be = Belarusia
+beb = Bamvele
+bew = Betawi
+bfd = Bafut
+bft = Balti
+bg = Bulgaria
+bgp = Balochi Wetan
+bkh = Bakoko
+bkm = Kom
+bm = Bambara
+bn = Bengali
+bnm = Batanga
+bnn = Bunun
+bo = Tibet
+br = Breton
+brh = Brahui
+bri = Mokpwe
+brx = Bodo
+bs = Bosnia
+bsh = Kateviri
+bsk = Brushaski
+bsy = Sabah Bisaya
+btv = Bateri
+bum = Bulu
+bxk = Bukusu
+bxr = Buryat
+byv = Medumba
+ca = Katalan
+cak = Kaqchikel
+cdo = Min Wetan
+cgg = Chiga
+cjk = Chokwe
+ckb = Kurdi Tengah
+cnh = Hakha Chin
+co = Korsika
+cpx = Heng Hua
+cpy = Ashenka Ucayali Kidul
+crh = Tatar Krimea
+cs = Ceko
+cut = Teutila Cuicatec
+cux = Tepeuxila Cuicatec
+cv = Chuvash
+cy = Welsh
+da = denmark
+dag = Dagbani
+dar = Dargwa
+dav = Kidaw'ida
+de = Jerman
+dmk = Dawoodi
+dml = Dameli
+dsb = Sorbian, Ngisor
+dua = Duala
+dv = Dhivehi
+dyu = Dioula
+ebr = Ebrie
+ee = Ewe
+el = Yunani
+en = Basa Inggris
+eo = Esperanto
+es = Basa Spanyol
+et = Estonia
+eto = Eton
+eu = Basque
+ewo = Ewondo
+
+# [/]
+
