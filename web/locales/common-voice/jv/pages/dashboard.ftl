@@ -65,3 +65,17 @@ share-n-weekly-contribution-goal = Nuduhake { $count } Klip sasaran mingguan sam
 share-goal-type-speak = ngomong
 share-goal-type-listen = Ngrungokake
 share-goal-type-both = Ngomong lan Ngrungokake
+# LINK will be replaced with the current URL
+goal-share-text = Aku mung nggawe sasaran pribadi kanggo sumbangan swara kanggo #CommonVoice -- gabung karo aku lan tulungi mulang mesin carane wong nyata ngomong { $link }
+weekly-goal-created = Tujuan mingguan sampeyan wis digawe
+daily-goal-created = Tujuan saben dina wis digawe
+track-progress = Lacak kemajuan ing kene lan ing kaca statistik sampeyan.
+return-to-edit-goal = Bali menyang kene kanggo ngowahi sasaran sampeyan kapan wae.
+share-goal = Nuduhake sasaranku
+
+## Goals
+
+streaks = garis
+days = Dina
+recordings = Rekaman
+validations = Validasi
