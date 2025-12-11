@@ -92,3 +92,20 @@ about-playbook-how-localize-content-5 = delengen panjelasan video kita kanggo mb
 
 about-playbook-how-add-sentences = Kepiye caraku nambah ukara?
 about-playbook-how-add-sentences-content-1 = Sampeyan bisa nambah ukara ing <writePageLink>Halaman Tulis</writePageLink> utawa mriksa ukara ing <reviewPageLink> Halaman Priksa</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Ukara kudu dideleng lan ditampa dening wong loro ben bisa dilebokake ing Common Voice. Sampeyan nggawe pedoman kanggo basa sampeyan <languageGuidelinesLink>kene</languageGuidelinesLink>. Ukara kudu ana ing <licenseLink>domain publik</licenseLink> lan luwih cendhek tekan 15 tembung. Sampeyan bisa njaluk sing duwe teks kanggo nggawe <waiverLink>CC0 nggunakake proses waiver kita</waiverLink>, lan ngirim menyang kita ing commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Sampeyan bisa nggunakake <scraperLink>Ekstrak Kalimat</scraperLink> kanggo nggunakake ukara cekak saka Wikipedia.
+
+## How to record quality
+
+about-playbook-how-record-quality = Kepiye carane ngrekam klip swara kualitas dhuwur?
+about-playbook-how-record-content-1 = Ngomong nganggo swara biasa! Cara sampeyan ngomong ditampa ing kene - kita pengin logat apa anane tekan sampeyan, lan kita pengin volume swara, gaya lan intonasi sing biasa.
+about-playbook-how-record-content-2 = Ngindhari swara latar mburi sing akeh banget - mesthine gampang kanggo ngerungokake sampeyan.
+about-playbook-how-record-content-3 = Waca ukara kasebut kanthi teliti - aja salah, ngganti utawa nambahi tembung.
+about-playbook-how-record-content-4 = Priksa manawa platform kasebut wes ngrekam sadurunge sampeyan mulai ngomong, lan mung bakal mandheg yen sampeyan wis rampung.
+about-playbook-how-record-content-5 = <accuracyLink>Deleng liyane babagan ing kritéria akurasi.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Kepiye carane bisa tuwuh basa kanthi efektif ing Common Voice?
+about-playbook-how-grow-language-content-1 = Nggawe kesempatan marang macem-macem wong kanggo nyumbang kanggo Common Voice njamin kumpulan data bisa digunakake kanggo wong akeh. Kita wis nggawe sumber daya lan template sing bisa digunakake!
+about-playbook-how-grow-language-content-2 = Acara
