@@ -37,4 +37,58 @@ about-no-votes = ≥ 2 Ora ana seng milih
 about-no-votes-text = Nalika pengguna nolak klip swara mbalik nang Antrian. Yen ditolak ping pindho, klip swara dipindhah nang Kuburan Klip.
 about-dataset-new = Kumpulan data Common Voice
 about-dataset-new-text = Kumpulan data Common Voice isine atusan ewu contho swara sing mbantu pangembang nggawe alat pangenalan swara.
-about-clip-graveyard = Kuburan Klip
+about-clip-graveyard = Juglangan Klip
+about-clip-graveyard-text =
+    Juglangan Klip kuwi isine klip swara sing ora mlebu ning kumpulan data Common Voice. Koyok kumpulan data, Juglangan Klip terus ono menawa butuh diundhuh.
+    
+    Suwun gawe wong-wong lan para organisasi ing ngisor iki kanggo bantuan karo proyek:
+about-nav-why-common-voice = kenapa?
+about-nav-how-it-works = kepiye?
+about-nav-partners = kanca
+about-nav-get-involved = Melu
+about-nav-how-it-works-2 = Kepiye cara kerja Common Voice?
+about-nav-playbook = Sinau carane njupuk bagian
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Apa basa ing Common Voice?
+about-playbook-what-is-language-content-1 = Ana akeh cara kanggo mikir babagan basa. yen tujuan e pangenalan wicara, Common Voice nyaranake fokus ing 'padha ngertine', utawa 'apa penutur basa iki bisa padha ngertine siji lan liyane yen nyoba?'
+about-playbook-what-is-language-content-2 = Kita pengin model wicara luwih apik kanggo mangerteni macem-macem penutur. Kanggo mujudake kasebut, kumpulan data swara kudhu makili akeh wong sing beda-beda.
+about-playbook-what-is-language-content-3 = Sakwetara basa duwe akeh variasi ning tata ukara, cara nulis lan cara tutur. Pramila, kita <ctaLink>ngenalake 'Variasi'</ctaLink> ing taun 2022. Iki wenehi komunitas cara kanggo mbedakake basa ning kumpulan data sing luwih gedhe.
+
+## How do I add a language
+
+about-playbook-how-add-language = Kepiye carane nambah basa?
+about-playbook-how-add-language-content-1 =
+    Kapisan, priksa manawa basa sampeyan <languageLink>wis ana</languageLink>.
+    Yen ora ana, sampeyan bisa <languageRequestLink>takon babagan nambahake basa sampeyan</languageRequestLink>.
+    Ana rong tahapan. Nerjemahake situs, lan ngumpulake ukara
+about-playbook-how-add-language-translating-heading = Nerjemahake situs
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Deleng pandhuan kita kepiye cara nggunakake Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Kita nggunakake alat Mozilla sing diarani <pontoonLink>Pontoon</pontoonLink> kanggo nerjemahake. Pontoon nduweni akeh basa,
+    nanging yen ora duwe basa ne sampeyan, sampeyan bisa <pontoonRequestLink>njaluk supaya basa sampeyan ditambahake</pontoonRequestLink>.
+    Banjur, kanggo nggawe basa kasedhiya ing proyek Common Voice,
+    <githubRepoLink>njaluko basa anyar ing GitHub</githubRepoLink>. <localizationFragment>Deleng liyane ing situs terjemahan</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Ngumpulake ukara
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Deleng pandhuan kita kangge nggunakake Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Sampeyan bisa <sentenceCollectorLinkAdd>nambah sithik jumlah ukara</sentenceCollectorLinkAdd>,
+    utawa sampeyan bisa nindakake <bulkImportDocsLink>impor bareng-bareng nggunakake Github</bulkImportDocsLink>.
+    Elinga yen ukara kudu <licenseLink>CC0 (utawa domain publik)</licenseLink>, utawa sampeyan bisa nulis dhewe.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Deleng liyane ing koleksi ukara</sentenceCollectorFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Kepiye cara kerjone lokalisasi situs?
+about-playbook-how-localize-content-1 = Terjemahan situs Common Voice kedadeyan ing <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Gawe akun</pontoonAccountLink> yen sampeyan ora duwe. Banjur, pilih basa sampeyan <strong>('Tim')</strong> banjur pilih proyek, <pontoonCvLink>Swara Umum</pontoonCvLink>. Bakal ana file sing arep diterjemahake. Klik siji, banjur nuduhake tembung ing basa Inggris lan kothak kanggo nerjemahake.
+about-playbook-how-localize-content-3 = Terjemahan saka basa Inggris, nanging sampeyan bisa ndeleng <strong>Saran</strong> ing basa liya. Klik lambang <strong>Profil</strong>, banjur logo <strong>Setelan</strong> lan tambahake basa sing sampeyan gunakake. Ing pojok tengen ngisor bakal ana daftar terjemahan sing diarani <strong>Lokal</strong>. Terjemahan nuduhake ing situs sawise sedina.
+about-playbook-how-localize-content-4 = Situs e siap diluncurake yen wis 75% rampung.
+about-playbook-how-localize-content-5 = delengen panjelasan video kita kanggo mbantu
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Kepiye caraku nambah ukara?
+about-playbook-how-add-sentences-content-1 = Sampeyan bisa nambah ukara ing <writePageLink>Halaman Tulis</writePageLink> utawa mriksa ukara ing <reviewPageLink> Halaman Priksa</reviewPageLink>.
