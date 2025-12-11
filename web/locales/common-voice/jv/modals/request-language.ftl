@@ -1,5 +1,8 @@
 ## Request Language Modal
 
+request-language-title = Panjaluk Basa
+request-language-form-language =
+    .label = Basa
 request-language-success-title = Panyuwunan basa wis kasil dikirim, matur nuwun.
 request-language-success-content = Awak e bakal ndang kesambung karo informasi luwih lengkap babagan carane nambah basa sampeyan menyang Common Voice enggal.
 select-language = Pilih Basa...
