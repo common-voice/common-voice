@@ -7,7 +7,7 @@ sc-review-select-language = Ҳшәыҳәоит, игәашәҭо аҳәоуқә�
 sc-review-no-sentences = Уажәазы ​​игәаҭатәу аҳәоуқәа ыҟаӡам, аха <addLink>ҿыцқәак ацышәҵар шәылшоит!</addlink>
 sc-review-form-prompt =
     .message = Арецензиа зызу аҳәоуқәа инашьҭӡам, агәра жәгома?
-sc-review-form-usage = Ажәалагала шәыдышәкыларц азы арӷьарахь шәнаскьа. Мап ацәкразы иаанхеит. Ахыԥара аҟынӡа. <strong>Ишәхашәмыршҭын шәреитинг ашьақәырӷәӷәара!</strong>
+sc-review-form-usage = Аҳәоуқәа шәыдышәкыларц азы арӷьарахь ииажәга. Мап ацәкразы армарахь ииажәга. Хыхь абжьажьразы. <strong>Ишәхашәмыршҭын шәыхәшьара ашьақәырӷәӷәара!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Ахыҵхырҭа: { $sentenceSource }
@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
-sc-review-form-keyboard-usage-custom = Уара иара убасгьы иухы иаурхәар улшоит ацаԥха: { sc-review-form-button-approve-shortcut } ақәшаҳаҭхаразы, { sc-review-form-button-reject-shortcut } мап ацәкразы, { sc-review-form-button-skip-shortcut } ахыԥара
+sc-review-form-keyboard-usage-custom = Иара убас шәхы иашәырхәар шәылшоит арыдқәа: { sc-review-form-button-approve-shortcut } ақәшаҳаҭхаразы, { sc-review-form-button-reject-shortcut } мап ацәкразы, { sc-review-form-button-skip-shortcut } абжьажьразы
 sc-review-form-button-submit =
     .submitText = Агәаҭара ахыркәшара
 # Variables:
