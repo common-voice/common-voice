@@ -32,13 +32,13 @@ sc-review-form-reviewed-message =
         [few] Шәара игәашәҭеит { $sentences } аҳәоуқәа. Иҭабуп!
        *[many] Шәара игәашәҭеит { $sentences } ҳәоу. Иҭабуп!
     }
-sc-review-form-review-failure = Ахҳәаа аиқәырхара алымшеит. Ҳаҳәоит, нас даҽазнык шәҽазышәшәа.
+sc-review-form-review-failure = Арецензиа аиқәырхара алымшеит. Ҳшәыҳәоит, ԥыҭрак ашьҭахь даҽазнык шәҽазышәшәа.
 sc-review-link = Агәаҭара
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ Агәаҭаратә критериақәа
-sc-criteria-title = Агәаҭаратә критериақәа
+sc-criteria-modal = ⓘ Агәаҭара акритериақәа
+sc-criteria-title = Агәаҭара акритериақәа
 sc-criteria-make-sure = Апропозициақәа абарҭ аҭахрақәа ирықәшәоит ҳәа агәра ганы шәыҟаз:
 sc-criteria-item-1 = Аҳәоу аҩышьа иашазароуп.
 sc-criteria-item-2 = Аҳәоу грамматикала ииашазароуп.
