@@ -57,7 +57,7 @@ review-error = Ари аҳәоу ахәшьара аҭараан агха ҟал
 review-error-rate-limit-exceeded = Шәара мыцхәы шәыццакуеит. Аҳәоу шәыхшыҩ азышьҭны шәахәаԥш, ииашоу-ииашаму еилышәкаарц азы.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Аиҭакра дуқәа ҳамоуп
-sc-redirect-page-subtitle-1 = Ауалҳәаҩы Common Voice аплатформа хада ахь диасуеит. Уажәшьҭа шәара ишәылшоит <writeURL>шәҩырц</writeURL> жәаҳәа мамзаргьы <reviewURL>ахәаԥш</reviewURL> жәаҳәарак Азеиԥш бжьы аҟны.
-sc-redirect-page-subtitle-2 = Азҵаарақәа ҳаҭ <matrixLink>Матрица</matrixLink>, <discourseLink>Дискурс</discourseLink>мамзаргьы <emailLink>email</emailLink> ала.
+sc-redirect-page-subtitle-1 = Аҳәоуқәа реизгаҩ Common Voice аплатформа хада ахь ииасуеит. Уажәшьҭа шәара <writeURL>аҳәоу</writeURL> жәҩыр, мамзаргьы <reviewURL>ҳәоук</reviewURL> шәахәаԥшыр шәылшоит Common Voice аҟны.
+sc-redirect-page-subtitle-2 = Азҵаарақәа ҳашәҭ <matrixLink>Matrix</matrixLink><discourseLink>Discourse</discourseLink>мамзаргьы <emailLink>аелектронтә ԥошьҭа</emailLink> ала.
 # menu item
 review-sentences = Аҳәоуқәа ргәаҭара

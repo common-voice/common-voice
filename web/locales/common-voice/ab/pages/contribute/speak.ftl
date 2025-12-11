@@ -1,8 +1,8 @@
-speak = Ацәажәара
-speak-now = Уажәы уцәажәа
+speak = Шәцәажәа
+speak-now = Уажәы шәцәажәа
 speak-subtitle = Шәыбжьы ҭажәҩы
 record-cta = Абжьы аҭаҩра шәалага
-record-platform-not-supported = Ҳгәы иалоуп уажәазы уара уплатформа ацхыраара ахьамам.
+record-platform-not-supported = Ҳгәы иалоуп уажәазы шәара шәыплатформа адгылара ахьамам.
 record-platform-not-supported-desktop = Астол иқәдыргыло акомпиутерқәа ирҭаугалар улшоит аҵыхәтәантәи:
 record-platform-not-supported-ios-non-safari = IOS аҿы аҭаҩра аус аруразы, шәхы иашәырхәа Safari...
 record-must-allow-microphone = Уара азин ҟауҵароуп амикрафон ахархәара.
