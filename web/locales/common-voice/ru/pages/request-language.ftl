@@ -17,7 +17,7 @@ request-language-form-info-explanation-list-1 = Названия вашего я
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-коды</isoCodeLink>, если они известны
 request-language-form-info-explanation-list-3 = Ссылки на веб-сайты, которые могут помочь нам понять язык
 request-language-google-recaptcha-required = Требуется reCAPTCHA, если вы хотите продолжить
-request-language-google-recaptcha-error = Что-то пошло не так с reCAPTCHA. Пожалуйста, попробуйте еще раз.
+request-language-google-recaptcha-error = Что-то пошло не так с reCAPTCHA. Пожалуйста, попробуйте ещё раз.
 # Success page
 request-language-success-heading = Спасибо! Вы отправили запрос на новый язык
 request-language-success-list-1 =

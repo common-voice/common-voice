@@ -114,7 +114,7 @@ about-playbook-how-grow-language-content-2 = События
 about-playbook-how-grow-language-content-3 = Вы можете проводить мероприятия, чтобы помочь людям внести свой вклад. Это проще, чем вы думаете. Вы можете сделать это онлайн с помощью инструмента для видеоконференций или лично, если это безопасно. <eventTemplate>Ознакомьтесь с нашими шаблонами и ресурсами для проведения мероприятий</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Социальные медиа
 about-playbook-how-grow-language-content-5 = Вы можете использовать платформы социальных сетей, чтобы донести сообщение. Делитесь публикациями, объясняющими, почему это важно, и связывайтесь с другими людьми, говорящими о таких вопросах, как языковые права, голосовой ИИ или предвзятость в технологиях. Ознакомьтесь с дополнительными советами по <campaignLink>проведению социальной кампании, включая контент, который вы можете использовать повторно</campaignLink>.
-about-playbook-how-grow-language-content-6 = Партнерства и сети
+about-playbook-how-grow-language-content-6 = Партнёрства и сети
 about-playbook-how-grow-language-content-7 = Найдите других, кому не все равно. Это могут быть университеты, языковые школы, группы защиты интересов или сообщества специалистов по данным. Протяните руку и четко объясните, как они могут помочь и почему. <outreachTemplates>Посмотрите наши шаблоны информационных писем</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Проявляйте творческий подход!</strong> Ваше языковое сообщество будет уникальным, и это всего лишь несколько способов начать работу.
 
@@ -146,6 +146,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Узнайте
 ## How is Common Voice funded
 
 about-playbook-how-funded = Как финансируется Common Voice?
-about-playbook-how-funded-content-1 = Common Voice — это проект Mozilla Foundation, US 501c3. В настоящее время проект финансируется полностью за счет <philantropicGrantLink>благотворительных грантов</philantropicGrantLink>, а также пожертвований людей со всего мира.
+about-playbook-how-funded-content-1 = Common Voice — это проект Mozilla Foundation, US 501c3. В настоящее время проект финансируется полностью за счёт <philantropicGrantLink>благотворительных грантов</philantropicGrantLink>, а также пожертвований людей со всего мира.
 about-playbook-how-funded-content-2 = Постоянное размещение и выпуск наборов данных, улучшение платформы и запуск <americaMradiLink>программ сообщества</americaMradiLink> стоит огромных денег.
 about-playbook-how-funded-content-3 = Если вы или ваша организация хотите внести свой вклад в проект, вы можете сделать <donateLink>пожертвование</donateLink> или связаться с нашей командой по работе с партнёрами по адресу <emailFragment>commonvoice@mozilla.com</emailFragment>.
