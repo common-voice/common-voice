@@ -1,5 +1,5 @@
 # Age and Gender form
-age-gender-form-title = Matur nuwun wis nyumbangake swara sampeyan!
+age-gender-form-title = Matur nuwun wis kontribusi kanggo Ngomong Spontan!
 age-gender-form-subtile = Kanthi crita babagan sampeyan dhewe, sampeyan bakal mbantu para pangembang mbangun teknologi sing luwih inklusif
 add-information-button = Tambah informasi
 continue-speaking-button = Teruske ngomong
