@@ -109,3 +109,38 @@ about-playbook-how-record-content-5 = <accuracyLink>Deleng liyane babagan ing kr
 about-playbook-how-grow-language = Kepiye carane bisa tuwuh basa kanthi efektif ing Common Voice?
 about-playbook-how-grow-language-content-1 = Nggawe kesempatan marang macem-macem wong kanggo nyumbang kanggo Common Voice njamin kumpulan data bisa digunakake kanggo wong akeh. Kita wis nggawe sumber daya lan template sing bisa digunakake!
 about-playbook-how-grow-language-content-2 = Acara
+about-playbook-how-grow-language-content-3 = Sampeyan bisa nganakake acara kanggo mbantu wong melu kontribusi. Iku luwih gampang timbang sing sampeyan pikirake. Sampeyan bisa nindakake kanthi online nganggo alat konferensi video, utawa kanthi pribadi yen aman. <eventTemplate>Priksa template lan sumber daya kanggo acara sing lagi mlaku</eventTemplate>.
+about-playbook-how-grow-language-content-4 = media sosial
+about-playbook-how-grow-language-content-5 = Sampeyan bisa nggunakake platform media sosial kanggo ngirim pesen kasebut. Nudhuhake kiriman sing nerangake kenapa penting, lan hubungi wong liya babagan masalah kaya hak basa, AI swara, utawa bias ing teknologi. Deleng saran liyane babagan <campaignLink>nglakokake kampanye sosial, termasuk konten sing bisa digunakake maneh</campaignLink>.
+about-playbook-how-grow-language-content-6 = Kekancan lan jaringan
+about-playbook-how-grow-language-content-7 = Golek liyane sing peduli. Bisa uga universitas, sekolah basa, grup advokasi utawa komunitas ilmu data. Temokake lan jelasake kanthi jelas kepiye carane bisa mbantu lan sebabe. <outreachTemplates>Deleng email penjangkau cithakan kita</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Kreatif!</strong> Komunitas basa sampeyan bakal unik, lan iki mung sawetara cara kanggo miwiti.
+
+## How to validate
+
+about-playbook-how-validate = Kepiye carane aku ngerti yen arep nyetujoni klip swara?
+about-playbook-how-validate-content-1 = Yen sampeyan bisa<strong>krungu</strong>lan<strong>ngerti</strong>, biasane <strong>iku paling apik disetujoni</strong>.
+about-playbook-how-validate-content-2 = <strong>Aja nolak klip kang ngomonge 'duwe logat' sing beda karo sampeyan dhewe</strong> - iki penting supaya pangenalan swara bisa luwih apik kanggo kabeh wong.
+about-playbook-how-validate-content-3 = Yen sampeyan mikir lafal kasebut ndadekake <strong>ora bisa dimangerteni</strong>, utawa ana<strong>akeh gangguan swara ing  mburi</strong>, utawa ana<strong>wong liya sing ngomong</strong>, sampeyan kudhu nolak klip kasebut. <accuracyLink>Deleng informasi liyane ing kritéria akurasi kita</accuracyLink>.
+about-playbook-how-validate-content-4 = Yen klip ditolak dening 2 wong, bakal diluncurake ing cabang sing beda saka kumpulan data.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Kepiye carane ngakses lan nggunakake kumpulan data?
+about-playbook-how-access-dataset-content-1 = Sampeyan bisa pindhah menyang <datasetsPage>kumpulan data</datasetsPage>, pilih versi lan basa sing dikarepake, lan undhuh! File kasebut duwe <metadataLink>metadata sing hubungan</metadataLink>, kayata informasi demografi lan data validasi. Sampeyan kudhu menehi alamat email kanggo ngundhuh kumpulan data.
+about-playbook-how-access-dataset-content-2 = Yen sampeyan nggoleki alat kanggo mbangun model ASR, sampeyan bisa nyambung menyang wong liya ing komunitas <discourseLink>ing Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Kepiye carane keputusan proyek digawe?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice bisa ana amarga dening komunitas aktivis, ahli basa, ilmuwan data, akademisi lan insinyur piranti lunak sing beda-beda saka kabeh ndonya. Proyek iki diurus dening Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Pamrentahan kita didegake ing pilar:
+about-playbook-how-project-governance-content-3 = Privasi, keamanan lan transparansi.
+about-playbook-how-project-governance-content-4 = Partisipasi komunitas lan nggawe keputusan.
+about-playbook-how-project-governance-content-5 = Nilai lan pangenalan.
+about-playbook-how-project-governance-content-6 = tanggung jawab ing kang padha
+about-playbook-how-project-governance-content-7 = <governanceLink>Waca liyane babagan carane kita diatur</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Kepiye carane Common Voice dibiayai?
