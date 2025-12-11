@@ -54,7 +54,7 @@ report-sc-different-language = Даҽа бызшәак
 report-sc-different-language-detail = Ари арецензиа азызуа абызшәа ала акәымкәа, даҽа бызшәак ала иҩуп.
 sentences-fetch-error = Аҳәоу аиураан агха ҟалеит
 review-error = Ари аҳәоу ахәшьара аҭараан агха ҟалеит
-review-error-rate-limit-exceeded = Уара мыцхәы уццакуеит. Ажәаҳәа ибзианы шәахәаԥш, ииашоу-ииашаму еилышәкаарц азы.
+review-error-rate-limit-exceeded = Шәара мыцхәы шәыццакуеит. Аҳәоу шәыхшыҩ азышьҭны шәахәаԥш, ииашоу-ииашаму еилышәкаарц азы.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Аиҭакра дуқәа ҳамоуп
 sc-redirect-page-subtitle-1 = Ауалҳәаҩы Common Voice аплатформа хада ахь диасуеит. Уажәшьҭа шәара ишәылшоит <writeURL>шәҩырц</writeURL> жәаҳәа мамзаргьы <reviewURL>ахәаԥш</reviewURL> жәаҳәарак Азеиԥш бжьы аҟны.
