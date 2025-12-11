@@ -6,7 +6,7 @@ sc-review-loading = Аҳәоуқәа рҭагалара...
 sc-review-select-language = Ҳшәыҳәоит, игәашәҭо аҳәоуқәа рбызшәа алышәх.
 sc-review-no-sentences = Уажәазы ​​игәаҭатәу аҳәоуқәа ыҟаӡам, аха <addLink>ҿыцқәак ацышәҵар шәылшоит!</addlink>
 sc-review-form-prompt =
-    .message = Аиҩызцәа рыла ахәаԥшра змоу ажәалагалақәа ҟаҵамызт, агәра ганы уҟоума?
+    .message = Арецензиа зызу аҳәоуқәа инашьҭӡам, агәра жәгома?
 sc-review-form-usage = Ажәалагала шәыдышәкыларц азы арӷьарахь шәнаскьа. Мап ацәкразы иаанхеит. Ахыԥара аҟынӡа. <strong>Ишәхашәмыршҭын шәреитинг ашьақәырӷәӷәара!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
