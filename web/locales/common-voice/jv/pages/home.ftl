@@ -137,8 +137,57 @@ join-discord-community-action = Gabung karo kita ing Discord
 join-discord-community-content = Melu diskusi komunitas basa, takon, lan sinau babagan acara lan omong-omong sing bakal teka.
 find-us-on-matrix = Temokake kita ing Matrix
 find-us-on-matrix-content-v2 = Matrix kuwi protokol sing mbukak lan entheng kanggo komunikasi wektu nyata sing kasebar, lan platform diskusi terbuka sing disenengi Mozilla. Kita ana ing ruangan "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Unsur
+find-us-on-matrix-action-2 = Klien Liyane
 ask-mozilla-share = Takon Mozilla kanggo nuduhake acara sampeyan
 ask-mozilla-share-content = Duwe acara sadurunge utawa mbesuk? Nuduhake karo kita lan kita bakal ngumumake menyang komunitas utawa nulis blog babagan iki!
 # label for button
 ask-mozilla-share-action = Nuduhake acara sampeyan
 download-contribution-certificate = Ngundhuh sertifikat kontribusi sampeyan
+download-contribution-certificate-content = Undhuh sertifikat kanggo acara sampeyan utawa sampeyan dhewe yen sampeyan wis nyumbang kanggo Common Voice — iki ora bakal bisa kelakon tanpa sampeyan!
+# label for button
+download-contribution-certificate-action = Jupuk sertifikat sampeyan
+contribute-github = Kontribusi ing GitHub
+contribute-github-content = Proyek iki ora bakal bisa kelakon tanpa wong-wong kaya sampeyan. 🎉 Ana akeh cara kanggo melu Common Voice - sampeyan ora perlu ngerti carane mrogram kanggo nyumbang!
+# label for button
+contribute-github-action = Kontribusi ing GitHub
+
+## Featured section
+
+featured-section-title = Ditampilake ing...
+# icon is an arrow that points downwards
+download-press-pack = Unduh paket pers kita <icon></icon>
+
+## Developers section
+
+developers-section-title = Kumpulan data wicara terbuka sing bisa diakses publik ing luwih saka 130 basa
+developers-section-subtitle = Kumpulan data kanggo ASR, STT, TTS, lan konteks NLP liyane - digawe liwat partisipasi komunitas.
+# icon is an arrow that points to the right
+explore-datasets = Jelajahi kumpulan data <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = Ndhukung kumpulan data sing mbukak lan dipimpin komunitas
+read-sentences-link = Maca Ukara
+validate-readings-link = Validasi wacan
+contribute-link = Kontribusi kanggo korpus teks
+answer-questions-link = Wangsulan Pitakonan
+transcribe-answers-link = Transkrip jawaban
+review-transcriptions-link = Mrikso Transkripsi
+contribute-text-link = Kontribusi teks
+press-and-stories-link = Pencet lan Crita
+
+## Partner section
+
+partner-section-title = Kekancan karo kita
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Perusahaan teknologi</bold> - nandur modal ing nggawe kumpulan data terbuka kanggo ekosistem AI multibasa sing terus maju
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Masyarakat sipil lan peneliti</bold> - nggawe, nyimpen, lan nuduhake kumpulan data sing migunani kanthi gratis
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> - sponsor nggawe kumpulan data kanggo nyengkuyung inovasi lan pembangunan lokal
+# icon is an arrow that points to the right
+get-in-touch-button = Hubungi <icon></icon>
+# Partners section
+our-partners-include = Kanca kita kalebu...
