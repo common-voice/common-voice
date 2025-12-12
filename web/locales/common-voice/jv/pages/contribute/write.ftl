@@ -13,6 +13,7 @@ citation =
 sc-write-submit-confirm = Aku konfirmasi manawa ukara iki minangka <wikipediaLink>domain umum</wikipediaLink> lan aku duwe ijin kanggo ngunggah.
 sc-review-write-title = Ukara apa sing bisa daktambahake?
 sc-review-small-batch-title = Piye carane nambah ukara luwih soko siji
+new-sentence-rule-1 = Watesan <noCopyright>Ora ana hak cipta</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Kurang saka 15 tembung saben ukara
 new-sentence-rule-3 = Gunakake susunan ukara sing bener
 new-sentence-rule-4 = Gunakake ejaan lan tanda waca sing bener
