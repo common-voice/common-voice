@@ -161,7 +161,9 @@ is = Islandia
 it = Italia
 izh = Izhorian
 ja = Jepang
+jam = Patois Jamaika
 jbo = Lojban
+jgo = Ngomba
 jqr = Jaqaru
 jv = basa jawa
 ka = Georgia
@@ -184,8 +186,10 @@ ksf = Bafia
 kw = Cornish
 ky = Kyrgyz
 lb = Luksemburg
+leu = Kara
 lg = Luganda
 lij = Liguria
+lke = Kenyi
 ln = Lingala
 lo = Lao
 lt = Lithuania
@@ -208,6 +212,16 @@ mrj = Bukit Mari
 ms = Melayu
 mt = Malta
 mxu = Mada
+my = Burma
+myv = Erzya
+nan-tw = Taiwan (Minnan)
+nb-NO = Bokmål Norwegia
+nd = IsiNdebele (Lor)
+ne-NP = Nepali
+nhe = Huasteca Nahuatl Wetan
+nhi = Sierra Puebla Nahuatl Kulon
+nia = Nias
+nl = Walanda
 
 # [/]
 
