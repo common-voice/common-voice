@@ -185,10 +185,23 @@ code-switching-review-criterion-1 = Барои фаҳмидан ва ҷавоб 
 # Answering a Question
 code-switching-answer-subheader = Ҷавоб додан ба савол
 code-switching-answer-bullet-4 = Роҳи "комил"-и посух додан вуҷуд надорад
+code-switching-use-both-languages-example = «Вай хеле хашмгин шуд, чунки ман ба ӯ занг назадам.»
+# Use standard spelling for each language
+code-switching-spelling-header = Барои ҳар як забон имлои стандартиро истифода баред
+code-switching-cleanup-5 = Фарз мекунем, ки шумо забони ҳар як калимаро медонед - дар асоси истифода қайд кунед.
+code-switching-tagging-error-1 = Нуқтанишинӣ ё ҳарфҳои калон нодуруст
 code-switching-tagging-error-2 = Хатоҳои чопӣ
 code-switching-tagging-error-3 = Калимаҳои бо имлои нодуруст навишташуда
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Истифодаи имлои дуруст барои ҳар як забон
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Барои муайян кардани забон талаффузро истифода баред
 code-switching-pronunciation-explanation-example-1 = Англисӣ: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Испанӣ: /ˈkable/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Бо калимаҳои шабеҳ эҳтиет шавед
+# When Not to Tag Words
+code-switching-not-tag-header = Кай калимаҳоро қайд кардан лозим нест
 code-switching-not-tag-proper-names-example-1 = Одамон: Мария, Ҷон
 code-switching-not-tag-proper-names-example-2 = Ҷойҳо: Лос-Анҷелес, Флорида
 code-switching-not-tag-proper-names-example-3 = Брендҳо/Ташкилотҳо: «Target», «Burger King»
