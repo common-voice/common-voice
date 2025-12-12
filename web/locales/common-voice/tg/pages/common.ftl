@@ -430,5 +430,5 @@ announcement-mdc-button-aria-text = Дар варақаи нав кушода м
 
 dataset-searchbox-placeholder = Ҷустуҷӯи забон...
 dataset-searchbox-aria-label = Ҷустуҷӯи забон
-dataset-search-no-results = Забони мувофиқе ёфт нашуд
+dataset-search-no-results = Ягон забони мувофиқ ёфт нашуд
 request-new-language = Дархости забони нав
