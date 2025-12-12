@@ -19,3 +19,29 @@ cs-question-dataset-name = Kumpulan data: { $datasetName }
 cs-validate-page-instruction = Validasi <validateIcon></validateIcon> yen pitakonan iki cocok karo pedoman.
 cs-no-questions-continue-skipped = Ora ana pitakonan maneh kanggo kumpulan data iki. Yen sampeyan wis nglewati, sampeyan bisa nerusake konten sing dilewati utawa pindhah menyang transkripsi swara lan coba maneh mengko.
 cs-add-vote-error-message = Ana kesalahan nalika milih pitakonan
+
+## Transcribe Page Items
+
+cs-no-audio-continue-skipped-message = Saiki ora ana swara kanggo ditranskripsi kanggo kumpulan data iki. Yen sampeyan wis nglewati, sampeyan bisa nerusake konten sing dilewati utawa bukak maneh transkripsi lan coba maneh mengko.
+
+## Review Page Items
+
+cs-no-transcriptions-continue-skipped = Saiki ora ana transkripsi kanggo mriksa kumpulan data iki. Yen sampeyan wis nglewati, sampeyan bisa nerusake konten sing dilewati utawa pindhah menyang transkripsi swara lan coba maneh mengko.
+
+## Tag Page Items
+
+cs-no-transcriptions-to-tag-continue-skipped = Saiki ora ana transkripsi sing kudu diwenehi tandha kanggo kumpulan data iki. Yen sampeyan wis nglewati, sampeyan bisa nerusake konten sing dilewati utawa pindhah menyang transkripsi swara lan coba maneh mengko.
+cs-tag-dataset-name = Kumpulan data [{ $datasetName }]
+
+## Guidelines
+
+learn-how-to-use = Sinau carane nggunakake kaca iki
+read-full-guidelines-here = <guidanceLink>Waca pandhuan lengkap ing kene</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Tanggapi panjaluk kasebut kanthi alami sabisane, bebas ngalih kode ing antarane basa yen dirasa wajar. Priksa manawa basa sampeyan sopan lan ora ngganggu.
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Sak transkripsi kudu njupuk saben tembung utawa swara obrolan tanpa-leksikal sing ngandika dening wong, kalebu pengulangan.
