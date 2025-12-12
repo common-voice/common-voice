@@ -70,3 +70,42 @@ close = Tutup
 download = Undhuh
 dataset-version = Versi
 sha256-checksum-copied = SHA256 Checksum Disalin!
+sha256-checksum-copied-error = Gagal nyalin SHA256 Checksum
+clipboard-not-supported = Papan klip ora didhukung
+no-information-available = Ora ana informasi sing kasedhiya
+dataset-metadata-sex = jinis
+# dataset metadata - age of contributor
+dataset-metadata-age = Umur
+donate-modal-message = Kumpulan data sampeyan lagi diundhuh!
+dataset-donate-modal-heading = Apa sampeyan ngerti…
+donate-modal-explanation-1 = Biaya meh sak yuta dolar saben taun kanggo dadi tuan rumah kumpulan data lan nambah platform kanggo 100+ komunitas basa sing ngandelake apa sing kita lakoni?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Yen sampeyan ngurmati data sing mbukak, kalebu data - nyumbang dina iki!</bold>
+data-download-singleword-title = Ngundhuh Segmen Target Tembung Tunggal
+data-download-singleword-callout-v2 = Iki minangka segmen panggunane kasus sing ngemot data kanggo pangenalan digit sing diucapake lan dideteksi ya / ora.
+data-download-button = Ngundhuh Data Common Voice
+data-download-yes = Ya
+data-download-deny = Ora
+data-download-license = Lisensi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Sampeyan bakal miwiti ngundhuh <size>{ $size }GB</size>, diteruske?
+data-subtitle = Kita nggawe kumpulan data swara sing mbukak lan kasedhiya kanggo umum sing bisa digunakake saben wong kanggo nglatih aplikasi sing bisa digunakake kanggo wicara.
+data-explanatory-text = Kita percoyo bilih kumpulan data swara gedhe lan kasedhiya kanggo umum nuwuhake inovasi lan kompetisi komersial sing sehat ing teknologi wicara adhedhasar mesin-sinau. Iki minangka upaya global lan kita ngajak kabeh wong melu. Tujuane yaiku mbantu teknologi wicara dadi luwih inklusif, nggambarake keragaman swara saka sak ndonya.
+data-get-started = <speechBlogLink>Miwiti Pangenalan Wicara</speechBlogLink>
+data-other-title = Kumpulan data swara liyane…
+data-other-goto = Pindhah menyang { $name }
+data-other-download = Ngundhuh Data
+data-bundle-button = Unduh Paket Data
+data-bundle-description = Data Common Voice ditambah kabeh kumpulan data swara liyane ing ndhuwur.
+release-version = Versi
+dataset-date = Tanggal
+license = Lisensi: <licenseLink>{ $license }</licenseLink>
+license-mixed = Campuran
+# Support old genders in older datasets
+male = lanang
+female = wadon
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Ngundhuh kumpulan data swara kita
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Pilihan ngundhuh kanggo ngakses data Common Voice
+datasets-show-more = Tampilake Kabeh Kumpulan Data
+datasets-show-less = Tampilake Kumpulan Data Paling Anyar
