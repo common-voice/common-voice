@@ -6,6 +6,9 @@ listen-3rd-time-instruction = 2 wes rampung, terusna!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Pungkasan!
 listen-empty-state = Kita bisa uga kentekan klip - refresh halaman iki, utawa coba maneh mengko.
 listen-empty-state-variants = Varian basa sampeyan bisa uga ora ana ing klip! Yen sampeyan kepenak, sampeyan bisa ngganti setelan kanggo ndeleng ukara liyane ing basa sampeyan.
+listen-loading-error =
+    Kita ora bisa njupuk klip swara kanggo sampeyan rungokake.
+    Coba maneh mengko.
 listen-abort-title = Rampungna validasi klip?.
 listen-abort-cancel = Terusake validasi
 listen-abort-confirm = Rampungake validasi

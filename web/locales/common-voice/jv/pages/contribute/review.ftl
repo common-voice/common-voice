@@ -23,6 +23,13 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Sampeyan uga bisa nggunakake Pintasan Keyboard: { sc-review-form-button-approve-shortcut } kanggo Nyetujoni, { sc-review-form-button-reject-shortcut } kanggo Nolak, { sc-review-form-button-skip-shortcut } kanggo Nglewati
 sc-review-form-button-submit =
     .submitText = Rampungake Reviu
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ora ono ukara sing diteliti.
+       *[other] { $sentences } ukara wis ditliti. Matur nuwun!
+    }
 sc-review-form-review-failure = Review ora bisa disimpen. Mangga coba maneh mengko.
 sc-review-link = Review
 
