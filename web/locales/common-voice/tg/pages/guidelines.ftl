@@ -189,7 +189,7 @@ code-switching-use-both-languages-example = «Вай хеле хашмгин ш�
 # Use standard spelling for each language
 code-switching-spelling-header = Барои ҳар як забон имлои стандартиро истифода баред
 code-switching-cleanup-5 = Фарз мекунем, ки шумо забони ҳар як калимаро медонед - дар асоси истифода қайд кунед.
-code-switching-tagging-error-1 = Нуқтанишинӣ ё ҳарфҳои калон нодуруст
+code-switching-tagging-error-1 = Истифодаи аломатҳои китобатӣ ё ҳарфҳои хурду калон нодуруст аст
 code-switching-tagging-error-2 = Хатоҳои чопӣ
 code-switching-tagging-error-3 = Калимаҳои бо имлои нодуруст навишташуда
 # Using Correct Orthography for Each Language
