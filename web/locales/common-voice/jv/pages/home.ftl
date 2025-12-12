@@ -83,7 +83,62 @@ review-questions = Mrikso Pitakonan
 transcribe-audio = Transkripsi Swara
 press-and-stories = Pencet lan Crita
 community-and-languages = Komunitas lan Basa
+coming-soon = Bakal Tekan Sakcepete
+about-us = Babagan kita
+scripted-speech = OMONGAN KATULIS
+spontaneous-speech = OMONGAN SPONTAN
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Kekancanan, Pencet lan Cerita, Komunitas lan Basa
+about-us-menu-item-tooltip = Sinau babagan misi lan tim ning walike Common Voice
+partnerships-menu-item-tooltip = Telusuri organisasi sing ndhukung Common Voice ing saindenging jagad
+press-and-stories-menu-item-tooltip = Maca crita, nganyari, lan liputan media saka Common Voice
+community-and-languages-menu-item-tooltip = Sambungake karo komunitas kita lan deleng basa sing didukung
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Menu kanggo ngakses Kekancan, Pers lan Crita, Komunitas lan Basa
+about-us-menu-aria-label = Babagan menu pilihan
+about-us-menu-item-aria-label = Menu pilihan babagan kita
+partnerships-menu-item-aria-label = Sinau babagan kekancan karo Common Voice
+press-and-stories-menu-item-aria-label = Akses siaran pers lan crita sing ana gandhengane karo Common Voice
+community-and-languages-menu-item-aria-label = Telusuri komunitas lan basa sing didukung dening Common Voice
+
+## Hero section
+
+hero-title = Teknologi sing iso wicara nganggo basa sampeyan
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Kenapa AI mung bisa digunakake kanggo sawetara basa ing donya?</bold>
+hero-subtitle-2 = Basa kita kuwi crita kita, masyarakat kita, budaya kita. Ayo nggawe kumpulan data sing pengin dideleng ing jagad iki.
+# icon is an arrow that points downwards
+get-started = Miwiti <icon><icon>
+
+## Action items section
+
+action-items-section-title = Common Voice minangka platform sumber-terbuka gratis kanggo nggawe data sing dipimpin komunitas
+action-items-section-subtitle = Sapa wae bisa ngreksa, nyegerake lan ngunggahake basa kanthi nuduhake, nggawe lan ngatur kumpulan data teks lan wicara.
+scripted-card-header = Omongan Katulis
+scripted-card-content = Wacanen ukara kanthi banter ing basa sampeyan lan kontribusi kanggo kumpulan data wicara partisipasi publik sing paling maneka warna ing donya.
+spontaneous-card-header = Omongan Spontan
+spontaneous-card-content = Tanggapi pituduh kanggo nggawe kumpulan data ing konteks organik lan sedina-dina. Sampurna kanggo basa lisan.
+language-text-card-header = Teks Basa
+language-text-card-content = Nggawe utawa nuduhake pituduh domain umum, ukara, lan teks kanggo terjemahan, model basa cilik, lan liya-liyane.
+coming-soon = Bakal Tekan Sakcepete
+add-text = Nambah Teks
+answer = Wangsulan
+
+## Community section
+
+community-section-title = Didukung dening komunitas global, kanggo komunitas global - 130 basa lan tambah akeh!
+join-discord-community = Gabung Komunitas Discord
+# label for button
+join-discord-community-action = Gabung karo kita ing Discord
+join-discord-community-content = Melu diskusi komunitas basa, takon, lan sinau babagan acara lan omong-omong sing bakal teka.
+find-us-on-matrix = Temokake kita ing Matrix
+find-us-on-matrix-content-v2 = Matrix kuwi protokol sing mbukak lan entheng kanggo komunikasi wektu nyata sing kasebar, lan platform diskusi terbuka sing disenengi Mozilla. Kita ana ing ruangan "common-voice:mozilla.org".
+ask-mozilla-share = Takon Mozilla kanggo nuduhake acara sampeyan
+ask-mozilla-share-content = Duwe acara sadurunge utawa mbesuk? Nuduhake karo kita lan kita bakal ngumumake menyang komunitas utawa nulis blog babagan iki!
+# label for button
+ask-mozilla-share-action = Nuduhake acara sampeyan
+download-contribution-certificate = Ngundhuh sertifikat kontribusi sampeyan
