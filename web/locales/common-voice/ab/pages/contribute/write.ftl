@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
-write = Ианҵатәуп
-write-instruction = Иацҵатәуп <icon></icon> зегьы ирзеиԥшу аҳәара
+write = Аҭаҩра
+write-instruction = Иацышәҵа <icon></icon> зегьы рзы иҟоу аҳәоу
 write-page-subtitle = Абра иаагоу ажәеинраалақәа cc-0 алицензиа аҵаҟа зегьы ирзеиԥшу адатасет иацҵахоит.
 sentence =
     .label = Адгалара

@@ -59,7 +59,7 @@ second-cta-subtitle-text = Шәыпрофиль ала, шәара шәакти�
 already-have-an-account = Аккаунт шәымоума? <login>Аҭалара</login>
 create-profile-button = Апрофиль аԥҵара
 # IMAGE TAGS
-img-alt-success-checkmark = ақәҿиара аҵәаӷәа
+img-alt-success-checkmark = Қәҿиарала ахыркәшара абираҟ
 # menu item
 read-sentences = Аҳәоуқәа рыԥхьара
 
