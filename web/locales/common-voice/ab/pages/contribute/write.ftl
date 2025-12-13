@@ -45,15 +45,15 @@ automotive_transport = Амашьынаҟаҵареи атранспорти
 # Sentence Domain dropdown option
 finance = Афинансқәа
 # Sentence Domain dropdown option
-service_retail = Амаҵзуратә сектори хәаахәҭралатәи ахәаахәҭреи
+service_retail = Амаҵзурақәа русхкқәеи азаҵәҭиратә хәаахәҭреи
 # Sentence Domain dropdown option
 general = Ихадоу
 # Sentence Domain dropdown option
 healthcare = Агәабзиарахьчара
 # Sentence Domain dropdown option
-history_law_government = Аҭоурых, азакәан, аиҳабыра
+history_law_government = Аҭоурыхи, азини, анапхгареи
 # Sentence Domain dropdown option
-language_fundamentals = Абызшәа ашьаҭақәа (е.г. аԥхьаӡацқәа, анбанқәа, аԥара)
+language_fundamentals = Абызшәа ашьаҭақәа (ҿырԥштәыс иаагозар, ахыԥхьаӡарақәа, анбанқәа, аԥара)
 # Sentence Domain dropdown option
 media_entertainment = Амедиеи агәырҿыхагақәеи
 # Sentence Domain dropdown option
@@ -61,7 +61,7 @@ nature_environment = Аԥсабареи акәша-мыкәшеи
 # Sentence Domain dropdown option
 news_current_affairs = Ажәабжьқәеи ахҭысқәеи
 # Sentence Domain dropdown option
-technology_robotics = Атехнологиеи аробототехникеи
+technology_robotics = Атехнологиақәеи аробототехникеи
 sentence-variant-select-label = Адгалара авариант
 sentence-variant-select-placeholder = Аопциа алхтәуп (иаҭахым)
 sentence-variant-select-multiple-variants = Еицырзеиԥшу абызшәа / еиуеиԥшым авариантқәа
