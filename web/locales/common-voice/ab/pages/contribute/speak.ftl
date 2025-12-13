@@ -50,7 +50,7 @@ continue-speaking-button = Мап, иҭабуп, шәцәажәала
 create-profile-text = Шәинформациа еиқәшәырхар шәҭахума?<createProfile>Апрофиль аԥышәҵа</createProfile>
 thanks-for-voice-toast = Иҭабуп шәыбжьытә информациазы
 thanks-for-voice-toast-error = Шәыбжьытә информациа анашьҭраан агха ҟалеит
-first-cta-gender-select-default-option = Авариант алхтәуп
+first-cta-gender-select-default-option = Авариант алышәх
 first-cta-gender-select-help-text =
     .label = Ишԥаҳәо уара уцәеижьтә ма угендертә хаҿра?
 # SECOND POST SUBMISSION CTA
