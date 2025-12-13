@@ -62,16 +62,16 @@ nature_environment = Аԥсабареи акәша-мыкәшеи
 news_current_affairs = Ажәабжьқәеи ахҭысқәеи
 # Sentence Domain dropdown option
 technology_robotics = Атехнологиақәеи аробототехникеи
-sentence-variant-select-label = Адгалара авариант
-sentence-variant-select-placeholder = Аопциа алхтәуп (иаҭахым)
+sentence-variant-select-label = Аҳәоу авариант
+sentence-variant-select-placeholder = Авариант алышәх (ихымԥадатәиӡам)
 sentence-variant-select-multiple-variants = Еицырзеиԥшу абызшәа / еиуеиԥшым авариантқәа
 
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Ахәаахәҭра <icon></icon> зегьы ирзеиԥшу аҳамҭақәа
-sc-bulk-upload-instruction = Уфаил арахь иҭагала мамзаргьы <uploadButton>ашьҭыхразы уақәыӷәӷәа</uploadButton>
-sc-bulk-upload-instruction-drop = Аҭагаларазы афаил арахь иҭагаланы иқәыжьтәуп
+sc-bulk-upload-header = Иҭажәгал <icon></icon> зегьы рзы иҟоу аҳәоуқәа
+sc-bulk-upload-instruction = Шәфаил арахь ииажәга, мамзаргьы <uploadButton>аҭагаларазы шәақәыӷәӷәа</uploadButton>
+sc-bulk-upload-instruction-drop = Афаил арахь ииажәга аҭагаларазы
 bulk-upload-additional-information = Ари афайл иазкны иҵегьтәи адыррақәа шәҭахызар, ҳара шәҳацәажәа <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = Ашаблон иаҵанамкуа ари афаил иазкны иацҵаны адыррақәа шәҭахызар, ҳара шәҳацәажәа <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Даҽазнык шәҽазышәшәа афаил арахь иҭганы
