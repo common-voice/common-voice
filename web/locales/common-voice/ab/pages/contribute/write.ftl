@@ -31,17 +31,17 @@ add-sentence-success = Ҳәоук еизгоуп
 add-sentence-error = Аҳәоу ацҵараан агха ҟалеит
 required-field = Ҳшәыҳәоит, ари аҭыԥ хашәырҭәаа.
 single-sentence-submission = Ҳәоук анашьҭра
-small-batch-sentence-submission = Ажәеинраалақәа ргәыԥ хәыҷы ашьҭра
-bulk-sentence-submission = Ажәалагалақәа рацәаны рышьҭра
+small-batch-sentence-submission = Аҳәоуқәа арзақәа хәыҷқәа рыла анашьҭра
+bulk-sentence-submission = Аҳәоуқәа рацәаны анашьҭра
 single-sentence = Ҳәоук
-small-batch-sentence = Апартиа хәыҷы
-bulk-sentence = Еизакны апартиа
-sentence-domain-combobox-label = Адгалара адомен
-sentence-domain-select-placeholder = Иалхтәуп х-доменк рҟынӡа
+small-batch-sentence = Арзақә хәыҷы
+bulk-sentence = Арзақә ду
+sentence-domain-combobox-label = Аҳәоуқәа рдомен
+sentence-domain-select-placeholder = Иалышәх х-доменк рҟынӡа
 # Sentence Domain dropdown option
-agriculture_food = Ақыҭанхамҩеи акрыфареи
+agriculture_food = Ақыҭанхамҩеи афатә-ажәтәи
 # Sentence Domain dropdown option
-automotive_transport = Автомобильтәи атранспорттәи
+automotive_transport = Амашьынаҟаҵареи атранспорти
 # Sentence Domain dropdown option
 finance = Афинансқәа
 # Sentence Domain dropdown option
