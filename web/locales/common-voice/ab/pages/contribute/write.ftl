@@ -2,11 +2,11 @@
 
 write = Аҭаҩра
 write-instruction = Иацышәҵа <icon></icon> зегьы рзы иҟоу аҳәоу
-write-page-subtitle = Абра иаагоу ажәеинраалақәа cc-0 алицензиа аҵаҟа зегьы ирзеиԥшу адатасет иацҵахоит.
+write-page-subtitle = Абра иаагоу афразақәа cc-0 алицензиала зегьы рзы иҟоу адыррақәа реизга иацҵахоит.
 sentence =
-    .label = Адгалара
-sentence-input-placeholder = Иҭажәгал шәзеиԥш доментә жәаҳәара абра
-small-batch-sentence-input-placeholder = Иҭажәгал шәзеиԥш доментә жәаҳәара абра
+    .label = Аҳәоу
+sentence-input-placeholder = Ауаажәларратә мазараҟынтәи шәыфраза ара иҭажәгал
+small-batch-sentence-input-placeholder = Ауаажәларратә мазараҟынтәи аҳәоуқәа ара иҭажәгал
 citation-input-placeholder = Упропозициа ахыҵхырҭа ахьӡ ҳәа (иаҭахуп)
 citation =
     .label = Ацитата
