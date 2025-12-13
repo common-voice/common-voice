@@ -36,7 +36,7 @@ review-rerecord = Аиҭаҭаҩра
 review-cancel = Анашьҭра аԥыхра
 review-keep-recordings = Сҭаҩымҭақәа реиқәырхара
 review-delete-recordings = Сҭаҩымҭақәа рныхра
-review-terms = Common Voice ухы ианаурхәа, уи иаанагоит ҳара <termsLink>ахархәашьа</termsLink> егьы <privacyLink>Ир­ма­ӡоу Ардырра</privacyLink> урықәшаҳаҭуп ҳәа.
+review-terms = Common Voice шәхы ианашәырхәа, уи иаанагоит ҳара  <termsLink>Ҳхархәашьа аилаӡарақәеи</termsLink> <privacyLink>Ҳармаӡара ардыргеи</privacyLink> шәрықәшаҳаҭуп ҳәа.
 terms-agree = Сақәшаҳаҭуп
 terms-disagree = Сақәшаҳаҭӡам
 # FIRST POST SUBMISSION CTA
