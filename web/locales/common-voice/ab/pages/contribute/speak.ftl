@@ -55,8 +55,8 @@ first-cta-gender-select-help-text =
     .label = Шәышԥахцәажәо шәкәал, ма шәгендертә аиԥшзаара?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Иҭабуп шәыбжьыла шәахьалахәыз азы!
-second-cta-subtitle-text = Упрофиль ала, уара уусура ацклаԥшра улшоит, насгьы абжьы аԥҵаҩцәа рыуаажәларра уҽадҳәалар улшоит.
-already-have-an-account = Аконт шәымоума? <login>Аҭалара</login>
+second-cta-subtitle-text = Шәыпрофиль ала, шәара шәактивра шәацклаԥшлар шәылшоит, насгьы абжьытә дыррақәа равторцәа реилазаара шәҽамажәдар шәылшоит.
+already-have-an-account = Аккаунт шәымоума? <login>Аҭалара</login>
 create-profile-button = Апрофиль аԥҵара
 # IMAGE TAGS
 img-alt-success-checkmark = ақәҿиара аҵәаӷәа
