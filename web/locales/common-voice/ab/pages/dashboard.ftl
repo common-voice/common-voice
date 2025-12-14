@@ -62,11 +62,11 @@ n-clips-pluralized =
         [one] { $count } аҭаҩымҭа
        *[other] { $count } ҭаҩымҭак
     }
-help-share-goal = Ухықәкы ҳаҳәа, абжьы рацәа рыԥшаараҟны уҳацхраа.
-confirm-goal = Ухықәкы шьақәырӷәӷәа
-goal-interval-weekly = Есымчыб­жьатәи
+help-share-goal = Абжьқәа иаҳа ирацәаны рыԥшаараҟны шәҳацхраа, шәхықәкы еимыжәда
+confirm-goal = Шәхықәкы шьақәшәырӷәӷәа
+goal-interval-weekly = Есымчыб­жь
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Ухықәкы - { $count } нҵамҭак есыҽны { $type }
+share-n-daily-contribution-goal = Мышкахь { $count } шәҭаҩрақәа рхықәкы еимыжәда { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Ухықәкы - { $count } нҵамҭа есымчыбжьа { $type }
 share-goal-type-speak = Абжьы ҭаҩра
