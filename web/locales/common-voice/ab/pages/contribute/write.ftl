@@ -104,14 +104,14 @@ exceeds-small-batch-limit-error = 1000 ҳәоу еиҳаны ашьҭра ауа
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Аццакыра аҳәаа ахысит. 1 Минуҭк ашьҭахь даҽазнык шәҽазышәшәа
-       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } минуҭқәак рышьҭахь
+        [one] Аццакыра аҳәаа ахысит. Минуҭк ашьҭахь даҽазнык шәҽазышәшәа
+       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } минуҭк рышьҭахь
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Аццакыра аҳәаа ахысит. 1 Секундк ашьҭахь даҽазнык шәҽазышәшәа
-       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } секундқәа рышьҭахь
+        [one] Аццакыра аҳәаа ахысит. Секундк ашьҭахь даҽазнык шәҽазышәшәа
+       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } секундк рышьҭахь
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
