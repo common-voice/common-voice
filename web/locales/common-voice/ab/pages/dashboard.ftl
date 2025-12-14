@@ -29,17 +29,17 @@ create-custom-goal = Шәхатәы хықәкы аԥҵара
 goal-type = Иарбан хықәку нашәыгӡар ишәҭаху?
 both-speak-and-listen = Аригьы, егьыгьи
 both-speak-and-listen-long = Аригьы, егьыгьи (Аҭаҩреи агәаҭареи)
-daily-goal = Есымшатәи Ахықәкы
-weekly-goal = Есымчыб­жьатәи Ахықәкы
+daily-goal = Амш ахықәкы
+weekly-goal = Амчыбжьтәи ахықәкы
 easy-difficulty = Имариоуп
 average-difficulty = Ибжьаратәуп
 difficult-difficulty = Ицәгьоуп
-pro-difficulty = Про
-lose-goal-progress-warning = Ухықәкы аԥсахраан иумоу апрогресс уцәыӡыр ҟалоит.
-want-to-continue = Уҿызаароума?
-finish-editing = Уи аԥхьа аԥсахра уалгар уҭахума?
-lose-changes-warning = Уажәы уцар, иҟоуҵахьоу аԥсахрақәа уцәыӡыр ҟалоит.
-build-custom-goal = Еиқәшәо ахықәкы аҟаҵара
+pro-difficulty = Иазкны
+lose-goal-progress-warning = Шәхықәкы шәыԥсахыр ишәымоу апрогресс шәцәыӡыр ҟалоит.
+want-to-continue = Иацышәҵар шәҭахума?
+finish-editing = Аԥхьа аредакциа азура шәалгар шәҭахума?
+lose-changes-warning = Уажәы шәцар, иҟашәҵахьоу аԥсахрақәа шәцәыӡуеит ауп иаанаго
+build-custom-goal = Шәхатәы хықәкы аԥышәҵа
 help-reach-hours-pluralized =
     { $hours ->
         [one] Ацхыраара анаӡара { $hours } сааҭ { $language } ахатә хықәкыла
