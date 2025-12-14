@@ -134,10 +134,10 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } 1 жәаҳәарак еизгоуп. Иақәыӷәӷәа <downloadLink>абантәи</downloadLink> мап зцәыркыз аҳәоуқәа рыхәаахәҭразы.
-       *[other] { $uploadedSentences } { $totalSentences } еизгоу ажәаҳәақәа рҟынтә. Иақәыӷәӷәа <downloadLink>абра</downloadLink> мап зцәыркыз аҳәоуқәа рыхәаахәҭразы.
+        [one] { $uploadedSentences } 1 ҳәоук аҟынтәи еизгоуп. Шәақәыӷәӷәа<downloadLink>ара</downloadLink> мап зцәыркыз аҳәоуқәа рҭыгаразы.
+       *[other] { $uploadedSentences } еизгоуп { $totalSentences } ҳәоу рҟынтәи. Шәақәыӷәӷәа <downloadLink>ара</downloadLink> мап зцәыркыз аҳәоуқәа рҭыгаразы.
     }
-small-batch-sentences-rule-1 = Аҟынтәи амҩақәҵарақәа шәрықәныҟәа “Иарбан жәаҳәоу иацысҵар сылшо?”
+small-batch-sentences-rule-1 = «Иарбан ҳәоуқәоу иацысҵар сылшо?» ахәҭаҟынтәи абжьгарақәа шәрықәныҟәа
 small-batch-sentences-rule-2 = Цәаҳәаҿы жәаҳәак ацҵатәуп
 small-batch-sentences-rule-3 = Ажәаҳәақәа цәаҳәак ала еиҟәыҭхатәуп знык “Enter” ма “Return” ақәыӷәӷәарала
 small-batch-sentences-rule-4 = 1000 жәаҳәара рҟынӡа иацҵатәуп
