@@ -141,8 +141,8 @@ small-batch-sentences-rule-1 = «Иарбан ҳәоуқәоу иацысҵар 
 small-batch-sentences-rule-2 = Цәаҳәак ахь ҳәоук ацҵара
 small-batch-sentences-rule-3 = Ажәаҳәақәа цәаҳәак ала еиҟәыҭхатәуп знык «Enter» ма «Return» ақәыӷәӷәарала
 small-batch-sentences-rule-4 = 1000 рҟынӡа ҳәоу рацҵара
-small-batch-sentences-rule-5 = Ажәаҳәақәа зегьы доменк рымазароуп
-small-batch-sentences-rule-6 = Ажәаҳәақәа зегьы цитатак рымазароуп
+small-batch-sentences-rule-5 = Аҳәоуқәа зегьы еицырзеиԥшу доменк рымазароуп
+small-batch-sentences-rule-6 = Аҳәоуқәа зегьы еицырзеиԥшу  цитатак рымазароуп
 # menu item
 add-sentences = Аҳәоу ацҵара
 

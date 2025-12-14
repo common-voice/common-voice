@@ -1,11 +1,11 @@
 ## Dashboard
 
-your-languages = Убызшәақәа
-toward-next-goal = Анаҩстәи ахықәкы.
+your-languages = Шәбызшәақәа
+toward-next-goal = Анаҩстәи ахықәкы
 goal-reached = Ахықәкы нагӡоуп
-clips-you-recorded = Абжьы Зхауҵаз Анҵамҭақәа
-clips-you-validated = Игәауҭаз Анҵамҭақәа
-todays-recorded-progress = Common Voice аҟны иахьа анҵамҭақәа ҟаҵоуп.
+clips-you-recorded = Шәара иҭажәыҩит
+clips-you-validated = Шәара игәашәҭеит
+todays-recorded-progress = Common Voice аҟны иахьа аҭаҩрақәа ҟаҵоуп
 todays-validated-progress = Common Voice аҟны иахьа анҵамҭақәа гәаҭоуп.
 stats = Аста.
 awards = Аҳам.
