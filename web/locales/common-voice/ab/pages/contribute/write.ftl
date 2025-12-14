@@ -116,8 +116,8 @@ rate-limit-toast-message-seconds =
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] Ари адаҟьазы ашьҭра аҳәаа шәнаӡеит. Аҳәара ҿыц ҟашәҵаанӡа 1 минуҭк шәыԥшыз. Иҭабуп шәычҳаразы!
-       *[other] Ари адаҟьазы ашьҭра аҳәаа шәнаӡеит. Ҳаҳәоит, шәазыԥшыз { $retryLimit } минуҭқәак, аҳәара ҿыц шәышьҭаанӡа. Иҭабуп шәычҳаразы!
+        [one] Ари адаҟьазы анашьҭра алимит шәнаӡеит. Ҳшәыҳәоит, 1 минуҭк шәыԥшы, аҳәоу ҿыц шәышьҭаанӡа. Иҭабуп шәычҳаразы!
+       *[other] Ари адаҟьазы анашьҭра алимит шәнаӡеит. Ҳшәыҳәоит, шәыԥшы { $retryLimit } минуҭк, аҳәоу ҿыц шәышьҭаанӡа. Иҭабуп шәычҳаразы!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
