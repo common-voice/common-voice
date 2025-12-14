@@ -138,7 +138,7 @@ small-batch-response-message =
        *[other] { $uploadedSentences } еизгоуп { $totalSentences } ҳәоу рҟынтәи. Шәақәыӷәӷәа <downloadLink>ара</downloadLink> мап зцәыркыз аҳәоуқәа рҭыгаразы.
     }
 small-batch-sentences-rule-1 = «Иарбан ҳәоуқәоу иацысҵар сылшо?» ахәҭаҟынтәи абжьгарақәа шәрықәныҟәа
-small-batch-sentences-rule-2 = Цәаҳәаҿы жәаҳәак ацҵатәуп
+small-batch-sentences-rule-2 = Цәаҳәак ахь ҳәоук ацҵара
 small-batch-sentences-rule-3 = Ажәаҳәақәа цәаҳәак ала еиҟәыҭхатәуп знык “Enter” ма “Return” ақәыӷәӷәарала
 small-batch-sentences-rule-4 = 1000 жәаҳәара рҟынӡа иацҵатәуп
 small-batch-sentences-rule-5 = Ажәаҳәақәа зегьы доменк рымазароуп
