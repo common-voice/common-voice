@@ -19,16 +19,16 @@ total-approved = Зынӡа игәаҭоуп
 overall-accuracy = Азеиԥш иашара
 set-visibility = Сара сбарҭазаара архиара
 visibility-explainer = Ари апараметр атоп аҿы шәбарҭазаара аконтроль азнауеит. Шәара шәанымаӡоу шәыпрогрессгьы маӡахоит. Уи иаанаго аԥхьагылаҩцәа рсиаҟны шәара шәхаҿсахьеи, шәхархәаҩ хьӡи, шәыпрогресси арбахаӡом ҳәа ауп. Шәыхшыҩ азышәышьҭ аԥхьагылаҩцәа рсиа арҿыцра инықәырԥшны ~ { $minutes } минуҭ шаҭаху.
-visibility-overlay-note = Азгәаҭа: 'Иубарҭоу' апрограмма шьақәыргылазар, ари аҳәаа ԥсаххар ҟалоит <profileLink>аҷыдахәра адаҟьа</profileLink> аҟны.
-show-ranking = Сҭыԥ исырба
+visibility-overlay-note = Азгәаҭа: «Иубарҭоу» шьақәыргылазар, ари апараметр иԥсахзар ҟалоит <profileLink>апрофиль адаҟьаҿы</profileLink>
+show-ranking = Среитинг арбара
 
 ## Custom Goals
 
-get-started-goals = Ахықәкқәа уалага
-create-custom-goal = Еиқәшәо ахықәкы аԥҵара
-goal-type = Иарбан хықәку анагӡара иуҭаху?
-both-speak-and-listen = Аҩбагьы
-both-speak-and-listen-long = Аҩбагьы (Аҭаҩреи Азыӡырҩреи)
+get-started-goals = Ахықәкы аԥҵара
+create-custom-goal = Шәхатәы хықәкы аԥҵара
+goal-type = Иарбан хықәку нашәыгӡар ишәҭаху?
+both-speak-and-listen = Аригьы, егьыгьи
+both-speak-and-listen-long = Аригьы, егьыгьи (Аҭаҩреи агәаҭареи)
 daily-goal = Есымшатәи Ахықәкы
 weekly-goal = Есымчыб­жьатәи Ахықәкы
 easy-difficulty = Имариоуп
