@@ -122,14 +122,14 @@ rate-limit-message-minutes =
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] Ари адаҟьа ахәаԥшра аҳәаа шәнаӡеит. Ҳаҳәоит, анаҩстәи ажәалагала ҟашәҵаанӡа 1 секундк шәыԥшыз. Иҭабуп шәычҳаразы!
-       *[other] Ари адаҟьа ахәаԥшра аҳәаа шәнаӡеит. Ҳаҳәоит, шәыԥшыз { $retryLimit } секундқәак анаҩстәи шәажәалагала ашьҭраан. Иҭабуп шәычҳаразы!
+        [one] Ари адаҟьазы ацәыргара алимит шәнаӡеит. Ҳшәыҳәоит, анаҩстәи аҳәоу шәышьҭаанӡа 1 секундк шәыԥшы. Иҭабуп шәычҳаразы!
+       *[other] Ари адаҟьазы ацәыргара алимит шәнаӡеит. Ҳшәыҳәоит, шәыԥшы { $retryLimit } секундк анаҩстәи аҳәоу шәышьҭаанӡа. Иҭабуп шәычҳаразы!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } еизгоу жәаҳәарак аҟынтә
-       *[other] { $uploadedSentences } of { $totalSentences } Еизгоу аҳәоуқәа
+        [one] { $uploadedSentences } еизгоуп ҳәоук аҟынтәи
+       *[other] { $uploadedSentences } еизгоуп { $totalSentences } ҳәоу рҟынтәи
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
