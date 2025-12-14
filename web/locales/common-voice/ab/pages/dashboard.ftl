@@ -75,14 +75,14 @@ share-goal-type-both = Аҭаҩреи агәаҭареи
 # LINK will be replaced with the current URL
 goal-share-text = Сара абыржәы #CommonVoice сыбжьы аҭаразы схатә хықәкы аԥысҵеит-- шәсыдгыл, шәсыцхраа амашьынақәа  ауаа еилыркаауа рыҟаҵара аус аҟны { $link }
 weekly-goal-created = Амчыбжьтәи шәхықәкы аԥҵан
-daily-goal-created = Ҽнактәи ухықәкы нагӡоуп
-track-progress = Абреи астатистикатә даҟьаҟны уеизҳашьа уашьклаԥшла.
-return-to-edit-goal = Ианакәзаалак ухықәкы аԥсахразы абрахь ухынҳәы.
-share-goal = Схықәкы еиҩша
+daily-goal-created = Амштәи шәхықәкы аԥҵан
+track-progress = Ара, насгьы астатистика адаҟьаҿы шәыпрогресс шәацклаԥшла.
+return-to-edit-goal = Ианакәзаалак шәхықәкы аԥсахразы арахь шәхынҳәла.
+share-goal = Схықәкы еимыжәда
 
 ## Goals
 
-streaks = Еишьҭыргыланы
+streaks = Мшы еишьҭаргыланы
 days =
     { $count ->
         [one] мышкы
@@ -90,8 +90,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] нҵамҭак
-       *[other] нҵамҭак
+        [one] аҭаҩымҭа
+       *[other] ҭаҩымҭак
     }
 validations =
     { $count ->
