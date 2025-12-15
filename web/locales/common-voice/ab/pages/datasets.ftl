@@ -44,7 +44,7 @@ other-datasets = Егьырҭ абжьытә дыррақәа реизгақәа
 feedback-q = Ахҳәаа ааныжьра
 # This indicates that there is no data to display
 no-information = Аинформациа ыҟам
-resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ари <docsLink>иаарту ахыҵхырҭа аинструментқәа ргәыԥ</docsLink> ауп, иԥхьагылоу аицәажәаратә АИ амоделқәа зҿио аҵарауаа рзы.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ - ари <docsLink>ҳаамҭазтәи аиҿцәажәаратә ИА амоделқәа аԥызҵо аҭҵааҩцәа рзы иаарту аханатәтәи код змоу амыругақәа реизга</docsLink> ауп.
 resource-deepspeech-info = Мозилла иаарту ахыҵхырҭа Deep Speech ажәа аидырратә еиқәыршәага шәхатә апликациақәа раԥҵаразы шәхы иашәырхәар шәылшоит. Уаԥхьа ҳ <githubLink>хҳәаа GitHub</githubLink> аҿы ма уалахәыз <discourseLink>Ажәа ҵаула аҟәша Адискурс</discourseLink> афорум аҟны, ишалагатәу еилукаарц азы.
 resource-coqui-info = <coquiLink>Коки</coquiLink> иаарту ацәажәаратә технологиа иазкуп. Урҭ рыпроектқәа ирылагылоуп иҵаулоу аҵара шьаҭас измоу СТТ, ТТС рмоторқәа.
 community-playbook = Ауаажәларратә рҵага
