@@ -61,14 +61,30 @@ about-nav-playbook = Diajar kumaha carana miluan
 ## What is a language
 
 about-playbook-what-is-language = Naon anu disebut basa dina Common Voice?
+about-playbook-what-is-language-content-1 = Aya seueur cara pikeun mikirkeun basa. Pikeun tujuan modél pangakuan ucapan, Common Voice nyarankeun fokus kana 'silih kaharti', atanapi 'naha panyatur basa ieu tiasa silih ngartos upami aranjeunna nyobian?'
+about-playbook-what-is-language-content-2 = Arurang hoyong modél ucapan langkung saé dina ngartos rupa-rupa panyatur. Supados ieu kajadian, kumpulan data sora kedah ngawakilan seueur jalmi anu béda-béda.
+about-playbook-what-is-language-content-3 = Sababaraha basa mibanda variasi anu ageung dina tata basa, kosakecap, sareng pangucapan. Ku sabab kitu, kami <ctaLink>ngawanohkeun 'Varian'</ctaLink> dina taun 2022. Ieu masihan komunitas cara pikeun ngabédakeun basa-basa maranéhanana dina kumpulan data anu langkung ageung.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Kumaha cara nambahkeun basa?
+about-playbook-how-add-language-content-1 =
+    Mimitina, pariksa heula basa anjeun <languageLink>tos aya atanapi henteu</languageLink>.
+    Upami teu acan, anjeun tiasa <languageRequestLink>nyungkeun ngeunaan nambihan basa anjeun</languageRequestLink>.
+    Aya dua tahapan. Narjamahkeun situs, sareng ngumpulkeun kalimah
 about-playbook-how-add-language-translating-heading = Narjamahkeun situs
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Tonton pituduh arurang ngeunaan cara ngagunakeun Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Kami nganggo alat Mozilla anu disebut <pontoonLink>Pontoon</pontoonLink> pikeun tarjamahan. Pontoon ngagaduhan seueur basa,
+    tapi upami teu aya basa anjeun, anjeun tiasa <pontoonRequestLink>nyuhunkeun basa anjeun ditambahkeun</pontoonRequestLink>.
+    Teras, pikeun nyayogikeun basa éta dina proyék Common Voice,
+    <githubRepoLink>nyuhunkeun basa énggal dina GitHub</githubRepoLink>. <localizationFragment>Tingali langkung seueur tarjamahan dina situs</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ngumpulkeun kalimah
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Tonton pituduh arurang ngeunaan ngagunakeun Kalimat Kolektor</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Anjeun tiasa <sentenceCollectorLinkAdd>nambahkeun sakedik kalimah</sentenceCollectorLinkAdd>,
+    atanapi anjeun tiasa ngalakukeun <bulkImportDocsLink>impor massal nganggo Github</bulkImportDocsLink>.
+    Inget yén kalimah kedah <licenseLink>CC0 (atanapi domain publik)</licenseLink>, atanapi anjeun tiasa nyerat sorangan.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Tingali deui ngeunaan kumpulan kalimah</sentenceCollectorFragment>.
 
 ## How does localization work
