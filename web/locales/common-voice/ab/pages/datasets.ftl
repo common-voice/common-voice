@@ -39,9 +39,9 @@ dataset-description-hours =
     Иахьатәи аамҭазы адыррақәа реизга шьақәгылоуп <b>{ $valid }</b> игәаҭоу сааҭқәа рыла <b>{ $languages }</b> бызшәақәа рыла, аха ҳара есымша иацаҳҵоит абыжь ҿыцқәеи абызшәақәеи. Шәахәаԥш ҳара иаҳтәу<languagesLink>абызшәақәа рдаҟьа</languagesLink> абызшәақәа разҵаара, ма ахалархәра.
 want-dataset-update = Common Voice адыррақәа реизга иҿыцу аверсиа аҭыжьра иазку ацҳамҭақәа шәоуларц шәҭахума? Шәнапы аҵажәҩы ҳара ҳажәабжьтә рассылка.
 subscribe = Аҽаҵаҩра
-get-started-speech = Ажәаҳәа аилкааразы аусура алагара
-other-datasets = Егьырҭ Абжьытә Дыррақәа Реизгақәа.
-feedback-q = Угәаанагара аныуҵа?
+get-started-speech = Common Voice апрограммақәа рҿы ахархәара шԥалшо
+other-datasets = Егьырҭ абжьытә дыррақәа реизгақәа
+feedback-q = Ахҳәаа ааныжьра
 # This indicates that there is no data to display
 no-information = Аинформациа ыҟам
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ари <docsLink>иаарту ахыҵхырҭа аинструментқәа ргәыԥ</docsLink> ауп, иԥхьагылоу аицәажәаратә АИ амоделқәа зҿио аҵарауаа рзы.
