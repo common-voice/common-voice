@@ -63,14 +63,14 @@ more = Иҵегьы
 close = Аркра
 download = Аҭыгара
 dataset-version = Аверсиа
-sha256-checksum-copied = SHA256 аконтрольтә еицҵалыҵ ақәҭыхуп!
+sha256-checksum-copied = SHA256 аконтрольтә еицҵалыҵ акопиа ҟаҵоуп!
 sha256-checksum-copied-error = SHA256 аконтрольтә еицҵалыҵ акопиа аҟаҵара амуит.
-clipboard-not-supported = Аҭаӡҩыра аднакылом
+clipboard-not-supported = Аиҭныԥсахлара абуфер аднакылом
 no-information-available = Аинформациа ыҟаӡам
-dataset-metadata-sex = Акәал
+dataset-metadata-sex = Ахаҵара-аԥҳәысра
 # dataset metadata - age of contributor
 dataset-metadata-age = Ақәра
-donate-modal-message = Шәдатасет аҭагалара иаҿуп!
+donate-modal-message = Шәдыррақәа реизга аҭыгара иаҿуп!
 dataset-donate-modal-heading = Иудыруама уи...
 donate-modal-explanation-1 = 100-тәи абызшәатә еилазаарақәа рзы адатасетқәа рыхылаԥшреи аплатформа аиӷьтәреи шықәсык ахь миллион доллар рҟынӡа ахарџь ацома?
 # Text in <bold></bold> will shown in bold
