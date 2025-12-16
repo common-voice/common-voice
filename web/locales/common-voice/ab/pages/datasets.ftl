@@ -45,7 +45,7 @@ feedback-q = Ахҳәаа ааныжьра
 # This indicates that there is no data to display
 no-information = Аинформациа ыҟам
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ - ари <docsLink>ҳаамҭазтәи аиҿцәажәаратә ИА амоделқәа аԥызҵо аҭҵааҩцәа рзы иаарту аханатәтәи код змоу амыругақәа реизга</docsLink> ауп.
-resource-deepspeech-info = Мозилла иаарту ахыҵхырҭа Deep Speech ажәа аидырратә еиқәыршәага шәхатә апликациақәа раԥҵаразы шәхы иашәырхәар шәылшоит. Уаԥхьа ҳ <githubLink>хҳәаа GitHub</githubLink> аҿы ма уалахәыз <discourseLink>Ажәа ҵаула аҟәша Адискурс</discourseLink> афорум аҟны, ишалагатәу еилукаарц азы.
+resource-deepspeech-info = Mozilla аҟынтәи ажәаҳәа аилкаага иаарту адвижок Deep Speech шәхатә ҳәоуқәа раԥҵараан шәхы иашәырхәар шәылшоит. Шәаԥхьа  <githubLink>ҳахҳәаа GitHub</githubLink> аҿы ма шәалахәха <discourseLink>DeepSpeech аҟәша Discourse</discourseLink> афорум аҿы, аус шалагатәу аилкааразы.
 resource-coqui-info = <coquiLink>Коки</coquiLink> иаарту ацәажәаратә технологиа иазкуп. Урҭ рыпроектқәа ирылагылоуп иҵаулоу аҵара шьаҭас измоу СТТ, ТТС рмоторқәа.
 community-playbook = Ауаажәларратә рҵага
 resource-playbook-info = <playbooklink>Иԥшаатәуп ахәарҭа злоу амҩақәҵара</playbookLink> Common Voice аҟазшьақәа зегьы рзы, алокализациа инаркны адатасет ахархәара аҟынӡа, насгьы ҳуаажәларра ҳшрыдҳәалатәу.
