@@ -1,12 +1,12 @@
 ## DemoLayout
 
-demo-get-started = Ҳалагап
-demo-welcome = Бзиала шәаабеит Азеиԥш бжьы
-demo-welcome-subheader = Еиҳаны адырра уҭахума, насгьы апроект аҿы ухы алаурхәырц уҭахума?
+demo-get-started = Шәааи ҳалагап
+demo-welcome = Бзиала шәаабеит Common Voice аҿы
+demo-welcome-subheader = Еиҳаны еилышәкаарц, насгьы апроект аҿы шәлагала ҟашәҵар шәҭахума?
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice адунеи аҿы иреиҳау, зегьы рзы иҟоу, бызшәарацәалатәи абжьытә дырраҭарақәа реизга ауп.
+demo-language-select-card-header = Common Voice — адунеи аҿы иреиҳау, зегьы рзы иҟоу, абызшәарацәалатәи абжьытә дыррақәа реизга ауп.
 demo-language-select-card-body = 50-тәи абызшәақәа рыла ицәажәо 259 000-ҩык ауаа рҟынтәи алагалақәа рыла, ари адыррақәа рхы иадырхәоит ауаҩы ибжьы еиҳа еиӷьны аилкааразы абзтә апрограммақәа рҵаразы.
 card-button-next = Анаҩсантәи
 card-button-back = Шьҭахьҟа
