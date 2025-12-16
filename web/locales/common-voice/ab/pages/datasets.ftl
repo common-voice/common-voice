@@ -71,11 +71,11 @@ dataset-metadata-sex = Ахаҵара-аԥҳәысра
 # dataset metadata - age of contributor
 dataset-metadata-age = Ақәра
 donate-modal-message = Шәдыррақәа реизга аҭыгара иаҿуп!
-dataset-donate-modal-heading = Иудыруама уи...
-donate-modal-explanation-1 = 100-тәи абызшәатә еилазаарақәа рзы адатасетқәа рыхылаԥшреи аплатформа аиӷьтәреи шықәсык ахь миллион доллар рҟынӡа ахарџь ацома?
+dataset-donate-modal-heading = Шәара ижәдыруама…
+donate-modal-explanation-1 = 100 иреиҳау абызшәатә еилазаарақәа рзы адыррақәа реизгақәа рҭыԥыркреи аплатформа аиӷьтәреи рзы шықәсык ахь миллион доллар рҟынӡа аҭахуп?
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>Иаарту, зегьы зҵазкуа адыррақәа рыхә ҳаракны ишәшьозар, иахьа аҭара ҟашәҵа!</bold>
-data-download-singleword-title = Иҭагалатәуп ахықәкытә сегмент "Ажәак"
+donate-modal-explanation-2 = <bold>Иаарту, инклиузивтәу адыррақәа рыхә ҳаракны ишәшьозар, иахьа ацхыраара ҟашәҵа!</bold>
+data-download-singleword-title = Ахықәкытә сегмент «Ажәак» аҭыгара
 data-download-singleword-callout-v2 = Ари асегмент ахархәаратә ҭагылазаашьақәа ирызкуп, насгьы ацәаҳәақәа реиӷьтәразы адыррақәа аҵоуп, насгьы «ааи»/«мап» аидырра.
 data-download-button = Common Voice адырра ҭагалатәуп
 data-download-yes = Ааи
