@@ -12,3 +12,9 @@ partnerships-governments-description = Kita seneng ndhukung kalibatane sektor pu
 partnerships-academia-header = Universitas, Akademisi lan Peneliti
 partnerships-academia-description = Inovasi dibuka minangka inti saka apa sing ditindakake. Kanggo kolaborasi riset, ngumpulake data utawa wawancara, <emailFragment>temokake.</emailFragment>
 partnerships-small-business-header = Bisnis cilik, kalebu teknologi lan wiwitane AI
+partnerships-small-business-description = Kita tansah kepengin krungu saka konsumen data babagan kabutuhane lan konteks - saka platform kolaborasi ing ngumpulake data kanggo nyedhiyakake wawasan kesehatan data, kita pengin <emailFragment>ngrungokake saka sampeyan.</emailFragment>
+partnerships-corporates-header = Perusahaan skala gedhe lan perusahaan platform
+partnerships-corporates-description = Yen sampeyan pengin ngomong luwih akeh babagan kumpulan data, pengin nandur modal bareng ing ekspansi platform sing wis direncanakake utawa goleki kesempatan kolaborasi, <emailFragment>hubungi kita.</emailFragment>
+partnerships-our-partners = Kanca Kita
+# menu item
+partners = kanca
