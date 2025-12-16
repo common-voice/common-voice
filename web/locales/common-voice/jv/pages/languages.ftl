@@ -29,4 +29,7 @@ get-involved-email =
 get-involved-opt-in = Ya, kirimono aku email. Aku pengin tetep ngerti babagan kemajuan basa iki ing Common Voice.
 get-involved-submit = Kirimake
 get-involved-stayintouch = Kita ing Mozilla mbangun komunitas babagan teknologi swara. Kita pengin tetep sesambungan karo nganyari, sumber data anyar lan krungu sing liyane babagan carane sampeyan nggunakake data iki.
+get-involved-privacy-info = Kita janji bakal nangani informasi sampeyan kanthi ati-ati. Maca liyane ing <privacyLink>Kabar Privasi</privacyLink>.
+get-involved-success-title = Sampeyan wis kasil ndaftar kanggo nyumbang ing { $basa }. Matur nuwun.
+get-involved-success-text = Kita bakal sesambungan karo informasi luwih lengkap nalika kasedhiya.
 get-involved-return-to-languages = Bali menyang Basa
