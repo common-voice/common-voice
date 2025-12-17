@@ -1,8 +1,8 @@
 ## Errors
 
-cs-error-fetching-datasets = Oiko peteĩ jejavy erekokuévo mba’ekuaarã aty rysýi ojeporukuaáva. Ikatu eha’ãjey ag̃amieve.
-cs-error-fetching-questions = Oiko peteĩ jejavy emba’eporandukuévo. Ikatukuaa eha’ãjey ag̃amieve.
-cs-error-fetching-transcriptions = Oiko peteĩ jejavy embokuatikuévo. Ikatukuaa eha’ãjey ag̃amieve.
+cs-error-fetching-datasets = Oiko peteĩ jejavy erekokuévo mba’ekuaarã aty rysýi ojeporukuaáva. Ikatu eha’ã jey ag̃amieve.
+cs-error-fetching-questions = Oiko peteĩ jejavy emba’eporandukuévo. Ikatukuaa eha’ã jey ag̃amieve.
+cs-error-fetching-transcriptions = Oiko peteĩ jejavy embokuatikuévo. Ikatukuaa eha’ã jey ag̃amieve.
 
 ## Modals
 
