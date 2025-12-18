@@ -5,5 +5,5 @@ download-helpus = Tulungono kene mbangun komunitas babagan teknologi swara, tete
 download-form-email =
     .label = Ketik email sampeyan
     .value = Suwun, tetep sambung dulur.
-download-back = Bali menyang Kumpulan Data Swara Umum
+download-back = Bali menyang Kumpulan Data Common Voice
 download-no = Ora, Suwun.
