@@ -266,6 +266,8 @@ code-switching-authentic-reflect = Ohechauka temiandu, teraite ha jeregua. Py’
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
 code-switching-answer-dont-correct-language = <bold>Emyatyrõ ne ñe’ẽ.</bold> Kóva ndaha’éi peteĩ kuaachauka. Ndaha’éi oĩporãnteva’era, osẽnteva’erã ijehegui.
 code-switching-answer-dont-avoid-switching = <bold>Emboyke ñemoambue ejapomemérõ.</bold> Emoambue pe ñe’ẽjuaju mbyte rupi, ñamindu’u mbyte rupi térã ñe’ẽ añoite ndive.
+code-switching-answer-dont-formal-writing = Eñe’ẽ ehairamoguáichante. Emboyke umi ñembohovái ñe’eporavo térã ñembokatupyryguáva. Eñe’ẽ ndeteháicha.
+code-switching-answer-dont-force-switch = <bold>Emoambue ndaha’éitaramo ijehegui añetéva.</bold> Emoambue nde eñe’ẽtaramo ndeteháicha upe jave.
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
 code-switching-transcribe-do-1 = Embopu mbykymimi heta jey ejapyhykuaa hag̃ua moambuepy
