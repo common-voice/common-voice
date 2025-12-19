@@ -56,6 +56,7 @@ download-profile = Unduh Dataku
 api-credentials = API
 api-credentials-header = Kredensial
 contribution-experience = Pengalaman ing Kontribusi
+skip-submission-feedback = Lewati ngajokake komentar
 skip-submission-description = Sajrone kiriman kontribusi, umpan balik bakal dilewati sawise ngeklik 'Kirim'. Kontribusi bakal terus lan langsung karo set sabanjure yakuwi 5 rekaman utawa validasi.
 skip-submission-note = Cathetan: Sampeyan isih kudu milih ing antarane Ngomong utawa Rungokake kanggo ngganti jinis kontribusi.
 off = Mati
