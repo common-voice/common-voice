@@ -101,3 +101,7 @@ adding-sentences-subheader-special-characters = Karakter Khusus lan Huruf Asing
 adding-sentences-subheader-special-characters-explanation-1 = Aksara kudu bener ing basa sing digunakake. Contone, "ж" iku aksara ing alfabet Rusia nanging ora tau digunakake ing basa Inggris lan kudune ora bakal katon ing teks sumber basa Inggris apa wae.
 adding-sentences-subheader-special-characters-explanation-2 = Basa-basa bisa duwe aturan validasi dhewe kanthi syarat tambahan yen diterjemahake. Yen ora ana file validasi khusus kanggo sawijining basa, aturan basa Inggris sing bakal ditampilake kanggo kontributor.
 adding-sentences-subheader-offensive-content = Konten sing Nyinggung
+adding-sentences-subheader-offensive-content-explanation = Yen ukara kasebut nyinggung utawa ngecewakake - contone amarga isine ora nyambung, utawa pelanggaran liyane saka <CommunityGuidelines>Community Participation Guidelines</CommunityGuidelines> - sampeyan kudu nolak ukara kasebut. Sampeyan uga bisa ngubungi kita ing <emailFragment>commonvoice@mozilla.com</emailFragment> kanggo ngunggahake masalah kasebut.
+reviewing-sentences-explanation-1 = Menawa ukara kasebut cocok karo syarat ing ndhukur, klik tombol "Ya".
+reviewing-sentences-explanation-2 = Menawa ukara kasebut ora cocok karo syarat ing ndhukur, klik tombol "Ora".
+reviewing-sentences-explanation-3 = Yen sampeyan ora yakin karo ukara kasebut, sampeyan uga bisa nglewati lan pindhah menyang ukara sabanjure.
