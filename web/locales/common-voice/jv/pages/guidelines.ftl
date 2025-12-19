@@ -151,3 +151,13 @@ answer-questions-tip-1 = Rekam ing panggonan sing cukup sepi
 answer-questions-tip-2 = Pilih panggonan sing nduweni sambungan internet sing apik
 answer-questions-tip-3b = Coba jaga respon sampeyan sajrone 15-30 detik
 answer-questions-tip-4 = Aja ngomong sengit, ngganggu, utawa sing nyinggung liyane
+answer-questions-tip-5 = Ngomonga sing alami, kaya dene karo kanca - gunakake variasi, dialek, lan logatmu dhewe
+answer-questions-tip-6 = Jaga volume swaramu tetep konsisten - aja mbengok utawa nyanyi
+# Transcribe the Audio
+transcribe-the-audio = Transkrip Swara
+transcribe-the-audio-subheader-1 = Pandhuan umum
+transcribe-the-audio-subheader-2 = Angka lan akronim
+transcribe-the-audio-subheader-3 = Tag Khusus
+transcribe-the-audio-subheader-4 = Segmen tembung, wiwitan sing salah, tembung sing dibaleni
+transcribe-the-audio-subheader-5 = Kasalahan tata basa lan tata wicara saben dinane
+transcribe-the-audio-subheader-1-explanation = Umumé, sampeyan kudu nulis kabèh sing sampeyan krungu. Iki kalebu;
