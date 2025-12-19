@@ -32,3 +32,10 @@ request-language-success-list-3 =
 request-language-error =
     موږ ممکن دا غوښتنه نه وي ترلاسه کړې. مهرباني وکړئ موږ ته مستقیم بریښنالیک وکړئ
     په <emailLink>{ $email }</emailLink> کې او موږ به بیرته تاسو ته ورسیږو!
+request-for-scripted-speech-toggle = د مخکې نه ليکل شوې وينا (سکرېپټ) غوښتنه وکړئ
+request-for-spontaneous-speech-toggle = د خپلسري وینا غوښتنه
+need-help-deciding-platform = د کوم یو غوره کولو په اړه پریکړه کولو کې مرستې ته اړتیا لرئ؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>سکرپټ شوی وینا</strong> (په دودیز ډول هغه څه چې تاسو یې د کامن وايس په نوم پیژنئ) هغه ځای دی چې تاسو کولی شئ په خپله ژبه کې جملې په لوړ غږ ولولئ.
+need-help-deciding-platform-explanation-2 = <strong>خپلسري وینا</strong> د کامن وايس یوه نوې برخه ده چیرې چې تاسو کولی شئ پوښتنو ته په ډیر عضوي او عام ډول ځواب ورکړئ.
+need-help-deciding-platform-explanation-3 = که مو خپله ژبه د پلاتفورم په کومه برخه کې ونه موندله، دواړه وټاکئ.

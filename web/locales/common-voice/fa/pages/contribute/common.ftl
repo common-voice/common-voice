@@ -143,4 +143,4 @@ contribution-reader-effects-description = بیشتر ضبط‌ها مربوط ب
 contribution-just-unsure-title = اگه سوال دیگه‌ای واسم پیش اومد چی؟
 contribution-just-unsure-description = اگر به چیزی برخورد کردید که در این دستورالعمل‌ها پوشش داده نشده بود، لطفا براساس بهترین قضاوت خود رأی دهید. اگر واقعا نمی‌توانید تصمیم بگیرید، از دکمه رد شدن استفاده کنید و به صدای ضبط شده بعدی بروید.
 see-more = <chevron> </chevron> بیشتر ببینید
-see-less = <chevron> </chevron> کمتر ببینید
+see-less = <chevron> </chevron> کم‌تر ببینید

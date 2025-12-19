@@ -189,6 +189,9 @@ code-switching-dont-header = قىلمايدىغىنى
 code-switching-dont-1 = ھەددىدىن زىيادە رەسمىي تىل ئىشلەتمەڭ
 # Reviewing a Question
 code-switching-review-subheader = سوئال تەكشۈرۇش
+code-switching-answer-bullet-4 = جاۋاب بېرىشنىڭ «مۇكەممەل» ئۇسۇلى يوق
+# Transcribing
+code-switching-transcribe-subheader = خەت پۈتۈش
 
 ## Reporting Content
 

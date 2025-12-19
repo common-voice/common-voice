@@ -4,7 +4,7 @@ listen-instruction = { $actionType }<playIcon></playIcon> ایا دوی په ک�
 listen-again-instruction = ډېر ښه کار! <playIcon></playIcon> کله چې چمتو یاست نو بیا واورئ
 listen-3rd-time-instruction = 2 ترسره شوه، دوام ورکړئ! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> وروستی یو!
-listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د کلیپونو څخه خلاص شو...
+listen-empty-state = ممکن زموږ کليپونه ختم شوي وي - پاڼه بيا تازه کړئ، یا وروسته هڅه وکړئ.
 listen-empty-state-variants = ستاسو د ژبې توپیر ممکن د جملو څخه بهر وي! که تاسو آرام یاست، تاسو کولی شئ خپل ترتیبات بدل کړئ ترڅو په خپله ژبه کې نورې جملې وګورئ.
 listen-loading-error =
     موږ ستاسو د اوریدلو لپاره هیڅ آډیو کلیپونه ترلاسه نشو کولی.

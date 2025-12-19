@@ -43,6 +43,7 @@ x-years-short =
     }
 help-make-dataset = Ба мо барои бунёди маҷмуи маълумоти босифат ва оммавӣ кумак расонед
 sign-up-account = Ҳисоберо ба қайд гиред
+email-subscription-title-v3 = Барои навсозиҳои «Common Voice» ва «Mozilla Foundation» обуна шавед
 
 ## Account Benefits
 
