@@ -72,6 +72,7 @@ variant-contribution-option-1 = جمله‌ها و صداها را از تمام
 variant-contribution-option-2 = فقط جمله‌ها و صداهایی که از گونه من است را بهم نشان دهید
 variant-contribution-warning-title = ⓘ هنوز همه جمله‌ها و صداها دارای برچسب‌های گونه نیستند!
 variant-contribution-warning-subtitle = اگر در اهدا مشکل دارید، می‌توانید در هر زمان به مشاهده تمام محتوای زبان خود بازگردید.
+api-key-modal-confirmation-header = مطمئنید؟
 # Genders
 male_masculine = مذکر/مردانه
 female_feminine = مونث/زنانه
@@ -80,3 +81,5 @@ transgender = تراجنسیتی
 non-binary = نان‌باینری
 do_not_wish_to_say = نمی‌خواهم بگویم
 other = ‏‏سایر
+# Age Values
+teens = کم‌تر از ۱۹
