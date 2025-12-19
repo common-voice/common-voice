@@ -83,3 +83,11 @@ do_not_wish_to_say = نمی‌خواهم بگویم
 other = ‏‏سایر
 # Age Values
 teens = کم‌تر از ۱۹
+twenties = ۱۹ - ۲۹
+thirties = ۳۰ - ۳۹
+fourties = ۴۰ - ۴۹
+fifties = ۵۰ - ۵۹
+sixties = ۶۰ - ۶۹
+seventies = ۷۰ - ۷۹
+eighties = ۸۰ - ۸۹
+nineties = ۹۰ - ۹۹
