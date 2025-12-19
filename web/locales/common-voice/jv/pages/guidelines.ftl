@@ -56,3 +56,48 @@ volume-explanation = Bakal ana variasi alami antarane pamaca. Tolak mung yen vol
 reader-effects-explanation = Umume rekaman iku nuduhake wong-wong sing ngomong nganggo swara asline. Sampeyan bisa nampa rekaman ora-standar sing sok-sok diuwuh-uwuh, dibisikake, utawa kanthi jelas diwenehake nganggo swara 'dramatis'. Mangga tolak rekaman sing nggunakake swara sing dibudidaya komputer.
 just-unsure-explanation = Menawi sampeyan nemoni bab ingkang ora ana ing pandhuan iki, mangga milih miturut pertimbangan sampeyan sing paling apik. Menawi sampeyan ora bisa mutusake, gunakake tombol skip lan pindhah menyang rekaman sabanjure.
 still-have-questions = Isih duwe pitakon?
+contact-common-voice = Hubungi tim Common Voice
+
+## Sentence collection nav ids
+
+public-domain = Domain Umum
+citing-sentences = Ngutip Ukara
+adding-sentences = Nambahake Ukara
+reviewing-sentences = Mriksa Ukara
+sentence-domain = Domain Ukara
+
+## Sentence collection sidebar content
+
+public-domain-explanation-1 = Penting banget yen kabeh tulisan ukara kalebu <publicDomain>domain publik</publicDomain> (<cc0>cc0</cc0>) amarga kumpulan data Common Voice dirilis miturut lisensi cc0. Mung unggah ukara yen sampeyan yakin, lan tansah lebokake kutipan sing tepak.
+public-domain-explanation-2 = Ukara paling apik kanggo mbangun mesin pangenalan wicara sing migunani yaiku basa sedina-dina lan modern. Sawetara ide kanggo mbantu sampeyan nggawe ukara yaiku;
+public-domain-explanation-3 = Gawe ukara basa modern nganggo basa ngoko dhewe utawa karo kanca-kanca utawa komunitas basa - contone liwat 'write-a-thon'
+public-domain-explanation-4 = Hubungi para penulis, penulis drama, utawa penulis skenario lan takon apa dheweke gelem ngaturake sebagian cilik saka karyane kanggo domain umum
+public-domain-explanation-5 = Golekana teks sing hak ciptane ora ditrapake maneh - contone umume buku sing diterbitake sadurunge taun 1920
+public-domain-explanation-6 = Hubungi pemerintah, organisasi nirlaba, utawa organisasi media kanggo ndeleng apa ana konten web, laporan, utawa konten liyane sing bisa dikhususake kanggo domain publik.
+citing-sentences-explanation-1 = Penting kanggo melokno kutipan supaya kita bisa mriksa manawa ukara kasebut ana ing domain umum lan ora ana watesan hak cipta sing ditrapake.
+citing-sentences-subheader-websites = Situs web
+citing-sentences-subheader-websites-explanation = Sampeyan bisa nglebokaké situs web, contoné "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Referensi Akademik
+citing-sentences-subheader-academic-reference-explanation = Sampeyan bisa nggunakake gaya referensi akademik, contone gaya Harvard "Mozilla (2021) Common Voice. Sing ana ing https://commonvoice.mozilla.org/ (Diakses: 15 September 2021)"
+citing-sentences-subheader-offline-sources = Sumber Offline
+citing-sentences-subheader-offline-sources-explanation = Kanggo teks domain publik sing ora kasedhiya online, sampeyan bisa nggunakake gaya referensi akademik contone gaya Harvard "Jess (2021) My Public license poems"
+citation =
+    .label = Kutipan
+self-citation = Kutipan Dhewe
+self-citation-explanation = Iki carane sampeyan ngutip sampeyan dhewe yen sampeyan sing nulis konten kasebut dhewe.
+adding-sentences-subheader-length = Dawane
+adding-sentences-subheader-length-explanation = Ukara kasebut kudu kurang saka 15 tembung.
+adding-sentences-subheader-spelling-punctuation = Ejaan lan Wacan
+adding-sentences-subheader-spelling-punctuation-explanation = Ukara kasebut kudu dieja kanthi bener.
+adding-sentences-subheader-speakable = Bisa diomongake
+adding-sentences-subheader-speakable-explanation = Ukara sing paling apik yaiku sing alami lan gampang diomongake — ukara-ukara kasebut kudune gampang diwaca dening wong liya. Sanajan maneka warna cara wicara lan tembung sing beda-beda ing ukara iku penting, kita uga nyoba nggawe rekaman ukara dadi apik lan nyenengake kanggo komunitas sukarelawan kita sabisa-bisane.
+adding-sentences-subheader-numbers = Angka
+adding-sentences-subheader-numbers-explanation = Ideale ora ana angka ing teks sumber amarga bisa nyebabake masalah nalika diwaca banter. Cara maca angka gumantung saka konteks lan bisa uga nggawe kebingungan ing kumpulan data. Contone, angka "2409" bisa diwaca kanthi akurat minangka "rong puluh papat nol sanga" lan "rong ewu patang atus sanga".
+adding-sentences-subheader-abbreviations = Singkatan lan Akronim
+adding-sentences-subheader-abbreviations-explanation = Singkatan lan akronim kaya "USA" utawa "ICE" kudu dihindari ing teks sumber amarga bisa uga diwaca kanthi cara sing ora cocok karo ejaane. Kejaba iku, bisa uga ana pirang-pirang bacaan sing akurat kanggo siji singkatan.
+adding-sentences-subheader-punctuation = Tandha wacan
+adding-sentences-subheader-punctuation-explanation = Simbol lan tandha wacan khusus kudu dilebokake yen pancen perlu. Contone, apostrof kalebu ing tembung Inggris kaya "don't" lan "we're" kudu dilebokake ing teks sumber, nanging sampeyan ora mungkin butuh simbol khusus kaya "@" utawa "#".
+adding-sentences-subheader-special-characters = Karakter Khusus lan Huruf Asing
+adding-sentences-subheader-special-characters-explanation-1 = Aksara kudu bener ing basa sing digunakake. Contone, "ж" iku aksara ing alfabet Rusia nanging ora tau digunakake ing basa Inggris lan kudune ora bakal katon ing teks sumber basa Inggris apa wae.
+adding-sentences-subheader-special-characters-explanation-2 = Basa-basa bisa duwe aturan validasi dhewe kanthi syarat tambahan yen diterjemahake. Yen ora ana file validasi khusus kanggo sawijining basa, aturan basa Inggris sing bakal ditampilake kanggo kontributor.
+adding-sentences-subheader-offensive-content = Konten sing Nyinggung
