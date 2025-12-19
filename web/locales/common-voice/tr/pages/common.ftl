@@ -12,6 +12,7 @@ abq = Abazaca
 ace = Açece
 ady = Adıgece (Batı Çerkesçesi)
 af = Afrikaans
+aii = Suret
 ajg = Adja
 aln = Gegce
 am = Amharca
@@ -62,6 +63,8 @@ byv = Medumba
 ca = Katalanca
 cak = Kakçikelce
 cdo = Doğu Min Çincesi
+cgg = Chiga
+cjk = Chokwe
 ckb = Soranice
 cnh = Hakha Chin
 co = Korsikaca
@@ -400,3 +403,17 @@ announcement-mdc-text = <strong>Yeni Common Voice veri kümeleri</strong> artık
 announcement-mdc-button-text = Mozilla Data Collective'e Katılın
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Yeni sekmede açılır
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Aramak için yazmaya başlayın
+searchbox-default-placeholder = Ara…
+searchbox-default-aria-label = Ara
+dropdown-no-results = Eşleşme bulunamadı
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Hem görüntüleme hem de veri kümesi dilini değiştirir
+dataset-searchbox-placeholder = Dil ara...
+dataset-searchbox-aria-label = Dil ara
+dataset-search-no-results = Eşleşen dil bulunamadı
+request-new-language = Yeni dil iste

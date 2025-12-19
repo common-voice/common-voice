@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = د ونډې لارښوونې
+guidelines-header = ✅ د ونډې اخیستنې لارښوونې
 guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسیټ ته د جملو او آډیو کلیپونو مرسته او اعتبار ورکړئ
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
@@ -176,10 +176,12 @@ transcribe-the-audio-subheader-2-example-2-correct = <سمه> سمه</سمه>: �
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <غلط>غلط</غلط>: په <underline>۲۰۱۵<underline/> کې به بیا سره ووینو
 transcribe-the-audio-subheader-2-example-3-correct = <سمه> سمه</سمه>: دا شل سلنه تخفیف وه
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>ناسم</wrong>: دا ۲۰٪ تخفیف درلود
 transcribe-the-audio-subheader-2-example-4-correct = <سمه> سمه</سمه>: دوی د تیرې پنجشنبې په ورځ د FBI لخوا ونیول شول
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>ناسم</wrong>: هغوی تېره پنجشنبه د <underline>اېف بي آی</underline> له‌خوا ونیول شول.
 transcribe-the-audio-subheader-3-explanation = لاندې ځانګړي ټګونه باید د ناڅرګندتیاوو، ډکونکو او نورو غیر لفظي منځپانګو ډولونو (په انګلیسي کې) د نښه کولو لپاره وکارول شي.
-tags-table-header-1 = ټګ
-tags-table-header-2 = معنی
+tags-table-header-1 = ټاګ
+tags-table-header-2 = مانا
 tags-laugh = خندا
 tags-disfluency = بې نظمي
 tags-unclear = ناڅرګند
@@ -284,9 +286,78 @@ code-switching-answer-dont-correct-language = <bold> خپله ژبه "سمه ک�
 code-switching-answer-dont-avoid-switching = <bold>که تاسو معمولا دا کار کوئ نو د بدلولو څخه ډډه وکړئ.</bold> دا ښه ده چې د جملې په مینځ کې، د فکر په مینځ کې، یا یوازې د یوې کلمې لپاره بدل کړئ.
 code-switching-answer-dont-formal-writing = <bold>داسې خبرې وکړئ لکه څنګه چې تاسو په رسمي ډول لیکئ.</bold> له رسمي، اکاډمیک ځوابونو څخه ډډه وکړئ. دا د خبرو اترو په څیر وساتئ.
 code-switching-answer-dont-force-switch = <bold>که طبیعي نه وي نو په زور یې بدل کړئ.</bold> یوازې هغه وخت بدل کړئ که تاسو په طبیعي ډول پدې حالت کې خبرې کوئ.
+code-switching-answer-dont-translate-repeat = <bold>هر څه وژباړئ یا تکرار کړئ.</bold> یوازې یو ځل یې ووایاست، لکه څنګه چې دا به په خبرو اترو کې راشي. تاسو اړتیا نلرئ چې په هره ژبه کې د ځواب یوه نسخه ووایاست.
+# Transcribing
+code-switching-transcribe-subheader = غږ په متن بدلول
+code-switching-transcribe-intro = کله چې داسې ځوابونه نقل‌لیکوئ چې پکې د ژبو بدلول (کوډسوېچنګ) شامل وي، د ویونکي ژبه هماغسې ولیکئ لکه څنګه چې ویل شوې ده — بې له دې چې سمون، سمون‌ورکول، یا ساده کول پکې وکړئ. دا لارښوونه د ټولو ژبنیو بدلونونو، غیررسمي وینا، او ګډو ژبو کلمو لپاره ده.
+code-switching-transcribe-do-1 = لنډې برخې څو ځله واورئ څو واړه ژبني بدلونونه په سمه توګه ونیسئ.
+code-switching-transcribe-do-2 = د ژبنیو بدلونونو یا ګډو کلمو د بیا کتنې لپاره، د هرې جملې وروسته غږ ودروی.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = وینا هماغسې ثبت کړئ لکه څنګه چې ویل شوې وي
+code-switching-capture-explanation = دواړه ژبې لکه څنګه چې ښکاري / غږیږي ولیکئ. ژبه مه «سموئ» او هڅه مه کوئ چې یوازې یوې ژبې ته یې واړوئ.
+# Include filler words and markers
+code-switching-filler-header = د تشو ځايو ډکوونکې کلمې او نښې هم شاملې کړئ
+code-switching-filler-explanation =
+    د “um”، “like”، “pues”، “you know”، او “entonces” په څېر کلمې مانا لري.
+    بېلګه: “نو، um، ما هغې ته like وویل: ‘pues no sé، ښایي وروسته.’”
 # Use standard spelling for each language
 code-switching-spelling-header = د هرې ژبې لپاره معیاري املا وکاروئ
-code-switching-tagging-error-3 = په غلط خطاطۍ کې لیکل شوي کلمې
+code-switching-spelling-explanation = هڅه وکړئ چې د هرې ژبې کلمې په سمه املا ولیکئ، مګر که ویونکی یې څرګند ډول په غیرمعیاري بڼه تلفظ کړي وي، هماغسې یې ولیکئ لکه څنګه چې اورئ.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = ژبه مه صفا کوئ او مه یې ساده کوئ
+code-switching-cleanup-1 = ژباړه یا لنډیز - هغه څه ولیکئ چې ویناوال وویل، نه هغه څه چې دوی یې "مطلب" درلود.
+code-switching-cleanup-2 = "سم" ګرامر یا تلفظ - د ویناوال طبیعي استعمال وساتئ.
+code-switching-cleanup-3 = هغه ژبني بدلونونه مه پرېږدئ چې واړه یا غیر مهم ښکاري — حتٰی پور شوې (اخیستل شوې) کلمې هم ارزښت لري.
+code-switching-cleanup-4 = داسې نښې نښانې مه ورزیاتوئ چې مانا بدله کړي — د وینا طبيعي روان هماغسې وساتئ.
+code-switching-cleanup-5 = فرض کړئ چې تاسو د هرې کلمې ژبه پوهیږئ - د کارونې پر بنسټ يې ټګ کړئ.
+# Tagging
+code-switching-tagging-subheader = ټګ کول
+code-switching-tagging-error-intro = که چیرې په لیکنه کې کومه تېروتنه وي، نو مهرباني وکړئ د راپور ورکولو فعالیت وکاروئ ترڅو یې په نښه کړئ. احتمالي تېروتنې په لاندې ډول دي:
+code-switching-tagging-error-1 = ناسمې نښې نښانې یا ناسم د لویو تورو کارول
+code-switching-tagging-error-2 = املايي تېروتنې
+code-switching-tagging-error-3 = په ناسمه املا لیکل شوې کلمې
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = د هرې ژبې لپاره د سمې املا کارول
+code-switching-orthography-explanation = هره کلمه د هغې د اړوندې ژبې د املا له مخې ولیکئ. بېلګه:
+code-switching-orthography-explanation-example-1 = که د “kitchen” کلمه په هسپانوي لهجې تلفظ شوې وي، باید په انګلیسي املا ولیکل شي، نه د “quichen” په بڼه.
+code-switching-orthography-explanation-example-2 = که د quinceaños کلمه د انګلیسي په تلفظ ووییل شي، نو هم یې د ñ سره ولیکئ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = د ژبې د ټاکلو لپاره د تلفظ څخه کار واخلئ
+code-switching-pronunciation-explanation = ځینې کلمې ښايي په دواړو ژبو کې یو شان ښکاري، خو په مختلف ډول تلفظ کېدای شي. د سم ټاګ کولو لپاره تلفظ ته غوږ ونیسئ. د بېلګې په توګه: cable، taco، actor، detective.
+code-switching-pronunciation-explanation-example-1 = انګلیسي: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = هسپانوي: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = په یو واحد ټوکن کې ټاګ کول
+code-switching-single-token-explanation = یو واحد ټوکن چې د تشې (space) له لارې بېل شوی وي، باید له یو څخه زیات ټاګ شوي برخې ولري.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = د نږدې ژبې پر بنسټ د ټګ ليکنښې
+code-switching-punctuation-tagging-explanation = د کیڼ اړخ ته نږدې ژبې په کارولو سره د ليکنښو ټاګ کول. بېلګې:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>او هغه یو ځل چې</purple> ماریا <purple>پر ما چیغه ووهله دا ځکه و</purple> <blue>porque</blue> <purple>هغې هڅه کوله چې</purple> printear <blue>un</blue> <purple>سفارش ثبت کړي.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>خو</purple> <blue>ته کولی شې هغه په سور، تور او شین واخلې</blue>، <purple>هر څه چې وي.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = له يو بل سره ورته  کليمو سره محتاط اوسئ
+code-switching-lookalikes-explanation = ځینې کلمې ممکن د یوې ژبې په څیر ښکاري مګر په بله ژبه کې کارول کیږي. ټاګ کول د مانا او کارونې پر بنسټ وکړئ، نه د ظاهري بڼې له مخې. بېلګې:
+code-switching-lookalikes-explanation-example-1 = «Footing» چې په هسپانوي کې د منډې وهلو په معنا کارېږي > د هسپانوي په توګه یې ټاګ کړئ.
+code-switching-lookalikes-explanation-example-2 = «No problemo» چې په انګلیسي کې کارول کېږي > د انګلیسي په توګه یې ټاګ کړئ.
+# When Not to Tag Words
+code-switching-not-tag-header = کله بايد کلمې ټاګ نه کړو
+code-switching-not-tag-explanation = ځینې کلمې باید <bold>د ژبې په لېبل ټاګ نه شي</bold>، حتا که ګډې یا بدلې شوې هم ښکاري. دلته د ځینو بېلګو د سم چلند څرنګوالی دی:
+code-switching-not-tag-proper-names = <bold>خاص نومونه.</bold> د اشخاصو، ځایونو او بنسټونو نومونه باید ټاګ نه شي. بېلګې:
+code-switching-not-tag-proper-names-example-1 = خلک: ماریا، جان
+code-switching-not-tag-proper-names-example-2 = ځایونه: لاس انجلس، فلوریډا
+code-switching-not-tag-proper-names-example-3 = برانډونه/سازمانونه: هدف، برګر کنگ
+code-switching-not-tag-mixed-words = <bold>مخلوط یا مورفولوژیکي پلوه تطبیق شوي کلمې.</bold> هغه کلمې مه نښه کوئ چې ژبې سره ګډوي یا د بلې ژبې پایونه یې اضافه کړي وي. مثالونه:
+code-switching-not-tag-mixed-words-example = په هغو مواردو کې چې د کلمې ریښه انګلیسي وي خو وروستاړی یې اسپانوي وي، لکه “parkear” او “printearlo”.
+code-switching-not-tag-interjections = <bold>ندايي اوازونه.</bold> د ندايي اوازونو او ډکوونکو کلیمو (filler words)، که په هره ژبه وي، باید <bold>بې‌ نښې پاتې شي.</bold> بېلګې:
+code-switching-not-tag-interjections-example-1 = "اې"
 code-switching-not-tag-interjections-example-2 = "نه"
+code-switching-not-tag-interjections-example-3 = "ييېې"
+code-switching-not-tag-interjections-example-4 = "اېر"
+
+## Reporting Content
+
+reporting-content = د محتوا راپور ورکول
+reporting-content-subheader = عمومي لارښوونه
+reporting-content-explanation-1 = تاسو باید هغه محتوا په نښه کړئ چې سپکاوی کوونکې، زیانمنه یا په بل ډول د اندېښنې وړ وي. همدارنګه، پکې باید د شخصي پېژندنې هېڅ ډول معلومات لکه د ټیلیفون شمېرې یا پته شامل نه وي. دا محتوا به تر هغه وخته ستاسو له تجربې څخه لرې شي چې د  کامن وايس ټيم یې وڅېړي او نورې پلټنې ترسره کړي.
+reporting-content-explanation-2 = د محتوا د راپور ورکولو لپاره، د “راپور” تڼۍ وټاکئ او یو یا ټول انتخابونه وټاکئ: سپکوونکې محتوا، مختلفه ژبه، د پېژندنې وړ شخصي معلومات، نور. له دې ځایه، د متن په ځای کې نور جزییات ورکړئ چې ولې تاسو دا محتوا راپور کوئ. وروسته، د “راپور” تڼۍ کېکاږئ تر څو راپور وسپارل شي.

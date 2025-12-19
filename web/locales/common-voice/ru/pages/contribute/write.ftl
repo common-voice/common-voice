@@ -75,7 +75,7 @@ sc-bulk-upload-instruction-drop = Перетащите сюда файл, что
 bulk-upload-additional-information = Если вы хотите предоставить дополнительную информацию об этом файле, пожалуйста, свяжитесь с нами по адресу <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = Если вы хотите предоставить дополнительную информацию об этом файле, который не включен в шаблон, пожалуйста, свяжитесь с нами по адресу <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Попробуйте ещё раз, перетащив файл сюда
-try-upload-again-md = Попробуйте загрузить еще раз
+try-upload-again-md = Попробуйте загрузить ещё раз
 select-file = Выберите файл
 select-file-mobile = Выберите файл для загрузки
 accepted-files = Допустимые типы файлов: только .tsv.
@@ -139,9 +139,9 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } из 1 предложения собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
-        [few] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
-       *[many] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
+        [one] { $uploadedSentences } из 1 предложения собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы скачать отклонённые предложения.
+        [few] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы скачать отклонённые предложения.
+       *[many] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы скачать отклонённые предложения.
     }
 small-batch-sentences-rule-1 = Следуйте инструкциям из раздела «Какие предложения я могу добавить?»
 small-batch-sentences-rule-2 = Добавлять по одному предложению на строку

@@ -1,59 +1,59 @@
 ## WRITE PAGE
 
-write = Ианҵатәуп
-write-instruction = Иацҵатәуп <icon></icon> зегьы ирзеиԥшу аҳәара
-write-page-subtitle = Абра иаагоу ажәеинраалақәа cc-0 алицензиа аҵаҟа зегьы ирзеиԥшу адатасет иацҵахоит.
+write = Аҭаҩра
+write-instruction = Иацышәҵа <icon></icon> зегьы рзы иҟоу аҳәоу
+write-page-subtitle = Абра иаагоу афразақәа cc-0 алицензиала зегьы рзы иҟоу адыррақәа реизга иацҵахоит.
 sentence =
-    .label = Адгалара
-sentence-input-placeholder = Иҭажәгал шәзеиԥш доментә жәаҳәара абра
-small-batch-sentence-input-placeholder = Иҭажәгал шәзеиԥш доментә жәаҳәара абра
-citation-input-placeholder = Упропозициа ахыҵхырҭа ахьӡ ҳәа (иаҭахуп)
+    .label = Аҳәоу
+sentence-input-placeholder = Ауаажәларратә мазараҟынтәи шәыфраза ара иҭажәгал
+small-batch-sentence-input-placeholder = Ауаажәларратә мазараҟынтәи аҳәоуқәа ара иҭажәгал
+citation-input-placeholder = Шәҳәоу ахыҵхырҭа ашәырба (хымԥада иаҭахуп)
 citation =
     .label = Ацитата
-sc-write-submit-confirm = Сара ишьақәсырӷәӷәоит ари аҳамҭа <wikipediaLink>зеиԥш домен</wikipediaLink> шакәу, насгьы уи ашьҭыхразы азин сымоуп.
-sc-review-write-title = Иарбан лабжьарақәоу иацҵатәу?
-sc-review-small-batch-title = Ирацәаны аҳәоуқәа шрыцҵатәу
-new-sentence-rule-1 = <noCopyright>Акопиразин ԥкрақәа ыҟам</noCopyright> (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Ажәақәа 15 еиҵаны
-new-sentence-rule-3 = Ииашоу аграмматика ахархәара
-new-sentence-rule-4 = Ииашоу аорфографиеи апунктуациеи рхархәара
-new-sentence-rule-5 = Ахыԥхьаӡарақәеи асимвалька ҷыдақәеи рыда
-new-sentence-rule-6 = Атәым персонажқәа ыҟаӡам
-new-sentence-rule-7 = Иақәнагоу ацитата алаҵатәуп
+sc-write-submit-confirm = Сара ишьақәсырӷәӷәоит ари аҳәоу <wikipediaLink>уаажәларратә мазараны</wikipediaLink> шакәу, насгьы уи аҭагаларазы азин сымоуп.
+sc-review-write-title = Иарбан ҳәоуқәоу рацҵара ҟало?
+sc-review-small-batch-title = Ҳәоуқәак шԥацҵатәу?
+new-sentence-rule-1 = <noCopyright>Автортә зинқәа рзы ԥкрақәа ыҟам</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = 15 ажәа еиҵаны
+new-sentence-rule-3 = Ииашоу аграмматика шәхы иашәырхәа
+new-sentence-rule-4 = Ииашоу аорфографиеи апунктуациеи шәхы иашәырхәа
+new-sentence-rule-5 = Ахыԥхьаӡарақәеи асимвол ҷыдақәеи рыда
+new-sentence-rule-6 = Атәым символқәа рыда
+new-sentence-rule-7 = Иақәнагоу ацитата алашәҵа
 new-sentence-rule-8 = Идеалла иԥсабаратәу, еицәажәаратәу (аҳәоу аԥхьара мариазароуп)
-login-instruction-multiple-sentences = <loginLink>Аҭалара</loginLink> мамзаргьы <loginLink>аҽҭаҩра</loginLink> жәаҳәарақәак рыцҵаразы
-how-to-cite = Ишԥасылшо ацитатақәа?
-how-to-cite-explanation-bold = Аусумҭа URL зхьарԥш ма ахы зегьы аманы ацитата аага.
-how-to-cite-explanation = Абарҭ шәхатә ажәақәа ракәзар, иаҳәатәуп <italicizedText>"Ахатә цитатақәа"</italicizedText>. Ҳара иаҳдыруазар ауп ари аҵакы ахьышәыԥшааз, зегьы ирзеиԥшу ҳәа ҳгәы иаанагарц азы, насгьы акопиразинқәа рыԥкрақәа ирықәымшәо. Ацитатақәа рзы еиҳаны адырра азы, шәахәаԥш ҳ <guidelinesLink>Амҩақәҵарақәа рыдаҟьа</guidelinesLink>.
-guidelines = Амҩақәҵаҩцәа
-contact-us = Ҳара шәҳацәажәа
-add-sentence-success = 1 ажәалагала еизгоуп
-add-sentence-error = Адгалара ацҵараан агха ҟалеит
-required-field = Ҳаҳәоит, ари аҭыԥ ҭашәырҭәаа.
-single-sentence-submission = Адгалара заҵәык ашьҭра
-small-batch-sentence-submission = Ажәеинраалақәа ргәыԥ хәыҷы ашьҭра
-bulk-sentence-submission = Ажәалагалақәа рацәаны рышьҭра
-single-sentence = Жәҳәак
-small-batch-sentence = Апартиа хәыҷы
-bulk-sentence = Еизакны апартиа
-sentence-domain-combobox-label = Адгалара адомен
-sentence-domain-select-placeholder = Иалхтәуп х-доменк рҟынӡа
+login-instruction-multiple-sentences = <loginLink>Шәҭал</loginLink> мамзаргьы<loginLink> шәыҽҭажәгал</loginLink>ҳәоуқәак рыцҵаразы
+how-to-cite = Ишԥасылшо ацитата аагара?
+how-to-cite-explanation-bold = URL-азхьарԥш, ма аусумҭа ахьӡ ала ацитата аагара.
+how-to-cite-explanation = шәхатә ажәақәа ракәзар, ишәҳәа <italicizedText>"Ахатәы цитата аагара"</italicizedText>. Ҳара иаадыруазароуп ари аконтент ахьышәыԥшааз, ауаажәларратә мазараны шакәу, насгьы уи автортә зинқәа аԥкрақәа шрықәымшәо агәра ҳгарц азы. Ацитатақәа ирызкны еиҳаны аинформациа шәахәаԥш<guidelinesLink>Абжьгарақәа  рдаҟьаҿы</guidelinesLink>.
+guidelines = Ахархәагақәа
+contact-us = Ҳаҽҳамажәда
+add-sentence-success = Ҳәоук еизгоуп
+add-sentence-error = Аҳәоу ацҵараан агха ҟалеит
+required-field = Ҳшәыҳәоит, ари аҭыԥ хашәырҭәаа.
+single-sentence-submission = Ҳәоук анашьҭра
+small-batch-sentence-submission = Аҳәоуқәа арзақәа хәыҷқәа рыла анашьҭра
+bulk-sentence-submission = Аҳәоуқәа рацәаны анашьҭра
+single-sentence = Ҳәоук
+small-batch-sentence = Арзақә хәыҷы
+bulk-sentence = Арзақә ду
+sentence-domain-combobox-label = Аҳәоуқәа рдомен
+sentence-domain-select-placeholder = Иалышәх х-доменк рҟынӡа
 # Sentence Domain dropdown option
-agriculture_food = Ақыҭанхамҩеи акрыфареи
+agriculture_food = Ақыҭанхамҩеи афатә-ажәтәи
 # Sentence Domain dropdown option
-automotive_transport = Автомобильтәи атранспорттәи
+automotive_transport = Амашьынаҟаҵареи атранспорти
 # Sentence Domain dropdown option
 finance = Афинансқәа
 # Sentence Domain dropdown option
-service_retail = Амаҵзуратә сектори хәаахәҭралатәи ахәаахәҭреи
+service_retail = Амаҵзурақәа русхкқәеи азаҵәҭиратә хәаахәҭреи
 # Sentence Domain dropdown option
 general = Ихадоу
 # Sentence Domain dropdown option
 healthcare = Агәабзиарахьчара
 # Sentence Domain dropdown option
-history_law_government = Аҭоурых, азакәан, аиҳабыра
+history_law_government = Аҭоурыхи, азини, анапхгареи
 # Sentence Domain dropdown option
-language_fundamentals = Абызшәа ашьаҭақәа (е.г. аԥхьаӡацқәа, анбанқәа, аԥара)
+language_fundamentals = Абызшәа ашьаҭақәа (ҿырԥштәыс иаагозар, ахыԥхьаӡарақәа, анбанқәа, аԥара)
 # Sentence Domain dropdown option
 media_entertainment = Амедиеи агәырҿыхагақәеи
 # Sentence Domain dropdown option
@@ -61,36 +61,36 @@ nature_environment = Аԥсабареи акәша-мыкәшеи
 # Sentence Domain dropdown option
 news_current_affairs = Ажәабжьқәеи ахҭысқәеи
 # Sentence Domain dropdown option
-technology_robotics = Атехнологиеи аробототехникеи
-sentence-variant-select-label = Адгалара авариант
-sentence-variant-select-placeholder = Аопциа алхтәуп (иаҭахым)
+technology_robotics = Атехнологиақәеи аробототехникеи
+sentence-variant-select-label = Аҳәоу авариант
+sentence-variant-select-placeholder = Авариант алышәх (ихымԥадатәиӡам)
 sentence-variant-select-multiple-variants = Еицырзеиԥшу абызшәа / еиуеиԥшым авариантқәа
 
 ## BULK SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Ахәаахәҭра <icon></icon> зегьы ирзеиԥшу аҳамҭақәа
-sc-bulk-upload-instruction = Уфаил арахь иҭагала мамзаргьы <uploadButton>ашьҭыхразы уақәыӷәӷәа</uploadButton>
-sc-bulk-upload-instruction-drop = Аҭагаларазы афаил арахь иҭагаланы иқәыжьтәуп
-bulk-upload-additional-information = Ари афайл иазкны иҵегьтәи адыррақәа шәҭахызар, ҳара шәҳацәажәа <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = Ашаблон иаҵанамкуа ари афаил иазкны иацҵаны адыррақәа шәҭахызар, ҳара шәҳацәажәа <emailFragment>commonvoice@mozilla.com</emailFragment>
-try-upload-again = Даҽазнык шәҽазышәшәа афаил арахь иҭганы
+sc-bulk-upload-header = Иҭажәгал <icon></icon> зегьы рзы иҟоу аҳәоуқәа
+sc-bulk-upload-instruction = Шәфаил арахь ииажәга, мамзаргьы <uploadButton>аҭагаларазы шәақәыӷәӷәа</uploadButton>
+sc-bulk-upload-instruction-drop = Афаил арахь ииажәга аҭагаларазы
+bulk-upload-additional-information = Ари афаил иазкны иҵегьы аинформациа ҳашәҭар шәҭахызар, шәыҽҳамажәда адрес ала <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Ахсаалага иаҵанамкуа ари афаил иазкны иацҵоу аинформациа ҳашәҭарц шәҭахызар, шәыҽҳамажәда адрес <emailFragment>commonvoice@mozilla.com</emailFragment> ала
+try-upload-again = Афаил арахь ииаганы, даҽазнык шәҽазышәшәа
 try-upload-again-md = Даҽазнык аҭагалара шәҽазышәшәа
-select-file = Афаил алхтәуп
-select-file-mobile = Иалышәх афаил ашьҭыхразы
+select-file = Афаил алышәх
+select-file-mobile = Аҭагаларазы афаил алышәх
 accepted-files = Ирыдыркыло афаил хкқәа: .tsv мацара.
-minimum-sentences = Афаил аҟны ажәалагалақәа рминималтә хыԥхьаӡара: 1000
-maximum-file-size = Иреиҳау афаил ашәагаа: 25 МБ.
-what-needs-to-be-in-file = Иҟазар акәзеи сара сфаил аҿы?
-what-needs-to-be-in-file-explanation = Ҳаҳәоит, ҳ-<templateFileLink>шаблонтә фаил</templateFileLink> гәашәҭ. Уара иуҭо аусумҭақәа акопиразин рымамзароуп (CC0 мамзаргьы автор изин змоу аоригиналтә усумҭа), еилыкка, грамматикала ииашоу, насгьы аԥхьара мариоу. Иҟаҵоу аҳәоуқәа рыԥхьара 10-15 секунд раҟара аамҭа аҭаххоит; Ахыԥхьаӡарақәеи, ахатәы хьыӡқәеи, иҷыдоу асимволқәеи рхархәара мап ацәыркыр ауп.
-upload-progress-text = Аҭагалара мҩаԥысуеит...
-sc-bulk-submit-confirm = Сара иазхасҵоит абарҭ ашәҟәқәа <wikipediaLink>зеиԥш домен</wikipediaLink> шракәу, насгьы урҭ арахь рышьҭыхра азин шсымоу.
-bulk-upload-success-toast = Аҳәарақәа рацәаны иҭарҵеит
+minimum-sentences = Афаил аҟны аҳәоуқәа рминималтә хыԥхьаӡара: 1000
+maximum-file-size = Афаил амаксималтә шәагаа: 25 МБ.
+what-needs-to-be-in-file = Сфаил аҿы иҟазар акәуи?
+what-needs-to-be-in-file-explanation = Ҳшәыҳәоит,<templateFileLink>ҳахсаалага фаил</templateFileLink> гәашәҭ. Шәҳәоуқәа автортә зинқәа рыла ихьчамзароуп (CC0, мамзаргьы автор изин змоу аоригиналтә усумҭа), еилыкка, грамматикала ииашаны иҟазароуп, насгьы аԥхьара мариазароуп. Ишәыдгалоу аҳәоуқәа рыԥхьара 10-15 секунд раҟара шәадхалароуп; ахыԥхьаӡарақәеи, ахатәы хьыӡқәеи, иҷыдоу асимволқәеи рхархәара шәҽацәышәыхьчалароуп.
+upload-progress-text = Аҭагалара апроцесс мҩаԥысуеит...
+sc-bulk-submit-confirm = Сара ишьақәсырӷәӷәоит абарҭ аҳәоуқәа<wikipediaLink>ауаажәларратә мазараны шракәу</wikipediaLink>, насгьы урҭ арахь рҭагалара азин шсымоу.
+bulk-upload-success-toast = Аҳәоуқәа рацәаны иҭагалоуп
 bulk-upload-failed-toast = Аҭагалара алымшеит, даҽазнык шәҽазышәшәа.
 bulk-submission-success-header = Иҭабуп амассатә ҭагалара шәахьалахәыз азы!
-bulk-submission-success-subheader = Уара Common Voice ацхыраара ҟауҵоит есыҽнытәи ҳхықәкқәа рынагӡараҿы иҭагалоу ажәаҳәақәа рзы!
-upload-more-btn-text = Еиҳаны аҳәарақәа ҭажәгал?
-file-invalid-type = Ииашам афаил
+bulk-submission-success-subheader = Шәара Common Voice шәацхраауеит иҭагалоу аҳәоуқәа рхыԥхьаӡара иазку есыҽнытәи ҳхықәкқәа рынагӡара!
+upload-more-btn-text = Еиҳаны аҳәоуқәа ҭагалатәума?
+file-invalid-type = Иақәымшәо афаил
 file-too-large = Афаил дуцәоуп
 file-too-small = Афаил хәыҷцәоуп
 too-many-files = Афаилқәа рацәоуп
@@ -98,48 +98,54 @@ too-many-files = Афаилқәа рацәоуп
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> Азеиԥш доментә жәаҳәақәа рацәаны иацҵатәуп
-multiple-sentences-error = Зныктәи ажәеинраалаҿы аҳәоуқәа рацәаны ацҵара ҟалом
-exceeds-small-batch-limit-error = 1000 жәаҳәара еиҳаны ашьҭра ауам
+small-batch-instruction = <icon></icon> Ауаажәларратә мазараҟынтәи ҳәоуқәак рацҵара
+multiple-sentences-error = Зныктәи анашьҭраҿы аҳәоуқәа ԥыҭк ацышәҵар шәылшаӡом
+exceeds-small-batch-limit-error = 1000 ҳәоу еиҳаны ашьҭра ауам
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [one] Аццакыра аҳәаа ахысит. 1 Минуҭк ашьҭахь даҽазнык шәҽазышәшәа
-       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } минуҭқәак рышьҭахь
+        [one] Аццакыра аҳәаа ахысит. Минуҭк ашьҭахь даҽазнык шәҽазышәшәа
+       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } минуҭк рышьҭахь
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [one] Аццакыра аҳәаа ахысит. 1 Секундк ашьҭахь даҽазнык шәҽазышәшәа
-       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } секундқәа рышьҭахь
+        [one] Аццакыра аҳәаа ахысит. Секундк ашьҭахь даҽазнык шәҽазышәшәа
+       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } секундк рышьҭахь
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
-        [one] Ари адаҟьазы ашьҭра аҳәаа шәнаӡеит. Аҳәара ҿыц ҟашәҵаанӡа 1 минуҭк шәыԥшыз. Иҭабуп шәычҳаразы!
-       *[other] Ари адаҟьазы ашьҭра аҳәаа шәнаӡеит. Ҳаҳәоит, шәазыԥшыз { $retryLimit } минуҭқәак, аҳәара ҿыц шәышьҭаанӡа. Иҭабуп шәычҳаразы!
+        [one] Ари адаҟьазы анашьҭра алимит шәнаӡеит. Ҳшәыҳәоит, 1 минуҭк шәыԥшы, аҳәоу ҿыц шәышьҭаанӡа. Иҭабуп шәычҳаразы!
+       *[other] Ари адаҟьазы анашьҭра алимит шәнаӡеит. Ҳшәыҳәоит, шәыԥшы { $retryLimit } минуҭк, аҳәоу ҿыц шәышьҭаанӡа. Иҭабуп шәычҳаразы!
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-message-seconds =
     { $retryLimit ->
-        [one] Ари адаҟьа ахәаԥшра аҳәаа шәнаӡеит. Ҳаҳәоит, анаҩстәи ажәалагала ҟашәҵаанӡа 1 секундк шәыԥшыз. Иҭабуп шәычҳаразы!
-       *[other] Ари адаҟьа ахәаԥшра аҳәаа шәнаӡеит. Ҳаҳәоит, шәыԥшыз { $retryLimit } секундқәак анаҩстәи шәажәалагала ашьҭраан. Иҭабуп шәычҳаразы!
+        [one] Ари адаҟьазы ацәыргара алимит шәнаӡеит. Ҳшәыҳәоит, анаҩстәи аҳәоу шәышьҭаанӡа 1 секундк шәыԥшы. Иҭабуп шәычҳаразы!
+       *[other] Ари адаҟьазы ацәыргара алимит шәнаӡеит. Ҳшәыҳәоит, шәыԥшы { $retryLimit } секундк анаҩстәи аҳәоу шәышьҭаанӡа. Иҭабуп шәычҳаразы!
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } еизгоу жәаҳәарак аҟынтә
-       *[other] { $uploadedSentences } of { $totalSentences } Еизгоу аҳәоуқәа
+        [one] { $uploadedSentences } еизгоуп ҳәоук аҟынтәи
+       *[other] { $uploadedSentences } еизгоуп { $totalSentences } ҳәоу рҟынтәи
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } 1 жәаҳәарак еизгоуп. Иақәыӷәӷәа <downloadLink>абантәи</downloadLink> мап зцәыркыз аҳәоуқәа рыхәаахәҭразы.
-       *[other] { $uploadedSentences } { $totalSentences } еизгоу ажәаҳәақәа рҟынтә. Иақәыӷәӷәа <downloadLink>абра</downloadLink> мап зцәыркыз аҳәоуқәа рыхәаахәҭразы.
+        [one] { $uploadedSentences } 1 ҳәоук аҟынтәи еизгоуп. Шәақәыӷәӷәа<downloadLink>ара</downloadLink> мап зцәыркыз аҳәоуқәа рҭыгаразы.
+       *[other] { $uploadedSentences } еизгоуп { $totalSentences } ҳәоу рҟынтәи. Шәақәыӷәӷәа <downloadLink>ара</downloadLink> мап зцәыркыз аҳәоуқәа рҭыгаразы.
     }
-small-batch-sentences-rule-1 = Аҟынтәи амҩақәҵарақәа шәрықәныҟәа “Иарбан жәаҳәоу иацысҵар сылшо?”
-small-batch-sentences-rule-2 = Цәаҳәаҿы жәаҳәак ацҵатәуп
-small-batch-sentences-rule-3 = Ажәаҳәақәа цәаҳәак ала еиҟәыҭхатәуп знык “Enter” ма “Return” ақәыӷәӷәарала
-small-batch-sentences-rule-4 = 1000 жәаҳәара рҟынӡа иацҵатәуп
-small-batch-sentences-rule-5 = Ажәаҳәақәа зегьы доменк рымазароуп
-small-batch-sentences-rule-6 = Ажәаҳәақәа зегьы цитатак рымазароуп
+small-batch-sentences-rule-1 = «Иарбан ҳәоуқәоу иацысҵар сылшо?» ахәҭаҟынтәи абжьгарақәа шәрықәныҟәа
+small-batch-sentences-rule-2 = Цәаҳәак ахь ҳәоук ацҵара
+small-batch-sentences-rule-3 = Ажәаҳәақәа цәаҳәак ала еиҟәыҭхатәуп знык «Enter» ма «Return» ақәыӷәӷәарала
+small-batch-sentences-rule-4 = 1000 рҟынӡа ҳәоу рацҵара
+small-batch-sentences-rule-5 = Аҳәоуқәа зегьы еицырзеиԥшу доменк рымазароуп
+small-batch-sentences-rule-6 = Аҳәоуқәа зегьы еицырзеиԥшу  цитатак рымазароуп
+# menu item
+add-sentences = Аҳәоу ацҵара
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Шәбызшәала аҳәоуқәа ацышәҵа

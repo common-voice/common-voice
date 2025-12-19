@@ -54,6 +54,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Postavi cilj
 cant-decide = Ne možeš se odlučiti?
+activity-needed-calculation-fixed = 100 ljudi koji snimaju 100 rečenica dnevno mogu generirati 13 sati audio animaka. Održavajući ovu izvedbu, 1000 sati se mogu postići za manje od 3 mjeseca.
 how-many-per-day = Sjajno! Koliko isječaka dnevno?
 how-many-a-week = Sjajno! Koliko isječaka tjedno?
 which-goal-type = Želiš li govoriti, slušati ili oboje?

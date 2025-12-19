@@ -16,8 +16,8 @@ thank-you-for-your-information = Grazas pola información
 
 ## Gender dropdown
 
-male_masculine = Macho/Masculino
-female_feminine = Femia/Feminino
+male_masculine = M/Masculino
+female_feminine = F/Feminino
 intersex = Intersexual
 transgender = Transxénero
 non-binary = Non binario

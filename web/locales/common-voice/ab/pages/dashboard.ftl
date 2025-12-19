@@ -1,90 +1,88 @@
 ## Dashboard
 
-your-languages = Убызшәақәа
-toward-next-goal = Анаҩстәи ахықәкы.
+your-languages = Шәбызшәақәа
+toward-next-goal = Анаҩстәи ахықәкы
 goal-reached = Ахықәкы нагӡоуп
-clips-you-recorded = Абжьы Зхауҵаз Анҵамҭақәа
-clips-you-validated = Игәауҭаз Анҵамҭақәа
-todays-recorded-progress = Common Voice аҟны иахьа анҵамҭақәа ҟаҵоуп.
-todays-validated-progress = Common Voice аҟны иахьа анҵамҭақәа гәаҭоуп.
-stats = Аста.
-awards = Аҳам.
-you = Уара
+clips-you-recorded = Шәара иҭажәыҩит
+clips-you-validated = Шәара игәашәҭеит
+todays-recorded-progress = Common Voice аҟны иахьа аҭаҩрақәа ҟаҵоуп
+todays-validated-progress = Common Voice аҟны иахьа аҭаҩымҭақәа гәаҭоуп
+stats = Астатистика
+awards = Аҳамҭақәа
+you = Шәара
 everyone = Ахархәаҩцәа зегьы
-contribution-activity = Аусура аҽалархәра
-top-contributors = Ахархәаҩцәа ртоп
-recorded-clips = Анҵамҭақәа абжьы ахарҵеит
-validated-clips = Анҵамҭақәа гәаҭан
-total-approved = Зынӡа игәаҭоуп.
-overall-accuracy = Азеиԥш иашара.
-set-visibility = Сара сҷыдахәра арбара
-visibility-explainer = Ари апараметр уара утоп аҟны уыҟазаара иацхраауеимт. Уара уанӡыргамха упрогрессгьы зӡыргахом. Уи иаанаго аԥхьагылаҩцәа рсиаҟны уара ухаҿсахьеи, ухархәагатә хьӡи упрогресси арбахаӡом ҳәа ауп. Хырҩа азуы аԥхьагылаҩцәа рсиа арҿыцра инықәырԥшны ~ { $minutes } шаҭаху.
-visibility-overlay-note = Азгәаҭа: 'Иубарҭоу' апрограмма шьақәыргылазар, ари аҳәаа ԥсаххар ҟалоит <profileLink>аҷыдахәра адаҟьа</profileLink> аҟны.
-show-ranking = Сҭыԥ исырба
+contribution-activity = Ацхырааҩ илагала
+top-contributors = Ацхырааҩцәа ртоп
+recorded-clips = Абжьы ахаҵоуп
+validated-clips = Игәаҭоуп
+total-approved = Зынӡа игәаҭоуп
+overall-accuracy = Азеиԥш иашара
+set-visibility = Сара сбарҭазаара архиара
+visibility-explainer = Ари апараметр атоп аҿы шәбарҭазаара аконтроль азнауеит. Шәара шәанымаӡоу шәыпрогрессгьы маӡахоит. Уи иаанаго аԥхьагылаҩцәа рсиаҟны шәара шәхаҿсахьеи, шәхархәаҩ хьӡи, шәыпрогресси арбахаӡом ҳәа ауп. Шәыхшыҩ азышәышьҭ аԥхьагылаҩцәа рсиа арҿыцра инықәырԥшны ~ { $minutes } минуҭ шаҭаху.
+visibility-overlay-note = Азгәаҭа: «Иубарҭоу» шьақәыргылазар, ари апараметр иԥсахзар ҟалоит <profileLink>апрофиль адаҟьаҿы</profileLink>
+show-ranking = Среитинг арбара
 
 ## Custom Goals
 
-get-started-goals = Ахықәкқәа уалага
-create-custom-goal = Еиқәшәо ахықәкы аԥҵара
-goal-type = Иарбан хықәку анагӡара иуҭаху?
-both-speak-and-listen = Аҩбагьы
-both-speak-and-listen-long = Аҩбагьы (Аҭаҩреи Азыӡырҩреи)
-daily-goal = Есымшатәи Ахықәкы
-weekly-goal = Есымчыб­жьатәи Ахықәкы
+get-started-goals = Ахықәкы аԥҵара
+create-custom-goal = Шәхатәы хықәкы аԥҵара
+goal-type = Иарбан хықәку нашәыгӡар ишәҭаху?
+both-speak-and-listen = Аригьы, егьыгьи
+both-speak-and-listen-long = Аригьы, егьыгьи (Аҭаҩреи агәаҭареи)
+daily-goal = Амш ахықәкы
+weekly-goal = Амчыбжьтәи ахықәкы
 easy-difficulty = Имариоуп
 average-difficulty = Ибжьаратәуп
 difficult-difficulty = Ицәгьоуп
-pro-difficulty = Про
-lose-goal-progress-warning = Ухықәкы аԥсахраан иумоу апрогресс уцәыӡыр ҟалоит.
-want-to-continue = Уҿызаароума?
-finish-editing = Уи аԥхьа аԥсахра уалгар уҭахума?
-lose-changes-warning = Уажәы уцар, иҟоуҵахьоу аԥсахрақәа уцәыӡыр ҟалоит.
-build-custom-goal = Еиқәшәо ахықәкы аҟаҵара
+pro-difficulty = Иазкны
+lose-goal-progress-warning = Шәхықәкы шәыԥсахыр ишәымоу апрогресс шәцәыӡыр ҟалоит.
+want-to-continue = Иацышәҵар шәҭахума?
+finish-editing = Аԥхьа аредакциа азура шәалгар шәҭахума?
+lose-changes-warning = Уажәы шәцар, иҟашәҵахьоу аԥсахрақәа шәцәыӡуеит ауп иаанаго
+build-custom-goal = Шәхатәы хықәкы аԥышәҵа
 help-reach-hours-pluralized =
     { $hours ->
-        [one] Ацхыраара анаӡара { $hours } сааҭ { $language } ахатә хықәкыла
-       *[other] Ацхыраара анаӡара { $hours } сааҭқәа { $language } ахатә хықәкыла
+        [one] Ахықәкы анаӡара { $hours } сааҭ { $language } хаҭалатәи хықәкыла шәацхраа
+       *[other] Ахықәкы анаӡара { $hours } сааҭ { $language } хаҭалатәи хықәкыла шәацхраа
     }
 help-reach-hours-general-pluralized =
     { $hours ->
         [one] Ацхыраара Азеиԥш бжьы анаӡара { $hours } сааҭк абри абызшәала хаҭалатәи хықәкык аманы
        *[other] Ацхыраара Азеиԥш Бжьы анаӡара { $hours } сааҭқәа ари абызшәала хаҭалатәи хықәкык аманы
     }
-set-a-goal = Ухықәкы цәырга
-cant-decide = Иузымгәаӷьӡои?
-how-many-per-day = Ибзиоуп! Ҽнак заҟа нҵамҭа?
-how-many-a-week = Абзаиӡа! Шаҟа анҵамҭақәа мчыбжьык ала?
-which-goal-type = Уара иҭауҩҩыр уҭаху, игәоуҭарц акәу, мамзаргьы аҩускгьы ҟауҵарц угәы иҭоу?
-receiving-emails-info = Уара иуоулоит ухықәкы угәалазыршәа, аус ахьынӡа пеихьоуи, Common Voice иадҳәалоу ажәабыжьқәа ртәы зҳәо асалам шәыҟәқәа.
-not-receiving-emails-info =
-    Уара <bold>МАП</bold> аҟны иуоулоит ухықәкы угәалазыршәои, уусқәа ахьынӡанеихьоуи Common Voice 
-    иадҳәалоу ажәабжьқәа ртәы зҳәо асалам шәыҟәқәа
+set-a-goal = Ахықәкы ақәыргылара
+cant-decide = Ишәзымгәаӷьӡои?
+how-many-per-day = Ибзиаӡоуп! Ҽнак заҟа ҭаҩра ?
+how-many-a-week = Ибзиаӡоуп! Мчыбжьык шаҟа ҭаҩра?
+which-goal-type = Шәара иҭажәҩыр, игәашәҭарц, мамзаргьы аҩуск ҟашәҵар шәҭахума?
+receiving-emails-info = Шәара ахықәкқәа ргәаларшәага, шәеихьӡарақәа ирызку ардыргақәа, Common Voice иадҳәалоу ажәабжьқәа ртәы зҳәо асалам шәҟәқәа шәоулоит.
+not-receiving-emails-info = Шәара <bold>ишәоулаӡом</bold> ахықәкқәа ргәаларшәагақәа, аихьӡарақәа ирызку адыргақәа, Common Voice иадҳәалоу ажәабжьқәа ртәы зҳәо асалам шәҟәқәа.
 n-clips-pluralized =
     { $count ->
-        [one] { $count } аҭаҩра
-       *[other] { $count } аҭаҩрақәа
+        [one] { $count } аҭаҩымҭа
+       *[other] { $count } ҭаҩымҭак
     }
-help-share-goal = Ухықәкы ҳаҳәа, абжьы рацәа рыԥшаараҟны уҳацхраа.
-confirm-goal = Ухықәкы шьақәырӷәӷәа
-goal-interval-weekly = Есымчыб­жьатәи
+help-share-goal = Абжьқәа иаҳа ирацәаны рыԥшаараҟны шәҳацхраа, шәхықәкы еимыжәда
+confirm-goal = Шәхықәкы шьақәшәырӷәӷәа
+goal-interval-weekly = Есымчыб­жь
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Ухықәкы - { $count } нҵамҭак есыҽны { $type }
+share-n-daily-contribution-goal = Мышкахьы { $count } аҭаҩрақәа ирызку шәхықәкы { $type } азы еимыжәда
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Ухықәкы - { $count } нҵамҭа есымчыбжьа { $type }
-share-goal-type-speak = Абжьы ҭаҩра
-share-goal-type-listen = Азыӡырҩра
-share-goal-type-both = Абжьы ҭаҩреи Азыӡырҩреи
+share-n-weekly-contribution-goal = Мчыбжьык ахь{ $count } аҭаҩрақәа ирызку шәхықәкы  { $type } азы еимыжәда
+share-goal-type-speak = Аҭаҩра
+share-goal-type-listen = Агәаҭара
+share-goal-type-both = Аҭаҩреи агәаҭареи
 # LINK will be replaced with the current URL
-goal-share-text = Сара абыржәы #CommonVoice сыбжьы аҭаразы ахықәкы сымоуп. Шәсыцхраа амашьынақәа хаҭала ауаа еилыркаауа рыҟаҵара аус аҟны { $link }
-weekly-goal-created = Мчыбжьыктәи ухықәкы нагӡоуп
-daily-goal-created = Ҽнактәи ухықәкы нагӡоуп
-track-progress = Абреи астатистикатә даҟьаҟны уеизҳашьа уашьклаԥшла.
-return-to-edit-goal = Ианакәзаалак ухықәкы аԥсахразы абрахь ухынҳәы.
-share-goal = Схықәкы еиҩша
+goal-share-text = Сара абыржәы #CommonVoice сыбжьы аҭаразы схатә хықәкы аԥысҵеит-- шәсыдгыл, шәсыцхраа амашьынақәа  ауаа еилыркаауа рыҟаҵара аус аҟны { $link }
+weekly-goal-created = Амчыбжьтәи шәхықәкы аԥҵан
+daily-goal-created = Амштәи шәхықәкы аԥҵан
+track-progress = Ара, насгьы астатистика адаҟьаҿы шәыпрогресс шәацклаԥшла.
+return-to-edit-goal = Ианакәзаалак шәхықәкы аԥсахразы арахь шәхынҳәла.
+share-goal = Схықәкы еимыжәда
 
 ## Goals
 
-streaks = Еишьҭыргыланы
+streaks = Мшы еишьҭаргыланы
 days =
     { $count ->
         [one] мышкы
@@ -92,8 +90,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] нҵамҭак
-       *[other] нҵамҭак
+        [one] аҭаҩымҭа
+       *[other] ҭаҩымҭак
     }
 validations =
     { $count ->

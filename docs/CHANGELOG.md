@@ -28,7 +28,7 @@
 - Added new Lango (laj) language as a starting language (in v1.154.5)
 - Added new Tumbuke (tum) language as a starting language (in v1.154.3)
 - Update English name of `shi` from Shilha to Tachelhit (in v1.154.1)
-- Update sentence bands of 21 locales , by [@moz-bozden](https://github.com/moz-bozden) in [#5148](https://github.com/common-voice/common-voice/pull/5148) (in v1.154.1)
+- Update sentence bands of 21 locales, by [@moz-bozden](https://github.com/moz-bozden) in [#5148](https://github.com/common-voice/common-voice/pull/5148) (in v1.154.1)
 
 #### Spontaneous Speech v1.155.0
 
@@ -57,6 +57,7 @@
 
 #### Data Changes after current release
 
+- Chore: Updated names of two variants in Alsatian (gsw) by [@moz-bozden](https://github.com/moz-bozden) in [#5214](https://github.com/common-voice/common-voice/pull/5214) (in v1.155.7)
 - Chore: Add migration to retire some Catalan sentences, by [@moz-bozden](https://github.com/moz-bozden) in [#5195](https://github.com/common-voice/common-voice/pull/5195) (in v1.155.5)
 - Chore: Change name of (`shi`) from Tachelhit to Tashlhiyt (in v1.155.1)
 
@@ -66,6 +67,8 @@
 - Refactor: Move the UI language selector to the menu area, by [@moz-bozden](https://github.com/moz-bozden) in [#496](https://github.com/common-voice/spontaneous-speech/pull/496), [#497](https://github.com/common-voice/spontaneous-speech/pull/497) (in v1.155.1), and [#498](https://github.com/common-voice/spontaneous-speech/pull/498) (in v1.155.5)
 
 ##### SS Data Changes after current release
+
+- Add Pashto (ps) and 128 questions by [@moz-bozden](https://github.com/moz-bozden) in [#500](https://github.com/common-voice/spontaneous-speech/pull/500) (in v1.155.7)
 
 ---
 

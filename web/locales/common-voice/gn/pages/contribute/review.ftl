@@ -31,7 +31,7 @@ sc-review-form-reviewed-message =
         [one] 1 ñe’ẽjoaju ojehechajeýva. ¡Aguyje!
        *[other] { $sentences } ñe’ẽjoaju ojehechajeýva. ¡Aguyje!
     }
-sc-review-form-review-failure = Ndaikatúi eñongatu pe jehai’i. Eha’ãjey ag̃amieve.
+sc-review-form-review-failure = Ndaikatúi eñongatu pe jehai’i. Eha’ã jey ag̃amieve.
 sc-review-link = Hechajey
 
 ## REVIEW CRITERIA

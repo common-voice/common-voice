@@ -488,13 +488,14 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'gsw',
-    variant_name: 'Rhinfränkisch (Bùckenùmm, Lìtzelstän, usw.)',
+    variant_name:
+      'Rhinfränkisch (Bùckenùmm, Lìtzelstän, Bitsch, Saargemìnn usw.)',
     variant_token: 'gsw-FR-rhinfran',
   },
   {
     locale_name: 'gsw',
     variant_name:
-      'Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, usw.)',
+      'Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, Pfàlzbùri usw.)',
     variant_token: 'gsw-FR-nordalem',
   },
   {
@@ -580,12 +581,12 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'abq',
-    variant_name: "Тlапlанта (ашвыуа)",
+    variant_name: 'Тlапlанта (ашвыуа)',
     variant_token: 'abq-tapanta',
   },
   {
     locale_name: 'abq',
-    variant_name: "Ащхъарауа",
+    variant_name: 'Ащхъарауа',
     variant_token: 'abq-ashkhara',
   },
 ]

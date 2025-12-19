@@ -3,23 +3,23 @@
 your-languages = ستاسو ژبې
 toward-next-goal = د راتلونکي موخې په لور
 goal-reached = موخې ته ورسید
-clips-you-recorded = کليپونه چې تاسو ثبت کړي
-clips-you-validated = کليپونه چې تاسو تایید کړي
-todays-recorded-progress = د ثبت کلیپونو د نن ورځې د عامه غږ پرمختګ
-todays-validated-progress = د تایید کلیپونو د نن ورځې د عامه غږ پرمختګ
+clips-you-recorded = کليپونه چې تاسو ثبت کړي دي.
+clips-you-validated = هغه آډیو کلیپونه چې تاسو تایید کړي دي
+todays-recorded-progress = د غږونو د ثبت برخه کې د کامن وائس د نن ورځې پرمختګ
+todays-validated-progress = د تایید شویو کلیپونو په برخه کې د کامن وائس د نن ورځې پرمختګ
 stats = ارقام
 awards = جایزې
 you = تاسو
 everyone = هرڅوک
-contribution-activity = د مرستې چارندتیا
+contribution-activity = د ونډې فعالیت
 top-contributors = مخکښ مرسته کوونکي
 recorded-clips = ثبت شوي کليپونه
 validated-clips = تایید شوي کلیپونه
-total-approved = ټولټال منل شوي
+total-approved = ټول تایید شوي
 overall-accuracy = په ټولیز ډول کره‌توب
 set-visibility = زما لید تنظیم کړئ
-visibility-explainer = دا امستنه ستاسو د مخکښ-بورډ لید کنټرولوي. کله چې پټ وي، ستاسو پرمختګ به خصوصي وي. دا پدې مانا ده چې ستاسو عکس، د کارن نوم او پرمختګ به په مخکښ-بورډ کې څرګند نشي. په یاد ولرئ چې د لیډربورډ بیا سمسورول د بدلونونو د اغیز لپاره ~ { $minutes } دقیقې وخت نیسي.
-visibility-overlay-note = یادونه: کله چې 'څرګند' ته ټاکل شوې وي، نو دا امستنه د <profileLink>پېژنیال پاڼه</profileLink> څخه بدلیدلی شي
+visibility-explainer = دا تنظیم ستاسو د لیډربورډ د لیدلو وړتیا کنټرولوي. کله چې پټ شي، ستاسو پرمختګ به شخصي وي. دا په دې معنا ده چې ستاسو انځور، کارن نوم او پرمختګ به په لیډربورډ کې نه ښکاري. په یاد ولرئ چې د لیډربورډ تازه کېدل شاوخوا د { $minutes } دقیقې وخت نیسي تر څو بدلونونه ښکاره شي.
+visibility-overlay-note = یادونه: کله چې دا تنظیم «ښکاره» وټاکل شي، نو دا تنظیم د <profileLink>پروفایل پاڼې</profileLink> څخه بدلېدای شي.
 show-ranking = زما درجه بندي وښایاست
 
 ## Custom Goals

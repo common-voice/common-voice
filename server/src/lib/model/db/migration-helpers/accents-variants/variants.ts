@@ -44,3 +44,19 @@ export const bulkInsertUserVariants = async (
     clientIdBatch.flatMap(id => [id, locale_id, variant_id])
   )
 }
+
+export const changeVariantName = async (
+  db: any,
+  locale_id: number,
+  variant_token: string,
+  oldName: string,
+  newName: string
+): Promise<any> => {
+  await db.runSql(
+    `
+      UPDATE variants SET variant_name = ?
+      WHERE locale_id = ? AND variant_token = ? AND variant_name = ?
+    `,
+    [newName, locale_id, variant_token, oldName]
+  )
+}

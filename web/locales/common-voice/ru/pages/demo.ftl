@@ -12,7 +12,7 @@ card-button-next = Далее
 card-button-back = Назад
 demo-language-select-label = Просмотр языков
 demo-eofy-header = Выпуск в конце 2019 года
-demo-eofy-sub_header = Набор голосовых данных, готовый к загрузке
+demo-eofy-sub_header = Готовый к скачиванию набор голосовых данных
 demo-account = Учётная запись
 
 ## Demo Account
