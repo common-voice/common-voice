@@ -105,3 +105,15 @@ adding-sentences-subheader-offensive-content-explanation = Yen ukara kasebut nyi
 reviewing-sentences-explanation-1 = Menawa ukara kasebut cocok karo syarat ing ndhukur, klik tombol "Ya".
 reviewing-sentences-explanation-2 = Menawa ukara kasebut ora cocok karo syarat ing ndhukur, klik tombol "Ora".
 reviewing-sentences-explanation-3 = Yen sampeyan ora yakin karo ukara kasebut, sampeyan uga bisa nglewati lan pindhah menyang ukara sabanjure.
+reviewing-sentences-explanation-4 = Yen ukaramu wis entek kanggo dipriksa, tulungi kita ngumpulake ukara liyane!
+domain-explanation = Domain nuduhake subyek ukara. Saiki, sampeyan bisa milih antarane:
+
+## Question collection ids
+
+adding-questions = Nambahake Pitakonan
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = Apa sing ndadekake pitakonan dadi apik?
+what-makes-a-good-question-explanation = Pitakonan sing apik kanggo kumpulan data partisipasi publik kudune:
+what-makes-a-good-question-explanation-criteria-1 = Gampang dingerteni lan ditanggapi
