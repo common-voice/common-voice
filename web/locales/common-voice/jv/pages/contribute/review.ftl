@@ -1,7 +1,7 @@
 ## REVIEW
 
 sc-review-lang-not-selected = Sampeyan durung milih basa. Mangga menyang <profileLink>Profile</profileLink> sampeyan kanggo milih basa.
-sc-review-title = nyemak ukara
+sc-review-title = nyimak ukara
 sc-review-loading = buka ukara
 sc-review-select-language = Mangga pilih basa kanggo mriksa ukara.
 sc-review-no-sentences = Ora ana ukara kanggo direviu <addLink>Tambah ukara liyane saiki!</addLink>
@@ -41,7 +41,7 @@ sc-criteria-make-sure = Priksa manawa ukara kasebut memenuhi kritéria ing ngiso
 sc-criteria-item-1 = Ukara kasebut kudu dieja kanthi bener.
 sc-criteria-item-2 = Ukara kasebut kudu bener sacara tata basa.
 sc-criteria-item-3 = Ukara kasebut kudu bisa diucapake.
-sc-criteria-item-4 = Yen ukara kasebut memenuhi kriteria, klik tombol &quot;Setuju&quot; ing sisih tengen.
+sc-criteria-item-4 = Yen ukara kasebut cocok karo syarate, klik tombol &quot;Setuju&quot; ing sisih tengen.
 sc-criteria-item-5-2 = Yen ukara kasebut ora memenuhi ndukur e kriteria, klik tombol &quot;Tolak&quot; ing sisih kiwa. Menawi sampeyan ora yakin kaliyan ukara kasebut, sampeyan uga bisa nglewati lan pindhah ing ukara sabanjure.
 sc-criteria-item-6 = Yen ukaramu wis entek kanggo dideleng, tulungi kita ngumpulake ukara liyane!
 # <icon></icon> will be replace with an icon that represents review
