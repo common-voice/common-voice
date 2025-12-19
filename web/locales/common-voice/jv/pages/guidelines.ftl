@@ -135,3 +135,19 @@ process-steps-explanation = Pitakonan sing mbutuhake wong kanggo ndaftar sawetar
 offensive-content-sensitive-information = Konten sing nyinggung utawa informasi sensitif
 offensive-content-sensitive-information-explanation-explanation-1 = Pitakonan sing bisa njaluk informasi pribadi sing bisa dititeni
 offensive-content-sensitive-information-explanation-explanation-2 = Pitakonan sing bisa nuwuhake tembung kebencian utawa sentimen ora cetho utawa nyinggung liyane
+offensive-content-sensitive-information-explanation-explanation-3 = Pitakonan sing bisa nyebabake wong nuduhake sing sensitif lan bisa micu respon
+example-questions-subheader = Conto pitakonan
+example-questions-explanation-1 = Sampeyan bisa nemokake <examplePromptsLink>120 conto pitakon ing lembar iki.</examplePromptsLink>
+example-questions-explanation-2 = Menawa sampeyan arep ngirim sawetara pitakonan kanggo diwaca, sampeyan <githubLink>iso ngirimake liwat GitHub</githubLink> utawa ngirim email daftar sampeyan menyang <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Wangsulan Pitakonan
+answer-questions-subheader = Pandhuan umum
+answer-questions-explanation-1 = Coba pikirake sedhela babagan pitakonan kasebut, pikirake bab apa sing pengin diomongake, nanging aja kakehan nulis skrip. Klik lambang 'rekam'. Sawise ngrekam, sampeyan bisa ngrungokake dhewe, ngrekam maneh, mbusak utawa ngirim.
+answer-questions-explanation-2 = Elinga - aja kuwatir yen sampeyan gagap, mandheg, utawa mbaleni tembung. Iki kabeh data sing migunani kanggo para insinyur sing nyoba nggawe alat pangenalan wicara sing inklusif lan nyata.
+answer-questions-tip-1 = Rekam ing panggonan sing cukup sepi
+answer-questions-tip-2 = Pilih panggonan sing nduweni sambungan internet sing apik
+answer-questions-tip-3b = Coba jaga respon sampeyan sajrone 15-30 detik
+answer-questions-tip-4 = Aja ngomong sengit, ngganggu, utawa sing nyinggung liyane
