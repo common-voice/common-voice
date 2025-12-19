@@ -151,7 +151,7 @@ answer-questions-tip-1 = Rekam ing panggonan sing cukup sepi
 answer-questions-tip-2 = Pilih panggonan sing nduweni sambungan internet sing apik
 answer-questions-tip-3b = Coba jaga respon sampeyan sajrone 15-30 detik
 answer-questions-tip-4 = Aja ngomong sengit, ngganggu, utawa sing nyinggung liyane
-answer-questions-tip-5 = Ngomonga sing alami, kaya dene karo kanca - gunakake variasi, dialek, lan logatmu dhewe
+answer-questions-tip-5 = Ngomongo sing alami, kaya dene karo kanca - gunakake variasi, dialek, lan logatmu dhewe
 answer-questions-tip-6 = Jaga volume swaramu tetep konsisten - aja mbengok utawa nyanyi
 # Transcribe the Audio
 transcribe-the-audio = Transkrip Swara
@@ -161,3 +161,38 @@ transcribe-the-audio-subheader-3 = Tag Khusus
 transcribe-the-audio-subheader-4 = Segmen tembung, wiwitan sing salah, tembung sing dibaleni
 transcribe-the-audio-subheader-5 = Kasalahan tata basa lan tata wicara saben dinane
 transcribe-the-audio-subheader-1-explanation = Umumé, sampeyan kudu nulis kabèh sing sampeyan krungu. Iki kalebu;
+transcribe-the-audio-subheader-1-explanation-example-1 = Nulisake sing ora lancar, kalebu sing ora mesthi lan pangulangan
+transcribe-the-audio-subheader-1-explanation-example-2 = Menehi label marang swara kaya watuk utawa ngguyu
+transcribe-the-audio-subheader-1-explanation-example-3 = Menehi label gangguan swara sing nemen, kaya swara rame ing latar mburi utawa klakson montor
+transcribe-the-audio-subheader-1-explanation-example-4 = Variasi tata basa lan basa slang kudu dicathet persis kaya asline. Aja mbenerake utawa nyunting wicarane wong.
+transcribe-the-audio-subheader-2-explanation-1 = Angka lan simbol kudune ditulis nganggo tembung tinimbang nganggo angka utawa karakter khusus. Tuladha:
+transcribe-the-audio-subheader-2-explanation-2 = Akronim kudune ditulis kaya biasane ing basa kasebut, miturut aturan tulisan kang standar. Akronim ora kena ditranskripsiake kanthi maneko warna swara. Tuladha:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Bener</correct>: Iku adohé satus mil saka kéné
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Salah</wrong>: Iku adohé 100 mil saka kéné
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Bener</correct>: Ketemu maneh ing <underline>selawe</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Salah</wrong>: Ketemu maneh ing <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Bener</correct>: Diskon rong puluh persen
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Salah</wrong>: Diskon 20%
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Bener</correct>: Dheweke dicekel dening <underline>FBI</underline> Kamis kepungkur
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Salah</wrong>: Dheweke dicekel dening <underline>eff bee eye</underline> Kamis kepungkur
+transcribe-the-audio-subheader-3-explanation = Tag khusus ing ngisor iki kudu digunakake kanggo nandhani swara ora lancar, pengisi, lan jinis konten dudu-lisan liyane (ing basa Inggris).
+tags-table-header-1 = Tandha
+tags-table-header-2 = Artine
+tags-laugh = Ngguyu
+tags-disfluency = Ora lancar
+tags-unclear = Ora jelas
+tags-noise = Swara gangguan
+tags-laugh-explanation = Swara ngguyu.
+tags-disfluency-explanation =
+    Tembung pangisi utawa swara sing digunakake minangka panggandheng nalika pamicara mutusake apa sing arep diomongake.
+    
+    Ing basa Inggris, sawetara swara ragu-ragu sing umum yaiku "err", "um", "huh", lan liya-liyane.
+tags-unclear-explanation = Tembung utawa urutan tembung sing ora bisa dingerteni.
+
+## Code-Switching
+
+code-switching-not-tag-proper-names-example-1 = Wong: Maryam, Yahya
