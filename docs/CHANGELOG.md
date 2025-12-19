@@ -57,7 +57,7 @@
 
 #### Data Changes after current release
 
-- Chore: Updated names of two variants in Alsatian (gsw) by [@moz-bozden](https://github.com/moz-bozden) in [#5214](https://github.com/common-voice/common-voice/pull/5214) (in v1.155.6)
+- Chore: Updated names of two variants in Alsatian (gsw) by [@moz-bozden](https://github.com/moz-bozden) in [#5214](https://github.com/common-voice/common-voice/pull/5214) (in v1.155.7)
 - Chore: Add migration to retire some Catalan sentences, by [@moz-bozden](https://github.com/moz-bozden) in [#5195](https://github.com/common-voice/common-voice/pull/5195) (in v1.155.5)
 - Chore: Change name of (`shi`) from Tachelhit to Tashlhiyt (in v1.155.1)
 
@@ -68,7 +68,7 @@
 
 ##### SS Data Changes after current release
 
-- Add Pashto (ps) and 128 questions by [@moz-bozden](https://github.com/moz-bozden) in [#500](https://github.com/common-voice/spontaneous-speech/pull/500) (in v1.155.6)
+- Add Pashto (ps) and 128 questions by [@moz-bozden](https://github.com/moz-bozden) in [#500](https://github.com/common-voice/spontaneous-speech/pull/500) (in v1.155.7)
 
 ---
 
