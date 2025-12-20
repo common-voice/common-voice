@@ -91,6 +91,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Kumaha cara kerja lokalisasi situs?
 about-playbook-how-localize-content-1 = Tarjamahan situs Common Voice lumangsung dina <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Jieun akun</pontoonAccountLink> upami anjeun teu acan gaduh. Teras, pilih basa anjeun <strong>(‘Tim’)</strong> teras pilih proyékna, <pontoonCvLink>Common Voice</pontoonCvLink>. Bakal aya file anu kedah ditarjamahkeun. Klik salah sahijina, teras éta bakal némbongkeun kecap-kecap dina basa Inggris sareng kotak pikeun narjamahkeunana.
+about-playbook-how-localize-content-3 = Tarjamahanna tina basa Inggris, tapi anjeun tiasa ningali <strong>Saran</strong> dina basa sanés. Klik ikon <strong>Profil</strong>, teras tautan <strong>Setélan</strong> sareng tambahkeun basa naon waé anu anjeun ucapkeun. Di pojok katuhu handap bakal aya daptar tarjamahan anu disebut <strong>Lokales</strong>. Tarjamahan bakal némbongan dina situs saatos sapoé.
 about-playbook-how-localize-content-4 = Situs ieu siap diluncurkeun nalika parantos réngsé 75%.
 about-playbook-how-localize-content-5 = Tonton panjelasan pidéo arurang pikeun ngabantosan
 
@@ -98,6 +100,7 @@ about-playbook-how-localize-content-5 = Tonton panjelasan pidéo arurang pikeun 
 
 about-playbook-how-add-sentences = Kumaha carana nambahkeun kalimah?
 about-playbook-how-add-sentences-content-1 = Anjeun tiasa nambihan kalimah dina <writePageLink>Tulis halaman</writePageLink> atanapi marios kalimah dina <reviewPageLink>Kaca ulasan</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Kalimah-kalimah kedah diulas sareng ditampi ku dua jalmi supados tiasa dilebetkeun kana Common Voice. Anjeun ngadamel pedoman pikeun basa anjeun <languageGuidelinesLink>di dieu</languageGuidelinesLink>. Kalimah-kalimah kedah aya dina <licenseLink>domain umum</licenseLink> sareng langkung pondok tibatan 15 kecap. Anjeun tiasa nyuhunkeun ka nu boga téks pikeun ngadamelna <waiverLink>CC0 nganggo prosés waiver kami</waiverLink>, sareng kirimkeun ka kami di commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Anjeun tiasa nganggo <scraperLink>Pangekstrak Kalimah</scraperLink> pikeun ngamangpaatkeun kalimah pondok tina Wikipedia.
 
 ## How to record quality
@@ -114,24 +117,30 @@ about-playbook-how-record-content-5 = <accuracyLink>Tingali langkung seueur ngeu
 about-playbook-how-grow-language = Kumaha arurang tiasa sacara efektif numbuhkeun basa dina Common Voice?
 about-playbook-how-grow-language-content-1 = Nyiptakeun kasempetan ka leuwih seueur jalma pikeun milu nyumbang ka Common Voice mastikeun dataset tiasa dianggo pikeun saloba-lobana jalma. Arurang parantos nyiptakeun sumber sareng citakan anu tiasa anjeun anggo!
 about-playbook-how-grow-language-content-2 = Acara
+about-playbook-how-grow-language-content-3 = Anjeun tiasa ngayakeun acara pikeun ngabantosan jalma-jalma nyumbang. Éta langkung gampil tibatan anu anjeun pikirkeun. Anjeun tiasa ngalakukeunana sacara online nganggo alat konperénsi vidéo, atanapi sacara langsung upami aman. <eventTemplate>Pariksa témplat sareng sumber daya kami pikeun ngayakeun acara</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Média sosial
 about-playbook-how-grow-language-content-6 = Kamitraan sareng jaringan
 about-playbook-how-grow-language-content-7 = Pilari batur anu paduli. Éta tiasa waé universitas, sakola basa, kelompok advokasi atanapi komunitas élmu data. Hubungi sareng jelaskeun kumaha aranjeunna tiasa ngabantosan sareng kunaon. <outreachTemplates>Tingali email penjangkauan citakan arurang</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Sing kreatif!</strong> Komunitas basa anjeun bakal unik, sareng ieu ngan ukur sababaraha cara pikeun ngamimitian.
 
 ## How to validate
 
 about-playbook-how-validate = Kumaha carana abdi terang naha kedah nyatujuan ieu klip sora?
 about-playbook-how-validate-content-1 = Upami anjeun tiasa<strong>ngadangukeun</strong>jeung<strong>ngahartoskeun</strong>, biasana <strong>pangsaéna pikeun nyatujuan</strong>.
 about-playbook-how-validate-content-2 = <strong>Ulah nolak klip anu nyariosna 'ngabogaan aksén' nu béda ti anjeun sorangan</strong>- hal ieu penting supaya téknologi pangenalan sora gawéna leuwih hadé pikeun saréréa.
+about-playbook-how-validate-content-3 = Upami anjeun nganggap cara ngucapkeunana ngajantenkeun teu mungkin kahartos, atanapi aya seueur gangguan latar, atanapi aya jalma sanés anu nyarios ogé, maka anjeun kedah nolak klipna. <accuracyLink>Tingali inpormasi lengkep dina kriteria akurasi kami</accuracyLink>.
 about-playbook-how-validate-content-4 = Upami klip ditolak ku 2 jalmi, éta bakal dirilis dina himpunan bagian anu béda tina kumpulan data.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kumaha abdi ngaksés sareng nganggo dataset?
+about-playbook-how-access-dataset-content-1 = Anjeun tiasa angkat ka halaman <datasetsPage>datasetsPage</datasetsPage>, pilih vérsi sareng basa anu anjeun pikahoyong, teras unduh! File-file éta ngagaduhan <metadataLink>métadata anu aya hubunganana</metadataLink>, sapertos inpormasi démografi sareng data validasi. Anjeun kedah nyayogikeun alamat email pikeun ngaunduh dataset.
+about-playbook-how-access-dataset-content-2 = Upami anjeun milarian alat pikeun ngawangun modél ASR, anjeun tiasa nyambung ka jalma sanés di komunitas <discourseLink>dina Discourse</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Kumaha kaputusan proyék dijieun?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice dimungkinkeun ku komunitas aktivis, ahli basa, élmuwan data, akademisi, sareng insinyur perangkat lunak ti sakumna dunya anu beragam. Proyék ieu diurus ku Yayasan Mozilla.
 about-playbook-how-project-governance-content-2 = Pamaréntahan urang didasarkeun kana pilar-pilar:
 about-playbook-how-project-governance-content-3 = Privasi, kaamanan sareng transparansi.
 about-playbook-how-project-governance-content-4 = Partisipasi masarakat sareng prosés nyandak kaputusan.
@@ -142,3 +151,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Baca langkung 
 ## How is Common Voice funded
 
 about-playbook-how-funded = Kumaha Common Voice dibiayaan?
+about-playbook-how-funded-content-1 = Common Voice mangrupikeun proyék Yayasan Mozilla, US 501c3. Proyék ieu ayeuna dibiayaan sapinuhna ku <philantropicGrantLink>hibah filantropi</philantropicGrantLink>, sareng sumbangan ti jalma-jalma di sakumna dunya.
+about-playbook-how-funded-content-2 = Butuh biaya anu ageung pikeun terus-terusan ngalola sareng ngarilis sét data, ningkatkeun platform, sareng ngajalankeun <africaMradiLink>program komunitas</africaMradiLink>.
+about-playbook-how-funded-content-3 = Upami anjeun atanapi organisasi anjeun hoyong nyumbang deui kana proyék ieu, anjeun tiasa masihan <donateLink>sumbangan</donateLink> atanapi ngahubungi tim partnership kami di <emailFragment>commonvoice@mozilla.com</emailFragment>.
