@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = Perlu ngadownload data anjeun?
+download-info = Wartosan kami naon anu hoyong diunduh ku anjeun:
+download-profile-title = Propil
+download-profile-info = Kaasup email, ngaran pengguna  & inpormasi demografis, atos sayogi langsung
+download-profile-size = Sababaraha bait
+download-recordings-title = Rékaman
+download-recordings-info = Kaasup mp3 sareng kalimah anu aya patalina, panginten peryogi sababaraha waktos kanggo nyiapkeunna.
+download-recordings-size = Biasana megabyte
+download-recordings-unavailable = Anjeun teu tiasa nyuhunkeun rékaman anjeun nalika pamenta anu sanés nuju dijalankeun.
+download-recently-requested = Anjeun tiasa nyuhunkeun takeout énggal tina rekaman anjeun unggal { $days } dinten.
+download-size = Ukuran
+download-selected = Dipilih
+download-start = Ngunduh data propil
+download-request = Nyuhunkeun rekaman
+download-requests = Pamenta unduhan rekaman anu kapungkur
+download-requests-info = Nalika anjeun nyuhunkeun rékaman anjeun, kami nyusunna kana hiji atanapi sababaraha file ZIP. Ieu pamenta anjeun anu kapungkur:
+download-request-button = Unduh
+download-request-title = { $dijieun }
+download-request-description = { $clipCount } klip sora, ukuran arsip total { $size }. Kadaluwarsa { $expires }.
+download-request-archive-single = Ngandung kana File ZIP tunggal
+download-request-archive-multiple = Dibagi kana file ZIP { $archiveCount } anu tos kaasup
+download-request-assembling-description = Berkas anjeun nuju dirakit. Mangga parios deui engké.
+download-request-refresh-button = Segerkeun
+download-request-modal-title = Unduh Tautan
+download-request-modal-description = Ieu tautan pikeun ngaunduh file ZIP anjeun.
+download-request-link-text = Kode pos #{ $offset } tina { $total }
+download-request-metadata-link = Téks kalimah
+download-request-link-single = Anjeun ogé tiasa nyalin sareng nempelkeun URL langsung kana pangatur unduhan karesep anjeun. Éta bakal kadaluwarsa dina 12 jam, tapi anjeun tiasa uih deui ka halaman ieu pikeun ngahasilkeun anu énggal iraha waé.
