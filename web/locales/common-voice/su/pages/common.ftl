@@ -447,10 +447,18 @@ link-copied = Tutumbu parantos disalin
 back-top = Balik deui ka luhur
 logout = Kaluar tina Akun
 donate = Sumbang
+stayintouch = Kami di Mozilla nuju ngawangun komunitas di sabudeureun téknologi sora. Kami hoyong tetep ngahubungi anjeun ngeunaan apdet, sumber data énggal, sareng hoyong terang langkung seueur ngeunaan kumaha anjeun nganggo data ieu.
+privacy-info = Kami jangji bakal ngurus inpormasi anjeun kalayan ati-ati. Baca langkung seueur dina <privacyLink>Béwara Privasi</privacyLink> kami.
 return-to-cv = Balik deui ka Common Voice
 email-input =
     .label = Surélék
 loading = Ngamuat…
+email-opt-in-info = Anjeun ayeuna parantos siap nampi email sapertos panginget tujuan, apdet kamajuan kuring sareng buletin ngeunaan Common Voice
+email-opt-in-info-title = Gabung ka daptar pesan Common Voice
+email-opt-in-info-sub-with-challenge = Nampi email sapertos panginget tantangan sareng tujuan, apdet kamajuan, sareng buletin ngeunaan Common Voice.
+email-opt-in-privacy-v2 = Ku milih nampi email, anjeun nyatakeun yén anjeun satuju Mozilla ngatur inpormasi ieu sapertos anu dijelaskeun dina <privacyLink>Kawijakan Privasi</privacyLink> Mozilla.
+indicates-required = Widang anu ditandaan ku asterisk (*) diwajibkeun dieusi.
+not-available-abbreviation = Teu aya
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Salin
 # Text shown on a button that can be clicked to cancel an action
@@ -460,11 +468,20 @@ delete = Hapus
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Kami peryogi</mark><br/><mark>bantosan anjeun!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Butuh ampir sajuta dolar sataun pikeun ngalayanan kumpulan data sareng ningkatkeun platform pikeun 100+ komunitas basa anu ngandelkeun naon anu urang laksanakeun. <strong>Upami anjeun ngahargaan data anu kabuka sareng inklusif - nyumbang ayeuna!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Nganggo CV kanggo</mark><br/><mark>panalungtikan anjeun?</mark>
+languages-donate-banner-cta-explanation = Common Voice dibiayaan ku sumbangan sareng hibah! Kami resep kolaborasi sareng akademisi, masarakat sipil sareng panaliti industri. Common Voice gratis dianggo, tapi nyumbang kana biaya platform sareng hosting ngalangkungan proposal hibah leres-leres ngabantosan.
 localization-select =
     .label = Pilih basa / lokalisasi
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Set data Common Voice Anyar</strong> ayeuna sayogi kanggo diunduh sacara éksklusif ngalangkungan platform sadulur kami, Mozilla Data Collective. Gabung kanggo aksés ka 300+ set data global, anu diwangun ku sareng kanggo komunitas.
 # Button text for MDC announcement
 announcement-mdc-button-text = Gabung kana Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
