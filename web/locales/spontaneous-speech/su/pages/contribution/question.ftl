@@ -11,6 +11,7 @@ add-question-success-toast-message =
     { $uploadedQuestions } ti { $totalQuestions } patarosan parantos kakumpul
 add-question-error-message = Unggah gagal, mangga cobian deui
 add-question-too-many-questions-error = Leuwih 25 patarosan. Ngurangan jumlah patarosan atanapi cobian deui
+partial-questions-upload-message = { $uploadedQuestions } tina { $totalQuestions } patarosan anu dikumpulkeun. Tingali halaman <guidelinesLink>Guidelines</guidelinesLink> kami pikeun diajar langkung seueur ngeunaan kumaha nambihan patarosan
 # Guidelines
 add-question-guidelines-title = Patarosan naon nu tiasa kuring tambahkeun?
 do-section-title = ngalakonan

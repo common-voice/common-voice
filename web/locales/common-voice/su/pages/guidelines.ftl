@@ -226,3 +226,133 @@ code-switching-adding-question-note = Anjeun ogé panginten hoyong mertimbangkeu
 code-switching-types-subheader = Patarosan naon waé anu kedah ditambahkeun?
 code-switching-use-bilingual-prompts-header = Anggo Pituduh Dwibasa
 code-switching-use-bilingual-prompts-explanation = Anggo pituduh bilingual anu ngagabungkeun dua basa dina patarosan anjeun: Conto:
+code-switching-ask-bilingual-contexts-header = Tanya Ngeunaan Kontéks Dwibasa
+code-switching-ask-bilingual-contexts-explanation = Anggo kaayaan dimana dua basa éta umumna dianggo (contona, di bumi, di sakola, di acara komunitas). Conto:
+code-switching-ask-bilingual-contexts-explanation-example = "Nalika anjeun ngobrol sareng dulur-dulur anjeun, naha anjeun nyampur basa Spanyol sareng Inggris?"
+code-switching-focus-emotional-header = Fokus kana Momen Émosional atanapi Momen Anu Penting
+code-switching-focus-emotional-explanation = Jalma-jalma mineng ngarobah kode nalika ngébréhkeun émosi atanapi kateupastian. Conto:
+code-switching-focus-emotional-explanation-example = "Caritakeun naon anu diomongkeun ku kolot anjeun nalika anjeun nyaritakeun warta penting anjeun — persis kumaha aranjeunna nyarioskeunana."
+code-switching-direct-quotes-header = Nyuhunkeun Kutipan Langsung atanapi Pamaénan Ulang
+code-switching-direct-quotes-explanation = Ajak pamilon pikeun ngagambarkeun kumaha hal-hal éta sabenerna diucapkeun. Conto:
+code-switching-direct-quotes-explanation-example = "Naon persis kecap-kecap anjeun nalika anjeun terang éta?"
+code-switching-cultural-topics-header = Pilih Topik Anu Spésifik Sacara Budaya
+code-switching-cultural-topics-explanation = Katuangan, tradisi, liburan, sareng dinamika kulawarga sering ngajak campur kode.
+code-switching-cultural-topics-explanation-example = "Kumaha anjeun ngajelaskeun Día de los Muertos ka jalma anu ngan ukur nyarios basa Inggris?"
+code-switching-informal-scenarios-header = Ngajalajah Skenario Informal
+code-switching-informal-scenarios-explanation = Paguneman jeung babaturan atawa SMS-an mindeng ngawengku silih tukeur pikiran nu leuwih alami. Conto:
+code-switching-informal-scenarios-explanation-example = "Naon guyonan anu sok dilakukeun ku babaturan anjeun — sareng kumaha cara ngucapkeunana?"
+# What to Avoid
+code-switching-avoid-subheader = Naon anu kedah dihindari
+code-switching-avoid-intro = Patarosan anu tiasa waé:
+code-switching-avoid-1 = Nyuhunkeun inpormasi pribadi anu tiasa diidentipikasi
+code-switching-avoid-2 = Nyuhunkeun ucapan kebencian atanapi sentimen anu bias atanapi nyinggung anu sanés
+code-switching-avoid-3 = Nyebabkeun batur ngabagikeun réspon anu sénsitip sareng berpotensi memicu
+code-switching-dont-header = Ulah
+code-switching-dont-1 = Gunakeun basa nu langkung formal
+# Reviewing a Question
+code-switching-review-subheader = Marios Patarosan
+code-switching-review-intro = Pastikeun patarosan nyumponan kriteria:
+code-switching-review-criterion-1 = Gampang kahartos sareng gampang direspon
+code-switching-review-criterion-2 = Sacara umum relevan
+code-switching-review-criterion-3 = Ulah ngagunakeun, atawa ménta, basa anu ngabahayakeun atawa nyinggung
+code-switching-review-does-not-header = Sareng <bold>HENTEU</bold> kalebet:
+code-switching-review-offensive-content = <bold>Eusi anu nyinggung atanapi inpormasi sénsitip</bold>
+code-switching-answer-header = Eusi anu nyinggung atanapi inpormasi sénsitip
+code-switching-review-no-1 = Patarosan anu tiasa nyuhunkeun inpormasi anu tiasa diidentipikasi sacara pribadi
+code-switching-review-no-2 = Patarosan anu tiasa nimbulkeun ucapan kebencian atanapi sentimen bias atanapi nyinggung anu sanés
+code-switching-review-no-3 = Patarosan anu tiasa nyababkeun batur ngabagikeun réspon anu sénsitip sareng berpotensi memicu
+# Answering a Question
+code-switching-answer-subheader = Waler Patarosan
+code-switching-answer-intro = Nalika ngawaler patarosan, tujuanana nyaéta pikeun ngawaler sacara alami - sapertos anu anjeun lakukeun dina paguneman kahirupan nyata. Kami hoyong néwak kumaha basa-basa sabenerna nyampur dina ucapan sapopoe.
+code-switching-answer-bullet-1 = Pikirkeun hiji waktu atanapi kaayaan kahirupan nyata: guyonan, argumen, tradisi
+code-switching-answer-bullet-2 = Bayangkeun anjeun nuju ngirim pesen téks ka babaturan atanapi nyaritakeun hiji carita ka batur
+code-switching-answer-bullet-3 = Anggo kecap-kecap anu saleresna bakal dianggo, sanaos diinjeum atanapi dicampur
+code-switching-answer-bullet-4 = Teu aya cara anu "sampurna" pikeun ngajawab
+code-switching-authentic-header = Waler sacara Alami sareng Autentik
+code-switching-authentic-speak = <bold>Nyarita sakumaha anu anjeun badé ucapkeun ka babaturan atanapi kulawarga.</bold> Upami anjeun nyampur basa dina kahirupan nyata, laksanakeun hal anu sami di dieu. Conto:
+code-switching-authentic-speak-example = "Pues kuring geus ngomong ka manéhna yén kuring teu bisa indit, tapi manéhna ngomong, 'Mending datang!'"
+code-switching-use-both-languages = <bold>Anggo dua basa upami kitu biasana anjeun nyarios.</bold> Malah ngaganti hiji atanapi dua kecap ogé mangpaat. Conto:
+code-switching-use-both-languages-example = "Manehna ambek pisan sabab kuring teu nelepon deui."
+code-switching-authentic-direct-quotes = <bold>Kalebet kutipan langsung atanapi dialog.</bold> Sebutkeun persis naon anu diucapkeun ku batur, sanés vérsi anu dibersihkeun atanapi formal. Conto:
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tú crees que esto es un juego?' sareng kuring sapertos, 'Oke chill!'"
+code-switching-authentic-reflect = <bold>Ngagambarkeun émosi, idéntitas, sareng kontéks.</bold> Parobahan biasana kajadian nalika jalma ngébréhkeun émosi, urgénsi, atanapi ideu budaya. Perhatikeun ieu nalika ngajawab patarosan.
+code-switching-authentic-full-context = <bold>Anggo jawaban lengkep anu saluyu sareng kontéksna.</bold> Sing jéntré sabisa-bisa, pasihan detil sabisa-bisa. Bagikeun carita atanapi conto dina jawaban anjeun.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ulah kaleuleuwihi mikir atawa ngédit
+code-switching-answer-dont-correct-language = <bold>"Koreksi" basa anjeun.</bold> Ieu sanés tés. Wangun "anu leres" teu penting di dieu, basa alami anu penting.
+code-switching-answer-dont-avoid-switching = <bold>Ulah ngaganti kecap lamun biasana.</bold> Teu nanaon mun ngaganti kecap di tengah kalimah, di tengah pamikiran, atawa ngan saukur pikeun hiji kecap.
+code-switching-answer-dont-formal-writing = <bold>Nyarita téh siga nu keur nulis sacara resmi.</bold> Ulah nepi ka ngajawab sacara formal jeung akademis. Sing tetep siga obrolan.
+code-switching-answer-dont-force-switch = <bold>Paksa ngaganti upami henteu alami.</bold> Ngan ganti upami éta cara anjeun sacara alami bakal nyarios dina kaayaan éta.
+code-switching-answer-dont-translate-repeat = <bold>Tarjamahkeun atanapi balikan sadayana.</bold> Cukup ucapkeun sakali, sapertos dina paguneman. Anjeun teu kedah nyarios vérsi réspon dina unggal basa.
+# Transcribing
+code-switching-transcribe-subheader = Transkripsi
+code-switching-transcribe-intro = Nalika nyalin réspon anu ngawengku alih kode, gambarkeun basa panyatur sakumaha anu diucapkeun - tanpa ngoréksi, ngédit, atanapi nyederhanakeun. Ieu kanggo sadaya parobihan antara basa, ucapan informal, sareng kecap-kecap campuran basa.
+code-switching-transcribe-do-1 = Maénkeun segmen pondok sababaraha kali pikeun néwak saklar anu teu pati penting
+code-switching-transcribe-do-2 = Eureunkeun heula sabada unggal kalimah pikeun mariksa deui parobahan atawa kecap-kecap nu dicampur.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Nangkep Biantara Persis Sakumaha Anu Diucapkeun
+code-switching-capture-explanation = Transkripsikeun dua basa sakumaha katémbongna/sora na. Ulah "ngalereskeun" basa éta atanapi ngarobihna ngan ukur ka hiji basa.
+# Include filler words and markers
+code-switching-filler-header = Kalebet kecap pangisi sareng pananda
+code-switching-filler-explanation = Kecap-kecap sapertos "um," "like," "pues," "you know," sareng "entonces" ngandung harti anu penting. Conto: "Janten, um, kuring nyarios ka anjeunna sapertos, 'pues no sé, meureun engké.'"
+# Use standard spelling for each language
+code-switching-spelling-header = Anggo éjahan standar pikeun unggal basa
+code-switching-spelling-explanation = Coba ngeja kecap-kecap anu bener pikeun unggal basa, kajaba lamun anu nyarita ngucapkeunana kalawan jelas ku cara anu teu standar.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Ulah Ngabersihkeun atanapi Ngasederhanakeun Basa
+code-switching-cleanup-1 = Tarjamahkeun atanapi parafrasekeun – tulis naon anu diomongkeun ku panyatur, sanés naon anu "maksadna".
+code-switching-cleanup-2 = Tata basa atawa pangucapan anu "bener" – tetep ngagunakeun basa sacara alami kawas nu nyarita.
+code-switching-cleanup-3 = Leupaskeun saklar anu karasana leutik atawa teu pati penting – sanajan kecap-kecap injeuman ogé penting.
+code-switching-cleanup-4 = Lebetkeun tanda baca anu tiasa ngarobih hartosna – jaga alurna tetep alami.
+code-switching-cleanup-5 = Anggap anjeun terang basa unggal kecap – pananda dumasar kana panggunaanana.
+# Tagging
+code-switching-tagging-subheader = Nandaan
+code-switching-tagging-error-intro = Upami transkripsi ngandung kasalahan, mangga anggo fungsi laporan pikeun nandakeunana. Kasalahan anu tiasa kajantenan kalebet:
+code-switching-tagging-error-1 = Tanda baca atanapi kapitalisasi anu salah
+code-switching-tagging-error-2 = Salah ketik
+code-switching-tagging-error-3 = Kecap-kecap anu ditulis dina ortografi anu salah
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Ngagunakeun Ortografi anu Leres pikeun Unggal Basa
+code-switching-orthography-explanation = Tulis unggal kecap numutkeun éjahan basa asalna. Contona:
+code-switching-orthography-explanation-example-1 = Upami kecap "kitchen" katingalina diucapkeun sapertos dina basa Spanyol, éta kedah ditulis sapertos dina basa Inggris, sanés sapertos "quichen".
+code-switching-orthography-explanation-example-2 = Upami kecap quinceaños diucapkeun sapertos dina basa Inggris, tulis nganggo ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Gunakeun Pangucapan pikeun Ngabantosan Nangtukeun Basa
+code-switching-pronunciation-explanation = Sababaraha kecap sigana sami dina dua basa tapi tiasa diucapkeun béda. Dengérkeun pangucapanana pikeun ngabantosan tag anu leres. Contona: cable, taco, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Basa Inggris: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spanyol: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Nandaan dina Token Tunggal
+code-switching-single-token-explanation = Hiji token anu dipisahkeun ku spasi kedah ngandung langkung ti hiji rentang anu ditandaan.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Tanda Baca Tag Dumasar kana Basa Deukeutna
+code-switching-punctuation-tagging-explanation = Pasang tanda baca nganggo rentang basa anu pangdeukeutna ka kénca. Conto:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>sareng hiji waktos</purple> Maria <purple>ngajerit ka abdi nyaéta</purple> <blue>kusabab</blue> <purple>anjeunna nyobian</purple> nyetak <blue>henteu</blue> <purple>mesen.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <ungu>tapi</ungu> <biru>tú los puedes comprar rojo, negro, azul</blue>, <ungu>naon.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Ati - ati ku kecap anu sarupa
+code-switching-lookalikes-explanation = Sababaraha kecap bakal siga hiji basa tapi dianggo dina basa anu sanés. Tag dumasar kana harti sareng panggunaan, sanés penampilan. Conto:
+code-switching-lookalikes-explanation-example-1 = "Footing" baheula hartina lumpat dina basa Spanyol > Tandaan salaku basa Spanyol
+code-switching-lookalikes-explanation-example-2 = "No problemo" dianggo dina basa Inggris > tag salaku basa Inggris
+# When Not to Tag Words
+code-switching-not-tag-header = Nalika teu aya kecap nu ditandaan
+code-switching-not-tag-explanation = Sababaraha kecap teu kedah ditandaan ku labél basa, sanaos sigana dicampur atanapi diadaptasi. Kieu carana ngatur sababaraha conto:
+code-switching-not-tag-proper-names = <bold>Ngaran Pribadi.</bold> Ngaran jalma, tempat, sareng organisasi teu kedah ditandaan. Conto:
+code-switching-not-tag-proper-names-example-1 = Jalma: Maria, John
+code-switching-not-tag-proper-names-example-2 = Tempat: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Merek/Organisasi: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Kecap Campuran atanapi Diadaptasi sacara Morfologis.</bold> Ulah méré tag kana kecap-kecap anu nyampur basa atanapi gaduh tungtung tambahan tina basa sanés. Conto:
+code-switching-not-tag-mixed-words-example = Dimana akar kecapna tina basa Inggris tapi akhiranna tina basa Spanyol: "parkear", "printearlo"
+code-switching-not-tag-interjections = <bold>Interjeksi.</bold> Kecap interjeksi sareng kecap pangisi, henteu paduli basa naon waé, kedah tetep <bold>henteu ditandaan.</bold> Conto:
+code-switching-not-tag-interjections-example-1 = "Euh"
+code-switching-not-tag-interjections-example-2 = "Henteu"
+code-switching-not-tag-interjections-example-3 = "Muhun"
+code-switching-not-tag-interjections-example-4 = "Euh"
+
+## Reporting Content
+
+reporting-content = Eusi Laporan
+reporting-content-subheader = Pituduh umum
+reporting-content-explanation-1 = Anjeun kedah nandakeun eusi anu nyinggung, ngabahayakeun, atanapi pikahariwangeun. Éta ogé kedah henteu ngalebetkeun inpormasi idéntifikasi pribadi sapertos nomer telepon atanapi alamat. Éta bakal dihapus tina pangalaman anjeun dugi ka tim Common Voice tiasa marios sareng nalungtik langkung lanjut.
+reporting-content-explanation-2 = Pikeun ngalaporkeun eusi, pilih tombol "Laporan" teras pilih salah sahiji atanapi sadaya pilihan: Eusi anu Nyinggung, Basa anu Béda, Inpormasi anu Tiasa Diidentipikasi Pribadi, Anu Sanésna. Ti dieu, pasihan langkung seueur rinci ngeunaan kunaon anjeun ngalaporkeun eusi dina area téks. Teras, kirimkeun Laporan ku ngaklik tombol Laporan.
