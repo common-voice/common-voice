@@ -65,6 +65,7 @@ ga-IE = Tirlandit
 gl = Tagalisit
 gn = Tagaranit
 gom = Goan Konkani
+gsw = Tlzasit
 gu-IN = Taguǧaṛatit
 gv = Tamanksit
 gwc = Gawri
