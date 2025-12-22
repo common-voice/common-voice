@@ -202,6 +202,11 @@ transcribe-the-audio-subheader-4-explanation-1-example = Jenengé <underline>Jo-
 transcribe-the-audio-subheader-4-explanation-2 = Kadhang pawicara bakal mbaleni tembung utawa fragmen tembung kaping pirang-pirang. Iki uga kudu ditranskripsi. Tuladha:
 transcribe-the-audio-subheader-4-explanation-2-example = Banjur aku menyang <underline>kasur- kamar turu
 
+## Review the Transcription
+
+review-the-transcription = Mrikso Transkripsi
+review-the-transcription-subheader = Pandhuan umum
+
 ## Code-Switching
 
 code-switching = Alih Kode
@@ -219,6 +224,9 @@ code-switching-ask-bilingual-contexts-explanation-example = "Nalika kowe ngobrol
 code-switching-focus-emotional-header = Fokus ing Momen Emosional utawa Kahanan kang duwe resiko dhukur
 code-switching-focus-emotional-explanation = Wong kerep nggunakake kode nalika ngungkapke emosi utawa rasa urgensi. Contone:
 code-switching-direct-quotes-header = Njaluk Penawaran Langsung utawa Pementasan Ulang
+# What to Avoid
+code-switching-avoid-subheader = Apa sing kudu dihindari
+code-switching-avoid-intro = Pitakonan sing bisa uga:
 code-switching-dont-header = Aja
 code-switching-dont-1 = Aja nggunakake basa sing kaku
 # Reviewing a Question
@@ -247,9 +255,13 @@ code-switching-answer-dont-subheader = Aja Mikir Kakehan utawa Ngedit Kakehan
 # Transcribing
 code-switching-transcribe-subheader = Transkripsi
 # Tagging
-code-switching-tagging-subheader = Nandhai
+code-switching-tagging-subheader = Menehi Tag
 code-switching-tagging-error-1 = Tandha wacan utawa kapitalisasi sing salah
 code-switching-tagging-error-2 = Salah ketik
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Gunakake Pangucapan kanggo Mbantu Nemtokake Basa
+# When Not to Tag Words
+code-switching-not-tag-header = Nalika Ora Perlu Menehi Tag Tembung
 code-switching-not-tag-proper-names-example-1 = Wong: Maryam, Yahya
 code-switching-not-tag-proper-names-example-2 = Panggonan: Jogjakarta, Malang
 code-switching-not-tag-proper-names-example-3 = Merek/Organisasi: Honda, Indomie
