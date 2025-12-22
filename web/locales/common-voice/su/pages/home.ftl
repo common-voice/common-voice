@@ -105,3 +105,10 @@ action-items-section-title = Common Voice nyaéta platform sumber terbuka gratis
 action-items-section-subtitle = Saha waé tiasa ngalestarikeun, ngarévitalisasi, sareng ningkatkeun basa na ku cara ngabagikeun, nyiptakeun, sareng ngatur kumpulan data téks sareng ucapan.
 scripted-card-header = Biantara Naskah
 scripted-card-content = Baca kalimah kalawan tarik dina basa anjeun sareng nyumbang kana kumpulan data biantara partisipasi publik anu paling beragam di dunya.
+spontaneous-card-header = Biantara Spontan
+
+## Get involved section
+
+read-sentences-link = Baca Kalimah
+validate-readings-link = Cek pariksa bacaan
+contribute-link = Nyumbang kana korpus teks
