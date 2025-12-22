@@ -192,7 +192,42 @@ tags-disfluency-explanation =
     
     Ing basa Inggris, sawetara swara ragu-ragu sing umum yaiku "err", "um", "huh", lan liya-liyane.
 tags-unclear-explanation = Tembung utawa urutan tembung sing ora bisa dingerteni.
+tags-noise-explanation = Swara liyané, kaya swara speaker nalika watuk, swara klakson montor, swara barang sing nabrak mikropon, swara telpon muni, lan liya-liyané.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Lan banjur aku [noise] lunga preinan.
+    Nah, [noise] [ngguyu] iku dudu preinan [ngguyu]
+transcribe-the-audio-subheader-4-explanation-1 = Omongan Spontan lumrahé ngandhut wiwitan sing salah ing ngendi mung pecahan saka tembung lengkap sing diasilaké. Kanggo conto iki, tulung transkripsikno sing paling apik saka pecahan tembung kasebut lan pasang tanda hubung ing pungkasan tembung (-) kanggo nandhani tembung kasebut minangka wiwitan sing salah. Tuladha:
+transcribe-the-audio-subheader-4-explanation-1-example = Jenengé <underline>Jo-Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Kadhang pawicara bakal mbaleni tembung utawa fragmen tembung kaping pirang-pirang. Iki uga kudu ditranskripsi. Tuladha:
+transcribe-the-audio-subheader-4-explanation-2-example = Banjur aku menyang <underline>kasur- kamar turu
 
 ## Code-Switching
 
+code-switching-adding-question-criteria-2 = Dadi relevan kanthi umum
+code-switching-adding-question-criteria-3 = Ora nggunakake, utawa njaluk, basa sing mbebayani utawa nyinggung
+code-switching-adding-question-note = Sampeyan uga bisa nimbangke nyakup macem-macem konteks lan domain.
+# What types of questions to add
+code-switching-types-subheader = Apa maceme pitakonan sing arep ditambahake?
+code-switching-use-bilingual-prompts-header = Gunakake Pandhuan Dwibasa
+code-switching-use-bilingual-prompts-explanation = Gunakna pitakon dwibasa sing nggabungake rong basa kasebut ing pitakonan sampeyan: Contone:
+code-switching-ask-bilingual-contexts-header = Takon Babagan Konteks Dwibasa
+code-switching-ask-bilingual-contexts-explanation = Gunakna kahanan ing ngendi rong basa kasebut umum digunakake (kayata, omah, sekolah, acara komunitas). Contone:
+code-switching-ask-bilingual-contexts-explanation-example = "Nalika kowe ngobrol karo dulurmu, apa kowe nyampur basa Spanyol lan Inggris?"
+code-switching-focus-emotional-header = Fokus ing Momen Emosional utawa Kahanan kang duwe resiko dhukur
+code-switching-focus-emotional-explanation = Wong kerep nggunakake kode nalika ngungkapke emosi utawa rasa urgensi. Contone:
+code-switching-direct-quotes-header = Njaluk Penawaran Langsung utawa Pementasan Ulang
 code-switching-not-tag-proper-names-example-1 = Wong: Maryam, Yahya
+code-switching-not-tag-proper-names-example-2 = Panggonan: Jogjakarta, Malang
+code-switching-not-tag-proper-names-example-3 = Merek/Organisasi: Honda, Indomie
+code-switching-not-tag-mixed-words = <bold>Tembung Campuran utawa Adaptasi Morfologis.</bold> Aja menehi tag tembung sing nyampur basa utawa duwe pungkasan tambahan saka basa liya. Contone:
+code-switching-not-tag-mixed-words-example = Ing ngendi tembung asline saka basa Inggris nanging akhirane saka basa Spanyol: "parkear", "printearlo"
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = "Ora"
+code-switching-not-tag-interjections-example-3 = "Iya"
+code-switching-not-tag-interjections-example-4 = "Eh"
+
+## Reporting Content
+
+reporting-content = Konten Laporan
+reporting-content-subheader = Pandhuan umum
