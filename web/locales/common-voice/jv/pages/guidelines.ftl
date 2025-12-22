@@ -204,6 +204,8 @@ transcribe-the-audio-subheader-4-explanation-2-example = Banjur aku menyang <und
 
 ## Code-Switching
 
+code-switching = Alih Kode
+adding-a-question = Nambah Pitakonan
 code-switching-adding-question-criteria-2 = Dadi relevan kanthi umum
 code-switching-adding-question-criteria-3 = Ora nggunakake, utawa njaluk, basa sing mbebayani utawa nyinggung
 code-switching-adding-question-note = Sampeyan uga bisa nimbangke nyakup macem-macem konteks lan domain.
@@ -217,6 +219,37 @@ code-switching-ask-bilingual-contexts-explanation-example = "Nalika kowe ngobrol
 code-switching-focus-emotional-header = Fokus ing Momen Emosional utawa Kahanan kang duwe resiko dhukur
 code-switching-focus-emotional-explanation = Wong kerep nggunakake kode nalika ngungkapke emosi utawa rasa urgensi. Contone:
 code-switching-direct-quotes-header = Njaluk Penawaran Langsung utawa Pementasan Ulang
+code-switching-dont-header = Aja
+code-switching-dont-1 = Aja nggunakake basa sing kaku
+# Reviewing a Question
+code-switching-review-subheader = Mrikso Pitakonan
+code-switching-review-intro = Priksa manawa pitakonan kasebut cocok karo kriteria:
+code-switching-review-criterion-1 = Gampang dingerteni lan ditanggapi
+code-switching-review-criterion-2 = Dadi relevan kanthi umum
+code-switching-review-criterion-3 = Ora nggunakake, utawa njaluk, basa sing mbebayani utawa nyinggung
+code-switching-review-does-not-header = Lan <bold>ORA</bold> kalebu:
+code-switching-review-offensive-content = Konten sing nyinggung utawa informasi sensitif
+code-switching-answer-header = Konten sing nyinggung utawa informasi sensitif
+code-switching-review-no-1 = Pitakonan sing bisa njaluk informasi pribadi sing bisa dititeni
+code-switching-review-no-2 = Pitakonan sing bisa nuwuhake tembung kebencian utawa sentimen ora cetho utawa nyinggung liyane
+code-switching-review-no-3 = Pitakonan sing bisa nyebabake wong nuduhake sing sensitif lan bisa micu respon
+# Answering a Question
+code-switching-answer-subheader = Wangsulan Pitakonan
+code-switching-answer-intro = Nalika mangsuli pitakonan, tujuane yaiku nanggapi kanthi alami - kaya sing bakal sampeyan lakoni ing obrolan nyata. Kita pengin nangkep kepiye basa-basa kasebut nyampur ing obrolan saben dina.
+code-switching-answer-bullet-1 = Pikirake momen utawa kahanan nyata: guyonan, padudon, tradhisi
+code-switching-answer-bullet-2 = Bayangna sampeyan lagi ngirim pesen teks menyang kanca utawa crita marang wong liya
+code-switching-answer-bullet-3 = Gunakna tembung-tembung sing sejatine bakal sampeyan gunakake, sanajan dijupuk utawa dicampur
+code-switching-answer-bullet-4 = Ora ana cara "sampurna" kanggo njawab
+code-switching-authentic-header = Wangsulana kanthi alami lan asli
+code-switching-authentic-speak = <bold>Ngomong kaya karo kanca utawa kulawarga.</bold> Yen sampeyan nyampur basa ing urip nyata, lakoni sing padha ing kene. Tuladha:
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Aja Mikir Kakehan utawa Ngedit Kakehan
+# Transcribing
+code-switching-transcribe-subheader = Transkripsi
+# Tagging
+code-switching-tagging-subheader = Nandhai
+code-switching-tagging-error-1 = Tandha wacan utawa kapitalisasi sing salah
+code-switching-tagging-error-2 = Salah ketik
 code-switching-not-tag-proper-names-example-1 = Wong: Maryam, Yahya
 code-switching-not-tag-proper-names-example-2 = Panggonan: Jogjakarta, Malang
 code-switching-not-tag-proper-names-example-3 = Merek/Organisasi: Honda, Indomie
