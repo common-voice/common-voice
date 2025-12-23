@@ -223,6 +223,7 @@ code-switching-ask-bilingual-contexts-explanation = Gunakna kahanan ing ngendi r
 code-switching-ask-bilingual-contexts-explanation-example = "Nalika kowe ngobrol karo dulurmu, apa kowe nyampur basa Spanyol lan Inggris?"
 code-switching-focus-emotional-header = Fokus ing Momen Emosional utawa Kahanan kang duwe resiko dhukur
 code-switching-focus-emotional-explanation = Wong kerep nggunakake kode nalika ngungkapke emosi utawa rasa urgensi. Contone:
+code-switching-focus-emotional-explanation-example = "Critakake apa sing diomongake wong tuwamu nalika kowe ngandhani kabar gedhemu — persis kaya sing diomongake wong tuwamu."
 code-switching-direct-quotes-header = Njaluk Penawaran Langsung utawa Pementasan Ulang
 # What to Avoid
 code-switching-avoid-subheader = Apa sing kudu dihindari
