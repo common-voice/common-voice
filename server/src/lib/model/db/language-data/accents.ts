@@ -413,36 +413,36 @@ export const ACCENTS: Accent[] = [
   {
     locale_name: 'ro',
     accent_name: 'Muntenesc',
-    accent_token: 'ro-RO-muntenia',
+    accent_token: 'ro-muntenia',
   },
   {
     locale_name: 'ro',
     accent_name: 'Moldovenesc',
-    accent_token: 'ro-RO-moldova',
+    accent_token: 'ro-moldova',
   },
   {
     locale_name: 'ro',
     accent_name: 'Oltenesc',
-    accent_token: 'ro-RO-oltenia',
+    accent_token: 'ro-oltenia',
   },
   {
     locale_name: 'ro',
     accent_name: 'Maramureșean',
-    accent_token: 'ro-RO-maramureș',
+    accent_token: 'ro-maramu',
   },
   {
     locale_name: 'ro',
     accent_name: 'Crișean',
-    accent_token: 'ro-RO-crișana',
+    accent_token: 'ro-crisana',
   },
   {
     locale_name: 'ro',
     accent_name: 'Bănățean',
-    accent_token: 'ro-RO-banat',
+    accent_token: 'ro-banat',
   },
   {
     locale_name: 'ro',
     accent_name: 'Transilvănean',
-    accent_token: 'ro-RO-transilvania',
+    accent_token: 'ro-transilv',
   },
 ]
