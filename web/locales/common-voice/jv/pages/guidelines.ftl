@@ -201,11 +201,16 @@ transcribe-the-audio-subheader-4-explanation-1 = Omongan Spontan lumrahé ngandh
 transcribe-the-audio-subheader-4-explanation-1-example = Jenengé <underline>Jo-Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Kadhang pawicara bakal mbaleni tembung utawa fragmen tembung kaping pirang-pirang. Iki uga kudu ditranskripsi. Tuladha:
 transcribe-the-audio-subheader-4-explanation-2-example = Banjur aku menyang <underline>kasur- kamar turu
+transcribe-the-audio-subheader-5-explanation-1 = Omongan spontan mesthi bakal ana kesalahan tata basa. Iki kudune ora dibenerake nalika nyalin. Transkripsi kudu nggambarake omongan kanthi persis.
+transcribe-the-audio-subheader-5-explanation-2 = Pawicara bisa uga nggunakake basa sedina-dina (kayata, ing basa Inggris, "gonna", "cuz", lan liya-liyane) sing bisa uga ora dianggep bener kanthi formal. Iki kudune ditranskripsi apa anane, lan ora diganti karo padanan sing luwih formal.
 
 ## Review the Transcription
 
 review-the-transcription = Mrikso Transkripsi
 review-the-transcription-subheader = Pandhuan umum
+review-the-transcription-explanation-1 = Umumé, disaranake supaya wong sing mriksa transkripsi ora padha karo wong sing nindakake transkripsi asli. Angel banget mriksa transkipsi sampeyan dhewe! Ndhuweni pirang-pirang baris pas mrikso supaya bisa mbantu nggawe jaminan kualitas luwih kuat, lan mbantu ngurangi bias lan masalah.
+review-the-transcription-explanation-2 = Priksa pandhuan transkripsi ing ndhuwur kanggo mesthekake yen transkripsi wis akurat. Sampeyan bisa menehi suntingan terus ngirim.
+review-the-transcription-explanation-3 = Maneh, sampeyan bisa nandhani konten sing nyerang, mbebayani, utawa nguwatirake, lan konten kasebut bakal dibusak saka pengalaman sampeyan nganti tim Common Voice bisa mriksa lan nyelidiki sabanjure.
 
 ## Code-Switching
 
@@ -272,10 +277,18 @@ code-switching-use-both-languages = <bold>Gunakake rong basa kasebut yen biasane
 code-switching-use-both-languages-example = "Dheweke nesu banget amarga aku ora nelpon dheweke maneh."
 code-switching-authentic-direct-quotes = <bold>Termasuk kutipan langsung utawa dialog.</bold> Ucapake persis apa sing diomongake wong liya, dudu versi sing diganti utawa resmi. Tuladha:
 code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tú crees que esto es un juego?' lan aku kaya, 'Oke chill!'"
+code-switching-authentic-reflect = <bold>Nggambarake emosi, identitas, lan konteks.</bold> Owah-owahan biasane kedadeyan nalika wong ngungkapake emosi, kepentingan, utawa ide budaya. Gunakake iki nalika mangsuli pitakon.
+code-switching-authentic-full-context = <bold>Gunakake jawaban lengkap kanthi konteks.</bold> Gawekno ringkesan sak akeh-akehe, wenehana katrangan sak akeh-akehe. Nuduhake crita utawa conto ing jawaban sampeyan.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Aja Mikir Kakehan utawa Ngedit Kakehan
+code-switching-answer-dont-correct-language = <bold>"Benerake" basa sampeyan.</bold> Iki dudu tes. Wangun "sing bener" ora penting ing kene, basa alami sing penting.
+code-switching-answer-dont-avoid-switching = <bold>Ojo ngerubah yen biasane sampeyan lakoni.</bold> Ora apa-apa ngubah ing tengah ukara, ing tengah pikiran, utawa mung kanggo sak tembung.
+code-switching-answer-dont-formal-writing = <bold>Ngomonga kaya-kaya sampeyan lagi nulis kanthi resmi.</bold> Aja menehi wangsulan resmi lan akademis. Jaganen supaya tetep kaya obrolan biasa.
+code-switching-answer-dont-force-switch = <bold>Peksa ganti yen ora wajar.</bold> Mung ngganti yen kaya ngono carane sampeyan ngomong kanthi alami ing kahanan kasebut.
+code-switching-answer-dont-translate-repeat = <bold>Terjemahake utawa baleni kabeh.</bold> Cukup ucapake sapisan, kaya nalika ngobrol. Sampeyan ora perlu ngomong versi respon ing saben basa.
 # Transcribing
 code-switching-transcribe-subheader = Transkripsi
+code-switching-transcribe-intro = Nalika nyalin tanggapan sing kalebu alih kode, wakilana basa pawicara kaya sing diucapake - tanpa mbenerake, nyunting, utawa nyederhanakake. Iki kanggo kabeh owah-owahan antarane basa, wicara informal, lan tembung campuran basa.
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Nyekel Pidato Persis Kaya Sing Diucapake
 code-switching-capture-explanation = Transkripsi rong basa kasebut kaya sing katon/dirungokake. Aja "ndandani" basa kasebut utawa ngganti dadi mung sak basa.
