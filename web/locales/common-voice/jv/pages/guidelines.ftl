@@ -223,11 +223,22 @@ code-switching-ask-bilingual-contexts-explanation = Gunakna kahanan ing ngendi r
 code-switching-ask-bilingual-contexts-explanation-example = "Nalika kowe ngobrol karo dulurmu, apa kowe nyampur basa Spanyol lan Inggris?"
 code-switching-focus-emotional-header = Fokus ing Momen Emosional utawa Kahanan kang duwe resiko dhukur
 code-switching-focus-emotional-explanation = Wong kerep nggunakake kode nalika ngungkapke emosi utawa rasa urgensi. Contone:
-code-switching-focus-emotional-explanation-example = "Critakake apa sing diomongake wong tuwamu nalika kowe ngandhani kabar gedhemu — persis kaya sing diomongake wong tuwamu."
+code-switching-focus-emotional-explanation-example = "Critakno apa sing dingendhikaake wong tuwa sampeyan nalika sampeyan ngandhani kabar gedhe — persis kaya sing diomongake wong tuwa sampeyan."
 code-switching-direct-quotes-header = Njaluk Penawaran Langsung utawa Pementasan Ulang
+code-switching-direct-quotes-explanation = Ajaken para peserta supaya niru kepiye sejatine omongane. Tuladha:
+code-switching-direct-quotes-explanation-example = "Apa tembung persis sampeyan pas sampeyan ngerti?"
+code-switching-cultural-topics-header = Pilih Topik Khusus Budaya
+code-switching-cultural-topics-explanation = Panganan, tradhisi, preinan, lan tindak-tanduk kulawarga biasane ngundang alih kode.
+code-switching-cultural-topics-explanation-example = "Kepiye sampeyan njelasake Día de los Muertos marang wong sing mung nganggo basa Inggris?"
+code-switching-informal-scenarios-header = Jelajahi Skenario sing Ora formal
+code-switching-informal-scenarios-explanation = Pacelathon karo kanca utawa SMS-an biasane kalebu owah-owahan sing luwih alami. Tuladha:
+code-switching-informal-scenarios-explanation-example = "Apa guyonan sing tansah digawe kanca-kanca sampeyan — lan kepiye carane ngomong?"
 # What to Avoid
 code-switching-avoid-subheader = Apa sing kudu dihindari
 code-switching-avoid-intro = Pitakonan sing bisa uga:
+code-switching-avoid-1 = Njaluk informasi pribadi sing bisa diidentifikasi
+code-switching-avoid-2 = Njaluk ujaran kebencian utawa sentimen sing ora cetho utawa nyinggung liyane
+code-switching-avoid-3 = Pitakonan sing bisa nyebabake wong nuduhake sing sensitif lan bisa micu respon
 code-switching-dont-header = Aja
 code-switching-dont-1 = Aja nggunakake basa sing kaku
 # Reviewing a Question
@@ -255,12 +266,22 @@ code-switching-authentic-speak = <bold>Ngomong kaya karo kanca utawa kulawarga.<
 code-switching-answer-dont-subheader = Aja Mikir Kakehan utawa Ngedit Kakehan
 # Transcribing
 code-switching-transcribe-subheader = Transkripsi
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Nyekel Pidato Persis Kaya Sing Diucapake
+# Include filler words and markers
+code-switching-filler-header = Kalebu tembung pangisi lan tandha
 # Tagging
 code-switching-tagging-subheader = Menehi Tag
 code-switching-tagging-error-1 = Tandha wacan utawa kapitalisasi sing salah
 code-switching-tagging-error-2 = Salah ketik
+code-switching-orthography-explanation-example-2 = Yen tembung quinceaños diucapake ing basa Inggris, tulis tembung kui nganggo ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Gunakake Pangucapan kanggo Mbantu Nemtokake Basa
+code-switching-pronunciation-explanation = Sawetara tembung bisa uga katon padha ing rong basa kasebut nanging bisa uga diucapake kanthi beda. Rungokna pangucapane kanggo mbantu menehi tag kanthi bener. Contone: cable, taco, actor, detective.
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Ati-ati karo sing kethokane podho
+code-switching-lookalikes-explanation-example-1 = "Footing" yen artine mlayu ing basa Spanyol > tandhai basa Spanyol
+code-switching-lookalikes-explanation-example-2 = "No problemo" digunakake ing basa Inggris > tag minangka basa Inggris
 # When Not to Tag Words
 code-switching-not-tag-header = Nalika Ora Perlu Menehi Tag Tembung
 code-switching-not-tag-proper-names-example-1 = Wong: Maryam, Yahya
