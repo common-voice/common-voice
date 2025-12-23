@@ -262,6 +262,10 @@ code-switching-answer-bullet-3 = Gunakna tembung-tembung sing sejatine bakal sam
 code-switching-answer-bullet-4 = Ora ana cara "sampurna" kanggo njawab
 code-switching-authentic-header = Wangsulana kanthi alami lan asli
 code-switching-authentic-speak = <bold>Ngomong kaya karo kanca utawa kulawarga.</bold> Yen sampeyan nyampur basa ing urip nyata, lakoni sing padha ing kene. Tuladha:
+code-switching-authentic-speak-example = "Aku wis ngandhani dheweke yen aku ora bisa lunga, nanging dheweke kaya, 'Kowe kudu teka!'"
+code-switching-use-both-languages = <bold>Gunakake rong basa kasebut yen biasane sampeyan ngucapake kaya ngono.</bold> Sanajan mung ngganti siji utawa loro tembung wae migunani. Tuladha:
+code-switching-use-both-languages-example = "Dheweke nesu banget amarga aku ora nelpon dheweke maneh."
+code-switching-authentic-direct-quotes = <bold>Termasuk kutipan langsung utawa dialog.</bold> Ucapake persis apa sing diomongake wong liya, dudu versi sing diganti utawa resmi. Tuladha:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Aja Mikir Kakehan utawa Ngedit Kakehan
 # Transcribing
