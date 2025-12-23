@@ -273,22 +273,42 @@ code-switching-answer-dont-subheader = Aja Mikir Kakehan utawa Ngedit Kakehan
 code-switching-transcribe-subheader = Transkripsi
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Nyekel Pidato Persis Kaya Sing Diucapake
+code-switching-capture-explanation = Transkripsi rong basa kasebut kaya sing katon/dirungokake. Aja "ndandani" basa kasebut utawa ngganti dadi mung sak basa.
 # Include filler words and markers
 code-switching-filler-header = Kalebu tembung pangisi lan tandha
 # Tagging
 code-switching-tagging-subheader = Menehi Tag
+code-switching-tagging-error-intro = Menawa transkripsi ngandhut kesalahan, mangga gunakake fungsi laporan kanggo nandhani. Babagan kesalahan kalebu:
 code-switching-tagging-error-1 = Tandha wacan utawa kapitalisasi sing salah
 code-switching-tagging-error-2 = Salah ketik
+code-switching-tagging-error-3 = Tembung-tembung sing ditulis nganggo aturan panulisan sing salah
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Nggunakake Aturan Panulisan sing Bener kanggo Saben Basa
+code-switching-orthography-explanation = Tulis saben tembung miturut ejaan basa asale. Tuladhane:
+code-switching-orthography-explanation-example-1 = Yen tembung "pawon" katon diucapake kaya ing basa Spanyol, kudune ditulis kaya ing basa Inggris, dudu "quichen".
 code-switching-orthography-explanation-example-2 = Yen tembung quinceaños diucapake ing basa Inggris, tulis tembung kui nganggo ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Gunakake Pangucapan kanggo Mbantu Nemtokake Basa
 code-switching-pronunciation-explanation = Sawetara tembung bisa uga katon padha ing rong basa kasebut nanging bisa uga diucapake kanthi beda. Rungokna pangucapane kanggo mbantu menehi tag kanthi bener. Contone: cable, taco, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Basa Inggris: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Basa Spanyol: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Menehi Tandha ing Token Tunggal
+code-switching-single-token-explanation = Sak yoken sing dipisahake spasi kudu ngemot luwih saka sak jengkal sing ditandai.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Tandha Wacan Adhedhasar Basa kang Cedhak
+code-switching-punctuation-tagging-explanation = Wenehi tandha wacan nganggo basa sing paling cedhak karo sing sisih kiwa. Tuladha:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>lan nalika</purple> Maria <purple>njerit marang aku yaiku</purple> <blue>amarga</blue> <purple>dheweke nyoba</purple> printear <blue>un</blue> <purple>mesen.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>nanging</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>apa wae.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Ati-ati karo sing kethokane podho
+code-switching-lookalikes-explanation = Sawetara tembung katon kaya saka sak basa, nanging digunakake ing basa liyane. Tag adhedhasar makna lan panggunaan, dudu penampilan. Tuladha:
 code-switching-lookalikes-explanation-example-1 = "Footing" yen artine mlayu ing basa Spanyol > tandhai basa Spanyol
 code-switching-lookalikes-explanation-example-2 = "No problemo" digunakake ing basa Inggris > tag minangka basa Inggris
 # When Not to Tag Words
 code-switching-not-tag-header = Nalika Ora Perlu Menehi Tag Tembung
+code-switching-not-tag-explanation = Sawetara tembung ora kena ditag nganggo label basa, sanajan katon dicampur utawa diadaptasi. Mangkene carane nangani sawetara conto:
 code-switching-not-tag-proper-names = <bold>Jeneng Pribadi.</bold> Jeneng wong, panggonan, lan organisasi ora kena diwenehi tag. Tuladha:
 code-switching-not-tag-proper-names-example-1 = Wong: Maryam, Yahya
 code-switching-not-tag-proper-names-example-2 = Panggonan: Jogjakarta, Malang
@@ -306,3 +326,4 @@ code-switching-not-tag-interjections-example-4 = "Eh"
 reporting-content = Konten Laporan
 reporting-content-subheader = Pandhuan umum
 reporting-content-explanation-1 = Sampeyan kudu nandhani konten sing nyerang, mbebayani, utawa nguwatirake. Uga ora kudu ngemot informasi pribadi kaya nomer telpon utawa alamat. Konten kasebut bakal dibusak saka pengalaman sampeyan nganti tim Common Voice bisa mriksa lan nyelidiki luwih lanjut.
+reporting-content-explanation-2 = Kanggo nglaporake konten, pilih tombol "Laporan" lan pilih siji utawa kabeh pilihan: Konten sing Nyerang, Basa sing Beda, Informasi Pribadi sing Bisa Diidentifikasi, lan liyane. Saka kene, wenehana rincian luwih lengkap babagan alesan sampeyan nglaporake konten kasebut ing area teks. Banjur, kirim Laporan kanthi ngeklik tombol Laporan.
