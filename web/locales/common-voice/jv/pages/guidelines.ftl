@@ -289,11 +289,13 @@ code-switching-lookalikes-explanation-example-1 = "Footing" yen artine mlayu ing
 code-switching-lookalikes-explanation-example-2 = "No problemo" digunakake ing basa Inggris > tag minangka basa Inggris
 # When Not to Tag Words
 code-switching-not-tag-header = Nalika Ora Perlu Menehi Tag Tembung
+code-switching-not-tag-proper-names = <bold>Jeneng Pribadi.</bold> Jeneng wong, panggonan, lan organisasi ora kena diwenehi tag. Tuladha:
 code-switching-not-tag-proper-names-example-1 = Wong: Maryam, Yahya
 code-switching-not-tag-proper-names-example-2 = Panggonan: Jogjakarta, Malang
 code-switching-not-tag-proper-names-example-3 = Merek/Organisasi: Honda, Indomie
 code-switching-not-tag-mixed-words = <bold>Tembung Campuran utawa Adaptasi Morfologis.</bold> Aja menehi tag tembung sing nyampur basa utawa duwe pungkasan tambahan saka basa liya. Contone:
 code-switching-not-tag-mixed-words-example = Ing ngendi tembung asline saka basa Inggris nanging akhirane saka basa Spanyol: "parkear", "printearlo"
+code-switching-not-tag-interjections = <bold>Tembung seru/emosi.</bold> Tembung seru/emosi lan tembung pangisi, saka basa apa bae, kudune tetep <bold>tanpa tandha.</bold> Tuladha:
 code-switching-not-tag-interjections-example-1 = "Eh"
 code-switching-not-tag-interjections-example-2 = "Ora"
 code-switching-not-tag-interjections-example-3 = "Iya"
@@ -303,3 +305,4 @@ code-switching-not-tag-interjections-example-4 = "Eh"
 
 reporting-content = Konten Laporan
 reporting-content-subheader = Pandhuan umum
+reporting-content-explanation-1 = Sampeyan kudu nandhani konten sing nyerang, mbebayani, utawa nguwatirake. Uga ora kudu ngemot informasi pribadi kaya nomer telpon utawa alamat. Konten kasebut bakal dibusak saka pengalaman sampeyan nganti tim Common Voice bisa mriksa lan nyelidiki luwih lanjut.
