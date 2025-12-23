@@ -589,4 +589,14 @@ export const VARIANTS: Variant[] = [
     variant_name: 'Ащхъарауа',
     variant_token: 'abq-ashkhara',
   },
+  {
+    locale_name: 'lrl',
+    variant_name: 'بندری',
+    variant_token: 'lrl-bandari',
+  },
+  {
+    locale_name: 'lrl',
+    variant_name: 'اچومی',
+    variant_token: 'lrl-achomi',
+  },
 ]
