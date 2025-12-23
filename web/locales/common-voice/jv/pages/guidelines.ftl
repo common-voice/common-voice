@@ -289,6 +289,8 @@ code-switching-answer-dont-translate-repeat = <bold>Terjemahake utawa baleni kab
 # Transcribing
 code-switching-transcribe-subheader = Transkripsi
 code-switching-transcribe-intro = Nalika nyalin tanggapan sing kalebu alih kode, wakilana basa pawicara kaya sing diucapake - tanpa mbenerake, nyunting, utawa nyederhanakake. Iki kanggo kabeh owah-owahan antarane basa, wicara informal, lan tembung campuran basa.
+code-switching-transcribe-do-1 = Puter segmen cendhak kaping pirang-pirang kanggo nyekel owah-owahan sing alus
+code-switching-transcribe-do-2 = Mandheg sedhela sawise saben ukara kanggo mriksa maneh ana owah-owahan utawa tembung campuran
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Nyekel Pidato Persis Kaya Sing Diucapake
 code-switching-capture-explanation = Transkripsi rong basa kasebut kaya sing katon/dirungokake. Aja "ndandani" basa kasebut utawa ngganti dadi mung sak basa.
