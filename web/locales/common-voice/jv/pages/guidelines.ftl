@@ -266,6 +266,7 @@ code-switching-authentic-speak-example = "Aku wis ngandhani dheweke yen aku ora 
 code-switching-use-both-languages = <bold>Gunakake rong basa kasebut yen biasane sampeyan ngucapake kaya ngono.</bold> Sanajan mung ngganti siji utawa loro tembung wae migunani. Tuladha:
 code-switching-use-both-languages-example = "Dheweke nesu banget amarga aku ora nelpon dheweke maneh."
 code-switching-authentic-direct-quotes = <bold>Termasuk kutipan langsung utawa dialog.</bold> Ucapake persis apa sing diomongake wong liya, dudu versi sing diganti utawa resmi. Tuladha:
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tú crees que esto es un juego?' lan aku kaya, 'Oke chill!'"
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Aja Mikir Kakehan utawa Ngedit Kakehan
 # Transcribing
