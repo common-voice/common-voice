@@ -211,6 +211,10 @@ review-the-transcription-subheader = Pandhuan umum
 
 code-switching = Alih Kode
 adding-a-question = Nambah Pitakonan
+# Adding a Question
+code-switching-adding-question-subheader = Apa sing ndadekake pitakonan dadi apik?
+code-switching-adding-question-explanation = Pitakonan sing apik kanggo kumpulan data partisipasi publik kudune:
+code-switching-adding-question-criteria-1 = Gampang dingerteni lan ditanggapi
 code-switching-adding-question-criteria-2 = Dadi relevan kanthi umum
 code-switching-adding-question-criteria-3 = Ora nggunakake, utawa njaluk, basa sing mbebayani utawa nyinggung
 code-switching-adding-question-note = Sampeyan uga bisa nimbangke nyakup macem-macem konteks lan domain.
@@ -218,6 +222,7 @@ code-switching-adding-question-note = Sampeyan uga bisa nimbangke nyakup macem-m
 code-switching-types-subheader = Apa maceme pitakonan sing arep ditambahake?
 code-switching-use-bilingual-prompts-header = Gunakake Pandhuan Dwibasa
 code-switching-use-bilingual-prompts-explanation = Gunakna pitakon dwibasa sing nggabungake rong basa kasebut ing pitakonan sampeyan: Contone:
+code-switching-use-bilingual-prompts-explanation-example = "Apa sampeyan wis mulih nalika dina iku?"
 code-switching-ask-bilingual-contexts-header = Takon Babagan Konteks Dwibasa
 code-switching-ask-bilingual-contexts-explanation = Gunakna kahanan ing ngendi rong basa kasebut umum digunakake (kayata, omah, sekolah, acara komunitas). Contone:
 code-switching-ask-bilingual-contexts-explanation-example = "Nalika kowe ngobrol karo dulurmu, apa kowe nyampur basa Spanyol lan Inggris?"
@@ -276,6 +281,17 @@ code-switching-capture-header = Nyekel Pidato Persis Kaya Sing Diucapake
 code-switching-capture-explanation = Transkripsi rong basa kasebut kaya sing katon/dirungokake. Aja "ndandani" basa kasebut utawa ngganti dadi mung sak basa.
 # Include filler words and markers
 code-switching-filler-header = Kalebu tembung pangisi lan tandha
+code-switching-filler-explanation = Tembung-tembung kaya "hm," "koyo," "eh," "weruh po ora," lan "dadi" iku nduweni teges. Tuladha: "Dadi, um, aku ngomong karo dheweke, ra sido, menawa mengko bae.'"
+# Use standard spelling for each language
+code-switching-spelling-header = Gunakake cara nulis sing standar kanggo saben basa
+code-switching-spelling-explanation = Coba ejanen tembung kanthi bener kanggo saben basa, kajaba sing ngucapake kanthi cetha nganggo cara sing ora standar.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Aja Ngresiki utawa Nyederhanakake Basa
+code-switching-cleanup-1 = Terjemahake utawa tulis langsung – tulis apa sing diomongake pamicara, dudu apa sing "karepe".
+code-switching-cleanup-2 = Tata basa utawa pangucapan sing "bener" – njaga panggunaan alami pamicara.
+code-switching-cleanup-3 = Lewati tandha hubung sing katon sepele utawa cilik - sanajan tembung sing disilih uga penting.
+code-switching-cleanup-4 = Lebokna tandha wacan sing bisa ngowahi tegese – jaga alur supaya tetep alami.
+code-switching-cleanup-5 = Anggep sampeyan ngerti basa saben tembung - adhedhasar tandaha ing panggawene.
 # Tagging
 code-switching-tagging-subheader = Menehi Tag
 code-switching-tagging-error-intro = Menawa transkripsi ngandhut kesalahan, mangga gunakake fungsi laporan kanggo nandhani. Babagan kesalahan kalebu:
