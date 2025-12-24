@@ -28,7 +28,7 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Вы пока не проверили ни одного предложения.
-        [one] Вы проверили { $sentences } предложение. Спасибо вам!
+        [one] Вы проверили 1 предложение. Спасибо вам!
         [few] Вы проверили { $sentences } предложения. Спасибо вам!
        *[many] Вы проверили { $sentences } предложений. Спасибо вам!
     }
