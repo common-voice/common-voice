@@ -12,7 +12,7 @@ import { importTargetSegments } from './lib/model/db/import-target-segments'
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity'
 import Model from './lib/model'
 import API from './lib/api'
-import { redis, useRedis, redlock } from './lib/redis'
+import { redis, useRedis, redlock } from './lib/redis-cache'
 import { APIError, getElapsedSeconds } from './lib/utility'
 import { getConfig } from './config-helper'
 import fetchLegalDocument from './fetch-legal-document'
@@ -249,10 +249,10 @@ export default class Server {
       // directly add sentences on the CV platform. However, it is still
       // valuable to set up a local development environment.
       if ('local' == getConfig().ENVIRONMENT && getConfig().IMPORT_SENTENCES) {
-        const import_languages = getConfig().IMPORT_LANGUAGES;
+        const import_languages = getConfig().IMPORT_LANGUAGES
         await importSentences(
           await this.model.db.mysql.createPool(),
-          import_languages ? import_languages.trim().split(',') : [],
+          import_languages ? import_languages.trim().split(',') : []
         )
       }
 
@@ -340,7 +340,11 @@ export default class Server {
     // we need to check again after the lock was acquired, as another instance
     // might've already migrated in the meantime
     if (await this.hasMigrated()) {
-      await lock.unlock()
+      try {
+        await lock.unlock()
+      } catch (unlockError) {
+        console.warn('Error releasing maintenance lock:', unlockError)
+      }
       return
     }
 
@@ -349,9 +353,14 @@ export default class Server {
       await redis.set(MAINTENANCE_VERSION_KEY, this.version)
     } catch (e) {
       this.print('error during maintenance', e)
+    } finally {
+      // Always try to release lock, even if maintenance failed
+      try {
+        await lock.unlock()
+      } catch (unlockError) {
+        console.warn('Error releasing maintenance lock:', unlockError)
+      }
     }
-
-    await lock.unlock()
   }
 
   /**
