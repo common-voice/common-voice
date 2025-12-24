@@ -69,6 +69,7 @@ review-questions = Ulas Patarosan
 transcribe-audio = Transkrip Audio
 press-and-stories = Pers sareng Carita
 community-and-languages = Komunitas sareng Basa
+coming-soon = Bade Sumping
 about-us = Tentang Kami
 scripted-speech = BIANTARA NASKAH
 spontaneous-speech = BIANTARA SPONTAN
@@ -106,6 +107,21 @@ action-items-section-subtitle = Saha waé tiasa ngalestarikeun, ngarévitalisasi
 scripted-card-header = Biantara Naskah
 scripted-card-content = Baca kalimah kalawan tarik dina basa anjeun sareng nyumbang kana kumpulan data biantara partisipasi publik anu paling beragam di dunya.
 spontaneous-card-header = Biantara Spontan
+language-text-card-header = Teks Basa
+coming-soon = Bade Sumping
+add-text = Tambih Teks
+answer = Waler
+
+## Community section
+
+join-discord-community = Gabung ka Komunitas Discord
+# label for button
+join-discord-community-action = Gabung di Discord
+find-us-on-matrix = Tepangan di Matrix
+ask-mozilla-share = Nyuhunkeun Mozilla supados ngabagikeun acara anjeun
+# label for button
+ask-mozilla-share-action = Bagikeun acara anjeun
+download-contribution-certificate = Unduh sertipikat kontribusi anjeun
 
 ## Get involved section
 
