@@ -91,6 +91,7 @@ dv = Dhivehi
 dyu = Dioula
 ebr = Ebrie
 ee = Ewe
+efk = Efik
 eko = Koti
 el = Griechisch
 en = Englisch
