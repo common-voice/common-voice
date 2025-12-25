@@ -323,7 +323,6 @@ export async function performHealthCheck(): Promise<void> {
       })
     }
   } catch (error) {
-    console.warn(`[LazyCache] Redis ping failed: ${error.message}`)
     consecutiveFailures++
 
     if (
@@ -337,11 +336,13 @@ export async function performHealthCheck(): Promise<void> {
       )
       cacheStrategy = 'memory'
       reportError(error as Error, 'health-check-failure')
-    } else {
+    } else if (previousStrategy === 'redis') {
+      // Only log failures when still on Redis (trying to avoid memory fallback)
       console.warn(
-        `[LazyCache] Failure ${consecutiveFailures}/${FAILURE_THRESHOLD}, will switch if continues`
+        `[LazyCache] Redis ping failed (${consecutiveFailures}/${FAILURE_THRESHOLD}): ${error.message}`
       )
     }
+    // When already on memory, silently wait for Redis to recover (no spam)
   }
 }
 
