@@ -13,6 +13,13 @@ This module provides:
 - Set-based caching for ID lists
 - Health monitoring and circuit breaker pattern
 
+## Priorities of Current Design & Settings
+
+1. Redis always - shared cache, no thundering herd
+2. Serve stale data - when lock held by another pod (and stale data possible - i.e. statistics)
+3. Wait up to 60s for Redis to recover
+4. Memory cache - only when Redis truly unreachable
+
 ## Tests
 
 ### Unit Tests
