@@ -205,7 +205,7 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
     }
 
     // Time to prefetch!
-    const cacheKey = key.replace(/\{.*\}$/, '') // Extract base key name for logging
+    const cacheKey = key.replace(/\{.*$/, '') // Extract base key name for logging
     console.log(
       `[LazyCache] Proactive prefetch triggered for ${cacheKey}: age=${(
         age / TimeUnits.MINUTE
