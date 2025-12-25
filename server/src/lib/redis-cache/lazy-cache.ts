@@ -498,12 +498,11 @@ function redisCache<T, S>(
 
   const {
     prefetch: prefetchEnabled = false,
-    // Default: prefetch at 50% of TTL, but ensure it's after lock duration to avoid race
-    // If TTL=1hr and lock=35min, use max(30min, 40min) = 40min before expiry
-    prefetchBefore = Math.max(
-      timeMs * 0.5,
-      lockDurationMs + 5 * TimeUnits.MINUTE
-    ),
+    // Default: trigger when 1.1× lock duration remains before expiry
+    // This scales with lock time and works for any TTL
+    // Example: TTL=10min, lock=5min → prefetchBefore=5.5min → trigger at age 4.5min
+    // Example: TTL=60min, lock=30min → prefetchBefore=33min → trigger at age 27min
+    prefetchBefore = lockDurationMs * 1.1,
   } = prefetchOptions
 
   return async (...args): Promise<T> => {

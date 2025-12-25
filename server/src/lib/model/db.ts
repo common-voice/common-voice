@@ -585,7 +585,7 @@ export default class DB {
       10 * TimeUnits.MINUTE, // Increase cache duration considerably from 1 min
       5 * TimeUnits.MINUTE, // Now we have much much better fetch time as we removed RAND(), measured <1 sec, but let's cover concurrency
       false, // no stale data
-      { prefetch: true } // Enable prefetch with defaults
+      { prefetch: true, prefetchBefore: 4.5 * TimeUnits.MINUTE } // Enable prefetch with safety margin
     )()
 
     //filter out users own clips
