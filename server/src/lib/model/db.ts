@@ -572,7 +572,7 @@ export default class DB {
     - Avg. query time: 2.98 secs - Worst case: 2 min 56 secs (a later measure was 4.3 min)
     - Avg rows scanned: 434,741 - Avg rows returned: 9,243
     => Worst case is caused by large number of records which are not used at all (happens in prominent languages)...
-    Most of the time use of RAND() in SQL result in too many row scanns, thus IO delays - if the LIMIT is large.
+    Most of the time use of RAND() in SQL result in too many row scans, thus IO delays - if the LIMIT is large.
     Thus, in this implementation we moved randomization to code.
     */
     const cachedClips: DBClip[] = await lazyCache(
@@ -584,8 +584,8 @@ export default class DB {
       },
       10 * TimeUnits.MINUTE, // Increase cache duration considerably from 1 min
       5 * TimeUnits.MINUTE, // Now we have much much better fetch time as we removed RAND(), measured <1 sec, but let's cover concurrency
-      false, // no stale data
-      { prefetch: true, prefetchBefore: 4.5 * TimeUnits.MINUTE } // Enable prefetch with safety margin
+      false // no stale data
+      // No prefetching, to retire old caches without contributors
     )()
 
     //filter out users own clips
