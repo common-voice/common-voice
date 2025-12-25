@@ -11,6 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = اپلوډ ناکام شو، مهرباني وکړئ بیا هڅه وکړئ.
 add-question-too-many-questions-error = له ۲۵ پوښتنو زیات شو. د پوښتنو شمېر کم کړئ او بیا هڅه وکړئ.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions }  پوښتنه راټوله شوې. د پوښتنو ورگډولو لپاره زموږ <guidelinesLink>لارښود<guidelinesLink/> مخونه وگورئ
+       *[other] { $uploadedQuestions }  پوښتنې راټولې شوې. د پوښتنو ورگډولو لپاره زموږ <guidelinesLink>لارښود<guidelinesLink/> مخونه وگورئ
+    }
 # Guidelines
 add-question-guidelines-title = زه کومې پوښتنې اضافه کولای شم؟
 do-section-title = وکړه
