@@ -6,11 +6,8 @@ export const ERROR_REPORT_INTERVAL = 60 * TimeUnits.SECOND // Report errors once
 export const PREFETCH_CHECK_INTERVAL = 5 * TimeUnits.MINUTE // Check every 5 minutes
 
 // Failure thresholds
-export const FAILURE_THRESHOLD = 5 // Require 5 consecutive failures before switching strategies
+export const FAILURE_THRESHOLD = 12 // Require 12 consecutive failures (60s) before switching to memory
 
 // Cold-start detection
 export const COLD_START_PERIOD = 2 * TimeUnits.MINUTE // First 2 minutes are "cold start"
 export const STARTUP_TIME = Date.now()
-
-// Health check timeout
-export const HEALTH_CHECK_TIMEOUT = 10000 // 10 seconds (increased)

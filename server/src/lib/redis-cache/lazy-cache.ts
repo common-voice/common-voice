@@ -15,7 +15,6 @@ import {
   ERROR_REPORT_INTERVAL,
   PREFETCH_CHECK_INTERVAL,
   FAILURE_THRESHOLD,
-  HEALTH_CHECK_TIMEOUT,
 } from './constants'
 import { isDebugEnabled, isColdStart } from './config'
 import { DataRefreshInProgressError } from './types'
@@ -50,6 +49,7 @@ let prefetchCheckInterval: NodeJS.Timeout | null = null
 let consecutiveFailures = 0
 
 // Initialize cache strategy once at module load and start health monitoring
+// Skip if running in Bull worker process (sandboxed processor)
 useRedis.then(hasRedis => {
   cacheStrategy = hasRedis ? 'redis' : 'memory'
   console.log('[LazyCache] Initial cache strategy:', cacheStrategy)
@@ -57,8 +57,17 @@ useRedis.then(hasRedis => {
   // Always start health monitoring to detect when Redis becomes available
   startHealthMonitoring()
 
-  // Start proactive prefetch checking
-  startPrefetchMonitoring()
+  // Only start proactive prefetch in main server process, not in Bull workers
+  // Bull workers are sandboxed child processes that shouldn't run background timers
+  const isBullWorker =
+    process.argv.includes('--color') || process.send !== undefined
+  if (!isBullWorker) {
+    startPrefetchMonitoring()
+  } else {
+    console.log(
+      '[LazyCache] Running in worker process - skipping prefetch monitoring'
+    )
+  }
 })
 
 function reportError(error: Error, context: string): void {
@@ -300,17 +309,9 @@ export async function performHealthCheck(): Promise<void> {
   const previousStrategy = cacheStrategy
 
   try {
-    // Increased timeout for GCP networks which can be slow
-    // 3s was too aggressive and caused false positives
-    const pingPromise = redis.ping()
-    const timeoutPromise = new Promise((_, reject) =>
-      setTimeout(
-        () => reject(new Error('Redis health check timeout')),
-        HEALTH_CHECK_TIMEOUT
-      )
-    )
-
-    await Promise.race([pingPromise, timeoutPromise])
+    // Simple ping with built-in commandTimeout (10s configured in redis.ts)
+    // No need for manual timeout - ioredis handles it
+    await redis.ping()
     consecutiveFailures = 0
 
     if (previousStrategy === 'memory') {
@@ -330,17 +331,18 @@ export async function performHealthCheck(): Promise<void> {
       consecutiveFailures >= FAILURE_THRESHOLD
     ) {
       console.error(
-        `[LazyCache] CRITICAL: Switching to memory after ${consecutiveFailures} failures - serving stale data to prevent DB overload`
+        `[LazyCache] CRITICAL: Switching to memory after ${consecutiveFailures} failures (${
+          consecutiveFailures * (HEALTH_CHECK_INTERVAL / 1000)
+        }s) - serving stale data to prevent DB overload`
       )
       cacheStrategy = 'memory'
       reportError(error as Error, 'health-check-failure')
     } else {
       console.warn(
-        `[LazyCache] Failure ${consecutiveFailures}, not switching yet`
+        `[LazyCache] Failure ${consecutiveFailures}/${FAILURE_THRESHOLD}, will switch if continues`
       )
     }
   }
-  lastHealthCheck = Date.now()
 }
 
 async function getCacheStrategy(): Promise<'redis' | 'memory'> {
