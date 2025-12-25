@@ -11,7 +11,7 @@ Redis set based caching class for simple lists of numbers and integers
 
 Example usage:
 
-import { LazySetCache } from './lazy-set-cache'
+import { LazySetCache } from './redis-cache/lazy-set-cache'
 import { TimeUnits } from 'common'
 
 async function getAllClipIdsUserSkipped(user_id: number): Promise<any[]> {
@@ -47,7 +47,7 @@ async function withRedisLock<T>(
     return await fn()
   } finally {
     // eslint-disable-next-line @typescript-eslint/no-empty-function
-    await lock.unlock().catch(() => { })
+    await lock.unlock().catch(() => {})
   }
 }
 
@@ -103,44 +103,84 @@ export class LazySetCache {
   // Function to get random count members from a set
   // `count > 0` returns up to `count` distinct elements
   // `count < 0` returns abs(count) elements allowing duplicates
+  // `pop = true` removes elements from the set after retrieval
   static async getRandom(
     key: string,
-    count: number
+    count: number,
+    pop = false
   ): Promise<(number | string)[]> {
+    if (pop) {
+      const raw = await redis.spop(key, count)
+      if (!raw) return []
+      // spop can return a single string or an array depending on count
+      const items = Array.isArray(raw) ? raw : [raw]
+      return items.map(v => {
+        const n = Number(v)
+        return isNaN(n) ? v : n
+      })
+    }
     return await redis.srandmember(key, count)
   }
 
   // Function to get random count members from a set with filtering
-  // Uses a suplied filter function (e.g. includes, !includes, equal, not equal) which returns a boolean
+  // Uses a supplied filter function (e.g. includes, !includes, equal, not equal) which returns a boolean
+  // `pop = true` removes matching elements from the set after retrieval
   static async getRandomWithFiltering<T extends string | number>(
     key: string,
     count: number,
-    filterFn: (item: T) => boolean
+    filterFn: (item: T) => boolean,
+    pop = false
   ): Promise<T[]> {
     const maxTries = 10
     const MAX_RAND = 30
-    const results = new Set<T>()
+    const results: T[] | Set<T> = pop ? [] : new Set<T>()
     let tries = 0
 
-    while (results.size < count && tries < maxTries) {
-      const toFetch = Math.max(count * 2, MAX_RAND) // fetch more than needed
+    while (
+      (pop ? (results as T[]).length : (results as Set<T>).size) < count &&
+      tries < maxTries
+    ) {
+      const toFetch = Math.max(count * 2, MAX_RAND)
       const sample = await redis.srandmember(key, toFetch)
-      // no more
-      if (!sample || sample.length === 0) break
-      // add more until filled
-      for (const raw of sample) {
-        // Try parsing as number if T might be number
-        const item = isNaN(Number(raw)) ? (raw as T) : (Number(raw) as T)
 
-        if (filterFn(item)) {
-          results.add(item)
-          if (results.size >= count) break
+      if (!sample || sample.length === 0) break
+
+      if (pop) {
+        const toRemove: T[] = []
+        for (const raw of sample) {
+          const item = isNaN(Number(raw)) ? (raw as T) : (Number(raw) as T)
+
+          if (filterFn(item) && !(results as T[]).includes(item)) {
+            toRemove.push(item)
+            if ((results as T[]).length + toRemove.length >= count) break
+          }
+        }
+
+        // Remove the filtered items from the set
+        if (toRemove.length > 0) {
+          await redis.srem(key, ...toRemove.map(String))
+          ;(results as T[]).push(...toRemove)
+        }
+      } else {
+        // Non-pop mode - just collect unique items
+        for (const raw of sample) {
+          const item = isNaN(Number(raw)) ? (raw as T) : (Number(raw) as T)
+
+          if (filterFn(item)) {
+            ;(results as Set<T>).add(item)
+            if ((results as Set<T>).size >= count) break
+          }
         }
       }
-      // more needed
+
+      if ((pop ? (results as T[]).length : (results as Set<T>).size) >= count)
+        break
       tries++
     }
-    return Array.from(results).slice(0, count)
+
+    return pop
+      ? (results as T[]).slice(0, count)
+      : Array.from(results as Set<T>).slice(0, count)
   }
 
   /*main function as static method*/
@@ -148,7 +188,7 @@ export class LazySetCache {
     key: string,
     fetchFn: () => Promise<(number | string)[]>,
     cacheDurationMs: number,
-    lockDurationMs = TimeUnits.MINUTE // TODO: Adjust this after finetuning
+    lockDurationMs: number = TimeUnits.MINUTE // TODO: Adjust this after finetuning
   ): Promise<(number | string)[]> {
     const currentCount = await redis.scard(key)
     if (currentCount > 0) {
@@ -158,11 +198,11 @@ export class LazySetCache {
         return isNaN(n) ? v : n
       })
     }
-    await withRedisLock(key, lockDurationMs, async () => {
+    // Acquire lock, fetch fresh data, fill cache, and return the data
+    return await withRedisLock(key, lockDurationMs, async () => {
       const fresh = await fetchFn()
       await LazySetCache.fill(key, fresh, cacheDurationMs)
       return fresh
     })
-    return []
   }
 }

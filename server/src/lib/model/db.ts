@@ -17,7 +17,7 @@ import {
 import lazyCache, {
   redisSetAddManyWithExpiry,
   redisSetMembers,
-} from '../lazy-cache'
+} from '../redis-cache'
 import { option as O, task as T, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { DatasetStatistics } from '../../core/datasets/types/dataset'

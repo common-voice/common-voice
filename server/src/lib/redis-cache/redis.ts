@@ -1,6 +1,6 @@
 import * as Redis from 'ioredis'
 import * as Redlock from 'redlock'
-import { getConfig } from '../config-helper'
+import { getConfig } from '../../config-helper'
 
 // <=== Configure for automatic recovery and resilience
 export const redis = new Redis(getConfig().REDIS_URL, {
@@ -30,12 +30,12 @@ redis.on('reconnecting', delay =>
 redis.on('end', () => console.warn('[Redis] Connection ended'))
 
 export const redlock = new Redlock([redis], {
-  // More conservative retry strategy to distinguish "lock held" from "Redis down"
-  // Lock acquisition should retry long enough to handle Redis slowness
-  // but fail quickly if another pod truly holds the lock
-  retryCount: 10, // Try harder - 10 retries over ~5-10 seconds
-  retryDelay: 500, // Wait longer between retries (500ms base)
-  retryJitter: 200, // Randomize 500-700ms to prevent thundering herd
+  // Retry strategy balanced for cache operations
+  // Goal: Stay on Redis as long as possible to avoid memory cache issues
+  // But don't exceed frontend timeout limits (~30-60s)
+  retryCount: 30, // 30 attempts over 30-45 seconds
+  retryDelay: 1000, // 1s base delay between retries
+  retryJitter: 500, // Randomize 1-1.5s to reduce contention
   // Drift factor for clock skew across Redis instances
   driftFactor: 0.01,
 })
