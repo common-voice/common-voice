@@ -2,7 +2,7 @@ import { SHA256 } from 'crypto-js'
 
 import { getLocaleId, getParticipantSubquery } from './db'
 import { getConfig } from '../../config-helper'
-import lazyCache from '../lazy-cache'
+import lazyCache from '../redis-cache'
 import { getMySQLInstance } from './db/mysql'
 import Bucket from '../bucket'
 import Model from '../model'
@@ -198,11 +198,10 @@ const getGlobalClipLeaderboard = lazyCache(
   },
   LEADERBOARD_CACHE_DURATION,
   TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
-  true, // Allow stale during refresh
+  true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
   {
-    prefetch: true, // ONLY global triggers prefetch to prevent thundering herd
-    windowSize: 24, // Track last 24 query times for P95 calculation
-    safetyMultiplier: 1.5, // Trigger at TTL - (P95QueryTime × 1.5)
+    prefetch: true,
+    prefetchBefore: 25 * TimeUnits.MINUTE, // Prefetch 25min before 1hr expiry
   }
 )
 
@@ -217,8 +216,9 @@ const getLocaleClipLeaderboard = (locale: string) => {
     },
     LEADERBOARD_CACHE_DURATION,
     TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
-    true // Allow stale during refresh
+    true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
     // No prefetch - only global view prefetches to avoid thundering herd
+    {}
   )
 }
 
@@ -235,11 +235,10 @@ const getGlobalVoteLeaderboard = lazyCache(
   },
   LEADERBOARD_CACHE_DURATION,
   TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
-  true, // Allow stale during refresh
+  true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
   {
-    prefetch: true, // ONLY global triggers prefetch to prevent thundering herd
-    windowSize: 24, // Track last 24 query times for P95 calculation
-    safetyMultiplier: 1.5, // Trigger at TTL - (P95QueryTime × 1.5)
+    prefetch: true,
+    prefetchBefore: 25 * TimeUnits.MINUTE, // Prefetch 25min before 1hr expiry
   }
 )
 
@@ -254,8 +253,9 @@ const getLocaleVoteLeaderboard = (locale: string) => {
     },
     LEADERBOARD_CACHE_DURATION,
     TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
-    true // Allow stale during refresh
+    true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
     // No prefetch - only global view prefetches to avoid thundering herd
+    {}
   )
 }
 
