@@ -5,11 +5,12 @@ how-does-it-work-text = Culla participaziun collectiva creein nus in'unitad da d
 
 ## How does it work section
 
+about-sentence-collection-title = Collecziun da construcziuns
 about-speak = Discuora
 about-speak-text = Ils contribuiders registreschan lur vusch cun preleger construcziuns contribuidas en ina banca da datas.
 about-listen-queue = Colonna da spetga per tedlar
 about-listen-queue-text = Las registraziuns vegnan transmessas en ina colonna da spetga, nua ch'ellas vegnan preparadas per tedlar.
-about-listen = tedlar
+about-listen = Tedlar
 about-listen-text = Ils utilisaders confirmeschan l'exactadad dallas registraziuns e controlleschan, sch'il plidader ha legiu correctamein la construcziun.
 about-is-it-valid = Ei la registraziun correcta?
 about-is-it-valid-text = Ina registraziun vocala ei marcada sco "valeivla", sch'in utilisader valetescha ella cun in Gie.

@@ -149,3 +149,5 @@ email-opt-in-info-title = S'annunzia per la gliesta dad e-mails da Common Voice
 email-opt-in-info-sub-with-challenge = Jeu less retscheiver e-mails, per exempel regurdientschas da finamiras, mes rapports da progress e newsletters da Common Voice.
 indicates-required = * indichescha in caum obligatori
 not-available-abbreviation = buca disponibel
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Copiar
