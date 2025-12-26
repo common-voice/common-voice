@@ -69,6 +69,7 @@ review-questions = Ulas Patarosan
 transcribe-audio = Transkrip Audio
 press-and-stories = Pers sareng Carita
 community-and-languages = Komunitas sareng Basa
+coming-soon = Bade Sumping
 about-us = Tentang Kami
 scripted-speech = BIANTARA NASKAH
 spontaneous-speech = BIANTARA SPONTAN
@@ -105,3 +106,25 @@ action-items-section-title = Common Voice nyaéta platform sumber terbuka gratis
 action-items-section-subtitle = Saha waé tiasa ngalestarikeun, ngarévitalisasi, sareng ningkatkeun basa na ku cara ngabagikeun, nyiptakeun, sareng ngatur kumpulan data téks sareng ucapan.
 scripted-card-header = Biantara Naskah
 scripted-card-content = Baca kalimah kalawan tarik dina basa anjeun sareng nyumbang kana kumpulan data biantara partisipasi publik anu paling beragam di dunya.
+spontaneous-card-header = Biantara Spontan
+language-text-card-header = Teks Basa
+coming-soon = Bade Sumping
+add-text = Tambih Teks
+answer = Waler
+
+## Community section
+
+join-discord-community = Gabung ka Komunitas Discord
+# label for button
+join-discord-community-action = Gabung di Discord
+find-us-on-matrix = Tepangan di Matrix
+ask-mozilla-share = Nyuhunkeun Mozilla supados ngabagikeun acara anjeun
+# label for button
+ask-mozilla-share-action = Bagikeun acara anjeun
+download-contribution-certificate = Unduh sertipikat kontribusi anjeun
+
+## Get involved section
+
+read-sentences-link = Baca Kalimah
+validate-readings-link = Cek pariksa bacaan
+contribute-link = Nyumbang kana korpus teks

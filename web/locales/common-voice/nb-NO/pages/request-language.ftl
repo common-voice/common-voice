@@ -18,11 +18,9 @@ request-language-google-recaptcha-required = reCAPTCHA kreves hvis du vil fortse
 request-language-google-recaptcha-error = Noe gikk galt med reCAPTCHA. Prøv på nytt.
 # Success page
 request-language-success-heading = Takk skal du ha! Du har sendt en ny språkforespørsel
-request-language-success-list-1 =
-    Du mottar snart en e-post med en kort forklaring på
-    trinnene for å få språket ditt lagt til Common Voice
+request-language-success-list-1 = Du mottar snart en e-post fra vår fellesskapsansvarlige med en kort forklaring på trinnene for å få språket ditt lagt til Common Voice
 request-language-success-list-2 =
-    Vår samfunnsansvarlige vil kontakte deg for å tilby
+    Vår fellesskapsansvarlige vil kontakte deg for å tilby
     ekstra støtte, og for å gi deg beskjed om det er
     allerede er et fellesskap som jobber med språket ditt
 request-language-success-list-3 =

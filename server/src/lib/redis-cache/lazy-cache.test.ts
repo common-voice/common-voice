@@ -6,10 +6,10 @@ import lazyCache, {
   getErrorStats,
   resetCacheState,
   stopHealthMonitoring,
-} from '../lib/lazy-cache'
+} from './index'
 
 // Mock Redis with proper event emitter methods
-jest.mock('../lib/redis', () => {
+jest.mock('./redis', () => {
   const mockRedis = {
     ping: jest.fn().mockResolvedValue('PONG'),
     get: jest.fn(),
@@ -52,7 +52,7 @@ const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 const randomString = () => Math.random().toString(36).substring(7)
 
 describe('lazyCache', () => {
-  const { redis, redlock } = require('../lib/redis')
+  const { redis, redlock } = require('./redis')
   const Sentry = require('@sentry/node')
 
   beforeEach(async () => {
@@ -118,7 +118,7 @@ describe('lazyCache', () => {
 })
 
 describe('lazyCache with Redis', () => {
-  const { redis, redlock } = require('../lib/redis')
+  const { redis, redlock } = require('./redis')
   const Sentry = require('@sentry/node')
 
   beforeEach(async () => {
@@ -256,7 +256,7 @@ describe('lazyCache with Memory', () => {
 
 // Simplified Sentry error reporting tests
 describe('Sentry reporting', () => {
-  const { redis } = require('../lib/redis')
+  const { redis } = require('./redis')
   const Sentry = require('@sentry/node')
 
   beforeEach(async () => {
@@ -277,7 +277,7 @@ describe('Sentry reporting', () => {
     // Mock Redis to fail
     redis.smembers.mockRejectedValue(new Error('Redis connection failed'))
 
-    const { redisSetMembers } = require('../lib/lazy-cache')
+    const { redisSetMembers } = require('./lazy-cache')
 
     // Don't await to avoid test failure from the error
     const promise = redisSetMembers('test-key').catch(() => {}) // Suppress error
@@ -323,7 +323,7 @@ describe('Cache utilities', () => {
 
   test('redisSetMembers returns empty array with memory strategy', async () => {
     forceCacheStrategy('memory')
-    const { redisSetMembers } = require('../lib/lazy-cache')
+    const { redisSetMembers } = require('./lazy-cache')
     const result = await redisSetMembers('test-key')
     expect(result).toEqual([])
   })

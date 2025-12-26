@@ -192,7 +192,169 @@ tags-disfluency-explanation =
     
     Ing basa Inggris, sawetara swara ragu-ragu sing umum yaiku "err", "um", "huh", lan liya-liyane.
 tags-unclear-explanation = Tembung utawa urutan tembung sing ora bisa dingerteni.
+tags-noise-explanation = Swara liyané, kaya swara speaker nalika watuk, swara klakson montor, swara barang sing nabrak mikropon, swara telpon muni, lan liya-liyané.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Lan banjur aku [noise] lunga preinan.
+    Nah, [noise] [ngguyu] iku dudu preinan [ngguyu]
+transcribe-the-audio-subheader-4-explanation-1 = Omongan Spontan lumrahé ngandhut wiwitan sing salah ing ngendi mung pecahan saka tembung lengkap sing diasilaké. Kanggo conto iki, tulung transkripsikno sing paling apik saka pecahan tembung kasebut lan pasang tanda hubung ing pungkasan tembung (-) kanggo nandhani tembung kasebut minangka wiwitan sing salah. Tuladha:
+transcribe-the-audio-subheader-4-explanation-1-example = Jenengé <underline>Jo-Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Kadhang pawicara bakal mbaleni tembung utawa fragmen tembung kaping pirang-pirang. Iki uga kudu ditranskripsi. Tuladha:
+transcribe-the-audio-subheader-4-explanation-2-example = Banjur aku menyang <underline>kasur- kamar turu
+transcribe-the-audio-subheader-5-explanation-1 = Omongan spontan mesthi bakal ana kesalahan tata basa. Iki kudune ora dibenerake nalika nyalin. Transkripsi kudu nggambarake omongan kanthi persis.
+transcribe-the-audio-subheader-5-explanation-2 = Pawicara bisa uga nggunakake basa sedina-dina (kayata, ing basa Inggris, "gonna", "cuz", lan liya-liyane) sing bisa uga ora dianggep bener kanthi formal. Iki kudune ditranskripsi apa anane, lan ora diganti karo padanan sing luwih formal.
+
+## Review the Transcription
+
+review-the-transcription = Mrikso Transkripsi
+review-the-transcription-subheader = Pandhuan umum
+review-the-transcription-explanation-1 = Umumé, disaranake supaya wong sing mriksa transkripsi ora padha karo wong sing nindakake transkripsi asli. Angel banget mriksa transkipsi sampeyan dhewe! Ndhuweni pirang-pirang baris pas mrikso supaya bisa mbantu nggawe jaminan kualitas luwih kuat, lan mbantu ngurangi bias lan masalah.
+review-the-transcription-explanation-2 = Priksa pandhuan transkripsi ing ndhuwur kanggo mesthekake yen transkripsi wis akurat. Sampeyan bisa menehi suntingan terus ngirim.
+review-the-transcription-explanation-3 = Maneh, sampeyan bisa nandhani konten sing nyerang, mbebayani, utawa nguwatirake, lan konten kasebut bakal dibusak saka pengalaman sampeyan nganti tim Common Voice bisa mriksa lan nyelidiki sabanjure.
 
 ## Code-Switching
 
+code-switching = Alih Kode
+adding-a-question = Nambah Pitakonan
+# Adding a Question
+code-switching-adding-question-subheader = Apa sing ndadekake pitakonan dadi apik?
+code-switching-adding-question-explanation = Pitakonan sing apik kanggo kumpulan data partisipasi publik kudune:
+code-switching-adding-question-criteria-1 = Gampang dingerteni lan ditanggapi
+code-switching-adding-question-criteria-2 = Dadi relevan kanthi umum
+code-switching-adding-question-criteria-3 = Ora nggunakake, utawa njaluk, basa sing mbebayani utawa nyinggung
+code-switching-adding-question-note = Sampeyan uga bisa nimbangke nyakup macem-macem konteks lan domain.
+# What types of questions to add
+code-switching-types-subheader = Apa maceme pitakonan sing arep ditambahake?
+code-switching-use-bilingual-prompts-header = Gunakake Pandhuan Dwibasa
+code-switching-use-bilingual-prompts-explanation = Gunakna pitakon dwibasa sing nggabungake rong basa kasebut ing pitakonan sampeyan: Contone:
+code-switching-use-bilingual-prompts-explanation-example = "Apa sampeyan wis mulih nalika dina iku?"
+code-switching-ask-bilingual-contexts-header = Takon Babagan Konteks Dwibasa
+code-switching-ask-bilingual-contexts-explanation = Gunakna kahanan ing ngendi rong basa kasebut umum digunakake (kayata, omah, sekolah, acara komunitas). Contone:
+code-switching-ask-bilingual-contexts-explanation-example = "Nalika kowe ngobrol karo dulurmu, apa kowe nyampur basa Spanyol lan Inggris?"
+code-switching-focus-emotional-header = Fokus ing Momen Emosional utawa Kahanan kang duwe resiko dhukur
+code-switching-focus-emotional-explanation = Wong kerep nggunakake kode nalika ngungkapke emosi utawa rasa urgensi. Contone:
+code-switching-focus-emotional-explanation-example = "Critakno apa sing dingendhikaake wong tuwa sampeyan nalika sampeyan ngandhani kabar gedhe — persis kaya sing diomongake wong tuwa sampeyan."
+code-switching-direct-quotes-header = Njaluk Penawaran Langsung utawa Pementasan Ulang
+code-switching-direct-quotes-explanation = Ajaken para peserta supaya niru kepiye sejatine omongane. Tuladha:
+code-switching-direct-quotes-explanation-example = "Apa tembung persis sampeyan pas sampeyan ngerti?"
+code-switching-cultural-topics-header = Pilih Topik Khusus Budaya
+code-switching-cultural-topics-explanation = Panganan, tradhisi, preinan, lan tindak-tanduk kulawarga biasane ngundang alih kode.
+code-switching-cultural-topics-explanation-example = "Kepiye sampeyan njelasake Día de los Muertos marang wong sing mung nganggo basa Inggris?"
+code-switching-informal-scenarios-header = Jelajahi Skenario sing Ora formal
+code-switching-informal-scenarios-explanation = Pacelathon karo kanca utawa SMS-an biasane kalebu owah-owahan sing luwih alami. Tuladha:
+code-switching-informal-scenarios-explanation-example = "Apa guyonan sing tansah digawe kanca-kanca sampeyan — lan kepiye carane ngomong?"
+# What to Avoid
+code-switching-avoid-subheader = Apa sing kudu dihindari
+code-switching-avoid-intro = Pitakonan sing bisa uga:
+code-switching-avoid-1 = Njaluk informasi pribadi sing bisa diidentifikasi
+code-switching-avoid-2 = Njaluk ujaran kebencian utawa sentimen sing ora cetho utawa nyinggung liyane
+code-switching-avoid-3 = Pitakonan sing bisa nyebabake wong nuduhake sing sensitif lan bisa micu respon
+code-switching-dont-header = Aja
+code-switching-dont-1 = Aja nggunakake basa sing kaku
+# Reviewing a Question
+code-switching-review-subheader = Mrikso Pitakonan
+code-switching-review-intro = Priksa manawa pitakonan kasebut cocok karo kriteria:
+code-switching-review-criterion-1 = Gampang dingerteni lan ditanggapi
+code-switching-review-criterion-2 = Dadi relevan kanthi umum
+code-switching-review-criterion-3 = Ora nggunakake, utawa njaluk, basa sing mbebayani utawa nyinggung
+code-switching-review-does-not-header = Lan <bold>ORA</bold> kalebu:
+code-switching-review-offensive-content = Konten sing nyinggung utawa informasi sensitif
+code-switching-answer-header = Konten sing nyinggung utawa informasi sensitif
+code-switching-review-no-1 = Pitakonan sing bisa njaluk informasi pribadi sing bisa dititeni
+code-switching-review-no-2 = Pitakonan sing bisa nuwuhake tembung kebencian utawa sentimen ora cetho utawa nyinggung liyane
+code-switching-review-no-3 = Pitakonan sing bisa nyebabake wong nuduhake sing sensitif lan bisa micu respon
+# Answering a Question
+code-switching-answer-subheader = Wangsulan Pitakonan
+code-switching-answer-intro = Nalika mangsuli pitakonan, tujuane yaiku nanggapi kanthi alami - kaya sing bakal sampeyan lakoni ing obrolan nyata. Kita pengin nangkep kepiye basa-basa kasebut nyampur ing obrolan saben dina.
+code-switching-answer-bullet-1 = Pikirake momen utawa kahanan nyata: guyonan, padudon, tradhisi
+code-switching-answer-bullet-2 = Bayangna sampeyan lagi ngirim pesen teks menyang kanca utawa crita marang wong liya
+code-switching-answer-bullet-3 = Gunakna tembung-tembung sing sejatine bakal sampeyan gunakake, sanajan dijupuk utawa dicampur
+code-switching-answer-bullet-4 = Ora ana cara "sampurna" kanggo njawab
+code-switching-authentic-header = Wangsulana kanthi alami lan asli
+code-switching-authentic-speak = <bold>Ngomong kaya karo kanca utawa kulawarga.</bold> Yen sampeyan nyampur basa ing urip nyata, lakoni sing padha ing kene. Tuladha:
+code-switching-authentic-speak-example = "Aku wis ngandhani dheweke yen aku ora bisa lunga, nanging dheweke kaya, 'Kowe kudu teka!'"
+code-switching-use-both-languages = <bold>Gunakake rong basa kasebut yen biasane sampeyan ngucapake kaya ngono.</bold> Sanajan mung ngganti siji utawa loro tembung wae migunani. Tuladha:
+code-switching-use-both-languages-example = "Dheweke nesu banget amarga aku ora nelpon dheweke maneh."
+code-switching-authentic-direct-quotes = <bold>Termasuk kutipan langsung utawa dialog.</bold> Ucapake persis apa sing diomongake wong liya, dudu versi sing diganti utawa resmi. Tuladha:
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tú crees que esto es un juego?' lan aku kaya, 'Oke chill!'"
+code-switching-authentic-reflect = <bold>Nggambarake emosi, identitas, lan konteks.</bold> Owah-owahan biasane kedadeyan nalika wong ngungkapake emosi, kepentingan, utawa ide budaya. Gunakake iki nalika mangsuli pitakon.
+code-switching-authentic-full-context = <bold>Gunakake jawaban lengkap kanthi konteks.</bold> Gawekno ringkesan sak akeh-akehe, wenehana katrangan sak akeh-akehe. Nuduhake crita utawa conto ing jawaban sampeyan.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Aja Mikir Kakehan utawa Ngedit Kakehan
+code-switching-answer-dont-correct-language = <bold>"Benerake" basa sampeyan.</bold> Iki dudu tes. Wangun "sing bener" ora penting ing kene, basa alami sing penting.
+code-switching-answer-dont-avoid-switching = <bold>Ojo ngerubah yen biasane sampeyan lakoni.</bold> Ora apa-apa ngubah ing tengah ukara, ing tengah pikiran, utawa mung kanggo sak tembung.
+code-switching-answer-dont-formal-writing = <bold>Ngomonga kaya-kaya sampeyan lagi nulis kanthi resmi.</bold> Aja menehi wangsulan resmi lan akademis. Jaganen supaya tetep kaya obrolan biasa.
+code-switching-answer-dont-force-switch = <bold>Peksa ganti yen ora wajar.</bold> Mung ngganti yen kaya ngono carane sampeyan ngomong kanthi alami ing kahanan kasebut.
+code-switching-answer-dont-translate-repeat = <bold>Terjemahake utawa baleni kabeh.</bold> Cukup ucapake sapisan, kaya nalika ngobrol. Sampeyan ora perlu ngomong versi respon ing saben basa.
+# Transcribing
+code-switching-transcribe-subheader = Transkripsi
+code-switching-transcribe-intro = Nalika nyalin tanggapan sing kalebu alih kode, wakilana basa pawicara kaya sing diucapake - tanpa mbenerake, nyunting, utawa nyederhanakake. Iki kanggo kabeh owah-owahan antarane basa, wicara informal, lan tembung campuran basa.
+code-switching-transcribe-do-1 = Puter segmen cendhak kaping pirang-pirang kanggo nyekel owah-owahan sing alus
+code-switching-transcribe-do-2 = Mandheg sedhela sawise saben ukara kanggo mriksa maneh ana owah-owahan utawa tembung campuran
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Nyekel Pidato Persis Kaya Sing Diucapake
+code-switching-capture-explanation = Transkripsi rong basa kasebut kaya sing katon/dirungokake. Aja "ndandani" basa kasebut utawa ngganti dadi mung sak basa.
+# Include filler words and markers
+code-switching-filler-header = Kalebu tembung pangisi lan tandha
+code-switching-filler-explanation = Tembung-tembung kaya "hm," "koyo," "eh," "weruh po ora," lan "dadi" iku nduweni teges. Tuladha: "Dadi, um, aku ngomong karo dheweke, ra sido, menawa mengko bae.'"
+# Use standard spelling for each language
+code-switching-spelling-header = Gunakake cara nulis sing standar kanggo saben basa
+code-switching-spelling-explanation = Coba ejanen tembung kanthi bener kanggo saben basa, kajaba sing ngucapake kanthi cetha nganggo cara sing ora standar.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Aja Ngresiki utawa Nyederhanakake Basa
+code-switching-cleanup-1 = Terjemahake utawa tulis langsung – tulis apa sing diomongake pamicara, dudu apa sing "karepe".
+code-switching-cleanup-2 = Tata basa utawa pangucapan sing "bener" – njaga panggunaan alami pamicara.
+code-switching-cleanup-3 = Lewati tandha hubung sing katon sepele utawa cilik - sanajan tembung sing disilih uga penting.
+code-switching-cleanup-4 = Lebokna tandha wacan sing bisa ngowahi tegese – jaga alur supaya tetep alami.
+code-switching-cleanup-5 = Anggep sampeyan ngerti basa saben tembung - adhedhasar tandaha ing panggawene.
+# Tagging
+code-switching-tagging-subheader = Menehi Tag
+code-switching-tagging-error-intro = Menawa transkripsi ngandhut kesalahan, mangga gunakake fungsi laporan kanggo nandhani. Babagan kesalahan kalebu:
+code-switching-tagging-error-1 = Tandha wacan utawa kapitalisasi sing salah
+code-switching-tagging-error-2 = Salah ketik
+code-switching-tagging-error-3 = Tembung-tembung sing ditulis nganggo aturan panulisan sing salah
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Nggunakake Aturan Panulisan sing Bener kanggo Saben Basa
+code-switching-orthography-explanation = Tulis saben tembung miturut ejaan basa asale. Tuladhane:
+code-switching-orthography-explanation-example-1 = Yen tembung "pawon" katon diucapake kaya ing basa Spanyol, kudune ditulis kaya ing basa Inggris, dudu "quichen".
+code-switching-orthography-explanation-example-2 = Yen tembung quinceaños diucapake ing basa Inggris, tulis tembung kui nganggo ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Gunakake Pangucapan kanggo Mbantu Nemtokake Basa
+code-switching-pronunciation-explanation = Sawetara tembung bisa uga katon padha ing rong basa kasebut nanging bisa uga diucapake kanthi beda. Rungokna pangucapane kanggo mbantu menehi tag kanthi bener. Contone: cable, taco, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Basa Inggris: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Basa Spanyol: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Menehi Tandha ing Token Tunggal
+code-switching-single-token-explanation = Sak yoken sing dipisahake spasi kudu ngemot luwih saka sak jengkal sing ditandai.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Tandha Wacan Adhedhasar Basa kang Cedhak
+code-switching-punctuation-tagging-explanation = Wenehi tandha wacan nganggo basa sing paling cedhak karo sing sisih kiwa. Tuladha:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>lan nalika</purple> Maria <purple>njerit marang aku yaiku</purple> <blue>amarga</blue> <purple>dheweke nyoba</purple> printear <blue>un</blue> <purple>mesen.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>nanging</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>apa wae.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Ati-ati karo sing kethokane podho
+code-switching-lookalikes-explanation = Sawetara tembung katon kaya saka sak basa, nanging digunakake ing basa liyane. Tag adhedhasar makna lan panggunaan, dudu penampilan. Tuladha:
+code-switching-lookalikes-explanation-example-1 = "Footing" yen artine mlayu ing basa Spanyol > tandhai basa Spanyol
+code-switching-lookalikes-explanation-example-2 = "No problemo" digunakake ing basa Inggris > tag minangka basa Inggris
+# When Not to Tag Words
+code-switching-not-tag-header = Nalika Ora Perlu Menehi Tag Tembung
+code-switching-not-tag-explanation = Sawetara tembung ora kena ditag nganggo label basa, sanajan katon dicampur utawa diadaptasi. Mangkene carane nangani sawetara conto:
+code-switching-not-tag-proper-names = <bold>Jeneng Pribadi.</bold> Jeneng wong, panggonan, lan organisasi ora kena diwenehi tag. Tuladha:
 code-switching-not-tag-proper-names-example-1 = Wong: Maryam, Yahya
+code-switching-not-tag-proper-names-example-2 = Panggonan: Jogjakarta, Malang
+code-switching-not-tag-proper-names-example-3 = Merek/Organisasi: Honda, Indomie
+code-switching-not-tag-mixed-words = <bold>Tembung Campuran utawa Adaptasi Morfologis.</bold> Aja menehi tag tembung sing nyampur basa utawa duwe pungkasan tambahan saka basa liya. Contone:
+code-switching-not-tag-mixed-words-example = Ing ngendi tembung asline saka basa Inggris nanging akhirane saka basa Spanyol: "parkear", "printearlo"
+code-switching-not-tag-interjections = <bold>Tembung seru/emosi.</bold> Tembung seru/emosi lan tembung pangisi, saka basa apa bae, kudune tetep <bold>tanpa tandha.</bold> Tuladha:
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = "Ora"
+code-switching-not-tag-interjections-example-3 = "Iya"
+code-switching-not-tag-interjections-example-4 = "Eh"
+
+## Reporting Content
+
+reporting-content = Konten Laporan
+reporting-content-subheader = Pandhuan umum
+reporting-content-explanation-1 = Sampeyan kudu nandhani konten sing nyerang, mbebayani, utawa nguwatirake. Uga ora kudu ngemot informasi pribadi kaya nomer telpon utawa alamat. Konten kasebut bakal dibusak saka pengalaman sampeyan nganti tim Common Voice bisa mriksa lan nyelidiki luwih lanjut.
+reporting-content-explanation-2 = Kanggo nglaporake konten, pilih tombol "Laporan" lan pilih siji utawa kabeh pilihan: Konten sing Nyerang, Basa sing Beda, Informasi Pribadi sing Bisa Diidentifikasi, lan liyane. Saka kene, wenehana rincian luwih lengkap babagan alesan sampeyan nglaporake konten kasebut ing area teks. Banjur, kirim Laporan kanthi ngeklik tombol Laporan.

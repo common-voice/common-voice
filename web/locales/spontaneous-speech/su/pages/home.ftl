@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Wilujeng Sumping di Ucapan Spontan
+# <br></br> represents a newline break
+wall-of-text = Common Voice ngaluncurkeun platform kadua anu fokus kana ngumpulkeun ucapan organik, spontan, sareng teu ditulis. Ieu bakal ngabantosan seueur komunitas ngumpulkeun data langkung gancang, ogé mangpaat pikeun élmuwan data sareng pamekar.
 why-spontaneous-speech = Naha urang ngaawangun ieu prototipe Ucapan Spontan
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Mangpaat pikeun <mark>kontéks ucapan organik</mark> sareng kasus pamakean (contona, nalika anjeun hoyong pangakuan ucapan tiasa dianggo sareng jalma anu nyarios tanpa naskah sareng basa sapopo)
@@ -23,6 +25,7 @@ check-bubble-title = <mark>Pariksa</mark>
 check-bubble-subtitle = Anjeun pariksa naha transkripsi saluyu jeung audio
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Data</mark>
+data-bubble-subtitle = Kami ngarilis kumpulan data sacara périodik
 contact-us = Mangga taros kami.
 contact-us-title = Anjeun minat kanggo ilubiung dina project ieu, atanapi kolaborasi sareng urang?
 contact-us-email = Surelek: <emailFragment>commonvoice@mozilla.com</emailFragment>

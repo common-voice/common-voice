@@ -12,7 +12,7 @@ import { importTargetSegments } from './lib/model/db/import-target-segments'
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity'
 import Model from './lib/model'
 import API from './lib/api'
-import { redis, useRedis, redlock } from './lib/redis'
+import { redis, useRedis, redlock } from './lib/redis-cache'
 import { APIError, getElapsedSeconds } from './lib/utility'
 import { getConfig } from './config-helper'
 import fetchLegalDocument from './fetch-legal-document'
@@ -23,6 +23,7 @@ import { setupUpdateValidatedSentencesQueue } from './infrastructure/queues/upda
 import { setupBulkSubmissionQueue } from './infrastructure/queues/bulkSubmissionQueue'
 import { importSentences } from './lib/model/db/import-sentences'
 import { setupAuthRouter } from './auth-router'
+import { TimeUnits } from 'common/js/types'
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version'
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web')
@@ -238,7 +239,7 @@ export default class Server {
    */
   async performMaintenance(): Promise<void> {
     const start = Date.now()
-    this.print('performing Maintenance')
+    this.print('[maintenance] Performing Maintenance')
 
     try {
       await this.model.performMaintenance()
@@ -249,19 +250,21 @@ export default class Server {
       // directly add sentences on the CV platform. However, it is still
       // valuable to set up a local development environment.
       if ('local' == getConfig().ENVIRONMENT && getConfig().IMPORT_SENTENCES) {
-        const import_languages = getConfig().IMPORT_LANGUAGES;
+        const import_languages = getConfig().IMPORT_LANGUAGES
         await importSentences(
           await this.model.db.mysql.createPool(),
-          import_languages ? import_languages.trim().split(',') : [],
+          import_languages ? import_languages.trim().split(',') : []
         )
       }
 
       await importTargetSegments()
-      this.print('Maintenance complete')
+      this.print('[maintenance] Maintenance complete')
     } catch (err) {
-      this.print('Maintenance error', err)
+      this.print('[maintenance] Maintenance error', err)
     } finally {
-      this.print(`${getElapsedSeconds(start)}s to perform maintenance`)
+      this.print(
+        `[maintenance] ${getElapsedSeconds(start)}s to perform maintenance`
+      )
     }
   }
 
@@ -303,7 +306,7 @@ export default class Server {
     const result = await redis.get(MAINTENANCE_VERSION_KEY)
     const hasMigrated = result == this.version
     if (hasMigrated) {
-      this.print('maintenance already performed')
+      this.print('[maintenance] Already performed')
     }
     return hasMigrated
   }
@@ -312,6 +315,7 @@ export default class Server {
    * Start up everything.
    */
   async run(options?: { doImport: boolean }): Promise<void> {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     options = { doImport: true, ...options }
     this.print('starting')
 
@@ -329,29 +333,40 @@ export default class Server {
       return
     }
 
+    // Try to acquire the lock - if another pod has it, wait for them to finish
     this.print('acquiring lock')
-    const lock = await redlock.lock(
-      'common-voice-maintenance-lock',
-      1000 * 60 * 60 * 6 /* keep lock for 6 hours */
-    )
+    let lock
+    try {
+      lock = await redlock.lock(
+        'common-voice-maintenance-lock',
+        6 * TimeUnits.HOUR /* keep lock for 6 hours */
+      )
+      console.log('lock acquired: ', lock?.resource?.toString())
+    } catch (lockError) {
+      // Another pod is performing maintenance
+      this.print('[maintenance] Lock held by another pod, checking if complete')
 
-    console.log('lock acquired: ', lock?.resource?.toString())
+      // Check if maintenance already completed
+      if (await this.hasMigrated()) {
+        this.print('[maintenance] Already completed by another pod')
+        return
+      }
 
-    // we need to check again after the lock was acquired, as another instance
-    // might've already migrated in the meantime
-    if (await this.hasMigrated()) {
-      await lock.unlock()
-      return
+      // Maintenance not done yet - exit and let Kubernetes restart us
+      // On restart, hasMigrated() will return true and we'll skip maintenance
+      throw new Error('[maintenance] Another pod is on it - exiting to retry')
     }
 
+    // We have the lock - perform maintenance
     try {
       await this.performMaintenance()
       await redis.set(MAINTENANCE_VERSION_KEY, this.version)
     } catch (e) {
-      this.print('error during maintenance', e)
+      this.print('[maintenance] Error during maintenance', e)
+    } finally {
+      // Release lock (will auto-expire after 6h if this fails)
+      await lock.unlock().catch(() => {})
     }
-
-    await lock.unlock()
   }
 
   /**

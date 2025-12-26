@@ -91,6 +91,7 @@ dv = Dhivehi
 dyu = Dioula
 ebr = Ebrie
 ee = Eweština
+efk = Efik
 eko = Ekoti
 el = Řečtina
 en = Angličtina
