@@ -410,4 +410,39 @@ export const ACCENTS: Accent[] = [
     accent_name: "Français de l'est de la France",
     accent_token: 'fr-metro-east',
   },
+  {
+    locale_name: 'ro',
+    accent_name: 'Muntenesc',
+    accent_token: 'ro-muntenia',
+  },
+  {
+    locale_name: 'ro',
+    accent_name: 'Moldovenesc',
+    accent_token: 'ro-moldova',
+  },
+  {
+    locale_name: 'ro',
+    accent_name: 'Oltenesc',
+    accent_token: 'ro-oltenia',
+  },
+  {
+    locale_name: 'ro',
+    accent_name: 'Maramureșean',
+    accent_token: 'ro-maramu',
+  },
+  {
+    locale_name: 'ro',
+    accent_name: 'Crișean',
+    accent_token: 'ro-crisana',
+  },
+  {
+    locale_name: 'ro',
+    accent_name: 'Bănățean',
+    accent_token: 'ro-banat',
+  },
+  {
+    locale_name: 'ro',
+    accent_name: 'Transilvănean',
+    accent_token: 'ro-transilv',
+  },
 ]
