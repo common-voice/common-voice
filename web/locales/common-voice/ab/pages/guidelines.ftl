@@ -13,9 +13,9 @@ misreadings = Ииашам аԥхьашьа
 offensive-content = Ихьымӡӷыргаго аҵакы
 background-noise = Афонтә шьҭыбжьы
 background-voices = Афонтә бжьқәа
-volume = Амҽхак
+volume = Ашьҭыбжьдура
 reader-effects = Аԥхьара аеффектқәа
-just-unsure = Агәра ганы уҟаӡами?
+just-unsure = Агәра ганы шәыҟаӡами?
 example = Аҿырԥштәы
 
 ## Voice collection sidebar content
