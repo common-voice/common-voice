@@ -1,6 +1,6 @@
 ## Error pages
 
-banner-error-slow-1 = Ҳаҭамыз, Азеиԥш бжьы ҵаӷоуп. Иҭабуп шәахьаазҿлымҳаз азы.
+banner-error-slow-1 = Ҳаҭамыз, Common Voice имыццакӡакәа аус ауеит. Иҭабуп аинтерес ахьшәымоу азы.
 banner-error-slow-2 = Ҳара аидара ду ҳақәуп, уажәазы ​​ари азҵаара аҭҵаара мҩаԥаҳгоит.
 banner-error-slow-link = Адаҟьа аҭагылазаашьа
 error-something-went-wrong = Уа, акы еиқәымшәеит
