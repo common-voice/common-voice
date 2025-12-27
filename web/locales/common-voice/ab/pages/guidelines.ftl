@@ -1,17 +1,17 @@
 # GUIDELINES PAGE
 guidelines-header = Аҽалархәразы ахархәага
-guidelines-header-subtitle = Иҵа Common Voice адатасет аҿы ажәеинраалақәеи аудиоклипқәеи рылахәхара, рыхәаԥшра.
+guidelines-header-subtitle = Common Voice адыррақәа реизгаҿы аҽалархәра шшәылшо, насгьы аҳәоуқәеи аудиоклипқәеи шгәашәҭаша еилышәкаа.
 voice-collection = Абжьқәа реизга
-sentence-collection = Аҳәоуқәа реизга
+sentence-collection = Афразақәа реизга
 scripted-speech = Асценариатә жәаҳәа
 spontaneous-speech = Аспонтантә жәаҳәа
 
 ## Voice Collection nav ids
 
-varying-pronunciations = Еиуеиԥшым Аҳәашьа
-misreadings = Ииашамкәа аԥхьара
-offensive-content = Угәы ԥызжәо аҵакы
-background-noise = Афонтә бжьы
+varying-pronunciations = Еиуеиԥшым аҳәашьа
+misreadings = Ииашам аԥхьашьа
+offensive-content = Ихьымӡӷыргаго аҵакы
+background-noise = Афонтә шьҭыбжьы
 background-voices = Афонтә бжьқәа
 volume = Амҽхак
 reader-effects = Аԥхьара аеффектқәа
