@@ -1,5 +1,5 @@
 # GUIDELINES PAGE
-guidelines-header = Аҽалархәразы амҩақәҵага
+guidelines-header = Аҽалархәразы ахархәага
 guidelines-header-subtitle = Иҵа Common Voice адатасет аҿы ажәеинраалақәеи аудиоклипқәеи рылахәхара, рыхәаԥшра.
 voice-collection = Абжьқәа реизга
 sentence-collection = Аҳәоуқәа реизга
