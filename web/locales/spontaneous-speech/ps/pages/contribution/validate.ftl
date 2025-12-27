@@ -1,12 +1,12 @@
 ## Validate Page
 
-validate-page-instruction = تاييد کړئ <validateIcon></validateIcon> ايا دا پوښتنې لارښوونې پوره کوي؟
-dataset-label = اومتوک‌ټولگه
-accept-vote-toast-message = په برياليتوب سره منل شوې پوښتنې
-reject-vote-toast-message = په برياليتوب سره نامنل شوې پوښتنې
+validate-page-instruction = تایید کړئ <validateIcon></validateIcon> آیا دا پوښتنې له لارښوونو سره سمون لري؟
+dataset-label = ډېټاسیټ
+accept-vote-toast-message = په برياليتوب سره منل شوې پوښتنه
+reject-vote-toast-message = په برياليتوب سره رد شوې پوښتنه
 add-vote-error-message = غوښتنې ته د رايې ورکولو پرمهال يوه تېروتنه رامنځته شوه
 # Message which appears when there are no more resources on this page
-no-questions-continue-skipped-message = د دې ژبې لپاره نورې پوښتنې نشته. که تاسو کومه يوه پرېښې وي؛ نو کولی شئ د پرېښودل شوې منځپانگې سره دوام ورکړئ يا غږيز لېږد ته ورشئ او وروسته بيا هڅه وکړئ.
+no-questions-continue-skipped-message = د دې ژبې لپاره نورې پوښتنې نشته. که تاسو کومې پوښتنې پرېښي وي، کولای شئ له پرېښودل شوې منځپانګې سره دوام ورکړئ، یا د غږ لېکل (Transcribe) ته ولاړ شئ او وروسته بیا هڅه وکړئ.
 validate-page-yes-button-shortcut = وای(Y)
 validate-page-no-button-shortcut = اېن (N)
 validate-page-skip-button-shortcut = اېس (S)
