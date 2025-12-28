@@ -341,11 +341,23 @@ export default class Clip {
               : String(transcodeError ?? 'Unknown error')
 
           // Check if this is audio corruption vs server error
-          const isCorruption =
-            errorMessage.includes('Invalid data') ||
-            errorMessage.includes('Invalid argument') ||
+          // Server infrastructure issues (timeout/OOM) should return 500
+          const isServerInfrastructureError =
+            errorMessage.includes('SIGKILL') || errorMessage.includes('SIGTERM')
+
+          // Most ffmpeg errors indicate bad input data (corruption/format issues)
+          // Use generic pattern matching instead of specific strings
+          const hasCorruptionIndicators =
+            errorMessage.toLowerCase().includes('invalid') ||
+            errorMessage.toLowerCase().includes('corrupt') ||
+            errorMessage.toLowerCase().includes('failed') ||
+            errorMessage.toLowerCase().includes('malformed') ||
             errorMessage.includes('pipe:0') ||
-            errorMessage.includes('moov atom not found')
+            errorMessage.includes('moov atom')
+
+          // Classify: infrastructure errors are server issues, everything else is corruption
+          const isCorruption =
+            !isServerInfrastructureError && hasCorruptionIndicators
 
           console.error(
             `[saveClip] Transcode failed (corruption=${isCorruption}):`,
