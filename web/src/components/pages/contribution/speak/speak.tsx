@@ -503,7 +503,7 @@ class SpeakPage extends React.Component<Props, State> {
               retries--
               await new Promise(resolve => setTimeout(resolve, 1000))
 
-              if (retries == 0 && confirm(getString(key))) {
+              if (retries === 0 && confirm(getString(key))) {
                 retries = 3
               }
             } else {
