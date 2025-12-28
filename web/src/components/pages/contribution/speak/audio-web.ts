@@ -151,6 +151,8 @@ export default class AudioWeb {
       recorderOptions.mimeType = audioFormat
     }
 
+    console.log('[AudioWeb] MediaRecorder options:', recorderOptions)
+
     // Set up the recorder
     this.recorder = new window.MediaRecorder(outputNode.stream, recorderOptions)
 
@@ -262,6 +264,19 @@ export default class AudioWeb {
       this.recorder.removeEventListener('stop', this.recorderListeners.stop)
       this.recorderListeners.stop = () => {
         const blob = new Blob(this.chunks, { type: getAudioFormat() })
+
+        // Validate blob size - corrupted recordings may produce 0-byte or very small files
+        // This is especially common with Chrome on iPad where MP4 encoding can fail
+        const MIN_VALID_BLOB_SIZE = 100 // bytes - even 1 second of audio should be larger
+        if (blob.size < MIN_VALID_BLOB_SIZE) {
+          console.error(
+            `[AudioWeb] Blob size too small (${blob.size} bytes) - likely corrupted recording. ` +
+              `Chunks: ${this.chunks.length}, Format: ${getAudioFormat()}`
+          )
+          // Return the blob anyway - server will detect corruption and return proper error
+          // This allows user to retry rather than hanging
+        }
+
         resolve({
           url: URL.createObjectURL(blob),
           blob: blob,
