@@ -1,10 +1,15 @@
 import { spawn, ChildProcessWithoutNullStreams } from 'child_process'
 import { PassThrough } from 'stream'
 import { Semaphore } from 'async-mutex'
+import {
+  CLIP_TRANSCODE_TIMEOUT_MS,
+  MAX_RECORDING_MS_WITH_HEADROOM,
+} from 'common'
 import { getConfig } from '../config-helper'
 
 interface TranscodeOptions {
   ffmpegPath?: string
+  timeoutMs?: number // Maximum time to allow for transcoding
 }
 
 interface TranscodeResult {
@@ -35,15 +40,14 @@ const DEFAULT_CONCURRENCY_LIMIT = 4
 const configuredConcurrency =
   getConfig().CLIP_TRANSCODE_CONCURRENCY_LIMIT || DEFAULT_CONCURRENCY_LIMIT
 
-const transcodeSemaphore = new Semaphore(
-  Math.max(1, configuredConcurrency)
-)
+const transcodeSemaphore = new Semaphore(Math.max(1, configuredConcurrency))
 
 export const transcodeToMp3 = (
   input: NodeJS.ReadableStream,
   options: TranscodeOptions = {}
 ): TranscodeResult => {
   const ffmpegPath = options.ffmpegPath ?? 'ffmpeg'
+  const timeoutMs = options.timeoutMs ?? CLIP_TRANSCODE_TIMEOUT_MS
 
   const ffmpeg = spawn(ffmpegPath, DEFAULT_FFMPEG_ARGS, {
     stdio: ['pipe', 'pipe', 'pipe'],
@@ -57,7 +61,19 @@ export const transcodeToMp3 = (
 
   const stream = new PassThrough()
 
+  // Set up timeout to prevent hanging processes
+  let timeoutHandle: NodeJS.Timeout | null = null
+  let isTimedOut = false
+
+  const clearTimeoutIfExists = () => {
+    if (timeoutHandle) {
+      clearTimeout(timeoutHandle)
+      timeoutHandle = null
+    }
+  }
+
   ffmpeg.stdout.on('error', error => {
+    clearTimeoutIfExists()
     stream.destroy(error)
   })
 
@@ -66,23 +82,53 @@ export const transcodeToMp3 = (
   input.pipe(ffmpeg.stdin)
 
   ffmpeg.stdin.on('error', error => {
+    clearTimeoutIfExists()
     // Ignore the EPIPE error that occurs when ffmpeg exits before the input completes.
     if ((error as NodeJS.ErrnoException).code === 'EPIPE') return
     stream.destroy(error)
   })
 
   input.on('error', error => {
+    clearTimeoutIfExists()
     stream.destroy(error)
-    ffmpeg.kill('SIGKILL')
+    if (!ffmpeg.killed) {
+      ffmpeg.kill('SIGKILL')
+    }
   })
 
   const completed = new Promise<void>((resolve, reject) => {
+    // Set timeout handler
+    timeoutHandle = setTimeout(() => {
+      isTimedOut = true
+      const timeoutError = new Error(
+        `[ffmpeg] Transcoding timed out after ${timeoutMs}ms`
+      )
+      stream.destroy(timeoutError)
+      if (!ffmpeg.killed) {
+        ffmpeg.kill('SIGTERM') // Try graceful termination first
+        setTimeout(() => {
+          if (!ffmpeg.killed) {
+            ffmpeg.kill('SIGKILL') // Force kill if still running
+          }
+        }, 2000)
+      }
+      reject(timeoutError)
+    }, timeoutMs)
+
     ffmpeg.once('error', err => {
+      clearTimeoutIfExists()
       stream.destroy(err)
       reject(err)
     })
 
     ffmpeg.once('close', (code, signal) => {
+      clearTimeoutIfExists()
+
+      if (isTimedOut) {
+        // Already rejected due to timeout
+        return
+      }
+
       if (code === 0 && !signal) {
         resolve()
         return
@@ -104,6 +150,7 @@ export const transcodeToMp3 = (
 
 interface ProbeOptions {
   ffprobePath?: string
+  timeoutMs?: number // Maximum time to allow for probing
 }
 
 interface ProbeMeasurement {
@@ -137,6 +184,7 @@ export const probeDurationFromStream = (
   options: ProbeOptions = {}
 ): ProbeResult => {
   const ffprobePath = options.ffprobePath ?? 'ffprobe'
+  const timeoutMs = options.timeoutMs ?? MAX_RECORDING_MS_WITH_HEADROOM
 
   const ffprobe = spawn(ffprobePath, DEFAULT_FFPROBE_ARGS, {
     stdio: ['pipe', 'pipe', 'pipe'],
@@ -153,7 +201,19 @@ export const probeDurationFromStream = (
     stdoutChunks.push(chunk as Buffer)
   })
 
+  // Set up timeout to prevent hanging processes
+  let timeoutHandle: NodeJS.Timeout | null = null
+  let isTimedOut = false
+
+  const clearTimeoutIfExists = () => {
+    if (timeoutHandle) {
+      clearTimeout(timeoutHandle)
+      timeoutHandle = null
+    }
+  }
+
   ffprobe.stdout.on('error', error => {
+    clearTimeoutIfExists()
     if ('destroy' in input && typeof input.destroy === 'function') {
       input.destroy(error)
     }
@@ -163,6 +223,7 @@ export const probeDurationFromStream = (
   input.pipe(probeStdin)
 
   probeStdin.on('error', error => {
+    clearTimeoutIfExists()
     if ((error as NodeJS.ErrnoException).code === 'EPIPE') return
     if ('destroy' in input && typeof input.destroy === 'function') {
       input.destroy(error)
@@ -170,15 +231,41 @@ export const probeDurationFromStream = (
   })
 
   input.on('error', error => {
-    ffprobe.kill('SIGKILL')
+    clearTimeoutIfExists()
+    if (!ffprobe.killed) {
+      ffprobe.kill('SIGKILL')
+    }
   })
 
   const completed = new Promise<ProbeMeasurement>((resolve, reject) => {
+    // Set timeout handler
+    timeoutHandle = setTimeout(() => {
+      isTimedOut = true
+      const timeoutError = new Error(`[ffprobe] Timed out after ${timeoutMs}ms`)
+      if (!ffprobe.killed) {
+        ffprobe.kill('SIGTERM') // Try graceful termination first
+        setTimeout(() => {
+          if (!ffprobe.killed) {
+            ffprobe.kill('SIGKILL') // Force kill if still running
+          }
+        }, 2000)
+      }
+      reject(timeoutError)
+    }, timeoutMs)
+
     ffprobe.once('error', err => {
+      clearTimeoutIfExists()
       reject(err)
     })
 
     ffprobe.once('close', (code, signal) => {
+      clearTimeoutIfExists()
+
+      if (isTimedOut) {
+        // Already rejected due to timeout
+        return
+      }
+
       if (code === 0 && !signal) {
         try {
           const rawOutput = Buffer.concat(stdoutChunks).toString().trim()
@@ -204,9 +291,10 @@ export const probeDurationFromStream = (
           const frameCount = Number.parseFloat(frameCountStr)
 
           const sampleRate = Number.parseFloat(primaryStream?.sample_rate)
-          const codecName = typeof primaryStream?.codec_name === 'string'
-            ? primaryStream.codec_name
-            : ''
+          const codecName =
+            typeof primaryStream?.codec_name === 'string'
+              ? primaryStream.codec_name
+              : ''
 
           let derivedDuration: number | null = null
           if (
