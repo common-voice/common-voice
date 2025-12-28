@@ -210,13 +210,17 @@ export const getAudioFormat = (() => {
   let format: string
 
   // Check if we're on an iOS device (iPhone, iPad, iPod)
-  const isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent)
+  // Modern detection: Chrome on iPad uses desktop UA, so check touch points
+  const isIOSDevice =
+    /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent))
 
   if (typeof window === 'undefined' || typeof MediaRecorder === 'undefined') {
     // Fallback for non-browser or unsupported environments
     format = 'audio/wav'
   } else if (isIOSDevice) {
-    // iOS devices: prefer AAC in MP4 container
+    // iOS devices (including iPad with desktop UA): prefer AAC in MP4 container
+    // iOS/iPadOS handles MP4 natively, while WebM support is limited/unreliable
     // Let iOS choose the best AAC profile automatically
     if (MediaRecorder.isTypeSupported('audio/mp4')) {
       format = 'audio/mp4'
