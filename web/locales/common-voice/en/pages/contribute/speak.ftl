@@ -12,6 +12,12 @@ record-no-mic-found = No microphone found.
 record-error-too-short = The recording was too short.
 record-error-too-long = The recording was too long.
 record-error-too-quiet = The recording was too quiet.
+record-error-uploaded-clip-corrupted = Your audio recording appears to be corrupted. This can happen due to:
+  • Browser compatibility issues (try using a different browser)
+  • Microphone or audio driver problems
+  • Network interruptions during recording
+  Please try recording again.
+record-error-uploaded-clip-too-long = Your recording exceeded the maximum duration of { $duration } seconds. Please record a shorter clip.
 record-cancel = Cancel Re-recording
 record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done
