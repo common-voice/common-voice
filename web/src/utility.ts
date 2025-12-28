@@ -71,7 +71,7 @@ export function isWebView(): boolean {
     isLinkedIn: /linkedinapp/i.test(userAgent),
     isTikTok: /tiktok/i.test(userAgent),
     isWeChat: /micromessenger/i.test(userAgent),
-    isLine: /line\//i.test(userAgent),
+    isLine: /line/i.test(userAgent),
     isPinterest: /pinterest/i.test(userAgent),
     isReddit: /\breddit\b/i.test(userAgent),
     isSlack: /slack/i.test(userAgent),

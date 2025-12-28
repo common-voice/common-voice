@@ -13,6 +13,7 @@ import { checkGoalsAfterContribution } from './model/goals'
 import {
   ChallengeToken,
   challengeTokens,
+  MAX_RECORDING_MS,
   MAX_RECORDING_MS_WITH_HEADROOM,
 } from 'common'
 import validate from './validation'
@@ -347,11 +348,12 @@ export default class Clip {
 
           // Most ffmpeg errors indicate bad input data (corruption/format issues)
           // Use generic pattern matching instead of specific strings
+          const lowercasedErrorMessage = errorMessage.toLowerCase()
           const hasCorruptionIndicators =
-            errorMessage.toLowerCase().includes('invalid') ||
-            errorMessage.toLowerCase().includes('corrupt') ||
-            errorMessage.toLowerCase().includes('failed') ||
-            errorMessage.toLowerCase().includes('malformed') ||
+            lowercasedErrorMessage.includes('invalid') ||
+            lowercasedErrorMessage.includes('corrupt') ||
+            lowercasedErrorMessage.includes('failed') ||
+            lowercasedErrorMessage.includes('malformed') ||
             errorMessage.includes('pipe:0') ||
             errorMessage.includes('moov atom')
 
@@ -510,7 +512,7 @@ export default class Clip {
               headers,
               response,
               422,
-              `Recording too long: ${error.duration}ms (max 17000ms)`,
+              `Recording too long: ${error.duration}ms (max ${MAX_RECORDING_MS}ms)`,
               'RECORDING_TOO_LONG',
               'clip'
             )
