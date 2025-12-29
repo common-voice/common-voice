@@ -265,18 +265,6 @@ export default class AudioWeb {
       this.recorderListeners.stop = () => {
         const blob = new Blob(this.chunks, { type: getAudioFormat() })
 
-        // Validate blob size - corrupted recordings may produce 0-byte or very small files
-        // This is especially common with Chrome on iPad where MP4 encoding can fail
-        const MIN_VALID_BLOB_SIZE = 100 // bytes - even 1 second of audio should be larger
-        if (blob.size < MIN_VALID_BLOB_SIZE) {
-          console.error(
-            `[AudioWeb] Blob size too small (${blob.size} bytes) - likely corrupted recording. ` +
-              `Chunks: ${this.chunks.length}, Format: ${getAudioFormat()}`
-          )
-          // Return the blob anyway - server will detect corruption and return proper error
-          // This allows user to retry rather than hanging
-        }
-
         resolve({
           url: URL.createObjectURL(blob),
           blob: blob,

@@ -203,53 +203,29 @@ export function getManageSubscriptionURL(account: UserClient) {
 
 /**
  * Get the appropriate audio format for MediaRecorder based on device capabilities.
- * Uses MediaRecorder.isTypeSupported() instead of HTMLAudioElement.canPlayType()
- * to ensure compatibility between recording and playback.
+ * Uses MediaRecorder.isTypeSupported() to ensure compatibility.
  */
-export const getAudioFormat = (() => {
-  let format: string
-
-  // Check if we're on an iOS device (iPhone, iPad, iPod)
-  // Modern detection: Chrome on iPad uses desktop UA, so check touch points
+export const getAudioFormat = () => {
+  // Detect iOS devices (including iPad Pro in desktop mode)
+  // Note: iPad Pro with "Request Desktop Site" shows "Macintosh" but has touch support
   const isIOSDevice =
     /iPad|iPhone|iPod/.test(navigator.userAgent) ||
-    (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent))
+    (typeof navigator.maxTouchPoints === 'number' &&
+      navigator.maxTouchPoints > 1 &&
+      /Macintosh/.test(navigator.userAgent))
 
-  if (typeof window === 'undefined' || typeof MediaRecorder === 'undefined') {
-    // Fallback for non-browser or unsupported environments
-    format = 'audio/wav'
-  } else if (isIOSDevice) {
-    // iOS devices (including iPad with desktop UA): prefer AAC in MP4 container
-    // iOS/iPadOS handles MP4 natively, while WebM support is limited/unreliable
-    // Let iOS choose the best AAC profile automatically
-    if (MediaRecorder.isTypeSupported('audio/mp4')) {
-      format = 'audio/mp4'
-    } else {
-      // Fallback for very old iOS versions
-      format = 'audio/wav'
-    }
-  } else {
-    // Non-iOS devices: prefer WebM with Opus (best compression and quality)
-    if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
-      format = 'audio/webm;codecs=opus'
-    } else if (MediaRecorder.isTypeSupported('audio/webm')) {
-      format = 'audio/webm'
-    } else if (MediaRecorder.isTypeSupported('audio/ogg;codecs=opus')) {
-      format = 'audio/ogg;codecs=opus'
-    } else if (MediaRecorder.isTypeSupported('audio/ogg')) {
-      format = 'audio/ogg'
-    } else {
-      // Final fallback
-      format = 'audio/wav'
-    }
+  if (typeof window !== 'undefined' && isIOSDevice) {
+    // iOS/iPadOS (including Chrome which uses WebKit) → MP4/AAC
+    return MediaRecorder.isTypeSupported('audio/mp4;codecs=aac')
+      ? 'audio/mp4;codecs=aac'
+      : 'audio/mp4'
   }
 
-  console.log(`[AudioFormat] Selected format: ${format}`)
-
-  return function getAudioFormat() {
-    return format
-  }
-})()
+  // All other platforms → WebM/Opus
+  return MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+    ? 'audio/webm;codecs=opus'
+    : 'audio/webm'
+}
 
 export async function hash(text: string) {
   const encoder = new TextEncoder()
