@@ -575,6 +575,13 @@ class SpeakPage extends React.Component<Props, State> {
   private handleSubmit = (evt: React.SyntheticEvent) => {
     const { user } = this.props
 
+    evt.preventDefault()
+
+    // Prevent double submission (double-click, double-tap, or rapid Enter key)
+    if (this.state.isSubmitted) {
+      return
+    }
+
     const hasSeenFirstCTA = castTrueString(
       window.sessionStorage.getItem(SEEN_FIRST_CTA)
     )
@@ -585,7 +592,6 @@ class SpeakPage extends React.Component<Props, State> {
 
     this.props.updateUser({ privacyAgreed: this.state.privacyAgreedChecked })
 
-    evt.preventDefault()
     this.upload(this.state.privacyAgreedChecked)
 
     if (!user.account) {
