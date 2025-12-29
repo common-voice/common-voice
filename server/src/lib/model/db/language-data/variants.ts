@@ -540,6 +540,16 @@ export const VARIANTS: Variant[] = [
     variant_token: 'luo-nyanduat',
   },
   {
+    locale_name: 'ro',
+    variant_name: 'Romanian-Romania',
+    variant_token: 'ro-RO',
+  },
+  {
+    locale_name: 'ro',
+    variant_name: 'Romanian-Moldova',
+    variant_token: 'ro-MD',
+  },
+  {
     locale_name: 'fr',
     variant_name: 'Français de métropole',
     variant_token: 'fr-metro',

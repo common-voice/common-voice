@@ -5,7 +5,7 @@ mic-access-error = تاسو باید د مایکروفون لاسرسي ته ا�
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> او څومره چې امکان ولري په طبیعي ډول ځواب ورکړئ
 # Message which appears when there are no more resources on this page
-no-prompts-continue-skipped-message = د دې ژبې لپاره نورې پوښتنې نشته. که تاسو کومه يوه پرېښې وي؛ نو کولی شئ د پرېښودل شوې منځپانګې سره دوام ورکړئ يا غږيز لېږد ته ورشئ او وروسته بيا هڅه وکړئ.
+no-prompts-continue-skipped-message = د دې ژبې لپاره نورې پوښتنې نشته. که تاسو کومې پوښتنې پرېښي وي، کولای شئ له پرېښودل شوې منځپانګې سره دوام ورکړئ، یا د (غږ  په لیک بدلول) برخې ته ولاړ شئ او وروسته بیا هڅه وکړئ.
 error-skipping = د دې پرامپټ د پرېښودو پر مهال یوه تېروتنه رامنځته شوه.
 error-recording = د ثبتولو پر مهال یوه تېروتنه رامنځته شوه
 error-fetching-prompts = د پوښتنو د ترلاسه کولو پر مهال ستونزه پېښه شوه. مهرباني وکړئ وروسته بیا هڅه وکړئ.

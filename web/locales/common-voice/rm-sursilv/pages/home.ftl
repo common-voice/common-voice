@@ -68,3 +68,7 @@ help-contribute = Ti sas gidar a crear in'unitad da datas open source varionta c
 login-company = s'annunziar / s'inscriver cun l'adressa dad e-mail da { $company }
 profile-not-required = Per contribuir eis ei buca necessari dad haver in profil, igl ei denton d'avantatg. Daco vesas ti sutvart.
 read-more-about = Legia dapli sin nossa pagina d'informaziuns davart Common Voice.
+
+## NAV ITEMS
+
+answer-questions = Rispunder damondas
