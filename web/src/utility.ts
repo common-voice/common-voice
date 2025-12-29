@@ -204,24 +204,20 @@ export function getManageSubscriptionURL(account: UserClient) {
 /**
  * Get the appropriate audio format for MediaRecorder based on device capabilities.
  * Uses MediaRecorder.isTypeSupported() to ensure compatibility.
+ *
+ * Note: isIOS() handles iPad Pro in desktop mode (via touch detection),
+ * so all iPads get MP4/AAC regardless of UA string.
  */
 export const getAudioFormat = () => {
-  // Detect iOS devices (including iPad Pro in desktop mode)
-  // Note: iPad Pro with "Request Desktop Site" shows "Macintosh" but has touch support
-  const isIOSDevice =
-    /iPad|iPhone|iPod/.test(navigator.userAgent) ||
-    (typeof navigator.maxTouchPoints === 'number' &&
-      navigator.maxTouchPoints > 1 &&
-      /Macintosh/.test(navigator.userAgent))
-
-  if (typeof window !== 'undefined' && isIOSDevice) {
-    // iOS/iPadOS (including Chrome which uses WebKit) → MP4/AAC
+  // iOS/iPadOS (including iPad Pro in desktop mode) → MP4/AAC
+  // All iOS browsers use WebKit which handles MP4 natively
+  if (isIOS()) {
     return MediaRecorder.isTypeSupported('audio/mp4;codecs=aac')
       ? 'audio/mp4;codecs=aac'
       : 'audio/mp4'
   }
 
-  // All other platforms → WebM/Opus
+  // All other platforms → WebM/Opus (best compression and quality)
   return MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
     ? 'audio/webm;codecs=opus'
     : 'audio/webm'
