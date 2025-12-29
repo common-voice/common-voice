@@ -10,6 +10,8 @@ import * as Sentry from '@sentry/node'
 import Bucket from './bucket'
 import Awards from './model/awards'
 import { checkGoalsAfterContribution } from './model/goals'
+import { redis } from './redis-cache'
+import { TimeUnits } from 'common'
 import {
   ChallengeToken,
   challengeTokens,
@@ -236,6 +238,27 @@ export default class Clip {
     const clipFileName = folder + filePrefix + '.mp3'
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`
 
+    // Redis deduplication: Check if upload succeeded in last 10 minutes
+    // Prevents concurrent duplicates and network retries from wasting bandwidth
+    const uploadKey = `upload-success:${client_id}:${sentenceId}`
+    try {
+      const recentUpload = await redis.get(uploadKey)
+      if (recentUpload) {
+        // Clip was recently uploaded - return 409 (optimistic UI treats as success)
+        this.clipSaveError(
+          headers,
+          response,
+          409,
+          `${clipFileName} already uploaded recently`,
+          ERRORS.ALREADY_EXISTS,
+          'clip'
+        )
+        return
+      }
+    } catch (redisError) {
+      // Redis unavailable - fail open (allow upload to proceed)
+    }
+
     if (await this.model.db.clipExists(client_id, sentenceId)) {
       this.clipSaveError(
         headers,
@@ -436,12 +459,7 @@ export default class Clip {
                 )
                 return T.of(undefined)
               },
-              () => {
-                console.log(
-                  `[saveClip] Successfully deleted too-long recording: ${clipFileName}`
-                )
-                return T.of(undefined)
-              }
+              () => T.of(undefined) // Deleted successfully
             )
           )()
 
@@ -454,8 +472,6 @@ export default class Clip {
 
         transcodeJob = null
 
-        console.log(`[saveClip] Clip saved to storage ${metadata}`)
-
         await this.model.saveClip({
           client_id: client_id,
           localeId: sentence.locale_id,
@@ -464,40 +480,47 @@ export default class Clip {
           sentence: sentence.text,
           duration: durationInMs,
         })
-        await Awards.checkProgress(client_id, { id: sentence.locale_id })
 
-        await checkGoalsAfterContribution(client_id, {
-          id: sentence.locale_id,
+        // Store success in Redis (10min TTL) for deduplication
+        try {
+          await redis.setex(
+            uploadKey,
+            Math.floor(10 * TimeUnits.MINUTE / 1000),
+            new Date().toISOString()
+          )
+        } catch (redisError) {
+          // Non-critical - Redis unavailable
+        }
+
+        // FAST RESPONSE: Send immediately after DB insert (reduces timeout window)
+        // Background processing of awards/bonuses prevents VPN/firewall drops
+        if (!response.headersSent) {
+          response.json({ filePrefix })
+        }
+
+        // Process awards and bonuses in background (don't block response)
+        const challenge = headers.challenge as ChallengeToken
+        Promise.all([
+          Awards.checkProgress(client_id, { id: sentence.locale_id }),
+          checkGoalsAfterContribution(client_id, { id: sentence.locale_id }),
+          // Bonus queries only if challenge token present
+          challengeTokens.includes(challenge)
+            ? Promise.all([
+                earnBonus('first_contribution', [challenge, client_id]),
+                hasEarnedBonus('invite_contribute_same_session', client_id, challenge),
+                earnBonus('three_day_streak', [client_id, client_id, challenge]),
+                this.model.db.hasChallengeEnded(challenge),
+              ])
+            : Promise.resolve([false, false, false, true]),
+        ]).catch(err => {
+          console.error('[saveClip] Background award/bonus processing failed:', err)
+          Sentry.captureException(err, {
+            tags: { context: 'background-bonus-processing' },
+            extra: { client_id, sentenceId, challenge },
+          })
         })
 
         // Basket.sync(client_id).catch(e => console.error(e)) // Commented out: currently bulk-mail facility is not supported
-
-        const challenge = headers.challenge as ChallengeToken
-        const ret = challengeTokens.includes(challenge)
-          ? {
-              filePrefix: filePrefix,
-              showFirstContributionToast: await earnBonus(
-                'first_contribution',
-                [challenge, client_id]
-              ),
-              hasEarnedSessionToast: await hasEarnedBonus(
-                'invite_contribute_same_session',
-                client_id,
-                challenge
-              ),
-              // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-              // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-              showFirstStreakToast: await earnBonus('three_day_streak', [
-                client_id,
-                client_id,
-                challenge,
-              ]),
-              challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-            }
-          : { filePrefix }
-        if (!response.headersSent) {
-          response.json(ret)
-        }
       } catch (err) {
         transcodeJob?.abort(err instanceof Error ? err : undefined)
         console.error('[saveClip] Clip save failed:', err)

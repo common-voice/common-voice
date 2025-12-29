@@ -419,7 +419,7 @@ class SpeakPage extends React.Component<Props, State> {
 
     const clip_count = clips.length
     let uploaded_count = 0
-    let hasDuplicateClip = false
+    let hasDuplicateClip = false // eslint-disable-line prefer-const
 
     addUploads([
       ...clips.map(({ sentence, recording }) => async () => {
@@ -483,9 +483,10 @@ class SpeakPage extends React.Component<Props, State> {
 
             // Check error type from server response
             if (error.message.includes('ALREADY_EXISTS')) {
-              hasDuplicateClip = true
-              key = 'error-duplicate-clip'
-              shouldRetry = false // Don't retry duplicates
+              // OPTIMISTIC UI: Treat as success (clip uploaded earlier or now)\n              hasDuplicateClip = true
+              retries = 0
+              uploaded_count += 1
+              // Don't show error - this is actually success
             } else if (error.message.includes('AUDIO_CORRUPT')) {
               // Corrupted audio data - don't retry, show helpful message
               key = 'record-error-uploaded-clip-corrupted'

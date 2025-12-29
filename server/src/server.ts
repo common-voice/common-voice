@@ -23,7 +23,7 @@ import { setupUpdateValidatedSentencesQueue } from './infrastructure/queues/upda
 import { setupBulkSubmissionQueue } from './infrastructure/queues/bulkSubmissionQueue'
 import { importSentences } from './lib/model/db/import-sentences'
 import { setupAuthRouter } from './auth-router'
-import { TimeUnits } from 'common/js/types'
+import { TimeUnits } from 'common'
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version'
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web')
