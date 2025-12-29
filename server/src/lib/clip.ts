@@ -244,15 +244,8 @@ export default class Clip {
     try {
       const recentUpload = await redis.get(uploadKey)
       if (recentUpload) {
-        // Clip was recently uploaded - return 409 (optimistic UI treats as success)
-        this.clipSaveError(
-          headers,
-          response,
-          409,
-          `${clipFileName} already uploaded recently`,
-          ERRORS.ALREADY_EXISTS,
-          'clip'
-        )
+        // Clip was recently uploaded - return 409 (not an error, just duplicate)
+        response.status(409).send(ERRORS.ALREADY_EXISTS)
         return
       }
     } catch (redisError) {
@@ -260,6 +253,9 @@ export default class Clip {
     }
 
     if (await this.model.db.clipExists(client_id, sentenceId)) {
+      // Clip already exists in database but not in Redis cache
+      // This could indicate a real duplicate issue, Redis down, cache expired (>10min), or race condition
+      // Log this to Sentry for monitoring, but it will still be handled optimistically on FE
       this.clipSaveError(
         headers,
         response,
@@ -485,7 +481,7 @@ export default class Clip {
         try {
           await redis.setex(
             uploadKey,
-            Math.floor(10 * TimeUnits.MINUTE / 1000),
+            Math.floor((10 * TimeUnits.MINUTE) / 1000),
             new Date().toISOString()
           )
         } catch (redisError) {
@@ -507,13 +503,24 @@ export default class Clip {
           challengeTokens.includes(challenge)
             ? Promise.all([
                 earnBonus('first_contribution', [challenge, client_id]),
-                hasEarnedBonus('invite_contribute_same_session', client_id, challenge),
-                earnBonus('three_day_streak', [client_id, client_id, challenge]),
+                hasEarnedBonus(
+                  'invite_contribute_same_session',
+                  client_id,
+                  challenge
+                ),
+                earnBonus('three_day_streak', [
+                  client_id,
+                  client_id,
+                  challenge,
+                ]),
                 this.model.db.hasChallengeEnded(challenge),
               ])
             : Promise.resolve([false, false, false, true]),
         ]).catch(err => {
-          console.error('[saveClip] Background award/bonus processing failed:', err)
+          console.error(
+            '[saveClip] Background award/bonus processing failed:',
+            err
+          )
           Sentry.captureException(err, {
             tags: { context: 'background-bonus-processing' },
             extra: { client_id, sentenceId, challenge },
