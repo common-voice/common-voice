@@ -131,6 +131,11 @@ class SpeakPage extends React.Component<Props, State> {
   recordingStopTime = 0
 
   static getDerivedStateFromProps(props: Props, state: State) {
+    // Guard against undefined sentences (network/communication failure)
+    if (!props.sentences) {
+      return null
+    }
+
     if (state.clips.length > 0) {
       const sentenceIds = state.clips
         .map(({ sentence }) => (sentence ? sentence.id : null))
