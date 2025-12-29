@@ -90,7 +90,7 @@ adding-sentences-subheader-length-explanation = В предложении дол
 adding-sentences-subheader-spelling-punctuation = Орфография и пунктуация
 adding-sentences-subheader-spelling-punctuation-explanation = Предложение должно быть написано правильно.
 adding-sentences-subheader-speakable = Разговорный стиль
-adding-sentences-subheader-speakable-explanation = Лучшие предложения естественны и разговорны — их должно быть легко читать. Хотя фонетическое разнообразие и разные слова в предложениях важны, мы также стараемся сделать запись предложений максимально увлекательной и весёлой для нашего волонтерского сообщества.
+adding-sentences-subheader-speakable-explanation = Лучшие предложения естественны и разговорны — их должно быть легко читать. Хотя фонетическое разнообразие и разные слова в предложениях важны, мы также стараемся сделать запись предложений максимально увлекательной и весёлой для нашего волонтёрского сообщества.
 adding-sentences-subheader-numbers = Числа
 adding-sentences-subheader-numbers-explanation = В идеале в исходном тексте не должно быть цифр, потому что они могут вызвать проблемы при чтении вслух. Способ чтения чисел зависит от контекста и может привести к путанице в наборе данных. Например, число «2409» можно точно прочитать как «двадцать четыре ноль девять» и как «две тысячи четыреста девять».
 adding-sentences-subheader-abbreviations = Аббревиатуры и Акронимы
@@ -238,7 +238,7 @@ code-switching-focus-emotional-explanation-example = «Расскажите мн
 code-switching-direct-quotes-header = Попросите прямые цитаты или реконструкции
 code-switching-direct-quotes-explanation = Попросите участников воспроизвести то, что было сказано на самом деле. Пример:
 code-switching-direct-quotes-explanation-example = «Что точно вы сказали, когда узнали?»
-code-switching-cultural-topics-header = Выбирайте темы с учетом культурной специфики
+code-switching-cultural-topics-header = Выбирайте темы с учётом культурной специфики
 code-switching-cultural-topics-explanation = Еда, обычаи, праздники и семейная динамика часто побуждают к смене кода.
 code-switching-cultural-topics-explanation-example = «Как бы вы описали Диа-де-лос-Муэртос тому, кто говорит только по-английски?»
 code-switching-informal-scenarios-header = Исследуйте неформальные сценарии
@@ -336,7 +336,7 @@ code-switching-punctuation-tagging-explanation-example-2 = <purple>но<</purple
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Будьте осторожны с похожими словами
 code-switching-lookalikes-explanation = Некоторые слова могут выглядеть как один язык, но использоваться в другом. Метка на основе значения и использования, а не внешнего вида. Примеры:
-code-switching-lookalikes-explanation-example-1 = «Fouting» раньше означал бежать на Испанском > пометить как Испанский
+code-switching-lookalikes-explanation-example-1 = «Footing» раньше означал бежать на испанском > отмечайте как испанский
 code-switching-lookalikes-explanation-example-2 = «No problemo» используется в английском > отмечайте как английский
 # When Not to Tag Words
 code-switching-not-tag-header = Когда не помечать слова

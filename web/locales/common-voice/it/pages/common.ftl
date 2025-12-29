@@ -91,6 +91,7 @@ dv = Maldiviano
 dyu = Dioula
 ebr = Ebrie
 ee = Ewe
+efk = Efik
 eko = Ekoti
 el = Greco
 en = Inglese

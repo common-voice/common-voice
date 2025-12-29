@@ -65,6 +65,7 @@ ga-IE = Tirlandit
 gl = Tagalisit
 gn = Tagaranit
 gom = Goan Konkani
+gsw = Tlzasit
 gu-IN = Taguǧaṛatit
 gv = Tamanksit
 gwc = Gawri
@@ -270,3 +271,10 @@ announcement-mdc-text = <strong>Tigrummiwin n yisefka timaynutin n Common Voice<
 announcement-mdc-button-text = Ttekki deg Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Ldi deg yiccer amaynut
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = Nadi...
+dataset-searchbox-placeholder = Nadi tutlayt...
+dataset-searchbox-aria-label = Nadi tutlayt
+request-new-language = Suter tutlayt tamaynut
