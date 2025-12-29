@@ -44,7 +44,7 @@ export default class AudioWeb {
   }
 
   private isReady(): boolean {
-    return !!this.microphone
+    return !!this.microphone && !!this.recorder
   }
 
   private getMicrophone(): Promise<MediaStream> {
@@ -288,8 +288,18 @@ export default class AudioWeb {
     }
     if (this.volumeWorklet) {
       this.volumeWorklet.disconnect()
+      this.volumeWorklet.port.onmessage = null
       this.volumeWorklet = null
     }
+    if (this.analyzerNode) {
+      this.analyzerNode.disconnect()
+      this.analyzerNode = null
+    }
+    if (this.audioContext) {
+      this.audioContext.close()
+      this.audioContext = null
+    }
+    this.recorder = null
     this.microphone = null
   }
 }
