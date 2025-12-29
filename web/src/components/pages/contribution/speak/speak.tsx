@@ -488,7 +488,8 @@ class SpeakPage extends React.Component<Props, State> {
 
             // Check error type from server response
             if (error.message.includes('ALREADY_EXISTS')) {
-              // OPTIMISTIC UI: Treat as success (clip uploaded earlier or now)\n              hasDuplicateClip = true
+              // OPTIMISTIC UI: Treat as success (clip uploaded earlier or now)
+              hasDuplicateClip = true
               retries = 0
               uploaded_count += 1
               // Don't show error - this is actually success

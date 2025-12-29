@@ -37,12 +37,14 @@ function RecordingPill({
   const [showSentenceTooltip, setShowSentenceTooltip] = useState(false)
   const audioContext = useRef(null)
   const source = useRef(null)
+  const shouldPlay = useRef(false) // Track if playback should proceed (survive re-render)
 
   const toggleIsPlaying = () => {
     const nextIsPlaying = !isPlaying
 
     if (nextIsPlaying) {
       trackRecording('listen', locale)
+      shouldPlay.current = true // Mark that playback should proceed
 
       audioContext.current = new (window.AudioContext ||
         window.webkitAudioContext)()
@@ -54,8 +56,8 @@ function RecordingPill({
           audioContext.current
             .decodeAudioData(arrayBuffer)
             .then((audioBuffer: any) => {
-              // Check if user didn't click stop while decoding
-              if (!isPlaying) {
+              // Check if user didn't click stop while decoding (use ref, not stale state)
+              if (!shouldPlay.current) {
                 return // User stopped playback before audio finished decoding
               }
               source.current.buffer = audioBuffer
@@ -80,6 +82,7 @@ function RecordingPill({
           setShowSentenceTooltip(false)
         })
     } else {
+      shouldPlay.current = false // Mark that playback should stop
       // Only stop if source exists and has been started
       if (source.current) {
         try {
