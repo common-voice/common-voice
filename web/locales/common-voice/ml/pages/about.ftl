@@ -8,6 +8,7 @@ how-does-it-work-text = നമ്മള്‍ തുറന്ന സ്രോത
 
 ## How does it work section
 
+about-language-req-subtitle = ആരോ ഒരു ഭാഷ ചേർക്കാൻ അപേക്ഷിക്കും.
 about-localization-title = വെബിട പ്രാദേശികവൽക്കരണം
 about-localization-subtitle = ആ ഭാഷയിലോട്ടാണു് വെബിടത്തിലുള്ള എഴുത്തെല്ലാം വിവൎത്തനം ചെയ്യപ്പെടുന്നതു്.
 about-new-lang-title = പുതിയ ഭാഷ തുടക്കം
