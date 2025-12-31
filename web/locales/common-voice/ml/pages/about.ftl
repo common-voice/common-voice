@@ -36,6 +36,7 @@ about-nav-why-common-voice = എന്തുകൊണ്ട്?
 about-nav-how-it-works = എങ്ങനെ ?
 about-nav-partners = പങ്കാളികള്‍
 about-nav-get-involved = പങ്കെടുക്കുക
+about-nav-playbook = പങ്കെടുക്കുന്നതെങ്ങനെയെന്നറിയുക
 
 ## How do I add a language
 
