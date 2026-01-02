@@ -281,7 +281,8 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
           )
         } catch (error) {
           // Prefetch failures are non-critical - next request will handle it
-          const errorMsg = error instanceof Error ? error.message : String(error)
+          const errorMsg =
+            error instanceof Error ? error.message : String(error)
           console.warn(
             `[LazyCache] Proactive prefetch failed for ${cacheKey}:`,
             errorMsg
@@ -541,7 +542,8 @@ function redisCache<T, S>(
                   args,
                   timeMs,
                   lockDurationMs,
-                  prefetchBefore: prefetchOptions.prefetchBefore || prefetchBefore,
+                  prefetchBefore:
+                    prefetchOptions.prefetchBefore || prefetchBefore,
                 }
                 prefetchRegistry.set(key, entry)
                 if (isDebugEnabled) {
@@ -549,7 +551,7 @@ function redisCache<T, S>(
                     `[LazyCache] Registered ${key} for proactive prefetch (TTL=${
                       timeMs / TimeUnits.MINUTE
                     }min, prefetchBefore=${
-                      prefetchOptions.prefetchBefore / TimeUnits.MINUTE
+                      entry.prefetchBefore / TimeUnits.MINUTE
                     }min)`
                   )
                 }
