@@ -14,7 +14,13 @@ import {
   AbortContributionModalActions,
   AbortContributionModalStatus,
 } from '../../../../stores/abort-contribution-modal'
-import { Sentence as SentenceType } from 'common'
+import {
+  Sentence as SentenceType,
+  MIN_RECORDING_MS,
+  MIN_RECORDING_MS_BENCHMARK,
+  MAX_RECORDING_MS,
+  MIN_VOLUME,
+} from 'common'
 import StateTree from '../../../../stores/tree'
 import { Uploads } from '../../../../stores/uploads'
 import { User } from '../../../../stores/user'
@@ -43,11 +49,6 @@ import { castTrueString, isWebView } from '../../../../utility'
 import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './speak.css'
-
-const MIN_RECORDING_MS = 1000
-const MIN_RECORDING_MS_BENCHMARK = 500
-const MAX_RECORDING_MS = 15000
-const MIN_VOLUME = 8 // Range: [0, 255].
 
 enum RecordingError {
   TOO_SHORT = 'TOO_SHORT',
@@ -130,6 +131,11 @@ class SpeakPage extends React.Component<Props, State> {
   recordingStopTime = 0
 
   static getDerivedStateFromProps(props: Props, state: State) {
+    // Guard against undefined sentences (network/communication failure)
+    if (!props.sentences) {
+      return null
+    }
+
     if (state.clips.length > 0) {
       const sentenceIds = state.clips
         .map(({ sentence }) => (sentence ? sentence.id : null))
@@ -418,7 +424,7 @@ class SpeakPage extends React.Component<Props, State> {
 
     const clip_count = clips.length
     let uploaded_count = 0
-    let hasDuplicateClip = false
+    let hasDuplicateClip = false // eslint-disable-line prefer-const
 
     addUploads([
       ...clips.map(({ sentence, recording }) => async () => {
@@ -478,18 +484,43 @@ class SpeakPage extends React.Component<Props, State> {
             uploaded_count += 1
           } catch (error) {
             let key = 'error-clip-upload'
+            let shouldRetry = true
+
+            // Check error type from server response
             if (error.message.includes('ALREADY_EXISTS')) {
+              // OPTIMISTIC UI: Treat as success (clip uploaded earlier or now)
               hasDuplicateClip = true
-              key = 'error-duplicate-clip'
+              retries = 0
+              uploaded_count += 1
+              // Don't show error - this is actually success
+            } else if (error.message.includes('AUDIO_CORRUPT')) {
+              // Corrupted audio data - don't retry, show helpful message
+              key = 'record-error-uploaded-clip-corrupted'
+              shouldRetry = false
+            } else if (error.message.includes('RECORDING_TOO_LONG')) {
+              // Recording too long - don't retry, user needs to re-record
+              key = 'record-error-uploaded-clip-too-long'
+              shouldRetry = false
             } else if (error.message.includes('save_clip_error')) {
               key = 'error-clip-upload-server'
+              shouldRetry = true // Retry server errors
             }
 
-            retries--
-            await new Promise(resolve => setTimeout(resolve, 1000))
+            if (shouldRetry) {
+              retries--
+              await new Promise(resolve => setTimeout(resolve, 1000))
 
-            if (retries == 0 && !hasDuplicateClip && confirm(getString(key))) {
-              retries = 3
+              if (retries === 0 && confirm(getString(key))) {
+                retries = 3
+              }
+            } else {
+              // Don't retry - show problem only (user cannot re-record at this stage)
+              retries = 0
+              alert(
+                getString(key, {
+                  duration: MAX_RECORDING_MS / 1000,
+                })
+              )
             }
           }
         }
@@ -550,6 +581,13 @@ class SpeakPage extends React.Component<Props, State> {
   private handleSubmit = (evt: React.SyntheticEvent) => {
     const { user } = this.props
 
+    evt.preventDefault()
+
+    // Prevent double submission (double-click, double-tap, or rapid Enter key)
+    if (this.state.isSubmitted) {
+      return
+    }
+
     const hasSeenFirstCTA = castTrueString(
       window.sessionStorage.getItem(SEEN_FIRST_CTA)
     )
@@ -560,7 +598,6 @@ class SpeakPage extends React.Component<Props, State> {
 
     this.props.updateUser({ privacyAgreed: this.state.privacyAgreedChecked })
 
-    evt.preventDefault()
     this.upload(this.state.privacyAgreedChecked)
 
     if (!user.account) {
