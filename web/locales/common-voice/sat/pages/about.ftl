@@ -71,10 +71,25 @@ about-playbook-how-add-language-content-1 =
     ᱵᱟᱨ ᱥᱴᱮᱡᱽ ᱢᱮᱱᱟᱜᱼᱟ ᱾ ᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢᱟ, ᱟᱨ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱢᱤᱫᱴᱟᱹᱝ
 about-playbook-how-add-language-translating-heading = ᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚᱢᱟ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon ᱨᱮ ᱪᱮᱫ ᱞᱮᱠᱷᱟ ᱠᱚ ᱵᱟᱵᱷᱟᱨᱟ ᱟᱞᱮᱭᱟᱜ ᱜᱚᱲᱚ ᱣᱤᱰᱤᱭᱚ ᱧᱮᱞ ᱛᱟᱞᱮᱯᱮ</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    ᱟᱞᱮ ᱫᱚ ᱛᱚᱨᱡᱚ ᱞᱟᱹᱜᱤᱫ <pontoonLink>Pontoon</pontoonLink> ᱧᱩᱛᱩᱢᱟᱱ ᱢᱚᱡᱤᱞᱟ ᱥᱟᱯᱟᱵ ᱞᱮ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟ ᱾ Pontoon ᱨᱮ ᱟᱹᱰᱤ ᱟᱭᱢᱟ ᱯᱟᱹᱨᱥᱤ ᱠᱚ ᱢᱮᱱᱟᱜᱼᱟ,
+    ᱢᱮᱱᱠᱷᱟᱱ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱟᱢᱟᱜ ᱵᱟᱝ ᱛᱟᱦᱮᱸᱱ ᱠᱷᱟᱱ ᱟᱢ ᱟᱢᱟᱜ <pontoonRequestLink> ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫ ᱞᱟᱹᱜᱤᱫ ᱟᱨᱫᱟᱥ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ </pontoonRequestLink> ᱾
+    ᱛᱟᱨᱯᱚᱨ, ᱥᱟᱫᱷᱟᱨᱚᱱ ᱟᱲᱟᱝ ᱯᱨᱚᱡᱮᱠᱴ ᱨᱮ ᱯᱟᱹᱨᱥᱤ ᱧᱟᱢᱚᱜ ᱞᱟᱹᱜᱤᱫ,
+    <githubRepoLink>ᱜᱤᱴᱦᱟᱵᱽ ᱨᱮ ᱱᱟᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱞᱟᱹᱜᱤᱫ ᱟᱨᱫᱟᱥ</githubRepoLink>᱾ <localizationFragment>ᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚ ᱨᱮ ᱵᱟᱹᱲᱛᱤ ᱧᱮᱞ ᱢᱮ</localizationFragment>᱾
+about-playbook-how-add-language-collecting-sentences-heading = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱡᱟᱣᱨᱟᱭ ᱢᱮ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> ᱟᱹᱭᱟᱹᱛ ᱡᱟᱣᱨᱟ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱮᱭᱟᱜ ᱜᱟᱭᱤᱰ ᱧᱮᱞ ᱢᱮ </sentenceCollectorVideo> ᱾
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    ᱟᱢ <sentenceCollectorLinkAdd>ᱠᱟᱹᱴᱤᱡ ᱮᱞ ᱨᱮᱱᱟᱜ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱥᱮᱞᱮᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ</sentenceCollectorLinkAdd>,
+    ᱟᱨ ᱵᱟᱝ ᱟᱢ <bulkImportDocsLink> ᱜᱤᱛᱷᱟᱵᱽ ᱵᱮᱵᱷᱟᱨ ᱠᱟᱛᱮ ᱵᱟᱹᱞᱠ ᱤᱢᱯᱚᱨᱴ ᱠᱚᱨᱟᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ</bulkImportDocsLink>᱾
+    ᱫᱤᱥᱟᱹ ᱫᱚᱦᱚᱭᱟᱢ ᱡᱮ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ <licenseLink>CC0 (ᱵᱟᱝᱠᱷᱟᱱ ᱥᱟᱱᱟᱢ ᱦᱚᱲ ᱰᱚᱢᱮᱱ)</licenseLink> ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤᱭᱟ, ᱟᱨᱵᱟᱝᱠᱷᱟᱱ ᱟᱢ ᱟᱢᱟᱜ ᱚᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ᱟᱹᱭᱟᱹᱛ ᱡᱟᱣᱨᱟ ᱨᱮ ᱵᱟᱹᱲᱛᱤ ᱧᱮᱞ ᱢᱮ</sentenceCollectorFragment>᱾
 
 ## How does localization work
 
 about-playbook-how-localize = ᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱪᱮᱞᱠᱟᱛᱮ ᱠᱟᱹᱢᱤ ᱮᱫᱟᱭ ?
+about-playbook-how-localize-content-1 = ᱥᱟᱫᱷᱟᱨᱚᱱ ᱟᱲᱟᱝ ᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚ ᱫᱚ <strong>Pontoon</strong> ᱨᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱾
+about-playbook-how-localize-content-2 = <pontoonAccountLink>ᱢᱤᱫ ᱮᱠᱟᱣᱩᱱᱴ ᱵᱮᱱᱟᱣ ᱢᱮ</pontoonAccountLink> ᱡᱩᱫᱤ ᱟᱢ ᱴᱷᱮᱱ ᱵᱟᱹᱱᱩᱜ ᱠᱷᱟᱱ ᱾ ᱚᱱᱟ ᱛᱟᱭᱚᱢ, ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ <strong>('ᱫᱚᱞ')</strong> ᱟᱨ ᱚᱱᱟ ᱛᱟᱭᱚᱢ ᱯᱨᱚᱡᱮᱠᱴ ᱵᱟᱪᱷᱟᱣ ᱢᱮ, <pontoonCvLink>ᱥᱟᱫᱷᱟᱨᱚᱱ ᱟᱲᱟᱝ</pontoonCvLink>᱾ ᱛᱚᱨᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱨᱮᱫ ᱠᱚ ᱛᱟᱦᱮᱸᱱᱟ ᱾ ᱢᱤᱫ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ, ᱚᱱᱟ ᱛᱟᱭᱚᱢ ᱱᱚᱣᱟ ᱤᱝᱨᱟᱡᱤ ᱨᱮ ᱟᱹᱲᱟᱹ ᱠᱚ ᱩᱫᱩᱜ ᱟ ᱟᱨ ᱚᱱᱟ ᱠᱚ ᱛᱚᱨᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫ ᱵᱟᱠᱥᱚ ᱾
+about-playbook-how-localize-content-3 = ᱛᱚᱨᱡᱚᱢᱟ ᱫᱚ ᱤᱝᱨᱟᱡᱤ ᱠᱷᱚᱱ, ᱢᱮᱱᱠᱷᱟᱱ ᱟᱢ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱨᱮ<strong>ᱥᱚᱞᱦᱟ</strong>ᱢ ᱧᱮᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾ <strong>ᱯᱨᱚᱯᱷᱟᱭᱤᱞ</strong> ᱪᱤᱱᱦᱟᱹ ᱨᱮ ᱞᱤᱱ ᱢᱮ, ᱚᱱᱟ ᱛᱟᱭᱚᱢ <strong>ᱥᱮᱴᱤᱝ</strong> ᱞᱤᱝᱠ ᱢᱮ ᱟᱨ ᱟᱢ ᱡᱟᱦᱟᱸ ᱯᱟᱹᱨᱥᱤ ᱮᱢ ᱨᱚᱲ ᱮᱫᱟ ᱚᱱᱟ ᱥᱮᱞᱮᱫ ᱢᱮ ᱾ ᱞᱟᱛᱟᱨ ᱡᱚᱡᱚᱢ ᱛᱤ ᱠᱚᱱᱟ ᱨᱮ <strong>ᱞᱚᱠᱮᱞᱥ</strong> ᱧᱩᱛᱩᱢᱟᱱ ᱛᱚᱨᱡᱚ ᱨᱮᱭᱟᱜ ᱛᱟᱞᱠᱟ ᱛᱟᱦᱮᱸᱱᱟ ᱾ ᱢᱤᱫ ᱫᱤᱱ ᱛᱟᱭᱚᱢ ᱥᱟᱭᱤᱴ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱧᱮᱞᱚᱜᱼᱟ ᱾
 
 ## How to add sentences
 
