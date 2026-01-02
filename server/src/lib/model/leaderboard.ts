@@ -61,7 +61,7 @@ const getCachedClipLeaderboardData = lazyCache(
   LEADERBOARD_CACHE_DURATION,
   TIER1_LOCK_DURATION,
   true // Allow stale during refresh
-  // No prefetch - Tier 2 global cache triggers refresh to prevent thundering herd
+  // No prefetch at Tier-1 - Tier-2 handles prefetch
 )
 
 // Get ALL clip leaderboard data with locales in one query
@@ -112,7 +112,7 @@ const getCachedVoteLeaderboardData = lazyCache(
   LEADERBOARD_CACHE_DURATION,
   TIER1_LOCK_DURATION,
   true // Allow stale during refresh
-  // No prefetch - Tier 2 global cache triggers refresh to prevent thundering herd
+  // No prefetch at Tier-1 - Tier-2 handles prefetch
 )
 
 // Get ALL vote leaderboard data with locales in one query
@@ -190,6 +190,7 @@ function aggregateLeaderboard(
 //
 
 // Global clip leaderboard - Tier 2: aggregates from cached raw data
+// Prefetch happens here - will invalidate Tier-1 cache to force fresh DB query
 const getGlobalClipLeaderboard = lazyCache(
   'cv:leaderboard:clip-global',
   async (): Promise<LeaderboardRow[]> => {
@@ -227,6 +228,7 @@ const getLocaleClipLeaderboard = (locale: string) => {
 //
 
 // Global vote leaderboard - Tier 2: aggregates from cached raw data
+// Prefetch happens here - will invalidate Tier-1 cache to force fresh DB query
 const getGlobalVoteLeaderboard = lazyCache(
   'cv:leaderboard:vote-global',
   async (): Promise<LeaderboardRow[]> => {
