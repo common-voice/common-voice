@@ -187,7 +187,22 @@ export const setupAuthRouter = async () => {
           `${basePath}login-success?challenge=${enrollment.challenge}&achievement=1`
       )
     } else {
-      response.redirect(redirect || basePath + 'login-success')
+      // Check if user has an account (registered user)
+      const client_id = await UserClient.findClientId(user.email)
+
+      // For new users (no client_id), don't use redirect - they need to complete profile first
+      // The login-success page will handle redirecting them to profile info
+      if (client_id) {
+        // Existing user - honor the redirect
+        response.redirect(redirect || basePath + 'login-success')
+      } else {
+        // New user - ignore redirect, let them set up profile first
+        // Store the redirect in session storage via query param for later use
+        const redirectParam = redirect
+          ? `?intended_redirect=${encodeURIComponent(redirect)}`
+          : ''
+        response.redirect(basePath + 'login-success' + redirectParam)
+      }
     }
   })
 
