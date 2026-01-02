@@ -90,10 +90,15 @@ about-playbook-how-localize = ᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢ
 about-playbook-how-localize-content-1 = ᱥᱟᱫᱷᱟᱨᱚᱱ ᱟᱲᱟᱝ ᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚ ᱫᱚ <strong>Pontoon</strong> ᱨᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱾
 about-playbook-how-localize-content-2 = <pontoonAccountLink>ᱢᱤᱫ ᱮᱠᱟᱣᱩᱱᱴ ᱵᱮᱱᱟᱣ ᱢᱮ</pontoonAccountLink> ᱡᱩᱫᱤ ᱟᱢ ᱴᱷᱮᱱ ᱵᱟᱹᱱᱩᱜ ᱠᱷᱟᱱ ᱾ ᱚᱱᱟ ᱛᱟᱭᱚᱢ, ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ <strong>('ᱫᱚᱞ')</strong> ᱟᱨ ᱚᱱᱟ ᱛᱟᱭᱚᱢ ᱯᱨᱚᱡᱮᱠᱴ ᱵᱟᱪᱷᱟᱣ ᱢᱮ, <pontoonCvLink>ᱥᱟᱫᱷᱟᱨᱚᱱ ᱟᱲᱟᱝ</pontoonCvLink>᱾ ᱛᱚᱨᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱨᱮᱫ ᱠᱚ ᱛᱟᱦᱮᱸᱱᱟ ᱾ ᱢᱤᱫ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ, ᱚᱱᱟ ᱛᱟᱭᱚᱢ ᱱᱚᱣᱟ ᱤᱝᱨᱟᱡᱤ ᱨᱮ ᱟᱹᱲᱟᱹ ᱠᱚ ᱩᱫᱩᱜ ᱟ ᱟᱨ ᱚᱱᱟ ᱠᱚ ᱛᱚᱨᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫ ᱵᱟᱠᱥᱚ ᱾
 about-playbook-how-localize-content-3 = ᱛᱚᱨᱡᱚᱢᱟ ᱫᱚ ᱤᱝᱨᱟᱡᱤ ᱠᱷᱚᱱ, ᱢᱮᱱᱠᱷᱟᱱ ᱟᱢ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱨᱮ<strong>ᱥᱚᱞᱦᱟ</strong>ᱢ ᱧᱮᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾ <strong>ᱯᱨᱚᱯᱷᱟᱭᱤᱞ</strong> ᱪᱤᱱᱦᱟᱹ ᱨᱮ ᱞᱤᱱ ᱢᱮ, ᱚᱱᱟ ᱛᱟᱭᱚᱢ <strong>ᱥᱮᱴᱤᱝ</strong> ᱞᱤᱝᱠ ᱢᱮ ᱟᱨ ᱟᱢ ᱡᱟᱦᱟᱸ ᱯᱟᱹᱨᱥᱤ ᱮᱢ ᱨᱚᱲ ᱮᱫᱟ ᱚᱱᱟ ᱥᱮᱞᱮᱫ ᱢᱮ ᱾ ᱞᱟᱛᱟᱨ ᱡᱚᱡᱚᱢ ᱛᱤ ᱠᱚᱱᱟ ᱨᱮ <strong>ᱞᱚᱠᱮᱞᱥ</strong> ᱧᱩᱛᱩᱢᱟᱱ ᱛᱚᱨᱡᱚ ᱨᱮᱭᱟᱜ ᱛᱟᱞᱠᱟ ᱛᱟᱦᱮᱸᱱᱟ ᱾ ᱢᱤᱫ ᱫᱤᱱ ᱛᱟᱭᱚᱢ ᱥᱟᱭᱤᱴ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱧᱮᱞᱚᱜᱼᱟ ᱾
+about-playbook-how-localize-content-4 = ᱥᱟᱭᱤᱴ ᱫᱚ ᱞᱚᱱᱪ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱯᱲᱟᱣ ᱜᱮᱭᱟ ᱡᱚᱠᱷᱚᱱ ᱱᱚᱣᱟ ᱗᱕% ᱢᱩᱪᱟᱹᱫᱚᱜᱼᱟ ᱾
+about-playbook-how-localize-content-5 = ᱜᱚᱲᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱮᱭᱟᱜ ᱵᱷᱤᱰᱤᱭᱚ ᱵᱩᱡᱷᱟᱹᱣ ᱧᱮᱞ ᱢᱮ
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ᱤᱧ ᱫᱚ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱪᱮᱞᱠᱟᱛᱮ ᱥᱮᱞᱮᱫ ᱟᱹᱧ ?
+about-playbook-how-add-sentences-content-1 = ᱟᱢ <writePageLink>ᱚᱞ ᱥᱟᱦᱴᱟ</writePageLink> ᱨᱮ ᱟᱹᱭᱟᱹᱛ ᱥᱮᱞᱮᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ ᱟᱨᱵᱟᱝ <reviewPageLink>review page</reviewPageLink> ᱨᱮ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾
+about-playbook-how-add-sentences-content-2 = ᱥᱟᱫᱷᱟᱨᱚᱱ ᱟᱲᱟᱝ ᱨᱮ ᱥᱮᱞᱮᱫᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱵᱟᱨ ᱦᱚᱲ ᱦᱚᱛᱮᱛᱮ ᱧᱮᱞ ᱫᱚᱦᱚ ᱟᱨ ᱟᱝᱜᱚᱪ ᱞᱟᱹᱠᱛᱤᱭᱟ᱾ ᱟᱢ ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱞᱟᱹᱜᱤᱫ ᱫᱤᱥᱦᱩᱫᱤᱥ ᱵᱮᱱᱟᱣ ᱢᱮ <languageGuidelinesLink>ᱱᱚᱸᱰᱮ</languageGuidelinesLink>᱾ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ <licenseLink>ᱥᱟᱶᱛᱟ ᱰᱚᱢᱮᱱ</licenseLink> ᱨᱮ ᱟᱨ ᱑᱕ ᱟᱹᱲᱟᱹ ᱠᱷᱚᱱ ᱠᱷᱟᱴᱚ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤᱭᱟ᱾ ᱟᱢ ᱢᱤᱫ ᱚᱞ ᱨᱮᱱ ᱢᱟᱞᱤᱠ ᱢᱮᱛᱟᱭ ᱫᱟᱲᱮᱭᱟᱭᱟᱢ ᱱᱚᱣᱟ <waiverLink>CC0 ᱵᱮᱱᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱮᱭᱟᱜ ᱢᱟᱭᱤᱵᱷᱟᱨ ᱯᱨᱚᱠᱨᱤᱭᱟ</waiverLink> ᱵᱮᱵᱷᱟᱨ ᱠᱟᱛᱮ, ᱟᱨ ᱟᱞᱮ commonvoice@mozilla.com ᱨᱮ ᱵᱷᱮᱡᱟᱭ ᱢᱮ
+about-playbook-how-add-sentences-content-3 = ᱣᱤᱠᱤᱯᱮᱰᱤᱭᱟ ᱠᱷᱚᱱ ᱠᱷᱟᱴᱚ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱞᱟᱵᱷ ᱞᱟᱹᱜᱤᱫ ᱟᱢ <scraperLink>ᱟᱹᱭᱟᱹᱛ ᱚᱰᱚᱠ</scraperLink> ᱵᱮᱵᱷᱟᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
 
 ## How to grow language
 
