@@ -42,9 +42,6 @@ not-found-page-header = N'eo ket bet kavet
 not-found-page-content = N'eus ket bet gallet kavout ar bajenn emaoc'h o klask
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Mat eo din <termsLink>Termenoù</termsLink> Common voice hag ar <privacyLink>Politikerezh a-fet buhez prevez</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Mikstekeg Tlaxiaco ar mervent
-mel = Melanau kreiz
 # Locales-Variants
 ms-MY = Malayseg Bahasa
 

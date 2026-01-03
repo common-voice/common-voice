@@ -43,6 +43,7 @@ let healthCheckInterval: NodeJS.Timeout | null = null
 const coldStartErrorsReported = new Set<string>()
 
 // Proactive prefetch registry: track caches that need background prefetch checks
+// Redis locks provide natural coordination
 const prefetchRegistry = new Map<string, PrefetchEntry>()
 let prefetchCheckInterval: NodeJS.Timeout | null = null
 
@@ -133,6 +134,7 @@ export function stopHealthMonitoring(): void {
 
 // Proactive prefetch monitoring - runs independently of user requests
 // This ensures caches are refreshed even during low-traffic periods
+// If lock is busy (another pod prefetching), skip silently - no retries!
 function startPrefetchMonitoring() {
   if (prefetchCheckInterval) {
     clearInterval(prefetchCheckInterval)
@@ -160,7 +162,6 @@ function startPrefetchMonitoring() {
         await checkAndTriggerPrefetch(entry)
       } catch (error) {
         // Log but don't fail - prefetch is non-critical
-        // If Redis is down, this will fail gracefully
         console.warn(
           `[LazyCache] Proactive prefetch check failed for ${entry.key}:`,
           error instanceof Error ? error.message : error
@@ -179,6 +180,7 @@ export function stopPrefetchMonitoring(): void {
 
 // Check if a specific cache entry needs prefetching (proactive background check)
 // This is called periodically by the background timer
+// Try lock ONCE, skip if busy - no retries
 async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
   const { key, cachedFunction, args, timeMs, lockDurationMs, prefetchBefore } =
     entry
@@ -193,7 +195,6 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
 
     const cached = JSON.parse(raw)
     // Expect simple format: { at: number, value: unknown }
-    // Old formats will naturally expire and be replaced
     if (!cached.at || cached.value === undefined) {
       return // Invalid or old format - skip
     }
@@ -228,18 +229,28 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
       ;(async () => {
         let prefetchLock: Lock | null = null
         try {
-          // Try to acquire lock - if another instance is already prefetching, we skip
-          // Lock duration should cover the expected query time plus safety margin
-          prefetchLock = await redlock.lock(`${key}-prefetch`, lockDurationMs)
+          // Try to acquire lock ONCE - no retries
+          // If another pod is prefetching, we skip silently
+          try {
+            prefetchLock = await redlock.lock(`${key}-prefetch`, lockDurationMs)
+          } catch (lockError) {
+            // Lock is busy - another pod is prefetching, skip silently
+            if (isDebugEnabled) {
+              console.debug(
+                `[LazyCache] Prefetch skipped for ${cacheKey}: another pod is prefetching (lock busy)`
+              )
+            }
+            return // Silent skip - this is expected and normal
+          }
 
-          // Double-check if still needed (another instance might have just refreshed)
+          // We got the lock! Double-check if still needed
           const current = await redis.get(key)
           if (current) {
             const currentCached = JSON.parse(current)
             const currentAge = Date.now() - currentCached.at
             if (currentAge < refreshThreshold) {
               console.log(
-                `[LazyCache] Prefetch skipped for ${cacheKey}: already refreshed by another instance`
+                `[LazyCache] Prefetch skipped for ${cacheKey}: already refreshed`
               )
               return
             }
@@ -253,8 +264,6 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
           const fetchTime = Date.now() - startTime
 
           // Store refreshed value in Redis with FULL TTL from NOW
-          // This keeps the cache perpetually fresh - it never expires as long as prefetch works
-          // Example: If prefetched at T+35min, new expiry is T+35min+60min = T+95min
           await redis.set(
             key,
             JSON.stringify({
@@ -272,10 +281,11 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
           )
         } catch (error) {
           // Prefetch failures are non-critical - next request will handle it
-          // This handles: lock conflicts, Redis down, query timeouts, etc.
+          const errorMsg =
+            error instanceof Error ? error.message : String(error)
           console.warn(
             `[LazyCache] Proactive prefetch failed for ${cacheKey}:`,
-            error instanceof Error ? error.message : error
+            errorMsg
           )
         } finally {
           // Always release lock if we acquired it
@@ -297,7 +307,6 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
     })
   } catch (error) {
     // Errors here are likely Redis connection issues - log and continue
-    // The health check will handle Redis failover to memory cache if needed
     console.warn(
       `[LazyCache] Error checking prefetch for ${key}:`,
       error instanceof Error ? error.message : error
@@ -527,20 +536,22 @@ function redisCache<T, S>(
             if (prefetchEnabled) {
               // Register once per unique cache key for background monitoring
               if (!prefetchRegistry.has(key)) {
-                prefetchRegistry.set(key, {
+                const entry: PrefetchEntry = {
                   key,
                   cachedFunction,
                   args,
                   timeMs,
                   lockDurationMs,
-                  prefetchBefore,
-                })
+                  prefetchBefore:
+                    prefetchOptions.prefetchBefore || prefetchBefore,
+                }
+                prefetchRegistry.set(key, entry)
                 if (isDebugEnabled) {
                   console.debug(
                     `[LazyCache] Registered ${key} for proactive prefetch (TTL=${
                       timeMs / TimeUnits.MINUTE
                     }min, prefetchBefore=${
-                      prefetchBefore / TimeUnits.MINUTE
+                      entry.prefetchBefore / TimeUnits.MINUTE
                     }min)`
                   )
                 }
@@ -679,8 +690,9 @@ function redisCache<T, S>(
   async function waitForFreshData(key: string): Promise<T> {
     // Another pod/request holds the lock and is computing the data
     // Poll Redis until data appears or we timeout
-    // Wait up to 90% of lock duration or 20min, whichever is less (allows time for long queries like vote leaderboard ~14-15min)
-    const maxWaitTime = Math.min(lockDurationMs * 0.9, 20 * TimeUnits.MINUTE)
+    // Wait up to 90% of lock duration (allows time for long queries)
+    // The 10% margin ensures we timeout before the lock expires
+    const maxWaitTime = lockDurationMs * 0.9
     const pollInterval = 1000 // Check every 1s (reduced frequency for long waits)
     const maxAttempts = Math.floor(maxWaitTime / pollInterval)
 

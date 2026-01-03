@@ -37,9 +37,6 @@ not-found-page-header = পোৱা নগ’ল
 not-found-page-content = আপুনি বিচাৰি থকা পৃষ্ঠাখন পাব পৰা নগ’ল
 # Privacy and Terms checkbox
 accept-privacy-and-terms = মই কমন ভইচৰ <termsLink>চৰ্তাৱলী</termsLink> আৰু <privacyLink>গোপনীয়তাৰ জাননী</privacyLink>ত সন্মতি জনাইছোঁ
-# Locales (not yet fully resolved in Pontoon)
-meh = দক্ষিণ-পশ্চিমীয়া ট্‌লাক্সিয়াক' মিক্সটেক
-mel = কেন্দ্ৰীয় মেলানাউ
 # Locales-Variants
 ms-MY = বাহাছা মালয়
 

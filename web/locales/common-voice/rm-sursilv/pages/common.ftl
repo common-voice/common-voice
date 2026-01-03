@@ -151,3 +151,26 @@ indicates-required = * indichescha in caum obligatori
 not-available-abbreviation = buca disponibel
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Copiar
+# Text shown on a button that can be clicked to cancel an action
+cancel = Interrumper
+# Text shown on a button that can be clicked to delete an item
+delete = Stizzar
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Arver en in niev tab
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Entscheiva a tippar per encurir
+searchbox-default-placeholder = Encurir...
+searchbox-default-aria-label = Encurir
+dropdown-no-results = Anflau nuot che corrispunda
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Mida il lungatg dalla pagina ed era dalla rimnada da datas
+dataset-searchbox-placeholder = Encurir in lungatg...
+dataset-searchbox-aria-label = Encurir in lungatg
+dataset-search-no-results = Anflau negin lungatg che corrispunda
+request-new-language = Proponer in niev lungatg

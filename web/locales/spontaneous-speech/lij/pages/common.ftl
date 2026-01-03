@@ -37,9 +37,6 @@ not-found-page-header = No attrovou
 not-found-page-content = No s’é posciuo attrovâ a pagina che ti çerchi
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Son d’accòrdio co-e <termsLink>condiçioin</termsLink> e l’<privacyLink>informativa in sciâ privacy</privacyLink> de Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Tlaxiaco Mixtec do sud òvest
-mel = Melanau do mezo
 # Locales-Variants
 ms-MY = Bahasa maleise
 

@@ -43,9 +43,6 @@ not-found-page-header = Heb Ganfod
 not-found-page-content = Heb ganfod y dudalen rydych yn chwilio amdani.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Rwy'n cytuno i <termsLink>Delerau</termsLink> a <PrivacyLink>Hysbysiad Preifatrwydd</privacyLink> Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Tlaxiaco Mixtec y De Orllewin
-mel = Melanau Canolog
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Groeg Chypriad

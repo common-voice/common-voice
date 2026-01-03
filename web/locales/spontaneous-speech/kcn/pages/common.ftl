@@ -31,8 +31,5 @@ not-found-page-header = Maa ligo
 not-found-page-content = Safha al ita gi gusu de maa agder ligo uwo
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ana gi rudu ma sauti wayi
-# Locales (not yet fully resolved in Pontoon)
-meh = South western Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

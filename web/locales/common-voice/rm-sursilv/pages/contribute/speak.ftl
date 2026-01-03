@@ -1,3 +1,5 @@
+speak = Tschintschar
+speak-now = Tschontscha ussa
 record-cta = registrar
 record-platform-not-supported = Nus stein mal, tia plattafuorma vegn actualmein buca sustenida.
 record-platform-not-supported-desktop = Sin computers da desktop sas ti telecargar la pli nova versiun:

@@ -1,6 +1,7 @@
 action-click = cliccar
 action-tap = tippar
 contribute = contribuir
+review = Verificar
 skip = sursiglir
 shortcuts = Cumbinaziun da tastas
 goal-help-recording = Ti has gidau Common Voice a contonscher <goalPercentage></goalPercentage> da nossa finamira dil di da { $goalValue }!
@@ -10,10 +11,22 @@ contribute-more =
         [one] Promts/promta da far { $count } dapli?
        *[other] Promts/promta da far { $count } dapli?
     }
+speak-empty-state = Las construcziuns da registrar en quei lungatg ein exaustas...
+speak-empty-state-cta = Contribuir construcziuns
+speak-loading-error =
+    Nus havein buca saviu retrer construcziuns per registrar.
+    Emprova aunc inaga pli tard.
 record-button-label = registrescha tia vusch
 share-title-new = <bold>Gida nus</bold> ad anflar novas vuschs
 keep-track-profile = Teni en egl vies progress cun in profil
 login-to-get-started = S'annunziei ni seregistrei per entscheiver
+login-signup = S'annunziar / Seregistrar
+vote-yes = Gie
+vote-no = Na
+datasets = Unitads da datas
+languages = Lungatgs
+about = Informaziuns sur da nus
+submit-form-action = Tarmetter
 
 ## Reporting
 
@@ -49,6 +62,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = registrar/stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Repeter la registraziun dil clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Dismetter la registraziun currenta
+shortcut-submit = Turnar
+shortcut-submit-label = Tarmetter las registraziuns
 request-language-text = Ei tiu lungatg aunc buca veseivels sin Common Voice?
 request-language-button = Giavischar in lungatg
 
@@ -64,3 +81,7 @@ shortcut-vote-yes = g
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
+
+contribution-for-example = per exempel

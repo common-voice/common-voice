@@ -43,9 +43,6 @@ not-found-page-header = ونه موندل شو
 not-found-page-content = هغه پاڼه چې تاسو یې لټوئ ونه موندل شوه
 # Privacy and Terms checkbox
 accept-privacy-and-terms = زه د کامن وايس د<termsLink> شرایطو </termsLink> او <privacyLink>د محرمیت خبرتیا</privacyLink> سره موافق یم
-# Locales (not yet fully resolved in Pontoon)
-meh = سويل لوېديځ ټلکیاکو مکسټيک
-mel = مرکزي میلانو
 # Locales-Variants
 ms-MY = باهسا مالې (د مالیزیا ژبه)
 el-CY = سايپروټ يوناني  (د قبرس يوناني لهجه)

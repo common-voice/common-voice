@@ -40,9 +40,6 @@ not-found-page-header = Nìtt gfùnde
 not-found-page-content = D’Sitt, wo-n’r süeche, ìsch nierigs ze fìnde
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ìch stìmm de <termsLink>Benùtzùngsbedìngùnge</termsLink> ùn de <privacyLink>Dàteschùtzerklärùng</privacyLink> vùn Common Voice zü
-# Locales (not yet fully resolved in Pontoon)
-meh = Mixtek vùn Südwescht-Tlaxiaco
-mel = Zentràl-Melanau
 # Locales-Variants
 ms-MY = Bahasa-Màlaisisch
 

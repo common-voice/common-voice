@@ -31,8 +31,5 @@ not-found-page-header = Ni takgeska
 not-found-page-content = Xlakan web nima ixputsapat ni takgeska
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Akit kmatlaní <termsLink>xalistalanit nikulá namaskujuyá</termsLink> chu <privacyLink>latá natamakgtakalha wekg tukú klichiwinalh</privacyLink> nak Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Mixteco de Tlaxiaco
-mel = Melanau central
 # Locales-Variants
 ms-MY = Bahasa Malay

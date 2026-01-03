@@ -43,9 +43,6 @@ not-found-page-header = Njenamakany
 not-found-page-content = Bok, kótaryž pytaśo, njejo se namakał
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Zwólijom do <termsLink>wužywańskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Krotkowjacorna tlaksiakska mikstekšćina
-mel = Centralny Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Cypriska grichišćina

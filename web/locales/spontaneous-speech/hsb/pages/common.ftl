@@ -43,9 +43,6 @@ not-found-page-header = Njenamakany
 not-found-page-content = Strona, kotruž pytaće, njeje so namakała.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Zwolu do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Juhozapadna tlaksiakska mikstekšćina
-mel = Centralny Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Cypernska grjekšćina
