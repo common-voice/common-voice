@@ -37,8 +37,5 @@ not-found-page-header = Ebithethabanika
 not-found-page-content = Omwatsi owali oko lhupapura olhwawusaonda anginabya isyathabanika
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Wulighe emibuughe Common Voice's <termsLink>Terms</termsLink> kandi<privacyLink>Privacy Notice</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

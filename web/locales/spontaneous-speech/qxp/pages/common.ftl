@@ -31,8 +31,5 @@ not-found-page-header = Mana Tarisqachu
 not-found-page-content = Maskhasqayki p'anqaqa manam tarisqachu
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Common Voicewan llamk'aspa, <termsLink>Kamachikuykuna</termsLink> hinallataq <privacyLink>Waqaychay Willakuykuna</privacyLink> allimpi tarikunki
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

@@ -20,6 +20,19 @@
     .username-btn {
         display: flex;
         align-items: center;
+
+        & .name {
+            margin-inline-end: 10px;
+            max-width: 100%;
+            font-family: var(--base-font-family);
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     }
 
     & .toggle {
@@ -37,19 +50,6 @@
             margin-inline-end: 10px;
         }
 
-        & .name {
-            margin-inline-end: 10px;
-            max-width: 100%;
-            font-family: var(--base-font-family);
-            font-weight: 600;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
         & svg {
             margin: 0 11px 0 0;
             transition: transform var(--easing) var(--transition-duration);
@@ -60,17 +60,19 @@
         }
     }
 
-    @media (--xs-down) {
+    @media (--sm-down) {
         margin: 0 8px;
         max-width: fit-content;
 
-        & .toggle .username-btn {
-            & .name {
-                display: none;
-            }
+        & .toggle {
+            & .username-btn {
+                & .name {
+                    display: none;
+                }
 
-            & .avatar-wrap {
-                margin-inline-end: 4px;
+                & .avatar-wrap {
+                    margin-inline-end: 4px;
+                }
             }
 
             & svg {
@@ -81,6 +83,10 @@
 
     & .menu-wrap {
         position: relative;
+
+        @media (--sm-down) {
+            position: static;
+        }
     }
 
     & .menu {
@@ -92,8 +98,9 @@
         display: none;
 
         @media (--sm-down) {
-            top: 100%;
-            right: 0;
+            position: fixed;
+            top: var(--header-height);
+            right: 8px;
         }
 
         & .triangle {

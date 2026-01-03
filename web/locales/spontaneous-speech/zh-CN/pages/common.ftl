@@ -43,9 +43,6 @@ not-found-page-header = 找不到页面
 not-found-page-content = 找不到您需要的页面
 # Privacy and Terms checkbox
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用条款</termsLink>和<privacyLink>隐私声明</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = 米斯特克语（西南拉克斯亚戈）
-mel = 中部梅拉瑙语
 # Locales-Variants
 ms-MY = 马来语
 el-CY = 希腊语（塞浦路斯）

@@ -72,3 +72,29 @@ read-more-about = Legia dapli sin nossa pagina d'informaziuns davart Common Voic
 ## NAV ITEMS
 
 answer-questions = Rispunder damondas
+add-questions = Aschuntar damondas
+transcribe-audio = Transcriver audio
+press-and-stories = Pressa ed artechels
+community-and-languages = Cuminonza e lungatgs
+about-us = Sur da nus
+scripted-speech = DISCUORS PRELEGIU
+spontaneous-speech = DISCUORS SPONTAN
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partenadis, pressa ed artechels, cuminonza e lungatgs
+
+## Action items section
+
+scripted-card-header = Discuors prelegiu
+spontaneous-card-header = Discuors spontan
+add-text = Aschuntar texts
+answer = Rispunder
+
+## Get involved section
+
+read-sentences-link = Leger construcziuns
+validate-readings-link = Validar registraziuns
+contribute-link = Contribuir al corpus da texts
+answer-questions-link = Rispunder damondas
+transcribe-answers-link = Transcriver rispostas

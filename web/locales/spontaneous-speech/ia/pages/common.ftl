@@ -43,9 +43,6 @@ not-found-page-header = Non trovate
 not-found-page-content = Le pagina que tu recerca non pote esser trovate
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Io concorda con le <termsLink>Terminos</termsLink> e con le <privacyLink>Aviso de confidentialitate</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = mixteco tlaxiaco de sud-west
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Greco cypriota

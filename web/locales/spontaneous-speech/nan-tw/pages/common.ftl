@@ -37,9 +37,6 @@ not-found-page-header = 找不到
 not-found-page-content = 找不到您尋找的頁面。
 # Privacy and Terms checkbox
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec 語
-mel = Central Melanau 語
 # Locales-Variants
 ms-MY = Bahasa Melayu 馬來語
 

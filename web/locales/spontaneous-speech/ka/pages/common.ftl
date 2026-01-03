@@ -43,9 +43,6 @@ not-found-page-header = ვერ მოიძებნა
 not-found-page-content = მოთხოვნილი გვერდი ვერ მოიძებნა
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ვეთანხმები Common Voice-ის <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = სამხრეთდასავლური ტლახიაკის მისტეკური
-mel = ცენტრალური მელანაუ
 # Locales-Variants
 ms-MY = ბაჰასა-მალაური
 el-CY = კვიპროსული ბერძნული

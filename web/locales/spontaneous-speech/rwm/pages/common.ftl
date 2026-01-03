@@ -37,8 +37,5 @@ not-found-page-header = Ka enikani
 not-found-page-content = Mpapulo ndia olikabhai kaenikana
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Nnibhalyani  na kigambo Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

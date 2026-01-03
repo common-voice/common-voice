@@ -31,8 +31,5 @@ not-found-page-header = ataaġurkam
 not-found-page-content = maa barenas ite page atamaġurśuman
 # Privacy and Terms checkbox
 accept-privacy-and-terms = jaa common voice e terms ke privacy policy cum itifaaq bila
-# Locales (not yet fully resolved in Pontoon)
-meh = southwestern tlaxiaco mixtec
-mel = central melanau
 # Locales-Variants
 ms-MY = bahasa malay

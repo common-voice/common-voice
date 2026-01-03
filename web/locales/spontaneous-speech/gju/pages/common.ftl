@@ -37,9 +37,6 @@ not-found-page-header = نیہہ لبھیو
 not-found-page-content = جس صفحہ نا تم ڈھونڈو وہ نیہہ لبھیو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ہوں کامن وائس کی <termsLink> شرط</termsLink> <privacyLink> تے ذاتی آگاہی </privacyLink> نال متفق ہوں
-# Locales (not yet fully resolved in Pontoon)
-meh = شمال مغربی ٹلاکسکو میکسٹیک
-mel = بچکارلی ملاناو
 # Locales-Variants
 ms-MY = بھاسا مالے
 
