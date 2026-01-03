@@ -43,9 +43,6 @@ not-found-page-header = ცო ლახდალიჼ
 not-found-page-content = დაკლე́ვადიენო̆ სა́იტ ცო ლახდალიჼ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = დარ ლე́ვდოს Common Voice-ეჼ <termsLink> პირბახა́</termsLink> ჲე <privacyLink> პირად მონაცე́მი და́ცოდჲარეჼ განაცხა́დეხა́
-# Locales (not yet fully resolved in Pontoon)
-meh = სამხრეთდასავლურ ტლახიაკეჼ მისტეკურ
-mel = ცენტრალურ მელანაუ
 # Locales-Variants
 ms-MY = ბაჰასა მალაურ
 el-CY = პვიპროსბაჼ ბე́რძნულ

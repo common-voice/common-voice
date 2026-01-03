@@ -43,9 +43,6 @@ not-found-page-header = Juhu’ỹva
 not-found-page-content = Ndaikatúi ojejuhu pe kuatiarogue rehekavareína
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Mixteco Tlaxiaco pegua
-mel = Melanau mbytépe
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Griego Chipriota

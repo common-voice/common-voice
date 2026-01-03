@@ -41,9 +41,6 @@ not-found-page-header = تېپىلمىدى
 not-found-page-content = سىز ئىزدەۋاتقان بەت تېپىلمىدى
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مەن Common Voice نىڭ <termsLink> شەرتلىرى </termsLink> ۋە <privacyLink>مەخپىيەتلىك ئۇقتۇرۇشى </privacyLink> غا قوشۇلىمەن.
-# Locales (not yet fully resolved in Pontoon)
-meh = مىكستېك (غەربىي جەنۇپ لاكسىياكو)
-mel = مەركىزى مىلانو
 # Locales-Variants
 ms-MY = باخاسا مالاي
 

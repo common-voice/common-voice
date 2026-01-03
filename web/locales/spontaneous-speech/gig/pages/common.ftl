@@ -37,9 +37,6 @@ not-found-page-header = ڪوني ملي
 not-found-page-content = جيڪو پنآ تم ڊونڊ ري ڇو او ڪوني ميل سڪي
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ڪآمن وآئس استمال ڪرو تم همآري <termsLink>سرتي </termsLink>ائين  <privacyLink> زرداري نوٽيس</privacyLink>ٻدل ڇآن
-# Locales (not yet fully resolved in Pontoon)
-meh = ڏکڻ اولهه ٽليڪسيآڪو ميڪٽيڪ
-mel = مرڪزي ميلآنو
 # Locales-Variants
 ms-MY = بآسهآ مآلي
 

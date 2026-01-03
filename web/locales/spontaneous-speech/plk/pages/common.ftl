@@ -43,9 +43,6 @@ not-found-page-header = نہ ہشِلُن
 not-found-page-content = څھوْس کھاں صفحہ ڇکینَت، اسہ نہ ہشِلُن۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = موْس کامن وائس سے اتفاق تھمَس <termsLink> شرائط </termsLink>  آں<privacyLink> رازداری نوٹس </privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی تلسیکو میکٹیک
-mel = وسطی میلانو
 # Locales-Variants
 ms-MY = بہاسا مالائی
 el-CY = قبرصی یونانی۔

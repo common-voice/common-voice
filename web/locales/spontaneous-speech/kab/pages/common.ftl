@@ -30,8 +30,6 @@ check-transcriptions = Senqed
 not-found-page-header = Ulac-it
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Qebleɣ <termsLink>Tiwtilin</termsLink> d <privacyLink> Tasertit n tbaḍnit </privacyLink> n Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Tlaxiaco Mixtec n unẓul
 
 ## Language search component
 

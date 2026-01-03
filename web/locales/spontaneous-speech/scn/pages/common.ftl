@@ -18,8 +18,5 @@ respond-to-prompt = Arrispunni â dumanna
 
 ## Not Found Page
 
-# Locales (not yet fully resolved in Pontoon)
-meh = Mixtec di Tlaxiaco di sciroccu-punenti
-mel = Melanau cintrali
 # Locales-Variants
 ms-MY = Bahasa Malay

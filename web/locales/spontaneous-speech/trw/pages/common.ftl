@@ -37,8 +37,5 @@ not-found-page-header = نہ پاد
 not-found-page-content = کامے پاݜ تُھو بودے دا تیس مھو یے نہ پاد
 # Privacy and Terms checkbox
 accept-privacy-and-terms = آ کامن وائس سی شرطا سیت رأضی تُھو آں <privacyLink> پرائیویسی نوٹس سیت ہوم راضی تُھو۔ </privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی ٹلیکسکو میکسٹیک
-mel = مرکزی میلانؤ
 # Locales-Variants
 ms-MY = بھشا ملے

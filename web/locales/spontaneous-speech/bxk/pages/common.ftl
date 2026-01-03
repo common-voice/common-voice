@@ -37,8 +37,5 @@ not-found-page-header = Sebinyolekha tah
 not-found-page-content = Epage isii'oli khoenjanga sebinyolekha tah
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ifukilisa kamakono kabuli ngeli<termsLink>Terms</termsLink> nende <privacyLink>Privacy Notice</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Akari èMelanau
 # Locales-Variants
 ms-MY = Bahasa Malay
